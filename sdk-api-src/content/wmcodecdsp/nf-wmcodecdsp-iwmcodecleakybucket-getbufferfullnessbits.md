@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecLeakyBucket.GetBufferFullnessBits
 title: IWMCodecLeakyBucket::GetBufferFullnessBits
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mf\iwmcodecleakybucketgetbufferfullnessbits.htm
 old-project: medfound
 ms.assetid: 46eee8c9-e10e-41e3-9400-051b4484eee0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetBufferFullnessBits, GetBufferFullnessBits method [Media Foundation], GetBufferFullnessBits method [Media Foundation],IWMCodecLeakyBucket interface, IWMCodecLeakyBucket interface [Media Foundation],GetBufferFullnessBits method, IWMCodecLeakyBucket.GetBufferFullnessBits, IWMCodecLeakyBucket::GetBufferFullnessBits, codecapi.iwmcodecleakybucketgetbufferfullnessbits, codecapi.iwmcodecleakybuffergetbufferfullnessbits, mf.iwmcodecleakybucketgetbufferfullnessbits, wmcodecdsp/ IWMCodecLeakyBucket::GetBufferFullnessBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

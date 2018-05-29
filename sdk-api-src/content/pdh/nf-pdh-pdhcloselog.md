@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhCloseLog
 title: PdhCloseLog function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the specified log file.
 old-location: perf\pdhcloselog.htm
 old-project: PerfCtrs
 ms.assetid: 74039bdf-d1b5-41ba-aa4e-4779ce0dd02a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PDH_FLAGS_CLOSE_QUERY, PdhCloseLog, PdhCloseLog function [Perf], _win32_pdhcloselog, base.pdhcloselog, pdh/PdhCloseLog, perf.pdhcloselog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

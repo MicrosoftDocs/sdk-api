@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.AddDataSource
 title: IMFTimedText::AddDataSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a timed-text data source.
 old-location: mf\imftimedtext_adddatasource.htm
 old-project: medfound
 ms.assetid: 76922DFA-E109-475D-BE09-47501AC7F50E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddDataSource, AddDataSource method [Media Foundation], AddDataSource method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],AddDataSource method, IMFTimedText.AddDataSource, IMFTimedText::AddDataSource, mf.imftimedtext_adddatasource, mfmediaengine/IMFTimedText::AddDataSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

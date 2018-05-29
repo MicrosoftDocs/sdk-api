@@ -1,16 +1,16 @@
 ---
 UID: NF:magnification.MagSetWindowSource
 title: MagSetWindowSource function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the source rectangle for the magnification window.
 old-location: magapi\magapi_MagSetWindowSource.htm
 old-project: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetwindowsource.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: MagSetWindowSource, MagSetWindowSource function [Magnification API], magapi.magapi_MagSetWindowSource, magapi_MagSetWindowSource, magnification/MagSetWindowSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: magnification.h
 req.include-header: 

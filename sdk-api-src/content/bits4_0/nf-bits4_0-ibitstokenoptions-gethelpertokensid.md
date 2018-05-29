@@ -1,16 +1,16 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.GetHelperTokenSid
 title: IBitsTokenOptions::GetHelperTokenSid
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the SID of the helper token if one is set.
 old-location: bits\ibitstokenoptions_gethelpertokensid.htm
 old-project: Bits
 ms.assetid: 724614af-cae8-47d7-888d-ed1504a9bc12
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetHelperTokenSid, GetHelperTokenSid method [BITS], GetHelperTokenSid method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],GetHelperTokenSid method, IBitsTokenOptions.GetHelperTokenSid, IBitsTokenOptions::GetHelperTokenSid, bits.ibitstokenoptions_gethelpertokensid, bits4_0/IBitsTokenOptions::GetHelperTokenSid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits4_0.h
 req.include-header: 

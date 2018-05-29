@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.DismountNtmsMedia
 title: DismountNtmsMedia function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DismountNtmsMedia function queues a command to move the specified media in a drive to its storage. This function should be paired with the MountNtmsMedia function.
 old-location: fs\dismountntmsmedia.htm
 old-project: Rsm
 ms.assetid: 95336487-ca50-4003-a155-eb70173f8604
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: DismountNtmsMedia, DismountNtmsMedia function [Files], NTMS_DISMOUNT_DEFERRED, NTMS_DISMOUNT_IMMEDIATE, _zaw_dismountntmsmedia, base.dismountntmsmedia, fs.dismountntmsmedia, ntmsapi/DismountNtmsMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

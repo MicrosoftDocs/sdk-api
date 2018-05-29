@@ -1,16 +1,16 @@
 ---
 UID: NE:netcon.tagNETCON_TYPE
 title: tagNETCON_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The NETCON_TYPE type enumerates the various kinds of network connections.
 old-location: ics\netcon_type.htm
 old-project: ICS
 ms.assetid: 7ad507dd-62aa-47c2-a792-750b36d48243
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: NCT_BRIDGE, NCT_DIRECT_CONNECT, NCT_INBOUND, NCT_INTERNET, NCT_LAN, NCT_PHONE, NCT_TUNNEL, NETCON_TYPE, NETCON_TYPE enumeration [ICS/ICF], _ics_netcon_type, ics.netcon_type, netcon/NCT_BRIDGE, netcon/NCT_DIRECT_CONNECT, netcon/NCT_INBOUND, netcon/NCT_INTERNET, netcon/NCT_LAN, netcon/NCT_PHONE, netcon/NCT_TUNNEL, netcon/NETCON_TYPE, tagNETCON_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: netcon.h
 req.include-header: 

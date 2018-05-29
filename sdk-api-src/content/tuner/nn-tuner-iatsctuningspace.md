@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IATSCTuningSpace
 title: IATSCTuningSpace
-author: windows-driver-content
+author: windows-sdk-content
 description: The IATSCTuningSpace interface is implemented on ATSCTuningSpace objects, which represent any tuning space with an ATSC network type.
 old-location: mstv\iatsctuningspace.htm
 old-project: mstv
 ms.assetid: 313508e5-a9b2-42b8-bb2f-d191944d0939
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IATSCTuningSpace, IATSCTuningSpace interface [Microsoft TV Technologies], IATSCTuningSpace interface [Microsoft TV Technologies],described, IATSCTuningSpaceInterface, mstv.iatsctuningspace, tuner/IATSCTuningSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

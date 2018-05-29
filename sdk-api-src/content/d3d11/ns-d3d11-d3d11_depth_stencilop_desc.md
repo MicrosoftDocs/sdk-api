@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_DEPTH_STENCILOP_DESC
 title: D3D11_DEPTH_STENCILOP_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Stencil operations that can be performed based on the results of stencil test.
 old-location: direct3d11\d3d11_depth_stencilop_desc.htm
 old-project: direct3d11
 ms.assetid: 8c375d2f-ecec-4b9f-bd84-625dad53fa6a
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_DEPTH_STENCILOP_DESC, D3D11_DEPTH_STENCILOP_DESC structure [Direct3D 11], b5c19838-9f15-a711-8c15-008fbca8d2a1, d3d11/D3D11_DEPTH_STENCILOP_DESC, direct3d11.d3d11_depth_stencilop_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

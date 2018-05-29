@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.CreateFileScreenException
 title: IFsrmFileScreenManager::CreateFileScreenException
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a file screen exception object.
 old-location: fsrm\ifsrmfilescreenmanager_createfilescreenexception.htm
 old-project: Fsrm
 ms.assetid: b2a15f69-49fb-46fd-9219-aa970c9eb042
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: CreateFileScreenException, CreateFileScreenException method [File Server Resource Manager], CreateFileScreenException method [File Server Resource Manager],FsrmFileScreenManager class, CreateFileScreenException method [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],CreateFileScreenException method, IFsrmFileScreenManager interface [File Server Resource Manager],CreateFileScreenException method, IFsrmFileScreenManager.CreateFileScreenException, IFsrmFileScreenManager::CreateFileScreenException, fs.ifsrmfilescreenmanager_createfilescreenexception, fsrm.ifsrmfilescreenmanager_createfilescreenexception, fsrmscreen/IFsrmFileScreenManager::CreateFileScreenException
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 

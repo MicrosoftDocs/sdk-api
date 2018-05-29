@@ -1,16 +1,16 @@
 ---
 UID: NC:stm.PCLOSE_SERVICE_ENUMERATION_HANDLE
 title: PCLOSE_SERVICE_ENUMERATION_HANDLE
-author: windows-driver-content
+author: windows-sdk-content
 description: The CloseServiceEnumerationHandle function terminates the enumeration and frees associated resources.
 old-location: rras\closeserviceenumerationhandle.htm
 old-project: RRAS
 ms.assetid: c127f914-b655-4b6a-bb13-daeb5e82e343
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CloseServiceEnumerationHandle, CloseServiceEnumerationHandle callback function [RAS], PCLOSE_SERVICE_ENUMERATION_HANDLE, PCLOSE_SERVICE_ENUMERATION_HANDLE callback, _mpr_closeserviceenumerationhandle, rras.closeserviceenumerationhandle, stm/CloseServiceEnumerationHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: stm.h
 req.include-header: 

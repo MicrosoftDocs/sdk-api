@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.ICertAdmin2.GetCAPropertyDisplayName
 title: ICertAdmin2::GetCAPropertyDisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICertAdmin2::GetCAPropertyDisplayName method retrieves the property display name for a certification authority (CA) property.
 old-location: security\icertadmin2_getcapropertydisplayname.htm
 old-project: SecCrypto
 ms.assetid: 8f879b94-d15a-48e6-9e71-a24c1c39c618
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertAdmin object [Security],GetCAPropertyDisplayName method, GetCAPropertyDisplayName, GetCAPropertyDisplayName method [Security], GetCAPropertyDisplayName method [Security],CCertAdmin object, GetCAPropertyDisplayName method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetCAPropertyDisplayName method, ICertAdmin2.GetCAPropertyDisplayName, ICertAdmin2::GetCAPropertyDisplayName, _certsrv_icertadmin2_getcapropertydisplayname, certadm/ICertAdmin2::GetCAPropertyDisplayName, security.icertadmin2_getcapropertydisplayname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

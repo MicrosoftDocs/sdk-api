@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IDVRGB219
 title: IDVRGB219
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDVRGB219 interface controls the dynamic range in the DV Video Encoder and DV Video Decoder filters.
 old-location: dshow\idvrgb219.htm
 old-project: DirectShow
 ms.assetid: 6d346f0b-97c1-4f3c-aa79-b3bfab18c634
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDVRGB219, IDVRGB219 interface [DirectShow], IDVRGB219 interface [DirectShow],described, IDVRGB219Interface, dshow.idvrgb219, strmif/IDVRGB219
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

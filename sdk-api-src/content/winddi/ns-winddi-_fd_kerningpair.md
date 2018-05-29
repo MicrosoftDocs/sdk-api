@@ -1,16 +1,16 @@
 ---
 UID: NS:winddi._FD_KERNINGPAIR
 title: "_FD_KERNINGPAIR"
-author: windows-driver-content
+author: windows-sdk-content
 description: The FD_KERNINGPAIR structure is used to store information about kerning pairs.
 old-location: display\fd_kerningpair.htm
 old-project: display
 ms.assetid: 5c5eced6-a0a3-448e-bcb3-57be1b703797
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FD_KERNINGPAIR, FD_KERNINGPAIR structure [Display Devices], _FD_KERNINGPAIR, display.fd_kerningpair, grstrcts_5e6126d0-b3c2-4964-ab7a-f3ec90162b7e.xml, winddi/FD_KERNINGPAIR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

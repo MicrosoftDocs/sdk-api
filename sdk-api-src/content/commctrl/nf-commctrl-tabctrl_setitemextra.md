@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.TabCtrl_SetItemExtra
 title: TabCtrl_SetItemExtra macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the number of bytes per tab reserved for application-defined data in a tab control. You can use this macro or send the TCM_SETITEMEXTRA message explicitly.
 old-location: controls\TabCtrl_SetItemExtra.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_setitemextra.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TabCtrl_SetItemExtra, TabCtrl_SetItemExtra macro [Windows Controls], _win32_TabCtrl_SetItemExtra, _win32_TabCtrl_SetItemExtra_cpp, commctrl/TabCtrl_SetItemExtra, controls.TabCtrl_SetItemExtra, controls._win32_TabCtrl_SetItemExtra
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

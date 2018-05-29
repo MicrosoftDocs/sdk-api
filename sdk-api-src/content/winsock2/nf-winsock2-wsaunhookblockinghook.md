@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSAUnhookBlockingHook
 title: WSAUnhookBlockingHook function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0.
 old-location: winsock\wsaunhookblockinghook_2.htm
 old-project: WinSock
 ms.assetid: 944c3802-364e-4934-b7ec-6c70d06739ad
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAUnhookBlockingHook, WSAUnhookBlockingHook function [Winsock], _win32_wsaunhookblockinghook_2, winsock.wsaunhookblockinghook_2, winsock2/WSAUnhookBlockingHook
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

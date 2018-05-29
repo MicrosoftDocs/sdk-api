@@ -1,16 +1,16 @@
 ---
 UID: NN:locationapi.ICivicAddressReport
 title: ICivicAddressReport
-author: windows-driver-content
+author: windows-sdk-content
 description: ICivicAddressReport represents a location report that contains information in the form of a street address.
 old-location: winlocation\icivicaddressreport.htm
 old-project: LocationAPI
 ms.assetid: ba8c66cb-be94-4649-ada9-620ed3b35516
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ICivicAddressReport, ICivicAddressReport interface [WinLocation], ICivicAddressReport interface [WinLocation],described, locationapi/ICivicAddressReport, winlocation.icivicaddressreport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: locationapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICspInformation.get_IsSmartCard
 title: ICspInformation::get_IsSmartCard
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the provider is a smart card provider.
 old-location: security\icspinformation_issmartcard_property.htm
 old-project: SecCertEnroll
 ms.assetid: cfb88e17-39bb-4b4f-9eb3-3691376f8285
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICspInformation interface [Security],IsSmartCard property, ICspInformation.IsSmartCard, ICspInformation.get_IsSmartCard, ICspInformation::IsSmartCard, ICspInformation::get_IsSmartCard, IsSmartCard property [Security], IsSmartCard property [Security],ICspInformation interface, certenroll/ICspInformation::IsSmartCard, certenroll/ICspInformation::get_IsSmartCard, get_IsSmartCard, security.icspinformation_issmartcard_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

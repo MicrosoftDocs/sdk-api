@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteVarDescByMemId
 title: ICreateTypeInfo2::DeleteVarDescByMemId
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the specified VARDESC structure.
 old-location: automat\icreatetypeinfo2_deletevardescbymemid.htm
 old-project: automat
 ms.assetid: 5b69dda9-01b5-45b2-ab92-65a29a2d1f21
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: DeleteVarDescByMemId, DeleteVarDescByMemId method [Automation], DeleteVarDescByMemId method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteVarDescByMemId method, ICreateTypeInfo2.DeleteVarDescByMemId, ICreateTypeInfo2::DeleteVarDescByMemId, _oa96_ICreateTypeInfo2_DeleteVarDescByMemId, automat.icreatetypeinfo2_deletevardescbymemid, oaidl/ICreateTypeInfo2::DeleteVarDescByMemId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

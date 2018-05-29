@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_compare_ext_sA
 title: ldap_compare_ext_sA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the ldap_compare_ext_s function to determine if an attribute, for a given entry, holds a known value.
 old-location: ldap\ldap_compare_ext_s.htm
 old-project: LDAP
 ms.assetid: b22568b1-5043-422e-9c4e-cc51cc77d143
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_compare_ext_s, ldap.ldap__compare__ext__s, ldap.ldap_compare_ext_s, ldap_compare_ext_s, ldap_compare_ext_s function [LDAP], ldap_compare_ext_sA, ldap_compare_ext_sW, winldap/ldap_compare_ext_s, winldap/ldap_compare_ext_sA, winldap/ldap_compare_ext_sW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

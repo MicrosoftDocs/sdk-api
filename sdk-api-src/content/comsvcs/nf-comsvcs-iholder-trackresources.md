@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IHolder.TrackResourceS
 title: IHolder::TrackResourceS
-author: windows-driver-content
+author: windows-sdk-content
 description: Tracks the resource (string version).
 old-location: cos\iholder_trackresources.htm
 old-project: cossdk
 ms.assetid: 1971820f-49aa-455d-a533-1a88fd8c28b8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IHolder interface [COM+],TrackResourceS method, IHolder.TrackResourceS, IHolder::TrackResourceS, TrackResourceS, TrackResourceS method [COM+], TrackResourceS method [COM+],IHolder interface, _dtc_IHolder_TrackResourceS, comsvcs/IHolder::TrackResourceS, cos.iholder_trackresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

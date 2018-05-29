@@ -1,16 +1,16 @@
 ---
 UID: NF:xamlom.IVisualTreeService.GetCollectionCount
 title: IVisualTreeService::GetCollectionCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the count of a collection.
 old-location: xaml_diagnostics\ivisualtreeservice_getcollectioncount.htm
 old-project: xaml_diagnostics
 ms.assetid: BB6D0885-27BD-4DF6-A48A-570345F1EE14
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: GetCollectionCount, GetCollectionCount method, GetCollectionCount method,IVisualTreeService interface, IVisualTreeService interface,GetCollectionCount method, IVisualTreeService.GetCollectionCount, IVisualTreeService::GetCollectionCount, xaml_diagnostics.ivisualtreeservice_getcollectioncount, xamlom/IVisualTreeService::GetCollectionCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

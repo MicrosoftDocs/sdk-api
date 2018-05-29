@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IAdviseSink.OnSave
 title: IAdviseSink::OnSave
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the server to notify all registered advisory sinks that the object has been saved.
 old-location: com\iadvisesink_onsave.htm
 old-project: com
 ms.assetid: 26da5e16-5790-49c0-ba63-5feee49cd4c6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAdviseSink interface [COM],OnSave method, IAdviseSink.OnSave, IAdviseSink::OnSave, OnSave, OnSave method [COM], OnSave method [COM],IAdviseSink interface, _ole_iadvisesink_onsave, com.iadvisesink_onsave, objidl/IAdviseSink::OnSave
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

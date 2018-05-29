@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.Initialize
 title: IWICBitmapEncoder::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the encoder with an IStream which tells the encoder where to encode the bits.
 old-location: wic\_wic_codec_iwicbitmapencoder_initialize.htm
 old-project: wic
 ms.assetid: 344a9a9d-8557-4ae8-9604-4040c7d7095a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],Initialize method, IWICBitmapEncoder.Initialize, IWICBitmapEncoder::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapEncoder interface, _wic_codec_iwicbitmapencoder_initialize, wic._wic_codec_iwicbitmapencoder_initialize, wincodec/IWICBitmapEncoder::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

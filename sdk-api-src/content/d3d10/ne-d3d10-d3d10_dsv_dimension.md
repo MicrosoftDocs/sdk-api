@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d10.D3D10_DSV_DIMENSION
 title: D3D10_DSV_DIMENSION
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how to access a resource used in a depth-stencil view.
 old-location: direct3d10\d3d10_dsv_dimension.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_dsv_dimension.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 88cc34ba-f05f-2845-c538-a290a7b141ee, D3D10_DSV_DIMENSION, D3D10_DSV_DIMENSION enumeration [Direct3D 10], D3D10_DSV_DIMENSION_TEXTURE1D, D3D10_DSV_DIMENSION_TEXTURE1DARRAY, D3D10_DSV_DIMENSION_TEXTURE2D, D3D10_DSV_DIMENSION_TEXTURE2DARRAY, D3D10_DSV_DIMENSION_TEXTURE2DMS, D3D10_DSV_DIMENSION_TEXTURE2DMSARRAY, D3D10_DSV_DIMENSION_UNKNOWN, d3d10/D3D10_DSV_DIMENSION, d3d10/D3D10_DSV_DIMENSION_TEXTURE1D, d3d10/D3D10_DSV_DIMENSION_TEXTURE1DARRAY, d3d10/D3D10_DSV_DIMENSION_TEXTURE2D, d3d10/D3D10_DSV_DIMENSION_TEXTURE2DARRAY, d3d10/D3D10_DSV_DIMENSION_TEXTURE2DMS, d3d10/D3D10_DSV_DIMENSION_TEXTURE2DMSARRAY, d3d10/D3D10_DSV_DIMENSION_UNKNOWN, direct3d10.d3d10_dsv_dimension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_INFO
 title: "_EAP_METHOD_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an EAP method.
 old-location: eaphost\eap_method_info.htm
 old-project: EAPHost
 ms.assetid: 89b5dcbd-afa9-40a8-ab04-2caee01ce0a3
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EAP_METHOD_INFO, EAP_METHOD_INFO structure [EAPHost], _EAP_METHOD_INFO, eaphost.eap_method_info, eaptypes/EAP_METHOD_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

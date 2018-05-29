@@ -1,16 +1,16 @@
 ---
 UID: NS:setupapi._SP_TROUBLESHOOTER_PARAMS_W
 title: "_SP_TROUBLESHOOTER_PARAMS_W"
-author: windows-driver-content
+author: windows-sdk-content
 description: An SP_TROUBLESHOOTER_PARAMS structure corresponds to a DIF_TROUBLESHOOTER installation request.
 old-location: devinst\sp_troubleshooter_params.htm
 old-project: devinst
 ms.assetid: f92e9aa4-ee29-4e69-be05-9c3c916197eb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSP_TROUBLESHOOTER_PARAMS_W, PSP_TROUBLESHOOTER_PARAMS, PSP_TROUBLESHOOTER_PARAMS structure pointer [Device and Driver Installation], SP_TROUBLESHOOTER_PARAMS, SP_TROUBLESHOOTER_PARAMS structure [Device and Driver Installation], SP_TROUBLESHOOTER_PARAMS_W, _SP_TROUBLESHOOTER_PARAMS_W, devinst.sp_troubleshooter_params, di-struct_7bddca54-bae0-4d79-82d3-3663f8066f09.xml, setupapi/PSP_TROUBLESHOOTER_PARAMS, setupapi/SP_TROUBLESHOOTER_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h

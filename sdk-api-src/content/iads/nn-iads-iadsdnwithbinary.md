@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsDNWithBinary
 title: IADsDNWithBinary
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsDNWithBinary interface provides methods for an ADSI client to associate a distinguished name (DN) with the GUID of an object.
 old-location: adsi\iadsdnwithbinary.htm
 old-project: ADSI
 ms.assetid: dd64f0bd-1211-4e6f-93b5-87c079999208
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: DNWithBinary, IADsDNWithBinary, IADsDNWithBinary interface [ADSI], IADsDNWithBinary interface [ADSI],described, _ds_iadsdnwithbinary, adsi.iadsdnwithbinary, iads/IADsDNWithBinary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

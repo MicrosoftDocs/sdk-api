@@ -1,16 +1,16 @@
 ---
 UID: NS:textstor.TS_SELECTION_ANCHOR
 title: TS_SELECTION_ANCHOR
-author: windows-driver-content
+author: windows-sdk-content
 description: The TS_SELECTION_ANCHOR structure contains anchor-based text selection data.
 old-location: tsf\ts_selection_anchor.htm
 old-project: TSF
 ms.assetid: 56fbe145-1972-4b44-a730-17860e428dd0
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TS_SELECTION_ANCHOR, TS_SELECTION_ANCHOR structure [Text Services Framework], _tsf_ts_selection_anchor_ref, textstor/TS_SELECTION_ANCHOR, tsf.ts_selection_anchor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: textstor.h
 req.include-header: 

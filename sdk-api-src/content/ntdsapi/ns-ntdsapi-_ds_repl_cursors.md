@@ -1,16 +1,16 @@
 ---
 UID: NS:ntdsapi._DS_REPL_CURSORS
 title: "_DS_REPL_CURSORS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DS_REPL_CURSORS structure is used with the DsReplicaGetInfo and DsReplicaGetInfo2 function to provide replication state data with respect to all replicas of a given naming context.
 old-location: ad\ds_repl_cursors.htm
 old-project: AD
 ms.assetid: 0fe5ad72-d3f3-42a8-a36f-ca1fc9c55c50
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_REPL_CURSORS, DS_REPL_CURSORS structure [Active Directory], _DS_REPL_CURSORS, _glines_ds_repl_cursors, ad.ds__repl__cursors, ad.ds_repl_cursors, ntdsapi/DS_REPL_CURSORS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

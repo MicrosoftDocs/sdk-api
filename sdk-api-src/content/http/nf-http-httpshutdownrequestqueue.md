@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HttpShutdownRequestQueue
 title: HttpShutdownRequestQueue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops queuing requests for the specified request queue process.
 old-location: http\httpshutdownrequestqueue.htm
 old-project: Http
 ms.assetid: f6640565-a5a1-4a71-938c-1adf54beb40a
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HttpShutdownRequestQueue, HttpShutdownRequestQueue function [HTTP], http.httpshutdownrequestqueue, http/HttpShutdownRequestQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: http.h
 req.include-header: 

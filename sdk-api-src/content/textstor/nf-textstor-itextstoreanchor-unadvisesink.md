@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.UnadviseSink
 title: ITextStoreAnchor::UnadviseSink
-author: windows-driver-content
+author: windows-sdk-content
 description: ITextStoreAnchor::UnadviseSink method
 old-location: tsf\itextstoreanchor_unadvisesink.htm
 old-project: TSF
 ms.assetid: 01ddc659-0ed9-41e9-bde9-92aad9d74716
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],UnadviseSink method, ITextStoreAnchor.UnadviseSink, ITextStoreAnchor::UnadviseSink, UnadviseSink, UnadviseSink method [Text Services Framework], UnadviseSink method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::UnadviseSink, tsf.itextstoreanchor_unadvisesink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

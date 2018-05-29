@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetRetrievalFilter
 title: IDXGIInfoQueue::GetRetrievalFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the retrieval filter at the top of the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_getretrievalfilter.htm
 old-project: direct3ddxgi
 ms.assetid: 95907EF0-858B-4CDF-A112-6E59138769BD
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetRetrievalFilter, GetRetrievalFilter method [DXGI], GetRetrievalFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetRetrievalFilter method, IDXGIInfoQueue.GetRetrievalFilter, IDXGIInfoQueue::GetRetrievalFilter, direct3ddxgi.idxgiinfoqueue_getretrievalfilter, dxgidebug/IDXGIInfoQueue::GetRetrievalFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

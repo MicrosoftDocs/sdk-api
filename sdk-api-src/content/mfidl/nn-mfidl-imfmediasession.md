@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFMediaSession
 title: IMFMediaSession
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides playback controls for protected and unprotected content.
 old-location: mf\imfmediasession.htm
 old-project: medfound
 ms.assetid: feebf891-73fa-4fe6-94ca-3594986fc92d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaSession, IMFMediaSession interface [Media Foundation], IMFMediaSession interface [Media Foundation],described, feebf891-73fa-4fe6-94ca-3594986fc92d, mf.imfmediasession, mfidl/IMFMediaSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

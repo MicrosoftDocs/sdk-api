@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcFactory.WritePackageToStream
 title: IOpcFactory::WritePackageToStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Serializes a package that is represented by a package object.
 old-location: opc\iopcfactory_writepackagetostream.htm
 old-project: OPC
 ms.assetid: b155700d-3037-4c6e-b2f2-bba39513d7d3
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcFactory interface [Open Packaging Conventions],WritePackageToStream method, IOpcFactory.WritePackageToStream, IOpcFactory::WritePackageToStream, WritePackageToStream, WritePackageToStream method [Open Packaging Conventions], WritePackageToStream method [Open Packaging Conventions],IOpcFactory interface, msopc/IOpcFactory::WritePackageToStream, opc.iopcfactory_writepackagetostream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

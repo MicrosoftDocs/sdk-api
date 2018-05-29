@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMDAYSTATE
 title: tagNMDAYSTATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Carries information required to process the MCN_GETDAYSTATE notification code. All members of this structure are for input, except prgDayState, which the receiving application must set when processing MCN_GETDAYSTATE.
 old-location: controls\NMDAYSTATE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\nmdaystate.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMDAYSTATE, LPNMDAYSTATE, LPNMDAYSTATE structure pointer [Windows Controls], NMDAYSTATE, NMDAYSTATE structure [Windows Controls], _win32_NMDAYSTATE, _win32_NMDAYSTATE_cpp, commctrl/LPNMDAYSTATE, commctrl/NMDAYSTATE, controls.NMDAYSTATE, controls._win32_NMDAYSTATE, tagNMDAYSTATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:virtdisk.MergeVirtualDisk
 title: MergeVirtualDisk function
-author: windows-driver-content
+author: windows-sdk-content
 description: Merges a child virtual hard disk (VHD) in a differencing chain with one or more parent virtual disks in the chain.
 old-location: vhd\mergevirtualdisk.htm
 old-project: VStor
 ms.assetid: 9a9068d1-2f81-42a2-a3b2-6030a24a4445
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: MergeVirtualDisk, MergeVirtualDisk function [VHD], vhd.mergevirtualdisk, virtdisk/MergeVirtualDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: Windows.h

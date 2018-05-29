@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngDeleteEvent
 title: EngDeleteEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngDeleteEvent function deletes the specified event object.
 old-location: display\engdeleteevent.htm
 old-project: display
 ms.assetid: b1db14ed-345f-428e-9338-74c7b230e661
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngDeleteEvent, EngDeleteEvent function [Display Devices], display.engdeleteevent, gdifncs_8a703ede-e100-493c-8ede-82c03361633f.xml, winddi/EngDeleteEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

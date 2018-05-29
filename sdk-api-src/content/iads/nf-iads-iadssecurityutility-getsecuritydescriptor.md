@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsSecurityUtility.GetSecurityDescriptor
 title: IADsSecurityUtility::GetSecurityDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a security descriptor for the specified file, fileshare, or registry key.
 old-location: adsi\iadssecurityutility_getsecuritydescriptor.htm
 old-project: ADSI
 ms.assetid: 95f4fbd9-03f8-4f2f-9314-e628186e51a4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADS_SD_FORMAT_HEXSTRING, ADS_SD_FORMAT_IID, ADS_SD_FORMAT_RAW, File, File share, GetSecurityDescriptor, GetSecurityDescriptor method [ADSI], GetSecurityDescriptor method [ADSI],IADsSecurityUtility interface, IADsSecurityUtility interface [ADSI],GetSecurityDescriptor method, IADsSecurityUtility.GetSecurityDescriptor, IADsSecurityUtility::GetSecurityDescriptor, Registry key, _ds_iadssecurityutility_getsecuritydescriptor, adsi.iadssecurityutility__getsecuritydescriptor, adsi.iadssecurityutility_getsecuritydescriptor, iads/IADsSecurityUtility::GetSecurityDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

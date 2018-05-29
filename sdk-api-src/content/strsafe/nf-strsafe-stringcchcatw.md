@@ -1,16 +1,16 @@
 ---
 UID: NF:strsafe.StringCchCatW
 title: StringCchCatW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Concatenates one string to another string.
 old-location: menurc\stringcchcat.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcat.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StringCchCat, StringCchCat function [Menus and Other Resources], StringCchCatA, StringCchCatW, _shell_StringCchCat, _shell_stringcchcat_cpp, menurc.stringcchcat, strsafe/StringCchCat, strsafe/StringCchCatA, strsafe/StringCchCatW, winui._shell_stringcchcat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 

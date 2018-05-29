@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceGetInfo
 title: MprAdminInterfaceGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminInterfaceGetInfo function retrieves information for a specified interface on a specified server.
 old-location: rras\mpradmininterfacegetinfo.htm
 old-project: RRAS
 ms.assetid: a6d353f0-1d68-4a37-89f3-cdab0fc7972a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminInterfaceGetInfo, MprAdminInterfaceGetInfo function [RAS], _mpr_mpradmininterfacegetinfo, mprapi/MprAdminInterfaceGetInfo, rras.mpradmininterfacegetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

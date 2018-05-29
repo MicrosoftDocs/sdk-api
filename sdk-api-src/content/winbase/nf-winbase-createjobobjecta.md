@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.CreateJobObjectA
 title: CreateJobObjectA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates or opens a job object.
 old-location: base\createjobobject.htm
 old-project: ProcThread
 ms.assetid: ca6a044f-67ed-4a9c-9aeb-69dd77652854
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CreateJobObject, CreateJobObject function, CreateJobObjectA, CreateJobObjectW, _win32_createjobobject, base.createjobobject, winbase/CreateJobObject, winbase/CreateJobObjectA, winbase/CreateJobObjectW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

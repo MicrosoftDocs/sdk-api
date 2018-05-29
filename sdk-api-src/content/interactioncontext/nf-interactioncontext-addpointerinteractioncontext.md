@@ -1,16 +1,16 @@
 ---
 UID: NF:interactioncontext.AddPointerInteractionContext
 title: AddPointerInteractionContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Include the specified pointer in the set of pointers processed by the Interaction Context object.
 old-location: input_intcontext\addpointerinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: a720284f-af50-4e55-ae48-c78a1e826dc4
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: AddPointerInteractionContext, AddPointerInteractionContext function, input_intcontext.addpointerinteractioncontext, interactioncontext.addpointerinteractioncontext, interactioncontext/AddPointerInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

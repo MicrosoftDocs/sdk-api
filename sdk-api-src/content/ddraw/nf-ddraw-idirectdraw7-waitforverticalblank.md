@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDraw7.WaitForVerticalBlank
 title: IDirectDraw7::WaitForVerticalBlank
-author: windows-driver-content
+author: windows-sdk-content
 description: Helps the application synchronize itself with the vertical-blank interval.
 old-location: directdraw\idirectdraw7_waitforverticalblank.htm
 old-project: directdraw
 ms.assetid: ea52805d-201d-4fbe-a99f-5c04b7d620b5
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DDWAITVB_BLOCKBEGIN, DDWAITVB_BLOCKBEGINEVENT, DDWAITVB_BLOCKEND, IDirectDraw7 interface [DirectDraw],WaitForVerticalBlank method, IDirectDraw7.WaitForVerticalBlank, IDirectDraw7::WaitForVerticalBlank, WaitForVerticalBlank, WaitForVerticalBlank method [DirectDraw], WaitForVerticalBlank method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::WaitForVerticalBlank, directdraw.idirectdraw7_waitforverticalblank
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

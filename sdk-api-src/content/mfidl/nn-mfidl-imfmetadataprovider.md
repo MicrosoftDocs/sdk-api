@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFMetadataProvider
 title: IMFMetadataProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets metadata from a media source or other object.
 old-location: mf\imfmetadataprovider.htm
 old-project: medfound
 ms.assetid: f32e78c9-a567-448d-947d-d7ea996bba5e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMetadataProvider, IMFMetadataProvider interface [Media Foundation], IMFMetadataProvider interface [Media Foundation],described, f32e78c9-a567-448d-947d-d7ea996bba5e, mf.imfmetadataprovider, mfidl/IMFMetadataProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

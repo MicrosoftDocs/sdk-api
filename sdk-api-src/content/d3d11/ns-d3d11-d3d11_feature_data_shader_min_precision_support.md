@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT
 title: D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes precision support options for shaders in the current graphics driver.
 old-location: direct3d11\d3d11_feature_data_shader_min_precision_support.htm
 old-project: direct3d11
 ms.assetid: 4494A896-E73E-4A41-BC73-F9BD49510276
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT, D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT, direct3d11.d3d11_feature_data_shader_min_precision_support
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

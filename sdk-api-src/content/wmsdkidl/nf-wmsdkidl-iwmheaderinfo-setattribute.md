@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.SetAttribute
 title: IWMHeaderInfo::SetAttribute
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetAttribute method sets a descriptive attribute that is stored in the header section of the ASF file. This method is replaced by IWMHeaderInfo3::AddAttribute, and should not be used.
 old-location: wmformat\iwmheaderinfo_setattribute.htm
 old-project: wmformat
 ms.assetid: 174969a2-4fe2-477b-9990-051d23bf8a29
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMHeaderInfo interface [windows Media Format],SetAttribute method, IWMHeaderInfo.SetAttribute, IWMHeaderInfo2 interface [windows Media Format],SetAttribute method, IWMHeaderInfo2::SetAttribute, IWMHeaderInfo3 interface [windows Media Format],SetAttribute method, IWMHeaderInfo3::SetAttribute, IWMHeaderInfo::SetAttribute, IWMHeaderInfoSetAttribute, SetAttribute, SetAttribute method [windows Media Format], SetAttribute method [windows Media Format],IWMHeaderInfo interface, SetAttribute method [windows Media Format],IWMHeaderInfo2 interface, SetAttribute method [windows Media Format],IWMHeaderInfo3 interface, wmformat.iwmheaderinfo_setattribute, wmsdkidl/IWMHeaderInfo2::SetAttribute, wmsdkidl/IWMHeaderInfo3::SetAttribute, wmsdkidl/IWMHeaderInfo::SetAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:windns._DNS_CHARSET
 title: "_DNS_CHARSET"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DNS_CHARSET enumeration specifies the character set used.
 old-location: dns\dns_charset.htm
 old-project: DNS
 ms.assetid: 2674a4e5-c3e2-4a25-bd6f-1fc6b4db3012
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: DNS_CHARSET, DNS_CHARSET enumeration [DNS], DnsCharSetAnsi, DnsCharSetUnicode, DnsCharSetUnknown, DnsCharSetUtf8, _DNS_CHARSET, dns.dns_charset, windns/DNS_CHARSET, windns/DnsCharSetAnsi, windns/DnsCharSetUnicode, windns/DnsCharSetUnknown, windns/DnsCharSetUtf8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: windns.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:gamingtcui.ShowPlayerPickerUI
 title: ShowPlayerPickerUI function
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\showplayerpickerui.htm
 old-project: tcui
 ms.assetid: 71A5DD28-1C0F-46B6-835F-1358B21AF2EF
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: ShowPlayerPickerUI, ShowPlayerPickerUI function, gamingtcui/ShowPlayerPickerUI, tcui.showplayerpickerui
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: gamingtcui.h
 req.include-header: 

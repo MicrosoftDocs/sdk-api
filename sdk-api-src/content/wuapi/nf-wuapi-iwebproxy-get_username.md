@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IWebProxy.get_UserName
 title: IWebProxy::get_UserName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets and sets the user name to submit to the proxy server for authentication.
 old-location: wua\iwebproxy_username.htm
 old-project: Wua_Sdk
 ms.assetid: cef38d9d-5706-4008-be61-5bbe7c29ca68
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWebProxy interface [Windows Update Agent],UserName property, IWebProxy.UserName, IWebProxy.get_UserName, IWebProxy::UserName, IWebProxy::get_UserName, IWebProxy::put_UserName, UserName property [Windows Update Agent], UserName property [Windows Update Agent],IWebProxy interface, get_UserName, wua.iwebproxy_username, wuapi/IWebProxy::UserName, wuapi/IWebProxy::get_UserName, wuapi/IWebProxy::put_UserName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

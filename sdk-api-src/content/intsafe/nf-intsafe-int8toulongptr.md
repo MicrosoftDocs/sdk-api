@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.Int8ToULongPtr
 title: Int8ToULongPtr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type INT8 to a value of type ULONG_PTR.
 old-location: shell\Int8ToULongPtr.htm
 old-project: shell
 ms.assetid: 84a9003a-1f80-4dea-8062-888097963e47
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Int8ToULongPtr, Int8ToULongPtr function [Windows Shell], intsafe/Int8ToULongPtr, shell.Int8ToULongPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IEnumStreamIdMap.Next
 title: IEnumStreamIdMap::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The Next method retrieves the next n elements in the collection.
 old-location: dshow\ienumstreamidmap_next.htm
 old-project: DirectShow
 ms.assetid: 49e7ab23-e57e-4437-a195-88bccb6002de
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Next method, IEnumStreamIdMap.Next, IEnumStreamIdMap::Next, IEnumStreamIdMapNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_next, strmif/IEnumStreamIdMap::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

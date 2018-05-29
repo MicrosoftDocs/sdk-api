@@ -1,16 +1,16 @@
 ---
 UID: NE:adhoc.tagDOT11_ADHOC_NETWORK_CONNECTION_STATUS
 title: tagDOT11_ADHOC_NETWORK_CONNECTION_STATUS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the connection state of an ad hoc network.
 old-location: nwifi\dot11_adhoc_network_connection_status.htm
 old-project: NativeWiFi
 ms.assetid: 194179b9-9bd2-4c2f-ab22-c6b95eebfb43
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: DOT11_ADHOC_NETWORK_CONNECTION_STATUS, DOT11_ADHOC_NETWORK_CONNECTION_STATUS enumeration [NativeWIFI], DOT11_ADHOC_NETWORK_CONNECTION_STATUS_CONNECTED, DOT11_ADHOC_NETWORK_CONNECTION_STATUS_CONNECTING, DOT11_ADHOC_NETWORK_CONNECTION_STATUS_DISCONNECTED, DOT11_ADHOC_NETWORK_CONNECTION_STATUS_FORMED, DOT11_ADHOC_NETWORK_CONNECTION_STATUS_INVALID, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS_CONNECTED, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS_CONNECTING, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS_DISCONNECTED, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS_FORMED, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS_INVALID, nwifi.dot11_adhoc_network_connection_status, tagDOT11_ADHOC_NETWORK_CONNECTION_STATUS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: adhoc.h
 req.include-header: 

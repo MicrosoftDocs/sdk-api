@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhCloseQuery
 title: PdhCloseQuery function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes all counters contained in the specified query, closes all handles related to the query, and frees all memory associated with the query.
 old-location: perf\pdhclosequery.htm
 old-project: PerfCtrs
 ms.assetid: af0fb9f4-3999-48fa-88d7-aa59b5caed75
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhCloseQuery, PdhCloseQuery function [Perf], _win32_pdhclosequery, base.pdhclosequery, pdh/PdhCloseQuery, perf.pdhclosequery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

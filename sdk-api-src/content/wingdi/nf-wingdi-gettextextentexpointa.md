@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetTextExtentExPointA
 title: GetTextExtentExPointA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTextExtentExPoint function retrieves the number of characters in a specified string that will fit within a specified space and fills an array with the text extent for each of those characters.
 old-location: gdi\gettextextentexpoint.htm
 old-project: gdi
 ms.assetid: b873a059-5aa3-47d0-b109-7acd542c7d79
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTextExtentExPoint, GetTextExtentExPoint function [Windows GDI], GetTextExtentExPointA, GetTextExtentExPointW, _win32_GetTextExtentExPoint, gdi.gettextextentexpoint, wingdi/GetTextExtentExPoint, wingdi/GetTextExtentExPointA, wingdi/GetTextExtentExPointW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

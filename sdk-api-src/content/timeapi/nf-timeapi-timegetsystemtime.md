@@ -1,16 +1,16 @@
 ---
 UID: NF:timeapi.timeGetSystemTime
 title: timeGetSystemTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: The timeGetSystemTime function retrieves the system time, in milliseconds.
 old-location: multimedia\timegetsystemtime.htm
 old-project: Multimedia
 ms.assetid: 57871ada-d2b7-48a9-bed0-3780b836c77a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_timeGetSystemTime, mmsystem/timeGetSystemTime, multimedia.timegetsystemtime, timeGetSystemTime, timeGetSystemTime function [Windows Multimedia], timeapi/timeGetSystemTime"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: timeapi.h
 req.include-header: Windows.h

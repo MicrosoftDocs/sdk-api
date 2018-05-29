@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITToneTerminalEvent.get_Terminal
 title: ITToneTerminalEvent::get_Terminal
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Terminal method returns an ITTerminal pointer for the tone terminal on which the event occurred.
 old-location: tapi3\ittoneterminalevent_get_terminal.htm
 old-project: Tapi
 ms.assetid: 3358e219-fde9-4b60-bf75-c6d8c42a51ea
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITToneTerminalEvent interface [TAPI 2.2],get_Terminal method, ITToneTerminalEvent.get_Terminal, ITToneTerminalEvent::get_Terminal, _tapi3_ittoneterminalevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITToneTerminalEvent interface, tapi3.ittoneterminalevent_get_terminal, tapi3if/ITToneTerminalEvent::get_Terminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

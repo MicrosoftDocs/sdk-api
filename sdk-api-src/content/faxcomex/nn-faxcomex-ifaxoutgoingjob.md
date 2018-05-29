@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcomex.IFaxOutgoingJob
 title: IFaxOutgoingJob
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxOutgoingJob interface describes an object that is used by a fax client application to retrieve information about an outgoing fax job in a fax server's queue.
 old-location: fax\_mfax_faxoutgoingjob_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4mjm_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxOutgoingJob, IFaxOutgoingJob interface [Fax Service], IFaxOutgoingJob interface [Fax Service],described, _mfax_faxoutgoingjob_cpp, fax._mfax_faxoutgoingjob_cpp, faxcomex/IFaxOutgoingJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

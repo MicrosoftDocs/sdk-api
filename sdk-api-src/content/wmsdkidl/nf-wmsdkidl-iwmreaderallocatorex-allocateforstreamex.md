@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAllocatorEx.AllocateForStreamEx
 title: IWMReaderAllocatorEx::AllocateForStreamEx
-author: windows-driver-content
+author: windows-sdk-content
 description: The AllocateForStreamEx method allocates a user-created buffer for samples delivered to the IWMReaderCallbackAdvanced::OnStreamSample method.
 old-location: wmformat\iwmreaderallocatorex_allocateforstreamex.htm
 old-project: wmformat
 ms.assetid: bb12f0e1-dc9c-447e-a28d-30c45eb95d09
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AllocateForStreamEx, AllocateForStreamEx method [windows Media Format], AllocateForStreamEx method [windows Media Format],IWMReaderAllocatorEx interface, IWMReaderAllocatorEx interface [windows Media Format],AllocateForStreamEx method, IWMReaderAllocatorEx.AllocateForStreamEx, IWMReaderAllocatorEx::AllocateForStreamEx, IWMReaderAllocatorExAllocateForStreamEx, wmformat.iwmreaderallocatorex_allocateforstreamex, wmsdkidl/IWMReaderAllocatorEx::AllocateForStreamEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

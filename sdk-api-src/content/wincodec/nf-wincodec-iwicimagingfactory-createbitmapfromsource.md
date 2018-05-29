@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapFromSource
 title: IWICImagingFactory::CreateBitmapFromSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a IWICBitmap from a IWICBitmapSource.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfromsource.htm
 old-project: wic
 ms.assetid: b3b9057f-e39a-4e7b-a3dc-0942d55c25e0
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateBitmapFromSource, CreateBitmapFromSource method [Windows Imaging Component], CreateBitmapFromSource method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapFromSource method, IWICImagingFactory.CreateBitmapFromSource, IWICImagingFactory::CreateBitmapFromSource, WICBitmapCacheOnDemand, WICBitmapCacheOnLoad, WICBitmapNoCache, _wic_codec_iwicimagingfactory_createbitmapfromsource, wic._wic_codec_iwicimagingfactory_createbitmapfromsource, wincodec/IWICImagingFactory::CreateBitmapFromSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

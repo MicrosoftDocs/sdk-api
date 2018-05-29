@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChangeUnit.GetItemChange
 title: ISyncChangeUnit::GetItemChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the item change that contains this change unit change.
 old-location: winsync\isyncchangeunit_getitemchange.htm
 old-project: winsync
 ms.assetid: d28b4eb0-ddd2-4abf-9183-4d39b728923b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetItemChange, GetItemChange method [Windows Sync], GetItemChange method [Windows Sync],ISyncChangeUnit interface, ISyncChangeUnit interface [Windows Sync],GetItemChange method, ISyncChangeUnit.GetItemChange, ISyncChangeUnit::GetItemChange, winsync.isyncchangeunit_getitemchange, winsync/ISyncChangeUnit::GetItemChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

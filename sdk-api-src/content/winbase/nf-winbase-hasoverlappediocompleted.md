@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.HasOverlappedIoCompleted
 title: HasOverlappedIoCompleted macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a high performance test operation that can be used to poll for the completion of an outstanding I/O operation.
 old-location: base\hasoverlappediocompleted.htm
 old-project: Sync
 ms.assetid: 1e2a3bf0-a73e-4406-99ac-32652f7f5b25
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: HasOverlappedIoCompleted, HasOverlappedIoCompleted macro, _win32_hasoverlappediocompleted, base.hasoverlappediocompleted, winbase/HasOverlappedIoCompleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winbase.h
 req.include-header: Windows.h

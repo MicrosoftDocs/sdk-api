@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.GetPayloadExtension
 title: IMFASFStreamConfig::GetPayloadExtension
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about an existing payload extension.
 old-location: mf\imfasfstreamconfig_getpayloadextension.htm
 old-project: medfound
 ms.assetid: 5b3b831c-2218-4a76-8359-7f39cab53a57
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 5b3b831c-2218-4a76-8359-7f39cab53a57, GetPayloadExtension, GetPayloadExtension method [Media Foundation], GetPayloadExtension method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],GetPayloadExtension method, IMFASFStreamConfig.GetPayloadExtension, IMFASFStreamConfig::GetPayloadExtension, mf.imfasfstreamconfig_getpayloadextension, wmcontainer/IMFASFStreamConfig::GetPayloadExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

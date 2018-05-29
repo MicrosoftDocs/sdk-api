@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.ISimpleFrameSite.PreMessageFilter
 title: ISimpleFrameSite::PreMessageFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a site with the opportunity to process a message that is received by a control's own window before the control itself does any processing.
 old-location: com\isimpleframesite_premessagefilter.htm
 old-project: com
 ms.assetid: f308ea77-12e7-450b-8b0f-252f1d240388
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISimpleFrameSite interface [COM],PreMessageFilter method, ISimpleFrameSite.PreMessageFilter, ISimpleFrameSite::PreMessageFilter, PreMessageFilter, PreMessageFilter method [COM], PreMessageFilter method [COM],ISimpleFrameSite interface, _ctrl_isimpleframesite_premessagefilter, com.isimpleframesite_premessagefilter, ocidl/ISimpleFrameSite::PreMessageFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

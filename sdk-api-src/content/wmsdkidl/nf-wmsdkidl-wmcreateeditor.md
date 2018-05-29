@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.WMCreateEditor
 title: WMCreateEditor function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMCreateEditor function creates a metadata editor object.
 old-location: wmformat\wmcreateeditor.htm
 old-project: wmformat
 ms.assetid: 3eed88d5-18e9-40b4-998d-af33ac5440b2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMCreateEditor, WMCreateEditor function [windows Media Format], wmformat.wmcreateeditor, wmsdkidl/WMCreateEditor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

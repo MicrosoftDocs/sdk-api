@@ -1,16 +1,16 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.DocumentComplete
 title: IWebApplicationNavigationEvents::DocumentComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Fired when the document being navigated to reaches ReadyState_Complete.
 old-location: debug\iwebapplicationnavigationevents_documentcomplete.htm
 old-project: debug_wwahost
 ms.assetid: 18dabd8a-d35c-4095-985d-bf712c539df8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: DocumentComplete, DocumentComplete method [Debugging Windows Store apps], DocumentComplete method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],DocumentComplete method, IWebApplicationNavigationEvents.DocumentComplete, IWebApplicationNavigationEvents::DocumentComplete, debug.iwebapplicationnavigationevents_documentcomplete, webapplication/IWebApplicationNavigationEvents::DocumentComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: webapplication.h
 req.include-header: 

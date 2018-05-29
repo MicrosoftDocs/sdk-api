@@ -1,16 +1,16 @@
 ---
 UID: NF:structuredquery.ITokenCollection.GetToken
 title: ITokenCollection::GetToken
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the position, length, and any overriding string of an individual token.
 old-location: search\_search_ITokenCollection_GetToken.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\itokencollection\gettoken.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetToken, GetToken method [search], GetToken method [search],ITokenCollection interface, ITokenCollection interface [search],GetToken method, ITokenCollection.GetToken, ITokenCollection::GetToken, _search_ITokenCollection_GetToken, search._search_ITokenCollection_GetToken, structuredquery/ITokenCollection::GetToken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

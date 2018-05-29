@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER
 title: D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the level of support for programmable sample positions that's offered by the adapter.
 old-location: direct3d12\d3d12_programmable_sample_positions_tier.htm
 old-project: direct3d12
 ms.assetid: A20B501F-4F76-4CEA-AAEE-7F732E64F8F6
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER, D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER enumeration, D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_1, D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_2, D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_NOT_SUPPORTED, d3d12/D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER, d3d12/D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_1, d3d12/D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_2, d3d12/D3D12_PROGRAMMABLE_SAMPLE_POSITIONS_TIER_NOT_SUPPORTED, direct3d12.d3d12_programmable_sample_positions_tier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

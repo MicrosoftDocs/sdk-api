@@ -1,16 +1,16 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0016
 title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0016"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DSMCC_FILTER_OPTIONS structure specifies additional filtering criteria for the DSM-CC portions of the section header.
 old-location: mstv\dsmcc_filter_options.htm
 old-project: mstv
 ms.assetid: a8be6d69-1b41-49f0-8588-624b8de98678
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DSMCC_FILTER_OPTIONS, DSMCC_FILTER_OPTIONS structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0016, mpeg2structs/DSMCC_FILTER_OPTIONS, mstv.dsmcc_filter_options
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 

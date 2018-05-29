@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextPara.GetAlignment
 title: ITextPara::GetAlignment
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current paragraph alignment value.
 old-location: controls\ITextPara_GetAlignment.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getalignment.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetAlignment, GetAlignment method [Windows Controls], GetAlignment method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetAlignment method, ITextPara.GetAlignment, ITextPara::GetAlignment, _win32_ITextPara_GetAlignment, _win32_ITextPara_GetAlignment_cpp, controls.ITextPara_GetAlignment, controls._win32_ITextPara_GetAlignment, tom/ITextPara::GetAlignment, tomAlignCenter, tomAlignInterLetter, tomAlignInterWord, tomAlignJustify, tomAlignLeft, tomAlignNewspaper, tomAlignRight, tomAlignScaled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

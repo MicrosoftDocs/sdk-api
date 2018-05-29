@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFTranscodeSinkInfoProvider.SetOutputFile
 title: IMFTranscodeSinkInfoProvider::SetOutputFile
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the name of the encoded output file.
 old-location: mf\imftranscodesinkinfoprovider_setoutputfile.htm
 old-project: medfound
 ms.assetid: 048d1822-9349-4d49-a468-c89bc9c51583
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFTranscodeSinkInfoProvider interface [Media Foundation],SetOutputFile method, IMFTranscodeSinkInfoProvider.SetOutputFile, IMFTranscodeSinkInfoProvider::SetOutputFile, SetOutputFile, SetOutputFile method [Media Foundation], SetOutputFile method [Media Foundation],IMFTranscodeSinkInfoProvider interface, mf.imftranscodesinkinfoprovider_setoutputfile, mfidl/IMFTranscodeSinkInfoProvider::SetOutputFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

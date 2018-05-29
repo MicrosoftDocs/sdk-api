@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.Delete
 title: IPortableDeviceProperties::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: The Delete method deletes specified properties from a specified object on a device.
 old-location: wpdsdk\iportabledeviceproperties_delete.htm
 old-project: wpd_sdk
 ms.assetid: 2547c9aa-edc7-4331-b5f2-bfb4a96f7175
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: Delete, Delete method [Windows Portable Devices SDK], Delete method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],Delete method, IPortableDeviceProperties.Delete, IPortableDeviceProperties::Delete, IPortableDevicePropertiesDelete, portabledeviceapi/IPortableDeviceProperties::Delete, wpdsdk.iportabledeviceproperties_delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

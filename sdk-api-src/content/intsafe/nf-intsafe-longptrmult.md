@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.LongPtrMult
 title: LongPtrMult function
-author: windows-driver-content
+author: windows-sdk-content
 description: Multiplies two values of type LONG_PTR.
 old-location: shell\LongPtrMult.htm
 old-project: shell
 ms.assetid: c2b86515-fe03-439a-bfe4-d92750b29279
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LongPtrMult, LongPtrMult function [Windows Shell], intsafe/LongPtrMult, shell.LongPtrMult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

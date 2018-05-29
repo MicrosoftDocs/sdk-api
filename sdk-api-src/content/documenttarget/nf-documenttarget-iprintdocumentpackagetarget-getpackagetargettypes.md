@@ -1,16 +1,16 @@
 ---
 UID: NF:documenttarget.IPrintDocumentPackageTarget.GetPackageTargetTypes
 title: IPrintDocumentPackageTarget::GetPackageTargetTypes
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the supported target types.
 old-location: xps\iprintdocumentpackagetarget_getpackagetargettypes.htm
 old-project: printdocs
 ms.assetid: 2875B751-0D49-4CFC-AF96-7009400E5D6E
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetPackageTargetTypes, GetPackageTargetTypes method [XPS Documents and Packaging], GetPackageTargetTypes method [XPS Documents and Packaging],IPrintDocumentPackageTarget interface, IPrintDocumentPackageTarget interface [XPS Documents and Packaging],GetPackageTargetTypes method, IPrintDocumentPackageTarget.GetPackageTargetTypes, IPrintDocumentPackageTarget::GetPackageTargetTypes, documenttarget/IPrintDocumentPackageTarget::GetPackageTargetTypes, xps.iprintdocumentpackagetarget_getpackagetargettypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: documenttarget.h
 req.include-header: 

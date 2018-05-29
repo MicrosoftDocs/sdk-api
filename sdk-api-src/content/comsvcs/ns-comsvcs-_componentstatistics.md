@@ -1,16 +1,16 @@
 ---
 UID: NS:comsvcs._ComponentStatistics
 title: "_ComponentStatistics"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents statistical information about a COM+ component hosted in a particular process.
 old-location: cos\componentstatistics.htm
 old-project: cossdk
 ms.assetid: 26bc5fc4-3e34-41cc-ba11-5c13cf54521f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ComponentStatistics, ComponentStatistics structure [COM+], _ComponentStatistics, comsvcs/ComponentStatistics, cos.componentstatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToInt64VectorAlloc
 title: PropVariantToInt64VectorAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into a newly-allocated LONGLONG vector.
 old-location: properties\PropVariantToInt64VectorAlloc.htm
 old-project: properties
 ms.assetid: 06f82bf5-5009-4c8b-9f99-4325328bc2e2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToInt64VectorAlloc, PropVariantToInt64VectorAlloc function [Windows Properties], _shell_PropVariantToInt64VectorAlloc, properties.PropVariantToInt64VectorAlloc, propvarutil/PropVariantToInt64VectorAlloc, shell.PropVariantToInt64VectorAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

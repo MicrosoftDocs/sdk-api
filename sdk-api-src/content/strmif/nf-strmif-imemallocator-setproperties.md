@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMemAllocator.SetProperties
 title: IMemAllocator::SetProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetProperties method specifies the number of buffers to allocate and the size of each buffer.
 old-location: dshow\imemallocator_setproperties.htm
 old-project: DirectShow
 ms.assetid: c68f2e2f-c70f-447d-804b-dfdfe8ae8a52
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMemAllocator interface [DirectShow],SetProperties method, IMemAllocator.SetProperties, IMemAllocator::SetProperties, IMemAllocatorSetProperties, SetProperties, SetProperties method [DirectShow], SetProperties method [DirectShow],IMemAllocator interface, dshow.imemallocator_setproperties, strmif/IMemAllocator::SetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

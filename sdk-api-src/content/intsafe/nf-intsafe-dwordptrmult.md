@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.DWordPtrMult
 title: DWordPtrMult function
-author: windows-driver-content
+author: windows-sdk-content
 description: Multiplies one value of type DWORD_PTR by another.
 old-location: shell\DWordPtrMult.htm
 old-project: shell
 ms.assetid: 9f5beb13-17cd-44ef-a352-843d51304ab6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DWordPtrMult, DWordPtrMult function [Windows Shell], _shell_DWordPtrMult, intsafe/DWordPtrMult, shell.DWordPtrMult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

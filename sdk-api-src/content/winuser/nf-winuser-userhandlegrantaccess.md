@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.UserHandleGrantAccess
 title: UserHandleGrantAccess function
-author: windows-driver-content
+author: windows-sdk-content
 description: Grants or denies access to a handle to a User object to a job that has a user-interface restriction.
 old-location: base\userhandlegrantaccess.htm
 old-project: ProcThread
 ms.assetid: 6e7a6cfc-f881-43cc-a5af-b97e0bf14bf4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: UserHandleGrantAccess, UserHandleGrantAccess function, _win32_userhandlegrantaccess, base.userhandlegrantaccess, winuser/UserHandleGrantAccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

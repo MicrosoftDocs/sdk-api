@@ -1,16 +1,16 @@
 ---
 UID: NF:commdlg.GetSaveFileNameW
 title: GetSaveFileNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a Save dialog box that lets the user specify the drive, directory, and name of a file to save.
 old-location: dlgbox\getsavefilename.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getsavefilename.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetSaveFileName, GetSaveFileName function [Dialog Boxes], GetSaveFileNameA, GetSaveFileNameW, _win32_GetSaveFileName, _win32_getsavefilename_cpp, commdlg/GetSaveFileName, commdlg/GetSaveFileNameA, commdlg/GetSaveFileNameW, dlgbox.getsavefilename, winui._win32_getsavefilename
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commdlg.h
 req.include-header: Windows.h

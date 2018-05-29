@@ -1,16 +1,16 @@
 ---
 UID: NF:vpconfig.IVPConfig.IsVPDecimationAllowed
 title: IVPConfig::IsVPDecimationAllowed
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsVPDecimationAllowed method, given the context, retrieves whether scaling at the video port is possible.
 old-location: dshow\ivpconfig_isvpdecimationallowed.htm
 old-project: DirectShow
 ms.assetid: 2362e321-cbdd-41ee-97ff-e6ff9cd672b0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVPConfig interface [DirectShow],IsVPDecimationAllowed method, IVPConfig.IsVPDecimationAllowed, IVPConfig::IsVPDecimationAllowed, IVPConfigIsVPDecimationAllowed, IsVPDecimationAllowed, IsVPDecimationAllowed method [DirectShow], IsVPDecimationAllowed method [DirectShow],IVPConfig interface, dshow.ivpconfig_isvpdecimationallowed, vpconfig/IVPConfig::IsVPDecimationAllowed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 

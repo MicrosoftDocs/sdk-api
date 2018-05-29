@@ -1,16 +1,16 @@
 ---
 UID: NE:wuapi.tagDownloadPhase
 title: tagDownloadPhase
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the progress of the download of the current update that is returned by the CurrentUpdateDownloadPhase property of the IDownloadProgress interface.
 old-location: wua\downloadphase.htm
 old-project: Wua_Sdk
 ms.assetid: a7e930dd-1dfa-42cc-9761-d4252c9a92ae
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DownloadPhase, DownloadPhase enumeration [Windows Update Agent], dphDownloading, dphInitializing, dphVerifying, tagDownloadPhase, wua.downloadphase, wuapi/DownloadPhase, wuapi/dphDownloading, wuapi/dphInitializing, wuapi/dphVerifying
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

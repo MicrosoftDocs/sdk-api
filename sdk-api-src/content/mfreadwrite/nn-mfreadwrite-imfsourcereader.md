@@ -1,16 +1,16 @@
 ---
 UID: NN:mfreadwrite.IMFSourceReader
 title: IMFSourceReader
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by the Microsoft Media Foundation source reader object.
 old-location: mf\imfsourcereader.htm
 old-project: medfound
 ms.assetid: 7d3cc314-6b9e-437c-afda-ee1965a12721
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSourceReader, IMFSourceReader interface [Media Foundation], IMFSourceReader interface [Media Foundation],described, mf.imfsourcereader, mfreadwrite/IMFSourceReader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfreadwrite.h
 req.include-header: 

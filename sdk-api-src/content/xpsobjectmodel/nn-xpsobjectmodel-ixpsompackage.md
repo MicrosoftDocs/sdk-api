@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPackage
 title: IXpsOMPackage
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the top-level entry into the XPS object model tree.
 old-location: xps\ixpsompackage.htm
 old-project: printdocs
 ms.assetid: 7b0a36d6-1af1-4c2c-af14-d6139e9115c3
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPackage, IXpsOMPackage interface [XPS Documents and Packaging], IXpsOMPackage interface [XPS Documents and Packaging],described, xps.ixpsompackage, xpsobjectmodel/IXpsOMPackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

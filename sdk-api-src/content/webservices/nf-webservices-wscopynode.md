@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsCopyNode
 title: WsCopyNode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies the current node from the specified XML reader to the specified XML writer.
 old-location: wsw\wscopynode.htm
 old-project: wsw
 ms.assetid: 36078f7d-4c1f-4b8a-9f44-cd4949b7de04
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsCopyNode, WsCopyNode function [Web Services for Windows], webservices/WsCopyNode, wsw.wscopynode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

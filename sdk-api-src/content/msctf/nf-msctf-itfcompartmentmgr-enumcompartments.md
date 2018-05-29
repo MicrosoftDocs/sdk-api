@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfCompartmentMgr.EnumCompartments
 title: ITfCompartmentMgr::EnumCompartments
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfCompartmentMgr::EnumCompartments method obtains an enumerator that contains the GUID of the compartments within the compartment manager.
 old-location: tsf\itfcompartmentmgr_enumcompartments.htm
 old-project: TSF
 ms.assetid: d8c90637-dd6d-425f-9d5d-44c7dbfcf8a5
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EnumCompartments, EnumCompartments method [Text Services Framework], EnumCompartments method [Text Services Framework],ITfCompartmentMgr interface, ITfCompartmentMgr interface [Text Services Framework],EnumCompartments method, ITfCompartmentMgr.EnumCompartments, ITfCompartmentMgr::EnumCompartments, _tsf_itfcompartmentmgr_enumcompartments_ref, msctf/ITfCompartmentMgr::EnumCompartments, tsf.itfcompartmentmgr_enumcompartments
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

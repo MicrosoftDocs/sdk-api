@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmapi.WcmGetProfileList
 title: WcmGetProfileList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of profiles in preferred order.
 old-location: wcm\wcmgetprofilelist.htm
 old-project: wcm
 ms.assetid: ceef4e74-3c67-4267-a82a-9912c039f41c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WcmGetProfileList, WcmGetProfileList function [Windows Connection Manager], wcm.wcmgetprofilelist, wcmapi/WcmGetProfileList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wcmapi.h
 req.include-header: 

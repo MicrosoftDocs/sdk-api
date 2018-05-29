@@ -1,16 +1,16 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationCompositor2
 title: IDirectManipulationCompositor2
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a compositor object that associates manipulated content with drawing surfaces across multiple processes.
 old-location: directmanipulation\idirectmanipulationcompositor2.htm
 old-project: directmanipulation
 ms.assetid: e428ddaa-3913-498a-a3fd-bed10289cd8d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationCompositor2, IDirectManipulationCompositor2 interface [Direct Manipulation], IDirectManipulationCompositor2 interface [Direct Manipulation],described, directmanipulation.idirectmanipulationcompositor2, directmanipulation/IDirectManipulationCompositor2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 

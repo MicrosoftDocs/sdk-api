@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.DrawCaption
 title: DrawCaption function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrawCaption function draws a window caption.
 old-location: gdi\drawcaption.htm
 old-project: gdi
 ms.assetid: 9348e29f-ce56-4664-8862-f5810c797622
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DC_ACTIVE, DC_BUTTONS, DC_GRADIENT, DC_ICON, DC_INBUTTON, DC_SMALLCAP, DC_TEXT, DrawCaption, DrawCaption function [Windows GDI], _win32_DrawCaption, gdi.drawcaption, winuser/DrawCaption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

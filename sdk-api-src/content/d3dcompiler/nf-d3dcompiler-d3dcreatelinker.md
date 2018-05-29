@@ -1,16 +1,16 @@
 ---
 UID: NF:d3dcompiler.D3DCreateLinker
 title: D3DCreateLinker function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a linker interface. Note  This function is part of the HLSL shader linking technology that you can use on all Direct3D 11 platforms to create precompiled HLSL functions, package them into libraries, and link them into full shaders at run time.  .
 old-location: direct3dhlsl\d3dcreatelinker.htm
 old-project: direct3dhlsl
 ms.assetid: 15BEFF31-9E08-462F-9F27-1CADB8367E4F
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: D3DCreateLinker, D3DCreateLinker function [HLSL], d3dcompiler/D3DCreateLinker, direct3dhlsl.d3dcreatelinker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 

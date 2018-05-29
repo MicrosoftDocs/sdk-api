@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateAndCondition
 title: IUIAutomation::CreateAndCondition
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a condition that selects elements that match both of two conditions.
 old-location: winauto\uiauto_IUIAutomation_CreateAndCondition.htm
 old-project: WinAuto
 ms.assetid: 066476b4-586c-477c-82ee-de2f2074d63b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CreateAndCondition, CreateAndCondition method [Windows Accessibility], CreateAndCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateAndCondition method, IUIAutomation.CreateAndCondition, IUIAutomation::CreateAndCondition, uiauto.uiauto_IUIAutomation_CreateAndCondition, uiauto_IUIAutomation_CreateAndCondition, uiautomationclient/IUIAutomation::CreateAndCondition, winauto.uiauto_IUIAutomation_CreateAndCondition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

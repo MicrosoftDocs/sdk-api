@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_GETVPORTBANDWIDTHDATA
 title: "_DD_GETVPORTBANDWIDTHDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_GETVPORTBANDWIDTHDATA structure contains the bandwidth information for any specified format.
 old-location: display\dd_getvportbandwidthdata.htm
 old-project: display
 ms.assetid: 5a24d819-1498-448a-9360-c14d382059cb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA, DD_GETVPORTBANDWIDTHDATA structure [Display Devices], _DD_GETVPORTBANDWIDTHDATA, ddrawint/DD_GETVPORTBANDWIDTHDATA, ddstrcts_3f17b83b-7530-4d17-b6c8-435d9ee45848.xml, display.dd_getvportbandwidthdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_CREDENTIAL0_
 title: IKEEXT_CERTIFICATE_CREDENTIAL0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to store credential information specific to certificate authentication.
 old-location: fwp\ikeext_certificate_credential0.htm
 old-project: FWP
 ms.assetid: 926a7e74-a225-4234-8be0-c8731840756a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_CERTIFICATE_CREDENTIAL0, IKEEXT_CERTIFICATE_CREDENTIAL0 structure [Filtering], IKEEXT_CERTIFICATE_CREDENTIAL0_, IKEEXT_CERT_CREDENTIAL_FLAG_NAP_CERT, fwp.ikeext_certificate_credential0, iketypes/IKEEXT_CERTIFICATE_CREDENTIAL0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

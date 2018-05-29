@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplication3.DeleteRoleDefinition
 title: IAzApplication3::DeleteRoleDefinition
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the specified IAzRoleDefinition object from the IAzApplication3 object.
 old-location: security\iazapplication3_deleteroledefinition.htm
 old-project: SecAuthZ
 ms.assetid: 34dc0bb8-1a44-418a-9b2c-f506f21f6ab1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],DeleteRoleDefinition method, IAzApplication3.DeleteRoleDefinition, IAzApplication3::DeleteRoleDefinition, azroles/IAzApplication3::DeleteRoleDefinition, security.iazapplication3_deleteroledefinition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

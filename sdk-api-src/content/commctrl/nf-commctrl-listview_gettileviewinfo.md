@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_GetTileViewInfo
 title: ListView_GetTileViewInfo macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information about a list-view control in tile view. You can use this macro or send the LVM_GETTILEVIEWINFO message explicitly.
 old-location: controls\ListView_GetTileViewInfo.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gettileviewinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_GetTileViewInfo, ListView_GetTileViewInfo macro [Windows Controls], _win32_ListView_GetTileViewInfo, _win32_ListView_GetTileViewInfo_cpp, commctrl/ListView_GetTileViewInfo, controls.ListView_GetTileViewInfo, controls._win32_ListView_GetTileViewInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

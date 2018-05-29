@@ -1,16 +1,16 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextCue
 title: IMFTimedTextCue
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the timed-text-cue object.
 old-location: mf\imftimedtextcue.htm
 old-project: medfound
 ms.assetid: 831FA230-D0C4-4115-8447-D882686D80EE
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], IMFTimedTextCue interface [Media Foundation],described, mf.imftimedtextcue, mfmediaengine/IMFTimedTextCue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasGetAutodialEnableA
 title: RasGetAutodialEnableA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasGetAutodialEnable function indicates whether the AutoDial feature is enabled for a specified TAPI dialing location.
 old-location: rras\rasgetautodialenable.htm
 old-project: RRAS
 ms.assetid: 221f91e6-86bd-4450-92c8-ec3290712c18
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasGetAutodialEnable, RasGetAutodialEnable function [RAS], RasGetAutodialEnableA, RasGetAutodialEnableW, _ras_rasgetautodialenable, ras/RasGetAutodialEnable, ras/RasGetAutodialEnableA, ras/RasGetAutodialEnableW, rras.rasgetautodialenable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

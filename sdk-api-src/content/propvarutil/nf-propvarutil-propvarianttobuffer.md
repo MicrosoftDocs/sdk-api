@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToBuffer
 title: PropVariantToBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the buffer value from a PROPVARIANT structure of type VT_VECTOR | VT_UI1 or VT_ARRRAY | VT_UI1.
 old-location: properties\PropVariantToBuffer.htm
 old-project: properties
 ms.assetid: 8adfc942-ad91-43bb-8d23-8994026666ff
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToBuffer, PropVariantToBuffer function [Windows Properties], properties.PropVariantToBuffer, propvarutil/PropVariantToBuffer, shell.PropVariantToBuffer, shell_PropVariantToBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

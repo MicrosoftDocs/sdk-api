@@ -1,16 +1,16 @@
 ---
 UID: NE:avrfsdk.eAvrfResourceTypes
 title: eAvrfResourceTypes
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the types of resources that can be enumerated using the VerifierEnumerateResource function.
 old-location: winprog\eavrfresourcetypes.htm
 old-project: DevNotes
 ms.assetid: 6887e584-0d0f-45ca-b926-47a55f19c9a2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: AvrfResourceHandleTrace, AvrfResourceHeapAllocation, AvrfResourceMax, avrfsdk/AvrfResourceHandleTrace, avrfsdk/AvrfResourceHeapAllocation, avrfsdk/AvrfResourceMax, avrfsdk/eAvrfResourceTypes, base.eavrfresourcetypes, eAvrfResourceTypes, eAvrfResourceTypes enumeration [Windows API], winprog.eavrfresourcetypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: avrfsdk.h
 req.include-header: 

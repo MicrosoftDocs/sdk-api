@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhGetCounterTimeBase
 title: PdhGetCounterTimeBase function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the time base of the specified counter.
 old-location: perf\pdhgetcountertimebase.htm
 old-project: PerfCtrs
 ms.assetid: b034c00e-50f1-46af-aebc-0cb968c0b737
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhGetCounterTimeBase, PdhGetCounterTimeBase function [Perf], _win32_pdhgetcountertimebase, base.pdhgetcountertimebase, pdh/PdhGetCounterTimeBase, perf.pdhgetcountertimebase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

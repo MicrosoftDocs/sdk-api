@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.GetMiddleInset
 title: AdjustableArrowCap::GetMiddleInset
-author: windows-driver-content
+author: windows-sdk-content
 description: The AdjustableArrowCap::GetMiddleInset method gets the value of the inset. The middle inset is the number of units that the midpoint of the base shifts towards the vertex.
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\getmiddleinset.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AdjustableArrowCap class [GDI+],GetMiddleInset method, AdjustableArrowCap.GetMiddleInset, AdjustableArrowCap::GetMiddleInset, GetMiddleInset, GetMiddleInset method [GDI+], GetMiddleInset method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_GetMiddleInset_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h

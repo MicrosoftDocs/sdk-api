@@ -1,16 +1,16 @@
 ---
 UID: NN:wmcodecdsp.IWMCodecOutputTimestamp
 title: IWMCodecOutputTimestamp
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the time stamp of the next video frame to be decoded.
 old-location: mf\iwmcodecoutputtimestampinterface.htm
 old-project: medfound
 ms.assetid: 0dbac3fa-7521-434d-aa0a-2e8422c3da59
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMCodecOutputTimestamp, IWMCodecOutputTimestamp interface [Media Foundation], IWMCodecOutputTimestamp interface [Media Foundation],described, codecapi.iwmcodecoutputtimestampinterface, mf.iwmcodecoutputtimestampinterface, wmcodecdsp/IWMCodecOutputTimestamp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcodecdsp.h
 req.include-header: 

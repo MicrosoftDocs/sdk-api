@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmUnregisterWordW
 title: ImmUnregisterWordW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a register string from the dictionary of the IME associated with the specified input locale.
 old-location: intl\immunregisterword.htm
 old-project: Intl
 ms.assetid: 1724d516-bc9d-418f-9fe1-5c82eccc73c5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Any value from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST, IME_REGWORD_STYLE_EUDC, ImmUnregisterWord, ImmUnregisterWord function [Internationalization for Windows Applications], ImmUnregisterWordA, ImmUnregisterWordW, _win32_ImmUnregisterWord, imm/ImmUnregisterWord, imm/ImmUnregisterWordA, imm/ImmUnregisterWordW, intl.immunregisterword
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

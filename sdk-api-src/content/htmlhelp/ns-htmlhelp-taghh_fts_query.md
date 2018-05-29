@@ -1,16 +1,16 @@
 ---
 UID: NS:htmlhelp.tagHH_FTS_QUERY
 title: tagHH_FTS_QUERY
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this structure for full-text search.
 old-location: htmlhelp\hh_fts_query_structure.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhftsquery.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: HH_FTS_QUERY, HH_FTS_QUERY structure [HTML Help Workshop], htmlhelp.hh_fts_query_structure, htmlhelp/HH_FTS_QUERY, tagHH_FTS_QUERY, vsconStrhhftsquery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: htmlhelp.h
 req.include-header: 

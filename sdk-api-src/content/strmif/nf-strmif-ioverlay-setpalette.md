@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IOverlay.SetPalette
 title: IOverlay::SetPalette
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetPalette method sets the palette.
 old-location: dshow\ioverlay_setpalette.htm
 old-project: DirectShow
 ms.assetid: 572f77ab-08a8-453a-993b-724da967bcde
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IOverlay interface [DirectShow],SetPalette method, IOverlay.SetPalette, IOverlay::SetPalette, IOverlaySetPalette, SetPalette, SetPalette method [DirectShow], SetPalette method [DirectShow],IOverlay interface, dshow.ioverlay_setpalette, strmif/IOverlay::SetPalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

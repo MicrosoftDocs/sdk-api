@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_SEQUENCE_OF_ANY
 title: "_CRYPT_SEQUENCE_OF_ANY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains an arbitrary list of encoded BLOBs.
 old-location: security\crypt_sequence_of_any.htm
 old-project: SecCrypto
 ms.assetid: 9500fa37-742b-4d37-8f45-0fb3c4cdda8d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_SEQUENCE_OF_ANY, CRYPT_SEQUENCE_OF_ANY, CRYPT_SEQUENCE_OF_ANY structure [Security], PCRYPT_SEQUENCE_OF_ANY, PCRYPT_SEQUENCE_OF_ANY structure pointer [Security], _CRYPT_SEQUENCE_OF_ANY, _crypto2_crypt_sequence_of_any, security.crypt_sequence_of_any, wincrypt/CRYPT_SEQUENCE_OF_ANY, wincrypt/PCRYPT_SEQUENCE_OF_ANY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

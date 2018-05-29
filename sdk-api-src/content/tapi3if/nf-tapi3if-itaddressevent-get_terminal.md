@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAddressEvent.get_Terminal
 title: ITAddressEvent::get_Terminal
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Terminal method gets a pointer to the ITTerminal interface associated with the event.
 old-location: tapi3\itaddressevent_get_terminal.htm
 old-project: Tapi
 ms.assetid: a57a4eea-2a94-4c32-b98f-c1747c80fec3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAddressEvent interface [TAPI 2.2],get_Terminal method, ITAddressEvent.get_Terminal, ITAddressEvent::get_Terminal, _tapi3_itaddressevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITAddressEvent interface, tapi3.itaddressevent_get_terminal, tapi3if/ITAddressEvent::get_Terminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

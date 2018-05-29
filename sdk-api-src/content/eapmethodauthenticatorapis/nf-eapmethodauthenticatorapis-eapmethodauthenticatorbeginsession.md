@@ -1,16 +1,16 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorBeginSession
 title: EapMethodAuthenticatorBeginSession function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new EAP authentication session on the server EAPHost.
 old-location: eaphost\eapmethodauthenticatorbeginsession.htm
 old-project: EAPHost
 ms.assetid: 02364783-71e4-4af0-95a2-a4ade7e17521
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapMethodAuthenticatorBeginSession, EapMethodAuthenticatorBeginSession function [EAPHost], eaphost.eapmethodauthenticatorbeginsession, eapmethodauthenticatorapis/EapMethodAuthenticatorBeginSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 

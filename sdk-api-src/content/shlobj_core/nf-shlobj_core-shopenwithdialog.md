@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHOpenWithDialog
 title: SHOpenWithDialog function
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays the Open With dialog box.
 old-location: shell\SHOpenWithDialog.htm
 old-project: shell
 ms.assetid: 026bfb34-a8a5-4bd7-9bc0-4aa395e6d535
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHOpenWithDialog, SHOpenWithDialog function [Windows Shell], _shell_SHOpenWithDialog, shell.SHOpenWithDialog, shlobj_core/SHOpenWithDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

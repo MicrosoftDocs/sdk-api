@@ -1,16 +1,16 @@
 ---
 UID: NF:virtdisk.ApplySnapshotVhdSet
 title: ApplySnapshotVhdSet function
-author: windows-driver-content
+author: windows-sdk-content
 description: Applies a snapshot of the current virtual disk for VHD Set files.
 old-location: vhd\applysnapshotvhdset.htm
 old-project: VStor
 ms.assetid: 1194B20E-AA50-4AEC-B9C4-AEA1BA84DD99
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ApplySnapshotVhdSet, ApplySnapshotVhdSet function [VHD], vhd.applysnapshotvhdset, virtdisk/ApplySnapshotVhdSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: Windows.h

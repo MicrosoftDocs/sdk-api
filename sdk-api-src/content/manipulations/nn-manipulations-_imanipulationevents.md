@@ -1,16 +1,16 @@
 ---
 UID: NN:manipulations._IManipulationEvents
 title: "_IManipulationEvents"
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles manipulation and inertia events.
 old-location: wintouch\_imanipulationevents.htm
 old-project: wintouch
 ms.assetid: be392a13-3165-44ff-bcd6-ed0075c669c4
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "_IManipulationEvents, _IManipulationEvents interface [Windows Touch], _IManipulationEvents interface [Windows Touch],described, manipulations/_IManipulationEvents, wintouch._imanipulationevents"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: manipulations.h
 req.include-header: 

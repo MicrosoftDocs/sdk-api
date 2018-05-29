@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMVfwCaptureDialogs.ShowDialog
 title: IAMVfwCaptureDialogs::ShowDialog
-author: windows-driver-content
+author: windows-sdk-content
 description: The ShowDialog method displays the specified VFW dialog box.
 old-location: dshow\iamvfwcapturedialogs_showdialog.htm
 old-project: DirectShow
 ms.assetid: 988b68e5-12fb-47c5-8a49-81ba262da739
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMVfwCaptureDialogs interface [DirectShow],ShowDialog method, IAMVfwCaptureDialogs.ShowDialog, IAMVfwCaptureDialogs::ShowDialog, IAMVfwCaptureDialogsShowDialog, ShowDialog, ShowDialog method [DirectShow], ShowDialog method [DirectShow],IAMVfwCaptureDialogs interface, dshow.iamvfwcapturedialogs_showdialog, strmif/IAMVfwCaptureDialogs::ShowDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

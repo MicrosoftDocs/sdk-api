@@ -1,16 +1,16 @@
 ---
 UID: NF:bdatif.IGuideDataProperty.get_Name
 title: IGuideDataProperty::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Name method retrieves the name of the property.
 old-location: mstv\iguidedataproperty_get_name.htm
 old-project: mstv
 ms.assetid: 63606e76-fd4a-4954-93bd-1085d32dd2da
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IGuideDataProperty interface [Microsoft TV Technologies],get_Name method, IGuideDataProperty.get_Name, IGuideDataProperty::get_Name, IGuideDataPropertyget_Name, bdatif/IGuideDataProperty::get_Name, get_Name, get_Name method [Microsoft TV Technologies], get_Name method [Microsoft TV Technologies],IGuideDataProperty interface, mstv.iguidedataproperty_get_name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

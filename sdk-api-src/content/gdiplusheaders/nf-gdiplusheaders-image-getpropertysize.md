@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPropertySize
 title: Image::GetPropertySize
-author: windows-driver-content
+author: windows-sdk-content
 description: The Image::GetPropertySize method gets the total size, in bytes, of all the property items stored in this Image object. The Image::GetPropertySize method also gets the number of property items stored in this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPropertySize_totalBufferSize_numProperties_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpropertysize.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPropertySize, GetPropertySize method [GDI+], GetPropertySize method [GDI+],Image class, Image class [GDI+],GetPropertySize method, Image.GetPropertySize, Image::GetPropertySize, _gdiplus_CLASS_Image_GetPropertySize_totalBufferSize_numProperties_, gdiplus._gdiplus_CLASS_Image_GetPropertySize_totalBufferSize_numProperties_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

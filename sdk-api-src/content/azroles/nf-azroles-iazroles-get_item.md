@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzRoles.get_Item
 title: IAzRoles::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IAzRole object at the specified index into the IAzRoles collection.
 old-location: security\iazroles_item.htm
 old-project: SecAuthZ
 ms.assetid: a1c8b474-aae9-401b-b6d7-de17cdf8fce9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzRoles object [Security],Item property, IAzRoles interface [Security],Item property, IAzRoles.Item, IAzRoles.get_Item, IAzRoles::Item, IAzRoles::get_Item, Item property [Security], Item property [Security],AzRoles object, Item property [Security],IAzRoles interface, azroles/IAzRoles::Item, azroles/IAzRoles::get_Item, get_Item, security.iazroles_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

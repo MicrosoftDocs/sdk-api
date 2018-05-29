@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.TransformPattern_Rotate
 title: TransformPattern_Rotate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Rotates an element on the screen.
 old-location: winauto\uiauto_TransformPattern_RotateConPat.htm
 old-project: WinAuto
 ms.assetid: c3c61c67-7c4a-4211-90f9-b5000a4938a3
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: TransformPattern_Rotate, TransformPattern_Rotate function [Windows Accessibility], uiauto.uiauto_TransformPattern_RotateConPat, uiauto_TransformPattern_RotateConPat, uiautomationcoreapi/TransformPattern_Rotate, winauto.uiauto_TransformPattern_RotateConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

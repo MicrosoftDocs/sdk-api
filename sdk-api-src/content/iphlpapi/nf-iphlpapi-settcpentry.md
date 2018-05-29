@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.SetTcpEntry
 title: SetTcpEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetTcpEntry function sets the state of a TCP connection.
 old-location: iphlp\settcpentry.htm
 old-project: IpHlp
 ms.assetid: 5916f66d-3c85-406d-b6f9-6c1c84161be4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: SetTcpEntry, SetTcpEntry function [IP Helper], _iphlp_settcpentry, iphlp.settcpentry, iphlpapi/SetTcpEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

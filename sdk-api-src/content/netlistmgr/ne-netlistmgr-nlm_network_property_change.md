@@ -1,16 +1,16 @@
 ---
 UID: NE:netlistmgr.NLM_NETWORK_PROPERTY_CHANGE
 title: NLM_NETWORK_PROPERTY_CHANGE
-author: windows-driver-content
+author: windows-sdk-content
 description: The NLM_NETWORK_PROPERTY_CHANGE enumeration is a set of flags that define changes made to the properties of a network.
 old-location: nla\nlm_network_property_change.htm
 old-project: NLA
 ms.assetid: 04c96793-f6a8-418b-a8d4-65e8df77933c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NLM_NETWORK_PROPERTY_CHANGE, NLM_NETWORK_PROPERTY_CHANGE enumeration [Network Awareness], NLM_NETWORK_PROPERTY_CHANGE_CATEGORY_VALUE, NLM_NETWORK_PROPERTY_CHANGE_CONNECTION, NLM_NETWORK_PROPERTY_CHANGE_DESCRIPTION, NLM_NETWORK_PROPERTY_CHANGE_NAME, netlistmgr/NLM_NETWORK_PROPERTY_CHANGE, netlistmgr/NLM_NETWORK_PROPERTY_CHANGE_CATEGORY_VALUE, netlistmgr/NLM_NETWORK_PROPERTY_CHANGE_CONNECTION, netlistmgr/NLM_NETWORK_PROPERTY_CHANGE_DESCRIPTION, netlistmgr/NLM_NETWORK_PROPERTY_CHANGE_NAME, nla.nlm_network_property_change
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: netlistmgr.h
 req.include-header: 

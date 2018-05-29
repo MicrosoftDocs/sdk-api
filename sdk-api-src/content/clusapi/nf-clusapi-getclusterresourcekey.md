@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.GetClusterResourceKey
 title: GetClusterResourceKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the root of the cluster database subtree for a resource.
 old-location: mscs\getclusterresourcekey.htm
 old-project: MsCS
 ms.assetid: 841f28a1-1415-41bb-b8ac-cf17c6d7c6f3
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetClusterResourceKey, GetClusterResourceKey function [Failover Cluster], _wolf_getclusterresourcekey, clusapi/GetClusterResourceKey, mscs.getclusterresourcekey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

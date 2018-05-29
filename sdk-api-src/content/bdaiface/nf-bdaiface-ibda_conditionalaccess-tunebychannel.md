@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.TuneByChannel
 title: IBDA_ConditionalAccess::TuneByChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: The TuneByChannel method tunes to a virtual channel.
 old-location: mstv\ibda_conditionalaccess_tunebychannel.htm
 old-project: mstv
 ms.assetid: 1241d61d-e16a-4f80-b187-759db316f25b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],TuneByChannel method, IBDA_ConditionalAccess.TuneByChannel, IBDA_ConditionalAccess::TuneByChannel, IBDA_ConditionalAccessTuneByChannel, TuneByChannel, TuneByChannel method [Microsoft TV Technologies], TuneByChannel method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::TuneByChannel, mstv.ibda_conditionalaccess_tunebychannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

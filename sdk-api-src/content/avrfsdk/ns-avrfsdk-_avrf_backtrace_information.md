@@ -1,16 +1,16 @@
 ---
 UID: NS:avrfsdk._AVRF_BACKTRACE_INFORMATION
 title: "_AVRF_BACKTRACE_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about backtraces performed.
 old-location: winprog\avrf_backtrace_information.htm
 old-project: DevNotes
 ms.assetid: 634d9569-469c-4dc7-9192-217af0937b6c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PAVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION structure [Windows API], _AVRF_BACKTRACE_INFORMATION, avrfsdk/AVRF_BACKTRACE_INFORMATION, base.avrf_backtrace_information, winprog.avrf_backtrace_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: avrfsdk.h
 req.include-header: 

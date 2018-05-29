@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFrameworkInputPaneHandler.Showing
 title: IFrameworkInputPaneHandler::Showing
-author: windows-driver-content
+author: windows-sdk-content
 description: Called before the input pane is shown, to allow the app window to make any necessary adjustments to its UI in response to the reduced screen space available to it.
 old-location: shell\IFrameworkInputPaneHandler_Showing.htm
 old-project: shell
 ms.assetid: E7CE2808-0146-4704-B1DA-1DDE691E946E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFrameworkInputPaneHandler interface [Windows Shell],Showing method, IFrameworkInputPaneHandler.Showing, IFrameworkInputPaneHandler::Showing, Showing, Showing method [Windows Shell], Showing method [Windows Shell],IFrameworkInputPaneHandler interface, shell.IFrameworkInputPaneHandler_Showing, shobjidl_core/IFrameworkInputPaneHandler::Showing
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

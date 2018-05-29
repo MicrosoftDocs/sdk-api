@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.CreateCustomAction
 title: IFsrmFileManagementJob::CreateCustomAction
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a custom action object.
 old-location: fsrm\ifsrmfilemanagementjob_createcustomaction.htm
 old-project: Fsrm
 ms.assetid: 886992bd-ca0b-4f21-8036-39703c7c99ba
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: CreateCustomAction, CreateCustomAction method [File Server Resource Manager], CreateCustomAction method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],CreateCustomAction method, IFsrmFileManagementJob.CreateCustomAction, IFsrmFileManagementJob::CreateCustomAction, fs.ifsrmfilemanagementjob_createcustomaction, fsrm.ifsrmfilemanagementjob_createcustomaction, fsrmreports/IFsrmFileManagementJob::CreateCustomAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

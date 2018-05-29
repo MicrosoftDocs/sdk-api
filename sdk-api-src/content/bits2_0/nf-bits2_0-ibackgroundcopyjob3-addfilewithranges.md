@@ -1,16 +1,16 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyJob3.AddFileWithRanges
 title: IBackgroundCopyJob3::AddFileWithRanges
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a file to a download job and specifies the ranges of the file you want to download.
 old-location: bits\ibackgroundcopyjob3_addfilewithranges.htm
 old-project: Bits
 ms.assetid: b3601f23-1a69-47db-8943-7515652cf015
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: AddFileWithRanges, AddFileWithRanges method [BITS], AddFileWithRanges method [BITS],IBackgroundCopyJob3 interface, IBackgroundCopyJob3 interface [BITS],AddFileWithRanges method, IBackgroundCopyJob3.AddFileWithRanges, IBackgroundCopyJob3::AddFileWithRanges, bits.ibackgroundcopyjob3_addfilewithranges, bits2_0/IBackgroundCopyJob3::AddFileWithRanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits2_0.h
 req.include-header: Bits.h

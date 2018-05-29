@@ -1,16 +1,16 @@
 ---
 UID: NF:netlistmgr.INetwork.GetNetworkConnections
 title: INetwork::GetNetworkConnections
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNetworkConnections method returns an enumeration of all network connections for a network. A network can have multiple connections to it from different interfaces or different links from the same interface.
 old-location: nla\inetwork_getnetworkconnections.htm
 old-project: NLA
 ms.assetid: cc599537-3c31-4674-81d0-608cadae3e61
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNetworkConnections, GetNetworkConnections method [Network Awareness], GetNetworkConnections method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetNetworkConnections method, INetwork.GetNetworkConnections, INetwork::GetNetworkConnections, netlistmgr/INetwork::GetNetworkConnections, nla.inetwork_getnetworkconnections
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_SECURITY_BINDING_TYPE
 title: WS_SECURITY_BINDING_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The type of the security binding, used as a selector for subtypes of WS_SECURITY_BINDING.
 old-location: wsw\ws_security_binding_type.htm
 old-project: wsw
 ms.assetid: caa3d71c-420c-4be0-a371-0f2d48ebd757
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TYPE, WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TYPE, WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE, WS_SAML_MESSAGE_SECURITY_BINDING_TYPE, WS_SECURITY_BINDING_TYPE, WS_SECURITY_BINDING_TYPE enumeration [Web Services for Windows], WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TYPE, WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE, WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TYPE, WS_USERNAME_MESSAGE_SECURITY_BINDING_TYPE, WS_XML_TOKEN_MESSAGE_SECURITY_BINDING_TYPE, webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TYPE, webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TYPE, webservices/WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE, webservices/WS_SAML_MESSAGE_SECURITY_BINDING_TYPE, webservices/WS_SECURITY_BINDING_TYPE, webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_TYPE, webservices/WS_SSL_TRANSPORT_SECURITY_BINDING_TYPE, webservices/WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TYPE, webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_TYPE, webservices/WS_XML_TOKEN_MESSAGE_SECURITY_BINDING_TYPE, wsw.ws_security_binding_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

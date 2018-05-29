@@ -1,16 +1,16 @@
 ---
 UID: NS:virtdisk._STORAGE_DEPENDENCY_INFO_TYPE_1
 title: "_STORAGE_DEPENDENCY_INFO_TYPE_1"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains virtual hard disk (VHD) storage dependency information for type 1.
 old-location: vhd\storage_dependency_info_type_1.htm
 old-project: VStor
 ms.assetid: 63296975-583d-415c-8c1f-f0cccfc5a1b3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PSTORAGE_DEPENDENCY_INFO_TYPE_1, PSTORAGE_DEPENDENCY_INFO_TYPE_1, PSTORAGE_DEPENDENCY_INFO_TYPE_1 structure pointer [VHD], STORAGE_DEPENDENCY_INFO_TYPE_1, STORAGE_DEPENDENCY_INFO_TYPE_1 structure [VHD], _STORAGE_DEPENDENCY_INFO_TYPE_1, vhd.storage_dependency_info_type_1, virtdisk/PSTORAGE_DEPENDENCY_INFO_TYPE_1, virtdisk/STORAGE_DEPENDENCY_INFO_TYPE_1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetTypeFlags
 title: IPropertyDescription::GetTypeFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a set of flags that describe the uses and capabilities of the property.
 old-location: properties\IPropertyDescription_GetTypeFlags.htm
 old-project: properties
 ms.assetid: 20ff02c1-72de-479f-afd8-29ec580bbfcb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetTypeFlags, GetTypeFlags method [Windows Properties], GetTypeFlags method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetTypeFlags method, IPropertyDescription.GetTypeFlags, IPropertyDescription::GetTypeFlags, properties.IPropertyDescription_GetTypeFlags, propsys/IPropertyDescription::GetTypeFlags, shell.IPropertyDescription_GetTypeFlags, shell_IPropertyDescription_GetTypeFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

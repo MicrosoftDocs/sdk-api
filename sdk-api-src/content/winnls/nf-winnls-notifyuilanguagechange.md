@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.NotifyUILanguageChange
 title: NotifyUILanguageChange function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unsupported. NotifyUILanguageChange may be altered or unavailable.
 old-location: intl\notifyuilanguagechange.htm
 old-project: Intl
 ms.assetid: DA75201D-38F9-470E-BA04-9135C5CE169F
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NotifyUILanguageChange, NotifyUILanguageChange function [Internationalization for Windows Applications], intl.notifyuilanguagechange, winnls/NotifyUILanguageChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

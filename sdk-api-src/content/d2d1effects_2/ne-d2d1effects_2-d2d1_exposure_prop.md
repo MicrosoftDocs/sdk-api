@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1effects_2.D2D1_EXPOSURE_PROP
 title: D2D1_EXPOSURE_PROP
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifiers for properties of the Exposure effect.
 old-location: direct2d\d2d1_exposure_prop.htm
 old-project: Direct2D
 ms.assetid: 0C294B8B-2E18-48B7-AB81-602AB7949131
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_EXPOSURE_PROP, D2D1_EXPOSURE_PROP enumeration [Direct2D], D2D1_EXPOSURE_PROP_EXPOSURE_VALUE, d2d1effects_2/D2D1_EXPOSURE_PROP, d2d1effects_2/D2D1_EXPOSURE_PROP_EXPOSURE_VALUE, direct2d.d2d1_exposure_prop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects_2.h
 req.include-header: 

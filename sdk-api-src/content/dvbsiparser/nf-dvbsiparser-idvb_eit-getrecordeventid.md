@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetRecordEventId
 title: IDVB_EIT::GetRecordEventId
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit_getrecordeventid.htm
 old-project: mstv
 ms.assetid: cfdaea8c-bcc9-4689-94b9-a651fdc06484
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordEventId, GetRecordEventId method [Microsoft TV Technologies], GetRecordEventId method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetRecordEventId method, IDVB_EIT.GetRecordEventId, IDVB_EIT::GetRecordEventId, IDVB_EITGetRecordEventId, dvbsiparser/IDVB_EIT::GetRecordEventId, mstv.idvb_eit_getrecordeventid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsPropertyEntry
 title: IADsPropertyEntry
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsPropertyEntry interface is used to manage a property entry in the property cache.
 old-location: adsi\iadspropertyentry.htm
 old-project: ADSI
 ms.assetid: 6c398d05-ac12-4c9a-b61a-70cd795c991f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsPropertyEntry, IADsPropertyEntry interface [ADSI], IADsPropertyEntry interface [ADSI],described, PropertyEntry, _ds_iadspropertyentry, adsi.iadspropertyentry, iads/IADsPropertyEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

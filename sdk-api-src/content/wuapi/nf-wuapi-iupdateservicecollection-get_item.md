@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateServiceCollection.get_Item
 title: IUpdateServiceCollection::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets and sets an IUpdateService interface in a collection.
 old-location: wua\iupdateservicecollection_item.htm
 old-project: Wua_Sdk
 ms.assetid: 581f532d-a973-4b66-9e9e-d8229a3b28b4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateServiceCollection interface [Windows Update Agent],Item property, IUpdateServiceCollection.Item, IUpdateServiceCollection.get_Item, IUpdateServiceCollection::Item, IUpdateServiceCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IUpdateServiceCollection interface, get_Item, wua.iupdateservicecollection_item, wuapi/IUpdateServiceCollection::Item, wuapi/IUpdateServiceCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_OID_FUNC_ENTRY
 title: "_CRYPT_OID_FUNC_ENTRY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains an object identifier (OID) and a pointer to its related function.
 old-location: security\crypt_oid_func_entry.htm
 old-project: SecCrypto
 ms.assetid: 84c4aca8-ee38-455f-8330-58f512a6d12c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_OID_FUNC_ENTRY, CRYPT_OID_FUNC_ENTRY, CRYPT_OID_FUNC_ENTRY structure [Security], PCRYPT_OID_FUNC_ENTRY, PCRYPT_OID_FUNC_ENTRY structure pointer [Security], _CRYPT_OID_FUNC_ENTRY, _crypto2_crypt_oid_func_entry, security.crypt_oid_func_entry, wincrypt/CRYPT_OID_FUNC_ENTRY, wincrypt/PCRYPT_OID_FUNC_ENTRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

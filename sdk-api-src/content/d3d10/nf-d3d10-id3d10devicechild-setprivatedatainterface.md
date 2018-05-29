@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10DeviceChild.SetPrivateDataInterface
 title: ID3D10DeviceChild::SetPrivateDataInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: Associate an IUnknown-derived interface with this device child and associate that interface with an application-defined guid.
 old-location: direct3d10\id3d10devicechild_setprivatedatainterface.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild_setprivatedatainterface.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ID3D10DeviceChild interface [Direct3D 10],SetPrivateDataInterface method, ID3D10DeviceChild.SetPrivateDataInterface, ID3D10DeviceChild::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method [Direct3D 10], SetPrivateDataInterface method [Direct3D 10],ID3D10DeviceChild interface, adb67004-d0c8-2bcc-dda9-a0dbc070dbda, d3d10/ID3D10DeviceChild::SetPrivateDataInterface, direct3d10.id3d10devicechild_setprivatedatainterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.GetSubSystem
 title: IVdsIscsiTarget::GetSubSystem
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the subsystem to which the target belongs.
 old-location: base\ivdsiscsitarget_getsubsystem.htm
 old-project: VDS
 ms.assetid: c9feb332-1b30-4de8-ac30-79fe53750d8c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],GetSubSystem method, IVdsIscsiTarget.GetSubSystem, IVdsIscsiTarget::GetSubSystem, base.ivdsiscsitarget_getsubsystem, vds/IVdsIscsiTarget::GetSubSystem, vdshwprv/IVdsIscsiTarget::GetSubSystem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

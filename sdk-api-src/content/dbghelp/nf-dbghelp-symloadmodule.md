@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymLoadModule
 title: SymLoadModule function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads the symbol table.
 old-location: base\symloadmodule64.htm
 old-project: Debug
 ms.assetid: be50588b-066b-42ab-ba81-7537c811676f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymLoadModule, SymLoadModule function, SymLoadModule64, SymLoadModule64 function, _win32_symloadmodule64, base.symloadmodule64, dbghelp/SymLoadModule, dbghelp/SymLoadModule64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

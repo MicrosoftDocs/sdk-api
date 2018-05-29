@@ -1,16 +1,16 @@
 ---
 UID: NE:highlevelmonitorconfigurationapi._MC_SIZE_TYPE
 title: "_MC_SIZE_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether to get or set the width or height of a monitor's display area.
 old-location: monitor\mc_size_type.htm
 old-project: Monitor
 ms.assetid: 6a917b7d-b91d-478a-b84e-7586d743522a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: MC_HEIGHT, MC_SIZE_TYPE, MC_SIZE_TYPE , MC_SIZE_TYPE enumeration [Monitor Configuration], MC_WIDTH, _MC_SIZE_TYPE, highlevelmonitorconfigurationapi/MC_HEIGHT, highlevelmonitorconfigurationapi/MC_SIZE_TYPE, highlevelmonitorconfigurationapi/MC_WIDTH, monitor.mc_size_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.RtlTimeToSecondsSince1970
 title: RtlTimeToSecondsSince1970 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the specified 64-bit system time to the number of seconds since the beginning of January 1, 1970.
 old-location: base\rtltimetosecondssince1970.htm
 old-project: SysInfo
 ms.assetid: cb2e041a-cbbb-4572-85da-b282fa692261
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RtlTimeToSecondsSince1970, RtlTimeToSecondsSince1970 function, base.rtltimetosecondssince1970, winternl/RtlTimeToSecondsSince1970
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

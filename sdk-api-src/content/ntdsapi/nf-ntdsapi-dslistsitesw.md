@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsListSitesW
 title: DsListSitesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Lists all the sites in the enterprise forest.
 old-location: ad\dslistsites.htm
 old-project: AD
 ms.assetid: d424e750-6700-42b8-9d4f-e430cd0a7e4e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsListSites, DsListSites function [Active Directory], DsListSitesA, DsListSitesW, _glines_dslistsites, ad.dslistsites, ntdsapi/DsListSites, ntdsapi/DsListSitesA, ntdsapi/DsListSitesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

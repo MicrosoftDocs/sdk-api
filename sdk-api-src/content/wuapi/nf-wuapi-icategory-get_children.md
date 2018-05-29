@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.ICategory.get_Children
 title: ICategory::get_Children
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an interface collection that contains the child categories of this category.
 old-location: wua\icategory_children.htm
 old-project: Wua_Sdk
 ms.assetid: 98c49741-cd7b-43fd-bc9c-f70899506ef2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Children property [Windows Update Agent], Children property [Windows Update Agent],ICategory interface, ICategory interface [Windows Update Agent],Children property, ICategory.Children, ICategory.get_Children, ICategory::Children, ICategory::get_Children, get_Children, wua.icategory_children, wuapi/ICategory::Children, wuapi/ICategory::get_Children
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

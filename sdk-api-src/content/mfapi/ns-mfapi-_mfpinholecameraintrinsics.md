@@ -1,16 +1,16 @@
 ---
 UID: NS:mfapi._MFPinholeCameraIntrinsics
 title: "_MFPinholeCameraIntrinsics"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains zero or 1 pinhole camera intrinsic models that describe how to project a 3D point in physical world onto the 2D image frame of a camera.
 old-location: mf\mfpinholecameraintrinsics.htm
 old-project: medfound
 ms.assetid: 477F4DF6-CAE5-4BCD-A7D9-B1656DEA11E6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFPinholeCameraIntrinsics, MFPinholeCameraIntrinsics structure [Media Foundation], PMFPinholeCameraIntrinsics, PMFPinholeCameraIntrinsics structure pointer [Media Foundation], _MFPinholeCameraIntrinsics, mf.mfpinholecameraintrinsics, mfapi/MFPinholeCameraIntrinsics, mfapi/PMFPinholeCameraIntrinsics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

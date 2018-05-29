@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IBootOptions.put_PlatformId
 title: IBootOptions::put_PlatformId
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the platform identifier that identifies the operating system architecture that the boot image supports.
 old-location: imapi\ibootoptions_put_platformid.htm
 old-project: imapi
 ms.assetid: 295f3a3c-0f01-4b9b-b73c-48f075e6a33a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IBootOptions interface [IMAPI],put_PlatformId method, IBootOptions.put_PlatformId, IBootOptions::put_PlatformId, imapi.ibootoptions_put_platformid, imapi2fs/IBootOptions::put_PlatformId, put_PlatformId, put_PlatformId method [IMAPI], put_PlatformId method [IMAPI],IBootOptions interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

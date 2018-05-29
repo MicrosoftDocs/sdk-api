@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddSeparator
 title: IFileDialogCustomize::AddSeparator
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a separator to the dialog, allowing a visual separation of controls.
 old-location: shell\IFileDialogCustomize_AddSeparator.htm
 old-project: shell
 ms.assetid: e2d0f1c7-9296-4651-8910-89dcfe5a6a68
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddSeparator, AddSeparator method [Windows Shell], AddSeparator method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddSeparator method, IFileDialogCustomize.AddSeparator, IFileDialogCustomize::AddSeparator, shell.IFileDialogCustomize_AddSeparator, shell_IFileDialogCustomize_AddSeparator, shobjidl_core/IFileDialogCustomize::AddSeparator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

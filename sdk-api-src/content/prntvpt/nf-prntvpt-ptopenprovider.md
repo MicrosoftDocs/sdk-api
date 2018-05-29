@@ -1,16 +1,16 @@
 ---
 UID: NF:prntvpt.PTOpenProvider
 title: PTOpenProvider function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an instance of a print ticket provider.
 old-location: gdi\ptopenprovider.htm
 old-project: printdocs
 ms.assetid: 6821b1b0-74b0-4caf-b8e6-a9df4d7693d7
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PTOpenProvider, PTOpenProvider function [Windows GDI], _win32_PTOpenProvider, gdi.ptopenprovider, prntvpt/PTOpenProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 

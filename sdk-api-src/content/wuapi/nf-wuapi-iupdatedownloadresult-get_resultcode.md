@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateDownloadResult.get_ResultCode
 title: IUpdateDownloadResult::get_ResultCode
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an OperationResultCode enumeration value that specifies the result of an operation on the update.
 old-location: wua\iupdatedownloadresult_resultcode.htm
 old-project: Wua_Sdk
 ms.assetid: 62dd9463-aa41-419d-8bee-e63bd6177c5d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateDownloadResult interface [Windows Update Agent],ResultCode property, IUpdateDownloadResult.ResultCode, IUpdateDownloadResult.get_ResultCode, IUpdateDownloadResult::ResultCode, IUpdateDownloadResult::get_ResultCode, ResultCode property [Windows Update Agent], ResultCode property [Windows Update Agent],IUpdateDownloadResult interface, get_ResultCode, wua.iupdatedownloadresult_resultcode, wuapi/IUpdateDownloadResult::ResultCode, wuapi/IUpdateDownloadResult::get_ResultCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:subscriptionservices.IWMPSubscriptionService
 title: IWMPSubscriptionService
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice.htm
 old-project: WMP
 ms.assetid: cb9d0f20-d5ca-4db9-adcc-0a803f97f196
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSubscriptionService, IWMPSubscriptionService interface [Windows Media Player], IWMPSubscriptionService interface [Windows Media Player],described, IWMPSubscriptionServiceInterface, subscriptionservices/IWMPSubscriptionService, wmp.iwmpsubscriptionservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: subscriptionservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:upnp.IUPnPDevice
 title: IUPnPDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: The IUPnPDevice interface enables an application to retrieve information about a specific device.
 old-location: upnp\iupnpdevice.htm
 old-project: UPnP
 ms.assetid: 566cc606-3dfb-4052-93b0-3c922bf30f84
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: IUPnPDevice, IUPnPDevice interface [UPnP APIs], IUPnPDevice interface [UPnP APIs],described, _upnp_iupnpdevice, upnp.iupnpdevice, upnp/IUPnPDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

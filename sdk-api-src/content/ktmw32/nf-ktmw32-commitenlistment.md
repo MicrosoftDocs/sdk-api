@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.CommitEnlistment
 title: CommitEnlistment function
-author: windows-driver-content
+author: windows-sdk-content
 description: Commits the transaction associated with this enlistment handle. This function is used by communication resource managers (sometimes called superior transaction managers).
 old-location: fs\commitenlistment.htm
 old-project: Ktm
 ms.assetid: d1e1043d-2db3-4f05-affc-2d32744baf10
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CommitEnlistment, CommitEnlistment function [Files], fs.commitenlistment, ktmw32/CommitEnlistment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

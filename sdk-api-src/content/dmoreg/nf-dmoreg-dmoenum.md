@@ -1,16 +1,16 @@
 ---
 UID: NF:dmoreg.DMOEnum
 title: DMOEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DMOEnum function enumerates DMOs listed in the registry. The caller can search by category, media type, or both.
 old-location: dshow\dmoenum.htm
 old-project: DirectShow
 ms.assetid: 2cb69d28-15be-44fb-a180-98b560848c08
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DMOEnum, DMOEnum function [DirectShow], dmoreg/DMOEnum, dshow.dmoenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dmoreg.h
 req.include-header: Dmo.h

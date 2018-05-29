@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemServices.PutClass
 title: IWbemServices::PutClass
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemServices::PutClass method creates a new class or updates an existing one. The class specified by the pObject parameter must have been correctly initialized with all of the required property values.
 old-location: wmi\iwbemservices_putclass.htm
 old-project: WmiSdk
 ms.assetid: fcb8694e-6bf1-426d-bc1d-18cf9925f1e0
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemServices interface [Windows Management Instrumentation],PutClass method, IWbemServices.PutClass, IWbemServices::PutClass, PutClass, PutClass method [Windows Management Instrumentation], PutClass method [Windows Management Instrumentation],IWbemServices interface, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_OWNER_UPDATE, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_UPDATE_COMPATIBLE, WBEM_FLAG_UPDATE_FORCE_MODE, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_UPDATE_SAFE_MODE, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_putclass, wbemcli/IWbemServices::PutClass, wmi.iwbemservices_putclass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

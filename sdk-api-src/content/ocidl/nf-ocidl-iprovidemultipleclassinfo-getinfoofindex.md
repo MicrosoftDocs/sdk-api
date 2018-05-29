@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IProvideMultipleClassInfo.GetInfoOfIndex
 title: IProvideMultipleClassInfo::GetInfoOfIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the type information from the specified index.
 old-location: com\iprovidemultipleclassinfo_getinfoofindex.htm
 old-project: com
 ms.assetid: 084dfb9d-5545-4845-9959-1b054566adca
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetInfoOfIndex, GetInfoOfIndex method [COM], GetInfoOfIndex method [COM],IProvideMultipleClassInfo interface, IProvideMultipleClassInfo interface [COM],GetInfoOfIndex method, IProvideMultipleClassInfo.GetInfoOfIndex, IProvideMultipleClassInfo::GetInfoOfIndex, MULTICLASSINFO_GETIIDPRIMARY, MULTICLASSINFO_GETIIDSOURCE, MULTICLASSINFO_GETNUMRESERVEDDISPIDS, MULTICLASSINFO_GETTYPEINFO, _com_iprovidemultipleclassinfo_getinfoofindex, com.iprovidemultipleclassinfo_getinfoofindex, ocidl/IProvideMultipleClassInfo::GetInfoOfIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcom.IFaxPort
 title: IFaxPort
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxPort dual interface is used by a fax client application to access configuration information for a fax port on a connected fax server.
 old-location: fax\_mfax_ifaxport.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_21ys.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxPort, IFaxPort interface [Fax Service], IFaxPort interface [Fax Service],described, _mfax_ifaxport, fax._mfax_ifaxport, faxcom/IFaxPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcom.h
 req.include-header: 

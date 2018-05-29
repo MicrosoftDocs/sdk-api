@@ -1,16 +1,16 @@
 ---
 UID: NN:bdaiface.IMPEG2PIDMap
 title: IMPEG2PIDMap
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is implemented on each output pin of the MPEG-2 Demultiplexer filter (Demux) and is used in transport stream mode only.
 old-location: dshow\impeg2pidmap.htm
 old-project: DirectShow
 ms.assetid: 45c09a02-7da8-460a-9a64-f012c2181b94
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMPEG2PIDMap, IMPEG2PIDMap interface [DirectShow], IMPEG2PIDMap interface [DirectShow],described, IMPEG2PIDMapInterface, bdaiface/IMPEG2PIDMap, dshow.impeg2pidmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

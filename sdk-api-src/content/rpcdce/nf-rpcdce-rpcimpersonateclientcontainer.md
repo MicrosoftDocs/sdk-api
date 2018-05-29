@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcImpersonateClientContainer
 title: RpcImpersonateClientContainer function
-author: windows-driver-content
+author: windows-sdk-content
 description: RpcImpersonateClientContainer may be altered or unavailable.
 old-location: rpc\rpcimpersonateclientcontainer.htm
 old-project: Rpc
 ms.assetid: C81E71C9-C044-487E-BFD7-859775E877F0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcImpersonateClientContainer, RpcImpersonateClientContainer function [RPC], rpc.rpcimpersonateclientcontainer, rpcdce/RpcImpersonateClientContainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: 

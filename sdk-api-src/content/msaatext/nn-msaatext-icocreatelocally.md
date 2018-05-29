@@ -1,16 +1,16 @@
 ---
 UID: NN:msaatext.ICoCreateLocally
 title: ICoCreateLocally
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that enables a client application to create a helper object in the server context.
 old-location: winauto\icocreatelocally.htm
 old-project: WinAuto
 ms.assetid: df432ace-01ff-4100-a9df-4ed6abea7f1c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ICoCreateLocally, ICoCreateLocally interface [Windows Accessibility], ICoCreateLocally interface [Windows Accessibility],described, msaa.icocreatelocally, msaatext/ICoCreateLocally, winauto.icocreatelocally
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msaatext.h
 req.include-header: 

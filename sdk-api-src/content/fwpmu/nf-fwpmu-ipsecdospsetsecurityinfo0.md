@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IPsecDospSetSecurityInfo0
 title: IPsecDospSetSecurityInfo0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: The IPsecDospSetSecurityInfo0 function sets specified security information in the security descriptor of the IPsec DoS Protection database.
 old-location: fwp\ipsecdospsetsecurityinfo0.htm
 old-project: FWP
 ms.assetid: 46d18b8b-c688-4a41-841e-d952e9b07cf7
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPsecDospSetSecurityInfo0, IPsecDospSetSecurityInfo0 function [Filtering], fwp.ipsecdospsetsecurityinfo0, fwpmu/IPsecDospSetSecurityInfo0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

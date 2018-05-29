@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.IsTouchWindow
 title: IsTouchWindow function
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks whether a specified window is touch-capable and, optionally, retrieves the modifier flags set for the window's touch capability.
 old-location: wintouch\istouchwindow.htm
 old-project: wintouch
 ms.assetid: 080b9d18-5975-4d38-ae3b-151f74120bb3
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IsTouchWindow, IsTouchWindow function [Windows Touch], wintouch.istouchwindow, winuser/IsTouchWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

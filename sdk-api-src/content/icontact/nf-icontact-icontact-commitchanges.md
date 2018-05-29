@@ -1,16 +1,16 @@
 ---
 UID: NF:icontact.IContact.CommitChanges
 title: IContact::CommitChanges
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves changes made to this contact to the contact file.
 old-location: wincontacts\_wincontacts_IContact_CommitChanges.htm
 old-project: wincontacts
 ms.assetid: b06f7d25-03ae-4630-9aa9-09cfbcecc416
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: CommitChanges, CommitChanges method [Windows Contacts], CommitChanges method [Windows Contacts],IContact interface, IContact interface [Windows Contacts],CommitChanges method, IContact.CommitChanges, IContact::CommitChanges, _wincontacts_IContact_CommitChanges, icontact/IContact::CommitChanges, wincontacts._wincontacts_IContact_CommitChanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

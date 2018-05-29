@@ -1,16 +1,16 @@
 ---
 UID: NF:upnp.IUPnPServiceDocumentAccess.GetDocumentURL
 title: IUPnPServiceDocumentAccess::GetDocumentURL
-author: windows-driver-content
+author: windows-sdk-content
 description: GetDocumentURL method retrieves the Service Control Protocol Description (SCPD) URL for a service object. Using this URL, the UPnP control point can download the complete SCPD document.
 old-location: upnp\iupnpservicedocumentaccess_getdocumenturl.htm
 old-project: UPnP
 ms.assetid: 57AF4510-89D6-4DD5-B164-1478A5C27E20
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: GetDocumentURL, GetDocumentURL method [UPnP APIs], GetDocumentURL method [UPnP APIs],IUPnPServiceDocumentAccess interface, IUPnPServiceDocumentAccess interface [UPnP APIs],GetDocumentURL method, IUPnPServiceDocumentAccess.GetDocumentURL, IUPnPServiceDocumentAccess::GetDocumentURL, upnp.iupnpservicedocumentaccess_getdocumenturl, upnp/IUPnPServiceDocumentAccess::GetDocumentURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

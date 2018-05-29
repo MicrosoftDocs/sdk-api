@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.StartProgressDialog
 title: IOperationsProgressDialog::StartProgressDialog
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts the specified progress dialog.
 old-location: shell\IOperationsProgressDialog_StartProgressDialog.htm
 old-project: shell
 ms.assetid: 5d6f44e0-259f-42d3-9912-877d90f0e7fc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],StartProgressDialog method, IOperationsProgressDialog.StartProgressDialog, IOperationsProgressDialog::StartProgressDialog, OPPROGDLG_ALLOWUNDO, OPPROGDLG_DEFAULT, OPPROGDLG_DONTDISPLAYDESTPATH, OPPROGDLG_DONTDISPLAYLOCATIONS, OPPROGDLG_DONTDISPLAYSOURCEPATH, OPPROGDLG_ENABLEPAUSE, OPPROGDLG_NOMULTIDAYESTIMATES, PROGDLG_AUTOTIME, PROGDLG_MARQUEEPROGRESS, PROGDLG_MODAL, PROGDLG_NOCANCEL, PROGDLG_NOMINIMIZE, PROGDLG_NOPROGRESSBAR, PROGDLG_NORMAL, PROGDLG_NOTIME, StartProgressDialog, StartProgressDialog method [Windows Shell], StartProgressDialog method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_StartProgressDialog, shell.IOperationsProgressDialog_StartProgressDialog, shobjidl_core/IOperationsProgressDialog::StartProgressDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

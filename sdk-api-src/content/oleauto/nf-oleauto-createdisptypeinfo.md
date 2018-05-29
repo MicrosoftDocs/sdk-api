@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.CreateDispTypeInfo
 title: CreateDispTypeInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates simplified type information for use in an implementation of IDispatch.
 old-location: automat\createdisptypeinfo.htm
 old-project: automat
 ms.assetid: 603e00e8-0370-4ebf-b9d2-85e6e58c2b3a
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: CreateDispTypeInfo, CreateDispTypeInfo function [Automation], _oa96_CreateDispTypeInfo, automat.createdisptypeinfo, oleauto/CreateDispTypeInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

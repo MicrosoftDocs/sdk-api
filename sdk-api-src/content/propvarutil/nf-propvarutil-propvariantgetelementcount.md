@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantGetElementCount
 title: PropVariantGetElementCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the element count of a PROPVARIANT structure.
 old-location: properties\PropVariantGetElementCount.htm
 old-project: properties
 ms.assetid: 1d02f06e-f90b-40f2-923b-a89d2d4d535c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantGetElementCount, PropVariantGetElementCount function [Windows Properties], _shell_PropVariantGetElementCount, properties.PropVariantGetElementCount, propvarutil/PropVariantGetElementCount, shell.PropVariantGetElementCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

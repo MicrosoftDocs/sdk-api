@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11_1.CD3D11_BLEND_DESC1
 title: CD3D11_BLEND_DESC1
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the blend state that you use in a call to ID3D11Device1::CreateBlendState1 to create a blend-state object.
 old-location: direct3d11\d3d11_blend_desc1.htm
 old-project: direct3d11
 ms.assetid: BBBECB86-B33D-4AA3-8D0A-45AEC3BBC4AB
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: CD3D11_BLEND_DESC1, D3D11_BLEND_DESC1, D3D11_BLEND_DESC1 structure [Direct3D 11], d3d11_1/D3D11_BLEND_DESC1, direct3d11.d3d11_blend_desc1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_1.h
 req.include-header: 

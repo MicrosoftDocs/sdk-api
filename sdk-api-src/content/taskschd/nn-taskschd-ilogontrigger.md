@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.ILogonTrigger
 title: ILogonTrigger
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a trigger that starts a task when a user logs on.
 old-location: taskschd\ilogontrigger.htm
 old-project: TaskSchd
 ms.assetid: c0206a18-53f2-4def-8f54-2b175a0579f4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ILogonTrigger, ILogonTrigger interface [Task Scheduler], ILogonTrigger interface [Task Scheduler],described, logon trigger [Task Scheduler],interface, taskschd.ilogontrigger, taskschd/ILogonTrigger
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

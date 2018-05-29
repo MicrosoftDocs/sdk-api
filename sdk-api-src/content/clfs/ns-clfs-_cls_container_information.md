@@ -1,16 +1,16 @@
 ---
 UID: NS:clfs._CLS_CONTAINER_INFORMATION
 title: "_CLS_CONTAINER_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes general information about a container.
 old-location: fs\clfs_container_information.htm
 old-project: Clfs
 ms.assetid: 3788fac0-4e99-49e0-bba1-6a6d22299950
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLFS_CONTAINER_INFORMATION, *PCLS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION, CLFS_CONTAINER_INFORMATION structure [Files], CLS_CONTAINER_INFORMATION, ClfsContainerActive, ClfsContainerActivePendingDelete, ClfsContainerInactive, ClfsContainerInitializing, ClfsContainerPendingArchive, ClfsContainerPendingArchiveAndDelete, PCLFS_CONTAINER_INFORMATION, PCLFS_CONTAINER_INFORMATION structure pointer [Files], PPCLFS_CONTAINER_INFORMATION, PPCLFS_CONTAINER_INFORMATION structure pointer [Files], PPCLS_CONTAINER_INFORMATION, _CLS_CONTAINER_INFORMATION, clfs/PCLFS_CONTAINER_INFORMATION, clfs/PPCLFS_CONTAINER_INFORMATION, clfs/_CLFS_CONTAINER_INFORMATION, fs.clfs_container_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h

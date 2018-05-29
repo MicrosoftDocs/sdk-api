@@ -1,16 +1,16 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroupImpl.Preprocess
 title: IMILBitmapEffectGroupImpl::Preprocess
-author: windows-driver-content
+author: windows-sdk-content
 description: Pre-process the given render context.
 old-location: wibe\_wibe_imilbitmapeffectgroupimpl_preprocess.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\preprocess.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],Preprocess method, IMILBitmapEffectGroupImpl.Preprocess, IMILBitmapEffectGroupImpl::Preprocess, Preprocess, Preprocess method [WPF Bitmap Effects], Preprocess method [WPF Bitmap Effects],IMILBitmapEffectGroupImpl interface, _wibe_imilbitmapeffectgroupimpl_preprocess, mileffects/IMILBitmapEffectGroupImpl::Preprocess, wibe._wibe_imilbitmapeffectgroupimpl_preprocess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

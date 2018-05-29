@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMpeg2Demultiplexer.DeleteOutputPin
 title: IMpeg2Demultiplexer::DeleteOutputPin
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeleteOutputPin method deletes the specified output pin.
 old-location: dshow\impeg2demultiplexer_deleteoutputpin.htm
 old-project: DirectShow
 ms.assetid: 6c6a0e38-54b8-4fa3-b37a-00073d40965d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DeleteOutputPin, DeleteOutputPin method [DirectShow], DeleteOutputPin method [DirectShow],IMpeg2Demultiplexer interface, IMpeg2Demultiplexer interface [DirectShow],DeleteOutputPin method, IMpeg2Demultiplexer.DeleteOutputPin, IMpeg2Demultiplexer::DeleteOutputPin, IMpeg2DemultiplexerDeleteOutputPin, dshow.impeg2demultiplexer_deleteoutputpin, strmif/IMpeg2Demultiplexer::DeleteOutputPin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

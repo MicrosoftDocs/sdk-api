@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IWriteEngine2.get_EndingSectorsPerSecond
 title: IWriteEngine2::get_EndingSectorsPerSecond
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the estimated number of sectors per second that the recording device can write to the media at the end of the writing process.
 old-location: imapi\iwriteengine2_get_endingsectorspersecond.htm
 old-project: imapi
 ms.assetid: 7e6a5f41-328d-47b3-ba43-900e524cf51a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_EndingSectorsPerSecond method, IWriteEngine2.get_EndingSectorsPerSecond, IWriteEngine2::get_EndingSectorsPerSecond, get_EndingSectorsPerSecond, get_EndingSectorsPerSecond method [IMAPI], get_EndingSectorsPerSecond method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_endingsectorspersecond, imapi2/IWriteEngine2::get_EndingSectorsPerSecond
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

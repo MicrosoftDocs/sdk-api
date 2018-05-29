@@ -1,16 +1,16 @@
 ---
 UID: NF:adshlp.ADsFreeEnumerator
 title: ADsFreeEnumerator function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees an enumerator object created with the ADsBuildEnumerator function.
 old-location: adsi\adsfreeenumerator.htm
 old-project: ADSI
 ms.assetid: 0ac13320-c0c2-45e3-b1c0-b4bf6c7e5315
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADsFreeEnumerator, ADsFreeEnumerator function [ADSI], _ds_adsfreeenumerator, adshlp/ADsFreeEnumerator, adsi.adsfreeenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 

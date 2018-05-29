@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Tombstoned
 title: IWdsTransportNamespace::get_Tombstoned
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a value that indicates whether the server has saved the namespace object of a deregistered namespace in memory until all active sessions are completed or terminated.
 old-location: wds\iwdstransportnamespace_tombstoned.htm
 old-project: Wds
 ms.assetid: a04b578b-ad18-46b0-a60e-77647fa67aaf
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Tombstoned property, IWdsTransportNamespace.Tombstoned, IWdsTransportNamespace.get_Tombstoned, IWdsTransportNamespace::Tombstoned, IWdsTransportNamespace::get_Tombstoned, Tombstoned property [Windows Deployment Services], Tombstoned property [Windows Deployment Services],IWdsTransportNamespace interface, get_Tombstoned, wds.iwdstransportnamespace_tombstoned, wdstptmgmt/IWdsTransportNamespace::Tombstoned, wdstptmgmt/IWdsTransportNamespace::get_Tombstoned
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

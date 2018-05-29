@@ -1,16 +1,16 @@
 ---
 UID: NF:lmat.NetScheduleJobAdd
 title: NetScheduleJobAdd function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetScheduleJobAdd function submits a job to run at a specified future time and date. This function requires that the schedule service be started on the computer to which the job is submitted.
 old-location: netmgmt\netschedulejobadd.htm
 old-project: NetMgmt
 ms.assetid: 813d13ba-abe1-4b14-88c7-87ba88a42a3b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetScheduleJobAdd, NetScheduleJobAdd function [Network Management], _win32_netschedulejobadd, lmat/NetScheduleJobAdd, netmgmt.netschedulejobadd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmat.h
 req.include-header: Lmat.h

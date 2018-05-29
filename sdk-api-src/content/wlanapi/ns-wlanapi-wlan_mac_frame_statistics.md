@@ -1,16 +1,16 @@
 ---
 UID: NS:wlanapi.WLAN_MAC_FRAME_STATISTICS
 title: WLAN_MAC_FRAME_STATISTICS
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about sent and received MAC frames.
 old-location: nwifi\wlan_mac_frame_statistics.htm
 old-project: NativeWiFi
 ms.assetid: b5bb4ec9-aeec-4a64-977d-e875c3835196
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: "*PWLAN_MAC_FRAME_STATISTICS, PWLAN_MAC_FRAME_STATISTICS, PWLAN_MAC_FRAME_STATISTICS structure pointer [NativeWIFI], WLAN_MAC_FRAME_STATISTICS, WLAN_MAC_FRAME_STATISTICS structure [NativeWIFI], nwifi.wlan_mac_frame_statistics, wlanapi/PWLAN_MAC_FRAME_STATISTICS, wlanapi/WLAN_MAC_FRAME_STATISTICS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.RtlUnicodeStringToAnsiString
 title: RtlUnicodeStringToAnsiString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the specified Unicode source string into an ANSI string.
 old-location: winprog\rtlunicodestringtoansistring.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlunicodestringtoansistring.htm
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FALSE, RtlUnicodeStringToAnsiString, RtlUnicodeStringToAnsiString function [Windows API], TRUE, winprog.rtlunicodestringtoansistring, winternl/RtlUnicodeStringToAnsiString, winui.rtlunicodestringtoansistring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

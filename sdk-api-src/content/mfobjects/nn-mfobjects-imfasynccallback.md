@@ -1,16 +1,16 @@
 ---
 UID: NN:mfobjects.IMFAsyncCallback
 title: IMFAsyncCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Callback interface to notify the application when an asynchronous method completes.
 old-location: mf\imfasynccallback.htm
 old-project: medfound
 ms.assetid: 7edff985-da59-4cc0-96de-1a92e03a7d41
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 7edff985-da59-4cc0-96de-1a92e03a7d41, IMFAsyncCallback, IMFAsyncCallback interface [Media Foundation], IMFAsyncCallback interface [Media Foundation],described, mf.imfasynccallback, mfobjects/IMFAsyncCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

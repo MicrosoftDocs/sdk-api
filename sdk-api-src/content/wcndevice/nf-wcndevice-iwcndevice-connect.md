@@ -1,16 +1,16 @@
 ---
 UID: NF:wcndevice.IWCNDevice.Connect
 title: IWCNDevice::Connect
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWCNDevice::Connect method initiates the session.
 old-location: wcn\iwcndevice_connect.htm
 old-project: wcn
 ms.assetid: d7c940f2-0862-4b53-bbb9-4ea47fe6d6f6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Connect, Connect method [Windows Connect Now], Connect method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],Connect method, IWCNDevice.Connect, IWCNDevice::Connect, wcn.iwcndevice_connect, wcndevice/IWCNDevice::Connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcndevice.h
 req.include-header: 

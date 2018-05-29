@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendeeDisconnectInfo.get_Code
 title: IRDPSRAPIAttendeeDisconnectInfo::get_Code
-author: windows-driver-content
+author: windows-sdk-content
 description: The status of the disconnect operation.
 old-location: rdp\irdpsrapiattendeedisconnectinfo_code.htm
 old-project: Rdp
 ms.assetid: 00af373f-ebbc-4e9f-9a94-2089910db0ce
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: Code property [RDP], Code property [RDP],IRDPSRAPIAttendeeDisconnectInfo interface, Code property [RDP],RDPSRAPIAttendeeDisconnectInfo object, IRDPSRAPIAttendeeDisconnectInfo interface [RDP],Code property, IRDPSRAPIAttendeeDisconnectInfo.Code, IRDPSRAPIAttendeeDisconnectInfo.get_Code, IRDPSRAPIAttendeeDisconnectInfo::Code, IRDPSRAPIAttendeeDisconnectInfo::get_Code, RDPSRAPIAttendeeDisconnectInfo object [RDP],Code property, get_Code, rdp.irdpsrapiattendeedisconnectinfo_code, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::Code, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo::get_Code
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

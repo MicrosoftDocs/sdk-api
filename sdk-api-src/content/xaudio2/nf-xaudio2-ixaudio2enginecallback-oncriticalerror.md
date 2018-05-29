@@ -1,16 +1,16 @@
 ---
 UID: NF:xaudio2.IXAudio2EngineCallback.OnCriticalError
 title: IXAudio2EngineCallback::OnCriticalError
-author: windows-driver-content
+author: windows-sdk-content
 description: Called if a critical system error occurs that requires XAudio2 to be closed down and restarted.
 old-location: xaudio2\ixaudio2enginecallback_oncriticalerror.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2enginecallback.IXAudio2EngineCallback.OnCriticalError(HRESULT)
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs],OnCriticalError method, IXAudio2EngineCallback.OnCriticalError, IXAudio2EngineCallback::OnCriticalError, OnCriticalError, OnCriticalError method [XAudio2 Audio Mixing APIs], OnCriticalError method [XAudio2 Audio Mixing APIs],IXAudio2EngineCallback interface, xaudio2.ixaudio2enginecallback_oncriticalerror, xaudio2/IXAudio2EngineCallback::OnCriticalError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

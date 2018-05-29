@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrClientCall3
 title: NdrClientCall3 function
-author: windows-driver-content
+author: windows-sdk-content
 description: NdrClientCall3 may be altered or unavailable.
 old-location: rpc\ndrclientcall3.htm
 old-project: Rpc
 ms.assetid: 88A69217-3ACE-4A3B-B148-4ECDDE08117B
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrClientCall3, NdrClientCall3 function [RPC], rpc.ndrclientcall3, rpcndr/NdrClientCall3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

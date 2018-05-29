@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.WakeConditionVariable
 title: WakeConditionVariable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Wake a single thread waiting on the specified condition variable.
 old-location: base\wakeconditionvariable.htm
 old-project: Sync
 ms.assetid: e175062a-ef25-4341-8197-df7ca6b008e6
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: WakeConditionVariable, WakeConditionVariable function, base.wakeconditionvariable, synchapi/WakeConditionVariable, winbase/WakeConditionVariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

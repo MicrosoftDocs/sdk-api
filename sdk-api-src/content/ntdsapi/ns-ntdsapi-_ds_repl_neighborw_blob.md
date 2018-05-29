@@ -1,16 +1,16 @@
 ---
 UID: NS:ntdsapi._DS_REPL_NEIGHBORW_BLOB
 title: "_DS_REPL_NEIGHBORW_BLOB"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains inbound replication state data for a particular naming context and source server pair.
 old-location: ad\ds_repl_neighborw_blob.htm
 old-project: AD
 ms.assetid: 1a56968a-29ed-4c94-80ee-02bdd279f5c2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_REPL_NBR_COMPRESS_CHANGES, DS_REPL_NBR_DO_SCHEDULED_SYNCS, DS_REPL_NBR_FULL_SYNC_IN_PROGRESS, DS_REPL_NBR_FULL_SYNC_NEXT_PACKET, DS_REPL_NBR_NEVER_SYNCED, DS_REPL_NBR_NO_CHANGE_NOTIFICATIONS, DS_REPL_NBR_SYNC_ON_STARTUP, DS_REPL_NBR_TWO_WAY_SYNC, DS_REPL_NBR_USE_ASYNC_INTERSITE_TRANSPORT, DS_REPL_NBR_WRITEABLE, DS_REPL_NEIGHBORW_BLOB, DS_REPL_NEIGHBORW_BLOB structure [Active Directory], _DS_REPL_NEIGHBORW_BLOB, ad.ds_repl_neighborw_blob, ntdsapi/DS_REPL_NEIGHBORW_BLOB
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

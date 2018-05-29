@@ -1,16 +1,16 @@
 ---
 UID: NC:cryptdlg.PFNCMFILTERPROC
 title: PFNCMFILTERPROC
-author: windows-driver-content
+author: windows-sdk-content
 description: Filters each certificate to determine whether it will appear in the certificate selection dialog box that is displayed by the CertSelectCertificate function.
 old-location: security\pfncmfilterproc.htm
 old-project: SecCrypto
 ms.assetid: f870a8a7-c504-491a-b9ac-045766e46348
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: PFNCMFILTERPROC, PFNCMFILTERPROC callback, PFNCMFILTERPROC callback function [Security], cryptdlg/PFNCMFILTERPROC, security.pfncmfilterproc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: cryptdlg.h
 req.include-header: 

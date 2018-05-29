@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcRelationshipSelector
 title: IOpcRelationshipSelector
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents how to select, from a Relationships part, the relationships to be referenced for signing.
 old-location: opc\iopcrelationshipselector.htm
 old-project: OPC
 ms.assetid: 077f37c3-76af-4b96-9e3a-9fd9b865d941
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcRelationshipSelector, IOpcRelationshipSelector interface [Open Packaging Conventions], IOpcRelationshipSelector interface [Open Packaging Conventions],described, msopc/IOpcRelationshipSelector, opc.iopcrelationshipselector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

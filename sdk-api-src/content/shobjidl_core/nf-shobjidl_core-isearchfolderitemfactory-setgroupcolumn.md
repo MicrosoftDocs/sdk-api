@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetGroupColumn
 title: ISearchFolderItemFactory::SetGroupColumn
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a group column, as specified. If no group column is specified, no grouping occurs.
 old-location: shell\ISearchFolderItemFactory_SetGroupColumn.htm
 old-project: shell
 ms.assetid: 52967ebe-3a8c-4696-aa5d-251a4cf58469
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetGroupColumn method, ISearchFolderItemFactory.SetGroupColumn, ISearchFolderItemFactory::SetGroupColumn, SetGroupColumn, SetGroupColumn method [Windows Shell], SetGroupColumn method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetGroupColumn, shell.ISearchFolderItemFactory_SetGroupColumn, shobjidl_core/ISearchFolderItemFactory::SetGroupColumn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnSubscriberInformation
 title: IMbnSubscriberInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to subscriber information.
 old-location: mbn\imbnsubscriberinformation.htm
 old-project: mbn
 ms.assetid: ef7f5dc5-ed66-450c-9623-0c1d725d82c6
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnSubscriberInformation, IMbnSubscriberInformation interface [Microsoft Broadband Networks], IMbnSubscriberInformation interface [Microsoft Broadband Networks],described, mbn.imbnsubscriberinformation, mbnapi/IMbnSubscriberInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

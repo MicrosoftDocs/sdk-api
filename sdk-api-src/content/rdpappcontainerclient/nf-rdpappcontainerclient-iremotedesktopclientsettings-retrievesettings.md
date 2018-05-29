@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.RetrieveSettings
 title: IRemoteDesktopClientSettings::RetrieveSettings
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the entire RDP file as a string.
 old-location: termserv\iremotedesktopclientsettings_retrievesettings.htm
 old-project: TermServ
 ms.assetid: 5c28a172-42f3-4abd-9983-ee5acb1c9c78
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRemoteDesktopClientSettings interface [Remote Desktop Services],RetrieveSettings method, IRemoteDesktopClientSettings.RetrieveSettings, IRemoteDesktopClientSettings::RetrieveSettings, RetrieveSettings, RetrieveSettings method [Remote Desktop Services], RetrieveSettings method [Remote Desktop Services],IRemoteDesktopClientSettings interface, rdpappcontainerclient/IRemoteDesktopClientSettings::RetrieveSettings, termserv.iremotedesktopclientsettings_retrievesettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 

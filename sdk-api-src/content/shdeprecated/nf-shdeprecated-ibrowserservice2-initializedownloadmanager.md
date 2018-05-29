@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.InitializeDownloadManager
 title: IBrowserService2::InitializeDownloadManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Enables the download manager in the base class.
 old-location: shell\IBrowserService2_InitializeDownloadManager.htm
 old-project: shell
 ms.assetid: b217d5cd-c9db-4d35-96de-25e1ec22670a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],InitializeDownloadManager method, IBrowserService2.InitializeDownloadManager, IBrowserService2::InitializeDownloadManager, InitializeDownloadManager, InitializeDownloadManager method [Windows Shell], InitializeDownloadManager method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::InitializeDownloadManager, shell.IBrowserService2_InitializeDownloadManager, zone_IBrowserService2_InitializeDownloadManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

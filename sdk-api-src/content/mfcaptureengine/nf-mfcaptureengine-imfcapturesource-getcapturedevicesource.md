@@ -1,16 +1,16 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetCaptureDeviceSource
 title: IMFCaptureSource::GetCaptureDeviceSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current capture device's IMFMediaSource object pointer.
 old-location: mf\imfcapturesource_getcapturedevicesource.htm
 old-project: medfound
 ms.assetid: 98bce6e3-02f2-449e-aba4-4bfc9de6d1db
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCaptureDeviceSource, GetCaptureDeviceSource method [Media Foundation], GetCaptureDeviceSource method [Media Foundation],IMFCaptureSource interface, IMFCaptureSource interface [Media Foundation],GetCaptureDeviceSource method, IMFCaptureSource.GetCaptureDeviceSource, IMFCaptureSource::GetCaptureDeviceSource, mf.imfcapturesource_getcapturedevicesource, mfcaptureengine/IMFCaptureSource::GetCaptureDeviceSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

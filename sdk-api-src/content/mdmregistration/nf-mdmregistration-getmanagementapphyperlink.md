@@ -1,16 +1,16 @@
 ---
 UID: NF:mdmregistration.GetManagementAppHyperlink
 title: GetManagementAppHyperlink function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the management app hyperlink associated with the MDM service.
 old-location: mdmreg\getmanagementapphyperlink.htm
 old-project: MDMReg
 ms.assetid: e319dd2e-3d2b-4c65-9b59-cd4aab930f12
-ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.author: windowssdkdev
+ms.date: 02/20/2018
 ms.keywords: GetManagementAppHyperlink, GetManagementAppHyperlink function [MDM Registration], mdmreg.getmanagementapphyperlink, mdmregistration/GetManagementAppHyperlink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 

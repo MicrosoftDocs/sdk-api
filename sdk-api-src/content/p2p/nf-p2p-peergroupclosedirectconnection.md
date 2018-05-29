@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupCloseDirectConnection
 title: PeerGroupCloseDirectConnection function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupCloseDirectConnection function closes a specific direct connection between two peers.
 old-location: p2p\peergroupclosedirectconnection.htm
 old-project: P2PSdk
 ms.assetid: 56b47743-f205-407b-80f2-03e3c9b78be1
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupCloseDirectConnection, PeerGroupCloseDirectConnection function [Peer Networking], p2p.peergroupclosedirectconnection, p2p/PeerGroupCloseDirectConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

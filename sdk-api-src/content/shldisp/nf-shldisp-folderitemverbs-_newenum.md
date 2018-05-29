@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.FolderItemVerbs._NewEnum
 title: FolderItemVerbs::_NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and returns a new FolderItemVerbs object that is a copy of this FolderItemVerbs object.
 old-location: shell\FolderItemVerbs__NewEnum.htm
 old-project: shell
 ms.assetid: 63cfc56c-4e6f-4e69-9fce-f625d550023b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FolderItemVerbs object [Windows Shell],_NewEnum method, FolderItemVerbs._NewEnum, FolderItemVerbs::_NewEnum, _NewEnum, _NewEnum method [Windows Shell], _NewEnum method [Windows Shell],FolderItemVerbs object, _win32_FolderItemVerbs__NewEnum, shell.FolderItemVerbs__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IFont.get_hFont
 title: IFont::get_hFont
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a handle to the font described by this font object.
 old-location: com\ifont_get_hfont.htm
 old-project: com
 ms.assetid: 19bfd78a-0e81-45c3-a3b8-bc893669e9f5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IFont interface [COM],get_hFont method, IFont.get_hFont, IFont::get_hFont, _ctrl_ifont_get_hfont, com.ifont_get_hfont, get_hFont, get_hFont method [COM], get_hFont method [COM],IFont interface, ocidl/IFont::get_hFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

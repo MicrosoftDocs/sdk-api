@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarI4FromStr
 title: VarI4FromStr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an OLECHAR string to a long value.
 old-location: automat\vari4fromstr.htm
 old-project: automat
 ms.assetid: 61a1ad0c-f0bd-4437-85c2-7edd6ade06bd
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarI4FromStr, VarI4FromStr function [Automation], _oa96_VarI4FromStr, automat.vari4fromstr, oleauto/VarI4FromStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

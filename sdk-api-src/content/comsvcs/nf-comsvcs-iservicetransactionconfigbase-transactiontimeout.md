@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfigBase.TransactionTimeout
 title: IServiceTransactionConfigBase::TransactionTimeout
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the transaction time-out for a new transaction.
 old-location: cos\iservicetransactionconfigbase_transactiontimeout.htm
 old-project: cossdk
 ms.assetid: 87943fe9-ef88-49ae-96d0-99d1011478dc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServiceTransactionConfigBase interface [COM+],TransactionTimeout method, IServiceTransactionConfigBase.TransactionTimeout, IServiceTransactionConfigBase::TransactionTimeout, TransactionTimeout, TransactionTimeout method [COM+], TransactionTimeout method [COM+],IServiceTransactionConfigBase interface, _cos_IServiceTransactionConfigBase_TransactionTimeout, comsvcs/IServiceTransactionConfigBase::TransactionTimeout, cos.iservicetransactionconfigbase_transactiontimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

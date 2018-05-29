@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisherNotify.ResolveHandler
 title: IWSDiscoveryPublisherNotify::ResolveHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Is called when a Resolve is received by the discovery publisher.
 old-location: ncd\iwsdiscoverypublishernotify_resolvehandler_method.htm
 old-project: WsdApi
 ms.assetid: b0dd2b82-5d08-4dd3-8e6a-892ebaf71045
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDiscoveryPublisherNotify interface,ResolveHandler method, IWSDiscoveryPublisherNotify.ResolveHandler, IWSDiscoveryPublisherNotify::ResolveHandler, ResolveHandler, ResolveHandler method, ResolveHandler method,IWSDiscoveryPublisherNotify interface, ncd.iwsdiscoverypublishernotify_resolvehandler_method, wsddisco/IWSDiscoveryPublisherNotify::ResolveHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

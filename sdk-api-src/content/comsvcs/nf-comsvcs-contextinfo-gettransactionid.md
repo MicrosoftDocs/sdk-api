@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ContextInfo.GetTransactionId
 title: ContextInfo::GetTransactionId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the transaction identifier associated with the object context. Objects in the same transaction share the same transaction identifier.
 old-location: cos\contextinfo_gettransactionid.htm
 old-project: cossdk
 ms.assetid: 9eb77a13-14f0-4d45-a6de-4ae28d6bcac4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ContextInfo interface [COM+],GetTransactionId method, ContextInfo.GetTransactionId, ContextInfo::GetTransactionId, GetTransactionId, GetTransactionId method [COM+], GetTransactionId method [COM+],ContextInfo interface, _cos_ContextInfo_GetTransactionId, comsvcs/ContextInfo::GetTransactionId, cos.contextinfo_gettransactionid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

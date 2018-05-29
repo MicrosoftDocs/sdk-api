@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IObjectWithPropertyKey.SetPropertyKey
 title: IObjectWithPropertyKey::SetPropertyKey
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the property key.
 old-location: shell\IObjectWithPropertyKey_SetPropertyKey.htm
 old-project: shell
 ms.assetid: f7352fb0-7e6f-4145-bd5d-4ed3de0c9659
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IObjectWithPropertyKey interface [Windows Shell],SetPropertyKey method, IObjectWithPropertyKey.SetPropertyKey, IObjectWithPropertyKey::SetPropertyKey, SetPropertyKey, SetPropertyKey method [Windows Shell], SetPropertyKey method [Windows Shell],IObjectWithPropertyKey interface, _shell_IObjectWithPropertyKey_SetPropertyKey, propsys/IObjectWithPropertyKey::SetPropertyKey, shell.IObjectWithPropertyKey_SetPropertyKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

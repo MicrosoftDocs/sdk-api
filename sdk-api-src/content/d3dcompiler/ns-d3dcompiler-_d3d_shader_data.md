@@ -1,16 +1,16 @@
 ---
 UID: NS:d3dcompiler._D3D_SHADER_DATA
 title: "_D3D_SHADER_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes shader data.
 old-location: direct3dhlsl\d3d_shader_data.htm
 old-project: direct3dhlsl
 ms.assetid: 34cde0c9-e8ee-428d-86f5-87c91b95f5d8
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: D3D_SHADER_DATA, D3D_SHADER_DATA structure [HLSL], _D3D_SHADER_DATA, d3dcompiler/D3D_SHADER_DATA, direct3dhlsl.d3d_shader_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3dcompiler.h
 req.include-header: 

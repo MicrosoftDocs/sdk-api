@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.Delete
 title: IVdsIscsiTarget::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the target and all of its portal groups if no LUNs are associated with the target.
 old-location: base\ivdsiscsitarget_delete.htm
 old-project: VDS
 ms.assetid: a66077bf-7a08-49f6-9a32-da99aa1d218c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsIscsiTarget interface, IVdsIscsiTarget interface [VDS],Delete method, IVdsIscsiTarget.Delete, IVdsIscsiTarget::Delete, base.ivdsiscsitarget_delete, vds/IVdsIscsiTarget::Delete, vdshwprv/IVdsIscsiTarget::Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

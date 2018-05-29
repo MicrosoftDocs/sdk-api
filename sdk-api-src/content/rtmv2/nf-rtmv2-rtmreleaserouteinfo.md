@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmReleaseRouteInfo
 title: RtmReleaseRouteInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmReleaseRouteInfo function releases a route structure.
 old-location: rras\rtmreleaserouteinfo.htm
 old-project: RRAS
 ms.assetid: 927d2a32-17bc-453c-b65b-144151bea902
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmReleaseRouteInfo, RtmReleaseRouteInfo function [RAS], _rtmv2ref_rtmreleaserouteinfo, rras.rtmreleaserouteinfo, rtmv2/RtmReleaseRouteInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange
 title: IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a sinusoidal-range transition, with a specified range of oscillation.
 old-location: uianimation\iuianimationtransitionlibrary_createsinusoidaltransitionfromrange.htm
 old-project: UIAnimation
 ms.assetid: 7164bcac-3de3-4b52-8eb3-d38156573feb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateSinusoidalTransitionFromRange, CreateSinusoidalTransitionFromRange method [Windows Animation], CreateSinusoidalTransitionFromRange method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateSinusoidalTransitionFromRange method, IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange, IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange, uianimation.iuianimationtransitionlibrary_createsinusoidaltransitionfromrange, uianimation/IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

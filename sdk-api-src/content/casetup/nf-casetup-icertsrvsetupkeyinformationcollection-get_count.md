@@ -1,16 +1,16 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformationCollection.get_Count
 title: ICertSrvSetupKeyInformationCollection::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of ICertSrvSetupKeyInformation objects in the collection.
 old-location: security\icertsrvsetupkeyinformationcollection_count.htm
 old-project: SecCrypto
 ms.assetid: 58412a07-7e97-4379-b052-fb7458400be9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Count property [Security], Count property [Security],ICertSrvSetupKeyInformationCollection interface, ICertSrvSetupKeyInformationCollection interface [Security],Count property, ICertSrvSetupKeyInformationCollection.Count, ICertSrvSetupKeyInformationCollection.get_Count, ICertSrvSetupKeyInformationCollection::Count, ICertSrvSetupKeyInformationCollection::get_Count, casetup/ICertSrvSetupKeyInformationCollection::Count, casetup/ICertSrvSetupKeyInformationCollection::get_Count, get_Count, security.icertsrvsetupkeyinformationcollection_count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

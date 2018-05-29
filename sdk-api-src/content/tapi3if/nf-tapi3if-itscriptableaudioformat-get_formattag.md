@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.get_FormatTag
 title: ITScriptableAudioFormat::get_FormatTag
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_FormatTag method returns the value for the wFormatTag member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_get_formattag.htm
 old-project: Tapi
 ms.assetid: 073e4800-d84a-4f12-81ce-eba4a4e139fc
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],get_FormatTag method, ITScriptableAudioFormat.get_FormatTag, ITScriptableAudioFormat::get_FormatTag, _tapi3_itscriptableaudioformat_get_formattag, get_FormatTag, get_FormatTag method [TAPI 2.2], get_FormatTag method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_get_formattag, tapi3if/ITScriptableAudioFormat::get_FormatTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

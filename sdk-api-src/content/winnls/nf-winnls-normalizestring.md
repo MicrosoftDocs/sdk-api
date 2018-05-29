@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.NormalizeString
 title: NormalizeString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Normalizes characters of a text string according to Unicode 4.0 TR#15. For more information, see Using Unicode Normalization to Represent Strings.
 old-location: intl\normalizestring.htm
 old-project: Intl
 ms.assetid: ef76d0e5-2999-4a21-8522-c698013e3816
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NormalizeString, NormalizeString function [Internationalization for Windows Applications], _win32_NormalizeString, intl.normalizestring, winnls/NormalizeString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:af_irda._SOCKADDR_IRDA
 title: "_SOCKADDR_IRDA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SOCKADDR_IRDA structure is used in conjunction with IrDA socket operations, defined by address family AF_IRDA.
 old-location: winsock\sockaddr_irda_2.htm
 old-project: WinSock
 ms.assetid: 6a5b8d70-f005-4d84-b575-22ad48564793
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPSOCKADDR_IRDA, *PSOCKADDR_IRDA, LPSOCKADDR_IRDA, LPSOCKADDR_IRDA structure pointer [Winsock], PSOCKADDR_IRDA, PSOCKADDR_IRDA structure pointer [Winsock], SOCKADDR_IRDA, SOCKADDR_IRDA structure [Winsock], _SOCKADDR_IRDA, _win32_sockaddr_irda_2, af_irda/LPSOCKADDR_IRDA, af_irda/PSOCKADDR_IRDA, af_irda/SOCKADDR_IRDA, winsock.sockaddr_irda_2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: af_irda.h
 req.include-header: 

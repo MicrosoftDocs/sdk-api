@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMpeg2Demultiplexer.CreateOutputPin
 title: IMpeg2Demultiplexer::CreateOutputPin
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateOutputPin method creates a new output pin on the Demux.
 old-location: dshow\impeg2demultiplexer_createoutputpin.htm
 old-project: DirectShow
 ms.assetid: fb863b9c-e8da-444a-b50f-37f4fe9d8164
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreateOutputPin, CreateOutputPin method [DirectShow], CreateOutputPin method [DirectShow],IMpeg2Demultiplexer interface, IMpeg2Demultiplexer interface [DirectShow],CreateOutputPin method, IMpeg2Demultiplexer.CreateOutputPin, IMpeg2Demultiplexer::CreateOutputPin, IMpeg2DemultiplexerCreateOutputPin, dshow.impeg2demultiplexer_createoutputpin, strmif/IMpeg2Demultiplexer::CreateOutputPin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

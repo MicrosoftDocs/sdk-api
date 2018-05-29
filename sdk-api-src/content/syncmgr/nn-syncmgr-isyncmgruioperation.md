@@ -1,16 +1,16 @@
 ---
 UID: NN:syncmgr.ISyncMgrUIOperation
 title: ISyncMgrUIOperation
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method through which a sync handler or sync item can display a UI object when requested to do so by Sync Center.
 old-location: shell\ISyncMgrUIOperation.htm
 old-project: shell
 ms.assetid: 6fa4b0ac-3c75-4cda-b20d-582a3e18fb28
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrUIOperation, ISyncMgrUIOperation interface [Windows Shell], ISyncMgrUIOperation interface [Windows Shell],described, _shell_ISyncMgrUIOperation, shell.ISyncMgrUIOperation, syncmgr/ISyncMgrUIOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

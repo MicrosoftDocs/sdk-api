@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.WTSGetActiveConsoleSessionId
 title: WTSGetActiveConsoleSessionId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the session identifier of the console session.
 old-location: termserv\wtsgetactiveconsolesessionid.htm
 old-project: TermServ
 ms.assetid: 9aa43cfa-9518-428b-95a1-004fa23df90b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WTSGetActiveConsoleSessionId, WTSGetActiveConsoleSessionId function [Remote Desktop Services], _win32_wtsgetactiveconsolesessionid, termserv.wtsgetactiveconsolesessionid, winbase/WTSGetActiveConsoleSessionId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

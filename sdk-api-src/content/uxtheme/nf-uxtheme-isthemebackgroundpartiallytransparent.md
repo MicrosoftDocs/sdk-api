@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.IsThemeBackgroundPartiallyTransparent
 title: IsThemeBackgroundPartiallyTransparent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves whether the background specified by the visual style has transparent pieces or alpha-blended pieces.
 old-location: controls\IsThemeBackgroundPartiallyTransparent.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemebackgroundpartiallytransparent.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsThemeBackgroundPartiallyTransparent, IsThemeBackgroundPartiallyTransparent function [Windows Controls], controls.IsThemeBackgroundPartiallyTransparent, controls.inet_IsThemeBackgroundPartiallyTransparent, inet_IsThemeBackgroundPartiallyTransparent, inet_IsThemeBackgroundPartiallyTransparent_cpp, uxtheme/IsThemeBackgroundPartiallyTransparent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

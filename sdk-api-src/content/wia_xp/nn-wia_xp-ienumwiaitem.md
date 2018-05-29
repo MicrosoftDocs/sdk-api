@@ -1,16 +1,16 @@
 ---
 UID: NN:wia_xp.IEnumWiaItem
 title: IEnumWiaItem
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumWiaItem interface is used by applications to enumerate IWiaItem objects in the tree's current folder.
 old-location: wia\_wia_IEnumWiaItem.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\ienumwiaitem.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IEnumWiaItem, IEnumWiaItem interface [WIA], IEnumWiaItem interface [WIA],described, _wia_IEnumWiaItem, wia._wia_IEnumWiaItem, wia_xp/IEnumWiaItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h

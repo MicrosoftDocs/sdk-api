@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.SetIpInterfaceEntry
 title: SetIpInterfaceEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the properties of an IP interface on the local computer.
 old-location: iphlp\setipinterfaceentry.htm
 old-project: IpHlp
 ms.assetid: 8e6d2c14-29c3-47a7-9eb8-0989df9da68c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: SetIpInterfaceEntry, SetIpInterfaceEntry function [IP Helper], iphlp.setipinterfaceentry, netioapi/SetIpInterfaceEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

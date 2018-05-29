@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.DVINFO
 title: DVINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The DVINFO structure describes the format of a digital video (DV) stream.
 old-location: dshow\dvinfo.htm
 old-project: DirectShow
 ms.assetid: 285a56fc-9c25-4c5a-ae6a-146c17b00e84
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PDVINFO, DVINFO, DVINFO structure [DirectShow], DVINFOStructure, PDVINFO, PDVINFO structure pointer [DirectShow], dshow.dvinfo, strmif/DVINFO, strmif/PDVINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

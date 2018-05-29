@@ -1,16 +1,16 @@
 ---
 UID: NN:netlistmgr.INetworkListManagerEvents
 title: INetworkListManagerEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: INetworkListManagerEvents is a message sink interface that a client implements to get overall machine state related events. Applications that are interested on higher-level events, for example internet connectivity, implement this interface.
 old-location: nla\inetworklistmanagerevents.htm
 old-project: NLA
 ms.assetid: cdcb661f-5f17-481a-a4b7-db06d53e1b97
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INetworkListManagerEvents, INetworkListManagerEvents interface [Network Awareness], INetworkListManagerEvents interface [Network Awareness],described, netlistmgr/INetworkListManagerEvents, nla.inetworklistmanagerevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

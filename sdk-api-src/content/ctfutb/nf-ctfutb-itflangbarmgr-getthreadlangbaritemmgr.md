@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetThreadLangBarItemMgr
 title: ITfLangBarMgr::GetThreadLangBarItemMgr
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfLangBarMgr::GetThreadLangBarItemMgr method
 old-location: tsf\itflangbarmgr_getthreadlangbaritemmgr.htm
 old-project: TSF
 ms.assetid: 3ca37268-eb27-4d8b-9a16-306f77369e8f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetThreadLangBarItemMgr, GetThreadLangBarItemMgr method [Text Services Framework], GetThreadLangBarItemMgr method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetThreadLangBarItemMgr method, ITfLangBarMgr.GetThreadLangBarItemMgr, ITfLangBarMgr::GetThreadLangBarItemMgr, _tsf_itflangbarmgr_getthreadlangbaritemmgr_ref, ctfutb/ITfLangBarMgr::GetThreadLangBarItemMgr, tsf.itflangbarmgr_getthreadlangbaritemmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

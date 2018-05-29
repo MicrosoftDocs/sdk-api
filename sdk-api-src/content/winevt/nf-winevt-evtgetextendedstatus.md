@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtGetExtendedStatus
 title: EvtGetExtendedStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a text message that contains the extended error information for the current error.
 old-location: wes\evtgetextendedstatus.htm
 old-project: WES
 ms.assetid: 49451981-b3de-4515-ae88-835f17a0a8f9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtGetExtendedStatus, EvtGetExtendedStatus function [EventLog], wes.evtgetextendedstatus, winevt/EvtGetExtendedStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

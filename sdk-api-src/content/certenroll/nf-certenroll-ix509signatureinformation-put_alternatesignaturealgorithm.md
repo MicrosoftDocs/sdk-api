@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.put_AlternateSignatureAlgorithm
 title: IX509SignatureInformation::put_AlternateSignatureAlgorithm
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies and retrieves a Boolean value that specifies whether the GetSignatureAlgorithm method should retrieve a discrete or combined algorithm object identifier (OID) for a PKCS #10 certificate request.
 old-location: security\ix509signatureinformation_alternatesignaturealgorithm_property.htm
 old-project: SecCertEnroll
 ms.assetid: e62ecdf1-56d8-4707-8e5d-deef4d79a34c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: AlternateSignatureAlgorithm property [Security], AlternateSignatureAlgorithm property [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],AlternateSignatureAlgorithm property, IX509SignatureInformation.AlternateSignatureAlgorithm, IX509SignatureInformation.put_AlternateSignatureAlgorithm, IX509SignatureInformation::AlternateSignatureAlgorithm, IX509SignatureInformation::get_AlternateSignatureAlgorithm, IX509SignatureInformation::put_AlternateSignatureAlgorithm, certenroll/IX509SignatureInformation::AlternateSignatureAlgorithm, certenroll/IX509SignatureInformation::get_AlternateSignatureAlgorithm, certenroll/IX509SignatureInformation::put_AlternateSignatureAlgorithm, put_AlternateSignatureAlgorithm, security.ix509signatureinformation_alternatesignaturealgorithm_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

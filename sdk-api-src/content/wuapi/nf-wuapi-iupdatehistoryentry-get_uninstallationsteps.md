@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_UninstallationSteps
 title: IUpdateHistoryEntry::get_UninstallationSteps
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IStringCollection interface that contains the uninstallation steps for an update.
 old-location: wua\iupdatehistoryentry_uninstallationsteps.htm
 old-project: Wua_Sdk
 ms.assetid: 28c3db7b-a212-40d8-8557-02509675db5a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],UninstallationSteps property, IUpdateHistoryEntry.UninstallationSteps, IUpdateHistoryEntry.get_UninstallationSteps, IUpdateHistoryEntry::UninstallationSteps, IUpdateHistoryEntry::get_UninstallationSteps, UninstallationSteps property [Windows Update Agent], UninstallationSteps property [Windows Update Agent],IUpdateHistoryEntry interface, get_UninstallationSteps, wua.iupdatehistoryentry_uninstallationsteps, wuapi/IUpdateHistoryEntry::UninstallationSteps, wuapi/IUpdateHistoryEntry::get_UninstallationSteps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

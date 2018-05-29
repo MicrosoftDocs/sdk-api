@@ -1,16 +1,16 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_GAMESTARTEVENT
 title: tagWPC_ARGS_GAMESTARTEVENT
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates information about the start of a computer game.
 old-location: parcon\wpc_args_gamestartevent.htm
 old-project: parcon
 ms.assetid: 1e0cdbc6-7327-47de-a35f-572aa8439eab
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WPC_ARGS_GAMESTARTEVENT, WPC_ARGS_GAMESTARTEVENT enumeration, WPC_ARGS_GAMESTARTEVENT_APPID, WPC_ARGS_GAMESTARTEVENT_APPVERSION, WPC_ARGS_GAMESTARTEVENT_CARGS, WPC_ARGS_GAMESTARTEVENT_DESCCOUNT, WPC_ARGS_GAMESTARTEVENT_DESCRIPTOR, WPC_ARGS_GAMESTARTEVENT_INSTANCEID, WPC_ARGS_GAMESTARTEVENT_PATH, WPC_ARGS_GAMESTARTEVENT_PID, WPC_ARGS_GAMESTARTEVENT_RATING, WPC_ARGS_GAMESTARTEVENT_RATINGSYSTEM, WPC_ARGS_GAMESTARTEVENT_REASON, parcon.wpc_args_gamestartevent, tagWPC_ARGS_GAMESTARTEVENT, wpcevent/WPC_ARGS_GAMESTARTEVENT, wpcevent/WPC_ARGS_GAMESTARTEVENT_APPID, wpcevent/WPC_ARGS_GAMESTARTEVENT_APPVERSION, wpcevent/WPC_ARGS_GAMESTARTEVENT_CARGS, wpcevent/WPC_ARGS_GAMESTARTEVENT_DESCCOUNT, wpcevent/WPC_ARGS_GAMESTARTEVENT_DESCRIPTOR, wpcevent/WPC_ARGS_GAMESTARTEVENT_INSTANCEID, wpcevent/WPC_ARGS_GAMESTARTEVENT_PATH, wpcevent/WPC_ARGS_GAMESTARTEVENT_PID, wpcevent/WPC_ARGS_GAMESTARTEVENT_RATING, wpcevent/WPC_ARGS_GAMESTARTEVENT_RATINGSYSTEM, wpcevent/WPC_ARGS_GAMESTARTEVENT_REASON
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wpcevent.h
 req.include-header: 

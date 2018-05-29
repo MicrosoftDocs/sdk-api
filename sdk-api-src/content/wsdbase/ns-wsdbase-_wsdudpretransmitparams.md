@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdbase._WSDUdpRetransmitParams
 title: "_WSDUdpRetransmitParams"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the parameters for repeating a message transimission.
 old-location: ncd\wsdupdretransmitparams.htm
 old-project: WsdApi
 ms.assetid: 41bf73d8-0b20-4c38-b8b4-85c39eff0d91
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: PWSDUdpRetransmitParams, PWSDUdpRetransmitParams structure pointer, WSDUdpRetransmitParams, WSDUdpRetransmitParams structure, _WSDUdpRetransmitParams, ncd.wsdupdretransmitparams, wsdbase/PWSDUdpRetransmitParams, wsdbase/WSDUdpRetransmitParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

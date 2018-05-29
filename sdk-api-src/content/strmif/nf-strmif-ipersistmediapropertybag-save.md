@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IPersistMediaPropertyBag.Save
 title: IPersistMediaPropertyBag::Save
-author: windows-driver-content
+author: windows-sdk-content
 description: The Save method saves properties from the filter into the media property bag.
 old-location: dshow\ipersistmediapropertybag_save.htm
 old-project: DirectShow
 ms.assetid: 12c66650-31c1-40b8-9f3d-bc5553dbfa94
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IPersistMediaPropertyBag interface [DirectShow],Save method, IPersistMediaPropertyBag.Save, IPersistMediaPropertyBag::Save, IPersistMediaPropertyBagSave, Save, Save method [DirectShow], Save method [DirectShow],IPersistMediaPropertyBag interface, dshow.ipersistmediapropertybag_save, strmif/IPersistMediaPropertyBag::Save
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

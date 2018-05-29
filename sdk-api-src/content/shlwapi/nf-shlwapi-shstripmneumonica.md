@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHStripMneumonicA
 title: SHStripMneumonicA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the mnemonic marker from a string.
 old-location: shell\SHStripMneumonic.htm
 old-project: shell
 ms.assetid: 25479814-825a-4af2-8751-b35cf39bbb80
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHStripMneumonic, SHStripMneumonic function [Windows Shell], SHStripMneumonicA, SHStripMneumonicW, _win32_SHStripMneumonic, shell.SHStripMneumonic, shlwapi/SHStripMneumonic, shlwapi/SHStripMneumonicA, shlwapi/SHStripMneumonicW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

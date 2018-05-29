@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.ReleaseTargetLock
 title: ITsSbResourcePluginStore::ReleaseTargetLock
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases a lock on a target.
 old-location: termserv\itssbresourcepluginstore_releasetargetlock.htm
 old-project: TermServ
 ms.assetid: 37c22f94-c00d-471b-bd6c-067b3229f99b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],ReleaseTargetLock method, ITsSbResourcePluginStore.ReleaseTargetLock, ITsSbResourcePluginStore::ReleaseTargetLock, ReleaseTargetLock, ReleaseTargetLock method [Remote Desktop Services], ReleaseTargetLock method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::ReleaseTargetLock, termserv.itssbresourcepluginstore_releasetargetlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

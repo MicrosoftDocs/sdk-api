@@ -1,16 +1,16 @@
 ---
 UID: NE:mfobjects.__MIDL___MIDL_itf_mfobjects_0000_0017_0002
 title: "__MIDL___MIDL_itf_mfobjects_0000_0017_0002"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how to open or create a file.
 old-location: mf\mf_file_openmode.htm
 old-project: medfound
 ms.assetid: 0c0e94fa-cbcc-4abc-9020-af6d36a4d3b6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0c0e94fa-cbcc-4abc-9020-af6d36a4d3b6, MF_FILE_OPENMODE, MF_FILE_OPENMODE enumeration [Media Foundation], MF_OPENMODE_APPEND_IF_EXIST, MF_OPENMODE_DELETE_IF_EXIST, MF_OPENMODE_FAIL_IF_EXIST, MF_OPENMODE_FAIL_IF_NOT_EXIST, MF_OPENMODE_RESET_IF_EXIST, __MIDL___MIDL_itf_mfobjects_0000_0017_0002, mf.mf_file_openmode, mfobjects/MF_FILE_OPENMODE, mfobjects/MF_OPENMODE_APPEND_IF_EXIST, mfobjects/MF_OPENMODE_DELETE_IF_EXIST, mfobjects/MF_OPENMODE_FAIL_IF_EXIST, mfobjects/MF_OPENMODE_FAIL_IF_NOT_EXIST, mfobjects/MF_OPENMODE_RESET_IF_EXIST
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfobjects.h
 req.include-header: Mfidl.h

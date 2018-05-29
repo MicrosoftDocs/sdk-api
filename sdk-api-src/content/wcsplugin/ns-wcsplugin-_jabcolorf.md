@@ -1,16 +1,16 @@
 ---
 UID: NS:wcsplugin._JabColorF
 title: "_JabColorF"
-author: windows-driver-content
+author: windows-sdk-content
 description: TBD.
 old-location: wcs\jabcolorf.htm
 old-project: WCS
 ms.assetid: c92a62b0-6c78-43cd-8b14-201f872c27fa
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: JabColorF, JabColorF structure [Windows Color System], _JabColorF, wcs.jabcolorf, wcsplugin/JChColorF
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 

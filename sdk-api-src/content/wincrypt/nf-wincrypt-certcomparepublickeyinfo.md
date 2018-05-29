@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertComparePublicKeyInfo
 title: CertComparePublicKeyInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertComparePublicKeyInfo function compares two encoded public keys to determine whether they are identical.
 old-location: security\certcomparepublickeyinfo.htm
 old-project: SecCrypto
 ms.assetid: 079e4d5e-c8cb-4c3e-8094-13b9a140d564
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertComparePublicKeyInfo, CertComparePublicKeyInfo function [Security], _crypto2_certcomparepublickeyinfo, security.certcomparepublickeyinfo, wincrypt/CertComparePublicKeyInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

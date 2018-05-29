@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.GetBoundingRectangles
 title: IUIAutomationTextRange::GetBoundingRectangles
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a collection of bounding rectangles for each fully or partially visible line of text in a text range.
 old-location: winauto\uiauto_IUIAutomationTextRange_GetBoundingRectangles.htm
 old-project: WinAuto
 ms.assetid: a155d143-c5ec-4669-9635-fb8f8012a684
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetBoundingRectangles, GetBoundingRectangles method [Windows Accessibility], GetBoundingRectangles method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetBoundingRectangles method, IUIAutomationTextRange.GetBoundingRectangles, IUIAutomationTextRange::GetBoundingRectangles, uiauto.uiauto_IUIAutomationTextRange_GetBoundingRectangles, uiauto_IUIAutomationTextRange_GetBoundingRectangles, uiautomationclient/IUIAutomationTextRange::GetBoundingRectangles, winauto.uiauto_IUIAutomationTextRange_GetBoundingRectangles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

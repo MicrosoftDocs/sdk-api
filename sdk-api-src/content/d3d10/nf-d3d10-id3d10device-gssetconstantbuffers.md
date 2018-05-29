@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSSetConstantBuffers
 title: ID3D10Device::GSSetConstantBuffers
-author: windows-driver-content
+author: windows-sdk-content
 description: Set the constant buffers used by the geometry shader pipeline stage.
 old-location: direct3d10\id3d10device_gssetconstantbuffers.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gssetconstantbuffers.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 4a93383e-8523-3db8-9e49-217d1cf3ff2b, GSSetConstantBuffers, GSSetConstantBuffers method [Direct3D 10], GSSetConstantBuffers method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSSetConstantBuffers method, ID3D10Device.GSSetConstantBuffers, ID3D10Device::GSSetConstantBuffers, d3d10/ID3D10Device::GSSetConstantBuffers, direct3d10.id3d10device_gssetconstantbuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery3.GetRightsOnClearChannel
 title: ISCPSecureQuery3::GetRightsOnClearChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetRightsOnClearChannel method retrieves rights information for the current piece of content on a clear channel.
 old-location: wmdm\iscpsecurequery3_getrightsonclearchannel.htm
 old-project: WMDM
 ms.assetid: ab64b790-848a-4c7f-9bf9-4a9b40bcc9cb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetRightsOnClearChannel, GetRightsOnClearChannel method [windows Media Device Manager], GetRightsOnClearChannel method [windows Media Device Manager],ISCPSecureQuery3 interface, ISCPSecureQuery3 interface [windows Media Device Manager],GetRightsOnClearChannel method, ISCPSecureQuery3.GetRightsOnClearChannel, ISCPSecureQuery3::GetRightsOnClearChannel, ISCPSecureQuery3GetRightsOnClearChannel, mswmdm/ISCPSecureQuery3::GetRightsOnClearChannel, wmdm.iscpsecurequery3_getrightsonclearchannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

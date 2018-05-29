@@ -1,16 +1,16 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetUIContext
 title: EapPeerGetUIContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the user interface context from the EAP method.
 old-location: eaphost\eappeergetuicontext.htm
 old-project: EAPHost
 ms.assetid: 14bbffde-da24-4632-bd73-2f96dc983117
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapPeerGetUIContext, EapPeerGetUIContext function [EAPHost], eaphost.eappeergetuicontext, eapmethodpeerapis/EapPeerGetUIContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

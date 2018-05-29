@@ -1,16 +1,16 @@
 ---
 UID: NF:sdoias.ISdoMachine.GetDictionarySDO
 title: ISdoMachine::GetDictionarySDO
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDictionarySDO method retrieves an interface for an attribute-dictionary SDO.
 old-location: nps\SDO_isdomachine_getdictionarysdo.htm
 old-project: Nps
 ms.assetid: 172444be-b2a2-4060-af92-b0c63f0ffe6b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetDictionarySDO, GetDictionarySDO method [Network Policy Server], GetDictionarySDO method [Network Policy Server],ISdoMachine interface, GetDictionarySDO method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetDictionarySDO method, ISdoMachine.GetDictionarySDO, ISdoMachine::GetDictionarySDO, SdoMachine object [Network Policy Server],GetDictionarySDO method, _sdo_isdomachine_getdictionarysdo, nps.SDO_isdomachine_getdictionarysdo, sdo.isdomachine_getdictionarysdo, sdoias/ISdoMachine::GetDictionarySDO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 

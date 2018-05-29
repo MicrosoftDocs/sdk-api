@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetVertexShaderConstantB
 title: IDirect3DDevice9::GetVertexShaderConstantB
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a Boolean vertex shader constant.
 old-location: direct3d9\idirect3ddevice9__getvertexshaderconstantb.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getvertexshaderconstantb.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 5d231bd1-6d2d-7685-724d-33578c0a400d, GetVertexShaderConstantB, GetVertexShaderConstantB method [Direct3D 9], GetVertexShaderConstantB method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetVertexShaderConstantB method, IDirect3DDevice9.GetVertexShaderConstantB, IDirect3DDevice9::GetVertexShaderConstantB, d3d9helper/IDirect3DDevice9::GetVertexShaderConstantB, direct3d9.idirect3ddevice9__getvertexshaderconstantb
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

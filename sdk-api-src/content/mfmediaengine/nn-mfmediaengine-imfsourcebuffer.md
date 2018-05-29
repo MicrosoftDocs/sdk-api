@@ -1,16 +1,16 @@
 ---
 UID: NN:mfmediaengine.IMFSourceBuffer
 title: IMFSourceBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a buffer which contains media data for a IMFMediaSourceExtension.
 old-location: mf\imfsourcebuffer.htm
 old-project: medfound
 ms.assetid: f241e232-9013-46d0-be97-2d6b5246cff3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSourceBuffer, IMFSourceBuffer interface [Media Foundation], IMFSourceBuffer interface [Media Foundation],described, mf.imfsourcebuffer, mfmediaengine/IMFSourceBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

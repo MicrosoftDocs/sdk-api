@@ -1,16 +1,16 @@
 ---
 UID: NS:virtdisk._MIRROR_VIRTUAL_DISK_PARAMETERS
 title: "_MIRROR_VIRTUAL_DISK_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains virtual hard disk (VHD) mirror request parameters.
 old-location: vhd\mirror_virtual_disk_parameters.htm
 old-project: VStor
 ms.assetid: bcde890e-24d5-41ac-8e5a-ba0d99e395e1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PMIRROR_VIRTUAL_DISK_PARAMETERS, MIRROR_VIRTUAL_DISK_PARAMETERS, MIRROR_VIRTUAL_DISK_PARAMETERS structure [VHD], PMIRROR_VIRTUAL_DISK_PARAMETERS, PMIRROR_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _MIRROR_VIRTUAL_DISK_PARAMETERS, vhd.mirror_virtual_disk_parameters, virtdisk/MIRROR_VIRTUAL_DISK_PARAMETERS, virtdisk/PMIRROR_VIRTUAL_DISK_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: Windows.h

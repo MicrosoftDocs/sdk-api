@@ -1,16 +1,16 @@
 ---
 UID: NE:netcon.tagSHARINGCONNECTIONTYPE
 title: tagSHARINGCONNECTIONTYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The values of the SHARINGCONNECTIONTYPE type enumerate the possible types of shared connections.
 old-location: ics\sharingconnectiontype.htm
 old-project: ICS
 ms.assetid: 97409190-55b3-412f-b654-e5b27928a4c3
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*LPSHARINGCONNECTIONTYPE, ICSSHARINGTYPE_PRIVATE, ICSSHARINGTYPE_PUBLIC, LPSHARINGCONNECTIONTYPE, LPSHARINGCONNECTIONTYPE enumeration pointer [ICS/ICF], SHARINGCONNECTIONTYPE, SHARINGCONNECTIONTYPE enumeration [ICS/ICF], _ics_sharingconnectiontype, ics.sharingconnectiontype, netcon/ICSSHARINGTYPE_PRIVATE, netcon/ICSSHARINGTYPE_PUBLIC, netcon/LPSHARINGCONNECTIONTYPE, netcon/SHARINGCONNECTIONTYPE, tagSHARINGCONNECTIONTYPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: netcon.h
 req.include-header: 

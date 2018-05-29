@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumExplorerCommand.Next
 title: IEnumExplorerCommand::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a specified number of elements that directly follow the current element.
 old-location: shell\IEnumExplorerCommand_Next.htm
 old-project: shell
 ms.assetid: 809e866d-128b-4a0e-9de0-c2123161134f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumExplorerCommand interface [Windows Shell],Next method, IEnumExplorerCommand.Next, IEnumExplorerCommand::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumExplorerCommand interface, _shell_IEnumExplorerCommand_Next, shell.IEnumExplorerCommand_Next, shobjidl_core/IEnumExplorerCommand::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

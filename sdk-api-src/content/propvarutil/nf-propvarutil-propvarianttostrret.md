@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToStrRet
 title: PropVariantToStrRet function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a string from a PROPVARIANT structure and places it into a STRRET structure.
 old-location: properties\PropVariantToStrRet.htm
 old-project: properties
 ms.assetid: a1a33606-172d-4ee7-98c9-ffec8eed98bf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToStrRet, PropVariantToStrRet function [Windows Properties], _shell_PropVariantToStrRet, properties.PropVariantToStrRet, propvarutil/PropVariantToStrRet, shell.PropVariantToStrRet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

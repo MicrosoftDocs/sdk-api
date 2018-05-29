@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.Button_SetCheck
 title: Button_SetCheck macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the check state of a radio button or check box. You can use this macro or send the BM_SETCHECK message explicitly.
 old-location: controls\Button_SetCheck.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setcheck.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BST_CHECKED, BST_INDETERMINATE, BST_UNCHECKED, Button_SetCheck, Button_SetCheck macro [Windows Controls], _win32_Button_SetCheck, _win32_Button_SetCheck_cpp, controls.Button_SetCheck, controls._win32_Button_SetCheck, windowsx/Button_SetCheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

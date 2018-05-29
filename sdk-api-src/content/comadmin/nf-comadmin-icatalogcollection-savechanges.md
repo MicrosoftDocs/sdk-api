@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICatalogCollection.SaveChanges
 title: ICatalogCollection::SaveChanges
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves all pending changes made to the collection and the items it contains to the COM+ catalog data store.
 old-location: cos\icatalogcollection_savechanges.htm
 old-project: cossdk
 ms.assetid: ae984eee-4a8d-48e5-839c-fa115fd4aeea
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICatalogCollection interface [COM+],SaveChanges method, ICatalogCollection.SaveChanges, ICatalogCollection::SaveChanges, SaveChanges, SaveChanges method [COM+], SaveChanges method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_SaveChanges, comadmin/ICatalogCollection::SaveChanges, cos.icatalogcollection_savechanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

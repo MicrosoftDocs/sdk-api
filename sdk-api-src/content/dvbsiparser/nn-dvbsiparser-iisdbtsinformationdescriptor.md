@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IIsdbTSInformationDescriptor
 title: IIsdbTSInformationDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor.htm
 old-project: mstv
 ms.assetid: 3c8cd33c-5c2a-48a4-9e8a-f7dd03560848
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IIsdbTSInformationDescriptor, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies], IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbTSInformationDescriptor, mstv.iisdbtsinformationdescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

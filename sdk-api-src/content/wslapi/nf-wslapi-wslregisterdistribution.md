@@ -1,16 +1,16 @@
 ---
 UID: NF:wslapi.WslRegisterDistribution
 title: WslRegisterDistribution function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a new distribution with the Windows Subsystem for Linux (WSL).
 old-location: wsl\wslregisterdistribution.htm
 old-project: wsl
 ms.assetid: 34D5D38D-A155-42DE-9E9B-2BD7E414E4EC
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WslRegisterDistribution, WslRegisterDistribution function, wsl.wslregisterdistribution, wslapi/WslRegisterDistribution
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wslapi.h
 req.include-header: 

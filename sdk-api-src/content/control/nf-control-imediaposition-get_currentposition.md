@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IMediaPosition.get_CurrentPosition
 title: IMediaPosition::get_CurrentPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CurrentPosition method retrieves the current position, relative to the total duration of the stream.
 old-location: dshow\imediaposition_get_currentposition.htm
 old-project: DirectShow
 ms.assetid: 96f4d621-c618-49fa-a0f6-bcc68a41467e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_CurrentPosition method, IMediaPosition.get_CurrentPosition, IMediaPosition::get_CurrentPosition, IMediaPositionget_CurrentPosition, control/IMediaPosition::get_CurrentPosition, dshow.imediaposition_get_currentposition, get_CurrentPosition, get_CurrentPosition method [DirectShow], get_CurrentPosition method [DirectShow],IMediaPosition interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

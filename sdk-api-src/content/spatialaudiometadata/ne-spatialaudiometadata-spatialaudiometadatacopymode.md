@@ -1,16 +1,16 @@
 ---
 UID: NE:spatialaudiometadata.SpatialAudioMetadataCopyMode
 title: SpatialAudioMetadataCopyMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the copy mode used when calling ISpatialAudioMetadataCopier::CopyMetadataForFrames.
 old-location: coreaudio\spatialaudiometadatacopymode.htm
 old-project: CoreAudio
 ms.assetid: 2E9C2C66-26EB-43E8-A518-25980B287542
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SpatialAudioMetadataCopyMode, SpatialAudioMetadataCopy_Append, SpatialAudioMetadataCopy_AppendMergeWithFirst, SpatialAudioMetadataCopy_AppendMergeWithLast, SpatialAudioMetadataCopy_Overwrite, SpatialAudioMetadataWriterCopyMode, SpatialAudioMetadataWriterCopyMode enumeration [Core Audio], coreaudio.spatialaudiometadatacopymode, coreaudio.spatialaudiometadatawritercopymode, spatialaudiometadata/SpatialAudioMetadataCopy_Append, spatialaudiometadata/SpatialAudioMetadataCopy_AppendMergeWithFirst, spatialaudiometadata/SpatialAudioMetadataCopy_AppendMergeWithLast, spatialaudiometadata/SpatialAudioMetadataCopy_Overwrite, spatialaudiometadata/SpatialAudioMetadataWriterCopyMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: spatialaudiometadata.h
 req.include-header: 

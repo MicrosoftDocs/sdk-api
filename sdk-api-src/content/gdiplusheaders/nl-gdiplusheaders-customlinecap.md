@@ -1,16 +1,16 @@
 ---
 UID: NL:gdiplusheaders.CustomLineCap
 title: CustomLineCap
-author: windows-driver-content
+author: windows-sdk-content
 description: The CustomLineCap class encapsulates a custom line cap.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecap.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CustomLineCap, CustomLineCap class [GDI+], CustomLineCap class [GDI+],described, _gdiplus_CLASS_CustomLineCap_Class, gdiplus._gdiplus_CLASS_CustomLineCap_Class, gdiplusheaders/CustomLineCap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: gdiplusheaders.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.PutContext
 title: ITsSbClientConnection::PutContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Can be used by plug-ins to store context information specific to the connection.
 old-location: termserv\itssbclientconnection_putcontext.htm
 old-project: TermServ
 ms.assetid: 654714ef-cc86-41e8-8759-bbb66bd61cd2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],PutContext method, ITsSbClientConnection.PutContext, ITsSbClientConnection::PutContext, PutContext, PutContext method [Remote Desktop Services], PutContext method [Remote Desktop Services],ITsSbClientConnection interface, sbtsv/ITsSbClientConnection::PutContext, termserv.itssbclientconnection_putcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

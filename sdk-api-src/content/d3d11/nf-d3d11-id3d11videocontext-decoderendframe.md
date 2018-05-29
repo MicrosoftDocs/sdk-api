@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.DecoderEndFrame
 title: ID3D11VideoContext::DecoderEndFrame
-author: windows-driver-content
+author: windows-sdk-content
 description: Signals the end of a decoding operation.
 old-location: mf\id3d11videocontext_decoderendframe.htm
 old-project: medfound
 ms.assetid: 3596B70C-4BED-49C4-A0E4-8702DA219B01
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DecoderEndFrame, DecoderEndFrame method [Media Foundation], DecoderEndFrame method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecoderEndFrame method, ID3D11VideoContext.DecoderEndFrame, ID3D11VideoContext::DecoderEndFrame, d3d11/ID3D11VideoContext::DecoderEndFrame, mf.id3d11videocontext_decoderendframe
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

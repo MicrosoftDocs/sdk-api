@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_Formats
 title: IFsrmReportJob::get_Formats
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets an array of formats that determine the content format of the reports.
 old-location: fsrm\ifsrmreportjob_formats.htm
 old-project: Fsrm
 ms.assetid: 9d0f7a7f-ad25-4d44-bc11-67da7685142a
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: Formats property [File Server Resource Manager], Formats property [File Server Resource Manager],IFsrmReportJob interface, IFsrmReportJob interface [File Server Resource Manager],Formats property, IFsrmReportJob.Formats, IFsrmReportJob.get_Formats, IFsrmReportJob::Formats, IFsrmReportJob::get_Formats, IFsrmReportJob::put_Formats, fs.ifsrmreportjob_formats, fsrm.ifsrmreportjob_formats, fsrmreports/IFsrmReportJob::Formats, fsrmreports/IFsrmReportJob::get_Formats, fsrmreports/IFsrmReportJob::put_Formats, get_Formats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

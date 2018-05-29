@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj.SoftwareUpdateMessageBox
 title: SoftwareUpdateMessageBox function
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays a standard message box that can be used to notify a user that an application has been updated.
 old-location: shell\SoftwareUpdateMessageBox.htm
 old-project: shell
 ms.assetid: 8b392355-6882-45e3-b915-5091c9ba51ad
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SoftwareUpdateMessageBox, SoftwareUpdateMessageBox function [Windows Shell], _win32_SoftwareUpdateMessageBox, shell.SoftwareUpdateMessageBox, shlobj/SoftwareUpdateMessageBox
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj.h
 req.include-header: 

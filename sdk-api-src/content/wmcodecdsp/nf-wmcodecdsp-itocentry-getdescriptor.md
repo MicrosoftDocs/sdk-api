@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.GetDescriptor
 title: ITocEntry::GetDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDescriptor method retrieves the descriptor, previously set by a call to SetDescriptor, of the entry.
 old-location: mf\itocentry_getdescriptor.htm
 old-project: medfound
 ms.assetid: bb685d4c-c5ec-413f-b279-25216b2bcee8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDescriptor, GetDescriptor method [Media Foundation], GetDescriptor method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetDescriptor method, ITocEntry.GetDescriptor, ITocEntry::GetDescriptor, codecapi.itocentry_getdescriptor, mf.itocentry_getdescriptor, wmcodecdsp/ITocEntry::GetDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

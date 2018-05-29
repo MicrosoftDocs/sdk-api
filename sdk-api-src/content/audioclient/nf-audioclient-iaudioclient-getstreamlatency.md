@@ -1,16 +1,16 @@
 ---
 UID: NF:audioclient.IAudioClient.GetStreamLatency
 title: IAudioClient::GetStreamLatency
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetStreamLatency method retrieves the maximum latency for the current stream and can be called any time after the stream has been initialized.
 old-location: coreaudio\iaudioclient_getstreamlatency.htm
 old-project: CoreAudio
 ms.assetid: ccc06e31-e56f-4910-882a-40b1ce0b43aa
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetStreamLatency, GetStreamLatency method [Core Audio], GetStreamLatency method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetStreamLatency method, IAudioClient.GetStreamLatency, IAudioClient::GetStreamLatency, IAudioClientGetStreamLatency, audioclient/IAudioClient::GetStreamLatency, coreaudio.iaudioclient_getstreamlatency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 

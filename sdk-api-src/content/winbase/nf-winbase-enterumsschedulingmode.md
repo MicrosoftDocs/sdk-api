@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.EnterUmsSchedulingMode
 title: EnterUmsSchedulingMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the calling thread into a user-mode scheduling (UMS) scheduler thread.
 old-location: base\enterumsschedulingmode.htm
 old-project: ProcThread
 ms.assetid: 792bd7fa-0ae9-4c38-a664-5fb3e3d0c52b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: EnterUmsSchedulingMode, EnterUmsSchedulingMode function, base.enterumsschedulingmode, winbase/EnterUmsSchedulingMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

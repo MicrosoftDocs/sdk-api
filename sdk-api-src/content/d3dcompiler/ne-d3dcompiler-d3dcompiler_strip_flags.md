@@ -1,16 +1,16 @@
 ---
 UID: NE:d3dcompiler.D3DCOMPILER_STRIP_FLAGS
 title: D3DCOMPILER_STRIP_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Strip flag options.
 old-location: direct3dhlsl\d3dcompiler_strip_flags.htm
 old-project: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dcompiler_strip_flags.htm
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: D3DCOMPILER_STRIP_DEBUG_INFO, D3DCOMPILER_STRIP_FLAGS, D3DCOMPILER_STRIP_FLAGS enumeration [HLSL], D3DCOMPILER_STRIP_FORCE_DWORD, D3DCOMPILER_STRIP_PRIVATE_DATA, D3DCOMPILER_STRIP_REFLECTION_DATA, D3DCOMPILER_STRIP_ROOT_SIGNATURE, D3DCOMPILER_STRIP_TEST_BLOBS, d2322971-23ee-a7bd-cf13-8a393a03e8a9, d3dcompiler/D3DCOMPILER_STRIP_DEBUG_INFO, d3dcompiler/D3DCOMPILER_STRIP_FLAGS, d3dcompiler/D3DCOMPILER_STRIP_FORCE_DWORD, d3dcompiler/D3DCOMPILER_STRIP_PRIVATE_DATA, d3dcompiler/D3DCOMPILER_STRIP_REFLECTION_DATA, d3dcompiler/D3DCOMPILER_STRIP_ROOT_SIGNATURE, d3dcompiler/D3DCOMPILER_STRIP_TEST_BLOBS, direct3dhlsl.d3dcompiler_strip_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcompiler.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetCustomSink
 title: IMFCapturePreviewSink::SetCustomSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a custom media sink for preview.
 old-location: mf\imfcapturepreviewsink_setcustomsink.htm
 old-project: medfound
 ms.assetid: 98D6F026-408F-4C22-B4A3-68C1B0EFD1E9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetCustomSink method, IMFCapturePreviewSink.SetCustomSink, IMFCapturePreviewSink::SetCustomSink, SetCustomSink, SetCustomSink method [Media Foundation], SetCustomSink method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setcustomsink, mfcaptureengine/IMFCapturePreviewSink::SetCustomSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

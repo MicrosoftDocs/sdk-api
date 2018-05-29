@@ -1,16 +1,16 @@
 ---
 UID: NF:dwrite_3.CreateFontFaceReference
 title: CreateFontFaceReference function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a reference to a font.
 old-location: directwrite\idwritefactory3_createfontfacereference_overload.htm
 old-project: DirectWrite
 ms.assetid: e4f73eff-84f8-3e86-08b1-aa513fad9a61
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: CreateFontFaceReference, CreateFontFaceReference methods [Direct2D], IDWriteFactory3::CreateFontFaceReference, directwrite.idwritefactory3_createfontfacereference_overload, dwrite_3/CreateFontFaceReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dwrite_3.h
 req.include-header: 

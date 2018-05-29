@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasGetProjectionInfoEx
 title: RasGetProjectionInfoEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains information about Point-to-Point Protocol (PPP) or Internet Key Exchange version 2 (IKEv2) remote access projection operations for all RAS connections on the local client.
 old-location: rras\rasgetprojectioninfoex.htm
 old-project: RRAS
 ms.assetid: e34216ed-fa78-4cb3-8db9-274c8ba196dd
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasGetProjectionInfoEx, RasGetProjectionInfoEx function [RAS], ras/RasGetProjectionInfoEx, rras.rasgetprojectioninfoex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

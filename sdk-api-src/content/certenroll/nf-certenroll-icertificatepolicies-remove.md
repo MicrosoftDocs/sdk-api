@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.Remove
 title: ICertificatePolicies::Remove
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an object from the collection by index number.
 old-location: security\icertificatepolicies_remove_method.htm
 old-project: SecCertEnroll
 ms.assetid: 5cd010bb-50ee-4251-815e-1fb4de1f2a81
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertificatePolicies interface [Security],Remove method, ICertificatePolicies.Remove, ICertificatePolicies::Remove, Remove, Remove method [Security], Remove method [Security],ICertificatePolicies interface, certenroll/ICertificatePolicies::Remove, security.icertificatepolicies_remove_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

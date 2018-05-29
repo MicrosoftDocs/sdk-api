@@ -1,16 +1,16 @@
 ---
 UID: NN:cscobj.IOfflineFilesItemFilter
 title: IOfflineFilesItemFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an instance of a filter to be applied to an enumeration.
 old-location: of\iofflinefilesitemfilter.htm
 old-project: OfflineFiles
 ms.assetid: e77b4f90-7a08-47f8-b297-8c1360167e1f
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesItemFilter, IOfflineFilesItemFilter interface [Offline Files], IOfflineFilesItemFilter interface [Offline Files],described, cscobj/IOfflineFilesItemFilter, of.iofflinefilesitemfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

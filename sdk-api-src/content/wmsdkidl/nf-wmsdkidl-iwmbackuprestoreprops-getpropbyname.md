@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.GetPropByName
 title: IWMBackupRestoreProps::GetPropByName
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPropByName method retrieves the value of a property by name.
 old-location: wmformat\iwmbackuprestoreprops_getpropbyname.htm
 old-project: wmformat
 ms.assetid: 771a7a49-7d42-4537-9945-97b907404097
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetPropByName, GetPropByName method [windows Media Format], GetPropByName method [windows Media Format],IWMBackupRestoreProps interface, IWMBackupRestoreProps interface [windows Media Format],GetPropByName method, IWMBackupRestoreProps.GetPropByName, IWMBackupRestoreProps::GetPropByName, IWMBackupRestorePropsGetPropByName, wmformat.iwmbackuprestoreprops_getpropbyname, wmsdkidl/IWMBackupRestoreProps::GetPropByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

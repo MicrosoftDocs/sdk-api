@@ -1,16 +1,16 @@
 ---
 UID: NN:audiopolicy.IAudioSessionControl2
 title: IAudioSessionControl2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioSessionControl2 interface can be used by a client to get information about the audio session.
 old-location: coreaudio\iaudiosessioncontrol2.htm
 old-project: CoreAudio
 ms.assetid: 3bb65edf-103c-4eeb-82b4-7c571cddfcf3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioSessionControl2, IAudioSessionControl2 interface [Core Audio], IAudioSessionControl2 interface [Core Audio],described, audiopolicy/IAudioSessionControl2, coreaudio.iaudiosessioncontrol2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audiopolicy.h
 req.include-header: 

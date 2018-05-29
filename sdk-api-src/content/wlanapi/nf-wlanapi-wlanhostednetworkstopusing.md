@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkStopUsing
 title: WlanHostedNetworkStopUsing function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops the wireless Hosted Network.
 old-location: nwifi\wlanhostednetworkstopusing.htm
 old-project: NativeWiFi
 ms.assetid: 36b5ed93-33c4-4ade-a6d9-0d240854a5ef
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanHostedNetworkStopUsing, WlanHostedNetworkStopUsing function [NativeWIFI], nwifi.wlanhostednetworkstopusing, wlanapi/WlanHostedNetworkStopUsing
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

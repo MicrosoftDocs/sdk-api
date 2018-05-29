@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceMethods.Invoke
 title: IPortableDeviceServiceMethods::Invoke
-author: windows-driver-content
+author: windows-sdk-content
 description: Synchronously invokes a method.
 old-location: wpdsdk\iportabledeviceservicemethods_invoke.htm
 old-project: wpd_sdk
 ms.assetid: 9c972815-c95a-4718-abac-dcc28a2198e1
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],Invoke method, IPortableDeviceServiceMethods.Invoke, IPortableDeviceServiceMethods::Invoke, Invoke, Invoke method [Windows Portable Devices SDK], Invoke method [Windows Portable Devices SDK],IPortableDeviceServiceMethods interface, portabledeviceapi/IPortableDeviceServiceMethods::Invoke, wpdsdk.iportabledeviceservicemethods_invoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

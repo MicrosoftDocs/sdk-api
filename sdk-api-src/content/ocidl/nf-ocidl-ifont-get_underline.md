@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IFont.get_Underline
 title: IFont::get_Underline
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the font's current Underline property.
 old-location: com\ifont_get_underline.htm
 old-project: com
 ms.assetid: 714a2678-6e3d-4b8d-8632-20eb41618fff
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IFont interface [COM],get_Underline method, IFont.get_Underline, IFont::get_Underline, _ctrl_ifont_get_underline, com.ifont_get_underline, get_Underline, get_Underline method [COM], get_Underline method [COM],IFont interface, ocidl/IFont::get_Underline
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

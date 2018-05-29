@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsVolume.ClearFlags
 title: IVdsVolume::ClearFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Clears the volume flags.
 old-location: base\ivdsvolume_clearflags.htm
 old-project: VDS
 ms.assetid: 970dcd4a-ac06-4e2d-969c-82c5dabd0019
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ClearFlags, ClearFlags method [VDS], ClearFlags method [VDS],IVdsVolume interface, IVdsVolume interface [VDS],ClearFlags method, IVdsVolume.ClearFlags, IVdsVolume::ClearFlags, base.ivdsvolume_clearflags, vds/IVdsVolume::ClearFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

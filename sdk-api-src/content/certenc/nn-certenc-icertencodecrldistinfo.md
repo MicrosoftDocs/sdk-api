@@ -1,16 +1,16 @@
 ---
 UID: NN:certenc.ICertEncodeCRLDistInfo
 title: ICertEncodeCRLDistInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for handling certificate revocation list (CRL) distribution information arrays used in certificate extensions.
 old-location: security\icertencodecrldistinfo.htm
 old-project: SecCrypto
 ms.assetid: e9c0053f-263f-4d7b-9356-bc33af989dbe
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], ICertEncodeCRLDistInfo interface [Security],described, _certsrv_icertencodecrldistinfo, certenc/ICertEncodeCRLDistInfo, security.icertencodecrldistinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenc.h
 req.include-header: Certsrv.h

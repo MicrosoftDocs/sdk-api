@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IObjectWithAppUserModelID.GetAppID
 title: IObjectWithAppUserModelID::GetAppID
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a file type handler's explicit Application User Model ID (AppUserModelID), if one has been declared.
 old-location: shell\IObjectWithAppUserModelID_GetAppID.htm
 old-project: shell
 ms.assetid: da6c4799-fda9-43e5-86eb-91a40db5ab6c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetAppID, GetAppID method [Windows Shell], GetAppID method [Windows Shell],IObjectWithAppUserModelID interface, IObjectWithAppUserModelID interface [Windows Shell],GetAppID method, IObjectWithAppUserModelID.GetAppID, IObjectWithAppUserModelID::GetAppID, _shell_IObjectWithAppUserModelID_GetAppID, shell.IObjectWithAppUserModelID_GetAppID, shobjidl_core/IObjectWithAppUserModelID::GetAppID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

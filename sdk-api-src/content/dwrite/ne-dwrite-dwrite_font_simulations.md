@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite.DWRITE_FONT_SIMULATIONS
 title: DWRITE_FONT_SIMULATIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies algorithmic style simulations to be applied to the font face. Bold and oblique simulations can be combined via bitwise OR operation.
 old-location: directwrite\dwrite_font_simulations.htm
 old-project: DirectWrite
 ms.assetid: 0881afec-2fa5-4f17-96a2-68a5293e0bba
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_FONT_SIMULATIONS, DWRITE_FONT_SIMULATIONS enumeration [Direct Write], DWRITE_FONT_SIMULATIONS_BOLD, DWRITE_FONT_SIMULATIONS_NONE, DWRITE_FONT_SIMULATIONS_OBLIQUE, directwrite.dwrite_font_simulations, dwrite/DWRITE_FONT_SIMULATIONS, dwrite/DWRITE_FONT_SIMULATIONS_BOLD, dwrite/DWRITE_FONT_SIMULATIONS_NONE, dwrite/DWRITE_FONT_SIMULATIONS_OBLIQUE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ICommDlgBrowser2.GetDefaultMenuText
 title: ICommDlgBrowser2::GetDefaultMenuText
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the Shell view to get the default shortcut menu text.
 old-location: shell\ICommDlgBrowser2_GetDefaultMenuText.htm
 old-project: shell
 ms.assetid: 08c73959-d884-4870-9e6f-f1040184556f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDefaultMenuText, GetDefaultMenuText method [Windows Shell], GetDefaultMenuText method [Windows Shell],ICommDlgBrowser2 interface, ICommDlgBrowser2 interface [Windows Shell],GetDefaultMenuText method, ICommDlgBrowser2.GetDefaultMenuText, ICommDlgBrowser2::GetDefaultMenuText, _win32_ICommDlgBrowser2_GetDefaultMenuText, shell.ICommDlgBrowser2_GetDefaultMenuText, shobjidl_core/ICommDlgBrowser2::GetDefaultMenuText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

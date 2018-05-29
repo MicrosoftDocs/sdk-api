@@ -1,16 +1,16 @@
 ---
 UID: NF:upnphost.IUPnPRemoteEndpointInfo.GetDwordValue
 title: IUPnPRemoteEndpointInfo::GetDwordValue
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDwordValue method gets a 4-byte value that provides information about either a request or requester.
 old-location: upnp\iupnpremoteendpointinfo_getdwordvalue.htm
 old-project: UPnP
 ms.assetid: efbb0671-cb32-41e1-8405-1d145c247673
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: AF_INET, AF_INET6, GetDwordValue, GetDwordValue method [UPnP APIs], GetDwordValue method [UPnP APIs],IUPnPRemoteEndpointInfo interface, IUPnPRemoteEndpointInfo interface [UPnP APIs],GetDwordValue method, IUPnPRemoteEndpointInfo.GetDwordValue, IUPnPRemoteEndpointInfo::GetDwordValue, upnp.iupnpremoteendpointinfo_getdwordvalue, upnphost/IUPnPRemoteEndpointInfo::GetDwordValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 

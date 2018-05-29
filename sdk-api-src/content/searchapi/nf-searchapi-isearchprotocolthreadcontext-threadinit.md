@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchProtocolThreadContext.ThreadInit
 title: ISearchProtocolThreadContext::ThreadInit
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes communication between the protocol handler and the protocol host.
 old-location: search\_search_ISearchProtocolThreadContext_ThreadInit.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\threadinit.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchProtocolThreadContext interface [search],ThreadInit method, ISearchProtocolThreadContext.ThreadInit, ISearchProtocolThreadContext::ThreadInit, ThreadInit, ThreadInit method [search], ThreadInit method [search],ISearchProtocolThreadContext interface, _search_ISearchProtocolThreadContext_ThreadInit, search._search_ISearchProtocolThreadContext_ThreadInit, searchapi/ISearchProtocolThreadContext::ThreadInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

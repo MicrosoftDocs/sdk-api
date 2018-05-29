@@ -1,16 +1,16 @@
 ---
 UID: NN:upnp.IUPnPService
 title: IUPnPService
-author: windows-driver-content
+author: windows-sdk-content
 description: The IUPnPService interface enables an application to query state variables and invoke actions on an instance of a service.
 old-location: upnp\iupnpservice.htm
 old-project: UPnP
 ms.assetid: 48b20b03-62a4-4dcd-8eda-f1bfef1eef38
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: IUPnPService, IUPnPService interface [UPnP APIs], IUPnPService interface [UPnP APIs],described, _upnp_iupnpservice, upnp.iupnpservice, upnp/IUPnPService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

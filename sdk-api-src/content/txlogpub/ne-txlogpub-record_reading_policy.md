@@ -1,16 +1,16 @@
 ---
 UID: NE:txlogpub.RECORD_READING_POLICY
 title: RECORD_READING_POLICY
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a hint about the order in which records are to be read from a log.
 old-location: com\record_reading_policy.htm
 old-project: com
 ms.assetid: 79ffd37a-ffeb-46f8-8743-aa3e85648e34
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RECORD_READING_POLICY, RECORD_READING_POLICY enumeration [COM], RECORD_READING_POLICY_BACKWARD, RECORD_READING_POLICY_FORWARD, RECORD_READING_POLICY_RANDOM, _com_RECORD_READING_POLICY, com.record_reading_policy, txlogpub/RECORD_READING_POLICY, txlogpub/RECORD_READING_POLICY_BACKWARD, txlogpub/RECORD_READING_POLICY_FORWARD, txlogpub/RECORD_READING_POLICY_RANDOM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: txlogpub.h
 req.include-header: 

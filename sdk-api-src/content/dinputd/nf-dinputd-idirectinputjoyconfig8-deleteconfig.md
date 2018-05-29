@@ -1,16 +1,16 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.DeleteConfig
 title: IDirectInputJoyConfig8::DeleteConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDirectInputJoyConfig8::DeleteConfig method deletes configuration information about a joystick.
 old-location: hid\idirectinputjoyconfig8_deleteconfig.htm
 old-project: hid
 ms.assetid: f589e5f4-e003-4a42-b7e6-10b5b14d1aa6
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: DeleteConfig, DeleteConfig method [Human Input Devices], DeleteConfig method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],DeleteConfig method, IDirectInputJoyConfig8.DeleteConfig, IDirectInputJoyConfig8::DeleteConfig, di_ref_453b121d-6edc-4674-ab3c-f610ba900831.xml, dinputd/IDirectInputJoyConfig8::DeleteConfig, hid.idirectinputjoyconfig8_deleteconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h

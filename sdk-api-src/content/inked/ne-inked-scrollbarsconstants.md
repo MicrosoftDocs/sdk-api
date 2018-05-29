@@ -1,16 +1,16 @@
 ---
 UID: NE:inked.ScrollBarsConstants
 title: ScrollBarsConstants
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how the scroll bars of an InkEdit control appear on the screen.
 old-location: tablet\scrollbarsconstants.htm
 old-project: tablet
 ms.assetid: d689f8ff-4ad9-4306-af2d-aaed60f33c53
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScrollBarsConstants, ScrollBarsConstants enumeration [Tablet PC], d689f8ff-4ad9-4306-af2d-aaed60f33c53, inked/ScrollBarsConstants, inked/rtfBoth, inked/rtfHorizontal, inked/rtfNone, inked/rtfVertical, rtfBoth, rtfHorizontal, rtfNone, rtfVertical, tablet.scrollbarsconstants
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: inked.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.Redirect
 title: IKnownFolderManager::Redirect
-author: windows-driver-content
+author: windows-sdk-content
 description: Redirects folder requests for common and per-user folders.
 old-location: shell\IKnownFolderManager_Redirect.htm
 old-project: shell
 ms.assetid: 0f4fc609-597b-4c72-b875-4b3f051dd056
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IKnownFolderManager interface [Windows Shell],Redirect method, IKnownFolderManager.Redirect, IKnownFolderManager::Redirect, Redirect, Redirect method [Windows Shell], Redirect method [Windows Shell],IKnownFolderManager interface, _shell_IKnownFolderManager_Redirect, shell.IKnownFolderManager_Redirect, shobjidl_core/IKnownFolderManager::Redirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

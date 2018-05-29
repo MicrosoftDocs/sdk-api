@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHGetDataFromIDListA
 title: SHGetDataFromIDListA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves extended property data from a relative identifier list.
 old-location: shell\SHGetDataFromIDList.htm
 old-project: shell
 ms.assetid: 11c041bd-22fd-46a4-b75c-cc86ee771241
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGDFIL_DESCRIPTIONID, SHGDFIL_FINDDATA, SHGDFIL_NETRESOURCE, SHGetDataFromIDList, SHGetDataFromIDList function [Windows Shell], SHGetDataFromIDListA, SHGetDataFromIDListW, _win32_SHGetDataFromIDList, shell.SHGetDataFromIDList, shlobj_core/SHGetDataFromIDList, shlobj_core/SHGetDataFromIDListA, shlobj_core/SHGetDataFromIDListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h

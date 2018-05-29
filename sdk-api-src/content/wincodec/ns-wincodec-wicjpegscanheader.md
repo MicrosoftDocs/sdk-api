@@ -1,16 +1,16 @@
 ---
 UID: NS:wincodec.WICJpegScanHeader
 title: WICJpegScanHeader
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a JPEG frame header.
 old-location: wic\wicjpegscanheader.htm
 old-project: wic
 ms.assetid: 87A36F9B-CD6B-4343-AAA7-9FDBAD41E38A
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICJpegScanHeader, WICJpegScanHeader structure [Windows Imaging Component], wic.wicjpegscanheader, wincodec/WICJpegScanHeader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincodec.h
 req.include-header: 

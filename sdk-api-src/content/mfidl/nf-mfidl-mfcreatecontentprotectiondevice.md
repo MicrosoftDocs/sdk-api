@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateContentProtectionDevice
 title: MFCreateContentProtectionDevice function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IMFContentProtectionDevice interface for the specified media protection system.
 old-location: mf\mfcreatecontentprotectiondevice.htm
 old-project: medfound
 ms.assetid: 6C301184-255B-4FE7-8DD6-962B236F90A6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateContentProtectionDevice, MFCreateContentProtectionDevice function [Media Foundation], mf.mfcreatecontentprotectiondevice, mfidl/MFCreateContentProtectionDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

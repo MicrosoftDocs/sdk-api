@@ -1,16 +1,16 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.UpdateLink
 title: IOleUILinkContainerA::UpdateLink
-author: windows-driver-content
+author: windows-sdk-content
 description: Forces selected links to connect to their source and retrieve current information.
 old-location: com\ioleuilinkcontainer_updatelink.htm
 old-project: com
 ms.assetid: fccee32a-3a6f-4ef8-9ca7-c5b664ee03cf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleUILinkContainer interface [COM],UpdateLink method, IOleUILinkContainer::UpdateLink, IOleUILinkContainerA interface [COM],UpdateLink method, IOleUILinkContainerA.UpdateLink, IOleUILinkContainerA::UpdateLink, IOleUILinkContainerW interface [COM],UpdateLink method, IOleUILinkContainerW::UpdateLink, UpdateLink, UpdateLink method [COM], UpdateLink method [COM],IOleUILinkContainer interface, UpdateLink method [COM],IOleUILinkContainerA interface, UpdateLink method [COM],IOleUILinkContainerW interface, _ole_IOleUILinkContainer_UpdateLink, com.ioleuilinkcontainer_updatelink, oledlg/IOleUILinkContainer::UpdateLink, oledlg/IOleUILinkContainerA::UpdateLink, oledlg/IOleUILinkContainerW::UpdateLink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oledlg.h
 req.include-header: 

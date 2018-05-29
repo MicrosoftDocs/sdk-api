@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Application_NewSession
 title: MI_Application_NewSession function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a session used to share connections for a set of operations to a single destination.
 old-location: wmi_v2\mi_application_newsession.htm
 old-project: wmi_v2
 ms.assetid: 76010766-aa20-4632-940d-48d9769803da
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Application_NewSession, MI_Application_NewSession function [Windows Management Infrastructure (MI)], mi/MI_Application_NewSession, wmi_v2.mi_application_newsession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

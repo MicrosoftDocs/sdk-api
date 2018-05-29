@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptFinalizeKey
 title: NCryptFinalizeKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes a CNG key storage key.
 old-location: security\ncryptfinalizekey_func.htm
 old-project: SecCNG
 ms.assetid: 4386030d-4ce6-4b2e-adc5-a15ddc869349
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCRYPT_NO_KEY_VALIDATION, NCRYPT_SILENT_FLAG, NCRYPT_WRITE_KEY_TO_LEGACY_STORE_FLAG, NCryptFinalizeKey, NCryptFinalizeKey function [Security], ncrypt/NCryptFinalizeKey, security.ncryptfinalizekey_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

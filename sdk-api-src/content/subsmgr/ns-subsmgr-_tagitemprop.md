@@ -1,16 +1,16 @@
 ---
 UID: NS:subsmgr._tagITEMPROP
 title: "_tagITEMPROP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores information about properties in the Windows Property System, and is used by the IItemPropertyBag interface.
 old-location: search\itemprop.htm
 old-project: search
 ms.assetid: 480C84CB-60CE-42F4-ADE6-4FCF1EAF15AF
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPITEMPROP, ITEMPROP, ITEMPROP structure [search], PITEMPROP, PITEMPROP structure pointer [search], _tagITEMPROP, search.itemprop, subsmgr/ITEMPROP, subsmgr/PITEMPROP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: subsmgr.h
 req.include-header: 

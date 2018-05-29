@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.QueryForAdditionalItems
 title: ISyncMgrSyncCallback::QueryForAdditionalItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an enumerator of the set of items that have a pending request to be synchronized. This is the set of items that will be synchronized after the current synchronization is finished.
 old-location: shell\ISyncMgrSyncCallback_QueryForAdditionalItems.htm
 old-project: shell
 ms.assetid: 3780d88a-4430-4cf3-9d1c-35eb8efc8971
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],QueryForAdditionalItems method, ISyncMgrSyncCallback.QueryForAdditionalItems, ISyncMgrSyncCallback::QueryForAdditionalItems, QueryForAdditionalItems, QueryForAdditionalItems method [Windows Shell], QueryForAdditionalItems method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_QueryForAdditionalItems, shell.ISyncMgrSyncCallback_QueryForAdditionalItems, syncmgr/ISyncMgrSyncCallback::QueryForAdditionalItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

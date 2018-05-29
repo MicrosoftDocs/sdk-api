@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidDevice2.get_DevicePath
 title: IMSVidDevice2::get_DevicePath
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.
 old-location: mstv\imsviddevice2_get_devicepath.htm
 old-project: mstv
 ms.assetid: 4a0191d7-2b10-4f7e-96e1-263ddd718229
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidDevice2 interface [Microsoft TV Technologies],get_DevicePath method, IMSVidDevice2.get_DevicePath, IMSVidDevice2::get_DevicePath, IMSVidDevice2get_DevicePath, get_DevicePath, get_DevicePath method [Microsoft TV Technologies], get_DevicePath method [Microsoft TV Technologies],IMSVidDevice2 interface, mstv.imsviddevice2_get_devicepath, segment/IMSVidDevice2::get_DevicePath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

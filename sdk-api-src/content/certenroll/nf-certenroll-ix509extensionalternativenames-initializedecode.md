@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509ExtensionAlternativeNames.InitializeDecode
 title: IX509ExtensionAlternativeNames::InitializeDecode
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
 old-location: security\ix509extensionalternativenames_initializedecode_method.htm
 old-project: SecCertEnroll
 ms.assetid: a314dfac-fe17-4e33-b528-491a2622e80c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509ExtensionAlternativeNames interface [Security],InitializeDecode method, IX509ExtensionAlternativeNames.InitializeDecode, IX509ExtensionAlternativeNames::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionAlternativeNames interface, certenroll/IX509ExtensionAlternativeNames::InitializeDecode, security.ix509extensionalternativenames_initializedecode_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

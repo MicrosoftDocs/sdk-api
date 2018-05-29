@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.ReportIScsiInitiatorListW
 title: ReportIScsiInitiatorListW function
-author: windows-driver-content
+author: windows-sdk-content
 description: ReportIscsiInitiatorList function retrieves the list of initiator Host Bus Adapters that are running on the machine.
 old-location: iscsidisc\reportiscsiinitiatorlist.htm
 old-project: iSCSIDisc
 ms.assetid: 7039fab5-ac76-4420-994b-b8c18196b022
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ReportIScsiInitiatorListW, ReportIscsiInitiatorList, ReportIscsiInitiatorList function [iSCSI Discovery Library API], ReportIscsiInitiatorListA, ReportIscsiInitiatorListW, iscsidisc.reportiscsiinitiatorlist, iscsidsc/ReportIscsiInitiatorList, iscsidsc/ReportIscsiInitiatorListA, iscsidsc/ReportIscsiInitiatorListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_OBS_REC_ROD_v0
 title: "_TCP_ESTATS_OBS_REC_ROD_v0"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains read-only dynamic information for extended TCP statistics observed on the remote receiver for a TCP connection.
 old-location: iphlp\tcp_estats_obs_rec_rod_v0.htm
 old-project: IpHlp
 ms.assetid: f790e107-0db3-4691-98fc-378518b04a8a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PTCP_ESTATS_OBS_REC_ROD_v0, PTCP_ESTATS_OBS_REC_ROD_v0, PTCP_ESTATS_OBS_REC_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_OBS_REC_ROD_v0, TCP_ESTATS_OBS_REC_ROD_v0 structure [IP Helper], _TCP_ESTATS_OBS_REC_ROD_v0, iphlp.tcp_estats_obs_rec_rod_v0, tcpestats/PTCP_ESTATS_OBS_REC_ROD_v0, tcpestats/TCP_ESTATS_OBS_REC_ROD_v0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpestats.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsafer.SaferGetLevelInformation
 title: SaferGetLevelInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a policy level.
 old-location: security\safergetlevelinformation.htm
 old-project: SecMgmt
 ms.assetid: cbe73ebc-bf2c-4d39-a203-78ff1a407481
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SaferGetLevelInformation, SaferGetLevelInformation function [Security], SaferObjectDescription, SaferObjectFriendlyName, SaferObjectLevelId, SaferObjectScopeId, _mnp_safergetlevelinformation, security.safergetlevelinformation, winsafer/SaferGetLevelInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsafer.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.RpcSmSetThreadHandle
 title: RpcSmSetThreadHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcSmSetThreadHandle function sets a thread handle for the stub memory&#8211;management environment.
 old-location: rpc\rpcsmsetthreadhandle.htm
 old-project: Rpc
 ms.assetid: 90bfd7f3-c95b-450b-8578-6e46d3ac7517
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcSmSetThreadHandle, RpcSmSetThreadHandle function [RPC], _rpc_rpcsmsetthreadhandle, rpc.rpcsmsetthreadhandle, rpcndr/RpcSmSetThreadHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

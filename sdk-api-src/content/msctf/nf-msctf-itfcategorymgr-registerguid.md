@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.RegisterGUID
 title: ITfCategoryMgr::RegisterGUID
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfCategoryMgr::RegisterGUID method
 old-location: tsf\itfcategorymgr_registerguid.htm
 old-project: TSF
 ms.assetid: d0de17d9-be3a-4f68-a77d-880047775952
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfCategoryMgr interface [Text Services Framework],RegisterGUID method, ITfCategoryMgr.RegisterGUID, ITfCategoryMgr::RegisterGUID, RegisterGUID, RegisterGUID method [Text Services Framework], RegisterGUID method [Text Services Framework],ITfCategoryMgr interface, _tsf_itfcategorymgr_registerguid_ref, msctf/ITfCategoryMgr::RegisterGUID, tsf.itfcategorymgr_registerguid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

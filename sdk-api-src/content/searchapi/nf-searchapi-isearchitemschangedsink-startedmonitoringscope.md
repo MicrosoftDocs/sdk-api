@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchItemsChangedSink.StartedMonitoringScope
 title: ISearchItemsChangedSink::StartedMonitoringScope
-author: windows-driver-content
+author: windows-sdk-content
 description: Permits an index-managed notification source to add itself to a list of &#0034;monitored scopes&#0034;.
 old-location: search\_search_ISearchItemsChangedSink_StartedMonitoringScope.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitemschangedsink\startedmonitoringscope.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchItemsChangedSink interface [search],StartedMonitoringScope method, ISearchItemsChangedSink.StartedMonitoringScope, ISearchItemsChangedSink::StartedMonitoringScope, StartedMonitoringScope, StartedMonitoringScope method [search], StartedMonitoringScope method [search],ISearchItemsChangedSink interface, _search_ISearchItemsChangedSink_StartedMonitoringScope, search._search_ISearchItemsChangedSink_StartedMonitoringScope, searchapi/ISearchItemsChangedSink::StartedMonitoringScope
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

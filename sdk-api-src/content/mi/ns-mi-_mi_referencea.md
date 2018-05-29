@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_ReferenceA
 title: "_MI_ReferenceA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an array of pointers to MI_Instance types.
 old-location: wmi_v2\mi_referencea.htm
 old-project: wmi_v2
 ms.assetid: a0fde623-a9f0-4b7d-8c7d-2a88745fc8b2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_ReferenceA, MI_ReferenceA structure [Windows Management Infrastructure (MI)], _MI_ReferenceA, mi/MI_ReferenceA, wmi._mi_referencea, wmi_v2.mi_referencea
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

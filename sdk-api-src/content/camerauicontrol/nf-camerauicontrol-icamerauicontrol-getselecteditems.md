@@ -1,16 +1,16 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.GetSelectedItems
 title: ICameraUIControl::GetSelectedItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the selected items.
 old-location: winprog\icamerauicontrol_getselecteditems.htm
 old-project: DevNotes
 ms.assetid: 572cbf23-b9b5-441c-9bde-55ef856397ca
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetSelectedItems, GetSelectedItems method [Windows API], GetSelectedItems method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],GetSelectedItems method, ICameraUIControl.GetSelectedItems, ICameraUIControl::GetSelectedItems, camerauicontrol/ICameraUIControl::GetSelectedItems, winprog.icamerauicontrol_getselecteditems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: camerauicontrol.h
 req.include-header: 

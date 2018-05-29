@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PSIGNAL_FAILURE_ROUTINE
 title: PSIGNAL_FAILURE_ROUTINE
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports that there was a failure in a resource instance. The PSIGNAL_FAILURE_ROUTINE type defines a pointer to this function.
 old-location: mscs\signalfailure.htm
 old-project: MsCS
 ms.assetid: C4226174-B983-4BF5-8DA5-638201124037
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PSIGNAL_FAILURE_ROUTINE, PSIGNAL_FAILURE_ROUTINE callback function [Failover Cluster], SignalFailure, SignalFailure callback, SignalFailure callback function [Failover Cluster], mscs.signalfailure, resapi/PSIGNAL_FAILURE_ROUTINE, resapi/SignalFailure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

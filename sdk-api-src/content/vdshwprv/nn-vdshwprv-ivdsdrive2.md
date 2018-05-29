@@ -1,16 +1,16 @@
 ---
 UID: NN:vdshwprv.IVdsDrive2
 title: IVdsDrive2
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method for querying the properties of a drive.
 old-location: base\ivdsdrive2.htm
 old-project: VDS
 ms.assetid: 6d8115e3-2a47-4bc3-9a69-24e26f555f41
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsDrive2, IVdsDrive2 interface, IVdsDrive2 interface,described, base.ivdsdrive2, vds/IVdsDrive2, vdshwprv/IVdsDrive2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

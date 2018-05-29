@@ -1,16 +1,16 @@
 ---
 UID: NF:madcapcl.McastApiCleanup
 title: McastApiCleanup function
-author: windows-driver-content
+author: windows-sdk-content
 description: The McastApiCleanup function deallocates resources that are allocated with McastApiStartup. The McastApiCleanup function must only be called after a successful call to McastApiStartup.
 old-location: madcap\mcastapicleanup.htm
 old-project: Madcap
 ms.assetid: eccf52ee-8145-4a8f-9d34-5a56bfc8a48c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: McastApiCleanup, McastApiCleanup function [MADCAP], _mdhcp_mcastapicleanup, madcap.mcastapicleanup, madcapcl/McastApiCleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: madcapcl.h
 req.include-header: 

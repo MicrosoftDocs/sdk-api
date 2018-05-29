@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspixelformats.IsExtendedPixelFormat
 title: IsExtendedPixelFormat function
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsExtendedPixelFormat method determines whether a specified pixel format uses 16 bits per color channel.
 old-location: gdiplus\_gdiplus_FUNC_IsExtendedPixelFormat_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\isextendedpixelformat.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IsExtendedPixelFormat, IsExtendedPixelFormat function [GDI+], _gdiplus_FUNC_IsExtendedPixelFormat_, gdiplus._gdiplus_FUNC_IsExtendedPixelFormat_, gdipluspixelformats/IsExtendedPixelFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h

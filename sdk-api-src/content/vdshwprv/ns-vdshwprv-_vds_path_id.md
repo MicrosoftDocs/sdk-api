@@ -1,16 +1,16 @@
 ---
 UID: NS:vdshwprv._VDS_PATH_ID
 title: "_VDS_PATH_ID"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a unique identification for a path.
 old-location: base\vds_path_id.htm
 old-project: VDS
 ms.assetid: bfb786fc-eb03-4449-b631-fb85813c08c8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_PATH_ID, VDS_PATH_ID structure [VDS], _VDS_PATH_ID, base.vds_path_id, vds/VDS_PATH_ID, vdshwprv/VDS_PATH_ID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

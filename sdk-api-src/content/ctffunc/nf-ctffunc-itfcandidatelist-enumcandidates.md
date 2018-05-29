@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.ITfCandidateList.EnumCandidates
 title: ITfCandidateList::EnumCandidates
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfCandidateList::EnumCandidates method
 old-location: tsf\itfcandidatelist_enumcandidates.htm
 old-project: TSF
 ms.assetid: f63799a1-2284-4da8-933c-f3616c1cb295
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EnumCandidates, EnumCandidates method [Text Services Framework], EnumCandidates method [Text Services Framework],ITfCandidateList interface, ITfCandidateList interface [Text Services Framework],EnumCandidates method, ITfCandidateList.EnumCandidates, ITfCandidateList::EnumCandidates, _tsf_itfcandidatelist_enumcandidates_ref, ctffunc/ITfCandidateList::EnumCandidates, tsf.itfcandidatelist_enumcandidates
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathCompactPathA
 title: PathCompactPathA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Truncates a file path to fit within a given pixel width by replacing path components with ellipses.
 old-location: shell\PathCompactPath.htm
 old-project: shell
 ms.assetid: b8184c98-1f86-4714-baf8-af4ef3e71cf2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathCompactPath, PathCompactPath function [Windows Shell], PathCompactPathA, PathCompactPathW, _win32_PathCompactPath, shell.PathCompactPath, shlwapi/PathCompactPath, shlwapi/PathCompactPathA, shlwapi/PathCompactPathW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

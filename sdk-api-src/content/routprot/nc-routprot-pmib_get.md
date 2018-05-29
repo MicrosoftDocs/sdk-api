@@ -1,16 +1,16 @@
 ---
 UID: NC:routprot.PMIB_GET
 title: PMIB_GET
-author: windows-driver-content
+author: windows-sdk-content
 description: The MibGet function passes an SNMP MIB-style Get Request to the routing protocol DLL.
 old-location: rras\mibget.htm
 old-project: RRAS
 ms.assetid: a6f3d450-0ca1-4c22-9e48-addf317cac2a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MibGet, MibGet callback function [RAS], PMIB_GET, PMIB_GET callback, _mpr_mibget, routprot/MibGet, rras.mibget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

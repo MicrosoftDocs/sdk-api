@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaTemplate
 title: IFsrmQuotaTemplate
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to configure templates from which new quota objects can be derived.
 old-location: fsrm\ifsrmquotatemplate.htm
 old-project: Fsrm
 ms.assetid: de8ac383-f309-4320-bc77-c859ba27e1ca
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmQuotaTemplate, IFsrmQuotaTemplate interface [File Server Resource Manager], IFsrmQuotaTemplate interface [File Server Resource Manager],described, fs.ifsrmquotatemplate, fsrm.ifsrmquotatemplate, fsrm/IFsrmQuotaTemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

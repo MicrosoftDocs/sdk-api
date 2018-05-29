@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfCompartmentEventSink
 title: ITfCompartmentEventSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfCompartmentEventSink interface is implemented by a client (application or text service) and used by the TSF manager to notify the client when compartment data changes.
 old-location: tsf\itfcompartmenteventsink.htm
 old-project: TSF
 ms.assetid: 1bd464e7-9e34-4725-83f9-42e09ddf4778
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfCompartmentEventSink, ITfCompartmentEventSink interface [Text Services Framework], ITfCompartmentEventSink interface [Text Services Framework],described, _tsf_itfcompartmenteventsink_ref, msctf/ITfCompartmentEventSink, tsf.itfcompartmenteventsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

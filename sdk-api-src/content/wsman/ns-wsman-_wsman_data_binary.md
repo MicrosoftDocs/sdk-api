@@ -1,16 +1,16 @@
 ---
 UID: NS:wsman._WSMAN_DATA_BINARY
 title: "_WSMAN_DATA_BINARY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds binary data for use with various Windows Remote Management functions.
 old-location: winrm\wsman_data_binary.htm
 old-project: WinRM
 ms.assetid: 35beedc3-30c6-4e04-bc27-bb9eb21256fe
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSMAN_DATA_BINARY, WSMAN_DATA_BINARY structure [Windows Remote Management], _WSMAN_DATA_BINARY, winrm.wsman_data_binary, wsman/WSMAN_DATA_BINARY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:mprapi._MPR_SERVER_0
 title: "_MPR_SERVER_0"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MPR_SERVER_0 structure is used to retrieve information about a device.
 old-location: rras\mpr_server_0.htm
 old-project: RRAS
 ms.assetid: cffda25b-28f8-4d76-987c-eadcea9c032b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PMPR_SERVER_0, MPR_SERVER_0, MPR_SERVER_0 structure [RAS], PMPR_SERVER_0, PMPR_SERVER_0 structure pointer [RAS], _MPR_SERVER_0, _mpr_mpr_server_0, mprapi/MPR_SERVER_0, mprapi/PMPR_SERVER_0, rras.mpr_server_0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

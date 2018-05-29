@@ -1,16 +1,16 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELINIT
 title: VIRTUALCHANNELINIT
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a client DLL's access to Remote Desktop Services virtual channels.
 old-location: termserv\virtualchannelinit.htm
 old-project: TermServ
 ms.assetid: 3dae59dc-e70f-450e-a324-a4d68341a72e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VirtualChannelInit, VirtualChannelInit callback, VirtualChannelInit callback function [Remote Desktop Services], _win32_virtualchannelinit, cchannel/VirtualChannelInit, termserv.virtualchannelinit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: cchannel.h
 req.include-header: 

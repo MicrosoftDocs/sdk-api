@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.Initialize
 title: INameSpaceTreeControl::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an INameSpaceTreeControl object.
 old-location: shell\INameSpaceTreeControl_Initialize.htm
 old-project: shell
 ms.assetid: dfc602bd-6e4e-492d-8bf4-1499319adee7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],Initialize method, INameSpaceTreeControl.Initialize, INameSpaceTreeControl::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_Initialize, shell.INameSpaceTreeControl_Initialize, shobjidl_core/INameSpaceTreeControl::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

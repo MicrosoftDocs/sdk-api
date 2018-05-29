@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostViewCallback.AllocateForPostView
 title: IWMWriterPostViewCallback::AllocateForPostView
-author: windows-driver-content
+author: windows-sdk-content
 description: The AllocateForPostView method allocates a buffer for use in postviewing operations. The application implements this method.
 old-location: wmformat\iwmwriterpostviewcallback_allocateforpostview.htm
 old-project: wmformat
 ms.assetid: e48132c4-b222-4401-99b3-7906c0df4ec1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AllocateForPostView, AllocateForPostView method [windows Media Format], AllocateForPostView method [windows Media Format],IWMWriterPostViewCallback interface, IWMWriterPostViewCallback interface [windows Media Format],AllocateForPostView method, IWMWriterPostViewCallback.AllocateForPostView, IWMWriterPostViewCallback::AllocateForPostView, IWMWriterPostViewCallbackAllocateForPostView, wmformat.iwmwriterpostviewcallback_allocateforpostview, wmsdkidl/IWMWriterPostViewCallback::AllocateForPostView
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

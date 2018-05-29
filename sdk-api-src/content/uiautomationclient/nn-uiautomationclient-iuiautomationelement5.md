@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement5
 title: IUIAutomationElement5
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IUIAutomationElement4 interface to provide access to current and cached landmark data.
 old-location: winauto\uiauto_IUIAutomationElement5.htm
 old-project: WinAuto
 ms.assetid: 9E3DE7EE-E569-4AE6-8A55-C9CDB28C51E5
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationElement5, IUIAutomationElement5 interface [Windows Accessibility], IUIAutomationElement5 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement5, winauto.uiauto_IUIAutomationElement5
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

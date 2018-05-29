@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupGetFileCompressionInfoW
 title: SetupGetFileCompressionInfoW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupGetFileCompressionInfo function examines a physical file to determine if it is compressed and gets its full path, size, and the size of the uncompressed target file.
 old-location: setup\setupgetfilecompressioninfo.htm
 old-project: SetupApi
 ms.assetid: 68bcfbb3-f0ba-412b-9ed2-e2139099fcf2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupGetFileCompressionInfo, SetupGetFileCompressionInfo function [Setup API], SetupGetFileCompressionInfoA, SetupGetFileCompressionInfoW, _setupapi_setupgetfilecompressioninfo, setup.setupgetfilecompressioninfo, setupapi/SetupGetFileCompressionInfo, setupapi/SetupGetFileCompressionInfoA, setupapi/SetupGetFileCompressionInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

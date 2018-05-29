@@ -1,16 +1,16 @@
 ---
 UID: NS:bcrypt._BCRYPT_MULTI_HASH_OPERATION
 title: "_BCRYPT_MULTI_HASH_OPERATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: A BCRYPT_MULTI_HASH_OPERATION structure defines a single operation in a multi-hash operation.
 old-location: security\bcrypt_multi_hash_operation.htm
 old-project: SecCNG
 ms.assetid: B0418A07-D2EE-4346-9971-676C8FB08FAA
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_MULTI_HASH_OPERATION, BCRYPT_MULTI_HASH_OPERATION structure [Security], _BCRYPT_MULTI_HASH_OPERATION, bcrypt/BCRYPT_MULTI_HASH_OPERATION, security.bcrypt_multi_hash_operation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

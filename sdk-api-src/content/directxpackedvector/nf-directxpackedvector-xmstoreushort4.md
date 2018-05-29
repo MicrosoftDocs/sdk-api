@@ -1,16 +1,16 @@
 ---
 UID: NF:directxpackedvector.XMStoreUShort4
 title: XMStoreUShort4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores an XMVECTOR in an XMUSHORT4.
 old-location: dxmath\xmstoreushort4.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUShort4(XMUSHORT4@,XMVECTOR)
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: DirectX::PackedVector.XMStoreUShort4, XMStoreUShort4, XMStoreUShort4 method [DirectX Math Support APIs], dxmath.xmstoreushort4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmpservices.IWMPConvert.ConvertFile
 title: IWMPConvert::ConvertFile
-author: windows-driver-content
+author: windows-sdk-content
 description: The ConvertFile method is implemented by a conversion plug-in and called by Windows Media Player to enable a conversion plug-in to convert a digital media file into ASF.
 old-location: wmp\iwmpconvert_convertfile.htm
 old-project: WMP
 ms.assetid: 69ca3863-94ec-457f-9f93-aebb5b80c8a9
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ConvertFile, ConvertFile method [Windows Media Player], ConvertFile method [Windows Media Player],IWMPConvert interface, IWMPConvert interface [Windows Media Player],ConvertFile method, IWMPConvert.ConvertFile, IWMPConvert::ConvertFile, IWMPConvertConvertFile, wmp.iwmpconvert_convertfile, wmpservices/IWMPConvert::ConvertFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 

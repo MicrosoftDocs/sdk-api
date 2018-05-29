@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.PolyPolyline
 title: PolyPolyline function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PolyPolyline function draws multiple series of connected line segments.
 old-location: gdi\polypolyline.htm
 old-project: gdi
 ms.assetid: 71a9273f-321b-4efb-ac73-5979f8151d05
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PolyPolyline, PolyPolyline function [Windows GDI], _win32_PolyPolyline, gdi.polypolyline, wingdi/PolyPolyline
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

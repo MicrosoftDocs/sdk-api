@@ -1,16 +1,16 @@
 ---
 UID: NS:http._HTTP_LOG_DATA
 title: "_HTTP_LOG_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a value that specifies the type of the log data.
 old-location: http\http_log_data.htm
 old-project: Http
 ms.assetid: 31598e37-d487-4ef0-9443-e704cc60a6b2
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_LOG_DATA, HTTP_LOG_DATA, HTTP_LOG_DATA structure [HTTP], PHTTP_LOG_DATA, PHTTP_LOG_DATA structure pointer [HTTP], _HTTP_LOG_DATA, http.http_log_data, http/HTTP_LOG_DATA, http/PHTTP_LOG_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsAccessControlList
 title: IADsAccessControlList
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsAccessControlList interface is a dual interface that manages individual access-control entries (ACEs).
 old-location: adsi\iadsaccesscontrollist.htm
 old-project: ADSI
 ms.assetid: de92d9cc-bc9d-4dc5-aa79-01f4d3050c35
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: AccessControlList, IADsAccessControlList, IADsAccessControlList interface [ADSI], IADsAccessControlList interface [ADSI],described, _ds_iadsaccesscontrollist, adsi.iadsaccesscontrollist, iads/IADsAccessControlList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

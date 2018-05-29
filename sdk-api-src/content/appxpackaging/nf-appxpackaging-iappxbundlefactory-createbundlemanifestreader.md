@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxBundleFactory.CreateBundleManifestReader
 title: IAppxBundleFactory::CreateBundleManifestReader
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a read-only bundle manifest object from a standalone stream to AppxBundleManifest.xml.
 old-location: appxpkg\iappxbundlefactory_createbundlemanifestreader.htm
 old-project: appxpkg
 ms.assetid: 8D537830-A8AA-4652-B6F2-F7A545B8877E
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: CreateBundleManifestReader, CreateBundleManifestReader method [App packaging and management], CreateBundleManifestReader method [App packaging and management],IAppxBundleFactory interface, IAppxBundleFactory interface [App packaging and management],CreateBundleManifestReader method, IAppxBundleFactory.CreateBundleManifestReader, IAppxBundleFactory::CreateBundleManifestReader, appxpackaging/IAppxBundleFactory::CreateBundleManifestReader, appxpkg.iappxbundlefactory_createbundlemanifestreader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

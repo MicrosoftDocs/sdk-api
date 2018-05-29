@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.ILocator.put_InnerFECRate
 title: ILocator::put_InnerFECRate
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_InnerFECRate method sets the inner FEC rate.
 old-location: mstv\ilocator_put_innerfecrate.htm
 old-project: mstv
 ms.assetid: 009d1ddf-73ae-432b-adf2-a5a0067345fa
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDigitalLocatorput_InnerFECRate, ILocator interface [Microsoft TV Technologies],put_InnerFECRate method, ILocator.put_InnerFECRate, ILocator::put_InnerFECRate, mstv.ilocator_put_innerfecrate, put_InnerFECRate, put_InnerFECRate method [Microsoft TV Technologies], put_InnerFECRate method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_InnerFECRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

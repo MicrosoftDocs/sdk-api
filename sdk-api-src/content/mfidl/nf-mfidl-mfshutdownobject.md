@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFShutdownObject
 title: MFShutdownObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Shuts down a Media Foundation object and releases all resources associated with the object.
 old-location: mf\mfshutdownobject.htm
 old-project: medfound
 ms.assetid: a7dc3d4a-f21e-4af8-bee0-2d5f2cf28587
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFShutdownObject, MFShutdownObject function [Media Foundation], a7dc3d4a-f21e-4af8-bee0-2d5f2cf28587, mf.mfshutdownobject, mfidl/MFShutdownObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

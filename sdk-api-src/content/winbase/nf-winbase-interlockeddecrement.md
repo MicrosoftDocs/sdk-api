@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.InterlockedDecrement
 title: InterlockedDecrement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrements (decreases by one) the value of the specified 32-bit variable as an atomic operation.
 old-location: base\interlockeddecrement.htm
 old-project: Sync
 ms.assetid: d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InterlockedDecrement, InterlockedDecrement function, _win32_interlockeddecrement, base.interlockeddecrement, winbase/InterlockedDecrement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

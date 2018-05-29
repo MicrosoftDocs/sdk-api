@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_ARCHITECTURE1
 title: D3D12_FEATURE_DATA_ARCHITECTURE1
-author: windows-driver-content
+author: windows-sdk-content
 description: Provide detail about the adapter architecture, helping applications better optimize for certain adapter properties.
 old-location: direct3d12\d3d12_feature_data_architecture1.htm
 old-project: direct3d12
 ms.assetid: 635091FE-2756-4648-958E-0C13BDD50851
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_FEATURE_DATA_ARCHITECTURE1, D3D12_FEATURE_DATA_ARCHITECTURE1 structure, d3d12/D3D12_FEATURE_DATA_ARCHITECTURE1, direct3d12.d3d12_feature_data_architecture1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:lmshare._SESSION_INFO_0
 title: "_SESSION_INFO_0"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the name of the computer that established the session.
 old-location: fs\session_info_0_str.htm
 old-project: NetShare
 ms.assetid: 6b39df47-f25c-41dd-ba15-6e6806c4ec89
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPSESSION_INFO_0, *PSESSION_INFO_0, LPSESSION_INFO_0, LPSESSION_INFO_0 structure pointer [Files], PSESSION_INFO_0, PSESSION_INFO_0 structure pointer [Files], SESSION_INFO_0, SESSION_INFO_0 structure [Files], _SESSION_INFO_0, _win32_session_info_0_str, fs.session_info_0_str, lmshare/LPSESSION_INFO_0, lmshare/PSESSION_INFO_0, lmshare/SESSION_INFO_0, netmgmt.session_info_0_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h

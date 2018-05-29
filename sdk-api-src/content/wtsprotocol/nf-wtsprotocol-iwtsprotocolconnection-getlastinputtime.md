@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetLastInputTime
 title: IWTSProtocolConnection::GetLastInputTime
-author: windows-driver-content
+author: windows-sdk-content
 description: IWTSProtocolConnection::GetLastInputTime is no longer available. Instead, use IWRdsProtocolConnection::GetLastInputTime.
 old-location: termserv\iwtsprotocolconnection_getlastinputtime.htm
 old-project: TermServ
 ms.assetid: 8daecbde-8866-4ae9-a07c-32d28d321392
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetLastInputTime, GetLastInputTime method [Remote Desktop Services], GetLastInputTime method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetLastInputTime method, IWTSProtocolConnection.GetLastInputTime, IWTSProtocolConnection::GetLastInputTime, termserv.iwtsprotocolconnection_getlastinputtime, wtsprotocol/IWTSProtocolConnection::GetLastInputTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

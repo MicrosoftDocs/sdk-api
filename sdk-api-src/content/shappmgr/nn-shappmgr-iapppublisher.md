@@ -1,16 +1,16 @@
 ---
 UID: NN:shappmgr.IAppPublisher
 title: IAppPublisher
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods for publishing applications through Add/Remove Programs in Control Panel. This is the principal interface implemented for this purpose.
 old-location: shell\IAppPublisher.htm
 old-project: shell
 ms.assetid: 5391444a-53b6-48c9-9a94-d045b3f97182
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAppPublisher, IAppPublisher interface [Windows Shell], IAppPublisher interface [Windows Shell],described, inet_IAppPublisher, shappmgr/IAppPublisher, shell.IAppPublisher
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shappmgr.h
 req.include-header: 

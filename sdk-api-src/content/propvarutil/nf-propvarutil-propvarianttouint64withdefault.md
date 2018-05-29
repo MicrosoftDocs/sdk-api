@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt64WithDefault
 title: PropVariantToUInt64WithDefault function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts ULONGLONG value from a PROPVARIANT structure. If no value exists, then the specified default value is returned.
 old-location: properties\PropVariantToUInt64WithDefault.htm
 old-project: properties
 ms.assetid: 8ca0e25e-6a3f-41ff-9a4a-7cca9a02d07c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToUInt64WithDefault, PropVariantToUInt64WithDefault function [Windows Properties], properties.PropVariantToUInt64WithDefault, propvarutil/PropVariantToUInt64WithDefault, shell.PropVariantToUInt64WithDefault, shell_PropVariantToUInt64WithDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

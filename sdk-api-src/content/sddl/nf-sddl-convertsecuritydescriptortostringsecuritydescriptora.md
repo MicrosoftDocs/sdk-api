@@ -1,16 +1,16 @@
 ---
 UID: NF:sddl.ConvertSecurityDescriptorToStringSecurityDescriptorA
 title: ConvertSecurityDescriptorToStringSecurityDescriptorA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a security descriptor to a string format. You can use the string format to store or transmit the security descriptor.
 old-location: security\convertsecuritydescriptortostringsecuritydescriptor.htm
 old-project: SecAuthZ
 ms.assetid: 36140833-8e30-4c32-a88a-c10751b6c223
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ConvertSecurityDescriptorToStringSecurityDescriptor, ConvertSecurityDescriptorToStringSecurityDescriptor function [Security], ConvertSecurityDescriptorToStringSecurityDescriptorA, ConvertSecurityDescriptorToStringSecurityDescriptorW, _win32_convertsecuritydescriptortostringsecuritydescriptor, sddl/ConvertSecurityDescriptorToStringSecurityDescriptor, sddl/ConvertSecurityDescriptorToStringSecurityDescriptorA, sddl/ConvertSecurityDescriptorToStringSecurityDescriptorW, security.convertsecuritydescriptortostringsecuritydescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sddl.h
 req.include-header: 

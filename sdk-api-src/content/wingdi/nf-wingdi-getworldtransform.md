@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetWorldTransform
 title: GetWorldTransform function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetWorldTransform function retrieves the current world-space to page-space transformation.
 old-location: gdi\getworldtransform.htm
 old-project: gdi
 ms.assetid: 72945b1e-144e-4724-bf08-6f971f8adb43
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetWorldTransform, GetWorldTransform function [Windows GDI], _win32_GetWorldTransform, gdi.getworldtransform, wingdi/GetWorldTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

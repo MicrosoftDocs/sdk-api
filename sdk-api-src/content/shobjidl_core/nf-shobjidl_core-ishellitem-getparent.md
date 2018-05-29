@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItem.GetParent
 title: IShellItem::GetParent
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the parent of an IShellItem object.
 old-location: shell\IShellItem_GetParent.htm
 old-project: shell
 ms.assetid: d62123af-2ae2-40f2-8581-c95b18491f20
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetParent, GetParent method [Windows Shell], GetParent method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],GetParent method, IShellItem.GetParent, IShellItem::GetParent, _win32_IShellItem_GetParent, shell.IShellItem_GetParent, shobjidl_core/IShellItem::GetParent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

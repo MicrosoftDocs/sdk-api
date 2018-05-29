@@ -1,16 +1,16 @@
 ---
 UID: NS:mfapi._MF_FLOAT2
 title: "_MF_FLOAT2"
-author: windows-driver-content
+author: windows-sdk-content
 description: A vector with two components.
 old-location: mf\mf_float2.htm
 old-project: medfound
 ms.assetid: 88855E0D-382D-44F5-A4D9-2A65EF4F580C
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_FLOAT2, MF_FLOAT2 structure [Media Foundation], PMF_FLOAT2, PMF_FLOAT2 structure pointer [Media Foundation], _MF_FLOAT2, mf.mf_float2, mfapi/MF_FLOAT2, mfapi/PMF_FLOAT2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfapi.h
 req.include-header: 

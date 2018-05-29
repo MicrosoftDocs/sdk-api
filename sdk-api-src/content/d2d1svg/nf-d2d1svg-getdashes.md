@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1svg.GetDashes
 title: GetDashes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets dashes from the array.
 old-location: direct2d\id2d1svgstrokedasharray_getdashes_overload.htm
 old-project: Direct2D
 ms.assetid: d244b59c-2681-1da9-9b89-534b4f3be543
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: GetDashes, GetDashes methods [Direct2D], ID2D1SvgStrokeDashArray::GetDashes, d2d1svg/GetDashes, direct2d.id2d1svgstrokedasharray_getdashes_overload
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1svg.h
 req.include-header: 

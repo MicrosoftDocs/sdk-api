@@ -1,16 +1,16 @@
 ---
 UID: NN:xaudio2.IXAudio2EngineCallback
 title: IXAudio2EngineCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: The IXAudio2EngineCallback interface contains methods that notify the client when certain events happen in the IXAudio2 engine.
 old-location: xaudio2\ixaudio2enginecallback.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2enginecallback.IXAudio2EngineCallback
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: IXAudio2EngineCallback, IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs], IXAudio2EngineCallback interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2enginecallback, xaudio2/IXAudio2EngineCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xaudio2.h
 req.include-header: 

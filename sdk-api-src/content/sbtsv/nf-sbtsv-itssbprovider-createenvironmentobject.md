@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateEnvironmentObject
 title: ITsSbProvider::CreateEnvironmentObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an ITsSbEnvironment environment object.
 old-location: termserv\itssbprovider_createenvironmentobject.htm
 old-project: TermServ
 ms.assetid: 11570f40-979e-4caf-81af-f8d16ec61391
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateEnvironmentObject, CreateEnvironmentObject method [Remote Desktop Services], CreateEnvironmentObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateEnvironmentObject method, ITsSbProvider.CreateEnvironmentObject, ITsSbProvider::CreateEnvironmentObject, sbtsv/ITsSbProvider::CreateEnvironmentObject, termserv.itssbprovider_createenvironmentobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

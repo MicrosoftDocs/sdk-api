@@ -1,16 +1,16 @@
 ---
 UID: NN:ehstorapi.IEnhancedStorageSiloAction
 title: IEnhancedStorageSiloAction
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface as a point of access for actions involving IEEE 1667 silos.
 old-location: enstor\ienhancedstoragesiloaction.htm
 old-project: enstor
 ms.assetid: 6deb7e22-f153-45fd-98ea-53a2e5692df7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IEnhancedStorageSiloAction, IEnhancedStorageSiloAction interface [Enhanced Storage], IEnhancedStorageSiloAction interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageSiloAction, enstor.ienhancedstoragesiloaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ehstorapi.h
 req.include-header: 

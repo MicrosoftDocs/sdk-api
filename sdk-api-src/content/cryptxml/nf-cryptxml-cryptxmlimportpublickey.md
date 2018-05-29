@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptxml.CryptXmlImportPublicKey
 title: CryptXmlImportPublicKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Imports the public key specified by the supplied handle.
 old-location: security\cryptxmlimportpublickey.htm
 old-project: SecCrypto
 ms.assetid: 599e8bbd-a41f-4781-850d-6590d22d9c3c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CryptXmlImportPublicKey, CryptXmlImportPublicKey function [Security], cryptxml/CryptXmlImportPublicKey, security.cryptxmlimportpublickey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

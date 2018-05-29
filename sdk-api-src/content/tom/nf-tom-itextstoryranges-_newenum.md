@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextStoryRanges._NewEnum
 title: ITextStoryRanges::_NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IEnumVARIANT enumerator interface for this collection of stories.
 old-location: controls\ITextStoryRanges__NewEnum.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\_newenum.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextStoryRanges interface [Windows Controls],_NewEnum method, ITextStoryRanges._NewEnum, ITextStoryRanges::_NewEnum, _NewEnum, _NewEnum method [Windows Controls], _NewEnum method [Windows Controls],ITextStoryRanges interface, _win32_ITextStoryRanges__NewEnum, _win32_ITextStoryRanges__NewEnum_cpp, controls.ITextStoryRanges__NewEnum, controls._win32_ITextStoryRanges__NewEnum, tom/ITextStoryRanges::_NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

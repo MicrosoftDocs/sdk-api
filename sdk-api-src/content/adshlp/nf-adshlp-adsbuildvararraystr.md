@@ -1,16 +1,16 @@
 ---
 UID: NF:adshlp.ADsBuildVarArrayStr
 title: ADsBuildVarArrayStr function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADsBuildVarArrayStr function builds a variant array from an array of Unicode strings.
 old-location: adsi\adsbuildvararraystr.htm
 old-project: ADSI
 ms.assetid: 7258a840-691a-4d9b-ab33-bcdf30fd1331
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADsBuildVarArrayStr, ADsBuildVarArrayStr function [ADSI], _ds_adsbuildvararraystr, adshlp/ADsBuildVarArrayStr, adsi.adsbuildvararraystr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 

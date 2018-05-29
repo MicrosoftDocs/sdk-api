@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.RtlCharToInteger
 title: RtlCharToInteger function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a character string to an integer.
 old-location: winprog\rtlchartointeger.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlchartointeger.htm
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtlCharToInteger, RtlCharToInteger function [Windows API], winprog.rtlchartointeger, winternl/RtlCharToInteger, winui.rtlchartointeger
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

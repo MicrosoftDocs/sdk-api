@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll.put_RootStoreFlags
 title: IEnroll::put_RootStoreFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the registry location used for the root store.
 old-location: security\ienroll4_rootstoreflags.htm
 old-project: SecCrypto
 ms.assetid: fa4640db-f3e5-4fe0-a696-26b5e13b7dd1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnroll interface [Security],RootStoreFlags property, IEnroll.RootStoreFlags, IEnroll.put_RootStoreFlags, IEnroll::RootStoreFlags, IEnroll::get_RootStoreFlags, IEnroll::put_RootStoreFlags, RootStoreFlags property [Security], RootStoreFlags property [Security],IEnroll interface, put_RootStoreFlags, security.ienroll4_rootstoreflags, xenroll/IEnroll::RootStoreFlags, xenroll/IEnroll::get_RootStoreFlags, xenroll/IEnroll::put_RootStoreFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

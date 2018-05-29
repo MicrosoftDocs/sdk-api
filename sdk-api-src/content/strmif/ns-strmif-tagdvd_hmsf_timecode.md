@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.tagDVD_HMSF_TIMECODE
 title: tagDVD_HMSF_TIMECODE
-author: windows-driver-content
+author: windows-sdk-content
 description: The DVD_HMSF_TIMECODE structure gives the hours, minutes, seconds, and frames in a DVD timecode.
 old-location: dshow\dvd_hmsf_timecode.htm
 old-project: DirectShow
 ms.assetid: 8f2990f6-a8f5-4b16-ae30-d51ea55496ea
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_HMSF_TIMECODE, DVD_HMSF_TIMECODE structure [DirectShow], DVD_HMSF_TIMECODEStructure, dshow.dvd_hmsf_timecode, strmif/DVD_HMSF_TIMECODE, tagDVD_HMSF_TIMECODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

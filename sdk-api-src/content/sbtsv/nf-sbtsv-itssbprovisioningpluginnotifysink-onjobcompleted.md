@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioningPluginNotifySink.OnJobCompleted
 title: ITsSbProvisioningPluginNotifySink::OnJobCompleted
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the job is complete.
 old-location: termserv\itssbprovisioningpluginnotifysink_onjobcompleted.htm
 old-project: TermServ
 ms.assetid: 7d0399c8-2161-4d6e-8c14-7fd5bc2757b8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],OnJobCompleted method, ITsSbProvisioningPluginNotifySink.OnJobCompleted, ITsSbProvisioningPluginNotifySink::OnJobCompleted, OnJobCompleted, OnJobCompleted method [Remote Desktop Services], OnJobCompleted method [Remote Desktop Services],ITsSbProvisioningPluginNotifySink interface, sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCompleted, termserv.itssbprovisioningpluginnotifysink_onjobcompleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

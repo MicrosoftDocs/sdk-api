@@ -1,16 +1,16 @@
 ---
 UID: NN:searchapi.IUrlAccessor
 title: IUrlAccessor
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for processing an individual item in a content source whose URL is provided by the gatherer to the filter host.
 old-location: search\_search_IUrlAccessor.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\iurlaccessor.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IUrlAccessor, IUrlAccessor interface [search], IUrlAccessor interface [search],described, _search_IUrlAccessor, search._search_IUrlAccessor, searchapi/IUrlAccessor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

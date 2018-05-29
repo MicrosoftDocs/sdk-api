@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi.IDXGIKeyedMutex.ReleaseSync
 title: IDXGIKeyedMutex::ReleaseSync
-author: windows-driver-content
+author: windows-sdk-content
 description: Using a key, releases exclusive rendering access to a shared resource.
 old-location: direct3ddxgi\idxgikeyedmutex_releasesync.htm
 old-project: direct3ddxgi
 ms.assetid: 324741c9-33f2-4420-8c3f-4984e2ca0962
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: 33872a53-bb15-32f2-c1f4-cfc8bdbac157, IDXGIKeyedMutex interface [DXGI],ReleaseSync method, IDXGIKeyedMutex.ReleaseSync, IDXGIKeyedMutex::ReleaseSync, ReleaseSync, ReleaseSync method [DXGI], ReleaseSync method [DXGI],IDXGIKeyedMutex interface, direct3ddxgi.idxgikeyedmutex_releasesync, dxgi/IDXGIKeyedMutex::ReleaseSync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

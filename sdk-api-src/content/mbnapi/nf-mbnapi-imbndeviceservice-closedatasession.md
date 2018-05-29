@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.CloseDataSession
 title: IMbnDeviceService::CloseDataSession
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the data session to a device service on a Mobile Broadband device.
 old-location: mbn\imbndeviceservice_closedatasession.htm
 old-project: mbn
 ms.assetid: E00322FC-05DF-4342-A182-E1F4F40FBD60
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: CloseDataSession, CloseDataSession method [Microsoft Broadband Networks], CloseDataSession method [Microsoft Broadband Networks],IMbnDeviceService interface, IMbnDeviceService interface [Microsoft Broadband Networks],CloseDataSession method, IMbnDeviceService.CloseDataSession, IMbnDeviceService::CloseDataSession, mbn.imbndeviceservice_closedatasession, mbnapi/IMbnDeviceService::CloseDataSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

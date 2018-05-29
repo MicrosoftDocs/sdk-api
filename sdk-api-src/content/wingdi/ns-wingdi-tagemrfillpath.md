@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRFILLPATH
 title: tagEMRFILLPATH
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRFILLPATH,&#160;EMRSTROKEANDFILLPATH,&#160; and EMRSTROKEPATH structures contain members for the FillPath, StrokeAndFillPath, and StrokePath enhanced metafile records.
 old-location: gdi\emrfillpath__emrstrokeandfillpath__emrstrokepath.htm
 old-project: gdi
 ms.assetid: 9911e0fb-2e0d-4684-bff6-fc876ab8185d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRFILLPATH, *PEMRSTROKEANDFILLPATH, *PEMRSTROKEPATH, EMRFILLPATH, EMRFILLPATH structure [Windows GDI], EMRFILLPATH,EMRSTROKEANDFILLPATH,EMRSTROKEPATH, EMRFILLPATH,EMRSTROKEANDFILLPATH,EMRSTROKEPATH structure [Windows GDI], EMRSTROKEANDFILLPATH, EMRSTROKEANDFILLPATH structure [Windows GDI], EMRSTROKEPATH, EMRSTROKEPATH structure [Windows GDI], PEMRFILLPATH, PEMRFILLPATH structure pointer [Windows GDI], PEMRSTROKEANDFILLPATH, PEMRSTROKEANDFILLPATH structure pointer [Windows GDI], PEMRSTROKEPATH, PEMRSTROKEPATH structure pointer [Windows GDI], _win32_EMRFILLPATH_str, gdi.emrfillpath__emrstrokeandfillpath__emrstrokepath, tagEMRFILLPATH, wingdi/EMRFILLPATH,EMRSTROKEANDFILLPATH,EMRSTROKEPATH, wingdi/EMRSTROKEANDFILLPATH, wingdi/EMRSTROKEPATH, wingdi/PEMRFILLPATH, wingdi/PEMRSTROKEANDFILLPATH, wingdi/PEMRSTROKEPATH"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

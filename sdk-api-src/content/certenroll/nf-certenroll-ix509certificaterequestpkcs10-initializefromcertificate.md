@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.InitializeFromCertificate
 title: IX509CertificateRequestPkcs10::InitializeFromCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the certificate request by using an existing certificate.
 old-location: security\ix509certificaterequestpkcs10_initializefromcertificate_method.htm
 old-project: SecCertEnroll
 ms.assetid: 3f390abc-5c1c-4f9c-a5f4-4d6fec065acf
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],InitializeFromCertificate method, IX509CertificateRequestPkcs10.InitializeFromCertificate, IX509CertificateRequestPkcs10::InitializeFromCertificate, InheritDefault, InheritExtensionsFlag, InheritNewDefaultKey, InheritNewSimilarKey, InheritPrivateKey, InheritPublicKey, InheritRenewalCertificateFlag, InheritSubjectAltNameFlag, InheritSubjectFlag, InheritTemplateFlag, InheritValidityPeriodFlag, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::InitializeFromCertificate, security.ix509certificaterequestpkcs10_initializefromcertificate_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

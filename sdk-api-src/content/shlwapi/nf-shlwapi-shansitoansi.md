@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHAnsiToAnsi
 title: SHAnsiToAnsi function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies an ANSI string.
 old-location: shell\SHAnsiToAnsi.htm
 old-project: shell
 ms.assetid: e57142ca-3098-4118-aac0-89724f711872
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHAnsiToAnsi, SHAnsiToAnsi function [Windows Shell], _win32_SHAnsiToAnsi, shell.SHAnsiToAnsi, shlwapi/SHAnsiToAnsi
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

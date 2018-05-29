@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupSetDirectoryIdExA
 title: SetupSetDirectoryIdExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupSetDirectoryIdEx function associates a directory identifier in an INF file with a specific directory.
 old-location: setup\setupsetdirectoryidex.htm
 old-project: SetupApi
 ms.assetid: 0f8f3fa0-cb98-42da-82dd-9114e6753e61
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupSetDirectoryIdEx, SetupSetDirectoryIdEx function [Setup API], SetupSetDirectoryIdExA, SetupSetDirectoryIdExW, setup.setupsetdirectoryidex, setupapi/SetupSetDirectoryIdEx, setupapi/SetupSetDirectoryIdExA, setupapi/SetupSetDirectoryIdExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

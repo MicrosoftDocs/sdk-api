@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitationManager.CreateInvitation
 title: IRDPSRAPIInvitationManager::CreateInvitation
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an invitation.
 old-location: rdp\irdpsrapiinvitationmanager_createinvitation.htm
 old-project: Rdp
 ms.assetid: 169d220b-3a2a-490e-9c1c-03a707d59f6c
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: CreateInvitation, CreateInvitation method [RDP], CreateInvitation method [RDP],IRDPSRAPIInvitationManager interface, IRDPSRAPIInvitationManager interface [RDP],CreateInvitation method, IRDPSRAPIInvitationManager.CreateInvitation, IRDPSRAPIInvitationManager::CreateInvitation, rdp.irdpsrapiinvitationmanager_createinvitation, rdpencomapi/IRDPSRAPIInvitationManager::CreateInvitation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:docobj.tagPAGERANGE
 title: tagPAGERANGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a range of pages.
 old-location: com\pagerange.htm
 old-project: com
 ms.assetid: b37d57e6-1634-4676-9f31-e3db2835983f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PAGERANGE, PAGERANGE structure [COM], _ctrl_PAGERANGE, com.pagerange, docobj/PAGERANGE, tagPAGERANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: docobj.h
 req.include-header: 

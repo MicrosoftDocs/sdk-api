@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestPackageInfo2
 title: IAppxBundleManifestPackageInfo2
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a read-only object model for a &lt;Package&gt; element in a bundle package manifest.
 old-location: appxpkg\iappxbundlemanifestpackageinfo2.htm
 old-project: appxpkg
 ms.assetid: 036CD1E1-F4D7-46B9-A287-2728BA45348A
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxBundleManifestPackageInfo2, IAppxBundleManifestPackageInfo2 interface [App packaging and management], IAppxBundleManifestPackageInfo2 interface [App packaging and management],described, appxpackaging/IAppxBundleManifestPackageInfo2, appxpkg.iappxbundlemanifestpackageinfo2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

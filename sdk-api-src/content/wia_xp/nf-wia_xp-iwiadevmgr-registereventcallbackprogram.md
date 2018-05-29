@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.RegisterEventCallbackProgram
 title: IWiaDevMgr::RegisterEventCallbackProgram
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWiaDevMgr::RegisterEventCallbackProgram method registers an application to receive device events. It is primarily provided for backward compatibility with applications that were not written for WIA.
 old-location: wia\_wia_IWiaDevMgr_RegisterEventCallbackProgram.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\registereventcallbackprogram.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IWiaDevMgr interface [WIA],RegisterEventCallbackProgram method, IWiaDevMgr.RegisterEventCallbackProgram, IWiaDevMgr::RegisterEventCallbackProgram, RegisterEventCallbackProgram, RegisterEventCallbackProgram method [WIA], RegisterEventCallbackProgram method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_RegisterEventCallbackProgram, wia._wia_IWiaDevMgr_RegisterEventCallbackProgram, wia_xp/IWiaDevMgr::RegisterEventCallbackProgram
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

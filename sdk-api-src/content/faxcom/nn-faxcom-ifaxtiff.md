@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcom.IFaxTiff
 title: IFaxTiff
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxTiff dual interface is used by a fax client application to retrieve information about FaxTiff objects.
 old-location: fax\_mfax_ifaxtiff.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3zhi.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxTiff, IFaxTiff interface [Fax Service], IFaxTiff interface [Fax Service],described, _mfax_ifaxtiff, fax._mfax_ifaxtiff, faxcom/IFaxTiff
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcom.h
 req.include-header: 

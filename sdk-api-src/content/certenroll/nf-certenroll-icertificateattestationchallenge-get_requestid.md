@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertificateAttestationChallenge.get_RequestID
 title: ICertificateAttestationChallenge::get_RequestID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the request ID from the Certificate Management over CMS (CMC) response.
 old-location: security\icertificateattestationchallenge_requestid.htm
 old-project: SecCertEnroll
 ms.assetid: c3ca69cf-12e0-4341-b3a6-f668155ea3ff
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertificateAttestationChallenge interface [Security],RequestID property, ICertificateAttestationChallenge.RequestID, ICertificateAttestationChallenge.get_RequestID, ICertificateAttestationChallenge::RequestID, ICertificateAttestationChallenge::get_RequestID, RequestID property [Security], RequestID property [Security],ICertificateAttestationChallenge interface, certenroll/ICertificateAttestationChallenge::RequestID, certenroll/ICertificateAttestationChallenge::get_RequestID, get_RequestID, security.icertificateattestationchallenge_requestid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

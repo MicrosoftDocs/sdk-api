@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsSubSystemNaming
 title: IVdsSubSystemNaming
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method to name subsystems for a class implementing the IVdsSubSystem interface.
 old-location: base\ivdssubsystemnaming.htm
 old-project: VDS
 ms.assetid: 1f507c6c-8eae-4c32-805f-5dbc7ba4a81e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
-ms.keywords: IVdsSubSystemNaming, IVdsSubSystemNaming interface [VDS], IVdsSubSystemNaming interface [VDS],described, base.ivdssubsystemnaming, vds/IVdsSubSystemNaming
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IVdsSubSystemNaming, IVdsSubSystemNaming interface [VDS], IVdsSubSystemNaming interface [VDS],described, base.ivdssubsystemnaming, vds/IVdsSubSystemNaming, vdshwprv/IVdsSubSystemNaming
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

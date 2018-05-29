@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationInteractionEventHandler.OnInteraction
 title: IDirectManipulationInteractionEventHandler::OnInteraction
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when an interaction is detected.
 old-location: directmanipulation\idirectmanipulationinteractioneventhandler_oninteraction.htm
 old-project: directmanipulation
 ms.assetid: 75822986-5691-4E2B-B6DB-A91D98B39BE8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationInteractionEventHandler interface [Direct Manipulation],OnInteraction method, IDirectManipulationInteractionEventHandler.OnInteraction, IDirectManipulationInteractionEventHandler::OnInteraction, OnInteraction, OnInteraction method [Direct Manipulation], OnInteraction method [Direct Manipulation],IDirectManipulationInteractionEventHandler interface, directmanipulation.idirectmanipulationinteractioneventhandler_oninteraction, directmanipulation/IDirectManipulationInteractionEventHandler::OnInteraction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

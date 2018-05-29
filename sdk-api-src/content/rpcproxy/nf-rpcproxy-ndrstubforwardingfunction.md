@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcproxy.NdrStubForwardingFunction
 title: NdrStubForwardingFunction function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrStubForwardingFunction function is the entry point for server-side object methods that are defined in a base interface.
 old-location: rpc\ndrstubforwardingfunction.htm
 old-project: Rpc
 ms.assetid: 05d69090-4274-4dad-8fef-89db247d0c09
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrStubForwardingFunction, NdrStubForwardingFunction function [RPC], rpc.ndrstubforwardingfunction, rpcproxy/NdrStubForwardingFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

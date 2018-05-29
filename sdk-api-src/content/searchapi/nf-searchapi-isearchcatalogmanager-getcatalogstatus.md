@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetCatalogStatus
 title: ISearchCatalogManager::GetCatalogStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the status of the catalog.
 old-location: search\_search_ISearchCatalogManager_GetCatalogStatus.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getcatalogstatus.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCatalogStatus, GetCatalogStatus method [search], GetCatalogStatus method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetCatalogStatus method, ISearchCatalogManager.GetCatalogStatus, ISearchCatalogManager::GetCatalogStatus, _search_ISearchCatalogManager_GetCatalogStatus, search._search_ISearchCatalogManager_GetCatalogStatus, searchapi/ISearchCatalogManager::GetCatalogStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

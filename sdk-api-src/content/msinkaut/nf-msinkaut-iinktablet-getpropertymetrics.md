@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkTablet.GetPropertyMetrics
 title: IInkTablet::GetPropertyMetrics
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the metrics data for a specified property.
 old-location: tablet\iinktablet_getpropertymetrics.htm
 old-project: tablet
 ms.assetid: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 9656bb56-01aa-4e9b-a3ad-4fbf117cdfeb, GetPropertyMetrics, GetPropertyMetrics method [Tablet PC], GetPropertyMetrics method [Tablet PC],IInkTablet interface, IInkTablet interface [Tablet PC],GetPropertyMetrics method, IInkTablet.GetPropertyMetrics, IInkTablet::GetPropertyMetrics, msinkaut/IInkTablet::GetPropertyMetrics, tablet.iinktablet_getpropertymetrics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

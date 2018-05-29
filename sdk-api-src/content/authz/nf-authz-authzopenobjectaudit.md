@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzOpenObjectAudit
 title: AuthzOpenObjectAudit function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the system access control list (SACL) of the specified security descriptor and generates any appropriate audits specified by that SACL.
 old-location: security\authzopenobjectaudit.htm
 old-project: SecAuthZ
 ms.assetid: 39c6f0bc-72bf-4a82-b417-c0c5b2626344
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthzOpenObjectAudit, AuthzOpenObjectAudit function [Security], _win32_authzopenobjectaudit, authz/AuthzOpenObjectAudit, security.authzopenobjectaudit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

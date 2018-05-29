@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.RevertToSnapshot
 title: IVssBackupComponents::RevertToSnapshot
-author: windows-driver-content
+author: windows-sdk-content
 description: Reverts a volume to a previous shadow copy.
 old-location: base\ivssbackupcomponents_reverttosnapshot.htm
 old-project: VSS
 ms.assetid: 9976195e-3448-4b0e-82b2-1ae061c75b17
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssBackupComponents interface [VSS],RevertToSnapshot method, IVssBackupComponents.RevertToSnapshot, IVssBackupComponents::RevertToSnapshot, RevertToSnapshot, RevertToSnapshot method [VSS], RevertToSnapshot method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_reverttosnapshot, base.ivssbackupcomponents_reverttosnapshot, vsbackup/IVssBackupComponents::RevertToSnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

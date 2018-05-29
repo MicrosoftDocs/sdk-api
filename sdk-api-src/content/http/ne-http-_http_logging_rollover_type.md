@@ -1,16 +1,16 @@
 ---
 UID: NE:http._HTTP_LOGGING_ROLLOVER_TYPE
 title: "_HTTP_LOGGING_ROLLOVER_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the log file rollover types.
 old-location: http\http_logging_rollover_type.htm
 old-project: Http
 ms.assetid: f1560f05-f7c4-46f1-ad9e-d737d0019b41
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_LOGGING_ROLLOVER_TYPE, *PHTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP], HTTP_LOGGING_ROLLOVER_TYPE, HTTP_LOGGING_ROLLOVER_TYPE enumeration [HTTP], HttpLoggingRolloverDaily, HttpLoggingRolloverHourly, HttpLoggingRolloverMonthly, HttpLoggingRolloverSize, HttpLoggingRolloverWeekly, _HTTP_LOGGING_ROLLOVER_TYPE, http.http_logging_rollover_type, http/*PHTTP_LOGGING_ROLLOVER_TYPE, http/HTTP_LOGGING_ROLLOVER_TYPE, http/HttpLoggingRolloverDaily, http/HttpLoggingRolloverHourly, http/HttpLoggingRolloverMonthly, http/HttpLoggingRolloverSize, http/HttpLoggingRolloverWeekly"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 

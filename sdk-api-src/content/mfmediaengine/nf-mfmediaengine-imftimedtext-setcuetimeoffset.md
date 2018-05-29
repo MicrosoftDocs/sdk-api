@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.SetCueTimeOffset
 title: IMFTimedText::SetCueTimeOffset
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the offset to the cue time.
 old-location: mf\imftimedtext_setcuetimeoffset.htm
 old-project: medfound
 ms.assetid: 42406E51-546F-4714-9179-E5D676805DDE
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SetCueTimeOffset method, IMFTimedText.SetCueTimeOffset, IMFTimedText::SetCueTimeOffset, SetCueTimeOffset, SetCueTimeOffset method [Media Foundation], SetCueTimeOffset method [Media Foundation],IMFTimedText interface, mf.imftimedtext_setcuetimeoffset, mfmediaengine/IMFTimedText::SetCueTimeOffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

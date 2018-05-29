@@ -1,16 +1,16 @@
 ---
 UID: NF:filehc.GetFileSizeFromContext
 title: GetFileSizeFromContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports the file size cached with the handle.
 old-location: winprog\_getfilesizefromcontext.htm
 old-project: DevNotes
 ms.assetid: c44aab72-d5c8-43e0-b2ec-032904806227
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetFileSizeFromContext, GetFileSizeFromContext function [Windows API], filehc/GetFileSizeFromContext, winprog._getfilesizefromcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

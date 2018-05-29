@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.BindMoniker
 title: BindMoniker function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates an object by means of its moniker, activates the object if it is inactive, and retrieves a pointer to the specified interface on that object.
 old-location: com\bindmoniker.htm
 old-project: com
 ms.assetid: 5a022c39-fc2c-458b-9dfe-fed1255d49a4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BindMoniker, BindMoniker function [COM], _com_BindMoniker, com.bindmoniker, objbase/BindMoniker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

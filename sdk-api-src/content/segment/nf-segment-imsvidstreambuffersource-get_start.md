@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.get_Start
 title: IMSVidStreamBufferSource::get_Start
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Start method retrieves the start time.
 old-location: mstv\imsvidstreambuffersource_get_start.htm
 old-project: mstv
 ms.assetid: 4c6ad8b7-93d9-46de-b84a-a4575f3e6183
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],get_Start method, IMSVidStreamBufferSource.get_Start, IMSVidStreamBufferSource::get_Start, IMSVidStreamBufferSourceget_Start, get_Start, get_Start method [Microsoft TV Technologies], get_Start method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_get_start, segment/IMSVidStreamBufferSource::get_Start
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

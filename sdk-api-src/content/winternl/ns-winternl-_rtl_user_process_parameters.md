@@ -1,16 +1,16 @@
 ---
 UID: NS:winternl._RTL_USER_PROCESS_PARAMETERS
 title: "_RTL_USER_PROCESS_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains process parameter information.
 old-location: base\rtl_user_process_parameters.htm
 old-project: ProcThread
 ms.assetid: e736aefa-9945-4526-84d8-adb6e82b9991
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PRTL_USER_PROCESS_PARAMETERS, PRTL_USER_PROCESS_PARAMETERS, PRTL_USER_PROCESS_PARAMETERS structure pointer, RTL_USER_PROCESS_PARAMETERS, RTL_USER_PROCESS_PARAMETERS structure, _RTL_USER_PROCESS_PARAMETERS, base.rtl_user_process_parameters, winternl/PRTL_USER_PROCESS_PARAMETERS, winternl/RTL_USER_PROCESS_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winternl.h
 req.include-header: 

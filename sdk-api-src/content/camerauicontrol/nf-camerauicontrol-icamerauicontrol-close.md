@@ -1,16 +1,16 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.Close
 title: ICameraUIControl::Close
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the user interface control.
 old-location: winprog\icamerauicontrol_close.htm
 old-project: DevNotes
 ms.assetid: d1f73422-37e9-488e-92e6-8e8dd99af57f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Close, Close method [Windows API], Close method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],Close method, ICameraUIControl.Close, ICameraUIControl::Close, camerauicontrol/ICameraUIControl::Close, winprog.icamerauicontrol_close
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: camerauicontrol.h
 req.include-header: 

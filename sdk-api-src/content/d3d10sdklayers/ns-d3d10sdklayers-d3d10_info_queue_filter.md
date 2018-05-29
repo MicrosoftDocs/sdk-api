@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d10sdklayers.D3D10_INFO_QUEUE_FILTER
 title: D3D10_INFO_QUEUE_FILTER
-author: windows-driver-content
+author: windows-sdk-content
 description: Debug message filter; contains a lists of message types to allow or deny.
 old-location: direct3d10\d3d10_info_queue_filter.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_info_queue_filter.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 9c94d10b-2b6f-b70e-75d1-72a61687e2b9, D3D10_INFO_QUEUE_FILTER, D3D10_INFO_QUEUE_FILTER structure [Direct3D 10], d3d10sdklayers/D3D10_INFO_QUEUE_FILTER, direct3d10.d3d10_info_queue_filter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10sdklayers.h
 req.include-header: D3D10.h

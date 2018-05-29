@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetDistanceDecay
 title: ISpatialAudioObjectForHrtf::SetDistanceDecay
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the decay model that is applied over distance from the position of an ISpatialAudioObjectForHrtf to the position of the listener.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setdistancedecay.htm
 old-project: CoreAudio
 ms.assetid: 62C95E6A-C27E-4C17-91E1-D6D80172F15B
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetDistanceDecay method, ISpatialAudioObjectForHrtf.SetDistanceDecay, ISpatialAudioObjectForHrtf::SetDistanceDecay, SetDistanceDecay, SetDistanceDecay method [Core Audio], SetDistanceDecay method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setdistancedecay, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetDistanceDecay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudiohrtf.h
 req.include-header: 

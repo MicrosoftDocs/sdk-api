@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrInqBeginA
 title: RpcNsGroupMbrInqBeginA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsGroupMbrInqBegin function creates an inquiry context for viewing group members.
 old-location: rpc\rpcnsgroupmbrinqbegin.htm
 old-project: Rpc
 ms.assetid: f3a98563-0c7f-4f4b-b272-af7c0366b95d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsGroupMbrInqBegin, RpcNsGroupMbrInqBegin function [RPC], RpcNsGroupMbrInqBeginA, RpcNsGroupMbrInqBeginW, _rpc_rpcnsgroupmbrinqbegin, rpc.rpcnsgroupmbrinqbegin, rpcnsi/RpcNsGroupMbrInqBegin, rpcnsi/RpcNsGroupMbrInqBeginA, rpcnsi/RpcNsGroupMbrInqBeginW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

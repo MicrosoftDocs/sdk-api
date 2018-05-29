@@ -1,16 +1,16 @@
 ---
 UID: NF:pathcch.PathCchSkipRoot
 title: PathCchSkipRoot function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to the first character in a path following the drive letter or Universal Naming Convention (UNC) server/share path elements.This function differs from PathSkipRoot in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchSkipRoot.htm
 old-project: shell
 ms.assetid: 187bc49e-c5ae-42b8-acbd-a765f871d73b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathCchSkipRoot, PathCchSkipRoot function [Windows Shell], pathcch/PathCchSkipRoot, shell.PathCchSkipRoot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

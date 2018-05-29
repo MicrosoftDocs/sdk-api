@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMREBARAUTOBREAK
 title: tagNMREBARAUTOBREAK
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used with the RBN_AUTOBREAK notification code.
 old-location: controls\NMREBARAUTOBREAK.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarautobreak.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMREBARAUTOBREAK, LPNMREBARAUTOBREAK, LPNMREBARAUTOBREAK structure pointer [Windows Controls], NMREBARAUTOBREAK, NMREBARAUTOBREAK structure [Windows Controls], commctrl/LPNMREBARAUTOBREAK, commctrl/NMREBARAUTOBREAK, controls.NMREBARAUTOBREAK, controls.inet_NMREBARAUTOBREAK, inet_NMREBARAUTOBREAK, inet_NMREBARAUTOBREAK_cpp, tagNMREBARAUTOBREAK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

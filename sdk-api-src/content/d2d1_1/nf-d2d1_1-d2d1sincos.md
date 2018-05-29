@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1_1.D2D1SinCos
 title: D2D1SinCos function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the sine and cosine of an angle.
 old-location: direct2d\d2d1sincos.htm
 old-project: Direct2D
 ms.assetid: CE5899A8-B70F-492E-9A16-849FB64830AC
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1SinCos, D2D1SinCos function [Direct2D], d2d1_1/D2D1SinCos, direct2d.d2d1sincos
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_1.h
 req.include-header: 

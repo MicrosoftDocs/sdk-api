@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFEndCreateFile
 title: MFEndCreateFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes an asynchronous request to create a byte stream from a file.
 old-location: mf\mfendcreatefile.htm
 old-project: medfound
 ms.assetid: daa92660-5d0d-4c7c-985a-ad621eca4bfc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFEndCreateFile, MFEndCreateFile function [Media Foundation], daa92660-5d0d-4c7c-985a-ad621eca4bfc, mf.mfendcreatefile, mfapi/MFEndCreateFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

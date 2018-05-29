@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_RunningStatus
 title: IFsrmReportJob::get_RunningStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the running status of the report job.
 old-location: fsrm\ifsrmreportjob_runningstatus.htm
 old-project: Fsrm
 ms.assetid: ae87183c-8e82-487c-b774-6b2b802fa645
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],RunningStatus property, IFsrmReportJob.RunningStatus, IFsrmReportJob.get_RunningStatus, IFsrmReportJob::RunningStatus, IFsrmReportJob::get_RunningStatus, RunningStatus property [File Server Resource Manager], RunningStatus property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_runningstatus, fsrm.ifsrmreportjob_runningstatus, fsrmreports/IFsrmReportJob::RunningStatus, fsrmreports/IFsrmReportJob::get_RunningStatus, get_RunningStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

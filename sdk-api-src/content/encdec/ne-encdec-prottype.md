@@ -1,16 +1,16 @@
 ---
 UID: NE:encdec.ProtType
 title: ProtType
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\prottype.htm
 old-project: mstv
 ms.assetid: 190b8483-91c8-4fe4-8189-637749393151
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PROT_COPY_BF, PROT_COPY_CN_RECORDING_STOP, PROT_COPY_FREE, PROT_COPY_FREE_CIT, PROT_COPY_FREE_SECURE, PROT_COPY_INVALID, PROT_COPY_NEVER, PROT_COPY_NEVER_REALLY, PROT_COPY_NO_MORE, PROT_COPY_ONCE, ProtType, ProtType enumeration [Microsoft TV Technologies], encdec/PROT_COPY_BF, encdec/PROT_COPY_CN_RECORDING_STOP, encdec/PROT_COPY_FREE, encdec/PROT_COPY_FREE_CIT, encdec/PROT_COPY_FREE_SECURE, encdec/PROT_COPY_INVALID, encdec/PROT_COPY_NEVER, encdec/PROT_COPY_NEVER_REALLY, encdec/PROT_COPY_NO_MORE, encdec/PROT_COPY_ONCE, encdec/ProtType, mstv.prottype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: encdec.h
 req.include-header: Tvratings.h

@@ -1,16 +1,16 @@
 ---
 UID: NC:ws2spi.LPNSPLOOKUPSERVICEEND
 title: LPNSPLOOKUPSERVICEEND
-author: windows-driver-content
+author: windows-sdk-content
 description: Called to free the handle after previous calls to NSPLookupServiceBegin and NSPLookupServiceNext.
 old-location: winsock\nsplookupserviceend_2.htm
 old-project: WinSock
 ms.assetid: ec72c89a-a74b-449c-996a-02057dff9137
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: LPNSPLOOKUPSERVICEEND, NSPLookupServiceEnd, NSPLookupServiceEnd function [Winsock], _win32_nsplookupserviceend_2, winsock.nsplookupserviceend_2, ws2spi/NSPLookupServiceEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

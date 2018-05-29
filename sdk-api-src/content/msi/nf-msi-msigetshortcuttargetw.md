@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiGetShortcutTargetW
 title: MsiGetShortcutTargetW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiGetShortcutTarget function examines a shortcut and returns its product, feature name, and component if available.
 old-location: setup\msigetshortcuttarget.htm
 old-project: Msi
 ms.assetid: 5c040372-d266-4f79-9b80-950ceac9f9b8
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiGetShortcutTarget, MsiGetShortcutTarget function, MsiGetShortcutTargetA, MsiGetShortcutTargetW, _msi_msigetshortcuttarget, msi/MsiGetShortcutTarget, msi/MsiGetShortcutTargetA, msi/MsiGetShortcutTargetW, setup.msigetshortcuttarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.Header_SetImageList
 title: Header_SetImageList macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Assigns an image list to an existing header control. You can use this macro or send the HDM_SETIMAGELIST message explicitly.
 old-location: controls\Header_SetImageList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_setimagelist.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Header_SetImageList, Header_SetImageList macro [Windows Controls], _win32_Header_SetImageList, _win32_Header_SetImageList_cpp, commctrl/Header_SetImageList, controls.Header_SetImageList, controls._win32_Header_SetImageList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

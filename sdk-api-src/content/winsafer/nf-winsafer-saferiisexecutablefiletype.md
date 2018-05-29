@@ -1,16 +1,16 @@
 ---
 UID: NF:winsafer.SaferiIsExecutableFileType
 title: SaferiIsExecutableFileType function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a specified file is an executable file.
 old-location: security\saferiisexecutablefiletype.htm
 old-project: SecMgmt
 ms.assetid: f122ceaa-65bb-4cfe-a760-adf4f910c487
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SaferiIsExecutableFileType, SaferiIsExecutableFileType function [Security], security.saferiisexecutablefiletype, winsafer/SaferiIsExecutableFileType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsafer.h
 req.include-header: 

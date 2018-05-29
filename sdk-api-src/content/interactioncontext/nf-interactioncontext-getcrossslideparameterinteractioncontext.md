@@ -1,16 +1,16 @@
 ---
 UID: NF:interactioncontext.GetCrossSlideParameterInteractionContext
 title: GetCrossSlideParameterInteractionContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the cross-slide interaction behavior.
 old-location: input_intcontext\getcrossslideparameterinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: 19e934c6-8cd7-4302-a903-bd7865aef908
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: GetCrossSlideParameterInteractionContext, GetCrossSlideParameterInteractionContext function, input_intcontext.getcrossslideparameterinteractioncontext, interactioncontext.getcrossslideparameterinteractioncontext, interactioncontext/GetCrossSlideParameterInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

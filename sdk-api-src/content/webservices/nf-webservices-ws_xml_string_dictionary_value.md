@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WS_XML_STRING_DICTIONARY_VALUE
 title: WS_XML_STRING_DICTIONARY_VALUE macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides an initializer for a WS_XML_STRING structure when there is an associated dictionary ID.
 old-location: wsw\ws_xml_string_dictionary_value.htm
 old-project: wsw
 ms.assetid: 1e2045c0-11c5-4369-9b82-dc759eb1412e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_STRING_DICTIONARY_VALUE, WS_XML_STRING_DICTIONARY_VALUE function [Web Services for Windows], webservices/WS_XML_STRING_DICTIONARY_VALUE, wsw.ws_xml_string_dictionary_value
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: webservices.h
 req.include-header: 

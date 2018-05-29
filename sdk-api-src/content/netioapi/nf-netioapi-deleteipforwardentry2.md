@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.DeleteIpForwardEntry2
 title: DeleteIpForwardEntry2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an IP route entry on the local computer.
 old-location: iphlp\deleteipforwardentry2.htm
 old-project: IpHlp
 ms.assetid: 68d5a5a5-21cf-4337-8a35-7f847f5e2138
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DeleteIpForwardEntry2, DeleteIpForwardEntry2 function [IP Helper], iphlp.deleteipforwardentry2, netioapi/DeleteIpForwardEntry2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

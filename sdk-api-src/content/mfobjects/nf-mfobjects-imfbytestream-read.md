@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFByteStream.Read
 title: IMFByteStream::Read
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads data from the stream.
 old-location: mf\imfbytestream_read.htm
 old-project: medfound
 ms.assetid: 6e0d5363-f2c2-4334-86ca-71fac61073d3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 6e0d5363-f2c2-4334-86ca-71fac61073d3, IMFByteStream interface [Media Foundation],Read method, IMFByteStream.Read, IMFByteStream::Read, Read, Read method [Media Foundation], Read method [Media Foundation],IMFByteStream interface, mf.imfbytestream_read, mfobjects/IMFByteStream::Read
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

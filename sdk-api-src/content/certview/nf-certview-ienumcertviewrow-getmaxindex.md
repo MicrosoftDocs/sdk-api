@@ -1,16 +1,16 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.GetMaxIndex
 title: IEnumCERTVIEWROW::GetMaxIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the maximum valid index value after all the rows in the row-enumeration sequence have been referenced.
 old-location: security\ienumcertviewrow_getmaxindex.htm
 old-project: SecCrypto
 ms.assetid: 65ba80db-b7ee-46fa-b044-eab554720ce9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetMaxIndex, GetMaxIndex method [Security], GetMaxIndex method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],GetMaxIndex method, IEnumCERTVIEWROW.GetMaxIndex, IEnumCERTVIEWROW::GetMaxIndex, certview/IEnumCERTVIEWROW::GetMaxIndex, security.ienumcertviewrow_getmaxindex, security.ienumcertviewrow_getmaxtindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h

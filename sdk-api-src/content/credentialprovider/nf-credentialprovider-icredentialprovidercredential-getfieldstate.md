@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetFieldState
 title: ICredentialProviderCredential::GetFieldState
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the field state. The Logon UI and Credential UI use this to gain information about a field of a credential to display this information in the user tile.
 old-location: shell\ICredentialProviderCredential_GetFieldState.htm
 old-project: shell
 ms.assetid: 9a709835-cf89-464d-a257-d16a1312ab44
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFieldState, GetFieldState method [Windows Shell], GetFieldState method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetFieldState method, ICredentialProviderCredential.GetFieldState, ICredentialProviderCredential::GetFieldState, _shell_ICredentialProviderCredential_GetFieldState, credentialprovider/ICredentialProviderCredential::GetFieldState, shell.ICredentialProviderCredential_GetFieldState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

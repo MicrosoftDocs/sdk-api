@@ -1,16 +1,16 @@
 ---
 UID: NF:unknwn.IClassFactory.CreateInstance
 title: IClassFactory::CreateInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an uninitialized object.
 old-location: com\iclassfactory_createinstance.htm
 old-project: com
 ms.assetid: 45d34150-9e0b-4a76-a784-c81434ec73b8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateInstance, CreateInstance method [COM], CreateInstance method [COM],IClassFactory interface, IClassFactory interface [COM],CreateInstance method, IClassFactory.CreateInstance, IClassFactory::CreateInstance, _com_iclassfactory_createinstance, com.iclassfactory_createinstance, unknwn/IClassFactory::CreateInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: unknwn.h
 req.include-header: 

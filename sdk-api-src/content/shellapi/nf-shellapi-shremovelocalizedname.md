@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.SHRemoveLocalizedName
 title: SHRemoveLocalizedName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the localized name of a file in a Shell folder.
 old-location: shell\SHRemoveLocalizedName.htm
 old-project: shell
 ms.assetid: ed30546f-3531-42df-9018-1a24a79a0b79
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHRemoveLocalizedName, SHRemoveLocalizedName function [Windows Shell], _shell_SHRemoveLocalizedName, shell.SHRemoveLocalizedName, shellapi/SHRemoveLocalizedName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

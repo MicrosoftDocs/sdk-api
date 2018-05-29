@@ -1,16 +1,16 @@
 ---
 UID: NF:wsman.WSManCloseCommand
 title: WSManCloseCommand function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a command and frees the resources that are associated with it.
 old-location: winrm\wsmanclosecommand.htm
 old-project: WinRM
 ms.assetid: 41ef2a6d-af1a-4a51-b01d-262380f01187
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSManCloseCommand, WSManCloseCommand function [Windows Remote Management], winrm.wsmanclosecommand, wsman/WSManCloseCommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

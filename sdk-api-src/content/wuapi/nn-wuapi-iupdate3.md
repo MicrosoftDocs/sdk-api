@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IUpdate3
 title: IUpdate3
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the properties and methods that are available to an update.
 old-location: wua\iupdate3.htm
 old-project: Wua_Sdk
 ms.assetid: 61b06451-0252-4dbe-8a19-e7260620377d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdate3, IUpdate3 interface [Windows Update Agent], IUpdate3 interface [Windows Update Agent],described, wua.iupdate3, wuapi/IUpdate3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

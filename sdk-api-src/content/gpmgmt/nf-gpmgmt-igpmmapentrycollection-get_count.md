@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMMapEntryCollection.get_Count
 title: IGPMMapEntryCollection::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of map entries in the collection.
 old-location: gpmc\igpmmapentrycollection_get_count.htm
 old-project: GPMC
 ms.assetid: 1bc3a983-17db-4b91-adda-24351bc9a02d
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMMapEntryCollection class, Count property [GPMC],IGPMMapEntryCollection interface, GPMMapEntryCollection class [GPMC],Count property, IGPMMapEntryCollection interface [GPMC],Count property, IGPMMapEntryCollection.Count, IGPMMapEntryCollection.get_Count, IGPMMapEntryCollection::Count, IGPMMapEntryCollection::get_Count, get_Count, gpmc.igpmmapentrycollection_get_count, gpmgmt/IGPMMapEntryCollection::Count, gpmgmt/IGPMMapEntryCollection::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

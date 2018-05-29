@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IServiceSxsConfig.SxsName
 title: IServiceSxsConfig::SxsName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the file name of the side-by-side assembly for the enclosed work.
 old-location: cos\iservicesxsconfig_sxsname.htm
 old-project: cossdk
 ms.assetid: 622632ba-1287-4303-a9dd-4fb870e43786
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServiceSxsConfig interface [COM+],SxsName method, IServiceSxsConfig.SxsName, IServiceSxsConfig::SxsName, SxsName, SxsName method [COM+], SxsName method [COM+],IServiceSxsConfig interface, _cos_IServiceSxsConfig_SxsName, comsvcs/IServiceSxsConfig::SxsName, cos.iservicesxsconfig_sxsname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

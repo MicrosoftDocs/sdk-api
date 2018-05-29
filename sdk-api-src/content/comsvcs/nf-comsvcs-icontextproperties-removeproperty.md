@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IContextProperties.RemoveProperty
 title: IContextProperties::RemoveProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a context object property.
 old-location: cos\icontextproperties_removeproperty.htm
 old-project: cossdk
 ms.assetid: 112c9e08-de15-4e46-934a-5e57a1a52adc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IContextProperties interface [COM+],RemoveProperty method, IContextProperties.RemoveProperty, IContextProperties::RemoveProperty, RemoveProperty, RemoveProperty method [COM+], RemoveProperty method [COM+],IContextProperties interface, _cos_IContextProperties_RemoveProperty, comsvcs/IContextProperties::RemoveProperty, cos.icontextproperties_removeproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

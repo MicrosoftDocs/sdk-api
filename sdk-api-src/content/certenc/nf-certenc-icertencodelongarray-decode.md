@@ -1,16 +1,16 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.Decode
 title: ICertEncodeLongArray::Decode
-author: windows-driver-content
+author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded Long array and stores the resulting array of Long values in the CertEncodeLongArray object.
 old-location: security\icertencodelongarray_decode.htm
 old-project: SecCrypto
 ms.assetid: b0ff8e1a-c4b2-48ac-be95-228638d00e6d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertEncodeLongArray object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeLongArray object, Decode method [Security],ICertEncodeLongArray interface, ICertEncodeLongArray interface [Security],Decode method, ICertEncodeLongArray.Decode, ICertEncodeLongArray::Decode, _certsrv_icertencodelongarray_decode, certenc/ICertEncodeLongArray::Decode, security.icertencodelongarray_decode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h

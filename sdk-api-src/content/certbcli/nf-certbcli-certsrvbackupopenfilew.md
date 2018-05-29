@@ -1,16 +1,16 @@
 ---
 UID: NF:certbcli.CertSrvBackupOpenFileW
 title: CertSrvBackupOpenFileW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a file for backup.
 old-location: security\certsrvbackupopenfile.htm
 old-project: SecCrypto
 ms.assetid: 5ddce73f-c693-437a-9eae-d7eaf482ee05
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertSrvBackupOpenFile, CertSrvBackupOpenFile function [Security], CertSrvBackupOpenFileW, _certsrv_certsrvbackupopenfile, certbcli/CertSrvBackupOpenFile, certbcli/CertSrvBackupOpenFileW, security.certsrvbackupopenfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

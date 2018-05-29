@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.NetAddr_GetAddress
 title: NetAddr_GetAddress macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether a network address conforms to a specified type and format.
 old-location: shell\NetAddr_GetAddress.htm
 old-project: shell
 ms.assetid: 2d0310a8-89ca-41b5-8afc-faec29bd23ba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NetAddr_GetAddress, NetAddr_GetAddress macro [Windows Shell], _shell_NetAddr_GetAddress, shell.NetAddr_GetAddress, shellapi/NetAddr_GetAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: shellapi.h
 req.include-header: 

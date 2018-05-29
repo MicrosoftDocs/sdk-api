@@ -1,16 +1,16 @@
 ---
 UID: NS:schannel._SCHANNEL_SESSION_TOKEN
 title: "_SCHANNEL_SESSION_TOKEN"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether reconnections are enabled for an authentication session created by calling either the InitializeSecurityContext (Schannel) function or the AcceptSecurityContext (Schannel) function.
 old-location: security\schannel_session_token.htm
 old-project: SecAuthN
 ms.assetid: 3c8f5380-eead-4495-8dff-a9561a787930
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: PSCHANNEL_SESSION_TOKEN, PSCHANNEL_SESSION_TOKEN structure pointer [Security], SCHANNEL_SESSION_TOKEN, SCHANNEL_SESSION_TOKEN structure [Security], SSL_SESSION_DISABLE_RECONNECTS, SSL_SESSION_ENABLE_RECONNECTS, _SCHANNEL_SESSION_TOKEN, schannel/PSCHANNEL_SESSION_TOKEN, schannel/SCHANNEL_SESSION_TOKEN, security.schannel_session_token
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 

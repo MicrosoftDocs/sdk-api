@@ -1,16 +1,16 @@
 ---
 UID: NF:xamlom.IBitmapData.GetBitmapDescription
 title: IBitmapData::GetBitmapDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a BitmapDescription that describes the bitmap data stored in the IBitmapData.
 old-location: xaml_diagnostics\ibitmapdata_getbitmapdescription.htm
 old-project: xaml_diagnostics
 ms.assetid: B10BF4E3-C9C2-41E6-99FC-671F6BE47278
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: GetBitmapDescription, GetBitmapDescription method, GetBitmapDescription method,IBitmapData interface, IBitmapData interface,GetBitmapDescription method, IBitmapData.GetBitmapDescription, IBitmapData::GetBitmapDescription, xaml_diagnostics.ibitmapdata_getbitmapdescription, xamlom/IBitmapData::GetBitmapDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

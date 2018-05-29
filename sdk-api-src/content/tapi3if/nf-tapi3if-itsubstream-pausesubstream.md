@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITSubStream.PauseSubStream
 title: ITSubStream::PauseSubStream
-author: windows-driver-content
+author: windows-sdk-content
 description: The PauseSubStream method pauses the substream.
 old-location: tapi3\itsubstream_pausesubstream.htm
 old-project: Tapi
 ms.assetid: 77bd3726-3996-45a6-88be-cb033f5dddc0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],PauseSubStream method, ITSubStream.PauseSubStream, ITSubStream::PauseSubStream, PauseSubStream, PauseSubStream method [TAPI 2.2], PauseSubStream method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_pausesubstream, tapi3.itsubstream_pausesubstream, tapi3if/ITSubStream::PauseSubStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

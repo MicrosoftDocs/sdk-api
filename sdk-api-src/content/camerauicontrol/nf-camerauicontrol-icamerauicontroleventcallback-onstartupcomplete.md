@@ -1,16 +1,16 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControlEventCallback.OnStartupComplete
 title: ICameraUIControlEventCallback::OnStartupComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Occurs when startup for the camera UI control has completed.
 old-location: winprog\icamerauicontroleventcallback_onstartupcomplete.htm
 old-project: DevNotes
 ms.assetid: beb50d34-ff68-43e6-8deb-b1ba2c02d70d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ICameraUIControlEventCallback interface [Windows API],OnStartupComplete method, ICameraUIControlEventCallback.OnStartupComplete, ICameraUIControlEventCallback::OnStartupComplete, OnStartupComplete, OnStartupComplete method [Windows API], OnStartupComplete method [Windows API],ICameraUIControlEventCallback interface, camerauicontrol/ICameraUIControlEventCallback::OnStartupComplete, winprog.icamerauicontroleventcallback_onstartupcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: camerauicontrol.h
 req.include-header: 

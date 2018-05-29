@@ -1,16 +1,16 @@
 ---
 UID: NF:provider.Provider.Provider
 title: Provider::Provider
-author: windows-driver-content
+author: windows-sdk-content
 description: The Provider method creates an instance of a provider. This method is part of the WMI Provider Framework.
 old-location: wmi\provider_provider.htm
 old-project: WmiSdk
 ms.assetid: 1859c921-a0dc-4fd4-9c0b-680a24eab936
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "??0Provider@@QAE@PBG0@Z, ??0Provider@@QEAA@PEBG0@Z, Provider, Provider interface [Windows Management Instrumentation],Provider method, Provider method [Windows Management Instrumentation], Provider method [Windows Management Instrumentation],Provider interface, Provider.Provider, Provider::Provider, provider/Provider::Provider, wmi.provider_provider"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

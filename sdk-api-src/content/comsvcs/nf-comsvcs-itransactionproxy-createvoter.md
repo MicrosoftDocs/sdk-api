@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.CreateVoter
 title: ITransactionProxy::CreateVoter
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a ballot so that a COM+ transaction context can vote on the transaction.
 old-location: cos\itransactionproxy_createvoter.htm
 old-project: cossdk
 ms.assetid: dd837082-881e-4f7e-b71e-c0f6068e3cdb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreateVoter, CreateVoter method [COM+], CreateVoter method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],CreateVoter method, ITransactionProxy.CreateVoter, ITransactionProxy::CreateVoter, comsvcs/ITransactionProxy::CreateVoter, cos.itransactionproxy_createvoter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

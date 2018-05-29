@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnScanNetworkComplete
 title: IMbnInterfaceEvents::OnScanNetworkComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a network scan.
 old-location: mbn\imbninterfaceevents_onscannetworkcomplete.htm
 old-project: mbn
 ms.assetid: 6320c76b-b8a6-44dc-88bb-e20a85d5cfca
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: E_MBN_ALREADY_ACTIVE, E_MBN_DEVICE_BUSY, E_MBN_RADIO_POWER_OFF, IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnScanNetworkComplete method, IMbnInterfaceEvents.OnScanNetworkComplete, IMbnInterfaceEvents::OnScanNetworkComplete, OnScanNetworkComplete, OnScanNetworkComplete method [Microsoft Broadband Networks], OnScanNetworkComplete method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, S_OK, mbn.imbninterfaceevents_onscannetworkcomplete, mbnapi/IMbnInterfaceEvents::OnScanNetworkComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

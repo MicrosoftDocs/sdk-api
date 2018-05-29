@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsCreateServiceEndpointFromTemplate
 title: WsCreateServiceEndpointFromTemplate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Helper routine for creating a service endpoint (WS_SERVICE_ENDPOINT) from policy templates.
 old-location: wsw\wscreateserviceendpointfromtemplate.htm
 old-project: wsw
 ms.assetid: 433194eb-ac42-4b6a-a1c0-7260a7aabeeb
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsCreateServiceEndpointFromTemplate, WsCreateServiceEndpointFromTemplate function [Web Services for Windows], webservices/WsCreateServiceEndpointFromTemplate, wsw.wscreateserviceendpointfromtemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

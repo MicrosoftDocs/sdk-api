@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.IVssComponentEx.GetPostSnapshotFailureMsg
 title: IVssComponentEx::GetPostSnapshotFailureMsg
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the PostSnapshot failure message string that a writer has set for a given component.
 old-location: base\ivsscomponentex_getpostsnapshotfailuremsg.htm
 old-project: VSS
 ms.assetid: 51f96d3e-c783-42f4-9e04-94bf3a6b7c09
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPostSnapshotFailureMsg, GetPostSnapshotFailureMsg method, GetPostSnapshotFailureMsg method,IVssComponentEx interface, IVssComponentEx interface,GetPostSnapshotFailureMsg method, IVssComponentEx.GetPostSnapshotFailureMsg, IVssComponentEx::GetPostSnapshotFailureMsg, base.ivsscomponentex_getpostsnapshotfailuremsg, vswriter/IVssComponentEx::GetPostSnapshotFailureMsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

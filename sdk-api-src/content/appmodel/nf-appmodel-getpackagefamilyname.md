@@ -1,16 +1,16 @@
 ---
 UID: NF:appmodel.GetPackageFamilyName
 title: GetPackageFamilyName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the package family name for the specified process.
 old-location: appxpkg\getpackagefamilyname.htm
 old-project: appxpkg
 ms.assetid: AC239898-9924-4193-9072-7A7EEC2D03E9
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetPackageFamilyName, GetPackageFamilyName function [App packaging and management], appmodel/GetPackageFamilyName, appxpkg.getpackagefamilyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

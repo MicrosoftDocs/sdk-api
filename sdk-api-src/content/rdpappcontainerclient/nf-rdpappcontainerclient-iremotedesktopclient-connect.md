@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.Connect
 title: IRemoteDesktopClient::Connect
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates a connection by using the properties currently set on the Remote Desktop Protocol (RDP) app container client control.
 old-location: termserv\iremotedesktopclient_connect.htm
 old-project: TermServ
 ms.assetid: 52dbc0f3-8ba9-45a5-a224-b7de67847bf3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Connect, Connect method [Remote Desktop Services], Connect method [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],Connect method, IRemoteDesktopClient.Connect, IRemoteDesktopClient::Connect, rdpappcontainerclient/IRemoteDesktopClient::Connect, termserv.iremotedesktopclient_connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 

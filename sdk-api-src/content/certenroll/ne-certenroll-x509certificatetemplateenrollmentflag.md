@@ -1,16 +1,16 @@
 ---
 UID: NE:certenroll.X509CertificateTemplateEnrollmentFlag
 title: X509CertificateTemplateEnrollmentFlag
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values that specify server and client actions during enrollment.
 old-location: security\x509certificatetemplateenrollmentflag.htm
 old-project: SecCertEnroll
 ms.assetid: eefb2120-637d-45ae-91be-e18a9d9cb14f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EnrollmentAddOCSPNoCheck, EnrollmentAddTemplateName, EnrollmentAllowEnrollOnBehalfOf, EnrollmentAutoEnrollment, EnrollmentAutoEnrollmentCheckUserDSCertificate, EnrollmentDomainAuthenticationNotRequired, EnrollmentIncludeBasicConstraintsForEECerts, EnrollmentIncludeSymmetricAlgorithms, EnrollmentNoRevocationInfoInCerts, EnrollmentPendAllRequests, EnrollmentPreviousApprovalValidateReenrollment, EnrollmentPublishToDS, EnrollmentPublishToKRAContainer, EnrollmentRemoveInvalidCertificateFromPersonalStore, EnrollmentReuseKeyOnFullSmartCard, EnrollmentUserInteractionRequired, X509CertificateTemplateEnrollmentFlag, X509CertificateTemplateEnrollmentFlag enumeration [Security], certenroll/EnrollmentAddOCSPNoCheck, certenroll/EnrollmentAddTemplateName, certenroll/EnrollmentAllowEnrollOnBehalfOf, certenroll/EnrollmentAutoEnrollment, certenroll/EnrollmentAutoEnrollmentCheckUserDSCertificate, certenroll/EnrollmentDomainAuthenticationNotRequired, certenroll/EnrollmentIncludeBasicConstraintsForEECerts, certenroll/EnrollmentIncludeSymmetricAlgorithms, certenroll/EnrollmentNoRevocationInfoInCerts, certenroll/EnrollmentPendAllRequests, certenroll/EnrollmentPreviousApprovalValidateReenrollment, certenroll/EnrollmentPublishToDS, certenroll/EnrollmentPublishToKRAContainer, certenroll/EnrollmentRemoveInvalidCertificateFromPersonalStore, certenroll/EnrollmentReuseKeyOnFullSmartCard, certenroll/EnrollmentUserInteractionRequired, certenroll/X509CertificateTemplateEnrollmentFlag, security.x509certificatetemplateenrollmentflag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

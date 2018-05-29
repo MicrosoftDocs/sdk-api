@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFInputTrustAuthority.GetDecrypter
 title: IMFInputTrustAuthority::GetDecrypter
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a decrypter transform.
 old-location: mf\imfinputtrustauthority_getdecrypter.htm
 old-project: medfound
 ms.assetid: 3bc4e2e6-41a8-4751-a7fe-5e1f8c136983
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 3bc4e2e6-41a8-4751-a7fe-5e1f8c136983, GetDecrypter, GetDecrypter method [Media Foundation], GetDecrypter method [Media Foundation],IMFInputTrustAuthority interface, IMFInputTrustAuthority interface [Media Foundation],GetDecrypter method, IMFInputTrustAuthority.GetDecrypter, IMFInputTrustAuthority::GetDecrypter, mf.imfinputtrustauthority_getdecrypter, mfidl/IMFInputTrustAuthority::GetDecrypter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

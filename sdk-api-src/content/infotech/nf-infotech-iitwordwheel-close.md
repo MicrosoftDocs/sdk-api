@@ -1,16 +1,16 @@
 ---
 UID: NF:infotech.IITWordWheel.Close
 title: IITWordWheel::Close
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a word wheel.
 old-location: htmlhelp\iitwordwheel_close.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelclose.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Close, Close method [HTML Help Workshop], Close method [HTML Help Workshop],IITWordWheel interface, IITWordWheel interface [HTML Help Workshop],Close method, IITWordWheel.Close, IITWordWheel::Close, htmlhelp.iitwordwheel_close, infotech/IITWordWheel::Close, refIITWordWheelClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

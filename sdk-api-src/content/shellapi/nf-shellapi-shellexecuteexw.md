@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.ShellExecuteExW
 title: ShellExecuteExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs an operation on a specified file.
 old-location: shell\ShellExecuteEx.htm
 old-project: shell
 ms.assetid: 7850d19c-dadb-44a1-85d9-d5b897edb39f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ShellExecuteEx, ShellExecuteEx function [Windows Shell], ShellExecuteExA, ShellExecuteExW, _win32_ShellExecuteEx, _win32_ShellExecuteEx_cpp, shell.ShellExecuteEx, shellapi/ShellExecuteEx, shellapi/ShellExecuteExA, shellapi/ShellExecuteExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

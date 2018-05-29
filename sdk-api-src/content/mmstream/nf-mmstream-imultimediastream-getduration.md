@@ -1,16 +1,16 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.GetDuration
 title: IMultiMediaStream::GetDuration
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetDuration method retrieves the duration of the multimedia stream.
 old-location: dshow\imultimediastream_getduration.htm
 old-project: DirectShow
 ms.assetid: 4d8104ec-aa2a-4151-bb7f-53611d4a71f2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDuration, GetDuration method [DirectShow], GetDuration method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetDuration method, IMultiMediaStream.GetDuration, IMultiMediaStream::GetDuration, IMultiMediaStreamGetDuration, dshow.imultimediastream_getduration, mmstream/IMultiMediaStream::GetDuration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 

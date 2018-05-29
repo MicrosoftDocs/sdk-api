@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFSample.RemoveBufferByIndex
 title: IMFSample::RemoveBufferByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a buffer at a specified index from the sample.
 old-location: mf\imfsample_removebufferbyindex.htm
 old-project: medfound
 ms.assetid: fc7b5a46-a127-4d75-a9a5-382d9d65a426
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSample interface [Media Foundation],RemoveBufferByIndex method, IMFSample.RemoveBufferByIndex, IMFSample::RemoveBufferByIndex, RemoveBufferByIndex, RemoveBufferByIndex method [Media Foundation], RemoveBufferByIndex method [Media Foundation],IMFSample interface, fc7b5a46-a127-4d75-a9a5-382d9d65a426, mf.imfsample_removebufferbyindex, mfobjects/IMFSample::RemoveBufferByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

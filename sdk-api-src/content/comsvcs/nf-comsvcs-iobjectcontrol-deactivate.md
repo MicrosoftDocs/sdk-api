@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IObjectControl.Deactivate
 title: IObjectControl::Deactivate
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a COM+ object to perform required cleanup before it is recycled or destroyed.
 old-location: cos\iobjectcontrol_deactivate.htm
 old-project: cossdk
 ms.assetid: e076e7ce-867a-47ab-bd7e-9754b7d81e43
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Deactivate, Deactivate method [COM+], Deactivate method [COM+],IObjectControl interface, IObjectControl interface [COM+],Deactivate method, IObjectControl.Deactivate, IObjectControl::Deactivate, _cos_IObjectControl_Deactivate, comsvcs/IObjectControl::Deactivate, cos.iobjectcontrol_deactivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

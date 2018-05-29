@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhOpenQueryW
 title: PdhOpenQueryW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new query that is used to manage the collection of performance data. To use handles to data sources, use the PdhOpenQueryH function.
 old-location: perf\pdhopenquery.htm
 old-project: PerfCtrs
 ms.assetid: ec4e5353-c7f5-4957-b7f4-39df508846a0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhOpenQuery, PdhOpenQuery function [Perf], PdhOpenQueryA, PdhOpenQueryW, _win32_pdhopenquery, base.pdhopenquery, pdh/PdhOpenQuery, pdh/PdhOpenQueryA, pdh/PdhOpenQueryW, perf.pdhopenquery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

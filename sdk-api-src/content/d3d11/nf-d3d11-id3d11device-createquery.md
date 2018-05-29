@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateQuery
 title: ID3D11Device::CreateQuery
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface encapsulates methods for querying information from the GPU.
 old-location: direct3d11\id3d11device_createquery.htm
 old-project: direct3d11
 ms.assetid: ad09a309-862f-462d-8268-62e44397c298
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: CreateQuery, CreateQuery method [Direct3D 11], CreateQuery method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateQuery method, ID3D11Device.CreateQuery, ID3D11Device::CreateQuery, d3d11/ID3D11Device::CreateQuery, direct3d11.id3d11device_createquery, f2e88fab-8ad2-a5e2-0d8a-4c97538eb108
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GetEncodingConfigurationPropertyStore
 title: IMFASFContentInfo::GetEncodingConfigurationPropertyStore
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a property store that can be used to set encoding properties.
 old-location: mf\imfasfcontentinfo_getencodingconfigurationpropertystore.htm
 old-project: medfound
 ms.assetid: e77a5564-82bc-4c1d-9fb8-84ab484c4ca8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetEncodingConfigurationPropertyStore, GetEncodingConfigurationPropertyStore method [Media Foundation], GetEncodingConfigurationPropertyStore method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GetEncodingConfigurationPropertyStore method, IMFASFContentInfo.GetEncodingConfigurationPropertyStore, IMFASFContentInfo::GetEncodingConfigurationPropertyStore, e77a5564-82bc-4c1d-9fb8-84ab484c4ca8, mf.imfasfcontentinfo_getencodingconfigurationpropertystore, wmcontainer/IMFASFContentInfo::GetEncodingConfigurationPropertyStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

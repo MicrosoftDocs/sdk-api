@@ -1,16 +1,16 @@
 ---
 UID: NN:thumbcache.IThumbnailCachePrimer
 title: IThumbnailCachePrimer
-author: windows-driver-content
+author: windows-sdk-content
 description: "."
 old-location: shell\IThumbnailCachePrimer.htm
 old-project: shell
 ms.assetid: 2EBDF7CF-8EDF-4d2f-9632-905C60A7BC45
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IThumbnailCachePrimer, IThumbnailCachePrimer interface [Windows Shell], IThumbnailCachePrimer interface [Windows Shell],described, shell.IThumbnailCachePrimer, thumbcache/IThumbnailCachePrimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: thumbcache.h
 req.include-header: Thumbcache.h

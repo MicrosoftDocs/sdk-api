@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadType
 title: PSPropertyBag_ReadType function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the type of data value of a property that is stored in a property bag.
 old-location: properties\PSPropertyBag_ReadType.htm
 old-project: properties
 ms.assetid: 826038F7-FD93-474e-BCA7-910E214F3E01
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_ReadType, PSPropertyBag_ReadType function [Windows Properties], properties.PSPropertyBag_ReadType, propsys/PSPropertyBag_ReadType, shell.PSPropertyBag_ReadType, shell_PSPropertyBag_ReadType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsSetWriterPosition
 title: WsSetWriterPosition function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the current position of the writer. The position must have been obtained by a call to WsGetReaderPosition or WsGetWriterPosition.
 old-location: wsw\wssetwriterposition.htm
 old-project: wsw
 ms.assetid: 1d23bda1-d1da-44d4-9a9d-258bba200b29
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsSetWriterPosition, WsSetWriterPosition function [Web Services for Windows], webservices/WsSetWriterPosition, wsw.wssetwriterposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

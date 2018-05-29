@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerIdentityGetCryptKey
 title: PeerIdentityGetCryptKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerIdentityGetCryptKey function retrieves a handle to a cryptographic service provider (CSP).
 old-location: p2p\peeridentitygetcryptkey.htm
 old-project: P2PSdk
 ms.assetid: 27a1b563-7bbe-4117-8bc3-19dd47360308
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerIdentityGetCryptKey, PeerIdentityGetCryptKey function [Peer Networking], p2p.peeridentitygetcryptkey, p2p/PeerIdentityGetCryptKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

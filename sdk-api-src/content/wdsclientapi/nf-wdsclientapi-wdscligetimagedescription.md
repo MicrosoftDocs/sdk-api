@@ -1,16 +1,16 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageDescription
 title: WdsCliGetImageDescription function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a description of the current image.
 old-location: wds\wdscligetimagedescription.htm
 old-project: Wds
 ms.assetid: 57feb142-6c3a-4ce0-a23b-87d605234b70
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsCliGetImageDescription, WdsCliGetImageDescription function [Windows Deployment Services], wds.wdscligetimagedescription, wdsclientapi/WdsCliGetImageDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

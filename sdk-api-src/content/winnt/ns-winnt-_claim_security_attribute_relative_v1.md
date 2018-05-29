@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
 title: "_CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a resource attribute that is defined in continuous memory for persistence within a serialized security descriptor.
 old-location: security\claim_security_attribute_relative_v1.htm
 old-project: SecAuthZ
 ms.assetid: 7516CFA6-3726-4004-854E-CD07347898E5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, CLAIM_SECURITY_ATTRIBUTE_DISABLED, CLAIM_SECURITY_ATTRIBUTE_DISABLED_BY_DEFAULT, CLAIM_SECURITY_ATTRIBUTE_MANDATORY, CLAIM_SECURITY_ATTRIBUTE_NON_INHERITABLE, CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1 structure [Security], CLAIM_SECURITY_ATTRIBUTE_TYPE_INT64, CLAIM_SECURITY_ATTRIBUTE_TYPE_OCTET_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_STRING, CLAIM_SECURITY_ATTRIBUTE_TYPE_UINT64, CLAIM_SECURITY_ATTRIBUTE_USE_FOR_DENY_ONLY, CLAIM_SECURITY_ATTRIBUTE_VALUE_CASE_SENSITIVE, PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1 structure pointer [Security], _CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, security.claim_security_attribute_relative_v1, winnt/CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1, winnt/PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

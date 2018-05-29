@@ -1,16 +1,16 @@
 ---
 UID: NF:certbcli.CertSrvBackupGetDatabaseNamesW
 title: CertSrvBackupGetDatabaseNamesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the list of Certificate Services database file names that need to be backed up for the given backup context.
 old-location: security\certsrvbackupgetdatabasenames.htm
 old-project: SecCrypto
 ms.assetid: 5e62be79-693a-4543-8d83-262f00686c99
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CertSrvBackupGetDatabaseNames, CertSrvBackupGetDatabaseNames function [Security], CertSrvBackupGetDatabaseNamesW, _certsrv_certsrvbackupgetdatabasenames, certbcli/CertSrvBackupGetDatabaseNames, certbcli/CertSrvBackupGetDatabaseNamesW, security.certsrvbackupgetdatabasenames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

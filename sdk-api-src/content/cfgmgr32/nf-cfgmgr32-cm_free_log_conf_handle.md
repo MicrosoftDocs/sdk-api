@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Free_Log_Conf_Handle
 title: CM_Free_Log_Conf_Handle function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Free_Log_Conf_Handle function invalidates a logical configuration handle and frees its associated memory allocation.
 old-location: devinst\cm_free_log_conf_handle.htm
 old-project: devinst
 ms.assetid: dd8a4a2a-9f99-48c0-acb6-e5ceed63c88e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Free_Log_Conf_Handle, CM_Free_Log_Conf_Handle function [Device and Driver Installation], cfgmgr32/CM_Free_Log_Conf_Handle, cfgmgrfn_acfb6a9e-f12b-40af-a239-dba8aff1e22b.xml, devinst.cm_free_log_conf_handle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

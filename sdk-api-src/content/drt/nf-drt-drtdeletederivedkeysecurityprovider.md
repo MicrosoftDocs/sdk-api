@@ -1,16 +1,16 @@
 ---
 UID: NF:drt.DrtDeleteDerivedKeySecurityProvider
 title: DrtDeleteDerivedKeySecurityProvider function
-author: windows-driver-content
+author: windows-sdk-content
 description: DrtDeleteDerivedKeySecurityProvider function deletes a derived key security provider for a Distributed Routing Table.
 old-location: p2p\drtdeletederivedkeysecurityprovider.htm
 old-project: P2PSdk
 ms.assetid: 89b2bbe6-51a3-48fc-85c9-13e1b0cfd880
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DrtDeleteDerivedKeySecurityProvider, DrtDeleteDerivedKeySecurityProvider function [Peer Networking], drt/DrtDeleteDerivedKeySecurityProvider, p2p.drtdeletederivedkeysecurityprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: drt.h
 req.include-header: 

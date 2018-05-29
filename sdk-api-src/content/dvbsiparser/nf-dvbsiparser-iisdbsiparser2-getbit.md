@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbSiParser2.GetBIT
 title: IIsdbSiParser2::GetBIT
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the broadcaster information table (BIT) from an Integrated Services Digital Broadcasting (ISDB) transport stream. A BIT contains a broadcaster unit and the service information transmission parameter for each broadcaster unit.
 old-location: mstv\iisdbsiparser2_getbit.htm
 old-project: mstv
 ms.assetid: 25993059-a1a9-486f-97b3-fd240c8931dc
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetBIT, GetBIT method [Microsoft TV Technologies], GetBIT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetBIT method, IIsdbSiParser2.GetBIT, IIsdbSiParser2::GetBIT, dvbsiparser/IIsdbSiParser2::GetBIT, mstv.iisdbsiparser2_getbit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winusb.WinUsb_StopTrackingForTimeSync
 title: WinUsb_StopTrackingForTimeSync function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinUsb_StopTrackingForTimeSync function tops the time synchronization feature in the USB driver stack that gets the associated system QPC time for USB bus frames and microframes.
 old-location: buses\winusb_stoptrackingfortimesync.htm
 old-project: usbref
 ms.assetid: F38DBE34-A6D0-4492-A829-EFE53D361A71
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.author: windowssdkdev
+ms.date: 05/07/2018
 ms.keywords: WinUsb_StopTrackingForTimeSync, WinUsb_StopTrackingForTimeSync function [Buses], buses.winusb_stoptrackingfortimesync, winusb/WinUsb_StopTrackingForTimeSync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

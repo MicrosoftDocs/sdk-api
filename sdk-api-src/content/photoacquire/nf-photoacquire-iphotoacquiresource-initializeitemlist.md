@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.InitializeItemList
 title: IPhotoAcquireSource::InitializeItemList
-author: windows-driver-content
+author: windows-sdk-content
 description: The InitializeItemList method enumerates transferable items on the device and passes each item to the optional progress callback, if it is supplied.
 old-location: picacq\iphotoacquiresource_initializeitemlist.htm
 old-project: acquisition
 ms.assetid: 1e0ebbc7-888d-4044-8257-47c1719cf7fc
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoAcquireSource interface [Picture Acquisition],InitializeItemList method, IPhotoAcquireSource.InitializeItemList, IPhotoAcquireSource::InitializeItemList, IPhotoAcquireSourceInitializeItemList, InitializeItemList, InitializeItemList method [Picture Acquisition], InitializeItemList method [Picture Acquisition],IPhotoAcquireSource interface, photoacquire/IPhotoAcquireSource::InitializeItemList, picacq.iphotoacquiresource_initializeitemlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

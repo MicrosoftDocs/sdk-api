@@ -1,16 +1,16 @@
 ---
 UID: NF:fci.FNFCIWRITE
 title: FNFCIWRITE macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The FNFCIWRITE macro provides the declaration for the application-defined callback function to write data to a file in an FCI context.
 old-location: winprog\fnfciwrite.htm
 old-project: DevNotes
 ms.assetid: ca4c3b5b-1ed5-4f12-8317-c1e1dac5f816
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FNFCIWRITE, FNFCIWRITE macro [Windows API], fci/FNFCIWRITE, winprog.fnfciwrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: fci.h
 req.include-header: 

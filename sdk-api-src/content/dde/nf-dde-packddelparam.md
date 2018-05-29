@@ -1,16 +1,16 @@
 ---
 UID: NF:dde.PackDDElParam
 title: PackDDElParam function
-author: windows-driver-content
+author: windows-sdk-content
 description: Packs a Dynamic Data Exchange (DDE) lParam value into an internal structure used for sharing DDE data between processes.
 old-location: dataxchg\packddelparam.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\packddelparam.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: PackDDElParam, PackDDElParam function [Data Exchange], _win32_PackDDElParam, _win32_packddelparam_cpp, dataxchg.packddelparam, dde/PackDDElParam, winui._win32_packddelparam
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dde.h
 req.include-header: Windows.h

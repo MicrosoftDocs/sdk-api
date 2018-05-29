@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.get_Count
 title: ITraceDataProviderCollection::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of trace providers in the collection.
 old-location: pla\itracedataprovidercollection_count.htm
 old-project: PLA
 ms.assetid: d5ecc815-86c1-4a08-b434-88479df3d70c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Count property [PLA], Count property [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],Count property, ITraceDataProviderCollection.Count, ITraceDataProviderCollection.get_Count, ITraceDataProviderCollection::Count, ITraceDataProviderCollection::get_Count, base.itracedataprovidercollection_count, get_Count, pla.itracedataprovidercollection_count, pla/ITraceDataProviderCollection::Count, pla/ITraceDataProviderCollection::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

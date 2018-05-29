@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathSetDlgItemPathW
 title: PathSetDlgItemPathW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the text of a child control in a window or dialog box, using PathCompactPath to ensure the path fits in the control.
 old-location: shell\PathSetDlgItemPath.htm
 old-project: shell
 ms.assetid: 05737525-d906-482c-847f-bdbf0ba0ce3d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathSetDlgItemPath, PathSetDlgItemPath function [Windows Shell], PathSetDlgItemPathA, PathSetDlgItemPathW, _win32_PathSetDlgItemPath, shell.PathSetDlgItemPath, shlwapi/PathSetDlgItemPath, shlwapi/PathSetDlgItemPathA, shlwapi/PathSetDlgItemPathW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

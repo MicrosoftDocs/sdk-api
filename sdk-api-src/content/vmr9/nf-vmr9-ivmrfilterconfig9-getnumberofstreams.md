@@ -1,16 +1,16 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.GetNumberOfStreams
 title: IVMRFilterConfig9::GetNumberOfStreams
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNumberOfStreams method retrieves the number of input streams being mixed.
 old-location: dshow\ivmrfilterconfig9_getnumberofstreams.htm
 old-project: DirectShow
 ms.assetid: 34b26c3a-ac5d-479e-ac9d-c782cd5dded8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetNumberOfStreams, GetNumberOfStreams method [DirectShow], GetNumberOfStreams method [DirectShow],IVMRFilterConfig9 interface, IVMRFilterConfig9 interface [DirectShow],GetNumberOfStreams method, IVMRFilterConfig9.GetNumberOfStreams, IVMRFilterConfig9::GetNumberOfStreams, IVMRFilterConfig9GetNumberOfStreams, dshow.ivmrfilterconfig9_getnumberofstreams, vmr9/IVMRFilterConfig9::GetNumberOfStreams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

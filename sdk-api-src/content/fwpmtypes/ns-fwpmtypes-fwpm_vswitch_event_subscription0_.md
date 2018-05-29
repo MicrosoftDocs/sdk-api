@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpmtypes.FWPM_VSWITCH_EVENT_SUBSCRIPTION0_
 title: FWPM_VSWITCH_EVENT_SUBSCRIPTION0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores information used to subscribe to notifications about a vSwitch event.
 old-location: fwp\fwpm_vswitch_event_subscription0.htm
 old-project: FWP
 ms.assetid: f099d531-ab40-4661-b33f-a805a84fba7e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_VSWITCH_EVENT_SUBSCRIPTION0, FWPM_VSWITCH_EVENT_SUBSCRIPTION0 structure [Filtering], FWPM_VSWITCH_EVENT_SUBSCRIPTION0_, fwp.fwpm_vswitch_event_subscription0, fwpmtypes/FWPM_VSWITCH_EVENT_SUBSCRIPTION0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

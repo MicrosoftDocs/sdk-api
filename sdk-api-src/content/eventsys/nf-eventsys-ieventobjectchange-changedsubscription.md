@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventObjectChange.ChangedSubscription
 title: IEventObjectChange::ChangedSubscription
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that a subscription object has been added, modified, or deleted.
 old-location: cos\ieventobjectchange_changedsubscription.htm
 old-project: cossdk
 ms.assetid: 61d67705-b225-4f9e-98a5-cb636989f44f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ChangedSubscription, ChangedSubscription method [COM+], ChangedSubscription method [COM+],IEventObjectChange interface, IEventObjectChange interface [COM+],ChangedSubscription method, IEventObjectChange.ChangedSubscription, IEventObjectChange::ChangedSubscription, _cos_IEventObjectChange_ChangedSubscription, cos.ieventobjectchange_changedsubscription, eventsys/IEventObjectChange::ChangedSubscription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

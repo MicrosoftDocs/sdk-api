@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.FindExecutableImageExW
 title: FindExecutableImageExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates the specified executable file.
 old-location: base\findexecutableimageex.htm
 old-project: Debug
 ms.assetid: 7571e168-2e91-4c97-9139-8225d28cc399
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: FindExecutableImageEx, FindExecutableImageEx function, FindExecutableImageExW, _win32_findexecutableimageex, base.findexecutableimageex, dbghelp/FindExecutableImageEx, dbghelp/FindExecutableImageExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

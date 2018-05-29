@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage3.put_CreateRedundantUdfMetadataFiles
 title: IFileSystemImage3::put_CreateRedundantUdfMetadataFiles
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the property that specifies if the UDF Metadata will be redundant in the file system image.
 old-location: imapi\ifilesystemimage3_put_createredundantudfmetadatafiles.htm
 old-project: imapi
 ms.assetid: 594ef77e-57be-4ef0-9eba-3e6fc0340f6e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFileSystemImage3 interface [IMAPI],put_CreateRedundantUdfMetadataFiles method, IFileSystemImage3.put_CreateRedundantUdfMetadataFiles, IFileSystemImage3::put_CreateRedundantUdfMetadataFiles, imapi.ifilesystemimage3_put_createredundantudfmetadatafiles, imapi2fs/IFileSystemImage3::put_CreateRedundantUdfMetadataFiles, put_CreateRedundantUdfMetadataFiles, put_CreateRedundantUdfMetadataFiles method [IMAPI], put_CreateRedundantUdfMetadataFiles method [IMAPI],IFileSystemImage3 interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IScheduleCollection.CreateSchedule
 title: IScheduleCollection::CreateSchedule
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a schedule object.
 old-location: pla\ischedulecollection_createschedule.htm
 old-project: PLA
 ms.assetid: 8fa10cd9-d1ae-47c7-80e2-416165164491
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CreateSchedule, CreateSchedule method [PLA], CreateSchedule method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],CreateSchedule method, IScheduleCollection.CreateSchedule, IScheduleCollection::CreateSchedule, pla.ischedulecollection_createschedule, pla/IScheduleCollection::CreateSchedule
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

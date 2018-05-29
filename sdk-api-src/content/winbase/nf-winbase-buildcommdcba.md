@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.BuildCommDCBA
 title: BuildCommDCBA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Fills a specified DCB structure with values specified in a device-control string.
 old-location: base\buildcommdcb.htm
 old-project: DevIO
 ms.assetid: 6ecd497d-2247-4b6b-8751-c107717de434
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: BuildCommDCB, BuildCommDCB function, BuildCommDCBA, BuildCommDCBW, _win32_buildcommdcb, base.buildcommdcb, winbase/BuildCommDCB, winbase/BuildCommDCBA, winbase/BuildCommDCBW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

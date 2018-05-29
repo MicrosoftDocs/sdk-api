@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamDataSize
 title: AVIStreamDataSize macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamDataSize macro determines the buffer size, in bytes, needed to retrieve optional header data for a specified stream.
 old-location: multimedia\avistreamdatasize.htm
 old-project: Multimedia
 ms.assetid: e91258ee-b90a-43b9-9d5e-0adee215714c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamDataSize, AVIStreamDataSize macro [Windows Multimedia], _win32_AVIStreamDataSize, multimedia.avistreamdatasize, vfw/AVIStreamDataSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

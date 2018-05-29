@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ObjectControl.Deactivate
 title: ObjectControl::Deactivate
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a COM+ object to perform cleanup required before it is recycled or destroyed.
 old-location: cos\objectcontrol_deactivate.htm
 old-project: cossdk
 ms.assetid: 86ab7f50-6f2e-4c6c-ba4d-fd302cccf97d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Deactivate, Deactivate method [COM+], Deactivate method [COM+],ObjectControl interface, ObjectControl interface [COM+],Deactivate method, ObjectControl.Deactivate, ObjectControl::Deactivate, _cos_ObjectControl_Deactivate, comsvcs/ObjectControl::Deactivate, cos.objectcontrol_deactivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

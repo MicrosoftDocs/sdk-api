@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.ReadFmtUserTypeStg
 title: ReadFmtUserTypeStg function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ReadFmtUserTypeStg function returns the clipboard format and user type previously saved with the WriteFmtUserTypeStg function.
 old-location: stg\readfmtusertypestg.htm
 old-project: Stg
 ms.assetid: 6f26550d-c094-4150-b8ef-2da1d052c1ff
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ReadFmtUserTypeStg, ReadFmtUserTypeStg function [Structured Storage], _stg_readfmtusertypestg, ole2/ReadFmtUserTypeStg, stg.readfmtusertypestg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

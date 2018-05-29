@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IConstructReplicaKeyMap.FindOrAddReplica
 title: IConstructReplicaKeyMap::FindOrAddReplica
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds entries to or finds entries in an IReplicaKeyMap object.
 old-location: winsync\iconstructreplicakeymap_findoraddreplica.htm
 old-project: winsync
 ms.assetid: 10cf616c-a082-4a74-99bb-1b0b364291e5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: FindOrAddReplica, FindOrAddReplica method [Windows Sync], FindOrAddReplica method [Windows Sync],IConstructReplicaKeyMap interface, IConstructReplicaKeyMap interface [Windows Sync],FindOrAddReplica method, IConstructReplicaKeyMap.FindOrAddReplica, IConstructReplicaKeyMap::FindOrAddReplica, winsync.iconstructreplicakeymap_findoraddreplica, winsync/IConstructReplicaKeyMap::FindOrAddReplica
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

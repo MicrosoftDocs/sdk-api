@@ -1,16 +1,16 @@
 ---
 UID: NF:oledlg.OleUIPromptUserA
 title: OleUIPromptUserA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays a dialog box with the specified template and returns the response (button identifier) from the user. This function is used to display OLE warning messages, for example, Class Not Registered.
 old-location: com\oleuipromptuser.htm
 old-project: com
 ms.assetid: a4c437d9-7242-401f-96fe-4b1c793a1170
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleUIPromptUser, OleUIPromptUser function [COM], OleUIPromptUserA, OleUIPromptUserW, _ole_OleUIPromptUser, com.oleuipromptuser, oledlg/OleUIPromptUser, oledlg/OleUIPromptUserA, oledlg/OleUIPromptUserW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 

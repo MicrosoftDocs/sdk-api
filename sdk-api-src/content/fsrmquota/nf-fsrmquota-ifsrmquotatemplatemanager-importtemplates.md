@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplateManager.ImportTemplates
 title: IFsrmQuotaTemplateManager::ImportTemplates
-author: windows-driver-content
+author: windows-sdk-content
 description: Imports the specified quota templates from an XML string.
 old-location: fsrm\ifsrmquotatemplatemanager_importtemplates.htm
 old-project: Fsrm
 ms.assetid: f530d7fc-8b41-4a5e-a10a-b9211c7fe2bb
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: FsrmQuotaTemplateManager class [File Server Resource Manager],ImportTemplates method, IFsrmQuotaTemplateManager interface [File Server Resource Manager],ImportTemplates method, IFsrmQuotaTemplateManager.ImportTemplates, IFsrmQuotaTemplateManager::ImportTemplates, ImportTemplates, ImportTemplates method [File Server Resource Manager], ImportTemplates method [File Server Resource Manager],FsrmQuotaTemplateManager class, ImportTemplates method [File Server Resource Manager],IFsrmQuotaTemplateManager interface, fs.ifsrmquotatemplatemanager_importtemplates, fsrm.ifsrmquotatemplatemanager_importtemplates, fsrmquota/IFsrmQuotaTemplateManager::ImportTemplates
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h

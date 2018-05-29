@@ -1,16 +1,16 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_CBA_READ_MEMORY
 title: "_IMAGEHLP_CBA_READ_MEMORY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a memory read operation.
 old-location: base\imagehlp_cba_read_memory_str.htm
 old-project: Debug
 ms.assetid: c5115fdc-aca6-4293-9c2b-82fd64ec7cb6
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PIMAGEHLP_CBA_READ_MEMORY, IMAGEHLP_CBA_READ_MEMORY, IMAGEHLP_CBA_READ_MEMORY structure, PIMAGEHLP_CBA_READ_MEMORY, PIMAGEHLP_CBA_READ_MEMORY structure pointer, _IMAGEHLP_CBA_READ_MEMORY, _win32_imagehlp_cba_read_memory_str, base.imagehlp_cba_read_memory_str, dbghelp/IMAGEHLP_CBA_READ_MEMORY, dbghelp/PIMAGEHLP_CBA_READ_MEMORY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 

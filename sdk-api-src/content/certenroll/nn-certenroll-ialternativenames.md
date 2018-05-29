@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IAlternativeNames
 title: IAlternativeNames
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains methods and properties that enable you to manage a collection of IAlternativeName objects.
 old-location: security\ialternativenames.htm
 old-project: SecCertEnroll
 ms.assetid: 6ebd5bd5-7bf3-43e3-9b72-47b2c9743174
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IAlternativeNames, IAlternativeNames interface [Security], IAlternativeNames interface [Security],described, certenroll/IAlternativeNames, security.ialternativenames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

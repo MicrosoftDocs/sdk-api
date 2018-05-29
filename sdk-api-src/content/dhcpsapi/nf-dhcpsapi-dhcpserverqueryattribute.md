@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpServerQueryAttribute
 title: DhcpServerQueryAttribute function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns specific attribute information from the DHCP server.
 old-location: dhcp\dhcpserverqueryattribute.htm
 old-project: DHCP
 ms.assetid: 8a522a8d-0b65-4dce-a785-d2b0c70e2794
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpServerQueryAttribute, DhcpServerQueryAttribute function [DHCP], dhcp.dhcpserverqueryattribute, dhcpsapi/DhcpServerQueryAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:srpapi.SrpDisablePermissiveModeFileEncryption
 title: SrpDisablePermissiveModeFileEncryption function
-author: windows-driver-content
+author: windows-sdk-content
 description: Disables permissive mode for file encryption on the current thread.
 old-location: edp\srpdisablepermissivemodefileencryption_.htm
 old-project: EDP
 ms.assetid: CB75BAFE-EB2A-43F2-8689-34E798C3B9F5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EDP.srpdisablepermissivemodefileencryption_, SrpDisablePermissiveModeFileEncryption, SrpDisablePermissiveModeFileEncryption , SrpDisablePermissiveModeFileEncryption function, srpapi/SrpDisablePermissiveModeFileEncryption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: srpapi.h
 req.include-header: 

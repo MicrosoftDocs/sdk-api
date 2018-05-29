@@ -1,16 +1,16 @@
 ---
 UID: NN:peninputpanel.ITextInputPanelEventSink
 title: ITextInputPanelEventSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods that handle the ITextInputPanel Interface events.
 old-location: tablet\itextinputpaneleventsink.htm
 old-project: tablet
 ms.assetid: e3ef6d65-ca6b-4587-bb21-3d3803a3432a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITextInputPanelEventSink, ITextInputPanelEventSink interface [Tablet PC], ITextInputPanelEventSink interface [Tablet PC],described, e3ef6d65-ca6b-4587-bb21-3d3803a3432a, peninputpanel/ITextInputPanelEventSink, tablet.itextinputpaneleventsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: peninputpanel.h
 req.include-header: 

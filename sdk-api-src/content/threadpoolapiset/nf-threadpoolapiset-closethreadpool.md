@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpool
 title: CloseThreadpool function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the specified thread pool.
 old-location: base\closethreadpool.htm
 old-project: ProcThread
 ms.assetid: 84f673b5-d9b1-4f3d-9ae6-b1ad173268cd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CloseThreadpool, CloseThreadpool function, base.closethreadpool, threadpoolapiset/CloseThreadpool, winbase/CloseThreadpool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows.h

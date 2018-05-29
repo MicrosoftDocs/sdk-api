@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.Register
 title: IWdsTransportNamespace::Register
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers the namespace on the server.
 old-location: wds\iwdstransportnamespace_register.htm
 old-project: Wds
 ms.assetid: 9b5d2bf7-c06b-4e1b-bb98-e17a9816c90f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Register method, IWdsTransportNamespace.Register, IWdsTransportNamespace::Register, Register, Register method [Windows Deployment Services], Register method [Windows Deployment Services],IWdsTransportNamespace interface, wds.iwdstransportnamespace_register, wdstptmgmt/IWdsTransportNamespace::Register
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

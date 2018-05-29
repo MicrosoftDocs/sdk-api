@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_LastRun
 title: IFsrmReportJob::get_LastRun
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the time stamp for when the reports were last run.
 old-location: fsrm\ifsrmreportjob_lastrun.htm
 old-project: Fsrm
 ms.assetid: 90acfd1d-9cef-4900-8b67-d44509503809
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],LastRun property, IFsrmReportJob.LastRun, IFsrmReportJob.get_LastRun, IFsrmReportJob::LastRun, IFsrmReportJob::get_LastRun, LastRun property [File Server Resource Manager], LastRun property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_lastrun, fsrm.ifsrmreportjob_lastrun, fsrmreports/IFsrmReportJob::LastRun, fsrmreports/IFsrmReportJob::get_LastRun, get_LastRun
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

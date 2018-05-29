@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.SetPaletteEntries
 title: SetPaletteEntries function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetPaletteEntries function sets RGB (red, green, blue) color values and flags in a range of entries in a logical palette.
 old-location: gdi\setpaletteentries.htm
 old-project: gdi
 ms.assetid: df38f482-75ba-4800-8b26-92204c63255e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetPaletteEntries, SetPaletteEntries function [Windows GDI], _win32_SetPaletteEntries, gdi.setpaletteentries, wingdi/SetPaletteEntries
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

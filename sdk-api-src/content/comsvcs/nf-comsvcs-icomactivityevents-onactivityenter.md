@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityEnter
 title: IComActivityEvents::OnActivityEnter
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when an activity thread is entered.
 old-location: cos\icomactivityevents_onactivityenter.htm
 old-project: cossdk
 ms.assetid: 5933798d-2208-4eab-8024-50236e5483a3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityEnter method, IComActivityEvents.OnActivityEnter, IComActivityEvents::OnActivityEnter, OnActivityEnter, OnActivityEnter method [COM+], OnActivityEnter method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityEnter, comsvcs/IComActivityEvents::OnActivityEnter, cos.icomactivityevents_onactivityenter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

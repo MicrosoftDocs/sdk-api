@@ -1,16 +1,16 @@
 ---
 UID: NS:rpcdcep._RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
 title: "_RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR structure contains a cookie that is inserted into the header of RPC/HTTP traffic.
 old-location: rpc\rpc_c_opt_cookie_auth_descriptor.htm
 old-project: Rpc
 ms.assetid: 808fdf38-4b54-42ab-855c-da9f2081214a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: PRPC_C_OPT_COOKIE_AUTH_DESCRIPTOR, PRPC_C_OPT_COOKIE_AUTH_DESCRIPTOR structure pointer [RPC], RPC_CALL_ATTRIBUTES_V1_A, RPC_CALL_ATTRIBUTES_V1_W, RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR, RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR structure [RPC], _RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR, rpc.rpc_c_opt_cookie_auth_descriptor, rpcdcep/PRPC_C_OPT_COOKIE_AUTH_DESCRIPTOR, rpcdcep/RPC_CALL_ATTRIBUTES_V1_A, rpcdcep/RPC_CALL_ATTRIBUTES_V1_W, rpcdcep/RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdcep.h
 req.include-header: Rpc.h

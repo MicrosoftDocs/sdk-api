@@ -1,16 +1,16 @@
 ---
 UID: NS:shellapi._SHQUERYRBINFO
 title: "_SHQUERYRBINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the size and item count information retrieved by the SHQueryRecycleBin function.
 old-location: shell\SHQUERYRBINFO.htm
 old-project: shell
 ms.assetid: 7e9bc7e9-5712-45e7-a424-0afb62f26450
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPSHQUERYRBINFO, LPSHQUERYRBINFO, LPSHQUERYRBINFO structure pointer [Windows Shell], SHQUERYRBINFO, SHQUERYRBINFO structure [Windows Shell], _SHQUERYRBINFO, _win32_SHQUERYRBINFO, shell.SHQUERYRBINFO, shellapi/LPSHQUERYRBINFO, shellapi/SHQUERYRBINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 

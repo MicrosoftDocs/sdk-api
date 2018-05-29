@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IPBDASiParser.Initialize
 title: IPBDASiParser::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a program and system information protocol (PSIP) parser for a Protected Broadcast Driver Architecture (PBDA) transport stream.
 old-location: mstv\ipbdasiparser_initialize.htm
 old-project: mstv
 ms.assetid: fb161e1a-ae10-4d5e-907a-91c7e80c11d8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPBDASiParser interface [Microsoft TV Technologies],Initialize method, IPBDASiParser.Initialize, IPBDASiParser::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IPBDASiParser interface, dshow.ipbdasiparser_initialize, dvbsiparser/IPBDASiParser::Initialize, mstv.ipbdasiparser_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

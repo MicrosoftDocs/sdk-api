@@ -1,16 +1,16 @@
 ---
 UID: NF:richole.IRichEditOleCallback.ContextSensitiveHelp
 title: IRichEditOleCallback::ContextSensitiveHelp
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates if the application should transition into or out of context-sensitive help mode. This method should implement the functionality described for IOleWindow::ContextSensitiveHelp.
 old-location: controls\IRichEditOleCallback_ContextSensitiveHelp.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackcontextsensitivehelp.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ContextSensitiveHelp, ContextSensitiveHelp method [Windows Controls], ContextSensitiveHelp method [Windows Controls],IRichEditOleCallback interface, IRichEditOleCallback interface [Windows Controls],ContextSensitiveHelp method, IRichEditOleCallback.ContextSensitiveHelp, IRichEditOleCallback::ContextSensitiveHelp, _win32_IRichEditOleCallback_ContextSensitiveHelp, _win32_IRichEditOleCallback_ContextSensitiveHelp_cpp, controls.IRichEditOleCallback_ContextSensitiveHelp, controls._win32_IRichEditOleCallback_ContextSensitiveHelp, richole/IRichEditOleCallback::ContextSensitiveHelp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: richole.h
 req.include-header: 

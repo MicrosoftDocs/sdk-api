@@ -1,16 +1,16 @@
 ---
 UID: NE:rpcasync._RPC_ASYNC_EVENT
 title: "_RPC_ASYNC_EVENT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RPC_ASYNC_EVENT enumerated type describes the asynchronous notification events that an RPC application can receive.
 old-location: rpc\rpc_async_event.htm
 old-project: Rpc
 ms.assetid: 6b173ec8-2b58-4a99-87cd-cdf1f92a35ad
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RPC_ASYNC_EVENT, RPC_ASYNC_EVENT enumeration [RPC], RpcCallComplete, RpcClientCancel, RpcClientDisconnect, RpcReceiveComplete, RpcSendComplete, _RPC_ASYNC_EVENT, _rpc_rpc_async_event, rpc.rpc_async_event, rpcasync/RPC_ASYNC_EVENT, rpcasync/RpcCallComplete, rpcasync/RpcClientCancel, rpcasync/RpcClientDisconnect, rpcasync/RpcReceiveComplete, rpcasync/RpcSendComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: rpcasync.h
 req.include-header: Rpc.h

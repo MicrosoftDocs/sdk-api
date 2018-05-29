@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.IUIManagerEventSink.OnWindowOpened
 title: IUIManagerEventSink::OnWindowOpened
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the TSF after opening an IME UI.
 old-location: tsf\iuimanagereventsink_onwindowopened.htm
 old-project: TSF
 ms.assetid: 525500C2-313E-4430-88B1-AA1F54A420AF
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowOpened method, IUIManagerEventSink.OnWindowOpened, IUIManagerEventSink::OnWindowOpened, OnWindowOpened, OnWindowOpened method [Text Services Framework], OnWindowOpened method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowOpened, tsf.iuimanagereventsink_onwindowopened
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

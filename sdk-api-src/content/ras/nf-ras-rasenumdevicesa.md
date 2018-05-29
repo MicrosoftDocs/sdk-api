@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasEnumDevicesA
 title: RasEnumDevicesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasEnumDevices function returns the name and type of all available RAS-capable devices.
 old-location: rras\rasenumdevices.htm
 old-project: RRAS
 ms.assetid: 819f069f-15e7-41b6-9153-4d602be4245d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasEnumDevices, RasEnumDevices function [RAS], RasEnumDevicesA, RasEnumDevicesW, _ras_rasenumdevices, ras/RasEnumDevices, ras/RasEnumDevicesA, ras/RasEnumDevicesW, rras.rasenumdevices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

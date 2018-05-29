@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.Polyline
 title: Polyline function
-author: windows-driver-content
+author: windows-sdk-content
 description: The Polyline function draws a series of line segments by connecting the points in the specified array.
 old-location: gdi\polyline.htm
 old-project: gdi
 ms.assetid: 55481dd0-3db7-4131-b383-4d0036943e60
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Polyline, Polyline function [Windows GDI], _win32_Polyline, gdi.polyline, wingdi/Polyline
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

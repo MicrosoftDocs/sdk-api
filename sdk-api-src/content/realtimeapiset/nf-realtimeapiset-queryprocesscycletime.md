@@ -1,16 +1,16 @@
 ---
 UID: NF:realtimeapiset.QueryProcessCycleTime
 title: QueryProcessCycleTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the sum of the cycle time of all threads of the specified process.
 old-location: base\queryprocesscycletime.htm
 old-project: ProcThread
 ms.assetid: 1859bc0f-8065-4104-b421-1b4c020ad5ea
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: QueryProcessCycleTime, QueryProcessCycleTime function, base.queryprocesscycletime, realtimeapiset/QueryProcessCycleTime, winbase/QueryProcessCycleTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: realtimeapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:xamlom.ParentChildRelation
 title: ParentChildRelation
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates a parent object with a child object.
 old-location: xaml_diagnostics\parentchildrelation.htm
 old-project: xaml_diagnostics
 ms.assetid: 49BC909B-2886-4F03-8F4D-60B9126DA236
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: PParentChildRelation, PParentChildRelation structure pointer, ParentChildRelation, ParentChildRelation structure, xaml_diagnostics.parentchildrelation, xamlom/PParentChildRelation, xamlom/ParentChildRelation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xamlom.h
 req.include-header: 

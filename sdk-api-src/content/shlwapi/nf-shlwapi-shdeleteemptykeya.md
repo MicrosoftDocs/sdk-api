@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHDeleteEmptyKeyA
 title: SHDeleteEmptyKeyA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an empty key.
 old-location: shell\SHDeleteEmptyKey.htm
 old-project: shell
 ms.assetid: 6a560bc3-f65e-4b7d-9fbc-b4f2971ce2a9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHDeleteEmptyKey, SHDeleteEmptyKey function [Windows Shell], SHDeleteEmptyKeyA, SHDeleteEmptyKeyW, _win32_SHDeleteEmptyKey, shell.SHDeleteEmptyKey, shlwapi/SHDeleteEmptyKey, shlwapi/SHDeleteEmptyKeyA, shlwapi/SHDeleteEmptyKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:vbinterf.IVBGetControl
 title: IVBGetControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to all the controls on a Visual Basic container.
 old-location: com\ivbgetcontrol.htm
 old-project: com
 ms.assetid: 22309920-f32c-4639-8869-b915a337d86f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVBGetControl, IVBGetControl interface [COM], IVBGetControl interface [COM],described, _com_IVBGetControl, com.ivbgetcontrol, vbinterf/IVBGetControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vbinterf.h
 req.include-header: 

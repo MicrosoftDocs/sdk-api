@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IFilterMapper.UnregisterFilterInstance
 title: IFilterMapper::UnregisterFilterInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Removes the registration of this filter instance from the registry.
 old-location: dshow\ifiltermapper_unregisterfilterinstance.htm
 old-project: DirectShow
 ms.assetid: bfeb0129-f67c-4318-8206-aa08e3b5b370
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IFilterMapper interface [DirectShow],UnregisterFilterInstance method, IFilterMapper.UnregisterFilterInstance, IFilterMapper::UnregisterFilterInstance, IFilterMapperUnregisterFilterInstance, UnregisterFilterInstance, UnregisterFilterInstance method [DirectShow], UnregisterFilterInstance method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_unregisterfilterinstance, strmif/IFilterMapper::UnregisterFilterInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

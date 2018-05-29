@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellExtInit.Initialize
 title: IShellExtInit::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a property sheet extension, shortcut menu extension, or drag-and-drop handler.
 old-location: shell\IShellExtInit_Initialize.htm
 old-project: shell
 ms.assetid: 1997a32e-562a-4d20-ad09-c40446a8feed
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellExtInit interface [Windows Shell],Initialize method, IShellExtInit.Initialize, IShellExtInit::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IShellExtInit interface, _win32_IShellExtInit_Initialize, _win32_ishellextinit_win32_ishellextinit_initialize_cpp, shell.IShellExtInit_Initialize, shobjidl_core/IShellExtInit::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

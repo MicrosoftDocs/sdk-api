@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsOpenVDisk.Expand
 title: IVdsOpenVDisk::Expand
-author: windows-driver-content
+author: windows-sdk-content
 description: Increases the size of a virtual disk to the maximum size available on a fixed or expandable disk.
 old-location: base\ivdsopenvdisk_expand.htm
 old-project: VDS
 ms.assetid: 6ba166de-8045-4ccb-8771-fc4dd9438c1f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Expand, Expand method, Expand method,IVdsOpenVDisk interface, IVdsOpenVDisk interface,Expand method, IVdsOpenVDisk.Expand, IVdsOpenVDisk::Expand, base.ivdsopenvdisk_expand, vds/IVdsOpenVDisk::Expand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

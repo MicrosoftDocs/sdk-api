@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetRestrictionFacets
 title: ISettingsItem::GetRestrictionFacets
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the restrictions defined for this item.
 old-location: smi\isettingsitem_getrestrictionfacets.htm
 old-project: SMI
 ms.assetid: 64cf82d5-c210-4ff2-a7c8-1a284859382e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetRestrictionFacets, GetRestrictionFacets method [SMI], GetRestrictionFacets method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetRestrictionFacets method, ISettingsItem.GetRestrictionFacets, ISettingsItem::GetRestrictionFacets, smi.isettingsitem_getrestrictionfacets, wcmconfig/ISettingsItem::GetRestrictionFacets
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

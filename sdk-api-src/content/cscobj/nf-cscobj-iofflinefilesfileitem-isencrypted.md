@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesFileItem.IsEncrypted
 title: IOfflineFilesFileItem::IsEncrypted
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether an item in the Offline Files cache is encrypted.
 old-location: of\iofflinefilesfileitem_isencrypted.htm
 old-project: OfflineFiles
 ms.assetid: f4ef4836-378c-4a9b-a805-e576d4637a2a
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesFileItem interface [Offline Files],IsEncrypted method, IOfflineFilesFileItem.IsEncrypted, IOfflineFilesFileItem::IsEncrypted, IsEncrypted, IsEncrypted method [Offline Files], IsEncrypted method [Offline Files],IOfflineFilesFileItem interface, cscobj/IOfflineFilesFileItem::IsEncrypted, of.iofflinefilesfileitem_isencrypted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

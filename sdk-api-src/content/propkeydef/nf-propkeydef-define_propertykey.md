@@ -1,16 +1,16 @@
 ---
 UID: NF:propkeydef.DEFINE_PROPERTYKEY
 title: DEFINE_PROPERTYKEY macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to pack a format identifier (FMTID) and property identifier (PID) into a PROPERTYKEY structure that represents a property key.
 old-location: shell\DEFINE_PROPERTYKEY.htm
 old-project: shell
 ms.assetid: 099F8A20-63E4-4712-97F3-82C61A0C2DE0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DEFINE_PROPERTYKEY, DEFINE_PROPERTYKEY macro [Windows Shell], _shell_DEFINE_PROPERTYKEY, propkeydef/DEFINE_PROPERTYKEY, shell.DEFINE_PROPERTYKEY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: propkeydef.h
 req.include-header: 

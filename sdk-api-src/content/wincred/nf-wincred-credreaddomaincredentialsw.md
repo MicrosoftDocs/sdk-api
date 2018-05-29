@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredReadDomainCredentialsW
 title: CredReadDomainCredentialsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the domain credentials from the user's credential set.
 old-location: security\credreaddomaincredentials.htm
 old-project: SecAuthN
 ms.assetid: b62cb9c9-2a64-4ef4-97f0-e1ea85976d3e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CredReadDomainCredentials, CredReadDomainCredentials function [Security], CredReadDomainCredentialsA, CredReadDomainCredentialsW, _cred_credreaddomaincredentials, security.credreaddomaincredentials, wincred/CredReadDomainCredentials, wincred/CredReadDomainCredentialsA, wincred/CredReadDomainCredentialsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

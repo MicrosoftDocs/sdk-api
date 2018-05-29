@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamGetFrame
 title: AVIStreamGetFrame function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamGetFrame function returns the address of a decompressed video frame.
 old-location: multimedia\avistreamgetframe.htm
 old-project: Multimedia
 ms.assetid: 9677efee-4c40-4acd-8911-eedcbee67d6b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamGetFrame, AVIStreamGetFrame function [Windows Multimedia], _win32_AVIStreamGetFrame, multimedia.avistreamgetframe, vfw/AVIStreamGetFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

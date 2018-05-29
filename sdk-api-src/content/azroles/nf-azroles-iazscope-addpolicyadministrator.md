@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzScope.AddPolicyAdministrator
 title: IAzScope::AddPolicyAdministrator
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddPolicyAdministrator method of IAzScope adds the specified security identifier in text form to the list of principals that act as policy administrators.
 old-location: security\iazscope_addpolicyadministrator.htm
 old-project: SecAuthZ
 ms.assetid: 7aa77615-1f12-4641-877e-87b26343db4d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddPolicyAdministrator, AddPolicyAdministrator method [Security], AddPolicyAdministrator method [Security],AzScope object, AddPolicyAdministrator method [Security],IAzScope interface, AzScope object [Security],AddPolicyAdministrator method, IAzScope interface [Security],AddPolicyAdministrator method, IAzScope.AddPolicyAdministrator, IAzScope::AddPolicyAdministrator, azroles/IAzScope::AddPolicyAdministrator, security.iazscope_addpolicyadministrator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

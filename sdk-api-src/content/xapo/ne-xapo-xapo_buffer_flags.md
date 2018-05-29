@@ -1,16 +1,16 @@
 ---
 UID: NE:xapo.XAPO_BUFFER_FLAGS
 title: XAPO_BUFFER_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the contents of a stream buffer.
 old-location: xaudio2\xapo_buffer_flags.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_BUFFER_FLAGS
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: XAPO_BUFFER_FLAGS, XAPO_BUFFER_FLAGS enumeration [XAudio2 Audio Mixing APIs], XAPO_BUFFER_SILENT, XAPO_BUFFER_VALID, xapo/XAPO_BUFFER_FLAGS, xapo/XAPO_BUFFER_SILENT, xapo/XAPO_BUFFER_VALID, xaudio2.xapo_buffer_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: xapo.h
 req.include-header: 

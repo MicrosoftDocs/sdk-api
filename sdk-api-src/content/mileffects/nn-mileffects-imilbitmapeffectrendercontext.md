@@ -1,16 +1,16 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectRenderContext
 title: IMILBitmapEffectRenderContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that define a IMILBitmapEffectRenderContext object.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\imilbitmapeffectrendercontext.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: IMILBitmapEffectRenderContext, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects], IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectrendercontext, mileffects/IMILBitmapEffectRenderContext, wibe._wibe_imilbitmapeffectrendercontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mileffects.h
 req.include-header: 

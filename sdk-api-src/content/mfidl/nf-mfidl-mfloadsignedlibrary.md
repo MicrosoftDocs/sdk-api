@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFLoadSignedLibrary
 title: MFLoadSignedLibrary function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads a dynamic link library that is signed for the protected environment.
 old-location: mf\mfloadsignedlibrary.htm
 old-project: medfound
 ms.assetid: 979A5FE5-0DED-4C5A-A27D-CDD10A4A8D5C
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFLoadSignedLibrary, MFLoadSignedLibrary function [Media Foundation], mf.mfloadsignedlibrary, mfidl/MFLoadSignedLibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

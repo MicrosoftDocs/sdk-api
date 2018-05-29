@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IFont
 title: IFont
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a wrapper around a Windows font object.
 old-location: com\ifont.htm
 old-project: com
 ms.assetid: 3a04d2b7-b2eb-4c6c-8863-1e88321fa382
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IFont, IFont interface [COM], IFont interface [COM],described, _ctrl_ifont, com.ifont, ocidl/IFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

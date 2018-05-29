@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.GopherGetAttributeW
 title: GopherGetAttributeW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specific attribute information from the server.
 old-location: wininet\gophergetattribute.htm
 old-project: WinInet
 ms.assetid: c9e95532-8c65-45fb-acd0-a1f09cee2ce2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GopherGetAttribute, GopherGetAttribute function [WinINet], GopherGetAttributeA, GopherGetAttributeW, _inet_gophergetattribute_function, wininet.gophergetattribute, wininet/GopherGetAttribute, wininet/GopherGetAttributeA, wininet/GopherGetAttributeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

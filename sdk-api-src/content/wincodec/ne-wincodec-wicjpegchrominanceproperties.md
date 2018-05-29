@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICJpegChrominanceProperties
 title: WICJpegChrominanceProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the JPEG chrominance table property.
 old-location: wic\_wic_codec_wicjpegchrominanceproperties.htm
 old-project: wic
 ms.assetid: edfa5f86-4c8b-4ba7-a017-d3ff9525b659
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICJpegChrominanceProperties, WICJpegChrominanceProperties enumeration [Windows Imaging Component], WICJpegChrominanceTable, _wic_codec_wicjpegchrominanceproperties, wic._wic_codec_wicjpegchrominanceproperties, wincodec/WICJpegChrominanceProperties, wincodec/WICJpegChrominanceTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

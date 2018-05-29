@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFScheduleWorkItemEx
 title: MFScheduleWorkItemEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Schedules an asynchronous operation to be completed after a specified interval.
 old-location: mf\mfscheduleworkitemex.htm
 old-project: medfound
 ms.assetid: b698cae1-4f3b-4649-b6f7-583f223eb90c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFScheduleWorkItemEx, MFScheduleWorkItemEx function [Media Foundation], b698cae1-4f3b-4649-b6f7-583f223eb90c, mf.mfscheduleworkitemex, mfapi/MFScheduleWorkItemEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

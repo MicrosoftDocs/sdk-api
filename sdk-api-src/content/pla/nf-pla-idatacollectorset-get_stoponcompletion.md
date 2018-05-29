@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_StopOnCompletion
 title: IDataCollectorSet::get_StopOnCompletion
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets a value that determines whether the data collector set stops when all the data collectors in the set are in a completed state.
 old-location: pla\idatacollectorset_stoponcompletion.htm
 old-project: PLA
 ms.assetid: bb7e18c6-e809-455e-9bee-c4bb6cf07c26
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],StopOnCompletion property, IDataCollectorSet.StopOnCompletion, IDataCollectorSet.get_StopOnCompletion, IDataCollectorSet::StopOnCompletion, IDataCollectorSet::get_StopOnCompletion, IDataCollectorSet::put_StopOnCompletion, StopOnCompletion property [PLA], StopOnCompletion property [PLA],IDataCollectorSet interface, get_StopOnCompletion, pla.idatacollectorset_stoponcompletion, pla/IDataCollectorSet::StopOnCompletion, pla/IDataCollectorSet::get_StopOnCompletion, pla/IDataCollectorSet::put_StopOnCompletion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

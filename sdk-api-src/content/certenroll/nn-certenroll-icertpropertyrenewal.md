@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ICertPropertyRenewal
 title: ICertPropertyRenewal
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a certificate property that contains a SHA-1 hash of the new certificate created when an existing certificate is renewed.
 old-location: security\icertpropertyrenewal.htm
 old-project: SecCertEnroll
 ms.assetid: c87a391a-aec9-4b42-8084-c593ecbb0bc6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertPropertyRenewal, ICertPropertyRenewal interface [Security], ICertPropertyRenewal interface [Security],described, certenroll/ICertPropertyRenewal, security.icertpropertyrenewal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

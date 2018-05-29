@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_Description
 title: IAMMediaContent::get_Description
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Description method retrieves a description of the content.
 old-location: dshow\iammediacontent_get_description.htm
 old-project: DirectShow
 ms.assetid: fc0c14f3-2764-4897-8ddb-ed1146d98597
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Description method, IAMMediaContent.get_Description, IAMMediaContent::get_Description, IAMMediaContentget_Description, dshow.iammediacontent_get_description, get_Description, get_Description method [DirectShow], get_Description method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

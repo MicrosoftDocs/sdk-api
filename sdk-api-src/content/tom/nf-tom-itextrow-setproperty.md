@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRow.SetProperty
 title: ITextRow::SetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of the specified property.
 old-location: controls\itextrow_setproperty.htm
 old-project: Controls
 ms.assetid: d43172b9-c717-41b2-ba22-aa164a595140
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRow interface [Windows Controls],SetProperty method, ITextRow.SetProperty, ITextRow::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextRow interface, controls.itextrow_setproperty, tom/ITextRow::SetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:usp10.tag_SCRIPT_DIGITSUBSTITUTE
 title: tag_SCRIPT_DIGITSUBSTITUTE
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains native digit and digit substitution settings.
 old-location: intl\script_digitsubstitute.htm
 old-project: Intl
 ms.assetid: e96bf8b4-7456-4e16-a623-48320104dd66
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SCRIPT_DIGITSUBSTITUTE, SCRIPT_DIGITSUBSTITUTE structure [Internationalization for Windows Applications], SCRIPT_DIGITSUBSTITUTE_CONTEXT, SCRIPT_DIGITSUBSTITUTE_NATIONAL, SCRIPT_DIGITSUBSTITUTE_NONE, SCRIPT_DIGITSUBSTITUTE_TRADITIONAL, _win32_SCRIPT_DIGITSUBSTITUTE_str, intl.script_digitsubstitute, tag_SCRIPT_DIGITSUBSTITUTE, usp10/SCRIPT_DIGITSUBSTITUTE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnConnectionEvents
 title: IMbnConnectionEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: This notification interface signals an application about change and completion status of asynchronous connection requests.
 old-location: mbn\imbnconnectionevents.htm
 old-project: mbn
 ms.assetid: 9135ba2e-62f6-495e-b136-9efc5f260581
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnConnectionEvents, IMbnConnectionEvents interface [Microsoft Broadband Networks], IMbnConnectionEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectionevents, mbnapi/IMbnConnectionEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

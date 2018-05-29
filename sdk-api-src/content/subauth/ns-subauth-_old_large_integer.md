@@ -1,16 +1,16 @@
 ---
 UID: NS:subauth._OLD_LARGE_INTEGER
 title: "_OLD_LARGE_INTEGER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to represent a 64-bit signed integer value as two 32-bit integers.
 old-location: security\old_large_integer.htm
 old-project: SecAuthN
 ms.assetid: d2becc03-10ed-4741-97a4-53f900f0e675
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*POLD_LARGE_INTEGER, OLD_LARGE_INTEGER, OLD_LARGE_INTEGER structure [Security], POLD_LARGE_INTEGER, POLD_LARGE_INTEGER structure pointer [Security], _OLD_LARGE_INTEGER, security.old_large_integer, subauth/OLD_LARGE_INTEGER, subauth/POLD_LARGE_INTEGER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: subauth.h
 req.include-header: 

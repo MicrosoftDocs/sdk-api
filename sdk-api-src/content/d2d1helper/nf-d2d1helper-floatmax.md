@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1helper.FloatMax
 title: FloatMax function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the maximum floating-point value.
 old-location: direct2d\floatmax.htm
 old-project: Direct2D
 ms.assetid: 93f0e030-b913-4b3b-bee8-c52eb19c63ab
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: FloatMax, FloatMax function [Direct2D], d2d1helper/FloatMax, direct2d.floatmax
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 

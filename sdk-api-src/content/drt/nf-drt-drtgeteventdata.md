@@ -1,16 +1,16 @@
 ---
 UID: NF:drt.DrtGetEventData
 title: DrtGetEventData function
-author: windows-driver-content
+author: windows-sdk-content
 description: DrtGetEventData function retrieves event data associated with a signaled event.
 old-location: p2p\drtgeteventdata.htm
 old-project: P2PSdk
 ms.assetid: 94ed3028-0bd1-449b-9902-7dbae4a70ec1
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DrtGetEventData, DrtGetEventData function [Peer Networking], drt/DrtGetEventData, p2p.drtgeteventdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: drt.h
 req.include-header: 

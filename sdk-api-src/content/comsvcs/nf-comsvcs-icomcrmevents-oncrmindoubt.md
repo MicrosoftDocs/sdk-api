@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMIndoubt
 title: IComCRMEvents::OnCRMIndoubt
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when CRM clerk receives an in-doubt notification to pass on to the CRM compensator.
 old-location: cos\icomcrmevents_oncrmindoubt.htm
 old-project: cossdk
 ms.assetid: b1144b7c-097f-4a1c-b7d7-d71b8108625b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMIndoubt method, IComCRMEvents.OnCRMIndoubt, IComCRMEvents::OnCRMIndoubt, OnCRMIndoubt, OnCRMIndoubt method [COM+], OnCRMIndoubt method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMIndoubt, comsvcs/IComCRMEvents::OnCRMIndoubt, cos.icomcrmevents_oncrmindoubt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

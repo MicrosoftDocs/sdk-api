@@ -1,16 +1,16 @@
 ---
 UID: NN:wpcapi.IWPCSettings
 title: IWPCSettings
-author: windows-driver-content
+author: windows-sdk-content
 description: Accesses general settings for the user.
 old-location: parcon\iwpcsettings.htm
 old-project: parcon
 ms.assetid: 92ae8611-fbb4-470e-8a48-395defaef904
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWPCSettings, IWPCSettings interface, IWPCSettings interface,described, parcon.iwpcsettings, wpcapi/IWPCSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wpcapi.h
 req.include-header: 

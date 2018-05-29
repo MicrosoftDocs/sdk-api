@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCustomTone.get_CadenceOn
 title: ITCustomTone::get_CadenceOn
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CadenceOn method retrieves the &#0034;on&#0034; duration of the cadence of the custom tone to generate.
 old-location: tapi3\itcustomtone_get_cadenceon.htm
 old-project: Tapi
 ms.assetid: 2f3da359-69e1-40a3-bfd6-42ade8de2379
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],get_CadenceOn method, ITCustomTone.get_CadenceOn, ITCustomTone::get_CadenceOn, _tapi3_itcustomtone_get_cadenceon, get_CadenceOn, get_CadenceOn method [TAPI 2.2], get_CadenceOn method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_get_cadenceon, tapi3if/ITCustomTone::get_CadenceOn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

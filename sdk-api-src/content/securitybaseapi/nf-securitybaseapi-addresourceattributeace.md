@@ -1,16 +1,16 @@
 ---
 UID: NF:securitybaseapi.AddResourceAttributeAce
 title: AddResourceAttributeAce function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a SYSTEM_RESOURCE_ATTRIBUTE_ACEaccess control entry (ACE) to the end of a system access control list (SACL).
 old-location: security\addresourceattributeace.htm
 old-project: SecAuthZ
 ms.assetid: AA2064E4-6F76-4D7B-8540-D55A91168825
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddResourceAttributeAce, AddResourceAttributeAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, security.addresourceattributeace, securitybaseapi/AddResourceAttributeAce
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: 

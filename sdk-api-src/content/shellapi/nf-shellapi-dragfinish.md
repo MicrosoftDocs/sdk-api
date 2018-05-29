@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.DragFinish
 title: DragFinish function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases memory that the system allocated for use in transferring file names to the application.
 old-location: shell\DragFinish.htm
 old-project: shell
 ms.assetid: 9b15e8a5-de68-4dcb-8e1a-0ee0393aa9db
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DragFinish, DragFinish function [Windows Shell], _win32_DragFinish, shell.DragFinish, shellapi/DragFinish
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

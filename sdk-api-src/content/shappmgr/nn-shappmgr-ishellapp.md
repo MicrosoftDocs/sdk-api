@@ -1,16 +1,16 @@
 ---
 UID: NN:shappmgr.IShellApp
 title: IShellApp
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that provide general information about an application to the Add/Remove Programs Application.
 old-location: shell\IShellApp.htm
 old-project: shell
 ms.assetid: 2f56744c-a10e-423f-8b8f-c3257e560310
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellApp, IShellApp interface [Windows Shell], IShellApp interface [Windows Shell],described, inet_IShellApp, shappmgr/IShellApp, shell.IShellApp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shappmgr.h
 req.include-header: 

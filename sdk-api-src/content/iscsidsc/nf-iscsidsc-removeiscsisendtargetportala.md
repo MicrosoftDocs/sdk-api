@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.RemoveIScsiSendTargetPortalA
 title: RemoveIScsiSendTargetPortalA function
-author: windows-driver-content
+author: windows-sdk-content
 description: RemoveIscsiSendTargetPortal function removes a portal from the list of portals to which the iSCSI initiator service sends SendTargets requests for target discovery.
 old-location: iscsidisc\removeiscsisendtargetportal.htm
 old-project: iSCSIDisc
 ms.assetid: f9c05a86-3484-4092-b384-c599fbf1e60f
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: RemoveIScsiSendTargetPortalA, RemoveIscsiSendTargetPortal, RemoveIscsiSendTargetPortal function [iSCSI Discovery Library API], RemoveIscsiSendTargetPortalA, RemoveIscsiSendTargetPortalW, iscsidisc.removeiscsisendtargetportal, iscsidsc/RemoveIscsiSendTargetPortal, iscsidsc/RemoveIscsiSendTargetPortalA, iscsidsc/RemoveIscsiSendTargetPortalW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

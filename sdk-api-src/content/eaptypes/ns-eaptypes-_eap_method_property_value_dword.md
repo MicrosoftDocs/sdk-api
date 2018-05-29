@@ -1,16 +1,16 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_VALUE_DWORD
 title: "_EAP_METHOD_PROPERTY_VALUE_DWORD"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the DWORD value of an EAP method property.
 old-location: eaphost\eap_method_property_value_dword.htm
 old-project: EAPHost
 ms.assetid: 79a1ff42-dfd9-4408-b96c-2fbc33c2ca93
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_DWORD, EAP_METHOD_PROPERTY_VALUE_DWORD structure [EAPHost], PEAP_METHOD_PROPERTY_VALUE_DWORD, PEAP_METHOD_PROPERTY_VALUE_DWORD structure pointer [EAPHost], _EAP_METHOD_PROPERTY_VALUE_DWORD, eaphost.eap_method_property_value_dword, eaptypes/EAP_METHOD_PROPERTY_VALUE_DWORD, eaptypes/PEAP_METHOD_PROPERTY_VALUE_DWORD
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

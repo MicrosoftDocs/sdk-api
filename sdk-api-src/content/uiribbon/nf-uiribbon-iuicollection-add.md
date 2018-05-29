@@ -1,16 +1,16 @@
 ---
 UID: NF:uiribbon.IUICollection.Add
 title: IUICollection::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an item to the end of the IUICollection.
 old-location: windowsribbon\windowsribbon_iuicollection_add.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\add.htm
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: Add, Add method [Windows Ribbon], Add method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],Add method, IUICollection.Add, IUICollection::Add, scenicintent_IUICollection_Add, uiribbon/IUICollection::Add, windowsribbon.windowsribbon_iuicollection_add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 

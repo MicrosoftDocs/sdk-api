@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SetCallbackMask
 title: ListView_SetCallbackMask macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes the callback mask for a list-view control. You can use this macro or send the LVM_SETCALLBACKMASK message explicitly.
 old-location: controls\ListView_SetCallbackMask.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcallbackmask.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_OVERLAYMASK, LVIS_SELECTED, LVIS_STATEIMAGEMASK, ListView_SetCallbackMask, ListView_SetCallbackMask macro [Windows Controls], _win32_ListView_SetCallbackMask, _win32_ListView_SetCallbackMask_cpp, commctrl/ListView_SetCallbackMask, controls.ListView_SetCallbackMask, controls._win32_ListView_SetCallbackMask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

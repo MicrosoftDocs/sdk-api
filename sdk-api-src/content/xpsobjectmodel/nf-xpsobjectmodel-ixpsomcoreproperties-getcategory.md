@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetCategory
 title: IXpsOMCoreProperties::GetCategory
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the category property.
 old-location: xps\ixpsomcoreproperties_getcategory.htm
 old-project: printdocs
 ms.assetid: 97b1b0ca-a2e7-4835-aece-c2cc23481530
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetCategory, GetCategory method [XPS Documents and Packaging], GetCategory method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetCategory method, IXpsOMCoreProperties.GetCategory, IXpsOMCoreProperties::GetCategory, xps.ixpsomcoreproperties_getcategory, xpsobjectmodel/IXpsOMCoreProperties::GetCategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

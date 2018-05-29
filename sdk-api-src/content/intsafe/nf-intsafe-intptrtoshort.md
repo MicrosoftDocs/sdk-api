@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.IntPtrToShort
 title: IntPtrToShort function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type INT_PTR to a value of type SHORT.
 old-location: shell\IntPtrToShort.htm
 old-project: shell
 ms.assetid: 63b6edbb-8cff-4879-abea-560fecf0d252
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IntPtrToShort, IntPtrToShort function [Windows Shell], intsafe/IntPtrToShort, shell.IntPtrToShort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

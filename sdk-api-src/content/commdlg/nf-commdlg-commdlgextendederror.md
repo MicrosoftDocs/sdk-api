@@ -1,16 +1,16 @@
 ---
 UID: NF:commdlg.CommDlgExtendedError
 title: CommDlgExtendedError function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a common dialog box error code. This code indicates the most recent error to occur during the execution of one of the common dialog box functions.
 old-location: dlgbox\commdlgextendederror.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\commdlgextendederror.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CommDlgExtendedError, CommDlgExtendedError function [Dialog Boxes], _win32_CommDlgExtendedError, _win32_commdlgextendederror_cpp, commdlg/CommDlgExtendedError, dlgbox.commdlgextendederror, winui._win32_commdlgextendederror
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commdlg.h
 req.include-header: Windows.h

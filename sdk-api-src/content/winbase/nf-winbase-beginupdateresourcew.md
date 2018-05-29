@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.BeginUpdateResourceW
 title: BeginUpdateResourceW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a handle that can be used by the UpdateResource function to add, delete, or replace resources in a binary module.
 old-location: menurc\beginupdateresource.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\beginupdateresource.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: BeginUpdateResource, BeginUpdateResource function [Menus and Other Resources], BeginUpdateResourceA, BeginUpdateResourceW, _win32_BeginUpdateResource, _win32_beginupdateresource_cpp, menurc.beginupdateresource, winbase/BeginUpdateResource, winbase/BeginUpdateResourceA, winbase/BeginUpdateResourceW, winui._win32_beginupdateresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

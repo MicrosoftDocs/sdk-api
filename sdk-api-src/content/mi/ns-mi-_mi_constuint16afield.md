@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_ConstUint16AField
 title: "_MI_ConstUint16AField"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constuint16afield.htm
 old-project: wmi_v2
 ms.assetid: 0ef3dd39-5611-4f63-bcd6-ac46cecbd5a5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_ConstUint16AField, MI_ConstUint16AField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstUint16AField, mi/MI_ConstUint16AField, wmi._mi_constuint16afield, wmi_v2.mi_constuint16afield
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

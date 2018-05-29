@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.PointF.PointF
 title: PointF::PointF
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a PointF object and initializes the X and Y data members to zero. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_PointF_PointF_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointfclass\pointfconstructors\pointf_52.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PointF, PointF class [GDI+],PointF constructor, PointF constructor [GDI+], PointF constructor [GDI+],PointF class, PointF.PointF, PointF.PointF(), PointF::PointF, _gdiplus_CLASS_PointF_PointF_, gdiplus._gdiplus_CLASS_PointF_PointF_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

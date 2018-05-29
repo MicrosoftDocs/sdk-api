@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDataTransferManagerInterop.ShowShareUIForWindow
 title: IDataTransferManagerInterop::ShowShareUIForWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays the UI for sharing content for the specified window.
 old-location: shell\idatatransfermanagerinterop_showshareuiforwindow.htm
 old-project: shell
 ms.assetid: 095AE176-5EA1-470E-AA4A-ACD91AF54E5D
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDataTransferManagerInterop interface [Windows Shell],ShowShareUIForWindow method, IDataTransferManagerInterop.ShowShareUIForWindow, IDataTransferManagerInterop::ShowShareUIForWindow, ShowShareUIForWindow, ShowShareUIForWindow method [Windows Shell], ShowShareUIForWindow method [Windows Shell],IDataTransferManagerInterop interface, shell.idatatransfermanagerinterop_showshareuiforwindow, shobjidl_core/IDataTransferManagerInterop::ShowShareUIForWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

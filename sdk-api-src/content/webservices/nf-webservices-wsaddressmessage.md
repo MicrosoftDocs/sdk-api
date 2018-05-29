@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsAddressMessage
 title: WsAddressMessage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Addresses a message to a specified endpoint address.
 old-location: wsw\wsaddressmessage.htm
 old-project: wsw
 ms.assetid: 30b2dbd1-7232-4ff1-b30a-920df8bfe423
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsAddressMessage, WsAddressMessage function [Web Services for Windows], webservices/WsAddressMessage, wsw.wsaddressmessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.ISimpleFrameSite
 title: ISimpleFrameSite
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides simple frame controls that act as simple containers for other nested controls.
 old-location: com\isimpleframesite.htm
 old-project: com
 ms.assetid: ccddeae4-14fc-47df-a612-83d48a479b48
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISimpleFrameSite, ISimpleFrameSite interface [COM], ISimpleFrameSite interface [COM],described, _ctrl_isimpleframesite, com.isimpleframesite, ocidl/ISimpleFrameSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.IWSDSignatureProperty.GetSignedInfoHash
 title: IWSDSignatureProperty::GetSignedInfoHash
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the hash of a message signature.
 old-location: ncd\iwsdsignatureproperty_getsignedinfohash.htm
 old-project: WsdApi
 ms.assetid: 95e34e7a-18d1-4402-bfd2-5f73d663c181
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetSignedInfoHash, GetSignedInfoHash method, GetSignedInfoHash method,IWSDSignatureProperty interface, IWSDSignatureProperty interface,GetSignedInfoHash method, IWSDSignatureProperty.GetSignedInfoHash, IWSDSignatureProperty::GetSignedInfoHash, ncd.iwsdsignatureproperty_getsignedinfohash, wsdbase/IWSDSignatureProperty::GetSignedInfoHash
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IResultsFolder.AddIDList
 title: IResultsFolder::AddIDList
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts a pointer to an item identifier list (PIDL) into a results folder.
 old-location: shell\IResultsFolder_AddIDList.htm
 old-project: shell
 ms.assetid: 0514fe4d-87d3-4665-a35b-9f9788fc169d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddIDList, AddIDList method [Windows Shell], AddIDList method [Windows Shell],IResultsFolder interface, IResultsFolder interface [Windows Shell],AddIDList method, IResultsFolder.AddIDList, IResultsFolder::AddIDList, _shell_IResultsFolder_AddIDList, shell.IResultsFolder_AddIDList, shobjidl/IResultsFolder::AddIDList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

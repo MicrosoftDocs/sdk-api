@@ -1,16 +1,16 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessor.VideoProcessBlt
 title: IDirectXVideoProcessor::VideoProcessBlt
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs a video process operation on one or more input samples and writes the result to a Direct3D9 surface.
 old-location: mf\idirectxvideoprocessor_videoprocessblt.htm
 old-project: medfound
 ms.assetid: 4a199ad3-621e-4594-a9f8-ad6cfd560cec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 4a199ad3-621e-4594-a9f8-ad6cfd560cec, IDirectXVideoProcessor interface [Media Foundation],VideoProcessBlt method, IDirectXVideoProcessor.VideoProcessBlt, IDirectXVideoProcessor::VideoProcessBlt, VideoProcessBlt, VideoProcessBlt method [Media Foundation], VideoProcessBlt method [Media Foundation],IDirectXVideoProcessor interface, dxva2api/IDirectXVideoProcessor::VideoProcessBlt, mf.idirectxvideoprocessor_videoprocessblt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 

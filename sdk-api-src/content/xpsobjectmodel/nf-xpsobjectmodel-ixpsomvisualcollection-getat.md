@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.GetAt
 title: IXpsOMVisualCollection::GetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IXpsOMVisual interface pointer from a specified location in the collection.
 old-location: xps\ixpsomvisualcollection_getat.htm
 old-project: printdocs
 ms.assetid: 8bd54fab-64e8-42a5-ac9d-fa19328b1acb
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, IXpsOMVisualCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMVisualCollection.GetAt, IXpsOMVisualCollection::GetAt, xps.ixpsomvisualcollection_getat, xpsobjectmodel/IXpsOMVisualCollection::GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

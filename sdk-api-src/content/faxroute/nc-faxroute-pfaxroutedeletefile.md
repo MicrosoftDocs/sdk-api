@@ -1,16 +1,16 @@
 ---
 UID: NC:faxroute.PFAXROUTEDELETEFILE
 title: PFAXROUTEDELETEFILE
-author: windows-driver-content
+author: windows-sdk-content
 description: A fax routing method calls the FaxRouteDeleteFile callback function to delete a file from the fax file list associated with a received fax document.
 old-location: fax\_mfax_faxroutedeletefile.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_3691.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxRouteDeleteFile, FaxRouteDeleteFile callback function [Fax Service], PFAXROUTEDELETEFILE, PFAXROUTEDELETEFILE callback, _mfax_faxroutedeletefile, fax._mfax_faxroutedeletefile, faxroute/FaxRouteDeleteFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: faxroute.h
 req.include-header: 

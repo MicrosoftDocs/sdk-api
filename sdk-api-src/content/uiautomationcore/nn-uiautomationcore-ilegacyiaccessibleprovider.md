@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.ILegacyIAccessibleProvider
 title: ILegacyIAccessibleProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables Microsoft UI Automation clients to access the underlying IAccessible implementation of Microsoft Active Accessibility elements.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider.htm
 old-project: WinAuto
 ms.assetid: 9d911238-05d9-4bba-920f-40ca23ab9549
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ILegacyIAccessibleProvider, ILegacyIAccessibleProvider interface [Windows Accessibility], ILegacyIAccessibleProvider interface [Windows Accessibility],described, uiauto.uiauto_ILegacyIAccessibleProvider, uiauto_ILegacyIAccessibleProvider, uiautomationcore/ILegacyIAccessibleProvider, winauto.uiauto_ILegacyIAccessibleProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

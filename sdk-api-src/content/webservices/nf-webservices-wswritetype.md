@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsWriteType
 title: WsWriteType function
-author: windows-driver-content
+author: windows-sdk-content
 description: Write a value of a given WS_TYPE to XML according to the WS_TYPE_MAPPING.
 old-location: wsw\wswritetype.htm
 old-project: wsw
 ms.assetid: cab1b4d6-c18b-4740-b4a4-61e70ea181d9
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsWriteType, WsWriteType function [Web Services for Windows], webservices/WsWriteType, wsw.wswritetype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.IOCSPProperty.put_Value
 title: IOCSPProperty::put_Value
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the data part of the name-value pair represented by an OCSPProperty object.
 old-location: security\iocspproperty_value_method.htm
 old-project: SecCrypto
 ms.assetid: 6c0b37fb-381d-4224-9d4a-a22e9b2b4e6e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IOCSPProperty interface [Security],Value property, IOCSPProperty.Value, IOCSPProperty.put_Value, IOCSPProperty::Value, IOCSPProperty::get_Value, IOCSPProperty::put_Value, Value property [Security], Value property [Security],IOCSPProperty interface, certadm/IOCSPProperty::Value, certadm/IOCSPProperty::get_Value, certadm/IOCSPProperty::put_Value, put_Value, security.iocspproperty_value_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

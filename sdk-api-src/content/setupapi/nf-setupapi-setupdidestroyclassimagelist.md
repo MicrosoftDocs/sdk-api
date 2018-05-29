@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiDestroyClassImageList
 title: SetupDiDestroyClassImageList function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiDestroyClassImageList function destroys a class image list that was built by a call to SetupDiGetClassImageList or SetupDiGetClassImageListEx.
 old-location: devinst\setupdidestroyclassimagelist.htm
 old-project: devinst
 ms.assetid: 47ccc16c-b061-489b-b534-5b5929c5d010
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiDestroyClassImageList, SetupDiDestroyClassImageList function [Device and Driver Installation], devinst.setupdidestroyclassimagelist, di-rtns_15428f4d-4785-460b-9da1-746cf2c69159.xml, setupapi/SetupDiDestroyClassImageList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

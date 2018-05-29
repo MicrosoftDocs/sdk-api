@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcMgmtStopServerListening
 title: RpcMgmtStopServerListening function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcMgmtStopServerListening function tells a server to stop listening for remote procedure calls. This function will not affect auto-listen interfaces. See RpcServerRegisterIfEx for more details.
 old-location: rpc\rpcmgmtstopserverlistening.htm
 old-project: Rpc
 ms.assetid: aeb6084a-e2ea-4468-85f8-2ae6cc4dbe84
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcMgmtStopServerListening, RpcMgmtStopServerListening function [RPC], _rpc_rpcmgmtstopserverlistening, rpc.rpcmgmtstopserverlistening, rpcdce/RpcMgmtStopServerListening
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

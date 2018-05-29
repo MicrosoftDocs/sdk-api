@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.RemoveAt
 title: IXpsOMPartUriCollection::RemoveAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes and releases an IOpcPartUri interface pointer from a specified location in the collection.
 old-location: xps\ixpsomparturicollection_removeat.htm
 old-project: printdocs
 ms.assetid: db5e7595-eba0-454f-8fb3-f129ab537886
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPartUriCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMPartUriCollection.RemoveAt, IXpsOMPartUriCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, xps.ixpsomparturicollection_removeat, xpsobjectmodel/IXpsOMPartUriCollection::RemoveAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

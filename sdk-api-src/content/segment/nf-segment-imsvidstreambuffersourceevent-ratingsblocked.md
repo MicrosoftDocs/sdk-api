@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.RatingsBlocked
 title: IMSVidStreamBufferSourceEvent::RatingsBlocked
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_ratingsblocked.htm
 old-project: mstv
 ms.assetid: 1d5e510e-9629-4249-a704-b7a995d27edf
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],RatingsBlocked method, IMSVidStreamBufferSourceEvent.RatingsBlocked, IMSVidStreamBufferSourceEvent::RatingsBlocked, IMSVidStreamBufferSourceEventRatingsBlocked, RatingsBlocked, RatingsBlocked method [Microsoft TV Technologies], RatingsBlocked method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_ratingsblocked, segment/IMSVidStreamBufferSourceEvent::RatingsBlocked
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRow.SetKeepTogether
 title: ITextRow::SetKeepTogether
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets whether this row is allowed to be broken across pages.
 old-location: controls\itextrow_setkeeptogether.htm
 old-project: Controls
 ms.assetid: ca2130b4-3e29-43d7-b03d-a6c45897e447
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRow interface [Windows Controls],SetKeepTogether method, ITextRow.SetKeepTogether, ITextRow::SetKeepTogether, SetKeepTogether, SetKeepTogether method [Windows Controls], SetKeepTogether method [Windows Controls],ITextRow interface, controls.itextrow_setkeeptogether, tom/ITextRow::SetKeepTogether
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

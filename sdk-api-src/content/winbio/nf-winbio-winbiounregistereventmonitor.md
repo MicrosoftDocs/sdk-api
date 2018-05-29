@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioUnregisterEventMonitor
 title: WinBioUnregisterEventMonitor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels event notifications from the service provider associated with an open biometric session.
 old-location: secbiomet\winbiounregistereventmonitor.htm
 old-project: SecBioMet
 ms.assetid: 41a018be-2c7e-4700-8447-4fd5f919e5ba
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WinBioUnregisterEventMonitor, WinBioUnregisterEventMonitor function [Windows Biometric Framework API], secbiomet.winbiounregistereventmonitor, winbio/WinBioUnregisterEventMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

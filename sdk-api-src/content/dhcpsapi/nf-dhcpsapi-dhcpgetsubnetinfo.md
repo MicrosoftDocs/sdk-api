@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpGetSubnetInfo
 title: DhcpGetSubnetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DhcpGetSubnetInfo function returns information on a specific subnet.
 old-location: dhcp\dhcpgetsubnetinfo.htm
 old-project: DHCP
 ms.assetid: 0e511993-a9c3-445b-bafc-3d66182ee32d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpGetSubnetInfo, DhcpGetSubnetInfo function [DHCP], dhcp.dhcpgetsubnetinfo, dhcpsapi/DhcpGetSubnetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

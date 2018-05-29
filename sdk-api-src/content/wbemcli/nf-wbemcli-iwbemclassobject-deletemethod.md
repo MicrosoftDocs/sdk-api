@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.DeleteMethod
 title: IWbemClassObject::DeleteMethod
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the IWbemClassObject::DeleteMethod method to delete a method. This call is supported only if the current object is a CIM class definition. Method manipulation is not available from IWbemClassObject pointers which point to CIM instances.
 old-location: wmi\iwbemclassobject_deletemethod.htm
 old-project: WmiSdk
 ms.assetid: 75502b28-1157-4bdd-ba8f-d2cf0c1228c4
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: DeleteMethod, DeleteMethod method [Windows Management Instrumentation], DeleteMethod method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],DeleteMethod method, IWbemClassObject.DeleteMethod, IWbemClassObject::DeleteMethod, _hmm_iwbemclassobject_deletemethod, wbemcli/IWbemClassObject::DeleteMethod, wmi.iwbemclassobject_deletemethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

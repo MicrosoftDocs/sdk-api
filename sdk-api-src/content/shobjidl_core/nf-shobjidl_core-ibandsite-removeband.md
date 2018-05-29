@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IBandSite.RemoveBand
 title: IBandSite::RemoveBand
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a band from the band site.
 old-location: shell\IBandSite_RemoveBand.htm
 old-project: shell
 ms.assetid: 5af20633-fab4-4fda-84c9-6bbdb9d588ec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBandSite interface [Windows Shell],RemoveBand method, IBandSite.RemoveBand, IBandSite::RemoveBand, RemoveBand, RemoveBand method [Windows Shell], RemoveBand method [Windows Shell],IBandSite interface, _win32_IBandSite_RemoveBand, shell.IBandSite_RemoveBand, shobjidl_core/IBandSite::RemoveBand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h

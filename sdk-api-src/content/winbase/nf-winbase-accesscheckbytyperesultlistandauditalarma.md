@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.AccessCheckByTypeResultListAndAuditAlarmA
 title: AccessCheckByTypeResultListAndAuditAlarmA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a security descriptor grants a specified set of access rights to the client being impersonated by the calling thread.
 old-location: security\accesscheckbytyperesultlistandauditalarm.htm
 old-project: SecAuthZ
 ms.assetid: 4b53a15a-5a6b-40c7-acf8-26b1f4bca4ae
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AccessCheckByTypeResultListAndAuditAlarm, AccessCheckByTypeResultListAndAuditAlarm function [Security], AccessCheckByTypeResultListAndAuditAlarmA, AccessCheckByTypeResultListAndAuditAlarmW, _win32_accesscheckbytyperesultlistandauditalarm, security.accesscheckbytyperesultlistandauditalarm, winbase/AccessCheckByTypeResultListAndAuditAlarm, winbase/AccessCheckByTypeResultListAndAuditAlarmA, winbase/AccessCheckByTypeResultListAndAuditAlarmW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

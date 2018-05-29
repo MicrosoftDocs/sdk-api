@@ -1,16 +1,16 @@
 ---
 UID: NL:gdiplusheaders.Region
 title: Region
-author: windows-driver-content
+author: windows-sdk-content
 description: The Region class describes an area of the display surface.
 old-location: gdiplus\_gdiplus_CLASS_Region_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\region.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Region, Region class [GDI+], Region class [GDI+],described, _gdiplus_CLASS_Region_Class, gdiplus._gdiplus_CLASS_Region_Class, gdiplusheaders/Region
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: gdiplusheaders.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetParamForMethodIndex
 title: IMetaDataImport::GetParamForMethodIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the token that represents a specified parameter of the method represented by the specified MethodDef token.
 old-location: winrt\imetadataimport_getparamformethodindex.htm
 old-project: WinRT
 ms.assetid: 118a5ab3-b7db-4e0c-bf45-ab7e2e0e4f03
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetParamForMethodIndex, GetParamForMethodIndex method [Windows Runtime], GetParamForMethodIndex method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetParamForMethodIndex method, IMetaDataImport.GetParamForMethodIndex, IMetaDataImport::GetParamForMethodIndex, rometadataapi/IMetaDataImport::GetParamForMethodIndex, winrt.imetadataimport_getparamformethodindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetEventLogInformation
 title: GetEventLogInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the specified event log.
 old-location: base\geteventloginformation.htm
 old-project: EventLog
 ms.assetid: 627e0af2-3ce6-47fe-89c6-d7c0483cb94b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EVENTLOG_FULL_INFO, GetEventLogInformation, GetEventLogInformation function, _win32_geteventloginformation, base.geteventloginformation, winbase/GetEventLogInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

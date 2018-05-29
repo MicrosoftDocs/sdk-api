@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerCollabGetPresenceInfo
 title: PeerCollabGetPresenceInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the presence information for the endpoint associated with a specific contact.
 old-location: p2p\peercollabgetpresenceinfo.htm
 old-project: P2PSdk
 ms.assetid: 596191a1-94cf-4497-aaf0-951e2c63b145
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerCollabGetPresenceInfo, PeerCollabGetPresenceInfo function [Peer Networking], p2p.peercollabgetpresenceinfo, p2p/PeerCollabGetPresenceInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

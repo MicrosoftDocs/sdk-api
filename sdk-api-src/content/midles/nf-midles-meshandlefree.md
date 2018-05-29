@@ -1,16 +1,16 @@
 ---
 UID: NF:midles.MesHandleFree
 title: MesHandleFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MesHandleFree function frees the memory allocated by the serialization handle.
 old-location: rpc\meshandlefree.htm
 old-project: Rpc
 ms.assetid: d4a4ac59-56fb-4693-9007-f358105f82f0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MesHandleFree, MesHandleFree function [RPC], _rpc_meshandlefree, midles/MesHandleFree, rpc.meshandlefree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: midles.h
 req.include-header: Rpc.h

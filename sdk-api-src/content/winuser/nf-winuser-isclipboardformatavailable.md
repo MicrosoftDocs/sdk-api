@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.IsClipboardFormatAvailable
 title: IsClipboardFormatAvailable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the clipboard contains data in the specified format.
 old-location: dataxchg\isclipboardformatavailable.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\isclipboardformatavailable.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IsClipboardFormatAvailable, IsClipboardFormatAvailable function [Data Exchange], _win32_IsClipboardFormatAvailable, _win32_isclipboardformatavailable_cpp, dataxchg.isclipboardformatavailable, winui._win32_isclipboardformatavailable, winuser/IsClipboardFormatAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

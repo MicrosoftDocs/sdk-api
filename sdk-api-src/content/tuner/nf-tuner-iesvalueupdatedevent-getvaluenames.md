@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESValueUpdatedEvent.GetValueNames
 title: IESValueUpdatedEvent::GetValueNames
-author: windows-driver-content
+author: windows-sdk-content
 description: For a name-value pair in the PBDA General Purpose Name-Value Service, gets the name for the value that has been updated.
 old-location: mstv\iesvalueupdatedevent_getvaluenames.htm
 old-project: mstv
 ms.assetid: bc008b4a-fa6f-4b62-90da-417813081344
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetValueNames, GetValueNames method [Microsoft TV Technologies], GetValueNames method [Microsoft TV Technologies],IESValueUpdatedEvent interface, IESValueUpdatedEvent interface [Microsoft TV Technologies],GetValueNames method, IESValueUpdatedEvent.GetValueNames, IESValueUpdatedEvent::GetValueNames, mstv.iesvalueupdatedevent_getvaluenames, tuner/IESValueUpdatedEvent::GetValueNames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

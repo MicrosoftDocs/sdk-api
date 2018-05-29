@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryWriter.RemoveMetadataByName
 title: IWICMetadataQueryWriter::RemoveMetadataByName
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a metadata item from a specific location using a metadata query expression.
 old-location: wic\_wic_codec_iwicmetadataquerywriter_removemetadatabyname.htm
 old-project: wic
 ms.assetid: 419d56db-42a6-4467-8ec5-7c7d2c5cdcf4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICMetadataQueryWriter interface [Windows Imaging Component],RemoveMetadataByName method, IWICMetadataQueryWriter.RemoveMetadataByName, IWICMetadataQueryWriter::RemoveMetadataByName, RemoveMetadataByName, RemoveMetadataByName method [Windows Imaging Component], RemoveMetadataByName method [Windows Imaging Component],IWICMetadataQueryWriter interface, _wic_codec_iwicmetadataquerywriter_removemetadatabyname, wic._wic_codec_iwicmetadataquerywriter_removemetadatabyname, wincodec/IWICMetadataQueryWriter::RemoveMetadataByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

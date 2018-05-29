@@ -1,16 +1,16 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyJob3.GetFileACLFlags
 title: IBackgroundCopyJob3::GetFileACLFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the flags that identify the owner and ACL information to maintain when transferring a file using SMB.
 old-location: bits\ibackgroundcopyjob3_getfileaclflags.htm
 old-project: Bits
 ms.assetid: 569df1e5-d45a-4f18-82ad-1e4957f47d94
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BG_COPY_FILE_ALL, BG_COPY_FILE_DACL, BG_COPY_FILE_GROUP, BG_COPY_FILE_OWNER, BG_COPY_FILE_SACL, GetFileACLFlags, GetFileACLFlags method [BITS], GetFileACLFlags method [BITS],IBackgroundCopyJob3 interface, IBackgroundCopyJob3 interface [BITS],GetFileACLFlags method, IBackgroundCopyJob3.GetFileACLFlags, IBackgroundCopyJob3::GetFileACLFlags, bits.ibackgroundcopyjob3_getfileaclflags, bits2_0/IBackgroundCopyJob3::GetFileACLFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits2_0.h
 req.include-header: Bits.h

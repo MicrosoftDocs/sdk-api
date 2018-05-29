@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertAddEncodedCertificateToStore
 title: CertAddEncodedCertificateToStore function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a certificate context from an encoded certificate and adds it to the certificate store.
 old-location: security\certaddencodedcertificatetostore.htm
 old-project: SecCrypto
 ms.assetid: 7c092bf5-f8b2-47d0-94ee-c8e0f4bca62d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_REPLACE_EXISTING_INHERIT_PROPERTIES, CERT_STORE_ADD_USE_EXISTING, CertAddEncodedCertificateToStore, CertAddEncodedCertificateToStore function [Security], _crypto2_certaddencodedcertificatetostore, security.certaddencodedcertificatetostore, wincrypt/CertAddEncodedCertificateToStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.get_IncludePotentiallySupersededUpdates
 title: IUpdateSearcher::get_IncludePotentiallySupersededUpdates
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets and sets a Boolean value that indicates whether the search results include updates that are superseded by other updates in the search results.
 old-location: wua\iupdatesearcher_includepotentiallysupersededupdates.htm
 old-project: Wua_Sdk
 ms.assetid: e01be972-e5d1-4b37-9ac4-cf9966ed0a4d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],IncludePotentiallySupersededUpdates property, IUpdateSearcher.IncludePotentiallySupersededUpdates, IUpdateSearcher.get_IncludePotentiallySupersededUpdates, IUpdateSearcher::IncludePotentiallySupersededUpdates, IUpdateSearcher::get_IncludePotentiallySupersededUpdates, IUpdateSearcher::put_IncludePotentiallySupersededUpdates, IncludePotentiallySupersededUpdates property [Windows Update Agent], IncludePotentiallySupersededUpdates property [Windows Update Agent],IUpdateSearcher interface, get_IncludePotentiallySupersededUpdates, wua.iupdatesearcher_includepotentiallysupersededupdates, wua.iupdatesearcherincludepotentiallysupercededupdates, wuapi/IUpdateSearcher::IncludePotentiallySupersededUpdates, wuapi/IUpdateSearcher::get_IncludePotentiallySupersededUpdates, wuapi/IUpdateSearcher::put_IncludePotentiallySupersededUpdates
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

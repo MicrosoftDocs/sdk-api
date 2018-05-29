@@ -1,16 +1,16 @@
 ---
 UID: NF:rend.ITDirectory.get_DisplayName
 title: ITDirectory::get_DisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_DisplayName method gets displayable name for directory.
 old-location: tapi3\itdirectory_get_displayname.htm
 old-project: Tapi
 ms.assetid: a564e501-089e-41fc-9e81-bd0c9e6f951d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITDirectory interface [TAPI 2.2],get_DisplayName method, ITDirectory.get_DisplayName, ITDirectory::get_DisplayName, _tapi3_itdirectory_get_displayname, get_DisplayName, get_DisplayName method [TAPI 2.2], get_DisplayName method [TAPI 2.2],ITDirectory interface, rend/ITDirectory::get_DisplayName, tapi3.itdirectory_get_displayname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rend.h
 req.include-header: 

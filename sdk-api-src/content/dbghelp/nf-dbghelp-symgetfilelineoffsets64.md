@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymGetFileLineOffsets64
 title: SymGetFileLineOffsets64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates line information for the specified module and file name.
 old-location: base\symgetfilelineoffsets64.htm
 old-project: Debug
 ms.assetid: c83deef1-3476-4d06-a2e1-a3428c2f44d7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymGetFileLineOffsets64, SymGetFileLineOffsets64 function, base.symgetfilelineoffsets64, dbghelp/SymGetFileLineOffsets64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

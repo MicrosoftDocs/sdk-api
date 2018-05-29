@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRMixerBitmap.GetAlphaBitmapParameters
 title: IVMRMixerBitmap::GetAlphaBitmapParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAlphaBitmapParameters method retrieves a copy of the current image and related blending parameters.
 old-location: dshow\ivmrmixerbitmap_getalphabitmapparameters.htm
 old-project: DirectShow
 ms.assetid: d03cc6ad-e09b-4af7-93b7-51880465c0b6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAlphaBitmapParameters, GetAlphaBitmapParameters method [DirectShow], GetAlphaBitmapParameters method [DirectShow],IVMRMixerBitmap interface, IVMRMixerBitmap interface [DirectShow],GetAlphaBitmapParameters method, IVMRMixerBitmap.GetAlphaBitmapParameters, IVMRMixerBitmap::GetAlphaBitmapParameters, IVMRMixerBitmapGetAlphaBitmapParameters, dshow.ivmrmixerbitmap_getalphabitmapparameters, strmif/IVMRMixerBitmap::GetAlphaBitmapParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

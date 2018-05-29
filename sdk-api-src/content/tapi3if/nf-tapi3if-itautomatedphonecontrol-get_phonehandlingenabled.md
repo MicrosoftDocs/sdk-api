@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_PhoneHandlingEnabled
 title: ITAutomatedPhoneControl::get_PhoneHandlingEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_PhoneHandlingEnabled method retrieves the current value of the PhoneHandlingEnabled property.
 old-location: tapi3\itautomatedphonecontrol_get_phonehandlingenabled.htm
 old-project: Tapi
 ms.assetid: a6174caa-6045-4b82-9b13-11b86f8cf8a8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_PhoneHandlingEnabled method, ITAutomatedPhoneControl.get_PhoneHandlingEnabled, ITAutomatedPhoneControl::get_PhoneHandlingEnabled, _tapi3_itautomatedphonecontrol_get_phonehandlingenabled, get_PhoneHandlingEnabled, get_PhoneHandlingEnabled method [TAPI 2.2], get_PhoneHandlingEnabled method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_phonehandlingenabled, tapi3if/ITAutomatedPhoneControl::get_PhoneHandlingEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

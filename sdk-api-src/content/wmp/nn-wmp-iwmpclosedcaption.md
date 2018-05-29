@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPClosedCaption
 title: IWMPClosedCaption
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPClosedCaption interface provides a way to include captions with a digital media file. The captioning text is in a Synchronized Accessible Media Interchange (SAMI) file.
 old-location: wmp\iwmpclosedcaption.htm
 old-project: WMP
 ms.assetid: fd67e139-0bc1-459e-b43b-bf07f6f656ed
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPClosedCaption, IWMPClosedCaption interface [Windows Media Player], IWMPClosedCaption interface [Windows Media Player],described, IWMPClosedCaptionInterface, wmp.iwmpclosedcaption, wmp/IWMPClosedCaption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

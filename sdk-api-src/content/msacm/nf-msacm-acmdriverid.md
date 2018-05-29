@@ -1,16 +1,16 @@
 ---
 UID: NF:msacm.acmDriverID
 title: acmDriverID function
-author: windows-driver-content
+author: windows-sdk-content
 description: The acmDriverID function returns the handle of an ACM driver identifier associated with an open ACM driver instance or stream handle.
 old-location: multimedia\acmdriverid.htm
 old-project: Multimedia
 ms.assetid: d88ec472-80b7-4563-a09d-65e0e829c14e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_acmDriverID, acmDriverID, acmDriverID function [Windows Multimedia], msacm/acmDriverID, multimedia.acmdriverid"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

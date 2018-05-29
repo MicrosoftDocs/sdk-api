@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509ExtensionAlternativeNames
 title: IX509ExtensionAlternativeNames
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables you to specify one or more alternative name forms for the subject of a certificate. A certification authority processes the extension by binding the names to the certified public key.
 old-location: security\ix509extensionalternativenames.htm
 old-project: SecCertEnroll
 ms.assetid: facfcc85-c1ca-47a1-90a6-10522b15cc65
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509ExtensionAlternativeNames, IX509ExtensionAlternativeNames interface [Security], IX509ExtensionAlternativeNames interface [Security],described, certenroll/IX509ExtensionAlternativeNames, security.ix509extensionalternativenames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

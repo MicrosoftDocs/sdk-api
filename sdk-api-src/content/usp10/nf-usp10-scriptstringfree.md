@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptStringFree
 title: ScriptStringFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a SCRIPT_STRING_ANALYSIS structure.
 old-location: intl\scriptstringfree.htm
 old-project: Intl
 ms.assetid: 39d633a7-def7-41ef-80e5-f4c5c90cebba
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptStringFree, ScriptStringFree function [Internationalization for Windows Applications], _win32_ScriptStringFree, intl.scriptstringfree, usp10/ScriptStringFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

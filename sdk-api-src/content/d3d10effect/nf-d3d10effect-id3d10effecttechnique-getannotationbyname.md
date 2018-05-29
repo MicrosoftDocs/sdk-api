@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectTechnique.GetAnnotationByName
 title: ID3D10EffectTechnique::GetAnnotationByName
-author: windows-driver-content
+author: windows-sdk-content
 description: Get an annotation by name.
 old-location: direct3d10\id3d10effecttechnique_getannotationbyname.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttechnique_getannotationbyname.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetAnnotationByName, GetAnnotationByName method [Direct3D 10], GetAnnotationByName method [Direct3D 10],ID3D10EffectTechnique interface, ID3D10EffectTechnique interface [Direct3D 10],GetAnnotationByName method, ID3D10EffectTechnique.GetAnnotationByName, ID3D10EffectTechnique::GetAnnotationByName, bab9e1c3-3845-0dbe-c407-02592ee3101c, d3d10effect/ID3D10EffectTechnique::GetAnnotationByName, direct3d10.id3d10effecttechnique_getannotationbyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

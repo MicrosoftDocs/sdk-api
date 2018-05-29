@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellView2.GetView
 title: IShellView2::GetView
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests the current or default Shell view, together with all other valid view identifiers (VIDs) supported by this implementation of IShellView2.
 old-location: shell\IShellView2_GetView.htm
 old-project: shell
 ms.assetid: 74fe42fe-33de-483a-88e4-50da9c1f77c2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetView, GetView method [Windows Shell], GetView method [Windows Shell],IShellView2 interface, IShellView2 interface [Windows Shell],GetView method, IShellView2.GetView, IShellView2::GetView, SV2GV_CURRENTVIEW, SV2GV_DEFAULTVIEW, VID_Details, VID_LargeIcons, VID_List, VID_SmallIcons, VID_Tile, _win32_IShellView2_GetView, shell.IShellView2_GetView, shobjidl_core/IShellView2::GetView
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

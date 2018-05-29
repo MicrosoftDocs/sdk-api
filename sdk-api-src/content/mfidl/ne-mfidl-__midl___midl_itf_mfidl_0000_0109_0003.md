@@ -1,16 +1,16 @@
 ---
 UID: NE:mfidl.__MIDL___MIDL_itf_mfidl_0000_0109_0003
 title: "__MIDL___MIDL_itf_mfidl_0000_0109_0003"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the sharing mode of an IMFSensorDevice.
 old-location: mf\mfsensordevicemode.htm
 old-project: medfound
 ms.assetid: D405AB48-13EC-4859-91B6-0DB797F85DBE
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFSensorDeviceMode, MFSensorDeviceMode enumeration [Media Foundation], MFSensorDeviceMode_Controller, MFSensorDeviceMode_Shared, __MIDL___MIDL_itf_mfidl_0000_0109_0003, mf.mfsensordevicemode, mfidl/MFSensorDeviceMode, mfidl/MFSensorDeviceMode_Controller, mfidl/MFSensorDeviceMode_Shared
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

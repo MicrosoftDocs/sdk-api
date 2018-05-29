@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsListRolesA
 title: DsListRolesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DsListRoles function lists roles recognized by the server.
 old-location: ad\dslistroles.htm
 old-project: AD
 ms.assetid: 679a2dca-019b-4f6e-acd9-efb30e0d4b44
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_ROLE_DOMAIN_OWNER, DS_ROLE_INFRASTRUCTURE_OWNER, DS_ROLE_PDC_OWNER, DS_ROLE_RID_OWNER, DS_ROLE_SCHEMA_OWNER, DsListRoles, DsListRoles function [Active Directory], DsListRolesA, DsListRolesW, _glines_dslistroles, ad.dslistroles, ntdsapi/DsListRoles, ntdsapi/DsListRolesA, ntdsapi/DsListRolesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

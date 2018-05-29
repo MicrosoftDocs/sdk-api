@@ -1,16 +1,16 @@
 ---
 UID: NF:netsh.MatchToken
 title: MatchToken function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a user-entered string matches a specific string.
 old-location: netshell\matchtoken.htm
 old-project: NetShell
 ms.assetid: d6389d2e-1987-4ea6-967c-260686659852
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: MatchToken, MatchToken function [NetShell], _netsh_matchtoken, netsh/MatchToken, netshell.matchtoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netsh.h
 req.include-header: 

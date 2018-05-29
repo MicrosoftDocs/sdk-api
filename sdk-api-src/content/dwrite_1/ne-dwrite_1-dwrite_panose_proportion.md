@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_PROPORTION
 title: DWRITE_PANOSE_PROPORTION
-author: windows-driver-content
+author: windows-sdk-content
 description: The DWRITE_PANOSE_PROPORTION enumeration contains values that specify the proportion of the glyph shape by considering additional detail to standard characters.
 old-location: directwrite\dwrite_panose_proportion.htm
 old-project: DirectWrite
 ms.assetid: 03A43DD4-89D1-4895-B224-9BCC8C34B2E4
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_PANOSE_PROPORTION, DWRITE_PANOSE_PROPORTION enumeration [Direct Write], DWRITE_PANOSE_PROPORTION_ANY, DWRITE_PANOSE_PROPORTION_CONDENSED, DWRITE_PANOSE_PROPORTION_EVEN_WIDTH, DWRITE_PANOSE_PROPORTION_EXPANDED, DWRITE_PANOSE_PROPORTION_MODERN, DWRITE_PANOSE_PROPORTION_MONOSPACED, DWRITE_PANOSE_PROPORTION_NO_FIT, DWRITE_PANOSE_PROPORTION_OLD_STYLE, DWRITE_PANOSE_PROPORTION_VERY_CONDENSED, DWRITE_PANOSE_PROPORTION_VERY_EXPANDED, directwrite.dwrite_panose_proportion, dwrite_1/DWRITE_PANOSE_PROPORTION, dwrite_1/DWRITE_PANOSE_PROPORTION_ANY, dwrite_1/DWRITE_PANOSE_PROPORTION_CONDENSED, dwrite_1/DWRITE_PANOSE_PROPORTION_EVEN_WIDTH, dwrite_1/DWRITE_PANOSE_PROPORTION_EXPANDED, dwrite_1/DWRITE_PANOSE_PROPORTION_MODERN, dwrite_1/DWRITE_PANOSE_PROPORTION_MONOSPACED, dwrite_1/DWRITE_PANOSE_PROPORTION_NO_FIT, dwrite_1/DWRITE_PANOSE_PROPORTION_OLD_STYLE, dwrite_1/DWRITE_PANOSE_PROPORTION_VERY_CONDENSED, dwrite_1/DWRITE_PANOSE_PROPORTION_VERY_EXPANDED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:remotesystemadditionalinfo.HSTRING_UserSize64
 title: HSTRING_UserSize64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Calculates the wire size of the HSTRING object, and gets its handle and data.
 old-location: winrt\hstring_usersize64.htm
 old-project: WinRT
 ms.assetid: 38ACC82C-959C-4E15-ABEF-0B92EE712E87
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: HSTRING_UserSize64, HSTRING_UserSize64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserSize64, winrt.hstring_usersize64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: remotesystemadditionalinfo.h
 req.include-header: Winstring.h, Inspectable.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetAllVarCustData
 title: ITypeInfo2::GetAllVarCustData
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the variable for the custom data.
 old-location: automat\itypeinfo2_getallvarcustdata.htm
 old-project: automat
 ms.assetid: d123b63e-8393-4c76-914e-87aa399aae1c
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetAllVarCustData, GetAllVarCustData method [Automation], GetAllVarCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetAllVarCustData method, ITypeInfo2.GetAllVarCustData, ITypeInfo2::GetAllVarCustData, _oa96_ITypeInfo2_GetAllVarCustData, automat.itypeinfo2_getallvarcustdata, oaidl/ITypeInfo2::GetAllVarCustData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

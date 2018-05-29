@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.ITuner.put_PreferredComponentTypes
 title: ITuner::put_PreferredComponentTypes
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_PreferredComponentTypes method sets the collection of ComponentType objects used for default component selection.
 old-location: mstv\ituner_put_preferredcomponenttypes.htm
 old-project: mstv
 ms.assetid: cca12a71-c842-4340-9233-f4143f6e0eea
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],put_PreferredComponentTypes method, ITuner.put_PreferredComponentTypes, ITuner::put_PreferredComponentTypes, ITunerput_PreferredComponentTypes, mstv.ituner_put_preferredcomponenttypes, put_PreferredComponentTypes, put_PreferredComponentTypes method [Microsoft TV Technologies], put_PreferredComponentTypes method [Microsoft TV Technologies],ITuner interface, tuner/ITuner::put_PreferredComponentTypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

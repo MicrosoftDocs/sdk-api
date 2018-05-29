@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DVolume9.GetPrivateData
 title: IDirect3DVolume9::GetPrivateData
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies the private data associated with the volume to a provided buffer.
 old-location: direct3d9\idirect3dvolume9__getprivatedata.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__getprivatedata.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 1b475aea-86d8-9a27-8391-6760763a593e, GetPrivateData, GetPrivateData method [Direct3D 9], GetPrivateData method [Direct3D 9],IDirect3DVolume9 interface, IDirect3DVolume9 interface [Direct3D 9],GetPrivateData method, IDirect3DVolume9.GetPrivateData, IDirect3DVolume9::GetPrivateData, d3d9helper/IDirect3DVolume9::GetPrivateData, direct3d9.idirect3dvolume9__getprivatedata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

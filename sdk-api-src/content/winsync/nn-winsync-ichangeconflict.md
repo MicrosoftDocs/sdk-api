@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IChangeConflict
 title: IChangeConflict
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a conflict between two items.
 old-location: winsync\ichangeconflict.htm
 old-project: winsync
 ms.assetid: b0089d3d-a1e6-4662-9e79-4c0b22c08d7f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IChangeConflict, IChangeConflict interface [Windows Sync], IChangeConflict interface [Windows Sync],described, winsync.ichangeconflict, winsync/IChangeConflict
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

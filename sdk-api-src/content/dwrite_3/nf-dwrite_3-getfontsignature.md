@@ -1,16 +1,16 @@
 ---
 UID: NF:dwrite_3.GetFontSignature
 title: GetFontSignature function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a font signature.
 old-location: directwrite\idwritegdiinterop1_getfontsignature_overload.htm
 old-project: DirectWrite
 ms.assetid: 83967afd-8309-74b7-da76-1caee04a4990
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GetFontSignature, GetFontSignature methods [Direct Write], IDWriteGdiInterop1::GetFontSignature, directwrite.idwritegdiinterop1_getfontsignature_overload, dwrite_3/GetFontSignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dwrite_3.h
 req.include-header: 

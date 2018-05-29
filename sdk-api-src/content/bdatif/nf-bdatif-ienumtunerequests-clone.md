@@ -1,16 +1,16 @@
 ---
 UID: NF:bdatif.IEnumTuneRequests.Clone
 title: IEnumTuneRequests::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: The Clone method creates a copy of the collection.
 old-location: mstv\ienumtunerequests_clone.htm
 old-project: mstv
 ms.assetid: 9910d646-c98e-479a-8abd-5d5427ef11b5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumTuneRequests interface, IEnumTuneRequests interface [Microsoft TV Technologies],Clone method, IEnumTuneRequests.Clone, IEnumTuneRequests::Clone, IEnumTuneRequestsClone, bdatif/IEnumTuneRequests::Clone, mstv.ienumtunerequests_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

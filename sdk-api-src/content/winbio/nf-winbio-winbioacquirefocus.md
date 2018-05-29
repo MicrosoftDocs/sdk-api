@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioAcquireFocus
 title: WinBioAcquireFocus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Acquires window focus.
 old-location: secbiomet\winbioacquirefocus.htm
 old-project: SecBioMet
 ms.assetid: ad8bdcc9-0317-4d35-a587-9a2f3a4144ae
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WinBioAcquireFocus, WinBioAcquireFocus function [Windows Biometric Framework API], secbiomet.winbioacquirefocus, winbio/WinBioAcquireFocus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

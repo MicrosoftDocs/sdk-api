@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock.GetAcceptExSockaddrs
 title: GetAcceptExSockaddrs function
-author: windows-driver-content
+author: windows-sdk-content
 description: Parses the data obtained from a call to the AcceptEx function and passes the local and remote addresses to a sockaddr structure.Note  This function is a Microsoft-specific extension to the Windows Sockets specification. .
 old-location: winsock\getacceptexsockaddrs_2.htm
 old-project: WinSock
 ms.assetid: 381ba8ab-3c99-45c8-8895-4c87949f5238
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: GetAcceptExSockaddrs, GetAcceptExSockaddrs function [Winsock], _win32_getacceptexsockaddrs_2, winsock.getacceptexsockaddrs_2, winsock/GetAcceptExSockaddrs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock.h
 req.include-header: Mswsock.h

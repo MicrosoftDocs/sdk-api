@@ -1,16 +1,16 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_ConnectClientPrintersAtLogon
 title: IADsTSUserEx::get_ConnectClientPrintersAtLogon
-author: windows-driver-content
+author: windows-sdk-content
 description: A value that specifies whether to reconnect to mapped client printers at logon.
 old-location: termserv\iadstsuserex_connectclientprintersatlogon.htm
 old-project: TermServ
 ms.assetid: 78fdb301-ea8c-4806-b24a-f40449e77b9a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ConnectClientPrintersAtLogon property [Remote Desktop Services], ConnectClientPrintersAtLogon property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],ConnectClientPrintersAtLogon property, IADsTSUserEx.ConnectClientPrintersAtLogon, IADsTSUserEx.get_ConnectClientPrintersAtLogon, IADsTSUserEx::ConnectClientPrintersAtLogon, IADsTSUserEx::get_ConnectClientPrintersAtLogon, IADsTSUserEx::put_ConnectClientPrintersAtLogon, get_ConnectClientPrintersAtLogon, termserv.iadstsuserex_connectclientprintersatlogon, tsuserex/IADsTSUserEx::ConnectClientPrintersAtLogon, tsuserex/IADsTSUserEx::get_ConnectClientPrintersAtLogon, tsuserex/IADsTSUserEx::put_ConnectClientPrintersAtLogon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c

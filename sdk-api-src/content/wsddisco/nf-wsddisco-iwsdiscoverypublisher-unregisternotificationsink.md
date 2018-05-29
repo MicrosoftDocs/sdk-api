@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.UnRegisterNotificationSink
 title: IWSDiscoveryPublisher::UnRegisterNotificationSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Detaches a callback notification sink from the discovery publisher.
 old-location: ncd\iwsdiscoverypublisher_unregisternotificationsink_method.htm
 old-project: WsdApi
 ms.assetid: aaf6bc07-8ce9-41f7-b468-971b31b51a86
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDiscoveryPublisher interface,UnRegisterNotificationSink method, IWSDiscoveryPublisher.UnRegisterNotificationSink, IWSDiscoveryPublisher::UnRegisterNotificationSink, UnRegisterNotificationSink, UnRegisterNotificationSink method, UnRegisterNotificationSink method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_unregisternotificationsink_method, wsddisco/IWSDiscoveryPublisher::UnRegisterNotificationSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:mfobjects._MFARGB
 title: "_MFARGB"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an ARGB color value.
 old-location: mf\mfargb.htm
 old-project: medfound
 ms.assetid: ce7ac174-9f00-42a4-9b48-ed86b406d83e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFARGB, MFARGB structure [Media Foundation], _MFARGB, ce7ac174-9f00-42a4-9b48-ed86b406d83e, mf.mfargb, mfobjects/MFARGB
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h

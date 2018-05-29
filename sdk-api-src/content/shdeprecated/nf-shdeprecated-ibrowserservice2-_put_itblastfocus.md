@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._put_itbLastFocus
 title: IBrowserService2::_put_itbLastFocus
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Sets the last toolbar or the last view with focus.
 old-location: shell\IBrowserService2__put_itbLastFocus.htm
 old-project: shell
 ms.assetid: 08b67fad-1c9d-46b6-81dd-d77721448bc6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_put_itbLastFocus method, IBrowserService2._put_itbLastFocus, IBrowserService2::_put_itbLastFocus, _put_itbLastFocus, _put_itbLastFocus method [Windows Shell], _put_itbLastFocus method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_put_itbLastFocus, shell.IBrowserService2__put_itbLastFocus, zone_IBrowserService2__put_itbLastFocus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

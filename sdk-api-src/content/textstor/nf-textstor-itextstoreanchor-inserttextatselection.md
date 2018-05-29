@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.InsertTextAtSelection
 title: ITextStoreAnchor::InsertTextAtSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: ITextStoreAnchor::InsertTextAtSelection method
 old-location: tsf\itextstoreanchor_inserttextatselection.htm
 old-project: TSF
 ms.assetid: f5cb512a-d9f5-451f-b6cb-2020ba32e855
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],InsertTextAtSelection method, ITextStoreAnchor.InsertTextAtSelection, ITextStoreAnchor::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITextStoreAnchor interface, TF_IAS_NOQUERY, TF_IAS_QUERYONLY, textstor/ITextStoreAnchor::InsertTextAtSelection, tsf.itextstoreanchor_inserttextatselection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

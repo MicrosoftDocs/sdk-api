@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.GetFinalPathNameByHandleW
 title: GetFinalPathNameByHandleW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the final path for the specified file.
 old-location: fs\getfinalpathnamebyhandle.htm
 old-project: FileIO
 ms.assetid: 02783ba9-a8d7-482f-a8b1-7cac934cf476
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FILE_NAME_NORMALIZED, FILE_NAME_OPENED, GetFinalPathNameByHandle, GetFinalPathNameByHandle function [Files], GetFinalPathNameByHandleA, GetFinalPathNameByHandleW, VOLUME_NAME_DOS, VOLUME_NAME_GUID, VOLUME_NAME_NONE, VOLUME_NAME_NT, fileapi/GetFinalPathNameByHandle, fileapi/GetFinalPathNameByHandleA, fileapi/GetFinalPathNameByHandleW, fs.getfinalpathnamebyhandle, fs.getfinalpathnamebyhandlew, winbase/GetFinalPathNameByHandle, winbase/GetFinalPathNameByHandleA, winbase/GetFinalPathNameByHandleW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

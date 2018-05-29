@@ -1,16 +1,16 @@
 ---
 UID: NE:wuapi.tagDeploymentAction
 title: tagDeploymentAction
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the action for which an update is explicitly deployed.
 old-location: wua\deploymentaction.htm
 old-project: Wua_Sdk
 ms.assetid: c192db44-05ad-4fb2-aa51-9153389d95dc
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DeploymentAction, DeploymentAction enumeration [Windows Update Agent], daDetection, daInstallation, daNone, daUninstallation, tagDeploymentAction, wua.deploymentaction, wuapi/DeploymentAction, wuapi/daDetection, wuapi/daInstallation, wuapi/daNone, wuapi/daUninstallation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.RetrieveContents
 title: IWdsTransportNamespace::RetrieveContents
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a collection of active transport content objects associated with the namespace.
 old-location: wds\iwdstransportnamespace_retrievecontents.htm
 old-project: Wds
 ms.assetid: 78afaf1c-f29f-4ab0-8329-d2199ea49c43
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],RetrieveContents method, IWdsTransportNamespace.RetrieveContents, IWdsTransportNamespace::RetrieveContents, RetrieveContents, RetrieveContents method [Windows Deployment Services], RetrieveContents method [Windows Deployment Services],IWdsTransportNamespace interface, wds.iwdstransportnamespace_retrievecontents, wdstptmgmt/IWdsTransportNamespace::RetrieveContents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

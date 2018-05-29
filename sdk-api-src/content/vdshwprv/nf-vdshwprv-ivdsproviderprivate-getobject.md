@@ -1,16 +1,16 @@
 ---
 UID: NF:vdshwprv.IVdsProviderPrivate.GetObject
 title: IVdsProviderPrivate::GetObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the specified object.
 old-location: base\ivdsproviderprivate_getobject.htm
 old-project: VDS
 ms.assetid: 3f346255-c5c6-4ca3-9718-0347c3f8294a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetObject, GetObject method [VDS], GetObject method [VDS],IVdsProviderPrivate interface, IVdsProviderPrivate interface [VDS],GetObject method, IVdsProviderPrivate.GetObject, IVdsProviderPrivate::GetObject, base.ivdsproviderprivate_getobject, vdshwprv/IVdsProviderPrivate::GetObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

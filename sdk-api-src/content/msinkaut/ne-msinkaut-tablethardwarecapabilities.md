@@ -1,16 +1,16 @@
 ---
 UID: NE:msinkaut.TabletHardwareCapabilities
 title: TabletHardwareCapabilities
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the hardware capabilities of the Tablet PC.
 old-location: tablet\tablethardwarecapabilities.htm
 old-project: tablet
 ms.assetid: ab8dfca3-df5e-40a7-9da2-d19447bc746b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: THWC_CursorMustTouch, THWC_CursorsHavePhysicalIds, THWC_HardProximity, THWC_Integrated, TabletHardwareCapabilities, TabletHardwareCapabilities enumeration [Tablet PC], ab8dfca3-df5e-40a7-9da2-d19447bc746b, msinkaut/THWC_CursorMustTouch, msinkaut/THWC_CursorsHavePhysicalIds, msinkaut/THWC_HardProximity, msinkaut/THWC_Integrated, msinkaut/TabletHardwareCapabilities, tablet.tablethardwarecapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

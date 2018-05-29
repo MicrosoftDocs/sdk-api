@@ -1,16 +1,16 @@
 ---
 UID: NF:comppkgsup.RegisterServerForPMP
 title: RegisterServerForPMP function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a COM Server CLSID and a class factory for Protected Media Process (PMP) usage.
 old-location: winprog\registerserverforpmp.htm
 old-project: DevNotes
 ms.assetid: F18A5596-F21E-427B-8281-544DD7CA9E0B
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RegisterServerForPMP, RegisterServerForPMP function [Windows API], comppkgsup/RegisterServerForPMP, winprog.registerserverforpmp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: comppkgsup.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wpcapi.IWPCSettings.GetLastSettingsChangeTime
 title: IWPCSettings::GetLastSettingsChangeTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the time at which the configuration settings were last updated.
 old-location: parcon\iwpcsettings_getlastsettingschangetime.htm
 old-project: parcon
 ms.assetid: 6fe5be0c-e6fa-481d-a28d-c5b15257b901
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetLastSettingsChangeTime, GetLastSettingsChangeTime method, GetLastSettingsChangeTime method,IWPCSettings interface, IWPCSettings interface,GetLastSettingsChangeTime method, IWPCSettings.GetLastSettingsChangeTime, IWPCSettings::GetLastSettingsChangeTime, parcon.iwpcsettings_getlastsettingschangetime, wpcapi/IWPCSettings::GetLastSettingsChangeTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 

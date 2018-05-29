@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IObjectControl.CanBePooled
 title: IObjectControl::CanBePooled
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the COM+ run-time environment whether the object can be pooled for reuse when it is deactivated.
 old-location: cos\iobjectcontrol_canbepooled.htm
 old-project: cossdk
 ms.assetid: 97f585f1-e9c2-4122-a5e9-0a10b874b06e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CanBePooled, CanBePooled method [COM+], CanBePooled method [COM+],IObjectControl interface, IObjectControl interface [COM+],CanBePooled method, IObjectControl.CanBePooled, IObjectControl::CanBePooled, _cos_IObjectControl_CanBePooled, comsvcs/IObjectControl::CanBePooled, cos.iobjectcontrol_canbepooled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

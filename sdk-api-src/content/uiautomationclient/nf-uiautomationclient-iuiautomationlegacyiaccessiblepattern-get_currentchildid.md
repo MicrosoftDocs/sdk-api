@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentChildId
 title: IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Microsoft Active Accessibility child identifier for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId.htm
 old-project: WinAuto
 ms.assetid: 63277b76-bd3f-4255-82be-24797cafd175
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentChildId property [Windows Accessibility], CurrentChildId property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentChildId property, IUIAutomationLegacyIAccessiblePattern.CurrentChildId, IUIAutomationLegacyIAccessiblePattern.get_CurrentChildId, IUIAutomationLegacyIAccessiblePattern::CurrentChildId, IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId, get_CurrentChildId, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentChildId, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentChildId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

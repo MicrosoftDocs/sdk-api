@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SetTextBkColor
 title: ListView_SetTextBkColor macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the background color of text in a list-view control. You can use this macro or send the LVM_SETTEXTBKCOLOR message explicitly.
 old-location: controls\ListView_SetTextBkColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settextbkcolor.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_SetTextBkColor, ListView_SetTextBkColor macro [Windows Controls], _win32_ListView_SetTextBkColor, _win32_ListView_SetTextBkColor_cpp, commctrl/ListView_SetTextBkColor, controls.ListView_SetTextBkColor, controls._win32_ListView_SetTextBkColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

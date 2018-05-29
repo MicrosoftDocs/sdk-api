@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleUndoUnit.GetUnitType
 title: IOleUndoUnit::GetUnitType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the CLSID and a type identifier for the undo unit.
 old-location: com\ioleundounit_getunittype.htm
 old-project: com
 ms.assetid: 1f0c719e-75cd-48dd-8bd8-78eb63cc141a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetUnitType, GetUnitType method [COM], GetUnitType method [COM],IOleUndoUnit interface, IOleUndoUnit interface [COM],GetUnitType method, IOleUndoUnit.GetUnitType, IOleUndoUnit::GetUnitType, _ole_ioleundounit_getunittype, com.ioleundounit_getunittype, ocidl/IOleUndoUnit::GetUnitType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

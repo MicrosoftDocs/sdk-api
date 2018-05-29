@@ -1,16 +1,16 @@
 ---
 UID: NF:rend.ITDirectoryObject.EnumerateDialableAddrs
 title: ITDirectoryObject::EnumerateDialableAddrs
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumerateDialableAddrs method creates an enumerator of all dialable addresses of a given type from the directory.
 old-location: tapi3\itdirectoryobject_enumeratedialableaddrs.htm
 old-project: Tapi
 ms.assetid: cee7a00e-e601-47bf-b64b-61085511da97
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EnumerateDialableAddrs, EnumerateDialableAddrs method [TAPI 2.2], EnumerateDialableAddrs method [TAPI 2.2],ITDirectoryObject interface, ITDirectoryObject interface [TAPI 2.2],EnumerateDialableAddrs method, ITDirectoryObject.EnumerateDialableAddrs, ITDirectoryObject::EnumerateDialableAddrs, _tapi3_itdirectoryobject_enumeratedialableaddrs, rend/ITDirectoryObject::EnumerateDialableAddrs, tapi3.itdirectoryobject_enumeratedialableaddrs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rend.h
 req.include-header: 

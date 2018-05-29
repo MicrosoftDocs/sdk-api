@@ -1,16 +1,16 @@
 ---
 UID: NF:roerrorapi.RoTransformErrorW
 title: RoTransformErrorW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports a transformed error and an informative string to an attached debugger.
 old-location: winrt\rotransformerrorw.htm
 old-project: WinRT
 ms.assetid: A13265FD-DC14-4552-A9FD-C954A7EA08C9
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoTransformErrorW, RoTransformErrorW function [Windows Runtime], WinRTTransformErrorW, roerrorapi/RoTransformErrorW, roerrorapi/WinRTTransformErrorW, winrt.rotransformerrorw, winrt.winrttransformerrorw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 

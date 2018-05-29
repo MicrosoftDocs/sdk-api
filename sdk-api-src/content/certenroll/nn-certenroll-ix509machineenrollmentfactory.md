@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509MachineEnrollmentFactory
 title: IX509MachineEnrollmentFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Can be used to create an IX509EnrollmentHelper object on a webpage.
 old-location: security\ix509machineenrollmentfactory.htm
 old-project: SecCertEnroll
 ms.assetid: 2f97fdd7-13ca-4427-8ec5-24302d245fdb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509MachineEnrollmentFactory, IX509MachineEnrollmentFactory interface [Security], IX509MachineEnrollmentFactory interface [Security],described, certenroll/IX509MachineEnrollmentFactory, security.ix509machineenrollmentfactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IClockVector
 title: IClockVector
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a clock vector in a knowledge structure.
 old-location: winsync\iclockvector.htm
 old-project: winsync
 ms.assetid: 31aef38d-a6df-4645-a192-9145d3ec90ad
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IClockVector, IClockVector interface [Windows Sync], IClockVector interface [Windows Sync],described, winsync.iclockvector, winsync/IClockVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCallMediaEvent.get_Stream
 title: ITCallMediaEvent::get_Stream
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Stream method gets a pointer to the ITStream interface associated with the call media event.
 old-location: tapi3\itcallmediaevent_get_stream.htm
 old-project: Tapi
 ms.assetid: 2afcb8ee-1f8c-41d0-8a8f-f34ebf09d224
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallMediaEvent interface [TAPI 2.2],get_Stream method, ITCallMediaEvent.get_Stream, ITCallMediaEvent::get_Stream, _tapi3_itcallmediaevent_get_stream, get_Stream, get_Stream method [TAPI 2.2], get_Stream method [TAPI 2.2],ITCallMediaEvent interface, tapi3.itcallmediaevent_get_stream, tapi3if/ITCallMediaEvent::get_Stream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

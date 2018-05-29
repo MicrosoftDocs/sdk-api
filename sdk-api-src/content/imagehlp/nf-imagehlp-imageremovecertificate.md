@@ -1,16 +1,16 @@
 ---
 UID: NF:imagehlp.ImageRemoveCertificate
 title: ImageRemoveCertificate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the specified certificate from the given file.
 old-location: base\imageremovecertificate.htm
 old-project: Debug
 ms.assetid: e06da4c5-6641-47f8-9dd9-4a1593e11f7b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ImageRemoveCertificate, ImageRemoveCertificate function, _win32_imageremovecertificate, base.imageremovecertificate, imagehlp/ImageRemoveCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 

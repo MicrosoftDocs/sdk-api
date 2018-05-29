@@ -1,16 +1,16 @@
 ---
 UID: NS:elscore._MAPPING_ENUM_OPTIONS
 title: "_MAPPING_ENUM_OPTIONS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains options used by the MappingGetServices function to enumerate ELS services.
 old-location: intl\mappingenumoptions.htm
 old-project: Intl
 ms.assetid: 3c5a0c04-9789-48dc-bc8f-a8b5ff350e27
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PMAPPING_ENUM_OPTIONS, MAPPING_ENUM_OPTIONS, MAPPING_ENUM_OPTIONS structure [Internationalization for Windows Applications], PMAPPING_ENUM_OPTIONS, PMAPPING_ENUM_OPTIONS structure pointer [Internationalization for Windows Applications], _MAPPING_ENUM_OPTIONS, elscore/MAPPING_ENUM_OPTIONS, elscore/PMAPPING_ENUM_OPTIONS, intl.mappingenumoptions"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: elscore.h
 req.include-header: 

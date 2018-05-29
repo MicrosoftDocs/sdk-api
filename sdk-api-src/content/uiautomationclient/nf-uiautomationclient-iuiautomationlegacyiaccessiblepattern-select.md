@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.Select
 title: IUIAutomationLegacyIAccessiblePattern::Select
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs a Microsoft Active Accessibility selection.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_Select.htm
 old-project: WinAuto
 ms.assetid: d311a10d-4762-47c9-a0bd-299da43827f7
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],Select method, IUIAutomationLegacyIAccessiblePattern.Select, IUIAutomationLegacyIAccessiblePattern::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_Select, uiauto_IUIAutomationLegacyIAccessiblePattern_Select, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::Select, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_Select
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

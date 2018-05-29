@@ -1,16 +1,16 @@
 ---
 UID: NF:methodco.MethodContext.SetStatusObject
 title: MethodContext::SetStatusObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetStatusObject method sets an internal pointer to IWbemClassObject information. WMI does not implement any functionality based on the pointer.
 old-location: wmi\methodcontext_setstatusobject.htm
 old-project: WmiSdk
 ms.assetid: 5fe1f1af-61a9-490b-95e0-c3a3efe2392d
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?SetStatusObject@MethodContext@@QAE_NPAUIWbemClassObject@@@Z, ?SetStatusObject@MethodContext@@QEAA_NPEAUIWbemClassObject@@@Z, MethodContext interface [Windows Management Instrumentation],SetStatusObject method, MethodContext.SetStatusObject, MethodContext::SetStatusObject, SetStatusObject, SetStatusObject method [Windows Management Instrumentation], SetStatusObject method [Windows Management Instrumentation],MethodContext interface, methodco/MethodContext::SetStatusObject, wmi.methodcontext_setstatusobject"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: methodco.h
 req.include-header: 

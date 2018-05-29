@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.SetNtmsObjectInformation
 title: SetNtmsObjectInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetNtmsObjectInformation function changes the information structure of the specified object.
 old-location: fs\setntmsobjectinformation.htm
 old-project: Rsm
 ms.assetid: 1cdb9c72-1b34-4800-a07d-b648baec8582
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: SetNtmsObjectInformation, SetNtmsObjectInformation function [Files], SetNtmsObjectInformationA, SetNtmsObjectInformationW, _zaw_setntmsobjectinformation, base.setntmsobjectinformation, fs.setntmsobjectinformation, ntmsapi/SetNtmsObjectInformation, ntmsapi/SetNtmsObjectInformationA, ntmsapi/SetNtmsObjectInformationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

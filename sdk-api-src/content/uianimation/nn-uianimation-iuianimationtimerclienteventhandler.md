@@ -1,16 +1,16 @@
 ---
 UID: NN:uianimation.IUIAnimationTimerClientEventHandler
 title: IUIAnimationTimerClientEventHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a method for handling events related to changes in timer client status.
 old-location: uianimation\iuianimationtimerclienteventhandler.htm
 old-project: UIAnimation
 ms.assetid: 8ca8f7d8-e698-4c55-8241-5c8f7b47f0e8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationTimerClientEventHandler, IUIAnimationTimerClientEventHandler interface [Windows Animation], IUIAnimationTimerClientEventHandler interface [Windows Animation],described, uianimation.iuianimationtimerclienteventhandler, uianimation/IUIAnimationTimerClientEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

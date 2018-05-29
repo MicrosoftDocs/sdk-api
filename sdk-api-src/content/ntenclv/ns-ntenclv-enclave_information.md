@@ -1,16 +1,16 @@
 ---
 UID: NS:ntenclv.ENCLAVE_INFORMATION
 title: ENCLAVE_INFORMATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the currently executing enclave.
 old-location: base\enclave_information.htm
 old-project: Memory
 ms.assetid: 6720EDBE-6A0E-4192-A096-2ACA681E2AAF
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ENCLAVE_INFORMATION, ENCLAVE_INFORMATION structure, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, base.enclave_information, ntenclv/ENCLAVE_INFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntenclv.h
 req.include-header: 

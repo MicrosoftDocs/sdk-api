@@ -1,16 +1,16 @@
 ---
 UID: NF:bluetoothapis.BluetoothRemoveDevice
 title: BluetoothRemoveDevice function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes authentication between a Bluetooth device and the computer and clears cached service information for the device.
 old-location: bluetooth\bluetoothremovedevice.htm
 old-project: Bluetooth
 ms.assetid: dd4f6468-ccc2-4072-95c5-97553308ae47
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BluetoothRemoveDevice, BluetoothRemoveDevice function [Bluetooth], bluetooth.bluetoothremovedevice, bluetoothapis/BluetoothRemoveDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

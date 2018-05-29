@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngSaveFloatingPointState
 title: EngSaveFloatingPointState function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngSaveFloatingPointState function saves the current Windows 2000 (and later) kernel floating-point state.
 old-location: display\engsavefloatingpointstate.htm
 old-project: display
 ms.assetid: 25e9ae3b-a3a5-438c-84e0-53f2be7ba29c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngSaveFloatingPointState, EngSaveFloatingPointState function [Display Devices], display.engsavefloatingpointstate, gdifncs_624220d2-de91-4558-86aa-94db622660eb.xml, winddi/EngSaveFloatingPointState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

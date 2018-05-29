@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._TRUSTED_DOMAIN_FULL_INFORMATION
 title: "_TRUSTED_DOMAIN_FULL_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to retrieve complete information about a trusted domain.
 old-location: security\trusted_domain_full_information.htm
 old-project: SecMgmt
 ms.assetid: b7abfe1e-d9e6-4583-a738-c16190ffd44d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PTRUSTED_DOMAIN_FULL_INFORMATION, PTRUSTED_DOMAIN_FULL_INFORMATION, PTRUSTED_DOMAIN_FULL_INFORMATION structure pointer [Security], TRUSTED_DOMAIN_FULL_INFORMATION, TRUSTED_DOMAIN_FULL_INFORMATION structure [Security], _TRUSTED_DOMAIN_FULL_INFORMATION, _lsa_trusted_domain_full_information, ntsecapi/PTRUSTED_DOMAIN_FULL_INFORMATION, ntsecapi/TRUSTED_DOMAIN_FULL_INFORMATION, security.trusted_domain_full_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetTypeDescAlias
 title: ICreateTypeInfo::SetTypeDescAlias
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the type description for which this type description is an alias, if TYPEKIND=TKIND_ALIAS.
 old-location: automat\icreatetypeinfo_settypedescalias.htm
 old-project: automat
 ms.assetid: 63435592-9fc8-4d49-a388-87f1d15f2603
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetTypeDescAlias method, ICreateTypeInfo.SetTypeDescAlias, ICreateTypeInfo::SetTypeDescAlias, SetTypeDescAlias, SetTypeDescAlias method [Automation], SetTypeDescAlias method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetTypeDescAlias, automat.icreatetypeinfo_settypedescalias, oaidl/ICreateTypeInfo::SetTypeDescAlias
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj_core._SHChangeDWORDAsIDList
 title: "_SHChangeDWORDAsIDList"
-author: windows-driver-content
+author: windows-sdk-content
 description: SHChangeDWORDAsIDList may be altered or unavailable.
 old-location: shell\SHChangeDWORDAsIDList.htm
 old-project: shell
 ms.assetid: ebc05a9c-ed2b-41ff-93fb-9d8059fa360c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList, LPSHChangeDWORDAsIDList structure pointer [Windows Shell], SHChangeDWORDAsIDList, SHChangeDWORDAsIDList structure [Windows Shell], _SHChangeDWORDAsIDList, _shell_SHChangeDWORDAsIDList, shell.SHChangeDWORDAsIDList, shlobj_core/LPSHChangeDWORDAsIDList, shlobj_core/SHChangeDWORDAsIDList"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

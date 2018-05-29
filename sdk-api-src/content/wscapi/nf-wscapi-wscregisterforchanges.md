@@ -1,16 +1,16 @@
 ---
 UID: NF:wscapi.WscRegisterForChanges
 title: WscRegisterForChanges function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a callback function to be run when Windows Security Center (WSC) detects a change that could affect the health of one of the security providers.
 old-location: winprog\wscregisterforchanges.htm
 old-project: DevNotes
 ms.assetid: 55f2d281-6308-4344-98dc-3b1c7cbee9df
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: WscRegisterForChanges, WscRegisterForChanges function [Windows API], winprog.wscregisterforchanges, wscapi/WscRegisterForChanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wscapi.h
 req.include-header: 

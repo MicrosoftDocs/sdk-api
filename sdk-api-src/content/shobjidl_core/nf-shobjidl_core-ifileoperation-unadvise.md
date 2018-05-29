@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.Unadvise
 title: IFileOperation::Unadvise
-author: windows-driver-content
+author: windows-sdk-content
 description: Terminates an advisory connection previously established through IFileOperation::Advise.
 old-location: shell\IFileOperation_Unadvise.htm
 old-project: shell
 ms.assetid: 684b3e94-50b9-465e-b4c3-b244fc7209f5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileOperation interface [Windows Shell],Unadvise method, IFileOperation.Unadvise, IFileOperation::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IFileOperation interface, _shell_IFileOperation_Unadvise, shell.IFileOperation_Unadvise, shobjidl_core/IFileOperation::Unadvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

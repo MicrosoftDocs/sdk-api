@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrm.IFsrmCommittableCollection.Commit
 title: IFsrmCommittableCollection::Commit
-author: windows-driver-content
+author: windows-sdk-content
 description: Commits all the objects of the collection and returns the commit results for each object.
 old-location: fsrm\ifsrmcommittablecollection_commit.htm
 old-project: Fsrm
 ms.assetid: 844cb2a5-8526-434b-af22-b1bf856ed6af
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: Commit, Commit method [File Server Resource Manager], Commit method [File Server Resource Manager],IFsrmCommittableCollection interface, IFsrmCommittableCollection interface [File Server Resource Manager],Commit method, IFsrmCommittableCollection.Commit, IFsrmCommittableCollection::Commit, fs.ifsrmcommitablecollection_commit, fs.ifsrmcommittablecollection_commit, fsrm.ifsrmcommittablecollection_commit, fsrm/IFsrmCommittableCollection::Commit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h

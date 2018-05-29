@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupInitDefaultQueueCallback
 title: SetupInitDefaultQueueCallback function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupInitDefaultQueueCallback function initializes the context used by the default queue callback routine included with the Setup API.
 old-location: setup\setupinitdefaultqueuecallback.htm
 old-project: SetupApi
 ms.assetid: 3ee7da67-42ff-4ea1-9c7f-6c0dcc3dc0b4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupInitDefaultQueueCallback, SetupInitDefaultQueueCallback function [Setup API], _setupapi_setupinitdefaultqueuecallback, setup.setupinitdefaultqueuecallback, setupapi/SetupInitDefaultQueueCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

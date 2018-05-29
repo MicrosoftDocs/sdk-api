@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.ReadDirectoryChangesExW
 title: ReadDirectoryChangesExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information that describes the changes within the specified directory, which can include extended information if that information type is specified.
 old-location: fs\readdirectorychangesexw.htm
 old-project: FileIO
 ms.assetid: 90C2F258-094C-4A0E-80E7-3FA241D288EA
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FILE_NOTIFY_CHANGE_ATTRIBUTES, FILE_NOTIFY_CHANGE_CREATION, FILE_NOTIFY_CHANGE_DIR_NAME, FILE_NOTIFY_CHANGE_FILE_NAME, FILE_NOTIFY_CHANGE_LAST_ACCESS, FILE_NOTIFY_CHANGE_LAST_WRITE, FILE_NOTIFY_CHANGE_SECURITY, FILE_NOTIFY_CHANGE_SIZE, ReadDirectoryChangesExW, ReadDirectoryChangesExW function [Files], fs.readdirectorychangesexw, winbase/ReadDirectoryChangesExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

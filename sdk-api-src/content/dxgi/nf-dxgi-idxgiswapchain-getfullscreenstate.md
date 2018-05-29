@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.GetFullscreenState
 title: IDXGISwapChain::GetFullscreenState
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the state associated with full-screen mode.
 old-location: direct3ddxgi\idxgiswapchain_getfullscreenstate.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getfullscreenstate.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetFullscreenState, GetFullscreenState method [DXGI], GetFullscreenState method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetFullscreenState method, IDXGISwapChain.GetFullscreenState, IDXGISwapChain::GetFullscreenState, d3b177d7-2b70-fc90-2a07-3046eb5fdf48, direct3ddxgi.idxgiswapchain_getfullscreenstate, dxgi/IDXGISwapChain::GetFullscreenState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

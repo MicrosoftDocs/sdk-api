@@ -1,16 +1,16 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_ColorKey
 title: IMSVidCtl::put_ColorKey
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_ColorKey method specifies the color key.
 old-location: mstv\imsvidctl_put_colorkey.htm
 old-project: mstv
 ms.assetid: 2896f062-4ff9-4652-89b9-5fe55c6fe472
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_ColorKey method, IMSVidCtl.put_ColorKey, IMSVidCtl::put_ColorKey, IMSVidCtlput_ColorKey, mstv.imsvidctl_put_colorkey, msvidctl/IMSVidCtl::put_ColorKey, put_ColorKey, put_ColorKey method [Microsoft TV Technologies], put_ColorKey method [Microsoft TV Technologies],IMSVidCtl interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 

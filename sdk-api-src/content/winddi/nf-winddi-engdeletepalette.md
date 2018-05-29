@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngDeletePalette
 title: EngDeletePalette function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngDeletePalette function sends a request to GDI to delete the specified palette.
 old-location: display\engdeletepalette.htm
 old-project: display
 ms.assetid: ebdbbb4e-aaa8-4fb7-9546-545dce803054
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngDeletePalette, EngDeletePalette function [Display Devices], display.engdeletepalette, gdifncs_221095fd-b5c5-485e-9e8c-9f7a114d496d.xml, winddi/EngDeletePalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

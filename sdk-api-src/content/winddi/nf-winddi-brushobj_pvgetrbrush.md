@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.BRUSHOBJ_pvGetRbrush
 title: BRUSHOBJ_pvGetRbrush function
-author: windows-driver-content
+author: windows-sdk-content
 description: The BRUSHOBJ_pvGetRbrush function retrieves a pointer to the driver's realization of a specified brush.
 old-location: display\brushobj_pvgetrbrush.htm
 old-project: display
 ms.assetid: 3f3e5acb-f984-4571-9555-f6b383ddb6a7
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BRUSHOBJ_pvGetRbrush, BRUSHOBJ_pvGetRbrush function [Display Devices], display.brushobj_pvgetrbrush, gdifncs_a19def34-749c-4e98-b03e-1b35f4e1f761.xml, winddi/BRUSHOBJ_pvGetRbrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

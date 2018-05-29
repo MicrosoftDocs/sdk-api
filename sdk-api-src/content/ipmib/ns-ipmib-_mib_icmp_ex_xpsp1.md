@@ -1,16 +1,16 @@
 ---
 UID: NS:ipmib._MIB_ICMP_EX_XPSP1
 title: "_MIB_ICMP_EX_XPSP1"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the extended Internet Control Message Protocol (ICMP) statistics for a particular computer.
 old-location: mib\mib_icmp_ex.htm
 old-project: MIB
 ms.assetid: 3d2c7edc-c9e6-4db6-b7c8-07f7f01cbe0d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_ICMP_EX, *PMIB_ICMP_EX_XPSP1, MIB_ICMP_EX, MIB_ICMP_EX structure [MIB], MIB_ICMP_EX_XPSP1, PMIB_ICMP_EX, PMIB_ICMP_EX structure pointer [MIB], _MIB_ICMP_EX_XPSP1, ipmib/MIB_ICMP_EX, ipmib/PMIB_ICMP_EX, iprtrmib/MIB_ICMP_EX, iprtrmib/PMIB_ICMP_EX, mib.mib_icmp_ex, rras.mib_icmp_ex"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h

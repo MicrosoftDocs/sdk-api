@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntryCollection.get__NewEnum
 title: IWindowsDriverUpdateEntryCollection::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IEnumVARIANT interface that is used to enumerate the collection.
 old-location: wua\iwindowsdriverupdateentrycollection__newenum.htm
 old-project: Wua_Sdk
 ms.assetid: ef1179a6-5d93-4a4f-8cda-a1876f01be5d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWindowsDriverUpdateEntryCollection interface [Windows Update Agent],_NewEnum property, IWindowsDriverUpdateEntryCollection._NewEnum, IWindowsDriverUpdateEntryCollection.get__NewEnum, IWindowsDriverUpdateEntryCollection::_NewEnum, IWindowsDriverUpdateEntryCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IWindowsDriverUpdateEntryCollection interface, get__NewEnum, wua.iwindowsdriverupdateentrycollection__newenum, wuapi/IWindowsDriverUpdateEntryCollection::_NewEnum, wuapi/IWindowsDriverUpdateEntryCollection::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

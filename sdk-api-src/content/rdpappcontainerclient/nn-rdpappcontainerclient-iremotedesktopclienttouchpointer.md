@@ -1,16 +1,16 @@
 ---
 UID: NN:rdpappcontainerclient.IRemoteDesktopClientTouchPointer
 title: IRemoteDesktopClientTouchPointer
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the properties needed to control the touch pointer feature of the Remote Desktop Protocol (RDP) app container client control.
 old-location: termserv\iremotedesktopclienttouchpointer.htm
 old-project: TermServ
 ms.assetid: 98c47e41-ecda-45cb-94e9-de51edc7af08
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRemoteDesktopClientTouchPointer, IRemoteDesktopClientTouchPointer interface [Remote Desktop Services], IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientTouchPointer, termserv.iremotedesktopclienttouchpointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpappcontainerclient.h
 req.include-header: 

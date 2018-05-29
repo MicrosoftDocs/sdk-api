@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.IAccessibleHostingElementProviders
 title: IAccessibleHostingElementProviders
-author: windows-driver-content
+author: windows-sdk-content
 description: A Microsoft Active Accessibility object implements this interface when the object is the root of an accessibility tree that includes windowless Microsoft ActiveX controls that implement Microsoft UI Automation.
 old-location: winauto\iaccessiblehostingelementproviders.htm
 old-project: WinAuto
 ms.assetid: 8D974311-25CB-4D49-B907-2984D0DA58D7
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccessibleHostingElementProviders, IAccessibleHostingElementProviders interface [Windows Accessibility], IAccessibleHostingElementProviders interface [Windows Accessibility],described, uiautomationcore/IAccessibleHostingElementProviders, winauto.iaccessiblehostingelementproviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

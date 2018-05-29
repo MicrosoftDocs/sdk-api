@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_VOID_DESCRIPTION
 title: "_WS_VOID_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies information about a field which is neither serialized nor deserialized. This is used with WS_VOID_TYPE and WS_NO_FIELD_MAPPING within a WS_FIELD_DESCRIPTION. This type description is only required when WS_FIELD_POINTER is not being used.
 old-location: wsw\ws_void_description.htm
 old-project: wsw
 ms.assetid: 92373e0d-3fe1-4486-8e79-deb0fc24cb63
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_VOID_DESCRIPTION, WS_VOID_DESCRIPTION structure [Web Services for Windows], _WS_VOID_DESCRIPTION, webservices/WS_VOID_DESCRIPTION, wsw.ws_void_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

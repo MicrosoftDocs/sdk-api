@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager2.GetSystemProfileVersion
 title: IWMProfileManager2::GetSystemProfileVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSystemProfileVersion method retrieves the version number of the system profiles that the profile manager enumerates.
 old-location: wmformat\iwmprofilemanager2_getsystemprofileversion.htm
 old-project: wmformat
 ms.assetid: 155b847b-81c0-4065-ae00-ca0b64cdd537
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSystemProfileVersion, GetSystemProfileVersion method [windows Media Format], GetSystemProfileVersion method [windows Media Format],IWMProfileManager2 interface, IWMProfileManager2 interface [windows Media Format],GetSystemProfileVersion method, IWMProfileManager2.GetSystemProfileVersion, IWMProfileManager2::GetSystemProfileVersion, IWMProfileManager2GetSystemProfileVersion, wmformat.iwmprofilemanager2_getsystemprofileversion, wmsdkidl/IWMProfileManager2::GetSystemProfileVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

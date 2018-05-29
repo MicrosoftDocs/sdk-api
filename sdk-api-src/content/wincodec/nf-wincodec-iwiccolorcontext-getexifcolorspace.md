@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICColorContext.GetExifColorSpace
 title: IWICColorContext::GetExifColorSpace
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Exchangeable Image File (EXIF) color space color context.
 old-location: wic\_wic_codec_iwiccolorcontext_getexifcolorspace.htm
 old-project: wic
 ms.assetid: ebd51090-fabb-4a6e-a77c-f1895bc27e54
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetExifColorSpace, GetExifColorSpace method [Windows Imaging Component], GetExifColorSpace method [Windows Imaging Component],IWICColorContext interface, IWICColorContext interface [Windows Imaging Component],GetExifColorSpace method, IWICColorContext.GetExifColorSpace, IWICColorContext::GetExifColorSpace, _wic_codec_iwiccolorcontext_getexifcolorspace, wic._wic_codec_iwiccolorcontext_getexifcolorspace, wincodec/IWICColorContext::GetExifColorSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIVirtualChannel
 title: IRDPSRAPIVirtualChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages the virtual channel.
 old-location: rdp\irdpsrapivirtualchannel.htm
 old-project: Rdp
 ms.assetid: c3cceb22-424d-4ed9-8d4d-0ca523ba5e9c
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIVirtualChannel, IRDPSRAPIVirtualChannel interface [RDP], IRDPSRAPIVirtualChannel interface [RDP],described, rdp.irdpsrapivirtualchannel, rdpencomapi/IRDPSRAPIVirtualChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

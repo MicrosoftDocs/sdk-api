@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.Initialize
 title: IMFASFIndexer::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the indexer object.
 old-location: mf\imfasfindexer_initialize.htm
 old-project: medfound
 ms.assetid: c02931d3-7b43-43a9-9e4e-00945ba3c8d8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFASFIndexer interface [Media Foundation],Initialize method, IMFASFIndexer.Initialize, IMFASFIndexer::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFASFIndexer interface, c02931d3-7b43-43a9-9e4e-00945ba3c8d8, mf.imfasfindexer_initialize, wmcontainer/IMFASFIndexer::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

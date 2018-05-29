@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordEventId
 title: IPBDA_EIT::GetRecordEventId
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives the unique identifier from an event record in an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_getrecordeventid.htm
 old-project: mstv
 ms.assetid: c34ad3ee-f4f9-4088-88ae-1340ea503cf5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordEventId, GetRecordEventId method [Microsoft TV Technologies], GetRecordEventId method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordEventId method, IPBDA_EIT.GetRecordEventId, IPBDA_EIT::GetRecordEventId, dvbsiparser/IPBDA_EIT::GetRecordEventId, mstv.ipbda_eit_getrecordeventid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

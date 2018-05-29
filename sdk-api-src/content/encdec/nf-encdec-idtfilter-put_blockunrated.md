@@ -1,16 +1,16 @@
 ---
 UID: NF:encdec.IDTFilter.put_BlockUnRated
 title: IDTFilter::put_BlockUnRated
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_BlockUnRated method specifies whether to block a program for which rating information has not been obtained.
 old-location: mstv\idtfilter_put_blockunrated.htm
 old-project: mstv
 ms.assetid: 2b6ef516-bbc8-4d17-a306-433e8265e879
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],put_BlockUnRated method, IDTFilter.put_BlockUnRated, IDTFilter::put_BlockUnRated, IDTFilterput_BlockUnRated, encdec/IDTFilter::put_BlockUnRated, mstv.idtfilter_put_blockunrated, put_BlockUnRated, put_BlockUnRated method [Microsoft TV Technologies], put_BlockUnRated method [Microsoft TV Technologies],IDTFilter interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wofapi._WIM_EXTERNAL_FILE_INFO
 title: "_WIM_EXTERNAL_FILE_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines metadata specific to files provided by WOF_PROVIDER_WIM.
 old-location: fs\wim_external_file_info.htm
 old-project: FileIO
 ms.assetid: BB40922B-C9D3-451C-B2D1-1740105C4BAB
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PWIM_EXTERNAL_FILE_INFO, PWIM_EXTERNAL_FILE_INFO, PWIM_EXTERNAL_FILE_INFO structure pointer [Files], WIM_EXTERNAL_FILE_INFO, WIM_EXTERNAL_FILE_INFO structure [Files], _WIM_EXTERNAL_FILE_INFO, fs.wim_external_file_info, wofapi/PWIM_EXTERNAL_FILE_INFO, wofapi/WIM_EXTERNAL_FILE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wofapi.h
 req.include-header: 

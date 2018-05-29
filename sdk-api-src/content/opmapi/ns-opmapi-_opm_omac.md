@@ -1,16 +1,16 @@
 ---
 UID: NS:opmapi._OPM_OMAC
 title: "_OPM_OMAC"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a Message Authentication Code (MAC) for an Output Protection Manager (OPM) message.
 old-location: mf\opm_omac.htm
 old-project: medfound
 ms.assetid: 6ff37a2a-9e63-4097-8ee6-bcc4bd580ab8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OPM_OMAC, OPM_OMAC structure [Media Foundation], _OPM_OMAC, ksopmapi/OPM_OMAC, mf.opm_omac
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: Opmapi.h

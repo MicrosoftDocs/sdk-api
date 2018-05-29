@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_ActiveDiscRecorder
 title: IDiscRecorder2::get_ActiveDiscRecorder
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the unique identifier used to initialize the disc device.
 old-location: imapi\idiscrecorder2_get_activediscrecorder.htm
 old-project: imapi
 ms.assetid: 7fd3e13c-2853-417e-8478-46fa667c9f97
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_ActiveDiscRecorder method, IDiscRecorder2.get_ActiveDiscRecorder, IDiscRecorder2::get_ActiveDiscRecorder, get_ActiveDiscRecorder, get_ActiveDiscRecorder method [IMAPI], get_ActiveDiscRecorder method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_activediscrecorder, imapi2/IDiscRecorder2::get_ActiveDiscRecorder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

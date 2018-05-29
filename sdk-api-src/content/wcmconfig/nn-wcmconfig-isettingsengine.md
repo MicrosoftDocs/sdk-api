@@ -1,16 +1,16 @@
 ---
 UID: NN:wcmconfig.ISettingsEngine
 title: ISettingsEngine
-author: windows-driver-content
+author: windows-sdk-content
 description: The central interface for opening namespaces and controlling how they are opened.
 old-location: smi\isettingsengine.htm
 old-project: SMI
 ms.assetid: ba816a00-e238-4dbd-a09a-ad4e191d9c4e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISettingsEngine, ISettingsEngine interface [SMI], ISettingsEngine interface [SMI],described, smi.isettingsengine, wcmconfig/ISettingsEngine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 

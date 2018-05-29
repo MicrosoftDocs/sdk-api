@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.CanUserWritePwrScheme
 title: CanUserWritePwrScheme function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the current user has sufficient privilege to write a power scheme.
 old-location: base\canuserwritepwrscheme.htm
 old-project: Power
 ms.assetid: 3989da98-aa01-4c63-a74c-ce7ba18278c1
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: CanUserWritePwrScheme, CanUserWritePwrScheme function, _win32_canuserwritepwrscheme, base.canuserwritepwrscheme, powrprof/CanUserWritePwrScheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

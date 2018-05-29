@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptApplyLogicalWidth
 title: ScriptApplyLogicalWidth function
-author: windows-driver-content
+author: windows-sdk-content
 description: Takes an array of advance widths for a run and generates an array of adjusted advance glyph widths.
 old-location: intl\scriptapplylogicalwidth.htm
 old-project: Intl
 ms.assetid: 964634f4-700b-47a7-a86f-071f1c97bcbe
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptApplyLogicalWidth, ScriptApplyLogicalWidth function [Internationalization for Windows Applications], _win32_ScriptApplyLogicalWidth, intl.scriptapplylogicalwidth, usp10/ScriptApplyLogicalWidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

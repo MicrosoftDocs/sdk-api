@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GetHeaderSize
 title: IMFASFContentInfo::GetHeaderSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the size of the header section of an Advanced Systems Format (ASF) file.
 old-location: mf\imfasfcontentinfo_getheadersize.htm
 old-project: medfound
 ms.assetid: c13ee7e6-df59-448f-80c4-04ac7c8c98ed
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetHeaderSize, GetHeaderSize method [Media Foundation], GetHeaderSize method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GetHeaderSize method, IMFASFContentInfo.GetHeaderSize, IMFASFContentInfo::GetHeaderSize, c13ee7e6-df59-448f-80c4-04ac7c8c98ed, mf.imfasfcontentinfo_getheadersize, wmcontainer/IMFASFContentInfo::GetHeaderSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

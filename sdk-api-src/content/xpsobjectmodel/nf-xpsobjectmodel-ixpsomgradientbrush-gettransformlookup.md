@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetTransformLookup
 title: IXpsOMGradientBrush::GetTransformLookup
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name of the lookup key of the shared matrix transform interface that is to be used for the brush.
 old-location: xps\ixpsomgradientbrush_gettransformlookup.htm
 old-project: printdocs
 ms.assetid: 60a91156-f9c8-4f6b-92b7-21e2fcd337fc
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMGradientBrush.GetTransformLookup, IXpsOMGradientBrush::GetTransformLookup, xps.ixpsomgradientbrush_gettransformlookup, xpsobjectmodel/IXpsOMGradientBrush::GetTransformLookup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

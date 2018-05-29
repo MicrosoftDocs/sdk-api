@@ -1,16 +1,16 @@
 ---
 UID: NF:clfs.ClfsLsnGreater
 title: ClfsLsnGreater function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether one LSN is greater than another LSN. The two LSNs must be from the same stream.
 old-location: fs\lsngreater.htm
 old-project: Clfs
 ms.assetid: 15657fc4-40f6-4f89-89b4-ff51d72d5e74
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClfsLsnGreater, LsnGreater, LsnGreater function [Files], clfs/LsnGreater, fs.lsngreater
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfs.h
 req.include-header: 

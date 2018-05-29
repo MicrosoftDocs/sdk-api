@@ -1,16 +1,16 @@
 ---
 UID: NI:pwm.IOCTL_PWM_CONTROLLER_GET_INFO
 title: IOCTL_PWM_CONTROLLER_GET_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a Pulse Width Modulation (PWM) controller. This information does not change after the controller is initialized.
 old-location: base\ioctl_pwm_controller_get_info.htm
 old-project: DevIO
 ms.assetid: C198FCCA-E1C5-4B03-8F42-7EE1952DC055
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_GET_INFO, IOCTL_PWM_CONTROLLER_GET_INFO control, IOCTL_PWM_CONTROLLER_GET_INFO control code, base.ioctl_pwm_controller_get_info, pwm/IOCTL_PWM_CONTROLLER_GET_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: pwm.h
 req.include-header: Pwm.h

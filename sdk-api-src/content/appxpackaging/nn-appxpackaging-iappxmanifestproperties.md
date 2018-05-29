@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxManifestProperties
 title: IAppxManifestProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides read-only access to the properties section of a package manifest.
 old-location: appxpkg\iappxmanifestproperties.htm
 old-project: appxpkg
 ms.assetid: 5DA0A805-13D3-4977-8EFB-45E8B51AAF60
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxManifestProperties, IAppxManifestProperties interface [App packaging and management], IAppxManifestProperties interface [App packaging and management],described, appxpackaging/IAppxManifestProperties, appxpkg.iappxmanifestproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

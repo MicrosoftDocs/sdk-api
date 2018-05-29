@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdxml._WSD_DURATION
 title: "_WSD_DURATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a length of time.
 old-location: ncd\wsd_duration_struct.htm
 old-project: WsdApi
 ms.assetid: 43d4d0c5-509a-46c4-bdf6-24c3307fb811
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_DURATION, WSD_DURATION structure, _WSD_DURATION, ncd.wsd_duration_struct, wsdxml/WSD_DURATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdxml.h
 req.include-header: Wsdapi.h

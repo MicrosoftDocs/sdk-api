@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.WICMapGuidToShortName
 title: WICMapGuidToShortName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the short name associated with a given GUID.
 old-location: wic\_wic_codec_wicmapguidtoshortname.htm
 old-project: wic
 ms.assetid: ae1e4680-2c20-4a3e-b931-206d26f4d09c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICMapGuidToShortName, WICMapGuidToShortName function [Windows Imaging Component], _wic_codec_wicmapguidtoshortname, wic._wic_codec_wicmapguidtoshortname, wincodec/WICMapGuidToShortName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPSettings
 title: IWMPSettings
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPSettings interface provides methods that get or set the values of Windows Media Player settings.
 old-location: wmp\iwmpsettings.htm
 old-project: WMP
 ms.assetid: e5a305a1-958e-4b6d-bb1f-f00bf5eb08dd
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSettings, IWMPSettings interface [Windows Media Player], IWMPSettings interface [Windows Media Player],described, IWMPSettingsInterface, wmp.iwmpsettings, wmp/IWMPSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

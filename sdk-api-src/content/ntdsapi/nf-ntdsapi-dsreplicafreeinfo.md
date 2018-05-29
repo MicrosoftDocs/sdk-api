@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsReplicaFreeInfo
 title: DsReplicaFreeInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the replication state data structure allocated by the DsReplicaGetInfo or DsReplicaGetInfo2 functions.
 old-location: ad\dsreplicafreeinfo.htm
 old-project: AD
 ms.assetid: 32ce378e-a178-4970-b3bd-3887866e97af
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsReplicaFreeInfo, DsReplicaFreeInfo function [Active Directory], ad.dsreplicafreeinfo, ntdsapi/DsReplicaFreeInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

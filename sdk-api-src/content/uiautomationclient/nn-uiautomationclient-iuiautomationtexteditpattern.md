@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextEditPattern
 title: IUIAutomationTextEditPattern
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to a control that modifies text, for example a control that performs auto-correction or enables input composition through an Input Method Editor (IME).
 old-location: winauto\uiauto_IUIAutomationTextEditPattern.htm
 old-project: WinAuto
 ms.assetid: 798FABE5-D6C8-58E3-B3F6-93654C0F4CAB
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationTextEditPattern, IUIAutomationTextEditPattern interface [Windows Accessibility], IUIAutomationTextEditPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextEditPattern, winauto.uiauto_IUIAutomationTextEditPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

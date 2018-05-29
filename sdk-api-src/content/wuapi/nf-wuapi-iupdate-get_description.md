@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdate.get_Description
 title: IUpdate::get_Description
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the localized description of the update.
 old-location: wua\iupdate_description.htm
 old-project: Wua_Sdk
 ms.assetid: 2448c9aa-0e90-4454-b168-c31b36f569af
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Description property [Windows Update Agent], Description property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],Description property, IUpdate.Description, IUpdate.get_Description, IUpdate::Description, IUpdate::get_Description, get_Description, wua.iupdate_description, wuapi/IUpdate::Description, wuapi/IUpdate::get_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

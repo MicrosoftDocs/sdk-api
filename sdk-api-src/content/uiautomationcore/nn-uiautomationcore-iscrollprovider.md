@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.IScrollProvider
 title: IScrollProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to controls that act as scrollable containers for a collection of child objects.
 old-location: winauto\uiauto_IScrollProvider.htm
 old-project: WinAuto
 ms.assetid: 55e1b899-aa9f-45eb-9cfa-d645ea659988
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IScrollProvider, IScrollProvider interface [Windows Accessibility], IScrollProvider interface [Windows Accessibility],described, uiauto.uiauto_IScrollProvider, uiauto_IScrollProvider, uiautomationcore/IScrollProvider, winauto.uiauto_IScrollProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

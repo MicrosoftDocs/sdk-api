@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IEnumPIDMap.Reset
 title: IEnumPIDMap::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reset method moves the iterator to the beginning of the collection.
 old-location: dshow\ienumpidmap_reset.htm
 old-project: DirectShow
 ms.assetid: 4f5cc44e-10c0-441f-b34c-80f94c5f6bca
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumPIDMap interface [DirectShow],Reset method, IEnumPIDMap.Reset, IEnumPIDMap::Reset, IEnumPIDMapReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumPIDMap interface, bdaiface/IEnumPIDMap::Reset, dshow.ienumpidmap_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

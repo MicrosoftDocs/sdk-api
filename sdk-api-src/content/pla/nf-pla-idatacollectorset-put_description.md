@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_Description
 title: IDataCollectorSet::put_Description
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the description of the data collector set. The description will be added to all output files as metadata and inserted into Performance Data Helper logs as a comment.
 old-location: pla\idatacollectorset_get_description.htm
 old-project: PLA
 ms.assetid: d36deb28-09fa-4efd-bfe8-055757f4273a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Description property [PLA], Description property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Description property, IDataCollectorSet.Description, IDataCollectorSet.put_Description, IDataCollectorSet::Description, IDataCollectorSet::get_Description, IDataCollectorSet::put_Description, base.idatacollectorset_get_description, pla.idatacollectorset_get_description, pla/IDataCollectorSet::Description, pla/IDataCollectorSet::get_Description, pla/IDataCollectorSet::put_Description, put_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

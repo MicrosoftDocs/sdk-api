@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IThumbnailHandlerFactory.GetThumbnailHandler
 title: IThumbnailHandlerFactory::GetThumbnailHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the requested thumbnail handler for the thumbnail of a given item.
 old-location: shell\IThumbnailHandlerFactory_GetThumbnailHandler.htm
 old-project: shell
 ms.assetid: ddd0caba-079f-4b22-8c89-6ba09adeba60
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetThumbnailHandler, GetThumbnailHandler method [Windows Shell], GetThumbnailHandler method [Windows Shell],IThumbnailHandlerFactory interface, IThumbnailHandlerFactory interface [Windows Shell],GetThumbnailHandler method, IThumbnailHandlerFactory.GetThumbnailHandler, IThumbnailHandlerFactory::GetThumbnailHandler, _shell_IThumbnailHandlerFactory_GetThumbnailHandler, shell.IThumbnailHandlerFactory_GetThumbnailHandler, shobjidl_core/IThumbnailHandlerFactory::GetThumbnailHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

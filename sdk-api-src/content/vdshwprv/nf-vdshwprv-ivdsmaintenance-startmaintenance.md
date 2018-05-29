@@ -1,16 +1,16 @@
 ---
 UID: NF:vdshwprv.IVdsMaintenance.StartMaintenance
 title: IVdsMaintenance::StartMaintenance
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts a maintenance operation.
 old-location: base\ivdsmaintenance_startmaintenance.htm
 old-project: VDS
 ms.assetid: 8d2e1022-ae79-4f71-a488-2c86b43b2a7f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsMaintenance interface [VDS],StartMaintenance method, IVdsMaintenance.StartMaintenance, IVdsMaintenance::StartMaintenance, StartMaintenance, StartMaintenance method [VDS], StartMaintenance method [VDS],IVdsMaintenance interface, base.ivdsmaintenance_startmaintenance, vds/IVdsMaintenance::StartMaintenance, vdshwprv/IVdsMaintenance::StartMaintenance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

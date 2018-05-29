@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingWriteActivity
 title: TraceLoggingWriteActivity macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Emits an event with specific activity IDs.
 old-location: tracelogging\traceloggingwriteactivity.htm
 old-project: tracelogging
 ms.assetid: 1BFEC534-A9D4-4310-9E40-FCC1AB301D0F
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingWriteActivity, TraceLoggingWriteActivity macro, tracelogging.traceloggingwriteactivity, traceloggingprovider/TraceLoggingWriteActivity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

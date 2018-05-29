@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumnVariants
 title: ICrmFormatLogRecords::GetColumnVariants
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats one structured log record into an array of viewable fields.
 old-location: cos\icrmformatlogrecords_getcolumnvariants.htm
 old-project: cossdk
 ms.assetid: f2681fe3-744b-4172-8908-1d823d2e2371
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetColumnVariants, GetColumnVariants method [COM+], GetColumnVariants method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumnVariants method, ICrmFormatLogRecords.GetColumnVariants, ICrmFormatLogRecords::GetColumnVariants, _dtc_ICrmFormatLogRecords_GetColumnVariants, comsvcs/ICrmFormatLogRecords::GetColumnVariants, cos.icrmformatlogrecords_getcolumnvariants
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

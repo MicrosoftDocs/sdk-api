@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.WritePixels
 title: IWICBitmapFrameEncode::WritePixels
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies scan-line data from a caller-supplied buffer to the IWICBitmapFrameEncode object.
 old-location: wic\_wic_codec_iwicbitmapframeencode_writepixels.htm
 old-project: wic
 ms.assetid: 6b430fe0-5230-47dc-95c0-aeabd138cefe
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],WritePixels method, IWICBitmapFrameEncode.WritePixels, IWICBitmapFrameEncode::WritePixels, WritePixels, WritePixels method [Windows Imaging Component], WritePixels method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_writepixels, wic._wic_codec_iwicbitmapframeencode_writepixels, wincodec/IWICBitmapFrameEncode::WritePixels
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

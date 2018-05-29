@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.RegRestoreKeyA
 title: RegRestoreKeyA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the registry information in a specified file and copies it over the specified key. This registry information may be in the form of a key and multiple levels of subkeys.
 old-location: base\regrestorekey.htm
 old-project: SysInfo
 ms.assetid: 6267383d-427a-4ae8-b9cc-9c1861d3b7bb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: REG_FORCE_RESTORE, REG_WHOLE_HIVE_VOLATILE, RegRestoreKey, RegRestoreKey function, RegRestoreKeyA, RegRestoreKeyW, _win32_regrestorekey, base.regrestorekey, winreg/RegRestoreKey, winreg/RegRestoreKeyA, winreg/RegRestoreKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

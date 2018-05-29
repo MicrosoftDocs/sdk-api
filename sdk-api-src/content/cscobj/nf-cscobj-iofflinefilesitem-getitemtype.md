@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesItem.GetItemType
 title: IOfflineFilesItem::GetItemType
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a type code identifying the type of the item:\_server, share, directory, or file.
 old-location: of\iofflinefilesitem_getitemtype.htm
 old-project: OfflineFiles
 ms.assetid: 87fbf63a-d103-4c80-b6a7-60784c7350bc
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetItemType, GetItemType method [Offline Files], GetItemType method [Offline Files],IOfflineFilesItem interface, IOfflineFilesItem interface [Offline Files],GetItemType method, IOfflineFilesItem.GetItemType, IOfflineFilesItem::GetItemType, cscobj/IOfflineFilesItem::GetItemType, of.iofflinefilesitem_getitemtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

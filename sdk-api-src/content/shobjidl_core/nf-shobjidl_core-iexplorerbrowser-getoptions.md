@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.GetOptions
 title: IExplorerBrowser::GetOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current browser options.
 old-location: shell\IExplorerBrowser_GetOptions.htm
 old-project: shell
 ms.assetid: e2c7ee6a-fbd9-4b75-a9ed-734e7977088d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetOptions, GetOptions method [Windows Shell], GetOptions method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],GetOptions method, IExplorerBrowser.GetOptions, IExplorerBrowser::GetOptions, _shell_IExplorerBrowser_GetOptions, shell.IExplorerBrowser_GetOptions, shobjidl_core/IExplorerBrowser::GetOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

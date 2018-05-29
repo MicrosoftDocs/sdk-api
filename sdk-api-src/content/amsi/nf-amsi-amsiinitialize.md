@@ -1,16 +1,16 @@
 ---
 UID: NF:amsi.AmsiInitialize
 title: AmsiInitialize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initialize the AMSI API.
 old-location: amsi\amsiinitialize.htm
 old-project: AMSI
 ms.assetid: 946FC79C-556C-404E-A559-323AA69B3EC6
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: AmsiInitialize, AmsiInitialize function [Antimalware Scan Interface], amsi.amsiinitialize, amsi/AmsiInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: amsi.h
 req.include-header: 

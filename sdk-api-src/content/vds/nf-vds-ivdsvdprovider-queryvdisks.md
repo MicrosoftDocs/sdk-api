@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsVdProvider.QueryVDisks
 title: IVdsVdProvider::QueryVDisks
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a list of all virtual disks that are managed by the provider.
 old-location: base\ivdsvdprovider_querysurfaceddisks.htm
 old-project: VDS
 ms.assetid: eab65da4-eb26-46f5-9978-972fd8dffb41
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsVdProvider interface,QueryVDisks method, IVdsVdProvider.QueryVDisks, IVdsVdProvider::QueryVDisks, QueryVDisks, QueryVDisks method, QueryVDisks method,IVdsVdProvider interface, base.ivdsvdprovider_querysurfaceddisks, vds/IVdsVdProvider::QueryVDisks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

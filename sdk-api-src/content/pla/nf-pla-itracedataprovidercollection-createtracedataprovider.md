@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.CreateTraceDataProvider
 title: ITraceDataProviderCollection::CreateTraceDataProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a trace data provider object.
 old-location: pla\itracedataprovidercollection_createtracedataprovider.htm
 old-project: PLA
 ms.assetid: 234de4d8-896f-462d-8785-8b768697bf2e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CreateTraceDataProvider, CreateTraceDataProvider method [PLA], CreateTraceDataProvider method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],CreateTraceDataProvider method, ITraceDataProviderCollection.CreateTraceDataProvider, ITraceDataProviderCollection::CreateTraceDataProvider, pla.itracedataprovidercollection_createtracedataprovider, pla/ITraceDataProviderCollection::CreateTraceDataProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

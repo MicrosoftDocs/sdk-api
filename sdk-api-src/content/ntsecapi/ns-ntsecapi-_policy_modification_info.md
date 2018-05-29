@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._POLICY_MODIFICATION_INFO
 title: "_POLICY_MODIFICATION_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The POLICY_MODIFICATION_INFO structure is used to query information about the creation time and last modification of the LSA database.
 old-location: security\policy_modification_info.htm
 old-project: SecMgmt
 ms.assetid: ef4d1d1d-9b1b-4d67-80b8-2b548ec31a87
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PPOLICY_MODIFICATION_INFO, POLICY_MODIFICATION_INFO, POLICY_MODIFICATION_INFO structure [Security], PPOLICY_MODIFICATION_INFO, PPOLICY_MODIFICATION_INFO structure pointer [Security], _POLICY_MODIFICATION_INFO, _lsa_policy_modification_info, ntsecapi/POLICY_MODIFICATION_INFO, ntsecapi/PPOLICY_MODIFICATION_INFO, security.policy_modification_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

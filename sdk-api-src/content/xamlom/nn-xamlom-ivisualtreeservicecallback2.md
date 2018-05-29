@@ -1,16 +1,16 @@
 ---
 UID: NN:xamlom.IVisualTreeServiceCallback2
 title: IVisualTreeServiceCallback2
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents additional capabilities of an IVisualTreeServiceCallback object.
 old-location: xaml_diagnostics\ivisualtreeservicecallback2.htm
 old-project: xaml_diagnostics
 ms.assetid: F1C11F32-9524-49D6-89DD-C89E4A81720A
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: IVisualTreeServiceCallback2, IVisualTreeServiceCallback2 interface, IVisualTreeServiceCallback2 interface,described, xaml_diagnostics.ivisualtreeservicecallback2, xamlom/IVisualTreeServiceCallback2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xamlom.h
 req.include-header: 

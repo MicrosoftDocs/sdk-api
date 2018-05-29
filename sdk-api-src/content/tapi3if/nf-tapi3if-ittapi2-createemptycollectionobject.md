@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITTAPI2.CreateEmptyCollectionObject
 title: ITTAPI2::CreateEmptyCollectionObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateEmptyCollectionObject method creates an empty collection object. The collection can be filled with ITDetectTone or ITCustomTone objects for use with the DetectTonesByCollection method or the GenerateCustomTonesByCollection method, respectively.
 old-location: tapi3\ittapi2_createemptycollectionobject.htm
 old-project: Tapi
 ms.assetid: 0114c0d2-4582-4b44-8fb6-74e468828797
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CreateEmptyCollectionObject, CreateEmptyCollectionObject method [TAPI 2.2], CreateEmptyCollectionObject method [TAPI 2.2],ITTAPI2 interface, ITTAPI2 interface [TAPI 2.2],CreateEmptyCollectionObject method, ITTAPI2.CreateEmptyCollectionObject, ITTAPI2::CreateEmptyCollectionObject, _tapi3_ittapi2_createemptycollectionobject, tapi3.ittapi2_createemptycollectionobject, tapi3if/ITTAPI2::CreateEmptyCollectionObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

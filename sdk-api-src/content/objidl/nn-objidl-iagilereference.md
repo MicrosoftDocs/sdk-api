@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IAgileReference
 title: IAgileReference
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables retrieving an agile reference to an object.
 old-location: winrt\iagilereference.htm
 old-project: WinRT
 ms.assetid: 51787A45-BCDE-4028-A338-1C16F2DE79AD
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IAgileReference, IAgileReference interface [Windows Runtime], IAgileReference interface [Windows Runtime],described, objidl/IAgileReference, winrt.iagilereference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

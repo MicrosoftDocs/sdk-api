@@ -1,16 +1,16 @@
 ---
 UID: NF:mscat.CryptCATPutMemberInfo
 title: CryptCATPutMemberInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates memory for a catalog member and adds it to the catalog.
 old-location: security\cryptcatputmemberinfo.htm
 old-project: SecCrypto
 ms.assetid: bfc10577-e32e-4b2e-ad24-1d0a85c6730a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptCATPutMemberInfo, CryptCATPutMemberInfo function [Security], mscat/CryptCATPutMemberInfo, security.cryptcatputmemberinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

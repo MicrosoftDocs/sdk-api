@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutput1.FindClosestMatchingMode1
 title: IDXGIOutput1::FindClosestMatchingMode1
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds the display mode that most closely matches the requested display mode.
 old-location: direct3ddxgi\idxgioutput1_findclosestmatchingmode1.htm
 old-project: direct3ddxgi
 ms.assetid: D71ED536-0D90-4E0D-8683-6260E31EAF20
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: FindClosestMatchingMode1, FindClosestMatchingMode1 method [DXGI], FindClosestMatchingMode1 method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],FindClosestMatchingMode1 method, IDXGIOutput1.FindClosestMatchingMode1, IDXGIOutput1::FindClosestMatchingMode1, direct3ddxgi.idxgioutput1_findclosestmatchingmode1, dxgi1_2/IDXGIOutput1::FindClosestMatchingMode1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

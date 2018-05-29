@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Image.Image(IN const WCHAR,IN BOOL)
 title: Image::Image(IN const WCHAR,IN BOOL)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the constructors of the Image class. For a complete class listing, see Image Class.
 old-location: gdiplus\_gdiplus_CLASS_Image_Constructors.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imageconstructors.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Image, Image constructors [GDI+], Image.Image, Image.Image(IN const WCHAR,IN BOOL), Image::Image, Image::Image(IN const WCHAR,IN BOOL), _gdiplus_CLASS_Image_Constructors, gdiplus._gdiplus_CLASS_Image_Constructors, gdiplusheaders/Image
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 

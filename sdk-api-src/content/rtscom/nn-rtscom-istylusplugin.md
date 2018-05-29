@@ -1,16 +1,16 @@
 ---
 UID: NN:rtscom.IStylusPlugin
 title: IStylusPlugin
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives notifications of RealTimeStylus Class events to enable you to perform custom processing based on those events.
 old-location: tablet\istylusplugin.htm
 old-project: tablet
 ms.assetid: bbef5cdb-4112-4733-80bb-692b7a198605
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStylusPlugin, IStylusPlugin interface [Tablet PC], IStylusPlugin interface [Tablet PC],described, bbef5cdb-4112-4733-80bb-692b7a198605, rtscom/IStylusPlugin, tablet.istylusplugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rtscom.h
 req.include-header: 

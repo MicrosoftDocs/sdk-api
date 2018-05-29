@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMediaSample.IsPreroll
 title: IMediaSample::IsPreroll
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsPreroll method determines if this sample is a preroll sample. A preroll sample should not be displayed.
 old-location: dshow\imediasample_ispreroll.htm
 old-project: DirectShow
 ms.assetid: 7df1d34f-ba55-42bd-b61b-272ef72e13a8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaSample interface [DirectShow],IsPreroll method, IMediaSample.IsPreroll, IMediaSample::IsPreroll, IMediaSampleIsPreroll, IsPreroll, IsPreroll method [DirectShow], IsPreroll method [DirectShow],IMediaSample interface, dshow.imediasample_ispreroll, strmif/IMediaSample::IsPreroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

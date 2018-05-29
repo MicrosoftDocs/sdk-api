@@ -1,16 +1,16 @@
 ---
 UID: NC:oobenotification.OOBE_COMPLETED_CALLBACK
 title: OOBE_COMPLETED_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Application-defined callback function used with the RegisterWaitUntilOOBECompleted function.
 old-location: windowssetupandmigration\oobe_completed_callback.htm
 old-project: WNF
 ms.assetid: 9786D6C3-82B1-4546-9BE9-7705AD3B7DBD
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: OOBE_COMPLETED_CALLBACK, OOBE_COMPLETED_CALLBACK callback, OOBE_COMPLETED_CALLBACK callback function, oobenotification/OOBE_COMPLETED_CALLBACK, windowssetupandmigration.oobe_completed_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: oobenotification.h
 req.include-header: 

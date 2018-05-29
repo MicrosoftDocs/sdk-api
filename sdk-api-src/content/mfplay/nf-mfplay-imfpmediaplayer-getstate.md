@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetState
 title: IMFPMediaPlayer::GetState
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current playback state of the MFPlay player object.
 old-location: mf\imfpmediaplayer_getstate.htm
 old-project: medfound
 ms.assetid: 072c5e93-b3ce-469c-8235-3e9c63bd77e3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetState, GetState method [Media Foundation], GetState method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetState method, IMFPMediaPlayer.GetState, IMFPMediaPlayer::GetState, mf.imfpmediaplayer_getstate, mfplay/IMFPMediaPlayer::GetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

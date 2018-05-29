@@ -1,16 +1,16 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIAttendeeManager
 title: IRDPSRAPIAttendeeManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages attendee objects.
 old-location: rdp\irdpsrapiattendeemanager.htm
 old-project: Rdp
 ms.assetid: 202b539c-b7a0-4cf3-ba64-f60cc062575a
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIAttendeeManager, IRDPSRAPIAttendeeManager interface [RDP], IRDPSRAPIAttendeeManager interface [RDP],described, rdp.irdpsrapiattendeemanager, rdpencomapi/IRDPSRAPIAttendeeManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

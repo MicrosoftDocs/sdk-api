@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromResource
 title: InitPropVariantFromResource function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a string resource embedded in an executable file.
 old-location: properties\InitPropVariantFromResource.htm
 old-project: properties
 ms.assetid: c958f823-f820-4b0b-86ed-84ad18befbd1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitPropVariantFromResource, InitPropVariantFromResource function [Windows Properties], properties.InitPropVariantFromResource, propvarutil/InitPropVariantFromResource, shell.InitPropVariantFromResource, shell_InitPropVariantFromResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

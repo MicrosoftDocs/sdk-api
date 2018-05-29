@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryContentProperties
 title: ISearchQueryHelper::get_QueryContentProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the list of properties included in the query when search terms do not explicitly specify a property.
 old-location: search\_search_ISearchQueryHelper_get_QueryContentProperties.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querycontentproperties.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QueryContentProperties method, ISearchQueryHelper.get_QueryContentProperties, ISearchQueryHelper::get_QueryContentProperties, _search_ISearchQueryHelper_get_QueryContentProperties, get_QueryContentProperties, get_QueryContentProperties method [search], get_QueryContentProperties method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QueryContentProperties, searchapi/ISearchQueryHelper::get_QueryContentProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:lmshare.NetSessionGetInfo
 title: NetSessionGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a session established between a particular server and workstation.
 old-location: fs\netsessiongetinfo.htm
 old-project: NetShare
 ms.assetid: d44fb8d8-2b64-4268-8603-7784e2c5f2d5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: 0, 1, 10, 2, NetSessionGetInfo, NetSessionGetInfo function [Files], _win32_netsessiongetinfo, fs.netsessiongetinfo, lmshare/NetSessionGetInfo, netmgmt.netsessiongetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h

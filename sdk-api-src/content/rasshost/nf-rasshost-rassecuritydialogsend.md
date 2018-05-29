@@ -1,16 +1,16 @@
 ---
 UID: NF:rasshost.RasSecurityDialogSend
 title: RasSecurityDialogSend function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasSecurityDialogSend function sends a message to be displayed in a terminal window on a remote computer. A third-party RAS security DLL sends this message as part of its authentication of a remote user.
 old-location: rras\rassecuritydialogsend.htm
 old-project: RRAS
 ms.assetid: adbc357b-7a5d-426d-b21f-0b1478bb2348
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasSecurityDialogSend, RasSecurityDialogSend function [RAS], _ras_rassecuritydialogsend, rasshost/RasSecurityDialogSend, rras.rassecuritydialogsend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rasshost.h
 req.include-header: 

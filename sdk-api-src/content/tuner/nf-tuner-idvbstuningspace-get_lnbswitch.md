@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.get_LNBSwitch
 title: IDVBSTuningSpace::get_LNBSwitch
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_LNBSwitch method retrieves the LNB switch.
 old-location: mstv\idvbstuningspace_get_lnbswitch.htm
 old-project: mstv
 ms.assetid: 56cea4ef-7679-4b78-883d-194c9259032f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_LNBSwitch method, IDVBSTuningSpace.get_LNBSwitch, IDVBSTuningSpace::get_LNBSwitch, IDVBSTuningSpaceget_LNBSwitch, get_LNBSwitch, get_LNBSwitch method [Microsoft TV Technologies], get_LNBSwitch method [Microsoft TV Technologies],IDVBSTuningSpace interface, mstv.idvbstuningspace_get_lnbswitch, tuner/IDVBSTuningSpace::get_LNBSwitch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

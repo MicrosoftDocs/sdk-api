@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToUInt32Array
 title: VariantToUInt32Array function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts data from a vector structure into an unsigned Int32 array.
 old-location: properties\VariantToUInt32Array.htm
 old-project: properties
 ms.assetid: 506a02f8-6390-44a0-9f14-bfc8fb7ad180
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToUInt32Array, VariantToUInt32Array function [Windows Properties], _shell_VariantToUInt32Array, properties.VariantToUInt32Array, propvarutil/VariantToUInt32Array, shell.VariantToUInt32Array
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

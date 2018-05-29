@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertCreateCertificateContext
 title: CertCreateCertificateContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a certificate context from an encoded certificate. The created context is not persisted to a certificate store. The function makes a copy of the encoded certificate within the created context.
 old-location: security\certcreatecertificatecontext.htm
 old-project: SecCrypto
 ms.assetid: a32714c4-ee88-48a8-a40a-bbbfec0613ac
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertCreateCertificateContext, CertCreateCertificateContext function [Security], _crypto2_certcreatecertificatecontext, security.certcreatecertificatecontext, wincrypt/CertCreateCertificateContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

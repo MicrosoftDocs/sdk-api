@@ -1,16 +1,16 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_BoundaryBottom
 title: IInertiaProcessor::get_BoundaryBottom
-author: windows-driver-content
+author: windows-sdk-content
 description: The BoundaryBottom property limits how far towards the bottom of the screen the target object can move.
 old-location: wintouch\iinertiaprocessor_bottomboundary.htm
 old-project: wintouch
 ms.assetid: 745d51d2-4d9e-4045-929a-2899ff4d2189
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: BoundaryBottom property [Windows Touch], BoundaryBottom property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],BoundaryBottom property, IInertiaProcessor.BoundaryBottom, IInertiaProcessor.get_BoundaryBottom, IInertiaProcessor::BoundaryBottom, IInertiaProcessor::get_BoundaryBottom, IInertiaProcessor::put_BoundaryBottom, get_BoundaryBottom, manipulations/IInertiaProcessor::BoundaryBottom, manipulations/IInertiaProcessor::get_BoundaryBottom, manipulations/IInertiaProcessor::put_BoundaryBottom, wintouch.iinertiaprocessor_bottomboundary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

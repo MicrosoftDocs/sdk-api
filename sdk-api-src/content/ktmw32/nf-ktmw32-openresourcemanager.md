@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.OpenResourceManager
 title: OpenResourceManager function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an existing resource manager (RM).
 old-location: fs\openresourcemanager.htm
 old-project: Ktm
 ms.assetid: 396b586f-c594-4481-b095-862e9058519c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: OpenResourceManager, OpenResourceManager function [Files], fs.openresourcemanager, ktmw32/OpenResourceManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

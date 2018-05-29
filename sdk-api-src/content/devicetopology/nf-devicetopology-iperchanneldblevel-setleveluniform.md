@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.SetLevelUniform
 title: IPerChannelDbLevel::SetLevelUniform
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetLevelUniform method sets all channels in the audio stream to the same uniform volume level, in decibels.
 old-location: coreaudio\iperchanneldblevel_setleveluniform.htm
 old-project: CoreAudio
 ms.assetid: b78bebcb-d32b-4eda-a805-35d4459b6b4f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IPerChannelDbLevel interface [Core Audio],SetLevelUniform method, IPerChannelDbLevel.SetLevelUniform, IPerChannelDbLevel::SetLevelUniform, IPerChannelDbLevelSetLevelUniform, SetLevelUniform, SetLevelUniform method [Core Audio], SetLevelUniform method [Core Audio],IPerChannelDbLevel interface, coreaudio.iperchanneldblevel_setleveluniform, devicetopology/IPerChannelDbLevel::SetLevelUniform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

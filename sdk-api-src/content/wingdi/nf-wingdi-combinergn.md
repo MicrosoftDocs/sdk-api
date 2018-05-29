@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CombineRgn
 title: CombineRgn function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CombineRgn function combines two regions and stores the result in a third region. The two regions are combined according to the specified mode.
 old-location: gdi\combinergn.htm
 old-project: gdi
 ms.assetid: ef9fc4f3-737e-4c10-a80b-8ae2097c17d1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CombineRgn, CombineRgn function [Windows GDI], RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, _win32_CombineRgn, gdi.combinergn, wingdi/CombineRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

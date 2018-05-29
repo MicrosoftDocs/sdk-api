@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPhone.get_LampMode
 title: ITPhone::get_LampMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_LampMode method gets the current lamp mode for the given lamp.
 old-location: tapi3\itphone_get_lampmode.htm
 old-project: Tapi
 ms.assetid: 5e0fa135-304a-4598-a6cd-2e5734b3678c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_LampMode method, ITPhone.get_LampMode, ITPhone::get_LampMode, _tapi3_itphone_get_lampmode, get_LampMode, get_LampMode method [TAPI 2.2], get_LampMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_lampmode, tapi3if/ITPhone::get_LampMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

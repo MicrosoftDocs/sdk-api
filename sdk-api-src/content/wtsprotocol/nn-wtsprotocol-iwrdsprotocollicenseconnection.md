@@ -1,16 +1,16 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolLicenseConnection
 title: IWRdsProtocolLicenseConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods used by the Remote Desktop Services service to perform the licensing handshake during a connection sequence.
 old-location: termserv\iwrdsprotocollicenseconnection.htm
 old-project: TermServ
 ms.assetid: 498c31c5-1cb6-41d7-91fb-7409ea03dda0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsProtocolLicenseConnection, IWRdsProtocolLicenseConnection interface [Remote Desktop Services], IWRdsProtocolLicenseConnection interface [Remote Desktop Services],described, termserv.iwrdsprotocollicenseconnection, wtsprotocol/IWRdsProtocolLicenseConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

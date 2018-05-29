@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.CreateIpNetEntry
 title: CreateIpNetEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateIpNetEntry function creates an Address Resolution Protocol (ARP) entry in the ARP table on the local computer.
 old-location: iphlp\createipnetentry.htm
 old-project: IpHlp
 ms.assetid: 607f9aad-2046-4ab2-9a62-4092f87ffa66
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreateIpNetEntry, CreateIpNetEntry function [IP Helper], _iphlp_createipnetentry, iphlp.createipnetentry, iphlpapi/CreateIpNetEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

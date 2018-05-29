@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyChange.ApplyToPropVariant
 title: IPropertyChange::ApplyToPropVariant
-author: windows-driver-content
+author: windows-sdk-content
 description: Applies a change to a property value.
 old-location: properties\IPropertyChange_ApplyToPropVariant.htm
 old-project: properties
 ms.assetid: 7d7b6de5-0ed9-44fc-b2b3-c0f4cd8bf9c5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ApplyToPropVariant, ApplyToPropVariant method [Windows Properties], ApplyToPropVariant method [Windows Properties],IPropertyChange interface, IPropertyChange interface [Windows Properties],ApplyToPropVariant method, IPropertyChange.ApplyToPropVariant, IPropertyChange::ApplyToPropVariant, _shell_IPropertyChange_ApplyToPropVariant, properties.IPropertyChange_ApplyToPropVariant, propsys/IPropertyChange::ApplyToPropVariant, shell.IPropertyChange_ApplyToPropVariant
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IBasicVideo.get_DestinationTop
 title: IBasicVideo::get_DestinationTop
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_DestinationTop method retrieves the y-coordinate of the destination rectangle.
 old-location: dshow\ibasicvideo_get_destinationtop.htm
 old-project: DirectShow
 ms.assetid: 79690655-ac84-4119-9d87-799990424f00
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_DestinationTop method, IBasicVideo.get_DestinationTop, IBasicVideo::get_DestinationTop, IBasicVideoget_DestinationTop, control/IBasicVideo::get_DestinationTop, dshow.ibasicvideo_get_destinationtop, get_DestinationTop, get_DestinationTop method [DirectShow], get_DestinationTop method [DirectShow],IBasicVideo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

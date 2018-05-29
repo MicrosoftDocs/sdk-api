@@ -1,16 +1,16 @@
 ---
 UID: NN:msimeapi.IImePlugInDictDictionaryList
 title: IImePlugInDictDictionaryList
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the list of IME plug-in dictionaries.
 old-location: intl\iimeplugindictdictionarylist.htm
 old-project: Intl
 ms.assetid: EF14E963-26DF-4E72-9BDF-3AE99D0B7273
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IImePlugInDictDictionaryList, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications], IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],described, intl.iimeplugindictdictionarylist, msimeapi/IImePlugInDictDictionaryList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msimeapi.h
 req.include-header: 

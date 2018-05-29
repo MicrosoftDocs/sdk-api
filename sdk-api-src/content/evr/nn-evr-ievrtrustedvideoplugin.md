@@ -1,16 +1,16 @@
 ---
 UID: NN:evr.IEVRTrustedVideoPlugin
 title: IEVRTrustedVideoPlugin
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a plug-in component for the enhanced video renderer (EVR) to work with protected media.
 old-location: mf\ievrtrustedvideoplugin.htm
 old-project: medfound
 ms.assetid: 1dcaa01c-2596-4a22-9e2a-7f0e26d58ffe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 1dcaa01c-2596-4a22-9e2a-7f0e26d58ffe, IEVRTrustedVideoPlugin, IEVRTrustedVideoPlugin interface [Media Foundation], IEVRTrustedVideoPlugin interface [Media Foundation],described, evr/IEVRTrustedVideoPlugin, mf.ievrtrustedvideoplugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: evr.h
 req.include-header: 

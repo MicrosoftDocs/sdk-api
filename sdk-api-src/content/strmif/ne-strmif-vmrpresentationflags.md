@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif.VMRPresentationFlags
 title: VMRPresentationFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: The VMRPresentationFlags enumeration type is a member of the VMRPRESENTATIONINFO structure .
 old-location: dshow\vmrpresentationflags.htm
 old-project: DirectShow
 ms.assetid: 27aab657-802e-4967-a5bd-3907637e1cfe
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: VMRPresentationFlags, VMRPresentationFlags enumeration [DirectShow], VMRPresentationFlagsEnumeration, VMRSample_Discontinuity, VMRSample_Preroll, VMRSample_SyncPoint, VMRSample_TimeValid, dshow.vmrpresentationflags, strmif/VMRPresentationFlags, strmif/VMRSample_Discontinuity, strmif/VMRSample_Preroll, strmif/VMRSample_SyncPoint, strmif/VMRSample_TimeValid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

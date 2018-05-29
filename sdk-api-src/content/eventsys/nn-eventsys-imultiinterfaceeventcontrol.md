@@ -1,16 +1,16 @@
 ---
 UID: NN:eventsys.IMultiInterfaceEventControl
 title: IMultiInterfaceEventControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls the behavior of an event object, the object that fires an event to its subscribers.
 old-location: cos\imultiinterfaceeventcontrol.htm
 old-project: cossdk
 ms.assetid: e603f68a-881c-468d-a3d3-738f43400e01
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMultiInterfaceEventControl, IMultiInterfaceEventControl interface [COM+], IMultiInterfaceEventControl interface [COM+],described, _cos_IMultiInterfaceEventControl, cos.imultiinterfaceeventcontrol, eventsys/IMultiInterfaceEventControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 

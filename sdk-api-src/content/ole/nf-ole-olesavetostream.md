@@ -1,16 +1,16 @@
 ---
 UID: NF:ole.OleSaveToStream
 title: OleSaveToStream function
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves an object with the IPersistStream interface on it to the specified stream.
 old-location: com\olesavetostream.htm
 old-project: com
 ms.assetid: 0085c6a8-1a94-4379-9937-c8d792d130da
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleSaveToStream, OleSaveToStream function [COM], _ole_OleSaveToStream, com.olesavetostream, ole/OleSaveToStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole.h
 req.include-header: Ole2.h

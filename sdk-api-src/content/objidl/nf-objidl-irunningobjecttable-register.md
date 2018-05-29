@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IRunningObjectTable.Register
 title: IRunningObjectTable::Register
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers an object and its identifying moniker in the running object table (ROT).
 old-location: com\irunningobjecttable_register.htm
 old-project: com
 ms.assetid: 40f815b2-dfea-416c-aae1-7ba3a710ad91
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRunningObjectTable interface [COM],Register method, IRunningObjectTable.Register, IRunningObjectTable::Register, ROTFLAGS_ALLOWANYCLIENT, ROTFLAGS_REGISTRATIONKEEPSALIVE, Register, Register method [COM], Register method [COM],IRunningObjectTable interface, _com_irunningobjecttable_register, com.irunningobjecttable_register, objidl/IRunningObjectTable::Register
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

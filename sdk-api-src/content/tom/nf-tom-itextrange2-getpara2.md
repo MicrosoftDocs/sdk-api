@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange2.GetPara2
 title: ITextRange2::GetPara2
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an ITextPara2 object with the paragraph attributes of a range.
 old-location: controls\itextrange2_getpara2.htm
 old-project: Controls
 ms.assetid: b20ebe85-f2a6-4a19-8b25-f1f16ebf5627
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPara2, GetPara2 method [Windows Controls], GetPara2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetPara2 method, ITextRange2.GetPara2, ITextRange2::GetPara2, controls.itextrange2_getpara2, tom/ITextRange2::GetPara2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

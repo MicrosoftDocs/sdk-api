@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfFnGetPreferredTouchKeyboardLayout
 title: ITfFnGetPreferredTouchKeyboardLayout
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfFnGetPreferredTouchKeyboardLayout interface is implemented by a text service to specify the use of a particular keyboard layout supported by the inbox Windows 8 touch keyboard.
 old-location: tsf\itffngetpreferredtouchkeyboardlayout.htm
 old-project: TSF
 ms.assetid: 1BC4A446-AEDC-44AA-9BD7-786917AD2556
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnGetPreferredTouchKeyboardLayout, ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework], ITfFnGetPreferredTouchKeyboardLayout interface [Text Services Framework],described, ctffunc/ITfFnGetPreferredTouchKeyboardLayout, tsf.itffngetpreferredtouchkeyboardlayout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

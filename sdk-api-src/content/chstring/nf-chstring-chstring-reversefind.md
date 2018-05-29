@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.ReverseFind
 title: CHString::ReverseFind
-author: windows-driver-content
+author: windows-sdk-content
 description: The ReverseFind method searches a CHString string for the last match of a substring. This method is similar to the runtime function, wcsrchr.
 old-location: wmi\chstring_reversefind.htm
 old-project: WmiSdk
 ms.assetid: 941c9eb3-a5b8-42b7-bb9f-732eaf1faa24
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],ReverseFind method, CHString.ReverseFind, CHString::ReverseFind, ReverseFind, ReverseFind method [Windows Management Instrumentation], ReverseFind method [Windows Management Instrumentation],CHString interface, _hmm_chstring_reversefind, chstring/CHString::ReverseFind, wmi.chstring_reversefind
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

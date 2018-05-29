@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredIsMarshaledCredentialW
 title: CredIsMarshaledCredentialW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a specified user name string is a marshaled credential previously marshaled by CredMarshalCredential.
 old-location: security\credismarshaledcredential.htm
 old-project: SecAuthN
 ms.assetid: fc902c0c-41e0-4178-8ca0-227a1d218388
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CredIsMarshaledCredential, CredIsMarshaledCredential function [Security], CredIsMarshaledCredentialA, CredIsMarshaledCredentialW, _cred_credismarshaledcredential, security.credismarshaledcredential, wincred/CredIsMarshaledCredential, wincred/CredIsMarshaledCredentialA, wincred/CredIsMarshaledCredentialW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

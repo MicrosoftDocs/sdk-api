@@ -1,16 +1,16 @@
 ---
 UID: NS:winldap.ldapvlvinfo
 title: ldapvlvinfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to set up the search parameters for a virtual list view (VLV) request control (LDAP_CONTROL_VLVREQUEST).
 old-location: ldap\ldapvlvinfo.htm
 old-project: LDAP
 ms.assetid: 2018ecb1-9b32-4afa-ad20-5cdae396376d
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "*PLDAPVLVInfo, LDAPVLVInfo, LDAPVLVInfo structure [LDAP], _ldap_ldapvlvinfo, ldap.ldapvlvinfo, ldapvlvinfo, winldap/LDAPVLVInfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 

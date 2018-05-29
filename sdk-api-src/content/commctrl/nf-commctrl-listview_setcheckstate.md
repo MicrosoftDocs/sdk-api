@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SetCheckState
 title: ListView_SetCheckState macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Selects or deselects an item in a list-view control. You can use this macro or send the LVM_SETITEMSTATE message explicitly.
 old-location: controls\ListView_SetCheckState.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcheckstate.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_SetCheckState, ListView_SetCheckState macro [Windows Controls], _win32_ListView_SetCheckState, _win32_ListView_SetCheckState_cpp, commctrl/ListView_SetCheckState, controls.ListView_SetCheckState, controls._win32_ListView_SetCheckState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

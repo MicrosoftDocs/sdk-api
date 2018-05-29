@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IEnumRegFilters.Clone
 title: IEnumRegFilters::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  The IEnumRegFilters interface is deprecated. This method is not currently implemented and returns E_NOTIMPL.
 old-location: dshow\ienumregfilters_clone.htm
 old-project: DirectShow
 ms.assetid: ba4366fa-57ba-4057-b3b9-5380e0fca006
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumRegFilters interface, IEnumRegFilters interface [DirectShow],Clone method, IEnumRegFilters.Clone, IEnumRegFilters::Clone, IEnumRegFiltersClone, dshow.ienumregfilters_clone, strmif/IEnumRegFilters::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

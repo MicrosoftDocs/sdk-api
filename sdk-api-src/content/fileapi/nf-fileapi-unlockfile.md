@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.UnlockFile
 title: UnlockFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unlocks a region in an open file.
 old-location: fs\unlockfile.htm
 old-project: FileIO
 ms.assetid: 6a930f83-3918-4688-ac60-d1de6857f479
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: UnlockFile, UnlockFile function [Files], _win32_unlockfile, base.unlockfile, fileapi/UnlockFile, fs.unlockfile, winbase/UnlockFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.Append
 title: IXpsOMImageResourceCollection::Append
-author: windows-driver-content
+author: windows-sdk-content
 description: Appends an IXpsOMImageResource interface to the end of the collection.
 old-location: xps\ixpsomimageresourcecollection_append.htm
 old-project: printdocs
 ms.assetid: 0932d81d-7577-4063-8207-d818164175eb
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, IXpsOMImageResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMImageResourceCollection.Append, IXpsOMImageResourceCollection::Append, xps.ixpsomimageresourcecollection_append, xpsobjectmodel/IXpsOMImageResourceCollection::Append
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

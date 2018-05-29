@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.GetPreservedKey
 title: ITfKeystrokeMgr::GetPreservedKey
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfKeystrokeMgr::GetPreservedKey method
 old-location: tsf\itfkeystrokemgr_getpreservedkey.htm
 old-project: TSF
 ms.assetid: d87b3b1c-0e51-4e89-b837-79ed2fe78bbb
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetPreservedKey, GetPreservedKey method [Text Services Framework], GetPreservedKey method [Text Services Framework],ITfKeystrokeMgr interface, ITfKeystrokeMgr interface [Text Services Framework],GetPreservedKey method, ITfKeystrokeMgr.GetPreservedKey, ITfKeystrokeMgr::GetPreservedKey, _tsf_itfkeystrokemgr_getpreservedkey_ref, msctf/ITfKeystrokeMgr::GetPreservedKey, tsf.itfkeystrokemgr_getpreservedkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.RecognizeNamedEntities
 title: IConditionGenerator::RecognizeNamedEntities
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies named entities in an input string, and creates a collection containing them.
 old-location: search\_search_IConditionGenerator_RecognizeNamedEntities.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\recognizenamedentities.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IConditionGenerator interface [search],RecognizeNamedEntities method, IConditionGenerator.RecognizeNamedEntities, IConditionGenerator::RecognizeNamedEntities, RecognizeNamedEntities, RecognizeNamedEntities method [search], RecognizeNamedEntities method [search],IConditionGenerator interface, _search_IConditionGenerator_RecognizeNamedEntities, search._search_IConditionGenerator_RecognizeNamedEntities, structuredquery/IConditionGenerator::RecognizeNamedEntities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

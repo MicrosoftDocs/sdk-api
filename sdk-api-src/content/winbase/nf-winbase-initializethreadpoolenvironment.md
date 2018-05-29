@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.InitializeThreadpoolEnvironment
 title: InitializeThreadpoolEnvironment function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a callback environment.
 old-location: base\initializethreadpoolenvironment.htm
 old-project: ProcThread
 ms.assetid: ad610b7a-9865-4feb-81d2-491f9f87ef3e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InitializeThreadpoolEnvironment, InitializeThreadpoolEnvironment function, base.initializethreadpoolenvironment, winbase/InitializeThreadpoolEnvironment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

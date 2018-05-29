@@ -1,16 +1,16 @@
 ---
 UID: NE:vdshwprv._VDS_STORAGE_POOL_STATUS
 title: "_VDS_STORAGE_POOL_STATUS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of object status values for a storage pool.
 old-location: base\vds_storage_pool_status.htm
 old-project: VDS
 ms.assetid: b2af30c8-116c-4e51-bffc-0dee9a4bd04e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_SPS_NOT_READY, VDS_SPS_OFFLINE, VDS_SPS_ONLINE, VDS_SPS_UNKNOWN, VDS_STORAGE_POOL_STATUS, VDS_STORAGE_POOL_STATUS enumeration, _VDS_STORAGE_POOL_STATUS, base.vds_storage_pool_status, vds/VDS_SPS_NOT_READY, vds/VDS_SPS_OFFLINE, vds/VDS_SPS_ONLINE, vds/VDS_SPS_UNKNOWN, vds/VDS_STORAGE_POOL_STATUS, vdshwprv/VDS_SPS_NOT_READY, vdshwprv/VDS_SPS_OFFLINE, vdshwprv/VDS_SPS_ONLINE, vdshwprv/VDS_SPS_UNKNOWN, vdshwprv/VDS_STORAGE_POOL_STATUS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 

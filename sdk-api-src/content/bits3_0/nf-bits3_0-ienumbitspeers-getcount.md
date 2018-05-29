@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.GetCount
 title: IEnumBitsPeers::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a count of the number of peers in the enumeration.
 old-location: bits\ienumbitspeers_getcount.htm
 old-project: Bits
 ms.assetid: b4e52429-cd41-483a-b168-b5d7a1f77d74
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBitsPeers interface, IEnumBitsPeers interface [BITS],GetCount method, IEnumBitsPeers.GetCount, IEnumBitsPeers::GetCount, bits.ienumbitspeers_getcount, bits3_0/IEnumBitsPeers::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

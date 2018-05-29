@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHFree
 title: SHFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the memory allocated by SHAlloc.
 old-location: shell\SHFree.htm
 old-project: shell
 ms.assetid: c9a532ad-ae24-4505-9e7b-577b90365441
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHFree, SHFree function [Windows Shell], _win32_SHFree, shell.SHFree, shlobj_core/SHFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

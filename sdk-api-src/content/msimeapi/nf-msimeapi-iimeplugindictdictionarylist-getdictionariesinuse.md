@@ -1,16 +1,16 @@
 ---
 UID: NF:msimeapi.IImePlugInDictDictionaryList.GetDictionariesInUse
 title: IImePlugInDictDictionaryList::GetDictionariesInUse
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the list of Dictionay IDs (GUID) of the IME plug-in dictionaries which are in use by IME, with their creation dates and encryption flags.
 old-location: intl\iimeplugindictdictionarylist_getdictionariesinuse.htm
 old-project: Intl
 ms.assetid: 145F403E-7A7D-4336-96CD-620FA61DFCBF
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDictionariesInUse, GetDictionariesInUse method [Internationalization for Windows Applications], GetDictionariesInUse method [Internationalization for Windows Applications],IImePlugInDictDictionaryList interface, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],GetDictionariesInUse method, IImePlugInDictDictionaryList.GetDictionariesInUse, IImePlugInDictDictionaryList::GetDictionariesInUse, intl.iimeplugindictdictionarylist_getdictionariesinuse, msimeapi/IImePlugInDictDictionaryList::GetDictionariesInUse
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msimeapi.h
 req.include-header: 

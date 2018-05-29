@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_POLICY_PROPERTY
 title: "_WS_POLICY_PROPERTY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a policy object setting.
 old-location: wsw\ws_policy_property.htm
 old-project: wsw
 ms.assetid: a897eb6c-d527-46ec-a710-252679001185
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_POLICY_PROPERTY, WS_POLICY_PROPERTY structure [Web Services for Windows], _WS_POLICY_PROPERTY, webservices/WS_POLICY_PROPERTY, wsw.ws_policy_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

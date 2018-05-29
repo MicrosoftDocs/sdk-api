@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.ITravelLog.Revert
 title: ITravelLog::Revert
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Reverts to the current entry, dropping the result of ITravelLog::AddEntry in the case of a failed navigation.
 old-location: shell\ITravelLog_Revert.htm
 old-project: shell
 ms.assetid: 202ce028-d64c-4733-8006-1bdb1efa8ad3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITravelLog interface [Windows Shell],Revert method, ITravelLog.Revert, ITravelLog::Revert, Revert, Revert method [Windows Shell], Revert method [Windows Shell],ITravelLog interface, shdeprecated/ITravelLog::Revert, shell.ITravelLog_Revert, zone_ITravelLog_Revert
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

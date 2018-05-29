@@ -1,16 +1,16 @@
 ---
 UID: NF:dsgetdc.DsValidateSubnetNameW
 title: DsValidateSubnetNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DsValidateSubnetName function validates a subnet name in the form xxx.xxx.xxx.xxx/YY.
 old-location: ad\dsvalidatesubnetname.htm
 old-project: AD
 ms.assetid: bed49e08-4cb7-439c-bfb7-815263ec7568
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsValidateSubnetName, DsValidateSubnetName function [Active Directory], DsValidateSubnetNameA, DsValidateSubnetNameW, _glines_dsvalidatesubnetname, ad.dsvalidatesubnetname, dsgetdc/DsValidateSubnetName, dsgetdc/DsValidateSubnetNameA, dsgetdc/DsValidateSubnetNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 

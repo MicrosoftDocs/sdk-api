@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_MemoryUtilization
 title: IWdsTransportClient::get_MemoryUtilization
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives the percentage of the WDS client’s memory in use.
 old-location: wds\iwdstransportclient_memoryutilization.htm
 old-project: Wds
 ms.assetid: a99d149b-adca-40e0-a9b1-34e4d2d3ad36
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],MemoryUtilization property, IWdsTransportClient.MemoryUtilization, IWdsTransportClient.get_MemoryUtilization, IWdsTransportClient::MemoryUtilization, IWdsTransportClient::get_MemoryUtilization, MemoryUtilization property [Windows Deployment Services], MemoryUtilization property [Windows Deployment Services],IWdsTransportClient interface, get_MemoryUtilization, wds.iwdstransportclient_memoryutilization, wdstptmgmt/IWdsTransportClient::MemoryUtilization, wdstptmgmt/IWdsTransportClient::get_MemoryUtilization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

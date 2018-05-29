@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpv6csdk._DHCPV6Prefix
 title: "_DHCPV6Prefix"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCPV6Prefix contains an IPv6 prefix.
 old-location: dhcp\dhcpv6prefix.htm
 old-project: DHCP
 ms.assetid: e04e3275-e4be-44bc-bd63-c45500971af7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCPV6Prefix, *PDHCPV6Prefix, DHCPV6Prefix, DHCPV6Prefix structure [DHCP], LPDHCPV6Prefix, LPDHCPV6Prefix structure pointer [DHCP], PDHCPV6Prefix, PDHCPV6Prefix structure pointer [DHCP], _DHCPV6Prefix, dhcp.dhcpv6prefix, dhcpv6csdk/DHCPV6Prefix, dhcpv6csdk/LPDHCPV6Prefix, dhcpv6csdk/PDHCPV6Prefix"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpv6csdk.h
 req.include-header: 

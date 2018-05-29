@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFSample.ConvertToContiguousBuffer
 title: IMFSample::ConvertToContiguousBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a sample with multiple buffers into a sample with a single buffer.
 old-location: mf\imfsample_converttocontiguousbuffer.htm
 old-project: medfound
 ms.assetid: 6ea950eb-7f2e-4549-93dc-fa62f95b7b66
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 6ea950eb-7f2e-4549-93dc-fa62f95b7b66, ConvertToContiguousBuffer, ConvertToContiguousBuffer method [Media Foundation], ConvertToContiguousBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],ConvertToContiguousBuffer method, IMFSample.ConvertToContiguousBuffer, IMFSample::ConvertToContiguousBuffer, mf.imfsample_converttocontiguousbuffer, mfobjects/IMFSample::ConvertToContiguousBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

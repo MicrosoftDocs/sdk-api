@@ -1,16 +1,16 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_InputActive
 title: IMSVidCtl::get_InputActive
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_InputActive method retrieves the input device that is currently active.
 old-location: mstv\imsvidctl_get_inputactive.htm
 old-project: mstv
 ms.assetid: 3451002b-5339-4b43-aefd-d66c48f7ae57
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_InputActive method, IMSVidCtl.get_InputActive, IMSVidCtl::get_InputActive, IMSVidCtlget_InputActive, get_InputActive, get_InputActive method [Microsoft TV Technologies], get_InputActive method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_inputactive, msvidctl/IMSVidCtl::get_InputActive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 

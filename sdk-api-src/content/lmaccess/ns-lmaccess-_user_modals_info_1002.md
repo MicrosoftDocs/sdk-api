@@ -1,16 +1,16 @@
 ---
 UID: NS:lmaccess._USER_MODALS_INFO_1002
 title: "_USER_MODALS_INFO_1002"
-author: windows-driver-content
+author: windows-sdk-content
 description: The USER_MODALS_INFO_1002 structure contains the maximum duration for passwords in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\user_modals_info_1002_str.htm
 old-project: NetMgmt
 ms.assetid: d4899deb-6250-4cdc-9820-56d24e3acfc1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPUSER_MODALS_INFO_1002, *PUSER_MODALS_INFO_1002, LPUSER_MODALS_INFO_1002, LPUSER_MODALS_INFO_1002 structure pointer [Network Management], PUSER_MODALS_INFO_1002, PUSER_MODALS_INFO_1002 structure pointer [Network Management], USER_MODALS_INFO_1002, USER_MODALS_INFO_1002 structure [Network Management], _USER_MODALS_INFO_1002, _win32_user_modals_info_1002_str, lmaccess/LPUSER_MODALS_INFO_1002, lmaccess/PUSER_MODALS_INFO_1002, lmaccess/USER_MODALS_INFO_1002, netmgmt.user_modals_info_1002_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

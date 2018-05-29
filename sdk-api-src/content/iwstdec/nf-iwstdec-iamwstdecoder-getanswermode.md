@@ -1,16 +1,16 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetAnswerMode
 title: IAMWstDecoder::GetAnswerMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Downstream filters use the GetAnswerMode method to retrieve the current answer mode.
 old-location: dshow\iamwstdecoder_getanswermode.htm
 old-project: DirectShow
 ms.assetid: 6251c9fa-1149-47ac-b776-7d10d153dde5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAnswerMode, GetAnswerMode method [DirectShow], GetAnswerMode method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetAnswerMode method, IAMWstDecoder.GetAnswerMode, IAMWstDecoder::GetAnswerMode, IAMWstDecoderGetAnswerMode, dshow.iamwstdecoder_getanswermode, iwstdec/IAMWstDecoder::GetAnswerMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 

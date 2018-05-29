@@ -1,16 +1,16 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.LoadConfiguration
 title: IFhConfigMgr::LoadConfiguration
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads the File History configuration information for the current user into an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_loadconfiguration.htm
 old-project: DevNotes
 ms.assetid: 9959AF70-87C2-45E0-A409-959494AF393B
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FhConfigMgr class [Windows API],LoadConfiguration method, IFhConfigMgr interface [Windows API],LoadConfiguration method, IFhConfigMgr.LoadConfiguration, IFhConfigMgr::LoadConfiguration, LoadConfiguration, LoadConfiguration method [Windows API], LoadConfiguration method [Windows API],FhConfigMgr class, LoadConfiguration method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::LoadConfiguration, winprog.ifhconfigmgr_loadconfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 

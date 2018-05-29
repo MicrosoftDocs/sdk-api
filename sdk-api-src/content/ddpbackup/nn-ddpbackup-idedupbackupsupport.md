@@ -1,16 +1,16 @@
 ---
 UID: NN:ddpbackup.IDedupBackupSupport
 title: IDedupBackupSupport
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method for restoring a file from a backup store containing copies of Data Deduplication reparse points, metadata, and container files.
 old-location: dedup\idedupbackupsupport.htm
 old-project: dedup
 ms.assetid: 45AACC37-3C83-4DBA-8C18-26D76ED831BB
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDedupBackupSupport, IDedupBackupSupport interface [Data Deduplication API], IDedupBackupSupport interface [Data Deduplication API],described, ddpbackup/IDedupBackupSupport, dedup.idedupbackupsupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ddpbackup.h
 req.include-header: 

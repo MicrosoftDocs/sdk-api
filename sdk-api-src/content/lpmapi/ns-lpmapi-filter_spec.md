@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.FILTER_SPEC
 title: FILTER_SPEC
-author: windows-driver-content
+author: windows-sdk-content
 description: The FILTER_SPEC structure stores information about an RSVP FILTERSPEC.
 old-location: qos\filter_spec.htm
 old-project: QOS
 ms.assetid: 72d08944-7ac9-496f-a18b-e6fcddb59c56
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: FILTER_SPEC, FILTER_SPEC structure [QOS], SENDER_TEMPLATE, lpmapi/FILTER_SPEC, qos.filter_spec
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

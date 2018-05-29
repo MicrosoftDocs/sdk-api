@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbFilterPluginStore.DeleteProperties
 title: ITsSbFilterPluginStore::DeleteProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a property.
 old-location: termserv\itssbfilterpluginstore_deleteproperties.htm
 old-project: TermServ
 ms.assetid: 25c2ab34-0879-4dda-9ccb-fb5d7baea61c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DeleteProperties, DeleteProperties method [Remote Desktop Services], DeleteProperties method [Remote Desktop Services],ITsSbFilterPluginStore interface, ITsSbFilterPluginStore interface [Remote Desktop Services],DeleteProperties method, ITsSbFilterPluginStore.DeleteProperties, ITsSbFilterPluginStore::DeleteProperties, sbtsv/ITsSbFilterPluginStore::DeleteProperties, termserv.itssbfilterpluginstore_deleteproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

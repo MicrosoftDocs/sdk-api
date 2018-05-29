@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrOleFree
 title: NdrOleFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrOleFree function is a wrapper for the CoTaskMemFree function.
 old-location: rpc\ndrolefree.htm
 old-project: Rpc
 ms.assetid: c4289448-11bb-40d1-ae63-68521b901796
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrOleFree, NdrOleFree function [RPC], rpc.ndrolefree, rpcndr/NdrOleFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

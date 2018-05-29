@@ -1,16 +1,16 @@
 ---
 UID: NE:wuapi.tagSearchScope
 title: tagSearchScope
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the variety of updates that should be returned by the search:\_per-machine updates, per-user updates, or both.
 old-location: wua\searchscope.htm
 old-project: Wua_Sdk
 ms.assetid: a7b6a930-7b79-42dc-a4b0-da2eca0dff5c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SearchScope, SearchScope , SearchScope enumeration [Windows Update Agent], searchScopeAllUsers, searchScopeCurrentUserOnly, searchScopeDefault, searchScopeMachineAndAllUsers, searchScopeMachineAndCurrentUser, searchScopeMachineOnly, tagSearchScope, wua.searchscope, wuapi/SearchScope, wuapi/searchScopeAllUsers, wuapi/searchScopeCurrentUserOnly, wuapi/searchScopeDefault, wuapi/searchScopeMachineAndAllUsers, wuapi/searchScopeMachineAndCurrentUser, wuapi/searchScopeMachineOnly
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

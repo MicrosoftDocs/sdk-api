@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillRectangle(IN const Brush,IN INT,IN INT,IN INT,IN INT)
 title: Graphics::FillRectangle(IN const Brush,IN INT,IN INT,IN INT,IN INT)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the FillRectangle methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillRectangle_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillrectanglemethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FillRectangle, FillRectangle methods [GDI+], Graphics.FillRectangle, Graphics.FillRectangle(IN const Brush,IN INT,IN INT,IN INT,IN INT), Graphics::FillRectangle, Graphics::FillRectangle(IN const Brush,IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Graphics_FillRectangle_Methods, gdiplus._gdiplus_CLASS_Graphics_FillRectangle_Methods, gdiplusgraphics/FillRectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 

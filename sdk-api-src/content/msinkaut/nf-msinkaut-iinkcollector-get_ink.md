@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_Ink
 title: IInkCollector::get_Ink
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the InkDisp object that is associated with an InkCollector object or an InkOverlay object.
 old-location: tablet\inkcollector_ink.htm
 old-project: tablet
 ms.assetid: 62881a0e-3932-49a1-8e7d-3e74474f2214
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 62881a0e-3932-49a1-8e7d-3e74474f2214, IInkCollector.get_Ink, IInkCollector::get_Ink, Ink property [Tablet PC], Ink property [Tablet PC],InkCollector class, InkCollector class [Tablet PC],Ink property, InkCollector.Ink, InkCollector.get_Ink, get_Ink, putref_Ink, tablet.inkcollector_ink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.MatchProbeEx
 title: IWSDiscoveryPublisher::MatchProbeEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a Probe message matches the specified host and sends a WS-Discovery ProbeMatches message with extended information if the match is made.
 old-location: ncd\iwsdiscoverypublisher_matchprobeex_method.htm
 old-project: WsdApi
 ms.assetid: d2441bdc-848b-48c4-bc4e-5b8f854cc4a5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDiscoveryPublisher interface,MatchProbeEx method, IWSDiscoveryPublisher.MatchProbeEx, IWSDiscoveryPublisher::MatchProbeEx, MatchProbeEx, MatchProbeEx method, MatchProbeEx method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_matchprobeex_method, wsddisco/IWSDiscoveryPublisher::MatchProbeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

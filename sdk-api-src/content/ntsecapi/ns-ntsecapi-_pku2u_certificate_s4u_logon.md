@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._PKU2U_CERTIFICATE_S4U_LOGON
 title: "_PKU2U_CERTIFICATE_S4U_LOGON"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a certificate used for S4U logon.
 old-location: security\pku2u_certificate_s4u_logon.htm
 old-project: SecAuthN
 ms.assetid: 438b5637-d711-419a-a163-a9b014bf0662
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PPKU2U_CERTIFICATE_S4U_LOGON, PKU2U_CERTIFICATE_S4U_LOGON, PKU2U_CERTIFICATE_S4U_LOGON structure [Security], PPKU2U_CERTIFICATE_S4U_LOGON, PPKU2U_CERTIFICATE_S4U_LOGON structure pointer [Security], _PKU2U_CERTIFICATE_S4U_LOGON, ntsecapi/PKU2U_CERTIFICATE_S4U_LOGON, ntsecapi/PPKU2U_CERTIFICATE_S4U_LOGON, security.pku2u_certificate_s4u_logon"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

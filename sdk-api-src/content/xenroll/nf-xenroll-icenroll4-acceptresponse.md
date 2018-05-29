@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.ICEnroll4.acceptResponse
 title: ICEnroll4::acceptResponse
-author: windows-driver-content
+author: windows-sdk-content
 description: Accepts delivery of the credentials issued in response to an earlier call to createRequest and places the credentials in the appropriate store.
 old-location: security\icenroll4_acceptresponse.htm
 old-project: SecCrypto
 ms.assetid: 1149a76e-e714-4bc7-842c-6fcbe220cd24
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CEnroll object [Security],acceptResponse method, ICEnroll4 interface [Security],acceptResponse method, ICEnroll4.acceptResponse, ICEnroll4::acceptResponse, _xen_icenroll4_acceptresponse, acceptResponse, acceptResponse method [Security], acceptResponse method [Security],CEnroll object, acceptResponse method [Security],ICEnroll4 interface, security.icenroll4_acceptresponse, xenroll/ICEnroll4::acceptResponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

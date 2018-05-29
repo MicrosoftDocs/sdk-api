@@ -1,16 +1,16 @@
 ---
 UID: NF:raseapif.RasEapInvokeConfigUI
 title: RasEapInvokeConfigUI function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RAS connection manager calls the RasEapInvokeConfigUI function to display a dialog to obtain configuration information from the user.
 old-location: eap\raseapinvokeconfigui.htm
 old-project: EAP
 ms.assetid: cdd9b081-e654-445e-9383-3665258f5cfa
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_GUEST_ACCESS, RAS_EAP_FLAG_ROUTER, RasEapInvokeConfigUI, RasEapInvokeConfigUI callback, RasEapInvokeConfigUI callback function [EAP], _eap_raseapinvokeconfigui, eap.raseapinvokeconfigui, raseapif/RasEapInvokeConfigUI
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: raseapif.h
 req.include-header: 

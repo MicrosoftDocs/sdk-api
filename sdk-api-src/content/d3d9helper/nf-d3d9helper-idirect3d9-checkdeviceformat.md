@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3D9.CheckDeviceFormat
 title: IDirect3D9::CheckDeviceFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a surface format is available as a specified resource type and can be used as a texture, depth-stencil buffer, or render target, or any combination of the three, on a device representing this adapter.
 old-location: direct3d9\idirect3d9__checkdeviceformat.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__checkdeviceformat.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: CheckDeviceFormat, CheckDeviceFormat method [Direct3D 9], CheckDeviceFormat method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CheckDeviceFormat method, IDirect3D9.CheckDeviceFormat, IDirect3D9::CheckDeviceFormat, d3d9helper/IDirect3D9::CheckDeviceFormat, daa5cafd-0b8b-a747-98fe-eb9db7acde6d, direct3d9.idirect3d9__checkdeviceformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

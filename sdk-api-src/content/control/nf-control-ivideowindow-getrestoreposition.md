@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IVideoWindow.GetRestorePosition
 title: IVideoWindow::GetRestorePosition
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetRestorePosition method retrieves the restored window position.
 old-location: dshow\ivideowindow_getrestoreposition.htm
 old-project: DirectShow
 ms.assetid: e2c8880a-e140-4bb1-8f0d-2d665c98728c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetRestorePosition, GetRestorePosition method [DirectShow], GetRestorePosition method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetRestorePosition method, IVideoWindow.GetRestorePosition, IVideoWindow::GetRestorePosition, IVideoWindowGetRestorePosition, control/IVideoWindow::GetRestorePosition, dshow.ivideowindow_getrestoreposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

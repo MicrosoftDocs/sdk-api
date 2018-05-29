@@ -1,16 +1,16 @@
 ---
 UID: NS:processsnapshot.PSS_VA_SPACE_ENTRY
 title: PSS_VA_SPACE_ENTRY
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds the MEMORY_BASIC_INFORMATION returned by PssWalkSnapshot for a virtual address (VA) region.
 old-location: proc_snap\pss_va_space_entry.htm
 old-project: proc_snap
 ms.assetid: 69B8F6A3-76DF-421B-B89B-73BA3254F897
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PSS_VA_SPACE_ENTRY, PSS_VA_SPACE_ENTRY structure, proc_snap.pss_va_space_entry, processsnapshot/PSS_VA_SPACE_ENTRY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

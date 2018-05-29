@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptDecrypt
 title: BCryptDecrypt function
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrypts a block of data.
 old-location: security\bcryptdecrypt_func.htm
 old-project: SecCNG
 ms.assetid: 62286f6b-0d57-4691-83fc-2b9a9740af71
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_BLOCK_PADDING, BCRYPT_PAD_NONE, BCRYPT_PAD_OAEP, BCRYPT_PAD_PKCS1, BCryptDecrypt, BCryptDecrypt function [Security], bcrypt/BCryptDecrypt, security.bcryptdecrypt_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

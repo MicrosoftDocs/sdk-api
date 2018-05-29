@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetStreamNumber
 title: IWMStreamConfig::SetStreamNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetStreamNumber method specifies the stream number.
 old-location: wmformat\iwmstreamconfig_setstreamnumber.htm
 old-project: wmformat
 ms.assetid: aea8b219-5b47-4176-ad96-d52646d96578
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMStreamConfig interface [windows Media Format],SetStreamNumber method, IWMStreamConfig.SetStreamNumber, IWMStreamConfig::SetStreamNumber, IWMStreamConfigSetStreamNumber, SetStreamNumber, SetStreamNumber method [windows Media Format], SetStreamNumber method [windows Media Format],IWMStreamConfig interface, wmformat.iwmstreamconfig_setstreamnumber, wmsdkidl/IWMStreamConfig::SetStreamNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

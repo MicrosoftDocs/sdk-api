@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSource
 title: IMSVidStreamBufferSource
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMSVidStreamBufferSource interface represents the Stream Buffer Source filter within the Video Control.
 old-location: mstv\imsvidstreambuffersource.htm
 old-project: mstv
 ms.assetid: 12160959-820b-4534-9392-a13ad229317d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferSource, IMSVidStreamBufferSource interface [Microsoft TV Technologies], IMSVidStreamBufferSource interface [Microsoft TV Technologies],described, IMSVidStreamBufferSourceInterface, mstv.imsvidstreambuffersource, segment/IMSVidStreamBufferSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:sbe.IStreamBufferDataCounters.ResetData
 title: IStreamBufferDataCounters::ResetData
-author: windows-driver-content
+author: windows-sdk-content
 description: The ResetData method resets the Stream Buffer Engine's performance counters to zero.
 old-location: mstv\istreambufferdatacounters_resetdata.htm
 old-project: mstv
 ms.assetid: 643f0f67-8915-4097-b53a-7007610c9c8a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStreamBufferDataCounters interface [Microsoft TV Technologies],ResetData method, IStreamBufferDataCounters.ResetData, IStreamBufferDataCounters::ResetData, IStreamBufferDataCountersResetData, ResetData, ResetData method [Microsoft TV Technologies], ResetData method [Microsoft TV Technologies],IStreamBufferDataCounters interface, mstv.istreambufferdatacounters_resetdata, sbe/IStreamBufferDataCounters::ResetData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

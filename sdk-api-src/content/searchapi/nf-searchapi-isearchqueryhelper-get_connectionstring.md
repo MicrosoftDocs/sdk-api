@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_ConnectionString
 title: ISearchQueryHelper::get_ConnectionString
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the OLE DB connection string for the Window Search index.
 old-location: search\_search_ISearchQueryHelper_get_ConnectionString.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_connectionstring.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchQueryHelper interface [search],get_ConnectionString method, ISearchQueryHelper.get_ConnectionString, ISearchQueryHelper::get_ConnectionString, _search_ISearchQueryHelper_get_ConnectionString, get_ConnectionString, get_ConnectionString method [search], get_ConnectionString method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_ConnectionString, searchapi/ISearchQueryHelper::get_ConnectionString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

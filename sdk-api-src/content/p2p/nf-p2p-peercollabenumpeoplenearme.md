@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerCollabEnumPeopleNearMe
 title: PeerCollabEnumPeopleNearMe function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a handle to an enumerated set that contains all of the peer collaboration network &#0034;people near me&#0034; endpoints currently available on the subnet of the calling peer.
 old-location: p2p\peercollabenumpeoplenearme.htm
 old-project: P2PSdk
 ms.assetid: 4dc53f43-e662-4696-bc16-42b124f3358f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerCollabEnumPeopleNearMe, PeerCollabEnumPeopleNearMe function [Peer Networking], p2p.peercollabenumpeoplenearme, p2p/PeerCollabEnumPeopleNearMe
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

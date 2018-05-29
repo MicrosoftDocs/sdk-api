@@ -1,16 +1,16 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.GetProviderPropertyStore
 title: IIdentityProvider::GetProviderPropertyStore
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to the IPropertyStore interface associated with the identity provider.
 old-location: security\iidentityprovider_getproviderpropertystore.htm
 old-project: SecAuthN
 ms.assetid: e0a8f732-5675-49f7-8c2f-6e5f8f1be957
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetProviderPropertyStore, GetProviderPropertyStore method [Security], GetProviderPropertyStore method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],GetProviderPropertyStore method, IIdentityProvider.GetProviderPropertyStore, IIdentityProvider::GetProviderPropertyStore, identityprovider/IIdentityProvider::GetProviderPropertyStore, security.iidentityprovider_getproviderpropertystore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 

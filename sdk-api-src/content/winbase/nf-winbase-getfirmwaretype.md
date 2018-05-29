@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetFirmwareType
 title: GetFirmwareType function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the firmware type of the local computer.
 old-location: base\getfirmwaretype.htm
 old-project: SysInfo
 ms.assetid: db1f6889-067a-4a5d-bbfa-5836287d08ca
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetFirmwareType, GetFirmwareType function, base.getfirmwaretype, winbase/GetFirmwareType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

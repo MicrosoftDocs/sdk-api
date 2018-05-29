@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceconnectapi.IPortableDeviceConnector.GetProperty
 title: IPortableDeviceConnector::GetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a property for the given MTP/Bluetooth Bus Enumerator device.
 old-location: wpdsdk\iportabledeviceconnector_getproperty.htm
 old-project: wpd_sdk
 ms.assetid: 7503df7a-826c-4e77-b51a-6b3d618732ca
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetProperty, GetProperty method [Windows Portable Devices SDK], GetProperty method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],GetProperty method, IPortableDeviceConnector.GetProperty, IPortableDeviceConnector::GetProperty, devpkey/IPortableDeviceConnector::GetProperty, portabledeviceconnectapi/IPortableDeviceConnector::GetProperty, wpdsdk.iportabledeviceconnector_getproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceconnectapi.h
 req.include-header: 

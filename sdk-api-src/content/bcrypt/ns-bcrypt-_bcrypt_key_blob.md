@@ -1,16 +1,16 @@
 ---
 UID: NS:bcrypt._BCRYPT_KEY_BLOB
 title: "_BCRYPT_KEY_BLOB"
-author: windows-driver-content
+author: windows-sdk-content
 description: Is the base structure for all CNG key BLOBs.
 old-location: security\bcrypt_key_blob.htm
 old-project: SecCNG
 ms.assetid: ae7e8db3-858d-4573-afe1-c9bc14d76480
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_KEY_BLOB, BCRYPT_KEY_BLOB structure [Security], _BCRYPT_KEY_BLOB, bcrypt/BCRYPT_KEY_BLOB, security.bcrypt_key_blob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

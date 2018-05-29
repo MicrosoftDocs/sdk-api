@@ -1,16 +1,16 @@
 ---
 UID: NF:mediaobj.IDMOQualityControl.SetNow
 title: IDMOQualityControl::SetNow
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetNow method specifies the earliest time stamp that the DMO will deliver.
 old-location: dshow\idmoqualitycontrol_setnow.htm
 old-project: DirectShow
 ms.assetid: 36efee4f-0a06-421f-bc37-688a6499bda7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDMOQualityControl interface [DirectShow],SetNow method, IDMOQualityControl.SetNow, IDMOQualityControl::SetNow, IDMOQualityControlSetNow, SetNow, SetNow method [DirectShow], SetNow method [DirectShow],IDMOQualityControl interface, dshow.idmoqualitycontrol_setnow, mediaobj/IDMOQualityControl::SetNow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

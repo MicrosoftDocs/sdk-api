@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.SetupPersistentIScsiDevices
 title: SetupPersistentIScsiDevices function
-author: windows-driver-content
+author: windows-sdk-content
 description: SetupPersistentIscsiDevices function builds the list of devices and volumes assigned to iSCSI targets that are connected to the computer, and saves this list in non-volatile cache of the iSCSI initiator service.
 old-location: iscsidisc\setuppersistentiscsidevices.htm
 old-project: iSCSIDisc
 ms.assetid: b21e5872-24b2-4a4c-86a7-528789c1b9aa
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: SetupPersistentIScsiDevices, SetupPersistentIscsiDevices, SetupPersistentIscsiDevices function [iSCSI Discovery Library API], iscsidisc.setuppersistentiscsidevices, iscsidsc/SetupPersistentIscsiDevices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

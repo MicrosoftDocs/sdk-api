@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IRegTreeItem
 title: IRegTreeItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that retrieve and set the state of items in a tree-view control that have the Tree-View Control Window Styles flag set.
 old-location: shell\IRegTreeItem.htm
 old-project: shell
 ms.assetid: a9ae0fb3-4a6e-473e-9fa3-d3894834fb72
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IRegTreeItem, IRegTreeItem interface [Windows Shell], IRegTreeItem interface [Windows Shell],described, _win32_IRegTreeItem, shell.IRegTreeItem, shobjidl_core/IRegTreeItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.AllocateSample
 title: IWMWriter::AllocateSample
-author: windows-driver-content
+author: windows-sdk-content
 description: The AllocateSample method allocates a buffer that can be used to provide samples to the writer.
 old-location: wmformat\iwmwriter_allocatesample.htm
 old-project: wmformat
 ms.assetid: b23b2364-fb36-479f-bf92-76a5bb4722de
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AllocateSample, AllocateSample method [windows Media Format], AllocateSample method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],AllocateSample method, IWMWriter.AllocateSample, IWMWriter::AllocateSample, IWMWriterAllocateSample, wmformat.iwmwriter_allocatesample, wmsdkidl/IWMWriter::AllocateSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

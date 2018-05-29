@@ -1,16 +1,16 @@
 ---
 UID: NN:txlogpub.ILog
 title: ILog
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides generic low-level logging functionality.
 old-location: com\ilog.htm
 old-project: com
 ms.assetid: 93f2be99-0799-4047-ae4e-62f0e74d15c3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ILog, ILog interface [COM], ILog interface [COM],described, _com_ilog, com.ilog, txlogpub/ILog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: txlogpub.h
 req.include-header: 

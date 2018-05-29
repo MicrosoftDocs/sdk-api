@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.DisableNtmsObject
 title: DisableNtmsObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DisableNtmsObject function disables the specified RSM object.
 old-location: fs\disablentmsobject.htm
 old-project: Rsm
 ms.assetid: 409d1ab6-c611-4118-aa10-095d585c099a
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: DisableNtmsObject, DisableNtmsObject function [Files], NTMS_DRIVE, NTMS_LIBRARY, NTMS_PHYSICAL_MEDIA, _zaw_disablentmsobject, base.disablentmsobject, fs.disablentmsobject, ntmsapi/DisableNtmsObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

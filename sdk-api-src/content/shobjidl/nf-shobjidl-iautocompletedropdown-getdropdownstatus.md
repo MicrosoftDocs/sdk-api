@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IAutoCompleteDropDown.GetDropDownStatus
 title: IAutoCompleteDropDown::GetDropDownStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current display status of the autocomplete drop-down list.
 old-location: shell\IAutoCompleteDropDown_GetDropDownStatus.htm
 old-project: shell
 ms.assetid: 824c435c-e8ee-4435-a779-bae3ef721613
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ACDD_VISIBLE, GetDropDownStatus, GetDropDownStatus method [Windows Shell], GetDropDownStatus method [Windows Shell],IAutoCompleteDropDown interface, IAutoCompleteDropDown interface [Windows Shell],GetDropDownStatus method, IAutoCompleteDropDown.GetDropDownStatus, IAutoCompleteDropDown::GetDropDownStatus, _shell_IAutoCompleteDropDown_GetDropDownStatus, shell.IAutoCompleteDropDown_GetDropDownStatus, shobjidl/IAutoCompleteDropDown::GetDropDownStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMRemoteDictionaryResource
 title: IXpsOMRemoteDictionaryResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides an interface that enables pages in an XPS package to share resources.
 old-location: xps\ixpsomremotedictionaryresource.htm
 old-project: printdocs
 ms.assetid: dd757856-f16e-46ad-b865-8203c3428372
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMRemoteDictionaryResource, IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging], IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging],described, xps.ixpsomremotedictionaryresource, xpsobjectmodel/IXpsOMRemoteDictionaryResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

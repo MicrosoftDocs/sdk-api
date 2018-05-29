@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN
 title: PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a new template in the pipeline duplicates any template already saved in the database regardless of the identity associated with the templates.
 old-location: secbiomet\engineadaptercheckforduplicate.htm
 old-project: SecBioMet
 ms.assetid: 0c73e8b3-2bec-419c-bcb0-3e35d1520f05
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: EngineAdapterCheckForDuplicate, EngineAdapterCheckForDuplicate callback function [Windows Biometric Framework API], PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN, PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN callback, secbiomet.engineadaptercheckforduplicate, winbio_adapter/EngineAdapterCheckForDuplicate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

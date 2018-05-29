@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHRegGetUSValueW
 title: SHRegGetUSValueW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a value from a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegGetUSValue.htm
 old-project: shell
 ms.assetid: 4d3b3bbe-dc2e-40c9-8ff1-0f9d2e323743
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHRegGetUSValue, SHRegGetUSValue function [Windows Shell], SHRegGetUSValueA, SHRegGetUSValueW, _win32_SHRegGetUSValue, shell.SHRegGetUSValue, shlwapi/SHRegGetUSValue, shlwapi/SHRegGetUSValueA, shlwapi/SHRegGetUSValueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

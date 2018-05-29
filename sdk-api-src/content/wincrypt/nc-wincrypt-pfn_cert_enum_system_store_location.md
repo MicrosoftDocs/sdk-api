@@ -1,16 +1,16 @@
 ---
 UID: NC:wincrypt.PFN_CERT_ENUM_SYSTEM_STORE_LOCATION
 title: PFN_CERT_ENUM_SYSTEM_STORE_LOCATION
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertEnumSystemStoreLocationCallback callback function formats and presents information on each system store location found by a call to CertEnumSystemStoreLocation.
 old-location: security\certenumsystemstorelocationcallback.htm
 old-project: SecCrypto
 ms.assetid: a5f1badd-3e68-4e0f-9a42-1b1876c9cb56
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertEnumSystemStoreLocationCallback, CertEnumSystemStoreLocationCallback callback function [Security], PFN_CERT_ENUM_SYSTEM_STORE_LOCATION, PFN_CERT_ENUM_SYSTEM_STORE_LOCATION callback, security.certenumsystemstorelocationcallback, wincrypt/CertEnumSystemStoreLocationCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

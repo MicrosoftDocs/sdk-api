@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1_1helper.SetDpiCompensatedEffectInput
 title: SetDpiCompensatedEffectInput function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a bitmap as an effect input, while inserting a DPI compensation effect to preserve visual appearance as the device context's DPI changes.
 old-location: direct2d\setdpicompensatedeffectinput.htm
 old-project: Direct2D
 ms.assetid: B9E2C5F7-2E05-441D-A902-6473E0235659
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: SetDpiCompensatedEffectInput, SetDpiCompensatedEffectInput function [Direct2D], d2d1_1helper/SetDpiCompensatedEffectInput, direct2d.setdpicompensatedeffectinput
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_1helper.h
 req.include-header: 

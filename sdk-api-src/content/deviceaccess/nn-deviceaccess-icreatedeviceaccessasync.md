@@ -1,16 +1,16 @@
 ---
 UID: NN:deviceaccess.ICreateDeviceAccessAsync
 title: ICreateDeviceAccessAsync
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICreateDeviceAccessAsync interface is returned from a call to CreateDeviceAccessInstance.
 old-location: deviceaccess\icreatedeviceaccessasync.htm
 old-project: deviceaccess
 ms.assetid: ebc8d694-c933-4d98-95f5-67b0dd733d4d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ICreateDeviceAccessAsync, ICreateDeviceAccessAsync interface [Device Access Broker API], ICreateDeviceAccessAsync interface [Device Access Broker API],described, deviceaccess.icreatedeviceaccessasync, deviceaccess/ICreateDeviceAccessAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: deviceaccess.h
 req.include-header: 

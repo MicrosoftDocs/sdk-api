@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationPropertyCondition
 title: IUIAutomationPropertyCondition
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a condition based on a property value that is used to find UI Automation elements.
 old-location: winauto\uiauto_IUIAutomationPropertyCondition.htm
 old-project: WinAuto
 ms.assetid: fedf003e-0921-4f9e-b1a8-c8faae9e95a4
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationPropertyCondition, IUIAutomationPropertyCondition interface [Windows Accessibility], IUIAutomationPropertyCondition interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationPropertyCondition, uiauto_IUIAutomationPropertyCondition, uiautomationclient/IUIAutomationPropertyCondition, winauto.uiauto_IUIAutomationPropertyCondition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

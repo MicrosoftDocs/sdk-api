@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsReadMessageEnd
 title: WsReadMessageEnd function
-author: windows-driver-content
+author: windows-sdk-content
 description: Read the closing elements of a message from a channel.
 old-location: wsw\wsreadmessageend.htm
 old-project: wsw
 ms.assetid: 3112be44-f610-421f-a4ea-0f87fc383540
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsReadMessageEnd, WsReadMessageEnd function [Web Services for Windows], webservices/WsReadMessageEnd, wsw.wsreadmessageend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

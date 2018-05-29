@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl._WMStreamPrioritizationRecord
 title: "_WMStreamPrioritizationRecord"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WM_STREAM_PRIORITY_RECORD structure contains a stream number and specifies whether delivery of that stream is mandatory.
 old-location: wmformat\wm_stream_priority_record.htm
 old-project: wmformat
 ms.assetid: 43c9370c-cd43-4dd0-8258-d6dbdb98f1de
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WM_STREAM_PRIORITY_RECORD, WM_STREAM_PRIORITY_RECORD structure [windows Media Format], _WMStreamPrioritizationRecord, wmformat.wm_stream_priority_record, wmsdkidl/WM_STREAM_PRIORITY_RECORD
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

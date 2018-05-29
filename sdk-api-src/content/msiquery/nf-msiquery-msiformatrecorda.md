@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiFormatRecordA
 title: MsiFormatRecordA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiFormatRecord function formats record field data and properties using a format string.
 old-location: setup\msiformatrecord.htm
 old-project: Msi
 ms.assetid: 574f51b1-a5cf-46c8-bfa3-449839872cf3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiFormatRecord, MsiFormatRecord function, MsiFormatRecordA, MsiFormatRecordW, _msi_msiformatrecord, msiquery/MsiFormatRecord, msiquery/MsiFormatRecordA, msiquery/MsiFormatRecordW, setup.msiformatrecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

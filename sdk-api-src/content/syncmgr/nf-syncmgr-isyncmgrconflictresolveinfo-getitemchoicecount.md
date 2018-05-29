@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.GetItemChoiceCount
 title: ISyncMgrConflictResolveInfo::GetItemChoiceCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of items that the user wants to keep.
 old-location: shell\ISyncMgrConflictResolveInfo_GetItemChoiceCount.htm
 old-project: shell
 ms.assetid: 7604455c-35ab-4f94-8e5a-3f6aa83fc9cf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetItemChoiceCount, GetItemChoiceCount method [Windows Shell], GetItemChoiceCount method [Windows Shell],ISyncMgrConflictResolveInfo interface, ISyncMgrConflictResolveInfo interface [Windows Shell],GetItemChoiceCount method, ISyncMgrConflictResolveInfo.GetItemChoiceCount, ISyncMgrConflictResolveInfo::GetItemChoiceCount, _shell_ISyncMgrConflictResolveInfo_GetItemChoiceCount, shell.ISyncMgrConflictResolveInfo_GetItemChoiceCount, syncmgr/ISyncMgrConflictResolveInfo::GetItemChoiceCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

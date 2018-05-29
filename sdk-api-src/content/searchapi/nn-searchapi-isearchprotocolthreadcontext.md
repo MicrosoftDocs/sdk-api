@@ -1,16 +1,16 @@
 ---
 UID: NN:searchapi.ISearchProtocolThreadContext
 title: ISearchProtocolThreadContext
-author: windows-driver-content
+author: windows-sdk-content
 description: This optional interface enables the protocol handler to perform an action on the thread used for filtering in the protocol host.
 old-location: search\_search_ISearchProtocolThreadContext.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\isearchprotocolthreadcontext.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchProtocolThreadContext, ISearchProtocolThreadContext interface [search], ISearchProtocolThreadContext interface [search],described, _search_ISearchProtocolThreadContext, search._search_ISearchProtocolThreadContext, searchapi/ISearchProtocolThreadContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

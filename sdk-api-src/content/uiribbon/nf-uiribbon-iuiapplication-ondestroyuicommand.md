@@ -1,16 +1,16 @@
 ---
 UID: NF:uiribbon.IUIApplication.OnDestroyUICommand
 title: IUIApplication::OnDestroyUICommand
-author: windows-driver-content
+author: windows-sdk-content
 description: Called for each Command specified in the Windows Ribbon framework markup when the application window is destroyed.
 old-location: windowsribbon\windowsribbon_iuiapplication_ondestroyuicommand.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\ondestroyuicommand.htm
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IUIApplication interface [Windows Ribbon],OnDestroyUICommand method, IUIApplication.OnDestroyUICommand, IUIApplication::OnDestroyUICommand, OnDestroyUICommand, OnDestroyUICommand method [Windows Ribbon], OnDestroyUICommand method [Windows Ribbon],IUIApplication interface, scenicintent_IUIApplication_OnDestroyUICommand, uiribbon/IUIApplication::OnDestroyUICommand, windowsribbon.windowsribbon_iuiapplication_ondestroyuicommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiribbon.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcRevertContainerImpersonation
 title: RpcRevertContainerImpersonation function
-author: windows-driver-content
+author: windows-sdk-content
 description: RpcRevertContainerImpersonation may be altered or unavailable.
 old-location: rpc\rpcrevertcontainerimpersonation.htm
 old-project: Rpc
 ms.assetid: 331D32B5-1583-4A2C-9A1A-0D546DDE846D
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcRevertContainerImpersonation, RpcRevertContainerImpersonation function [RPC], rpc.rpcrevertcontainerimpersonation, rpcdce/RpcRevertContainerImpersonation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: 

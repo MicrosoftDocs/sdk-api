@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.Append
 title: IXpsOMPageReferenceCollection::Append
-author: windows-driver-content
+author: windows-sdk-content
 description: Appends an IXpsOMPageReference interface to the end of the collection.
 old-location: xps\ixpsompagereferencecollection_append.htm
 old-project: printdocs
 ms.assetid: 89fce79b-9211-4e47-884c-11c98718570e
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],Append method, IXpsOMPageReferenceCollection.Append, IXpsOMPageReferenceCollection::Append, xps.ixpsompagereferencecollection_append, xpsobjectmodel/IXpsOMPageReferenceCollection::Append
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

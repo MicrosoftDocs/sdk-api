@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo3.GetCodecProp
 title: IWMCodecInfo3::GetCodecProp
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCodecProp method retrieves a codec property.
 old-location: wmformat\iwmcodecinfo3_getcodecprop.htm
 old-project: wmformat
 ms.assetid: 444f5789-c5e5-4eeb-a2b4-11f959641206
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetCodecProp, GetCodecProp method [windows Media Format], GetCodecProp method [windows Media Format],IWMCodecInfo3 interface, IWMCodecInfo3 interface [windows Media Format],GetCodecProp method, IWMCodecInfo3.GetCodecProp, IWMCodecInfo3::GetCodecProp, IWMCodecInfo3GetCodecProp, wmformat.iwmcodecinfo3_getcodecprop, wmsdkidl/IWMCodecInfo3::GetCodecProp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncProgress.SyncItemBegin
 title: IOfflineFilesSyncProgress::SyncItemBegin
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports that a synchronization operation on an item is beginning.
 old-location: of\iofflinefilessyncprogress_syncitembegin.htm
 old-project: OfflineFiles
 ms.assetid: c1cdbc30-bcc9-4023-a3a2-070fb9958609
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesSyncProgress interface [Offline Files],SyncItemBegin method, IOfflineFilesSyncProgress.SyncItemBegin, IOfflineFilesSyncProgress::SyncItemBegin, SyncItemBegin, SyncItemBegin method [Offline Files], SyncItemBegin method [Offline Files],IOfflineFilesSyncProgress interface, cscobj/IOfflineFilesSyncProgress::SyncItemBegin, of.iofflinefilessyncprogress_syncitembegin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

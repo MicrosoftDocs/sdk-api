@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetSettingType
 title: ISettingsItem::GetSettingType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the setting type for the item.
 old-location: smi\isettingsitem_getsettingtype.htm
 old-project: SMI
 ms.assetid: d222939f-9295-4751-8b32-586fa9930177
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetSettingType, GetSettingType method [SMI], GetSettingType method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetSettingType method, ISettingsItem.GetSettingType, ISettingsItem::GetSettingType, smi.isettingsitem_getsettingtype, wcmconfig/ISettingsItem::GetSettingType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

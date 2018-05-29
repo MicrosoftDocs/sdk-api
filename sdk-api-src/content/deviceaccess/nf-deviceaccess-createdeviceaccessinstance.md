@@ -1,16 +1,16 @@
 ---
 UID: NF:deviceaccess.CreateDeviceAccessInstance
 title: CreateDeviceAccessInstance function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates the object that's used to access a device. The instantiated object implements the IDeviceIoControl and ICreateDeviceAccessAsync interfaces.
 old-location: deviceaccess\createdeviceaccessinstance.htm
 old-project: deviceaccess
 ms.assetid: 082d6297-20ac-4557-8205-0451482a5758
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CreateDeviceAccessInstance, CreateDeviceAccessInstance function [Device Access Broker API], deviceaccess.createdeviceaccessinstance, deviceaccess/CreateDeviceAccessInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: deviceaccess.h
 req.include-header: 

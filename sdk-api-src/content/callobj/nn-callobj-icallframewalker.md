@@ -1,16 +1,16 @@
 ---
 UID: NN:callobj.ICallFrameWalker
 title: ICallFrameWalker
-author: windows-driver-content
+author: windows-sdk-content
 description: Walks a stack frame looking for interesting values.
 old-location: com\icallframewalker.htm
 old-project: com
 ms.assetid: 1eeb00a3-d3c5-46f0-95a8-f694f802894b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ICallFrameWalker, ICallFrameWalker interface [COM], ICallFrameWalker interface [COM],described, _com_icallframewalker, callobj/ICallFrameWalker, com.icallframewalker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: callobj.h
 req.include-header: 

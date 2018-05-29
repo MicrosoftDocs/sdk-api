@@ -1,16 +1,16 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_EXTENSION_TYPE
 title: MF_MEDIA_ENGINE_EXTENSION_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies media engine extension types.
 old-location: mf\mf_media_engine_extension_type.htm
 old-project: medfound
 ms.assetid: B66D1A68-B3DA-4A03-B6E4-6C6566ADCAF1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_MEDIA_ENGINE_EXTENSION_TYPE, MF_MEDIA_ENGINE_EXTENSION_TYPE enumeration [Media Foundation], MF_MEDIA_ENGINE_EXTENSION_TYPE_BYTESTREAM, MF_MEDIA_ENGINE_EXTENSION_TYPE_MEDIASOURCE, mf.mf_media_engine_extension_type, mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE, mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE_BYTESTREAM, mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE_MEDIASOURCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 

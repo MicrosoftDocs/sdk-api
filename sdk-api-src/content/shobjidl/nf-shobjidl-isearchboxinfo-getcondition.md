@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.ISearchBoxInfo.GetCondition
 title: ISearchBoxInfo::GetCondition
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the contents of the search box as an ICondition object.
 old-location: shell\ISearchBoxInfo_GetCondition.htm
 old-project: shell
 ms.assetid: 9a1159df-78ef-493b-8286-eefb0ac004ef
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCondition, GetCondition method [Windows Shell], GetCondition method [Windows Shell],ISearchBoxInfo interface, ISearchBoxInfo interface [Windows Shell],GetCondition method, ISearchBoxInfo.GetCondition, ISearchBoxInfo::GetCondition, _shell_ISearchBoxInfo_GetCondition, shell.ISearchBoxInfo_GetCondition, shobjidl/ISearchBoxInfo::GetCondition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

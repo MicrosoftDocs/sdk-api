@@ -1,16 +1,16 @@
 ---
 UID: NF:appmodel.GetApplicationUserModelId
 title: GetApplicationUserModelId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the application user model ID for the specified process.
 old-location: appxpkg\getapplicationusermodelid.htm
 old-project: appxpkg
 ms.assetid: FE4E0818-F548-494B-B3BD-FB51DC748451
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetApplicationUserModelId, GetApplicationUserModelId function [App packaging and management], appmodel/GetApplicationUserModelId, appxpkg.getapplicationusermodelid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.Skip
 title: IEnumCERTVIEWCOLUMN::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips a specified number of columns in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_skip.htm
 old-project: SecCrypto
 ms.assetid: 9a101e5b-a137-4e15-81b6-90e0fc14b887
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],Skip method, IEnumCERTVIEWCOLUMN object [Security],Skip method, IEnumCERTVIEWCOLUMN.Skip, IEnumCERTVIEWCOLUMN::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWCOLUMN interface, Skip method [Security],IEnumCERTVIEWCOLUMN object, _certsrv_ienumcertviewcolumn_skip, certview/IEnumCERTVIEWCOLUMN::Skip, security.ienumcertviewcolumn_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h

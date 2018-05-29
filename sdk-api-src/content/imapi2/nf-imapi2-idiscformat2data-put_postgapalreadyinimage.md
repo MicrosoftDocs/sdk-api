@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_PostgapAlreadyInImage
 title: IDiscFormat2Data::put_PostgapAlreadyInImage
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if the data stream contains post-writing gaps.
 old-location: imapi\idiscformat2data_put_postgapalreadyinimage.htm
 old-project: imapi
 ms.assetid: 68dba44b-ac14-4473-9b74-917ce2c5054a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],put_PostgapAlreadyInImage method, IDiscFormat2Data.put_PostgapAlreadyInImage, IDiscFormat2Data::put_PostgapAlreadyInImage, imapi.idiscformat2data_put_postgapalreadyinimage, imapi2/IDiscFormat2Data::put_PostgapAlreadyInImage, put_PostgapAlreadyInImage, put_PostgapAlreadyInImage method [IMAPI], put_PostgapAlreadyInImage method [IMAPI],IDiscFormat2Data interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

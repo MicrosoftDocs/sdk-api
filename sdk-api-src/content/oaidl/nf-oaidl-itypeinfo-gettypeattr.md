@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetTypeAttr
 title: ITypeInfo::GetTypeAttr
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a TYPEATTR structure that contains the attributes of the type description.
 old-location: automat\itypeinfo_gettypeattr.htm
 old-project: automat
 ms.assetid: 62be8a38-1d51-4b54-b224-7d9cdbb1be59
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetTypeAttr, GetTypeAttr method [Automation], GetTypeAttr method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetTypeAttr method, ITypeInfo.GetTypeAttr, ITypeInfo::GetTypeAttr, _oa96_ITypeInfo_GetTypeAttr, automat.itypeinfo_gettypeattr, oaidl/ITypeInfo::GetTypeAttr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

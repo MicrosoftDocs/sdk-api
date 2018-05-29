@@ -1,16 +1,16 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure3.SetStartRecConfig
 title: IStreamBufferConfigure3::SetStartRecConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetStartRecConfig method specifies whether the IStreamBufferRecordControl::Start method automatically stops the current recording.
 old-location: mstv\istreambufferconfigure3_setstartrecconfig.htm
 old-project: mstv
 ms.assetid: 6ae896ce-72e8-49aa-a538-2a269ef07ade
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStreamBufferConfigure3 interface [Microsoft TV Technologies],SetStartRecConfig method, IStreamBufferConfigure3.SetStartRecConfig, IStreamBufferConfigure3::SetStartRecConfig, IStreamBufferConfigure3SetStartRecConfig, SetStartRecConfig, SetStartRecConfig method [Microsoft TV Technologies], SetStartRecConfig method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, mstv.istreambufferconfigure3_setstartrecconfig, sbe/IStreamBufferConfigure3::SetStartRecConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

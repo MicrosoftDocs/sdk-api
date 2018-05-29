@@ -1,16 +1,16 @@
 ---
 UID: NN:tom.ITextDocument2
 title: ITextDocument2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the ITextDocument interface, adding methods that enable the Input Method Editor (IME) to drive the rich edit control, and methods to retrieve other interfaces such as ITextDisplays, ITextRange2, ITextFont2, ITextPara2, and so on.
 old-location: controls\itextdocument2.htm
 old-project: Controls
 ms.assetid: 0b0a54d7-7606-41f6-b8be-6367d9180ef4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextDocument2, ITextDocument2 interface [Windows Controls], ITextDocument2 interface [Windows Controls],described, controls.itextdocument2, tom/ITextDocument2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tom.h
 req.include-header: 

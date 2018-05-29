@@ -1,16 +1,16 @@
 ---
 UID: NF:traffic.TcSetInterface
 title: TcSetInterface function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TcSetInterface function sets individual parameters for a given interface.
 old-location: qos\tcsetinterface.htm
 old-project: QOS
 ms.assetid: 7ca28fac-999c-4386-81e7-65003e89d9c5
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: TcSetInterface, TcSetInterface function [QOS], _gqos_tcsetinterface, qos.tcsetinterface, traffic/TcSetInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d10effect._D3D10_EFFECT_SHADER_DESC
 title: "_D3D10_EFFECT_SHADER_DESC"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an effect shader.
 old-location: direct3d10\d3d10_effect_shader_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_effect_shader_desc.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 7f99dca9-036c-f8a6-79ea-5316af7e1124, D3D10_EFFECT_SHADER_DESC, D3D10_EFFECT_SHADER_DESC structure [Direct3D 10], _D3D10_EFFECT_SHADER_DESC, d3d10effect/D3D10_EFFECT_SHADER_DESC, direct3d10.d3d10_effect_shader_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10effect.h
 req.include-header: D3D10.h

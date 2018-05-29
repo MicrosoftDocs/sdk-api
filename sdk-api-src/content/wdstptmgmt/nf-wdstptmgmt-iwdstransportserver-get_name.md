@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServer.get_Name
 title: IWdsTransportServer::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the name of the server represented by this object.
 old-location: wds\iwdstransportserver_name.htm
 old-project: Wds
 ms.assetid: d638f1f5-e74a-4ef6-a3ab-7ed6e11f863f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportServer interface [Windows Deployment Services],Name property, IWdsTransportServer.Name, IWdsTransportServer.get_Name, IWdsTransportServer::Name, IWdsTransportServer::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportServer interface, get_Name, wds.iwdstransportserver_name, wdstptmgmt/IWdsTransportServer::Name, wdstptmgmt/IWdsTransportServer::get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

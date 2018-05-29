@@ -1,16 +1,16 @@
 ---
 UID: NS:pwm._PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT
 title: "_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a desired duty cycle percentage for a pin or channel in a Pulse Width Modulation (PWM) controller.
 old-location: base\pwm_pin_set_active_duty_cycle_percentage_input.htm
 old-project: DevIO
 ms.assetid: CA699703-2D9B-4841-99AD-9C27FF428394
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT, PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT structure, _PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT, base.pwm_pin_set_active_duty_cycle_percentage_input, pwm/PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE_INPUT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: pwm.h
 req.include-header: Pwm.h

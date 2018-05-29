@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetGlyphIndices
 title: IXpsOMGlyphs::GetGlyphIndices
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an array of XPS_GLYPH_INDEX structures that describe the specific glyph indices in the font.
 old-location: xps\ixpsomglyphs_getglyphindices.htm
 old-project: printdocs
 ms.assetid: 6698ae0b-3525-4612-8234-8ba4dd2870a0
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetGlyphIndices, GetGlyphIndices method [XPS Documents and Packaging], GetGlyphIndices method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetGlyphIndices method, IXpsOMGlyphs.GetGlyphIndices, IXpsOMGlyphs::GetGlyphIndices, xps.ixpsomglyphs_getglyphindices, xpsobjectmodel/IXpsOMGlyphs::GetGlyphIndices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

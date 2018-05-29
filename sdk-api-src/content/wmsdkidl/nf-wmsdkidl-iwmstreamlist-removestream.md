@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMStreamList.RemoveStream
 title: IWMStreamList::RemoveStream
-author: windows-driver-content
+author: windows-sdk-content
 description: The RemoveStream method removes a stream from the list.
 old-location: wmformat\iwmstreamlist_removestream.htm
 old-project: wmformat
 ms.assetid: 3b69f516-a321-49f1-a299-666143eaf8a5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMStreamList interface [windows Media Format],RemoveStream method, IWMStreamList.RemoveStream, IWMStreamList::RemoveStream, IWMStreamListRemoveStream, RemoveStream, RemoveStream method [windows Media Format], RemoveStream method [windows Media Format],IWMStreamList interface, wmformat.iwmstreamlist_removestream, wmsdkidl/IWMStreamList::RemoveStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

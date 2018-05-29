@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternates.get_Count
 title: IInkRecognitionAlternates::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkrecognitionalternates_count.htm
 old-project: tablet
 ms.assetid: 2bcca92c-ba9f-437f-b7a9-6056da243d1a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkRecognitionAlternates interface, IInkRecognitionAlternates interface [Tablet PC],Count property, IInkRecognitionAlternates.Count, IInkRecognitionAlternates.get_Count, IInkRecognitionAlternates::Count, IInkRecognitionAlternates::get_Count, get_Count, msinkaut/IInkRecognitionAlternates::Count, msinkaut/IInkRecognitionAlternates::get_Count, tablet.iinkrecognitionalternates_count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

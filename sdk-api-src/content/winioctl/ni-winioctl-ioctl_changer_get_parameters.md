@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_GET_PARAMETERS
 title: IOCTL_CHANGER_GET_PARAMETERS
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the parameters of the specified device.
 old-location: base\ioctl_changer_get_parameters.htm
 old-project: DevIO
 ms.assetid: bd442970-1056-426f-810e-4e28286c65d2
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: IOCTL_CHANGER_GET_PARAMETERS, IOCTL_CHANGER_GET_PARAMETERS control, IOCTL_CHANGER_GET_PARAMETERS control code, _win32_ioctl_changer_get_parameters, base.ioctl_changer_get_parameters, winioctl/IOCTL_CHANGER_GET_PARAMETERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

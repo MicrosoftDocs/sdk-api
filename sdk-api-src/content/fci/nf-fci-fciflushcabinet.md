@@ -1,16 +1,16 @@
 ---
 UID: NF:fci.FCIFlushCabinet
 title: FCIFlushCabinet function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FCIFlushCabinet function completes the current cabinet.
 old-location: winprog\fciflushcabinet.htm
 old-project: DevNotes
 ms.assetid: dc586260-180e-4a6b-accf-2ddd62ac1335
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FCIFlushCabinet, FCIFlushCabinet function [Windows API], fci/FCIFlushCabinet, winprog.fciflushcabinet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fci.h
 req.include-header: 

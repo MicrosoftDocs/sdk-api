@@ -1,16 +1,16 @@
 ---
 UID: NF:perflib.PerfDecrementULongCounterValue
 title: PerfDecrementULongCounterValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrements the value of a counter whose value is a 4-byte unsigned integer. Providers use this function.
 old-location: perf\perfdecrementulongcountervalue.htm
 old-project: PerfCtrs
 ms.assetid: 5e8b40d6-b794-4bac-8832-3eb14c49ecec
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PerfDecrementULongCounterValue, PerfDecrementULongCounterValue function [Perf], perf.perfdecrementulongcountervalue, perflib/PerfDecrementULongCounterValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

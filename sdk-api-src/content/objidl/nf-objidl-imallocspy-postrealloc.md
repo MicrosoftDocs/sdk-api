@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IMallocSpy.PostRealloc
 title: IMallocSpy::PostRealloc
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs operations required after calling IMalloc::Realloc.
 old-location: com\imallocspy_postrealloc.htm
 old-project: com
 ms.assetid: 77f86494-f7b3-4c12-bb42-ad74161a1dff
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMallocSpy interface [COM],PostRealloc method, IMallocSpy.PostRealloc, IMallocSpy::PostRealloc, PostRealloc, PostRealloc method [COM], PostRealloc method [COM],IMallocSpy interface, _com_imallocspy_postrealloc, com.imallocspy_postrealloc, objidl/IMallocSpy::PostRealloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

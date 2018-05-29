@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GatherWriterStatus
 title: IVssBackupComponents::GatherWriterStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: The GatherWriterStatus method prompts each writer to send a status message.
 old-location: base\ivssbackupcomponents_gatherwriterstatus.htm
 old-project: VSS
 ms.assetid: ca87cdc3-e233-4efc-81c0-918e5a698af5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GatherWriterStatus, GatherWriterStatus method [VSS], GatherWriterStatus method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GatherWriterStatus method, IVssBackupComponents.GatherWriterStatus, IVssBackupComponents::GatherWriterStatus, _win32_ivssbackupcomponents_gatherwriterstatus, base.ivssbackupcomponents_gatherwriterstatus, vsbackup/IVssBackupComponents::GatherWriterStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

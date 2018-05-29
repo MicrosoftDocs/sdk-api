@@ -1,16 +1,16 @@
 ---
 UID: NE:ocidl.tagQACONTAINERFLAGS
 title: tagQACONTAINERFLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates ambient properties supplied by the container. It is used in the dwAmbientFlags member of the QACONTAINER structure.
 old-location: com\qacontainerflags.htm
 old-project: com
 ms.assetid: bcca4762-7c4b-4062-8d41-6b2027045886
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: QACONTAINERFLAGS, QACONTAINERFLAGS enumeration [COM], QACONTAINER_AUTOCLIP, QACONTAINER_DISPLAYASDEFAULT, QACONTAINER_MESSAGEREFLECT, QACONTAINER_SHOWGRABHANDLES, QACONTAINER_SHOWHATCHING, QACONTAINER_SUPPORTSMNEMONICS, QACONTAINER_UIDEAD, QACONTAINER_USERMODE, _ctrl_QACONTAINERFLAGS, com.qacontainerflags, ocidl/QACONTAINERFLAGS, ocidl/QACONTAINER_AUTOCLIP, ocidl/QACONTAINER_DISPLAYASDEFAULT, ocidl/QACONTAINER_MESSAGEREFLECT, ocidl/QACONTAINER_SHOWGRABHANDLES, ocidl/QACONTAINER_SHOWHATCHING, ocidl/QACONTAINER_SUPPORTSMNEMONICS, ocidl/QACONTAINER_UIDEAD, ocidl/QACONTAINER_USERMODE, tagQACONTAINERFLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 

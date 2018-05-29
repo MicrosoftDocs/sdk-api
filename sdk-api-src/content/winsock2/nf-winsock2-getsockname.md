@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.getsockname
 title: getsockname function
-author: windows-driver-content
+author: windows-sdk-content
 description: The getsockname function retrieves the local name for a socket.
 old-location: winsock\getsockname_2.htm
 old-project: WinSock
 ms.assetid: be20a731-cdfc-48ae-90b2-43f2cf9ecf6d
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "_win32_getsockname_2, getsockname, getsockname function [Winsock], winsock.getsockname_2, winsock/getsockname"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h

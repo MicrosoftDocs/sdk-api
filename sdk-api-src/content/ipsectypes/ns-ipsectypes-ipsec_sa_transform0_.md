@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_TRANSFORM0_
 title: IPSEC_SA_TRANSFORM0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to store an IPsec security association (SA) transform in an IPsec quick mode policy.
 old-location: fwp\ipsec_sa_transform0_struct.htm
 old-project: FWP
 ms.assetid: 1cf64805-e79d-4599-addf-0ad24d7d900e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_SA_TRANSFORM0, IPSEC_SA_TRANSFORM0 structure [Filtering], IPSEC_SA_TRANSFORM0_, fwp.ipsec_sa_transform0_struct, ipsectypes/IPSEC_SA_TRANSFORM0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

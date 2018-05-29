@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarNumFromParseNum
 title: VarNumFromParseNum function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts parsed results to a variant.
 old-location: automat\varnumfromparsenum.htm
 old-project: automat
 ms.assetid: 6a01a779-ab1b-4fd5-a550-449b19358b7a
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VTBIT_CY, VTBIT_DECIMAL, VTBIT_I1, VTBIT_I2, VTBIT_I4, VTBIT_R4, VTBIT_R8, VTBIT_UI1, VTBIT_UI2, VTBIT_UI4, VarNumFromParseNum, VarNumFromParseNum function [Automation], _oa96_VarNumFromParseNum, automat.varnumfromparsenum, oleauto/VarNumFromParseNum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventControl.put_AllowInprocActivation
 title: IEventControl::put_AllowInprocActivation
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether subscribers can be activated in the publisher's process.
 old-location: cos\ieventcontrol_allowinprocactivation.htm
 old-project: cossdk
 ms.assetid: bbb6c514-8eb0-4e5e-a23e-d4857786cfd3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AllowInprocActivation property [COM+], AllowInprocActivation property [COM+],IEventControl interface, IEventControl interface [COM+],AllowInprocActivation property, IEventControl.AllowInprocActivation, IEventControl.put_AllowInprocActivation, IEventControl::AllowInprocActivation, IEventControl::get_AllowInprocActivation, IEventControl::put_AllowInprocActivation, _cos_IEventControl_Properties, cos.ieventcontrol_allowinprocactivation, eventsys/IEventControl::AllowInprocActivation, eventsys/IEventControl::get_AllowInprocActivation, eventsys/IEventControl::put_AllowInprocActivation, put_AllowInprocActivation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

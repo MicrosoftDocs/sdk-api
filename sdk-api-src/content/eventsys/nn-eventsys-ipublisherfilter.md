@@ -1,16 +1,16 @@
 ---
 UID: NN:eventsys.IPublisherFilter
 title: IPublisherFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Acts as a callback interface so that event publishers can control which subscribers receive event notifications or the order in which subscribers are notified.
 old-location: cos\ipublisherfilter.htm
 old-project: cossdk
 ms.assetid: affc0af4-36f8-4479-8685-f91c29111d76
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IPublisherFilter, IPublisherFilter interface [COM+], IPublisherFilter interface [COM+],described, _cos_IPublisherFilter, cos.ipublisherfilter, eventsys/IPublisherFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 

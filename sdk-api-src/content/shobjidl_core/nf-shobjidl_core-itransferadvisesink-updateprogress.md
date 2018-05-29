@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.UpdateProgress
 title: ITransferAdviseSink::UpdateProgress
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the transfer progress status in the UI.
 old-location: shell\ITransferAdviseSink_UpdateProgress.htm
 old-project: shell
 ms.assetid: 931029e8-48ff-4d24-8818-57b7103fffdf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],UpdateProgress method, ITransferAdviseSink.UpdateProgress, ITransferAdviseSink::UpdateProgress, UpdateProgress, UpdateProgress method [Windows Shell], UpdateProgress method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_UpdateProgress, shell.ITransferAdviseSink_UpdateProgress, shobjidl_core/ITransferAdviseSink::UpdateProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

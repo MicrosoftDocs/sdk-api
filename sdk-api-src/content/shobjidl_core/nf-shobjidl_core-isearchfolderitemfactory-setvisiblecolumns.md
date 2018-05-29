@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetVisibleColumns
 title: ISearchFolderItemFactory::SetVisibleColumns
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new column list whose columns are all visible, given an array of PROPERTYKEY structures. The default is based on FolderTypeID.
 old-location: shell\ISearchFolderItemFactory_SetVisibleColumns.htm
 old-project: shell
 ms.assetid: be18218e-a117-4256-936e-3a5eb36c3654
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetVisibleColumns method, ISearchFolderItemFactory.SetVisibleColumns, ISearchFolderItemFactory::SetVisibleColumns, SetVisibleColumns, SetVisibleColumns method [Windows Shell], SetVisibleColumns method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetVisibleColumns, shell.ISearchFolderItemFactory_SetVisibleColumns, shobjidl_core/ISearchFolderItemFactory::SetVisibleColumns
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

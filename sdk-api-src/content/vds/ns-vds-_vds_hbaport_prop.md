@@ -1,16 +1,16 @@
 ---
 UID: NS:vds._VDS_HBAPORT_PROP
 title: "_VDS_HBAPORT_PROP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the properties of an HBA port.
 old-location: base\vds_hbaport_prop.htm
 old-project: VDS
 ms.assetid: 297ccb5c-3fa2-4bb0-bdd2-60d4685dc55c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_HBAPORT_PROP, VDS_HBAPORT_PROP structure [VDS], _VDS_HBAPORT_PROP, base.vds_hbaport_prop, vds/VDS_HBAPORT_PROP, vdshwprv/VDS_HBAPORT_PROP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

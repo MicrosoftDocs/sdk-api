@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollment.get_RequestId
 title: ICertPropertyEnrollment::get_RequestId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a unique certificate request identifier.
 old-location: security\icertpropertyenrollment_requestid_property.htm
 old-project: SecCertEnroll
 ms.assetid: a9e2000c-7d64-43f1-b891-b5cd6f46201f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertPropertyEnrollment interface [Security],RequestId property, ICertPropertyEnrollment.RequestId, ICertPropertyEnrollment.get_RequestId, ICertPropertyEnrollment::RequestId, ICertPropertyEnrollment::get_RequestId, RequestId property [Security], RequestId property [Security],ICertPropertyEnrollment interface, certenroll/ICertPropertyEnrollment::RequestId, certenroll/ICertPropertyEnrollment::get_RequestId, get_RequestId, security.icertpropertyenrollment_requestid_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

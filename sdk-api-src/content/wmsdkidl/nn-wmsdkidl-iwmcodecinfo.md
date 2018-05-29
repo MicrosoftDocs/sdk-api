@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMCodecInfo
 title: IWMCodecInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMCodecInfo interface retrieves the number and types of codecs available.
 old-location: wmformat\iwmcodecinfo.htm
 old-project: wmformat
 ms.assetid: 70661d13-737a-4e83-94e6-9a1af07b0369
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMCodecInfo, IWMCodecInfo interface [windows Media Format], IWMCodecInfo interface [windows Media Format],described, IWMCodecInfoInterface, wmformat.iwmcodecinfo, wmsdkidl/IWMCodecInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

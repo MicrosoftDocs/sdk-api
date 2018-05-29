@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCustomTone.put_Volume
 title: ITCustomTone::put_Volume
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Volume method sets the volume level at which to generate the tone.
 old-location: tapi3\itcustomtone_put_volume.htm
 old-project: Tapi
 ms.assetid: 2de6dbc3-9a3d-48e7-b9e1-56b3e25d1b60
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],put_Volume method, ITCustomTone.put_Volume, ITCustomTone::put_Volume, _tapi3_itcustomtone_put_volume, put_Volume, put_Volume method [TAPI 2.2], put_Volume method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_put_volume, tapi3if/ITCustomTone::put_Volume
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

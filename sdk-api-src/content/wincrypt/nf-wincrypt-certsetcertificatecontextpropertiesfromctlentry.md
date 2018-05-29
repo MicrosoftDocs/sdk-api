@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertSetCertificateContextPropertiesFromCTLEntry
 title: CertSetCertificateContextPropertiesFromCTLEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the properties on the certificate context by using the attributes in the specified certificate trust list (CTL) entry.
 old-location: security\certsetcertificatecontextpropertiesfromctlentry.htm
 old-project: SecCrypto
 ms.assetid: b53b046a-68d4-4dc5-ab89-1b30ebd1de60
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertSetCertificateContextPropertiesFromCTLEntry, CertSetCertificateContextPropertiesFromCTLEntry function [Security], _crypto2_certsetcertificatecontextpropertiesfromctlentry, security.certsetcertificatecontextpropertiesfromctlentry, wincrypt/CertSetCertificateContextPropertiesFromCTLEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

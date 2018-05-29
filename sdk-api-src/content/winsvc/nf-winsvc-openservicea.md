@@ -1,16 +1,16 @@
 ---
 UID: NF:winsvc.OpenServiceA
 title: OpenServiceA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an existing service.
 old-location: base\openservice.htm
 old-project: Services
 ms.assetid: e0a42613-95ad-4d0f-a464-c6df33014064
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: OpenService, OpenService function, OpenServiceA, OpenServiceW, _win32_openservice, base.openservice, winsvc/OpenService, winsvc/OpenServiceA, winsvc/OpenServiceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

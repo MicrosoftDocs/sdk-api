@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidPlaybackEvent
 title: IMSVidPlaybackEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidplaybackevent.htm
 old-project: mstv
 ms.assetid: 7347601e-e889-4a45-8b94-081678df68d9
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidPlaybackEvent, IMSVidPlaybackEvent interface [Microsoft TV Technologies], IMSVidPlaybackEvent interface [Microsoft TV Technologies],described, IMSVidPlaybackEventInterface, mstv.imsvidplaybackevent, segment/IMSVidPlaybackEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

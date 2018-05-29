@@ -1,16 +1,16 @@
 ---
 UID: NN:dxvahd.IDXVAHD_Device
 title: IDXVAHD_Device
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\idxvahd_device.htm
 old-project: medfound
 ms.assetid: 3f79ac9c-2aed-4e1c-bf6f-02f9c54d59cd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IDXVAHD_Device, IDXVAHD_Device interface [Media Foundation], IDXVAHD_Device interface [Media Foundation],described, dxvahd/IDXVAHD_Device, mf.idxvahd_device
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxvahd.h
 req.include-header: 

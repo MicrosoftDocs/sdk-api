@@ -1,16 +1,16 @@
 ---
 UID: NS:wintrust._WIN_CERTIFICATE
 title: "_WIN_CERTIFICATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: This structure encapsulates a signature used in verifying executable files.
 old-location: security\win_certificate.htm
 old-project: SecCrypto
 ms.assetid: AC666871-265B-4D09-B7A6-DEC48D4645FD
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*LPWIN_CERTIFICATE, PWIN_CERTIFICATE, PWIN_CERTIFICATE structure pointer [Security], WIN_CERTIFICATE, WIN_CERTIFICATE structure [Security], _WIN_CERTIFICATE, security.win_certificate, wintrust/PWIN_CERTIFICATE, wintrust/WIN_CERTIFICATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 

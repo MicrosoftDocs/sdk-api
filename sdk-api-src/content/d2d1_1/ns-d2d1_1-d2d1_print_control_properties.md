@@ -1,16 +1,16 @@
 ---
 UID: NS:d2d1_1.D2D1_PRINT_CONTROL_PROPERTIES
 title: D2D1_PRINT_CONTROL_PROPERTIES
-author: windows-driver-content
+author: windows-sdk-content
 description: The creation properties for a ID2D1PrintControl object.
 old-location: direct2d\d2d1_print_control_properties.htm
 old-project: Direct2D
 ms.assetid: 5A4D4DDC-4161-44A2-9EB6-E4C14696B810
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_PRINT_CONTROL_PROPERTIES, D2D1_PRINT_CONTROL_PROPERTIES structure [Direct2D], d2d1_1/D2D1_PRINT_CONTROL_PROPERTIES, direct2d.d2d1_print_control_properties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shidfact.CItemIDFactory.SetItemAlloc
 title: CItemIDFactory::SetItemAlloc
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the CItemIDFactory an IMalloc interface used to allocate and free item IDs.
 old-location: shell\citemidfactory_setitemalloc.htm
 old-project: shell
 ms.assetid: 3E2BAAD9-5C16-4ECF-BADB-16B355439BA5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],SetItemAlloc method, CItemIDFactory.SetItemAlloc, CItemIDFactory::SetItemAlloc, SetItemAlloc, SetItemAlloc method [Windows Shell], SetItemAlloc method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_setitemalloc, shidfact/CItemIDFactory::SetItemAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shidfact.h
 req.include-header: 

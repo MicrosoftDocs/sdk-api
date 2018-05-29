@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsIscsiTarget
 title: IVdsIscsiTarget
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on an iSCSI target.
 old-location: base\ivdsiscsitarget.htm
 old-project: VDS
 ms.assetid: 0db442c4-6cc1-43b2-8ac8-8b17cadb1101
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsIscsiTarget, IVdsIscsiTarget interface [VDS], IVdsIscsiTarget interface [VDS],described, base.ivdsiscsitarget, vds/IVdsIscsiTarget, vdshwprv/IVdsIscsiTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

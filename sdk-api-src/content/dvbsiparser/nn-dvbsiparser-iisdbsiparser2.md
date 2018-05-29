@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IIsdbSiParser2
 title: IIsdbSiParser2
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that retrieve program specific information (PSI) tables and service information tables from an Integrated Services Digital Broadcast (ISDB) transport stream.
 old-location: mstv\iisdbsiparser2.htm
 old-project: mstv
 ms.assetid: d8dfc713-aaa4-46b1-8eca-2e132a9d705f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IIsdbSiParser2, IIsdbSiParser2 interface [Microsoft TV Technologies], IIsdbSiParser2 interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbSiParser2, mstv.iisdbsiparser2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NL:mspstrm.CMSPStream
 title: CMSPStream
-author: windows-driver-content
+author: windows-sdk-content
 description: The CMSPStream class exposes methods that allow an application to start, pause, or stop a substream, and to select or unselect terminals. Defined in MSPstrm.h.
 old-location: tapi3\cmspstream.htm
 old-project: Tapi
 ms.assetid: 776ca663-faa2-4534-8873-4e20ed79530c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CMSPStream, CMSPStream object [TAPI 2.2], CMSPStream object [TAPI 2.2],described, _tapi3_cmspstream, mspstrm/CMSPStream, tapi3.cmspstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: mspstrm.h
 req.include-header: 

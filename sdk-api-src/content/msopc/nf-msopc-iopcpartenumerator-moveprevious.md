@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcPartEnumerator.MovePrevious
 title: IOpcPartEnumerator::MovePrevious
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves the current position of the enumerator to the previous IOpcPart interface pointer.
 old-location: opc\iopcpartenumerator_moveprevious.htm
 old-project: OPC
 ms.assetid: 6405bf6f-da60-463c-9acc-820b586e42e1
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcPartEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcPartEnumerator.MovePrevious, IOpcPartEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcPartEnumerator interface, msopc/IOpcPartEnumerator::MovePrevious, opc.iopcpartenumerator_moveprevious
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.SetConvertStg
 title: SetConvertStg function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetConvertStg function sets the convert bit in a storage object to indicate that the object is to be converted to a new class when it is opened. The setting can be retrieved with a call to the GetConvertStg function.
 old-location: stg\setconvertstg.htm
 old-project: Stg
 ms.assetid: 98c8fd20-6384-4656-941c-1f24d9a4d4a9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SetConvertStg, SetConvertStg function [Structured Storage], _stg_setconvertstg, ole2/SetConvertStg, stg.setconvertstg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

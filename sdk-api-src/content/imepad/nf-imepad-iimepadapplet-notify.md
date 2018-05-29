@@ -1,16 +1,16 @@
 ---
 UID: NF:imepad.IImePadApplet.Notify
 title: IImePadApplet::Notify
-author: windows-driver-content
+author: windows-sdk-content
 description: Called from IImePad to pass information with a notify code.
 old-location: intl\iimepadapplet_notify.htm
 old-project: Intl
 ms.assetid: 5C370DC8-D308-4339-81F3-FEE88359A52F
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IImePadApplet interface [Internationalization for Windows Applications],Notify method, IImePadApplet.Notify, IImePadApplet::Notify, Notify, Notify method [Internationalization for Windows Applications], Notify method [Internationalization for Windows Applications],IImePadApplet interface, imepad/IImePadApplet::Notify, intl.iimepadapplet_notify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imepad.h
 req.include-header: 

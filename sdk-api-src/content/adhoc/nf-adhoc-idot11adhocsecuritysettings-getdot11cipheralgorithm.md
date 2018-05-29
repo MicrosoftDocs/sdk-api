@@ -1,16 +1,16 @@
 ---
 UID: NF:adhoc.IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm
 title: IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the cipher algorithm associated with the security settings.
 old-location: nwifi\idot11adhocsecuritysettings_getdot11cipheralgorithm.htm
 old-project: NativeWiFi
 ms.assetid: 46bf39e3-351f-41c2-8f68-886fce8a83bd
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: GetDot11CipherAlgorithm, GetDot11CipherAlgorithm method [NativeWIFI], GetDot11CipherAlgorithm method [NativeWIFI],IDot11AdHocSecuritySettings interface, IDot11AdHocSecuritySettings interface [NativeWIFI],GetDot11CipherAlgorithm method, IDot11AdHocSecuritySettings.GetDot11CipherAlgorithm, IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm, adhoc/IDot11AdHocSecuritySettings::GetDot11CipherAlgorithm, nwifi.idot11adhocsecuritysettings_getdot11cipheralgorithm
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

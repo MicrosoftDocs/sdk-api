@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFTimecodeTranslate.EndConvertHNSToTimecode
 title: IMFTimecodeTranslate::EndConvertHNSToTimecode
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes an asynchronous request to convert time in 100-nanosecond units to Society of Motion Picture and Television Engineers (SMPTE) time code.
 old-location: mf\imftimecodetranslate_endconverthnstotimecode.htm
 old-project: medfound
 ms.assetid: 9386748c-e551-49b8-89c3-65d721820736
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EndConvertHNSToTimecode, EndConvertHNSToTimecode method [Media Foundation], EndConvertHNSToTimecode method [Media Foundation],IMFTimecodeTranslate interface, IMFTimecodeTranslate interface [Media Foundation],EndConvertHNSToTimecode method, IMFTimecodeTranslate.EndConvertHNSToTimecode, IMFTimecodeTranslate::EndConvertHNSToTimecode, mf.imftimecodetranslate_endconverthnstotimecode, mfidl/IMFTimecodeTranslate::EndConvertHNSToTimecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

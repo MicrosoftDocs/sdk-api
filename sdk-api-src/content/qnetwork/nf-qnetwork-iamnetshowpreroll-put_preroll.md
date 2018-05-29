@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMNetShowPreroll.put_Preroll
 title: IAMNetShowPreroll::put_Preroll
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Preroll method specifies whether the filter should start prerolling.
 old-location: dshow\iamnetshowpreroll_put_preroll.htm
 old-project: DirectShow
 ms.assetid: 3296f0ab-2be8-4693-99bd-5dae0672df26
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMNetShowPreroll interface [DirectShow],put_Preroll method, IAMNetShowPreroll.put_Preroll, IAMNetShowPreroll::put_Preroll, IAMNetShowPrerollput_Preroll, dshow.iamnetshowpreroll_put_preroll, put_Preroll, put_Preroll method [DirectShow], put_Preroll method [DirectShow],IAMNetShowPreroll interface, qnetwork/IAMNetShowPreroll::put_Preroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

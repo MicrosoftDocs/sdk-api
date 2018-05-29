@@ -1,16 +1,16 @@
 ---
 UID: NF:peerdist.PeerDistServerCancelAsyncOperation
 title: PeerDistServerCancelAsyncOperation function
-author: windows-driver-content
+author: windows-sdk-content
 description: PeerDistServerCancelAsyncOperation function cancels the asynchronous operation associated with the content identifier and OVERLAPPED structure.
 old-location: p2p\peerdistservercancelasyncoperation.htm
 old-project: P2PSdk
 ms.assetid: b8daa90a-f184-40cb-a62b-b1d122eb7781
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerDistServerCancelAsyncOperation, PeerDistServerCancelAsyncOperation function [Peer Networking], p2p.peerdistservercancelasyncoperation, peerdist/PeerDistServerCancelAsyncOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

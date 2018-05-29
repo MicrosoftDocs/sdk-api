@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidFilePlayback.put_FileName
 title: IMSVidFilePlayback::put_FileName
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_FileName method sets the name of the file to play.
 old-location: mstv\imsvidfileplayback_put_filename.htm
 old-project: mstv
 ms.assetid: 1055a053-28d3-470f-aff5-ade71eebc809
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidFilePlayback interface [Microsoft TV Technologies],put_FileName method, IMSVidFilePlayback.put_FileName, IMSVidFilePlayback::put_FileName, IMSVidFilePlaybackput_FileName, mstv.imsvidfileplayback_put_filename, put_FileName, put_FileName method [Microsoft TV Technologies], put_FileName method [Microsoft TV Technologies],IMSVidFilePlayback interface, segment/IMSVidFilePlayback::put_FileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

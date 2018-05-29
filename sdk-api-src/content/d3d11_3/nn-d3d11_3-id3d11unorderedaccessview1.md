@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11_3.ID3D11UnorderedAccessView1
 title: ID3D11UnorderedAccessView1
-author: windows-driver-content
+author: windows-sdk-content
 description: An unordered-access-view interface represents the parts of a resource the pipeline can access during rendering.
 old-location: direct3d11\id3d11unorderedaccessview1.htm
 old-project: direct3d11
 ms.assetid: 0D4F7634-0AB1-41C2-8D4F-8C42C1D973D2
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11UnorderedAccessView1, ID3D11UnorderedAccessView1 interface [Direct3D 11], ID3D11UnorderedAccessView1 interface [Direct3D 11],described, d3d11_3/ID3D11UnorderedAccessView1, direct3d11.id3d11unorderedaccessview1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_3.h
 req.include-header: 

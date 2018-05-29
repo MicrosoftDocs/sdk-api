@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzInitializeRemoteResourceManager
 title: AuthzInitializeRemoteResourceManager function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates and initializes a remote resource manager. The caller can use the resulting handle to make RPC calls to a remote instance of the resource manager configured on a server.
 old-location: security\authzinitializeremoteresourcemanager.htm
 old-project: SecAuthZ
 ms.assetid: C3B6C75B-13A5-49CC-BB01-DA1EEC292C20
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthzInitializeRemoteResourceManager, AuthzInitializeRemoteResourceManager function [Security], authz/AuthzInitializeRemoteResourceManager, security.authzinitializeremoteresourcemanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

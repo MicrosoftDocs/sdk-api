@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._KERB_CHANGEPASSWORD_REQUEST
 title: "_KERB_CHANGEPASSWORD_REQUEST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used to change a password.
 old-location: security\kerb_changepassword_request.htm
 old-project: SecAuthN
 ms.assetid: 96463bac-0833-4a5e-b054-e32a29bc903d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PKERB_CHANGEPASSWORD_REQUEST, KERB_CHANGEPASSWORD_REQUEST, KERB_CHANGEPASSWORD_REQUEST structure [Security], PKERB_CHANGEPASSWORD_REQUEST, PKERB_CHANGEPASSWORD_REQUEST structure pointer [Security], _KERB_CHANGEPASSWORD_REQUEST, ntsecapi/KERB_CHANGEPASSWORD_REQUEST, ntsecapi/PKERB_CHANGEPASSWORD_REQUEST, security.kerb_changepassword_request"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

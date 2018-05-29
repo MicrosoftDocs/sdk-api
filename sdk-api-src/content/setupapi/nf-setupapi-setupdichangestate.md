@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiChangeState
 title: SetupDiChangeState function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiChangeState function is the default handler for the DIF_PROPERTYCHANGE installation request.
 old-location: devinst\setupdichangestate.htm
 old-project: devinst
 ms.assetid: 204c1366-1817-4cd1-a1fd-a4ad3e79b7cc
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiChangeState, SetupDiChangeState function [Device and Driver Installation], devinst.setupdichangestate, di-rtns_0749286d-9e78-4e2a-8bbf-483d698753ba.xml, setupapi/SetupDiChangeState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

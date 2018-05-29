@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.IItemEnumerator.Current
 title: IItemEnumerator::Current
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an item from the current position of the enumerator.
 old-location: smi\iitemenumerator_current.htm
 old-project: SMI
 ms.assetid: 0f117274-672f-40da-a4c6-88dd6aa01cf7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Current, Current method [SMI], Current method [SMI],IItemEnumerator interface, IItemEnumerator interface [SMI],Current method, IItemEnumerator.Current, IItemEnumerator::Current, smi.iitemenumerator_current, wcmconfig/IItemEnumerator::Current
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

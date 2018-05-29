@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.CHString(WCHAR,int)
 title: CHString::CHString(WCHAR,int)
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a new CHString object with the specified data.
 old-location: wmi\chstring_chstring_wchar_int_.htm
 old-project: WmiSdk
 ms.assetid: 2b0afbc0-3ce0-4bcc-8ad1-e3b546d3b0dd
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "??0CHString@@QAE@GH@Z, CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(WCHAR,int), CHString::CHString, CHString::CHString(WCHAR,int), chstring/CHString::CHString, wmi.chstring_chstring_wchar_int_"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

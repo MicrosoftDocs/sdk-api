@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509Attribute.get_RawData
 title: IX509Attribute::get_RawData
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the attribute value.
 old-location: security\ix509attribute_rawdata_property.htm
 old-project: SecCertEnroll
 ms.assetid: a8e67f3c-4c05-4742-8251-a03335054b2e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509Attribute interface [Security],RawData property, IX509Attribute.RawData, IX509Attribute.get_RawData, IX509Attribute::RawData, IX509Attribute::get_RawData, RawData property [Security], RawData property [Security],IX509Attribute interface, certenroll/IX509Attribute::RawData, certenroll/IX509Attribute::get_RawData, get_RawData, security.ix509attribute_rawdata_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

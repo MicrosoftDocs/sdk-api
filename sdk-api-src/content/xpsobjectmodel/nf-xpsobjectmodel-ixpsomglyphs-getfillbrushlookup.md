@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFillBrushLookup
 title: IXpsOMGlyphs::GetFillBrushLookup
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the lookup key of the IXpsOMBrush interface that is stored in a resource dictionary and will be used as the fill brush.
 old-location: xps\ixpsomglyphs_getfillbrushlookup.htm
 old-project: printdocs
 ms.assetid: f71b0b98-12d6-4108-8b1e-4ad254ffbdfd
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetFillBrushLookup, GetFillBrushLookup method [XPS Documents and Packaging], GetFillBrushLookup method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrushLookup method, IXpsOMGlyphs.GetFillBrushLookup, IXpsOMGlyphs::GetFillBrushLookup, xps.ixpsomglyphs_getfillbrushlookup, xpsobjectmodel/IXpsOMGlyphs::GetFillBrushLookup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

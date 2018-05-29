@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetCurrentPosition
 title: IMediaSeeking::GetCurrentPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCurrentPosition method retrieves the current position, relative to the total duration of the stream.
 old-location: dshow\imediaseeking_getcurrentposition.htm
 old-project: DirectShow
 ms.assetid: 4dca0c9e-ce95-4716-8e4d-ce8bf83628d6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCurrentPosition, GetCurrentPosition method [DirectShow], GetCurrentPosition method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetCurrentPosition method, IMediaSeeking.GetCurrentPosition, IMediaSeeking::GetCurrentPosition, IMediaSeekingGetCurrentPosition, dshow.imediaseeking_getcurrentposition, strmif/IMediaSeeking::GetCurrentPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

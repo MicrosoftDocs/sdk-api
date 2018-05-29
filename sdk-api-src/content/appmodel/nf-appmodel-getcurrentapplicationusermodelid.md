@@ -1,16 +1,16 @@
 ---
 UID: NF:appmodel.GetCurrentApplicationUserModelId
 title: GetCurrentApplicationUserModelId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the application user model ID for the current process.
 old-location: appxpkg\getcurrentapplicationusermodelid.htm
 old-project: appxpkg
 ms.assetid: 562BB225-0922-4FE7-92C0-573A2CCE3195
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetCurrentApplicationUserModelId, GetCurrentApplicationUserModelId function [App packaging and management], appmodel/GetCurrentApplicationUserModelId, appxpkg.getcurrentapplicationusermodelid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

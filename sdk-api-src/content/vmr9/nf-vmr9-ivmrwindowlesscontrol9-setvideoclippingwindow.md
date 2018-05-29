@@ -1,16 +1,16 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.SetVideoClippingWindow
 title: IVMRWindowlessControl9::SetVideoClippingWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetVideoClippingWindow method specifies the container window that video should be clipped to.
 old-location: dshow\ivmrwindowlesscontrol9_setvideoclippingwindow.htm
 old-project: DirectShow
 ms.assetid: 426476cd-a7e9-42ef-9d1b-5bbf921557ed
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRWindowlessControl9 interface [DirectShow],SetVideoClippingWindow method, IVMRWindowlessControl9.SetVideoClippingWindow, IVMRWindowlessControl9::SetVideoClippingWindow, IVMRWindowlessControl9SetVideoClippingWindow, SetVideoClippingWindow, SetVideoClippingWindow method [DirectShow], SetVideoClippingWindow method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_setvideoclippingwindow, vmr9/IVMRWindowlessControl9::SetVideoClippingWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

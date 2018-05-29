@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QuerySyntax
 title: ISearchQueryHelper::get_QuerySyntax
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the syntax of the query.
 old-location: search\_search_ISearchQueryHelper_get_QuerySyntax.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querysyntax.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QuerySyntax method, ISearchQueryHelper.get_QuerySyntax, ISearchQueryHelper::get_QuerySyntax, _search_ISearchQueryHelper_get_QuerySyntax, get_QuerySyntax, get_QuerySyntax method [search], get_QuerySyntax method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QuerySyntax, searchapi/ISearchQueryHelper::get_QuerySyntax
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

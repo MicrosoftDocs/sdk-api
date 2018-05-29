@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2spi.WSCUnInstallNameSpace
 title: WSCUnInstallNameSpace function
-author: windows-driver-content
+author: windows-sdk-content
 description: Uninstalls the indicated name-space provider.
 old-location: winsock\wscuninstallnamespace_2.htm
 old-project: WinSock
 ms.assetid: 5267f986-99fc-4e53-9fbb-3850bb9d24cf
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSCUnInstallNameSpace, WSCUnInstallNameSpace function [Winsock], _win32_wscuninstallnamespace_2, winsock.wscuninstallnamespace_2, ws2spi/WSCUnInstallNameSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

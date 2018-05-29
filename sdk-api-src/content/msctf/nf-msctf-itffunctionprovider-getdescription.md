@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfFunctionProvider.GetDescription
 title: ITfFunctionProvider::GetDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfFunctionProvider::GetDescription method
 old-location: tsf\itffunctionprovider_getdescription.htm
 old-project: TSF
 ms.assetid: a970c93f-2a1b-44b9-9177-fd69795ae9ee
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetDescription, GetDescription method [Text Services Framework], GetDescription method [Text Services Framework],ITfFunctionProvider interface, ITfFunctionProvider interface [Text Services Framework],GetDescription method, ITfFunctionProvider.GetDescription, ITfFunctionProvider::GetDescription, _tsf_itffunctionprovider_getdescription_ref, msctf/ITfFunctionProvider::GetDescription, tsf.itffunctionprovider_getdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

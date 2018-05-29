@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreatePluginPropertySet
 title: ITsSbProvider::CreatePluginPropertySet
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an ITsSbPluginPropertySet plug-in property set object.
 old-location: termserv\itssbprovider_createpluginpropertyset.htm
 old-project: TermServ
 ms.assetid: a15edb7a-4ff5-4832-8632-17b08cff4675
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreatePluginPropertySet, CreatePluginPropertySet method [Remote Desktop Services], CreatePluginPropertySet method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreatePluginPropertySet method, ITsSbProvider.CreatePluginPropertySet, ITsSbProvider::CreatePluginPropertySet, sbtsv/ITsSbProvider::CreatePluginPropertySet, termserv.itssbprovider_createpluginpropertyset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

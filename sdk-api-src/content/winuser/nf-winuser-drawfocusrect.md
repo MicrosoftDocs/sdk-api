@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.DrawFocusRect
 title: DrawFocusRect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrawFocusRect function draws a rectangle in the style used to indicate that the rectangle has the focus.
 old-location: gdi\drawfocusrect.htm
 old-project: gdi
 ms.assetid: a910d04f-fe4d-4fc9-a518-abac864da6f3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DrawFocusRect, DrawFocusRect function [Windows GDI], _win32_DrawFocusRect, gdi.drawfocusrect, winuser/DrawFocusRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhConnectMachineA
 title: PdhConnectMachineA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Connects to the specified computer.
 old-location: perf\pdhconnectmachine.htm
 old-project: PerfCtrs
 ms.assetid: 8f8b4651-b550-4b34-bb2f-d2497c56b572
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhConnectMachine, PdhConnectMachine function [Perf], PdhConnectMachineA, PdhConnectMachineW, _win32_pdhconnectmachine, base.pdhconnectmachine, pdh/PdhConnectMachine, pdh/PdhConnectMachineA, pdh/PdhConnectMachineW, perf.pdhconnectmachine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

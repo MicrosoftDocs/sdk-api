@@ -1,16 +1,16 @@
 ---
 UID: NF:roapi.RoInitialize
 title: RoInitialize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the Windows Runtime on the current thread with the specified concurrency model.
 old-location: winrt\roinitialize.htm
 old-project: WinRT
 ms.assetid: 527A7FF7-749D-4178-A397-5C538F6031F8
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoInitialize, RoInitialize function [Windows Runtime], WinRTInitialize, roapi/RoInitialize, roapi/WinRTInitialize, winrt.roinitialize, winrt.winrtinitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roapi.h
 req.include-header: 

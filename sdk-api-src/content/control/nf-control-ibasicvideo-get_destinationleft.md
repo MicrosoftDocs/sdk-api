@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IBasicVideo.get_DestinationLeft
 title: IBasicVideo::get_DestinationLeft
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_DestinationLeft method retrieves the x-coordinate of the destination rectangle.
 old-location: dshow\ibasicvideo_get_destinationleft.htm
 old-project: DirectShow
 ms.assetid: 578f5bbd-23b0-4100-a1d8-0987381fd56f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_DestinationLeft method, IBasicVideo.get_DestinationLeft, IBasicVideo::get_DestinationLeft, IBasicVideoget_DestinationLeft, control/IBasicVideo::get_DestinationLeft, dshow.ibasicvideo_get_destinationleft, get_DestinationLeft, get_DestinationLeft method [DirectShow], get_DestinationLeft method [DirectShow],IBasicVideo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

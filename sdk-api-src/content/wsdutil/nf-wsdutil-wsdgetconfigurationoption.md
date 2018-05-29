@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdutil.WSDGetConfigurationOption
 title: WSDGetConfigurationOption function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a WSDAPI configuration option.
 old-location: ncd\wsdgetconfigurationoption.htm
 old-project: WsdApi
 ms.assetid: 33fc271e-4cc5-466c-8688-7b19f4399f8e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, WSDGetConfigurationOption, WSDGetConfigurationOption function, ncd.wsdgetconfigurationoption, wsdutil/WSDGetConfigurationOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h

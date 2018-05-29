@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IEnumMediaTypes.Clone
 title: IEnumMediaTypes::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: The Clone method makes a copy of the enumerator. The returned object starts with the same enumeration state as the original.
 old-location: dshow\ienummediatypes_clone.htm
 old-project: DirectShow
 ms.assetid: 7a81496d-34e5-43d2-aad9-510ab515adc2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumMediaTypes interface, IEnumMediaTypes interface [DirectShow],Clone method, IEnumMediaTypes.Clone, IEnumMediaTypes::Clone, IEnumMediaTypesClone, dshow.ienummediatypes_clone, strmif/IEnumMediaTypes::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

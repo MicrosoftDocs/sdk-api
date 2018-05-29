@@ -1,16 +1,16 @@
 ---
 UID: NE:codecapi.eAVEncInputVideoSystem
 title: eAVEncInputVideoSystem
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the nominal range for a video source. This enumeration is used with the AVEncInputVideoSystem property.
 old-location: dshow\eavencinputvideosystem.htm
 old-project: DirectShow
 ms.assetid: f72be523-917a-439f-adc5-d7550e8d6cf9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: codecapi/eAVEncInputVideoSystem, codecapi/eAVEncInputVideoSystem_Component, codecapi/eAVEncInputVideoSystem_HDV, codecapi/eAVEncInputVideoSystem_MAC, codecapi/eAVEncInputVideoSystem_NTSC, codecapi/eAVEncInputVideoSystem_PAL, codecapi/eAVEncInputVideoSystem_SECAM, codecapi/eAVEncInputVideoSystem_Unspecified, dshow.eavencinputvideosystem, eAVEncInputVideoSystem, eAVEncInputVideoSystem enumeration [DirectShow], eAVEncInputVideoSystemEnumeration, eAVEncInputVideoSystem_Component, eAVEncInputVideoSystem_HDV, eAVEncInputVideoSystem_MAC, eAVEncInputVideoSystem_NTSC, eAVEncInputVideoSystem_PAL, eAVEncInputVideoSystem_SECAM, eAVEncInputVideoSystem_Unspecified
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

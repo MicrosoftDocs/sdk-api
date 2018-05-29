@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IAssocHandler
 title: IAssocHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods for operations with a file association dialog box or menu.
 old-location: shell\IAssocHandler.htm
 old-project: shell
 ms.assetid: 5d5a107c-2c0e-4242-8f40-97421937167c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAssocHandler, IAssocHandler interface [Windows Shell], IAssocHandler interface [Windows Shell],described, _shell_IAssocHandler, shell.IAssocHandler, shobjidl_core/IAssocHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsFileServiceOperations.Sessions
 title: IADsFileServiceOperations::Sessions
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsFileServiceOperations::Sessions method gets a pointer to a pointer to the IADsCollection interface on a collection of the session objects that represent the current open sessions for this file service.
 old-location: adsi\iadsfileserviceoperations_sessions.htm
 old-project: ADSI
 ms.assetid: 97b485c9-650a-4d87-adbb-51799581c3bc
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsFileServiceOperations interface [ADSI],Sessions method, IADsFileServiceOperations.Sessions, IADsFileServiceOperations::Sessions, Sessions, Sessions method [ADSI], Sessions method [ADSI],IADsFileServiceOperations interface, _ds_iadsfileserviceoperations_sessions, adsi.iadsfileserviceoperations__sessions, adsi.iadsfileserviceoperations_sessions, iads/IADsFileServiceOperations::Sessions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

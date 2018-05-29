@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetFileAttributesTransactedA
 title: GetFileAttributesTransactedA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves file system attributes for a specified file or directory as a transacted operation.
 old-location: fs\getfileattributestransacted.htm
 old-project: FileIO
 ms.assetid: dd1435da-93e5-440a-913a-9e40e39b4a01
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetFileAttributesTransacted, GetFileAttributesTransacted function [Files], GetFileAttributesTransactedA, GetFileAttributesTransactedW, GetFileExInfoStandard, fs.getfileattributestransacted, winbase/GetFileAttributesTransacted, winbase/GetFileAttributesTransactedA, winbase/GetFileAttributesTransactedW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

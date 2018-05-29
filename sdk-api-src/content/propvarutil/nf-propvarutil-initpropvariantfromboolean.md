@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromBoolean
 title: InitPropVariantFromBoolean function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a given PROPVARIANT structure as a VT_BOOL using a specified Boolean value.
 old-location: properties\InitPropVariantFromBoolean.htm
 old-project: properties
 ms.assetid: aa23f7a2-1983-4a30-b2fc-601efa37e0ff
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitPropVariantFromBoolean, InitPropVariantFromBoolean function [Windows Properties], properties.InitPropVariantFromBoolean, propvarutil/InitPropVariantFromBoolean, shell.InitPropVariantFromBoolean, shell_InitPropVariantFromBoolean
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

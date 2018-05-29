@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderAdviseEvents.AdviseEventAdded
 title: IRawElementProviderAdviseEvents::AdviseEventAdded
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the Microsoft UI Automation provider when a UI Automation client begins listening for a specific event, including a property-changed event.
 old-location: winauto\uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded.htm
 old-project: WinAuto
 ms.assetid: b5902d9b-e008-4b91-933e-82506718eecd
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: AdviseEventAdded, AdviseEventAdded method [Windows Accessibility], AdviseEventAdded method [Windows Accessibility],IRawElementProviderAdviseEvents interface, IRawElementProviderAdviseEvents interface [Windows Accessibility],AdviseEventAdded method, IRawElementProviderAdviseEvents.AdviseEventAdded, IRawElementProviderAdviseEvents::AdviseEventAdded, uiauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded, uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded, uiautomationcore/IRawElementProviderAdviseEvents::AdviseEventAdded, winauto.uiauto_IRawElementProviderAdviseEvents_AdviseEventAdded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

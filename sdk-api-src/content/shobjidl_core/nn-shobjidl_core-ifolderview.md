@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IFolderView
 title: IFolderView
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that retrieve information about a folder's display options, select specified items in that folder, and set the folder's view mode.
 old-location: shell\IFolderView.htm
 old-project: shell
 ms.assetid: 3bc2615e-f07c-4959-b89e-bbbd2bf45a94
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFolderView, IFolderView interface [Windows Shell], IFolderView interface [Windows Shell],described, _shell_IFolderView, shell.IFolderView, shobjidl_core/IFolderView
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

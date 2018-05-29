@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IFolderActionCollection.Add
 title: IFolderActionCollection::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a folder action to the collection.
 old-location: pla\ifolderactioncollection_add.htm
 old-project: PLA
 ms.assetid: 39597249-29d5-44a0-9954-01b9b6a62977
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],Add method, IFolderActionCollection.Add, IFolderActionCollection::Add, base.ifolderactioncollection_add, pla.ifolderactioncollection_add, pla/IFolderActionCollection::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

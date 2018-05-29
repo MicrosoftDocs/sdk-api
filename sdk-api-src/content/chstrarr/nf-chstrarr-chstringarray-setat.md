@@ -1,16 +1,16 @@
 ---
 UID: NF:chstrarr.CHStringArray.SetAt
 title: CHStringArray::SetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetAt method sets the array element at the specified index.
 old-location: wmi\chstringarray_setat.htm
 old-project: WmiSdk
 ms.assetid: 709bed59-c154-4103-9d38-398945657ec6
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],SetAt method, CHStringArray.SetAt, CHStringArray::SetAt, SetAt, SetAt method [Windows Management Instrumentation], SetAt method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_setat, chstrarr/CHStringArray::SetAt, wmi.chstringarray_setat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstrarr.h
 req.include-header: FwCommon.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:certenc.ICertEncodeAltName
 title: ICertEncodeAltName
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for handling alternate names used in certificate extensions.
 old-location: security\icertencodealtname.htm
 old-project: SecCrypto
 ms.assetid: e0ecfcb0-f2ca-4e1c-a054-c83c03d55465
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertEncodeAltName, ICertEncodeAltName interface [Security], ICertEncodeAltName interface [Security],described, _certsrv_icertencodealtname, certenc/ICertEncodeAltName, security.icertencodealtname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenc.h
 req.include-header: Certsrv.h

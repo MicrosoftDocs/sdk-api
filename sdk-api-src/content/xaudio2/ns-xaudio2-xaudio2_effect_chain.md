@@ -1,16 +1,16 @@
 ---
 UID: NS:xaudio2.XAUDIO2_EFFECT_CHAIN
 title: XAUDIO2_EFFECT_CHAIN
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an effect chain.
 old-location: xaudio2\xaudio2_effect_chain.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_EFFECT_CHAIN
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: XAUDIO2_EFFECT_CHAIN, XAUDIO2_EFFECT_CHAIN structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_effect_chain, xaudio2/XAUDIO2_EFFECT_CHAIN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xaudio2.h
 req.include-header: 

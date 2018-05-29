@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_RDN
 title: "_CERT_RDN"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CERT_RDN structure contains a relative distinguished name (RDN) consisting of an array of CERT_RDN_ATTR structures.
 old-location: security\cert_rdn.htm
 old-project: SecCrypto
 ms.assetid: e84254b9-e9a7-4689-a12f-2772282c5433
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_RDN, CERT_RDN, CERT_RDN structure [Security], PCERT_RDN, PCERT_RDN structure pointer [Security], _CERT_RDN, _crypto2_cert_rdn, security.cert_rdn, wincrypt/CERT_RDN, wincrypt/PCERT_RDN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

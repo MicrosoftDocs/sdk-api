@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectShaderVariable.GetShaderDesc
 title: ID3D10EffectShaderVariable::GetShaderDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a shader description.
 old-location: direct3d10\id3d10effectshadervariable_getshaderdesc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable_getshaderdesc.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetShaderDesc, GetShaderDesc method [Direct3D 10], GetShaderDesc method [Direct3D 10],ID3D10EffectShaderVariable interface, ID3D10EffectShaderVariable interface [Direct3D 10],GetShaderDesc method, ID3D10EffectShaderVariable.GetShaderDesc, ID3D10EffectShaderVariable::GetShaderDesc, d3d10effect/ID3D10EffectShaderVariable::GetShaderDesc, direct3d10.id3d10effectshadervariable_getshaderdesc, eb630246-c382-1984-9a6c-712450dfdd06
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.MFPCreateMediaPlayer
 title: MFPCreateMediaPlayer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new instance of the MFPlay player object.
 old-location: mf\mfpcreatemediaplayer.htm
 old-project: medfound
 ms.assetid: 80c668e2-5e93-4af2-871c-646228e18717
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFPCreateMediaPlayer, MFPCreateMediaPlayer function [Media Foundation], mf.mfpcreatemediaplayer, mfplay/MFPCreateMediaPlayer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfplay.h
 req.include-header: 

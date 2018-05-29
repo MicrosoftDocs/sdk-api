@@ -1,16 +1,16 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_CANPLAY
 title: MF_MEDIA_ENGINE_CANPLAY
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the likelihood that the Media Engine can play a specified type of media resource.
 old-location: mf\mf_media_engine_canplay.htm
 old-project: medfound
 ms.assetid: AABABB09-D45F-474C-B692-DC3592ED164F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_MEDIA_ENGINE_CANPLAY, MF_MEDIA_ENGINE_CANPLAY enumeration [Media Foundation], MF_MEDIA_ENGINE_CANPLAY_MAYBE, MF_MEDIA_ENGINE_CANPLAY_NOT_SUPPORTED, MF_MEDIA_ENGINE_CANPLAY_PROBABLY, mf.mf_media_engine_canplay, mfmediaengine/MF_MEDIA_ENGINE_CANPLAY, mfmediaengine/MF_MEDIA_ENGINE_CANPLAY_MAYBE, mfmediaengine/MF_MEDIA_ENGINE_CANPLAY_NOT_SUPPORTED, mfmediaengine/MF_MEDIA_ENGINE_CANPLAY_PROBABLY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 

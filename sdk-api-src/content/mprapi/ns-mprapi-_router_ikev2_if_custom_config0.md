@@ -1,16 +1,16 @@
 ---
 UID: NS:mprapi._ROUTER_IKEv2_IF_CUSTOM_CONFIG0
 title: "_ROUTER_IKEv2_IF_CUSTOM_CONFIG0"
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets IKEv2 tunnel configuration parameter for IKEv2 tunnel based demand dial interfaces.
 old-location: rras\router_ikev2_if_custom_config0.htm
 old-project: RRAS
 ms.assetid: c81611c6-3bad-4965-b4fb-b2c8074cee28
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0, PROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure pointer [RAS], ROUTER_IKEv2_IF_CUSTOM_CONFIG0, ROUTER_IKEv2_IF_CUSTOM_CONFIG0 structure [RAS], _ROUTER_IKEv2_IF_CUSTOM_CONFIG0, mprapi/PROUTER_IKEv2_IF_CUSTOM_CONFIG0, mprapi/ROUTER_IKEv2_IF_CUSTOM_CONFIG0, rras.router_ikev2_if_custom_config0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.GetInnerRequest
 title: IX509CertificateRequest::GetInnerRequest
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a nested request object.
 old-location: security\ix509certificaterequest_getinnerrequest_method.htm
 old-project: SecCertEnroll
 ms.assetid: 5ade7824-d95a-492d-aadf-487422386500
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetInnerRequest, GetInnerRequest method [Security], GetInnerRequest method [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],GetInnerRequest method, IX509CertificateRequest.GetInnerRequest, IX509CertificateRequest::GetInnerRequest, certenroll/IX509CertificateRequest::GetInnerRequest, security.ix509certificaterequest_getinnerrequest_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

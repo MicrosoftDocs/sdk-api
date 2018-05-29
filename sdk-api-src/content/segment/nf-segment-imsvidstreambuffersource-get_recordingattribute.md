@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.get_RecordingAttribute
 title: IMSVidStreamBufferSource::get_RecordingAttribute
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_RecordingAttribute method retrieves the Stream Buffer Source filter that this object manages.
 old-location: mstv\imsvidstreambuffersource_get_recordingattribute.htm
 old-project: mstv
 ms.assetid: 9e7020c8-778d-4a24-ae29-3e66d4ac165a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],get_RecordingAttribute method, IMSVidStreamBufferSource.get_RecordingAttribute, IMSVidStreamBufferSource::get_RecordingAttribute, IMSVidStreamBufferSourceget_RecordingAttribute, get_RecordingAttribute, get_RecordingAttribute method [Microsoft TV Technologies], get_RecordingAttribute method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_get_recordingattribute, segment/IMSVidStreamBufferSource::get_RecordingAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

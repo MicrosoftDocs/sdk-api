@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IOleUndoManager
 title: IOleUndoManager
-author: windows-driver-content
+author: windows-sdk-content
 description: The IOleUndoManager interface enables containers to implement multi-level undo and redo operations for actions that occur within contained controls.
 old-location: com\ioleundomanager.htm
 old-project: com
 ms.assetid: 0f507506-3589-4d5b-b1b3-010bce9ae42f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleUndoManager, IOleUndoManager interface [COM], IOleUndoManager interface [COM],described, _ole_ioleundomanager, com.ioleundomanager, ocidl/IOleUndoManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

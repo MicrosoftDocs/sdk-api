@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CachedIsReadOnly
 title: IUIAutomationRangeValuePattern::get_CachedIsReadOnly
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the value of the element can be changed.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedIsReadOnly.htm
 old-project: WinAuto
 ms.assetid: 93e8df1a-8e07-4efa-8f0e-81aa7f4a3171
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedIsReadOnly property [Windows Accessibility], CachedIsReadOnly property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedIsReadOnly property, IUIAutomationRangeValuePattern.CachedIsReadOnly, IUIAutomationRangeValuePattern.get_CachedIsReadOnly, IUIAutomationRangeValuePattern::CachedIsReadOnly, IUIAutomationRangeValuePattern::get_CachedIsReadOnly, get_CachedIsReadOnly, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedIsReadOnly, uiauto_IUIAutomationRangeValuePattern_CachedIsReadOnly, uiautomationclient/IUIAutomationRangeValuePattern::CachedIsReadOnly, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedIsReadOnly, winauto.uiauto_IUIAutomationRangeValuePattern_CachedIsReadOnly
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:roerrorapi.RoReportUnhandledError
 title: RoReportUnhandledError function
-author: windows-driver-content
+author: windows-sdk-content
 description: Triggers the Global Error Handler when an unhandled exception occurs.
 old-location: winrt\roreportunhandlederror.htm
 old-project: WinRT
 ms.assetid: DE8F29B4-505C-480E-9258-9E5300BEA3F0
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoReportUnhandledError, RoReportUnhandledError function [Windows Runtime], roerrorapi/RoReportUnhandledError, winrt.roreportunhandlederror
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 

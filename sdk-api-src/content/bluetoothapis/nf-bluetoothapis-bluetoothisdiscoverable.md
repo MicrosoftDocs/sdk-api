@@ -1,16 +1,16 @@
 ---
 UID: NF:bluetoothapis.BluetoothIsDiscoverable
 title: BluetoothIsDiscoverable function
-author: windows-driver-content
+author: windows-sdk-content
 description: The BluetoothIsDiscoverable function determines whether a Bluetooth radio or radios is discoverable.
 old-location: bluetooth\bluetoothisdiscoverable.htm
 old-project: Bluetooth
 ms.assetid: 33d34e36-dc17-4029-91bd-53ece5a93b4b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BluetoothIsDiscoverable, BluetoothIsDiscoverable function [Bluetooth], bluetooth.bluetoothisdiscoverable, bluetoothapis/BluetoothIsDiscoverable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

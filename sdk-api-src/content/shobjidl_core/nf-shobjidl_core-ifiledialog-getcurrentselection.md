@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetCurrentSelection
 title: IFileDialog::GetCurrentSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the user's current selection in the dialog.
 old-location: shell\IFileDialog_GetCurrentSelection.htm
 old-project: shell
 ms.assetid: b3768c15-d933-43c0-8398-f8f1c16ecbf9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCurrentSelection, GetCurrentSelection method [Windows Shell], GetCurrentSelection method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetCurrentSelection method, IFileDialog.GetCurrentSelection, IFileDialog::GetCurrentSelection, shell.IFileDialog_GetCurrentSelection, shell_IFileDialog_GetCurrentSelection, shobjidl_core/IFileDialog::GetCurrentSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

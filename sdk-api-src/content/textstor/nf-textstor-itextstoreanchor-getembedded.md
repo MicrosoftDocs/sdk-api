@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetEmbedded
 title: ITextStoreAnchor::GetEmbedded
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStoreAnchor::GetEmbedded method obtains an embedded object from a text stream.
 old-location: tsf\itextstoreanchor_getembedded.htm
 old-project: TSF
 ms.assetid: 212286e1-aafa-4368-8dd3-45a0d4c6ecb9
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVICE_DATAOBJECT, GetEmbedded, GetEmbedded method [Text Services Framework], GetEmbedded method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetEmbedded method, ITextStoreAnchor.GetEmbedded, ITextStoreAnchor::GetEmbedded, textstor/ITextStoreAnchor::GetEmbedded, tsf.itextstoreanchor_getembedded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

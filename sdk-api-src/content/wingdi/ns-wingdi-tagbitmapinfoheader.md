@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagBITMAPINFOHEADER
 title: tagBITMAPINFOHEADER
-author: windows-driver-content
+author: windows-sdk-content
 description: The BITMAPINFOHEADER structure contains information about the dimensions and color format of a device-independent bitmap (DIB).
 old-location: dshow\bitmapinfoheader.htm
 old-project: DirectShow
 ms.assetid: 153c08a8-d32c-4e9d-9da9-b915eb172327
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPBITMAPINFOHEADER, *PBITMAPINFOHEADER, BITMAPINFOHEADER, BITMAPINFOHEADER structure [DirectShow], BITMAPINFOHEADERStructure, BI_BITFIELDS, BI_RGB, dshow.bitmapinfoheader, tagBITMAPINFOHEADER, wingdi/BITMAPINFOHEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 

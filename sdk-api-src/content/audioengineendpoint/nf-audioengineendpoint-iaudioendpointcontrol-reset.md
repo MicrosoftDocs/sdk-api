@@ -1,16 +1,16 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointControl.Reset
 title: IAudioEndpointControl::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the endpoint stream.
 old-location: termserv\iaudioendpointcontrol_reset.htm
 old-project: TermServ
 ms.assetid: f21a245c-b47b-425d-8054-330e265f16f1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAudioEndpointControl interface [Remote Desktop Services],Reset method, IAudioEndpointControl.Reset, IAudioEndpointControl::Reset, Reset, Reset method [Remote Desktop Services], Reset method [Remote Desktop Services],IAudioEndpointControl interface, audioengineendpoint/IAudioEndpointControl::Reset, termserv.iaudioendpointcontrol_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 

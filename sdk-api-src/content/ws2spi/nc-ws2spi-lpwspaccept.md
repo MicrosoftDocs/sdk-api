@@ -1,16 +1,16 @@
 ---
 UID: NC:ws2spi.LPWSPACCEPT
 title: LPWSPACCEPT
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSPAccept function conditionally accepts a connection based on the return value of a condition function.
 old-location: winsock\wspaccept_2.htm
 old-project: WinSock
 ms.assetid: d73aa3a8-cef5-485d-b2ba-b2fe42ab6200
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: LPWSPACCEPT, WSPAccept, WSPAccept function [Winsock], _win32_wspaccept_2, winsock.wspaccept_2, ws2spi/WSPAccept
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

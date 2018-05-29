@@ -1,16 +1,16 @@
 ---
 UID: NS:ndattrib.tagSOCK_ADDR
 title: tagSOCK_ADDR
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores an Internet Protocol (IP) address for a computer that is participating in a Windows Sockets communication.
 old-location: ndf\diag_sockaddr.htm
 old-project: NDF
 ms.assetid: 31da9541-e7d0-4cbc-9d9d-3bcf71acb975
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PDIAG_SOCK_ADDR, DIAG_SOCKADDR, DIAG_SOCKADDR structure [NDF], PDIAG_SOCKADDR, PDIAG_SOCKADDR structure pointer [NDF], ndattrib/DIAG_SOCKADDR, ndattrib/PDIAG_SOCKADDR, ndf.diag_sockaddr, tagSOCK_ADDR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndattrib.h
 req.include-header: NDHelper.h

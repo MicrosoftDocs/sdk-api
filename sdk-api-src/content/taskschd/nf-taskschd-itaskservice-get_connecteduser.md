@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskService.get_ConnectedUser
 title: ITaskService::get_ConnectedUser
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name of the user that is connected to the Task Scheduler service.
 old-location: taskschd\itaskservice_connecteduser.htm
 old-project: TaskSchd
 ms.assetid: 2fdff427-a363-4ce2-b1fe-a1ed945cae8b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ConnectedUser property [Task Scheduler], ConnectedUser property [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],ConnectedUser property, ITaskService.ConnectedUser, ITaskService.get_ConnectedUser, ITaskService::ConnectedUser, ITaskService::get_ConnectedUser, get_ConnectedUser, taskschd.itaskservice_connecteduser, taskschd/ITaskService::ConnectedUser, taskschd/ITaskService::get_ConnectedUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

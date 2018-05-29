@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventSubscription.PutSubscriberProperty
 title: IEventSubscription::PutSubscriberProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes a property and its value to the property bag to define subscriber context.
 old-location: cos\ieventsubscription_putsubscriberproperty.htm
 old-project: cossdk
 ms.assetid: 817ee07c-32ea-41a4-a871-370c06bfc8a8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEventSubscription interface [COM+],PutSubscriberProperty method, IEventSubscription.PutSubscriberProperty, IEventSubscription::PutSubscriberProperty, PutSubscriberProperty, PutSubscriberProperty method [COM+], PutSubscriberProperty method [COM+],IEventSubscription interface, _cos_IEventSubscription_PutSubscriberProperty, cos.ieventsubscription_putsubscriberproperty, eventsys/IEventSubscription::PutSubscriberProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

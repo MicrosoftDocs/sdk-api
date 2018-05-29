@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_CREATE_CLUSTER_CNOLESS
 title: PCLUSAPI_CREATE_CLUSTER_CNOLESS
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a cluster without cluster name and IP Address resources.
 old-location: mscs\createclustercnoless.htm
 old-project: MsCS
 ms.assetid: AED4CDC5-BE90-4F34-A8E2-DFD0617BC65B
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_CREATE_CLUSTER_CNOLESS, PCLUSAPI_CREATE_CLUSTER_CNOLESS callback, PCLUSAPI_CREATE_CLUSTER_CNOLESS callback function [Failover Cluster], clusapi/PCLUSAPI_CREATE_CLUSTER_CNOLESS, mscs.createclustercnoless
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

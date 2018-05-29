@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.tapiGetLocationInfo
 title: tapiGetLocationInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The tapiGetLocationInfo function returns the country or region code and city (area) code that the user has set in the current location parameters in the Telephony Control Panel.
 old-location: tapi2\tapigetlocationinfo.htm
 old-project: Tapi
 ms.assetid: c7c83cb7-3fd6-4dbb-8510-2c9afcc7015c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_tapigetlocationinfo, tapi/tapiGetLocationInfo, tapi/tapiGetLocationInfoA, tapi/tapiGetLocationInfoW, tapi2.tapigetlocationinfo, tapiGetLocationInfo, tapiGetLocationInfo function [TAPI 2.2], tapiGetLocationInfoA, tapiGetLocationInfoW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

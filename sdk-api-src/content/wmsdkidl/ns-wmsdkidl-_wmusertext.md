@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl._WMUserText
 title: "_WMUserText"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WM_USER_TEXT structure is used as the data item for the WM/Text complex metadata attribute.
 old-location: wmformat\wm_user_text.htm
 old-project: wmformat
 ms.assetid: 49a8faf1-2af4-4c47-bbac-d8745c0f60a1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WM_USER_TEXT, WM_USER_TEXT structure [windows Media Format], _WMUserText, wmformat.wm_user_text, wmsdkidl/WM_USER_TEXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

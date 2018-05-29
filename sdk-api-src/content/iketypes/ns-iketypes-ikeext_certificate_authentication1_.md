@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_AUTHENTICATION1_
 title: IKEEXT_CERTIFICATE_AUTHENTICATION1_
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to specify various parameters for authentication with certificates.
 old-location: fwp\ikeext_certificate_authentication1.htm
 old-project: FWP
 ms.assetid: 45325f89-b5c9-4f8c-b9b0-4f0b01b34aab
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_CERTIFICATE_AUTHENTICATION1, IKEEXT_CERTIFICATE_AUTHENTICATION1 structure [Filtering], IKEEXT_CERTIFICATE_AUTHENTICATION1_, IKEEXT_CERT_AUTH_ALLOW_HTTP_CERT_LOOKUP, IKEEXT_CERT_AUTH_DISABLE_SSL_CERT_VALIDATION, IKEEXT_CERT_AUTH_ENABLE_CRL_CHECK_STRONG, IKEEXT_CERT_AUTH_FLAG_DISABLE_CRL_CHECK, IKEEXT_CERT_AUTH_FLAG_SSL_ONE_WAY, IKEEXT_CERT_AUTH_URL_CONTAINS_BUNDLE, fwp.ikeext_certificate_authentication1, iketypes/IKEEXT_CERTIFICATE_AUTHENTICATION1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

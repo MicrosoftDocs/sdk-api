@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFGetTimerPeriodicity
 title: MFGetTimerPeriodicity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the timer interval for the MFAddPeriodicCallback function.
 old-location: mf\mfgettimerperiodicity.htm
 old-project: medfound
 ms.assetid: 19d7ae7e-7ae3-474d-8111-3b60b9adb918
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 19d7ae7e-7ae3-474d-8111-3b60b9adb918, MFGetTimerPeriodicity, MFGetTimerPeriodicity function [Media Foundation], mf.mfgettimerperiodicity, mfapi/MFGetTimerPeriodicity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

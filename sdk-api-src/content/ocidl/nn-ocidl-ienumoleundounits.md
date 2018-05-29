@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IEnumOleUndoUnits
 title: IEnumOleUndoUnits
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the undo units on the undo or redo stack.
 old-location: com\ienumoleundounits.htm
 old-project: com
 ms.assetid: f43cbd9d-d91b-4230-816f-693dec7056a4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumOleUndoUnits, IEnumOleUndoUnits interface [COM], IEnumOleUndoUnits interface [COM],described, _ole_ienumoleundounits, com.ienumoleundounits, ocidl/IEnumOleUndoUnits
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

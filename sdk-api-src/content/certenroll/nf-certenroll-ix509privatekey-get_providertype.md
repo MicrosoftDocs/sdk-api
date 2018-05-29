@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_ProviderType
 title: IX509PrivateKey::get_ProviderType
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies or retrieves the type of cryptographic provider associated with the private key.
 old-location: security\ix509privatekey_providertype.htm
 old-project: SecCertEnroll
 ms.assetid: 5f4d2e29-8c02-4d9c-a3a6-15c222650c3e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509PrivateKey interface [Security],ProviderType property, IX509PrivateKey.ProviderType, IX509PrivateKey.get_ProviderType, IX509PrivateKey::ProviderType, IX509PrivateKey::get_ProviderType, IX509PrivateKey::put_ProviderType, ProviderType property [Security], ProviderType property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::ProviderType, certenroll/IX509PrivateKey::get_ProviderType, certenroll/IX509PrivateKey::put_ProviderType, get_ProviderType, security.ix509privatekey_providertype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

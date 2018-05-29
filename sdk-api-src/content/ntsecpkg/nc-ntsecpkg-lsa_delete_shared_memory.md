@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_DELETE_SHARED_MEMORY
 title: LSA_DELETE_SHARED_MEMORY
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeleteSharedMemory function releases a section of memory that is shared by clients and a security package.
 old-location: security\deletesharedmemory.htm
 old-project: SecAuthN
 ms.assetid: 8059ff30-6301-4cf6-9620-2ba765303bb4
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DeleteSharedMemory, DeleteSharedMemory function [Security], LSA_DELETE_SHARED_MEMORY, _ssp_deletesharedmemory, ntsecpkg/DeleteSharedMemory, security.deletesharedmemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

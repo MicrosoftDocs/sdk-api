@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcSignatureRelationshipReference
 title: IOpcSignatureRelationshipReference
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a reference to a Relationships part that contains relationships that have been or will be signed.
 old-location: opc\iopcsignaturerelationshipreference.htm
 old-project: OPC
 ms.assetid: 24aebfff-6b4f-49cb-988f-670ffed7d815
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcSignatureRelationshipReference, IOpcSignatureRelationshipReference interface [Open Packaging Conventions], IOpcSignatureRelationshipReference interface [Open Packaging Conventions],described, msopc/IOpcSignatureRelationshipReference, opc.iopcsignaturerelationshipreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

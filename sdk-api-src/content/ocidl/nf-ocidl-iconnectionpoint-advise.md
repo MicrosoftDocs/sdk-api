@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IConnectionPoint.Advise
 title: IConnectionPoint::Advise
-author: windows-driver-content
+author: windows-sdk-content
 description: Establishes a connection between a connection point object and the client's sink.
 old-location: com\iconnectionpoint_advise.htm
 old-project: com
 ms.assetid: 11257f24-096c-4240-8fac-4e42a6161d66
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Advise, Advise method [COM], Advise method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],Advise method, IConnectionPoint.Advise, IConnectionPoint::Advise, _com_iconnectionpoint_advise, com.iconnectionpoint_advise, ocidl/IConnectionPoint::Advise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsvc.QueryServiceLockStatusW
 title: QueryServiceLockStatusW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the lock status of the specified service control manager database.
 old-location: base\queryservicelockstatus.htm
 old-project: Services
 ms.assetid: 5139d31b-65f1-41ba-852a-91eab1dc366e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: QueryServiceLockStatus, QueryServiceLockStatus function, QueryServiceLockStatusA, QueryServiceLockStatusW, _win32_queryservicelockstatus, base.queryservicelockstatus, winsvc/QueryServiceLockStatus, winsvc/QueryServiceLockStatusA, winsvc/QueryServiceLockStatusW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msports.ComDBClaimNextFreePort
 title: ComDBClaimNextFreePort function
-author: windows-driver-content
+author: windows-sdk-content
 description: ComDBClaimNextFreePort returns the lowest COM port number that is not already in use.
 old-location: serports\comdbclaimnextfreeport.htm
 old-project: serports
 ms.assetid: b32b42e8-d38c-4bb5-bf8a-96538a03cb5b
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: ComDBClaimNextFreePort, ComDBClaimNextFreePort function [Serial Ports], comdb_ed1e04f0-bebb-4d9f-8603-20e7d15b7644.xml, msports/ComDBClaimNextFreePort, serports.comdbclaimnextfreeport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msports.h
 req.include-header: Msports.h

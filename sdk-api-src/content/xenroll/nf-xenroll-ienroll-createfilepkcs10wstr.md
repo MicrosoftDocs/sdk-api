@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll.createFilePKCS10WStr
 title: IEnroll::createFilePKCS10WStr
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a base64-encoded PKCS #10 certificate request and saves it in a file.
 old-location: security\ienroll4_createfilepkcs10wstr.htm
 old-project: SecCrypto
 ms.assetid: 5edd54c5-9dfb-44b8-a293-4fe6a8de45e3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnroll interface [Security],createFilePKCS10WStr method, IEnroll.createFilePKCS10WStr, IEnroll::createFilePKCS10WStr, createFilePKCS10WStr, createFilePKCS10WStr method [Security], createFilePKCS10WStr method [Security],IEnroll interface, security.ienroll4_createfilepkcs10wstr, xenroll/IEnroll::createFilePKCS10WStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

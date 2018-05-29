@@ -1,16 +1,16 @@
 ---
 UID: NL:thrdbase.CThreadBase
 title: CThreadBase
-author: windows-driver-content
+author: windows-sdk-content
 description: The CThreadBase class is a base class that supplies the internal thread safety mechanisms for the WMI Provider Framework. This class is called internally.
 old-location: wmi\cthreadbase.htm
 old-project: WmiSdk
 ms.assetid: 0511cd5b-f791-4821-8d75-23b0635e2266
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "??1CThreadBase@@UAE@XZ, CThreadBase, CThreadBase class [Windows Management Instrumentation], CThreadBase class [Windows Management Instrumentation],described, thrdbase/CThreadBase, wmi.cthreadbase"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: thrdbase.h
 req.include-header: FwCommon.h

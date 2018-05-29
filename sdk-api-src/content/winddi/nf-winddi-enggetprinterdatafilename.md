@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngGetPrinterDataFileName
 title: EngGetPrinterDataFileName function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngGetPrinterDataFileName function retrieves the string name of the printer's data file.
 old-location: display\enggetprinterdatafilename.htm
 old-project: display
 ms.assetid: bfc698d9-a340-49a5-97fb-0dae92ab6f2d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngGetPrinterDataFileName, EngGetPrinterDataFileName function [Display Devices], display.enggetprinterdatafilename, gdifncs_d69cc953-8c73-4b34-af26-61f159959fa6.xml, winddi/EngGetPrinterDataFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:uianimation.IUIAnimationManager
 title: IUIAnimationManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the animation manager, which provides a central interface for creating and managing animations.
 old-location: uianimation\iuianimationmanager.htm
 old-project: UIAnimation
 ms.assetid: 21f16c65-90aa-4b1f-93bc-8ee0488c6ded
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationManager, IUIAnimationManager interface [Windows Animation], IUIAnimationManager interface [Windows Animation],described, uianimation.iuianimationmanager, uianimation/IUIAnimationManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

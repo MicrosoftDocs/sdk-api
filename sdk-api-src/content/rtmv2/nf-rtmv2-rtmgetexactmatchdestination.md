@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmGetExactMatchDestination
 title: RtmGetExactMatchDestination function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmGetExactMatchDestination function searches the routing table for a destination that exactly matches the specified network address and subnet mask. If an exact match is found, the information for that destination is returned.
 old-location: rras\rtmgetexactmatchdestination.htm
 old-project: RRAS
 ms.assetid: 0cbb24f4-30f4-41be-aea2-36474760d374
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmGetExactMatchDestination, RtmGetExactMatchDestination function [RAS], _rtmv2ref_rtmgetexactmatchdestination, rras.rtmgetexactmatchdestination, rtmv2/RtmGetExactMatchDestination
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

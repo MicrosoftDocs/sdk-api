@@ -1,16 +1,16 @@
 ---
 UID: NF:syncregistration.IRegisteredSyncProvider.Init
 title: IRegisteredSyncProvider::Init
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the synchronization provider before it is ready for a synchronization session.
 old-location: winsync\iregisteredsyncprovider_init.htm
 old-project: winsync
 ms.assetid: 1f022a6b-8f8c-4def-9ca9-dc06ec80f020
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IRegisteredSyncProvider interface [Windows Sync],Init method, IRegisteredSyncProvider.Init, IRegisteredSyncProvider::Init, Init, Init method [Windows Sync], Init method [Windows Sync],IRegisteredSyncProvider interface, syncregistration/IRegisteredSyncProvider::Init, winsync.iregisteredsyncprovider_init
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.get_CachedCurrentView
 title: IUIAutomationMultipleViewPattern::get_CachedCurrentView
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the cached control-specific identifier of the current view of the control.
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_CachedCurrentView.htm
 old-project: WinAuto
 ms.assetid: e2426af9-a704-4561-a9f7-ac47aec13f87
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedCurrentView property [Windows Accessibility], CachedCurrentView property [Windows Accessibility],IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern interface [Windows Accessibility],CachedCurrentView property, IUIAutomationMultipleViewPattern.CachedCurrentView, IUIAutomationMultipleViewPattern.get_CachedCurrentView, IUIAutomationMultipleViewPattern::CachedCurrentView, IUIAutomationMultipleViewPattern::get_CachedCurrentView, get_CachedCurrentView, uiauto.uiauto_IUIAutomationMultipleViewPattern_CachedCurrentView, uiauto_IUIAutomationMultipleViewPattern_CachedCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::CachedCurrentView, uiautomationclient/IUIAutomationMultipleViewPattern::get_CachedCurrentView, winauto.uiauto_IUIAutomationMultipleViewPattern_CachedCurrentView
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

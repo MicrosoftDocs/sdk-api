@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsDrive.SetStatus
 title: IVdsDrive::SetStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the status of the drive to the specified value.
 old-location: base\ivdsdrive_setstatus.htm
 old-project: VDS
 ms.assetid: d74f045f-7b6f-4ede-827d-f7f7486495e8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsDrive interface [VDS],SetStatus method, IVdsDrive.SetStatus, IVdsDrive::SetStatus, SetStatus, SetStatus method [VDS], SetStatus method [VDS],IVdsDrive interface, base.ivdsdrive_setstatus, vds/IVdsDrive::SetStatus, vdshwprv/IVdsDrive::SetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

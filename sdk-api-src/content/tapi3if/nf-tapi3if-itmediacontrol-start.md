@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITMediaControl.Start
 title: ITMediaControl::Start
-author: windows-driver-content
+author: windows-sdk-content
 description: The Start method starts the action at the current location.
 old-location: tapi3\itmediacontrol_start.htm
 old-project: Tapi
 ms.assetid: b6fdf0da-9e22-4c77-9cd8-6ceccba81221
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITMediaControl interface [TAPI 2.2],Start method, ITMediaControl.Start, ITMediaControl::Start, Start, Start method [TAPI 2.2], Start method [TAPI 2.2],ITMediaControl interface, _tapi3_itmediacontrol_start, tapi3.itmediacontrol_start, tapi3if/ITMediaControl::Start
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

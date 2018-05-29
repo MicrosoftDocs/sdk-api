@@ -1,16 +1,16 @@
 ---
 UID: NN:activationregistration.IActivatableClassRegistration
 title: IActivatableClassRegistration
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables getting the registration info for a class.
 old-location: winrt\iactivatableclassregistration.htm
 old-project: WinRT
 ms.assetid: 99834A2D-547B-4B04-8703-46B11E0BB812
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IActivatableClassRegistration, IActivatableClassRegistration interface [Windows Runtime], IActivatableClassRegistration interface [Windows Runtime],described, activationregistration/IActivatableClassRegistration, winrt.iactivatableclassregistration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: activationregistration.h
 req.include-header: 

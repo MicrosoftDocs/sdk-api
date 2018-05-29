@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.ScrollBar_GetRange
 title: ScrollBar_GetRange macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the range of a scroll bar.
 old-location: controls\ScrollBar_GetRange.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarmacros\scrollbar_getrange.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ScrollBar_GetRange, ScrollBar_GetRange macro [Windows Controls], _win32_ScrollBar_GetRange, _win32_ScrollBar_GetRange_cpp, controls.ScrollBar_GetRange, controls._win32_ScrollBar_GetRange, windowsx/ScrollBar_GetRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

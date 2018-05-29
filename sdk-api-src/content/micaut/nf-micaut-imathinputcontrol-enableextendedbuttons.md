@@ -1,16 +1,16 @@
 ---
 UID: NF:micaut.IMathInputControl.EnableExtendedButtons
 title: IMathInputControl::EnableExtendedButtons
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the extended set of control buttons is shown.
 old-location: tablet\imathinputcontrol_enableextendedbuttons.htm
 old-project: tablet
 ms.assetid: e8cdae54-ff0b-4361-bd38-1b99137736ab
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnableExtendedButtons, EnableExtendedButtons method [Tablet PC], EnableExtendedButtons method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],EnableExtendedButtons method, IMathInputControl.EnableExtendedButtons, IMathInputControl::EnableExtendedButtons, micaut/IMathInputControl::EnableExtendedButtons, tablet.imathinputcontrol_enableextendedbuttons
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

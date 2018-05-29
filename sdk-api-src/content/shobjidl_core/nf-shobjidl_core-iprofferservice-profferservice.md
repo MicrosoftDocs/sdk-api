@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IProfferService.ProfferService
 title: IProfferService::ProfferService
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes a service available to other objects on the same host.
 old-location: shell\IProfferService_ProfferService.htm
 old-project: shell
 ms.assetid: ebd6003d-ac8f-4e5e-9d90-c7e5688bedaa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IProfferService interface [Windows Shell],ProfferService method, IProfferService.ProfferService, IProfferService::ProfferService, ProfferService, ProfferService method [Windows Shell], ProfferService method [Windows Shell],IProfferService interface, inet_IProfferService_ProfferService, shell.IProfferService_ProfferService, shobjidl_core/IProfferService::ProfferService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

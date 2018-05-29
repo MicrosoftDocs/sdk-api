@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICPngGamaProperties
 title: WICPngGamaProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the Portable Network Graphics (PNG) gAMA chunk metadata properties.
 old-location: wic\_wic_codec_wicpnggamaproperties.htm
 old-project: wic
 ms.assetid: c70a3507-d598-4e33-872b-353389b19351
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICPngGamaGamma, WICPngGamaProperties, WICPngGamaProperties enumeration [Windows Imaging Component], _wic_codec_wicpnggamaproperties, wic._wic_codec_wicpnggamaproperties, wincodec/WICPngGamaGamma, wincodec/WICPngGamaProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

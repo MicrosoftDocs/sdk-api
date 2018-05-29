@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._KERB_SMART_CARD_LOGON
 title: "_KERB_SMART_CARD_LOGON"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a smart card logon session.
 old-location: security\kerb_smart_card_logon.htm
 old-project: SecAuthN
 ms.assetid: 1a154034-6a2d-46be-9fb6-7c7d425d12f6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PKERB_SMART_CARD_LOGON, KERB_SMART_CARD_LOGON, KERB_SMART_CARD_LOGON structure [Security], PKERB_SMART_CARD_LOGON, PKERB_SMART_CARD_LOGON structure pointer [Security], _KERB_SMART_CARD_LOGON, ntsecapi/KERB_SMART_CARD_LOGON, ntsecapi/PKERB_SMART_CARD_LOGON, security.kerb_smart_card_logon"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wofapi.WofWimAddEntry
 title: WofWimAddEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a single WIM data source to a volume such that files can be created on the volume which are stored within the WIM.
 old-location: fs\wofwimaddentry.htm
 old-project: FileIO
 ms.assetid: 53CE16AE-E14D-4E51-87E2-DDF88D5CE806
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WofWimAddEntry, WofWimAddEntry function [Files], fs.wofwimaddentry, wofapi/WofWimAddEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 

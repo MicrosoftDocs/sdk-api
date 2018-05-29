@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.ITunerCapEx
 title: ITunerCapEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information about the capabilities of a BDA device filter that represents a TV tuner. This interface extends the ITunerCap interface.
 old-location: mstv\itunercapex.htm
 old-project: mstv
 ms.assetid: 414492d0-33d5-4b39-9884-36ed44e530cd
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITunerCapEx, ITunerCapEx interface [Microsoft TV Technologies], ITunerCapEx interface [Microsoft TV Technologies],described, mstv.itunercapex, tuner/ITunerCapEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarFormatFromTokens
 title: VarFormatFromTokens function
-author: windows-driver-content
+author: windows-sdk-content
 description: Takes a tokenized format string and applies it to a variant to produce a formatted output string.
 old-location: automat\varformatfromtokens.htm
 old-project: automat
 ms.assetid: 36437d1a-970d-4a52-a8a5-1cddfe3d42f3
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarFormatFromTokens, VarFormatFromTokens function [Automation], _oa96_VarFormatFromTokens, automat.varformatfromtokens, oleauto/VarFormatFromTokens
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

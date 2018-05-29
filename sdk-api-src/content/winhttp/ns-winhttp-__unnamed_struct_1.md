@@ -1,16 +1,16 @@
 ---
 UID: NS:winhttp.__unnamed_struct_1
 title: HTTP_VERSION_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The HTTP_VERSION_INFO structure contains the global HTTP version.
 old-location: http\http_version_info.htm
 old-project: WinHttp
 ms.assetid: 2d794a99-7bd2-43ad-b826-f160bf78ccac
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: "*LPHTTP_VERSION_INFO, HTTP_VERSION_INFO, HTTP_VERSION_INFO structure [HTTP], http.http_version_info, winhttp/HTTP_VERSION_INFO, winhttp_http_version_info_structure"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winhttp.h
 req.include-header: 

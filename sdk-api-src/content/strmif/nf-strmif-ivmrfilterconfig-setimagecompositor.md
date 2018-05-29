@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.SetImageCompositor
 title: IVMRFilterConfig::SetImageCompositor
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetImageCompositor method installs an application-provided image compositor.
 old-location: dshow\ivmrfilterconfig_setimagecompositor.htm
 old-project: DirectShow
 ms.assetid: 504380d4-4df6-4b01-8db3-5c769a3d4106
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRFilterConfig interface [DirectShow],SetImageCompositor method, IVMRFilterConfig.SetImageCompositor, IVMRFilterConfig::SetImageCompositor, IVMRFilterConfigSetImageCompositor, SetImageCompositor, SetImageCompositor method [DirectShow], SetImageCompositor method [DirectShow],IVMRFilterConfig interface, dshow.ivmrfilterconfig_setimagecompositor, strmif/IVMRFilterConfig::SetImageCompositor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

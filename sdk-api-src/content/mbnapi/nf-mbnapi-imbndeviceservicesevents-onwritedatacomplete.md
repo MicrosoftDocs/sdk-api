@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnWriteDataComplete
 title: IMbnDeviceServicesEvents::OnWriteDataComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification method indicating that a device service session Write request has completed.
 old-location: mbn\imbndeviceservicesevents_onwritedatacomplete.htm
 old-project: mbn
 ms.assetid: 2C885E15-C689-4ADF-BFB0-24D03932FAC7
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnWriteDataComplete method, IMbnDeviceServicesEvents.OnWriteDataComplete, IMbnDeviceServicesEvents::OnWriteDataComplete, OnWriteDataComplete, OnWriteDataComplete method [Microsoft Broadband Networks], OnWriteDataComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onwritedatacomplete, mbnapi/IMbnDeviceServicesEvents::OnWriteDataComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

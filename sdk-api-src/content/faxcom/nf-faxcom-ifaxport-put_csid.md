@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxPort.put_Csid
 title: IFaxPort::put_Csid
-author: windows-driver-content
+author: windows-sdk-content
 description: The Csid property is a null-terminated string that contains the called station identifier (CSID) associated with the fax port.
 old-location: fax\_mfax_ifaxport_get_csid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_16ec.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Csid property [Fax Service], Csid property [Fax Service],FaxPort object, FaxPort object [Fax Service],Csid property, FaxPort.Csid, IFaxPort.put_Csid, IFaxPort::put_Csid, _mfax_ifaxport_get_csid, fax._mfax_ifaxport_get_csid, fax._mfax_ifaxport_get_csid_vb, put_Csid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

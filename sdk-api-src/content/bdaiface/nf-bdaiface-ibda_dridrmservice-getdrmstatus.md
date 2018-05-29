@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_DRIDRMService.GetDRMStatus
 title: IBDA_DRIDRMService::GetDRMStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDRMSTatus method returns the current status of the Digital Rights Management (DRM) system for a Media Transform Device (MTD) in a graph under the Protected Broadcast Device Architecture (PBDA).
 old-location: mstv\ibda_dridrmservice_getdrmstatus.htm
 old-project: mstv
 ms.assetid: 145e4716-05e1-41b8-98f3-72e719ca8b9f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDRMStatus, GetDRMStatus method [DirectShow], GetDRMStatus method [DirectShow],IBDA_DRIDRMService interface, IBDA_DRIDRMService interface [DirectShow],GetDRMStatus method, IBDA_DRIDRMService.GetDRMStatus, IBDA_DRIDRMService::GetDRMStatus, bdaiface/IBDA_DRIDRMService::GetDRMStatus, mstv.ibda_dridrmservice_getdrmstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

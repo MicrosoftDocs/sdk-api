@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.GetFolderType
 title: IShellLibrary::GetFolderType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the library's folder type.
 old-location: shell\IShellLibrary_GetFolderType.htm
 old-project: shell
 ms.assetid: 450ee4cc-5a09-4f14-832a-3982ec9de03b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFolderType, GetFolderType method [Windows Shell], GetFolderType method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetFolderType method, IShellLibrary.GetFolderType, IShellLibrary::GetFolderType, _shell_IShellLibrary_GetFolderType, shell.IShellLibrary_GetFolderType, shobjidl_core/IShellLibrary::GetFolderType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

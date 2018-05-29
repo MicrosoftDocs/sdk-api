@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidGenericSink2.AddFilter
 title: IMSVidGenericSink2::AddFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. .
 old-location: mstv\imsvidgenericsink2_addfilter.htm
 old-project: mstv
 ms.assetid: b0044995-5bca-4f49-a22b-00df8f73b47f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddFilter, AddFilter method [Microsoft TV Technologies], AddFilter method [Microsoft TV Technologies],IMSVidGenericSink2 interface, IMSVidGenericSink2 interface [Microsoft TV Technologies],AddFilter method, IMSVidGenericSink2.AddFilter, IMSVidGenericSink2::AddFilter, IMSVidGenericSink2AddFilter, mstv.imsvidgenericsink2_addfilter, segment/IMSVidGenericSink2::AddFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

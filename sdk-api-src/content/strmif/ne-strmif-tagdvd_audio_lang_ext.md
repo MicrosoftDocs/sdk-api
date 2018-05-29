@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif.tagDVD_AUDIO_LANG_EXT
 title: tagDVD_AUDIO_LANG_EXT
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines flags that indicate whether an audio stream contains audio language extensions.
 old-location: dshow\dvd_audio_lang_ext.htm
 old-project: DirectShow
 ms.assetid: 01d82199-18e1-4d84-add1-f4f6790155c8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_AUDIO_LANG_EXT, DVD_AUDIO_LANG_EXT , DVD_AUDIO_LANG_EXT enumeration [DirectShow], DVD_AUDIO_LANG_EXTEnumeration, DVD_AUD_EXT_Captions, DVD_AUD_EXT_DirectorComments1, DVD_AUD_EXT_DirectorComments2, DVD_AUD_EXT_NotSpecified, DVD_AUD_EXT_VisuallyImpaired, dshow.dvd_audio_lang_ext, strmif/DVD_AUDIO_LANG_EXT, strmif/DVD_AUD_EXT_Captions, strmif/DVD_AUD_EXT_DirectorComments1, strmif/DVD_AUD_EXT_DirectorComments2, strmif/DVD_AUD_EXT_NotSpecified, strmif/DVD_AUD_EXT_VisuallyImpaired, tagDVD_AUDIO_LANG_EXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

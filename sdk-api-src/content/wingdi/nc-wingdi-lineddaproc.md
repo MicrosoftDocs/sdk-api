@@ -1,16 +1,16 @@
 ---
 UID: NC:wingdi.LINEDDAPROC
 title: LINEDDAPROC
-author: windows-driver-content
+author: windows-sdk-content
 description: The LineDDAProc function is an application-defined callback function used with the LineDDA function.
 old-location: gdi\lineddaproc.htm
 old-project: gdi
 ms.assetid: 4a8b1120-4b0b-4029-8b49-4371c0627bba
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LineDDAProc, LineDDAProc callback, LineDDAProc callback function [Windows GDI], _win32_LineDDAProc, gdi.lineddaproc, wingdi/LineDDAProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wingdi.h
 req.include-header: Windows.h

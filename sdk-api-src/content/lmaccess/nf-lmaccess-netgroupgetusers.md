@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetGroupGetUsers
 title: NetGroupGetUsers function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetGroupGetUsers function retrieves a list of the members in a particular global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netgroupgetusers.htm
 old-project: NetMgmt
 ms.assetid: a9bcb806-f44c-4db2-9644-06687b31405d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0, 1, NetGroupGetUsers, NetGroupGetUsers function [Network Management], _win32_netgroupgetusers, lmaccess/NetGroupGetUsers, netmgmt.netgroupgetusers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

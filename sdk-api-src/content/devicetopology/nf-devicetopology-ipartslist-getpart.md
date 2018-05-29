@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IPartsList.GetPart
 title: IPartsList::GetPart
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPart method gets a part from the parts list.
 old-location: coreaudio\ipartslist_getpart.htm
 old-project: CoreAudio
 ms.assetid: 505e2412-2849-4e64-9751-ce68831823b8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetPart, GetPart method [Core Audio], GetPart method [Core Audio],IPartsList interface, IPartsList interface [Core Audio],GetPart method, IPartsList.GetPart, IPartsList::GetPart, IPartsListGetPart, coreaudio.ipartslist_getpart, devicetopology/IPartsList::GetPart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

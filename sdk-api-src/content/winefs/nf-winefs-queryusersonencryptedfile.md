@@ -1,16 +1,16 @@
 ---
 UID: NF:winefs.QueryUsersOnEncryptedFile
 title: QueryUsersOnEncryptedFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of users for the specified file.
 old-location: fs\queryusersonencryptedfile.htm
 old-project: FileIO
 ms.assetid: 1bdab753-e7f2-4c08-8b37-3903c0842227
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: QueryUsersOnEncryptedFile, QueryUsersOnEncryptedFile function [Files], _win32_queryusersonencryptedfile, base.queryusersonencryptedfile, fs.queryusersonencryptedfile, winefs/QueryUsersOnEncryptedFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winefs.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_Encoder.EnumVideoCapability
 title: IBDA_Encoder::EnumVideoCapability
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets one of the video formats supported by the device.
 old-location: mstv\ibda_encoder_enumvideocapability.htm
 old-project: mstv
 ms.assetid: 81a780d3-1b1c-4c9a-9b4b-cb82f83fb7d6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnumVideoCapability, EnumVideoCapability method [Microsoft TV Technologies], EnumVideoCapability method [Microsoft TV Technologies],IBDA_Encoder interface, IBDA_Encoder interface [Microsoft TV Technologies],EnumVideoCapability method, IBDA_Encoder.EnumVideoCapability, IBDA_Encoder::EnumVideoCapability, PBDA_Encoder_Video_AVC, PBDA_Encoder_Video_H264, PBDA_Encoder_Video_MPEG2PartII, PBDA_Encoder_Video_MPEG4Part10, bdaiface/IBDA_Encoder::EnumVideoCapability, mstv.ibda_encoder_enumvideocapability
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

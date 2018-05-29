@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IOverlay.GetDefaultColorKey
 title: IOverlay::GetDefaultColorKey
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDefaultColorKey method retrieves the default color key used for a chroma key overlay.
 old-location: dshow\ioverlay_getdefaultcolorkey.htm
 old-project: DirectShow
 ms.assetid: d3aec72f-472e-44fa-bbd8-81e64732e5bc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDefaultColorKey, GetDefaultColorKey method [DirectShow], GetDefaultColorKey method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetDefaultColorKey method, IOverlay.GetDefaultColorKey, IOverlay::GetDefaultColorKey, IOverlayGetDefaultColorKey, dshow.ioverlay_getdefaultcolorkey, strmif/IOverlay::GetDefaultColorKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

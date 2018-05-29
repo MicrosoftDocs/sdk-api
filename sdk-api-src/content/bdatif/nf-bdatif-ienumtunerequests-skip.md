@@ -1,16 +1,16 @@
 ---
 UID: NF:bdatif.IEnumTuneRequests.Skip
 title: IEnumTuneRequests::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: The Skip method skips over the specified number of items in the collection.
 old-location: mstv\ienumtunerequests_skip.htm
 old-project: mstv
 ms.assetid: 43ed5c7e-2d31-417e-9d87-c3100e5096d0
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Skip method, IEnumTuneRequests.Skip, IEnumTuneRequests::Skip, IEnumTuneRequestsSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Skip, mstv.ienumtunerequests_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

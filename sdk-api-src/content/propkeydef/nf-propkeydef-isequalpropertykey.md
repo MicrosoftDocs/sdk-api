@@ -1,16 +1,16 @@
 ---
 UID: NF:propkeydef.IsEqualPropertyKey
 title: IsEqualPropertyKey macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares the members of two PROPERTYKEY structures and returns whether they are equal.
 old-location: shell\IsEqualPropertyKey.htm
 old-project: shell
 ms.assetid: 89218de5-95c8-440a-bde1-e4a0bc0d0549
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IsEqualPropertyKey, IsEqualPropertyKey macro [Windows Shell], _shell_IsEqualPropertyKey, propkeydef/IsEqualPropertyKey, shell.IsEqualPropertyKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: propkeydef.h
 req.include-header: 

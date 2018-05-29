@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHBrowseForFolderA
 title: SHBrowseForFolderA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays a dialog box that enables the user to select a Shell folder.
 old-location: shell\SHBrowseForFolder.htm
 old-project: shell
 ms.assetid: 2cf3a6d2-d3f7-423d-80b1-f530b268190c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHBrowseForFolder, SHBrowseForFolder function [Windows Shell], SHBrowseForFolderA, SHBrowseForFolderW, _win32_SHBrowseForFolder, shell.SHBrowseForFolder, shlobj_core/SHBrowseForFolder, shlobj_core/SHBrowseForFolderA, shlobj_core/SHBrowseForFolderW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h

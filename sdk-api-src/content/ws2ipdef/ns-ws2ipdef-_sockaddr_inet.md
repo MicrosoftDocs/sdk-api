@@ -1,16 +1,16 @@
 ---
 UID: NS:ws2ipdef._SOCKADDR_INET
 title: "_SOCKADDR_INET"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains an IPv4, an IPv6 address, or an address family.
 old-location: iphlp\sockaddr_inet.htm
 old-project: IpHlp
 ms.assetid: 7278dcb4-65c6-4aea-a474-cb7fae4d7672
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PSOCKADDR_INET, AF_INET, AF_INET6, AF_UNSPEC, PSOCKADDR_INET, PSOCKADDR_INET union pointer [IP Helper], SOCKADDR_INET, SOCKADDR_INET union [IP Helper], _SOCKADDR_INET, iphlp.sockaddr_inet, ws2ipdef/PSOCKADDR_INET, ws2ipdef/SOCKADDR_INET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h

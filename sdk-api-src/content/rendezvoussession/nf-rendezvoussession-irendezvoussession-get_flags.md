@@ -1,16 +1,16 @@
 ---
 UID: NF:rendezvoussession.IRendezvousSession.get_Flags
 title: IRendezvousSession::get_Flags
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a value that indicates session information. For example, the session flag can indicate whether the user is the inviter or the invitee.
 old-location: remoteassist\remoteassist_IRendezvousSession_Flags.htm
 old-project: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\flags.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Flags property [Remote Assistance], Flags property [Remote Assistance],IRendezvousSession interface, IRendezvousSession interface [Remote Assistance],Flags property, IRendezvousSession.Flags, IRendezvousSession.get_Flags, IRendezvousSession::Flags, IRendezvousSession::get_Flags, get_Flags, remoteassist.remoteassist_IRendezvousSession_Flags, remoteassist_IRendezvousSession_Flags, rendezvoussession/IRendezvousSession::Flags, rendezvoussession/IRendezvousSession::get_Flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rendezvoussession.h
 req.include-header: 

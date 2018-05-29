@@ -1,16 +1,16 @@
 ---
 UID: NN:adhoc.IDot11AdHocNetworkNotificationSink
 title: IDot11AdHocNetworkNotificationSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the notifications supported by the IDot11AdHocNetwork interface.
 old-location: nwifi\idot11adhocnetworknotificationsink.htm
 old-project: NativeWiFi
 ms.assetid: 54a45431-8036-4a3f-9558-467a1efab6bb
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: IDot11AdHocNetworkNotificationSink, IDot11AdHocNetworkNotificationSink interface [NativeWIFI], IDot11AdHocNetworkNotificationSink interface [NativeWIFI],described, adhoc/IDot11AdHocNetworkNotificationSink, nwifi.idot11adhocnetworknotificationsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: adhoc.h
 req.include-header: 

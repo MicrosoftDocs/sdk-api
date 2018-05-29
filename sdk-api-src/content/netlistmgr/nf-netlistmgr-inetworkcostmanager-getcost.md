@@ -1,16 +1,16 @@
 ---
 UID: NF:netlistmgr.INetworkCostManager.GetCost
 title: INetworkCostManager::GetCost
-author: windows-driver-content
+author: windows-sdk-content
 description: GetCost method retrieves the current cost of either a machine-wide internet connection, or the first-hop of routing to a specific destination on a connection.
 old-location: nla\inetworkcostmanager_getcost.htm
 old-project: NLA
 ms.assetid: F0690CD5-0BC9-4042-9A38-17B48761034F
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCost, GetCost method [Network Awareness], GetCost method [Network Awareness],INetworkCostManager interface, INetworkCostManager interface [Network Awareness],GetCost method, INetworkCostManager.GetCost, INetworkCostManager::GetCost, netlistmgr/INetworkCostManager::GetCost, nla.inetworkcostmanager_getcost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

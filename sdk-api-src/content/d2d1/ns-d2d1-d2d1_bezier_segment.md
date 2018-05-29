@@ -1,16 +1,16 @@
 ---
 UID: NS:d2d1.D2D1_BEZIER_SEGMENT
 title: D2D1_BEZIER_SEGMENT
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a cubic bezier segment drawn between two points.
 old-location: direct2d\D2D1_BEZIER_SEGMENT.htm
 old-project: Direct2D
 ms.assetid: cf8df7d2-c4fe-4a46-a4b2-7e0eed67df2a
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_BEZIER_SEGMENT, D2D1_BEZIER_SEGMENT structure [Direct2D], d2d1/D2D1_BEZIER_SEGMENT, direct2d.D2D1_BEZIER_SEGMENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1.h
 req.include-header: 

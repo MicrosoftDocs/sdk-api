@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreateOffscreenPlainSurface
 title: IDirect3DDevice9::CreateOffscreenPlainSurface
-author: windows-driver-content
+author: windows-sdk-content
 description: Create an off-screen surface.
 old-location: direct3d9\idirect3ddevice9__createoffscreenplainsurface.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createoffscreenplainsurface.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: CreateOffscreenPlainSurface, CreateOffscreenPlainSurface method [Direct3D 9], CreateOffscreenPlainSurface method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateOffscreenPlainSurface method, IDirect3DDevice9.CreateOffscreenPlainSurface, IDirect3DDevice9::CreateOffscreenPlainSurface, d3d9helper/IDirect3DDevice9::CreateOffscreenPlainSurface, direct3d9.idirect3ddevice9__createoffscreenplainsurface, f714d72c-a698-e4b2-14cb-1951e38364a8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

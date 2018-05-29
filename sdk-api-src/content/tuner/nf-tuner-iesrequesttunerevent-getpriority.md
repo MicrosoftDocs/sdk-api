@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESRequestTunerEvent.GetPriority
 title: IESRequestTunerEvent::GetPriority
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a code that indicates the priority of a device request for exclusive access to a tuner and its Conditional Access Services (CAS).
 old-location: mstv\iesrequesttunerevent_getpriority.htm
 old-project: mstv
 ms.assetid: a0edc656-0628-4020-bf8e-a5cd0bedd7c3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPriority, GetPriority method [Microsoft TV Technologies], GetPriority method [Microsoft TV Technologies],IESRequestTunerEvent interface, IESRequestTunerEvent interface [Microsoft TV Technologies],GetPriority method, IESRequestTunerEvent.GetPriority, IESRequestTunerEvent::GetPriority, mstv.iesrequesttunerevent_getpriority, tuner/IESRequestTunerEvent::GetPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

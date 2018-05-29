@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IExtractImage2.GetDateStamp
 title: IExtractImage2::GetDateStamp
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests the date the image was last modified. This method allows the Shell to determine whether cached images are out-of-date.
 old-location: shell\IExtractImage2_GetDateStamp.htm
 old-project: shell
 ms.assetid: dca5fe16-bf83-4426-af2a-9a205f4ebd57
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDateStamp, GetDateStamp method [Windows Shell], GetDateStamp method [Windows Shell],IExtractImage2 interface, IExtractImage2 interface [Windows Shell],GetDateStamp method, IExtractImage2.GetDateStamp, IExtractImage2::GetDateStamp, _win32_IExtractImage2_GetDateStamp, shell.IExtractImage2_GetDateStamp, shobjidl_core/IExtractImage2::GetDateStamp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch5.WindowSwitcher
 title: IShellDispatch5::WindowSwitcher
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays your open windows in a 3D stack that you can flip through.
 old-location: shell\IShellDispatch5_WindowSwitcher.htm
 old-project: shell
 ms.assetid: 44a6411c-bcbc-4ef6-b5dc-7bdb4d482c6a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellDispatch5 object [Windows Shell],WindowSwitcher method, IShellDispatch5.WindowSwitcher, IShellDispatch5::WindowSwitcher, WindowSwitcher, WindowSwitcher method [Windows Shell], WindowSwitcher method [Windows Shell],IShellDispatch5 object, _shell_IShellDispatch5_WindowSwitcher, shell.IShellDispatch5_WindowSwitcher
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

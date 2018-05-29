@@ -1,16 +1,16 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest3Callback.OnServerCertificateReceived
 title: IXMLHTTPRequest3Callback::OnServerCertificateReceived
-author: windows-driver-content
+author: windows-sdk-content
 description: Occurs when a client receives certificate errors or a server certificate chain during SSL negotiation with the server.
 old-location: ixhr2\ixmlhttprequest3callback_onservercertificatereceived.htm
 old-project: ixhr2
 ms.assetid: 5b00ab76-880b-4450-a6b2-fda399cc9e8b
-ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.author: windowssdkdev
+ms.date: 04/02/2018
 ms.keywords: IXMLHTTPRequest3Callback interface [XMLHttpRequest2],OnServerCertificateReceived method, IXMLHTTPRequest3Callback.OnServerCertificateReceived, IXMLHTTPRequest3Callback::OnServerCertificateReceived, OnServerCertificateReceived, OnServerCertificateReceived method [XMLHttpRequest2], OnServerCertificateReceived method [XMLHttpRequest2],IXMLHTTPRequest3Callback interface, ixhr2.ixmlhttprequest3callback_onservercertificatereceived, msxml6/IXMLHTTPRequest3Callback::OnServerCertificateReceived
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 

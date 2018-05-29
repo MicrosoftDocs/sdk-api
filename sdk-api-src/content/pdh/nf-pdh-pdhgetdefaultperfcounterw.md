@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhGetDefaultPerfCounterW
 title: PdhGetDefaultPerfCounterW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the name of the default counter for the specified object. This name can be used to set the initial counter selection in the Browse Counter dialog box. To use handles to data sources, use the PdhGetDefaultPerfCounterH function.
 old-location: perf\pdhgetdefaultperfcounter.htm
 old-project: PerfCtrs
 ms.assetid: 0eb78071-3496-40e9-91b0-3c06547c88d5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhGetDefaultPerfCounter, PdhGetDefaultPerfCounter function [Perf], PdhGetDefaultPerfCounterA, PdhGetDefaultPerfCounterW, _win32_pdhgetdefaultperfcounter, base.pdhgetdefaultperfcounter, pdh/PdhGetDefaultPerfCounter, pdh/PdhGetDefaultPerfCounterA, pdh/PdhGetDefaultPerfCounterW, perf.pdhgetdefaultperfcounter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

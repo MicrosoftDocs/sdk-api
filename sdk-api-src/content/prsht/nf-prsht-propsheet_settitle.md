@@ -1,16 +1,16 @@
 ---
 UID: NF:prsht.PropSheet_SetTitle
 title: PropSheet_SetTitle macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the title of a property sheet. You can use this macro or send the PSM_SETTITLE message explicitly.
 old-location: controls\PropSheet_SetTitle.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_settitle.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropSheet_SetTitle, PropSheet_SetTitle macro [Windows Controls], _win32_PropSheet_SetTitle, _win32_PropSheet_SetTitle_cpp, controls.PropSheet_SetTitle, controls._win32_PropSheet_SetTitle, prsht/PropSheet_SetTitle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

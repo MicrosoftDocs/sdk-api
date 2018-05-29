@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetSearchPathMode
 title: SetSearchPathMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the per-process mode that the SearchPath function uses when locating files.
 old-location: fs\setsearchpathmode.htm
 old-project: FileIO
 ms.assetid: 1874933d-92c3-4945-a3e4-e6dede232d5e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: BASE_SEARCH_PATH_DISABLE_SAFE_SEARCHMODE, BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE, BASE_SEARCH_PATH_PERMANENT, SetSearchPathMode, SetSearchPathMode function [Files], fs.setsearchpathmode, winbase/SetSearchPathMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

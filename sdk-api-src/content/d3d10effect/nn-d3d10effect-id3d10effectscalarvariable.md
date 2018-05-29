@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectScalarVariable
 title: ID3D10EffectScalarVariable
-author: windows-driver-content
+author: windows-sdk-content
 description: An effect-scalar-variable interface accesses scalar values.
 old-location: direct3d10\id3d10effectscalarvariable.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 0954ac9f-acd1-fb91-e361-0b5644656816, ID3D10EffectScalarVariable, ID3D10EffectScalarVariable interface [Direct3D 10], ID3D10EffectScalarVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectScalarVariable, direct3d10.id3d10effectscalarvariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemContext.DeleteAll
 title: IWbemContext::DeleteAll
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemContext::DeleteAll method removes all named context values from the current object, thus emptying the object.
 old-location: wmi\iwbemcontext_deleteall.htm
 old-project: WmiSdk
 ms.assetid: 980a5906-dc00-42fe-83f0-9fb476e766d7
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: DeleteAll, DeleteAll method [Windows Management Instrumentation], DeleteAll method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],DeleteAll method, IWbemContext.DeleteAll, IWbemContext::DeleteAll, _hmm_iwbemcontext_deleteall, wbemcli/IWbemContext::DeleteAll, wmi.iwbemcontext_deleteall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

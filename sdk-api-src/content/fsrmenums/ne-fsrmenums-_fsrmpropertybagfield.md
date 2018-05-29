@@ -1,16 +1,16 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyBagField
 title: "_FsrmPropertyBagField"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the type of property bag.
 old-location: fsrm\fsrmpropertybagfield.htm
 old-project: Fsrm
 ms.assetid: 7a8cd6a6-7933-4190-b4fc-1b1cd653bd14
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: FsrmPropertyBagField, FsrmPropertyBagField enumeration [File Server Resource Manager], FsrmPropertyBagField_AccessVolume, FsrmPropertyBagField_VolumeGuidName, _FsrmPropertyBagField, fs.fsrmpropertybagfield, fsrm.fsrmpropertybagfield, fsrmenums/FsrmPropertyBagField, fsrmenums/FsrmPropertyBagField_AccessVolume, fsrmenums/FsrmPropertyBagField_VolumeGuidName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

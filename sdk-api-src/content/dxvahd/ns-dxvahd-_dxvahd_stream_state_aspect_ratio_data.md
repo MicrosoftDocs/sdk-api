@@ -1,16 +1,16 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA
 title: "_DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the pixel aspect ratio (PAR) for the source and destination rectangles.
 old-location: mf\dxvahd_stream_state_aspect_ratio_data.htm
 old-project: medfound
 ms.assetid: dd7ab16e-2dc6-462e-b55d-b93a14c362cf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA structure [Media Foundation], PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA structure pointer [Media Foundation], _DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, dxvahd/DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, dxvahd/PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA, mf.dxvahd_stream_state_aspect_ratio_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

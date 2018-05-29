@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.GetContentRect
 title: IDirectManipulationContent::GetContentRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the bounding rectangle of the content, relative to the bounding rectangle of the viewport (if defined).
 old-location: directmanipulation\idirectmanipulationcontent_getcontentrect.htm
 old-project: directmanipulation
 ms.assetid: 26a5736e-633e-4451-a339-c5f88913bcf6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetContentRect, GetContentRect method [Direct Manipulation], GetContentRect method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetContentRect method, IDirectManipulationContent.GetContentRect, IDirectManipulationContent::GetContentRect, directmanipulation.idirectmanipulationcontent_getcontentrect, directmanipulation/IDirectManipulationContent::GetContentRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

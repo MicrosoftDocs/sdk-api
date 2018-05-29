@@ -1,16 +1,16 @@
 ---
 UID: NN:scesvc.ISceSvcAttachmentPersistInfo
 title: ISceSvcAttachmentPersistInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The ISceSvcAttachmentPersistInfo interface retrieves any modified configuration or analysis information from an attachment snap-in.
 old-location: security\iscesvcattachmentpersistinfo.htm
 old-project: SecMgmt
 ms.assetid: 3cd4bde2-55f6-4ab1-b175-7689b0cc529b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ISceSvcAttachmentPersistInfo, ISceSvcAttachmentPersistInfo interface [Security], ISceSvcAttachmentPersistInfo interface [Security],described, _config_iscesvcattachmentpersistinfo, scesvc/ISceSvcAttachmentPersistInfo, security.iscesvcattachmentpersistinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: scesvc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetMessageDrain
 title: IFullScreenVideoEx::GetMessageDrain
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetMessageDrain method retrieves the window that receives mouse and keyboard messages, if any.
 old-location: dshow\ifullscreenvideoex_getmessagedrain.htm
 old-project: DirectShow
 ms.assetid: c1a83ad9-be4b-4adf-a316-d5dfb3df05ef
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetMessageDrain, GetMessageDrain method [DirectShow], GetMessageDrain method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetMessageDrain method, IFullScreenVideoEx.GetMessageDrain, IFullScreenVideoEx::GetMessageDrain, IFullScreenVideoGetMessageDrain, amvideo/IFullScreenVideoEx::GetMessageDrain, dshow.ifullscreenvideoex_getmessagedrain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

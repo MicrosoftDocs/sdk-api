@@ -1,16 +1,16 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InPlaceSizeChanged
 title: ITextInputPanelEventSink::InPlaceSizeChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: Occurs when the in-place Input Panel size has changed due to a user resize, auto growth, or an input area change.
 old-location: tablet\itextinputpaneleventsink_inplacesizechanged.htm
 old-project: tablet
 ms.assetid: dd1f7cba-0a0f-49da-ad67-5c2e01830750
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITextInputPanelEventSink interface [Tablet PC],InPlaceSizeChanged method, ITextInputPanelEventSink.InPlaceSizeChanged, ITextInputPanelEventSink::InPlaceSizeChanged, InPlaceSizeChanged, InPlaceSizeChanged method [Tablet PC], InPlaceSizeChanged method [Tablet PC],ITextInputPanelEventSink interface, dd1f7cba-0a0f-49da-ad67-5c2e01830750, peninputpanel/ITextInputPanelEventSink::InPlaceSizeChanged, tablet.itextinputpaneleventsink_inplacesizechanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

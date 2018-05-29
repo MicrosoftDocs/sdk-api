@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObject.GetXml
 title: IOpcSignatureCustomObject::GetXml
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the XML markup of an application-specific Object element.
 old-location: opc\iopcsignaturecustomobject_getxml.htm
 old-project: OPC
 ms.assetid: fedb6f47-59b9-4959-91ef-db1fb398aca9
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetXml, GetXml method [Open Packaging Conventions], GetXml method [Open Packaging Conventions],IOpcSignatureCustomObject interface, IOpcSignatureCustomObject interface [Open Packaging Conventions],GetXml method, IOpcSignatureCustomObject.GetXml, IOpcSignatureCustomObject::GetXml, msopc/IOpcSignatureCustomObject::GetXml, opc.iopcsignaturecustomobject_getxml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

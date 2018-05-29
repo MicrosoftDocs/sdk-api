@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_SYSTEM_STORE_RELOCATE_PARA
 title: "_CERT_SYSTEM_STORE_RELOCATE_PARA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CERT_SYSTEM_STORE_RELOCATE_PARA structure contains data to be passed to CertOpenStore when that function's dwFlags parameter is set to CERT_SYSTEM_STORE_RELOCATE_FLAG.
 old-location: security\cert_system_store_relocate_para.htm
 old-project: SecCrypto
 ms.assetid: 3bcb9b64-b9cf-48b2-bfd1-0836b3d221af
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_SYSTEM_STORE_RELOCATE_PARA, CERT_SYSTEM_STORE_RELOCATE_PARA, CERT_SYSTEM_STORE_RELOCATE_PARA structure [Security], PCERT_SYSTEM_STORE_RELOCATE_PARA, PCERT_SYSTEM_STORE_RELOCATE_PARA structure pointer [Security], _CERT_SYSTEM_STORE_RELOCATE_PARA, _crypto2_cert_system_store_relocate_para, security.cert_system_store_relocate_para, wincrypt/CERT_SYSTEM_STORE_RELOCATE_PARA, wincrypt/PCERT_SYSTEM_STORE_RELOCATE_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

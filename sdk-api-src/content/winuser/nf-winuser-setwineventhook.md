@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.SetWinEventHook
 title: SetWinEventHook function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets an event hook function for a range of events.
 old-location: winauto\setwineventhook.htm
 old-project: WinAuto
 ms.assetid: 090bda1b-0635-4aa3-ae33-3987b36e30b8
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: SetWinEventHook, SetWinEventHook function [Windows Accessibility], WINEVENT_INCONTEXT, WINEVENT_OUTOFCONTEXT, WINEVENT_SKIPOWNPROCESS, WINEVENT_SKIPOWNTHREAD, _msaa_SetWinEventHook, msaa.setwineventhook, winauto.setwineventhook, winuser/SetWinEventHook
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

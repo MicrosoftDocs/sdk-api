@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFAsyncCallback.GetParameters
 title: IMFAsyncCallback::GetParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides configuration information to the dispatching thread for a callback.
 old-location: mf\imfasynccallback_getparameters.htm
 old-project: medfound
 ms.assetid: 374dd139-d3e7-45d0-a7d3-1187b928ef57
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 374dd139-d3e7-45d0-a7d3-1187b928ef57, GetParameters, GetParameters method [Media Foundation], GetParameters method [Media Foundation],IMFAsyncCallback interface, IMFAsyncCallback interface [Media Foundation],GetParameters method, IMFAsyncCallback.GetParameters, IMFAsyncCallback::GetParameters, MFASYNC_BLOCKING_CALLBACK, MFASYNC_FAST_IO_PROCESSING_CALLBACK, MFASYNC_REPLY_CALLBACK, MFASYNC_SIGNAL_CALLBACK, Zero, mf.imfasynccallback_getparameters, mfobjects/IMFAsyncCallback::GetParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:gdiplusenums.TextRenderingHint
 title: TextRenderingHint
-author: windows-driver-content
+author: windows-sdk-content
 description: The TextRenderingHint enumeration specifies the process used to render text. The process affects the quality of the text.
 old-location: gdiplus\_gdiplus_ENUM_TextRenderingHint.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\textrenderinghint.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: TextRenderingHint, TextRenderingHint enumeration [GDI+], TextRenderingHintAntiAlias, TextRenderingHintAntiAliasGridFit, TextRenderingHintClearTypeGridFit, TextRenderingHintSingleBitPerPixel, TextRenderingHintSingleBitPerPixelGridFit, TextRenderingHintSystemDefault, _gdiplus_ENUM_TextRenderingHint, gdiplus._gdiplus_ENUM_TextRenderingHint, gdiplusenums/TextRenderingHint, gdiplusenums/TextRenderingHintAntiAlias, gdiplusenums/TextRenderingHintAntiAliasGridFit, gdiplusenums/TextRenderingHintClearTypeGridFit, gdiplusenums/TextRenderingHintSingleBitPerPixel, gdiplusenums/TextRenderingHintSingleBitPerPixelGridFit, gdiplusenums/TextRenderingHintSystemDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

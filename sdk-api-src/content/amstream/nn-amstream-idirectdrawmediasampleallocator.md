@@ -1,16 +1,16 @@
 ---
 UID: NN:amstream.IDirectDrawMediaSampleAllocator
 title: IDirectDrawMediaSampleAllocator
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDirectDrawMediaSampleAllocator interface allocates samples that contain DirectDraw surfaces.The Overlay Mixer filter's input pin creates an allocator that implements this interface.
 old-location: dshow\idirectdrawmediasampleallocator.htm
 old-project: DirectShow
 ms.assetid: 35fd81ce-058a-4caf-b1de-f669be586f33
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDirectDrawMediaSampleAllocator, IDirectDrawMediaSampleAllocator interface [DirectShow], IDirectDrawMediaSampleAllocator interface [DirectShow],described, IDirectDrawMediaSampleAllocatorInterface, amstream/IDirectDrawMediaSampleAllocator, dshow.idirectdrawmediasampleallocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: amstream.h
 req.include-header: 

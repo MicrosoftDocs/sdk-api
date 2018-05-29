@@ -1,16 +1,16 @@
 ---
 UID: NS:windef.tagRECT
 title: tagRECT
-author: windows-driver-content
+author: windows-sdk-content
 description: The RECT structure defines a rectangle by the coordinates of its upper-left and lower-right corners.
 old-location: display\rect.htm
 old-project: display
 ms.assetid: a44f33f4-49b2-4a36-a7bd-fc4a9d3a3943
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPRECT, *NPRECT, *PRECT, FAR *LPRECT, FAR *LPRECT structure [Display Devices], NEAR *NPRECT, NEAR *NPRECT structure [Display Devices], PRECT, PRECT structure pointer [Display Devices], RECT, RECT structure [Display Devices], display.rect, grstrcts_9bf844e0-1ec8-4bc0-a0ce-0790a4cfc93e.xml, tagRECT, windef/FAR *LPRECT, windef/NEAR *NPRECT, windef/PRECT, windef/RECT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windef.h
 req.include-header: Windows.h

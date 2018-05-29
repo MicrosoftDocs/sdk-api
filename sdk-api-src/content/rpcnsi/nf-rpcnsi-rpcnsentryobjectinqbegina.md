@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsEntryObjectInqBeginA
 title: RpcNsEntryObjectInqBeginA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsEntryObjectInqBegin function creates an inquiry context for the objects of a name-service database entry.
 old-location: rpc\rpcnsentryobjectinqbegin.htm
 old-project: Rpc
 ms.assetid: dc667dc3-0812-43d5-adc2-aa29ee67f045
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsEntryObjectInqBegin, RpcNsEntryObjectInqBegin function [RPC], RpcNsEntryObjectInqBeginA, RpcNsEntryObjectInqBeginW, _rpc_rpcnsentryobjectinqbegin, rpc.rpcnsentryobjectinqbegin, rpcnsi/RpcNsEntryObjectInqBegin, rpcnsi/RpcNsEntryObjectInqBeginA, rpcnsi/RpcNsEntryObjectInqBeginW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

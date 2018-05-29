@@ -1,16 +1,16 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetPriority
 title: IBackgroundCopyJob::GetPriority
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the priority level for the job. The priority level determines when the job is processed relative to other jobs in the transfer queue.
 old-location: bits\ibackgroundcopyjob_getpriority.htm
 old-project: Bits
 ms.assetid: 8602ed59-a372-4cb3-bbda-cf1c7afc3669
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetPriority, GetPriority method [BITS], GetPriority method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetPriority method, IBackgroundCopyJob.GetPriority, IBackgroundCopyJob::GetPriority, _drz_ibackgroundcopyjob_getpriority, bits.ibackgroundcopyjob_getpriority, bits/IBackgroundCopyJob::GetPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 

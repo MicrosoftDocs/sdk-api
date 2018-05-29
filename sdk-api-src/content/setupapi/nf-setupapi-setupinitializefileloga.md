@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupInitializeFileLogA
 title: SetupInitializeFileLogA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupInitializeFileLog function initializes a file to record installation operations and outcomes. This can be the system log, where the system tracks the files installed as part of Windows, or any other file.
 old-location: setup\setupinitializefilelog.htm
 old-project: SetupApi
 ms.assetid: fac7abac-76a9-456a-843a-e1048df268b7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupInitializeFileLog, SetupInitializeFileLog function [Setup API], SetupInitializeFileLogA, SetupInitializeFileLogW, _setupapi_setupinitializefilelog, setup.setupinitializefilelog, setupapi/SetupInitializeFileLog, setupapi/SetupInitializeFileLogA, setupapi/SetupInitializeFileLogW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

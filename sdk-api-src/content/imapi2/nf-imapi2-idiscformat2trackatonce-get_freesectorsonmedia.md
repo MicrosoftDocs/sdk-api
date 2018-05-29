@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_FreeSectorsOnMedia
 title: IDiscFormat2TrackAtOnce::get_FreeSectorsOnMedia
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of sectors available for adding a new track to the media.
 old-location: imapi\idiscformat2trackatonce_get_freesectorsonmedia.htm
 old-project: imapi
 ms.assetid: a36dd3de-ca08-4783-beca-95813402692b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_FreeSectorsOnMedia method, IDiscFormat2TrackAtOnce.get_FreeSectorsOnMedia, IDiscFormat2TrackAtOnce::get_FreeSectorsOnMedia, get_FreeSectorsOnMedia, get_FreeSectorsOnMedia method [IMAPI], get_FreeSectorsOnMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_freesectorsonmedia, imapi2/IDiscFormat2TrackAtOnce::get_FreeSectorsOnMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

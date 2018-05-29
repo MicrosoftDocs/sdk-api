@@ -1,16 +1,16 @@
 ---
 UID: NE:callobj.CALLFRAME_FREE
 title: CALLFRAME_FREE
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the parameter type to be freed.
 old-location: com\callframe_free.htm
 old-project: com
 ms.assetid: 6a048133-7a89-4b55-afd3-5eb722d41914
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CALLFRAME_FREE, CALLFRAME_FREE enumeration [COM], CALLFRAME_FREE_ALL, CALLFRAME_FREE_IN, CALLFRAME_FREE_INOUT, CALLFRAME_FREE_NONE, CALLFRAME_FREE_OUT, CALLFRAME_FREE_TOP_INOUT, CALLFRAME_FREE_TOP_OUT, _com_CALLFRAME_FREE, callobj/CALLFRAME_FREE, callobj/CALLFRAME_FREE_ALL, callobj/CALLFRAME_FREE_IN, callobj/CALLFRAME_FREE_INOUT, callobj/CALLFRAME_FREE_NONE, callobj/CALLFRAME_FREE_OUT, callobj/CALLFRAME_FREE_TOP_INOUT, callobj/CALLFRAME_FREE_TOP_OUT, com.callframe_free
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: callobj.h
 req.include-header: 

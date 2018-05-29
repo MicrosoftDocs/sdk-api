@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.NSTCFOLDERCAPABILITIES
 title: NSTCFOLDERCAPABILITIES
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the state of a tree item. These values are used by methods of the INameSpaceTreeControlFolderCapabilities interface.
 old-location: shell\NSTCFOLDERCAPABILITIES.htm
 old-project: shell
 ms.assetid: a5282277-85f5-494e-b994-efbf1116b519
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NSTCFC_DELAY_REGISTER_NOTIFY, NSTCFC_NONE, NSTCFC_PINNEDITEMFILTERING, NSTCFOLDERCAPABILITIES, NSTCFOLDERCAPABILITIES enumeration [Windows Shell], _shell_NSTCFOLDERCAPABILITIES, shell.NSTCFOLDERCAPABILITIES, shobjidl_core/NSTCFC_DELAY_REGISTER_NOTIFY, shobjidl_core/NSTCFC_NONE, shobjidl_core/NSTCFC_PINNEDITEMFILTERING, shobjidl_core/NSTCFOLDERCAPABILITIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

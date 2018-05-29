@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_SERVICE_METADATA
 title: "_WS_SERVICE_METADATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the service metadata documents array. This can be a collection of WSDL/XSD documents represented as an array of WS_STRING.
 old-location: wsw\ws_service_metadata.htm
 old-project: wsw
 ms.assetid: f695867d-989d-41a9-ab6e-612a6ef4fb14
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SERVICE_METADATA, WS_SERVICE_METADATA structure [Web Services for Windows], _WS_SERVICE_METADATA, webservices/WS_SERVICE_METADATA, wsw.ws_service_metadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

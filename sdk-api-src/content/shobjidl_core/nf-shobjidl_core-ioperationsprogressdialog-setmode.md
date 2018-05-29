@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.SetMode
 title: IOperationsProgressDialog::SetMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets progress dialog operations mode.
 old-location: shell\IOperationsProgressDialog_SetMode.htm
 old-project: shell
 ms.assetid: ec731281-c0af-4cf6-aa63-d80a80a18c15
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],SetMode method, IOperationsProgressDialog.SetMode, IOperationsProgressDialog::SetMode, PDM_DEFAULT, PDM_ERRORSBLOCKING, PDM_INDETERMINATE, PDM_PREFLIGHT, PDM_RUN, PDM_UNDOING, SetMode, SetMode method [Windows Shell], SetMode method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_SetMode, shell.IOperationsProgressDialog_SetMode, shobjidl_core/IOperationsProgressDialog::SetMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:avrt.AvRtJoinThreadOrderingGroup
 title: AvRtJoinThreadOrderingGroup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Joins client threads to a thread ordering group.
 old-location: base\avrtjointhreadorderinggroup.htm
 old-project: ProcThread
 ms.assetid: 76e70f91-750e-49c8-8ddf-e8eddd150aa4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: AvRtJoinThreadOrderingGroup, AvRtJoinThreadOrderingGroup function, avrt/AvRtJoinThreadOrderingGroup, base.avrtjointhreadorderinggroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: avrt.h
 req.include-header: 

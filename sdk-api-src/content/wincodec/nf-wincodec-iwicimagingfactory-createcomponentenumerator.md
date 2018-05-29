@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateComponentEnumerator
 title: IWICImagingFactory::CreateComponentEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IEnumUnknown object of the specified component types.
 old-location: wic\_wic_codec_iwicimagingfactory_createcomponentenumerator.htm
 old-project: wic
 ms.assetid: 810bf0c2-2780-4ba3-84c1-7b257139e26e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateComponentEnumerator, CreateComponentEnumerator method [Windows Imaging Component], CreateComponentEnumerator method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateComponentEnumerator method, IWICImagingFactory.CreateComponentEnumerator, IWICImagingFactory::CreateComponentEnumerator, _wic_codec_iwicimagingfactory_createcomponentenumerator, wic._wic_codec_iwicimagingfactory_createcomponentenumerator, wincodec/IWICImagingFactory::CreateComponentEnumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

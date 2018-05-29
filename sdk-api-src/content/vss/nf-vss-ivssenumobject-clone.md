@@ -1,16 +1,16 @@
 ---
 UID: NF:vss.IVssEnumObject.Clone
 title: IVssEnumObject::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of the specified list of enumerated elements by creating a copy of the IVssEnumObject enumerator object.
 old-location: base\ivssenumobject_clone.htm
 old-project: VSS
 ms.assetid: 71bf3789-247e-4e3f-8200-a4309a7c2d8c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Clone, Clone method [VSS], Clone method [VSS],IVssEnumObject interface, IVssEnumObject interface [VSS],Clone method, IVssEnumObject.Clone, IVssEnumObject::Clone, _win32_ivssenumobject_clone, base.ivssenumobject_clone, vss/IVssEnumObject::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vss.h
 req.include-header: 

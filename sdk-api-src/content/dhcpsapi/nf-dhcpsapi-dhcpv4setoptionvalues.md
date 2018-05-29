@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpV4SetOptionValues
 title: DhcpV4SetOptionValues function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets option codes and their associated data values for a specific scope defined on the DHCP server. This function extends the functionality provided by DhcpSetOptionValuesV5 by allowing the caller to specify a policy for the options.
 old-location: dhcp\dhcpv4setoptionvalues.htm
 old-project: DHCP
 ms.assetid: 8c50af53-8298-401e-826e-0fb1d1410499
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpV4SetOptionValues, DhcpV4SetOptionValues function [DHCP], dhcp.dhcpv4setoptionvalues, dhcpsapi/DhcpV4SetOptionValues
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSetCallData
 title: lineSetCallData function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSetCallData function sets the CallData member in LINECALLINFO.
 old-location: tapi2\linesetcalldata.htm
 old-project: Tapi
 ms.assetid: f428f952-f8ff-4b55-a957-58fdb35a8c0e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesetcalldata, lineSetCallData, lineSetCallData function [TAPI 2.2], tapi/lineSetCallData, tapi2.linesetcalldata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

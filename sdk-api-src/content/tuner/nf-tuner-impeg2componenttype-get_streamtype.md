@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IMPEG2ComponentType.get_StreamType
 title: IMPEG2ComponentType::get_StreamType
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_StreamType method retrieves the stream type.
 old-location: mstv\impeg2componenttype_get_streamtype.htm
 old-project: mstv
 ms.assetid: c3aa2a63-aa02-41c3-bbdf-f155346eea0a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMPEG2ComponentType interface [Microsoft TV Technologies],get_StreamType method, IMPEG2ComponentType.get_StreamType, IMPEG2ComponentType::get_StreamType, IMPEG2ComponentTypeget_StreamType, get_StreamType, get_StreamType method [Microsoft TV Technologies], get_StreamType method [Microsoft TV Technologies],IMPEG2ComponentType interface, mstv.impeg2componenttype_get_streamtype, tuner/IMPEG2ComponentType::get_StreamType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

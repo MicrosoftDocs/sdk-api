@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.SetTimes
 title: IShellItemResources::SetTimes
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets file times.
 old-location: shell\IShellItemResources_SetTimes.htm
 old-project: shell
 ms.assetid: d5112da8-36a0-4b13-b674-c68eab24266d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellItemResources interface [Windows Shell],SetTimes method, IShellItemResources.SetTimes, IShellItemResources::SetTimes, SetTimes, SetTimes method [Windows Shell], SetTimes method [Windows Shell],IShellItemResources interface, _shell_IShellItemResources_SetTimes, shell.IShellItemResources_SetTimes, shobjidl_core/IShellItemResources::SetTimes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

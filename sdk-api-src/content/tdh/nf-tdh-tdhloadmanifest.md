@@ -1,16 +1,16 @@
 ---
 UID: NF:tdh.TdhLoadManifest
 title: TdhLoadManifest function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads the manifest used to decode a log file.
 old-location: etw\tdhloadmanifest.htm
 old-project: ETW
 ms.assetid: 85dfcf73-ea3a-47e2-ad1a-3891b3917ecf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TdhLoadManifest, TdhLoadManifest function [ETW], etw.tdhloadmanifest, tdh/TdhLoadManifest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

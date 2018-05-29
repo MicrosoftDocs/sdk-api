@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.LocateXStateFeature
 title: LocateXStateFeature function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to the processor state for an XState feature within a CONTEXT structure.
 old-location: base\locatexstatefeature.htm
 old-project: Debug
 ms.assetid: 7AAEA13B-E4A4-4410-BFC7-09B81B92FF26
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: LocateXStateFeature, LocateXStateFeature function, base.locatexstatefeature, winbase/LocateXStateFeature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

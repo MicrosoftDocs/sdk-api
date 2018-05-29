@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsstoragecom.IUnbufferedFileHandleOplockCallback.OnBrokenCallback
 title: IUnbufferedFileHandleOplockCallback::OnBrokenCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Runs when the opportunistic lock for a handle that you get by calling the IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle method is broken.
 old-location: winrt\iunbufferedfilehandleoplockcallback_onbrokencallback.htm
 old-project: WinRT
 ms.assetid: F5B6B4F6-61F2-4C5A-9E63-E9DC876FEB60
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IUnbufferedFileHandleOplockCallback interface [Windows Runtime],OnBrokenCallback method, IUnbufferedFileHandleOplockCallback.OnBrokenCallback, IUnbufferedFileHandleOplockCallback::OnBrokenCallback, OnBrokenCallback, OnBrokenCallback method [Windows Runtime], OnBrokenCallback method [Windows Runtime],IUnbufferedFileHandleOplockCallback interface, windowsstoragecom/IUnbufferedFileHandleOplockCallback::OnBrokenCallback, winrt.iunbufferedfilehandleoplockcallback_onbrokencallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: windowsstoragecom.h
 req.include-header: 

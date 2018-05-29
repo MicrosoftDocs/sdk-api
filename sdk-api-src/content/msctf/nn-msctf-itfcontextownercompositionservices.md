@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfContextOwnerCompositionServices
 title: ITfContextOwnerCompositionServices
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfContextOwnerCompositionServices interface is implemented by the TSF manager and used by a context owner to manipulate compositions created by a text service.
 old-location: tsf\itfcontextownercompositionservices.htm
 old-project: TSF
 ms.assetid: 7c84cffe-dec8-4e24-b00a-e536984f2a10
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfContextOwnerCompositionServices, ITfContextOwnerCompositionServices interface [Text Services Framework], ITfContextOwnerCompositionServices interface [Text Services Framework],described, _tsf_itfcontextownercompositionservices_ref, msctf/ITfContextOwnerCompositionServices, tsf.itfcontextownercompositionservices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

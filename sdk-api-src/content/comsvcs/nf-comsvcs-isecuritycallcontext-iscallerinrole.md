@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.IsCallerInRole
 title: ISecurityCallContext::IsCallerInRole
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the direct caller is in the specified role.
 old-location: cos\isecuritycallcontext_iscallerinrole.htm
 old-project: cossdk
 ms.assetid: 544deb46-6427-4936-97a6-ea995b5e77ba
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ISecurityCallContext interface [COM+],IsCallerInRole method, ISecurityCallContext.IsCallerInRole, ISecurityCallContext::IsCallerInRole, IsCallerInRole, IsCallerInRole method [COM+], IsCallerInRole method [COM+],ISecurityCallContext interface, _cos_ISecurityCallContext_IsCallerInRole, comsvcs/ISecurityCallContext::IsCallerInRole, cos.isecuritycallcontext_iscallerinrole
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

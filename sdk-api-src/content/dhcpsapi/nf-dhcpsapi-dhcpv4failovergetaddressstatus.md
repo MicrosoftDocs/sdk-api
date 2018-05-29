@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverGetAddressStatus
 title: DhcpV4FailoverGetAddressStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the status of a IPv4 address.
 old-location: dhcp\dhcpv4failovergetaddressstatus.htm
 old-project: DHCP
 ms.assetid: 4d8371f2-1dc5-487d-b4c0-c5a2071466b2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpV4FailoverGetAddressStatus, DhcpV4FailoverGetAddressStatus function [DHCP], dhcp.dhcpv4failovergetaddressstatus, dhcpsapi/DhcpV4FailoverGetAddressStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

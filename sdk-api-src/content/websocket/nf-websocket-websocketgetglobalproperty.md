@@ -1,16 +1,16 @@
 ---
 UID: NF:websocket.WebSocketGetGlobalProperty
 title: WebSocketGetGlobalProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a single WebSocket property.
 old-location: websock\websocketgetglobalproperty.htm
 old-project: WebSock
 ms.assetid: ca4b76e9-6545-447b-93b2-e9e4054a54ec
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WebSocketGetGlobalProperty, WebSocketGetGlobalProperty function [Websocket Protocol Component API], websock.websocketgetglobalproperty, websocket/WebSocketGetGlobalProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: websocket.h
 req.include-header: 

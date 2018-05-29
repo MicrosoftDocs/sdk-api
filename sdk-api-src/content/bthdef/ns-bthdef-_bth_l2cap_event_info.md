@@ -1,16 +1,16 @@
 ---
 UID: NS:bthdef._BTH_L2CAP_EVENT_INFO
 title: "_BTH_L2CAP_EVENT_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains data about events associated with an L2CAP channel.
 old-location: bluetooth\bth_l2cap_event_info.htm
 old-project: Bluetooth
 ms.assetid: fd16514c-7a7e-4da4-b506-71cb66ed1983
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PBTH_L2CAP_EVENT_INFO, *PBTH_L2CAP_EVENT_INFO structure [Bluetooth], BTH_L2CAP_EVENT_INFO, BTH_L2CAP_EVENT_INFO structure [Bluetooth], _BTH_L2CAP_EVENT_INFO, bluetooth.bth_l2cap_event_info, bthdef/*PBTH_L2CAP_EVENT_INFO, bthdef/BTH_L2CAP_EVENT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthdef.h
 req.include-header: 

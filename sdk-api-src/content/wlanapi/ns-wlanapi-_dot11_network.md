@@ -1,16 +1,16 @@
 ---
 UID: NS:wlanapi._DOT11_NETWORK
 title: "_DOT11_NETWORK"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an available wireless network.
 old-location: nwifi\dot11_network.htm
 old-project: NativeWiFi
 ms.assetid: 95f58433-deef-4c47-8f6c-a9e7b0d52dad
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: "*PDOT11_NETWORK, DOT11_NETWORK, DOT11_NETWORK structure [NativeWIFI], PDOT11_NETWORK, PDOT11_NETWORK structure pointer [NativeWIFI], _DOT11_NETWORK, nwifi.dot11_network, wlanapi/DOT11_NETWORK, wlanapi/PDOT11_NETWORK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 

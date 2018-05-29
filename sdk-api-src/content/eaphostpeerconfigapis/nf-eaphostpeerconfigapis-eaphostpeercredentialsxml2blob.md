@@ -1,16 +1,16 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerCredentialsXml2Blob
 title: EapHostPeerCredentialsXml2Blob function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates the credentials BLOB.
 old-location: eaphost\eaphostpeercredentialsxml2blob.htm
 old-project: EAPHost
 ms.assetid: ef8475f0-047d-4858-b3c1-3ddf41c1847f
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerCredentialsXml2Blob, EapHostPeerCredentialsXml2Blob function [EAPHost], eaphost.eaphostpeercredentialsxml2blob, eaphostpeerconfigapis/EapHostPeerCredentialsXml2Blob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 

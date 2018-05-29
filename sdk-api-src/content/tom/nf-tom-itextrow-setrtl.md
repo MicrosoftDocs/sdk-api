@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRow.SetRTL
 title: ITextRow::SetRTL
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets whether this row has right-to-left orientation.
 old-location: controls\itextrow_setrtl.htm
 old-project: Controls
 ms.assetid: e260f989-6028-4cd2-a1e0-0eca2a5bd553
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRow interface [Windows Controls],SetRTL method, ITextRow.SetRTL, ITextRow::SetRTL, SetRTL, SetRTL method [Windows Controls], SetRTL method [Windows Controls],ITextRow interface, controls.itextrow_setrtl, tom/ITextRow::SetRTL, tomFalse, tomToggle, tomTrue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

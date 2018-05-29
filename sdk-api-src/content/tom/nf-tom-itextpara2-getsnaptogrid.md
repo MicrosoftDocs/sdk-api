@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextPara2.GetSnapToGrid
 title: ITextPara2::GetSnapToGrid
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets whether paragraph lines snap to a vertical grid that could be defined for the whole document.
 old-location: controls\itextpara2_getsnaptogrid.htm
 old-project: Controls
 ms.assetid: ee5fd1d8-cd2d-4674-bb0f-6021a3115aac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSnapToGrid, GetSnapToGrid method [Windows Controls], GetSnapToGrid method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetSnapToGrid method, ITextPara2.GetSnapToGrid, ITextPara2::GetSnapToGrid, controls.itextpara2_getsnaptogrid, tom/ITextPara2::GetSnapToGrid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

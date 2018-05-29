@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.IAnchor.IsEqual
 title: IAnchor::IsEqual
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAnchor::IsEqual method evaluates two anchors within a text stream and returns a Boolean value that specifies the equality or inequality of the anchor positions.
 old-location: tsf\ianchor_isequal.htm
 old-project: TSF
 ms.assetid: a2dedce7-f64d-406a-bebc-9a4b51a1ae38
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IAnchor interface [Text Services Framework],IsEqual method, IAnchor.IsEqual, IAnchor::IsEqual, IsEqual, IsEqual method [Text Services Framework], IsEqual method [Text Services Framework],IAnchor interface, textstor/IAnchor::IsEqual, tsf.ianchor_isequal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

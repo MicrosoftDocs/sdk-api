@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IActionProgressDialog.Initialize
 title: IActionProgressDialog::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides details about the action progress dialog.
 old-location: shell\IActionProgressDialog_Initialize.htm
 old-project: shell
 ms.assetid: e82f4686-75c6-4f06-8468-937352fe33d3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IActionProgressDialog interface [Windows Shell],Initialize method, IActionProgressDialog.Initialize, IActionProgressDialog::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IActionProgressDialog interface, SPINITF_MODAL, SPINITF_NOMINIMIZE, SPINITF_NORMAL, _shell_IActionProgressDialog_Initialize, shell.IActionProgressDialog_Initialize, shobjidl_core/IActionProgressDialog::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

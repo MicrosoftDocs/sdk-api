@@ -1,16 +1,16 @@
 ---
 UID: NN:shdeprecated.IBrowserService2
 title: IBrowserService2
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated.
 old-location: shell\IBrowserService2.htm
 old-project: shell
 ms.assetid: 5c100b60-ef2e-4044-9f06-c1d01bcd88d2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBrowserService2, IBrowserService2 interface [Windows Shell], IBrowserService2 interface [Windows Shell],described, shdeprecated/IBrowserService2, shell.IBrowserService2, zone_IBrowserService2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shdeprecated.h
 req.include-header: 

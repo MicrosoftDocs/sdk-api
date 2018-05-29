@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrComplexArrayUnmarshall
 title: NdrComplexArrayUnmarshall function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrComplexArrayUnmarshall function unmarshals the complex array from the network buffer to memory.
 old-location: winprog\ndrcomplexarrayunmarshall.htm
 old-project: DevNotes
 ms.assetid: 2b702bec-e5f4-4bf3-a2d4-d4b901929e53
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: NdrComplexArrayUnmarshall, NdrComplexArrayUnmarshall function [Windows API], rpcndr/NdrComplexArrayUnmarshall, winprog.ndrcomplexarrayunmarshall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: 

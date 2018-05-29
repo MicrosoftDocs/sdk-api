@@ -1,16 +1,16 @@
 ---
 UID: NS:audioapotypes.APO_CONNECTION_PROPERTY
 title: APO_CONNECTION_PROPERTY
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the dynamically changing connection properties.
 old-location: termserv\apo_connection_property.htm
 old-project: TermServ
 ms.assetid: dbf7ed62-445e-4f15-bc21-46117e694dc0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: APO_CONNECTION_PROPERTY, APO_CONNECTION_PROPERTY structure [Remote Desktop Services], audioapotypes/APO_CONNECTION_PROPERTY, termserv.apo_connection_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioapotypes.h
 req.include-header: 

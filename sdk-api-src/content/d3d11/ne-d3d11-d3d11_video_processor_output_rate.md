@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_OUTPUT_RATE
 title: D3D11_VIDEO_PROCESSOR_OUTPUT_RATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the rate at which the video processor produces output frames from an input stream.
 old-location: mf\d3d11_video_processor_output_rate.htm
 old-project: medfound
 ms.assetid: C950E5B5-E50C-4750-83F3-38296EF2009F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_OUTPUT_RATE, D3D11_VIDEO_PROCESSOR_OUTPUT_RATE enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM, D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_HALF, D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL, d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_RATE, d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM, d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_HALF, d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL, mf.d3d11_video_processor_output_rate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 

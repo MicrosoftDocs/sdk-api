@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxManifestTargetDeviceFamily
 title: IAppxManifestTargetDeviceFamily
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the target device family from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifesttargetdevicefamily.htm
 old-project: appxpkg
 ms.assetid: 52C2950B-FB7F-44A8-BAB5-BCC238B012FE
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxManifestTargetDeviceFamily, IAppxManifestTargetDeviceFamily interface [App packaging and management], IAppxManifestTargetDeviceFamily interface [App packaging and management],described, appxpackaging/IAppxManifestTargetDeviceFamily, appxpkg.iappxmanifesttargetdevicefamily
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

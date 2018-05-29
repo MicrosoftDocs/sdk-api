@@ -1,16 +1,16 @@
 ---
 UID: NS:emi.EMI_METADATA
 title: EMI_METADATA
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMI_METADATA structure provides metadata about a device that supports the Energy Metering Interface (EMI) interface, such as the hardware model and hardware revision.
 old-location: powermeter\emi_metadata.htm
 old-project: powermeter
 ms.assetid: 8992AA5D-7D71-4D00-9B18-FE070D29C26E
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: EMI_METADATA, EMI_METADATA structure [Power Metering and Budgeting Devices], PEMI_METADATA, PEMI_METADATA structure pointer [Power Metering and Budgeting Devices], emi/EMI_METADATA, emi/PEMI_METADATA, powermeter.emi_metadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: emi.h
 req.include-header: Emi.h

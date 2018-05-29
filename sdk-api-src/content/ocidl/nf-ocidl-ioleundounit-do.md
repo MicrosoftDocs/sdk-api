@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleUndoUnit.Do
 title: IOleUndoUnit::Do
-author: windows-driver-content
+author: windows-sdk-content
 description: Instructs the undo unit to carry out its action. Note that if it contains child undo units, it must call their Do methods as well.
 old-location: com\ioleundounit_do.htm
 old-project: com
 ms.assetid: 5f087779-ef92-41c9-94e6-61d07d5731a7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Do, Do method [COM], Do method [COM],IOleUndoUnit interface, IOleUndoUnit interface [COM],Do method, IOleUndoUnit.Do, IOleUndoUnit::Do, _ole_ioleundounit_do, com.ioleundounit_do, ocidl/IOleUndoUnit::Do
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

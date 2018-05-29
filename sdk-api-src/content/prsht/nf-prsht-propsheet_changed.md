@@ -1,16 +1,16 @@
 ---
 UID: NF:prsht.PropSheet_Changed
 title: PropSheet_Changed macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Informs a property sheet that information in a page has changed. You can use this macro or send the PSM_CHANGED message explicitly.
 old-location: controls\PropSheet_Changed.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_changed.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropSheet_Changed, PropSheet_Changed macro [Windows Controls], _win32_PropSheet_Changed, _win32_PropSheet_Changed_cpp, controls.PropSheet_Changed, controls._win32_PropSheet_Changed, prsht/PropSheet_Changed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

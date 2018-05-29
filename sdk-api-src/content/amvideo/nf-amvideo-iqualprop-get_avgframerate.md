@@ -1,16 +1,16 @@
 ---
 UID: NF:amvideo.IQualProp.get_AvgFrameRate
 title: IQualProp::get_AvgFrameRate
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_AvgFrameRate method retrieves the actual average frame rate since streaming started.
 old-location: dshow\iqualprop_get_avgframerate.htm
 old-project: DirectShow
 ms.assetid: 31e326e2-56de-4c7c-b26a-836c9fc76342
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IQualProp interface [DirectShow],get_AvgFrameRate method, IQualProp.get_AvgFrameRate, IQualProp::get_AvgFrameRate, IQualPropget_AvgFrameRate, amvideo/IQualProp::get_AvgFrameRate, dshow.iqualprop_get_avgframerate, get_AvgFrameRate, get_AvgFrameRate method [DirectShow], get_AvgFrameRate method [DirectShow],IQualProp interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

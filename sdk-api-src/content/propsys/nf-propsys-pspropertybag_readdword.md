@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadDWORD
 title: PSPropertyBag_ReadDWORD function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads a DWORD data value from property in a property bag.
 old-location: properties\PSPropertyBag_ReadDWORD.htm
 old-project: properties
 ms.assetid: 31977E3F-FA2F-4c2d-8A95-6BF937EDC45C
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_ReadDWORD, PSPropertyBag_ReadDWORD function [Windows Properties], properties.PSPropertyBag_ReadDWORD, propsys/PSPropertyBag_ReadDWORD, shell.PSPropertyBag_ReadDWORD, shell_PSPropertyBag_ReadDWORD
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: Propsys.idl

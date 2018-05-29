@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrCmpNIA
 title: StrCmpNIA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares a specified number of characters from the beginning of two strings to determine if they are the same. The comparison is not case-sensitive. The StrNCmpI macro differs from this function in name only.
 old-location: shell\StrCmpNI.htm
 old-project: shell
 ms.assetid: c6657bd5-21b6-457c-9ed0-45e44b2571ba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrCmpNI, StrCmpNI function [Windows Shell], StrCmpNIA, StrCmpNIW, _win32_StrCmpNI, shell.StrCmpNI, shlwapi/StrCmpNI, shlwapi/StrCmpNIA, shlwapi/StrCmpNIW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

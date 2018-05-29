@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_CIPHER_TRANSFORM0_
 title: IPSEC_CIPHER_TRANSFORM0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to store encryption specific information for an SA transform in an IPsec quick mode policy.
 old-location: fwp\ipsec_cipher_transform0_struct.htm
 old-project: FWP
 ms.assetid: d8a9515a-943b-4f00-bfa9-948a9da9c060
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_CIPHER_TRANSFORM0, IPSEC_CIPHER_TRANSFORM0 structure [Filtering], IPSEC_CIPHER_TRANSFORM0_, IPSEC_CIPHER_TRANSFORM_ID_AES_128, IPSEC_CIPHER_TRANSFORM_ID_AES_192, IPSEC_CIPHER_TRANSFORM_ID_AES_256, IPSEC_CIPHER_TRANSFORM_ID_CBC_3DES, IPSEC_CIPHER_TRANSFORM_ID_CBC_DES, IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_128, IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_192, IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_256, fwp.ipsec_cipher_transform0_struct, ipsectypes/IPSEC_CIPHER_TRANSFORM0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

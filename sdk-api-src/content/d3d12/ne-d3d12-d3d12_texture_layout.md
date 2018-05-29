@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_TEXTURE_LAYOUT
 title: D3D12_TEXTURE_LAYOUT
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies texture layout options.
 old-location: direct3d12\d3d12_texture_layout.htm
 old-project: direct3d12
 ms.assetid: 1C61B658-9CA1-493C-8DBC-86313D0D302F
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_TEXTURE_LAYOUT, D3D12_TEXTURE_LAYOUT enumeration, D3D12_TEXTURE_LAYOUT_64KB_STANDARD_SWIZZLE, D3D12_TEXTURE_LAYOUT_64KB_UNDEFINED_SWIZZLE, D3D12_TEXTURE_LAYOUT_ROW_MAJOR, D3D12_TEXTURE_LAYOUT_UNKNOWN, d3d12/D3D12_TEXTURE_LAYOUT, d3d12/D3D12_TEXTURE_LAYOUT_64KB_STANDARD_SWIZZLE, d3d12/D3D12_TEXTURE_LAYOUT_64KB_UNDEFINED_SWIZZLE, d3d12/D3D12_TEXTURE_LAYOUT_ROW_MAJOR, d3d12/D3D12_TEXTURE_LAYOUT_UNKNOWN, direct3d12.d3d12_texture_layout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

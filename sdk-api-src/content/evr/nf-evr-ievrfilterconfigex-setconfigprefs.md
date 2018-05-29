@@ -1,16 +1,16 @@
 ---
 UID: NF:evr.IEVRFilterConfigEx.SetConfigPrefs
 title: IEVRFilterConfigEx::SetConfigPrefs
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the configuration parameters for the Microsoft DirectShow Enhanced Video Renderer Filter (EVR).
 old-location: mf\ievrfilterconfigex_setconfigprefs.htm
 old-project: medfound
 ms.assetid: 6a565c7a-a8d7-433b-b454-262661c2c084
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEVRFilterConfigEx interface [Media Foundation],SetConfigPrefs method, IEVRFilterConfigEx.SetConfigPrefs, IEVRFilterConfigEx::SetConfigPrefs, SetConfigPrefs, SetConfigPrefs method [Media Foundation], SetConfigPrefs method [Media Foundation],IEVRFilterConfigEx interface, evr/IEVRFilterConfigEx::SetConfigPrefs, mf.ievrfilterconfigex_setconfigprefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: evr.h
 req.include-header: 

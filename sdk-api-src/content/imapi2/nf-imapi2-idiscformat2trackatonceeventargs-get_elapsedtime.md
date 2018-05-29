@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnceEventArgs.get_ElapsedTime
 title: IDiscFormat2TrackAtOnceEventArgs::get_ElapsedTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the total elapsed time of the write operation.
 old-location: imapi\idiscformat2trackatonceeventargs_get_elapsedtime.htm
 old-project: imapi
 ms.assetid: cb7d2336-1ccd-4c0b-bd8b-5405a1de2c12
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2TrackAtOnceEventArgs interface [IMAPI],get_ElapsedTime method, IDiscFormat2TrackAtOnceEventArgs.get_ElapsedTime, IDiscFormat2TrackAtOnceEventArgs::get_ElapsedTime, get_ElapsedTime, get_ElapsedTime method [IMAPI], get_ElapsedTime method [IMAPI],IDiscFormat2TrackAtOnceEventArgs interface, imapi.idiscformat2trackatonceeventargs_get_elapsedtime, imapi2/IDiscFormat2TrackAtOnceEventArgs::get_ElapsedTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

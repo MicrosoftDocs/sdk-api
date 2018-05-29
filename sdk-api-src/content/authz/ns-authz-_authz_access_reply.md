@@ -1,16 +1,16 @@
 ---
 UID: NS:authz._AUTHZ_ACCESS_REPLY
 title: "_AUTHZ_ACCESS_REPLY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an access check reply.
 old-location: security\authz_access_reply.htm
 old-project: SecAuthZ
 ms.assetid: 7162bf80-3730-46d7-a603-2a55b969c9ba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PAUTHZ_ACCESS_REPLY, AUTHZ_ACCESS_REPLY, AUTHZ_ACCESS_REPLY structure [Security], AUTHZ_GENERATE_FAILURE_AUDIT, AUTHZ_GENERATE_SUCCESS_AUDIT, ERROR_ACCESS_DENIED, ERROR_PRIVILEGE_NOT_HELD, ERROR_SUCCESS, PAUTHZ_ACCESS_REPLY, PAUTHZ_ACCESS_REPLY structure pointer [Security], _AUTHZ_ACCESS_REPLY, _win32_authz_access_reply, authz/AUTHZ_ACCESS_REPLY, authz/PAUTHZ_ACCESS_REPLY, security.authz_access_reply"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: authz.h
 req.include-header: 

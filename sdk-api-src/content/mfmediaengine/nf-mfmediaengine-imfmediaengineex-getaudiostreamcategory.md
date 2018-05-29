@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetAudioStreamCategory
 title: IMFMediaEngineEx::GetAudioStreamCategory
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the audio stream category used for the next call to SetSource or Load.
 old-location: mf\imfmediaengineex_getaudiostreamcategory.htm
 old-project: medfound
 ms.assetid: 587c0844-93be-42e4-96f6-d5aa721e9ced
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetAudioStreamCategory, GetAudioStreamCategory method [Media Foundation], GetAudioStreamCategory method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetAudioStreamCategory method, IMFMediaEngineEx.GetAudioStreamCategory, IMFMediaEngineEx::GetAudioStreamCategory, mf.imfmediaengineex_getaudiostreamcategory, mfmediaengine/IMFMediaEngineEx::GetAudioStreamCategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

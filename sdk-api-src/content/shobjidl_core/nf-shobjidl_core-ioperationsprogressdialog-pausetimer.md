@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.PauseTimer
 title: IOperationsProgressDialog::PauseTimer
-author: windows-driver-content
+author: windows-sdk-content
 description: Pauses progress dialog timer.
 old-location: shell\IOperationsProgressDialog_PauseTimer.htm
 old-project: shell
 ms.assetid: 9fdfd3b1-23fb-4172-a3e4-2142a29c21e3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],PauseTimer method, IOperationsProgressDialog.PauseTimer, IOperationsProgressDialog::PauseTimer, PauseTimer, PauseTimer method [Windows Shell], PauseTimer method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_PauseTimer, shell.IOperationsProgressDialog_PauseTimer, shobjidl_core/IOperationsProgressDialog::PauseTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

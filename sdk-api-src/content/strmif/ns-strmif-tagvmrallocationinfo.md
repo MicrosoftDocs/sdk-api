@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.tagVMRALLOCATIONINFO
 title: tagVMRALLOCATIONINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The VMRALLOCATIONINFO structure is used in the VMR-7 filter's IVMRSurfaceAllocator::AllocateSurface method.
 old-location: dshow\vmrallocationinfo.htm
 old-project: DirectShow
 ms.assetid: 3908f9d1-5120-413b-a142-08cd9005c401
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: VMRALLOCATIONINFO, VMRALLOCATIONINFO structure [DirectShow], VMRALLOCATIONINFOStructure, dshow.vmrallocationinfo, strmif/VMRALLOCATIONINFO, tagVMRALLOCATIONINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

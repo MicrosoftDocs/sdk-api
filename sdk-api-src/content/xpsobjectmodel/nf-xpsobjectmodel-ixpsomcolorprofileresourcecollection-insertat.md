@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.InsertAt
 title: IXpsOMColorProfileResourceCollection::InsertAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts an IXpsOMColorProfileResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_insertat.htm
 old-project: printdocs
 ms.assetid: 1576e48f-f238-42d5-b028-4ee3cd1b7287
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMColorProfileResourceCollection.InsertAt, IXpsOMColorProfileResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, xps.ixpsomcolorprofileresourcecollection_insertat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::InsertAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

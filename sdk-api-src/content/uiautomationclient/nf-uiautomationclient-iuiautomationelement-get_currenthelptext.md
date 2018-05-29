@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentHelpText
 title: IUIAutomationElement::get_CurrentHelpText
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the help text for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentHelpText.htm
 old-project: WinAuto
 ms.assetid: 02ecfecc-5c3d-458b-827a-a598b8f98916
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentHelpText property [Windows Accessibility], CurrentHelpText property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentHelpText property, IUIAutomationElement.CurrentHelpText, IUIAutomationElement.get_CurrentHelpText, IUIAutomationElement::CurrentHelpText, IUIAutomationElement::get_CurrentHelpText, get_CurrentHelpText, uiauto.uiauto_IUIAutomationElement_CurrentHelpText, uiauto_IUIAutomationElement_CurrentHelpText, uiautomationclient/IUIAutomationElement::CurrentHelpText, uiautomationclient/IUIAutomationElement::get_CurrentHelpText, winauto.uiauto_IUIAutomationElement_CurrentHelpText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

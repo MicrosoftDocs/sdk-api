@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICDevelopRawNotificationCallback
 title: IWICDevelopRawNotificationCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a callback method for raw image change nofications.
 old-location: wic\_wic_codec_iwicdeveloprawnotificationcallback.htm
 old-project: wic
 ms.assetid: ccd162e4-84be-4ed5-a583-c9bd195f503b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICDevelopRawNotificationCallback, IWICDevelopRawNotificationCallback interface [Windows Imaging Component], IWICDevelopRawNotificationCallback interface [Windows Imaging Component],described, _wic_codec_iwicdeveloprawnotificationcallback, wic._wic_codec_iwicdeveloprawnotificationcallback, wincodec/IWICDevelopRawNotificationCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

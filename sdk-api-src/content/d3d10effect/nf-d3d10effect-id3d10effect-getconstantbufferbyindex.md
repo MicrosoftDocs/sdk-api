@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.GetConstantBufferByIndex
 title: ID3D10Effect::GetConstantBufferByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a constant buffer by index.
 old-location: direct3d10\id3d10effect_getconstantbufferbyindex.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_getconstantbufferbyindex.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 6e59189f-e563-27f9-5003-f6af77fe5eb9, GetConstantBufferByIndex, GetConstantBufferByIndex method [Direct3D 10], GetConstantBufferByIndex method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetConstantBufferByIndex method, ID3D10Effect.GetConstantBufferByIndex, ID3D10Effect::GetConstantBufferByIndex, d3d10effect/ID3D10Effect::GetConstantBufferByIndex, direct3d10.id3d10effect_getconstantbufferbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IIsdbCAServiceDescriptor
 title: IIsdbCAServiceDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) service descriptor.
 old-location: mstv\iisdbcaservicedescriptor.htm
 old-project: mstv
 ms.assetid: 6d56e39d-3c7a-4c55-8d07-00e25eba18bd
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IIsdbCAServiceDescriptor, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies], IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbCAServiceDescriptor, mstv.iisdbcaservicedescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IBandHost.DestroyBand
 title: IBandHost::DestroyBand
-author: windows-driver-content
+author: windows-sdk-content
 description: Destroys a specified band.
 old-location: shell\IBandHost_DestroyBand.htm
 old-project: shell
 ms.assetid: fc9fec01-97ff-44d9-833a-cd781977e5b9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DestroyBand, DestroyBand method [Windows Shell], DestroyBand method [Windows Shell],IBandHost interface, IBandHost interface [Windows Shell],DestroyBand method, IBandHost.DestroyBand, IBandHost::DestroyBand, _shell_IBandHost_DestroyBand, shell.IBandHost_DestroyBand, shobjidl/IBandHost::DestroyBand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

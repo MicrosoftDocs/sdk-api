@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetOpacity
 title: SetOpacity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Animates or changes the value of the Opacity property.
 old-location: directcomp\idcompositioneffectgroup_setopacity_overloaded.htm
 old-project: directcomp
 ms.assetid: 785DE91D-718B-4704-88E4-B8FB12586E5F
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionEffectGroup::SetOpacity, SetOpacity, SetOpacity methods [DirectComposition], dcomp/SetOpacity, directcomp.idcompositioneffectgroup_setopacity_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

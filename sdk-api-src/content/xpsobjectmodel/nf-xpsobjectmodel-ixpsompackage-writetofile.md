@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.WriteToFile
 title: IXpsOMPackage::WriteToFile
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes the XPS package to a specified file.
 old-location: xps\ixpsompackage_writetofile.htm
 old-project: printdocs
 ms.assetid: 89accde7-989e-4a87-b96e-e47cc6c6954a
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FALSE, IXpsOMPackage interface [XPS Documents and Packaging],WriteToFile method, IXpsOMPackage.WriteToFile, IXpsOMPackage::WriteToFile, TRUE, WriteToFile, WriteToFile method [XPS Documents and Packaging], WriteToFile method [XPS Documents and Packaging],IXpsOMPackage interface, xps.ixpsompackage_writetofile, xpsobjectmodel/IXpsOMPackage::WriteToFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

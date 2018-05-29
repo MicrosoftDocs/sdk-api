@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.UrlApplySchemeW
 title: UrlApplySchemeW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines a scheme for a specified URL string, and returns a string with an appropriate prefix.
 old-location: shell\UrlApplyScheme.htm
 old-project: shell
 ms.assetid: af60643e-b1a4-4013-b116-dd9fad4e90bf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: URL_APPLY_DEFAULT, URL_APPLY_FORCEAPPLY, URL_APPLY_GUESSFILE, URL_APPLY_GUESSSCHEME, UrlApplyScheme, UrlApplyScheme function [Windows Shell], UrlApplySchemeA, UrlApplySchemeW, _win32_UrlApplyScheme, shell.UrlApplyScheme, shlwapi/UrlApplyScheme, shlwapi/UrlApplySchemeA, shlwapi/UrlApplySchemeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

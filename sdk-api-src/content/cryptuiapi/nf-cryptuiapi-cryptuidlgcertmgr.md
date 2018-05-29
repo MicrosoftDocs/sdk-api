@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptuiapi.CryptUIDlgCertMgr
 title: CryptUIDlgCertMgr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays a dialog box that allows the user to manage certificates.
 old-location: security\cryptuidlgcertmgr.htm
 old-project: SecCrypto
 ms.assetid: 8d94694e-1724-42aa-99bb-6ed2c6d3bc0e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptUIDlgCertMgr, CryptUIDlgCertMgr function [Security], cryptuiapi/CryptUIDlgCertMgr, security.cryptuidlgcertmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptuiapi.h
 req.include-header: 

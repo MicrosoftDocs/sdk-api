@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarBoolFromStr
 title: VarBoolFromStr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an OLECHAR string to a Boolean value.
 old-location: automat\varboolfromstr.htm
 old-project: automat
 ms.assetid: 75a8e8e5-9082-4991-84ad-8fb81a32746d
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_LOCALBOOL, VarBoolFromStr, VarBoolFromStr function [Automation], _oa96_VarBoolFromStr, automat.varboolfromstr, oleauto/VarBoolFromStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IExecAction.put_Arguments
 title: IExecAction::put_Arguments
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the arguments associated with the command-line operation.
 old-location: taskschd\iexecaction_arguments.htm
 old-project: TaskSchd
 ms.assetid: 623b3ffb-ff0f-46bf-ae3d-146e38c8bbc8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Arguments property [Task Scheduler], Arguments property [Task Scheduler],IExecAction interface, IExecAction interface [Task Scheduler],Arguments property, IExecAction.Arguments, IExecAction.put_Arguments, IExecAction::Arguments, IExecAction::get_Arguments, IExecAction::put_Arguments, put_Arguments, taskschd.iexecaction_arguments, taskschd/IExecAction::Arguments, taskschd/IExecAction::get_Arguments, taskschd/IExecAction::put_Arguments
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NL:wbemglue.CWbemGlueFactory
 title: CWbemGlueFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: The CWbemGlueFactory class is part of the WMI Provider Framework. The Provider Framework implements methods of this interface internally to create new instances of classes for the provider.
 old-location: wmi\cwbemgluefactory.htm
 old-project: WmiSdk
 ms.assetid: 1287cb02-695a-47df-88f6-0d9dfd6b81af
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "??1CWbemGlueFactory@@QAE@XZ, ??1CWbemGlueFactory@@QEAA@XZ, CWbemGlueFactory, CWbemGlueFactory class [Windows Management Instrumentation], CWbemGlueFactory class [Windows Management Instrumentation],described, wbemglue/CWbemGlueFactory, wmi.cwbemgluefactory"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: wbemglue.h
 req.include-header: FwCommon.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:p2p.peer_issue_credential_flags_tag
 title: peer_issue_credential_flags_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: "."
 old-location: p2p\peer_group_issue_credential_flags.htm
 old-project: P2PSdk
 ms.assetid: b5397627-ffd7-453c-b829-e3e04fa9894a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PEER_GROUP_ISSUE_CREDENTIAL_FLAGS, PEER_GROUP_ISSUE_CREDENTIAL_FLAGS enumeration [Peer Networking], PEER_GROUP_STORE_CREDENTIALS, p2p.peer_group_issue_credential_flags, p2p/PEER_GROUP_ISSUE_CREDENTIAL_FLAGS, p2p/PEER_GROUP_STORE_CREDENTIALS, peer_issue_credential_flags_tag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 

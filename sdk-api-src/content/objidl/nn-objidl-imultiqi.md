@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IMultiQI
 title: IMultiQI
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a client to query an object proxy, or handler, for multiple interfaces by using a single RPC call.
 old-location: com\imultiqi.htm
 old-project: com
 ms.assetid: 5e50396f-2931-403f-946a-dc096cb012cc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMultiQI, IMultiQI interface [COM], IMultiQI interface [COM],described, _com_imultiqi, com.imultiqi, objidlbase/IMultiQI
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

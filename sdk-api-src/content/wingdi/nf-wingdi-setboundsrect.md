@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.SetBoundsRect
 title: SetBoundsRect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetBoundsRect function controls the accumulation of bounding rectangle information for the specified device context.
 old-location: gdi\setboundsrect.htm
 old-project: gdi
 ms.assetid: ad361e78-42e8-4945-9395-fab983e396df
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DCB_ACCUMULATE, DCB_DISABLE, DCB_ENABLE, DCB_RESET, SetBoundsRect, SetBoundsRect function [Windows GDI], _win32_SetBoundsRect, gdi.setboundsrect, wingdi/SetBoundsRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

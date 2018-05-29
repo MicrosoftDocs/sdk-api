@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_HULL_SHADER_TRACE_DESC
 title: D3D11_HULL_SHADER_TRACE_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an instance of a hull shader to trace.
 old-location: direct3d11\d3d11_hull_shader_trace_desc.htm
 old-project: direct3d11
 ms.assetid: E91FE826-C1BC-4583-83B0-FF2869AF86F2
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_HULL_SHADER_TRACE_DESC, D3D11_HULL_SHADER_TRACE_DESC structure [Direct3D 11], d3d11shadertracing/D3D11_HULL_SHADER_TRACE_DESC, direct3d11.d3d11_hull_shader_trace_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11shadertracing.h
 req.include-header: 

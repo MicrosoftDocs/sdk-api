@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumAssocHandlers.Next
 title: IEnumAssocHandlers::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a specified number of elements.
 old-location: shell\IEnumAssocHandlers_Next.htm
 old-project: shell
 ms.assetid: 9e173cb3-bd73-437c-8853-c13c8b6f216f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumAssocHandlers interface [Windows Shell],Next method, IEnumAssocHandlers.Next, IEnumAssocHandlers::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumAssocHandlers interface, _shell_IEnumAssocHandlers_Next, shell.IEnumAssocHandlers_Next, shobjidl_core/IEnumAssocHandlers::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

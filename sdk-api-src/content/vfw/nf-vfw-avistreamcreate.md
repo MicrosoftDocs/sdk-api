@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamCreate
 title: AVIStreamCreate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamCreate function creates a stream not associated with any file.
 old-location: multimedia\avistreamcreate.htm
 old-project: Multimedia
 ms.assetid: 8c784875-dc8f-4fd4-b267-0194cdbfa3c7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamCreate, AVIStreamCreate function [Windows Multimedia], _win32_AVIStreamCreate, multimedia.avistreamcreate, vfw/AVIStreamCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

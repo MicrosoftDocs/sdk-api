@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.MCIWndSeek
 title: MCIWndSeek macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCIWndSeek macro moves the playback position to the specified location in the content. You can use this macro or explicitly use the MCI_SEEK command.
 old-location: multimedia\mciwndseek.htm
 old-project: Multimedia
 ms.assetid: 96d42e1a-03d5-4007-95d8-0e4b8d2018d5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MCIWndSeek, MCIWndSeek macro [Windows Multimedia], _win32_MCIWndSeek, multimedia.mciwndseek, vfw/MCIWndSeek
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

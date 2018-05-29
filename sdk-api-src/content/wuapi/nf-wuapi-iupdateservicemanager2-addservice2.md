@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager2.AddService2
 title: IUpdateServiceManager2::AddService2
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a service with Windows Update Agent (WUA) without requiring an authorization cabinet file (.cab). This method also returns a pointer to an IUpdateServiceRegistration interface.
 old-location: wua\iupdateservicemanager2_addservice2_methods.htm
 old-project: Wua_Sdk
 ms.assetid: 1584b92f-ba21-4b03-a1b4-540313eb7893
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AddService2, AddService2 method [Windows Update Agent], AddService2 method [Windows Update Agent],IUpdateServiceManager2 interface, IUpdateServiceManager2 interface [Windows Update Agent],AddService2 method, IUpdateServiceManager2.AddService2, IUpdateServiceManager2::AddService2, wua.iupdateservicemanager2_addservice2_methods, wuapi/IUpdateServiceManager2::AddService2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

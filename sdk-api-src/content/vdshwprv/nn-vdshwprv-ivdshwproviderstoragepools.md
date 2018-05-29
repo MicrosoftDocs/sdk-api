@@ -1,16 +1,16 @@
 ---
 UID: NN:vdshwprv.IVdsHwProviderStoragePools
 title: IVdsHwProviderStoragePools
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to create LUNs in a storage pool and enumerate the storage pools managed by a hardware provider.
 old-location: base\ivdshwproviderstoragepools.htm
 old-project: VDS
 ms.assetid: c9db0e33-8cb1-41ba-8716-a8d70990fa3e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsHwProviderStoragePools, IVdsHwProviderStoragePools interface, IVdsHwProviderStoragePools interface,described, base.ivdshwproviderstoragepools, vds/IVdsHwProviderStoragePools, vdshwprv/IVdsHwProviderStoragePools
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

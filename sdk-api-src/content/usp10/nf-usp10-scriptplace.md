@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptPlace
 title: ScriptPlace function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates glyph advance width and two-dimensional offset information from the output of ScriptShape.
 old-location: intl\scriptplace.htm
 old-project: Intl
 ms.assetid: 7f88432f-052f-4781-8346-31c8a0771e51
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptPlace, ScriptPlace function [Internationalization for Windows Applications], _win32_ScriptPlace, intl.scriptplace, usp10/ScriptPlace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

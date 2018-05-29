@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetContentStatus
 title: IXpsOMCoreProperties::SetContentStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the contentStatus property.
 old-location: xps\ixpsomcoreproperties_setcontentstatus.htm
 old-project: printdocs
 ms.assetid: f500407d-3eb4-4bf1-88ef-8f6bd2bcf472
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetContentStatus method, IXpsOMCoreProperties.SetContentStatus, IXpsOMCoreProperties::SetContentStatus, SetContentStatus, SetContentStatus method [XPS Documents and Packaging], SetContentStatus method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcontentstatus, xpsobjectmodel/IXpsOMCoreProperties::SetContentStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

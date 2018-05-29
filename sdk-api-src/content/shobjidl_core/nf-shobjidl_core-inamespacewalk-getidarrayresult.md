@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalk.GetIDArrayResult
 title: INamespaceWalk::GetIDArrayResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a list of objects found during a namespace walk initiated by INamespaceWalk::Walk.
 old-location: shell\INamespaceWalk_GetIDArrayResult.htm
 old-project: shell
 ms.assetid: 51bce109-8f84-4852-bec5-e4f2937c31b3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetIDArrayResult, GetIDArrayResult method [Windows Shell], GetIDArrayResult method [Windows Shell],INamespaceWalk interface, INamespaceWalk interface [Windows Shell],GetIDArrayResult method, INamespaceWalk.GetIDArrayResult, INamespaceWalk::GetIDArrayResult, _win32_INamespaceWalk_GetIDArrayResult, shell.INamespaceWalk_GetIDArrayResult, shobjidl_core/INamespaceWalk::GetIDArrayResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

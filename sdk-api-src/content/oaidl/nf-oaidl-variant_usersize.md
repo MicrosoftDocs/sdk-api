@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.VARIANT_UserSize
 title: VARIANT_UserSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Calculates the wire size of the VARIANT object, and gets its handle and data.
 old-location: automat\variant_usersize.htm
 old-project: automat
 ms.assetid: 64dc64e5-3de3-4133-835c-b832f5bb20ae
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VARIANT_UserSize, VARIANT_UserSize function [Automation], _oa96_VARIANT_UserSize, automat.variant_usersize, oaidl/VARIANT_UserSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 

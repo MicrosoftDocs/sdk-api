@@ -1,16 +1,16 @@
 ---
 UID: NE:propsys.PROPDESC_CONDITION_TYPE
 title: PROPDESC_CONDITION_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the condition type to use when displaying the property in the query builder UI in Windows Vista, but not in Windows 7 and later.
 old-location: properties\PROPDESC_CONDITION_TYPE.htm
 old-project: properties
 ms.assetid: 35ed3b49-8b36-4681-bad6-1669c0da94e0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PDCOT_BOOLEAN, PDCOT_DATETIME, PDCOT_NONE, PDCOT_NUMBER, PDCOT_SIZE, PDCOT_STRING, PROPDESC_CONDITION_TYPE, PROPDESC_CONDITION_TYPE enumeration [Windows Properties], properties.PROPDESC_CONDITION_TYPE, propsys/PDCOT_BOOLEAN, propsys/PDCOT_DATETIME, propsys/PDCOT_NONE, propsys/PDCOT_NUMBER, propsys/PDCOT_SIZE, propsys/PDCOT_STRING, propsys/PROPDESC_CONDITION_TYPE, shell.PROPDESC_CONDITION_TYPE, shell_PROPDESC_CONDITION_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: propsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_SuppressOids
 title: IX509CertificateRequestCmc::get_SuppressOids
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a collection of extension or attribute object identifiers (OIDs) to be suppressed from the certificate during the encoding process.
 old-location: security\ix509certificaterequestcmc_suppressoids_property.htm
 old-project: SecCertEnroll
 ms.assetid: 6e0a8245-1bcc-413a-865a-8a6274dd55f5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],SuppressOids property, IX509CertificateRequestCmc.SuppressOids, IX509CertificateRequestCmc.get_SuppressOids, IX509CertificateRequestCmc::SuppressOids, IX509CertificateRequestCmc::get_SuppressOids, SuppressOids property [Security], SuppressOids property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::SuppressOids, certenroll/IX509CertificateRequestCmc::get_SuppressOids, get_SuppressOids, security.ix509certificaterequestcmc_suppressoids_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

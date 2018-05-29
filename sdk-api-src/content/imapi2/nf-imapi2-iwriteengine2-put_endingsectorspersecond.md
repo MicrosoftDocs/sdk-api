@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IWriteEngine2.put_EndingSectorsPerSecond
 title: IWriteEngine2::put_EndingSectorsPerSecond
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the estimated number of sectors per second that the recording device can write to the media at the end of the writing process.
 old-location: imapi\iwriteengine2_put_endingsectorspersecond.htm
 old-project: imapi
 ms.assetid: 7060578d-c6d5-4155-9ab8-7185bde38f64
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],put_EndingSectorsPerSecond method, IWriteEngine2.put_EndingSectorsPerSecond, IWriteEngine2::put_EndingSectorsPerSecond, imapi.iwriteengine2_put_endingsectorspersecond, imapi2/IWriteEngine2::put_EndingSectorsPerSecond, put_EndingSectorsPerSecond, put_EndingSectorsPerSecond method [IMAPI], put_EndingSectorsPerSecond method [IMAPI],IWriteEngine2 interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

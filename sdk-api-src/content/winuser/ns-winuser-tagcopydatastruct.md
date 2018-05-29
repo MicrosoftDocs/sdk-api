@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagCOPYDATASTRUCT
 title: tagCOPYDATASTRUCT
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains data to be passed to another application by the WM_COPYDATA message.
 old-location: dataxchg\copydatastruct.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\datacopy\datacopyreference\datacopystructures\copydatastruct.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PCOPYDATASTRUCT, COPYDATASTRUCT, COPYDATASTRUCT structure [Data Exchange], PCOPYDATASTRUCT, PCOPYDATASTRUCT structure pointer [Data Exchange], _win32_COPYDATASTRUCT_str, _win32_copydatastruct_str_cpp, dataxchg.copydatastruct, tagCOPYDATASTRUCT, winui._win32_copydatastruct_str, winuser/COPYDATASTRUCT, winuser/PCOPYDATASTRUCT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

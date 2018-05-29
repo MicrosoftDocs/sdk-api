@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.SetRdpProperty
 title: IRemoteDesktopClientSettings::SetRdpProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of a single named RDP property.
 old-location: termserv\iremotedesktopclientsettings_setrdpproperty.htm
 old-project: TermServ
 ms.assetid: 3c1a9e70-3e77-4f21-b3a1-8e4c3c5cf148
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRemoteDesktopClientSettings interface [Remote Desktop Services],SetRdpProperty method, IRemoteDesktopClientSettings.SetRdpProperty, IRemoteDesktopClientSettings::SetRdpProperty, SetRdpProperty, SetRdpProperty method [Remote Desktop Services], SetRdpProperty method [Remote Desktop Services],IRemoteDesktopClientSettings interface, WinRTEncryptedPassword, WinRTPasswordEncoding, Workspace Id, administrative session, allow font smoothing, alternate full address, audiocapturemode, audiomode, authentication level, connection type, cookie based authentication server address, desktopheight, desktopwidth, disable full window drag, disable menu anims, disable themes, disable wallpaper, domain, enablecredsspsupport, full address, gatewaycredentialssource, gatewayhostname, gatewayprofileusagemethod, gatewayusagemethod, high resolution mouse, loadbalanceinfo, login web page address, pre-authentication server address, prompt for credentials, promptcredentialonce, rdpappcontainerclient/IRemoteDesktopClientSettings::SetRdpProperty, redirectclipboard, redirectprinters, require pre-authentication, support url, termserv.iremotedesktopclientsettings_setrdpproperty, use redirection server name, username
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 

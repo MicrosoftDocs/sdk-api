@@ -1,16 +1,16 @@
 ---
 UID: NF:tdh.TdhFormatProperty
 title: TdhFormatProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats a property value for display.
 old-location: etw\tdhformatproperty.htm
 old-project: ETW
 ms.assetid: ecc954f8-840e-4963-a0c8-64aac25355e3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TdhFormatProperty, TdhFormatProperty function [ETW], etw.tdhformatproperty, tdh/TdhFormatProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

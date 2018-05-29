@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupQueueCopyIndirectA
 title: SetupQueueCopyIndirectA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupQueueCopyIndirect function is an extended form of SetupQueueCopy passing additional parameters as a structure (SP_FILE_COPY_PARAMS). Other than this, the behavior is identical.
 old-location: setup\setupqueuecopyindirect.htm
 old-project: SetupApi
 ms.assetid: 5c81e83c-7ee3-489f-9d4c-f7c8a1c5cc5b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupQueueCopyIndirect, SetupQueueCopyIndirect function [Setup API], SetupQueueCopyIndirectA, SetupQueueCopyIndirectW, _setupapi_setupqueuecopyindirect, setup.setupqueuecopyindirect, setupapi/SetupQueueCopyIndirect, setupapi/SetupQueueCopyIndirectA, setupapi/SetupQueueCopyIndirectW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

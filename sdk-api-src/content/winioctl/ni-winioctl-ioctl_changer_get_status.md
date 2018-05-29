@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_GET_STATUS
 title: IOCTL_CHANGER_GET_STATUS
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current status of the specified device.
 old-location: base\ioctl_changer_get_status.htm
 old-project: DevIO
 ms.assetid: 6073230e-0ee7-40be-8fb5-1dd90c01de10
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: IOCTL_CHANGER_GET_STATUS, IOCTL_CHANGER_GET_STATUS control, IOCTL_CHANGER_GET_STATUS control code, _win32_ioctl_changer_get_status, base.ioctl_changer_get_status, winioctl/IOCTL_CHANGER_GET_STATUS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

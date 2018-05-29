@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2fs.IIsoImageManager
 title: IIsoImageManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to verify if an existing .iso file contains a valid file system for burning.
 old-location: imapi\iisoimagemanager.htm
 old-project: imapi
 ms.assetid: 47b059a9-a18a-4f32-9a02-6566175ca86b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IIsoImageManager, IIsoImageManager interface [IMAPI], IIsoImageManager interface [IMAPI],described, imapi.iisoimagemanager, imapi2fs/IIsoImageManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

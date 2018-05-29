@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_SERIAL_LSRMST_INSERT
 title: IOCTL_SERIAL_LSRMST_INSERT
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables the placement of line status and modem status values into the regular data stream that an application acquires through the ReadFile function.
 old-location: base\ioctl_serial_lsrmst_insert.htm
 old-project: DevIO
 ms.assetid: 9bd427da-1c14-403e-bebe-f64fe4e8723c
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: IOCTL_SERIAL_LSRMST_INSERT, IOCTL_SERIAL_LSRMST_INSERT control, IOCTL_SERIAL_LSRMST_INSERT control code, _win32_ioctl_serial_lsrmst_insert, base.ioctl_serial_lsrmst_insert, winioctl/IOCTL_SERIAL_LSRMST_INSERT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

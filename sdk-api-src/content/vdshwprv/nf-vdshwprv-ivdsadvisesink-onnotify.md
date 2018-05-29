@@ -1,16 +1,16 @@
 ---
 UID: NF:vdshwprv.IVdsAdviseSink.OnNotify
 title: IVdsAdviseSink::OnNotify
-author: windows-driver-content
+author: windows-sdk-content
 description: Passes notifications from providers to VDS, and from VDS to applications.
 old-location: base\ivdsadvisesink_onnotify.htm
 old-project: VDS
 ms.assetid: 0cf7bf55-922e-4092-bb2f-6423d9addb0c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsAdviseSink interface [VDS],OnNotify method, IVdsAdviseSink.OnNotify, IVdsAdviseSink::OnNotify, OnNotify, OnNotify method [VDS], OnNotify method [VDS],IVdsAdviseSink interface, base.ivdsadvisesink_onnotify, vds/IVdsAdviseSink::OnNotify, vdshwprv/IVdsAdviseSink::OnNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

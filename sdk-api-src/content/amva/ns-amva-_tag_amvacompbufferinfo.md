@@ -1,16 +1,16 @@
 ---
 UID: NS:amva._tag_AMVACompBufferInfo
 title: "_tag_AMVACompBufferInfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AMVACompBufferInfo structure describes the allocated surfaces and compressed buffer information.
 old-location: dshow\amvacompbufferinfo.htm
 old-project: DirectShow
 ms.assetid: 74ef5dfb-1062-40c6-a2dd-76f46ca8db92
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPAMVACompBufferInfo, AMVACompBufferInfo, AMVACompBufferInfo structure [DirectShow], AMVACompBufferInfoStructure, LPAMVACompBufferInfo, LPAMVACompBufferInfo structure pointer [DirectShow], _tag_AMVACompBufferInfo, amva/AMVACompBufferInfo, amva/LPAMVACompBufferInfo, dshow.amvacompbufferinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: amva.h
 req.include-header: Videoacc.h

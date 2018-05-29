@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._TOKEN_USER
 title: "_TOKEN_USER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the user associated with an access token.
 old-location: security\token_user.htm
 old-project: SecAuthZ
 ms.assetid: 5dd8172d-7b1a-4cc0-b667-5fe91d278393
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PTOKEN_USER, PTOKEN_USER, PTOKEN_USER structure pointer [Security], TOKEN_USER, TOKEN_USER structure [Security], _TOKEN_USER, _win32_token_user_str, security.token_user, winnt/PTOKEN_USER, winnt/TOKEN_USER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

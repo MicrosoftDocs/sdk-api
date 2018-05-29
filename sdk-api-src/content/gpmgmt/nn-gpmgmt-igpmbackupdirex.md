@@ -1,16 +1,16 @@
 ---
 UID: NN:gpmgmt.IGPMBackupDirEx
 title: IGPMBackupDirEx
-author: windows-driver-content
+author: windows-sdk-content
 description: The IGPMBackupDirEx interface supports methods that allow you to query GPMBackup, GPMBackupCollection, GPMStarterGPOBackup, and GPMStarterGPOBackupCollection objects when you are using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmbackupdirex.htm
 old-project: GPMC
 ms.assetid: 3008e70c-cc34-45b0-bdfc-17f2e9cd5de0
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMBackupDirEx, IGPMBackupDirEx, IGPMBackupDirEx interface [GPMC], IGPMBackupDirEx interface [GPMC],described, gpmc.igpmbackupdirex, gpmgmt/IGPMBackupDirEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

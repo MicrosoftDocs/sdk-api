@@ -1,16 +1,16 @@
 ---
 UID: NF:mgm.MgmGetNextMfe
 title: MgmGetNextMfe function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MgmGetNextMfe function retrieves one or more MFEs.
 old-location: rras\mgmgetnextmfe.htm
 old-project: RRAS
 ms.assetid: 067003ef-bb92-48cc-bc13-5b90066c9123
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MgmGetNextMfe, MgmGetNextMfe function [RAS], _mpr_mgmgetnextmfe, mgm/MgmGetNextMfe, rras.mgmgetnextmfe
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mgm.h
 req.include-header: 

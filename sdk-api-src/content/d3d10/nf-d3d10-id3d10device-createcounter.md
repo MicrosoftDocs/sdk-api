@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateCounter
 title: ID3D10Device::CreateCounter
-author: windows-driver-content
+author: windows-sdk-content
 description: Create a counter object for measuring GPU performance.
 old-location: direct3d10\id3d10device_createcounter.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createcounter.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 225224fa-54a2-8903-494c-754ad030e0af, CreateCounter, CreateCounter method [Direct3D 10], CreateCounter method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateCounter method, ID3D10Device.CreateCounter, ID3D10Device::CreateCounter, d3d10/ID3D10Device::CreateCounter, direct3d10.id3d10device_createcounter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

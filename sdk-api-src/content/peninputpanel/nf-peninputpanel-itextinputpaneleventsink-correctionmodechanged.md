@@ -1,16 +1,16 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.CorrectionModeChanged
 title: ITextInputPanelEventSink::CorrectionModeChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: Occurs when the correction comb on the Tablet PC Input Panel has changed modes.
 old-location: tablet\itextinputpaneleventsink_correctionmodechanged.htm
 old-project: tablet
 ms.assetid: 70c4dca4-274f-40ae-b71a-f86a2e8fbd3d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 70c4dca4-274f-40ae-b71a-f86a2e8fbd3d, CorrectionModeChanged, CorrectionModeChanged method [Tablet PC], CorrectionModeChanged method [Tablet PC],ITextInputPanelEventSink interface, ITextInputPanelEventSink interface [Tablet PC],CorrectionModeChanged method, ITextInputPanelEventSink.CorrectionModeChanged, ITextInputPanelEventSink::CorrectionModeChanged, peninputpanel/ITextInputPanelEventSink::CorrectionModeChanged, tablet.itextinputpaneleventsink_correctionmodechanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

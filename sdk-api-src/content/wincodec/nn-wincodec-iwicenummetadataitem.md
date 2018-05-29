@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICEnumMetadataItem
 title: IWICEnumMetadataItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that provide enumeration services for individual metadata items.
 old-location: wic\_wic_codec_iwicenummetadataitem.htm
 old-project: wic
 ms.assetid: 4fe0e47f-9ef4-4aa1-a3ae-578b3759f9ef
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICEnumMetadataItem, IWICEnumMetadataItem interface [Windows Imaging Component], IWICEnumMetadataItem interface [Windows Imaging Component],described, _wic_codec_iwicenummetadataitem, wic._wic_codec_iwicenummetadataitem, wincodec/IWICEnumMetadataItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

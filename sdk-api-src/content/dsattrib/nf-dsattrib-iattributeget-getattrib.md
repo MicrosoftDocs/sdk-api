@@ -1,16 +1,16 @@
 ---
 UID: NF:dsattrib.IAttributeGet.GetAttrib
 title: IAttributeGet::GetAttrib
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iattributeget_getattrib.htm
 old-project: mstv
 ms.assetid: df1aad0c-7e71-4110-8e05-0af33dd04859
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetAttrib, GetAttrib method [Microsoft TV Technologies], GetAttrib method [Microsoft TV Technologies],IAttributeGet interface, IAttributeGet interface [Microsoft TV Technologies],GetAttrib method, IAttributeGet.GetAttrib, IAttributeGet::GetAttrib, IAttributeGetGetAttrib, dsattrib/IAttributeGet::GetAttrib, mstv.iattributeget_getattrib
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dsattrib.h
 req.include-header: 

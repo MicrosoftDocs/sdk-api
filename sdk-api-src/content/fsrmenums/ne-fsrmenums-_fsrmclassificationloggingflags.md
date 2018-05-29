@@ -1,16 +1,16 @@
 ---
 UID: NE:fsrmenums._FsrmClassificationLoggingFlags
 title: "_FsrmClassificationLoggingFlags"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the different options for logging information while running classification.
 old-location: fsrm\fsrmclassificationloggingflags.htm
 old-project: Fsrm
 ms.assetid: 339a50d6-cc34-46ba-a116-745abe0d2871
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: FsrmClassificationLoggingFlags, FsrmClassificationLoggingFlags enumeration [File Server Resource Manager], FsrmClassificationLoggingFlags_ClassificationsInLogFile, FsrmClassificationLoggingFlags_ClassificationsInSystemLog, FsrmClassificationLoggingFlags_ErrorsInLogFile, FsrmClassificationLoggingFlags_ErrorsInSystemLog, FsrmClassificationLoggingFlags_None, _FsrmClassificationLoggingFlags, fs.fsrmclassificationloggingflags, fsrm.fsrmclassificationloggingflags, fsrmenums/FsrmClassificationLoggingFlags, fsrmenums/FsrmClassificationLoggingFlags_ClassificationsInLogFile, fsrmenums/FsrmClassificationLoggingFlags_ClassificationsInSystemLog, fsrmenums/FsrmClassificationLoggingFlags_ErrorsInLogFile, fsrmenums/FsrmClassificationLoggingFlags_ErrorsInSystemLog, fsrmenums/FsrmClassificationLoggingFlags_None
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmquota.IFsrmAutoApplyQuota
 title: IFsrmAutoApplyQuota
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to automatically add the quota to new and existing subdirectories of the directory on which the automatic quota is applied.
 old-location: fsrm\ifsrmautoapplyquota.htm
 old-project: Fsrm
 ms.assetid: 3eb30caa-ce29-4898-b1a7-bd905031ca98
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmAutoApplyQuota, IFsrmAutoApplyQuota interface [File Server Resource Manager], IFsrmAutoApplyQuota interface [File Server Resource Manager],described, fs.ifsrmautoapplyquota, fsrm.ifsrmautoapplyquota, fsrm/IFsrmAutoApplyQuota
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmquota.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

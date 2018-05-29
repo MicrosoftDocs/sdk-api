@@ -1,16 +1,16 @@
 ---
 UID: NE:vdslun._VDS_INTERCONNECT_ADDRESS_TYPE
 title: "_VDS_INTERCONNECT_ADDRESS_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of the valid address types of a physical interconnect.
 old-location: base\vds_interconnect_address_type.htm
 old-project: VDS
 ms.assetid: 20d75585-a80c-49bc-9f9c-5aae8e5f2c21
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_IA_FCFS, VDS_IA_FCPH, VDS_IA_FCPH3, VDS_IA_MAC, VDS_IA_SCSI, VDS_IA_UNKNOWN, VDS_INTERCONNECT_ADDRESS_TYPE, VDS_INTERCONNECT_ADDRESS_TYPE enumeration [VDS], _VDS_INTERCONNECT_ADDRESS_TYPE, base.vds_interconnect_address_type, vdslun/VDS_IA_FCFS, vdslun/VDS_IA_FCPH, vdslun/VDS_IA_FCPH3, vdslun/VDS_IA_MAC, vdslun/VDS_IA_SCSI, vdslun/VDS_IA_UNKNOWN, vdslun/VDS_INTERCONNECT_ADDRESS_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers

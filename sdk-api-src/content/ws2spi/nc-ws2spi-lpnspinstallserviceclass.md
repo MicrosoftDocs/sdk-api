@@ -1,16 +1,16 @@
 ---
 UID: NC:ws2spi.LPNSPINSTALLSERVICECLASS
 title: LPNSPINSTALLSERVICECLASS
-author: windows-driver-content
+author: windows-sdk-content
 description: The NSPInstallServiceClass function registers service class schema within the namespace providers.
 old-location: winsock\nspinstallserviceclass_2.htm
 old-project: WinSock
 ms.assetid: 437a3580-e296-4f20-8921-84e522cccc1a
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: LPNSPINSTALLSERVICECLASS, NSPInstallServiceClass, NSPInstallServiceClass function [Winsock], _win32_nspinstallserviceclass_2, winsock.nspinstallserviceclass_2, ws2spi/NSPInstallServiceClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

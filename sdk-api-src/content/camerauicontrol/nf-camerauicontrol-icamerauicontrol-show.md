@@ -1,16 +1,16 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.Show
 title: ICameraUIControl::Show
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays the user interface control for the camera.
 old-location: winprog\icamerauicontrol_show.htm
 old-project: DevNotes
 ms.assetid: 0426a6ce-9d3e-4ce1-8be8-5d216edc9f2f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ICameraUIControl interface [Windows API],Show method, ICameraUIControl.Show, ICameraUIControl::Show, Show, Show method [Windows API], Show method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::Show, winprog.icamerauicontrol_show
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: camerauicontrol.h
 req.include-header: 

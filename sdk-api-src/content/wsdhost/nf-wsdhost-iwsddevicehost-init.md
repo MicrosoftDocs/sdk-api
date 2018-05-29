@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.Init
 title: IWSDDeviceHost::Init
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an instance of an IWSDDeviceHost object.
 old-location: ncd\iwsddevicehost_init_method.htm
 old-project: WsdApi
 ms.assetid: a66f0600-0bac-4bef-af43-6db60b60605e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDDeviceHost interface,Init method, IWSDDeviceHost.Init, IWSDDeviceHost::Init, Init, Init method, Init method,IWSDDeviceHost interface, ncd.iwsddevicehost_init_method, wsdhost/IWSDDeviceHost::Init
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

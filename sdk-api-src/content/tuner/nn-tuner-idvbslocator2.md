@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IDVBSLocator2
 title: IDVBSLocator2
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information to enable a tuner to acquire a Digital Video Broadcasting-Satellite (DVB-S) transmission.
 old-location: mstv\idvbslocator2.htm
 old-project: mstv
 ms.assetid: 2f17c9a3-6ae8-4102-aee6-b2cb206d4952
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVBSLocator2, IDVBSLocator2 interface [Microsoft TV Technologies], IDVBSLocator2 interface [Microsoft TV Technologies],described, mstv.idvbslocator2, tuner/IDVBSLocator2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

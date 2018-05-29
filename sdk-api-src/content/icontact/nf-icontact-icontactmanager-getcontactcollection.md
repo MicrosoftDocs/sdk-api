@@ -1,16 +1,16 @@
 ---
 UID: NF:icontact.IContactManager.GetContactCollection
 title: IContactManager::GetContactCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an IContactCollection object that contains all known contacts.
 old-location: wincontacts\_wincontacts_IContactManager_GetContactCollection.htm
 old-project: wincontacts
 ms.assetid: 6b9d7ba5-e2cd-452f-8479-fdaad183b1ac
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetContactCollection, GetContactCollection method [Windows Contacts], GetContactCollection method [Windows Contacts],IContactManager interface, IContactManager interface [Windows Contacts],GetContactCollection method, IContactManager.GetContactCollection, IContactManager::GetContactCollection, _wincontacts_IContactManager_GetContactCollection, icontact/IContactManager::GetContactCollection, wincontacts._wincontacts_IContactManager_GetContactCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.TerminateAllProcesses
 title: IPackageDebugSettings::TerminateAllProcesses
-author: windows-driver-content
+author: windows-sdk-content
 description: Terminates all processes for the specified package.
 old-location: shell\IPackageDebugSettings_TerminateAllProcesses.htm
 old-project: shell
 ms.assetid: e49faeaa-8fd8-4233-94ac-0899177a9bb3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],TerminateAllProcesses method, IPackageDebugSettings.TerminateAllProcesses, IPackageDebugSettings::TerminateAllProcesses, TerminateAllProcesses, TerminateAllProcesses method [Windows Shell], TerminateAllProcesses method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_TerminateAllProcesses, shobjidl_core/IPackageDebugSettings::TerminateAllProcesses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmAddRouteToDest
 title: RtmAddRouteToDest function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmAddRouteToDest function adds a new route to the routing table or updates an existing route in the routing table. If the best route changes, a change notification is generated.
 old-location: rras\rtmaddroutetodest.htm
 old-project: RRAS
 ms.assetid: 422beb9b-b7e8-446f-8294-9f87a9f66f7a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RTM_ROUTE_CHANGE_BEST, RTM_ROUTE_CHANGE_FIRST, RTM_ROUTE_CHANGE_NEW, RtmAddRouteToDest, RtmAddRouteToDest function [RAS], _rtmv2ref_rtmaddroutetodest, rras.rtmaddroutetodest, rtmv2/RtmAddRouteToDest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

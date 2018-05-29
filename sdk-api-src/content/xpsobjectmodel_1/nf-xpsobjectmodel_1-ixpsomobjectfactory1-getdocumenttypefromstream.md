@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.GetDocumentTypeFromStream
 title: IXpsOMObjectFactory1::GetDocumentTypeFromStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Detects the type of XPS document that is stored in the specified stream.
 old-location: xps\ixpsomobjectfactory1_getdocumenttypefromstream.htm
 old-project: printdocs
 ms.assetid: 98d5bfc1-75f7-425f-b69d-11e74c15f08e
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetDocumentTypeFromStream, GetDocumentTypeFromStream method [XPS Documents and Packaging], GetDocumentTypeFromStream method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],GetDocumentTypeFromStream method, IXpsOMObjectFactory1.GetDocumentTypeFromStream, IXpsOMObjectFactory1::GetDocumentTypeFromStream, xps.ixpsomobjectfactory1_getdocumenttypefromstream, xpsobjectmodel_1/IXpsOMObjectFactory1::GetDocumentTypeFromStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 

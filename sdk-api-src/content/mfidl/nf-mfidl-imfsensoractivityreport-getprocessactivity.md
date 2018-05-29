@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorActivityReport.GetProcessActivity
 title: IMFSensorActivityReport::GetProcessActivity
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IMFSensorProcessActivity object representing the current process activity of a sensor.
 old-location: mf\imfsensoractivityreport_getprocessactivity.htm
 old-project: medfound
 ms.assetid: A9E18EC3-83E4-430B-B7A4-49FC9736A94E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetProcessActivity, GetProcessActivity method [Media Foundation], GetProcessActivity method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetProcessActivity method, IMFSensorActivityReport.GetProcessActivity, IMFSensorActivityReport::GetProcessActivity, mf.imfsensoractivityreport_getprocessactivity, mfidl/IMFSensorActivityReport::GetProcessActivity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

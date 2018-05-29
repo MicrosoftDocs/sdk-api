@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrCSpnIA
 title: StrCSpnIA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches a string for the first occurrence of any of a group of characters. The search method is not case-sensitive, and the terminating NULL character is included within the search pattern match.
 old-location: shell\StrCSpnI.htm
 old-project: shell
 ms.assetid: d21eb80b-5f02-4eb7-9a22-02425b7050b3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrCSpnI, StrCSpnI function [Windows Shell], StrCSpnIA, StrCSpnIW, _win32_StrCSpnI, shell.StrCSpnI, shlwapi/StrCSpnI, shlwapi/StrCSpnIA, shlwapi/StrCSpnIW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

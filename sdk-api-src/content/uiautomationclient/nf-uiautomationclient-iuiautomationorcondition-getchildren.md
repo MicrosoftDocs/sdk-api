@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationOrCondition.GetChildren
 title: IUIAutomationOrCondition::GetChildren
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the conditions that make up this condition.
 old-location: winauto\uiauto_IUIAutomationOrCondition_GetChildren.htm
 old-project: WinAuto
 ms.assetid: b1af107d-2916-4061-9515-002c3af6eb00
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetChildren, GetChildren method [Windows Accessibility], GetChildren method [Windows Accessibility],IUIAutomationOrCondition interface, IUIAutomationOrCondition interface [Windows Accessibility],GetChildren method, IUIAutomationOrCondition.GetChildren, IUIAutomationOrCondition::GetChildren, uiauto.uiauto_IUIAutomationOrCondition_GetChildren, uiauto_IUIAutomationOrCondition_GetChildren, uiautomationclient/IUIAutomationOrCondition::GetChildren, winauto.uiauto_IUIAutomationOrCondition_GetChildren
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

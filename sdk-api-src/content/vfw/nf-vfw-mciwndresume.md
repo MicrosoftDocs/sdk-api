@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.MCIWndResume
 title: MCIWndResume macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCIWndResume macro resumes playback or recording content from the paused mode. This macro restarts playback or recording from the current position in the content. You can use this macro or explicitly send the MCI_RESUME command.
 old-location: multimedia\mciwndresume.htm
 old-project: Multimedia
 ms.assetid: 08b0dc42-edf2-485b-8b00-164157117a32
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MCIWndResume, MCIWndResume macro [Windows Multimedia], _win32_MCIWndResume, multimedia.mciwndresume, vfw/MCIWndResume
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.MonthCal_GetCalendarCount
 title: MonthCal_GetCalendarCount macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of calendars currently displayed in the calendar control. You can use this macro or send the MCM_GETCALENDARCOUNT message explicitly.
 old-location: controls\MonthCal_GetCalendarCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendarcount.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MonthCal_GetCalendarCount, MonthCal_GetCalendarCount macro [Windows Controls], _shell_MonthCal_GetCalendarCount, _shell_MonthCal_GetCalendarCount_cpp, commctrl/MonthCal_GetCalendarCount, controls.MonthCal_GetCalendarCount, controls._shell_MonthCal_GetCalendarCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

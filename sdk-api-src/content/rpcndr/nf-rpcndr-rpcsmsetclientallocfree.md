@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.RpcSmSetClientAllocFree
 title: RpcSmSetClientAllocFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcSmSetClientAllocFree function enables the memory allocation and release mechanisms used by the client stubs.
 old-location: rpc\rpcsmsetclientallocfree.htm
 old-project: Rpc
 ms.assetid: f6b6db72-c9af-44d1-9f84-26aaaa17691c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcSmSetClientAllocFree, RpcSmSetClientAllocFree function [RPC], _rpc_rpcsmsetclientallocfree, rpc.rpcsmsetclientallocfree, rpcndr/RpcSmSetClientAllocFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

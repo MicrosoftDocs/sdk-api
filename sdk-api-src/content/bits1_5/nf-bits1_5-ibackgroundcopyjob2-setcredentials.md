@@ -1,16 +1,16 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.SetCredentials
 title: IBackgroundCopyJob2::SetCredentials
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the credentials to use for a proxy or remote server user authentication request.
 old-location: bits\ibackgroundcopyjob2_setcredentials.htm
 old-project: Bits
 ms.assetid: adaffc21-7df1-48ca-8e05-bdb09663a49b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetCredentials method, IBackgroundCopyJob2.SetCredentials, IBackgroundCopyJob2::SetCredentials, SetCredentials, SetCredentials method [BITS], SetCredentials method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setcredentials, bits.ibackgroundcopyjob2_setcredentials, bits1_5/IBackgroundCopyJob2::SetCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits1_5.h
 req.include-header: Bits.h

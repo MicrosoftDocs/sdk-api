@@ -1,16 +1,16 @@
 ---
 UID: NE:imapi2._IMAPI_FORMAT2_RAW_CD_WRITE_ACTION
 title: "_IMAPI_FORMAT2_RAW_CD_WRITE_ACTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values that indicate the current state of the write operation when using the IDiscFormat2RawCDEventArgs interface.
 old-location: imapi\imapi_format2_raw_cd_write_action.htm
 old-project: imapi
 ms.assetid: eb19b3e1-59b2-4649-87c5-057d50213ef2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PIMAPI_FORMAT2_RAW_CD_WRITE_ACTION, IMAPI_FORMAT2_RAW_CD_WRITE_ACTION, IMAPI_FORMAT2_RAW_CD_WRITE_ACTION enumeration [IMAPI], IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_FINISHING, IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_PREPARING, IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_UNKNOWN, IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_WRITING, PIMAPI_FORMAT2_RAW_CD_WRITE_ACTION, PIMAPI_FORMAT2_RAW_CD_WRITE_ACTION enumeration pointer [IMAPI], _IMAPI_FORMAT2_RAW_CD_WRITE_ACTION, imapi.imapi_format2_raw_cd_write_action, imapi2/IMAPI_FORMAT2_RAW_CD_WRITE_ACTION, imapi2/IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_FINISHING, imapi2/IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_PREPARING, imapi2/IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_UNKNOWN, imapi2/IMAPI_FORMAT2_RAW_CD_WRITE_ACTION_WRITING, imapi2/PIMAPI_FORMAT2_RAW_CD_WRITE_ACTION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: imapi2.h
 req.include-header: 

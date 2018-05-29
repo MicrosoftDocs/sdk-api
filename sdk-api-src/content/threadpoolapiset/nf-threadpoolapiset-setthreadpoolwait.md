@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolWait
 title: SetThreadpoolWait function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the wait object&#8212;replacing the previous wait object, if any. A worker thread calls the wait object's callback function after the handle becomes signaled or after the specified timeout expires.
 old-location: base\setthreadpoolwait.htm
 old-project: ProcThread
 ms.assetid: ebd0ecad-a864-43cf-a1cb-e4c2d595ef81
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetThreadpoolWait, SetThreadpoolWait function, base.setthreadpoolwait, threadpoolapiset/SetThreadpoolWait, winbase/SetThreadpoolWait
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

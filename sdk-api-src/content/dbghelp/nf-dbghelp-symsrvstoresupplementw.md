@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymSrvStoreSupplementW
 title: SymSrvStoreSupplementW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores a file in the specified supplement to a symbol store. The file is typically associated with a file in the symbol server.
 old-location: base\symsrvstoresupplement.htm
 old-project: Debug
 ms.assetid: 579bd9ff-cb23-426b-8188-6897d83ada28
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymSrvStoreSupplement, SymSrvStoreSupplement function, SymSrvStoreSupplementW, base.symsrvstoresupplement, dbghelp/SymSrvStoreSupplement, dbghelp/SymSrvStoreSupplementW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

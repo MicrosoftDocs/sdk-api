@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_ROOT_DESCRIPTOR_TABLE1
 title: D3D12_ROOT_DESCRIPTOR_TABLE1
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the root signature 1.1 layout of a descriptor table as a collection of descriptor ranges that appear one after the other in a descriptor heap.
 old-location: direct3d12\d3d12_root_descriptor_table1.htm
 old-project: direct3d12
 ms.assetid: 1D9D1846-2BE2-4B88-8D23-5A27173918DD
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_ROOT_DESCRIPTOR_TABLE1, D3D12_ROOT_DESCRIPTOR_TABLE1 structure, d3d12/D3D12_ROOT_DESCRIPTOR_TABLE1, direct3d12.d3d12_root_descriptor_table1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

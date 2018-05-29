@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidClosedCaptioning.put_Enable
 title: IMSVidClosedCaptioning::put_Enable
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Enable method enables or disables closed captioning.
 old-location: mstv\imsvidclosedcaptioning_put_enable.htm
 old-project: mstv
 ms.assetid: 2485b634-24e9-4945-ae46-0ca7fdb9d92b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidClosedCaptioning interface [Microsoft TV Technologies],put_Enable method, IMSVidClosedCaptioning.put_Enable, IMSVidClosedCaptioning::put_Enable, IMSVidClosedCaptioningput_Enable, mstv.imsvidclosedcaptioning_put_enable, put_Enable, put_Enable method [Microsoft TV Technologies], put_Enable method [Microsoft TV Technologies],IMSVidClosedCaptioning interface, segment/IMSVidClosedCaptioning::put_Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

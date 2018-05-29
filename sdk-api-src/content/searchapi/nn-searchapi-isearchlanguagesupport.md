@@ -1,16 +1,16 @@
 ---
 UID: NN:searchapi.ISearchLanguageSupport
 title: ISearchLanguageSupport
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for accessing thesaurus information.
 old-location: search\_search_ISearchLanguageSupport.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\isearchlanguagesupport.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchLanguageSupport, ISearchLanguageSupport interface [search], ISearchLanguageSupport interface [search],described, _search_ISearchLanguageSupport, search._search_ISearchLanguageSupport, searchapi/ISearchLanguageSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

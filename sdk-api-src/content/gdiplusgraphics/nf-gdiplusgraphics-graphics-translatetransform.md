@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.TranslateTransform
 title: Graphics::TranslateTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: The Graphics::TranslateTransform method updates this Graphics object's world transformation matrix with the product of itself and a translation matrix.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_TranslateTransform_dx_dy_order_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\translatetransform.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Graphics class [GDI+],TranslateTransform method, Graphics.TranslateTransform, Graphics::TranslateTransform, TranslateTransform, TranslateTransform method [GDI+], TranslateTransform method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_TranslateTransform_dx_dy_order_, gdiplus._gdiplus_CLASS_Graphics_TranslateTransform_dx_dy_order_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

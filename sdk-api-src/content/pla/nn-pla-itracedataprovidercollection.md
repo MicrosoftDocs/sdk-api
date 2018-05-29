@@ -1,16 +1,16 @@
 ---
 UID: NN:pla.ITraceDataProviderCollection
 title: ITraceDataProviderCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages a collection of TraceDataProvider objects.To get this interface, access the ITraceDataCollector::TraceDataProviders property.You can also call the CoCreateInstance function to create a new instance of the TraceDataProviderCollection object.
 old-location: pla\itracedataprovidercollection.htm
 old-project: PLA
 ms.assetid: 74300222-dca4-4871-bae3-0c3182fbc539
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ITraceDataProviderCollection, ITraceDataProviderCollection interface [PLA], ITraceDataProviderCollection interface [PLA],described, base.itracedataprovidercollection, pla.itracedataprovidercollection, pla/ITraceDataProviderCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

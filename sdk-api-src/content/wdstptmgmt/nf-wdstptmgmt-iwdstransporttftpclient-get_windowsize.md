@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_WindowSize
 title: IWdsTransportTftpClient::get_WindowSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives the current window size being used in the TFTP session. The window size used during a TFTP session can be updated by the client through ACK packets when using the variable-window TFTP extension.
 old-location: wds\iwdstransporttftpclient_windowsize.htm
 old-project: Wds
 ms.assetid: F7769EE5-1819-4CB9-B902-AF3A0EA098F9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportTftpClient interface [Windows Deployment Services],WindowSize property, IWdsTransportTftpClient.WindowSize, IWdsTransportTftpClient.get_WindowSize, IWdsTransportTftpClient::WindowSize, IWdsTransportTftpClient::get_WindowSize, WindowSize property [Windows Deployment Services], WindowSize property [Windows Deployment Services],IWdsTransportTftpClient interface, get_WindowSize, wds.iwdstransporttftpclient_windowsize, wdstptmgmt/IWdsTransportTftpClient::WindowSize, wdstptmgmt/IWdsTransportTftpClient::get_WindowSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

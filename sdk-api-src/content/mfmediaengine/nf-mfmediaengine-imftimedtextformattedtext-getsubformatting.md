@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextFormattedText.GetSubformatting
 title: IMFTimedTextFormattedText::GetSubformatting
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a subformat in the formatted timed-text object.
 old-location: mf\imftimedtextformattedtext_getsubformatting.htm
 old-project: medfound
 ms.assetid: EC6F41A4-BB07-419B-BE03-8D82709D9A24
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSubformatting, GetSubformatting method [Media Foundation], GetSubformatting method [Media Foundation],IMFTimedTextFormattedText interface, IMFTimedTextFormattedText interface [Media Foundation],GetSubformatting method, IMFTimedTextFormattedText.GetSubformatting, IMFTimedTextFormattedText::GetSubformatting, mf.imftimedtextformattedtext_getsubformatting, mfmediaengine/IMFTimedTextFormattedText::GetSubformatting
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

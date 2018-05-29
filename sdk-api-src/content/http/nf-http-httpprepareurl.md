@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HttpPrepareUrl
 title: HttpPrepareUrl function
-author: windows-driver-content
+author: windows-sdk-content
 description: Parses, analyzes, and normalizes a non-normalized Unicode or punycode URL so it is safe and valid to use in other HTTP functions.
 old-location: http\httpprepareurl.htm
 old-project: Http
 ms.assetid: 45199AEE-950D-44C4-8590-96077DBDC846
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HttpPrepareUrl, HttpPrepareUrl function [HTTP], http.httpprepareurl, http/HttpPrepareUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: http.h
 req.include-header: 

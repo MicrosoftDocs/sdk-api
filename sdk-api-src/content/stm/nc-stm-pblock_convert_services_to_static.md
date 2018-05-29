@@ -1,16 +1,16 @@
 ---
 UID: NC:stm.PBLOCK_CONVERT_SERVICES_TO_STATIC
 title: PBLOCK_CONVERT_SERVICES_TO_STATIC
-author: windows-driver-content
+author: windows-sdk-content
 description: The BlockConvertServicesToStatic function converts all services received on a specified interface to static.
 old-location: rras\blockconvertservicestostatic.htm
 old-project: RRAS
 ms.assetid: 60d1ee7b-bba3-4dd1-8faf-520a2e3cfad3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: BlockConvertServicesToStatic, BlockConvertServicesToStatic callback function [RAS], PBLOCK_CONVERT_SERVICES_TO_STATIC, PBLOCK_CONVERT_SERVICES_TO_STATIC callback, _mpr_blockconvertservicestostatic, rras.blockconvertservicestostatic, stm/BlockConvertServicesToStatic
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: stm.h
 req.include-header: 

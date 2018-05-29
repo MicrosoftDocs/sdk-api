@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.GetLevel
 title: IPerChannelDbLevel::GetLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetLevel method gets the volume level, in decibels, of the specified channel.
 old-location: coreaudio\iperchanneldblevel_getlevel.htm
 old-project: CoreAudio
 ms.assetid: afc76c80-1656-4f06-8024-c9b041f52e64
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetLevel, GetLevel method [Core Audio], GetLevel method [Core Audio],IPerChannelDbLevel interface, IPerChannelDbLevel interface [Core Audio],GetLevel method, IPerChannelDbLevel.GetLevel, IPerChannelDbLevel::GetLevel, IPerChannelDbLevelGetLevel, coreaudio.iperchanneldblevel_getlevel, devicetopology/IPerChannelDbLevel::GetLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

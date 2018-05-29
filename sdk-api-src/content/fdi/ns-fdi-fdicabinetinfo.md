@@ -1,16 +1,16 @@
 ---
 UID: NS:fdi.FDICABINETINFO
 title: FDICABINETINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The FDICABINETINFO structure contains details about a particular cabinet file.
 old-location: winprog\fdicabinetinfo.htm
 old-project: DevNotes
 ms.assetid: fde1a2ca-60cd-4a4d-9872-681e2f8f4fb1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PFDICABINETINFO, FDICABINETINFO, FDICABINETINFO FAR *PFDICABINETINFO, FDICABINETINFO FAR *PFDICABINETINFO structure [Windows API], FDICABINETINFO structure [Windows API], fdi/FDICABINETINFO, winprog.fdicabinetinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fdi.h
 req.include-header: 

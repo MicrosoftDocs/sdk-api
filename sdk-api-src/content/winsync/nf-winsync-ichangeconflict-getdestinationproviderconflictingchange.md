@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IChangeConflict.GetDestinationProviderConflictingChange
 title: IChangeConflict::GetDestinationProviderConflictingChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the change metadata from the destination provider.
 old-location: winsync\ichangeconflict_getdestinationproviderconflictingchange.htm
 old-project: winsync
 ms.assetid: 4624f92a-8455-4490-a256-9cf849626844
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetDestinationProviderConflictingChange, GetDestinationProviderConflictingChange method [Windows Sync], GetDestinationProviderConflictingChange method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetDestinationProviderConflictingChange method, IChangeConflict.GetDestinationProviderConflictingChange, IChangeConflict::GetDestinationProviderConflictingChange, winsync.ichangeconflict_getdestinationproviderconflictingchange, winsync/IChangeConflict::GetDestinationProviderConflictingChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

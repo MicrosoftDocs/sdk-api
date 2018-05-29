@@ -1,16 +1,16 @@
 ---
 UID: NN:spatialaudioclient.ISpatialAudioObject
 title: ISpatialAudioObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an object that provides audio data to be rendered from a position in 3D space, relative to the user.
 old-location: coreaudio\ispatialaudioobject.htm
 old-project: CoreAudio
 ms.assetid: EE83AF5F-4342-4CF2-81A7-1123F8DAFA6F
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISpatialAudioObject, ISpatialAudioObject interface [Core Audio], ISpatialAudioObject interface [Core Audio],described, coreaudio.ispatialaudioobject, spatialaudioclient/ISpatialAudioObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudioclient.h
 req.include-header: 

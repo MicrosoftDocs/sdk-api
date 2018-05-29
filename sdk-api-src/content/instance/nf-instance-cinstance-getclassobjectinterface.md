@@ -1,16 +1,16 @@
 ---
 UID: NF:instance.CInstance.GetClassObjectInterface
 title: CInstance::GetClassObjectInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetClassObjectInterface method returns an IWbemClassObject interface pointer.
 old-location: wmi\cinstance_getclassobjectinterface.htm
 old-project: WmiSdk
 ms.assetid: 2b5e5c14-c036-4ed5-8a47-9a67860e5585
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?GetClassObjectInterface@CInstance@@QAEPAUIWbemClassObject@@XZ, ?GetClassObjectInterface@CInstance@@QEAAPEAUIWbemClassObject@@XZ, CInstance interface [Windows Management Instrumentation],GetClassObjectInterface method, CInstance.GetClassObjectInterface, CInstance::GetClassObjectInterface, GetClassObjectInterface, GetClassObjectInterface method [Windows Management Instrumentation], GetClassObjectInterface method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getclassobjectinterface, instance/CInstance::GetClassObjectInterface, wmi.cinstance_getclassobjectinterface"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h

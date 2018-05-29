@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.IntToUInt
 title: IntToUInt function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type INT to a value of type UINT.
 old-location: shell\IntToUInt.htm
 old-project: shell
 ms.assetid: 54fe3370-648a-40ab-856b-d34c0c033141
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IntToUInt, IntToUInt function [Windows Shell], _shell_IntToUInt, intsafe/IntToUInt, shell.IntToUInt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

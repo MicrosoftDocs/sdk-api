@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_SECURITY_BINDING_PROPERTIES
 title: "_WS_SECURITY_BINDING_PROPERTIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies an array of security binding settings.
 old-location: wsw\ws_security_binding_properties.htm
 old-project: wsw
 ms.assetid: 4b36e801-dea9-44fe-ae12-104ea7dce1ee
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SECURITY_BINDING_PROPERTIES, WS_SECURITY_BINDING_PROPERTIES structure [Web Services for Windows], _WS_SECURITY_BINDING_PROPERTIES, webservices/WS_SECURITY_BINDING_PROPERTIES, wsw.ws_security_binding_properties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

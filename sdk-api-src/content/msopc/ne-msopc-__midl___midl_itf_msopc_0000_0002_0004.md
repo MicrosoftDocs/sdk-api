@@ -1,16 +1,16 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0000_0002_0004
 title: "__MIDL___MIDL_itf_msopc_0000_0002_0004"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the read settings for caching package components and validating them against ECMA-376 OpenXML, 1st Edition, Part 2:\_Open Packaging Conventions (OPC) conformance requirements.
 old-location: opc\opc_read_flags.htm
 old-project: OPC
 ms.assetid: f7d21dac-c606-4a6a-9d6a-cf6f8ec4dbb5
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: OPC_CACHE_ON_ACCESS, OPC_READ_DEFAULT, OPC_READ_FLAGS, OPC_READ_FLAGS enumeration [Open Packaging Conventions], OPC_VALIDATE_ON_LOAD, __MIDL___MIDL_itf_msopc_0000_0002_0004, msopc/OPC_CACHE_ON_ACCESS, msopc/OPC_READ_DEFAULT, msopc/OPC_READ_FLAGS, msopc/OPC_VALIDATE_ON_LOAD, opc.opc_read_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msopc.h
 req.include-header: 

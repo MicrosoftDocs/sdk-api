@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.SetProgressDialog
 title: IFileOperation::SetProgressDialog
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a dialog box used to display the progress of the operation.
 old-location: shell\IFileOperation_SetProgressDialog.htm
 old-project: shell
 ms.assetid: 34cc6b88-9791-4778-a8d9-cf1b80aa42a8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileOperation interface [Windows Shell],SetProgressDialog method, IFileOperation.SetProgressDialog, IFileOperation::SetProgressDialog, SetProgressDialog, SetProgressDialog method [Windows Shell], SetProgressDialog method [Windows Shell],IFileOperation interface, _shell_IFileOperation_SetProgressDialog, shell.IFileOperation_SetProgressDialog, shobjidl_core/IFileOperation::SetProgressDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

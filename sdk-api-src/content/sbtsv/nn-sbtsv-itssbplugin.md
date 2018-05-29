@@ -1,16 +1,16 @@
 ---
 UID: NN:sbtsv.ITsSbPlugin
 title: ITsSbPlugin
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that initialize and terminate plug-ins.
 old-location: termserv\itssbplugin.htm
 old-project: TermServ
 ms.assetid: db3d3ee7-9e53-4bac-9711-4e85f1016db9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbPlugin, ITsSbPlugin interface [Remote Desktop Services], ITsSbPlugin interface [Remote Desktop Services],described, sbtsv/ITsSbPlugin, termserv.itssbplugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

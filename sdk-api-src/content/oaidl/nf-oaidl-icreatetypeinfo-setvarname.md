@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetVarName
 title: ICreateTypeInfo::SetVarName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the name of a variable.
 old-location: automat\icreatetypeinfo_setvarname.htm
 old-project: automat
 ms.assetid: 9f51fc2a-74cc-4aab-89b7-0237c14ff7f5
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetVarName method, ICreateTypeInfo.SetVarName, ICreateTypeInfo::SetVarName, SetVarName, SetVarName method [Automation], SetVarName method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVarName, automat.icreatetypeinfo_setvarname, oaidl/ICreateTypeInfo::SetVarName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

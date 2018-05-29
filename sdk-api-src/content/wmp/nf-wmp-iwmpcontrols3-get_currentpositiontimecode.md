@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPControls3.get_currentPositionTimecode
 title: IWMPControls3::get_currentPositionTimecode
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_currentPositionTimecode method retrieves the current position in the current media item using a time code format. This method currently supports SMPTE time code.
 old-location: wmp\iwmpcontrols3_get_currentpositiontimecode.htm
 old-project: WMP
 ms.assetid: dbf981d7-1787-462c-b0d2-fd705f07ee23
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],get_currentPositionTimecode method, IWMPControls3.get_currentPositionTimecode, IWMPControls3::get_currentPositionTimecode, IWMPControls3get_currentPositionTimecode, get_currentPositionTimecode, get_currentPositionTimecode method [Windows Media Player], get_currentPositionTimecode method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_get_currentpositiontimecode, wmp/IWMPControls3::get_currentPositionTimecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

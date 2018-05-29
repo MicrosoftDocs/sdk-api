@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.put_AllowPersonalCoverPages
 title: IFaxOutgoingQueue::put_AllowPersonalCoverPages
-author: windows-driver-content
+author: windows-sdk-content
 description: The AllowPersonalCoverPages property is a Boolean value that indicates whether fax client applications can include a user-designed cover page with fax transmissions.
 old-location: fax\_mfax_faxoutgoingqueue_allowpersonalcoverpages_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5cc3.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: AllowPersonalCoverPages property [Fax Service], AllowPersonalCoverPages property [Fax Service],FaxOutgoingQueue object, FaxOutgoingQueue object [Fax Service],AllowPersonalCoverPages property, FaxOutgoingQueue.AllowPersonalCoverPages, IFaxOutgoingQueue.put_AllowPersonalCoverPages, IFaxOutgoingQueue::put_AllowPersonalCoverPages, _mfax_faxoutgoingqueue.allowpersonalcoverpages, fax._mfax_faxoutgoingqueue_allowpersonalcoverpages, fax._mfax_faxoutgoingqueue_allowpersonalcoverpages_vb, put_AllowPersonalCoverPages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

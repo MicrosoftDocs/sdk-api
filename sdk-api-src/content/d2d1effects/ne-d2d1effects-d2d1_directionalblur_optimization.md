@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1effects.D2D1_DIRECTIONALBLUR_OPTIMIZATION
 title: D2D1_DIRECTIONALBLUR_OPTIMIZATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the optimization mode for the Directional blur effect.
 old-location: direct2d\d2d1_directionalblur_optimization.htm
 old-project: Direct2D
 ms.assetid: 28B99069-3380-4D44-82A1-9A8F551B3C45
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_DIRECTIONALBLUR_OPTIMIZATION, D2D1_DIRECTIONALBLUR_OPTIMIZATION enumeration [Direct2D], D2D1_DIRECTIONALBLUR_OPTIMIZATION_BALANCED, D2D1_DIRECTIONALBLUR_OPTIMIZATION_QUALITY, D2D1_DIRECTIONALBLUR_OPTIMIZATION_SPEED, d2d1effects/D2D1_DIRECTIONALBLUR_OPTIMIZATION, d2d1effects/D2D1_DIRECTIONALBLUR_OPTIMIZATION_BALANCED, d2d1effects/D2D1_DIRECTIONALBLUR_OPTIMIZATION_QUALITY, d2d1effects/D2D1_DIRECTIONALBLUR_OPTIMIZATION_SPEED, direct2d.d2d1_directionalblur_optimization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 

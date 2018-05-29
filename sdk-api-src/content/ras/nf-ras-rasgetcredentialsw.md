@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasGetCredentialsW
 title: RasGetCredentialsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasGetCredentials function retrieves the user credentials associated with a specified RAS phone-book entry.
 old-location: rras\rasgetcredentials.htm
 old-project: RRAS
 ms.assetid: 37b67845-dd9f-4adc-a33a-f0e5c0bdb6f7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasGetCredentials, RasGetCredentials function [RAS], RasGetCredentialsA, RasGetCredentialsW, _ras_rasgetcredentials, ras/RasGetCredentials, ras/RasGetCredentialsA, ras/RasGetCredentialsW, rras.rasgetcredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

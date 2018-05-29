@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiGetDevicePropertyKeys
 title: SetupDiGetDevicePropertyKeys function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiGetDevicePropertyKeys function retrieves an array of the device property keys that represent the device properties that are set for a device instance.
 old-location: devinst\setupdigetdevicepropertykeys.htm
 old-project: devinst
 ms.assetid: d4decdab-e412-4719-ad65-74f34cf8df27
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiGetDevicePropertyKeys, SetupDiGetDevicePropertyKeys function [Device and Driver Installation], devinst.setupdigetdevicepropertykeys, di-rtns_49d5f09f-3d86-4292-a389-e6a0ee0946b6.xml, setupapi/SetupDiGetDevicePropertyKeys
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NC:msacm.ACMFORMATCHOOSEHOOKPROC
 title: ACMFORMATCHOOSEHOOKPROC
-author: windows-driver-content
+author: windows-sdk-content
 description: The acmFormatChooseHookProc function specifies a user-defined function that hooks the acmFormatChoose dialog box. The acmFormatChooseHookProc name is a placeholder for an application-defined name.
 old-location: multimedia\acmformatchoosehookproc.htm
 old-project: Multimedia
 ms.assetid: 75b11c0f-ae85-424d-b936-492d67440659
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_acmFormatChooseHookProc, acmFormatChooseHookProc, acmFormatChooseHookProc callback, acmFormatChooseHookProc callback function [Windows Multimedia], msacm/acmFormatChooseHookProc, multimedia.acmformatchoosehookproc"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: msacm.h
 req.include-header: 

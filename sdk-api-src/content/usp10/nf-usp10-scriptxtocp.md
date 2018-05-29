@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptXtoCP
 title: ScriptXtoCP function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates the leading or trailing edge of a logical character cluster from the x offset of a run.
 old-location: intl\scriptxtocp.htm
 old-project: Intl
 ms.assetid: 98548d60-4cbd-4808-8027-1d8058c41d6d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptXtoCP, ScriptXtoCP function [Internationalization for Windows Applications], _win32_ScriptXtoCP, intl.scriptxtocp, usp10/ScriptXtoCP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

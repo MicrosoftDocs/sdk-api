@@ -1,16 +1,16 @@
 ---
 UID: NS:restartmanager._RM_UNIQUE_PROCESS
 title: "_RM_UNIQUE_PROCESS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Uniquely identifies a process by its PID and the time the process began.
 old-location: rstmgr\rm_unique_process.htm
 old-project: RstMgr
 ms.assetid: 5e3698c7-1ea8-4f9d-8fae-e69055a000fc
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PRM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS structure [Restart Mgr], RM_UNIQUE_PROCESS, RM_UNIQUE_PROCESS structure [Restart Mgr], _RM_UNIQUE_PROCESS, restartmanager/*PRM_UNIQUE_PROCESS, restartmanager/_RM_UNIQUE_PROCESS, rstmgr.rm_unique_process"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: restartmanager.h
 req.include-header: 

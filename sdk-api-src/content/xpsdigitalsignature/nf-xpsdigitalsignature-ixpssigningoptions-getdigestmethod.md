@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetDigestMethod
 title: IXpsSigningOptions::GetDigestMethod
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current digest method.
 old-location: xps\ixpssigningoptions_getdigestmethod.htm
 old-project: printdocs
 ms.assetid: b8976719-970b-4598-8f1c-0ef2446ae12b
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetDigestMethod, GetDigestMethod method [XPS Documents and Packaging], GetDigestMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetDigestMethod method, IXpsSigningOptions.GetDigestMethod, IXpsSigningOptions::GetDigestMethod, xps.ixpssigningoptions_getdigestmethod, xpsdigitalsignature/IXpsSigningOptions::GetDigestMethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

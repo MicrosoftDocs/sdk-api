@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.PrintWindow
 title: PrintWindow function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PrintWindow function copies a visual window into the specified device context (DC), typically a printer DC.
 old-location: gdi\printwindow.htm
 old-project: printdocs
 ms.assetid: 00b38cd8-1cfb-408e-88da-6e61563d9d8e
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PW_CLIENTONLY, PrintWindow, PrintWindow function [Windows GDI], _win32_PrintWindow, gdi.printwindow, winuser/PrintWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

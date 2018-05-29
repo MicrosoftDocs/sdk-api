@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsPropertyList.Next
 title: IADsPropertyList::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsPropertyList::Next method gets the next item in the property list. The returned item is a Property Entry object.
 old-location: adsi\iadspropertylist_next.htm
 old-project: ADSI
 ms.assetid: 2a12ba88-363b-41e3-bd05-8a71f5317097
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsPropertyList interface [ADSI],Next method, IADsPropertyList.Next, IADsPropertyList::Next, Next, Next method [ADSI], Next method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_next, adsi.iadspropertylist__next, adsi.iadspropertylist_next, iads/IADsPropertyList::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

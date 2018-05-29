@@ -1,16 +1,16 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth8.StopVoice
 title: IDirectMusicSynth8::StopVoice
-author: windows-driver-content
+author: windows-sdk-content
 description: StopVoice is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8_stopvoice.htm
 old-project: audio
 ms.assetid: 9DF47B73-B8D1-49C8-8839-7AB0700CC4CC
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],StopVoice method, IDirectMusicSynth8.StopVoice, IDirectMusicSynth8::StopVoice, StopVoice, StopVoice method [Audio Devices], StopVoice method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_stopvoice, dmusics/IDirectMusicSynth8::StopVoice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: 

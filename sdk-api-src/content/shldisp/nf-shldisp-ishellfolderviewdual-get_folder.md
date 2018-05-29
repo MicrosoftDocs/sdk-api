@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual.get_Folder
 title: IShellFolderViewDual::get_Folder
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the Folder object that represents the view.
 old-location: shell\IShellFolderViewDual_get_Folder.htm
 old-project: shell
 ms.assetid: 62af6b31-89bf-4965-a739-659f4fd932e3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],get_Folder method, IShellFolderViewDual.get_Folder, IShellFolderViewDual::get_Folder, _shell_IShellFolderViewDual_get_Folder, get_Folder, get_Folder method [Windows Shell], get_Folder method [Windows Shell],IShellFolderViewDual interface, shell.IShellFolderViewDual_get_Folder, shldisp/IShellFolderViewDual::get_Folder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

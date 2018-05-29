@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.GetAttributeValue
 title: IUIAutomationTextRange::GetAttributeValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of the specified text attribute across the entire text range.
 old-location: winauto\uiauto_IUIAutomationTextRange_GetAttributeValue.htm
 old-project: WinAuto
 ms.assetid: 7a77774e-7be0-473e-a0c9-e1aa108549e1
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetAttributeValue, GetAttributeValue method [Windows Accessibility], GetAttributeValue method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],GetAttributeValue method, IUIAutomationTextRange.GetAttributeValue, IUIAutomationTextRange::GetAttributeValue, uiauto.uiauto_IUIAutomationTextRange_GetAttributeValue, uiauto_IUIAutomationTextRange_GetAttributeValue, uiautomationclient/IUIAutomationTextRange::GetAttributeValue, winauto.uiauto_IUIAutomationTextRange_GetAttributeValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

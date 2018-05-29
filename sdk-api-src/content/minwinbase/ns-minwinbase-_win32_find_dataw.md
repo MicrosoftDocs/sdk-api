@@ -1,16 +1,16 @@
 ---
 UID: NS:minwinbase._WIN32_FIND_DATAW
 title: "_WIN32_FIND_DATAW"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the file that is found by the FindFirstFile, FindFirstFileEx, or FindNextFile function.
 old-location: fs\win32_find_data_str.htm
 old-project: FileIO
 ms.assetid: eb700d84-0ba5-4af8-a619-2d2544560dbc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPWIN32_FIND_DATAW, *PWIN32_FIND_DATAW, IO_REPARSE_TAG_CSV, IO_REPARSE_TAG_DEDUP, IO_REPARSE_TAG_DFS, IO_REPARSE_TAG_DFSR, IO_REPARSE_TAG_HSM, IO_REPARSE_TAG_HSM2, IO_REPARSE_TAG_MOUNT_POINT, IO_REPARSE_TAG_NFS, IO_REPARSE_TAG_SIS, IO_REPARSE_TAG_SYMLINK, IO_REPARSE_TAG_WIM, LPWIN32_FIND_DATA, LPWIN32_FIND_DATA structure pointer [Files], PWIN32_FIND_DATA, PWIN32_FIND_DATA structure pointer [Files], WIN32_FIND_DATA, WIN32_FIND_DATA structure [Files], WIN32_FIND_DATAA, WIN32_FIND_DATAW, _WIN32_FIND_DATAW, _win32_win32_find_data_str, base.win32_find_data_str, fs.win32_find_data_str, minwinbase/LPWIN32_FIND_DATA, minwinbase/PWIN32_FIND_DATA, minwinbase/WIN32_FIND_DATA, minwinbase/WIN32_FIND_DATAA, minwinbase/WIN32_FIND_DATAW, winbase/LPWIN32_FIND_DATA, winbase/PWIN32_FIND_DATA, winbase/WIN32_FIND_DATA, winbase/WIN32_FIND_DATAA, winbase/WIN32_FIND_DATAW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: minwinbase.h
 req.include-header: Windows.h

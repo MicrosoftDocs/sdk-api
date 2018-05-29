@@ -1,16 +1,16 @@
 ---
 UID: NS:mfobjects._MFPaletteEntry
 title: "_MFPaletteEntry"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains one palette entry in a color table.
 old-location: mf\mfpaletteentry.htm
 old-project: medfound
 ms.assetid: 72e45756-b1aa-4db0-a6e7-2e6ea97211b4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 72e45756-b1aa-4db0-a6e7-2e6ea97211b4, MFPaletteEntry, MFPaletteEntry union [Media Foundation], _MFPaletteEntry, mf.mfpaletteentry, mfobjects/MFPaletteEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h

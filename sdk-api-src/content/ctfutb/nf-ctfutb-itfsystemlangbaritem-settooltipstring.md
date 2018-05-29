@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItem.SetTooltipString
 title: ITfSystemLangBarItem::SetTooltipString
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfSystemLangBarItem::SetTooltipString method
 old-location: tsf\itfsystemlangbaritem_settooltipstring.htm
 old-project: TSF
 ms.assetid: 6917fcd1-acce-4e5d-b04f-ee8ea69e71b4
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfSystemLangBarItem interface [Text Services Framework],SetTooltipString method, ITfSystemLangBarItem.SetTooltipString, ITfSystemLangBarItem::SetTooltipString, SetTooltipString, SetTooltipString method [Text Services Framework], SetTooltipString method [Text Services Framework],ITfSystemLangBarItem interface, _tsf_itfsystemlangbaritem_settooltipstring_ref, ctfutb/ITfSystemLangBarItem::SetTooltipString, tsf.itfsystemlangbaritem_settooltipstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

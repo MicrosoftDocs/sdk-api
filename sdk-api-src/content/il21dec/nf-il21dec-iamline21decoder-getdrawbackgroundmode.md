@@ -1,16 +1,16 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetDrawBackgroundMode
 title: IAMLine21Decoder::GetDrawBackgroundMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDrawBackgroundMode method indicates whether the Line 21 Decoder filter draws the captions on a transparent background or an opaque background. By default, the caption background is opaque.
 old-location: dshow\iamline21decoder_getdrawbackgroundmode.htm
 old-project: DirectShow
 ms.assetid: 817a47d6-39c4-4186-81d0-ad822814f0ee
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDrawBackgroundMode, GetDrawBackgroundMode method [DirectShow], GetDrawBackgroundMode method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetDrawBackgroundMode method, IAMLine21Decoder.GetDrawBackgroundMode, IAMLine21Decoder::GetDrawBackgroundMode, IAMLine21DecoderGetDrawBackgroundMode, dshow.iamline21decoder_getdrawbackgroundmode, il21dec/IAMLine21Decoder::GetDrawBackgroundMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: il21dec.h
 req.include-header: 

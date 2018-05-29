@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_DefaultInboundAction
 title: INetFwPolicy2::put_DefaultInboundAction
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the default action for inbound traffic. These settings are Block by default.
 old-location: ics\inetfwpolicy2_defaultinboundaction.htm
 old-project: ICS
 ms.assetid: d9251979-0479-4245-8a29-a161acbf591f
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: DefaultInboundAction property [ICS/ICF], DefaultInboundAction property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],DefaultInboundAction property, INetFwPolicy2.DefaultInboundAction, INetFwPolicy2.put_DefaultInboundAction, INetFwPolicy2::DefaultInboundAction, INetFwPolicy2::get_DefaultInboundAction, INetFwPolicy2::put_DefaultInboundAction, ics.inetfwpolicy2_defaultinboundaction, netfw/INetFwPolicy2::DefaultInboundAction, netfw/INetFwPolicy2::get_DefaultInboundAction, netfw/INetFwPolicy2::put_DefaultInboundAction, put_DefaultInboundAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

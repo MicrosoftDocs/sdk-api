@@ -1,16 +1,16 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.GetDisplayName
 title: IEnumCERTVIEWCOLUMN::GetDisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the localized name of the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_getdisplayname.htm
 old-project: SecCrypto
 ms.assetid: e7fd06f7-7b42-47ed-be03-867d0d03594a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Security], GetDisplayName method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetDisplayName method, IEnumCERTVIEWCOLUMN.GetDisplayName, IEnumCERTVIEWCOLUMN::GetDisplayName, _certsrv_ienumcertviewcolumn_getdisplayname, certview/IEnumCERTVIEWCOLUMN::GetDisplayName, security.ienumcertviewcolumn_getdisplayname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h

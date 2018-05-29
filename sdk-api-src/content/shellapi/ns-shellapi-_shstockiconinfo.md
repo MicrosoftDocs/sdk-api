@@ -1,16 +1,16 @@
 ---
 UID: NS:shellapi._SHSTOCKICONINFO
 title: "_SHSTOCKICONINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives information used to retrieve a stock Shell icon. This structure is used in a call SHGetStockIconInfo.
 old-location: shell\SHSTOCKICONINFO.htm
 old-project: shell
 ms.assetid: 4d32826a-bb40-4805-9826-801c142b8d28
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHSTOCKICONINFO, SHSTOCKICONINFO structure [Windows Shell], _SHSTOCKICONINFO, _SHSTOCKICONINFO structure [Windows Shell], _shell_SHSTOCKICONINFO, shell.SHSTOCKICONINFO, shellapi/SHSTOCKICONINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 

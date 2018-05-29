@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.SHGetPropertyStoreFromIDList
 title: SHGetPropertyStoreFromIDList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an object that supports IPropertyStore or related interfaces from a pointer to an item identifier list (PIDL).
 old-location: properties\SHGetPropertyStoreFromIDList.htm
 old-project: properties
 ms.assetid: 2a3c3c80-1bfc-4da0-ba6e-ac9e9a5c3e5b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SHGetPropertyStoreFromIDList, SHGetPropertyStoreFromIDList function [Windows Properties], _shell_SHGetPropertyStoreFromIDList, properties.SHGetPropertyStoreFromIDList, shell.SHGetPropertyStoreFromIDList, shobjidl_core/SHGetPropertyStoreFromIDList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: 

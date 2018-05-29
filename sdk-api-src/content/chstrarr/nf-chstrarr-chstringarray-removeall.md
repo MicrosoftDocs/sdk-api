@@ -1,16 +1,16 @@
 ---
 UID: NF:chstrarr.CHStringArray.RemoveAll
 title: CHStringArray::RemoveAll
-author: windows-driver-content
+author: windows-sdk-content
 description: The RemoveAll method removes all the CHString members from this array.
 old-location: wmi\chstringarray_removeall.htm
 old-project: WmiSdk
 ms.assetid: be9df3fd-afa5-4f07-99cd-ddccdeaa3fd3
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],RemoveAll method, CHStringArray.RemoveAll, CHStringArray::RemoveAll, RemoveAll, RemoveAll method [Windows Management Instrumentation], RemoveAll method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_removeall, chstrarr/CHStringArray::RemoveAll, wmi.chstringarray_removeall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstrarr.h
 req.include-header: FwCommon.h

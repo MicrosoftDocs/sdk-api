@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPipelineModuleConnector
 title: IFsrmPipelineModuleConnector
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates the communication channel between FSRM and your pipeline module implementation.
 old-location: fsrm\ifsrmpipelinemoduleconnector.htm
 old-project: Fsrm
 ms.assetid: 7debbe8c-b687-42e1-b9b7-1b5f6f16a159
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmPipelineModuleConnector, IFsrmPipelineModuleConnector interface [File Server Resource Manager], IFsrmPipelineModuleConnector interface [File Server Resource Manager],described, fs.ifsrmpipelinemoduleconnector, fsrm.ifsrmpipelinemoduleconnector, fsrmpipeline/IFsrmPipelineModuleConnector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h

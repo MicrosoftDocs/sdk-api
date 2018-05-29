@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IAlternativeName.get_Type
 title: IAlternativeName::get_Type
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the alternative name type.
 old-location: security\ialternativename_type_property.htm
 old-project: SecCertEnroll
 ms.assetid: fdb1a7db-20f6-4732-bb59-fc078387375d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IAlternativeName interface [Security],Type property, IAlternativeName.Type, IAlternativeName.get_Type, IAlternativeName::Type, IAlternativeName::get_Type, Type property [Security], Type property [Security],IAlternativeName interface, certenroll/IAlternativeName::Type, certenroll/IAlternativeName::get_Type, get_Type, security.ialternativename_type_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentCanMinimize
 title: IUIAutomationWindowPattern::get_CurrentCanMinimize
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the window can be minimized.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentCanMinimize.htm
 old-project: WinAuto
 ms.assetid: dda357cc-aa4b-4cc0-b4ad-36edc8e4a6ec
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentCanMinimize property [Windows Accessibility], CurrentCanMinimize property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentCanMinimize property, IUIAutomationWindowPattern.CurrentCanMinimize, IUIAutomationWindowPattern.get_CurrentCanMinimize, IUIAutomationWindowPattern::CurrentCanMinimize, IUIAutomationWindowPattern::get_CurrentCanMinimize, get_CurrentCanMinimize, uiauto.uiauto_IUIAutomationWindowPattern_CurrentCanMinimize, uiauto_IUIAutomationWindowPattern_CurrentCanMinimize, uiautomationclient/IUIAutomationWindowPattern::CurrentCanMinimize, uiautomationclient/IUIAutomationWindowPattern::get_CurrentCanMinimize, winauto.uiauto_IUIAutomationWindowPattern_CurrentCanMinimize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

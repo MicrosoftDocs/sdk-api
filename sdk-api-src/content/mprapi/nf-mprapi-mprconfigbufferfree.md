@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigBufferFree
 title: MprConfigBufferFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigBufferFree function frees buffers allocated by calls to the following functions:
 old-location: rras\mprconfigbufferfree.htm
 old-project: RRAS
 ms.assetid: d7df56ee-72e4-4b0c-87a3-a1f66d791b62
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigBufferFree, MprConfigBufferFree function [RAS], _mpr_mprconfigbufferfree, mprapi/MprConfigBufferFree, rras.mprconfigbufferfree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

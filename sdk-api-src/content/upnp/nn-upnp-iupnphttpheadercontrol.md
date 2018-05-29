@@ -1,16 +1,16 @@
 ---
 UID: NN:upnp.IUPnPHttpHeaderControl
 title: IUPnPHttpHeaderControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the caller to specify additional HTTP headers sent in HTTP requests to a device.
 old-location: upnp\iupnphttpheadercontrol.htm
 old-project: UPnP
 ms.assetid: aed33117-9bfd-4a23-998f-4b8d040d6e3b
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: IUPnPHttpHeaderControl, IUPnPHttpHeaderControl interface [UPnP APIs], IUPnPHttpHeaderControl interface [UPnP APIs],described, upnp.iupnphttpheadercontrol, upnp/IUPnPHttpHeaderControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

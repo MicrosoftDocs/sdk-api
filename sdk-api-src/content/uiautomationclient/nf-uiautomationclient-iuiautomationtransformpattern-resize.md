@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.Resize
 title: IUIAutomationTransformPattern::Resize
-author: windows-driver-content
+author: windows-sdk-content
 description: Resizes the UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_Resize.htm
 old-project: WinAuto
 ms.assetid: af5611ef-d14c-44c2-8065-7c7581a16198
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationTransformPattern interface [Windows Accessibility],Resize method, IUIAutomationTransformPattern.Resize, IUIAutomationTransformPattern::Resize, Resize, Resize method [Windows Accessibility], Resize method [Windows Accessibility],IUIAutomationTransformPattern interface, uiauto.uiauto_IUIAutomationTransformPattern_Resize, uiauto_IUIAutomationTransformPattern_Resize, uiautomationclient/IUIAutomationTransformPattern::Resize, winauto.uiauto_IUIAutomationTransformPattern_Resize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

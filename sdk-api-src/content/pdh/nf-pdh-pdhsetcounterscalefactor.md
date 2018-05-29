@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhSetCounterScaleFactor
 title: PdhSetCounterScaleFactor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the scale factor that is applied to the calculated value of the specified counter when you request the formatted counter value. If the PDH_FMT_NOSCALE flag is set, then this scale factor is ignored.
 old-location: perf\pdhsetcounterscalefactor.htm
 old-project: PerfCtrs
 ms.assetid: 6db99e03-0b03-4c1c-b82a-2982b52746db
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhSetCounterScaleFactor, PdhSetCounterScaleFactor function [Perf], _win32_pdhsetcounterscalefactor, base.pdhsetcounterscalefactor, pdh/PdhSetCounterScaleFactor, perf.pdhsetcounterscalefactor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

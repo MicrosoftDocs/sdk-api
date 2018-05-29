@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.RegisterForWhenCurrent
 title: IDVB_NIT::RegisterForWhenCurrent
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit_registerforwhencurrent.htm
 old-project: mstv
 ms.assetid: b5405814-1e7c-470f-a8bc-d16d16bdb526
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVB_NIT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, IDVB_NIT.RegisterForWhenCurrent, IDVB_NIT::RegisterForWhenCurrent, IDVB_NITRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],IDVB_NIT interface, dvbsiparser/IDVB_NIT::RegisterForWhenCurrent, mstv.idvb_nit_registerforwhencurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

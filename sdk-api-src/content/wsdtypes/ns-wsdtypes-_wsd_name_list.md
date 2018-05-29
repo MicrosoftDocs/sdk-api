@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_NAME_LIST
 title: "_WSD_NAME_LIST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a node in a single-linked list of XML name structures.
 old-location: ncd\wsd_name_list_struct.htm
 old-project: WsdApi
 ms.assetid: f573365d-100f-4df9-b1af-a484680436eb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_NAME_LIST, WSD_NAME_LIST structure, _WSD_NAME_LIST, ncd.wsd_name_list_struct, wsdtypes/WSD_NAME_LIST
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetSelection
 title: ITfCandidateListUIElement::GetSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfCandidateListUIElement::GetSelection method returns the current selection of the candidate list.
 old-location: tsf\itfcandidatelistuielement_getselection.htm
 old-project: TSF
 ms.assetid: ac7530cd-eac8-4b2b-89e1-e05c14a81c7d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetSelection method, ITfCandidateListUIElement.GetSelection, ITfCandidateListUIElement::GetSelection, msctf/ITfCandidateListUIElement::GetSelection, tsf.itfcandidatelistuielement_getselection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

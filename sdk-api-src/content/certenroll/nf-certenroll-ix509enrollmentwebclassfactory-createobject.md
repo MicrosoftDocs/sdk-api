@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509EnrollmentWebClassFactory.CreateObject
 title: IX509EnrollmentWebClassFactory::CreateObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Can be used to create an object in the user context on a webpage.
 old-location: security\ix509enrollmentwebclassfactory_createobject_method.htm
 old-project: SecCertEnroll
 ms.assetid: e865e499-1bfe-45c3-aeb3-3936f9173fd5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CreateObject, CreateObject method [Security], CreateObject method [Security],IX509EnrollmentWebClassFactory interface, ICertProperties, ICertPropertyDescription, ICertPropertyFriendlyName, ICspInformation, ICspInformations, ICspStatus, IObjectId, IObjectIds, ISignerCertificate, IX500DistinguishedName, IX509CertificateRequestCmc, IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs7, IX509Enrollment, IX509EnrollmentHelper, IX509EnrollmentWebClassFactory interface [Security],CreateObject method, IX509EnrollmentWebClassFactory.CreateObject, IX509EnrollmentWebClassFactory::CreateObject, IX509Extension, IX509ExtensionEnhancedKeyUsage, IX509ExtensionKeyUsage, IX509ExtensionTemplate, IX509ExtensionTemplateName, IX509Extensions, IX509PrivateKey, certenroll/IX509EnrollmentWebClassFactory::CreateObject, security.ix509enrollmentwebclassfactory_createobject_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

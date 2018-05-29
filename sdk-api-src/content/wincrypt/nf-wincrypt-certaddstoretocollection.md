@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertAddStoreToCollection
 title: CertAddStoreToCollection function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertAddStoreToCollection function adds a sibling certificate store to a collection certificate store.
 old-location: security\certaddstoretocollection.htm
 old-project: SecCrypto
 ms.assetid: ea848d74-c3ec-4166-90ea-121b33f7f318
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertAddStoreToCollection, CertAddStoreToCollection function [Security], _crypto2_certaddstoretocollection, security.certaddstoretocollection, wincrypt/CertAddStoreToCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

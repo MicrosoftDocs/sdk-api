@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreatePixelShader
 title: ID3D11Device::CreatePixelShader
-author: windows-driver-content
+author: windows-sdk-content
 description: Create a pixel shader.
 old-location: direct3d11\id3d11device_createpixelshader.htm
 old-project: direct3d11
 ms.assetid: f013a648-fd11-417b-8f87-36a4be901715
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 60e28609-f849-5247-ceff-56bd9925d775, CreatePixelShader, CreatePixelShader method [Direct3D 11], CreatePixelShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreatePixelShader method, ID3D11Device.CreatePixelShader, ID3D11Device::CreatePixelShader, d3d11/ID3D11Device::CreatePixelShader, direct3d11.id3d11device_createpixelshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmReleaseEntityInfo
 title: RtmReleaseEntityInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmReleaseEntityInfo function releases a client structure.
 old-location: rras\rtmreleaseentityinfo.htm
 old-project: RRAS
 ms.assetid: ea72dde4-2d04-4ceb-b718-3ee96bf70464
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmReleaseEntityInfo, RtmReleaseEntityInfo function [RAS], _rtmv2ref_rtmreleaseentityinfo, rras.rtmreleaseentityinfo, rtmv2/RtmReleaseEntityInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

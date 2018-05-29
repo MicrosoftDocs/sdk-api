@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_simple_bind
 title: ldap_simple_bind function
-author: windows-driver-content
+author: windows-sdk-content
 description: asynchronously authenticates a client to a server, using a plaintext password.
 old-location: ldap\ldap_simple_bind.htm
 old-project: LDAP
 ms.assetid: 13fc47c5-094b-4a91-8e5f-bfff8c72b431
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_simple_bind, ldap.ldap__simple__bind, ldap.ldap_simple_bind, ldap_simple_bind, ldap_simple_bind function [LDAP], ldap_simple_bindA, ldap_simple_bindW, winldap/ldap_simple_bind, winldap/ldap_simple_bindA, winldap/ldap_simple_bindW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.SHFileOperationW
 title: SHFileOperationW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies, moves, renames, or deletes a file system object. This function has been replaced in Windows Vista by IFileOperation.
 old-location: shell\SHFileOperation.htm
 old-project: shell
 ms.assetid: 7807015f-52c5-46f5-9e90-4e3e60ddf705
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHFileOperation, SHFileOperation function [Windows Shell], SHFileOperationA, SHFileOperationW, _win32_SHFileOperation, shell.SHFileOperation, shellapi/SHFileOperation, shellapi/SHFileOperationA, shellapi/SHFileOperationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

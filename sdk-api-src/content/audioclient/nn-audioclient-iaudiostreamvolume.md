@@ -1,16 +1,16 @@
 ---
 UID: NN:audioclient.IAudioStreamVolume
 title: IAudioStreamVolume
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioStreamVolume interface enables a client to control and monitor the volume levels for all of the channels in an audio stream.
 old-location: coreaudio\iaudiostreamvolume.htm
 old-project: CoreAudio
 ms.assetid: 92cc127b-77ac-4fc7-ac3c-319e5d6368d3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioStreamVolume, IAudioStreamVolume interface [Core Audio], IAudioStreamVolume interface [Core Audio],described, audioclient/IAudioStreamVolume, coreaudio.iaudiostreamvolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioclient.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFSampleOutputStream.BeginWriteSample
 title: IMFSampleOutputStream::BeginWriteSample
-author: windows-driver-content
+author: windows-sdk-content
 description: Begins an asynchronous request to write a media sample to the stream.
 old-location: mf\imfsampleoutputstream_beginwritesample.htm
 old-project: medfound
 ms.assetid: 41056795-3E12-448E-9341-FB4DD4E7D079
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BeginWriteSample, BeginWriteSample method [Media Foundation], BeginWriteSample method [Media Foundation],IMFSampleOutputStream interface, IMFSampleOutputStream interface [Media Foundation],BeginWriteSample method, IMFSampleOutputStream.BeginWriteSample, IMFSampleOutputStream::BeginWriteSample, mf.imfsampleoutputstream_beginwritesample, mfobjects/IMFSampleOutputStream::BeginWriteSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

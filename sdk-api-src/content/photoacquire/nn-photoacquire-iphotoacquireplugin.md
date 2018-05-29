@@ -1,16 +1,16 @@
 ---
 UID: NN:photoacquire.IPhotoAcquirePlugin
 title: IPhotoAcquirePlugin
-author: windows-driver-content
+author: windows-sdk-content
 description: Implement the IPhotoAcquirePlugin interface when you want to create a plug-in to run alongside the Windows Vista user interface (UI) for image acquisition. Registry settings are required to enable the plug-in.
 old-location: picacq\iphotoacquireplugin.htm
 old-project: acquisition
 ms.assetid: 7c8a0a49-8c15-4db2-8231-a48a3f76eb62
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoAcquirePlugin, IPhotoAcquirePlugin interface [Picture Acquisition], IPhotoAcquirePlugin interface [Picture Acquisition],described, IPhotoAcquirePluginInterface, photoacquire/IPhotoAcquirePlugin, picacq.iphotoacquireplugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: photoacquire.h
 req.include-header: 

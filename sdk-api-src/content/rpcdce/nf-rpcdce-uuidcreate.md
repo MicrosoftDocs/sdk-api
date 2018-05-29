@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.UuidCreate
 title: UuidCreate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The UuidCreate function creates a new UUID.
 old-location: rpc\uuidcreate.htm
 old-project: Rpc
 ms.assetid: 4008fb54-7770-4f1a-8e1c-4b20bef884f9
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: UuidCreate, UuidCreate function [RPC], _rpc_uuidcreate, rpc.uuidcreate, rpcdce/UuidCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

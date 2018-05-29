@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCallInfo.get_CallHub
 title: ITCallInfo::get_CallHub
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CallHub method gets a pointer to the ITCallHub interface of the CallHub object.
 old-location: tapi3\itcallinfo_get_callhub.htm
 old-project: Tapi
 ms.assetid: ae7d74f7-c69b-45d1-a049-59e581856f27
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],get_CallHub method, ITCallInfo.get_CallHub, ITCallInfo::get_CallHub, _tapi3_itcallinfo_get_callhub, get_CallHub, get_CallHub method [TAPI 2.2], get_CallHub method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_get_callhub, tapi3if/ITCallInfo::get_CallHub
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

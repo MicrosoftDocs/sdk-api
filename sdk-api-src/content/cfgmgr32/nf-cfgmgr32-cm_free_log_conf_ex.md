@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Free_Log_Conf_Ex
 title: CM_Free_Log_Conf_Ex function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Free_Log_Conf_Ex function removes a logical configuration and all associated resource descriptors from either a local or a remote machine.
 old-location: devinst\cm_free_log_conf_ex.htm
 old-project: devinst
 ms.assetid: dd19400b-e83e-4feb-a968-b57656c9996c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Free_Log_Conf_Ex, CM_Free_Log_Conf_Ex function [Device and Driver Installation], cfgmgr32/CM_Free_Log_Conf_Ex, cfgmgrfn_fc80be77-fd05-4cca-9614-c8b5e524766a.xml, devinst.cm_free_log_conf_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:imepad.IImeSpecifyApplets.GetAppletIIDList
 title: IImeSpecifyApplets::GetAppletIIDList
-author: windows-driver-content
+author: windows-sdk-content
 description: Called from the IImePad interface to enumerate the IImePadApplet interfaces that are implemented.
 old-location: intl\iimespecifyapplets_getappletiidlist.htm
 old-project: Intl
 ms.assetid: 05FD7E9A-5C65-4FB7-B509-591B4B434961
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetAppletIIDList, GetAppletIIDList method [Internationalization for Windows Applications], GetAppletIIDList method [Internationalization for Windows Applications],IImeSpecifyApplets interface, IImeSpecifyApplets interface [Internationalization for Windows Applications],GetAppletIIDList method, IImeSpecifyApplets.GetAppletIIDList, IImeSpecifyApplets::GetAppletIIDList, imepad/IImeSpecifyApplets::GetAppletIIDList, intl.iimespecifyapplets_getappletiidlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imepad.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:evr.IEVRFilterConfig
 title: IEVRFilterConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the number of input pins on the DirectShow Enhanced Video Renderer (EVR) filter.
 old-location: mf\ievrfilterconfig.htm
 old-project: medfound
 ms.assetid: 13086d85-3dbf-4e9f-b065-d95e16412832
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 13086d85-3dbf-4e9f-b065-d95e16412832, IEVRFilterConfig, IEVRFilterConfig interface [Media Foundation], IEVRFilterConfig interface [Media Foundation],described, evr/IEVRFilterConfig, mf.ievrfilterconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: evr.h
 req.include-header: 

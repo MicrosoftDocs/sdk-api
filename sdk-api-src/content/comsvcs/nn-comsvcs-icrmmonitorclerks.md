@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ICrmMonitorClerks
 title: ICrmMonitorClerks
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the state of clerks.
 old-location: cos\icrmmonitorclerks.htm
 old-project: cossdk
 ms.assetid: 90403516-f677-4396-8991-ae621c159567
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICrmMonitorClerks, ICrmMonitorClerks interface [COM+], ICrmMonitorClerks interface [COM+],described, _dtc_ICrmMonitorClerks_Interface, comsvcs/ICrmMonitorClerks, cos.icrmmonitorclerks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

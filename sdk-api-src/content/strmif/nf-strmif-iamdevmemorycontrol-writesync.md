@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMDevMemoryControl.WriteSync
 title: IAMDevMemoryControl::WriteSync
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  The IAMDevMemoryControl interface is deprecated. Used to synchronize with the completed write. This method returns when any data being written to the particular allocator region is fully written into the memory.
 old-location: dshow\iamdevmemorycontrol_writesync.htm
 old-project: DirectShow
 ms.assetid: 46bf7ab6-cc3c-4846-a8f8-97c62ede4aaf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMDevMemoryControl interface [DirectShow],WriteSync method, IAMDevMemoryControl.WriteSync, IAMDevMemoryControl::WriteSync, IAMDevMemoryControlWriteSync, WriteSync, WriteSync method [DirectShow], WriteSync method [DirectShow],IAMDevMemoryControl interface, dshow.iamdevmemorycontrol_writesync, strmif/IAMDevMemoryControl::WriteSync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

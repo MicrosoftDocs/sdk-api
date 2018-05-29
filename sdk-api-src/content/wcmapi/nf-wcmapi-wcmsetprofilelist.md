@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmapi.WcmSetProfileList
 title: WcmSetProfileList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reorders a profile list or a subset of a profile list.
 old-location: wcm\wcmsetprofilelist.htm
 old-project: wcm
 ms.assetid: c5efb2e8-c4c4-4e13-9f7a-ea2a40744655
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WcmSetProfileList, WcmSetProfileList function [Windows Connection Manager], wcm.wcmsetprofilelist, wcmapi/WcmSetProfileList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wcmapi.h
 req.include-header: 

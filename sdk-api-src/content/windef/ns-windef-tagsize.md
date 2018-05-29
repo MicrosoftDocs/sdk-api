@@ -1,16 +1,16 @@
 ---
 UID: NS:windef.tagSIZE
 title: tagSIZE
-author: windows-driver-content
+author: windows-sdk-content
 description: The SIZE structure defines the width and height of a rectangle.
 old-location: display\size.htm
 old-project: display
 ms.assetid: 08d81096-069f-4554-9bb9-d4a37c0950ac
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPSIZE, *PSIZE, *PSIZEL, LPSIZE, LPSIZE structure pointer [Display Devices], PSIZE, PSIZE structure pointer [Display Devices], SIZE, SIZE structure [Display Devices], SIZEL, display.size, grstrcts_2697a459-d1f4-4617-8370-d51a3c79f609.xml, tagSIZE, windef/LPSIZE, windef/PSIZE, windef/SIZE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windef.h
 req.include-header: Windows.h

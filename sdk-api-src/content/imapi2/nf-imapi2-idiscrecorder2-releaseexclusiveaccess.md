@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.ReleaseExclusiveAccess
 title: IDiscRecorder2::ReleaseExclusiveAccess
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases exclusive access to the device.
 old-location: imapi\idiscrecorder2_releaseexclusiveaccess.htm
 old-project: imapi
 ms.assetid: 940929d7-7940-448e-9554-3e3691772eb8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],ReleaseExclusiveAccess method, IDiscRecorder2.ReleaseExclusiveAccess, IDiscRecorder2::ReleaseExclusiveAccess, ReleaseExclusiveAccess, ReleaseExclusiveAccess method [IMAPI], ReleaseExclusiveAccess method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_releaseexclusiveaccess, imapi2/IDiscRecorder2::ReleaseExclusiveAccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

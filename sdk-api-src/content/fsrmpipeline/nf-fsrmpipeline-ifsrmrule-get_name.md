@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmpipeline.IFsrmRule.get_Name
 title: IFsrmRule::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: The name of the rule.
 old-location: fsrm\ifsrmrule_name.htm
 old-project: Fsrm
 ms.assetid: 1c4f99ca-5b53-42c3-a370-d9c350be6590
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmRule interface [File Server Resource Manager],Name property, IFsrmRule.Name, IFsrmRule.get_Name, IFsrmRule::Name, IFsrmRule::get_Name, IFsrmRule::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmRule interface, fs.ifsrmrule_name, fsrm.ifsrmrule_name, fsrmpipeline/IFsrmRule::Name, fsrmpipeline/IFsrmRule::get_Name, fsrmpipeline/IFsrmRule::put_Name, get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

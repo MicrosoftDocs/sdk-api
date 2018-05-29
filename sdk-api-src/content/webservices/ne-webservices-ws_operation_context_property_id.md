@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_OPERATION_CONTEXT_PROPERTY_ID
 title: WS_OPERATION_CONTEXT_PROPERTY_ID
-author: windows-driver-content
+author: windows-sdk-content
 description: The properties available on the Context. Not all properties may be available at a given point on a context. All context properties are available through WsGetOperationContextProperty.
 old-location: wsw\ws_operation_context_property_id.htm
 old-project: wsw
 ms.assetid: 71f7d0fe-c120-4667-93de-a0dfb94fccc1
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_OPERATION_CONTEXT_PROPERTY_CHANNEL, WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE, WS_OPERATION_CONTEXT_PROPERTY_CONTRACT_DESCRIPTION, WS_OPERATION_CONTEXT_PROPERTY_HEAP, WS_OPERATION_CONTEXT_PROPERTY_HOST_USER_STATE, WS_OPERATION_CONTEXT_PROPERTY_ID, WS_OPERATION_CONTEXT_PROPERTY_ID enumeration [Web Services for Windows], WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, WS_OPERATION_CONTEXT_PROPERTY_OUTPUT_MESSAGE, webservices/WS_OPERATION_CONTEXT_PROPERTY_CHANNEL, webservices/WS_OPERATION_CONTEXT_PROPERTY_CHANNEL_USER_STATE, webservices/WS_OPERATION_CONTEXT_PROPERTY_CONTRACT_DESCRIPTION, webservices/WS_OPERATION_CONTEXT_PROPERTY_HEAP, webservices/WS_OPERATION_CONTEXT_PROPERTY_HOST_USER_STATE, webservices/WS_OPERATION_CONTEXT_PROPERTY_ID, webservices/WS_OPERATION_CONTEXT_PROPERTY_INPUT_MESSAGE, webservices/WS_OPERATION_CONTEXT_PROPERTY_OUTPUT_MESSAGE, wsw.ws_operation_context_property_id
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.CreateUrlCacheGroup
 title: CreateUrlCacheGroup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates cache group identifications.
 old-location: wininet\createurlcachegroup.htm
 old-project: WinInet
 ms.assetid: bea0bc3b-75fb-4147-a4bd-f4290dfbf290
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateUrlCacheGroup, CreateUrlCacheGroup function [WinINet], _inet_createurlcachegroup_function, wininet.createurlcachegroup, wininet/CreateUrlCacheGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

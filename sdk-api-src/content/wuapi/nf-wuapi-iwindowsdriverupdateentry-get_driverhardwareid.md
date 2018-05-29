@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntry.get_DriverHardwareID
 title: IWindowsDriverUpdateEntry::get_DriverHardwareID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the hardware or the compatible identifier that the Windows driver update must match to be installable.
 old-location: wua\iwindowsdriverupdateentry_driverhardwareid.htm
 old-project: Wua_Sdk
 ms.assetid: ff8e2336-634f-4217-b08a-fb3131ec8986
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DriverHardwareID property [Windows Update Agent], DriverHardwareID property [Windows Update Agent],IWindowsDriverUpdateEntry interface, IWindowsDriverUpdateEntry interface [Windows Update Agent],DriverHardwareID property, IWindowsDriverUpdateEntry.DriverHardwareID, IWindowsDriverUpdateEntry.get_DriverHardwareID, IWindowsDriverUpdateEntry::DriverHardwareID, IWindowsDriverUpdateEntry::get_DriverHardwareID, get_DriverHardwareID, wua.iwindowsdriverupdateentry_driverhardwareid, wuapi/IWindowsDriverUpdateEntry::DriverHardwareID, wuapi/IWindowsDriverUpdateEntry::get_DriverHardwareID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

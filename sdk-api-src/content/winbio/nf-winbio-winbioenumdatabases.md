@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioEnumDatabases
 title: WinBioEnumDatabases function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates all registered databases that match a specified type.
 old-location: secbiomet\winbioenumdatabases.htm
 old-project: SecBioMet
 ms.assetid: 163c669d-765f-4f8d-83c4-ff8bd064e44d
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WinBioEnumDatabases, WinBioEnumDatabases function [Windows Biometric Framework API], secbiomet.winbioenumdatabases, winbio/WinBioEnumDatabases
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

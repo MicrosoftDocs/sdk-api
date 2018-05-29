@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElementBehavior.SetSelection
 title: ITfCandidateListUIElementBehavior::SetSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfCandidateListUIElementBehavior::SetSelection method set the selection of the candidate list.
 old-location: tsf\itfcandidatelistuielementbehavior_setselection.htm
 old-project: TSF
 ms.assetid: a3afdfc9-c3e7-4735-b13f-84c45230128a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfCandidateListUIElementBehavior interface [Text Services Framework],SetSelection method, ITfCandidateListUIElementBehavior.SetSelection, ITfCandidateListUIElementBehavior::SetSelection, SetSelection, SetSelection method [Text Services Framework], SetSelection method [Text Services Framework],ITfCandidateListUIElementBehavior interface, msctf/ITfCandidateListUIElementBehavior::SetSelection, tsf.itfcandidatelistuielementbehavior_setselection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

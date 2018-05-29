@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.IWebWizardHost
 title: IWebWizardHost
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that enable HTML pages which are hosted in a wizard extension to communicate with the wizard.
 old-location: shell\WebWizardHost.htm
 old-project: shell
 ms.assetid: 7b3690dc-2007-43a0-80a3-4a68e3c8464d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IWebWizardHost, WebWizardHost, WebWizardHost object [Windows Shell], WebWizardHost object [Windows Shell],described, _shell_WebWizardHost, shell.WebWizardHost, shldisp/WebWizardHost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

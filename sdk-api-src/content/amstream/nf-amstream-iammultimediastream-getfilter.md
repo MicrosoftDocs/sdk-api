@@ -1,16 +1,16 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.GetFilter
 title: IAMMultiMediaStream::GetFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetFilter method retrieves the Media Stream filter, which is used internally by the multimedia stream object.
 old-location: dshow\iammultimediastream_getfilter.htm
 old-project: DirectShow
 ms.assetid: 7e4df9cb-4008-4615-a179-ae1e76c22337
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetFilter, GetFilter method [DirectShow], GetFilter method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],GetFilter method, IAMMultiMediaStream.GetFilter, IAMMultiMediaStream::GetFilter, IAMMultiMediaStreamGetFilter, amstream/IAMMultiMediaStream::GetFilter, dshow.iammultimediastream_getfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPStorage4.FindStorage
 title: IMDSPStorage4::FindStorage
-author: windows-driver-content
+author: windows-sdk-content
 description: The FindStorage method finds a storage with the given persistent unique identifier. The persistent unique identifier of a storage is described by the g_wszWMDMPersistentUniqueID property of that storage.
 old-location: wmdm\imdspstorage4_findstorage.htm
 old-project: WMDM
 ms.assetid: 024a295a-ab23-4ee8-963b-1c18e244627a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FindStorage, FindStorage method [windows Media Device Manager], FindStorage method [windows Media Device Manager],IMDSPStorage4 interface, IMDSPStorage4 interface [windows Media Device Manager],FindStorage method, IMDSPStorage4.FindStorage, IMDSPStorage4::FindStorage, IMDSPStorage4FindStorage, mswmdm/IMDSPStorage4::FindStorage, wmdm.imdspstorage4_findstorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

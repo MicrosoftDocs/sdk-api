@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capGetMCIDeviceName
 title: capGetMCIDeviceName macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capGetMCIDeviceName macro retrieves the name of an MCI device previously set with the capSetMCIDeviceName macro. You can use this macro or explicitly call the WM_CAP_GET_MCI_DEVICE message.
 old-location: multimedia\capgetmcidevicename.htm
 old-project: Multimedia
 ms.assetid: e65a2a27-ae35-4637-8d85-1cc2162c41b1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capGetMCIDeviceName, capGetMCIDeviceName, capGetMCIDeviceName macro [Windows Multimedia], multimedia.capgetmcidevicename, vfw/capGetMCIDeviceName"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

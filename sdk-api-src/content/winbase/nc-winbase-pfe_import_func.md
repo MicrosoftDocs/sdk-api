@@ -1,16 +1,16 @@
 ---
 UID: NC:winbase.PFE_IMPORT_FUNC
 title: PFE_IMPORT_FUNC
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function used with WriteEncryptedFileRaw. The system calls ImportCallback one or more times, each time to retrieve a portion of a backup file's data.
 old-location: fs\importcallback.htm
 old-project: FileIO
 ms.assetid: 4c951e44-15d8-43c8-bd3d-293a1ec9d444
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ImportCallback, ImportCallback callback, ImportCallback callback function [Files], PFE_IMPORT_FUNC, PFE_IMPORT_FUNC callback function [Files], base.importcallback, fs.importcallback, winbase/ImportCallback, winbase/PFE_IMPORT_FUNC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbase.h
 req.include-header: Windows.h

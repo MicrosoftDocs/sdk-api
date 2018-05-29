@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.Sign
 title: IXpsSignatureManager::Sign
-author: windows-driver-content
+author: windows-sdk-content
 description: Signs the contents of an XPS package as specified by the signing options and returns the resulting digital signature.
 old-location: xps\ixpssignaturemanager_sign.htm
 old-project: printdocs
 ms.assetid: 82a57ca8-edc7-4248-92d1-8092f6dce4f8
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],Sign method, IXpsSignatureManager.Sign, IXpsSignatureManager::Sign, Sign, Sign method [XPS Documents and Packaging], Sign method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_sign, xpsdigitalsignature/IXpsSignatureManager::Sign
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

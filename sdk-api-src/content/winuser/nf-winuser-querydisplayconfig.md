@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.QueryDisplayConfig
 title: QueryDisplayConfig function
-author: windows-driver-content
+author: windows-sdk-content
 description: The QueryDisplayConfig function retrieves information about all possible display paths for all display devices, or views, in the current setting.
 old-location: display\querydisplayconfig.htm
 old-project: display
 ms.assetid: b1792d7f-f216-4250-a6b6-a11b251a9cec
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CCD_Functions_4fc57ba2-e10b-4d28-bbaf-a5ded2264e59.xml, QueryDisplayConfig, QueryDisplayConfig function [Display Devices], display.querydisplayconfig, winuser/QueryDisplayConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

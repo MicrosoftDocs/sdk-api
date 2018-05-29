@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprInfoBlockSet
 title: MprInfoBlockSet function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprInfoBlockSet creates a new header that is identical to an existing header with a specified block modified.
 old-location: rras\mprinfoblockset.htm
 old-project: RRAS
 ms.assetid: 55912927-d886-46d1-a5c1-e10f19c117ab
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprInfoBlockSet, MprInfoBlockSet function [RAS], _mpr_mprinfoblockset, mprapi/MprInfoBlockSet, rras.mprinfoblockset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

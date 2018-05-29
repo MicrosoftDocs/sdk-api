@@ -1,16 +1,16 @@
 ---
 UID: NN:devicetopology.IAudioInputSelector
 title: IAudioInputSelector
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioInputSelector interface provides access to a hardware multiplexer control (input selector).
 old-location: coreaudio\iaudioinputselector.htm
 old-project: CoreAudio
 ms.assetid: 6f5ce9c0-39e4-4fab-910c-9a11b90fcde7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioInputSelector, IAudioInputSelector interface [Core Audio], IAudioInputSelector interface [Core Audio],described, coreaudio.iaudioinputselector, devicetopology/IAudioInputSelector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

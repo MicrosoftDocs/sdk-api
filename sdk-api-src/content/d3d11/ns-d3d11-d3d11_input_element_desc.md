@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_INPUT_ELEMENT_DESC
 title: D3D11_INPUT_ELEMENT_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: A description of a single element for the input-assembler stage.
 old-location: direct3d11\d3d11_input_element_desc.htm
 old-project: direct3d11
 ms.assetid: 45545d24-1513-4efd-9344-20673c5b98d5
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_INPUT_ELEMENT_DESC, D3D11_INPUT_ELEMENT_DESC structure [Direct3D 11], d3d11/D3D11_INPUT_ELEMENT_DESC, ddd8b2ab-b2d6-b462-f2ed-127b85cb7e53, direct3d11.d3d11_input_element_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

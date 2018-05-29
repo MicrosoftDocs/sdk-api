@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange.GetEnd
 title: ITextRange::GetEnd
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the end character position of the range.
 old-location: controls\ITextRange_GetEnd.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getend.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetEnd, GetEnd method [Windows Controls], GetEnd method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetEnd method, ITextRange.GetEnd, ITextRange::GetEnd, _win32_ITextRange_GetEnd, _win32_ITextRange_GetEnd_cpp, controls.ITextRange_GetEnd, controls._win32_ITextRange_GetEnd, tom/ITextRange::GetEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

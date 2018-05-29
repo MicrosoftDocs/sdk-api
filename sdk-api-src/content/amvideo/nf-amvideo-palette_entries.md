@@ -1,16 +1,16 @@
 ---
 UID: NF:amvideo.PALETTE_ENTRIES
 title: PALETTE_ENTRIES macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The PALETTE_ENTRIES macro retrieves the maximum number of colors in the palette of a specified bitmap.
 old-location: dshow\palette_entries.htm
 old-project: DirectShow
 ms.assetid: 7923b767-2b38-4aa8-bbc2-21d0254bdbd9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: PALETTE_ENTRIES, PALETTE_ENTRIES macro [DirectShow], amvideo/PALETTE_ENTRIES, dshow.palette_entries
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.GetCount
 title: ICertEncodeDateArray::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of DATE values in the object's DATE array.
 old-location: security\icertencodedatearray_getcount.htm
 old-project: SecCrypto
 ms.assetid: 25c61f42-b190-44c3-b2ba-57861bdfbce3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertEncodeDateArray object [Security],GetCount method, GetCount, GetCount method [Security], GetCount method [Security],CCertEncodeDateArray object, GetCount method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],GetCount method, ICertEncodeDateArray.GetCount, ICertEncodeDateArray::GetCount, _certsrv_icertencodedatearray_getcount, certenc/ICertEncodeDateArray::GetCount, security.icertencodedatearray_getcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h

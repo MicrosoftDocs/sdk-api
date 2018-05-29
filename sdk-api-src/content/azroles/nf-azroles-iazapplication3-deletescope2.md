@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplication3.DeleteScope2
 title: IAzApplication3::DeleteScope2
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the specified IAzScope2 object from the IAzApplication3 object.
 old-location: security\iazapplication3_deletescope2.htm
 old-project: SecAuthZ
 ms.assetid: f42f9288-896b-4034-a16c-3d555acea453
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DeleteScope2, DeleteScope2 method [Security], DeleteScope2 method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],DeleteScope2 method, IAzApplication3.DeleteScope2, IAzApplication3::DeleteScope2, azroles/IAzApplication3::DeleteScope2, security.iazapplication3_deletescope2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

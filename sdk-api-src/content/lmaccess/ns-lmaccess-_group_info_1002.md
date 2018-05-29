@@ -1,16 +1,16 @@
 ---
 UID: NS:lmaccess._GROUP_INFO_1002
 title: "_GROUP_INFO_1002"
-author: windows-driver-content
+author: windows-sdk-content
 description: The GROUP_INFO_1002 structure contains a comment to associate with a global group.
 old-location: netmgmt\group_info_1002_str.htm
 old-project: NetMgmt
 ms.assetid: 9c322ef5-4f98-44ad-8b57-40f8533eb9c1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPGROUP_INFO_1002, *PGROUP_INFO_1002, GROUP_INFO_1002, GROUP_INFO_1002 structure [Network Management], LPGROUP_INFO_1002, LPGROUP_INFO_1002 structure pointer [Network Management], PGROUP_INFO_1002, PGROUP_INFO_1002 structure pointer [Network Management], _GROUP_INFO_1002, _win32_group_info_1002_str, lmaccess/GROUP_INFO_1002, lmaccess/LPGROUP_INFO_1002, lmaccess/PGROUP_INFO_1002, netmgmt.group_info_1002_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

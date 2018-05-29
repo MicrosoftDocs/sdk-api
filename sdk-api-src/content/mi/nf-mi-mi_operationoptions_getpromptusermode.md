@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetPromptUserMode
 title: MI_OperationOptions_GetPromptUserMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value that tells the server how to respond to a provider's call to MI_Context_PromptUser.
 old-location: wmi_v2\mi_operationoptions_getpromptusermode.htm
 old-project: wmi_v2
 ms.assetid: 611e2798-4ab5-405b-9586-5054fe14cd96
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_OperationOptions_GetPromptUserMode, MI_OperationOptions_GetPromptUserMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetPromptUserMode, wmi_v2.mi_operationoptions_getpromptusermode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

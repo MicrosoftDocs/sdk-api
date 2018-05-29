@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResource.SetContent
 title: IXpsOMFontResource::SetContent
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the read-only stream to be associated with this resource.
 old-location: xps\ixpsomfontresource_setcontent.htm
 old-project: printdocs
 ms.assetid: 87a9d003-9406-4c94-b814-4986d213ee47
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMFontResource interface [XPS Documents and Packaging],SetContent method, IXpsOMFontResource.SetContent, IXpsOMFontResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMFontResource interface, XPS_FONT_EMBEDDING_NORMAL, XPS_FONT_EMBEDDING_OBFUSCATED, XPS_FONT_EMBEDDING_RESTRICTED, xps.ixpsomfontresource_setcontent, xpsobjectmodel/IXpsOMFontResource::SetContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

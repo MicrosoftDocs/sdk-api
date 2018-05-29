@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.ITfFnSearchCandidateProvider.SetResult
 title: ITfFnSearchCandidateProvider::SetResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a text Service or IME with history data when a candidate is chosen by the user.
 old-location: tsf\itffnsearchcandidateprovider_setresult.htm
 old-project: TSF
 ms.assetid: 5C4DA0D3-58FD-4955-9658-29ECD8FECEC1
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnSearchCandidateProvider interface [Text Services Framework],SetResult method, ITfFnSearchCandidateProvider.SetResult, ITfFnSearchCandidateProvider::SetResult, SetResult, SetResult method [Text Services Framework], SetResult method [Text Services Framework],ITfFnSearchCandidateProvider interface, ctffunc/ITfFnSearchCandidateProvider::SetResult, tsf.itffnsearchcandidateprovider_setresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

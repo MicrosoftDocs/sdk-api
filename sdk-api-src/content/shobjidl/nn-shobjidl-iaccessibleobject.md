@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IAccessibleObject
 title: IAccessibleObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that can be used by an accessibility application.
 old-location: shell\IAccessibleObject.htm
 old-project: shell
 ms.assetid: bac49a2d-4357-4607-a89d-d2ed4abf89bb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAccessibleObject, IAccessibleObject interface [Windows Shell], IAccessibleObject interface [Windows Shell],described, _shell_IAccessibleObject, shell.IAccessibleObject, shobjidl/IAccessibleObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

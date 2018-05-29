@@ -1,16 +1,16 @@
 ---
 UID: NF:corewindow.CreateControlInputEx
 title: CreateControlInputEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a ICoreInputSourceBase object in a worker thread or the UI thread.
 old-location: winrt\createcontrolinputex.htm
 old-project: WinRT
 ms.assetid: AF12DA9F-7E5A-43B0-8B4D-7E41C4C1361F
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: CreateControlInputEx, CreateControlInputEx function [Windows Runtime], corewindow/CreateControlInputEx, winrt.createcontrolinputex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: corewindow.h
 req.include-header: 

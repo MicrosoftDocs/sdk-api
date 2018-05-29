@@ -1,16 +1,16 @@
 ---
 UID: NF:mixerocx.IMixerOCX.GetAspectRatio
 title: IMixerOCX::GetAspectRatio
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAspectRatio method returns the current aspect ratio setting on the Overlay Mixer. (Currently not implemented.).
 old-location: dshow\imixerocx_getaspectratio.htm
 old-project: DirectShow
 ms.assetid: 6143ba3c-6472-47d3-b3ca-55c06ca8da0e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAspectRatio, GetAspectRatio method [DirectShow], GetAspectRatio method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],GetAspectRatio method, IMixerOCX.GetAspectRatio, IMixerOCX::GetAspectRatio, IMixerOCXGetAspectRatio, dshow.imixerocx_getaspectratio, mixerocx/IMixerOCX::GetAspectRatio
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mixerocx.h
 req.include-header: 

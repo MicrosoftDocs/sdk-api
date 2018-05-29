@@ -1,16 +1,16 @@
 ---
 UID: NS:vds._VDS_ASYNC_OUTPUT
 title: "_VDS_ASYNC_OUTPUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the output of an async object. Output elements vary depending on the operation type.
 old-location: base\vds_async_output.htm
 old-project: VDS
 ms.assetid: 21771c6a-eca9-47f3-b6fc-383bca1e11bf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_ASYNCOUT_BREAKVOLUMEPLEX, VDS_ASYNCOUT_CREATELUN, VDS_ASYNCOUT_CREATEPARTITION, VDS_ASYNCOUT_CREATEPORTALGROUP, VDS_ASYNCOUT_CREATETARGET, VDS_ASYNCOUT_CREATEVOLUME, VDS_ASYNCOUT_CREATE_VDISK, VDS_ASYNC_OUTPUT, VDS_ASYNC_OUTPUT structure [VDS], _VDS_ASYNC_OUTPUT, base.vds_async_output, vds/_VDS_ASYNC_OUTPUT, vdshwprv/_VDS_ASYNC_OUTPUT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

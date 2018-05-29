@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingProviderId
 title: TraceLoggingProviderId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the provider ID that was specified in TRACELOGGING_DEFINE_PROVIDER.
 old-location: tracelogging\traceloggingproviderid.htm
 old-project: tracelogging
 ms.assetid: 16C79B3D-ACFF-40E3-B418-2DC44F010A74
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingProviderId, TraceLoggingProviderId function, tracelogging.traceloggingproviderid, traceloggingprovider/TraceLoggingProviderId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: traceloggingprovider.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_SID_TYPE
 title: "_EVT_CHANNEL_SID_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the values that determine whether the event includes the security identifier (SID) of the principal that logged the event.
 old-location: wes\evt_channel_sid_type.htm
 old-project: WES
 ms.assetid: 7eadae8f-71b4-44de-ba66-0e460fee496c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EVT_CHANNEL_SID_TYPE, EVT_CHANNEL_SID_TYPE enumeration [EventLog], EvtChannelSidTypeNone, EvtChannelSidTypePublishing, _EVT_CHANNEL_SID_TYPE, wes.evt_channel_sid_type, winevt/EVT_CHANNEL_SID_TYPE, winevt/EvtChannelSidTypeNone, winevt/EvtChannelSidTypePublishing
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

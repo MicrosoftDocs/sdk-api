@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMImageResource
 title: IXpsOMImageResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides an IStream interface to an image resource.
 old-location: xps\ixpsomimageresource.htm
 old-project: printdocs
 ms.assetid: 89a1530e-fa87-45bf-a1da-c8656ec09ba3
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMImageResource, IXpsOMImageResource interface [XPS Documents and Packaging], IXpsOMImageResource interface [XPS Documents and Packaging],described, xps.ixpsomimageresource, xpsobjectmodel/IXpsOMImageResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

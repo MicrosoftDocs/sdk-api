@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IDelegateFolder
 title: IDelegateFolder
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method through which a delegate folder is given the IMalloc interface required to allocate and free item IDs.
 old-location: shell\IDelegateFolder.htm
 old-project: shell
 ms.assetid: 16db01f3-4167-43f0-9ef7-34eec906e199
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDelegateFolder, IDelegateFolder interface [Windows Shell], IDelegateFolder interface [Windows Shell],described, shell.IDelegateFolder, shell_IDelegateFolder, shobjidl_core/IDelegateFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

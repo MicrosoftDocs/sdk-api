@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITTAPIObjectEvent
 title: ITTAPIObjectEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITTAPIObjectEvent interface contains methods that retrieve the description of TAPI object events.
 old-location: tapi3\ittapiobjectevent.htm
 old-project: Tapi
 ms.assetid: 73be7109-0d3a-4ac5-adb7-e1577d8640b5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITTAPIObjectEvent, ITTAPIObjectEvent interface [TAPI 2.2], ITTAPIObjectEvent interface [TAPI 2.2],described, _tapi3_ittapiobjectevent, tapi3.ittapiobjectevent, tapi3if/ITTAPIObjectEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

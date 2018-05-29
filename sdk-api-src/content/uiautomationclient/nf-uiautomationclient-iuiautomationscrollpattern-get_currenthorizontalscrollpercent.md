@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CurrentHorizontalScrollPercent
 title: IUIAutomationScrollPattern::get_CurrentHorizontalScrollPercent
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the horizontal scroll position.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentHorizontalScrollPercent.htm
 old-project: WinAuto
 ms.assetid: dd882f92-be09-49c8-b2fc-fe54f661c686
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentHorizontalScrollPercent property [Windows Accessibility], CurrentHorizontalScrollPercent property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CurrentHorizontalScrollPercent property, IUIAutomationScrollPattern.CurrentHorizontalScrollPercent, IUIAutomationScrollPattern.get_CurrentHorizontalScrollPercent, IUIAutomationScrollPattern::CurrentHorizontalScrollPercent, IUIAutomationScrollPattern::get_CurrentHorizontalScrollPercent, get_CurrentHorizontalScrollPercent, uiauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontalScrollPercent, uiauto_IUIAutomationScrollPattern_CurrentHorizontalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::CurrentHorizontalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::get_CurrentHorizontalScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontalScrollPercent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

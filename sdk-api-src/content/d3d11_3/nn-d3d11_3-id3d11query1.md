@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11_3.ID3D11Query1
 title: ID3D11Query1
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a query object for querying information from the graphics processing unit (GPU).
 old-location: direct3d11\id3d11query1.htm
 old-project: direct3d11
 ms.assetid: 6DF4364F-A20D-466E-8F26-17C6DD32E84B
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11Query1, ID3D11Query1 interface [Direct3D 11], ID3D11Query1 interface [Direct3D 11],described, d3d11_3/ID3D11Query1, direct3d11.id3d11query1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_3.h
 req.include-header: 

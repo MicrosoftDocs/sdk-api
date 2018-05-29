@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CreateBitmapIndirect
 title: CreateBitmapIndirect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateBitmapIndirect function creates a bitmap with the specified width, height, and color format (color planes and bits-per-pixel).
 old-location: gdi\createbitmapindirect.htm
 old-project: gdi
 ms.assetid: 79f73e28-4ee3-472d-9a20-3ffe7cf2a6b5
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateBitmapIndirect, CreateBitmapIndirect function [Windows GDI], _win32_CreateBitmapIndirect, gdi.createbitmapindirect, wingdi/CreateBitmapIndirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

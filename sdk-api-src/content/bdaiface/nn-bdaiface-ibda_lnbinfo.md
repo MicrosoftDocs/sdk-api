@@ -1,16 +1,16 @@
 ---
 UID: NN:bdaiface.IBDA_LNBInfo
 title: IBDA_LNBInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The IBDA_LNBInfo interface is implemented on a BDA device filter, specifically an LNB device. The methods are called by the Network Provider to instruct the device on how to acquire the satellite signal.
 old-location: mstv\ibda_lnbinfo.htm
 old-project: mstv
 ms.assetid: 4985b525-c000-4d19-9679-c995cbc3c99b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_LNBInfo, IBDA_LNBInfo interface [Microsoft TV Technologies], IBDA_LNBInfo interface [Microsoft TV Technologies],described, IBDA_LNBInfoInterface, bdaiface/IBDA_LNBInfo, mstv.ibda_lnbinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._PKU2U_CREDUI_CONTEXT
 title: "_PKU2U_CREDUI_CONTEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a PKU2U client context.
 old-location: security\pku2u_credui_context.htm
 old-project: SecAuthN
 ms.assetid: 38de5472-27f2-40d4-90e8-7b59d3982f03
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PPKU2U_CREDUI_CONTEXT, PKU2U_CREDUI_CONTEXT, PKU2U_CREDUI_CONTEXT structure [Security], PPKU2U_CREDUI_CONTEXT, PPKU2U_CREDUI_CONTEXT structure pointer [Security], _PKU2U_CREDUI_CONTEXT, ntsecapi/PKU2U_CREDUI_CONTEXT, ntsecapi/PPKU2U_CREDUI_CONTEXT, security.pku2u_credui_context"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

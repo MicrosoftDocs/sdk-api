@@ -1,16 +1,16 @@
 ---
 UID: NF:thumbcache.IThumbnailCache.GetThumbnailByID
 title: IThumbnailCache::GetThumbnailByID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a thumbnail from the thumbnail cache, given its ID.
 old-location: shell\IThumbnailCache_GetThumbnailByID.htm
 old-project: shell
 ms.assetid: 3b5069e2-f20b-4c43-a9e7-334366980f5c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetThumbnailByID, GetThumbnailByID method [Windows Shell], GetThumbnailByID method [Windows Shell],IThumbnailCache interface, IThumbnailCache interface [Windows Shell],GetThumbnailByID method, IThumbnailCache.GetThumbnailByID, IThumbnailCache::GetThumbnailByID, WTS_CACHED, WTS_DEFAULT, WTS_LOWQUALITY, _shell__GetThumbnailByID, shell.IThumbnailCache_GetThumbnailByID, thumbcache/IThumbnailCache::GetThumbnailByID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: thumbcache.h
 req.include-header: 

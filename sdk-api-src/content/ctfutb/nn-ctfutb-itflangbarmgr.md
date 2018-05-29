@@ -1,16 +1,16 @@
 ---
 UID: NN:ctfutb.ITfLangBarMgr
 title: ITfLangBarMgr
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfLangBarMgr interface is implemented by the TSF manager and used by text services to manage event sink notification and configure floating language bar display settings. The interface ID is IID_ITfLangBarMgr.
 old-location: tsf\itflangbarmgr.htm
 old-project: TSF
 ms.assetid: 60bd765f-0846-47f5-af1b-bc8e72720841
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfLangBarMgr, ITfLangBarMgr interface [Text Services Framework], ITfLangBarMgr interface [Text Services Framework],described, _tsf_itflangbarmgr_ref, ctfutb/ITfLangBarMgr, tsf.itflangbarmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctfutb.h
 req.include-header: 

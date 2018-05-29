@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetDllDirectoryA
 title: SetDllDirectoryA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a directory to the search path used to locate DLLs for the application.
 old-location: base\setdlldirectory.htm
 old-project: Dlls
 ms.assetid: c0c57554-3d98-487c-8bae-c594620d5a00
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SetDllDirectory, SetDllDirectory function, SetDllDirectoryA, SetDllDirectoryW, base.setdlldirectory, winbase/SetDllDirectory, winbase/SetDllDirectoryA, winbase/SetDllDirectoryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

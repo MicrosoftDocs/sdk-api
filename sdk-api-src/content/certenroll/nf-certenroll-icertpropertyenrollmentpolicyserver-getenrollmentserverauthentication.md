@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerAuthentication
 title: ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerAuthentication
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetEnrollmentServerAuthentication method retrieves a value that specifies the type of authentication used by the certificate enrollment server (CES) to authenticate a client. This value is set by the Initialize method.
 old-location: security\icertpropertyenrollmentpolicyserver_getenrollmentserverauthentication.htm
 old-project: SecCertEnroll
 ms.assetid: c46d9bc4-26ee-40c0-a228-804e7c598285
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetEnrollmentServerAuthentication, GetEnrollmentServerAuthentication method [Security], GetEnrollmentServerAuthentication method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetEnrollmentServerAuthentication method, ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerAuthentication, ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerAuthentication, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerAuthentication, security.icertpropertyenrollmentpolicyserver_getenrollmentserverauthentication
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:msinkaut.InkPersistenceFormat
 title: InkPersistenceFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how ink is persisted.
 old-location: tablet\inkpersistenceformat.htm
 old-project: tablet
 ms.assetid: ecbf48ce-0394-4da1-9f5c-d2626545982c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPF_Base64Gif, IPF_Base64InkSerializedFormat, IPF_Gif, IPF_InkSerializedFormat, InkPersistenceFormat, InkPersistenceFormat enumeration [Tablet PC], ecbf48ce-0394-4da1-9f5c-d2626545982c, msinkaut/IPF_Base64Gif, msinkaut/IPF_Base64InkSerializedFormat, msinkaut/IPF_Gif, msinkaut/IPF_InkSerializedFormat, msinkaut/InkPersistenceFormat, tablet.inkpersistenceformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

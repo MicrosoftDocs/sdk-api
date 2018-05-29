@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.FolderItem.Verbs
 title: FolderItem::Verbs
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the item's FolderItemVerbs object. This object is the collection of verbs that can be executed on the item.
 old-location: shell\FolderItem_Verbs.htm
 old-project: shell
 ms.assetid: e31160cd-093a-45a6-a066-58120c44eb2c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FolderItem object [Windows Shell],Verbs method, FolderItem.Verbs, FolderItem::Verbs, Verbs, Verbs method [Windows Shell], Verbs method [Windows Shell],FolderItem object, _win32_FolderItem_Verbs, shell.FolderItem_Verbs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

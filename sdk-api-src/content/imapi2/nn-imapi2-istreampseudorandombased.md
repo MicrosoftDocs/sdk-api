@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2.IStreamPseudoRandomBased
 title: IStreamPseudoRandomBased
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to generate a read-only data stream whose data is initialized with pseudo-random data (not cryptographically safe). You must call the SetSize method to set the requested size of the stream.
 old-location: imapi\istreampseudorandombased.htm
 old-project: imapi
 ms.assetid: 7630b8ac-41f9-4cc7-95e7-4172a876673f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IStreamPseudoRandomBased, IStreamPseudoRandomBased interface [IMAPI], IStreamPseudoRandomBased interface [IMAPI],described, imapi.istreampseudorandombased, imapi2/IStreamPseudoRandomBased
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICGetDisplayFormat
 title: ICGetDisplayFormat function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICGetDisplayFormat function determines the best format available for displaying a compressed image. The function also opens a compressor if a handle of an open compressor is not specified.
 old-location: multimedia\icgetdisplayformat.htm
 old-project: Multimedia
 ms.assetid: 4e588524-4105-4496-bc87-407abc45f598
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICGetDisplayFormat, ICGetDisplayFormat function [Windows Multimedia], _win32_ICGetDisplayFormat, multimedia.icgetdisplayformat, vfw/ICGetDisplayFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

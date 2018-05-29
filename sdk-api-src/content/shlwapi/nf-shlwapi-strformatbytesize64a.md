@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrFormatByteSize64A
 title: StrFormatByteSize64A function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a numeric value into a string that represents the number expressed as a size value in bytes, kilobytes, megabytes, or gigabytes, depending on the size.
 old-location: shell\StrFormatByteSize64A.htm
 old-project: shell
 ms.assetid: b56dd90a-7033-409b-a8ea-e81a7a8a2342
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrFormatByteSize64, StrFormatByteSize64 function [Windows Shell], StrFormatByteSize64A, _win32_StrFormatByteSize64A, shell.StrFormatByteSize64A, shlwapi/StrFormatByteSize64, shlwapi/StrFormatByteSize64A
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

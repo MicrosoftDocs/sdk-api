@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.HttpQueryInfoA
 title: HttpQueryInfoA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves header information associated with an HTTP request.
 old-location: wininet\httpqueryinfo.htm
 old-project: WinInet
 ms.assetid: 5747ce19-5004-4eea-abe9-dd00abac1b3b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HttpQueryInfo, HttpQueryInfo function [WinINet], HttpQueryInfoA, HttpQueryInfoW, _inet_httpqueryinfo_function, wininet.httpqueryinfo, wininet/HttpQueryInfo, wininet/HttpQueryInfoA, wininet/HttpQueryInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

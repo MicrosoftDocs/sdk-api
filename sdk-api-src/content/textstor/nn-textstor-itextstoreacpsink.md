@@ -1,16 +1,16 @@
 ---
 UID: NN:textstor.ITextStoreACPSink
 title: ITextStoreACPSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStoreACPSink interface is implemented by the TSF manager and is used by an ACP-based application to notify the manager when certain events occur. The manager installs this advise sink by calling ITextStoreACP::AdviseSink.
 old-location: tsf\itextstoreacpsink.htm
 old-project: TSF
 ms.assetid: d7e5a04f-7159-436e-a522-4cb63063aeef
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreACPSink, ITextStoreACPSink interface [Text Services Framework], ITextStoreACPSink interface [Text Services Framework],described, _tsf_itextstoreacpsink_ref, textstor/ITextStoreACPSink, tsf.itextstoreacpsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: textstor.h
 req.include-header: 

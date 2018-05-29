@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfCompartment
 title: ITfCompartment
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfCompartment interface is implemented by the TSF manager and is used by clients (applications and text services) to obtain and set data in a TSF compartment.
 old-location: tsf\itfcompartment.htm
 old-project: TSF
 ms.assetid: c9ca3eb5-1fb1-4e45-9ec4-a0296f1bc8c3
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfCompartment, ITfCompartment interface [Text Services Framework], ITfCompartment interface [Text Services Framework],described, _tsf_itfcompartment_ref, msctf/ITfCompartment, tsf.itfcompartment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

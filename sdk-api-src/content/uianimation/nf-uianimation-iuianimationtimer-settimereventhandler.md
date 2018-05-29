@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.SetTimerEventHandler
 title: IUIAnimationTimer::SetTimerEventHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a timer event handler.
 old-location: uianimation\iuianimationtimer_settimereventhandler.htm
 old-project: UIAnimation
 ms.assetid: ff1bae45-2199-4340-a27b-19865d2877f9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationTimer interface [Windows Animation],SetTimerEventHandler method, IUIAnimationTimer.SetTimerEventHandler, IUIAnimationTimer::SetTimerEventHandler, SetTimerEventHandler, SetTimerEventHandler method [Windows Animation], SetTimerEventHandler method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_settimereventhandler, uianimation/IUIAnimationTimer::SetTimerEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

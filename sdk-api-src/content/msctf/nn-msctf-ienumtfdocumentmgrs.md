@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.IEnumTfDocumentMgrs
 title: IEnumTfDocumentMgrs
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumTfDocumentMgrs interface is implemented by the TSF manager to provide an enumeration of document manager objects.
 old-location: tsf\ienumtfdocumentmgrs.htm
 old-project: TSF
 ms.assetid: 5b276752-715b-4426-ad37-8658bae4c1a6
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IEnumTfDocumentMgrs, IEnumTfDocumentMgrs interface [Text Services Framework], IEnumTfDocumentMgrs interface [Text Services Framework],described, _tsf_ienumtfdocumentmgrs_ref, msctf/IEnumTfDocumentMgrs, tsf.ienumtfdocumentmgrs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

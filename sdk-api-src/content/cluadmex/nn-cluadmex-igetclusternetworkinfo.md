@@ -1,16 +1,16 @@
 ---
 UID: NN:cluadmex.IGetClusterNetworkInfo
 title: IGetClusterNetworkInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by a Failover Cluster Administrator extension to retrieve information about a network.
 old-location: mscs\igetclusternetworkinfo.htm
 old-project: MsCS
 ms.assetid: 7c304d9c-69b6-48fc-bb1b-f49d1ac8ede4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IGetClusterNetworkInfo, IGetClusterNetworkInfo interface [Failover Cluster], IGetClusterNetworkInfo interface [Failover Cluster],described, _wolf_igetclusternetworkinfo, cluadmex/IGetClusterNetworkInfo, mscs.igetclusternetworkinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 

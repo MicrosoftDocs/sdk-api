@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_IsGroupViewEnabled
 title: ListView_IsGroupViewEnabled macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks whether the list-view control has group view enabled. You can use this macro or send the LVM_ISGROUPVIEWENABLED message explicitly.
 old-location: controls\ListView_IsGroupViewEnabled.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_isgroupviewenabled.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_IsGroupViewEnabled, ListView_IsGroupViewEnabled macro [Windows Controls], _win32_ListView_IsGroupViewEnabled, _win32_ListView_IsGroupViewEnabled_cpp, commctrl/ListView_IsGroupViewEnabled, controls.ListView_IsGroupViewEnabled, controls._win32_ListView_IsGroupViewEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

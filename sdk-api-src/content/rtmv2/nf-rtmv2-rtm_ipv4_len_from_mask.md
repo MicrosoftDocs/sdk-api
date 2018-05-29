@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RTM_IPV4_LEN_FROM_MASK
 title: RTM_IPV4_LEN_FROM_MASK macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The RTM_IPV4_LEN_FROM_MASK macro converts an IPv4 mask to a generic route length.
 old-location: rras\rtm_ipv4_len_from_mask.htm
 old-project: RRAS
 ms.assetid: fdbc2030-3917-4920-848e-76b5d1dfcfef
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RTM_IPV4_LEN_FROM_MASK, RTM_IPV4_LEN_FROM_MASK macro [RAS], _rtmv2ref_rtm_ipv4_len_from_mask, rras.rtm_ipv4_len_from_mask, rtmv2/RTM_IPV4_LEN_FROM_MASK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: rtmv2.h
 req.include-header: 

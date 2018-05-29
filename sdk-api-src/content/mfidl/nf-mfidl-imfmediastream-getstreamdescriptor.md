@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaStream.GetStreamDescriptor
 title: IMFMediaStream::GetStreamDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a stream descriptor for this media stream.
 old-location: mf\imfmediastream_getstreamdescriptor.htm
 old-project: medfound
 ms.assetid: 574eacfb-3acd-4b47-9c25-3a67aae01178
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 574eacfb-3acd-4b47-9c25-3a67aae01178, GetStreamDescriptor, GetStreamDescriptor method [Media Foundation], GetStreamDescriptor method [Media Foundation],IMFMediaStream interface, IMFMediaStream interface [Media Foundation],GetStreamDescriptor method, IMFMediaStream.GetStreamDescriptor, IMFMediaStream::GetStreamDescriptor, mf.imfmediastream_getstreamdescriptor, mfidl/IMFMediaStream::GetStreamDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

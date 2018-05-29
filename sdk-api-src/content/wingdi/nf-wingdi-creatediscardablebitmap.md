@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CreateDiscardableBitmap
 title: CreateDiscardableBitmap function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateDiscardableBitmap function creates a discardable bitmap that is compatible with the specified device.
 old-location: gdi\creatediscardablebitmap.htm
 old-project: gdi
 ms.assetid: 79168baf-26ea-4d24-b75c-d0658a56892c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateDiscardableBitmap, CreateDiscardableBitmap function [Windows GDI], _win32_CreateDiscardableBitmap, gdi.creatediscardablebitmap, wingdi/CreateDiscardableBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

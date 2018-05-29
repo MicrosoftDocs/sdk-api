@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.GetInputCount
 title: IWMWriter::GetInputCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetInputCount method retrieves the number of uncompressed input streams.
 old-location: wmformat\iwmwriter_getinputcount.htm
 old-project: wmformat
 ms.assetid: 0cb3cd79-0640-4a3b-8e8b-d81df2ff749f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetInputCount, GetInputCount method [windows Media Format], GetInputCount method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputCount method, IWMWriter.GetInputCount, IWMWriter::GetInputCount, IWMWriterGetInputCount, wmformat.iwmwriter_getinputcount, wmsdkidl/IWMWriter::GetInputCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

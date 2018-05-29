@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._MSV1_0_SUBAUTH_REQUEST
 title: "_MSV1_0_SUBAUTH_REQUEST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information to pass to an subauthentication package.
 old-location: security\msv1_0_subauth_request.htm
 old-project: SecAuthN
 ms.assetid: 5a408c0a-56d4-48f6-8289-6f203ef998df
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PMSV1_0_SUBAUTH_REQUEST, MSV1_0_SUBAUTH_REQUEST, MSV1_0_SUBAUTH_REQUEST structure [Security], PMSV1_0_SUBAUTH_REQUEST, PMSV1_0_SUBAUTH_REQUEST structure pointer [Security], _MSV1_0_SUBAUTH_REQUEST, _lsa_msv1_0_subauth_request, ntsecapi/MSV1_0_SUBAUTH_REQUEST, ntsecapi/PMSV1_0_SUBAUTH_REQUEST, security.msv1_0_subauth_request"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

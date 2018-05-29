@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioAsyncEnumDatabases
 title: WinBioAsyncEnumDatabases function
-author: windows-driver-content
+author: windows-sdk-content
 description: Asynchronously enumerates all registered databases that match a specified type.
 old-location: secbiomet\winbioasyncenumdatabases.htm
 old-project: SecBioMet
 ms.assetid: 405AB590-B579-4B61-9CE7-BF21D9E56600
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WinBioAsyncEnumDatabases, WinBioAsyncEnumDatabases function [Windows Biometric Framework API], secbiomet.winbioasyncenumdatabases, winbio/WinBioAsyncEnumDatabases
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

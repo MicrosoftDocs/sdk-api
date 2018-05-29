@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.FindCloseChangeNotification
 title: FindCloseChangeNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops change notification handle monitoring.
 old-location: fs\findclosechangenotification.htm
 old-project: FileIO
 ms.assetid: 17ca915c-3891-41f0-8816-6ac31c957afe
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FindCloseChangeNotification, FindCloseChangeNotification function [Files], _win32_findclosechangenotification, base.findclosechangenotification, fileapi/FindCloseChangeNotification, fs.findclosechangenotification, winbase/FindCloseChangeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

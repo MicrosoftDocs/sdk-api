@@ -1,16 +1,16 @@
 ---
 UID: NE:tapi3cc.AGENT_STATE
 title: AGENT_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: The AGENT_STATE enum is used by the ITAgent::put_State and ITAgent::get_State methods to describe the agent state.
 old-location: tapi3\agent_state.htm
 old-project: Tapi
 ms.assetid: 6d63030e-cd47-48db-ab0d-a3c4f3aac733
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AGENT_STATE, AGENT_STATE enumeration [TAPI 2.2], AS_BUSY_ACD, AS_BUSY_INCOMING, AS_BUSY_OUTGOING, AS_NOT_READY, AS_READY, AS_UNKNOWN, _tapi3_agent_state, tapi3.agent_state, tapi3cc/AGENT_STATE, tapi3cc/AS_BUSY_ACD, tapi3cc/AS_BUSY_INCOMING, tapi3cc/AS_BUSY_OUTGOING, tapi3cc/AS_NOT_READY, tapi3cc/AS_READY, tapi3cc/AS_UNKNOWN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

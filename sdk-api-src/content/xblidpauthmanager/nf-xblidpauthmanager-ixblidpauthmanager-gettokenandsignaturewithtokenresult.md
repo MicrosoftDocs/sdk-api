@@ -1,16 +1,16 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult
 title: IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_gettokenandsignaturewithtokenresult.htm
 old-project: xblidp
 ms.assetid: 22ACC545-8EDE-4009-9EE9-1AE541985E6A
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetTokenAndSignatureWithTokenResult, GetTokenAndSignatureWithTokenResult method, GetTokenAndSignatureWithTokenResult method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetTokenAndSignatureWithTokenResult method, IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult, IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult, xblidp.ixblidpauthmanager_gettokenandsignaturewithtokenresult, xblidpauthmanager/IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

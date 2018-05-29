@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.RemoveLanguageProfile
 title: ITfInputProcessorProfiles::RemoveLanguageProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfInputProcessorProfiles::RemoveLanguageProfile method
 old-location: tsf\itfinputprocessorprofiles_removelanguageprofile.htm
 old-project: TSF
 ms.assetid: 16eff9bc-1789-4bf6-b1ba-b7e8414ce080
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],RemoveLanguageProfile method, ITfInputProcessorProfiles.RemoveLanguageProfile, ITfInputProcessorProfiles::RemoveLanguageProfile, RemoveLanguageProfile, RemoveLanguageProfile method [Text Services Framework], RemoveLanguageProfile method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_removelanguageprofile_ref, msctf/ITfInputProcessorProfiles::RemoveLanguageProfile, tsf.itfinputprocessorprofiles_removelanguageprofile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

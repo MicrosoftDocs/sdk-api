@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineReleaseUserUserInfo
 title: lineReleaseUserUserInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineReleaseUserUserInfo function informs the service provider that the application has processed the user-user information contained in the LINECALLINFO structure.
 old-location: tapi2\linereleaseuseruserinfo.htm
 old-project: Tapi
 ms.assetid: 35d41764-7ed6-4be3-8854-37444f2a44a8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linereleaseuseruserinfo, lineReleaseUserUserInfo, lineReleaseUserUserInfo function [TAPI 2.2], tapi/lineReleaseUserUserInfo, tapi2.linereleaseuseruserinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

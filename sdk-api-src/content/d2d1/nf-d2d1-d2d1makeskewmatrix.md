@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1.D2D1MakeSkewMatrix
 title: D2D1MakeSkewMatrix function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a skew transformation that has the specified x-axis angle, y-axis angle, and center point.
 old-location: direct2d\d2d1makeskewmatrix.htm
 old-project: Direct2D
 ms.assetid: 9f29488c-37f0-4d53-9e3b-3b27e841c8b4
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1MakeSkewMatrix, D2D1MakeSkewMatrix function [Direct2D], d2d1/D2D1MakeSkewMatrix, direct2d.d2d1makeskewmatrix
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1.h
 req.include-header: 

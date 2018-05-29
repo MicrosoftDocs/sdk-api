@@ -1,16 +1,16 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO
 title: "_CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that controls the operation of the CryptUIWizExport function when a certificate is the object being exported.
 old-location: security\cryptui_wiz_export_certcontext_info.htm
 old-project: SecCrypto
 ms.assetid: 6be86c4f-0ac7-43c2-81fb-9767279ebeaf
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO structure [Security], CRYPTUI_WIZ_EXPORT_FORMAT_BASE64, CRYPTUI_WIZ_EXPORT_FORMAT_CRL, CRYPTUI_WIZ_EXPORT_FORMAT_CTL, CRYPTUI_WIZ_EXPORT_FORMAT_DER, CRYPTUI_WIZ_EXPORT_FORMAT_PFX, CRYPTUI_WIZ_EXPORT_FORMAT_PKCS7, PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO structure pointer [Security], _CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, cryptuiapi/CRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, cryptuiapi/PCRYPTUI_WIZ_EXPORT_CERTCONTEXT_INFO, security.cryptui_wiz_export_certcontext_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 

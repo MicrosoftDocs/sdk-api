@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.AddKeyframeAtOffset
 title: IUIAnimationStoryboard::AddKeyframeAtOffset
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a keyframe at the specified offset from an existing keyframe.
 old-location: uianimation\iuianimationstoryboard_addkeyframeatoffset.htm
 old-project: UIAnimation
 ms.assetid: f598c8a4-4325-49ed-bc18-5d672e089592
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddKeyframeAtOffset, AddKeyframeAtOffset method [Windows Animation], AddKeyframeAtOffset method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddKeyframeAtOffset method, IUIAnimationStoryboard.AddKeyframeAtOffset, IUIAnimationStoryboard::AddKeyframeAtOffset, uianimation.iuianimationstoryboard_addkeyframeatoffset, uianimation/IUIAnimationStoryboard::AddKeyframeAtOffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:oaidl.tagARRAYDESC
 title: tagARRAYDESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an array, its element type, and its dimension.
 old-location: automat\arraydesc.htm
 old-project: automat
 ms.assetid: 5d48c9b7-a718-46bd-b8ba-5c92847c9a12
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ARRAYDESC, ARRAYDESC structure [Automation], _oa96_ARRAYDESC, automat.arraydesc, oaidl/ARRAYDESC, tagARRAYDESC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

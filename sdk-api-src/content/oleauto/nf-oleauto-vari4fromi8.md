@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarI4FromI8
 title: VarI4FromI8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an 8-byte integer value to a long value.
 old-location: automat\vari4fromi8.htm
 old-project: automat
 ms.assetid: baaa85e1-470c-4915-a7c6-76fc5c86ea2f
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarI4FromI8, VarI4FromI8 function [Automation], _oa96_VarI4FromI8, automat.vari4fromi8, oleauto/VarI4FromI8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

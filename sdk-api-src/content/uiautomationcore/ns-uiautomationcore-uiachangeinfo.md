@@ -1,16 +1,16 @@
 ---
 UID: NS:uiautomationcore.UiaChangeInfo
 title: UiaChangeInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains data about a UI Automation change that occurred.
 old-location: winauto\uiachangeinfo.htm
 old-project: WinAuto
 ms.assetid: 28C0C0DE-7ED2-4D01-B532-E56AD81AE8D0
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: PUiaChangeInfo, PUiaChangeInfo structure pointer [Windows Accessibility], UiaChangeInfo, UiaChangeInfo structure [Windows Accessibility], uiautomationcore/PUiaChangeInfo, uiautomationcore/UiaChangeInfo, winauto.uiachangeinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: uiautomationcore.h
 req.include-header: 

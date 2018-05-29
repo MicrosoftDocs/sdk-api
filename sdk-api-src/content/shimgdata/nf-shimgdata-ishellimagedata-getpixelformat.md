@@ -1,16 +1,16 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetPixelFormat
 title: IShellImageData::GetPixelFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the pixel format of the image.
 old-location: shell\IShellImageData_GetPixelFormat.htm
 old-project: shell
 ms.assetid: 43520cdd-66f1-4c75-bcec-7631de4f96c3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [Windows Shell], GetPixelFormat method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetPixelFormat method, IShellImageData.GetPixelFormat, IShellImageData::GetPixelFormat, _shell_IShellImageData_GetPixelFormat, shell.IShellImageData_GetPixelFormat, shimgdata/IShellImageData::GetPixelFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

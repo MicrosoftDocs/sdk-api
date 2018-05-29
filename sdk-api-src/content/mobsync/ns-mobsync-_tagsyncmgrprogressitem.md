@@ -1,16 +1,16 @@
 ---
 UID: NS:mobsync._tagSYNCMGRPROGRESSITEM
 title: "_tagSYNCMGRPROGRESSITEM"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides status information while a synchronization is in progress. This structure is used with the ISyncMgrSynchronizeCallback::Progress method and corresponds to a single synchronization item.
 old-location: shell\syncmgr_syncmgrprogressitem.htm
 old-project: shell
 ms.assetid: 94ac1206-be5f-467c-ab4a-11f574c406ca
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM, LPSYNCMGRPROGRESSITEM structure pointer [Windows Shell], SYNCMGRPROGRESSITEM, SYNCMGRPROGRESSITEM structure [Windows Shell], _tagSYNCMGRPROGRESSITEM, mobsync/LPSYNCMGRPROGRESSITEM, mobsync/SYNCMGRPROGRESSITEM, shell.syncmgr_syncmgrprogressitem, syncmgr.syncmgrprogressitem"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mobsync.h
 req.include-header: 

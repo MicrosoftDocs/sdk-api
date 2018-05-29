@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdControl.LeftButtonSelect
 title: IDvdControl::LeftButtonSelect
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the left directional button from the displayed menu.
 old-location: dshow\idvdcontrol_leftbuttonselect.htm
 old-project: DirectShow
 ms.assetid: 62c35cb1-f1e0-4852-9a59-555cf979615f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDvdControl interface [DirectShow],LeftButtonSelect method, IDvdControl.LeftButtonSelect, IDvdControl::LeftButtonSelect, IDvdControlLeftButtonSelect, LeftButtonSelect, LeftButtonSelect method [DirectShow], LeftButtonSelect method [DirectShow],IDvdControl interface, dshow.idvdcontrol_leftbuttonselect, strmif/IDvdControl::LeftButtonSelect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

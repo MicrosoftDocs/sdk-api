@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_HTTP_HEADER_MAPPING
 title: "_WS_HTTP_HEADER_MAPPING"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies an individual header that is mapped as part of WS_HTTP_MESSAGE_MAPPING.
 old-location: wsw\ws_http_header_mapping.htm
 old-project: wsw
 ms.assetid: bca1f244-4692-42bb-bbd7-c96647038a06
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_HTTP_HEADER_MAPPING, WS_HTTP_HEADER_MAPPING structure [Web Services for Windows], _WS_HTTP_HEADER_MAPPING, webservices/WS_HTTP_HEADER_MAPPING, wsw.ws_http_header_mapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

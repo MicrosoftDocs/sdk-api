@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.BrowseToIDList
 title: IExplorerBrowser::BrowseToIDList
-author: windows-driver-content
+author: windows-sdk-content
 description: Browses to a pointer to an item identifier list (PIDL)
 old-location: shell\IExplorerBrowser_BrowseToIDList.htm
 old-project: shell
 ms.assetid: b0633072-e059-4ea4-b9c0-798399ccf66a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: BrowseToIDList, BrowseToIDList method [Windows Shell], BrowseToIDList method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],BrowseToIDList method, IExplorerBrowser.BrowseToIDList, IExplorerBrowser::BrowseToIDList, SBSP_ABSOLUTE, SBSP_KEEPWORDWHEELTEXT, SBSP_NAVIGATEBACK, SBSP_NAVIGATEFORWARD, SBSP_PARENT, SBSP_RELATIVE, _shell_IExplorerBrowser_BrowseToIDList, shell.IExplorerBrowser_BrowseToIDList, shobjidl_core/IExplorerBrowser::BrowseToIDList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

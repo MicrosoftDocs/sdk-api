@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.SetStreamSelectorFlags
 title: IMFASFStreamSelector::SetStreamSelectorFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets options for the stream selector.
 old-location: mf\imfasfstreamselector_setstreamselectorflags.htm
 old-project: medfound
 ms.assetid: a2a0f318-0de2-49e0-b8f2-847ab1371752
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFASFStreamSelector interface [Media Foundation],SetStreamSelectorFlags method, IMFASFStreamSelector.SetStreamSelectorFlags, IMFASFStreamSelector::SetStreamSelectorFlags, SetStreamSelectorFlags, SetStreamSelectorFlags method [Media Foundation], SetStreamSelectorFlags method [Media Foundation],IMFASFStreamSelector interface, a2a0f318-0de2-49e0-b8f2-847ab1371752, mf.imfasfstreamselector_setstreamselectorflags, wmcontainer/IMFASFStreamSelector::SetStreamSelectorFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

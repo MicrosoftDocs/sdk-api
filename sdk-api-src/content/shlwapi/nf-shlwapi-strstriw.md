@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrStrIW
 title: StrStrIW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds the first occurrence of a substring within a string. The comparison is not case-sensitive.
 old-location: shell\StrStrI.htm
 old-project: shell
 ms.assetid: b0281641-1375-4815-a707-03e1ce7e5a29
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrStrI, StrStrI function [Windows Shell], StrStrIA, StrStrIW, _win32_StrStrI, shell.StrStrI, shlwapi/StrStrI, shlwapi/StrStrIA, shlwapi/StrStrIW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

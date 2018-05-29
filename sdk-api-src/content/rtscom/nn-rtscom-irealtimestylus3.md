@@ -1,16 +1,16 @@
 ---
 UID: NN:rtscom.IRealTimeStylus3
 title: IRealTimeStylus3
-author: windows-driver-content
+author: windows-sdk-content
 description: The IRealTimeStylus3 interface enables multitouch for the realtime stylus.
 old-location: tablet\irealtimestylus3.htm
 old-project: tablet
 ms.assetid: 93eabb45-0b0e-495f-9b64-43ad8060b958
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IRealTimeStylus3, IRealTimeStylus3 interface [Tablet PC], IRealTimeStylus3 interface [Tablet PC],described, rtscom/IRealTimeStylus3, tablet.irealtimestylus3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rtscom.h
 req.include-header: 

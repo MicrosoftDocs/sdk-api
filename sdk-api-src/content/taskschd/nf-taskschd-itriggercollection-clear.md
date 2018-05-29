@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITriggerCollection.Clear
 title: ITriggerCollection::Clear
-author: windows-driver-content
+author: windows-sdk-content
 description: Clears all triggers from the collection.
 old-location: taskschd\itriggercollection_clear.htm
 old-project: TaskSchd
 ms.assetid: 9a15ed27-a381-4b5c-9725-3a55ce86d666
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Clear, Clear method [Task Scheduler], Clear method [Task Scheduler],ITriggerCollection interface, ITriggerCollection interface [Task Scheduler],Clear method, ITriggerCollection.Clear, ITriggerCollection::Clear, taskschd.itriggercollection_clear, taskschd/ITriggerCollection::Clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

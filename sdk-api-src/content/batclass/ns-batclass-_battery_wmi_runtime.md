@@ -1,16 +1,16 @@
 ---
 UID: NS:batclass._BATTERY_WMI_RUNTIME
 title: "_BATTERY_WMI_RUNTIME"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines information about the estimated runtime of a battery for use with the BatteryClassQueryWmiDataBlock function.
 old-location: battery\battery_wmi_runtime.htm
 old-project: battery
 ms.assetid: B6351A10-581C-42F1-A8AD-D33D6F633466
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PBATTERY_WMI_RUNTIME, BATTERY_WMI_RUNTIME, BATTERY_WMI_RUNTIME structure [Battery Devices], PBATTERY_WMI_RUNTIME, PBATTERY_WMI_RUNTIME structure pointer [Battery Devices], _BATTERY_WMI_RUNTIME, batclass/BATTERY_WMI_RUNTIME, batclass/PBATTERY_WMI_RUNTIME, battery.battery_wmi_runtime"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: batclass.h
 req.include-header: Batclass.h

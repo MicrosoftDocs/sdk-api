@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IShellMenuCallback
 title: IShellMenuCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: A callback interface that exposes a method that receives messages from a menu band.
 old-location: shell\IShellMenuCallback.htm
 old-project: shell
 ms.assetid: 96bfdc52-bd4a-4345-8dd1-7e716a3d9811
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellMenuCallback, IShellMenuCallback interface [Windows Shell], IShellMenuCallback interface [Windows Shell],described, _win32_IShellMenuCallback, shell.IShellMenuCallback, shobjidl_core/IShellMenuCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

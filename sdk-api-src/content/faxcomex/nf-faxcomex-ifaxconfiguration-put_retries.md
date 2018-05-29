@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_Retries
 title: IFaxConfiguration::put_Retries
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves a value that indicates the number of redial attempts for a given fax job.
 old-location: fax\_mfax_FaxConfiguration_Retries_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\retries.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxConfiguration object [Fax Service],Retries property, FaxConfiguration.Retries, IFaxConfiguration.put_Retries, IFaxConfiguration::put_Retries, Retries property [Fax Service], Retries property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_Retries, fax._mfax_FaxConfiguration_Retries_vb, put_Retries
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

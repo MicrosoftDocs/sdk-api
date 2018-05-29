@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.SetFileApisToOEM
 title: SetFileApisToOEM function
-author: windows-driver-content
+author: windows-sdk-content
 description: Causes the file I/O functions for the process to use the OEM character set code page.
 old-location: fs\setfileapistooem.htm
 old-project: FileIO
 ms.assetid: 15f657d8-075a-4f0c-a653-73273ea62f5f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: SetFileApisToOEM, SetFileApisToOEM function [Files], _win32_setfileapistooem, base.setfileapistooem, fileapi/SetFileApisToOEM, fs.setfileapistooem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h

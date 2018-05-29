@@ -1,16 +1,16 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.CapabilitiesRequestAndCapabilitiesReply
 title: CapabilitiesRequestAndCapabilitiesReply function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a string describing a monitor's capabilities.
 old-location: monitor\capabilitiesrequestandcapabilitiesreply.htm
 old-project: Monitor
 ms.assetid: 1e556f66-a77a-43f3-b54f-d14995d841f8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CapabilitiesRequestAndCapabilitiesReply, CapabilitiesRequestAndCapabilitiesReply function [Monitor Configuration], lowlevelmonitorconfigurationapi/CapabilitiesRequestAndCapabilitiesReply, monitor.capabilitiesrequestandcapabilitiesreply
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 

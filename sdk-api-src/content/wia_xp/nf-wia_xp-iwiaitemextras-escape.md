@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IWiaItemExtras.Escape
 title: IWiaItemExtras::Escape
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWiaItemExtras::Escape method sends a request for a vendor-specific I/O operation to a still image device.
 old-location: wia\_wia_IWiaItemExtras_Escape.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\escape.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: Escape, Escape method [WIA], Escape method [WIA],IWiaItemExtras interface, IWiaItemExtras interface [WIA],Escape method, IWiaItemExtras.Escape, IWiaItemExtras::Escape, _wia_IWiaItemExtras_Escape, wia._wia_IWiaItemExtras_Escape, wia_xp/IWiaItemExtras::Escape
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

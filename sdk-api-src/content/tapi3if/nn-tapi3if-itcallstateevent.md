@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITCallStateEvent
 title: ITCallStateEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITCallStateEvent interface contains methods that retrieve the description of call state events.
 old-location: tapi3\itcallstateevent.htm
 old-project: Tapi
 ms.assetid: 0885ef81-726d-41ca-be8c-b3ff2e02fc3c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallStateEvent, ITCallStateEvent interface [TAPI 2.2], ITCallStateEvent interface [TAPI 2.2],described, _tapi3_itcallstateevent, tapi3.itcallstateevent, tapi3if/ITCallStateEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

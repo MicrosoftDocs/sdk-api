@@ -1,16 +1,16 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextTrack
 title: IMFTimedTextTrack
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a track of timed text.
 old-location: mf\imftimedtexttrack.htm
 old-project: medfound
 ms.assetid: 55232D19-F3D0-42C7-8B24-C2A7768B2C7E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFTimedTextTrack, IMFTimedTextTrack interface [Media Foundation], IMFTimedTextTrack interface [Media Foundation],described, mf.imftimedtexttrack, mfmediaengine/IMFTimedTextTrack
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

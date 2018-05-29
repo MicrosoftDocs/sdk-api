@@ -1,16 +1,16 @@
 ---
 UID: NF:compressapi.ResetCompressor
 title: ResetCompressor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Prepares the compressor for the compression of a new stream.
 old-location: cmpapi\resetcompressor.htm
 old-project: cmpapi
 ms.assetid: 1ea542e0-7236-4158-9578-f5d55f8c7f8e
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: ResetCompressor, ResetCompressor function [Compression API], cmpapi.resetcompressor, compressapi/ResetCompressor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 

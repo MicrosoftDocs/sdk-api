@@ -1,16 +1,16 @@
 ---
 UID: NF:tokenbinding.TokenBindingGenerateMessage
 title: TokenBindingGenerateMessage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Assembles the list of token bindings and generates the final message for the client device to the server.
 old-location: security\tokenbindinggeneratemessage.htm
 old-project: SecCNG
 ms.assetid: 7A268C6D-952B-482A-835D-89D6452D986D
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: TokenBindingGenerateMessage, TokenBindingGenerateMessage function [Security], security.tokenbindinggeneratemessage, tokenbinding/TokenBindingGenerateMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tokenbinding.h
 req.include-header: 

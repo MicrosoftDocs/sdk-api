@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertDuplicateCTLContext
 title: CertDuplicateCTLContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertDuplicateCTLContext function duplicates a certificate trust list (CTL) context by incrementing its reference count.
 old-location: security\certduplicatectlcontext.htm
 old-project: SecCrypto
 ms.assetid: 512d246f-9f22-4ac1-a4fc-d5c615a65cf9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertDuplicateCTLContext, CertDuplicateCTLContext function [Security], _crypto2_certduplicatectlcontext, security.certduplicatectlcontext, wincrypt/CertDuplicateCTLContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

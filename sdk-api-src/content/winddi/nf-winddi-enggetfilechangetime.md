@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngGetFileChangeTime
 title: EngGetFileChangeTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngGetFileChangeTime function retrieves a file's last write time.
 old-location: display\enggetfilechangetime.htm
 old-project: display
 ms.assetid: fd3330e4-af51-4f4c-bc4f-1b08502009bd
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngGetFileChangeTime, EngGetFileChangeTime function [Display Devices], display.enggetfilechangetime, gdifncs_627ace85-186b-4fe7-bd50-f8f0fb7da105.xml, winddi/EngGetFileChangeTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

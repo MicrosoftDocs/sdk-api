@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IViewObjectEx.GetRect
 title: IViewObjectEx::GetRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a rectangle describing a requested drawing aspect.
 old-location: com\iviewobjectex_getrect.htm
 old-project: com
 ms.assetid: ff060cd2-c7e4-4c12-842a-663415b80c17
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetRect, GetRect method [COM], GetRect method [COM],IViewObjectEx interface, IViewObjectEx interface [COM],GetRect method, IViewObjectEx.GetRect, IViewObjectEx::GetRect, _ole_iviewobjectex_getrect, com.iviewobjectex_getrect, ocidl/IViewObjectEx::GetRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

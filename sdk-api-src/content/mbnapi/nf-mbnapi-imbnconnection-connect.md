@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnConnection.Connect
 title: IMbnConnection::Connect
-author: windows-driver-content
+author: windows-sdk-content
 description: Establishes a data connection.
 old-location: mbn\imbnconnection_connect.htm
 old-project: mbn
 ms.assetid: 66acb84e-8e0f-4ff1-abc4-b32f782ce9f3
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Connect, Connect method [Microsoft Broadband Networks], Connect method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],Connect method, IMbnConnection.Connect, IMbnConnection::Connect, mbn.imbnconnection_connect, mbnapi/IMbnConnection::Connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:sensevts.ISensNetwork.ConnectionLost
 title: ISensNetwork::ConnectionLost
-author: windows-driver-content
+author: windows-sdk-content
 description: The ConnectionLost method notifies your application that the specified connection has been dropped.
 old-location: sens\isensnetwork_connectionlost.htm
 old-project: Sens
 ms.assetid: b91e46b9-7931-4959-97de-fa882a56e406
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CONNECTION_LAN, CONNECTION_WAN, ConnectionLost, ConnectionLost method [SENS], ConnectionLost method [SENS],ISensNetwork interface, ISensNetwork interface [SENS],ConnectionLost method, ISensNetwork.ConnectionLost, ISensNetwork::ConnectionLost, _zaw_isensnetwork_connectionlost, sens.isensnetwork_connectionlost, sensevts/ISensNetwork::ConnectionLost, syncmgr.isensnetwork_connectionlost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sensevts.h
 req.include-header: Sensevts.h, Sens.h

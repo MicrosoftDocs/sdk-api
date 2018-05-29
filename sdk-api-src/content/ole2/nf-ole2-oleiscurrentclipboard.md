@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleIsCurrentClipboard
 title: OleIsCurrentClipboard function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the data object pointer previously placed on the clipboard by the OleSetClipboard function is still on the clipboard.
 old-location: com\oleiscurrentclipboard.htm
 old-project: com
 ms.assetid: 12844504-ef47-4a4d-b31b-f765e0f2ace6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleIsCurrentClipboard, OleIsCurrentClipboard function [COM], _ole_OleIsCurrentClipboard, com.oleiscurrentclipboard, ole2/OleIsCurrentClipboard
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

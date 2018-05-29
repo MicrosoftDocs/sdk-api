@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.IEnumTfProperties
 title: IEnumTfProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumTfProperties interface is implemented by the TSF manager to provide an enumeration of property objects.
 old-location: tsf\ienumtfproperties.htm
 old-project: TSF
 ms.assetid: 99d8564f-98bc-4f30-bff9-923a4016a5fe
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IEnumTfProperties, IEnumTfProperties interface [Text Services Framework], IEnumTfProperties interface [Text Services Framework],described, _tsf_ienumtfproperties_ref, msctf/IEnumTfProperties, tsf.ienumtfproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

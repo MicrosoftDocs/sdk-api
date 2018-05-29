@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_CERT_NAME0_
 title: IKEEXT_CERT_NAME0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies certificate selection &#0034;subject&#0034; criteria for an authentication method.
 old-location: fwp\ikeext_cert_name0.htm
 old-project: FWP
 ms.assetid: 50e04e10-cae1-4fcd-990e-3e9b538627ed
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_CERT_NAME0, IKEEXT_CERT_NAME0 structure [Filtering], IKEEXT_CERT_NAME0_, fwp.ikeext_cert_name0, iketypes/IKEEXT_CERT_NAME0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

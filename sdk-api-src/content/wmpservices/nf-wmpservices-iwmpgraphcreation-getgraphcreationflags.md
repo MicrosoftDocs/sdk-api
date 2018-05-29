@@ -1,16 +1,16 @@
 ---
 UID: NF:wmpservices.IWMPGraphCreation.GetGraphCreationFlags
 title: IWMPGraphCreation::GetGraphCreationFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: One of the flags documented on this page is available in Windows Media Player 10 and Windows Media Player 11 running on Microsoft Windows XP. It might not be available in subsequent versions.
 old-location: wmp\iwmpgraphcreation_getgraphcreationflags.htm
 old-project: WMP
 ms.assetid: 26cac321-f32a-4569-87a8-f397173f058b
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetGraphCreationFlags, GetGraphCreationFlags method [Windows Media Player], GetGraphCreationFlags method [Windows Media Player],IWMPGraphCreation interface, IWMPGraphCreation interface [Windows Media Player],GetGraphCreationFlags method, IWMPGraphCreation.GetGraphCreationFlags, IWMPGraphCreation::GetGraphCreationFlags, IWMPGraphCreationGetGraphCreationFlags, wmp.iwmpgraphcreation_getgraphcreationflags, wmpservices/IWMPGraphCreation::GetGraphCreationFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 

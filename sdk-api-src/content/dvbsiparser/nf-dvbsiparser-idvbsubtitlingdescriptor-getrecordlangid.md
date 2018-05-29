@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordLangId
 title: IDvbSubtitlingDescriptor::GetRecordLangId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) subtitling descriptor. This code identifies the language used for subtitles.
 old-location: mstv\idvbsubtitlingdescriptor_getrecordlangid.htm
 old-project: mstv
 ms.assetid: 03a6a71f-ccec-4e4f-a24c-2ac81dd1a0ba
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordLangId, GetRecordLangId method [Microsoft TV Technologies], GetRecordLangId method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordLangId method, IDvbSubtitlingDescriptor.GetRecordLangId, IDvbSubtitlingDescriptor::GetRecordLangId, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordLangId, mstv.idvbsubtitlingdescriptor_getrecordlangid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

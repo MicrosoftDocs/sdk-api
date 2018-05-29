@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PostMoveItem
 title: IFileOperationProgressSink::PostMoveItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs caller-implemented actions after the move process for each item is complete.
 old-location: shell\IFileOperationProgressSink_PostMoveItem.htm
 old-project: shell
 ms.assetid: cd353e15-4b1c-4d02-aa3f-c8d744a1722f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostMoveItem method, IFileOperationProgressSink.PostMoveItem, IFileOperationProgressSink::PostMoveItem, PostMoveItem, PostMoveItem method [Windows Shell], PostMoveItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostMoveItem, shell.IFileOperationProgressSink_PostMoveItem, shobjidl_core/IFileOperationProgressSink::PostMoveItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

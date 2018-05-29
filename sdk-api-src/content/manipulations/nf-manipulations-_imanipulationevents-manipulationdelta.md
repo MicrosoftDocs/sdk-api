@@ -1,16 +1,16 @@
 ---
 UID: NF:manipulations._IManipulationEvents.ManipulationDelta
 title: "_IManipulationEvents::ManipulationDelta"
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles events that happen when a manipulated object changes.
 old-location: wintouch\_imanipulationevents_manipulationdelta.htm
 old-project: wintouch
 ms.assetid: bebac896-c48d-4e6e-98ce-4b7d1dec101c
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: ManipulationDelta, ManipulationDelta method [Windows Touch], ManipulationDelta method [Windows Touch],_IManipulationEvents interface, _IManipulationEvents interface [Windows Touch],ManipulationDelta method, _IManipulationEvents.ManipulationDelta, _IManipulationEvents::ManipulationDelta, manipulations/_IManipulationEvents::ManipulationDelta, wintouch._imanipulationevents_manipulationdelta
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

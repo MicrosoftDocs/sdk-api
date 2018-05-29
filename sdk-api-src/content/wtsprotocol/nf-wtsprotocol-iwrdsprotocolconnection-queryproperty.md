@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.QueryProperty
 title: IWRdsProtocolConnection::QueryProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a property value from the protocol.
 old-location: termserv\iwrdsprotocolconnection_queryproperty.htm
 old-project: TermServ
 ms.assetid: d504a40f-5dc5-4c1b-960f-d41cccef9154
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],QueryProperty method, IWRdsProtocolConnection.QueryProperty, IWRdsProtocolConnection::QueryProperty, PROPERTY_DYNAMIC_TIME_ZONE_INFORMATION, QueryProperty, QueryProperty method [Remote Desktop Services], QueryProperty method [Remote Desktop Services],IWRdsProtocolConnection interface, WRDS_QUERY_ALLOWED_INITIAL_APP, WRDS_QUERY_AUDIOENUM_DLL, WRDS_QUERY_LOGON_SCREEN_SIZE, WRDS_QUERY_MF_FORMAT_SUPPORT, termserv.iwrdsprotocolconnection_queryproperty, wtsprotocol/IWRdsProtocolConnection::QueryProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: Wtsdefs.h

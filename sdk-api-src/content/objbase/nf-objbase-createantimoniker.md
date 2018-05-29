@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.CreateAntiMoniker
 title: CreateAntiMoniker function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and returns a new anti-moniker.
 old-location: com\createantimoniker.htm
 old-project: com
 ms.assetid: 1f8fcbd6-8f05-4d32-af8a-d8de1b56dacf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateAntiMoniker, CreateAntiMoniker function [COM], _com_CreateAntiMoniker, com.createantimoniker, objbase/CreateAntiMoniker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wct.RegisterWaitChainCOMCallback
 title: RegisterWaitChainCOMCallback function
-author: windows-driver-content
+author: windows-sdk-content
 description: Register COM callback functions for WCT.
 old-location: base\registerwaitchaincomcallback.htm
 old-project: Debug
 ms.assetid: f8adffa3-6e63-4fae-81e8-5f6643e988e9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RegisterWaitChainCOMCallback, RegisterWaitChainCOMCallback function, base.registerwaitchaincomcallback, wct/RegisterWaitChainCOMCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wct.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_AUTH_INFORMATION0_
 title: IPSEC_SA_AUTH_INFORMATION0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores information about the authentication algorithm of an IPsec security association (SA).
 old-location: fwp\ipsec_sa_auth_information0_struct.htm
 old-project: FWP
 ms.assetid: 54a03edd-94cb-478a-a647-473872408701
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_SA_AUTH_INFORMATION0, IPSEC_SA_AUTH_INFORMATION0 structure [Filtering], IPSEC_SA_AUTH_INFORMATION0_, fwp.ipsec_sa_auth_information0_struct, ipsectypes/IPSEC_SA_AUTH_INFORMATION0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

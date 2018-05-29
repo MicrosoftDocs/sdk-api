@@ -1,16 +1,16 @@
 ---
 UID: NE:wlanapi._WLAN_INTERFACE_STATE
 title: "_WLAN_INTERFACE_STATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the state of an interface.
 old-location: nwifi\wlan_interface_state.htm
 old-project: NativeWiFi
 ms.assetid: 209540c0-81b7-4dc5-97ef-5ecc7f19a82b
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: "*PWLAN_INTERFACE_STATE, PWLAN_INTERFACE_STATE, PWLAN_INTERFACE_STATE enumeration pointer [NativeWIFI], WLAN_INTERFACE_STATE, WLAN_INTERFACE_STATE enumeration [NativeWIFI], _WLAN_INTERFACE_STATE, nwifi.wlan_interface_state, wlan_interface_state_ad_hoc_network_formed, wlan_interface_state_associating, wlan_interface_state_authenticating, wlan_interface_state_connected, wlan_interface_state_disconnected, wlan_interface_state_disconnecting, wlan_interface_state_discovering, wlan_interface_state_not_ready, wlanapi/PWLAN_INTERFACE_STATE, wlanapi/WLAN_INTERFACE_STATE, wlanapi/wlan_interface_state_ad_hoc_network_formed, wlanapi/wlan_interface_state_associating, wlanapi/wlan_interface_state_authenticating, wlanapi/wlan_interface_state_connected, wlanapi/wlan_interface_state_disconnected, wlanapi/wlan_interface_state_disconnecting, wlanapi/wlan_interface_state_discovering, wlanapi/wlan_interface_state_not_ready"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wlanapi.h
 req.include-header: 

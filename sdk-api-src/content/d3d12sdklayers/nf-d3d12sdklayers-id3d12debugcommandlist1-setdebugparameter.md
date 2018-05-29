@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandList1.SetDebugParameter
 title: ID3D12DebugCommandList1::SetDebugParameter
-author: windows-driver-content
+author: windows-sdk-content
 description: Modifies optional Debug Layer settings of a command list.
 old-location: direct3d12\id3d12debugcommandlist1_setdebugparameter.htm
 old-project: direct3d12
 ms.assetid: 8D93895A-BED7-4A86-893B-ACB5FA1B160F
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12DebugCommandList1 interface,SetDebugParameter method, ID3D12DebugCommandList1.SetDebugParameter, ID3D12DebugCommandList1::SetDebugParameter, SetDebugParameter, SetDebugParameter method, SetDebugParameter method,ID3D12DebugCommandList1 interface, d3d12sdklayers/ID3D12DebugCommandList1::SetDebugParameter, direct3d12.id3d12debugcommandlist1_setdebugparameter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

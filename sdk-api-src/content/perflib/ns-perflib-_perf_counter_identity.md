@@ -1,16 +1,16 @@
 ---
 UID: NS:perflib._PERF_COUNTER_IDENTITY
 title: "_PERF_COUNTER_IDENTITY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the counter that is sent to a provider's callback when the consumer adds or removes a counter from the query.
 old-location: perf\perf_counter_identity.htm
 old-project: PerfCtrs
 ms.assetid: a18d2546-642b-4e83-be05-4b4aae1f2d2c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PPERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY structure [Perf], PERF_COUNTER_IDENTITY,*PPERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY,*PPERF_COUNTER_IDENTITY structure [Perf], _PERF_COUNTER_IDENTITY, base.perf_counter_identity, perf.perf_counter_identity, perflib/PERF_COUNTER_IDENTITY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: perflib.h
 req.include-header: 

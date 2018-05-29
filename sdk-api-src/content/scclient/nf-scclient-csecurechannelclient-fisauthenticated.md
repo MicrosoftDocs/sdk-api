@@ -1,16 +1,16 @@
 ---
 UID: NF:scclient.CSecureChannelClient.fIsAuthenticated
 title: CSecureChannelClient::fIsAuthenticated
-author: windows-driver-content
+author: windows-sdk-content
 description: The fIsAuthenticated method verifies that a secure authenticated channel has been successfully established. This method is not used by applications.
 old-location: wmdm\csecurechannelclient_fisauthenticated.htm
 old-project: WMDM
 ms.assetid: 9b9a529a-c652-48e1-b70d-e95e2e34e2c5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],fIsAuthenticated method, CSecureChannelClient.fIsAuthenticated, CSecureChannelClient::fIsAuthenticated, CSecureChannelClientfIsAuthenticated, fIsAuthenticated, fIsAuthenticated method [windows Media Device Manager], fIsAuthenticated method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::fIsAuthenticated, wmdm.csecurechannelclient_fisauthenticated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: scclient.h
 req.include-header: 

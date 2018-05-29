@@ -1,16 +1,16 @@
 ---
 UID: NS:filtereg._FILTERED_DATA_SOURCES
 title: "_FILTERED_DATA_SOURCES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies parameters for a Shell data source for which a filter is loaded.
 old-location: search\filtered_data_sources.htm
 old-project: search
 ms.assetid: 5baae290-aead-4986-a7d4-0302931e0104
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FILTERED_DATA_SOURCES, FILTERED_DATA_SOURCES structure [search], _FILTERED_DATA_SOURCES, filtereg/FILTERED_DATA_SOURCES, search.filtered_data_sources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: filtereg.h
 req.include-header: 

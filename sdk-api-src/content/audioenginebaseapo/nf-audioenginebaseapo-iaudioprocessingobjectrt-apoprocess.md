@@ -1,16 +1,16 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObjectRT.APOProcess
 title: IAudioProcessingObjectRT::APOProcess
-author: windows-driver-content
+author: windows-sdk-content
 description: The APOProcess method causes the APO to make a processing pass.
 old-location: audio\iaudioprocessingobjectrt_apoprocess.htm
 old-project: audio
 ms.assetid: b32f3cc9-3ac0-47ff-a428-f0476bd1f39e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: APOProcess, APOProcess method [Audio Devices], APOProcess method [Audio Devices],IAudioProcessingObjectRT interface, IAudioProcessingObjectRT interface [Audio Devices],APOProcess method, IAudioProcessingObjectRT.APOProcess, IAudioProcessingObjectRT::APOProcess, audio.iaudioprocessingobjectrt_apoprocess, audio_syseffects_r_7ef87c04-2fe2-46b9-9c4a-0e604639132c.xml, audioenginebaseapo/IAudioProcessingObjectRT::APOProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: 

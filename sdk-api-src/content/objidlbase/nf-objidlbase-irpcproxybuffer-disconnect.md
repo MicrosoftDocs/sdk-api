@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IRpcProxyBuffer.Disconnect
 title: IRpcProxyBuffer::Disconnect
-author: windows-driver-content
+author: windows-sdk-content
 description: Disconnects a client proxy from any RPC channel to which it is connected.
 old-location: com\irpcproxybuffer_disconnect.htm
 old-project: com
 ms.assetid: 4ead4a47-7089-472d-b489-b725329ea5ab
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Disconnect, Disconnect method [COM], Disconnect method [COM],IRpcProxyBuffer interface, IRpcProxyBuffer interface [COM],Disconnect method, IRpcProxyBuffer.Disconnect, IRpcProxyBuffer::Disconnect, _com_irpcproxybuffer_disconnect, com.irpcproxybuffer_disconnect, objidlbase/IRpcProxyBuffer::Disconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

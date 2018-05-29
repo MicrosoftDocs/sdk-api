@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzFreeHandle
 title: AuthzFreeHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds and deletes a handle from the handle list.
 old-location: security\authzfreehandle.htm
 old-project: SecAuthZ
 ms.assetid: 8d2e2ae9-b515-4a02-b366-5b107b4f7ffa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthzFreeHandle, AuthzFreeHandle function [Security], _win32_authzfreehandle, authz/AuthzFreeHandle, security.authzfreehandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

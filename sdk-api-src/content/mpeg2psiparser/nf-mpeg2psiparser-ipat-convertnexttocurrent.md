@@ -1,16 +1,16 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.ConvertNextToCurrent
 title: IPAT::ConvertNextToCurrent
-author: windows-driver-content
+author: windows-sdk-content
 description: The ConvertNextToCurrent method converts a next table to a current table.
 old-location: mstv\ipat_convertnexttocurrent.htm
 old-project: mstv
 ms.assetid: 89a493b9-93d3-435f-a4dc-24f8f8e2d1bf
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IPAT.ConvertNextToCurrent, IPAT::ConvertNextToCurrent, IPATConvertNextToCurrent, mpeg2psiparser/IPAT::ConvertNextToCurrent, mstv.ipat_convertnexttocurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 

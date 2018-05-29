@@ -1,16 +1,16 @@
 ---
 UID: NE:dhcpsapi._DHCP_OPTION_SCOPE_TYPE6
 title: "_DHCP_OPTION_SCOPE_TYPE6"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of possible scopes for DHCP options.
 old-location: dhcp\dhcp_option_scope_type6.htm
 old-project: DHCP
 ms.assetid: dc6811ca-571e-4d63-ac30-8a9038cb28af
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_OPTION_SCOPE_TYPE6, DHCP_OPTION_SCOPE_TYPE6, DHCP_OPTION_SCOPE_TYPE6 enumeration [DHCP], DhcpDefaultOptions6, DhcpReservedOptions6, DhcpScopeOptions6, _DHCP_OPTION_SCOPE_TYPE6, dhcp.dhcp_option_scope_type6, dhcpsapi/DHCP_OPTION_SCOPE_TYPE6, dhcpsapi/DhcpDefaultOptions6, dhcpsapi/DhcpReservedOptions6, dhcpsapi/DhcpScopeOptions6"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dhcpsapi.h
 req.include-header: 

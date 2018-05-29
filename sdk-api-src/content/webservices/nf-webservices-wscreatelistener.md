@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsCreateListener
 title: WsCreateListener function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a listener with the specified properties.
 old-location: wsw\wscreatelistener.htm
 old-project: wsw
 ms.assetid: 2e592fd2-cf88-4f87-a71b-1c3416917fa7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsCreateListener, WsCreateListener function [Web Services for Windows], webservices/WsCreateListener, wsw.wscreatelistener
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msclus.ISCluster.get_PrivateProperties
 title: ISCluster::get_PrivateProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the read/write private properties of a cluster.
 old-location: mscs\cluster_privateproperties.htm
 old-project: MsCS
 ms.assetid: f866a25f-64ef-4289-b95a-c55cb90a5d42
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Cluster object [Failover Cluster],PrivateProperties property, Cluster.PrivateProperties, ISCluster.get_PrivateProperties, ISCluster::get_PrivateProperties, PrivateProperties property [Failover Cluster], PrivateProperties property [Failover Cluster],Cluster object, _wolf_cluster.privateproperties, get_PrivateProperties, mscs.cluster_privateproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceRecycle
 title: IComResourceEvents::OnResourceRecycle
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when an object is finished with a resource.
 old-location: cos\icomresourceevents_onresourcerecycle.htm
 old-project: cossdk
 ms.assetid: 615e0f73-2935-4ef3-94c9-5c74b5c82db4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceRecycle method, IComResourceEvents.OnResourceRecycle, IComResourceEvents::OnResourceRecycle, OnResourceRecycle, OnResourceRecycle method [COM+], OnResourceRecycle method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceRecycle, comsvcs/IComResourceEvents::OnResourceRecycle, cos.icomresourceevents_onresourcerecycle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

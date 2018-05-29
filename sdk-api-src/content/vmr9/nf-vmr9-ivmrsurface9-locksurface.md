@@ -1,16 +1,16 @@
 ---
 UID: NF:vmr9.IVMRSurface9.LockSurface
 title: IVMRSurface9::LockSurface
-author: windows-driver-content
+author: windows-sdk-content
 description: The LockSurface method locks the attached Direct3D surface.
 old-location: dshow\ivmrsurface9_locksurface.htm
 old-project: DirectShow
 ms.assetid: fb185898-5d65-48ee-a7be-f4207199f5e9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRSurface9 interface [DirectShow],LockSurface method, IVMRSurface9.LockSurface, IVMRSurface9::LockSurface, IVMRSurface9LockSurface, LockSurface, LockSurface method [DirectShow], LockSurface method [DirectShow],IVMRSurface9 interface, dshow.ivmrsurface9_locksurface, vmr9/IVMRSurface9::LockSurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

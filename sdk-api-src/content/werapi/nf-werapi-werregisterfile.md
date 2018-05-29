@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerRegisterFile
 title: WerRegisterFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a file to be collected when WER creates an error report.
 old-location: wer\werregisterfile.htm
 old-project: wer
 ms.assetid: 4b4bb1bb-6782-447a-901f-75702256d907
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WER_FILE_ANONYMOUS_DATA, WER_FILE_DELETE_WHEN_DONE, WerRegFileTypeMax, WerRegFileTypeOther, WerRegFileTypeUserDocument, WerRegisterFile, WerRegisterFile function [Windows Error Reporting], base.werregisterfile, wer.werregisterfile, werapi/WerRegisterFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

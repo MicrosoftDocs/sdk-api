@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IPipeLong
 title: IPipeLong
-author: windows-driver-content
+author: windows-sdk-content
 description: Transfers data of the long integer type (which is 32 bits wide).
 old-location: com\ipipelong.htm
 old-project: com
 ms.assetid: c1b4d3b3-e1bf-4441-8cea-b667b82c4c27
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPipeLong, IPipeLong interface [COM], IPipeLong interface [COM],described, _com_ipipelong, com.ipipelong, objidlbase/IPipeLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

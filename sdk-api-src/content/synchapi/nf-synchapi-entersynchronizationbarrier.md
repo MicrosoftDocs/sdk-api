@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.EnterSynchronizationBarrier
 title: EnterSynchronizationBarrier function
-author: windows-driver-content
+author: windows-sdk-content
 description: Causes the calling thread to wait at a synchronization barrier until the maximum number of threads have entered the barrier.
 old-location: base\entersynchronizationbarrier.htm
 old-project: Sync
 ms.assetid: cd938370-b046-4369-931d-5c7c8db7303a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: EnterSynchronizationBarrier, EnterSynchronizationBarrier function, SYNCHRONIZATION_BARRIER_FLAGS_BLOCK_ONLY, SYNCHRONIZATION_BARRIER_FLAGS_NO_DELETE, SYNCHRONIZATION_BARRIER_FLAGS_SPIN_ONLY, base.entersynchronizationbarrier, synchapi/EnterSynchronizationBarrier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: 

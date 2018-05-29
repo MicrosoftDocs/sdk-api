@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHChangeNotify
 title: SHChangeNotify function
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the system of an event that an application has performed. An application should use this function if it performs an action that may affect the Shell.
 old-location: shell\SHChangeNotify.htm
 old-project: shell
 ms.assetid: a9222ce9-0d06-4fd0-af3a-fd0e979713ce
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCNE_ALLEVENTS, SHCNE_ASSOCCHANGED, SHCNE_ATTRIBUTES, SHCNE_CREATE, SHCNE_DELETE, SHCNE_DISKEVENTS, SHCNE_DRIVEADD, SHCNE_DRIVEADDGUI, SHCNE_DRIVEREMOVED, SHCNE_EXTENDED_EVENT, SHCNE_FREESPACE, SHCNE_GLOBALEVENTS, SHCNE_INTERRUPT, SHCNE_MEDIAINSERTED, SHCNE_MEDIAREMOVED, SHCNE_MKDIR, SHCNE_NETSHARE, SHCNE_NETUNSHARE, SHCNE_RENAMEFOLDER, SHCNE_RENAMEITEM, SHCNE_RMDIR, SHCNE_SERVERDISCONNECT, SHCNE_UPDATEDIR, SHCNE_UPDATEIMAGE, SHCNE_UPDATEITEM, SHCNF_DWORD, SHCNF_FLUSH, SHCNF_FLUSHNOWAIT, SHCNF_IDLIST, SHCNF_NOTIFYRECURSIVE, SHCNF_PATH, SHCNF_PRINTER, SHChangeNotify, SHChangeNotify function [Windows Shell], _win32_SHChangeNotify, shell.SHChangeNotify, shlobj_core/SHChangeNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

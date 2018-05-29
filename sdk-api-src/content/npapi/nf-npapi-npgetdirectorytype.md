@@ -1,16 +1,16 @@
 ---
 UID: NF:npapi.NPGetDirectoryType
 title: NPGetDirectoryType function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the type of a network directory.
 old-location: security\npgetdirectorytype.htm
 old-project: SecAuthN
 ms.assetid: 70ee5c14-1395-470a-970c-91a3d3ac0fd1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: NPGetDirectoryType, NPGetDirectoryType function [Security], _mnp_npgetdirectorytype, npapi/NPGetDirectoryType, security.npgetdirectorytype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

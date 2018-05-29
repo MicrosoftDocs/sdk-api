@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Application_NewInstanceFromClass
 title: MI_Application_NewInstanceFromClass function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new MI_Instance object based on a class object.
 old-location: wmi_v2\mi_application_newinstancefromclass.htm
 old-project: wmi_v2
 ms.assetid: 57d1ec84-79b7-40f3-be3b-1b5b57a9d5b3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Application_NewInstanceFromClass, MI_Application_NewInstanceFromClass function [Windows Management Infrastructure (MI)], mi/MI_Application_NewInstanceFromClass, wmi_v2.mi_application_newinstancefromclass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

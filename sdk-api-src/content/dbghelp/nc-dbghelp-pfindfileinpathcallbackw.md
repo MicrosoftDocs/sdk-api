@@ -1,16 +1,16 @@
 ---
 UID: NC:dbghelp.PFINDFILEINPATHCALLBACKW
 title: PFINDFILEINPATHCALLBACKW
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function used with the SymFindFileInPath function.
 old-location: base\symfindfileinpathproc.htm
 old-project: Debug
 ms.assetid: e579158e-053d-4c81-a2c3-ac3af3d3a201
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: PFINDFILEINPATHCALLBACK, PFINDFILEINPATHCALLBACKW, SymFindFileInPathProc, SymFindFileInPathProc callback, SymFindFileInPathProc callback function, _win32_symfindfileinpathproc, base.symfindfileinpathproc, dbghelp/SymFindFileInPathProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 

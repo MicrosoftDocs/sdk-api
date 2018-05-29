@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.Folder2.Synchronize
 title: Folder2::Synchronize
-author: windows-driver-content
+author: windows-sdk-content
 description: Synchronizes all offline files in the folder.
 old-location: shell\Folder2_Synchronize.htm
 old-project: shell
 ms.assetid: b149df96-0c8e-47b9-b71e-2ad5dcfdeb8f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Folder2 object [Windows Shell],Synchronize method, Folder2.Synchronize, Folder2::Synchronize, Synchronize, Synchronize method [Windows Shell], Synchronize method [Windows Shell],Folder2 object, _win32_Folder2_Synchronize, shell.Folder2_Synchronize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

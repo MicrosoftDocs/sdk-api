@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IDirectorySchemaMgmt
 title: IDirectorySchemaMgmt
-author: windows-driver-content
+author: windows-sdk-content
 description: Not currently implemented and should not be used.
 old-location: adsi\idirectoryschemamgmt.htm
 old-project: ADSI
 ms.assetid: 96062c41-6e95-4024-b16d-4002ed84ec5d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDirectorySchemaMgmt, IDirectorySchemaMgmt interface [ADSI], IDirectorySchemaMgmt interface [ADSI],described, adsi.idirectoryschemamgmt, iads/IDirectorySchemaMgmt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

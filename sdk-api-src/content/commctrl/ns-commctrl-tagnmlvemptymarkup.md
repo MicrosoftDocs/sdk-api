@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMLVEMPTYMARKUP
 title: tagNMLVEMPTYMARKUP
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used with the LVN_GETEMPTYMARKUP notification code.
 old-location: controls\NMLVEMPTYMARKUP.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvemptymarkup.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EMF_CENTERED, NMLVEMPTYMARKUP, NMLVEMPTYMARKUP structure [Windows Controls], commctrl/NMLVEMPTYMARKUP, controls.NMLVEMPTYMARKUP, controls.shell_NMLVEMPTYMARKUP, shell_NMLVEMPTYMARKUP, shell_NMLVEMPTYMARKUP_cpp, tagNMLVEMPTYMARKUP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:pathcch.PathCchCombine
 title: PathCchCombine function
-author: windows-driver-content
+author: windows-sdk-content
 description: Combines two path fragments into a single path.
 old-location: shell\PathCchCombine.htm
 old-project: shell
 ms.assetid: 506a4165-f572-4521-958f-56a0296f9c05
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathCchCombine, PathCchCombine function [Windows Shell], pathcch/PathCchCombine, shell.PathCchCombine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

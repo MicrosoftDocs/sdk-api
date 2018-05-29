@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetRegionData
 title: GetRegionData function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetRegionData function fills the specified buffer with data describing a region. This data includes the dimensions of the rectangles that make up the region.
 old-location: gdi\getregiondata.htm
 old-project: gdi
 ms.assetid: e0d4862d-a405-4c00-b7b0-af4dd60407c0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRegionData, GetRegionData function [Windows GDI], _win32_GetRegionData, gdi.getregiondata, wingdi/GetRegionData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

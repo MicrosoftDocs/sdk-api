@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.DiscardPage
 title: IXpsOMPageReference::DiscardPage
-author: windows-driver-content
+author: windows-sdk-content
 description: Discards the page from memory.
 old-location: xps\ixpsompagereference_discardpage.htm
 old-project: printdocs
 ms.assetid: 430b9169-7fc5-493d-85a8-dddf46dfef8f
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: DiscardPage, DiscardPage method [XPS Documents and Packaging], DiscardPage method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],DiscardPage method, IXpsOMPageReference.DiscardPage, IXpsOMPageReference::DiscardPage, xps.ixpsompagereference_discardpage, xpsobjectmodel/IXpsOMPageReference::DiscardPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:interlockedapi.InitializeSListHead
 title: InitializeSListHead function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the head of a singly linked list.
 old-location: base\initializeslisthead.htm
 old-project: Sync
 ms.assetid: 4e34f947-1687-4ea9-aaa1-8d8dc11dad70
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InitializeSListHead, InitializeSListHead function, _win32_initializeslisthead, base.initializeslisthead, interlockedapi/InitializeSListHead, winbase/InitializeSListHead
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: interlockedapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

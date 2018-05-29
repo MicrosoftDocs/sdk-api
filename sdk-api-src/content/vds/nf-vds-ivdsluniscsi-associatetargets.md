@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsLunIscsi.AssociateTargets
 title: IVdsLunIscsi::AssociateTargets
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates LUNs with subsystem iSCSI targets.
 old-location: base\ivdsluniscsi_associatetargets.htm
 old-project: VDS
 ms.assetid: eb80020b-caf8-4d85-b250-d9a8738b8848
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AssociateTargets, AssociateTargets method [VDS], AssociateTargets method [VDS],IVdsLunIscsi interface, IVdsLunIscsi interface [VDS],AssociateTargets method, IVdsLunIscsi.AssociateTargets, IVdsLunIscsi::AssociateTargets, base.ivdsluniscsi_associatetargets, vds/IVdsLunIscsi::AssociateTargets, vdshwprv/IVdsLunIscsi::AssociateTargets
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

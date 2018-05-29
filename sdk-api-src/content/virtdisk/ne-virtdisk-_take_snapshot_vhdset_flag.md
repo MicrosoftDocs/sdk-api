@@ -1,16 +1,16 @@
 ---
 UID: NE:virtdisk._TAKE_SNAPSHOT_VHDSET_FLAG
 title: "_TAKE_SNAPSHOT_VHDSET_FLAG"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains flags affecting the behavior of the TakeSnapshotVhdSet function.
 old-location: vhd\take_snapshot_vhdset_flag.htm
 old-project: VStor
 ms.assetid: 2A714FFB-E462-418E-B0AC-E7929619604B
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PTAKE_SNAPSHOT_VHDSET_FLAG, PTAKE_SNAPSHOT_VHDSET_FLAG, PTAKE_SNAPSHOT_VHDSET_FLAG enumeration pointer [VHD], TAKE_SNAPSHOT_VHDSET_FLAG, TAKE_SNAPSHOT_VHDSET_FLAG enumeration [VHD], TAKE_SNAPSHOT_VHDSET_FLAG_NONE, _TAKE_SNAPSHOT_VHDSET_FLAG, vhd.take_snapshot_vhdset_flag, virtdisk/ TAKE_SNAPSHOT_VHDSET_FLAG_NONE, virtdisk/PTAKE_SNAPSHOT_VHDSET_FLAG, virtdisk/TAKE_SNAPSHOT_VHDSET_FLAG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: Windows.h

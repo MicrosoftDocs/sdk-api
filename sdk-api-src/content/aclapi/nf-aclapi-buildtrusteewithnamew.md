@@ -1,16 +1,16 @@
 ---
 UID: NF:aclapi.BuildTrusteeWithNameW
 title: BuildTrusteeWithNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a TRUSTEE structure. The caller specifies the trustee name. The function sets other members of the structure to default values.
 old-location: security\buildtrusteewithname.htm
 old-project: SecAuthZ
 ms.assetid: a66c23ac-8211-40fd-bfe8-ef9089bf3745
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BuildTrusteeWithName, BuildTrusteeWithName function [Security], BuildTrusteeWithNameA, BuildTrusteeWithNameW, MultipleTrusteeOperation, TrusteeForm, TrusteeType, _win32_buildtrusteewithname, aclapi/BuildTrusteeWithName, aclapi/BuildTrusteeWithNameA, aclapi/BuildTrusteeWithNameW, pMultipleTrustee, security.buildtrusteewithname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 

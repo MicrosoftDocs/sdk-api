@@ -1,16 +1,16 @@
 ---
 UID: NS:winldap.l_timeval
 title: l_timeval
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to represent an interval of time.
 old-location: ldap\ldap_timeval.htm
 old-project: LDAP
 ms.assetid: 8e551e7c-7237-4761-92e8-c352c3adda77
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "*PLDAP_TIMEVAL, LDAP_TIMEVAL, LDAP_TIMEVAL structure [LDAP], PLDAP_TIMEVAL, PLDAP_TIMEVAL structure pointer [LDAP], _ldap_ldap_timeval, l_timeval, ldap.ldap__timeval, ldap.ldap_timeval, winldap/LDAP_TIMEVAL, winldap/PLDAP_TIMEVAL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 

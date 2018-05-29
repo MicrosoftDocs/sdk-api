@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoFreeUnusedLibrariesEx
 title: CoFreeUnusedLibrariesEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unloads any DLLs that are no longer in use and whose unload delay has expired.
 old-location: com\cofreeunusedlibrariesex.htm
 old-project: com
 ms.assetid: 01660e9d-d8f2-40ef-a6d6-b80f0140ab5f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoFreeUnusedLibrariesEx, CoFreeUnusedLibrariesEx function [COM], _com_CoFreeUnusedLibrariesEx, com.cofreeunusedlibrariesex, combaseapi/CoFreeUnusedLibrariesEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

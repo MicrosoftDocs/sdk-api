@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._TOKEN_GROUPS
 title: "_TOKEN_GROUPS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the group security identifiers (SIDs) in an access token.
 old-location: security\token_groups.htm
 old-project: SecAuthZ
 ms.assetid: 387dd7f8-4177-40fa-b5fd-bb4b371a0e64
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PTOKEN_GROUPS, PTOKEN_GROUPS, PTOKEN_GROUPS structure pointer [Security], SE_GROUP_ENABLED, SE_GROUP_ENABLED_BY_DEFAULT, SE_GROUP_INTEGRITY, SE_GROUP_INTEGRITY_ENABLED, SE_GROUP_LOGON_ID, SE_GROUP_MANDATORY, SE_GROUP_OWNER, SE_GROUP_RESOURCE, SE_GROUP_USE_FOR_DENY_ONLY, TOKEN_GROUPS, TOKEN_GROUPS structure [Security], _TOKEN_GROUPS, _win32_token_groups_str, security.token_groups, winnt/PTOKEN_GROUPS, winnt/TOKEN_GROUPS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

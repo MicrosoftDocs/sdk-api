@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetUserPreferredUILanguages
 title: GetUserPreferredUILanguages function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the user preferred UI languages. For more information, see User Interface Language Management.
 old-location: intl\getuserpreferreduilanguages.htm
 old-project: Intl
 ms.assetid: 0800642c-c133-4993-bd16-6bdbf7518f1c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetUserPreferredUILanguages, GetUserPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, _win32_GetUserPreferredUILanguages, intl.getuserpreferreduilanguages, winnls/GetUserPreferredUILanguages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

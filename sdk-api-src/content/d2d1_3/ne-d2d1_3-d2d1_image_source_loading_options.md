@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1_3.D2D1_IMAGE_SOURCE_LOADING_OPTIONS
 title: D2D1_IMAGE_SOURCE_LOADING_OPTIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls option flags for a new ID2D1ImageSource when it is created.
 old-location: direct2d\D2D1_IMAGE_SOURCE_LOADING_OPTIONS.htm
 old-project: Direct2D
 ms.assetid: b2dcd7aa-177c-62bf-cb3e-2eb4bd4f9627
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_IMAGE_SOURCE_LOADING_OPTIONS, D2D1_IMAGE_SOURCE_LOADING_OPTIONS enumeration [Direct2D], D2D1_IMAGE_SOURCE_LOADING_OPTIONS_CACHE_ON_DEMAND, D2D1_IMAGE_SOURCE_LOADING_OPTIONS_NONE, D2D1_IMAGE_SOURCE_LOADING_OPTIONS_RELEASE_SOURCE, d2d1_3/D2D1_IMAGE_SOURCE_LOADING_OPTIONS, d2d1_3/D2D1_IMAGE_SOURCE_LOADING_OPTIONS_CACHE_ON_DEMAND, d2d1_3/D2D1_IMAGE_SOURCE_LOADING_OPTIONS_NONE, d2d1_3/D2D1_IMAGE_SOURCE_LOADING_OPTIONS_RELEASE_SOURCE, direct2d.D2D1_IMAGE_SOURCE_LOADING_OPTIONS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_3.h
 req.include-header: 

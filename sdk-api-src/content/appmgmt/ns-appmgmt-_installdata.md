@@ -1,16 +1,16 @@
 ---
 UID: NS:appmgmt._INSTALLDATA
 title: "_INSTALLDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The INSTALLDATA structure specifies a group-policy application to be installed by InstallApplication.
 old-location: policy\installdata_str.htm
 old-project: Policy
 ms.assetid: 0c0570c6-f8f5-41e1-a1d2-d4e8c450f73c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PINSTALLDATA, INSTALLDATA, INSTALLDATA structure [Group Policy], PINSTALLDATA, PINSTALLDATA structure pointer [Group Policy], _INSTALLDATA, appmgmt/INSTALLDATA, appmgmt/PINSTALLDATA, policy.installdata_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: appmgmt.h
 req.include-header: 

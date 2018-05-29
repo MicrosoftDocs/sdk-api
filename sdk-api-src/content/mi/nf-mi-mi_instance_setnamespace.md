@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Instance_SetNameSpace
 title: MI_Instance_SetNameSpace function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the namespace name of the specified instance.
 old-location: wmi_v2\mi_instance_setnamespace.htm
 old-project: wmi_v2
 ms.assetid: edf17b80-698b-43f3-9e03-5435638d3209
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Instance_SetNameSpace, MI_Instance_SetNameSpace function [Windows Management Infrastructure (MI)], mi/MI_Instance_SetNameSpace, wmi_v2.mi_instance_setnamespace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

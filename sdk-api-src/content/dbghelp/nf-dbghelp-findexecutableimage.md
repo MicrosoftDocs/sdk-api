@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.FindExecutableImage
 title: FindExecutableImage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates an executable file.
 old-location: base\findexecutableimage.htm
 old-project: Debug
 ms.assetid: 48185a75-fa1d-4735-a814-e1f5893dd095
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: FindExecutableImage, FindExecutableImage function, _win32_findexecutableimage, base.findexecutableimage, dbghelp/FindExecutableImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

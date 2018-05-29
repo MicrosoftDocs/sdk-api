@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceEventCallback.OnEvent
 title: IPortableDeviceEventCallback::OnEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnEvent method is called by the SDK to notify the application about asynchronous events.
 old-location: wpdsdk\iportabledeviceeventcallback_onevent.htm
 old-project: wpd_sdk
 ms.assetid: 14659de0-5cea-458a-bf57-fe8b071c778a
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IPortableDeviceEventCallback interface [Windows Portable Devices SDK],OnEvent method, IPortableDeviceEventCallback.OnEvent, IPortableDeviceEventCallback::OnEvent, IPortableDeviceEventCallbackOnEvent, OnEvent, OnEvent method [Windows Portable Devices SDK], OnEvent method [Windows Portable Devices SDK],IPortableDeviceEventCallback interface, portabledeviceapi/IPortableDeviceEventCallback::OnEvent, wpdsdk.iportabledeviceeventcallback_onevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

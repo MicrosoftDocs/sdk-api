@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellIconOverlayIdentifier.GetOverlayInfo
 title: IShellIconOverlayIdentifier::GetOverlayInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the location of the icon overlay's bitmap.
 old-location: shell\IShellIconOverlayIdentifier_GetOverlayInfo.htm
 old-project: shell
 ms.assetid: 301dc569-738f-454f-9063-223ea6632e55
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetOverlayInfo, GetOverlayInfo method [Windows Shell], GetOverlayInfo method [Windows Shell],IShellIconOverlayIdentifier interface, ISIOI_ICONFILE, ISIOI_ICONINDEX, IShellIconOverlayIdentifier interface [Windows Shell],GetOverlayInfo method, IShellIconOverlayIdentifier.GetOverlayInfo, IShellIconOverlayIdentifier::GetOverlayInfo, _win32_IShellIconOverlayIdentifier_GetOverlayInfo, shell.IShellIconOverlayIdentifier_GetOverlayInfo, shobjidl_core/IShellIconOverlayIdentifier::GetOverlayInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h

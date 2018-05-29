@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService.OnHttpEquiv
 title: IBrowserService::OnHttpEquiv
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Called when the document object responds to an HTTP-EQUIV metatag by issuing either the OLECMDID_HTTPEQUIV or OLECMDID_HTTPEQUIV_DONE command through IOleCommandTarget::Exec.
 old-location: shell\IBrowserService_OnHttpEquiv.htm
 old-project: shell
 ms.assetid: 9920c08b-c0c3-4359-9c00-3a1063cea0c7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FALSE, IBrowserService interface [Windows Shell],OnHttpEquiv method, IBrowserService.OnHttpEquiv, IBrowserService::OnHttpEquiv, OnHttpEquiv, OnHttpEquiv method [Windows Shell], OnHttpEquiv method [Windows Shell],IBrowserService interface, TRUE, shdeprecated/IBrowserService::OnHttpEquiv, shell.IBrowserService_OnHttpEquiv, zone_IBrowserService_OnHttpEquiv
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IPin.QueryPinInfo
 title: IPin::QueryPinInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The QueryPinInfo method retrieves information about the pin.
 old-location: dshow\ipin_querypininfo.htm
 old-project: DirectShow
 ms.assetid: 1a7c85ce-46f1-4928-9e2a-3a4bd96dc771
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IPin interface [DirectShow],QueryPinInfo method, IPin.QueryPinInfo, IPin::QueryPinInfo, IPinQueryPinInfo, QueryPinInfo, QueryPinInfo method [DirectShow], QueryPinInfo method [DirectShow],IPin interface, dshow.ipin_querypininfo, strmif/IPin::QueryPinInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

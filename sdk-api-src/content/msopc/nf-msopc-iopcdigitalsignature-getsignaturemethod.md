@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureMethod
 title: IOpcDigitalSignature::GetSignatureMethod
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the signature method used to calculate the value in the SignatureValue element of the signature markup.
 old-location: opc\iopcdigitalsignature_getsignaturemethod.htm
 old-project: OPC
 ms.assetid: a4dfd99f-16d7-4bf1-9852-d6d1fd4a3f06
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetSignatureMethod, GetSignatureMethod method [Open Packaging Conventions], GetSignatureMethod method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureMethod method, IOpcDigitalSignature.GetSignatureMethod, IOpcDigitalSignature::GetSignatureMethod, msopc/IOpcDigitalSignature::GetSignatureMethod, opc.iopcdigitalsignature_getsignaturemethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

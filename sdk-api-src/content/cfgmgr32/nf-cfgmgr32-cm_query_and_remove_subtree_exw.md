@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Query_And_Remove_SubTree_ExW
 title: CM_Query_And_Remove_SubTree_ExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Query_And_Remove_SubTree_Ex function checks whether a device instance and its children can be removed and, if so, it removes them.
 old-location: devinst\cm_query_and_remove_subtree_ex.htm
 old-project: devinst
 ms.assetid: c8a3af37-0886-4187-9cdb-49616bcb04a9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Query_And_Remove_SubTree_Ex, CM_Query_And_Remove_SubTree_Ex function [Device and Driver Installation], CM_Query_And_Remove_SubTree_ExW, cfgmgr32/CM_Query_And_Remove_SubTree_Ex, cfgmgr32/CM_Query_And_Remove_SubTree_ExW, cfgmgrfn_69fa61ff-b77c-41d7-a263-facf56883977.xml, devinst.cm_query_and_remove_subtree_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

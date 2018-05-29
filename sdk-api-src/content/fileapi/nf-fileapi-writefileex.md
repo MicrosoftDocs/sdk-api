@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.WriteFileEx
 title: WriteFileEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes data to the specified file or input/output (I/O) device. It reports its completion status asynchronously, calling the specified completion routine when writing is completed or canceled and the calling thread is in an alertable wait state.
 old-location: fs\writefileex.htm
 old-project: FileIO
 ms.assetid: 6995c4ee-ba91-41d5-b72d-19dc2eb95945
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WriteFileEx, WriteFileEx function [Files], _win32_writefileex, base.writefileex, fileapi/WriteFileEx, fs.writefileex, winbase/WriteFileEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

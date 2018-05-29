@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.Start
 title: IWMWriterFileSink2::Start
-author: windows-driver-content
+author: windows-sdk-content
 description: The Start method starts recording at the specified time.
 old-location: wmformat\iwmwriterfilesink2_start.htm
 old-project: wmformat
 ms.assetid: b4bfddbb-9156-42bf-b8d5-424fff9f4b64
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMWriterFileSink2 interface [windows Media Format],Start method, IWMWriterFileSink2.Start, IWMWriterFileSink2::Start, IWMWriterFileSink2Start, Start, Start method [windows Media Format], Start method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_start, wmsdkidl/IWMWriterFileSink2::Start
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

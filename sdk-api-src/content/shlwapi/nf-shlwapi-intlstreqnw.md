@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.IntlStrEqNW
 title: IntlStrEqNW macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs a case-sensitive comparison of a specified number of characters from the beginning of two localized strings.
 old-location: shell\IntlStrEqN.htm
 old-project: shell
 ms.assetid: ed777144-398c-4f36-bcc3-f6ba123ebfa7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IntlStrEqN, IntlStrEqN function [Windows Shell], IntlStrEqNA, IntlStrEqNW, _win32_IntlStrEqN, shell.IntlStrEqN, shlwapi/IntlStrEqN, shlwapi/IntlStrEqNA, shlwapi/IntlStrEqNW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: shlwapi.h
 req.include-header: 

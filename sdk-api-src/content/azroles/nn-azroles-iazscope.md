@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzScope
 title: IAzScope
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a logical container of resources to which the application manages access.
 old-location: security\iazscope.htm
 old-project: SecAuthZ
 ms.assetid: f7abe7cb-8827-46f6-85fe-99282582a3d4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzScope, IAzScope interface [Security], IAzScope interface [Security],described, azroles/IAzScope, security.iazscope
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

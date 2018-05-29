@@ -1,16 +1,16 @@
 ---
 UID: NE:d3dcommon.D3D_TESSELLATOR_OUTPUT_PRIMITIVE
 title: D3D_TESSELLATOR_OUTPUT_PRIMITIVE
-author: windows-driver-content
+author: windows-sdk-content
 description: Values that identify output primitive types.
 old-location: direct3d11\d3d_tessellator_output_primitive.htm
 old-project: direct3d11
 ms.assetid: 5fdaa41f-0612-4d2e-bb3e-60222f92bc96
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_TESSELLATOR_OUTPUT_LINE, D3D11_TESSELLATOR_OUTPUT_POINT, D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CCW, D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CW, D3D11_TESSELLATOR_OUTPUT_UNDEFINED, D3D_TESSELLATOR_OUTPUT_LINE, D3D_TESSELLATOR_OUTPUT_POINT, D3D_TESSELLATOR_OUTPUT_PRIMITIVE, D3D_TESSELLATOR_OUTPUT_PRIMITIVE enumeration [Direct3D 11], D3D_TESSELLATOR_OUTPUT_TRIANGLE_CCW, D3D_TESSELLATOR_OUTPUT_TRIANGLE_CW, D3D_TESSELLATOR_OUTPUT_UNDEFINED, d3dcommon/D3D11_TESSELLATOR_OUTPUT_LINE, d3dcommon/D3D11_TESSELLATOR_OUTPUT_POINT, d3dcommon/D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CCW, d3dcommon/D3D11_TESSELLATOR_OUTPUT_TRIANGLE_CW, d3dcommon/D3D11_TESSELLATOR_OUTPUT_UNDEFINED, d3dcommon/D3D_TESSELLATOR_OUTPUT_LINE, d3dcommon/D3D_TESSELLATOR_OUTPUT_POINT, d3dcommon/D3D_TESSELLATOR_OUTPUT_PRIMITIVE, d3dcommon/D3D_TESSELLATOR_OUTPUT_TRIANGLE_CCW, d3dcommon/D3D_TESSELLATOR_OUTPUT_TRIANGLE_CW, d3dcommon/D3D_TESSELLATOR_OUTPUT_UNDEFINED, direct3d11.d3d_tessellator_output_primitive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 

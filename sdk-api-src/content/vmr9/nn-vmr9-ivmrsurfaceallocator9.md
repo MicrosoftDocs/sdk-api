@@ -1,16 +1,16 @@
 ---
 UID: NN:vmr9.IVMRSurfaceAllocator9
 title: IVMRSurfaceAllocator9
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRSurfaceAllocator9 interface is implemented by the default allocator-presenter for the Video Mixing Renderer Filter 9 (VMR-9).
 old-location: dshow\ivmrsurfaceallocator9.htm
 old-project: DirectShow
 ms.assetid: dd187168-19c7-414c-a764-f180d1d310f2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRSurfaceAllocator9, IVMRSurfaceAllocator9 interface [DirectShow], IVMRSurfaceAllocator9 interface [DirectShow],described, IVMRSurfaceAllocator9Interface, dshow.ivmrsurfaceallocator9, vmr9/IVMRSurfaceAllocator9
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 

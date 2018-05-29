@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_SET_ACCESS
 title: IOCTL_CHANGER_SET_ACCESS
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the state of the device's insert/eject port, door, or keypad.
 old-location: base\ioctl_changer_set_access.htm
 old-project: DevIO
 ms.assetid: 567817d5-60cd-494c-94d9-0899e1142242
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: IOCTL_CHANGER_SET_ACCESS, IOCTL_CHANGER_SET_ACCESS control, IOCTL_CHANGER_SET_ACCESS control code, _win32_ioctl_changer_set_access, base.ioctl_changer_set_access, winioctl/IOCTL_CHANGER_SET_ACCESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

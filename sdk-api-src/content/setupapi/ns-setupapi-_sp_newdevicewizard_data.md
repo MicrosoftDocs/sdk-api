@@ -1,16 +1,16 @@
 ---
 UID: NS:setupapi._SP_NEWDEVICEWIZARD_DATA
 title: "_SP_NEWDEVICEWIZARD_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: An installer uses an SP_ADDPROPERTYPAGE_DATA structure to supply custom property pages for a device when it handles a DIF_ADDPROPERTYPAGE_ADVANCED request.
 old-location: devinst\sp_addpropertypage_data.htm
 old-project: devinst
 ms.assetid: 065c83b1-4b5d-4988-871a-48b0f8b14be7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSP_NEWDEVICEWIZARD_DATA, PSP_ADDPROPERTYPAGE_DATA, PSP_ADDPROPERTYPAGE_DATA structure pointer [Device and Driver Installation], SP_ADDPROPERTYPAGE_DATA, SP_ADDPROPERTYPAGE_DATA structure [Device and Driver Installation], SP_NEWDEVICEWIZARD_DATA, _SP_NEWDEVICEWIZARD_DATA, devinst.sp_addpropertypage_data, di-struct_d555aae2-5898-4b20-b20c-163ff3ee2cdd.xml, setupapi/PSP_ADDPROPERTYPAGE_DATA, setupapi/SP_ADDPROPERTYPAGE_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h

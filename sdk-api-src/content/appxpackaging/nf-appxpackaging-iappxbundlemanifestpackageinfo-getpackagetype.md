@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetPackageType
 title: IAppxBundleManifestPackageInfo::GetPackageType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the type of package that is represented by the package info.
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getpackagetype.htm
 old-project: appxpkg
 ms.assetid: 965E48E3-7C60-4299-85F4-07CB879E7B39
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetPackageType, GetPackageType method [App packaging and management], GetPackageType method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetPackageType method, IAppxBundleManifestPackageInfo.GetPackageType, IAppxBundleManifestPackageInfo::GetPackageType, appxpackaging/IAppxBundleManifestPackageInfo::GetPackageType, appxpkg.iappxbundlemanifestpackageinfo_getpackagetype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

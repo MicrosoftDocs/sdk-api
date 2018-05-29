@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.LeaveCriticalSectionWhenCallbackReturns
 title: LeaveCriticalSectionWhenCallbackReturns function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the critical section that the thread pool will release when the current callback completes.
 old-location: base\leavecriticalsectionwhencallbackreturns.htm
 old-project: ProcThread
 ms.assetid: 43ce27ee-207c-4317-9771-d82f1f4edda2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: LeaveCriticalSectionWhenCallbackReturns, LeaveCriticalSectionWhenCallbackReturns function, base.leavecriticalsectionwhencallbackreturns, threadpoolapiset/LeaveCriticalSectionWhenCallbackReturns, winbase/LeaveCriticalSectionWhenCallbackReturns
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

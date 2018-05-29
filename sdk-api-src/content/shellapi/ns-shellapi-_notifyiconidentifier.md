@@ -1,16 +1,16 @@
 ---
 UID: NS:shellapi._NOTIFYICONIDENTIFIER
 title: "_NOTIFYICONIDENTIFIER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used by Shell_NotifyIconGetRect to identify the icon for which to retrieve the bounding rectangle.
 old-location: shell\NOTIFYICONIDENTIFIER.htm
 old-project: shell
 ms.assetid: 2fe4ffba-6fe5-4d34-9cb1-f266e4594b8e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PNOTIFYICONIDENTIFIER, NOTIFYICONIDENTIFIER, NOTIFYICONIDENTIFIER structure [Windows Shell], PNOTIFYICONIDENTIFIER, PNOTIFYICONIDENTIFIER structure pointer [Windows Shell], _NOTIFYICONIDENTIFIER, _shell_NOTIFYICONIDENTIFIER, shell.NOTIFYICONIDENTIFIER, shellapi/NOTIFYICONIDENTIFIER, shellapi/PNOTIFYICONIDENTIFIER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 

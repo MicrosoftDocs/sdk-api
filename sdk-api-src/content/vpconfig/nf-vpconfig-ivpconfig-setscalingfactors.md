@@ -1,16 +1,16 @@
 ---
 UID: NF:vpconfig.IVPConfig.SetScalingFactors
 title: IVPConfig::SetScalingFactors
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetScalingFactors method sets the factors by which the decoder should scale the video stream.
 old-location: dshow\ivpconfig_setscalingfactors.htm
 old-project: DirectShow
 ms.assetid: 62b8281e-6feb-43f5-b1a5-36444fda5543
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVPConfig interface [DirectShow],SetScalingFactors method, IVPConfig.SetScalingFactors, IVPConfig::SetScalingFactors, IVPConfigSetScalingFactors, SetScalingFactors, SetScalingFactors method [DirectShow], SetScalingFactors method [DirectShow],IVPConfig interface, dshow.ivpconfig_setscalingfactors, vpconfig/IVPConfig::SetScalingFactors
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 

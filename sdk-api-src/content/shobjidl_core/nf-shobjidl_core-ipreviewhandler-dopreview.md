@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandler.DoPreview
 title: IPreviewHandler::DoPreview
-author: windows-driver-content
+author: windows-sdk-content
 description: Directs the preview handler to load data from the source specified in an earlier Initialize method call, and to begin rendering to the previewer window.
 old-location: shell\IPreviewHandler_DoPreview.htm
 old-project: shell
 ms.assetid: f6bad84f-9089-4905-ad4d-9b69ff9d11d6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DoPreview, DoPreview method [Windows Shell], DoPreview method [Windows Shell],IPreviewHandler interface, IPreviewHandler interface [Windows Shell],DoPreview method, IPreviewHandler.DoPreview, IPreviewHandler::DoPreview, _shell_IPreviewHandler_DoPreview, shell.IPreviewHandler_DoPreview, shobjidl_core/IPreviewHandler::DoPreview
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrComplexStructUnmarshall
 title: NdrComplexStructUnmarshall function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrComplexStructUnmarshall function unmarshals the complex structure from the network buffer to memory.
 old-location: winprog\ndrcomplexstructunmarshall.htm
 old-project: DevNotes
 ms.assetid: a29d685e-df89-4ffd-95e1-d265a8e7b7a2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: NdrComplexStructUnmarshall, NdrComplexStructUnmarshall function [Windows API], rpcndr/NdrComplexStructUnmarshall, winprog.ndrcomplexstructunmarshall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: 

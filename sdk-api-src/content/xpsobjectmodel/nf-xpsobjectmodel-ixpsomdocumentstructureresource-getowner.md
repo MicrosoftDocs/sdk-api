@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentStructureResource.GetOwner
 title: IXpsOMDocumentStructureResource::GetOwner
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the IXpsOMDocument interface that contains the resource.
 old-location: xps\ixpsomdocumentstructureresource_getowner.htm
 old-project: printdocs
 ms.assetid: cbaedef0-f1a9-4c2c-88ae-1542cfbff252
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMDocumentStructureResource interface, IXpsOMDocumentStructureResource interface [XPS Documents and Packaging],GetOwner method, IXpsOMDocumentStructureResource.GetOwner, IXpsOMDocumentStructureResource::GetOwner, xps.ixpsomdocumentstructureresource_getowner, xpsobjectmodel/IXpsOMDocumentStructureResource::GetOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputStreamInfo
 title: IMediaObject::GetInputStreamInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetInputStreamInfo method retrieves information about an input stream, such as any restrictions on the number of samples per buffer, and whether the stream performs lookahead on the input data. This information never changes.
 old-location: dshow\imediaobject_getinputstreaminfo.htm
 old-project: DirectShow
 ms.assetid: 9e18bf5e-cf29-4446-a1ba-422b41e02edc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetInputStreamInfo, GetInputStreamInfo method [DirectShow], GetInputStreamInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputStreamInfo method, IMediaObject.GetInputStreamInfo, IMediaObject::GetInputStreamInfo, IMediaObjectGetInputStreamInfo, dshow.imediaobject_getinputstreaminfo, mediaobj/IMediaObject::GetInputStreamInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

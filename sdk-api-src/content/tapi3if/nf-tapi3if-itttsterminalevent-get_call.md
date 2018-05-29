@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITTTSTerminalEvent.get_Call
 title: ITTTSTerminalEvent::get_Call
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Call method returns an ITCallInfo interface pointer for the call involved in the terminal event.
 old-location: tapi3\itttsterminalevent_get_call.htm
 old-project: Tapi
 ms.assetid: 7e9ffff3-1282-4d05-83c9-7f824406fcfa
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITTTSTerminalEvent interface [TAPI 2.2],get_Call method, ITTTSTerminalEvent.get_Call, ITTTSTerminalEvent::get_Call, _tapi3_itttsterminalevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITTTSTerminalEvent interface, tapi3.itttsterminalevent_get_call, tapi3if/ITTTSTerminalEvent::get_Call
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

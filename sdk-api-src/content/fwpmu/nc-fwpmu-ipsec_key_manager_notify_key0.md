@@ -1,16 +1,16 @@
 ---
 UID: NC:fwpmu.IPSEC_KEY_MANAGER_NOTIFY_KEY0
 title: IPSEC_KEY_MANAGER_NOTIFY_KEY0
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to notify Trusted Intermediary Agents (TIAs) of the keys for the SA being negotiated.
 old-location: fwp\ipsec_key_manager_notify_key0.htm
 old-project: FWP
 ms.assetid: ECB904D1-C78F-493D-A6B8-73EA782EA935
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_KEY_MANAGER_NOTIFY_KEY0, IPSEC_KEY_MANAGER_NOTIFY_KEY0 function, IPSEC_KEY_MANAGER_NOTIFY_KEY0 function pointer [Filtering], fwp.ipsec_key_manager_notify_key0, fwp.ipsec_key_notify_key0, fwpmu/IPSEC_KEY_MANAGER_NOTIFY_KEY0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: fwpmu.h
 req.include-header: 

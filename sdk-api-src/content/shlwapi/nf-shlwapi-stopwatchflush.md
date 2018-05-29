@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StopWatchFlush
 title: StopWatchFlush function
-author: windows-driver-content
+author: windows-sdk-content
 description: StopWatchFlush may be altered or unavailable.
 old-location: shell\StopWatchFlush.htm
 old-project: shell
 ms.assetid: 52b79602-6e24-4d66-a400-5745149e744b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StopWatchFlush, StopWatchFlush function [Windows Shell], _win32_StopWatchFlush, shell.StopWatchFlush, shlwapi/StopWatchFlush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

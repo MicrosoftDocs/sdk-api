@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesShareInfo.IsShareDfsJunction
 title: IOfflineFilesShareInfo::IsShareDfsJunction
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the share item is a DFS junction or a shared folder on a server.
 old-location: of\iofflinefilesshareinfo_issharedfsjunction.htm
 old-project: OfflineFiles
 ms.assetid: fdb29270-2fe5-4313-afd9-c21b82b1949a
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesShareInfo interface [Offline Files],IsShareDfsJunction method, IOfflineFilesShareInfo.IsShareDfsJunction, IOfflineFilesShareInfo::IsShareDfsJunction, IsShareDfsJunction, IsShareDfsJunction method [Offline Files], IsShareDfsJunction method [Offline Files],IOfflineFilesShareInfo interface, cscobj/IOfflineFilesShareInfo::IsShareDfsJunction, of.iofflinefilesshareinfo_issharedfsjunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

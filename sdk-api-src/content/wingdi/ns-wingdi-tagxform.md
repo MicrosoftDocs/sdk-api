@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagXFORM
 title: tagXFORM
-author: windows-driver-content
+author: windows-sdk-content
 description: The XFORM structure specifies a world-space to page-space transformation.
 old-location: gdi\xform.htm
 old-project: gdi
 ms.assetid: 49f0d7ee-77fa-415e-af00-b8930253a3a9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPXFORM, *PXFORM, PXFORM, PXFORM structure pointer [Windows GDI], XFORM, XFORM structure [Windows GDI], _win32_XFORM_str, gdi.xform, tagXFORM, wingdi/PXFORM, wingdi/XFORM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

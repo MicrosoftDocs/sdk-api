@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsContainer.Delete
 title: IADsContainer::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a specified directory object from this container.
 old-location: adsi\iadscontainer_delete.htm
 old-project: ADSI
 ms.assetid: 2f3873e0-376e-4212-a28d-bd9bc112f6cf
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Delete, Delete method [ADSI], Delete method [ADSI],IADsContainer interface, IADsContainer interface [ADSI],Delete method, IADsContainer.Delete, IADsContainer::Delete, _ds_iadscontainer_delete, adsi.iadscontainer__delete, adsi.iadscontainer_delete, iads/IADsContainer::Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

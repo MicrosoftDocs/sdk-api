@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFShutdown
 title: MFShutdown function
-author: windows-driver-content
+author: windows-sdk-content
 description: Shuts down the Microsoft Media Foundation platform.
 old-location: mf\mfshutdown.htm
 old-project: medfound
 ms.assetid: 10be2361-b5b4-4c10-92a1-527ca22c74e4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 10be2361-b5b4-4c10-92a1-527ca22c74e4, MFShutdown, MFShutdown function [Media Foundation], mf.mfshutdown, mfapi/MFShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.FindNextVolumeW
 title: FindNextVolumeW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Continues a volume search started by a call to the FindFirstVolume function.
 old-location: fs\findnextvolume.htm
 old-project: FileIO
 ms.assetid: 6ab4467a-f84a-403e-9327-b523ceead19f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FindNextVolume, FindNextVolume function [Files], FindNextVolumeA, FindNextVolumeW, _win32_findnextvolume, base.findnextvolume, fileapi/FindNextVolume, fileapi/FindNextVolumeA, fileapi/FindNextVolumeW, fs.findnextvolume, winbase/FindNextVolume, winbase/FindNextVolumeA, winbase/FindNextVolumeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

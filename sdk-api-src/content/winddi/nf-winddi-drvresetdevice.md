@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.DrvResetDevice
 title: DrvResetDevice function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrvResetDevice function resets a device that is inoperable or unresponsive.
 old-location: display\drvresetdevice.htm
 old-project: display
 ms.assetid: 2078cefe-3b66-455b-a4cc-144d643f74e7
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DrvResetDevice, DrvResetDevice function [Display Devices], ddifncs_ba6f8e5e-bd3a-4666-ab2c-d9bb56495712.xml, display.drvresetdevice, winddi/DrvResetDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

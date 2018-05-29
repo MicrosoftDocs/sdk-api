@@ -1,16 +1,16 @@
 ---
 UID: NE:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0032
 title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0032"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MPEG_REQUEST_TYPE enumeration type specifies a request for MPEG-2 data.
 old-location: mstv\mpeg_request_type.htm
 old-project: mstv
 ms.assetid: d1811cd5-3dda-48d1-a3b3-e4189e2622bb
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MPEG_REQUEST_TYPE, MPEG_REQUEST_TYPE enumeration [Microsoft TV Technologies], MPEG_RQST_GET_PES_STREAM, MPEG_RQST_GET_SECTION, MPEG_RQST_GET_SECTIONS_STREAM, MPEG_RQST_GET_SECTION_ASYNC, MPEG_RQST_GET_TABLE, MPEG_RQST_GET_TABLE_ASYNC, MPEG_RQST_GET_TS_STREAM, MPEG_RQST_START_MPE_STREAM, MPEG_RQST_UNKNOWN, __MIDL___MIDL_itf_mpeg2structs_0000_0000_0032, mpeg2structs/MPEG_REQUEST_TYPE, mpeg2structs/MPEG_RQST_GET_PES_STREAM, mpeg2structs/MPEG_RQST_GET_SECTION, mpeg2structs/MPEG_RQST_GET_SECTIONS_STREAM, mpeg2structs/MPEG_RQST_GET_SECTION_ASYNC, mpeg2structs/MPEG_RQST_GET_TABLE, mpeg2structs/MPEG_RQST_GET_TABLE_ASYNC, mpeg2structs/MPEG_RQST_GET_TS_STREAM, mpeg2structs/MPEG_RQST_START_MPE_STREAM, mpeg2structs/MPEG_RQST_UNKNOWN, mstv.mpeg_request_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mpeg2structs.h
 req.include-header: 

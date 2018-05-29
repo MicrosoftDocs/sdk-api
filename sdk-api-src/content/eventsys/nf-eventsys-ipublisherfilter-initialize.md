@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IPublisherFilter.Initialize
 title: IPublisherFilter::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates an event method with a collection of subscription objects.
 old-location: cos\ipublisherfilter_initialize.htm
 old-project: cossdk
 ms.assetid: 803201c7-7fa8-4db5-858f-3d5af302ee88
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IPublisherFilter interface [COM+],Initialize method, IPublisherFilter.Initialize, IPublisherFilter::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IPublisherFilter interface, _cos_IPublisherFilter_Initialize, cos.ipublisherfilter_initialize, eventsys/IPublisherFilter::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

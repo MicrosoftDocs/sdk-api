@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpDecodeMsg
 title: SnmpDecodeMsg function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinSNMP SnmpDecodeMsg function decodes an encoded SNMP message into its components. This function performs the opposite action of the WinSNMP SnmpEncodeMsg function.
 old-location: snmp\snmpdecodemsg.htm
 old-project: SNMP
 ms.assetid: d19d6451-1640-4c3b-9e60-d9cb591cf173
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpDecodeMsg, SnmpDecodeMsg function [SNMP], _snmp_snmpdecodemsg, snmp.snmpdecodemsg, winsnmp/SnmpDecodeMsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

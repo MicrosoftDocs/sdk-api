@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IPersistStream.Load
 title: IPersistStream::Load
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an object from the stream where it was saved previously.
 old-location: com\ipersiststream_load.htm
 old-project: com
 ms.assetid: 351e1187-9959-4542-8778-925457c3b8e3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPersistStream interface [COM],Load method, IPersistStream.Load, IPersistStream::Load, Load, Load method [COM], Load method [COM],IPersistStream interface, _com_ipersiststream_load, com.ipersiststream_load, objidl/IPersistStream::Load
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

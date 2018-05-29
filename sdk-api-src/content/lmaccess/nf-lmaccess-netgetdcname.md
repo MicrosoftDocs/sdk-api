@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetGetDCName
 title: NetGetDCName function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetGetDCName function returns the name of the primary domain controller (PDC). It does not return the name of the backup domain controller (BDC) for the specified domain. Also, you cannot remote this function to a non-PDC server.
 old-location: netmgmt\netgetdcname.htm
 old-project: NetMgmt
 ms.assetid: 3e32aacc-088e-455a-bc1b-92274e98d2e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetGetDCName, NetGetDCName function [Network Management], _win32_netgetdcname, lmaccess/NetGetDCName, netmgmt.netgetdcname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

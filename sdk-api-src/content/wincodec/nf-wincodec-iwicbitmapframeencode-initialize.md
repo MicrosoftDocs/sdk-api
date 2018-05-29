@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.Initialize
 title: IWICBitmapFrameEncode::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the frame encoder using the given properties.
 old-location: wic\_wic_codec_iwicbitmapframeencode_initialize.htm
 old-project: wic
 ms.assetid: ec215e32-b4bd-469a-903d-f5b546185183
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],Initialize method, IWICBitmapFrameEncode.Initialize, IWICBitmapFrameEncode::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_initialize, wic._wic_codec_iwicbitmapframeencode_initialize, wincodec/IWICBitmapFrameEncode::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

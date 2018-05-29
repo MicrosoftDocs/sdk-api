@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiProcessAdvertiseScriptW
 title: MsiProcessAdvertiseScriptW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiProcessAdvertiseScript function processes an advertise script file into the specified locations.
 old-location: setup\msiprocessadvertisescript.htm
 old-project: Msi
 ms.assetid: 2c418552-2c06-4797-9fa3-d36e69ef0d53
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiProcessAdvertiseScript, MsiProcessAdvertiseScript function, MsiProcessAdvertiseScriptA, MsiProcessAdvertiseScriptW, _msi_msiprocessadvertisescript, msi/MsiProcessAdvertiseScript, msi/MsiProcessAdvertiseScriptA, msi/MsiProcessAdvertiseScriptW, setup.msiprocessadvertisescript
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

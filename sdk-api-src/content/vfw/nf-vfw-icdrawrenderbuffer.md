@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICDrawRenderBuffer
 title: ICDrawRenderBuffer macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICDrawRenderBuffer macro notifies a rendering driver to draw the frames that have been passed to it. You can use this macro or explicitly call the ICM_DRAW_RENDERBUFFER message.
 old-location: multimedia\icdrawrenderbuffer.htm
 old-project: Multimedia
 ms.assetid: dc87dd00-1a48-4434-894c-fb49d4e92d20
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICDrawRenderBuffer, ICDrawRenderBuffer macro [Windows Multimedia], _win32_ICDrawRenderBuffer, multimedia.icdrawrenderbuffer, vfw/ICDrawRenderBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

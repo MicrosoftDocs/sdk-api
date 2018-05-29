@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IDVB_SIT
 title: IDVB_SIT
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit.htm
 old-project: mstv
 ms.assetid: f278d942-a450-4a01-998d-4dac1c8a1fcc
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVB_SIT, IDVB_SIT interface [Microsoft TV Technologies], IDVB_SIT interface [Microsoft TV Technologies],described, IDVB_SITInterface, dvbsiparser/IDVB_SIT, mstv.idvb_sit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

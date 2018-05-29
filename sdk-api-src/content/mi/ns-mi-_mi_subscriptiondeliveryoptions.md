@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_SubscriptionDeliveryOptions
 title: "_MI_SubscriptionDeliveryOptions"
-author: windows-driver-content
+author: windows-sdk-content
 description: The subscription options object stores configuration options used for passing into subscription operations.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions.htm
 old-project: wmi_v2
 ms.assetid: aaed635c-ee53-4307-a5b4-e9d3bd2e7c21
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_SubscriptionDeliveryOptions, MI_SubscriptionDeliveryOptions structure [Windows Management Infrastructure (MI)], _MI_SubscriptionDeliveryOptions, mi/MI_SubscriptionDeliveryOptions, wmi_v2.mi_subscriptiondeliveryoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

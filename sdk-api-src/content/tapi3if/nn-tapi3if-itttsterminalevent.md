@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITTTSTerminalEvent
 title: ITTTSTerminalEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITTTSTerminalEvent interface contains methods that retrieve the description of Text-to-Speech (TTS) terminal events that have occurred.
 old-location: tapi3\itttsterminalevent.htm
 old-project: Tapi
 ms.assetid: 0375d6e4-cd9f-4245-abf5-1b200af79848
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITTTSTerminalEvent, ITTTSTerminalEvent interface [TAPI 2.2], ITTTSTerminalEvent interface [TAPI 2.2],described, _tapi3_itttsterminalevent, tapi3.itttsterminalevent, tapi3if/ITTTSTerminalEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

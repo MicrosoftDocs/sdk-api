@@ -1,16 +1,16 @@
 ---
 UID: NN:mfobjects.IMF2DBuffer
 title: IMF2DBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a buffer that contains a two-dimensional surface, such as a video frame.
 old-location: mf\imf2dbuffer.htm
 old-project: medfound
 ms.assetid: 80eb23db-a7c0-4dbe-97d8-0dc07a34d8f7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 80eb23db-a7c0-4dbe-97d8-0dc07a34d8f7, IMF2DBuffer, IMF2DBuffer interface [Media Foundation], IMF2DBuffer interface [Media Foundation],described, mf.imf2dbuffer, mfobjects/IMF2DBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

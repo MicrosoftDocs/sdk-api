@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfThreadMgrEx
 title: ITfThreadMgrEx
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfThreadMgrEx interface is used by the application to activate the textservices with some flags. ITfThreadMgrEx can be obtained by QI from ITfThreadMgr.
 old-location: tsf\itfthreadmgrex.htm
 old-project: TSF
 ms.assetid: c230c363-3c62-459f-9350-d96db916f29c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfThreadMgrEx, ITfThreadMgrEx interface [Text Services Framework], ITfThreadMgrEx interface [Text Services Framework],described, _tsf_itfthreadmgrex_ref, msctf/ITfThreadMgrEx, tsf.itfthreadmgrex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

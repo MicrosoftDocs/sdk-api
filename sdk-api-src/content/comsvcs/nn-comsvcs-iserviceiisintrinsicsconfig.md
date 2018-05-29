@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IServiceIISIntrinsicsConfig
 title: IServiceIISIntrinsicsConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures the IIS intrinsics for the work that is done when calling the CoCreateActivity or CoEnterServiceDomain function.
 old-location: cos\iserviceiisintrinsicsconfig.htm
 old-project: cossdk
 ms.assetid: fc4524b0-ef00-429d-ad27-cb81f8a5269f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServiceIISIntrinsicsConfig, IServiceIISIntrinsicsConfig interface [COM+], IServiceIISIntrinsicsConfig interface [COM+],described, _cos_IServiceIISIntrinsicsConfig, comsvcs/IServiceIISIntrinsicsConfig, cos.iserviceiisintrinsicsconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

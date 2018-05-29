@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.GetOutputTransform
 title: IDirectManipulationContent::GetOutputTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the final transform applied to the content.
 old-location: directmanipulation\idirectmanipulationcontent_getoutputtransform.htm
 old-project: directmanipulation
 ms.assetid: a8f746a4-650f-4f6d-8734-2e98f01898f2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetOutputTransform, GetOutputTransform method [Direct Manipulation], GetOutputTransform method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetOutputTransform method, IDirectManipulationContent.GetOutputTransform, IDirectManipulationContent::GetOutputTransform, directmanipulation.idirectmanipulationcontent_getoutputtransform, directmanipulation/IDirectManipulationContent::GetOutputTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ICreatingProcess.OnCreating
 title: ICreatingProcess::OnCreating
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows you to modify the parameters of the process being created.
 old-location: shell\icreatingprocess_oncreating.htm
 old-project: shell
 ms.assetid: 5A13ABDB-8453-41BE-AF0C-B5A07486CBE6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICreatingProcess interface [Windows Shell],OnCreating method, ICreatingProcess.OnCreating, ICreatingProcess::OnCreating, OnCreating, OnCreating method [Windows Shell], OnCreating method [Windows Shell],ICreatingProcess interface, shell.icreatingprocess_oncreating, shobjidl_core/ICreatingProcess::OnCreating
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

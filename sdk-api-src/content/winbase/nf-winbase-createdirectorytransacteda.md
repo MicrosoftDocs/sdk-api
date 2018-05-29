@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.CreateDirectoryTransactedA
 title: CreateDirectoryTransactedA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new directory as a transacted operation, with the attributes of a specified template directory.
 old-location: fs\createdirectorytransacted.htm
 old-project: FileIO
 ms.assetid: 75663b30-5bd9-4de7-8e4f-dc58016c2c40
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreateDirectoryTransacted, CreateDirectoryTransacted function [Files], CreateDirectoryTransactedA, CreateDirectoryTransactedW, fs.createdirectorytransacted, winbase/CreateDirectoryTransacted, winbase/CreateDirectoryTransactedA, winbase/CreateDirectoryTransactedW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:intshcut.MIMEAssociationDialogW
 title: MIMEAssociationDialogW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Runs the unregistered MIME content type dialog box.Note  Windows XP Service Pack 2 (SP2) or later:\_This function is no longer supported.
 old-location: shell\MIMEAssociationDialog.htm
 old-project: shell
 ms.assetid: 0f8ee95a-3f95-47ee-822b-740ba134cd3c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MIMEAssociationDialog, MIMEAssociationDialog function [Windows Shell], MIMEAssociationDialogA, MIMEAssociationDialogW, _win32_MIMEAssociationDialog, intshcut/MIMEAssociationDialog, intshcut/MIMEAssociationDialogA, intshcut/MIMEAssociationDialogW, shell.MIMEAssociationDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intshcut.h
 req.include-header: 

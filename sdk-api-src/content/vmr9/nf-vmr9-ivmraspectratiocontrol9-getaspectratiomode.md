@@ -1,16 +1,16 @@
 ---
 UID: NF:vmr9.IVMRAspectRatioControl9.GetAspectRatioMode
 title: IVMRAspectRatioControl9::GetAspectRatioMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAspectRatioMode method queries whether the VMR preserves the aspect ratio of the source video.
 old-location: dshow\ivmraspectratiocontrol9_getaspectratiomode.htm
 old-project: DirectShow
 ms.assetid: e53e9015-5186-4807-a5ee-af8598a89a2b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IVMRAspectRatioControl9 interface, IVMRAspectRatioControl9 interface [DirectShow],GetAspectRatioMode method, IVMRAspectRatioControl9.GetAspectRatioMode, IVMRAspectRatioControl9::GetAspectRatioMode, IVMRAspectRatioControl9GetAspectRatioMode, dshow.ivmraspectratiocontrol9_getaspectratiomode, vmr9/IVMRAspectRatioControl9::GetAspectRatioMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

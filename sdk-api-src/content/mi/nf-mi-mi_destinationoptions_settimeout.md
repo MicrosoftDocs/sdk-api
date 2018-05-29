@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetTimeout
 title: MI_DestinationOptions_SetTimeout function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the default options timeout value.
 old-location: wmi_v2\mi_destinationoptions_settimeout.htm
 old-project: wmi_v2
 ms.assetid: 81309b13-657c-45fc-b4fd-21bfb28247a2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_DestinationOptions_SetTimeout, MI_DestinationOptions_SetTimeout function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetTimeout, wmi_v2.mi_destinationoptions_settimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

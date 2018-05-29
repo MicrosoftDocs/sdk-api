@@ -1,16 +1,16 @@
 ---
 UID: NE:codecapi.eAVFastDecodeMode
 title: eAVFastDecodeMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the video decoding speed. This enumeration is used with the AVDecVideoFastDecodeMode property.
 old-location: dshow\eavfastdecodemode.htm
 old-project: DirectShow
 ms.assetid: 526A52A8-4B48-43AE-A8B2-EE800C6BAE8F
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: codecapi/eAVFastDecodeMode, codecapi/eVideoDecodeCompliant, codecapi/eVideoDecodeDisableLF, codecapi/eVideoDecodeFastest, codecapi/eVideoDecodeOptimalLF, dshow.eavfastdecodemode, eAVFastDecodeMode, eAVFastDecodeMode enumeration [DirectShow], eVideoDecodeCompliant, eVideoDecodeDisableLF, eVideoDecodeFastest, eVideoDecodeOptimalLF
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

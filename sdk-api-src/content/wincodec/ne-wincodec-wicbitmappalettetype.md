@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICBitmapPaletteType
 title: WICBitmapPaletteType
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of palette used for an indexed image format.
 old-location: wic\_wic_codec_wicbitmappalettetype.htm
 old-project: wic
 ms.assetid: a8192905-2bae-4760-bf2d-64640c46e168
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICBitmapPaletteType, WICBitmapPaletteType enumeration [Windows Imaging Component], WICBitmapPaletteTypeCustom, WICBitmapPaletteTypeFixedBW, WICBitmapPaletteTypeFixedGray16, WICBitmapPaletteTypeFixedGray256, WICBitmapPaletteTypeFixedGray4, WICBitmapPaletteTypeFixedHalftone125, WICBitmapPaletteTypeFixedHalftone216, WICBitmapPaletteTypeFixedHalftone252, WICBitmapPaletteTypeFixedHalftone256, WICBitmapPaletteTypeFixedHalftone27, WICBitmapPaletteTypeFixedHalftone64, WICBitmapPaletteTypeFixedHalftone8, WICBitmapPaletteTypeFixedWebPalette, WICBitmapPaletteTypeMedianCut, _wic_codec_wicbitmappalettetype, wic._wic_codec_wicbitmappalettetype, wincodec/WICBitmapPaletteType, wincodec/WICBitmapPaletteTypeCustom, wincodec/WICBitmapPaletteTypeFixedBW, wincodec/WICBitmapPaletteTypeFixedGray16, wincodec/WICBitmapPaletteTypeFixedGray256, wincodec/WICBitmapPaletteTypeFixedGray4, wincodec/WICBitmapPaletteTypeFixedHalftone125, wincodec/WICBitmapPaletteTypeFixedHalftone216, wincodec/WICBitmapPaletteTypeFixedHalftone252, wincodec/WICBitmapPaletteTypeFixedHalftone256, wincodec/WICBitmapPaletteTypeFixedHalftone27, wincodec/WICBitmapPaletteTypeFixedHalftone64, wincodec/WICBitmapPaletteTypeFixedHalftone8, wincodec/WICBitmapPaletteTypeFixedWebPalette, wincodec/WICBitmapPaletteTypeMedianCut
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

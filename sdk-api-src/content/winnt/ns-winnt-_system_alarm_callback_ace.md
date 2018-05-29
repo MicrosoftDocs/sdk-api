@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._SYSTEM_ALARM_CALLBACK_ACE
 title: "_SYSTEM_ALARM_CALLBACK_ACE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SYSTEM_ALARM_CALLBACK_ACE structure is reserved for future use.
 old-location: security\system_alarm_callback_ace.htm
 old-project: SecAuthZ
 ms.assetid: 8bfb579f-4bee-454e-827b-63a800bccf85
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PSYSTEM_ALARM_CALLBACK_ACE, SYSTEM_ALARM_CALLBACK_ACE, SYSTEM_ALARM_CALLBACK_ACE structure [Security], _SYSTEM_ALARM_CALLBACK_ACE, security.system_alarm_callback_ace, winnt/SYSTEM_ALARM_CALLBACK_ACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:medparam.IMediaParamInfo.GetSupportedTimeFormat
 title: IMediaParamInfo::GetSupportedTimeFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSupportedTimeFormat method retrieves a supported time format.
 old-location: dshow\imediaparaminfo_getsupportedtimeformat.htm
 old-project: DirectShow
 ms.assetid: 04e4c9ea-4570-4fd0-986b-c835c692b73b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetSupportedTimeFormat, GetSupportedTimeFormat method [DirectShow], GetSupportedTimeFormat method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetSupportedTimeFormat method, IMediaParamInfo.GetSupportedTimeFormat, IMediaParamInfo::GetSupportedTimeFormat, IMediaParamInfoGetSupportedTimeFormat, dshow.imediaparaminfo_getsupportedtimeformat, medparam/IMediaParamInfo::GetSupportedTimeFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: medparam.h
 req.include-header: 

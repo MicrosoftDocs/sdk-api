@@ -1,16 +1,16 @@
 ---
 UID: NN:control.IAMStats
 title: IAMStats
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMStats interface retrieves performance data from the Filter Graph Manager.
 old-location: dshow\iamstats.htm
 old-project: DirectShow
 ms.assetid: 01dbaba2-fdca-4f42-8816-fd99c4364dbd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMStats, IAMStats interface [DirectShow], IAMStats interface [DirectShow],described, IAMStatsInterface, control/IAMStats, dshow.iamstats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h

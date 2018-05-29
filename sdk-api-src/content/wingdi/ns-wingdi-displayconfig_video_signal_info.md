@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_VIDEO_SIGNAL_INFO
 title: DISPLAYCONFIG_VIDEO_SIGNAL_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure contains information about the video signal for a display.
 old-location: display\displayconfig_video_signal_info.htm
 old-project: display
 ms.assetid: 960089fe-dbb7-41a1-af73-0002cfce6da2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CCD_Structures_17b322c2-76a8-4f82-8ee7-c70d3f613d5a.xml, DISPLAYCONFIG_VIDEO_SIGNAL_INFO, DISPLAYCONFIG_VIDEO_SIGNAL_INFO structure [Display Devices], display.displayconfig_video_signal_info, wingdi/DISPLAYCONFIG_VIDEO_SIGNAL_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflection.GetResourceBindingDesc
 title: ID3D10ShaderReflection::GetResourceBindingDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a description of the resources bound to a shader.
 old-location: direct3d10\id3d10shaderreflection_getresourcebindingdesc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection_getresourcebindingdesc.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 6c7ed61d-9513-cb71-b3ae-307487d0a4eb, GetResourceBindingDesc, GetResourceBindingDesc method [Direct3D 10], GetResourceBindingDesc method [Direct3D 10],ID3D10ShaderReflection interface, ID3D10ShaderReflection interface [Direct3D 10],GetResourceBindingDesc method, ID3D10ShaderReflection.GetResourceBindingDesc, ID3D10ShaderReflection::GetResourceBindingDesc, d3d10shader/ID3D10ShaderReflection::GetResourceBindingDesc, direct3d10.id3d10shaderreflection_getresourcebindingdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10shader.h
 req.include-header: 

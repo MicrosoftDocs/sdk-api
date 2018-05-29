@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.BackupSeek
 title: BackupSeek function
-author: windows-driver-content
+author: windows-sdk-content
 description: Seeks forward in a data stream initially accessed by using the BackupRead or BackupWrite function.
 old-location: backup\backupseek.htm
 old-project: Backup
 ms.assetid: d5ffba3d-f744-49b4-83e0-e32bd45ecc4c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: BackupSeek, BackupSeek function [Backup], _win32_backupseek, backup.backupseek, base.backupseek, winbase/BackupSeek
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

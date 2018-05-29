@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IVirtualDesktopManager.MoveWindowToDesktop
 title: IVirtualDesktopManager::MoveWindowToDesktop
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves a window to the specified virtual desktop.
 old-location: shell\ivirtualdesktopmanager_movewindowtodesktop.htm
 old-project: shell
 ms.assetid: A8756361-E371-41C5-B3F5-BD99439878D9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IVirtualDesktopManager interface [Windows Shell],MoveWindowToDesktop method, IVirtualDesktopManager.MoveWindowToDesktop, IVirtualDesktopManager::MoveWindowToDesktop, MoveWindowToDesktop, MoveWindowToDesktop method [Windows Shell], MoveWindowToDesktop method [Windows Shell],IVirtualDesktopManager interface, shell.ivirtualdesktopmanager_movewindowtodesktop, shobjidl/IVirtualDesktopManager::MoveWindowToDesktop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_PACKED_CREDENTIALS
 title: "_SEC_WINNT_AUTH_PACKED_CREDENTIALS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies serialized credentials.
 old-location: security\sec_winnt_auth_packed_credentials.htm
 old-project: SecAuthN
 ms.assetid: 9a21f0cd-d4e1-4aa8-8d0d-72bc7002ce32
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSEC_WINNT_AUTH_PACKED_CREDENTIALS, PSEC_WINNT_AUTH_PACKED_CREDENTIALS, PSEC_WINNT_AUTH_PACKED_CREDENTIALS structure pointer [Security], SEC_WINNT_AUTH_PACKED_CREDENTIALS, SEC_WINNT_AUTH_PACKED_CREDENTIALS structure [Security], _SEC_WINNT_AUTH_PACKED_CREDENTIALS, security.sec_winnt_auth_packed_credentials, sspi/PSEC_WINNT_AUTH_PACKED_CREDENTIALS, sspi/SEC_WINNT_AUTH_PACKED_CREDENTIALS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSwapHold
 title: lineSwapHold function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSwapHold function swaps the specified active call with the specified call on consultation hold.
 old-location: tapi2\lineswaphold.htm
 old-project: Tapi
 ms.assetid: 9e575c82-301c-4505-b400-faf4dc291ff8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_lineswaphold, lineSwapHold, lineSwapHold function [TAPI 2.2], tapi/lineSwapHold, tapi2.lineswaphold"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

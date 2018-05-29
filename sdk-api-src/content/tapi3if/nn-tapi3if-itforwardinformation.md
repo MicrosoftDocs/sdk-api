@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITForwardInformation
 title: ITForwardInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITForwardInformation interface provides methods for setup and implementation of call forwarding.
 old-location: tapi3\itforwardinformation.htm
 old-project: Tapi
 ms.assetid: 0e06cd0b-b95b-4853-b883-53146be084f0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITForwardInformation, ITForwardInformation interface [TAPI 2.2], ITForwardInformation interface [TAPI 2.2],described, _tapi3_itforwardinformation, tapi3.itforwardinformation, tapi3if/ITForwardInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

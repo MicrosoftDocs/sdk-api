@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.Promote
 title: ITransactionProxy::Promote
-author: windows-driver-content
+author: windows-sdk-content
 description: Promotes a non-DTC transaction to a DTC transaction.
 old-location: cos\itransactionproxy_promote.htm
 old-project: cossdk
 ms.assetid: 861103b4-b5fa-4543-b26b-ad0c89d4473d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ITransactionProxy interface [COM+],Promote method, ITransactionProxy.Promote, ITransactionProxy::Promote, Promote, Promote method [COM+], Promote method [COM+],ITransactionProxy interface, comsvcs/ITransactionProxy::Promote, cos.itransactionproxy_promote
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

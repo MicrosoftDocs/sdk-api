@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetNumber
 title: MI_DestinationOptions_GetNumber function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a previously added custom number option.
 old-location: wmi_v2\mi_destinationoptions_getnumber.htm
 old-project: wmi_v2
 ms.assetid: ac48c290-631f-427e-a544-ee0258029c42
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_DestinationOptions_GetNumber, MI_DestinationOptions_GetNumber function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetNumber, wmi_v2.mi_destinationoptions_getnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

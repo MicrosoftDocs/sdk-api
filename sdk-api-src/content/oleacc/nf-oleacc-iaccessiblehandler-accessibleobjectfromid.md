@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccessibleHandler.AccessibleObjectFromID
 title: IAccessibleHandler::AccessibleObjectFromID
-author: windows-driver-content
+author: windows-sdk-content
 description: The AccessibleObjectFromID method retrieves an IAccessible interface pointer for the interface associated with the given object ID. Oleacc.dll uses this method to obtain an IAccessible interface pointer for proxies that are supplied by other code.
 old-location: winauto\iaccessiblehandler_iaccessiblehandler__accessibleobjectfromid.htm
 old-project: WinAuto
 ms.assetid: c552b26a-a8db-42a1-85c9-9578230def74
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: AccessibleObjectFromID, AccessibleObjectFromID method [Windows Accessibility], AccessibleObjectFromID method [Windows Accessibility],IAccessibleHandler interface, IAccessibleHandler interface [Windows Accessibility],AccessibleObjectFromID method, IAccessibleHandler.AccessibleObjectFromID, IAccessibleHandler::AccessibleObjectFromID, _msaa_IAccessibleHandler_AccessibleObjectFromID, msaa.iaccessiblehandler_iaccessiblehandler__accessibleobjectfromid, oleacc/IAccessibleHandler::AccessibleObjectFromID, winauto.iaccessiblehandler_iaccessiblehandler__accessibleobjectfromid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 

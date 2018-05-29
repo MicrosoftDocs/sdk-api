@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnTypeChange
 title: IFileDialogEvents::OnTypeChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the dialog is opened to notify the application of the initial chosen filetype.
 old-location: shell\IFileDialogEvents_OnTypeChange.htm
 old-project: shell
 ms.assetid: d57e7b57-520d-40d6-8bac-ebf245ad7484
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnTypeChange method, IFileDialogEvents.OnTypeChange, IFileDialogEvents::OnTypeChange, OnTypeChange, OnTypeChange method [Windows Shell], OnTypeChange method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnTypeChange, shell_IFileDialogEvents_OnTypeChange, shobjidl_core/IFileDialogEvents::OnTypeChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

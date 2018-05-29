@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbPrivateDataSpecifierDescriptor.GetPrivateDataSpecifier
 title: IDvbPrivateDataSpecifierDescriptor::GetPrivateDataSpecifier
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the data from a Digital Video Broadcast (DVB) private data descriptor.
 old-location: mstv\idvbprivatedataspecifierdescriptor_getprivatedataspecifier.htm
 old-project: mstv
 ms.assetid: bb5b7d8a-6699-49b4-8935-8bfd07d85290
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPrivateDataSpecifier, GetPrivateDataSpecifier method [Microsoft TV Technologies], GetPrivateDataSpecifier method [Microsoft TV Technologies],IDvbPrivateDataSpecifierDescriptor interface, IDvbPrivateDataSpecifierDescriptor interface [Microsoft TV Technologies],GetPrivateDataSpecifier method, IDvbPrivateDataSpecifierDescriptor.GetPrivateDataSpecifier, IDvbPrivateDataSpecifierDescriptor::GetPrivateDataSpecifier, dvbsiparser/IDvbPrivateDataSpecifierDescriptor::GetPrivateDataSpecifier, mstv.idvbprivatedataspecifierdescriptor_getprivatedataspecifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMImageInfo.GetImage
 title: IWMImageInfo::GetImage
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetImage method retrieves an image stored in a file as an ID3v2 &#0034;APIC&#0034; metadata frame.
 old-location: wmformat\iwmimageinfo_getimage.htm
 old-project: wmformat
 ms.assetid: fe1dcd53-fcdd-4190-9a07-65d0b34112d0
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetImage, GetImage method [windows Media Format], GetImage method [windows Media Format],IWMImageInfo interface, IWMImageInfo interface [windows Media Format],GetImage method, IWMImageInfo.GetImage, IWMImageInfo::GetImage, IWMImageInfoGetImage, wmformat.iwmimageinfo_getimage, wmsdkidl/IWMImageInfo::GetImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

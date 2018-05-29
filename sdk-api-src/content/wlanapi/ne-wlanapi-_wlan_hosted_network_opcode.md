@@ -1,16 +1,16 @@
 ---
 UID: NE:wlanapi._WLAN_HOSTED_NETWORK_OPCODE
 title: "_WLAN_HOSTED_NETWORK_OPCODE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the possible values of the operation code for the properties to query or set on the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_opcode.htm
 old-project: NativeWiFi
 ms.assetid: e4acd7ad-c8f2-4ece-8d27-ced879baa9e7
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: "*PWLAN_HOSTED_NETWORK_OPCODE, PWLAN_HOSTED_NETWORK_OPCODE, PWLAN_HOSTED_NETWORK_OPCODE enumeration pointer [NativeWIFI], WLAN_HOSTED_NETWORK_OPCODE, WLAN_HOSTED_NETWORK_OPCODE enumeration [NativeWIFI], _WLAN_HOSTED_NETWORK_OPCODE, nwifi.wlan_hosted_network_opcode, wlan_hosted_network_opcode_connection_settings, wlan_hosted_network_opcode_enable, wlan_hosted_network_opcode_security_settings, wlan_hosted_network_opcode_station_profile, wlanapi/PWLAN_HOSTED_NETWORK_OPCODE, wlanapi/WLAN_HOSTED_NETWORK_OPCODE, wlanapi/wlan_hosted_network_opcode_connection_settings, wlanapi/wlan_hosted_network_opcode_enable, wlanapi/wlan_hosted_network_opcode_security_settings, wlanapi/wlan_hosted_network_opcode_station_profile"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

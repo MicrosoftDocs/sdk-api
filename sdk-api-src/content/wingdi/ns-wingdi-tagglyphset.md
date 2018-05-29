@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagGLYPHSET
 title: tagGLYPHSET
-author: windows-driver-content
+author: windows-sdk-content
 description: The GLYPHSET structure contains information about a range of Unicode code points.
 old-location: gdi\glyphset.htm
 old-project: gdi
 ms.assetid: b8ac8d3f-b062-491c-966f-02f3d4c11419
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPGLYPHSET, *PGLYPHSET, GLYPHSET, GLYPHSET structure [Windows GDI], PGLYPHSET, PGLYPHSET structure pointer [Windows GDI], _win32_GLYPHSET_str, gdi.glyphset, tagGLYPHSET, wingdi/GLYPHSET, wingdi/PGLYPHSET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

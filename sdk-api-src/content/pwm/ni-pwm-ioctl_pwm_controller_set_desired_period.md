@@ -1,16 +1,16 @@
 ---
 UID: NI:pwm.IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
 title: IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the output signal period of a Pulse Width Modulation (PWM) controller to a suggested value.
 old-location: base\ioctl_pwm_controller_set_desired_period.htm
 old-project: DevIO
 ms.assetid: 7E25B3C8-8C73-4808-B460-DFC408A2482F
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control, IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD control code, base.ioctl_pwm_controller_set_desired_period, pwm/IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: pwm.h
 req.include-header: Pwm.h

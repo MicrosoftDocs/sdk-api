@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeLib2.GetAllCustData
 title: ITypeLib2::GetAllCustData
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets all custom data items for the library.
 old-location: automat\itypelib2_getallcustdata.htm
 old-project: automat
 ms.assetid: f557bfe6-5254-43c6-a42b-bc2d13126705
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetAllCustData, GetAllCustData method [Automation], GetAllCustData method [Automation],ITypeLib2 interface, ITypeLib2 interface [Automation],GetAllCustData method, ITypeLib2.GetAllCustData, ITypeLib2::GetAllCustData, _oa96_ITypeLib2_GetAllCustData, automat.itypelib2_getallcustdata, oaidl/ITypeLib2::GetAllCustData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tdh.TdhEnumerateProviderFilters
 title: TdhEnumerateProviderFilters function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the filters that the specified provider defined in the manifest.
 old-location: etw\tdhenumerateproviderfilters.htm
 old-project: ETW
 ms.assetid: bc0f4286-1f6e-4d99-ad84-af8ab5dbba2b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TdhEnumerateProviderFilters, TdhEnumerateProviderFilters function [ETW], etw.tdhenumerateproviderfilters, tdh/TdhEnumerateProviderFilters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

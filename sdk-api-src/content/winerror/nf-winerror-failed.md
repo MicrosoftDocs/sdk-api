@@ -1,16 +1,16 @@
 ---
 UID: NF:winerror.FAILED
 title: FAILED macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a generic test for failure on any status value.
 old-location: com\failed_macro.htm
 old-project: com
 ms.assetid: d9c4ff73-c255-4a82-b901-23bd5b41ee6c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FAILED, FAILED macro [COM], _com_FAILED, com.failed, com.failed_macro, winerror/FAILED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winerror.h
 req.include-header: 

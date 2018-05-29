@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetDestinationPort
 title: MI_DestinationOptions_GetDestinationPort function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the default port for transport.
 old-location: wmi_v2\mi_destinationoptions_getdestinationport.htm
 old-project: wmi_v2
 ms.assetid: 49621cd8-a4ce-45b3-a20e-ecdef220d7e4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_DestinationOptions_GetDestinationPort, MI_DestinationOptions_GetDestinationPort function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetDestinationPort, wmi_v2.mi_destinationoptions_getdestinationport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

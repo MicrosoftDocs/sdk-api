@@ -1,16 +1,16 @@
 ---
 UID: NN:holographicspaceinterop.IHolographicSpaceInterop
 title: IHolographicSpaceInterop
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables interoperability with a Univeral Windows Platform (UWP) HolographicSpace object and provides access to HolographicSpace members for representing a holographic scene.
 old-location: mixedreality\iholographicspaceinterop.htm
 old-project: MixedReality
 ms.assetid: 119299C1-ECD9-46BA-B499-66890225E4E0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IHolographicSpaceInterop, IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,described, MixedReality.iholographicspaceinterop, holographicspaceinterop/IHolographicSpaceInterop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: holographicspaceinterop.h
 req.include-header: 

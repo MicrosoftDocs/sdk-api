@@ -1,16 +1,16 @@
 ---
 UID: NS:directxpackedvector.XMCOLOR
 title: XMCOLOR
-author: windows-driver-content
+author: windows-sdk-content
 description: A 32-bit Alpha Red Green Blue (ARGB) color vector, where each color channel is specified as an unsigned 8 bit integer.
 old-location: dxmath\xmcolor.htm
 old-project: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMCOLOR
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: XMCOLOR, XMCOLOR structure [DirectX Math Support APIs], directxpackedvector/XMCOLOR, dxmath.xmcolor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 

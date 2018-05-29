@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleObject.GetExtent
 title: IOleObject::GetExtent
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a running object's current display size.
 old-location: com\ioleobject_getextent.htm
 old-project: com
 ms.assetid: babaf55e-6c43-48d8-ad13-1333e29a3e1d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetExtent, GetExtent method [COM], GetExtent method [COM],IOleObject interface, IOleObject interface [COM],GetExtent method, IOleObject.GetExtent, IOleObject::GetExtent, _ole_ioleobject_getextent, com.ioleobject_getextent, oleidl/IOleObject::GetExtent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

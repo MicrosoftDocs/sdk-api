@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleLink.GetUpdateOptions
 title: IOleLink::GetUpdateOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a value indicating how often the linked object updates its cached data.
 old-location: com\iolelink_getupdateoptions.htm
 old-project: com
 ms.assetid: 2cb91b48-0026-4afa-80ab-16ac6fbce04d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetUpdateOptions, GetUpdateOptions method [COM], GetUpdateOptions method [COM],IOleLink interface, IOleLink interface [COM],GetUpdateOptions method, IOleLink.GetUpdateOptions, IOleLink::GetUpdateOptions, _ole_iolelink_getupdateoptions, com.iolelink_getupdateoptions, oleidl/IOleLink::GetUpdateOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

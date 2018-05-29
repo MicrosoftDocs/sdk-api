@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10_1.ID3D10ShaderResourceView1.GetDesc1
 title: ID3D10ShaderResourceView1::GetDesc1
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the shader resource view's description.
 old-location: direct3d10\id3d10shaderresourceview1_getdesc1.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderresourceview1_getdesc1.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 75eac96a-c0df-0efd-d403-6788e3cb6937, GetDesc1, GetDesc1 method [Direct3D 10], GetDesc1 method [Direct3D 10],ID3D10ShaderResourceView1 interface, ID3D10ShaderResourceView1 interface [Direct3D 10],GetDesc1 method, ID3D10ShaderResourceView1.GetDesc1, ID3D10ShaderResourceView1::GetDesc1, d3d10_1/ID3D10ShaderResourceView1::GetDesc1, direct3d10.id3d10shaderresourceview1_getdesc1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10_1.h
 req.include-header: D3D10Shader.h

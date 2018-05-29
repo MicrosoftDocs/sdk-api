@@ -1,16 +1,16 @@
 ---
 UID: NS:winsvc._SERVICE_TRIGGER_INFO
 title: "_SERVICE_TRIGGER_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains trigger event information for a service. This structure is used by the ChangeServiceConfig2 and QueryServiceConfig2 functions.
 old-location: base\service_trigger_info.htm
 old-project: Services
 ms.assetid: 8de46056-1ea5-46f2-a260-ad140fd77bc1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PSERVICE_TRIGGER_INFO, PSERVICE_TRIGGER_INFO, PSERVICE_TRIGGER_INFO structure pointer, SERVICE_TRIGGER_INFO, SERVICE_TRIGGER_INFO structure, _SERVICE_TRIGGER_INFO, base.service_trigger_info, winsvc/PSERVICE_TRIGGER_INFO, winsvc/SERVICE_TRIGGER_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:mcx._MODEMSETTINGS
 title: "_MODEMSETTINGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a modem's configuration.
 old-location: base\modemsettings_str.htm
 old-project: DevIO
 ms.assetid: 4648992b-eeeb-4a8d-8e08-7e80f0dc56ef
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: "*LPMODEMSETTINGS, *PMODEMSETTINGS, LPMODEMSETTINGS, LPMODEMSETTINGS structure pointer, MDMSPKR_CALLSETUP, MDMSPKR_DIAL, MDMSPKR_OFF, MDMSPKR_ON, MDMVOL_HIGH, MDMVOL_LOW, MDMVOL_MEDIUM, MODEMSETTINGS, MODEMSETTINGS structure, PMODEMSETTINGS, PMODEMSETTINGS structure pointer, _MODEMSETTINGS, _win32_modemsettings_str, base.modemsettings_str, mcx/LPMODEMSETTINGS, mcx/MODEMSETTINGS, mcx/PMODEMSETTINGS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mcx.h
 req.include-header: Windows.h

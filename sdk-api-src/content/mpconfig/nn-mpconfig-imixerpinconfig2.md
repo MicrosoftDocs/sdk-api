@@ -1,16 +1,16 @@
 ---
 UID: NN:mpconfig.IMixerPinConfig2
 title: IMixerPinConfig2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMixerPinConfig2 interface is exposed on the input pins of the Overlay Mixer and contains methods that manipulate video color controls, if the VGA chip supports it.This interface derives from the IMixerPinConfig interface.Applications use this interface to get and set video color controls when mixing multiple video streams.
 old-location: dshow\imixerpinconfig2.htm
 old-project: DirectShow
 ms.assetid: d166b139-3ef7-4f47-817a-8f5b644a3776
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMixerPinConfig2, IMixerPinConfig2 interface [DirectShow], IMixerPinConfig2 interface [DirectShow],described, IMixerPinConfig2Interface, dshow.imixerpinconfig2, mpconfig/IMixerPinConfig2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mpconfig.h
 req.include-header: 

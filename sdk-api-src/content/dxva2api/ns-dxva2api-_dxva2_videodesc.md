@@ -1,16 +1,16 @@
 ---
 UID: NS:dxva2api._DXVA2_VideoDesc
 title: "_DXVA2_VideoDesc"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a video stream for a DXVA decoder device or video processor device.
 old-location: mf\dxva2_videodesc.htm
 old-project: medfound
 ms.assetid: 0e500a08-a3b5-475c-8bbc-e4b30cce247d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0e500a08-a3b5-475c-8bbc-e4b30cce247d, DXVA2_VideoDesc, DXVA2_VideoDesc structure [Media Foundation], _DXVA2_VideoDesc, dxva2api/DXVA2_VideoDesc, mf.dxva2_videodesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 

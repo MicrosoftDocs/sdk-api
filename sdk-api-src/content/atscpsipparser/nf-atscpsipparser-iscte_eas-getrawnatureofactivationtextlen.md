@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetRawNatureOfActivationTextLen
 title: ISCTE_EAS::GetRawNatureOfActivationTextLen
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the length of the nature_of_activation_text field.
 old-location: mstv\iscte_eas_getrawnatureofactivationtextlen.htm
 old-project: mstv
 ms.assetid: a7f93884-d8a9-449b-afc2-b2ccbd0d2492
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRawNatureOfActivationTextLen, GetRawNatureOfActivationTextLen method [Microsoft TV Technologies], GetRawNatureOfActivationTextLen method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetRawNatureOfActivationTextLen method, ISCTE_EAS.GetRawNatureOfActivationTextLen, ISCTE_EAS::GetRawNatureOfActivationTextLen, atscpsipparser/ISCTE_EAS::GetRawNatureOfActivationTextLen, mstv.iscte_eas_getrawnatureofactivationtextlen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

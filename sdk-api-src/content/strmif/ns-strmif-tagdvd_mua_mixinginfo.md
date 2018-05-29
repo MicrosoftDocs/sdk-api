@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.tagDVD_MUA_MixingInfo
 title: tagDVD_MUA_MixingInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The DVD_MUA_MixingInfo structure describes the surround sound mixing information for the channels in one audio stream in a specified title.
 old-location: dshow\dvd_mua_mixinginfo.htm
 old-project: DirectShow
 ms.assetid: df830598-f484-483d-a0dc-e6bd9debbe53
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_MUA_MixingInfo, DVD_MUA_MixingInfo structure [DirectShow], DVD_MUA_MixingInfoStructure, dshow.dvd_mua_mixinginfo, strmif/DVD_MUA_MixingInfo, tagDVD_MUA_MixingInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

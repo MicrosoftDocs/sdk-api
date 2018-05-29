@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.DeleteDC
 title: DeleteDC function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeleteDC function deletes the specified device context (DC).
 old-location: gdi\deletedc.htm
 old-project: gdi
 ms.assetid: 1aa549a0-c95f-4385-a30e-8906f67e39cd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DeleteDC, DeleteDC function [Windows GDI], _win32_DeleteDC, gdi.deletedc, wingdi/DeleteDC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:mfobjects._MF_ATTRIBUTES_MATCH_TYPE
 title: "_MF_ATTRIBUTES_MATCH_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how to compare the attributes on two objects.
 old-location: mf\mf_attributes_match_type.htm
 old-project: medfound
 ms.assetid: cfa534c4-88c3-4170-b977-c24ea5593f6c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_ATTRIBUTES_MATCH_ALL_ITEMS, MF_ATTRIBUTES_MATCH_INTERSECTION, MF_ATTRIBUTES_MATCH_OUR_ITEMS, MF_ATTRIBUTES_MATCH_SMALLER, MF_ATTRIBUTES_MATCH_THEIR_ITEMS, MF_ATTRIBUTES_MATCH_TYPE, MF_ATTRIBUTES_MATCH_TYPE enumeration [Media Foundation], _MF_ATTRIBUTES_MATCH_TYPE, cfa534c4-88c3-4170-b977-c24ea5593f6c, mf.mf_attributes_match_type, mfobjects/MF_ATTRIBUTES_MATCH_ALL_ITEMS, mfobjects/MF_ATTRIBUTES_MATCH_INTERSECTION, mfobjects/MF_ATTRIBUTES_MATCH_OUR_ITEMS, mfobjects/MF_ATTRIBUTES_MATCH_SMALLER, mfobjects/MF_ATTRIBUTES_MATCH_THEIR_ITEMS, mfobjects/MF_ATTRIBUTES_MATCH_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfobjects.h
 req.include-header: Mfidl.h

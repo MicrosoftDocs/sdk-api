@@ -1,16 +1,16 @@
 ---
 UID: NF:npapi.NPGetConnection
 title: NPGetConnection function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a connection.
 old-location: security\npgetconnection.htm
 old-project: SecAuthN
 ms.assetid: 3f52bbff-998d-4e11-877f-478085207e6b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: NPGetConnection, NPGetConnection function [Security], _mnp_npgetconnection, npapi/NPGetConnection, security.npgetconnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

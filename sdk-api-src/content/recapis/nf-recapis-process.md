@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.Process
 title: Process function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs ink recognition synchronously.
 old-location: tablet\process.htm
 old-project: tablet
 ms.assetid: 564a2734-1a90-4566-a39d-7e16eff870ff
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 564a2734-1a90-4566-a39d-7e16eff870ff, Process, Process function [Tablet PC], recapis/Process, tablet.process
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

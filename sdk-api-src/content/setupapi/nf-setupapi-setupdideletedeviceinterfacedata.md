@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiDeleteDeviceInterfaceData
 title: SetupDiDeleteDeviceInterfaceData function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiDeleteDeviceInterfaceData function deletes a device interface from a device information set.
 old-location: devinst\setupdideletedeviceinterfacedata.htm
 old-project: devinst
 ms.assetid: 20c9fe5b-ed88-4e2c-bca5-eba62f919fe6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiDeleteDeviceInterfaceData, SetupDiDeleteDeviceInterfaceData function [Device and Driver Installation], devinst.setupdideletedeviceinterfacedata, di-rtns_6694af3a-5716-4ee6-b10e-2603dc341781.xml, setupapi/SetupDiDeleteDeviceInterfaceData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

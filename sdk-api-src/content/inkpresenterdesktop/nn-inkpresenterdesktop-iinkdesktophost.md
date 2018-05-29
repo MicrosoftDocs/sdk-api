@@ -1,16 +1,16 @@
 ---
 UID: NN:inkpresenterdesktop.IInkDesktopHost
 title: IInkDesktopHost
-author: windows-driver-content
+author: windows-sdk-content
 description: An IInkDesktopHost object enables ink input, processing, and rendering through the creation of an app thread to host an IInkPresenterDesktop object and insert it into the app's DirectComposition visual tree.
 old-location: input_ink\iinkdesktophost.htm
 old-project: input_ink
 ms.assetid: 7a577536-405b-400d-89bc-c3b3894b448d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IInkDesktopHost, IInkDesktopHost interface, IInkDesktopHost interface,described, InkPresenterDesktop.iinkdesktophost, inkpresenterdesktop/IInkDesktopHost, input_ink.iinkdesktophost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: inkpresenterdesktop.h
 req.include-header: 

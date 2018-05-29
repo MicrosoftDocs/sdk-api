@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFAudioStreamVolume.GetChannelCount
 title: IMFAudioStreamVolume::GetChannelCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of channels in the audio stream.
 old-location: mf\imfaudiostreamvolume_getchannelcount.htm
 old-project: medfound
 ms.assetid: d19a56db-cd5f-4a19-98f0-42327c259b01
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetChannelCount, GetChannelCount method [Media Foundation], GetChannelCount method [Media Foundation],IMFAudioStreamVolume interface, IMFAudioStreamVolume interface [Media Foundation],GetChannelCount method, IMFAudioStreamVolume.GetChannelCount, IMFAudioStreamVolume::GetChannelCount, d19a56db-cd5f-4a19-98f0-42327c259b01, mf.imfaudiostreamvolume_getchannelcount, mfidl/IMFAudioStreamVolume::GetChannelCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.GetCertificate
 title: IDirect3DCryptoSession9::GetCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the driver's certificate chain.
 old-location: mf\idirect3dcryptosession9_getcertificate.htm
 old-project: medfound
 ms.assetid: 802285a6-1338-4131-bb5e-9d4daad62bdc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],GetCertificate method, IDirect3DCryptoSession9.GetCertificate, IDirect3DCryptoSession9::GetCertificate, d3d9/IDirect3DCryptoSession9::GetCertificate, mf.idirect3dcryptosession9_getcertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 

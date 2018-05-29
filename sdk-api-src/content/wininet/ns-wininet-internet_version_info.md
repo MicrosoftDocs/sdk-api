@@ -1,16 +1,16 @@
 ---
 UID: NS:wininet.INTERNET_VERSION_INFO
 title: INTERNET_VERSION_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the HTTP version number of the server. This structure is used when passing the INTERNET_OPTION_VERSION flag to the InternetQueryOption function.
 old-location: wininet\internet_version_info.htm
 old-project: WinInet
 ms.assetid: 6d979829-2451-47fa-a95f-81f447c93567
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPINTERNET_VERSION_INFO, INTERNET_VERSION_INFO, INTERNET_VERSION_INFO structure [WinINet], LPINTERNET_VERSION_INFO, LPINTERNET_VERSION_INFO structure pointer [WinINet], _inet_internet_verion_info_structure, wininet.internet_version_info, wininet/ LPINTERNET_VERSION_INFO, wininet/INTERNET_VERSION_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 

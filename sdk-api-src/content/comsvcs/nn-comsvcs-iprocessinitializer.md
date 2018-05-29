@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IProcessInitializer
 title: IProcessInitializer
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods that can be called whenever Dllhost.exe starts up or shuts down.
 old-location: cos\iprocessinitializer.htm
 old-project: cossdk
 ms.assetid: 7c7edeb7-5bc1-4ede-8fe4-78fc7c6bdd30
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IProcessInitializer, IProcessInitializer interface [COM+], IProcessInitializer interface [COM+],described, _cos_IProcessInitializer, comsvcs/IProcessInitializer, cos.iprocessinitializer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

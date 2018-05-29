@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11Debug
 title: ID3D11Debug
-author: windows-driver-content
+author: windows-sdk-content
 description: A debug interface controls debug settings, validates pipeline state and can only be used if the debug layer is turned on.
 old-location: direct3d11\id3d11debug.htm
 old-project: direct3d11
 ms.assetid: 2c640295-7a91-4a7a-92d3-909d288eb0d6
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11Debug, ID3D11Debug interface [Direct3D 11], ID3D11Debug interface [Direct3D 11],described, b037763f-251a-579c-a6cb-8e5097410d05, d3d11sdklayers/ID3D11Debug, direct3d11.id3d11debug
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11sdklayers.h
 req.include-header: 

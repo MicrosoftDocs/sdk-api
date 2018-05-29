@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.LIBRARYSAVEFLAGS
 title: LIBRARYSAVEFLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the options for handling a name collision when saving a library.
 old-location: shell\LIBRARYSAVEFLAGS.htm
 old-project: shell
 ms.assetid: cae52226-0030-457b-aebf-00aaf860243d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LIBRARYSAVEFLAGS, LIBRARYSAVEFLAGS enumeration [Windows Shell], LSF_FAILIFTHERE, LSF_MAKEUNIQUENAME, LSF_OVERRIDEEXISTING, _shell_LIBRARYSAVEFLAGS, shell.LIBRARYSAVEFLAGS, shobjidl_core/LIBRARYSAVEFLAGS, shobjidl_core/LSF_FAILIFTHERE, shobjidl_core/LSF_MAKEUNIQUENAME, shobjidl_core/LSF_OVERRIDEEXISTING
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

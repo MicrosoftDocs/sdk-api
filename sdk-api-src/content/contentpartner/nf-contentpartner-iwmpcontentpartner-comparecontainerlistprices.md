@@ -1,16 +1,16 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.CompareContainerListPrices
 title: IWMPContentPartner::CompareContainerListPrices
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The CompareContainerListPrices method compares the price of two content container lists.
 old-location: wmp\iwmpcontentpartner_comparecontainerlistprices.htm
 old-project: WMP
 ms.assetid: 4febe7ce-1aa1-4738-a4cc-353f81ca649e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: CompareContainerListPrices, CompareContainerListPrices method [Windows Media Player], CompareContainerListPrices method [Windows Media Player],IWMPContentPartner interface, IWMPContentPartner interface [Windows Media Player],CompareContainerListPrices method, IWMPContentPartner.CompareContainerListPrices, IWMPContentPartner::CompareContainerListPrices, IWMPContentPartnerCompareContainerListPrices, contentpartner/IWMPContentPartner::CompareContainerListPrices, wmp.iwmpcontentpartner_comparecontainerlistprices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

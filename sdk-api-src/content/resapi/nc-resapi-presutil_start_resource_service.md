@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_START_RESOURCE_SERVICE
 title: PRESUTIL_START_RESOURCE_SERVICE
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts a service. The PRESUTIL_START_RESOURCE_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilstartresourceservice.htm
 old-project: MsCS
 ms.assetid: 0c8a80d7-0291-4ed5-af44-67c0c251dc84
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_START_RESOURCE_SERVICE, PRESUTIL_START_RESOURCE_SERVICE callback, PRESUTIL_START_RESOURCE_SERVICE callback function [Failover Cluster], _wolf_resutilstartresourceservice, mscs.resutilstartresourceservice, resapi/PRESUTIL_START_RESOURCE_SERVICE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

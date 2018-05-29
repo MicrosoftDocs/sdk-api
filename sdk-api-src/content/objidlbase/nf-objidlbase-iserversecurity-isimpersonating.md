@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IServerSecurity.IsImpersonating
 title: IServerSecurity::IsImpersonating
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the server is currently impersonating the client.
 old-location: com\iserversecurity_isimpersonating.htm
 old-project: com
 ms.assetid: f847348a-1785-4b4a-b43e-a5eea21847c4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IServerSecurity interface [COM],IsImpersonating method, IServerSecurity.IsImpersonating, IServerSecurity::IsImpersonating, IsImpersonating, IsImpersonating method [COM], IsImpersonating method [COM],IServerSecurity interface, _com_iserversecurity_isimpersonating, com.iserversecurity_isimpersonating, objidlbase/IServerSecurity::IsImpersonating
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

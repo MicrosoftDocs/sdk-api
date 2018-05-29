@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageWriter.Close
 title: IXpsOMPackageWriter::Close
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes any open parts of the package, then closes the package.
 old-location: xps\ixpsompackagewriter_close.htm
 old-project: printdocs
 ms.assetid: 916fbdaa-bef7-4a6f-9259-47347b47dc27
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Close, Close method [XPS Documents and Packaging], Close method [XPS Documents and Packaging],IXpsOMPackageWriter interface, Close method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter interface [XPS Documents and Packaging],Close method, IXpsOMPackageWriter.Close, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],Close method, IXpsOMPackageWriter3D::Close, IXpsOMPackageWriter::Close, xps.ixpsompackagewriter_close, xpsobjectmodel/IXpsOMPackageWriter3D::Close, xpsobjectmodel/IXpsOMPackageWriter::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

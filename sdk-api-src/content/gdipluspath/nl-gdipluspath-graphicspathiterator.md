@@ -1,16 +1,16 @@
 ---
 UID: NL:gdipluspath.GraphicsPathIterator
 title: GraphicsPathIterator
-author: windows-driver-content
+author: windows-sdk-content
 description: This GraphicsPathIterator class provides methods for isolating selected subsets of the path stored in a GraphicsPath object.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiterator.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GraphicsPathIterator, GraphicsPathIterator class [GDI+], GraphicsPathIterator class [GDI+],described, _gdiplus_CLASS_GraphicsPathIterator_Class, gdiplus._gdiplus_CLASS_GraphicsPathIterator_Class, gdipluspath/GraphicsPathIterator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: gdipluspath.h
 req.include-header: 

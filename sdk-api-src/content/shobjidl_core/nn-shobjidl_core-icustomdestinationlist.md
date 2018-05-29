@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.ICustomDestinationList
 title: ICustomDestinationList
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that allow an application to provide a custom Jump List, including destinations and tasks, for display in the taskbar.
 old-location: shell\ICustomDestinationList.htm
 old-project: shell
 ms.assetid: 65a3dab8-3136-416d-bd8a-ca813bfe0533
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICustomDestinationList, ICustomDestinationList interface [Windows Shell], ICustomDestinationList interface [Windows Shell],described, _shell_ICustomDestinationList, shell.ICustomDestinationList, shobjidl_core/ICustomDestinationList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

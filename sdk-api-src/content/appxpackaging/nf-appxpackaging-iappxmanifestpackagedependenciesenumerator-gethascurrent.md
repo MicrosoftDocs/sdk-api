@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageDependenciesEnumerator.GetHasCurrent
 title: IAppxManifestPackageDependenciesEnumerator::GetHasCurrent
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether there is a package dependency at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestpackagedependenciesenumerator_gethascurrent.htm
 old-project: appxpkg
 ms.assetid: 2D06DC83-B795-47F8-A05D-4DF4E86FEDFA
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxManifestPackageDependenciesEnumerator interface, IAppxManifestPackageDependenciesEnumerator interface [App packaging and management],GetHasCurrent method, IAppxManifestPackageDependenciesEnumerator.GetHasCurrent, IAppxManifestPackageDependenciesEnumerator::GetHasCurrent, appxpackaging/IAppxManifestPackageDependenciesEnumerator::GetHasCurrent, appxpkg.iappxmanifestpackagedependenciesenumerator_gethascurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

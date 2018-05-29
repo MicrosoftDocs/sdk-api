@@ -1,16 +1,16 @@
 ---
 UID: NF:d3dcompiler.D3DGetOutputSignatureBlob
 title: D3DGetOutputSignatureBlob function
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  D3DGetOutputSignatureBlob may be altered or unavailable for releases after Windows 8.1. Instead use D3DGetBlobPart with the D3D_BLOB_OUTPUT_SIGNATURE_BLOB value.  Gets the output signature from a compilation result.
 old-location: direct3dhlsl\d3dgetoutputsignatureblob.htm
 old-project: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dgetoutputsignatureblob.htm
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: 7e5f0af9-0b60-521e-b5f2-72b0c89909a0, D3DGetOutputSignatureBlob, D3DGetOutputSignatureBlob function [HLSL], d3dcompiler/D3DGetOutputSignatureBlob, direct3dhlsl.d3dgetoutputsignatureblob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 

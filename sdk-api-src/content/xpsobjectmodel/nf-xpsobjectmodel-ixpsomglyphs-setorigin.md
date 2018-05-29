@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetOrigin
 title: IXpsOMGlyphs::SetOrigin
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the starting position of the text.
 old-location: xps\ixpsomglyphs_setorigin.htm
 old-project: printdocs
 ms.assetid: f5491bf0-bc40-491e-bf5e-f3fb580e10b4
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetOrigin method, IXpsOMGlyphs.SetOrigin, IXpsOMGlyphs::SetOrigin, SetOrigin, SetOrigin method [XPS Documents and Packaging], SetOrigin method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setorigin, xpsobjectmodel/IXpsOMGlyphs::SetOrigin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

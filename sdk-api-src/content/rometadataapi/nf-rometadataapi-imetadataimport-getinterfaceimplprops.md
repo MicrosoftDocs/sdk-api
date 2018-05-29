@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetInterfaceImplProps
 title: IMetaDataImport::GetInterfaceImplProps
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the metadata tokens for the Type that implements the specified method, and for the interface that declares that method.
 old-location: winrt\imetadataimport_getinterfaceimplprops.htm
 old-project: WinRT
 ms.assetid: ff91bb07-8e3a-49f1-9cd6-1c3e18a3c242
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetInterfaceImplProps, GetInterfaceImplProps method [Windows Runtime], GetInterfaceImplProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetInterfaceImplProps method, IMetaDataImport.GetInterfaceImplProps, IMetaDataImport::GetInterfaceImplProps, rometadataapi/IMetaDataImport::GetInterfaceImplProps, winrt.imetadataimport_getinterfaceimplprops
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

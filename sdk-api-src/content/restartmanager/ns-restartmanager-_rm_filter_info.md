@@ -1,16 +1,16 @@
 ---
 UID: NS:restartmanager._RM_FILTER_INFO
 title: "_RM_FILTER_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about modifications to restart or shutdown actions.
 old-location: rstmgr\rm_filter_info.htm
 old-project: RstMgr
 ms.assetid: b0fd12e4-20e3-48d1-a2db-c1e0334ed427
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PRM_FILTER_INFO, PRM_FILTER_INFO, PRM_FILTER_INFO structure pointer [Restart Mgr], RM_FILTER_INFO, RM_FILTER_INFO structure [Restart Mgr], _RM_FILTER_INFO, restartmanager/PRM_FILTER_INFO, restartmanager/RM_FILTER_INFO, rstmgr.rm_filter_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: restartmanager.h
 req.include-header: 

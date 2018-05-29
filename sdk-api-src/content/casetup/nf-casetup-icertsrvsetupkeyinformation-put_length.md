@@ -1,16 +1,16 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.put_Length
 title: ICertSrvSetupKeyInformation::put_Length
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the strength of the key to one of the values supported by the cryptographic service provider (CSP).
 old-location: security\icertsrvsetupkeyinformation_length.htm
 old-project: SecCrypto
 ms.assetid: 4d641bc4-7b27-48b0-bff1-bb49359ec5f1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertSrvSetupKeyInformation interface [Security],Length property, ICertSrvSetupKeyInformation.Length, ICertSrvSetupKeyInformation.put_Length, ICertSrvSetupKeyInformation::Length, ICertSrvSetupKeyInformation::get_Length, ICertSrvSetupKeyInformation::put_Length, Length property [Security], Length property [Security],ICertSrvSetupKeyInformation interface, casetup/ICertSrvSetupKeyInformation::Length, casetup/ICertSrvSetupKeyInformation::get_Length, casetup/ICertSrvSetupKeyInformation::put_Length, put_Length, security.icertsrvsetupkeyinformation_length
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

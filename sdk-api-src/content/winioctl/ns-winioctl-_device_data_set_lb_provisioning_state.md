@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._DEVICE_DATA_SET_LB_PROVISIONING_STATE
 title: "_DEVICE_DATA_SET_LB_PROVISIONING_STATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Output structure for the DeviceDsmAction_Allocation action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_data_set_lb_provisioning_state.htm
 old-project: DevIO
 ms.assetid: 757ffd97-2a00-4508-817c-0bfb2f2e3a84
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: "*PDEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DSM_ALLOCATION_OUTPUT, DEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure, DEVICE_DSM_ALLOCATION_OUTPUT, PDEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer, _DEVICE_DATA_SET_LB_PROVISIONING_STATE, base.device_data_set_lb_provisioning_state, winioctl/DEVICE_DATA_SET_LB_PROVISIONING_STATE, winioctl/PDEVICE_DATA_SET_LB_PROVISIONING_STATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.TakePhoto
 title: IMFCaptureEngine::TakePhoto
-author: windows-driver-content
+author: windows-sdk-content
 description: Captures a still image from the video stream.
 old-location: mf\imfcaptureengine_takephoto.htm
 old-project: medfound
 ms.assetid: 6E633E90-9C8B-44B6-9149-704872143147
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],TakePhoto method, IMFCaptureEngine.TakePhoto, IMFCaptureEngine::TakePhoto, TakePhoto, TakePhoto method [Media Foundation], TakePhoto method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_takephoto, mfcaptureengine/IMFCaptureEngine::TakePhoto
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:audioenginebaseapo.IAudioSystemEffectsCustomFormats.GetFormatCount
 title: IAudioSystemEffectsCustomFormats::GetFormatCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetFormatCount method retrieves the number of custom formats supported by the system effects audio processing object (sAPO).
 old-location: audio\iaudiosystemeffectscustomformats_getformatcount.htm
 old-project: audio
 ms.assetid: 70d215e5-e30a-4fbd-b9c3-c988c6bbd941
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: GetFormatCount, GetFormatCount method [Audio Devices], GetFormatCount method [Audio Devices],IAudioSystemEffectsCustomFormats interface, IAudioSystemEffectsCustomFormats interface [Audio Devices],GetFormatCount method, IAudioSystemEffectsCustomFormats.GetFormatCount, IAudioSystemEffectsCustomFormats::GetFormatCount, audio.iaudiosystemeffectscustomformats_getformatcount, audio_syseffects_r_1f186185-3eb9-4683-a2e1-bbcc9598943d.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: Audioenginebaseapo.h

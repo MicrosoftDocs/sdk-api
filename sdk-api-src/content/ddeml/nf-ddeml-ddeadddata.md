@@ -1,16 +1,16 @@
 ---
 UID: NF:ddeml.DdeAddData
 title: DdeAddData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds data to the specified Dynamic Data Exchange (DDE) object.
 old-location: dataxchg\ddeadddata.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeadddata.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DdeAddData, DdeAddData function [Data Exchange], _win32_DdeAddData, _win32_ddeadddata_cpp, dataxchg.ddeadddata, ddeml/DdeAddData, winui._win32_ddeadddata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h

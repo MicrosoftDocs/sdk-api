@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.SetIpForwardEntry
 title: SetIpForwardEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetIpForwardEntry function modifies an existing route in the local computer's IPv4 routing table.
 old-location: iphlp\setipforwardentry.htm
 old-project: IpHlp
 ms.assetid: a98de796-8fa2-4835-8d15-07d86d89c348
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: SetIpForwardEntry, SetIpForwardEntry function [IP Helper], _iphlp_setipforwardentry, iphlp.setipforwardentry, iphlpapi/SetIpForwardEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

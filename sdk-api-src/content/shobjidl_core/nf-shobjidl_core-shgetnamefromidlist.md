@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.SHGetNameFromIDList
 title: SHGetNameFromIDList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the display name of an item identified by its IDList.
 old-location: shell\SHGetNameFromIDList.htm
 old-project: shell
 ms.assetid: d2fc1eeb-bd76-4bd7-9a4f-4142e53f0afb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGetNameFromIDList, SHGetNameFromIDList function [Windows Shell], _shell_SHGetNameFromIDList, shell.SHGetNameFromIDList, shobjidl_core/SHGetNameFromIDList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

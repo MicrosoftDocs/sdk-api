@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IMediaSample2Config
 title: IMediaSample2Config
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMediaSample2Config interface returns a pointer to a Direct3D surface representing a VRAM capture buffer.
 old-location: dshow\imediasample2config.htm
 old-project: DirectShow
 ms.assetid: 99a3d957-b504-4242-87de-54b5468f00b5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaSample2Config, IMediaSample2Config interface [DirectShow], IMediaSample2Config interface [DirectShow],described, IMediaSample2ConfigInterface, dshow.imediasample2config, strmif/IMediaSample2Config
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

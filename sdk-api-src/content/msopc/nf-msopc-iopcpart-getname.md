@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcPart.GetName
 title: IOpcPart::GetName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a part URI object that represents the part name.
 old-location: opc\iopcpart_getname.htm
 old-project: OPC
 ms.assetid: 83fed005-c061-4f1d-8b2b-73397e0b7a92
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetName, GetName method [Open Packaging Conventions], GetName method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetName method, IOpcPart.GetName, IOpcPart::GetName, msopc/IOpcPart::GetName, opc.iopcpart_getname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

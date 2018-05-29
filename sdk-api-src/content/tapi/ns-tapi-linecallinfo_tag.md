@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.linecallinfo_tag
 title: linecallinfo_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The LINECALLINFO structure contains information about a call.
 old-location: tapi2\linecallinfo_str.htm
 old-project: Tapi
 ms.assetid: b077546b-cc95-44ce-99ee-f0007fd916b2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPLINECALLINFO, LINECALLINFO, LINECALLINFO structure [TAPI 2.2], LPLINECALLINFO, LPLINECALLINFO structure pointer [TAPI 2.2], _tapi2_linecallinfo_str, linecallinfo_tag, tapi/LINECALLINFO, tapi/LPLINECALLINFO, tapi2.linecallinfo_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

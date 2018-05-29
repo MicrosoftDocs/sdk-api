@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbCADescriptor.GetCASystemId
 title: IIsdbCADescriptor::GetCASystemId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the conditional access (CA) system identifier from a conditional access descriptor.
 old-location: mstv\iisdbcadescriptor_getcasystemid.htm
 old-project: mstv
 ms.assetid: 834825d4-f92d-4cca-bf15-a3f94647c4f1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCASystemId, GetCASystemId method [Microsoft TV Technologies], GetCASystemId method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetCASystemId method, IIsdbCADescriptor.GetCASystemId, IIsdbCADescriptor::GetCASystemId, dvbsiparser/IIsdbCADescriptor::GetCASystemId, mstv.iisdbcadescriptor_getcasystemid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

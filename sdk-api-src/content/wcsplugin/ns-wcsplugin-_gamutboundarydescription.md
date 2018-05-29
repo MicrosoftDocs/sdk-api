@@ -1,16 +1,16 @@
 ---
 UID: NS:wcsplugin._GamutBoundaryDescription
 title: "_GamutBoundaryDescription"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a gamut boundary.
 old-location: wcs\gamutboundarydescription.htm
 old-project: WCS
 ms.assetid: b7551967-ff2f-48ed-9346-a75e19fe2c31
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GamutBoundaryDescription, GamutBoundaryDescription structure [Windows Color System], _GamutBoundaryDescription, _color_GamutBoundaryDescription_str, wcs.gamutboundarydescription, wcsplugin/GamutBoundaryDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 

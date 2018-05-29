@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetDesc1
 title: IDXGISwapChain1::GetDesc1
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a description of the swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_getdesc1.htm
 old-project: direct3ddxgi
 ms.assetid: 86BB75A7-C289-4EBA-A9EE-ED4F5C590BA2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetDesc1, GetDesc1 method [DXGI], GetDesc1 method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetDesc1 method, IDXGISwapChain1.GetDesc1, IDXGISwapChain1::GetDesc1, direct3ddxgi.idxgiswapchain1_getdesc1, dxgi1_2/IDXGISwapChain1::GetDesc1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

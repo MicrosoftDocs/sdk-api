@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPSettings.put_autoStart
 title: IWMPSettings::put_autoStart
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_autoStart method specifies a value indicating whether the current media item begins playing automatically.
 old-location: wmp\iwmpsettings_put_autostart.htm
 old-project: WMP
 ms.assetid: 34f80fa4-6e9c-4435-b360-55c2856f89fb
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_autoStart method, IWMPSettings.put_autoStart, IWMPSettings::put_autoStart, IWMPSettingsput_autoStart, put_autoStart, put_autoStart method [Windows Media Player], put_autoStart method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_autostart, wmp/IWMPSettings::put_autoStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

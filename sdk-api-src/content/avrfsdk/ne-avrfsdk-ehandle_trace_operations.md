@@ -1,16 +1,16 @@
 ---
 UID: NE:avrfsdk.eHANDLE_TRACE_OPERATIONS
 title: eHANDLE_TRACE_OPERATIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the type of handle operation that has occurred.
 old-location: winprog\ehandle_trace_operations.htm
 old-project: DevNotes
 ms.assetid: bcaaa52a-8eb1-4ad7-9ee5-97cca91a2238
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: OperationDbBADREF, OperationDbCLOSE, OperationDbOPEN, OperationDbUnused, avrfsdk/OperationDbBADREF, avrfsdk/OperationDbCLOSE, avrfsdk/OperationDbOPEN, avrfsdk/OperationDbUnused, avrfsdk/eHANDLE_TRACE_OPERATIONS, base.ehandle_trace_operations, eHANDLE_TRACE_OPERATIONS, eHANDLE_TRACE_OPERATIONS enumeration [Windows API], winprog.ehandle_trace_operations
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: avrfsdk.h
 req.include-header: 

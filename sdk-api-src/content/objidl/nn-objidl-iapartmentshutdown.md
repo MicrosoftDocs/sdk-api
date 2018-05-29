@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IApartmentShutdown
 title: IApartmentShutdown
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables registration of an apartment shutdown notification handler.
 old-location: winrt\iapartmentshutdown.htm
 old-project: WinRT
 ms.assetid: 28EDAC77-5175-4AF7-A06C-B735336AAD9B
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IApartmentShutdown, IApartmentShutdown interface [Windows Runtime], IApartmentShutdown interface [Windows Runtime],described, objidl/IApartmentShutdown, winrt.iapartmentshutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

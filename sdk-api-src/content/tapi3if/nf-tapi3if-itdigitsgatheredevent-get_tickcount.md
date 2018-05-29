@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITDigitsGatheredEvent.get_TickCount
 title: ITDigitsGatheredEvent::get_TickCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_TickCount method gets the &#0034;tick count&#0034; (the number of milliseconds since Windows started) at which digit-gathering completed.
 old-location: tapi3\itdigitsgatheredevent_get_tickcount.htm
 old-project: Tapi
 ms.assetid: 6e5fbed0-f132-418f-aa71-36d0e673affa
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_TickCount method, ITDigitsGatheredEvent.get_TickCount, ITDigitsGatheredEvent::get_TickCount, _tapi3_itdigitsgatheredevent_get_tickcount, get_TickCount, get_TickCount method [TAPI 2.2], get_TickCount method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_tickcount, tapi3if/ITDigitsGatheredEvent::get_TickCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._ULARGE_INTEGER
 title: "_ULARGE_INTEGER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a 64-bit unsigned integer value.
 old-location: winprog\ularge_integer_str.htm
 old-project: WinProg
 ms.assetid: 83a10c12-2cd1-449a-af3f-b2138fc50ee0
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: "*PULARGE_INTEGER, PULARGE_INTEGER, PULARGE_INTEGER union pointer [Windows API], ULARGE_INTEGER, ULARGE_INTEGER union [Windows API], _ULARGE_INTEGER, _win32_ularge_integer_str, winnt/PULARGE_INTEGER, winnt/ULARGE_INTEGER, winprog.ularge_integer_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

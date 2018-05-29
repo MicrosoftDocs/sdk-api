@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcRelationship
 title: IOpcRelationship
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a relationship, which is a link between a source, which is a part or the package, and a target.
 old-location: opc\iopcrelationship.htm
 old-project: OPC
 ms.assetid: eb3619bb-470f-41bd-a231-d63df70592c2
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcRelationship, IOpcRelationship interface [Open Packaging Conventions], IOpcRelationship interface [Open Packaging Conventions],described, msopc/IOpcRelationship, opc.iopcrelationship
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

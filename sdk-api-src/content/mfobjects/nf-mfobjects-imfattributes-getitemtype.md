@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetItemType
 title: IMFAttributes::GetItemType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the data type of the value associated with a key.
 old-location: mf\imfattributes_getitemtype.htm
 old-project: medfound
 ms.assetid: 2c3a3c30-da10-4365-9f76-598a4ca7675c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 2c3a3c30-da10-4365-9f76-598a4ca7675c, GetItemType, GetItemType method [Media Foundation], GetItemType method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetItemType method, IMFAttributes.GetItemType, IMFAttributes::GetItemType, mf.imfattributes_getitemtype, mfobjects/IMFAttributes::GetItemType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:userenv.DestroyEnvironmentBlock
 title: DestroyEnvironmentBlock function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees environment variables created by the CreateEnvironmentBlock function.
 old-location: shell\DestroyEnvironmentBlock.htm
 old-project: shell
 ms.assetid: 8d03e102-3f8a-4aa7-b175-0a6781eedea7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DestroyEnvironmentBlock, DestroyEnvironmentBlock function [Windows Shell], _shell_DestroyEnvironmentBlock, shell.DestroyEnvironmentBlock, userenv/DestroyEnvironmentBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

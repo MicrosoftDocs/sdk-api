@@ -1,16 +1,16 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELCLOSE
 title: VIRTUALCHANNELCLOSE
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the client end of a virtual channel.
 old-location: termserv\virtualchannelclose.htm
 old-project: TermServ
 ms.assetid: 96fd8910-6cc7-460c-9f63-3363fbbae0b1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VirtualChannelClose, VirtualChannelClose callback, VirtualChannelClose callback function [Remote Desktop Services], _win32_virtualchannelclose, cchannel/VirtualChannelClose, termserv.virtualchannelclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: cchannel.h
 req.include-header: 

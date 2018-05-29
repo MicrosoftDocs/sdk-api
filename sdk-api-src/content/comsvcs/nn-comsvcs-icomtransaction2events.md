@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IComTransaction2Events
 title: IComTransaction2Events
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the subscriber if a Microsoft Distributed Transaction Coordinator (DTC) transaction starts, commits, or aborts. The subscriber is also notified when the transaction is in the prepare phase of the two-phase commit protocol.
 old-location: cos\icomtransaction2events.htm
 old-project: cossdk
 ms.assetid: 103776c8-1cdc-46a5-a2ce-54163726e602
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComTransaction2Events, IComTransaction2Events interface [COM+], IComTransaction2Events interface [COM+],described, _dtc_icomtransaction2events, comsvcs/IComTransaction2Events, cos.icomtransaction2events
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:p2p.peer_graph_event_type_tag
 title: peer_graph_event_type_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PEER_GRAPH_EVENT_TYPE enumeration specifies peer event types the application is to be notified for.
 old-location: p2p\peer_graph_event_type.htm
 old-project: P2PSdk
 ms.assetid: 0fb9443f-bf95-45e2-b105-400203f286b6
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PEER_GRAPH_EVENT_CONNECTION_REQUIRED, PEER_GRAPH_EVENT_DIRECT_CONNECTION, PEER_GRAPH_EVENT_INCOMING_DATA, PEER_GRAPH_EVENT_NEIGHBOR_CONNECTION, PEER_GRAPH_EVENT_NODE_CHANGED, PEER_GRAPH_EVENT_PROPERTY_CHANGED, PEER_GRAPH_EVENT_RECORD_CHANGED, PEER_GRAPH_EVENT_STATUS_CHANGED, PEER_GRAPH_EVENT_SYNCHRONIZED, PEER_GRAPH_EVENT_TYPE, PEER_GRAPH_EVENT_TYPE enumeration [Peer Networking], p2p.peer_graph_event_type, p2p/ PEER_GRAPH_EVENT_TYPE, p2p/PEER_GRAPH_EVENT_CONNECTION_REQUIRED, p2p/PEER_GRAPH_EVENT_DIRECT_CONNECTION, p2p/PEER_GRAPH_EVENT_INCOMING_DATA, p2p/PEER_GRAPH_EVENT_NEIGHBOR_CONNECTION, p2p/PEER_GRAPH_EVENT_NODE_CHANGED, p2p/PEER_GRAPH_EVENT_PROPERTY_CHANGED, p2p/PEER_GRAPH_EVENT_RECORD_CHANGED, p2p/PEER_GRAPH_EVENT_STATUS_CHANGED, p2p/PEER_GRAPH_EVENT_SYNCHRONIZED, peer_graph_event_type_tag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 

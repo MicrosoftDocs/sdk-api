@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IMPEG2Component.get_PCRPID
 title: IMPEG2Component::get_PCRPID
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_PCRPID method returns the packet identifier (PID) for the packets that contain the PCR for this substream.
 old-location: mstv\impeg2component_get_pcrpid.htm
 old-project: mstv
 ms.assetid: b31f04b6-e2b1-450b-9f1f-2df0c9055da2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],get_PCRPID method, IMPEG2Component.get_PCRPID, IMPEG2Component::get_PCRPID, IMPEG2Componentget_PCRPID, get_PCRPID, get_PCRPID method [Microsoft TV Technologies], get_PCRPID method [Microsoft TV Technologies],IMPEG2Component interface, mstv.impeg2component_get_pcrpid, tuner/IMPEG2Component::get_PCRPID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

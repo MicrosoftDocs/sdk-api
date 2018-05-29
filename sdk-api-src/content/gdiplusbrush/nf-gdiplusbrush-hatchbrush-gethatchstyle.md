@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusbrush.HatchBrush.GetHatchStyle
 title: HatchBrush::GetHatchStyle
-author: windows-driver-content
+author: windows-sdk-content
 description: The HatchBrush::GetHatchStyle method gets the hatch style of this hatch brush.
 old-location: gdiplus\_gdiplus_CLASS_HatchBrush_GetHatchStyle_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\hatchbrushclass\hatchbrushmethods\gethatchstyle.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetHatchStyle, GetHatchStyle method [GDI+], GetHatchStyle method [GDI+],HatchBrush class, HatchBrush class [GDI+],GetHatchStyle method, HatchBrush.GetHatchStyle, HatchBrush::GetHatchStyle, _gdiplus_CLASS_HatchBrush_GetHatchStyle_, gdiplus._gdiplus_CLASS_HatchBrush_GetHatchStyle_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

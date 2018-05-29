@@ -1,16 +1,16 @@
 ---
 UID: NS:winbase._COMSTAT
 title: "_COMSTAT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a communications device.
 old-location: base\comstat_str.htm
 old-project: DevIO
 ms.assetid: dd54d040-1244-425f-a43e-9071d679c4ec
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: "*LPCOMSTAT, COMSTAT, COMSTAT structure, LPCOMSTAT, LPCOMSTAT structure pointer, _COMSTAT, _win32_comstat_str, base.comstat_str, winbase/COMSTAT, winbase/LPCOMSTAT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h

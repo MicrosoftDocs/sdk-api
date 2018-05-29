@@ -1,16 +1,16 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSilo.GetPortableDevice
 title: IEnhancedStorageSilo::GetPortableDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains an IPortableDevice pointer used to issue commands to the corresponding Enhanced Storage silo driver.
 old-location: enstor\ienhancedstoragesilo_getportabledevice.htm
 old-project: enstor
 ms.assetid: a95323d1-4329-4a1e-9c8a-adfdd199e9a5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetPortableDevice, GetPortableDevice method [Enhanced Storage], GetPortableDevice method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetPortableDevice method, IEnhancedStorageSilo.GetPortableDevice, IEnhancedStorageSilo::GetPortableDevice, ehstorapi/IEnhancedStorageSilo::GetPortableDevice, enstor.ienhancedstoragesilo_getportabledevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 

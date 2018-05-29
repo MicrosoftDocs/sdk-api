@@ -1,16 +1,16 @@
 ---
 UID: NF:thumbcache.ISharedBitmap.GetFormat
 title: ISharedBitmap::GetFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the alpha type of the bitmap image.
 old-location: shell\ISharedBitmap_GetFormat.htm
 old-project: shell
 ms.assetid: 403b8b19-c96f-4205-999f-103025d2b923
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFormat, GetFormat method [Windows Shell], GetFormat method [Windows Shell],ISharedBitmap interface, ISharedBitmap interface [Windows Shell],GetFormat method, ISharedBitmap.GetFormat, ISharedBitmap::GetFormat, WTSAT_ARGB, WTSAT_RGB, _shell_ISharedBitmap_GetFormat, shell.ISharedBitmap_GetFormat, thumbcache/ISharedBitmap::GetFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: thumbcache.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:casetup.ICertSrvSetup.Install
 title: ICertSrvSetup::Install
-author: windows-driver-content
+author: windows-sdk-content
 description: Installs a role as configured in the CCertSrvSetup object.
 old-location: security\icertsrvsetup_install.htm
 old-project: SecCrypto
 ms.assetid: e07b1cdd-ccb6-4398-862b-521ac1d39f66
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertSrvSetup interface [Security],Install method, ICertSrvSetup.Install, ICertSrvSetup::Install, Install, Install method [Security], Install method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::Install, security.icertsrvsetup_install
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

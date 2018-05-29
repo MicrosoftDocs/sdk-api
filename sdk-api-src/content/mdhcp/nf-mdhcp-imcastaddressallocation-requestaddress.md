@@ -1,16 +1,16 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.RequestAddress
 title: IMcastAddressAllocation::RequestAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: The RequestAddress method obtains a new lease for one or more multicast addresses. The EnumerateScopes or get_Scopes method must be called first.
 old-location: tapi3\imcastaddressallocation_requestaddress.htm
 old-project: Tapi
 ms.assetid: ca428138-34d2-499d-9560-8dfd51403ba1
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IMcastAddressAllocation interface [TAPI 2.2],RequestAddress method, IMcastAddressAllocation.RequestAddress, IMcastAddressAllocation::RequestAddress, RequestAddress, RequestAddress method [TAPI 2.2], RequestAddress method [TAPI 2.2],IMcastAddressAllocation interface, _tapi3_imcastaddressallocation_requestaddress, mdhcp/IMcastAddressAllocation::RequestAddress, tapi3.imcastaddressallocation_requestaddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._PROCESSOR_NUMBER
 title: "_PROCESSOR_NUMBER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a logical processor in a processor group.
 old-location: base\processor_number.htm
 old-project: ProcThread
 ms.assetid: 9005c6d4-07a9-4ce0-9ee2-54880d7244c3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PPROCESSOR_NUMBER, PPROCESSOR_NUMBER, PPROCESSOR_NUMBER structure pointer, PROCESSOR_NUMBER, PROCESSOR_NUMBER structure, _PROCESSOR_NUMBER, base.processor_number, winnt/PPROCESSOR_NUMBER, winnt/PROCESSOR_NUMBER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

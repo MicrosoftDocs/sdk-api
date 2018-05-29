@@ -1,16 +1,16 @@
 ---
 UID: NS:wintrust._CRYPT_PROVIDER_REGDEFUSAGE
 title: "_CRYPT_PROVIDER_REGDEFUSAGE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by the WintrustAddDefaultForUsage function to register callback information about a provider's default usage.
 old-location: security\crypt_provider_regdefusage.htm
 old-project: SecCrypto
 ms.assetid: A6047CBA-E4BA-4A31-B700-C368CFB57895
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_PROVIDER_REGDEFUSAGE, CRYPT_PROVIDER_REGDEFUSAGE, CRYPT_PROVIDER_REGDEFUSAGE structure [Security], PCRYPT_PROVIDER_REGDEFUSAGE, PCRYPT_PROVIDER_REGDEFUSAGE structure pointer [Security], _CRYPT_PROVIDER_REGDEFUSAGE, security.crypt_provider_regdefusage, wintrust/CRYPT_PROVIDER_REGDEFUSAGE, wintrust/PCRYPT_PROVIDER_REGDEFUSAGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rendezvoussession.IRendezvousApplication.SetRendezvousSession
 title: IRendezvousApplication::SetRendezvousSession
-author: windows-driver-content
+author: windows-sdk-content
 description: Passes IRendezvousSession to the Windows Remote Assistance application. This method is used by the instant messaging application.
 old-location: remoteassist\remoteassist_IRendezvousApplication_SetRendezvousSession.htm
 old-project: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvousapplication\setRendezvousSession.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IRendezvousApplication interface [Remote Assistance],SetRendezvousSession method, IRendezvousApplication.SetRendezvousSession, IRendezvousApplication::SetRendezvousSession, SetRendezvousSession, SetRendezvousSession method [Remote Assistance], SetRendezvousSession method [Remote Assistance],IRendezvousApplication interface, remoteassist.remoteassist_IRendezvousApplication_SetRendezvousSession, remoteassist_IRendezvousApplication_SetRendezvousSession, remoteassist_IRendezvousApplicationremoteassist_IRendezvousApplication_SetRendezvousSession_cpp, rendezvoussession/IRendezvousApplication::SetRendezvousSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rendezvoussession.h
 req.include-header: 

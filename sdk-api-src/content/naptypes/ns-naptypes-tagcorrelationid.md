@@ -1,16 +1,16 @@
 ---
 UID: NS:naptypes.tagCorrelationId
 title: tagCorrelationId
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to pair SoHRequests with SoHResponses and uniquely describes an SoH exchange.
 old-location: nap\correlationid_struct.htm
 old-project: NAP
 ms.assetid: 99e5bad8-47dd-447b-bd8d-e35ae765808b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CorrelationId, CorrelationId structure [NAP], nap.correlationid_struct, naptypes/CorrelationId, tagCorrelationId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

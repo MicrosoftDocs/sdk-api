@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.__MIDL___MIDL_itf_strmif_0000_0138_0001
 title: "__MIDL___MIDL_itf_strmif_0000_0138_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AM_DVD_RENDERSTATUS structure contains codes indicating the status of DVD-Video playback. These codes are used in the IDvdGraphBuilder::RenderDvdVideoVolume method.
 old-location: dshow\am_dvd_renderstatus.htm
 old-project: DirectShow
 ms.assetid: 6d11332e-86db-4649-af77-2906c6cbba7a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AM_DVD_RENDERSTATUS, AM_DVD_RENDERSTATUS structure [DirectShow], AM_DVD_RENDERSTATUSStructure, __MIDL___MIDL_itf_strmif_0000_0138_0001, dshow.am_dvd_renderstatus, strmif/AM_DVD_RENDERSTATUS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

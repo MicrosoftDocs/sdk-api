@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetNextString
 title: IMetaDataTables::GetNextString
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the index of the next string in the current table column.
 old-location: winrt\imetadatatables_getnextstring.htm
 old-project: WinRT
 ms.assetid: 7ac1fc2c-a60d-4431-8e49-5df1bb078c9b
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetNextString, GetNextString method [Windows Runtime], GetNextString method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetNextString method, IMetaDataTables.GetNextString, IMetaDataTables::GetNextString, rometadataapi/IMetaDataTables::GetNextString, winrt.imetadatatables_getnextstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

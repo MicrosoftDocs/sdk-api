@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Matrix3x2F~r2
 title: Matrix3x2F::Matrix3x2F~r2
-author: windows-driver-content
+author: windows-sdk-content
 description: Instantiates a new instance of the Matrix3x2F class without initializing the matrix values.
 old-location: direct2d\matrix3x2f_matrix3x2f.htm
 old-project: Direct2D
 ms.assetid: 2a78374f-8163-4323-a62d-beeb25cd5bea
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1.Matrix3x2F.Matrix3x2F, D2D1::Matrix3x2F::Matrix3x2F, Matrix3x2F, Matrix3x2F constructor [Direct2D], Matrix3x2F constructor [Direct2D],Matrix3x2F interface, Matrix3x2F interface [Direct2D],Matrix3x2F constructor, Matrix3x2F.Matrix3x2F, Matrix3x2F.Matrix3x2F~r2, Matrix3x2F::Matrix3x2F, Matrix3x2F::Matrix3x2F(), Matrix3x2F::Matrix3x2F~r2, d2d1helper/Matrix3x2F::Matrix3x2F, direct2d.matrix3x2f_matrix3x2f
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d2d1helper.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCalculateBitmapImageSize
 title: MFCalculateBitmapImageSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the image size for a video format.
 old-location: mf\mfcalculatebitmapimagesize.htm
 old-project: medfound
 ms.assetid: 67d80db8-996e-4f59-82f0-efd3d4bd8ff0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 67d80db8-996e-4f59-82f0-efd3d4bd8ff0, MFCalculateBitmapImageSize, MFCalculateBitmapImageSize function [Media Foundation], mf.mfcalculatebitmapimagesize, mfapi/MFCalculateBitmapImageSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

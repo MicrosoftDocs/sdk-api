@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPath
 title: IXpsOMPath
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a non-text visual item.
 old-location: xps\ixpsompath.htm
 old-project: printdocs
 ms.assetid: 93257a77-3fef-400e-bfe1-06e760ba4b93
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPath, IXpsOMPath interface [XPS Documents and Packaging], IXpsOMPath interface [XPS Documents and Packaging],described, xps.ixpsompath, xpsobjectmodel/IXpsOMPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

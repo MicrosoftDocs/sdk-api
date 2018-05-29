@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDVB_SDT.ConvertNextToCurrent
 title: IDVB_SDT::ConvertNextToCurrent
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sdt_convertnexttocurrent.htm
 old-project: mstv
 ms.assetid: 05cddb06-1edb-4514-b6fc-21e920e469ea
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IDVB_SDT.ConvertNextToCurrent, IDVB_SDT::ConvertNextToCurrent, IDVB_SDTConvertNextToCurrent, dvbsiparser/IDVB_SDT::ConvertNextToCurrent, mstv.idvb_sdt_convertnexttocurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

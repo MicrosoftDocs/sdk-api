@@ -1,16 +1,16 @@
 ---
 UID: NN:oleidl.IOleLink
 title: IOleLink
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a linked object to provide its container with functions pertaining to linking.
 old-location: com\iolelink.htm
 old-project: com
 ms.assetid: 4a34a90d-df1b-4bbf-8365-9d741c18ff74
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleLink, IOleLink interface [COM], IOleLink interface [COM],described, _ole_iolelink, com.iolelink, oleidl/IOleLink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

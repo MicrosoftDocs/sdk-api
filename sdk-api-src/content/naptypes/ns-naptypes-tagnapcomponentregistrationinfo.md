@@ -1,16 +1,16 @@
 ---
 UID: NS:naptypes.tagNapComponentRegistrationInfo
 title: tagNapComponentRegistrationInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a registered NAP component such as a SHA, SHV, or enforcement client.
 old-location: nap\napcomponentregistrationinfo_struct.htm
 old-project: NAP
 ms.assetid: adcc7238-d1c1-4d8c-b496-d2925bed0123
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: NapComponentRegistrationInfo, NapComponentRegistrationInfo structure [NAP], nap.napcomponentregistrationinfo_struct, naptypes/NapComponentRegistrationInfo, tagNapComponentRegistrationInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

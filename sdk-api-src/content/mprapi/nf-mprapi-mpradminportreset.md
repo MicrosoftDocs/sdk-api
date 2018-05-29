@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminPortReset
 title: MprAdminPortReset function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminPortReset function resets the communication device attached to the specified port.
 old-location: rras\mpradminportreset.htm
 old-project: RRAS
 ms.assetid: 9fa58bec-ecec-4496-91fa-8c41da7961b3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminPortReset, MprAdminPortReset function [RAS], _mpr_mpradminportreset, mprapi/MprAdminPortReset, rras.mpradminportreset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

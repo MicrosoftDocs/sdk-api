@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList4.SetTabProperties
 title: ITaskbarList4::SetTabProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows a tab to specify whether the main application frame window or the tab window should be used as a thumbnail or in the peek feature under certain circumstances.
 old-location: shell\ITaskbarList4_SetTabProperties.htm
 old-project: shell
 ms.assetid: cc3fec4b-7770-44af-9892-239a17dd96b8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITaskbarList4 interface [Windows Shell],SetTabProperties method, ITaskbarList4.SetTabProperties, ITaskbarList4::SetTabProperties, SetTabProperties, SetTabProperties method [Windows Shell], SetTabProperties method [Windows Shell],ITaskbarList4 interface, _shell_ITaskbarList4_SetTabProperties, shell.ITaskbarList4_SetTabProperties, shobjidl_core/ITaskbarList4::SetTabProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

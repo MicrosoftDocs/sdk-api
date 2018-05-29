@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFLockPlatform
 title: MFLockPlatform function
-author: windows-driver-content
+author: windows-sdk-content
 description: Blocks the MFShutdown function.
 old-location: mf\mflockplatform.htm
 old-project: medfound
 ms.assetid: 040742dc-4ba3-4906-8257-65505b2924d5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 040742dc-4ba3-4906-8257-65505b2924d5, MFLockPlatform, MFLockPlatform function [Media Foundation], mf.mflockplatform, mfapi/MFLockPlatform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

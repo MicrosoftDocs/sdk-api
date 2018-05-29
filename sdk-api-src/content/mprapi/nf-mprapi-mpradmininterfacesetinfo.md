@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceSetInfo
 title: MprAdminInterfaceSetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminInterfaceSetInfo function sets information for a specified interface on a specified server.
 old-location: rras\mpradmininterfacesetinfo.htm
 old-project: RRAS
 ms.assetid: 2cf31e4b-7c58-43b8-b30a-e98402a656a3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminInterfaceSetInfo, MprAdminInterfaceSetInfo function [RAS], _mpr_mpradmininterfacesetinfo, mprapi/MprAdminInterfaceSetInfo, rras.mpradmininterfacesetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

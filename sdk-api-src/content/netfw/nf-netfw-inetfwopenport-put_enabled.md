@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwOpenPort.put_Enabled
 title: INetFwOpenPort::put_Enabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the settings for this port are currently enabled.
 old-location: ics\inetfwopenport_enabled.htm
 old-project: ICS
 ms.assetid: f4fc7a4f-abc5-486a-89c8-dfea17770f3c
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwOpenPort interface, INetFwOpenPort interface [ICS/ICF],Enabled property, INetFwOpenPort.Enabled, INetFwOpenPort.put_Enabled, INetFwOpenPort::Enabled, INetFwOpenPort::get_Enabled, INetFwOpenPort::put_Enabled, ics.inetfwopenport_enabled, netfw/INetFwOpenPort::Enabled, netfw/INetFwOpenPort::get_Enabled, netfw/INetFwOpenPort::put_Enabled, put_Enabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

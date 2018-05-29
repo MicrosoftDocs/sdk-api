@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPSettings.get_balance
 title: IWMPSettings::get_balance
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_balance method retrieves the current stereo balance.
 old-location: wmp\iwmpsettings_get_balance.htm
 old-project: WMP
 ms.assetid: 457ee1a8-44da-424d-9cc5-0f0421791757
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_balance method, IWMPSettings.get_balance, IWMPSettings::get_balance, IWMPSettingsget_balance, get_balance, get_balance method [Windows Media Player], get_balance method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_balance, wmp/IWMPSettings::get_balance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

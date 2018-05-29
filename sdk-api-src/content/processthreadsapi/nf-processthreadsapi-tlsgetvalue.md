@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.TlsGetValue
 title: TlsGetValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value in the calling thread's thread local storage (TLS) slot for the specified TLS index. Each thread of a process has its own slot for each TLS index.
 old-location: base\tlsgetvalue.htm
 old-project: ProcThread
 ms.assetid: 82bd5ff6-ff0b-42b7-9ece-e9e8531eb5fb
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: TlsGetValue, TlsGetValue function, _win32_tlsgetvalue, base.tlsgetvalue, processthreadsapi/TlsGetValue, winbase/TlsGetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

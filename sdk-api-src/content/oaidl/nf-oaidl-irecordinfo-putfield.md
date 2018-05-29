@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.IRecordInfo.PutField
 title: IRecordInfo::PutField
-author: windows-driver-content
+author: windows-sdk-content
 description: Puts a variant into a field.
 old-location: automat\irecordinfo_putfield.htm
 old-project: automat
 ms.assetid: 784bb283-b381-405e-b793-d070105b778f
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IRecordInfo interface [Automation],PutField method, IRecordInfo.PutField, IRecordInfo::PutField, PutField, PutField method [Automation], PutField method [Automation],IRecordInfo interface, _oa96_IRecordInfo_PutField, automat.irecordinfo_putfield, oaidl/IRecordInfo::PutField
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

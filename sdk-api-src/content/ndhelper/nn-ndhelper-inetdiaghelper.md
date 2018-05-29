@@ -1,16 +1,16 @@
 ---
 UID: NN:ndhelper.INetDiagHelper
 title: INetDiagHelper
-author: windows-driver-content
+author: windows-sdk-content
 description: The INetDiagHelper interface provides methods that capture and provide information associated with diagnoses and resolution of network-related issues.
 old-location: ndf\inetdiaghelper.htm
 old-project: NDF
 ms.assetid: 7f1b8a5b-389b-4276-a49d-94a39be3c35c
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INetDiagHelper, INetDiagHelper interface [NDF], INetDiagHelper interface [NDF],described, ndf.inetdiaghelper, ndhelper/INetDiagHelper
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ndhelper.h
 req.include-header: 

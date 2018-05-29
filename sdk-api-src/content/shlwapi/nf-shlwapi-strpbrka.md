@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrPBrkA
 title: StrPBrkA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches a string for the first occurrence of a character contained in a specified buffer. This search does not include the terminating null character.
 old-location: shell\StrPBrk.htm
 old-project: shell
 ms.assetid: 116c0791-33dd-4c3f-b8a4-a7df91fc5f6a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrPBrk, StrPBrk function [Windows Shell], StrPBrkA, StrPBrkW, _win32_StrPBrk, shell.StrPBrk, shlwapi/StrPBrk, shlwapi/StrPBrkA, shlwapi/StrPBrkW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

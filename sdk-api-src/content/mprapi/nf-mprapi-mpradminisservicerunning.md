@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminIsServiceRunning
 title: MprAdminIsServiceRunning function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminIsServiceRunning function checks whether the RRAS service is running on a specified server if the calling process has access.
 old-location: rras\mpradminisservicerunning.htm
 old-project: RRAS
 ms.assetid: 3722e5f2-3cd7-490a-84b7-4a1c9fa11de7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminIsServiceRunning, MprAdminIsServiceRunning function [RAS], _mpr_mpradminisservicerunning, mprapi/MprAdminIsServiceRunning, rras.mpradminisservicerunning
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

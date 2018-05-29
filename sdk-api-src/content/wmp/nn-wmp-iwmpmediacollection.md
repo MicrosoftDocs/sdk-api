@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPMediaCollection
 title: IWMPMediaCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPMediaCollection interface provides methods that can be used to organize a large collection of media items.
 old-location: wmp\iwmpmediacollection.htm
 old-project: WMP
 ms.assetid: bf975a30-dfb1-4994-9095-510a6b997aff
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPMediaCollection, IWMPMediaCollection interface [Windows Media Player], IWMPMediaCollection interface [Windows Media Player],described, IWMPMediaCollectionInterface, wmp.iwmpmediacollection, wmp/IWMPMediaCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.OffsetRgn
 title: OffsetRgn function
-author: windows-driver-content
+author: windows-sdk-content
 description: The OffsetRgn function moves a region by the specified offsets.
 old-location: gdi\offsetrgn.htm
 old-project: gdi
 ms.assetid: 5228c614-3278-4852-a867-7eed57359aef
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: OffsetRgn, OffsetRgn function [Windows GDI], _win32_OffsetRgn, gdi.offsetrgn, wingdi/OffsetRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

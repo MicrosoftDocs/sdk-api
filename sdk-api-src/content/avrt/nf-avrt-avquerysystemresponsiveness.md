@@ -1,16 +1,16 @@
 ---
 UID: NF:avrt.AvQuerySystemResponsiveness
 title: AvQuerySystemResponsiveness function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the system responsiveness setting used by the multimedia class scheduler service.
 old-location: base\avquerysystemresponsiveness.htm
 old-project: ProcThread
 ms.assetid: 87184232-9f58-4a59-87e9-fdd081a7dc5c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: AvQuerySystemResponsiveness, AvQuerySystemResponsiveness function, avrt/AvQuerySystemResponsiveness, base.avquerysystemresponsiveness
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: avrt.h
 req.include-header: 

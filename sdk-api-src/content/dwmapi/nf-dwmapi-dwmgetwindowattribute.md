@@ -1,16 +1,16 @@
 ---
 UID: NF:dwmapi.DwmGetWindowAttribute
 title: DwmGetWindowAttribute function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current value of a specified attribute applied to a window.
 old-location: dwm\dwmgetwindowattribute.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetwindowattribute.htm
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: DwmGetWindowAttribute, DwmGetWindowAttribute function [Desktop Window Manager], _udwm_dwmgetwindowattribute, _udwm_dwmgetwindowattribute_cpp, dwm.dwmgetwindowattribute, dwmapi/DwmGetWindowAttribute, winui._udwm_dwmgetwindowattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

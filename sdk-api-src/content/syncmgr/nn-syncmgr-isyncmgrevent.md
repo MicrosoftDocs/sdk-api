@@ -1,16 +1,16 @@
 ---
 UID: NN:syncmgr.ISyncMgrEvent
 title: ISyncMgrEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that retrieve data from an event store. An event store allows Sync Center to get an enumerator of all events in the store, as well as to retrieve individual events.
 old-location: shell\ISyncMgrEvent.htm
 old-project: shell
 ms.assetid: fb9877fc-016c-472b-9af2-f2470c5c7e3b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrEvent, ISyncMgrEvent interface [Windows Shell], ISyncMgrEvent interface [Windows Shell],described, _shell_ISyncMgrEvent, shell.ISyncMgrEvent, syncmgr/ISyncMgrEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

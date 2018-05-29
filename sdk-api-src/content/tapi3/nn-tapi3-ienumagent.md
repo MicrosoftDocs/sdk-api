@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3.IEnumAgent
 title: IEnumAgent
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerator interface for ITAgent.
 old-location: tapi3\ienumagent.htm
 old-project: Tapi
 ms.assetid: 4c75314c-72f0-4eae-a1f5-36f3959c322a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumAgent, IEnumAgent interface [TAPI 2.2], IEnumAgent interface [TAPI 2.2],described, _tapi3_ienumagent, tapi3.ienumagent, tapi3cc/IEnumAgent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3.h
 req.include-header: Tapi3.h

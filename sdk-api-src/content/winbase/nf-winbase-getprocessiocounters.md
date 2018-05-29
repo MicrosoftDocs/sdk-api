@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetProcessIoCounters
 title: GetProcessIoCounters function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves accounting information for all I/O operations performed by the specified process.
 old-location: base\getprocessiocounters.htm
 old-project: ProcThread
 ms.assetid: e6973c1b-86bc-4fd1-aff6-26e87f8013c4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetProcessIoCounters, GetProcessIoCounters function, _win32_getprocessiocounters, base.getprocessiocounters, winbase/GetProcessIoCounters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

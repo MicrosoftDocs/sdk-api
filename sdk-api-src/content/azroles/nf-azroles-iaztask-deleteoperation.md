@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzTask.DeleteOperation
 title: IAzTask::DeleteOperation
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the IAzOperation object with the specified name from the task.
 old-location: security\iaztask_deleteoperation.htm
 old-project: SecAuthZ
 ms.assetid: 3f370d04-2115-4dcc-bf18-2d28a52bdead
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzTask object [Security],DeleteOperation method, DeleteOperation, DeleteOperation method [Security], DeleteOperation method [Security],AzTask object, DeleteOperation method [Security],IAzTask interface, IAzTask interface [Security],DeleteOperation method, IAzTask.DeleteOperation, IAzTask::DeleteOperation, azroles/IAzTask::DeleteOperation, security.iaztask_deleteoperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsFillReader
 title: WsFillReader function
-author: windows-driver-content
+author: windows-sdk-content
 description: Ensures that the reader has buffered the minimum byte count of XML data for use by subsequent reader functions.
 old-location: wsw\wsfillreader.htm
 old-project: wsw
 ms.assetid: 1f4138a2-acc5-4f1d-8e35-544859d2fa49
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsFillReader, WsFillReader function [Web Services for Windows], webservices/WsFillReader, wsw.wsfillreader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

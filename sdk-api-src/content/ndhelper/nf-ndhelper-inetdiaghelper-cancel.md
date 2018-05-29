@@ -1,16 +1,16 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Cancel
 title: INetDiagHelper::Cancel
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels an ongoing diagnosis or repair.
 old-location: ndf\inetdiaghelpe_cancel.htm
 old-project: NDF
 ms.assetid: 0df79e75-f3a6-43fd-82a3-2798ac1d99cd
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Cancel, Cancel method [NDF], Cancel method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],Cancel method, INetDiagHelper.Cancel, INetDiagHelper::Cancel, ndf.inetdiaghelpe_cancel, ndhelper/INetDiagHelper::Cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpDeleteCredentialsFn
 title: SpDeleteCredentialsFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes credentials from a security package's list of primary or supplemental credentials.
 old-location: security\spdeletecredentials.htm
 old-project: SecAuthN
 ms.assetid: 14f41fc2-1e28-4ae5-9f2e-00f2500b7819
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SpDeleteCredentials, SpDeleteCredentials function [Security], SpDeleteCredentialsFn, _ssp_spdeletecredentials, ntsecpkg/SpDeleteCredentials, security.spdeletecredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

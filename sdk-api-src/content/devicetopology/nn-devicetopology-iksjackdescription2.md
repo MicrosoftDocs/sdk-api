@@ -1,16 +1,16 @@
 ---
 UID: NN:devicetopology.IKsJackDescription2
 title: IKsJackDescription2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IKsJackDescription2 interface provides information about the jacks or internal connectors that provide a physical connection between a device on an audio adapter and an external or internal endpoint device (for example, a microphone or CD player).
 old-location: coreaudio\iksjackdescription2.htm
 old-project: CoreAudio
 ms.assetid: 9a3d7631-6892-457a-91ab-484ae867fd9f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IKsJackDescription2, IKsJackDescription2 interface [Core Audio], IKsJackDescription2 interface [Core Audio],described, coreaudio.iksjackdescription2, devicetopology/IKsJackDescription2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

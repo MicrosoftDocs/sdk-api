@@ -1,16 +1,16 @@
 ---
 UID: NE:tvratings.EnTvRat_GenericLevel
 title: EnTvRat_GenericLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\entvrat_genericlevel.htm
 old-project: mstv
 ms.assetid: f96a8f1a-d8e2-4976-92e3-719f0039d2a8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnTvRat_GenericLevel, EnTvRat_GenericLevel enumeration [Microsoft TV Technologies], TvRat_0, TvRat_1, TvRat_2, TvRat_3, TvRat_4, TvRat_5, TvRat_6, TvRat_7, TvRat_LevelDontKnow, TvRat_kLevels, mstv.entvrat_genericlevel, tvratings/EnTvRat_GenericLevel, tvratings/TvRat_0, tvratings/TvRat_1, tvratings/TvRat_2, tvratings/TvRat_3, tvratings/TvRat_4, tvratings/TvRat_5, tvratings/TvRat_6, tvratings/TvRat_7, tvratings/TvRat_LevelDontKnow, tvratings/TvRat_kLevels
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tvratings.h
 req.include-header: 

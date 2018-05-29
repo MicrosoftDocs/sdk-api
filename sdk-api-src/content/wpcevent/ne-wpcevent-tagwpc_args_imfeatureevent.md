@@ -1,16 +1,16 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_IMFEATUREEVENT
 title: tagWPC_ARGS_IMFEATUREEVENT
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates information about the features of the instant messaging interaction.
 old-location: parcon\wpc_args_imfeatureevent.htm
 old-project: parcon
 ms.assetid: a8beb420-8221-42b9-a0a8-ad9625091409
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WPC_ARGS_IMFEATUREEVENT, WPC_ARGS_IMFEATUREEVENT enumeration, WPC_ARGS_IMFEATUREEVENT_ACCOUNTNAME, WPC_ARGS_IMFEATUREEVENT_APPNAME, WPC_ARGS_IMFEATUREEVENT_APPVERSION, WPC_ARGS_IMFEATUREEVENT_CARGS, WPC_ARGS_IMFEATUREEVENT_CONVID, WPC_ARGS_IMFEATUREEVENT_DATA, WPC_ARGS_IMFEATUREEVENT_MEDIATYPE, WPC_ARGS_IMFEATUREEVENT_REASON, WPC_ARGS_IMFEATUREEVENT_RECIPCOUNT, WPC_ARGS_IMFEATUREEVENT_RECIPIENT, WPC_ARGS_IMFEATUREEVENT_SENDER, WPC_ARGS_IMFEATUREEVENT_SENDERIP, parcon.wpc_args_imfeatureevent, tagWPC_ARGS_IMFEATUREEVENT, wpcevent/WPC_ARGS_IMFEATUREEVENT, wpcevent/WPC_ARGS_IMFEATUREEVENT_ACCOUNTNAME, wpcevent/WPC_ARGS_IMFEATUREEVENT_APPNAME, wpcevent/WPC_ARGS_IMFEATUREEVENT_APPVERSION, wpcevent/WPC_ARGS_IMFEATUREEVENT_CARGS, wpcevent/WPC_ARGS_IMFEATUREEVENT_CONVID, wpcevent/WPC_ARGS_IMFEATUREEVENT_DATA, wpcevent/WPC_ARGS_IMFEATUREEVENT_MEDIATYPE, wpcevent/WPC_ARGS_IMFEATUREEVENT_REASON, wpcevent/WPC_ARGS_IMFEATUREEVENT_RECIPCOUNT, wpcevent/WPC_ARGS_IMFEATUREEVENT_RECIPIENT, wpcevent/WPC_ARGS_IMFEATUREEVENT_SENDER, wpcevent/WPC_ARGS_IMFEATUREEVENT_SENDERIP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wpcevent.h
 req.include-header: 

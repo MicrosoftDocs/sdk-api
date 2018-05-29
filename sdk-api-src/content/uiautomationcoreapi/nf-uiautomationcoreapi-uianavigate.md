@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaNavigate
 title: UiaNavigate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Navigates in the UI Automation tree, optionally retrieving cached information.
 old-location: winauto\uiauto_UiaNavigateAutoMeth.htm
 old-project: WinAuto
 ms.assetid: 11f0d52a-11be-4038-bf9e-94e44b118a22
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaNavigate, UiaNavigate function [Windows Accessibility], uiauto.uiauto_UiaNavigateAutoMeth, uiauto_UiaNavigateAutoMeth, uiautomationcoreapi/UiaNavigate, winauto.uiauto_UiaNavigateAutoMeth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarBstrFromI4
 title: VarBstrFromI4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a long value to a BSTR value.
 old-location: automat\varbstrfromi4.htm
 old-project: automat
 ms.assetid: ae4cc116-29b2-40cd-8990-531837c3fcb3
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarBstrFromI4, VarBstrFromI4 function [Automation], _oa96_VarBstrFromI4, automat.varbstrfromi4, oleauto/VarBstrFromI4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

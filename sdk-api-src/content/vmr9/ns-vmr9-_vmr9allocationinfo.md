@@ -1,16 +1,16 @@
 ---
 UID: NS:vmr9._VMR9AllocationInfo
 title: "_VMR9AllocationInfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: The VMR9AllocationInfo structure describes the Direct3D surfaces that a VMR-9 Allocator-Presenter object should allocate.
 old-location: dshow\vmr9allocationinfo.htm
 old-project: DirectShow
 ms.assetid: d263b004-30e6-4dff-9df2-f4ca492f09f7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: VMR9AllocationInfo, VMR9AllocationInfo structure [DirectShow], VMR9AllocationInfoStructure, _VMR9AllocationInfo, dshow.vmr9allocationinfo, vmr9/VMR9AllocationInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 

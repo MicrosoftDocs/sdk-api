@@ -1,16 +1,16 @@
 ---
 UID: NS:qossp._RSVP_FILTERSPEC_V4
 title: "_RSVP_FILTERSPEC_V4"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RSVP_FILTERSPEC_V4 structure stores information for a FILTERSPEC on an IPv4 address.
 old-location: qos\rsvp_filterspec_v4.htm
 old-project: QOS
 ms.assetid: 038edc41-7324-4c5a-8172-c958cee05d5e
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*LPRSVP_FILTERSPEC_V4, *LPRSVP_FILTERSPEC_V4 structure [QOS], RSVP_FILTERSPEC_V4, RSVP_FILTERSPEC_V4 structure [QOS], _RSVP_FILTERSPEC_V4, qos.rsvp_filterspec_v4, qossp/*LPRSVP_FILTERSPEC_V4, qossp/RSVP_FILTERSPEC_V4"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 

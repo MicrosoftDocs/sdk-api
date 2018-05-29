@@ -1,16 +1,16 @@
 ---
 UID: NF:prntvpt.PTGetPrintCapabilities
 title: PTGetPrintCapabilities function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the printer's capabilities formatted in compliance with the XML Print Schema.
 old-location: gdi\ptgetprintcapabilities.htm
 old-project: printdocs
 ms.assetid: 925e314c-85ff-4c1b-b3c9-f36aa4b55e01
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PTGetPrintCapabilities, PTGetPrintCapabilities function [Windows GDI], _win32_PTGetPrintCapabilities, gdi.ptgetprintcapabilities, prntvpt/PTGetPrintCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 

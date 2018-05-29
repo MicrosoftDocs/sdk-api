@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ICoreFragment.GetRangeCount
 title: ICoreFragment::GetRangeCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of ranges that are contained in this knowledge fragment.
 old-location: winsync\icorefragment_getrangecount.htm
 old-project: winsync
 ms.assetid: 8eb33224-f017-4f3b-bbf9-14d388d0868f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetRangeCount, GetRangeCount method [Windows Sync], GetRangeCount method [Windows Sync],ICoreFragment interface, ICoreFragment interface [Windows Sync],GetRangeCount method, ICoreFragment.GetRangeCount, ICoreFragment::GetRangeCount, winsync.icorefragment_getrangecount, winsync/ICoreFragment::GetRangeCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

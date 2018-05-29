@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.AddBeziers(IN const Point,IN INT)
 title: GraphicsPath::AddBeziers(IN const Point,IN INT)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the AddBeziers methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_AddBeziers_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathaddbeziersmethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddBeziers, AddBeziers methods [GDI+], GraphicsPath.AddBeziers, GraphicsPath.AddBeziers(IN const Point,IN INT), GraphicsPath::AddBeziers, GraphicsPath::AddBeziers(IN const Point,IN INT), _gdiplus_CLASS_GraphicsPath_AddBeziers_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_AddBeziers_Methods, gdipluspath/AddBeziers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 

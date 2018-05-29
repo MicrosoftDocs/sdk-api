@@ -1,16 +1,16 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportSetupManager
 title: IWdsTransportSetupManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages setup tasks on a WDS transport server.
 old-location: wds\iwdstransportsetupmanager.htm
 old-project: Wds
 ms.assetid: b7b0dc9f-081e-472f-98f7-fe555a411ea3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportSetupManager, IWdsTransportSetupManager interface [Windows Deployment Services], IWdsTransportSetupManager interface [Windows Deployment Services],described, wds.iwdstransportsetupmanager, wdstptmgmt/IWdsTransportSetupManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

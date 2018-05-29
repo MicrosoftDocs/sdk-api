@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock.WSAAsyncGetServByPort
 title: WSAAsyncGetServByPort function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSAAsyncGetServByPort function asynchronously retrieves service information that corresponds to a port and protocol.
 old-location: winsock\wsaasyncgetservbyport_2.htm
 old-project: WinSock
 ms.assetid: 0d0bd09c-ea97-46fb-b7b0-6e3e0a41dbc1
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAAsyncGetServByPort, WSAAsyncGetServByPort function [Winsock], _win32_wsaasyncgetservbyport_2, winsock.wsaasyncgetservbyport_2, winsock/WSAAsyncGetServByPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h

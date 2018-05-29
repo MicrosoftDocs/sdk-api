@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMGPOLink.Delete
 title: IGPMGPOLink::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the GPO link from the scope of management (SOM). The method does not delete the GPO.
 old-location: gpmc\igpmgpolink_delete.htm
 old-project: GPMC
 ms.assetid: 6f4151a5-6c65-4257-a2f2-28f8395968ed
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],GPMGPOLink class, Delete method [GPMC],IGPMGPOLink interface, GPMGPOLink class [GPMC],Delete method, IGPMGPOLink interface [GPMC],Delete method, IGPMGPOLink.Delete, IGPMGPOLink::Delete, _win32_igpmgpolink_delete, gpmc.igpmgpolink_delete, gpmgmt/IGPMGPOLink::Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

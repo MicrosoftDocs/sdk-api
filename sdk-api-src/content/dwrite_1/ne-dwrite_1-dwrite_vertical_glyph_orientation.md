@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite_1.DWRITE_VERTICAL_GLYPH_ORIENTATION
 title: DWRITE_VERTICAL_GLYPH_ORIENTATION
-author: windows-driver-content
+author: windows-sdk-content
 description: The DWRITE_VERTICAL_GLYPH_ORIENTATION enumeration contains values that specify the desired kind of glyph orientation for the text.
 old-location: directwrite\dwrite_vertical_glyph_orientation.htm
 old-project: DirectWrite
 ms.assetid: F13CD254-0D6A-4549-A2C2-3D3126E7B2EB
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_VERTICAL_GLYPH_ORIENTATION, DWRITE_VERTICAL_GLYPH_ORIENTATION enumeration [Direct Write], DWRITE_VERTICAL_GLYPH_ORIENTATION_DEFAULT, DWRITE_VERTICAL_GLYPH_ORIENTATION_STACKED, directwrite.dwrite_vertical_glyph_orientation, dwrite_1/DWRITE_VERTICAL_GLYPH_ORIENTATION, dwrite_1/DWRITE_VERTICAL_GLYPH_ORIENTATION_DEFAULT, dwrite_1/DWRITE_VERTICAL_GLYPH_ORIENTATION_STACKED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 

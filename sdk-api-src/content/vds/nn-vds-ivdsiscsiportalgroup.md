@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsIscsiPortalGroup
 title: IVdsIscsiPortalGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for performing query and configuration services on an iSCSI portal group.
 old-location: base\ivdsiscsiportalgroup.htm
 old-project: VDS
 ms.assetid: 65d773bd-3828-4c9d-a841-bb85a53aeadc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsIscsiPortalGroup, IVdsIscsiPortalGroup interface [VDS], IVdsIscsiPortalGroup interface [VDS],described, base.ivdsiscsiportalgroup, vds/IVdsIscsiPortalGroup, vdshwprv/IVdsIscsiPortalGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

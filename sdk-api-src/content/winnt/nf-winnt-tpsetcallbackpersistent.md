@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.TpSetCallbackPersistent
 title: TpSetCallbackPersistent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies that the callback should run on a persistent thread.
 old-location: base\tpsetcallbackpersistent.htm
 old-project: ProcThread
 ms.assetid: FE2CB959-25BC-4420-A921-2A65016B25CF
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: TpSetCallbackPersistent, TpSetCallbackPersistent function, base.tpsetcallbackpersistent, winnt/TpSetCallbackPersistent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

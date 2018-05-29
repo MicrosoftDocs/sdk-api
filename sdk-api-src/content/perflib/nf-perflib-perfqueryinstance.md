@@ -1,16 +1,16 @@
 ---
 UID: NF:perflib.PerfQueryInstance
 title: PerfQueryInstance function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to the specified counter set instance. Providers use this function.
 old-location: perf\perfqueryinstance.htm
 old-project: PerfCtrs
 ms.assetid: 844f3f9e-8de2-4995-b13c-befe0da8a1ab
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PerfQueryInstance, PerfQueryInstance function [Perf], base.perfqueryinstance, perf.perfqueryinstance, perflib/PerfQueryInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

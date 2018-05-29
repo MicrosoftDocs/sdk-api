@@ -1,16 +1,16 @@
 ---
 UID: NF:cloneviewhelper.IViewHelper.SetConfiguration
 title: IViewHelper::SetConfiguration
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetConfiguration method passes in display data (display modes and topology data) to the underlying user-mode display driver that the driver should set.
 old-location: display\iviewhelper_setconfiguration.htm
 old-project: display
 ms.assetid: 8ec09950-afb6-43ff-8e05-4c801e49ba4b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IViewHelper interface [Display Devices],SetConfiguration method, IViewHelper.SetConfiguration, IViewHelper::SetConfiguration, SetConfiguration, SetConfiguration method [Display Devices], SetConfiguration method [Display Devices],IViewHelper interface, TMM_Ref_3eec4d30-b77b-4ff5-88eb-a285efd5cf42.xml, cloneviewhelper/IViewHelper::SetConfiguration, display.iviewhelper_setconfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h

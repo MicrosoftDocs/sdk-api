@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory4.EncryptPackage
 title: IAppxEncryptionFactory4::EncryptPackage
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an encrypted Windows app package from an unencrypted one.
 old-location: appxpkg\iappxencryptionfactory4_encryptpackage.htm
 old-project: appxpkg
 ms.assetid: 3C47D7AD-CAD9-4623-A404-5676C51B5390
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: EncryptPackage, EncryptPackage method [App packaging and management], EncryptPackage method [App packaging and management],IAppxEncryptionFactory4 interface, IAppxEncryptionFactory4 interface [App packaging and management],EncryptPackage method, IAppxEncryptionFactory4.EncryptPackage, IAppxEncryptionFactory4::EncryptPackage, appxpackaging/IAppxEncryptionFactory4::EncryptPackage, appxpkg.iappxencryptionfactory4_encryptpackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

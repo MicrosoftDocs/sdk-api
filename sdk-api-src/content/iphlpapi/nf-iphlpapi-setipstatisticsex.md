@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.SetIpStatisticsEx
 title: SetIpStatisticsEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Toggles IP forwarding on or off and sets the default time-to-live (TTL) value for the local computer.
 old-location: iphlp\setipstatisticsex.htm
 old-project: IpHlp
 ms.assetid: 13b52016-5bdb-4546-af53-d3ae2708653b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AF_INET, AF_INET6, SetIpStatisticsEx, SetIpStatisticsEx function [IP Helper], iphlp.setipstatisticsex, iphlpapi/SetIpStatisticsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

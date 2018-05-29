@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessageIterator.get_AtEOF
 title: IFaxOutgoingMessageIterator::get_AtEOF
-author: windows-driver-content
+author: windows-sdk-content
 description: The AtEOF property is the end-of-file marker for the archive of outbound fax messages.
 old-location: fax\_mfax_faxoutgoingmessageiterator_ateof_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3w6e.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: AtEOF property [Fax Service], AtEOF property [Fax Service],FaxOutgoingMessageIterator object, FaxOutgoingMessageIterator object [Fax Service],AtEOF property, FaxOutgoingMessageIterator.AtEOF, IFaxOutgoingMessageIterator.get_AtEOF, IFaxOutgoingMessageIterator::get_AtEOF, _mfax_faxoutgoingmessageiterator.ateof, fax._mfax_faxoutgoingmessageiterator_ateof, fax._mfax_faxoutgoingmessageiterator_ateof_vb, get_AtEOF
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

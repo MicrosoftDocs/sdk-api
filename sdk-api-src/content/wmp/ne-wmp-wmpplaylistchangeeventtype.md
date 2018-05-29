@@ -1,16 +1,16 @@
 ---
 UID: NE:wmp.WMPPlaylistChangeEventType
 title: WMPPlaylistChangeEventType
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMPPlaylistChangeEventType enumeration type defines the types of changes that can be made to a playlist.
 old-location: wmp\wmpplaylistchangeeventtype.htm
 old-project: WMP
 ms.assetid: ebddaf22-9052-4180-9cc4-75059f9d286c
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: WMPPlaylistChangeEventType, WMPPlaylistChangeEventType enumeration [Windows Media Player], wmp.wmpplaylistchangeeventtype, wmp/WMPPlaylistChangeEventType, wmp/wmplcAppend, wmp/wmplcClear, wmp/wmplcDelete, wmp/wmplcInfoChange, wmp/wmplcInsert, wmp/wmplcLast, wmp/wmplcMorph, wmp/wmplcMove, wmp/wmplcNameChange, wmp/wmplcPrivate, wmp/wmplcSort, wmp/wmplcUnknown, wmplcAppend, wmplcClear, wmplcDelete, wmplcInfoChange, wmplcInsert, wmplcLast, wmplcMorph, wmplcMove, wmplcNameChange, wmplcPrivate, wmplcSort, wmplcUnknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmp.h
 req.include-header: 

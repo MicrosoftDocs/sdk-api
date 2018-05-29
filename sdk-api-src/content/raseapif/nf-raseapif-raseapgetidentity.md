@@ -1,16 +1,16 @@
 ---
 UID: NF:raseapif.RasEapGetIdentity
 title: RasEapGetIdentity function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RAS connection manager calls the RasEapGetIdentity function to obtain identity information for the user requesting authentication.
 old-location: eap\raseapgetidentity.htm
 old-project: EAP
 ms.assetid: 66bc34d2-54b9-46eb-b952-6ad66868c8ce
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: RAS_EAP_FLAG_8021X_AUTH, RAS_EAP_FLAG_FIRST_LINK, RAS_EAP_FLAG_LOGON, RAS_EAP_FLAG_MACHINE_AUTH, RAS_EAP_FLAG_NON_INTERACTIVE, RAS_EAP_FLAG_PREVIEW, RAS_EAP_FLAG_ROUTER, RasEapGetIdentity, RasEapGetIdentity callback, RasEapGetIdentity callback function [EAP], _eap_raseapgetidentity, eap.raseapgetidentity, raseapif/RasEapGetIdentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: raseapif.h
 req.include-header: 

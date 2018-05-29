@@ -1,16 +1,16 @@
 ---
 UID: NN:mfobjects.IMFByteStream
 title: IMFByteStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a byte stream from some data source, which might be a local file, a network file, or some other source.
 old-location: mf\imfbytestream.htm
 old-project: medfound
 ms.assetid: 690035b7-2855-4714-938f-f8250ec70d24
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 690035b7-2855-4714-938f-f8250ec70d24, IMFByteStream, IMFByteStream interface [Media Foundation], IMFByteStream interface [Media Foundation],described, mf.imfbytestream, mfobjects/IMFByteStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

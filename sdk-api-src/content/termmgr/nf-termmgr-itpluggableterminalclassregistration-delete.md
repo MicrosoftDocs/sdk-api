@@ -1,16 +1,16 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.Delete
 title: ITPluggableTerminalClassRegistration::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: The Delete method deletes the terminal class from the registry.
 old-location: tapi3\itpluggableterminalclassregistration_delete.htm
 old-project: Tapi
 ms.assetid: ddc0e33a-d7f4-4380-b53b-e368f7646cbf
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Delete, Delete method [TAPI 2.2], Delete method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, ITPluggableTerminalClassRegistration interface [TAPI 2.2],Delete method, ITPluggableTerminalClassRegistration.Delete, ITPluggableTerminalClassRegistration::Delete, _tapi3_itpluggableterminalclassregistration_delete, tapi3.itpluggableterminalclassregistration_delete, termmgr/ITPluggableTerminalClassRegistration::Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

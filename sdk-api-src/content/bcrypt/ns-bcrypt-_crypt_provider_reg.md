@@ -1,16 +1,16 @@
 ---
 UID: NS:bcrypt._CRYPT_PROVIDER_REG
 title: "_CRYPT_PROVIDER_REG"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to contain registration information for a CNG provider.
 old-location: security\crypt_provider_reg.htm
 old-project: SecCNG
 ms.assetid: ca0ac386-9435-49f0-95fe-503aa7183517
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: "*PCRYPT_PROVIDER_REG, CRYPT_PROVIDER_REG, CRYPT_PROVIDER_REG structure [Security], PCRYPT_PROVIDER_REG, PCRYPT_PROVIDER_REG structure pointer [Security], _CRYPT_PROVIDER_REG, bcrypt/CRYPT_PROVIDER_REG, bcrypt/PCRYPT_PROVIDER_REG, security.crypt_provider_reg"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

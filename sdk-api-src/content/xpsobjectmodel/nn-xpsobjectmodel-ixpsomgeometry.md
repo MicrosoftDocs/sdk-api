@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGeometry
 title: IXpsOMGeometry
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the shape of a path or of a clipping region.
 old-location: xps\ixpsomgeometry.htm
 old-project: printdocs
 ms.assetid: d3f74c1e-49ef-40ee-a2f4-b6d198b57624
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMGeometry, IXpsOMGeometry interface [XPS Documents and Packaging], IXpsOMGeometry interface [XPS Documents and Packaging],described, xps.ixpsomgeometry, xpsobjectmodel/IXpsOMGeometry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

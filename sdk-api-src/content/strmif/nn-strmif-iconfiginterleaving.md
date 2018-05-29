@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IConfigInterleaving
 title: IConfigInterleaving
-author: windows-driver-content
+author: windows-sdk-content
 description: The IConfigInterleaving interface controls how the AVI Mux filter interleaves audio and video samples.
 old-location: dshow\iconfiginterleaving.htm
 old-project: DirectShow
 ms.assetid: 68594752-a711-4372-95db-10947bd2ce39
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IConfigInterleaving, IConfigInterleaving interface [DirectShow], IConfigInterleaving interface [DirectShow],described, IConfigInterleavingInterface, dshow.iconfiginterleaving, strmif/IConfigInterleaving
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

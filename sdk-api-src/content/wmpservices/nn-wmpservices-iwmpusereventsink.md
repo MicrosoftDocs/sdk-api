@@ -1,16 +1,16 @@
 ---
 UID: NN:wmpservices.IWMPUserEventSink
 title: IWMPUserEventSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPUserEventSink interface receives event notifications from a custom video presenter.
 old-location: wmp\iwmpusereventsink.htm
 old-project: WMP
 ms.assetid: b9afa601-543e-4338-a603-2fe4cd56db36
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPUserEventSink, IWMPUserEventSink interface [Windows Media Player], IWMPUserEventSink interface [Windows Media Player],described, IWMPUserEventSinkInterface, wmp.iwmpusereventsink, wmpservices/IWMPUserEventSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmpservices.h
 req.include-header: 

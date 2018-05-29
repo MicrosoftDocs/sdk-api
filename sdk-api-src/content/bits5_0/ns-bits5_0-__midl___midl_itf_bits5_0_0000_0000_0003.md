@@ -1,16 +1,16 @@
 ---
 UID: NS:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0003
 title: "__MIDL___MIDL_itf_bits5_0_0000_0000_0003"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the property value of the BITS job based on the value of the BITS_JOB_PROPERTY_ID enumeration.
 old-location: bits\bits_job_property_value.htm
 old-project: Bits
 ms.assetid: DF1DDB37-F16F-47FF-B6C1-8C545A827CCB
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BITS_JOB_PROPERTY_VALUE, BITS_JOB_PROPERTY_VALUE union [BITS], __MIDL___MIDL_itf_bits5_0_0000_0000_0003, bits.bits_job_property_value, bits.bits_job_property_value_union, bits5_0/BITS_JOB_PROPERTY_VALUE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bits5_0.h
 req.include-header: Bits.h

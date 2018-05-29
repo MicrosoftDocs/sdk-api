@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasGetErrorStringA
 title: RasGetErrorStringA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasGetErrorString function obtains an error message string for a specified RAS error value.
 old-location: rras\rasgeterrorstring.htm
 old-project: RRAS
 ms.assetid: 4d308dd8-e623-467b-836e-faace19460f1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasGetErrorString, RasGetErrorString function [RAS], RasGetErrorStringA, RasGetErrorStringW, _ras_rasgeterrorstring, ras/RasGetErrorString, ras/RasGetErrorStringA, ras/RasGetErrorStringW, rras.rasgeterrorstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

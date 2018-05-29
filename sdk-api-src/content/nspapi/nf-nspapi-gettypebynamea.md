@@ -1,16 +1,16 @@
 ---
 UID: NF:nspapi.GetTypeByNameA
 title: GetTypeByNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTypeByName function retrieves a service type GUID for a network service specified by name.
 old-location: winsock\gettypebyname_2.htm
 old-project: WinSock
 ms.assetid: 177bbae5-bc00-4ce5-a0f7-8474f0c2cb2e
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: GetTypeByName, GetTypeByName function [Winsock], GetTypeByNameA, GetTypeByNameW, _win32_gettypebyname_2, nspapi/GetTypeByName, nspapi/GetTypeByNameA, nspapi/GetTypeByNameW, winsock.gettypebyname_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: nspapi.h
 req.include-header: 

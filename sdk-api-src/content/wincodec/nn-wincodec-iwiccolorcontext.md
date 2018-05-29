@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICColorContext
 title: IWICColorContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods for color management.
 old-location: wic\_wic_codec_iwiccolorcontext.htm
 old-project: wic
 ms.assetid: b6817676-affb-4bb3-adba-e24e0b75ad10
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICColorContext, IWICColorContext interface [Windows Imaging Component], IWICColorContext interface [Windows Imaging Component],described, _wic_codec_iwiccolorcontext, wic._wic_codec_iwiccolorcontext, wincodec/IWICColorContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

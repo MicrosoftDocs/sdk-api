@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaSinkPreroll.NotifyPreroll
 title: IMFMediaSinkPreroll::NotifyPreroll
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the media sink that the presentation clock is about to start.
 old-location: mf\imfmediasinkpreroll_notifypreroll.htm
 old-project: medfound
 ms.assetid: d0694ad9-a18a-4fea-a9ff-b416bd4827ba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaSinkPreroll interface [Media Foundation],NotifyPreroll method, IMFMediaSinkPreroll.NotifyPreroll, IMFMediaSinkPreroll::NotifyPreroll, NotifyPreroll, NotifyPreroll method [Media Foundation], NotifyPreroll method [Media Foundation],IMFMediaSinkPreroll interface, d0694ad9-a18a-4fea-a9ff-b416bd4827ba, mf.imfmediasinkpreroll_notifypreroll, mfidl/IMFMediaSinkPreroll::NotifyPreroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

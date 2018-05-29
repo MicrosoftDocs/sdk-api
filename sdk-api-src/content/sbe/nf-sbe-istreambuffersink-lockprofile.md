@@ -1,16 +1,16 @@
 ---
 UID: NF:sbe.IStreamBufferSink.LockProfile
 title: IStreamBufferSink::LockProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: The LockProfile method locks the Stream Buffer Sink filter's profile, thereby fixing the number of streams and their media types. This method can also specify the name and location of the stub file that points to the backing files.
 old-location: mstv\istreambuffersink_lockprofile.htm
 old-project: mstv
 ms.assetid: 9e694cc2-090e-43b1-88c7-77175a930bf1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStreamBufferSink interface [Microsoft TV Technologies],LockProfile method, IStreamBufferSink.LockProfile, IStreamBufferSink::LockProfile, IStreamBufferSinkLockProfile, LockProfile, LockProfile method [Microsoft TV Technologies], LockProfile method [Microsoft TV Technologies],IStreamBufferSink interface, mstv.istreambuffersink_lockprofile, sbe/IStreamBufferSink::LockProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

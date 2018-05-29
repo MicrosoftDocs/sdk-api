@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.IErrorInfo.GetSource
 title: IErrorInfo::GetSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the language-dependent programmatic ID (ProgID) for the class or application that raised the error.
 old-location: automat\ierrorinfo_getsource.htm
 old-project: automat
 ms.assetid: b7bbf4ac-7c02-4abe-83fb-bc9fcd52129e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetSource, GetSource method [Automation], GetSource method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetSource method, IErrorInfo.GetSource, IErrorInfo::GetSource, _oa96_IErrorInfo_GetSource, automat.ierrorinfo_getsource, oaidl/IErrorInfo::GetSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationRegistrar.RegisterPattern
 title: IUIAutomationRegistrar::RegisterPattern
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a third-party control pattern.
 old-location: winauto\uiauto_IUIAutomationRegistrar_RegisterPattern.htm
 old-project: WinAuto
 ms.assetid: 6aa61295-e035-4a51-9157-7cf9cfaee37a
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationRegistrar interface [Windows Accessibility],RegisterPattern method, IUIAutomationRegistrar.RegisterPattern, IUIAutomationRegistrar::RegisterPattern, RegisterPattern, RegisterPattern method [Windows Accessibility], RegisterPattern method [Windows Accessibility],IUIAutomationRegistrar interface, uiauto.uiauto_IUIAutomationRegistrar_RegisterPattern, uiauto_IUIAutomationRegistrar_RegisterPattern, uiautomationcore/IUIAutomationRegistrar::RegisterPattern, winauto.uiauto_IUIAutomationRegistrar_RegisterPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

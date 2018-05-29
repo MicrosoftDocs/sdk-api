@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsapi32.WTSFreeMemoryExW
 title: WTSFreeMemoryExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees memory that contains WTS_PROCESS_INFO_EX or WTS_SESSION_INFO_1 structures allocated by a Remote Desktop Services function.
 old-location: termserv\wtsfreememoryex.htm
 old-project: TermServ
 ms.assetid: d84a4fe3-a829-4cf3-b217-157391d0c495
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WTSFreeMemoryEx, WTSFreeMemoryEx function [Remote Desktop Services], WTSFreeMemoryExA, WTSFreeMemoryExW, termserv.wtsfreememoryex, wtsapi32/WTSFreeMemoryEx, wtsapi32/WTSFreeMemoryExA, wtsapi32/WTSFreeMemoryExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

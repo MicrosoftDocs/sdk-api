@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.IAVIStream.ReadFormat
 title: IAVIStream::ReadFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: The ReadFormat method obtains format information from a stream.
 old-location: multimedia\iavistream_readformat.htm
 old-project: Multimedia
 ms.assetid: ec684a91-9a16-4e9d-9d52-8b721df24889
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IAVIStream interface [Windows Multimedia],ReadFormat method, IAVIStream.ReadFormat, IAVIStream::ReadFormat, ReadFormat, ReadFormat method [Windows Multimedia], ReadFormat method [Windows Multimedia],IAVIStream interface, _win32_IAVIStream_ReadFormat, multimedia.iavistream_readformat, vfw/IAVIStream::ReadFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vfw.h
 req.include-header: 

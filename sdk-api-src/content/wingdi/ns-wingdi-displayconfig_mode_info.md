@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_MODE_INFO
 title: DISPLAYCONFIG_MODE_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The DISPLAYCONFIG_MODE_INFO structure contains either source mode or target mode information.
 old-location: display\displayconfig_mode_info.htm
 old-project: display
 ms.assetid: 39ffe49b-96d3-4d8b-94a7-01c388448b82
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CCD_Structures_e1d7b2cb-4d20-49d7-8eef-53ef7e369293.xml, DISPLAYCONFIG_MODE_INFO, DISPLAYCONFIG_MODE_INFO structure [Display Devices], display.displayconfig_mode_info, wingdi/DISPLAYCONFIG_MODE_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10V3.put_AttestationEncryptionCertificate
 title: IX509CertificateRequestPkcs10V3::put_AttestationEncryptionCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: The certificate used to encrypt the EKPUB and EKCERT values from the client. This property must be set to a valid certificate that chains to a trusted machine root.
 old-location: security\ix509certificaterequestpkcs10v3_attestationencryptioncertificate.htm
 old-project: SecCertEnroll
 ms.assetid: 0df4d8e5-edb1-49c8-a2b6-f98692168900
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: AttestationEncryptionCertificate property [Security], AttestationEncryptionCertificate property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],AttestationEncryptionCertificate property, IX509CertificateRequestPkcs10V3.AttestationEncryptionCertificate, IX509CertificateRequestPkcs10V3.put_AttestationEncryptionCertificate, IX509CertificateRequestPkcs10V3::AttestationEncryptionCertificate, IX509CertificateRequestPkcs10V3::get_AttestationEncryptionCertificate, IX509CertificateRequestPkcs10V3::put_AttestationEncryptionCertificate, certenroll/IX509CertificateRequestPkcs10V3::AttestationEncryptionCertificate, certenroll/IX509CertificateRequestPkcs10V3::get_AttestationEncryptionCertificate, certenroll/IX509CertificateRequestPkcs10V3::put_AttestationEncryptionCertificate, put_AttestationEncryptionCertificate, security.ix509certificaterequestpkcs10v3_attestationencryptioncertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

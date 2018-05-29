@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_Guid
 title: ITraceDataCollector::get_Guid
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the session GUID.
 old-location: pla\itracedatacollector_guid.htm
 old-project: PLA
 ms.assetid: 9f5ef256-725f-4cba-8fe7-a689045b8e66
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Guid property [PLA], Guid property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],Guid property, ITraceDataCollector.Guid, ITraceDataCollector.get_Guid, ITraceDataCollector::Guid, ITraceDataCollector::get_Guid, ITraceDataCollector::put_Guid, base.itracedatacollector_guid, get_Guid, pla.itracedatacollector_guid, pla/ITraceDataCollector::Guid, pla/ITraceDataCollector::get_Guid, pla/ITraceDataCollector::put_Guid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

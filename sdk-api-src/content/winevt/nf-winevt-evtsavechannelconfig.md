@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtSaveChannelConfig
 title: EvtSaveChannelConfig function
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves the changes made to a channel's configuration.
 old-location: wes\evtsavechannelconfig.htm
 old-project: WES
 ms.assetid: 3f3eff67-24b6-448e-bb61-0bc851d9bdfa
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtSaveChannelConfig, EvtSaveChannelConfig function [EventLog], wes.evtsavechannelconfig, winevt/EvtSaveChannelConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

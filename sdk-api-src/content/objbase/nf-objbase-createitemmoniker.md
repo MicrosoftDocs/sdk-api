@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.CreateItemMoniker
 title: CreateItemMoniker function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an item moniker that identifies an object within a containing object (typically a compound document).
 old-location: com\createitemmoniker.htm
 old-project: com
 ms.assetid: 339919ed-660c-4239-825b-7fa96c48e5cd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateItemMoniker, CreateItemMoniker function [COM], _com_CreateItemMoniker, com.createitemmoniker, objbase/CreateItemMoniker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

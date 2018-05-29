@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.ITaskService
 title: ITaskService
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the Task Scheduler service for managing registered tasks.
 old-location: taskschd\itaskservice.htm
 old-project: TaskSchd
 ms.assetid: 2459aaae-4c3a-458a-ad2c-bfff3a0322d3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskService, ITaskService interface [Task Scheduler], ITaskService interface [Task Scheduler],described, taskschd.itaskservice, taskschd/ITaskService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

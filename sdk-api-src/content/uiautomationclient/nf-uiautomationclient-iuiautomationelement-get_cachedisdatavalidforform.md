@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsDataValidForForm
 title: IUIAutomationElement::get_CachedIsDataValidForForm
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a cached value that indicates whether the element contains valid data for the form.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsDataValidForForm.htm
 old-project: WinAuto
 ms.assetid: 2f1027fd-7d95-412f-a9e8-73236252e49f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedIsDataValidForForm property [Windows Accessibility], CachedIsDataValidForForm property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsDataValidForForm property, IUIAutomationElement.CachedIsDataValidForForm, IUIAutomationElement.get_CachedIsDataValidForForm, IUIAutomationElement::CachedIsDataValidForForm, IUIAutomationElement::get_CachedIsDataValidForForm, get_CachedIsDataValidForForm, uiauto.uiauto_IUIAutomationElement_CachedIsDataValidForForm, uiauto_IUIAutomationElement_CachedIsDataValidForForm, uiautomationclient/IUIAutomationElement::CachedIsDataValidForForm, uiautomationclient/IUIAutomationElement::get_CachedIsDataValidForForm, winauto.uiauto_IUIAutomationElement_CachedIsDataValidForForm
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

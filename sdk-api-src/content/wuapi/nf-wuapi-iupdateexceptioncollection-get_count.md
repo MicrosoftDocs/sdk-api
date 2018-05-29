@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateExceptionCollection.get_Count
 title: IUpdateExceptionCollection::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of elements in the collection.
 old-location: wua\iupdateexceptioncollection_count.htm
 old-project: Wua_Sdk
 ms.assetid: a78f4f2f-8d9f-45f1-9606-162cc9bdc8f3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IUpdateExceptionCollection interface, IUpdateExceptionCollection interface [Windows Update Agent],Count property, IUpdateExceptionCollection.Count, IUpdateExceptionCollection.get_Count, IUpdateExceptionCollection::Count, IUpdateExceptionCollection::get_Count, get_Count, wua.iupdateexceptioncollection_count, wuapi/IUpdateExceptionCollection::Count, wuapi/IUpdateExceptionCollection::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

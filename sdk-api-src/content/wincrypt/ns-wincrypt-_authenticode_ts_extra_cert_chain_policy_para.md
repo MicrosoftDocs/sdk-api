@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA
 title: "_AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA structure contains time stamp policy information that can be used in certificate chain verification of files.
 old-location: security\authenticode_ts_extra_cert_chain_policy_para.htm
 old-project: SecCrypto
 ms.assetid: 4c24c924-f466-42d1-a3e0-e86446750040
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PAUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], PAUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA, PAUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], WTPF_ALLOWONLYPERTRUST, WTPF_IGNOREEXPIRATION, WTPF_IGNOREREVOCATIONONTS, WTPF_IGNOREREVOKATION, WTPF_OFFLINEOKNBU_COM, WTPF_OFFLINEOKNBU_IND, WTPF_OFFLINEOK_COM, WTPF_OFFLINEOK_IND, WTPF_TESTCANBEVALID, WTPF_TRUSTTEST, WTPF_VERIFY_V1_OFF, _AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA, _crypto2_authenticode_ts_extra_cert_chain_policy_para, security.authenticode_ts_extra_cert_chain_policy_para, wincrypt/AUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/PAUTHENTICODE_TS_EXTRA_CERT_CHAIN_POLICY_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICImageEncoder.WriteFrameThumbnail
 title: IWICImageEncoder::WriteFrameThumbnail
-author: windows-driver-content
+author: windows-sdk-content
 description: Encodes the image as a thumbnail to the frame given by the IWICBitmapFrameEncode.
 old-location: wic\iwicimageencoder_writeframethumbnail.htm
 old-project: wic
 ms.assetid: 5A34F900-73F1-4FFC-B251-F22E0EDDB873
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICImageEncoder interface [Windows Imaging Component],WriteFrameThumbnail method, IWICImageEncoder.WriteFrameThumbnail, IWICImageEncoder::WriteFrameThumbnail, WriteFrameThumbnail, WriteFrameThumbnail method [Windows Imaging Component], WriteFrameThumbnail method [Windows Imaging Component],IWICImageEncoder interface, wic.iwicimageencoder_writeframethumbnail, wincodec/IWICImageEncoder::WriteFrameThumbnail
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

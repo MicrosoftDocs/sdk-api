@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_GETMOCOMPFORMATSDATA
 title: "_DD_GETMOCOMPFORMATSDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_GETMOCOMPFORMATSDATA structure contains the uncompressed format information.
 old-location: display\dd_getmocompformatsdata.htm
 old-project: display
 ms.assetid: 1effebea-1cdb-46e9-a783-5a68863a2756
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA, DD_GETMOCOMPFORMATSDATA structure [Display Devices], _DD_GETMOCOMPFORMATSDATA, ddrawint/DD_GETMOCOMPFORMATSDATA, ddstrcts_641a377d-109e-43f2-bc12-631964737386.xml, display.dd_getmocompformatsdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

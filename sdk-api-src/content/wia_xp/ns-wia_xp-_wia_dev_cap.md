@@ -1,16 +1,16 @@
 ---
 UID: NS:wia_xp._WIA_DEV_CAP
 title: "_WIA_DEV_CAP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Applications use the WIA_DEV_CAP structure to enumerate device capabilities. A device capability is defined by an event or command that the device supports. For more information, see IEnumWIA_DEV_CAPS.
 old-location: wia\_wia_WIA_DEV_CAP.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_dev_cap.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: "*PWIA_DEV_CAP, *PWIA_EVENT_HANDLER, PWIA_DEV_CAP, PWIA_DEV_CAP structure pointer [WIA], PWIA_EVENT_HANDLER, PWIA_EVENT_HANDLER structure pointer [WIA], WIA_DEV_CAP, WIA_DEV_CAP structure [WIA], WIA_EVENT_HANDLER, WIA_EVENT_HANDLER structure [WIA], _WIA_DEV_CAP, _wia_WIA_DEV_CAP, wia._wia_WIA_DEV_CAP, wia_xp/PWIA_DEV_CAP, wia_xp/PWIA_EVENT_HANDLER, wia_xp/WIA_DEV_CAP, wia_xp/WIA_EVENT_HANDLER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wia_xp.h
 req.include-header: Wia.h

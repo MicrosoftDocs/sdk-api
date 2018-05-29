@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineGetCallInfoA
 title: lineGetCallInfoA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineGetCallInfo function enables an application to obtain fixed information about the specified call.
 old-location: tapi2\linegetcallinfo.htm
 old-project: Tapi
 ms.assetid: e69722cb-9c45-4f1a-a855-64afa3c33276
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linegetcallinfo, lineGetCallInfo, lineGetCallInfo function [TAPI 2.2], lineGetCallInfoA, lineGetCallInfoW, tapi/lineGetCallInfo, tapi/lineGetCallInfoA, tapi/lineGetCallInfoW, tapi2.linegetcallinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

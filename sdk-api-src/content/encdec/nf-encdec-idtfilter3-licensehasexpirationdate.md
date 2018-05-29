@@ -1,16 +1,16 @@
 ---
 UID: NF:encdec.IDTFilter3.LicenseHasExpirationDate
 title: IDTFilter3::LicenseHasExpirationDate
-author: windows-driver-content
+author: windows-sdk-content
 description: The LicenseHasExpirationDate method queries whether the license for the content has an expiration date.
 old-location: mstv\idtfilter3_licensehasexpirationdate.htm
 old-project: mstv
 ms.assetid: 712be51a-27ed-4ede-bef6-9223c57f446f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDTFilter3 interface [Microsoft TV Technologies],LicenseHasExpirationDate method, IDTFilter3.LicenseHasExpirationDate, IDTFilter3::LicenseHasExpirationDate, IDTFilter3LicenseHasExpirationDate, LicenseHasExpirationDate, LicenseHasExpirationDate method [Microsoft TV Technologies], LicenseHasExpirationDate method [Microsoft TV Technologies],IDTFilter3 interface, encdec/IDTFilter3::LicenseHasExpirationDate, mstv.idtfilter3_licensehasexpirationdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

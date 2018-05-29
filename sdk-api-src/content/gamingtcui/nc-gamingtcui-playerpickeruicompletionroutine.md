@@ -1,16 +1,16 @@
 ---
 UID: NC:gamingtcui.PlayerPickerUICompletionRoutine
 title: PlayerPickerUICompletionRoutine
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\playerpickeruicompletionroutine.htm
 old-project: tcui
 ms.assetid: 301AB1B0-BABA-4971-A301-5AEDD2F32B31
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: PlayerPickerUICompletionRoutine, PlayerPickerUICompletionRoutine callback, PlayerPickerUICompletionRoutine callback function, gamingtcui/PlayerPickerUICompletionRoutine, tcui.playerpickeruicompletionroutine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: gamingtcui.h
 req.include-header: 

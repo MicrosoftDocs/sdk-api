@@ -1,16 +1,16 @@
 ---
 UID: NL:vswriter.IVssWMFiledesc
 title: IVssWMFiledesc
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVssWMFiledesc interface is a C++ (not COM) interface returned to a calling application by a number of query methods. It provides detailed information about a file or set of files (a file set).
 old-location: base\ivsswmfiledesc.htm
 old-project: VSS
 ms.assetid: 0b86882d-af1b-4a09-8c25-5b806c9ca909
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssWMFiledesc, IVssWMFiledesc interface [VSS], IVssWMFiledesc interface [VSS],described, _win32_ivsswmfiledesc, base.ivsswmfiledesc, vswriter/IVssWMFiledesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfsharingengine.IMFMediaSharingEngineClassFactory.CreateInstance
 title: IMFMediaSharingEngineClassFactory::CreateInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instance of the IMFMediaSharingEngine.
 old-location: mf\imfmediasharingengineclassfactory_createinstance.htm
 old-project: medfound
 ms.assetid: D0FD55A1-0387-4450-8F05-3AC7E943F437
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFMediaSharingEngineClassFactory interface, IMFMediaSharingEngineClassFactory interface [Media Foundation],CreateInstance method, IMFMediaSharingEngineClassFactory.CreateInstance, IMFMediaSharingEngineClassFactory::CreateInstance, mf.imfmediasharingengineclassfactory_createinstance, mfsharingengine/IMFMediaSharingEngineClassFactory::CreateInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfsharingengine.h
 req.include-header: 

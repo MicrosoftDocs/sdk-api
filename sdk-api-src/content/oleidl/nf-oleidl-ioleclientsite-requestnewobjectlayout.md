@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleClientSite.RequestNewObjectLayout
 title: IOleClientSite::RequestNewObjectLayout
-author: windows-driver-content
+author: windows-sdk-content
 description: Asks a container to resize the display site for embedded objects.
 old-location: com\ioleclientsite_requestnewobjectlayout.htm
 old-project: com
 ms.assetid: 68867ddd-fad0-4eef-8e5c-8198366e8e64
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleClientSite interface [COM],RequestNewObjectLayout method, IOleClientSite.RequestNewObjectLayout, IOleClientSite::RequestNewObjectLayout, RequestNewObjectLayout, RequestNewObjectLayout method [COM], RequestNewObjectLayout method [COM],IOleClientSite interface, _ole_ioleclientsite_requestnewobjectlayout, com.ioleclientsite_requestnewobjectlayout, oleidl/IOleClientSite::RequestNewObjectLayout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

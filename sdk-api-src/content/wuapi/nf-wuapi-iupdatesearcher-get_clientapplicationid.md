@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.get_ClientApplicationID
 title: IUpdateSearcher::get_ClientApplicationID
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the current client application.
 old-location: wua\iupdatesearcherclientapplicationid.htm
 old-project: Wua_Sdk
 ms.assetid: 5b9ae823-5304-4ec4-937e-684d35bd3aed
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ClientApplicationID property [Windows Update Agent], ClientApplicationID property [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],ClientApplicationID property, IUpdateSearcher.ClientApplicationID, IUpdateSearcher.get_ClientApplicationID, IUpdateSearcher::ClientApplicationID, IUpdateSearcher::get_ClientApplicationID, IUpdateSearcher::put_ClientApplicationID, get_ClientApplicationID, wua.iupdatesearcherclientapplicationid, wuapi/IUpdateSearcher::ClientApplicationID, wuapi/IUpdateSearcher::get_ClientApplicationID, wuapi/IUpdateSearcher::put_ClientApplicationID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

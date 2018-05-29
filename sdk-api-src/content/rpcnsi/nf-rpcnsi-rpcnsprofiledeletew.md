@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsProfileDeleteW
 title: RpcNsProfileDeleteW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsProfileDelete function deletes a profile attribute.
 old-location: rpc\rpcnsprofiledelete.htm
 old-project: Rpc
 ms.assetid: bac77a37-a4e8-4edf-a31b-28692ccec0f7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsProfileDelete, RpcNsProfileDelete function [RPC], RpcNsProfileDeleteA, RpcNsProfileDeleteW, _rpc_rpcnsprofiledelete, rpc.rpcnsprofiledelete, rpcnsi/RpcNsProfileDelete, rpcnsi/RpcNsProfileDeleteA, rpcnsi/RpcNsProfileDeleteW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

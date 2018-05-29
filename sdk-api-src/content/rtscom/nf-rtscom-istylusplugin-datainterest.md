@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IStylusPlugin.DataInterest
 title: IStylusPlugin::DataInterest
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the events for which the plug-in is to receive notifications.
 old-location: tablet\istylusplugin_datainterest.htm
 old-project: tablet
 ms.assetid: 7ff6ccf2-292c-4321-be2a-d6db7ce14943
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 7ff6ccf2-292c-4321-be2a-d6db7ce14943, DataInterest, DataInterest method [Tablet PC], DataInterest method [Tablet PC],IStylusPlugin interface, IStylusPlugin interface [Tablet PC],DataInterest method, IStylusPlugin.DataInterest, IStylusPlugin::DataInterest, rtscom/IStylusPlugin::DataInterest, tablet.istylusplugin_datainterest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

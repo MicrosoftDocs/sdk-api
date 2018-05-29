@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3cc.IEnumACDGroup.Next
 title: IEnumACDGroup::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumacdgroup_next.htm
 old-project: Tapi
 ms.assetid: 20cad3aa-2c8c-4ef8-bb3a-b7662b125475
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumACDGroup interface [TAPI 2.2],Next method, IEnumACDGroup.Next, IEnumACDGroup::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumACDGroup interface, _tapi3_ienumacdgroup_next, tapi3.ienumacdgroup_next, tapi3cc/IEnumACDGroup::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.GetUnbufferedIO
 title: IWMWriterFileSink3::GetUnbufferedIO
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetUnbufferedIO method ascertains whether unbuffered I/O is used for the file sink.
 old-location: wmformat\iwmwriterfilesink3_getunbufferedio.htm
 old-project: wmformat
 ms.assetid: e87222eb-6ed1-49b7-a544-27703ba9806b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetUnbufferedIO, GetUnbufferedIO method [windows Media Format], GetUnbufferedIO method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],GetUnbufferedIO method, IWMWriterFileSink3.GetUnbufferedIO, IWMWriterFileSink3::GetUnbufferedIO, IWMWriterFileSink3GetUnbufferedIO, wmformat.iwmwriterfilesink3_getunbufferedio, wmsdkidl/IWMWriterFileSink3::GetUnbufferedIO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

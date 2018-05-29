@@ -1,16 +1,16 @@
 ---
 UID: NF:bdatif.IBDA_TIF_REGISTRATION.UnregisterTIF
 title: IBDA_TIF_REGISTRATION::UnregisterTIF
-author: windows-driver-content
+author: windows-sdk-content
 description: The UnregisterTIF method unregisters a Transport Information Filter (TIF) with the Network Provider.
 old-location: mstv\ibda_tif_registration_unregistertif.htm
 old-project: mstv
 ms.assetid: 6ba46145-6b77-4577-9611-0e0a155aa308
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies],UnregisterTIF method, IBDA_TIF_REGISTRATION.UnregisterTIF, IBDA_TIF_REGISTRATION::UnregisterTIF, IBDA_TIF_REGISTRATIONUnregisterTIF, UnregisterTIF, UnregisterTIF method [Microsoft TV Technologies], UnregisterTIF method [Microsoft TV Technologies],IBDA_TIF_REGISTRATION interface, bdatif/IBDA_TIF_REGISTRATION::UnregisterTIF, mstv.ibda_tif_registration_unregistertif
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

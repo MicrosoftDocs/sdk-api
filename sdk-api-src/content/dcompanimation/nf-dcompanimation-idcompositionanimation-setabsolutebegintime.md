@@ -1,16 +1,16 @@
 ---
 UID: NF:dcompanimation.IDCompositionAnimation.SetAbsoluteBeginTime
 title: IDCompositionAnimation::SetAbsoluteBeginTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the absolute time at which the animation function starts.
 old-location: directcomp\idcompositionanimation_setabsolutebegintime.htm
 old-project: directcomp
 ms.assetid: 661049EC-DAA2-46A5-B600-C3F0EF8B3EDF
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionAnimation interface [DirectComposition],SetAbsoluteBeginTime method, IDCompositionAnimation.SetAbsoluteBeginTime, IDCompositionAnimation::SetAbsoluteBeginTime, SetAbsoluteBeginTime, SetAbsoluteBeginTime method [DirectComposition], SetAbsoluteBeginTime method [DirectComposition],IDCompositionAnimation interface, dcompanimation/IDCompositionAnimation::SetAbsoluteBeginTime, directcomp.idcompositionanimation_setabsolutebegintime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dcompanimation.h
 req.include-header: 

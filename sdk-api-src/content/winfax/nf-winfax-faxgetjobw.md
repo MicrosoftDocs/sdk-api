@@ -1,16 +1,16 @@
 ---
 UID: NF:winfax.FaxGetJobW
 title: FaxGetJobW function
-author: windows-driver-content
+author: windows-sdk-content
 description: A fax client application calls the FaxGetJob function to retrieve detailed information for the specified queued or active fax job. The function returns the information in a FAX_JOB_ENTRY structure.
 old-location: fax\_mfax_faxgetjob.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6jz6.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxGetJob, FaxGetJob function [Fax Service], FaxGetJobA, FaxGetJobW, _mfax_faxgetjob, fax._mfax_faxgetjob, winfax/FaxGetJob, winfax/FaxGetJobA, winfax/FaxGetJobW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.FtpDeleteFileA
 title: FtpDeleteFileA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a file stored on the FTP server.
 old-location: wininet\ftpdeletefile.htm
 old-project: WinInet
 ms.assetid: 16723c97-fd6f-40c2-844d-fc6d2dcc1a32
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FtpDeleteFile, FtpDeleteFile function [WinINet], FtpDeleteFileA, FtpDeleteFileW, _inet_ftpdeletefile_function, wininet.ftpdeletefile, wininet/FtpDeleteFile, wininet/FtpDeleteFileA, wininet/FtpDeleteFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.PrepareRecord
 title: ICrmCompensator::PrepareRecord
-author: windows-driver-content
+author: windows-sdk-content
 description: Delivers a log record in forward order during the prepare phase.
 old-location: cos\icrmcompensator_preparerecord.htm
 old-project: cossdk
 ms.assetid: 12b4d0d5-29f3-4fbb-8091-1b7d5ba0adb4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICrmCompensator interface [COM+],PrepareRecord method, ICrmCompensator.PrepareRecord, ICrmCompensator::PrepareRecord, PrepareRecord, PrepareRecord method [COM+], PrepareRecord method [COM+],ICrmCompensator interface, _dtc_ICrmCompensator_PrepareRecord, comsvcs/ICrmCompensator::PrepareRecord, cos.icrmcompensator_preparerecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

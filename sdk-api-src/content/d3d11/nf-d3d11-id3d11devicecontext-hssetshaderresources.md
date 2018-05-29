@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.HSSetShaderResources
 title: ID3D11DeviceContext::HSSetShaderResources
-author: windows-driver-content
+author: windows-sdk-content
 description: Bind an array of shader resources to the hull-shader stage.
 old-location: direct3d11\id3d11devicecontext_hssetshaderresources.htm
 old-project: direct3d11
 ms.assetid: cb99cb22-a7e4-4472-b519-12bced9a45b8
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: HSSetShaderResources, HSSetShaderResources method [Direct3D 11], HSSetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSSetShaderResources method, ID3D11DeviceContext.HSSetShaderResources, ID3D11DeviceContext::HSSetShaderResources, d3d11/ID3D11DeviceContext::HSSetShaderResources, direct3d11.id3d11devicecontext_hssetshaderresources, e7e39206-8761-2097-5503-d31d970dd578
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

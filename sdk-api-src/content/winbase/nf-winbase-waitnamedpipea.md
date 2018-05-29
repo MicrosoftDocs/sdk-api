@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.WaitNamedPipeA
 title: WaitNamedPipeA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Waits until either a time-out interval elapses or an instance of the specified named pipe is available for connection (that is, the pipe's server process has a pending ConnectNamedPipe operation on the pipe).
 old-location: base\waitnamedpipe.htm
 old-project: ipc
 ms.assetid: cbb2300b-5d5f-4a7b-994b-63b747e9ccfc
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: NMPWAIT_USE_DEFAULT_WAIT, NMPWAIT_WAIT_FOREVER, WaitNamedPipe, WaitNamedPipe function, WaitNamedPipeA, WaitNamedPipeW, _win32_waitnamedpipe, base.waitnamedpipe, winbase/WaitNamedPipe, winbase/WaitNamedPipeA, winbase/WaitNamedPipeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

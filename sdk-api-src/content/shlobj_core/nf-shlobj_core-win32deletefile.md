@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.Win32DeleteFile
 title: Win32DeleteFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Win32DeleteFile may be altered or unavailable.
 old-location: shell\Win32DeleteFile.htm
 old-project: shell
 ms.assetid: e6b2ac77-a206-413e-aba7-0fd627799a95
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Win32DeleteFile, Win32DeleteFile function [Windows Shell], _shell_Win32DeleteFile, shell.Win32DeleteFile, shlobj_core/Win32DeleteFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

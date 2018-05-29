@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_RASTERIZER_DESC
 title: D3D11_RASTERIZER_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes rasterizer state.
 old-location: direct3d11\d3d11_rasterizer_desc.htm
 old-project: direct3d11
 ms.assetid: 53252fef-f557-46d1-b6a7-ccc8a059752a
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 2dbc005c-d339-7868-c653-8b43d3f9e828, D3D11_RASTERIZER_DESC, D3D11_RASTERIZER_DESC structure [Direct3D 11], d3d11/D3D11_RASTERIZER_DESC, direct3d11.d3d11_rasterizer_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

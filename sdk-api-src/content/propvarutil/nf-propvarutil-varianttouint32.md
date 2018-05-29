@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToUInt32
 title: VariantToUInt32 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts unsigned Int32 property value of a variant structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\VariantToUInt32.htm
 old-project: properties
 ms.assetid: 24421477-8930-4c8f-8fee-5d8367123c7e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToUInt32, VariantToUInt32 function [Windows Properties], _shell_VariantToUInt32, properties.VariantToUInt32, propvarutil/VariantToUInt32, shell.VariantToUInt32
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

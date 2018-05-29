@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhGetRawCounterArrayA
 title: PdhGetRawCounterArrayA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an array of raw values from the specified counter. Use this function when you want to retrieve the raw counter values of a counter that contains a wildcard character for the instance name.
 old-location: perf\pdhgetrawcounterarray.htm
 old-project: PerfCtrs
 ms.assetid: 03b30d08-6901-45cd-bd6d-d2672eb0f914
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhGetRawCounterArray, PdhGetRawCounterArray function [Perf], PdhGetRawCounterArrayA, PdhGetRawCounterArrayW, _win32_pdhgetrawcounterarray, base.pdhgetrawcounterarray, pdh/PdhGetRawCounterArray, pdh/PdhGetRawCounterArrayA, pdh/PdhGetRawCounterArrayW, perf.pdhgetrawcounterarray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

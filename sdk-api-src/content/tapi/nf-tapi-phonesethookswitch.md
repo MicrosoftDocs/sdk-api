@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneSetHookSwitch
 title: phoneSetHookSwitch function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneSetHookSwitch function sets the hook state of the specified open phone's hookswitch devices to the specified mode. Only the hookswitch state of the hookswitch devices listed is affected.
 old-location: tapi2\phonesethookswitch.htm
 old-project: Tapi
 ms.assetid: 048f98e3-ac1b-47f8-85c8-97e7b7690030
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phonesethookswitch, phoneSetHookSwitch, phoneSetHookSwitch function [TAPI 2.2], tapi/phoneSetHookSwitch, tapi2.phonesethookswitch"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

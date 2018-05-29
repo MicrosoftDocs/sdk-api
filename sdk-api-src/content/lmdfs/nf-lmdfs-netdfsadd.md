@@ -1,16 +1,16 @@
 ---
 UID: NF:lmdfs.NetDfsAdd
 title: NetDfsAdd function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new Distributed File System (DFS) link or adds targets to an existing link in a DFS namespace.
 old-location: dfs\netdfsadd.htm
 old-project: Dfs
 ms.assetid: 2c8816b2-5489-486e-b749-605932ba9fe9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DFS_ADD_VOLUME, DFS_RESTORE_VOLUME, NetDfsAdd, NetDfsAdd function [Distributed File System], _win32_netdfsadd, dfs.netdfsadd, fs.netdfsadd, lmdfs/NetDfsAdd, netmgmt.netdfsadd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

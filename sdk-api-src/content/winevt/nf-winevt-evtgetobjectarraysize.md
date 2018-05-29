@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtGetObjectArraySize
 title: EvtGetObjectArraySize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of elements in the array of objects.
 old-location: wes\evtgetobjectarraysize.htm
 old-project: WES
 ms.assetid: fc4043ac-48eb-400b-8cf6-b83cbbb2765c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtGetObjectArraySize, EvtGetObjectArraySize function [EventLog], wes.evtgetobjectarraysize, winevt/EvtGetObjectArraySize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.OpenEncryptedFileRawA
 title: OpenEncryptedFileRawA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an encrypted file in order to backup (export) or restore (import) the file.
 old-location: fs\openencryptedfileraw.htm
 old-project: FileIO
 ms.assetid: f792f38d-783e-4f39-a9d8-0c378d508d97
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CREATE_FOR_DIR, CREATE_FOR_IMPORT, OVERWRITE_HIDDEN, OpenEncryptedFileRaw, OpenEncryptedFileRaw function [Files], OpenEncryptedFileRawA, OpenEncryptedFileRawW, base.openencryptedfileraw, fs.openencryptedfileraw, winbase/OpenEncryptedFileRaw, winbase/OpenEncryptedFileRawA, winbase/OpenEncryptedFileRawW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

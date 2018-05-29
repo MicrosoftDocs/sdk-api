@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.CreateNamedPropertyStore
 title: CreateNamedPropertyStore function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an empty property store to hold name/value pairs.
 old-location: mf\createnamedpropertystore.htm
 old-project: medfound
 ms.assetid: 21f12bc1-606a-4ce8-bc8d-608d4d7cfc46
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 21f12bc1-606a-4ce8-bc8d-608d4d7cfc46, CreateNamedPropertyStore, CreateNamedPropertyStore function [Media Foundation], mf.createnamedpropertystore, mfidl/CreateNamedPropertyStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.NotifyServiceStateChange
 title: IWRdsProtocolManager::NotifyServiceStateChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the protocol provider that the state of the Remote Desktop Services service is changing.
 old-location: termserv\iwrdsprotocolmanager_notifyservicestatechange.htm
 old-project: TermServ
 ms.assetid: 32b2a05a-d5de-4f2f-bcaa-587cf22aa5c5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsProtocolManager interface [Remote Desktop Services],NotifyServiceStateChange method, IWRdsProtocolManager.NotifyServiceStateChange, IWRdsProtocolManager::NotifyServiceStateChange, NotifyServiceStateChange, NotifyServiceStateChange method [Remote Desktop Services], NotifyServiceStateChange method [Remote Desktop Services],IWRdsProtocolManager interface, termserv.iwrdsprotocolmanager_notifyservicestatechange, wtsprotocol/IWRdsProtocolManager::NotifyServiceStateChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

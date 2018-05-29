@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzRoleAssignment
 title: IAzRoleAssignment
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a role to which users and groups can be assigned.
 old-location: security\iazroleassignment.htm
 old-project: SecAuthZ
 ms.assetid: 3f0b926f-77f4-4477-b155-5f866822baba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzRoleAssignment, IAzRoleAssignment interface [Security], IAzRoleAssignment interface [Security],described, azroles/IAzRoleAssignment, security.iazroleassignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

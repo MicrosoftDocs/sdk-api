@@ -1,16 +1,16 @@
 ---
 UID: NS:eaptypes.EAP_UI_DATA_FORMAT
 title: EAP_UI_DATA_FORMAT
-author: windows-driver-content
+author: windows-sdk-content
 description: The EAP_UI_DATA_FORMAT union specifies the value of the attribute stored in the pbUiData member of the EAP_INTERACTIVE_UI_DATA structure.
 old-location: eaphost\eap_ui_data_format.htm
 old-project: EAPHost
 ms.assetid: e4b49cbd-b50d-474c-b6b5-8ff858eca424
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EAP_UI_DATA_FORMAT, EAP_UI_DATA_FORMAT union [EAPHost], eaphost.eap_ui_data_format, eaptypes/EAP_UI_DATA_FORMAT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

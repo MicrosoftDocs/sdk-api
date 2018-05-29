@@ -1,16 +1,16 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.Progress
 title: ISyncMgrSynchronizeCallback::Progress
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by a registered application to update the progress information and determine whether an operation should continue.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_progress.htm
 old-project: shell
 ms.assetid: 924310aa-e210-476d-b532-f235de943498
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],Progress method, ISyncMgrSynchronizeCallback.Progress, ISyncMgrSynchronizeCallback::Progress, Progress, Progress method [Windows Shell], Progress method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::Progress, shell.syncmgr_isyncmgrsynchronizecallback_progress, syncmgr.isyncmgrsynchronizecallback_progress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:clusapi._MAINTENANCE_MODE_TYPE_ENUM
 title: "_MAINTENANCE_MODE_TYPE_ENUM"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the possible states that a storage class resource can be placed in when marked for maintenance.
 old-location: mscs\maintenance_mode_type_enum.htm
 old-project: MsCS
 ms.assetid: b71f6a3b-4c9d-49f9-b60f-ee4c4fb6b169
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PMAINTENANCE_MODE_TYPE_ENUM, MAINTENANCE_MODE_TYPE_ENUM, MAINTENANCE_MODE_TYPE_ENUM enumeration [Failover Cluster], MaintenanceModeTypeDisableIsAliveCheck, MaintenanceModeTypeOfflineResource, MaintenanceModeTypeUnclusterResource, PMAINTENANCE_MODE_TYPE_ENUM, PMAINTENANCE_MODE_TYPE_ENUM enumeration pointer [Failover Cluster], _MAINTENANCE_MODE_TYPE_ENUM, clusapi/MAINTENANCE_MODE_TYPE_ENUM, clusapi/MaintenanceModeTypeDisableIsAliveCheck, clusapi/MaintenanceModeTypeOfflineResource, clusapi/MaintenanceModeTypeUnclusterResource, clusapi/PMAINTENANCE_MODE_TYPE_ENUM, mscs.maintenance_mode_type_enum"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.RtlQueryDepthSList
 title: RtlQueryDepthSList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of entries in the specified singly linked list.
 old-location: base\rtlquerydepthslist.htm
 old-project: Sync
 ms.assetid: 5a73b181-e1ea-459a-b3b0-6cf16980930c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtlQueryDepthSList, RtlQueryDepthSList function, base.rtlquerydepthslist, winnt/RtlQueryDepthSList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

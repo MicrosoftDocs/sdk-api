@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxPort.get_Priority
 title: IFaxPort::get_Priority
-author: windows-driver-content
+author: windows-sdk-content
 description: The Priority property is a number representing the transmission priority designated for a specified fax port. Priority determines the relative order in which available fax devices send outgoing transmissions.
 old-location: fax\_mfax_ifaxport_get_priority_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0515.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxPort object [Fax Service],Priority property, FaxPort.Priority, IFaxPort.get_Priority, IFaxPort::get_Priority, Priority property [Fax Service], Priority property [Fax Service],FaxPort object, _mfax_ifaxport_get_priority, fax._mfax_ifaxport_get_priority, fax._mfax_ifaxport_get_priority_vb, get_Priority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

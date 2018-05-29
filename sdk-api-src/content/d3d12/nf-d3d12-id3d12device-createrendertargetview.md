@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateRenderTargetView
 title: ID3D12Device::CreateRenderTargetView
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a render-target view for accessing resource data.
 old-location: direct3d12\id3d12device_createrendertargetview.htm
 old-project: direct3d12
 ms.assetid: B5BFAE54-4FAC-47E5-A7F1-3F9E78FED3B4
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: CreateRenderTargetView, CreateRenderTargetView method, CreateRenderTargetView method,ID3D12Device interface, ID3D12Device interface,CreateRenderTargetView method, ID3D12Device.CreateRenderTargetView, ID3D12Device::CreateRenderTargetView, d3d12/ID3D12Device::CreateRenderTargetView, direct3d12.id3d12device_createrendertargetview
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

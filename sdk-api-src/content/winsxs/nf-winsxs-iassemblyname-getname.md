@@ -1,16 +1,16 @@
 ---
 UID: NF:winsxs.IAssemblyName.GetName
 title: IAssemblyName::GetName
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetName method returns the name portion of the assembly name.
 old-location: setup\iassemblyname_getname.htm
 old-project: SbsCs
 ms.assetid: b27ebe4e-02b6-473f-a8cb-c68a3e65e493
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetName, GetName method [Side-by-side Assemblies], GetName method [Side-by-side Assemblies],IAssemblyName interface, IAssemblyName interface [Side-by-side Assemblies],GetName method, IAssemblyName.GetName, IAssemblyName::GetName, setup.iassemblyname_getname, winsxs/IAssemblyName::GetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsxs.h
 req.include-header: 

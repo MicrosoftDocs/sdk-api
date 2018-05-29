@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.GetByKey
 title: IXpsOMDictionary::GetByKey
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IXpsOMShareable interface pointer of the entry that contains the specified key.
 old-location: xps\ixpsomdictionary_getbykey.htm
 old-project: printdocs
 ms.assetid: 6efc2fed-e372-4416-9645-50c1430f0e75
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetByKey, GetByKey method [XPS Documents and Packaging], GetByKey method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetByKey method, IXpsOMDictionary.GetByKey, IXpsOMDictionary::GetByKey, xps.ixpsomdictionary_getbykey, xpsobjectmodel/IXpsOMDictionary::GetByKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

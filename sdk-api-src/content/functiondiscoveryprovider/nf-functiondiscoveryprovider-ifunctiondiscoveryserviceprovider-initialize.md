@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryServiceProvider.Initialize
 title: IFunctionDiscoveryServiceProvider::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an object that provides a specific interface that has been bound to the resource represented by the function instance.
 old-location: ncd\ifunctiondiscoveryserviceprovider_initialize_method.htm
 old-project: FunDisc
 ms.assetid: 339f6d42-20ea-4fd3-b03c-0cf34330baa0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IFunctionDiscoveryServiceProvider interface,Initialize method, IFunctionDiscoveryServiceProvider.Initialize, IFunctionDiscoveryServiceProvider::Initialize, Initialize, Initialize method, Initialize method,IFunctionDiscoveryServiceProvider interface, functiondiscoveryprovider/IFunctionDiscoveryServiceProvider::Initialize, ncd.ifunctiondiscoveryserviceprovider_initialize_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

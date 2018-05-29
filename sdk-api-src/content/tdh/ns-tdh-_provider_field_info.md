@@ -1,16 +1,16 @@
 ---
 UID: NS:tdh._PROVIDER_FIELD_INFO
 title: "_PROVIDER_FIELD_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the field information.
 old-location: etw\provider_field_info_struct.htm
 old-project: ETW
 ms.assetid: a7c88c25-3acc-42aa-bf2b-bc7651e84f8c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PPROVIDER_FIELD_INFO, PROVIDER_FIELD_INFO, PROVIDER_FIELD_INFO structure [ETW], _PROVIDER_FIELD_INFO, etw.provider_field_info_struct, tdh.provider_field_info_struct, tdh/PROVIDER_FIELD_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 

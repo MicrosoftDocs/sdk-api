@@ -1,16 +1,16 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_ExpandPostInsertionCorrection
 title: ITextInputPanel::get_ExpandPostInsertionCorrection
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a value that indicates whether the correction comb on the Tablet PC Input Panel is automatically expanded.
 old-location: tablet\itextinputpanel_expandpostinsertioncorrection.htm
 old-project: tablet
 ms.assetid: fda9ac46-7aa0-4991-94df-d71772b90726
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ExpandPostInsertionCorrection property [Tablet PC], ExpandPostInsertionCorrection property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],ExpandPostInsertionCorrection property, ITextInputPanel.ExpandPostInsertionCorrection, ITextInputPanel.get_ExpandPostInsertionCorrection, ITextInputPanel.put_ExpandPostInsertionCorrection, ITextInputPanel::ExpandPostInsertionCorrection, ITextInputPanel::get_ExpandPostInsertionCorrection, ITextInputPanel::put_ExpandPostInsertionCorrection, fda9ac46-7aa0-4991-94df-d71772b90726, get_ExpandPostInsertionCorrection, peninputpanel/ITextInputPanel::ExpandPostInsertionCorrection, peninputpanel/ITextInputPanel::get_ExpandPostInsertionCorrection, peninputpanel/ITextInputPanel::put_ExpandPostInsertionCorrection, tablet.itextinputpanel_expandpostinsertioncorrection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

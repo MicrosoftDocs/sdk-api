@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.IActionCollection
 title: IActionCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the actions that are performed by the task.
 old-location: taskschd\iactioncollection.htm
 old-project: TaskSchd
 ms.assetid: aa7781b6-2600-4af5-95b8-2ac7928946fa
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IActionCollection, IActionCollection interface [Task Scheduler], IActionCollection interface [Task Scheduler],described, actions [Task Scheduler],collection interface, taskschd.iactioncollection, taskschd/IActionCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

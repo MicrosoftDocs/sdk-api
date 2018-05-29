@@ -1,16 +1,16 @@
 ---
 UID: NF:prsht.PropSheet_Apply
 title: PropSheet_Apply macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Simulates the selection of the Apply button, indicating that one or more pages have changed and the changes need to be validated and recorded. You can use this macro or send the PSM_APPLY message explicitly.
 old-location: controls\PropSheet_Apply.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_apply.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropSheet_Apply, PropSheet_Apply macro [Windows Controls], _win32_PropSheet_Apply, _win32_PropSheet_Apply_cpp, controls.PropSheet_Apply, controls._win32_PropSheet_Apply, prsht/PropSheet_Apply
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

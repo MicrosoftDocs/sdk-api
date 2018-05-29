@@ -1,16 +1,16 @@
 ---
 UID: NS:accctrl._ACTRL_PROPERTY_ENTRYA
 title: "_ACTRL_PROPERTY_ENTRYA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a list of access-control entries for an object or a specified property on an object.
 old-location: com\actrl_property_entry.htm
 old-project: com
 ms.assetid: 90b13dd1-0ca6-4674-b9fa-a61aed4637d7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PACTRL_PROPERTY_ENTRYA, ACTRL_ACCESS_PROTECTED, ACTRL_PROPERTY_ENTRY, ACTRL_PROPERTY_ENTRY structure [COM], ACTRL_PROPERTY_ENTRYA, ACTRL_PROPERTY_ENTRYW, PACTRL_PROPERTY_ENTRY, PACTRL_PROPERTY_ENTRY structure pointer [COM], _ACTRL_PROPERTY_ENTRYA, _ACTRL_PROPERTY_ENTRYW, accctrl/ACTRL_PROPERTY_ENTRY, accctrl/ACTRL_PROPERTY_ENTRYA, accctrl/ACTRL_PROPERTY_ENTRYW, accctrl/PACTRL_PROPERTY_ENTRY, com.actrl_property_entry"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: accctrl.h
 req.include-header: 

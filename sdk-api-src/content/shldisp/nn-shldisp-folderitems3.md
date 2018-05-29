@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.FolderItems3
 title: FolderItems3
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the FolderItems2 object. This object supports an additional method and property.
 old-location: shell\FolderItems3_Object.htm
 old-project: shell
 ms.assetid: e8ffe325-e6ae-4fa0-9824-22721c2d97c8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FolderItems3, FolderItems3 object [Windows Shell], FolderItems3 object [Windows Shell],described, _win32_FolderItems3_Object, shell.FolderItems3_Object, shldisp/FolderItems3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

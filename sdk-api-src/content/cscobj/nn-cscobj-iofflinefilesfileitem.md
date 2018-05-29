@@ -1,16 +1,16 @@
 ---
 UID: NN:cscobj.IOfflineFilesFileItem
 title: IOfflineFilesFileItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a file item in the Offline Files cache.
 old-location: of\iofflinefilesfileitem.htm
 old-project: OfflineFiles
 ms.assetid: 53b9af4b-7526-4b54-bae2-61c97aa67ebf
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesFileItem, IOfflineFilesFileItem interface [Offline Files], IOfflineFilesFileItem interface [Offline Files],described, cscobj/IOfflineFilesFileItem, of.iofflinefilesfileitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

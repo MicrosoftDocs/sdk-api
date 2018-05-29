@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SaslGetProfilePackageW
 title: SaslGetProfilePackageW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the package information for the specified package.
 old-location: security\saslgetprofilepackage.htm
 old-project: SecAuthN
 ms.assetid: b7cecc5f-775f-40ba-abfc-27d51b3f5395
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SaslGetProfilePackage, SaslGetProfilePackage function [Security], SaslGetProfilePackageA, SaslGetProfilePackageW, security.saslgetprofilepackage, sspi/SaslGetProfilePackage, sspi/SaslGetProfilePackageA, sspi/SaslGetProfilePackageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

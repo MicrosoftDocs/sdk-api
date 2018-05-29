@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IAnalogAudioComponentType.put_AnalogAudioMode
 title: IAnalogAudioComponentType::put_AnalogAudioMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_AnalogAudioMode method specifies the analog audio mode.
 old-location: mstv\ianalogaudiocomponenttype_put_analogaudiomode.htm
 old-project: mstv
 ms.assetid: cb3c4db6-8364-4c95-82d5-62276f26c7bb
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAnalogAudioComponentType interface [Microsoft TV Technologies],put_AnalogAudioMode method, IAnalogAudioComponentType.put_AnalogAudioMode, IAnalogAudioComponentType::put_AnalogAudioMode, IAnalogAudioComponentTypeput_AnalogAudioMode, mstv.ianalogaudiocomponenttype_put_analogaudiomode, put_AnalogAudioMode, put_AnalogAudioMode method [Microsoft TV Technologies], put_AnalogAudioMode method [Microsoft TV Technologies],IAnalogAudioComponentType interface, tuner/IAnalogAudioComponentType::put_AnalogAudioMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

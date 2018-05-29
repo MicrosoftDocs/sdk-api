@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IPicture.get_KeepOriginalFormat
 title: IPicture::get_KeepOriginalFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current value of the picture's KeepOriginalFormat property.
 old-location: com\ipicture_get_keeporiginalformat.htm
 old-project: com
 ms.assetid: 90befcb7-138f-4c63-a6ec-ec06c89b3317
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPicture interface [COM],get_KeepOriginalFormat method, IPicture.get_KeepOriginalFormat, IPicture::get_KeepOriginalFormat, _ctrl_ipicture_get_keeporiginalformat, com.ipicture_get_keeporiginalformat, get_KeepOriginalFormat, get_KeepOriginalFormat method [COM], get_KeepOriginalFormat method [COM],IPicture interface, ocidl/IPicture::get_KeepOriginalFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

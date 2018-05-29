@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMWatermarkInfo
 title: IWMWatermarkInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMWatermarkInfo interface retrieves information about available watermarking systems.
 old-location: wmformat\iwmwatermarkinfo.htm
 old-project: wmformat
 ms.assetid: 4bdad433-31d1-442c-9701-f3748245070d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMWatermarkInfo, IWMWatermarkInfo interface [windows Media Format], IWMWatermarkInfo interface [windows Media Format],described, IWMWatermarkInfoInterface, wmformat.iwmwatermarkinfo, wmsdkidl/IWMWatermarkInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

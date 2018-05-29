@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_ObjectDecl
 title: "_MI_ObjectDecl"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains properties common to the MI_ClassDecl and MI_PropertyDecl structures.
 old-location: wmi_v2\mi_objectdecl.htm
 old-project: wmi_v2
 ms.assetid: 8759FEE5-9703-443E-9A2D-982158BC2EFA
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_ObjectDecl, MI_ObjectDecl structure [Windows Management Infrastructure (MI)], _MI_ObjectDecl, mi/MI_ObjectDecl, wmi_v2.mi_objectdecl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

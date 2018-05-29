@@ -1,16 +1,16 @@
 ---
 UID: NF:lmdfs.NetDfsGetSupportedNamespaceVersion
 title: NetDfsGetSupportedNamespaceVersion function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the supported metadata version number.
 old-location: dfs\netdfsgetsupportednamespaceversion.htm
 old-project: Dfs
 ms.assetid: 32ccf4a7-9d07-45e1-93db-29eddee01680
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: NetDfsGetSupportedNamespaceVersion, NetDfsGetSupportedNamespaceVersion function [Distributed File System], dfs.netdfsgetsupportednamespaceversion, fs.netdfsgetsupportednamespaceversion, lmdfs/NetDfsGetSupportedNamespaceVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

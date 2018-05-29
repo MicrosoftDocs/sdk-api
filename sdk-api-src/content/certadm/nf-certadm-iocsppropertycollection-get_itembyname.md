@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.get_ItemByName
 title: IOCSPPropertyCollection::get_ItemByName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the property identified by name in a property set.
 old-location: security\iocsppropertycollection_itembyname_method.htm
 old-project: SecCrypto
 ms.assetid: 0f7fe732-1d76-49c0-8b1e-a9950c85ca59
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],ItemByName property, IOCSPPropertyCollection.ItemByName, IOCSPPropertyCollection.get_ItemByName, IOCSPPropertyCollection::ItemByName, IOCSPPropertyCollection::get_ItemByName, ItemByName property [Security], ItemByName property [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::ItemByName, certadm/IOCSPPropertyCollection::get_ItemByName, get_ItemByName, security.iocsppropertycollection_itembyname_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

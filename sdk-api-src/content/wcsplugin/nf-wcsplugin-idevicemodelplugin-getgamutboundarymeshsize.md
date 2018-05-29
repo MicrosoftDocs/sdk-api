@@ -1,16 +1,16 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetGamutBoundaryMeshSize
 title: IDeviceModelPlugIn::GetGamutBoundaryMeshSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the required data structure sizes for the GetGamutBoundaryMesh function.
 old-location: wcs\IDeviceModelPlugIn_GetGamutBoundaryMeshSize.htm
 old-project: WCS
 ms.assetid: 302f8008-c65d-4794-9297-8b47e29e36ce
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetGamutBoundaryMeshSize, GetGamutBoundaryMeshSize method [Windows Color System], GetGamutBoundaryMeshSize method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetGamutBoundaryMeshSize method, IDeviceModelPlugIn.GetGamutBoundaryMeshSize, IDeviceModelPlugIn::GetGamutBoundaryMeshSize, _color_IDeviceModelPlugIn::GetGamutBoundaryMeshSize, wcs.IDeviceModelPlugIn_GetGamutBoundaryMeshSize, wcsplugin/IDeviceModelPlugIn::GetGamutBoundaryMeshSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpGetClientInfoVQ
 title: DhcpGetClientInfoVQ function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves DHCP client lease record information from the DHCP server database.
 old-location: dhcp\dhcpgetclientinfovq.htm
 old-project: DHCP
 ms.assetid: e8ed729b-12c2-4179-b7ef-6c71acf2672e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpGetClientInfoVQ, DhcpGetClientInfoVQ function [DHCP], dhcp.dhcpgetclientinfovq, dhcpsapi/DhcpGetClientInfoVQ
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

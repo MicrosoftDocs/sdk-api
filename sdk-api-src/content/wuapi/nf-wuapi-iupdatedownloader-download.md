@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.Download
 title: IUpdateDownloader::Download
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts a synchronous download of the content files that are associated with the updates.
 old-location: wua\iupdatedownloader_download.htm
 old-project: Wua_Sdk
 ms.assetid: 8b860632-3d10-4791-b4b3-d37aad319a0a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Download, Download method [Windows Update Agent], Download method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],Download method, IUpdateDownloader.Download, IUpdateDownloader::Download, wua.iupdatedownloader_download, wuapi/IUpdateDownloader::Download
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

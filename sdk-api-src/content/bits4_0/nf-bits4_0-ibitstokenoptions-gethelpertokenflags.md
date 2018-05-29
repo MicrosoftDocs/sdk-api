@@ -1,16 +1,16 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.GetHelperTokenFlags
 title: IBitsTokenOptions::GetHelperTokenFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the usage flags for a token that is associated with a BITS transfer job.
 old-location: bits\ibitstokenoptions_gethelpertokenflags.htm
 old-project: Bits
 ms.assetid: d00596bf-7695-4a5e-8d13-4700876fdef6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BG_TOKEN_LOCAL_FILE, BG_TOKEN_NETWORK, GetHelperTokenFlags, GetHelperTokenFlags method [BITS], GetHelperTokenFlags method [BITS],IBitsTokenOptions interface, IBitsTokenOptions interface [BITS],GetHelperTokenFlags method, IBitsTokenOptions.GetHelperTokenFlags, IBitsTokenOptions::GetHelperTokenFlags, bits.ibitstokenoptions_gethelpertokenflags, bits4_0/IBitsTokenOptions::GetHelperTokenFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits4_0.h
 req.include-header: 

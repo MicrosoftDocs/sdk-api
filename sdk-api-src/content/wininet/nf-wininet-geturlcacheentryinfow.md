@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.GetUrlCacheEntryInfoW
 title: GetUrlCacheEntryInfoW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a cache entry.
 old-location: wininet\geturlcacheentryinfo.htm
 old-project: WinInet
 ms.assetid: 0f70bcef-2d56-4765-a44e-4549b4ae2ced
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetUrlCacheEntryInfo, GetUrlCacheEntryInfo function [WinINet], GetUrlCacheEntryInfoA, GetUrlCacheEntryInfoW, _inet_geturlcacheentryinfo_function, wininet.geturlcacheentryinfo, wininet/GetUrlCacheEntryInfo, wininet/GetUrlCacheEntryInfoA, wininet/GetUrlCacheEntryInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

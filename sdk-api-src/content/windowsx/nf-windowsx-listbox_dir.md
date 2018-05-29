@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.ListBox_Dir
 title: ListBox_Dir macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds names to the list displayed by a list box.
 old-location: controls\ListBox_Dir.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_dir.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListBox_Dir, ListBox_Dir macro [Windows Controls], _win32_ListBox_Dir, _win32_ListBox_Dir_cpp, controls.ListBox_Dir, controls._win32_ListBox_Dir, windowsx/ListBox_Dir
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

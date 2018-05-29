@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IWriteSpeedDescriptor.get_WriteSpeed
 title: IWriteSpeedDescriptor::get_WriteSpeed
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the supported write speed for writing to the media.
 old-location: imapi\iwritespeeddescriptor_get_writespeed.htm
 old-project: imapi
 ms.assetid: 9136a735-d902-48bc-bddd-297c1e32310e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IWriteSpeedDescriptor interface [IMAPI],get_WriteSpeed method, IWriteSpeedDescriptor.get_WriteSpeed, IWriteSpeedDescriptor::get_WriteSpeed, get_WriteSpeed, get_WriteSpeed method [IMAPI], get_WriteSpeed method [IMAPI],IWriteSpeedDescriptor interface, imapi.iwritespeeddescriptor_get_writespeed, imapi2/IWriteSpeedDescriptor::get_WriteSpeed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:callobj.ICallFrameEvents
 title: ICallFrameEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Delivers method call notifications.
 old-location: com\icallframeevents.htm
 old-project: com
 ms.assetid: 2f1e1b8d-6150-45e9-89e2-524d80df558d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ICallFrameEvents, ICallFrameEvents interface [COM], ICallFrameEvents interface [COM],described, _com_icallframeevents_interface, callobj/ICallFrameEvents, com.icallframeevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: callobj.h
 req.include-header: 

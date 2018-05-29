@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IIPDVDec
 title: IIPDVDec
-author: windows-driver-content
+author: windows-sdk-content
 description: The IIPDVDec interface provides methods for setting and retrieving properties on the DV Video Decoder filter.
 old-location: dshow\iipdvdec.htm
 old-project: DirectShow
 ms.assetid: 0e40841a-e297-4c05-aefa-7131de9c6a97
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IIPDVDec, IIPDVDec interface [DirectShow], IIPDVDec interface [DirectShow],described, IIPDVDecInterface, dshow.iipdvdec, strmif/IIPDVDec
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_Tsid
 title: IFaxDoc::get_Tsid
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the Tsid property of a FaxDoc object. The Tsid property is a null-terminated string that contains a user-defined transmitting station identifier (TSID).
 old-location: fax\_mfax_ifaxdoc_get_tsid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3xyc.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxDoc object [Fax Service],Tsid property, FaxDoc.Tsid, IFaxDoc.get_Tsid, IFaxDoc::get_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_tsid, fax._mfax_ifaxdoc_get_tsid, fax._mfax_ifaxdoc_get_tsid_vb, get_Tsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

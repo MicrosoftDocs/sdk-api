@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeMgr.EnumDisplayAttributeInfo
 title: ITfDisplayAttributeMgr::EnumDisplayAttributeInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfDisplayAttributeMgr::EnumDisplayAttributeInfo method
 old-location: tsf\itfdisplayattributemgr_enumdisplayattributeinfo.htm
 old-project: TSF
 ms.assetid: ea0cb5b1-46a3-43c6-a109-1972d3fcbc18
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EnumDisplayAttributeInfo, EnumDisplayAttributeInfo method [Text Services Framework], EnumDisplayAttributeInfo method [Text Services Framework],ITfDisplayAttributeMgr interface, ITfDisplayAttributeMgr interface [Text Services Framework],EnumDisplayAttributeInfo method, ITfDisplayAttributeMgr.EnumDisplayAttributeInfo, ITfDisplayAttributeMgr::EnumDisplayAttributeInfo, _tsf_itfdisplayattributemgr_enumdisplayattributeinfo_ref, msctf/ITfDisplayAttributeMgr::EnumDisplayAttributeInfo, tsf.itfdisplayattributemgr_enumdisplayattributeinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

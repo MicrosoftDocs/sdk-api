@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateTopoLoader
 title: MFCreateTopoLoader function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new instance of the topology loader.
 old-location: mf\mfcreatetopoloader.htm
 old-project: medfound
 ms.assetid: 0c0173ef-9c29-465c-b725-ce38b220f94f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0c0173ef-9c29-465c-b725-ce38b220f94f, MFCreateTopoLoader, MFCreateTopoLoader function [Media Foundation], mf.mfcreatetopoloader, mfidl/MFCreateTopoLoader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

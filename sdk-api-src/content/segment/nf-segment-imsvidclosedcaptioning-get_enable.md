@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidClosedCaptioning.get_Enable
 title: IMSVidClosedCaptioning::get_Enable
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Enable method queries whether closed captioning is enabled.
 old-location: mstv\imsvidclosedcaptioning_get_enable.htm
 old-project: mstv
 ms.assetid: 2bb46aa7-fd94-4afa-9bba-769472e014ff
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidClosedCaptioning interface [Microsoft TV Technologies],get_Enable method, IMSVidClosedCaptioning.get_Enable, IMSVidClosedCaptioning::get_Enable, IMSVidClosedCaptioningget_Enable, get_Enable, get_Enable method [Microsoft TV Technologies], get_Enable method [Microsoft TV Technologies],IMSVidClosedCaptioning interface, mstv.imsvidclosedcaptioning_get_enable, segment/IMSVidClosedCaptioning::get_Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

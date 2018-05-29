@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnPinEvents.OnChangeComplete
 title: IMbnPinEvents::OnChangeComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that a PIN change operation has completed.
 old-location: mbn\imbnpinevents_onchangecomplete.htm
 old-project: mbn
 ms.assetid: 0aa9944f-2a5c-4589-a109-bc0214b03d04
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: E_FAIL, E_MBN_BAD_SIM, E_MBN_PIN_DISABLED, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinEvents interface [Microsoft Broadband Networks],OnChangeComplete method, IMbnPinEvents.OnChangeComplete, IMbnPinEvents::OnChangeComplete, OnChangeComplete, OnChangeComplete method [Microsoft Broadband Networks], OnChangeComplete method [Microsoft Broadband Networks],IMbnPinEvents interface, S_OK, mbn.imbnpinevents_onchangecomplete, mbnapi/IMbnPinEvents::OnChangeComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

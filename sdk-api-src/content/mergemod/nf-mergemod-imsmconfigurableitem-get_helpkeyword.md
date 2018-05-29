@@ -1,16 +1,16 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_HelpKeyword
 title: IMsmConfigurableItem::get_HelpKeyword
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_HelpKeyword method retrieves the HelpKeyword property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_helpkeyword.htm
 old-project: Msi
 ms.assetid: 75dc8672-f910-448a-906b-aba921463e78
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IMsmConfigurableItem interface,get_HelpKeyword method, IMsmConfigurableItem.get_HelpKeyword, IMsmConfigurableItem::get_HelpKeyword, _msi_get_helpkeyword_function, get_HelpKeyword, get_HelpKeyword method, get_HelpKeyword method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_HelpKeyword, setup.imsmconfigurableitem_get_helpkeyword
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 

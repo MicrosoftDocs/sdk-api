@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkRecognitionResult.get_TopAlternate
 title: IInkRecognitionResult::get_TopAlternate
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the top alternate of the recognition result.
 old-location: tablet\iinkrecognitionresult_topalternate.htm
 old-project: tablet
 ms.assetid: 6be3d9d1-8c59-48c5-a6a5-10d93b47cd5d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 6be3d9d1-8c59-48c5-a6a5-10d93b47cd5d, IInkRecognitionResult interface [Tablet PC],TopAlternate property, IInkRecognitionResult.TopAlternate, IInkRecognitionResult.get_TopAlternate, IInkRecognitionResult::TopAlternate, IInkRecognitionResult::get_TopAlternate, TopAlternate property [Tablet PC], TopAlternate property [Tablet PC],IInkRecognitionResult interface, get_TopAlternate, msinkaut/IInkRecognitionResult::TopAlternate, msinkaut/IInkRecognitionResult::get_TopAlternate, tablet.iinkrecognitionresult_topalternate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

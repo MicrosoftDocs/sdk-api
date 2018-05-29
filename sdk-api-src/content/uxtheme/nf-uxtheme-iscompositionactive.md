@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.IsCompositionActive
 title: IsCompositionActive function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether Desktop Window Manager (DWM) composition effects are available to the theme.
 old-location: controls\IsCompositionActive.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\iscompositionactive.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsCompositionActive, IsCompositionActive function [Windows Controls], _shell_IsCompositionActive, _shell_IsCompositionActive_cpp, controls.IsCompositionActive, controls._shell_IsCompositionActive, uxtheme/IsCompositionActive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

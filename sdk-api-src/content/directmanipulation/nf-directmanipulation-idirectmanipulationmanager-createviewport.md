@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.CreateViewport
 title: IDirectManipulationManager::CreateViewport
-author: windows-driver-content
+author: windows-sdk-content
 description: The factory method that is used to create a new IDirectManipulationViewport object.
 old-location: directmanipulation\idirectmanipulationmanager_createviewport.htm
 old-project: directmanipulation
 ms.assetid: 82a0146d-89c1-4672-93a9-e8f406b03d4e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateViewport, CreateViewport method [Direct Manipulation], CreateViewport method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],CreateViewport method, IDirectManipulationManager.CreateViewport, IDirectManipulationManager::CreateViewport, directmanipulation.idirectmanipulationmanager_createviewport, directmanipulation/IDirectManipulationManager::CreateViewport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

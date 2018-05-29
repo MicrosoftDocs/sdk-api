@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagTOGGLEKEYS
 title: tagTOGGLEKEYS
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the ToggleKeys accessibility feature.
 old-location: winauto\togglekeys.htm
 old-project: WinAuto
 ms.assetid: 85ebc8c2-ac0b-45f2-aee5-11ec4ba582b7
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: "*LPTOGGLEKEYS, LPTOGGLEKEYS, LPTOGGLEKEYS structure pointer [Windows Accessibility], TKF_AVAILABLE, TKF_CONFIRMHOTKEY, TKF_HOTKEYACTIVE, TKF_HOTKEYSOUND, TKF_INDICATOR, TKF_TOGGLEKEYSON, TOGGLEKEYS, TOGGLEKEYS structure [Windows Accessibility], _win32_TOGGLEKEYS_str, msaa.togglekeys, tagTOGGLEKEYS, winauto.togglekeys, winuser/LPTOGGLEKEYS, winuser/TOGGLEKEYS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

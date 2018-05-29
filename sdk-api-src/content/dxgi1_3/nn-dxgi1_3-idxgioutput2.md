@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi1_3.IDXGIOutput2
 title: IDXGIOutput2
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an adapter output (such as a monitor). The IDXGIOutput2 interface exposes a method to check for multiplane overlay support on the primary output adapter.
 old-location: direct3ddxgi\idxgioutput2.htm
 old-project: direct3ddxgi
 ms.assetid: 23585A1F-3F18-4247-91DB-712C0A8D5398
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIOutput2, IDXGIOutput2 interface [DXGI], IDXGIOutput2 interface [DXGI],described, direct3ddxgi.idxgioutput2, dxgi1_3/IDXGIOutput2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_3.h
 req.include-header: 

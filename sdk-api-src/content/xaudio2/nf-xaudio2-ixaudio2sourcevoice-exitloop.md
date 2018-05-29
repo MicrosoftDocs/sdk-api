@@ -1,16 +1,16 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.ExitLoop
 title: IXAudio2SourceVoice::ExitLoop
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops looping the voice when it reaches the end of the current loop region.
 old-location: xaudio2\ixaudio2sourcevoice_interface_exitloop.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.ExitLoop(UINT32)
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: ExitLoop, ExitLoop method [XAudio2 Audio Mixing APIs], ExitLoop method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],ExitLoop method, IXAudio2SourceVoice.ExitLoop, IXAudio2SourceVoice::ExitLoop, xaudio2.ixaudio2sourcevoice_interface_exitloop, xaudio2/IXAudio2SourceVoice::ExitLoop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

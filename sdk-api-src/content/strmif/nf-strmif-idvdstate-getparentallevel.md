@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdState.GetParentalLevel
 title: IDvdState::GetParentalLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetParentalLevel method retrieves the user's parental level as saved in the DvdState object.
 old-location: dshow\idvdstate_getparentallevel.htm
 old-project: DirectShow
 ms.assetid: f87c128f-d751-4593-ac26-3249b803bbe4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetParentalLevel, GetParentalLevel method [DirectShow], GetParentalLevel method [DirectShow],IDvdState interface, IDvdState interface [DirectShow],GetParentalLevel method, IDvdState.GetParentalLevel, IDvdState::GetParentalLevel, IDvdStateGetParentalLevel, dshow.idvdstate_getparentallevel, strmif/IDvdState::GetParentalLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

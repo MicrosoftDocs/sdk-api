@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509AttributeClientId.get_ClientId
 title: IX509AttributeClientId::get_ClientId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the type of client application that generated the request.
 old-location: security\ix509attributeclientid_clientid_property.htm
 old-project: SecCertEnroll
 ms.assetid: 43073f84-28c6-4342-82ec-ca2289d51e02
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClientId property [Security], ClientId property [Security],IX509AttributeClientId interface, IX509AttributeClientId interface [Security],ClientId property, IX509AttributeClientId.ClientId, IX509AttributeClientId.get_ClientId, IX509AttributeClientId::ClientId, IX509AttributeClientId::get_ClientId, certenroll/IX509AttributeClientId::ClientId, certenroll/IX509AttributeClientId::get_ClientId, get_ClientId, security.ix509attributeclientid_clientid_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

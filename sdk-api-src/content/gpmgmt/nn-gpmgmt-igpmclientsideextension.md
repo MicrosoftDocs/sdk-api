@@ -1,16 +1,16 @@
 ---
 UID: NN:gpmgmt.IGPMClientSideExtension
 title: IGPMClientSideExtension
-author: windows-driver-content
+author: windows-sdk-content
 description: The IGPMClientSideExtension interface supports methods that allow you to query client-side extension properties when you use the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmclientsideextension.htm
 old-project: GPMC
 ms.assetid: b29f4d09-60c0-4c67-b295-05c7d9a05397
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMClientSideExtension, IGPMClientSideExtension, IGPMClientSideExtension interface [GPMC], IGPMClientSideExtension interface [GPMC],described, _win32_igpmclientsideextension, gpmc.igpmclientsideextension, gpmgmt/IGPMClientSideExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

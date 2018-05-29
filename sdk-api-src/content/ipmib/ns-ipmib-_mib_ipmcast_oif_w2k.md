@@ -1,16 +1,16 @@
 ---
 UID: NS:ipmib._MIB_IPMCAST_OIF_W2K
 title: "_MIB_IPMCAST_OIF_W2K"
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores the information required to send an outgoing IP multicast packet.
 old-location: mib\mib_ipmcast_oif.htm
 old-project: MIB
 ms.assetid: 4ad35cc0-50e2-47b9-8ce3-9bf8e7032c40
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_IPMCAST_OIF, *PMIB_IPMCAST_OIF_W2K, MIB_IPMCAST_OIF, MIB_IPMCAST_OIF structure [MIB], MIB_IPMCAST_OIF_W2K, PMIB_IPMCAST_OIF, PMIB_IPMCAST_OIF structure pointer [MIB], _MIB_IPMCAST_OIF_W2K, _mpr_mib_ipmcast_oif, ipmib/MIB_IPMCAST_OIF, ipmib/PMIB_IPMCAST_OIF, iprtrmib/MIB_IPMCAST_OIF, iprtrmib/PMIB_IPMCAST_OIF, mib.mib_ipmcast_oif, rras.mib_ipmcast_oif"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h

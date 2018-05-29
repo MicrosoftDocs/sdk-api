@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FLOATOBJ_DivFloat
 title: FLOATOBJ_DivFloat function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FLOATOBJ_DivFloat function divides the FLOATOBJ by the value of type FLOATL, and returns with the result in the first parameter.
 old-location: display\floatobj_divfloat.htm
 old-project: display
 ms.assetid: 47ebf68c-6dfa-43d3-8bc9-1f0b8f030974
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FLOATOBJ_DivFloat, FLOATOBJ_DivFloat function [Display Devices], display.floatobj_divfloat, gdifncs_b815b21c-c9fb-4334-857f-e6e66053014a.xml, winddi/FLOATOBJ_DivFloat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

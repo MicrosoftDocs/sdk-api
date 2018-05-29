@@ -1,16 +1,16 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
 title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the provider.
 old-location: security\pfn_crypt_object_locator_provider_initialize.htm
 old-project: SecCrypto
 ms.assetid: DBDE5B98-AC31-4CA0-A7C6-1FCD8FAC51FC
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE function, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE function pointer [Security], security.pfn_crypt_object_locator_provider_initialize, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

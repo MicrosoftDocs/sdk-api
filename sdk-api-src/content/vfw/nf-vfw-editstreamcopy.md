@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.EditStreamCopy
 title: EditStreamCopy function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EditStreamCopy function copies an editable stream (or a portion of it) into a temporary stream.
 old-location: multimedia\editstreamcopy.htm
 old-project: Multimedia
 ms.assetid: c1548359-42ed-4d13-b72d-e7269a7c3482
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EditStreamCopy, EditStreamCopy function [Windows Multimedia], _win32_EditStreamCopy, multimedia.editstreamcopy, vfw/EditStreamCopy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2tcpip.FreeAddrInfoEx
 title: FreeAddrInfoEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees address information that the GetAddrInfoEx function dynamically allocates in addrinfoex structures.
 old-location: winsock\freeaddrinfoex.htm
 old-project: WinSock
 ms.assetid: bc3d7ba7-ec00-4ee0-ad7d-d46641043a7b
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: FreeAddrInfoEx, FreeAddrInfoEx function [Winsock], FreeAddrInfoExW, winsock.freeaddrinfoex, ws2tcpip/FreeAddrInfoEx, ws2tcpip/FreeAddrInfoExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetSelectorLength
 title: IIsdbDataContentDescriptor::GetSelectorLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the length of the selector part of an Integrated Services Digital Broadcasting (ISDB) data content descriptor, in bytes.
 old-location: mstv\iisdbdatacontentdescriptor_getselectorlength.htm
 old-project: mstv
 ms.assetid: 485ac963-e85a-41cc-adcd-93590b327061
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetSelectorLength, GetSelectorLength method [Microsoft TV Technologies], GetSelectorLength method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetSelectorLength method, IIsdbDataContentDescriptor.GetSelectorLength, IIsdbDataContentDescriptor::GetSelectorLength, dvbsiparser/IIsdbDataContentDescriptor::GetSelectorLength, mstv.iisdbdatacontentdescriptor_getselectorlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

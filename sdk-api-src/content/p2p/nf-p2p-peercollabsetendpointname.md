@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerCollabSetEndpointName
 title: PeerCollabSetEndpointName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the name of the current endpoint used by the peer application.
 old-location: p2p\peercollabsetendpointname.htm
 old-project: P2PSdk
 ms.assetid: 9b8d0559-c70e-4b05-bd73-1eb3b2e8f9c8
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerCollabSetEndpointName, PeerCollabSetEndpointName function [Peer Networking], p2p.peercollabsetendpointname, p2p/PeerCollabSetEndpointName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

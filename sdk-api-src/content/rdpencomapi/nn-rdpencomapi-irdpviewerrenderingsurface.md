@@ -1,16 +1,16 @@
 ---
 UID: NN:rdpencomapi.IRDPViewerRenderingSurface
 title: IRDPViewerRenderingSurface
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages the rendering surface for the viewer.
 old-location: rdp\irdpviewerrenderingsurface.htm
 old-project: Rdp
 ms.assetid: 24d818ec-f58d-4bf1-adf8-c15560595147
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPViewerRenderingSurface, IRDPViewerRenderingSurface interface [RDP], IRDPViewerRenderingSurface interface [RDP],described, rdp.irdpviewerrenderingsurface, rdpencomapi/IRDPViewerRenderingSurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

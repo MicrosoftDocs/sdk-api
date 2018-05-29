@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IMessageMover.get_CommitBatchSize
 title: IMessageMover::get_CommitBatchSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the commit batch size.
 old-location: cos\imessagemover_get_commitbatchsize.htm
 old-project: cossdk
 ms.assetid: 7c0b5ebb-00dc-4c9a-9c0c-6d92cd13f534
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMessageMover interface [COM+],get_CommitBatchSize method, IMessageMover.get_CommitBatchSize, IMessageMover::get_CommitBatchSize, comsvcs/IMessageMover::get_CommitBatchSize, cos.imessagemover_get_commitbatchsize, get_CommitBatchSize, get_CommitBatchSize method [COM+], get_CommitBatchSize method [COM+],IMessageMover interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

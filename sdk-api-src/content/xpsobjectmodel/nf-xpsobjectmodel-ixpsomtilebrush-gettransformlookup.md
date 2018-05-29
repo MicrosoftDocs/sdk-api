@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetTransformLookup
 title: IXpsOMTileBrush::GetTransformLookup
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the lookup key that identifies the IXpsOMMatrixTransform interface in a resource dictionary that contains the resolved matrix transform for the brush.
 old-location: xps\ixpsomtilebrush_gettransformlookup.htm
 old-project: printdocs
 ms.assetid: bebed09b-7af7-4da1-aaa3-e8e2a45f2717
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetTransformLookup, GetTransformLookup method [XPS Documents and Packaging], GetTransformLookup method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTransformLookup method, IXpsOMTileBrush.GetTransformLookup, IXpsOMTileBrush::GetTransformLookup, xps.ixpsomtilebrush_gettransformlookup, xpsobjectmodel/IXpsOMTileBrush::GetTransformLookup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflectionVariable.GetType
 title: ID3D10ShaderReflectionVariable::GetType
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a shader-variable type.
 old-location: direct3d10\id3d10shaderreflectionvariable_gettype.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflectionvariable_gettype.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 088c440d-f2c4-82ed-059a-f3ef98a485c6, GetType, GetType method [Direct3D 10], GetType method [Direct3D 10],ID3D10ShaderReflectionVariable interface, ID3D10ShaderReflectionVariable interface [Direct3D 10],GetType method, ID3D10ShaderReflectionVariable.GetType, ID3D10ShaderReflectionVariable::GetType, d3d10shader/ID3D10ShaderReflectionVariable::GetType, direct3d10.id3d10shaderreflectionvariable_gettype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10shader.h
 req.include-header: 

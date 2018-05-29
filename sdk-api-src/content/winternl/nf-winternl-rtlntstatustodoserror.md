@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.RtlNtStatusToDosError
 title: RtlNtStatusToDosError function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the specified NTSTATUS code to its equivalent system error code.
 old-location: base\rtlntstatustodoserror.htm
 old-project: Debug
 ms.assetid: 4a28be1f-28b9-45a4-8ac7-58e43452558a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtlNtStatusToDosError, RtlNtStatusToDosError function, base.rtlntstatustodoserror, winternl/RtlNtStatusToDosError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

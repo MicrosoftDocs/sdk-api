@@ -1,16 +1,16 @@
 ---
 UID: NF:richole.IRichEditOle.SetLinkAvailable
 title: IRichEditOle::SetLinkAvailable
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of the link-available bit in the object's flags.
 old-location: controls\IRichEditOle_SetLinkAvailable.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesetlinkavailable.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRichEditOle interface [Windows Controls],SetLinkAvailable method, IRichEditOle.SetLinkAvailable, IRichEditOle::SetLinkAvailable, SetLinkAvailable, SetLinkAvailable method [Windows Controls], SetLinkAvailable method [Windows Controls],IRichEditOle interface, _win32_IRichEditOle_SetLinkAvailable, _win32_IRichEditOle_SetLinkAvailable_cpp, controls.IRichEditOle_SetLinkAvailable, controls._win32_IRichEditOle_SetLinkAvailable, richole/IRichEditOle::SetLinkAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: richole.h
 req.include-header: 

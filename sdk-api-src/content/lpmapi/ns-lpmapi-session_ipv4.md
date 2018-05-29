@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.Session_IPv4
 title: Session_IPv4
-author: windows-driver-content
+author: windows-sdk-content
 description: The Session_IPv4 structure stores information about an IPv4 RSVP SESSION object.
 old-location: qos\session_ipv4.htm
 old-project: QOS
 ms.assetid: 8fbe41f2-c7c7-4476-b5e6-f3306ce74cf6
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: Session_IPv4, Session_IPv4 structure [QOS], lpmapi/Session_IPv4, qos.session_ipv4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

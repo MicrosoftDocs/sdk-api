@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetIsFilled
 title: IXpsOMGeometryFigure::GetIsFilled
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that indicates whether the figure is filled.
 old-location: xps\ixpsomgeometryfigure_getisfilled.htm
 old-project: printdocs
 ms.assetid: 22da5239-c79f-4306-ad60-9b3e5bcae988
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FALSE, GetIsFilled, GetIsFilled method [XPS Documents and Packaging], GetIsFilled method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, IXpsOMGeometryFigure interface [XPS Documents and Packaging],GetIsFilled method, IXpsOMGeometryFigure.GetIsFilled, IXpsOMGeometryFigure::GetIsFilled, TRUE, xps.ixpsomgeometryfigure_getisfilled, xpsobjectmodel/IXpsOMGeometryFigure::GetIsFilled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpmtypes.FWPM_SUBLAYER_ENUM_TEMPLATE0_
 title: FWPM_SUBLAYER_ENUM_TEMPLATE0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used for enumerating sublayers.
 old-location: fwp\fwpm_sublayer_enum_template0_struct.htm
 old-project: FWP
 ms.assetid: 4f05730c-7bf6-4bf4-b3ec-d8fe138b2228
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_SUBLAYER_ENUM_TEMPLATE0, FWPM_SUBLAYER_ENUM_TEMPLATE0 structure [Filtering], FWPM_SUBLAYER_ENUM_TEMPLATE0_, fwp.fwpm_sublayer_enum_template0_struct, fwpmtypes/FWPM_SUBLAYER_ENUM_TEMPLATE0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

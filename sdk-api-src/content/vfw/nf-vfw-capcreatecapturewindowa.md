@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capCreateCaptureWindowA
 title: capCreateCaptureWindowA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The capCreateCaptureWindow function creates a capture window.
 old-location: multimedia\capcreatecapturewindow.htm
 old-project: Multimedia
 ms.assetid: b08785f8-9850-4d3b-acbf-b065f45910e1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capCreateCaptureWindow, capCreateCaptureWindow, capCreateCaptureWindow function [Windows Multimedia], capCreateCaptureWindowA, capCreateCaptureWindowW, multimedia.capcreatecapturewindow, vfw/capCreateCaptureWindow, vfw/capCreateCaptureWindowA, vfw/capCreateCaptureWindowW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

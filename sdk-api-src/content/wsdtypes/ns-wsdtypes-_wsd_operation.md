@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_OPERATION
 title: "_WSD_OPERATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an operation as defined by WSDL in terms of one or two messages.
 old-location: ncd\wsd_operation_struct.htm
 old-project: WsdApi
 ms.assetid: fcd4895d-5357-4b73-90b9-e506e3d7f16e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_OPERATION, WSD_OPERATION structure, _WSD_OPERATION, ncd.wsd_operation_struct, wsdtypes/WSD_OPERATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

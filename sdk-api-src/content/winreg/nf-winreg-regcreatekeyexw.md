@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.RegCreateKeyExW
 title: RegCreateKeyExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates the specified registry key. If the key already exists, the function opens it. Note that key names are not case sensitive.
 old-location: base\regcreatekeyex.htm
 old-project: SysInfo
 ms.assetid: e9ffad7f-c0b6-44ce-bf22-fbe45ca98bf4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RESTORE, REG_OPTION_CREATE_LINK, REG_OPTION_NON_VOLATILE, REG_OPTION_VOLATILE, RegCreateKeyEx, RegCreateKeyEx function, RegCreateKeyExA, RegCreateKeyExW, _win32_regcreatekeyex, base.regcreatekeyex, winreg/RegCreateKeyEx, winreg/RegCreateKeyExA, winreg/RegCreateKeyExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

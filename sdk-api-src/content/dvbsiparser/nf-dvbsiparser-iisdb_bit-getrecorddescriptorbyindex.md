@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetRecordDescriptorByIndex
 title: IISDB_BIT::GetRecordDescriptorByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a descriptor for a specified record in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getrecorddescriptorbyindex.htm
 old-project: mstv
 ms.assetid: f3833ab6-39f8-499e-bd3f-f0f524a8b1d4
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IISDB_BIT.GetRecordDescriptorByIndex, IISDB_BIT::GetRecordDescriptorByIndex, dvbsiparser/IISDB_BIT::GetRecordDescriptorByIndex, mstv.iisdb_bit_getrecorddescriptorbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

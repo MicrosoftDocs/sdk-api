@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader.GetPayloadFiles
 title: IAppxPackageReader::GetPayloadFiles
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an enumerator that iterates through the payload files in the package.
 old-location: appxpkg\iappxpackagereader_getpayloadfiles.htm
 old-project: appxpkg
 ms.assetid: 20883A4E-BE7B-4312-978A-3BF9362CA6DA
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetPayloadFiles, GetPayloadFiles method [App packaging and management], GetPayloadFiles method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetPayloadFiles method, IAppxPackageReader.GetPayloadFiles, IAppxPackageReader::GetPayloadFiles, appxpackaging/IAppxPackageReader::GetPayloadFiles, appxpkg.iappxpackagereader_getpayloadfiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

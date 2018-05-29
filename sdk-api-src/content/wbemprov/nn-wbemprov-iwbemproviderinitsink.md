@@ -1,16 +1,16 @@
 ---
 UID: NN:wbemprov.IWbemProviderInitSink
 title: IWbemProviderInitSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemProviderInitSink interface is implemented by WMI and called by providers to report initialization status.
 old-location: wmi\iwbemproviderinitsink.htm
 old-project: WmiSdk
 ms.assetid: abcee170-6a28-44d2-97d6-cb62c393b534
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemProviderInitSink, IWbemProviderInitSink interface [Windows Management Instrumentation], IWbemProviderInitSink interface [Windows Management Instrumentation],described, _hmm_iwbemproviderinitsink, wbemprov/IWbemProviderInitSink, wmi.iwbemproviderinitsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

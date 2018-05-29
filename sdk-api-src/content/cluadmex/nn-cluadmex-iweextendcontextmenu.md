@@ -1,16 +1,16 @@
 ---
 UID: NN:cluadmex.IWEExtendContextMenu
 title: IWEExtendContextMenu
-author: windows-driver-content
+author: windows-sdk-content
 description: Implement the IWEExtendContextMenu interface to extend a Failover Cluster Administrator context menu for a cluster object.
 old-location: mscs\iweextendcontextmenu.htm
 old-project: MsCS
 ms.assetid: a41adde0-fc4f-4997-bb56-5fa43ba62fdb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IWEExtendContextMenu, IWEExtendContextMenu interface [Failover Cluster], IWEExtendContextMenu interface [Failover Cluster],described, _wolf_iweextendcontextmenu, cluadmex/IWEExtendContextMenu, mscs.iweextendcontextmenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cluadmex.h
 req.include-header: 

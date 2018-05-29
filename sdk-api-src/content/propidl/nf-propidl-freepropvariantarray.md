@@ -1,16 +1,16 @@
 ---
 UID: NF:propidl.FreePropVariantArray
 title: FreePropVariantArray function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the memory and references used by an array of PROPVARIANT structures.
 old-location: properties\FreePropVariantArray.htm
 old-project: properties
 ms.assetid: 5033557c-d43c-42b1-ae4e-0fb0569d697a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FreePropVariantArray, FreePropVariantArray function [Windows Properties], _shell_FreePropVariantArray, properties.FreePropVariantArray, propidl/FreePropVariantArray, shell.FreePropVariantArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propidl.h
 req.include-header: 

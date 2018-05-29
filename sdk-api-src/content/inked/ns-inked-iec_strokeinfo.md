@@ -1,16 +1,16 @@
 ---
 UID: NS:inked.IEC_STROKEINFO
 title: IEC_STROKEINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a Stroke event.
 old-location: tablet\iec_strokeinfo__win32_only_.htm
 old-project: tablet
 ms.assetid: 12486d28-eba2-4ef6-802e-be7155de6edd
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 12486d28-eba2-4ef6-802e-be7155de6edd, IEC_STROKEINFO, IEC_STROKEINFO (Win32 Only), IEC_STROKEINFO (Win32 Only) structure [Tablet PC], inked/IEC_STROKEINFO, structure [Tablet PC], tablet.iec_strokeinfo__win32_only_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: inked.h
 req.include-header: 

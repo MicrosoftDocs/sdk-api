@@ -1,16 +1,16 @@
 ---
 UID: NN:atscpsipparser.ICaptionServiceDescriptor
 title: ICaptionServiceDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icaptionservicedescriptor.htm
 old-project: mstv
 ms.assetid: fc1f38af-2fe8-4c08-b6f8-312dd4771141
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICaptionServiceDescriptor, ICaptionServiceDescriptor interface [Microsoft TV Technologies], ICaptionServiceDescriptor interface [Microsoft TV Technologies],described, ICaptionServiceDescriptorInterface, atscpsipparser/ICaptionServiceDescriptor, mstv.icaptionservicedescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: atscpsipparser.h
 req.include-header: 

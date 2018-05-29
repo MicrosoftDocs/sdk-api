@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyJob4.SetPeerCachingFlags
 title: IBackgroundCopyJob4::SetPeerCachingFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets flags that determine if the files of the job can be cached and served to peers and if the job can download content from peers.
 old-location: bits\ibackgroundcopyjob4_setpeercachingflags.htm
 old-project: Bits
 ms.assetid: 53daa02c-1dd2-4b9a-a52f-3a77d6cb0b2c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BG_JOB_DISABLE_BRANCH_CACHE, BG_JOB_ENABLE_PEERCACHING_CLIENT, BG_JOB_ENABLE_PEERCACHING_SERVER, IBackgroundCopyJob4 interface [BITS],SetPeerCachingFlags method, IBackgroundCopyJob4.SetPeerCachingFlags, IBackgroundCopyJob4::SetPeerCachingFlags, SetPeerCachingFlags, SetPeerCachingFlags method [BITS], SetPeerCachingFlags method [BITS],IBackgroundCopyJob4 interface, bits.ibackgroundcopyjob4_setpeercachingflags, bits3_0/IBackgroundCopyJob4::SetPeerCachingFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

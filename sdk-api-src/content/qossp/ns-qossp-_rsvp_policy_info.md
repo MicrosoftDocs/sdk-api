@@ -1,16 +1,16 @@
 ---
 UID: NS:qossp._RSVP_POLICY_INFO
 title: "_RSVP_POLICY_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RSVP_POLICY_INFO structure stores undefined policy elements retrieved from RSVP.
 old-location: qos\rsvp_policy_info.htm
 old-project: QOS
 ms.assetid: 21ad9446-a22c-4c3f-911d-a263cb85078b
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*LPRSVP_POLICY_INFO, *LPRSVP_POLICY_INFO structure [QOS], RSVP_POLICY_INFO, RSVP_POLICY_INFO structure [QOS], _RSVP_POLICY_INFO, qos.rsvp_policy_info, qossp/*LPRSVP_POLICY_INFO, qossp/RSVP_POLICY_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 

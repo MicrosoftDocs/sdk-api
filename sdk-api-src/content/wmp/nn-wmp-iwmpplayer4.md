@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPPlayer4
 title: IWMPPlayer4
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPPlayer4 interface provides methods for modifying the basic behavior of the Windows Media Player control user interface.
 old-location: wmp\iwmpplayer4.htm
 old-project: WMP
 ms.assetid: afe5dbd1-96e1-4abe-b843-ec6130fa02d0
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPPlayer4, IWMPPlayer4 interface [Windows Media Player], IWMPPlayer4 interface [Windows Media Player],described, IWMPPlayer4Interface, wmp.iwmpplayer4, wmp/IWMPPlayer4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

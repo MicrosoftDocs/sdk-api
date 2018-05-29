@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.ResetForEncode
 title: IX509CertificateRequest::ResetForEncode
-author: windows-driver-content
+author: windows-sdk-content
 description: Restores the state of the request object to that which existed before the Encode method was called.
 old-location: security\ix509certificaterequest_resetforencode_method.htm
 old-project: SecCertEnroll
 ms.assetid: 7f0bd391-c456-467a-8bc1-6f0a8bd21e24
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequest interface [Security],ResetForEncode method, IX509CertificateRequest.ResetForEncode, IX509CertificateRequest::ResetForEncode, ResetForEncode, ResetForEncode method [Security], ResetForEncode method [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::ResetForEncode, security.ix509certificaterequest_resetforencode_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetError
 title: IMFMediaEngine::GetError
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the most recent error status.
 old-location: mf\imfmediaengine_geterror.htm
 old-project: medfound
 ms.assetid: F8A51AF8-8D73-47BC-ADA2-7F5108587873
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetError, GetError method [Media Foundation], GetError method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetError method, IMFMediaEngine.GetError, IMFMediaEngine::GetError, mf.imfmediaengine_geterror, mfmediaengine/IMFMediaEngine::GetError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

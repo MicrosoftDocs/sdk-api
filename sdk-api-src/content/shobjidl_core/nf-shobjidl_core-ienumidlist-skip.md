@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumIDList.Skip
 title: IEnumIDList::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips the specified number of elements in the enumeration sequence.
 old-location: shell\IEnumIDList_Skip.htm
 old-project: shell
 ms.assetid: ed9d5774-7b2f-4a25-88f9-70d72919ff60
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumIDList interface [Windows Shell],Skip method, IEnumIDList.Skip, IEnumIDList::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumIDList interface, _win32_IEnumIDList_Skip, shell.IEnumIDList_Skip, shobjidl_core/IEnumIDList::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

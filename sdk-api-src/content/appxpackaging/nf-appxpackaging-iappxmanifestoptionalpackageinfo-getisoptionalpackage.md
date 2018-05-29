@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxManifestOptionalPackageInfo.GetIsOptionalPackage
 title: IAppxManifestOptionalPackageInfo::GetIsOptionalPackage
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the package is optional.
 old-location: appxpkg\iappxmanifestoptionalpackageinfo_getisoptionalpackage.htm
 old-project: appxpkg
 ms.assetid: E52E411C-0A3E-4DA3-B25D-14E761FEF676
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetIsOptionalPackage, GetIsOptionalPackage method [App packaging and management], GetIsOptionalPackage method [App packaging and management],IAppxManifestOptionalPackageInfo interface, IAppxManifestOptionalPackageInfo interface [App packaging and management],GetIsOptionalPackage method, IAppxManifestOptionalPackageInfo.GetIsOptionalPackage, IAppxManifestOptionalPackageInfo::GetIsOptionalPackage, appxpackaging/IAppxManifestOptionalPackageInfo::GetIsOptionalPackage, appxpkg.iappxmanifestoptionalpackageinfo_getisoptionalpackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:lmdfs._DFS_INFO_1
 title: "_DFS_INFO_1"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the name of a Distributed File System (DFS) root or link.
 old-location: dfs\dfs_info_1_str.htm
 old-project: Dfs
 ms.assetid: 96647570-badd-4925-ab90-054a00ba04c4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDFS_INFO_1, *PDFS_INFO_1, DFS_INFO_1, DFS_INFO_1 structure [Distributed File System], LPDFS_INFO_1, LPDFS_INFO_1 structure pointer [Distributed File System], PDFS_INFO_1, PDFS_INFO_1 structure pointer [Distributed File System], _DFS_INFO_1, _win32_dfs_info_1_str, dfs.dfs_info_1_str, fs.dfs_info_1_str, lmdfs/DFS_INFO_1, lmdfs/LPDFS_INFO_1, lmdfs/PDFS_INFO_1, netmgmt.dfs_info_1_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

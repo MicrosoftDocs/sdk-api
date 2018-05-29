@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusScsiAddress
 title: ISClusScsiAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to SCSI information about a Physical Disk.
 old-location: mscs\clusscsiaddress_object.htm
 old-project: MsCS
 ms.assetid: 7becbcf6-bad9-44e2-9731-d53de8299b99
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusScsiAddress, ClusScsiAddress object [Failover Cluster], ClusScsiAddress object [Failover Cluster],described, ISClusScsiAddress, _wolf_clusscsiaddress_object, msclus/ClusScsiAddress, mscs.clusscsiaddress_object
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetCustomOids
 title: IX509EnrollmentPolicyServer::GetCustomOids
-author: windows-driver-content
+author: windows-sdk-content
 description: Is not implemented.
 old-location: security\ix509enrollmentpolicyserver_getcustomoids.htm
 old-project: SecCertEnroll
 ms.assetid: 0db4e188-cef1-46af-b5c7-f18a8de5f1a7
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetCustomOids, GetCustomOids method [Security], GetCustomOids method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCustomOids method, IX509EnrollmentPolicyServer.GetCustomOids, IX509EnrollmentPolicyServer::GetCustomOids, certenroll/IX509EnrollmentPolicyServer::GetCustomOids, security.ix509enrollmentpolicyserver_getcustomoids
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

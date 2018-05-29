@@ -1,16 +1,16 @@
 ---
 UID: NN:medparam.IMediaParams
 title: IMediaParams
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMediaParams interface sets and retrieves envelope-following parameters on an object.
 old-location: dshow\imediaparams.htm
 old-project: DirectShow
 ms.assetid: 68ea8f6a-4b6d-4d79-a986-6032b767147b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaParams, IMediaParams interface [DirectShow], IMediaParams interface [DirectShow],described, IMediaParamsInterface, dshow.imediaparams, medparam/IMediaParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: medparam.h
 req.include-header: 

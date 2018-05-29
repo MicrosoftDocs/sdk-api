@@ -1,16 +1,16 @@
 ---
 UID: NF:strsafe.StringCchGetsW
 title: StringCchGetsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets one line of text from stdin, up to and including the newline character ('\n').
 old-location: menurc\stringcchgets.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchgets.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StringCchGets, StringCchGets function [Menus and Other Resources], StringCchGetsA, StringCchGetsW, _shell_StringCchGets, _shell_stringcchgets_cpp, menurc.stringcchgets, strsafe/StringCchGets, strsafe/StringCchGetsA, strsafe/StringCchGetsW, winui._shell_stringcchgets
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 

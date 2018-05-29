@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetNamedPipeHandleStateA
 title: GetNamedPipeHandleStateA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a specified named pipe.
 old-location: base\getnamedpipehandlestate.htm
 old-project: ipc
 ms.assetid: a28003f0-f488-4ac3-91bf-dd7c5e87ea66
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetNamedPipeHandleState, GetNamedPipeHandleState function, GetNamedPipeHandleStateA, GetNamedPipeHandleStateW, PIPE_NOWAIT, PIPE_READMODE_MESSAGE, _win32_getnamedpipehandlestate, base.getnamedpipehandlestate, winbase/GetNamedPipeHandleState, winbase/GetNamedPipeHandleStateA, winbase/GetNamedPipeHandleStateW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

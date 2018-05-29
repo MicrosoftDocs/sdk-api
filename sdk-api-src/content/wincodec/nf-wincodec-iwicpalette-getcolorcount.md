@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICPalette.GetColorCount
 title: IWICPalette::GetColorCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of colors in the color table.
 old-location: wic\_wic_codec_iwicpalette_getcolorcount.htm
 old-project: wic
 ms.assetid: 133ee983-8df2-4053-aa8a-471aa679b412
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetColorCount, GetColorCount method [Windows Imaging Component], GetColorCount method [Windows Imaging Component],IWICPalette interface, IWICPalette interface [Windows Imaging Component],GetColorCount method, IWICPalette.GetColorCount, IWICPalette::GetColorCount, _wic_codec_iwicpalette_getcolorcount, wic._wic_codec_iwicpalette_getcolorcount, wincodec/IWICPalette::GetColorCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

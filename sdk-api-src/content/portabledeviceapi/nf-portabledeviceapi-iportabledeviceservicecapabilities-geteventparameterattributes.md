@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetEventParameterAttributes
 title: IPortableDeviceServiceCapabilities::GetEventParameterAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the attributes of an event parameter.
 old-location: wpdsdk\iportabledeviceservicecapabilities_geteventparameterattributes.htm
 old-project: wpd_sdk
 ms.assetid: f842dc94-440f-4488-80e3-b10bf72e6269
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetEventParameterAttributes, GetEventParameterAttributes method [Windows Portable Devices SDK], GetEventParameterAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetEventParameterAttributes method, IPortableDeviceServiceCapabilities.GetEventParameterAttributes, IPortableDeviceServiceCapabilities::GetEventParameterAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetEventParameterAttributes, wpdsdk.iportabledeviceservicecapabilities_geteventparameterattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IVideoWindow.GetMinIdealImageSize
 title: IVideoWindow::GetMinIdealImageSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetMinIdealImageSize method retrieves the minimum ideal size for the video image.
 old-location: dshow\ivideowindow_getminidealimagesize.htm
 old-project: DirectShow
 ms.assetid: b2d1d267-008d-402a-864a-e801e7581fbd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetMinIdealImageSize, GetMinIdealImageSize method [DirectShow], GetMinIdealImageSize method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetMinIdealImageSize method, IVideoWindow.GetMinIdealImageSize, IVideoWindow::GetMinIdealImageSize, IVideoWindowGetMinIdealImageSize, control/IVideoWindow::GetMinIdealImageSize, dshow.ivideowindow_getminidealimagesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

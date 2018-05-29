@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HTTP_IS_NULL_ID
 title: HTTP_IS_NULL_ID macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if the HTTP_OPAQUE_ID is NULL.
 old-location: http\http_is_null_id.htm
 old-project: Http
 ms.assetid: 8a73585a-e531-4c5d-9ed3-9e6e1fef93ac
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HTTP_IS_NULL_ID, HTTP_IS_NULL_ID macro [HTTP], http.http_is_null_id, http/HTTP_IS_NULL_ID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: http.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICDdsFrameDecode.CopyBlocks
 title: IWICDdsFrameDecode::CopyBlocks
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests pixel data as it is natively stored within the DDS file.
 old-location: wic\iwicddsframedecode_copyblocks.htm
 old-project: wic
 ms.assetid: D090AA8E-46F2-40C9-A156-12038053E040
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CopyBlocks, CopyBlocks method [Windows Imaging Component], CopyBlocks method [Windows Imaging Component],IWICDdsFrameDecode interface, IWICDdsFrameDecode interface [Windows Imaging Component],CopyBlocks method, IWICDdsFrameDecode.CopyBlocks, IWICDdsFrameDecode::CopyBlocks, wic.iwicddsframedecode_copyblocks, wincodec/IWICDdsFrameDecode::CopyBlocks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

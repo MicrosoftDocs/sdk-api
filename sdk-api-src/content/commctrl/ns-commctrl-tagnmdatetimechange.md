@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMDATETIMECHANGE
 title: tagNMDATETIMECHANGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a change that has taken place in a date and time picker (DTP) control. This structure is used with the DTN_DATETIMECHANGE notification code.
 old-location: controls\NMDATETIMECHANGE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimechange.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMDATETIMECHANGE, GDT_NONE, GDT_VALID, LPNMDATETIMECHANGE, LPNMDATETIMECHANGE structure pointer [Windows Controls], NMDATETIMECHANGE, NMDATETIMECHANGE structure [Windows Controls], _win32_NMDATETIMECHANGE, _win32_NMDATETIMECHANGE_cpp, commctrl/LPNMDATETIMECHANGE, commctrl/NMDATETIMECHANGE, controls.NMDATETIMECHANGE, controls._win32_NMDATETIMECHANGE, tagNMDATETIMECHANGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

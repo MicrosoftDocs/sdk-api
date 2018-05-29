@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSRefreshPropertySchema
 title: PSRefreshPropertySchema function
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.It is valid to call this function, but it is not implemented to perform any function so there is no reason to do so.
 old-location: properties\PSRefreshPropertySchema.htm
 old-project: properties
 ms.assetid: 07efbf66-3594-4b9d-b959-278dc9000572
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSRefreshPropertySchema, PSRefreshPropertySchema function [Windows Properties], properties.PSRefreshPropertySchema, propsys/PSRefreshPropertySchema, shell.PSRefreshPropertySchema, shell_PSRefreshPropertySchema
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: Propsys.h

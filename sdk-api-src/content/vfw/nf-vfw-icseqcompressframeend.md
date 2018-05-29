@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICSeqCompressFrameEnd
 title: ICSeqCompressFrameEnd function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICSeqCompressFrameEnd function ends sequence compression that was initiated by using the ICSeqCompressFrameStart and ICSeqCompressFrame functions.
 old-location: multimedia\icseqcompressframeend.htm
 old-project: Multimedia
 ms.assetid: 3fdcd18d-4ee7-4b5a-871d-61316c716e06
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICSeqCompressFrameEnd, ICSeqCompressFrameEnd function [Windows Multimedia], _win32_ICSeqCompressFrameEnd, multimedia.icseqcompressframeend, vfw/ICSeqCompressFrameEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

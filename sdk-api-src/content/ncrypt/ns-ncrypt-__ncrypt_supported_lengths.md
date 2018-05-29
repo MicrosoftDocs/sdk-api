@@ -1,16 +1,16 @@
 ---
 UID: NS:ncrypt.__NCRYPT_SUPPORTED_LENGTHS
 title: "__NCRYPT_SUPPORTED_LENGTHS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used with the NCRYPT_LENGTHS_PROPERTY property to contain length information for a key.
 old-location: security\ncrypt_supported_lengths.htm
 old-project: SecCNG
 ms.assetid: 11bb3669-d536-4c8f-a30b-1826ccdbe275
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCRYPT_SUPPORTED_LENGTHS, NCRYPT_SUPPORTED_LENGTHS structure [Security], __NCRYPT_SUPPORTED_LENGTHS, ncrypt/NCRYPT_SUPPORTED_LENGTHS, security.ncrypt_supported_lengths
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ncrypt.h
 req.include-header: 

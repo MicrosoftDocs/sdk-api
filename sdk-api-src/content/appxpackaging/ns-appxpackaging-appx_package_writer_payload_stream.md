@@ -1,16 +1,16 @@
 ---
 UID: NS:appxpackaging.APPX_PACKAGE_WRITER_PAYLOAD_STREAM
 title: APPX_PACKAGE_WRITER_PAYLOAD_STREAM
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the data and metadata of files to write into the app package.
 old-location: appxpkg\appx_package_writer_payload_stream.htm
 old-project: appxpkg
 ms.assetid: 0AB54C4B-6982-49A3-BFD3-E46E75954B08
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: APPX_PACKAGE_WRITER_PAYLOAD_STREAM, APPX_PACKAGE_WRITER_PAYLOAD_STREAM structure [App packaging and management], appxpackaging/APPX_PACKAGE_WRITER_PAYLOAD_STREAM, appxpkg.appx_package_writer_payload_stream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: appxpackaging.h
 req.include-header: 

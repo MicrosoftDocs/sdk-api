@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsapi32.WTSQueryUserToken
 title: WTSQueryUserToken function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the primary access token of the logged-on user specified by the session ID.
 old-location: termserv\wtsqueryusertoken.htm
 old-project: TermServ
 ms.assetid: 5b33b67a-ab19-4c09-94a2-1ab8008551a8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WTSQueryUserToken, WTSQueryUserToken function [Remote Desktop Services], _win32_wtsqueryusertoken, termserv.wtsqueryusertoken, wtsapi32/WTSQueryUserToken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

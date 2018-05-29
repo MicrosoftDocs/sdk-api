@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxManifestDeviceCapabilitiesEnumerator.GetCurrent
 title: IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the device capability at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestdevicecapabilitiesenumerator_getcurrent.htm
 old-project: appxpkg
 ms.assetid: B9686070-645E-4F8A-8A1A-3DB80AEF4FF5
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxManifestDeviceCapabilitiesEnumerator interface, IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management],GetCurrent method, IAppxManifestDeviceCapabilitiesEnumerator.GetCurrent, IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent, appxpkg.iappxmanifestdevicecapabilitiesenumerator_getcurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:d3dcommon._D3D_SHADER_VARIABLE_CLASS
 title: "_D3D_SHADER_VARIABLE_CLASS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Values that identify the class of a shader variable.
 old-location: direct3d11\d3d_shader_variable_class.htm
 old-project: direct3d11
 ms.assetid: d367ba01-e357-468d-9417-7d5a282d5565
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D10_SVC_MATRIX_COLUMNS, D3D10_SVC_MATRIX_ROWS, D3D10_SVC_OBJECT, D3D10_SVC_SCALAR, D3D10_SVC_STRUCT, D3D10_SVC_VECTOR, D3D11_SVC_INTERFACE_CLASS, D3D11_SVC_INTERFACE_POINTER, D3D_SHADER_VARIABLE_CLASS, D3D_SHADER_VARIABLE_CLASS enumeration [Direct3D 11], D3D_SVC_FORCE_DWORD, D3D_SVC_INTERFACE_CLASS, D3D_SVC_INTERFACE_POINTER, D3D_SVC_MATRIX_COLUMNS, D3D_SVC_MATRIX_ROWS, D3D_SVC_OBJECT, D3D_SVC_SCALAR, D3D_SVC_STRUCT, D3D_SVC_VECTOR, _D3D_SHADER_VARIABLE_CLASS, d3dcommon/D3D10_SVC_MATRIX_COLUMNS, d3dcommon/D3D10_SVC_MATRIX_ROWS, d3dcommon/D3D10_SVC_OBJECT, d3dcommon/D3D10_SVC_SCALAR, d3dcommon/D3D10_SVC_STRUCT, d3dcommon/D3D10_SVC_VECTOR, d3dcommon/D3D11_SVC_INTERFACE_CLASS, d3dcommon/D3D11_SVC_INTERFACE_POINTER, d3dcommon/D3D_SHADER_VARIABLE_CLASS, d3dcommon/D3D_SVC_FORCE_DWORD, d3dcommon/D3D_SVC_INTERFACE_CLASS, d3dcommon/D3D_SVC_INTERFACE_POINTER, d3dcommon/D3D_SVC_MATRIX_COLUMNS, d3dcommon/D3D_SVC_MATRIX_ROWS, d3dcommon/D3D_SVC_OBJECT, d3dcommon/D3D_SVC_SCALAR, d3dcommon/D3D_SVC_STRUCT, d3dcommon/D3D_SVC_VECTOR, direct3d11.d3d_shader_variable_class
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 

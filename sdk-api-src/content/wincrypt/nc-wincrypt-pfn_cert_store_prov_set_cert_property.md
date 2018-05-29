@@ -1,16 +1,16 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_SET_CERT_PROPERTY
 title: PFN_CERT_STORE_PROV_SET_CERT_PROPERTY
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function that is called by CertSetCertificateContextProperty before setting the certificate's property.
 old-location: security\certstoreprovsetcertpropertycallback.htm
 old-project: SecCrypto
 ms.assetid: 03d7e1f6-030f-4eae-b76d-5465748d9583
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertStoreProvSetCertPropertyCallback, CertStoreProvSetCertPropertyCallback callback, CertStoreProvSetCertPropertyCallback callback function [Security], PFN_CERT_STORE_PROV_SET_CERT_PROPERTY, PFN_CERT_STORE_PROV_SET_CERT_PROPERTY callback function [Security], _crypto2_certstoreprovsetcertpropertycallback, security.certstoreprovsetcertpropertycallback, wincrypt/CertStoreProvSetCertPropertyCallback, wincrypt/PFN_CERT_STORE_PROV_SET_CERT_PROPERTY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsBindToISTGW
 title: DsBindToISTGW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Binds to the computer that holds the Inter-Site Topology Generator (ISTG) role in the domain of the local computer.
 old-location: ad\dsbindtoistg.htm
 old-project: AD
 ms.assetid: bd53124c-8578-495d-b540-d4b4c09297c3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsBindToISTG, DsBindToISTG function [Active Directory], DsBindToISTGA, DsBindToISTGW, ad.dsbindtoistg, ntdsapi/DsBindToISTG, ntdsapi/DsBindToISTGA, ntdsapi/DsBindToISTGW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

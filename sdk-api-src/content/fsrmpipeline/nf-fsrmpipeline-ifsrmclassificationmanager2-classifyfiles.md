@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager2.ClassifyFiles
 title: IFsrmClassificationManager2::ClassifyFiles
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is used to perform bulk enumeration, setting, and clearing of file properties.
 old-location: fsrm\ifsrmclassificationmanager2_classifyfiles.htm
 old-project: Fsrm
 ms.assetid: 1dee9185-f83c-4e49-bf29-143271445046
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: ClassifyFiles, ClassifyFiles method [File Server Resource Manager], ClassifyFiles method [File Server Resource Manager],FsrmClassificationManager class, ClassifyFiles method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClassifyFiles method, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassifyFiles method, IFsrmClassificationManager2.ClassifyFiles, IFsrmClassificationManager2::ClassifyFiles, fs.ifsrmclassificationmanager2_classifyfiles, fsrm.ifsrmclassificationmanager2_classifyfiles, fsrmpipeline/IFsrmClassificationManager2::ClassifyFiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h

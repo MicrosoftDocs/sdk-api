@@ -1,16 +1,16 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.SetFileSize
 title: ISimilarityTraitsMapping::SetFileSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the size of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_setfilesize.htm
 old-project: Rdc
 ms.assetid: 7f8afa56-6531-40dd-979f-12506ad8c286
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISimilarityTraitsMapping interface [Remote Differential Compression],SetFileSize method, ISimilarityTraitsMapping.SetFileSize, ISimilarityTraitsMapping::SetFileSize, SetFileSize, SetFileSize method [Remote Differential Compression], SetFileSize method [Remote Differential Compression],ISimilarityTraitsMapping interface, fs.isimilaritytraitsmapping_setfilesize, msrdc/ISimilarityTraitsMapping::SetFileSize, rdc.isimilaritytraitsmapping_setfilesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

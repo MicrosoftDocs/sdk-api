@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetValueByIndex
 title: IWICMetadataReader::GetValueByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the metadata item at the given index.
 old-location: wic\_wic_codec_iwicmetadatareader_getvaluebyindex.htm
 old-project: wic
 ms.assetid: dd22e0e6-d607-48ae-a51c-b49003004f1f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetValueByIndex, GetValueByIndex method [Windows Imaging Component], GetValueByIndex method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetValueByIndex method, IWICMetadataReader.GetValueByIndex, IWICMetadataReader::GetValueByIndex, _wic_codec_iwicmetadatareader_getvaluebyindex, wic._wic_codec_iwicmetadatareader_getvaluebyindex, wincodecsdk/IWICMetadataReader::GetValueByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

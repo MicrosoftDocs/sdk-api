@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.ReadLogArchiveMetadata
 title: ReadLogArchiveMetadata function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies a range of the archive view of the metadata to the specified buffer.
 old-location: fs\readlogarchivemetadata.htm
 old-project: Clfs
 ms.assetid: b0b8528d-30fc-4995-b82d-5577af8d299d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ReadLogArchiveMetadata, ReadLogArchiveMetadata function [Files], clfsw32/ReadLogArchiveMetadata, fs.readlogarchivemetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

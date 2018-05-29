@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFVideoProcessorControl
 title: IMFVideoProcessorControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures the Video Processor MFT.
 old-location: mf\imfvideoprocessorcontrol.htm
 old-project: medfound
 ms.assetid: 6803B69E-CF84-45D5-804C-BD961BD5E13D
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFVideoProcessorControl, IMFVideoProcessorControl interface [Media Foundation], IMFVideoProcessorControl interface [Media Foundation],described, mf.imfvideoprocessorcontrol, mfidl/IMFVideoProcessorControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

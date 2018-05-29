@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardListReadersA
 title: SCardListReadersA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the list of readers within a set of named reader groups, eliminating duplicates.
 old-location: security\scardlistreaders.htm
 old-project: SecAuthN
 ms.assetid: b50218f1-e960-4838-b44b-6c71fa94a0ad
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardListReaders, SCardListReaders function [Security], SCardListReadersA, SCardListReadersW, _smart_scardlistreaders, security.scardlistreaders, winscard/SCardListReaders, winscard/SCardListReadersA, winscard/SCardListReadersW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

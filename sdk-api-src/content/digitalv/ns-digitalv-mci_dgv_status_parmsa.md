@@ -1,16 +1,16 @@
 ---
 UID: NS:digitalv.MCI_DGV_STATUS_PARMSA
 title: MCI_DGV_STATUS_PARMSA
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCI_DGV_STATUS_PARMS structure contains parameters for the MCI_STATUS command for digital-video devices.
 old-location: multimedia\mci_dgv_status_parms.htm
 old-project: Multimedia
 ms.assetid: bbc09d4c-4231-48a8-97f6-54cbb32303b1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPMCI_DGV_STATUS_PARMSA, MCI_DGV_STATUS_PARMS, MCI_DGV_STATUS_PARMS structure [Windows Multimedia], MCI_DGV_STATUS_PARMSA, _win32_MCI_DGV_STATUS_PARMS_str, digitalv/MCI_DGV_STATUS_PARMS, multimedia.mci_dgv_status_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

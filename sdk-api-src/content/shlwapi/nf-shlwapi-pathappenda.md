@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathAppendA
 title: PathAppendA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Appends one path to the end of another.
 old-location: shell\PathAppend.htm
 old-project: shell
 ms.assetid: 896737ef-a05c-4f0f-b8b0-56355ae9c2d9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathAppend, PathAppend function [Windows Shell], PathAppendA, PathAppendW, _win32_PathAppend, shell.PathAppend, shlwapi/PathAppend, shlwapi/PathAppendA, shlwapi/PathAppendW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.ShutdownBlockReasonCreate
 title: ShutdownBlockReasonCreate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that the system cannot be shut down and sets a reason string to be displayed to the user if system shutdown is initiated.
 old-location: base\shutdownblockreasoncreate.htm
 old-project: Shutdown
 ms.assetid: 4c6f9159-fac2-431e-bbdf-c35c4cdb25ac
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ShutdownBlockReasonCreate, ShutdownBlockReasonCreate function, base.shutdownblockreasoncreate, winuser/ShutdownBlockReasonCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

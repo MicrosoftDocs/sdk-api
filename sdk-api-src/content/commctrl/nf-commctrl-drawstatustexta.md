@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.DrawStatusTextA
 title: DrawStatusTextA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrawStatusText function draws the specified text in the style of a status window with borders.
 old-location: controls\DrawStatusText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\status\functions\drawstatustext.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DrawStatusText, DrawStatusText function [Windows Controls], DrawStatusTextA, DrawStatusTextW, SBT_NOBORDERS, SBT_POPOUT, SBT_RTLREADING, _win32_DrawStatusText, _win32_DrawStatusText_cpp, commctrl/DrawStatusText, commctrl/DrawStatusTextA, commctrl/DrawStatusTextW, controls.DrawStatusText, controls._win32_DrawStatusText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

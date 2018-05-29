@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi.IDXGIDeviceSubObject.GetDevice
 title: IDXGIDeviceSubObject::GetDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the device.
 old-location: direct3ddxgi\idxgidevicesubobject_getdevice.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevicesubobject_getdevice.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetDevice, GetDevice method [DXGI], GetDevice method [DXGI],IDXGIDeviceSubObject interface, IDXGIDeviceSubObject interface [DXGI],GetDevice method, IDXGIDeviceSubObject.GetDevice, IDXGIDeviceSubObject::GetDevice, b3dce65b-334c-0973-c391-77df6912fc77, direct3ddxgi.idxgidevicesubobject_getdevice, dxgi/IDXGIDeviceSubObject::GetDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

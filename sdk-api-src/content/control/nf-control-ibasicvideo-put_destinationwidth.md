@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IBasicVideo.put_DestinationWidth
 title: IBasicVideo::put_DestinationWidth
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_DestinationWidth method sets the width of the destination rectangle.
 old-location: dshow\ibasicvideo_put_destinationwidth.htm
 old-project: DirectShow
 ms.assetid: 4ae22194-19ca-4a20-9b4f-d9f39e346606
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_DestinationWidth method, IBasicVideo.put_DestinationWidth, IBasicVideo::put_DestinationWidth, IBasicVideoput_DestinationWidth, control/IBasicVideo::put_DestinationWidth, dshow.ibasicvideo_put_destinationwidth, put_DestinationWidth, put_DestinationWidth method [DirectShow], put_DestinationWidth method [DirectShow],IBasicVideo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

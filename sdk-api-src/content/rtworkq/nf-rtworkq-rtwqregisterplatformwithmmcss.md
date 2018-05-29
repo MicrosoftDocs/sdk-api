@@ -1,16 +1,16 @@
 ---
 UID: NF:rtworkq.RtwqRegisterPlatformWithMMCSS
 title: RtwqRegisterPlatformWithMMCSS function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers the standard platform work queues with the Multimedia Class Scheduler Service (MMCSS).
 old-location: base\rtwqregisterplatformwithmmcss.htm
 old-project: ProcThread
 ms.assetid: 17ba1e77-f1b0-4575-b96c-bf42813279ce
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtwqRegisterPlatformWithMMCSS, RtwqRegisterPlatformWithMMCSS function, base.rtwqregisterplatformwithmmcss, rtworkq/RtwqRegisterPlatformWithMMCSS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

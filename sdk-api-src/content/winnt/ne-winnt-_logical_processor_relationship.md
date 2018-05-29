@@ -1,16 +1,16 @@
 ---
 UID: NE:winnt._LOGICAL_PROCESSOR_RELATIONSHIP
 title: "_LOGICAL_PROCESSOR_RELATIONSHIP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the relationship between the processor set identified in the corresponding SYSTEM_LOGICAL_PROCESSOR_INFORMATION or SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX structure.
 old-location: base\logical_processor_relationship.htm
 old-project: ProcThread
 ms.assetid: 2ada52f0-70ec-4146-9ef7-9af3b08996f9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: LOGICAL_PROCESSOR_RELATIONSHIP, LOGICAL_PROCESSOR_RELATIONSHIP enumeration, RelationAll, RelationCache, RelationGroup, RelationNumaNode, RelationProcessorCore, RelationProcessorPackage, _LOGICAL_PROCESSOR_RELATIONSHIP, base.logical_processor_relationship, winnt/LOGICAL_PROCESSOR_RELATIONSHIP, winnt/RelationAll, winnt/RelationCache, winnt/RelationGroup, winnt/RelationNumaNode, winnt/RelationProcessorCore, winnt/RelationProcessorPackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h

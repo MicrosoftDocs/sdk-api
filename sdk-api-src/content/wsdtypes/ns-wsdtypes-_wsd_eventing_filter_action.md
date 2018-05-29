@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_EVENTING_FILTER_ACTION
 title: "_WSD_EVENTING_FILTER_ACTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a boolean expression used for filtering events.
 old-location: ncd\wsd_eventing_filter_action.htm
 old-project: WsdApi
 ms.assetid: d6fc39ec-f57a-4b20-8c8a-7e370ee3f377
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_EVENTING_FILTER_ACTION, WSD_EVENTING_FILTER_ACTION structure, _WSD_EVENTING_FILTER_ACTION, ncd.wsd_eventing_filter_action, wsdtypes/WSD_EVENTING_FILTER_ACTION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

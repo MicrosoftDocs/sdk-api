@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngMultiByteToUnicodeN
 title: EngMultiByteToUnicodeN function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngMultiByteToUnicodeN function converts the specified ANSI source string into a Unicode string using the current ANSI code page.
 old-location: display\engmultibytetounicoden.htm
 old-project: display
 ms.assetid: fa7a4e64-46be-49c8-9862-04348b9dc79e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngMultiByteToUnicodeN, EngMultiByteToUnicodeN function [Display Devices], display.engmultibytetounicoden, gdifncs_ad2cf58d-ac6c-438f-b9be-74e2617a857c.xml, winddi/EngMultiByteToUnicodeN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:audioengineendpoint.IAudioOutputEndpointRT.PulseEndpoint
 title: IAudioOutputEndpointRT::PulseEndpoint
-author: windows-driver-content
+author: windows-sdk-content
 description: Is reserved.
 old-location: termserv\iaudiooutputendpointrt_pulseendpoint.htm
 old-project: TermServ
 ms.assetid: 8ab117d6-5b13-4420-9cf2-865ff2011806
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAudioOutputEndpointRT interface [Remote Desktop Services],PulseEndpoint method, IAudioOutputEndpointRT.PulseEndpoint, IAudioOutputEndpointRT::PulseEndpoint, PulseEndpoint, PulseEndpoint method [Remote Desktop Services], PulseEndpoint method [Remote Desktop Services],IAudioOutputEndpointRT interface, audioengineendpoint/IAudioOutputEndpointRT::PulseEndpoint, termserv.iaudiooutputendpointrt_pulseendpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngCreateBitmap
 title: EngCreateBitmap function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngCreateBitmap function requests that GDI create and manage a bitmap.
 old-location: display\engcreatebitmap.htm
 old-project: display
 ms.assetid: 51da3fbc-bf6e-47a9-8ee8-ebf34c23b66c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngCreateBitmap, EngCreateBitmap function [Display Devices], display.engcreatebitmap, gdifncs_fde5f304-b931-449c-bba5-3a9f3d814687.xml, winddi/EngCreateBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

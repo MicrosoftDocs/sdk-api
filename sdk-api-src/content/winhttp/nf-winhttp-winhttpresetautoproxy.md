@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpResetAutoProxy
 title: WinHttpResetAutoProxy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the auto-proxy.
 old-location: http\winhttpresetautoproxy.htm
 old-project: WinHttp
 ms.assetid: 08b4ea41-4349-4746-a98e-93ba1db20d0e
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WINHTTP_RESET_ALL, WINHTTP_RESET_NOTIFY_NETWORK_CHANGED, WINHTTP_RESET_OUT_OF_PROC, WINHTTP_RESET_SCRIPT_CACHE, WINHTTP_RESET_STATE, WINHTTP_RESET_SWPAD_ALL, WINHTTP_RESET_SWPAD_CURRENT_NETWORK, WinHttpResetAutoProxy, WinHttpResetAutoProxy function [WinHTTP], http.winhttpresetautoproxy, winhttp/WinHttpResetAutoProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

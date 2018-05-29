@@ -1,16 +1,16 @@
 ---
 UID: NE:iwscapi._WSC_SECURITY_SIGNATURE_STATUS
 title: "_WSC_SECURITY_SIGNATURE_STATUS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports the current version status of the security product to Windows Security Center.
 old-location: winprog\wsc_security_signature_status.htm
 old-project: DevNotes
 ms.assetid: 1D09F5C6-F5A4-40A5-836B-25709E3017B9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: WSC_SECURITY_PRODUCT_OUT_OF_DATE, WSC_SECURITY_PRODUCT_UP_TO_DATE, WSC_SECURITY_SIGNATURE_STATUS, WSC_SECURITY_SIGNATURE_STATUS enumeration [Windows API], _WSC_SECURITY_SIGNATURE_STATUS, iwscapi/WSC_SECURITY_PRODUCT_OUT_OF_DATE, iwscapi/WSC_SECURITY_PRODUCT_UP_TO_DATE, iwscapi/WSC_SECURITY_SIGNATURE_STATUS, winprog.wsc_security_signature_status
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: iwscapi.h
 req.include-header: 

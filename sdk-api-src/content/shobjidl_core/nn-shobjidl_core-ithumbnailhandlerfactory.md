@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IThumbnailHandlerFactory
 title: IThumbnailHandlerFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method for retrieving the thumbnail handler of an item. Implement this interface if you want to specify what extractor is used for a child IDList.
 old-location: shell\IThumbnailHandlerFactory.htm
 old-project: shell
 ms.assetid: 83a9f676-ba03-4a0b-abe6-65f70c8babac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IThumbnailHandlerFactory, IThumbnailHandlerFactory interface [Windows Shell], IThumbnailHandlerFactory interface [Windows Shell],described, _shell_IThumbnailHandlerFactory, shell.IThumbnailHandlerFactory, shobjidl_core/IThumbnailHandlerFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

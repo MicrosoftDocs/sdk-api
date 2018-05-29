@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanGetInterfaceCapability
 title: WlanGetInterfaceCapability function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the capabilities of an interface.
 old-location: nwifi\wlangetinterfacecapability.htm
 old-project: NativeWiFi
 ms.assetid: 09f8273a-5259-44fa-b55e-af3282735c0b
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanGetInterfaceCapability, WlanGetInterfaceCapability function [NativeWIFI], nwifi.wlangetinterfacecapability, wlanapi/WlanGetInterfaceCapability
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiGetProductPropertyW
 title: MsiGetProductPropertyW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiGetProductProperty function retrieves product properties. These properties are in the product database.
 old-location: setup\msigetproductproperty.htm
 old-project: Msi
 ms.assetid: 724f6034-c492-4bab-97dc-d9b2f75e9642
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiGetProductProperty, MsiGetProductProperty function, MsiGetProductPropertyA, MsiGetProductPropertyW, _msi_msigetproductproperty, msi/MsiGetProductProperty, msi/MsiGetProductPropertyA, msi/MsiGetProductPropertyW, setup.msigetproductproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

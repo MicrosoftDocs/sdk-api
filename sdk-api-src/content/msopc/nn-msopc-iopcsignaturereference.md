@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcSignatureReference
 title: IOpcSignatureReference
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a reference to XML markup that has been or will be signed.
 old-location: opc\iopcsignaturereference.htm
 old-project: OPC
 ms.assetid: 2ce40bc7-754a-4f69-9348-75603e2257a4
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcSignatureReference, IOpcSignatureReference interface [Open Packaging Conventions], IOpcSignatureReference interface [Open Packaging Conventions],described, msopc/IOpcSignatureReference, opc.iopcsignaturereference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

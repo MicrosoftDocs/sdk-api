@@ -1,16 +1,16 @@
 ---
 UID: NF:coml2api.StgOpenStorage
 title: StgOpenStorage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an existing root storage object in the file system.
 old-location: stg\stgopenstorage.htm
 old-project: Stg
 ms.assetid: 5ff18dc8-b24f-42bb-8c32-efc4d3696687
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: StgOpenStorage, StgOpenStorage function [Structured Storage], _stg_stgopenstorage, coml2api/StgOpenStorage, stg.stgopenstorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Objbase.h

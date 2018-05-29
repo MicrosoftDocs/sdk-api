@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcproxy.NdrStubGetBuffer
 title: NdrStubGetBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrStubGetBuffer function retrieves a buffer from the RPC channel.
 old-location: rpc\ndrstubgetbuffer.htm
 old-project: Rpc
 ms.assetid: ab877b5a-5c44-46eb-bd03-26410eccc765
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrStubGetBuffer, NdrStubGetBuffer function [RPC], rpc.ndrstubgetbuffer, rpcproxy/NdrStubGetBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.BeginDump
 title: ISimilarityTraitsTable::BeginDump
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves similarity data from the similarity traits table.
 old-location: rdc\isimilaritytraitstable_begindump.htm
 old-project: Rdc
 ms.assetid: 93298019-334b-4685-b95e-a1081c2bd9dc
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: BeginDump, BeginDump method [Remote Differential Compression], BeginDump method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],BeginDump method, ISimilarityTraitsTable.BeginDump, ISimilarityTraitsTable::BeginDump, fs.isimilaritytraitstable_begindump, msrdc/ISimilarityTraitsTable::BeginDump, rdc.isimilaritytraitstable_begindump
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

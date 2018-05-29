@@ -1,16 +1,16 @@
 ---
 UID: NF:srrestoreptapi.SRSetRestorePointW
 title: SRSetRestorePointW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the beginning and the ending of a set of changes so that System Restore can create a restore point.
 old-location: sr\srsetrestorepoint.htm
 old-project: sr
 ms.assetid: 46f0094d-9079-41b5-9efc-ef07082653d3
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SRSetRestorePoint, SRSetRestorePoint function [System Restore], SRSetRestorePointA, SRSetRestorePointW, _sr_srsetrestorepoint, sr.srsetrestorepoint, srrestoreptapi/SRSetRestorePoint, srrestoreptapi/SRSetRestorePointA, srrestoreptapi/SRSetRestorePointW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: srrestoreptapi.h
 req.include-header: 

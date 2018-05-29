@@ -1,16 +1,16 @@
 ---
 UID: NC:mapi.MAPILOGOFF
 title: MAPILOGOFF
-author: windows-driver-content
+author: windows-sdk-content
 description: The MAPILogoff function ends a session with the messaging system.
 old-location: mapi\mapilogoff.htm
 old-project: WindowsMAPI
 ms.assetid: d04316cf-31f5-4f5f-ad20-01ce720fdf4c
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: MAPILogoff, MAPILogoff callback, MAPILogoff callback function, mapi.mapilogoff, mapi/MAPILogoff
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:mpeg2psiparser.IPSITables
 title: IPSITables
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an MPEG-2 program specific information (PSI) table from an MPEG-2 transport stream.
 old-location: mstv\ipsitables.htm
 old-project: mstv
 ms.assetid: 6f07b4d2-7a52-448c-9e9f-729bd5261757
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPSITables, IPSITables interface [Microsoft TV Technologies], IPSITables interface [Microsoft TV Technologies],described, mpeg2psiparser/IPSITables, mstv.ipsitables
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mpeg2psiparser.h
 req.include-header: Mpeg2PsiParser.idl

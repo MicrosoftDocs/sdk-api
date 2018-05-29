@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.FolderItems
 title: FolderItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the collection of items in a Shell folder. This object contains properties and methods that allow you to retrieve information about the collection.
 old-location: shell\FolderItems.htm
 old-project: shell
 ms.assetid: b99201b3-95e8-4ddd-b338-dee8d107d0a0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FolderItems, FolderItems object [Windows Shell], FolderItems object [Windows Shell],described, _win32_FolderItems, shell.FolderItems, shldisp/FolderItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

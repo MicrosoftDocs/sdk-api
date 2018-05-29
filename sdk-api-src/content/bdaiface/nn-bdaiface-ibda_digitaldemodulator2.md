@@ -1,16 +1,16 @@
 ---
 UID: NN:bdaiface.IBDA_DigitalDemodulator2
 title: IBDA_DigitalDemodulator2
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls a Broadcast Driver Architecture (BDA) demodulator filter. Demodulation filters for Digital Video Broadcasting-Satellite version 2 (DVB-S2) implement this interface.
 old-location: mstv\ibda_digitaldemodulator2.htm
 old-project: mstv
 ms.assetid: 337fba05-80d5-4638-9936-2e02767a5b1b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_DigitalDemodulator2, IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies], IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],described, bdaiface/IBDA_DigitalDemodulator2, mstv.ibda_digitaldemodulator2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

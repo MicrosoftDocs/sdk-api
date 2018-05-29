@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupCommitFileQueueA
 title: SetupCommitFileQueueA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupCommitFileQueue function performs file operations queued on a setup file queue.
 old-location: setup\setupcommitfilequeue.htm
 old-project: SetupApi
 ms.assetid: c532f435-7393-49f0-975c-4c0ecca64407
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupCommitFileQueue, SetupCommitFileQueue function [Setup API], SetupCommitFileQueueA, SetupCommitFileQueueW, _setupapi_setupcommitfilequeue, setup.setupcommitfilequeue, setupapi/SetupCommitFileQueue, setupapi/SetupCommitFileQueueA, setupapi/SetupCommitFileQueueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

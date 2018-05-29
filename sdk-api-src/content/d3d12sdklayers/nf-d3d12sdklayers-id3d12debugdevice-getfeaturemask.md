@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugDevice.GetFeatureMask
 title: ID3D12DebugDevice::GetFeatureMask
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a bit field of flags that indicates which debug features are on or off.
 old-location: direct3d12\id3d12debugdevice_getfeaturemask.htm
 old-project: direct3d12
 ms.assetid: E4ECE63F-6738-4856-9912-93C3AAEE7E3B
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetFeatureMask, GetFeatureMask method, GetFeatureMask method,ID3D12DebugDevice interface, ID3D12DebugDevice interface,GetFeatureMask method, ID3D12DebugDevice.GetFeatureMask, ID3D12DebugDevice::GetFeatureMask, d3d12sdklayers/ID3D12DebugDevice::GetFeatureMask, direct3d12.id3d12debugdevice_getfeaturemask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

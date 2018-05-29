@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.lineagentactivityentry_tag
 title: lineagentactivityentry_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The LINEAGENTACTIVITYENTRY structure describes a single ACD agent activity. The LINEAGENTACTIVITYLIST structure can contain an array of LINEAGENTACTIVITYENTRY structures.
 old-location: tapi2\lineagentactivityentry_str.htm
 old-project: Tapi
 ms.assetid: e4f869a9-608c-4119-863b-b29e8b0d9680
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPLINEAGENTACTIVITYENTRY, LINEAGENTACTIVITYENTRY, LINEAGENTACTIVITYENTRY structure [TAPI 2.2], LPLINEAGENTACTIVITYENTRY, LPLINEAGENTACTIVITYENTRY structure pointer [TAPI 2.2], _tapi2_lineagentactivityentry_str, lineagentactivityentry_tag, tapi/LINEAGENTACTIVITYENTRY, tapi/LPLINEAGENTACTIVITYENTRY, tapi2.lineagentactivityentry_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

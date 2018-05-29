@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager2.SetSystemProfileVersion
 title: IWMProfileManager2::SetSystemProfileVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetSystemProfileVersion method specifies the version number of the system profiles that the profile manager enumerates.
 old-location: wmformat\iwmprofilemanager2_setsystemprofileversion.htm
 old-project: wmformat
 ms.assetid: cd957f3b-401c-4ab1-9c54-7b4ac895caac
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMProfileManager2 interface [windows Media Format],SetSystemProfileVersion method, IWMProfileManager2.SetSystemProfileVersion, IWMProfileManager2::SetSystemProfileVersion, IWMProfileManager2SetSystemProfileVersion, SetSystemProfileVersion, SetSystemProfileVersion method [windows Media Format], SetSystemProfileVersion method [windows Media Format],IWMProfileManager2 interface, wmformat.iwmprofilemanager2_setsystemprofileversion, wmsdkidl/IWMProfileManager2::SetSystemProfileVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

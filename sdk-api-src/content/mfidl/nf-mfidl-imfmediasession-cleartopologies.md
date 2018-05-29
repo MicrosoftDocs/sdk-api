@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaSession.ClearTopologies
 title: IMFMediaSession::ClearTopologies
-author: windows-driver-content
+author: windows-sdk-content
 description: Clears all of the presentations that are queued for playback in the Media Session.
 old-location: mf\imfmediasession_cleartopologies.htm
 old-project: medfound
 ms.assetid: fcb7e5f1-1095-4766-afed-43ad2279abb4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ClearTopologies, ClearTopologies method [Media Foundation], ClearTopologies method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],ClearTopologies method, IMFMediaSession.ClearTopologies, IMFMediaSession::ClearTopologies, fcb7e5f1-1095-4766-afed-43ad2279abb4, mf.imfmediasession_cleartopologies, mfidl/IMFMediaSession::ClearTopologies
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

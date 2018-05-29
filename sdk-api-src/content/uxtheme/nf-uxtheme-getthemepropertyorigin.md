@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemePropertyOrigin
 title: GetThemePropertyOrigin function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the location of the theme property definition for a property.
 old-location: controls\GetThemePropertyOrigin.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemepropertyorigin.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemePropertyOrigin, GetThemePropertyOrigin function [Windows Controls], controls.GetThemePropertyOrigin, controls.inet_GetThemePropertyOrigin, inet_GetThemePropertyOrigin, inet_GetThemePropertyOrigin_cpp, uxtheme/GetThemePropertyOrigin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

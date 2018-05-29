@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingImportBeginW
 title: RpcNsBindingImportBeginW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsBindingImportBegin function creates an import context for importing client-compatible binding handles for servers that offer the specified interface and object.
 old-location: rpc\rpcnsbindingimportbegin.htm
 old-project: Rpc
 ms.assetid: 8dca0490-72aa-41e0-b747-863d53a705ea
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsBindingImportBegin, RpcNsBindingImportBegin function [RPC], RpcNsBindingImportBeginA, RpcNsBindingImportBeginW, _rpc_rpcnsbindingimportbegin, rpc.rpcnsbindingimportbegin, rpcnsi/RpcNsBindingImportBegin, rpcnsi/RpcNsBindingImportBeginA, rpcnsi/RpcNsBindingImportBeginW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserDisplay
 title: IAzClientContext::get_UserDisplay
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the name of the current client in user display name format.
 old-location: security\iazclientcontext_userdisplay.htm
 old-project: SecAuthZ
 ms.assetid: db75ecc1-0096-4e14-a5be-10b596ad5163
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzClientContext object [Security],UserDisplay property, IAzClientContext interface [Security],UserDisplay property, IAzClientContext.UserDisplay, IAzClientContext.get_UserDisplay, IAzClientContext::UserDisplay, IAzClientContext::get_UserDisplay, UserDisplay property [Security], UserDisplay property [Security],AzClientContext object, UserDisplay property [Security],IAzClientContext interface, azroles/IAzClientContext::UserDisplay, azroles/IAzClientContext::get_UserDisplay, get_UserDisplay, security.iazclientcontext_userdisplay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

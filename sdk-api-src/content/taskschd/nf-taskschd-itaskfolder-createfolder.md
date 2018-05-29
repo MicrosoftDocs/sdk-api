@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskFolder.CreateFolder
 title: ITaskFolder::CreateFolder
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a folder for related tasks.
 old-location: taskschd\itaskfolder_createfolder.htm
 old-project: TaskSchd
 ms.assetid: da0f2420-b1a0-4359-aa05-ddf1f2a35118
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateFolder, CreateFolder method [Task Scheduler], CreateFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],CreateFolder method, ITaskFolder.CreateFolder, ITaskFolder::CreateFolder, taskschd.itaskfolder_createfolder, taskschd/ITaskFolder::CreateFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

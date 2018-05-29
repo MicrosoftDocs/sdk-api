@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif._VIDEO_STREAM_CONFIG_CAPS
 title: "_VIDEO_STREAM_CONFIG_CAPS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The VIDEO_STREAM_CONFIG_CAPS structure describes a range of video formats. Video compression and video capture filters use this structure to describe what formats they can produce.
 old-location: dshow\video_stream_config_caps.htm
 old-project: DirectShow
 ms.assetid: c4e68065-79d0-4e2e-abe5-2e5b6a51bd40
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: 0, 1, 2, 3 and higher, VIDEO_STREAM_CONFIG_CAPS, VIDEO_STREAM_CONFIG_CAPS structure [DirectShow], VIDEO_STREAM_CONFIG_CAPSStructure, _VIDEO_STREAM_CONFIG_CAPS, dshow.video_stream_config_caps, strmif/VIDEO_STREAM_CONFIG_CAPS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

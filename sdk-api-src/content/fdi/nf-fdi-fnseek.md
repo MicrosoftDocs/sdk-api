@@ -1,16 +1,16 @@
 ---
 UID: NF:fdi.FNSEEK
 title: FNSEEK macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The FNSEEK macro provides the declaration for the application-defined callback function to move a file pointer to the specified location in an FDI context.
 old-location: winprog\fnseek.htm
 old-project: DevNotes
 ms.assetid: e49b5086-6b89-40ce-b6fa-905d21593dec
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FNSEEK, FNSEEK macro [Windows API], fdi/FNSEEK, winprog.fnseek
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: fdi.h
 req.include-header: 

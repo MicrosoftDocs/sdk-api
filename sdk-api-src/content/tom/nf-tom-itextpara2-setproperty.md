@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextPara2.SetProperty
 title: ITextPara2::SetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the property value.
 old-location: controls\itextpara2_setproperty.htm
 old-project: Controls
 ms.assetid: 5a95c055-5118-4c2a-8f63-3a2a3114451e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetProperty method, ITextPara2.SetProperty, ITextPara2::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextPara2 interface, controls.itextpara2_setproperty, tom/ITextPara2::SetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMIndexer2.Configure
 title: IWMIndexer2::Configure
-author: windows-driver-content
+author: windows-sdk-content
 description: The Configure method changes the internal settings of the indexer object.
 old-location: wmformat\iwmindexer2_configure.htm
 old-project: wmformat
 ms.assetid: b4ab9ad8-5fc7-43ce-ba2f-f32135a44a86
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Configure, Configure method [windows Media Format], Configure method [windows Media Format],IWMIndexer2 interface, IWMIndexer2 interface [windows Media Format],Configure method, IWMIndexer2.Configure, IWMIndexer2::Configure, IWMIndexer2Configure, wmformat.iwmindexer2_configure, wmsdkidl/IWMIndexer2::Configure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

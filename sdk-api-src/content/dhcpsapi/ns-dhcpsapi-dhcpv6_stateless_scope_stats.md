@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi.DHCPV6_STATELESS_SCOPE_STATS
 title: DHCPV6_STATELESS_SCOPE_STATS
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCPV6_STATELESS_SCOPE_STATS structure defines the address counters for a specific IPv6 stateless subnet. The number of stateless IPv6 clients added and removed from the stateless client inventory are stored in this structure.
 old-location: dhcp\dhcpv6_stateless_scope_stats.htm
 old-project: DHCP
 ms.assetid: edb099a6-18eb-49b1-8f97-7f0b32a2430a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCPV6_STATELESS_SCOPE_STATS, *PDHCPV6_STATELESS_SCOPE_STATS, DHCPV6_STATELESS_SCOPE_STATS, DHCPV6_STATELESS_SCOPE_STATS structure [DHCP], LPDHCPV6_STATELESS_SCOPE_STATS, LPDHCPV6_STATELESS_SCOPE_STATS structure pointer [DHCP], PDHCPV6_STATELESS_SCOPE_STATS, PDHCPV6_STATELESS_SCOPE_STATS structure pointer [DHCP], dhcp.dhcpv6_stateless_scope_stats, dhcpsapi/DHCPV6_STATELESS_SCOPE_STATS, dhcpsapi/LPDHCPV6_STATELESS_SCOPE_STATS, dhcpsapi/PDHCPV6_STATELESS_SCOPE_STATS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

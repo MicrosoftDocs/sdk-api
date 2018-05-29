@@ -1,16 +1,16 @@
 ---
 UID: NF:snmp.SnmpSvcSetLogType
 title: SnmpSvcSetLogType function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SnmpSvcSetLogType function adjusts the destination for the debug output from the SNMP service and from SNMP extension agents using the SnmpUtilDbgPrint function. This function is an element of the SNMP Utility API.
 old-location: snmp\snmpsvcsetlogtype.htm
 old-project: SNMP
 ms.assetid: 244a8359-9002-4ece-b340-20602d566a2c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SNMP_OUTPUT_TO_CONSOLE, SNMP_OUTPUT_TO_DEBUGGER, SNMP_OUTPUT_TO_LOGFILE, SnmpSvcSetLogType, SnmpSvcSetLogType function [SNMP], _snmp_snmpsvcsetlogtype, snmp.snmpsvcsetlogtype, snmp/SnmpSvcSetLogType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddPushButton
 title: IFileDialogCustomize::AddPushButton
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a button to the dialog.
 old-location: shell\IFileDialogCustomize_AddPushButton.htm
 old-project: shell
 ms.assetid: cd0e4a8f-59c7-4056-8521-abb4c8c08a40
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddPushButton, AddPushButton method [Windows Shell], AddPushButton method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddPushButton method, IFileDialogCustomize.AddPushButton, IFileDialogCustomize::AddPushButton, shell.IFileDialogCustomize_AddPushButton, shell_IFileDialogCustomize_AddPushButton, shobjidl_core/IFileDialogCustomize::AddPushButton
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

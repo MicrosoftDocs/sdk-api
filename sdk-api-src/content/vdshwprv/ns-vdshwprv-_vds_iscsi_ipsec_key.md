@@ -1,16 +1,16 @@
 ---
 UID: NS:vdshwprv._VDS_ISCSI_IPSEC_KEY
 title: "_VDS_ISCSI_IPSEC_KEY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.This structure is reserved for future use.
 old-location: base\vds_iscsi_ipsec_key.htm
 old-project: VDS
 ms.assetid: a2428142-4dd0-467d-bb7c-3d7fca31111e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
-ms.keywords: VDS_ISCSI_IPSEC_KEY, VDS_ISCSI_IPSEC_KEY structure [VDS], _VDS_ISCSI_IPSEC_KEY, base.vds_iscsi_ipsec_key, vdshwprv/VDS_ISCSI_IPSEC_KEY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_ISCSI_IPSEC_KEY, VDS_ISCSI_IPSEC_KEY structure [VDS], _VDS_ISCSI_IPSEC_KEY, base.vds_iscsi_ipsec_key, vds/VDS_ISCSI_IPSEC_KEY, vdshwprv/VDS_ISCSI_IPSEC_KEY
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 
@@ -33,7 +33,8 @@ topic_type:
 api_type:
 -	HeaderDef
 api_location:
--	vdshwprv.h
+-	Vds.h
+-	VdsHwPrv.h
 api_name:
 -	VDS_ISCSI_IPSEC_KEY
 product: Windows

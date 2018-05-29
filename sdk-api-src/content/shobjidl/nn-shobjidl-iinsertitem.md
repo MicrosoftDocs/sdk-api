@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IInsertItem
 title: IInsertItem
-author: windows-driver-content
+author: windows-sdk-content
 description: IInsertItem may be altered or unavailable.
 old-location: shell\IInsertItem.htm
 old-project: shell
 ms.assetid: f90fdd7b-1f51-4f92-8c1a-68e8b76f723f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IInsertItem, IInsertItem interface [Windows Shell], IInsertItem interface [Windows Shell],described, shell.IInsertItem, shell_IInsertItem, shobjidl/IInsertItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

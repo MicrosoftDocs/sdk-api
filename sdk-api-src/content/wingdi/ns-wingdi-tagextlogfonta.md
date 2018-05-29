@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEXTLOGFONTA
 title: tagEXTLOGFONTA
-author: windows-driver-content
+author: windows-sdk-content
 description: The EXTLOGFONT structure defines the attributes of a font.
 old-location: gdi\extlogfont.htm
 old-project: gdi
 ms.assetid: 19f6364e-3347-45b6-be02-e2cc69a7145a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPEXTLOGFONTA, *NPEXTLOGFONTA, *PEXTLOGFONTA, EXTLOGFONT, EXTLOGFONT structure [Windows GDI], EXTLOGFONTA, EXTLOGFONTW, PEXTLOGFONT, PEXTLOGFONT structure pointer [Windows GDI], _win32_EXTLOGFONT_str, gdi.extlogfont, tagEXTLOGFONTA, wingdi/EXTLOGFONT, wingdi/EXTLOGFONTA, wingdi/EXTLOGFONTW, wingdi/PEXTLOGFONT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

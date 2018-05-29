@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxBundleReader.GetPayloadPackages
 title: IAppxBundleReader::GetPayloadPackages
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an enumerator that iterates over the list of all payload packages in the bundle.
 old-location: appxpkg\iappxbundlereader_getpayloadpackages.htm
 old-project: appxpkg
 ms.assetid: 90C1CF98-D33F-4643-8978-7C74A4E5BD52
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetPayloadPackages, GetPayloadPackages method [App packaging and management], GetPayloadPackages method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetPayloadPackages method, IAppxBundleReader.GetPayloadPackages, IAppxBundleReader::GetPayloadPackages, appxpackaging/IAppxBundleReader::GetPayloadPackages, appxpkg.iappxbundlereader_getpayloadpackages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

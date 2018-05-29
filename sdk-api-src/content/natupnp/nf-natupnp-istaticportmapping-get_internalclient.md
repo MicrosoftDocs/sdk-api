@@ -1,16 +1,16 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_InternalClient
 title: IStaticPortMapping::get_InternalClient
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_InternalClient method retrieves the name of the internal client for this port mapping.
 old-location: ics\istaticportmapping_get_internalclient.htm
 old-project: ICS
 ms.assetid: 91756e75-1915-4d61-841e-6a6cf1e849eb
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_InternalClient method, IStaticPortMapping.get_InternalClient, IStaticPortMapping::get_InternalClient, _ics_istaticportmapping_get_internalclient, get_InternalClient, get_InternalClient method [ICS/ICF], get_InternalClient method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_internalclient, natupnp/IStaticPortMapping::get_InternalClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 

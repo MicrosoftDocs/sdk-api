@@ -1,16 +1,16 @@
 ---
 UID: NE:virtdisk._OPEN_VIRTUAL_DISK_VERSION
 title: "_OPEN_VIRTUAL_DISK_VERSION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the version of the virtual disk OPEN_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.
 old-location: vhd\open_virtual_disk_version.htm
 old-project: VStor
 ms.assetid: 3f45324a-6e31-43d6-9fc9-65c85e6c3493
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: OPEN_VIRTUAL_DISK_VERSION, OPEN_VIRTUAL_DISK_VERSION enumeration [VHD], OPEN_VIRTUAL_DISK_VERSION_1, OPEN_VIRTUAL_DISK_VERSION_2, OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED, _OPEN_VIRTUAL_DISK_VERSION, vhd.open_virtual_disk_version, virtdisk/OPEN_VIRTUAL_DISK_VERSION, virtdisk/OPEN_VIRTUAL_DISK_VERSION_1, virtdisk/OPEN_VIRTUAL_DISK_VERSION_2, virtdisk/OPEN_VIRTUAL_DISK_VERSION_UNSPECIFIED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: Windows.h

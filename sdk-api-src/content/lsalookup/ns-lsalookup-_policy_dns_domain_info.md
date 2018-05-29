@@ -1,16 +1,16 @@
 ---
 UID: NS:lsalookup._POLICY_DNS_DOMAIN_INFO
 title: "_POLICY_DNS_DOMAIN_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The POLICY_DNS_DOMAIN_INFO structure is used to set and query Domain Name System (DNS) information about the primary domain associated with a Policy object.
 old-location: security\policy_dns_domain_info.htm
 old-project: SecMgmt
 ms.assetid: 5b2879cf-e0dc-4844-bfe8-bf45460285f1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PPOLICY_DNS_DOMAIN_INFO, POLICY_DNS_DOMAIN_INFO, POLICY_DNS_DOMAIN_INFO structure [Security], PPOLICY_DNS_DOMAIN_INFO, PPOLICY_DNS_DOMAIN_INFO structure pointer [Security], _POLICY_DNS_DOMAIN_INFO, _lsa_policy_dns_domain_info, lsalookup/POLICY_DNS_DOMAIN_INFO, lsalookup/PPOLICY_DNS_DOMAIN_INFO, security.policy_dns_domain_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lsalookup.h
 req.include-header: 

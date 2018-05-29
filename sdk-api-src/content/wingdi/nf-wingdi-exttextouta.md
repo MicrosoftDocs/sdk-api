@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.ExtTextOutA
 title: ExtTextOutA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ExtTextOut function draws text using the currently selected font, background color, and text color. You can optionally provide dimensions to be used for clipping, opaquing, or both.
 old-location: gdi\exttextout.htm
 old-project: gdi
 ms.assetid: 74f8fcb8-8ad4-47f2-a330-fa56713bdb37
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ETO_CLIPPED, ETO_GLYPH_INDEX, ETO_IGNORELANGUAGE, ETO_NUMERICSLATIN, ETO_NUMERICSLOCAL, ETO_OPAQUE, ETO_PDY, ETO_RTLREADING, ExtTextOut, ExtTextOut function [Windows GDI], ExtTextOutA, ExtTextOutW, _win32_ExtTextOut, gdi.exttextout, wingdi/ExtTextOut, wingdi/ExtTextOutA, wingdi/ExtTextOutW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

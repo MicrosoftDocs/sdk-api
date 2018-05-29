@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS1
 title: D3D12_FEATURE_DATA_D3D12_OPTIONS1
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the level of support for HLSL 6.0 wave operations.
 old-location: direct3d12\d3d12_feature_data_d3d12_options1.htm
 old-project: direct3d12
 ms.assetid: 39BF7632-AC73-471B-94F9-3128BD0DAB89
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS1, D3D12_FEATURE_DATA_D3D12_OPTIONS1 structure, d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS1, direct3d12.d3d12_feature_data_d3d12_options1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

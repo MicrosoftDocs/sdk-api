@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecpkg._SECPKG_GSS_INFO
 title: "_SECPKG_GSS_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: A SECPKG_GSS_INFO structure contains information used for GSS-compatible negotiations.
 old-location: security\secpkg_gss_info.htm
 old-project: SecAuthN
 ms.assetid: a2df73ee-6c95-40d9-b1cb-9eaddb4100d6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSECPKG_GSS_INFO, PSECPKG_GSS_INFO, PSECPKG_GSS_INFO structure pointer [Security], SECPKG_GSS_INFO, SECPKG_GSS_INFO structure [Security], _SECPKG_GSS_INFO, _ssp_secpkg_gss_info, ntsecpkg/PSECPKG_GSS_INFO, ntsecpkg/SECPKG_GSS_INFO, security.secpkg_gss_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 

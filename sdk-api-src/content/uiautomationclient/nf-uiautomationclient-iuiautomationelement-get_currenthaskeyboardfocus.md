@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentHasKeyboardFocus
 title: IUIAutomationElement::get_CurrentHasKeyboardFocus
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the element has keyboard focus.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentHasKeyboardFocus.htm
 old-project: WinAuto
 ms.assetid: 90ef17df-1658-4199-8e8c-0cd21724dcf6
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentHasKeyboardFocus property [Windows Accessibility], CurrentHasKeyboardFocus property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentHasKeyboardFocus property, IUIAutomationElement.CurrentHasKeyboardFocus, IUIAutomationElement.get_CurrentHasKeyboardFocus, IUIAutomationElement::CurrentHasKeyboardFocus, IUIAutomationElement::get_CurrentHasKeyboardFocus, get_CurrentHasKeyboardFocus, uiauto.uiauto_IUIAutomationElement_CurrentHasKeyboardFocus, uiauto_IUIAutomationElement_CurrentHasKeyboardFocus, uiautomationclient/IUIAutomationElement::CurrentHasKeyboardFocus, uiautomationclient/IUIAutomationElement::get_CurrentHasKeyboardFocus, winauto.uiauto_IUIAutomationElement_CurrentHasKeyboardFocus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

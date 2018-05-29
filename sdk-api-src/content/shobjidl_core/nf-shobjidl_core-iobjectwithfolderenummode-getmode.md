@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IObjectWithFolderEnumMode.GetMode
 title: IObjectWithFolderEnumMode::GetMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the enumeration mode of the parsed item.
 old-location: shell\IObjectWithFolderEnumMode_GetMode.htm
 old-project: shell
 ms.assetid: 5d331255-2295-4f7b-b2d6-1238edcc15bb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetMode, GetMode method [Windows Shell], GetMode method [Windows Shell],IObjectWithFolderEnumMode interface, IObjectWithFolderEnumMode interface [Windows Shell],GetMode method, IObjectWithFolderEnumMode.GetMode, IObjectWithFolderEnumMode::GetMode, _shell_IObjectWithFolderEnumMode_GetMode, shell.IObjectWithFolderEnumMode_GetMode, shobjidl_core/IObjectWithFolderEnumMode::GetMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

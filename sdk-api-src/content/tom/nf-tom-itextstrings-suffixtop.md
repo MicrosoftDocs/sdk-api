@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextStrings.SuffixTop
 title: ITextStrings::SuffixTop
-author: windows-driver-content
+author: windows-sdk-content
 description: Suffixes a string to the top string in the collection.
 old-location: controls\itextstrings_suffixtop.htm
 old-project: Controls
 ms.assetid: 66f4e5c6-e97b-48a5-9c71-3efb1eba12d6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextStrings interface [Windows Controls],SuffixTop method, ITextStrings.SuffixTop, ITextStrings::SuffixTop, SuffixTop, SuffixTop method [Windows Controls], SuffixTop method [Windows Controls],ITextStrings interface, controls.itextstrings_suffixtop, tom/ITextStrings::SuffixTop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

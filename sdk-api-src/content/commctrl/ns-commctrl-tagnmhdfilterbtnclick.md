@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMHDFILTERBTNCLICK
 title: tagNMHDFILTERBTNCLICK
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies or receives the attributes of a filter button click.
 old-location: controls\NMHDFILTERBTNCLICK.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\structures\nmhdfilterbtnclick.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMHDFILTERBTNCLICK, LPNMHDFILTERBTNCLICK, LPNMHDFILTERBTNCLICK structure pointer [Windows Controls], NMHDFILTERBTNCLICK, NMHDFILTERBTNCLICK structure [Windows Controls], _win32_NMHDFILTERBTNCLICK_Structure, _win32_NMHDFILTERBTNCLICK_Structure_cpp, commctrl/LPNMHDFILTERBTNCLICK, commctrl/NMHDFILTERBTNCLICK, controls.NMHDFILTERBTNCLICK, controls._win32_NMHDFILTERBTNCLICK_Structure, tagNMHDFILTERBTNCLICK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

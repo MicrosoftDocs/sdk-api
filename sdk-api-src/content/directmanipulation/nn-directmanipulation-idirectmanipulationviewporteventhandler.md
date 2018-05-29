@@ -1,16 +1,16 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationViewportEventHandler
 title: IDirectManipulationViewportEventHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods for handling status and update events for the viewport.
 old-location: directmanipulation\idirectmanipulationviewporteventhandler.htm
 old-project: directmanipulation
 ms.assetid: 3594011a-da4a-4550-9b3b-076218d09f39
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationViewportEventHandler, IDirectManipulationViewportEventHandler interface [Direct Manipulation], IDirectManipulationViewportEventHandler interface [Direct Manipulation],described, directmanipulation.idirectmanipulationviewporteventhandler, directmanipulation/IDirectManipulationViewportEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 

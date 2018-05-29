@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupFindFirstLineW
 title: SetupFindFirstLineW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupFindFirstLine function locates a line in the specified section of an INF file. If the Key parameter is NULL, SetupFindFirstLine returns the first line of the section.
 old-location: setup\setupfindfirstline.htm
 old-project: SetupApi
 ms.assetid: ff4b13b6-62ca-48ae-9ddd-e721bde7bd8b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupFindFirstLine, SetupFindFirstLine function [Setup API], SetupFindFirstLineA, SetupFindFirstLineW, _setupapi_setupfindfirstline, setup.setupfindfirstline, setupapi/SetupFindFirstLine, setupapi/SetupFindFirstLineA, setupapi/SetupFindFirstLineW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

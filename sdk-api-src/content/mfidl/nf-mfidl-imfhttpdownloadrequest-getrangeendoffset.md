@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.GetRangeEndOffset
 title: IMFHttpDownloadRequest::GetRangeEndOffset
-author: windows-driver-content
+author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to retrieve the offset of the last byte in the current response, counted from the start of the resource. This is useful when a request uses the HTTP “Range” header to download only a portion of a resource.
 old-location: mf\imfhttpdownloadrequest_getrangeendoffset.htm
 old-project: medfound
 ms.assetid: 015CBC40-BE9E-4C9F-AC1B-30FFDD2B11CC
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetRangeEndOffset, GetRangeEndOffset method [Media Foundation], GetRangeEndOffset method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetRangeEndOffset method, IMFHttpDownloadRequest.GetRangeEndOffset, IMFHttpDownloadRequest::GetRangeEndOffset, mf.imfhttpdownloadrequest_getrangeendoffset, mfidl/IMFHttpDownloadRequest::GetRangeEndOffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

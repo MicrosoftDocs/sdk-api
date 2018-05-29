@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll4.get_IncludeSubjectKeyID
 title: IEnroll4::get_IncludeSubjectKeyID
-author: windows-driver-content
+author: windows-sdk-content
 description: The IncludeSubjectKeyID property of IEnroll4 determines whether the subject key ID extension is added to the certificate request that is generated.
 old-location: security\ienroll4_includesubjectkeyid.htm
 old-project: SecCrypto
 ms.assetid: 76b85d63-374c-4ce1-97d4-95f42ddcd53f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnroll4 interface [Security],IncludeSubjectKeyID property, IEnroll4.IncludeSubjectKeyID, IEnroll4.get_IncludeSubjectKeyID, IEnroll4::IncludeSubjectKeyID, IEnroll4::get_IncludeSubjectKeyID, IEnroll4::put_IncludeSubjectKeyID, IncludeSubjectKeyID property [Security], IncludeSubjectKeyID property [Security],IEnroll4 interface, get_IncludeSubjectKeyID, security.ienroll4_includesubjectkeyid, xenroll/IEnroll4::IncludeSubjectKeyID, xenroll/IEnroll4::get_IncludeSubjectKeyID, xenroll/IEnroll4::put_IncludeSubjectKeyID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

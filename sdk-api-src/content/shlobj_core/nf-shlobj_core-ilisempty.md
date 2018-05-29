@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.ILIsEmpty
 title: ILIsEmpty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies whether an ITEMIDLIST structure is empty.
 old-location: shell\ILIsEmpty.htm
 old-project: shell
 ms.assetid: bb727aad-9c4e-44dc-9c0c-4cbcbf3f9a78
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ILIsEmpty, ILIsEmpty function [Windows Shell], _shell_ILIsEmpty, shell.ILIsEmpty, shlobj_core/ILIsEmpty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

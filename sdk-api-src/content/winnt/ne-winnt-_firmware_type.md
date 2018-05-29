@@ -1,16 +1,16 @@
 ---
 UID: NE:winnt._FIRMWARE_TYPE
 title: "_FIRMWARE_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a firmware type.
 old-location: base\firmware_type.htm
 old-project: SysInfo
 ms.assetid: c058e20e-11f9-4652-b658-9fd0a43d4224
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PFIRMWARE_TYPE, FIRMWARE_TYPE, FIRMWARE_TYPE enumeration, FirmwareTypeBios, FirmwareTypeMax, FirmwareTypeUefi, FirmwareTypeUnknown, PFIRMWARE_TYPE, PFIRMWARE_TYPE enumeration pointer, _FIRMWARE_TYPE, base.firmware_type, winnt/FIRMWARE_TYPE, winnt/FirmwareTypeBios, winnt/FirmwareTypeMax, winnt/FirmwareTypeUefi, winnt/FirmwareTypeUnknown, winnt/PFIRMWARE_TYPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h

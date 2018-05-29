@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_TEX3D_UAV
 title: D3D12_TEX3D_UAV
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a unordered-access 3D texture resource.
 old-location: direct3d12\d3d12_tex3d_uav.htm
 old-project: direct3d12
 ms.assetid: 9BD20982-0BED-4F1D-9348-B45414C03EA5
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_TEX3D_UAV, D3D12_TEX3D_UAV structure, d3d12/D3D12_TEX3D_UAV, direct3d12.d3d12_tex3d_uav
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

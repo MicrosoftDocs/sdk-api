@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbEventGroupDescriptor.GetRecordEvent
 title: IIsdbEventGroupDescriptor::GetRecordEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets data from an event record in an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
 old-location: mstv\iisdbeventgroupdescriptor_getrecordevent.htm
 old-project: mstv
 ms.assetid: 899c8c7f-9e85-4b0d-b7ea-24fb0b5daa88
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordEvent, GetRecordEvent method [Microsoft TV Technologies], GetRecordEvent method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetRecordEvent method, IIsdbEventGroupDescriptor.GetRecordEvent, IIsdbEventGroupDescriptor::GetRecordEvent, dvbsiparser/IIsdbEventGroupDescriptor::GetRecordEvent, mstv.iisdbeventgroupdescriptor_getrecordevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

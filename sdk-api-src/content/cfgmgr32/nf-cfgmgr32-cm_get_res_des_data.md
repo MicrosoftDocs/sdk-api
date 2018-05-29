@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Res_Des_Data
 title: CM_Get_Res_Des_Data function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_Res_Des_Data function retrieves the information stored in a resource descriptor on the local machine.
 old-location: devinst\cm_get_res_des_data.htm
 old-project: devinst
 ms.assetid: f35975ac-022e-4e7c-a331-da0ccd0440a1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_Res_Des_Data, CM_Get_Res_Des_Data function [Device and Driver Installation], cfgmgr32/CM_Get_Res_Des_Data, cfgmgrfn_76c92157-2495-4c52-a25f-9a02d83cff75.xml, devinst.cm_get_res_des_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

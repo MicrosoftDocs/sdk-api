@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderProperties.GetValue
 title: IProviderProperties::GetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of the specified property key.
 old-location: ncd\iproviderproperties_getvalue_method.htm
 old-project: FunDisc
 ms.assetid: c32a5367-ef39-4852-bf3b-203d27d0a2d0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetValue, GetValue method, GetValue method,IProviderProperties interface, IProviderProperties interface,GetValue method, IProviderProperties.GetValue, IProviderProperties::GetValue, functiondiscoveryprovider/IProviderProperties::GetValue, ncd.iproviderproperties_getvalue_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPLibrary.get_type
 title: IWMPLibrary::get_type
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_type method retrieves a value that indicates the library type.
 old-location: wmp\iwmplibrary_get_type.htm
 old-project: WMP
 ms.assetid: 95f36972-2227-4fe8-88d7-41f7aebbf67a
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPLibrary interface [Windows Media Player],get_type method, IWMPLibrary.get_type, IWMPLibrary::get_type, IWMPLibraryget_type, get_type, get_type method [Windows Media Player], get_type method [Windows Media Player],IWMPLibrary interface, wmp.iwmplibrary_get_type, wmp/IWMPLibrary::get_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

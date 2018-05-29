@@ -1,16 +1,16 @@
 ---
 UID: NF:filehc.InitializeCache
 title: InitializeCache function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the initializing values of the file handle cache.
 old-location: winprog\_initializecache.htm
 old-project: DevNotes
 ms.assetid: 756235f6-293b-4535-9b0e-4294fafe9e5a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: InitializeCache, InitializeCache function [Windows API], filehc/InitializeCache, winprog._initializecache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:dxgi1_2.DXGI_GRAPHICS_PREEMPTION_GRANULARITY
 title: DXGI_GRAPHICS_PREEMPTION_GRANULARITY
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the granularity at which the graphics processing unit (GPU) can be preempted from performing its current graphics rendering task.
 old-location: direct3ddxgi\dxgi_graphics_preemption_granularity.htm
 old-project: direct3ddxgi
 ms.assetid: B1372869-EFDE-49DD-BCF8-D4F59AFE8E7E
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_GRAPHICS_PREEMPTION_DMA_BUFFER_BOUNDARY, DXGI_GRAPHICS_PREEMPTION_GRANULARITY, DXGI_GRAPHICS_PREEMPTION_GRANULARITY enumeration [DXGI], DXGI_GRAPHICS_PREEMPTION_INSTRUCTION_BOUNDARY, DXGI_GRAPHICS_PREEMPTION_PIXEL_BOUNDARY, DXGI_GRAPHICS_PREEMPTION_PRIMITIVE_BOUNDARY, DXGI_GRAPHICS_PREEMPTION_TRIANGLE_BOUNDARY, direct3ddxgi.dxgi_graphics_preemption_granularity, dxgi1_2/DXGI_GRAPHICS_PREEMPTION_DMA_BUFFER_BOUNDARY, dxgi1_2/DXGI_GRAPHICS_PREEMPTION_GRANULARITY, dxgi1_2/DXGI_GRAPHICS_PREEMPTION_INSTRUCTION_BOUNDARY, dxgi1_2/DXGI_GRAPHICS_PREEMPTION_PIXEL_BOUNDARY, dxgi1_2/DXGI_GRAPHICS_PREEMPTION_PRIMITIVE_BOUNDARY, dxgi1_2/DXGI_GRAPHICS_PREEMPTION_TRIANGLE_BOUNDARY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_2.h
 req.include-header: 

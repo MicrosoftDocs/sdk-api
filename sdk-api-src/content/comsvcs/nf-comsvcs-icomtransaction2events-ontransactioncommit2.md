@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComTransaction2Events.OnTransactionCommit2
 title: IComTransaction2Events::OnTransactionCommit2
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when a transaction commits.
 old-location: cos\icomtransaction2events_ontransactioncommit2.htm
 old-project: cossdk
 ms.assetid: e68ba7be-876b-446a-8f82-a6e7af503b2c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComTransaction2Events interface [COM+],OnTransactionCommit2 method, IComTransaction2Events.OnTransactionCommit2, IComTransaction2Events::OnTransactionCommit2, OnTransactionCommit2, OnTransactionCommit2 method [COM+], OnTransactionCommit2 method [COM+],IComTransaction2Events interface, _dtc_icomtransaction2events_ontransactioncommit2, comsvcs/IComTransaction2Events::OnTransactionCommit2, cos.icomtransaction2events_ontransactioncommit2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

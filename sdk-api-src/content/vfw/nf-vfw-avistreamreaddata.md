@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamReadData
 title: AVIStreamReadData function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamReadData function reads optional header data from a stream.
 old-location: multimedia\avistreamreaddata.htm
 old-project: Multimedia
 ms.assetid: 87a787e8-547a-4c35-ba65-a592bd037063
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamReadData, AVIStreamReadData function [Windows Multimedia], _win32_AVIStreamReadData, multimedia.avistreamreaddata, vfw/AVIStreamReadData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

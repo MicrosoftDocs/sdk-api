@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidVideoRendererDevices.Remove
 title: IMSVidVideoRendererDevices::Remove
-author: windows-driver-content
+author: windows-sdk-content
 description: The Remove method removes an item from the collection.
 old-location: mstv\imsvidvideorendererdevices_remove.htm
 old-project: mstv
 ms.assetid: 0a1d8f8b-1e62-470d-8f94-afc238755cad
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],Remove method, IMSVidVideoRendererDevices.Remove, IMSVidVideoRendererDevices::Remove, IMSVidVideoRendererDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_remove, segment/IMSVidVideoRendererDevices::Remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

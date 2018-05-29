@@ -1,16 +1,16 @@
 ---
 UID: NF:mftransform.IMFTransform.GetInputStatus
 title: IMFTransform::GetInputStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries whether an input stream on this Media Foundation transform (MFT) can accept more data.
 old-location: mf\imftransform_getinputstatus.htm
 old-project: medfound
 ms.assetid: 6205dc1a-f209-49aa-8632-837783ef5f04
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 6205dc1a-f209-49aa-8632-837783ef5f04, GetInputStatus, GetInputStatus method [Media Foundation], GetInputStatus method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStatus method, IMFTransform.GetInputStatus, IMFTransform::GetInputStatus, mf.imftransform_getinputstatus, mftransform/IMFTransform::GetInputStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ddkmapi._DDOPENVPCAPTUREDEVICEOUT
 title: "_DDOPENVPCAPTUREDEVICEOUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDOPENVPCAPTUREDEVICEOUT structure contains the video port extensions (VPE) capture handle.
 old-location: display\ddopenvpcapturedeviceout.htm
 old-project: display
 ms.assetid: 5979ccd5-7c35-4088-96b3-15e4416d5471
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPDDOPENVPCAPTUREDEVICEOUT, DDOPENVPCAPTUREDEVICEOUT, DDOPENVPCAPTUREDEVICEOUT structure [Display Devices], LPDDOPENVPCAPTUREDEVICEOUT, LPDDOPENVPCAPTUREDEVICEOUT structure pointer [Display Devices], _DDOPENVPCAPTUREDEVICEOUT, ddkmapi/DDOPENVPCAPTUREDEVICEOUT, ddkmapi/LPDDOPENVPCAPTUREDEVICEOUT, ddstrcts_b477f183-6c80-47db-a9ee-5bcbe7162774.xml, display.ddopenvpcapturedeviceout"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

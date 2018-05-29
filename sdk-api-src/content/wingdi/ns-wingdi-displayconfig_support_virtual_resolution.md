@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
 title: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
-author: windows-driver-content
+author: windows-sdk-content
 description: The DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure contains information on the state of virtual resolution support for the monitor.
 old-location: display\displayconfig_support_virtual_resolution.htm
 old-project: display
 ms.assetid: D9208D00-F437-4B2E-8C39-044F75088659
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION, DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION structure [Display Devices], display.displayconfig_support_virtual_resolution, wingdi/DISPLAYCONFIG_SUPPORT_VIRTUAL_RESOLUTION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

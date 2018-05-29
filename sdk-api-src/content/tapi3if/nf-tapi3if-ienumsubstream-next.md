@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.IEnumSubStream.Next
 title: IEnumSubStream::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumsubstream_next.htm
 old-project: Tapi
 ms.assetid: fa8c4017-09ac-44e9-a7fa-922d0588d92a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumSubStream interface [TAPI 2.2],Next method, IEnumSubStream.Next, IEnumSubStream::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumSubStream interface, _tapi3_ienumsubstream_next, tapi3.ienumsubstream_next, tapi3if/IEnumSubStream::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

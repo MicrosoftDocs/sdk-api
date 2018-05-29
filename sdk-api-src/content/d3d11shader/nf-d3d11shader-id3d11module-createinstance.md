@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11shader.ID3D11Module.CreateInstance
 title: ID3D11Module::CreateInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an instance of a shader module that is used for resource rebinding.
 old-location: direct3d11\id3d11module_createinstance.htm
 old-project: direct3d11
 ms.assetid: 737A69EF-F74E-4480-98EA-31D6CCAC0F8A
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: CreateInstance, CreateInstance method [Direct3D 11], CreateInstance method [Direct3D 11],ID3D11Module interface, ID3D11Module interface [Direct3D 11],CreateInstance method, ID3D11Module.CreateInstance, ID3D11Module::CreateInstance, d3d11shader/ID3D11Module::CreateInstance, direct3d11.id3d11module_createinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

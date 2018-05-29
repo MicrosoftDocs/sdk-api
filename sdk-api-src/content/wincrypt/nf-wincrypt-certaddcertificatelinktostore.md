@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertAddCertificateLinkToStore
 title: CertAddCertificateLinkToStore function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a link in a certificate store to a certificate context in a different store.
 old-location: security\certaddcertificatelinktostore.htm
 old-project: SecCrypto
 ms.assetid: bcbf7755-d0ce-4dd5-8462-72760364fdc3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CERT_STORE_ADD_ALWAYS, CERT_STORE_ADD_NEW, CERT_STORE_ADD_REPLACE_EXISTING, CERT_STORE_ADD_USE_EXISTING, CertAddCertificateLinkToStore, CertAddCertificateLinkToStore function [Security], _crypto2_certaddcertificatelinktostore, security.certaddcertificatelinktostore, wincrypt/CertAddCertificateLinkToStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

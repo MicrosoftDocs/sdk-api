@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectAtPosition
 title: IDvdControl2::SelectAtPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: The SelectAtPosition method highlights the menu button under the mouse pointer position.
 old-location: dshow\idvdcontrol2_selectatposition.htm
 old-project: DirectShow
 ms.assetid: f6cb9cb4-0792-43f5-b53b-02a38ccf0398
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectAtPosition method, IDvdControl2.SelectAtPosition, IDvdControl2::SelectAtPosition, IDvdControl2SelectAtPosition, SelectAtPosition, SelectAtPosition method [DirectShow], SelectAtPosition method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectatposition, strmif/IDvdControl2::SelectAtPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmNetEventUnsubscribe0
 title: FwpmNetEventUnsubscribe0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to cancel a net event subscription and stop receiving notifications.
 old-location: fwp\fwpmneteventunsubscribe0.htm
 old-project: FWP
 ms.assetid: e7d6faba-c280-4867-a9d9-d1bf28e831ef
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmNetEventUnsubscribe0, FwpmNetEventUnsubscribe0 function [Filtering], fwp.fwpmneteventunsubscribe0, fwpmu/FwpmNetEventUnsubscribe0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.PresentBuffer
 title: IDXGIDecodeSwapChain::PresentBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Presents a frame on the output adapter.
 old-location: direct3ddxgi\idxgidecodeswapchain_presentbuffer.htm
 old-project: direct3ddxgi
 ms.assetid: EFBBE24E-9BA5-40CB-B090-EE0ADA1AF07D
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],PresentBuffer method, IDXGIDecodeSwapChain.PresentBuffer, IDXGIDecodeSwapChain::PresentBuffer, PresentBuffer, PresentBuffer method [DXGI], PresentBuffer method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_presentbuffer, dxgi1_3/IDXGIDecodeSwapChain::PresentBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertUnregisterSystemStore
 title: CertUnregisterSystemStore function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertUnregisterSystemStore function unregisters a specified system store.
 old-location: security\certunregistersystemstore.htm
 old-project: SecCrypto
 ms.assetid: 958e4185-4c37-450c-abfc-91b95593227e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CERT_STORE_DELETE_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertUnregisterSystemStore, CertUnregisterSystemStore function [Security], _crypto2_certunregistersystemstore, security.certunregistersystemstore, wincrypt/CertUnregisterSystemStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

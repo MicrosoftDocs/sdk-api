@@ -1,16 +1,16 @@
 ---
 UID: NS:ocidl.tagLICINFO
 title: tagLICINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains parameters that describe the licensing behavior of a class factory that supports licensing. The structure is filled by calling the IClassFactory2::GetLicInfo method.
 old-location: com\licinfo.htm
 old-project: com
 ms.assetid: a90d82f3-8dc4-4b1d-81f7-9d3a19e74314
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPLICINFO, LICINFO, LICINFO structure [COM], LPLICINFO, LPLICINFO structure pointer [COM], _ctrl_LICINFO, com.licinfo, ocidl/LICINFO, ocidl/LPLICINFO, tagLICINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

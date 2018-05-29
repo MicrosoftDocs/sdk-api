@@ -1,16 +1,16 @@
 ---
 UID: NE:ntsecpkg._LSA_TOKEN_INFORMATION_TYPE
 title: "_LSA_TOKEN_INFORMATION_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the levels of information that can be included in a logon token.
 old-location: security\lsa_token_information_type.htm
 old-project: SecAuthN
 ms.assetid: c8bf5b8d-6cb1-469d-a451-6cceafda24cf
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PLSA_TOKEN_INFORMATION_TYPE, LSA_TOKEN_INFORMATION_TYPE, LSA_TOKEN_INFORMATION_TYPE enumeration [Security], LsaTokenInformationNull, LsaTokenInformationV1, PLSA_TOKEN_INFORMATION_TYPE, PLSA_TOKEN_INFORMATION_TYPE enumeration pointer [Security], _LSA_TOKEN_INFORMATION_TYPE, _lsa_lsa_token_information_type, ntsecpkg/LSA_TOKEN_INFORMATION_TYPE, ntsecpkg/LsaTokenInformationNull, ntsecpkg/LsaTokenInformationV1, ntsecpkg/PLSA_TOKEN_INFORMATION_TYPE, security.lsa_token_information_type"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecpkg.h
 req.include-header: 

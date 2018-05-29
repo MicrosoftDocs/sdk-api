@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.AddWordsToWordList
 title: AddWordsToWordList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds one or more words to the word list.
 old-location: tablet\addwordstowordlist.htm
 old-project: tablet
 ms.assetid: 8487bdad-c927-44dc-b757-40a0aba285ca
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 8487bdad-c927-44dc-b757-40a0aba285ca, AddWordsToWordList, AddWordsToWordList function [Tablet PC], recapis/AddWordsToWordList, tablet.addwordstowordlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

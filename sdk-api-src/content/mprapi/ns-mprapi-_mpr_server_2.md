@@ -1,16 +1,16 @@
 ---
 UID: NS:mprapi._MPR_SERVER_2
 title: "_MPR_SERVER_2"
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to retrieve and set the number of ports available for the Point-to-Point Tunneling Protocol (PPTP), Layer 2 Tunneling Protocol (L2TP), and Secure Socket Tunneling Protocol (SSTP) on a device.
 old-location: rras\mpr_server_2.htm
 old-project: RRAS
 ms.assetid: 9e38651a-541f-4470-a841-4eb94dbe4835
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PMPR_SERVER_2, MPR_ENABLE_RAS_ON_DEVICE, MPR_ENABLE_ROUTING_ON_DEVICE, MPR_SERVER_2, MPR_SERVER_2 structure [RAS], PMPR_SERVER_2, PMPR_SERVER_2 structure pointer [RAS], _MPR_SERVER_2, mprapi/MPR_SERVER_2, mprapi/PMPR_SERVER_2, rras.mpr_server_2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

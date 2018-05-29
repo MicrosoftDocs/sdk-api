@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFStartup
 title: MFStartup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes Microsoft Media Foundation.
 old-location: mf\mfstartup.htm
 old-project: medfound
 ms.assetid: b4472e40-3681-4b26-9385-4df7bf19c2d8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFStartup, MFStartup function [Media Foundation], b4472e40-3681-4b26-9385-4df7bf19c2d8, mf.mfstartup, mfapi/MFStartup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

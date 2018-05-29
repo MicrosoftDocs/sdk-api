@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.IUnknown_QueryService
 title: IUnknown_QueryService function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an interface for a service from a specified object.
 old-location: shell\IUnknown_QueryService.htm
 old-project: shell
 ms.assetid: 3e3f3ed0-ad36-40ef-b30c-8c85ff159f21
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUnknown_QueryService, IUnknown_QueryService function [Windows Shell], _shell_IUnknown_QueryService, shell.IUnknown_QueryService, shlwapi/IUnknown_QueryService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

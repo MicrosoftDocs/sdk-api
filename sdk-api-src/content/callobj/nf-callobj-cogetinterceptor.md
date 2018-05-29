@@ -1,16 +1,16 @@
 ---
 UID: NF:callobj.CoGetInterceptor
 title: CoGetInterceptor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Instantiates the appropriate interceptor for the specified interface to be intercepted and returns the newly created interceptor.
 old-location: com\cogetinterceptor.htm
 old-project: com
 ms.assetid: d1ffee1d-f907-4091-b993-cf13d8ce616c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoGetInterceptor, CoGetInterceptor function [COM], _com_CoGetInterceptor, callobj/CoGetInterceptor, com.cogetinterceptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: callobj.h
 req.include-header: 

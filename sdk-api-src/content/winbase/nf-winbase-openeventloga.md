@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.OpenEventLogA
 title: OpenEventLogA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a handle to the specified event log.
 old-location: base\openeventlog.htm
 old-project: EventLog
 ms.assetid: 6cd8797a-aeaf-4603-b43c-b1ff45b6200a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OpenEventLog, OpenEventLog function, OpenEventLogA, OpenEventLogW, _win32_openeventlog, base.openeventlog, winbase/OpenEventLog, winbase/OpenEventLogA, winbase/OpenEventLogW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

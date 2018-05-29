@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtCreateBookmark
 title: EvtCreateBookmark function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a bookmark that identifies an event in a channel.
 old-location: wes\evtcreatebookmark.htm
 old-project: WES
 ms.assetid: 1020d923-090b-48fc-96c2-394db5cd241e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtCreateBookmark, EvtCreateBookmark function [EventLog], wes.evtcreatebookmark, winevt/EvtCreateBookmark
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

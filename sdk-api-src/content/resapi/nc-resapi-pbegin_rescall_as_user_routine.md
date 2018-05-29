@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PBEGIN_RESCALL_AS_USER_ROUTINE
 title: PBEGIN_RESCALL_AS_USER_ROUTINE
-author: windows-driver-content
+author: windows-sdk-content
 description: The PBEGIN_RESCALL_AS_USER_ROUTINE type defines a pointer to this callback function.
 old-location: mscs\beginresourcecontrolasuser.htm
 old-project: MsCS
 ms.assetid: 58F065C6-0AE1-481D-ADA0-CF2907CB45DC
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BeginResourceControlAsUser, BeginResourceControlAsUser callback, BeginResourceControlAsUser callback function [Failover Cluster], PBEGIN_RESCALL_AS_USER_ROUTINE, PBEGIN_RESCALL_AS_USER_ROUTINE callback function [Failover Cluster], mscs.beginresourcecontrolasuser, resapi/BeginResourceControlAsUser, resapi/PBEGIN_RESCALL_AS_USER_ROUTINE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

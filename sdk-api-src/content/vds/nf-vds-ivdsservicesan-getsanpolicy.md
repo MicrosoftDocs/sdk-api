@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsServiceSAN.GetSANPolicy
 title: IVdsServiceSAN::GetSANPolicy
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the disk SAN policy for the operating system.
 old-location: base\ivdsservicesan_getsanpolicy.htm
 old-project: VDS
 ms.assetid: 59602d97-2fdf-4d1b-b158-e545619397e0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetSANPolicy, GetSANPolicy method, GetSANPolicy method,IVdsServiceSAN interface, IVdsServiceSAN interface,GetSANPolicy method, IVdsServiceSAN.GetSANPolicy, IVdsServiceSAN::GetSANPolicy, base.ivdsservicesan_getsanpolicy, vds/IVdsServiceSAN::GetSANPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

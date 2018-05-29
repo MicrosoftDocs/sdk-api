@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FromHDC(IN HDC,IN HANDLE)
 title: Graphics::FromHDC(IN HDC,IN HANDLE)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the FromHDC methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FromHDC_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfromhdcmethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FromHDC, FromHDC methods [GDI+], Graphics.FromHDC, Graphics.FromHDC(IN HDC,IN HANDLE), Graphics::FromHDC, Graphics::FromHDC(IN HDC,IN HANDLE), _gdiplus_CLASS_Graphics_FromHDC_Methods, gdiplus._gdiplus_CLASS_Graphics_FromHDC_Methods, gdiplusgraphics/FromHDC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 

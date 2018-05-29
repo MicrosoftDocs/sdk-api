@@ -1,16 +1,16 @@
 ---
 UID: NN:spatialinteractionmanagerinterop.ISpatialInteractionManagerInterop
 title: ISpatialInteractionManagerInterop
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables interoperability with a Universal Windows Platform (UWP) SpatialInteractionManager object and provides access to SpatialInteractionManager members for accessing user input from hands, motion controllers, and system voice commands.
 old-location: mixedreality\ispatialinteractionmanagerinterop.htm
 old-project: MixedReality
 ms.assetid: A6ED74DB-D56A-4133-877C-A98BCBE34F7D
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISpatialInteractionManagerInterop, ISpatialInteractionManagerInterop interface, ISpatialInteractionManagerInterop interface,described, MixedReality.ispatialinteractionmanagerinterop, spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialinteractionmanagerinterop.h
 req.include-header: 

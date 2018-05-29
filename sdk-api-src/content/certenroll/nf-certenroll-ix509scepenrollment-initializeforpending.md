@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.InitializeForPending
 title: IX509SCEPEnrollment::InitializeForPending
-author: windows-driver-content
+author: windows-sdk-content
 description: Initialize the instance to prepare to generate a message to either retrieve an issued certificate, or install a response for a previous request by the issuer.
 old-location: security\ix509scepenrollment_initializeforpending.htm
 old-project: SecCertEnroll
 ms.assetid: 6b6f9e9d-5316-4928-861a-22497e1f5c00
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],InitializeForPending method, IX509SCEPEnrollment.InitializeForPending, IX509SCEPEnrollment::InitializeForPending, InitializeForPending, InitializeForPending method [Security], InitializeForPending method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::InitializeForPending, security.ix509scepenrollment_initializeforpending
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

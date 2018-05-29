@@ -1,16 +1,16 @@
 ---
 UID: NF:t2embapi.TTIsEmbeddingEnabledForFacename
 title: TTIsEmbeddingEnabledForFacename function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether embedding is enabled for a specified font.
 old-location: gdi\ttisembeddingenabledforfacename.htm
 old-project: gdi
 ms.assetid: 1f494bb1-62c4-45c4-b1a5-df6842d94dcc
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: TTIsEmbeddingEnabledForFacename, TTIsEmbeddingEnabledForFacename function [Windows GDI], _win32_TTIsEmbeddingEnabledForFacename, gdi.ttisembeddingenabledforfacename, t2embapi/TTIsEmbeddingEnabledForFacename
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 

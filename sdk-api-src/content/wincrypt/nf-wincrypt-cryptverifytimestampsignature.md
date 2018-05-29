@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptVerifyTimeStampSignature
 title: CryptVerifyTimeStampSignature function
-author: windows-driver-content
+author: windows-sdk-content
 description: Validates the time stamp signature on a specified array of bytes.
 old-location: security\cryptverifytimestampsignature.htm
 old-project: SecCrypto
 ms.assetid: 791b1500-98e3-49d5-97aa-be91f5edb7c2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptVerifyTimeStampSignature, CryptVerifyTimeStampSignature function [Security], security.cryptverifytimestampsignature, wincrypt/CryptVerifyTimeStampSignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

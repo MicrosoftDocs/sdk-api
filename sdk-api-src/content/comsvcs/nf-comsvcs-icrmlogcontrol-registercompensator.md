@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.RegisterCompensator
 title: ICrmLogControl::RegisterCompensator
-author: windows-driver-content
+author: windows-sdk-content
 description: The CRM Worker uses this method to register the CRM Compensator with the CRM infrastructure.
 old-location: cos\icrmlogcontrol_registercompensator.htm
 old-project: cossdk
 ms.assetid: f7907dff-a4a1-4526-8dab-547e819199ec
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICrmLogControl interface [COM+],RegisterCompensator method, ICrmLogControl.RegisterCompensator, ICrmLogControl::RegisterCompensator, RegisterCompensator, RegisterCompensator method [COM+], RegisterCompensator method [COM+],ICrmLogControl interface, _dtc_ICrmLogControl_RegisterCompensator, comsvcs/ICrmLogControl::RegisterCompensator, cos.icrmlogcontrol_registercompensator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

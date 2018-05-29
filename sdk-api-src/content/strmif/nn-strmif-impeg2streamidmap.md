@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IMPEG2StreamIdMap
 title: IMPEG2StreamIdMap
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is implemented on each output pin of the MPEG-2 Demultiplexer filter (Demux) and is used in program stream mode only.
 old-location: dshow\impeg2streamidmap.htm
 old-project: DirectShow
 ms.assetid: 714c6b0e-3885-4026-8a83-06b37cc97d7c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMPEG2StreamIdMap, IMPEG2StreamIdMap interface [DirectShow], IMPEG2StreamIdMap interface [DirectShow],described, IMPEG2StreamIdMapInterface, dshow.impeg2streamidmap, strmif/IMPEG2StreamIdMap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

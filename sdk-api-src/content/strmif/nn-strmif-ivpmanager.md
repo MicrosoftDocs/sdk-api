@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IVPManager
 title: IVPManager
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVPManager interface is implemented on the Video Port Manager (VPM).
 old-location: dshow\ivpmanager.htm
 old-project: DirectShow
 ms.assetid: 9064daa7-5868-49a5-9fd6-9a332ab3b470
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVPManager, IVPManager interface [DirectShow], IVPManager interface [DirectShow],described, IVPManagerInterface, dshow.ivpmanager, strmif/IVPManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

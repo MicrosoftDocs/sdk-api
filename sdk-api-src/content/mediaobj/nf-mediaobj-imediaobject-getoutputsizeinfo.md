@@ -1,16 +1,16 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetOutputSizeInfo
 title: IMediaObject::GetOutputSizeInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetOutputSizeInfo method retrieves the buffer requirements for a specified output stream.
 old-location: dshow\imediaobject_getoutputsizeinfo.htm
 old-project: DirectShow
 ms.assetid: 497bc88e-4e26-409f-9d42-6a214a5d56e9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetOutputSizeInfo, GetOutputSizeInfo method [DirectShow], GetOutputSizeInfo method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputSizeInfo method, IMediaObject.GetOutputSizeInfo, IMediaObject::GetOutputSizeInfo, IMediaObjectGetOutputSizeInfo, dshow.imediaobject_getoutputsizeinfo, mediaobj/IMediaObject::GetOutputSizeInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

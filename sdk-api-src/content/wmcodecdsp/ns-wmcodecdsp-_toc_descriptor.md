@@ -1,16 +1,16 @@
 ---
 UID: NS:wmcodecdsp._TOC_DESCRIPTOR
 title: "_TOC_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: The TOC_DESCRIPTOR structure holds descriptive information for a table of contents.
 old-location: mf\toc_descriptor.htm
 old-project: medfound
 ms.assetid: a79f75c5-be98-4120-85be-71bedbcc0ea2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TOC_DESCRIPTOR, TOC_DESCRIPTOR structure [Media Foundation], _TOC_DESCRIPTOR, codecapi.toc_descriptor, mf.toc_descriptor, wmcodecdsp/TOC_DESCRIPTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmcodecdsp.h
 req.include-header: 

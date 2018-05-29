@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextStory.SetActive
 title: ITextStory::SetActive
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the active state of a story.
 old-location: controls\itextstory_setactive.htm
 old-project: Controls
 ms.assetid: fa0177be-2016-4205-b121-921dbdbf5b71
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextStory interface [Windows Controls],SetActive method, ITextStory.SetActive, ITextStory::SetActive, SetActive, SetActive method [Windows Controls], SetActive method [Windows Controls],ITextStory interface, controls.itextstory_setactive, tom/ITextStory::SetActive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

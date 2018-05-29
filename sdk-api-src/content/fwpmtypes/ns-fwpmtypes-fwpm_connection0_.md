@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpmtypes.FWPM_CONNECTION0_
 title: FWPM_CONNECTION0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores the state associated with a connection object.
 old-location: fwp\fwpm_connection0.htm
 old-project: FWP
 ms.assetid: 76a923d4-57a9-47ba-af91-ee33c3c5b34b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_CONNECTION0, FWPM_CONNECTION0 structure [Filtering], FWPM_CONNECTION0_, fwp.fwpm_connection0, fwpmtypes/FWPM_CONNECTION0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

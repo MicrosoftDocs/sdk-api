@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptSignMessage
 title: CryptSignMessage function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CryptSignMessage function creates a hash of the specified content, signs the hash, and then encodes both the original message content and the signed hash.
 old-location: security\cryptsignmessage.htm
 old-project: SecCrypto
 ms.assetid: f14f7c7b-14ac-40a7-9a49-d1a899ecc52a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptSignMessage, CryptSignMessage function [Security], _crypto2_cryptsignmessage, security.cryptsignmessage, wincrypt/CryptSignMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

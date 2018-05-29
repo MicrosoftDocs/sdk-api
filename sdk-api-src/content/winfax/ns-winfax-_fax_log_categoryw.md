@@ -1,16 +1,16 @@
 ---
 UID: NS:winfax._FAX_LOG_CATEGORYW
 title: "_FAX_LOG_CATEGORYW"
-author: windows-driver-content
+author: windows-sdk-content
 description: The FAX_LOG_CATEGORY structure describes one logging category.
 old-location: fax\_mfax_fax_log_category_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1fn6.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PFAX_LOG_CATEGORYW, FAXLOG_CATEGORY_INBOUND, FAXLOG_CATEGORY_INIT, FAXLOG_CATEGORY_OUTBOUND, FAXLOG_CATEGORY_UNKNOWN, FAXLOG_LEVEL_MAX, FAXLOG_LEVEL_MED, FAXLOG_LEVEL_MIN, FAXLOG_LEVEL_NONE, FAX_LOG_CATEGORY, FAX_LOG_CATEGORY structure [Fax Service], FAX_LOG_CATEGORYA, FAX_LOG_CATEGORYW, PFAX_LOG_CATEGORY, PFAX_LOG_CATEGORY structure pointer [Fax Service], _FAX_LOG_CATEGORYW, _mfax_fax_log_category_str, fax._mfax_fax_log_category_str, winfax/FAX_LOG_CATEGORY, winfax/FAX_LOG_CATEGORYA, winfax/FAX_LOG_CATEGORYW, winfax/PFAX_LOG_CATEGORY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcEpUnregister
 title: RpcEpUnregister function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcEpUnregister function removes server-address information from the local endpoint-map database.
 old-location: rpc\rpcepunregister.htm
 old-project: Rpc
 ms.assetid: bb0485fc-0b25-4fc0-9a18-921a9de428ce
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcEpUnregister, RpcEpUnregister function [RPC], _rpc_rpcepunregister, rpc.rpcepunregister, rpcdce/RpcEpUnregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

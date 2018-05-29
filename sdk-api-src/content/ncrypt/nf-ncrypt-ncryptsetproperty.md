@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptSetProperty
 title: NCryptSetProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value for a named property for a CNG key storage object.
 old-location: security\ncryptsetproperty_func.htm
 old-project: SecCNG
 ms.assetid: ad1148aa-5f64-4867-9e17-6b41cc0c20b7
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, LABEL_SECURITY_INFORMATION, NCRYPT_PERSIST_FLAG, NCRYPT_PERSIST_ONLY_FLAG, NCRYPT_SILENT_FLAG, NCryptSetProperty, NCryptSetProperty function [Security], OWNER_SECURITY_INFORMATION, SACL_SECURITY_INFORMATION, ncrypt/NCryptSetProperty, security.ncryptsetproperty_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

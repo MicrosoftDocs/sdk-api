@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrCmpLogicalW
 title: StrCmpLogicalW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares two Unicode strings. Digits in the strings are considered as numerical content rather than text. This test is not case-sensitive.
 old-location: shell\StrCmpLogicalW.htm
 old-project: shell
 ms.assetid: 013c6db3-7d14-44ef-89af-b3aac28f4e3f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrCmpLogicalW, StrCmpLogicalW function [Windows Shell], _shell_StrCmpLogicalW, shell.StrCmpLogicalW, shlwapi/StrCmpLogicalW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

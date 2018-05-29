@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IConnectionPoint.GetConnectionPointContainer
 title: IConnectionPoint::GetConnectionPointContainer
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IConnectionPointContainer interface pointer for the parent connectable object.
 old-location: com\iconnectionpoint_getconnectionpointcontainer.htm
 old-project: com
 ms.assetid: 12c0c777-27ce-4e6d-8e9a-f6333e4112bf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetConnectionPointContainer, GetConnectionPointContainer method [COM], GetConnectionPointContainer method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],GetConnectionPointContainer method, IConnectionPoint.GetConnectionPointContainer, IConnectionPoint::GetConnectionPointContainer, _com_iconnectionpoint_getconnectionpointcontainer, com.iconnectionpoint_getconnectionpointcontainer, ocidl/IConnectionPoint::GetConnectionPointContainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADs.Put
 title: IADs::Put
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the values of an attribute in the ADSI attribute cache.
 old-location: adsi\iads_put.htm
 old-project: ADSI
 ms.assetid: b543220d-939b-4ca5-9a27-90b04f14be5d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADs interface [ADSI],Put method, IADs.Put, IADs::Put, Put, Put method [ADSI], Put method [ADSI],IADs interface, _ds_iads_put, adsi.iads__put, adsi.iads_put, iads/IADs::Put
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

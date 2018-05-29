@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiDoActionW
 title: MsiDoActionW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiDoAction function executes a built-in action, custom action, or user-interface wizard action.
 old-location: setup\msidoaction.htm
 old-project: Msi
 ms.assetid: 33f2de47-71ab-4da8-bd56-ee58cde86e2b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiDoAction, MsiDoAction function, MsiDoActionA, MsiDoActionW, _msi_msidoaction, msiquery/MsiDoAction, msiquery/MsiDoActionA, msiquery/MsiDoActionW, setup.msidoaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

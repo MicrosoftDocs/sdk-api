@@ -1,16 +1,16 @@
 ---
 UID: NE:vswriter.VSS_RESTORE_TARGET
 title: VSS_RESTORE_TARGET
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by a writer at restore time to indicate how all the files included in a selected component, and all the files in any component set it defines, are to be restored.
 old-location: base\vss_restore_target.htm
 old-project: VSS
 ms.assetid: 85b154c0-ebe8-4c17-8cab-0f886bf070e2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VSS_RESTORE_TARGET, VSS_RESTORE_TARGET enumeration [VSS], VSS_RT_ALTERNATE, VSS_RT_DIRECTED, VSS_RT_ORIGINAL, VSS_RT_ORIGINAL_LOCATION, VSS_RT_UNDEFINED, _win32_vss_restore_target, base.vss_restore_target, enumeration [VSS], vswriter/VSS_RESTORE_TARGET, vswriter/VSS_RT_ALTERNATE, vswriter/VSS_RT_DIRECTED, vswriter/VSS_RT_ORIGINAL, vswriter/VSS_RT_ORIGINAL_LOCATION, vswriter/VSS_RT_UNDEFINED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: vswriter.h
 req.include-header: 

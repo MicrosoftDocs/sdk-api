@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationSpreadsheetItemPattern
 title: IUIAutomationSpreadsheetItemPattern
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a client application to retrieve information about an item (cell) in a spreadsheet.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern.htm
 old-project: WinAuto
 ms.assetid: 4B90ED28-5F85-4F36-8F11-1F2B60CEC9E5
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationSpreadsheetItemPattern, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility], IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationSpreadsheetItemPattern, winauto.uiauto_IUIAutomationSpreadsheetItemPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

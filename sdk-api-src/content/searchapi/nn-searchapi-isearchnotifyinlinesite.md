@@ -1,16 +1,16 @@
 ---
 UID: NN:searchapi.ISearchNotifyInlineSite
 title: ISearchNotifyInlineSite
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods the Search service uses to send updates on catalog and index status to notification providers.
 old-location: search\_search_ISearchNotifyInlineSite.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\isearchnotifyinlinesite.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchNotifyInlineSite, ISearchNotifyInlineSite interface [search], ISearchNotifyInlineSite interface [search],described, _search_ISearchNotifyInlineSite, search._search_ISearchNotifyInlineSite, searchapi/ISearchNotifyInlineSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

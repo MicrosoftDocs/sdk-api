@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CreateFontIndirectExA
 title: CreateFontIndirectExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateFontIndirectEx function specifies a logical font that has the characteristics in the specified structure. The font can subsequently be selected as the current font for any device context.
 old-location: gdi\createfontindirectex.htm
 old-project: gdi
 ms.assetid: 1161b79e-f9c8-4073-97c4-1ccc1a78279b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateFontIndirectEx, CreateFontIndirectEx function [Windows GDI], CreateFontIndirectExA, CreateFontIndirectExW, _win32_CreateFontIndirectEx, gdi.createfontindirectex, wingdi/CreateFontIndirectEx, wingdi/CreateFontIndirectExA, wingdi/CreateFontIndirectExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

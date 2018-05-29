@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IExternalConnection
 title: IExternalConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages a server object's count of marshaled, or external, connections. A server that maintains such a count can detect when it has no external connections and shut itself down in an orderly fashion.
 old-location: com\iexternalconnection.htm
 old-project: com
 ms.assetid: 28afc305-d5b0-4ac9-9412-5876e575c2c2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IExternalConnection, IExternalConnection interface [COM], IExternalConnection interface [COM],described, _com_iexternalconnection, com.iexternalconnection, objidlbase/IExternalConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

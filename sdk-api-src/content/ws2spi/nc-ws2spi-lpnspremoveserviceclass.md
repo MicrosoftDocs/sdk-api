@@ -1,16 +1,16 @@
 ---
 UID: NC:ws2spi.LPNSPREMOVESERVICECLASS
 title: LPNSPREMOVESERVICECLASS
-author: windows-driver-content
+author: windows-sdk-content
 description: Permanently removes a specified service class from the namespace.
 old-location: winsock\nspremoveserviceclass_2.htm
 old-project: WinSock
 ms.assetid: 97313e6f-ec9e-4dcb-b888-14436259a519
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: LPNSPREMOVESERVICECLASS, NSPRemoveServiceClass, NSPRemoveServiceClass function [Winsock], _win32_nspremoveserviceclass_2, winsock.nspremoveserviceclass_2, ws2spi/NSPRemoveServiceClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

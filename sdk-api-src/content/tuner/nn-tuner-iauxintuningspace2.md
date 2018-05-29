@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IAuxInTuningSpace2
 title: IAuxInTuningSpace2
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows XP Media Center Edition 2004 and later.
 old-location: mstv\iauxintuningspace2.htm
 old-project: mstv
 ms.assetid: 51d92eab-1cf0-451c-aefb-ca36360e29f7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAuxInTuningSpace2, IAuxInTuningSpace2 interface [Microsoft TV Technologies], IAuxInTuningSpace2 interface [Microsoft TV Technologies],described, IAuxInTuningSpace2Interface, mstv.iauxintuningspace2, tuner/IAuxInTuningSpace2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

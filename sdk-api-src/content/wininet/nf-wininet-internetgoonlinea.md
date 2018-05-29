@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetGoOnlineA
 title: InternetGoOnlineA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Prompts the user for permission to initiate connection to a URL.
 old-location: wininet\internetgoonline.htm
 old-project: WinInet
 ms.assetid: ed1c0282-5469-49d5-8a8c-b7671d27ebd2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INTERNET_GOONLINE_REFRESH, InternetGoOnline, InternetGoOnline function [WinINet], InternetGoOnlineA, InternetGoOnlineW, _inet_internetgoonline_function, wininet.internetgoonline, winineti/InternetGoOnline, winineti/InternetGoOnlineA, winineti/InternetGoOnlineW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: Wininet.h, Winineti.h, Wininet.h, Winineti.h

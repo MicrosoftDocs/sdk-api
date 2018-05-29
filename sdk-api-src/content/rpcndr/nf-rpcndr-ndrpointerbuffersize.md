@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrPointerBufferSize
 title: NdrPointerBufferSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrPointerBufferSize function computes the needed buffer size, in bytes, for a top-level pointer to anything.
 old-location: rpc\ndrpointerbuffersize.htm
 old-project: Rpc
 ms.assetid: fbab3c13-d696-430c-b3f5-7cb187678c33
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrPointerBufferSize, NdrPointerBufferSize function [RPC], rpc.ndrpointerbuffersize, rpcndr/NdrPointerBufferSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

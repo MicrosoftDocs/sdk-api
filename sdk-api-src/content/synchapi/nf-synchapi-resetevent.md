@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.ResetEvent
 title: ResetEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the specified event object to the nonsignaled state.
 old-location: base\resetevent.htm
 old-project: Sync
 ms.assetid: bba7caab-d1ed-4261-aeca-49f847458f4c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ResetEvent, ResetEvent function, _win32_resetevent, base.resetevent, synchapi/ResetEvent, winbase/ResetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

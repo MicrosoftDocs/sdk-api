@@ -1,16 +1,16 @@
 ---
 UID: NE:uiautomationcore.TextEditChangeType
 title: TextEditChangeType
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the text editing change being performed by controls when text-edit events are raised or handled.
 old-location: winauto\uiauto_TextEditChangeTypeEnum.htm
 old-project: WinAuto
 ms.assetid: 212FD71E-BB79-F4A5-061E-F77FF7876998
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: TextEditChangeType, TextEditChangeType enumeration [Windows Accessibility], TextEditChangeType_AutoCorrect, TextEditChangeType_Composition, TextEditChangeType_CompositionFinalized, TextEditChangeType_None, uiautomationcore/TextEditChangeType, uiautomationcore/TextEditChangeType_AutoCorrect, uiautomationcore/TextEditChangeType_Composition, uiautomationcore/TextEditChangeType_CompositionFinalized, uiautomationcore/TextEditChangeType_None, winauto.uiauto_TextEditChangeTypeEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

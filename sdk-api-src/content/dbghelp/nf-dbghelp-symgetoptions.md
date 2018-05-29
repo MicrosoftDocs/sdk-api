@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymGetOptions
 title: SymGetOptions function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current option mask.
 old-location: base\symgetoptions.htm
 old-project: Debug
 ms.assetid: 3d9db826-1c4a-46d6-b007-c0dd5e6b17cc
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymGetOptions, SymGetOptions function, _win32_symgetoptions, base.symgetoptions, dbghelp/SymGetOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

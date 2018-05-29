@@ -1,16 +1,16 @@
 ---
 UID: NS:drt.drt_event_data_tag
 title: drt_event_data_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: DRT_EVENT_DATA.
 old-location: p2p\drt_event_data.htm
 old-project: P2PSdk
 ms.assetid: b52bf815-d962-4f72-8876-a80769bc3d3d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*PDRT_EVENT_DATA, DRT_EVENT_DATA, DRT_EVENT_DATA structure [Peer Networking], PDRT_EVENT_DATA, PDRT_EVENT_DATA structure pointer [Peer Networking], drt/DRT_EVENT_DATA, drt/PDRT_EVENT_DATA, drt_event_data_tag, p2p.drt_event_data"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: drt.h
 req.include-header: 

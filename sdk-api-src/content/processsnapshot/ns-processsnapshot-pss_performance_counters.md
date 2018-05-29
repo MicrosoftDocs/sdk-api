@@ -1,16 +1,16 @@
 ---
 UID: NS:processsnapshot.PSS_PERFORMANCE_COUNTERS
 title: PSS_PERFORMANCE_COUNTERS
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds performance counters returned by PssQuerySnapshot.
 old-location: proc_snap\pss_performance_counters.htm
 old-project: proc_snap
 ms.assetid: 298C1FC8-D19D-4DB3-84AA-3870D06B16A1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PSS_PERFORMANCE_COUNTERS, PSS_PERFORMANCE_COUNTERS structure, proc_snap.pss_performance_counters, processsnapshot/PSS_PERFORMANCE_COUNTERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

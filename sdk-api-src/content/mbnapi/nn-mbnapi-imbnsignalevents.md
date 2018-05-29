@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnSignalEvents
 title: IMbnSignalEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification interface used to indicate that a signal event has occurred.
 old-location: mbn\imbnsignalevents.htm
 old-project: mbn
 ms.assetid: 9e52168a-c6f9-4154-b8b9-8ae6cb771d46
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnSignalEvents, IMbnSignalEvents interface [Microsoft Broadband Networks], IMbnSignalEvents interface [Microsoft Broadband Networks],described, mbn.imbnsignalevents, mbnapi/IMbnSignalEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

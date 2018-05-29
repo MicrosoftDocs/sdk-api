@@ -1,16 +1,16 @@
 ---
 UID: NN:mfobjects.IMFMuxStreamSampleManager
 title: IMFMuxStreamSampleManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the ability to retrieve IMFSample objects for individual substreams within the output of a multiplexed media source.
 old-location: mf\imfmuxstreamsamplemanager.htm
 old-project: medfound
 ms.assetid: DABA5955-1366-4CEE-ABDF-7CC0F3788A8E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMuxStreamSampleManager, IMFMuxStreamSampleManager interface [Media Foundation], IMFMuxStreamSampleManager interface [Media Foundation],described, mf.imfmuxstreamsamplemanager, mfobjects/IMFMuxStreamSampleManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: 

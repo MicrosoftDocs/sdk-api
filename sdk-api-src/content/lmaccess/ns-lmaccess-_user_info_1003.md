@@ -1,16 +1,16 @@
 ---
 UID: NS:lmaccess._USER_INFO_1003
 title: "_USER_INFO_1003"
-author: windows-driver-content
+author: windows-sdk-content
 description: The USER_INFO_1003 structure contains a user password. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1003_str.htm
 old-project: NetMgmt
 ms.assetid: ef1d1ecd-7226-4e4e-a0b3-ec096d3b1207
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPUSER_INFO_1003, *PUSER_INFO_1003, LPUSER_INFO_1003, LPUSER_INFO_1003 structure pointer [Network Management], PUSER_INFO_1003, PUSER_INFO_1003 structure pointer [Network Management], USER_INFO_1003, USER_INFO_1003 structure [Network Management], _USER_INFO_1003, _win32_user_info_1003_str, lmaccess/LPUSER_INFO_1003, lmaccess/PUSER_INFO_1003, lmaccess/USER_INFO_1003, netmgmt.user_info_1003_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

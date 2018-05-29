@@ -1,16 +1,16 @@
 ---
 UID: NS:slpublic._tagSL_ACTIVATION_INFO_HEADER
 title: "_tagSL_ACTIVATION_INFO_HEADER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the product activation information.
 old-location: security\sl_activation_info_header.htm
 old-project: SecSLApi
 ms.assetid: 8209652d-c40e-419b-9929-647f03fed79c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SL_ACTIVATION_INFO_HEADER, SL_ACTIVATION_INFO_HEADER structure [Security], _tagSL_ACTIVATION_INFO_HEADER, security.sl_activation_info_header, slpublic/SL_ACTIVATION_INFO_HEADER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: slpublic.h
 req.include-header: 

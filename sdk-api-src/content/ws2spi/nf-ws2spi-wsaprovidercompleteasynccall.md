@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2spi.WSAProviderCompleteAsyncCall
 title: WSAProviderCompleteAsyncCall function
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies a client when an asynchronous call to a namespace version-2 provider is completed.
 old-location: winsock\wsaprovidercompleteasynccall.htm
 old-project: WinSock
 ms.assetid: 2bbc20ae-ad6d-47f6-8ca9-dd5559236fbe
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAProviderCompleteAsyncCall, WSAProviderCompleteAsyncCall function [Winsock], winsock.wsaprovidercompleteasynccall, ws2spi/WSAProviderCompleteAsyncCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

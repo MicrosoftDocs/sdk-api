@@ -1,16 +1,16 @@
 ---
 UID: NS:winsvc._SERVICE_PREFERRED_NODE_INFO
 title: "_SERVICE_PREFERRED_NODE_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the preferred node on which to run a service.
 old-location: base\service_preferred_node_info.htm
 old-project: Services
 ms.assetid: aa16cc56-0a95-47e0-9390-c219b83aeeb4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*LPSERVICE_PREFERRED_NODE_INFO, LPSERVICE_PREFERRED_NODE_INFO, LPSERVICE_PREFERRED_NODE_INFO structure pointer, SERVICE_PREFERRED_NODE_INFO, SERVICE_PREFERRED_NODE_INFO structure, _SERVICE_PREFERRED_NODE_INFO, base.service_preferred_node_info, winsvc/LPSERVICE_PREFERRED_NODE_INFO, winsvc/SERVICE_PREFERRED_NODE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellLinkDataList.AddDataBlock
 title: IShellLinkDataList::AddDataBlock
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a data block to a link.
 old-location: shell\IShellLinkDataList_AddDataBlock.htm
 old-project: shell
 ms.assetid: 6580736f-e217-4e3e-9b6e-1c1c004916f4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddDataBlock, AddDataBlock method [Windows Shell], AddDataBlock method [Windows Shell],IShellLinkDataList interface, IShellLinkDataList interface [Windows Shell],AddDataBlock method, IShellLinkDataList.AddDataBlock, IShellLinkDataList::AddDataBlock, _win32_IShellLinkDataList_AddDataBlock, shell.IShellLinkDataList_AddDataBlock, shobjidl_core/IShellLinkDataList::AddDataBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

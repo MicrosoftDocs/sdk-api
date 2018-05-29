@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetOriginUrl
 title: IBitsPeerCacheRecord::GetOriginUrl
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the origin URL of the cached file.
 old-location: bits\ibitspeercacherecord_getoriginurl.htm
 old-project: Bits
 ms.assetid: 9d74df3a-89e0-4a3a-82f3-c2e79c609b21
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetOriginUrl, GetOriginUrl method [BITS], GetOriginUrl method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetOriginUrl method, IBitsPeerCacheRecord.GetOriginUrl, IBitsPeerCacheRecord::GetOriginUrl, bits.ibitspeercacherecord_getoriginurl, bits3_0/IBitsPeerCacheRecord::GetOriginUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

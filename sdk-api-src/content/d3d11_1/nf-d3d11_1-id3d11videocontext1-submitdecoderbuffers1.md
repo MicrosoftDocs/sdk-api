@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.SubmitDecoderBuffers1
 title: ID3D11VideoContext1::SubmitDecoderBuffers1
-author: windows-driver-content
+author: windows-sdk-content
 description: Submits one or more buffers for decoding.
 old-location: mf\id3d11videocontext1_submitdecoderbuffers1.htm
 old-project: medfound
 ms.assetid: 9E5FC926-71D7-4102-8952-EC0585B4A4FC
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],SubmitDecoderBuffers1 method, ID3D11VideoContext1.SubmitDecoderBuffers1, ID3D11VideoContext1::SubmitDecoderBuffers1, SubmitDecoderBuffers1, SubmitDecoderBuffers1 method [Media Foundation], SubmitDecoderBuffers1 method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::SubmitDecoderBuffers1, mf.id3d11videocontext1_submitdecoderbuffers1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 

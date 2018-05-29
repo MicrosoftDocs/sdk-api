@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.get_Item
 title: IFaxOutboundRoutingGroups::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxOutboundRoutingGroups::get_Item method returns a IFaxOutboundRoutingGroup interface from the collection.
 old-location: fax\_mfax_faxoutboundroutinggroups_item_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8l9p_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxOutboundRoutingGroups interface [Fax Service],get_Item method, IFaxOutboundRoutingGroups.get_Item, IFaxOutboundRoutingGroups::get_Item, _mfax_faxoutboundroutinggroups.item_cpp, fax._mfax_faxoutboundroutinggroups_item_cpp, faxcomex/IFaxOutboundRoutingGroups::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxOutboundRoutingGroups interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

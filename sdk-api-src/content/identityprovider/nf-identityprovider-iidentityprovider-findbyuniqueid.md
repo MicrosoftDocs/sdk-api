@@ -1,16 +1,16 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.FindByUniqueID
 title: IIdentityProvider::FindByUniqueID
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to the IPropertyStore interface instance associated with the specified identity.
 old-location: security\iidentityprovider_findbyuniqueid.htm
 old-project: SecAuthN
 ms.assetid: 26a0e247-0387-4455-9510-bd0e6adc0213
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: FindByUniqueID, FindByUniqueID method [Security], FindByUniqueID method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],FindByUniqueID method, IIdentityProvider.FindByUniqueID, IIdentityProvider::FindByUniqueID, identityprovider/IIdentityProvider::FindByUniqueID, security.iidentityprovider_findbyuniqueid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 

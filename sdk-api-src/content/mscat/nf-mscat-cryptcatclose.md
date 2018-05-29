@@ -1,16 +1,16 @@
 ---
 UID: NF:mscat.CryptCATClose
 title: CryptCATClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a catalog handle opened previously by the CryptCATOpen function.
 old-location: security\cryptcatclose.htm
 old-project: SecCrypto
 ms.assetid: f6fa2d10-0049-4d5e-9688-566e5c11d64e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptCATClose, CryptCATClose function [Security], mscat/CryptCATClose, security.cryptcatclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

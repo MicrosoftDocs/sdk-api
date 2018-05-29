@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetSigningLocale
 title: IXpsSignatureRequest::GetSigningLocale
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the legal jurisdiction of the package signing location.
 old-location: xps\ixpssignaturerequest_getsigninglocale.htm
 old-project: printdocs
 ms.assetid: 76b2d0a5-2d62-455d-8822-88ca14a497ae
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetSigningLocale, GetSigningLocale method [XPS Documents and Packaging], GetSigningLocale method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetSigningLocale method, IXpsSignatureRequest.GetSigningLocale, IXpsSignatureRequest::GetSigningLocale, xps.ixpssignaturerequest_getsigninglocale, xpsdigitalsignature/IXpsSignatureRequest::GetSigningLocale
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGraphAddRecord
 title: PeerGraphAddRecord function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGraphAddRecord function adds a new record to a peer graph. A record added with this function is sent to each node in a peer graph.
 old-location: p2p\peergraphaddrecord.htm
 old-project: P2PSdk
 ms.assetid: 8256e379-e5d5-4aef-ab05-e220602edf12
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGraphAddRecord, PeerGraphAddRecord function [Peer Networking], p2p.peergraphaddrecord, p2p/PeerGraphAddRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

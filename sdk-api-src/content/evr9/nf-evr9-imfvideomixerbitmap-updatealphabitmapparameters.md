@@ -1,16 +1,16 @@
 ---
 UID: NF:evr9.IMFVideoMixerBitmap.UpdateAlphaBitmapParameters
 title: IMFVideoMixerBitmap::UpdateAlphaBitmapParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the current alpha-blending settings, including the source and destination rectangles, the color key, and other information. You can update some or all of the blending parameters.
 old-location: mf\imfvideomixerbitmap_updatealphabitmapparameters.htm
 old-project: medfound
 ms.assetid: 369bf934-b0a0-44b2-bea2-e8575404d36d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 369bf934-b0a0-44b2-bea2-e8575404d36d, IMFVideoMixerBitmap interface [Media Foundation],UpdateAlphaBitmapParameters method, IMFVideoMixerBitmap.UpdateAlphaBitmapParameters, IMFVideoMixerBitmap::UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters, UpdateAlphaBitmapParameters method [Media Foundation], UpdateAlphaBitmapParameters method [Media Foundation],IMFVideoMixerBitmap interface, evr9/IMFVideoMixerBitmap::UpdateAlphaBitmapParameters, mf.imfvideomixerbitmap_updatealphabitmapparameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: evr9.h
 req.include-header: 

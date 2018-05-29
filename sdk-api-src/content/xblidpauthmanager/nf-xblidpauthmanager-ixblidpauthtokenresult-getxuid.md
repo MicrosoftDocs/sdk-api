@@ -1,16 +1,16 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetXuid
 title: IXblIdpAuthTokenResult::GetXuid
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getxuid.htm
 old-project: xblidp
 ms.assetid: 9D5AFA02-06F8-4050-A84C-CF0B4F1FC51B
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetXuid, GetXuid method, GetXuid method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetXuid method, IXblIdpAuthTokenResult.GetXuid, IXblIdpAuthTokenResult::GetXuid, xblidp.ixblidpauthtokenresult_getxuid, xblidpauthmanager/IXblIdpAuthTokenResult::GetXuid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

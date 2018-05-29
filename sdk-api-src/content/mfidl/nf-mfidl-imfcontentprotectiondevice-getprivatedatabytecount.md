@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFContentProtectionDevice.GetPrivateDataByteCount
 title: IMFContentProtectionDevice::GetPrivateDataByteCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the required number of bytes that need to be prepended to the input and output buffers when you call the security processor through the InvokeFunction method.
 old-location: mf\imfcontentprotectiondevice_getprivatedatabytecount.htm
 old-project: medfound
 ms.assetid: 24FBA7E0-1496-4921-91C7-69E9AF830586
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPrivateDataByteCount, GetPrivateDataByteCount method [Media Foundation], GetPrivateDataByteCount method [Media Foundation],IMFContentProtectionDevice interface, IMFContentProtectionDevice interface [Media Foundation],GetPrivateDataByteCount method, IMFContentProtectionDevice.GetPrivateDataByteCount, IMFContentProtectionDevice::GetPrivateDataByteCount, mf.imfcontentprotectiondevice_getprivatedatabytecount, mfidl/IMFContentProtectionDevice::GetPrivateDataByteCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

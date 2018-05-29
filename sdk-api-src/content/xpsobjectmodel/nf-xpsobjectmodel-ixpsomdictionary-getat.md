@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.GetAt
 title: IXpsOMDictionary::GetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IXpsOMShareable interface pointer and the key name string of the entry at a specified index in the dictionary.
 old-location: xps\ixpsomdictionary_getat.htm
 old-project: printdocs
 ms.assetid: 818797dd-7255-453c-85b3-cf0c44fe5d0d
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetAt method, IXpsOMDictionary.GetAt, IXpsOMDictionary::GetAt, xps.ixpsomdictionary_getat, xpsobjectmodel/IXpsOMDictionary::GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

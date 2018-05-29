@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GET_DISK_ATTRIBUTES
 title: IOCTL_DISK_GET_DISK_ATTRIBUTES
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the attributes of the specified disk device.
 old-location: fs\ioctl_disk_get_disk_attributes.htm
 old-project: FileIO
 ms.assetid: 3fa9fabb-91ef-4306-90b6-c3dd17f3e298
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IOCTL_DISK_GET_DISK_ATTRIBUTES, IOCTL_DISK_GET_DISK_ATTRIBUTES control, IOCTL_DISK_GET_DISK_ATTRIBUTES control code [Files], fs.ioctl_disk_get_disk_attributes, winioctl/IOCTL_DISK_GET_DISK_ATTRIBUTES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

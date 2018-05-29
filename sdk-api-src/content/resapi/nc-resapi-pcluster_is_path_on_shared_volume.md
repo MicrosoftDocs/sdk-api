@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PCLUSTER_IS_PATH_ON_SHARED_VOLUME
 title: PCLUSTER_IS_PATH_ON_SHARED_VOLUME
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a path is on a cluster shared volume.
 old-location: mscs\clusterispathonsharedvolume.htm
 old-project: MsCS
 ms.assetid: 8d4702b8-23de-4c45-87ec-1a4ada8a4086
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSTER_IS_PATH_ON_SHARED_VOLUME, PCLUSTER_IS_PATH_ON_SHARED_VOLUME callback, PCLUSTER_IS_PATH_ON_SHARED_VOLUME callback function [Failover Cluster], mscs.clusterispathonsharedvolume, resapi/PCLUSTER_IS_PATH_ON_SHARED_VOLUME
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.SHCreateItemInKnownFolder
 title: SHCreateItemInKnownFolder function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a Shell item object for a single file that exists inside a known folder.
 old-location: shell\SHCreateItemInKnownFolder.htm
 old-project: shell
 ms.assetid: dc75ee60-7319-4a11-949e-dd0c3deabd8f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCreateItemInKnownFolder, SHCreateItemInKnownFolder function [Windows Shell], _shell_SHCreateItemInKnownFolder, shell.SHCreateItemInKnownFolder, shobjidl_core/SHCreateItemInKnownFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

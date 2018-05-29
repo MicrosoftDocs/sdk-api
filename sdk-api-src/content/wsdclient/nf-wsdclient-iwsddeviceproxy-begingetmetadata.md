@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.BeginGetMetadata
 title: IWSDDeviceProxy::BeginGetMetadata
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends an asynchronous request for metadata.
 old-location: ncd\iwsddeviceproxy_begingetmetadata.htm
 old-project: WsdApi
 ms.assetid: 8aa71ef1-61b9-411b-9e8c-75470c638469
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: BeginGetMetadata, BeginGetMetadata method, BeginGetMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,BeginGetMetadata method, IWSDDeviceProxy.BeginGetMetadata, IWSDDeviceProxy::BeginGetMetadata, ncd.iwsddeviceproxy_begingetmetadata, wsdclient/IWSDDeviceProxy::BeginGetMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.SHSaveLibraryInFolderPath
 title: SHSaveLibraryInFolderPath function
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves an IShellLibrary object to disk.
 old-location: shell\SHSaveLibraryInFolderPath.htm
 old-project: shell
 ms.assetid: 953b209b-fd18-49d0-84d3-ad9b815f2a3a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHSaveLibraryInFolderPath, SHSaveLibraryInFolderPath function [Windows Shell], _shell_SHSaveLibraryInFolderPath, shell.SHSaveLibraryInFolderPath, shobjidl_core/SHSaveLibraryInFolderPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

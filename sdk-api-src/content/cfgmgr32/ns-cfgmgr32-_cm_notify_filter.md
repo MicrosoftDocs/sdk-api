@@ -1,16 +1,16 @@
 ---
 UID: NS:cfgmgr32._CM_NOTIFY_FILTER
 title: "_CM_NOTIFY_FILTER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Device notification filter structure.
 old-location: devinst\cm_notify_filter.htm
 old-project: devinst
 ms.assetid: 8B6CC440-7B41-4382-9917-6833031D5E1B
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PCM_NOTIFY_FILTER, CM_NOTIFY_FILTER, CM_NOTIFY_FILTER structure [Device and Driver Installation], PCM_NOTIFY_FILTER, PCM_NOTIFY_FILTER structure pointer [Device and Driver Installation], _CM_NOTIFY_FILTER, cfgmgr32/CM_NOTIFY_FILTER, cfgmgr32/PCM_NOTIFY_FILTER, devinst.cm_notify_filter"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: 

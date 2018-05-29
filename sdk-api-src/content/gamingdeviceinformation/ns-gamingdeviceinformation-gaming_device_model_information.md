@@ -1,16 +1,16 @@
 ---
 UID: NS:gamingdeviceinformation.GAMING_DEVICE_MODEL_INFORMATION
 title: GAMING_DEVICE_MODEL_INFORMATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the device that the game is running on.
 old-location: gamingdvcinfo\gaming_device_model_information.htm
 old-project: gamingdvcinfo
 ms.assetid: 0D5A6358-0F82-4414-BD17-BDE22EDBBB15
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GAMING_DEVICE_MODEL_INFORMATION, GAMING_DEVICE_MODEL_INFORMATION structure, gamingdeviceinformation/GAMING_DEVICE_MODEL_INFORMATION, gamingdvcinfo.gaming_device_model_information
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: gamingdeviceinformation.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange.GetStoryType
 title: ITextRange::GetStoryType
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the type of the range's story.
 old-location: controls\ITextRange_GetStoryType.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstorytype.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetStoryType, GetStoryType method [Windows Controls], GetStoryType method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetStoryType method, ITextRange.GetStoryType, ITextRange::GetStoryType, _win32_ITextRange_GetStoryType, _win32_ITextRange_GetStoryType_cpp, controls.ITextRange_GetStoryType, controls._win32_ITextRange_GetStoryType, tom/ITextRange::GetStoryType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

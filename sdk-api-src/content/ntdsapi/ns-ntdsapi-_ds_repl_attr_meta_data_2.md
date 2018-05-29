@@ -1,16 +1,16 @@
 ---
 UID: NS:ntdsapi._DS_REPL_ATTR_META_DATA_2
 title: "_DS_REPL_ATTR_META_DATA_2"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DS_REPL_ATTR_META_DATA_2 structure is used with the DsReplicaGetInfo and DsReplicaGetInfo2 functions to contain replication state data for an object attribute.
 old-location: ad\ds_repl_attr_meta_data_2.htm
 old-project: AD
 ms.assetid: 392457b7-df69-44d0-82b2-8381d5877354
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_REPL_ATTR_META_DATA_2, DS_REPL_ATTR_META_DATA_2 structure [Active Directory], _DS_REPL_ATTR_META_DATA_2, ad.ds_repl_attr_meta_data_2, ntdsapi/DS_REPL_ATTR_META_DATA_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

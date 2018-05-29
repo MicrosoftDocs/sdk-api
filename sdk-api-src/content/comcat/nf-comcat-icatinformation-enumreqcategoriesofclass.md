@@ -1,16 +1,16 @@
 ---
 UID: NF:comcat.ICatInformation.EnumReqCategoriesOfClass
 title: ICatInformation::EnumReqCategoriesOfClass
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an enumerator for the CATIDs required by the specified class.
 old-location: com\icatinformation_enumreqcategoriesofclass.htm
 old-project: com
 ms.assetid: 1bde9359-6d0e-4d8f-9c9b-ceabaf2da61f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnumReqCategoriesOfClass, EnumReqCategoriesOfClass method [COM], EnumReqCategoriesOfClass method [COM],ICatInformation interface, ICatInformation interface [COM],EnumReqCategoriesOfClass method, ICatInformation.EnumReqCategoriesOfClass, ICatInformation::EnumReqCategoriesOfClass, _com_icatinformation_enumreqcategoriesofclass, com.icatinformation_enumreqcategoriesofclass, comcat/ICatInformation::EnumReqCategoriesOfClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comcat.h
 req.include-header: 

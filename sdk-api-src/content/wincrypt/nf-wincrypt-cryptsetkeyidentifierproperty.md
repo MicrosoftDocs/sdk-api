@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptSetKeyIdentifierProperty
 title: CryptSetKeyIdentifierProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CryptSetKeyIdentifierProperty function sets the property of a specified key identifier. This function can set the property on the computer identified in pwszComputerName.
 old-location: security\cryptsetkeyidentifierproperty.htm
 old-project: SecCrypto
 ms.assetid: 0970aaaa-3f9a-4471-bd21-5de8746f94a2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_KEYID_DELETE_FLAG, CRYPT_KEYID_MACHINE_FLAG, CRYPT_KEYID_SET_NEW_FLAG, CryptSetKeyIdentifierProperty, CryptSetKeyIdentifierProperty function [Security], _crypto2_cryptsetkeyidentifierproperty, security.cryptsetkeyidentifierproperty, wincrypt/CryptSetKeyIdentifierProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

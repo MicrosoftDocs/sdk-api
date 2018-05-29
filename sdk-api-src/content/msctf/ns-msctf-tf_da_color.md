@@ -1,16 +1,16 @@
 ---
 UID: NS:msctf.TF_DA_COLOR
 title: TF_DA_COLOR
-author: windows-driver-content
+author: windows-sdk-content
 description: The TF_DA_COLOR structure contains color data used in the display attributes for a range of text.
 old-location: tsf\tf_da_color.htm
 old-project: TSF
 ms.assetid: 0ce8f941-c187-437f-8bad-f882e63b8421
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TF_DA_COLOR, TF_DA_COLOR structure [Text Services Framework], _tsf_tf_da_color_ref, msctf/TF_DA_COLOR, tsf.tf_da_color
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IPersistFile.GetCurFile
 title: IPersistFile::GetCurFile
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current name of the file associated with the object. If there is no current working file, this method retrieves the default save prompt for the object.
 old-location: com\ipersistfile_getcurfile.htm
 old-project: com
 ms.assetid: 61f1751d-47ce-4b3f-9876-24ddd542dacb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCurFile, GetCurFile method [COM], GetCurFile method [COM],IPersistFile interface, IPersistFile interface [COM],GetCurFile method, IPersistFile.GetCurFile, IPersistFile::GetCurFile, _com_ipersistfile_getcurfile, com.ipersistfile_getcurfile, objidl/IPersistFile::GetCurFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptTextOut
 title: ScriptTextOut function
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays text for the specified script shape and place information.
 old-location: intl\scripttextout.htm
 old-project: Intl
 ms.assetid: 8d69caeb-4c02-4a9f-9dd5-ac3c13561a57
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptTextOut, ScriptTextOut function [Internationalization for Windows Applications], _win32_ScriptTextOut, intl.scripttextout, usp10/ScriptTextOut
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

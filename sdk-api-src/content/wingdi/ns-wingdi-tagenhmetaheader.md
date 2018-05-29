@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagENHMETAHEADER
 title: tagENHMETAHEADER
-author: windows-driver-content
+author: windows-sdk-content
 description: The ENHMETAHEADER structure contains enhanced-metafile data such as the dimensions of the picture stored in the enhanced metafile, the count of records in the enhanced metafile, the resolution of the device on which the picture was created, and so on.This structure is always the first record in an enhanced metafile.
 old-location: gdi\enhmetaheader.htm
 old-project: gdi
 ms.assetid: 8e5f9a51-a995-48be-b936-1766fccb603a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPENHMETAHEADER, *PENHMETAHEADER, ENHMETAHEADER, ENHMETAHEADER structure [Windows GDI], PENHMETAHEADER, PENHMETAHEADER structure pointer [Windows GDI], _win32_ENHMETAHEADER_str, gdi.enhmetaheader, tagENHMETAHEADER, wingdi/ENHMETAHEADER, wingdi/PENHMETAHEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.SetIfEntry
 title: SetIfEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetIfEntry function sets the administrative status of an interface.
 old-location: iphlp\setifentry.htm
 old-project: IpHlp
 ms.assetid: 67a18ef2-a7af-4fc1-8416-053aa8388f9e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: MIB_IF_ADMIN_STATUS_DOWN, MIB_IF_ADMIN_STATUS_UP, SetIfEntry, SetIfEntry function [IP Helper], _iphlp_setifentry, iphlp.setifentry, iphlpapi/SetIfEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

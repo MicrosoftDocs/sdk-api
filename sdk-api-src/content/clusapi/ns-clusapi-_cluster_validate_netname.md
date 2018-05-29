@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi._CLUSTER_VALIDATE_NETNAME
 title: "_CLUSTER_VALIDATE_NETNAME"
-author: windows-driver-content
+author: windows-sdk-content
 description: TBD.
 old-location: mscs\cluster_validate_netname.htm
 old-project: MsCS
 ms.assetid: c524d6cf-85f7-451b-b7d4-9497a2c2f0b0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLUSTER_VALIDATE_NETNAME, CLUSTER_VALIDATE_NETNAME, CLUSTER_VALIDATE_NETNAME structure [Failover Cluster], PCLUSTER_VALIDATE_NETNAME, PCLUSTER_VALIDATE_NETNAME structure pointer [Failover Cluster], _CLUSTER_VALIDATE_NETNAME, clusapi/CLUSTER_VALIDATE_NETNAME, clusapi/PCLUSTER_VALIDATE_NETNAME, mscs.cluster_validate_netname"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

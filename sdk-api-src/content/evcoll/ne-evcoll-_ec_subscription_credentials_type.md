@@ -1,16 +1,16 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_CREDENTIALS_TYPE
 title: "_EC_SUBSCRIPTION_CREDENTIALS_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of credentials to use when communicating with event sources.
 old-location: wec\ec_subscription_credentials_type.htm
 old-project: WEC
 ms.assetid: 5f2d3e26-1703-4afb-8b58-ee747bb156e3
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EC_SUBSCRIPTION_CREDENTIALS_TYPE, EC_SUBSCRIPTION_CREDENTIALS_TYPE enumeration, EcSubscriptionCredBasic, EcSubscriptionCredDefault, EcSubscriptionCredDigest, EcSubscriptionCredLocalMachine, EcSubscriptionCredNegotiate, _EC_SUBSCRIPTION_CREDENTIALS_TYPE, evcoll/EC_SUBSCRIPTION_CREDENTIALS_TYPE, evcoll/EcSubscriptionCredBasic, evcoll/EcSubscriptionCredDefault, evcoll/EcSubscriptionCredDigest, evcoll/EcSubscriptionCredLocalMachine, evcoll/EcSubscriptionCredNegotiate, wec.ec_subscription_credentials_type, wes.ec_subscription_credentials_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: evcoll.h
 req.include-header: 

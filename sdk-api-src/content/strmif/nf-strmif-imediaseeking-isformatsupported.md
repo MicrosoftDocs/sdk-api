@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMediaSeeking.IsFormatSupported
 title: IMediaSeeking::IsFormatSupported
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsFormatSupported method determines whether a specified time format is supported for seek operations.
 old-location: dshow\imediaseeking_isformatsupported.htm
 old-project: DirectShow
 ms.assetid: 443a8dbc-c12a-4d50-9005-1fedf701f6fd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaSeeking interface [DirectShow],IsFormatSupported method, IMediaSeeking.IsFormatSupported, IMediaSeeking::IsFormatSupported, IMediaSeekingIsFormatSupported, IsFormatSupported, IsFormatSupported method [DirectShow], IsFormatSupported method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_isformatsupported, strmif/IMediaSeeking::IsFormatSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:ndfapi.NdfCloseIncident
 title: NdfCloseIncident function
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to close an Network Diagnostics Framework (NDF) incident following its resolution.
 old-location: ndf\ndfcloseincident.htm
 old-project: NDF
 ms.assetid: 5e5caf41-ca24-42e0-ac22-3b569400c383
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NdfCloseIncident, NdfCloseIncident function [NDF], ndf.ndfcloseincident, ndfapi/NdfCloseIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

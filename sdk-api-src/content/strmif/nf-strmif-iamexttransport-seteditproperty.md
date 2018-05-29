@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetEditProperty
 title: IAMExtTransport::SetEditProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetEditProperty method defines parameters and values associated with an edit event.
 old-location: dshow\iamexttransport_seteditproperty.htm
 old-project: DirectShow
 ms.assetid: 85ac14c7-7b47-4462-98ba-68a73f4c7497
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMExtTransport interface [DirectShow],SetEditProperty method, IAMExtTransport.SetEditProperty, IAMExtTransport::SetEditProperty, IAMExtTransportSetEditProperty, SetEditProperty, SetEditProperty method [DirectShow], SetEditProperty method [DirectShow],IAMExtTransport interface, dshow.iamexttransport_seteditproperty, strmif/IAMExtTransport::SetEditProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoderInfo.CreateInstance
 title: IWICBitmapDecoderInfo::CreateInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new IWICBitmapDecoder instance.
 old-location: wic\_wic_codec_iwicbitmapdecoderinfo_createinstance.htm
 old-project: wic
 ms.assetid: 2bda1c2a-47b9-4e15-b0c1-52e3f85a6523
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICBitmapDecoderInfo interface, IWICBitmapDecoderInfo interface [Windows Imaging Component],CreateInstance method, IWICBitmapDecoderInfo.CreateInstance, IWICBitmapDecoderInfo::CreateInstance, _wic_codec_iwicbitmapdecoderinfo_createinstance, wic._wic_codec_iwicbitmapdecoderinfo_createinstance, wincodec/IWICBitmapDecoderInfo::CreateInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

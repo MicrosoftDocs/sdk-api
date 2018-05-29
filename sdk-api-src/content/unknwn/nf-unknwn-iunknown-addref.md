@@ -1,16 +1,16 @@
 ---
 UID: NF:unknwn.IUnknown.AddRef
 title: IUnknown::AddRef
-author: windows-driver-content
+author: windows-sdk-content
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object.
 old-location: com\iunknown_addref.htm
 old-project: com
 ms.assetid: b4316efd-73d4-4995-b898-8025a316ba63
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddRef, AddRef method [COM], AddRef method [COM],IUnknown interface, IUnknown interface [COM],AddRef method, IUnknown.AddRef, IUnknown::AddRef, _com_iunknown_addref, com.iunknown_addref, unknwnbase/IUnknown::AddRef
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: unknwn.h
 req.include-header: Unknwn.h

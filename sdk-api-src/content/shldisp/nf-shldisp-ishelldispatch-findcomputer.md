@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.FindComputer
 title: IShellDispatch::FindComputer
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays the Search Results:\_Computers dialog box. The dialog box shows the result of the search for a specified computer.
 old-location: shell\IShellDispatch_FindComputer.htm
 old-project: shell
 ms.assetid: 9B687A8A-BB29-49a0-8AE3-11A75FAF3257
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FindComputer, FindComputer method [Windows Shell], FindComputer method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],FindComputer method, IShellDispatch.FindComputer, IShellDispatch::FindComputer, shell.IShellDispatch_FindComputer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

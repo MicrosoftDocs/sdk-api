@@ -1,16 +1,16 @@
 ---
 UID: NN:indexsrv.IWordFormSink
 title: IWordFormSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles the list of alternative word forms that stemmers generate during query time.
 old-location: search\iwordformsink.htm
 old-project: search
 ms.assetid: 81D52B0C-BADD-48C0-85DB-57CA82D7BBA8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWordFormSink, IWordFormSink interface [search], IWordFormSink interface [search],described, indexsrv/IWordFormSink, search.iwordformsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: indexsrv.h
 req.include-header: 

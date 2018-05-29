@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanUIEditProfile
 title: WlanUIEditProfile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays the wireless profile user interface (UI).
 old-location: nwifi\wlanuieditprofile.htm
 old-project: NativeWiFi
 ms.assetid: e6453a70-2a11-4f01-adc1-67346a5856b2
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanUIEditProfile, WlanUIEditProfile function [NativeWIFI], nwifi.wlanuieditprofile, wlanapi/WlanUIEditProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_SECURITY_TOKEN_PROPERTY
 title: "_WS_XML_SECURITY_TOKEN_PROPERTY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a property for an XML security token.
 old-location: wsw\ws_xml_security_token_property.htm
 old-project: wsw
 ms.assetid: dd235e33-39f7-459d-8b7f-76d5c3f96770
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_SECURITY_TOKEN_PROPERTY, WS_XML_SECURITY_TOKEN_PROPERTY structure [Web Services for Windows], _WS_XML_SECURITY_TOKEN_PROPERTY, webservices/WS_XML_SECURITY_TOKEN_PROPERTY, wsw.ws_xml_security_token_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrRetToBSTR
 title: StrRetToBSTR function
-author: windows-driver-content
+author: windows-sdk-content
 description: Accepts a STRRET structure returned by IShellFolder::GetDisplayNameOf that contains or points to a string, and returns that string as a BSTR.
 old-location: shell\StrRetToBSTR.htm
 old-project: shell
 ms.assetid: 2a5a9a2b-74df-4521-a5b2-8fc91c3559eb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrRetToBSTR, StrRetToBSTR function [Windows Shell], _shell_StrRetToBSTR, shell.StrRetToBSTR, shlwapi/StrRetToBSTR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

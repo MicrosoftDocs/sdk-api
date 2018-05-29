@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.ActivateSpatialAudioStream
 title: ISpatialAudioClient::ActivateSpatialAudioStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Activates and initializes spatial audio stream using one of the spatial audio stream activation structures.
 old-location: coreaudio\ispatialaudioclient_activatespatialaudiostream.htm
 old-project: CoreAudio
 ms.assetid: CBBB5A62-D342-4FB7-890C-9FE37949CC07
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ActivateSpatialAudioStream, ActivateSpatialAudioStream method [Core Audio], ActivateSpatialAudioStream method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],ActivateSpatialAudioStream method, ISpatialAudioClient.ActivateSpatialAudioStream, ISpatialAudioClient::ActivateSpatialAudioStream, coreaudio.ispatialaudioclient_activatespatialaudiostream, spatialaudioclient/ISpatialAudioClient::ActivateSpatialAudioStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 

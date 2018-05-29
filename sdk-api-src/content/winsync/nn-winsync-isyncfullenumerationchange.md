@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.ISyncFullEnumerationChange
 title: ISyncFullEnumerationChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents additional information about an ISyncChange object during recovery synchronization.
 old-location: winsync\isyncfullenumerationchange.htm
 old-project: winsync
 ms.assetid: 1e666737-c5dc-4394-9f41-6e77832dd9f6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncFullEnumerationChange, ISyncFullEnumerationChange interface [Windows Sync], ISyncFullEnumerationChange interface [Windows Sync],described, winsync.isyncfullenumerationchange, winsync/ISyncFullEnumerationChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

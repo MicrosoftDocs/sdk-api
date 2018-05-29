@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._LIST_ENTRY
 title: "_LIST_ENTRY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an item in a singly linked list.
 old-location: base\slist_entry_str.htm
 old-project: Sync
 ms.assetid: 6c467621-fa51-49f1-b962-2dd5ec0f7084
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PLIST_ENTRY, LIST_ENTRY, PRLIST_ENTRY, PSLIST_ENTRY, PSLIST_ENTRY structure pointer, SLIST_ENTRY, SLIST_ENTRY structure, _LIST_ENTRY, _SLIST_ENTRY, _win32_slist_entry_str, base.slist_entry_str, winnt/PSLIST_ENTRY, winnt/SLIST_ENTRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

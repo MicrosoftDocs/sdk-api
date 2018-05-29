@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzClientContext2
 title: IAzClientContext2
-author: windows-driver-content
+author: windows-sdk-content
 description: Inherits from the IAzClientContext interface and implements new methods that manipulate the client context.
 old-location: security\iazclientcontext2.htm
 old-project: SecAuthZ
 ms.assetid: 8e922370-18e3-481c-93f2-9a56d7898ba7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzClientContext2, IAzClientContext2 interface [Security], IAzClientContext2 interface [Security],described, azroles/IAzClientContext2, security.iazclientcontext2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

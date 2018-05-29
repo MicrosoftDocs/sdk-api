@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.RemoveAt
 title: IXpsOMDashCollection::RemoveAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes and frees an XPS_DASH structure from a specified location in the collection.
 old-location: xps\ixpsomdashcollection_removeat.htm
 old-project: printdocs
 ms.assetid: 5ccce0d4-c764-4da4-9d7c-463921a92a6a
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMDashCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMDashCollection.RemoveAt, IXpsOMDashCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMDashCollection interface, xps.ixpsomdashcollection_removeat, xpsobjectmodel/IXpsOMDashCollection::RemoveAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

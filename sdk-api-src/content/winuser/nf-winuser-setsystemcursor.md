@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.SetSystemCursor
 title: SetSystemCursor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an application to customize the system cursors. It replaces the contents of the system cursor specified by the id parameter with the contents of the cursor specified by the hcur parameter and then destroys hcur.
 old-location: menurc\setsystemcursor.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setsystemcursor.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: OCR_APPSTARTING, OCR_CROSS, OCR_HAND, OCR_HELP, OCR_IBEAM, OCR_NO, OCR_NORMAL, OCR_SIZEALL, OCR_SIZENESW, OCR_SIZENS, OCR_SIZENWSE, OCR_SIZEWE, OCR_UP, OCR_WAIT, SetSystemCursor, SetSystemCursor function [Menus and Other Resources], _win32_SetSystemCursor, _win32_setsystemcursor_cpp, menurc.setsystemcursor, winui._win32_setsystemcursor, winuser/SetSystemCursor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

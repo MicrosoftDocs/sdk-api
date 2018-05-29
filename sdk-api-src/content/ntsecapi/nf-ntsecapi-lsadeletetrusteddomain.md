@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaDeleteTrustedDomain
 title: LsaDeleteTrustedDomain function
-author: windows-driver-content
+author: windows-sdk-content
 description: The LsaDeleteTrustedDomain function removes a trusted domain from the list of trusted domains for a system and deletes the associated TrustedDomain object.
 old-location: security\lsadeletetrusteddomain.htm
 old-project: SecMgmt
 ms.assetid: 4a7afa28-1786-4a58-a955-d2d8b12e62e4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaDeleteTrustedDomain, LsaDeleteTrustedDomain function [Security], _lsa_lsadeletetrusteddomain, ntsecapi/LsaDeleteTrustedDomain, security.lsadeletetrusteddomain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

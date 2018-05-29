@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ICertificateAttestationChallenge
 title: ICertificateAttestationChallenge
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows applications to decrypt a key attestation challenge received from a server.
 old-location: security\icertificateattestationchallenge.htm
 old-project: SecCertEnroll
 ms.assetid: 3b8d3104-5824-4801-9b74-59307e650662
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertificateAttestationChallenge, ICertificateAttestationChallenge interface [Security], ICertificateAttestationChallenge interface [Security],described, certenroll/ICertificateAttestationChallenge, security.icertificateattestationchallenge
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

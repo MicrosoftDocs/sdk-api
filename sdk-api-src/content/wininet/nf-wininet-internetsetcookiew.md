@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetSetCookieW
 title: InternetSetCookieW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a cookie associated with the specified URL.
 old-location: wininet\internetsetcookie.htm
 old-project: WinInet
 ms.assetid: 1b1ca72e-9c74-4e94-86a9-6fee12c83933
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetSetCookie, InternetSetCookie function [WinINet], InternetSetCookieA, InternetSetCookieW, _win32_internetsetcookie, wininet.internetsetcookie, wininet/InternetSetCookie, wininet/InternetSetCookieA, wininet/InternetSetCookieW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_RawViewCondition
 title: IUIAutomation::get_RawViewCondition
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a predefined IUIAutomationCondition interface that selects all UI elements in an unfiltered view.
 old-location: winauto\uiauto_IUIAutomation_RawViewCondition.htm
 old-project: WinAuto
 ms.assetid: 2ed9867c-2bcb-464e-a5a6-15e9f4dcd276
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],RawViewCondition property, IUIAutomation.RawViewCondition, IUIAutomation.get_RawViewCondition, IUIAutomation::RawViewCondition, IUIAutomation::get_RawViewCondition, RawViewCondition property [Windows Accessibility], RawViewCondition property [Windows Accessibility],IUIAutomation interface, get_RawViewCondition, uiauto.uiauto_IUIAutomation_RawViewCondition, uiauto_IUIAutomation_RawViewCondition, uiautomationclient/IUIAutomation::RawViewCondition, uiautomationclient/IUIAutomation::get_RawViewCondition, winauto.uiauto_IUIAutomation_RawViewCondition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

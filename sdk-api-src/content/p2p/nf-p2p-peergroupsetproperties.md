@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupSetProperties
 title: PeerGroupSetProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupSetProperties function sets the current peer group properties. In version 1.0 of this API, only the creator of the peer group can perform this operation.
 old-location: p2p\peergroupsetproperties.htm
 old-project: P2PSdk
 ms.assetid: 20acf963-de8f-4bcd-a9d6-a513d516b108
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupSetProperties, PeerGroupSetProperties function [Peer Networking], p2p.peergroupsetproperties, p2p/PeerGroupSetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

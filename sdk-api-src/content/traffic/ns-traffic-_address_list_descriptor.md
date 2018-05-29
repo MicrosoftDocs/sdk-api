@@ -1,16 +1,16 @@
 ---
 UID: NS:traffic._ADDRESS_LIST_DESCRIPTOR
 title: "_ADDRESS_LIST_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADDRESS_LIST_DESCRIPTOR structure provides network address descriptor information for a given interface.
 old-location: qos\address_list_descriptor.htm
 old-project: QOS
 ms.assetid: d891b82a-999e-4d59-a676-a90648e17699
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*PADDRESS_LIST_DESCRIPTOR, ADDRESS_LIST_DESCRIPTOR, ADDRESS_LIST_DESCRIPTOR structure [QOS], PADDRESS_LIST_DESCRIPTOR, PADDRESS_LIST_DESCRIPTOR structure pointer [QOS], _ADDRESS_LIST_DESCRIPTOR, _gqos_address_list_descriptor, qos.address_list_descriptor, traffic/ADDRESS_LIST_DESCRIPTOR, traffic/PADDRESS_LIST_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: traffic.h
 req.include-header: 

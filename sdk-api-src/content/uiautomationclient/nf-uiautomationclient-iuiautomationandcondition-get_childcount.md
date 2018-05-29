@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAndCondition.get_ChildCount
 title: IUIAutomationAndCondition::get_ChildCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of conditions that make up this condition.
 old-location: winauto\uiauto_IUIAutomationAndCondition_ChildCount.htm
 old-project: WinAuto
 ms.assetid: 9e87bc65-5b41-4256-92c7-21b92032b83f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ChildCount property [Windows Accessibility], ChildCount property [Windows Accessibility],IUIAutomationAndCondition interface, IUIAutomationAndCondition interface [Windows Accessibility],ChildCount property, IUIAutomationAndCondition.ChildCount, IUIAutomationAndCondition.get_ChildCount, IUIAutomationAndCondition::ChildCount, IUIAutomationAndCondition::get_ChildCount, get_ChildCount, uiauto.uiauto_IUIAutomationAndCondition_ChildCount, uiauto_IUIAutomationAndCondition_ChildCount, uiautomationclient/IUIAutomationAndCondition::ChildCount, uiautomationclient/IUIAutomationAndCondition::get_ChildCount, winauto.uiauto_IUIAutomationAndCondition_ChildCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetStartTime
 title: ISCTE_EAS::GetStartTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetStartTime method returns the starting time of the alert.
 old-location: mstv\iscte_eas_getstarttime.htm
 old-project: mstv
 ms.assetid: 70847a50-67a1-49f1-a24f-ca5bb0309481
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetStartTime, GetStartTime method [Microsoft TV Technologies], GetStartTime method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetStartTime method, ISCTE_EAS.GetStartTime, ISCTE_EAS::GetStartTime, ISCTE_EASGetStartTime, atscpsipparser/ISCTE_EAS::GetStartTime, mstv.iscte_eas_getstarttime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

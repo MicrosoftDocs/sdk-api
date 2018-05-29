@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.CreateFileScreen
 title: IFsrmFileScreenManager::CreateFileScreen
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a file screen object.
 old-location: fsrm\ifsrmfilescreenmanager_createfilescreen.htm
 old-project: Fsrm
 ms.assetid: 5e35c647-2b5a-486b-b8c5-0bc25bd313ad
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: CreateFileScreen, CreateFileScreen method [File Server Resource Manager], CreateFileScreen method [File Server Resource Manager],FsrmFileScreenManager class, CreateFileScreen method [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],CreateFileScreen method, IFsrmFileScreenManager interface [File Server Resource Manager],CreateFileScreen method, IFsrmFileScreenManager.CreateFileScreen, IFsrmFileScreenManager::CreateFileScreen, fs.ifsrmfilescreenmanager_createfilescreen, fsrm.ifsrmfilescreenmanager_createfilescreen, fsrmscreen/IFsrmFileScreenManager::CreateFileScreen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 

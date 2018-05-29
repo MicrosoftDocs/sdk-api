@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFGetService
 title: IMFGetService
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries an object for a specified service interface.
 old-location: mf\imfgetservice.htm
 old-project: medfound
 ms.assetid: 102a1dff-8419-4f86-a145-53ce3d0123f5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 102a1dff-8419-4f86-a145-53ce3d0123f5, IMFGetService, IMFGetService interface [Media Foundation], IMFGetService interface [Media Foundation],described, mf.imfgetservice, mfidl/IMFGetService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

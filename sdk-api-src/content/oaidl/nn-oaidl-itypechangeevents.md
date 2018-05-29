@@ -1,16 +1,16 @@
 ---
 UID: NN:oaidl.ITypeChangeEvents
 title: ITypeChangeEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables clients to subscribe to type change notifications on objects that implement the ITypeInfo, ITypeInfo2, ICreateTypeInfo, and ICreateTypeInfo2 interfaces.
 old-location: automat\itypechangeevents.htm
 old-project: automat
 ms.assetid: 5e286a4b-b36b-40d6-9a39-d572086e5a2d
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ITypeChangeEvents, ITypeChangeEvents interface [Automation], ITypeChangeEvents interface [Automation],described, automat.itypechangeevents, oaidl/ITypeChangeEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

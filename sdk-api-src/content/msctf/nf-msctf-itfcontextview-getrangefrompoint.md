@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfContextView.GetRangeFromPoint
 title: ITfContextView::GetRangeFromPoint
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfContextView::GetRangeFromPoint method converts a point, in screen coordinates, to an empty range of text positioned at a corresponding location.
 old-location: tsf\itfcontextview_getrangefrompoint.htm
 old-project: TSF
 ms.assetid: 543761fe-420e-4821-a69f-abc6c853677e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetRangeFromPoint, GetRangeFromPoint method [Text Services Framework], GetRangeFromPoint method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetRangeFromPoint method, ITfContextView.GetRangeFromPoint, ITfContextView::GetRangeFromPoint, _tsf_itfcontextview_getrangefrompoint_ref, msctf/ITfContextView::GetRangeFromPoint, tsf.itfcontextview_getrangefrompoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

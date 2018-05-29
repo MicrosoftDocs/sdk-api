@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfFnLangProfileUtil
 title: ITfFnLangProfileUtil
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfFnLangProfileUtil interface is implemented by the speech text service and used to provide utility methods for the speech text service.
 old-location: tsf\itffnlangprofileutil.htm
 old-project: TSF
 ms.assetid: 42dd534d-9786-4276-b227-fee2d58806b7
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnLangProfileUtil, ITfFnLangProfileUtil interface [Text Services Framework], ITfFnLangProfileUtil interface [Text Services Framework],described, _tsf_itffnlangprofileutil_ref, ctffunc/ITfFnLangProfileUtil, tsf.itffnlangprofileutil
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

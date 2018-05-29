@@ -1,16 +1,16 @@
 ---
 UID: NS:lmalert._ERRLOG_OTHER_INFO
 title: "_ERRLOG_OTHER_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ERRLOG_OTHER_INFO structure contains error log information. The NetAlertRaise and NetAlertRaiseEx functions use the ERRLOG_OTHER_INFO structure to specify information when adding a new entry to the error log.
 old-location: netmgmt\errlog_other_info_str.htm
 old-project: NetMgmt
 ms.assetid: 832ebe88-e1c4-4ce3-8057-922419b577f7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPERRLOG_OTHER_INFO, *PERRLOG_OTHER_INFO, ERRLOG_OTHER_INFO, ERRLOG_OTHER_INFO structure [Network Management], LPERRLOG_OTHER_INFO, LPERRLOG_OTHER_INFO structure pointer [Network Management], PERRLOG_OTHER_INFO, PERRLOG_OTHER_INFO structure pointer [Network Management], _ERRLOG_OTHER_INFO, _win32_errlog_other_info_str, lmalert/ERRLOG_OTHER_INFO, lmalert/LPERRLOG_OTHER_INFO, lmalert/PERRLOG_OTHER_INFO, netmgmt.errlog_other_info_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmalert.h
 req.include-header: Lm.h

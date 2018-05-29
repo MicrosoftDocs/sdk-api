@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase._lclose
 title: "_lclose function"
-author: windows-driver-content
+author: windows-sdk-content
 description: The _lclose function closes the specified file so that it is no longer available for reading or writing. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the CloseHandle function.
 old-location: winprog\_lclose.htm
 old-project: DevNotes
 ms.assetid: FBFBD963-0461-4357-9362-D32A83C1F969
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "_lclose, _lclose function [Windows API], winbase/_lclose, winprog._lclose"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: 

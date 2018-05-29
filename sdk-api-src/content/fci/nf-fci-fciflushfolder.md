@@ -1,16 +1,16 @@
 ---
 UID: NF:fci.FCIFlushFolder
 title: FCIFlushFolder function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FCIFlushFolder function forces the current folder under construction to be completed immediately.
 old-location: winprog\fciflushfolder.htm
 old-project: DevNotes
 ms.assetid: dc9c226e-e309-48c3-9edb-3f0a040c0c18
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FCIFlushFolder, FCIFlushFolder function [Windows API], fci/FCIFlushFolder, winprog.fciflushfolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fci.h
 req.include-header: 

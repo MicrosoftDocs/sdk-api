@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.ReadDWORD
 title: IWbemObjectAccess::ReadDWORD
-author: windows-driver-content
+author: windows-sdk-content
 description: The ReadDWORD method reads 32 bits of property data using a property handle.
 old-location: wmi\iwbemobjectaccess_readdword.htm
 old-project: WmiSdk
 ms.assetid: 5352dea3-6d10-42be-aa1e-786ace193827
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],ReadDWORD method, IWbemObjectAccess.ReadDWORD, IWbemObjectAccess::ReadDWORD, ReadDWORD, ReadDWORD method [Windows Management Instrumentation], ReadDWORD method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_readdword, wbemcli/IWbemObjectAccess::ReadDWORD, wmi.iwbemobjectaccess_readdword
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.CheckResourceResidency
 title: IDirect3DDevice9Ex::CheckResourceResidency
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks an array of resources to determine if it is likely that they will cause a large stall at Draw time because the system must make the resources GPU-accessible.
 old-location: direct3d9\idirect3ddevice9ex_checkresourceresidency.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_checkresourceresidency.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 3b00074b-be34-94d5-7702-c5e8f870e68f, CheckResourceResidency, CheckResourceResidency method [Direct3D 9], CheckResourceResidency method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],CheckResourceResidency method, IDirect3DDevice9Ex.CheckResourceResidency, IDirect3DDevice9Ex::CheckResourceResidency, d3d9/IDirect3DDevice9Ex::CheckResourceResidency, direct3d9.idirect3ddevice9ex_checkresourceresidency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 

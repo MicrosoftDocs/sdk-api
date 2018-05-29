@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.GetFilterPluginStore
 title: ITsSbProvider::GetFilterPluginStore
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a FilterPluginStore instance of the filter plugin store.
 old-location: termserv\itssbprovider_getfilterpluginstore.htm
 old-project: TermServ
 ms.assetid: 39ba9d60-7dde-4aa1-b95e-ec26aef731ca
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetFilterPluginStore, GetFilterPluginStore method [Remote Desktop Services], GetFilterPluginStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetFilterPluginStore method, ITsSbProvider.GetFilterPluginStore, ITsSbProvider::GetFilterPluginStore, sbtsv/ITsSbProvider::GetFilterPluginStore, termserv.itssbprovider_getfilterpluginstore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

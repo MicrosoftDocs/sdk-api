@@ -1,16 +1,16 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELWRITE
 title: VIRTUALCHANNELWRITE
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends data from the client end of a virtual channel to a partner application on the server end.
 old-location: termserv\virtualchannelwrite.htm
 old-project: TermServ
 ms.assetid: bd7bc65e-403c-4e29-bdb4-f2f5a957d6ab
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VirtualChannelWrite, VirtualChannelWrite callback, VirtualChannelWrite callback function [Remote Desktop Services], _win32_virtualchannelwrite, cchannel/VirtualChannelWrite, termserv.virtualchannelwrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: cchannel.h
 req.include-header: 

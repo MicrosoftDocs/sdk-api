@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFilesEnumerator.GetHasCurrent
 title: IAppxBlockMapFilesEnumerator::GetHasCurrent
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether there is a file at the current position of the enumerator.
 old-location: appxpkg\iappxblockmapfilesenumerator_gethascurrent.htm
 old-project: appxpkg
 ms.assetid: B0021CBC-9A3F-4D2D-8898-FE797396B312
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxBlockMapFilesEnumerator interface, IAppxBlockMapFilesEnumerator interface [App packaging and management],GetHasCurrent method, IAppxBlockMapFilesEnumerator.GetHasCurrent, IAppxBlockMapFilesEnumerator::GetHasCurrent, appxpackaging/IAppxBlockMapFilesEnumerator::GetHasCurrent, appxpkg.iappxblockmapfilesenumerator_gethascurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

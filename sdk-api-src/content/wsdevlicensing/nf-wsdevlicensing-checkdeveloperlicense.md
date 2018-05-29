@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdevlicensing.CheckDeveloperLicense
 title: CheckDeveloperLicense function
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks to see if a developer license exists.
 old-location: devlic\checkdeveloperlicense.htm
 old-project: devlic
 ms.assetid: 957CBEDC-CF3A-4A65-B0D9-4CEACCAAC344
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CheckDeveloperLicense, CheckDeveloperLicense function, devlic.checkdeveloperlicense, wsdevlicensing/CheckDeveloperLicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsdevlicensing.h
 req.include-header: 

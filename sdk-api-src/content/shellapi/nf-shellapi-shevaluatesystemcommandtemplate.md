@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.SHEvaluateSystemCommandTemplate
 title: SHEvaluateSystemCommandTemplate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enforces strict validation of parameters used in a call to CreateProcess or ShellExecute.
 old-location: shell\SHEvaluateSystemCommandTemplate.htm
 old-project: shell
 ms.assetid: 554b941d-7d03-47ae-a23a-2c47c5ca1044
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHEvaluateSystemCommandTemplate, SHEvaluateSystemCommandTemplate function [Windows Shell], _shell_SHEvaluateSystemCommandTemplate, shell.SHEvaluateSystemCommandTemplate, shellapi/SHEvaluateSystemCommandTemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

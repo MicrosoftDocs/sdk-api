@@ -1,16 +1,16 @@
 ---
 UID: NN:wbemprov.IWbemDecoupledRegistrar
 title: IWbemDecoupledRegistrar
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemDecoupledRegistrar interface associates decoupled providers with WMI. This interface allows a process-hosted provider to define the interoperability lifetime of the interface and to coexist with other providers.
 old-location: wmi\iwbemdecoupledregistrar.htm
 old-project: WmiSdk
 ms.assetid: ec805089-aff4-4885-b650-a784ce25a7d3
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemDecoupledRegistrar, IWbemDecoupledRegistrar interface [Windows Management Instrumentation], IWbemDecoupledRegistrar interface [Windows Management Instrumentation],described, _hmm_iwbemdecoupledregistrar, wbemprov/IWbemDecoupledRegistrar, wmi.iwbemdecoupledregistrar
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:oaidl.ICreateErrorInfo
 title: ICreateErrorInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns error information.
 old-location: automat\icreateerrorinfo.htm
 old-project: automat
 ms.assetid: 2e7c5ad5-9018-413e-8826-ef752ebf302c
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateErrorInfo, ICreateErrorInfo interface [Automation], ICreateErrorInfo interface [Automation],described, _oa96_ICreateErrorInfo_Interface, automat.icreateerrorinfo, oaidl/ICreateErrorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

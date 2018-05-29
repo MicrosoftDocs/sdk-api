@@ -1,16 +1,16 @@
 ---
 UID: NF:websocket.WebSocketCreateClientHandle
 title: WebSocketCreateClientHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a client-side WebSocket session handle.
 old-location: websock\websocketcreateclienthandle.htm
 old-project: WebSock
 ms.assetid: c61992cc-7715-4fad-a66a-916402088ad0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WebSocketCreateClientHandle, WebSocketCreateClientHandle function [Websocket Protocol Component API], websock.websocketcreateclienthandle, websocket/WebSocketCreateClientHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: websocket.h
 req.include-header: 

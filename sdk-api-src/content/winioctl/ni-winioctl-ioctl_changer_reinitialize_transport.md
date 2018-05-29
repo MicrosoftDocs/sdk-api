@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_REINITIALIZE_TRANSPORT
 title: IOCTL_CHANGER_REINITIALIZE_TRANSPORT
-author: windows-driver-content
+author: windows-sdk-content
 description: Physically recalibrates a transport element. Recalibration may involve returning the transport to its home position.
 old-location: base\ioctl_changer_reinitialize_transport.htm
 old-project: DevIO
 ms.assetid: 0745ee19-34f3-44c8-a52d-fb47448f0084
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: IOCTL_CHANGER_REINITIALIZE_TRANSPORT, IOCTL_CHANGER_REINITIALIZE_TRANSPORT control, IOCTL_CHANGER_REINITIALIZE_TRANSPORT control code, _win32_ioctl_changer_reinitialize_transport, base.ioctl_changer_reinitialize_transport, winioctl/IOCTL_CHANGER_REINITIALIZE_TRANSPORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

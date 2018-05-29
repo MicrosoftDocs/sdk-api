@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.SetDefaultSaveFolder
 title: IShellLibrary::SetDefaultSaveFolder
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the default target folder that the library will use for save operations.
 old-location: shell\IShellLibrary_SetDefaultSaveFolder.htm
 old-project: shell
 ms.assetid: 0c65bd5e-22f4-450b-a1d5-75e564854b5f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetDefaultSaveFolder method, IShellLibrary.SetDefaultSaveFolder, IShellLibrary::SetDefaultSaveFolder, SetDefaultSaveFolder, SetDefaultSaveFolder method [Windows Shell], SetDefaultSaveFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetDefaultSaveFolder, shell.IShellLibrary_SetDefaultSaveFolder, shobjidl_core/IShellLibrary::SetDefaultSaveFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

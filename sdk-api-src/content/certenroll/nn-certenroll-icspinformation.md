@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ICspInformation
 title: ICspInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to general information about a cryptographic provider.
 old-location: security\icspinformation.htm
 old-project: SecCertEnroll
 ms.assetid: e337ae2c-6f86-4025-8d31-47bc5d8a4ca8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICspInformation, ICspInformation interface [Security], ICspInformation interface [Security],described, certenroll/ICspInformation, security.icspinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

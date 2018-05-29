@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICDdsFrameDecode
 title: IWICDdsFrameDecode
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to a single frame of DDS image data in its native DXGI_FORMAT form, as well as information about the image data.
 old-location: wic\iwicddsframedecode.htm
 old-project: wic
 ms.assetid: 52E76A8D-E7E2-46F5-BBCC-B7C74F1B1122
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICDdsFrameDecode, IWICDdsFrameDecode interface [Windows Imaging Component], IWICDdsFrameDecode interface [Windows Imaging Component],described, wic.iwicddsframedecode, wincodec/IWICDdsFrameDecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

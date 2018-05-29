@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetupComm
 title: SetupComm function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the communications parameters for a specified communications device.
 old-location: base\setupcomm.htm
 old-project: DevIO
 ms.assetid: 7b42fdad-5847-4036-957e-2f71ad982d9f
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: SetupComm, SetupComm function, _win32_setupcomm, base.setupcomm, winbase/SetupComm
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

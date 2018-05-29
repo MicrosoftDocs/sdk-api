@@ -1,16 +1,16 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3.QuerySnapshotDeltaBitmap
 title: IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_querysnapshotdeltabitmap.htm
 old-project: VSS
 ms.assetid: cfa4420f-dc11-48c1-b177-1c58a4515550
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt3 interface,QuerySnapshotDeltaBitmap method, IVssDifferentialSoftwareSnapshotMgmt3.QuerySnapshotDeltaBitmap, IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap, QuerySnapshotDeltaBitmap, QuerySnapshotDeltaBitmap method, QuerySnapshotDeltaBitmap method,IVssDifferentialSoftwareSnapshotMgmt3 interface, base.ivssdifferentialsoftwaresnapshotmgmt3_querysnapshotdeltabitmap, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::QuerySnapshotDeltaBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 

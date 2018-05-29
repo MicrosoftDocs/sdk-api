@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12Device2.CreatePipelineState
 title: ID3D12Device2::CreatePipelineState
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a pipeline state object from a pipeline state stream description.
 old-location: direct3d12\id3d12device2_createpipelinestate.htm
 old-project: direct3d12
 ms.assetid: 90557451-CB7A-4F05-8BDB-B611FE034CBB
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: CreatePipelineState, CreatePipelineState method, CreatePipelineState method,ID3D12Device2 interface, ID3D12Device2 interface,CreatePipelineState method, ID3D12Device2.CreatePipelineState, ID3D12Device2::CreatePipelineState, d3d12/ID3D12Device2::CreatePipelineState, direct3d12.id3d12device2_createpipelinestate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

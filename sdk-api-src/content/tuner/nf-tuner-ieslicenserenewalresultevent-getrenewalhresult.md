@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetRenewalHResult
 title: IESLicenseRenewalResultEvent::GetRenewalHResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the final HRESULT value from a LicenseRenewalResult event that is returned by a call to a COM interface method during the renewal process.
 old-location: mstv\ieslicenserenewalresultevent_getrenewalhresult.htm
 old-project: mstv
 ms.assetid: ed823c23-ae7d-4e2d-8546-92f04bd3b212
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRenewalHResult, GetRenewalHResult method [DirectShow], GetRenewalHResult method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetRenewalHResult method, IESLicenseRenewalResultEvent.GetRenewalHResult, IESLicenseRenewalResultEvent::GetRenewalHResult, mstv.ieslicenserenewalresultevent_getrenewalhresult, tuner/IESLicenseRenewalResultEvent::GetRenewalHResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

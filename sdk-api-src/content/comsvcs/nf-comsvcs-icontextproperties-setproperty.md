@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IContextProperties.SetProperty
 title: IContextProperties::SetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a context object property.
 old-location: cos\icontextproperties_setproperty.htm
 old-project: cossdk
 ms.assetid: 4f6a27a2-37e9-4d4b-9d7e-916d791f03a5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IContextProperties interface [COM+],SetProperty method, IContextProperties.SetProperty, IContextProperties::SetProperty, SetProperty, SetProperty method [COM+], SetProperty method [COM+],IContextProperties interface, _cos_IContextProperties_SetProperty, comsvcs/IContextProperties::SetProperty, cos.icontextproperties_setproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

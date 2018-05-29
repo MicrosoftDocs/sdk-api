@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.STROBJ_bEnum
 title: STROBJ_bEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: The STROBJ_bEnum function enumerates glyph identities and positions.
 old-location: display\strobj_benum.htm
 old-project: display
 ms.assetid: 82cb12ff-2baa-4291-849c-dab9d01fa39b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: STROBJ_bEnum, STROBJ_bEnum function [Display Devices], display.strobj_benum, gdifncs_2925a0a5-f797-41a5-b5b1-d87d60d44905.xml, winddi/STROBJ_bEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

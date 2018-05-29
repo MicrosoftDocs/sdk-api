@@ -1,16 +1,16 @@
 ---
 UID: NE:taskschd._TASK_SESSION_STATE_CHANGE_TYPE
 title: "_TASK_SESSION_STATE_CHANGE_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines what kind of Terminal Server session state change you can use to trigger a task to start.
 old-location: taskschd\task_session_state_change_type.htm
 old-project: TaskSchd
 ms.assetid: 275108c1-bc08-4856-8b4f-28f14bd519f7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: TASK_CONSOLE_CONNECT, TASK_CONSOLE_DISCONNECT, TASK_REMOTE_CONNECT, TASK_REMOTE_DISCONNECT, TASK_SESSION_LOCK, TASK_SESSION_STATE_CHANGE_TYPE, TASK_SESSION_STATE_CHANGE_TYPE enumeration [Task Scheduler], TASK_SESSION_UNLOCK, _TASK_SESSION_STATE_CHANGE_TYPE, taskschd.task_session_state_change_type, taskschd/TASK_CONSOLE_CONNECT, taskschd/TASK_CONSOLE_DISCONNECT, taskschd/TASK_REMOTE_CONNECT, taskschd/TASK_REMOTE_DISCONNECT, taskschd/TASK_SESSION_LOCK, taskschd/TASK_SESSION_STATE_CHANGE_TYPE, taskschd/TASK_SESSION_UNLOCK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 

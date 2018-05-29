@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IMoniker.Enum
 title: IMoniker::Enum
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to an enumerator for the components of a composite moniker.
 old-location: com\imoniker_enum.htm
 old-project: com
 ms.assetid: 7e2e4d92-d5dd-4294-944e-8b1e88901ee1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Enum, Enum method [COM], Enum method [COM],IMoniker interface, IMoniker interface [COM],Enum method, IMoniker.Enum, IMoniker::Enum, _com_imoniker_enum, com.imoniker_enum, objidl/IMoniker::Enum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

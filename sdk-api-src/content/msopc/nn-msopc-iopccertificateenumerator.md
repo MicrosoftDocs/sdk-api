@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcCertificateEnumerator
 title: IOpcCertificateEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: A read-only enumerator of pointers to CERT_CONTEXT structures.
 old-location: opc\iopccertificateenumerator.htm
 old-project: OPC
 ms.assetid: a66ad728-9d20-44d9-a363-1d2a7927d810
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcCertificateEnumerator, IOpcCertificateEnumerator interface [Open Packaging Conventions], IOpcCertificateEnumerator interface [Open Packaging Conventions],described, msopc/IOpcCertificateEnumerator, opc.iopccertificateenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certbcli.CertSrvBackupRead
 title: CertSrvBackupRead function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads bytes from a Certificate Services file.
 old-location: security\certsrvbackupread.htm
 old-project: SecCrypto
 ms.assetid: cfc72002-40ee-4854-a026-b956acd5d758
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertSrvBackupRead, CertSrvBackupRead function [Security], _certsrv_certsrvbackupread, certbcli/CertSrvBackupRead, security.certsrvbackupread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

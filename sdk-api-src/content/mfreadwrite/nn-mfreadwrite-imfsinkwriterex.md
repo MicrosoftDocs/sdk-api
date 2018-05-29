@@ -1,16 +1,16 @@
 ---
 UID: NN:mfreadwrite.IMFSinkWriterEx
 title: IMFSinkWriterEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IMFSinkWriter interface.
 old-location: mf\imfsinkwriterex.htm
 old-project: medfound
 ms.assetid: 77E6CB22-E3B5-4D5E-8876-48582F75AA5C
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSinkWriterEx, IMFSinkWriterEx interface [Media Foundation], IMFSinkWriterEx interface [Media Foundation],described, mf.imfsinkwriterex, mfreadwrite/IMFSinkWriterEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfreadwrite.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_GET_RESOURCE_NAME
 title: PRESUTIL_GET_RESOURCE_NAME
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the name of a resource. The PRESUTIL_GET_RESOURCE_NAME type defines a pointer to this function.
 old-location: mscs\resutilgetresourcename.htm
 old-project: MsCS
 ms.assetid: 968d013f-6502-4981-982e-7b3f10c53b60
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_NAME, PRESUTIL_GET_RESOURCE_NAME callback, PRESUTIL_GET_RESOURCE_NAME callback function [Failover Cluster], _wolf_resutilgetresourcename, mscs.resutilgetresourcename, resapi/PRESUTIL_GET_RESOURCE_NAME
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

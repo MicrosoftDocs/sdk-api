@@ -1,16 +1,16 @@
 ---
 UID: NF:msrdc.IRdcLibrary.CreateSignatureReader
 title: IRdcLibrary::CreateSignatureReader
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a signature reader to allow an application to decode the contents of a signature file.
 old-location: rdc\irdclibrary_createsignaturereader.htm
 old-project: Rdc
 ms.assetid: 08627c9d-7470-47ab-9209-32734082c393
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CreateSignatureReader, CreateSignatureReader method [Remote Differential Compression], CreateSignatureReader method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],CreateSignatureReader method, IRdcLibrary.CreateSignatureReader, IRdcLibrary::CreateSignatureReader, fs.irdclibrary_createsignaturereader, msrdc/IRdcLibrary::CreateSignatureReader, rdc.irdclibrary_createsignaturereader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

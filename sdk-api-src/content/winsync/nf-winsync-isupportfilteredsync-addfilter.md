@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISupportFilteredSync.AddFilter
 title: ISupportFilteredSync::AddFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the filter that is used for change enumeration by the source provider, when implemented by a derived class.
 old-location: winsync\isupportfilteredsync_addfilter.htm
 old-project: winsync
 ms.assetid: 00a533fa-2a91-46e8-9754-af162a5e59ec
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AddFilter, AddFilter method [Windows Sync], AddFilter method [Windows Sync],ISupportFilteredSync interface, ISupportFilteredSync interface [Windows Sync],AddFilter method, ISupportFilteredSync.AddFilter, ISupportFilteredSync::AddFilter, winsync.isupportfilteredsync_addfilter, winsync/ISupportFilteredSync::AddFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

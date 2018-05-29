@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.BeginRead
 title: IWMDMOperation::BeginRead
-author: windows-driver-content
+author: windows-sdk-content
 description: The BeginRead method indicates that a &#0034;read from device&#0034; action is beginning. Windows Media Device Manager only calls this method if the application calls IWMDMStorageControl::Read and passes in this IWMDMOperation interface.
 old-location: wmdm\iwmdmoperation_beginread.htm
 old-project: WMDM
 ms.assetid: e72caaac-8992-4f11-8020-0455b3d730ad
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BeginRead, BeginRead method [windows Media Device Manager], BeginRead method [windows Media Device Manager],IWMDMOperation interface, IWMDMOperation interface [windows Media Device Manager],BeginRead method, IWMDMOperation.BeginRead, IWMDMOperation::BeginRead, IWMDMOperationBeginRead, mswmdm/IWMDMOperation::BeginRead, wmdm.iwmdmoperation_beginread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

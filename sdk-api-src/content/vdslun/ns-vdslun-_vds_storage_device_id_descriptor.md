@@ -1,16 +1,16 @@
 ---
 UID: NS:vdslun._VDS_STORAGE_DEVICE_ID_DESCRIPTOR
 title: "_VDS_STORAGE_DEVICE_ID_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines one or more storage identifiers for a storage device (typically an instance, as opposed to a class, of device).
 old-location: base\vds_storage_device_id_descriptor.htm
 old-project: VDS
 ms.assetid: 88fe83cb-6d3c-40bd-a5ce-71771d2e7511
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_STORAGE_DEVICE_ID_DESCRIPTOR, VDS_STORAGE_DEVICE_ID_DESCRIPTOR structure [VDS], _VDS_STORAGE_DEVICE_ID_DESCRIPTOR, base.vds_storage_device_id_descriptor, vdslun/_VDS_STORAGE_DEVICE_ID_DESCRIPTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers

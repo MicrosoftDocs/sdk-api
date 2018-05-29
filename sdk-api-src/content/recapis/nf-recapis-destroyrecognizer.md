@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.DestroyRecognizer
 title: DestroyRecognizer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Destroys a recognizer.
 old-location: tablet\destroyrecognizer.htm
 old-project: tablet
 ms.assetid: ffd66ab7-fc11-407e-aedc-267271ecb32c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DestroyRecognizer, DestroyRecognizer function [Tablet PC], ffd66ab7-fc11-407e-aedc-267271ecb32c, recapis/DestroyRecognizer, tablet.destroyrecognizer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

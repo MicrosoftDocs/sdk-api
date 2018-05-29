@@ -1,16 +1,16 @@
 ---
 UID: NF:comppkgsup.AreDvdCodecsEnabled
 title: AreDvdCodecsEnabled function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a value indicating whether DVD codecs are enabled on the current device.
 old-location: winprog\aredvdcodecsenabled.htm
 old-project: DevNotes
 ms.assetid: 706476D1-B372-4C51-8534-0085A4735D4C
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: AreDvdCodecsEnabled, AreDvdCodecsEnabled function [Windows API], comppkgsup/AreDvdCodecsEnabled, winprog.aredvdcodecsenabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: comppkgsup.h
 req.include-header: 

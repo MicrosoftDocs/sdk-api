@@ -1,16 +1,16 @@
 ---
 UID: NF:callobj.ICallFrame.Invoke
 title: ICallFrame::Invoke
-author: windows-driver-content
+author: windows-sdk-content
 description: Applies this activation record to an object. In a marshalling situation, typically this is carried out on the server side, and is the means by which the work of the actual object is accomplished.
 old-location: com\icallframe_invoke.htm
 old-project: com
 ms.assetid: 75cb7b96-55c9-4aee-b507-a549e2af38bc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ICallFrame interface [COM],Invoke method, ICallFrame.Invoke, ICallFrame::Invoke, Invoke, Invoke method [COM], Invoke method [COM],ICallFrame interface, _com_icallframe_invoke, callobj/ICallFrame::Invoke, com.icallframe_invoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: callobj.h
 req.include-header: 

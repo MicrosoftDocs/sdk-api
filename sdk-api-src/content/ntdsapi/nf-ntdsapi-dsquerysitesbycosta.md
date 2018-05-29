@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsQuerySitesByCostA
 title: DsQuerySitesByCostA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the communication cost between one site and one or more other sites.
 old-location: ad\dsquerysitesbycost.htm
 old-project: AD
 ms.assetid: 7a4cbd1c-8445-4882-8559-d44b6e5693e7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsQuerySitesByCost, DsQuerySitesByCost function [Active Directory], DsQuerySitesByCostA, DsQuerySitesByCostW, ad.dsquerysitesbycost, ntdsapi/DsQuerySitesByCost, ntdsapi/DsQuerySitesByCostA, ntdsapi/DsQuerySitesByCostW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

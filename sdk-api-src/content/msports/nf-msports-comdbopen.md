@@ -1,16 +1,16 @@
 ---
 UID: NF:msports.ComDBOpen
 title: ComDBOpen function
-author: windows-driver-content
+author: windows-sdk-content
 description: ComDBOpen returns a handle to the COM port database.
 old-location: serports\comdbopen.htm
 old-project: serports
 ms.assetid: 6ae22de0-b71e-441d-af12-8518a3f474e3
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: ComDBOpen, ComDBOpen function [Serial Ports], comdb_ab14e7a4-69f0-42fc-82b5-df6f5863779a.xml, msports/ComDBOpen, serports.comdbopen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msports.h
 req.include-header: Msports.h

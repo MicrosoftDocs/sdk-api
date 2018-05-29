@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch2.FindPrinter
 title: IShellDispatch2::FindPrinter
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays the Find Printer dialog box.
 old-location: shell\IShellDispatch2_FindPrinter.htm
 old-project: shell
 ms.assetid: a3d1e810-f0cf-48ec-93da-5cc01117c5d4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FindPrinter, FindPrinter method [Windows Shell], FindPrinter method [Windows Shell],IShellDispatch2 object, IShellDispatch2 object [Windows Shell],FindPrinter method, IShellDispatch2.FindPrinter, IShellDispatch2::FindPrinter, _win32_IShellDispatch2_FindPrinter, shell.IShellDispatch2_FindPrinter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

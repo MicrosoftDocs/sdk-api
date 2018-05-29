@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.Activate
 title: ITfThreadMgr2::Activate
-author: windows-driver-content
+author: windows-sdk-content
 description: Activates TSF for the calling thread.
 old-location: tsf\itfthreadmgr2_activate.htm
 old-project: TSF
 ms.assetid: FD1548F5-15F6-4BBC-A7D1-B0F4B881D9F8
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Activate, Activate method [Text Services Framework], Activate method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],Activate method, ITfThreadMgr2.Activate, ITfThreadMgr2::Activate, msctf/ITfThreadMgr2::Activate, tsf.itfthreadmgr2_activate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

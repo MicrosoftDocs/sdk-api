@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPhone.get_ButtonMode
 title: ITPhone::get_ButtonMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_ButtonMode method retrieves the button mode associated with a particular button.
 old-location: tapi3\itphone_get_buttonmode.htm
 old-project: Tapi
 ms.assetid: 5b3173bf-1c79-4c5d-a2bc-3b3ae4f0ae8a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_ButtonMode method, ITPhone.get_ButtonMode, ITPhone::get_ButtonMode, _tapi3_itphone_get_buttonmode, get_ButtonMode, get_ButtonMode method [TAPI 2.2], get_ButtonMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_buttonmode, tapi3if/ITPhone::get_ButtonMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

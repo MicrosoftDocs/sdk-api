@@ -1,16 +1,16 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentData.GetData
 title: ISceSvcAttachmentData::GetData
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetData method retrieves configuration information from the Security Configuration snap-in.
 old-location: security\iscesvcattachmentdata_getdata.htm
 old-project: SecMgmt
 ms.assetid: f0b51592-58d9-45f2-a0a5-7cdbde0bc0a1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetData, GetData method [Security], GetData method [Security],ISceSvcAttachmentData interface, ISceSvcAttachmentData interface [Security],GetData method, ISceSvcAttachmentData.GetData, ISceSvcAttachmentData::GetData, SCE_SERVICE_ANALYSIS_INFO, SCE_SERVICE_CONFIGURATION_INFO, _config_iscesvcattachmentdata_getdata, scesvc/ISceSvcAttachmentData::GetData, security.iscesvcattachmentdata_getdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: scesvc.h
 req.include-header: 

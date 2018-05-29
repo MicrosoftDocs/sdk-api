@@ -1,16 +1,16 @@
 ---
 UID: NF:fci.FCIAddFile
 title: FCIAddFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FCIAddFile adds a file to the cabinet under construction.
 old-location: winprog\fciaddfile.htm
 old-project: DevNotes
 ms.assetid: f99e8718-853b-4d35-98ae-61a8333dbaba
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FCIAddFile, FCIAddFile function [Windows API], fci/FCIAddFile, tcompTYPE_MSZIP, tcompTYPE_NONE, winprog.fciaddfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fci.h
 req.include-header: 

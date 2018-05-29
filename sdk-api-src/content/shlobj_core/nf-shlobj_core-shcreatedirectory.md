@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHCreateDirectory
 title: SHCreateDirectory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new file system folder.
 old-location: shell\SHCreateDirectory.htm
 old-project: shell
 ms.assetid: 4927429c-f457-4dda-aa0d-236eb236795c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCreateDirectory, SHCreateDirectory function [Windows Shell], _win32_SHCreateDirectory, shell.SHCreateDirectory, shlobj_core/SHCreateDirectory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

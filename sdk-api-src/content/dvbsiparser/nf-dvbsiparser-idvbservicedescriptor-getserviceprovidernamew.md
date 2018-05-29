@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceDescriptor.GetServiceProviderNameW
 title: IDvbServiceDescriptor::GetServiceProviderNameW
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the service provider name string from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicedescriptor_getserviceprovidernamew.htm
 old-project: mstv
 ms.assetid: e4c6f1f1-8cf8-4848-bb88-e1d11f4fe045
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetServiceProviderNameW, GetServiceProviderNameW method [Microsoft TV Technologies], GetServiceProviderNameW method [Microsoft TV Technologies],IDvbServiceDescriptor interface, IDvbServiceDescriptor interface [Microsoft TV Technologies],GetServiceProviderNameW method, IDvbServiceDescriptor.GetServiceProviderNameW, IDvbServiceDescriptor::GetServiceProviderNameW, dvbsiparser/IDvbServiceDescriptor::GetServiceProviderNameW, mstv.idvbservicedescriptor_getserviceprovidernamew
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

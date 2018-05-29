@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.SyncContentTransform
 title: IDirectManipulationContent::SyncContentTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: Modifies the content transform while maintaining the output transform.
 old-location: directmanipulation\idirectmanipulationcontent_synccontenttransform.htm
 old-project: directmanipulation
 ms.assetid: 3e70b208-05b5-4b84-a582-fd835acdd777
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationContent interface [Direct Manipulation],SyncContentTransform method, IDirectManipulationContent.SyncContentTransform, IDirectManipulationContent::SyncContentTransform, SyncContentTransform, SyncContentTransform method [Direct Manipulation], SyncContentTransform method [Direct Manipulation],IDirectManipulationContent interface, directmanipulation.idirectmanipulationcontent_synccontenttransform, directmanipulation/IDirectManipulationContent::SyncContentTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

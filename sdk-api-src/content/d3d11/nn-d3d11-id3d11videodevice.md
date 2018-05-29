@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11.ID3D11VideoDevice
 title: ID3D11VideoDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the video decoding and video processing capabilities of a Microsoft Direct3D 11 device.
 old-location: mf\id3d11videodevice.htm
 old-project: medfound
 ms.assetid: 420DE3C4-15A9-4EEB-A1FD-6350DE109CFF
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoDevice, ID3D11VideoDevice interface [Media Foundation], ID3D11VideoDevice interface [Media Foundation],described, d3d11/ID3D11VideoDevice, mf.id3d11videodevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

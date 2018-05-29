@@ -1,16 +1,16 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.FindSimilarFileIndex
 title: ISimilarityTraitsTable::FindSimilarFileIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a list of files that are similar to a given file. The results in the list are sorted in order of similarity, beginning with the most similar file.
 old-location: rdc\isimilaritytraitstable_findsimilarfileindex.htm
 old-project: Rdc
 ms.assetid: 09c9b918-1def-4d19-84d4-99b881070e36
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: FindSimilarFileIndex, FindSimilarFileIndex method [Remote Differential Compression], FindSimilarFileIndex method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],FindSimilarFileIndex method, ISimilarityTraitsTable.FindSimilarFileIndex, ISimilarityTraitsTable::FindSimilarFileIndex, fs.isimilaritytraitstable_findsimilarfileindex, msrdc/ISimilarityTraitsTable::FindSimilarFileIndex, rdc.isimilaritytraitstable_findsimilarfileindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

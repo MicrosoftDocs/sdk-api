@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._JOBOBJECT_CPU_RATE_CONTROL_INFORMATION
 title: "_JOBOBJECT_CPU_RATE_CONTROL_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains CPU rate control information for a job object. This structure is used by the SetInformationJobObject and QueryInformationJobObject functions with the JobObjectCpuRateControlInformation information class.
 old-location: base\jobobject_cpu_rate_control_information.htm
 old-project: ProcThread
 ms.assetid: eaa5bda2-a37e-441b-a0e4-e00dff6425b2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION, JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, JOBOBJECT_CPU_RATE_CONTROL_INFORMATION structure, JOB_OBJECT_ CPU_RATE_CONTROL_MIN_MAX_RATE, JOB_OBJECT_CPU_RATE_CONTROL_ENABLE, JOB_OBJECT_CPU_RATE_CONTROL_HARD_CAP, JOB_OBJECT_CPU_RATE_CONTROL_NOTIFY, JOB_OBJECT_CPU_RATE_CONTROL_WEIGHT_BASED, PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION, PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION structure pointer, _JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, base.jobobject_cpu_rate_control_information, winnt/JOBOBJECT_CPU_RATE_CONTROL_INFORMATION, winnt/PJOBOBJECT_CPU_RATE_CONTROL_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:termmgr.ITTerminalControl.get_AddressHandle
 title: ITTerminalControl::get_AddressHandle
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_AddressHandle method gets the MSP address handle.
 old-location: tapi3\itterminalcontrol_get_addresshandle.htm
 old-project: Tapi
 ms.assetid: 6f222dea-059a-4eda-bcbc-cd6c61cdf2fa
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITTerminalControl interface [TAPI 2.2],get_AddressHandle method, ITTerminalControl.get_AddressHandle, ITTerminalControl::get_AddressHandle, _tapi3_itterminalcontrol_get_addresshandle, get_AddressHandle, get_AddressHandle method [TAPI 2.2], get_AddressHandle method [TAPI 2.2],ITTerminalControl interface, tapi3.itterminalcontrol_get_addresshandle, termmgr/ITTerminalControl::get_AddressHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

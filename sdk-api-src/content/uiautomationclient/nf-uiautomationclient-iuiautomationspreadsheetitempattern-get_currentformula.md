@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.get_CurrentFormula
 title: IUIAutomationSpreadsheetItemPattern::get_CurrentFormula
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the formula for this cell.
 old-location: winauto\uiauto_IUIAutomationspreadSheetItemPattern_CurrentFormula.htm
 old-project: WinAuto
 ms.assetid: CBE97F32-9640-4093-9612-8751C4508563
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentFormula property [Windows Accessibility], CurrentFormula property [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],CurrentFormula property, IUIAutomationSpreadsheetItemPattern.CurrentFormula, IUIAutomationSpreadsheetItemPattern.get_CurrentFormula, IUIAutomationSpreadsheetItemPattern::CurrentFormula, IUIAutomationSpreadsheetItemPattern::get_CurrentFormula, get_CurrentFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::CurrentFormula, uiautomationclient/IUIAutomationSpreadsheetItemPattern::get_CurrentFormula, winauto.uiauto_IUIAutomationspreadSheetItemPattern_CurrentFormula
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

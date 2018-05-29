@@ -1,16 +1,16 @@
 ---
 UID: NN:adhoc.IDot11AdHocNetwork
 title: IDot11AdHocNetwork
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an available ad hoc network destination within connection range.
 old-location: nwifi\idot11adhocnetwork.htm
 old-project: NativeWiFi
 ms.assetid: 2736bb81-b66f-4c09-8c76-ca16f3eab192
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: IDot11AdHocNetwork, IDot11AdHocNetwork interface [NativeWIFI], IDot11AdHocNetwork interface [NativeWIFI],described, adhoc/IDot11AdHocNetwork, nwifi.idot11adhocnetwork
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: adhoc.h
 req.include-header: 

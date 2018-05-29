@@ -1,16 +1,16 @@
 ---
 UID: NF:oledlg.OleUIChangeSourceW
 title: OleUIChangeSourceW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Invokes the Change Source dialog box, allowing the user to change the source of a link.
 old-location: com\oleuichangesource.htm
 old-project: com
 ms.assetid: 53ff17aa-3135-462e-885d-3bfbb74ed1c5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleUIChangeSource, OleUIChangeSource function [COM], OleUIChangeSourceA, OleUIChangeSourceW, _ole_OleUIChangeSource, com.oleuichangesource, oledlg/OleUIChangeSource, oledlg/OleUIChangeSourceA, oledlg/OleUIChangeSourceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 

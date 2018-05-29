@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IStylusPlugin.SystemEvent
 title: IStylusPlugin::SystemEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the implementing plug-in that a system event is available.
 old-location: tablet\istylusplugin_systemevent.htm
 old-project: tablet
 ms.assetid: 7cdba29e-0599-45f7-8853-3e8fa29897e8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 7cdba29e-0599-45f7-8853-3e8fa29897e8, IStylusPlugin interface [Tablet PC],SystemEvent method, IStylusPlugin.SystemEvent, IStylusPlugin::SystemEvent, SystemEvent, SystemEvent method [Tablet PC], SystemEvent method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::SystemEvent, tablet.istylusplugin_systemevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

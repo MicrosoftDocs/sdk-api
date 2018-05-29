@@ -1,16 +1,16 @@
 ---
 UID: NS:dxgi._LUID
 title: "_LUID"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a local identifier for an adapter.
 old-location: direct3ddxgi\_luid.htm
 old-project: direct3ddxgi
 ms.assetid: 00601551-D6CE-4164-BDAF-DBCCF197990E
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PLUID, LUID, LUID structure [DXGI], _LUID, direct3ddxgi._luid, dxgi/LUID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509AttributeOSVersion
 title: IX509AttributeOSVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an attribute that contains version information about the client operating system on which the certificate request was generated.
 old-location: security\ix509attributeosversion.htm
 old-project: SecCertEnroll
 ms.assetid: 2ae84d47-2bda-4954-9165-902634d09da9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509AttributeOSVersion, IX509AttributeOSVersion interface [Security], IX509AttributeOSVersion interface [Security],described, certenroll/IX509AttributeOSVersion, security.ix509attributeosversion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

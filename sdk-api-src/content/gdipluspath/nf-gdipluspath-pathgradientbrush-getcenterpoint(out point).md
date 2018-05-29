@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetCenterPoint(OUT Point)
 title: PathGradientBrush::GetCenterPoint(OUT Point)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the GetCenterPoint methods of the PathGradientBrush class. For a complete list of methods for the PathGradientBrush class, see PathGradientBrush Methods.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\pathgradientbrushgetcenterpointmethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCenterPoint, GetCenterPoint methods [GDI+], PathGradientBrush.GetCenterPoint, PathGradientBrush.GetCenterPoint(OUT Point), PathGradientBrush::GetCenterPoint, PathGradientBrush::GetCenterPoint(OUT Point), _gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Methods, gdiplus._gdiplus_CLASS_PathGradientBrush_GetCenterPoint_Methods, gdipluspath/GetCenterPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 

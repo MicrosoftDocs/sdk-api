@@ -1,16 +1,16 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationCompositor
 title: IDirectManipulationCompositor
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a compositor object that associates manipulated content with a drawing surface, such as canvas (Windows app using JavaScript) or Canvas (Windows Store app using C++, C#, or Visual Basic).
 old-location: directmanipulation\idirectmanipulationcompositor.htm
 old-project: directmanipulation
 ms.assetid: b96b5e8f-fc11-48ad-83ca-96e23fd3ffc1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationCompositor, IDirectManipulationCompositor interface [Direct Manipulation], IDirectManipulationCompositor interface [Direct Manipulation],described, directmanipulation.idirectmanipulationcompositor, directmanipulation/IDirectManipulationCompositor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 

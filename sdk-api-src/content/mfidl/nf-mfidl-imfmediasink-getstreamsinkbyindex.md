@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetStreamSinkByIndex
 title: IMFMediaSink::GetStreamSinkByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a stream sink, specified by index.
 old-location: mf\imfmediasink_getstreamsinkbyindex.htm
 old-project: medfound
 ms.assetid: 01604801-1566-410c-b23a-0568c7298868
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 01604801-1566-410c-b23a-0568c7298868, GetStreamSinkByIndex, GetStreamSinkByIndex method [Media Foundation], GetStreamSinkByIndex method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetStreamSinkByIndex method, IMFMediaSink.GetStreamSinkByIndex, IMFMediaSink::GetStreamSinkByIndex, mf.imfmediasink_getstreamsinkbyindex, mfidl/IMFMediaSink::GetStreamSinkByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

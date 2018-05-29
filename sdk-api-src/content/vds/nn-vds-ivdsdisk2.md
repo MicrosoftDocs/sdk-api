@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsDisk2
 title: IVdsDisk2
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method to set the SAN mode of a disk to offline or online.
 old-location: base\ivdsdisk2.htm
 old-project: VDS
 ms.assetid: 9fb8a08e-412d-415a-aa27-cc0180599903
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsDisk2, IVdsDisk2 interface, IVdsDisk2 interface,described, base.ivdsdisk2, vds/IVdsDisk2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

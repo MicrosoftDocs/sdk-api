@@ -1,16 +1,16 @@
 ---
 UID: NF:psapi.EnumProcessModulesEx
 title: EnumProcessModulesEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a handle for each module in the specified process that meets the specified filter criteria.
 old-location: psapi\enumprocessmodulesex.htm
 old-project: psapi
 ms.assetid: 0f982f32-31f4-47b6-85d2-d6e17aa4eeb9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EnumProcessModulesEx, EnumProcessModulesEx function [PSAPI], K32EnumProcessModulesEx, LIST_MODULES_32BIT, LIST_MODULES_64BIT, LIST_MODULES_ALL, LIST_MODULES_DEFAULT, base.enumprocessmodulesex, psapi.enumprocessmodulesex, psapi/EnumProcessModulesEx, psapi/K32EnumProcessModulesEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: psapi.h
 req.include-header: Windows.h

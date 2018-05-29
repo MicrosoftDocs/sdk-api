@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantGetFileTimeElem
 title: PropVariantGetFileTimeElem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a single FILETIME element from a PROPVARIANT structure of type VT_FILETIME, VT_VECTOR | VT_FILETIME, or VT_ARRAY | VT_FILETIME.
 old-location: properties\PropVariantGetFileTimeElem.htm
 old-project: properties
 ms.assetid: e38b16ed-84cb-4444-bfbd-1165595bc9b5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantGetFileTimeElem, PropVariantGetFileTimeElem function [Windows Properties], _shell_PropVariantGetFileTimeElem, properties.PropVariantGetFileTimeElem, propvarutil/PropVariantGetFileTimeElem, shell.PropVariantGetFileTimeElem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:windns.DnsCancelQuery
 title: DnsCancelQuery function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DnsCancelQuery function can be used to cancel a pending query to the DNS namespace.
 old-location: dns\dnscancelquery.htm
 old-project: DNS
 ms.assetid: E5F422AA-D4E6-4F9F-A57C-608CE9317658
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: DnsCancelQuery, DnsCancelQuery function [DNS], dns.dnscancelquery, windns/DnsCancelQuery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: windns.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:evntprov._EVENT_DATA_DESCRIPTOR
 title: "_EVENT_DATA_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines one of the data items of the event data.
 old-location: etw\event_data_descriptor.htm
 old-project: ETW
 ms.assetid: 452ce6f6-3857-4f88-b501-44dd6091b97e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PEVENT_DATA_DESCRIPTOR, EVENT_DATA_DESCRIPTOR, EVENT_DATA_DESCRIPTOR structure [ETW], PEVENT_DATA_DESCRIPTOR, PEVENT_DATA_DESCRIPTOR structure pointer [ETW], _EVENT_DATA_DESCRIPTOR, base.event_data_descriptor, etw.event_data_descriptor, evntprov/EVENT_DATA_DESCRIPTOR, evntprov/PEVENT_DATA_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntprov.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateMatrixTransform
 title: IXpsOMObjectFactory::CreateMatrixTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IXpsOMMatrixTransform interface that specifies an affine matrix transform.
 old-location: xps\ixpsomobjectfactory_creatematrixtransform.htm
 old-project: printdocs
 ms.assetid: 10377a1f-67b4-4fae-81f7-e6bf50e1c2b2
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CreateMatrixTransform, CreateMatrixTransform method [XPS Documents and Packaging], CreateMatrixTransform method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateMatrixTransform method, IXpsOMObjectFactory.CreateMatrixTransform, IXpsOMObjectFactory::CreateMatrixTransform, xps.ixpsomobjectfactory_creatematrixtransform, xpsobjectmodel/IXpsOMObjectFactory::CreateMatrixTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:chptrarr.CHPtrArray.RemoveAll
 title: CHPtrArray::RemoveAll
-author: windows-driver-content
+author: windows-sdk-content
 description: The RemoveAll method removes all the CHPtrArray members from this array.
 old-location: wmi\chptrarray_removeall.htm
 old-project: WmiSdk
 ms.assetid: 51de0ff1-e8e9-4484-80d6-51179ef82a51
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?RemoveAll@CHPtrArray@@QAEXXZ, CHPtrArray interface [Windows Management Instrumentation],RemoveAll method, CHPtrArray.RemoveAll, CHPtrArray::RemoveAll, RemoveAll, RemoveAll method [Windows Management Instrumentation], RemoveAll method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::RemoveAll, wmi.chptrarray_removeall"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chptrarr.h
 req.include-header: FwCommon.h

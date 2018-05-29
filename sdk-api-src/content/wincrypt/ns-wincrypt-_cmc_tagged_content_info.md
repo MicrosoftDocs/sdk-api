@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CMC_TAGGED_CONTENT_INFO
 title: "_CMC_TAGGED_CONTENT_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used in the CMC_DATA_INFO and CMC_RESPONSE_INFO structures.
 old-location: security\cmc_tagged_content_info.htm
 old-project: SecCrypto
 ms.assetid: ff10dcdf-4c76-434a-a8bd-78d64ea24d23
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCMC_TAGGED_CONTENT_INFO, CMC_TAGGED_CONTENT_INFO, CMC_TAGGED_CONTENT_INFO structure [Security], PCMC_TAGGED_CONTENT_INFO, PCMC_TAGGED_CONTENT_INFO structure pointer [Security], _CMC_TAGGED_CONTENT_INFO, _crypto2_cmc_tagged_content_info, security.cmc_tagged_content_info, wincrypt/CMC_TAGGED_CONTENT_INFO, wincrypt/PCMC_TAGGED_CONTENT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

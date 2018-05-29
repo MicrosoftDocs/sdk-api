@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaSetTrustedDomainInformation
 title: LsaSetTrustedDomainInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: The LsaSetTrustedDomainInformation function modifies a Policy object's information about a trusted domain.
 old-location: security\lsasettrusteddomaininformation.htm
 old-project: SecMgmt
 ms.assetid: a7b89ea7-af92-46ba-ac73-2fba1cc27680
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaSetTrustedDomainInformation, LsaSetTrustedDomainInformation function [Security], TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_lsasettrusteddomaininformation, ntsecapi/LsaSetTrustedDomainInformation, security.lsasettrusteddomaininformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

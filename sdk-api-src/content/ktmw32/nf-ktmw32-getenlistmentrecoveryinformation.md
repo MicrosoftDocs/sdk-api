@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.GetEnlistmentRecoveryInformation
 title: GetEnlistmentRecoveryInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an opaque structure of recovery data from KTM.
 old-location: fs\getenlistmentrecoveryinformation_func.htm
 old-project: Ktm
 ms.assetid: 05bfbe81-5f3d-4e32-b4fa-4532227f522e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetEnlistmentRecoveryInformation, GetEnlistmentRecoveryInformation function [Files], fs.getenlistmentrecoveryinformation_func, ktmw32/GetEnlistmentRecoveryInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

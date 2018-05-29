@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.ICameraControl.get_Focus
 title: ICameraControl::get_Focus
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Focus method returns the distance that is optimally in focus.
 old-location: dshow\icameracontrol_get_focus.htm
 old-project: DirectShow
 ms.assetid: 59ab6306-539f-4be4-8e69-348eab6220ea
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICameraControl interface [DirectShow],get_Focus method, ICameraControl.get_Focus, ICameraControl::get_Focus, ICameraControlget_Focus, dshow.icameracontrol_get_focus, get_Focus, get_Focus method [DirectShow], get_Focus method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_Focus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

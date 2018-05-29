@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetIdentifier
 title: IXpsOMCoreProperties::SetIdentifier
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the identifier property.
 old-location: xps\ixpsomcoreproperties_setidentifier.htm
 old-project: printdocs
 ms.assetid: 8ad5a359-77f6-4b11-9c1c-2e4094be65d0
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetIdentifier method, IXpsOMCoreProperties.SetIdentifier, IXpsOMCoreProperties::SetIdentifier, SetIdentifier, SetIdentifier method [XPS Documents and Packaging], SetIdentifier method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setidentifier, xpsobjectmodel/IXpsOMCoreProperties::SetIdentifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

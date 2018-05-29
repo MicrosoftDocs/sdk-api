@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.DecommissionNtmsMedia
 title: DecommissionNtmsMedia function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DecommissionNtmsMedia function moves a side from the Available state to the Decommissioned state.
 old-location: fs\decommissionntmsmedia.htm
 old-project: Rsm
 ms.assetid: 2bb1a54b-6308-4ccd-9fc6-1b11f4432a3f
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: DecommissionNtmsMedia, DecommissionNtmsMedia function [Files], _zaw_decommissionntmsmedia, base.decommissionntmsmedia, fs.decommissionntmsmedia, ntmsapi/DecommissionNtmsMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

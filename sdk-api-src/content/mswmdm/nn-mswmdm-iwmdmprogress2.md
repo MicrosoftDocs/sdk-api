@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.IWMDMProgress2
 title: IWMDMProgress2
-author: windows-driver-content
+author: windows-sdk-content
 description: The optional, application-implemented IWMDMProgress2 interface extends the IWMDMProgress::End method by providing a status indicator.
 old-location: wmdm\iwmdmprogress2.htm
 old-project: WMDM
 ms.assetid: 59619571-0ab7-42a4-ad25-c420ec9667a3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMProgress2, IWMDMProgress2 interface [windows Media Device Manager], IWMDMProgress2 interface [windows Media Device Manager],described, IWMDMProgress2Interface, mswmdm/IWMDMProgress2, wmdm.iwmdmprogress2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

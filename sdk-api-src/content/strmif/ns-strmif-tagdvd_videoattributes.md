@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.tagDVD_VideoAttributes
 title: tagDVD_VideoAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: The DVD_VideoAttributes structure describes the attributes of the video stream for the current title or menu.
 old-location: dshow\dvd_videoattributes.htm
 old-project: DirectShow
 ms.assetid: b395a322-d63e-41a0-b97a-88f99aeba0e5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_VideoAttributes, DVD_VideoAttributes structure [DirectShow], DVD_VideoAttributesStructure, dshow.dvd_videoattributes, strmif/DVD_VideoAttributes, tagDVD_VideoAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

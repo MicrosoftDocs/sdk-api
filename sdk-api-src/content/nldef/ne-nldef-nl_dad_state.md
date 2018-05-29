@@ -1,16 +1,16 @@
 ---
 UID: NE:nldef.NL_DAD_STATE
 title: NL_DAD_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: The IP_DAD_STATE enumeration specifies information about the duplicate address detection (DAD) state for an IPv4 or IPv6 address.
 old-location: iphlp\ip_dad_state.htm
 old-project: IpHlp
 ms.assetid: 2c67215c-6349-418e-9004-b869d6f5baef
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IP_DAD_STATE, IP_DAD_STATE enumeration [IP Helper], IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, NL_DAD_STATE, iphlp.ip_dad_state, iptypes/IP_DAD_STATE, iptypes/IpDadStateDeprecated, iptypes/IpDadStateDuplicate, iptypes/IpDadStateInvalid, iptypes/IpDadStatePreferred, iptypes/IpDadStateTentative, nldef/IP_DAD_STATE, nldef/IpDadStateDeprecated, nldef/IpDadStateDuplicate, nldef/IpDadStateInvalid, nldef/IpDadStatePreferred, nldef/IpDadStateTentative
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: nldef.h
 req.include-header: Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008  Windows Vista, Iphlpapi.h
@@ -40,7 +40,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Newdev.lib
-req.dll: Newdev.dll
+req.dll: 
 req.irql: 
 req.product: Rights Management Services client 1.0 or later
 ---

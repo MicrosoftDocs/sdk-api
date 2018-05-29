@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodecsdk.IWICStreamProvider.GetPreferredVendorGUID
 title: IWICStreamProvider::GetPreferredVendorGUID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the preferred vendor GUID.
 old-location: wic\_wic_codec_iwicstreamprovider_getpreferredvendorguid.htm
 old-project: wic
 ms.assetid: fb88bc8d-4f92-4645-9d11-ee9200f11aaf
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetPreferredVendorGUID, GetPreferredVendorGUID method [Windows Imaging Component], GetPreferredVendorGUID method [Windows Imaging Component],IWICStreamProvider interface, IWICStreamProvider interface [Windows Imaging Component],GetPreferredVendorGUID method, IWICStreamProvider.GetPreferredVendorGUID, IWICStreamProvider::GetPreferredVendorGUID, _wic_codec_iwicstreamprovider_getpreferredvendorguid, wic._wic_codec_iwicstreamprovider_getpreferredvendorguid, wincodecsdk/IWICStreamProvider::GetPreferredVendorGUID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capSetCallbackOnFrame
 title: capSetCallbackOnFrame macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capSetCallbackOnFrame macro sets a preview callback function in the application. AVICap calls this procedure when the capture window captures preview frames. You can use this macro or explicitly call the WM_CAP_SET_CALLBACK_FRAME message.
 old-location: multimedia\capsetcallbackonframe.htm
 old-project: Multimedia
 ms.assetid: 7e9e33cb-9213-4111-a1de-700493949f2d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capSetCallbackOnFrame, capSetCallbackOnFrame, capSetCallbackOnFrame macro [Windows Multimedia], multimedia.capsetcallbackonframe, vfw/capSetCallbackOnFrame"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

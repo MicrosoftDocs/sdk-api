@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcSignatureRelationshipReferenceEnumerator
 title: IOpcSignatureRelationshipReferenceEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: A read-only enumerator of IOpcSignatureRelationshipReference interface pointers.
 old-location: opc\iopcsignaturerelationshipreferenceenumerator.htm
 old-project: OPC
 ms.assetid: aa4c6e8b-1a1f-464b-885e-bee0976afafc
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcSignatureRelationshipReferenceEnumerator, IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions], IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignatureRelationshipReferenceEnumerator, opc.iopcsignaturerelationshipreferenceenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

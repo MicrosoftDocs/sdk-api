@@ -1,16 +1,16 @@
 ---
 UID: NN:commoncontrols.IImageList
 title: IImageList
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that manipulate and interact with image lists.
 old-location: controls\IImageList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\iimagelist.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IImageList, IImageList interface [Windows Controls], IImageList interface [Windows Controls],described, comctl_IImageList, comctl_IImageList_cpp, commoncontrols/IImageList, controls.IImageList, controls.comctl_IImageList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: commoncontrols.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1_3.EnsureCached
 title: EnsureCached function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads image data into caches of image sources if that data is not already cached.
 old-location: direct2d\id2d1imagesourcefromwic_ensurecached_overload.htm
 old-project: Direct2D
 ms.assetid: 9addc82b-7446-1f2c-5666-f817b8b5707d
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: EnsureCached, EnsureCached methods [Direct2D], ID2D1ImageSourceFromWic::EnsureCached, d2d1_3/EnsureCached, direct2d.id2d1imagesourcefromwic_ensurecached_overload
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_3.h
 req.include-header: 

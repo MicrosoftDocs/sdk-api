@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IGetAppTrackerData.GetApplicationsInProcess
 title: IGetAppTrackerData::GetApplicationsInProcess
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves summary information for all COM+ applications hosted in a single process, or for a specified subset of these applications.
 old-location: cos\igetapptrackerdata_getapplicationsinprocess.htm
 old-project: cossdk
 ms.assetid: c193a00f-9899-4c26-9357-22603bb195d1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetApplicationsInProcess, GetApplicationsInProcess method [COM+], GetApplicationsInProcess method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetApplicationsInProcess method, IGetAppTrackerData.GetApplicationsInProcess, IGetAppTrackerData::GetApplicationsInProcess, comsvcs/IGetAppTrackerData::GetApplicationsInProcess, cos.igetapptrackerdata_getapplicationsinprocess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

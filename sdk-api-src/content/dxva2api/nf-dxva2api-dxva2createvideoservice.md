@@ -1,16 +1,16 @@
 ---
 UID: NF:dxva2api.DXVA2CreateVideoService
 title: DXVA2CreateVideoService function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a DirectX Video Acceleration (DXVA) services object.
 old-location: mf\dxva2createvideoservice.htm
 old-project: medfound
 ms.assetid: e62dbacb-f638-4307-ba56-88415d881fc9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVA2CreateVideoService, DXVA2CreateVideoService function [Media Foundation], dxva2api/DXVA2CreateVideoService, e62dbacb-f638-4307-ba56-88415d881fc9, mf.dxva2createvideoservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dxva2api.h
 req.include-header: 

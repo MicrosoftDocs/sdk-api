@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMMapEntryCollection.get_Item
 title: IGPMMapEntryCollection::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Given an index, returns a map entry from the collection.
 old-location: gpmc\igpmmapentrycollection_get_item.htm
 old-project: GPMC
 ms.assetid: d68d4531-bf68-42ac-8055-9e00ce4a2c00
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMMapEntryCollection class [GPMC],Item property, IGPMMapEntryCollection interface [GPMC],Item property, IGPMMapEntryCollection.Item, IGPMMapEntryCollection.get_Item, IGPMMapEntryCollection::Item, IGPMMapEntryCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMMapEntryCollection class, Item property [GPMC],IGPMMapEntryCollection interface, get_Item, gpmc.igpmmapentrycollection_get_item, gpmgmt/IGPMMapEntryCollection::Item, gpmgmt/IGPMMapEntryCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

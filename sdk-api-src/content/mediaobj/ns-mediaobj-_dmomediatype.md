@@ -1,16 +1,16 @@
 ---
 UID: NS:mediaobj._DMOMediaType
 title: "_DMOMediaType"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DMO_MEDIA_TYPE structure describes the format of the data used by a stream in a Microsoft DirectX Media Object (DMO).
 old-location: dshow\dmo_media_type.htm
 old-project: DirectShow
 ms.assetid: c545ddf7-9797-45ab-a42a-d8550b598e98
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DMO_MEDIA_TYPE, DMO_MEDIA_TYPE structure [DirectShow], DMO_MEDIA_TYPEStructure, FORMAT_DvInfo, FORMAT_MPEG2Video, FORMAT_MPEGVideo, FORMAT_None, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, _DMOMediaType, dshow.dmo_media_type, mediaobj/DMO_MEDIA_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mediaobj.h
 req.include-header: 

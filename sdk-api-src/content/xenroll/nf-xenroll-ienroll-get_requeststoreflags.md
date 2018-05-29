@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll.get_RequestStoreFlags
 title: IEnroll::get_RequestStoreFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: The RequestStoreFlags property of IEnroll4 sets or retrieves the registry location used for the request store.
 old-location: security\ienroll4_requeststoreflags.htm
 old-project: SecCrypto
 ms.assetid: 95ed42ed-04ff-482c-954c-a6c9dd9ccd4c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnroll interface [Security],RequestStoreFlags property, IEnroll.RequestStoreFlags, IEnroll.get_RequestStoreFlags, IEnroll::RequestStoreFlags, IEnroll::get_RequestStoreFlags, IEnroll::put_RequestStoreFlags, RequestStoreFlags property [Security], RequestStoreFlags property [Security],IEnroll interface, get_RequestStoreFlags, security.ienroll4_requeststoreflags, xenroll/IEnroll::RequestStoreFlags, xenroll/IEnroll::get_RequestStoreFlags, xenroll/IEnroll::put_RequestStoreFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromHandleBuildCache
 title: IUIAutomation::ElementFromHandleBuildCache
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a UI Automation element for the specified window, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomation_ElementFromHandleBuildCache.htm
 old-project: WinAuto
 ms.assetid: b6c1e03b-7c0e-4dee-b276-bfc7d6247d4e
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ElementFromHandleBuildCache, ElementFromHandleBuildCache method [Windows Accessibility], ElementFromHandleBuildCache method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromHandleBuildCache method, IUIAutomation.ElementFromHandleBuildCache, IUIAutomation::ElementFromHandleBuildCache, uiauto.uiauto_IUIAutomation_ElementFromHandleBuildCache, uiauto_IUIAutomation_ElementFromHandleBuildCache, uiautomationclient/IUIAutomation::ElementFromHandleBuildCache, winauto.uiauto_IUIAutomation_ElementFromHandleBuildCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

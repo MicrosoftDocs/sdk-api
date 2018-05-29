@@ -1,16 +1,16 @@
 ---
 UID: NE:comsvcs.tagCSC_ThreadPool
 title: tagCSC_ThreadPool
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the thread pool in which the work runs that is submitted through the activity returned from CoCreateActivity.
 old-location: cos\csc_threadpool.htm
 old-project: cossdk
 ms.assetid: 5acf5c6b-b015-448b-ad4c-e4361a97c31e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CSC_MTAThreadPool, CSC_STAThreadPool, CSC_ThreadPool, CSC_ThreadPool enumeration [COM+], CSC_ThreadPoolInherit, CSC_ThreadPoolNone, _cos_CSC_ThreadPool, comsvcs/CSC_MTAThreadPool, comsvcs/CSC_STAThreadPool, comsvcs/CSC_ThreadPool, comsvcs/CSC_ThreadPoolInherit, comsvcs/CSC_ThreadPoolNone, cos.csc_threadpool, tagCSC_ThreadPool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 

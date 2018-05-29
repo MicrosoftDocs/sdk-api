@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetString
 title: MI_OperationOptions_GetString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a custom string option.
 old-location: wmi_v2\mi_operationoptions_getstring.htm
 old-project: wmi_v2
 ms.assetid: 1d1b9650-10c3-4e06-a841-6706ecc5f32c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_OperationOptions_GetString, MI_OperationOptions_GetString function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetString, wmi_v2.mi_operationoptions_getstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

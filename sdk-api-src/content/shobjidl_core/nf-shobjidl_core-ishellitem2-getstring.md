@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetString
 title: IShellItem2::GetString
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the string value of a specified property key.
 old-location: shell\IShellItem2_GetString.htm
 old-project: shell
 ms.assetid: 912b3653-340b-4186-b652-53d958534c1d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetString, GetString method [Windows Shell], GetString method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetString method, IShellItem2.GetString, IShellItem2::GetString, _shell_IShellItem2_GetString, shell.IShellItem2_GetString, shobjidl_core/IShellItem2::GetString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

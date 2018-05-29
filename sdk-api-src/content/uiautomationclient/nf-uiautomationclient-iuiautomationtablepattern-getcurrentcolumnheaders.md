@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTablePattern.GetCurrentColumnHeaders
 title: IUIAutomationTablePattern::GetCurrentColumnHeaders
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a collection of UI Automation elements representing all the column headers in a table.
 old-location: winauto\uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders.htm
 old-project: WinAuto
 ms.assetid: 4f31bfa6-0a4a-4cd6-9f5d-2964696d4acd
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetCurrentColumnHeaders, GetCurrentColumnHeaders method [Windows Accessibility], GetCurrentColumnHeaders method [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],GetCurrentColumnHeaders method, IUIAutomationTablePattern.GetCurrentColumnHeaders, IUIAutomationTablePattern::GetCurrentColumnHeaders, uiauto.uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders, uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders, uiautomationclient/IUIAutomationTablePattern::GetCurrentColumnHeaders, winauto.uiauto_IUIAutomationTablePattern_GetCurrentColumnHeaders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:xamlom.IVisualTreeServiceCallback.OnVisualTreeChange
 title: IVisualTreeServiceCallback::OnVisualTreeChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Communicates the state of the visual tree when it changes.
 old-location: xaml_diagnostics\ivisualtreeservicecallback_onvisualtreechange.htm
 old-project: xaml_diagnostics
 ms.assetid: 91D128E7-ECCA-426D-A6D6-773672302C6C
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: IVisualTreeServiceCallback interface,OnVisualTreeChange method, IVisualTreeServiceCallback.OnVisualTreeChange, IVisualTreeServiceCallback::OnVisualTreeChange, OnVisualTreeChange, OnVisualTreeChange method, OnVisualTreeChange method,IVisualTreeServiceCallback interface, xaml_diagnostics.ivisualtreeservicecallback_onvisualtreechange, xamlom/IVisualTreeServiceCallback::OnVisualTreeChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

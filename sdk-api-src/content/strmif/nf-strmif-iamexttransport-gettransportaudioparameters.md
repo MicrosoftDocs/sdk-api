@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetTransportAudioParameters
 title: IAMExtTransport::GetTransportAudioParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTransportAudioParameters method retrieves audio parameter setting for external transport.
 old-location: dshow\iamexttransport_gettransportaudioparameters.htm
 old-project: DirectShow
 ms.assetid: 90650920-f151-4e19-9133-4f1eb5eecbc2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetTransportAudioParameters, GetTransportAudioParameters method [DirectShow], GetTransportAudioParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportAudioParameters method, IAMExtTransport.GetTransportAudioParameters, IAMExtTransport::GetTransportAudioParameters, IAMExtTransportGetTransportAudioParameters, dshow.iamexttransport_gettransportaudioparameters, strmif/IAMExtTransport::GetTransportAudioParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

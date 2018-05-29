@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerCollabInviteEndpoint
 title: PeerCollabInviteEndpoint function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends an invitation to a specified peer endpoint to join the sender's peer collaboration activity. This call is synchronous and, if successful, obtains a response from the peer endpoint.
 old-location: p2p\peercollabinviteendpoint.htm
 old-project: P2PSdk
 ms.assetid: c77eee5b-6fee-4eaa-ac0e-94a0fd3df92e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerCollabInviteEndpoint, PeerCollabInviteEndpoint function [Peer Networking], p2p.peercollabinviteendpoint, p2p/PeerCollabInviteEndpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

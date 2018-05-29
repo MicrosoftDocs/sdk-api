@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMCreateEnablingBitsEncryptor
 title: DRMCreateEnablingBitsEncryptor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an AD RMS encrypting object that is used to encrypt content data.
 old-location: rm\drmcreateenablingbitsencryptor.htm
 old-project: AdRms_Sdk
 ms.assetid: f3875ddd-293e-4abb-b468-a6754bc361a0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMCreateEnablingBitsEncryptor, DRMCreateEnablingBitsEncryptor function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateEnablingBitsEncryptor, rm.drmcreateenablingbitsencryptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_Real32Field
 title: "_MI_Real32Field"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_real32field.htm
 old-project: wmi_v2
 ms.assetid: 817d23f9-cf93-4a19-b33b-713035fc6d96
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Real32Field, MI_Real32Field structure [Windows Management Infrastructure (MI)], _MI_Real32Field, mi/MI_Real32Field, wmi._mi_real32field, wmi_v2.mi_real32field
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

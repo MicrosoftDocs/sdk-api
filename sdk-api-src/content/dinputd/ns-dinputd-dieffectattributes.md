@@ -1,16 +1,16 @@
 ---
 UID: NS:dinputd.DIEFFECTATTRIBUTES
 title: DIEFFECTATTRIBUTES
-author: windows-driver-content
+author: windows-sdk-content
 description: The DIEFFECTATTRIBUTES structure describes the information contained in the &#0034;Attributes&#0034; value of the registry key for each effect that is supported by a force-feedback device.
 old-location: hid\dieffectattributes.htm
 old-project: hid
 ms.assetid: accec45c-de3c-43db-adc9-f878c40c47b0
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPDIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES structure [Human Input Devices], di_ref_49296796-41c7-4b8f-8bc5-59bdeb4df29e.xml, dinputd/DIEFFECTATTRIBUTES, hid.dieffectattributes"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: 

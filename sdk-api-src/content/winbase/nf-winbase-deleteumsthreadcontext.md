@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.DeleteUmsThreadContext
 title: DeleteUmsThreadContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the specified user-mode scheduling (UMS) thread context. The thread must be terminated.
 old-location: base\deleteumsthreadcontext.htm
 old-project: ProcThread
 ms.assetid: cdd118fc-f664-44ce-958d-857216ceb9a7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DeleteUmsThreadContext, DeleteUmsThreadContext function, base.deleteumsthreadcontext, winbase/DeleteUmsThreadContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

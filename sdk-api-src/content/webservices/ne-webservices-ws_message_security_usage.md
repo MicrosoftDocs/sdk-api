@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_MESSAGE_SECURITY_USAGE
 title: WS_MESSAGE_SECURITY_USAGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines how a message security binding attaches the security token corresponding to it to a message using WS-Security mechanisms.
 old-location: wsw\ws_message_security_usage.htm
 old-project: wsw
 ms.assetid: 2f19877f-b79b-43c3-a3f5-93dd2940d499
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_MESSAGE_SECURITY_USAGE, WS_MESSAGE_SECURITY_USAGE enumeration [Web Services for Windows], WS_SUPPORTING_MESSAGE_SECURITY_USAGE, webservices/WS_MESSAGE_SECURITY_USAGE, webservices/WS_SUPPORTING_MESSAGE_SECURITY_USAGE, wsw.ws_message_security_usage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

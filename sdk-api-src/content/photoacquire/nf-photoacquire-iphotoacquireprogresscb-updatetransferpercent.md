@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.UpdateTransferPercent
 title: IPhotoAcquireProgressCB::UpdateTransferPercent
-author: windows-driver-content
+author: windows-sdk-content
 description: The UpdateTransferPercent method provides extended functionality when the percentage of items transferred changes. The application provides the implementation of the UpdateTransferPercent method.
 old-location: picacq\iphotoacquireprogresscb_updatetransferpercent.htm
 old-project: acquisition
 ms.assetid: a868663d-f926-4b29-9e1f-7df4ec36687b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],UpdateTransferPercent method, IPhotoAcquireProgressCB.UpdateTransferPercent, IPhotoAcquireProgressCB::UpdateTransferPercent, IPhotoAcquireProgressCBUpdateTransferPercent, UpdateTransferPercent, UpdateTransferPercent method [Picture Acquisition], UpdateTransferPercent method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::UpdateTransferPercent, picacq.iphotoacquireprogresscb_updatetransferpercent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

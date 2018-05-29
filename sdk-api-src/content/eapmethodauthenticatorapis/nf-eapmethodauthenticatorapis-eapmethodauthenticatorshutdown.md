@@ -1,16 +1,16 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorShutdown
 title: EapMethodAuthenticatorShutdown function
-author: windows-driver-content
+author: windows-sdk-content
 description: Shuts down the EAP authenticator method and prepares to unload it from the server EAPHost.
 old-location: eaphost\eapmethodauthenticatorshutdown.htm
 old-project: EAPHost
 ms.assetid: 7b6f883f-f3ea-48d0-b61c-9056316cd232
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapMethodAuthenticatorShutdown, EapMethodAuthenticatorShutdown function [EAPHost], eaphost.eapmethodauthenticatorshutdown, eapmethodauthenticatorapis/EapMethodAuthenticatorShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 

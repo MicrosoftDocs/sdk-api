@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.RegFlushKey
 title: RegFlushKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes all the attributes of the specified open registry key into the registry.
 old-location: base\regflushkey.htm
 old-project: SysInfo
 ms.assetid: ae1160be-1da7-4621-a0fc-727aa229ec06
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RegFlushKey, RegFlushKey function, _win32_regflushkey, base.regflushkey, winreg/RegFlushKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemprov.IWbemPropertyProvider.GetProperty
 title: IWbemPropertyProvider::GetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemPropertyProvider::GetProperty method is called by Windows Management to retrieve an individual property value.
 old-location: wmi\iwbempropertyprovider_getproperty.htm
 old-project: WmiSdk
 ms.assetid: 6ee0e904-7f4c-4b32-8a90-d727340b481e
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetProperty, GetProperty method [Windows Management Instrumentation], GetProperty method [Windows Management Instrumentation],IWbemPropertyProvider interface, IWbemPropertyProvider interface [Windows Management Instrumentation],GetProperty method, IWbemPropertyProvider.GetProperty, IWbemPropertyProvider::GetProperty, _hmm_iwbempropertyprovider_getproperty, wbemprov/IWbemPropertyProvider::GetProperty, wmi.iwbempropertyprovider_getproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

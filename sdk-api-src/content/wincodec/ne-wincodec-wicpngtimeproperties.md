@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICPngTimeProperties
 title: WICPngTimeProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the Portable Network Graphics (PNG) tIME chunk metadata properties.
 old-location: wic\_wic_codec_wicpngtimeproperties.htm
 old-project: wic
 ms.assetid: 202dc399-0173-4995-af74-09ee71e1dcf1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICPngTimeDay, WICPngTimeHour, WICPngTimeMinute, WICPngTimeMonth, WICPngTimeProperties, WICPngTimeProperties enumeration [Windows Imaging Component], WICPngTimeSecond, WICPngTimeYear, _wic_codec_wicpngtimeproperties, wic._wic_codec_wicpngtimeproperties, wincodec/WICPngTimeDay, wincodec/WICPngTimeHour, wincodec/WICPngTimeMinute, wincodec/WICPngTimeMonth, wincodec/WICPngTimeProperties, wincodec/WICPngTimeSecond, wincodec/WICPngTimeYear
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

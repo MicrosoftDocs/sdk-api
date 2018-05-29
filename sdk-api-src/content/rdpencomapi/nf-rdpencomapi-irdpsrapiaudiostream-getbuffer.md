@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAudioStream.GetBuffer
 title: IRDPSRAPIAudioStream::GetBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets audio data from the buffer.
 old-location: rdp\irdpsrapiaudiostream_getbuffer.htm
 old-project: Rdp
 ms.assetid: 9A155107-1C43-49C2-BA92-4CBF37AEF4DB
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: GetBuffer, GetBuffer method [RDP], GetBuffer method [RDP],IRDPSRAPIAudioStream interface, IRDPSRAPIAudioStream interface [RDP],GetBuffer method, IRDPSRAPIAudioStream.GetBuffer, IRDPSRAPIAudioStream::GetBuffer, rdp.irdpsrapiaudiostream_getbuffer, rdpencomapi/IRDPSRAPIAudioStream::GetBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

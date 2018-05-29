@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IQualityControl.Notify
 title: IQualityControl::Notify
-author: windows-driver-content
+author: windows-sdk-content
 description: The Notify method notifies the filter that a quality change is requested.
 old-location: dshow\iqualitycontrol_notify.htm
 old-project: DirectShow
 ms.assetid: c7a34356-b0b2-49c1-bdc2-d8043fdc2862
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IQualityControl interface [DirectShow],Notify method, IQualityControl.Notify, IQualityControl::Notify, IQualityControlNotify, Notify, Notify method [DirectShow], Notify method [DirectShow],IQualityControl interface, dshow.iqualitycontrol_notify, strmif/IQualityControl::Notify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

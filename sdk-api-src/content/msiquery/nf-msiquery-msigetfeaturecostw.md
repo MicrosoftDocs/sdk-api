@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiGetFeatureCostW
 title: MsiGetFeatureCostW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiGetFeatureCost function returns the disk space required by a feature and its selected children and parent features.
 old-location: setup\msigetfeaturecost.htm
 old-project: Msi
 ms.assetid: 492968a5-d781-45de-a4b2-eb1be3f3f148
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, INSTALLSTATE_UNKNOWN, MSICOSTTREE_CHILDREN, MSICOSTTREE_PARENTS, MSICOSTTREE_SELFONLY, MsiGetFeatureCost, MsiGetFeatureCost function, MsiGetFeatureCostA, MsiGetFeatureCostW, _msi_msigetfeaturecost, msiquery/MsiGetFeatureCost, msiquery/MsiGetFeatureCostA, msiquery/MsiGetFeatureCostW, setup.msigetfeaturecost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

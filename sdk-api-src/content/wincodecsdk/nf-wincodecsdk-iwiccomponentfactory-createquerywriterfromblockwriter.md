@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateQueryWriterFromBlockWriter
 title: IWICComponentFactory::CreateQueryWriterFromBlockWriter
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a IWICMetadataQueryWriter from the given IWICMetadataBlockWriter.
 old-location: wic\_wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter.htm
 old-project: wic
 ms.assetid: 1ad15754-c180-43e0-a307-6ff84f7eebd6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateQueryWriterFromBlockWriter, CreateQueryWriterFromBlockWriter method [Windows Imaging Component], CreateQueryWriterFromBlockWriter method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateQueryWriterFromBlockWriter method, IWICComponentFactory.CreateQueryWriterFromBlockWriter, IWICComponentFactory::CreateQueryWriterFromBlockWriter, _wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter, wic._wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter, wincodecsdk/IWICComponentFactory::CreateQueryWriterFromBlockWriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

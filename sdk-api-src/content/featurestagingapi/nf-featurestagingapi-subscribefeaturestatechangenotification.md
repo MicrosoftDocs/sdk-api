@@ -1,16 +1,16 @@
 ---
 UID: NF:featurestagingapi.SubscribeFeatureStateChangeNotification
 title: SubscribeFeatureStateChangeNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\subscribefeaturestatechangenotification.htm
 old-project: DevNotes
 ms.assetid: 92FABC45-752D-4265-AA21-6A13A15CB64B
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: SubscribeFeatureStateChangeNotification, SubscribeFeatureStateChangeNotification function [Windows API], featurestagingapi/SubscribeFeatureStateChangeNotification, winprog.subscribefeaturestatechangenotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: featurestagingapi.h
 req.include-header: 

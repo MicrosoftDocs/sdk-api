@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ILoadChangeContext.SetRecoverableErrorOnChangeUnit
 title: ILoadChangeContext::SetRecoverableErrorOnChangeUnit
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that a recoverable error occurred when data for the specified change unit was loaded from the item store.
 old-location: winsync\iloadchangecontext_setrecoverableerroronchangeunit.htm
 old-project: winsync
 ms.assetid: 0489a26c-5760-4e41-84c9-45868d27b67c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ILoadChangeContext interface [Windows Sync],SetRecoverableErrorOnChangeUnit method, ILoadChangeContext.SetRecoverableErrorOnChangeUnit, ILoadChangeContext::SetRecoverableErrorOnChangeUnit, SetRecoverableErrorOnChangeUnit, SetRecoverableErrorOnChangeUnit method [Windows Sync], SetRecoverableErrorOnChangeUnit method [Windows Sync],ILoadChangeContext interface, winsync.iloadchangecontext_setrecoverableerroronchangeunit, winsync/ILoadChangeContext::SetRecoverableErrorOnChangeUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

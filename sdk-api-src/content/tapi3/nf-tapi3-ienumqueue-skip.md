@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3.IEnumQueue.Skip
 title: IEnumQueue::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumqueue_skip.htm
 old-project: Tapi
 ms.assetid: 92862b33-ceaf-4b18-b782-bb0352871d34
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumQueue interface [TAPI 2.2],Skip method, IEnumQueue.Skip, IEnumQueue::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumQueue interface, _tapi3_ienumqueue_skip, tapi3.ienumqueue_skip, tapi3cc/IEnumQueue::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

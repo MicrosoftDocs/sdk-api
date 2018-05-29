@@ -1,16 +1,16 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.Initialize
 title: IDeviceModelPlugIn::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Takes a pointer to a Stream that contains the whole device model plug-in as input, and initializes any internal parameters required by the plug-in.
 old-location: wcs\IDeviceModelPlugIn_Initialize.htm
 old-project: WCS
 ms.assetid: ae47dcc5-f771-4586-9086-b4ab1600c1bc
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDeviceModelPlugIn interface [Windows Color System],Initialize method, IDeviceModelPlugIn.Initialize, IDeviceModelPlugIn::Initialize, Initialize, Initialize method [Windows Color System], Initialize method [Windows Color System],IDeviceModelPlugIn interface, _color_IDeviceModelPlugIn::Initialize, wcs.IDeviceModelPlugIn_Initialize, wcsplugin/IDeviceModelPlugIn::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcsplugin.h
 req.include-header: 

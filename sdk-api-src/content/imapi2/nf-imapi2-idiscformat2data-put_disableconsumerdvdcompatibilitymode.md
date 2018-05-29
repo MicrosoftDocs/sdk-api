@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode
 title: IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if a DVD recording session includes tasks that can increase the chance that a device can play the DVD.
 old-location: imapi\idiscformat2data_put_disableconsumerdvdcompatibilitymode.htm
 old-project: imapi
 ms.assetid: d32bbb33-0cb6-46cd-8a06-7ddd6e94a7b3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],put_DisableConsumerDvdCompatibilityMode method, IDiscFormat2Data.put_DisableConsumerDvdCompatibilityMode, IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode, imapi.idiscformat2data_put_disableconsumerdvdcompatibilitymode, imapi2/IDiscFormat2Data::put_DisableConsumerDvdCompatibilityMode, put_DisableConsumerDvdCompatibilityMode, put_DisableConsumerDvdCompatibilityMode method [IMAPI], put_DisableConsumerDvdCompatibilityMode method [IMAPI],IDiscFormat2Data interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

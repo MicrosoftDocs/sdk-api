@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICFormatConverter.CanConvert
 title: IWICFormatConverter::CanConvert
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if the source pixel format can be converted to the destination pixel format.
 old-location: wic\_wic_codec_iwicformatconverter_canconvert.htm
 old-project: wic
 ms.assetid: bf813eaf-0899-4df2-bcc2-ba2db1e9af2f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CanConvert, CanConvert method [Windows Imaging Component], CanConvert method [Windows Imaging Component],IWICFormatConverter interface, IWICFormatConverter interface [Windows Imaging Component],CanConvert method, IWICFormatConverter.CanConvert, IWICFormatConverter::CanConvert, _wic_codec_iwicformatconverter_canconvert, wic._wic_codec_iwicformatconverter_canconvert, wincodec/IWICFormatConverter::CanConvert
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.GetFlags
 title: IMFASFMultiplexer::GetFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves flags indicating the configured multiplexer options.
 old-location: mf\imfasfmultiplexer_getflags.htm
 old-project: medfound
 ms.assetid: b0aeefb5-6996-4abb-b869-855aaa7fcde2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],GetFlags method, IMFASFMultiplexer.GetFlags, IMFASFMultiplexer::GetFlags, b0aeefb5-6996-4abb-b869-855aaa7fcde2, mf.imfasfmultiplexer_getflags, wmcontainer/IMFASFMultiplexer::GetFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

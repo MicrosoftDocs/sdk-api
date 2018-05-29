@@ -1,16 +1,16 @@
 ---
 UID: NN:uiribbon.IUIApplication
 title: IUIApplication
-author: windows-driver-content
+author: windows-sdk-content
 description: The IUIApplication interface is implemented by the application and defines the callback entry-point methods for the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuiapplication.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\iuiapplication.htm
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IUIApplication, IUIApplication interface [Windows Ribbon], IUIApplication interface [Windows Ribbon],described, scenicintent_IUIApplication, uiribbon/IUIApplication, windowsribbon.windowsribbon_iuiapplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 

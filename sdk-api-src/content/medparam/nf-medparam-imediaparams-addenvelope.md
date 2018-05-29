@@ -1,16 +1,16 @@
 ---
 UID: NF:medparam.IMediaParams.AddEnvelope
 title: IMediaParams::AddEnvelope
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddEnvelope method adds an envelope to a parameter.
 old-location: dshow\imediaparams_addenvelope.htm
 old-project: DirectShow
 ms.assetid: acf7c96c-ce0c-40d0-b4a1-dd571fa2a514
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AddEnvelope, AddEnvelope method [DirectShow], AddEnvelope method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],AddEnvelope method, IMediaParams.AddEnvelope, IMediaParams::AddEnvelope, IMediaParamsAddEnvelope, dshow.imediaparams_addenvelope, medparam/IMediaParams::AddEnvelope
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: medparam.h
 req.include-header: 

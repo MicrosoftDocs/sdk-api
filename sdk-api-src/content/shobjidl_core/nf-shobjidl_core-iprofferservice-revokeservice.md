@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IProfferService.RevokeService
 title: IProfferService::RevokeService
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes a service unavailable that had previously been available to other objects through IProfferService::ProfferService.
 old-location: shell\IProfferService_RevokeService.htm
 old-project: shell
 ms.assetid: 90868bbb-6fcd-4de1-a853-524542b74701
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IProfferService interface [Windows Shell],RevokeService method, IProfferService.RevokeService, IProfferService::RevokeService, RevokeService, RevokeService method [Windows Shell], RevokeService method [Windows Shell],IProfferService interface, inet_IProfferService_RevokeService, shell.IProfferService_RevokeService, shobjidl_core/IProfferService::RevokeService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmcontainer.IMFASFContentInfo
 title: IMFASFContentInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to work with the header section of files conforming to the Advanced Systems Format (ASF) specification.
 old-location: mf\imfasfcontentinfo.htm
 old-project: medfound
 ms.assetid: 9f490e6a-f378-45c1-a69d-985c6e884358
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 9f490e6a-f378-45c1-a69d-985c6e884358, IMFASFContentInfo, IMFASFContentInfo interface [Media Foundation], IMFASFContentInfo interface [Media Foundation],described, mf.imfasfcontentinfo, wmcontainer/IMFASFContentInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcontainer.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.PolyBezier
 title: PolyBezier function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PolyBezier function draws one or more B&#233;zier curves.
 old-location: gdi\polybezier.htm
 old-project: gdi
 ms.assetid: d1622574-c65e-4265-9a17-22bb4d2cae0e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PolyBezier, PolyBezier function [Windows GDI], _win32_PolyBezier, gdi.polybezier, wingdi/PolyBezier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

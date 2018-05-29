@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.FolderItems2
 title: FolderItems2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the FolderItems object. It supports one additional method.
 old-location: shell\FolderItems2_Object.htm
 old-project: shell
 ms.assetid: 0ca0efb3-6831-4561-9fd1-6d0b62704931
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FolderItems2, FolderItems2 object [Windows Shell], FolderItems2 object [Windows Shell],described, _win32_FolderItems2_Object, shell.FolderItems2_Object, shldisp/FolderItems2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

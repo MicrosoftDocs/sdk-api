@@ -1,16 +1,16 @@
 ---
 UID: NF:winstring.WindowsConcatString
 title: WindowsConcatString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Concatenates two specified strings.
 old-location: winrt\windowsconcatstring.htm
 old-project: WinRT
 ms.assetid: 916E1FC2-CCA1-4B4E-8710-99D5ECA31ABE
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: WindowsConcatString, WindowsConcatString function [Windows Runtime], winrt.windowsconcatstring, winstring/WindowsConcatString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

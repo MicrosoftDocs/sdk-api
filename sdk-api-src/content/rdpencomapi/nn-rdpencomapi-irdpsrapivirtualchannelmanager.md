@@ -1,16 +1,16 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIVirtualChannelManager
 title: IRDPSRAPIVirtualChannelManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages the list of virtual channels.
 old-location: rdp\irdpsrapivirtualchannelmanager.htm
 old-project: Rdp
 ms.assetid: 750e7d98-196f-4bf2-864b-50b3bef6f6ad
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIVirtualChannelManager, IRDPSRAPIVirtualChannelManager interface [RDP], IRDPSRAPIVirtualChannelManager interface [RDP],described, rdp.irdpsrapivirtualchannelmanager, rdpencomapi/IRDPSRAPIVirtualChannelManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

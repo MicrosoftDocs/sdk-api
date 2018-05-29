@@ -1,16 +1,16 @@
 ---
 UID: NF:lmshare.NetSessionEnum
 title: NetSessionEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information about sessions established on a server.
 old-location: fs\netsessionenum.htm
 old-project: NetShare
 ms.assetid: 5923a8cc-bf7a-4ffa-b089-fd7f26ee42d2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: 0, 1, 10, 2, 502, NetSessionEnum, NetSessionEnum function [Files], _win32_netsessionenum, fs.netsessionenum, lmshare/NetSessionEnum, netmgmt.netsessionenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h

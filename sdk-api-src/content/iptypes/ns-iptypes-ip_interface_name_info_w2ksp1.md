@@ -1,16 +1,16 @@
 ---
 UID: NS:iptypes.ip_interface_name_info_w2ksp1
 title: ip_interface_name_info_w2ksp1
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an IPv4 interface on the local computer.
 old-location: iphlp\ip_interface_name_info.htm
 old-project: IpHlp
 ms.assetid: c113e97d-6f41-490a-a872-20d662fd763b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PIP_INTERFACE_NAME_INFO, *PIP_INTERFACE_NAME_INFO_W2KSP1, IF_ACCESS_BROADCAST, IF_ACCESS_LOOPBACK, IF_ACCESS_POINT_TO_MULTI_POINT, IF_ACCESS_POINT_TO_POINT, IF_CONNECTION_DEDICATED, IF_CONNECTION_DEMAND, IF_CONNECTION_PASSIVE, IF_TYPE_ATM, IF_TYPE_ETHERNET_CSMACD, IF_TYPE_IEEE1394, IF_TYPE_IEEE80211, IF_TYPE_ISO88025_TOKENRING, IF_TYPE_OTHER, IF_TYPE_PPP, IF_TYPE_SOFTWARE_LOOPBACK, IF_TYPE_TUNNEL, IP_INTERFACE_NAME_INFO, IP_INTERFACE_NAME_INFO structure [IP Helper], IP_INTERFACE_NAME_INFO_W2KSP1, ip_interface_name_info_w2ksp1, iphlp.ip_interface_name_info, iptypes/IP_INTERFACE_NAME_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h

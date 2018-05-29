@@ -1,16 +1,16 @@
 ---
 UID: NS:rtmv2._RTM_ENTITY_METHOD_INPUT
 title: "_RTM_ENTITY_METHOD_INPUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RTM_ENTITY_METHOD_INPUT structure is used to pass information to a client when invoking its method.
 old-location: rras\rtm_entity_method_input.htm
 old-project: RRAS
 ms.assetid: 1f900e85-c522-47c9-bfc8-5a1c1d01ab78
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PRTM_ENTITY_METHOD_INPUT, PRTM_ENTITY_METHOD_INPUT, PRTM_ENTITY_METHOD_INPUT structure pointer [RAS], RTM_ENTITY_METHOD_INPUT, RTM_ENTITY_METHOD_INPUT structure [RAS], _RTM_ENTITY_METHOD_INPUT, _rtmv2ref_rtm_entity_method_input, rras.rtm_entity_method_input, rtmv2/PRTM_ENTITY_METHOD_INPUT, rtmv2/RTM_ENTITY_METHOD_INPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rtmv2.h
 req.include-header: 

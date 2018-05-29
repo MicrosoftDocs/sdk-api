@@ -1,16 +1,16 @@
 ---
 UID: NF:videoacc.IAMVideoAcceleratorNotify.GetCreateVideoAcceleratorData
 title: IAMVideoAcceleratorNotify::GetCreateVideoAcceleratorData
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCreateVideoAcceleratorData method gets information needed to create a video accelerator object.
 old-location: dshow\iamvideoacceleratornotify_getcreatevideoacceleratordata.htm
 old-project: DirectShow
 ms.assetid: 72e3331d-1e54-4ec7-9972-7e39eaf2707d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCreateVideoAcceleratorData, GetCreateVideoAcceleratorData method [DirectShow], GetCreateVideoAcceleratorData method [DirectShow],IAMVideoAcceleratorNotify interface, IAMVideoAcceleratorNotify interface [DirectShow],GetCreateVideoAcceleratorData method, IAMVideoAcceleratorNotify.GetCreateVideoAcceleratorData, IAMVideoAcceleratorNotify::GetCreateVideoAcceleratorData, IAMVideoAcceleratorNotifyGetCreateVideoAcceleratorData, dshow.iamvideoacceleratornotify_getcreatevideoacceleratordata, videoacc/IAMVideoAcceleratorNotify::GetCreateVideoAcceleratorData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 

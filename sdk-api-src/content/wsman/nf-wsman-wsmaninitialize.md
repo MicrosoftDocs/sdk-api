@@ -1,16 +1,16 @@
 ---
 UID: NF:wsman.WSManInitialize
 title: WSManInitialize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the Windows Remote Management Client API.
 old-location: winrm\wsmaninitialize.htm
 old-project: WinRM
 ms.assetid: 5aa1f451-0d12-4079-9477-1971fc084df2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSManInitialize, WSManInitialize function [Windows Remote Management], winrm.wsmaninitialize, wsman/WSManInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

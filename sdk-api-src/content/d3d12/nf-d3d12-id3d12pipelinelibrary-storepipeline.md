@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12PipelineLibrary.StorePipeline
 title: ID3D12PipelineLibrary::StorePipeline
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the input PSO to an internal database with the corresponding name.
 old-location: direct3d12\id3d12pipelinelibrary_storepipeline.htm
 old-project: direct3d12
 ms.assetid: A7847966-4B31-47EA-A5CB-B6576CD2501F
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12PipelineLibrary interface,StorePipeline method, ID3D12PipelineLibrary.StorePipeline, ID3D12PipelineLibrary::StorePipeline, StorePipeline, StorePipeline method, StorePipeline method,ID3D12PipelineLibrary interface, d3d12/ID3D12PipelineLibrary::StorePipeline, direct3d12.id3d12pipelinelibrary_storepipeline
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rasshost.RasSecurityDialogEnd
 title: RasSecurityDialogEnd function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasSecurityDialogEnd function is a third-party RAS security DLL entry point that the RAS server calls to terminate an authentication transaction.
 old-location: rras\rassecuritydialogend.htm
 old-project: RRAS
 ms.assetid: 52274d37-baed-4ab9-8019-123ae7c5b0fc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasSecurityDialogEnd, RasSecurityDialogEnd callback, RasSecurityDialogEnd callback function [RAS], _ras_rassecuritydialogend, rasshost/RasSecurityDialogEnd, rras.rassecuritydialogend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rasshost.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsBindingSetTimeout
 title: DsBindingSetTimeout function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DsBindingSetTimeout function sets the timeout value that is honored by all RPC calls that use the specified binding handle. RPC calls that required more time than the timeout value are canceled.
 old-location: ad\dsbindingsettimeout.htm
 old-project: AD
 ms.assetid: abdaae89-fba3-4949-92a9-acd62898ec24
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsBindingSetTimeout, DsBindingSetTimeout function [Active Directory], ad.dsbindingsettimeout, ntdsapi/DsBindingSetTimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

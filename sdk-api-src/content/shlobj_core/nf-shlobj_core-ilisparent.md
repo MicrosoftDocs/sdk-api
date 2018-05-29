@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.ILIsParent
 title: ILIsParent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Tests whether an ITEMIDLIST structure is the parent of another ITEMIDLIST structure.
 old-location: shell\ILIsParent.htm
 old-project: shell
 ms.assetid: 638df20b-aa7e-4557-abda-d36b58853aa1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ILIsParent, ILIsParent function [Windows Shell], _win32_ILIsParent, shell.ILIsParent, shlobj_core/ILIsParent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

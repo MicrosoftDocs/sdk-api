@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.Item
 title: IInkExtendedProperties::Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IInkExtendedProperty object at the specified index within the IInkExtendedProperties collection.
 old-location: tablet\iinkextendedproperties_item.htm
 old-project: tablet
 ms.assetid: 0355d9db-4456-4051-b611-dcb63657a0c7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 0355d9db-4456-4051-b611-dcb63657a0c7, IInkExtendedProperties interface [Tablet PC],Item method, IInkExtendedProperties.Item, IInkExtendedProperties::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkExtendedProperties interface, msinkaut/IInkExtendedProperties::Item, tablet.iinkextendedproperties_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

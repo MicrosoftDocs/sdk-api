@@ -1,16 +1,16 @@
 ---
 UID: NF:certif.ICertServerExit.GetCertificateExtensionFlags
 title: ICertServerExit::GetCertificateExtensionFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the flags from the extension acquired by the most recent call to ICertServerExit::GetCertificateExtension.
 old-location: security\icertserverexit_getcertificateextensionflags.htm
 old-project: SecCrypto
 ms.assetid: 0eee1d67-116b-4f93-9273-b70d50fa2c5d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertServerExit object [Security],GetCertificateExtensionFlags method, GetCertificateExtensionFlags, GetCertificateExtensionFlags method [Security], GetCertificateExtensionFlags method [Security],CCertServerExit object, GetCertificateExtensionFlags method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateExtensionFlags method, ICertServerExit.GetCertificateExtensionFlags, ICertServerExit::GetCertificateExtensionFlags, _certsrv_icertserverexit_getcertificateextensionflags, certif/ICertServerExit::GetCertificateExtensionFlags, security.icertserverexit_getcertificateextensionflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wia_xp.IWiaEventCallback
 title: IWiaEventCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWiaEventCallback interface is used by applications to receive notification of Windows Image Acquisition (WIA) hardware device events.
 old-location: wia\_wia_IWiaEventCallback.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaeventcallback\iwiaeventcallback.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IWiaEventCallback, IWiaEventCallback interface [WIA], IWiaEventCallback interface [WIA],described, _wia_IWiaEventCallback, wia._wia_IWiaEventCallback, wia_xp/IWiaEventCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h

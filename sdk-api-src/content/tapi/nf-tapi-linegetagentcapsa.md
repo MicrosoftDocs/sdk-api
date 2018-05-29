@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineGetAgentCapsA
 title: lineGetAgentCapsA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineGetAgentCaps function obtains the agent-related capabilities supported on the specified line device. If a specific agent is named, the capabilities include a listing of ACD groups into which the agent is permitted to log in.
 old-location: tapi2\linegetagentcaps.htm
 old-project: Tapi
 ms.assetid: 04bb6c00-2654-4707-ab11-2490ab5d9ab0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linegetagentcaps, lineGetAgentCaps, lineGetAgentCaps function [TAPI 2.2], lineGetAgentCapsA, lineGetAgentCapsW, tapi/lineGetAgentCaps, tapi/lineGetAgentCapsA, tapi/lineGetAgentCapsW, tapi2.linegetagentcaps"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

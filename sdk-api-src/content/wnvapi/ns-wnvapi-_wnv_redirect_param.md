@@ -1,16 +1,16 @@
 ---
 UID: NS:wnvapi._WNV_REDIRECT_PARAM
 title: "_WNV_REDIRECT_PARAM"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the parameters of the event (receiving an incoming Internet Control Message Protocol redirect packet) that causes the Windows Network Virtualization (WNV) driver to generate a WnvRedirectType notification.
 old-location: wnv\wnv_redirect_param.htm
 old-project: wnv
 ms.assetid: 53305594-4539-490E-B034-99355265F175
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM, PWNV_REDIRECT_PARAM structure pointer [Windows Network Virtualization], WNV_REDIRECT_PARAM, WNV_REDIRECT_PARAM structure [Windows Network Virtualization], _WNV_REDIRECT_PARAM, wnv.wnv_redirect_param, wnvapi/PWNV_REDIRECT_PARAM, wnvapi/WNV_REDIRECT_PARAM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wnvapi.h
 req.include-header: 

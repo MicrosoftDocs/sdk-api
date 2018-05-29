@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IDeviceSpecificProperty.GetValue
 title: IDeviceSpecificProperty::GetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetValue method gets the current value of the device-specific property.
 old-location: coreaudio\idevicespecificproperty_getvalue.htm
 old-project: CoreAudio
 ms.assetid: 07608b42-972c-4d5a-9e1c-5d9060f16644
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetValue, GetValue method [Core Audio], GetValue method [Core Audio],IDeviceSpecificProperty interface, IDeviceSpecificProperty interface [Core Audio],GetValue method, IDeviceSpecificProperty.GetValue, IDeviceSpecificProperty::GetValue, IDeviceSpecificPropertyGetValue, coreaudio.idevicespecificproperty_getvalue, devicetopology/IDeviceSpecificProperty::GetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

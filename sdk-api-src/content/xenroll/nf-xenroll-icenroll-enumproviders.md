@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.ICEnroll.enumProviders
 title: ICEnroll::enumProviders
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the names of the available cryptographic service providers (CSPs) specified by the ProviderType property. This method was first defined in the ICEnroll interface.
 old-location: security\icenroll4_enumproviders.htm
 old-project: SecCrypto
 ms.assetid: 05188aee-2b03-46bc-89f4-506a019496a4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CEnroll object [Security],enumProviders method, ICEnroll interface [Security],enumProviders method, ICEnroll.enumProviders, ICEnroll2 interface [Security],enumProviders method, ICEnroll2::enumProviders, ICEnroll3 interface [Security],enumProviders method, ICEnroll3::enumProviders, ICEnroll4 interface [Security],enumProviders method, ICEnroll4::enumProviders, ICEnroll::enumProviders, enumProviders, enumProviders method [Security], enumProviders method [Security],CEnroll object, enumProviders method [Security],ICEnroll interface, enumProviders method [Security],ICEnroll2 interface, enumProviders method [Security],ICEnroll3 interface, enumProviders method [Security],ICEnroll4 interface, security.icenroll4_enumproviders, xenroll/ICEnroll2::enumProviders, xenroll/ICEnroll3::enumProviders, xenroll/ICEnroll4::enumProviders, xenroll/ICEnroll::enumProviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

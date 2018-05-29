@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptGetProperty
 title: BCryptGetProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of a named property for a CNG object.
 old-location: security\bcryptgetproperty_func.htm
 old-project: SecCNG
 ms.assetid: 5c62ca3a-843e-41a7-9340-41785fbb15f4
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptGetProperty, BCryptGetProperty function [Security], bcrypt/BCryptGetProperty, security.bcryptgetproperty_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

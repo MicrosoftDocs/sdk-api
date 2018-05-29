@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertIsValidCRLForCertificate
 title: CertIsValidCRLForCertificate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertIsValidCRLForCertificate function checks a CRL to find out if it is a CRL that would include a specific certificate if that certificate were revoked.
 old-location: security\certisvalidcrlforcertificate.htm
 old-project: SecCrypto
 ms.assetid: 06047b7a-4bdd-42f9-bb85-49b6ec6f35a0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertIsValidCRLForCertificate, CertIsValidCRLForCertificate function [Security], _crypto2_certisvalidcrlforcertificate, security.certisvalidcrlforcertificate, wincrypt/CertIsValidCRLForCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

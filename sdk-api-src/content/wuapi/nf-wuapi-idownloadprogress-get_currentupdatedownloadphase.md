@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IDownloadProgress.get_CurrentUpdateDownloadPhase
 title: IDownloadProgress::get_CurrentUpdateDownloadPhase
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a DownloadPhase enumeration value that specifies the phase of the download that is currently in progress.
 old-location: wua\idownloadprogress_currentupdatedownloadphase.htm
 old-project: Wua_Sdk
 ms.assetid: 5c94b0e9-c137-4677-a014-b8467a8049e5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CurrentUpdateDownloadPhase property [Windows Update Agent], CurrentUpdateDownloadPhase property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdateDownloadPhase property, IDownloadProgress.CurrentUpdateDownloadPhase, IDownloadProgress.get_CurrentUpdateDownloadPhase, IDownloadProgress::CurrentUpdateDownloadPhase, IDownloadProgress::get_CurrentUpdateDownloadPhase, get_CurrentUpdateDownloadPhase, wua.idownloadprogress_currentupdatedownloadphase, wuapi/IDownloadProgress::CurrentUpdateDownloadPhase, wuapi/IDownloadProgress::get_CurrentUpdateDownloadPhase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

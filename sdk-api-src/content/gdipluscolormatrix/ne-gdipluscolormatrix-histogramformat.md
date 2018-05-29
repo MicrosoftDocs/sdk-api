@@ -1,16 +1,16 @@
 ---
 UID: NE:gdipluscolormatrix.HistogramFormat
 title: HistogramFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: The HistogramFormat enumeration specifies the number and type of histograms that represent the color channels of a bitmap. This enumeration is used with the Bitmap::GetHistogram method.
 old-location: gdiplus\_gdiplus_ENUM_HistogramFormat.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\histogramformat.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HistogramFormat, HistogramFormat enumeration [GDI+], HistogramFormatA, HistogramFormatARGB, HistogramFormatB, HistogramFormatG, HistogramFormatGray, HistogramFormatPARGB, HistogramFormatR, HistogramFormatRGB, _gdiplus_ENUM_HistogramFormat, gdiplus._gdiplus_ENUM_HistogramFormat, gdipluscolormatrix/HistogramFormat, gdipluscolormatrix/HistogramFormatA, gdipluscolormatrix/HistogramFormatARGB, gdipluscolormatrix/HistogramFormatB, gdipluscolormatrix/HistogramFormatG, gdipluscolormatrix/HistogramFormatGray, gdipluscolormatrix/HistogramFormatPARGB, gdipluscolormatrix/HistogramFormatR, gdipluscolormatrix/HistogramFormatRGB
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdipluscolormatrix.h
 req.include-header: Gdiplus.h

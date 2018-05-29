@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.SetTargetSessionId
 title: IPackageDebugSettings::SetTargetSessionId
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the session identifier.
 old-location: shell\IPackageDebugSettings_SetTargetSessionId.htm
 old-project: shell
 ms.assetid: a7794703-08ff-40a8-8807-a09e35a4bb8f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPackageDebugSettings interface [Windows Shell],SetTargetSessionId method, IPackageDebugSettings.SetTargetSessionId, IPackageDebugSettings::SetTargetSessionId, SetTargetSessionId, SetTargetSessionId method [Windows Shell], SetTargetSessionId method [Windows Shell],IPackageDebugSettings interface, shell.IPackageDebugSettings_SetTargetSessionId, shobjidl_core/IPackageDebugSettings::SetTargetSessionId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 

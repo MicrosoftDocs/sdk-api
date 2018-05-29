@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.INetSharingManager.get_SharingInstalled
 title: INetSharingManager::get_SharingInstalled
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports whether the currently-installed version of Windows XP supports connection sharing.
 old-location: ics\inetsharingmanager_get_sharinginstalled.htm
 old-project: ICS
 ms.assetid: 7cf705dd-41c3-4ac7-a75f-5677a7b49645
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_SharingInstalled method, INetSharingManager.get_SharingInstalled, INetSharingManager::get_SharingInstalled, _ics_inetsharingmanager_get_sharinginstalled, get_SharingInstalled, get_SharingInstalled method [ICS/ICF], get_SharingInstalled method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_sharinginstalled, netcon/INetSharingManager::get_SharingInstalled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

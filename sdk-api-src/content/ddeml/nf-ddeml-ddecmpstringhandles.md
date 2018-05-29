@@ -1,16 +1,16 @@
 ---
 UID: NF:ddeml.DdeCmpStringHandles
 title: DdeCmpStringHandles function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares the values of two string handles. The value of a string handle is not related to the case of the associated string.
 old-location: dataxchg\ddecmpstringhandles.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddecmpstringhandles.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DdeCmpStringHandles, DdeCmpStringHandles function [Data Exchange], _win32_DdeCmpStringHandles, _win32_ddecmpstringhandles_cpp, dataxchg.ddecmpstringhandles, ddeml/DdeCmpStringHandles, winui._win32_ddecmpstringhandles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h

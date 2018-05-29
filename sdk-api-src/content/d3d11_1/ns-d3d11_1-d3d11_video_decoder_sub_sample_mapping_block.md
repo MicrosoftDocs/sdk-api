@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11_1.D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK
 title: D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a sub sample mapping block.
 old-location: mf\d3d11_video_decoder_sub_sample_mapping_block.htm
 old-project: medfound
 ms.assetid: 82EC2598-60FB-4800-A001-0CCC2D0D529E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK, D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK structure [Media Foundation], d3d11_1/D3D11_VIDEO_DECODER_SUB_SAMPLE_MAPPING_BLOCK, mf.d3d11_video_decoder_sub_sample_mapping_block
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_1.h
 req.include-header: 

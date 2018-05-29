@@ -1,16 +1,16 @@
 ---
 UID: NS:xapofx.FXEQ_PARAMETERS
 title: FXEQ_PARAMETERS
-author: windows-driver-content
+author: windows-sdk-content
 description: Parameters for use with the FXEQ XAPO.
 old-location: xaudio2\fxeq_parameters.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXEQ_PARAMETERS
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: FXEQ_PARAMETERS, FXEQ_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXEQ_PARAMETERS, xaudio2.fxeq_parameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xapofx.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadSession.SetServer
 title: IMFHttpDownloadSession::SetServer
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by Microsoft Media Foundation to specify parameters common to all requests created by this instance of IMFHttpDownloadSession.
 old-location: mf\imfhttpdownloadsession_setserver.htm
 old-project: medfound
 ms.assetid: 408D4863-D95F-4BBD-9F0B-9796ED08A256
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFHttpDownloadSession interface [Media Foundation],SetServer method, IMFHttpDownloadSession.SetServer, IMFHttpDownloadSession::SetServer, SetServer, SetServer method [Media Foundation], SetServer method [Media Foundation],IMFHttpDownloadSession interface, mf.imfhttpdownloadsession_setserver, mfidl/IMFHttpDownloadSession::SetServer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

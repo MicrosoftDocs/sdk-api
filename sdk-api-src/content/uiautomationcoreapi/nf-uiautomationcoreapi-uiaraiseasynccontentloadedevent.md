@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseAsyncContentLoadedEvent
 title: UiaRaiseAsyncContentLoadedEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by a provider to notify the Microsoft UI Automation core that content is being loaded asynchronously.
 old-location: winauto\uiauto_UiaRaiseAsyncContentLoadedEventFunction.htm
 old-project: WinAuto
 ms.assetid: 19047933-40c4-4ddb-aa95-af5cfeec44b6
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaRaiseAsyncContentLoadedEvent, UiaRaiseAsyncContentLoadedEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseAsyncContentLoadedEventFunction, uiauto_UiaRaiseAsyncContentLoadedEventFunction, uiautomationcoreapi/UiaRaiseAsyncContentLoadedEvent, winauto.uiauto_UiaRaiseAsyncContentLoadedEventFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

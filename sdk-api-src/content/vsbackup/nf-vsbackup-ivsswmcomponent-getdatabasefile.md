@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssWMComponent.GetDatabaseFile
 title: IVssWMComponent::GetDatabaseFile
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDatabaseFile method obtains an IVssWMFiledesc object containing information about the specified database backup component file.
 old-location: base\ivsswmcomponent_getdatabasefile.htm
 old-project: VSS
 ms.assetid: adb2d6f7-592c-403d-92c0-6b99e2180a6b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDatabaseFile, GetDatabaseFile method [VSS], GetDatabaseFile method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetDatabaseFile method, IVssWMComponent.GetDatabaseFile, IVssWMComponent::GetDatabaseFile, _win32_ivsswmcomponent_getdatabasefile, base.ivsswmcomponent_getdatabasefile, vsbackup/IVssWMComponent::GetDatabaseFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPSettings.get_playCount
 title: IWMPSettings::get_playCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_playCount method retrieves the number of times a media item will play.
 old-location: wmp\iwmpsettings_get_playcount.htm
 old-project: WMP
 ms.assetid: 492eb07a-f757-47ce-8474-1edfeb49e55f
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_playCount method, IWMPSettings.get_playCount, IWMPSettings::get_playCount, IWMPSettingsget_playCount, get_playCount, get_playCount method [Windows Media Player], get_playCount method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_playcount, wmp/IWMPSettings::get_playCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

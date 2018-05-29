@@ -1,16 +1,16 @@
 ---
 UID: NF:lmremutl.NetRemoteTOD
 title: NetRemoteTOD function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetRemoteTOD function returns the time of day information from a specified server.
 old-location: netmgmt\netremotetod.htm
 old-project: NetMgmt
 ms.assetid: 5a935e09-f188-4ee1-b998-c67488475baa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetRemoteTOD, NetRemoteTOD function [Network Management], _win32_netremotetod, lmremutl/NetRemoteTOD, netmgmt.netremotetod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmremutl.h
 req.include-header: Lm.h

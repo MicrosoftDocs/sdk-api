@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPCore.get_playlistCollection
 title: IWMPCore::get_playlistCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_playlistCollection method retrieves a pointer to an IWMPPlaylistCollection interface.
 old-location: wmp\iwmpcore_get_playlistcollection.htm
 old-project: WMP
 ms.assetid: 8f6ab34f-e055-4a18-b1b8-e3c7b8f9c76a
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_playlistCollection method, IWMPCore.get_playlistCollection, IWMPCore::get_playlistCollection, IWMPCoreget_playlistCollection, get_playlistCollection, get_playlistCollection method [Windows Media Player], get_playlistCollection method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_playlistcollection, wmp/IWMPCore::get_playlistCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

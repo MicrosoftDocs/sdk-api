@@ -1,16 +1,16 @@
 ---
 UID: NF:oledlg.OleUIBusyA
 title: OleUIBusyA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Invokes the standard Busy dialog box, allowing the user to manage concurrency.
 old-location: com\oleuibusy.htm
 old-project: com
 ms.assetid: 317f0dbf-7ac9-4e5a-a5ed-e6b807f07fb2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleUIBusy, OleUIBusy function [COM], OleUIBusyA, OleUIBusyW, _ole_OleUIBusy, com.oleuibusy, oledlg/OleUIBusy, oledlg/OleUIBusyA, oledlg/OleUIBusyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 

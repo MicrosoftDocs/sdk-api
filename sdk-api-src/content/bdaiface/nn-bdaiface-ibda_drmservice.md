@@ -1,16 +1,16 @@
 ---
 UID: NN:bdaiface.IBDA_DRMService
 title: IBDA_DRMService
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to a device's Digital Rights Management (DRM) Service.
 old-location: mstv\ibda_drmservice.htm
 old-project: mstv
 ms.assetid: bd06118c-ea1b-46e4-b499-67039430a52e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_DRMService, IBDA_DRMService interface [Microsoft TV Technologies], IBDA_DRMService interface [Microsoft TV Technologies],described, bdaiface/IBDA_DRMService, mstv.ibda_drmservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

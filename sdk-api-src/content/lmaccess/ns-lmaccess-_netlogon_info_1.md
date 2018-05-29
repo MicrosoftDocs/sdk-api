@@ -1,16 +1,16 @@
 ---
 UID: NS:lmaccess._NETLOGON_INFO_1
 title: "_NETLOGON_INFO_1"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a level-1 control query response from a domain controller.
 old-location: winprog\netlogon_info_1.htm
 old-project: DevNotes
 ms.assetid: 053e937a-c7a9-4b8f-9312-32c82b705c08
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PNETLOGON_INFO_1, NETLOGON_DNS_UPDATE_FAILURE, NETLOGON_FULL_SYNC_REPLICATION, NETLOGON_HAS_IP, NETLOGON_HAS_TIMESERV, NETLOGON_INFO_1, NETLOGON_INFO_1 structure [Windows API], NETLOGON_REDO_NEEDED, NETLOGON_REPLICATION_IN_PROGRESS, NETLOGON_REPLICATION_NEEDED, PNETLOGON_INFO_1, PNETLOGON_INFO_1 structure pointer [Windows API], _NETLOGON_INFO_1, lmaccess/NETLOGON_INFO_1, lmaccess/PNETLOGON_INFO_1, winprog.netlogon_info_1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: 

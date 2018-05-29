@@ -1,16 +1,16 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1515
 title: "_SERVER_INFO_1515"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SERVER_INFO_1515 structure specifies whether the server should force a client to disconnect once the client's logon time has expired.
 old-location: netmgmt\server_info_1515_str.htm
 old-project: NetMgmt
 ms.assetid: f9aa8580-47c6-4e3e-9e34-dc90cd5178ce
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPSERVER_INFO_1515, *PSERVER_INFO_1515, LPSERVER_INFO_1515, LPSERVER_INFO_1515 structure pointer [Network Management], PSERVER_INFO_1515, PSERVER_INFO_1515 structure pointer [Network Management], SERVER_INFO_1515, SERVER_INFO_1515 structure [Network Management], _SERVER_INFO_1515, _win32_server_info_1515_str, lmserver/LPSERVER_INFO_1515, lmserver/PSERVER_INFO_1515, lmserver/SERVER_INFO_1515, netmgmt.server_info_1515_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h

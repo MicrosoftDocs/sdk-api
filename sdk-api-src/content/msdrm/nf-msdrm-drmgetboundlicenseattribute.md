@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMGetBoundLicenseAttribute
 title: DRMGetBoundLicenseAttribute function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a bound license attribute from the license XrML.
 old-location: rm\drmgetboundlicenseattribute.htm
 old-project: AdRms_Sdk
 ms.assetid: 715fb3e6-6b1e-4136-9c25-efcde2015d6f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMGetBoundLicenseAttribute, DRMGetBoundLicenseAttribute function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetBoundLicenseAttribute, rm.drmgetboundlicenseattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

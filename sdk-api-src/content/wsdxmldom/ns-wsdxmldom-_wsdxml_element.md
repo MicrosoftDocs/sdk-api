@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdxmldom._WSDXML_ELEMENT
 title: "_WSDXML_ELEMENT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an XML element.
 old-location: ncd\wsdxml_element_struct.htm
 old-project: WsdApi
 ms.assetid: 727149b4-31b0-4fd8-b0fa-eb773edb171e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDXML_ELEMENT, WSDXML_ELEMENT structure, _WSDXML_ELEMENT, ncd.wsdxml_element_struct, wsdxmldom/WSDXML_ELEMENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdxmldom.h
 req.include-header: 

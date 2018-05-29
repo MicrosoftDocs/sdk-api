@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagPOINTFX
 title: tagPOINTFX
-author: windows-driver-content
+author: windows-sdk-content
 description: The POINTFX structure contains the coordinates of points that describe the outline of a character in a TrueType font.
 old-location: gdi\pointfx.htm
 old-project: gdi
 ms.assetid: a8736c6c-7944-42ed-811c-308f41f1ab2f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPPOINTFX, LPPOINTFX, LPPOINTFX structure pointer [Windows GDI], POINTFX, POINTFX structure [Windows GDI], _win32_POINTFX_str, gdi.pointfx, tagPOINTFX, wingdi/LPPOINTFX, wingdi/POINTFX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

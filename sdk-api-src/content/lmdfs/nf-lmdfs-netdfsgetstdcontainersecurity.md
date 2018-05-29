@@ -1,16 +1,16 @@
 ---
 UID: NF:lmdfs.NetDfsGetStdContainerSecurity
 title: NetDfsGetStdContainerSecurity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the security descriptor for the container object of the specified stand-alone DFS namespace.
 old-location: dfs\netdfsgetstdcontainersecurity.htm
 old-project: Dfs
 ms.assetid: 63ad610e-c66f-4fad-b3b6-2ee15e90a723
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: NetDfsGetStdContainerSecurity, NetDfsGetStdContainerSecurity function [Distributed File System], dfs.netdfsgetstdcontainersecurity, fs.netdfsgetstdcontainersecurity, lmdfs/NetDfsGetStdContainerSecurity, netmgmt.netdfsgetstdcontainersecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

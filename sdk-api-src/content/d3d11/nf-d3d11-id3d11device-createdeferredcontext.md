@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateDeferredContext
 title: ID3D11Device::CreateDeferredContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a deferred context, which can record command lists.
 old-location: direct3d11\id3d11device_createdeferredcontext.htm
 old-project: direct3d11
 ms.assetid: fbf01844-eaf1-4360-833e-c95ba686fff5
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: CreateDeferredContext, CreateDeferredContext method [Direct3D 11], CreateDeferredContext method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateDeferredContext method, ID3D11Device.CreateDeferredContext, ID3D11Device::CreateDeferredContext, ad59e9e8-de25-e887-81b2-63e050b34473, d3d11/ID3D11Device::CreateDeferredContext, direct3d11.id3d11device_createdeferredcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dciman.DCIOpenProvider
 title: DCIOpenProvider function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains a device context handle of display.
 old-location: winprog\_dciman_dciopenprovider.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dciopenprovider.htm
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: DCIOpenProvider, DCIOpenProvider function [Windows API], _dciman_dciopenprovider, dciman/DCIOpenProvider, winprog._dciman_dciopenprovider, winui._dciman_dciopenprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dciman.h
 req.include-header: 

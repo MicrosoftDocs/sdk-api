@@ -1,16 +1,16 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCP_OPTION
 title: tagPXE_DHCP_OPTION
-author: windows-driver-content
+author: windows-sdk-content
 description: The PXE_DHCP_OPTION structure can be used with the Windows Deployment Services PXE Server API.
 old-location: wds\pxe_dhcp_option.htm
 old-project: Wds
 ms.assetid: 3acc7641-07aa-4a95-a31c-74b48a749f5a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PPXE_DHCP_OPTION, PPXE_DHCP_OPTION, PPXE_DHCP_OPTION structure pointer [Windows Deployment Services], PXE_DHCP_OPTION, PXE_DHCP_OPTION structure [Windows Deployment Services], tagPXE_DHCP_OPTION, wds.pxe_dhcp_option, wdspxe/PPXE_DHCP_OPTION, wdspxe/PXE_DHCP_OPTION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wdspxe.h
 req.include-header: 

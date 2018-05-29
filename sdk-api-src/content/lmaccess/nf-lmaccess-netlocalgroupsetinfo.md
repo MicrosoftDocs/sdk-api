@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetLocalGroupSetInfo
 title: NetLocalGroupSetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetLocalGroupSetInfo function changes the name of an existing local group. The function also associates a comment with a local group.
 old-location: netmgmt\netlocalgroupsetinfo.htm
 old-project: NetMgmt
 ms.assetid: c1d2a68b-0910-4815-9547-0f0f3c983164
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0, 1, 1002, NetLocalGroupSetInfo, NetLocalGroupSetInfo function [Network Management], _win32_netlocalgroupsetinfo, lmaccess/NetLocalGroupSetInfo, netmgmt.netlocalgroupsetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

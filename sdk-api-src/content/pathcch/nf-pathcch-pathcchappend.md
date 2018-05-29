@@ -1,16 +1,16 @@
 ---
 UID: NF:pathcch.PathCchAppend
 title: PathCchAppend function
-author: windows-driver-content
+author: windows-sdk-content
 description: Appends one path to the end of another.This function differs from PathCchAppendEx in that you are restricted to a final path of length MAX_PATH.This function differs from PathAppend in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchAppend.htm
 old-project: shell
 ms.assetid: b64884ad-15c7-495e-8037-34daf68f8cf7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathCchAppend, PathCchAppend function [Windows Shell], pathcch/PathCchAppend, shell.PathCchAppend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:msclus.CLUSTER_CHANGE_QUORUM_V2
 title: CLUSTER_CHANGE_QUORUM_V2
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the notifications that are generated for quorum-specific information.
 old-location: mscs\cluster_change_quorum_v2.htm
 old-project: MsCS
 ms.assetid: 373E451C-B05F-4D46-9303-60D2C6090228
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSTER_CHANGE_QUORUM_ALL_V2, CLUSTER_CHANGE_QUORUM_STATE_V2, CLUSTER_CHANGE_QUORUM_V2, CLUSTER_CHANGE_QUORUM_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_QUORUM_ALL_V2, clusapi/CLUSTER_CHANGE_QUORUM_STATE_V2, clusapi/CLUSTER_CHANGE_QUORUM_V2, msclus/CLUSTER_CHANGE_QUORUM_ALL_V2, msclus/CLUSTER_CHANGE_QUORUM_STATE_V2, msclus/CLUSTER_CHANGE_QUORUM_V2, mscs.cluster_change_quorum_v2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 

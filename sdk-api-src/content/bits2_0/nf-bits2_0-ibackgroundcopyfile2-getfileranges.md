@@ -1,16 +1,16 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyFile2.GetFileRanges
 title: IBackgroundCopyFile2::GetFileRanges
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the ranges that you want to download from the remote file.
 old-location: bits\ibackgroundcopyfile2_getfileranges.htm
 old-project: Bits
 ms.assetid: 2e0ea08e-5f97-45c9-9280-ce6c4dce7a17
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetFileRanges, GetFileRanges method [BITS], GetFileRanges method [BITS],IBackgroundCopyFile2 interface, IBackgroundCopyFile2 interface [BITS],GetFileRanges method, IBackgroundCopyFile2.GetFileRanges, IBackgroundCopyFile2::GetFileRanges, bits.ibackgroundcopyfile2_getfileranges, bits2_0/IBackgroundCopyFile2::GetFileRanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits2_0.h
 req.include-header: Bits.h

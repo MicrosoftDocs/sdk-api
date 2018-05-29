@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetSignatureId
 title: IOpcSigningOptions::SetSignatureId
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of the Id attribute of the Signature element.
 old-location: opc\iopcsigningoptions_setsignatureid.htm
 old-project: OPC
 ms.assetid: c723d6e8-6af3-41a2-b6dd-d26897495965
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetSignatureId method, IOpcSigningOptions.SetSignatureId, IOpcSigningOptions::SetSignatureId, SetSignatureId, SetSignatureId method [Open Packaging Conventions], SetSignatureId method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetSignatureId, opc.iopcsigningoptions_setsignatureid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathRenameExtensionW
 title: PathRenameExtensionW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces the extension of a file name with a new extension. If the file name does not contain an extension, the extension will be attached to the end of the string.
 old-location: shell\PathRenameExtension.htm
 old-project: shell
 ms.assetid: 3d94f67c-e3ee-4b64-b0b9-8f771423bdc5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathRenameExtension, PathRenameExtension function [Windows Shell], PathRenameExtensionA, PathRenameExtensionW, _win32_PathRenameExtension, shell.PathRenameExtension, shlwapi/PathRenameExtension, shlwapi/PathRenameExtensionA, shlwapi/PathRenameExtensionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

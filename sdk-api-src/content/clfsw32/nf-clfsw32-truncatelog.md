@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.TruncateLog
 title: TruncateLog function
-author: windows-driver-content
+author: windows-sdk-content
 description: Truncates the log. The function sets the end of the log to the specified value.
 old-location: fs\truncatelog.htm
 old-project: Clfs
 ms.assetid: 76ef1a01-ba5c-4419-ac2f-4ba53dcc5bc4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: TruncateLog, TruncateLog function [Files], clfsw32/TruncateLog, fs.truncatelog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

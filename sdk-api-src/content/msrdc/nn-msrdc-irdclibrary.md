@@ -1,16 +1,16 @@
 ---
 UID: NN:msrdc.IRdcLibrary
 title: IRdcLibrary
-author: windows-driver-content
+author: windows-sdk-content
 description: Is the primary interface for using RDC.
 old-location: rdc\irdclibrary.htm
 old-project: Rdc
 ms.assetid: 941fa35c-20fa-4843-89be-26112ff7eec5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IRdcLibrary, IRdcLibrary interface [Remote Differential Compression], IRdcLibrary interface [Remote Differential Compression],described, fs.irdclibrary, msrdc/IRdcLibrary, rdc.irdclibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

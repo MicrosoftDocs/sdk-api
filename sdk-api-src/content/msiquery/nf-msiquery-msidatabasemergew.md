@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiDatabaseMergeW
 title: MsiDatabaseMergeW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiDatabaseMerge function merges two databases together, which allows duplicate rows.
 old-location: setup\msidatabasemerge.htm
 old-project: Msi
 ms.assetid: 2a8c5e13-f7af-47ea-b781-a739d848fe09
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiDatabaseMerge, MsiDatabaseMerge function, MsiDatabaseMergeA, MsiDatabaseMergeW, _msi_msidatabasemerge, msiquery/MsiDatabaseMerge, msiquery/MsiDatabaseMergeA, msiquery/MsiDatabaseMergeW, setup.msidatabasemerge
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

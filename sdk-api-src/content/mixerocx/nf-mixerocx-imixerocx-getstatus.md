@@ -1,16 +1,16 @@
 ---
 UID: NF:mixerocx.IMixerOCX.GetStatus
 title: IMixerOCX::GetStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetStatus method returns the current status of the Overlay Mixer. (Not implemented.).
 old-location: dshow\imixerocx_getstatus.htm
 old-project: DirectShow
 ms.assetid: 2be28eec-99cd-4a4e-91fc-77bb51ec6fb3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],GetStatus method, IMixerOCX.GetStatus, IMixerOCX::GetStatus, IMixerOCXGetStatus, dshow.imixerocx_getstatus, mixerocx/IMixerOCX::GetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mixerocx.h
 req.include-header: 

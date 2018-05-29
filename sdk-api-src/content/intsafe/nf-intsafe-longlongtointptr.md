@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.LongLongToIntPtr
 title: LongLongToIntPtr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type LONGLONG to a value of type INT_PTR.
 old-location: shell\LongLongToIntPtr.htm
 old-project: shell
 ms.assetid: fb10650f-6536-491c-8897-0f826b506e5a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Int64ToIntPtr, Int64ToPtrdiffT, LongLongToIntPtr, LongLongToIntPtr function [Windows Shell], intsafe/LongLongToIntPtr, shell.LongLongToIntPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

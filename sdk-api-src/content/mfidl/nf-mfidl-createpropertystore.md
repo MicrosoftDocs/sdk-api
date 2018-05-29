@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.CreatePropertyStore
 title: CreatePropertyStore function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an empty property store object.
 old-location: mf\createpropertystore.htm
 old-project: medfound
 ms.assetid: bb0d32ef-ec16-4341-8b66-d57ebec785f9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore function [Media Foundation], bb0d32ef-ec16-4341-8b66-d57ebec785f9, mf.createpropertystore, mfidl/CreatePropertyStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

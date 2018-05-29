@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.PushCopyOfRetrievalFilter
 title: ID3D10InfoQueue::PushCopyOfRetrievalFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Push a copy of retrieval filter currently on the top of the retrieval-filter stack onto the retrieval-filter stack.
 old-location: direct3d10\id3d10infoqueue_pushcopyofretrievalfilter.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_pushcopyofretrievalfilter.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 95f070e8-3e19-b7cf-e5db-1e4a5d006c3e, ID3D10InfoQueue interface [Direct3D 10],PushCopyOfRetrievalFilter method, ID3D10InfoQueue.PushCopyOfRetrievalFilter, ID3D10InfoQueue::PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter method [Direct3D 10], PushCopyOfRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, d3d10sdklayers/ID3D10InfoQueue::PushCopyOfRetrievalFilter, direct3d10.id3d10infoqueue_pushcopyofretrievalfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 

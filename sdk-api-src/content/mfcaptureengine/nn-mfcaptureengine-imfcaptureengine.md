@@ -1,16 +1,16 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureEngine
 title: IMFCaptureEngine
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls one or more capture devices.
 old-location: mf\imfcaptureengine.htm
 old-project: medfound
 ms.assetid: 4A2A0536-4255-40AB-BCAB-228B09343583
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCaptureEngine, IMFCaptureEngine interface [Media Foundation], IMFCaptureEngine interface [Media Foundation],described, mf.imfcaptureengine, mfcaptureengine/IMFCaptureEngine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfcaptureengine.h
 req.include-header: 

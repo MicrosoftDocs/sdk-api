@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_ARRAY_V6
 title: "_DHCP_CLIENT_INFO_ARRAY_V6"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an array of DHCP_CLIENT_INFO_V6 structures for use with DHCPv6 client enumeration functions.
 old-location: dhcp\dhcp_client_info_array_v6.htm
 old-project: DHCP
 ms.assetid: b4abeb39-18db-4a45-85ec-a7fe4042e75f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_ARRAY_V6, DHCP_CLIENT_INFO_ARRAY_V6, DHCP_CLIENT_INFO_ARRAY_V6 structure [DHCP], PDHCP_CLIENT_INFO_ARRAY_V6, PDHCP_CLIENT_INFO_ARRAY_V6 structure pointer [DHCP], _DHCP_CLIENT_INFO_ARRAY_V6, dhcp.dhcp_client_info_array_v6, dhcpsapi/DHCP_CLIENT_INFO_ARRAY_V6, dhcpsapi/PDHCP_CLIENT_INFO_ARRAY_V6"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

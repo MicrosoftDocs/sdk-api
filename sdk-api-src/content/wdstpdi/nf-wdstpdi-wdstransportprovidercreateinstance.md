@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderCreateInstance
 title: WdsTransportProviderCreateInstance function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a new instance of a content provider.
 old-location: wds\wdstransportprovidercreateinstance.htm
 old-project: Wds
 ms.assetid: 534ba680-e5d7-47e7-83ad-2b621feab99f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsTransportProviderCreateInstance, WdsTransportProviderCreateInstance callback, WdsTransportProviderCreateInstance callback function [Windows Deployment Services], wds.wdstransportprovidercreateinstance, wdstpdi/WdsTransportProviderCreateInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 

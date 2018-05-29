@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IDragProvider.get_DropEffects
 title: IDragProvider::get_DropEffects
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an array of localized strings that enumerate the full set of effects that can happen when this element is dropped as part of a drag-and-drop operation.
 old-location: winauto\uiauto_idragprovider_dropeffects.htm
 old-project: WinAuto
 ms.assetid: 66DEC1A0-5AB4-41C7-AA7A-F512AE388999
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: DropEffects property [Windows Accessibility], DropEffects property [Windows Accessibility],IDragProvider interface, IDragProvider interface [Windows Accessibility],DropEffects property, IDragProvider.DropEffects, IDragProvider.get_DropEffects, IDragProvider::DropEffects, IDragProvider::get_DropEffects, get_DropEffects, uiautomationcore/IDragProvider::DropEffects, uiautomationcore/IDragProvider::get_DropEffects, winauto.uiauto_idragprovider_dropeffects
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

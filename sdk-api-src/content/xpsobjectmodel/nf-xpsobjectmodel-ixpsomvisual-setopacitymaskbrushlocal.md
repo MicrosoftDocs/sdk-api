@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetOpacityMaskBrushLocal
 title: IXpsOMVisual::SetOpacityMaskBrushLocal
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the IXpsOMBrush interface pointer as the local, unshared opacity mask brush.
 old-location: xps\ixpsomvisual_setopacitymaskbrushlocal.htm
 old-project: printdocs
 ms.assetid: d1b84156-b7ad-4dac-97d9-60aaedcee210
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetOpacityMaskBrushLocal method, IXpsOMVisual.SetOpacityMaskBrushLocal, IXpsOMVisual::SetOpacityMaskBrushLocal, SetOpacityMaskBrushLocal, SetOpacityMaskBrushLocal method [XPS Documents and Packaging], SetOpacityMaskBrushLocal method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setopacitymaskbrushlocal, xpsobjectmodel/IXpsOMVisual::SetOpacityMaskBrushLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

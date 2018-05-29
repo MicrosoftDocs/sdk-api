@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.ICEnroll4.resetExtensions
 title: ICEnroll4::resetExtensions
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all extensions from the request. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_resetextensions.htm
 old-project: SecCrypto
 ms.assetid: ef21a5e4-2641-4602-b1ae-f0f74b9a8346
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CEnroll object [Security],resetExtensions method, ICEnroll4 interface [Security],resetExtensions method, ICEnroll4.resetExtensions, ICEnroll4::resetExtensions, _xen_icenroll4_resetextensions, resetExtensions, resetExtensions method [Security], resetExtensions method [Security],CEnroll object, resetExtensions method [Security],ICEnroll4 interface, security.icenroll4_resetextensions, xenroll/ICEnroll4::resetExtensions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

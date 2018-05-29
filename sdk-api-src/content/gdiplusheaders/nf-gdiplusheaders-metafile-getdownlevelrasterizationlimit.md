@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Metafile.GetDownLevelRasterizationLimit
 title: Metafile::GetDownLevelRasterizationLimit
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the rasterization limit currently set for this metafile.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_GetDownLevelRasterizationLimit_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\getdownlevelrasterizationlimit.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDownLevelRasterizationLimit, GetDownLevelRasterizationLimit method [GDI+], GetDownLevelRasterizationLimit method [GDI+],Metafile class, Metafile class [GDI+],GetDownLevelRasterizationLimit method, Metafile.GetDownLevelRasterizationLimit, Metafile::GetDownLevelRasterizationLimit, _gdiplus_CLASS_Metafile_GetDownLevelRasterizationLimit_, gdiplus._gdiplus_CLASS_Metafile_GetDownLevelRasterizationLimit_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

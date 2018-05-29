@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiSelectDevice
 title: SetupDiSelectDevice function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiSelectDevice function is the default handler for the DIF_SELECTDEVICE request.
 old-location: devinst\setupdiselectdevice.htm
 old-project: devinst
 ms.assetid: c6a512ad-bcc6-4dc5-873e-33bdaab129e2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiSelectDevice, SetupDiSelectDevice function [Device and Driver Installation], devinst.setupdiselectdevice, di-rtns_0cbab99d-4106-4e25-81fc-68034d9f464d.xml, setupapi/SetupDiSelectDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

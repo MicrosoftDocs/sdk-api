@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement3.get_CurrentIsPeripheral
 title: IUIAutomationElement3::get_CurrentIsPeripheral
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current peripheral UI indicator for the element.
 old-location: winauto\uiauto_IUIAutomationElement3_CurrentIsPeripheral.htm
 old-project: WinAuto
 ms.assetid: 1E4B7D77-FCE7-9A1B-2D1A-A347A2F8C2B9
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentIsPeripheral property [Windows Accessibility], CurrentIsPeripheral property [Windows Accessibility],IUIAutomationElement3 interface, IUIAutomationElement3 interface [Windows Accessibility],CurrentIsPeripheral property, IUIAutomationElement3.CurrentIsPeripheral, IUIAutomationElement3.get_CurrentIsPeripheral, IUIAutomationElement3::CurrentIsPeripheral, IUIAutomationElement3::get_CurrentIsPeripheral, get_CurrentIsPeripheral, uiautomationclient/IUIAutomationElement3::CurrentIsPeripheral, uiautomationclient/IUIAutomationElement3::get_CurrentIsPeripheral, winauto.uiauto_IUIAutomationElement3_CurrentIsPeripheral
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0024
 title: "__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0024"
-author: windows-driver-content
+author: windows-sdk-content
 description: The contents of the XPS_COLOR structure when the colorType is XPS_COLOR_TYPE_CONTEXT.
 old-location: xps\xps_color_type_context.htm
 old-project: printdocs
 ms.assetid: 76dcabb0-2407-4877-9f52-100883746695
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: XPS_COLOR, XPS_COLOR structure [XPS Documents and Packaging], XPS_COLOR_TYPE_CONTEXT, XPS_COLOR_TYPE_CONTEXT structure [XPS Documents and Packaging], __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0024, xps.xps_color_type_context, xpsobjectmodel/XPS_COLOR_TYPE_CONTEXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:libloaderapi.SetDefaultDllDirectories
 title: SetDefaultDllDirectories function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a default set of directories to search when the calling process loads a DLL. This search path is used when LoadLibraryEx is called with no LOAD_LIBRARY_SEARCH flags.
 old-location: base\setdefaultdlldirectories.htm
 old-project: Dlls
 ms.assetid: 66884797-b1c8-4e50-aef1-e88944766d50
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: LOAD_LIBRARY_SEARCH_APPLICATION_DIR, LOAD_LIBRARY_SEARCH_DEFAULT_DIRS, LOAD_LIBRARY_SEARCH_SYSTEM32, LOAD_LIBRARY_SEARCH_USER_DIRS, SetDefaultDllDirectories, SetDefaultDllDirectories function, base.setdefaultdlldirectories, libloaderapi/SetDefaultDllDirectories
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: libloaderapi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPPlayerApplication
 title: IWMPPlayerApplication
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPPlayerApplication interface provides methods for switching between a remoted Windows Media Player control and the full mode of the Player. These methods can only be used with C++ programs that embed the control in remote mode.
 old-location: wmp\iwmpplayerapplication.htm
 old-project: WMP
 ms.assetid: bcdd7ea9-66b2-40e9-89a1-0fec073ccd92
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPPlayerApplication, IWMPPlayerApplication interface [Windows Media Player], IWMPPlayerApplication interface [Windows Media Player],described, IWMPPlayerApplicationInterface, wmp.iwmpplayerapplication, wmp/IWMPPlayerApplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

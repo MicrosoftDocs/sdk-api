@@ -1,16 +1,16 @@
 ---
 UID: NF:mgm.MgmGetMfeStats
 title: MgmGetMfeStats function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MgmGetMfeStats function retrieves the statistics for a specific MFE. The statistics returned include the packets received, bytes received, and the packets forwarded on each outgoing interface.
 old-location: rras\mgmgetmfestats.htm
 old-project: RRAS
 ms.assetid: 16c4b403-0477-47da-9f98-55f8368dca15
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MGM_MFE_STATS_0, MGM_MFE_STATS_1, MgmGetMfeStats, MgmGetMfeStats function [RAS], _mpr_mgmgetmfestats, mgm/MgmGetMfeStats, rras.mgmgetmfestats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mgm.h
 req.include-header: 

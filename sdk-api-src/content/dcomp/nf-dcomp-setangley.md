@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetAngleY
 title: SetAngleY function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes or animates the value of the AngleY property of a 2D skew transform. The AngleY property specifies the rotation angle, in degrees. The default value is zero.
 old-location: directcomp\idcompositionskewtransform_setangley_overloaded.htm
 old-project: directcomp
 ms.assetid: BD3D282C-5BBD-4BCE-AE15-4491A37D9149
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionSkewTransform::SetAngleY, SetAngleY, SetAngleY methods [DirectComposition], dcomp/SetAngleY, directcomp.idcompositionskewtransform_setangley_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

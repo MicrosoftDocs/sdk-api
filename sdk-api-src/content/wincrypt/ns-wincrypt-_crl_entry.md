@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRL_ENTRY
 title: "_CRL_ENTRY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a single revoked certificate. It is a member of a CRL_INFO structure.
 old-location: security\crl_entry.htm
 old-project: SecCrypto
 ms.assetid: 30e7952a-a408-404f-9058-8197539387f6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRL_ENTRY, CRL_ENTRY, CRL_ENTRY structure [Security], PCRL_ENTRY, PCRL_ENTRY structure pointer [Security], _CRL_ENTRY, _crypto2_crl_entry, security.crl_entry, wincrypt/CRL_ENTRY, wincrypt/PCRL_ENTRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

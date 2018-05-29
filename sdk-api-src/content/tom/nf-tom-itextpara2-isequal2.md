@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextPara2.IsEqual2
 title: ITextPara2::IsEqual2
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether this text paragraph object has the same properties as the specified text paragraph object.
 old-location: controls\itextpara2_isequal2.htm
 old-project: Controls
 ms.assetid: 7817b1bd-6ade-4145-90ff-54561a639dc9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextPara2 interface [Windows Controls],IsEqual2 method, ITextPara2.IsEqual2, ITextPara2::IsEqual2, IsEqual2, IsEqual2 method [Windows Controls], IsEqual2 method [Windows Controls],ITextPara2 interface, controls.itextpara2_isequal2, tom/ITextPara2::IsEqual2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

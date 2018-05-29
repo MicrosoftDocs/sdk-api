@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.CreateAnycastIpAddressEntry
 title: CreateAnycastIpAddressEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a new anycast IP address entry on the local computer.
 old-location: iphlp\createanycastipaddressentry.htm
 old-project: IpHlp
 ms.assetid: 30393132-0fad-4687-b9e3-7b5cf47fbb96
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreateAnycastIpAddressEntry, CreateAnycastIpAddressEntry function [IP Helper], iphlp.createanycastipaddressentry, netioapi/CreateAnycastIpAddressEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

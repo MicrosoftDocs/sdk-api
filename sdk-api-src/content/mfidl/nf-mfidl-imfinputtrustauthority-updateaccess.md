@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFInputTrustAuthority.UpdateAccess
 title: IMFInputTrustAuthority::UpdateAccess
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the input trust authority (ITA) when the number of output trust authorities (OTAs) that will perform a specified action has changed.
 old-location: mf\imfinputtrustauthority_updateaccess.htm
 old-project: medfound
 ms.assetid: 4ca635fc-15eb-4a9e-8f59-7fa2e3f3e176
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 4ca635fc-15eb-4a9e-8f59-7fa2e3f3e176, IMFInputTrustAuthority interface [Media Foundation],UpdateAccess method, IMFInputTrustAuthority.UpdateAccess, IMFInputTrustAuthority::UpdateAccess, UpdateAccess, UpdateAccess method [Media Foundation], UpdateAccess method [Media Foundation],IMFInputTrustAuthority interface, mf.imfinputtrustauthority_updateaccess, mfidl/IMFInputTrustAuthority::UpdateAccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

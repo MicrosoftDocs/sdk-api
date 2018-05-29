@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.Clone
 title: IUIAutomationCacheRequest::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of the cache request.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_Clone.htm
 old-project: WinAuto
 ms.assetid: e7ba5cb0-a4a5-4556-ba28-899e9635af5d
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: Clone, Clone method [Windows Accessibility], Clone method [Windows Accessibility],IUIAutomationCacheRequest interface, IUIAutomationCacheRequest interface [Windows Accessibility],Clone method, IUIAutomationCacheRequest.Clone, IUIAutomationCacheRequest::Clone, uiauto.uiauto_IUIAutomationCacheRequest_Clone, uiauto_IUIAutomationCacheRequest_Clone, uiautomationclient/IUIAutomationCacheRequest::Clone, winauto.uiauto_IUIAutomationCacheRequest_Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.ZoomToRect
 title: IDirectManipulationViewport::ZoomToRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves the viewport to a specific area of the primary content and specifies whether to animate the transition.
 old-location: directmanipulation\idirectmanipulationviewport_zoomtorect.htm
 old-project: directmanipulation
 ms.assetid: ce87521d-bbce-43d3-920b-89eca101d260
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],ZoomToRect method, IDirectManipulationViewport.ZoomToRect, IDirectManipulationViewport::ZoomToRect, ZoomToRect, ZoomToRect method [Direct Manipulation], ZoomToRect method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_zoomtorect, directmanipulation/IDirectManipulationViewport::ZoomToRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.IsActive
 title: IMFTimedTextTrack::IsActive
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the timed-text track is active.
 old-location: mf\imftimedtexttrack_isactive.htm
 old-project: medfound
 ms.assetid: 7C4A256A-614D-49BF-8654-BEBB4E0A2688
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFTimedTextTrack interface [Media Foundation],IsActive method, IMFTimedTextTrack.IsActive, IMFTimedTextTrack::IsActive, IsActive, IsActive method [Media Foundation], IsActive method [Media Foundation],IMFTimedTextTrack interface, mf.imftimedtexttrack_isactive, mfmediaengine/IMFTimedTextTrack::IsActive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

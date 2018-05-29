@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.Folder.Items
 title: Folder::Items
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a FolderItems object that represents the collection of items in the folder.
 old-location: shell\Folder_Items.htm
 old-project: shell
 ms.assetid: ef2965ec-c8ab-4108-8e5e-b4fd5370521a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Folder object [Windows Shell],Items method, Folder.Items, Folder::Items, Items, Items method [Windows Shell], Items method [Windows Shell],Folder object, _win32_Folder_Items, shell.Folder_Items
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

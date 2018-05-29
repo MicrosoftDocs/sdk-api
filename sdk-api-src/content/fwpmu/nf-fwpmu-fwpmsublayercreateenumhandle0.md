@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerCreateEnumHandle0
 title: FwpmSubLayerCreateEnumHandle0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a handle used to enumerate a set of sublayers.
 old-location: fwp\fwpmsublayercreateenumhandle0_func.htm
 old-project: FWP
 ms.assetid: a8acff10-8395-4ef8-8976-7a99cd498a7d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmSubLayerCreateEnumHandle0, FwpmSubLayerCreateEnumHandle0 function [Filtering], fwp.fwpmsublayercreateenumhandle0_func, fwpmu/FwpmSubLayerCreateEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1.DrawRoundedRectangle
 title: DrawRoundedRectangle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Draws the outline of the specified rounded rectangle using the specified stroke style.
 old-location: direct2d\id2d1rendertarget_drawroundedrectangle.htm
 old-project: Direct2D
 ms.assetid: d718c355-ffd8-4a7f-90f3-9a10d37a19c8
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: DrawRoundedRectangle, DrawRoundedRectangle methods [Direct2D], ID2D1RenderTarget::DrawRoundedRectangle, d2d1/DrawRoundedRectangle, direct2d.id2d1rendertarget_drawroundedrectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1.h
 req.include-header: 

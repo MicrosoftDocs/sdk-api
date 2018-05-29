@@ -1,16 +1,16 @@
 ---
 UID: NF:perflib.PerfDeleteCounters
 title: PerfDeleteCounters function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the specified performance counter specifications from the specified query.
 old-location: perf\perfdeletecounters.htm
 old-project: PerfCtrs
 ms.assetid: 330CA041-41CA-4C48-B88B-C48A0143505E
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PerfDeleteCounters, PerfDeleteCounters function [Perf], perf.perfdeletecounters, perflib/PerfDeleteCounters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

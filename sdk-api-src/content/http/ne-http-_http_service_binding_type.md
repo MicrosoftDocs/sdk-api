@@ -1,16 +1,16 @@
 ---
 UID: NE:http._HTTP_SERVICE_BINDING_TYPE
 title: "_HTTP_SERVICE_BINDING_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: HTTP_SERVICE_BINDING_TYPE enumerated type specifies the string type for service names.
 old-location: http\http_service_binding_type.htm
 old-project: Http
 ms.assetid: 8de36795-c99d-46ce-b9e4-a933de7d4c5c
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HTTP_SERVICE_BINDING_TYPE, HTTP_SERVICE_BINDING_TYPE enumeration [HTTP], HttpServiceBindingTypeA, HttpServiceBindingTypeNone, HttpServiceBindingTypeW, _HTTP_SERVICE_BINDING_TYPE, http.http_service_binding_type, http/HTTP_SERVICE_BINDING_TYPE, http/HttpServiceBindingTypeA, http/HttpServiceBindingTypeNone, http/HttpServiceBindingTypeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 

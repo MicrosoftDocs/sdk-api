@@ -1,16 +1,16 @@
 ---
 UID: NF:comppkgsup.RequireNetworkDuringMediaTaskCompletion
 title: RequireNetworkDuringMediaTaskCompletion function
-author: windows-driver-content
+author: windows-sdk-content
 description: Increments or decrements the count of network connections required for media task completion.
 old-location: winprog\requirenetworkduringmediataskcompletion.htm
 old-project: DevNotes
 ms.assetid: D3A1E926-CC9C-4E5E-B588-A45B2FEE9FAF
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RequireNetworkDuringMediaTaskCompletion, RequireNetworkDuringMediaTaskCompletion function [Windows API], comppkgsup/RequireNetworkDuringMediaTaskCompletion, winprog.requirenetworkduringmediataskcompletion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: comppkgsup.h
 req.include-header: 

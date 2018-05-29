@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyStore.GetValue
 title: IPropertyStore::GetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: This method retrieves the data for a specific property.
 old-location: audio\ipropertystore_getvalue.htm
 old-project: audio
 ms.assetid: 11204335-0f00-4af8-8787-93e91248e5bd
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: GetValue, GetValue method [Audio Devices], GetValue method [Audio Devices],IPropertyStore interface, IPropertyStore interface [Audio Devices],GetValue method, IPropertyStore.GetValue, IPropertyStore::GetValue, audio.ipropertystore_getvalue, audio_syseffects_r_5540088b-f979-440e-93b8-feb9db17001c.xml, propsys/IPropertyStore::GetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

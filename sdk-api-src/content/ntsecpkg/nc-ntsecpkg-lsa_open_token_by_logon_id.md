@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_OPEN_TOKEN_BY_LOGON_ID
 title: LSA_OPEN_TOKEN_BY_LOGON_ID
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the user access token associated with the specified user logon.
 old-location: security\opentokenbylogonid.htm
 old-project: SecAuthN
 ms.assetid: 3cd3e4fe-7548-44f9-ab04-01b30bdf3bd9
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LSA_OPEN_TOKEN_BY_LOGON_ID, OpenTokenByLogonId, OpenTokenByLogonId function [Security], ntsecpkg/OpenTokenByLogonId, security.opentokenbylogonid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

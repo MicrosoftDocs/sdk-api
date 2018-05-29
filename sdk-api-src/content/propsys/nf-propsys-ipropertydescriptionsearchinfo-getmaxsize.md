@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyDescriptionSearchInfo.GetMaxSize
 title: IPropertyDescriptionSearchInfo::GetMaxSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the maximum size value from the property schema's searchInfo element.
 old-location: properties\IPropertyDescriptionSearchInfo_GetMaxSize.htm
 old-project: properties
 ms.assetid: a1d5812a-0166-4d63-93a7-c6dc2a6e247d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetMaxSize, GetMaxSize method [Windows Properties], GetMaxSize method [Windows Properties],IPropertyDescriptionSearchInfo interface, IPropertyDescriptionSearchInfo interface [Windows Properties],GetMaxSize method, IPropertyDescriptionSearchInfo.GetMaxSize, IPropertyDescriptionSearchInfo::GetMaxSize, _shell_IPropertyDescriptionSearchInfo_GetMaxSize, properties.IPropertyDescriptionSearchInfo_GetMaxSize, propsys/IPropertyDescriptionSearchInfo::GetMaxSize, shell.IPropertyDescriptionSearchInfo_GetMaxSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

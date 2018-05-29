@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.__unnamed_enum_0
 title: WS_XML_BUFFER_PROPERTY_ID
-author: windows-driver-content
+author: windows-sdk-content
 description: Each XML buffer property is identified by an ID and has an associated value.
 old-location: wsw\ws_xml_buffer_property_id.htm
 old-project: wsw
 ms.assetid: 580a72d3-6800-48b3-9345-4e3b20bb4066
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_BUFFER_PROPERTY_ID, WS_XML_BUFFER_PROPERTY_ID enumeration [Web Services for Windows], webservices/WS_XML_BUFFER_PROPERTY_ID, wsw.ws_xml_buffer_property_id
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

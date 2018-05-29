@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidInputDevices
 title: IMSVidInputDevices
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMSVidInputDevices interface represents a collection of input devices. The MSVidInputDevices object exposes this object.
 old-location: mstv\imsvidinputdevices.htm
 old-project: mstv
 ms.assetid: cb9d9885-718e-43b9-b195-66149bd7e973
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidInputDevices, IMSVidInputDevices interface [Microsoft TV Technologies], IMSVidInputDevices interface [Microsoft TV Technologies],described, IMSVidInputDevicesInterface, mstv.imsvidinputdevices, segment/IMSVidInputDevices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

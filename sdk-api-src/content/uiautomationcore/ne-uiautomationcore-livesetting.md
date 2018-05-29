@@ -1,16 +1,16 @@
 ---
 UID: NE:uiautomationcore.LiveSetting
 title: LiveSetting
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains possible values for the LiveSetting property. This property is implemented by provider elements that are part of a live region.
 old-location: winauto\uiauto_LiveSetting.htm
 old-project: WinAuto
 ms.assetid: 40DD1F00-A9BC-4C84-B2A3-940E37EE9C19
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: LiveSetting, LiveSetting enumeration [Windows Accessibility], LiveSetting_Assertive, LiveSetting_Off, LiveSetting_Polite, uiautomationcore/LiveSetting, uiautomationcore/LiveSetting_Assertive, uiautomationcore/LiveSetting_Off, uiautomationcore/LiveSetting_Polite, winauto.uiauto_LiveSetting
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

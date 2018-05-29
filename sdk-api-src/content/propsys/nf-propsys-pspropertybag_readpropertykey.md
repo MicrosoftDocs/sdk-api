@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadPropertyKey
 title: PSPropertyBag_ReadPropertyKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the property key of a property in a specified property bag.
 old-location: properties\PSPropertyBag_ReadPropertyKey.htm
 old-project: properties
 ms.assetid: 910D1356-DC61-470b-90BB-0DCF1B861E05
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_ReadPropertyKey, PSPropertyBag_ReadPropertyKey function [Windows Properties], properties.PSPropertyBag_ReadPropertyKey, propsys/PSPropertyBag_ReadPropertyKey, shell.PSPropertyBag_ReadPropertyKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

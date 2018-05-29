@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataWriter.WriteNextItemCommand
 title: ISpatialAudioMetadataWriter::WriteNextItemCommand
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes metadata commands and value data to the current item.
 old-location: coreaudio\ispatialaudiometadatawriter_writenextitemcommand.htm
 old-project: CoreAudio
 ms.assetid: A614AEC6-7CA3-4624-BAFE-46618BCB64FA
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISpatialAudioMetadataWriter interface [Core Audio],WriteNextItemCommand method, ISpatialAudioMetadataWriter.WriteNextItemCommand, ISpatialAudioMetadataWriter::WriteNextItemCommand, WriteNextItemCommand, WriteNextItemCommand method [Core Audio], WriteNextItemCommand method [Core Audio],ISpatialAudioMetadataWriter interface, coreaudio.ispatialaudiometadatawriter_writenextitemcommand, spatialaudiometadata/ISpatialAudioMetadataWriter::WriteNextItemCommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 

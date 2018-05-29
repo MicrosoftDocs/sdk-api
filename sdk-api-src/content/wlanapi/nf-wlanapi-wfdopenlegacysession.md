@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WFDOpenLegacySession
 title: WFDOpenLegacySession function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves and applies a stored profile for a Wi-Fi Direct legacy device.
 old-location: nwifi\wfdopenlegacysession.htm
 old-project: NativeWiFi
 ms.assetid: D7BE8108-EF18-49FC-8B14-CED45B6C682B
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WFDOpenLegacySession, WFDOpenLegacySession function [NativeWIFI], nwifi.wfdopenlegacysession, wlanapi/WFDOpenLegacySession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: 

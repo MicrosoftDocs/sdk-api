@@ -1,16 +1,16 @@
 ---
 UID: NN:encdec.IDTFilter3
 title: IDTFilter3
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDTFilter3 interface extends the IDTFilter2 interface and is exposed by the Decrypter/Detagger filter.
 old-location: mstv\idtfilter3.htm
 old-project: mstv
 ms.assetid: 88e42006-c387-41b5-a013-e968da0d918b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDTFilter3, IDTFilter3 interface [Microsoft TV Technologies], IDTFilter3 interface [Microsoft TV Technologies],described, IDTFilter3Interface, encdec/IDTFilter3, mstv.idtfilter3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: encdec.h
 req.include-header: 

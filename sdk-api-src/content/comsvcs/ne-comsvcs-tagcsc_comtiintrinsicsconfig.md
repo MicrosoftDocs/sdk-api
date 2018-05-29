@@ -1,16 +1,16 @@
 ---
 UID: NE:comsvcs.tagCSC_COMTIIntrinsicsConfig
 title: tagCSC_COMTIIntrinsicsConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the current COM Transaction Integrator (COMTI) intrinsics are propagated into the new context.
 old-location: cos\csc_comtiintrinsicsconfig.htm
 old-project: cossdk
 ms.assetid: 0d700648-b5fe-46f6-9d27-e2601fe88d71
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CSC_COMTIIntrinsicsConfig, CSC_COMTIIntrinsicsConfig enumeration [COM+], CSC_InheritCOMTIIntrinsics, CSC_NoCOMTIIntrinsics, _cos_CSC_COMTIIntrinsicsConfig, comsvcs/CSC_COMTIIntrinsicsConfig, comsvcs/CSC_InheritCOMTIIntrinsics, comsvcs/CSC_NoCOMTIIntrinsics, cos.csc_comtiintrinsicsconfig, tagCSC_COMTIIntrinsicsConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 

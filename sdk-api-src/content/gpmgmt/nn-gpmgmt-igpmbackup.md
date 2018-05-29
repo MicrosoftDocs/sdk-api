@@ -1,16 +1,16 @@
 ---
 UID: NN:gpmgmt.IGPMBackup
 title: IGPMBackup
-author: windows-driver-content
+author: windows-sdk-content
 description: The IGPMBackup interface supports methods that allow you to delete GPMBackup objects and to retrieve various properties of GPMBackup objects.
 old-location: gpmc\igpmbackup.htm
 old-project: GPMC
 ms.assetid: a593740a-9541-465a-9a2d-64ddf29793bf
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMBackup, IGPMBackup, IGPMBackup interface [GPMC], IGPMBackup interface [GPMC],described, _win32_igpmbackup, gpmc.igpmbackup, gpmgmt/IGPMBackup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

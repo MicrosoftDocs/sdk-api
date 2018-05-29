@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_first_attributeA
 title: ldap_first_attributeA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the first attribute.
 old-location: ldap\ldap_first_attribute.htm
 old-project: LDAP
 ms.assetid: 2a654ef4-519f-41a7-943e-3befe5c932e8
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_first_attribute, ldap.ldap__first__attribute, ldap.ldap_first_attribute, ldap_first_attribute, ldap_first_attribute function [LDAP], ldap_first_attributeA, ldap_first_attributeW, winldap/ldap_first_attribute, winldap/ldap_first_attributeA, winldap/ldap_first_attributeW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

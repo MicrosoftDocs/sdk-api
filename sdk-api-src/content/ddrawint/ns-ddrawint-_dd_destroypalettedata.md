@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_DESTROYPALETTEDATA
 title: "_DD_DESTROYPALETTEDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_DESTROYPALETTEDATA structure contains information necessary to destroy the specified palette.
 old-location: display\dd_destroypalettedata.htm
 old-project: display
 ms.assetid: e309f782-bd0b-4703-b58c-e202fd87b904
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA, DD_DESTROYPALETTEDATA structure [Display Devices], _DD_DESTROYPALETTEDATA, ddrawint/DD_DESTROYPALETTEDATA, ddstrcts_850bb816-b0df-4877-8903-c85b15074e30.xml, display.dd_destroypalettedata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:usbuser._USB_UNICODE_NAME
 title: "_USB_UNICODE_NAME"
-author: windows-driver-content
+author: windows-sdk-content
 description: The USB_UNICODE_NAME structure contains a Unicode string that specifies a symbolic link name.
 old-location: buses\usb_unicode_name.htm
 old-project: usbref
 ms.assetid: d388332c-2f7c-410f-88f4-d0e56fed7a99
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.author: windowssdkdev
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_UNICODE_NAME, PUSB_UNICODE_NAME, PUSB_UNICODE_NAME structure pointer [Buses], USB_UNICODE_NAME, USB_UNICODE_NAME structure [Buses], _USB_UNICODE_NAME, buses.usb_unicode_name, usbstrct_6c02ad3d-6b23-469c-86ea-90edf02c1ad8.xml, usbuser/PUSB_UNICODE_NAME, usbuser/USB_UNICODE_NAME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h

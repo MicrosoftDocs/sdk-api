@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IEnumRangeExceptions
 title: IEnumRangeExceptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates range exceptions that are stored in a knowledge object.
 old-location: winsync\ienumrangeexceptions.htm
 old-project: winsync
 ms.assetid: 1b2724a3-2f5f-4f30-8cf5-e31f16d4cd14
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IEnumRangeExceptions, IEnumRangeExceptions interface [Windows Sync], IEnumRangeExceptions interface [Windows Sync],described, winsync.ienumrangeexceptions, winsync/IEnumRangeExceptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

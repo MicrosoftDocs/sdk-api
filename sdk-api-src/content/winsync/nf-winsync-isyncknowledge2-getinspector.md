@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetInspector
 title: ISyncKnowledge2::GetInspector
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an object that can be used to retrieve the contents of the knowledge object.
 old-location: winsync\isyncknowledge2_getinspector.htm
 old-project: winsync
 ms.assetid: 088d864f-bb74-4fd8-b8cb-352cb2731edb
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetInspector, GetInspector method [Windows Sync], GetInspector method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetInspector method, ISyncKnowledge2.GetInspector, ISyncKnowledge2::GetInspector, winsync.isyncknowledge2_getinspector, winsync/ISyncKnowledge2::GetInspector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

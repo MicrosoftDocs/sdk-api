@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.ShortToUChar
 title: ShortToUChar function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type SHORT to a value of UCHAR.
 old-location: shell\ShortToUChar.htm
 old-project: shell
 ms.assetid: dd3eab34-7cf1-4a60-8fd8-bcc9db1855d7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ShortToUChar, ShortToUChar function [Windows Shell], _shell_ShortToUChar, intsafe/ShortToUChar, shell.ShortToUChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

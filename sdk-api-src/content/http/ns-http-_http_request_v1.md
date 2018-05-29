@@ -1,16 +1,16 @@
 ---
 UID: NS:http._HTTP_REQUEST_V1
 title: "_HTTP_REQUEST_V1"
-author: windows-driver-content
+author: windows-sdk-content
 description: Uses the HTTP_REQUEST structure to return data associated with a specific request.
 old-location: http\http_request_v1.htm
 old-project: Http
 ms.assetid: 5550c49c-36ef-42e6-8134-5d9d0d9d53b5
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_REQUEST, *PHTTP_REQUEST_V1, HTTP_REQUEST, HTTP_REQUEST_FLAG_HTTP2, HTTP_REQUEST_FLAG_MORE_ENTITY_BODY_EXISTS, HTTP_REQUEST_IP_ROUTED, HTTP_REQUEST_V1, HTTP_REQUEST_V1 structure [HTTP], PHTTP_REQUEST_V1, PHTTP_REQUEST_V1 structure pointer [HTTP], _HTTP_REQUEST_V1, http.http_request_v1, http/HTTP_REQUEST_V1, http/PHTTP_REQUEST_V1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrackList.GetLength
 title: IMFTimedTextTrackList::GetLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the length, in tracks, of the timed-text-track list.
 old-location: mf\imftimedtexttracklist_getlength.htm
 old-project: medfound
 ms.assetid: 468BF969-9D8D-4866-8E33-F1CC6F09E90A
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFTimedTextTrackList interface, IMFTimedTextTrackList interface [Media Foundation],GetLength method, IMFTimedTextTrackList.GetLength, IMFTimedTextTrackList::GetLength, mf.imftimedtexttracklist_getlength, mfmediaengine/IMFTimedTextTrackList::GetLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

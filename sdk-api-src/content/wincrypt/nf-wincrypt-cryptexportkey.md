@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptExportKey
 title: CryptExportKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Exports a cryptographic key or a key pair from a cryptographic service provider (CSP) in a secure manner.
 old-location: security\cryptexportkey.htm
 old-project: SecCrypto
 ms.assetid: 8a7c7b46-3bea-4043-b568-6d91d6335737
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_BLOB_VER3, CRYPT_DESTROYKEY, CRYPT_OAEP, CRYPT_SSL2_FALLBACK, CRYPT_Y_ONLY, CryptExportKey, CryptExportKey function [Security], OPAQUEKEYBLOB, PLAINTEXTKEYBLOB, PRIVATEKEYBLOB, PUBLICKEYBLOB, SIMPLEBLOB, SYMMETRICWRAPKEYBLOB, _crypto2_cryptexportkey, security.cryptexportkey, wincrypt/CryptExportKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfContext.EnumProperties
 title: ITfContext::EnumProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfContext::EnumProperties method
 old-location: tsf\itfcontext_enumproperties.htm
 old-project: TSF
 ms.assetid: b57c9fdc-320b-4d97-8af4-c75756326437
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EnumProperties, EnumProperties method [Text Services Framework], EnumProperties method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],EnumProperties method, ITfContext.EnumProperties, ITfContext::EnumProperties, _tsf_itfcontext_enumproperties_ref, msctf/ITfContext::EnumProperties, tsf.itfcontext_enumproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange2.AddSubrange
 title: ITextRange2::AddSubrange
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a subrange to this range.
 old-location: controls\itextrange2_addsubrange.htm
 old-project: Controls
 ms.assetid: ffd1f166-a37c-4b39-9878-a4008260f675
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddSubrange, AddSubrange method [Windows Controls], AddSubrange method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],AddSubrange method, ITextRange2.AddSubrange, ITextRange2::AddSubrange, controls.itextrange2_addsubrange, tom/ITextRange2::AddSubrange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

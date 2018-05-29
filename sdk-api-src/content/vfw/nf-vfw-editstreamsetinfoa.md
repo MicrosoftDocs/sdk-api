@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.EditStreamSetInfoA
 title: EditStreamSetInfoA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EditStreamSetInfo function changes characteristics of an editable stream.
 old-location: multimedia\editstreamsetinfo.htm
 old-project: Multimedia
 ms.assetid: c9b33a91-b7b1-4b66-86ba-d1ea774c8743
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EditStreamSetInfo, EditStreamSetInfo function [Windows Multimedia], EditStreamSetInfoA, EditStreamSetInfoW, _win32_EditStreamSetInfo, multimedia.editstreamsetinfo, vfw/EditStreamSetInfo, vfw/EditStreamSetInfoA, vfw/EditStreamSetInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

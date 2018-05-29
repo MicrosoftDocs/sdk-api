@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.Animate_Stop
 title: Animate_Stop macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops playing an AVI clip in an animation control. You can use this macro or send the ACM_STOP message explicitly.
 old-location: controls\Animate_Stop.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_stop.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Animate_Stop, Animate_Stop macro [Windows Controls], _win32_Animate_Stop, _win32_Animate_Stop_cpp, commctrl/Animate_Stop, controls.Animate_Stop, controls._win32_Animate_Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

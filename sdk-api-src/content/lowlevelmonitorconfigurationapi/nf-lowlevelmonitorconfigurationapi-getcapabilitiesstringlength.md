@@ -1,16 +1,16 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.GetCapabilitiesStringLength
 title: GetCapabilitiesStringLength function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the length of a monitor's capabilities string.
 old-location: monitor\getcapabilitiesstringlength.htm
 old-project: Monitor
 ms.assetid: fe38e63d-b5b8-4b64-b7cb-9ff1c20a2e4a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetCapabilitiesStringLength, GetCapabilitiesStringLength function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetCapabilitiesStringLength, monitor.getcapabilitiesstringlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 

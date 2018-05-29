@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITToneDetectionEvent.get_AppSpecific
 title: ITToneDetectionEvent::get_AppSpecific
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_AppSpecific method gets the application-defined tag that identifies the tone associated with the tone detection event.
 old-location: tapi3\ittonedetectionevent_get_appspecific.htm
 old-project: Tapi
 ms.assetid: 5c6c4890-7e65-4b4a-bc2f-ea3c11e5e85a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITToneDetectionEvent interface [TAPI 2.2],get_AppSpecific method, ITToneDetectionEvent.get_AppSpecific, ITToneDetectionEvent::get_AppSpecific, _tapi3_ittonedetectionevent_get_appspecific, get_AppSpecific, get_AppSpecific method [TAPI 2.2], get_AppSpecific method [TAPI 2.2],ITToneDetectionEvent interface, tapi3.ittonedetectionevent_get_appspecific, tapi3if/ITToneDetectionEvent::get_AppSpecific
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

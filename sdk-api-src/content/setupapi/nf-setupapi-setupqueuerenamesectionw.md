@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupQueueRenameSectionW
 title: SetupQueueRenameSectionW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupQueueRenameSection function queues a section in an INF file for renaming. The section must be in the correct rename list section format and the INF file must contain a DestinationDirs section.
 old-location: setup\setupqueuerenamesection.htm
 old-project: SetupApi
 ms.assetid: 8ac93cfa-cfe4-4747-813d-512963d0d87c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupQueueRenameSection, SetupQueueRenameSection function [Setup API], SetupQueueRenameSectionA, SetupQueueRenameSectionW, _setupapi_setupqueuerenamesection, setup.setupqueuerenamesection, setupapi/SetupQueueRenameSection, setupapi/SetupQueueRenameSectionA, setupapi/SetupQueueRenameSectionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

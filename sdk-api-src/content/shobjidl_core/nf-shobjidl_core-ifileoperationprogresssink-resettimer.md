@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.ResetTimer
 title: IFileOperationProgressSink::ResetTimer
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.
 old-location: shell\IFileOperationProgressSink_ResetTimer.htm
 old-project: shell
 ms.assetid: b753b53d-4a54-4bb2-af94-dd296f86b37a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],ResetTimer method, IFileOperationProgressSink.ResetTimer, IFileOperationProgressSink::ResetTimer, ResetTimer, ResetTimer method [Windows Shell], ResetTimer method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_ResetTimer, shell.IFileOperationProgressSink_ResetTimer, shobjidl_core/IFileOperationProgressSink::ResetTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:dshowasf.IAMWMBufferPassCallback
 title: IAMWMBufferPassCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMWMBufferPassCallback interface is a callback interface used with the WM ASF Reader and WM ASF Writer filters.
 old-location: dshow\iamwmbufferpasscallback.htm
 old-project: DirectShow
 ms.assetid: c3a8e01e-a626-4e47-ad98-e22d1fe88906
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMWMBufferPassCallback, IAMWMBufferPassCallback interface [DirectShow], IAMWMBufferPassCallback interface [DirectShow],described, IAMWMBufferPassCallbackInterface, dshow.iamwmbufferpasscallback, dshowasf/IAMWMBufferPassCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dshowasf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:searchapi.ISearchCatalogManager
 title: ISearchCatalogManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to manage a search catalog for purposes such as re-indexing or setting timeouts.
 old-location: search\_search_ISearchCatalogManager.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\isearchcatalogmanager.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], ISearchCatalogManager interface [search],described, _search_ISearchCatalogManager, search._search_ISearchCatalogManager, searchapi/ISearchCatalogManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHObjectProperties
 title: SHObjectProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHObjectProperties may be altered or unavailable.
 old-location: shell\SHObjectProperties.htm
 old-project: shell
 ms.assetid: 7517c461-955b-446e-85d7-a707c9bd183a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHOP_FILEPATH, SHOP_PRINTERNAME, SHOP_VOLUMEGUID, SHObjectProperties, SHObjectProperties function [Windows Shell], _win32_SHObjectProperties, shell.SHObjectProperties, shlobj_core/SHObjectProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

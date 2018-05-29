@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFNetResourceFilter
 title: IMFNetResourceFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the application when a byte stream requests a URL, and enables the application to block URL redirection.
 old-location: mf\imfnetresourcefilter.htm
 old-project: medfound
 ms.assetid: AC8FBD93-B39B-4530-8475-275D3D0DA512
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFNetResourceFilter, IMFNetResourceFilter interface [Media Foundation], IMFNetResourceFilter interface [Media Foundation],described, mf.imfnetresourcefilter, mfidl/IMFNetResourceFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanGetSecuritySettings
 title: WlanGetSecuritySettings function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the security settings associated with a configurable object.
 old-location: nwifi\wlangetsecuritysettings.htm
 old-project: NativeWiFi
 ms.assetid: 5e14a70c-c049-4cd1-8675-2b01ed11463f
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanGetSecuritySettings, WlanGetSecuritySettings function [NativeWIFI], nwifi.wlangetsecuritysettings, wlan_opcode_value_type_set_by_group_policy, wlan_opcode_value_type_set_by_user, wlanapi/WlanGetSecuritySettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

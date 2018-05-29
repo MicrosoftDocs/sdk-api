@@ -1,16 +1,16 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerW.GetNextLink
 title: IOleUILinkContainerW::GetNextLink
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the links in a container.
 old-location: com\ioleuilinkcontainer_getnextlink.htm
 old-project: com
 ms.assetid: 60246b31-3677-4424-a131-840feeca030f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetNextLink, GetNextLink method [COM], GetNextLink method [COM],IOleUILinkContainer interface, GetNextLink method [COM],IOleUILinkContainerA interface, GetNextLink method [COM],IOleUILinkContainerW interface, IOleUILinkContainer interface [COM],GetNextLink method, IOleUILinkContainer::GetNextLink, IOleUILinkContainerA interface [COM],GetNextLink method, IOleUILinkContainerA::GetNextLink, IOleUILinkContainerW interface [COM],GetNextLink method, IOleUILinkContainerW.GetNextLink, IOleUILinkContainerW::GetNextLink, _ole_IOleUILinkContainer_GetNextLink, com.ioleuilinkcontainer_getnextlink, oledlg/IOleUILinkContainer::GetNextLink, oledlg/IOleUILinkContainerA::GetNextLink, oledlg/IOleUILinkContainerW::GetNextLink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oledlg.h
 req.include-header: 

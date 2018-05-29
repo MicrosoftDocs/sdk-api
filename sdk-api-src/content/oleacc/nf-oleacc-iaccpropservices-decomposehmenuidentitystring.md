@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccPropServices.DecomposeHmenuIdentityString
 title: IAccPropServices::DecomposeHmenuIdentityString
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this method to determine the HMENU, object ID, and child ID for the accessible element identified by the identity string.
 old-location: winauto\iaccpropservices_iaccpropservices__decomposehmenuidentitystring.htm
 old-project: WinAuto
 ms.assetid: b76c4ba8-fb9a-438b-8547-b73b3c459ec6
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: DecomposeHmenuIdentityString, DecomposeHmenuIdentityString method [Windows Accessibility], DecomposeHmenuIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],DecomposeHmenuIdentityString method, IAccPropServices.DecomposeHmenuIdentityString, IAccPropServices::DecomposeHmenuIdentityString, oleacc/IAccPropServices::DecomposeHmenuIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehmenuidentitystring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.

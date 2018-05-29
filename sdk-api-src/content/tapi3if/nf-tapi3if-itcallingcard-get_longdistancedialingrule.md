@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCallingCard.get_LongDistanceDialingRule
 title: ITCallingCard::get_LongDistanceDialingRule
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_LongDistanceDialingRule method gets the long distance dialing rules for this calling card.
 old-location: tapi3\itcallingcard_get_longdistancedialingrule.htm
 old-project: Tapi
 ms.assetid: 97ad3528-ee84-4b61-9d08-55d3500432dd
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_LongDistanceDialingRule method, ITCallingCard.get_LongDistanceDialingRule, ITCallingCard::get_LongDistanceDialingRule, _tapi3_itcallingcard_get_longdistancedialingrule, get_LongDistanceDialingRule, get_LongDistanceDialingRule method [TAPI 2.2], get_LongDistanceDialingRule method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_longdistancedialingrule, tapi3if/ITCallingCard::get_LongDistanceDialingRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

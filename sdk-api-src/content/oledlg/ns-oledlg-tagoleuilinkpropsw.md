@@ -1,16 +1,16 @@
 ---
 UID: NS:oledlg.tagOLEUILINKPROPSW
 title: tagOLEUILINKPROPSW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that is used to initialize the Link tab of the Object Properties dialog box.
 old-location: com\oleuilinkprops_struct.htm
 old-project: com
 ms.assetid: 3f355ce8-adc3-4878-a8b4-3f7d94547ef1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPOLEUILINKPROPSW, *POLEUILINKPROPSW, LPOLEUILINKPROPS, LPOLEUILINKPROPS structure pointer [COM], OLEUILINKPROPS, OLEUILINKPROPS structure [COM], OLEUILINKPROPSA, OLEUILINKPROPSW, POLEUILINKPROPS, POLEUILINKPROPS structure pointer [COM], _ole_OLEUILINKPROPS, com.oleuilinkprops_struct, oledlg/LPOLEUILINKPROPS, oledlg/OLEUILINKPROPS, oledlg/OLEUILINKPROPSA, oledlg/OLEUILINKPROPSW, oledlg/POLEUILINKPROPS, tagOLEUILINKPROPSW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 

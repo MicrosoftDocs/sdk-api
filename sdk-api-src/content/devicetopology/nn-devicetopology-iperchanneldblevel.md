@@ -1,16 +1,16 @@
 ---
 UID: NN:devicetopology.IPerChannelDbLevel
 title: IPerChannelDbLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: The IPerChannelDbLevel interface represents a generic subunit control interface that provides per-channel control over the volume level, in decibels, of an audio stream or of a frequency band in an audio stream.
 old-location: coreaudio\iperchanneldblevel.htm
 old-project: CoreAudio
 ms.assetid: e70b4518-c9de-4426-b8e5-db80656699a9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IPerChannelDbLevel, IPerChannelDbLevel interface [Core Audio], IPerChannelDbLevel interface [Core Audio],described, coreaudio.iperchanneldblevel, devicetopology/IPerChannelDbLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

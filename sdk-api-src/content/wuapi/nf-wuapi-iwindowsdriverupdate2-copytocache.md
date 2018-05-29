@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate2.CopyToCache
 title: IWindowsDriverUpdate2::CopyToCache
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies the external update binaries to an update.
 old-location: wua\iwindowsdriverupdate2_copytocache.htm
 old-project: Wua_Sdk
 ms.assetid: 3ad3f1bf-8da3-4d7d-8ed9-508422782861
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CopyToCache, CopyToCache method [Windows Update Agent], CopyToCache method [Windows Update Agent],IWindowsDriverUpdate2 interface, IWindowsDriverUpdate2 interface [Windows Update Agent],CopyToCache method, IWindowsDriverUpdate2.CopyToCache, IWindowsDriverUpdate2::CopyToCache, wua.iwindowsdriverupdate2_copytocache, wuapi/IWindowsDriverUpdate2::CopyToCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

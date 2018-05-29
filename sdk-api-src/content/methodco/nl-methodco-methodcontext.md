@@ -1,16 +1,16 @@
 ---
 UID: NL:methodco.MethodContext
 title: MethodContext
-author: windows-driver-content
+author: windows-sdk-content
 description: The MethodContext class is the pointer to a structure used in a provider to get or set IWbemClassObject information. WMI does not implement any functionality based on the pointer.
 old-location: wmi\methodcontext.htm
 old-project: WmiSdk
 ms.assetid: aea20c9d-4042-426a-abdf-51ebddf017aa
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: MethodContext, MethodContext class [Windows Management Instrumentation], MethodContext class [Windows Management Instrumentation],described, methodco/MethodContext, wmi.methodcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: methodco.h
 req.include-header: 

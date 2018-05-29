@@ -1,16 +1,16 @@
 ---
 UID: NE:netlistmgr.NLM_NETWORK_CATEGORY
 title: NLM_NETWORK_CATEGORY
-author: windows-driver-content
+author: windows-sdk-content
 description: The NLM_NETWORK_CATEGORY enumeration is a set of flags that specify the category type of a network.
 old-location: nla\nlm_network_category.htm
 old-project: NLA
 ms.assetid: 1bc9720f-7b31-4a09-8bce-a6281ca9b9c4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NLM_NETWORK_CATEGORY, NLM_NETWORK_CATEGORY enumeration [Network Awareness], NLM_NETWORK_CATEGORY_DOMAIN_AUTHENTICATED, NLM_NETWORK_CATEGORY_PRIVATE, NLM_NETWORK_CATEGORY_PUBLIC, netlistmgr/NLM_NETWORK_CATEGORY, netlistmgr/NLM_NETWORK_CATEGORY_DOMAIN_AUTHENTICATED, netlistmgr/NLM_NETWORK_CATEGORY_PRIVATE, netlistmgr/NLM_NETWORK_CATEGORY_PUBLIC, nla.nlm_network_category
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: netlistmgr.h
 req.include-header: 

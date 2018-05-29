@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetMValue
 title: GetMValue macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetMValue macro retrieves the magenta color value from a CMYK color value.
 old-location: wcs\getmvalue.htm
 old-project: WCS
 ms.assetid: d24816de-a3c7-4d9f-b6a0-652330cd3ccd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetMValue, GetMValue macro [Windows Color System], _color_GetMValue, wcs.getmvalue, wingdi/GetMValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: wingdi.h
 req.include-header: 

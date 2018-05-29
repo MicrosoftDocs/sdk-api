@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_RecipientName
 title: IFaxDoc::get_RecipientName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the RecipientName property of a FaxDoc object. The RecipientName property is a null-terminated string that contains the name of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_recipientname_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5xut.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxDoc object [Fax Service],RecipientName property, FaxDoc.RecipientName, IFaxDoc.get_RecipientName, IFaxDoc::get_RecipientName, RecipientName property [Fax Service], RecipientName property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_recipientname, fax._mfax_ifaxdoc_get_recipientname, fax._mfax_ifaxdoc_get_recipientname_vb, get_RecipientName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

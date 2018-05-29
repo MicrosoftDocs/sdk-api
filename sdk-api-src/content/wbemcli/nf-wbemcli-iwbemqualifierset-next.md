@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemQualifierSet.Next
 title: IWbemQualifierSet::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemQualifierSet::Next method retrieves the next qualifier in an enumeration that started with IWbemQualifierSet::BeginEnumeration.
 old-location: wmi\iwbemqualifierset_next.htm
 old-project: WmiSdk
 ms.assetid: 76afa293-1bd9-442b-bc9b-2247459bd49c
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemQualifierSet interface [Windows Management Instrumentation],Next method, IWbemQualifierSet.Next, IWbemQualifierSet::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IWbemQualifierSet interface, _hmm_iwbemqualifierset_next, wbemcli/IWbemQualifierSet::Next, wmi.iwbemqualifierset_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

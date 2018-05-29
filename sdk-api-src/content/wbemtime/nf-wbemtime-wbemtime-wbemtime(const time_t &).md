@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemtime.WBEMTime.WBEMTime(const time_t &)
 title: WBEMTime::WBEMTime(const time_t &)
-author: windows-driver-content
+author: windows-sdk-content
 description: The WBEMTime class constructor facilitates conversions between various Windows and ANSI C run-time time formats.
 old-location: wmi\wbemtime_wbemtime.htm
 old-project: WmiSdk
 ms.assetid: 8b0ce221-2186-4aed-a474-00f88cef6350
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: WBEMTime, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const time_t &), WBEMTime::WBEMTime, WBEMTime::WBEMTime constructors [Windows Management Instrumentation], WBEMTime::WBEMTime(const time_t &), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

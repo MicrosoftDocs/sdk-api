@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Application_NewHostedProvider
 title: MI_Application_NewHostedProvider function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a hosted provider with the WMI engine on the local machine.
 old-location: wmi_v2\mi_application_newhostedprovider.htm
 old-project: wmi_v2
 ms.assetid: 4f39ffca-4ae3-4ce5-9460-c7ac27c06a50
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Application_NewHostedProvider, MI_Application_NewHostedProvider function [Windows Management Infrastructure (MI)], mi/MI_Application_NewHostedProvider, wmi_v2.mi_application_newhostedprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

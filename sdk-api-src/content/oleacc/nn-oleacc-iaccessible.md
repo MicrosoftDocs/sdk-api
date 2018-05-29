@@ -1,16 +1,16 @@
 ---
 UID: NN:oleacc.IAccessible
 title: IAccessible
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods and properties that make a user interface element and its children accessible to client applications.
 old-location: winauto\iaccessible.htm
 old-project: WinAuto
 ms.assetid: 51e95b01-71e7-435b-85fb-28ee43eb08a7
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccessible, IAccessible interface [Windows Accessibility], IAccessible interface [Windows Accessibility],described, _msaa_IAccessible, msaa.iaccessible, oleacc/IAccessible, winauto.iaccessible
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleacc.h
 req.include-header: 

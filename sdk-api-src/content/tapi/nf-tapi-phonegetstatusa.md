@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneGetStatusA
 title: phoneGetStatusA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneGetStatus function enables an application to query the specified open phone device for its overall status.
 old-location: tapi2\phonegetstatus.htm
 old-project: Tapi
 ms.assetid: d2e9e209-54f5-4895-b57a-a5f4c24e063e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phonegetstatus, phoneGetStatus, phoneGetStatus function [TAPI 2.2], phoneGetStatusA, phoneGetStatusW, tapi/phoneGetStatus, tapi/phoneGetStatusA, tapi/phoneGetStatusW, tapi2.phonegetstatus"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

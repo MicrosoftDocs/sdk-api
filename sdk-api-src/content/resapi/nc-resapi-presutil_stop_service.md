@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_STOP_SERVICE
 title: PRESUTIL_STOP_SERVICE
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops a service identified by a handle. The PRESUTIL_STOP_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilstopservice.htm
 old-project: MsCS
 ms.assetid: 22be9285-7db6-43dc-bf41-08187bbefc41
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_STOP_SERVICE, PRESUTIL_STOP_SERVICE callback, PRESUTIL_STOP_SERVICE callback function [Failover Cluster], _wolf_resutilstopservice, mscs.resutilstopservice, resapi/PRESUTIL_STOP_SERVICE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

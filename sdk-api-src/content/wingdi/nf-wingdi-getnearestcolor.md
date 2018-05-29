@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetNearestColor
 title: GetNearestColor function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNearestColor function retrieves a color value identifying a color from the system palette that will be displayed when the specified color value is used.
 old-location: gdi\getnearestcolor.htm
 old-project: gdi
 ms.assetid: 89e4e19b-47be-442e-8eb4-c867bb78f36a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNearestColor, GetNearestColor function [Windows GDI], _win32_GetNearestColor, gdi.getnearestcolor, wingdi/GetNearestColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

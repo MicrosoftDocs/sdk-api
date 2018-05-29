@@ -1,16 +1,16 @@
 ---
 UID: NC:ws2spi.LPWSPADDRESSTOSTRING
 title: LPWSPADDRESSTOSTRING
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSPAddressToString function converts all components of a sockaddr structure into a human readableâ€“numeric string representation of the address. This is used mainly for display purposes.
 old-location: winsock\wspaddresstostring_2.htm
 old-project: WinSock
 ms.assetid: 7a6d8f77-7235-4cd1-90e1-9b5260137246
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: LPWSPADDRESSTOSTRING, WSPAddressToString, WSPAddressToString function [Winsock], _win32_wspaddresstostring_2, winsock.wspaddresstostring_2, ws2spi/WSPAddressToString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

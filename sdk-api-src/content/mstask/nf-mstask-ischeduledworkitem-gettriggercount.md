@@ -1,16 +1,16 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetTriggerCount
 title: IScheduledWorkItem::GetTriggerCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of triggers for the current work item.
 old-location: taskschd\ischeduledworkitem_gettriggercount.htm
 old-project: TaskSchd
 ms.assetid: db1c98db-c4c1-45af-baba-097ee8dc6abf
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetTriggerCount, GetTriggerCount method [Task Scheduler], GetTriggerCount method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetTriggerCount method, IScheduledWorkItem.GetTriggerCount, IScheduledWorkItem::GetTriggerCount, _msb_ischeduledworkitem_gettriggercount, mstask/IScheduledWorkItem::GetTriggerCount, taskschd.ischeduledworkitem_gettriggercount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

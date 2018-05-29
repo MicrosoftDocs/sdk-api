@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite.DWRITE_TRIMMING_GRANULARITY
 title: DWRITE_TRIMMING_GRANULARITY
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the text granularity used to trim text overflowing the layout box.
 old-location: directwrite\dwrite_trimming_granularity.htm
 old-project: DirectWrite
 ms.assetid: 81ab22cd-7b7f-4db6-9f67-2cafd54f4621
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_TRIMMING_GRANULARITY, DWRITE_TRIMMING_GRANULARITY enumeration [Direct Write], DWRITE_TRIMMING_GRANULARITY_CHARACTER, DWRITE_TRIMMING_GRANULARITY_NONE, DWRITE_TRIMMING_GRANULARITY_WORD, directwrite.dwrite_trimming_granularity, dwrite/DWRITE_TRIMMING_GRANULARITY, dwrite/DWRITE_TRIMMING_GRANULARITY_CHARACTER, dwrite/DWRITE_TRIMMING_GRANULARITY_NONE, dwrite/DWRITE_TRIMMING_GRANULARITY_WORD
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 

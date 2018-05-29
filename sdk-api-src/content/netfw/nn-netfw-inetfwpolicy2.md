@@ -1,16 +1,16 @@
 ---
 UID: NN:netfw.INetFwPolicy2
 title: INetFwPolicy2
-author: windows-driver-content
+author: windows-sdk-content
 description: To access the firewall policy.
 old-location: ics\inetfwpolicy2.htm
 old-project: ICS
 ms.assetid: ef01a531-ddb0-4eb4-894b-82f613016396
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], INetFwPolicy2 interface [ICS/ICF],described, ics.inetfwpolicy2, netfw/INetFwPolicy2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

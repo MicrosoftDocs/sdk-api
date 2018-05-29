@@ -1,16 +1,16 @@
 ---
 UID: NE:tabflicks.FLICKMODE
 title: FLICKMODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes where Flick gestures are enabled.
 old-location: tablet\flickmode.htm
 old-project: tablet
 ms.assetid: d8e015dc-033c-47a6-b4fd-6ef3b014e505
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FLICKMODE, FLICKMODE enumeration [Tablet PC], FLICKMODE_OFF, FLICKMODE_ON, d8e015dc-033c-47a6-b4fd-6ef3b014e505, tabflicks/FLICKMODE, tabflicks/FLICKMODE_OFF, tabflicks/FLICKMODE_ON, tablet.flickmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tabflicks.h
 req.include-header: 

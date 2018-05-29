@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.Initialize
 title: IX509PolicyServerListManager::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an IX509PolicyServerListManager object.
 old-location: security\ix509policyserverlistmanager_initialize.htm
 old-project: SecCertEnroll
 ms.assetid: 9b3d2913-a0a8-4ec0-b705-8525b54e5494
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerListManager interface [Security],Initialize method, IX509PolicyServerListManager.Initialize, IX509PolicyServerListManager::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509PolicyServerListManager interface, PsfLocationGroupPolicy, PsfLocationRegistry, certenroll/IX509PolicyServerListManager::Initialize, security.ix509policyserverlistmanager_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

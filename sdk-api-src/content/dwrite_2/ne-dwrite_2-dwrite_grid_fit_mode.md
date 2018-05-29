@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite_2.DWRITE_GRID_FIT_MODE
 title: DWRITE_GRID_FIT_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether to enable grid-fitting of glyph outlines (also known as hinting).
 old-location: directwrite\dwrite_grid_fit_mode.htm
 old-project: DirectWrite
 ms.assetid: C32A6017-3711-482B-B806-79651163DEF6
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_GRID_FIT_MODE, DWRITE_GRID_FIT_MODE enumeration [Direct Write], DWRITE_GRID_FIT_MODE_DEFAULT, DWRITE_GRID_FIT_MODE_DISABLED, DWRITE_GRID_FIT_MODE_ENABLED, directwrite.dwrite_grid_fit_mode, dwrite_2/DWRITE_GRID_FIT_MODE, dwrite_2/DWRITE_GRID_FIT_MODE_DEFAULT, dwrite_2/DWRITE_GRID_FIT_MODE_DISABLED, dwrite_2/DWRITE_GRID_FIT_MODE_ENABLED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_IS_WRITABLE
 title: IOCTL_DISK_IS_WRITABLE
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the specified disk is writable.
 old-location: fs\ioctl_disk_is_writable.htm
 old-project: FileIO
 ms.assetid: 0b56ea0d-95ae-4306-9866-b4b5e985ed43
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IOCTL_DISK_IS_WRITABLE, IOCTL_DISK_IS_WRITABLE control, IOCTL_DISK_IS_WRITABLE control code [Files], base.ioctl_disk_is_writable, fs.ioctl_disk_is_writable, winioctl/IOCTL_DISK_IS_WRITABLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

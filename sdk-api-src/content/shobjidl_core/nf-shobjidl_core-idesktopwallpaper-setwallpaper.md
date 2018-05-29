@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.SetWallpaper
 title: IDesktopWallpaper::SetWallpaper
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the desktop wallpaper.
 old-location: shell\IDesktopWallpaper_SetWallpaper.htm
 old-project: shell
 ms.assetid: 5E0731DC-8B70-40dc-B90A-97B1E3E4D55D
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDesktopWallpaper interface [Windows Shell],SetWallpaper method, IDesktopWallpaper.SetWallpaper, IDesktopWallpaper::SetWallpaper, SetWallpaper, SetWallpaper method [Windows Shell], SetWallpaper method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetWallpaper, shobjidl_core/IDesktopWallpaper::SetWallpaper
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

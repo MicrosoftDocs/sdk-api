@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITTAPIObjectEvent.get_TAPIObject
 title: ITTAPIObjectEvent::get_TAPIObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_TAPIObject method gets a pointer to the TAPI object on which the event occurred.
 old-location: tapi3\ittapiobjectevent_get_tapiobject.htm
 old-project: Tapi
 ms.assetid: d0dcf3ca-e6b7-4eb4-b3f2-8ddeea16d746
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITTAPIObjectEvent interface [TAPI 2.2],get_TAPIObject method, ITTAPIObjectEvent.get_TAPIObject, ITTAPIObjectEvent::get_TAPIObject, _tapi3_ittapiobjectevent_get_tapiobject, get_TAPIObject, get_TAPIObject method [TAPI 2.2], get_TAPIObject method [TAPI 2.2],ITTAPIObjectEvent interface, tapi3.ittapiobjectevent_get_tapiobject, tapi3if/ITTAPIObjectEvent::get_TAPIObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

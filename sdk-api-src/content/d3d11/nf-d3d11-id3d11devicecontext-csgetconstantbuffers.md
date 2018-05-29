@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSGetConstantBuffers
 title: ID3D11DeviceContext::CSGetConstantBuffers
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the constant buffers used by the compute-shader stage.
 old-location: direct3d11\id3d11devicecontext_csgetconstantbuffers.htm
 old-project: direct3d11
 ms.assetid: 9ffd4fb5-9e7f-4a1b-b7ad-3c7384406385
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: CSGetConstantBuffers, CSGetConstantBuffers method [Direct3D 11], CSGetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSGetConstantBuffers method, ID3D11DeviceContext.CSGetConstantBuffers, ID3D11DeviceContext::CSGetConstantBuffers, b331ef2e-dd10-3f32-3cbb-15e00b11ef92, d3d11/ID3D11DeviceContext::CSGetConstantBuffers, direct3d11.id3d11devicecontext_csgetconstantbuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

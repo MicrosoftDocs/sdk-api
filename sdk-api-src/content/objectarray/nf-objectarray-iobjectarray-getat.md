@@ -1,16 +1,16 @@
 ---
 UID: NF:objectarray.IObjectArray.GetAt
 title: IObjectArray::GetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a pointer to a specified object's interface. The object and interface are specified by index and interface ID.
 old-location: shell\IObjectArray_GetAt.htm
 old-project: shell
 ms.assetid: 168d2f09-60c9-457a-b4dd-7678f97eda1b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetAt, GetAt method [Windows Shell], GetAt method [Windows Shell],IObjectArray interface, IObjectArray interface [Windows Shell],GetAt method, IObjectArray.GetAt, IObjectArray::GetAt, _shell_IObjectArray_GetAt, objectarray/IObjectArray::GetAt, shell.IObjectArray_GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objectarray.h
 req.include-header: 

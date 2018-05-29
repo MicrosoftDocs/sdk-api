@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwOpenPorts.Add
 title: INetFwOpenPorts::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a new port and adds it to the collection.
 old-location: ics\inetfwopenports_add.htm
 old-project: ICS
 ms.assetid: fd97333d-9bd5-4ab2-9189-75a7f7f52622
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwOpenPorts interface, INetFwOpenPorts interface [ICS/ICF],Add method, INetFwOpenPorts.Add, INetFwOpenPorts::Add, ics.inetfwopenports_add, netfw/INetFwOpenPorts::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

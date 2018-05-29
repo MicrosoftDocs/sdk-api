@@ -1,16 +1,16 @@
 ---
 UID: NF:rpc.RpcExcept
 title: RpcExcept macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcExcept statement provides structured exception handling for RPC applications.
 old-location: rpc\rpcexcept.htm
 old-project: Rpc
 ms.assetid: 5bd57250-1fd7-4aeb-aa53-4fd2c8d84836
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcExcept, RpcExcept macro [RPC], _rpc_rpcexcept, rpc.rpcexcept, rpc/RpcExcept
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: rpc.h
 req.include-header: 

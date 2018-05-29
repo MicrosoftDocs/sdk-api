@@ -1,16 +1,16 @@
 ---
 UID: NE:sdoias._RADIUSSERVERGROUPPROPERTIES
 title: "_RADIUSSERVERGROUPPROPERTIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: The values in the RADIUSSERVERGROUPPROPERTIES enumeration type enumerate properties of a RADIUS server group.
 old-location: nps\SDO_radiusservergroupproperties.htm
 old-project: Nps
 ms.assetid: b78aacfb-2e79-4c25-bc0c-acecb1a12993
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION, RADIUSSERVERGROUPPROPERTIES, RADIUSSERVERGROUPPROPERTIES enumeration [Network Policy Server], _RADIUSSERVERGROUPPROPERTIES, _sdo_radiusservergroupproperties, nps.SDO_radiusservergroupproperties, sdo.radiusservergroupproperties, sdoias/PROPERTY_RADIUSSERVERGROUP_SERVERS_COLLECTION, sdoias/RADIUSSERVERGROUPPROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_internetMediaSharingSecurityGroup
 title: IWindowsMediaLibrarySharingServices::get_internetMediaSharingSecurityGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_internetMediaSharingSecurityGroup method retrieves the name of the security group that is used to authenticate connections coming in over the Internet.
 old-location: wmlss\IWMLSSget_internetMediaSharingSecurityGroup.htm
 old-project: WMLSS
 ms.assetid: a0085105-7dd5-453d-b372-115d319eb7ac
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_internetMediaSharingSecurityGroup method, IWindowsMediaLibrarySharingServices.get_internetMediaSharingSecurityGroup, IWindowsMediaLibrarySharingServices::get_internetMediaSharingSecurityGroup, get_internetMediaSharingSecurityGroup, get_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services], get_internetMediaSharingSecurityGroup method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_internetMediaSharingSecurityGroup, wmlss/IWindowsMediaLibrarySharingServices::get_internetMediaSharingSecurityGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h

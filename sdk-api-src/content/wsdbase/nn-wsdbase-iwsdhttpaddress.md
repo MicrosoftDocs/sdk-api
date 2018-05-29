@@ -1,16 +1,16 @@
 ---
 UID: NN:wsdbase.IWSDHttpAddress
 title: IWSDHttpAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the individual components of an HTTP address.
 old-location: ncd\iwsdhttpaddress.htm
 old-project: WsdApi
 ms.assetid: 79d3570a-56b2-40ad-b3c6-cddc3239da7e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDHttpAddress, IWSDHttpAddress interface, IWSDHttpAddress interface,described, ncd.iwsdhttpaddress, wsdbase/IWSDHttpAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

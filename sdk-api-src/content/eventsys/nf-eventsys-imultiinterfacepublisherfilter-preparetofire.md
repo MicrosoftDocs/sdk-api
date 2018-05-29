@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IMultiInterfacePublisherFilter.PrepareToFire
 title: IMultiInterfacePublisherFilter::PrepareToFire
-author: windows-driver-content
+author: windows-sdk-content
 description: Prepares the publisher filter to begin firing a filtered list of subscriptions using a provided firing control. The firing control is contained in the event class object.
 old-location: cos\imultiinterfacepublisherfilter_preparetofire.htm
 old-project: cossdk
 ms.assetid: a9257017-a9e7-4a0a-9dee-55493a659bda
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMultiInterfacePublisherFilter interface [COM+],PrepareToFire method, IMultiInterfacePublisherFilter.PrepareToFire, IMultiInterfacePublisherFilter::PrepareToFire, PrepareToFire, PrepareToFire method [COM+], PrepareToFire method [COM+],IMultiInterfacePublisherFilter interface, _cos_MultiInterfacePublisherFilter_PrepareToFire, cos.imultiinterfacepublisherfilter_preparetofire, eventsys/IMultiInterfacePublisherFilter::PrepareToFire
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

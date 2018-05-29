@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.OaBuildVersion
 title: OaBuildVersion function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the build version of OLE Automation.
 old-location: automat\oabuildversion.htm
 old-project: automat
 ms.assetid: e7466457-1025-4f1b-8b29-01cdf2358217
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: OaBuildVersion, OaBuildVersion function [Automation], _oa96_OaBuildVersion, automat.oabuildversion, oleauto/OaBuildVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

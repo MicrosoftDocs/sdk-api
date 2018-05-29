@@ -1,16 +1,16 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioObjectBuffer.GetType
 title: IMFSpatialAudioObjectBuffer::GetType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the type of the spatial audio object represented by the buffer. If SetType has not been called previously, this method returns the default value of AudioObjectType_None.
 old-location: mf\imfspatialaudioobjectbuffer_gettype.htm
 old-project: medfound
 ms.assetid: CF0285D2-E56B-44A5-B7E0-3227213D9523
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetType method, IMFSpatialAudioObjectBuffer.GetType, IMFSpatialAudioObjectBuffer::GetType, mf.imfspatialaudioobjectbuffer_gettype, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h

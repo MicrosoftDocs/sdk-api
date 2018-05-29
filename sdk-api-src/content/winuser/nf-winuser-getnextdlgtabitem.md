@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetNextDlgTabItem
 title: GetNextDlgTabItem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a handle to the first control that has the WS_TABSTOP style that precedes (or follows) the specified control.
 old-location: dlgbox\getnextdlgtabitem.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getnextdlgtabitem.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetNextDlgTabItem, GetNextDlgTabItem function [Dialog Boxes], _win32_GetNextDlgTabItem, _win32_getnextdlgtabitem_cpp, dlgbox.getnextdlgtabitem, winui._win32_getnextdlgtabitem, winuser/GetNextDlgTabItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:netfw.INetFwRule
 title: INetFwRule
-author: windows-driver-content
+author: windows-sdk-content
 description: To the properties of a rule.
 old-location: ics\inetfwrule.htm
 old-project: ICS
 ms.assetid: 59e2a140-bf55-4f0e-bf4b-1a39d3dc0457
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwRule, INetFwRule interface [ICS/ICF], INetFwRule interface [ICS/ICF],described, ics.inetfwrule, netfw/INetFwRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetMonitorDevicePathCount
 title: IDesktopWallpaper::GetMonitorDevicePathCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of monitors that are associated with the system.
 old-location: shell\IDesktopWallpaper_GetMonitorDevicePathCount.htm
 old-project: shell
 ms.assetid: E7490E24-7BCE-4fbb-8512-998EAE045CE7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetMonitorDevicePathCount, GetMonitorDevicePathCount method [Windows Shell], GetMonitorDevicePathCount method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],GetMonitorDevicePathCount method, IDesktopWallpaper.GetMonitorDevicePathCount, IDesktopWallpaper::GetMonitorDevicePathCount, shell.IDesktopWallpaper_GetMonitorDevicePathCount, shobjidl_core/IDesktopWallpaper::GetMonitorDevicePathCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.Clear
 title: IPolicyQualifiers::Clear
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all objects from the collection.
 old-location: security\ipolicyqualifiers_clear_method.htm
 old-project: SecCertEnroll
 ms.assetid: 96b36a6e-f67b-40fb-ab05-4782e7cb659f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IPolicyQualifiers interface, IPolicyQualifiers interface [Security],Clear method, IPolicyQualifiers.Clear, IPolicyQualifiers::Clear, certenroll/IPolicyQualifiers::Clear, security.ipolicyqualifiers_clear_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

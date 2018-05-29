@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.FlashWindowEx
 title: FlashWindowEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Flashes the specified window. It does not change the active state of the window.
 old-location: base\flashwindowex.htm
 old-project: Debug
 ms.assetid: 474ec2d9-3ee9-4622-843e-d6ae36fedd7f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: FlashWindowEx, FlashWindowEx function, _win32_flashwindowex, base.flashwindowex, winuser/FlashWindowEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

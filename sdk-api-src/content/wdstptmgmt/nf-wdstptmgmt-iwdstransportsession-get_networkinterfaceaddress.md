@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_NetworkInterfaceAddress
 title: IWdsTransportSession::get_NetworkInterfaceAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives the MAC address of the server network interface used by this transport session.
 old-location: wds\iwdstransportsession_networkinterfaceaddress.htm
 old-project: Wds
 ms.assetid: 6585452b-037c-4ee8-807a-144b6b53695a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],NetworkInterfaceAddress property, IWdsTransportSession.NetworkInterfaceAddress, IWdsTransportSession.get_NetworkInterfaceAddress, IWdsTransportSession::NetworkInterfaceAddress, IWdsTransportSession::get_NetworkInterfaceAddress, NetworkInterfaceAddress property [Windows Deployment Services], NetworkInterfaceAddress property [Windows Deployment Services],IWdsTransportSession interface, get_NetworkInterfaceAddress, wds.iwdstransportsession_networkinterfaceaddress, wdstptmgmt/IWdsTransportSession::NetworkInterfaceAddress, wdstptmgmt/IWdsTransportSession::get_NetworkInterfaceAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

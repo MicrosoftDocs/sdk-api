@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMNameCollection.GetCount
 title: IXpsOMNameCollection::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of name strings in the collection.
 old-location: xps\ixpsomnamecollection_getcount.htm
 old-project: printdocs
 ms.assetid: f449c2f6-fe7b-4115-9a05-fef90f2954b0
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMNameCollection interface, IXpsOMNameCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMNameCollection.GetCount, IXpsOMNameCollection::GetCount, xps.ixpsomnamecollection_getcount, xpsobjectmodel/IXpsOMNameCollection::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

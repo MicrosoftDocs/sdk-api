@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSTER_REG_CLOSE_READ_BATCH_EX
 title: PCLUSTER_REG_CLOSE_READ_BATCH_EX
-author: windows-driver-content
+author: windows-sdk-content
 description: Executes a read batch and returns results from the read batch executions.
 old-location: mscs\clusterregclosereadbatchex.htm
 old-project: MsCS
 ms.assetid: 45509B96-F67D-4754-B073-0B881D681011
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IsolatedRead, None, PCLUSTER_REG_CLOSE_READ_BATCH_EX, PCLUSTER_REG_CLOSE_READ_BATCH_EX callback, PCLUSTER_REG_CLOSE_READ_BATCH_EX callback function [Failover Cluster], clusapi/PCLUSTER_REG_CLOSE_READ_BATCH_EX, mscs.clusterregclosereadbatchex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

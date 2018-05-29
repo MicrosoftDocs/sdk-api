@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory3.EncryptBundle
 title: IAppxEncryptionFactory3::EncryptBundle
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an encrypted Windows app bundle from an unencrypted one.
 old-location: appxpkg\iappxencryptionfactory3_encryptbundle.htm
 old-project: appxpkg
 ms.assetid: 4ECF7227-08A1-4AEB-8545-420090131FB8
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: EncryptBundle, EncryptBundle method [App packaging and management], EncryptBundle method [App packaging and management],IAppxEncryptionFactory3 interface, IAppxEncryptionFactory3 interface [App packaging and management],EncryptBundle method, IAppxEncryptionFactory3.EncryptBundle, IAppxEncryptionFactory3::EncryptBundle, appxpackaging/IAppxEncryptionFactory3::EncryptBundle, appxpkg.iappxencryptionfactory3_encryptbundle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

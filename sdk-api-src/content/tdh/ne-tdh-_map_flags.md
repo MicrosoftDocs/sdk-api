@@ -1,16 +1,16 @@
 ---
 UID: NE:tdh._MAP_FLAGS
 title: "_MAP_FLAGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines constant values that indicate if the map is a value map, bitmap, or pattern map.
 old-location: etw\map_flags_enum.htm
 old-project: ETW
 ms.assetid: 3fc6935a-328a-4df3-8c2f-cd634d94ca16
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EVENTMAP_INFO_FLAG_MANIFEST_BITMAP, EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP, EVENTMAP_INFO_FLAG_MANIFEST_VALUEMAP, EVENTMAP_INFO_FLAG_WBEM_BITMAP, EVENTMAP_INFO_FLAG_WBEM_FLAG, EVENTMAP_INFO_FLAG_WBEM_NO_MAP, EVENTMAP_INFO_FLAG_WBEM_VALUEMAP, MAP_FLAGS, MAP_FLAGS enumeration [ETW], _MAP_FLAGS, etw.map_flags_enum, tdh.map_flags_enum, tdh/EVENTMAP_INFO_FLAG_MANIFEST_BITMAP, tdh/EVENTMAP_INFO_FLAG_MANIFEST_PATTERNMAP, tdh/EVENTMAP_INFO_FLAG_MANIFEST_VALUEMAP, tdh/EVENTMAP_INFO_FLAG_WBEM_BITMAP, tdh/EVENTMAP_INFO_FLAG_WBEM_FLAG, tdh/EVENTMAP_INFO_FLAG_WBEM_NO_MAP, tdh/EVENTMAP_INFO_FLAG_WBEM_VALUEMAP, tdh/MAP_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tdh.h
 req.include-header: 

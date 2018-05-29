@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_CLUSTER_CLOSE_ENUM
 title: PCLUSAPI_CLUSTER_CLOSE_ENUM
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a cluster enumeration handle originally opened by ClusterOpenEnum.
 old-location: mscs\clustercloseenum.htm
 old-project: MsCS
 ms.assetid: 3d7e45a0-d580-4d14-8795-2418bba40c73
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_CLUSTER_CLOSE_ENUM, PCLUSAPI_CLUSTER_CLOSE_ENUM callback, PCLUSAPI_CLUSTER_CLOSE_ENUM callback function [Failover Cluster], _wolf_clustercloseenum, clusapi/PCLUSAPI_CLUSTER_CLOSE_ENUM, mscs.clustercloseenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

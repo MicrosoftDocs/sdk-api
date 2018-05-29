@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagHierarchyShallow
 title: IWSManEx::EnumerationFlagHierarchyShallow
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the value of the enumeration constant EnumerationFlagHierarchyShallow for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflaghierarchyshallow.htm
 old-project: WinRM
 ms.assetid: 590cf20d-56bc-4472-9d40-cc423bfb00df
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EnumerationFlagHierarchyShallow, EnumerationFlagHierarchyShallow method [Windows Remote Management], EnumerationFlagHierarchyShallow method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagHierarchyShallow method, IWSManEx.EnumerationFlagHierarchyShallow, IWSManEx::EnumerationFlagHierarchyShallow, winrm.iwsmanex_enumerationflaghierarchyshallow, wsmandisp/IWSManEx::EnumerationFlagHierarchyShallow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

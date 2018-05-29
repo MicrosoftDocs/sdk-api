@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_Title
 title: IAMMediaContent::get_Title
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Title method retrieves the title.
 old-location: dshow\iammediacontent_get_title.htm
 old-project: DirectShow
 ms.assetid: 60543438-9547-44fe-8468-baee03d6ebc9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Title method, IAMMediaContent.get_Title, IAMMediaContent::get_Title, IAMMediaContentget_Title, dshow.iammediacontent_get_title, get_Title, get_Title method [DirectShow], get_Title method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Title
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

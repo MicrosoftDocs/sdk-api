@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.DeleteFiber
 title: DeleteFiber function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an existing fiber.
 old-location: base\deletefiber.htm
 old-project: ProcThread
 ms.assetid: e1a7453a-6878-49dd-831f-1857a489e97f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DeleteFiber, DeleteFiber function, _win32_deletefiber, base.deletefiber, winbase/DeleteFiber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

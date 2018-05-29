@@ -1,16 +1,16 @@
 ---
 UID: NS:x3daudio.X3DAUDIO_EMITTER
 title: X3DAUDIO_EMITTER
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a single-point or multiple-point 3D audio source that is used with an arbitrary number of sound channels.
 old-location: xaudio2\x3daudio_emitter.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.x3daudio.X3DAUDIO_EMITTER
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: "*LPX3DAUDIO_EMITTER, LPX3DAUDIO_EMITTER, LPX3DAUDIO_EMITTER structure pointer [XAudio2 Audio Mixing APIs], X3DAUDIO_EMITTER, X3DAUDIO_EMITTER structure [XAudio2 Audio Mixing APIs], x3daudio/LPX3DAUDIO_EMITTER, x3daudio/X3DAUDIO_EMITTER, xaudio2.x3daudio_emitter"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: x3daudio.h
 req.include-header: 

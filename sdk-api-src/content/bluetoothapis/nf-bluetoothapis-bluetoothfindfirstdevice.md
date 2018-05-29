@@ -1,16 +1,16 @@
 ---
 UID: NF:bluetoothapis.BluetoothFindFirstDevice
 title: BluetoothFindFirstDevice function
-author: windows-driver-content
+author: windows-sdk-content
 description: The BluetoothFindFirstDevice function begins the enumeration Bluetooth devices.
 old-location: bluetooth\bluetoothfindfirstdevice.htm
 old-project: Bluetooth
 ms.assetid: f73acbb4-119f-4a73-a338-d11e8cf7e6be
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BluetoothFindFirstDevice, BluetoothFindFirstDevice function [Bluetooth], bluetooth.bluetoothfindfirstdevice, bluetoothapis/BluetoothFindFirstDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

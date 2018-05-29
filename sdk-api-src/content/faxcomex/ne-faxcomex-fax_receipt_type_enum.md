@@ -1,16 +1,16 @@
 ---
 UID: NE:faxcomex.FAX_RECEIPT_TYPE_ENUM
 title: FAX_RECEIPT_TYPE_ENUM
-author: windows-driver-content
+author: windows-sdk-content
 description: The FAX_RECEIPT_TYPE_ENUM enumeration defines the types of delivery reports (delivery receipt formats) for outbound faxes. The members of this enumeration are bit values and can be used in combination.
 old-location: fax\_mfax_fax_receipt_type_enum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1igd.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FAX_RECEIPT_TYPE_ENUM, FAX_RECEIPT_TYPE_ENUM enumeration [Fax Service], _mfax_fax_receipt_type_enum, fax._mfax_fax_receipt_type_enum, faxcomex/FAX_RECEIPT_TYPE_ENUM, faxcomex/frtMAIL, faxcomex/frtMSGBOX, faxcomex/frtNONE, frtMAIL, frtMSGBOX, frtNONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 

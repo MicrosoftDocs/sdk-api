@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminTransportSetInfo
 title: MprAdminTransportSetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminTransportSetInfo function sets global information, or default client interface information, or both, for a specified transport.
 old-location: rras\mpradmintransportsetinfo.htm
 old-project: RRAS
 ms.assetid: ac0be570-e484-481b-9b16-ccdd4870deda
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminTransportSetInfo, MprAdminTransportSetInfo function [RAS], _mpr_mpradmintransportsetinfo, mprapi/MprAdminTransportSetInfo, rras.mpradmintransportsetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:tom.ITextStory
 title: ITextStory
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStory interface methods are used to access shared data from multiple stories, which is stored in the parent ITextServices instance.
 old-location: controls\itextstory.htm
 old-project: Controls
 ms.assetid: 8b52c6e8-c250-4cfb-979e-770df9f94010
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextStory, ITextStory interface [Windows Controls], ITextStory interface [Windows Controls],described, controls.itextstory, tom/ITextStory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tom.h
 req.include-header: 

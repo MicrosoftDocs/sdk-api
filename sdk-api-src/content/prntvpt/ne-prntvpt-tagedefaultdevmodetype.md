@@ -1,16 +1,16 @@
 ---
 UID: NE:prntvpt.tagEDefaultDevmodeType
 title: tagEDefaultDevmodeType
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables users to specify which DEVMODE to use as the source of default values when a print ticket does not specify all possible settings.
 old-location: gdi\edefaultdevmodetype.htm
 old-project: printdocs
 ms.assetid: f3144ff6-1228-4e17-b118-fe70136edeea
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EDefaultDevmodeType, EDefaultDevmodeType enumeration [Windows GDI], _win32_EDefaultDevmodeType, gdi.edefaultdevmodetype, kPrinterDefaultDevmode, kUserDefaultDevmode, prntvpt/EDefaultDevmodeType, prntvpt/kPrinterDefaultDevmode, prntvpt/kUserDefaultDevmode, tagEDefaultDevmodeType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: prntvpt.h
 req.include-header: 

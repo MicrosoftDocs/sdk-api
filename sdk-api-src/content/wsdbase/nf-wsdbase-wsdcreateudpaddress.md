@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.WSDCreateUdpAddress
 title: WSDCreateUdpAddress function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IWSDUdpAddress object.
 old-location: ncd\wsdcreateudpaddress.htm
 old-project: WsdApi
 ms.assetid: 84610d5f-9b90-4830-b6d3-7b5622709668
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDCreateUdpAddress, WSDCreateUdpAddress function, ncd.wsdcreateudpaddress, wsdbase/WSDCreateUdpAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

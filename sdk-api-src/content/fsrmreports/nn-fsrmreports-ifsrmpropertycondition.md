@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmreports.IFsrmPropertyCondition
 title: IFsrmPropertyCondition
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a property condition that the file management job uses to determine if the file is expired.
 old-location: fsrm\ifsrmpropertycondition.htm
 old-project: Fsrm
 ms.assetid: 5c50b86b-f166-459e-92ce-63faa374c407
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmPropertyCondition, IFsrmPropertyCondition interface [File Server Resource Manager], IFsrmPropertyCondition interface [File Server Resource Manager],described, fs.ifsrmpropertycondition, fsrm.ifsrmpropertycondition, fsrm/IFsrmPropertyCondition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

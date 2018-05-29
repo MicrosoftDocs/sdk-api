@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi._GLYPHMETRICS
 title: "_GLYPHMETRICS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The GLYPHMETRICS structure contains information about the placement and orientation of a glyph in a character cell.
 old-location: gdi\glyphmetrics.htm
 old-project: gdi
 ms.assetid: a6fa3813-56f7-4b54-b21d-8aabc2309a34
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPGLYPHMETRICS, GLYPHMETRICS, GLYPHMETRICS structure [Windows GDI], LPGLYPHMETRICS, LPGLYPHMETRICS structure pointer [Windows GDI], _GLYPHMETRICS, _win32_GLYPHMETRICS_str, gdi.glyphmetrics, wingdi/GLYPHMETRICS, wingdi/LPGLYPHMETRICS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

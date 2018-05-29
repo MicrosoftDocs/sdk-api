@@ -1,16 +1,16 @@
 ---
 UID: NS:winusb._WINUSB_SETUP_PACKET
 title: "_WINUSB_SETUP_PACKET"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WINUSB_SETUP_PACKET structure describes a USB setup packet.
 old-location: buses\winusb_setup_packet.htm
 old-project: usbref
 ms.assetid: b2e6bebc-81c1-4f52-870d-43c72740f8e2
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.author: windowssdkdev
+ms.date: 05/07/2018
 ms.keywords: "*PWINUSB_SETUP_PACKET, PWINUSB_SETUP_PACKET, PWINUSB_SETUP_PACKET structure pointer [Buses], WINUSB_SETUP_PACKET, WINUSB_SETUP_PACKET structure [Buses], _WINUSB_SETUP_PACKET, buses.winusb_setup_packet, usbstrct_8a7725be-7ee3-4715-8498-3168b011c2dd.xml, winusb/PWINUSB_SETUP_PACKET, winusb/WINUSB_SETUP_PACKET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winusb.h
 req.include-header: Winusbio.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:wsman._WSMAN_FRAGMENT
 title: "_WSMAN_FRAGMENT"
-author: windows-driver-content
+author: windows-sdk-content
 description: WSMAN_FRAGMENT is reserved for future use.
 old-location: winrm\wsman_fragment.htm
 old-project: WinRM
 ms.assetid: 2aa4ee38-6991-4f95-90fd-867b188fc9ff
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSMAN_FRAGMENT, WSMAN_FRAGMENT structure [Windows Remote Management], _WSMAN_FRAGMENT, winrm.wsman_fragment, wsman/WSMAN_FRAGMENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

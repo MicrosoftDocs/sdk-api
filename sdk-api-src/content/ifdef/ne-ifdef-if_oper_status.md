@@ -1,16 +1,16 @@
 ---
 UID: NE:ifdef.IF_OPER_STATUS
 title: IF_OPER_STATUS
-author: windows-driver-content
+author: windows-sdk-content
 description: The IF_OPER_STATUS enumeration specifies the operational status of an interface.
 old-location: iphlp\if_oper_status.htm
 old-project: IpHlp
 ms.assetid: 829df6fc-d5db-4efe-9c67-d0c5543dacb4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IF_OPER_STATUS, IF_OPER_STATUS enumeration [IP Helper], IfOperStatusDormant, IfOperStatusDown, IfOperStatusLowerLayerDown, IfOperStatusNotPresent, IfOperStatusTesting, IfOperStatusUnknown, IfOperStatusUp, ifdef/IF_OPER_STATUS, ifdef/IfOperStatusDormant, ifdef/IfOperStatusDown, ifdef/IfOperStatusLowerLayerDown, ifdef/IfOperStatusNotPresent, ifdef/IfOperStatusTesting, ifdef/IfOperStatusUnknown, ifdef/IfOperStatusUp, iphlp.if_oper_status
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ifdef.h
 req.include-header: 

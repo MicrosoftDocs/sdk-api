@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.SetColorSpace
 title: IDXGIDecodeSwapChain::SetColorSpace
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the color space used by the swap chain.
 old-location: direct3ddxgi\idxgidecodeswapchain_setcolorspace.htm
 old-project: direct3ddxgi
 ms.assetid: DE0AA2BF-8E98-4CF4-8CC2-760AB4B8776D
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],SetColorSpace method, IDXGIDecodeSwapChain.SetColorSpace, IDXGIDecodeSwapChain::SetColorSpace, SetColorSpace, SetColorSpace method [DXGI], SetColorSpace method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_setcolorspace, dxgi1_3/IDXGIDecodeSwapChain::SetColorSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 

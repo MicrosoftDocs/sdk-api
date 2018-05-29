@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.EditStreamPaste
 title: EditStreamPaste function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EditStreamPaste function copies a stream (or a portion of it) from one stream and pastes it within another stream at a specified location.
 old-location: multimedia\editstreampaste.htm
 old-project: Multimedia
 ms.assetid: c3c77ec1-0aa4-47ab-afc1-ed69d6aca201
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EditStreamPaste, EditStreamPaste function [Windows Multimedia], _win32_EditStreamPaste, multimedia.editstreampaste, vfw/EditStreamPaste
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

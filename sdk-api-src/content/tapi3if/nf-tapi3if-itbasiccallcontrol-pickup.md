@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Pickup
 title: ITBasicCallControl::Pickup
-author: windows-driver-content
+author: windows-sdk-content
 description: The Pickup method picks up a call alerting at the specified group identification.
 old-location: tapi3\itbasiccallcontrol_pickup.htm
 old-project: Tapi
 ms.assetid: 25da3cf2-50f0-4f64-94ce-cf952e057376
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],Pickup method, ITBasicCallControl.Pickup, ITBasicCallControl::Pickup, Pickup, Pickup method [TAPI 2.2], Pickup method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_pickup, tapi3.itbasiccallcontrol_pickup, tapi3if/ITBasicCallControl::Pickup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

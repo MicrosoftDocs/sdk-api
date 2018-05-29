@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get__NewEnum
 title: ICatalogCollection::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an enumerator that can be used to iterate through the collection objects.
 old-location: cos\icatalogcollection__newenum.htm
 old-project: cossdk
 ms.assetid: 82ba706c-4f66-448e-b6fa-33be496c56b2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICatalogCollection interface [COM+],_NewEnum property, ICatalogCollection._NewEnum, ICatalogCollection.get__NewEnum, ICatalogCollection::_NewEnum, ICatalogCollection::get__NewEnum, _NewEnum property [COM+], _NewEnum property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get__NewEnum, comadmin/ICatalogCollection::_NewEnum, comadmin/ICatalogCollection::get__NewEnum, cos.icatalogcollection__newenum, get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

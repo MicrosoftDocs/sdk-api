@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.EnumSystemLanguageGroupsA
 title: EnumSystemLanguageGroupsA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the language groups that are either installed on or supported by an operating system.
 old-location: intl\enumsystemlanguagegroups.htm
 old-project: Intl
 ms.assetid: 8cc2335e-b222-44d9-a966-4b6803639071
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnumSystemLanguageGroups, EnumSystemLanguageGroups function [Internationalization for Windows Applications], EnumSystemLanguageGroupsA, EnumSystemLanguageGroupsW, LGRPID_INSTALLED, LGRPID_SUPPORTED, _win32_EnumSystemLanguageGroups, intl.enumsystemlanguagegroups, winnls/EnumSystemLanguageGroups, winnls/EnumSystemLanguageGroupsA, winnls/EnumSystemLanguageGroupsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

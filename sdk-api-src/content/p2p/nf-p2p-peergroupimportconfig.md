@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupImportConfig
 title: PeerGroupImportConfig function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupImportConfig function imports a peer group configuration for an identity based on the specific settings in a supplied XML configuration string.
 old-location: p2p\peergroupimportconfig.htm
 old-project: P2PSdk
 ms.assetid: e459f2f9-b118-4e22-8b32-65d389795664
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupImportConfig, PeerGroupImportConfig function [Peer Networking], p2p.peergroupimportconfig, p2p/PeerGroupImportConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

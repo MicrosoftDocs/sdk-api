@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.Disconnect
 title: IRemoteDesktopClient::Disconnect
-author: windows-driver-content
+author: windows-sdk-content
 description: Disconnects the active connection.
 old-location: termserv\iremotedesktopclient_disconnect.htm
 old-project: TermServ
 ms.assetid: 134e72ad-93dd-4f53-b26c-09654f309658
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Disconnect, Disconnect method [Remote Desktop Services], Disconnect method [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],Disconnect method, IRemoteDesktopClient.Disconnect, IRemoteDesktopClient::Disconnect, rdpappcontainerclient/IRemoteDesktopClient::Disconnect, termserv.iremotedesktopclient_disconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 

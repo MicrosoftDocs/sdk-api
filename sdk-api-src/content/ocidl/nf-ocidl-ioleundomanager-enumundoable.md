@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleUndoManager.EnumUndoable
 title: IOleUndoManager::EnumUndoable
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an enumerator object that the caller can use to iterate through a series of top-level undo units from the undo stack.
 old-location: com\ioleundomanager_enumundoable.htm
 old-project: com
 ms.assetid: 7199910b-3ea3-4b4e-89df-c1188195941c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnumUndoable, EnumUndoable method [COM], EnumUndoable method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],EnumUndoable method, IOleUndoManager.EnumUndoable, IOleUndoManager::EnumUndoable, _ole_ioleundomanager_enumundoable, com.ioleundomanager_enumundoable, ocidl/IOleUndoManager::EnumUndoable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

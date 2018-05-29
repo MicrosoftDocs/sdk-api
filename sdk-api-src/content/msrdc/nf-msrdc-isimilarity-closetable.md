@@ -1,16 +1,16 @@
 ---
 UID: NF:msrdc.ISimilarity.CloseTable
 title: ISimilarity::CloseTable
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the tables in a similarity file.
 old-location: rdc\isimilarity_closetable.htm
 old-project: Rdc
 ms.assetid: 5bf16568-ed61-42a3-91b9-79a1aa731bc0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CloseTable, CloseTable method [Remote Differential Compression], CloseTable method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],CloseTable method, ISimilarity.CloseTable, ISimilarity::CloseTable, fs.isimilarity_closetable, msrdc/ISimilarity::CloseTable, rdc.isimilarity_closetable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

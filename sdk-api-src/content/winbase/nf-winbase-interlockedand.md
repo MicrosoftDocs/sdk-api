@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.InterlockedAnd
 title: InterlockedAnd function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs an atomic AND operation on the specified LONG values.
 old-location: base\interlockedand.htm
 old-project: Sync
 ms.assetid: 463b579e-d1cd-4ad5-b2f2-bae599849401
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InterlockedAnd, InterlockedAnd function, base.interlockedand, winbase/InterlockedAnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

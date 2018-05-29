@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ICreateWithLocalTransaction
 title: ICreateWithLocalTransaction
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a COM+ object that executes within the scope of the specified local transaction.
 old-location: cos\icreatewithlocaltransaction.htm
 old-project: cossdk
 ms.assetid: 667ebc77-943c-4cf0-90b4-7c28949f406e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICreateWithLocalTransaction, ICreateWithLocalTransaction interface [COM+], ICreateWithLocalTransaction interface [COM+],described, comsvcs/ICreateWithLocalTransaction, cos.icreatewithlocaltransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

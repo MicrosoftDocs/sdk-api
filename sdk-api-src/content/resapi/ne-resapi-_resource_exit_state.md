@@ -1,16 +1,16 @@
 ---
 UID: NE:resapi._RESOURCE_EXIT_STATE
 title: "_RESOURCE_EXIT_STATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the possible exit states of a resource.
 old-location: mscs\resource_exit_state.htm
 old-project: MsCS
 ms.assetid: d1b9fd8f-7d49-4396-8f0c-6db8fad5749e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: RESOURCE_EXIT_STATE, RESOURCE_EXIT_STATE enumeration [Failover Cluster], ResourceExitStateContinue, ResourceExitStateMax, ResourceExitStateTerminate, _RESOURCE_EXIT_STATE, mscs.resource_exit_state, resapi/RESOURCE_EXIT_STATE, resapi/ResourceExitStateContinue, resapi/ResourceExitStateMax, resapi/ResourceExitStateTerminate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: resapi.h
 req.include-header: 

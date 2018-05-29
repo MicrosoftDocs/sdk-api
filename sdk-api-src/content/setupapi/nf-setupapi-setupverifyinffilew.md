@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupVerifyInfFileW
 title: SetupVerifyInfFileW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupVerifyInfFile function verifies the digital signature of the specified INF file by using its corresponding catalog. The verification can be performed against an alternate platform.
 old-location: setup\setupverifyinffile.htm
 old-project: SetupApi
 ms.assetid: 3e64783f-6ded-498a-a994-ccd3ba217e91
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupVerifyInfFile, SetupVerifyInfFile function [Setup API], SetupVerifyInfFileA, SetupVerifyInfFileW, _setupapi_setupverifyinffile, setup.setupverifyinffile, setupapi/SetupVerifyInfFile, setupapi/SetupVerifyInfFileA, setupapi/SetupVerifyInfFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

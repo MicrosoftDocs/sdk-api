@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.IsValidNLSVersion
 title: IsValidNLSVersion function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if the NLS version is valid for a given NLS function.
 old-location: intl\isvalidnlsversion.htm
 old-project: Intl
 ms.assetid: 29556DB4-E569-4161-9E47-149E4C12DD3B
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IsValidNLSVersion, IsValidNLSVersion function [Internationalization for Windows Applications], intl.isvalidnlsversion, winnls/IsValidNLSVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

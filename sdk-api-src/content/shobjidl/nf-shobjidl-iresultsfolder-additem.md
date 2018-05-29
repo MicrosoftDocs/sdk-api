@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IResultsFolder.AddItem
 title: IResultsFolder::AddItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an item to a results folder.
 old-location: shell\IResultsFolder_AddItem.htm
 old-project: shell
 ms.assetid: 005f7125-8dc2-4d9c-a860-1bb56b4d0b63
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddItem, AddItem method [Windows Shell], AddItem method [Windows Shell],IResultsFolder interface, IResultsFolder interface [Windows Shell],AddItem method, IResultsFolder.AddItem, IResultsFolder::AddItem, _shell_IResultsFolder_AddItem, shell.IResultsFolder_AddItem, shobjidl/IResultsFolder::AddItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

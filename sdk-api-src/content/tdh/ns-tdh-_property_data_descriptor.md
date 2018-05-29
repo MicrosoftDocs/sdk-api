@@ -1,16 +1,16 @@
 ---
 UID: NS:tdh._PROPERTY_DATA_DESCRIPTOR
 title: "_PROPERTY_DATA_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the property to retrieve.
 old-location: etw\property_data_descriptor_struct.htm
 old-project: ETW
 ms.assetid: 38e6f5b1-fce5-45e4-ac7a-09ba40d29837
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PPROPERTY_DATA_DESCRIPTOR, PROPERTY_DATA_DESCRIPTOR, PROPERTY_DATA_DESCRIPTOR structure [ETW], _PROPERTY_DATA_DESCRIPTOR, etw.property_data_descriptor_struct, tdh.property_data_descriptor_struct, tdh/PROPERTY_DATA_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 

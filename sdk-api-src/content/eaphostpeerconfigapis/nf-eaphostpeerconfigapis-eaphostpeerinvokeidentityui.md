@@ -1,16 +1,16 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerInvokeIdentityUI
 title: EapHostPeerInvokeIdentityUI function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function is called by tunnel methods to invoke the identity UI of the inner methods. This function returns the identity as well as credentials to use in order to start the authentication.
 old-location: eaphost\eaphostpeerinvokeidentityui.htm
 old-project: EAPHost
 ms.assetid: 48c48162-44d8-45d2-9147-5bf006d493b5
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerInvokeIdentityUI, EapHostPeerInvokeIdentityUI function [EAPHost], eaphost.eaphostpeerinvokeidentityui, eaphostpeerconfigapis/EapHostPeerInvokeIdentityUI
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 

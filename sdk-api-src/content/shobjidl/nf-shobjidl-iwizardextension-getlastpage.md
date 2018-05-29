@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IWizardExtension.GetLastPage
 title: IWizardExtension::GetLastPage
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a handle to the final page of the wizard extension pages.
 old-location: shell\IWizardExtension_GetLastPage.htm
 old-project: shell
 ms.assetid: b4fc1089-d0fb-406d-bf05-b43b3f2cc87e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLastPage, GetLastPage method [Windows Shell], GetLastPage method [Windows Shell],IWizardExtension interface, IWizardExtension interface [Windows Shell],GetLastPage method, IWizardExtension.GetLastPage, IWizardExtension::GetLastPage, _shell_IWizardExtension_GetLastPage, shell.IWizardExtension_GetLastPage, shobjidl/IWizardExtension::GetLastPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

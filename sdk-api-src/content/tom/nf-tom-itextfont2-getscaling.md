@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont2.GetScaling
 title: ITextFont2::GetScaling
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the font horizontal scaling percentage.
 old-location: controls\itextfont2_getscaling.htm
 old-project: Controls
 ms.assetid: 4508d079-6f75-4842-a7e6-c2b9a99c826c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetScaling, GetScaling method [Windows Controls], GetScaling method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetScaling method, ITextFont2.GetScaling, ITextFont2::GetScaling, controls.itextfont2_getscaling, tom/ITextFont2::GetScaling
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

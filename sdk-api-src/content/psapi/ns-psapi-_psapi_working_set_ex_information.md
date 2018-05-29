@@ -1,16 +1,16 @@
 ---
 UID: NS:psapi._PSAPI_WORKING_SET_EX_INFORMATION
 title: "_PSAPI_WORKING_SET_EX_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains extended working set information for a process.
 old-location: psapi\psapi_working_set_ex_information.htm
 old-project: psapi
 ms.assetid: d3500737-b9af-41a8-bf69-61d0bfbd6ce4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PPSAPI_WORKING_SET_EX_INFORMATION, PPSAPI_WORKING_SET_EX_INFORMATION, PPSAPI_WORKING_SET_EX_INFORMATION structure pointer [PSAPI], PSAPI_WORKING_SET_EX_INFORMATION, PSAPI_WORKING_SET_EX_INFORMATION structure [PSAPI], _PSAPI_WORKING_SET_EX_INFORMATION, base.psapi_working_set_ex_information, psapi.psapi_working_set_ex_information, psapi/PPSAPI_WORKING_SET_EX_INFORMATION, psapi/PSAPI_WORKING_SET_EX_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: psapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRow.GetKeepWithNext
 title: ITextRow::GetKeepWithNext
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets whether this row should appear on the same page as the row that follows it.
 old-location: controls\itextrow_getkeepwithnext.htm
 old-project: Controls
 ms.assetid: 67c5f06c-9f45-430b-ae9f-0ca1931df411
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetKeepWithNext, GetKeepWithNext method [Windows Controls], GetKeepWithNext method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetKeepWithNext method, ITextRow.GetKeepWithNext, ITextRow::GetKeepWithNext, controls.itextrow_getkeepwithnext, tom/ITextRow::GetKeepWithNext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

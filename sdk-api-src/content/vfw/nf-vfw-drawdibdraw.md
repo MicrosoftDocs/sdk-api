@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.DrawDibDraw
 title: DrawDibDraw function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrawDibDraw function draws a DIB to the screen.
 old-location: multimedia\drawdibdraw.htm
 old-project: Multimedia
 ms.assetid: b503fcd8-e928-4b3c-9ff5-96b88c5fb2f4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DrawDibDraw, DrawDibDraw function [Windows Multimedia], _win32_DrawDibDraw, multimedia.drawdibdraw, vfw/DrawDibDraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

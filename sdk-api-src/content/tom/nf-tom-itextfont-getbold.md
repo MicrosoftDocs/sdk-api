@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont.GetBold
 title: ITextFont::GetBold
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets whether the characters are bold.
 old-location: controls\ITextFont_GetBold.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getbold.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetBold, GetBold method [Windows Controls], GetBold method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetBold method, ITextFont.GetBold, ITextFont::GetBold, _win32_ITextFont_GetBold, _win32_ITextFont_GetBold_cpp, controls.ITextFont_GetBold, controls._win32_ITextFont_GetBold, tom/ITextFont::GetBold
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:lpmapi.LPM_CommitResv
 title: LPM_CommitResv function
-author: windows-driver-content
+author: windows-sdk-content
 description: The LPM_CommitResv function is called by the PCM to obtain reservation commitment decisions from the LPM.
 old-location: qos\lpm_commitresv.htm
 old-project: QOS
 ms.assetid: 3a04e96d-d91e-47de-9958-75fbd32cba6b
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: LPM_CommitResv, LPM_CommitResv callback, LPM_CommitResv callback function [QOS], RESOURCES_ALLOCATED, RESOURCES_MODIFIED, _gqos_lpm_commitresv, lpmapi/LPM_CommitResv, qos.lpm_commitresv
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lpmapi.h
 req.include-header: 

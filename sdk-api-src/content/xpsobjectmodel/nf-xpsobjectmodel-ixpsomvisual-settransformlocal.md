@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetTransformLocal
 title: IXpsOMVisual::SetTransformLocal
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the local, unshared matrix transform.
 old-location: xps\ixpsomvisual_settransformlocal.htm
 old-project: printdocs
 ms.assetid: ac087cb0-dd3c-4f4b-a6e0-6f0f0a219d8a
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetTransformLocal method, IXpsOMVisual.SetTransformLocal, IXpsOMVisual::SetTransformLocal, SetTransformLocal, SetTransformLocal method [XPS Documents and Packaging], SetTransformLocal method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_settransformlocal, xpsobjectmodel/IXpsOMVisual::SetTransformLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

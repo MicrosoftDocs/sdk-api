@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont.SetSpacing
 title: ITextFont::SetSpacing
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the amount of horizontal spacing between characters.
 old-location: controls\ITextFont_SetSpacing.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setspacing.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextFont interface [Windows Controls],SetSpacing method, ITextFont.SetSpacing, ITextFont::SetSpacing, SetSpacing, SetSpacing method [Windows Controls], SetSpacing method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSpacing, _win32_ITextFont_SetSpacing_cpp, controls.ITextFont_SetSpacing, controls._win32_ITextFont_SetSpacing, tom/ITextFont::SetSpacing
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.SetMessageType
 title: IWSDUdpAddress::SetMessageType
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the message type for this UDP address configuration.
 old-location: ncd\iwsdudpaddress_setmessagetype.htm
 old-project: WsdApi
 ms.assetid: 1b041094-fb00-4b73-8753-cf89f9b10f97
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDUdpAddress interface,SetMessageType method, IWSDUdpAddress.SetMessageType, IWSDUdpAddress::SetMessageType, SetMessageType, SetMessageType method, SetMessageType method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setmessagetype, wsdbase/IWSDUdpAddress::SetMessageType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:lmdfs.NetDfsSetFtContainerSecurity
 title: NetDfsSetFtContainerSecurity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the security descriptor of the container object for the domain-based DFS namespaces in the specified Active Directory domain.
 old-location: dfs\netdfssetftcontainersecurity.htm
 old-project: Dfs
 ms.assetid: 84300e38-b263-4c38-bc31-5221621b89f1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: NetDfsSetFtContainerSecurity, NetDfsSetFtContainerSecurity function [Distributed File System], dfs.netdfssetftcontainersecurity, fs.netdfssetftcontainersecurity, lmdfs/NetDfsSetFtContainerSecurity, netmgmt.netdfssetftcontainersecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

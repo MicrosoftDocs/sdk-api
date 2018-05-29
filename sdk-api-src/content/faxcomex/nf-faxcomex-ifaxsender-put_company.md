@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxSender.put_Company
 title: IFaxSender::put_Company
-author: windows-driver-content
+author: windows-sdk-content
 description: The Company property is a null-terminated string that contains the company name associated with the sender.
 old-location: fax\_mfax_faxsender_company_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2c8p.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Company property [Fax Service], Company property [Fax Service],FaxSender object, FaxSender object [Fax Service],Company property, FaxSender.Company, IFaxSender.put_Company, IFaxSender::put_Company, _mfax_faxsender.company, fax._mfax_faxsender_company, fax._mfax_faxsender_company_vb, put_Company
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IMoniker.GetTimeOfLastChange
 title: IMoniker::GetTimeOfLastChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the time at which the object identified by this moniker was last changed.
 old-location: com\imoniker_gettimeoflastchange.htm
 old-project: com
 ms.assetid: 120cc951-6797-4ef6-890b-57ff8d3d23ba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetTimeOfLastChange, GetTimeOfLastChange method [COM], GetTimeOfLastChange method [COM],IMoniker interface, IMoniker interface [COM],GetTimeOfLastChange method, IMoniker.GetTimeOfLastChange, IMoniker::GetTimeOfLastChange, _com_imoniker_gettimeoflastchange, com.imoniker_gettimeoflastchange, objidl/IMoniker::GetTimeOfLastChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

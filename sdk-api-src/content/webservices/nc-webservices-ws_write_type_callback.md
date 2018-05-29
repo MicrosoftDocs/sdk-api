@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_WRITE_TYPE_CALLBACK
 title: WS_WRITE_TYPE_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Invoked to write an element when WS_CUSTOM_TYPE has been specified.
 old-location: wsw\ws_write_type_callback.htm
 old-project: wsw
 ms.assetid: f94bdf80-abea-4a97-9d41-add498e314b1
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_WRITE_TYPE_CALLBACK, WS_WRITE_TYPE_CALLBACK callback, WS_WRITE_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_WRITE_TYPE_CALLBACK, wsw.ws_write_type_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

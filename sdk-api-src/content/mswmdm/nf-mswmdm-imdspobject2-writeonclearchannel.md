@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPObject2.WriteOnClearChannel
 title: IMDSPObject2::WriteOnClearChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: The WriteOnClearChannel method writes data to the object to the current position within the object, without using secure authenticated channels.
 old-location: wmdm\imdspobject2_writeonclearchannel.htm
 old-project: WMDM
 ms.assetid: 9c80f382-2536-4f08-9111-94ad757747f7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMDSPObject2 interface [windows Media Device Manager],WriteOnClearChannel method, IMDSPObject2.WriteOnClearChannel, IMDSPObject2::WriteOnClearChannel, IMDSPObject2WriteOnClearChannel, WriteOnClearChannel, WriteOnClearChannel method [windows Media Device Manager], WriteOnClearChannel method [windows Media Device Manager],IMDSPObject2 interface, mswmdm/IMDSPObject2::WriteOnClearChannel, wmdm.imdspobject2_writeonclearchannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

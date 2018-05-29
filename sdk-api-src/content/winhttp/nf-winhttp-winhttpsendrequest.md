@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpSendRequest
 title: WinHttpSendRequest function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends the specified request to the HTTP server.
 old-location: http\winhttpsendrequest.htm
 old-project: WinHttp
 ms.assetid: 991bf531-2e6b-4581-8069-f75789915522
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WinHttpSendRequest, WinHttpSendRequest function [WinHTTP], http.winhttpsendrequest, winhttp.winhttpsendrequest_function, winhttp/WinHttpSendRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

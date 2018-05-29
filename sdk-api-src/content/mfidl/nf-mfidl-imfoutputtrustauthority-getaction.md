@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFOutputTrustAuthority.GetAction
 title: IMFOutputTrustAuthority::GetAction
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the action that is performed by this output trust authority (OTA).
 old-location: mf\imfoutputtrustauthority_getaction.htm
 old-project: medfound
 ms.assetid: 5a109e18-a6e2-4f8c-a656-b27112935452
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 5a109e18-a6e2-4f8c-a656-b27112935452, GetAction, GetAction method [Media Foundation], GetAction method [Media Foundation],IMFOutputTrustAuthority interface, IMFOutputTrustAuthority interface [Media Foundation],GetAction method, IMFOutputTrustAuthority.GetAction, IMFOutputTrustAuthority::GetAction, mf.imfoutputtrustauthority_getaction, mfidl/IMFOutputTrustAuthority::GetAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:directxcollision.PlaneIntersectionType
 title: PlaneIntersectionType
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether an object intersects a plane.
 old-location: dxmath\planeintersectiontype.htm
 old-project: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.PlaneIntersectionType
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: BACK, FRONT, INTERSECTING, PlaneIntersectionType, PlaneIntersectionType enumeration [DirectX Math Support APIs], directxcollision/BACK, directxcollision/FRONT, directxcollision/INTERSECTING, directxcollision/PlaneIntersectionType, dxmath.planeintersectiontype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: directxcollision.h
 req.include-header: 

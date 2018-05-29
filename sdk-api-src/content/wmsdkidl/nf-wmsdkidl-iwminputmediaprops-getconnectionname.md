@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMInputMediaProps.GetConnectionName
 title: IWMInputMediaProps::GetConnectionName
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetConnectionName method retrieves the connection name specified in the profile.
 old-location: wmformat\iwminputmediaprops_getconnectionname.htm
 old-project: wmformat
 ms.assetid: efb8b26b-c04f-4253-85a7-13456e1599bb
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetConnectionName, GetConnectionName method [windows Media Format], GetConnectionName method [windows Media Format],IWMInputMediaProps interface, IWMInputMediaProps interface [windows Media Format],GetConnectionName method, IWMInputMediaProps.GetConnectionName, IWMInputMediaProps::GetConnectionName, IWMInputMediaPropsGetConnectionName, wmformat.iwminputmediaprops_getconnectionname, wmsdkidl/IWMInputMediaProps::GetConnectionName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.RemoveAt
 title: IXpsOMPageReferenceCollection::RemoveAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes and releases an IXpsOMPageReference interface pointer from a specified location in the collection.
 old-location: xps\ixpsompagereferencecollection_removeat.htm
 old-project: printdocs
 ms.assetid: 905ed1ea-b694-4620-8a71-2f0bfb831af4
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMPageReferenceCollection.RemoveAt, IXpsOMPageReferenceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, xps.ixpsompagereferencecollection_removeat, xpsobjectmodel/IXpsOMPageReferenceCollection::RemoveAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

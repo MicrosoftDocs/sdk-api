@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IDefaultFolderMenuInitialize
 title: IDefaultFolderMenuInitialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods used to get and set shortcut menu information. This information is the same as that provided to SHCreateDefaultContextMenu through the DEFCONTEXTMENU structure.
 old-location: shell\IDefaultFolderMenuInitialize.htm
 old-project: shell
 ms.assetid: 23C75435-E43D-4451-8F03-AE051BC1B66D
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDefaultFolderMenuInitialize, IDefaultFolderMenuInitialize interface [Windows Shell], IDefaultFolderMenuInitialize interface [Windows Shell],described, shell.IDefaultFolderMenuInitialize, shobjidl_core/IDefaultFolderMenuInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

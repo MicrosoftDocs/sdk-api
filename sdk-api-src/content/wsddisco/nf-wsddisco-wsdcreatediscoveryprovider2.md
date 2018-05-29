@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.WSDCreateDiscoveryProvider2
 title: WSDCreateDiscoveryProvider2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IWSDiscoveryProvider object that supports signed messages.
 old-location: ncd\wsdcreatediscoveryprovider2.htm
 old-project: WsdApi
 ms.assetid: dc757897-032c-4ea3-8f4e-cf00d4ec385b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDCreateDiscoveryProvider2, WSDCreateDiscoveryProvider2 function, ncd.wsdcreatediscoveryprovider2, wsddisco/WSDCreateDiscoveryProvider2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

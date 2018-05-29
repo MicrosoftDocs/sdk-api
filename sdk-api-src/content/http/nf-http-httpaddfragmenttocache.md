@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HttpAddFragmentToCache
 title: HttpAddFragmentToCache function
-author: windows-driver-content
+author: windows-sdk-content
 description: The HttpAddFragmentToCache function caches a data fragment with a specified name by which it can be retrieved, or updates data cached under a specified name.
 old-location: http\httpaddfragmenttocache.htm
 old-project: Http
 ms.assetid: caef2e93-39cd-4282-97d9-870f8236d8c4
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HttpAddFragmentToCache, HttpAddFragmentToCache function [HTTP], _http_httpaddfragmenttocache, http.httpaddfragmenttocache, http/HttpAddFragmentToCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: http.h
 req.include-header: 

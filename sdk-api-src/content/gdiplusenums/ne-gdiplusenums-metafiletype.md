@@ -1,16 +1,16 @@
 ---
 UID: NE:gdiplusenums.MetafileType
 title: MetafileType
-author: windows-driver-content
+author: windows-sdk-content
 description: The MetafileType enumeration specifies types of metafiles. The MetafileHeader::GetType method returns an element of this enumeration.
 old-location: gdiplus\_gdiplus_ENUM_MetafileType.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\metafiletype.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MetafileType, MetafileType enumeration [GDI+], MetafileTypeEmf, MetafileTypeEmfPlusDual, MetafileTypeEmfPlusOnly, MetafileTypeInvalid, MetafileTypeWmf, MetafileTypeWmfPlaceable, _gdiplus_ENUM_MetafileType, gdiplus._gdiplus_ENUM_MetafileType, gdiplusenums/MetafileType, gdiplusenums/MetafileTypeEmf, gdiplusenums/MetafileTypeEmfPlusDual, gdiplusenums/MetafileTypeEmfPlusOnly, gdiplusenums/MetafileTypeInvalid, gdiplusenums/MetafileTypeWmf, gdiplusenums/MetafileTypeWmfPlaceable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IContextState.SetMyTransactionVote
 title: IContextState::SetMyTransactionVote
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the consistent flag.
 old-location: cos\icontextstate_setmytransactionvote.htm
 old-project: cossdk
 ms.assetid: ec88f99a-cb24-42a9-8f2a-add7ddbec719
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IContextState interface [COM+],SetMyTransactionVote method, IContextState.SetMyTransactionVote, IContextState::SetMyTransactionVote, SetMyTransactionVote, SetMyTransactionVote method [COM+], SetMyTransactionVote method [COM+],IContextState interface, _cos_IContextState_SetMyTransactionVote, comsvcs/IContextState::SetMyTransactionVote, cos.icontextstate_setmytransactionvote
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

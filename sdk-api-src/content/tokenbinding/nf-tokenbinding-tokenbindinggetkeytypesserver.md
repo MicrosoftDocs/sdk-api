@@ -1,16 +1,16 @@
 ---
 UID: NF:tokenbinding.TokenBindingGetKeyTypesServer
 title: TokenBindingGetKeyTypesServer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of the key types that the server supports.
 old-location: security\tokenbindinggetkeytypesserver.htm
 old-project: SecCNG
 ms.assetid: 8ABAC0AF-AF68-4742-9C36-3FB17D303409
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: TokenBindingGetKeyTypesServer, TokenBindingGetKeyTypesServer function [Security], security.tokenbindinggetkeytypesserver, tokenbinding/TokenBindingGetKeyTypesServer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tokenbinding.h
 req.include-header: 

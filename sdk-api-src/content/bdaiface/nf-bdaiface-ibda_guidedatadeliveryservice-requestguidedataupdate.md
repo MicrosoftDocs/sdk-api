@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.RequestGuideDataUpdate
 title: IBDA_GuideDataDeliveryService::RequestGuideDataUpdate
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests updated guide data from the media transform device (MTD).
 old-location: mstv\ibda_guidedatadeliveryservice_requestguidedataupdate.htm
 old-project: mstv
 ms.assetid: e9aee857-237a-4bfd-85c2-3d5850f37ce7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],RequestGuideDataUpdate method, IBDA_GuideDataDeliveryService.RequestGuideDataUpdate, IBDA_GuideDataDeliveryService::RequestGuideDataUpdate, RequestGuideDataUpdate, RequestGuideDataUpdate method [Microsoft TV Technologies], RequestGuideDataUpdate method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, bdaiface/IBDA_GuideDataDeliveryService::RequestGuideDataUpdate, mstv.ibda_guidedatadeliveryservice_requestguidedataupdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

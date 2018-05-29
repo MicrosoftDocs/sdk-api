@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.PBRANGE
 title: PBRANGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the high and low limits of a progress bar control. This structure is used with the PBM_GETRANGE message.
 old-location: controls\PBRANGE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\progbar\structures\pbrange.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PPBRANGE, PBRANGE, PBRANGE structure [Windows Controls], PPBRANGE, PPBRANGE structure pointer [Windows Controls], _win32_PBRANGE, _win32_PBRANGE_cpp, commctrl/PBRANGE, commctrl/PPBRANGE, controls.PBRANGE, controls._win32_PBRANGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

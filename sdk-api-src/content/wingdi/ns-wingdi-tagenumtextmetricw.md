@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagENUMTEXTMETRICW
 title: tagENUMTEXTMETRICW
-author: windows-driver-content
+author: windows-sdk-content
 description: The ENUMTEXTMETRIC structure contains information about a physical font.
 old-location: gdi\enumtextmetric.htm
 old-project: gdi
 ms.assetid: deb81846-3ada-4c88-8c26-74224538d282
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPENUMTEXTMETRICW, *PENUMTEXTMETRICW, ENUMTEXTMETRIC, ENUMTEXTMETRIC structure [Windows GDI], ENUMTEXTMETRICA, ENUMTEXTMETRICW, PENUMTEXTMETRIC, PENUMTEXTMETRIC structure pointer [Windows GDI], _win32_ENUMTEXTMETRIC_str, gdi.enumtextmetric, tagENUMTEXTMETRICW, wingdi/ENUMTEXTMETRIC, wingdi/ENUMTEXTMETRICA, wingdi/ENUMTEXTMETRICW, wingdi/PENUMTEXTMETRIC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

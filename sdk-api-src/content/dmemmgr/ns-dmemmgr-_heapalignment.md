@@ -1,16 +1,16 @@
 ---
 UID: NS:dmemmgr._HEAPALIGNMENT
 title: "_HEAPALIGNMENT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The HEAPALIGNMENT structure contains data specifying the alignment requirements for a given display memory heap.
 old-location: display\heapalignment.htm
 old-project: display
 ms.assetid: 546029c7-c92e-4940-841f-235c7dc50e8e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPHEAPALIGNMENT, HEAPALIGNMENT, HEAPALIGNMENT structure [Display Devices], _HEAPALIGNMENT, ddstrcts_ec77ce92-8153-4be6-8720-f8070efce79a.xml, display.heapalignment, dmemmgr/HEAPALIGNMENT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dmemmgr.h
 req.include-header: Dmemmgr.h

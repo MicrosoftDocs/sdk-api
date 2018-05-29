@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IGetCapabilitiesKey
 title: IGetCapabilitiesKey
-author: windows-driver-content
+author: windows-sdk-content
 description: The IGetCapabilitiesKey interface enables an application to retrieve the capabilities of a software or hardware codec from the registry, without creating an instance of the encoder filter.
 old-location: dshow\igetcapabilitieskey.htm
 old-project: DirectShow
 ms.assetid: 97a9112f-7b7b-4a7e-8f40-bdb148d413c8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IGetCapabilitiesKey, IGetCapabilitiesKey interface [DirectShow], IGetCapabilitiesKey interface [DirectShow],described, IGetCapabilitiesKeyInterface, dshow.igetcapabilitieskey, strmif/IGetCapabilitiesKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

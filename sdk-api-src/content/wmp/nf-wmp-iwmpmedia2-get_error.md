@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPMedia2.get_error
 title: IWMPMedia2::get_error
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_error method retrieves a pointer to an IWMPErrorItem interface if the media item has an error condition.
 old-location: wmp\iwmpmedia2_get_error.htm
 old-project: WMP
 ms.assetid: 55df580e-1a51-450e-80d9-53398f3b4d9d
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPMedia2 interface [Windows Media Player],get_error method, IWMPMedia2.get_error, IWMPMedia2::get_error, IWMPMedia2get_error, IWMPMedia3 interface [Windows Media Player],get_error method, IWMPMedia3::get_error, get_error, get_error method [Windows Media Player], get_error method [Windows Media Player],IWMPMedia2 interface, get_error method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia2_get_error, wmp/IWMPMedia2::get_error, wmp/IWMPMedia3::get_error
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

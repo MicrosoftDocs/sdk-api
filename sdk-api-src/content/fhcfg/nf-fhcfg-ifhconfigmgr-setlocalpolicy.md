@@ -1,16 +1,16 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.SetLocalPolicy
 title: IFhConfigMgr::SetLocalPolicy
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes the numeric parameter value of a local policy in an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_setlocalpolicy.htm
 old-project: DevNotes
 ms.assetid: A1106349-6B14-4A44-B845-7853FA1919D6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FhConfigMgr class [Windows API],SetLocalPolicy method, IFhConfigMgr interface [Windows API],SetLocalPolicy method, IFhConfigMgr.SetLocalPolicy, IFhConfigMgr::SetLocalPolicy, SetLocalPolicy, SetLocalPolicy method [Windows API], SetLocalPolicy method [Windows API],FhConfigMgr class, SetLocalPolicy method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::SetLocalPolicy, winprog.ifhconfigmgr_setlocalpolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 

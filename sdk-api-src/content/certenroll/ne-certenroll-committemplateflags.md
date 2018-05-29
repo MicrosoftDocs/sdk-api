@@ -1,16 +1,16 @@
 ---
 UID: NE:certenroll.CommitTemplateFlags
 title: CommitTemplateFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies options for saving and deleting templates.
 old-location: security\committemplateflags.htm
 old-project: SecCertEnroll
 ms.assetid: e228928a-ef11-4caa-b33f-fe25a3a6ff86
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CommitFlagDeleteTemplate, CommitFlagSaveTemplateGenerateOID, CommitFlagSaveTemplateOverwrite, CommitFlagSaveTemplateUseCurrentOID, CommitTemplateFlags, CommitTemplateFlags enumeration [Security], certenroll/CommitFlagDeleteTemplate, certenroll/CommitFlagSaveTemplateGenerateOID, certenroll/CommitFlagSaveTemplateOverwrite, certenroll/CommitFlagSaveTemplateUseCurrentOID, certenroll/CommitTemplateFlags, security.committemplateflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

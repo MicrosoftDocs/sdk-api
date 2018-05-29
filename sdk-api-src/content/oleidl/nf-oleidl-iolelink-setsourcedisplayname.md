@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleLink.SetSourceDisplayName
 title: IOleLink::SetSourceDisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the display name for the link source.
 old-location: com\iolelink_setsourcedisplayname.htm
 old-project: com
 ms.assetid: 762d021f-4bf1-4f90-bf41-065b8810de47
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleLink interface [COM],SetSourceDisplayName method, IOleLink.SetSourceDisplayName, IOleLink::SetSourceDisplayName, SetSourceDisplayName, SetSourceDisplayName method [COM], SetSourceDisplayName method [COM],IOleLink interface, _ole_iolelink_setsourcedisplayname, com.iolelink_setsourcedisplayname, oleidl/IOleLink::SetSourceDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

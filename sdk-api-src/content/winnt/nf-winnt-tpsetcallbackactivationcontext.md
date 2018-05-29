@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.TpSetCallbackActivationContext
 title: TpSetCallbackActivationContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Assigns an activation context to the callback environment.
 old-location: base\tpsetcallbackactivationcontext.htm
 old-project: ProcThread
 ms.assetid: C4715789-0DF7-436B-881F-4360A7528246
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: TpSetCallbackActivationContext, TpSetCallbackActivationContext function, base.tpsetcallbackactivationcontext, winnt/TpSetCallbackActivationContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

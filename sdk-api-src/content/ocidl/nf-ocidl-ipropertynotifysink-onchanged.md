@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IPropertyNotifySink.OnChanged
 title: IPropertyNotifySink::OnChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies a sink that a bindable property has changed.
 old-location: com\ipropertynotifysink_onchanged.htm
 old-project: com
 ms.assetid: 71ab5206-5127-45f1-a2b5-3fbcc867d678
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyNotifySink interface [COM],OnChanged method, IPropertyNotifySink.OnChanged, IPropertyNotifySink::OnChanged, OnChanged, OnChanged method [COM], OnChanged method [COM],IPropertyNotifySink interface, _ctrl_ipropertynotifysink_onchanged, com.ipropertynotifysink_onchanged, ocidl/IPropertyNotifySink::OnChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

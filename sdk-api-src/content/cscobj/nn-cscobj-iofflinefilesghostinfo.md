@@ -1,16 +1,16 @@
 ---
 UID: NN:cscobj.IOfflineFilesGhostInfo
 title: IOfflineFilesGhostInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the ghosting status of an item in the Offline Files cache.
 old-location: of\iofflinefilesghostinfo.htm
 old-project: OfflineFiles
 ms.assetid: bb71bc95-049d-4ade-ad10-c33b0bf739ce
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesGhostInfo, IOfflineFilesGhostInfo interface [Offline Files], IOfflineFilesGhostInfo interface [Offline Files],described, cscobj/IOfflineFilesGhostInfo, of.iofflinefilesghostinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

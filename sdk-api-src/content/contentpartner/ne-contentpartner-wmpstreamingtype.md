@@ -1,16 +1,16 @@
 ---
 UID: NE:contentpartner.WMPStreamingType
 title: WMPStreamingType
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPStreamingType enumeration specifies the type of streaming media.
 old-location: wmp\wmpstreamingtype.htm
 old-project: WMP
 ms.assetid: 3ac7e8cb-39c7-4437-a2da-6de5cb1efed9
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: WMPStreamingType, WMPStreamingType enumeration [Windows Media Player], contentpartner/WMPStreamingType, contentpartner/wmpstMusic, contentpartner/wmpstRadio, contentpartner/wmpstUnknown, contentpartner/wmpstVideo, enumeration [Windows Media Player], wmp.wmpstreamingtype, wmpstMusic, wmpstRadio, wmpstUnknown, wmpstVideo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: contentpartner.h
 req.include-header: 

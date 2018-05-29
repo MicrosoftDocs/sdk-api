@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcServerInqBindingHandle
 title: RpcServerInqBindingHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the binding handle for RPC calls serviced by the thread in which RpcServerInqBindingHandle is called.
 old-location: rpc\rpcserverinqbindinghandle.htm
 old-project: Rpc
 ms.assetid: 1b5fa031-ce25-4963-9085-df8786eb88d5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcServerInqBindingHandle, RpcServerInqBindingHandle function [RPC], rpc.rpcserverinqbindinghandle, rpcdce/RpcServerInqBindingHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

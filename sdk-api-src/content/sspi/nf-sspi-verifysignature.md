@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.VerifySignature
 title: VerifySignature function
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies that a message signed by using the MakeSignature function was received in the correct sequence and has not been modified.
 old-location: security\verifysignature.htm
 old-project: SecAuthN
 ms.assetid: bebeef92-1d6e-4879-846f-12d706db0653
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VerifySignature, VerifySignature function [Security], _ssp_verifysignature, security.verifysignature, sspi/VerifySignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

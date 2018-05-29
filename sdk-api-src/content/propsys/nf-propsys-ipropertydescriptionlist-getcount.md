@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyDescriptionList.GetCount
 title: IPropertyDescriptionList::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of properties included in the property list.
 old-location: properties\IPropertyDescriptionList_GetCount.htm
 old-project: properties
 ms.assetid: 17d8b018-1709-42a7-9edf-e1c2886593de
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCount, GetCount method [Windows Properties], GetCount method [Windows Properties],IPropertyDescriptionList interface, IPropertyDescriptionList interface [Windows Properties],GetCount method, IPropertyDescriptionList.GetCount, IPropertyDescriptionList::GetCount, _shell_IPropertyDescriptionList_GetCount, properties.IPropertyDescriptionList_GetCount, propsys/IPropertyDescriptionList::GetCount, shell.IPropertyDescriptionList_GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: Shobjidl.h

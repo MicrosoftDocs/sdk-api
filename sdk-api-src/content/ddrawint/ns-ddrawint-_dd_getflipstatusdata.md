@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_GETFLIPSTATUSDATA
 title: "_DD_GETFLIPSTATUSDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_GETFLIPSTATUSDATA structure returns the flip status information.
 old-location: display\dd_getflipstatusdata.htm
 old-project: display
 ms.assetid: da3b90e0-1a60-434b-966c-a7ebabff33ee
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_GETFLIPSTATUSDATA, DD_GETFLIPSTATUSDATA, DD_GETFLIPSTATUSDATA structure [Display Devices], _DD_GETFLIPSTATUSDATA, ddrawint/DD_GETFLIPSTATUSDATA, ddstrcts_03291da8-7881-46a2-8b11-291124a5732d.xml, display.dd_getflipstatusdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

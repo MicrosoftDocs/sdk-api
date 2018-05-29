@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 title: "_STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to describe the product type of a storage device.
 old-location: fs\storage_medium_product_type_descriptor.htm
 old-project: FileIO
 ms.assetid: 4845F541-D822-4DD0-8F52-9923B067A4F8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure pointer [Files], STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure [Files], _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, fs.storage_medium_product_type_descriptor, winioctl/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, winioctl/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

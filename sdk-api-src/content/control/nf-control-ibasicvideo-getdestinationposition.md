@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IBasicVideo.GetDestinationPosition
 title: IBasicVideo::GetDestinationPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDestinationPosition method retrieves the position of the destination rectangle.
 old-location: dshow\ibasicvideo_getdestinationposition.htm
 old-project: DirectShow
 ms.assetid: ee2abf52-edc2-471e-bf9b-eda04f2eabe4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDestinationPosition, GetDestinationPosition method [DirectShow], GetDestinationPosition method [DirectShow],IBasicVideo interface, IBasicVideo interface [DirectShow],GetDestinationPosition method, IBasicVideo.GetDestinationPosition, IBasicVideo::GetDestinationPosition, IBasicVideoGetDestinationPosition, control/IBasicVideo::GetDestinationPosition, dshow.ibasicvideo_getdestinationposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

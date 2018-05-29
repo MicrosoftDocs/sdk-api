@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3D9.RegisterSoftwareDevice
 title: IDirect3D9::RegisterSoftwareDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a pluggable software device. Software devices provide software rasterization enabling applications to access a variety of software rasterizers.
 old-location: direct3d9\idirect3d9__registersoftwaredevice.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__registersoftwaredevice.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: IDirect3D9 interface [Direct3D 9],RegisterSoftwareDevice method, IDirect3D9.RegisterSoftwareDevice, IDirect3D9::RegisterSoftwareDevice, RegisterSoftwareDevice, RegisterSoftwareDevice method [Direct3D 9], RegisterSoftwareDevice method [Direct3D 9],IDirect3D9 interface, d3d9helper/IDirect3D9::RegisterSoftwareDevice, direct3d9.idirect3d9__registersoftwaredevice, e610f417-a861-aa97-bbbf-2a9305b15f2d
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

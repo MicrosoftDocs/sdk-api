@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetNumberOfEventLogRecords
 title: GetNumberOfEventLogRecords function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of records in the specified event log.
 old-location: base\getnumberofeventlogrecords.htm
 old-project: EventLog
 ms.assetid: 80cc8735-26a2-4ad3-a111-28f2c0c52e98
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetNumberOfEventLogRecords, GetNumberOfEventLogRecords function, _win32_getnumberofeventlogrecords, base.getnumberofeventlogrecords, winbase/GetNumberOfEventLogRecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:commdlg.tagFINDREPLACEA
 title: tagFINDREPLACEA
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that the FindText and ReplaceText functions use to initialize the Find and Replace dialog boxes.
 old-location: dlgbox\findreplace_str.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\findreplace.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*LPFINDREPLACEA, FINDREPLACE, FINDREPLACE structure [Dialog Boxes], FINDREPLACEA, FINDREPLACEW, FR_DIALOGTERM, FR_DOWN, FR_ENABLEHOOK, FR_ENABLETEMPLATE, FR_ENABLETEMPLATEHANDLE, FR_FINDNEXT, FR_HIDEMATCHCASE, FR_HIDEUPDOWN, FR_HIDEWHOLEWORD, FR_MATCHCASE, FR_NOMATCHCASE, FR_NOUPDOWN, FR_NOWHOLEWORD, FR_REPLACE, FR_REPLACEALL, FR_SHOWHELP, FR_WHOLEWORD, LPFINDREPLACE, LPFINDREPLACE structure pointer [Dialog Boxes], _win32_FINDREPLACE_str, _win32_findreplace_str_cpp, commdlg/FINDREPLACE, commdlg/FINDREPLACEA, commdlg/FINDREPLACEW, commdlg/LPFINDREPLACE, dlgbox.findreplace_str, tagFINDREPLACEA, winui._win32_findreplace_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commdlg.h
 req.include-header: Windows.h

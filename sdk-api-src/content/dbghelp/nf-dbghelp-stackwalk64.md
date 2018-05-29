@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.StackWalk64
 title: StackWalk64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains a stack trace.
 old-location: base\stackwalk64.htm
 old-project: Debug
 ms.assetid: e2bdaa4c-5474-41a0-bcea-927570c8402c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, StackWalk, StackWalk function, StackWalk64, StackWalk64 function, _win32_stackwalk64, base.stackwalk64, dbghelp/StackWalk, dbghelp/StackWalk64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

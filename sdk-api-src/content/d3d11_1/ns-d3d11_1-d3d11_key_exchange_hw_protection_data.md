@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11_1.D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA
 title: D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents key exchange data for hardware content protection.
 old-location: mf\d3d11_key_exchange_hw_protection_data.htm
 old-project: medfound
 ms.assetid: 1DAAE15F-80E4-4645-8326-0ECB1809F8CF
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA, D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA structure [Media Foundation], d3d11_1/D3D11_KEY_EXCHANGE_HW_PROTECTION_DATA, mf.d3d11_key_exchange_hw_protection_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_1.h
 req.include-header: 

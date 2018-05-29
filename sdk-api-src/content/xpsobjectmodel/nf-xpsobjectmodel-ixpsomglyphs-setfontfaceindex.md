@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetFontFaceIndex
 title: IXpsOMGlyphs::SetFontFaceIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the index of the font face to be used.
 old-location: xps\ixpsomglyphs_setfontfaceindex.htm
 old-project: printdocs
 ms.assetid: 9430474d-b874-47c7-b916-089280da8873
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFontFaceIndex method, IXpsOMGlyphs.SetFontFaceIndex, IXpsOMGlyphs::SetFontFaceIndex, SetFontFaceIndex, SetFontFaceIndex method [XPS Documents and Packaging], SetFontFaceIndex method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfontfaceindex, xpsobjectmodel/IXpsOMGlyphs::SetFontFaceIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

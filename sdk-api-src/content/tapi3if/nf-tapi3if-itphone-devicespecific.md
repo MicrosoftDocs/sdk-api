@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPhone.DeviceSpecific
 title: ITPhone::DeviceSpecific
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeviceSpecific method enables service providers to provide access to device specific features not offered by other TAPI functions.
 old-location: tapi3\itphone_devicespecific.htm
 old-project: Tapi
 ms.assetid: fba4bf7e-8c9d-4d34-ac56-aa47dff6f57c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DeviceSpecific, DeviceSpecific method [TAPI 2.2], DeviceSpecific method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],DeviceSpecific method, ITPhone.DeviceSpecific, ITPhone::DeviceSpecific, _tapi3_itphone_devicespecific, tapi3.itphone_devicespecific, tapi3if/ITPhone::DeviceSpecific
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

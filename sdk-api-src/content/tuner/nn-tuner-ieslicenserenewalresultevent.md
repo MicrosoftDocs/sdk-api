@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IESLicenseRenewalResultEvent
 title: IESLicenseRenewalResultEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get information from a LicenseRenewalResult event.
 old-location: mstv\ieslicenserenewalresultevent.htm
 old-project: mstv
 ms.assetid: 6f9cbec4-7934-41fc-b387-3f45aa273a72
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IESLicenseRenewalResultEvent, IESLicenseRenewalResultEvent interface [DirectShow], IESLicenseRenewalResultEvent interface [DirectShow],described, mstv.ieslicenserenewalresultevent, tuner/IESLicenseRenewalResultEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

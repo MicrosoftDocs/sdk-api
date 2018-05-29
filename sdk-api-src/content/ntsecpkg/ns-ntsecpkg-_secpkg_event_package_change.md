@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecpkg._SECPKG_EVENT_PACKAGE_CHANGE
 title: "_SECPKG_EVENT_PACKAGE_CHANGE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SECPKG_EVENT_PACKAGE_CHANGE structure contains information about changes in security package availability.
 old-location: security\secpkg_event_package_change.htm
 old-project: SecAuthN
 ms.assetid: fc341828-6491-435e-a20f-c7a4a3c2123d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSECPKG_EVENT_PACKAGE_CHANGE, PSECPKG_EVENT_PACKAGE_CHANGE, PSECPKG_EVENT_PACKAGE_CHANGE structure pointer [Security], SECPKG_EVENT_PACKAGE_CHANGE, SECPKG_EVENT_PACKAGE_CHANGE structure [Security], SECPKG_PACKAGE_CHANGE_LOAD, SECPKG_PACKAGE_CHANGE_SELECT, SECPKG_PACKAGE_CHANGE_UNLOAD, _SECPKG_EVENT_PACKAGE_CHANGE, _ssp_secpkg_event_package_change, ntsecpkg/PSECPKG_EVENT_PACKAGE_CHANGE, ntsecpkg/SECPKG_EVENT_PACKAGE_CHANGE, security.secpkg_event_package_change"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:comsvcs.tagCSC_Binding
 title: tagCSC_Binding
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether all of the work that is submitted via the activity returned from CoCreateActivity should be bound to only one single-threaded apartment (STA). This enumeration has no impact on the multithreaded apartment (MTA).
 old-location: cos\csc_binding.htm
 old-project: cossdk
 ms.assetid: 9267b4f1-96d1-4367-8114-3db43755ffed
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CSC_BindToPoolThread, CSC_Binding, CSC_Binding enumeration [COM+], CSC_NoBinding, _cos_CSC_Binding, comsvcs/CSC_BindToPoolThread, comsvcs/CSC_Binding, comsvcs/CSC_NoBinding, cos.csc_binding, tagCSC_Binding
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetExtendedErrorCode
 title: IMFTimedTextTrack::GetExtendedErrorCode
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the extended error code for the latest error associated with the track.
 old-location: mf\imftimedtexttrack_getextendederrorcode.htm
 old-project: medfound
 ms.assetid: 61119103-B6F6-414B-AA7E-55DC889A5C28
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetExtendedErrorCode, GetExtendedErrorCode method [Media Foundation], GetExtendedErrorCode method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetExtendedErrorCode method, IMFTimedTextTrack.GetExtendedErrorCode, IMFTimedTextTrack::GetExtendedErrorCode, mf.imftimedtexttrack_getextendederrorcode, mfmediaengine/IMFTimedTextTrack::GetExtendedErrorCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

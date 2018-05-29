@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.get_ParentWindow
 title: IUpdateInstaller::get_ParentWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets and sets the interface that represents the parent window that can contain a dialog box.
 old-location: wua\iupdateinstaller_parentwindow.htm
 old-project: Wua_Sdk
 ms.assetid: 06eb4761-3a37-44bc-82b9-b40c0595fe49
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],ParentWindow property, IUpdateInstaller.ParentWindow, IUpdateInstaller.get_ParentWindow, IUpdateInstaller::ParentWindow, IUpdateInstaller::get_ParentWindow, IUpdateInstaller::put_ParentWindow, ParentWindow property [Windows Update Agent], ParentWindow property [Windows Update Agent],IUpdateInstaller interface, get_ParentWindow, wua.iupdateinstaller_parentwindow, wuapi/IUpdateInstaller::ParentWindow, wuapi/IUpdateInstaller::get_ParentWindow, wuapi/IUpdateInstaller::put_ParentWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

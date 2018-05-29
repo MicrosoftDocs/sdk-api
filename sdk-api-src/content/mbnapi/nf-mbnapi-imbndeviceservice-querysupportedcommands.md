@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.QuerySupportedCommands
 title: IMbnDeviceService::QuerySupportedCommands
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the list of commands IDs supported by the Mobile Broadband device service.
 old-location: mbn\imbndeviceservice_querysupportedcommands.htm
 old-project: mbn
 ms.assetid: E82AAD40-1E91-449D-8F1C-CE31B394B2DF
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],QuerySupportedCommands method, IMbnDeviceService.QuerySupportedCommands, IMbnDeviceService::QuerySupportedCommands, QuerySupportedCommands, QuerySupportedCommands method [Microsoft Broadband Networks], QuerySupportedCommands method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_querysupportedcommands, mbnapi/IMbnDeviceService::QuerySupportedCommands
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

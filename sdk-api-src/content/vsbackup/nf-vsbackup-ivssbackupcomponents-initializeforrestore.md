@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.InitializeForRestore
 title: IVssBackupComponents::InitializeForRestore
-author: windows-driver-content
+author: windows-sdk-content
 description: The InitializeForRestore method initializes the IVssBackupComponents interface in preparation for a restore operation.
 old-location: base\ivssbackupcomponents_initializeforrestore.htm
 old-project: VSS
 ms.assetid: a8ba1463-4da7-4539-8ade-b57ecda0a645
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssBackupComponents interface [VSS],InitializeForRestore method, IVssBackupComponents.InitializeForRestore, IVssBackupComponents::InitializeForRestore, InitializeForRestore, InitializeForRestore method [VSS], InitializeForRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_initializeforrestore, base.ivssbackupcomponents_initializeforrestore, vsbackup/IVssBackupComponents::InitializeForRestore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

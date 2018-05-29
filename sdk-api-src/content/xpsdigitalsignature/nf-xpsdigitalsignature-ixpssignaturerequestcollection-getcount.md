@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequestCollection.GetCount
 title: IXpsSignatureRequestCollection::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of IXpsSignatureRequest interface pointers in the collection.
 old-location: xps\ixpssignaturerequestcollection_getcount.htm
 old-project: printdocs
 ms.assetid: e85d776e-6e26-46fa-bcaa-d99737ec1211
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsSignatureRequestCollection interface, IXpsSignatureRequestCollection interface [XPS Documents and Packaging],GetCount method, IXpsSignatureRequestCollection.GetCount, IXpsSignatureRequestCollection::GetCount, xps.ixpssignaturerequestcollection_getcount, xpsdigitalsignature/IXpsSignatureRequestCollection::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

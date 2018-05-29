@@ -1,16 +1,16 @@
 ---
 UID: NE:virtdisk._MIRROR_VIRTUAL_DISK_VERSION
 title: "_MIRROR_VIRTUAL_DISK_VERSION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the version of the virtual disk MIRROR_VIRTUAL_DISK_PARAMETERS structure used by the MirrorVirtualDisk function.
 old-location: vhd\mirror_virtual_disk_version.htm
 old-project: VStor
 ms.assetid: 42045e2b-3e3b-4497-b6bb-18f360139c18
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: MIRROR_VIRTUAL_DISK_VERSION, MIRROR_VIRTUAL_DISK_VERSION enumeration [VHD], MIRROR_VIRTUAL_DISK_VERSION_1, MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED, _MIRROR_VIRTUAL_DISK_VERSION, vhd.mirror_virtual_disk_version, virtdisk/MIRROR_VIRTUAL_DISK_VERSION, virtdisk/MIRROR_VIRTUAL_DISK_VERSION_1, virtdisk/MIRROR_VIRTUAL_DISK_VERSION_UNSPECIFIED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: Windows.h

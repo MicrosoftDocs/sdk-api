@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICProgressNotification
 title: WICProgressNotification
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies when the progress notification callback should be called.
 old-location: wic\_wic_codec_wicprogressnotification.htm
 old-project: wic
 ms.assetid: 6d7ef6f1-2024-4de5-9c2e-8edc6359f79b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICProgressNotification, WICProgressNotification enumeration [Windows Imaging Component], WICProgressNotificationAll, WICProgressNotificationBegin, WICProgressNotificationEnd, WICProgressNotificationFrequent, _wic_codec_wicprogressnotification, wic._wic_codec_wicprogressnotification, wincodec/WICProgressNotification, wincodec/WICProgressNotificationAll, wincodec/WICProgressNotificationBegin, wincodec/WICProgressNotificationEnd, wincodec/WICProgressNotificationFrequent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

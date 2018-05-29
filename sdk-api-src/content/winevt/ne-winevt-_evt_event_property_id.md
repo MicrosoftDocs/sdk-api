@@ -1,16 +1,16 @@
 ---
 UID: NE:winevt._EVT_EVENT_PROPERTY_ID
 title: "_EVT_EVENT_PROPERTY_ID"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the values that determine the query information to retrieve.
 old-location: wes\evt_subscription_event_property_id.htm
 old-project: WES
 ms.assetid: 19e20da3-5b6b-4f56-b30b-0408695f2267
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EVT_EVENT_PROPERTY_ID, EVT_EVENT_PROPERTY_ID enumeration [EventLog], EvtEventPath, EvtEventPropertyIdEND, EvtEventQueryIDs, _EVT_EVENT_PROPERTY_ID, wes.evt_subscription_event_property_id, winevt/EVT_EVENT_PROPERTY_ID, winevt/EvtEventPath, winevt/EvtEventPropertyIdEND, winevt/EvtEventQueryIDs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

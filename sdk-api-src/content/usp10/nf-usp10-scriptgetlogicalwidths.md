@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptGetLogicalWidths
 title: ScriptGetLogicalWidths function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the glyph advance widths for a specific font into logical widths.
 old-location: intl\scriptgetlogicalwidths.htm
 old-project: Intl
 ms.assetid: ecedd0a1-aad8-4527-be46-6f7dd26a9e9b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptGetLogicalWidths, ScriptGetLogicalWidths function [Internationalization for Windows Applications], _win32_ScriptGetLogicalWidths, intl.scriptgetlogicalwidths, usp10/ScriptGetLogicalWidths
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

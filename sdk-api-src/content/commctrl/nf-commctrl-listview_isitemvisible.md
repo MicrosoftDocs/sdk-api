@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_IsItemVisible
 title: ListView_IsItemVisible macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether an item in the list-view control is visible. Use this macro or send the LVM_ISITEMVISIBLE message explicitly.
 old-location: controls\ListView_IsItemVisible.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_isitemvisible.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_IsItemVisible, ListView_IsItemVisible macro [Windows Controls], _shell_ListView_IsItemVisible, _shell_ListView_IsItemVisible_cpp, commctrl/ListView_IsItemVisible, controls.ListView_IsItemVisible, controls._shell_ListView_IsItemVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

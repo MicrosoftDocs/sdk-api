@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509MachineEnrollmentFactory.CreateObject
 title: IX509MachineEnrollmentFactory::CreateObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IX509EnrollmentHelper object on a webpage.
 old-location: security\ix509machineenrollmentfactory_createobject.htm
 old-project: SecCertEnroll
 ms.assetid: f9a45219-1c88-4946-ad57-81b95c609066
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CreateObject, CreateObject method [Security], CreateObject method [Security],IX509MachineEnrollmentFactory interface, IX509MachineEnrollmentFactory interface [Security],CreateObject method, IX509MachineEnrollmentFactory.CreateObject, IX509MachineEnrollmentFactory::CreateObject, certenroll/IX509MachineEnrollmentFactory::CreateObject, security.ix509machineenrollmentfactory_createobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

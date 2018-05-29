@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.POLICY_DATA
 title: POLICY_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: The POLICY_DATA structure contains policy data for RSVP messages.
 old-location: qos\policy_data.htm
 old-project: QOS
 ms.assetid: 0e91b77c-e4dd-4e23-8af6-bf549168cfc5
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: POLICY_DATA, POLICY_DATA structure [QOS], lpmapi/POLICY_DATA, qos.policy_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.SHCreateItemWithParent
 title: SHCreateItemWithParent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Create a Shell item, given a parent folder and a child item ID.
 old-location: shell\SHCreateItemWithParent.htm
 old-project: shell
 ms.assetid: 8fb84a20-d8f2-4c7c-bfb1-a22791b8636a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCreateItemWithParent, SHCreateItemWithParent function [Windows Shell], _shell_SHCreateItemWithParent, shell.SHCreateItemWithParent, shobjidl_core/SHCreateItemWithParent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

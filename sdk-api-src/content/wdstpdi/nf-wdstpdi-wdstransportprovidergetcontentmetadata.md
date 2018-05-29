@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderGetContentMetadata
 title: WdsTransportProviderGetContentMetadata function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves metadata for an open content stream.
 old-location: wds\wdstransportprovidergetcontentmetadata.htm
 old-project: Wds
 ms.assetid: ed243373-b5ff-418d-811c-544589ea11ac
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsTransportProviderGetContentMetadata, WdsTransportProviderGetContentMetadata callback, WdsTransportProviderGetContentMetadata callback function [Windows Deployment Services], wds.wdstransportprovidergetcontentmetadata, wdstpdi/WdsTransportProviderGetContentMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 

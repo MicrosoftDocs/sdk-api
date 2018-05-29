@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMVfwCompressDialogs.SetState
 title: IAMVfwCompressDialogs::SetState
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetState method sets configuration for the VCM codec.
 old-location: dshow\iamvfwcompressdialogs_setstate.htm
 old-project: DirectShow
 ms.assetid: 9b27bbaa-4e2f-4567-a6fc-62fb3f5f31a8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMVfwCompressDialogs interface [DirectShow],SetState method, IAMVfwCompressDialogs.SetState, IAMVfwCompressDialogs::SetState, IAMVfwCompressDialogsSetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IAMVfwCompressDialogs interface, dshow.iamvfwcompressdialogs_setstate, strmif/IAMVfwCompressDialogs::SetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

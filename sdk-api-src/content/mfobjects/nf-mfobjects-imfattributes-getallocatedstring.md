@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetAllocatedString
 title: IMFAttributes::GetAllocatedString
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a wide-character string associated with a key. This method allocates the memory for the string.
 old-location: mf\imfattributes_getallocatedstring.htm
 old-project: medfound
 ms.assetid: 550a3035-ea16-4784-8f69-9522259bb338
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 550a3035-ea16-4784-8f69-9522259bb338, GetAllocatedString, GetAllocatedString method [Media Foundation], GetAllocatedString method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetAllocatedString method, IMFAttributes.GetAllocatedString, IMFAttributes::GetAllocatedString, mf.imfattributes_getallocatedstring, mfobjects/IMFAttributes::GetAllocatedString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

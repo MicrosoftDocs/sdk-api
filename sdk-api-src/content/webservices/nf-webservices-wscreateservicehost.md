@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsCreateServiceHost
 title: WsCreateServiceHost function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a service host for the specified endpoints.
 old-location: wsw\wscreateservicehost.htm
 old-project: wsw
 ms.assetid: 412a262a-1706-4101-b154-1804408a5b9f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsCreateServiceHost, WsCreateServiceHost function [Web Services for Windows], webservices/WsCreateServiceHost, wsw.wscreateservicehost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

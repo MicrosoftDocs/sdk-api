@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITToneDetectionEvent
 title: ITToneDetectionEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITToneDetectionEvent interface exposes methods that allow an application to retrieve information about a tone detection event.
 old-location: tapi3\ittonedetectionevent.htm
 old-project: Tapi
 ms.assetid: 1e0f71a2-1aae-46b7-9147-7bf9da4d9503
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITToneDetectionEvent, ITToneDetectionEvent interface [TAPI 2.2], ITToneDetectionEvent interface [TAPI 2.2],described, _tapi3_ittonedetectionevent, tapi3.ittonedetectionevent, tapi3if/ITToneDetectionEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: 

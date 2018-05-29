@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IATSCChannelTuneRequest.put_MinorChannel
 title: IATSCChannelTuneRequest::put_MinorChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_MinorChannel method sets the minor channel to be tuned.
 old-location: mstv\iatscchanneltunerequest_put_minorchannel.htm
 old-project: mstv
 ms.assetid: 1288d249-58de-410e-852b-233133f56da5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IATSCChannelTuneRequest interface [Microsoft TV Technologies],put_MinorChannel method, IATSCChannelTuneRequest.put_MinorChannel, IATSCChannelTuneRequest::put_MinorChannel, IATSCChannelTuneRequestput_MinorChannel, mstv.iatscchanneltunerequest_put_minorchannel, put_MinorChannel, put_MinorChannel method [Microsoft TV Technologies], put_MinorChannel method [Microsoft TV Technologies],IATSCChannelTuneRequest interface, tuner/IATSCChannelTuneRequest::put_MinorChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

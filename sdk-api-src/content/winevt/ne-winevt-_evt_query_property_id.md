@@ -1,16 +1,16 @@
 ---
 UID: NE:winevt._EVT_QUERY_PROPERTY_ID
 title: "_EVT_QUERY_PROPERTY_ID"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the identifiers that identify the query information that you can retrieve.
 old-location: wes\evt_query_property_id.htm
 old-project: WES
 ms.assetid: 69a17378-088e-42e7-b7da-0ccc642f44d1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EVT_QUERY_PROPERTY_ID, EVT_QUERY_PROPERTY_ID enumeration [EventLog], EvtQueryNames, EvtQueryPropertyIdEND, EvtQueryStatuses, _EVT_QUERY_PROPERTY_ID, wes.evt_query_property_id, winevt/EVT_QUERY_PROPERTY_ID, winevt/EvtQueryNames, winevt/EvtQueryPropertyIdEND, winevt/EvtQueryStatuses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

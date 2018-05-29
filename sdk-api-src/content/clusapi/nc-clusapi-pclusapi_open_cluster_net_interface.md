@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE
 title: PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a handle to a network interface.
 old-location: mscs\openclusternetinterface.htm
 old-project: MsCS
 ms.assetid: 1198ad57-ea47-428f-8867-061afbfc7709
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE, PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE callback, PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE callback function [Failover Cluster], _wolf_openclusternetinterface, clusapi/PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE, mscs.openclusternetinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

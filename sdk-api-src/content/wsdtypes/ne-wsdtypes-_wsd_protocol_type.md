@@ -1,16 +1,16 @@
 ---
 UID: NE:wsdtypes._WSD_PROTOCOL_TYPE
 title: "_WSD_PROTOCOL_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the type of protocol supported by a port.
 old-location: ncd\wsd_protocol_type.htm
 old-project: WsdApi
 ms.assetid: db18870b-2688-4d5e-8aae-7990ff0fc423
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_PROTOCOL_TYPE, WSD_PROTOCOL_TYPE enumeration, WSD_PT_ALL, WSD_PT_HTTP, WSD_PT_HTTPS, WSD_PT_NONE, WSD_PT_UDP, _WSD_PROTOCOL_TYPE, ncd.wsd_protocol_type, wsdtypes/WSD_PROTOCOL_TYPE, wsdtypes/WSD_PT_ALL, wsdtypes/WSD_PT_HTTP, wsdtypes/WSD_PT_HTTPS, wsdtypes/WSD_PT_NONE, wsdtypes/WSD_PT_UDP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

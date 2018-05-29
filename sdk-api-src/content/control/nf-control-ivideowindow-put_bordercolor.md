@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IVideoWindow.put_BorderColor
 title: IVideoWindow::put_BorderColor
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_BorderColor method sets the color that appears around the edges of the destination rectangle.
 old-location: dshow\ivideowindow_put_bordercolor.htm
 old-project: DirectShow
 ms.assetid: c0e249f4-4a17-4c5d-8f16-bb1aceef2064
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_BorderColor method, IVideoWindow.put_BorderColor, IVideoWindow::put_BorderColor, IVideoWindowput_BorderColor, control/IVideoWindow::put_BorderColor, dshow.ivideowindow_put_bordercolor, put_BorderColor, put_BorderColor method [DirectShow], put_BorderColor method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

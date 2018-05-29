@@ -1,16 +1,16 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerW.OpenLinkSource
 title: IOleUILinkContainerW::OpenLinkSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the link's source.
 old-location: com\ioleuilinkcontainer_openlinksource.htm
 old-project: com
 ms.assetid: bc732a2f-f13d-4d08-a81d-292dd2ba1140
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleUILinkContainer interface [COM],OpenLinkSource method, IOleUILinkContainer::OpenLinkSource, IOleUILinkContainerA interface [COM],OpenLinkSource method, IOleUILinkContainerA::OpenLinkSource, IOleUILinkContainerW interface [COM],OpenLinkSource method, IOleUILinkContainerW.OpenLinkSource, IOleUILinkContainerW::OpenLinkSource, OpenLinkSource, OpenLinkSource method [COM], OpenLinkSource method [COM],IOleUILinkContainer interface, OpenLinkSource method [COM],IOleUILinkContainerA interface, OpenLinkSource method [COM],IOleUILinkContainerW interface, _ole_IOleUILinkContainer_OpenLinkSource, com.ioleuilinkcontainer_openlinksource, oledlg/IOleUILinkContainer::OpenLinkSource, oledlg/IOleUILinkContainerA::OpenLinkSource, oledlg/IOleUILinkContainerW::OpenLinkSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oledlg.h
 req.include-header: 

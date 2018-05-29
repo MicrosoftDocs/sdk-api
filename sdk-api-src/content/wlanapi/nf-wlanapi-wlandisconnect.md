@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanDisconnect
 title: WlanDisconnect function
-author: windows-driver-content
+author: windows-sdk-content
 description: Disconnects an interface from its current network.
 old-location: nwifi\wlandisconnect.htm
 old-project: NativeWiFi
 ms.assetid: cc48ee72-3125-45a0-ac16-0c520ee3cd44
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanDisconnect, WlanDisconnect function [NativeWIFI], nwifi.wlandisconnect, wlanapi/WlanDisconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

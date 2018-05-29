@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.GetNtmsMediaPoolNameW
 title: GetNtmsMediaPoolNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNtmsMediaPoolName function retrieves the specified media pool's full name hierarchy.
 old-location: fs\getntmsmediapoolname.htm
 old-project: Rsm
 ms.assetid: 72b9028b-d97e-4441-8677-1a4a0b03dee2
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: GetNtmsMediaPoolName, GetNtmsMediaPoolName function [Files], GetNtmsMediaPoolNameA, GetNtmsMediaPoolNameW, _zaw_getntmsmediapoolname, base.getntmsmediapoolname, fs.getntmsmediapoolname, ntmsapi/GetNtmsMediaPoolName, ntmsapi/GetNtmsMediaPoolNameA, ntmsapi/GetNtmsMediaPoolNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFClockStateSink.OnClockSetRate
 title: IMFClockStateSink::OnClockSetRate
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the rate changes on the presentation clock.
 old-location: mf\imfclockstatesink_onclocksetrate.htm
 old-project: medfound
 ms.assetid: ba8afdf9-13eb-4e3d-b8a7-c74e0b40e998
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFClockStateSink interface [Media Foundation],OnClockSetRate method, IMFClockStateSink.OnClockSetRate, IMFClockStateSink::OnClockSetRate, OnClockSetRate, OnClockSetRate method [Media Foundation], OnClockSetRate method [Media Foundation],IMFClockStateSink interface, ba8afdf9-13eb-4e3d-b8a7-c74e0b40e998, mf.imfclockstatesink_onclocksetrate, mfidl/IMFClockStateSink::OnClockSetRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

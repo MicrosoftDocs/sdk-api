@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_ABANDON_MESSAGE_CALLBACK
 title: WS_ABANDON_MESSAGE_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles the WsAbandonMessage call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_abandon_message_callback.htm
 old-project: wsw
 ms.assetid: 494cfb49-c09e-4f51-85fd-5bb0f8d0a45d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_ABANDON_MESSAGE_CALLBACK, WS_ABANDON_MESSAGE_CALLBACK callback, WS_ABANDON_MESSAGE_CALLBACK callback function [Web Services for Windows], webservices/WS_ABANDON_MESSAGE_CALLBACK, wsw.ws_abandon_message_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

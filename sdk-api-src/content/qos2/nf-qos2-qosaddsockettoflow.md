@@ -1,16 +1,16 @@
 ---
 UID: NF:qos2.QOSAddSocketToFlow
 title: QOSAddSocketToFlow function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a new flow for traffic.
 old-location: qos\qosaddsockettoflow.htm
 old-project: QOS
 ms.assetid: 44136284-b553-446e-a95f-1eac476a7143
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: QOSAddSocketToFlow, QOSAddSocketToFlow function [QOS], QOS_NON_ADAPTIVE_FLOW, qos.qosaddsockettoflow, qos2/QOSAddSocketToFlow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h

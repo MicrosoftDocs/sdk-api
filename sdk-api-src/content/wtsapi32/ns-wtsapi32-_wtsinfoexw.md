@@ -1,16 +1,16 @@
 ---
 UID: NS:wtsapi32._WTSINFOEXW
 title: "_WTSINFOEXW"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a WTSINFOEX_LEVEL union that contains extended information about a Remote Desktop Services session.
 old-location: termserv\wtsinfoex.htm
 old-project: TermServ
 ms.assetid: 94aa2db0-d7e3-4ff2-bff0-d80983d2e8b2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PWTSINFOEXW, PWTSINFOEX, PWTSINFOEX structure pointer [Remote Desktop Services], WTSINFOEX, WTSINFOEX structure [Remote Desktop Services], WTSINFOEXA, WTSINFOEXW, _WTSINFOEXW, termserv.wtsinfoex, wtsapi32/PWTSINFOEX, wtsapi32/WTSINFOEX, wtsapi32/WTSINFOEXA, wtsapi32/WTSINFOEXW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 

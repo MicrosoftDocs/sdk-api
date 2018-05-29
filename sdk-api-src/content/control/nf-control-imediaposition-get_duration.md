@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IMediaPosition.get_Duration
 title: IMediaPosition::get_Duration
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Duration method retrieves the duration of the stream.
 old-location: dshow\imediaposition_get_duration.htm
 old-project: DirectShow
 ms.assetid: 9971ca0e-a16d-4227-9efa-c965d501e6ef
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_Duration method, IMediaPosition.get_Duration, IMediaPosition::get_Duration, IMediaPositionget_Duration, control/IMediaPosition::get_Duration, dshow.imediaposition_get_duration, get_Duration, get_Duration method [DirectShow], get_Duration method [DirectShow],IMediaPosition interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

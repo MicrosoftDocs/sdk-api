@@ -1,16 +1,16 @@
 ---
 UID: NE:authif._RADIUS_ACTION
 title: "_RADIUS_ACTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RADIUS_ACTION type enumerates the responses that a NPS Extension DLL can generate in response to an Access-Request.
 old-location: nps\IAS_radius_action.htm
 old-project: Nps
 ms.assetid: c0bd58ca-24e5-4cee-95e9-521d15c44814
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PRADIUS_ACTION, PRADIUS_ACTION, PRADIUS_ACTION enumeration pointer [Network Policy Server], RADIUS_ACTION, RADIUS_ACTION enumeration [Network Policy Server], _RADIUS_ACTION, _ias_radius_action, authif/PRADIUS_ACTION, authif/RADIUS_ACTION, authif/raAccept, authif/raContinue, authif/raReject, ias.radius_action, nps.IAS_radius_action, raAccept, raContinue, raReject"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: authif.h
 req.include-header: 

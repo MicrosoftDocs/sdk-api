@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentDescription
 title: IUIAutomationLegacyIAccessiblePattern::get_CurrentDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Microsoft Active Accessibility description of the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDescription.htm
 old-project: WinAuto
 ms.assetid: bdadeb0f-4739-4d0c-bd41-17ac9addf933
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentDescription property [Windows Accessibility], CurrentDescription property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentDescription property, IUIAutomationLegacyIAccessiblePattern.CurrentDescription, IUIAutomationLegacyIAccessiblePattern.get_CurrentDescription, IUIAutomationLegacyIAccessiblePattern::CurrentDescription, IUIAutomationLegacyIAccessiblePattern::get_CurrentDescription, get_CurrentDescription, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDescription, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDescription, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentDescription, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentDescription, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

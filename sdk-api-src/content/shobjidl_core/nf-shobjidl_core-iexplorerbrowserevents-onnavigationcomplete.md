@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowserEvents.OnNavigationComplete
 title: IExplorerBrowserEvents::OnNavigationComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies clients that the Explorer browser has successfully navigated to a Shell folder.
 old-location: shell\IExplorerBrowserEvents_OnNavigationComplete.htm
 old-project: shell
 ms.assetid: 54c97a55-a8d1-4635-a1e0-2f92d52ddc10
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IExplorerBrowserEvents interface [Windows Shell],OnNavigationComplete method, IExplorerBrowserEvents.OnNavigationComplete, IExplorerBrowserEvents::OnNavigationComplete, OnNavigationComplete, OnNavigationComplete method [Windows Shell], OnNavigationComplete method [Windows Shell],IExplorerBrowserEvents interface, _shell_IExplorerBrowserEvents_OnNavigationComplete, shell.IExplorerBrowserEvents_OnNavigationComplete, shobjidl_core/IExplorerBrowserEvents::OnNavigationComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

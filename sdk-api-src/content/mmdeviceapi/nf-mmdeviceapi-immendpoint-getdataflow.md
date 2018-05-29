@@ -1,16 +1,16 @@
 ---
 UID: NF:mmdeviceapi.IMMEndpoint.GetDataFlow
 title: IMMEndpoint::GetDataFlow
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDataFlow method indicates whether the audio endpoint device is a rendering device or a capture device.
 old-location: coreaudio\immendpoint_getdataflow.htm
 old-project: CoreAudio
 ms.assetid: 01882c44-bf0c-4180-846e-c1e98c6fb472
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetDataFlow, GetDataFlow method [Core Audio], GetDataFlow method [Core Audio],IMMEndpoint interface, IMMEndpoint interface [Core Audio],GetDataFlow method, IMMEndpoint.GetDataFlow, IMMEndpoint::GetDataFlow, IMMEndpointGetDataFlow, coreaudio.immendpoint_getdataflow, mmdeviceapi/IMMEndpoint::GetDataFlow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowserEvents.OnNavigationFailed
 title: IExplorerBrowserEvents::OnNavigationFailed
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies clients that the Explorer browser has failed to navigate to a Shell folder.
 old-location: shell\IExplorerBrowserEvents_OnNavigationFailed.htm
 old-project: shell
 ms.assetid: d4de3b81-4482-47c8-bb47-593aba484952
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IExplorerBrowserEvents interface [Windows Shell],OnNavigationFailed method, IExplorerBrowserEvents.OnNavigationFailed, IExplorerBrowserEvents::OnNavigationFailed, OnNavigationFailed, OnNavigationFailed method [Windows Shell], OnNavigationFailed method [Windows Shell],IExplorerBrowserEvents interface, _shell_IExplorerBrowserEvents_OnNavigationFailed, shell.IExplorerBrowserEvents_OnNavigationFailed, shobjidl_core/IExplorerBrowserEvents::OnNavigationFailed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

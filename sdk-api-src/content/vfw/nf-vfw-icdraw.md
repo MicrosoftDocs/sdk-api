@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICDraw
 title: ICDraw function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICDraw function decompresses an image for drawing.
 old-location: multimedia\icdraw.htm
 old-project: Multimedia
 ms.assetid: 0bf2c264-6adf-4773-95df-9cd77e73c022
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICDraw, ICDraw function [Windows Multimedia], _win32_ICDraw, multimedia.icdraw, vfw/ICDraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.IAccessibleEx
 title: IAccessibleEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that are called by Microsoft UI Automation to retrieve extra information about a control that supports Microsoft Active Accessibility.
 old-location: winauto\uiauto_IAccessibleEx.htm
 old-project: WinAuto
 ms.assetid: 90211503-a73c-4380-be96-0be40ad29382
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccessibleEx, IAccessibleEx interface [Windows Accessibility], IAccessibleEx interface [Windows Accessibility],described, uiauto.uiauto_IAccessibleEx, uiauto_IAccessibleEx, uiautomationcore/IAccessibleEx, winauto.uiauto_IAccessibleEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

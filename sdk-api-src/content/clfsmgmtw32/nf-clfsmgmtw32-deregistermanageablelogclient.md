@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsmgmtw32.DeregisterManageableLogClient
 title: DeregisterManageableLogClient function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deregisters a client with the log manager.
 old-location: fs\deregistermanageablelogclient.htm
 old-project: Clfs
 ms.assetid: 293a4856-62d4-49a3-9177-4d09a0897200
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DeregisterManageableLogClient, DeregisterManageableLogClient function [Files], clfsmgmtw32/DeregisterManageableLogClient, fs.deregistermanageablelogclient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsmgmtw32.h
 req.include-header: 

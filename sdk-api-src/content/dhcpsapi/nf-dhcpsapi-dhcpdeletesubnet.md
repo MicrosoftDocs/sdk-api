@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteSubnet
 title: DhcpDeleteSubnet function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DhcpDeleteSubnet function deletes a subnet from the DHCP server.
 old-location: dhcp\dhcpdeletesubnet.htm
 old-project: DHCP
 ms.assetid: e000a81b-b61b-4ba9-adee-4940edc78050
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpDeleteSubnet, DhcpDeleteSubnet function [DHCP], dhcp.dhcpdeletesubnet, dhcpsapi/DhcpDeleteSubnet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

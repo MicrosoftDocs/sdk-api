@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpScanDatabase
 title: DhcpScanDatabase function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the leased DHCPv4 client IPv4 addresses that are not synchronized between the in-memory cache and the server database.
 old-location: dhcp\dhcpscandatabase.htm
 old-project: DHCP
 ms.assetid: 6324c197-7237-449f-ae23-4f04b1b7498e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpScanDatabase, DhcpScanDatabase function [DHCP], dhcp.dhcpscandatabase, dhcpsapi/DhcpScanDatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiDeterminePatchSequenceA
 title: MsiDeterminePatchSequenceA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Takes a set of patch files, XML files, and XML blobs and determines the best sequence of application for the patches to a specified installed product.
 old-location: setup\msideterminepatchsequence.htm
 old-project: Msi
 ms.assetid: f82e7d42-f0cd-4d25-b56f-7e423cb64cfd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiDeterminePatchSequence, MsiDeterminePatchSequence function, MsiDeterminePatchSequenceA, MsiDeterminePatchSequenceW, msi/MsiDeterminePatchSequence, msi/MsiDeterminePatchSequenceA, msi/MsiDeterminePatchSequenceW, setup.msideterminepatchsequence
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

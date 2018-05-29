@@ -1,16 +1,16 @@
 ---
 UID: NF:guiddef.IsEqualCLSID
 title: IsEqualCLSID macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether two CLSIDs are equal.
 old-location: com\isequalclsid.htm
 old-project: com
 ms.assetid: f55ae128-8667-45df-a93e-37812a3409b5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsEqualCLSID, IsEqualCLSID function [COM], _com_IsEqualCLSID, com.isequalclsid, guiddef/IsEqualCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: guiddef.h
 req.include-header: 

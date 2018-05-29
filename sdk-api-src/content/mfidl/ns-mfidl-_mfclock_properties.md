@@ -1,16 +1,16 @@
 ---
 UID: NS:mfidl._MFCLOCK_PROPERTIES
 title: "_MFCLOCK_PROPERTIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the properties of a clock.
 old-location: mf\mfclock_properties.htm
 old-project: medfound
 ms.assetid: 1efc6602-9851-40e5-85aa-0335d4e899a2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 1efc6602-9851-40e5-85aa-0335d4e899a2, MFCLOCK_JITTER_DPC, MFCLOCK_JITTER_ISR, MFCLOCK_JITTER_PASSIVE, MFCLOCK_PROPERTIES, MFCLOCK_PROPERTIES structure [Media Foundation], _MFCLOCK_PROPERTIES, mf.mfclock_properties, mfidl/MFCLOCK_PROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 

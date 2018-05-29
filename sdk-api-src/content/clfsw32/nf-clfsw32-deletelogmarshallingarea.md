@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.DeleteLogMarshallingArea
 title: DeleteLogMarshallingArea function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a marshaling area that is created by a successful call to CreateLogMarshallingArea.
 old-location: fs\deletelogmarshallingarea.htm
 old-project: Clfs
 ms.assetid: d58bd64f-fa76-4ab3-9660-e31e9029171c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DeleteLogMarshallingArea, DeleteLogMarshallingArea function [Files], clfsw32/DeleteLogMarshallingArea, fs.deletelogmarshalingarea, fs.deletelogmarshallingarea
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

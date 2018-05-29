@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpSetCredentials
 title: WinHttpSetCredentials function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinHttpSetCredentials function passes the required authorization credentials to the server.
 old-location: http\winhttpsetcredentials.htm
 old-project: WinHttp
 ms.assetid: a864c708-9481-460a-87aa-1d31c344c0a1
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_DIGEST, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_AUTH_SCHEME_PASSPORT, WINHTTP_AUTH_TARGET_PROXY, WINHTTP_AUTH_TARGET_SERVER, WinHttpSetCredentials, WinHttpSetCredentials function [WinHTTP], http.winhttpsetcredentials, winhttp.winhttpsetcredentials_function, winhttp/WinHttpSetCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

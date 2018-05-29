@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetDpiX
 title: MetafileHeader::GetDpiX
-author: windows-driver-content
+author: windows-sdk-content
 description: The MetafileHeader::GetDpiX method gets the horizontal dots per inch of the associated metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetDpiX_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getdpix_56.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDpiX, GetDpiX method [GDI+], GetDpiX method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetDpiX method, MetafileHeader.GetDpiX, MetafileHeader::GetDpiX, _gdiplus_CLASS_MetafileHeader_GetDpiX_, gdiplus._gdiplus_CLASS_MetafileHeader_GetDpiX_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h

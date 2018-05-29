@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateMuxSink
 title: MFCreateMuxSink function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a generic media sink that wraps a multiplexer Microsoft Media Foundation transform (MFT).
 old-location: mf\mfcreatemuxsink.htm
 old-project: medfound
 ms.assetid: 31A8790B-4C71-4D0D-B686-27B345745872
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateMuxSink, MFCreateMuxSink function [Media Foundation], mf.mfcreatemuxsink, mfidl/MFCreateMuxSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

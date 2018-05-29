@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IWizardSite.GetNextPage
 title: IWizardSite::GetNextPage
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the user navigates forward past the wizard extension pages. Gets the handle of the PROPSHEETPAGE that represents the wizard page immediately following the wizard extension page.
 old-location: shell\IWizardSite_GetNextPage.htm
 old-project: shell
 ms.assetid: 61f9b288-40d0-4e36-84e7-6b7bd5d3f5f1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNextPage, GetNextPage method [Windows Shell], GetNextPage method [Windows Shell],IWizardSite interface, IWizardSite interface [Windows Shell],GetNextPage method, IWizardSite.GetNextPage, IWizardSite::GetNextPage, _shell_IWizardSite_GetNextPage, shell.IWizardSite_GetNextPage, shobjidl/IWizardSite::GetNextPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

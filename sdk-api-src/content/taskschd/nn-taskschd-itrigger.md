@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.ITrigger
 title: ITrigger
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the common properties that are inherited by all trigger objects.
 old-location: taskschd\itrigger.htm
 old-project: TaskSchd
 ms.assetid: 165297c1-704b-4ab3-a9e3-4aa3f10e07b1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITrigger, ITrigger interface [Task Scheduler], ITrigger interface [Task Scheduler],described, taskschd.itrigger, taskschd/ITrigger, triggers [Task Scheduler],trigger interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.Commit
 title: IWICBitmapFrameEncode::Commit
-author: windows-driver-content
+author: windows-sdk-content
 description: Commits the frame to the image.
 old-location: wic\_wic_codec_iwicbitmapframeencode_commit.htm
 old-project: wic
 ms.assetid: 6321fb9e-9ea8-423c-a332-9daa589af6f7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Commit, Commit method [Windows Imaging Component], Commit method [Windows Imaging Component],IWICBitmapFrameEncode interface, IWICBitmapFrameEncode interface [Windows Imaging Component],Commit method, IWICBitmapFrameEncode.Commit, IWICBitmapFrameEncode::Commit, _wic_codec_iwicbitmapframeencode_commit, wic._wic_codec_iwicbitmapframeencode_commit, wincodec/IWICBitmapFrameEncode::Commit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:dxva2api._DXVA2_Frequency
 title: "_DXVA2_Frequency"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a video frequency.
 old-location: mf\dxva2_frequency.htm
 old-project: medfound
 ms.assetid: 03b6bef9-c0ba-4efa-9552-55c8e9fd77ae
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 03b6bef9-c0ba-4efa-9552-55c8e9fd77ae, DXVA2_Frequency, DXVA2_Frequency structure [Media Foundation], _DXVA2_Frequency, dxva2api/DXVA2_Frequency, mf.dxva2_frequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 

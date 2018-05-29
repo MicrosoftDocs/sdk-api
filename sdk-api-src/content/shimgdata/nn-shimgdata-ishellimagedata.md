@@ -1,16 +1,16 @@
 ---
 UID: NN:shimgdata.IShellImageData
 title: IShellImageData
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods and properties that display, manipulate, and describe image data.
 old-location: shell\IShellImageData.htm
 old-project: shell
 ms.assetid: 935e651c-4dcd-4317-847e-34adf656035c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellImageData, IShellImageData interface [Windows Shell], IShellImageData interface [Windows Shell],described, _shell_IShellImageData, shell.IShellImageData, shimgdata/IShellImageData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shimgdata.h
 req.include-header: 

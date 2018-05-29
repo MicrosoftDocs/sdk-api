@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcomex.IFaxIncomingMessage
 title: IFaxIncomingMessage
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by a fax client application to retrieve information about a received fax message in the archive of inbound faxes.
 old-location: fax\_mfax_faxincomingmessage_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_44h1_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxIncomingMessage, IFaxIncomingMessage interface [Fax Service], IFaxIncomingMessage interface [Fax Service],described, _mfax_faxincomingmessage_cpp, fax._mfax_faxincomingmessage_cpp, faxcomex/IFaxIncomingMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

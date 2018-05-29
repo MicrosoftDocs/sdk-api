@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathMatchSpecExW
 title: PathMatchSpecExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Matches a file name from a path against one or more file name patterns.
 old-location: shell\PathMatchSpecEx.htm
 old-project: shell
 ms.assetid: bd9bf950-e349-4b67-8608-7acad84c0907
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PMSF_DONT_STRIP_SPACES, PMSF_MULTIPLE, PMSF_NORMAL, PathMatchSpecEx, PathMatchSpecEx function [Windows Shell], PathMatchSpecExA, PathMatchSpecExW, _win32_PathMatchSpecEx, shell.PathMatchSpecEx, shlwapi/PathMatchSpecEx, shlwapi/PathMatchSpecExA, shlwapi/PathMatchSpecExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

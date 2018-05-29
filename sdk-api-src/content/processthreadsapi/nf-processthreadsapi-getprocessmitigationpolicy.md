@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.GetProcessMitigationPolicy
 title: GetProcessMitigationPolicy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves mitigation policy settings for the calling process.
 old-location: base\getprocessmitigationpolicy.htm
 old-project: ProcThread
 ms.assetid: 89f9c883-6976-4af2-9a8b-c76101d8ed02
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetProcessMitigationPolicy, GetProcessMitigationPolicy function, ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, base.getprocessmitigationpolicy, processthreadsapi/GetProcessMitigationPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: 

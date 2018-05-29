@@ -1,16 +1,16 @@
 ---
 UID: NN:eventsys.IEventClass
 title: IEventClass
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates a class of event objects with the event interface those objects implement.
 old-location: cos\ieventclass.htm
 old-project: cossdk
 ms.assetid: e8c1fcd1-59fb-49d6-94b9-52b7c8551651
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEventClass, IEventClass interface [COM+], IEventClass interface [COM+],described, _cos_IEventClass, cos.ieventclass, eventsys/IEventClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 

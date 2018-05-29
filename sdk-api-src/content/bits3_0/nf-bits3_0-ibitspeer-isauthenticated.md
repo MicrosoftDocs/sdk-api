@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IBitsPeer.IsAuthenticated
 title: IBitsPeer::IsAuthenticated
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the peer is authenticated.
 old-location: bits\ibitspeer_isauthenticated.htm
 old-project: Bits
 ms.assetid: 64718331-32a9-40ba-90f2-9dd9d8fea3e4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBitsPeer interface [BITS],IsAuthenticated method, IBitsPeer.IsAuthenticated, IBitsPeer::IsAuthenticated, IsAuthenticated, IsAuthenticated method [BITS], IsAuthenticated method [BITS],IBitsPeer interface, bits.ibitspeer_isauthenticated, bits3_0/IBitsPeer::IsAuthenticated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

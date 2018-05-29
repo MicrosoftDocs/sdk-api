@@ -1,16 +1,16 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetEncoderParams
 title: IShellImageData::GetEncoderParams
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current set of encoder parameters.
 old-location: shell\IShellImageData_GetEncoderParams.htm
 old-project: shell
 ms.assetid: 9b664d0f-7bb7-4cdd-8c0c-2ca80faaa764
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetEncoderParams, GetEncoderParams method [Windows Shell], GetEncoderParams method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetEncoderParams method, IShellImageData.GetEncoderParams, IShellImageData::GetEncoderParams, _shell_IShellImageData_GetEncoderParams, shell.IShellImageData_GetEncoderParams, shimgdata/IShellImageData::GetEncoderParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

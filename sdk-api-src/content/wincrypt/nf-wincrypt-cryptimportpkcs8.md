@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptImportPKCS8
 title: CryptImportPKCS8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Imports the private key in PKCS #8 format to a cryptographic service provider (CSP).
 old-location: security\cryptimportpkcs8.htm
 old-project: SecCrypto
 ms.assetid: fa3deff9-b4c1-4b63-a59f-738f87e1a409
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_EXPORTABLE, CRYPT_USER_PROTECTED, CryptImportPKCS8, CryptImportPKCS8 function [Security], security.cryptimportpkcs8, wincrypt/CryptImportPKCS8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:dot1x._ONEX_AUTH_PARAMS
 title: "_ONEX_AUTH_PARAMS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains 802.1X authentication parameters used for 802.1X authentication.
 old-location: nwifi\onex_auth_params.htm
 old-project: NativeWiFi
 ms.assetid: a5dcd546-abe5-4553-baa8-656d37b263a3
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: "*PONEX_AUTH_PARAMS, ONEX_AUTH_PARAMS, ONEX_AUTH_PARAMS structure [NativeWIFI], PONEX_AUTH_PARAMS, PONEX_AUTH_PARAMS structure pointer [NativeWIFI], _ONEX_AUTH_PARAMS, dot1x/ONEX_AUTH_PARAMS, dot1x/PONEX_AUTH_PARAMS, nwifi.onex_auth_params"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dot1x.h
 req.include-header: 

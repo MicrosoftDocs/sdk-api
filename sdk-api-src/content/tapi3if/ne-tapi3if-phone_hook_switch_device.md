@@ -1,16 +1,16 @@
 ---
 UID: NE:tapi3if.PHONE_HOOK_SWITCH_DEVICE
 title: PHONE_HOOK_SWITCH_DEVICE
-author: windows-driver-content
+author: windows-sdk-content
 description: The PHONE_HOOK_SWITCH_DEVICE enum is used to indicate the types of switch hooks on a phone device.
 old-location: tapi3\phone_hook_switch_device.htm
 old-project: Tapi
 ms.assetid: 20b17e2f-f745-41ef-91ac-d2ab21d43695
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: PHONE_HOOK_SWITCH_DEVICE, PHONE_HOOK_SWITCH_DEVICE enumeration [TAPI 2.2], PHSD_HANDSET, PHSD_HEADSET, PHSD_SPEAKERPHONE, _tapi3_phone_hook_switch_device, tapi3.phone_hook_switch_device, tapi3if/PHONE_HOOK_SWITCH_DEVICE, tapi3if/PHSD_HANDSET, tapi3if/PHSD_HEADSET, tapi3if/PHSD_SPEAKERPHONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 

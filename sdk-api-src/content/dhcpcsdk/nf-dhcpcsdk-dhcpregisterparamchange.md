@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpcsdk.DhcpRegisterParamChange
 title: DhcpRegisterParamChange function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DhcpRegisterParamChange function enables clients to register for notification of changes in DHCP configuration parameters.
 old-location: dhcp\dhcpregisterparamchange.htm
 old-project: DHCP
 ms.assetid: e0099827-2f88-4309-a5e7-3bc1395de5a2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpRegisterParamChange, DhcpRegisterParamChange function [DHCP], _dhcp_dhcpregisterparamchange, dhcp.dhcpregisterparamchange, dhcpcsdk/DhcpRegisterParamChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpcsdk.h
 req.include-header: 

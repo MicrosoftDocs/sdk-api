@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecProps.GetFormatProp
 title: IWMCodecProps::GetFormatProp
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a format property for an output media type. Use this method to get information about enumerated audio formats.
 old-location: mf\iwmcodecpropsgetformatprop.htm
 old-project: medfound
 ms.assetid: b9808c67-915c-4767-9107-8d3a38bb9319
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetFormatProp, GetFormatProp method [Media Foundation], GetFormatProp method [Media Foundation],IWMCodecProps interface, IWMCodecProps interface [Media Foundation],GetFormatProp method, IWMCodecProps.GetFormatProp, IWMCodecProps::GetFormatProp, codecapi.iwmcodecpropsgetformatprop, g_wszSpeechFormatCaps, mf.iwmcodecpropsgetformatprop, wmcodecdsp/ IWMCodecProps::GetFormatProp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

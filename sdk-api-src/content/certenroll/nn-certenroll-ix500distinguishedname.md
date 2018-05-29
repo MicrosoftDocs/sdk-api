@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX500DistinguishedName
 title: IX500DistinguishedName
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an X.500 distinguished name (DN).
 old-location: security\ix500distinguishedname.htm
 old-project: SecCertEnroll
 ms.assetid: 49f176d9-33f6-4bc1-992c-c613279b0969
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX500DistinguishedName, IX500DistinguishedName interface [Security], IX500DistinguishedName interface [Security],described, certenroll/IX500DistinguishedName, security.ix500distinguishedname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:avrfsdk.eHeapAllocationState
 title: eHeapAllocationState
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the current heap allocation state.
 old-location: winprog\eheapallocationstate.htm
 old-project: DevNotes
 ms.assetid: c91b169d-fee5-46ad-a589-3b52436d779c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: HeapFullPageHeap, HeapMetadata, HeapStateMask, avrfsdk/HeapFullPageHeap, avrfsdk/HeapMetadata, avrfsdk/HeapStateMask, avrfsdk/eHeapAllocationState, base.eheapallocationstate, eHeapAllocationState, eHeapAllocationState enumeration [Windows API], winprog.eheapallocationstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: avrfsdk.h
 req.include-header: 

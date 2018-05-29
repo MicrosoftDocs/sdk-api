@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_URL_SCHEME_TYPE
 title: WS_URL_SCHEME_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The set of schemes used with WsDecodeUrl, WsEncodeUrl, and WsCombineUrl.
 old-location: wsw\ws_url_scheme_type.htm
 old-project: wsw
 ms.assetid: e8763719-6ba0-4e5e-bb71-625d36a45eaf
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_URL_HTTPS_SCHEME_TYPE, WS_URL_HTTP_SCHEME_TYPE, WS_URL_NETPIPE_SCHEME_TYPE, WS_URL_NETTCP_SCHEME_TYPE, WS_URL_SCHEME_TYPE, WS_URL_SCHEME_TYPE enumeration [Web Services for Windows], WS_URL_SOAPUDP_SCHEME_TYPE, webservices/WS_URL_HTTPS_SCHEME_TYPE, webservices/WS_URL_HTTP_SCHEME_TYPE, webservices/WS_URL_NETPIPE_SCHEME_TYPE, webservices/WS_URL_NETTCP_SCHEME_TYPE, webservices/WS_URL_SCHEME_TYPE, webservices/WS_URL_SOAPUDP_SCHEME_TYPE, wsw.ws_url_scheme_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

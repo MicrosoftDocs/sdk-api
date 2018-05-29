@@ -1,16 +1,16 @@
 ---
 UID: NF:mgm.MgmAddGroupMembershipEntry
 title: MgmAddGroupMembershipEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MgmAddGroupMembershipEntry function notifies the multicast group manager that there are new receivers for the specified groups on the specified interface.
 old-location: rras\mgmaddgroupmembershipentry.htm
 old-project: RRAS
 ms.assetid: b767961e-0935-4662-9f54-d82dfa0e7bd0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MGM_FORWARD_STATE, MGM_JOIN_STATE_FLAG, MgmAddGroupMembershipEntry, MgmAddGroupMembershipEntry function [RAS], _mpr_mgmaddgroupmembershipentry, mgm/MgmAddGroupMembershipEntry, rras.mgmaddgroupmembershipentry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mgm.h
 req.include-header: 

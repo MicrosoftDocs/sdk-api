@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaHUiaNodeFromVariant
 title: UiaHUiaNodeFromVariant function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an HUIANODE from a VARIANT type.
 old-location: winauto\uiauto_UiaHUiaNodeFromVariantFunction.htm
 old-project: WinAuto
 ms.assetid: 9927a058-a470-4b0e-86ae-494a8ab0ec2c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaHUiaNodeFromVariant, UiaHUiaNodeFromVariant function [Windows Accessibility], uiauto.uiauto_UiaHUiaNodeFromVariantFunction, uiauto_UiaHUiaNodeFromVariantFunction, uiautomationcoreapi/UiaHUiaNodeFromVariant, winauto.uiauto_UiaHUiaNodeFromVariantFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

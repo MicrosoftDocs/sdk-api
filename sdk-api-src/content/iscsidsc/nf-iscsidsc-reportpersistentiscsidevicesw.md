@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.ReportPersistentIScsiDevicesW
 title: ReportPersistentIScsiDevicesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ReportPersistentIscsiDevices function retrieves the list of persistently bound volumes and devices.
 old-location: iscsidisc\reportpersistentiscsidevices.htm
 old-project: iSCSIDisc
 ms.assetid: 856e240d-8c4d-4e55-aef3-71f98193c221
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ReportPersistentIScsiDevicesW, ReportPersistentIscsiDevices, ReportPersistentIscsiDevices function [iSCSI Discovery Library API], ReportPersistentIscsiDevicesA, ReportPersistentIscsiDevicesW, iscsidisc.reportpersistentiscsidevices, iscsidsc/ReportPersistentIscsiDevices, iscsidsc/ReportPersistentIscsiDevicesA, iscsidsc/ReportPersistentIscsiDevicesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

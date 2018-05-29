@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange2.SetDropCap
 title: ITextRange2::SetDropCap
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the drop-cap parameters for the paragraph that contains the current range.
 old-location: controls\itextrange2_setdropcap.htm
 old-project: Controls
 ms.assetid: 189c1a69-44eb-4de0-8ffc-9a026d9e6f16
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetDropCap method, ITextRange2.SetDropCap, ITextRange2::SetDropCap, SetDropCap, SetDropCap method [Windows Controls], SetDropCap method [Windows Controls],ITextRange2 interface, controls.itextrange2_setdropcap, tom/ITextRange2::SetDropCap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: Tom.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:vmr9.IVMRMonitorConfig9
 title: IVMRMonitorConfig9
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRMonitorConfig9 interface is implemented by the Video Mixing Renderer Filter 9 (VMR-9).
 old-location: dshow\ivmrmonitorconfig9.htm
 old-project: DirectShow
 ms.assetid: 27a3a598-d8de-48b2-8b8c-6b5497db4c6c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRMonitorConfig9, IVMRMonitorConfig9 interface [DirectShow], IVMRMonitorConfig9 interface [DirectShow],described, IVMRMonitorConfig9Interface, dshow.ivmrmonitorconfig9, vmr9/IVMRMonitorConfig9
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 

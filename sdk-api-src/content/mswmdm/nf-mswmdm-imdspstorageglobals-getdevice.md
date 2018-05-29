@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetDevice
 title: IMDSPStorageGlobals::GetDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDevice method retrieves a pointer to the device on which the storage medium with which this interface is associated is mounted.
 old-location: wmdm\imdspstorageglobals_getdevice.htm
 old-project: WMDM
 ms.assetid: 5c35b426-f7fd-46f7-b92d-12a0c22b50e9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDevice, GetDevice method [windows Media Device Manager], GetDevice method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetDevice method, IMDSPStorageGlobals.GetDevice, IMDSPStorageGlobals::GetDevice, IMDSPStorageGlobalsGetDevice, mswmdm/IMDSPStorageGlobals::GetDevice, wmdm.imdspstorageglobals_getdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

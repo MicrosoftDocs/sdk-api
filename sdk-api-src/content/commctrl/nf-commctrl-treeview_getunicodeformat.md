@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.TreeView_GetUnicodeFormat
 title: TreeView_GetUnicodeFormat macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Unicode character format flag for the control. You can use this macro or send the TVM_GETUNICODEFORMAT message explicitly.
 old-location: controls\TreeView_GetUnicodeFormat.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getunicodeformat.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TreeView_GetUnicodeFormat, TreeView_GetUnicodeFormat macro [Windows Controls], _win32_TreeView_GetUnicodeFormat, _win32_TreeView_GetUnicodeFormat_cpp, commctrl/TreeView_GetUnicodeFormat, controls.TreeView_GetUnicodeFormat, controls._win32_TreeView_GetUnicodeFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

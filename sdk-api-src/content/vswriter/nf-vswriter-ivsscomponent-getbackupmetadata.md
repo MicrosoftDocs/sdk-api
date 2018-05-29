@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.IVssComponent.GetBackupMetadata
 title: IVssComponent::GetBackupMetadata
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetBackupMetadata method retrieves private, writer-specific backup metadata that might have been set during a PrepareForBackup event by CVssWriter::OnPrepareBackup using IVssComponent::SetBackupMetadata.
 old-location: base\ivsscomponent_getbackupmetadata.htm
 old-project: VSS
 ms.assetid: 638b8909-0aef-4066-ade7-4ee6d96b309e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetBackupMetadata, GetBackupMetadata method [VSS], GetBackupMetadata method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupMetadata method, IVssComponent.GetBackupMetadata, IVssComponent::GetBackupMetadata, _win32_ivsscomponent_getbackupmetadata, base.ivsscomponent_getbackupmetadata, vswriter/IVssComponent::GetBackupMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

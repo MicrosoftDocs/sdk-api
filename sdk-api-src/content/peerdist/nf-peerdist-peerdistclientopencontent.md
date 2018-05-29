@@ -1,16 +1,16 @@
 ---
 UID: NF:peerdist.PeerDistClientOpenContent
 title: PeerDistClientOpenContent function
-author: windows-driver-content
+author: windows-sdk-content
 description: PeerDistClientOpenContent function opens and returns a PEERDIST_CONTENT_HANDLE. The client uses the content handle to retrieve data from the Peer Distribution service.
 old-location: p2p\peerdistclientopencontent.htm
 old-project: P2PSdk
 ms.assetid: bf9d4eb2-e939-42c6-8d71-669a949ca77a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerDistClientOpenContent, PeerDistClientOpenContent function [Peer Networking], p2p.peerdistclientopencontent, peerdist/PeerDistClientOpenContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

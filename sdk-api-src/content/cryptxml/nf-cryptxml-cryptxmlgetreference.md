@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptxml.CryptXmlGetReference
 title: CryptXmlGetReference function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the Reference element specified by the supplied handle.
 old-location: security\cryptxmlgetreference.htm
 old-project: SecCrypto
 ms.assetid: aa482331-872d-4b51-a975-62d832a369fc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptXmlGetReference, CryptXmlGetReference function [Security], cryptxml/CryptXmlGetReference, security.cryptxmlgetreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

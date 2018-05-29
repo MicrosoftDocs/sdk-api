@@ -1,16 +1,16 @@
 ---
 UID: NN:rtscom.IRealTimeStylus2
 title: IRealTimeStylus2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IRealTimeStylus interface.
 old-location: tablet\irealtimestylus2.htm
 old-project: tablet
 ms.assetid: d4b55c1d-f8cc-4aed-86a3-b5935d127c2d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IRealTimeStylus2, IRealTimeStylus2 interface [Tablet PC], IRealTimeStylus2 interface [Tablet PC],described, d4b55c1d-f8cc-4aed-86a3-b5935d127c2d, rtscom/IRealTimeStylus2, tablet.irealtimestylus2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rtscom.h
 req.include-header: 

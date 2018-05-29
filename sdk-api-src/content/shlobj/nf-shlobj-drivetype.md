@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj.DriveType
 title: DriveType function
-author: windows-driver-content
+author: windows-sdk-content
 description: DriveType may be altered or unavailable.
 old-location: shell\DriveType.htm
 old-project: shell
 ms.assetid: 3089656d-2e64-4d65-aa18-0a451d82fa95
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DriveType, DriveType function [Windows Shell], _shell_DriveType, shell.DriveType, shlobj_core/DriveType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj.h
 req.include-header: Shlobj.h

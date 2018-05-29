@@ -1,16 +1,16 @@
 ---
 UID: NS:dxva9typ._DXVA_COPPStatusDisplayData
 title: "_DXVA_COPPStatusDisplayData"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the result of a Display Data query in Certified Output Protection Protocol (COPP).
 old-location: dshow\dxva_coppstatusdisplaydata.htm
 old-project: DirectShow
 ms.assetid: 51a119a0-d5de-4df0-9c2b-c776e9af8c60
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DXVA_COPPStatusDisplayData, DXVA_COPPStatusDisplayData structure [DirectShow], DXVA_COPPStatusDisplayDataStructure, _DXVA_COPPStatusDisplayData, dshow.dxva_coppstatusdisplaydata, dxva9typ/DXVA_COPPStatusDisplayData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva9typ.h
 req.include-header: Dxva.h

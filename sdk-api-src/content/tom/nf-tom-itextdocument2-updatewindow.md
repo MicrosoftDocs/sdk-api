@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextDocument2.UpdateWindow
 title: ITextDocument2::UpdateWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the client that the view has changed and the client should update the view if the Text Object Model (TOM) engine is in-place active.
 old-location: controls\itextdocument2_updatewindow.htm
 old-project: Controls
 ms.assetid: 85bb0a41-e3a7-43ab-bc14-fdd4dae2ee69
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],UpdateWindow method, ITextDocument2.UpdateWindow, ITextDocument2::UpdateWindow, UpdateWindow, UpdateWindow method [Windows Controls], UpdateWindow method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_updatewindow, tom/ITextDocument2::UpdateWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

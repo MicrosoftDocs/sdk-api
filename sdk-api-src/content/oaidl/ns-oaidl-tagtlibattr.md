@@ -1,16 +1,16 @@
 ---
 UID: NS:oaidl.tagTLIBATTR
 title: tagTLIBATTR
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a type library. Information from this structure is used to identify the type library and to provide national language support for member names.
 old-location: automat\tlibattr.htm
 old-project: automat
 ms.assetid: 7715a862-1e20-4035-a146-2c9aa134f929
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: "*LPTLIBATTR, LPTLIBATTR, LPTLIBATTR structure pointer [Automation], TLIBATTR, TLIBATTR structure [Automation], _oa96_TLIBATTR, automat.tlibattr, oaidl/LPTLIBATTR, oaidl/TLIBATTR, tagTLIBATTR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

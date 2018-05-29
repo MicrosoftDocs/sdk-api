@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptHashToBeSigned
 title: CryptHashToBeSigned function
-author: windows-driver-content
+author: windows-sdk-content
 description: Important  This API is deprecated.
 old-location: security\crypthashtobesigned.htm
 old-project: SecCrypto
 ms.assetid: 84477054-dd76-4dde-b465-9edeaf192714
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptHashToBeSigned, CryptHashToBeSigned function [Security], _crypto2_crypthashtobesigned, security.crypthashtobesigned, wincrypt/CryptHashToBeSigned
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

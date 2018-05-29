@@ -1,16 +1,16 @@
 ---
 UID: NS:ndattrib.tagHELPER_ATTRIBUTE
 title: tagHELPER_ATTRIBUTE
-author: windows-driver-content
+author: windows-sdk-content
 description: The HELPER_ATTRIBUTE structure contains all NDF supported data types.
 old-location: ndf\helper_attribute.htm
 old-project: NDF
 ms.assetid: bff9303e-7fab-49af-b213-aa0a9c83676e
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PHELPER_ATTRIBUTE, HELPER_ATTRIBUTE, HELPER_ATTRIBUTE structure [NDF], ndattrib/HELPER_ATTRIBUTE, ndf.helper_attribute, tagHELPER_ATTRIBUTE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndattrib.h
 req.include-header: 

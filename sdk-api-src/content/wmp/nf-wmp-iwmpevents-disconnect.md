@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPEvents.Disconnect
 title: IWMPEvents::Disconnect
-author: windows-driver-content
+author: windows-sdk-content
 description: The Disconnect event is reserved for future use.
 old-location: wmp\iwmpevents_iwmpevents__disconnect.htm
 old-project: WMP
 ms.assetid: 6fa2f206-1eea-4a25-91b3-bba0cde7f8ce
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: Disconnect, Disconnect method [Windows Media Player], Disconnect method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Disconnect method, IWMPEvents.Disconnect, IWMPEvents::Disconnect, IWMPEventsDisconnect, wmp.iwmpevents_iwmpevents__disconnect, wmp/IWMPEvents::Disconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

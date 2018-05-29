@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesTransparentCacheInfo.IsTransparentlyCached
 title: IOfflineFilesTransparentCacheInfo::IsTransparentlyCached
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the item is transparently cached.
 old-location: of\iofflinefilestransparentcacheinfo_istransparentlycached.htm
 old-project: OfflineFiles
 ms.assetid: 7f8656e0-0f24-46a0-81b7-62067b0d4c21
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesTransparentCacheInfo interface [Offline Files],IsTransparentlyCached method, IOfflineFilesTransparentCacheInfo.IsTransparentlyCached, IOfflineFilesTransparentCacheInfo::IsTransparentlyCached, IsTransparentlyCached, IsTransparentlyCached method [Offline Files], IsTransparentlyCached method [Offline Files],IOfflineFilesTransparentCacheInfo interface, cscobj/IOfflineFilesTransparentCacheInfo::IsTransparentlyCached, of.iofflinefilestransparentcacheinfo_istransparentlycached
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

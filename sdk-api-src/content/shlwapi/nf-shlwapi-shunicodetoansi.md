@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHUnicodeToAnsi
 title: SHUnicodeToAnsi function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a string from the Unicode code page to the ANSI code page.
 old-location: shell\SHUnicodeToAnsi.htm
 old-project: shell
 ms.assetid: f0db3976-9956-418f-8432-7755b140050f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHUnicodeToAnsi, SHUnicodeToAnsi function [Windows Shell], _win32_SHUnicodeToAnsi, shell.SHUnicodeToAnsi, shlwapi/SHUnicodeToAnsi
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

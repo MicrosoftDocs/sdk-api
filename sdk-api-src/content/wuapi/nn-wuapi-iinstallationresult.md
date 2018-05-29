@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IInstallationResult
 title: IInstallationResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the result of an installation or uninstallation.
 old-location: wua\iinstallationresult.htm
 old-project: Wua_Sdk
 ms.assetid: 453945d7-11a3-4237-b1c8-928194be558d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IInstallationResult, IInstallationResult interface [Windows Update Agent], IInstallationResult interface [Windows Update Agent],described, wua.iinstallationresult, wuapi/IInstallationResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

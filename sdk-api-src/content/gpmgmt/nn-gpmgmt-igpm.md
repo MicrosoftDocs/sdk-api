@@ -1,16 +1,16 @@
 ---
 UID: NN:gpmgmt.IGPM
 title: IGPM
-author: windows-driver-content
+author: windows-sdk-content
 description: The IGPM interface provides methods that access other interfaces of the Group Policy Management Console (GPMC) and methods that create other objects on which various search operations can be performed.
 old-location: gpmc\igpm.htm
 old-project: GPMC
 ms.assetid: 2780760e-7114-46b0-a264-00ed58a556cb
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPM, IGPM, IGPM interface [GPMC], IGPM interface [GPMC],described, _win32_igpm, gpmc.igpm, gpmgmt/IGPM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

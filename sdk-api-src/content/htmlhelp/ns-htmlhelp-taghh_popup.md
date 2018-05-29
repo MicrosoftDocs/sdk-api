@@ -1,16 +1,16 @@
 ---
 UID: NS:htmlhelp.tagHH_POPUP
 title: tagHH_POPUP
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this structure to specify or modify the attributes of a pop-up window.
 old-location: htmlhelp\hh_popup_structure.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhpopup.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: HH_POPUP, HH_POPUP structure [HTML Help Workshop], htmlhelp.hh_popup_structure, htmlhelp/HH_POPUP, tagHH_POPUP, vsconStrhhpopup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: htmlhelp.h
 req.include-header: 

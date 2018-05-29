@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace.get_MaxFrequency
 title: IAnalogRadioTuningSpace::get_MaxFrequency
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MaxFrequency method retrieves the maximum frequency for this tuning space.
 old-location: mstv\ianalogradiotuningspace_get_maxfrequency.htm
 old-project: mstv
 ms.assetid: baf4fe54-6e8c-49a7-b99f-4efeb7c65757
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],get_MaxFrequency method, IAnalogRadioTuningSpace.get_MaxFrequency, IAnalogRadioTuningSpace::get_MaxFrequency, IAnalogRadioTuningSpaceget_MaxFrequency, get_MaxFrequency, get_MaxFrequency method [Microsoft TV Technologies], get_MaxFrequency method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, mstv.ianalogradiotuningspace_get_maxfrequency, tuner/IAnalogRadioTuningSpace::get_MaxFrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

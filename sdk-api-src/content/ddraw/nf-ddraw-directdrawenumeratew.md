@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.DirectDrawEnumerateW
 title: DirectDrawEnumerateW function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function is superseded by the DirectDrawEnumerateEx function.
 old-location: directdraw\directdrawenumerate.htm
 old-project: directdraw
 ms.assetid: 1f994adb-79ff-4cc1-8769-0faeed893503
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DirectDrawEnumerate, DirectDrawEnumerate function [DirectDraw], DirectDrawEnumerateW, ddraw/DirectDrawEnumerate, ddraw/DirectDrawEnumerateW, directdraw.directdrawenumerate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ddraw.h
 req.include-header: 

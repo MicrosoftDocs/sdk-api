@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11shader._D3D11_PARAMETER_DESC
 title: "_D3D11_PARAMETER_DESC"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a function parameter.
 old-location: direct3d11\d3d11_parameter_desc.htm
 old-project: direct3d11
 ms.assetid: C6F1079C-A686-44EA-933B-9DE2D70CFA33
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_PARAMETER_DESC, D3D11_PARAMETER_DESC structure [Direct3D 11], _D3D11_PARAMETER_DESC, d3d11shader/D3D11_PARAMETER_DESC, direct3d11.d3d11_parameter_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11shader.h
 req.include-header: 

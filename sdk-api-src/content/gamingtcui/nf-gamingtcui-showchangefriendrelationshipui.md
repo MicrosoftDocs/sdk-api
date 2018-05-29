@@ -1,16 +1,16 @@
 ---
 UID: NF:gamingtcui.ShowChangeFriendRelationshipUI
 title: ShowChangeFriendRelationshipUI function
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\showchangefriendrelationshipui.htm
 old-project: tcui
 ms.assetid: 1066CEA3-DCF1-4B68-8C77-E23B1903C847
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: ShowChangeFriendRelationshipUI, ShowChangeFriendRelationshipUI function, gamingtcui/ShowChangeFriendRelationshipUI, tcui.showchangefriendrelationshipui
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: gamingtcui.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetOutputFormat
 title: IAMWstDecoder::GetOutputFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Downstream filters use the GetOutputFormat method to retrieve the size, bit depth, and other parameters of the output video.
 old-location: dshow\iamwstdecoder_getoutputformat.htm
 old-project: DirectShow
 ms.assetid: 63ef7dbe-138b-442a-bf54-1f409c969418
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetOutputFormat, GetOutputFormat method [DirectShow], GetOutputFormat method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetOutputFormat method, IAMWstDecoder.GetOutputFormat, IAMWstDecoder::GetOutputFormat, IAMWstDecoderGetOutputFormat, dshow.iamwstdecoder_getoutputformat, iwstdec/IAMWstDecoder::GetOutputFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 

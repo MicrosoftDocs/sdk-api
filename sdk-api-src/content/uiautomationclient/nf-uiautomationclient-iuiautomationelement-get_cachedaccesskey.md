@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedAccessKey
 title: IUIAutomationElement::get_CachedAccessKey
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the cached access key character for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedAccessKey.htm
 old-project: WinAuto
 ms.assetid: dc4394b3-f609-4709-b9b5-c8bf84d17b3f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedAccessKey property [Windows Accessibility], CachedAccessKey property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedAccessKey property, IUIAutomationElement.CachedAccessKey, IUIAutomationElement.get_CachedAccessKey, IUIAutomationElement::CachedAccessKey, IUIAutomationElement::get_CachedAccessKey, get_CachedAccessKey, uiauto.uiauto_IUIAutomationElement_CachedAccessKey, uiauto_IUIAutomationElement_CachedAccessKey, uiautomationclient/IUIAutomationElement::CachedAccessKey, uiautomationclient/IUIAutomationElement::get_CachedAccessKey, winauto.uiauto_IUIAutomationElement_CachedAccessKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

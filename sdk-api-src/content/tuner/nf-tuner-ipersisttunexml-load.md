@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IPersistTuneXml.Load
 title: IPersistTuneXml::Load
-author: windows-driver-content
+author: windows-sdk-content
 description: Deserializes a tuning model object from an XML node.
 old-location: mstv\ipersisttunexml_load.htm
 old-project: mstv
 ms.assetid: afbfb4da-ac61-496b-9383-05c312bbfc2c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPersistTuneXml interface [Microsoft TV Technologies],Load method, IPersistTuneXml.Load, IPersistTuneXml::Load, Load, Load method [Microsoft TV Technologies], Load method [Microsoft TV Technologies],IPersistTuneXml interface, mstv.ipersisttunexml_load, tuner/IPersistTuneXml::Load
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

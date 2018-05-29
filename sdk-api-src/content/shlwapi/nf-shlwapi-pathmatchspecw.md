@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathMatchSpecW
 title: PathMatchSpecW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches a string using a Microsoft MS-DOS wildcard match type.
 old-location: shell\PathMatchSpec.htm
 old-project: shell
 ms.assetid: 908e7204-d168-4179-9c7b-ad46ba68bebc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathMatchSpec, PathMatchSpec function [Windows Shell], PathMatchSpecA, PathMatchSpecW, _win32_PathMatchSpec, shell.PathMatchSpec, shlwapi/PathMatchSpec, shlwapi/PathMatchSpecA, shlwapi/PathMatchSpecW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

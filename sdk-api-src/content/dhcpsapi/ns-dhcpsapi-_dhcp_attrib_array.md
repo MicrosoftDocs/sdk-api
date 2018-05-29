@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_ATTRIB_ARRAY
 title: "_DHCP_ATTRIB_ARRAY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a set of DHCP server attributes.
 old-location: dhcp\dhcp_attrib_array.htm
 old-project: DHCP
 ms.assetid: 2a9831ae-b0ba-4cec-b7a9-6e9d9bee82c5
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_ATTRIB_ARRAY, *PDHCP_ATTRIB_ARRAY, DHCP_ATTRIB_ARRAY, DHCP_ATTRIB_ARRAY structure [DHCP], PDHCP_ATTRIB_ARRAY *LPDHCP_ATTRIB_ARRAY, PDHCP_ATTRIB_ARRAY *LPDHCP_ATTRIB_ARRAY structure pointer [DHCP], _DHCP_ATTRIB_ARRAY, dhcp.dhcp_attrib_array, dhcpsapi/PDHCP_ATTRIB_ARRAY *LPDHCP_ATTRIB_ARRAY, dhcpsapi/_DHCP_ATTRIB_ARRAY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

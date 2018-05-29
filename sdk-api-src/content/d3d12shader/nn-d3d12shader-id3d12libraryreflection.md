@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12shader.ID3D12LibraryReflection
 title: ID3D12LibraryReflection
-author: windows-driver-content
+author: windows-sdk-content
 description: A library-reflection interface accesses library info.
 old-location: direct3d12\id3d12libraryreflection.htm
 old-project: direct3d12
 ms.assetid: CE6AEA77-A6A0-46A5-BDBC-AE4907AAC820
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12LibraryReflection, ID3D12LibraryReflection interface, ID3D12LibraryReflection interface,described, d3d12shader/ID3D12LibraryReflection, direct3d12.id3d12libraryreflection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12shader.h
 req.include-header: 

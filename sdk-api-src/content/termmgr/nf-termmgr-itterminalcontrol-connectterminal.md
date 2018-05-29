@@ -1,16 +1,16 @@
 ---
 UID: NF:termmgr.ITTerminalControl.ConnectTerminal
 title: ITTerminalControl::ConnectTerminal
-author: windows-driver-content
+author: windows-sdk-content
 description: The ConnectTerminal method connects filters and returns a set of pins for connection. Enters each of the internal filters into the filter graph, connects the internal filters together (if applicable) and returns a set of pins for connection.
 old-location: tapi3\itterminalcontrol_connectterminal.htm
 old-project: Tapi
 ms.assetid: 0351e645-b857-44d8-a226-046ebe0f4c81
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ConnectTerminal, ConnectTerminal method [TAPI 2.2], ConnectTerminal method [TAPI 2.2],ITTerminalControl interface, ITTerminalControl interface [TAPI 2.2],ConnectTerminal method, ITTerminalControl.ConnectTerminal, ITTerminalControl::ConnectTerminal, _tapi3_itterminalcontrol_connectterminal, tapi3.itterminalcontrol_connectterminal, termmgr/ITTerminalControl::ConnectTerminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

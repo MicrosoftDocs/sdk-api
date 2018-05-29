@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptGetOIDFunctionValue
 title: CryptGetOIDFunctionValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CryptGetOIDFunctionValue function queries a value associated with an OID.
 old-location: security\cryptgetoidfunctionvalue.htm
 old-project: SecCrypto
 ms.assetid: 14eb7f10-f42a-4496-9699-62eeb9878ea2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptGetOIDFunctionValue, CryptGetOIDFunctionValue function [Security], REG_DWORD, REG_EXPAND_SZ, REG_MULTI_SZ, REG_SZ, _crypto2_cryptgetoidfunctionvalue, security.cryptgetoidfunctionvalue, wincrypt/CryptGetOIDFunctionValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

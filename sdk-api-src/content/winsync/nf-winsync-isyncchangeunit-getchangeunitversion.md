@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChangeUnit.GetChangeUnitVersion
 title: ISyncChangeUnit::GetChangeUnitVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the version for the change unit change.
 old-location: winsync\isyncchangeunit_getchangeunitversion.htm
 old-project: winsync
 ms.assetid: b40ec132-0459-4ddf-9156-bce2a1dfbc4d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetChangeUnitVersion, GetChangeUnitVersion method [Windows Sync], GetChangeUnitVersion method [Windows Sync],ISyncChangeUnit interface, ISyncChangeUnit interface [Windows Sync],GetChangeUnitVersion method, ISyncChangeUnit.GetChangeUnitVersion, ISyncChangeUnit::GetChangeUnitVersion, winsync.isyncchangeunit_getchangeunitversion, winsync/ISyncChangeUnit::GetChangeUnitVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.IsOutputFormatSupported
 title: IAudioProcessingObject::IsOutputFormatSupported
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsOutputFormatSupported method is used to verify that a specific output format is supported.
 old-location: audio\iaudioprocessingobject_isoutputformatsupported.htm
 old-project: audio
 ms.assetid: 19609332-9fc2-4a21-b947-f103a1cf2675
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IAudioProcessingObject interface [Audio Devices],IsOutputFormatSupported method, IAudioProcessingObject.IsOutputFormatSupported, IAudioProcessingObject::IsOutputFormatSupported, IsOutputFormatSupported, IsOutputFormatSupported method [Audio Devices], IsOutputFormatSupported method [Audio Devices],IAudioProcessingObject interface, audio.iaudioprocessingobject_isoutputformatsupported, audio_syseffects_r_542151d0-145f-4504-a282-e6473f1ae3c7.xml, audioenginebaseapo/IAudioProcessingObject::IsOutputFormatSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: 

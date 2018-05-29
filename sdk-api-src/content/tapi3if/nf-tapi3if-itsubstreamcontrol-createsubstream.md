@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITSubStreamControl.CreateSubStream
 title: ITSubStreamControl::CreateSubStream
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateSubStream method creates a substream.
 old-location: tapi3\itsubstreamcontrol_createsubstream.htm
 old-project: Tapi
 ms.assetid: 00fe0f8f-c814-4ae6-a60b-c58f3dc60b67
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CreateSubStream, CreateSubStream method [TAPI 2.2], CreateSubStream method [TAPI 2.2],ITSubStreamControl interface, ITSubStreamControl interface [TAPI 2.2],CreateSubStream method, ITSubStreamControl.CreateSubStream, ITSubStreamControl::CreateSubStream, _tapi3_itsubstreamcontrol_createsubstream, tapi3.itsubstreamcontrol_createsubstream, tapi3if/ITSubStreamControl::CreateSubStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

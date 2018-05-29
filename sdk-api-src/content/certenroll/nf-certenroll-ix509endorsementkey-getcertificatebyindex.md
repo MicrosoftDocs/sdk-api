@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.GetCertificateByIndex
 title: IX509EndorsementKey::GetCertificateByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the endorsement certificate associated with the endorsement key from the key storage provider for the specified index.
 old-location: security\ix509endorsementkey_getcertificatebyindex.htm
 old-project: SecCertEnroll
 ms.assetid: ab1eb37a-d79e-4d02-8e60-6c093f42c68f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetCertificateByIndex, GetCertificateByIndex method [Security], GetCertificateByIndex method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],GetCertificateByIndex method, IX509EndorsementKey.GetCertificateByIndex, IX509EndorsementKey::GetCertificateByIndex, certenroll/IX509EndorsementKey::GetCertificateByIndex, security.ix509endorsementkey_getcertificatebyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif._AMCOPPCommand
 title: "_AMCOPPCommand"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AMCOPPCommand structure contains a Certified Output Protection Protocol (COPP) command.
 old-location: dshow\amcoppcommand.htm
 old-project: DirectShow
 ms.assetid: 8b2c06e9-f1b7-4185-8ade-b5abe9ac776d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPAMCOPPCommand, AMCOPPCommand, AMCOPPCommand structure [DirectShow], AMCOPPCommandStructure, LPAMCOPPCommand, LPAMCOPPCommand structure pointer [DirectShow], _AMCOPPCommand, dshow.amcoppcommand, strmif/AMCOPPCommand, strmif/LPAMCOPPCommand"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

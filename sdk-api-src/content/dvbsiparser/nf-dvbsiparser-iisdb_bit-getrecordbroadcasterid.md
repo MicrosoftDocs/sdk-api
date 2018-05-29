@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetRecordBroadcasterId
 title: IISDB_BIT::GetRecordBroadcasterId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the broadcaster_id field from a record in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getrecordbroadcasterid.htm
 old-project: mstv
 ms.assetid: 9decce55-599b-42c2-a715-84a6f4eefc33
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordBroadcasterId, GetRecordBroadcasterId method [Microsoft TV Technologies], GetRecordBroadcasterId method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetRecordBroadcasterId method, IISDB_BIT.GetRecordBroadcasterId, IISDB_BIT::GetRecordBroadcasterId, dvbsiparser/IISDB_BIT::GetRecordBroadcasterId, mstv.iisdb_bit_getrecordbroadcasterid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

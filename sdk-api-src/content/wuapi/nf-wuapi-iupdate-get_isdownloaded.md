@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdate.get_IsDownloaded
 title: IUpdate::get_IsDownloaded
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a Boolean value that indicates whether all the update content is cached on the computer.
 old-location: wua\iupdate_isdownloaded.htm
 old-project: Wua_Sdk
 ms.assetid: 4e20f2b0-096c-4ec6-b554-1891522b8933
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdate interface [Windows Update Agent],IsDownloaded property, IUpdate.IsDownloaded, IUpdate.get_IsDownloaded, IUpdate::IsDownloaded, IUpdate::get_IsDownloaded, IsDownloaded property [Windows Update Agent], IsDownloaded property [Windows Update Agent],IUpdate interface, get_IsDownloaded, wua.iupdate_isdownloaded, wuapi/IUpdate::IsDownloaded, wuapi/IUpdate::get_IsDownloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

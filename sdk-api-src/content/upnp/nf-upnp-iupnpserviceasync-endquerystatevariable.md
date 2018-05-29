@@ -1,16 +1,16 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.EndQueryStateVariable
 title: IUPnPServiceAsync::EndQueryStateVariable
-author: windows-driver-content
+author: windows-sdk-content
 description: EndQueryStateVariable method retrieves the results of a previous BeginQueryStateVariable operation and retrieves the resultant service-specific state variable value.
 old-location: upnp\iupnpserviceasync_endquerystatevariable.htm
 old-project: UPnP
 ms.assetid: 82AAB2C4-46A9-4545-95E1-887841735815
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: EndQueryStateVariable, EndQueryStateVariable method [UPnP APIs], EndQueryStateVariable method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],EndQueryStateVariable method, IUPnPServiceAsync.EndQueryStateVariable, IUPnPServiceAsync::EndQueryStateVariable, upnp.iupnpserviceasync_endquerystatevariable, upnp/IUPnPServiceAsync::EndQueryStateVariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioning.CancelJob
 title: ITsSbProvisioning::CancelJob
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels a provisioning job.
 old-location: termserv\itssbprovisioning_canceljob.htm
 old-project: TermServ
 ms.assetid: c0496a8c-00ec-43a4-a7c2-071acb6b068a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CancelJob, CancelJob method [Remote Desktop Services], CancelJob method [Remote Desktop Services],ITsSbProvisioning interface, ITsSbProvisioning interface [Remote Desktop Services],CancelJob method, ITsSbProvisioning.CancelJob, ITsSbProvisioning::CancelJob, sbtsv/ITsSbProvisioning::CancelJob, termserv.itssbprovisioning_canceljob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntquery.SetCatalogState
 title: SetCatalogState function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the catalog state for backup or other purposes.
 old-location: indexsrv\setcatalogstate.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_809x.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SetCatalogState, SetCatalogState function [Indexing Service], _idxs_SetCatalogState, indexsrv.setcatalogstate, ntquery/SetCatalogState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

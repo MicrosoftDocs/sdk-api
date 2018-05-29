@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetCommandOptions
 title: IPortableDeviceServiceCapabilities::GetCommandOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the options of a WPD command.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getcommandoptions.htm
 old-project: wpd_sdk
 ms.assetid: 5baa4c94-771a-430f-a963-800e4cd3a6b3
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetCommandOptions, GetCommandOptions method [Windows Portable Devices SDK], GetCommandOptions method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetCommandOptions method, IPortableDeviceServiceCapabilities.GetCommandOptions, IPortableDeviceServiceCapabilities::GetCommandOptions, portabledeviceapi/IPortableDeviceServiceCapabilities::GetCommandOptions, wpdsdk.iportabledeviceservicecapabilities_getcommandoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

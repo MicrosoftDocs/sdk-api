@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Region.Region(IN const GraphicsPath)
 title: Region::Region(IN const GraphicsPath)
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a region that is infinite. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_Region_Region_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_18.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Region, Region class [GDI+],Region constructor, Region constructor [GDI+], Region constructor [GDI+],Region class, Region.Region, Region.Region(), Region.Region(IN const GraphicsPath), Region::Region, Region::Region(IN const GraphicsPath), _gdiplus_CLASS_Region_Region_, gdiplus._gdiplus_CLASS_Region_Region_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

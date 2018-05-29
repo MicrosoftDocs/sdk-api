@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_Delete
 title: PSPropertyBag_Delete function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a property from a property bag.
 old-location: properties\PSPropertyBag_Delete.htm
 old-project: properties
 ms.assetid: 53ED1C87-5141-4925-B70E-C0304817A871
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_Delete, PSPropertyBag_Delete function [Windows Properties], properties.PSPropertyBag_Delete, propsys/PSPropertyBag_Delete, shell.PSPropertyBag_Delete, shell_PSPropertyBag_Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

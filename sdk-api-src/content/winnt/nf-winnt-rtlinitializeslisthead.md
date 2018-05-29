@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.RtlInitializeSListHead
 title: RtlInitializeSListHead function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the head of a singly linked list.
 old-location: base\rtlinitializeslisthead.htm
 old-project: Sync
 ms.assetid: 0f5467e0-6fba-418d-8f00-cb4fa475f7e2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtlInitializeSListHead, RtlInitializeSListHead function, base.rtlinitializeslisthead, winnt/RtlInitializeSListHead
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

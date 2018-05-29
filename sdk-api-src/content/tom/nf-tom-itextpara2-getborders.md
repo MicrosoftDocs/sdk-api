@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextPara2.GetBorders
 title: ITextPara2::GetBorders
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the borders collection.
 old-location: controls\itextpara2_getborders.htm
 old-project: Controls
 ms.assetid: c2a681f6-a8d6-49ad-9ccc-362050b2e8ad
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetBorders, GetBorders method [Windows Controls], GetBorders method [Windows Controls],ITextPara2 interface, ITextPara2 interface [Windows Controls],GetBorders method, ITextPara2.GetBorders, ITextPara2::GetBorders, controls.itextpara2_getborders, tom/ITextPara2::GetBorders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: Tom.h

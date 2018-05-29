@@ -1,16 +1,16 @@
 ---
 UID: NN:pla.IValueMap
 title: IValueMap
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages a collection of name/value pairs.To get this interface, access one of the following properties or methods:IDataCollector::SetXmlIDataCollectorSet::CommitIDataCollectorSet::SetXmlITraceDataProvider::KeywordsAllITraceDataProvider::KeywordsAnyITraceDataProvider::LevelITraceDataProvider::Properties
 old-location: pla\ivaluemap.htm
 old-project: PLA
 ms.assetid: a7134395-91c6-4ea1-8b76-63830048289f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IValueMap, IValueMap interface [PLA], IValueMap interface [PLA],described, base.ivaluemap, pla.ivaluemap, pla/IValueMap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

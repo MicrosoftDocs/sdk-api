@@ -1,16 +1,16 @@
 ---
 UID: NF:tokenbinding.TokenBindingDeleteBinding
 title: TokenBindingDeleteBinding function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the token binding key that is associated with the specified target string.
 old-location: security\tokenbindingdeletebinding.htm
 old-project: SecCNG
 ms.assetid: 4258CC92-580E-403C-9AE4-4BB726255464
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: TokenBindingDeleteBinding, TokenBindingDeleteBinding function [Security], security.tokenbindingdeletebinding, tokenbinding/TokenBindingDeleteBinding
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tokenbinding.h
 req.include-header: 

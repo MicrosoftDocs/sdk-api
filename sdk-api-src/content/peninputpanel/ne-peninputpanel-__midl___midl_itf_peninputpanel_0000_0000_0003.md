@@ -1,16 +1,16 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0003
 title: "__MIDL___MIDL_itf_peninputpanel_0000_0000_0003"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the values that represent the default input areas of the Tablet PC Input Panel.
 old-location: tablet\panelinputarea.htm
 old-project: tablet
 ms.assetid: fc262f07-aa73-49c8-a26a-1f0a47f8269a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InputArea2, InputArea2 enumeration [Tablet PC], PanelInputArea, PanelInputArea enumeration [Tablet PC], PanelInputArea_Auto, PanelInputArea_CharacterPad, PanelInputArea_Keyboard, PanelInputArea_WritingPad, __MIDL___MIDL_itf_peninputpanel_0000_0000_0003, fc262f07-aa73-49c8-a26a-1f0a47f8269a, peninputpanel/PanelInputArea, peninputpanel/PanelInputArea_Auto, peninputpanel/PanelInputArea_CharacterPad, peninputpanel/PanelInputArea_Keyboard, peninputpanel/PanelInputArea_WritingPad, tablet.panelinputarea
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: peninputpanel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:enclaveapi.InitializeEnclave
 title: InitializeEnclave function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an enclave that you created and loaded with data.
 old-location: base\initializeenclave.htm
 old-project: Memory
 ms.assetid: 6A711135-A522-40AE-965F-E1AF97D0076A
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitializeEnclave, InitializeEnclave function, base.initializeenclave, enclaveapi/InitializeEnclave
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: enclaveapi.h
 req.include-header: Winbase.h

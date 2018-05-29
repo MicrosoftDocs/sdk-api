@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_UIContextMessage
 title: IX509CertificateRequest::get_UIContextMessage
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies or retrieves a context string to display in the user interface.
 old-location: security\ix509certificaterequest_uicontextmessage_property.htm
 old-project: SecCertEnroll
 ms.assetid: 0eedb520-06c3-4106-8593-1c5fb0829d5e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequest interface [Security],UIContextMessage property, IX509CertificateRequest.UIContextMessage, IX509CertificateRequest.get_UIContextMessage, IX509CertificateRequest::UIContextMessage, IX509CertificateRequest::get_UIContextMessage, IX509CertificateRequest::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::UIContextMessage, certenroll/IX509CertificateRequest::get_UIContextMessage, certenroll/IX509CertificateRequest::put_UIContextMessage, get_UIContextMessage, security.ix509certificaterequest_uicontextmessage_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

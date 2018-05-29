@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICImageEncoder
 title: IWICImageEncoder
-author: windows-driver-content
+author: windows-sdk-content
 description: Encodes ID2D1Image interfaces to an IWICBitmapEncoder.
 old-location: wic\iwicimageencoder.htm
 old-project: wic
 ms.assetid: D9854D82-0226-4DD8-AE54-93E5B6544B46
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICImageEncoder, IWICImageEncoder interface [Windows Imaging Component], IWICImageEncoder interface [Windows Imaging Component],described, wic.iwicimageencoder, wincodec/IWICImageEncoder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

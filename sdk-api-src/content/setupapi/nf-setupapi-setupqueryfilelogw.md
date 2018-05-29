@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupQueryFileLogW
 title: SetupQueryFileLogW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupQueryFileLog function returns information from a setup file log.
 old-location: setup\setupqueryfilelog.htm
 old-project: SetupApi
 ms.assetid: c01233ee-4e3a-454b-b2e2-032937c874c9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupFileLogChecksum, SetupFileLogDiskDescription, SetupFileLogDiskTagfile, SetupFileLogOtherInfo, SetupFileLogSourceFile name, SetupQueryFileLog, SetupQueryFileLog function [Setup API], SetupQueryFileLogA, SetupQueryFileLogW, _setupapi_setupqueryfilelog, setup.setupqueryfilelog, setupapi/SetupQueryFileLog, setupapi/SetupQueryFileLogA, setupapi/SetupQueryFileLogW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

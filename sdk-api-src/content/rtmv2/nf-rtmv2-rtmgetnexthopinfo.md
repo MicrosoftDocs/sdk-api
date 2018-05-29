@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmGetNextHopInfo
 title: RtmGetNextHopInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmGetNextHopInfo function returns information about the specified next hop.
 old-location: rras\rtmgetnexthopinfo.htm
 old-project: RRAS
 ms.assetid: 45f18cfe-b863-4b78-90e4-c7b25c949834
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmGetNextHopInfo, RtmGetNextHopInfo function [RAS], _rtmv2ref_rtmgetnexthopinfo, rras.rtmgetnexthopinfo, rtmv2/RtmGetNextHopInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

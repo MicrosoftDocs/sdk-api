@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_DRAW_ARGUMENTS
 title: D3D12_DRAW_ARGUMENTS
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes parameters for drawing instances.
 old-location: direct3d12\d3d12_draw_arguments.htm
 old-project: direct3d12
 ms.assetid: 300F3628-C8E8-44BF-BCEC-579E6DA80347
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_DRAW_ARGUMENTS, D3D12_DRAW_ARGUMENTS structure, d3d12/D3D12_DRAW_ARGUMENTS, direct3d12.d3d12_draw_arguments
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

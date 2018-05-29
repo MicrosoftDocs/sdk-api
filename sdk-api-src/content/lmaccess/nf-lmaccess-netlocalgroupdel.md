@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetLocalGroupDel
 title: NetLocalGroupDel function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetLocalGroupDel function deletes a local group account and all its members from the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\netlocalgroupdel.htm
 old-project: NetMgmt
 ms.assetid: b26bfd52-c20a-4f6f-9503-87cac5168362
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetLocalGroupDel, NetLocalGroupDel function [Network Management], _win32_netlocalgroupdel, lmaccess/NetLocalGroupDel, netmgmt.netlocalgroupdel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

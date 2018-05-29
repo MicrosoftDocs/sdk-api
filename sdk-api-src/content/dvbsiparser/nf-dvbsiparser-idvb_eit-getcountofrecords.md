@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetCountOfRecords
 title: IDVB_EIT::GetCountOfRecords
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit_getcountofrecords.htm
 old-project: mstv
 ms.assetid: 1ea8c91b-f1a2-4c04-933c-c8a2fbfda86f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetCountOfRecords method, IDVB_EIT.GetCountOfRecords, IDVB_EIT::GetCountOfRecords, IDVB_EITGetCountOfRecords, dvbsiparser/IDVB_EIT::GetCountOfRecords, mstv.idvb_eit_getcountofrecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

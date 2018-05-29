@@ -1,16 +1,16 @@
 ---
 UID: NF:resapi.ResUtilGetMultiSzValue
 title: ResUtilGetMultiSzValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a multiple string value from the cluster database.
 old-location: mscs\resutilgetmultiszvalue.htm
 old-project: MsCS
 ms.assetid: 09547806-16f4-40ce-8713-591a7691a588
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ResUtilGetMultiSzValue, ResUtilGetMultiSzValue function [Failover Cluster], _wolf_resutilgetmultiszvalue, mscs.resutilgetmultiszvalue, resapi/ResUtilGetMultiSzValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

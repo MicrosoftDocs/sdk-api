@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_CREDENTIAL_PAIR2_
 title: IKEEXT_CREDENTIAL_PAIR2_
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to store credential information used for the authentication.
 old-location: fwp\ikeext_credential_pair2.htm
 old-project: FWP
 ms.assetid: 013b7b6c-aee6-40f3-b8c4-ef98784165ca
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_CREDENTIAL_PAIR2, IKEEXT_CREDENTIAL_PAIR2 structure [Filtering], IKEEXT_CREDENTIAL_PAIR2_, fwp.ikeext_credential_pair2, iketypes/IKEEXT_CREDENTIAL_PAIR2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

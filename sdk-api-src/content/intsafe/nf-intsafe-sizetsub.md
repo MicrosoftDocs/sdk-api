@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.SizeTSub
 title: SizeTSub function
-author: windows-driver-content
+author: windows-sdk-content
 description: Subtracts one value of type size_t from another.
 old-location: shell\SizeTSub.htm
 old-project: shell
 ms.assetid: 6a7b22e7-504b-4065-80fa-b972f0360b5c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SizeTSub, SizeTSub function [Windows Shell], _shell_SizeTSub, intsafe/SizeTSub, shell.SizeTSub
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

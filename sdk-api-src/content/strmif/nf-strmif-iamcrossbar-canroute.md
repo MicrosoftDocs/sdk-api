@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMCrossbar.CanRoute
 title: IAMCrossbar::CanRoute
-author: windows-driver-content
+author: windows-sdk-content
 description: The CanRoute method queries whether a specified input pin can be routed to a specified output pin.
 old-location: dshow\iamcrossbar_canroute.htm
 old-project: DirectShow
 ms.assetid: 13be4b35-14d9-4565-8939-e6e755f256ab
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CanRoute, CanRoute method [DirectShow], CanRoute method [DirectShow],IAMCrossbar interface, IAMCrossbar interface [DirectShow],CanRoute method, IAMCrossbar.CanRoute, IAMCrossbar::CanRoute, IAMCrossbarCanRoute, dshow.iamcrossbar_canroute, strmif/IAMCrossbar::CanRoute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

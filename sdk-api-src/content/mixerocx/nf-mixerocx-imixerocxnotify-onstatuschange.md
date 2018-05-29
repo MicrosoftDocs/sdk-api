@@ -1,16 +1,16 @@
 ---
 UID: NF:mixerocx.IMixerOCXNotify.OnStatusChange
 title: IMixerOCXNotify::OnStatusChange
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnStatusChange method informs the client that a status change has occurred.
 old-location: dshow\imixerocxnotify_onstatuschange.htm
 old-project: DirectShow
 ms.assetid: b6e49306-59bc-45a2-826b-cea2cf77214b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMixerOCXNotify interface [DirectShow],OnStatusChange method, IMixerOCXNotify.OnStatusChange, IMixerOCXNotify::OnStatusChange, IMixerOCXNotifyOnStatusChange, OnStatusChange, OnStatusChange method [DirectShow], OnStatusChange method [DirectShow],IMixerOCXNotify interface, dshow.imixerocxnotify_onstatuschange, mixerocx/IMixerOCXNotify::OnStatusChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mixerocx.h
 req.include-header: 

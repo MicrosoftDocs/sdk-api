@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition2.SetInitialVectorVelocity
 title: IUIAnimationTransition2::SetInitialVectorVelocity
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the initial velocity of the transition for each specified dimension in the animation variable.
 old-location: uianimation\iuianimationtransition2_setinitialvectorvelocity.htm
 old-project: UIAnimation
 ms.assetid: 29EFBBE0-E877-4521-B4A7-E1828E0493B9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationTransition2 interface [Windows Animation],SetInitialVectorVelocity method, IUIAnimationTransition2.SetInitialVectorVelocity, IUIAnimationTransition2::SetInitialVectorVelocity, SetInitialVectorVelocity, SetInitialVectorVelocity method [Windows Animation], SetInitialVectorVelocity method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_setinitialvectorvelocity, uianimation/IUIAnimationTransition2::SetInitialVectorVelocity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

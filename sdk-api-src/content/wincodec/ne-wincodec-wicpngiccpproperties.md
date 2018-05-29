@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICPngIccpProperties
 title: WICPngIccpProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the Portable Network Graphics (PNG) iCCP chunk metadata properties.
 old-location: wic\_wic_codec_wicpngiccpproperties.htm
 old-project: wic
 ms.assetid: 2c28a4f1-40c2-4886-be5f-0a2e6feb487a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICPngIccpProfileData, WICPngIccpProfileName, WICPngIccpProperties, WICPngIccpProperties enumeration [Windows Imaging Component], _wic_codec_wicpngiccpproperties, wic._wic_codec_wicpngiccpproperties, wincodec/WICPngIccpProfileData, wincodec/WICPngIccpProfileName, wincodec/WICPngIccpProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

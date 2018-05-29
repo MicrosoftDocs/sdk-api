@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_BassRange
 title: IAMAudioInputMixer::get_BassRange
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_BassRange method retrieves the bass range.
 old-location: dshow\iamaudioinputmixer_get_bassrange.htm
 old-project: DirectShow
 ms.assetid: e0a77f8c-8608-4e16-bc7a-3c90dde2aad8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_BassRange method, IAMAudioInputMixer.get_BassRange, IAMAudioInputMixer::get_BassRange, IAMAudioInputMixerget_BassRange, dshow.iamaudioinputmixer_get_bassrange, get_BassRange, get_BassRange method [DirectShow], get_BassRange method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_BassRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

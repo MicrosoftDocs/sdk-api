@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.GetDisplayNameOf
 title: IShellFolder::GetDisplayNameOf
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the display name for the specified file object or subfolder.
 old-location: shell\IShellFolder_GetDisplayNameOf.htm
 old-project: shell
 ms.assetid: 2164bbe6-e030-4a64-85db-9ee1cd3c136d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDisplayNameOf, GetDisplayNameOf method [Windows Shell], GetDisplayNameOf method [Windows Shell],IShellFolder interface, GetDisplayNameOf method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],GetDisplayNameOf method, IShellFolder.GetDisplayNameOf, IShellFolder2 interface [Windows Shell],GetDisplayNameOf method, IShellFolder2::GetDisplayNameOf, IShellFolder::GetDisplayNameOf, _win32_IShellFolder_GetDisplayNameOf, shell.IShellFolder_GetDisplayNameOf, shobjidl_core/IShellFolder2::GetDisplayNameOf, shobjidl_core/IShellFolder::GetDisplayNameOf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetCurrentHwProfileA
 title: GetCurrentHwProfileA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the current hardware profile for the local computer.
 old-location: base\getcurrenthwprofile.htm
 old-project: SysInfo
 ms.assetid: 152067bb-3896-43ef-a882-12a159f92cc7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCurrentHwProfile, GetCurrentHwProfile function, GetCurrentHwProfileA, GetCurrentHwProfileW, _win32_getcurrenthwprofile, base.getcurrenthwprofile, winbase/GetCurrentHwProfile, winbase/GetCurrentHwProfileA, winbase/GetCurrentHwProfileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

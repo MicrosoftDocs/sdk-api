@@ -1,16 +1,16 @@
 ---
 UID: NS:wsman._WSMAN_COMMAND_ARG_SET
 title: "_WSMAN_COMMAND_ARG_SET"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the set of arguments that are passed in to the command line.
 old-location: winrm\wsman_command_arg_set.htm
 old-project: WinRM
 ms.assetid: 0904851f-e275-445c-b3fa-e5974d037322
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSMAN_COMMAND_ARG_SET, WSMAN_COMMAND_ARG_SET structure [Windows Remote Management], _WSMAN_COMMAND_ARG_SET, winrm.wsman_command_arg_set, wsman/WSMAN_COMMAND_ARG_SET
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mschapp.MSChapSrvChangePassword2
 title: MSChapSrvChangePassword2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MSChapSrvChangePassword2 function changes the password of a user account while supporting mutual encryption.
 old-location: mschap\mschapsrvchangepassword2.htm
 old-project: MsChap
 ms.assetid: 91ea4b98-79e4-4764-a580-a622d1491943
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MSChapSrvChangePassword2, MSChapSrvChangePassword2 function [MS-CHAP], _mschap_mschapsrvchangepassword2, mschap.mschapsrvchangepassword2, mschapp/MSChapSrvChangePassword2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mschapp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NI:pwm.IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
 title: IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the effective output signal period of the Pulse Width Modulation (PWM) controller as it would be measured on its output channels.
 old-location: base\ioctl_pwm_controller_get_actual_period.htm
 old-project: DevIO
 ms.assetid: 11EB530E-4C73-44A3-8739-315F992DBE7B
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD, IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD control, IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD control code, base.ioctl_pwm_controller_get_actual_period, pwm/IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: pwm.h
 req.include-header: Pwm.h

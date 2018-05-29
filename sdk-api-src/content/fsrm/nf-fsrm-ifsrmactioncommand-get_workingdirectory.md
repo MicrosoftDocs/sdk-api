@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.get_WorkingDirectory
 title: IFsrmActionCommand::get_WorkingDirectory
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the working directory in which the executable program will run.
 old-location: fsrm\ifsrmactioncommand_workingdirectory.htm
 old-project: Fsrm
 ms.assetid: 6844b6c3-11b4-4544-bd4e-bf2b89af00b7
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmActionCommand interface [File Server Resource Manager],WorkingDirectory property, IFsrmActionCommand.WorkingDirectory, IFsrmActionCommand.get_WorkingDirectory, IFsrmActionCommand::WorkingDirectory, IFsrmActionCommand::get_WorkingDirectory, IFsrmActionCommand::put_WorkingDirectory, WorkingDirectory property [File Server Resource Manager], WorkingDirectory property [File Server Resource Manager],IFsrmActionCommand interface, fs.ifsrmactioncommand_workingdirectory, fsrm.ifsrmactioncommand_workingdirectory, fsrm/IFsrmActionCommand::WorkingDirectory, fsrm/IFsrmActionCommand::get_WorkingDirectory, fsrm/IFsrmActionCommand::put_WorkingDirectory, get_WorkingDirectory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h

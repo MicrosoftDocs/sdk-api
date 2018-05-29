@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.AddISNSServerW
 title: AddISNSServerW function
-author: windows-driver-content
+author: windows-sdk-content
 description: AddIsnsServer function adds a new server to the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service uses to discover targets.
 old-location: iscsidisc\addisnsserver.htm
 old-project: iSCSIDisc
 ms.assetid: c01f00f9-2929-4745-a60b-89ab1143a084
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: AddISNSServerW, AddIsnsServer, AddIsnsServer function [iSCSI Discovery Library API], AddIsnsServerA, AddIsnsServerW, iscsidisc.addisnsserver, iscsidsc/AddIsnsServer, iscsidsc/AddIsnsServerA, iscsidsc/AddIsnsServerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptCPtoX
 title: ScriptCPtoX function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates the x offset from the left end or leading edge of a run to either the leading or trailing edge of a logical character cluster.
 old-location: intl\scriptcptox.htm
 old-project: Intl
 ms.assetid: 65a11b21-3f4b-463a-b347-a00add32380c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptCPtoX, ScriptCPtoX function [Internationalization for Windows Applications], _win32_ScriptCPtoX, intl.scriptcptox, usp10/ScriptCPtoX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.put_AllowRedirect
 title: INetFwIcmpSettings::put_AllowRedirect
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether redirect is allowed.
 old-location: ics\inetfwicmpsettings_allowredirect.htm
 old-project: ICS
 ms.assetid: 2d4d5e8c-8903-46f6-ba41-a7a00ac50312
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: AllowRedirect property [ICS/ICF], AllowRedirect property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowRedirect property, INetFwIcmpSettings.AllowRedirect, INetFwIcmpSettings.put_AllowRedirect, INetFwIcmpSettings::AllowRedirect, INetFwIcmpSettings::get_AllowRedirect, INetFwIcmpSettings::put_AllowRedirect, ics.inetfwicmpsettings_allowredirect, netfw/INetFwIcmpSettings::AllowRedirect, netfw/INetFwIcmpSettings::get_AllowRedirect, netfw/INetFwIcmpSettings::put_AllowRedirect, put_AllowRedirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

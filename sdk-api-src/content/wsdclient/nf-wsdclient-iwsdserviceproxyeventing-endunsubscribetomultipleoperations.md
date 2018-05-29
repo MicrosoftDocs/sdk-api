@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.EndUnsubscribeToMultipleOperations
 title: IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes an asynchronous cancellation request for a subscription to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_endunsubscribetomultipleoperations.htm
 old-project: WsdApi
 ms.assetid: 62f42441-11b0-46ce-9a4e-03b34d8b4c9b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EndUnsubscribeToMultipleOperations, EndUnsubscribeToMultipleOperations method, EndUnsubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,EndUnsubscribeToMultipleOperations method, IWSDServiceProxyEventing.EndUnsubscribeToMultipleOperations, IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_endunsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::EndUnsubscribeToMultipleOperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

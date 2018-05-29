@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleLink.BindToSource
 title: IOleLink::BindToSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Activates the connection to the link source by binding the moniker stored within the linked object.
 old-location: com\iolelink_bindtosource.htm
 old-project: com
 ms.assetid: 1fadd27d-cb2c-47fc-891a-16f82bdac0f6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BindToSource, BindToSource method [COM], BindToSource method [COM],IOleLink interface, IOleLink interface [COM],BindToSource method, IOleLink.BindToSource, IOleLink::BindToSource, _ole_iolelink_bindtosource, com.iolelink_bindtosource, oleidl/IOleLink::BindToSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

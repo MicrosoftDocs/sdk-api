@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetCustomAttributeProps
 title: IMetaDataImport::GetCustomAttributeProps
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of the custom attribute, given its metadata token.
 old-location: winrt\imetadataimport_getcustomattributeprops.htm
 old-project: WinRT
 ms.assetid: ccb8891c-ceef-4897-9ec4-b3008a7d5264
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetCustomAttributeProps, GetCustomAttributeProps method [Windows Runtime], GetCustomAttributeProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetCustomAttributeProps method, IMetaDataImport.GetCustomAttributeProps, IMetaDataImport::GetCustomAttributeProps, rometadataapi/IMetaDataImport::GetCustomAttributeProps, winrt.imetadataimport_getcustomattributeprops
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

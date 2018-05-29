@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecpkg._SECPKG_BYTE_VECTOR
 title: "_SECPKG_BYTE_VECTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the byte vector information.
 old-location: security\secpkg_byte_vector.htm
 old-project: SecAuthN
 ms.assetid: 2EB8591E-8FBC-47DA-8128-F82D82CB0B26
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSECPKG_BYTE_VECTOR, PSECPKG_BYTE_VECTOR, PSECPKG_BYTE_VECTOR structure pointer [Security], SECPKG_BYTE_VECTOR, SECPKG_BYTE_VECTOR structure [Security], _SECPKG_BYTE_VECTOR, ntsecpkg/PSECPKG_BYTE_VECTOR, ntsecpkg/SECPKG_BYTE_VECTOR, security.secpkg_byte_vector"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader.GetFootprintFile
 title: IAppxPackageReader::GetFootprintFile
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a footprint file from the package.
 old-location: appxpkg\iappxpackagereader_getfootprintfile.htm
 old-project: appxpkg
 ms.assetid: 8CCF9135-308F-4BDC-A67F-1E3ED2ACF565
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetFootprintFile, GetFootprintFile method [App packaging and management], GetFootprintFile method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetFootprintFile method, IAppxPackageReader.GetFootprintFile, IAppxPackageReader::GetFootprintFile, appxpackaging/IAppxPackageReader::GetFootprintFile, appxpkg.iappxpackagereader_getfootprintfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.SafeArrayGetRecordInfo
 title: SafeArrayGetRecordInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IRecordInfo interface of the UDT contained in the specified safe array.
 old-location: automat\safearraygetrecordinfo.htm
 old-project: automat
 ms.assetid: 1584c00e-06a5-44f4-8c4b-a2b23737a652
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: SafeArrayGetRecordInfo, SafeArrayGetRecordInfo function [Automation], _oa96_SafeArrayGetRecordInfo, automat.safearraygetrecordinfo, oleauto/SafeArrayGetRecordInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

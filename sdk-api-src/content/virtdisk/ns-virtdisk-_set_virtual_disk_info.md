@@ -1,16 +1,16 @@
 ---
 UID: NS:virtdisk._SET_VIRTUAL_DISK_INFO
 title: "_SET_VIRTUAL_DISK_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains virtual hard disk (VHD) information to use when you call the SetVirtualDiskInformation function to set VHD properties.
 old-location: vhd\set_virtual_disk_info.htm
 old-project: VStor
 ms.assetid: 04b2bb75-7905-469a-abf1-15591dc64686
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PSET_VIRTUAL_DISK_INFO, PSET_VIRTUAL_DISK_INFO, PSET_VIRTUAL_DISK_INFO structure pointer [VHD], SET_VIRTUAL_DISK_INFO, SET_VIRTUAL_DISK_INFO structure [VHD], _SET_VIRTUAL_DISK_INFO, vhd.set_virtual_disk_info, virtdisk/PSET_VIRTUAL_DISK_INFO, virtdisk/SET_VIRTUAL_DISK_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: Windows.h

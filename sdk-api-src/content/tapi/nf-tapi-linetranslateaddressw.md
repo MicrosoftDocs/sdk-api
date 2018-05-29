@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineTranslateAddressW
 title: lineTranslateAddressW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineTranslateAddress function translates the specified address into another format.
 old-location: tapi2\linetranslateaddress.htm
 old-project: Tapi
 ms.assetid: 0347d526-9596-4b42-8075-07318bf39634
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linetranslateaddress, lineTranslateAddress, lineTranslateAddress function [TAPI 2.2], lineTranslateAddressA, lineTranslateAddressW, tapi/lineTranslateAddress, tapi/lineTranslateAddressA, tapi/lineTranslateAddressW, tapi2.linetranslateaddress"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

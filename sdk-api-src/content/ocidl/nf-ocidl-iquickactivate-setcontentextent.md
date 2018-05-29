@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IQuickActivate.SetContentExtent
 title: IQuickActivate::SetContentExtent
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the content extent of a control.
 old-location: com\iquickactivate_setcontentextent.htm
 old-project: com
 ms.assetid: 0f763bd3-08b9-4804-8e52-2c8014428a45
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IQuickActivate interface [COM],SetContentExtent method, IQuickActivate.SetContentExtent, IQuickActivate::SetContentExtent, SetContentExtent, SetContentExtent method [COM], SetContentExtent method [COM],IQuickActivate interface, _ctrl_iquickactivate_setcontentextent, com.iquickactivate_setcontentextent, ocidl/IQuickActivate::SetContentExtent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.AuditSetGlobalSaclA
 title: AuditSetGlobalSaclA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a global system access control list (SACL) that delegates access to the audit messages.
 old-location: security\auditsetglobalsacl.htm
 old-project: SecAuthZ
 ms.assetid: 48A41E3F-DDB0-431F-BCF0-E2452FEA57FA
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuditSetGlobalSacl, AuditSetGlobalSacl function [Security], AuditSetGlobalSaclA, AuditSetGlobalSaclW, ntsecapi/AuditSetGlobalSacl, ntsecapi/AuditSetGlobalSaclA, ntsecapi/AuditSetGlobalSaclW, security.auditsetglobalsacl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

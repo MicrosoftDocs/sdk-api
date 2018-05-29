@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiLoadClassIcon
 title: SetupDiLoadClassIcon function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiLoadClassIcon function loads both the large and mini-icon for the specified class.
 old-location: devinst\setupdiloadclassicon.htm
 old-project: devinst
 ms.assetid: f239e207-fb51-4641-a64c-7d8ffa767e18
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiLoadClassIcon, SetupDiLoadClassIcon function [Device and Driver Installation], devinst.setupdiloadclassicon, di-rtns_968c659d-6f45-4416-beb9-8fa25c4c060e.xml, setupapi/SetupDiLoadClassIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

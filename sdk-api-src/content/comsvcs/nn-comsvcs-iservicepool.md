@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IServicePool
 title: IServicePool
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to manage a COM+ object pool.
 old-location: cos\iservicepool.htm
 old-project: cossdk
 ms.assetid: fb86ffa5-b4cd-48bc-a99e-245e75ddb9c2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServicePool, IServicePool interface [COM+], IServicePool interface [COM+],described, _cos_IServicePool, comsvcs/IServicePool, cos.iservicepool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IIsoImageManager.Validate
 title: IIsoImageManager::Validate
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if the provided .iso image is valid.
 old-location: imapi\iisoimagemanager_validate.htm
 old-project: imapi
 ms.assetid: 0fd9f0fc-8a77-4b94-9111-c8ce223329b6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IIsoImageManager interface [IMAPI],Validate method, IIsoImageManager.Validate, IIsoImageManager::Validate, Validate, Validate method [IMAPI], Validate method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_validate, imapi2fs/IIsoImageManager::Validate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fltuser.FilterVolumeFindClose
 title: FilterVolumeFindClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FilterVolumeFindClose function closes the specified volume search handle. FilterVolumeFindFirst and FilterVolumeFindNext use this search handle to locate volumes.
 old-location: ifsk\filtervolumefindclose.htm
 old-project: ifsk
 ms.assetid: 18b707a0-2d34-46a9-a77c-b356aba44d72
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: FilterVolumeFindClose, FilterVolumeFindClose function [Installable File System Drivers], FltWin32ApiRef_bdc13aec-06f6-4e73-abcb-ca452040e600.xml, fltuser/FilterVolumeFindClose, ifsk.filtervolumefindclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fltuser.h
 req.include-header: Fltuser.h

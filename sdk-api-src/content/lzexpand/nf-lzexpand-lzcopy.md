@@ -1,16 +1,16 @@
 ---
 UID: NF:lzexpand.LZCopy
 title: LZCopy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies a source file to a destination file.
 old-location: fs\lzcopy.htm
 old-project: FileIO
 ms.assetid: 9b6e1ab7-68a2-4721-9e84-11c4126f37a7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: LZCopy, LZCopy function [Files], _win32_lzcopy, base.lzcopy, fs.lzcopy, lzexpand/LZCopy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lzexpand.h
 req.include-header: Windows.h

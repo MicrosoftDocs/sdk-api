@@ -1,16 +1,16 @@
 ---
 UID: NC:winldap.VERIFYSERVERCERT
 title: VERIFYSERVERCERT
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows a client to evaluate the certificate chain of the server to which it is connected.
 old-location: ldap\verifyservercert.htm
 old-project: LDAP
 ms.assetid: 3c9993b2-8591-46ff-941b-ff16d42650c9
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: VERIFYSERVERCERT, VERIFYSERVERCERT callback, VERIFYSERVERCERT callback function [LDAP], _ldap_verifyservercert, ldap.verifyservercert, winldap/VERIFYSERVERCERT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winldap.h
 req.include-header: 

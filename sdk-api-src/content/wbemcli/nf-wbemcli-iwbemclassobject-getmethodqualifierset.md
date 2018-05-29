@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetMethodQualifierSet
 title: IWbemClassObject::GetMethodQualifierSet
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemClassObject::GetMethodQualifierSet is used to retrieve the qualifier set for a particular method.
 old-location: wmi\iwbemclassobject_getmethodqualifierset.htm
 old-project: WmiSdk
 ms.assetid: ba328f43-b08a-4b09-8aff-d7075cb6d419
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetMethodQualifierSet, GetMethodQualifierSet method [Windows Management Instrumentation], GetMethodQualifierSet method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetMethodQualifierSet method, IWbemClassObject.GetMethodQualifierSet, IWbemClassObject::GetMethodQualifierSet, _hmm_iwbemclassobject_getmethodqualifierset, wbemcli/IWbemClassObject::GetMethodQualifierSet, wmi.iwbemclassobject_getmethodqualifierset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

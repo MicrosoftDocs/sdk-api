@@ -1,16 +1,16 @@
 ---
 UID: NS:schannel._X509Certificate
 title: "_X509Certificate"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an X.509 certificate.
 old-location: security\x509certificate.htm
 old-project: SecAuthN
 ms.assetid: 5a337f78-e5de-4ea2-9c15-1056d9e9e38c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PX509Certificate, PX509Certificate, PX509Certificate structure pointer [Security], X509Certificate, X509Certificate structure [Security], _X509Certificate, schannel/PX509Certificate, schannel/X509Certificate, security.x509certificate"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 

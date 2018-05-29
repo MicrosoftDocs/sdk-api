@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.AddStroke
 title: AddStroke function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an ink stroke to the RecognizerContext.
 old-location: tablet\addstroke.htm
 old-project: tablet
 ms.assetid: 1db3dbef-41bf-4b00-8e6c-07c7c414e595
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 1db3dbef-41bf-4b00-8e6c-07c7c414e595, AddStroke, AddStroke function [Tablet PC], recapis/AddStroke, tablet.addstroke
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

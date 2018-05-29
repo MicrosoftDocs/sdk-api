@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_5
 title: REQUESTBODY_GetStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a WS-Eventing GetStatus request message.
 old-location: ncd\requestbody_getstatus.htm
 old-project: WsdApi
 ms.assetid: 5b2282b2-297a-4151-a809-b85495d5d741
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: REQUESTBODY_GetStatus, REQUESTBODY_GetStatus structure, ncd.requestbody_getstatus, wsdtypes/REQUESTBODY_GetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetOffsetY
 title: SetOffsetY function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes or animates the value of the OffsetY property of a 3D translation transform effect.
 old-location: directcomp\idcompositiontranslatetransform3d_setoffsety_overloaded.htm
 old-project: directcomp
 ms.assetid: 254DCA74-DB51-442D-9483-F7597643C538
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionTranslateTransform3D::SetOffsetY, SetOffsetY, SetOffsetY methods [DirectComposition], dcomp/SetOffsetY, directcomp.idcompositiontranslatetransform3d_setoffsety_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

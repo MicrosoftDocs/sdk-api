@@ -1,16 +1,16 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.IsModeAvailable
 title: IFullScreenVideoEx::IsModeAvailable
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsModeAvailable method queries whether a specified display mode is available.
 old-location: dshow\ifullscreenvideoex_ismodeavailable.htm
 old-project: DirectShow
 ms.assetid: 9b05d6c6-522c-46b8-90b5-c4650cee5f6b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsModeAvailable method, IFullScreenVideoEx.IsModeAvailable, IFullScreenVideoEx::IsModeAvailable, IFullScreenVideoIsModeAvailable, IsModeAvailable, IsModeAvailable method [DirectShow], IsModeAvailable method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsModeAvailable, dshow.ifullscreenvideoex_ismodeavailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

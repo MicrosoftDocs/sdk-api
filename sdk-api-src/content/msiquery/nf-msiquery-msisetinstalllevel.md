@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiSetInstallLevel
 title: MsiSetInstallLevel function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiSetInstallLevel function sets the installation level for a full product installation.
 old-location: setup\msisetinstalllevel.htm
 old-project: Msi
 ms.assetid: 98f1d91d-632e-4dea-948f-2dc416b4d410
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiSetInstallLevel, MsiSetInstallLevel function, _msi_msisetinstalllevel, msiquery/MsiSetInstallLevel, setup.msisetinstalllevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

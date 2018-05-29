@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeNotifySink.OnUpdateInfo
 title: ITfDisplayAttributeNotifySink::OnUpdateInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfDisplayAttributeNotifySink::OnUpdateInfo method
 old-location: tsf\itfdisplayattributenotifysink_onupdateinfo.htm
 old-project: TSF
 ms.assetid: 6f4cbdca-b2a3-4e14-b4fb-ac65f3cec646
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfDisplayAttributeNotifySink interface [Text Services Framework],OnUpdateInfo method, ITfDisplayAttributeNotifySink.OnUpdateInfo, ITfDisplayAttributeNotifySink::OnUpdateInfo, OnUpdateInfo, OnUpdateInfo method [Text Services Framework], OnUpdateInfo method [Text Services Framework],ITfDisplayAttributeNotifySink interface, _tsf_itfdisplayattributenotifysink_onupdateinfo_ref, msctf/ITfDisplayAttributeNotifySink::OnUpdateInfo, tsf.itfdisplayattributenotifysink_onupdateinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

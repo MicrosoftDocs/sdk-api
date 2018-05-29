@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.ISynchronizeEvent
 title: ISynchronizeEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Assigns an event handle to a synchronization object.
 old-location: com\isynchronizeevent.htm
 old-project: com
 ms.assetid: b4721498-0455-415a-bf2f-c8c8fdf3b75c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISynchronizeEvent, ISynchronizeEvent interface [COM], ISynchronizeEvent interface [COM],described, _com_isynchronizeevent, com.isynchronizeevent, objidlbase/ISynchronizeEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

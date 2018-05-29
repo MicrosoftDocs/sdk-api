@@ -1,16 +1,16 @@
 ---
 UID: NF:lmshare.NetFileClose
 title: NetFileClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: Forces a resource to close. This function can be used when an error prevents closure by any other means. You should use NetFileClose with caution because it does not write data cached on the client system to the file before closing the file.
 old-location: fs\netfileclose.htm
 old-project: NetShare
 ms.assetid: 36a5f464-fec3-4b4f-91c3-447ff5ff70af
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: NetFileClose, NetFileClose function [Files], _win32_netfileclose, fs.netfileclose, lmshare/NetFileClose, netmgmt.netfileclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h

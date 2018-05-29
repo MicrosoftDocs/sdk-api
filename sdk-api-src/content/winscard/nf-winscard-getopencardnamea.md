@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.GetOpenCardNameA
 title: GetOpenCardNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetOpenCardName function displays the smart card &#0034;select card&#0034; dialog box.
 old-location: security\getopencardname.htm
 old-project: SecAuthN
 ms.assetid: b103cec0-dd28-4f90-864b-5f66d044ec55
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetOpenCardName, GetOpenCardName function [Security], GetOpenCardNameA, GetOpenCardNameW, _smart_getopencardname, security.getopencardname, winscard/GetOpenCardName, winscard/GetOpenCardNameA, winscard/GetOpenCardNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

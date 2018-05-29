@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IReferenceClock.AdvisePeriodic
 title: IReferenceClock::AdvisePeriodic
-author: windows-driver-content
+author: windows-sdk-content
 description: The AdvisePeriodic method creates a periodic advise request.
 old-location: dshow\ireferenceclock_adviseperiodic.htm
 old-project: DirectShow
 ms.assetid: c8e2545b-ea3c-441c-8721-e7dec09d100e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AdvisePeriodic, AdvisePeriodic method [DirectShow], AdvisePeriodic method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],AdvisePeriodic method, IReferenceClock.AdvisePeriodic, IReferenceClock::AdvisePeriodic, IReferenceClockAdvisePeriodic, dshow.ireferenceclock_adviseperiodic, strmif/IReferenceClock::AdvisePeriodic
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

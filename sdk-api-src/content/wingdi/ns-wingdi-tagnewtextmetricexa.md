@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagNEWTEXTMETRICEXA
 title: tagNEWTEXTMETRICEXA
-author: windows-driver-content
+author: windows-sdk-content
 description: The NEWTEXTMETRICEX structure contains information about a physical font.
 old-location: gdi\newtextmetricex.htm
 old-project: gdi
 ms.assetid: b85ff705-2dd4-4877-9905-d4c2a0894e24
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NEWTEXTMETRICEX, NEWTEXTMETRICEX structure [Windows GDI], NEWTEXTMETRICEXA, NEWTEXTMETRICEXW, _win32_NEWTEXTMETRICEX_str, gdi.newtextmetricex, tagNEWTEXTMETRICEXA, wingdi/NEWTEXTMETRICEX, wingdi/NEWTEXTMETRICEXA, wingdi/NEWTEXTMETRICEXW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

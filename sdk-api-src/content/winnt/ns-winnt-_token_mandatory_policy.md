@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._TOKEN_MANDATORY_POLICY
 title: "_TOKEN_MANDATORY_POLICY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the mandatory integrity policy for a token.
 old-location: security\token_mandatory_policy.htm
 old-project: SecAuthZ
 ms.assetid: f5fc438b-c4f0-46f6-a188-52ce660d13da
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PTOKEN_MANDATORY_POLICY, PTOKEN_MANDATORY_POLICY, PTOKEN_MANDATORY_POLICY structure pointer [Security], TOKEN_MANDATORY_POLICY, TOKEN_MANDATORY_POLICY structure [Security], TOKEN_MANDATORY_POLICY_NEW_PROCESS_MIN, TOKEN_MANDATORY_POLICY_NO_WRITE_UP, TOKEN_MANDATORY_POLICY_OFF, TOKEN_MANDATORY_POLICY_VALID_MASK, _TOKEN_MANDATORY_POLICY, security.token_mandatory_policy, winnt/PTOKEN_MANDATORY_POLICY, winnt/TOKEN_MANDATORY_POLICY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:structuredquery.STRUCTURED_QUERY_RESOLVE_OPTION
 title: STRUCTURED_QUERY_RESOLVE_OPTION
-author: windows-driver-content
+author: windows-sdk-content
 description: Options for resolving data into a condition tree.
 old-location: search\_search_STRUCTURED_QUERY_RESOLVE_OPTION.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\structured_query_resolve_option.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SQRO_ADD_ROBUST_ITEM_NAME, SQRO_ALWAYS_ONE_INTERVAL, SQRO_DEFAULT, SQRO_DONT_MAP_RELATIONS, SQRO_DONT_REMOVE_UNRESTRICTED_KEYWORDS, SQRO_DONT_RESOLVE_DATETIME, SQRO_DONT_RESOLVE_RANGES, SQRO_DONT_SIMPLIFY_CONDITION_TREES, SQRO_DONT_SPLIT_WORDS, SQRO_IGNORE_PHRASE_ORDER, SQRO_NULL_VALUE_TYPE_FOR_PLAIN_VALUES, STRUCTURED_QUERY_RESOLVE_OPTION, STRUCTURED_QUERY_RESOLVE_OPTION enumeration [search], _search_STRUCTURED_QUERY_RESOLVE_OPTION, search._search_STRUCTURED_QUERY_RESOLVE_OPTION, structuredquery/SQRO_ADD_ROBUST_ITEM_NAME, structuredquery/SQRO_ALWAYS_ONE_INTERVAL, structuredquery/SQRO_DEFAULT, structuredquery/SQRO_DONT_MAP_RELATIONS, structuredquery/SQRO_DONT_REMOVE_UNRESTRICTED_KEYWORDS, structuredquery/SQRO_DONT_RESOLVE_DATETIME, structuredquery/SQRO_DONT_RESOLVE_RANGES, structuredquery/SQRO_DONT_SIMPLIFY_CONDITION_TREES, structuredquery/SQRO_DONT_SPLIT_WORDS, structuredquery/SQRO_IGNORE_PHRASE_ORDER, structuredquery/SQRO_NULL_VALUE_TYPE_FOR_PLAIN_VALUES, structuredquery/STRUCTURED_QUERY_RESOLVE_OPTION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: structuredquery.h
 req.include-header: 
@@ -20,7 +20,7 @@ req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: UnalignedStringCchLengthW (Unicode) and StringCchLengthA (ANSI)
+req.unicode-ansi: StringCchVPrintf_lW (Unicode) and StringCchVPrintf_lA (ANSI)
 req.idl: Structuredquery.idl
 req.max-support: 
 req.namespace: 

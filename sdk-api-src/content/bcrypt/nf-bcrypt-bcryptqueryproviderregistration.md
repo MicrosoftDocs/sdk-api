@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptQueryProviderRegistration
 title: BCryptQueryProviderRegistration function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a CNG provider.
 old-location: security\bcryptqueryproviderregistration.htm
 old-project: SecCNG
 ms.assetid: 28b8bca9-442f-4d58-86aa-8aa274777ede
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptQueryProviderRegistration, BCryptQueryProviderRegistration function [Security], CRYPT_ANY, CRYPT_KM, CRYPT_MM, CRYPT_UM, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptQueryProviderRegistration, security.bcryptqueryproviderregistration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

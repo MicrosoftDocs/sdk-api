@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_HASHED_URL
 title: "_CERT_HASHED_URL"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a hashed URL.
 old-location: security\cert_hashed_url.htm
 old-project: SecCrypto
 ms.assetid: 961feb88-b924-4834-bc68-d87f410259f1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_HASHED_URL, CERT_HASHED_URL, CERT_HASHED_URL structure [Security], PCERT_HASHED_URL, PCERT_HASHED_URL structure pointer [Security], _CERT_HASHED_URL, security.cert_hashed_url, wincrypt/CERT_HASHED_URL, wincrypt/PCERT_HASHED_URL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

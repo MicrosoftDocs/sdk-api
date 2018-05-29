@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSCoerceToCanonicalValue
 title: PSCoerceToCanonicalValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the value of a property to the canonical value, according to the property description.
 old-location: properties\PSCoerceToCanonicalValue.htm
 old-project: properties
 ms.assetid: 8225dd01-47cc-451e-b6a6-c16ddf62ca20
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSCoerceToCanonicalValue, PSCoerceToCanonicalValue function [Windows Properties], _shell_PSCoerceToCanonicalValue, properties.PSCoerceToCanonicalValue, propsys/PSCoerceToCanonicalValue, shell.PSCoerceToCanonicalValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

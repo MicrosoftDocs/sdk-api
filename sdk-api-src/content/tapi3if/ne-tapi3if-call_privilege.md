@@ -1,16 +1,16 @@
 ---
 UID: NE:tapi3if.CALL_PRIVILEGE
 title: CALL_PRIVILEGE
-author: windows-driver-content
+author: windows-sdk-content
 description: A CALL_PRIVILEGE member is returned by the ITCallInfo::get_Privilege method, and indicates when the current application owns or is monitoring the current call.
 old-location: tapi3\call_privilege.htm
 old-project: Tapi
 ms.assetid: 8d2ab3d2-9531-40fc-910d-2bd81a075cc3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CALL_PRIVILEGE, CALL_PRIVILEGE enumeration [TAPI 2.2], CP_MONITOR, CP_OWNER, _tapi3_call_privilege, tapi3.call_privilege, tapi3if/CALL_PRIVILEGE, tapi3if/CP_MONITOR, tapi3if/CP_OWNER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IDvbComponentDescriptor
 title: IDvbComponentDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the type of a Digital Video Broadcast (DVB) component stream and provides a text description of the component stream.
 old-location: mstv\idvbcomponentdescriptor.htm
 old-project: mstv
 ms.assetid: 0dee15ee-5b36-4454-8092-6b57ef5063ce
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDvbComponentDescriptor, IDvbComponentDescriptor interface [Microsoft TV Technologies], IDvbComponentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbComponentDescriptor, mstv.idvbcomponentdescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

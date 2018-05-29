@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.IsMenu
 title: IsMenu function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a handle is a menu handle.
 old-location: menurc\ismenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\ismenu.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IsMenu, IsMenu function [Menus and Other Resources], _win32_IsMenu, _win32_ismenu_cpp, menurc.ismenu, winui._win32_ismenu, winuser/IsMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

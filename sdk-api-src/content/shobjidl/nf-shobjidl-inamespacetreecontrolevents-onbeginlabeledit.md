@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnBeginLabelEdit
 title: INameSpaceTreeControlEvents::OnBeginLabelEdit
-author: windows-driver-content
+author: windows-sdk-content
 description: Called before the IShellItem goes into edit mode.
 old-location: shell\INameSpaceTreeControlEvents_OnBeginLabelEdit.htm
 old-project: shell
 ms.assetid: cf97e4e9-cd4c-48c0-8230-2152c9767ef2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnBeginLabelEdit method, INameSpaceTreeControlEvents.OnBeginLabelEdit, INameSpaceTreeControlEvents::OnBeginLabelEdit, OnBeginLabelEdit, OnBeginLabelEdit method [Windows Shell], OnBeginLabelEdit method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnBeginLabelEdit, shell.INameSpaceTreeControlEvents_OnBeginLabelEdit, shobjidl/INameSpaceTreeControlEvents::OnBeginLabelEdit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

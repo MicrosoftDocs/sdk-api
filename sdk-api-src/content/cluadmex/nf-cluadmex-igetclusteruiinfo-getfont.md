@@ -1,16 +1,16 @@
 ---
 UID: NF:cluadmex.IGetClusterUIInfo.GetFont
 title: IGetClusterUIInfo::GetFont
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a handle to the font to be displayed on property and wizard pages.
 old-location: mscs\igetclusteruiinfo_getfont.htm
 old-project: MsCS
 ms.assetid: 87dc900d-eee3-4e48-8294-a1d5c3a95179
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetFont, GetFont method [Failover Cluster], GetFont method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetFont method, IGetClusterUIInfo.GetFont, IGetClusterUIInfo::GetFont, _wolf_igetclusteruiinfo_getfont, cluadmex/IGetClusterUIInfo::GetFont, mscs.igetclusteruiinfo_getfont
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 

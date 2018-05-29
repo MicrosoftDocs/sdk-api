@@ -1,16 +1,16 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.GetChannelPriority
 title: IDirectMusicSynth::GetChannelPriority
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetChannelPriority method outputs the priority of a MIDI channel.
 old-location: audio\idirectmusicsynth_getchannelpriority.htm
 old-project: audio
 ms.assetid: be49f7eb-f0ab-48b3-9776-79811309fcee
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: GetChannelPriority, GetChannelPriority method [Audio Devices], GetChannelPriority method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetChannelPriority method, IDirectMusicSynth.GetChannelPriority, IDirectMusicSynth::GetChannelPriority, audio.idirectmusicsynth_getchannelpriority, audmp-routines_9590c152-c9c3-4d0a-aad2-a0884716f681.xml, dmusics/IDirectMusicSynth::GetChannelPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h

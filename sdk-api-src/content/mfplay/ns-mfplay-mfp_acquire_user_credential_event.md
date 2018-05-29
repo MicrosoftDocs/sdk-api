@@ -1,16 +1,16 @@
 ---
 UID: NS:mfplay.MFP_ACQUIRE_USER_CREDENTIAL_EVENT
 title: MFP_ACQUIRE_USER_CREDENTIAL_EVENT
-author: windows-driver-content
+author: windows-sdk-content
 description: Event structure for the MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL event.
 old-location: mf\mfp_acquire_user_credential_event.htm
 old-project: medfound
 ms.assetid: 61767b81-8641-43d5-b272-148d52517727
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFP_ACQUIRE_USER_CREDENTIAL_EVENT, MFP_ACQUIRE_USER_CREDENTIAL_EVENT structure [Media Foundation], mf.mfp_acquire_user_credential_event, mfplay/MFP_ACQUIRE_USER_CREDENTIAL_EVENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfplay.h
 req.include-header: 

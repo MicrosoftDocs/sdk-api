@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMTuner.Logout
 title: IAMTuner::Logout
-author: windows-driver-content
+author: windows-sdk-content
 description: The Logout method logs out the current user.
 old-location: dshow\iamtuner_logout.htm
 old-project: DirectShow
 ms.assetid: 637823ec-0de9-431d-96b7-606abcc9013a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMTuner interface [DirectShow],Logout method, IAMTuner.Logout, IAMTuner::Logout, IAMTunerLogout, Logout, Logout method [DirectShow], Logout method [DirectShow],IAMTuner interface, dshow.iamtuner_logout, strmif/IAMTuner::Logout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

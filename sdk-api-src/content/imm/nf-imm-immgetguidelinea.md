@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmGetGuideLineA
 title: ImmGetGuideLineA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about errors. Applications use the information for user notifications.
 old-location: intl\immgetguideline.htm
 old-project: Intl
 ms.assetid: f6639061-0ad9-4f42-b5d4-66ad3f6298aa
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GGL_INDEX, GGL_LEVEL, GGL_PRIVATE, GGL_STRING, ImmGetGuideLine, ImmGetGuideLine function [Internationalization for Windows Applications], ImmGetGuideLineA, ImmGetGuideLineW, _win32_ImmGetGuideLine, imm/ImmGetGuideLine, imm/ImmGetGuideLineA, imm/ImmGetGuideLineW, intl.immgetguideline
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

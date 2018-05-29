@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.CreateRetrieveCertificateMessage
 title: IX509SCEPEnrollment::CreateRetrieveCertificateMessage
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieve a previously issued certificate.
 old-location: security\ix509scepenrollment_createretrievecertificatemessage.htm
 old-project: SecCertEnroll
 ms.assetid: 238a837f-4464-49ce-b87a-03abcfc0abea
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CreateRetrieveCertificateMessage, CreateRetrieveCertificateMessage method [Security], CreateRetrieveCertificateMessage method [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],CreateRetrieveCertificateMessage method, IX509SCEPEnrollment.CreateRetrieveCertificateMessage, IX509SCEPEnrollment::CreateRetrieveCertificateMessage, certenroll/IX509SCEPEnrollment::CreateRetrieveCertificateMessage, security.ix509scepenrollment_createretrievecertificatemessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

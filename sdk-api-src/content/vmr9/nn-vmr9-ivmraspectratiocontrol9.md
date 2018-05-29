@@ -1,16 +1,16 @@
 ---
 UID: NN:vmr9.IVMRAspectRatioControl9
 title: IVMRAspectRatioControl9
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRAspectRatioControl9 interface controls whether the Video Mixing Renderer Filter 9 (VMR-9) preserves the aspect ratio of the source video.
 old-location: dshow\ivmraspectratiocontrol9.htm
 old-project: DirectShow
 ms.assetid: ae850eea-c283-4500-baa0-e26641576852
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRAspectRatioControl9, IVMRAspectRatioControl9 interface [DirectShow], IVMRAspectRatioControl9 interface [DirectShow],described, IVMRAspectRatioControl9Interface, dshow.ivmraspectratiocontrol9, vmr9/IVMRAspectRatioControl9
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:winbase._FILE_END_OF_FILE_INFO
 title: "_FILE_END_OF_FILE_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the specified value to which the end of the file should be set.
 old-location: fs\file_end_of_file_info.htm
 old-project: FileIO
 ms.assetid: 77500ae7-654a-4b34-aaee-5c3844303271
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PFILE_END_OF_FILE_INFO, FILE_END_OF_FILE_INFO, FILE_END_OF_FILE_INFO structure [Files], PFILE_END_OF_FILE_INFO, PFILE_END_OF_FILE_INFO structure pointer [Files], _FILE_END_OF_FILE_INFO, fileextd/FILE_END_OF_FILE_INFO, fileextd/PFILE_END_OF_FILE_INFO, fs.file_end_of_file_info, winbase/FILE_END_OF_FILE_INFO, winbase/PFILE_END_OF_FILE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h

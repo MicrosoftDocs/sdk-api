@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastDescriptor.GetLangID
 title: IDvbDataBroadcastDescriptor::GetLangID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) data broadcast descriptor. This language code identifies the language used for the text description field.
 old-location: mstv\idvbdatabroadcastdescriptor_getlangid.htm
 old-project: mstv
 ms.assetid: 56fc47d6-042e-48ad-a0b8-39646453a6af
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLangID, GetLangID method [Microsoft TV Technologies], GetLangID method [Microsoft TV Technologies],IDvbDataBroadcastDescriptor interface, IDvbDataBroadcastDescriptor interface [Microsoft TV Technologies],GetLangID method, IDvbDataBroadcastDescriptor.GetLangID, IDvbDataBroadcastDescriptor::GetLangID, dvbsiparser/IDvbDataBroadcastDescriptor::GetLangID, mstv.idvbdatabroadcastdescriptor_getlangid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

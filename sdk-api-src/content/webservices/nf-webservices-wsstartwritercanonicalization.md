@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsStartWriterCanonicalization
 title: WsStartWriterCanonicalization function
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts canonicalization on the specified XML writer.
 old-location: wsw\wsstartwritercanonicalization.htm
 old-project: wsw
 ms.assetid: e9ea26d6-a136-4103-ac67-42e943ea67b5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsStartWriterCanonicalization, WsStartWriterCanonicalization function [Web Services for Windows], webservices/WsStartWriterCanonicalization, wsw.wsstartwritercanonicalization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

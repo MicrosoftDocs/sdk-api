@@ -1,16 +1,16 @@
 ---
 UID: NE:mfplay._MFP_MEDIAITEM_CHARACTERISTICS
 title: "_MFP_MEDIAITEM_CHARACTERISTICS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains flags that describe a media item.
 old-location: mf\_mfp_mediaitem_characteristics.htm
 old-project: medfound
 ms.assetid: 7bbb45e6-717d-413c-95fd-db730ab960ff
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFP_MEDIAITEM_CAN_PAUSE, MFP_MEDIAITEM_CAN_SEEK, MFP_MEDIAITEM_HAS_SLOW_SEEK, MFP_MEDIAITEM_IS_LIVE, _MFP_MEDIAITEM_CHARACTERISTICS, _MFP_MEDIAITEM_CHARACTERISTICS enumeration [Media Foundation], mf._mfp_mediaitem_characteristics, mfplay/MFP_MEDIAITEM_CAN_PAUSE, mfplay/MFP_MEDIAITEM_CAN_SEEK, mfplay/MFP_MEDIAITEM_HAS_SLOW_SEEK, mfplay/MFP_MEDIAITEM_IS_LIVE, mfplay/_MFP_MEDIAITEM_CHARACTERISTICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfplay.h
 req.include-header: 

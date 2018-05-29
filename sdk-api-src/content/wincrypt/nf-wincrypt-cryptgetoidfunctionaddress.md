@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptGetOIDFunctionAddress
 title: CryptGetOIDFunctionAddress function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches the list of registered and installed functions for an encoding type and object identifier (OID) match.
 old-location: security\cryptgetoidfunctionaddress.htm
 old-project: SecCrypto
 ms.assetid: 2eef6109-a840-48c6-936c-ec0875039c39
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_GET_INSTALLED_OID_FUNC_FLAG, CryptGetOIDFunctionAddress, CryptGetOIDFunctionAddress function [Security], _crypto2_cryptgetoidfunctionaddress, security.cryptgetoidfunctionaddress, wincrypt/CryptGetOIDFunctionAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

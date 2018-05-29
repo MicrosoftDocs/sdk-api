@@ -1,16 +1,16 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6GetVendorOptionValue
 title: PxeDhcpv6GetVendorOptionValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves option values from the OPTION_VENDOR_OPTS (17) field of a DHCPv6 packet.
 old-location: wds\pxedhcpv6getvendoroptionvalue.htm
 old-project: Wds
 ms.assetid: 9F969C0C-93CA-4355-8556-2F43542570F1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: PxeDhcpv6GetVendorOptionValue, PxeDhcpv6GetVendorOptionValue function [Windows Deployment Services], wds.pxedhcpv6getvendoroptionvalue, wdspxe/PxeDhcpv6GetVendorOptionValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

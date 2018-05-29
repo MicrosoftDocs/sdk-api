@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.SetTag
 title: IUIAnimationStoryboard::SetTag
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the tag for the storyboard.
 old-location: uianimation\iuianimationstoryboard_settag.htm
 old-project: UIAnimation
 ms.assetid: ade41b03-9194-4b1a-a672-32bb48a2f5ba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],SetTag method, IUIAnimationStoryboard.SetTag, IUIAnimationStoryboard::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_settag, uianimation/IUIAnimationStoryboard::SetTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

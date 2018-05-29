@@ -1,16 +1,16 @@
 ---
 UID: NS:wmcontainer.ASF_MUX_STATISTICS
 title: ASF_MUX_STATISTICS
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains statistics about the progress of the ASF multiplexer.
 old-location: mf\asf_mux_statistics.htm
 old-project: medfound
 ms.assetid: 353ee03d-b706-4a70-9eaf-c14b47b5159a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 353ee03d-b706-4a70-9eaf-c14b47b5159a, ASF_MUX_STATISTICS, ASF_MUX_STATISTICS structure [Media Foundation], mf.asf_mux_statistics, wmcontainer/ASF_MUX_STATISTICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmcontainer.h
 req.include-header: 

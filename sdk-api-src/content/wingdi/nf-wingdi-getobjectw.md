@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetObjectW
 title: GetObjectW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetObject function retrieves information for the specified graphics object.
 old-location: gdi\getobject.htm
 old-project: gdi
 ms.assetid: 555ab876-d990-426d-915c-f98df82a10aa
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetObject, GetObject function [Windows GDI], GetObjectA, GetObjectW, HBITMAP, HBITMAP returned from a call to CreateDIBSection, HBRUSH, HFONT, HPALETTE, HPEN, HPEN returned from a call to ExtCreatePen, _win32_GetObject, gdi.getobject, wingdi/GetObject, wingdi/GetObjectA, wingdi/GetObjectW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

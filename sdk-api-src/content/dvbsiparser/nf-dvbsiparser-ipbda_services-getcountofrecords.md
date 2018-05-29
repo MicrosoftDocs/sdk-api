@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IPBDA_Services.GetCountOfRecords
 title: IPBDA_Services::GetCountOfRecords
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of service records from a Program and System Information Protocol (PSIP) table in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_services_getcountofrecords.htm
 old-project: mstv
 ms.assetid: a39a0ec2-aabc-4609-91cc-667c14773515
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IPBDA_Services interface, IPBDA_Services interface [Microsoft TV Technologies],GetCountOfRecords method, IPBDA_Services.GetCountOfRecords, IPBDA_Services::GetCountOfRecords, dvbsiparser/IPBDA_Services::GetCountOfRecords, mstv.ipbda_services_getcountofrecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

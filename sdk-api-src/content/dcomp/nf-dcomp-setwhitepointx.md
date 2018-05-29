@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetWhitePointX
 title: SetWhitePointX function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the x value of the white point.
 old-location: directcomp\idcompositionbrightnesseffect_setwhitepointx_overloaded.htm
 old-project: directcomp
 ms.assetid: a35c4a79-bf30-3334-1cea-ddd055427a0f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionBrightnessEffect::SetWhitePointX, SetWhitePointX, SetWhitePointX methods [DirectComposition], dcomp/SetWhitePointX, directcomp.idcompositionbrightnesseffect_setwhitepointx_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

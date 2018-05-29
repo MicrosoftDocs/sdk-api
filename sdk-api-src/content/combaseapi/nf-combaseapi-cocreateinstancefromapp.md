@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoCreateInstanceFromApp
 title: CoCreateInstanceFromApp function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instance of a specific class on a specific computer from within an app container.
 old-location: com\cocreateinstancefromapp.htm
 old-project: com
 ms.assetid: 1C773D78-5B33-44FE-A09B-AB8087F678A1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoCreateInstanceFromApp, CoCreateInstanceFromApp function [COM], com.cocreateinstancefromapp, combaseapi/CoCreateInstanceFromApp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 

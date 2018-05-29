@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.get_GuardInterval
 title: IBDA_DigitalDemodulator2::get_GuardInterval
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the demodulator's guard interval.
 old-location: mstv\ibda_digitaldemodulator2_get_guardinterval.htm
 old-project: mstv
 ms.assetid: e122fac7-bad8-4fbf-bf7d-ffbfad75a5d8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_GuardInterval method, IBDA_DigitalDemodulator2.get_GuardInterval, IBDA_DigitalDemodulator2::get_GuardInterval, bdaiface/IBDA_DigitalDemodulator2::get_GuardInterval, get_GuardInterval, get_GuardInterval method [Microsoft TV Technologies], get_GuardInterval method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_guardinterval
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

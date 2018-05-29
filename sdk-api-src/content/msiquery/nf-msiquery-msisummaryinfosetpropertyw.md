@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiSummaryInfoSetPropertyW
 title: MsiSummaryInfoSetPropertyW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiSummaryInfoSetProperty function sets a single summary information property.
 old-location: setup\msisummaryinfosetproperty.htm
 old-project: Msi
 ms.assetid: 0cd04068-537e-497a-97ff-7aea4e316b87
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiSummaryInfoSetProperty, MsiSummaryInfoSetProperty function, MsiSummaryInfoSetPropertyA, MsiSummaryInfoSetPropertyW, _msi_msisummaryinfosetproperty, msiquery/MsiSummaryInfoSetProperty, msiquery/MsiSummaryInfoSetPropertyA, msiquery/MsiSummaryInfoSetPropertyW, setup.msisummaryinfosetproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

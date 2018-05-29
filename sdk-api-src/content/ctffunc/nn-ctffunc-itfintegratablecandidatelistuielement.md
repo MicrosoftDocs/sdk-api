@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfIntegratableCandidateListUIElement
 title: ITfIntegratableCandidateListUIElement
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables text services and Input Method Editors (IMEs) to adjust UI-less mode behavior.
 old-location: tsf\itfintegratablecandidatelistuielement.htm
 old-project: TSF
 ms.assetid: F9AB2037-6806-42FC-BD41-F6B6BA047908
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfIntegratableCandidateListUIElement, ITfIntegratableCandidateListUIElement interface [Text Services Framework], ITfIntegratableCandidateListUIElement interface [Text Services Framework],described, ctffunc/ITfIntegratableCandidateListUIElement, tsf.itfintegratablecandidatelistuielement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

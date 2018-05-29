@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnSetComplete
 title: IComObjectEvents::OnSetComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when the client calls SetComplete on a context.
 old-location: cos\icomobjectevents_onsetcomplete.htm
 old-project: cossdk
 ms.assetid: 3bda05b7-3306-428c-b920-d87eee0b35d7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComObjectEvents interface [COM+],OnSetComplete method, IComObjectEvents.OnSetComplete, IComObjectEvents::OnSetComplete, OnSetComplete, OnSetComplete method [COM+], OnSetComplete method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnSetComplete, comsvcs/IComObjectEvents::OnSetComplete, cos.icomobjectevents_onsetcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

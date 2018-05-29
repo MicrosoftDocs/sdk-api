@@ -1,16 +1,16 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetRecordDescriptorByIndex
 title: IPMT::GetRecordDescriptorByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetRecordDescriptorByIndex method retrieves a descriptor for a specified record in the PMT.
 old-location: mstv\ipmt_getrecorddescriptorbyindex.htm
 old-project: mstv
 ms.assetid: 1e37db4b-1b86-4b34-8f93-642bb603789e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IPMT.GetRecordDescriptorByIndex, IPMT::GetRecordDescriptorByIndex, IPMTGetRecordDescriptorByIndex, mpeg2psiparser/IPMT::GetRecordDescriptorByIndex, mstv.ipmt_getrecorddescriptorbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 

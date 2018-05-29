@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICJpegScanType
 title: WICJpegScanType
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the memory layout of pixel data in a JPEG image scan.
 old-location: wic\wicjpegscantype.htm
 old-project: wic
 ms.assetid: DC8B42F0-66D3-4425-9AA8-6B8F0D9B8568
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICJpegScanType, WICJpegScanType enumeration [Windows Imaging Component], WICJpegScanTypeInterleaved, WICJpegScanTypePlanarComponents, WICJpegScanTypeProgressive, WICJpegScanType_FORCE_DWORD, wic.wicjpegscantype, wincodec/WICJpegScanType, wincodec/WICJpegScanTypeInterleaved, wincodec/WICJpegScanTypePlanarComponents, wincodec/WICJpegScanTypeProgressive, wincodec/WICJpegScanType_FORCE_DWORD
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.SHSetDefaultProperties
 title: SHSetDefaultProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: Applies the default set of properties on a Shell item.
 old-location: shell\SHSetDefaultProperties.htm
 old-project: shell
 ms.assetid: c3ab80a3-c1f3-4223-9fe3-f7fe48c36460
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHSetDefaultProperties, SHSetDefaultProperties function [Windows Shell], _shell_SHSetDefaultProperties, shell.SHSetDefaultProperties, shobjidl/SHSetDefaultProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl.h
 req.include-header: 

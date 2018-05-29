@@ -1,16 +1,16 @@
 ---
 UID: NE:fhcfg._FH_RETENTION_TYPES
 title: "_FH_RETENTION_TYPES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies under what conditions previous versions of files and folders can be deleted from a backup target.
 old-location: winprog\fh_retention_types.htm
 old-project: DevNotes
 ms.assetid: B80EC7BF-1825-462C-ACE3-5163C14EE15D
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FH_RETENTION_AGE_BASED, FH_RETENTION_DISABLED, FH_RETENTION_TYPES, FH_RETENTION_TYPES enumeration [Windows API], FH_RETENTION_UNLIMITED, MAX_RETENTION_TYPE, _FH_RETENTION_TYPES, fhcfg/FH_RETENTION_AGE_BASED, fhcfg/FH_RETENTION_DISABLED, fhcfg/FH_RETENTION_TYPES, fhcfg/FH_RETENTION_UNLIMITED, fhcfg/MAX_RETENTION_TYPE, winprog.fh_retention_types
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: fhcfg.h
 req.include-header: 

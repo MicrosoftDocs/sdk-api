@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.SleepConditionVariableSRW
 title: SleepConditionVariableSRW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sleeps on the specified condition variable and releases the specified lock as an atomic operation.
 old-location: base\sleepconditionvariablesrw.htm
 old-project: Sync
 ms.assetid: 133f710f-5304-4b92-bec4-d9e8863bfa6d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SleepConditionVariableSRW, SleepConditionVariableSRW function, base.sleepconditionvariablesrw, synchapi/SleepConditionVariableSRW, winbase/SleepConditionVariableSRW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

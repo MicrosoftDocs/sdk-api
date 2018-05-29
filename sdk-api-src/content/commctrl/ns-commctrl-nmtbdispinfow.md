@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.NMTBDISPINFOW
 title: NMTBDISPINFOW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains and receives display information for a toolbar item. This structure is used with the TBN_GETDISPINFO notification code.
 old-location: controls\NMTBDISPINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\nmtbdispinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMTBDISPINFOW, LPNMTBDISPINFO, LPNMTBDISPINFO structure pointer [Windows Controls], NMTBDISPINFO, NMTBDISPINFO structure [Windows Controls], NMTBDISPINFOA, NMTBDISPINFOW, TBNF_DI_SETITEM, TBNF_IMAGE, TBNF_TEXT, _win32_NMTBDISPINFO, _win32_NMTBDISPINFO_cpp, commctrl/LPNMTBDISPINFO, commctrl/NMTBDISPINFO, commctrl/NMTBDISPINFOA, commctrl/NMTBDISPINFOW, controls.NMTBDISPINFO, controls._win32_NMTBDISPINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

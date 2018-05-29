@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.ICodecAPI.IsModifiable
 title: ICodecAPI::IsModifiable
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsModifiable method queries whether a codec property can be changed, given the codec's current configuration.
 old-location: dshow\icodecapi_ismodifiable.htm
 old-project: DirectShow
 ms.assetid: 5f7c7f72-02f2-4840-aaa2-9d26fe564577
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICodecAPI interface [DirectShow],IsModifiable method, ICodecAPI.IsModifiable, ICodecAPI::IsModifiable, ICodecAPIIsModifiable, IsModifiable, IsModifiable method [DirectShow], IsModifiable method [DirectShow],ICodecAPI interface, dshow.icodecapi_ismodifiable, strmif/ICodecAPI::IsModifiable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

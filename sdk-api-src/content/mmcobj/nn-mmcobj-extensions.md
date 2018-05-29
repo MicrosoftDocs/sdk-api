@@ -1,16 +1,16 @@
 ---
 UID: NN:mmcobj.Extensions
 title: Extensions
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a collection of Extension objects.
 old-location: security\extensions.htm
 old-project: SecCrypto
 ms.assetid: f2a6854d-1831-489f-adf6-31a0b26511e3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Extensions, Extensions object [Security], Extensions object [Security],described, mmcobj/Extensions, security.extensions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmcobj.h
 req.include-header: 

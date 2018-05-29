@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextPara.GetListType
 title: ITextPara::GetListType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the kind of numbering to use with paragraphs.
 old-location: controls\ITextPara_GetListType.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlisttype.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetListType, GetListType method [Windows Controls], GetListType method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListType method, ITextPara.GetListType, ITextPara::GetListType, _win32_ITextPara_GetListType, _win32_ITextPara_GetListType_cpp, controls.ITextPara_GetListType, controls._win32_ITextPara_GetListType, tom/ITextPara::GetListType, tomListBullet, tomListMinus, tomListNone, tomListNumberAsArabic, tomListNumberAsLCLetter, tomListNumberAsLCRoman, tomListNumberAsSequence, tomListNumberAsUCLetter, tomListNumberAsUCRoman, tomListNumberedArabic1, tomListNumberedArabic2, tomListNumberedArabicWide, tomListNumberedBlackCircleWingding, tomListNumberedChS, tomListNumberedChT, tomListNumberedCircle, tomListNumberedHebrew, tomListNumberedHindiAlpha, tomListNumberedHindiAlpha1, tomListNumberedHindiNum, tomListNumberedJpnChs, tomListNumberedJpnKor, tomListNumberedThaiAlpha, tomListNumberedThaiNum, tomListNumberedWhiteCircleWingding, tomListParentheses, tomListPeriod, tomListPlain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

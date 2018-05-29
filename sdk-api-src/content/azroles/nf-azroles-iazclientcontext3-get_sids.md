@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzClientContext3.get_Sids
 title: IAzClientContext3::get_Sids
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an array of the security identifiers (SIDs) associated with this client context.
 old-location: security\iazclientcontext3_sids.htm
 old-project: SecAuthZ
 ms.assetid: 79caf62e-3f20-4a58-953f-c9d302208bf9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzClientContext3 interface [Security],Sids property, IAzClientContext3.Sids, IAzClientContext3.get_Sids, IAzClientContext3::Sids, IAzClientContext3::get_Sids, Sids property [Security], Sids property [Security],IAzClientContext3 interface, azroles/IAzClientContext3::Sids, azroles/IAzClientContext3::get_Sids, get_Sids, security.iazclientcontext3_sids
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

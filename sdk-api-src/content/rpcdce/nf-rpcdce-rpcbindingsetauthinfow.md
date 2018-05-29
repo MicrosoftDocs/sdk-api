@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcBindingSetAuthInfoW
 title: RpcBindingSetAuthInfoW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcBindingSetAuthInfo function sets a binding handle's authentication and authorization information.
 old-location: rpc\rpcbindingsetauthinfo.htm
 old-project: Rpc
 ms.assetid: 2db946b6-6a0d-402c-89ef-68c7489aa7ee
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcBindingSetAuthInfo, RpcBindingSetAuthInfo function [RPC], RpcBindingSetAuthInfoA, RpcBindingSetAuthInfoW, _rpc_rpcbindingsetauthinfo, rpc.rpcbindingsetauthinfo, rpcdce/RpcBindingSetAuthInfo, rpcdce/RpcBindingSetAuthInfoA, rpcdce/RpcBindingSetAuthInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

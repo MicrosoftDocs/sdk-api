@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_DEFAULT_VALUE
 title: "_WS_DEFAULT_VALUE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a default value for a field. This is used in a WS_FIELD_DESCRIPTION.
 old-location: wsw\ws_default_value.htm
 old-project: wsw
 ms.assetid: 496b9ea6-2979-4245-ad07-9c62c396ebde
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_DEFAULT_VALUE, WS_DEFAULT_VALUE structure [Web Services for Windows], _WS_DEFAULT_VALUE, webservices/WS_DEFAULT_VALUE, wsw.ws_default_value
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

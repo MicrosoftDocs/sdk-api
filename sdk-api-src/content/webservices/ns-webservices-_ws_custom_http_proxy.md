@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_CUSTOM_HTTP_PROXY
 title: "_WS_CUSTOM_HTTP_PROXY"
-author: windows-driver-content
+author: windows-sdk-content
 description: A structure that is used to specify the custom proxy for the channel, using the WS_CHANNEL_PROPERTY_CUSTOM_HTTP_PROXY.
 old-location: wsw\ws_custom_http_proxy.htm
 old-project: wsw
 ms.assetid: cb666185-6a33-4e4c-a0b2-290f2f0bce4b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_CUSTOM_HTTP_PROXY, WS_CUSTOM_HTTP_PROXY structure [Web Services for Windows], _WS_CUSTOM_HTTP_PROXY, webservices/WS_CUSTOM_HTTP_PROXY, wsw.ws_custom_http_proxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

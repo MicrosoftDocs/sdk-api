@@ -1,16 +1,16 @@
 ---
 UID: NC:ws2spi.LPNSPV2SETSERVICEEX
 title: LPNSPV2SETSERVICEEX
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers or deregisters a name or service instance within a namespace of a namespace service provider version-2 (NSPv2) provider.
 old-location: winsock\nspv2setserviceex.htm
 old-project: WinSock
 ms.assetid: 596fe0bd-ec11-44f3-bffe-333758171ea6
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: LPNSPV2SETSERVICEEX, NSPv2SetServiceEx, NSPv2SetServiceEx function [Winsock], RNRSERVICE_DELETE, RNRSERVICE_DEREGISTER, RNRSERVICE_REGISTER, SERVICE_MULTIPLE, winsock.nspv2setserviceex, ws2spi/NSPv2SetServiceEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

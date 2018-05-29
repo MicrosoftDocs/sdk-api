@@ -1,16 +1,16 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_SIGNATURE
 title: "_CRYPT_XML_SIGNATURE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used to populate the Signature element.
 old-location: security\crypt_xml_signature.htm
 old-project: SecCrypto
 ms.assetid: d9930946-aec0-42a4-949f-af8b2e9c6e6c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_XML_SIGNATURE, CRYPT_XML_SIGNATURE, CRYPT_XML_SIGNATURE structure [Security], PCRYPT_XML_SIGNATURE, PCRYPT_XML_SIGNATURE structure pointer [Security], _CRYPT_XML_SIGNATURE, cryptxml/CRYPT_XML_SIGNATURE, cryptxml/PCRYPT_XML_SIGNATURE, security.crypt_xml_signature"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 

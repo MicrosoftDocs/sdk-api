@@ -1,16 +1,16 @@
 ---
 UID: NF:wofapi.WofShouldCompressBinaries
 title: WofShouldCompressBinaries function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether compression should be used on a particular volume, and if so, which compression algorithm should be used.
 old-location: fs\wofshouldcompressbinaries.htm
 old-project: FileIO
 ms.assetid: C7A1D76A-2535-46BB-A55B-D1E15A079FF4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WofShouldCompressBinaries, WofShouldCompressBinaries function [Files], fs.wofshouldcompressbinaries, wofapi/WofShouldCompressBinaries
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wofapi.h
 req.include-header: 

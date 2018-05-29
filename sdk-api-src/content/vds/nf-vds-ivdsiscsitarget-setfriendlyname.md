@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.SetFriendlyName
 title: IVdsIscsiTarget::SetFriendlyName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the friendly name of the target.
 old-location: base\ivdsiscsitarget_setfriendlyname.htm
 old-project: VDS
 ms.assetid: 34afd8d7-473b-49c5-8486-2749144aea5c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],SetFriendlyName method, IVdsIscsiTarget.SetFriendlyName, IVdsIscsiTarget::SetFriendlyName, SetFriendlyName, SetFriendlyName method [VDS], SetFriendlyName method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_setfriendlyname, vds/IVdsIscsiTarget::SetFriendlyName, vdshwprv/IVdsIscsiTarget::SetFriendlyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

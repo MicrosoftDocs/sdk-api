@@ -1,16 +1,16 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_DNS_SUFFIX
 title: "_IP_ADAPTER_DNS_SUFFIX"
-author: windows-driver-content
+author: windows-sdk-content
 description: The IP_ADAPTER_DNS_SUFFIX structure stores a DNS suffix in a linked list of DNS suffixes for a particular adapter.
 old-location: iphlp\ip_adapter_dns_suffix.htm
 old-project: IpHlp
 ms.assetid: 3730a406-2995-48f7-b70e-1cf8258ee4a6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PIP_ADAPTER_DNS_SUFFIX, IP_ADAPTER_DNS_SUFFIX, IP_ADAPTER_DNS_SUFFIX structure [IP Helper], PIP_ADAPTER_DNS_SUFFIX, PIP_ADAPTER_DNS_SUFFIX structure pointer [IP Helper], _IP_ADAPTER_DNS_SUFFIX, iphlp.ip_adapter_dns_suffix, iptypes/IP_ADAPTER_DNS_SUFFIX, iptypes/PIP_ADAPTER_DNS_SUFFIX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h

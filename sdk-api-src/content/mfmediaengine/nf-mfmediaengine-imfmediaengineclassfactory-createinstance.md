@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactory.CreateInstance
 title: IMFMediaEngineClassFactory::CreateInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new instance of the Media Engine.
 old-location: mf\imfmediaengineclassfactory_createinstance.htm
 old-project: medfound
 ms.assetid: EDEAD2C4-5695-4E63-9E9E-B09D75B60B7F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFMediaEngineClassFactory interface, IMFMediaEngineClassFactory interface [Media Foundation],CreateInstance method, IMFMediaEngineClassFactory.CreateInstance, IMFMediaEngineClassFactory::CreateInstance, mf.imfmediaengineclassfactory_createinstance, mfmediaengine/IMFMediaEngineClassFactory::CreateInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

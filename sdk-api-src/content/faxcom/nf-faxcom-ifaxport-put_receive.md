@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxPort.put_Receive
 title: IFaxPort::put_Receive
-author: windows-driver-content
+author: windows-sdk-content
 description: The Receive property is a Boolean value that indicates whether a specified fax port is enabled to receive faxes.
 old-location: fax\_mfax_ifaxport_get_receive_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8b1h.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxPort object [Fax Service],Receive property, FaxPort.Receive, IFaxPort.put_Receive, IFaxPort::put_Receive, Receive property [Fax Service], Receive property [Fax Service],FaxPort object, _mfax_ifaxport_get_receive, fax._mfax_ifaxport_get_receive, fax._mfax_ifaxport_get_receive_vb, put_Receive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

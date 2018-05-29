@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPEvents.KeyDown
 title: IWMPEvents::KeyDown
-author: windows-driver-content
+author: windows-sdk-content
 description: The KeyDown event occurs when a key is pressed.
 old-location: wmp\iwmpevents_iwmpevents__keydown.htm
 old-project: WMP
 ms.assetid: 3759d40c-414a-4f91-93eb-0ad4a4b091b9
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],KeyDown method, IWMPEvents.KeyDown, IWMPEvents::KeyDown, IWMPEventsKeyDown, KeyDown, KeyDown method [Windows Media Player], KeyDown method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__keydown, wmp/IWMPEvents::KeyDown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

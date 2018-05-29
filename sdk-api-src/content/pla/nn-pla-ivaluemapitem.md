@@ -1,16 +1,16 @@
 ---
 UID: NN:pla.IValueMapItem
 title: IValueMapItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a name/value pair.To get this interface, call the IValueMap::Item property. To create this interface, call the IValueMap::CreateValueMapItem method.
 old-location: pla\ivaluemapitem.htm
 old-project: PLA
 ms.assetid: 5fab2a62-d974-49f7-ac81-c704d9d8624c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IValueMapItem, IValueMapItem interface [PLA], IValueMapItem interface [PLA],described, base.ivaluemapitem, pla.ivaluemapitem, pla/IValueMapItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

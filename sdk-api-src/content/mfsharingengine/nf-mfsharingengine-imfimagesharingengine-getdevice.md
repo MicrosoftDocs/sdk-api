@@ -1,16 +1,16 @@
 ---
 UID: NF:mfsharingengine.IMFImageSharingEngine.GetDevice
 title: IMFImageSharingEngine::GetDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information about the image sharing device.
 old-location: mf\imfimagesharingengine_getdevice.htm
 old-project: medfound
 ms.assetid: 27CAE784-2107-4380-97E4-AE0A7D69C64F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDevice, GetDevice method [Media Foundation], GetDevice method [Media Foundation],IMFImageSharingEngine interface, IMFImageSharingEngine interface [Media Foundation],GetDevice method, IMFImageSharingEngine.GetDevice, IMFImageSharingEngine::GetDevice, mf.imfimagesharingengine_getdevice, mfsharingengine/IMFImageSharingEngine::GetDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfsharingengine.h
 req.include-header: 

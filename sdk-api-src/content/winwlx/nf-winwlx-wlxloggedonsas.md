@@ -1,16 +1,16 @@
 ---
 UID: NF:winwlx.WlxLoggedOnSAS
 title: WlxLoggedOnSAS function
-author: windows-driver-content
+author: windows-sdk-content
 description: Winlogon calls this function when it receives a secure attention sequence (SAS) event while the user is logged on and the workstation is not locked.
 old-location: security\wlxloggedonsas.htm
 old-project: SecAuthN
 ms.assetid: d60d1464-1948-444c-801a-dde17905091b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxLoggedOnSAS, WlxLoggedOnSAS function [Security], _gina_wlxloggedonsas, security.wlxloggedonsas, winwlx/WlxLoggedOnSAS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:directxpackedvector.XMLoadByteN4
 title: XMLoadByteN4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads an XMBYTEN4 into an XMVECTOR.
 old-location: dxmath\xmloadbyten4.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadByteN4(const XMBYTEN4)
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: DirectX::PackedVector.XMLoadByteN4, XMLoadByteN4, XMLoadByteN4 method [DirectX Math Support APIs], dxmath.xmloadbyten4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h

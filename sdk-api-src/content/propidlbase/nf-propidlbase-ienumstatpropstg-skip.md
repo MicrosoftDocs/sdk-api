@@ -1,16 +1,16 @@
 ---
 UID: NF:propidlbase.IEnumSTATPROPSTG.Skip
 title: IEnumSTATPROPSTG::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips the specified number of STATPROPSTG structures in the enumeration sequence.
 old-location: stg\ienumstatpropstg_skip.htm
 old-project: Stg
 ms.assetid: e70e4668-d52c-4135-948b-c8f5d141e6a2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumSTATPROPSTG interface [Structured Storage],Skip method, IEnumSTATPROPSTG.Skip, IEnumSTATPROPSTG::Skip, Skip, Skip method [Structured Storage], Skip method [Structured Storage],IEnumSTATPROPSTG interface, propidlbase/IEnumSTATPROPSTG::Skip, stg.ienumstatpropstg_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propidlbase.h
 req.include-header: Propidl.h

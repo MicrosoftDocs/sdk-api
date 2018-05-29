@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemStatusCodeText.GetErrorCodeText
 title: IWbemStatusCodeText::GetErrorCodeText
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the text string description associated with the error code.
 old-location: wmi\iwbemstatuscodetext_geterrorcodetext.htm
 old-project: WmiSdk
 ms.assetid: f2adc740-f1d9-434e-a7ac-b4830350e862
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetErrorCodeText, GetErrorCodeText method [Windows Management Instrumentation], GetErrorCodeText method [Windows Management Instrumentation],IWbemStatusCodeText interface, IWbemStatusCodeText interface [Windows Management Instrumentation],GetErrorCodeText method, IWbemStatusCodeText.GetErrorCodeText, IWbemStatusCodeText::GetErrorCodeText, _hmm_iwbemstatuscodetext_geterrorcodetext, wbemcli/IWbemStatusCodeText::GetErrorCodeText, wmi.iwbemstatuscodetext_geterrorcodetext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ICoreFragmentInspector.NextCoreFragments
 title: ICoreFragmentInspector::NextCoreFragments
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the next ICoreFragment objects in the knowledge, if they are available.
 old-location: winsync\icorefragmentinspector_nextcorefragments.htm
 old-project: winsync
 ms.assetid: 801a2643-d954-44b8-83ce-021be893d06a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ICoreFragmentInspector interface [Windows Sync],NextCoreFragments method, ICoreFragmentInspector.NextCoreFragments, ICoreFragmentInspector::NextCoreFragments, NextCoreFragments, NextCoreFragments method [Windows Sync], NextCoreFragments method [Windows Sync],ICoreFragmentInspector interface, winsync.icorefragmentinspector_nextcorefragments, winsync/ICoreFragmentInspector::NextCoreFragments
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

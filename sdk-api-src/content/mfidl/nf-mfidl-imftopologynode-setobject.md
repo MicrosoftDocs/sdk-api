@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.SetObject
 title: IMFTopologyNode::SetObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the object associated with this node.
 old-location: mf\imftopologynode_setobject.htm
 old-project: medfound
 ms.assetid: bbef706d-a4a0-4ff3-bfdb-8ba39d70617c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFTopologyNode interface [Media Foundation],SetObject method, IMFTopologyNode.SetObject, IMFTopologyNode::SetObject, SetObject, SetObject method [Media Foundation], SetObject method [Media Foundation],IMFTopologyNode interface, bbef706d-a4a0-4ff3-bfdb-8ba39d70617c, mf.imftopologynode_setobject, mfidl/IMFTopologyNode::SetObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

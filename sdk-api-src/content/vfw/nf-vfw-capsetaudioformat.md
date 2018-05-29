@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capSetAudioFormat
 title: capSetAudioFormat macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capSetAudioFormat macro sets the audio format to use when performing streaming or step capture. You can use this macro or explicitly call the WM_CAP_SET_AUDIOFORMAT message.
 old-location: multimedia\capsetaudioformat.htm
 old-project: Multimedia
 ms.assetid: 9f14b76c-3b12-4dfb-937d-e8a173e077bd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capSetAudioFormat, capSetAudioFormat, capSetAudioFormat macro [Windows Multimedia], multimedia.capsetaudioformat, vfw/capSetAudioFormat"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509Enrollment2.get_RequestIdString
 title: IX509Enrollment2::get_RequestIdString
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a string that contains a unique identifier for the certificate request sent to the certification enrollment server (CES).
 old-location: security\ix509enrollment2_requestidstring.htm
 old-project: SecCertEnroll
 ms.assetid: a1269b0d-6b55-47ba-bca8-610c1032ecc4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509Enrollment2 interface [Security],RequestIdString property, IX509Enrollment2.RequestIdString, IX509Enrollment2.get_RequestIdString, IX509Enrollment2::RequestIdString, IX509Enrollment2::get_RequestIdString, RequestIdString property [Security], RequestIdString property [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::RequestIdString, certenroll/IX509Enrollment2::get_RequestIdString, get_RequestIdString, security.ix509enrollment2_requestidstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

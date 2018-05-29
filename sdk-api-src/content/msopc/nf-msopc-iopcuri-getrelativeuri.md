@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcUri.GetRelativeUri
 title: IOpcUri::GetRelativeUri
-author: windows-driver-content
+author: windows-sdk-content
 description: Forms a relative URI for a specified part, relative to the URI represented by the current OPC URI object.
 old-location: opc\iopcuri_getrelativeuri.htm
 old-project: OPC
 ms.assetid: ce98b0a6-f4b3-4f49-897a-f144af7dfc49
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetRelativeUri, GetRelativeUri method [Open Packaging Conventions], GetRelativeUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],GetRelativeUri method, IOpcUri.GetRelativeUri, IOpcUri::GetRelativeUri, msopc/IOpcUri::GetRelativeUri, opc.iopcuri_getrelativeuri
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

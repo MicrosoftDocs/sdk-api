@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemeBitmap
 title: GetThemeBitmap function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the bitmap associated with a particular theme, part, state, and property.
 old-location: controls\GetThemeBitmap.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebitmap.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GBF_COPY, GBF_DIRECT, GBF_VALIDBITS, GetThemeBitmap, GetThemeBitmap function [Windows Controls], TMT_DIBDATA, TMT_GLYPHDIBDATA, TMT_HBITMAP, controls.GetThemeBitmap, controls.inet_GetThemeBitmap, inet_GetThemeBitmap, inet_GetThemeBitmap_cpp, uxtheme/GetThemeBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

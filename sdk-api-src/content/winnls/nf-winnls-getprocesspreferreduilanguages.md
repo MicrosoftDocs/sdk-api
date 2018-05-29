@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetProcessPreferredUILanguages
 title: GetProcessPreferredUILanguages function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the process preferred UI languages. For more information, see User Interface Language Management.
 old-location: intl\getprocesspreferreduilanguages.htm
 old-project: Intl
 ms.assetid: 115fd1f4-39ae-4c69-aa42-606617a989aa
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetProcessPreferredUILanguages, GetProcessPreferredUILanguages function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, intl.getprocesspreferreduilanguages, winnls/GetProcessPreferredUILanguages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:pla.IScheduleCollection
 title: IScheduleCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages a collection of Schedule objects.To get this interface, access the IDataCollectorSet::Schedules property.
 old-location: pla\ischedulecollection.htm
 old-project: PLA
 ms.assetid: 40b4a77c-5ab4-4443-801c-2e425b6ca1bc
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IScheduleCollection, IScheduleCollection interface [PLA], IScheduleCollection interface [PLA],described, base.ischedulecollection, pla.ischedulecollection, pla/IScheduleCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

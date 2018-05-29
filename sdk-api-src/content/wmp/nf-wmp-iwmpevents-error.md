@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPEvents.Error
 title: IWMPEvents::Error
-author: windows-driver-content
+author: windows-sdk-content
 description: The Error event occurs when the Windows Media Player control has an error condition..
 old-location: wmp\iwmpevents_iwmpevents__error.htm
 old-project: WMP
 ms.assetid: 65c17590-3988-40d8-b6d8-b32b2e883059
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: Error, Error method [Windows Media Player], Error method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],Error method, IWMPEvents.Error, IWMPEvents::Error, IWMPEventsError, wmp.iwmpevents_iwmpevents__error, wmp/IWMPEvents::Error
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

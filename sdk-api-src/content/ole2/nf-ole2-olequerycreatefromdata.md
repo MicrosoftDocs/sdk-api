@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleQueryCreateFromData
 title: OleQueryCreateFromData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks whether a data object has one of the formats that would allow it to become an embedded object through a call to either the OleCreateFromData or OleCreateStaticFromData function.
 old-location: com\olequerycreatefromdata.htm
 old-project: com
 ms.assetid: 58fffb8c-9726-4801-84ce-6fb670b865c8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleQueryCreateFromData, OleQueryCreateFromData function [COM], _ole_OleQueryCreateFromData, com.olequerycreatefromdata, ole2/OleQueryCreateFromData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

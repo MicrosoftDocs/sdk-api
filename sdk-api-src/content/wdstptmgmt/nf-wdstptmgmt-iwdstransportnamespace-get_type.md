@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_Type
 title: IWdsTransportNamespace::get_Type
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an application to retrieve the type of the namespace for this object.
 old-location: wds\iwdstransportnamespace_type.htm
 old-project: Wds
 ms.assetid: 7c7f8d4b-917c-47e9-b82f-f3e601348201
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Type property, IWdsTransportNamespace.Type, IWdsTransportNamespace.get_Type, IWdsTransportNamespace::Type, IWdsTransportNamespace::get_Type, Type property [Windows Deployment Services], Type property [Windows Deployment Services],IWdsTransportNamespace interface, get_Type, wds.iwdstransportnamespace_type, wdstptmgmt/IWdsTransportNamespace::Type, wdstptmgmt/IWdsTransportNamespace::get_Type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

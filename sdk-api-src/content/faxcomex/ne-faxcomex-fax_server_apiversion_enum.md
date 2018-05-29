@@ -1,16 +1,16 @@
 ---
 UID: NE:faxcomex.FAX_SERVER_APIVERSION_ENUM
 title: FAX_SERVER_APIVERSION_ENUM
-author: windows-driver-content
+author: windows-sdk-content
 description: The FAX_SERVER_APIVERSION_ENUM enumeration defines the version of the fax API. No value below is supported on any version of the fax service earlier than the one it designates.
 old-location: fax\_mfax_fax_server_apiversion_enum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0pbh.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FAX_SERVER_APIVERSION_ENUM, FAX_SERVER_APIVERSION_ENUM enumeration [Fax Service], _mfax_fax_server_apiversion_enum, fax._mfax_fax_server_apiversion_enum, faxcomex/FAX_SERVER_APIVERSION_ENUM, faxcomex/fsAPI_VERSION_0, faxcomex/fsAPI_VERSION_1, faxcomex/fsAPI_VERSION_2, faxcomex/fsAPI_VERSION_3, fsAPI_VERSION_0, fsAPI_VERSION_1, fsAPI_VERSION_2, fsAPI_VERSION_3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:comsvcs._ApplicationProcessStatistics
 title: "_ApplicationProcessStatistics"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents statistical information about a process hosting COM+ applications.
 old-location: cos\applicationprocessstatistics.htm
 old-project: cossdk
 ms.assetid: 7ce16cef-baa4-491c-89e7-f6283e1a646f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ApplicationProcessStatistics, ApplicationProcessStatistics structure [COM+], _ApplicationProcessStatistics, comsvcs/ApplicationProcessStatistics, cos.applicationprocessstatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: comsvcs.h
 req.include-header: 

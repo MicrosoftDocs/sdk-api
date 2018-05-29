@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.tagDVD_MultichannelAudioAttributes
 title: tagDVD_MultichannelAudioAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: The DVD_MultichannelAudioAttributes structure describes the multichannel attributes of one audio stream within a specified title.
 old-location: dshow\dvd_multichannelaudioattributes.htm
 old-project: DirectShow
 ms.assetid: 8aba7e5a-62ec-4ef5-821f-cfef8cf7d93d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_MultichannelAudioAttributes, DVD_MultichannelAudioAttributes structure [DirectShow], DVD_MultichannelAudioAttributesStructure, dshow.dvd_multichannelaudioattributes, strmif/DVD_MultichannelAudioAttributes, tagDVD_MultichannelAudioAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

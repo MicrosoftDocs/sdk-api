@@ -1,16 +1,16 @@
 ---
 UID: NF:winerror.HRESULT_FROM_NT
 title: HRESULT_FROM_NT macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Maps an NT status value to an HRESULT value.
 old-location: com\hresult_from_nt_macro.htm
 old-project: com
 ms.assetid: e8bf07b8-6bc4-4a6a-b982-03b6436ca6b0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: HRESULT_FROM_NT, HRESULT_FROM_NT macro [COM], _com_HRESULT_FROM_NT, com.hresult_from_nt, com.hresult_from_nt_macro, winerror/HRESULT_FROM_NT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winerror.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_PACKED_MIP_INFO
 title: D3D12_PACKED_MIP_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the tile structure of a tiled resource with mipmaps.
 old-location: direct3d12\d3d12_packed_mip_info.htm
 old-project: direct3d12
 ms.assetid: B9231C70-A6FF-4660-90B8-04207D2FF762
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_PACKED_MIP_INFO, D3D12_PACKED_MIP_INFO structure, d3d12/D3D12_PACKED_MIP_INFO, direct3d12.d3d12_packed_mip_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

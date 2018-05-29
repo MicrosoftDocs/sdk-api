@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.OpenEventA
 title: OpenEventA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an existing named event object.
 old-location: base\openevent.htm
 old-project: Sync
 ms.assetid: 46741024-ace3-44d6-b8a6-5621ad121a1a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: OpenEvent, OpenEvent function, OpenEventA, OpenEventW, _win32_openevent, base.openevent, synchapi/OpenEvent, synchapi/OpenEventA, synchapi/OpenEventW, winbase/OpenEvent, winbase/OpenEventA, winbase/OpenEventW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

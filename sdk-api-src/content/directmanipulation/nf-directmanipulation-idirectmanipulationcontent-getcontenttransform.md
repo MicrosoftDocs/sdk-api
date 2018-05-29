@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.GetContentTransform
 title: IDirectManipulationContent::GetContentTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the transform applied to the content.
 old-location: directmanipulation\idirectmanipulationcontent_getcontenttransform.htm
 old-project: directmanipulation
 ms.assetid: 9db4f521-227c-4e2f-8c7d-44ae4a25651e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetContentTransform, GetContentTransform method [Direct Manipulation], GetContentTransform method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetContentTransform method, IDirectManipulationContent.GetContentTransform, IDirectManipulationContent::GetContentTransform, directmanipulation.idirectmanipulationcontent_getcontenttransform, directmanipulation/IDirectManipulationContent::GetContentTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

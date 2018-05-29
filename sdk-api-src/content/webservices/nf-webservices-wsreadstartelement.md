@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsReadStartElement
 title: WsReadStartElement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Calling this function advances the reader past a start element skipping any whitespace.
 old-location: wsw\wsreadstartelement.htm
 old-project: wsw
 ms.assetid: 88661ae5-2112-4a41-8fcd-03c74f6ec170
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsReadStartElement, WsReadStartElement function [Web Services for Windows], webservices/WsReadStartElement, wsw.wsreadstartelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

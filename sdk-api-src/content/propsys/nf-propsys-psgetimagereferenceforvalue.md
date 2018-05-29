@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSGetImageReferenceForValue
 title: PSGetImageReferenceForValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an instance of a property description interface for a specified property.
 old-location: properties\PSGetImageReferenceForValue.htm
 old-project: properties
 ms.assetid: E37AF2ED-E3F9-4e50-9317-9DAF03AC543F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSGetImageReferenceForValue, PSGetImageReferenceForValue function [Windows Properties], _shell_PSGetImageReferenceForValue, properties.PSGetImageReferenceForValue, propsys/PSGetImageReferenceForValue, shell.PSGetImageReferenceForValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: Propsys.idl

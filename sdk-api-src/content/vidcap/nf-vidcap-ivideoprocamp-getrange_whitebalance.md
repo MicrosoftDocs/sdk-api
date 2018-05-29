@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_WhiteBalance
 title: IVideoProcAmp::getRange_WhiteBalance
-author: windows-driver-content
+author: windows-sdk-content
 description: The getRange_WhiteBalance method returns the range of white balance settings supported by the camera, expressed as color temperature.
 old-location: dshow\ivideoprocamp_getrange_whitebalance.htm
 old-project: DirectShow
 ms.assetid: 3c7a21ec-2aa5-4e00-8d7b-a13a366a3f17
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_WhiteBalance method, IVideoProcAmp.getRange_WhiteBalance, IVideoProcAmp::getRange_WhiteBalance, IVideoProcAmpgetRange_WhiteBalance, dshow.ivideoprocamp_getrange_whitebalance, getRange_WhiteBalance, getRange_WhiteBalance method [DirectShow], getRange_WhiteBalance method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_WhiteBalance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

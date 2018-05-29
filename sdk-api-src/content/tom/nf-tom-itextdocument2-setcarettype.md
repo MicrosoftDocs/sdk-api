@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextDocument2.SetCaretType
 title: ITextDocument2::SetCaretType
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the caret type.
 old-location: controls\itextdocument2_setcarettype.htm
 old-project: Controls
 ms.assetid: 40d34482-cf07-4401-ad02-f5d1b0184976
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetCaretType method, ITextDocument2.SetCaretType, ITextDocument2::SetCaretType, SetCaretType, SetCaretType method [Windows Controls], SetCaretType method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setcarettype, tom/ITextDocument2::SetCaretType, tomKoreanBlockCaret, tomNormalCaret, tomNullCaret
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

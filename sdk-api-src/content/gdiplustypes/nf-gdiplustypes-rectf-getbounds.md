@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.RectF.GetBounds
 title: RectF::GetBounds
-author: windows-driver-content
+author: windows-sdk-content
 description: The RectF::GetBounds method makes a copy of this rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_GetBounds_rect_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\getbounds_74rect.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],RectF class, RectF class [GDI+],GetBounds method, RectF.GetBounds, RectF::GetBounds, _gdiplus_CLASS_RectF_GetBounds_rect_, gdiplus._gdiplus_CLASS_RectF_GetBounds_rect_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

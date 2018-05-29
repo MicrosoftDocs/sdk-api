@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.linecountryentry_tag
 title: linecountryentry_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the data for a single country/region entry.
 old-location: tapi2\linecountryentry_str.htm
 old-project: Tapi
 ms.assetid: 627ff743-f90b-4bcb-b646-cdbc9f768ad2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPLINECOUNTRYENTRY, LINECOUNTRYENTRY, LINECOUNTRYENTRY structure [TAPI 2.2], LPLINECOUNTRYENTRY, LPLINECOUNTRYENTRY structure pointer [TAPI 2.2], _tapi2_linecountryentry_str, linecountryentry_tag, tapi/LINECOUNTRYENTRY, tapi/LPLINECOUNTRYENTRY, tapi2.linecountryentry_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

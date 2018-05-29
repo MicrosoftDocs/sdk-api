@@ -1,16 +1,16 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocSecuritySettings.Next
 title: IEnumDot11AdHocSecuritySettings::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved.
 old-location: nwifi\ienumdot11adhocsecuritysettings_next.htm
 old-project: NativeWiFi
 ms.assetid: 77101f70-de5d-4db9-a59d-5b07f386c0b7
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: IEnumDot11AdHocSecuritySettings interface [NativeWIFI],Next method, IEnumDot11AdHocSecuritySettings.Next, IEnumDot11AdHocSecuritySettings::Next, Next, Next method [NativeWIFI], Next method [NativeWIFI],IEnumDot11AdHocSecuritySettings interface, adhoc/IEnumDot11AdHocSecuritySettings::Next, nwifi.ienumdot11adhocsecuritysettings_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

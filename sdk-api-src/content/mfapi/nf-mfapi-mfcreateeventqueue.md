@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateEventQueue
 title: MFCreateEventQueue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an event queue.
 old-location: mf\mfcreateeventqueue.htm
 old-project: medfound
 ms.assetid: 214cea99-37cf-4571-aa00-7b3e220a6b84
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 214cea99-37cf-4571-aa00-7b3e220a6b84, MFCreateEventQueue, MFCreateEventQueue function [Media Foundation], mf.mfcreateeventqueue, mfapi/MFCreateEventQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

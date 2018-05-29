@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspen.Pen.GetTransform
 title: Pen::GetTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: The Pen::GetTransform method gets the world transformation matrix currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetTransform_matrix_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\gettransform_97matrix.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTransform, GetTransform method [GDI+], GetTransform method [GDI+],Pen class, Pen class [GDI+],GetTransform method, Pen.GetTransform, Pen::GetTransform, _gdiplus_CLASS_Pen_GetTransform_matrix_, gdiplus._gdiplus_CLASS_Pen_GetTransform_matrix_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

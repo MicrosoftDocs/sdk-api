@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPhoneEvent.get_HookSwitchDevice
 title: ITPhoneEvent::get_HookSwitchDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_HookSwitchDevice method returns a PHONE_HOOK_SWITCH_DEVICE value specifying the hookswitch device that changed state. This information is available only when the ITPhoneEvent::get_Event method returns PE_HOOKSWITCH.
 old-location: tapi3\itphoneevent_get_hookswitchdevice.htm
 old-project: Tapi
 ms.assetid: acc25e8e-966f-4b54-ad59-226d2b7728b8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_HookSwitchDevice method, ITPhoneEvent.get_HookSwitchDevice, ITPhoneEvent::get_HookSwitchDevice, _tapi3_itphoneevent_get_hookswitchdevice, get_HookSwitchDevice, get_HookSwitchDevice method [TAPI 2.2], get_HookSwitchDevice method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_hookswitchdevice, tapi3if/ITPhoneEvent::get_HookSwitchDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

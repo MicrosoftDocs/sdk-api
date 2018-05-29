@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetReadFileExW
 title: InternetReadFileExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads data from a handle opened by the InternetOpenUrl or HttpOpenRequest function.
 old-location: wininet\internetreadfileex.htm
 old-project: WinInet
 ms.assetid: 04e7bb7e-d925-41fd-8333-3cb443a04c5b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetReadFileEx, InternetReadFileEx function [WinINet], InternetReadFileExA, InternetReadFileExW, _inet_internetreadfileex_function, wininet.internetreadfileex, wininet/InternetReadFileEx, wininet/InternetReadFileExA, wininet/InternetReadFileExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

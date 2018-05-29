@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventPublisher.put_OwnerSID
 title: IEventPublisher::put_OwnerSID
-author: windows-driver-content
+author: windows-sdk-content
 description: The security identifier of the creator of the event publisher.
 old-location: com\ieventpublisher_ownersid.htm
 old-project: com
 ms.assetid: 7555992f-ba50-4d3e-afa8-6304fec8b5c5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEventPublisher interface [COM],OwnerSID property, IEventPublisher.OwnerSID, IEventPublisher.put_OwnerSID, IEventPublisher::OwnerSID, IEventPublisher::get_OwnerSID, IEventPublisher::put_OwnerSID, OwnerSID property [COM], OwnerSID property [COM],IEventPublisher interface, _com_ieventpublisher_ownersid, com.ieventpublisher_ownersid, eventsys/IEventPublisher::OwnerSID, eventsys/IEventPublisher::get_OwnerSID, eventsys/IEventPublisher::put_OwnerSID, put_OwnerSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

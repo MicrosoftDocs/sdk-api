@@ -1,16 +1,16 @@
 ---
 UID: NF:schannel.SslGetServerIdentity
 title: SslGetServerIdentity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the identity of the server.
 old-location: security\sslgetserveridentity.htm
 old-project: SecAuthN
 ms.assetid: 5FA7A0F5-187F-4CE6-AD62-44B71A40568D
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SslGetServerIdentity, SslGetServerIdentity function [Security], schannel/SslGetServerIdentity, security.sslgetserveridentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: schannel.h
 req.include-header: 

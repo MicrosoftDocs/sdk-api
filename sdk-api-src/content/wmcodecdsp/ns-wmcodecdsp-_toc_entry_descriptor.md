@@ -1,16 +1,16 @@
 ---
 UID: NS:wmcodecdsp._TOC_ENTRY_DESCRIPTOR
 title: "_TOC_ENTRY_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: The TOC_ENTRY_DESCRIPTOR structure holds descriptive information for an entry in a table of contents.
 old-location: mf\toc_entry_descriptor.htm
 old-project: medfound
 ms.assetid: 05e9bf59-5dd8-410f-8e42-25bfb555dd40
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TOC_ENTRY_DESCRIPTOR, TOC_ENTRY_DESCRIPTOR structure [Media Foundation], _TOC_ENTRY_DESCRIPTOR, codecapi.toc_entry_descriptor, mf.toc_entry_descriptor, wmcodecdsp/TOC_ENTRY_DESCRIPTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmcodecdsp.h
 req.include-header: 

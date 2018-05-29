@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.GetCapabilities
 title: ISyncMgrSyncItem::GetCapabilities
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a set of flags describing the item's defined capabilities.
 old-location: shell\ISyncMgrSyncItem_GetCapabilities.htm
 old-project: shell
 ms.assetid: 6cb98b83-cf17-451c-ba29-700408f474c7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCapabilities, GetCapabilities method [Windows Shell], GetCapabilities method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetCapabilities method, ISyncMgrSyncItem.GetCapabilities, ISyncMgrSyncItem::GetCapabilities, _shell_ISyncMgrSyncItem_GetCapabilities, shell.ISyncMgrSyncItem_GetCapabilities, syncmgr/ISyncMgrSyncItem::GetCapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

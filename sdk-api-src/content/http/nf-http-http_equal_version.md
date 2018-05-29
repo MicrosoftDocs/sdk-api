@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HTTP_EQUAL_VERSION
 title: HTTP_EQUAL_VERSION macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a non-zero value if an HTTP_VERSION structure is equal to a specified major/minor version combination, or zero otherwise.
 old-location: http\http_equal_version.htm
 old-project: Http
 ms.assetid: bcbe0e43-5164-4571-b672-2af547468f8f
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HTTP_EQUAL_VERSION, HTTP_EQUAL_VERSION macro [HTTP], _http_http_equal_version, http.http_equal_version, http/HTTP_EQUAL_VERSION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: http.h
 req.include-header: 

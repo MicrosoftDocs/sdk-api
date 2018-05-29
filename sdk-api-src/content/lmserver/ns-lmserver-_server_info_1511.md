@@ -1,16 +1,16 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1511
 title: "_SERVER_INFO_1511"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SERVER_INFO_1511 structure specifies the maximum number of tree connections that users can make with a single virtual circuit.
 old-location: netmgmt\server_info_1511_str.htm
 old-project: NetMgmt
 ms.assetid: 07865b85-5d08-46ab-9cce-6eba2e14d1b6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPSERVER_INFO_1511, *PSERVER_INFO_1511, LPSERVER_INFO_1511, LPSERVER_INFO_1511 structure pointer [Network Management], PSERVER_INFO_1511, PSERVER_INFO_1511 structure pointer [Network Management], SERVER_INFO_1511, SERVER_INFO_1511 structure [Network Management], _SERVER_INFO_1511, _win32_server_info_1511_str, lmserver/LPSERVER_INFO_1511, lmserver/PSERVER_INFO_1511, lmserver/SERVER_INFO_1511, netmgmt.server_info_1511_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.Synchronize
 title: ISyncMgrSynchronize::Synchronize
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the synchronization manager once for each selected group after the user has chosen the registered applications to be synchronized.
 old-location: shell\syncmgr_isyncmgrsynchronize_synchronize.htm
 old-project: shell
 ms.assetid: 78c202dd-9f8c-43c1-a7be-48030bc34a9c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],Synchronize method, ISyncMgrSynchronize.Synchronize, ISyncMgrSynchronize::Synchronize, Synchronize, Synchronize method [Windows Shell], Synchronize method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::Synchronize, shell.syncmgr_isyncmgrsynchronize_synchronize, syncmgr.isyncmgrsynchronize_synchronize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 

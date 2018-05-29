@@ -1,16 +1,16 @@
 ---
 UID: NF:scserver.CSecureChannelServer.DecryptParam
 title: CSecureChannelServer::DecryptParam
-author: windows-driver-content
+author: windows-sdk-content
 description: DecryptParam uses the session key of the secure authenticated channel to decrypt the data contained in a parameter.
 old-location: wmdm\csecurechannelserver_decryptparam.htm
 old-project: WMDM
 ms.assetid: 42ccaf4a-02a4-432f-a0eb-b7852f0e5406
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],DecryptParam method, CSecureChannelServer.DecryptParam, CSecureChannelServer::DecryptParam, CSecureChannelServerDecryptParam, DecryptParam, DecryptParam method [windows Media Device Manager], DecryptParam method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::DecryptParam, wmdm.csecurechannelserver_decryptparam
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: scserver.h
 req.include-header: 

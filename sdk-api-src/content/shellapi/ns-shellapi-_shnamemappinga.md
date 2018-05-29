@@ -1,16 +1,16 @@
 ---
 UID: NS:shellapi._SHNAMEMAPPINGA
 title: "_SHNAMEMAPPINGA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the old and new path names for each file that was moved, copied, or renamed by the SHFileOperation function.
 old-location: shell\SHNAMEMAPPING.htm
 old-project: shell
 ms.assetid: c77f5ed6-3c7f-48dd-8bb6-33d6d3053238
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPSHNAMEMAPPINGA, LPSHNAMEMAPPING, LPSHNAMEMAPPING structure pointer [Windows Shell], SHNAMEMAPPING, SHNAMEMAPPING structure [Windows Shell], SHNAMEMAPPINGA, _SHNAMEMAPPINGA, _win32_SHNAMEMAPPING, shell.SHNAMEMAPPING, shellapi/LPSHNAMEMAPPING, shellapi/SHNAMEMAPPING"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 

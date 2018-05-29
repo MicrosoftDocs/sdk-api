@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Class_GetNameSpace
 title: MI_Class_GetNameSpace function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the namespace name of the specified class.
 old-location: wmi_v2\mi_class_getnamespace.htm
 old-project: wmi_v2
 ms.assetid: 64ee42d6-d6ad-4a41-83f4-48de191a853c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Class_GetNameSpace, MI_Class_GetNameSpace function [Windows Management Infrastructure (MI)], mi/MI_Class_GetNameSpace, wmi_v2.mi_class_getnamespace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

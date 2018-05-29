@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.EnumActions
 title: IFsrmFileScreenBase::EnumActions
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates all the actions for the file screen object.
 old-location: fsrm\ifsrmfilescreenbase_enumactions.htm
 old-project: Fsrm
 ms.assetid: fbc22338-8271-407a-97c6-4a2329445979
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: EnumActions, EnumActions method [File Server Resource Manager], EnumActions method [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],EnumActions method, IFsrmFileScreenBase.EnumActions, IFsrmFileScreenBase::EnumActions, fs.ifsrmfilescreenbase_enumactions, fsrm.ifsrmfilescreenbase_enumactions, fsrmscreen/IFsrmFileScreenBase::EnumActions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h

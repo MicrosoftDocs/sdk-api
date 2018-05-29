@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_compareA
 title: ldap_compareA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the ldap_compare function to determine whether an attribute for a given entry holds a known value.
 old-location: ldap\ldap_compare.htm
 old-project: LDAP
 ms.assetid: 0cdcea2f-5ee2-407a-a229-5a3fb1e3b856
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_compare, ldap.ldap__compare, ldap.ldap_compare, ldap_compare, ldap_compare function [LDAP], ldap_compareA, ldap_compareW, winldap/ldap_compare, winldap/ldap_compareA, winldap/ldap_compareW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

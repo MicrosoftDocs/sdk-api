@@ -1,16 +1,16 @@
 ---
 UID: NE:winnt.ACTCTX_REQUESTED_RUN_LEVEL
 title: ACTCTX_REQUESTED_RUN_LEVEL
-author: windows-driver-content
+author: windows-sdk-content
 description: The ACTCTX_REQUESTED_RUN_LEVEL enumeration describes the requested run level of the activation context.
 old-location: setup\actctx_requested_run_level.htm
 old-project: SbsCs
 ms.assetid: 3bf75a4d-a209-43e4-9fe2-f7da1602fc6c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ACTCTX_REQUESTED_RUN_LEVEL, ACTCTX_REQUESTED_RUN_LEVEL enumeration [Side-by-side Assemblies], ACTCTX_RUN_LEVEL_AS_INVOKER, ACTCTX_RUN_LEVEL_HIGHEST_AVAILABLE, ACTCTX_RUN_LEVEL_NUMBERS, ACTCTX_RUN_LEVEL_REQUIRE_ADMIN, ACTCTX_RUN_LEVEL_UNSPECIFIED, setup.actctx_requested_run_level, winnt/ACTCTX_REQUESTED_RUN_LEVEL, winnt/ACTCTX_RUN_LEVEL_AS_INVOKER, winnt/ACTCTX_RUN_LEVEL_HIGHEST_AVAILABLE, winnt/ACTCTX_RUN_LEVEL_NUMBERS, winnt/ACTCTX_RUN_LEVEL_REQUIRE_ADMIN, winnt/ACTCTX_RUN_LEVEL_UNSPECIFIED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h

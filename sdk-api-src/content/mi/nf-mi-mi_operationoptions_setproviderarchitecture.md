@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetProviderArchitecture
 title: MI_OperationOptions_SetProviderArchitecture function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the provider architecture for an operation.
 old-location: wmi_v2\mi_operationoptions_setproviderarchitecture.htm
 old-project: wmi_v2
 ms.assetid: 70caef27-577c-4fa0-9c9e-c9724750b136
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_OperationOptions_SetProviderArchitecture, MI_OperationOptions_SetProviderArchitecture function [Windows Management Infrastructure (MI)], MI_PROVIDER_ARCHITECTURE_32BIT, MI_PROVIDER_ARCHITECTURE_64BIT, mi/MI_OperationOptions_SetProviderArchitecture, wmi_v2.mi_operationoptions_setproviderarchitecture
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

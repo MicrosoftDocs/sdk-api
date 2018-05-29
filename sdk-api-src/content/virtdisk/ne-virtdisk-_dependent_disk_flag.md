@@ -1,16 +1,16 @@
 ---
 UID: NE:virtdisk._DEPENDENT_DISK_FLAG
 title: "_DEPENDENT_DISK_FLAG"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains virtual hard disk (VHD) dependency information flags.
 old-location: vhd\dependent_disk_flag.htm
 old-project: VStor
 ms.assetid: f22bcf17-59fd-4a05-9516-2e14f173ed33
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DEPENDENT_DISK_FLAG, DEPENDENT_DISK_FLAG enumeration [VHD], DEPENDENT_DISK_FLAG_FULLY_ALLOCATED, DEPENDENT_DISK_FLAG_MULT_BACKING_FILES, DEPENDENT_DISK_FLAG_NONE, DEPENDENT_DISK_FLAG_NO_DRIVE_LETTER, DEPENDENT_DISK_FLAG_NO_HOST_DISK, DEPENDENT_DISK_FLAG_PARENT, DEPENDENT_DISK_FLAG_PERMANENT_LIFETIME, DEPENDENT_DISK_FLAG_READ_ONLY, DEPENDENT_DISK_FLAG_REMOTE, DEPENDENT_DISK_FLAG_REMOVABLE, DEPENDENT_DISK_FLAG_SYSTEM_VOLUME, DEPENDENT_DISK_FLAG_SYSTEM_VOLUME_PARENT, _DEPENDENT_DISK_FLAG, vhd.dependent_disk_flag, virtdisk/DEPENDENT_DISK_FLAG, virtdisk/DEPENDENT_DISK_FLAG_FULLY_ALLOCATED, virtdisk/DEPENDENT_DISK_FLAG_MULT_BACKING_FILES, virtdisk/DEPENDENT_DISK_FLAG_NONE, virtdisk/DEPENDENT_DISK_FLAG_NO_DRIVE_LETTER, virtdisk/DEPENDENT_DISK_FLAG_NO_HOST_DISK, virtdisk/DEPENDENT_DISK_FLAG_PARENT, virtdisk/DEPENDENT_DISK_FLAG_PERMANENT_LIFETIME, virtdisk/DEPENDENT_DISK_FLAG_READ_ONLY, virtdisk/DEPENDENT_DISK_FLAG_REMOTE, virtdisk/DEPENDENT_DISK_FLAG_REMOVABLE, virtdisk/DEPENDENT_DISK_FLAG_SYSTEM_VOLUME, virtdisk/DEPENDENT_DISK_FLAG_SYSTEM_VOLUME_PARENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: Windows.h

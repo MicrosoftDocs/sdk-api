@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.InitMenu
 title: ITfLangBarItemBitmapButton::InitMenu
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_MENU style.
 old-location: tsf\itflangbaritembitmapbutton_initmenu.htm
 old-project: TSF
 ms.assetid: 0f34f488-729b-42d3-9a24-85b3f95607ec
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfLangBarItemBitmapButton interface [Text Services Framework],InitMenu method, ITfLangBarItemBitmapButton.InitMenu, ITfLangBarItemBitmapButton::InitMenu, InitMenu, InitMenu method [Text Services Framework], InitMenu method [Text Services Framework],ITfLangBarItemBitmapButton interface, _tsf_itflangbaritembitmapbutton_initmenu_ref, ctfutb/ITfLangBarItemBitmapButton::InitMenu, tsf.itflangbaritembitmapbutton_initmenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

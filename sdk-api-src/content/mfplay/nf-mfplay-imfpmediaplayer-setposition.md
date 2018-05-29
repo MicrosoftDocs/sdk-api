@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetPosition
 title: IMFPMediaPlayer::SetPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the playback position.
 old-location: mf\imfpmediaplayer_setposition.htm
 old-project: medfound
 ms.assetid: d8665c3b-e0da-4a6f-a61b-38d507d1e78a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetPosition method, IMFPMediaPlayer.SetPosition, IMFPMediaPlayer::SetPosition, MFP_POSITIONTYPE_100NS, SetPosition, SetPosition method [Media Foundation], SetPosition method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setposition, mfplay/IMFPMediaPlayer::SetPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.RunWizard
 title: IUpdateInstaller::RunWizard
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts a wizard that guides the local user through the steps to install the updates.
 old-location: wua\iupdateinstaller_runwizard.htm
 old-project: Wua_Sdk
 ms.assetid: 006d95ab-45bc-4110-abd9-e39de58b8a4c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],RunWizard method, IUpdateInstaller.RunWizard, IUpdateInstaller::RunWizard, RunWizard, RunWizard method [Windows Update Agent], RunWizard method [Windows Update Agent],IUpdateInstaller interface, wua.iupdateinstaller_runwizard, wuapi/IUpdateInstaller::RunWizard
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

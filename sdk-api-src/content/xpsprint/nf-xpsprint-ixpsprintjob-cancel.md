@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsprint.IXpsPrintJob.Cancel
 title: IXpsPrintJob::Cancel
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels the print job.
 old-location: gdi\ixpsprintjob_cancel.htm
 old-project: printdocs
 ms.assetid: f9fab578-95f0-498b-85ad-fd6ee2c72c63
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Cancel, Cancel method [Windows GDI], Cancel method [Windows GDI],IXpsPrintJob interface, IXpsPrintJob interface [Windows GDI],Cancel method, IXpsPrintJob.Cancel, IXpsPrintJob::Cancel, gdi.ixpsprintjob_cancel, xpsprint/IXpsPrintJob::Cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsprint.h
 req.include-header: 

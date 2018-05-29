@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc2.CheckCertificateSignature
 title: IX509CertificateRequestCmc2::CheckCertificateSignature
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies the signature for a specified signer.
 old-location: security\ix509certificaterequestcmc2_checkcertificatesignature.htm
 old-project: SecCertEnroll
 ms.assetid: 10ccda23-98d7-49ad-bb0c-60050d01892d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CheckCertificateSignature, CheckCertificateSignature method [Security], CheckCertificateSignature method [Security],IX509CertificateRequestCmc2 interface, IX509CertificateRequestCmc2 interface [Security],CheckCertificateSignature method, IX509CertificateRequestCmc2.CheckCertificateSignature, IX509CertificateRequestCmc2::CheckCertificateSignature, certenroll/IX509CertificateRequestCmc2::CheckCertificateSignature, security.ix509certificaterequestcmc2_checkcertificatesignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

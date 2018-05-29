@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.GetServerState
 title: ITsSbResourcePluginStore::GetServerState
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the state of a specified server.
 old-location: termserv\itssbresourcepluginstore_getserverstate.htm
 old-project: TermServ
 ms.assetid: 287863fe-55b3-456e-9488-09ee85af2e15
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetServerState, GetServerState method [Remote Desktop Services], GetServerState method [Remote Desktop Services],ITsSbResourcePluginStore interface, ITsSbResourcePluginStore interface [Remote Desktop Services],GetServerState method, ITsSbResourcePluginStore.GetServerState, ITsSbResourcePluginStore::GetServerState, sbtsv/ITsSbResourcePluginStore::GetServerState, termserv.itssbresourcepluginstore_getserverstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

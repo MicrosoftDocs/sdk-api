@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrRemoveA
 title: RpcNsGroupMbrRemoveA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsGroupMbrRemove function removes an entry name from a group.
 old-location: rpc\rpcnsgroupmbrremove.htm
 old-project: Rpc
 ms.assetid: 0301b570-9a03-4f50-89df-3c15d8de246f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsGroupMbrRemove, RpcNsGroupMbrRemove function [RPC], RpcNsGroupMbrRemoveA, RpcNsGroupMbrRemoveW, _rpc_rpcnsgroupmbrremove, rpc.rpcnsgroupmbrremove, rpcnsi/RpcNsGroupMbrRemove, rpcnsi/RpcNsGroupMbrRemoveA, rpcnsi/RpcNsGroupMbrRemoveW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

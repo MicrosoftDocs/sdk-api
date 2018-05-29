@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_InstanceExFT
 title: "_MI_InstanceExFT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the MI_InstanceFT structure.
 old-location: wmi_v2\mi_instanceexft.htm
 old-project: wmi_v2
 ms.assetid: E703D978-7B4B-4AB4-AB69-C9489F5AD58B
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_InstanceExFT, MI_InstanceExFT structure [Windows Management Infrastructure (MI)], _MI_InstanceExFT, mi/MI_Instance_ExFT, wmi_v2.mi_instanceexft
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

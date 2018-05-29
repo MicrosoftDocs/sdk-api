@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._KERB_CERTIFICATE_S4U_LOGON
 title: "_KERB_CERTIFICATE_S4U_LOGON"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the certificate for a service for user (S4U) logon.
 old-location: security\kerb_certificate_s4u_logon.htm
 old-project: SecAuthN
 ms.assetid: C7BF8A80-493E-4BDB-ACE3-F9492C71BCA9
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PKERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_S4U_LOGON structure [Security], KERB_CERTIFICATE_S4U_LOGON_FLAG_CHECK_DUPLICATES, KERB_CERTIFICATE_S4U_LOGON_FLAG_CHECK_LOGONHOURS, KERB_CERTIFICATE_S4U_LOGON_FLAG_IDENTIFY, KERB_CERTIFICATE_S4U_LOGON_FLAG_IF_NT_AUTH_POLICY_REQUIRED, PKERB_CERTIFICATE_S4U_LOGON, PKERB_CERTIFICATE_S4U_LOGON structure pointer [Security], _KERB_CERTIFICATE_S4U_LOGON, ntsecapi/KERB_CERTIFICATE_S4U_LOGON, ntsecapi/PKERB_CERTIFICATE_S4U_LOGON, security.kerb_certificate_s4u_logon"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

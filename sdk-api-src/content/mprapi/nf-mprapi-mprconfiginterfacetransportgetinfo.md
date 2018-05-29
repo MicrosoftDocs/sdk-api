@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportGetInfo
 title: MprConfigInterfaceTransportGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigInterfaceTransportGetInfo function retrieves the configuration information for the specified client on the specified interface.
 old-location: rras\mprconfiginterfacetransportgetinfo.htm
 old-project: RRAS
 ms.assetid: 2b0bb412-a480-43ff-b29a-cf4e7674d2c4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigInterfaceTransportGetInfo, MprConfigInterfaceTransportGetInfo function [RAS], _mpr_mprconfiginterfacetransportgetinfo, mprapi/MprConfigInterfaceTransportGetInfo, rras.mprconfiginterfacetransportgetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

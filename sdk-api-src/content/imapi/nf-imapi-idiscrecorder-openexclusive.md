@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi.IDiscRecorder.OpenExclusive
 title: IDiscRecorder::OpenExclusive
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a disc recorder for exclusive access.
 old-location: imapi\idiscrecorder_openexclusive.htm
 old-project: imapi
 ms.assetid: e704baf0-d403-4cf7-aa32-16677d9a8694
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscRecorder interface [IMAPI],OpenExclusive method, IDiscRecorder.OpenExclusive, IDiscRecorder::OpenExclusive, OpenExclusive, OpenExclusive method [IMAPI], OpenExclusive method [IMAPI],IDiscRecorder interface, _win32_idiscrecorder_openexclusive, base.idiscrecorder_openexclusive, imapi.idiscrecorder_openexclusive, imapi/IDiscRecorder::OpenExclusive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

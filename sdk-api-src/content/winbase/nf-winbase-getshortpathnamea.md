@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetShortPathNameA
 title: GetShortPathNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the short path form of the specified path.
 old-location: fs\getshortpathname.htm
 old-project: FileIO
 ms.assetid: 15c794d6-6d6b-4ee0-b5b7-a2cf6f5ec5e7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetShortPathName, GetShortPathName function [Files], GetShortPathNameA, GetShortPathNameW, _win32_getshortpathname, base.getshortpathname, fileapi/GetShortPathName, fileapi/GetShortPathNameA, fileapi/GetShortPathNameW, fs.getshortpathname, winbase/GetShortPathName, winbase/GetShortPathNameA, winbase/GetShortPathNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

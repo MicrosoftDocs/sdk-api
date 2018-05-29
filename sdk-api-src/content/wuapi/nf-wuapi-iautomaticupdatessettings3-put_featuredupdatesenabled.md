@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings3.put_FeaturedUpdatesEnabled
 title: IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.
 old-location: wua\iautomaticupdatessettings3_featuredupdatesenabled.htm
 old-project: Wua_Sdk
 ms.assetid: 43f17feb-1a3b-4399-a26f-1a2d99442169
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: FeaturedUpdatesEnabled property [Windows Update Agent], FeaturedUpdatesEnabled property [Windows Update Agent],IAutomaticUpdatesSettings3 interface, IAutomaticUpdatesSettings3 interface [Windows Update Agent],FeaturedUpdatesEnabled property, IAutomaticUpdatesSettings3.FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3.put_FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled, IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled, put_FeaturedUpdatesEnabled, wua.iautomaticupdatessettings3_featuredupdatesenabled, wuapi/IAutomaticUpdatesSettings3::FeaturedUpdatesEnabled, wuapi/IAutomaticUpdatesSettings3::get_FeaturedUpdatesEnabled, wuapi/IAutomaticUpdatesSettings3::put_FeaturedUpdatesEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewportEventHandler.OnContentUpdated
 title: IDirectManipulationViewportEventHandler::OnContentUpdated
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when content inside a viewport is updated.
 old-location: directmanipulation\idirectmanipulationviewporteventhandler_oncontentupdated.htm
 old-project: directmanipulation
 ms.assetid: 1b9a0f54-ccc7-4927-a34e-724652f6c2f0
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationViewportEventHandler interface [Direct Manipulation],OnContentUpdated method, IDirectManipulationViewportEventHandler.OnContentUpdated, IDirectManipulationViewportEventHandler::OnContentUpdated, OnContentUpdated, OnContentUpdated method [Direct Manipulation], OnContentUpdated method [Direct Manipulation],IDirectManipulationViewportEventHandler interface, directmanipulation.idirectmanipulationviewporteventhandler_oncontentupdated, directmanipulation/IDirectManipulationViewportEventHandler::OnContentUpdated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

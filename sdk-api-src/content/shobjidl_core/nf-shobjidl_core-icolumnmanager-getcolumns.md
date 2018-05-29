@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IColumnManager.GetColumns
 title: IColumnManager::GetColumns
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an array of PROPERTYKEY structures that represent the columns that the view supports. Includes either all columns or only those currently visible.
 old-location: shell\IColumnManager_GetColumns.htm
 old-project: shell
 ms.assetid: 297a8e75-78a0-4bfb-83c0-0b58111dcf1c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetColumns, GetColumns method [Windows Shell], GetColumns method [Windows Shell],IColumnManager interface, IColumnManager interface [Windows Shell],GetColumns method, IColumnManager.GetColumns, IColumnManager::GetColumns, shell.IColumnManager_GetColumns, shell_IColumnManager_GetColumns, shobjidl_core/IColumnManager::GetColumns
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

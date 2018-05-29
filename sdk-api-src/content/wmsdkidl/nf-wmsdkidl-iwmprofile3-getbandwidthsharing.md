@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.GetBandwidthSharing
 title: IWMProfile3::GetBandwidthSharing
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetBandwidthSharing method retrieves a bandwidth sharing object from a profile.
 old-location: wmformat\iwmprofile3_getbandwidthsharing.htm
 old-project: wmformat
 ms.assetid: be66ff8b-c883-4329-aaa4-e9549d0cbb9e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetBandwidthSharing, GetBandwidthSharing method [windows Media Format], GetBandwidthSharing method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],GetBandwidthSharing method, IWMProfile3.GetBandwidthSharing, IWMProfile3::GetBandwidthSharing, IWMProfile3GetBandwidthSharing, wmformat.iwmprofile3_getbandwidthsharing, wmsdkidl/IWMProfile3::GetBandwidthSharing
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

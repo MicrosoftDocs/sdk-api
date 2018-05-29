@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITCallInfo
 title: ITCallInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITCallInfo interface gets and sets a variety of information concerning a Call object. The ITAddress::get_Calls and IEnumCall::Next methods create the ITCallInfo interface.
 old-location: tapi3\itcallinfo.htm
 old-project: Tapi
 ms.assetid: 5209d4a1-e05b-453e-8896-2dc71f0b9af0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallInfo, ITCallInfo interface [TAPI 2.2], ITCallInfo interface [TAPI 2.2],described, _tapi3_itcallinfo, tapi3.itcallinfo, tapi3if/ITCallInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcObjectInqType
 title: RpcObjectInqType function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcObjectInqType function returns the type of an object.
 old-location: rpc\rpcobjectinqtype.htm
 old-project: Rpc
 ms.assetid: 9146d4be-4a8a-4655-bd5b-e12f81fd4d23
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcObjectInqType, RpcObjectInqType function [RPC], _rpc_rpcobjectinqtype, rpc.rpcobjectinqtype, rpcdce/RpcObjectInqType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

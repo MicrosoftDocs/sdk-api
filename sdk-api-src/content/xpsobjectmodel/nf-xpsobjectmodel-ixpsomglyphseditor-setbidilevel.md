@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetBidiLevel
 title: IXpsOMGlyphsEditor::SetBidiLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the level of bidirectional text.
 old-location: xps\ixpsomglyphseditor_setbidilevel.htm
 old-project: printdocs
 ms.assetid: a8035863-d1ed-4215-add3-6e60cfca7f1c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetBidiLevel method, IXpsOMGlyphsEditor.SetBidiLevel, IXpsOMGlyphsEditor::SetBidiLevel, SetBidiLevel, SetBidiLevel method [XPS Documents and Packaging], SetBidiLevel method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setbidilevel, xpsobjectmodel/IXpsOMGlyphsEditor::SetBidiLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

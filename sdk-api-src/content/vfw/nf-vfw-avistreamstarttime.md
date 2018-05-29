@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamStartTime
 title: AVIStreamStartTime macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamStartTime macro returns the starting time of a stream's first sample.
 old-location: multimedia\avistreamstarttime.htm
 old-project: Multimedia
 ms.assetid: 6bfa053f-26ca-4dc8-8896-11ee9f0d9b77
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamStartTime, AVIStreamStartTime macro [Windows Multimedia], _win32_AVIStreamStartTime, multimedia.avistreamstarttime, vfw/AVIStreamStartTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

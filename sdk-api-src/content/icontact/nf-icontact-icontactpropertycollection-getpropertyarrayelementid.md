@@ -1,16 +1,16 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.GetPropertyArrayElementID
 title: IContactPropertyCollection::GetPropertyArrayElementID
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the unique ID for a given element in a property array.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyArrayElementID.htm
 old-project: wincontacts
 ms.assetid: bfd860d6-cd67-4f97-afc4-1e2e7c8f57ca
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetPropertyArrayElementID, GetPropertyArrayElementID method [Windows Contacts], GetPropertyArrayElementID method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyArrayElementID method, IContactPropertyCollection.GetPropertyArrayElementID, IContactPropertyCollection::GetPropertyArrayElementID, _wincontacts_IContactPropertyCollection_GetPropertyArrayElementID, icontact/IContactPropertyCollection::GetPropertyArrayElementID, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyArrayElementID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

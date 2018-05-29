@@ -1,16 +1,16 @@
 ---
 UID: NF:infotech.IITPropList.SetPersist
 title: IITPropList::SetPersist
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the persistence state on or off for a given property.
 old-location: htmlhelp\iitproplist_setpersist1.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistsetpersistproperty.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],SetPersist method, IITPropList.SetPersist, IITPropList::SetPersist, IITPropList::SetPersist(PROPID,BOOL), SetPersist, SetPersist method [HTML Help Workshop], SetPersist method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_setpersist1, infotech/IITPropList::SetPersist, refIITPropListSetPersistProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

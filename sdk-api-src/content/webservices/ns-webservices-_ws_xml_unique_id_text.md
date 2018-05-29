@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_UNIQUE_ID_TEXT
 title: "_WS_XML_UNIQUE_ID_TEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a GUID formatted as the text &#0034;urn:uuid:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx&#0034;.
 old-location: wsw\ws_xml_unique_id_text.htm
 old-project: wsw
 ms.assetid: 4703fcb7-af03-4855-97c4-aac33e75ad4f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_UNIQUE_ID_TEXT, WS_XML_UNIQUE_ID_TEXT structure [Web Services for Windows], _WS_XML_UNIQUE_ID_TEXT, webservices/WS_XML_UNIQUE_ID_TEXT, wsw.ws_xml_unique_id_text
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

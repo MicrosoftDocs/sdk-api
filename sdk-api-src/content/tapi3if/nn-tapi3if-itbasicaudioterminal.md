@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITBasicAudioTerminal
 title: ITBasicAudioTerminal
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITBasicAudioTerminal interface provides methods that allow an application to control basic sound characteristics of terminal.
 old-location: tapi3\itbasicaudioterminal.htm
 old-project: Tapi
 ms.assetid: 3e676a16-f3ce-433c-9941-8cdccdb01efd
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITBasicAudioTerminal, ITBasicAudioTerminal interface [TAPI 2.2], ITBasicAudioTerminal interface [TAPI 2.2],described, _tapi3_itbasicaudioterminal, tapi3.itbasicaudioterminal, tapi3if/ITBasicAudioTerminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

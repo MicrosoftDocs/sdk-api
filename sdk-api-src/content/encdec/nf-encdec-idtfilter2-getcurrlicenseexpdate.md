@@ -1,16 +1,16 @@
 ---
 UID: NF:encdec.IDTFilter2.GetCurrLicenseExpDate
 title: IDTFilter2::GetCurrLicenseExpDate
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mstv\idtfilter2_getcurrlicenseexpdate.htm
 old-project: mstv
 ms.assetid: 3c9b9aa5-62b7-4b3a-abc1-2e0af7e65b18
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCurrLicenseExpDate, GetCurrLicenseExpDate method [Microsoft TV Technologies], GetCurrLicenseExpDate method [Microsoft TV Technologies],IDTFilter2 interface, IDTFilter2 interface [Microsoft TV Technologies],GetCurrLicenseExpDate method, IDTFilter2.GetCurrLicenseExpDate, IDTFilter2::GetCurrLicenseExpDate, IDTFilter2GetCurrLicenseExpDate, encdec/IDTFilter2::GetCurrLicenseExpDate, mstv.idtfilter2_getcurrlicenseexpdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

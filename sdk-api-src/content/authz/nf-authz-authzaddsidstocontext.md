@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzAddSidsToContext
 title: AuthzAddSidsToContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of an existing context and appends a given set of security identifiers (SIDs) and restricted SIDs.
 old-location: security\authzaddsidstocontext.htm
 old-project: SecAuthZ
 ms.assetid: 4744013b-7f2e-4ebb-8944-10ffcc6006d0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthzAddSidsToContext, AuthzAddSidsToContext function [Security], _win32_authzaddsidstocontext, authz/AuthzAddSidsToContext, security.authzaddsidstocontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

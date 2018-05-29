@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_SMIME_CAPABILITY
 title: "_CRYPT_SMIME_CAPABILITY"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CRYPT_SMIME_CAPABILITY structure specifies a single capability and its associated parameters. Single capabilities are grouped together into a list of CRYPT_SMIME_CAPABILITIES which can specify a prioritized list of capability preferences.
 old-location: security\crypt_smime_capability.htm
 old-project: SecCrypto
 ms.assetid: c7d1e04f-d2b9-4bab-88f4-8a528c527e7c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_SMIME_CAPABILITY, CRYPT_SMIME_CAPABILITY, CRYPT_SMIME_CAPABILITY structure [Security], PCRYPT_SMIME_CAPABILITY, PCRYPT_SMIME_CAPABILITY structure pointer [Security], _CRYPT_SMIME_CAPABILITY, _crypto2_crypt_smime_capability, security.crypt_smime_capability, wincrypt/CRYPT_SMIME_CAPABILITY, wincrypt/PCRYPT_SMIME_CAPABILITY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

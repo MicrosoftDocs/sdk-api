@@ -1,16 +1,16 @@
 ---
 UID: NS:batclass._BATTERY_WMI_STATIC_DATA
 title: "_BATTERY_WMI_STATIC_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines static data about a battery.
 old-location: battery\battery_wmi_static_data.htm
 old-project: battery
 ms.assetid: 39930853-AB5A-4DA5-A544-7913770C4D88
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PBATTERY_WMI_STATIC_DATA, BATTERY_WMI_STATIC_DATA, BATTERY_WMI_STATIC_DATA structure [Battery Devices], PBATTERY_WMI_STATIC_DATA, PBATTERY_WMI_STATIC_DATA structure pointer [Battery Devices], _BATTERY_WMI_STATIC_DATA, batclass/BATTERY_WMI_STATIC_DATA, batclass/PBATTERY_WMI_STATIC_DATA, battery.battery_wmi_static_data"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: batclass.h
 req.include-header: Batclass.h

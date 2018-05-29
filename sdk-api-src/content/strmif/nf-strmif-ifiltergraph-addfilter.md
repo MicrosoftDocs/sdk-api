@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IFilterGraph.AddFilter
 title: IFilterGraph::AddFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddFilter method adds a filter to the graph.
 old-location: dshow\ifiltergraph_addfilter.htm
 old-project: DirectShow
 ms.assetid: 8f837917-015f-427f-b234-b0ccbcf943eb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AddFilter, AddFilter method [DirectShow], AddFilter method [DirectShow],IFilterGraph interface, IFilterGraph interface [DirectShow],AddFilter method, IFilterGraph.AddFilter, IFilterGraph::AddFilter, IFilterGraphAddFilter, dshow.ifiltergraph_addfilter, strmif/IFilterGraph::AddFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

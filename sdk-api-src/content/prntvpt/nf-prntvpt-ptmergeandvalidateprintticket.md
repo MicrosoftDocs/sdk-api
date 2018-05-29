@@ -1,16 +1,16 @@
 ---
 UID: NF:prntvpt.PTMergeAndValidatePrintTicket
 title: PTMergeAndValidatePrintTicket function
-author: windows-driver-content
+author: windows-sdk-content
 description: Merges two print tickets and returns a valid, viable print ticket.
 old-location: gdi\ptmergeandvalidateprintticket.htm
 old-project: printdocs
 ms.assetid: 97691930-d76a-48c9-80b9-8413d96322a9
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PTMergeAndValidatePrintTicket, PTMergeAndValidatePrintTicket function [Windows GDI], _win32_PTMergeAndValidatePrintTicket, gdi.ptmergeandvalidateprintticket, prntvpt/PTMergeAndValidatePrintTicket
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 

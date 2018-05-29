@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsControlElement
 title: IUIAutomationElement::get_CurrentIsControlElement
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the element is a control element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsControlElement.htm
 old-project: WinAuto
 ms.assetid: 9205db9b-becd-4485-8cba-516b6842b44f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentIsControlElement property [Windows Accessibility], CurrentIsControlElement property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsControlElement property, IUIAutomationElement.CurrentIsControlElement, IUIAutomationElement.get_CurrentIsControlElement, IUIAutomationElement::CurrentIsControlElement, IUIAutomationElement::get_CurrentIsControlElement, get_CurrentIsControlElement, uiauto.uiauto_IUIAutomationElement_CurrentIsControlElement, uiauto_IUIAutomationElement_CurrentIsControlElement, uiautomationclient/IUIAutomationElement::CurrentIsControlElement, uiautomationclient/IUIAutomationElement::get_CurrentIsControlElement, winauto.uiauto_IUIAutomationElement_CurrentIsControlElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mmstream.IMediaStream.GetInformation
 title: IMediaStream::GetInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the stream's purpose ID and media type.
 old-location: dshow\imediastream_getinformation.htm
 old-project: DirectShow
 ms.assetid: e4ecae45-e2bf-44dd-8901-0892c02d708c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetInformation, GetInformation method [DirectShow], GetInformation method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],GetInformation method, IMediaStream.GetInformation, IMediaStream::GetInformation, IMediaStreamGetInformation, dshow.imediastream_getinformation, mmstream/IMediaStream::GetInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:msinkaut.SelectionHitResult
 title: SelectionHitResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies which part of a selection, if any, was hit during a hit test.
 old-location: tablet\selectionhitresult.htm
 old-project: tablet
 ms.assetid: a93d0121-e271-4656-9cdc-ae05fd19ac8b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHR_E, SHR_N, SHR_NE, SHR_NW, SHR_None, SHR_S, SHR_SE, SHR_SW, SHR_Selection, SHR_W, SelectionHitResult, SelectionHitResult enumeration [Tablet PC], a93d0121-e271-4656-9cdc-ae05fd19ac8b, msinkaut/SHR_E, msinkaut/SHR_N, msinkaut/SHR_NE, msinkaut/SHR_NW, msinkaut/SHR_None, msinkaut/SHR_S, msinkaut/SHR_SE, msinkaut/SHR_SW, msinkaut/SHR_Selection, msinkaut/SHR_W, msinkaut/SelectionHitResult, tablet.selectionhitresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

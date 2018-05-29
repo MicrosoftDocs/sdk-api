@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.phonecaps_tag
 title: phonecaps_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PHONECAPS structure describes the capabilities of a phone device. The phoneGetDevCaps and TSPI_phoneGetDevCaps functions return this structure.
 old-location: tapi2\phonecaps_str.htm
 old-project: Tapi
 ms.assetid: 9549e30c-9425-4fb1-8ce5-f180a32f8e1f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPPHONECAPS, LPPHONECAPS, LPPHONECAPS structure pointer [TAPI 2.2], PHONECAPS, PHONECAPS structure [TAPI 2.2], _tapi2_phonecaps_str, phonecaps_tag, tapi/LPPHONECAPS, tapi/PHONECAPS, tapi2.phonecaps_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

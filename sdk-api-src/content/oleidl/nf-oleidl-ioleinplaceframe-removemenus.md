@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.RemoveMenus
 title: IOleInPlaceFrame::RemoveMenus
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a container's menu elements from the composite menu.
 old-location: com\ioleinplaceframe_removemenus.htm
 old-project: com
 ms.assetid: 92d9fcda-8ede-4f38-ad56-59c4a75fe45a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceFrame interface [COM],RemoveMenus method, IOleInPlaceFrame.RemoveMenus, IOleInPlaceFrame::RemoveMenus, RemoveMenus, RemoveMenus method [COM], RemoveMenus method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_removemenus, com.ioleinplaceframe_removemenus, oleidl/IOleInPlaceFrame::RemoveMenus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

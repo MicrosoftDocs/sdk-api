@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfFnAdviseText
 title: ITfFnAdviseText
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfFnAdviseText interface is implemented by a text service and used by the TSF manager to supply notifications when the text or lattice element in a context changes.
 old-location: tsf\itffnadvisetext.htm
 old-project: TSF
 ms.assetid: 7cca7f23-48d3-4855-8f3d-e937bbc990d4
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnAdviseText, ITfFnAdviseText interface [Text Services Framework], ITfFnAdviseText interface [Text Services Framework],described, _tsf_itffnadvisetext_ref, ctffunc/ITfFnAdviseText, tsf.itffnadvisetext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

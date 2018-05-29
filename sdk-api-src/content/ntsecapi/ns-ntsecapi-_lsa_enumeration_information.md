@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._LSA_ENUMERATION_INFORMATION
 title: "_LSA_ENUMERATION_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The LSA_ENUMERATION_INFORMATION structure is used with the LsaEnumerateAccountsWithUserRight function to return a pointer to a SID.
 old-location: security\lsa_enumeration_information.htm
 old-project: SecMgmt
 ms.assetid: 7577548f-3ceb-43a5-b447-6f66a09963fe
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PLSA_ENUMERATION_INFORMATION, LSA_ENUMERATION_INFORMATION, LSA_ENUMERATION_INFORMATION structure [Security], PLSA_ENUMERATION_INFORMATION, PLSA_ENUMERATION_INFORMATION structure pointer [Security], _LSA_ENUMERATION_INFORMATION, _lsa_lsa_enumeration_information, ntsecapi/LSA_ENUMERATION_INFORMATION, ntsecapi/PLSA_ENUMERATION_INFORMATION, security.lsa_enumeration_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

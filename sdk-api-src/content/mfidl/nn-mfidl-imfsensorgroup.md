@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFSensorGroup
 title: IMFSensorGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a group of sensor devices from which an IMFMediaSource can be created.
 old-location: mf\imfsensorgroup.htm
 old-project: medfound
 ms.assetid: 7CED3EF6-E844-4B3A-8181-CA44FC4675EC
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSensorGroup, IMFSensorGroup interface [Media Foundation], IMFSensorGroup interface [Media Foundation],described, mf.imfsensorgroup, mfidl/IMFSensorGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

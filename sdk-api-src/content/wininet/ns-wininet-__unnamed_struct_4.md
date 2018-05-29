@@ -1,16 +1,16 @@
 ---
 UID: NS:wininet.__unnamed_struct_4
 title: INTERNET_AUTH_NOTIFY_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the notification data for an authentication request.
 old-location: wininet\internet_auth_notify_data.htm
 old-project: WinInet
 ms.assetid: d6f36cf7-7a54-4890-aa27-ffb40997cfd6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INTERNET_AUTH_NOTIFY_DATA, INTERNET_AUTH_NOTIFY_DATA structure [WinINet], _inet_internet_auth_notify_data_structure, wininet.internet_auth_notify_data, wininet/INTERNET_AUTH_NOTIFY_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 

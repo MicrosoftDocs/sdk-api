@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_GetNextItemIndex
 title: ListView_GetNextItemIndex macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the index of the item in a particular list-view control that has the specified properties and relationship to another specific item. Use this macro or send the LVM_GETNEXTITEMINDEX message explicitly.
 old-location: controls\ListView_GetNextItemIndex.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getnextitemindex.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_GetNextItemIndex, ListView_GetNextItemIndex macro [Windows Controls], _shell_ListView_GetNextItemIndex, _shell_ListView_GetNextItemIndex_cpp, commctrl/ListView_GetNextItemIndex, controls.ListView_GetNextItemIndex, controls._shell_ListView_GetNextItemIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.CancelIndividualization
 title: IWMDRMReader::CancelIndividualization
-author: windows-driver-content
+author: windows-sdk-content
 description: The CancelIndividualization method cancels a current call to the Individualize method.
 old-location: wmformat\iwmdrmreader_cancelindividualization.htm
 old-project: wmformat
 ms.assetid: 837d6fee-d5ba-49d8-ac69-e8ff010a787d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CancelIndividualization, CancelIndividualization method [windows Media Format], CancelIndividualization method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],CancelIndividualization method, IWMDRMReader.CancelIndividualization, IWMDRMReader::CancelIndividualization, IWMDRMReaderCancelIndividualization, wmformat.iwmdrmreader_cancelindividualization, wmsdkidl/IWMDRMReader::CancelIndividualization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

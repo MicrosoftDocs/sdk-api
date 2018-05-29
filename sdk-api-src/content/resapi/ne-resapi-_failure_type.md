@@ -1,16 +1,16 @@
 ---
 UID: NE:resapi._FAILURE_TYPE
 title: "_FAILURE_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the failure types for cluster resources.
 old-location: mscs\failure_type.htm
 old-project: MsCS
 ms.assetid: C838BE66-5CAB-4884-AC64-EC5EC3A87679
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PFAILURE_TYPE, FAILURE_TYPE, FAILURE_TYPE enumeration [Failover Cluster], FAILURE_TYPE_EMBEDDED, FAILURE_TYPE_GENERAL, FAILURE_TYPE_NETWORK_LOSS, PFAILURE_TYPE, PFAILURE_TYPE enumeration pointer [Failover Cluster], _FAILURE_TYPE, mscs.failure_type, resapi/FAILURE_TYPE, resapi/FAILURE_TYPE_EMBEDDED, resapi/FAILURE_TYPE_GENERAL, resapi/FAILURE_TYPE_NETWORK_LOSS, resapi/PFAILURE_TYPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: resapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMetadata.GetLanguage
 title: IMFMetadata::GetLanguage
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current language setting.
 old-location: mf\imfmetadata_getlanguage.htm
 old-project: medfound
 ms.assetid: 75295c93-a389-42c4-aa56-debc36a5f532
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 75295c93-a389-42c4-aa56-debc36a5f532, GetLanguage, GetLanguage method [Media Foundation], GetLanguage method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetLanguage method, IMFMetadata.GetLanguage, IMFMetadata::GetLanguage, mf.imfmetadata_getlanguage, mfidl/IMFMetadata::GetLanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

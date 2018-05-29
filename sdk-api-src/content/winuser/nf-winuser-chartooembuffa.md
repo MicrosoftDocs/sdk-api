@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.CharToOemBuffA
 title: CharToOemBuffA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Translates a specified number of characters in a string into the OEM-defined character set.
 old-location: menurc\chartooembuff.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\chartooembuff.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CharToOemBuff, CharToOemBuff function [Menus and Other Resources], CharToOemBuffA, CharToOemBuffW, _win32_CharToOemBuff, _win32_chartooembuff_cpp, menurc.chartooembuff, winui._win32_chartooembuff, winuser/CharToOemBuff, winuser/CharToOemBuffA, winuser/CharToOemBuffW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

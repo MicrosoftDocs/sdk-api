@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyJob4.GetOwnerElevationState
 title: IBackgroundCopyJob4::GetOwnerElevationState
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that determines if the token of the owner was elevated at the time they created or took ownership of the job.
 old-location: bits\ibackgroundcopyjob4_getownerelevationstate.htm
 old-project: Bits
 ms.assetid: 2ab62c27-5ba1-46f3-a5e9-020fde17a1ef
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetOwnerElevationState, GetOwnerElevationState method [BITS], GetOwnerElevationState method [BITS],IBackgroundCopyJob4 interface, IBackgroundCopyJob4 interface [BITS],GetOwnerElevationState method, IBackgroundCopyJob4.GetOwnerElevationState, IBackgroundCopyJob4::GetOwnerElevationState, bits.ibackgroundcopyjob4_getownerelevationstate, bits3_0/IBackgroundCopyJob4::GetOwnerElevationState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.EnableModeless
 title: ISyncMgrSynchronizeCallback::EnableModeless
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the registered application before and after any dialog boxes are displayed from within the PrepareForSync and Synchronize methods.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_enablemodeless.htm
 old-project: shell
 ms.assetid: 00102220-3734-40f2-ae6c-2807e44e17a1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnableModeless, EnableModeless method [Windows Shell], EnableModeless method [Windows Shell],ISyncMgrSynchronizeCallback interface, ISyncMgrSynchronizeCallback interface [Windows Shell],EnableModeless method, ISyncMgrSynchronizeCallback.EnableModeless, ISyncMgrSynchronizeCallback::EnableModeless, mobsync/ISyncMgrSynchronizeCallback::EnableModeless, shell.syncmgr_isyncmgrsynchronizecallback_enablemodeless, syncmgr.isyncmgrsynchronizecallback_enablemodeless
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingImportDone
 title: RpcNsBindingImportDone function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsBindingImportDone function signals that a client has finished looking for a compatible server and deletes the import context.
 old-location: rpc\rpcnsbindingimportdone.htm
 old-project: Rpc
 ms.assetid: 093c988a-5d88-45b5-b69a-f26962118fdb
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsBindingImportDone, RpcNsBindingImportDone function [RPC], _rpc_rpcnsbindingimportdone, rpc.rpcnsbindingimportdone, rpcnsi/RpcNsBindingImportDone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

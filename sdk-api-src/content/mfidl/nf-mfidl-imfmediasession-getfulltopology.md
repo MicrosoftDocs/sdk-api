@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaSession.GetFullTopology
 title: IMFMediaSession::GetFullTopology
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a topology from the Media Session.
 old-location: mf\imfmediasession_getfulltopology.htm
 old-project: medfound
 ms.assetid: 6899dbe2-a684-487f-ab56-8631b3d5a033
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 6899dbe2-a684-487f-ab56-8631b3d5a033, GetFullTopology, GetFullTopology method [Media Foundation], GetFullTopology method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetFullTopology method, IMFMediaSession.GetFullTopology, IMFMediaSession::GetFullTopology, mf.imfmediasession_getfulltopology, mfidl/IMFMediaSession::GetFullTopology
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

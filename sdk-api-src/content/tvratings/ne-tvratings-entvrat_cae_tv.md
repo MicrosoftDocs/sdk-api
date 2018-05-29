@@ -1,16 +1,16 @@
 ---
 UID: NE:tvratings.EnTvRat_CAE_TV
 title: EnTvRat_CAE_TV
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\entvrat_cae_tv.htm
 old-project: mstv
 ms.assetid: 62dafa54-045d-4568-bd75-ab4667544f52
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CAE_TV_14, CAE_TV_18, CAE_TV_C, CAE_TV_C8, CAE_TV_Exempt, CAE_TV_G, CAE_TV_PG, CAE_TV_Reserved, EnTvRat_CAE_TV, EnTvRat_CAE_TV enumeration [Microsoft TV Technologies], mstv.entvrat_cae_tv, tvratings/CAE_TV_14, tvratings/CAE_TV_18, tvratings/CAE_TV_C, tvratings/CAE_TV_C8, tvratings/CAE_TV_Exempt, tvratings/CAE_TV_G, tvratings/CAE_TV_PG, tvratings/CAE_TV_Reserved, tvratings/EnTvRat_CAE_TV
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tvratings.h
 req.include-header: 

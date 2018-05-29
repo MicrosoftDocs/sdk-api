@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpUserModeInitializeFn
 title: SpUserModeInitializeFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when a security support provider/authentication package (SSP/AP) DLL is loaded into the process space of a client/server application. This function provides the SECPKG_USER_FUNCTION_TABLE tables for each security package in the SSP/AP DLL.
 old-location: security\spusermodeinitialize.htm
 old-project: SecAuthN
 ms.assetid: e260db29-995b-4f32-b389-4ef62b3b29bc
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SpUserModeInitialize, SpUserModeInitialize function [Security], SpUserModeInitializeFn, _ssp_spusermodeinitialize, ntsecpkg/SpUserModeInitialize, security.spusermodeinitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

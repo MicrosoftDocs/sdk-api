@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.MapDebugInformation
 title: MapDebugInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains access to the debugging information for an image.
 old-location: base\mapdebuginformation.htm
 old-project: Debug
 ms.assetid: 749a2a99-f6c4-4af3-aa0b-8a7bb5c690da
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: MapDebugInformation, MapDebugInformation function, _win32_mapdebuginformation, base.mapdebuginformation, dbghelp/MapDebugInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

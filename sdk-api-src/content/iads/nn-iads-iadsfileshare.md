@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsFileShare
 title: IADsFileShare
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsFileShare interface is a dual interface that inherits from IADs. It is designed for representing a published file share across the network. Call the methods on IADsFileShare to access or publish data about a file share point.
 old-location: adsi\iadsfileshare.htm
 old-project: ADSI
 ms.assetid: 37695195-fc33-499d-98c1-ccfd190cb2f9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsFileShare, IADsFileShare interface [ADSI], IADsFileShare interface [ADSI],described, _ds_iadsfileshare, adsi.iadsfileshare, iads/IADsFileShare
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

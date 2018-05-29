@@ -1,16 +1,16 @@
 ---
 UID: NS:dvp._DDVIDEOPORTCAPS
 title: "_DDVIDEOPORTCAPS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDVIDEOPORTCAPS structure describes the capabilities and alignment restrictions of a hardware video port.
 old-location: display\ddvideoportcaps.htm
 old-project: display
 ms.assetid: ea85f189-7308-48ad-b159-1809749f8183
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPDDVIDEOPORTCAPS, DDVIDEOPORTCAPS, DDVIDEOPORTCAPS structure [Display Devices], _DDVIDEOPORTCAPS, ddstrcts_6955b71e-772c-41a5-9aa0-7d0247fc9d0a.xml, display.ddvideoportcaps, dvp/DDVIDEOPORTCAPS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvp.h
 req.include-header: Dvp.h

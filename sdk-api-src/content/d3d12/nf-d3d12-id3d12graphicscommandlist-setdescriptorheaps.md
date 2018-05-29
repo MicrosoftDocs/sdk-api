@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetDescriptorHeaps
 title: ID3D12GraphicsCommandList::SetDescriptorHeaps
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes the currently bound descriptor heaps that are associated with a command list.
 old-location: direct3d12\id3d12graphicscommandlist_setdescriptorheaps.htm
 old-project: direct3d12
 ms.assetid: EE475B68-1DCA-44D4-994E-717D40F47DFA
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetDescriptorHeaps method, ID3D12GraphicsCommandList.SetDescriptorHeaps, ID3D12GraphicsCommandList::SetDescriptorHeaps, SetDescriptorHeaps, SetDescriptorHeaps method, SetDescriptorHeaps method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetDescriptorHeaps, direct3d12.id3d12graphicscommandlist_setdescriptorheaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11_2.D3D11_TILE_SHAPE
 title: D3D11_TILE_SHAPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the shape of a tile by specifying its dimensions.
 old-location: direct3d11\d3d11_tile_shape.htm
 old-project: direct3d11
 ms.assetid: B4B9D82C-2890-4CC4-AB5C-026FBD931B4E
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_TILE_SHAPE, D3D11_TILE_SHAPE structure [Direct3D 11], d3d11_2/D3D11_TILE_SHAPE, direct3d11.d3d11_tile_shape
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:ocidl.tagPOINTERINACTIVE
 title: tagPOINTERINACTIVE
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicate the activation policy of the object and are used in the IPointerInactive::GetActivationPolicy method.
 old-location: com\pointerinactive.htm
 old-project: com
 ms.assetid: b955af46-14bd-45b0-a4ef-b705e5d45a38
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: POINTERINACTIVE, POINTERINACTIVE enumeration [COM], POINTERINACTIVE_ACTIVATEONDRAG, POINTERINACTIVE_ACTIVATEONENTRY, POINTERINACTIVE_DEACTIVATEONLEAVE, _ctrl_POINTERINACTIVE, com.pointerinactive, ocidl/POINTERINACTIVE, ocidl/POINTERINACTIVE_ACTIVATEONDRAG, ocidl/POINTERINACTIVE_ACTIVATEONENTRY, ocidl/POINTERINACTIVE_DEACTIVATEONLEAVE, tagPOINTERINACTIVE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 

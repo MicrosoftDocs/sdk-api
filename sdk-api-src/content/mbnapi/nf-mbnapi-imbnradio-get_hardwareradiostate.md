@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnRadio.get_HardwareRadioState
 title: IMbnRadio::get_HardwareRadioState
-author: windows-driver-content
+author: windows-sdk-content
 description: The hardware radio state of a Mobile Broadband device.
 old-location: mbn\imbnradio_hardwareradiostate.htm
 old-project: mbn
 ms.assetid: 2958a443-b4c2-43f3-b0b3-956c6b2dca2d
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: HardwareRadioState property [Microsoft Broadband Networks], HardwareRadioState property [Microsoft Broadband Networks],IMbnRadio interface, IMbnRadio interface [Microsoft Broadband Networks],HardwareRadioState property, IMbnRadio.HardwareRadioState, IMbnRadio.get_HardwareRadioState, IMbnRadio::HardwareRadioState, IMbnRadio::get_HardwareRadioState, get_HardwareRadioState, mbn.imbnradio_hardwareradiostate, mbnapi/IMbnRadio::HardwareRadioState, mbnapi/IMbnRadio::get_HardwareRadioState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

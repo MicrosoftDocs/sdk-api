@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsVdProvider
 title: IVdsVdProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods for creating and managing virtual disks.
 old-location: base\ivdsvdprovider.htm
 old-project: VDS
 ms.assetid: 812e8ac5-91c5-455a-94e7-2edf55d92cdc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsVdProvider, IVdsVdProvider interface, IVdsVdProvider interface,described, base.ivdsvdprovider, vds/IVdsVdProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

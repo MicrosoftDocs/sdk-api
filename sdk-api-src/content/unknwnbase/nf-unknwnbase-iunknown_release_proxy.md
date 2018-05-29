@@ -1,16 +1,16 @@
 ---
 UID: NF:unknwnbase.IUnknown_Release_Proxy
 title: IUnknown_Release_Proxy function
-author: windows-driver-content
+author: windows-sdk-content
 description: The IUnknown_Release_Proxy function implements the Release method for all interface proxies.
 old-location: rpc\iunknown_release_proxy.htm
 old-project: Rpc
 ms.assetid: 55a1fa04-bd14-4867-b0ca-42574d71169a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: IUnknown_Release_Proxy, IUnknown_Release_Proxy function [RPC], rpc.iunknown_release_proxy, unknwnbase/IUnknown_Release_Proxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: unknwnbase.h
 req.include-header: Unknwn.h

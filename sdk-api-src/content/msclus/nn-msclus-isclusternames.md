@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusterNames
 title: ISClusterNames
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the names of the clusters in a domain.
 old-location: mscs\clusternames_collection.htm
 old-project: MsCS
 ms.assetid: c4e29498-c4e2-4351-8eed-05bc73437485
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterNames, ClusterNames collection [Failover Cluster], ClusterNames collection [Failover Cluster],described, ISClusterNames, _wolf_clusternames_collection, msclus/ClusterNames, mscs.clusternames_collection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

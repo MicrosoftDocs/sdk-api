@@ -1,16 +1,16 @@
 ---
 UID: NF:xamlom.IVisualTreeService.AdviseVisualTreeChange
 title: IVisualTreeService::AdviseVisualTreeChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts listening for changes to the visual tree.
 old-location: xaml_diagnostics\ivisualtreeservice_advisevisualtreechange.htm
 old-project: xaml_diagnostics
 ms.assetid: 83971154-4E40-474C-91AD-2436B1D02CB8
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: AdviseVisualTreeChange, AdviseVisualTreeChange method, AdviseVisualTreeChange method,IVisualTreeService interface, IVisualTreeService interface,AdviseVisualTreeChange method, IVisualTreeService.AdviseVisualTreeChange, IVisualTreeService::AdviseVisualTreeChange, xaml_diagnostics.ivisualtreeservice_advisevisualtreechange, xamlom/IVisualTreeService::AdviseVisualTreeChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

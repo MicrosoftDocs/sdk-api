@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetRequestId
 title: IXpsSignatureRequest::GetRequestId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the unique identifier of the signature request.
 old-location: xps\ixpssignaturerequest_getrequestid.htm
 old-project: printdocs
 ms.assetid: abca5fdf-258b-4ce8-8b29-eae9a6d17cd7
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetRequestId, GetRequestId method [XPS Documents and Packaging], GetRequestId method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetRequestId method, IXpsSignatureRequest.GetRequestId, IXpsSignatureRequest::GetRequestId, xps.ixpssignaturerequest_getrequestid, xpsdigitalsignature/IXpsSignatureRequest::GetRequestId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

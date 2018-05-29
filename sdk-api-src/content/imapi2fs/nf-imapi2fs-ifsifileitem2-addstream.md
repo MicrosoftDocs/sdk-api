@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.AddStream
 title: IFsiFileItem2::AddStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates a named stream with a specific file in the file system image.
 old-location: imapi\ifsifileitem2_addstream.htm
 old-project: imapi
 ms.assetid: 5235fc56-4ab6-4ecb-95b4-2498c7463bf2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: AddStream, AddStream method [IMAPI], AddStream method [IMAPI],IFsiFileItem2 interface, IFsiFileItem2 interface [IMAPI],AddStream method, IFsiFileItem2.AddStream, IFsiFileItem2::AddStream, imapi.ifsifileitem2_addstream, imapi2fs/IFsiFileItem2::AddStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

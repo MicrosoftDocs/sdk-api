@@ -1,16 +1,16 @@
 ---
 UID: NF:faxroute.FaxRouteDeviceEnable
 title: FaxRouteDeviceEnable function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FaxRouteDeviceEnable function allows a fax routing extension DLL to query, enable, or disable a fax routing method for a specific fax device. Each fax routing extension must export the FaxRouteDeviceEnable function.
 old-location: fax\_mfax_faxroutedeviceenable.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_771h.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxRouteDeviceEnable, FaxRouteDeviceEnable function [Fax Service], QUERY_STATUS, STATUS_DISABLE, STATUS_ENABLE, _mfax_faxroutedeviceenable, fax._mfax_faxroutedeviceenable, faxroute/FaxRouteDeviceEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: faxroute.h
 req.include-header: 

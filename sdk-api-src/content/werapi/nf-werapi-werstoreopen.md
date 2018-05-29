@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerStoreOpen
 title: WerStoreOpen function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the collection of stored error reports.
 old-location: wer\werstoreopen.htm
 old-project: wer
 ms.assetid: FA7E0EC6-00F1-45E2-BE34-D732965FBA15
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WerStoreOpen, WerStoreOpen function [Windows Error Reporting], wer.werstoreopen, werapi/WerStoreOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

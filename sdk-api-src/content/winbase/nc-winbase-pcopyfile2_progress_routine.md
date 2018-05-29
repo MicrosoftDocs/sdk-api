@@ -1,16 +1,16 @@
 ---
 UID: NC:winbase.PCOPYFILE2_PROGRESS_ROUTINE
 title: PCOPYFILE2_PROGRESS_ROUTINE
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function used with the CopyFile2 function.
 old-location: fs\copyfile2progressroutine.htm
 old-project: FileIO
 ms.assetid: d14b5f5b-c353-49e8-82bb-a695a3ec76fd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CopyFile2ProgressRoutine, CopyFile2ProgressRoutine callback function [Files], PCOPYFILE2_PROGRESS_ROUTINE, PCOPYFILE2_PROGRESS_ROUTINE callback, fs.copyfile2progressroutine, winbase/CopyFile2ProgressRoutine, winbase/PCOPYFILE2_PROGRESS_ROUTINE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbase.h
 req.include-header: Windows.h

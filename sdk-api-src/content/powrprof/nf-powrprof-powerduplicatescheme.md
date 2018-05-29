@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.PowerDuplicateScheme
 title: PowerDuplicateScheme function
-author: windows-driver-content
+author: windows-sdk-content
 description: Duplicates an existing power scheme.
 old-location: base\powerduplicatescheme.htm
 old-project: Power
 ms.assetid: e58dee69-309c-4b52-bf28-f54b300801b9
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: PowerDuplicateScheme, PowerDuplicateScheme function, base.powerduplicatescheme, powrprof/PowerDuplicateScheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

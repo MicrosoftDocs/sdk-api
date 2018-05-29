@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.QualTspecParms
 title: QualTspecParms
-author: windows-driver-content
+author: windows-sdk-content
 description: The QualTspecParms structure contains qualitative Tspec parameters.
 old-location: qos\qualtspecparms.htm
 old-project: QOS
 ms.assetid: f9afa6f9-1de7-469e-a317-2dea98c8291c
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: QualTspecParms, QualTspecParms structure [QOS], lpmapi/QualTspecParms, qos.qualtspecparms
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

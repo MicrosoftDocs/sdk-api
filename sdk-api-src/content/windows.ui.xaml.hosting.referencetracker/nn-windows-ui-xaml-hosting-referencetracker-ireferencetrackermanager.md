@@ -1,16 +1,16 @@
 ---
 UID: NN:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerManager
 title: IReferenceTrackerManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the interface for a XAML object reference manager. Implement this interface to manage instances of IReferenceTracker on XAML objects.
 old-location: winrt\ireferencetrackermanager.htm
 old-project: WinRT
 ms.assetid: bdac39a0-a51a-49cc-b554-58450c722a46
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IReferenceTrackerManager, IReferenceTrackerManager interface [Windows Runtime], IReferenceTrackerManager interface [Windows Runtime],described, windows/IReferenceTrackerManager, winrt.ireferencetrackermanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 

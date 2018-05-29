@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
 title: "_CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the length, in bits, of the public key and the names of the signing and hashing algorithms used for strong signing.
 old-location: security\crypt_verify_cert_sign_strong_properties_info.htm
 old-project: SecCrypto
 ms.assetid: 7D68DE3D-B05D-4E06-9BA1-72E407E5FED2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO structure [Security], PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO structure pointer [Security], _CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, security.crypt_verify_cert_sign_strong_properties_info, wincrypt/CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, wincrypt/PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

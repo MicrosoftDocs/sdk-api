@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateTopologyNode
 title: MFCreateTopologyNode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a topology node.
 old-location: mf\mfcreatetopologynode.htm
 old-project: medfound
 ms.assetid: 67c32232-09cb-4098-b80b-4b93ee121190
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 67c32232-09cb-4098-b80b-4b93ee121190, MFCreateTopologyNode, MFCreateTopologyNode function [Media Foundation], mf.mfcreatetopologynode, mfidl/MFCreateTopologyNode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

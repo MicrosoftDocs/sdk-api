@@ -1,16 +1,16 @@
 ---
 UID: NF:dmort.MoDuplicateMediaType
 title: MoDuplicateMediaType function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MoDuplicateMediaType function duplicates a media type structure.
 old-location: dshow\moduplicatemediatype.htm
 old-project: DirectShow
 ms.assetid: 8804ec3f-98c7-4305-a02c-67f5e560b4f7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: MoDuplicateMediaType, MoDuplicateMediaType function [DirectShow], dmort/MoDuplicateMediaType, dshow.moduplicatemediatype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dmort.h
 req.include-header: Dmo.h

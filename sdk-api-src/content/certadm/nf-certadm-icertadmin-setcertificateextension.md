@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.ICertAdmin.SetCertificateExtension
 title: ICertAdmin::SetCertificateExtension
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a new extension to the certificate issued in response to a certificate request. This method was first defined by the ICertAdmin interface.
 old-location: security\icertadmin2_setcertificateextension.htm
 old-project: SecCrypto
 ms.assetid: d26061da-acc3-45d8-93de-f2d431d350a6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertAdmin interface [Security],SetCertificateExtension method, EXTENSION_CRITICAL_FLAG, EXTENSION_DISABLE_FLAG, ICertAdmin interface [Security],SetCertificateExtension method, ICertAdmin.SetCertificateExtension, ICertAdmin2 interface [Security],SetCertificateExtension method, ICertAdmin2::SetCertificateExtension, ICertAdmin::SetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCertificateExtension, SetCertificateExtension method [Security], SetCertificateExtension method [Security],CCertAdmin interface, SetCertificateExtension method [Security],ICertAdmin interface, SetCertificateExtension method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetCertificateExtension, certadm/ICertAdmin::SetCertificateExtension, security.icertadmin2_setcertificateextension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

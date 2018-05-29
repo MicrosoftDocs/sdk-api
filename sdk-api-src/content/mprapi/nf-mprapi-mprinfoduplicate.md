@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprInfoDuplicate
 title: MprInfoDuplicate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprInfoDuplicate function duplicates an existing information header.
 old-location: rras\mprinfoduplicate.htm
 old-project: RRAS
 ms.assetid: 446e93a0-8de5-4117-94fe-6f167da1acef
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprInfoDuplicate, MprInfoDuplicate function [RAS], _mpr_mprinfoduplicate, mprapi/MprInfoDuplicate, rras.mprinfoduplicate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

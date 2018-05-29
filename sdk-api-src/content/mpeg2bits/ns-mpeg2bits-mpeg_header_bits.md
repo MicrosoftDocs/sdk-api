@@ -1,16 +1,16 @@
 ---
 UID: NS:mpeg2bits.MPEG_HEADER_BITS
 title: MPEG_HEADER_BITS
-author: windows-driver-content
+author: windows-sdk-content
 description: The MPEG_HEADER_BITS structure contains the first 16 bits that follow the table_id in a generic MPEG-2 section header.
 old-location: mstv\mpeg_header_bits.htm
 old-project: mstv
 ms.assetid: e25d36af-ee72-4986-8d96-2bce8b19ac80
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PMPEG_HEADER_BITS, MPEG_HEADER_BITS, MPEG_HEADER_BITS structure [Microsoft TV Technologies], MPEG_HEADER_BITSStructure, PMPEG_HEADER_BITS, PMPEG_HEADER_BITS structure pointer [Microsoft TV Technologies], mpeg2bits/MPEG_HEADER_BITS, mpeg2bits/PMPEG_HEADER_BITS, mstv.mpeg_header_bits"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mpeg2bits.h
 req.include-header: Mpeg2Structs.h

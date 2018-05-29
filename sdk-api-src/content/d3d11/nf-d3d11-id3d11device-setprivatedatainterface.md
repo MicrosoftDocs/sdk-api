@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11Device.SetPrivateDataInterface
 title: ID3D11Device::SetPrivateDataInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: Associate an IUnknown-derived interface with this device child and associate that interface with an application-defined guid.
 old-location: direct3d11\id3d11device_setprivatedatainterface.htm
 old-project: direct3d11
 ms.assetid: 65b4461d-bfbb-4de1-84f8-6294fde12980
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11Device interface [Direct3D 11],SetPrivateDataInterface method, ID3D11Device.SetPrivateDataInterface, ID3D11Device::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method [Direct3D 11], SetPrivateDataInterface method [Direct3D 11],ID3D11Device interface, c27aaa23-b80d-2dcf-0f00-1b62c5fb3acb, d3d11/ID3D11Device::SetPrivateDataInterface, direct3d11.id3d11device_setprivatedatainterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

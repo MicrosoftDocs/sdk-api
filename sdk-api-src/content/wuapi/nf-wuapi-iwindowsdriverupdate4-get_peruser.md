@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate4.get_PerUser
 title: IWindowsDriverUpdate4::get_PerUser
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a Boolean value that indicates whether an update is a per-user update.
 old-location: wua\iwindowsdriverupdate4_peruser.htm
 old-project: Wua_Sdk
 ms.assetid: 97e1ede2-9b7d-46af-b3a5-d0860eaa9dce
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWindowsDriverUpdate4 interface [Windows Update Agent],PerUser property, IWindowsDriverUpdate4.PerUser, IWindowsDriverUpdate4.get_PerUser, IWindowsDriverUpdate4::PerUser, IWindowsDriverUpdate4::get_PerUser, PerUser property [Windows Update Agent], PerUser property [Windows Update Agent],IWindowsDriverUpdate4 interface, get_PerUser, wua.iwindowsdriverupdate4_peruser, wuapi/IWindowsDriverUpdate4::PerUser, wuapi/IWindowsDriverUpdate4::get_PerUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

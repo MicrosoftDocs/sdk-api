@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngGradientFill
 title: EngGradientFill function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngGradientFill function shades the specified primitives.
 old-location: display\enggradientfill.htm
 old-project: display
 ms.assetid: 1005f89f-65cf-49bb-8377-3581fdc9c654
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngGradientFill, EngGradientFill function [Display Devices], display.enggradientfill, gdifncs_7f0502d6-5e1b-4780-9e59-3bbddf29d7c7.xml, winddi/EngGradientFill
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

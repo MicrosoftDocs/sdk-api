@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_SET_CALIBRATION_FORMAT_FN
 title: PIBIO_SENSOR_SET_CALIBRATION_FORMAT_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the sensor adapter that a particular calibration data format has been selected by the engine adapter.
 old-location: secbiomet\sensoradaptersetcalibrationformat.htm
 old-project: SecBioMet
 ms.assetid: 06BC3CBF-AB51-47C8-BCFB-ADC3D920F27B
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: PIBIO_SENSOR_SET_CALIBRATION_FORMAT_FN, PIBIO_SENSOR_SET_CALIBRATION_FORMAT_FN callback, SensorAdapterSetCalibrationFormat, SensorAdapterSetCalibrationFormat callback function [Windows Biometric Framework API], secbiomet.sensoradaptersetcalibrationformat, winbio_adapter/SensorAdapterSetCalibrationFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

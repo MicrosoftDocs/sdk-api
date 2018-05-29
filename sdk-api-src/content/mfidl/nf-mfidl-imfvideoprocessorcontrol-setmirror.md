@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetMirror
 title: IMFVideoProcessorControl::SetMirror
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether to flip the video image.
 old-location: mf\imfvideoprocessorcontrol_setmirror.htm
 old-project: medfound
 ms.assetid: 4529FEE5-7FDF-4EFF-93C1-E20A63186496
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetMirror method, IMFVideoProcessorControl.SetMirror, IMFVideoProcessorControl::SetMirror, SetMirror, SetMirror method [Media Foundation], SetMirror method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setmirror, mfidl/IMFVideoProcessorControl::SetMirror
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IVideoWindow.SetWindowPosition
 title: IVideoWindow::SetWindowPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetWindowPosition method sets the position of the video window.
 old-location: dshow\ivideowindow_setwindowposition.htm
 old-project: DirectShow
 ms.assetid: 5e667044-1781-4380-b855-d15cf8cd2349
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoWindow interface [DirectShow],SetWindowPosition method, IVideoWindow.SetWindowPosition, IVideoWindow::SetWindowPosition, IVideoWindowSetWindowPosition, SetWindowPosition, SetWindowPosition method [DirectShow], SetWindowPosition method [DirectShow],IVideoWindow interface, control/IVideoWindow::SetWindowPosition, dshow.ivideowindow_setwindowposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

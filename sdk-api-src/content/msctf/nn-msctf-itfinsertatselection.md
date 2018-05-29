@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfInsertAtSelection
 title: ITfInsertAtSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfInsertAtSelection interface is implemented by the manager and is used by a text service to insert text or an embedded object in a context. The text service obtains this interface by calling ITfContext::QueryInterface.
 old-location: tsf\itfinsertatselection.htm
 old-project: TSF
 ms.assetid: bd303639-942f-4cb0-8d69-1715f85b6ef3
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfInsertAtSelection, ITfInsertAtSelection interface [Text Services Framework], ITfInsertAtSelection interface [Text Services Framework],described, _tsf_itfinsertatselection_ref, msctf/ITfInsertAtSelection, tsf.itfinsertatselection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

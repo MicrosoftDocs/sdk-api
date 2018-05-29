@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetSharpness
 title: IWICDevelopRaw::SetSharpness
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the sharpness value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_setsharpness.htm
 old-project: wic
 ms.assetid: 0c989362-0c76-4028-ac27-c49e3ec1c6fd
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetSharpness method, IWICDevelopRaw.SetSharpness, IWICDevelopRaw::SetSharpness, SetSharpness, SetSharpness method [Windows Imaging Component], SetSharpness method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setsharpness, wic._wic_codec_iwicdevelopraw_setsharpness, wincodec/IWICDevelopRaw::SetSharpness
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

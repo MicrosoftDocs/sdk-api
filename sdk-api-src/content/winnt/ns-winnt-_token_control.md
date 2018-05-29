@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._TOKEN_CONTROL
 title: "_TOKEN_CONTROL"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that identifies an access token.
 old-location: security\token_control.htm
 old-project: SecAuthZ
 ms.assetid: b87c942b-8e58-471d-8cdf-e46cdac647c4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PTOKEN_CONTROL, PTOKEN_CONTROL, PTOKEN_CONTROL structure pointer [Security], TOKEN_CONTROL, TOKEN_CONTROL structure [Security], _TOKEN_CONTROL, _win32_token_control_str, security.token_control, winnt/PTOKEN_CONTROL, winnt/TOKEN_CONTROL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

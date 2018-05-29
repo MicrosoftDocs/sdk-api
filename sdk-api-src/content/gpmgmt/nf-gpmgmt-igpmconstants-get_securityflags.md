@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMConstants.get_SecurityFlags
 title: IGPMConstants::get_SecurityFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of the SecurityFlags property, which represents the portion of the security descriptor to retrieve or set for a GPO.
 old-location: gpmc\igpmconstants_get_securityflags.htm
 old-project: GPMC
 ms.assetid: f9f950e1-b106-4907-a84a-ad20abfd02b1
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMConstants object [GPMC],SecurityFlags property, IGPMConstants interface [GPMC],SecurityFlags property, IGPMConstants.SecurityFlags, IGPMConstants.get_SecurityFlags, IGPMConstants::SecurityFlags, IGPMConstants::get_SecurityFlags, SecurityFlags property [GPMC], SecurityFlags property [GPMC],GPMConstants object, SecurityFlags property [GPMC],IGPMConstants interface, get_SecurityFlags, gpmc.igpmconstants_get_securityflags, gpmgmt/IGPMConstants::SecurityFlags, gpmgmt/IGPMConstants::get_SecurityFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

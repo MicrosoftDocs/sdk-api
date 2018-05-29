@@ -1,16 +1,16 @@
 ---
 UID: NE:p2p.peer_signin_flags_tag
 title: peer_signin_flags_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PEER_SIGNIN_FLAGS enumeration defines the set of peer presence publication behaviors available when the peer signs in to a peer collaboration network.
 old-location: p2p\peer_signin_flags.htm
 old-project: P2PSdk
 ms.assetid: 00b7f57a-222d-4152-bded-93f1899692da
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PEER_SIGNIN_ALL, PEER_SIGNIN_FLAGS, PEER_SIGNIN_FLAGS enumeration [Peer Networking], PEER_SIGNIN_INTERNET, PEER_SIGNIN_NEAR_ME, PEER_SIGNIN_NONE, p2p.peer_signin_flags, p2p/PEER_SIGNIN_ALL, p2p/PEER_SIGNIN_FLAGS, p2p/PEER_SIGNIN_INTERNET, p2p/PEER_SIGNIN_NEAR_ME, p2p/PEER_SIGNIN_NONE, peer_signin_flags_tag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 

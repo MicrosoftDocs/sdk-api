@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsReplicaVerifyObjectsW
 title: DsReplicaVerifyObjectsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies all objects for a naming context with a source.
 old-location: ad\dsreplicaverifyobjects.htm
 old-project: AD
 ms.assetid: d0e139dc-6aaf-47e1-a76f-4e84f17aa7c6
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_EXIST_ADVISORY_MODE, DsReplicaVerifyObjects, DsReplicaVerifyObjects function [Active Directory], DsReplicaVerifyObjectsA, DsReplicaVerifyObjectsW, ad.dsreplicaverifyobjects, ntdsapi/DsReplicaVerifyObjects, ntdsapi/DsReplicaVerifyObjectsA, ntdsapi/DsReplicaVerifyObjectsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

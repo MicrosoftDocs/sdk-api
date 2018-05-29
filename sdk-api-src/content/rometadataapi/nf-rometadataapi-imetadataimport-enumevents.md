@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumEvents
 title: IMetaDataImport::EnumEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates event definition tokens for the specified TypeDef token.
 old-location: winrt\imetadataimport_enumevents.htm
 old-project: WinRT
 ms.assetid: 442b5db1-1e5f-4314-9c53-dbd0f0651d3c
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: EnumEvents, EnumEvents method [Windows Runtime], EnumEvents method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumEvents method, IMetaDataImport.EnumEvents, IMetaDataImport::EnumEvents, rometadataapi/IMetaDataImport::EnumEvents, winrt.imetadataimport_enumevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

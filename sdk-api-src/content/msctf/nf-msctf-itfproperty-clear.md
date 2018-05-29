@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfProperty.Clear
 title: ITfProperty::Clear
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfProperty::Clear method
 old-location: tsf\itfproperty_clear.htm
 old-project: TSF
 ms.assetid: bbfbbe0d-bea7-4c46-8b9c-6b607a761f48
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Clear, Clear method [Text Services Framework], Clear method [Text Services Framework],ITfProperty interface, ITfProperty interface [Text Services Framework],Clear method, ITfProperty.Clear, ITfProperty::Clear, _tsf_itfproperty_clear_ref, msctf/ITfProperty::Clear, tsf.itfproperty_clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

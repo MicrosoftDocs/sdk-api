@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdbase._WSD_CONFIG_PARAM
 title: "_WSD_CONFIG_PARAM"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents configuration parameters for creating WSDAPI objects.
 old-location: ncd\wsd_config_param.htm
 old-project: WsdApi
 ms.assetid: 58dc3e11-586e-4185-b1d0-4249b4bfb252
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PWSD_CONFIG_PARAM, WSD_CONFIG_PARAM, WSD_CONFIG_PARAM structure, _WSD_CONFIG_PARAM, ncd.wsd_config_param, wsdbase/WSD_CONFIG_PARAM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

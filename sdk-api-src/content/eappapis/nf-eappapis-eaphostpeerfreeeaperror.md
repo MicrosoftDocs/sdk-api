@@ -1,16 +1,16 @@
 ---
 UID: NF:eappapis.EapHostPeerFreeEapError
 title: EapHostPeerFreeEapError function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees EAP_ERROR structures returned by EAPHost run-time APIs.
 old-location: eaphost\eaphostpeerfreeeaperror.htm
 old-project: EAPHost
 ms.assetid: 36f9b5dd-821d-4cc5-a1dd-587098635d17
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerFreeEapError, EapHostPeerFreeEapError function [EAPHost], eaphost.eaphostpeerfreeeaperror, eappapis/EapHostPeerFreeEapError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

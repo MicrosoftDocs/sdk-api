@@ -1,16 +1,16 @@
 ---
 UID: NF:lmalert.NetAlertRaiseEx
 title: NetAlertRaiseEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetAlertRaiseEx function notifies all registered clients when a particular event occurs. You can call this extended function to simplify the sending of an alert message because NetAlertRaiseEx does not require that you specify a STD_ALERT structure.
 old-location: netmgmt\netalertraiseex.htm
 old-project: NetMgmt
 ms.assetid: 9762f0d6-0022-4e05-b2d8-6223d7bbb2c8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, NetAlertRaiseEx, NetAlertRaiseEx function [Network Management], _win32_netalertraiseex, lmalert/NetAlertRaiseEx, netmgmt.netalertraiseex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmalert.h
 req.include-header: Lm.h

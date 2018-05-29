@@ -1,16 +1,16 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink2.SetOutputMediaType
 title: IMFCaptureSink2::SetOutputMediaType
-author: windows-driver-content
+author: windows-sdk-content
 description: Dynamically sets the output media type of the record sink or preview sink.
 old-location: mf\imfcapturesink2_setoutputmediatype.htm
 old-project: medfound
 ms.assetid: e9a653c3-927b-4577-9a54-2d63f6b29c06
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCaptureSink2 interface [Media Foundation],SetOutputMediaType method, IMFCaptureSink2.SetOutputMediaType, IMFCaptureSink2::SetOutputMediaType, SetOutputMediaType, SetOutputMediaType method [Media Foundation], SetOutputMediaType method [Media Foundation],IMFCaptureSink2 interface, mf.imfcapturesink2_setoutputmediatype, mfcaptureengine/IMFCaptureSink2::SetOutputMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

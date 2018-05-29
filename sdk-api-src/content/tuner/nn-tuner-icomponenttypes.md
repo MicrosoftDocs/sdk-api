@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IComponentTypes
 title: IComponentTypes
-author: windows-driver-content
+author: windows-sdk-content
 description: The IComponentTypes interface is implemented on ComponentTypes objects and contains methods that enable applications to enumerate, add, remove and retrieve individual ComponentType objects. All ComponentTypes objects also support IPersistPropertyBag.
 old-location: mstv\icomponenttypes.htm
 old-project: mstv
 ms.assetid: 47c3837b-1348-4359-ad3d-3d82c5fe3781
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IComponentTypes, IComponentTypes interface [Microsoft TV Technologies], IComponentTypes interface [Microsoft TV Technologies],described, IComponentTypesInterface, mstv.icomponenttypes, tuner/IComponentTypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

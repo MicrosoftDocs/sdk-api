@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.RemoveStreamPrioritization
 title: IWMProfile3::RemoveStreamPrioritization
-author: windows-driver-content
+author: windows-sdk-content
 description: The RemoveStreamPrioritization method removes the stream prioritization object from the profile.
 old-location: wmformat\iwmprofile3_removestreamprioritization.htm
 old-project: wmformat
 ms.assetid: 1522cb9f-ce3f-4183-8779-3ee112efb40b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],RemoveStreamPrioritization method, IWMProfile3.RemoveStreamPrioritization, IWMProfile3::RemoveStreamPrioritization, IWMProfile3RemoveStreamPrioritization, RemoveStreamPrioritization, RemoveStreamPrioritization method [windows Media Format], RemoveStreamPrioritization method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_removestreamprioritization, wmsdkidl/IWMProfile3::RemoveStreamPrioritization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:dinputd.DIFFOBJECTATTRIBUTES
 title: DIFFOBJECTATTRIBUTES
-author: windows-driver-content
+author: windows-sdk-content
 description: The DIFFOBJECTATTRIBUTES structure describes the information contained in the &#0034;FFAttributes&#0034; value of the registry key for each &#0034;object&#0034; on a force-feedback device.
 old-location: hid\diffobjectattributes.htm
 old-project: hid
 ms.assetid: b5006cf1-619d-4521-b902-ab89a3f079a4
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPDIFFOBJECTATTRIBUTES, DIFFOBJECTATTRIBUTES, DIFFOBJECTATTRIBUTES structure [Human Input Devices], di_ref_d710ceb3-0885-4f22-a4f3-326f24a1e29f.xml, dinputd/DIFFOBJECTATTRIBUTES, hid.diffobjectattributes"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: Dinputd.h

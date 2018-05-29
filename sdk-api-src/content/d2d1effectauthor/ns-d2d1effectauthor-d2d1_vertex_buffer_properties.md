@@ -1,16 +1,16 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_VERTEX_BUFFER_PROPERTIES
 title: D2D1_VERTEX_BUFFER_PROPERTIES
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the properties of a vertex buffer that are standard for all vertex shader definitions.
 old-location: direct2d\d2d1_vertex_buffer_properties.htm
 old-project: Direct2D
 ms.assetid: d2f46c31-10f3-4318-8185-40a6bbd8ef8a
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_VERTEX_BUFFER_PROPERTIES, D2D1_VERTEX_BUFFER_PROPERTIES structure [Direct2D], d2d1effectauthor/D2D1_VERTEX_BUFFER_PROPERTIES, direct2d.d2d1_vertex_buffer_properties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1effectauthor.h
 req.include-header: 

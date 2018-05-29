@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineProxyResponse
 title: lineProxyResponse function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates completion of a proxy request by a registered proxy handler, such as an ACD agent handler on a server.
 old-location: tapi2\lineproxyresponse.htm
 old-project: Tapi
 ms.assetid: af774fc5-d013-4da2-a737-9e99c09456a0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_lineproxyresponse, lineProxyResponse, lineProxyResponse function [TAPI 2.2], tapi/lineProxyResponse, tapi2.lineproxyresponse"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

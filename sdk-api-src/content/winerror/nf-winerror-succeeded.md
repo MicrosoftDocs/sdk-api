@@ -1,16 +1,16 @@
 ---
 UID: NF:winerror.SUCCEEDED
 title: SUCCEEDED macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a generic test for success on any status value.
 old-location: com\succeeded_macro.htm
 old-project: com
 ms.assetid: 7a258b0b-d214-46c5-be0a-6493cd14a0e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SUCCEEDED, SUCCEEDED macro [COM], _com_SUCCEEDED, com.succeeded, com.succeeded_macro, winerror/SUCCEEDED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winerror.h
 req.include-header: 

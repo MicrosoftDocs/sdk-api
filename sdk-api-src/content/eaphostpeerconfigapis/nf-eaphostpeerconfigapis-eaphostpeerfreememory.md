@@ -1,16 +1,16 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerFreeMemory
 title: EapHostPeerFreeMemory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees memory returned by the configuration APIs.
 old-location: eaphost\eaphostpeerfreememory.htm
 old-project: EAPHost
 ms.assetid: 162c796c-b9dc-465a-a1bc-f11d740f3fa0
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerFreeMemory, EapHostPeerFreeMemory function [EAPHost], eaphost.eaphostpeerfreememory, eaphostpeerconfigapis/EapHostPeerFreeMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 

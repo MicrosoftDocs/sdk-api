@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11.D3D11_RTV_DIMENSION
 title: D3D11_RTV_DIMENSION
-author: windows-driver-content
+author: windows-sdk-content
 description: These flags identify the type of resource that will be viewed as a render target.
 old-location: direct3d11\d3d11_rtv_dimension.htm
 old-project: direct3d11
 ms.assetid: 42cbd3ec-fa8a-48ea-be88-bbe46db13566
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 3ae03219-f0f0-843c-5eb9-caae0782e153, D3D11_RTV_DIMENSION, D3D11_RTV_DIMENSION enumeration [Direct3D 11], D3D11_RTV_DIMENSION_BUFFER, D3D11_RTV_DIMENSION_TEXTURE1D, D3D11_RTV_DIMENSION_TEXTURE1DARRAY, D3D11_RTV_DIMENSION_TEXTURE2D, D3D11_RTV_DIMENSION_TEXTURE2DARRAY, D3D11_RTV_DIMENSION_TEXTURE2DMS, D3D11_RTV_DIMENSION_TEXTURE2DMSARRAY, D3D11_RTV_DIMENSION_TEXTURE3D, D3D11_RTV_DIMENSION_UNKNOWN, d3d11/D3D11_RTV_DIMENSION, d3d11/D3D11_RTV_DIMENSION_BUFFER, d3d11/D3D11_RTV_DIMENSION_TEXTURE1D, d3d11/D3D11_RTV_DIMENSION_TEXTURE1DARRAY, d3d11/D3D11_RTV_DIMENSION_TEXTURE2D, d3d11/D3D11_RTV_DIMENSION_TEXTURE2DARRAY, d3d11/D3D11_RTV_DIMENSION_TEXTURE2DMS, d3d11/D3D11_RTV_DIMENSION_TEXTURE2DMSARRAY, d3d11/D3D11_RTV_DIMENSION_TEXTURE3D, d3d11/D3D11_RTV_DIMENSION_UNKNOWN, direct3d11.d3d11_rtv_dimension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 

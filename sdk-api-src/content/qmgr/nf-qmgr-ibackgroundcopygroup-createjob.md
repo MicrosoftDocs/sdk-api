@@ -1,16 +1,16 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.CreateJob
 title: IBackgroundCopyGroup::CreateJob
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the CreateJob method to add a new job to the group. A group can contain only one job.
 old-location: bits\ibackgroundcopygroup_createjob.htm
 old-project: Bits
 ms.assetid: 2453996e-f994-43b9-901b-680a55095268
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CreateJob, CreateJob method [BITS], CreateJob method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],CreateJob method, IBackgroundCopyGroup.CreateJob, IBackgroundCopyGroup::CreateJob, bits.ibackgroundcopygroup_createjob, qmgr/IBackgroundCopyGroup::CreateJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qmgr.h
 req.include-header: 

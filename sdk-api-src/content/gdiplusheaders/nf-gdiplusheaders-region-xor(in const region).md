@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Region.Xor(IN const Region)
 title: Region::Xor(IN const Region)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the Xor methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
 old-location: gdiplus\_gdiplus_CLASS_Region_Xor_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionxormethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Region.Xor, Region.Xor(IN const Region), Region::Xor, Region::Xor(IN const Region), Xor, Xor methods [GDI+], _gdiplus_CLASS_Region_Xor_Methods, gdiplus._gdiplus_CLASS_Region_Xor_Methods, gdiplusheaders/Xor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 

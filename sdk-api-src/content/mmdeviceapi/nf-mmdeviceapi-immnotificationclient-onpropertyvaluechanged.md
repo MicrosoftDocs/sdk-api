@@ -1,16 +1,16 @@
 ---
 UID: NF:mmdeviceapi.IMMNotificationClient.OnPropertyValueChanged
 title: IMMNotificationClient::OnPropertyValueChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnPropertyValueChanged method indicates that the value of a property belonging to an audio endpoint device has changed.
 old-location: coreaudio\immnotificationclient_onpropertyvaluechanged.htm
 old-project: CoreAudio
 ms.assetid: 194aa7d1-4885-49c4-b9c3-2c47468c139f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnPropertyValueChanged method, IMMNotificationClient.OnPropertyValueChanged, IMMNotificationClient::OnPropertyValueChanged, IMMNotificationClientOnPropertyValueChanged, OnPropertyValueChanged, OnPropertyValueChanged method [Core Audio], OnPropertyValueChanged method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_onpropertyvaluechanged, mmdeviceapi/IMMNotificationClient::OnPropertyValueChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 

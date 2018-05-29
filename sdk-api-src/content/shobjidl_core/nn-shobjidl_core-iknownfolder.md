@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IKnownFolder
 title: IKnownFolder
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that allow an application to retrieve information about a known folder's category, type, GUID, pointer to an item identifier list (PIDL) value, redirection capabilities, and definition.
 old-location: shell\IKnownFolder.htm
 old-project: shell
 ms.assetid: dbade93d-73f6-401b-9986-4e6fd439c874
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IKnownFolder, IKnownFolder interface [Windows Shell], IKnownFolder interface [Windows Shell],described, _shell_IKnownFolder, shell.IKnownFolder, shobjidl_core/IKnownFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

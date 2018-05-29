@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11RefDefaultTrackingOptions.SetTrackingOptions
 title: ID3D11RefDefaultTrackingOptions::SetTrackingOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets graphics processing unit (GPU) debug reference default tracking options for specific resource types.
 old-location: direct3d11\id3d11refdefaulttrackingoptions_settrackingoptions.htm
 old-project: direct3d11
 ms.assetid: A54AAC4C-CD38-4326-AF99-9FB74CC0A1A0
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11RefDefaultTrackingOptions interface [Direct3D 11],SetTrackingOptions method, ID3D11RefDefaultTrackingOptions.SetTrackingOptions, ID3D11RefDefaultTrackingOptions::SetTrackingOptions, SetTrackingOptions, SetTrackingOptions method [Direct3D 11], SetTrackingOptions method [Direct3D 11],ID3D11RefDefaultTrackingOptions interface, d3d11sdklayers/ID3D11RefDefaultTrackingOptions::SetTrackingOptions, direct3d11.id3d11refdefaulttrackingoptions_settrackingoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 

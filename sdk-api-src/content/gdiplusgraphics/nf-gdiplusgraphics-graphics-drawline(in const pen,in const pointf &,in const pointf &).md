@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawLine(IN const Pen,IN const PointF &,IN const PointF &)
 title: Graphics::DrawLine(IN const Pen,IN const PointF &,IN const PointF &)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the DrawLine methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawLine_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawlinemethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DrawLine, DrawLine methods [GDI+], Graphics.DrawLine, Graphics.DrawLine(IN const Pen,IN const PointF &,IN const PointF &), Graphics::DrawLine, Graphics::DrawLine(IN const Pen,IN const PointF &,IN const PointF &), _gdiplus_CLASS_Graphics_DrawLine_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawLine_Methods, gdiplusgraphics/DrawLine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 

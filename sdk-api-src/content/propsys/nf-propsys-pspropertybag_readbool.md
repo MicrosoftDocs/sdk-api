@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadBOOL
 title: PSPropertyBag_ReadBOOL function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the BOOL data value of a property in a property bag.
 old-location: properties\PSPropertyBag_ReadBOOL.htm
 old-project: properties
 ms.assetid: 95F9CB5E-E690-4d83-A094-02981F0578CF
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_ReadBOOL, PSPropertyBag_ReadBOOL function [Windows Properties], properties.PSPropertyBag_ReadBOOL, propsys/PSPropertyBag_ReadBOOL, shell.PSPropertyBag_ReadBOOL, shell_PSPropertyBag_ReadBOOL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

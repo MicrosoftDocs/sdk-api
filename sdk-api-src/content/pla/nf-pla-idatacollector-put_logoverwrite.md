@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollector.put_LogOverwrite
 title: IDataCollector::put_LogOverwrite
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets a value that indicates if PLA should overwrite the current file.
 old-location: pla\idatacollector_logoverwrite.htm
 old-project: PLA
 ms.assetid: 17f40639-2e24-4a7e-b934-036d8595bdbf
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollector interface [PLA],LogOverwrite property, IDataCollector.LogOverwrite, IDataCollector.put_LogOverwrite, IDataCollector::LogOverwrite, IDataCollector::get_LogOverwrite, IDataCollector::put_LogOverwrite, LogOverwrite property [PLA], LogOverwrite property [PLA],IDataCollector interface, base.idatacollector_logoverwrite, pla.idatacollector_logoverwrite, pla/IDataCollector::LogOverwrite, pla/IDataCollector::get_LogOverwrite, pla/IDataCollector::put_LogOverwrite, put_LogOverwrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

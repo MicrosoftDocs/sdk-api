@@ -1,16 +1,16 @@
 ---
 UID: NF:winefs.EncryptionDisable
 title: EncryptionDisable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Disables or enables encryption of the specified directory and the files in it.
 old-location: fs\encryptiondisable.htm
 old-project: FileIO
 ms.assetid: 6ff93a90-c1cf-4782-862c-d3d7e294c4b0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EncryptionDisable, EncryptionDisable function [Files], _win32_encryptiondisable, base.encryptiondisable, fs.encryptiondisable, winefs/EncryptionDisable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winefs.h
 req.include-header: Windows.h

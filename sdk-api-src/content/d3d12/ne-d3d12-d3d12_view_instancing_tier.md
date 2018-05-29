@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_VIEW_INSTANCING_TIER
 title: D3D12_VIEW_INSTANCING_TIER
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the tier level at which view instancing is supported.
 old-location: direct3d12\d3d12_view_instancing_tier.htm
 old-project: direct3d12
 ms.assetid: BB89E374-0447-40BE-AF89-D07BFCCF93FA
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_VIEW_INSTANCING_TIER, D3D12_VIEW_INSTANCING_TIER enumeration, D3D12_VIEW_INSTANCING_TIER_1, D3D12_VIEW_INSTANCING_TIER_2, D3D12_VIEW_INSTANCING_TIER_3, D3D12_VIEW_INSTANCING_TIER_NOT_SUPPORTED, d3d12/D3D12_VIEW_INSTANCING_TIER, d3d12/D3D12_VIEW_INSTANCING_TIER_1, d3d12/D3D12_VIEW_INSTANCING_TIER_2, d3d12/D3D12_VIEW_INSTANCING_TIER_3, d3d12/D3D12_VIEW_INSTANCING_TIER_NOT_SUPPORTED, direct3d12.d3d12_view_instancing_tier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzAuthorizationStore3
 title: IAzAuthorizationStore3
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IAzAuthorizationStore2 interface with methods that manage business rule (BizRule) support and caching.
 old-location: security\iazauthorizationstore3.htm
 old-project: SecAuthZ
 ms.assetid: 7063416c-b132-4b3a-bb2b-d27fccea25e4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzAuthorizationStore3, IAzAuthorizationStore3 interface [Security], IAzAuthorizationStore3 interface [Security],described, azroles/IAzAuthorizationStore3, security.iazauthorizationstore3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

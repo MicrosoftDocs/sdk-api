@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardCancel
 title: SCardCancel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Terminates all outstanding actions within a specific resource manager context.
 old-location: security\scardcancel.htm
 old-project: SecAuthN
 ms.assetid: abf3b4ff-4775-40e9-b68d-97dcf6a892ba
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCardCancel, SCardCancel function [Security], _smart_scardcancel, security.scardcancel, winscard/SCardCancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.RegSetValueExW
 title: RegSetValueExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the data and type of a specified value under a registry key.
 old-location: base\regsetvalueex.htm
 old-project: SysInfo
 ms.assetid: 29b0e27c-4999-4e92-bd8b-bba74920bccc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RegSetValueEx, RegSetValueEx function, RegSetValueExA, RegSetValueExW, _win32_regsetvalueex, base.regsetvalueex, winreg/RegSetValueEx, winreg/RegSetValueExA, winreg/RegSetValueExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

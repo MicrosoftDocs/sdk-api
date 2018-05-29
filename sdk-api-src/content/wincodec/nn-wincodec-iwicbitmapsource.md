@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICBitmapSource
 title: IWICBitmapSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that refers to a source from which pixels are retrieved, but cannot be written back to.
 old-location: wic\_wic_codec_iwicbitmapsource.htm
 old-project: wic
 ms.assetid: abcc84af-6067-4856-8618-fb66aff4255a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapSource, IWICBitmapSource interface [Windows Imaging Component], IWICBitmapSource interface [Windows Imaging Component],described, _wic_codec_iwicbitmapsource, wic._wic_codec_iwicbitmapsource, wincodec/IWICBitmapSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

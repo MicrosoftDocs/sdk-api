@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsReadBody
 title: WsReadBody function
-author: windows-driver-content
+author: windows-sdk-content
 description: This is a helper function that deserializes a value from the XML Reader of the message. The WS_MESSAGE_STATE must be set to WS_MESSAGE_STATE_READING. This function does not cause any state transitions.
 old-location: wsw\wsreadbody.htm
 old-project: wsw
 ms.assetid: 43ceeb1e-aeb2-4482-90f0-d7f6013b239f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsReadBody, WsReadBody function [Web Services for Windows], webservices/WsReadBody, wsw.wsreadbody
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

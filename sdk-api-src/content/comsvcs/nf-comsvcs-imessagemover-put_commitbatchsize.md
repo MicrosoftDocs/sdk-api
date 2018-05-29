@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IMessageMover.put_CommitBatchSize
 title: IMessageMover::put_CommitBatchSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the commit batch size. This is the number of messages that should be moved from source to destination queue between commit operations.
 old-location: cos\imessagemover_put_commitbatchsize.htm
 old-project: cossdk
 ms.assetid: 107a934b-565e-444d-a042-2325b8f18754
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMessageMover interface [COM+],put_CommitBatchSize method, IMessageMover.put_CommitBatchSize, IMessageMover::put_CommitBatchSize, comsvcs/IMessageMover::put_CommitBatchSize, cos.imessagemover_put_commitbatchsize, put_CommitBatchSize, put_CommitBatchSize method [COM+], put_CommitBatchSize method [COM+],IMessageMover interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

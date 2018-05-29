@@ -1,16 +1,16 @@
 ---
 UID: NF:pnpxassoc.IPNPXDeviceAssociation.Unassociate
 title: IPNPXDeviceAssociation::Unassociate
-author: windows-driver-content
+author: windows-sdk-content
 description: Marks an association database entry as unassociated and sends an appropriate notification.
 old-location: ncd\ipnpxdeviceassociation_unassociate.htm
 old-project: FunDisc
 ms.assetid: fb420967-c79c-4edd-a432-b982219c0746
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IPNPXDeviceAssociation interface,Unassociate method, IPNPXDeviceAssociation.Unassociate, IPNPXDeviceAssociation::Unassociate, Unassociate, Unassociate method, Unassociate method,IPNPXDeviceAssociation interface, ncd.ipnpxdeviceassociation_unassociate, pnpxassoc/IPNPXDeviceAssociation::Unassociate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pnpxassoc.h
 req.include-header: 

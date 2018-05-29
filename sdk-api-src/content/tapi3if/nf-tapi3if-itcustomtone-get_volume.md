@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCustomTone.get_Volume
 title: ITCustomTone::get_Volume
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Volume method retrieves the volume level at which to generate the tone.
 old-location: tapi3\itcustomtone_get_volume.htm
 old-project: Tapi
 ms.assetid: 28eead55-915a-4bb6-9915-ebd56c9d123d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],get_Volume method, ITCustomTone.get_Volume, ITCustomTone::get_Volume, _tapi3_itcustomtone_get_volume, get_Volume, get_Volume method [TAPI 2.2], get_Volume method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_get_volume, tapi3if/ITCustomTone::get_Volume
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

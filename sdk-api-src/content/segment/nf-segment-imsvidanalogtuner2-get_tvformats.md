@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner2.get_TVFormats
 title: IMSVidAnalogTuner2::get_TVFormats
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\imsvidanalogtuner2_get_tvformats.htm
 old-project: mstv
 ms.assetid: 82816d89-0a15-4868-8e86-12b683de03b1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_TVFormats method, IMSVidAnalogTuner2.get_TVFormats, IMSVidAnalogTuner2::get_TVFormats, IMSVidAnalogTuner2getTVFormats, get_TVFormats, get_TVFormats method [Microsoft TV Technologies], get_TVFormats method [Microsoft TV Technologies],IMSVidAnalogTuner2 interface, mstv.imsvidanalogtuner2_get_tvformats, segment/IMSVidAnalogTuner2::get_TVFormats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:netcon.INetConnection
 title: INetConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: The INetConnection interface provides methods to manage network connections.
 old-location: ics\inetconnection.htm
 old-project: ICS
 ms.assetid: 7dd55645-c8e6-4ebd-9bf6-3bc3b3f5166f
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetConnection, INetConnection interface [ICS/ICF], INetConnection interface [ICS/ICF],described, _ics_inetconnection, ics.inetconnection, netcon/INetConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netcon.h
 req.include-header: 

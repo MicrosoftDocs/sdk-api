@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetInBandMetadataTrackDispatchType
 title: IMFTimedTextTrack::GetInBandMetadataTrackDispatchType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the in-band metadata of the track.
 old-location: mf\imftimedtexttrack_getinbandmetadatatrackdispatchtype.htm
 old-project: medfound
 ms.assetid: AEA4D160-6DBC-4829-95F3-F016F9709042
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetInBandMetadataTrackDispatchType, GetInBandMetadataTrackDispatchType method [Media Foundation], GetInBandMetadataTrackDispatchType method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetInBandMetadataTrackDispatchType method, IMFTimedTextTrack.GetInBandMetadataTrackDispatchType, IMFTimedTextTrack::GetInBandMetadataTrackDispatchType, mf.imftimedtexttrack_getinbandmetadatatrackdispatchtype, mfmediaengine/IMFTimedTextTrack::GetInBandMetadataTrackDispatchType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

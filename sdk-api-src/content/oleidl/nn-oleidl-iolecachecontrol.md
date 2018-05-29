@@ -1,16 +1,16 @@
 ---
 UID: NN:oleidl.IOleCacheControl
 title: IOleCacheControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides proper maintenance of caches. It maintains the caches by connecting the running object's IDataObject implementation to the cache, allowing the cache to receive notifications from the running object.
 old-location: com\iolecachecontrol.htm
 old-project: com
 ms.assetid: 64cc7a29-0bbb-4535-a7b5-9b1d82ad7e8a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleCacheControl, IOleCacheControl interface [COM], IOleCacheControl interface [COM],described, _ole_iolecachecontrol, com.iolecachecontrol, oleidl/IOleCacheControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

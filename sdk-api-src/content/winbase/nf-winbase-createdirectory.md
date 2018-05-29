@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.CreateDirectory
 title: CreateDirectory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new directory.
 old-location: fs\createdirectory.htm
 old-project: FileIO
 ms.assetid: f8ca8b10-c8bd-4285-8a40-dbec4c24729c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreateDirectory, CreateDirectory function [Files], CreateDirectoryA, CreateDirectoryW, _win32_createdirectory, base.createdirectory, fileapi/CreateDirectory, fileapi/CreateDirectoryA, fileapi/CreateDirectoryW, fs.createdirectory, winbase/CreateDirectory, winbase/CreateDirectoryA, winbase/CreateDirectoryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

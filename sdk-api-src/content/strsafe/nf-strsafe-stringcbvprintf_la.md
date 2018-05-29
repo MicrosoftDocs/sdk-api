@@ -1,16 +1,16 @@
 ---
 UID: NF:strsafe.StringCbVPrintf_lA
 title: StringCbVPrintf_lA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 old-location: menurc\stringcbvprintf_l.htm
 old-project: menurc
 ms.assetid: e3e39151-03f7-4d85-91a0-d353122e6b4b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StringCbVPrintf_l, StringCbVPrintf_l function [Menus and Other Resources], StringCbVPrintf_lA, StringCbVPrintf_lW, menurc.stringcbvprintf_l, strsafe/StringCbVPrintf_l, strsafe/StringCbVPrintf_lA, strsafe/StringCbVPrintf_lW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 

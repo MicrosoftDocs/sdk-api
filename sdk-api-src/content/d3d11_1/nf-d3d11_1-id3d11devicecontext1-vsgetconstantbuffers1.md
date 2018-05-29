@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_1.ID3D11DeviceContext1.VSGetConstantBuffers1
 title: ID3D11DeviceContext1::VSGetConstantBuffers1
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the constant buffers that the vertex shader pipeline stage uses.
 old-location: direct3d11\id3d11devicecontext1_vsgetconstantbuffers1.htm
 old-project: direct3d11
 ms.assetid: 5499AA20-0B1C-4F01-9059-0092D689DE73
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11DeviceContext1 interface [Direct3D 11],VSGetConstantBuffers1 method, ID3D11DeviceContext1.VSGetConstantBuffers1, ID3D11DeviceContext1::VSGetConstantBuffers1, VSGetConstantBuffers1, VSGetConstantBuffers1 method [Direct3D 11], VSGetConstantBuffers1 method [Direct3D 11],ID3D11DeviceContext1 interface, d3d11_1/ID3D11DeviceContext1::VSGetConstantBuffers1, direct3d11.id3d11devicecontext1_vsgetconstantbuffers1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 

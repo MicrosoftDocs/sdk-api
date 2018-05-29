@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetTimeFormat
 title: IOpcDigitalSignature::GetTimeFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the format of the string returned by the GetSigningTime method.
 old-location: opc\iopcdigitalsignature_gettimeformat.htm
 old-project: OPC
 ms.assetid: df142c4d-27dc-4db3-9a37-78c5703c8119
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetTimeFormat, GetTimeFormat method [Open Packaging Conventions], GetTimeFormat method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetTimeFormat method, IOpcDigitalSignature.GetTimeFormat, IOpcDigitalSignature::GetTimeFormat, msopc/IOpcDigitalSignature::GetTimeFormat, opc.iopcdigitalsignature_gettimeformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

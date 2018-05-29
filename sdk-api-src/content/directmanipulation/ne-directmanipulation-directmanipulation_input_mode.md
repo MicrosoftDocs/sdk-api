@@ -1,16 +1,16 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_INPUT_MODE
 title: DIRECTMANIPULATION_INPUT_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the threading behavior for SetInputMode or SetUpdateMode. The exact meaning of each constant depends on the method called.
 old-location: directmanipulation\directmanipulation_input_mode.htm
 old-project: directmanipulation
 ms.assetid: 92839109-91d5-45fc-85d0-dc5a14e4ebf0
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DIRECTMANIPULATION_INPUT_MODE, DIRECTMANIPULATION_INPUT_MODE enumeration [Direct Manipulation], DIRECTMANIPULATION_INPUT_MODE_AUTOMATIC, DIRECTMANIPULATION_INPUT_MODE_MANUAL, directmanipulation.directmanipulation_input_mode, directmanipulation/DIRECTMANIPULATION_INPUT_MODE, directmanipulation/DIRECTMANIPULATION_INPUT_MODE_AUTOMATIC, directmanipulation/DIRECTMANIPULATION_INPUT_MODE_MANUAL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 

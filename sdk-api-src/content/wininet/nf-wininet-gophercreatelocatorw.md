@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.GopherCreateLocatorW
 title: GopherCreateLocatorW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a Gopher or Gopher+ locator string from the selector string's component parts.
 old-location: wininet\gophercreatelocator.htm
 old-project: WinInet
 ms.assetid: 972a4ff9-efda-4784-9ac8-c76e679e8032
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GopherCreateLocator, GopherCreateLocator function [WinINet], GopherCreateLocatorA, GopherCreateLocatorW, _inet_gophercreatelocator_function, wininet.gophercreatelocator, wininet/GopherCreateLocator, wininet/GopherCreateLocatorA, wininet/GopherCreateLocatorW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

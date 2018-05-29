@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.FreeExtra
 title: CHString::FreeExtra
-author: windows-driver-content
+author: windows-sdk-content
 description: The FreeExtra method frees any extra memory that was previously allocated by the string but is no longer needed.
 old-location: wmi\chstring_freeextra.htm
 old-project: WmiSdk
 ms.assetid: 4330564e-aeae-4ff3-b01d-eceace721c14
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],FreeExtra method, CHString.FreeExtra, CHString::FreeExtra, FreeExtra, FreeExtra method [Windows Management Instrumentation], FreeExtra method [Windows Management Instrumentation],CHString interface, _hmm_chstring_freeextra, chstring/CHString::FreeExtra, wmi.chstring_freeextra
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

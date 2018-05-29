@@ -1,16 +1,16 @@
 ---
 UID: NS:windns._DNS_WIRE_RECORD
 title: "_DNS_WIRE_RECORD"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DNS_WIRE_RECORD structure contains information about a DNS wire record transmitted across the network as specified in section 4.1.3 of RFC 1035.
 old-location: dns\dns_wire_record.htm
 old-project: DNS
 ms.assetid: fb36930c-dd43-427a-8034-078c99497a3e
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PDNS_WIRE_RECORD, *PDNS_WIRE_RECORD structure [DNS], DNS_WIRE_RECORD, DNS_WIRE_RECORD structure [DNS], _DNS_WIRE_RECORD, dns.dns_wire_record, windns/*PDNS_WIRE_RECORD, windns/DNS_WIRE_RECORD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_SECURITY_CONSTRAINTS
 title: "_WS_SECURITY_CONSTRAINTS"
-author: windows-driver-content
+author: windows-sdk-content
 description: This structure specifies the security related constraints as part of WS_POLICY_CONSTRAINTS.
 old-location: wsw\ws_security_constraints.htm
 old-project: wsw
 ms.assetid: 17fe7602-c050-46a2-b55c-aac6c277a5ce
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SECURITY_CONSTRAINTS, WS_SECURITY_CONSTRAINTS structure [Web Services for Windows], _WS_SECURITY_CONSTRAINTS, webservices/WS_SECURITY_CONSTRAINTS, wsw.ws_security_constraints
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

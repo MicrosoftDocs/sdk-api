@@ -1,16 +1,16 @@
 ---
 UID: NN:wsddisco.IWSDScopeMatchingRule
 title: IWSDScopeMatchingRule
-author: windows-driver-content
+author: windows-sdk-content
 description: Is implemented by the client program to supply a custom scope matching rule which can be used to extend the standard scope matching rules defined in WS-Discovery.
 old-location: ncd\iwsdscopematchingrule.htm
 old-project: WsdApi
 ms.assetid: c608215d-6c72-4567-bf81-15af665e8c52
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDScopeMatchingRule, IWSDScopeMatchingRule interface, IWSDScopeMatchingRule interface,described, ncd.iwsdscopematchingrule, wsddisco/IWSDScopeMatchingRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

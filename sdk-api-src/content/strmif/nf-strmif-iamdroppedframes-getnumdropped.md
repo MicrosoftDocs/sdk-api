@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMDroppedFrames.GetNumDropped
 title: IAMDroppedFrames::GetNumDropped
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNumDropped method retrieves the total number of frames that the filter has dropped since it started streaming.
 old-location: dshow\iamdroppedframes_getnumdropped.htm
 old-project: DirectShow
 ms.assetid: d7e91efb-0755-4319-ac85-abc6ecdc3e2a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetNumDropped, GetNumDropped method [DirectShow], GetNumDropped method [DirectShow],IAMDroppedFrames interface, IAMDroppedFrames interface [DirectShow],GetNumDropped method, IAMDroppedFrames.GetNumDropped, IAMDroppedFrames::GetNumDropped, IAMDroppedFramesGetNumDropped, dshow.iamdroppedframes_getnumdropped, strmif/IAMDroppedFrames::GetNumDropped
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

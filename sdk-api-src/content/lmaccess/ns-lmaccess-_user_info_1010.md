@@ -1,16 +1,16 @@
 ---
 UID: NS:lmaccess._USER_INFO_1010
 title: "_USER_INFO_1010"
-author: windows-driver-content
+author: windows-sdk-content
 description: The USER_INFO_1010 structure contains a set of bit flags defining the operator privileges assigned to a user network account. This information level is valid only when you call the NetUserSetInfo function.
 old-location: netmgmt\user_info_1010_str.htm
 old-project: NetMgmt
 ms.assetid: 6760729a-1d59-430e-8412-1257977af169
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPUSER_INFO_1010, *PUSER_INFO_1010, AF_OP_ACCOUNTS, AF_OP_COMM, AF_OP_PRINT, AF_OP_SERVER, LPUSER_INFO_1010, LPUSER_INFO_1010 structure pointer [Network Management], PUSER_INFO_1010, PUSER_INFO_1010 structure pointer [Network Management], USER_INFO_1010, USER_INFO_1010 structure [Network Management], _USER_INFO_1010, _win32_user_info_1010_str, lmaccess/LPUSER_INFO_1010, lmaccess/PUSER_INFO_1010, lmaccess/USER_INFO_1010, netmgmt.user_info_1010_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

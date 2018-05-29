@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderCompareContent
 title: WdsTransportProviderCompareContent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares a specified content name and instance to an open content stream to determine if they are the same.
 old-location: wds\wdstransportprovidercomparecontent.htm
 old-project: Wds
 ms.assetid: 206b85e2-e139-4f62-9107-ed78893a7ad2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsTransportProviderCompareContent, WdsTransportProviderCompareContent callback, WdsTransportProviderCompareContent callback function [Windows Deployment Services], wds.wdstransportprovidercomparecontent, wdstpdi/WdsTransportProviderCompareContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 

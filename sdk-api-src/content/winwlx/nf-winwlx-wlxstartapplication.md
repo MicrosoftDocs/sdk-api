@@ -1,16 +1,16 @@
 ---
 UID: NF:winwlx.WlxStartApplication
 title: WlxStartApplication function
-author: windows-driver-content
+author: windows-sdk-content
 description: Winlogon calls this function when the system needs an application to be started in the context of the user.
 old-location: security\wlxstartapplication.htm
 old-project: SecAuthN
 ms.assetid: ad6b520a-56b7-4d22-b4d4-4b45e9e42a9f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: WlxStartApplication, WlxStartApplication function [Security], _gina_wlxstartapplication, security.wlxstartapplication, winwlx/WlxStartApplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 

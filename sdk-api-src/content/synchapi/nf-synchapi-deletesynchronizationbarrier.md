@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.DeleteSynchronizationBarrier
 title: DeleteSynchronizationBarrier function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a synchronization barrier.
 old-location: base\deletesynchronizationbarrier.htm
 old-project: Sync
 ms.assetid: 04626b6f-f5f7-4042-9786-7cabd68636ac
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DeleteSynchronizationBarrier, DeleteSynchronizationBarrier function, base.deletesynchronizationbarrier, synchapi/DeleteSynchronizationBarrier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: 

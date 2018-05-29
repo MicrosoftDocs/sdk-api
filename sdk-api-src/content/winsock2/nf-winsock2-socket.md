@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.socket
 title: socket function
-author: windows-driver-content
+author: windows-sdk-content
 description: The socket function creates a socket that is bound to a specific transport service provider.
 old-location: winsock\socket_2.htm
 old-project: WinSock
 ms.assetid: 6bf6e6c4-6268-479c-86a6-52e90cf317db
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: AF_APPLETALK, AF_BTH, AF_INET, AF_INET6, AF_IPX, AF_IRDA, AF_NETBIOS, AF_UNSPEC, BTHPROTO_RFCOMM, IPPROTO_ICMP, IPPROTO_ICMPV6, IPPROTO_IGMP, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, _win32_socket_2, socket, socket function [Winsock], winsock.socket_2, winsock2/socket
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

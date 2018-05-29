@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFQualityAdvise
 title: IMFQualityAdvise
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the quality manager to adjust the audio or video quality of a component in the pipeline.
 old-location: mf\imfqualityadvise.htm
 old-project: medfound
 ms.assetid: 20681ce7-e07e-4e34-9238-ec23cc6bfc84
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 20681ce7-e07e-4e34-9238-ec23cc6bfc84, IMFQualityAdvise, IMFQualityAdvise interface [Media Foundation], IMFQualityAdvise interface [Media Foundation],described, mf.imfqualityadvise, mfidl/IMFQualityAdvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

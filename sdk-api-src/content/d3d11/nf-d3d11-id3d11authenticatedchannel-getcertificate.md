@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11AuthenticatedChannel.GetCertificate
 title: ID3D11AuthenticatedChannel::GetCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the driver's certificate chain.
 old-location: mf\id3d11authenticatedchannel_getcertificate.htm
 old-project: medfound
 ms.assetid: D7FC07CA-B045-4C44-B3FD-B902C5437E47
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],ID3D11AuthenticatedChannel interface, ID3D11AuthenticatedChannel interface [Media Foundation],GetCertificate method, ID3D11AuthenticatedChannel.GetCertificate, ID3D11AuthenticatedChannel::GetCertificate, d3d11/ID3D11AuthenticatedChannel::GetCertificate, mf.id3d11authenticatedchannel_getcertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

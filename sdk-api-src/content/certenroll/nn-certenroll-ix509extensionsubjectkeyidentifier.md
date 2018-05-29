@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509ExtensionSubjectKeyIdentifier
 title: IX509ExtensionSubjectKeyIdentifier
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables you to specify a SubjectKeyIdentifier extension.
 old-location: security\ix509extensionsubjectkeyidentifier.htm
 old-project: SecCertEnroll
 ms.assetid: dcf28967-65e0-4669-b1b1-b3d42f1b3d6b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509ExtensionSubjectKeyIdentifier, IX509ExtensionSubjectKeyIdentifier interface [Security], IX509ExtensionSubjectKeyIdentifier interface [Security],described, certenroll/IX509ExtensionSubjectKeyIdentifier, security.ix509extensionsubjectkeyidentifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

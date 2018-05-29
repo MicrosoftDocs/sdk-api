@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertificateAttestationChallenge.DecryptChallenge
 title: ICertificateAttestationChallenge::DecryptChallenge
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrypts the challenge from the Certificate Management over CMS (CMC) response and creates a re-encrypted response to send to the CA.
 old-location: security\icertificateattestationchallenge_decryptchallenge.htm
 old-project: SecCertEnroll
 ms.assetid: ae0fb86f-c567-4b85-abfe-7a035491e4fc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DecryptChallenge, DecryptChallenge method [Security], DecryptChallenge method [Security],ICertificateAttestationChallenge interface, ICertificateAttestationChallenge interface [Security],DecryptChallenge method, ICertificateAttestationChallenge.DecryptChallenge, ICertificateAttestationChallenge::DecryptChallenge, certenroll/ICertificateAttestationChallenge::DecryptChallenge, security.icertificateattestationchallenge_decryptchallenge
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

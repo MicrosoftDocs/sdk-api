@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITextStoreACPServices.Serialize
 title: ITextStoreACPServices::Serialize
-author: windows-driver-content
+author: windows-sdk-content
 description: ITextStoreACPServices::Serialize method
 old-location: tsf\itextstoreacpservices_serialize.htm
 old-project: TSF
 ms.assetid: 14be52d1-4f8c-4deb-aa92-470c3608c841
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreACPServices interface [Text Services Framework],Serialize method, ITextStoreACPServices.Serialize, ITextStoreACPServices::Serialize, Serialize, Serialize method [Text Services Framework], Serialize method [Text Services Framework],ITextStoreACPServices interface, _tsf_itextstoreacpservices_serialize_ref, msctf/ITextStoreACPServices::Serialize, tsf.itextstoreacpservices_serialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

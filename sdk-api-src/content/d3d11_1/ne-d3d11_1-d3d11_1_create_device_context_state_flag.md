@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11_1.D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG
 title: D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes flags that are used to create a device context state object (ID3DDeviceContextState) with the ID3D11Device1::CreateDeviceContextState method.
 old-location: direct3d11\d3d11_1_create_device_context_state_flag.htm
 old-project: direct3d11
 ms.assetid: 45F1C268-AA8A-44D5-BE9E-0C185738EB69
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG, D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG enumeration [Direct3D 11], D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED, d3d11_1/D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG, d3d11_1/D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED, direct3d11.d3d11_1_create_device_context_state_flag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11_1.h
 req.include-header: 

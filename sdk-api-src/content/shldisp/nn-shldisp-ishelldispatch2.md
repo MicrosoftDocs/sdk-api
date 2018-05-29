@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.IShellDispatch2
 title: IShellDispatch2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IShellDispatch object with a variety of new functionality.
 old-location: shell\IShellDispatch2_Object.htm
 old-project: shell
 ms.assetid: 74687929-0777-479b-9853-2b0cf4b6adc9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellDispatch2, IShellDispatch2 object [Windows Shell], IShellDispatch2 object [Windows Shell],described, _win32_IShellDispatch2_Object, shell.IShellDispatch2_Object, shldisp/IShellDispatch2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

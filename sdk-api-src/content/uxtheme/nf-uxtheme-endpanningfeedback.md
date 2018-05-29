@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.EndPanningFeedback
 title: EndPanningFeedback function
-author: windows-driver-content
+author: windows-sdk-content
 description: Terminates any existing animation that was in process or set up by BeginPanningFeedback and UpdatePanningFeedback.
 old-location: controls\EndPanningFeedback.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endpanningfeedback.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EndPanningFeedback, EndPanningFeedback function [Windows Controls], _controls_EndPanningFeedback, _controls_EndPanningFeedback_cpp, controls.EndPanningFeedback, controls._controls_EndPanningFeedback, uxtheme/EndPanningFeedback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

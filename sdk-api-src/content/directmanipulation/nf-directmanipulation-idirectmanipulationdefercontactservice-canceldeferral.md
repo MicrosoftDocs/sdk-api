@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDeferContactService.CancelDeferral
 title: IDirectManipulationDeferContactService::CancelDeferral
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancel the deferral set in DeferContact and process the scheduled SetContact call for this pointerId.
 old-location: directmanipulation\idirectmanipulationdefercontactservice_canceldeferral.htm
 old-project: directmanipulation
 ms.assetid: 946F8CF8-6A6D-4BC1-B9BA-91D5B4A8A178
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CancelDeferral, CancelDeferral method [Direct Manipulation], CancelDeferral method [Direct Manipulation],IDirectManipulationDeferContactService interface, IDirectManipulationDeferContactService interface [Direct Manipulation],CancelDeferral method, IDirectManipulationDeferContactService.CancelDeferral, IDirectManipulationDeferContactService::CancelDeferral, directmanipulation.idirectmanipulationdefercontactservice_canceldeferral, directmanipulation/IDirectManipulationDeferContactService::CancelDeferral
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

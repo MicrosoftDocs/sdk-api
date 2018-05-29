@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptKeyDerivation
 title: NCryptKeyDerivation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a key from another key by using the specified key derivation function.
 old-location: security\ncryptkeyderivation.htm
 old-project: SecCNG
 ms.assetid: 5D2D61B1-022E-412F-A19E-11057930A615
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_CAPI_AES_FLAG, NCRYPT_SILENT_FLAG, NCryptKeyDerivation, NCryptKeyDerivation function [Security], ncrypt/NCryptKeyDerivation, security.ncryptkeyderivation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

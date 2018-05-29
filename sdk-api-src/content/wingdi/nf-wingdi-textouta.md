@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.TextOutA
 title: TextOutA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TextOut function writes a character string at the specified location, using the currently selected font, background color, and text color.
 old-location: gdi\textout.htm
 old-project: gdi
 ms.assetid: 0c437ff8-3893-4dc3-827b-fa9ce4bcd7e6
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: TextOut, TextOut function [Windows GDI], TextOutA, TextOutW, _win32_TextOut, gdi.textout, wingdi/TextOut, wingdi/TextOutA, wingdi/TextOutW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

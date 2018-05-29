@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.UpdateColors
 title: UpdateColors function
-author: windows-driver-content
+author: windows-sdk-content
 description: The UpdateColors function updates the client area of the specified device context by remapping the current colors in the client area to the currently realized logical palette.
 old-location: gdi\updatecolors.htm
 old-project: gdi
 ms.assetid: 61dfd579-3fc9-4e0a-bfd9-d04c6f918fd8
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UpdateColors, UpdateColors function [Windows GDI], _win32_UpdateColors, gdi.updatecolors, wingdi/UpdateColors
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:wmlss.WindowsMediaLibrarySharingDeviceAuthorizationStatus
 title: WindowsMediaLibrarySharingDeviceAuthorizationStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: The WindowsMediaLibrarySharingDeviceAuthorizationStatus enumeration defines constants that indicate whether a media device is authorized to have access to a media library.
 old-location: wmlss\WMLSDeviceAuthorizationStatusEnumeration.htm
 old-project: WMLSS
 ms.assetid: 2b858236-32d9-410e-bf57-207a1c44c9d5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: DEVICE_AUTHORIZATION_ALLOWED, DEVICE_AUTHORIZATION_DENIED, DEVICE_AUTHORIZATION_UNKNOWN, WindowsMediaLibrarySharingDeviceAuthorizationStatus, WindowsMediaLibrarySharingDeviceAuthorizationStatus enumeration [Windows Media Library Sharing Services], wmlss.WMLSDeviceAuthorizationStatusEnumeration, wmlss/DEVICE_AUTHORIZATION_ALLOWED, wmlss/DEVICE_AUTHORIZATION_DENIED, wmlss/DEVICE_AUTHORIZATION_UNKNOWN, wmlss/WindowsMediaLibrarySharingDeviceAuthorizationStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmlss.h
 req.include-header: Wmlss.h

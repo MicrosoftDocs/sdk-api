@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushCopyOfRetrievalFilter
 title: IDXGIInfoQueue::PushCopyOfRetrievalFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Pushes a copy of the retrieval filter that is currently on the top of the retrieval-filter stack onto the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushcopyofretrievalfilter.htm
 old-project: direct3ddxgi
 ms.assetid: D1F82073-14DB-47B5-AB61-C1AFE5C50C42
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushCopyOfRetrievalFilter method, IDXGIInfoQueue.PushCopyOfRetrievalFilter, IDXGIInfoQueue::PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter method [DXGI], PushCopyOfRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushcopyofretrievalfilter, dxgidebug/IDXGIInfoQueue::PushCopyOfRetrievalFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

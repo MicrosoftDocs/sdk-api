@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplication.AddPolicyAdministrator
 title: IAzApplication::AddPolicyAdministrator
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as policy administrators.
 old-location: security\iazapplication_addpolicyadministrator.htm
 old-project: SecAuthZ
 ms.assetid: 944f93c1-5155-4c87-a241-9fdef84b68fc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddPolicyAdministrator, AddPolicyAdministrator method [Security], AddPolicyAdministrator method [Security],AzApplication object, AddPolicyAdministrator method [Security],IAzApplication interface, AzApplication object [Security],AddPolicyAdministrator method, IAzApplication interface [Security],AddPolicyAdministrator method, IAzApplication.AddPolicyAdministrator, IAzApplication::AddPolicyAdministrator, azroles/IAzApplication::AddPolicyAdministrator, security.iazapplication_addpolicyadministrator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

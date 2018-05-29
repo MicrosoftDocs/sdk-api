@@ -1,16 +1,16 @@
 ---
 UID: NS:evntcons._EVENT_EXTENDED_ITEM_STACK_TRACE32
 title: "_EVENT_EXTENDED_ITEM_STACK_TRACE32"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a call stack on a 32-bit computer.
 old-location: etw\event_extended_item_stack_trace32.htm
 old-project: ETW
 ms.assetid: 6898951a-5719-47aa-a219-97f82095686f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PEVENT_EXTENDED_ITEM_STACK_TRACE32, EVENT_EXTENDED_ITEM_STACK_TRACE32, EVENT_EXTENDED_ITEM_STACK_TRACE32 structure [ETW], PEVENT_EXTENDED_ITEM_STACK_TRACE32, PEVENT_EXTENDED_ITEM_STACK_TRACE32 structure pointer [ETW], _EVENT_EXTENDED_ITEM_STACK_TRACE32, etw.event_extended_item_stack_trace32, evntcons/EVENT_EXTENDED_ITEM_STACK_TRACE32, evntcons/PEVENT_EXTENDED_ITEM_STACK_TRACE32"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntcons.h
 req.include-header: 

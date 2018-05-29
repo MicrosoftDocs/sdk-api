@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnRadioEvents.OnRadioStateChange
 title: IMbnRadioEvents::OnRadioStateChange
-author: windows-driver-content
+author: windows-sdk-content
 description: A notification signaling that the radio state of the device has changed.
 old-location: mbn\imbnradioevents_onradiostatechange.htm
 old-project: mbn
 ms.assetid: ae7bf0d0-333b-429d-9dd1-9580745aad35
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnRadioEvents interface [Microsoft Broadband Networks],OnRadioStateChange method, IMbnRadioEvents.OnRadioStateChange, IMbnRadioEvents::OnRadioStateChange, OnRadioStateChange, OnRadioStateChange method [Microsoft Broadband Networks], OnRadioStateChange method [Microsoft Broadband Networks],IMbnRadioEvents interface, mbn.imbnradioevents_onradiostatechange, mbnapi/IMbnRadioEvents::OnRadioStateChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

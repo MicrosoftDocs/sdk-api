@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_OPEN_CLUSTER_GROUP
 title: PCLUSAPI_OPEN_CLUSTER_GROUP
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a failover cluster group and returns a handle to it.
 old-location: mscs\openclustergroup.htm
 old-project: MsCS
 ms.assetid: 0c7ef9d9-d32b-448e-9e07-6befb9b3e338
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_OPEN_CLUSTER_GROUP, PCLUSAPI_OPEN_CLUSTER_GROUP callback, PCLUSAPI_OPEN_CLUSTER_GROUP callback function [Failover Cluster], _wolf_openclustergroup, clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP, mscs.openclustergroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathGetArgsA
 title: PathGetArgsA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds the command line arguments within a given path.
 old-location: shell\PathGetArgs.htm
 old-project: shell
 ms.assetid: 17dfb601-1306-41b6-a504-8bf69ff204c9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathGetArgs, PathGetArgs function [Windows Shell], PathGetArgsA, PathGetArgsW, _win32_PathGetArgs, shell.PathGetArgs, shlwapi/PathGetArgs, shlwapi/PathGetArgsA, shlwapi/PathGetArgsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.get_CurrentCanRotate
 title: IUIAutomationTransformPattern::get_CurrentCanRotate
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the element can be rotated.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CurrentCanRotate.htm
 old-project: WinAuto
 ms.assetid: e6e5d5da-24f2-4b76-854c-756fb7f6661a
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentCanRotate property [Windows Accessibility], CurrentCanRotate property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CurrentCanRotate property, IUIAutomationTransformPattern.CurrentCanRotate, IUIAutomationTransformPattern.get_CurrentCanRotate, IUIAutomationTransformPattern::CurrentCanRotate, IUIAutomationTransformPattern::get_CurrentCanRotate, get_CurrentCanRotate, uiauto.uiauto_IUIAutomationTransformPattern_CurrentCanRotate, uiauto_IUIAutomationTransformPattern_CurrentCanRotate, uiautomationclient/IUIAutomationTransformPattern::CurrentCanRotate, uiautomationclient/IUIAutomationTransformPattern::get_CurrentCanRotate, winauto.uiauto_IUIAutomationTransformPattern_CurrentCanRotate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

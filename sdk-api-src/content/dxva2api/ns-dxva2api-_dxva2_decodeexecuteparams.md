@@ -1,16 +1,16 @@
 ---
 UID: NS:dxva2api._DXVA2_DecodeExecuteParams
 title: "_DXVA2_DecodeExecuteParams"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains parameters for the IDirectXVideoDecoder::Execute method.
 old-location: mf\dxva2_decodeexecuteparams.htm
 old-project: medfound
 ms.assetid: e0e95e9b-6d53-4b90-a933-243023dc31ef
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVA2_DecodeExecuteParams, DXVA2_DecodeExecuteParams structure [Media Foundation], _DXVA2_DecodeExecuteParams, dxva2api/DXVA2_DecodeExecuteParams, e0e95e9b-6d53-4b90-a933-243023dc31ef, mf.dxva2_decodeexecuteparams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 

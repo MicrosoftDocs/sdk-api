@@ -1,16 +1,16 @@
 ---
 UID: NN:mfobjects.IMFMediaEventGenerator
 title: IMFMediaEventGenerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves events from any Media Foundation object that generates events.
 old-location: mf\imfmediaeventgenerator.htm
 old-project: medfound
 ms.assetid: a37d0840-c896-43a0-b3d1-c2a6aaff1b25
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEventGenerator, IMFMediaEventGenerator interface [Media Foundation], IMFMediaEventGenerator interface [Media Foundation],described, a37d0840-c896-43a0-b3d1-c2a6aaff1b25, mf.imfmediaeventgenerator, mfobjects/IMFMediaEventGenerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

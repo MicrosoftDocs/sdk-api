@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.GetPerTcpConnectionEStats
 title: GetPerTcpConnectionEStats function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves extended statistics for an IPv4 TCP connection.
 old-location: iphlp\getpertcpconnectionestats.htm
 old-project: IpHlp
 ms.assetid: 71b9d795-6050-4a1a-9949-2c970801f52c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetPerTcpConnectionEStats, GetPerTcpConnectionEStats function [IP Helper], TcpConnectionEstatsBandwidth, TcpConnectionEstatsData, TcpConnectionEstatsFineRtt, TcpConnectionEstatsObsRec, TcpConnectionEstatsPath, TcpConnectionEstatsRec, TcpConnectionEstatsSendBuff, TcpConnectionEstatsSndCong, TcpConnectionEstatsSynOpts, iphlp.getpertcpconnectionestats, iphlpapi/GetPerTcpConnectionEStats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

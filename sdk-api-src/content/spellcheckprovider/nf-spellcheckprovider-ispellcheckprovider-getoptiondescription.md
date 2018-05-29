@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.GetOptionDescription
 title: ISpellCheckProvider::GetOptionDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the information (id, description, heading and labels) of a specific option.
 old-location: intl\ispellcheckprovider_getoptiondescription.htm
 old-project: Intl
 ms.assetid: 0F2ED4B7-AE71-4431-83FE-739F7D0D5CD2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetOptionDescription, GetOptionDescription method [Internationalization for Windows Applications], GetOptionDescription method [Internationalization for Windows Applications],ISpellCheckProvider interface, ISpellCheckProvider interface [Internationalization for Windows Applications],GetOptionDescription method, ISpellCheckProvider.GetOptionDescription, ISpellCheckProvider::GetOptionDescription, intl.ispellcheckprovider_getoptiondescription, spellcheckprovider/ISpellCheckProvider::GetOptionDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheckprovider.h
 req.include-header: 

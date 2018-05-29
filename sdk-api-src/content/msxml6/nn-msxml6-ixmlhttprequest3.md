@@ -1,16 +1,16 @@
 ---
 UID: NN:msxml6.IXMLHTTPRequest3
 title: IXMLHTTPRequest3
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the methods and properties needed to configure and send HTTP requests and use callbacks to receive notifications during HTTP response processing.
 old-location: ixhr2\ixmlhttprequest3.htm
 old-project: ixhr2
 ms.assetid: 66af3f84-585c-441e-b9be-4ec188d72a19
-ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.author: windowssdkdev
+ms.date: 04/02/2018
 ms.keywords: IXMLHTTPRequest3, IXMLHTTPRequest3 interface [XMLHttpRequest2], IXMLHTTPRequest3 interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest3, msxml6/IXMLHTTPRequest3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msxml6.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPMedia3.getItemInfoByType
 title: IWMPMedia3::getItemInfoByType
-author: windows-driver-content
+author: windows-sdk-content
 description: The getItemInfoByType method retrieves the value of the attribute corresponding to the specified attribute type and index.
 old-location: wmp\iwmpmedia3_getiteminfobytype.htm
 old-project: WMP
 ms.assetid: 2a77029b-fbae-49af-bd91-c688c11b3b16
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPMedia3 interface [Windows Media Player],getItemInfoByType method, IWMPMedia3.getItemInfoByType, IWMPMedia3::getItemInfoByType, IWMPMedia3getItemInfoByType, getItemInfoByType, getItemInfoByType method [Windows Media Player], getItemInfoByType method [Windows Media Player],IWMPMedia3 interface, wmp.iwmpmedia3_getiteminfobytype, wmp/IWMPMedia3::getItemInfoByType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

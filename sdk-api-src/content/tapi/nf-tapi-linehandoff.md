@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineHandoff
 title: lineHandoff function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineHandoff function gives ownership of the specified call to another application. The application can be either specified directly by its file name or indirectly as the highest priority application that handles calls of the specified media mode.
 old-location: tapi2\linehandoff.htm
 old-project: Tapi
 ms.assetid: 931c2fa4-dad6-432d-8f07-bb04b646916b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linehandoff, lineHandoff, lineHandoff function [TAPI 2.2], lineHandoffA, lineHandoffW, tapi/lineHandoff, tapi/lineHandoffA, tapi/lineHandoffW, tapi2.linehandoff"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

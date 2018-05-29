@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsPropertyList.GetPropertyItem
 title: IADsPropertyList::GetPropertyItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the item that matches the name from the list.
 old-location: adsi\iadspropertylist_getpropertyitem.htm
 old-project: ADSI
 ms.assetid: 1de86caa-c14c-4dc0-bf56-5fa33279e30a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetPropertyItem, GetPropertyItem method [ADSI], GetPropertyItem method [ADSI],IADsPropertyList interface, IADsPropertyList interface [ADSI],GetPropertyItem method, IADsPropertyList.GetPropertyItem, IADsPropertyList::GetPropertyItem, _ds_iadspropertylist_getpropertyitem, adsi.iadspropertylist__getpropertyitem, adsi.iadspropertylist_getpropertyitem, iads/IADsPropertyList::GetPropertyItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Connect_MachineW
 title: CM_Connect_MachineW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Connect_Machine function creates a connection to a remote machine.
 old-location: devinst\cm_connect_machine.htm
 old-project: devinst
 ms.assetid: 4108a35f-0861-4142-a798-731287515910
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Connect_Machine, CM_Connect_Machine function [Device and Driver Installation], CM_Connect_MachineW, cfgmgr32/CM_Connect_Machine, cfgmgr32/CM_Connect_MachineW, cfgmgrfn_5214f459-40fa-4805-b7e4-ee7a1606b659.xml, devinst.cm_connect_machine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

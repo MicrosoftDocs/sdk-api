@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertAlgIdToOID
 title: CertAlgIdToOID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a CryptoAPI algorithm identifier (ALG_ID) to an Abstract Syntax Notation One (ASN.1) object identifier (OID) string.
 old-location: security\certalgidtooid.htm
 old-project: SecCrypto
 ms.assetid: 2a66c6da-22dd-4192-9f3d-2fb85f8032e0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertAlgIdToOID, CertAlgIdToOID function [Security], _crypto2_certalgidtooid, security.certalgidtooid, wincrypt/CertAlgIdToOID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

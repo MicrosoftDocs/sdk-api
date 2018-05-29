@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_start_tls_sA
 title: ldap_start_tls_sA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Used in an active LDAP session to begin using TLS encryption.
 old-location: ldap\ldap_start_tls_s.htm
 old-project: LDAP
 ms.assetid: faca9324-5a85-47b0-9d6a-c62ec3c1ee80
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: ldap.ldap_start_tls_s, ldap_start_tls_s, ldap_start_tls_s function [LDAP], ldap_start_tls_sA, ldap_start_tls_sW, winldap/ldap_start_tls_s, winldap/ldap_start_tls_sA, winldap/ldap_start_tls_sW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

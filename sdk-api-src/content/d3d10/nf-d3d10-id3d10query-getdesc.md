@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10Query.GetDesc
 title: ID3D10Query::GetDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a query description.
 old-location: direct3d10\id3d10query_getdesc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10query_getdesc.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 298670c9-ff1f-f4ca-f91b-d36b87bae790, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10Query interface, ID3D10Query interface [Direct3D 10],GetDesc method, ID3D10Query.GetDesc, ID3D10Query::GetDesc, d3d10/ID3D10Query::GetDesc, direct3d10.id3d10query_getdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: D3d10core

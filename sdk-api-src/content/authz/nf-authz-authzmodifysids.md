@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzModifySids
 title: AuthzModifySids function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds, deletes, or modifies user and device groups in the Authz client context.
 old-location: security\authzmodifysids.htm
 old-project: SecAuthZ
 ms.assetid: 740569A5-6159-409B-B8CB-B3A8BAE4F398
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthzModifySids, AuthzModifySids function [Security], authz/AuthzModifySids, security.authzmodifysids
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

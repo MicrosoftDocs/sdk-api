@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.ForgetLogRecord
 title: ICrmLogControl::ForgetLogRecord
-author: windows-driver-content
+author: windows-sdk-content
 description: Forgets the last log record written by this instance of the interface.
 old-location: cos\icrmlogcontrol_forgetlogrecord.htm
 old-project: cossdk
 ms.assetid: c1871ca0-0586-41de-9684-2babaafe8796
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ForgetLogRecord, ForgetLogRecord method [COM+], ForgetLogRecord method [COM+],ICrmLogControl interface, ICrmLogControl interface [COM+],ForgetLogRecord method, ICrmLogControl.ForgetLogRecord, ICrmLogControl::ForgetLogRecord, _dtc_ICrmLogControl_ForgetLogRecord, comsvcs/ICrmLogControl::ForgetLogRecord, cos.icrmlogcontrol_forgetlogrecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

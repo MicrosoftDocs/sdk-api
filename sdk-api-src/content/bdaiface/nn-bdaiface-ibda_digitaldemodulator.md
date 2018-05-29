@@ -1,16 +1,16 @@
 ---
 UID: NN:bdaiface.IBDA_DigitalDemodulator
 title: IBDA_DigitalDemodulator
-author: windows-driver-content
+author: windows-sdk-content
 description: The IBDA_DigitalDemodulator interface is exposed on BDA device filters, specifically demodulators, that are not capable of automatically detecting the characteristics of a signal.
 old-location: mstv\ibda_digitaldemodulator.htm
 old-project: mstv
 ms.assetid: 13ecd348-dc2b-4e80-9875-927f4ed55c95
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_DigitalDemodulator, IBDA_DigitalDemodulator interface [Microsoft TV Technologies], IBDA_DigitalDemodulator interface [Microsoft TV Technologies],described, IBDA_DigitalDemodulatorInterface, bdaiface/IBDA_DigitalDemodulator, mstv.ibda_digitaldemodulator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

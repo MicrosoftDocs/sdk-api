@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnObjectDeactivate
 title: IComObjectEvents::OnObjectDeactivate
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when the JIT-activated object is freed by SetComplete or SetAbort.
 old-location: cos\icomobjectevents_onobjectdeactivate.htm
 old-project: cossdk
 ms.assetid: 3284da44-bcc4-49eb-9aa8-40061bf51869
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComObjectEvents interface [COM+],OnObjectDeactivate method, IComObjectEvents.OnObjectDeactivate, IComObjectEvents::OnObjectDeactivate, OnObjectDeactivate, OnObjectDeactivate method [COM+], OnObjectDeactivate method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnObjectDeactivate, comsvcs/IComObjectEvents::OnObjectDeactivate, cos.icomobjectevents_onobjectdeactivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

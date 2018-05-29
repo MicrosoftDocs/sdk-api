@@ -1,16 +1,16 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceDataStream
 title: IPortableDeviceDataStream
-author: windows-driver-content
+author: windows-sdk-content
 description: The IPortableDeviceDataStream interface exposes additional methods on an IStream that is used for data transfers.
 old-location: wpdsdk\iportabledevicedatastream.htm
 old-project: wpd_sdk
 ms.assetid: d7bd955a-886f-4081-bfc3-cd2d7e2cfb24
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IPortableDeviceDataStream, IPortableDeviceDataStream interface [Windows Portable Devices SDK], IPortableDeviceDataStream interface [Windows Portable Devices SDK],described, IPortableDeviceDataStreamInterface, portabledeviceapi/IPortableDeviceDataStream, wpdsdk.iportabledevicedatastream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 

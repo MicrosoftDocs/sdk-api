@@ -1,16 +1,16 @@
 ---
 UID: NS:dxvahd._DXVAHD_BLT_STATE_TARGET_RECT_DATA
 title: "_DXVAHD_BLT_STATE_TARGET_RECT_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the target rectangle for blitting, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_blt_state_target_rect_data.htm
 old-project: medfound
 ms.assetid: 2a810071-b5f7-4216-8108-83dce5c12836
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVAHD_BLT_STATE_TARGET_RECT_DATA, DXVAHD_BLT_STATE_TARGET_RECT_DATA structure [Media Foundation], FALSE, TRUE, _DXVAHD_BLT_STATE_TARGET_RECT_DATA, dxvahd/DXVAHD_BLT_STATE_TARGET_RECT_DATA, mf.dxvahd_blt_state_target_rect_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

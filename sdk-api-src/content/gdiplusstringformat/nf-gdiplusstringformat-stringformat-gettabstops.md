@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetTabStops
 title: StringFormat::GetTabStops
-author: windows-driver-content
+author: windows-sdk-content
 description: The StringFormat::GetTabStops method gets the offsets of the tab stops in this StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffset_tabStops_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gettabstops.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTabStops, GetTabStops method [GDI+], GetTabStops method [GDI+],StringFormat class, StringFormat class [GDI+],GetTabStops method, StringFormat.GetTabStops, StringFormat::GetTabStops, _gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffset_tabStops_, gdiplus._gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffset_tabStops_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h

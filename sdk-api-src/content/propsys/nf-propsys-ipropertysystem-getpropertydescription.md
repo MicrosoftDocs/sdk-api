@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertySystem.GetPropertyDescription
 title: IPropertySystem::GetPropertyDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an instance of the subsystem object that implements IPropertyDescription, to obtain the property description for a given PROPERTYKEY.
 old-location: properties\IPropertySystem_GetPropertyDescription.htm
 old-project: properties
 ms.assetid: c26f6f7e-7ed1-4a97-a9b0-63197ee7b43a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPropertyDescription, GetPropertyDescription method [Windows Properties], GetPropertyDescription method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],GetPropertyDescription method, IPropertySystem.GetPropertyDescription, IPropertySystem::GetPropertyDescription, properties.IPropertySystem_GetPropertyDescription, propsys/IPropertySystem::GetPropertyDescription, shell.IPropertySystem_GetPropertyDescription, shell_IPropertySystem_GetPropertyDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

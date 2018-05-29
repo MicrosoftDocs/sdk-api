@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.Folder2
 title: Folder2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the Folder object to support offline folders.
 old-location: shell\Folder2_Object.htm
 old-project: shell
 ms.assetid: 5b52b141-ced3-4d38-8584-7dfcfe12ab56
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Folder2, Folder2 object [Windows Shell], Folder2 object [Windows Shell],described, _win32_Folder2_Object, shell.Folder2_Object, shldisp/Folder2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

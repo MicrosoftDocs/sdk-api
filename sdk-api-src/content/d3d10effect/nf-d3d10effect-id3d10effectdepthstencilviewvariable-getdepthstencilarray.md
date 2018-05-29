@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectDepthStencilViewVariable.GetDepthStencilArray
 title: ID3D10EffectDepthStencilViewVariable::GetDepthStencilArray
-author: windows-driver-content
+author: windows-sdk-content
 description: Get an array of depth-stencil-view resources.
 old-location: direct3d10\id3d10effectdepthstencilviewvariable_getdepthstencilarray.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectdepthstencilviewvariable_getdepthstencilarray.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetDepthStencilArray, GetDepthStencilArray method [Direct3D 10], GetDepthStencilArray method [Direct3D 10],ID3D10EffectDepthStencilViewVariable interface, ID3D10EffectDepthStencilViewVariable interface [Direct3D 10],GetDepthStencilArray method, ID3D10EffectDepthStencilViewVariable.GetDepthStencilArray, ID3D10EffectDepthStencilViewVariable::GetDepthStencilArray, c70b6288-bffb-443b-6afe-0fe1168b1cf6, d3d10effect/ID3D10EffectDepthStencilViewVariable::GetDepthStencilArray, direct3d10.id3d10effectdepthstencilviewvariable_getdepthstencilarray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: D3d10

@@ -1,16 +1,16 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MEMORY_DESCRIPTOR
 title: "_MINIDUMP_MEMORY_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a range of memory.
 old-location: base\minidump_memory_descriptor_str.htm
 old-project: Debug
 ms.assetid: 34c6de99-8ba5-4199-a382-3e3f7d02571f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PMINIDUMP_MEMORY_DESCRIPTOR, MINIDUMP_MEMORY_DESCRIPTOR, MINIDUMP_MEMORY_DESCRIPTOR structure, MINIDUMP_MEMORY_DESCRIPTOR64, PMINIDUMP_MEMORY_DESCRIPTOR, PMINIDUMP_MEMORY_DESCRIPTOR structure pointer, _MINIDUMP_MEMORY_DESCRIPTOR, _win32_minidump_memory_descriptor_str, base.minidump_memory_descriptor_str, minidumpapiset/MINIDUMP_MEMORY_DESCRIPTOR, minidumpapiset/PMINIDUMP_MEMORY_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h, Minidumpapiset.h

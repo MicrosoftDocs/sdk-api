@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFAsyncCallbackLogging.GetObjectTag
 title: IMFAsyncCallbackLogging::GetObjectTag
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the tag of the parent object the async callback is associated object.
 old-location: mf\imfasynccallbacklogging_getobjecttag.htm
 old-project: medfound
 ms.assetid: f556a163-54d1-4353-ab9e-e8aa6bf35958
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetObjectTag, GetObjectTag method [Media Foundation], GetObjectTag method [Media Foundation],IMFAsyncCallbackLogging interface, IMFAsyncCallbackLogging interface [Media Foundation],GetObjectTag method, IMFAsyncCallbackLogging.GetObjectTag, IMFAsyncCallbackLogging::GetObjectTag, mf.imfasynccallbacklogging_getobjecttag, mfobjects/IMFAsyncCallbackLogging::GetObjectTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: 

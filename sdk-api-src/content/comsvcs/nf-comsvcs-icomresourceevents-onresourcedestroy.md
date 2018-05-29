@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceDestroy
 title: IComResourceEvents::OnResourceDestroy
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when a resource is destroyed.
 old-location: cos\icomresourceevents_onresourcedestroy.htm
 old-project: cossdk
 ms.assetid: cc934b47-8031-4dab-ae00-6389f54749b8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceDestroy method, IComResourceEvents.OnResourceDestroy, IComResourceEvents::OnResourceDestroy, OnResourceDestroy, OnResourceDestroy method [COM+], OnResourceDestroy method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceDestroy, comsvcs/IComResourceEvents::OnResourceDestroy, cos.icomresourceevents_onresourcedestroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

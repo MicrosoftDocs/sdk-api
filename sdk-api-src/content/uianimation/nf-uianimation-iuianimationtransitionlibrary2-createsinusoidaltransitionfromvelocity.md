@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromVelocity
 title: IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a sinusoidal scalar transition where amplitude is determined by initial velocity.
 old-location: uianimation\iuianimationtransitionlibrary2_createsinusoidaltransitionfromvelocity.htm
 old-project: UIAnimation
 ms.assetid: 833D3482-68BC-45DD-9073-B048E11CB801
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateSinusoidalTransitionFromVelocity, CreateSinusoidalTransitionFromVelocity method [Windows Animation], CreateSinusoidalTransitionFromVelocity method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateSinusoidalTransitionFromVelocity method, IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromVelocity, IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity, uianimation.iuianimationtransitionlibrary2_createsinusoidaltransitionfromvelocity, uianimation/IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

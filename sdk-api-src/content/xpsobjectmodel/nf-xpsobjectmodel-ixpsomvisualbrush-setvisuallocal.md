@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.SetVisualLocal
 title: IXpsOMVisualBrush::SetVisualLocal
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the interface pointer of the local, unshared visual used as the source for the brush.
 old-location: xps\ixpsomvisualbrush_setvisuallocal.htm
 old-project: printdocs
 ms.assetid: 8ef37838-ff5f-4c8f-9fa3-30d11417c09d
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMVisualBrush interface [XPS Documents and Packaging],SetVisualLocal method, IXpsOMVisualBrush.SetVisualLocal, IXpsOMVisualBrush::SetVisualLocal, SetVisualLocal, SetVisualLocal method [XPS Documents and Packaging], SetVisualLocal method [XPS Documents and Packaging],IXpsOMVisualBrush interface, xps.ixpsomvisualbrush_setvisuallocal, xpsobjectmodel/IXpsOMVisualBrush::SetVisualLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

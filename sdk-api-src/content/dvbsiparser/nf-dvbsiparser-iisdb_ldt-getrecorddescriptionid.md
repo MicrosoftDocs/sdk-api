@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_LDT.GetRecordDescriptionId
 title: IISDB_LDT::GetRecordDescriptionId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the record description ID from an Integrated services Digital Broadcasting System (IDBS) linked description table (LDT). The description ID field identifies a collected description in the LDT.
 old-location: mstv\iisdb_ldt_getrecorddescriptionid.htm
 old-project: mstv
 ms.assetid: 0c101068-8a33-4c65-b553-fcd5989c4bd7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordDescriptionId, GetRecordDescriptionId method [Microsoft TV Technologies], GetRecordDescriptionId method [Microsoft TV Technologies],IISDB_LDT interface, IISDB_LDT interface [Microsoft TV Technologies],GetRecordDescriptionId method, IISDB_LDT.GetRecordDescriptionId, IISDB_LDT::GetRecordDescriptionId, dvbsiparser/IISDB_LDT::GetRecordDescriptionId, mstv.iisdb_ldt_getrecorddescriptionid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

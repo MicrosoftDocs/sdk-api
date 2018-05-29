@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandlerFrame.GetWindowContext
 title: IPreviewHandlerFrame::GetWindowContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a list of the keyboard shortcuts for the preview host.
 old-location: shell\IPreviewHandlerFrame_GetWindowContext.htm
 old-project: shell
 ms.assetid: 953b7571-0da1-4e31-bb6f-1761f8103c6e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetWindowContext, GetWindowContext method [Windows Shell], GetWindowContext method [Windows Shell],IPreviewHandlerFrame interface, IPreviewHandlerFrame interface [Windows Shell],GetWindowContext method, IPreviewHandlerFrame.GetWindowContext, IPreviewHandlerFrame::GetWindowContext, _shell_IPreviewHandlerFrame_GetWindowContext, shell.IPreviewHandlerFrame_GetWindowContext, shobjidl_core/IPreviewHandlerFrame::GetWindowContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

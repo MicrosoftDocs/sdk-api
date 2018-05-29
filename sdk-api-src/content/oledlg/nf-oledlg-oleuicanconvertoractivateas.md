@@ -1,16 +1,16 @@
 ---
 UID: NF:oledlg.OleUICanConvertOrActivateAs
 title: OleUICanConvertOrActivateAs function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if there are any OLE object classes in the registry that can be used to convert or activate the specified CLSID from.
 old-location: com\oleuicanconvertoractivateas.htm
 old-project: com
 ms.assetid: 9ecd978e-eded-472b-8d45-525bae56bded
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleUICanConvertOrActivateAs, OleUICanConvertOrActivateAs function [COM], _ole_OleUICanConvertOrActivateAs, com.oleuicanconvertoractivateas, oledlg/OleUICanConvertOrActivateAs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 

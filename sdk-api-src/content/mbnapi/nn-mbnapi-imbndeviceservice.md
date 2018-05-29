@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnDeviceService
 title: IMbnDeviceService
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows for communicating with a device service on a particular Mobile Broadband device.
 old-location: mbn\imbndeviceservice.htm
 old-project: mbn
 ms.assetid: 5C587408-DF03-4123-BA5A-C2CCC378F60A
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnDeviceService, IMbnDeviceService interface [Microsoft Broadband Networks], IMbnDeviceService interface [Microsoft Broadband Networks],described, mbn.imbndeviceservice, mbnapi/IMbnDeviceService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

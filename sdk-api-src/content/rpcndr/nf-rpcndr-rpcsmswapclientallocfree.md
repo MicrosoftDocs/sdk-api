@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.RpcSmSwapClientAllocFree
 title: RpcSmSwapClientAllocFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcSmSwapClientAllocFree function exchanges the client stub's memory-allocation and memory-freeing mechanisms with those supplied by the client.
 old-location: rpc\rpcsmswapclientallocfree.htm
 old-project: Rpc
 ms.assetid: f07df5ec-0798-4cd2-a2f5-73e6245a7020
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcSmSwapClientAllocFree, RpcSmSwapClientAllocFree function [RPC], _rpc_rpcsmswapclientallocfree, rpc.rpcsmswapclientallocfree, rpcndr/RpcSmSwapClientAllocFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

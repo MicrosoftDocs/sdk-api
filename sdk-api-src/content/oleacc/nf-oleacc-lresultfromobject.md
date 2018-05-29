@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.LresultFromObject
 title: LresultFromObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a reference, similar to a handle, to the specified object. Servers return this reference when handling WM_GETOBJECT.
 old-location: winauto\lresultfromobject.htm
 old-project: WinAuto
 ms.assetid: c219a4cd-7a8f-4942-8975-b3d823b6497f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: LresultFromObject, LresultFromObject function [Windows Accessibility], _msaa_LresultFromObject, msaa.lresultfromobject, oleacc/LresultFromObject, winauto.lresultfromobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 

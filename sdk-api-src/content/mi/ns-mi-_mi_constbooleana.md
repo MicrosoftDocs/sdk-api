@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_ConstBooleanA
 title: "_MI_ConstBooleanA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an array of MI_ConstBoolean types.
 old-location: wmi_v2\mi_constbooleana.htm
 old-project: wmi_v2
 ms.assetid: 9814a4b9-3297-4aed-bb5f-d2b0a71b2699
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_ConstBooleanA, MI_ConstBooleanA structure [Windows Management Infrastructure (MI)], _MI_ConstBooleanA, mi/MI_ConstBooleanA, wmi._mi_constbooleana, wmi_v2.mi_constbooleana
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

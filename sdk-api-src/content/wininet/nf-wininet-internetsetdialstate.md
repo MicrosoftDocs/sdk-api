@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetSetDialState
 title: InternetSetDialState function
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.This function is obsolete. Do not use.
 old-location: wininet\internetsetdialstate.htm
 old-project: WinInet
 ms.assetid: f523f1ca-3e5a-4da0-850f-8654c82ee41e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
-ms.keywords: InternetSetDialState, InternetSetDialState function [WinINet], InternetSetDialStateA, InternetSetDialStateW, _inet_internetsetdialstate_function, wininet.internetsetdialstate, wininet/InternetSetDialState, wininet/InternetSetDialStateA, wininet/InternetSetDialStateW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: InternetSetDialState, InternetSetDialState function [WinINet], InternetSetDialStateA, InternetSetDialStateW, _inet_internetsetdialstate_function, wininet.internetsetdialstate, wininet/InternetSetDialState, wininet/InternetSetDialStateA, wininet/InternetSetDialStateW, winineti/InternetSetDialState, winineti/InternetSetDialStateA, winineti/InternetSetDialStateW
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

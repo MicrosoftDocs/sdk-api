@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetBlackPointX
 title: SetBlackPointX function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the x value of the black point.
 old-location: directcomp\idcompositionbrightnesseffect_setblackpointx_overloaded.htm
 old-project: directcomp
 ms.assetid: 05fc473f-4dc6-b64d-830e-4153b1e0e392
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: SetBlackPointX, SetBlackPointX methods [DirectComposition], dcomp/SetBlackPointX, directcomp.idcompositionbrightnesseffect_setblackpointx_overloaded, idcompositionbrightnesseffect::SetBlackPointX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICPngHistProperties
 title: WICPngHistProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the Portable Network Graphics (PNG) hIST chunk metadata properties.
 old-location: wic\_wic_codec_wicpnghistproperties.htm
 old-project: wic
 ms.assetid: ab3ddddb-5916-43b8-8688-5361cee05902
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICPngHistFrequencies, WICPngHistProperties, WICPngHistProperties enumeration [Windows Imaging Component], _wic_codec_wicpnghistproperties, wic._wic_codec_wicpnghistproperties, wincodec/WICPngHistFrequencies, wincodec/WICPngHistProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

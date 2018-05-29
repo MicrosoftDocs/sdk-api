@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11_2.ID3D11DeviceContext2
 title: ID3D11DeviceContext2
-author: windows-driver-content
+author: windows-sdk-content
 description: The device context interface represents a device context; it is used to render commands. ID3D11DeviceContext2 adds new methods to those in ID3D11DeviceContext1.
 old-location: direct3d11\id3d11devicecontext2.htm
 old-project: direct3d11
 ms.assetid: 8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11DeviceContext2, ID3D11DeviceContext2 interface [Direct3D 11], ID3D11DeviceContext2 interface [Direct3D 11],described, d3d11_2/ID3D11DeviceContext2, direct3d11.id3d11devicecontext2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_2.h
 req.include-header: 

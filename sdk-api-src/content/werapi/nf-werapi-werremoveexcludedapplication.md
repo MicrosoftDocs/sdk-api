@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerRemoveExcludedApplication
 title: WerRemoveExcludedApplication function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the specified application from the list of applications that are to be excluded from error reporting.
 old-location: wer\werremoveexcludedapplication.htm
 old-project: wer
 ms.assetid: e7bab01b-a09c-4b06-a233-34ed63f75857
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WerRemoveExcludedApplication, WerRemoveExcludedApplication function [Windows Error Reporting], base.werremoveexcludedapplication, wer.werremoveexcludedapplication, werapi/WerRemoveExcludedApplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_ITEM_RANGE
 title: "_WS_ITEM_RANGE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the minimum and maximum number of items that may appear when using WS_REPEATING_ELEMENT_FIELD_MAPPING, WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING, or WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING within a WS_FIELD_DESCRIPTION.
 old-location: wsw\ws_item_range.htm
 old-project: wsw
 ms.assetid: 29e04edd-fa39-47d0-a24c-ef3f539ce171
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_ITEM_RANGE, WS_ITEM_RANGE structure [Web Services for Windows], _WS_ITEM_RANGE, webservices/WS_ITEM_RANGE, wsw.ws_item_range
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

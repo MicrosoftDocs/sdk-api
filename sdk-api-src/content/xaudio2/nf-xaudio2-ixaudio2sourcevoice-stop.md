@@ -1,16 +1,16 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.Stop
 title: IXAudio2SourceVoice::Stop
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops consumption of audio by the current voice.
 old-location: xaudio2\ixaudio2sourcevoice_interface_stop.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.Stop(UINT32,UINT32)
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],Stop method, IXAudio2SourceVoice.Stop, IXAudio2SourceVoice::Stop, Stop, Stop method [XAudio2 Audio Mixing APIs], Stop method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_stop, xaudio2/IXAudio2SourceVoice::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

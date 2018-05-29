@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509Extension
 title: IX509Extension
-author: windows-driver-content
+author: windows-sdk-content
 description: Can be used to define an extension for a certificate request.
 old-location: security\ix509extension.htm
 old-project: SecCertEnroll
 ms.assetid: f04e3f63-c826-4401-a1c8-b2614e0dc374
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509Extension, IX509Extension interface [Security], IX509Extension interface [Security],described, certenroll/IX509Extension, security.ix509extension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

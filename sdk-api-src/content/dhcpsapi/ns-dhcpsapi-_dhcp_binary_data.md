@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_BINARY_DATA
 title: "_DHCP_BINARY_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCP_BINARY_DATA structure defines an opaque blob of binary data.
 old-location: dhcp\dhcp_binary_data.htm
 old-project: DHCP
 ms.assetid: 0afdddb4-12f9-4c0b-937a-2cc311c126b4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_BINARY_DATA, DHCP_BINARY_DATA, DHCP_BINARY_DATA structure [DHCP], DHCP_CLIENT_UID, DHCP_CLIENT_UID structure [DHCP], LPDHCP_BINARY_DATA, LPDHCP_BINARY_DATA structure pointer [DHCP], _DHCP_BINARY_DATA, dhcp.dhcp_binary_data, dhcpsapi/DHCP_CLIENT_UID, dhcpsapi/LPDHCP_BINARY_DATA, dhcpsapi/_DHCP_BINARY_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

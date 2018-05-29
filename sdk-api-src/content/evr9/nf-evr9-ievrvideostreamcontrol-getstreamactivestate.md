@@ -1,16 +1,16 @@
 ---
 UID: NF:evr9.IEVRVideoStreamControl.GetStreamActiveState
 title: IEVRVideoStreamControl::GetStreamActiveState
-author: windows-driver-content
+author: windows-sdk-content
 description: IEVRVideoStreamControl::GetStreamActiveState method
 old-location: mf\ievrvideostreamcontrol_getstreamactivestate.htm
 old-project: medfound
 ms.assetid: d4ca1da7-7768-45b4-a0be-f3ef86fed7b9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetStreamActiveState, GetStreamActiveState method [Media Foundation], GetStreamActiveState method [Media Foundation],IEVRVideoStreamControl interface, IEVRVideoStreamControl interface [Media Foundation],GetStreamActiveState method, IEVRVideoStreamControl.GetStreamActiveState, IEVRVideoStreamControl::GetStreamActiveState, d4ca1da7-7768-45b4-a0be-f3ef86fed7b9, evr9/IEVRVideoStreamControl::GetStreamActiveState, mf.ievrvideostreamcontrol_getstreamactivestate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: evr9.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_FREE_LSA_HEAP
 title: LSA_FREE_LSA_HEAP
-author: windows-driver-content
-description: Deallocates heap memory previously allocated by AllocateLsaHeap.
-old-location: security\freelsaheap.htm
+author: windows-sdk-content
+description: The FreeReturnBuffer function is used to free buffers allocated by the Local Security Authority (LSA) and returned to the security package. The package calls this function when the information in the returned buffer is no longer needed.
+old-location: security\freereturnbuffer.htm
 old-project: SecAuthN
-ms.assetid: bd461a23-2501-48c5-8f2f-c6c98383157f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
-ms.keywords: FreeLsaHeap, FreeLsaHeap function [Security], LSA_FREE_LSA_HEAP, _lsa_freelsaheap, ntsecpkg/FreeLsaHeap, security.freelsaheap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.assetid: 44b7e6f2-eb7e-47ec-8252-689eb1e5aa77
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: FreeReturnBuffer, FreeReturnBuffer function [Security], LSA_FREE_LSA_HEAP, _ssp_freereturnbuffer, ntsecpkg/FreeReturnBuffer, security.freereturnbuffer
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Ntsecpkg.h
 api_name:
--	FreeLsaHeap
+-	FreeReturnBuffer
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,8 +50,7 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-Deallocates heap memory previously allocated by 
-<a href="https://msdn.microsoft.com/cb87f1b1-3e1e-4add-8e74-ca7b4f8599ba">AllocateLsaHeap</a>.
+The <b>FreeReturnBuffer</b> function is used to free buffers allocated by the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA) and returned to the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security package</a>. The package calls this function when the information in the returned buffer is no longer needed.
 
 
 ## -parameters
@@ -61,14 +60,25 @@ Deallocates heap memory previously allocated by
 
 ### -param Base [in]
 
-Pointer to the buffer to be freed.
+Pointer to the buffer to free.
 
 
 ## -returns
 
 
 
-This function does not return a value. However, if the function sets <i>Base</i> to <b>NULL</b>, the buffer was freed. If <i>Base</i> is not <b>NULL</b> after the function call ends, the buffer could not be freed.
+This function does not return a value.
+
+
+
+
+## -remarks
+
+
+
+A pointer to the <b>FreeReturnBuffer</b> function is available in the 
+<a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a> structure received by the 
+<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a> function.
 
 
 
@@ -78,11 +88,11 @@ This function does not return a value. However, if the function sets <i>Base</i>
 
 
 
-<a href="https://msdn.microsoft.com/2e144ce0-e8c9-457a-8b12-7d21dda6adf3">LSA_DISPATCH_TABLE</a>
-
-
-
 <a href="https://msdn.microsoft.com/85f04072-8634-454a-9038-737d86c5597d">LSA_SECPKG_FUNCTION_TABLE</a>
+
+
+
+<a href="https://msdn.microsoft.com/d93bafc6-d946-4214-b3c0-5e5a8e359638">SpInitialize</a>
  
 
  

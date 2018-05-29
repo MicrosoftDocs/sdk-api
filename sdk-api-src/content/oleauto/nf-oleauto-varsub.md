@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarSub
 title: VarSub function
-author: windows-driver-content
+author: windows-sdk-content
 description: Subtracts two variants.
 old-location: automat\varsub.htm
 old-project: automat
 ms.assetid: 395cc5fe-8694-47a9-8e92-1768c300ba7e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarSub, VarSub function [Automation], _oa96_VarSub, automat.varsub, oleauto/VarSub
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

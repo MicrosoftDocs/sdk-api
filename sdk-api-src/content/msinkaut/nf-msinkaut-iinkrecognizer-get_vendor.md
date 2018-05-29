@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_Vendor
 title: IInkRecognizer::get_Vendor
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the vendor name of the IInkRecognizer object.
 old-location: tablet\iinkrecognizer_vendor.htm
 old-project: tablet
 ms.assetid: 6b302453-ec9e-474b-b9ee-5776d464f4f8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 6b302453-ec9e-474b-b9ee-5776d464f4f8, IInkRecognizer interface [Tablet PC],Vendor property, IInkRecognizer.Vendor, IInkRecognizer.get_Vendor, IInkRecognizer::Vendor, IInkRecognizer::get_Vendor, Vendor property [Tablet PC], Vendor property [Tablet PC],IInkRecognizer interface, get_Vendor, msinkaut/IInkRecognizer::Vendor, msinkaut/IInkRecognizer::get_Vendor, tablet.iinkrecognizer_vendor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

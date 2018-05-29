@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTablePattern
 title: IUIAutomationTablePattern
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to a control that acts as a container for a collection of child elements.
 old-location: winauto\uiauto_IUIAutomationTablePattern.htm
 old-project: WinAuto
 ms.assetid: a393b323-31f9-4f31-abdb-7a0fb7c8ab96
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationTablePattern, IUIAutomationTablePattern interface [Windows Accessibility], IUIAutomationTablePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTablePattern, uiauto_IUIAutomationTablePattern, uiautomationclient/IUIAutomationTablePattern, winauto.uiauto_IUIAutomationTablePattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

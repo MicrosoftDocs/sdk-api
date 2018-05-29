@@ -1,16 +1,16 @@
 ---
 UID: NF:mspstrm.CMSPStream.ShutDown
 title: CMSPStream::ShutDown
-author: windows-driver-content
+author: windows-sdk-content
 description: The ShutDown method is called by the MSPCall object. It unselects all the terminal objects (via UnselectTerminal). It also calls MSPCallRelease on the call object. This is needed to break the circular refcount.
 old-location: tapi3\cmspstream_shutdown.htm
 old-project: Tapi
 ms.assetid: 5434c9ea-f045-4293-802d-35fb59123922
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CMSPStream interface [TAPI 2.2],ShutDown method, CMSPStream.ShutDown, CMSPStream::ShutDown, ShutDown, ShutDown method [TAPI 2.2], ShutDown method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_shutdown, mspstrm/CMSPStream::ShutDown, tapi3.cmspstream_shutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mspstrm.h
 req.include-header: 

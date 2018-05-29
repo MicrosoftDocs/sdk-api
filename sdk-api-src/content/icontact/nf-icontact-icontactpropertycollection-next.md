@@ -1,16 +1,16 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.Next
 title: IContactPropertyCollection::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves to the next property.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_Next.htm
 old-project: wincontacts
 ms.assetid: b6e8abad-796d-4ded-be23-45ca107915f1
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IContactPropertyCollection interface [Windows Contacts],Next method, IContactPropertyCollection.Next, IContactPropertyCollection::Next, Next, Next method [Windows Contacts], Next method [Windows Contacts],IContactPropertyCollection interface, _wincontacts_IContactPropertyCollection_Next, icontact/IContactPropertyCollection::Next, wincontacts._wincontacts_IContactPropertyCollection_Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

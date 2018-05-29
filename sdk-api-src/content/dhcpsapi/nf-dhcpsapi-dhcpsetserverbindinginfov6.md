@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpSetServerBindingInfoV6
 title: DhcpSetServerBindingInfoV6 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or modifies the IPv6 interface bindings for the DHCPv6 server.
 old-location: dhcp\dhcpsetserverbindinginfov6.htm
 old-project: DHCP
 ms.assetid: 55eb2073-87c4-49b1-b294-35bfeb13d530
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpSetServerBindingInfoV6, DhcpSetServerBindingInfoV6 function [DHCP], dhcp.dhcpsetserverbindinginfov6, dhcpsapi/DhcpSetServerBindingInfoV6
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

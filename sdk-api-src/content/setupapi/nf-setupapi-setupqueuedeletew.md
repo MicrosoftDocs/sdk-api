@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupQueueDeleteW
 title: SetupQueueDeleteW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupQueueDelete function places an individual file delete operation on a setup file queue.
 old-location: setup\setupqueuedelete.htm
 old-project: SetupApi
 ms.assetid: 21cdaf05-c4fb-4130-baa5-31baf5391ece
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupQueueDelete, SetupQueueDelete function [Setup API], SetupQueueDeleteA, SetupQueueDeleteW, _setupapi_setupqueuedelete, setup.setupqueuedelete, setupapi/SetupQueueDelete, setupapi/SetupQueueDeleteA, setupapi/SetupQueueDeleteW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

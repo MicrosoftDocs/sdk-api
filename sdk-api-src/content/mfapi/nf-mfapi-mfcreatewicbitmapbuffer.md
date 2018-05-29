@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateWICBitmapBuffer
 title: MFCreateWICBitmapBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a media buffer object that manages a Windows Imaging Component (WIC).
 old-location: mf\mfcreatewicbitmapbuffer.htm
 old-project: medfound
 ms.assetid: 029B7CC6-5B12-4A19-B6CD-B0D7E3F314B6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateWICBitmapBuffer, MFCreateWICBitmapBuffer function [Media Foundation], mf.mfcreatewicbitmapbuffer, mfapi/MFCreateWICBitmapBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

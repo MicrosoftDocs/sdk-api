@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IServicePartitionConfig.PartitionConfig
 title: IServicePartitionConfig::PartitionConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures how partitions are used for the enclosed work.
 old-location: cos\iservicepartitionconfig_partitionconfig.htm
 old-project: cossdk
 ms.assetid: 0f8c5353-5740-4c7e-91be-f336424fb93a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServicePartitionConfig interface [COM+],PartitionConfig method, IServicePartitionConfig.PartitionConfig, IServicePartitionConfig::PartitionConfig, PartitionConfig, PartitionConfig method [COM+], PartitionConfig method [COM+],IServicePartitionConfig interface, _cos_IServicePartitionConfig_PartitionConfig, comsvcs/IServicePartitionConfig::PartitionConfig, cos.iservicepartitionconfig_partitionconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

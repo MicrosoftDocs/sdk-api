@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HttpSetUrlGroupProperty
 title: HttpSetUrlGroupProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a new property or modifies an existing property on the specified URL Group.
 old-location: http\httpseturlgroupproperty.htm
 old-project: Http
 ms.assetid: e0826a25-1c50-4757-9355-69eb4946e8dd
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HttpServerAuthenticationProperty, HttpServerBindingProperty, HttpServerChannelBindProperty, HttpServerExtendedAuthenticationProperty, HttpServerLoggingProperty, HttpServerQosProperty, HttpServerStateProperty, HttpServerTimeoutsProperty, HttpSetUrlGroupProperty, HttpSetUrlGroupProperty function [HTTP], http.httpseturlgroupproperty, http/HttpSetUrlGroupProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: http.h
 req.include-header: 

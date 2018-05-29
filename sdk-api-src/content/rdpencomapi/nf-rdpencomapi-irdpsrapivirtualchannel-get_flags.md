@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.get_Flags
 title: IRDPSRAPIVirtualChannel::get_Flags
-author: windows-driver-content
+author: windows-sdk-content
 description: The channel flags. This property is reserved for future use.
 old-location: rdp\irdpsrapivirtualchannel_flags.htm
 old-project: Rdp
 ms.assetid: a6c75a09-f791-4dca-8059-33f03b4e3d1e
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIVirtualChannel interface, Flags property [RDP],RDPSRAPIVirtualChannel object, IRDPSRAPIVirtualChannel interface [RDP],Flags property, IRDPSRAPIVirtualChannel.Flags, IRDPSRAPIVirtualChannel.get_Flags, IRDPSRAPIVirtualChannel::Flags, IRDPSRAPIVirtualChannel::get_Flags, RDPSRAPIVirtualChannel object [RDP],Flags property, get_Flags, rdp.irdpsrapivirtualchannel_flags, rdpencomapi/IRDPSRAPIVirtualChannel::Flags, rdpencomapi/IRDPSRAPIVirtualChannel::get_Flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

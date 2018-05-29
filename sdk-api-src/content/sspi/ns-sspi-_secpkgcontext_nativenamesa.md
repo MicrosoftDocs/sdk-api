@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SecPkgContext_NativeNamesA
 title: "_SecPkgContext_NativeNamesA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SecPkgContext_NativeNames structure returns the client and server principal names from the outbound ticket. This structure is valid only for client outbound tickets. This structure is returned by QueryContextAttributes (General).
 old-location: security\secpkgcontext_nativenames.htm
 old-project: SecAuthN
 ms.assetid: f935093f-5661-4ced-94f1-c4b21c3b9f69
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgContext_NativeNamesA, PSecPkgContext_NativeNames, PSecPkgContext_NativeNames structure pointer [Security], SecPkgContext_NativeNames, SecPkgContext_NativeNames structure [Security], SecPkgContext_NativeNamesA, _SecPkgContext_NativeNamesA, _SecPkgContext_NativeNamesW, security.secpkgcontext_nativenames, sspi/PSecPkgContext_NativeNames, sspi/SecPkgContext_NativeNames"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetCategory
 title: IKnownFolder::GetCategory
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the category&#8212;virtual, fixed, common, or per-user&#8212;of the selected folder.
 old-location: shell\IKnownFolder_GetCategory.htm
 old-project: shell
 ms.assetid: b3a7f249-9d57-4bd1-830f-1c83c745782f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCategory, GetCategory method [Windows Shell], GetCategory method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetCategory method, IKnownFolder.GetCategory, IKnownFolder::GetCategory, _shell_IKnownFolder_GetCategory, shell.IKnownFolder_GetCategory, shobjidl_core/IKnownFolder::GetCategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

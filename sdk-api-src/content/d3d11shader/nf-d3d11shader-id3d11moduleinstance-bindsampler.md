@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindSampler
 title: ID3D11ModuleInstance::BindSampler
-author: windows-driver-content
+author: windows-sdk-content
 description: Rebinds a sampler from source slot to destination slot.
 old-location: direct3d11\id3d11moduleinstance_bindsampler.htm
 old-project: direct3d11
 ms.assetid: FB7A63DE-C8EC-456D-84D6-D0AF682A46E8
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: BindSampler, BindSampler method [Direct3D 11], BindSampler method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindSampler method, ID3D11ModuleInstance.BindSampler, ID3D11ModuleInstance::BindSampler, d3d11shader/ID3D11ModuleInstance::BindSampler, direct3d11.id3d11moduleinstance_bindsampler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

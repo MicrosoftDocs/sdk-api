@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_Enabled
 title: IFsrmFileManagementJob::put_Enabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the job enabled (can run).
 old-location: fsrm\ifsrmfilemanagementjob_enabled.htm
 old-project: Fsrm
 ms.assetid: c52dab05-34fb-4d9d-ac12-cbcee7e1fb9b
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: Enabled property [File Server Resource Manager], Enabled property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],Enabled property, IFsrmFileManagementJob.Enabled, IFsrmFileManagementJob.put_Enabled, IFsrmFileManagementJob::Enabled, IFsrmFileManagementJob::get_Enabled, IFsrmFileManagementJob::put_Enabled, fs.ifsrmfilemanagementjob_enabled, fsrm.ifsrmfilemanagementjob_enabled, fsrmreports/IFsrmFileManagementJob::Enabled, fsrmreports/IFsrmFileManagementJob::get_Enabled, fsrmreports/IFsrmFileManagementJob::put_Enabled, put_Enabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:psapi.GetModuleInformation
 title: GetModuleInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the specified module in the MODULEINFO structure.
 old-location: psapi\getmoduleinformation.htm
 old-project: psapi
 ms.assetid: afb9f4c8-c8ae-4497-96c1-b559cfa2cedf
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetModuleInformation, GetModuleInformation function [PSAPI], K32GetModuleInformation, _win32_getmoduleinformation, base.getmoduleinformation, psapi.getmoduleinformation, psapi/GetModuleInformation, psapi/K32GetModuleInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: psapi.h
 req.include-header: 

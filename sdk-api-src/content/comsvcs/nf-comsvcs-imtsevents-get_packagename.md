@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IMtsEvents.get_PackageName
 title: IMtsEvents::get_PackageName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the name of the package in which the instance of the object that implements the IMtsEvents interface is running.
 old-location: cos\imtsevents_get_packagename.htm
 old-project: cossdk
 ms.assetid: 0b23828f-cadc-472d-9186-0712e0120b60
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMtsEvents interface [COM+],get_PackageName method, IMtsEvents.get_PackageName, IMtsEvents::get_PackageName, _dtc_IMtsEvents_PackageName, comsvcs/IMtsEvents::get_PackageName, cos.imtsevents_get_packagename, get_PackageName, get_PackageName method [COM+], get_PackageName method [COM+],IMtsEvents interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

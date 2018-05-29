@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHParseDisplayName
 title: SHParseDisplayName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Translates a Shell namespace object's display name into an item identifier list and returns the attributes of the object. This function is the preferred method to convert a string to a pointer to an item identifier list (PIDL).
 old-location: shell\SHParseDisplayName.htm
 old-project: shell
 ms.assetid: 7bdfeed5-dcd0-40f6-a9d0-08ce816ee055
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHParseDisplayName, SHParseDisplayName function [Windows Shell], _shell_SHParseDisplayName, shell.SHParseDisplayName, shlobj_core/SHParseDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

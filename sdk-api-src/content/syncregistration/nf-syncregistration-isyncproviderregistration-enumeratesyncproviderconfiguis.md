@@ -1,16 +1,16 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.EnumerateSyncProviderConfigUIs
 title: ISyncProviderRegistration::EnumerateSyncProviderConfigUIs
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an IEnumSyncProviderConfigUIInfos enumeration interface that enumerates all registered ISyncProviderConfigUIInfo objects for the specified criteria.
 old-location: winsync\isyncproviderregistration_enumeratesyncproviderconfiguis.htm
 old-project: winsync
 ms.assetid: e3f87fc7-f123-454e-851c-92dbad605600
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: EnumerateSyncProviderConfigUIs, EnumerateSyncProviderConfigUIs method [Windows Sync], EnumerateSyncProviderConfigUIs method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],EnumerateSyncProviderConfigUIs method, ISyncProviderRegistration.EnumerateSyncProviderConfigUIs, ISyncProviderRegistration::EnumerateSyncProviderConfigUIs, syncregistration/ISyncProviderRegistration::EnumerateSyncProviderConfigUIs, winsync.isyncproviderregistration_enumeratesyncproviderconfiguis
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

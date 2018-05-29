@@ -1,16 +1,16 @@
 ---
 UID: NS:msacm.tACMFORMATCHOOSE
 title: tACMFORMATCHOOSE
-author: windows-driver-content
+author: windows-sdk-content
 description: The ACMFORMATCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio format selection dialog box.
 old-location: multimedia\acmformatchoose_struct.htm
 old-project: Multimedia
 ms.assetid: b5e36dbd-9eaf-479a-af4c-ce07e4b6f042
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPACMFORMATCHOOSE, *PACMFORMATCHOOSE, ACMFORMATCHOOSE, ACMFORMATCHOOSE structure [Windows Multimedia], ACMFORMATCHOOSE_STYLEF_CONTEXTHELP, ACMFORMATCHOOSE_STYLEF_ENABLEHOOK, ACMFORMATCHOOSE_STYLEF_ENABLETEMPLATE, ACMFORMATCHOOSE_STYLEF_ENABLETEMPLATEHANDLE, ACMFORMATCHOOSE_STYLEF_INITTOWFXSTRUCT, ACMFORMATCHOOSE_STYLEF_SHOWHELP, ACM_FORMATENUMF_CONVERT, ACM_FORMATENUMF_HARDWARE, ACM_FORMATENUMF_INPUT, ACM_FORMATENUMF_NCHANNELS, ACM_FORMATENUMF_NSAMPLESPERSEC, ACM_FORMATENUMF_OUTPUT, ACM_FORMATENUMF_SUGGEST, ACM_FORMATENUMF_WBITSPERSAMPLE, ACM_FORMATENUMF_WFORMATTAG, msacm/ACMFORMATCHOOSE, multimedia.acmformatchoose_struct, tACMFORMATCHOOSE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msacm.h
 req.include-header: 

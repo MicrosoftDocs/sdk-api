@@ -1,16 +1,16 @@
 ---
 UID: NN:encdec.IDTFilterConfig
 title: IDTFilterConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDTFilterConfig interface configures the Decrypter/Detagger filter. Most applications will not have to use this interface.
 old-location: mstv\idtfilterconfig.htm
 old-project: mstv
 ms.assetid: 1f6d7969-3207-48f8-8972-0a95287ccc71
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDTFilterConfig, IDTFilterConfig interface [Microsoft TV Technologies], IDTFilterConfig interface [Microsoft TV Technologies],described, IDTFilterConfigInterface, encdec/IDTFilterConfig, mstv.idtfilterconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: encdec.h
 req.include-header: 

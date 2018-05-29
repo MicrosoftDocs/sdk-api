@@ -1,16 +1,16 @@
 ---
 UID: NE:mi._MI_ProviderArchitecture
 title: "_MI_ProviderArchitecture"
-author: windows-driver-content
+author: windows-sdk-content
 description: This enumeration defines the WMI provider architecture used on the server.
 old-location: wmi_v2\mi_providerarchitecture.htm
 old-project: wmi_v2
 ms.assetid: 9dd275aa-23a9-44f4-916f-355b77490161
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_PROVIDER_ARCHITECTURE_32BIT, MI_PROVIDER_ARCHITECTURE_64BIT, MI_ProviderArchitecture, MI_ProviderArchitecture enumeration [Windows Management Infrastructure (MI)], _MI_ProviderArchitecture, mi/MI_PROVIDER_ARCHITECTURE_32BIT, mi/MI_PROVIDER_ARCHITECTURE_64BIT, mi/MI_ProviderArchitecture, wmi._mi_providerarchitecture, wmi_v2.mi_providerarchitecture
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mi.h
 req.include-header: 

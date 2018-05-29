@@ -1,16 +1,16 @@
 ---
 UID: NN:wia_xp.IWiaItemExtras
 title: IWiaItemExtras
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWiaItemExtras interface provides several methods that enable applications to communicate with hardware drivers.
 old-location: wia\_wia_IWiaItemExtras.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\iwiaitemextras.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IWiaItemExtras, IWiaItemExtras interface [WIA], IWiaItemExtras interface [WIA],described, _wia_IWiaItemExtras, wia._wia_IWiaItemExtras, wia_xp/IWiaItemExtras
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h

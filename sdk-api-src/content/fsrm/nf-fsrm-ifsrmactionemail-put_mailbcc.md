@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrm.IFsrmActionEmail.put_MailBcc
 title: IFsrmActionEmail::put_MailBcc
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the blind carbon copy (Bcc) email address to which email is sent when this action generates email.
 old-location: fsrm\ifsrmactionemail_mailbcc.htm
 old-project: Fsrm
 ms.assetid: 4c05fcd2-ec94-4ed3-a027-ac91e4452e59
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmActionEmail interface [File Server Resource Manager],MailBcc property, IFsrmActionEmail.MailBcc, IFsrmActionEmail.put_MailBcc, IFsrmActionEmail2 interface [File Server Resource Manager],MailBcc property, IFsrmActionEmail2.MailBcc, IFsrmActionEmail2::MailBcc, IFsrmActionEmail2::get_MailBcc, IFsrmActionEmail2::put_MailBcc, IFsrmActionEmail::get_MailBcc, IFsrmActionEmail::put_MailBcc, MailBcc property [File Server Resource Manager], MailBcc property [File Server Resource Manager],IFsrmActionEmail interface, MailBcc property [File Server Resource Manager],IFsrmActionEmail2 interface, fs.ifsrmactionemail_mailbcc, fsrm.ifsrmactionemail_mailbcc, fsrm/IFsrmActionEmail2::MailBcc, fsrm/IFsrmActionEmail2::get_MailBcc, fsrm/IFsrmActionEmail2::put_MailBcc, fsrm/IFsrmActionEmail::MailBcc, fsrm/IFsrmActionEmail::get_MailBcc, fsrm/IFsrmActionEmail::put_MailBcc, put_MailBcc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h

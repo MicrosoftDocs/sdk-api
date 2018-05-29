@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
 title: "_VOLUME_GET_GPT_ATTRIBUTES_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains volume attributes retrieved with the IOCTL_VOLUME_GET_GPT_ATTRIBUTES control code.
 old-location: fs\volume_get_gpt_attributes_information.htm
 old-project: FileIO
 ms.assetid: d67590a9-9182-406f-8d15-8d40172cf5e5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION, PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION structure pointer [Files], VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, VOLUME_GET_GPT_ATTRIBUTES_INFORMATION structure [Files], _VOLUME_GET_GPT_ATTRIBUTES_INFORMATION, fs.volume_get_gpt_attributes_information, winioctl/PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION, winioctl/VOLUME_GET_GPT_ATTRIBUTES_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

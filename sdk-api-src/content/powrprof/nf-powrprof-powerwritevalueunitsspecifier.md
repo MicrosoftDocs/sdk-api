@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.PowerWriteValueUnitsSpecifier
 title: PowerWriteValueUnitsSpecifier function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes the string used to describe the units of a power setting that supports a range of values.
 old-location: base\powerwritevalueunitsspecifier.htm
 old-project: Power
 ms.assetid: d9a81077-23e8-4bae-8e70-ffaaaf1ecda3
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWriteValueUnitsSpecifier, PowerWriteValueUnitsSpecifier function, base.powerwritevalueunitsspecifier, powrprof/PowerWriteValueUnitsSpecifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagLVGROUP
 title: tagLVGROUP
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to set and retrieve groups.
 old-location: controls\LVGROUP.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lv_group.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PLVGROUP, LVGF_FOOTER, LVGF_HEADER, LVGF_NONE, LVGF_STATE, LVGROUP, LVGROUP structure [Windows Controls], PLVGROUP, PLVGROUP structure pointer [Windows Controls], commctrl/LVGROUP, commctrl/PLVGROUP, controls.LVGROUP, controls.inet_LVGROUP, inet_LVGROUP, inet_LVGROUP_cpp, tagLVGROUP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextPara.GetHyphenation
 title: ITextPara::GetHyphenation
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether automatic hyphenation is enabled for the range.
 old-location: controls\ITextPara_GetHyphenation.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gethyphenation.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetHyphenation, GetHyphenation method [Windows Controls], GetHyphenation method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetHyphenation method, ITextPara.GetHyphenation, ITextPara::GetHyphenation, _win32_ITextPara_GetHyphenation, _win32_ITextPara_GetHyphenation_cpp, controls.ITextPara_GetHyphenation, controls._win32_ITextPara_GetHyphenation, tom/ITextPara::GetHyphenation, tomFalse, tomTrue, tomUndefined
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

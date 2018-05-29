@@ -1,16 +1,16 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0078_0004
 title: "__MIDL___MIDL_itf_ads_0001_0078_0004"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how escape characters are displayed in a directory path.
 old-location: adsi\ads_escape_mode_enum.htm
 old-project: ADSI
 ms.assetid: f69934bc-69ac-4822-b92d-89c94f55e036
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADS_ESCAPEDMODE_DEFAULT, ADS_ESCAPEDMODE_OFF, ADS_ESCAPEDMODE_OFF_EX, ADS_ESCAPEDMODE_ON, ADS_ESCAPE_MODE_ENUM, ADS_ESCAPE_MODE_ENUM enumeration [ADSI], __MIDL___MIDL_itf_ads_0001_0078_0004, _ds_ads_escape_mode_enum, adsi.ads__escape__mode__enum, adsi.ads_escape_mode_enum, iads/ADS_ESCAPEDMODE_DEFAULT, iads/ADS_ESCAPEDMODE_OFF, iads/ADS_ESCAPEDMODE_OFF_EX, iads/ADS_ESCAPEDMODE_ON, iads/ADS_ESCAPE_MODE_ENUM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: iads.h
 req.include-header: 

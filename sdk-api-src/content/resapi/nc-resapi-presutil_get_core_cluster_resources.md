@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_GET_CORE_CLUSTER_RESOURCES
 title: PRESUTIL_GET_CORE_CLUSTER_RESOURCES
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns handles to the core&#32;Network Name, IP Address and quorum resources. The PRESUTIL_GET_CORE_CLUSTER_RESOURCES type defines a pointer to this function.
 old-location: mscs\resutilgetcoreclusterresources.htm
 old-project: MsCS
 ms.assetid: cadfeaf7-951f-4fc7-96fa-2e256e52a370
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_GET_CORE_CLUSTER_RESOURCES, PRESUTIL_GET_CORE_CLUSTER_RESOURCES callback, PRESUTIL_GET_CORE_CLUSTER_RESOURCES callback function [Failover Cluster], _wolf_resutilgetcoreclusterresources, mscs.resutilgetcoreclusterresources, resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

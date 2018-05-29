@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.GetEnlistmentId
 title: GetEnlistmentId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the identifier (ID) for the specified enlistment.
 old-location: fs\getenlistmentid.htm
 old-project: Ktm
 ms.assetid: ffd37a2e-6bac-4566-bb15-eafce8a11c3b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetEnlistmentId, GetEnlistmentId function [Files], fs.getenlistmentid, ktmw32/GetEnlistmentId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

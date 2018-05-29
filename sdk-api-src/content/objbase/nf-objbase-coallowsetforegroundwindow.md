@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.CoAllowSetForegroundWindow
 title: CoAllowSetForegroundWindow function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function passes the foreground privilege (the privilege to set the foreground window) from one process to another. The process that has the foreground privilege can call this function to pass that privilege on to a local COM server process.
 old-location: com\coallowsetforegroundwindow.htm
 old-project: com
 ms.assetid: a728aaad-3d7a-425c-b886-ba35c4fa54d0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoAllowSetForegroundWindow, CoAllowSetForegroundWindow function [COM], _com_CoAllowSetForegroundWindow, com.coallowsetforegroundwindow, objbase/CoAllowSetForegroundWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

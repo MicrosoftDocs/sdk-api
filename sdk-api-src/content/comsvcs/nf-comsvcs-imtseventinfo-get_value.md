@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IMtsEventInfo.get_Value
 title: IMtsEventInfo::get_Value
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of the specified user-defined event.
 old-location: cos\imtseventinfo_get_value.htm
 old-project: cossdk
 ms.assetid: 61757e85-28b2-4599-9be4-69a3531e5ac2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_Value method, IMtsEventInfo.get_Value, IMtsEventInfo::get_Value, _dtc_IMtsEventInfo_Value, comsvcs/IMtsEventInfo::get_Value, cos.imtseventinfo_get_value, get_Value, get_Value method [COM+], get_Value method [COM+],IMtsEventInfo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

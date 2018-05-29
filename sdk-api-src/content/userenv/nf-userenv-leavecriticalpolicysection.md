@@ -1,16 +1,16 @@
 ---
 UID: NF:userenv.LeaveCriticalPolicySection
 title: LeaveCriticalPolicySection function
-author: windows-driver-content
+author: windows-sdk-content
 description: The LeaveCriticalPolicySection function resumes the background application of policy. This function closes the handle to the policy section.
 old-location: policy\leavecriticalpolicysection.htm
 old-project: Policy
 ms.assetid: 9e6a938f-c9cb-4baf-b7d0-4316e45f874c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LeaveCriticalPolicySection, LeaveCriticalPolicySection function [Group Policy], _win32_leavecriticalpolicysection, policy.leavecriticalpolicysection, userenv/LeaveCriticalPolicySection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

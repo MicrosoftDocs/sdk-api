@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.SetDisplayAutoRotationPreferences
 title: SetDisplayAutoRotationPreferences function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the screen auto-rotation preferences for the current process.
 old-location: base\setdisplayautorotationpreferences.htm
 old-project: ProcThread
 ms.assetid: 99A92E92-7FED-468C-9A00-D8D4B212CBFF
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetDisplayAutoRotationPreferences, SetDisplayAutoRotationPreferences function, base.setdisplayautorotationpreferences, winuser/SetDisplayAutoRotationPreferences
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

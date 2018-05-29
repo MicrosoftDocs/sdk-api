@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.SubstituteKeyboardLayout
 title: ITfInputProcessorProfiles::SubstituteKeyboardLayout
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfInputProcessorProfiles::SubstituteKeyboardLayout method
 old-location: tsf\itfinputprocessorprofiles_substitutekeyboardlayout.htm
 old-project: TSF
 ms.assetid: e069f515-d5f6-4acd-a3ff-0c3c60c785ac
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfInputProcessorProfiles interface [Text Services Framework],SubstituteKeyboardLayout method, ITfInputProcessorProfiles.SubstituteKeyboardLayout, ITfInputProcessorProfiles::SubstituteKeyboardLayout, SubstituteKeyboardLayout, SubstituteKeyboardLayout method [Text Services Framework], SubstituteKeyboardLayout method [Text Services Framework],ITfInputProcessorProfiles interface, _tsf_itfinputprocessorprofiles_substitutekeyboardlayout_ref, msctf/ITfInputProcessorProfiles::SubstituteKeyboardLayout, tsf.itfinputprocessorprofiles_substitutekeyboardlayout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

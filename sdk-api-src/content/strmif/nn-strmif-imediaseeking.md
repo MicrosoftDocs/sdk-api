@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IMediaSeeking
 title: IMediaSeeking
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMediaSeeking interface contains methods for seeking to a position within a stream, and for setting the playback rate.
 old-location: dshow\imediaseeking.htm
 old-project: DirectShow
 ms.assetid: 32adad53-d1ac-495f-9347-7bdd4ae4b78d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaSeeking, IMediaSeeking interface [DirectShow], IMediaSeeking interface [DirectShow],described, IMediaSeekingInterface, dshow.imediaseeking, strmif/IMediaSeeking
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

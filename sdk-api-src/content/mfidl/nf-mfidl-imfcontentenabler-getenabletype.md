@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.GetEnableType
 title: IMFContentEnabler::GetEnableType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the type of operation that this content enabler performs.
 old-location: mf\imfcontentenabler_getenabletype.htm
 old-project: medfound
 ms.assetid: 9fe597d8-788c-48c4-a21a-0b91a890710f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 9fe597d8-788c-48c4-a21a-0b91a890710f, GetEnableType, GetEnableType method [Media Foundation], GetEnableType method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],GetEnableType method, IMFContentEnabler.GetEnableType, IMFContentEnabler::GetEnableType, mf.imfcontentenabler_getenabletype, mfidl/IMFContentEnabler::GetEnableType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

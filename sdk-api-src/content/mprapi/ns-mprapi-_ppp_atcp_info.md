@@ -1,16 +1,16 @@
 ---
 UID: NS:mprapi._PPP_ATCP_INFO
 title: "_PPP_ATCP_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The PPP_ATCP_INFO structure contains the result of a PPP AppleTalk projection operation.
 old-location: rras\ppp_atcp_info.htm
 old-project: RRAS
 ms.assetid: 48d2404b-df8d-4ed0-9203-921474c88551
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PPP_ATCP_INFO, PPP_ATCP_INFO structure [RAS], _PPP_ATCP_INFO, _mpr_ppp_atcp_info, mprapi/PPP_ATCP_INFO, rras.ppp_atcp_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

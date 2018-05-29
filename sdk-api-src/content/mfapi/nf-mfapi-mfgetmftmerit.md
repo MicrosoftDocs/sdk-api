@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFGetMFTMerit
 title: MFGetMFTMerit function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the merit value of a hardware codec.
 old-location: mf\mfgetmftmerit.htm
 old-project: medfound
 ms.assetid: 69029cf3-7f34-4bb1-8dfd-fa9a8d1a63c9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFGetMFTMerit, MFGetMFTMerit function [Media Foundation], mf.mfgetmftmerit, mfapi/MFGetMFTMerit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetRemoteControlKeyId
 title: IIsdbTSInformationDescriptor::GetRemoteControlKeyId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the remote_control_key_id field value from an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor_getremotecontrolkeyid.htm
 old-project: mstv
 ms.assetid: 51162c5e-9ece-4c3d-9ab1-03d03a326efe
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRemoteControlKeyId, GetRemoteControlKeyId method [Microsoft TV Technologies], GetRemoteControlKeyId method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetRemoteControlKeyId method, IIsdbTSInformationDescriptor.GetRemoteControlKeyId, IIsdbTSInformationDescriptor::GetRemoteControlKeyId, dvbsiparser/IIsdbTSInformationDescriptor::GetRemoteControlKeyId, mstv.iisdbtsinformationdescriptor_getremotecontrolkeyid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsapi32.WTSLogoffSession
 title: WTSLogoffSession function
-author: windows-driver-content
+author: windows-sdk-content
 description: Logs off a specified Remote Desktop Services session.
 old-location: termserv\wtslogoffsession.htm
 old-project: TermServ
 ms.assetid: dba7b6fb-f906-40d1-baae-6ee7b8cfe86d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WTSLogoffSession, WTSLogoffSession function [Remote Desktop Services], _win32_wtslogoffsession, termserv.wtslogoffsession, wtsapi32/WTSLogoffSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

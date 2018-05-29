@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetDefaultColumnWidth
 title: IPropertyDescription::GetDefaultColumnWidth
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the default column width of the property in a list view.
 old-location: properties\IPropertyDescription_GetDefaultColumnWidth.htm
 old-project: properties
 ms.assetid: 3f39cb88-084b-4eca-8168-871dcdc74f98
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDefaultColumnWidth, GetDefaultColumnWidth method [Windows Properties], GetDefaultColumnWidth method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetDefaultColumnWidth method, IPropertyDescription.GetDefaultColumnWidth, IPropertyDescription::GetDefaultColumnWidth, properties.IPropertyDescription_GetDefaultColumnWidth, propsys/IPropertyDescription::GetDefaultColumnWidth, shell.IPropertyDescription_GetDefaultColumnWidth, shell_IPropertyDescription_GetDefaultColumnWidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

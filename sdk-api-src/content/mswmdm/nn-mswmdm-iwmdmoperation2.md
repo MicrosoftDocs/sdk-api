@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.IWMDMOperation2
 title: IWMDMOperation2
-author: windows-driver-content
+author: windows-sdk-content
 description: The optional, application-implemented IWMDMOperation2 interface extends IWMDMOperation by providing methods to get and set extended attributes.
 old-location: wmdm\iwmdmoperation2.htm
 old-project: WMDM
 ms.assetid: b3f7e92a-8feb-47cd-ae50-bc5bf9a37958
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMOperation2, IWMDMOperation2 interface [windows Media Device Manager], IWMDMOperation2 interface [windows Media Device Manager],described, IWMDMOperation2Interface, mswmdm/IWMDMOperation2, wmdm.iwmdmoperation2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

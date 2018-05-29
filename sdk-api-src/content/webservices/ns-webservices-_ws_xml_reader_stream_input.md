@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_READER_STREAM_INPUT
 title: "_WS_XML_READER_STREAM_INPUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies that the source of the xml should be obtained from a callback.
 old-location: wsw\ws_xml_reader_stream_input.htm
 old-project: wsw
 ms.assetid: 53537eb2-6b8d-443e-9453-4b39dfef1dd7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_READER_STREAM_INPUT, WS_XML_READER_STREAM_INPUT structure [Web Services for Windows], _WS_XML_READER_STREAM_INPUT, webservices/WS_XML_READER_STREAM_INPUT, wsw.ws_xml_reader_stream_input
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:effects.PlayerState
 title: PlayerState
-author: windows-driver-content
+author: windows-sdk-content
 description: The PlayerState enumeration type provides some basic states of Windows Media Player.
 old-location: wmp\playerstate.htm
 old-project: WMP
 ms.assetid: 7cd17639-e491-4066-838a-236554733874
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: PlayerState, PlayerState enumeration [Windows Media Player], effects/PlayerState, effects/pause_state, effects/play_state, effects/stop_state, enumeration [Windows Media Player], pause_state, play_state, stop_state, typedefenumPlayerState, wmp.playerstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: effects.h
 req.include-header: 

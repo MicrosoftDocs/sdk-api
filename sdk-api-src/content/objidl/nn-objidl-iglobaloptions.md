@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IGlobalOptions
 title: IGlobalOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets and queries global properties of the Component Object Model (COM) runtime.
 old-location: com\iglobaloptions.htm
 old-project: com
 ms.assetid: c5e823be-521d-4eb4-8836-fdd2cac6f15d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IGlobalOptions, IGlobalOptions interface [COM], IGlobalOptions interface [COM],described, _com_iglobaloptions, com.iglobaloptions, objidlbase/IGlobalOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFEnumDeviceSources
 title: MFEnumDeviceSources function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates a list of audio or video capture devices.
 old-location: mf\mfenumdevicesources.htm
 old-project: medfound
 ms.assetid: da4d96ce-e22b-4e1c-aa2e-df46416a5f0b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFEnumDeviceSources, MFEnumDeviceSources function [Media Foundation], MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE, MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_AUDCAP_ROLE, MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY, mf.mfenumdevicesources, mfidl/MFEnumDeviceSources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

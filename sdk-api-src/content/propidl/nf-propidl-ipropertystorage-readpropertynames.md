@@ -1,16 +1,16 @@
 ---
 UID: NF:propidl.IPropertyStorage.ReadPropertyNames
 title: IPropertyStorage::ReadPropertyNames
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves any existing string names for the specified property IDs.
 old-location: stg\ipropertystorage_readpropertynames.htm
 old-project: Stg
 ms.assetid: 42b0bf7e-0402-425c-8a5f-09eaa16d93fe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyStorage interface [Structured Storage],ReadPropertyNames method, IPropertyStorage.ReadPropertyNames, IPropertyStorage::ReadPropertyNames, ReadPropertyNames, ReadPropertyNames method [Structured Storage], ReadPropertyNames method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_readpropertynames, propidl/IPropertyStorage::ReadPropertyNames, stg.ipropertystorage_readpropertynames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propidl.h
 req.include-header: Objbase.h

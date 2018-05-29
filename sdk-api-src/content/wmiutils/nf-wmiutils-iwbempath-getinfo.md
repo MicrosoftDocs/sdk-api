@@ -1,16 +1,16 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetInfo
 title: IWbemPath::GetInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemPath::GetInfo method returns details about a path that has been placed into a parser object.
 old-location: wmi\iwbempath_getinfo.htm
 old-project: WmiSdk
 ms.assetid: 64f91184-668c-49ec-b8f9-aeeb7227ea6b
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetInfo, GetInfo method [Windows Management Instrumentation], GetInfo method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetInfo method, IWbemPath.GetInfo, IWbemPath::GetInfo, WBEMPATH_INFO_ANON_LOCAL_MACHINE, WBEMPATH_INFO_CIM_COMPLIANT, WBEMPATH_INFO_CONTAINS_SINGLETON, WBEMPATH_INFO_HAS_IMPLIED_KEY, WBEMPATH_INFO_HAS_MACHINE_NAME, WBEMPATH_INFO_HAS_SUBSCOPES, WBEMPATH_INFO_HAS_V2_REF_PATHS, WBEMPATH_INFO_IS_CLASS_REF, WBEMPATH_INFO_IS_COMPOUND, WBEMPATH_INFO_IS_INST_REF, WBEMPATH_INFO_IS_PARENT, WBEMPATH_INFO_IS_SINGLETON, WBEMPATH_INFO_NATIVE_PATH, WBEMPATH_INFO_PATH_HAD_SERVER, WBEMPATH_INFO_SERVER_NAMESPACE_ONLY, WBEMPATH_INFO_V1_COMPLIANT, WBEMPATH_INFO_V2_COMPLIANT, WBEMPATH_INFO_WMI_PATH, _hmm_iwbempath_getinfo, wmi.iwbempath_getinfo, wmiutils/IWbemPath::GetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

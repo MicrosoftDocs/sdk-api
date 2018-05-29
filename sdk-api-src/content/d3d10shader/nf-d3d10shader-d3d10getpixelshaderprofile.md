@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10shader.D3D10GetPixelShaderProfile
 title: D3D10GetPixelShaderProfile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the pixel shader profile best suited to a given device.
 old-location: direct3d10\d3d10getpixelshaderprofile.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10getpixelshaderprofile.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 8d581e0e-4553-6a9c-455b-9ef399e0d29f, D3D10GetPixelShaderProfile, D3D10GetPixelShaderProfile function [Direct3D 10], d3d10shader/D3D10GetPixelShaderProfile, direct3d10.d3d10getpixelshaderprofile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3d10shader.h
 req.include-header: 

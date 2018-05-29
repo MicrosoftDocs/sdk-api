@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.GetTimeSeekResult
 title: IMFHttpDownloadRequest::GetTimeSeekResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to retrieve the values of the TimeSeekRange.DLNA.ORG HTTP header, if any, that the server specified in its response.
 old-location: mf\imfhttpdownloadrequest_gettimeseekresult.htm
 old-project: medfound
 ms.assetid: C7647460-8BAA-4480-A296-D83DFFBC5800
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetTimeSeekResult, GetTimeSeekResult method [Media Foundation], GetTimeSeekResult method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetTimeSeekResult method, IMFHttpDownloadRequest.GetTimeSeekResult, IMFHttpDownloadRequest::GetTimeSeekResult, mf.imfhttpdownloadrequest_gettimeseekresult, mfidl/IMFHttpDownloadRequest::GetTimeSeekResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

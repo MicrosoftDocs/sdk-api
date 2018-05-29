@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFStreamingSinkConfig
 title: IMFStreamingSinkConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Passes configuration information to the media sinks that are used for streaming the content.
 old-location: mf\imfstreamingsinkconfig.htm
 old-project: medfound
 ms.assetid: 5eaef815-9660-487a-885d-457cd270ba3d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFStreamingSinkConfig, IMFStreamingSinkConfig interface [Media Foundation], IMFStreamingSinkConfig interface [Media Foundation],described, mf.imfstreamingsinkconfig, mfidl/IMFStreamingSinkConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

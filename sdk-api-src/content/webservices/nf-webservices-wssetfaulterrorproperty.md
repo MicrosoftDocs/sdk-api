@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsSetFaultErrorProperty
 title: WsSetFaultErrorProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Set a Fault property of a WS_ERROR object.
 old-location: wsw\wssetfaulterrorproperty.htm
 old-project: wsw
 ms.assetid: 193664ab-4688-49c9-97e7-ccf2b3e2d7e8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsSetFaultErrorProperty, WsSetFaultErrorProperty function [Web Services for Windows], webservices/WsSetFaultErrorProperty, wsw.wssetfaulterrorproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

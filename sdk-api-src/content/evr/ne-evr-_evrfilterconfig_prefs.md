@@ -1,16 +1,16 @@
 ---
 UID: NE:evr._EVRFilterConfig_Prefs
 title: "_EVRFilterConfig_Prefs"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains flags that are used to configure the Microsoft DirectShow enhanced video renderer (EVR) filter.
 old-location: mf\evrfilterconfigprefs.htm
 old-project: medfound
 ms.assetid: 39d6845e-8655-4f8f-be39-76d704fd1177
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EVRFilterConfigPrefs, EVRFilterConfigPrefs enumeration [Media Foundation], EVRFilterConfigPrefs_EnableQoS, EVRFilterConfigPrefs_Mask, _EVRFilterConfig_Prefs, evr/EVRFilterConfigPrefs, evr/EVRFilterConfigPrefs_EnableQoS, evr/EVRFilterConfigPrefs_Mask, mf.evrfilterconfigprefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: evr.h
 req.include-header: 

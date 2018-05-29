@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDistributorNotify.NotifyGraphChange
 title: IDistributorNotify::NotifyGraphChange
-author: windows-driver-content
+author: windows-sdk-content
 description: The NotifyGraphChange method is called when the set of filters in the filter graph changes or any pin connections change.
 old-location: dshow\idistributornotify_notifygraphchange.htm
 old-project: DirectShow
 ms.assetid: 5f77f674-643a-450a-9589-16866d6cf680
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDistributorNotify interface [DirectShow],NotifyGraphChange method, IDistributorNotify.NotifyGraphChange, IDistributorNotify::NotifyGraphChange, IDistributorNotifyNotifyGraphChange, NotifyGraphChange, NotifyGraphChange method [DirectShow], NotifyGraphChange method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_notifygraphchange, strmif/IDistributorNotify::NotifyGraphChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

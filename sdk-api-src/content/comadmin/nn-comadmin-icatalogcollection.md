@@ -1,16 +1,16 @@
 ---
 UID: NN:comadmin.ICatalogCollection
 title: ICatalogCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents any collection in the COM+ catalog. ICatalogCollection enables you to enumerate, add, remove, and retrieve items in a collection and to access related collections.
 old-location: cos\icatalogcollection.htm
 old-project: cossdk
 ms.assetid: 7c24ead4-d69f-467d-b3d8-a81adbc49a7b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICatalogCollection, ICatalogCollection interface [COM+], ICatalogCollection interface [COM+],described, _cos_ICatalogCollection_Interface, comadmin/ICatalogCollection, cos.icatalogcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comadmin.h
 req.include-header: 

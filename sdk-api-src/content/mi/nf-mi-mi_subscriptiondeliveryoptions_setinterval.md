@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetInterval
 title: MI_SubscriptionDeliveryOptions_SetInterval function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of a named interval option.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setinterval.htm
 old-project: wmi_v2
 ms.assetid: 00b6dcbb-be09-464e-af7e-45dac4d70286
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetInterval, MI_SubscriptionDeliveryOptions_SetInterval function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetInterval, wmi_v2.mi_subscriptiondeliveryoptions_setinterval
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

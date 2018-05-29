@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagCOLORCORRECTPALETTE
 title: tagCOLORCORRECTPALETTE
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRCOLORCORRECTPALETTE structure contains members for the ColorCorrectPalette enhanced metafile record.
 old-location: gdi\emrcolorcorrectpalette.htm
 old-project: gdi
 ms.assetid: 12e31e22-b9ac-454d-a423-b3fee582fcba
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRCOLORCORRECTPALETTE, EMRCOLORCORRECTPALETTE, EMRCOLORCORRECTPALETTE structure [Windows GDI], PEMRCOLORCORRECTPALETTE, PEMRCOLORCORRECTPALETTE structure pointer [Windows GDI], _win32_EMRCOLORCORRECTPALETTE_str, gdi.emrcolorcorrectpalette, tagCOLORCORRECTPALETTE, wingdi/EMRCOLORCORRECTPALETTE, wingdi/PEMRCOLORCORRECTPALETTE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

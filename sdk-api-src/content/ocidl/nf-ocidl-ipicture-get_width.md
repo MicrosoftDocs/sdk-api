@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IPicture.get_Width
 title: IPicture::get_Width
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current width of the picture in the picture object.
 old-location: com\ipicture_get_width.htm
 old-project: com
 ms.assetid: d69443ed-143c-4477-8602-50f919119b0f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPicture interface [COM],get_Width method, IPicture.get_Width, IPicture::get_Width, _ctrl_ipicture_get_width, com.ipicture_get_width, get_Width, get_Width method [COM], get_Width method [COM],IPicture interface, ocidl/IPicture::get_Width
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

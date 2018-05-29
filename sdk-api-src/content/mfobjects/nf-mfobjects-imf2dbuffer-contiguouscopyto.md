@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer.ContiguousCopyTo
 title: IMF2DBuffer::ContiguousCopyTo
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies this buffer into the caller's buffer, converting the data to contiguous format.
 old-location: mf\imf2dbuffer_contiguouscopyto.htm
 old-project: medfound
 ms.assetid: 32601f2e-ab91-4a65-bcf4-8e063e90fbb0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 32601f2e-ab91-4a65-bcf4-8e063e90fbb0, ContiguousCopyTo, ContiguousCopyTo method [Media Foundation], ContiguousCopyTo method [Media Foundation],IMF2DBuffer interface, IMF2DBuffer interface [Media Foundation],ContiguousCopyTo method, IMF2DBuffer.ContiguousCopyTo, IMF2DBuffer::ContiguousCopyTo, mf.imf2dbuffer_contiguouscopyto, mfobjects/IMF2DBuffer::ContiguousCopyTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

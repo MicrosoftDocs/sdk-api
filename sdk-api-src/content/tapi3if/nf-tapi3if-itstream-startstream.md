@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITStream.StartStream
 title: ITStream::StartStream
-author: windows-driver-content
+author: windows-sdk-content
 description: The StartStream method starts the stream.
 old-location: tapi3\itstream_startstream.htm
 old-project: Tapi
 ms.assetid: 23553f00-5ce5-465e-b455-8bf2d73dae9d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITStream interface [TAPI 2.2],StartStream method, ITStream.StartStream, ITStream::StartStream, StartStream, StartStream method [TAPI 2.2], StartStream method [TAPI 2.2],ITStream interface, _tapi3_itstream_startstream, tapi3.itstream_startstream, tapi3if/ITStream::StartStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

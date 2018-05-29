@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d10.D3D10_RAISE_FLAG
 title: D3D10_RAISE_FLAG
-author: windows-driver-content
+author: windows-sdk-content
 description: Option(s) for raising an error to a non-continuable exception.
 old-location: direct3d10\d3d10_raise_flag.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_raise_flag.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 4f0a160b-254f-303d-968b-d35d73102d48, D3D10_RAISE_FLAG, D3D10_RAISE_FLAG enumeration [Direct3D 10], D3D10_RAISE_FLAG_DRIVER_INTERNAL_ERROR, d3d10/D3D10_RAISE_FLAG, d3d10/D3D10_RAISE_FLAG_DRIVER_INTERNAL_ERROR, direct3d10.d3d10_raise_flag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 

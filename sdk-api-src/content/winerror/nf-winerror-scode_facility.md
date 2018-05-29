@@ -1,16 +1,16 @@
 ---
 UID: NF:winerror.SCODE_FACILITY
 title: SCODE_FACILITY macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the facility of the specified SCODE.
 old-location: com\scode_facility_macro.htm
 old-project: com
 ms.assetid: 646e2d98-69c4-43ac-b939-c67a61d7cbce
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SCODE_FACILITY, SCODE_FACILITY macro [COM], _com_SCODE_FACILITY, com.scode_facility, com.scode_facility_macro, winerror/SCODE_FACILITY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winerror.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont2.GetUnderlinePositionMode
 title: ITextFont2::GetUnderlinePositionMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the underline position mode.
 old-location: controls\itextfont2_getunderlinepositionmode.htm
 old-project: Controls
 ms.assetid: cd7a45be-05b0-4a43-90c8-0fd8393794c0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetUnderlinePositionMode, GetUnderlinePositionMode method [Windows Controls], GetUnderlinePositionMode method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetUnderlinePositionMode method, ITextFont2.GetUnderlinePositionMode, ITextFont2::GetUnderlinePositionMode, controls.itextfont2_getunderlinepositionmode, tom/ITextFont2::GetUnderlinePositionMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

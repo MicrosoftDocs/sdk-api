@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngDeletePath
 title: EngDeletePath function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngDeletePath function deletes a path previously allocated by EngCreatePath.
 old-location: display\engdeletepath.htm
 old-project: display
 ms.assetid: 65ecf4bc-5180-4b4b-a359-298f385b849e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngDeletePath, EngDeletePath function [Display Devices], display.engdeletepath, gdifncs_aa1e2ccc-cc76-4782-b2ff-9867576c82d1.xml, winddi/EngDeletePath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmReleaseContext
 title: ImmReleaseContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the input context and unlocks the memory associated in the input context. An application must call this function for each call to the ImmGetContext function.
 old-location: intl\immreleasecontext.htm
 old-project: Intl
 ms.assetid: e14b087a-58ef-4360-9368-3fdd088c14f6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmReleaseContext, ImmReleaseContext function [Internationalization for Windows Applications], _win32_ImmReleaseContext, imm/ImmReleaseContext, intl.immreleasecontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

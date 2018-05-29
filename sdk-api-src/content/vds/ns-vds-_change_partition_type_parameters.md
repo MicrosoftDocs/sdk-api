@@ -1,16 +1,16 @@
 ---
 UID: NS:vds._CHANGE_PARTITION_TYPE_PARAMETERS
 title: "_CHANGE_PARTITION_TYPE_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes parameters to be used when changing a partition's type.
 old-location: base\change_partition_type_parameters.htm
 old-project: VDS
 ms.assetid: bd51c2a6-ab26-4a2f-89f4-431d05f3dd81
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CHANGE_PARTITION_TYPE_PARAMETERS, CHANGE_PARTITION_TYPE_PARAMETERS structure, PCHANGE_PARTITION_TYPE_PARAMETERS, PCHANGE_PARTITION_TYPE_PARAMETERS structure pointer, _CHANGE_PARTITION_TYPE_PARAMETERS, base.change_partition_type_parameters, vds/CHANGE_PARTITION_TYPE_PARAMETERS, vds/PCHANGE_PARTITION_TYPE_PARAMETERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

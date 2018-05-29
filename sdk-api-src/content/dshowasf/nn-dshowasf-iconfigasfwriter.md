@@ -1,16 +1,16 @@
 ---
 UID: NN:dshowasf.IConfigAsfWriter
 title: IConfigAsfWriter
-author: windows-driver-content
+author: windows-sdk-content
 description: The IConfigAsfWriter interface configures the WM ASF Writer filter.
 old-location: dshow\iconfigasfwriter.htm
 old-project: DirectShow
 ms.assetid: 50fd7825-4844-4a7f-b949-4abfff5ef30f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IConfigAsfWriter, IConfigAsfWriter interface [DirectShow], IConfigAsfWriter interface [DirectShow],described, IConfigAsfWriterInterface, dshow.iconfigasfwriter, dshowasf/IConfigAsfWriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dshowasf.h
 req.include-header: 

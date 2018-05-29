@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetDC
 title: GetDC function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDC function retrieves a handle to a device context (DC) for the client area of a specified window or for the entire screen.
 old-location: gdi\getdc.htm
 old-project: gdi
 ms.assetid: 50b2387b-c8e4-42a8-8f0f-0bdb355adbfd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDC, GetDC function [Windows GDI], _win32_GetDC, gdi.getdc, winuser/GetDC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

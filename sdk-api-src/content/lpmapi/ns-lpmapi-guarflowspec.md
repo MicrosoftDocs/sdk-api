@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.GuarFlowSpec
 title: GuarFlowSpec
-author: windows-driver-content
+author: windows-sdk-content
 description: The GuarFlowSpec structure contains guaranteed flowspec information.
 old-location: qos\guarflowspec.htm
 old-project: QOS
 ms.assetid: 549380cc-b4ac-414a-9058-f506741f1e76
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GuarFlowSpec, GuarFlowSpec structure [QOS], lpmapi/GuarFlowSpec, qos.guarflowspec
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

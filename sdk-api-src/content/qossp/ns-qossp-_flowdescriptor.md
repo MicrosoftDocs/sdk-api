@@ -1,16 +1,16 @@
 ---
 UID: NS:qossp._FLOWDESCRIPTOR
 title: "_FLOWDESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: The FLOWDESCRIPTOR structure specifies one or more filters for a given FLOWSPEC.
 old-location: qos\flowdescriptor.htm
 old-project: QOS
 ms.assetid: c81a9c68-7124-4a66-9c68-d147d41c0c4d
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*LPFLOWDESCRIPTOR, *LPFLOWDESCRIPTOR structure [QOS], FLOWDESCRIPTOR, FLOWDESCRIPTOR structure [QOS], _FLOWDESCRIPTOR, qos.flowdescriptor, qossp/*LPFLOWDESCRIPTOR, qossp/FLOWDESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 

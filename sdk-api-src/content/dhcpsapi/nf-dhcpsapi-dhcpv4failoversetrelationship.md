@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverSetRelationship
 title: DhcpV4FailoverSetRelationship function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or modifies the parameters of a DHCPv4 server failover relationship.
 old-location: dhcp\dhcpv4failoversetrelationship.htm
 old-project: DHCP
 ms.assetid: 04012953-dca3-426f-99de-798870d1eb97
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CHANGESTATE, DhcpV4FailoverSetRelationship, DhcpV4FailoverSetRelationship function [DHCP], MCLT, MODE, PERCENTAGE, PREVSTATE, SAFEPERIOD, dhcp.dhcpv4failoversetrelationship, dhcpsapi/DhcpV4FailoverSetRelationship
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

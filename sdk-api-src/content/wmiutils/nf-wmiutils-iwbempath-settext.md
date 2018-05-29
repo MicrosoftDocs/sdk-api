@@ -1,16 +1,16 @@
 ---
 UID: NF:wmiutils.IWbemPath.SetText
 title: IWbemPath::SetText
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemPath::SetText method parses a path so that information on the path can be returned by the path parser.
 old-location: wmi\iwbempath_settext.htm
 old-project: WmiSdk
 ms.assetid: a3ff2aa9-ffa8-4048-ac07-4b815b620d1f
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],SetText method, IWbemPath.SetText, IWbemPath::SetText, SetText, SetText method [Windows Management Instrumentation], SetText method [Windows Management Instrumentation],IWbemPath interface, WBEMPATH_CREATE_ACCEPT_ABSOLUTE, WBEMPATH_CREATE_ACCEPT_ALL, WBEMPATH_CREATE_ACCEPT_RELATIVE, WBEMPATH_TREAT_SINGLE_IDENT_AS_NS, _hmm_iwbempath_settext, wmi.iwbempath_settext, wmiutils/IWbemPath::SetText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

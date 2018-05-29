@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPropertyBag2
 title: IFsrmPropertyBag2
-author: windows-driver-content
+author: windows-sdk-content
 description: IFsrmPropertyBag2 Interface
 old-location: fsrm\ifsrmpropertybag2.htm
 old-project: Fsrm
 ms.assetid: 8f69556f-b96e-49b5-bc40-242768ebe767
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmPropertyBag2, IFsrmPropertyBag2 interface [File Server Resource Manager], IFsrmPropertyBag2 interface [File Server Resource Manager],described, fs.ifsrmpropertybag2, fsrm.ifsrmpropertybag2, fsrmpipeline/IFsrmPropertyBag2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: 

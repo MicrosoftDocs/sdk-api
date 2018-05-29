@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_USERNAME_CREDENTIAL
 title: "_WS_USERNAME_CREDENTIAL"
-author: windows-driver-content
+author: windows-sdk-content
 description: The abstract base type for all username/password credentials.
 old-location: wsw\ws_username_credential.htm
 old-project: wsw
 ms.assetid: 961f8c52-9922-4e43-905a-a22a80aba63b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_USERNAME_CREDENTIAL, WS_USERNAME_CREDENTIAL structure [Web Services for Windows], _WS_USERNAME_CREDENTIAL, webservices/WS_USERNAME_CREDENTIAL, wsw.ws_username_credential
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

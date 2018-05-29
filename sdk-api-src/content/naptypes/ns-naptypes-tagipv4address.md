@@ -1,16 +1,16 @@
 ---
 UID: NS:naptypes.tagIpv4Address
 title: tagIpv4Address
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an IPv4 address.
 old-location: nap\ipv4address_struct.htm
 old-project: NAP
 ms.assetid: 75f1c6db-c1d5-46dd-b455-ffe49af921d2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Ipv4Address, Ipv4Address structure [NAP], nap.ipv4address_struct, naptypes/Ipv4Address, tagIpv4Address
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceEnumerator.MoveNext
 title: IOpcSignatureRelationshipReferenceEnumerator::MoveNext
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves the current position of the enumerator to the next IOpcSignatureRelationshipReference interface pointer.
 old-location: opc\iopcsignaturerelationshipreferenceenumerator_movenext.htm
 old-project: OPC
 ms.assetid: 6f004339-0cbf-4125-a09e-3b94ee22a0df
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcSignatureRelationshipReferenceEnumerator.MoveNext, IOpcSignatureRelationshipReferenceEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceEnumerator interface, msopc/IOpcSignatureRelationshipReferenceEnumerator::MoveNext, opc.iopcsignaturerelationshipreferenceenumerator_movenext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

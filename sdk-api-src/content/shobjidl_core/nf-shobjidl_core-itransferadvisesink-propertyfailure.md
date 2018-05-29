@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.PropertyFailure
 title: ITransferAdviseSink::PropertyFailure
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when there is a failure that involves file properties and user interaction is needed.
 old-location: shell\ITransferAdviseSink_PropertyFailure.htm
 old-project: shell
 ms.assetid: c43cb166-6edf-4c45-93c1-16cb9b5c2d30
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],PropertyFailure method, ITransferAdviseSink.PropertyFailure, ITransferAdviseSink::PropertyFailure, PropertyFailure, PropertyFailure method [Windows Shell], PropertyFailure method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_PropertyFailure, shell.ITransferAdviseSink_PropertyFailure, shobjidl_core/ITransferAdviseSink::PropertyFailure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

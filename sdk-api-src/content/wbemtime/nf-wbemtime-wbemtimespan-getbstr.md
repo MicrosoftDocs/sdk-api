@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.GetBSTR
 title: WBEMTimeSpan::GetBSTR
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetBSTR method gets the time span as a BSTR in Date and Time format.
 old-location: wmi\wbemtimespan_getbstr.htm
 old-project: WmiSdk
 ms.assetid: f5db5a7a-0590-4598-bde7-e90cfc7cd932
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetBSTR, GetBSTR method [Windows Management Instrumentation], GetBSTR method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],GetBSTR method, WBEMTimeSpan.GetBSTR, WBEMTimeSpan::GetBSTR, _hmm_wbemtimespan_getbstr, wbemtime/WBEMTimeSpan::GetBSTR, wmi.wbemtimespan_getbstr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

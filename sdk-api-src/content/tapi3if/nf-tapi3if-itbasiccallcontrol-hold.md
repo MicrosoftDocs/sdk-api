@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Hold
 title: ITBasicCallControl::Hold
-author: windows-driver-content
+author: windows-sdk-content
 description: The Hold method places or removes the call from the hold.
 old-location: tapi3\itbasiccallcontrol_hold.htm
 old-project: Tapi
 ms.assetid: 44f1d3fd-6c48-41f4-a30e-83bf2ce19fde
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Hold, Hold method [TAPI 2.2], Hold method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Hold method, ITBasicCallControl.Hold, ITBasicCallControl::Hold, _tapi3_itbasiccallcontrol_hold, tapi3.itbasiccallcontrol_hold, tapi3if/ITBasicCallControl::Hold
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

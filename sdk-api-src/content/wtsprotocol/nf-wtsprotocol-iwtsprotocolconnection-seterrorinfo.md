@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.SetErrorInfo
 title: IWTSProtocolConnection::SetErrorInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: IWTSProtocolConnection::SetErrorInfo is no longer available. Instead, use IWRdsProtocolConnection::SetErrorInfo.
 old-location: termserv\iwtsprotocolconnection_seterrorinfo.htm
 old-project: TermServ
 ms.assetid: 0ec35560-5aad-403a-9477-50e48ee7136a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],SetErrorInfo method, IWTSProtocolConnection.SetErrorInfo, IWTSProtocolConnection::SetErrorInfo, SetErrorInfo, SetErrorInfo method [Remote Desktop Services], SetErrorInfo method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_seterrorinfo, wtsprotocol/IWTSProtocolConnection::SetErrorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

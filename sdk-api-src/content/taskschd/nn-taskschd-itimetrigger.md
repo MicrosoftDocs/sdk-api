@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.ITimeTrigger
 title: ITimeTrigger
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a trigger that starts a task at a specific date and time.
 old-location: taskschd\itimetrigger.htm
 old-project: TaskSchd
 ms.assetid: 4ebd5470-0801-42ff-a0c2-4d1e7f7ee365
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITimeTrigger, ITimeTrigger interface [Task Scheduler], ITimeTrigger interface [Task Scheduler],described, taskschd.itimetrigger, taskschd/ITimeTrigger, time trigger [Task Scheduler],interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

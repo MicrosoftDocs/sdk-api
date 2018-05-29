@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoGetCallerTID
 title: CoGetCallerTID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a pointer to a DWORD that contains the apartment ID of the caller's thread.
 old-location: com\cogetcallertid.htm
 old-project: com
 ms.assetid: 3a34001b-6286-4103-ae9f-700ea101dc17
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoGetCallerTID, CoGetCallerTID function [COM], _com_CoGetCallerTID, com.cogetcallertid, combaseapi/CoGetCallerTID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

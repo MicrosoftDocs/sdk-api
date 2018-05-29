@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceManagerEvents.OnInterfaceArrival
 title: IMbnInterfaceManagerEvents::OnInterfaceArrival
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification method that signals that a device has been added to the system.
 old-location: mbn\imbninterfacemanagerevents_oninterfacearrival.htm
 old-project: mbn
 ms.assetid: 1a65aed6-34d4-420b-b175-a2a778712771
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnInterfaceManagerEvents interface [Microsoft Broadband Networks],OnInterfaceArrival method, IMbnInterfaceManagerEvents.OnInterfaceArrival, IMbnInterfaceManagerEvents::OnInterfaceArrival, OnInterfaceArrival, OnInterfaceArrival method [Microsoft Broadband Networks], OnInterfaceArrival method [Microsoft Broadband Networks],IMbnInterfaceManagerEvents interface, mbn.imbninterfacemanagerevents_oninterfacearrival, mbnapi/IMbnInterfaceManagerEvents::OnInterfaceArrival
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

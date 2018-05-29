@@ -1,16 +1,16 @@
 ---
 UID: NN:tspubplugin2com.ItsPubPlugin2
 title: ItsPubPlugin2
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies methods that provide information about resources available to users of RemoteApp and Desktop Connections.
 old-location: termserv\itspubplugin2.htm
 old-project: TermServ
 ms.assetid: 1ef27b3a-b897-4757-803d-d3a18959895c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ItsPubPlugin2, ItsPubPlugin2 interface [Remote Desktop Services], ItsPubPlugin2 interface [Remote Desktop Services],described, termserv.itspubplugin2, tspubplugin2com/ItsPubPlugin2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tspubplugin2com.h
 req.include-header: 

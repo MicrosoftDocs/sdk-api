@@ -1,16 +1,16 @@
 ---
 UID: NF:sddl.ConvertSidToStringSidW
 title: ConvertSidToStringSidW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a security identifier (SID) to a string format suitable for display, storage, or transmission.
 old-location: security\convertsidtostringsid.htm
 old-project: SecAuthZ
 ms.assetid: e673e727-edb1-450c-9e1a-a3dc90acc929
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ConvertSidToStringSid, ConvertSidToStringSid function [Security], ConvertSidToStringSidA, ConvertSidToStringSidW, _win32_convertsidtostringsid, sddl/ConvertSidToStringSid, sddl/ConvertSidToStringSidA, sddl/ConvertSidToStringSidW, security.convertsidtostringsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sddl.h
 req.include-header: 

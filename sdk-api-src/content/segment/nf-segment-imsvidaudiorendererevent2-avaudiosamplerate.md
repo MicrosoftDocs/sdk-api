@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVAudioSampleRate
 title: IMSVidAudioRendererEvent2::AVAudioSampleRate
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates a change in the AVAudioSampleRate codec property.
 old-location: mstv\imsvidaudiorendererevent2_avaudiosamplerate.htm
 old-project: mstv
 ms.assetid: a8654fd1-4843-4489-ba43-444912107ca2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AVAudioSampleRate, AVAudioSampleRate method [Microsoft TV Technologies], AVAudioSampleRate method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVAudioSampleRate method, IMSVidAudioRendererEvent2.AVAudioSampleRate, IMSVidAudioRendererEvent2::AVAudioSampleRate, mstv.imsvidaudiorendererevent2_avaudiosamplerate, segment/IMSVidAudioRendererEvent2::AVAudioSampleRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

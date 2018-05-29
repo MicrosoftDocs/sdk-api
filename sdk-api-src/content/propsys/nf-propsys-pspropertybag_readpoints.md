@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadPOINTS
 title: PSPropertyBag_ReadPOINTS function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the property coordinates stored in a POINTS structure of a specified property bag.
 old-location: properties\PSPropertyBag_ReadPOINTS.htm
 old-project: properties
 ms.assetid: 60ED145A-7712-43b7-A2AD-C366DD32E19E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_ReadPOINTS, PSPropertyBag_ReadPOINTS function [Windows Properties], properties.PSPropertyBag_ReadPOINTS, propsys/PSPropertyBag_ReadPOINTS, shell.PSPropertyBag_ReadPOINTS, shell_PSPropertyBag_ReadPOINTS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

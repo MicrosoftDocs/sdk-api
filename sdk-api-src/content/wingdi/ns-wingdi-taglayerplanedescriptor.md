@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagLAYERPLANEDESCRIPTOR
 title: tagLAYERPLANEDESCRIPTOR
-author: windows-driver-content
+author: windows-sdk-content
 description: The LAYERPLANEDESCRIPTOR structure describes the pixel format of a drawing surface.
 old-location: opengl\layerplanedescriptor.htm
 old-project: OpenGL
 ms.assetid: fdb0322d-503f-4c17-b438-f764d60da7f6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPLAYERPLANEDESCRIPTOR, *PLAYERPLANEDESCRIPTOR, LAYERPLANEDESCRIPTOR, LAYERPLANEDESCRIPTOR structure [OpenGL], PLAYERPLANEDESCRIPTOR, PLAYERPLANEDESCRIPTOR structure pointer [OpenGL], _ogl_LAYERPLANEDESCRIPTOR, opengl.layerplanedescriptor, tagLAYERPLANEDESCRIPTOR, wingdi/LAYERPLANEDESCRIPTOR, wingdi/PLAYERPLANEDESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:eaphostpeertypes.tagEapHostPeerAuthParams
 title: tagEapHostPeerAuthParams
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of possible authentication parameter values.
 old-location: eaphost\eaphostpeerauthparams.htm
 old-project: EAPHost
 ms.assetid: adbb08d7-36a0-4e10-b0bc-2fb7030c2fcc
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostNapInfo, EapHostPeerAuthParams, EapHostPeerAuthParams enumeration [EAPHost], EapHostPeerAuthStatus, EapHostPeerIdentity, EapHostPeerIdentityExtendedInfo, eaphost.eaphostpeerauthparams, eaphostpeertypes/EapHostNapInfo, eaphostpeertypes/EapHostPeerAuthParams, eaphostpeertypes/EapHostPeerAuthStatus, eaphostpeertypes/EapHostPeerIdentity, eaphostpeertypes/EapHostPeerIdentityExtendedInfo, tagEapHostPeerAuthParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: eaphostpeertypes.h
 req.include-header: 

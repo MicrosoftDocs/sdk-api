@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.OpenProcess
 title: OpenProcess function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an existing local process object.
 old-location: base\openprocess.htm
 old-project: ProcThread
 ms.assetid: 8f695c38-19c4-49e4-97de-8b64ea536cb1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: OpenProcess, OpenProcess function, _win32_openprocess, base.openprocess, processthreadsapi/OpenProcess, winbase/OpenProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

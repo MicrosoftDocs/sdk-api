@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcomex.IFaxAccountFolders
 title: IFaxAccountFolders
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the incoming and outgoing fax queues and fax archives.
 old-location: fax\_mfax_faxaccountfolders_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountfolders\faxint_ifaxaccountfolders.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxAccountFolders, IFaxAccountFolders interface [Fax Service], IFaxAccountFolders interface [Fax Service],described, _mfax_faxaccountfolders_cpp, fax._mfax_faxaccountfolders_cpp, faxcomex/IFaxAccountFolders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

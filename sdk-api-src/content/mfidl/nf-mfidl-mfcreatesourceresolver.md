@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateSourceResolver
 title: MFCreateSourceResolver function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates the source resolver, which is used to create a media source from a URL or byte stream.
 old-location: mf\mfcreatesourceresolver.htm
 old-project: medfound
 ms.assetid: 60d6b0e2-5ab2-4a20-99d9-e6b806a1f576
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 60d6b0e2-5ab2-4a20-99d9-e6b806a1f576, MFCreateSourceResolver, MFCreateSourceResolver function [Media Foundation], mf.mfcreatesourceresolver, mfidl/MFCreateSourceResolver
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionItemPattern.get_CachedIsSelected
 title: IUIAutomationSelectionItemPattern::get_CachedIsSelected
-author: windows-driver-content
+author: windows-sdk-content
 description: A cached value that indicates whether this item is selected.
 old-location: winauto\uiauto_IUIAutomationSelectionItemPattern_CachedIsSelected.htm
 old-project: WinAuto
 ms.assetid: dafa51b9-7dfd-46ad-89cc-8c3af3df8ea0
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedIsSelected property [Windows Accessibility], CachedIsSelected property [Windows Accessibility],IUIAutomationSelectionItemPattern interface, IUIAutomationSelectionItemPattern interface [Windows Accessibility],CachedIsSelected property, IUIAutomationSelectionItemPattern.CachedIsSelected, IUIAutomationSelectionItemPattern.get_CachedIsSelected, IUIAutomationSelectionItemPattern::CachedIsSelected, IUIAutomationSelectionItemPattern::get_CachedIsSelected, get_CachedIsSelected, uiauto.uiauto_IUIAutomationSelectionItemPattern_CachedIsSelected, uiauto_IUIAutomationSelectionItemPattern_CachedIsSelected, uiautomationclient/IUIAutomationSelectionItemPattern::CachedIsSelected, uiautomationclient/IUIAutomationSelectionItemPattern::get_CachedIsSelected, winauto.uiauto_IUIAutomationSelectionItemPattern_CachedIsSelected
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

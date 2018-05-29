@@ -1,16 +1,16 @@
 ---
 UID: NE:wcmapi._WCM_CONNECTION_COST
 title: "_WCM_CONNECTION_COST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the connection cost type and flags.
 old-location: wcm\wcm_connection_cost.htm
 old-project: wcm
 ms.assetid: 1ab36082-3394-42e3-aee3-01df5e211ba7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PWCM_CONNECTION_COST, PWCM_CONNECTION_COST, PWCM_CONNECTION_COST enumeration pointer [Windows Connection Manager], WCM_CONNECTION_COST, WCM_CONNECTION_COST enumeration [Windows Connection Manager], WCM_CONNECTION_COST_APPROACHINGDATALIMIT, WCM_CONNECTION_COST_CONGESTED, WCM_CONNECTION_COST_FIXED, WCM_CONNECTION_COST_OVERDATALIMIT, WCM_CONNECTION_COST_ROAMING, WCM_CONNECTION_COST_UNKNOWN, WCM_CONNECTION_COST_UNRESTRICTED, WCM_CONNECTION_COST_VARIABLE, _WCM_CONNECTION_COST, wcm.wcm_connection_cost, wcmapi/PWCM_CONNECTION_COST, wcmapi/WCM_CONNECTION_COST, wcmapi/WCM_CONNECTION_COST_APPROACHINGDATALIMIT, wcmapi/WCM_CONNECTION_COST_CONGESTED, wcmapi/WCM_CONNECTION_COST_FIXED, wcmapi/WCM_CONNECTION_COST_OVERDATALIMIT, wcmapi/WCM_CONNECTION_COST_ROAMING, wcmapi/WCM_CONNECTION_COST_UNKNOWN, wcmapi/WCM_CONNECTION_COST_UNRESTRICTED, wcmapi/WCM_CONNECTION_COST_VARIABLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcmapi.h
 req.include-header: 

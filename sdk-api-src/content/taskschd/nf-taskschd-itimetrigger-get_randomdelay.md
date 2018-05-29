@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITimeTrigger.get_RandomDelay
 title: ITimeTrigger::get_RandomDelay
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a delay time that is randomly added to the start time of the trigger.
 old-location: taskschd\itimetrigger_randomdelay.htm
 old-project: TaskSchd
 ms.assetid: a5e0e59e-4035-45e6-82d6-a87bd855b1d0
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITimeTrigger interface [Task Scheduler],RandomDelay property, ITimeTrigger.RandomDelay, ITimeTrigger.get_RandomDelay, ITimeTrigger::RandomDelay, ITimeTrigger::get_RandomDelay, ITimeTrigger::put_RandomDelay, RandomDelay property [Task Scheduler], RandomDelay property [Task Scheduler],ITimeTrigger interface, get_RandomDelay, taskschd.itimetrigger_randomdelay, taskschd/ITimeTrigger::RandomDelay, taskschd/ITimeTrigger::get_RandomDelay, taskschd/ITimeTrigger::put_RandomDelay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

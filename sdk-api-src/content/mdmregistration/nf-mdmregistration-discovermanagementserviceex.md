@@ -1,16 +1,16 @@
 ---
 UID: NF:mdmregistration.DiscoverManagementServiceEx
 title: DiscoverManagementServiceEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Discovers the MDM service using a candidate server.
 old-location: mdmreg\discovermanagementserviceex.htm
 old-project: MDMReg
 ms.assetid: 600269ff-df88-49ed-b151-df0302cbc4d4
-ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.author: windowssdkdev
+ms.date: 02/20/2018
 ms.keywords: DiscoverManagementServiceEx, DiscoverManagementServiceEx function [MDM Registration], mdmreg.discovermanagementserviceex, mdmregistration/DiscoverManagementServiceEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 

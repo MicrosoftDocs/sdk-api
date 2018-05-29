@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderCloseInstance
 title: WdsTransportProviderCloseInstance function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes an instance of a content provider specified by a handle.
 old-location: wds\wdstransportprovidercloseinstance.htm
 old-project: Wds
 ms.assetid: 3eb0a931-ca5d-4db4-9c40-9c52f98be429
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsTransportProviderCloseInstance, WdsTransportProviderCloseInstance callback, WdsTransportProviderCloseInstance callback function [Windows Deployment Services], wds.wdstransportprovidercloseinstance, wdstpdi/WdsTransportProviderCloseInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 

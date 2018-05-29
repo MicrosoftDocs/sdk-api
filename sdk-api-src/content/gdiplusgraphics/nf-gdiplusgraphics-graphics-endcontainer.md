@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.EndContainer
 title: Graphics::EndContainer
-author: windows-driver-content
+author: windows-sdk-content
 description: The Graphics::EndContainer method closes a graphics container that was previously opened by the Graphics::BeginContainer method.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_EndContainer_state_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\endcontainer.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EndContainer, EndContainer method [GDI+], EndContainer method [GDI+],Graphics class, Graphics class [GDI+],EndContainer method, Graphics.EndContainer, Graphics::EndContainer, _gdiplus_CLASS_Graphics_EndContainer_state_, gdiplus._gdiplus_CLASS_Graphics_EndContainer_state_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

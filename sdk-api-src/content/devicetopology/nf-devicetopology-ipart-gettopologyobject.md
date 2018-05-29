@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IPart.GetTopologyObject
 title: IPart::GetTopologyObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTopologyObject method gets a reference to the IDeviceTopology interface of the device-topology object that contains this part.
 old-location: coreaudio\ipart_gettopologyobject.htm
 old-project: CoreAudio
 ms.assetid: 5ad5fc66-6452-4d55-8c6a-a20a87431302
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetTopologyObject, GetTopologyObject method [Core Audio], GetTopologyObject method [Core Audio],IPart interface, IPart interface [Core Audio],GetTopologyObject method, IPart.GetTopologyObject, IPart::GetTopologyObject, IPartGetTopologyObject, coreaudio.ipart_gettopologyobject, devicetopology/IPart::GetTopologyObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

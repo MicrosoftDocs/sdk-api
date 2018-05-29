@@ -1,16 +1,16 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolConnection
 title: IWRdsProtocolConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods called by the Remote Desktop Services service to configure a client connection.
 old-location: termserv\iwrdsprotocolconnection.htm
 old-project: TermServ
 ms.assetid: 2b8a5b2f-5a54-4d60-8b5a-8a914728087c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], IWRdsProtocolConnection interface [Remote Desktop Services],described, termserv.iwrdsprotocolconnection, wtsprotocol/IWRdsProtocolConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

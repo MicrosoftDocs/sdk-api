@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IDirectoryObject.DeleteDSObject
 title: IDirectoryObject::DeleteDSObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a leaf object in a directory tree.
 old-location: adsi\idirectoryobject_deletedsobject.htm
 old-project: ADSI
 ms.assetid: bb7bed74-1420-4b46-92a9-ebe31f2d88fd
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: DeleteDSObject, DeleteDSObject method [ADSI], DeleteDSObject method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],DeleteDSObject method, IDirectoryObject.DeleteDSObject, IDirectoryObject::DeleteDSObject, _ds_idirectoryobject_deletedsobject, adsi.idirectoryobject__deletedsobject, adsi.idirectoryobject_deletedsobject, iads/IDirectoryObject::DeleteDSObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

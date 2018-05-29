@@ -1,16 +1,16 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_PROPERTY
 title: "_EAP_METHOD_PROPERTY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains an EAP method property.
 old-location: eaphost\eap_method_property.htm
 old-project: EAPHost
 ms.assetid: df8c9ba2-e1c5-4011-bdbe-1d04765d19cd
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EAP_METHOD_PROPERTY, EAP_METHOD_PROPERTY structure [EAPHost], PEAP_METHOD_PROPERTY, PEAP_METHOD_PROPERTY structure pointer [EAPHost], _EAP_METHOD_PROPERTY, eaphost.eap_method_property, eaptypes/EAP_METHOD_PROPERTY, eaptypes/PEAP_METHOD_PROPERTY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

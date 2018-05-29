@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupCloseFileQueue
 title: SetupCloseFileQueue function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupCloseFileQueue function destroys a setup file queue.
 old-location: setup\setupclosefilequeue.htm
 old-project: SetupApi
 ms.assetid: 51c63e65-a844-46b4-93ef-8a92a9c8a604
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupCloseFileQueue, SetupCloseFileQueue function [Setup API], _setupapi_setupclosefilequeue, setup.setupclosefilequeue, setupapi/SetupCloseFileQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

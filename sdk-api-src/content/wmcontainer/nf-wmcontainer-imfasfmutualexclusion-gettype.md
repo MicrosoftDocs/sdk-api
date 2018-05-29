@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.GetType
 title: IMFASFMutualExclusion::GetType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the type of mutual exclusion represented by the Advanced Systems Format (ASF) mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_gettype.htm
 old-project: medfound
 ms.assetid: c6af870e-2ef8-4dea-b76b-7a78ceaaa3d3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetType, GetType method [Media Foundation], GetType method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],GetType method, IMFASFMutualExclusion.GetType, IMFASFMutualExclusion::GetType, c6af870e-2ef8-4dea-b76b-7a78ceaaa3d3, mf.imfasfmutualexclusion_gettype, wmcontainer/IMFASFMutualExclusion::GetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

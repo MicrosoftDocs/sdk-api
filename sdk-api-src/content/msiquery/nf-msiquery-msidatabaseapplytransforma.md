@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiDatabaseApplyTransformA
 title: MsiDatabaseApplyTransformA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiDatabaseApplyTransform function applies a transform to a database.
 old-location: setup\msidatabaseapplytransform.htm
 old-project: Msi
 ms.assetid: a0222465-f778-43c1-8007-22df6a01f8bd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MSITRANSFORM_ERROR_ADDEXISTINGROW, MSITRANSFORM_ERROR_ADDEXISTINGTABLE, MSITRANSFORM_ERROR_CHANGECODEPAGE, MSITRANSFORM_ERROR_DELMISSINGROW, MSITRANSFORM_ERROR_DELMISSINGTABLE, MSITRANSFORM_ERROR_UPDATEMISSINGROW, MSITRANSFORM_ERROR_VIEWTRANSFORM, MsiDatabaseApplyTransform, MsiDatabaseApplyTransform function, MsiDatabaseApplyTransformA, MsiDatabaseApplyTransformW, _msi_msidatabaseapplytransform, msiquery/MsiDatabaseApplyTransform, msiquery/MsiDatabaseApplyTransformA, msiquery/MsiDatabaseApplyTransformW, setup.msidatabaseapplytransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

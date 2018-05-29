@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateSystemTimeSource
 title: MFCreateSystemTimeSource function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a presentation time source that is based on the system time.
 old-location: mf\mfcreatesystemtimesource.htm
 old-project: medfound
 ms.assetid: f3e7b8d5-fd6c-4d87-86f6-1117ca58bc6f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateSystemTimeSource, MFCreateSystemTimeSource function [Media Foundation], f3e7b8d5-fd6c-4d87-86f6-1117ca58bc6f, mf.mfcreatesystemtimesource, mfidl/MFCreateSystemTimeSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

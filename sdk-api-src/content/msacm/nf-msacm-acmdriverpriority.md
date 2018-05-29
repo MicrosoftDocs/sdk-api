@@ -1,16 +1,16 @@
 ---
 UID: NF:msacm.acmDriverPriority
 title: acmDriverPriority function
-author: windows-driver-content
+author: windows-sdk-content
 description: The acmDriverPriority function modifies the priority and state of an ACM driver.
 old-location: multimedia\acmdriverpriority.htm
 old-project: Multimedia
 ms.assetid: 62ab009e-b8fe-4b92-ba0f-a98cd761307b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_acmDriverPriority, acmDriverPriority, acmDriverPriority function [Windows Multimedia], msacm/acmDriverPriority, multimedia.acmdriverpriority"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

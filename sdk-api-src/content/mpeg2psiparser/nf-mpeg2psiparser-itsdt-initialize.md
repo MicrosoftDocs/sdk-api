@@ -1,16 +1,16 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.Initialize
 title: ITSDT::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_initialize.htm
 old-project: mstv
 ms.assetid: 6682de14-50a8-48be-839f-b15824c1dd6e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITSDT interface [Microsoft TV Technologies],Initialize method, ITSDT.Initialize, ITSDT::Initialize, ITSDTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],ITSDT interface, mpeg2psiparser/ITSDT::Initialize, mstv.itsdt_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 

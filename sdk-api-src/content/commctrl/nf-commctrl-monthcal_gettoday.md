@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.MonthCal_GetToday
 title: MonthCal_GetToday macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the date information for the date specified as &#0034;today&#0034; for a month calendar control. You can use this macro or send the MCM_GETTODAY message explicitly.
 old-location: controls\MonthCal_GetToday.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_gettoday.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MonthCal_GetToday, MonthCal_GetToday macro [Windows Controls], _win32_MonthCal_GetToday, _win32_MonthCal_GetToday_cpp, commctrl/MonthCal_GetToday, controls.MonthCal_GetToday, controls._win32_MonthCal_GetToday
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

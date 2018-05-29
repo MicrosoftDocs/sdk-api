@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.NotifyRouteChange2
 title: NotifyRouteChange2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers to be notified for changes to IP route entries on a local computer.
 old-location: iphlp\notifyroutechange2.htm
 old-project: IpHlp
 ms.assetid: f104dc0c-b3e0-4f22-ac5f-5dbf967be31b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyRouteChange2, NotifyRouteChange2 function [IP Helper], iphlp.notifyroutechange2, netioapi/NotifyRouteChange2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

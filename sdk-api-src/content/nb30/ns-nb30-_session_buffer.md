@@ -1,16 +1,16 @@
 ---
 UID: NS:nb30._SESSION_BUFFER
 title: "_SESSION_BUFFER"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SESSION_BUFFER structure contains information about a local network session. One or more SESSION_BUFFER structures follows a SESSION_HEADER structure when an application specifies the NCBSSTAT command in the ncb_command member of the NCB structure.
 old-location: netbios\session_buffer.htm
 old-project: NetBIOS
 ms.assetid: 29352074-3dff-430f-82fb-6f7fd0b2966a
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.author: windowssdkdev
+ms.date: 05/02/2018
 ms.keywords: "*PSESSION_BUFFER, CALL_PENDING, HANGUP_COMPLETE, HANGUP_PENDING, LISTEN_OUTSTANDING, PSESSION_BUFFER, PSESSION_BUFFER structure pointer [NetBIOS], SESSION_ABORTED, SESSION_BUFFER, SESSION_BUFFER structure [NetBIOS], SESSION_ESTABLISHED, _SESSION_BUFFER, nb30/PSESSION_BUFFER, nb30/SESSION_BUFFER, netbios.session_buffer"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellView.GetCurrentInfo
 title: IShellView::GetCurrentInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current folder settings.
 old-location: shell\IShellView_GetCurrentInfo.htm
 old-project: shell
 ms.assetid: 69d18b4f-3a68-420c-a184-05c2f69a5ec6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCurrentInfo, GetCurrentInfo method [Windows Shell], GetCurrentInfo method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],GetCurrentInfo method, IShellView.GetCurrentInfo, IShellView::GetCurrentInfo, _win32_IShellView_GetCurrentInfo, shell.IShellView_GetCurrentInfo, shobjidl_core/IShellView::GetCurrentInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

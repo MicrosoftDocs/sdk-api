@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.QueryHeader
 title: IMFHttpDownloadRequest::QueryHeader
-author: windows-driver-content
+author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to retrieve the values of specified HTTP headers from the response to a previously sent HTTP or HTTPS request.
 old-location: mf\imfhttpdownloadrequest_queryheader.htm
 old-project: medfound
 ms.assetid: BFAE5257-0BE8-47F3-B3CD-490885E60065
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFHttpDownloadRequest interface [Media Foundation],QueryHeader method, IMFHttpDownloadRequest.QueryHeader, IMFHttpDownloadRequest::QueryHeader, QueryHeader, QueryHeader method [Media Foundation], QueryHeader method [Media Foundation],IMFHttpDownloadRequest interface, mf.imfhttpdownloadrequest_queryheader, mfidl/IMFHttpDownloadRequest::QueryHeader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

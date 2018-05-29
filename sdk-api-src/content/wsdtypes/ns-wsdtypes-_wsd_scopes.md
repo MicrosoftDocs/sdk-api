@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_SCOPES
 title: "_WSD_SCOPES"
-author: windows-driver-content
+author: windows-sdk-content
 description: A collection of scopes used in WS-Discovery messaging.
 old-location: ncd\wsd_scopes_struct.htm
 old-project: WsdApi
 ms.assetid: 3415fef0-dbf4-4ece-bad0-6cd6831404db
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_SCOPES, WSD_SCOPES structure, _WSD_SCOPES, ncd.wsd_scopes_struct, wsdtypes/WSD_SCOPES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

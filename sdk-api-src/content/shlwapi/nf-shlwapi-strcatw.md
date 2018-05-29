@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrCatW
 title: StrCatW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Appends one string to another.
 old-location: shell\StrCat.htm
 old-project: shell
 ms.assetid: fd357462-83be-42a8-9f39-1e023bd5f86e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrCat, StrCat function [Windows Shell], StrCatW, _win32_StrCat, shell.StrCat, shlwapi/StrCat, shlwapi/StrCatW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

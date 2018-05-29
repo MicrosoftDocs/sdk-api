@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.SetPixelFormat
 title: SetPixelFormat function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetPixelFormat function sets the pixel format of the specified device context to the format specified by the iPixelFormat index.
 old-location: opengl\setpixelformat.htm
 old-project: OpenGL
 ms.assetid: f8d74078-a7e7-4d95-857a-f51d5d70598e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SetPixelFormat, SetPixelFormat function [OpenGL], _ogl_SetPixelFormat, opengl.setpixelformat, wingdi/SetPixelFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

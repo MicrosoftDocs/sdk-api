@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IWebProxy
 title: IWebProxy
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the HTTP proxy settings.
 old-location: wua\iwebproxy.htm
 old-project: Wua_Sdk
 ms.assetid: acc09635-7370-475f-9c3a-a5faaa8d576a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWebProxy, IWebProxy interface [Windows Update Agent], IWebProxy interface [Windows Update Agent],described, wua.iwebproxy, wuapi/IWebProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

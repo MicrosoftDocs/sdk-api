@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.CascadeWindows
 title: IShellDispatch::CascadeWindows
-author: windows-driver-content
+author: windows-sdk-content
 description: Cascades all of the windows on the desktop. This method has the same effect as right-clicking the taskbar and selecting Cascade windows.
 old-location: shell\IShellDispatch_CascadeWindows.htm
 old-project: shell
 ms.assetid: 6A957D70-D6A3-4485-8DF3-7FD2C6DEFF78
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CascadeWindows, CascadeWindows method [Windows Shell], CascadeWindows method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],CascadeWindows method, IShellDispatch.CascadeWindows, IShellDispatch::CascadeWindows, shell.IShellDispatch_CascadeWindows
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0010
 title: "__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0010"
-author: windows-driver-content
+author: windows-sdk-content
 description: The rule used by a composite shape to determine whether a given point is part of the geometry.
 old-location: xps\xps_fill_rule.htm
 old-project: printdocs
 ms.assetid: 353a4dc3-0c4d-46df-ae31-cc94c4116ca3
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: XPS_FILL_RULE, XPS_FILL_RULE enumeration [XPS Documents and Packaging], XPS_FILL_RULE_EVENODD, XPS_FILL_RULE_NONZERO, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0010, xps.xps_fill_rule, xpsobjectmodel/XPS_FILL_RULE, xpsobjectmodel/XPS_FILL_RULE_EVENODD, xpsobjectmodel/XPS_FILL_RULE_NONZERO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: xpsobjectmodel.h
 req.include-header: 

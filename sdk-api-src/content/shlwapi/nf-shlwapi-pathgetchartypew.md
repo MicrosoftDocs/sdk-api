@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathGetCharTypeW
 title: PathGetCharTypeW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the type of character in relation to a path.
 old-location: shell\PathGetCharType.htm
 old-project: shell
 ms.assetid: 838a255f-413e-424c-819e-47265224208d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathGetCharType, PathGetCharType function [Windows Shell], PathGetCharTypeA, PathGetCharTypeW, _win32_PathGetCharType, shell.PathGetCharType, shlwapi/PathGetCharType, shlwapi/PathGetCharTypeA, shlwapi/PathGetCharTypeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

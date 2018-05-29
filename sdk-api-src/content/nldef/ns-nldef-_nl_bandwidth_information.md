@@ -1,16 +1,16 @@
 ---
 UID: NS:nldef._NL_BANDWIDTH_INFORMATION
 title: "_NL_BANDWIDTH_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains read-only information on the available bandwidth estimates and associated variance as determined by the TCP/IP stack.
 old-location: iphlp\nl_bandwidth_information.htm
 old-project: IpHlp
 ms.assetid: F5D7238A-EAE0-4D60-A0A4-D839F738EF48
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PNL_BANDWIDTH_INFORMATION, NL_BANDWIDTH_INFORMATION, NL_BANDWIDTH_INFORMATION structure [IP Helper], PNL_BANDWIDTH_INFORMATION, PNL_BANDWIDTH_INFORMATION structure pointer [IP Helper], _NL_BANDWIDTH_INFORMATION, iphlp.nl_bandwidth_information, nldef/NL_BANDWIDTH_INFORMATION, nldef/PNL_BANDWIDTH_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: nldef.h
 req.include-header: Iphlpapi.h

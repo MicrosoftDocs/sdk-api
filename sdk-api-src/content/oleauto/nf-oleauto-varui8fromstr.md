@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarUI8FromStr
 title: VarUI8FromStr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an OLECHAR string to an 8-byte unsigned integer value.
 old-location: automat\varui8fromstr.htm
 old-project: automat
 ms.assetid: f5378977-41e2-4b25-b7ba-7a5f66fbed15
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarUI8FromStr, VarUI8FromStr function [Automation], _oa96_VarUI8FromStr, automat.varui8fromstr, oleauto/VarUI8FromStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

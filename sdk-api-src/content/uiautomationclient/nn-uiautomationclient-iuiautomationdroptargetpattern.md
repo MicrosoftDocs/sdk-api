@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationDropTargetPattern
 title: IUIAutomationDropTargetPattern
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to drag-and-drop information exposed by a Microsoft UI Automation provider for an element that can be the drop target of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdroptargetpattern.htm
 old-project: WinAuto
 ms.assetid: 22C12A2A-2812-43E8-BB97-A3FDE811D0B4
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationDropTargetPattern, IUIAutomationDropTargetPattern interface [Windows Accessibility], IUIAutomationDropTargetPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationDropTargetPattern, winauto.uiauto_iuiautomationdroptargetpattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

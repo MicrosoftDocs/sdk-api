@@ -1,16 +1,16 @@
 ---
 UID: NF:evntprov.EventDescOrKeyword
 title: EventDescOrKeyword function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds another keyword to the event descriptor.
 old-location: etw\eventdescorkeyword_func.htm
 old-project: ETW
 ms.assetid: ad5e06cf-e2fa-4696-9521-61ff012b9204
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EventDescOrKeyword, EventDescOrKeyword function [ETW], base.eventdescorkeyword_func, etw.eventdescorkeyword_func, evntprov/EventDescOrKeyword
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.EndUIElement
 title: ITfUIElementMgr::EndUIElement
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfUIElementMgr::EndUIElement method is called by a text service when the element of UI is hidden.
 old-location: tsf\itfuielementmgr_enduielement.htm
 old-project: TSF
 ms.assetid: cec22994-c233-4f84-8237-749ef3cc8aff
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EndUIElement, EndUIElement method [Text Services Framework], EndUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],EndUIElement method, ITfUIElementMgr.EndUIElement, ITfUIElementMgr::EndUIElement, msctf/ITfUIElementMgr::EndUIElement, tsf.itfuielementmgr_enduielement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

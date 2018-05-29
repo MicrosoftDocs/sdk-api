@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsWriteXmlBufferToBytes
 title: WsWriteXmlBufferToBytes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Uses a writer to convert a WS_XML_BUFFER to an encoded set of bytes.
 old-location: wsw\wswritexmlbuffertobytes.htm
 old-project: wsw
 ms.assetid: dea4bfa5-7cd0-440f-89fe-e46af116462e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsWriteXmlBufferToBytes, WsWriteXmlBufferToBytes function [Web Services for Windows], webservices/WsWriteXmlBufferToBytes, wsw.wswritexmlbuffertobytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

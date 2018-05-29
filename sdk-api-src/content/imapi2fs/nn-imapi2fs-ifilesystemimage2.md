@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2fs.IFileSystemImage2
 title: IFileSystemImage2
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to write multiple boot entries or boot images required for the EFI/UEFI support. For example, boot media with boot straps for both Windows XP and Windows Vista.
 old-location: imapi\ifilesystemimage2.htm
 old-project: imapi
 ms.assetid: c38995b7-6f32-4489-bb6c-0e3561b11f81
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFileSystemImage2, IFileSystemImage2 interface [IMAPI], IFileSystemImage2 interface [IMAPI],described, imapi.ifilesystemimage2, imapi2fs/IFileSystemImage2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

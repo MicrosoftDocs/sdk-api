@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_3.ID3D11Device3.ReadFromSubresource
 title: ID3D11Device3::ReadFromSubresource
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies data from a D3D11_USAGE_DEFAULT texture which was mapped using ID3D11DeviceContext3::Map while providing a NULL D3D11_MAPPED_SUBRESOURCE parameter.
 old-location: direct3d11\id3d11device3_readfromsubresource.htm
 old-project: direct3d11
 ms.assetid: 060B9627-3A95-4DBD-B3E6-3989D8D9C79E
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11Device3 interface [Direct3D 11],ReadFromSubresource method, ID3D11Device3.ReadFromSubresource, ID3D11Device3::ReadFromSubresource, ReadFromSubresource, ReadFromSubresource method [Direct3D 11], ReadFromSubresource method [Direct3D 11],ID3D11Device3 interface, d3d11_3/ID3D11Device3::ReadFromSubresource, direct3d11.id3d11device3_readfromsubresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_3.h
 req.include-header: 

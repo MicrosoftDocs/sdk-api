@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHFormatDateTimeA
 title: SHFormatDateTimeA function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHFormatDateTime may be altered or unavailable.
 old-location: shell\SHFormatDateTime.htm
 old-project: shell
 ms.assetid: 2208ed29-6029-4051-bdcc-885c42fe5c1b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FDTF_DEFAULT, FDTF_LONGDATE, FDTF_LONGTIME, FDTF_LTRDATE, FDTF_NOAUTOREADINGORDER, FDTF_RELATIVE, FDTF_RTLDATE, FDTF_SHORTDATE, FDTF_SHORTTIME, SHFormatDateTime, SHFormatDateTime function [Windows Shell], SHFormatDateTimeA, SHFormatDateTimeW, _win32_SHFormatDateTime, shell.SHFormatDateTime, shlwapi/SHFormatDateTime, shlwapi/SHFormatDateTimeA, shlwapi/SHFormatDateTimeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

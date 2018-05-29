@@ -1,16 +1,16 @@
 ---
 UID: NF:natupnp.IStaticPortMappingCollection.get_Item
 title: IStaticPortMappingCollection::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Item method retrieves the specified port mapping from the collection.
 old-location: ics\istaticportmappingcollection_get_item.htm
 old-project: ICS
 ms.assetid: 0034e56d-45a1-404a-b129-6ebb951e7d76
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],get_Item method, IStaticPortMappingCollection.get_Item, IStaticPortMappingCollection::get_Item, _ics_istaticportmappingcollection_get_item, get_Item, get_Item method [ICS/ICF], get_Item method [ICS/ICF],IStaticPortMappingCollection interface, ics.istaticportmappingcollection_get_item, natupnp/IStaticPortMappingCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 

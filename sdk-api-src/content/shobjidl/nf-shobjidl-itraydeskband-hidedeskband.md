@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.ITrayDeskBand.HideDeskBand
 title: ITrayDeskBand::HideDeskBand
-author: windows-driver-content
+author: windows-sdk-content
 description: Hides a specified deskband.
 old-location: shell\ITrayDeskBand_HideDeskBand.htm
 old-project: shell
 ms.assetid: 586ead4b-94fe-4da1-b78e-d4f1c61b9ee2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HideDeskBand, HideDeskBand method [Windows Shell], HideDeskBand method [Windows Shell],ITrayDeskBand interface, ITrayDeskBand interface [Windows Shell],HideDeskBand method, ITrayDeskBand.HideDeskBand, ITrayDeskBand::HideDeskBand, _shell_ITrayDeskBand_HideDeskBand, shell.ITrayDeskBand_HideDeskBand, shobjidl/ITrayDeskBand::HideDeskBand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

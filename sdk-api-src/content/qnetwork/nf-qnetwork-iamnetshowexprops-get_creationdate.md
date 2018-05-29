@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_CreationDate
 title: IAMNetShowExProps::get_CreationDate
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CreationDate method retrieves the creation date of the source file.
 old-location: dshow\iamnetshowexprops_get_creationdate.htm
 old-project: DirectShow
 ms.assetid: 0a9cbaed-c8aa-445a-9f8e-d84a7b50166e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_CreationDate method, IAMNetShowExProps.get_CreationDate, IAMNetShowExProps::get_CreationDate, IAMNetShowExPropsget_CreationDate, dshow.iamnetshowexprops_get_creationdate, get_CreationDate, get_CreationDate method [DirectShow], get_CreationDate method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_CreationDate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

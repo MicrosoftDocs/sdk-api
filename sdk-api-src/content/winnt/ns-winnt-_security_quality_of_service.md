@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._SECURITY_QUALITY_OF_SERVICE
 title: "_SECURITY_QUALITY_OF_SERVICE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used to support client impersonation.
 old-location: security\security_quality_of_service.htm
 old-project: SecAuthZ
 ms.assetid: 21f99d04-b21b-442c-9034-35f9f7bbee53
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PSECURITY_QUALITY_OF_SERVICE, PSECURITY_QUALITY_OF_SERVICE, PSECURITY_QUALITY_OF_SERVICE structure pointer [Security], SECURITY_QUALITY_OF_SERVICE, SECURITY_QUALITY_OF_SERVICE structure [Security], _SECURITY_QUALITY_OF_SERVICE, _win32_security_quality_of_service_str, security.security_quality_of_service, winnt/PSECURITY_QUALITY_OF_SERVICE, winnt/SECURITY_QUALITY_OF_SERVICE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

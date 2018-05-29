@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupGetLineCountA
 title: SetupGetLineCountA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupGetLineCount function returns the number of lines in a specified section of an INF file.
 old-location: setup\setupgetlinecount.htm
 old-project: SetupApi
 ms.assetid: 08c98745-ecbd-47b4-9d73-2d6765285bae
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupGetLineCount, SetupGetLineCount function [Setup API], SetupGetLineCountA, SetupGetLineCountW, _setupapi_setupgetlinecount, setup.setupgetlinecount, setupapi/SetupGetLineCount, setupapi/SetupGetLineCountA, setupapi/SetupGetLineCountW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

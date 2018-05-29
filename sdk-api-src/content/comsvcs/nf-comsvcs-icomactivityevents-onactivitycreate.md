@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityCreate
 title: IComActivityEvents::OnActivityCreate
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when an activity starts.
 old-location: cos\icomactivityevents_onactivitycreate.htm
 old-project: cossdk
 ms.assetid: 27d6dfd6-24c8-480b-9d91-6c6cce08384c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityCreate method, IComActivityEvents.OnActivityCreate, IComActivityEvents::OnActivityCreate, OnActivityCreate, OnActivityCreate method [COM+], OnActivityCreate method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityCreate, comsvcs/IComActivityEvents::OnActivityCreate, cos.icomactivityevents_onactivitycreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

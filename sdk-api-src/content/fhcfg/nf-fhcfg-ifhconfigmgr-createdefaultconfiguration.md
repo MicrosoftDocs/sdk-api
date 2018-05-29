@@ -1,16 +1,16 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.CreateDefaultConfiguration
 title: IFhConfigMgr::CreateDefaultConfiguration
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates File History configuration files with default settings for the current user and loads them into an FhConfigMgr object.
 old-location: winprog\ifhconfigmgr_createdefaultconfiguration.htm
 old-project: DevNotes
 ms.assetid: 70F67D8D-E449-4006-BB14-0E5E9B91D517
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CreateDefaultConfiguration, CreateDefaultConfiguration method [Windows API], CreateDefaultConfiguration method [Windows API],FhConfigMgr class, CreateDefaultConfiguration method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],CreateDefaultConfiguration method, IFhConfigMgr interface [Windows API],CreateDefaultConfiguration method, IFhConfigMgr.CreateDefaultConfiguration, IFhConfigMgr::CreateDefaultConfiguration, fhcfg/IFhConfigMgr::CreateDefaultConfiguration, winprog.ifhconfigmgr_createdefaultconfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 

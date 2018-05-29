@@ -1,16 +1,16 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1541
 title: "_SERVER_INFO_1541"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SERVER_INFO_1541 structure specifies the minimum number of free connection blocks the server sets aside to handle bursts of requests by clients to connect to the server.
 old-location: netmgmt\server_info_1541_str.htm
 old-project: NetMgmt
 ms.assetid: 22ae4f90-822b-4594-8484-893630f6b680
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPSERVER_INFO_1541, *PSERVER_INFO_1541, LPSERVER_INFO_1541, LPSERVER_INFO_1541 structure pointer [Network Management], PSERVER_INFO_1541, PSERVER_INFO_1541 structure pointer [Network Management], SERVER_INFO_1541, SERVER_INFO_1541 structure [Network Management], _SERVER_INFO_1541, _win32_server_info_1541_str, lmserver/LPSERVER_INFO_1541, lmserver/PSERVER_INFO_1541, lmserver/SERVER_INFO_1541, netmgmt.server_info_1541_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h

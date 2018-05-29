@@ -1,16 +1,16 @@
 ---
 UID: NE:uiautomationcore.FlowDirections
 title: FlowDirections
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values for the TextFlowDirections text attribute.
 old-location: winauto\uiauto_FlowDirectionsEnum.htm
 old-project: WinAuto
 ms.assetid: 5c18758c-8b0d-4c54-babb-78dc6c8eba02
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: FlowDirections, FlowDirections enumeration [Windows Accessibility], FlowDirections_BottomToTop, FlowDirections_Default, FlowDirections_RightToLeft, FlowDirections_Vertical, uiauto.uiauto_FlowDirectionsEnum, uiauto_FlowDirectionsEnum, uiautomationcore/FlowDirections, uiautomationcore/FlowDirections_BottomToTop, uiautomationcore/FlowDirections_Default, uiautomationcore/FlowDirections_RightToLeft, uiautomationcore/FlowDirections_Vertical, winauto.uiauto_FlowDirectionsEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

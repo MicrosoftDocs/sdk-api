@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_DevNode_PropertyW
 title: CM_Get_DevNode_PropertyW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_DevNode_Property function retrieves a device instance property.
 old-location: devinst\cm_get_devnode_property.htm
 old-project: devinst
 ms.assetid: A2EE0C78-13CB-4D9D-B68C-F527CCA2DF26
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_DevNode_Property, CM_Get_DevNode_Property function [Device and Driver Installation], CM_Get_DevNode_PropertyW, cfgmgr32/CM_Get_DevNode_Property, cfgmgr32/CM_Get_DevNode_PropertyW, devinst.cm_get_devnode_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

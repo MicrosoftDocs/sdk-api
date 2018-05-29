@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_InsertColumn
 title: ListView_InsertColumn macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts a new column in a list-view control. You can use this macro or send the LVM_INSERTCOLUMN message explicitly.
 old-location: controls\ListView_InsertColumn.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertcolumn.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_InsertColumn, ListView_InsertColumn macro [Windows Controls], _win32_ListView_InsertColumn, _win32_ListView_InsertColumn_cpp, commctrl/ListView_InsertColumn, controls.ListView_InsertColumn, controls._win32_ListView_InsertColumn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

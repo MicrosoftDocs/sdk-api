@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IEnumTuningSpaces.Reset
 title: IEnumTuningSpaces::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reset method moves the iterator to the beginning of the collection.
 old-location: mstv\ienumtuningspaces_reset.htm
 old-project: mstv
 ms.assetid: c9ac5d70-11f8-4bb4-a873-94eb72ea2f42
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumTuningSpaces interface [Microsoft TV Technologies],Reset method, IEnumTuningSpaces.Reset, IEnumTuningSpaces::Reset, IEnumTuningSpacesReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumTuningSpaces interface, mstv.ienumtuningspaces_reset, tuner/IEnumTuningSpaces::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

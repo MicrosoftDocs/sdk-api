@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetSelection
 title: ITextStoreACP::GetSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStoreACP::GetSelection method returns the character position of a text selection in a document. This method supports multiple text selections. The caller must have a read-only lock on the document before calling this method.
 old-location: tsf\itextstoreacp_getselection.htm
 old-project: TSF
 ms.assetid: e2052daf-4168-4266-ae8d-a09ecbfeb422
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetSelection, GetSelection method [Text Services Framework], GetSelection method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetSelection method, ITextStoreACP.GetSelection, ITextStoreACP::GetSelection, _tsf_itextstoreacp_getselection_ref, textstor/ITextStoreACP::GetSelection, tsf.itextstoreacp_getselection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

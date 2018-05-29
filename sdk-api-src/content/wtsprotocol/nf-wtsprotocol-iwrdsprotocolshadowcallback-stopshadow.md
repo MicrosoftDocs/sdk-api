@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolShadowCallback.StopShadow
 title: IWRdsProtocolShadowCallback::StopShadow
-author: windows-driver-content
+author: windows-sdk-content
 description: Instructs the Remote Desktop Services service to stop shadowing a target.
 old-location: termserv\iwrdsprotocolshadowcallback_stopshadow.htm
 old-project: TermServ
 ms.assetid: 09911813-554d-4ce1-b34e-5a6f57ec286d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsProtocolShadowCallback interface [Remote Desktop Services],StopShadow method, IWRdsProtocolShadowCallback.StopShadow, IWRdsProtocolShadowCallback::StopShadow, StopShadow, StopShadow method [Remote Desktop Services], StopShadow method [Remote Desktop Services],IWRdsProtocolShadowCallback interface, termserv.iwrdsprotocolshadowcallback_stopshadow, wtsprotocol/IWRdsProtocolShadowCallback::StopShadow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

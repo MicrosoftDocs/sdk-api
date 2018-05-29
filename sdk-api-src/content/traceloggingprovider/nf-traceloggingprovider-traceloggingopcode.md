@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingOpcode
 title: TraceLoggingOpcode macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Wrapper macro for setting the event's opcode.
 old-location: tracelogging\traceloggingopcode.htm
 old-project: tracelogging
 ms.assetid: 8D1459CE-51A8-49A8-A30B-EA8D87E822C3
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingOpcode, TraceLoggingOpcode macro, tracelogging.traceloggingopcode, traceloggingprovider/TraceLoggingOpcode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

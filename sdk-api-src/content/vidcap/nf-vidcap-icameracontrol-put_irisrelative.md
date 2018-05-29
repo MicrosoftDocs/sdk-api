@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.ICameraControl.put_IrisRelative
 title: ICameraControl::put_IrisRelative
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_IrisRelative method sets the camera's relative aperture setting. The relative aperture is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_put_irisrelative.htm
 old-project: DirectShow
 ms.assetid: 76cd3b1d-a6ce-4981-b82f-7ee83e118c33
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICameraControl interface [DirectShow],put_IrisRelative method, ICameraControl.put_IrisRelative, ICameraControl::put_IrisRelative, ICameraControlput_IrisRelative, dshow.icameracontrol_put_irisrelative, put_IrisRelative, put_IrisRelative method [DirectShow], put_IrisRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_IrisRelative
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

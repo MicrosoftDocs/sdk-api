@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.ShortMult
 title: ShortMult function
-author: windows-driver-content
+author: windows-sdk-content
 description: Multiplies two values of type SHORT.
 old-location: shell\ShortMult.htm
 old-project: shell
 ms.assetid: ca602be6-a066-4192-a240-96192e5dbdf8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ShortMult, ShortMult function [Windows Shell], intsafe/ShortMult, shell.ShortMult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

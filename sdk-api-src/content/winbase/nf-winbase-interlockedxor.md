@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.InterlockedXor
 title: InterlockedXor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs an atomic XOR operation on the specified LONG values.
 old-location: base\interlockedxor.htm
 old-project: Sync
 ms.assetid: c4815bf2-e06d-4dcf-a460-a88c4c9a3c27
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InterlockedXor, InterlockedXor function, base.interlockedxor, winbase/InterlockedXor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

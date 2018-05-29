@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRSETVIEWPORTEXTEX
 title: tagEMRSETVIEWPORTEXTEX
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRSETVIEWPORTEXTEX and EMRSETWINDOWEXTEX structures contains members for the SetViewportExtEx and SetWindowExtEx enhanced metafile records.
 old-location: gdi\emrsetviewportextex__emrsetwindowextex.htm
 old-project: gdi
 ms.assetid: 4030c4c4-60be-43b7-855e-49d65ea482c1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRSETVIEWPORTEXTEX, *PEMRSETWINDOWEXTEX, EMRSETVIEWPORTEXTEX, EMRSETVIEWPORTEXTEX structure [Windows GDI], EMRSETVIEWPORTEXTEX,EMRSETWINDOWEXTEX, EMRSETVIEWPORTEXTEX,EMRSETWINDOWEXTEX structure [Windows GDI], EMRSETWINDOWEXTEX, EMRSETWINDOWEXTEX structure [Windows GDI], PEMRSETVIEWPORTEXTEX, PEMRSETVIEWPORTEXTEX structure pointer [Windows GDI], PEMRSETWINDOWEXTEX, PEMRSETWINDOWEXTEX structure pointer [Windows GDI], _win32_EMRSETVIEWPORTEXTEX_str, gdi.emrsetviewportextex__emrsetwindowextex, tagEMRSETVIEWPORTEXTEX, wingdi/EMRSETVIEWPORTEXTEX,EMRSETWINDOWEXTEX, wingdi/EMRSETWINDOWEXTEX, wingdi/PEMRSETVIEWPORTEXTEX, wingdi/PEMRSETWINDOWEXTEX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

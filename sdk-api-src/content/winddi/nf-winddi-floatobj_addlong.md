@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FLOATOBJ_AddLong
 title: FLOATOBJ_AddLong function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FLOATOBJ_AddLong function adds the value of type LONG to the FLOATOBJ, and returns with the result in the first parameter.
 old-location: display\floatobj_addlong.htm
 old-project: display
 ms.assetid: a6355e47-5373-4b03-bafc-308a64e8e0aa
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FLOATOBJ_AddLong, FLOATOBJ_AddLong function [Display Devices], display.floatobj_addlong, gdifncs_d669d0ec-1d1e-4e14-b259-cd7b8bfe5d85.xml, winddi/FLOATOBJ_AddLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

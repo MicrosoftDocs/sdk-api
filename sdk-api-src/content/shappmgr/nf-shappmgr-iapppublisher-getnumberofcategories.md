@@ -1,16 +1,16 @@
 ---
 UID: NF:shappmgr.IAppPublisher.GetNumberOfCategories
 title: IAppPublisher::GetNumberOfCategories
-author: windows-driver-content
+author: windows-sdk-content
 description: Obsolete. Clients of the Add/Remove Programs Control Panel Application may return E_NOTIMPL.
 old-location: shell\IAppPublisher_GetNumberOfCategories.htm
 old-project: shell
 ms.assetid: 5f03b2e6-7202-477f-84ef-2dfaaa484880
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNumberOfCategories, GetNumberOfCategories method [Windows Shell], GetNumberOfCategories method [Windows Shell],IAppPublisher interface, IAppPublisher interface [Windows Shell],GetNumberOfCategories method, IAppPublisher.GetNumberOfCategories, IAppPublisher::GetNumberOfCategories, inet_IAppPublisher_GetNumberOfCategories, shappmgr/IAppPublisher::GetNumberOfCategories, shell.IAppPublisher_GetNumberOfCategories
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 

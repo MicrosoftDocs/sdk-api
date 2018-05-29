@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantGetElem
 title: PropVariantGetElem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a specified element in another PROPVARIANT structure.
 old-location: properties\PropVariantGetElem.htm
 old-project: properties
 ms.assetid: 462eca81-1010-4518-ba55-0ac144297798
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantGetElem, PropVariantGetElem function [Windows Properties], _shell_PropVariantGetElem, properties.PropVariantGetElem, propvarutil/PropVariantGetElem, shell.PropVariantGetElem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

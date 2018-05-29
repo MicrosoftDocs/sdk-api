@@ -1,16 +1,16 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.EnumFiles
 title: IBackgroundCopyJob::EnumFiles
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IEnumBackgroundCopyFiles interface pointer that you use to enumerate the files in a job.
 old-location: bits\ibackgroundcopyjob_enumfiles.htm
 old-project: Bits
 ms.assetid: c6b8ef69-9c67-447f-9f90-b6905a5a5a19
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EnumFiles, EnumFiles method [BITS], EnumFiles method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],EnumFiles method, IBackgroundCopyJob.EnumFiles, IBackgroundCopyJob::EnumFiles, _drz_ibackgroundcopyjob_enumfiles, bits.ibackgroundcopyjob_enumfiles, bits/IBackgroundCopyJob::EnumFiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 

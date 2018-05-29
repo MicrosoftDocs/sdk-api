@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPhone.get_ButtonFunction
 title: ITPhone::get_ButtonFunction
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_ButtonFunction method retrieves the button function associated with a particular button.
 old-location: tapi3\itphone_get_buttonfunction.htm
 old-project: Tapi
 ms.assetid: a884c0b4-141a-4f04-8cfb-7ae6b1ec11b3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_ButtonFunction method, ITPhone.get_ButtonFunction, ITPhone::get_ButtonFunction, _tapi3_itphone_get_buttonfunction, get_ButtonFunction, get_ButtonFunction method [TAPI 2.2], get_ButtonFunction method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_buttonfunction, tapi3if/ITPhone::get_ButtonFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

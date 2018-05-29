@@ -1,16 +1,16 @@
 ---
 UID: NF:directxpackedvector.XMLoadUNibble4
 title: XMLoadUNibble4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads an XMUNIBBLE4 into an XMVECTOR.
 old-location: dxmath\xmloadunibble4.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUNibble4(const XMUNIBBLE4)
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: DirectX::PackedVector.XMLoadUNibble4, XMLoadUNibble4, XMLoadUNibble4 method [DirectX Math Support APIs], dxmath.xmloadunibble4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h

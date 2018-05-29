@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.PrepareMedia
 title: IDiscFormat2RawCD::PrepareMedia
-author: windows-driver-content
+author: windows-sdk-content
 description: Locks the current media for exclusive access.
 old-location: imapi\idiscformat2rawcd_preparemedia.htm
 old-project: imapi
 ms.assetid: 8c393786-0c2d-4244-8ec3-0ac9e47e76c6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],PrepareMedia method, IDiscFormat2RawCD.PrepareMedia, IDiscFormat2RawCD::PrepareMedia, PrepareMedia, PrepareMedia method [IMAPI], PrepareMedia method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_preparemedia, imapi2/IDiscFormat2RawCD::PrepareMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

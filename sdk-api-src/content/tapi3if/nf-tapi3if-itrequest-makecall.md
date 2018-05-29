@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITRequest.MakeCall
 title: ITRequest::MakeCall
-author: windows-driver-content
+author: windows-sdk-content
 description: The MakeCall method makes a call to the designated party.
 old-location: tapi3\itrequest_makecall.htm
 old-project: Tapi
 ms.assetid: 6896a18a-75ff-4f43-81e2-7b828bb16ff6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITRequest interface [TAPI 2.2],MakeCall method, ITRequest.MakeCall, ITRequest::MakeCall, MakeCall, MakeCall method [TAPI 2.2], MakeCall method [TAPI 2.2],ITRequest interface, _tapi3_itrequest_makecall, tapi3.itrequest_makecall, tapi3if/ITRequest::MakeCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

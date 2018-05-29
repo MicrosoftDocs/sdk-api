@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetConnectA
 title: InternetConnectA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an File Transfer Protocol (FTP) or HTTP session for a given site.
 old-location: wininet\internetconnect.htm
 old-project: WinInet
 ms.assetid: 42b5d733-dccd-4c9d-8820-e358e033077c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetConnect, InternetConnect function [WinINet], InternetConnectA, InternetConnectW, _win32_internetconnect, wininet.internetconnect, wininet/InternetConnect, wininet/InternetConnectA, wininet/InternetConnectW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

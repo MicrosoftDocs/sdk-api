@@ -1,16 +1,16 @@
 ---
 UID: NF:mmstream.IMediaStream.SendEndOfStream
 title: IMediaStream::SendEndOfStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Forces the current stream to end. If the current stream isn't writable, this method does nothing.
 old-location: dshow\imediastream_sendendofstream.htm
 old-project: DirectShow
 ms.assetid: aa774875-1cf2-4792-a492-fef64571ae8f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaStream interface [DirectShow],SendEndOfStream method, IMediaStream.SendEndOfStream, IMediaStream::SendEndOfStream, IMediaStreamSendEndOfStream, SendEndOfStream, SendEndOfStream method [DirectShow], SendEndOfStream method [DirectShow],IMediaStream interface, dshow.imediastream_sendendofstream, mmstream/IMediaStream::SendEndOfStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 

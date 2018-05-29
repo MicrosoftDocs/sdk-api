@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IComponentType.get_MediaSubType
 title: IComponentType::get_MediaSubType
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MediaSubType method retrieves the DirectShow media subtype as a BSTR.
 old-location: mstv\icomponenttype_get_mediasubtype.htm
 old-project: mstv
 ms.assetid: 470b7960-b016-4807-858b-61a53daf2396
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_MediaSubType method, IComponentType.get_MediaSubType, IComponentType::get_MediaSubType, IComponentTypeget_MediaSubType, get_MediaSubType, get_MediaSubType method [Microsoft TV Technologies], get_MediaSubType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_mediasubtype, tuner/IComponentType::get_MediaSubType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

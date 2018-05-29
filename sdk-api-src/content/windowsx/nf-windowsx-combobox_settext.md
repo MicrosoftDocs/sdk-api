@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.ComboBox_SetText
 title: ComboBox_SetText macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the text of a combo box.
 old-location: controls\ComboBox_SetText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_settext.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ComboBox_SetText, ComboBox_SetText macro [Windows Controls], _win32_ComboBox_SetText, _win32_ComboBox_SetText_cpp, controls.ComboBox_SetText, controls._win32_ComboBox_SetText, windowsx/ComboBox_SetText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

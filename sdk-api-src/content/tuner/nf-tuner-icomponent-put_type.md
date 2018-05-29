@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IComponent.put_Type
 title: IComponent::put_Type
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Type method sets an IComponentType object describing the general characteristics of the component.
 old-location: mstv\icomponent_put_type.htm
 old-project: mstv
 ms.assetid: 07d8cc28-d34e-4332-8648-d69a471ca8ac
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],put_Type method, IComponent.put_Type, IComponent::put_Type, IComponentput_Type, mstv.icomponent_put_type, put_Type, put_Type method [Microsoft TV Technologies], put_Type method [Microsoft TV Technologies],IComponent interface, tuner/IComponent::put_Type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

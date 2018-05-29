@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_RESOURCE_TYPES_EQUAL
 title: PRESUTIL_RESOURCE_TYPES_EQUAL
-author: windows-driver-content
+author: windows-sdk-content
 description: Tests whether a resource type matches the resource type name of a specified resource. The PRESUTIL_RESOURCE_TYPES_EQUAL type defines a pointer to this function.
 old-location: mscs\resutilresourcetypesequal.htm
 old-project: MsCS
 ms.assetid: 716d2174-5fa7-4868-9f33-ab6f815e6335
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_RESOURCE_TYPES_EQUAL, PRESUTIL_RESOURCE_TYPES_EQUAL callback, PRESUTIL_RESOURCE_TYPES_EQUAL callback function [Failover Cluster], _wolf_resutilresourcetypesequal, mscs.resutilresourcetypesequal, resapi/PRESUTIL_RESOURCE_TYPES_EQUAL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

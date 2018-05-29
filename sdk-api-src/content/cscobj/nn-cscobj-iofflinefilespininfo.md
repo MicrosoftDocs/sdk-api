@@ -1,16 +1,16 @@
 ---
 UID: NN:cscobj.IOfflineFilesPinInfo
 title: IOfflineFilesPinInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the pinned status of an item in the Offline Files cache.
 old-location: of\iofflinefilespininfo.htm
 old-project: OfflineFiles
 ms.assetid: 529a529a-fbeb-4414-b4c9-46bfcca4aa7a
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesPinInfo, IOfflineFilesPinInfo interface [Offline Files], IOfflineFilesPinInfo interface [Offline Files],described, cscobj/IOfflineFilesPinInfo, of.iofflinefilespininfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

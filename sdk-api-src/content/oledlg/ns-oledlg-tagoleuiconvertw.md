@@ -1,16 +1,16 @@
 ---
 UID: NS:oledlg.tagOLEUICONVERTW
 title: tagOLEUICONVERTW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that the OLE User Interface Library uses to initialize the Convert dialog box, and space for the library to return information when the dialog box is dismissed.
 old-location: com\oleuiconvert_struct.htm
 old-project: com
 ms.assetid: 79206f06-b219-48c2-9fb2-74ebc2dbac65
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPOLEUICONVERTW, *POLEUICONVERTW, CF_CONVERTONLY, CF_DISABLEACTIVATEAS, CF_DISABLEDISPLAYASICON, CF_HIDECHANGEICON, CF_SELECTACTIVATEAS, CF_SELECTCONVERTTO, CF_SETACTIVATEDEFAULT, CF_SETCONVERTDEFAULT, CF_SHOWHELPBUTTON, LPOLEUICONVERT, LPOLEUICONVERT structure pointer [COM], OLEUICONVERT, OLEUICONVERT structure [COM], OLEUICONVERTA, OLEUICONVERTW, POLEUICONVERT, POLEUICONVERT structure pointer [COM], _ole_OLEUICONVERT_str, com.oleuiconvert_struct, oledlg/LPOLEUICONVERT, oledlg/OLEUICONVERT, oledlg/OLEUICONVERTA, oledlg/OLEUICONVERTW, oledlg/POLEUICONVERT, tagOLEUICONVERTW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 

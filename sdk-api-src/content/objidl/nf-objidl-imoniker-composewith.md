@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IMoniker.ComposeWith
 title: IMoniker::ComposeWith
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new composite moniker by combining the current moniker with the specified moniker.
 old-location: com\imoniker_composewith.htm
 old-project: com
 ms.assetid: 6e41d79c-1a57-4270-aa84-160e0639852b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ComposeWith, ComposeWith method [COM], ComposeWith method [COM],IMoniker interface, IMoniker interface [COM],ComposeWith method, IMoniker.ComposeWith, IMoniker::ComposeWith, _com_imoniker_composewith, com.imoniker_composewith, objidl/IMoniker::ComposeWith
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

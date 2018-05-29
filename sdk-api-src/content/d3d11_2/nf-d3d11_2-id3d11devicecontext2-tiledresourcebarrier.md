@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.TiledResourceBarrier
 title: ID3D11DeviceContext2::TiledResourceBarrier
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a data access ordering constraint between multiple tiled resources.
 old-location: direct3d11\id3d11devicecontext2_tiledresourcebarrier.htm
 old-project: direct3d11
 ms.assetid: D53A4336-53D8-4264-9A9B-B775AA026939
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11DeviceContext2 interface [Direct3D 11],TiledResourceBarrier method, ID3D11DeviceContext2.TiledResourceBarrier, ID3D11DeviceContext2::TiledResourceBarrier, TiledResourceBarrier, TiledResourceBarrier method [Direct3D 11], TiledResourceBarrier method [Direct3D 11],ID3D11DeviceContext2 interface, d3d11_2/ID3D11DeviceContext2::TiledResourceBarrier, direct3d11.id3d11devicecontext2_tiledresourcebarrier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_2.h
 req.include-header: 

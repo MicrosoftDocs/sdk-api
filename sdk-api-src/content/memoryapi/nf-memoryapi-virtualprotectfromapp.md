@@ -1,16 +1,16 @@
 ---
 UID: NF:memoryapi.VirtualProtectFromApp
 title: VirtualProtectFromApp function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes the protection on a region of committed pages in the virtual address space of the calling process.
 old-location: base\virtualprotectfromapp.htm
 old-project: Memory
 ms.assetid: 04202DB6-8A28-4B3C-9320-557E5F4D42AC
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VirtualProtectFromApp, VirtualProtectFromApp function, base.virtualprotectfromapp, memoryapi/VirtualProtectFromApp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h

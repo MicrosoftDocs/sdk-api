@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICCompressBegin
 title: ICCompressBegin macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICCompressBegin macro notifies a video compression driver to prepare to compress data. You can use this macro or explicitly call the ICM_COMPRESS_BEGIN message.
 old-location: multimedia\iccompressbegin.htm
 old-project: Multimedia
 ms.assetid: e09d3ac8-ead3-459c-a773-ffbe8198b40f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICCompressBegin, ICCompressBegin macro [Windows Multimedia], _win32_ICCompressBegin, multimedia.iccompressbegin, vfw/ICCompressBegin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

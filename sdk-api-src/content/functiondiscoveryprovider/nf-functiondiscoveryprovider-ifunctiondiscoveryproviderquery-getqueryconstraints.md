@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery.GetQueryConstraints
 title: IFunctionDiscoveryProviderQuery::GetQueryConstraints
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current query constraints.
 old-location: ncd\ifunctiondiscoveryproviderquery_getqueryconstraints.htm
 old-project: FunDisc
 ms.assetid: a8329732-79dd-4606-96c3-40534cde5fc4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetQueryConstraints, GetQueryConstraints method, GetQueryConstraints method,IFunctionDiscoveryProviderQuery interface, IFunctionDiscoveryProviderQuery interface,GetQueryConstraints method, IFunctionDiscoveryProviderQuery.GetQueryConstraints, IFunctionDiscoveryProviderQuery::GetQueryConstraints, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::GetQueryConstraints, ncd.ifunctiondiscoveryproviderquery_getqueryconstraints
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

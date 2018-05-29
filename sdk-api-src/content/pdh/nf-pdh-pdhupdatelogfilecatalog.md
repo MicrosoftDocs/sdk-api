@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhUpdateLogFileCatalog
 title: PdhUpdateLogFileCatalog function
-author: windows-driver-content
+author: windows-sdk-content
 description: Synchronizes the information in the log file catalog with the performance data in the log file.
 old-location: perf\pdhupdatelogfilecatalog.htm
 old-project: PerfCtrs
 ms.assetid: e8aa8462-48f1-4ccd-8c41-a7358975e056
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhUpdateLogFileCatalog, PdhUpdateLogFileCatalog function [Perf], _win32_pdhupdatelogfilecatalog, base.pdhupdatelogfilecatalog, pdh/PdhUpdateLogFileCatalog, perf.pdhupdatelogfilecatalog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

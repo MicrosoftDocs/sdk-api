@@ -1,16 +1,16 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0025
 title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0025"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MPEG_DATE structure specifies a date.
 old-location: mstv\mpeg_date.htm
 old-project: mstv
 ms.assetid: 82c58d97-376f-40d0-9511-32361ece8ebb
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MPEG_DATE, MPEG_DATE structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0025, mpeg2structs/MPEG_DATE, mstv.mpeg_date
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 

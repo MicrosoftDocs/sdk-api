@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.RemoveAllStylusSyncPlugins
 title: IRealTimeStylus::RemoveAllStylusSyncPlugins
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all of the plug-ins from the synchronous plug-in collection.
 old-location: tablet\irealtimestylus_removeallstylussyncplugins.htm
 old-project: tablet
 ms.assetid: 6d6aa14b-f1f5-460a-b37a-5187022ad301
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 6d6aa14b-f1f5-460a-b37a-5187022ad301, IRealTimeStylus interface [Tablet PC],RemoveAllStylusSyncPlugins method, IRealTimeStylus.RemoveAllStylusSyncPlugins, IRealTimeStylus::RemoveAllStylusSyncPlugins, RemoveAllStylusSyncPlugins, RemoveAllStylusSyncPlugins method [Tablet PC], RemoveAllStylusSyncPlugins method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::RemoveAllStylusSyncPlugins, tablet.irealtimestylus_removeallstylussyncplugins
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

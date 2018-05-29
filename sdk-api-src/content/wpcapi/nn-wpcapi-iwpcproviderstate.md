@@ -1,16 +1,16 @@
 ---
 UID: NN:wpcapi.IWPCProviderState
 title: IWPCProviderState
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes provider state methods that are implemented by third parties.
 old-location: parcon\iwpcproviderstate.htm
 old-project: parcon
 ms.assetid: a5cd14df-8e64-4f34-801c-9901c7d215f9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWPCProviderState, IWPCProviderState interface, IWPCProviderState interface,described, parcon.iwpcproviderstate, wpcapi/IWPCProviderState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wpcapi.h
 req.include-header: 

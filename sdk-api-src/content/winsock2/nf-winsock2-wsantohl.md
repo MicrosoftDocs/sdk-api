@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSANtohl
 title: WSANtohl function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSANtohl function converts a u_long from network byte order to host byte order.
 old-location: winsock\wsantohl_2.htm
 old-project: WinSock
 ms.assetid: 7e3b42eb-3b93-459f-828a-c19e277882c7
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSANtohl, WSANtohl function [Winsock], _win32_wsantohl_2, winsock.wsantohl_2, winsock2/WSANtohl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

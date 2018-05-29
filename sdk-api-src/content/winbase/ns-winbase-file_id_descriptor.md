@@ -1,16 +1,16 @@
 ---
 UID: NS:winbase.FILE_ID_DESCRIPTOR
 title: FILE_ID_DESCRIPTOR
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of ID that is being used.
 old-location: fs\file_id_descriptor.htm
 old-project: FileIO
 ms.assetid: 9092a701-3b47-4c4c-8221-54fa3220d322
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPFILE_ID_DESCRIPTOR, ExtendedFileIdType, FILE_ID_DESCRIPTOR, FILE_ID_DESCRIPTOR structure [Files], FileIdType, ObjectIdType, fileextd/FILE_ID_DESCRIPTOR, fs.file_id_descriptor, winbase/FILE_ID_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mediaobj.IEnumDMO.Reset
 title: IEnumDMO::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: dshow\ienumdmo_reset.htm
 old-project: DirectShow
 ms.assetid: 1a910c70-7f41-43d5-a677-c299b5181638
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumDMO interface [DirectShow],Reset method, IEnumDMO.Reset, IEnumDMO::Reset, IEnumDMOReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumDMO interface, dshow.ienumdmo_reset, mediaobj/IEnumDMO::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

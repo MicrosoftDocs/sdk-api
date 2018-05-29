@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.AcceptConnection
 title: IWTSProtocolConnection::AcceptConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: IWTSProtocolConnection::AcceptConnection is no longer available. Instead, use IWRdsProtocolConnection::AcceptConnection.
 old-location: termserv\iwtsprotocolconnection_acceptconnection.htm
 old-project: TermServ
 ms.assetid: 5be00911-f68a-410d-8d56-81458b5ff44e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AcceptConnection, AcceptConnection method [Remote Desktop Services], AcceptConnection method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],AcceptConnection method, IWTSProtocolConnection.AcceptConnection, IWTSProtocolConnection::AcceptConnection, termserv.iwtsprotocolconnection_acceptconnection, wtsprotocol/IWTSProtocolConnection::AcceptConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

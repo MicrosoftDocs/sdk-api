@@ -1,16 +1,16 @@
 ---
 UID: NF:coml2api.StgCreateDocfileOnILockBytes
 title: StgCreateDocfileOnILockBytes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and opens a new compound file storage object on top of a byte-array object provided by the caller.
 old-location: stg\stgcreatedocfileonilockbytes.htm
 old-project: Stg
 ms.assetid: 8af5098d-db04-4273-8f5f-6d1a1d9541de
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: StgCreateDocfileOnILockBytes, StgCreateDocfileOnILockBytes function [Structured Storage], _stg_stgcreatedocfileonilockbytes, coml2api/StgCreateDocfileOnILockBytes, stg.stgcreatedocfileonilockbytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Objbase.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleConvertIStorageToOLESTREAMEx
 title: OleConvertIStorageToOLESTREAMEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The OleConvertIStorageToOLESTREAMEx function converts the specified storage object from OLE 2 structured storage to the OLE 1 storage object model, including the presentation data.
 old-location: stg\oleconvertistoragetoolestreamex.htm
 old-project: Stg
 ms.assetid: a6026b71-4223-40ab-b209-44531480db57
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleConvertIStorageToOLESTREAMEx, OleConvertIStorageToOLESTREAMEx function [Structured Storage], _stg_oleconvertistoragetoolestreamex, ole2/OleConvertIStorageToOLESTREAMEx, stg.oleconvertistoragetoolestreamex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

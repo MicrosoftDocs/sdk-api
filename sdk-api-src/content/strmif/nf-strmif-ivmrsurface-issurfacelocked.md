@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRSurface.IsSurfaceLocked
 title: IVMRSurface::IsSurfaceLocked
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsSurfaceLocked method indicates whether the DirectDraw surface attached to this media sample is locked.
 old-location: dshow\ivmrsurface_issurfacelocked.htm
 old-project: DirectShow
 ms.assetid: 690194c2-2f40-414f-9130-f2f9c44fe71e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRSurface interface [DirectShow],IsSurfaceLocked method, IVMRSurface.IsSurfaceLocked, IVMRSurface::IsSurfaceLocked, IVMRSurfaceIsSurfaceLocked, IsSurfaceLocked, IsSurfaceLocked method [DirectShow], IsSurfaceLocked method [DirectShow],IVMRSurface interface, dshow.ivmrsurface_issurfacelocked, strmif/IVMRSurface::IsSurfaceLocked
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

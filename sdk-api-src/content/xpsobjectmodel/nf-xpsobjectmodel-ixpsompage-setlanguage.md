@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetLanguage
 title: IXpsOMPage::SetLanguage
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Language property of the page.
 old-location: xps\ixpsompage_setlanguage.htm
 old-project: printdocs
 ms.assetid: 3bf0c7ed-84fc-45c0-8058-b833c3913f09
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetLanguage method, IXpsOMPage.SetLanguage, IXpsOMPage::SetLanguage, SetLanguage, SetLanguage method [XPS Documents and Packaging], SetLanguage method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setlanguage, xpsobjectmodel/IXpsOMPage::SetLanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

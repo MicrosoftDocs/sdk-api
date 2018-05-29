@@ -1,16 +1,16 @@
 ---
 UID: NF:printmanagerinterop.IPrintManagerInterop.GetForWindow
 title: IPrintManagerInterop::GetForWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the PrintManager instance for the specified window.
 old-location: winrt\iprintmanagerinterop_getforwindow.htm
 old-project: WinRT
 ms.assetid: 8cbf37b6-6756-4399-aa6b-01eb63c8c6db
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetForWindow, GetForWindow method [Windows Runtime], GetForWindow method [Windows Runtime],IPrintManagerInterop interface, IPrintManagerInterop interface [Windows Runtime],GetForWindow method, IPrintManagerInterop.GetForWindow, IPrintManagerInterop::GetForWindow, printmanagerinterop/IPrintManagerInterop::GetForWindow, winrt.iprintmanagerinterop_getforwindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: printmanagerinterop.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RTM_IPV4_SET_ADDR_AND_LEN
 title: RTM_IPV4_SET_ADDR_AND_LEN macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The RTM_IPV4_SET_ADDR_AND_LEN macro converts an IPv4 address and a length to a generic RTM_NET_ADDRESS structure.
 old-location: rras\rtm_ipv4_set_addr_and_len.htm
 old-project: RRAS
 ms.assetid: c6f60346-51ff-4e1e-9edb-b326184f79cf
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RTM_IPV4_SET_ADDR_AND_LEN, RTM_IPV4_SET_ADDR_AND_LEN macro [RAS], _rtmv2ref_rtm_ipv4_set_addr_and_len, rras.rtm_ipv4_set_addr_and_len, rtmv2/RTM_IPV4_SET_ADDR_AND_LEN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: rtmv2.h
 req.include-header: 

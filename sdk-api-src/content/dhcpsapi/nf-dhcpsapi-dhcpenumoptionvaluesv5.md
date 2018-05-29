@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumOptionValuesV5
 title: DhcpEnumOptionValuesV5 function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DhcpEnumOptionValuesV5 function returns an enumerated list of option values (just the option data and the associated ID number) for a specific scope within a given user or vendor class.
 old-location: dhcp\dhcpenumoptionvaluesv5.htm
 old-project: DHCP
 ms.assetid: 4c63161d-7d61-402c-8a5e-2800bdc5e18f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpEnumOptionValuesV5, DhcpEnumOptionValuesV5 function [DHCP], dhcp.dhcpenumoptionvaluesv5, dhcpsapi/DhcpEnumOptionValuesV5
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

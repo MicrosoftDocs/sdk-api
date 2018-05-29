@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptImportPublicKeyInfoEx
 title: CryptImportPublicKeyInfoEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Important  This API is deprecated.
 old-location: security\cryptimportpublickeyinfoex.htm
 old-project: SecCrypto
 ms.assetid: d3a59f83-c761-46bb-ac4f-f42f689ea5f1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptImportPublicKeyInfoEx, CryptImportPublicKeyInfoEx function [Security], _crypto2_cryptimportpublickeyinfoex, security.cryptimportpublickeyinfoex, wincrypt/CryptImportPublicKeyInfoEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

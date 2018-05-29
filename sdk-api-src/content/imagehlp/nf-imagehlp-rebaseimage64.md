@@ -1,16 +1,16 @@
 ---
 UID: NF:imagehlp.ReBaseImage64
 title: ReBaseImage64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes the load address for the specified image, which reduces the required load time for a DLL.
 old-location: base\rebaseimage64.htm
 old-project: Debug
 ms.assetid: 3d60358c-8aa6-4b30-a46e-ce0e15964b5a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ReBaseImage64, ReBaseImage64 function, base.rebaseimage64, imagehlp/ReBaseImage64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_Duration
 title: IDataCollectorSet::put_Duration
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves and sets the duration that the data collector set runs.
 old-location: pla\idatacollectorset_get_duration.htm
 old-project: PLA
 ms.assetid: afa8f8f2-52a7-481f-ba7e-19f9b757aeb8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Duration property [PLA], Duration property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],Duration property, IDataCollectorSet.Duration, IDataCollectorSet.put_Duration, IDataCollectorSet::Duration, IDataCollectorSet::get_Duration, IDataCollectorSet::put_Duration, base.idatacollectorset_get_duration, pla.idatacollectorset_get_duration, pla/IDataCollectorSet::Duration, pla/IDataCollectorSet::get_Duration, pla/IDataCollectorSet::put_Duration, put_Duration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_ClockType
 title: ITraceDataCollector::get_ClockType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the clock resolution to use when logging the time stamp for each event.
 old-location: pla\itracedatacollector_clocktype.htm
 old-project: PLA
 ms.assetid: 8c62d441-01c5-4fca-a802-41c7328a22e9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ClockType property [PLA], ClockType property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],ClockType property, ITraceDataCollector.ClockType, ITraceDataCollector.get_ClockType, ITraceDataCollector::ClockType, ITraceDataCollector::get_ClockType, ITraceDataCollector::put_ClockType, base.itracedatacollector_clocktype, get_ClockType, pla.itracedatacollector_clocktype, pla/ITraceDataCollector::ClockType, pla/ITraceDataCollector::get_ClockType, pla/ITraceDataCollector::put_ClockType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

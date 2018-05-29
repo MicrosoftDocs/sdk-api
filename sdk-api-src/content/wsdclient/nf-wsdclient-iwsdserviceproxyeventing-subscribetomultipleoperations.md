@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.SubscribeToMultipleOperations
 title: IWSDServiceProxyEventing::SubscribeToMultipleOperations
-author: windows-driver-content
+author: windows-sdk-content
 description: Subscribes to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_subscribetomultipleoperations.htm
 old-project: WsdApi
 ms.assetid: 0df5b429-5b6e-4cef-af05-7f615c93aa0f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDServiceProxyEventing interface,SubscribeToMultipleOperations method, IWSDServiceProxyEventing.SubscribeToMultipleOperations, IWSDServiceProxyEventing::SubscribeToMultipleOperations, SubscribeToMultipleOperations, SubscribeToMultipleOperations method, SubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, ncd.iwsdserviceproxyeventing_subscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::SubscribeToMultipleOperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

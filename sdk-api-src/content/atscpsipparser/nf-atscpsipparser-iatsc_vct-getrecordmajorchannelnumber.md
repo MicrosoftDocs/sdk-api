@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordMajorChannelNumber
 title: IATSC_VCT::GetRecordMajorChannelNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordmajorchannelnumber.htm
 old-project: mstv
 ms.assetid: 103de5b5-e78c-49a2-81a7-e85eae2d79c1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordMajorChannelNumber, GetRecordMajorChannelNumber method [Microsoft TV Technologies], GetRecordMajorChannelNumber method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordMajorChannelNumber method, IATSC_VCT.GetRecordMajorChannelNumber, IATSC_VCT::GetRecordMajorChannelNumber, IATSC_VCTGetRecordMajorChannelNumber, atscpsipparser/IATSC_VCT::GetRecordMajorChannelNumber, mstv.iatsc_vct_getrecordmajorchannelnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

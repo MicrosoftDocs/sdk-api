@@ -1,16 +1,16 @@
 ---
 UID: NF:comcat.IEnumCATEGORYINFO.Skip
 title: IEnumCATEGORYINFO::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumcategoryinfo_skip.htm
 old-project: com
 ms.assetid: 405a506b-8bce-47ea-a5a7-6cd7146dcef3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumCATEGORYINFO interface [COM],Skip method, IEnumCATEGORYINFO.Skip, IEnumCATEGORYINFO::Skip, Skip, Skip method [COM], Skip method [COM],IEnumCATEGORYINFO interface, _com_ienumcategoryinfo_skip, com.ienumcategoryinfo_skip, comcat/IEnumCATEGORYINFO::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comcat.h
 req.include-header: 

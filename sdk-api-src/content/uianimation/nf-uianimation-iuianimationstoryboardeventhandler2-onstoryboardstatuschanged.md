@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboardEventHandler2.OnStoryboardStatusChanged
 title: IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles storyboard status change events.
 old-location: uianimation\iuianimationstoryboardeventhandler2_onstoryboardstatuschanged.htm
 old-project: UIAnimation
 ms.assetid: 6C428A75-755D-4171-A714-83FC65A9D972
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationStoryboardEventHandler2 interface [Windows Animation],OnStoryboardStatusChanged method, IUIAnimationStoryboardEventHandler2.OnStoryboardStatusChanged, IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged, OnStoryboardStatusChanged, OnStoryboardStatusChanged method [Windows Animation], OnStoryboardStatusChanged method [Windows Animation],IUIAnimationStoryboardEventHandler2 interface, uianimation.iuianimationstoryboardeventhandler2_onstoryboardstatuschanged, uianimation/IUIAnimationStoryboardEventHandler2::OnStoryboardStatusChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

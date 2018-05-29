@@ -1,16 +1,16 @@
 ---
 UID: NE:ocidl.tagPictureAttributes
 title: tagPictureAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies attributes of a picture object as returned through the IPicture::get_Attributes method.
 old-location: com\pictureattributes.htm
 old-project: com
 ms.assetid: 3162a305-d35c-402d-a8d8-f0f124257dd5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PICTUREATTRIBUTES, PICTUREATTRIBUTES enumeration [COM], PICTURE_SCALABLE, PICTURE_TRANSPARENT, _ctrl_PICTURE, com.pictureattributes, ocidl/PICTUREATTRIBUTES, ocidl/PICTURE_SCALABLE, ocidl/PICTURE_TRANSPARENT, tagPictureAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 

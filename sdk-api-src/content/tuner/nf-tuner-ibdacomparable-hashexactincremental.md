@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IBDAComparable.HashExactIncremental
 title: IBDAComparable::HashExactIncremental
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibdacomparable_hashexactincremental.htm
 old-project: mstv
 ms.assetid: 4ddf2545-83a6-4b5d-94ba-7034aed61f08
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HashExactIncremental, HashExactIncremental method [Microsoft TV Technologies], HashExactIncremental method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashExactIncremental method, IBDAComparable.HashExactIncremental, IBDAComparable::HashExactIncremental, IBDAComparableHashExactIncremental, mstv.ibdacomparable_hashexactincremental, tuner/IBDAComparable::HashExactIncremental
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

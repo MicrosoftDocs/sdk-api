@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetFilter
 title: IFileDialog::SetFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: SetFilter is no longer available for use as of Windows 7.
 old-location: shell\IFileDialog_SetFilter.htm
 old-project: shell
 ms.assetid: 6f650ae2-77c4-496c-8b8b-279c69eaaf65
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFilter method, IFileDialog.SetFilter, IFileDialog::SetFilter, SetFilter, SetFilter method [Windows Shell], SetFilter method [Windows Shell],IFileDialog interface, _shell_IFileDialog_SetFilter, shell.IFileDialog_SetFilter, shobjidl_core/IFileDialog::SetFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IServiceSxsConfig.SxsDirectory
 title: IServiceSxsConfig::SxsDirectory
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the directory for the side-by-side assembly for the enclosed work.
 old-location: cos\iservicesxsconfig_sxsdirectory.htm
 old-project: cossdk
 ms.assetid: 5eb909a5-7730-4f0b-aee6-9bb8de076cea
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServiceSxsConfig interface [COM+],SxsDirectory method, IServiceSxsConfig.SxsDirectory, IServiceSxsConfig::SxsDirectory, SxsDirectory, SxsDirectory method [COM+], SxsDirectory method [COM+],IServiceSxsConfig interface, _cos_IServiceSxsConfig_SxsDirectory, comsvcs/IServiceSxsConfig::SxsDirectory, cos.iservicesxsconfig_sxsdirectory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

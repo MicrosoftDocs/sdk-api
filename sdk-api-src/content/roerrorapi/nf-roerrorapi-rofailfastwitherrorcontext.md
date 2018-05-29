@@ -1,16 +1,16 @@
 ---
 UID: NF:roerrorapi.RoFailFastWithErrorContext
 title: RoFailFastWithErrorContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Raises a non-continuable exception in the current process.
 old-location: winrt\rofailfastwitherrorcontext.htm
 old-project: WinRT
 ms.assetid: 1BD47795-1B5E-42A4-B88F-7DE5160668E7
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoFailFastWithErrorContext, RoFailFastWithErrorContext function [Windows Runtime], roerrorapi/RoFailFastWithErrorContext, winrt.rofailfastwitherrorcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 

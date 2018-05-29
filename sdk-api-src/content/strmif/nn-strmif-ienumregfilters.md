@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IEnumRegFilters
 title: IEnumRegFilters
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface has been deprecated.
 old-location: dshow\ienumregfilters.htm
 old-project: DirectShow
 ms.assetid: 59cb809d-84f5-42c4-a385-0f586af4d048
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumRegFilters, IEnumRegFilters interface [DirectShow], IEnumRegFilters interface [DirectShow],described, IEnumRegFiltersInterface, dshow.ienumregfilters, strmif/IEnumRegFilters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 

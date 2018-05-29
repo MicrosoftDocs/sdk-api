@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.ITransferAdviseSink
 title: ITransferAdviseSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods supporting status collection and failure information.
 old-location: shell\ITransferAdviseSink.htm
 old-project: shell
 ms.assetid: 70866a03-2b22-4518-a9e6-2f06edaa4b5d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITransferAdviseSink, ITransferAdviseSink interface [Windows Shell], ITransferAdviseSink interface [Windows Shell],described, _shell_ITransferAdviseSink, shell.ITransferAdviseSink, shobjidl_core/ITransferAdviseSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

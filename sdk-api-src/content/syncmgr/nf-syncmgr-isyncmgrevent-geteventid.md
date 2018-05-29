@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetEventID
 title: ISyncMgrEvent::GetEventID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the event ID.
 old-location: shell\ISyncMgrEvent_GetEventID.htm
 old-project: shell
 ms.assetid: 2951a015-b365-468b-a143-1b807885a99a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetEventID, GetEventID method [Windows Shell], GetEventID method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetEventID method, ISyncMgrEvent.GetEventID, ISyncMgrEvent::GetEventID, _shell_ISyncMgrEvent_GetEventID, shell.ISyncMgrEvent_GetEventID, syncmgr/ISyncMgrEvent::GetEventID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

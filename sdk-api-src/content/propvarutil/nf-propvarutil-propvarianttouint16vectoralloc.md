@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt16VectorAlloc
 title: PropVariantToUInt16VectorAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into a newly-allocated unsigned short vector.
 old-location: properties\PropVariantToUInt16VectorAlloc.htm
 old-project: properties
 ms.assetid: e5af0f91-49c1-4ff3-8339-77fffc2102f8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToUInt16VectorAlloc, PropVariantToUInt16VectorAlloc function [Windows Properties], _shell_PropVariantToUInt16VectorAlloc, properties.PropVariantToUInt16VectorAlloc, propvarutil/PropVariantToUInt16VectorAlloc, shell.PropVariantToUInt16VectorAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

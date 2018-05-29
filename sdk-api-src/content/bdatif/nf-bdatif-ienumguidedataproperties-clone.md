@@ -1,16 +1,16 @@
 ---
 UID: NF:bdatif.IEnumGuideDataProperties.Clone
 title: IEnumGuideDataProperties::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented for this release.
 old-location: mstv\ienumguidedataproperties_clone.htm
 old-project: mstv
 ms.assetid: 4956b37c-a39f-4f5d-bc2d-9746a98660ec
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Clone, Clone method [Microsoft TV Technologies], Clone method [Microsoft TV Technologies],IEnumGuideDataProperties interface, IEnumGuideDataProperties interface [Microsoft TV Technologies],Clone method, IEnumGuideDataProperties.Clone, IEnumGuideDataProperties::Clone, IEnumGuideDataPropertiesClone, bdatif/IEnumGuideDataProperties::Clone, mstv.ienumguidedataproperties_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

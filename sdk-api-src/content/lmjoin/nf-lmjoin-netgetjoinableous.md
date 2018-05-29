@@ -1,16 +1,16 @@
 ---
 UID: NF:lmjoin.NetGetJoinableOUs
 title: NetGetJoinableOUs function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetGetJoinableOUs function retrieves a list of organizational units (OUs) in which a computer account can be created.
 old-location: netmgmt\netgetjoinableous.htm
 old-project: NetMgmt
 ms.assetid: 1faa912b-c56d-431c-95d5-d36790b0d467
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetGetJoinableOUs, NetGetJoinableOUs function [Network Management], _win32_netgetjoinableous, lmjoin/NetGetJoinableOUs, netmgmt.netgetjoinableous
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmjoin.h
 req.include-header: Lm.h

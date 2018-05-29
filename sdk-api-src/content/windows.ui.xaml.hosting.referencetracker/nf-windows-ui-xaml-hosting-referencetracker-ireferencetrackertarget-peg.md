@@ -1,16 +1,16 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerTarget.Peg
 title: IReferenceTrackerTarget::xaml
-author: windows-driver-content
+author: windows-sdk-content
 description: Marks that the reference tracker target is in use by the XAML framework, and should not be collected.
 old-location: winrt\ireferencetrackertarget_peg.htm
 old-project: WinRT
 ms.assetid: 2750e8b1-eeeb-411a-89a8-b63b26f731ac
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IReferenceTrackerTarget interface [Windows Runtime],Peg method, IReferenceTrackerTarget.Peg, IReferenceTrackerTarget.xaml, IReferenceTrackerTarget::Peg, IReferenceTrackerTarget::xaml, Peg, Peg method [Windows Runtime], Peg method [Windows Runtime],IReferenceTrackerTarget interface, windows/IReferenceTrackerTarget::Peg, winrt.ireferencetrackertarget_peg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 

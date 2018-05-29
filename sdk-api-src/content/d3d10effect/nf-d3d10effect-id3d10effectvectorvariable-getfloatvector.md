@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.GetFloatVector
 title: ID3D10EffectVectorVariable::GetFloatVector
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a four-component vector that contains floating-point data.
 old-location: direct3d10\id3d10effectvectorvariable_getfloatvector.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_getfloatvector.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 7e29e81e-7c50-74b7-f1b6-8f9aa750deb0, GetFloatVector, GetFloatVector method [Direct3D 10], GetFloatVector method [Direct3D 10],ID3D10EffectVectorVariable interface, ID3D10EffectVectorVariable interface [Direct3D 10],GetFloatVector method, ID3D10EffectVectorVariable.GetFloatVector, ID3D10EffectVectorVariable::GetFloatVector, d3d10effect/ID3D10EffectVectorVariable::GetFloatVector, direct3d10.id3d10effectvectorvariable_getfloatvector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

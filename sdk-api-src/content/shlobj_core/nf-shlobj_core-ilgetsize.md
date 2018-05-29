@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.ILGetSize
 title: ILGetSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the size, in bytes, of an ITEMIDLIST structure.
 old-location: shell\ILGetSize.htm
 old-project: shell
 ms.assetid: 099d4139-b0ea-42b7-991b-ee04e40994c6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ILGetSize, ILGetSize function [Windows Shell], _win32_ILGetSize, shell.ILGetSize, shlobj_core/ILGetSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

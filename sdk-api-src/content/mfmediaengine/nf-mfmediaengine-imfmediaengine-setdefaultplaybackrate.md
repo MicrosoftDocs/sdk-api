@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetDefaultPlaybackRate
 title: IMFMediaEngine::SetDefaultPlaybackRate
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the default playback rate.
 old-location: mf\imfmediaengine_setdefaultplaybackrate.htm
 old-project: medfound
 ms.assetid: D6EA6BC1-021A-432D-BBCB-BE2FD15E7BE5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetDefaultPlaybackRate method, IMFMediaEngine.SetDefaultPlaybackRate, IMFMediaEngine::SetDefaultPlaybackRate, SetDefaultPlaybackRate, SetDefaultPlaybackRate method [Media Foundation], SetDefaultPlaybackRate method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setdefaultplaybackrate, mfmediaengine/IMFMediaEngine::SetDefaultPlaybackRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

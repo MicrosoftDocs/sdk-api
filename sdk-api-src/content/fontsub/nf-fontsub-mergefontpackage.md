@@ -1,16 +1,16 @@
 ---
 UID: NF:fontsub.MergeFontPackage
 title: MergeFontPackage function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MergeFontPackage function manipulates fonts created by CreateFontPackage.
 old-location: gdi\mergefontpackage.htm
 old-project: gdi
 ms.assetid: c51110a0-286c-4d97-9da5-4186ebf8f9b8
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MergeFontPackage, MergeFontPackage function [Windows GDI], TTFMFP_DELTA, TTFMFP_SUBSET, TTFMFP_SUBSET1, _win32_MergeFontPackage, fontsub/MergeFontPackage, gdi.mergefontpackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fontsub.h
 req.include-header: 

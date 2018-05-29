@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomation5
 title: IUIAutomation5
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IUIAutomation4 interface to expose additional methods for controlling Microsoft UI Automation functionality.
 old-location: winauto\uiauto_IUIAutomation5.htm
 old-project: WinAuto
 ms.assetid: BCF67DB0-DF5B-4CED-9C32-01F126494129
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomation5, IUIAutomation5 interface [Windows Accessibility], IUIAutomation5 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation5, winauto.uiauto_IUIAutomation5
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

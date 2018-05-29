@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICspInformations.get__NewEnum
 title: ICspInformations::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\icspinformations__newenum_property.htm
 old-project: SecCertEnroll
 ms.assetid: ea2bb37a-952c-4772-b44d-52429b5d0a86
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICspInformations interface [Security],_NewEnum property, ICspInformations._NewEnum, ICspInformations.get__NewEnum, ICspInformations::_NewEnum, ICspInformations::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICspInformations interface, certenroll/ICspInformations::_NewEnum, certenroll/ICspInformations::get__NewEnum, get__NewEnum, security.icspinformations__newenum_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

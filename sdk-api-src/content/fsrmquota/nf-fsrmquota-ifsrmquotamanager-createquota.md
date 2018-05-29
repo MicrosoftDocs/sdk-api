@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.CreateQuota
 title: IFsrmQuotaManager::CreateQuota
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a quota for the specified directory.
 old-location: fsrm\ifsrmquotamanager_createquota.htm
 old-project: Fsrm
 ms.assetid: 09f0b952-e24f-4388-8e82-6b34145f9ad4
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: CreateQuota, CreateQuota method [File Server Resource Manager], CreateQuota method [File Server Resource Manager],FsrmQuotaManager class, CreateQuota method [File Server Resource Manager],IFsrmQuotaManager interface, CreateQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],CreateQuota method, IFsrmQuotaManager interface [File Server Resource Manager],CreateQuota method, IFsrmQuotaManager.CreateQuota, IFsrmQuotaManager::CreateQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],CreateQuota method, IFsrmQuotaManagerEx::CreateQuota, fs.ifsrmquotamanager_createquota, fsrm.ifsrmquotamanager_createquota, fsrmquota/IFsrmQuotaManager::CreateQuota, fsrmquota/IFsrmQuotaManagerEx::CreateQuota
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h

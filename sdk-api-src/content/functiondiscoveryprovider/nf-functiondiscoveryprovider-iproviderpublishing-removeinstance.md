@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPublishing.RemoveInstance
 title: IProviderPublishing::RemoveInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an existing function instance.
 old-location: ncd\iproviderpublishing_removeinstance_method.htm
 old-project: FunDisc
 ms.assetid: 7b4f6122-944e-4fe9-be95-dd09ae1542f1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IProviderPublishing interface,RemoveInstance method, IProviderPublishing.RemoveInstance, IProviderPublishing::RemoveInstance, RemoveInstance, RemoveInstance method, RemoveInstance method,IProviderPublishing interface, functiondiscoveryprovider/IProviderPublishing::RemoveInstance, ncd.iproviderpublishing_removeinstance_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

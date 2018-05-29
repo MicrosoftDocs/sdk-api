@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.UIntToShort
 title: UIntToShort function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type UINT to a value of type SHORT.
 old-location: shell\UIntToShort.htm
 old-project: shell
 ms.assetid: abad8095-ac1b-4604-b423-5b244fa60127
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UIntToShort, UIntToShort function [Windows Shell], _shell_UIntToShort, intsafe/UIntToShort, shell.UIntToShort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

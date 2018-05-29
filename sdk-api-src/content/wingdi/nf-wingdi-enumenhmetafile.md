@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.EnumEnhMetaFile
 title: EnumEnhMetaFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumEnhMetaFile function enumerates the records within an enhanced-format metafile by retrieving each record and passing it to the specified callback function.
 old-location: gdi\enumenhmetafile.htm
 old-project: gdi
 ms.assetid: bef5f43e-219a-4f8a-986d-290e29e17c4e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnumEnhMetaFile, EnumEnhMetaFile function [Windows GDI], _win32_EnumEnhMetaFile, gdi.enumenhmetafile, wingdi/EnumEnhMetaFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

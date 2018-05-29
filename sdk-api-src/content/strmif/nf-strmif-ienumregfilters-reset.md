@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IEnumRegFilters.Reset
 title: IEnumRegFilters::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  The IEnumRegFilters interface is deprecated. Resets the enumerator so that the next call to the IEnumRegFilters::Next method begins again at the first filter, if any.
 old-location: dshow\ienumregfilters_reset.htm
 old-project: DirectShow
 ms.assetid: 095d0102-c845-48ba-a1f5-e0262a924b50
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumRegFilters interface [DirectShow],Reset method, IEnumRegFilters.Reset, IEnumRegFilters::Reset, IEnumRegFiltersReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumRegFilters interface, dshow.ienumregfilters_reset, strmif/IEnumRegFilters::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

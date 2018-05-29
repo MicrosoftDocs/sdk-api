@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_RENDERMOCOMPDATA
 title: "_DD_RENDERMOCOMPDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_RENDERMOCOMPDATA structure contains the information required to render a frame.
 old-location: display\dd_rendermocompdata.htm
 old-project: display
 ms.assetid: a890707f-b773-4b66-8817-68efdb8d47f8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_RENDERMOCOMPDATA, DD_RENDERMOCOMPDATA, DD_RENDERMOCOMPDATA structure [Display Devices], _DD_RENDERMOCOMPDATA, ddrawint/DD_RENDERMOCOMPDATA, ddstrcts_ac8e2378-be85-4257-a664-d757ec914561.xml, display.dd_rendermocompdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

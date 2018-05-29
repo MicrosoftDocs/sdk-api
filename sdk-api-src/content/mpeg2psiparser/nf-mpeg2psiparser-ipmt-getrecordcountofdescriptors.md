@@ -1,16 +1,16 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetRecordCountOfDescriptors
 title: IPMT::GetRecordCountOfDescriptors
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetRecordCountOfDescriptors method returns the number of descriptors for a record in the PMT.
 old-location: mstv\ipmt_getrecordcountofdescriptors.htm
 old-project: mstv
 ms.assetid: b2470267-25a6-4ed3-91a1-30fd3ac7bbea
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IPMT.GetRecordCountOfDescriptors, IPMT::GetRecordCountOfDescriptors, IPMTGetRecordCountOfDescriptors, mpeg2psiparser/IPMT::GetRecordCountOfDescriptors, mstv.ipmt_getrecordcountofdescriptors
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 

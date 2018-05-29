@@ -1,16 +1,16 @@
 ---
 UID: NE:mprapi._ROUTER_INTERFACE_TYPE
 title: "_ROUTER_INTERFACE_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ROUTER_INTERFACE_TYPE type enumerates the different kinds of interfaces on a router.
 old-location: rras\router_interface_type.htm
 old-project: RRAS
 ms.assetid: 9b957ab0-0c5d-4478-914a-4837e6bbd56a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ROUTER_IF_TYPE_CLIENT, ROUTER_IF_TYPE_DEDICATED, ROUTER_IF_TYPE_DIALOUT, ROUTER_IF_TYPE_FULL_ROUTER, ROUTER_IF_TYPE_HOME_ROUTER, ROUTER_IF_TYPE_INTERNAL, ROUTER_IF_TYPE_LOOPBACK, ROUTER_INTERFACE_TYPE, ROUTER_INTERFACE_TYPE enumeration [RAS], _ROUTER_INTERFACE_TYPE, _mpr_router_interface_type, mprapi/ROUTER_IF_TYPE_CLIENT, mprapi/ROUTER_IF_TYPE_DEDICATED, mprapi/ROUTER_IF_TYPE_DIALOUT, mprapi/ROUTER_IF_TYPE_FULL_ROUTER, mprapi/ROUTER_IF_TYPE_HOME_ROUTER, mprapi/ROUTER_IF_TYPE_INTERNAL, mprapi/ROUTER_IF_TYPE_LOOPBACK, mprapi/ROUTER_INTERFACE_TYPE, rras.router_interface_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mprapi.h
 req.include-header: 

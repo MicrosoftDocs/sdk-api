@@ -1,16 +1,16 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetConnectivity
 title: INetworkListManager::GetConnectivity
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetConnectivity method returns the overall connectivity state of the machine.
 old-location: nla\inetworklistmanager_getconnectivity.htm
 old-project: NLA
 ms.assetid: 4695554a-2f8b-4d2e-b3ff-ec22c43387d6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetConnectivity, GetConnectivity method [Network Awareness], GetConnectivity method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetConnectivity method, INetworkListManager.GetConnectivity, INetworkListManager::GetConnectivity, netlistmgr/INetworkListManager::GetConnectivity, nla.inetworklistmanager_getconnectivity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

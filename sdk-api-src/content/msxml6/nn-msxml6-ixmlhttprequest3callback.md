@@ -1,16 +1,16 @@
 ---
 UID: NN:msxml6.IXMLHTTPRequest3Callback
 title: IXMLHTTPRequest3Callback
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines callbacks that notify an application with an outstanding IXMLHTTPRequest3 request of events that affect HTTP request and response processing.
 old-location: ixhr2\ixmlhttprequest3callback.htm
 old-project: ixhr2
 ms.assetid: f745669a-a594-457d-ae6b-952a55576bae
-ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.author: windowssdkdev
+ms.date: 04/02/2018
 ms.keywords: IXMLHTTPRequest3Callback, IXMLHTTPRequest3Callback interface [XMLHttpRequest2], IXMLHTTPRequest3Callback interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest3callback, msxml6/IXMLHTTPRequest3Callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msxml6.h
 req.include-header: 

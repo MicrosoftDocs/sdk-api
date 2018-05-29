@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.ICameraControl.get_IrisRelative
 title: ICameraControl::get_IrisRelative
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_IrisRelative method returns the camera's relative aperture setting. The relative aperture is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_get_irisrelative.htm
 old-project: DirectShow
 ms.assetid: 15f01c00-ff18-4d58-a03b-9293a8a6a68c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICameraControl interface [DirectShow],get_IrisRelative method, ICameraControl.get_IrisRelative, ICameraControl::get_IrisRelative, ICameraControlget_IrisRelative, dshow.icameracontrol_get_irisrelative, get_IrisRelative, get_IrisRelative method [DirectShow], get_IrisRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_IrisRelative
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

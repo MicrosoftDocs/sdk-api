@@ -1,16 +1,16 @@
 ---
 UID: NF:upnphost.IUPnPDeviceControl.GetServiceObject
 title: IUPnPDeviceControl::GetServiceObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetServiceObject method is used to obtain the IDispatch pointer to a specific service object. The device host invokes this method once per service, the first time it receives a request for a service.
 old-location: upnp\iupnpdevicecontrol_getserviceobject.htm
 old-project: UPnP
 ms.assetid: 55b54edf-fd1d-45b8-95d4-a746a60e5310
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: GetServiceObject, GetServiceObject method [UPnP APIs], GetServiceObject method [UPnP APIs],IUPnPDeviceControl interface, IUPnPDeviceControl interface [UPnP APIs],GetServiceObject method, IUPnPDeviceControl.GetServiceObject, IUPnPDeviceControl::GetServiceObject, _upnp_iupnpdevicecontrol_getserviceobject, upnp.iupnpdevicecontrol_getserviceobject, upnphost/IUPnPDeviceControl::GetServiceObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: upnphost.h
 req.include-header: 

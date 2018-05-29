@@ -1,16 +1,16 @@
 ---
 UID: NF:thumbcache.IThumbnailSettings.SetContext
 title: IThumbnailSettings::SetContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a thumbnail provider to return a thumbnail specific to the user's context.
 old-location: shell\IThumbnailSettings_SetContext.htm
 old-project: shell
 ms.assetid: AD333075-3358-4fee-BDEE-087B7012C93E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IThumbnailSettings interface [Windows Shell],SetContext method, IThumbnailSettings.SetContext, IThumbnailSettings::SetContext, SetContext, SetContext method [Windows Shell], SetContext method [Windows Shell],IThumbnailSettings interface, shell.IThumbnailSettings_SetContext, thumbcache/IThumbnailSettings::SetContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: thumbcache.h
 req.include-header: 

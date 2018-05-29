@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetLocalGroupAddMember
 title: NetLocalGroupAddMember function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetLocalGroupAddMember function is obsolete. You should use the NetLocalGroupAddMembers function instead.
 old-location: netmgmt\netlocalgroupaddmember.htm
 old-project: NetMgmt
 ms.assetid: df249dfd-2509-4e67-af4d-b152b95d0eae
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetLocalGroupAddMember, NetLocalGroupAddMember function [Network Management], _win32_netlocalgroupaddmember, lmaccess/NetLocalGroupAddMember, netmgmt.netlocalgroupaddmember
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: 

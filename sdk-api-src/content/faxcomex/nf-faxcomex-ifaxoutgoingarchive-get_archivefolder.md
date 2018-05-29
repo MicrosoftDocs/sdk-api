@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.get_ArchiveFolder
 title: IFaxOutgoingArchive::get_ArchiveFolder
-author: windows-driver-content
+author: windows-sdk-content
 description: The ArchiveFolder property is a null-terminated string that specifies the folder location on the fax server for archived outbound faxes.
 old-location: fax\_mfax_faxoutgoingarchive_archivefolder_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4302.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ArchiveFolder property [Fax Service], ArchiveFolder property [Fax Service],FaxOutgoingArchive object, FaxOutgoingArchive object [Fax Service],ArchiveFolder property, FaxOutgoingArchive.ArchiveFolder, IFaxOutgoingArchive.get_ArchiveFolder, IFaxOutgoingArchive::get_ArchiveFolder, _mfax_faxoutgoingarchive.archivefolder, fax._mfax_faxoutgoingarchive_archivefolder, fax._mfax_faxoutgoingarchive_archivefolder_vb, get_ArchiveFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

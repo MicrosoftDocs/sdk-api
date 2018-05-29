@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUTF8
 title: IWSManEx::SessionFlagUTF8
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagUTF8 for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagutf8.htm
 old-project: WinRM
 ms.assetid: 99c96057-fbd7-4d8c-a204-1660f84d640f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUTF8 method, IWSManEx.SessionFlagUTF8, IWSManEx::SessionFlagUTF8, SessionFlagUTF8, SessionFlagUTF8 method [Windows Remote Management], SessionFlagUTF8 method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagutf8, wsmandisp/IWSManEx::SessionFlagUTF8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

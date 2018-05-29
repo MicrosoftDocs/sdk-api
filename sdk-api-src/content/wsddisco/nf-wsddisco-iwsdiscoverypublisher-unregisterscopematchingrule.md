@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.UnRegisterScopeMatchingRule
 title: IWSDiscoveryPublisher::UnRegisterScopeMatchingRule
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes support for a custom scope matching rule.
 old-location: ncd\iwsdiscoverypublisher_unregisterscopematchingrule_method.htm
 old-project: WsdApi
 ms.assetid: 82af2ea1-8415-45f7-ab05-805a66689482
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDiscoveryPublisher interface,UnRegisterScopeMatchingRule method, IWSDiscoveryPublisher.UnRegisterScopeMatchingRule, IWSDiscoveryPublisher::UnRegisterScopeMatchingRule, UnRegisterScopeMatchingRule, UnRegisterScopeMatchingRule method, UnRegisterScopeMatchingRule method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_unregisterscopematchingrule_method, wsddisco/IWSDiscoveryPublisher::UnRegisterScopeMatchingRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

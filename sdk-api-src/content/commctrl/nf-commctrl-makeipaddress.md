@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.MAKEIPADDRESS
 title: MAKEIPADDRESS macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Packs four byte-values into a single LPARAM suitable for use with the IPM_SETADDRESS message.
 old-location: controls\MAKEIPADDRESS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeipaddress.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MAKEIPADDRESS, MAKEIPADDRESS macro [Windows Controls], _win32_MAKEIPADDRESS, _win32_MAKEIPADDRESS_cpp, commctrl/MAKEIPADDRESS, controls.MAKEIPADDRESS, controls._win32_MAKEIPADDRESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

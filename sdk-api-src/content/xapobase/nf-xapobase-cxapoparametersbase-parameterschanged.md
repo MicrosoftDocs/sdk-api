@@ -1,16 +1,16 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.ParametersChanged
 title: CXAPOParametersBase::ParametersChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates if IXAPOParameters::SetParameters has been called since the last processing pass.
 old-location: xaudio2\cxapoparametersbase_parameterschanged.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.ParametersChanged
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: CXAPOParametersBase interface [XAudio2 Audio Mixing APIs],ParametersChanged method, CXAPOParametersBase.ParametersChanged, CXAPOParametersBase::ParametersChanged, ParametersChanged, ParametersChanged method [XAudio2 Audio Mixing APIs], ParametersChanged method [XAudio2 Audio Mixing APIs],CXAPOParametersBase interface, xapobase/CXAPOParametersBase::ParametersChanged, xaudio2.cxapoparametersbase_parameterschanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xapobase.h
 req.include-header: 

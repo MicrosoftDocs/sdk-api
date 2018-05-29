@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.SystemParametersInfoForDpi
 title: SystemParametersInfoForDpi function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of one of the system-wide parameters, taking into account the provided DPI value.
 old-location: hidpi\systemparametersinfofordpi.htm
 old-project: hidpi
 ms.assetid: BA460A5B-5356-43A5-B232-03E6E72D15A2
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.author: windowssdkdev
+ms.date: 03/29/2018
 ms.keywords: SystemParametersInfoForDpi, SystemParametersInfoForDpi function [High DPI], hidpi.systemparametersinfofordpi, winuser/SystemParametersInfoForDpi
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

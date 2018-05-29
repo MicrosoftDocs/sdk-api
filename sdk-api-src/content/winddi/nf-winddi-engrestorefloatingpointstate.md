@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngRestoreFloatingPointState
 title: EngRestoreFloatingPointState function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngRestoreFloatingPointState function restores the Windows 2000 (and later) kernel floating-point state after the driver uses any floating-point or MMX hardware instructions.
 old-location: display\engrestorefloatingpointstate.htm
 old-project: display
 ms.assetid: afdf7ce8-a053-424d-8b3e-0e7bc391ecb5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngRestoreFloatingPointState, EngRestoreFloatingPointState function [Display Devices], display.engrestorefloatingpointstate, gdifncs_e3f3f96d-5e04-4c8c-b22b-73df32e862e2.xml, winddi/EngRestoreFloatingPointState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

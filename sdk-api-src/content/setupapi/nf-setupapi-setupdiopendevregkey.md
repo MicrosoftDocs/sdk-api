@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiOpenDevRegKey
 title: SetupDiOpenDevRegKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiOpenDevRegKey function opens a registry key for device-specific configuration information.
 old-location: devinst\setupdiopendevregkey.htm
 old-project: devinst
 ms.assetid: ffa435c8-4a73-454e-be36-cd90ba6e6d11
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiOpenDevRegKey, SetupDiOpenDevRegKey function [Device and Driver Installation], devinst.setupdiopendevregkey, di-rtns_074a28c6-e847-439c-a694-36a196e418b6.xml, setupapi/SetupDiOpenDevRegKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

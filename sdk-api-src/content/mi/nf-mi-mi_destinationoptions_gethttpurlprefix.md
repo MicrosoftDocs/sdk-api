@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetHttpUrlPrefix
 title: MI_DestinationOptions_GetHttpUrlPrefix function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the HTTP URL prefix.
 old-location: wmi_v2\mi_destinationoptions_gethttpurlprefix.htm
 old-project: wmi_v2
 ms.assetid: 4e933485-e489-4185-9879-356a4e567a48
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_DestinationOptions_GetHttpUrlPrefix, MI_DestinationOptions_GetHttpUrlPrefix function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_GetHttpUrlPrefix, wmi_v2.mi_destinationoptions_gethttpurlprefix
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

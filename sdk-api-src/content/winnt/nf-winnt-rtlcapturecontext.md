@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.RtlCaptureContext
 title: RtlCaptureContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a context record in the context of the caller.
 old-location: base\rtlcapturecontext.htm
 old-project: Debug
 ms.assetid: e2ce0cde-43ab-4681-be66-bd7509fd6ca2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtlCaptureContext, RtlCaptureContext function, base.rtlcapturecontext, winnt/RtlCaptureContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

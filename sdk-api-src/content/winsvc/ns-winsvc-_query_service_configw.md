@@ -1,16 +1,16 @@
 ---
 UID: NS:winsvc._QUERY_SERVICE_CONFIGW
 title: "_QUERY_SERVICE_CONFIGW"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains configuration information for an installed service. It is used by the QueryServiceConfig function.
 old-location: base\query_service_config_str.htm
 old-project: Services
 ms.assetid: 069c1431-a04b-4e96-953b-14c5c0700857
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*LPQUERY_SERVICE_CONFIGW, LPQUERY_SERVICE_CONFIG, LPQUERY_SERVICE_CONFIG structure pointer, QUERY_SERVICE_CONFIG, QUERY_SERVICE_CONFIG structure, QUERY_SERVICE_CONFIGA, QUERY_SERVICE_CONFIGW, SERVICE_AUTO_START, SERVICE_BOOT_START, SERVICE_DEMAND_START, SERVICE_DISABLED, SERVICE_ERROR_CRITICAL, SERVICE_ERROR_IGNORE, SERVICE_ERROR_NORMAL, SERVICE_ERROR_SEVERE, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INTERACTIVE_PROCESS, SERVICE_KERNEL_DRIVER, SERVICE_SYSTEM_START, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _QUERY_SERVICE_CONFIGW, _win32_query_service_config_str, base.query_service_config_str, winsvc/LPQUERY_SERVICE_CONFIG, winsvc/QUERY_SERVICE_CONFIG, winsvc/QUERY_SERVICE_CONFIGA, winsvc/QUERY_SERVICE_CONFIGW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.Rect.Clone
 title: Rect::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: The Rect::Clone method creates a new Rect object and initializes it with the contents of this Rect object.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\clone_11.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],Rect class, Rect class [GDI+],Clone method, Rect.Clone, Rect::Clone, _gdiplus_CLASS_Rect_Clone_, gdiplus._gdiplus_CLASS_Rect_Clone_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

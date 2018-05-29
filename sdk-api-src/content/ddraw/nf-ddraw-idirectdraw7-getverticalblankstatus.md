@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetVerticalBlankStatus
 title: IDirectDraw7::GetVerticalBlankStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the status of the vertical blank.
 old-location: directdraw\idirectdraw7_getverticalblankstatus.htm
 old-project: directdraw
 ms.assetid: 4bab0d24-ab11-46fb-92de-060f6afe1fde
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GetVerticalBlankStatus, GetVerticalBlankStatus method [DirectDraw], GetVerticalBlankStatus method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetVerticalBlankStatus method, IDirectDraw7.GetVerticalBlankStatus, IDirectDraw7::GetVerticalBlankStatus, ddraw/IDirectDraw7::GetVerticalBlankStatus, directdraw.idirectdraw7_getverticalblankstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

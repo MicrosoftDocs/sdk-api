@@ -1,16 +1,16 @@
 ---
 UID: NF:xaudio2fx.XAudio2CreateVolumeMeter
 title: XAudio2CreateVolumeMeter function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new volume meter audio processing object (APO) and returns a pointer to it.
 old-location: xaudio2\xaudio2createvolumemeter.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CreateVolumeMeter(IUnknown@,UINT32)
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: XAudio2CreateVolumeMeter, XAudio2CreateVolumeMeter function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2createvolumemeter, xaudio2fx/XAudio2CreateVolumeMeter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: xaudio2fx.h
 req.include-header: 

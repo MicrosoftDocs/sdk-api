@@ -1,16 +1,16 @@
 ---
 UID: NF:olectl.OleLoadPicturePath
 title: OleLoadPicturePath function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new picture object and initializes it from the contents of a stream. This is equivalent to calling OleCreatePictureIndirect(NULL, ...) followed by IPersistStream::Load.
 old-location: com\oleloadpicturepath.htm
 old-project: com
 ms.assetid: 08bad900-815a-4b6d-b977-92d5fdd7d9e8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleLoadPicturePath, OleLoadPicturePath function [COM], _ctrl_OleLoadPicturePath, com.oleloadpicturepath, olectl/OleLoadPicturePath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: olectl.h
 req.include-header: 

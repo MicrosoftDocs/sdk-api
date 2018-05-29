@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptEnumProvidersA
 title: CryptEnumProvidersA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Important  This API is deprecated.
 old-location: security\cryptenumproviders.htm
 old-project: SecCrypto
 ms.assetid: 2d93ef0f-b48f-481b-ba62-c535476fde08
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptEnumProviders, CryptEnumProviders function [Security], CryptEnumProvidersA, CryptEnumProvidersW, _crypto2_cryptenumproviders, security.cryptenumproviders, wincrypt/CryptEnumProviders, wincrypt/CryptEnumProvidersA, wincrypt/CryptEnumProvidersW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

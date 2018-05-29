@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_BUFFER_SRV
 title: D3D11_BUFFER_SRV
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the elements in a buffer resource to use in a shader-resource view.
 old-location: direct3d11\d3d11_buffer_srv.htm
 old-project: direct3d11
 ms.assetid: 2ada8526-bef3-4998-8775-6e062f972a1c
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_BUFFER_SRV, D3D11_BUFFER_SRV structure [Direct3D 11], d3d11/D3D11_BUFFER_SRV, direct3d11.d3d11_buffer_srv, f51a8ea2-ef96-9fea-a1b6-75c15fd9f42e
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

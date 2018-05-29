@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreACP.RetrieveRequestedAttrs
 title: ITextStoreACP::RetrieveRequestedAttrs
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the attributes returned by a call to an attribute request method.
 old-location: tsf\itextstoreacp_retrieverequestedattrs.htm
 old-project: TSF
 ms.assetid: 6cd34ca5-6561-4161-beac-98248f0415f6
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],RetrieveRequestedAttrs method, ITextStoreACP.RetrieveRequestedAttrs, ITextStoreACP::RetrieveRequestedAttrs, RetrieveRequestedAttrs, RetrieveRequestedAttrs method [Text Services Framework], RetrieveRequestedAttrs method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_retrieverequestedattrs_ref, textstor/ITextStoreACP::RetrieveRequestedAttrs, tsf.itextstoreacp_retrieverequestedattrs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:upnp.IUPnPDevice.IconURL
 title: IUPnPDevice::IconURL
-author: windows-driver-content
+author: windows-sdk-content
 description: The IconURL method returns a URL from which an icon of the specified format can be loaded.
 old-location: upnp\iupnpdevice_iconurl.htm
 old-project: UPnP
 ms.assetid: 17b3d4f1-a51a-42f9-8fc0-4156d4975889
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],IconURL method, IUPnPDevice.IconURL, IUPnPDevice::IconURL, IconURL, IconURL method [UPnP APIs], IconURL method [UPnP APIs],IUPnPDevice interface, _upnp_iupnpdevice_iconurl, upnp.iupnpdevice_iconurl, upnp/IUPnPDevice::IconURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

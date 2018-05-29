@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrStubCall2
 title: NdrStubCall2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrStubCall2 function is the server-side entry point for /Oicf mode stubs.
 old-location: rpc\ndrstubcall2.htm
 old-project: Rpc
 ms.assetid: 4249a73b-8e97-4e15-816e-a26a057d6a80
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrStubCall2, NdrStubCall2 function [RPC], rpc.ndrstubcall2, rpcndr/NdrStubCall2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

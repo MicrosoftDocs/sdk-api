@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetRefTypeOfImplType
 title: ITypeInfo::GetRefTypeOfImplType
-author: windows-driver-content
+author: windows-sdk-content
 description: If a type description describes a COM class, it retrieves the type description of the implemented interface types.
 old-location: automat\itypeinfo_getreftypeofimpltype.htm
 old-project: automat
 ms.assetid: aec61a9a-fa4f-42cd-a74b-100cdf2c2624
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetRefTypeOfImplType, GetRefTypeOfImplType method [Automation], GetRefTypeOfImplType method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetRefTypeOfImplType method, ITypeInfo.GetRefTypeOfImplType, ITypeInfo::GetRefTypeOfImplType, _oa96_ITypeInfo_GetRefTypeOfImplType, automat.itypeinfo_getreftypeofimpltype, oaidl/ITypeInfo::GetRefTypeOfImplType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

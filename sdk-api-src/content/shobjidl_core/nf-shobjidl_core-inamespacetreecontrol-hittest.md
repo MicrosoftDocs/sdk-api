@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.HitTest
 title: INameSpaceTreeControl::HitTest
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the item that a given point is in, if any.
 old-location: shell\INameSpaceTreeControl_HitTest.htm
 old-project: shell
 ms.assetid: 2287772d-2c06-4d4b-a11e-727dd5de5326
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HitTest, HitTest method [Windows Shell], HitTest method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],HitTest method, INameSpaceTreeControl.HitTest, INameSpaceTreeControl::HitTest, _shell_INameSpaceTreeControl_HitTest, shell.INameSpaceTreeControl_HitTest, shobjidl_core/INameSpaceTreeControl::HitTest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

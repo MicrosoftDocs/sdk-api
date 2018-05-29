@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzCachedAccessCheck
 title: AuthzCachedAccessCheck function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs a fast access check based on a cached handle containing the static granted bits from a previous AuthzAccessCheck call.
 old-location: security\authzcachedaccesscheck.htm
 old-project: SecAuthZ
 ms.assetid: 8b3bb69f-7bf9-4e4a-b870-081dd92c7ee4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthzCachedAccessCheck, AuthzCachedAccessCheck function [Security], _win32_authzcachedaccesscheck, authz/AuthzCachedAccessCheck, security.authzcachedaccesscheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

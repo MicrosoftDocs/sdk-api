@@ -1,16 +1,16 @@
 ---
 UID: NN:certadm.IOCSPCAConfigurationCollection
 title: IOCSPCAConfigurationCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a set of certificates for which an Online Certificate Status Protocol (OCSP) service has been configured to provide certificate status responses.
 old-location: security\iocspcaconfigurationcollection.htm
 old-project: SecCrypto
 ms.assetid: 4e232c34-b5ab-4269-903b-189aac5a8ddc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IOCSPCAConfigurationCollection, IOCSPCAConfigurationCollection interface [Security], IOCSPCAConfigurationCollection interface [Security],described, certadm/IOCSPCAConfigurationCollection, security.iocspcaconfigurationcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certadm.h
 req.include-header: Certsrv.h

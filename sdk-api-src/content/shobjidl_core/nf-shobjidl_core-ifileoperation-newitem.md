@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.NewItem
 title: IFileOperation::NewItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Declares a new item that is to be created in a specified location.
 old-location: shell\IFileOperation_NewItem.htm
 old-project: shell
 ms.assetid: 810a1275-cae2-4487-b517-22aa8e4374a9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileOperation interface [Windows Shell],NewItem method, IFileOperation.NewItem, IFileOperation::NewItem, NewItem, NewItem method [Windows Shell], NewItem method [Windows Shell],IFileOperation interface, _shell_IFileOperation_NewItem, shell.IFileOperation_NewItem, shobjidl_core/IFileOperation::NewItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

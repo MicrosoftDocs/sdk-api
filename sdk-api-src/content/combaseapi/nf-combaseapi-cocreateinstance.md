@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoCreateInstance
 title: CoCreateInstance function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a single uninitialized object of the class associated with a specified CLSID.
 old-location: com\cocreateinstance.htm
 old-project: com
 ms.assetid: 7295a55b-12c7-4ed0-a7a4-9ecee16afdec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoCreateInstance, CoCreateInstance function [COM], _com_CoCreateInstance, com.cocreateinstance, combaseapi/CoCreateInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

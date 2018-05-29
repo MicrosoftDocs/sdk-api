@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.MatchResolveEx
 title: IWSDiscoveryPublisher::MatchResolveEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a Resolve message matches the specified host and sends a WS-Discovery ResolveMatches message with extended information if the match is made.
 old-location: ncd\iwsdiscoverypublisher_matchresolveex_method.htm
 old-project: WsdApi
 ms.assetid: 0eba744c-c335-4b82-95f0-6142cfedad09
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDiscoveryPublisher interface,MatchResolveEx method, IWSDiscoveryPublisher.MatchResolveEx, IWSDiscoveryPublisher::MatchResolveEx, MatchResolveEx, MatchResolveEx method, MatchResolveEx method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_matchresolveex_method, wsddisco/IWSDiscoveryPublisher::MatchResolveEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

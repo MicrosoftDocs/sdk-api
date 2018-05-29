@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2.IDiscFormat2RawCDEventArgs
 title: IDiscFormat2RawCDEventArgs
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to retrieve information about the current write operation.
 old-location: imapi\idiscformat2rawcdeventargs.htm
 old-project: imapi
 ms.assetid: b1988883-459c-46f1-a0d1-df9500a000e1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2RawCDEventArgs, IDiscFormat2RawCDEventArgs interface [IMAPI], IDiscFormat2RawCDEventArgs interface [IMAPI],described, imapi.idiscformat2rawcdeventargs, imapi2/IDiscFormat2RawCDEventArgs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.Animate_Create
 title: Animate_Create macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an animation control. Animate_Create calls the CreateWindow function to create the animation control.
 old-location: controls\Animate_Create.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_create.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Animate_Create, Animate_Create macro [Windows Controls], _win32_Animate_Create, _win32_Animate_Create_cpp, commctrl/Animate_Create, controls.Animate_Create, controls._win32_Animate_Create
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

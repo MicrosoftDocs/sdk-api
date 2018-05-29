@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_READER_INPUT
 title: "_WS_XML_READER_INPUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies where the reader should obtain the bytes that comprise the xml document.
 old-location: wsw\ws_xml_reader_input.htm
 old-project: wsw
 ms.assetid: 1e7a708d-5dcf-44ec-b781-a34946cb2844
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_READER_INPUT, WS_XML_READER_INPUT structure [Web Services for Windows], _WS_XML_READER_INPUT, webservices/WS_XML_READER_INPUT, wsw.ws_xml_reader_input
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:comsvcs._GetAppTrackerDataFlags
 title: "_GetAppTrackerDataFlags"
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls what data is returned from calls to the IGetAppTrackerData interface.
 old-location: cos\getapptrackerdataflags.htm
 old-project: cossdk
 ms.assetid: 7af61221-e876-4b1c-b416-a92817ad7025
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GATD_INCLUDE_APPLICATION_NAME, GATD_INCLUDE_CLASS_NAME, GATD_INCLUDE_LIBRARY_APPS, GATD_INCLUDE_PROCESS_EXE_NAME, GATD_INCLUDE_SWC, GetAppTrackerDataFlags, GetAppTrackerDataFlags enumeration [COM+], _GetAppTrackerDataFlags, comsvcs/GATD_INCLUDE_APPLICATION_NAME, comsvcs/GATD_INCLUDE_CLASS_NAME, comsvcs/GATD_INCLUDE_LIBRARY_APPS, comsvcs/GATD_INCLUDE_PROCESS_EXE_NAME, comsvcs/GATD_INCLUDE_SWC, comsvcs/GetAppTrackerDataFlags, cos.getapptrackerdataflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 

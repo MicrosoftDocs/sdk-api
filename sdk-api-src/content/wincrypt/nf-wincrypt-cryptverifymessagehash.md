@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptVerifyMessageHash
 title: CryptVerifyMessageHash function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CryptVerifyMessageHash function verifies the hash of specified content.
 old-location: security\cryptverifymessagehash.htm
 old-project: SecCrypto
 ms.assetid: 3b5185b9-e24b-4302-a60c-74ccbd19077c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptVerifyMessageHash, CryptVerifyMessageHash function [Security], _crypto2_cryptverifymessagehash, security.cryptverifymessagehash, wincrypt/CryptVerifyMessageHash
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

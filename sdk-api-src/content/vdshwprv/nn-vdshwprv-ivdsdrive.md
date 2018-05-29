@@ -1,16 +1,16 @@
 ---
 UID: NN:vdshwprv.IVdsDrive
 title: IVdsDrive
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a drive.
 old-location: base\ivdsdrive.htm
 old-project: VDS
 ms.assetid: 597917cf-fb02-4949-98c3-3da3f7449ed1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsDrive, IVdsDrive interface [VDS], IVdsDrive interface [VDS],described, base.ivdsdrive, vds/IVdsDrive, vdshwprv/IVdsDrive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

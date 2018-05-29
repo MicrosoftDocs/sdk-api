@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrm.IFsrmCollection
 title: IFsrmCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a collection of FSRM objects.
 old-location: fsrm\ifsrmcollection.htm
 old-project: Fsrm
 ms.assetid: 6a0c5d8b-5fed-4c55-971c-43430e3c6a8d
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmCollection, IFsrmCollection interface [File Server Resource Manager], IFsrmCollection interface [File Server Resource Manager],described, fs.ifsrmcollection, fsrm.ifsrmcollection, fsrm/IFsrmCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

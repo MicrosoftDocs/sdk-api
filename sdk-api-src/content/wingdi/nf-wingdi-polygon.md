@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.Polygon
 title: Polygon function
-author: windows-driver-content
+author: windows-sdk-content
 description: The Polygon function draws a polygon consisting of two or more vertices connected by straight lines. The polygon is outlined by using the current pen and filled by using the current brush and polygon fill mode.
 old-location: gdi\polygon.htm
 old-project: gdi
 ms.assetid: 2f958b91-039a-4e02-b727-be142bb18b06
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Polygon, Polygon function [Windows GDI], _win32_Polygon, gdi.polygon, wingdi/Polygon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

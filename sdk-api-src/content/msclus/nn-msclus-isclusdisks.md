@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusDisks
 title: ISClusDisks
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the cluster-capable Physical Disks available to a resource type.
 old-location: mscs\clusdisks_collection.htm
 old-project: MsCS
 ms.assetid: 2823ccb2-5fb2-4e37-b842-340703165871
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusDisks, ClusDisks collection [Failover Cluster], ClusDisks collection [Failover Cluster],described, ISClusDisks, _wolf_clusdisks_collection, msclus/ClusDisks, mscs.clusdisks_collection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

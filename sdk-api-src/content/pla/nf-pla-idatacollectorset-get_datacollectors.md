@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_DataCollectors
 title: IDataCollectorSet::get_DataCollectors
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the list of data collectors in this set.
 old-location: pla\idatacollectorset_get_datacollectors.htm
 old-project: PLA
 ms.assetid: 1bcfc15e-bc20-4dfa-a934-d0100b8db23f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: DataCollectors property [PLA], DataCollectors property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DataCollectors property, IDataCollectorSet.DataCollectors, IDataCollectorSet.get_DataCollectors, IDataCollectorSet::DataCollectors, IDataCollectorSet::get_DataCollectors, base.idatacollectorset_get_datacollectors, get_DataCollectors, pla.idatacollectorset_get_datacollectors, pla/IDataCollectorSet::DataCollectors, pla/IDataCollectorSet::get_DataCollectors
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

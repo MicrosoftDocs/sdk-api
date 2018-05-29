@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.GetCurrentClockTransactionManager
 title: GetCurrentClockTransactionManager function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains a virtual clock value from a transaction manager.
 old-location: fs\getcurrentclocktransactionmanager_func.htm
 old-project: Ktm
 ms.assetid: 21d7c0fa-3a49-43b3-9325-d3dfdabbcb98
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetCurrentClockTransactionManager, GetCurrentClockTransactionManager function [Files], fs.getcurrentclocktransactionmanager_func, ktmw32/GetCurrentClockTransactionManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

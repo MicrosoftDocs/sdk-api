@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_GetGroupState
 title: ListView_GetGroupState macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the state for a specified group. Use this macro or send the LVM_GETGROUPSTATE message explicitly.
 old-location: controls\ListView_GetGroupState.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupstate.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_GetGroupState, ListView_GetGroupState macro [Windows Controls], _shell_ListView_GetGroupState, _shell_ListView_GetGroupState_cpp, commctrl/ListView_GetGroupState, controls.ListView_GetGroupState, controls._shell_ListView_GetGroupState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

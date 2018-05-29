@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IUpdateExceptionCollection
 title: IUpdateExceptionCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an ordered read-only list of IUpdateException interfaces.
 old-location: wua\iupdateexceptioncollection.htm
 old-project: Wua_Sdk
 ms.assetid: 3f1a0290-5915-4ba4-8a59-855ab5a02e3e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateExceptionCollection, IUpdateExceptionCollection interface [Windows Update Agent], IUpdateExceptionCollection interface [Windows Update Agent],described, wua.iupdateexceptioncollection, wuapi/IUpdateExceptionCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:audioclient.IAudioClient.GetService
 title: IAudioClient::GetService
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetService method accesses additional services from the audio client object.
 old-location: coreaudio\iaudioclient_getservice.htm
 old-project: CoreAudio
 ms.assetid: 233d4471-037f-4df9-bef6-57f2544dedb5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetService, GetService method [Core Audio], GetService method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetService method, IAudioClient.GetService, IAudioClient::GetService, IAudioClientGetService, audioclient/IAudioClient::GetService, coreaudio.iaudioclient_getservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 

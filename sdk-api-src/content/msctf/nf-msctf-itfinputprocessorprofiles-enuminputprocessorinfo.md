@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.EnumInputProcessorInfo
 title: ITfInputProcessorProfiles::EnumInputProcessorInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfInputProcessorProfiles::EnumInputProcessorInfo method
 old-location: tsf\itfinputprocessorprofiles_enuminputprocessorinfo.htm
 old-project: TSF
 ms.assetid: 55b85ff3-35da-4126-861a-2aa4e2e8422f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EnumInputProcessorInfo, EnumInputProcessorInfo method [Text Services Framework], EnumInputProcessorInfo method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],EnumInputProcessorInfo method, ITfInputProcessorProfiles.EnumInputProcessorInfo, ITfInputProcessorProfiles::EnumInputProcessorInfo, _tsf_itfinputprocessorprofiles_enuminputprocessorinfo_ref, msctf/ITfInputProcessorProfiles::EnumInputProcessorInfo, tsf.itfinputprocessorprofiles_enuminputprocessorinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

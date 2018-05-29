@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IDvdInfo2
 title: IDvdInfo2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDvdInfo2 interface reports attributes of a DVD disc or the current state of DVD playback and navigation.
 old-location: dshow\idvdinfo2.htm
 old-project: DirectShow
 ms.assetid: da30d3dc-feec-4f54-b2db-a771ce404286
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDvdInfo2, IDvdInfo2 interface [DirectShow], IDvdInfo2 interface [DirectShow],described, IDvdInfo2Interface, dshow.idvdinfo2, strmif/IDvdInfo2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

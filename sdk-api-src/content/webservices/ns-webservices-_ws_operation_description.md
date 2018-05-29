@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_OPERATION_DESCRIPTION
 title: "_WS_OPERATION_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Metadata for the service operation.
 old-location: wsw\ws_operation_description.htm
 old-project: wsw
 ms.assetid: d05b55aa-4159-4e48-ae75-2af36c0a7101
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_OPERATION_DESCRIPTION, WS_OPERATION_DESCRIPTION structure [Web Services for Windows], _WS_OPERATION_DESCRIPTION, webservices/WS_OPERATION_DESCRIPTION, wsw.ws_operation_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

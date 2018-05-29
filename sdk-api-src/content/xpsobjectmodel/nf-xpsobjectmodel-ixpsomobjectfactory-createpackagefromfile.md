@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackageFromFile
 title: IXpsOMObjectFactory::CreatePackageFromFile
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an XPS package file and returns an instantiated XPS document object tree.
 old-location: xps\ixpsomobjectfactory_createpackagefromfile.htm
 old-project: printdocs
 ms.assetid: 2498792b-a33c-47cd-8d88-8e89b99c432d
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CreatePackageFromFile, CreatePackageFromFile method [XPS Documents and Packaging], CreatePackageFromFile method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackageFromFile method, IXpsOMObjectFactory.CreatePackageFromFile, IXpsOMObjectFactory::CreatePackageFromFile, TRUE, xps.ixpsomobjectfactory_createpackagefromfile, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageFromFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

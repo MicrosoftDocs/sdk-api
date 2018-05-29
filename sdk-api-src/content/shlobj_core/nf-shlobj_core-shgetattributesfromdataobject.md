@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHGetAttributesFromDataObject
 title: SHGetAttributesFromDataObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHGetAttributesFromDataObject may be altered or unavailable.
 old-location: shell\SHGetAttributesFromDataObject.htm
 old-project: shell
 ms.assetid: bdc583ef-a5b6-4665-949c-50f79ace39dc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGetAttributesFromDataObject, SHGetAttributesFromDataObject function [Windows Shell], _win32_SHGetAttributesFromDataObject, shell.SHGetAttributesFromDataObject, shlobj_core/SHGetAttributesFromDataObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

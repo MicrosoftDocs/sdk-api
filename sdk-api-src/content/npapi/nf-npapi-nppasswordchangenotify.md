@@ -1,16 +1,16 @@
 ---
 UID: NF:npapi.NPPasswordChangeNotify
 title: NPPasswordChangeNotify function
-author: windows-driver-content
+author: windows-sdk-content
 description: MPR calls this function to notify the credential manager of a password change event.
 old-location: security\nppasswordchangenotify.htm
 old-project: SecAuthN
 ms.assetid: 5c7f5672-f379-4518-ae60-4f7d7e4caffa
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: NPPasswordChangeNotify, NPPasswordChangeNotify function [Security], SvcCtl, WN_NT_PASSWORD_CHANGED, WN_VALID_LOGON_ACCOUNT, WinSta_0, _mnp_nppasswordchangenotify, npapi/NPPasswordChangeNotify, security.nppasswordchangenotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

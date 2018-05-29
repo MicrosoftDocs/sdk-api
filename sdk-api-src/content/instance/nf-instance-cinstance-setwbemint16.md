@@ -1,16 +1,16 @@
 ---
 UID: NF:instance.CInstance.SetWBEMINT16
 title: CInstance::SetWBEMINT16
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetWBEMINT16 method sets a 16-bit integer property.
 old-location: wmi\cinstance_setwbemint16.htm
 old-project: WmiSdk
 ms.assetid: a39d3885-6344-4c05-8eea-da3f33fb998e
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?SetWBEMINT16@CInstance@@QAE_NPBGABF@Z, ?SetWBEMINT16@CInstance@@QEAA_NPEBGAEBF@Z, CInstance interface [Windows Management Instrumentation],SetWBEMINT16 method, CInstance.SetWBEMINT16, CInstance::SetWBEMINT16, SetWBEMINT16, SetWBEMINT16 method [Windows Management Instrumentation], SetWBEMINT16 method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setwbemint16, instance/CInstance::SetWBEMINT16, wmi.cinstance_setwbemint16"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h

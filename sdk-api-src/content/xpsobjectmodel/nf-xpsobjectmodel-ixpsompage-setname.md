@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetName
 title: IXpsOMPage::SetName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Name property of this page.
 old-location: xps\ixpsompage_setname.htm
 old-project: printdocs
 ms.assetid: 675e4fd2-e8b9-400f-9042-df5b0bb0b89a
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetName method, IXpsOMPage.SetName, IXpsOMPage::SetName, SetName, SetName method [XPS Documents and Packaging], SetName method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setname, xpsobjectmodel/IXpsOMPage::SetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

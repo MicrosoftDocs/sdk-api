@@ -1,16 +1,16 @@
 ---
 UID: NE:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0001
 title: "__MIDL___MIDL_itf_bits5_0_0000_0000_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumeration that defines ID values corresponding to BITS properties.
 old-location: bits\bits_job_transfer_policy.htm
 old-project: Bits
 ms.assetid: 6B321E80-333A-49F3-B36F-18652F2C92FE
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BITS_JOB_TRANSFER_POLICY, BITS_JOB_TRANSFER_POLICY enumeration [BITS], BITS_JOB_TRANSFER_POLICY_ALWAYS, BITS_JOB_TRANSFER_POLICY_NOT_ROAMING, BITS_JOB_TRANSFER_POLICY_NO_SURCHARGE, BITS_JOB_TRANSFER_POLICY_STANDARD, BITS_JOB_TRANSFER_POLICY_UNRESTRICTED, __MIDL___MIDL_itf_bits5_0_0000_0000_0001, bits.bits_job_transfer_policy, bits5_0/BITS_JOB_TRANSFER_POLICY, bits5_0/BITS_JOB_TRANSFER_POLICY_ALWAYS, bits5_0/BITS_JOB_TRANSFER_POLICY_NOT_ROAMING, bits5_0/BITS_JOB_TRANSFER_POLICY_NO_SURCHARGE, bits5_0/BITS_JOB_TRANSFER_POLICY_STANDARD, bits5_0/BITS_JOB_TRANSFER_POLICY_UNRESTRICTED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: bits5_0.h
 req.include-header: 

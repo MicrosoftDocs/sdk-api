@@ -1,16 +1,16 @@
 ---
 UID: NF:cluadmex.IWCWizard97Callback.AddWizard97Page
 title: IWCWizard97Callback::AddWizard97Page
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a Wizard97 property page to a Wizard97 wizard, such as the Failover Cluster Application Wizard.
 old-location: mscs\iwcwizard97callback_addwizard97page.htm
 old-project: MsCS
 ms.assetid: c5de70da-2a08-4142-8f21-53a98e28fd42
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: AddWizard97Page, AddWizard97Page method [Failover Cluster], AddWizard97Page method [Failover Cluster],IWCWizard97Callback interface, IWCWizard97Callback interface [Failover Cluster],AddWizard97Page method, IWCWizard97Callback.AddWizard97Page, IWCWizard97Callback::AddWizard97Page, _wolf_iwcwizard97callback_addwizard97page, cluadmex/IWCWizard97Callback::AddWizard97Page, mscs.iwcwizard97callback_addwizard97page
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 

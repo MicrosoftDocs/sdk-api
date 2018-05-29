@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_SERVICE_MESSAGE_RECEIVE_CALLBACK
 title: WS_SERVICE_MESSAGE_RECEIVE_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Invoked when a WS_MESSAGE is received on an endpoint configured with a WS_SERVICE_CONTRACT which has defaultMessageHandlerCallback set.
 old-location: wsw\ws_service_message_receive_callback.htm
 old-project: wsw
 ms.assetid: 2fcd8905-7002-41b8-b947-14d53c889c21
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SERVICE_MESSAGE_RECEIVE_CALLBACK, WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback, WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_MESSAGE_RECEIVE_CALLBACK, wsw.ws_service_message_receive_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

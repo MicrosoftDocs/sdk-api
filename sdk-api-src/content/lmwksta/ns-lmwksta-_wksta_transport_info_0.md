@@ -1,16 +1,16 @@
 ---
 UID: NS:lmwksta._WKSTA_TRANSPORT_INFO_0
 title: "_WKSTA_TRANSPORT_INFO_0"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WKSTA_TRANSPORT_INFO_0 structure contains information about the workstation transport protocol, such as Wide Area Network (WAN) or NetBIOS.
 old-location: netmgmt\wksta_transport_info_0_str.htm
 old-project: NetMgmt
 ms.assetid: e7afe2a3-f729-4fd5-afc3-d3ffbd09e884
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPWKSTA_TRANSPORT_INFO_0, *PWKSTA_TRANSPORT_INFO_0, LPWKSTA_TRANSPORT_INFO_0, LPWKSTA_TRANSPORT_INFO_0 structure pointer [Network Management], PWKSTA_TRANSPORT_INFO_0, PWKSTA_TRANSPORT_INFO_0 structure pointer [Network Management], WKSTA_TRANSPORT_INFO_0, WKSTA_TRANSPORT_INFO_0 structure [Network Management], _WKSTA_TRANSPORT_INFO_0, _win32_wksta_transport_info_0_str, lmwksta/LPWKSTA_TRANSPORT_INFO_0, lmwksta/PWKSTA_TRANSPORT_INFO_0, lmwksta/WKSTA_TRANSPORT_INFO_0, netmgmt.wksta_transport_info_0_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmwksta.h
 req.include-header: Lm.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemBackupRestore.Backup
 title: IWbemBackupRestore::Backup
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemBackupRestore::Backup method backs up the contents of the static repository to a separate file.
 old-location: wmi\iwbembackuprestore_backup.htm
 old-project: WmiSdk
 ms.assetid: 9108b682-aded-43e4-a24a-136155d74ebb
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: Backup, Backup method [Windows Management Instrumentation], Backup method [Windows Management Instrumentation],IWbemBackupRestore interface, IWbemBackupRestore interface [Windows Management Instrumentation],Backup method, IWbemBackupRestore.Backup, IWbemBackupRestore::Backup, _hmm_iwbembackuprestore_backup, wbemcli/IWbemBackupRestore::Backup, wmi.iwbembackuprestore_backup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

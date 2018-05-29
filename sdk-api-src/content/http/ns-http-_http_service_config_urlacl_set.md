@@ -1,16 +1,16 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_URLACL_SET
 title: "_HTTP_SERVICE_CONFIG_URLACL_SET"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to add a new record to the URL reservation store or retrieve an existing record from it.
 old-location: http\http_service_config_urlacl_set.htm
 old-project: Http
 ms.assetid: 92fc3f65-0153-4075-a61b-48a63c8e0ffe
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_URLACL_SET, HTTP_SERVICE_CONFIG_URLACL_SET, HTTP_SERVICE_CONFIG_URLACL_SET structure [HTTP], PHTTP_SERVICE_CONFIG_URLACL_SET, PHTTP_SERVICE_CONFIG_URLACL_SET structure pointer [HTTP], _HTTP_SERVICE_CONFIG_URLACL_SET, _http_http_service_config_urlacl_set, http.http_service_config_urlacl_set, http/HTTP_SERVICE_CONFIG_URLACL_SET, http/PHTTP_SERVICE_CONFIG_URLACL_SET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 

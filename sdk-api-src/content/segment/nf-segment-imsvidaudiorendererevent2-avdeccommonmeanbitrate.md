@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDecCommonMeanBitRate
 title: IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates a change in the AVDecCommonMeanBitRate codec property.
 old-location: mstv\imsvidaudiorendererevent2_avdeccommonmeanbitrate.htm
 old-project: mstv
 ms.assetid: ec5749d5-1ee0-4b3e-9e5d-cf07a62991ae
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AVDecCommonMeanBitRate, AVDecCommonMeanBitRate method [Microsoft TV Technologies], AVDecCommonMeanBitRate method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecCommonMeanBitRate method, IMSVidAudioRendererEvent2.AVDecCommonMeanBitRate, IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate, mstv.imsvidaudiorendererevent2_avdeccommonmeanbitrate, segment/IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

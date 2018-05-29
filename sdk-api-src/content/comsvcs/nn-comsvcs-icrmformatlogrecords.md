@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ICrmFormatLogRecords
 title: ICrmFormatLogRecords
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the log records to viewable format so that they can be presented using a generic monitoring tool.
 old-location: cos\icrmformatlogrecords.htm
 old-project: cossdk
 ms.assetid: aa801bd0-5253-4f9f-8859-b808d4dc081b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICrmFormatLogRecords, ICrmFormatLogRecords interface [COM+], ICrmFormatLogRecords interface [COM+],described, _dtc_ICrmFormatLogRecords_Interface, comsvcs/ICrmFormatLogRecords, cos.icrmformatlogrecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

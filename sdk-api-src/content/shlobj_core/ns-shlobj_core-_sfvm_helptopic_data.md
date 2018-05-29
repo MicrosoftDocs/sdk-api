@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj_core._SFVM_HELPTOPIC_DATA
 title: "_SFVM_HELPTOPIC_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the name of an HTML Help file and a topic in that file. Used with the SFVM_GETHELPTOPIC notification. This structure requires Unicode strings.
 old-location: shell\SFVM_HELPTOPIC_DATA_str.htm
 old-project: shell
 ms.assetid: c06f43ca-be32-4ab7-ba6c-a0066b749dba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SFVM_HELPTOPIC_DATA, SFVM_HELPTOPIC_DATA structure [Windows Shell], _SFVM_HELPTOPIC_DATA, _win32_SFVM_HELPTOPIC_DATA_str, shell.SFVM_HELPTOPIC_DATA_str, shlobj_core/SFVM_HELPTOPIC_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

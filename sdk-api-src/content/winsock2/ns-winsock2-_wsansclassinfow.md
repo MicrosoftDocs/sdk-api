@@ -1,16 +1,16 @@
 ---
 UID: NS:winsock2._WSANSClassInfoW
 title: "_WSANSClassInfoW"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSANSCLASSINFO structure provides individual parameter information for a specific Windows Sockets namespace.
 old-location: winsock\wsansclassinfo.htm
 old-project: WinSock
 ms.assetid: b4f811ad-7967-45bd-b563-a28bb1633596
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPWSANSCLASSINFOW, *PWSANSCLASSINFO,*LPWSANSCLASSINFO, *PWSANSCLASSINFO,*LPWSANSCLASSINFO structure [Winsock], *PWSANSCLASSINFOW, WSANSCLASSINFO, WSANSCLASSINFO structure [Winsock], WSANSCLASSINFOW, _WSANSClassInfoW, winsock.wsansclassinfo, winsock2/*PWSANSCLASSINFO,*LPWSANSCLASSINFO, winsock2/WSANSCLASSINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.GetCategoryName
 title: ICategoryProvider::GetCategoryName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name of the specified category.
 old-location: shell\ICategoryProvider_GetCategoryName.htm
 old-project: shell
 ms.assetid: 3730394a-8720-46cc-a9da-cd5cf0df7eeb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCategoryName, GetCategoryName method [Windows Shell], GetCategoryName method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],GetCategoryName method, ICategoryProvider.GetCategoryName, ICategoryProvider::GetCategoryName, inet_ICategoryProvider_GetCategoryName, shell.ICategoryProvider_GetCategoryName, shobjidl_core/ICategoryProvider::GetCategoryName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

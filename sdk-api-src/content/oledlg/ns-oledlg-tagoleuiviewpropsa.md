@@ -1,16 +1,16 @@
 ---
 UID: NS:oledlg.tagOLEUIVIEWPROPSA
 title: tagOLEUIVIEWPROPSA
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that is used to initialize the View tab of the Object properties dialog box.
 old-location: com\oleuiviewprops_struct.htm
 old-project: com
 ms.assetid: e45565c5-185e-4143-a5c2-d0b273b5086e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPOLEUIVIEWPROPSA, *POLEUIVIEWPROPSA, LPOLEUIVIEWPROPS, LPOLEUIVIEWPROPS structure pointer [COM], OLEUIVIEWPROPS, OLEUIVIEWPROPS structure [COM], OLEUIVIEWPROPSA, OLEUIVIEWPROPSW, POLEUIVIEWPROPS, POLEUIVIEWPROPS structure pointer [COM], VPF_DISABLERELATIVE, VPF_DISABLESCALE, VPF_SELECTRELATIVE, _ole_OLEUIVIEWPROPS, com.oleuiviewprops_struct, oledlg/LPOLEUIVIEWPROPS, oledlg/OLEUIVIEWPROPS, oledlg/OLEUIVIEWPROPSA, oledlg/OLEUIVIEWPROPSW, oledlg/POLEUIVIEWPROPS, tagOLEUIVIEWPROPSA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 

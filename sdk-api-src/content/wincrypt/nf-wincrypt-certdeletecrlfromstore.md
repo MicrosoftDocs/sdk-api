@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertDeleteCRLFromStore
 title: CertDeleteCRLFromStore function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertDeleteCRLFromStore function deletes the specified certificate revocation list (CRL) context from the certificate store.
 old-location: security\certdeletecrlfromstore.htm
 old-project: SecCrypto
 ms.assetid: eb542c25-8d2b-4427-8f2a-719b472613a5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertDeleteCRLFromStore, CertDeleteCRLFromStore function [Security], _crypto2_certdeletecrlfromstore, security.certdeletecrlfromstore, wincrypt/CertDeleteCRLFromStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

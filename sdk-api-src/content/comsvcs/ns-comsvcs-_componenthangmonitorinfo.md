@@ -1,16 +1,16 @@
 ---
 UID: NS:comsvcs._ComponentHangMonitorInfo
 title: "_ComponentHangMonitorInfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the hang monitoring configuration for a COM+ component.
 old-location: cos\componenthangmonitorinfo.htm
 old-project: cossdk
 ms.assetid: 062b7bcf-e9b2-4024-ba9c-700cc7d69963
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ComponentHangMonitorInfo, ComponentHangMonitorInfo structure [COM+], _ComponentHangMonitorInfo, comsvcs/ComponentHangMonitorInfo, cos.componenthangmonitorinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: comsvcs.h
 req.include-header: 

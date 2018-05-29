@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMSetIntervalTime
 title: DRMSetIntervalTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the number of days from issuance that can pass before an end&#8211;user license must be renewed.
 old-location: rm\drmsetintervaltime.htm
 old-project: AdRms_Sdk
 ms.assetid: b3b7af75-ed94-4c2f-abb2-95194796771c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMSetIntervalTime, DRMSetIntervalTime function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetIntervalTime, rm.drmsetintervaltime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

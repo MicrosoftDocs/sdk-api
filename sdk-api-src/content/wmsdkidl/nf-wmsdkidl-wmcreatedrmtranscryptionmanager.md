@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.WMCreateDRMTranscryptionManager
 title: WMCreateDRMTranscryptionManager function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMCreateDRMTranscryptionManager function creates a manager for DRM transcryptor objects.
 old-location: wmformat\wmcreatedrmtranscryptionmanager.htm
 old-project: wmformat
 ms.assetid: 15bae3af-e601-4865-aee2-a36931c7813d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMCreateDRMTranscryptionManager, WMCreateDRMTranscryptionManager function [windows Media Format], wmformat.wmcreatedrmtranscryptionmanager, wmsdkidl/WMCreateDRMTranscryptionManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

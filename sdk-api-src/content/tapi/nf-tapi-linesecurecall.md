@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSecureCall
 title: lineSecureCall function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSecureCall function secures the call from any interruptions or interference that can affect the call's media stream.
 old-location: tapi2\linesecurecall.htm
 old-project: Tapi
 ms.assetid: b12a5734-0638-4bb0-8f25-ca27d28e528b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesecurecall, lineSecureCall, lineSecureCall function [TAPI 2.2], tapi/lineSecureCall, tapi2.linesecurecall"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

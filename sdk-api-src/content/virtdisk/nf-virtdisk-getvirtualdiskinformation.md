@@ -1,16 +1,16 @@
 ---
 UID: NF:virtdisk.GetVirtualDiskInformation
 title: GetVirtualDiskInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a VHD.
 old-location: vhd\getvirtualdiskinformation.htm
 old-project: VStor
 ms.assetid: c3832be0-e9b8-4f6a-a663-06349c7fd639
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetVirtualDiskInformation, GetVirtualDiskInformation function [VHD], vhd.getvirtualdiskinformation, virtdisk/GetVirtualDiskInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: Windows.h

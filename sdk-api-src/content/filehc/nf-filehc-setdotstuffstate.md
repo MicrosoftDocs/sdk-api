@@ -1,16 +1,16 @@
 ---
 UID: NF:filehc.SetDotStuffState
 title: SetDotStuffState function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables dot stuffing to be set in an FIO_CONTEXT structure.
 old-location: winprog\_setdotstuffstate.htm
 old-project: DevNotes
 ms.assetid: 3acfaf74-ec36-4afb-b358-425bd5062153
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: SetDotStuffState, SetDotStuffState function [Windows API], filehc/SetDotStuffState, winprog._setdotstuffstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

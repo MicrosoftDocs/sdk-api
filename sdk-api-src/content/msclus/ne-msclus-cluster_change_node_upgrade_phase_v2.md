@@ -1,16 +1,16 @@
 ---
 UID: NE:msclus.CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2
 title: CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the notifications that are generated for the upgrade of a cluster node.
 old-location: mscs\cluster_change_node_upgrade_phase_v2.htm
 old-project: MsCS
 ms.assetid: 70EEDB16-CEE0-4570-9DBD-1649DD800453
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2, CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2 enumeration [Failover Cluster], CLUSTER_CHANGE_UPGRADE_ALL, CLUSTER_CHANGE_UPGRADE_NODE_COMMIT, CLUSTER_CHANGE_UPGRADE_NODE_POSTCOMMIT, CLUSTER_CHANGE_UPGRADE_NODE_PREPARE, clusapi/CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2, clusapi/CLUSTER_CHANGE_UPGRADE_ALL, clusapi/CLUSTER_CHANGE_UPGRADE_NODE_COMMIT, clusapi/CLUSTER_CHANGE_UPGRADE_NODE_POSTCOMMIT, clusapi/CLUSTER_CHANGE_UPGRADE_NODE_PREPARE, msclus/CLUSTER_CHANGE_NODE_UPGRADE_PHASE_V2, msclus/CLUSTER_CHANGE_UPGRADE_ALL, msclus/CLUSTER_CHANGE_UPGRADE_NODE_COMMIT, msclus/CLUSTER_CHANGE_UPGRADE_NODE_POSTCOMMIT, msclus/CLUSTER_CHANGE_UPGRADE_NODE_PREPARE, mscs.cluster_change_node_upgrade_phase_v2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 

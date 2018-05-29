@@ -1,16 +1,16 @@
 ---
 UID: NE:inked.AppearanceConstants
 title: AppearanceConstants
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how an InkEdit control appears on the screen.
 old-location: tablet\appearanceconstants.htm
 old-project: tablet
 ms.assetid: 1ec00514-49d0-40dc-a9cf-8ec7d9e6a816
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 1ec00514-49d0-40dc-a9cf-8ec7d9e6a816, AppearanceConstants, AppearanceConstants enumeration [Tablet PC], inked/AppearanceConstants, inked/rtfFlat, inked/rtfThreeD, rtfFlat, rtfThreeD, tablet.appearanceconstants
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: inked.h
 req.include-header: 

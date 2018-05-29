@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2.DDiscMaster2Events
 title: DDiscMaster2Events
-author: windows-driver-content
+author: windows-sdk-content
 description: Implement this interface to receive notification when a CD or DVD device is added to or removed from the computer.
 old-location: imapi\ddiscmaster2events.htm
 old-project: imapi
 ms.assetid: f01fa2d8-989d-499f-b79d-495108640aa2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: DDiscMaster2Events, DDiscMaster2Events interface [IMAPI], DDiscMaster2Events interface [IMAPI],described, imapi.ddiscmaster2events, imapi2/DDiscMaster2Events
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

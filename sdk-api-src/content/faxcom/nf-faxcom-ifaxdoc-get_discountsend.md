@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_DiscountSend
 title: IFaxDoc::get_DiscountSend
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the DiscountSend property for a FaxDoc object. The DiscountSend property is a Boolean value that indicates whether the fax server transmits faxes during the discount period.
 old-location: fax\_mfax_ifaxdoc_get_discountsend_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2usk.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: DiscountSend property [Fax Service], DiscountSend property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],DiscountSend property, FaxDoc.DiscountSend, IFaxDoc.get_DiscountSend, IFaxDoc::get_DiscountSend, _mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_get_discountsend, fax._mfax_ifaxdoc_get_discountsend_vb, get_DiscountSend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

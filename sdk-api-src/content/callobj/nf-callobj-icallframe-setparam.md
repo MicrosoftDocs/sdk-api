@@ -1,16 +1,16 @@
 ---
 UID: NF:callobj.ICallFrame.SetParam
 title: ICallFrame::SetParam
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of a specified parameter in the call frame.
 old-location: com\icallframe_setparam.htm
 old-project: com
 ms.assetid: ec828206-d49f-49da-91fc-554d703b53db
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ICallFrame interface [COM],SetParam method, ICallFrame.SetParam, ICallFrame::SetParam, SetParam, SetParam method [COM], SetParam method [COM],ICallFrame interface, _com_icallframe_setparam, callobj/ICallFrame::SetParam, com.icallframe_setparam
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: callobj.h
 req.include-header: 

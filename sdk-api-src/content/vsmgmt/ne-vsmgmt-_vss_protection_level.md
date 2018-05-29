@@ -1,16 +1,16 @@
 ---
 UID: NE:vsmgmt._VSS_PROTECTION_LEVEL
 title: "_VSS_PROTECTION_LEVEL"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of volume shadow copy protection levels.
 old-location: base\vss_protection_level.htm
 old-project: VSS
 ms.assetid: f4c036ac-13fb-47be-8ad8-32c65caf0a2a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PVSS_PROTECTION_LEVEL, VSS_PROTECTION_LEVEL, VSS_PROTECTION_LEVEL enumeration, VSS_PROTECTION_LEVEL_ORIGINAL_VOLUME, VSS_PROTECTION_LEVEL_SNAPSHOT, _VSS_PROTECTION_LEVEL, base.vss_protection_level, vsmgmt/VSS_PROTECTION_LEVEL, vsmgmt/VSS_PROTECTION_LEVEL_ORIGINAL_VOLUME, vsmgmt/VSS_PROTECTION_LEVEL_SNAPSHOT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: vsmgmt.h
 req.include-header: 

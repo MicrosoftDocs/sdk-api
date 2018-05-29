@@ -1,16 +1,16 @@
 ---
 UID: NF:msclus.ISCluster.get_CommonProperties
 title: ISCluster::get_CommonProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the read/write common properties of a cluster.
 old-location: mscs\cluster_commonproperties.htm
 old-project: MsCS
 ms.assetid: 99de61b9-2979-404a-bbed-94d6f5eea2da
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Cluster object [Failover Cluster],CommonProperties property, Cluster.CommonProperties, CommonProperties property [Failover Cluster], CommonProperties property [Failover Cluster],Cluster object, ISCluster.get_CommonProperties, ISCluster::get_CommonProperties, _wolf_cluster.commonproperties, get_CommonProperties, mscs.cluster_commonproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetSubItemCount
 title: IPhotoAcquireItem::GetSubItemCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSubItemCount method retrieves the number of subitems contained in an item.
 old-location: picacq\iphotoacquireitem_getsubitemcount.htm
 old-project: acquisition
 ms.assetid: 2790d551-42ae-4009-998e-2579687203d6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetSubItemCount, GetSubItemCount method [Picture Acquisition], GetSubItemCount method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetSubItemCount method, IPhotoAcquireItem.GetSubItemCount, IPhotoAcquireItem::GetSubItemCount, IPhotoAcquireItemGetSubItemCount, photoacquire/IPhotoAcquireItem::GetSubItemCount, picacq.iphotoacquireitem_getsubitemcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

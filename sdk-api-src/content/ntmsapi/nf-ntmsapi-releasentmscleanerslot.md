@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.ReleaseNtmsCleanerSlot
 title: ReleaseNtmsCleanerSlot function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ReleaseNtmsCleanerSlot function removes an existing slot reservation for a cleaning cartridge. The slot can then be used for data cartridges.
 old-location: fs\releasentmscleanerslot.htm
 old-project: Rsm
 ms.assetid: c3530534-c502-4168-8039-b5ce4f0a5816
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: ReleaseNtmsCleanerSlot, ReleaseNtmsCleanerSlot function [Files], _zaw_releasentmscleanerslot, base.releasentmscleanerslot, fs.releasentmscleanerslot, ntmsapi/ReleaseNtmsCleanerSlot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

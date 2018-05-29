@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CMYK
 title: CMYK macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The CMYK macro creates a CMYK color value by combining the specified cyan, magenta, yellow, and black values.
 old-location: wcs\cmyk.htm
 old-project: WCS
 ms.assetid: ee28d4e3-314f-429d-841b-da432ff6dc78
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CMYK, CMYK macro [Windows Color System], _color_CMYK, wcs.cmyk, wingdi/CMYK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: wingdi.h
 req.include-header: 

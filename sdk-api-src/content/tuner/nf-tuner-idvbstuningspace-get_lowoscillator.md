@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.get_LowOscillator
 title: IDVBSTuningSpace::get_LowOscillator
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_LowOscillator method retrieves the low oscillator frequency.
 old-location: mstv\idvbstuningspace_get_lowoscillator.htm
 old-project: mstv
 ms.assetid: 7f48902d-9242-4791-b0f1-fc4ab5bd85c0
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],get_LowOscillator method, IDVBSTuningSpace.get_LowOscillator, IDVBSTuningSpace::get_LowOscillator, IDVBSTuningSpaceget_LowOscillator, get_LowOscillator, get_LowOscillator method [Microsoft TV Technologies], get_LowOscillator method [Microsoft TV Technologies],IDVBSTuningSpace interface, mstv.idvbstuningspace_get_lowoscillator, tuner/IDVBSTuningSpace::get_LowOscillator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DTexture9.AddDirtyRect
 title: IDirect3DTexture9::AddDirtyRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a dirty region to a texture resource.
 old-location: direct3d9\idirect3dtexture9__adddirtyrect.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dtexture9__adddirtyrect.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 5056714a-00c4-8318-bc7b-f4fc70438ea2, AddDirtyRect, AddDirtyRect method [Direct3D 9], AddDirtyRect method [Direct3D 9],IDirect3DTexture9 interface, IDirect3DTexture9 interface [Direct3D 9],AddDirtyRect method, IDirect3DTexture9.AddDirtyRect, IDirect3DTexture9::AddDirtyRect, d3d9helper/IDirect3DTexture9::AddDirtyRect, direct3d9.idirect3dtexture9__adddirtyrect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

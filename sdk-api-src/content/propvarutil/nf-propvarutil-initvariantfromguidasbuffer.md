@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitVariantFromGUIDAsBuffer
 title: InitVariantFromGUIDAsBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a VARIANT structure based on a GUID. The structure is initialized as VT_ARRAY | VT_UI1.
 old-location: properties\InitVariantFromGUIDAsBuffer.htm
 old-project: properties
 ms.assetid: c46c1263-527a-4a64-b4c9-4c4779b271c7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitVariantFromGUIDAsBuffer, InitVariantFromGUIDAsBuffer function [Windows Properties], properties.InitVariantFromGUIDAsBuffer, propvarutil/InitVariantFromGUIDAsBuffer, shell.InitVariantFromGUIDAsBuffer, shell_InitVariantFromGUIDAsBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

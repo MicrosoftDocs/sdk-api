@@ -1,16 +1,16 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_PALETTE_DATA
 title: "_DXVAHD_STREAM_STATE_PALETTE_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the color palette entries for an input stream, when using Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahd_stream_state_palette_data.htm
 old-project: medfound
 ms.assetid: 91f69451-72e6-4028-92d5-555dcf834cf7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVAHD_STREAM_STATE_PALETTE_DATA, DXVAHD_STREAM_STATE_PALETTE_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_PALETTE_DATA, dxvahd/DXVAHD_STREAM_STATE_PALETTE_DATA, mf.dxvahd_stream_state_palette_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

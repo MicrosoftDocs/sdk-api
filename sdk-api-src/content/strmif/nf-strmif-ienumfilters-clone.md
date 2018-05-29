@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IEnumFilters.Clone
 title: IEnumFilters::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: The Clone method makes a copy of the enumerator object. The returned object starts with the same enumeration state as the original.
 old-location: dshow\ienumfilters_clone.htm
 old-project: DirectShow
 ms.assetid: ed8380af-8467-447a-a595-38fe29f9f9e6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Clone, Clone method [DirectShow], Clone method [DirectShow],IEnumFilters interface, IEnumFilters interface [DirectShow],Clone method, IEnumFilters.Clone, IEnumFilters::Clone, IEnumFiltersClone, dshow.ienumfilters_clone, strmif/IEnumFilters::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

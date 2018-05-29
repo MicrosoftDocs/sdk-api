@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Application_NewClass
 title: MI_Application_NewClass function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an MI_Class from an MI_ClassDecl structure.
 old-location: wmi_v2\mi_application_newclass.htm
 old-project: wmi_v2
 ms.assetid: f325532e-8e29-40d4-ab7f-52f318ae9349
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Application_NewClass, MI_Application_NewClass function [Windows Management Infrastructure (MI)], mi/MI_Application_NewClass, wmi_v2.mi_application_newclass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

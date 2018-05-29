@@ -1,16 +1,16 @@
 ---
 UID: NF:winusb.WinUsb_RegisterIsochBuffer
 title: WinUsb_RegisterIsochBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinUsb_RegisterIsochBuffer function registers a buffer to be used for isochronous transfers.
 old-location: buses\winusb_registerisochbuffer.htm
 old-project: usbref
 ms.assetid: 7781BD59-3576-4C43-9459-E2455F97E9DE
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.author: windowssdkdev
+ms.date: 05/07/2018
 ms.keywords: WinUsb_RegisterIsochBuffer, WinUsb_RegisterIsochBuffer routine [Buses], buses.winusb_registerisochbuffer, winusb/WinUsb_RegisterIsochBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

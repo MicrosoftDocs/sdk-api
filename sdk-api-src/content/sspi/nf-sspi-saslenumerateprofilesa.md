@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SaslEnumerateProfilesA
 title: SaslEnumerateProfilesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Lists the packages that provide a SASL interface.
 old-location: security\saslenumerateprofiles.htm
 old-project: SecAuthN
 ms.assetid: 0c11e0e3-2538-4703-bc32-31c73d65a498
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SaslEnumerateProfiles, SaslEnumerateProfiles function [Security], SaslEnumerateProfilesA, SaslEnumerateProfilesW, security.saslenumerateprofiles, sspi/SaslEnumerateProfiles, sspi/SaslEnumerateProfilesA, sspi/SaslEnumerateProfilesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

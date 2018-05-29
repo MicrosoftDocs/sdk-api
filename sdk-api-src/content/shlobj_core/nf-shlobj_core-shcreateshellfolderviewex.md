@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHCreateShellFolderViewEx
 title: SHCreateShellFolderViewEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new instance of the default Shell folder view object. It is recommended that you use SHCreateShellFolderView rather than this function.
 old-location: shell\SHCreateShellFolderViewEx.htm
 old-project: shell
 ms.assetid: 7edd6786-7d74-4065-8cf1-cbb489007a46
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCreateShellFolderViewEx, SHCreateShellFolderViewEx function [Windows Shell], _win32_SHCreateShellFolderViewEx, shell.SHCreateShellFolderViewEx, shlobj_core/SHCreateShellFolderViewEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

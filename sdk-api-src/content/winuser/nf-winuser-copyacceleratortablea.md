@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.CopyAcceleratorTableA
 title: CopyAcceleratorTableA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies the specified accelerator table. This function is used to obtain the accelerator-table data that corresponds to an accelerator-table handle, or to determine the size of the accelerator-table data.
 old-location: menurc\copyacceleratortable.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\copyacceleratortable.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CopyAcceleratorTable, CopyAcceleratorTable function [Menus and Other Resources], CopyAcceleratorTableA, CopyAcceleratorTableW, _win32_CopyAcceleratorTable, _win32_copyacceleratortable_cpp, menurc.copyacceleratortable, winui._win32_copyacceleratortable, winuser/CopyAcceleratorTable, winuser/CopyAcceleratorTableA, winuser/CopyAcceleratorTableW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

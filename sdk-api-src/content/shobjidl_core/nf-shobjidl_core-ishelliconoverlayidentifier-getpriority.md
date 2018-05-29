@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellIconOverlayIdentifier.GetPriority
 title: IShellIconOverlayIdentifier::GetPriority
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the priority of an icon overlay.
 old-location: shell\IShellIconOverlayIdentifier_GetPriority.htm
 old-project: shell
 ms.assetid: c191bcf7-8b49-4276-9e30-2a8dcaf1fc46
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPriority, GetPriority method [Windows Shell], GetPriority method [Windows Shell],IShellIconOverlayIdentifier interface, IShellIconOverlayIdentifier interface [Windows Shell],GetPriority method, IShellIconOverlayIdentifier.GetPriority, IShellIconOverlayIdentifier::GetPriority, _win32_IShellIconOverlayIdentifier_GetPriority, shell.IShellIconOverlayIdentifier_GetPriority, shobjidl_core/IShellIconOverlayIdentifier::GetPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h

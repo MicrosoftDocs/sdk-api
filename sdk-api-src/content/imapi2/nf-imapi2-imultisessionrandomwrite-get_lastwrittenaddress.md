@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IMultisessionRandomWrite.get_LastWrittenAddress
 title: IMultisessionRandomWrite::get_LastWrittenAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the last written address on the media.
 old-location: imapi\imultisessionrandomwrite_get_lastwrittenaddress.htm
 old-project: imapi
 ms.assetid: 04d5c8ad-347c-4f2d-aa3d-3db77067a51e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IMultisessionRandomWrite interface [IMAPI],get_LastWrittenAddress method, IMultisessionRandomWrite.get_LastWrittenAddress, IMultisessionRandomWrite::get_LastWrittenAddress, get_LastWrittenAddress, get_LastWrittenAddress method [IMAPI], get_LastWrittenAddress method [IMAPI],IMultisessionRandomWrite interface, imapi.imultisessionrandomwrite_get_lastwrittenaddress, imapi2/IMultisessionRandomWrite::get_LastWrittenAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

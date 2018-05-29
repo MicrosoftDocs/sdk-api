@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMCrossbar.Route
 title: IAMCrossbar::Route
-author: windows-driver-content
+author: windows-sdk-content
 description: The Route method routes an input pin to an output pin.
 old-location: dshow\iamcrossbar_route.htm
 old-project: DirectShow
 ms.assetid: a3f6823d-e389-478a-b882-2556a3cbd821
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMCrossbar interface [DirectShow],Route method, IAMCrossbar.Route, IAMCrossbar::Route, IAMCrossbarRoute, Route, Route method [DirectShow], Route method [DirectShow],IAMCrossbar interface, dshow.iamcrossbar_route, strmif/IAMCrossbar::Route
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

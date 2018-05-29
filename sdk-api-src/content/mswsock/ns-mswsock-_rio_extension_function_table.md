@@ -1,16 +1,16 @@
 ---
 UID: NS:mswsock._RIO_EXTENSION_FUNCTION_TABLE
 title: "_RIO_EXTENSION_FUNCTION_TABLE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information on the functions that implement the Winsock registered I/O extensions.
 old-location: winsock\rio_extension_function_table.htm
 old-project: WinSock
 ms.assetid: 33C190B0-DE01-47A0-93AF-627FC5C5FF48
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*PRIO_EXTENSION_FUNCTION_TABLE, PRIO_EXTENSION_FUNCTION_TABLE, PRIO_EXTENSION_FUNCTION_TABLE structure pointer [Winsock], RIO_EXTENSION_FUNCTION_TABLE, RIO_EXTENSION_FUNCTION_TABLE structure [Winsock], _RIO_EXTENSION_FUNCTION_TABLE, mswsockdef/PRIO_EXTENSION_FUNCTION_TABLE, mswsockdef/RIO_EXTENSION_FUNCTION_TABLE, winsock.rio_extension_function_table"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mswsock.h
 req.include-header: Mswsock.h

@@ -1,16 +1,16 @@
 ---
 UID: NC:elscore.PFN_MAPPINGCALLBACKPROC
 title: PFN_MAPPINGCALLBACKPROC
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function that asynchronously processes data produced by the MappingRecognizeText function.
 old-location: intl\mappingcallbackproc.htm
 old-project: Intl
 ms.assetid: 7a324708-4f1b-467c-af1a-da36d1f7eba0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MappingCallbackProc, MappingCallbackProc callback function [Internationalization for Windows Applications], PFN_MAPPINGCALLBACKPROC, PFN_MAPPINGCALLBACKPROC callback, elscore/MappingCallbackProc, intl.mappingcallbackproc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: elscore.h
 req.include-header: 

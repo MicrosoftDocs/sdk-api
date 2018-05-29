@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_EnableHTTP
 title: IAMNetShowConfig::get_EnableHTTP
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_EnableHTTP method queries whether HTTP-type streaming is enabled.
 old-location: dshow\iamnetshowconfig_get_enablehttp.htm
 old-project: DirectShow
 ms.assetid: 29495a89-644f-4c55-a740-efb0cbf6d581
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableHTTP method, IAMNetShowConfig.get_EnableHTTP, IAMNetShowConfig::get_EnableHTTP, IAMNetShowConfigget_EnableHTTP, dshow.iamnetshowconfig_get_enablehttp, get_EnableHTTP, get_EnableHTTP method [DirectShow], get_EnableHTTP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableHTTP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetClipFactor
 title: IFullScreenVideoEx::SetClipFactor
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetClipFactor method specifies the clip factor, which determines how much of the video the Full Screen Renderer is allowed to clip.
 old-location: dshow\ifullscreenvideoex_setclipfactor.htm
 old-project: DirectShow
 ms.assetid: 3e2cefd3-491f-4ba4-a234-047fe4e6c6cc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetClipFactor method, IFullScreenVideoEx.SetClipFactor, IFullScreenVideoEx::SetClipFactor, IFullScreenVideoSetClipFactor, SetClipFactor, SetClipFactor method [DirectShow], SetClipFactor method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetClipFactor, dshow.ifullscreenvideoex_setclipfactor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsMatchPolicyAlternative
 title: WsMatchPolicyAlternative function
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies that a Policy Alternative is compatible with the specified Policy Constraint.
 old-location: wsw\wsmatchpolicyalternative.htm
 old-project: wsw
 ms.assetid: 6e5f352b-5422-4bba-9525-7850bdddf0a5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsMatchPolicyAlternative, WsMatchPolicyAlternative function [Web Services for Windows], webservices/WsMatchPolicyAlternative, wsw.wsmatchpolicyalternative
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:virtdisk._GET_VIRTUAL_DISK_INFO
 title: "_GET_VIRTUAL_DISK_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains virtual hard disk (VHD) information.
 old-location: vhd\get_virtual_disk_info.htm
 old-project: VStor
 ms.assetid: 666c1d6e-cf23-4452-98ea-e7d4c31c3d3b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PGET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_INFO structure [VHD], PGET_VIRTUAL_DISK_INFO, PGET_VIRTUAL_DISK_INFO structure pointer [VHD], _GET_VIRTUAL_DISK_INFO, vhd.get_virtual_disk_info, virtdisk/GET_VIRTUAL_DISK_INFO, virtdisk/PGET_VIRTUAL_DISK_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: Windows.h

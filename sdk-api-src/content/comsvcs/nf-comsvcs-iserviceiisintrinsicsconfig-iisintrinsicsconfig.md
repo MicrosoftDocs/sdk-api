@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IServiceIISIntrinsicsConfig.IISIntrinsicsConfig
 title: IServiceIISIntrinsicsConfig::IISIntrinsicsConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures the IIS intrinsics for the enclosed work.
 old-location: cos\iserviceiisintrinsicsconfig_iisintrinsicsconfig.htm
 old-project: cossdk
 ms.assetid: 458bd0d6-ed4f-45c2-8a96-1a4a08aad509
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IISIntrinsicsConfig, IISIntrinsicsConfig method [COM+], IISIntrinsicsConfig method [COM+],IServiceIISIntrinsicsConfig interface, IServiceIISIntrinsicsConfig interface [COM+],IISIntrinsicsConfig method, IServiceIISIntrinsicsConfig.IISIntrinsicsConfig, IServiceIISIntrinsicsConfig::IISIntrinsicsConfig, _cos_IServiceIISIntrinsicsConfig_IISIntrinsicsConfig, comsvcs/IServiceIISIntrinsicsConfig::IISIntrinsicsConfig, cos.iserviceiisintrinsicsconfig_iisintrinsicsconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

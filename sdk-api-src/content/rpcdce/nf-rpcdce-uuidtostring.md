@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.UuidToString
 title: UuidToString function
-author: windows-driver-content
+author: windows-sdk-content
 description: The UuidToString function converts a UUID to a string.
 old-location: rpc\uuidtostring.htm
 old-project: Rpc
 ms.assetid: 49235b28-a0c5-4f69-9932-85350d7bcbb8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: UuidToString, UuidToString function [RPC], UuidToStringA, UuidToStringW, _rpc_uuidtostring, rpc.uuidtostring, rpcdce/UuidToString, rpcdce/UuidToStringA, rpcdce/UuidToStringW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

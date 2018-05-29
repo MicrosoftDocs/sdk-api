@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif.__MIDL___MIDL_itf_strmif_0000_0132_0002
 title: "__MIDL___MIDL_itf_strmif_0000_0132_0002"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines flags that control how the DVD Navigator Filter filter handles command synchronization.
 old-location: dshow\dvd_cmd_flags.htm
 old-project: DirectShow
 ms.assetid: 05eb5ab8-a1b3-4876-bac3-29510af8cdbd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_CMD_FLAGS, DVD_CMD_FLAGS , DVD_CMD_FLAGS enumeration [DirectShow], DVD_CMD_FLAGSEnumeration, DVD_CMD_FLAG_Block, DVD_CMD_FLAG_EndAfterRendered, DVD_CMD_FLAG_Flush, DVD_CMD_FLAG_None, DVD_CMD_FLAG_SendEvents, DVD_CMD_FLAG_StartWhenRendered, __MIDL___MIDL_itf_strmif_0000_0132_0002, dshow.dvd_cmd_flags, strmif/DVD_CMD_FLAGS, strmif/DVD_CMD_FLAG_Block, strmif/DVD_CMD_FLAG_EndAfterRendered, strmif/DVD_CMD_FLAG_Flush, strmif/DVD_CMD_FLAG_None, strmif/DVD_CMD_FLAG_SendEvents, strmif/DVD_CMD_FLAG_StartWhenRendered
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

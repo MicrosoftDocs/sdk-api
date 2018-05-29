@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearOutputChannelColorProfile
 title: ImageAttributes::ClearOutputChannelColorProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: The ImageAttributes::ClearOutputChannelColorProfile method clears the output channel color profile setting for a specified category.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearOutputChannelColorProfile_type_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearoutputchannelcolorprofile.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ClearOutputChannelColorProfile, ClearOutputChannelColorProfile method [GDI+], ClearOutputChannelColorProfile method [GDI+],ImageAttributes class, ImageAttributes class [GDI+],ClearOutputChannelColorProfile method, ImageAttributes.ClearOutputChannelColorProfile, ImageAttributes::ClearOutputChannelColorProfile, _gdiplus_CLASS_ImageAttributes_ClearOutputChannelColorProfile_type_, gdiplus._gdiplus_CLASS_ImageAttributes_ClearOutputChannelColorProfile_type_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusimageattributes.h
 req.include-header: Gdiplus.h

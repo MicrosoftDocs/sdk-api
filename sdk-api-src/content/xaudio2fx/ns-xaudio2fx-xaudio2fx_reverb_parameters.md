@@ -1,16 +1,16 @@
 ---
 UID: NS:xaudio2fx.XAUDIO2FX_REVERB_PARAMETERS
 title: XAUDIO2FX_REVERB_PARAMETERS
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes parameters for use in the reverb APO.
 old-location: xaudio2\xaudio2fx_reverb_parameters.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2FX_REVERB_PARAMETERS
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: XAUDIO2FX_REVERB_PARAMETERS, XAUDIO2FX_REVERB_PARAMETERS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2fx_reverb_parameters, xaudio2fx/XAUDIO2FX_REVERB_PARAMETERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xaudio2fx.h
 req.include-header: 

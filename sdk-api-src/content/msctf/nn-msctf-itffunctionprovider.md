@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfFunctionProvider
 title: ITfFunctionProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfFunctionProvider interface is implemented by an application or text service to provide various function objects.
 old-location: tsf\itffunctionprovider.htm
 old-project: TSF
 ms.assetid: e63fd561-1157-49b1-a981-e578d9538876
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFunctionProvider, ITfFunctionProvider interface [Text Services Framework], ITfFunctionProvider interface [Text Services Framework],described, _tsf_itffunctionprovider_ref, msctf/ITfFunctionProvider, tsf.itffunctionprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

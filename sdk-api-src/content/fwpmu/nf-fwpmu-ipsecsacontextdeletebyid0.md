@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IPsecSaContextDeleteById0
 title: IPsecSaContextDeleteById0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an IPsec security association (SA) context.
 old-location: fwp\ipsecsacontextdeletebyid0.htm
 old-project: FWP
 ms.assetid: 4e3b1c5e-3da4-4c6b-aacf-beb90aa96923
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPsecSaContextDeleteById0, IPsecSaContextDeleteById0 function [Filtering], fwp.ipsecsacontextdeletebyid0, fwpmu/IPsecSaContextDeleteById0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

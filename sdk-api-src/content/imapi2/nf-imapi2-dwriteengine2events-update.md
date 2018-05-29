@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.DWriteEngine2Events.Update
 title: DWriteEngine2Events::Update
-author: windows-driver-content
+author: windows-sdk-content
 description: Implement this method to receive progress notification of the current write operation.
 old-location: imapi\dwriteengine2events_update.htm
 old-project: imapi
 ms.assetid: efee838d-aa6e-41a0-aafb-64ba6ca19f29
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: DWriteEngine2Events interface [IMAPI],Update method, DWriteEngine2Events.Update, DWriteEngine2Events::Update, Update, Update method [IMAPI], Update method [IMAPI],DWriteEngine2Events interface, imapi.dwriteengine2events_update, imapi2/DWriteEngine2Events::Update
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

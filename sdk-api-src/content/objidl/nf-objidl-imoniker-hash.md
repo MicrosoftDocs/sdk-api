@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IMoniker.Hash
 title: IMoniker::Hash
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a hash value using the internal state of the moniker.
 old-location: com\imoniker_hash.htm
 old-project: com
 ms.assetid: 5073c909-d3bc-480e-97fb-d096e60787e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Hash, Hash method [COM], Hash method [COM],IMoniker interface, IMoniker interface [COM],Hash method, IMoniker.Hash, IMoniker::Hash, _com_imoniker_hash, com.imoniker_hash, objidl/IMoniker::Hash
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:audioclient.IAudioClient
 title: IAudioClient
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioClient interface enables a client to create and initialize an audio stream between an audio application and the audio engine (for a shared-mode stream) or the hardware buffer of an audio endpoint device (for an exclusive-mode stream).
 old-location: coreaudio\iaudioclient.htm
 old-project: CoreAudio
 ms.assetid: 5088a3f1-5001-4ed9-a495-9e91df613ab0
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioClient, IAudioClient interface [Core Audio], IAudioClient interface [Core Audio],described, audioclient/IAudioClient, coreaudio.iaudioclient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioclient.h
 req.include-header: 

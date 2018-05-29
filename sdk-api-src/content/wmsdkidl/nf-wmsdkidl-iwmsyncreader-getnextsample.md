@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetNextSample
 title: IWMSyncReader::GetNextSample
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNextSample method retrieves the next sample from the file.
 old-location: wmformat\iwmsyncreader_getnextsample.htm
 old-project: wmformat
 ms.assetid: 948047b3-3b87-4381-9320-c9602716ade2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetNextSample, GetNextSample method [windows Media Format], GetNextSample method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetNextSample method, IWMSyncReader.GetNextSample, IWMSyncReader::GetNextSample, IWMSyncReaderGetNextSample, wmformat.iwmsyncreader_getnextsample, wmsdkidl/IWMSyncReader::GetNextSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

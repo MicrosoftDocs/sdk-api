@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamBeginStreaming
 title: AVIStreamBeginStreaming function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamBeginStreaming function specifies the parameters used in streaming and lets a stream handler prepare for streaming.
 old-location: multimedia\avistreambeginstreaming.htm
 old-project: Multimedia
 ms.assetid: 79bf7c19-56b6-48fa-a673-32ce1bcdddad
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamBeginStreaming, AVIStreamBeginStreaming function [Windows Multimedia], _win32_AVIStreamBeginStreaming, multimedia.avistreambeginstreaming, vfw/AVIStreamBeginStreaming
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

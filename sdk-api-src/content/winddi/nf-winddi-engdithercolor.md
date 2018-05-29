@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngDitherColor
 title: EngDitherColor function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngDitherColor function returns a standard 8x8 dither that approximates the specified RGB color.
 old-location: display\engdithercolor.htm
 old-project: display
 ms.assetid: 6c45fd2a-3bba-4e41-a1ee-b3b10602b65a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngDitherColor, EngDitherColor function [Display Devices], display.engdithercolor, gdifncs_99024e1a-c511-4b02-80dc-e39dd82a8d57.xml, winddi/EngDitherColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

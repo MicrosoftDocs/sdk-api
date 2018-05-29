@@ -1,16 +1,16 @@
 ---
 UID: NS:authz._AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET
 title: "_AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the offset of a registration object type name.
 old-location: security\authz_registration_object_type_name_offset.htm
 old-project: SecAuthZ
 ms.assetid: 2ec39edc-7819-41a5-8798-dc51c00ba85e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET structure [Security], PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET structure pointer [Security], _AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, authz/AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, authz/PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET, security.authz_registration_object_type_name_offset"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: authz.h
 req.include-header: 

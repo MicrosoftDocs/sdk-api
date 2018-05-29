@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumObjects.Reset
 title: IEnumObjects::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the enumeration index to 0.
 old-location: shell\IEnumObjects_Reset.htm
 old-project: shell
 ms.assetid: 646ffef2-294e-461d-97e4-39cb68bb85df
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumObjects interface [Windows Shell],Reset method, IEnumObjects.Reset, IEnumObjects::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumObjects interface, _shell_IEnumObjects_Reset, shell.IEnumObjects_Reset, shobjidl_core/IEnumObjects::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

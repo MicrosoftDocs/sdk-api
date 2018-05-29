@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionPrepare
 title: IComLTxEvents::OnLtxTransactionPrepare
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when COM+ receives a prepare notification for a transaction.
 old-location: cos\icomltxevents_onltxtransactionprepare.htm
 old-project: cossdk
 ms.assetid: 31915d4c-7ac0-406b-b2d2-ab96b317be3f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionPrepare method, IComLTxEvents.OnLtxTransactionPrepare, IComLTxEvents::OnLtxTransactionPrepare, OnLtxTransactionPrepare, OnLtxTransactionPrepare method [COM+], OnLtxTransactionPrepare method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionPrepare, cos.icomltxevents_onltxtransactionprepare
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

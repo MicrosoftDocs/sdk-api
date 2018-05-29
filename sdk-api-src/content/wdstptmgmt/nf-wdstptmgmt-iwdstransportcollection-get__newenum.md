@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCollection.get__NewEnum
 title: IWdsTransportCollection::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives a pointer to an enumerator that can be used to iterate over the objects in this collection.
 old-location: wds\iwdstransportcollection__newenum.htm
 old-project: Wds
 ms.assetid: b1b51f0b-ae79-4e59-8517-456d8ef2048c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportCollection interface [Windows Deployment Services],_NewEnum property, IWdsTransportCollection._NewEnum, IWdsTransportCollection.get__NewEnum, IWdsTransportCollection::_NewEnum, IWdsTransportCollection::get__NewEnum, _NewEnum property [Windows Deployment Services], _NewEnum property [Windows Deployment Services],IWdsTransportCollection interface, get__NewEnum, wds.iwdstransportcollection__newenum, wdstptmgmt/IWdsTransportCollection::_NewEnum, wdstptmgmt/IWdsTransportCollection::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpGetOptionValueV5
 title: DhcpGetOptionValueV5 function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DhcpGetOptionValueV5 function retrieves a DHCP option value (the option code and associated data) for a particular scope.
 old-location: dhcp\dhcpgetoptionvaluev5.htm
 old-project: DHCP
 ms.assetid: afb598fd-b63f-4dd3-bd6e-287016c5fe57
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetOptionValueV5, DhcpGetOptionValueV5 function [DHCP], dhcp.dhcpgetoptionvaluev5, dhcpsapi/DhcpGetOptionValueV5
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

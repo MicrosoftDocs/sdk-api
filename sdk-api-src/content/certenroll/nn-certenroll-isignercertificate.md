@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ISignerCertificate
 title: ISignerCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a signing certificate that enables you to sign a certificate request.
 old-location: security\isignercertificate.htm
 old-project: SecCertEnroll
 ms.assetid: 146a1925-4de6-492c-8014-612c65bd7270
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ISignerCertificate, ISignerCertificate interface [Security], ISignerCertificate interface [Security],described, certenroll/ISignerCertificate, security.isignercertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagACCESSTIMEOUT
 title: tagACCESSTIMEOUT
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the time-out period associated with the accessibility features.
 old-location: winauto\accesstimeout.htm
 old-project: WinAuto
 ms.assetid: 570a3a29-a7ce-4622-affd-7c6c4f381e36
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: "*LPACCESSTIMEOUT, ACCESSTIMEOUT, ACCESSTIMEOUT structure [Windows Accessibility], ATF_ONOFFFEEDBACK, ATF_TIMEOUTON, LPACCESSTIMEOUT, LPACCESSTIMEOUT structure pointer [Windows Accessibility], _win32_ACCESSTIMEOUT_str, msaa.accesstimeout, tagACCESSTIMEOUT, winauto.accesstimeout, winuser/ACCESSTIMEOUT, winuser/LPACCESSTIMEOUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

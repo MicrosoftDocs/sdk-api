@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_ServiceRestriction
 title: INetFwPolicy2::get_ServiceRestriction
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the interface used to access the Windows Service Hardening store.
 old-location: ics\inetfwpolicy2_servicerestriction.htm
 old-project: ICS
 ms.assetid: cc62b295-23b5-40e8-a43a-1b4b67ac0f83
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],ServiceRestriction property, INetFwPolicy2.ServiceRestriction, INetFwPolicy2.get_ServiceRestriction, INetFwPolicy2::ServiceRestriction, INetFwPolicy2::get_ServiceRestriction, ServiceRestriction property [ICS/ICF], ServiceRestriction property [ICS/ICF],INetFwPolicy2 interface, get_ServiceRestriction, ics.inetfwpolicy2_servicerestriction, netfw/INetFwPolicy2::ServiceRestriction, netfw/INetFwPolicy2::get_ServiceRestriction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

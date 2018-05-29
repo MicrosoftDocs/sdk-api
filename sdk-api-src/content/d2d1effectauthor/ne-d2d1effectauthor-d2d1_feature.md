@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_FEATURE
 title: D2D1_FEATURE
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines capabilities of the underlying Direct3D device which may be queried using ID2D1EffectContext::CheckFeatureSupport.
 old-location: direct2d\d2d1_feature.htm
 old-project: Direct2D
 ms.assetid: 1C64F1BE-DB38-440A-A1BA-65A40E5A9997
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_FEATURE, D2D1_FEATURE enumeration [Direct2D], D2D1_FEATURE_D3D10_X_HARDWARE_OPTIONS, D2D1_FEATURE_DOUBLES, d2d1effectauthor/D2D1_FEATURE, d2d1effectauthor/D2D1_FEATURE_D3D10_X_HARDWARE_OPTIONS, d2d1effectauthor/D2D1_FEATURE_DOUBLES, direct2d.d2d1_feature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effectauthor.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceSet.Create
 title: IOpcSignatureRelationshipReferenceSet::Create
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IOpcSignatureRelationshipReference interface pointer that represents a reference to a Relationships part, and adds the new interface pointer to the set.
 old-location: opc\iopcsignaturerelationshipreferenceset_create.htm
 old-project: OPC
 ms.assetid: c348ac25-f2b3-491d-b378-f0daf282b1ca
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceSet interface, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],Create method, IOpcSignatureRelationshipReferenceSet.Create, IOpcSignatureRelationshipReferenceSet::Create, msopc/IOpcSignatureRelationshipReferenceSet::Create, opc.iopcsignaturerelationshipreferenceset_create
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

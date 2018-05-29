@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.Stop
 title: IMFPMediaPlayer::Stop
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops playback.
 old-location: mf\imfpmediaplayer_stop.htm
 old-project: medfound
 ms.assetid: 1cfa41c7-209e-4c18-a204-563ede29c7c6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],Stop method, IMFPMediaPlayer.Stop, IMFPMediaPlayer::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_stop, mfplay/IMFPMediaPlayer::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

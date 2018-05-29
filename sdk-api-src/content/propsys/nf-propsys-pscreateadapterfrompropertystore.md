@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSCreateAdapterFromPropertyStore
 title: PSCreateAdapterFromPropertyStore function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an adapter from an IPropertyStore.
 old-location: properties\PSCreateAdapterFromPropertyStore.htm
 old-project: properties
 ms.assetid: a3489f95-e790-481a-af6e-f30527dc476c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSCreateAdapterFromPropertyStore, PSCreateAdapterFromPropertyStore function [Windows Properties], _shell_PSCreateAdapterFromPropertyStore, properties.PSCreateAdapterFromPropertyStore, propsys/PSCreateAdapterFromPropertyStore, shell.PSCreateAdapterFromPropertyStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

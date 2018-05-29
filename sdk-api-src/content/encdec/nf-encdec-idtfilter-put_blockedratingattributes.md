@@ -1,16 +1,16 @@
 ---
 UID: NF:encdec.IDTFilter.put_BlockedRatingAttributes
 title: IDTFilter::put_BlockedRatingAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_BlockedRatingAttributes method specifies whether to block content that has a specified rating.
 old-location: mstv\idtfilter_put_blockedratingattributes.htm
 old-project: mstv
 ms.assetid: ae81e427-305e-43b8-ad4d-e23f0bbbdc4a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],put_BlockedRatingAttributes method, IDTFilter.put_BlockedRatingAttributes, IDTFilter::put_BlockedRatingAttributes, IDTFilterput_BlockedRatingAttributes, encdec/IDTFilter::put_BlockedRatingAttributes, mstv.idtfilter_put_blockedratingattributes, put_BlockedRatingAttributes, put_BlockedRatingAttributes method [Microsoft TV Technologies], put_BlockedRatingAttributes method [Microsoft TV Technologies],IDTFilter interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

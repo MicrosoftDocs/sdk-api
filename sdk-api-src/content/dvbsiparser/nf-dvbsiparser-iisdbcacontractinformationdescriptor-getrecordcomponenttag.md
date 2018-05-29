@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetRecordComponentTag
 title: IIsdbCAContractInformationDescriptor::GetRecordComponentTag
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the broadcaster-defined tag that identifies a component record from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.
 old-location: mstv\iisdbcacontractinformationdescriptor_getrecordcomponenttag.htm
 old-project: mstv
 ms.assetid: cd032a24-228a-47e3-97f4-1046b426c587
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordComponentTag, GetRecordComponentTag method [Microsoft TV Technologies], GetRecordComponentTag method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetRecordComponentTag method, IIsdbCAContractInformationDescriptor.GetRecordComponentTag, IIsdbCAContractInformationDescriptor::GetRecordComponentTag, dvbsiparser/IIsdbCAContractInformationDescriptor::GetRecordComponentTag, mstv.iisdbcacontractinformationdescriptor_getrecordcomponenttag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:ddraw.LPDDENUMCALLBACKW
 title: LPDDENUMCALLBACKW
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDEnumCallback function is an application-defined callback function for the DirectDrawEnumerate function.
 old-location: directdraw\ddenumcallback.htm
 old-project: directdraw
 ms.assetid: 7F86FA67-C13B-49EE-8D17-9F54E5060A85
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DDEnumCallback, DDEnumCallback callback function [DirectDraw], LPDDENUMCALLBACK, LPDDENUMCALLBACK callback, LPDDENUMCALLBACKA, LPDDENUMCALLBACKW, ddraw/DDEnumCallback, directdraw.ddenumcallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddraw.h
 req.include-header: 

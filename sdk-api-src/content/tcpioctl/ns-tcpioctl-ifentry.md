@@ -1,16 +1,16 @@
 ---
 UID: NS:tcpioctl.IFEntry
 title: IFEntry
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a TCP/IP interface in accord with the Simple Network Management Protocol, version 2, (SNMPv2) standard for Management Information Base for network management of TCP/IP networks (MIB-II), as specified in the Internet Engineering Task Force (IETF) Request for Comments (RFC) 1213 on pages 16 through 23.
 old-location: winprog\ifentry.htm
 old-project: DevNotes
 ms.assetid: 830cd19e-06a9-46dc-a869-d2a17107d942
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IFEntry, IFEntry structure [Windows API], tcpioctl/IFEntry, winprog.ifentry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpioctl.h
 req.include-header: 

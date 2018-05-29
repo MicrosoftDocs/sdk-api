@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2fs.IFsiItem
 title: IFsiItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Base interface containing properties common to both file and directory items.
 old-location: imapi\ifsiitem.htm
 old-project: imapi
 ms.assetid: 44494e66-e6b4-4acb-a2a6-0a3e5cc4a2a0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFsiItem, IFsiItem interface [IMAPI], IFsiItem interface [IMAPI],described, imapi.ifsiitem, imapi2fs/IFsiItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

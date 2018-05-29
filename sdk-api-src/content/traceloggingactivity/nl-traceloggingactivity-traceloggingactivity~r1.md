@@ -1,16 +1,16 @@
 ---
 UID: NL:traceloggingactivity.TraceLoggingActivity~r1
 title: TraceLoggingActivity
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides support for logging ETW events during an activity. All events must be manually tagged or nested.
 old-location: tracelogging\traceloggingactivity.htm
 old-project: tracelogging
 ms.assetid: 75930876-4DF2-4559-BA06-133FC676B1AD
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingActivity, TraceLoggingActivity class, TraceLoggingActivity class,described, tracelogging.traceloggingactivity, traceloggingactivity/TraceLoggingActivity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: traceloggingactivity.h
 req.include-header: 

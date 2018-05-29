@@ -1,16 +1,16 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetRedirect
 title: IXblIdpAuthTokenResult::GetRedirect
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getredirect.htm
 old-project: xblidp
 ms.assetid: 4341F176-5C7C-42C1-8C17-FFBA293AFD53
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetRedirect, GetRedirect method, GetRedirect method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetRedirect method, IXblIdpAuthTokenResult.GetRedirect, IXblIdpAuthTokenResult::GetRedirect, xblidp.ixblidpauthtokenresult_getredirect, xblidpauthmanager/IXblIdpAuthTokenResult::GetRedirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

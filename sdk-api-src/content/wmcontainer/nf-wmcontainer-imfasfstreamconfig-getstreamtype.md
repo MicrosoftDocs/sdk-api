@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.GetStreamType
 title: IMFASFStreamConfig::GetStreamType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the major media type of the stream.
 old-location: mf\imfasfstreamconfig_getstreamtype.htm
 old-project: medfound
 ms.assetid: 5f085107-f205-47ab-acb5-d45a881ce76c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 5f085107-f205-47ab-acb5-d45a881ce76c, GetStreamType, GetStreamType method [Media Foundation], GetStreamType method [Media Foundation],IMFASFStreamConfig interface, IMFASFStreamConfig interface [Media Foundation],GetStreamType method, IMFASFStreamConfig.GetStreamType, IMFASFStreamConfig::GetStreamType, mf.imfasfstreamconfig_getstreamtype, wmcontainer/IMFASFStreamConfig::GetStreamType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

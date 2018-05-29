@@ -1,16 +1,16 @@
 ---
 UID: NS:resapi.CLRES_V3_FUNCTIONS
 title: CLRES_V3_FUNCTIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains pointers to all Resource API version 3.0 entry points, except StartupEx.
 old-location: mscs\clres_v3_functions.htm
 old-project: MsCS
 ms.assetid: 5D4B5494-5F75-4864-9BA5-EF1A88DFE143
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLRES_V3_FUNCTIONS, CLRES_V3_FUNCTIONS, CLRES_V3_FUNCTIONS structure [Failover Cluster], PCLRES_V3_FUNCTIONS, PCLRES_V3_FUNCTIONS structure pointer [Failover Cluster], mscs.clres_v3_functions, resapi/CLRES_V3_FUNCTIONS, resapi/PCLRES_V3_FUNCTIONS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

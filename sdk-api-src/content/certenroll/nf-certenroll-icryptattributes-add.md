@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICryptAttributes.Add
 title: ICryptAttributes::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an ICryptAttribute object to the collection.
 old-location: security\icryptattributes_add_method.htm
 old-project: SecCertEnroll
 ms.assetid: a9288c74-3d7f-4293-b666-45c90a859166
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],Add method, ICryptAttributes.Add, ICryptAttributes::Add, certenroll/ICryptAttributes::Add, security.icryptattributes_add_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

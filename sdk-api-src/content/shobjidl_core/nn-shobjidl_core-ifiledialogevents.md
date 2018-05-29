@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IFileDialogEvents
 title: IFileDialogEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that allow notification of events within a common file dialog.
 old-location: shell\IFileDialogEvents.htm
 old-project: shell
 ms.assetid: c55107a3-ae0a-4b46-80a3-8a731b47976c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileDialogEvents, IFileDialogEvents interface [Windows Shell], IFileDialogEvents interface [Windows Shell],described, shell.IFileDialogEvents, shell_IFileDialogEvents, shobjidl_core/IFileDialogEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

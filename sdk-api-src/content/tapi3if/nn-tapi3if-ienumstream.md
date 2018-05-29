@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.IEnumStream
 title: IEnumStream
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumStream interface provides COM-standard enumeration methods for the ITStream interface. The ITStreamControl::EnumerateStreams and ITParticipant::EnumerateStreams methods return a pointer to IEnumStream.
 old-location: tapi3\ienumstream.htm
 old-project: Tapi
 ms.assetid: 52e8c040-8bc5-4c9c-a697-ec05164adea2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumStream, IEnumStream interface [TAPI 2.2], IEnumStream interface [TAPI 2.2],described, _tapi3_ienumstream, tapi3.ienumstream, tapi3if/IEnumStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

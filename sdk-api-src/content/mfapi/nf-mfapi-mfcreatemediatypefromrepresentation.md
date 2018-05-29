@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateMediaTypeFromRepresentation
 title: MFCreateMediaTypeFromRepresentation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a Media Foundation media type from another format representation.
 old-location: mf\mfcreatemediatypefromrepresentation.htm
 old-project: medfound
 ms.assetid: 5d85c47e-2e40-45f2-8f17-52f642652112
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 5d85c47e-2e40-45f2-8f17-52f642652112, MFCreateMediaTypeFromRepresentation, MFCreateMediaTypeFromRepresentation function [Media Foundation], mf.mfcreatemediatypefromrepresentation, mfapi/MFCreateMediaTypeFromRepresentation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

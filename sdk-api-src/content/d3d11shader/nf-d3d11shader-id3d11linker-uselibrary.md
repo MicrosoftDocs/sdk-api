@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11shader.ID3D11Linker.UseLibrary
 title: ID3D11Linker::UseLibrary
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an instance of a library module to be used for linking.
 old-location: direct3d11\id3d11linker_uselibrary.htm
 old-project: direct3d11
 ms.assetid: 2FEA3583-8868-4763-8308-3C1E8F72A9BC
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11Linker interface [Direct3D 11],UseLibrary method, ID3D11Linker.UseLibrary, ID3D11Linker::UseLibrary, UseLibrary, UseLibrary method [Direct3D 11], UseLibrary method [Direct3D 11],ID3D11Linker interface, d3d11shader/ID3D11Linker::UseLibrary, direct3d11.id3d11linker_uselibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

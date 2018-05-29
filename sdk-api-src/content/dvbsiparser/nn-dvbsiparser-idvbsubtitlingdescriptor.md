@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IDvbSubtitlingDescriptor
 title: IDvbSubtitlingDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor.htm
 old-project: mstv
 ms.assetid: 7308e8a9-6e16-4719-b87e-9445499f499c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDvbSubtitlingDescriptor, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies], IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbSubtitlingDescriptor, mstv.idvbsubtitlingdescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

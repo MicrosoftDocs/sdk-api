@@ -1,16 +1,16 @@
 ---
 UID: NF:lzexpand.LZSeek
 title: LZSeek function
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves a file pointer the specified number of bytes from a starting position.
 old-location: fs\lzseek.htm
 old-project: FileIO
 ms.assetid: eb3d8546-6280-4e4b-8ca4-3697b9339d86
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: LZSeek, LZSeek function [Files], _win32_lzseek, base.lzseek, fs.lzseek, lzexpand/LZSeek
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lzexpand.h
 req.include-header: Windows.h

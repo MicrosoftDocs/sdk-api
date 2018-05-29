@@ -1,16 +1,16 @@
 ---
 UID: NF:encdec.IDTFilter3.GetProtectionType
 title: IDTFilter3::GetProtectionType
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetProtectionType method retrieves the type of content protection that is currently in effect.
 old-location: mstv\idtfilter3_getprotectiontype.htm
 old-project: mstv
 ms.assetid: 6b1e4186-de85-4de8-b309-82644c8b1269
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetProtectionType, GetProtectionType method [Microsoft TV Technologies], GetProtectionType method [Microsoft TV Technologies],IDTFilter3 interface, IDTFilter3 interface [Microsoft TV Technologies],GetProtectionType method, IDTFilter3.GetProtectionType, IDTFilter3::GetProtectionType, IDTFilter3GetProtectionType, encdec/IDTFilter3::GetProtectionType, mstv.idtfilter3_getprotectiontype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

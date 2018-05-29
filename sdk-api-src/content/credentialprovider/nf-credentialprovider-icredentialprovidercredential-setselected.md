@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.SetSelected
 title: ICredentialProviderCredential::SetSelected
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when a credential is selected. Enables the implementer to set logon characteristics.
 old-location: shell\ICredentialProviderCredential_SetSelected.htm
 old-project: shell
 ms.assetid: 06a0482c-100c-445f-9a77-279d85492f42
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetSelected method, ICredentialProviderCredential.SetSelected, ICredentialProviderCredential::SetSelected, SetSelected, SetSelected method [Windows Shell], SetSelected method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetSelected, credentialprovider/ICredentialProviderCredential::SetSelected, shell.ICredentialProviderCredential_SetSelected
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

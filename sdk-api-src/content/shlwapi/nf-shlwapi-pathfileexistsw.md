@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathFileExistsW
 title: PathFileExistsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a path to a file system object such as a file or folder is valid.
 old-location: shell\PathFileExists.htm
 old-project: shell
 ms.assetid: 26d01e9f-cbf2-4e40-9970-a594879b424d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathFileExists, PathFileExists function [Windows Shell], PathFileExistsA, PathFileExistsW, _win32_PathFileExists, shell.PathFileExists, shlwapi/PathFileExists, shlwapi/PathFileExistsA, shlwapi/PathFileExistsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

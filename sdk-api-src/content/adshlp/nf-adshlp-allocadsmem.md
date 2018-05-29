@@ -1,16 +1,16 @@
 ---
 UID: NF:adshlp.AllocADsMem
 title: AllocADsMem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates a block of memory of the specified size.
 old-location: adsi\allocadsmem.htm
 old-project: ADSI
 ms.assetid: df98a728-596b-4541-974a-5690e510ad9f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: AllocADsMem, AllocADsMem function [ADSI], _ds_allocadsmem, adshlp/AllocADsMem, adsi.allocadsmem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 

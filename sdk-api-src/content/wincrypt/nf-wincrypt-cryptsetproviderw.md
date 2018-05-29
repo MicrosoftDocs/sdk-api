@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptSetProviderW
 title: CryptSetProviderW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the current user's default cryptographic service provider (CSP).
 old-location: security\cryptsetprovider.htm
 old-project: SecCrypto
 ms.assetid: 44023a0c-3fb4-4746-a676-1671c3ad901b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptSetProvider, CryptSetProvider function [Security], CryptSetProviderA, CryptSetProviderW, _crypto2_cryptsetprovider, security.cryptsetprovider, wincrypt/CryptSetProvider, wincrypt/CryptSetProviderA, wincrypt/CryptSetProviderW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

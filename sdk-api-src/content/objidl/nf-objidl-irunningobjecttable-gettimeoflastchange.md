@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IRunningObjectTable.GetTimeOfLastChange
 title: IRunningObjectTable::GetTimeOfLastChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the time that an object was last modified.
 old-location: com\irunningobjecttable_gettimeoflastchange.htm
 old-project: com
 ms.assetid: fef6f7e5-7d91-4737-98a4-c9779c6c2be5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetTimeOfLastChange, GetTimeOfLastChange method [COM], GetTimeOfLastChange method [COM],IRunningObjectTable interface, IRunningObjectTable interface [COM],GetTimeOfLastChange method, IRunningObjectTable.GetTimeOfLastChange, IRunningObjectTable::GetTimeOfLastChange, _com_irunningobjecttable_gettimeoflastchange, com.irunningobjecttable_gettimeoflastchange, objidl/IRunningObjectTable::GetTimeOfLastChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

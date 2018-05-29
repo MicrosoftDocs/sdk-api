@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetFileTypeIndex
 title: IFileDialog::GetFileTypeIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the currently selected file type.
 old-location: shell\IFileDialog_GetFileTypeIndex.htm
 old-project: shell
 ms.assetid: ae5b08a1-a97d-433b-88dc-938abe028384
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFileTypeIndex, GetFileTypeIndex method [Windows Shell], GetFileTypeIndex method [Windows Shell],IFileDialog interface, IFileDialog interface [Windows Shell],GetFileTypeIndex method, IFileDialog.GetFileTypeIndex, IFileDialog::GetFileTypeIndex, shell.IFileDialog_GetFileTypeIndex, shell_IFileDialog_GetFileTypeIndex, shobjidl_core/IFileDialog::GetFileTypeIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

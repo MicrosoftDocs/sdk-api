@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IDeferredCommand.Postpone
 title: IDeferredCommand::Postpone
-author: windows-driver-content
+author: windows-sdk-content
 description: The Postpone method specifies a new invocation time for the command.
 old-location: dshow\ideferredcommand_postpone.htm
 old-project: DirectShow
 ms.assetid: 184370db-95df-45a8-b1a0-e399923f866e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDeferredCommand interface [DirectShow],Postpone method, IDeferredCommand.Postpone, IDeferredCommand::Postpone, IDeferredCommandPostpone, Postpone, Postpone method [DirectShow], Postpone method [DirectShow],IDeferredCommand interface, control/IDeferredCommand::Postpone, dshow.ideferredcommand_postpone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Session_QueryInstances
 title: MI_Session_QueryInstances function
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries for a set of instances based on a query expression.
 old-location: wmi_v2\mi_session_queryinstances.htm
 old-project: wmi_v2
 ms.assetid: 69b36e68-2a3a-41df-9af3-de791db9d9f1
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Session_QueryInstances, MI_Session_QueryInstances function [Windows Management Infrastructure (MI)], mi/MI_Session_QueryInstances, wmi_v2.mi_session_queryinstances
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

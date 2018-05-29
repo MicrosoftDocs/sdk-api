@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.Verify
 title: IX509PrivateKey::Verify
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies that a private key exists and can be used by the client but does not open the key.
 old-location: security\ix509privatekey_verify.htm
 old-project: SecCertEnroll
 ms.assetid: 4a792c39-71a7-4289-854d-98e6f749a526
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509PrivateKey interface [Security],Verify method, IX509PrivateKey.Verify, IX509PrivateKey::Verify, Verify, Verify method [Security], Verify method [Security],IX509PrivateKey interface, VerifyAllowUI, VerifyNone, VerifySilent, VerifySmartCardNone, VerifySmartCardSilent, certenroll/IX509PrivateKey::Verify, security.ix509privatekey_verify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

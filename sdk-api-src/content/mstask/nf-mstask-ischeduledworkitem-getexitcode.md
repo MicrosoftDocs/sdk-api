@@ -1,16 +1,16 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetExitCode
 title: IScheduledWorkItem::GetExitCode
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the last exit code returned by the executable associated with the work item on its last run. The method also returns the exit code returned to Task Scheduler when it last attempted to run the work item.
 old-location: taskschd\ischeduledworkitem_getexitcode.htm
 old-project: TaskSchd
 ms.assetid: 857d8b84-2ccf-4888-8aea-869ba70d3f64
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetExitCode, GetExitCode method [Task Scheduler], GetExitCode method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetExitCode method, IScheduledWorkItem.GetExitCode, IScheduledWorkItem::GetExitCode, _msb_ischeduledworkitem_getexitcode, mstask/IScheduledWorkItem::GetExitCode, taskschd.ischeduledworkitem_getexitcode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_RawReceiveTime
 title: IFaxTiff::get_RawReceiveTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the RawReceiveTime property for a FaxTiff object.
 old-location: fax\_mfax_ifaxtiff_get_rawreceivetime_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9usl.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxTiff object [Fax Service],RawReceiveTime property, FaxTiff.RawReceiveTime, IFaxTiff.get_RawReceiveTime, IFaxTiff::get_RawReceiveTime, RawReceiveTime property [Fax Service], RawReceiveTime property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_rawreceivetime, fax._mfax_ifaxtiff_get_rawreceivetime, fax._mfax_ifaxtiff_get_rawreceivetime_vb, get_RawReceiveTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

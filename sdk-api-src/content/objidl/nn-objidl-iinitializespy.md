@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IInitializeSpy
 title: IInitializeSpy
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs initialization or cleanup when entering or exiting a COM apartment.
 old-location: com\iinitializespy.htm
 old-project: com
 ms.assetid: 9cf1a3fa-dbc6-4760-a9e9-ef237737acfb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IInitializeSpy, IInitializeSpy interface [COM], IInitializeSpy interface [COM],described, _com_iinitializespy, com.iinitializespy, objidl/IInitializeSpy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

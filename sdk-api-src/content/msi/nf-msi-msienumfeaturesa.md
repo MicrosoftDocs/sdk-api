@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiEnumFeaturesA
 title: MsiEnumFeaturesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiEnumFeatures function enumerates the published features for a given product. This function retrieves one feature ID each time it is called.
 old-location: setup\msienumfeatures.htm
 old-project: Msi
 ms.assetid: 0ac6fea4-cdc8-4799-9001-f9399b22e7a5
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiEnumFeatures, MsiEnumFeatures function, MsiEnumFeaturesA, MsiEnumFeaturesW, _msi_msienumfeatures, msi/MsiEnumFeatures, msi/MsiEnumFeaturesA, msi/MsiEnumFeaturesW, setup.msienumfeatures
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

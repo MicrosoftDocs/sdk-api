@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.HashData
 title: HashData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Hashes an array of data.
 old-location: shell\HashData.htm
 old-project: shell
 ms.assetid: 7b42b3ae-c021-49be-b5a7-d3bc0a5d346a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HashData, HashData function [Windows Shell], _win32_HashData, shell.HashData, shlwapi/HashData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

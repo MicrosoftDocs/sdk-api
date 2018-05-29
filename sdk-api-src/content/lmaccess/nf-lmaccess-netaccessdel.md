@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetAccessDel
 title: NetAccessDel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessdel.htm
 old-project: NetMgmt
 ms.assetid: be33d9b4-9740-4ccb-ac95-25ae02edaa42
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetAccessDel, NetAccessDel function [Network Management], _win32_netaccessdel, lmaccess/NetAccessDel, netmgmt.netaccessdel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.MultiplyHigh
 title: MultiplyHigh function
-author: windows-driver-content
+author: windows-sdk-content
 description: Multiplies two 64-bit integers to produce a 128-bit integer and gets the high 64 bits.
 old-location: winprog\multiplyhigh.htm
 old-project: WinProg
 ms.assetid: 9072FCB1-89AE-4441-A425-AC3071A47E76
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: MultiplyHigh, MultiplyHigh function [Windows API], winnt/MultiplyHigh, winprog.multiplyhigh
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

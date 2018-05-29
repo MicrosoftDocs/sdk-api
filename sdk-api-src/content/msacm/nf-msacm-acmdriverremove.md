@@ -1,16 +1,16 @@
 ---
 UID: NF:msacm.acmDriverRemove
 title: acmDriverRemove function
-author: windows-driver-content
+author: windows-sdk-content
 description: The acmDriverRemove function removes an ACM driver from the list of available ACM drivers. The driver will be removed for the calling application only. If the driver is globally installed, other applications will still be able to use it.
 old-location: multimedia\acmdriverremove.htm
 old-project: Multimedia
 ms.assetid: 7182d452-a935-4ed5-808a-595fca4f0429
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_acmDriverRemove, acmDriverRemove, acmDriverRemove function [Windows Multimedia], msacm/acmDriverRemove, multimedia.acmdriverremove"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

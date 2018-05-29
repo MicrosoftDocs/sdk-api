@@ -1,16 +1,16 @@
 ---
 UID: NS:dot1x._ONEX_VARIABLE_BLOB
 title: "_ONEX_VARIABLE_BLOB"
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used as a member of other 802.1X authentication stuctures to contain variable-sized members.
 old-location: nwifi\onex_variable_blob.htm
 old-project: NativeWiFi
 ms.assetid: 3a410bde-bcff-4a86-aadc-650862dbf38b
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: "*PONEX_VARIABLE_BLOB, ONEX_VARIABLE_BLOB, ONEX_VARIABLE_BLOB structure [NativeWIFI], PONEX_VARIABLE_BLOB, PONEX_VARIABLE_BLOB structure pointer [NativeWIFI], _ONEX_VARIABLE_BLOB, dot1x/ONEX_VARIABLE_BLOB, dot1x/PONEX_VARIABLE_BLOB, nwifi.onex_variable_blob"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dot1x.h
 req.include-header: 

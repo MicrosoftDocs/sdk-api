@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupRemoveFromSourceListW
 title: SetupRemoveFromSourceListW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupRemoveFromSourceList function removes a value from the list of installation sources for either the current user or the system. The system and user lists are merged at run time.
 old-location: setup\setupremovefromsourcelist.htm
 old-project: SetupApi
 ms.assetid: 9e87f481-7d6a-4d8e-8f71-d104de3533f8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupRemoveFromSourceList, SetupRemoveFromSourceList function [Setup API], SetupRemoveFromSourceListA, SetupRemoveFromSourceListW, _setupapi_setupremovefromsourcelist, setup.setupremovefromsourcelist, setupapi/SetupRemoveFromSourceList, setupapi/SetupRemoveFromSourceListA, setupapi/SetupRemoveFromSourceListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

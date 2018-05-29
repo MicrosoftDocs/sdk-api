@@ -1,16 +1,16 @@
 ---
 UID: NE:intshcut.mimeassociationdialog_in_flags
 title: mimeassociationdialog_in_flags
-author: windows-driver-content
+author: windows-sdk-content
 description: Used with the MIMEAssociationDialog function to determine how it executes.
 old-location: shell\MIMEASSOCIATIONDIALOG_IN_FLAGS.htm
 old-project: shell
 ms.assetid: 916712a7-08ec-496d-aa83-42bf1e4bdbd8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MIMEASSOCDLG_FL_REGISTER_ASSOC, MIMEASSOCIATIONDIALOG_IN_FLAGS, MIMEASSOCIATIONDIALOG_IN_FLAGS enumeration [Windows Shell], _win32_MIMEASSOCIATIONDIALOG_IN_FLAGS, intshcut/MIMEASSOCDLG_FL_REGISTER_ASSOC, intshcut/MIMEASSOCIATIONDIALOG_IN_FLAGS, mimeassociationdialog_in_flags, shell.MIMEASSOCIATIONDIALOG_IN_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: intshcut.h
 req.include-header: 

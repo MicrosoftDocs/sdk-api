@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IParseAndCreateItem
 title: IParseAndCreateItem
-author: windows-driver-content
+author: windows-sdk-content
 description: IParseAndCreateItem interface
 old-location: shell\IParseAndCreateItem.htm
 old-project: shell
 ms.assetid: 4a8c6223-df1e-4f04-8818-d7752f686cb5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IParseAndCreateItem, IParseAndCreateItem interface [Windows Shell], IParseAndCreateItem interface [Windows Shell],described, _shell_IParseAndCreateItem, shell.IParseAndCreateItem, shobjidl_core/IParseAndCreateItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

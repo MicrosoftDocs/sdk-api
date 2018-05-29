@@ -1,16 +1,16 @@
 ---
 UID: NN:propsys.IPropertyDescriptionSearchInfo
 title: IPropertyDescriptionSearchInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes search-related information for a property.
 old-location: properties\IPropertyDescriptionSearchInfo.htm
 old-project: properties
 ms.assetid: 7bd4be80-7459-4c3d-9da4-0580995e6db6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyDescriptionSearchInfo, IPropertyDescriptionSearchInfo interface [Windows Properties], IPropertyDescriptionSearchInfo interface [Windows Properties],described, _shell_IPropertyDescriptionSearchInfo, properties.IPropertyDescriptionSearchInfo, propsys/IPropertyDescriptionSearchInfo, shell.IPropertyDescriptionSearchInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

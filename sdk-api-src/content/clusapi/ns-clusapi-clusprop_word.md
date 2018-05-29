@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi.CLUSPROP_WORD
 title: CLUSPROP_WORD
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes numeric data.
 old-location: mscs\clusprop_word.htm
 old-project: MsCS
 ms.assetid: ba09290b-171b-45cf-a367-485f7322ebef
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLUSPROP_WORD, CLUSPROP_WORD, CLUSPROP_WORD structure [Failover Cluster], PCLUSPROP_WORD, PCLUSPROP_WORD structure pointer [Failover Cluster], _wolf_clusprop_word, clusapi/CLUSPROP_WORD, clusapi/PCLUSPROP_WORD, mscs.clusprop_word"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

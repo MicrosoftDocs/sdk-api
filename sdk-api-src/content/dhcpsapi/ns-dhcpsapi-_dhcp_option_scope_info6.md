@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_SCOPE_INFO6
 title: "_DHCP_OPTION_SCOPE_INFO6"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the data associated with a DHCP option scope.
 old-location: dhcp\dhcp_option_scope_info6.htm
 old-project: DHCP
 ms.assetid: d5c0cff9-7164-4f14-a0a9-58311390ebd9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_OPTION_SCOPE_INFO6, DHCP_OPTION_SCOPE_INFO6, DHCP_OPTION_SCOPE_INFO6 structure [DHCP], PDHCP_OPTION_SCOPE_INFO6, PDHCP_OPTION_SCOPE_INFO6 structure pointer [DHCP], _DHCP_OPTION_SCOPE_INFO6, dhcp.dhcp_option_scope_info6, dhcpsapi/DHCP_OPTION_SCOPE_INFO6, dhcpsapi/PDHCP_OPTION_SCOPE_INFO6"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

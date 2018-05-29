@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagENUMLOGFONTA
 title: tagENUMLOGFONTA
-author: windows-driver-content
+author: windows-sdk-content
 description: The ENUMLOGFONT structure defines the attributes of a font, the complete name of a font, and the style of a font.
 old-location: gdi\enumlogfont.htm
 old-project: gdi
 ms.assetid: cfae9e97-c714-40fb-88ab-95e12ea3ffa9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPENUMLOGFONTA, ENUMLOGFONT, ENUMLOGFONT structure [Windows GDI], ENUMLOGFONTA, ENUMLOGFONTW, LPENUMLOGFONT, LPENUMLOGFONT structure pointer [Windows GDI], _win32_ENUMLOGFONT_str, gdi.enumlogfont, tagENUMLOGFONTA, wingdi/ENUMLOGFONT, wingdi/ENUMLOGFONTA, wingdi/ENUMLOGFONTW, wingdi/LPENUMLOGFONT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

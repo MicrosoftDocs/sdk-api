@@ -1,16 +1,16 @@
 ---
 UID: NE:tapi3.AGENTHANDLER_EVENT
 title: AGENTHANDLER_EVENT
-author: windows-driver-content
+author: windows-sdk-content
 description: The AGENTHANDLER_EVENT enum describes agent handler events. The ITAgentHandlerEvent::get_Event method returns a member of this enum to indicate the type of agent handler event that occurred.
 old-location: tapi3\agenthandler_event.htm
 old-project: Tapi
 ms.assetid: 6d8340a9-dfe5-43bc-a223-d534f5b90cba
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AGENTHANDLER_EVENT, AGENTHANDLER_EVENT enumeration [TAPI 2.2], AHE_AGENTHANDLER_REMOVED, AHE_NEW_AGENTHANDLER, _tapi3_agenthandler_event, tapi3.agenthandler_event, tapi3cc/AGENTHANDLER_EVENT, tapi3cc/AHE_AGENTHANDLER_REMOVED, tapi3cc/AHE_NEW_AGENTHANDLER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3.h
 req.include-header: Tapi3.h

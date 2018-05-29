@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetSeekPositionForValue
 title: IMFASFIndexer::GetSeekPositionForValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Given a desired seek time, gets the offset from which the client should start reading data.
 old-location: mf\imfasfindexer_getseekpositionforvalue.htm
 old-project: medfound
 ms.assetid: c8e9982e-b056-48dc-ac5f-20bf65b475ec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSeekPositionForValue, GetSeekPositionForValue method [Media Foundation], GetSeekPositionForValue method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetSeekPositionForValue method, IMFASFIndexer.GetSeekPositionForValue, IMFASFIndexer::GetSeekPositionForValue, c8e9982e-b056-48dc-ac5f-20bf65b475ec, mf.imfasfindexer_getseekpositionforvalue, wmcontainer/IMFASFIndexer::GetSeekPositionForValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

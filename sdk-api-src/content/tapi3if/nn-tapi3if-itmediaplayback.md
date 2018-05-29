@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITMediaPlayback
 title: ITMediaPlayback
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITMediaPlayback interface provides playback-specific methods that allow an application to set and get the list of files to play. This interface is created by calling QueryInterface on ITTerminal.
 old-location: tapi3\itmediaplayback.htm
 old-project: Tapi
 ms.assetid: 66b43721-f902-4a0e-8cbb-418438617f47
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITMediaPlayback, ITMediaPlayback interface [TAPI 2.2], ITMediaPlayback interface [TAPI 2.2],described, _tapi3_itmediaplayback, tapi3.itmediaplayback, tapi3if/ITMediaPlayback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

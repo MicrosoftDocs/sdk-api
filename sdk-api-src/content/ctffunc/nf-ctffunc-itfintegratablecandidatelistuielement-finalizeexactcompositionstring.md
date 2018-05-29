@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString
 title: ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString
-author: windows-driver-content
+author: windows-sdk-content
 description: Finalizes the current composition with the value currently shown to the user.
 old-location: tsf\itfintegratablecandidatelistuielement_finalizeexactcompositionstring.htm
 old-project: TSF
 ms.assetid: 1A81C1D7-2D7A-41A0-9DB7-0F30AE610051
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FinalizeExactCompositionString, FinalizeExactCompositionString method [Text Services Framework], FinalizeExactCompositionString method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ITfIntegratableCandidateListUIElement interface [Text Services Framework],FinalizeExactCompositionString method, ITfIntegratableCandidateListUIElement.FinalizeExactCompositionString, ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString, ctffunc/ITfIntegratableCandidateListUIElement::FinalizeExactCompositionString, tsf.itfintegratablecandidatelistuielement_finalizeexactcompositionstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

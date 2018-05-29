@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptDuplicateKey
 title: BCryptDuplicateKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a duplicate of a symmetric key.
 old-location: security\bcryptduplicatekey_func.htm
 old-project: SecCNG
 ms.assetid: 13a0b904-353f-498a-bdc2-2fd4e51144ff
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptDuplicateKey, BCryptDuplicateKey function [Security], bcrypt/BCryptDuplicateKey, security.bcryptduplicatekey_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

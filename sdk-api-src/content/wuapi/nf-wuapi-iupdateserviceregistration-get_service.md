@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateServiceRegistration.get_Service
 title: IUpdateServiceRegistration::get_Service
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to an IUpdateService2 interface. This property is the default property.
 old-location: wua\iupdateserviceregistration_service.htm
 old-project: Wua_Sdk
 ms.assetid: d890c92f-c0f5-4445-ba6d-044bb0d6983b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateServiceRegistration interface [Windows Update Agent],Service property, IUpdateServiceRegistration.Service, IUpdateServiceRegistration.get_Service, IUpdateServiceRegistration::Service, IUpdateServiceRegistration::get_Service, Service property [Windows Update Agent], Service property [Windows Update Agent],IUpdateServiceRegistration interface, get_Service, wua.iupdateserviceregistration_service, wuapi/IUpdateServiceRegistration::Service, wuapi/IUpdateServiceRegistration::get_Service
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

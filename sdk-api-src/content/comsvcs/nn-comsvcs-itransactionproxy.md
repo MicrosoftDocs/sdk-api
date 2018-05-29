@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ITransactionProxy
 title: ITransactionProxy
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a way for a COM+ transaction context to work with a non-DTC transaction.
 old-location: cos\itransactionproxy.htm
 old-project: cossdk
 ms.assetid: 58d40456-fd4f-4690-a679-3fa58b2f3cda
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ITransactionProxy, ITransactionProxy interface [COM+], ITransactionProxy interface [COM+],described, comsvcs/ITransactionProxy, cos.itransactionproxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

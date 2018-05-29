@@ -1,16 +1,16 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetSecuritySetting
 title: IDot11AdHocNetwork::GetSecuritySetting
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the security settings for the network.
 old-location: nwifi\idot11adhocnetwork_getsecuritysetting.htm
 old-project: NativeWiFi
 ms.assetid: 3e5fa757-41fd-4541-a16e-15c2fb66e15a
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: GetSecuritySetting, GetSecuritySetting method [NativeWIFI], GetSecuritySetting method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSecuritySetting method, IDot11AdHocNetwork.GetSecuritySetting, IDot11AdHocNetwork::GetSecuritySetting, adhoc/IDot11AdHocNetwork::GetSecuritySetting, nwifi.idot11adhocnetwork_getsecuritysetting
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPLibrarySharingServices.showLibrarySharing
 title: IWMPLibrarySharingServices::showLibrarySharing
-author: windows-driver-content
+author: windows-sdk-content
 description: The showLibrarySharing method displays the Windows Media Player Library Sharing dialog box.
 old-location: wmp\iwmplibrarysharingservices_showlibrarysharing.htm
 old-project: WMP
 ms.assetid: 87c335ee-c9af-4182-a460-118c53308dad
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPLibrarySharingServices interface [Windows Media Player],showLibrarySharing method, IWMPLibrarySharingServices.showLibrarySharing, IWMPLibrarySharingServices::showLibrarySharing, IWMPLibrarySharingServicesshowLibrarySharing, showLibrarySharing, showLibrarySharing method [Windows Media Player], showLibrarySharing method [Windows Media Player],IWMPLibrarySharingServices interface, wmp.iwmplibrarysharingservices_showlibrarysharing, wmp/IWMPLibrarySharingServices::showLibrarySharing
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

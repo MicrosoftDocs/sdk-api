@@ -1,16 +1,16 @@
 ---
 UID: NS:usp10.SCRIPT_PROPERTIES
 title: SCRIPT_PROPERTIES
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about special processing for each script.
 old-location: intl\script_properties.htm
 old-project: Intl
 ms.assetid: 473c1265-1c2c-48f3-a852-c701bebcf9eb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FALSE, SCRIPT_PROPERTIES, SCRIPT_PROPERTIES structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_PROPERTIES_str, intl.script_properties, usp10/SCRIPT_PROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:lmdfs.NetDfsAddStdRoot
 title: NetDfsAddStdRoot function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new stand-alone Distributed File System (DFS) namespace.
 old-location: dfs\netdfsaddstdroot.htm
 old-project: Dfs
 ms.assetid: e59236ac-06d7-4b2f-b318-ec13e6c662ac
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: NetDfsAddStdRoot, NetDfsAddStdRoot function [Distributed File System], _win32_netdfsaddstdroot, dfs.netdfsaddstdroot, fs.netdfsaddstdroot, lmdfs/NetDfsAddStdRoot, netmgmt.netdfsaddstdroot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

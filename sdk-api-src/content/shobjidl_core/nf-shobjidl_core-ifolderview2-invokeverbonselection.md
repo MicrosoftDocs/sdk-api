@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.InvokeVerbOnSelection
 title: IFolderView2::InvokeVerbOnSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: Invokes the given verb on the current selection.
 old-location: shell\IFolderView2_InvokeVerbOnSelection.htm
 old-project: shell
 ms.assetid: 085a08f9-c6a2-417c-973a-d0df84d8c821
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFolderView2 interface [Windows Shell],InvokeVerbOnSelection method, IFolderView2.InvokeVerbOnSelection, IFolderView2::InvokeVerbOnSelection, InvokeVerbOnSelection, InvokeVerbOnSelection method [Windows Shell], InvokeVerbOnSelection method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_InvokeVerbOnSelection, shell.IFolderView2_InvokeVerbOnSelection, shobjidl_core/IFolderView2::InvokeVerbOnSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

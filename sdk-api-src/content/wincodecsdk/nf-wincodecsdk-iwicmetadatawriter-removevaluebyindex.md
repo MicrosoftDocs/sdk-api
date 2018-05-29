@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriter.RemoveValueByIndex
 title: IWICMetadataWriter::RemoveValueByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the metadata item at the specified index.
 old-location: wic\_wic_codec_iwicmetadatawriter_removevaluebyindex.htm
 old-project: wic
 ms.assetid: 65cf7e21-e474-4652-9ee1-0802362f65ca
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],RemoveValueByIndex method, IWICMetadataWriter.RemoveValueByIndex, IWICMetadataWriter::RemoveValueByIndex, RemoveValueByIndex, RemoveValueByIndex method [Windows Imaging Component], RemoveValueByIndex method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_removevaluebyindex, wic._wic_codec_iwicmetadatawriter_removevaluebyindex, wincodecsdk/IWICMetadataWriter::RemoveValueByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.GetIScsiTargetInformationA
 title: GetIScsiTargetInformationA function
-author: windows-driver-content
+author: windows-sdk-content
 description: GetIscsiTargetInformation function retrieves information about the specified target.
 old-location: iscsidisc\getiscsitargetinformation.htm
 old-project: iSCSIDisc
 ms.assetid: 3db31d0b-ed08-432b-9c28-a700c4a9d369
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetIScsiTargetInformationA, GetIscsiTargetInformation, GetIscsiTargetInformation function [iSCSI Discovery Library API], GetIscsiTargetInformationA, GetIscsiTargetInformationW, iscsidisc.getiscsitargetinformation, iscsidsc/GetIscsiTargetInformation, iscsidsc/GetIscsiTargetInformationA, iscsidsc/GetIscsiTargetInformationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

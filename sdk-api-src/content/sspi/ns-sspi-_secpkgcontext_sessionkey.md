@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SecPkgContext_SessionKey
 title: "_SecPkgContext_SessionKey"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SecPkgContext_SessionKey structure contains information about the session key used for the security context. This structure is returned by the QueryContextAttributes (General) function.
 old-location: security\secpkgcontext_sessionkey.htm
 old-project: SecAuthN
 ms.assetid: 88cf437e-3be0-4f12-9058-ad078deed6a1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgContext_SessionKey, PSecPkgContext_SessionKey, PSecPkgContext_SessionKey structure pointer [Security], SecPkgContext_SessionKey, SecPkgContext_SessionKey structure [Security], _SecPkgContext_SessionKey, security.secpkgcontext_sessionkey, sspi/PSecPkgContext_SessionKey, sspi/SecPkgContext_SessionKey"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h

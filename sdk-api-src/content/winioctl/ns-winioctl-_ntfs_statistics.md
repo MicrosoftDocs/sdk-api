@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._NTFS_STATISTICS
 title: "_NTFS_STATISTICS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains statistical information from the NTFS file system.
 old-location: fs\ntfs_statistics_str.htm
 old-project: FileIO
 ms.assetid: 9b5cffc5-386d-4333-9a37-cc27b8f9b187
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PNTFS_STATISTICS, NTFS_STATISTICS, NTFS_STATISTICS structure [Files], PNTFS_STATISTICS, PNTFS_STATISTICS structure pointer [Files], _NTFS_STATISTICS, base.ntfs_statistics_str, fs.ntfs_statistics_str, winioctl/NTFS_STATISTICS, winioctl/PNTFS_STATISTICS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

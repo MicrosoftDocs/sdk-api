@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzAuthorizationStore2
 title: IAzAuthorizationStore2
-author: windows-driver-content
+author: windows-sdk-content
 description: Inherits from the AzAuthorizationStore object and implements methods to create and open IAzApplication2 objects.
 old-location: security\iazauthorizationstore2.htm
 old-project: SecAuthZ
 ms.assetid: 8b3901a9-003f-4346-a0c7-34a1ed730949
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzAuthorizationStore2, IAzAuthorizationStore2 interface [Security], IAzAuthorizationStore2 interface [Security],described, azroles/IAzAuthorizationStore2, security.iazauthorizationstore2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:virtdisk._EXPAND_VIRTUAL_DISK_VERSION
 title: "_EXPAND_VIRTUAL_DISK_VERSION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the version of the virtual disk EXPAND_VIRTUAL_DISK_PARAMETERS structure to use in calls to virtual disk functions.
 old-location: vhd\expand_virtual_disk_version.htm
 old-project: VStor
 ms.assetid: 28651993-81ad-4dfc-9c8b-3768fab5d3ae
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: EXPAND_VIRTUAL_DISK_VERSION, EXPAND_VIRTUAL_DISK_VERSION enumeration [VHD], EXPAND_VIRTUAL_DISK_VERSION_1, EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED, _EXPAND_VIRTUAL_DISK_VERSION, vhd.expand_virtual_disk_version, virtdisk/EXPAND_VIRTUAL_DISK_VERSION, virtdisk/EXPAND_VIRTUAL_DISK_VERSION_1, virtdisk/EXPAND_VIRTUAL_DISK_VERSION_UNSPECIFIED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: Windows.h

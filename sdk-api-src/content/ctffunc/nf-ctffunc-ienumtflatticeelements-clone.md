@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.IEnumTfLatticeElements.Clone
 title: IEnumTfLatticeElements::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: IEnumTfLatticeElements::Clone method
 old-location: tsf\ienumtflatticeelements_clone.htm
 old-project: TSF
 ms.assetid: 867fe614-d8c0-4987-b35a-bd5b175e6850
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfLatticeElements interface, IEnumTfLatticeElements interface [Text Services Framework],Clone method, IEnumTfLatticeElements.Clone, IEnumTfLatticeElements::Clone, _tsf_ienumtflatticeelements_clone_ref, ctffunc/IEnumTfLatticeElements::Clone, tsf.ienumtflatticeelements_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

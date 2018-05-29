@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IScheduleCollection.AddRange
 title: IScheduleCollection::AddRange
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds one or more schedules to the collection.
 old-location: pla\ischedulecollection_addrange.htm
 old-project: PLA
 ms.assetid: a1398bb5-d8a9-49c0-802c-2945428a3e0a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: AddRange, AddRange method [PLA], AddRange method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],AddRange method, IScheduleCollection.AddRange, IScheduleCollection::AddRange, base.ischedulecollection_addrange, pla.ischedulecollection_addrange, pla/IScheduleCollection::AddRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

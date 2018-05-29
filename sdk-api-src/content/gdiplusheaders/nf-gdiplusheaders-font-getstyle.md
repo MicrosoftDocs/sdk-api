@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Font.GetStyle
 title: Font::GetStyle
-author: windows-driver-content
+author: windows-sdk-content
 description: The Font::GetStyle method gets the style of this font's typeface.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetStyle_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getstyle.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Font class [GDI+],GetStyle method, Font.GetStyle, Font::GetStyle, GetStyle, GetStyle method [GDI+], GetStyle method [GDI+],Font class, _gdiplus_CLASS_Font_GetStyle_, gdiplus._gdiplus_CLASS_Font_GetStyle_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

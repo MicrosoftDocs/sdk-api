@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetDataType
 title: IISDB_CDT::GetDataType
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives the data type value from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getdatatype.htm
 old-project: mstv
 ms.assetid: 843e1a0a-b4bb-487e-aa21-1bd6c32cceae
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDataType, GetDataType method [Microsoft TV Technologies], GetDataType method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetDataType method, IISDB_CDT.GetDataType, IISDB_CDT::GetDataType, dvbsiparser/IISDB_CDT::GetDataType, mstv.iisdb_cdt_getdatatype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMReaderPlaylistBurn
 title: IWMReaderPlaylistBurn
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMReaderPlaylistBurn interface verifies that the files in a playlist can be copied to CD, in the order in which they are specified.
 old-location: wmformat\iwmreaderplaylistburn.htm
 old-project: wmformat
 ms.assetid: a0e1a4f3-4226-44a2-b38e-e5512fda2048
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReaderPlaylistBurn, IWMReaderPlaylistBurn interface [windows Media Format], IWMReaderPlaylistBurn interface [windows Media Format],described, IWMReaderPlaylistBurnInterface, wmformat.iwmreaderplaylistburn, wmsdkidl/IWMReaderPlaylistBurn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

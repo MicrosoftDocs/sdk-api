@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmpipeline.IFsrmProperty
 title: IFsrmProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an instance of a property.
 old-location: fsrm\ifsrmproperty.htm
 old-project: Fsrm
 ms.assetid: feffccd1-cf72-45c0-97b3-d6efd736223e
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmProperty, IFsrmProperty interface [File Server Resource Manager], IFsrmProperty interface [File Server Resource Manager],described, fs.ifsrmproperty, fsrm.ifsrmproperty, fsrm/IFsrmProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

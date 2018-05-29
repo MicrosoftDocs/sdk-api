@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateVideoProcessorInputView
 title: ID3D11VideoDevice::CreateVideoProcessorInputView
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a resource view for a video processor, describing the input sample for the video processing operation.
 old-location: mf\id3d11videodevice_createvideoprocessorinputview.htm
 old-project: medfound
 ms.assetid: 3245D2AF-74A1-4068-A0BC-577FD42B353E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateVideoProcessorInputView, CreateVideoProcessorInputView method [Media Foundation], CreateVideoProcessorInputView method [Media Foundation],ID3D11VideoDevice interface, ID3D11VideoDevice interface [Media Foundation],CreateVideoProcessorInputView method, ID3D11VideoDevice.CreateVideoProcessorInputView, ID3D11VideoDevice::CreateVideoProcessorInputView, d3d11/ID3D11VideoDevice::CreateVideoProcessorInputView, mf.id3d11videodevice_createvideoprocessorinputview
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

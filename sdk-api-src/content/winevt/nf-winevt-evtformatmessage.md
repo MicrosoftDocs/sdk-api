@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtFormatMessage
 title: EvtFormatMessage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats a message string.
 old-location: wes\evtformatmessage.htm
 old-project: WES
 ms.assetid: 744fe166-b12c-49d4-ab13-b2ef6a6f9625
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtFormatMessage, EvtFormatMessage function [EventLog], wes.evtformatmessage, winevt/EvtFormatMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetClassName
 title: IWbemPath::GetClassName
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemPath::GetClassName method retrieves the class name portion from the path.
 old-location: wmi\iwbempath_getclassname.htm
 old-project: WmiSdk
 ms.assetid: d7555d66-38d6-4d87-a241-6cce8674fa44
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetClassName, GetClassName method [Windows Management Instrumentation], GetClassName method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetClassName method, IWbemPath.GetClassName, IWbemPath::GetClassName, _hmm_iwbempath_getclassname, wmi.iwbempath_getclassname, wmiutils/IWbemPath::GetClassName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

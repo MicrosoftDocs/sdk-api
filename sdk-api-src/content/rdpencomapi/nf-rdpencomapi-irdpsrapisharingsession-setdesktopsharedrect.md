@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.SetDesktopSharedRect
 title: IRDPSRAPISharingSession::SetDesktopSharedRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the desktop region that will be shared.
 old-location: rdp\irdpsrapisharingsession_setdesktopsharedrect.htm
 old-project: Rdp
 ms.assetid: 8dda8b52-5bec-45ed-9215-2009cb74bf3e
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],SetDesktopSharedRect method, IRDPSRAPISharingSession.SetDesktopSharedRect, IRDPSRAPISharingSession2 interface [RDP],SetDesktopSharedRect method, IRDPSRAPISharingSession2::SetDesktopSharedRect, IRDPSRAPISharingSession::SetDesktopSharedRect, SetDesktopSharedRect, SetDesktopSharedRect method [RDP], SetDesktopSharedRect method [RDP],IRDPSRAPISharingSession interface, SetDesktopSharedRect method [RDP],IRDPSRAPISharingSession2 interface, rdp.irdpsrapisharingsession_setdesktopsharedrect, rdpencomapi/IRDPSRAPISharingSession2::SetDesktopSharedRect, rdpencomapi/IRDPSRAPISharingSession::SetDesktopSharedRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

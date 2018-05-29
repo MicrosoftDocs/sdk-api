@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_FIRMWARE_GET_INFO
 title: IOCTL_STORAGE_FIRMWARE_GET_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Windows applications can use this control code to query the storage device for detailed firmware information.
 old-location: fs\ioctl_storage_firmware_get_info.htm
 old-project: FileIO
 ms.assetid: DBF40C42-2282-4F0E-B83A-D3154D7EF332
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IOCTL_STORAGE_FIRMWARE_GET_INFO, IOCTL_STORAGE_FIRMWARE_GET_INFO control, IOCTL_STORAGE_FIRMWARE_GET_INFO control code [Files], fs.ioctl_storage_firmware_get_info, winioctl/IOCTL_STORAGE_FIRMWARE_GET_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

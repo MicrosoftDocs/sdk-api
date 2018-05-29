@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IInvalidProductLicenseException
 title: IInvalidProductLicenseException
-author: windows-driver-content
+author: windows-sdk-content
 description: Encapsulates the exception that is thrown when an invalid license is detected for a product.
 old-location: wua\iinvalidproductlicenseexception.htm
 old-project: Wua_Sdk
 ms.assetid: 7855fcf7-e82e-4d74-a29a-99ef86b59637
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IInvalidProductLicenseException, IInvalidProductLicenseException interface [Windows Update Agent], IInvalidProductLicenseException interface [Windows Update Agent],described, wua.iinvalidproductlicenseexception, wuapi/IInvalidProductLicenseException
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

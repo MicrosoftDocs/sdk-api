@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationCacheRequest
 title: IUIAutomationCacheRequest
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes properties and methods of a cache request. Client applications use this interface to specify the properties and control patterns to be cached when a Microsoft UI Automation element is obtained.
 old-location: winauto\uiauto_IUIAutomationCacheRequest.htm
 old-project: WinAuto
 ms.assetid: 8e5d7f6e-c4c7-4bb9-ba33-959e098ecd41
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationCacheRequest, IUIAutomationCacheRequest interface [Windows Accessibility], IUIAutomationCacheRequest interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationCacheRequest, uiauto_IUIAutomationCacheRequest, uiautomationclient/IUIAutomationCacheRequest, winauto.uiauto_IUIAutomationCacheRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

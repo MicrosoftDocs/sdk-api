@@ -1,16 +1,16 @@
 ---
 UID: NF:coml2api.PropStgNameToFmtId
 title: PropStgNameToFmtId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a property set storage or stream name to its format identifier.
 old-location: stg\propstgnametofmtid.htm
 old-project: Stg
 ms.assetid: bbbaf5a3-df17-42fd-ba2b-ad5b572c8a3f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropStgNameToFmtId, PropStgNameToFmtId function [Structured Storage], _stg_propstgnametofmtid, coml2api/PropStgNameToFmtId, stg.propstgnametofmtid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Propidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi._CLUSTER_CREATE_GROUP_INFO
 title: "_CLUSTER_CREATE_GROUP_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows the caller to provide additional properties when creating a new group.
 old-location: mscs\cluster_create_group_info.htm
 old-project: MsCS
 ms.assetid: DBF71DAA-B8F1-42BF-AC82-FAFA9ADE4C44
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLUSTER_CREATE_GROUP_INFO, CLUSTER_CREATE_GROUP_INFO, CLUSTER_CREATE_GROUP_INFO structure [Failover Cluster], PCLUSTER_CREATE_GROUP_INFO, PCLUSTER_CREATE_GROUP_INFO structure pointer [Failover Cluster], _CLUSTER_CREATE_GROUP_INFO, _CLUSTER_CREATE_GROUP_INFO structure [Failover Cluster], clusapi/CLUSTER_CREATE_GROUP_INFO, clusapi/PCLUSTER_CREATE_GROUP_INFO, clusapi/_CLUSTER_CREATE_GROUP_INFO, msclus/CLUSTER_CREATE_GROUP_INFO, msclus/PCLUSTER_CREATE_GROUP_INFO, msclus/_CLUSTER_CREATE_GROUP_INFO, mscs.cluster_create_group_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Is_Dock_Station_Present
 title: CM_Is_Dock_Station_Present function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Is_Dock_Station_Present function identifies whether a docking station is present in a local machine.
 old-location: devinst\cm_is_dock_station_present.htm
 old-project: devinst
 ms.assetid: 1c07dca9-5209-46d5-a0a3-87a615e3d40a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Is_Dock_Station_Present, CM_Is_Dock_Station_Present function [Device and Driver Installation], cfgmgr32/CM_Is_Dock_Station_Present, cfgmgrfn_ad4a7b33-0c70-4f03-91e2-c4707c83656e.xml, devinst.cm_is_dock_station_present
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

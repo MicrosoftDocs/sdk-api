@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolCleanupGroup
 title: CloseThreadpoolCleanupGroup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the specified cleanup group.
 old-location: base\closethreadpoolcleanupgroup.htm
 old-project: ProcThread
 ms.assetid: e38e4d99-63f2-4bac-8675-cf0f3aa149a7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CloseThreadpoolCleanupGroup, CloseThreadpoolCleanupGroup function, base.closethreadpoolcleanupgroup, threadpoolapiset/CloseThreadpoolCleanupGroup, winbase/CloseThreadpoolCleanupGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msclus.ISCluster.get_Name
 title: ISCluster::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the name of the cluster.
 old-location: mscs\cluster_name.htm
 old-project: MsCS
 ms.assetid: 8d42bb44-f4af-49f3-b6c9-055625739557
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Cluster object [Failover Cluster],Name property, Cluster.Name, ISCluster.get_Name, ISCluster.put_Name, ISCluster::get_Name, Name property [Failover Cluster], Name property [Failover Cluster],Cluster object, _wolf_cluster.name, get_Name, mscs.cluster_name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msclus.h
 req.include-header: 

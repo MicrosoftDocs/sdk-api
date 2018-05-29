@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFInitVideoFormat_RGB
 title: MFInitVideoFormat_RGB function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an MFVIDEOFORMAT structure for an uncompressed RGB video format.
 old-location: mf\mfinitvideoformat_rgb.htm
 old-project: medfound
 ms.assetid: 4c437f26-6fe1-477d-9955-bc900215aa59
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 4c437f26-6fe1-477d-9955-bc900215aa59, MFInitVideoFormat_RGB, MFInitVideoFormat_RGB function [Media Foundation], mf.mfinitvideoformat_rgb, mfapi/MFInitVideoFormat_RGB
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_StartTime
 title: IFaxStatus::get_StartTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the StartTime property for the FaxStatus object of a parent FaxPort object. The StartTime property is a number that represents the starting time for an active fax job.
 old-location: fax\_mfax_ifaxstatus_get_starttime_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7cmd.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxStatus object [Fax Service],StartTime property, FaxStatus.StartTime, IFaxStatus.get_StartTime, IFaxStatus::get_StartTime, StartTime property [Fax Service], StartTime property [Fax Service],FaxStatus object, _mfax_ifaxstatus_get_starttime, fax._mfax_ifaxstatus_get_starttime, fax._mfax_ifaxstatus_get_starttime_vb, get_StartTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

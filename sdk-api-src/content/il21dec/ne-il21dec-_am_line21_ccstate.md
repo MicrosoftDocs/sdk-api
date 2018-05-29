@@ -1,16 +1,16 @@
 ---
 UID: NE:il21dec._AM_LINE21_CCSTATE
 title: "_AM_LINE21_CCSTATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the closed captioning state (on or off).
 old-location: dshow\am_line21_ccstate.htm
 old-project: DirectShow
 ms.assetid: fdd1dec4-660c-46d0-b18c-b725b813c6a7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PAM_LINE21_CCSTATE, AM_L21_CCSTATE_Off, AM_L21_CCSTATE_On, AM_LINE21_CCSTATE, AM_LINE21_CCSTATE , AM_LINE21_CCSTATE enumeration [DirectShow], AM_LINE21_CCSTATEEnumeration, PAM_LINE21_CCSTATE, PAM_LINE21_CCSTATE enumeration pointer [DirectShow], _AM_LINE21_CCSTATE, dshow.am_line21_ccstate, il21dec/AM_L21_CCSTATE_Off, il21dec/AM_L21_CCSTATE_On, il21dec/AM_LINE21_CCSTATE, il21dec/PAM_LINE21_CCSTATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: il21dec.h
 req.include-header: 

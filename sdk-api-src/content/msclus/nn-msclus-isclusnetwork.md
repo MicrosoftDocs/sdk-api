@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusNetwork
 title: ISClusNetwork
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables operations on a network, its properties, and related objects.
 old-location: mscs\clusnetwork_object.htm
 old-project: MsCS
 ms.assetid: d51e9872-eb86-4b0e-b417-1a2e5ac6ee9c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusNetwork, ClusNetwork object [Failover Cluster], ClusNetwork object [Failover Cluster],described, ISClusNetwork, _wolf_clusnetwork_object, msclus/ClusNetwork, mscs.clusnetwork_object
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

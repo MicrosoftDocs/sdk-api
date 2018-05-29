@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcIfIdVectorFree
 title: RpcIfIdVectorFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcIfIdVectorFree function frees the vector and the interface-identification structures contained in the vector.
 old-location: rpc\rpcifidvectorfree.htm
 old-project: Rpc
 ms.assetid: 1af518a7-02db-438a-ba3f-723bd8422188
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcIfIdVectorFree, RpcIfIdVectorFree function [RPC], _rpc_rpcifidvectorfree, rpc.rpcifidvectorfree, rpcdce/RpcIfIdVectorFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

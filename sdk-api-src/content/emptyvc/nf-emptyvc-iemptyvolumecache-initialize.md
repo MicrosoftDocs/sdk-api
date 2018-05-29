@@ -1,16 +1,16 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache.Initialize
 title: IEmptyVolumeCache::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the disk cleanup handler, based on the information stored under the specified registry key.
 old-location: lwef\iemptyvolumecache_initialize.htm
 old-project: lwef
 ms.assetid: e0d66c58-6963-4694-984f-6f4a710d08c0
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.author: windowssdkdev
+ms.date: 04/27/2018
 ms.keywords: EVCF_DONTSHOWIFZERO, EVCF_ENABLEBYDEFAULT, EVCF_ENABLEBYDEFAULT_AUTO, EVCF_HASSETTINGS, EVCF_OUTOFDISKSPACE, EVCF_REMOVEFROMLIST, EVCF_SETTINGSMODE, IEmptyVolumeCache interface [Legacy Windows Environment Features],Initialize method, IEmptyVolumeCache.Initialize, IEmptyVolumeCache::Initialize, Initialize, Initialize method [Legacy Windows Environment Features], Initialize method [Legacy Windows Environment Features],IEmptyVolumeCache interface, These flags can be passed by the handler back to the disk cleanup manager:, These flags can be passed in to the object:, _win32_IEmptyVolumeCache_Initialize, emptyvc/IEmptyVolumeCache::Initialize, lwef.iemptyvolumecache_initialize, shell.iemptyvolumecache_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: emptyvc.h
 req.include-header: 

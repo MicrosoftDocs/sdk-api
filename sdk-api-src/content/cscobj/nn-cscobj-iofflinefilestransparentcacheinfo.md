@@ -1,16 +1,16 @@
 ---
 UID: NN:cscobj.IOfflineFilesTransparentCacheInfo
 title: IOfflineFilesTransparentCacheInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents information associated with transparently cached items.
 old-location: of\iofflinefilestransparentcacheinfo.htm
 old-project: OfflineFiles
 ms.assetid: 49c8213c-e8a1-4cb8-9b58-120fc0982b7b
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesTransparentCacheInfo, IOfflineFilesTransparentCacheInfo interface [Offline Files], IOfflineFilesTransparentCacheInfo interface [Offline Files],described, cscobj/IOfflineFilesTransparentCacheInfo, of.iofflinefilestransparentcacheinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

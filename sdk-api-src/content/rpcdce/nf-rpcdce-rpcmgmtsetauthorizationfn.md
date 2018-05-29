@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcMgmtSetAuthorizationFn
 title: RpcMgmtSetAuthorizationFn function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcMgmtSetAuthorizationFn function establishes an authorization function for processing remote calls to a server's management functions.
 old-location: rpc\rpcmgmtsetauthorizationfn.htm
 old-project: Rpc
 ms.assetid: bb381a52-17e4-4ebe-9a1a-a561c12d73d4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcMgmtSetAuthorizationFn, RpcMgmtSetAuthorizationFn function [RPC], _rpc_rpcmgmtsetauthorizationfn, rpc.rpcmgmtsetauthorizationfn, rpcdce/RpcMgmtSetAuthorizationFn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

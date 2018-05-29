@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_Length
 title: IX509PrivateKey::put_Length
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies or retrieves the length, in bits, of the private key.
 old-location: security\ix509privatekey_length_property.htm
 old-project: SecCertEnroll
 ms.assetid: de25aa05-bd65-49a6-9cd1-e18522c9e190
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509PrivateKey interface [Security],Length property, IX509PrivateKey.Length, IX509PrivateKey.put_Length, IX509PrivateKey::Length, IX509PrivateKey::get_Length, IX509PrivateKey::put_Length, Length property [Security], Length property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Length, certenroll/IX509PrivateKey::get_Length, certenroll/IX509PrivateKey::put_Length, put_Length, security.ix509privatekey_length_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

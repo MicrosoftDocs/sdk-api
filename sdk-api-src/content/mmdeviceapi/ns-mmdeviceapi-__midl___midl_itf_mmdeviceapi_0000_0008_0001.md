@@ -1,16 +1,16 @@
 ---
 UID: NS:mmdeviceapi.__MIDL___MIDL_itf_mmdeviceapi_0000_0008_0001
 title: "__MIDL___MIDL_itf_mmdeviceapi_0000_0008_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: This structure is passed to the Control Panel Endpoint Extension property page through IShellPropSheetExt::AddPages and is used to create endpoint PropertyPages.
 old-location: coreaudio\audioextensionparams.htm
 old-project: CoreAudio
 ms.assetid: 02A38355-104D-46C0-A34E-C0BB482323A9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AudioExtensionParams, AudioExtensionParams structure [Core Audio], PAudioExtensionParams, PAudioExtensionParams structure pointer [Core Audio], __MIDL___MIDL_itf_mmdeviceapi_0000_0008_0001, coreaudio.audioextensionparams, mmdeviceapi/AudioExtensionParams, mmdeviceapi/PAudioExtensionParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmdeviceapi.h
 req.include-header: Mmdevapi.idl

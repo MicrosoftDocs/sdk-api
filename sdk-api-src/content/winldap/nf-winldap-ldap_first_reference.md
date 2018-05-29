@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_first_reference
 title: ldap_first_reference function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the first reference from a message.
 old-location: ldap\ldap_first_reference.htm
 old-project: LDAP
 ms.assetid: b9ee4da3-9309-4e2b-95a9-6e0f1625fc79
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_first_reference, ldap.ldap__first__reference, ldap.ldap_first_reference, ldap_first_reference, ldap_first_reference function [LDAP], winldap/ldap_first_reference"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

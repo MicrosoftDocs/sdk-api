@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluseffects.Blur.SetParameters
 title: Blur::SetParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: The Blur::SetParameters method sets the parameters of this Blur object.
 old-location: gdiplus\_gdiplus_CLASS_Blur_SetParameters_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\blurclass\blurmethods\setparameters.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Blur class [GDI+],SetParameters method, Blur.SetParameters, Blur::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],Blur class, _gdiplus_CLASS_Blur_SetParameters_, gdiplus._gdiplus_CLASS_Blur_SetParameters_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

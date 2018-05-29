@@ -1,16 +1,16 @@
 ---
 UID: NF:fdi.FDITruncateCabinet
 title: FDITruncateCabinet function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FDITruncateCabinet function truncates a cabinet file starting at the specified folder number.
 old-location: winprog\fditruncatecabinet.htm
 old-project: DevNotes
 ms.assetid: c923b0a5-1a8d-42aa-bd05-0d318199756d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FDITruncateCabinet, FDITruncateCabinet function [Windows API], fdi/FDITruncateCabinet, winprog.fditruncatecabinet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fdi.h
 req.include-header: 

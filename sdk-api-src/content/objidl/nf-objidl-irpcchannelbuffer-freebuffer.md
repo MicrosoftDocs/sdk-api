@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IRpcChannelBuffer.FreeBuffer
 title: IRpcChannelBuffer::FreeBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a previously allocated RPC channel buffer.
 old-location: com\irpcchannelbuffer_freebuffer.htm
 old-project: com
 ms.assetid: bcdd4783-4a75-42d0-86a9-ab2605abbbe1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FreeBuffer, FreeBuffer method [COM], FreeBuffer method [COM],IRpcChannelBuffer interface, IRpcChannelBuffer interface [COM],FreeBuffer method, IRpcChannelBuffer.FreeBuffer, IRpcChannelBuffer::FreeBuffer, _com_irpcchannelbuffer_freebuffer, com.irpcchannelbuffer_freebuffer, objidlbase/IRpcChannelBuffer::FreeBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

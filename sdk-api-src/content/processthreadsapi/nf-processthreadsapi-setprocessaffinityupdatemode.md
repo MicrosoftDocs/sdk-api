@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.SetProcessAffinityUpdateMode
 title: SetProcessAffinityUpdateMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the affinity update mode of the specified process.
 old-location: base\setprocessaffinityupdatemode.htm
 old-project: ProcThread
 ms.assetid: 46e8f7d2-89b9-42cb-9171-d5ae2ec870da
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: PROCESS_AFFINITY_ENABLE_AUTO_UPDATE, SetProcessAffinityUpdateMode, SetProcessAffinityUpdateMode function, base.setprocessaffinityupdatemode, processthreadsapi/SetProcessAffinityUpdateMode, winbase/SetProcessAffinityUpdateMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

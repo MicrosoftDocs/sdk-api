@@ -1,16 +1,16 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.SetDefault
 title: IDirectDrawVideo::SetDefault
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDefault method makes the current property settings the global default.
 old-location: dshow\idirectdrawvideo_setdefault.htm
 old-project: DirectShow
 ms.assetid: 9525ee57-3c53-42db-bc40-eb1d4658d9b6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetDefault method, IDirectDrawVideo.SetDefault, IDirectDrawVideo::SetDefault, IDirectDrawVideoSetDefault, SetDefault, SetDefault method [DirectShow], SetDefault method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetDefault, dshow.idirectdrawvideo_setdefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

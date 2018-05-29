@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDVB_SIT.GetRecordDescriptorByTag
 title: IDVB_SIT::GetRecordDescriptorByTag
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit_getrecorddescriptorbytag.htm
 old-project: mstv
 ms.assetid: b7b05e81-34e5-4a23-8089-9e9d8f2170cc
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordDescriptorByTag, GetRecordDescriptorByTag method [Microsoft TV Technologies], GetRecordDescriptorByTag method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetRecordDescriptorByTag method, IDVB_SIT.GetRecordDescriptorByTag, IDVB_SIT::GetRecordDescriptorByTag, IDVB_SITGetRecordDescriptorByTag, dvbsiparser/IDVB_SIT::GetRecordDescriptorByTag, mstv.idvb_sit_getrecorddescriptorbytag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

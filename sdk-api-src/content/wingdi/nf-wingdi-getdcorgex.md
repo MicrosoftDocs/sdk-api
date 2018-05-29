@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetDCOrgEx
 title: GetDCOrgEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDCOrgEx function retrieves the final translation origin for a specified device context (DC).
 old-location: gdi\getdcorgex.htm
 old-project: gdi
 ms.assetid: 795c6a69-7146-4d1a-abf9-ce1d740ca946
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDCOrgEx, GetDCOrgEx function [Windows GDI], _win32_GetDCOrgEx, gdi.getdcorgex, wingdi/GetDCOrgEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

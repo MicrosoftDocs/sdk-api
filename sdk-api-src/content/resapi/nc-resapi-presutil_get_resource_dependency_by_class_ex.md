@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX
 title: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the dependencies of a specified resource in a specified cluster and returns a handle to a dependency that matches a specified resource class. The PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependencybyclassex.htm
 old-project: MsCS
 ms.assetid: D35816C8-A449-41FF-9398-A6A4E19C29FB
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX callback, PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX callback function [Failover Cluster], mscs.resutilgetresourcedependencybyclassex, resapi/PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS_EX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

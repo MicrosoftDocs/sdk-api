@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SspiMarshalAuthIdentity
 title: SspiMarshalAuthIdentity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Serializes the specified identity structure into a byte array.
 old-location: security\sspimarshalauthidentity.htm
 old-project: SecAuthN
 ms.assetid: e43135ad-7fcd-4da6-a4e4-c91c41eeb865
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SspiMarshalAuthIdentity, SspiMarshalAuthIdentity function [Security], security.sspimarshalauthidentity, sspi/SspiMarshalAuthIdentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

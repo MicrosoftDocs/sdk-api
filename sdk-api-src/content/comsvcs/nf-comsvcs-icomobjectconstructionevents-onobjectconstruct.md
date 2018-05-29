@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComObjectConstructionEvents.OnObjectConstruct
 title: IComObjectConstructionEvents::OnObjectConstruct
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when a constructed object is created.
 old-location: cos\icomobjectconstructionevents_onobjectconstruct.htm
 old-project: cossdk
 ms.assetid: 8a90e561-79a0-4490-bbc8-f376e4278ab9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComObjectConstructionEvents interface [COM+],OnObjectConstruct method, IComObjectConstructionEvents.OnObjectConstruct, IComObjectConstructionEvents::OnObjectConstruct, OnObjectConstruct, OnObjectConstruct method [COM+], OnObjectConstruct method [COM+],IComObjectConstructionEvents interface, _dtc_IComObjectConstructionEvents_OnObjectConstruct, comsvcs/IComObjectConstructionEvents::OnObjectConstruct, cos.icomobjectconstructionevents_onobjectconstruct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.Init
 title: CMSPCallMultiGraph::Init
-author: windows-driver-content
+author: windows-sdk-content
 description: The Init method is called by the MSP address object (in the method CreateMSPCall) to initialize the MSP call object.
 old-location: tapi3\cmspcallmultigraph_init.htm
 old-project: Tapi
 ms.assetid: ffb250b1-b66c-470b-ac73-91511623da00
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],Init method, CMSPCallMultiGraph.Init, CMSPCallMultiGraph::Init, Init, Init method [TAPI 2.2], Init method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_init, mspcall/CMSPCallMultiGraph::Init, tapi3.cmspcallmultigraph_init
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mspcall.h
 req.include-header: 

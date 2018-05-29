@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSCreateSimplePropertyChange
 title: PSCreateSimplePropertyChange function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a simple property change.
 old-location: properties\PSCreateSimplePropertyChange.htm
 old-project: properties
 ms.assetid: d0bec600-47bd-481c-94b2-ffdff4f2c09b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSCreateSimplePropertyChange, PSCreateSimplePropertyChange function [Windows Properties], _shell_PSCreateSimplePropertyChange, properties.PSCreateSimplePropertyChange, propsys/PSCreateSimplePropertyChange, shell.PSCreateSimplePropertyChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

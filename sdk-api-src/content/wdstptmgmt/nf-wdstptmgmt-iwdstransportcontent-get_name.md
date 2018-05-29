@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.get_Name
 title: IWdsTransportContent::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives a pointer to a string value that contains the name of the data object represented by this content object.
 old-location: wds\iwdstransportcontent_name.htm
 old-project: Wds
 ms.assetid: 24178dca-58b6-463a-adf0-40b5aa0446fc
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Name property, IWdsTransportContent.Name, IWdsTransportContent.get_Name, IWdsTransportContent::Name, IWdsTransportContent::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportContent interface, get_Name, wds.iwdstransportcontent_name, wdstptmgmt/IWdsTransportContent::Name, wdstptmgmt/IWdsTransportContent::get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

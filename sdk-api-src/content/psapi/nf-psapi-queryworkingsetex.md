@@ -1,16 +1,16 @@
 ---
 UID: NF:psapi.QueryWorkingSetEx
 title: QueryWorkingSetEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves extended information about the pages at specific virtual addresses in the address space of the specified process.
 old-location: psapi\queryworkingsetex.htm
 old-project: psapi
 ms.assetid: 59ae76c9-e954-4648-9c9f-787136375b02
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: K32QueryWorkingSetEx, QueryWorkingSetEx, QueryWorkingSetEx function [PSAPI], base.queryworkingsetex, psapi.queryworkingsetex, psapi/K32QueryWorkingSetEx, psapi/QueryWorkingSetEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: psapi.h
 req.include-header: 

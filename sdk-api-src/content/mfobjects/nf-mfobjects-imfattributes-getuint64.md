@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetUINT64
 title: IMFAttributes::GetUINT64
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a UINT64 value associated with a key.
 old-location: mf\imfattributes_getuint64.htm
 old-project: medfound
 ms.assetid: f3240fff-48d8-4d88-8c75-15f00bfe72ed
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetUINT64, GetUINT64 method [Media Foundation], GetUINT64 method [Media Foundation],IMFAttributes interface, IMFAttributes interface [Media Foundation],GetUINT64 method, IMFAttributes.GetUINT64, IMFAttributes::GetUINT64, f3240fff-48d8-4d88-8c75-15f00bfe72ed, mf.imfattributes_getuint64, mfobjects/IMFAttributes::GetUINT64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

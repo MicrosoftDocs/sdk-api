@@ -1,16 +1,16 @@
 ---
 UID: NE:searchapi._SEARCH_QUERY_SYNTAX
 title: "_SEARCH_QUERY_SYNTAX"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of query syntax.
 old-location: search\_search_SEARCH_QUERY_SYNTAX.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_query_syntax.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SEARCH_ADVANCED_QUERY_SYNTAX, SEARCH_NATURAL_QUERY_SYNTAX, SEARCH_NO_QUERY_SYNTAX, SEARCH_QUERY_SYNTAX, SEARCH_QUERY_SYNTAX enumeration [search], _SEARCH_QUERY_SYNTAX, _search_SEARCH_QUERY_SYNTAX, search._search_SEARCH_QUERY_SYNTAX, searchapi/SEARCH_ADVANCED_QUERY_SYNTAX, searchapi/SEARCH_NATURAL_QUERY_SYNTAX, searchapi/SEARCH_NO_QUERY_SYNTAX, searchapi/SEARCH_QUERY_SYNTAX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 

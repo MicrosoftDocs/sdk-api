@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToInt16
 title: VariantToInt16 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the Int16 property value of a variant structure. If no value can be extracted, then a default value is assigned by this function.
 old-location: properties\VariantToInt16.htm
 old-project: properties
 ms.assetid: 5a0d22c1-4295-405d-a503-2b9fdd6eaa81
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToInt16, VariantToInt16 function [Windows Properties], _shell_VariantToInt16, properties.VariantToInt16, propvarutil/VariantToInt16, shell.VariantToInt16
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemePosition
 title: GetThemePosition function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of a position property.
 old-location: controls\GetThemePosition.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeposition.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemePosition, GetThemePosition function [Windows Controls], controls.GetThemePosition, controls.inet_GetThemePosition, inet_GetThemePosition, inet_GetThemePosition_cpp, uxtheme/GetThemePosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

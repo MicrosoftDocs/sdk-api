@@ -1,16 +1,16 @@
 ---
 UID: NF:tdh.TdhDeletePayloadFilter
 title: TdhDeletePayloadFilter function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the memory allocated for a single payload filter by the TdhCreatePayloadFilter function.
 old-location: etw\tdhdeletepayloadfilter.htm
 old-project: ETW
 ms.assetid: 50EB6A11-54AE-4D90-ABA4-13D8EADA1955
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TdhDeletePayloadFilter, TdhDeletePayloadFilter function [ETW], etw.tdhdeletepayloadfilter, tdh/TdhDeletePayloadFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

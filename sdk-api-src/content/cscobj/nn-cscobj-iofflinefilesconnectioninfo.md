@@ -1,16 +1,16 @@
 ---
 UID: NN:cscobj.IOfflineFilesConnectionInfo
 title: IOfflineFilesConnectionInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Presents query and action capabilities associated with the online-offline transition behavior of Offline Files.
 old-location: of\iofflinefilesconnectioninfo.htm
 old-project: OfflineFiles
 ms.assetid: 923c5657-67e7-498a-a46b-97d44368cf3b
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesConnectionInfo, IOfflineFilesConnectionInfo interface [Offline Files], IOfflineFilesConnectionInfo interface [Offline Files],described, cscobj/IOfflineFilesConnectionInfo, of.iofflinefilesconnectioninfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

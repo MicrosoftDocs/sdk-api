@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.linePrepareAddToConferenceA
 title: linePrepareAddToConferenceA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The linePrepareAddToConference function prepares an existing conference call for the addition of another party.
 old-location: tapi2\lineprepareaddtoconference.htm
 old-project: Tapi
 ms.assetid: e1603b36-8bcb-4665-b711-6d2b6794c963
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_lineprepareaddtoconference, linePrepareAddToConference, linePrepareAddToConference function [TAPI 2.2], linePrepareAddToConferenceA, linePrepareAddToConferenceW, tapi/linePrepareAddToConference, tapi/linePrepareAddToConferenceA, tapi/linePrepareAddToConferenceW, tapi2.lineprepareaddtoconference"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

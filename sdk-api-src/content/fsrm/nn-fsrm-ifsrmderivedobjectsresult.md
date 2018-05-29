@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrm.IFsrmDerivedObjectsResult
 title: IFsrmDerivedObjectsResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to access the results when the source template calls the CommitAndUpdateDerived method.
 old-location: fsrm\ifsrmderivedobjectsresult.htm
 old-project: Fsrm
 ms.assetid: 1486d53a-d09a-4eff-ba07-b9dbb32e18ba
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmDerivedObjectsResult, IFsrmDerivedObjectsResult interface [File Server Resource Manager], IFsrmDerivedObjectsResult interface [File Server Resource Manager],described, fs.ifsrmderivedobjectsresult, fsrm.ifsrmderivedobjectsresult, fsrm/IFsrmDerivedObjectsResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

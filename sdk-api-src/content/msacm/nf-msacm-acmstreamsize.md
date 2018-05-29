@@ -1,16 +1,16 @@
 ---
 UID: NF:msacm.acmStreamSize
 title: acmStreamSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: The acmStreamSize function returns a recommended size for a source or destination buffer on an ACM stream.
 old-location: multimedia\acmstreamsize.htm
 old-project: Multimedia
 ms.assetid: 44b8c2cb-ae37-4919-83af-4a8ce6f8737c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_acmStreamSize, acmStreamSize, acmStreamSize function [Windows Multimedia], msacm/acmStreamSize, multimedia.acmstreamsize"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

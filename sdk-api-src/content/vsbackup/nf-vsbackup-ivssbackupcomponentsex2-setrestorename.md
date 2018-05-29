@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx2.SetRestoreName
 title: IVssBackupComponentsEx2::SetRestoreName
-author: windows-driver-content
+author: windows-sdk-content
 description: Assigns a new logical name to a component that is being restored.
 old-location: base\ivssbackupcomponentsex2_setrestorename.htm
 old-project: VSS
 ms.assetid: a8334b28-9328-49f4-bf92-f43c556781bf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssBackupComponentsEx2 interface,SetRestoreName method, IVssBackupComponentsEx2.SetRestoreName, IVssBackupComponentsEx2::SetRestoreName, SetRestoreName, SetRestoreName method, SetRestoreName method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_setrestorename, vsbackup/IVssBackupComponentsEx2::SetRestoreName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

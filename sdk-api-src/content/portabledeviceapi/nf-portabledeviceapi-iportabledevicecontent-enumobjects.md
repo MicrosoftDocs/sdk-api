@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.EnumObjects
 title: IPortableDeviceContent::EnumObjects
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumObjects method retrieves an interface that is used to enumerate the immediate child objects of an object. It has an optional filter that can enumerate objects with specific properties.
 old-location: wpdsdk\iportabledevicecontent_enumobjects.htm
 old-project: wpd_sdk
 ms.assetid: 72526019-58c9-4a18-a925-e0a900f3e35a
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: EnumObjects, EnumObjects method [Windows Portable Devices SDK], EnumObjects method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],EnumObjects method, IPortableDeviceContent.EnumObjects, IPortableDeviceContent::EnumObjects, IPortableDeviceContentEnumObjects, portabledeviceapi/IPortableDeviceContent::EnumObjects, wpdsdk.iportabledevicecontent_enumobjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

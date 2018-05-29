@@ -1,16 +1,16 @@
 ---
 UID: NE:dispatcherqueue.DISPATCHERQUEUE_THREAD_APARTMENTTYPE
 title: DISPATCHERQUEUE_THREAD_APARTMENTTYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the threading apartment type for a new DispatcherQueueController.
 old-location: base\dispatcherqueue_thread_apartmenttype.htm
 old-project: ProcThread
 ms.assetid: 46BCD25E-22C7-4D9C-A424-AFF0B0B41AB6
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DISPATCHERQUEUE_THREAD_APARTMENTTYPE, DISPATCHERQUEUE_THREAD_APARTMENTTYPE enumeration, DQTAT_COM_ASTA, DQTAT_COM_NONE, DQTAT_COM_STA, base.dispatcherqueue_thread_apartmenttype, dispatcherqueue/DISPATCHERQUEUE_THREAD_APARTMENTTYPE, dispatcherqueue/DQTAT_COM_ASTA, dispatcherqueue/DQTAT_COM_NONE, dispatcherqueue/DQTAT_COM_STA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dispatcherqueue.h
 req.include-header: 

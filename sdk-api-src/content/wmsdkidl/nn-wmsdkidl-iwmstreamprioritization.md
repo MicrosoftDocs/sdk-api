@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMStreamPrioritization
 title: IWMStreamPrioritization
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMStreamPrioritization interface provides methods to set and read priority records for a file.Stream prioritization allows content creators to specify the priority of the streams in an ASF file.
 old-location: wmformat\iwmstreamprioritization.htm
 old-project: wmformat
 ms.assetid: ef8ae275-c36a-492c-b57c-d640044ede93
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMStreamPrioritization, IWMStreamPrioritization interface [windows Media Format], IWMStreamPrioritization interface [windows Media Format],described, IWMStreamPrioritizationInterface, wmformat.iwmstreamprioritization, wmsdkidl/IWMStreamPrioritization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathIsURLW
 title: PathIsURLW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Tests a given string to determine if it conforms to a valid URL format.
 old-location: shell\PathIsURL.htm
 old-project: shell
 ms.assetid: 8791bcd8-0d8f-4f7b-9c8e-59bcb95b5d19
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathIsURL, PathIsURL function [Windows Shell], PathIsURLA, PathIsURLW, _win32_PathIsURL, shell.PathIsURL, shlwapi/PathIsURL, shlwapi/PathIsURLA, shlwapi/PathIsURLW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

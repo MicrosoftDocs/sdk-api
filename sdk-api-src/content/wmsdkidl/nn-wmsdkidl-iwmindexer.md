@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMIndexer
 title: IWMIndexer
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMIndexer interface is used to create an index for ASF files to enable seeking.
 old-location: wmformat\iwmindexer.htm
 old-project: wmformat
 ms.assetid: 00627b0c-4484-417a-8680-0fd97aac41fe
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMIndexer, IWMIndexer interface [windows Media Format], IWMIndexer interface [windows Media Format],described, IWMIndexerInterface, wmformat.iwmindexer, wmsdkidl/IWMIndexer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

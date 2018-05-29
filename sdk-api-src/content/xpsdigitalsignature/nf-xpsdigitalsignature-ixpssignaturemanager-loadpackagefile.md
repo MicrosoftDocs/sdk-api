@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.LoadPackageFile
 title: IXpsSignatureManager::LoadPackageFile
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads an existing XPS package from a file into the digital signature manager.
 old-location: xps\ixpssignaturemanager_loadpackagefile.htm
 old-project: printdocs
 ms.assetid: ecb33eee-4622-4a2e-bc24-7a77d16ef4a4
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],LoadPackageFile method, IXpsSignatureManager.LoadPackageFile, IXpsSignatureManager::LoadPackageFile, LoadPackageFile, LoadPackageFile method [XPS Documents and Packaging], LoadPackageFile method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_loadpackagefile, xpsdigitalsignature/IXpsSignatureManager::LoadPackageFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

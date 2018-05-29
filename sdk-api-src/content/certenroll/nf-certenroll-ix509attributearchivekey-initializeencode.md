@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKey.InitializeEncode
 title: IX509AttributeArchiveKey::InitializeEncode
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the attribute from an IX509PrivateKey object, the certification authority encryption certificate, and the symmetric encryption algorithm object identifier (OID).
 old-location: security\ix509attributearchivekey_initializeencode_method.htm
 old-project: SecCertEnroll
 ms.assetid: 44865c22-0eca-4781-962c-a10698a435f4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509AttributeArchiveKey interface [Security],InitializeEncode method, IX509AttributeArchiveKey.InitializeEncode, IX509AttributeArchiveKey::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeArchiveKey interface, certenroll/IX509AttributeArchiveKey::InitializeEncode, security.ix509attributearchivekey_initializeencode_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

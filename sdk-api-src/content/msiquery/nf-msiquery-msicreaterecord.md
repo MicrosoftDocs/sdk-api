@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiCreateRecord
 title: MsiCreateRecord function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiCreateRecord function creates a new record object with the specified number of fields. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msicreaterecord.htm
 old-project: Msi
 ms.assetid: fc1d5a09-3097-4a1c-a615-1b93f7eacb04
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiCreateRecord, MsiCreateRecord function, _msi_msicreaterecord, msiquery/MsiCreateRecord, setup.msicreaterecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

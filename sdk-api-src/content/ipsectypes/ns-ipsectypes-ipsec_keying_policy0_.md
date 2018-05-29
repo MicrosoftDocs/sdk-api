@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_KEYING_POLICY0_
 title: IPSEC_KEYING_POLICY0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an unordered set of keying modules that will be tried for IPsec.
 old-location: fwp\ipsec_keying_policy0_struct.htm
 old-project: FWP
 ms.assetid: 6eddafbf-ac57-419f-b2a0-f50a4ab31baf
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_KEYING_POLICY0, IPSEC_KEYING_POLICY0 structure [Filtering], IPSEC_KEYING_POLICY0_, fwp.ipsec_keying_policy0_struct, ipsectypes/IPSEC_KEYING_POLICY0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

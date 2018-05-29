@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetAspectRatioMode
 title: IMFPMediaPlayer::GetAspectRatioMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current aspect-ratio correction mode. This mode controls whether the aspect ratio of the video is preserved during playback.
 old-location: mf\imfpmediaplayer_getaspectratiomode.htm
 old-project: medfound
 ms.assetid: eaeb20d2-d547-4f88-a69f-7c3f46fe95ff
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [Media Foundation], GetAspectRatioMode method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetAspectRatioMode method, IMFPMediaPlayer.GetAspectRatioMode, IMFPMediaPlayer::GetAspectRatioMode, mf.imfpmediaplayer_getaspectratiomode, mfplay/IMFPMediaPlayer::GetAspectRatioMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

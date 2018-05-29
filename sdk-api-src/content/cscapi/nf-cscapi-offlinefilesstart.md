@@ -1,16 +1,16 @@
 ---
 UID: NF:cscapi.OfflineFilesStart
 title: OfflineFilesStart function
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts the Offline Files service.
 old-location: of\offlinefilesstart.htm
 old-project: OfflineFiles
 ms.assetid: 79060780-A2C1-45CE-BB9A-75DF433C3F3C
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: OfflineFilesStart, OfflineFilesStart function [Offline Files], cscapi/OfflineFilesStart, of.offlinefilesstart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cscapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbParentalRatingDescriptor.GetRecordRating
 title: IDvbParentalRatingDescriptor::GetRecordRating
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a code that indicates the age-based rating for a Digital Video Broadcast (DVB) broadcast from a DVB parental rating descriptor.
 old-location: mstv\idvbparentalratingdescriptor_getrecordrating.htm
 old-project: mstv
 ms.assetid: 1b439669-6458-46d3-882d-5f20f2f22f23
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordRating, GetRecordRating method [Microsoft TV Technologies], GetRecordRating method [Microsoft TV Technologies],IDvbParentalRatingDescriptor interface, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],GetRecordRating method, IDvbParentalRatingDescriptor.GetRecordRating, IDvbParentalRatingDescriptor::GetRecordRating, dvbsiparser/IDvbParentalRatingDescriptor::GetRecordRating, mstv.idvbparentalratingdescriptor_getrecordrating
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

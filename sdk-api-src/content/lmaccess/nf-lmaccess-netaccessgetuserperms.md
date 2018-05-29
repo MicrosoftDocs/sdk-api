@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetAccessGetUserPerms
 title: NetAccessGetUserPerms function
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessgetuserperms.htm
 old-project: NetMgmt
 ms.assetid: 8f4f069f-86d7-40cf-a821-32345d308f70
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetAccessGetUserPerms, NetAccessGetUserPerms function [Network Management], _win32_netaccessgetuserperms, lmaccess/NetAccessGetUserPerms, netmgmt.netaccessgetuserperms
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:thumbcache.WTS_CONTEXTFLAGS
 title: WTS_CONTEXTFLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the context of a thumbnail extraction. Used by IThumbnailSettings::SetContext.
 old-location: shell\WTS_CONTEXTFLAGS.htm
 old-project: shell
 ms.assetid: 062B148E-19FB-4bcd-82CE-669B2ACD0BF6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: WTSCF_APPSTYLE, WTSCF_DEFAULT, WTSCF_FAST, WTSCF_SQUARE, WTSCF_WIDE, WTS_CONTEXTFLAGS, WTS_CONTEXTFLAGS enumeration [Windows Shell], shell.WTS_CONTEXTFLAGS, thumbcache/WTSCF_APPSTYLE, thumbcache/WTSCF_DEFAULT, thumbcache/WTSCF_FAST, thumbcache/WTSCF_SQUARE, thumbcache/WTSCF_WIDE, thumbcache/WTS_CONTEXTFLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: thumbcache.h
 req.include-header: 

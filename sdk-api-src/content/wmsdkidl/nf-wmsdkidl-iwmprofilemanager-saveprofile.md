@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.SaveProfile
 title: IWMProfileManager::SaveProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: The SaveProfile method saves a profile into an XML-formatted string.
 old-location: wmformat\iwmprofilemanager_saveprofile.htm
 old-project: wmformat
 ms.assetid: 806def9b-1842-4443-9a63-fba380545018
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],SaveProfile method, IWMProfileManager.SaveProfile, IWMProfileManager::SaveProfile, IWMProfileManagerSaveProfile, SaveProfile, SaveProfile method [windows Media Format], SaveProfile method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_saveprofile, wmsdkidl/IWMProfileManager::SaveProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

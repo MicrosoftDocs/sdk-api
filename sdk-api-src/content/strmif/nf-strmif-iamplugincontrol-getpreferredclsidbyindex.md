@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMPluginControl.GetPreferredClsidByIndex
 title: IAMPluginControl::GetPreferredClsidByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a class identifier (CLSID) from the preferred list, specified by index value.
 old-location: dshow\iamplugincontrol_getpreferredclsidbyindex.htm
 old-project: DirectShow
 ms.assetid: 50da3961-3913-4e7d-bbbc-b89450f99931
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetPreferredClsidByIndex, GetPreferredClsidByIndex method [DirectShow], GetPreferredClsidByIndex method [DirectShow],IAMPluginControl interface, IAMPluginControl interface [DirectShow],GetPreferredClsidByIndex method, IAMPluginControl.GetPreferredClsidByIndex, IAMPluginControl::GetPreferredClsidByIndex, dshow.iamplugincontrol_getpreferredclsidbyindex, strmif/IAMPluginControl::GetPreferredClsidByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

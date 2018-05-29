@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.PowerDeleteScheme
 title: PowerDeleteScheme function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the specified power scheme from the database.
 old-location: base\powerdeletescheme.htm
 old-project: Power
 ms.assetid: 5f9969a1-e598-4ca8-a5b8-f8bb3410223d
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: PowerDeleteScheme, PowerDeleteScheme function, base.powerdeletescheme, powrprof/PowerDeleteScheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

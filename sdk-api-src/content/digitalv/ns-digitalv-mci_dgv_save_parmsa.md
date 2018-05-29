@@ -1,16 +1,16 @@
 ---
 UID: NS:digitalv.MCI_DGV_SAVE_PARMSA
 title: MCI_DGV_SAVE_PARMSA
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCI_DGV_SAVE_PARMS structure contains information for the MCI_SAVE command for digital-video devices.
 old-location: multimedia\mci_dgv_save_parms.htm
 old-project: Multimedia
 ms.assetid: a647099c-f5f8-4728-99a1-8b5b8c6b67bf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPMCI_DGV_SAVE_PARMSA, MCI_DGV_SAVE_PARMS, MCI_DGV_SAVE_PARMS structure [Windows Multimedia], MCI_DGV_SAVE_PARMSA, _win32_MCI_DGV_SAVE_PARMS_str, digitalv/MCI_DGV_SAVE_PARMS, multimedia.mci_dgv_save_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeEndLineCap
 title: IXpsOMPath::SetStrokeEndLineCap
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the style of the stroke line's end cap.
 old-location: xps\ixpsompath_setstrokeendlinecap.htm
 old-project: printdocs
 ms.assetid: f223503c-4934-4b3d-b489-c8f6488b05d0
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeEndLineCap method, IXpsOMPath.SetStrokeEndLineCap, IXpsOMPath::SetStrokeEndLineCap, SetStrokeEndLineCap, SetStrokeEndLineCap method [XPS Documents and Packaging], SetStrokeEndLineCap method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokeendlinecap, xpsobjectmodel/IXpsOMPath::SetStrokeEndLineCap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.INetConnectionProps.get_Name
 title: INetConnectionProps::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Name method retrieves the name of the connection.
 old-location: ics\inetconnectionprops_get_name.htm
 old-project: ICS
 ms.assetid: 7ff91c38-51af-467b-baff-0d41a2ba14f7
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_Name method, INetConnectionProps.get_Name, INetConnectionProps::get_Name, _ics_inetconnectionprops_get_name, get_Name, get_Name method [ICS/ICF], get_Name method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_name, netcon/INetConnectionProps::get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

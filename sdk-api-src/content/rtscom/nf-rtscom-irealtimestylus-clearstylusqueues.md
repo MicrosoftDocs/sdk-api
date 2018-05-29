@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.ClearStylusQueues
 title: IRealTimeStylus::ClearStylusQueues
-author: windows-driver-content
+author: windows-sdk-content
 description: Clears the RealTimeStylus Class input and output queues of data.
 old-location: tablet\irealtimestylus_clearstylusqueues.htm
 old-project: tablet
 ms.assetid: 28270403-9d6d-4e57-9ec5-0d697f4df185
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 28270403-9d6d-4e57-9ec5-0d697f4df185, ClearStylusQueues, ClearStylusQueues method [Tablet PC], ClearStylusQueues method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],ClearStylusQueues method, IRealTimeStylus.ClearStylusQueues, IRealTimeStylus::ClearStylusQueues, rtscom/IRealTimeStylus::ClearStylusQueues, tablet.irealtimestylus_clearstylusqueues
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

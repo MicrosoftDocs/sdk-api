@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.GetLogContainerName
 title: GetLogContainerName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the full path name of the specified container.
 old-location: fs\getlogcontainername.htm
 old-project: Clfs
 ms.assetid: 4ff12544-797d-48b9-9c42-4bec059e6551
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetLogContainerName, GetLogContainerName function [Files], clfsw32/GetLogContainerName, fs.getlogcontainername
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

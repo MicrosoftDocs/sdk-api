@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_CERT_ENDPOINT_IDENTITY
 title: "_WS_CERT_ENDPOINT_IDENTITY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Type for certificate endpoint identity
 old-location: wsw\ws_cert_endpoint_identity.htm
 old-project: wsw
 ms.assetid: c4d0f409-49c8-4b8c-82fd-302e96cb6a84
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_CERT_ENDPOINT_IDENTITY, WS_CERT_ENDPOINT_IDENTITY structure [Web Services for Windows], _WS_CERT_ENDPOINT_IDENTITY, webservices/WS_CERT_ENDPOINT_IDENTITY, wsw.ws_cert_endpoint_identity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

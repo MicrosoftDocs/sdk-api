@@ -1,16 +1,16 @@
 ---
 UID: NN:mfreadwrite.IMFSinkWriter
 title: IMFSinkWriter
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by the Microsoft Media Foundation sink writer object.
 old-location: mf\imfsinkwriter.htm
 old-project: medfound
 ms.assetid: 76fb915e-1586-429a-88a5-bd1290799352
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSinkWriter, IMFSinkWriter interface [Media Foundation], IMFSinkWriter interface [Media Foundation],described, mf.imfsinkwriter, mfreadwrite/IMFSinkWriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfreadwrite.h
 req.include-header: 

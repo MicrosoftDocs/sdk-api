@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpGetCredUIContextFn
 title: SpGetCredUIContextFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves context information from a credential provider.
 old-location: security\spgetcreduicontextfn.htm
 old-project: SecAuthN
 ms.assetid: 7cd20c78-8203-42a2-ad58-1a206fad5463
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SEC_WINNT_AUTH_DATA_TYPE_CERT, SEC_WINNT_AUTH_DATA_TYPE_CSP_DATA, SEC_WINNT_AUTH_DATA_TYPE_PASSWORD, SpGetCredUIContextFn, SpGetCredUIContextFn function [Security], ntsecpkg/SpGetCredUIContextFn, security.spgetcreduicontextfn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

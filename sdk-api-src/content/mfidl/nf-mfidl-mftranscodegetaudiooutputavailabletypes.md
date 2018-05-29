@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFTranscodeGetAudioOutputAvailableTypes
 title: MFTranscodeGetAudioOutputAvailableTypes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a list of output formats from an audio encoder.
 old-location: mf\mftranscodegetaudiooutputavailabletypes.htm
 old-project: medfound
 ms.assetid: 8750eacb-7e6f-4c17-987b-f4baa4eea847
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFT_FIELDOFUSE_UNLOCK_Attribute, MFTranscodeGetAudioOutputAvailableTypes, MFTranscodeGetAudioOutputAvailableTypes function [Media Foundation], MF_TRANSCODE_ENCODINGPROFILE, MF_TRANSCODE_QUALITYVSSPEED, mf.mftranscodegetaudiooutputavailabletypes, mfidl/MFTranscodeGetAudioOutputAvailableTypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

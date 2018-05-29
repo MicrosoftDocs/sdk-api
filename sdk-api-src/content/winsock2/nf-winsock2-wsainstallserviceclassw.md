@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSAInstallServiceClassW
 title: WSAInstallServiceClassW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSAInstallServiceClass function registers a service class schema within a namespace.
 old-location: winsock\wsainstallserviceclass_2.htm
 old-project: WinSock
 ms.assetid: 06760319-aeeb-4ad7-b77a-01efea7ed904
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAInstallServiceClass, WSAInstallServiceClass function [Winsock], WSAInstallServiceClassA, WSAInstallServiceClassW, _win32_wsainstallserviceclass_2, winsock.wsainstallserviceclass_2, winsock2/WSAInstallServiceClass, winsock2/WSAInstallServiceClassA, winsock2/WSAInstallServiceClassW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

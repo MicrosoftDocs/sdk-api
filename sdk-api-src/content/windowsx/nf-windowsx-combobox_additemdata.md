@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.ComboBox_AddItemData
 title: ComboBox_AddItemData macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds item data to the list in a combo box at the specified location. You can use this macro or send the CB_ADDSTRING message explicitly.
 old-location: controls\ComboBox_AddItemData.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_additemdata.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ComboBox_AddItemData, ComboBox_AddItemData macro [Windows Controls], _win32_ComboBox_AddItemData, _win32_ComboBox_AddItemData_cpp, controls.ComboBox_AddItemData, controls._win32_ComboBox_AddItemData, windowsx/ComboBox_AddItemData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

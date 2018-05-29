@@ -1,16 +1,16 @@
 ---
 UID: NC:imm.IMCENUMPROC
 title: IMCENUMPROC
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function that processes input contexts provided by the ImmEnumInputContext function.
 old-location: intl\enuminputcontext.htm
 old-project: Intl
 ms.assetid: c66dcc0f-733a-44a2-942f-f518b752d014
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnumInputContext, EnumInputContext callback function [Internationalization for Windows Applications], IMCENUMPROC, IMCENUMPROC callback, _win32_EnumInputContext, imm/EnumInputContext, intl.enuminputcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: imm.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFSequencerSource
 title: IMFSequencerSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by the Sequencer Source.
 old-location: mf\imfsequencersource.htm
 old-project: medfound
 ms.assetid: ba5e8e7b-5b0e-4807-a459-75bd5727d1e2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSequencerSource, IMFSequencerSource interface [Media Foundation], IMFSequencerSource interface [Media Foundation],described, ba5e8e7b-5b0e-4807-a459-75bd5727d1e2, mf.imfsequencersource, mfidl/IMFSequencerSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

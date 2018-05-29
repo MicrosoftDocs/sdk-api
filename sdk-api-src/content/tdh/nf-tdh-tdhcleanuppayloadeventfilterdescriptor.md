@@ -1,16 +1,16 @@
 ---
 UID: NF:tdh.TdhCleanupPayloadEventFilterDescriptor
 title: TdhCleanupPayloadEventFilterDescriptor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the aggregated structure of payload filters created using the TdhAggregatePayloadFilters function.
 old-location: etw\tdhcleanuppayloadeventfilterdescriptor.htm
 old-project: ETW
 ms.assetid: AA08AFD5-EC1A-44BF-9BCB-EEA69A959853
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TdhCleanupPayloadEventFilterDescriptor, TdhCleanupPayloadEventFilterDescriptor function [ETW], etw.tdhcleanuppayloadeventfilterdescriptor, tdh/TdhCleanupPayloadEventFilterDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

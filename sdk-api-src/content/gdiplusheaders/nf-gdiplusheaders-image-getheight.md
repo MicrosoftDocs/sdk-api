@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Image.GetHeight
 title: Image::GetHeight
-author: windows-driver-content
+author: windows-sdk-content
 description: The Image::GetHeight method gets the image height, in pixels, of this image.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetHeight_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getheight_27.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetHeight, GetHeight method [GDI+], GetHeight method [GDI+],Image class, Image class [GDI+],GetHeight method, Image.GetHeight, Image::GetHeight, _gdiplus_CLASS_Image_GetHeight_, gdiplus._gdiplus_CLASS_Image_GetHeight_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

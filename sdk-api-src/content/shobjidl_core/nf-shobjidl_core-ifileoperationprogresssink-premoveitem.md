@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PreMoveItem
 title: IFileOperationProgressSink::PreMoveItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs caller-implemented actions before the move process for each item begins.
 old-location: shell\IFileOperationProgressSink_PreMoveItem.htm
 old-project: shell
 ms.assetid: bd92c9fa-fdea-4149-9727-90eafdf7c6bc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreMoveItem method, IFileOperationProgressSink.PreMoveItem, IFileOperationProgressSink::PreMoveItem, PreMoveItem, PreMoveItem method [Windows Shell], PreMoveItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreMoveItem, shell.IFileOperationProgressSink_PreMoveItem, shobjidl_core/IFileOperationProgressSink::PreMoveItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.SetWindowOrgEx
 title: SetWindowOrgEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetWindowOrgEx function specifies which window point maps to the viewport origin (0,0).
 old-location: gdi\setwindoworgex.htm
 old-project: gdi
 ms.assetid: 75409b5a-c003-49f2-aceb-a28330b92b0a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetWindowOrgEx, SetWindowOrgEx function [Windows GDI], _win32_SetWindowOrgEx, gdi.setwindoworgex, wingdi/SetWindowOrgEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

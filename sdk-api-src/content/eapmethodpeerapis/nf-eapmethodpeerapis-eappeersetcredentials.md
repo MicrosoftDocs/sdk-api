@@ -1,16 +1,16 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerSetCredentials
 title: EapPeerSetCredentials function
-author: windows-driver-content
+author: windows-sdk-content
 description: Supplies new or updated authentication credentials to the EAP method.
 old-location: eaphost\eappeersetcredentials.htm
 old-project: EAPHost
 ms.assetid: d50a72bd-0b3f-4b68-be96-5debb3fd99f8
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapPeerSetCredentials, EapPeerSetCredentials function [EAPHost], eaphost.eappeersetcredentials, eapmethodpeerapis/EapPeerSetCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:appnotify.RegisterAppStateChangeNotification
 title: RegisterAppStateChangeNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an app to register a callback function through which it can be notified that its library is going into or coming out of a suspended state.
 old-location: shell\RegisterAppStateChangeNotification.htm
 old-project: shell
 ms.assetid: EE55F783-BF18-49F0-934E-67A252138565
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: RegisterAppStateChangeNotification, RegisterAppStateChangeNotification function [Windows Shell], appnotify/RegisterAppStateChangeNotification, shell.RegisterAppStateChangeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appnotify.h
 req.include-header: 

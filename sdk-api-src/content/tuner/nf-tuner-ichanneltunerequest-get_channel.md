@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IChannelTuneRequest.get_Channel
 title: IChannelTuneRequest::get_Channel
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Channel method gets the channel to be tuned.
 old-location: mstv\ichanneltunerequest_get_channel.htm
 old-project: mstv
 ms.assetid: 1a529416-9b7a-41f4-961a-741b1a581d5f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IChannelTuneRequest interface [Microsoft TV Technologies],get_Channel method, IChannelTuneRequest.get_Channel, IChannelTuneRequest::get_Channel, IChannelTuneRequestget_Channel, get_Channel, get_Channel method [Microsoft TV Technologies], get_Channel method [Microsoft TV Technologies],IChannelTuneRequest interface, mstv.ichanneltunerequest_get_channel, tuner/IChannelTuneRequest::get_Channel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

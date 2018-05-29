@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodecsdk.IWICPersistStream
 title: IWICPersistStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that provide additional load and save methods that take WICPersistOptions.
 old-location: wic\_wic_codec_iwicpersiststream.htm
 old-project: wic
 ms.assetid: 9381cc2c-9554-4071-b9b5-3464d857c02d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICPersistStream, IWICPersistStream interface [Windows Imaging Component], IWICPersistStream interface [Windows Imaging Component],described, _wic_codec_iwicpersiststream, wic._wic_codec_iwicpersiststream, wincodecsdk/IWICPersistStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodecsdk.h
 req.include-header: 

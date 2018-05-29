@@ -1,16 +1,16 @@
 ---
 UID: NE:uiautomationcore.WindowVisualState
 title: WindowVisualState
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values that specify the visual state of a window.
 old-location: winauto\uiauto_WindowVisualStateEnum.htm
 old-project: WinAuto
 ms.assetid: 5912551c-2745-434b-98de-bf24212f7eef
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: WindowVisualState, WindowVisualState enumeration [Windows Accessibility], WindowVisualState_Maximized, WindowVisualState_Minimized, WindowVisualState_Normal, uiauto.uiauto_WindowVisualStateEnum, uiauto_WindowVisualStateEnum, uiautomationcore/WindowVisualState, uiautomationcore/WindowVisualState_Maximized, uiautomationcore/WindowVisualState_Minimized, uiautomationcore/WindowVisualState_Normal, winauto.uiauto_WindowVisualStateEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

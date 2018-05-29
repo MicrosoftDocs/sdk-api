@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFWorkQueueServices
 title: IMFWorkQueueServices
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls the work queues created by the Media Session.
 old-location: mf\imfworkqueueservices.htm
 old-project: medfound
 ms.assetid: 7a6ddb67-9a8c-408c-b750-4f3fd3ba0d7d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 7a6ddb67-9a8c-408c-b750-4f3fd3ba0d7d, IMFWorkQueueServices, IMFWorkQueueServices interface [Media Foundation], IMFWorkQueueServices interface [Media Foundation],described, mf.imfworkqueueservices, mfidl/IMFWorkQueueServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

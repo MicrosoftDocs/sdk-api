@@ -1,16 +1,16 @@
 ---
 UID: NS:dvdmedia.AM_DVDCOPY_TITLEKEY
 title: AM_DVDCOPY_TITLEKEY
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the DVD title key from the current content.
 old-location: dshow\am_dvdcopy_titlekey.htm
 old-project: DirectShow
 ms.assetid: 14460ad8-4c7b-4566-b1ac-9a35fd20f3f3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PAM_DVDCOPY_TITLEKEY, AM_DVDCOPY_TITLEKEY, AM_DVDCOPY_TITLEKEY structure [DirectShow], PAM_DVDCOPY_TITLEKEY, PAM_DVDCOPY_TITLEKEY structure pointer [DirectShow], dshow.am_dvdcopy_titlekey, dvdmedia/AM_DVDCOPY_TITLEKEY, dvdmedia/PAM_DVDCOPY_TITLEKEY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

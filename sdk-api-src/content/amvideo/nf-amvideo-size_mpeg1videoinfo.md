@@ -1,16 +1,16 @@
 ---
 UID: NF:amvideo.SIZE_MPEG1VIDEOINFO
 title: SIZE_MPEG1VIDEOINFO macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The SIZE_MPEG1VIDEOINFO macro calculates the size of an MPEG1VIDEOINFO structure, including the sequence header (bSequenceHeader).
 old-location: dshow\size_mpeg1videoinfo.htm
 old-project: DirectShow
 ms.assetid: 192c9179-baed-4fa5-a972-34964a6bdfd7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: SIZE_MPEG1VIDEOINFO, SIZE_MPEG1VIDEOINFO macro [DirectShow], amvideo/SIZE_MPEG1VIDEOINFO, dshow.size_mpeg1videoinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h

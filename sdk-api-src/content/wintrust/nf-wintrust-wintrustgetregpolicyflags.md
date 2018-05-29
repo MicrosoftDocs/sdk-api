@@ -1,16 +1,16 @@
 ---
 UID: NF:wintrust.WintrustGetRegPolicyFlags
 title: WintrustGetRegPolicyFlags function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves policy flags for a policy provider.
 old-location: security\wintrustgetregpolicyflags.htm
 old-project: SecCrypto
 ms.assetid: f5e79ac8-9a70-4e79-ae4f-e128bd8c84de
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: WTPF_ALLOWONLYPERTRUST, WTPF_IGNOREEXPIRATION, WTPF_IGNOREREVOCATIONONTS, WTPF_IGNOREREVOKATION, WTPF_OFFLINEOKNBU_COM, WTPF_OFFLINEOKNBU_IND, WTPF_OFFLINEOK_COM, WTPF_OFFLINEOK_IND, WTPF_TESTCANBEVALID, WTPF_TRUSTTEST, WTPF_VERIFY_V1_OFF, WintrustGetRegPolicyFlags, WintrustGetRegPolicyFlags function [Security], security.wintrustgetregpolicyflags, wintrust/WintrustGetRegPolicyFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 

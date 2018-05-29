@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldInteractiveState
 title: ICredentialProviderCredentialEvents::SetFieldInteractiveState
-author: windows-driver-content
+author: windows-sdk-content
 description: Communicates to the Logon UI or Credential UI that the interactivity state of a field has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldInteractiveState.htm
 old-project: shell
 ms.assetid: 649f0f65-78dd-4232-b471-9a18d1448f1d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldInteractiveState method, ICredentialProviderCredentialEvents.SetFieldInteractiveState, ICredentialProviderCredentialEvents::SetFieldInteractiveState, SetFieldInteractiveState, SetFieldInteractiveState method [Windows Shell], SetFieldInteractiveState method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldInteractiveState, credentialprovider/ICredentialProviderCredentialEvents::SetFieldInteractiveState, shell.ICredentialProviderCredentialEvents_SetFieldInteractiveState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

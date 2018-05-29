@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMCertifiedOutputProtection.KeyExchange
 title: IAMCertifiedOutputProtection::KeyExchange
-author: windows-driver-content
+author: windows-sdk-content
 description: The KeyExchange method returns the graphics driver's certificate.
 old-location: dshow\iamcertifiedoutputprotection_keyexchange.htm
 old-project: DirectShow
 ms.assetid: 163164a2-e2a2-447d-b443-f92972197aff
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],KeyExchange method, IAMCertifiedOutputProtection.KeyExchange, IAMCertifiedOutputProtection::KeyExchange, IAMCertifiedOutputProtectionKeyExchange, KeyExchange, KeyExchange method [DirectShow], KeyExchange method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_keyexchange, strmif/IAMCertifiedOutputProtection::KeyExchange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

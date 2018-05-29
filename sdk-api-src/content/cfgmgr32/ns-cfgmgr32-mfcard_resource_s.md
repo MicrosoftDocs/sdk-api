@@ -1,16 +1,16 @@
 ---
 UID: NS:cfgmgr32.MfCard_Resource_s
 title: MfCard_Resource_s
-author: windows-driver-content
+author: windows-sdk-content
 description: The MFCARD_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes resource usage by one of the hardware functions provided by an instance of a multifunction device.
 old-location: devinst\mfcard_resource.htm
 old-project: devinst
 ms.assetid: 26dbefb6-bc5c-4060-902d-3fd1adf833cb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PMFCARD_RESOURCE, MFCARD_RESOURCE, MFCARD_RESOURCE structure [Device and Driver Installation], MfCard_Resource_s, PMFCARD_RESOURCE, PMFCARD_RESOURCE structure pointer [Device and Driver Installation], cfgmgr32/MFCARD_RESOURCE, cfgmgr32/PMFCARD_RESOURCE, cfgmgrst_bb72fc57-6d43-447c-8995-1cb7649914af.xml, devinst.mfcard_resource"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

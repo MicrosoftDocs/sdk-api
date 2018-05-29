@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarCyAbs
 title: VarCyAbs function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the absolute value of a variant of type currency.
 old-location: automat\varcyabs.htm
 old-project: automat
 ms.assetid: 72ab02df-69e8-40ab-884c-6b23ce5dc6ce
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarCyAbs, VarCyAbs function [Automation], _oa96_VarCyAbs, automat.varcyabs, oleauto/VarCyAbs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

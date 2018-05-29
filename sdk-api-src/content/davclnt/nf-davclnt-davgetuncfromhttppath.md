@@ -1,16 +1,16 @@
 ---
 UID: NF:davclnt.DavGetUNCFromHTTPPath
 title: DavGetUNCFromHTTPPath function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the specified HTTP path to an equivalent UNC path.
 old-location: webdav\davgetuncfromhttppath.htm
 old-project: WebDAV
 ms.assetid: e9613e4a-5ba1-4954-bc7a-7843249f031e
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: DavGetUNCFromHTTPPath, DavGetUNCFromHTTPPath function [WebDAV], davclnt/DavGetUNCFromHTTPPath, webdav.davgetuncfromhttppath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: davclnt.h
 req.include-header: 

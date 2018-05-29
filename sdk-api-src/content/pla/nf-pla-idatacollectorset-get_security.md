@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Security
 title: IDataCollectorSet::get_Security
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets access control information that determines who can access this data collector set.
 old-location: pla\idatacollectorset_get_security.htm
 old-project: PLA
 ms.assetid: cd915df3-2823-4d3e-bfd0-545c24f95267
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],Security property, IDataCollectorSet.Security, IDataCollectorSet.get_Security, IDataCollectorSet::Security, IDataCollectorSet::get_Security, IDataCollectorSet::put_Security, Security property [PLA], Security property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_security, get_Security, pla.idatacollectorset_get_security, pla/IDataCollectorSet::Security, pla/IDataCollectorSet::get_Security, pla/IDataCollectorSet::put_Security
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

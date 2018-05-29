@@ -1,16 +1,16 @@
 ---
 UID: NS:imepad.tagIMEAPPLETUI
 title: tagIMEAPPLETUI
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by IImePadApplet::CreateUI to specify applet window style.
 old-location: intl\imeappletui.htm
 old-project: Intl
 ms.assetid: 9C44287B-77A9-48FB-8A17-6CB0FA234EE2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPIMEAPPLETUI, IMEAPPLETUI, IMEAPPLETUI structure [Internationalization for Windows Applications], PIMEAPPLETUI, PIMEAPPLETUI structure pointer [Internationalization for Windows Applications], imepad/IMEAPPLETUI, imepad/PIMEAPPLETUI, intl.imeappletui, tagIMEAPPLETUI"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: imepad.h
 req.include-header: 

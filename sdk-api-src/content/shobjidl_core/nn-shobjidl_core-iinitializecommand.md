@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IInitializeCommand
 title: IInitializeCommand
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a single method used to initialize objects that implement IExplorerCommandState, IExecuteCommand or IDropTarget with the application-specified command name and its registered properties.
 old-location: shell\IInitializeCommand.htm
 old-project: shell
 ms.assetid: e5a2a4d3-2488-4da2-aaab-c27461859d9f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IInitializeCommand, IInitializeCommand interface [Windows Shell], IInitializeCommand interface [Windows Shell],described, _shell_IInitializeCommand, shell.IInitializeCommand, shobjidl_core/IInitializeCommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

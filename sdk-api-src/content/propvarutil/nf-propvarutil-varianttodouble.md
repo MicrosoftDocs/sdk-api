@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToDouble
 title: VariantToDouble function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a DOUBLE value from a VARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\VariantToDouble.htm
 old-project: properties
 ms.assetid: 7bd756c6-f02a-4cf4-9458-b3304e2da2db
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToDouble, VariantToDouble function [Windows Properties], _shell_VariantToDouble, properties.VariantToDouble, propvarutil/VariantToDouble, shell.VariantToDouble
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

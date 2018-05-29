@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1.Resize
 title: Resize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes the size of the render target to the specified pixel size.
 old-location: direct2d\id2d1hwndrendertarget_resize.htm
 old-project: Direct2D
 ms.assetid: b8ea2e96-c69b-4018-9572-c9099bf6202d
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: ID2D1HwndRenderTarget::Resize, Resize, Resize methods [Direct2D], d2d1/Resize, direct2d.id2d1hwndrendertarget_resize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1.h
 req.include-header: 

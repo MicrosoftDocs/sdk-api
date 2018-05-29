@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngBitBlt
 title: EngBitBlt function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngBitBlt function provides general bit-block transfer capabilities either between device-managed surfaces, or between a device-managed surface and a GDI-managed standard format bitmap.
 old-location: display\engbitblt.htm
 old-project: display
 ms.assetid: e99dbe54-485b-4a56-9956-2965f04020db
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngBitBlt, EngBitBlt function [Display Devices], display.engbitblt, gdifncs_ec19b94a-e653-4ecb-9c5a-2ddc8d1745c6.xml, winddi/EngBitBlt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

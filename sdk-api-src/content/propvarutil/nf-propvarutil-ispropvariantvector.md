@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.IsPropVariantVector
 title: IsPropVariantVector function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether a PROPVARIANT structure has a vector type.
 old-location: properties\IsPropVariantVector.htm
 old-project: properties
 ms.assetid: c094c636-e51d-4a61-8d92-90abe2f0446e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsPropVariantVector, IsPropVariantVector function [Windows Properties], properties.IsPropVariantVector, propvarutil/IsPropVariantVector, shell.IsPropVariantVector, shell_IsPropVariantVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

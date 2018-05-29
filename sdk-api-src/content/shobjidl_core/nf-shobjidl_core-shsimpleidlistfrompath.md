@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.SHSimpleIDListFromPath
 title: SHSimpleIDListFromPath function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Returns a pointer to an ITEMIDLIST structure when passed a path.
 old-location: shell\SHSimpleIDListFromPath.htm
 old-project: shell
 ms.assetid: 349974c2-4ab9-4eb2-897d-a5934893ed07
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHSimpleIDListFromPath, SHSimpleIDListFromPath function [Windows Shell], _win32_SHSimpleIDListFromPath, shell.SHSimpleIDListFromPath, shobjidl_core/SHSimpleIDListFromPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

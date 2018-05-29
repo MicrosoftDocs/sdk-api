@@ -1,16 +1,16 @@
 ---
 UID: NE:searchapi._SEARCH_KIND_OF_CHANGE
 title: "_SEARCH_KIND_OF_CHANGE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the kind of change affecting an item when a source sink notifies a client that an item has been changed.
 old-location: search\_search_SEARCH_KIND_OF_CHANGE.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_kind_of_change.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SEARCH_CHANGE_ADD, SEARCH_CHANGE_DELETE, SEARCH_CHANGE_MODIFY, SEARCH_CHANGE_MOVE_RENAME, SEARCH_CHANGE_SEMANTICS_DIRECTORY, SEARCH_CHANGE_SEMANTICS_SHALLOW, SEARCH_CHANGE_SEMANTICS_UPDATE_SECURITY, SEARCH_KIND_OF_CHANGE, SEARCH_KIND_OF_CHANGE enumeration [search], _SEARCH_KIND_OF_CHANGE, _search_SEARCH_KIND_OF_CHANGE, search._search_SEARCH_KIND_OF_CHANGE, searchapi/SEARCH_CHANGE_ADD, searchapi/SEARCH_CHANGE_DELETE, searchapi/SEARCH_CHANGE_MODIFY, searchapi/SEARCH_CHANGE_MOVE_RENAME, searchapi/SEARCH_CHANGE_SEMANTICS_DIRECTORY, searchapi/SEARCH_CHANGE_SEMANTICS_SHALLOW, searchapi/SEARCH_CHANGE_SEMANTICS_UPDATE_SECURITY, searchapi/SEARCH_KIND_OF_CHANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:identityprovider.IConnectedIdentityProvider
 title: IConnectedIdentityProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods of interaction with a connected identity provider.
 old-location: security\iconnectedidentityprovider.htm
 old-project: SecAuthN
 ms.assetid: 0AF5036B-326E-4FBE-9F26-18F532EF0BB3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IConnectedIdentityProvider, IConnectedIdentityProvider interface [Security], IConnectedIdentityProvider interface [Security],described, identityprovider/IConnectedIdentityProvider, security.iconnectedidentityprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: identityprovider.h
 req.include-header: 

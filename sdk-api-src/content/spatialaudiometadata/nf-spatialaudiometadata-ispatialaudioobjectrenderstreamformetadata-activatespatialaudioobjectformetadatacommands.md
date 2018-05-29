@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataCommands
 title: ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataCommands
-author: windows-driver-content
+author: windows-sdk-content
 description: Activate an ISpatialAudioObjectForMetadataCommands for rendering.
 old-location: coreaudio\ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadatacommands.htm
 old-project: CoreAudio
 ms.assetid: 6EB7A7B7-6B52-4EB0-81CB-0F9626761CA8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ActivateSpatialAudioObjectForMetadataCommands, ActivateSpatialAudioObjectForMetadataCommands method [Core Audio], ActivateSpatialAudioObjectForMetadataCommands method [Core Audio],ISpatialAudioObjectRenderStreamForMetadata interface, ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio],ActivateSpatialAudioObjectForMetadataCommands method, ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataCommands, ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataCommands, coreaudio.ispatialaudioobjectformetadataitems_activatespatialaudioobjectformetadatacommands, coreaudio.ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadatacommands, spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataCommands
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:gdiplusenums.CoordinateSpace
 title: CoordinateSpace
-author: windows-driver-content
+author: windows-sdk-content
 description: The CoordinateSpace enumeration specifies coordinate spaces.
 old-location: gdiplus\_gdiplus_ENUM_CoordinateSpace.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\coordinatespace.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CoordinateSpace, CoordinateSpace enumeration [GDI+], CoordinateSpaceDevice, CoordinateSpacePage, CoordinateSpaceWorld, _gdiplus_ENUM_CoordinateSpace, gdiplus._gdiplus_ENUM_CoordinateSpace, gdiplusenums/CoordinateSpace, gdiplusenums/CoordinateSpaceDevice, gdiplusenums/CoordinateSpacePage, gdiplusenums/CoordinateSpaceWorld
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

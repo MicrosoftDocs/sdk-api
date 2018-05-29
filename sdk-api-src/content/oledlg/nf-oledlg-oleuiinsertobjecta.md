@@ -1,16 +1,16 @@
 ---
 UID: NF:oledlg.OleUIInsertObjectA
 title: OleUIInsertObjectA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Invokes the standard Insert Object dialog box, which allows the user to select an object source and class name, as well as the option of displaying the object as itself or as an icon.
 old-location: com\oleuiinsertobject.htm
 old-project: com
 ms.assetid: f0ca8c0d-2538-4197-a830-d5ffb9f8b635
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleUIInsertObject, OleUIInsertObject function [COM], OleUIInsertObjectA, OleUIInsertObjectW, _ole_OleUIInsertObject, com.oleuiinsertobject, oledlg/OleUIInsertObject, oledlg/OleUIInsertObjectA, oledlg/OleUIInsertObjectW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 

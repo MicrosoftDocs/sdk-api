@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP
 title: PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves a resource from one group to another.
 old-location: mscs\changeclusterresourcegroup.htm
 old-project: MsCS
 ms.assetid: 99720615-ad5d-4d9a-a6ae-8ba1cd2499f2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP, PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP callback, PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP callback function [Failover Cluster], _wolf_changeclusterresourcegroup, clusapi/PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP, mscs.changeclusterresourcegroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreen.get_SourceTemplateName
 title: IFsrmFileScreen::get_SourceTemplateName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the name of the template from which this file screen object was derived.
 old-location: fsrm\ifsrmfilescreen_sourcetemplatename.htm
 old-project: Fsrm
 ms.assetid: 12dffc6e-77d0-4010-ae7c-94a4be2549e6
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],SourceTemplateName property, IFsrmFileScreen.SourceTemplateName, IFsrmFileScreen.get_SourceTemplateName, IFsrmFileScreen::SourceTemplateName, IFsrmFileScreen::get_SourceTemplateName, SourceTemplateName property [File Server Resource Manager], SourceTemplateName property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_sourcetemplatename, fsrm.ifsrmfilescreen_sourcetemplatename, fsrmscreen/IFsrmFileScreen::SourceTemplateName, fsrmscreen/IFsrmFileScreen::get_SourceTemplateName, get_SourceTemplateName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 

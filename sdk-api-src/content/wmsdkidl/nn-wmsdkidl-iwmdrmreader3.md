@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMDRMReader3
 title: IWMDRMReader3
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMDRMReader3 interface enables content transcription by providing a method to get protection systems approved by a license.
 old-location: wmformat\iwmdrmreader3.htm
 old-project: wmformat
 ms.assetid: 9474e06a-9519-456c-b304-efc875a4accc
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMDRMReader3, IWMDRMReader3 interface [windows Media Format], IWMDRMReader3 interface [windows Media Format],described, IWMDRMReader3Interface, wmformat.iwmdrmreader3, wmsdkidl/IWMDRMReader3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IQualityControl.SetSink
 title: IQualityControl::SetSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetSink method sets the IQualityControl object that will receive quality messages.
 old-location: dshow\iqualitycontrol_setsink.htm
 old-project: DirectShow
 ms.assetid: f82922dc-ec33-499d-b052-a1ba38632c52
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IQualityControl interface [DirectShow],SetSink method, IQualityControl.SetSink, IQualityControl::SetSink, IQualityControlSetSink, SetSink, SetSink method [DirectShow], SetSink method [DirectShow],IQualityControl interface, dshow.iqualitycontrol_setsink, strmif/IQualityControl::SetSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

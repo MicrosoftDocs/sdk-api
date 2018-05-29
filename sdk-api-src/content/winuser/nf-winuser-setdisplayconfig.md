@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.SetDisplayConfig
 title: SetDisplayConfig function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDisplayConfig function modifies the display topology, source, and target modes by exclusively enabling the specified paths in the current session.
 old-location: display\setdisplayconfig.htm
 old-project: display
 ms.assetid: 9f649fa0-ffb2-44c6-9a66-049f888e3b04
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CCD_Functions_fceeecb0-8c34-4ff0-b201-fc5b7f39f2df.xml, SetDisplayConfig, SetDisplayConfig function [Display Devices], display.setdisplayconfig, winuser/SetDisplayConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

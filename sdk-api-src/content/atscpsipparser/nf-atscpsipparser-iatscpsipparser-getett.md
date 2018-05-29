@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetETT
 title: IAtscPsipParser::GetETT
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_getett.htm
 old-project: mstv
 ms.assetid: 6838620a-3dee-468e-bfc8-00757c06263e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetETT, GetETT method [Microsoft TV Technologies], GetETT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetETT method, IAtscPsipParser.GetETT, IAtscPsipParser::GetETT, IAtscPsipParserGetETT, atscpsipparser/IAtscPsipParser::GetETT, mstv.iatscpsipparser_getett
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:windows.data.pdf.interop.PdfRenderParams
 title: PdfRenderParams function
-author: windows-driver-content
+author: windows-sdk-content
 description: Populates a PDF_RENDER_PARAMS stucture. A PDF_RENDER_PARAMS structure represents a set of properties for outputting a single page of a Portable Document Format (PDF) file.
 old-location: winrt\pdfrenderparams.htm
 old-project: WinRT
 ms.assetid: 5C229DEF-DAF7-414B-B733-4807E4122C16
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: PdfRenderParams, PdfRenderParams function [Windows Runtime], windows/PdfRenderParams, winrt.pdfrenderparams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: windows.data.pdf.interop.h
 req.include-header: 

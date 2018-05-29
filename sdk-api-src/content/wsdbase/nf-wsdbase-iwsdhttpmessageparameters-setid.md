@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetID
 title: IWSDHttpMessageParameters::SetID
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the transport ID for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_setid.htm
 old-project: WsdApi
 ms.assetid: 95a05239-f1d5-4bd8-8aec-1e641397caa0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetID method, IWSDHttpMessageParameters.SetID, IWSDHttpMessageParameters::SetID, SetID, SetID method, SetID method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setid, ncd.iwsdhttpmessasgeparameters_setid, wsdbase/IWSDHttpMessageParameters::SetID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

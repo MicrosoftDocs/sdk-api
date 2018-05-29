@@ -1,16 +1,16 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0016
 title: "__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0016"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether the content of the XPS OM will be interleaved when it is written to a file or a stream.
 old-location: xps\xps_interleaving.htm
 old-project: printdocs
 ms.assetid: cfb2d1f3-2edb-4342-9fcc-c058afa3ef83
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: XPS_INTERLEAVING, XPS_INTERLEAVING enumeration [XPS Documents and Packaging], XPS_INTERLEAVING_OFF, XPS_INTERLEAVING_ON, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0016, xps.xps_interleaving, xpsobjectmodel/XPS_INTERLEAVING, xpsobjectmodel/XPS_INTERLEAVING_OFF, xpsobjectmodel/XPS_INTERLEAVING_ON
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: xpsobjectmodel.h
 req.include-header: 

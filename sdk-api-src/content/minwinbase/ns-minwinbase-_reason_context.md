@@ -1,16 +1,16 @@
 ---
 UID: NS:minwinbase._REASON_CONTEXT
 title: "_REASON_CONTEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a power request. This structure is used by the PowerCreateRequest and SetWaitableTimerEx functions.
 old-location: base\reason_context.htm
 old-project: Power
 ms.assetid: 006bb84f-5e51-4f6e-8a44-6b50e763c5ca
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: "*PREASON_CONTEXT, POWER_REQUEST_CONTEXT_DETAILED_STRING, POWER_REQUEST_CONTEXT_SIMPLE_STRING, PREASON_CONTEXT, PREASON_CONTEXT structure pointer, REASON_CONTEXT, REASON_CONTEXT structure, _REASON_CONTEXT, base.reason_context, minwinbase/PREASON_CONTEXT, minwinbase/REASON_CONTEXT, winbase/PREASON_CONTEXT, winbase/REASON_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: minwinbase.h
 req.include-header: Windows.h

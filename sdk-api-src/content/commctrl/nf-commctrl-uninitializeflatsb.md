@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.UninitializeFlatSB
 title: UninitializeFlatSB function
-author: windows-driver-content
+author: windows-sdk-content
 description: Uninitializes flat scroll bars for a particular window. The specified window will revert to standard scroll bars.
 old-location: controls\UninitializeFlatSB.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\uninitializeflatsb.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: UninitializeFlatSB, UninitializeFlatSB function [Windows Controls], _win32_UninitializeFlatSB, _win32_UninitializeFlatSB_cpp, commctrl/UninitializeFlatSB, controls.UninitializeFlatSB, controls._win32_UninitializeFlatSB
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:sessdirpublictypes._TARGET_CHANGE_TYPE
 title: "_TARGET_CHANGE_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of change that occurred in a target.
 old-location: termserv\target_change_type.htm
 old-project: TermServ
 ms.assetid: ee1e6433-498f-4d8a-97d7-3e32f79fafda
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TARGET_CHANGE_TYPE, TARGET_CHANGE_TYPE enumeration [Remote Desktop Services], TARGET_CHANGE_UNSPEC, TARGET_EXTERNALIP_CHANGED, TARGET_IDLE, TARGET_INTERNALIP_CHANGED, TARGET_JOINED, TARGET_REMOVED, TARGET_STATE_CHANGED, _TARGET_CHANGE_TYPE, sessdirpublictypes/TARGET_CHANGE_TYPE, sessdirpublictypes/TARGET_CHANGE_UNSPEC, sessdirpublictypes/TARGET_EXTERNALIP_CHANGED, sessdirpublictypes/TARGET_IDLE, sessdirpublictypes/TARGET_INTERNALIP_CHANGED, sessdirpublictypes/TARGET_JOINED, sessdirpublictypes/TARGET_REMOVED, sessdirpublictypes/TARGET_STATE_CHANGED, termserv.target_change_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: sessdirpublictypes.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_CLUSTER_REG_SYNC_DATABASE
 title: PCLUSAPI_CLUSTER_REG_SYNC_DATABASE
-author: windows-driver-content
+author: windows-sdk-content
 description: Synchronizes the Cluster Database with a cluster.
 old-location: mscs\clusterregsyncdatabase.htm
 old-project: MsCS
 ms.assetid: 90A66286-F17D-40AD-B0CB-6E02C1E1709A
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_CLUSTER_REG_SYNC_DATABASE, PCLUSAPI_CLUSTER_REG_SYNC_DATABASE callback, PCLUSAPI_CLUSTER_REG_SYNC_DATABASE callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_REG_SYNC_DATABASE, mscs.clusterregsyncdatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

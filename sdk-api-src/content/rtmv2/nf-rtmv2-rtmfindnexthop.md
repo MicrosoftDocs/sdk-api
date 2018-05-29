@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmFindNextHop
 title: RtmFindNextHop function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmFindNextHop function finds a specific next hop in a client's next-hop list.
 old-location: rras\rtmfindnexthop.htm
 old-project: RRAS
 ms.assetid: 82bf88ad-eb6d-4ea5-98a0-72280e341f83
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmFindNextHop, RtmFindNextHop function [RAS], _rtmv2ref_rtmfindnexthop, rras.rtmfindnexthop, rtmv2/RtmFindNextHop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

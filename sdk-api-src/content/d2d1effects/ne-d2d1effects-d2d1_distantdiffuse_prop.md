@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1effects.D2D1_DISTANTDIFFUSE_PROP
 title: D2D1_DISTANTDIFFUSE_PROP
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifiers for properties of the Distant-diffuse lighting effect.
 old-location: direct2d\d2d1_distantdiffuse_prop.htm
 old-project: Direct2D
 ms.assetid: C47029DF-D612-4256-ABFC-57F42614E78A
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_DISTANTDIFFUSE_PROP, D2D1_DISTANTDIFFUSE_PROP enumeration [Direct2D], D2D1_DISTANTDIFFUSE_PROP_AZIMUTH, D2D1_DISTANTDIFFUSE_PROP_COLOR, D2D1_DISTANTDIFFUSE_PROP_DIFFUSE_CONSTANT, D2D1_DISTANTDIFFUSE_PROP_ELEVATION, D2D1_DISTANTDIFFUSE_PROP_KERNEL_UNIT_LENGTH, D2D1_DISTANTDIFFUSE_PROP_SCALE_MODE, D2D1_DISTANTDIFFUSE_PROP_SURFACE_SCALE, d2d1effects/D2D1_DISTANTDIFFUSE_PROP, d2d1effects/D2D1_DISTANTDIFFUSE_PROP_AZIMUTH, d2d1effects/D2D1_DISTANTDIFFUSE_PROP_COLOR, d2d1effects/D2D1_DISTANTDIFFUSE_PROP_DIFFUSE_CONSTANT, d2d1effects/D2D1_DISTANTDIFFUSE_PROP_ELEVATION, d2d1effects/D2D1_DISTANTDIFFUSE_PROP_KERNEL_UNIT_LENGTH, d2d1effects/D2D1_DISTANTDIFFUSE_PROP_SCALE_MODE, d2d1effects/D2D1_DISTANTDIFFUSE_PROP_SURFACE_SCALE, direct2d.d2d1_distantdiffuse_prop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 

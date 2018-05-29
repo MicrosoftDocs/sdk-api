@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetHorizontalAlignment
 title: IDirectManipulationPrimaryContent::SetHorizontalAlignment
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the horizontal alignment of the primary content relative to the viewport.
 old-location: directmanipulation\idirectmanipulationprimarycontent_sethorizontalalignment.htm
 old-project: directmanipulation
 ms.assetid: 94716ec8-325e-4e9e-9a30-1d9999bdb9c3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetHorizontalAlignment method, IDirectManipulationPrimaryContent.SetHorizontalAlignment, IDirectManipulationPrimaryContent::SetHorizontalAlignment, SetHorizontalAlignment, SetHorizontalAlignment method [Direct Manipulation], SetHorizontalAlignment method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_sethorizontalalignment, directmanipulation/IDirectManipulationPrimaryContent::SetHorizontalAlignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

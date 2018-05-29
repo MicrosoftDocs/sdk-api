@@ -1,16 +1,16 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.GetType
 title: IEnumCERTVIEWCOLUMN::GetType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the data type of the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_gettype.htm
 old-project: SecCrypto
 ms.assetid: 53297e9e-6583-4edf-85f4-e2b2e4ba28b3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetType, GetType method [Security], GetType method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetType method, IEnumCERTVIEWCOLUMN.GetType, IEnumCERTVIEWCOLUMN::GetType, _certsrv_ienumcertviewcolumn_gettype, certview/IEnumCERTVIEWCOLUMN::GetType, security.ienumcertviewcolumn_gettype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h

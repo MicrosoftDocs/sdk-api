@@ -1,16 +1,16 @@
 ---
 UID: NF:dwmapi.DwmAttachMilContent
 title: DwmAttachMilContent function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function is not implemented.
 old-location: dwm\dwmattachmilcontent.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmattachmilcontent.htm
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: DwmAttachMilContent, DwmAttachMilContent function [Desktop Window Manager], _udwm_dwmattachmilcontent, _udwm_dwmattachmilcontent_cpp, dwm.dwmattachmilcontent, dwmapi/DwmAttachMilContent, winui._udwm_dwmattachmilcontent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

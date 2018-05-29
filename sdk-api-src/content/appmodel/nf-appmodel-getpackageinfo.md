@@ -1,16 +1,16 @@
 ---
 UID: NF:appmodel.GetPackageInfo
 title: GetPackageInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the package information for the specified package.
 old-location: appxpkg\getpackageinfo.htm
 old-project: appxpkg
 ms.assetid: 28F45B3B-A61F-44D3-B606-6966AD5866FA
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetPackageInfo, GetPackageInfo function [App packaging and management], appmodel/GetPackageInfo, appxpkg.getpackageinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

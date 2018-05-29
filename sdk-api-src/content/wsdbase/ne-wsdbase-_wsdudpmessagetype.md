@@ -1,16 +1,16 @@
 ---
 UID: NE:wsdbase._WSDUdpMessageType
 title: "_WSDUdpMessageType"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the type of UDP message.
 old-location: ncd\wsdudpmessagetype.htm
 old-project: WsdApi
 ms.assetid: 0af4fd37-b1a9-4916-986c-e071c060d020
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ONE_WAY, TWO_WAY, WSDUdpMessageType, WSDUdpMessageType enumeration, _WSDUdpMessageType, ncd.wsdudpmessagetype, wsdbase/ONE_WAY, wsdbase/TWO_WAY, wsdbase/WSDUdpMessageType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DBaseTexture9.GetLOD
 title: IDirect3DBaseTexture9::GetLOD
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a value clamped to the maximum level-of-detail set for a managed texture (this method is not supported for an unmanaged texture).
 old-location: direct3d9\idirect3dbasetexture9__getlod.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dbasetexture9__getlod.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: GetLOD, GetLOD method [Direct3D 9], GetLOD method [Direct3D 9],IDirect3DBaseTexture9 interface, IDirect3DBaseTexture9 interface [Direct3D 9],GetLOD method, IDirect3DBaseTexture9.GetLOD, IDirect3DBaseTexture9::GetLOD, a04e1586-ff6d-b7ed-c4b5-175ecbe9e41c, d3d9helper/IDirect3DBaseTexture9::GetLOD, direct3d9.idirect3dbasetexture9__getlod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetType
 title: IGroupPolicyObject::GetType
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetType method retrieves type information for the GPO being edited.
 old-location: policy\igrouppolicyobject_gettype.htm
 old-project: Policy
 ms.assetid: e64314aa-340f-496c-aa6b-4744573565f6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GPOTypeDS, GPOTypeLocal, GPOTypeRemote, GetType, GetType method [Group Policy], GetType method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetType method, IGroupPolicyObject.GetType, IGroupPolicyObject::GetType, _win32_igrouppolicyobject_gettype, gpedit/IGroupPolicyObject::GetType, policy.igrouppolicyobject_gettype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 

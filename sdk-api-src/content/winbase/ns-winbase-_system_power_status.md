@@ -1,16 +1,16 @@
 ---
 UID: NS:winbase._SYSTEM_POWER_STATUS
 title: "_SYSTEM_POWER_STATUS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the power status of the system.
 old-location: base\system_power_status_str.htm
 old-project: Power
 ms.assetid: 4c331239-4222-4650-a0ed-6d605bf376cd
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: "*LPSYSTEM_POWER_STATUS, LPSYSTEM_POWER_STATUS, LPSYSTEM_POWER_STATUS structure pointer, SYSTEM_POWER_STATUS, SYSTEM_POWER_STATUS structure, _SYSTEM_POWER_STATUS, _win32_system_power_status_str, base.system_power_status_str, winbase/LPSYSTEM_POWER_STATUS, winbase/SYSTEM_POWER_STATUS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h

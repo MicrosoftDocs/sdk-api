@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_CHAIN_CONTEXT
 title: "_CERT_CHAIN_CONTEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains an array of simple certificate chains and a trust status structure that indicates summary validity data on all of the connected simple chains.
 old-location: security\cert_chain_context.htm
 old-project: SecCrypto
 ms.assetid: 609311f4-9cd6-4945-9f93-7266b3fc4a74
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_CHAIN_CONTEXT, CERT_CHAIN_CONTEXT, CERT_CHAIN_CONTEXT structure [Security], PCERT_CHAIN_CONTEXT, PCERT_CHAIN_CONTEXT structure pointer [Security], _CERT_CHAIN_CONTEXT, _crypto2_cert_chain_context, security.cert_chain_context, wincrypt/CERT_CHAIN_CONTEXT, wincrypt/PCERT_CHAIN_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

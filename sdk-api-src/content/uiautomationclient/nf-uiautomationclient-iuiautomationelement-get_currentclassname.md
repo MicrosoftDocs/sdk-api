@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentClassName
 title: IUIAutomationElement::get_CurrentClassName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the class name of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentClassName.htm
 old-project: WinAuto
 ms.assetid: df019800-7467-48ef-8c16-0cb8c8d05ed5
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentClassName property [Windows Accessibility], CurrentClassName property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentClassName property, IUIAutomationElement.CurrentClassName, IUIAutomationElement.get_CurrentClassName, IUIAutomationElement::CurrentClassName, IUIAutomationElement::get_CurrentClassName, get_CurrentClassName, uiauto.uiauto_IUIAutomationElement_CurrentClassName, uiauto_IUIAutomationElement_CurrentClassName, uiautomationclient/IUIAutomationElement::CurrentClassName, uiautomationclient/IUIAutomationElement::get_CurrentClassName, winauto.uiauto_IUIAutomationElement_CurrentClassName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

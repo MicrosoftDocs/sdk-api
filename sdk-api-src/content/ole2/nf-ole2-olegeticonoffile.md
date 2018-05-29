@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleGetIconOfFile
 title: OleGetIconOfFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a handle to a metafile containing an icon and string label for the specified file name.
 old-location: com\olegeticonoffile.htm
 old-project: com
 ms.assetid: 2fa9cd75-4dc6-45a3-aa62-e82bd28289a5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleGetIconOfFile, OleGetIconOfFile function [COM], _com_OleGetIconOfFile, com.olegeticonoffile, ole2/OleGetIconOfFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

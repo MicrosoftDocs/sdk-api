@@ -1,16 +1,16 @@
 ---
 UID: NF:winwlx.WlxLoggedOutSAS
 title: WlxLoggedOutSAS function
-author: windows-driver-content
+author: windows-sdk-content
 description: Winlogon calls this function when it receives a secure attention sequence (SAS) event while no user is logged on.
 old-location: security\wlxloggedoutsas.htm
 old-project: SecAuthN
 ms.assetid: 7f3996b6-7c99-42c5-a39f-8c67ff19a580
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: WLX_LOGON_OPT_NO_PROFILE, WLX_SAS_TYPE_CTRL_ALT_DEL, WLX_SAS_TYPE_SC_INSERT, WLX_SAS_TYPE_SC_REMOVE, WLX_SAS_TYPE_TIMEOUT, WlxLoggedOutSAS, WlxLoggedOutSAS function [Security], _gina_wlxloggedoutsas, security.wlxloggedoutsas, winwlx/WlxLoggedOutSAS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 

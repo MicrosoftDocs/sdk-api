@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.GetURL
 title: IMFHttpDownloadRequest::GetURL
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the URL that is used for sending the request.
 old-location: mf\imfhttpdownloadrequest_geturl.htm
 old-project: medfound
 ms.assetid: 38FAD6B8-8C50-492C-BC53-6F301D49083F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetURL method, IMFHttpDownloadRequest.GetURL, IMFHttpDownloadRequest::GetURL, mf.imfhttpdownloadrequest_geturl, mfidl/IMFHttpDownloadRequest::GetURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

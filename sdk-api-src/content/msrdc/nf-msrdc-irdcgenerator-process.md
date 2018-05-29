@@ -1,16 +1,16 @@
 ---
 UID: NF:msrdc.IRdcGenerator.Process
 title: IRdcGenerator::Process
-author: windows-driver-content
+author: windows-sdk-content
 description: Processes the input data and produces 0 or more output bytes.
 old-location: rdc\irdcgenerator_process.htm
 old-project: Rdc
 ms.assetid: 34d19eee-0fa9-4ac3-a33b-9f01cfa06371
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IRdcGenerator interface [Remote Differential Compression],Process method, IRdcGenerator.Process, IRdcGenerator::Process, Process, Process method [Remote Differential Compression], Process method [Remote Differential Compression],IRdcGenerator interface, fs.irdcgenerator_process, msrdc/IRdcGenerator::Process, rdc.irdcgenerator_process
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

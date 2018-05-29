@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetDateTime
 title: MI_SubscriptionDeliveryOptions_GetDateTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a previously set datetime option.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getdatetime.htm
 old-project: wmi_v2
 ms.assetid: 502738a3-1f4a-460c-bd1c-5f1ea411d899
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetDateTime, MI_SubscriptionDeliveryOptions_GetDateTime function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetDateTime, wmi_v2.mi_subscriptiondeliveryoptions_getdatetime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

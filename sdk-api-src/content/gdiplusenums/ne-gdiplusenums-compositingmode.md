@@ -1,16 +1,16 @@
 ---
 UID: NE:gdiplusenums.CompositingMode
 title: CompositingMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The CompositingMode enumeration specifies how rendered colors are combined with background colors. This enumeration is used by the Graphics::GetCompositingMode and Graphics::SetCompositingMode methods of the Graphics class.
 old-location: gdiplus\_gdiplus_ENUM_CompositingMode.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\compositingmode.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CompositingMode, CompositingMode enumeration [GDI+], CompositingModeSourceCopy, CompositingModeSourceOver, _gdiplus_ENUM_CompositingMode, gdiplus._gdiplus_ENUM_CompositingMode, gdiplusenums/CompositingMode, gdiplusenums/CompositingModeSourceCopy, gdiplusenums/CompositingModeSourceOver
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

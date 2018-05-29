@@ -1,16 +1,16 @@
 ---
 UID: NE:mi._MI_LocaleType
 title: "_MI_LocaleType"
-author: windows-driver-content
+author: windows-sdk-content
 description: Type of locale is needed when setting and getting locales.
 old-location: wmi_v2\mi_localetype.htm
 old-project: wmi_v2
 ms.assetid: e7a57fc1-a5a2-4c7f-9223-19adfb420237
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_LOCALE_TYPE_CLOSEST_DATA, MI_LOCALE_TYPE_CLOSEST_UI, MI_LOCALE_TYPE_REQUESTED_DATA, MI_LOCALE_TYPE_REQUESTED_UI, MI_LocaleType, MI_LocaleType enumeration [Windows Management Infrastructure (MI)], _MI_LocaleType, mi/MI_LOCALE_TYPE_CLOSEST_DATA, mi/MI_LOCALE_TYPE_CLOSEST_UI, mi/MI_LOCALE_TYPE_REQUESTED_DATA, mi/MI_LOCALE_TYPE_REQUESTED_UI, mi/MI_LocaleType, wmi._mi_localetype, wmi_v2.mi_localetype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mi.h
 req.include-header: 

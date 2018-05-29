@@ -1,16 +1,16 @@
 ---
 UID: NF:ntquery.CIMakeICommand
 title: CIMakeICommand function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a Command object, specifying computers, catalogs, and scopes.
 old-location: indexsrv\cimakeicommand.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9u90.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CIMakeICommand, CIMakeICommand function [Indexing Service], _idxs_CIMakeICommand, indexsrv.cimakeicommand, ntquery/CIMakeICommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

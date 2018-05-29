@@ -1,16 +1,16 @@
 ---
 UID: NN:oleidl.IOleClientSite
 title: IOleClientSite
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the primary means by which an embedded object obtains information about the location and extent of its display site, its moniker, its user interface, and other resources provided by its container.
 old-location: com\ioleclientsite.htm
 old-project: com
 ms.assetid: dafee149-926a-4d08-a43d-5847682db645
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleClientSite, IOleClientSite interface [COM], IOleClientSite interface [COM],described, _ole_ioleclientsite, com.ioleclientsite, oleidl/IOleClientSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

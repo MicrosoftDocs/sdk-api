@@ -1,16 +1,16 @@
 ---
 UID: NN:tom.ITextStoryRanges
 title: ITextStoryRanges
-author: windows-driver-content
+author: windows-sdk-content
 description: The purpose of the ITextStoryRanges interface is to enumerate the stories in an ITextDocument.
 old-location: controls\ITextStoryRanges.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextstoryranges.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextStoryRanges, ITextStoryRanges interface [Windows Controls], ITextStoryRanges interface [Windows Controls],described, _win32_ITextStoryRanges, _win32_ITextStoryRanges_cpp, controls.ITextStoryRanges, controls._win32_ITextStoryRanges, tom/ITextStoryRanges
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:vmr9.IVMRDeinterlaceControl9
 title: IVMRDeinterlaceControl9
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRDeinterlaceControl9 interface supports hardware-accelerated deinterlacing using the Video Mixing Renderer Filter 9 (VMR-9).
 old-location: dshow\ivmrdeinterlacecontrol9.htm
 old-project: DirectShow
 ms.assetid: 685f3627-30bd-4c78-9eda-0b06203dd46e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRDeinterlaceControl9, IVMRDeinterlaceControl9 interface [DirectShow], IVMRDeinterlaceControl9 interface [DirectShow],described, IVMRDeinterlaceControl9Interface, dshow.ivmrdeinterlacecontrol9, vmr9/IVMRDeinterlaceControl9
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 

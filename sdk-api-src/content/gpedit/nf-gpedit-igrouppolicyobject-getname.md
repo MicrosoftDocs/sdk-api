@@ -1,16 +1,16 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetName
 title: IGroupPolicyObject::GetName
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetName method retrieves the unique GPO name.
 old-location: policy\igrouppolicyobject_getname.htm
 old-project: Policy
 ms.assetid: 1374c01c-aba3-48f5-8a42-7139873d8f7c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetName, GetName method [Group Policy], GetName method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetName method, IGroupPolicyObject.GetName, IGroupPolicyObject::GetName, _win32_igrouppolicyobject_getname, gpedit/IGroupPolicyObject::GetName, policy.igrouppolicyobject_getname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 

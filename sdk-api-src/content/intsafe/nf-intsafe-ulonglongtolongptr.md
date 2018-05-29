@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.ULongLongToLongPtr
 title: ULongLongToLongPtr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type ULONGLONG to a value of type LONG_PTR.
 old-location: shell\ULongLongToLongPtr.htm
 old-project: shell
 ms.assetid: d5b0c898-4bd3-4631-aeec-62c0d57d0e17
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ULongLongToLongPtr, ULongLongToLongPtr function [Windows Shell], _shell_ULongLongToLongPtr, intsafe/ULongLongToLongPtr, shell.ULongLongToLongPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

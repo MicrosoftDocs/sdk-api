@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaEventAddWindow
 title: UiaEventAddWindow function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a window to the event listener.
 old-location: winauto\uiauto_UiaEventAddWindowFunction.htm
 old-project: WinAuto
 ms.assetid: 1044dbe0-1b66-41f4-916d-eb23c0a0c92b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaEventAddWindow, UiaEventAddWindow function [Windows Accessibility], uiauto.uiauto_UiaEventAddWindowFunction, uiauto_UiaEventAddWindowFunction, uiautomationcoreapi/UiaEventAddWindow, winauto.uiauto_UiaEventAddWindowFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

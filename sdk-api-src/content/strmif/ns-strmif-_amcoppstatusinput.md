@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif._AMCOPPStatusInput
 title: "_AMCOPPStatusInput"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AMCOPPStatusInput structure contains a Certified Output Protection Protocol (COPP) status request.
 old-location: dshow\amcoppstatusinput.htm
 old-project: DirectShow
 ms.assetid: 988e6d54-f241-4cfc-8793-fc42de92ac52
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPAMCOPPStatusInput, AMCOPPStatusInput, AMCOPPStatusInput structure [DirectShow], AMCOPPStatusInputStructure, LPAMCOPPStatusInput, LPAMCOPPStatusInput structure pointer [DirectShow], _AMCOPPStatusInput, dshow.amcoppstatusinput, strmif/AMCOPPStatusInput, strmif/LPAMCOPPStatusInput"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

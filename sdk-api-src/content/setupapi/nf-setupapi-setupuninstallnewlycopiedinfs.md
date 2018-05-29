@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupUninstallNewlyCopiedInfs
 title: SetupUninstallNewlyCopiedInfs function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupUninstallNewlyCopiedInfs function uninstalls INF files (.inf), precompiled INF files (.pnf), and catalog files (.cat) that are previously installed during the committal of the specified file queue.
 old-location: setup\setupuninstallnewlycopiedinfs.htm
 old-project: SetupApi
 ms.assetid: 7bc10d12-0a0e-48b6-9fb4-1bf1c99cc3be
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupUninstallNewlyCopiedInfs, SetupUninstallNewlyCopiedInfs function [Setup API], _setupapi_setupuninstallnewlycopiedinfs, setup.setupuninstallnewlycopiedinfs, setupapi/SetupUninstallNewlyCopiedInfs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

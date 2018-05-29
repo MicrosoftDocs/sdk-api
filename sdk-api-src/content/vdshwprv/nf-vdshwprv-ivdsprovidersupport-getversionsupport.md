@@ -1,16 +1,16 @@
 ---
 UID: NF:vdshwprv.IVdsProviderSupport.GetVersionSupport
 title: IVdsProviderSupport::GetVersionSupport
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a bitmask of values enumerated by VDS_VERSION_SUPPORT_FLAG indicating the versions of the VDS interfaces supported by this provider.
 old-location: base\ivdsprovidersupport_getversionsupport.htm
 old-project: VDS
 ms.assetid: c7527d29-7ab4-4f98-991b-411059e14237
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetVersionSupport, GetVersionSupport method, GetVersionSupport method,IVdsProviderSupport interface, IVdsProviderSupport interface,GetVersionSupport method, IVdsProviderSupport.GetVersionSupport, IVdsProviderSupport::GetVersionSupport, base.ivdsprovidersupport_getversionsupport, vds/IVdsProviderSupport::GetVersionSupport, vdshwprv/IVdsProviderSupport::GetVersionSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

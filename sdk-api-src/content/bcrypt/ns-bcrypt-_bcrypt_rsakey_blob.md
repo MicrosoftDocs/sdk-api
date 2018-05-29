@@ -1,16 +1,16 @@
 ---
 UID: NS:bcrypt._BCRYPT_RSAKEY_BLOB
 title: "_BCRYPT_RSAKEY_BLOB"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used as a header for an RSA public key or private key BLOB in memory.
 old-location: security\bcrypt_rsakey_blob.htm
 old-project: SecCNG
 ms.assetid: bbf3f4b9-5c69-4212-bb23-34bb2c84185c
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_RSAFULLPRIVATE_MAGIC, BCRYPT_RSAKEY_BLOB, BCRYPT_RSAKEY_BLOB structure [Security], BCRYPT_RSAPRIVATE_MAGIC, BCRYPT_RSAPUBLIC_MAGIC, _BCRYPT_RSAKEY_BLOB, bcrypt/BCRYPT_RSAKEY_BLOB, security.bcrypt_rsakey_blob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

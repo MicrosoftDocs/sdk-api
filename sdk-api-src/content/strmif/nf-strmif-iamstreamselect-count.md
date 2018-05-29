@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMStreamSelect.Count
 title: IAMStreamSelect::Count
-author: windows-driver-content
+author: windows-sdk-content
 description: The Count method retrieves the number of available streams.
 old-location: dshow\iamstreamselect_count.htm
 old-project: DirectShow
 ms.assetid: 5104ce98-5b13-409a-9226-0c089ee8bb1e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Count, Count method [DirectShow], Count method [DirectShow],IAMStreamSelect interface, IAMStreamSelect interface [DirectShow],Count method, IAMStreamSelect.Count, IAMStreamSelect::Count, IAMStreamSelectCount, dshow.iamstreamselect_count, strmif/IAMStreamSelect::Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

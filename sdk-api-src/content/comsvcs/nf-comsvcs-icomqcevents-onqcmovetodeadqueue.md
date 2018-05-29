@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCMoveToDeadQueue
 title: IComQCEvents::OnQCMoveToDeadQueue
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when a message is moved to the dead letter queue and cannot be delivered.
 old-location: cos\icomqcevents_onqcmovetodeadqueue.htm
 old-project: cossdk
 ms.assetid: 54117583-4e8d-4ae9-8262-781f5f81636d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCMoveToDeadQueue method, IComQCEvents.OnQCMoveToDeadQueue, IComQCEvents::OnQCMoveToDeadQueue, OnQCMoveToDeadQueue, OnQCMoveToDeadQueue method [COM+], OnQCMoveToDeadQueue method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCMoveToDeadQueue, comsvcs/IComQCEvents::OnQCMoveToDeadQueue, cos.icomqcevents_onqcmovetodeadqueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

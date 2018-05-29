@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupInstallServicesFromInfSectionExW
 title: SetupInstallServicesFromInfSectionExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupInstallServicesFromInfSectionEx function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file.
 old-location: setup\setupinstallservicesfrominfsectionex.htm
 old-project: SetupApi
 ms.assetid: c0bf6442-56dc-41f1-8a21-ff7b92b1ef0f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SPSVCINST_ASSOCSERVICE, SPSVCINST_CLOBBER_SECURITY, SPSVCINST_DELETEEVENTLOGENTRY, SPSVCINST_NOCLOBBER_DEPENDENCIES, SPSVCINST_NOCLOBBER_DESCRIPTION, SPSVCINST_NOCLOBBER_DISPLAYNAME, SPSVCINST_NOCLOBBER_ERRORCONTROL, SPSVCINST_NOCLOBBER_LOADORDERGROUP, SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES, SPSVCINST_NOCLOBBER_STARTTYPE, SPSVCINST_STARTSERVICE, SPSVCINST_STOPSERVICE, SPSVCINST_TAGTOFRONT, SetupInstallServicesFromInfSectionEx, SetupInstallServicesFromInfSectionEx function [Setup API], SetupInstallServicesFromInfSectionExA, SetupInstallServicesFromInfSectionExW, _setupapi_setupinstallservicesfrominfsectionex, setup.setupinstallservicesfrominfsectionex, setupapi/SetupInstallServicesFromInfSectionEx, setupapi/SetupInstallServicesFromInfSectionExA, setupapi/SetupInstallServicesFromInfSectionExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

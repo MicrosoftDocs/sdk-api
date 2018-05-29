@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_MISCELLANEOUSCALLBACKS
 title: "_DD_MISCELLANEOUSCALLBACKS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_MISCELLANEOUSCALLBACKS structure contains an entry pointer to the memory query callback that a device driver supports.
 old-location: display\dd_miscellaneouscallbacks.htm
 old-project: display
 ms.assetid: 9bf47408-cc7f-455d-bbb2-6f1f318eee5f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_MISCELLANEOUSCALLBACKS, DD_MISCELLANEOUSCALLBACKS, DD_MISCELLANEOUSCALLBACKS structure [Display Devices], PDD_MISCELLANEOUSCALLBACKS, PDD_MISCELLANEOUSCALLBACKS structure pointer [Display Devices], _DD_MISCELLANEOUSCALLBACKS, ddrawint/DD_MISCELLANEOUSCALLBACKS, ddrawint/PDD_MISCELLANEOUSCALLBACKS, ddstrcts_1345d66b-a9c2-497a-ba08-4fc901b24173.xml, display.dd_miscellaneouscallbacks"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

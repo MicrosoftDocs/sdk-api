@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_ALLOCATE_PRIVATE_HEAP
 title: LSA_ALLOCATE_PRIVATE_HEAP
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates memory on the private heap.
 old-location: security\allocateprivateheap.htm
 old-project: SecAuthN
 ms.assetid: 956e7aaf-e8b3-4db5-945a-b579f946b769
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AllocatePrivateHeap, AllocatePrivateHeap function [Security], LSA_ALLOCATE_PRIVATE_HEAP, ntsecpkg/AllocatePrivateHeap, security.allocateprivateheap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

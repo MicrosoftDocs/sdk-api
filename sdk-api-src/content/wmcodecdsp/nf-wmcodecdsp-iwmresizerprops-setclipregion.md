@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.SetClipRegion
 title: IWMResizerProps::SetClipRegion
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the source rectangle.
 old-location: mf\iwmresizerpropssetclipregion.htm
 old-project: medfound
 ms.assetid: 51a11e24-a4c3-49fb-86ec-17baa1773caf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMResizerProps interface [Media Foundation],SetClipRegion method, IWMResizerProps.SetClipRegion, IWMResizerProps::SetClipRegion, SetClipRegion, SetClipRegion method [Media Foundation], SetClipRegion method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetclipregion, mf.iwmresizerpropssetclipregion, wmcodecdsp/ IWMResizerProps::SetClipRegion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

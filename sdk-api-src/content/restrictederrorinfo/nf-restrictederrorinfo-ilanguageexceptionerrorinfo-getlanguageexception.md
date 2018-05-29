@@ -1,16 +1,16 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionErrorInfo.GetLanguageException
 title: ILanguageExceptionErrorInfo::GetLanguageException
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the stored IUnknown object from the error object.
 old-location: winrt\ilanguageexceptionerrorinfo_getlanguageexception.htm
 old-project: WinRT
 ms.assetid: 94B34741-88AA-4AD4-B1F4-30A7AE5AFCC8
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetLanguageException, GetLanguageException method [Windows Runtime], GetLanguageException method [Windows Runtime],ILanguageExceptionErrorInfo interface, ILanguageExceptionErrorInfo interface [Windows Runtime],GetLanguageException method, ILanguageExceptionErrorInfo.GetLanguageException, ILanguageExceptionErrorInfo::GetLanguageException, restrictederrorinfo/ILanguageExceptionErrorInfo::GetLanguageException, winrt.ilanguageexceptionerrorinfo_getlanguageexception
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: restrictederrorinfo.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:processsnapshot.PssDuplicateSnapshot
 title: PssDuplicateSnapshot function
-author: windows-driver-content
+author: windows-sdk-content
 description: Duplicates a snapshot handle from one process to another.
 old-location: proc_snap\pssduplicatesnapshot.htm
 old-project: proc_snap
 ms.assetid: 5D2751F3-E7E1-4917-8060-E2BC8A7A3DEA
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PssDuplicateSnapshot, PssDuplicateSnapshot function, proc_snap.pssduplicatesnapshot, processsnapshot/PssDuplicateSnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 

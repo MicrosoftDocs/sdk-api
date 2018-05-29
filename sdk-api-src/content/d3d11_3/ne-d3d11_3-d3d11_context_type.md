@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11_3.D3D11_CONTEXT_TYPE
 title: D3D11_CONTEXT_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the context in which a query occurs.
 old-location: direct3d11\d3d11_context_type.htm
 old-project: direct3d11
 ms.assetid: 5467F07C-E429-4324-B52E-FDC25B4DB9FE
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_CONTEXT_TYPE, D3D11_CONTEXT_TYPE enumeration [Direct3D 11], D3D11_CONTEXT_TYPE_3D, D3D11_CONTEXT_TYPE_ALL, D3D11_CONTEXT_TYPE_COMPUTE, D3D11_CONTEXT_TYPE_COPY, D3D11_CONTEXT_TYPE_VIDEO, d3d11_3/D3D11_CONTEXT_TYPE, d3d11_3/D3D11_CONTEXT_TYPE_3D, d3d11_3/D3D11_CONTEXT_TYPE_ALL, d3d11_3/D3D11_CONTEXT_TYPE_COMPUTE, d3d11_3/D3D11_CONTEXT_TYPE_COPY, d3d11_3/D3D11_CONTEXT_TYPE_VIDEO, direct3d11.d3d11_context_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11_3.h
 req.include-header: 

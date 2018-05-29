@@ -1,16 +1,16 @@
 ---
 UID: NS:x3daudio.X3DAUDIO_DSP_SETTINGS
 title: X3DAUDIO_DSP_SETTINGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives the results from a call to X3DAudioCalculate.
 old-location: xaudio2\x3daudio_dsp_settings.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.x3daudio.X3DAUDIO_DSP_SETTINGS
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: "*LPX3DAUDIO_DSP_SETTINGS, LPX3DAUDIO_DSP_SETTINGS, LPX3DAUDIO_DSP_SETTINGS structure pointer [XAudio2 Audio Mixing APIs], X3DAUDIO_DSP_SETTINGS, X3DAUDIO_DSP_SETTINGS structure [XAudio2 Audio Mixing APIs], x3daudio/LPX3DAUDIO_DSP_SETTINGS, x3daudio/X3DAUDIO_DSP_SETTINGS, xaudio2.x3daudio_dsp_settings"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: x3daudio.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetPMT
 title: IDvbSiParser::GetPMT
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsiparser_getpmt.htm
 old-project: mstv
 ms.assetid: cb8f21f4-fa03-4006-8563-2026e70d5f43
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPMT, GetPMT method [Microsoft TV Technologies], GetPMT method [Microsoft TV Technologies],IDvbSiParser interface, IDvbSiParser interface [Microsoft TV Technologies],GetPMT method, IDvbSiParser.GetPMT, IDvbSiParser::GetPMT, IDvbSiParserGetPMT, dvbsiparser/IDvbSiParser::GetPMT, mstv.idvbsiparser_getpmt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

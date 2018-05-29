@@ -1,16 +1,16 @@
 ---
 UID: NF:peerdist.PeerDistServerPublishStream
 title: PeerDistServerPublishStream function
-author: windows-driver-content
+author: windows-sdk-content
 description: PeerDistServerPublishStream function initializes a new stream to be published to the Peer Distribution service.
 old-location: p2p\peerdistserverpublishstream.htm
 old-project: P2PSdk
 ms.assetid: 2133e578-f89d-4cfd-a522-12c2531babaa
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerDistServerPublishStream, PeerDistServerPublishStream function [Peer Networking], p2p.peerdistserverpublishstream, peerdist/PeerDistServerPublishStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

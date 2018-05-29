@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._GetToolbarItem
 title: IBrowserService2::_GetToolbarItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Gets a specific item from a toolbar.
 old-location: shell\IBrowserService2__GetToolbarItem.htm
 old-project: shell
 ms.assetid: 9bce71ca-189e-4072-9acf-10c8b3a34c5c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_GetToolbarItem method, IBrowserService2._GetToolbarItem, IBrowserService2::_GetToolbarItem, _GetToolbarItem, _GetToolbarItem method [Windows Shell], _GetToolbarItem method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_GetToolbarItem, shell.IBrowserService2__GetToolbarItem, zone_IBrowserService2__GetToolbarItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

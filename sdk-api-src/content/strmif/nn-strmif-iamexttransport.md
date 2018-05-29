@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMExtTransport
 title: IAMExtTransport
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMExtTransport interface controls the transport on a video tape recporder (VTR) or camcorder.
 old-location: dshow\iamexttransport.htm
 old-project: DirectShow
 ms.assetid: 4ce48038-bfcf-4b1f-8053-3446929a5f06
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], IAMExtTransport interface [DirectShow],described, IAMExtTransportInterface, dshow.iamexttransport, strmif/IAMExtTransport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiOpenDatabaseW
 title: MsiOpenDatabaseW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiOpenDatabase function opens a database file for data access. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msiopendatabase.htm
 old-project: Msi
 ms.assetid: 984996e3-aa2c-49ff-9067-ebefd3afdecb
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MSIDBOPEN_CREATE, MSIDBOPEN_CREATEDIRECT, MSIDBOPEN_DIRECT, MSIDBOPEN_PATCHFILE, MSIDBOPEN_READONLY, MSIDBOPEN_TRANSACT, MsiOpenDatabase, MsiOpenDatabase function, MsiOpenDatabaseA, MsiOpenDatabaseW, _msi_msiopendatabase, msiquery/MsiOpenDatabase, msiquery/MsiOpenDatabaseA, msiquery/MsiOpenDatabaseW, setup.msiopendatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.InitNetworkAddressControl
 title: InitNetworkAddressControl function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the network address control window class.
 old-location: shell\InitNetworkAddressControl.htm
 old-project: shell
 ms.assetid: 52b475e3-7335-4c34-80d7-ccd81af0e0ec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InitNetworkAddressControl, InitNetworkAddressControl function [Windows Shell], _shell_InitNetworkAddressControl, shell.InitNetworkAddressControl, shellapi/InitNetworkAddressControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

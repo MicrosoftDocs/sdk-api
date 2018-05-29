@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_CurrentProfileTypes
 title: INetFwPolicy2::get_CurrentProfileTypes
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the currently active firewall profile.
 old-location: ics\inetfwpolicy2_currentprofiletypes.htm
 old-project: ICS
 ms.assetid: 93f4b508-30db-45a9-a7aa-df4a993dc50b
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: CurrentProfileTypes property [ICS/ICF], CurrentProfileTypes property [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],CurrentProfileTypes property, INetFwPolicy2.CurrentProfileTypes, INetFwPolicy2.get_CurrentProfileTypes, INetFwPolicy2::CurrentProfileTypes, INetFwPolicy2::get_CurrentProfileTypes, get_CurrentProfileTypes, ics.inetfwpolicy2_currentprofiletypes, netfw/INetFwPolicy2::CurrentProfileTypes, netfw/INetFwPolicy2::get_CurrentProfileTypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

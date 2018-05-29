@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.ICategoryProvider
 title: ICategoryProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a list of categorizers registered on an IShellFolder.
 old-location: shell\ICategoryProvider.htm
 old-project: shell
 ms.assetid: bab74832-6f24-4f3a-b8cb-68506f293b3c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICategoryProvider, ICategoryProvider interface [Windows Shell], ICategoryProvider interface [Windows Shell],described, inet_ICategoryProvider, shell.ICategoryProvider, shobjidl_core/ICategoryProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

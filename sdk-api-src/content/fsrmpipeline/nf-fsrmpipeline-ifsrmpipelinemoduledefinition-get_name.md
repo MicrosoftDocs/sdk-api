@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.get_Name
 title: IFsrmPipelineModuleDefinition::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: The name of the module definition.
 old-location: fsrm\ifsrmpipelinemoduledefinition_name.htm
 old-project: Fsrm
 ms.assetid: 486c659e-59af-4a82-bcb0-72d12c2d05df
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Name property, IFsrmPipelineModuleDefinition.Name, IFsrmPipelineModuleDefinition.get_Name, IFsrmPipelineModuleDefinition::Name, IFsrmPipelineModuleDefinition::get_Name, IFsrmPipelineModuleDefinition::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_name, fsrm.ifsrmpipelinemoduledefinition_name, fsrmpipeline/IFsrmPipelineModuleDefinition::Name, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Name, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Name, get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

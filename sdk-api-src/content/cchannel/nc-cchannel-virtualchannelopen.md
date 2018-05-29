@@ -1,16 +1,16 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELOPEN
 title: VIRTUALCHANNELOPEN
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the client end of a virtual channel.
 old-location: termserv\virtualchannelopen.htm
 old-project: TermServ
 ms.assetid: 4ec75f9d-dbdf-499d-80a9-25fc6e9c5cb9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VirtualChannelOpen, VirtualChannelOpen callback, VirtualChannelOpen callback function [Remote Desktop Services], _win32_virtualchannelopen, cchannel/VirtualChannelOpen, termserv.virtualchannelopen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: cchannel.h
 req.include-header: 

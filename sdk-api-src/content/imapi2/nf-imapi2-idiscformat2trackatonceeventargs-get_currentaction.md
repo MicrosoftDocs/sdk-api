@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnceEventArgs.get_CurrentAction
 title: IDiscFormat2TrackAtOnceEventArgs::get_CurrentAction
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current write action being performed.
 old-location: imapi\idiscformat2trackatonceeventargs_get_currentaction.htm
 old-project: imapi
 ms.assetid: c4a0a07a-c80e-4dca-b3bb-8b2f26f969d8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2TrackAtOnceEventArgs interface [IMAPI],get_CurrentAction method, IDiscFormat2TrackAtOnceEventArgs.get_CurrentAction, IDiscFormat2TrackAtOnceEventArgs::get_CurrentAction, get_CurrentAction, get_CurrentAction method [IMAPI], get_CurrentAction method [IMAPI],IDiscFormat2TrackAtOnceEventArgs interface, imapi.idiscformat2trackatonceeventargs_get_currentaction, imapi2/IDiscFormat2TrackAtOnceEventArgs::get_CurrentAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

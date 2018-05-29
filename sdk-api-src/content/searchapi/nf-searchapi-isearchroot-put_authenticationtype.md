@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_AuthenticationType
 title: ISearchRoot::put_AuthenticationType
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the type of authentication required to access the URLs under this search root.
 old-location: search\_search_ISearchRoot_put_AuthenticationType.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_authenticationtype.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchRoot interface [search],put_AuthenticationType method, ISearchRoot.put_AuthenticationType, ISearchRoot::put_AuthenticationType, _search_ISearchRoot_put_AuthenticationType, put_AuthenticationType, put_AuthenticationType method [search], put_AuthenticationType method [search],ISearchRoot interface, search._search_ISearchRoot_put_AuthenticationType, searchapi/ISearchRoot::put_AuthenticationType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

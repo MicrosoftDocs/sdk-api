@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IDrawVideoImage
 title: IDrawVideoImage
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface has been deprecated.
 old-location: dshow\idrawvideoimage.htm
 old-project: DirectShow
 ms.assetid: ff412213-60e5-43d8-8cb1-e7ae8b3ca1bc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDrawVideoImage, IDrawVideoImage interface [DirectShow], IDrawVideoImage interface [DirectShow],described, IDrawVideoImageInterface, dshow.idrawvideoimage, strmif/IDrawVideoImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 

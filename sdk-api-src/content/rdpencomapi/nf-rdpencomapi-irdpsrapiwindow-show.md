@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.Show
 title: IRDPSRAPIWindow::Show
-author: windows-driver-content
+author: windows-sdk-content
 description: Brings the current window to the foreground.
 old-location: rdp\irdpsrapiwindow_show.htm
 old-project: Rdp
 ms.assetid: 6b7aa5e7-7981-41c4-bb47-30b3d0d54bc1
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIWindow interface [RDP],Show method, IRDPSRAPIWindow.Show, IRDPSRAPIWindow::Show, Show, Show method [RDP], Show method [RDP],IRDPSRAPIWindow interface, rdp.irdpsrapiwindow_show, rdpencomapi/IRDPSRAPIWindow::Show
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

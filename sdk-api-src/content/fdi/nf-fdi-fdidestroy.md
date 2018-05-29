@@ -1,16 +1,16 @@
 ---
 UID: NF:fdi.FDIDestroy
 title: FDIDestroy function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FDIDestroy function deletes an open FDI context.
 old-location: winprog\fdidestroy.htm
 old-project: DevNotes
 ms.assetid: fe3b8045-a476-4a21-b732-0d4799798faf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FDIDestroy, FDIDestroy function [Windows API], fdi/FDIDestroy, winprog.fdidestroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fdi.h
 req.include-header: 

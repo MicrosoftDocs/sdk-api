@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMetadata.GetProperty
 title: IMFMetadata::GetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of a metadata property.
 old-location: mf\imfmetadata_getproperty.htm
 old-project: medfound
 ms.assetid: 177c8612-5c9f-4a71-9ee1-a4c67737af2d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 177c8612-5c9f-4a71-9ee1-a4c67737af2d, GetProperty, GetProperty method [Media Foundation], GetProperty method [Media Foundation],IMFMetadata interface, IMFMetadata interface [Media Foundation],GetProperty method, IMFMetadata.GetProperty, IMFMetadata::GetProperty, mf.imfmetadata_getproperty, mfidl/IMFMetadata::GetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

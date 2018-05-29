@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IPinConnection.NotifyEndOfStream
 title: IPinConnection::NotifyEndOfStream
-author: windows-driver-content
+author: windows-sdk-content
 description: The NotifyEndOfStream method requests notification from the pin when the next end-of-stream condition occurs.
 old-location: dshow\ipinconnection_notifyendofstream.htm
 old-project: DirectShow
 ms.assetid: 3a911436-a679-4a86-93f9-e9c57ca762c5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IPinConnection interface [DirectShow],NotifyEndOfStream method, IPinConnection.NotifyEndOfStream, IPinConnection::NotifyEndOfStream, IPinConnectionNotifyEndOfStream, NotifyEndOfStream, NotifyEndOfStream method [DirectShow], NotifyEndOfStream method [DirectShow],IPinConnection interface, dshow.ipinconnection_notifyendofstream, strmif/IPinConnection::NotifyEndOfStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

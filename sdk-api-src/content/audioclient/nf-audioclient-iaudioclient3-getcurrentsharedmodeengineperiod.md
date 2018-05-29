@@ -1,16 +1,16 @@
 ---
 UID: NF:audioclient.IAudioClient3.GetCurrentSharedModeEnginePeriod
 title: IAudioClient3::GetCurrentSharedModeEnginePeriod
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the current format and periodicity of the audio engine.
 old-location: coreaudio\iaudioclient3_getcurrentsharedmodeengineperiod.htm
 old-project: CoreAudio
 ms.assetid: F91E46F5-5D12-4D53-842B-4495CAA3E09E
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetCurrentSharedModeEnginePeriod, GetCurrentSharedModeEnginePeriod method [Core Audio], GetCurrentSharedModeEnginePeriod method [Core Audio],IAudioClient3 interface, IAudioClient3 interface [Core Audio],GetCurrentSharedModeEnginePeriod method, IAudioClient3.GetCurrentSharedModeEnginePeriod, IAudioClient3::GetCurrentSharedModeEnginePeriod, audioclient/IAudioClient3::GetCurrentSharedModeEnginePeriod, coreaudio.iaudioclient3_getcurrentsharedmodeengineperiod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 

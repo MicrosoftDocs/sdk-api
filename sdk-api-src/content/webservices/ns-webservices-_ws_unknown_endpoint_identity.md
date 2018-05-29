@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_UNKNOWN_ENDPOINT_IDENTITY
 title: "_WS_UNKNOWN_ENDPOINT_IDENTITY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Type for unknown endpoint identity. This type is only used to represent an endpoint identity type that was deserialized but was not understood.
 old-location: wsw\ws_unknown_endpoint_identity.htm
 old-project: wsw
 ms.assetid: 93a51fe5-7195-4286-97f3-92c20b0d3e54
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_UNKNOWN_ENDPOINT_IDENTITY, WS_UNKNOWN_ENDPOINT_IDENTITY structure [Web Services for Windows], _WS_UNKNOWN_ENDPOINT_IDENTITY, webservices/WS_UNKNOWN_ENDPOINT_IDENTITY, wsw.ws_unknown_endpoint_identity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

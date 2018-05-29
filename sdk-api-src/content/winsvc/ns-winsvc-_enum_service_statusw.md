@@ -1,16 +1,16 @@
 ---
 UID: NS:winsvc._ENUM_SERVICE_STATUSW
 title: "_ENUM_SERVICE_STATUSW"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the name of a service in a service control manager database and information about that service. It is used by the EnumDependentServices and EnumServicesStatus functions.
 old-location: base\enum_service_status_str.htm
 old-project: Services
 ms.assetid: b088bd94-5d25-44a7-93c0-80ce6588b811
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*LPENUM_SERVICE_STATUSW, ENUM_SERVICE_STATUS, ENUM_SERVICE_STATUS structure, ENUM_SERVICE_STATUSA, ENUM_SERVICE_STATUSW, LPENUM_SERVICE_STATUS, LPENUM_SERVICE_STATUS structure pointer, _ENUM_SERVICE_STATUSW, _win32_enum_service_status_str, base.enum_service_status_str, winsvc/ENUM_SERVICE_STATUS, winsvc/ENUM_SERVICE_STATUSA, winsvc/ENUM_SERVICE_STATUSW, winsvc/LPENUM_SERVICE_STATUS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsvc.h
 req.include-header: Windows.h

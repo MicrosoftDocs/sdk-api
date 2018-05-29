@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmCalloutGetById0
 title: FwpmCalloutGetById0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a callout object.
 old-location: fwp\fwpmcalloutgetbyid0_func.htm
 old-project: FWP
 ms.assetid: d02eca94-fe08-4a80-9a3f-3a870aa10eed
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmCalloutGetById0, FwpmCalloutGetById0 function [Filtering], fwp.fwpmcalloutgetbyid0_func, fwpmu/FwpmCalloutGetById0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

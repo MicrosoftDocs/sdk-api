@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITLegacyAddressMediaControl.GetDevConfig
 title: ITLegacyAddressMediaControl::GetDevConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDevConfig method returns an opaque data structure.
 old-location: tapi3\itlegacyaddressmediacontrol_getdevconfig.htm
 old-project: Tapi
 ms.assetid: ed8cc556-31a5-4725-92fe-1f78c16aadcd
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetDevConfig, GetDevConfig method [TAPI 2.2], GetDevConfig method [TAPI 2.2],ITLegacyAddressMediaControl interface, ITLegacyAddressMediaControl interface [TAPI 2.2],GetDevConfig method, ITLegacyAddressMediaControl.GetDevConfig, ITLegacyAddressMediaControl::GetDevConfig, _tapi3_itlegacyaddressmediacontrol_getdevconfig, tapi3.itlegacyaddressmediacontrol_getdevconfig, tapi3if/ITLegacyAddressMediaControl::GetDevConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

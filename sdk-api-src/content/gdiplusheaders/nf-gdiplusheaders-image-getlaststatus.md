@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Image.GetLastStatus
 title: Image::GetLastStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: The Image::GetLastStatus method returns a value that indicates the nature of this Image object's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetLastStatus_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getlaststatus_65.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Image class, Image class [GDI+],GetLastStatus method, Image.GetLastStatus, Image::GetLastStatus, _gdiplus_CLASS_Image_GetLastStatus_, gdiplus._gdiplus_CLASS_Image_GetLastStatus_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

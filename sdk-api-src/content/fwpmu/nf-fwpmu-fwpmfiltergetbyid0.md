@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmFilterGetById0
 title: FwpmFilterGetById0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a filter object.
 old-location: fwp\fwpmfiltergetbyid0_func.htm
 old-project: FWP
 ms.assetid: 87372308-4ff8-460c-ba90-7126275c0e3c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmFilterGetById0, FwpmFilterGetById0 function [Filtering], fwp.fwpmfiltergetbyid0_func, fwpmu/FwpmFilterGetById0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

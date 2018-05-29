@@ -1,16 +1,16 @@
 ---
 UID: NE:dxvahd._DXVAHD_FRAME_FORMAT
 title: "_DXVAHD_FRAME_FORMAT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes how a video stream is interlaced.
 old-location: mf\dxvahd_frame_format.htm
 old-project: medfound
 ms.assetid: fc720dd3-e9c1-4b92-ac09-8e53cff44bec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVAHD_FRAME_FORMAT, DXVAHD_FRAME_FORMAT enumeration [Media Foundation], DXVAHD_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, DXVAHD_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, DXVAHD_FRAME_FORMAT_PROGRESSIVE, _DXVAHD_FRAME_FORMAT, dxvahd/DXVAHD_FRAME_FORMAT, dxvahd/DXVAHD_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, dxvahd/DXVAHD_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, dxvahd/DXVAHD_FRAME_FORMAT_PROGRESSIVE, mf.dxvahd_frame_format
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxvahd.h
 req.include-header: 

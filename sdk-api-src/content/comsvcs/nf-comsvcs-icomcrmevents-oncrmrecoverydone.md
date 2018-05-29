@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMRecoveryDone
 title: IComCRMEvents::OnCRMRecoveryDone
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when CRM recovery is done.
 old-location: cos\icomcrmevents_oncrmrecoverydone.htm
 old-project: cossdk
 ms.assetid: 533148f3-ecb4-495c-81c4-c75db7284ded
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMRecoveryDone method, IComCRMEvents.OnCRMRecoveryDone, IComCRMEvents::OnCRMRecoveryDone, OnCRMRecoveryDone, OnCRMRecoveryDone method [COM+], OnCRMRecoveryDone method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMRecoveryDone, comsvcs/IComCRMEvents::OnCRMRecoveryDone, cos.icomcrmevents_oncrmrecoverydone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

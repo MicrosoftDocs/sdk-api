@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsBindW
 title: DsBindW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Binds to a domain controller.
 old-location: ad\dsbind.htm
 old-project: AD
 ms.assetid: c73cd16d-ccfd-4f61-b1c5-50130bef64d7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsBind, DsBind function [Active Directory], DsBindA, DsBindW, _glines_dsbind, ad.dsbind, ntdsapi/DsBind, ntdsapi/DsBindA, ntdsapi/DsBindW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

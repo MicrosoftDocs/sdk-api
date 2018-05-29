@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.FindCloseUrlCache
 title: FindCloseUrlCache function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the specified cache enumeration handle.
 old-location: wininet\findcloseurlcache.htm
 old-project: WinInet
 ms.assetid: 54fc7bea-4cc1-4034-93c3-49ec88817648
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FindCloseUrlCache, FindCloseUrlCache function [WinINet], _inet_findcloseurlcache_function, wininet.findcloseurlcache, wininet/FindCloseUrlCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

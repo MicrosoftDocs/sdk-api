@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignatureRequestCollection
 title: IXpsSignatureRequestCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: A collection of IXpsSignatureRequest interfaces.
 old-location: xps\ixpssignaturerequestcollection.htm
 old-project: printdocs
 ms.assetid: bb8279e1-a98b-4156-8b90-d9b69411bfa3
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsSignatureRequestCollection, IXpsSignatureRequestCollection interface [XPS Documents and Packaging], IXpsSignatureRequestCollection interface [XPS Documents and Packaging],described, xps.ixpssignaturerequestcollection, xpsdigitalsignature/IXpsSignatureRequestCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsdigitalsignature.h
 req.include-header: 

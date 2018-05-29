@@ -1,16 +1,16 @@
 ---
 UID: NF:textserv.ITextServices.OnTxInPlaceActivate
 title: ITextServices::OnTxInPlaceActivate
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the text services object that this control is in-place active.
 old-location: controls\ITextServices_OnTxInPlaceActivate.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\ontxinplaceactivate.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextServices interface [Windows Controls],OnTxInPlaceActivate method, ITextServices.OnTxInPlaceActivate, ITextServices::OnTxInPlaceActivate, OnTxInPlaceActivate, OnTxInPlaceActivate method [Windows Controls], OnTxInPlaceActivate method [Windows Controls],ITextServices interface, _win32_ITextServices_OnTxInPlaceActivate, _win32_ITextServices_OnTxInPlaceActivate_cpp, controls.ITextServices_OnTxInPlaceActivate, controls._win32_ITextServices_OnTxInPlaceActivate, textserv/ITextServices::OnTxInPlaceActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

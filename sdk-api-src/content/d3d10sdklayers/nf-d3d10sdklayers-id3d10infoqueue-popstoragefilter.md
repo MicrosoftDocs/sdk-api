@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.PopStorageFilter
 title: ID3D10InfoQueue::PopStorageFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Pop a storage filter from the top of the storage-filter stack.
 old-location: direct3d10\id3d10infoqueue_popstoragefilter.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_popstoragefilter.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ID3D10InfoQueue interface [Direct3D 10],PopStorageFilter method, ID3D10InfoQueue.PopStorageFilter, ID3D10InfoQueue::PopStorageFilter, PopStorageFilter, PopStorageFilter method [Direct3D 10], PopStorageFilter method [Direct3D 10],ID3D10InfoQueue interface, b9699061-4597-ddd4-4063-52d0dcbfb78b, d3d10sdklayers/ID3D10InfoQueue::PopStorageFilter, direct3d10.id3d10infoqueue_popstoragefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 

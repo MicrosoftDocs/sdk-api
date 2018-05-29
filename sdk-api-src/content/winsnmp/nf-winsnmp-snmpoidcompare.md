@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpOidCompare
 title: SnmpOidCompare function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinSNMP SnmpOidCompare function lexicographically compares two SNMP object identifiers, up to the length specified by the maxlen parameter.
 old-location: snmp\snmpoidcompare.htm
 old-project: SNMP
 ms.assetid: aa13abb3-c16d-4b12-a3b8-9c3c727199e0
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: Equal to 0, Greater than 0, Less than 0, SnmpOidCompare, SnmpOidCompare function [SNMP], _snmp_snmpoidcompare, snmp.snmpoidcompare, winsnmp/SnmpOidCompare
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICBitmapLockFlags
 title: WICBitmapLockFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies access to an IWICBitmap.
 old-location: wic\_wic_codec_wicbitmaplockflags.htm
 old-project: wic
 ms.assetid: d4d1bb38-3d1a-4e1e-a889-0491f3c01822
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICBitmapLockFlags, WICBitmapLockFlags enumeration [Windows Imaging Component], WICBitmapLockRead, WICBitmapLockWrite, _wic_codec_wicbitmaplockflags, wic._wic_codec_wicbitmaplockflags, wincodec/WICBitmapLockFlags, wincodec/WICBitmapLockRead, wincodec/WICBitmapLockWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

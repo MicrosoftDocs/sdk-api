@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.SetOptions
 title: IShellLibrary::SetOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the library options.
 old-location: shell\IShellLibrary_SetOptions.htm
 old-project: shell
 ms.assetid: 8bec0c71-3170-4ff9-aa87-4880d6ac7e32
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetOptions method, IShellLibrary.SetOptions, IShellLibrary::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetOptions, shell.IShellLibrary_SetOptions, shobjidl_core/IShellLibrary::SetOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

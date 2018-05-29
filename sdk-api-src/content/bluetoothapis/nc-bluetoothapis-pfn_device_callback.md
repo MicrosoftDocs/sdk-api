@@ -1,16 +1,16 @@
 ---
 UID: NC:bluetoothapis.PFN_DEVICE_CALLBACK
 title: PFN_DEVICE_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: A callback prototype used in association with selecting Bluetooth devices.
 old-location: bluetooth\pfn_device_callback.htm
 old-project: Bluetooth
 ms.assetid: 8a2bf4dc-43c3-49c0-8ce0-d14ab9f4ae97
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PFN_DEVICE_CALLBACK, PFN_DEVICE_CALLBACK callback, PFN_DEVICE_CALLBACK callback function [Bluetooth], bluetooth.pfn_device_callback, bluetoothapis/PFN_DEVICE_CALLBACK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

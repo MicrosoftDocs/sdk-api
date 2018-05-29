@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.lineagentstatus_tag
 title: lineagentstatus_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The LINEAGENTSTATUS structure describes the current status of an ACD agent. The lineGetAgentStatus function returns the LINEAGENTSTATUS structure.
 old-location: tapi2\lineagentstatus_str.htm
 old-project: Tapi
 ms.assetid: c846bd16-79d2-4af0-b3ad-7432c28c542b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPLINEAGENTSTATUS, LINEAGENTSTATUS, LINEAGENTSTATUS structure [TAPI 2.2], LPLINEAGENTSTATUS, LPLINEAGENTSTATUS structure pointer [TAPI 2.2], _tapi2_lineagentstatus_str, lineagentstatus_tag, tapi/LINEAGENTSTATUS, tapi/LPLINEAGENTSTATUS, tapi2.lineagentstatus_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

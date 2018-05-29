@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinitionValue.get_Description
 title: IFsrmPropertyDefinitionValue::get_Description
-author: windows-driver-content
+author: windows-sdk-content
 description: Description of the classification property definition value.
 old-location: fsrm\ifsrmpropertydefinitionvalue_description.htm
 old-project: Fsrm
 ms.assetid: dfbd62c6-4795-418f-bb04-18da2d0f3acb
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager],IFsrmPropertyDefinitionValue interface, IFsrmPropertyDefinitionValue interface [File Server Resource Manager],Description property, IFsrmPropertyDefinitionValue.Description, IFsrmPropertyDefinitionValue.get_Description, IFsrmPropertyDefinitionValue::Description, IFsrmPropertyDefinitionValue::get_Description, fs.ifsrmpropertydefinitionvalue_description, fsrm.ifsrmpropertydefinitionvalue_description, fsrmpipeline/IFsrmPropertyDefinitionValue::Description, fsrmpipeline/IFsrmPropertyDefinitionValue::get_Description, get_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h

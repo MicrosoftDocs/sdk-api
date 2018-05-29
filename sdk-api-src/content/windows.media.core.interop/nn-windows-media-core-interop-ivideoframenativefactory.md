@@ -1,16 +1,16 @@
 ---
 UID: NN:windows.media.core.interop.IVideoFrameNativeFactory
 title: IVideoFrameNativeFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates instances of IVideoFrameNative.
 old-location: winrt\ivideoframenativefactory.htm
 old-project: WinRT
 ms.assetid: A884D0B5-6E12-4225-A46B-DD0C0A77B58E
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IVideoFrameNativeFactory, IVideoFrameNativeFactory interface [Windows Runtime], IVideoFrameNativeFactory interface [Windows Runtime],described, windows/IVideoFrameNativeFactory, winrt.ivideoframenativefactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.media.core.interop.h
 req.include-header: 

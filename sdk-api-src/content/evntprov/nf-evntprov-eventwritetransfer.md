@@ -1,16 +1,16 @@
 ---
 UID: NF:evntprov.EventWriteTransfer
 title: EventWriteTransfer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Links events together when tracing events in an end-to-end scenario.
 old-location: etw\eventwritetransfer_func.htm
 old-project: ETW
 ms.assetid: 798cf3ba-e1cc-4eaf-a1d2-2313a64aab1a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EventWriteTransfer, EventWriteTransfer function [ETW], base.eventwritetransfer_func, etw.eventwritetransfer_func, evntprov/EventWriteTransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

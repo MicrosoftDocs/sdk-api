@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdxmldom._WSDXML_NODE
 title: "_WSDXML_NODE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an XML node.
 old-location: ncd\wsdxml_node_struct.htm
 old-project: WsdApi
 ms.assetid: 10c918b2-a7b9-4ebb-a884-64877bebb973
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDXML_NODE, WSDXML_NODE structure, _WSDXML_NODE, ncd.wsdxml_node_struct, wsdxmldom/WSDXML_NODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdxmldom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidInputDevice.View
 title: IMSVidInputDevice::View
-author: windows-driver-content
+author: windows-sdk-content
 description: The View method configures this input device to view the specified tune request.
 old-location: mstv\imsvidinputdevice_view.htm
 old-project: mstv
 ms.assetid: f106e520-86e5-4b7e-8e16-1f82797f128f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidInputDevice interface [Microsoft TV Technologies],View method, IMSVidInputDevice.View, IMSVidInputDevice::View, IMSVidInputDeviceView, View, View method [Microsoft TV Technologies], View method [Microsoft TV Technologies],IMSVidInputDevice interface, mstv.imsvidinputdevice_view, segment/IMSVidInputDevice::View
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.get_MinorVersion
 title: ICOMAdminCatalog::get_MinorVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the minor version number of the COMAdmin library.
 old-location: cos\icomadmincatalog_minorversion.htm
 old-project: cossdk
 ms.assetid: 25053a37-f44a-4e30-97b2-081b840c4448
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],MinorVersion property, ICOMAdminCatalog.MinorVersion, ICOMAdminCatalog.get_MinorVersion, ICOMAdminCatalog::MinorVersion, ICOMAdminCatalog::get_MinorVersion, MinorVersion property [COM+], MinorVersion property [COM+],ICOMAdminCatalog interface, _cos_IComAdminCatalog_get_MinorVersion, comadmin/ICOMAdminCatalog::MinorVersion, comadmin/ICOMAdminCatalog::get_MinorVersion, cos.icomadmincatalog_minorversion, get_MinorVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

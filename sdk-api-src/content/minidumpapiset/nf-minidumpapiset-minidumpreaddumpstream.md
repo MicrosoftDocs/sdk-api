@@ -1,16 +1,16 @@
 ---
 UID: NF:minidumpapiset.MiniDumpReadDumpStream
 title: MiniDumpReadDumpStream function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads a stream from a user-mode minidump file.
 old-location: base\minidumpreaddumpstream.htm
 old-project: Debug
 ms.assetid: 56df69aa-55b6-451b-a003-3ee88dc934f9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: MiniDumpReadDumpStream, MiniDumpReadDumpStream function, _win32_minidumpreaddumpstream, base.minidumpreaddumpstream, minidumpapiset/MiniDumpReadDumpStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h

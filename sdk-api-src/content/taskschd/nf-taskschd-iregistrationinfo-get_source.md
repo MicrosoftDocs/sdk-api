@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.get_Source
 title: IRegistrationInfo::get_Source
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets where the task originated from. For example, a task may originate from a component, service, application, or user.
 old-location: taskschd\iregistrationinfo_source.htm
 old-project: TaskSchd
 ms.assetid: 538d48f9-671d-452b-8e78-86954342a28f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IRegistrationInfo interface [Task Scheduler],Source property, IRegistrationInfo.Source, IRegistrationInfo.get_Source, IRegistrationInfo::Source, IRegistrationInfo::get_Source, IRegistrationInfo::put_Source, Source property [Task Scheduler], Source property [Task Scheduler],IRegistrationInfo interface, get_Source, taskschd.iregistrationinfo_source, taskschd/IRegistrationInfo::Source, taskschd/IRegistrationInfo::get_Source, taskschd/IRegistrationInfo::put_Source
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

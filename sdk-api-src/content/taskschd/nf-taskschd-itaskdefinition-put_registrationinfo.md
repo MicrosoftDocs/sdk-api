@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskDefinition.put_RegistrationInfo
 title: ITaskDefinition::put_RegistrationInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the registration information used to describe a task, such as the description of the task, the author of the task, and the date the task is registered.
 old-location: taskschd\itaskdefinition_registrationinfo.htm
 old-project: TaskSchd
 ms.assetid: 74a616fe-bc56-4d81-9a79-8f7c719b87c9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],RegistrationInfo property, ITaskDefinition.RegistrationInfo, ITaskDefinition.put_RegistrationInfo, ITaskDefinition::RegistrationInfo, ITaskDefinition::get_RegistrationInfo, ITaskDefinition::put_RegistrationInfo, RegistrationInfo property [Task Scheduler], RegistrationInfo property [Task Scheduler],ITaskDefinition interface, put_RegistrationInfo, taskschd.itaskdefinition_registrationinfo, taskschd/ITaskDefinition::RegistrationInfo, taskschd/ITaskDefinition::get_RegistrationInfo, taskschd/ITaskDefinition::put_RegistrationInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

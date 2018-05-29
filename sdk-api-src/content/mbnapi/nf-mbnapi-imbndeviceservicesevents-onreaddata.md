@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnReadData
 title: IMbnDeviceServicesEvents::OnReadData
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification for data being read from a device service data session.
 old-location: mbn\imbndeviceservicesevents_onreaddata.htm
 old-project: mbn
 ms.assetid: 14D2A2A3-E3E0-4C8B-B4FE-F85CA1316877
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnReadData method, IMbnDeviceServicesEvents.OnReadData, IMbnDeviceServicesEvents::OnReadData, OnReadData, OnReadData method [Microsoft Broadband Networks], OnReadData method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onreaddata, mbnapi/IMbnDeviceServicesEvents::OnReadData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

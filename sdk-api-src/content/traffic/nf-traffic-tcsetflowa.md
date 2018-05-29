@@ -1,16 +1,16 @@
 ---
 UID: NF:traffic.TcSetFlowA
 title: TcSetFlowA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TcSetFlow function sets individual parameters for a given flow.
 old-location: qos\tcsetflow.htm
 old-project: QOS
 ms.assetid: 9989e26c-7e79-43b7-a5b8-f203c27b2a1e
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: TcSetFlow, TcSetFlow function [QOS], TcSetFlowA, TcSetFlowW, _gqos_tcsetflow, qos.tcsetflow, traffic/TcSetFlow, traffic/TcSetFlowA, traffic/TcSetFlowW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

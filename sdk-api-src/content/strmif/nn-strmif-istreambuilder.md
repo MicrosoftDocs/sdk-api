@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IStreamBuilder
 title: IStreamBuilder
-author: windows-driver-content
+author: windows-sdk-content
 description: The IStreamBuilder interface enables an output pin to notify the filter graph manager that the pin itself will build the downstream section of the filter graph.
 old-location: dshow\istreambuilder.htm
 old-project: DirectShow
 ms.assetid: 233821e9-9916-4047-a554-4ff43769819f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IStreamBuilder, IStreamBuilder interface [DirectShow], IStreamBuilder interface [DirectShow],described, IStreamBuilderInterface, dshow.istreambuilder, strmif/IStreamBuilder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

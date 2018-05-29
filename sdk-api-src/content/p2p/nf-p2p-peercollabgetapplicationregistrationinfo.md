@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerCollabGetApplicationRegistrationInfo
 title: PeerCollabGetApplicationRegistrationInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains application-specific registration information.
 old-location: p2p\peercollabgetapplicationregistrationinfo.htm
 old-project: P2PSdk
 ms.assetid: d1a8888e-4153-4486-9384-615ae7ed7031
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerCollabGetApplicationRegistrationInfo, PeerCollabGetApplicationRegistrationInfo function [Peer Networking], p2p.peercollabgetapplicationregistrationinfo, p2p/PeerCollabGetApplicationRegistrationInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

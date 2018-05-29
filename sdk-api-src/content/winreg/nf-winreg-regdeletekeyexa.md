@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.RegDeleteKeyExA
 title: RegDeleteKeyExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a subkey and its values from the specified platform-specific view of the registry.
 old-location: base\regdeletekeyex.htm
 old-project: SysInfo
 ms.assetid: 41fde6a5-647c-4293-92b8-74be54fa4136
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, RegDeleteKeyEx, RegDeleteKeyEx function, RegDeleteKeyExA, RegDeleteKeyExW, base.regdeletekeyex, winreg/RegDeleteKeyEx, winreg/RegDeleteKeyExA, winreg/RegDeleteKeyExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

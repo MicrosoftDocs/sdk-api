@@ -1,16 +1,16 @@
 ---
 UID: NS:psapi._PSAPI_WORKING_SET_BLOCK
 title: "_PSAPI_WORKING_SET_BLOCK"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains working set information for a page.
 old-location: psapi\psapi_working_set_block.htm
 old-project: psapi
 ms.assetid: feb64235-1003-4595-a6a9-aca1f94f94b8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PPSAPI_WORKING_SET_BLOCK, PPSAPI_WORKING_SET_BLOCK, PPSAPI_WORKING_SET_BLOCK union pointer [PSAPI], PSAPI_WORKING_SET_BLOCK, PSAPI_WORKING_SET_BLOCK union [PSAPI], _PSAPI_WORKING_SET_BLOCK, base.psapi_working_set_block, psapi.psapi_working_set_block, psapi/PPSAPI_WORKING_SET_BLOCK, psapi/PSAPI_WORKING_SET_BLOCK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: psapi.h
 req.include-header: 

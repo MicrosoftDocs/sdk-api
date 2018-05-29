@@ -1,16 +1,16 @@
 ---
 UID: NS:uxtheme._MARGINS
 title: "_MARGINS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Returned by the GetThemeMargins function to define the margins of windows that have visual styles applied.
 old-location: controls\MARGINS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\margins.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PMARGINS, MARGINS, MARGINS structure [Windows Controls], PMARGINS, PMARGINS structure pointer [Windows Controls], _MARGINS, controls.MARGINS, controls.inet_MARGINS, inet_MARGINS, inet_MARGINS_cpp, uxtheme/MARGINS, uxtheme/PMARGINS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: uxtheme.h
 req.include-header: 

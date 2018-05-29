@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SetSelectedColumn
 title: ListView_SetSelectedColumn macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the index of the selected column. You can use this macro or send the LVM_SETSELECTEDCOLUMN message explicitly.
 old-location: controls\ListView_SetSelectedColumn.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setselectedcolumn.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_SetSelectedColumn, ListView_SetSelectedColumn macro [Windows Controls], _win32_ListView_SetSelectedColumn, _win32_ListView_SetSelectedColumn_cpp, commctrl/ListView_SetSelectedColumn, controls.ListView_SetSelectedColumn, controls._win32_ListView_SetSelectedColumn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

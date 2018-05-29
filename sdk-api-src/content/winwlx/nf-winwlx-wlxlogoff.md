@@ -1,16 +1,16 @@
 ---
 UID: NF:winwlx.WlxLogoff
 title: WlxLogoff function
-author: windows-driver-content
+author: windows-sdk-content
 description: Winlogon calls this function to notify the GINA of a logoff operation on this workstation, allowing the GINA to perform any logoff operations that may be required.
 old-location: security\wlxlogoff.htm
 old-project: SecAuthN
 ms.assetid: bbeafd41-fe01-497d-8514-a6c088a11d73
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: WlxLogoff, WlxLogoff function [Security], _gina_wlxlogoff, security.wlxlogoff, winwlx/WlxLogoff
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptSetProvParam
 title: CryptSetProvParam function
-author: windows-driver-content
+author: windows-sdk-content
 description: Customizes the operations of a cryptographic service provider (CSP). This function is commonly used to set a security descriptor on the key container associated with a CSP to control access to the private keys in that key container.
 old-location: security\cryptsetprovparam.htm
 old-project: SecCrypto
 ms.assetid: 98306a7b-b218-4eb4-99f0-0b5bcc632a13
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptSetProvParam, CryptSetProvParam function [Security], PP_CLIENT_HWND, PP_DELETEKEY, PP_KEYEXCHANGE_ALG, PP_KEYEXCHANGE_KEYSIZE, PP_KEYEXCHANGE_PIN, PP_KEYSET_SEC_DESCR, PP_PIN_PROMPT_STRING, PP_ROOT_CERTSTORE, PP_SECURE_KEYEXCHANGE_PIN, PP_SECURE_SIGNATURE_PIN, PP_SIGNATURE_ALG, PP_SIGNATURE_KEYSIZE, PP_SIGNATURE_PIN, PP_SMARTCARD_GUID, PP_SMARTCARD_READER, PP_UI_PROMPT, PP_USER_CERTSTORE, PP_USE_HARDWARE_RNG, _crypto2_cryptsetprovparam, security.cryptsetprovparam, wincrypt/CryptSetProvParam
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

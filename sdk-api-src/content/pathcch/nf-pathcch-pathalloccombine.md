@@ -1,16 +1,16 @@
 ---
 UID: NF:pathcch.PathAllocCombine
 title: PathAllocCombine function
-author: windows-driver-content
+author: windows-sdk-content
 description: Concatenates two path fragments into a single path.
 old-location: shell\PathAllocCombine.htm
 old-project: shell
 ms.assetid: dd619138-f867-4517-bc67-a52c598efad0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH, PATHCCH_ENSURE_TRAILING_SLASH, PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS, PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS, PATHCCH_NONE, PathAllocCombine, PathAllocCombine function [Windows Shell], pathcch/PathAllocCombine, shell.PathAllocCombine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

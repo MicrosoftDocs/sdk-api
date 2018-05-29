@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.IUnknown_GetWindow
 title: IUnknown_GetWindow function
-author: windows-driver-content
+author: windows-sdk-content
 description: Attempts to retrieve a window handle from a Component Object Model (COM) object by querying for various interfaces that have a GetWindow method.
 old-location: shell\IUnknown_GetWindow.htm
 old-project: shell
 ms.assetid: f8a6f61f-bea3-4049-89fb-c33ef00b327f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUnknown_GetWindow, IUnknown_GetWindow function [Windows Shell], _win32_IUnknown_GetWindow, shell.IUnknown_GetWindow, shlwapi/IUnknown_GetWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

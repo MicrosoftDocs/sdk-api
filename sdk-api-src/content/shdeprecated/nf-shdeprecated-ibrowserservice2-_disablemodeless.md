@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._DisableModeless
 title: IBrowserService2::_DisableModeless
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Enables a derived class to ask the base class whether a modal UI is visible. A modal UI blocks minimize and close behavior in the browser window.
 old-location: shell\IBrowserService2__DisableModeless.htm
 old-project: shell
 ms.assetid: e13763de-a3cb-42ea-a3bc-e9324e14d336
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_DisableModeless method, IBrowserService2._DisableModeless, IBrowserService2::_DisableModeless, _DisableModeless, _DisableModeless method [Windows Shell], _DisableModeless method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_DisableModeless, shell.IBrowserService2__DisableModeless, zone_IBrowserService2__DisableModeless
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

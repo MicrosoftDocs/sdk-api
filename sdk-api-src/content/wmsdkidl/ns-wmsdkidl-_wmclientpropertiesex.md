@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl._WMClientPropertiesEx
 title: "_WMClientPropertiesEx"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WM_CLIENT_PROPERTIES_EX structure holds extended client information.
 old-location: wmformat\wm_client_properties_ex.htm
 old-project: wmformat
 ms.assetid: 981a466d-576b-4774-bd7b-785b0ef80e72
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WM_CLIENT_PROPERTIES_EX, WM_CLIENT_PROPERTIES_EX structure [windows Media Format], _WMClientPropertiesEx, wmformat.wm_client_properties_ex, wmsdkidl/WM_CLIENT_PROPERTIES_EX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsSendReplyMessage
 title: WsSendReplyMessage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a message which is a reply to a received message.
 old-location: wsw\wssendreplymessage.htm
 old-project: wsw
 ms.assetid: cabfd07b-294c-4e3a-9d50-84d9b4d98f62
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsSendReplyMessage, WsSendReplyMessage function [Web Services for Windows], webservices/WsSendReplyMessage, wsw.wssendreplymessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

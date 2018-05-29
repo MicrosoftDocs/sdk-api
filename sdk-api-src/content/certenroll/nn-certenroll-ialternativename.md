@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IAlternativeName
 title: IAlternativeName
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used by an IX509ExtensionAlternativeNames object to represent an instance of an AlternativeNames extension.
 old-location: security\ialternativename.htm
 old-project: SecCertEnroll
 ms.assetid: 2a6cfda8-b3cb-4a0f-bb65-b182c16207be
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IAlternativeName, IAlternativeName interface [Security], IAlternativeName interface [Security],described, certenroll/IAlternativeName, security.ialternativename
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

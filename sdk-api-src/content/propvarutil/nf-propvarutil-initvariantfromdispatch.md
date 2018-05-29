@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitVariantFromDispatch
 title: InitVariantFromDispatch function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a VARIANT structure based on an instance of an IDispatch object.
 old-location: properties\InitVariantFromDispatch.htm
 old-project: properties
 ms.assetid: d42c48b5-cfd9-4de8-b0aa-b108d242e2e9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitVariantFromDispatch, InitVariantFromDispatch function [Windows Properties], _shell_InitVariantFromDispatch, properties.InitVariantFromDispatch, propvarutil/InitVariantFromDispatch, shell.InitVariantFromDispatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12.ID3D12GraphicsCommandList
 title: ID3D12GraphicsCommandList
-author: windows-driver-content
+author: windows-sdk-content
 description: Encapsulates a list of graphics commands for rendering. Includes APIs for instrumenting the command list execution, and for setting and clearing the pipeline state.
 old-location: direct3d12\id3d12graphicscommandlist.htm
 old-project: direct3d12
 ms.assetid: 1BF282A7-F6D4-43A9-BDAD-D877564A1C6B
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12GraphicsCommandList, ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,described, d3d12/ID3D12GraphicsCommandList, direct3d12.id3d12graphicscommandlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IBindCtx
 title: IBindCtx
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to a bind context, which is an object that stores information about a particular moniker binding operation.
 old-location: com\ibindctx.htm
 old-project: com
 ms.assetid: e4c8abb5-0c89-44dd-8d95-efbfcc999b46
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IBindCtx, IBindCtx interface [COM], IBindCtx interface [COM],described, _com_ibindctx, com.ibindctx, objidl/IBindCtx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

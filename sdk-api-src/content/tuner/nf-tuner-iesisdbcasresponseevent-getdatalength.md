@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESIsdbCasResponseEvent.GetDataLength
 title: IESIsdbCasResponseEvent::GetDataLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the length of response data returned in anIsdbCasResponse event.
 old-location: mstv\iesisdbcasresponseevent_getdatalength.htm
 old-project: mstv
 ms.assetid: dc625c6f-84e8-4a82-b53c-717b33c10d04
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDataLength, GetDataLength method [DirectShow], GetDataLength method [DirectShow],IESIsdbCasResponseEvent interface, IESIsdbCasResponseEvent interface [DirectShow],GetDataLength method, IESIsdbCasResponseEvent.GetDataLength, IESIsdbCasResponseEvent::GetDataLength, mstv.iesisdbcasresponseevent_getdatalength, tuner/IESIsdbCasResponseEvent::GetDataLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

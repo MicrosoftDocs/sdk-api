@@ -1,16 +1,16 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY
 title: "_HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by HttpQueryServiceConfiguration to return a list of the Internet Protocol (IP) addresses to which the HTTP service binds.
 old-location: http\http_service_config_ip_listen_query.htm
 old-project: Http
 ms.assetid: 8cecb295-a35b-466d-9420-3b72f77f731f
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY structure [HTTP], PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY structure pointer [HTTP], _HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, _http_http_service_config_ip_listen_query, http.http_service_config_ip_listen_query, http/HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY, http/PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 

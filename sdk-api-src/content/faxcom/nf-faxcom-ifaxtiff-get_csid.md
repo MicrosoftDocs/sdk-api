@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_Csid
 title: IFaxTiff::get_Csid
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Csid property for a FaxTiff object. The Csid property is a string that contains called station identifier (CSID) information, which is typically the fax number of the device that received the specified fax file.
 old-location: fax\_mfax_ifaxtiff_get_csid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2ask.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Csid property [Fax Service], Csid property [Fax Service],FaxTiff object, FaxTiff object [Fax Service],Csid property, FaxTiff.Csid, IFaxTiff.get_Csid, IFaxTiff::get_Csid, _mfax_ifaxtiff_get_csid, fax._mfax_ifaxtiff_get_csid, fax._mfax_ifaxtiff_get_csid_vb, get_Csid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

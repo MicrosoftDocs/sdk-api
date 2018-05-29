@@ -1,16 +1,16 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictResolveInfo
 title: ISyncMgrConflictResolveInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that get and set information about sync manager conflict resolution.
 old-location: shell\ISyncMgrConflictResolveInfo.htm
 old-project: shell
 ms.assetid: c47d533f-7307-4db3-a025-961f3419203e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrConflictResolveInfo, ISyncMgrConflictResolveInfo interface [Windows Shell], ISyncMgrConflictResolveInfo interface [Windows Shell],described, _shell_ISyncMgrConflictResolveInfo, shell.ISyncMgrConflictResolveInfo, syncmgr/ISyncMgrConflictResolveInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:taskschd._TASK_PROCESSTOKENSID
 title: "_TASK_PROCESSTOKENSID"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the types of process security identifier (SID) that can be used by tasks.
 old-location: taskschd\task_processtokensid_type.htm
 old-project: TaskSchd
 ms.assetid: 3a9243b9-f764-430b-8184-1fd97e74a5f1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: TASK_PROCESSTOKENSID_DEFAULT, TASK_PROCESSTOKENSID_NONE, TASK_PROCESSTOKENSID_TYPE, TASK_PROCESSTOKENSID_TYPE enumeration [Task Scheduler], TASK_PROCESSTOKENSID_UNRESTRICTED, _TASK_PROCESSTOKENSID, taskschd.task_processtokensid_type, taskschd/TASK_PROCESSTOKENSID_DEFAULT, taskschd/TASK_PROCESSTOKENSID_NONE, taskschd/TASK_PROCESSTOKENSID_TYPE, taskschd/TASK_PROCESSTOKENSID_UNRESTRICTED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 

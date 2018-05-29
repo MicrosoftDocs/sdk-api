@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IScanningTunerEx.TerminateCurrentScan
 title: IScanningTunerEx::TerminateCurrentScan
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_terminatecurrentscan.htm
 old-project: mstv
 ms.assetid: 5ab18d8a-1e79-45c2-a8b6-9c27ecb68de2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],TerminateCurrentScan method, IScanningTunerEx.TerminateCurrentScan, IScanningTunerEx::TerminateCurrentScan, IScanningTunerExTerminateCurrentScan, TerminateCurrentScan, TerminateCurrentScan method [Microsoft TV Technologies], TerminateCurrentScan method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_terminatecurrentscan, tuner/IScanningTunerEx::TerminateCurrentScan
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

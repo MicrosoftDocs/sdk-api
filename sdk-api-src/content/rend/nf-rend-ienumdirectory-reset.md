@@ -1,16 +1,16 @@
 ---
 UID: NF:rend.IEnumDirectory.Reset
 title: IEnumDirectory::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reset method resets to the beginning of the enumeration sequence.
 old-location: tapi3\ienumdirectory_reset.htm
 old-project: Tapi
 ms.assetid: e5800978-198e-479d-8cca-5c4ac2399d5d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumDirectory interface [TAPI 2.2],Reset method, IEnumDirectory.Reset, IEnumDirectory::Reset, Reset, Reset method [TAPI 2.2], Reset method [TAPI 2.2],IEnumDirectory interface, _tapi3_ienumdirectory_reset, rend/IEnumDirectory::Reset, tapi3.ienumdirectory_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rend.h
 req.include-header: 

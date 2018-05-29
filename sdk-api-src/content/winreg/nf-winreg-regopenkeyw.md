@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.RegOpenKeyW
 title: RegOpenKeyW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the specified registry key.
 old-location: base\regopenkey.htm
 old-project: SysInfo
 ms.assetid: bad0a0f8-1889-4eff-98be-084c95d69f3b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RegOpenKey, RegOpenKey function, RegOpenKeyA, RegOpenKeyW, _win32_regopenkey, base.regopenkey, winreg/RegOpenKey, winreg/RegOpenKeyA, winreg/RegOpenKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

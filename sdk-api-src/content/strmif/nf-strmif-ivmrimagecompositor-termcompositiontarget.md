@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRImageCompositor.TermCompositionTarget
 title: IVMRImageCompositor::TermCompositionTarget
-author: windows-driver-content
+author: windows-sdk-content
 description: The TermCompositionTarget method informs the compositor that the current composition target is being replaced. Compositors should perform any necessary cleanup of the composition target in this method.
 old-location: dshow\ivmrimagecompositor_termcompositiontarget.htm
 old-project: DirectShow
 ms.assetid: a9526be0-06aa-4fe3-ba05-fbac01806ec4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRImageCompositor interface [DirectShow],TermCompositionTarget method, IVMRImageCompositor.TermCompositionTarget, IVMRImageCompositor::TermCompositionTarget, IVMRImageCompositorStopCompositing, TermCompositionTarget, TermCompositionTarget method [DirectShow], TermCompositionTarget method [DirectShow],IVMRImageCompositor interface, dshow.ivmrimagecompositor_termcompositiontarget, strmif/IVMRImageCompositor::TermCompositionTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

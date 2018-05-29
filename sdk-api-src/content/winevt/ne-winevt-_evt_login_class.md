@@ -1,16 +1,16 @@
 ---
 UID: NE:winevt._EVT_LOGIN_CLASS
 title: "_EVT_LOGIN_CLASS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the types of connection methods you can use to connect to the remote computer.
 old-location: wes\evt_login_class.htm
 old-project: WES
 ms.assetid: 8d53402b-2d2c-4f93-8e98-4449701052b0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EVT_LOGIN_CLASS, EvtRpcLogin, _EVT_LOGIN_CLASS, _EVT_LOGIN_CLASS enumeration [EventLog], wes.evt_login_class, winevt/EvtRpcLogin, winevt/_EVT_LOGIN_CLASS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

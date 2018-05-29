@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextStrings.Swap
 title: ITextStrings::Swap
-author: windows-driver-content
+author: windows-sdk-content
 description: Swaps the top two strings in the collection.
 old-location: controls\itextstrings_swap.htm
 old-project: Controls
 ms.assetid: 06759b26-672c-4a3d-a2d4-085bfd09e50a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextStrings interface [Windows Controls],Swap method, ITextStrings.Swap, ITextStrings::Swap, Swap, Swap method [Windows Controls], Swap method [Windows Controls],ITextStrings interface, controls.itextstrings_swap, tom/ITextStrings::Swap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

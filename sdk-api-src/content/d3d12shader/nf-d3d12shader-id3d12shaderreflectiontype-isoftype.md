@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.IsOfType
 title: ID3D12ShaderReflectionType::IsOfType
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether a variable is of the specified type.
 old-location: direct3d12\id3d12shaderreflectiontype_isoftype.htm
 old-project: direct3d12
 ms.assetid: 6B5A043A-927A-49AD-BF63-F8A9CCB57E09
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12ShaderReflectionType interface,IsOfType method, ID3D12ShaderReflectionType.IsOfType, ID3D12ShaderReflectionType::IsOfType, IsOfType, IsOfType method, IsOfType method,ID3D12ShaderReflectionType interface, d3d12shader/ID3D12ShaderReflectionType::IsOfType, direct3d12.id3d12shaderreflectiontype_isoftype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

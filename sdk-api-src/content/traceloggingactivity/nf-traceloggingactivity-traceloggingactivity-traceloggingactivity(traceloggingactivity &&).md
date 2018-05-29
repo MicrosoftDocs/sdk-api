@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingActivity.TraceLoggingActivity(TraceLoggingActivity &&)
 title: TraceLoggingActivity::TraceLoggingActivity(TraceLoggingActivity &&)
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new TraceLoggingActivity object.
 old-location: tracelogging\traceloggingactivity_traceloggingactivity.htm
 old-project: tracelogging
 ms.assetid: 21A4BB42-1D78-48A9-A037-64A3508A9957
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingActivity, TraceLoggingActivity interface,TraceLoggingActivity method, TraceLoggingActivity method, TraceLoggingActivity method,TraceLoggingActivity interface, TraceLoggingActivity.TraceLoggingActivity, TraceLoggingActivity.TraceLoggingActivity(TraceLoggingActivity &&), TraceLoggingActivity::TraceLoggingActivity, TraceLoggingActivity::TraceLoggingActivity(TraceLoggingActivity &&), tracelogging.traceloggingactivity_traceloggingactivity, traceloggingactivity/TraceLoggingActivity::TraceLoggingActivity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: traceloggingactivity.h
 req.include-header: 

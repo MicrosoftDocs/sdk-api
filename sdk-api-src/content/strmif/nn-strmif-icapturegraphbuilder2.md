@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.ICaptureGraphBuilder2
 title: ICaptureGraphBuilder2
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICaptureGraphBuilder2 interface builds capture graphs and other custom filter graphs.
 old-location: dshow\icapturegraphbuilder2.htm
 old-project: DirectShow
 ms.assetid: abdf6fb2-e98f-4df8-98ec-06d33798abb5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICaptureGraphBuilder2, ICaptureGraphBuilder2 interface [DirectShow], ICaptureGraphBuilder2 interface [DirectShow],described, ICaptureGraphBuilder2Interface, dshow.icapturegraphbuilder2, strmif/ICaptureGraphBuilder2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

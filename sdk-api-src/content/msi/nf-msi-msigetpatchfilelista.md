@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiGetPatchFileListA
 title: MsiGetPatchFileListA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiGetPatchFileList function is provided a list of .msp files, delimited by semicolons, and retrieves the list of files that can be updated by the patches.
 old-location: setup\msigetpatchfilelist.htm
 old-project: Msi
 ms.assetid: c0a98ae4-d348-462d-8907-87116a64f79e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiGetPatchFileList, MsiGetPatchFileList function, MsiGetPatchFileListA, MsiGetPatchFileListW, msi/MsiGetPatchFileList, msi/MsiGetPatchFileListA, msi/MsiGetPatchFileListW, setup.msigetpatchfilelist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

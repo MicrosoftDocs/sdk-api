@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetOtherFrequencyFlag
 title: IDvbTerrestrialDeliverySystemDescriptor::GetOtherFrequencyFlag
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getotherfrequencyflag.htm
 old-project: mstv
 ms.assetid: 1462004c-7605-430e-bf9a-beb1776adb6c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetOtherFrequencyFlag, GetOtherFrequencyFlag method [Microsoft TV Technologies], GetOtherFrequencyFlag method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetOtherFrequencyFlag method, IDvbTerrestrialDeliverySystemDescriptor.GetOtherFrequencyFlag, IDvbTerrestrialDeliverySystemDescriptor::GetOtherFrequencyFlag, IDvbTerrestrialDeliverySystemDescriptorGetOtherFrequencyFlag, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetOtherFrequencyFlag, mstv.idvbterrestrialdeliverysystemdescriptor_getotherfrequencyflag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

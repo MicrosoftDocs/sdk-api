@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluseffects.ColorLUT.ColorLUT
 title: ColorLUT::ColorLUT
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new ColorLUT object.
 old-location: gdiplus\_gdiplus_CLASS_ColorLUT_ColorLUT_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorlutclass\colorlutconstructors\colorlut.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ColorLUT, ColorLUT class [GDI+],ColorLUT constructor, ColorLUT constructor [GDI+], ColorLUT constructor [GDI+],ColorLUT class, ColorLUT.ColorLUT, ColorLUT::ColorLUT, _gdiplus_CLASS_ColorLUT_ColorLUT_, gdiplus._gdiplus_CLASS_ColorLUT_ColorLUT_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

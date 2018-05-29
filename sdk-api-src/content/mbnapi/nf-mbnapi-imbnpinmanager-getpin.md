@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnPinManager.GetPin
 title: IMbnPinManager::GetPin
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a specific type of PIN.
 old-location: mbn\imbnpinmanager_getpin.htm
 old-project: mbn
 ms.assetid: 21752fb9-db6b-4fd1-9c6f-a756408bda53
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetPin, GetPin method [Microsoft Broadband Networks], GetPin method [Microsoft Broadband Networks],IMbnPinManager interface, IMbnPinManager interface [Microsoft Broadband Networks],GetPin method, IMbnPinManager.GetPin, IMbnPinManager::GetPin, mbn.imbnpinmanager_getpin, mbnapi/IMbnPinManager::GetPin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

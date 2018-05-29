@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ISystemAppEventData.Startup
 title: ISystemAppEventData::Startup
-author: windows-driver-content
+author: windows-sdk-content
 description: Invoked when a COM+ application instance is created.
 old-location: cos\isystemappeventdata_startup.htm
 old-project: cossdk
 ms.assetid: 89a5adc2-ee65-477d-9247-f075c63b43c7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ISystemAppEventData interface [COM+],Startup method, ISystemAppEventData.Startup, ISystemAppEventData::Startup, Startup, Startup method [COM+], Startup method [COM+],ISystemAppEventData interface, _dtc_ISystemAppEventData_Startup, comsvcs/ISystemAppEventData::Startup, cos.isystemappeventdata_startup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

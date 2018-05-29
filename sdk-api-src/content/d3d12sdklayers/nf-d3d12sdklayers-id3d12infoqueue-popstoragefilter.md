@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.PopStorageFilter
 title: ID3D12InfoQueue::PopStorageFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Pop a storage filter from the top of the storage-filter stack.
 old-location: direct3d12\id3d12infoqueue_popstoragefilter.htm
 old-project: direct3d12
 ms.assetid: C90952B6-7556-4214-8D08-694C593C9183
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12InfoQueue interface,PopStorageFilter method, ID3D12InfoQueue.PopStorageFilter, ID3D12InfoQueue::PopStorageFilter, PopStorageFilter, PopStorageFilter method, PopStorageFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PopStorageFilter, direct3d12.id3d12infoqueue_popstoragefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif.tagDVD_AUDIO_APPMODE
 title: tagDVD_AUDIO_APPMODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the current audio mode as retrieved in a call to IDvdInfo2::GetAudioAttributes.
 old-location: dshow\dvd_audio_appmode.htm
 old-project: DirectShow
 ms.assetid: 900fd812-7ca0-4dd8-bb30-3c8eff136939
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_AUDIO_APPMODE, DVD_AUDIO_APPMODE , DVD_AUDIO_APPMODE enumeration [DirectShow], DVD_AUDIO_APPMODEEnumeration, DVD_AudioMode_Karaoke, DVD_AudioMode_None, DVD_AudioMode_Other, DVD_AudioMode_Surround, dshow.dvd_audio_appmode, strmif/DVD_AUDIO_APPMODE, strmif/DVD_AudioMode_Karaoke, strmif/DVD_AudioMode_None, strmif/DVD_AudioMode_Other, strmif/DVD_AudioMode_Surround, tagDVD_AUDIO_APPMODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

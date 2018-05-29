@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntryCollection.get_Item
 title: IWindowsDriverUpdateEntryCollection::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IWindowsDriverUpdateEntry interface in the collection.
 old-location: wua\iwindowsdriverupdateentrycollection_item.htm
 old-project: Wua_Sdk
 ms.assetid: 4d91a59d-895b-41a5-b631-e954fa60b80c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWindowsDriverUpdateEntryCollection interface [Windows Update Agent],Item property, IWindowsDriverUpdateEntryCollection.Item, IWindowsDriverUpdateEntryCollection.get_Item, IWindowsDriverUpdateEntryCollection::Item, IWindowsDriverUpdateEntryCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IWindowsDriverUpdateEntryCollection interface, get_Item, wua.iwindowsdriverupdateentrycollection_item, wuapi/IWindowsDriverUpdateEntryCollection::Item, wuapi/IWindowsDriverUpdateEntryCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ntddkbd._KEYBOARD_INDICATOR_PARAMETERS
 title: "_KEYBOARD_INDICATOR_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: KEYBOARD_INDICATOR_PARAMETERS specifies the state of a keyboard's indicator LEDs.
 old-location: hid\keyboard_indicator_parameters.htm
 old-project: hid
 ms.assetid: 68c9d24a-c1c9-4ef6-904d-6aeb68cea32a
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*PKEYBOARD_INDICATOR_PARAMETERS, KEYBOARD_INDICATOR_PARAMETERS, KEYBOARD_INDICATOR_PARAMETERS structure [Human Input Devices], PKEYBOARD_INDICATOR_PARAMETERS, PKEYBOARD_INDICATOR_PARAMETERS structure pointer [Human Input Devices], _KEYBOARD_INDICATOR_PARAMETERS, hid.keyboard_indicator_parameters, kref_d0dd9f49-1ccb-444f-8dd6-243f6d150ab9.xml, ntddkbd/KEYBOARD_INDICATOR_PARAMETERS, ntddkbd/PKEYBOARD_INDICATOR_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h

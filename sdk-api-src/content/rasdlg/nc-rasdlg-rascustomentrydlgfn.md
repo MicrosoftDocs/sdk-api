@@ -1,16 +1,16 @@
 ---
 UID: NC:rasdlg.RasCustomEntryDlgFn
 title: RasCustomEntryDlgFn
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasCustomEntryDlg function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom dialogs for managing phone-book entries.
 old-location: rras\rascustomentrydlg.htm
 old-project: RRAS
 ms.assetid: 4778069b-87d0-4379-95f7-718fe0d7a56c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasCustomEntryDlg, RasCustomEntryDlg callback function [RAS], RasCustomEntryDlgFn, RasCustomEntryDlgFn callback, _ras_rascustomentrydlg, rasdlg/RasCustomEntryDlg, rras.rascustomentrydlg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: rasdlg.h
 req.include-header: 

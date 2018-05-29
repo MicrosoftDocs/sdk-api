@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.GetMultipleComponentsInfo
 title: ICOMAdminCatalog::GetMultipleComponentsInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the components found in the specified files.
 old-location: cos\icomadmincatalog_getmultiplecomponentsinfo.htm
 old-project: cossdk
 ms.assetid: dd8c5975-c67a-4f1b-9d48-25053ba5c0e9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: COMAdminComponentAlreadyInstalled, COMAdminComponentCOMPlusPropertiesFound, COMAdminComponentFlagTypeInfoFound, COMAdminComponentInterfacesFound, COMAdminComponentNotInApplication, COMAdminComponentProxyFound, COMAdminFileFlagAlreadyInstalled, COMAdminFileFlagBadTLB, COMAdminFileFlagCOM, COMAdminFileFlagClassNotAvailable, COMAdminFileFlagContainsComp, COMAdminFileFlagContainsRS, COMAdminFileFlagContainsTLB, COMAdminFileFlagDLLRegsvrFailed, COMAdminFileFlagDoesNotExist, COMAdminFileFlagError, COMAdminFileFlagGetClassObjFailed, COMAdminFileFlagLoadable, COMAdminFileFlagNoRegistrar, COMAdminFileFlagRegTLBFailed, COMAdminFileFlagRegistrar, COMAdminFileFlagRegistrarFailed, COMAdminFileFlagSelfReg, COMAdminFileFlagSelfUnReg, COMAdminFileFlagUnloadableDLL, GetMultipleComponentsInfo, GetMultipleComponentsInfo method [COM+], GetMultipleComponentsInfo method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetMultipleComponentsInfo method, ICOMAdminCatalog.GetMultipleComponentsInfo, ICOMAdminCatalog::GetMultipleComponentsInfo, _cos_ICOMAdminCatalog_GetMultipleComponentsInfo, comadmin/ICOMAdminCatalog::GetMultipleComponentsInfo, cos.icomadmincatalog_getmultiplecomponentsinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

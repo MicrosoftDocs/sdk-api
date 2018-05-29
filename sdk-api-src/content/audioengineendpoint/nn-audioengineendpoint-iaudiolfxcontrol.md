@@ -1,16 +1,16 @@
 ---
 UID: NN:audioengineendpoint.IAudioLfxControl
 title: IAudioLfxControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioLfxControl interface allows the client to apply or remove local effects from the offloaded audio stream.
 old-location: coreaudio\iaudiolfxcontrol.htm
 old-project: CoreAudio
 ms.assetid: E4290AE9-7F2E-4D0B-BEAF-F01D95B3E03D
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioLfxControl, IAudioLfxControl interface [Core Audio], IAudioLfxControl interface [Core Audio],described, audioengineendpoint/IAudioLfxControl, coreaudio.iaudiolfxcontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 

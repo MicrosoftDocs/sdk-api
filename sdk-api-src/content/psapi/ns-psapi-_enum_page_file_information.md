@@ -1,16 +1,16 @@
 ---
 UID: NS:psapi._ENUM_PAGE_FILE_INFORMATION
 title: "_ENUM_PAGE_FILE_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a pagefile.
 old-location: psapi\enum_page_file_information_str.htm
 old-project: psapi
 ms.assetid: 020f3be8-f624-4788-8079-0f7679c9bef0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PENUM_PAGE_FILE_INFORMATION, ENUM_PAGE_FILE_INFORMATION, ENUM_PAGE_FILE_INFORMATION structure [PSAPI], PENUM_PAGE_FILE_INFORMATION, PENUM_PAGE_FILE_INFORMATION structure pointer [PSAPI], _ENUM_PAGE_FILE_INFORMATION, _win32_enum_page_file_information_str, base.enum_page_file_information_str, psapi.enum_page_file_information_str, psapi/ENUM_PAGE_FILE_INFORMATION, psapi/PENUM_PAGE_FILE_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: psapi.h
 req.include-header: 

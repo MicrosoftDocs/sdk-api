@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPhone.DeviceSpecificVariant
 title: ITPhone::DeviceSpecificVariant
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeviceSpecificVariant method enables service providers to provide access to features not offered by other TAPI functions.
 old-location: tapi3\itphone_devicespecificvariant.htm
 old-project: Tapi
 ms.assetid: 828d34e5-efac-4776-85a2-51eb94d68dac
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DeviceSpecificVariant, DeviceSpecificVariant method [TAPI 2.2], DeviceSpecificVariant method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],DeviceSpecificVariant method, ITPhone.DeviceSpecificVariant, ITPhone::DeviceSpecificVariant, _tapi3_itphone_devicespecificvariant, tapi3.itphone_devicespecificvariant, tapi3if/ITPhone::DeviceSpecificVariant
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

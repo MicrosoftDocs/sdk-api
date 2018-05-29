@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif._AM_OVERLAY_NOTIFY_FLAGS
 title: "_AM_OVERLAY_NOTIFY_FLAGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AM_OVERLAY_NOTIFY_FLAGS enumeration indicates what the overlay has changed, or is about to change.
 old-location: dshow\am_overlay_notify_flags.htm
 old-project: DirectShow
 ms.assetid: bc16714b-acee-4b5d-aa1d-6b53965183dc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AM_OVERLAY_NOTIFY_DEST_CHANGE, AM_OVERLAY_NOTIFY_FLAGS, AM_OVERLAY_NOTIFY_FLAGSEnumeration, AM_OVERLAY_NOTIFY_SOURCE_CHANGE, AM_OVERLAY_NOTIFY_VISIBLE_CHANGE, _AM_OVERLAY_NOTIFY_FLAGS, _AM_OVERLAY_NOTIFY_FLAGS enumeration [DirectShow], dshow.am_overlay_notify_flags, strmif/AM_OVERLAY_NOTIFY_DEST_CHANGE, strmif/AM_OVERLAY_NOTIFY_SOURCE_CHANGE, strmif/AM_OVERLAY_NOTIFY_VISIBLE_CHANGE, strmif/_AM_OVERLAY_NOTIFY_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

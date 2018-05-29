@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint.DD_KERNELCALLBACKS
 title: DD_KERNELCALLBACKS
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_KERNELCALLBACKS structure contains entry pointers to the DirectDraw kernel-mode callback functions that the driver supports.
 old-location: display\dd_kernelcallbacks.htm
 old-project: display
 ms.assetid: 85dcb71b-ad1f-4b83-8ead-db502d9f294e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_KERNELCALLBACKS, DD_KERNELCALLBACKS, DD_KERNELCALLBACKS structure [Display Devices], PDD_KERNELCALLBACKS, PDD_KERNELCALLBACKS structure pointer [Display Devices], ddrawint/DD_KERNELCALLBACKS, ddrawint/PDD_KERNELCALLBACKS, ddstrcts_6d33c1f1-37e3-421a-b40f-1009a5ee3d25.xml, display.dd_kernelcallbacks"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3dcompiler.D3DReadFileToBlob
 title: D3DReadFileToBlob function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads a file that is on disk into memory.
 old-location: direct3dhlsl\d3dreadfiletoblob.htm
 old-project: direct3dhlsl
 ms.assetid: 7CFB1BA6-7C36-4BDB-9705-781CCC2E7DB2
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: D3DReadFileToBlob, D3DReadFileToBlob function [HLSL], d3dcompiler/D3DReadFileToBlob, direct3dhlsl.d3dreadfiletoblob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 

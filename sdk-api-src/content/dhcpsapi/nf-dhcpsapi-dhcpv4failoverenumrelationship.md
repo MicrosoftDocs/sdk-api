@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverEnumRelationship
 title: DhcpV4FailoverEnumRelationship function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates all failover relationships present on the server.
 old-location: dhcp\dhcpv4failoverenumrelationship.htm
 old-project: DHCP
 ms.assetid: 81ef2af8-c1a9-44e7-857c-1591947609ed
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpV4FailoverEnumRelationship, DhcpV4FailoverEnumRelationship function [DHCP], dhcp.dhcpv4failoverenumrelationship, dhcpsapi/DhcpV4FailoverEnumRelationship
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

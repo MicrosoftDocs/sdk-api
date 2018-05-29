@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidClosedCaptioning2
 title: IMSVidClosedCaptioning2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMSVidClosedCaptioning2 interface sets the closed captioning service, such as CC1 or CC2. The MSVidClosedCaptioning feature exposes this interface.
 old-location: mstv\imsvidclosedcaptioning2.htm
 old-project: mstv
 ms.assetid: 37fe213a-7778-4448-937d-30ad1015d56c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidClosedCaptioning2, IMSVidClosedCaptioning2 interface [Microsoft TV Technologies], IMSVidClosedCaptioning2 interface [Microsoft TV Technologies],described, IMSVidClosedCaptioning2Interface, mstv.imsvidclosedcaptioning2, segment/IMSVidClosedCaptioning2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

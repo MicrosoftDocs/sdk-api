@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_TaskRunAsSelf
 title: IDataCollectorSet::put_TaskRunAsSelf
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets a value that determines whether the task runs as the data collector set user or as the user specified in the task.
 old-location: pla\idatacollectorset_taskrunasself.htm
 old-project: PLA
 ms.assetid: 14a7f6db-b5aa-4462-978e-66cd58e05446
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],TaskRunAsSelf property, IDataCollectorSet.TaskRunAsSelf, IDataCollectorSet.put_TaskRunAsSelf, IDataCollectorSet::TaskRunAsSelf, IDataCollectorSet::get_TaskRunAsSelf, IDataCollectorSet::put_TaskRunAsSelf, TaskRunAsSelf property [PLA], TaskRunAsSelf property [PLA],IDataCollectorSet interface, pla.idatacollectorset_taskrunasself, pla/IDataCollectorSet::TaskRunAsSelf, pla/IDataCollectorSet::get_TaskRunAsSelf, pla/IDataCollectorSet::put_TaskRunAsSelf, put_TaskRunAsSelf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

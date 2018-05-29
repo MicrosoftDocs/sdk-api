@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsController.GetPortProperties
 title: IVdsController::GetPortProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the properties of the specified controller port.
 old-location: base\ivdscontroller_getportproperties.htm
 old-project: VDS
 ms.assetid: 01972923-2a43-4a80-80f8-8dab4207bbc4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetPortProperties, GetPortProperties method [VDS], GetPortProperties method [VDS],IVdsController interface, IVdsController interface [VDS],GetPortProperties method, IVdsController.GetPortProperties, IVdsController::GetPortProperties, base.ivdscontroller_getportproperties, vds/IVdsController::GetPortProperties, vdshwprv/IVdsController::GetPortProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

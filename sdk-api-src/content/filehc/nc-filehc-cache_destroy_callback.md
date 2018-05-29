@@ -1,16 +1,16 @@
 ---
 UID: NC:filehc.CACHE_DESTROY_CALLBACK
 title: CACHE_DESTROY_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: A function that is called whenever an entry in the name cache is destroyed.
 old-location: winprog\cache_destroy_callback.htm
 old-project: DevNotes
 ms.assetid: daf85def-20ed-4162-b133-f730c50bf98a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CACHE_DESTROY_CALLBACK, CACHE_DESTROY_CALLBACK callback, CACHE_DESTROY_CALLBACK callback function [Windows API], filehc/CACHE_DESTROY_CALLBACK, winprog.cache_destroy_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: filehc.h
 req.include-header: 

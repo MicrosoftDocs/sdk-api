@@ -1,16 +1,16 @@
 ---
 UID: NN:objsel.IDsObjectPicker
 title: IDsObjectPicker
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDsObjectPicker interface is used by an application to initialize and display an object picker dialog box. To create an instance of this interface, call CoCreateInstance with the CLSID_DsObjectPicker class identifier as shown below.
 old-location: ad\idsobjectpicker.htm
 old-project: AD
 ms.assetid: f2f9da7d-7a09-4b49-a750-078a4573e213
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDsObjectPicker, IDsObjectPicker interface [Active Directory], IDsObjectPicker interface [Active Directory],described, _glines_idsobjectpicker, ad.idsobjectpicker, objsel/IDsObjectPicker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objsel.h
 req.include-header: 

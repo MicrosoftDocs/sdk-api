@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GenerateIndexEntries
 title: IMFASFIndexer::GenerateIndexEntries
-author: windows-driver-content
+author: windows-sdk-content
 description: Accepts an ASF packet for the file and creates index entries for them.
 old-location: mf\imfasfindexer_generateindexentries.htm
 old-project: medfound
 ms.assetid: febc5335-a8e8-4ae9-afb2-17f09b750477
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GenerateIndexEntries, GenerateIndexEntries method [Media Foundation], GenerateIndexEntries method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GenerateIndexEntries method, IMFASFIndexer.GenerateIndexEntries, IMFASFIndexer::GenerateIndexEntries, febc5335-a8e8-4ae9-afb2-17f09b750477, mf.imfasfindexer_generateindexentries, wmcontainer/IMFASFIndexer::GenerateIndexEntries
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

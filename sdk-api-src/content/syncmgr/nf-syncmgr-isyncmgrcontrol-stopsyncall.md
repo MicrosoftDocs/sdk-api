@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.StopSyncAll
 title: ISyncMgrControl::StopSyncAll
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops the synchronization of all items managed by all handlers.
 old-location: shell\ISyncMgrControl_StopSyncAll.htm
 old-project: shell
 ms.assetid: c6f75833-a1b8-46d0-a339-99e5bf814f7f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StopSyncAll method, ISyncMgrControl.StopSyncAll, ISyncMgrControl::StopSyncAll, StopSyncAll, StopSyncAll method [Windows Shell], StopSyncAll method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StopSyncAll, shell.ISyncMgrControl_StopSyncAll, syncmgr/ISyncMgrControl::StopSyncAll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IWebWizardExtension
 title: IWebWizardExtension
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IWizardExtension interface by exposing methods to set the wizard extension's initial URL, and a specific URL in case of an error.
 old-location: shell\IWebWizardExtension.htm
 old-project: shell
 ms.assetid: f1b5f53a-3163-486f-bbe9-a8fc6b244591
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IWebWizardExtension, IWebWizardExtension interface [Windows Shell], IWebWizardExtension interface [Windows Shell],described, _shell_IWebWizardExtension, shell.IWebWizardExtension, shobjidl/IWebWizardExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

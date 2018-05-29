@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFDRMNetHelper.GetChainedLicenseResponse
 title: IMFDRMNetHelper::GetChainedLicenseResponse
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented in this release.
 old-location: mf\imfdrmnethelper_getchainedlicenseresponse.htm
 old-project: medfound
 ms.assetid: eedbefd8-8540-4bf9-b602-6bebf089fcf7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetChainedLicenseResponse, GetChainedLicenseResponse method [Media Foundation], GetChainedLicenseResponse method [Media Foundation],IMFDRMNetHelper interface, IMFDRMNetHelper interface [Media Foundation],GetChainedLicenseResponse method, IMFDRMNetHelper.GetChainedLicenseResponse, IMFDRMNetHelper::GetChainedLicenseResponse, mf.imfdrmnethelper_getchainedlicenseresponse, wmcontainer/IMFDRMNetHelper::GetChainedLicenseResponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

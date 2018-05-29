@@ -1,16 +1,16 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_DisplayName
 title: IMsmConfigurableItem::get_DisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_DisplayName method retrieves the DisplayName property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_displayname.htm
 old-project: Msi
 ms.assetid: f947e570-251d-4638-b8b8-aaa6f08bde46
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IMsmConfigurableItem interface,get_DisplayName method, IMsmConfigurableItem.get_DisplayName, IMsmConfigurableItem::get_DisplayName, _msi_get_displayname_function, get_DisplayName, get_DisplayName method, get_DisplayName method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_DisplayName, setup.imsmconfigurableitem_get_displayname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mergemod.h
 req.include-header: 

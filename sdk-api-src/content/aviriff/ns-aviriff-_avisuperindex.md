@@ -1,16 +1,16 @@
 ---
 UID: NS:aviriff._avisuperindex
 title: "_avisuperindex"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains an AVI 2.0 super index (index of indexes).
 old-location: dshow\avisuperindex.htm
 old-project: DirectShow
 ms.assetid: 57c855ef-d4ea-4e11-a37b-941335ccf657
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AVISUPERINDEX, AVISUPERINDEX structure [DirectShow], _avisuperindex, aviriff/AVISUPERINDEX, dshow.avisuperindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: aviriff.h
 req.include-header: 

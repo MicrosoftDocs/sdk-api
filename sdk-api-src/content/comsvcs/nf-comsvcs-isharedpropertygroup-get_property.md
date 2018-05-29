@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroup.get_Property
 title: ISharedPropertyGroup::get_Property
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a reference to an existing shared property with the specified name.
 old-location: cos\isharedpropertygroup_get_property.htm
 old-project: cossdk
 ms.assetid: ffbd82a8-35d5-4c9b-bf03-91f48dddc189
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ISharedPropertyGroup interface [COM+],get_Property method, ISharedPropertyGroup.get_Property, ISharedPropertyGroup::get_Property, _cos_ISharedPropertyGroup_get_Property, comsvcs/ISharedPropertyGroup::get_Property, cos.isharedpropertygroup_get_property, get_Property, get_Property method [COM+], get_Property method [COM+],ISharedPropertyGroup interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsvc.QueryServiceConfigW
 title: QueryServiceConfigW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the configuration parameters of the specified service.
 old-location: base\queryserviceconfig.htm
 old-project: Services
 ms.assetid: 364c5f61-dfbe-460b-8e42-5c457b65c050
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: QueryServiceConfig, QueryServiceConfig function, QueryServiceConfigA, QueryServiceConfigW, _win32_queryserviceconfig, base.queryserviceconfig, winsvc/QueryServiceConfig, winsvc/QueryServiceConfigA, winsvc/QueryServiceConfigW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

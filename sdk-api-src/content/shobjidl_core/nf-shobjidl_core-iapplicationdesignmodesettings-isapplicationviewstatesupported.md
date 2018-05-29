@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.IsApplicationViewStateSupported
 title: IApplicationDesignModeSettings::IsApplicationViewStateSupported
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a particular application view state is supported for specific spoofed display size and scale factor settings.
 old-location: shell\IApplicationDesignModeSettings_IsApplicationViewStateSupported.htm
 old-project: shell
 ms.assetid: 49661f00-15bc-48c0-a302-b81bee61180a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IApplicationDesignModeSettings interface [Windows Shell],IsApplicationViewStateSupported method, IApplicationDesignModeSettings.IsApplicationViewStateSupported, IApplicationDesignModeSettings::IsApplicationViewStateSupported, IsApplicationViewStateSupported, IsApplicationViewStateSupported method [Windows Shell], IsApplicationViewStateSupported method [Windows Shell],IApplicationDesignModeSettings interface, shell.IApplicationDesignModeSettings_IsApplicationViewStateSupported, shobjidl_core/IApplicationDesignModeSettings::IsApplicationViewStateSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

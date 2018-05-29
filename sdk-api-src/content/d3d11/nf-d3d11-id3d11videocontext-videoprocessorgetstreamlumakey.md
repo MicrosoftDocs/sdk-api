@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamLumaKey
 title: ID3D11VideoContext::VideoProcessorGetStreamLumaKey
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the luma key for an input stream of the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamlumakey.htm
 old-project: medfound
 ms.assetid: 1DE22456-84E9-478F-A6CA-4C9CACF7E9AF
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamLumaKey method, ID3D11VideoContext.VideoProcessorGetStreamLumaKey, ID3D11VideoContext::VideoProcessorGetStreamLumaKey, VideoProcessorGetStreamLumaKey, VideoProcessorGetStreamLumaKey method [Media Foundation], VideoProcessorGetStreamLumaKey method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamLumaKey, mf.id3d11videocontext_videoprocessorgetstreamlumakey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

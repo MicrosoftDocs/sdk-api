@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedBoundingRectangle
 title: IUIAutomationElement::get_CachedBoundingRectangle
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the cached coordinates of the rectangle that completely encloses the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedBoundingRectangle.htm
 old-project: WinAuto
 ms.assetid: 31e171e1-b688-45ab-8bc3-971d9f61db3c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedBoundingRectangle property [Windows Accessibility], CachedBoundingRectangle property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedBoundingRectangle property, IUIAutomationElement.CachedBoundingRectangle, IUIAutomationElement.get_CachedBoundingRectangle, IUIAutomationElement::CachedBoundingRectangle, IUIAutomationElement::get_CachedBoundingRectangle, get_CachedBoundingRectangle, uiauto.uiauto_IUIAutomationElement_CachedBoundingRectangle, uiauto_IUIAutomationElement_CachedBoundingRectangle, uiautomationclient/IUIAutomationElement::CachedBoundingRectangle, uiautomationclient/IUIAutomationElement::get_CachedBoundingRectangle, winauto.uiauto_IUIAutomationElement_CachedBoundingRectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

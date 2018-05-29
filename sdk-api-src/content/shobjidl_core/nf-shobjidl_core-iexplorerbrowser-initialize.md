@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.Initialize
 title: IExplorerBrowser::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Prepares the browser to be navigated.
 old-location: shell\IExplorerBrowser_Initialize.htm
 old-project: shell
 ms.assetid: 4b86646a-a20c-4bb5-a4c8-5c2e11e18862
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],Initialize method, IExplorerBrowser.Initialize, IExplorerBrowser::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_Initialize, shell.IExplorerBrowser_Initialize, shobjidl_core/IExplorerBrowser::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

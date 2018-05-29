@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanFreeMemory
 title: WlanFreeMemory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees memory.
 old-location: nwifi\wlanfreememory.htm
 old-project: NativeWiFi
 ms.assetid: 241afb9d-8b16-4d76-b311-302b5492853e
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanFreeMemory, WlanFreeMemory function [NativeWIFI], nwifi.wlanfreememory, wlanapi/WlanFreeMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyStoreFactory.GetPropertyStoreForKeys
 title: IPropertyStoreFactory::GetPropertyStoreForKeys
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IPropertyStore object, given a set of property keys. This provides an alternative, possibly faster, method of getting an IPropertyStore object compared to calling IPropertyStoreFactory::GetPropertyStore.
 old-location: properties\IPropertyStoreFactory_GetPropertyStoreForKeys.htm
 old-project: properties
 ms.assetid: ce17a245-46ff-412a-a807-6bc67b826c2f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPropertyStoreForKeys, GetPropertyStoreForKeys method [Windows Properties], GetPropertyStoreForKeys method [Windows Properties],IPropertyStoreFactory interface, IPropertyStoreFactory interface [Windows Properties],GetPropertyStoreForKeys method, IPropertyStoreFactory.GetPropertyStoreForKeys, IPropertyStoreFactory::GetPropertyStoreForKeys, _shell_IPropertyStoreFactory_GetPropertyStoreForKeys, properties.IPropertyStoreFactory_GetPropertyStoreForKeys, propsys/IPropertyStoreFactory::GetPropertyStoreForKeys, shell.IPropertyStoreFactory_GetPropertyStoreForKeys
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

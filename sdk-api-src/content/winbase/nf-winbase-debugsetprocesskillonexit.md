@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.DebugSetProcessKillOnExit
 title: DebugSetProcessKillOnExit function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the action to be performed when the calling thread exits.
 old-location: base\debugsetprocesskillonexit.htm
 old-project: Debug
 ms.assetid: 7ef44527-bde4-41f0-a470-d3f404c77ea9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DebugSetProcessKillOnExit, DebugSetProcessKillOnExit function, _win32_debugsetprocesskillonexit, base.debugsetprocesskillonexit, winbase/DebugSetProcessKillOnExit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

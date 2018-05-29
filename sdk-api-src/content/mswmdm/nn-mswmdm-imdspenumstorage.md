@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.IMDSPEnumStorage
 title: IMDSPEnumStorage
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMDSPEnumStorage interface is used to enumerate the storage media on a device.
 old-location: wmdm\imdspenumstorage.htm
 old-project: WMDM
 ms.assetid: fc2fed46-1f4d-4d53-a843-0f699b687a18
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMDSPEnumStorage, IMDSPEnumStorage interface [windows Media Device Manager], IMDSPEnumStorage interface [windows Media Device Manager],described, IMDSPEnumStorageInterface, mswmdm/IMDSPEnumStorage, wmdm.imdspenumstorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

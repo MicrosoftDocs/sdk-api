@@ -1,16 +1,16 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.GetServiceForStream
 title: IMFSourceReader::GetServiceForStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries the underlying media source or decoder for an interface.
 old-location: mf\imfsourcereader_getserviceforstream.htm
 old-project: medfound
 ms.assetid: d8868e4d-eedd-4fbd-b870-d3af48890c92
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetServiceForStream, GetServiceForStream method [Media Foundation], GetServiceForStream method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetServiceForStream method, IMFSourceReader.GetServiceForStream, IMFSourceReader::GetServiceForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, MF_SOURCE_READER_MEDIASOURCE, mf.imfsourcereader_getserviceforstream, mfreadwrite/IMFSourceReader::GetServiceForStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

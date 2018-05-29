@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfCreatePropertyStore.CreatePropertyStore
 title: ITfCreatePropertyStore::CreatePropertyStore
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfCreatePropertyStore::CreatePropertyStore method
 old-location: tsf\itfcreatepropertystore_createpropertystore.htm
 old-project: TSF
 ms.assetid: 8c2e612c-31d8-4c89-97c4-3e248d7b7b28
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CreatePropertyStore, CreatePropertyStore method [Text Services Framework], CreatePropertyStore method [Text Services Framework],ITfCreatePropertyStore interface, ITfCreatePropertyStore interface [Text Services Framework],CreatePropertyStore method, ITfCreatePropertyStore.CreatePropertyStore, ITfCreatePropertyStore::CreatePropertyStore, _tsf_itfcreatepropertystore_createpropertystore_ref, msctf/ITfCreatePropertyStore::CreatePropertyStore, tsf.itfcreatepropertystore_createpropertystore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

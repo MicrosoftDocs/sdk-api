@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_CALL_PACKAGE
 title: LSA_CALL_PACKAGE
-author: windows-driver-content
+author: windows-sdk-content
 description: The CallPackage function is used to call another security package to access its services.
 old-location: security\callpackage.htm
 old-project: SecAuthN
 ms.assetid: 770c41ab-df79-4371-9f1d-7bbce8193b5d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CallPackage, CallPackage function [Security], LSA_CALL_PACKAGE, _ssp_callpackage, ntsecpkg/CallPackage, security.callpackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

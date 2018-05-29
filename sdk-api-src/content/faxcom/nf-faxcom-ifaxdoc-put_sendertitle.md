@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_SenderTitle
 title: IFaxDoc::put_SenderTitle
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the SenderTitle property of a FaxDoc object. The SenderTitle property is a null-terminated string that contains the title of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_sendertitle_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3obp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxDoc object [Fax Service],SenderTitle property, FaxDoc.SenderTitle, IFaxDoc.put_SenderTitle, IFaxDoc::put_SenderTitle, SenderTitle property [Fax Service], SenderTitle property [Fax Service],FaxDoc object, _mfax_ifaxdoc_get_sendertitle, fax._mfax_ifaxdoc_get_sendertitle, fax._mfax_ifaxdoc_get_sendertitle_vb, put_SenderTitle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator=
 title: WBEMTimeSpan::operator=
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a BSTR time interval value to a WBEMTimeSpan object in CIM date and time format.
 old-location: wmi\wbemtimespan_operator_equal.htm
 old-project: WmiSdk
 ms.assetid: e97bf5c7-90fd-49a7-9c3c-c719d5374f84
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator= method, WBEMTimeSpan.operator=, WBEMTimeSpan::operator=, _hmm_wbemtimespan_operator_equal, operator=, operator= method [Windows Management Instrumentation], operator= method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator=, wmi.wbemtimespan_operator_equal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

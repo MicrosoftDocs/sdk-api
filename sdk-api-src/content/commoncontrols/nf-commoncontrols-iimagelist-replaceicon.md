@@ -1,16 +1,16 @@
 ---
 UID: NF:commoncontrols.IImageList.ReplaceIcon
 title: IImageList::ReplaceIcon
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces an image with an icon or cursor.
 old-location: controls\IImageList_ReplaceIcon.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\replaceicon.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IImageList interface [Windows Controls],ReplaceIcon method, IImageList.ReplaceIcon, IImageList::ReplaceIcon, ReplaceIcon, ReplaceIcon method [Windows Controls], ReplaceIcon method [Windows Controls],IImageList interface, comctl_IImageList_ReplaceIcon, comctl_IImageList_ReplaceIcon_cpp, commoncontrols/IImageList::ReplaceIcon, controls.IImageList_ReplaceIcon, controls.comctl_IImageList_ReplaceIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 

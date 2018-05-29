@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IMessageFilter.HandleInComingCall
 title: IMessageFilter::HandleInComingCall
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a single entry point for incoming calls.
 old-location: com\imessagefilter_handleincomingcall.htm
 old-project: com
 ms.assetid: 7e31b518-ef4f-4bdd-b5c7-e1b16383a5be
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: HandleInComingCall, HandleInComingCall method [COM], HandleInComingCall method [COM],IMessageFilter interface, IMessageFilter interface [COM],HandleInComingCall method, IMessageFilter.HandleInComingCall, IMessageFilter::HandleInComingCall, _com_imessagefilter_handleincomingcall, com.imessagefilter_handleincomingcall, objidl/IMessageFilter::HandleInComingCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

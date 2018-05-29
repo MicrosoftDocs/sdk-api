@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITASRTerminalEvent.get_Error
 title: ITASRTerminalEvent::get_Error
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Error method returns an HRESULT cast of the error associated with the terminal event.
 old-location: tapi3\itasrterminalevent_get_error.htm
 old-project: Tapi
 ms.assetid: 7bccf537-a54b-4c40-866b-0f7a42149841
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITASRTerminalEvent interface [TAPI 2.2],get_Error method, ITASRTerminalEvent.get_Error, ITASRTerminalEvent::get_Error, _tapi3_itasrterminalevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITASRTerminalEvent interface, tapi3.itasrterminalevent_get_error, tapi3if/ITASRTerminalEvent::get_Error
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

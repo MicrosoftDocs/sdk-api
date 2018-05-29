@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.Clone
 title: IXpsOMPath::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsompath_clone.htm
 old-project: printdocs
 ms.assetid: 4602f9fe-6001-4a5a-8870-f2a6e97ccc55
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],Clone method, IXpsOMPath.Clone, IXpsOMPath::Clone, xps.ixpsompath_clone, xpsobjectmodel/IXpsOMPath::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

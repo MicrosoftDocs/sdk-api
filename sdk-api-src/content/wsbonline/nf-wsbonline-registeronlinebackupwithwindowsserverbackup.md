@@ -1,16 +1,16 @@
 ---
 UID: NF:wsbonline.RegisterOnlineBackupWithWindowsServerBackup
 title: RegisterOnlineBackupWithWindowsServerBackup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a Cloud backup provider with Windows Server Backup.
 old-location: wsb\registeronlinebackupwithwindowsserverbackup.htm
 old-project: wsb
 ms.assetid: F6BBE44C-E735-47E9-8AD1-A7F1FBAC0330
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RegisterOnlineBackupWithWindowsServerBackup, RegisterOnlineBackupWithWindowsServerBackup function [Windows Server Backup], wsb.registeronlinebackupwithwindowsserverbackup, wsbonline/RegisterOnlineBackupWithWindowsServerBackup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsbonline.h
 req.include-header: 

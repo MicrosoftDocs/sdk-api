@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentSubpicture
 title: IDvdInfo2::GetCurrentSubpicture
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCurrentSubpicture method retrieves the number of available subpicture streams in the current title, the currently selected subpicture stream number, and the state of the subpicture.
 old-location: dshow\idvdinfo2_getcurrentsubpicture.htm
 old-project: DirectShow
 ms.assetid: d41fb9ad-83e3-46d6-90b3-abdc61a6b997
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCurrentSubpicture, GetCurrentSubpicture method [DirectShow], GetCurrentSubpicture method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentSubpicture method, IDvdInfo2.GetCurrentSubpicture, IDvdInfo2::GetCurrentSubpicture, IDvdInfo2GetCurrentSubpicture, dshow.idvdinfo2_getcurrentsubpicture, strmif/IDvdInfo2::GetCurrentSubpicture
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

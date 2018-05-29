@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.DrawDibProfileDisplay
 title: DrawDibProfileDisplay function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrawDibProfileDisplay function determines settings for the display system when using DrawDib functions.
 old-location: multimedia\drawdibprofiledisplay.htm
 old-project: Multimedia
 ms.assetid: 51f8b1a2-26e2-40d3-bbc0-5c6c1b482014
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DrawDibProfileDisplay, DrawDibProfileDisplay function [Windows Multimedia], _win32_DrawDibProfileDisplay, multimedia.drawdibprofiledisplay, vfw/DrawDibProfileDisplay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

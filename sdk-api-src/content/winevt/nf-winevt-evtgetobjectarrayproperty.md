@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtGetObjectArrayProperty
 title: EvtGetObjectArrayProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a provider metadata property from the specified object in the array.
 old-location: wes\evtgetobjectarrayproperty.htm
 old-project: WES
 ms.assetid: a522f0a8-6050-4082-acdf-e700ebfa7efc
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtGetObjectArrayProperty, EvtGetObjectArrayProperty function [EventLog], wes.evtgetobjectarrayproperty, winevt/EvtGetObjectArrayProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

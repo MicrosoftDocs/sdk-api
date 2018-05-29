@@ -1,16 +1,16 @@
 ---
 UID: NE:hrtfapoapi.HrtfEnvironment
 title: HrtfEnvironment
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates one of several stock environment types.
 old-location: xaudio2\hrtfenvironment.htm
 old-project: xaudio2
 ms.assetid: C7A11F70-E94D-4A90-98A7-FA3B4DF5043B
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: HrtfEnvironment, HrtfEnvironment enumeration [XAudio2 Audio Mixing APIs], Large, Medium, Outdoors, Small, hrtfapoapi/HrtfEnvironment, hrtfapoapi/Large, hrtfapoapi/Medium, hrtfapoapi/Outdoors, hrtfapoapi/Small, xaudio2.hrtfenvironment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: hrtfapoapi.h
 req.include-header: 

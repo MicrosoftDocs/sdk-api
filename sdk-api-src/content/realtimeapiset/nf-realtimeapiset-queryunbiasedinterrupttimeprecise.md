@@ -1,16 +1,16 @@
 ---
 UID: NF:realtimeapiset.QueryUnbiasedInterruptTimePrecise
 title: QueryUnbiasedInterruptTimePrecise function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current unbiased interrupt-time count, in a more precise form than QueryUnbiasedInterruptTime does. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.
 old-location: base\queryunbiasedinterrupttimeprecise.htm
 old-project: SysInfo
 ms.assetid: FADFC168-A3CF-4676-9B6E-7A4028049423
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: QueryUnbiasedInterruptTimePrecise, QueryUnbiasedInterruptTimePrecise function, base.queryunbiasedinterrupttimeprecise, realtimeapiset/QueryUnbiasedInterruptTimePrecise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: realtimeapiset.h
 req.include-header: 

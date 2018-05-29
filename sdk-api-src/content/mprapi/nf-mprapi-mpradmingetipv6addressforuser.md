@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminGetIpv6AddressForUser
 title: MprAdminGetIpv6AddressForUser function
-author: windows-driver-content
+author: windows-sdk-content
 description: RAS calls the MprAdminGetIpv6AddressForUser function once for each user that requires an IPv6 address.
 old-location: rras\mpradmingetipv6addressforuser.htm
 old-project: RRAS
 ms.assetid: ec4b4130-4864-470f-8647-1fcadd359c58
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminGetIpv6AddressForUser, MprAdminGetIpv6AddressForUser callback, MprAdminGetIpv6AddressForUser callback function [RAS], mprapi/MprAdminGetIpv6AddressForUser, rras.mpradmingetipv6addressforuser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

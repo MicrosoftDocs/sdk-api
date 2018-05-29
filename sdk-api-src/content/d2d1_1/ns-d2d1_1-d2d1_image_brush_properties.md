@@ -1,16 +1,16 @@
 ---
 UID: NS:d2d1_1.D2D1_IMAGE_BRUSH_PROPERTIES
 title: D2D1_IMAGE_BRUSH_PROPERTIES
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes image brush features.
 old-location: direct2d\d2d1_image_brush_properties.htm
 old-project: Direct2D
 ms.assetid: c7bcae4d-cdef-4bfc-aa5a-68b85497a7f6
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_IMAGE_BRUSH_PROPERTIES, D2D1_IMAGE_BRUSH_PROPERTIES structure [Direct2D], PD2D1_IMAGE_BRUSH_PROPERTIES, PD2D1_IMAGE_BRUSH_PROPERTIES structure pointer [Direct2D], d2d1_1/D2D1_IMAGE_BRUSH_PROPERTIES, d2d1_1/PD2D1_IMAGE_BRUSH_PROPERTIES, direct2d.d2d1_image_brush_properties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 

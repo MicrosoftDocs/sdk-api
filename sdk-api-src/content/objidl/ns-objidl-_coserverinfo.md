@@ -1,16 +1,16 @@
 ---
 UID: NS:objidl._COSERVERINFO
 title: "_COSERVERINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies a remote computer resource to the activation functions.
 old-location: com\coserverinfo.htm
 old-project: com
 ms.assetid: 88c94a7f-5cf0-4d61-833f-91cba45d8624
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: COSERVERINFO, COSERVERINFO structure [COM], _COSERVERINFO, _com_COSERVERINFO, com.coserverinfo, objidlbase/COSERVERINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: Objidl.h

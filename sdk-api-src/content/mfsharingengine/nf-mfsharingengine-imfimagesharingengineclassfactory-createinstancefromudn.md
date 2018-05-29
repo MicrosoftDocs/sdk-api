@@ -1,16 +1,16 @@
 ---
 UID: NF:mfsharingengine.IMFImageSharingEngineClassFactory.CreateInstanceFromUDN
 title: IMFImageSharingEngineClassFactory::CreateInstanceFromUDN
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instance of the IMFImageSharingEngine from the provided unique device name.
 old-location: mf\imfimagesharingengineclassfactory_createinstancefromudn.htm
 old-project: medfound
 ms.assetid: 343E9CB5-12CA-4AC9-857F-D8324D035F07
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateInstanceFromUDN, CreateInstanceFromUDN method [Media Foundation], CreateInstanceFromUDN method [Media Foundation],IMFImageSharingEngineClassFactory interface, IMFImageSharingEngineClassFactory interface [Media Foundation],CreateInstanceFromUDN method, IMFImageSharingEngineClassFactory.CreateInstanceFromUDN, IMFImageSharingEngineClassFactory::CreateInstanceFromUDN, mf.imfimagesharingengineclassfactory_createinstancefromudn, mfsharingengine/IMFImageSharingEngineClassFactory::CreateInstanceFromUDN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfsharingengine.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:winddi._PERBANDINFO
 title: "_PERBANDINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The PERBANDINFO structure is used as input to a printer graphics DLL's DrvQueryPerBandInfo function.
 old-location: display\perbandinfo.htm
 old-project: display
 ms.assetid: ec02542f-68d1-4d05-a4d1-e475725997ad
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PPERBANDINFO, PERBANDINFO, PERBANDINFO structure [Display Devices], PPERBANDINFO, PPERBANDINFO structure pointer [Display Devices], _PERBANDINFO, display.perbandinfo, grstrcts_130088d9-975d-4b22-be85-90e129c64455.xml, winddi/PERBANDINFO, winddi/PPERBANDINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

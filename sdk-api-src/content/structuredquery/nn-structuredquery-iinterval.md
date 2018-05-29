@@ -1,16 +1,16 @@
 ---
 UID: NN:structuredquery.IInterval
 title: IInterval
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method to get the limits of an interval.
 old-location: search\_search_IInterval.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iinterval\iinterval.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IInterval, IInterval interface [search], IInterval interface [search],described, _search_IInterval, search._search_IInterval, structuredquery/IInterval
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 

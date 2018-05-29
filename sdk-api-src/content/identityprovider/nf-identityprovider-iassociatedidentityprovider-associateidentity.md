@@ -1,16 +1,16 @@
 ---
 UID: NF:identityprovider.IAssociatedIdentityProvider.AssociateIdentity
 title: IAssociatedIdentityProvider::AssociateIdentity
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates an identity with a local user account.
 old-location: security\iassociatedidentityprovider_associateidentity.htm
 old-project: SecAuthN
 ms.assetid: 2d1d1da9-c1d0-4970-aad2-928bf6a4aaf0
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AssociateIdentity, AssociateIdentity method [Security], AssociateIdentity method [Security],IAssociatedIdentityProvider interface, IAssociatedIdentityProvider interface [Security],AssociateIdentity method, IAssociatedIdentityProvider.AssociateIdentity, IAssociatedIdentityProvider::AssociateIdentity, identityprovider/IAssociatedIdentityProvider::AssociateIdentity, identitystore/IAssociatedIdentityProvider::AssociateIdentity, security.iassociatedidentityprovider_associateidentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 

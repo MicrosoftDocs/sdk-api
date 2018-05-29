@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioGetLogonSetting
 title: WinBioGetLogonSetting function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a value that indicates whether users can log on by using biometric information.
 old-location: secbiomet\winbiogetlogonsetting.htm
 old-project: SecBioMet
 ms.assetid: 1053f68f-4785-48a2-98da-26cc8bd41a50
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WINBIO_SETTING_SOURCE_DEFAULT, WINBIO_SETTING_SOURCE_INVALID, WINBIO_SETTING_SOURCE_LOCAL, WINBIO_SETTING_SOURCE_POLICY, WinBioGetLogonSetting, WinBioGetLogonSetting function [Windows Biometric Framework API], secbiomet.winbiogetlogonsetting, winbio/WinBioGetLogonSetting
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

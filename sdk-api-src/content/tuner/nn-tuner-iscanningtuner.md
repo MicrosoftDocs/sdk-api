@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IScanningTuner
 title: IScanningTuner
-author: windows-driver-content
+author: windows-sdk-content
 description: The IScanningTuner interface is implemented on the BDA Network Provider filter.
 old-location: mstv\iscanningtuner.htm
 old-project: mstv
 ms.assetid: faa99b87-ddbb-4e38-8681-bd5c8c4f81f3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IScanningTuner, IScanningTuner interface [Microsoft TV Technologies], IScanningTuner interface [Microsoft TV Technologies],described, IScanningTunerInterface, mstv.iscanningtuner, tuner/IScanningTuner
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

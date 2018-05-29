@@ -1,16 +1,16 @@
 ---
 UID: NF:aclapi.GetEffectiveRightsFromAclW
 title: GetEffectiveRightsFromAclW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the effective access rights that an ACL structure grants to a specified trustee. The trustee's effective access rights are the access rights that the ACL grants to the trustee or to any groups of which the trustee is a member.
 old-location: security\geteffectiverightsfromacl.htm
 old-project: SecAuthZ
 ms.assetid: c40973e8-72a9-43a2-9873-ea5c666a094c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetEffectiveRightsFromAcl, GetEffectiveRightsFromAcl function [Security], GetEffectiveRightsFromAclA, GetEffectiveRightsFromAclW, _win32_geteffectiverightsfromacl, aclapi/GetEffectiveRightsFromAcl, aclapi/GetEffectiveRightsFromAclA, aclapi/GetEffectiveRightsFromAclW, security.geteffectiverightsfromacl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 

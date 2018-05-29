@@ -1,16 +1,16 @@
 ---
 UID: NN:imepad.IImeSpecifyApplets
 title: IImeSpecifyApplets
-author: windows-driver-content
+author: windows-sdk-content
 description: The IImeSpecifyApplets interface specifies methods called from the IImePad interface object to emulate the IImePadApplet interface.
 old-location: intl\iimespecifyapplets.htm
 old-project: Intl
 ms.assetid: 788C7272-3BFF-4531-B66E-211585BF85E3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IImeSpecifyApplets, IImeSpecifyApplets interface [Internationalization for Windows Applications], IImeSpecifyApplets interface [Internationalization for Windows Applications],described, imepad/IImeSpecifyApplets, intl.iimespecifyapplets
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imepad.h
 req.include-header: 

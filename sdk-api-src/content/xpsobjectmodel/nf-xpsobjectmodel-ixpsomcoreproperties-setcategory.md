@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetCategory
 title: IXpsOMCoreProperties::SetCategory
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the category property.
 old-location: xps\ixpsomcoreproperties_setcategory.htm
 old-project: printdocs
 ms.assetid: 0c194731-0992-47c3-b069-fa9e1d16944b
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetCategory method, IXpsOMCoreProperties.SetCategory, IXpsOMCoreProperties::SetCategory, SetCategory, SetCategory method [XPS Documents and Packaging], SetCategory method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcategory, xpsobjectmodel/IXpsOMCoreProperties::SetCategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

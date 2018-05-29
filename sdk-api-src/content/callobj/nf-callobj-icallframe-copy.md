@@ -1,16 +1,16 @@
 ---
 UID: NF:callobj.ICallFrame.Copy
 title: ICallFrame::Copy
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of this call frame and all of its associated data.
 old-location: com\icallframe_copy.htm
 old-project: com
 ms.assetid: bf2d2e55-d9d1-48d6-817c-382c739d1acd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Copy, Copy method [COM], Copy method [COM],ICallFrame interface, ICallFrame interface [COM],Copy method, ICallFrame.Copy, ICallFrame::Copy, _com_icallframe_copy, callobj/ICallFrame::Copy, com.icallframe_copy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: callobj.h
 req.include-header: 

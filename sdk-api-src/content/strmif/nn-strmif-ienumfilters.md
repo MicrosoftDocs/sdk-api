@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IEnumFilters
 title: IEnumFilters
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumFilters interface enumerates the filters in a filter graph.
 old-location: dshow\ienumfilters.htm
 old-project: DirectShow
 ms.assetid: e105ccff-86c6-45d5-aead-6d303d038e5a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumFilters, IEnumFilters interface [DirectShow], IEnumFilters interface [DirectShow],described, IEnumFiltersInterface, dshow.ienumfilters, strmif/IEnumFilters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

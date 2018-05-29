@@ -1,16 +1,16 @@
 ---
 UID: NE:iscsidsc.ISCSI_AUTH_TYPES
 title: ISCSI_AUTH_TYPES
-author: windows-driver-content
+author: windows-sdk-content
 description: ISCSI_AUTH_TYPES enumeration indicates the type of authentication method utilized.
 old-location: iscsidisc\iscsi_auth_types.htm
 old-project: iSCSIDisc
 ms.assetid: 432f1968-e2ca-4594-80cc-0f1a852ec81a
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES enumeration [iSCSI Discovery Library API], ISCSI_CHAP_AUTH_TYPE, ISCSI_MUTUAL_CHAP_AUTH_TYPE, ISCSI_NO_AUTH_TYPE, iscsidisc.iscsi_auth_types, iscsidsc/ISCSI_AUTH_TYPES, iscsidsc/ISCSI_CHAP_AUTH_TYPE, iscsidsc/ISCSI_MUTUAL_CHAP_AUTH_TYPE, iscsidsc/ISCSI_NO_AUTH_TYPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: iscsidsc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capPreview
 title: capPreview macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capPreview macro enables or disables preview mode.
 old-location: multimedia\cappreview.htm
 old-project: Multimedia
 ms.assetid: c6888e35-9915-4ffb-ac0d-3cc1419fdac3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capPreview, capPreview, capPreview macro [Windows Multimedia], multimedia.cappreview, vfw/capPreview"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

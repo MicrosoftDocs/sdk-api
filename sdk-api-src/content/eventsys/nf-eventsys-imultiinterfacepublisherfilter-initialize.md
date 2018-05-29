@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IMultiInterfacePublisherFilter.Initialize
 title: IMultiInterfacePublisherFilter::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates an event class with a publisher filter.
 old-location: cos\imultiinterfacepublisherfilter_initialize.htm
 old-project: cossdk
 ms.assetid: d69075a3-7b5a-4c99-9e51-d07a3dde511a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMultiInterfacePublisherFilter interface [COM+],Initialize method, IMultiInterfacePublisherFilter.Initialize, IMultiInterfacePublisherFilter::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IMultiInterfacePublisherFilter interface, _cos_IMultiInterfacePublisherFilter_Initialize, cos.imultiinterfacepublisherfilter_initialize, eventsys/IMultiInterfacePublisherFilter::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

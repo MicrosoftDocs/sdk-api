@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.GetSharePermissions
 title: ISharingConfigurationManager::GetSharePermissions
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the access permissions currently associated with the User or Public folder for the Everyone access control entry (ACE).
 old-location: shell\ISharingConfigurationManager_GetSharePermissions.htm
 old-project: shell
 ms.assetid: d9ca5acf-2dd1-4fbe-a67f-91578d68b955
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetSharePermissions, GetSharePermissions method [Windows Shell], GetSharePermissions method [Windows Shell],ISharingConfigurationManager interface, ISharingConfigurationManager interface [Windows Shell],GetSharePermissions method, ISharingConfigurationManager.GetSharePermissions, ISharingConfigurationManager::GetSharePermissions, _shell_ISharingConfigurationManager_GetSharePermissions, shell.ISharingConfigurationManager_GetSharePermissions, shobjidl_core/ISharingConfigurationManager::GetSharePermissions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

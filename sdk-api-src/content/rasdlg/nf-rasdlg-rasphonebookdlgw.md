@@ -1,16 +1,16 @@
 ---
 UID: NF:rasdlg.RasPhonebookDlgW
 title: RasPhonebookDlgW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasPhonebookDlg function displays the main Dial-Up Networking dialog box.
 old-location: rras\rasphonebookdlg.htm
 old-project: RRAS
 ms.assetid: 64603090-ec03-4eac-9da6-cb631c97dfb5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasPhonebookDlg, RasPhonebookDlg function [RAS], RasPhonebookDlgA, RasPhonebookDlgW, _ras_rasphonebookdlg, rasdlg/RasPhonebookDlg, rasdlg/RasPhonebookDlgA, rasdlg/RasPhonebookDlgW, rras.rasphonebookdlg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rasdlg.h
 req.include-header: 

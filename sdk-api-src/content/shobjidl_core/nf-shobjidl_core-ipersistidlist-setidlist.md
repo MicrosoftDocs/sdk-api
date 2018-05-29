@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IPersistIDList.SetIDList
 title: IPersistIDList::SetIDList
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a persisted item identifier list.
 old-location: shell\IPersistIDList_SetIDList.htm
 old-project: shell
 ms.assetid: 0f509a36-e9be-46ab-8c01-067e44379615
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPersistIDList interface [Windows Shell],SetIDList method, IPersistIDList.SetIDList, IPersistIDList::SetIDList, SetIDList, SetIDList method [Windows Shell], SetIDList method [Windows Shell],IPersistIDList interface, inet_IPersistIDList_SetIDList, shell.IPersistIDList_SetIDList, shobjidl_core/IPersistIDList::SetIDList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

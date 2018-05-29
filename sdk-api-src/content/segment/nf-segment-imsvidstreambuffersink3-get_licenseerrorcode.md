@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get_LicenseErrorCode
 title: IMSVidStreamBufferSink3::get_LicenseErrorCode
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_get_licenseerrorcode.htm
 old-project: mstv
 ms.assetid: f20b8845-86ae-4fe9-9d2b-80341672843c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_LicenseErrorCode method, IMSVidStreamBufferSink3.get_LicenseErrorCode, IMSVidStreamBufferSink3::get_LicenseErrorCode, IMSVidStreamBufferSink3get_LicenseErrorCode, get_LicenseErrorCode, get_LicenseErrorCode method [Microsoft TV Technologies], get_LicenseErrorCode method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_licenseerrorcode, segment/IMSVidStreamBufferSink3::get_LicenseErrorCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRCREATEPEN
 title: tagEMRCREATEPEN
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRCREATEPEN structure contains members for the CreatePen enhanced metafile record.
 old-location: gdi\emrcreatepen.htm
 old-project: gdi
 ms.assetid: bd338c56-00b4-4eae-9e4f-57ac49809f32
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRCREATEPEN, EMRCREATEPEN, EMRCREATEPEN structure [Windows GDI], PEMRCREATEPEN, PEMRCREATEPEN structure pointer [Windows GDI], _win32_EMRCREATEPEN_str, gdi.emrcreatepen, tagEMRCREATEPEN, wingdi/EMRCREATEPEN, wingdi/PEMRCREATEPEN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

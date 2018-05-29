@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.IsDBCSLeadByte
 title: IsDBCSLeadByte function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if a specified character is a lead byte for the system default Windows ANSI code page (CP_ACP). A lead byte is the first byte of a two-byte character in a double-byte character set (DBCS) for the code page.
 old-location: intl\isdbcsleadbyte.htm
 old-project: Intl
 ms.assetid: 13767af5-9313-4c11-8386-fe41c7720d49
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IsDBCSLeadByte, IsDBCSLeadByte function [Internationalization for Windows Applications], _win32_IsDBCSLeadByte, intl.isdbcsleadbyte, winnls/IsDBCSLeadByte
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

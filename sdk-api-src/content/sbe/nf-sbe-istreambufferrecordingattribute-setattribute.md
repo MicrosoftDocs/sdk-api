@@ -1,16 +1,16 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.SetAttribute
 title: IStreamBufferRecordingAttribute::SetAttribute
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetAttribute method sets an attribute on the stream buffer file.
 old-location: mstv\istreambufferrecordingattribute_setattribute.htm
 old-project: mstv
 ms.assetid: cc441a00-e98f-4ea7-b902-d74846fc93cc
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],SetAttribute method, IStreamBufferRecordingAttribute.SetAttribute, IStreamBufferRecordingAttribute::SetAttribute, IStreamBufferRecordingAttributeSetAttribute, SetAttribute, SetAttribute method [Microsoft TV Technologies], SetAttribute method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, mstv.istreambufferrecordingattribute_setattribute, sbe/IStreamBufferRecordingAttribute::SetAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

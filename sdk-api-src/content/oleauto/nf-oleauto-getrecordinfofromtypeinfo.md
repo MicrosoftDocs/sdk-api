@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.GetRecordInfoFromTypeInfo
 title: GetRecordInfoFromTypeInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a pointer to the IRecordInfo interface of the UDT by passing its type information.
 old-location: automat\getrecordinfofromtypeinfo.htm
 old-project: automat
 ms.assetid: 9bf2803f-7a6c-4574-80d2-4069f5b81057
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetRecordInfoFromTypeInfo, GetRecordInfoFromTypeInfo function [Automation], _oa96_GetRecordInfoFromTypeInfo, automat.getrecordinfofromtypeinfo, oleauto/GetRecordInfoFromTypeInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

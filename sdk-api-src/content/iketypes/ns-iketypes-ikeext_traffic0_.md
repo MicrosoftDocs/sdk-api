@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_TRAFFIC0_
 title: IKEEXT_TRAFFIC0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the IKE/Authip traffic.
 old-location: fwp\ikeext_traffic0.htm
 old-project: FWP
 ms.assetid: 99cb3774-7afd-44fd-9c3e-e2d913aaeecb
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_TRAFFIC0, IKEEXT_TRAFFIC0 structure [Filtering], IKEEXT_TRAFFIC0_, fwp.ikeext_traffic0, iketypes/IKEEXT_TRAFFIC0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

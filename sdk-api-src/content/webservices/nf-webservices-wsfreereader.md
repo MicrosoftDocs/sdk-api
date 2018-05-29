@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsFreeReader
 title: WsFreeReader function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the memory resource associated with an XML_Reader object.
 old-location: wsw\wsfreereader.htm
 old-project: wsw
 ms.assetid: 31163bea-266f-43a3-bdf5-61386ebc197c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsFreeReader, WsFreeReader function [Web Services for Windows], webservices/WsFreeReader, wsw.wsfreereader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

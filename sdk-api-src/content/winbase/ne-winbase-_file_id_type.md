@@ -1,16 +1,16 @@
 ---
 UID: NE:winbase._FILE_ID_TYPE
 title: "_FILE_ID_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Discriminator for the union in the FILE_ID_DESCRIPTOR structure.
 old-location: fs\file_id_type.htm
 old-project: FileIO
 ms.assetid: 7e46ba94-e3cd-4d6c-962f-5d5bd55d45a1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PFILE_ID_TYPE, ExtendedFileIdType, FILE_ID_TYPE, FILE_ID_TYPE enumeration [Files], FileIdType, MaximumFileIdType, ObjectIdType, PFILE_ID_TYPE, PFILE_ID_TYPE enumeration pointer [Files], _FILE_ID_TYPE, fileextd/ExtendedFileIdType, fileextd/FILE_ID_TYPE, fileextd/FileIdType, fileextd/MaximumFileIdType, fileextd/ObjectIdType, fileextd/PFILE_ID_TYPE, fs.file_id_type, winbase/ExtendedFileIdType, winbase/FILE_ID_TYPE, winbase/FileIdType, winbase/MaximumFileIdType, winbase/ObjectIdType, winbase/PFILE_ID_TYPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IStdMarshalInfo.GetClassForHandler
 title: IStdMarshalInfo::GetClassForHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the CLSID of the object handler to be used in the destination process during standard marshaling.
 old-location: com\istdmarshalinfo_getclassforhandler.htm
 old-project: com
 ms.assetid: ab68f292-851d-4908-b545-4df2931fceae
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetClassForHandler, GetClassForHandler method [COM], GetClassForHandler method [COM],IStdMarshalInfo interface, IStdMarshalInfo interface [COM],GetClassForHandler method, IStdMarshalInfo.GetClassForHandler, IStdMarshalInfo::GetClassForHandler, _com_istdmarshalinfo_getclassforhandler, com.istdmarshalinfo_getclassforhandler, objidlbase/IStdMarshalInfo::GetClassForHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

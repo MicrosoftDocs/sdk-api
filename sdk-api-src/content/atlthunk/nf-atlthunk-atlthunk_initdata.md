@@ -1,16 +1,16 @@
 ---
 UID: NF:atlthunk.AtlThunk_InitData
 title: AtlThunk_InitData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an ATL thunk.
 old-location: base\atlthunk_initdata.htm
 old-project: Memory
 ms.assetid: 550EF700-56DC-4516-A724-0F7ADECC17C9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AtlThunk_InitData, AtlThunk_InitData function, atlthunk/AtlThunk_InitData, base.atlthunk_initdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: atlthunk.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskHandler.Start
 title: ITaskHandler::Start
-author: windows-driver-content
+author: windows-sdk-content
 description: Called to start the COM handler.
 old-location: taskschd\itaskhandler_start.htm
 old-project: TaskSchd
 ms.assetid: e0a51387-e638-40ee-a4e4-edd7f3115975
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskHandler interface [Task Scheduler],Start method, ITaskHandler.Start, ITaskHandler::Start, Start, Start method [Task Scheduler], Start method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_start, taskschd/ITaskHandler::Start
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

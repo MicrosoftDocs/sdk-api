@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFolderView.Item
 title: IFolderView::Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the identifier of a specific item in the folder view, by index.
 old-location: shell\IFolderView_Item.htm
 old-project: shell
 ms.assetid: c130ef36-1255-4c57-be31-7fc2029d9f66
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFolderView interface [Windows Shell],Item method, IFolderView.Item, IFolderView::Item, Item, Item method [Windows Shell], Item method [Windows Shell],IFolderView interface, _shell_IFolderView_Item, shell.IFolderView_Item, shobjidl_core/IFolderView::Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

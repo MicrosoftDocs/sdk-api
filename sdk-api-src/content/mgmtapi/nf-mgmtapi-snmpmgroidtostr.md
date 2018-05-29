@@ -1,16 +1,16 @@
 ---
 UID: NF:mgmtapi.SnmpMgrOidToStr
 title: SnmpMgrOidToStr function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SnmpMgrOidToStr function converts an internal object identifier structure to its string representation. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgroidtostr.htm
 old-project: SNMP
 ms.assetid: 4864b864-3381-4129-8cc3-ecfc6566e530
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpMgrOidToStr, SnmpMgrOidToStr function [SNMP], _snmp_snmpmgroidtostr, mgmtapi/SnmpMgrOidToStr, snmp.snmpmgroidtostr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mgmtapi.h
 req.include-header: 

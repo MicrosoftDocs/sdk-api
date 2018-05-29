@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.EnterCriticalSection
 title: EnterCriticalSection function
-author: windows-driver-content
+author: windows-sdk-content
 description: Waits for ownership of the specified critical section object. The function returns when the calling thread is granted ownership.
 old-location: base\entercriticalsection.htm
 old-project: Sync
 ms.assetid: bb307b7a-66fc-4d19-b774-deca8bf90492
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: EnterCriticalSection, EnterCriticalSection function, _win32_entercriticalsection, base.entercriticalsection, synchapi/EnterCriticalSection, winbase/EnterCriticalSection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

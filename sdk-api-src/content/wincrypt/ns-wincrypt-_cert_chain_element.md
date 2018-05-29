@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_CHAIN_ELEMENT
 title: "_CERT_CHAIN_ELEMENT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CERT_CHAIN_ELEMENT structure is a single element in a simple certificate chain.
 old-location: security\cert_chain_element.htm
 old-project: SecCrypto
 ms.assetid: a1f6ba18-63ef-43ac-a17f-900fa13398aa
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_CHAIN_ELEMENT, CERT_CHAIN_ELEMENT, CERT_CHAIN_ELEMENT structure [Security], PCERT_CHAIN_ELEMENT, PCERT_CHAIN_ELEMENT structure pointer [Security], _CERT_CHAIN_ELEMENT, _crypto2_cert_chain_element, security.cert_chain_element, wincrypt/CERT_CHAIN_ELEMENT, wincrypt/PCERT_CHAIN_ELEMENT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.LongPtrSub
 title: LongPtrSub function
-author: windows-driver-content
+author: windows-sdk-content
 description: Subtracts one value of type LONG_PTR from another.
 old-location: shell\LongPtrSub.htm
 old-project: shell
 ms.assetid: f6e35f6a-9af1-4e14-82c0-0f96ecf01c15
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LongPtrSub, LongPtrSub function [Windows Shell], intsafe/LongPtrSub, shell.LongPtrSub
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.MONITOR_APP_VISIBILITY
 title: MONITOR_APP_VISIBILITY
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether a display is showing desktop windows instead of Windows Store apps.
 old-location: shell\MONITOR_APP_VISIBILITY.htm
 old-project: shell
 ms.assetid: DE52080C-5EC3-489B-ACC8-D5EAEE3DDF78
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MAV_APP_VISIBLE, MAV_NO_APP_VISIBLE, MAV_UNKNOWN, MONITOR_APP_VISIBILITY, MONITOR_APP_VISIBILITY enumeration [Windows Shell], shell.MONITOR_APP_VISIBILITY, shobjidl_core/MAV_APP_VISIBLE, shobjidl_core/MAV_NO_APP_VISIBLE, shobjidl_core/MAV_UNKNOWN, shobjidl_core/MONITOR_APP_VISIBILITY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

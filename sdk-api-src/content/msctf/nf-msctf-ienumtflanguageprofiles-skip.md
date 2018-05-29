@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.IEnumTfLanguageProfiles.Skip
 title: IEnumTfLanguageProfiles::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: IEnumTfLanguageProfiles::Skip method
 old-location: tsf\ienumtflanguageprofiles_skip.htm
 old-project: TSF
 ms.assetid: 67e6d841-a3e9-4e55-ac35-9197f256d9bf
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IEnumTfLanguageProfiles interface [Text Services Framework],Skip method, IEnumTfLanguageProfiles.Skip, IEnumTfLanguageProfiles::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfLanguageProfiles interface, _tsf_ienumtflanguageprofiles_skip_ref, msctf/IEnumTfLanguageProfiles::Skip, tsf.ienumtflanguageprofiles_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

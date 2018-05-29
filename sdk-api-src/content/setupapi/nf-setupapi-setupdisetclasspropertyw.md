@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiSetClassPropertyW
 title: SetupDiSetClassPropertyW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiSetClassProperty function sets a class property for a device setup class or a device interface class.
 old-location: devinst\setupdisetclassproperty.htm
 old-project: devinst
 ms.assetid: 12402336-9894-4d0d-b176-c6907e0cdcd4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiSetClassProperty, SetupDiSetClassProperty function [Device and Driver Installation], SetupDiSetClassPropertyA, SetupDiSetClassPropertyW, devinst.setupdisetclassproperty, di-rtns_c0346a11-5f87-4578-af46-5cb82e5b6101.xml, setupapi/SetupDiSetClassProperty, setupapi/SetupDiSetClassPropertyA, setupapi/SetupDiSetClassPropertyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

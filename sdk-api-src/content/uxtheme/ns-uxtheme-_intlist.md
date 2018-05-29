@@ -1,16 +1,16 @@
 ---
 UID: NS:uxtheme._INTLIST
 title: "_INTLIST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains an array or list of int data items from a visual style.
 old-location: controls\INTLIST.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\intlist.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PINTLIST, INTLIST, INTLIST structure [Windows Controls], PINTLIST, PINTLIST structure pointer [Windows Controls], _INTLIST, controls.INTLIST, controls.inet_INTLIST, inet_INTLIST, inet_INTLIST_cpp, uxtheme/INTLIST, uxtheme/PINTLIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: uxtheme.h
 req.include-header: 

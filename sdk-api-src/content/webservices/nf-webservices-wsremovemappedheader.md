@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsRemoveMappedHeader
 title: WsRemoveMappedHeader function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all instances of a mapped header from the message.
 old-location: wsw\wsremovemappedheader.htm
 old-project: wsw
 ms.assetid: aa662c92-4fb4-47af-b260-a3dedf4c6c9a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsRemoveMappedHeader, WsRemoveMappedHeader function [Web Services for Windows], webservices/WsRemoveMappedHeader, wsw.wsremovemappedheader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

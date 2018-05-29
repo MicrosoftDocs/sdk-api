@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSAGetLastError
 title: WSAGetLastError function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the error status for the last Windows Sockets operation that failed.
 old-location: winsock\wsagetlasterror_2.htm
 old-project: WinSock
 ms.assetid: 39e41b66-44ed-46dc-bfc2-65228b669992
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAGetLastError, WSAGetLastError function [Winsock], _win32_wsagetlasterror_2, winsock.wsagetlasterror_2, winsock/WSAGetLastError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h

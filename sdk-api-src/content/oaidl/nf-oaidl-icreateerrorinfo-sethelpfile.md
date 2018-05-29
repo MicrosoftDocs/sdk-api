@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetHelpFile
 title: ICreateErrorInfo::SetHelpFile
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the path of the Help file that describes the error.
 old-location: automat\icreateerrorinfo_sethelpfile.htm
 old-project: automat
 ms.assetid: bb439d74-fd52-4c95-afc5-d57e2fe5029d
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateErrorInfo interface [Automation],SetHelpFile method, ICreateErrorInfo.SetHelpFile, ICreateErrorInfo::SetHelpFile, SetHelpFile, SetHelpFile method [Automation], SetHelpFile method [Automation],ICreateErrorInfo interface, _oa96_ICreateErrorInfo_SetHelpFile, automat.icreateerrorinfo_sethelpfile, oaidl/ICreateErrorInfo::SetHelpFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

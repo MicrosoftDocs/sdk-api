@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagRGBQUAD
 title: tagRGBQUAD
-author: windows-driver-content
+author: windows-sdk-content
 description: The RGBQUAD structure describes a color consisting of relative intensities of red, green, and blue.
 old-location: gdi\rgbquad.htm
 old-project: gdi
 ms.assetid: 22e0991d-078e-4b44-9f03-004137e31f6c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPRGBQUAD, RGBQUAD, RGBQUAD structure [Windows GDI], _win32_RGBQUAD_str, gdi.rgbquad, tagRGBQUAD, wingdi/RGBQUAD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

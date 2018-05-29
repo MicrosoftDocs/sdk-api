@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.CATSORT_FLAGS
 title: CATSORT_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies methods for sorting category data.
 old-location: shell\CATSORT_FLAGS.htm
 old-project: shell
 ms.assetid: 5e3f6c84-ebc4-45e7-8272-f5d98bffd4c8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CATSORT_DEFAULT, CATSORT_FLAGS, CATSORT_FLAGS enumeration [Windows Shell], CATSORT_NAME, inet_CATSORT_FLAGS, shell.CATSORT_FLAGS, shobjidl_core/CATSORT_DEFAULT, shobjidl_core/CATSORT_FLAGS, shobjidl_core/CATSORT_NAME
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

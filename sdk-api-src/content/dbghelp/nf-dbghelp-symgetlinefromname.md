@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymGetLineFromName
 title: SymGetLineFromName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates a source line for the specified module, file name, and line number.
 old-location: base\symgetlinefromname64.htm
 old-project: Debug
 ms.assetid: cb8870f6-1bae-40df-842e-ec3ca0167691
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymGetLineFromName, SymGetLineFromName function, SymGetLineFromName64, SymGetLineFromName64 function, SymGetLineFromNameW64, _win32_symgetlinefromname64, base.symgetlinefromname64, dbghelp/SymGetLineFromName, dbghelp/SymGetLineFromName64, dbghelp/SymGetLineFromNameW64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

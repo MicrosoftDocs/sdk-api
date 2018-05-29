@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRow.SetCellMergeFlags
 title: ITextRow::SetCellMergeFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the merge flags of the active cell.
 old-location: controls\itextrow_setcellmergeflags.htm
 old-project: Controls
 ms.assetid: a60966cc-03c6-4cb9-b424-eb59f68d1fd1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellMergeFlags method, ITextRow.SetCellMergeFlags, ITextRow::SetCellMergeFlags, SetCellMergeFlags, SetCellMergeFlags method [Windows Controls], SetCellMergeFlags method [Windows Controls],ITextRow interface, controls.itextrow_setcellmergeflags, tom/ITextRow::SetCellMergeFlags, tomHContCell, tomHStartCell, tomVLowCell, tomVTopCell
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

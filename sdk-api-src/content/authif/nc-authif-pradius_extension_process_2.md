@@ -1,16 +1,16 @@
 ---
 UID: NC:authif.PRADIUS_EXTENSION_PROCESS_2
 title: PRADIUS_EXTENSION_PROCESS_2
-author: windows-driver-content
+author: windows-sdk-content
 description: An application defined-function and is called by NPS for each authentication or accounting packet that NPS receives.
 old-location: nps\IAS_radiusextensionprocess2.htm
 old-project: Nps
 ms.assetid: 993b1ded-9fa9-4834-a37d-4da9e8ed9640
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRADIUS_EXTENSION_PROCESS_2, PRADIUS_EXTENSION_PROCESS_2 callback, PRADIUS_EXTENSION_PROCESS_2 callback function [Network Policy Server], RadiusExtensionProcess2, authif/PRADIUS_EXTENSION_PROCESS_2, nps.IAS_radiusextensionprocess2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: authif.h
 req.include-header: 

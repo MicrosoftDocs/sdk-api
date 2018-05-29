@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.PATHOBJ_bPolyLineTo
 title: PATHOBJ_bPolyLineTo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PATHOBJ_bPolyLineTo function draws lines from the current position in a path through the specified points.
 old-location: display\pathobj_bpolylineto.htm
 old-project: display
 ms.assetid: 468d20e3-a78b-47b3-9c56-ef355181eb63
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PATHOBJ_bPolyLineTo, PATHOBJ_bPolyLineTo function [Display Devices], display.pathobj_bpolylineto, gdifncs_eaa54bcf-8b39-4661-a2cf-79198ffa1df6.xml, winddi/PATHOBJ_bPolyLineTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantGetUInt64Elem
 title: PropVariantGetUInt64Elem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a single unsigned Int64 element from a PROPVARIANT structure of type VT_UI8, VT_VECTOR | VT_UI8, or VT_ARRAY | VT_UI8.
 old-location: properties\PropVariantGetUInt64Elem.htm
 old-project: properties
 ms.assetid: 35955104-b567-4c4f-850a-0a4778673ce8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantGetUInt64Elem, PropVariantGetUInt64Elem function [Windows Properties], _shell_PropVariantGetUInt64Elem, properties.PropVariantGetUInt64Elem, propvarutil/PropVariantGetUInt64Elem, shell.PropVariantGetUInt64Elem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

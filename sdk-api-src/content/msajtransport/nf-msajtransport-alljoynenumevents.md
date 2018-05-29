@@ -1,16 +1,16 @@
 ---
 UID: NF:msajtransport.AllJoynEnumEvents
 title: AllJoynEnumEvents function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides AllJoyn transport functionality similar to the TCP socket WSAEnumNetworkEvents functionality.
 old-location: alljoyn\alljoynenumevents.htm
 old-project: AllJoyn
 ms.assetid: 0B53EAE5-9043-46F2-9C7B-A5836AF241A3
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: AllJoynEnumEvents, AllJoynEnumEvents function [AllJoyn API], alljoyn.alljoynenumevents, msajtransport/AllJoynEnumEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msajtransport.h
 req.include-header: 

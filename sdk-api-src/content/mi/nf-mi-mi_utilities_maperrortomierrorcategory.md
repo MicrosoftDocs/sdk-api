@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Utilities_MapErrorToMiErrorCategory
 title: MI_Utilities_MapErrorToMiErrorCategory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Maps an operating system specific error code to an error category.
 old-location: wmi_v2\mi_utilities_maperrortomierrorcategory.htm
 old-project: wmi_v2
 ms.assetid: 58ac8e3e-ae87-40b1-bf27-1b32168a033e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_RESULT_TYPE_HRESULT, MI_RESULT_TYPE_MI, MI_RESULT_TYPE_WIN32, MI_Utilities_MapErrorToMiErrorCategory, MI_Utilities_MapErrorToMiErrorCategory function [Windows Management Infrastructure (MI)], mi/MI_Utilities_MapErrorToMiErrorCategory, wmi_v2.mi_utilities_maperrortomierrorcategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

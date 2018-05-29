@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRGDICOMMENT
 title: tagEMRGDICOMMENT
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRGDICOMMENT structure contains application-specific data.
 old-location: gdi\emrgdicomment.htm
 old-project: gdi
 ms.assetid: aac18154-bd50-45a4-a1ba-390b59525fa9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRGDICOMMENT, EMRGDICOMMENT, EMRGDICOMMENT structure [Windows GDI], PEMRGDICOMMENT, PEMRGDICOMMENT structure pointer [Windows GDI], _win32_EMRGDICOMMENT_str, gdi.emrgdicomment, tagEMRGDICOMMENT, wingdi/EMRGDICOMMENT, wingdi/PEMRGDICOMMENT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

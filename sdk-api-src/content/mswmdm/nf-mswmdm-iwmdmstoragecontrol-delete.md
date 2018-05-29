@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl.Delete
 title: IWMDMStorageControl::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: The Delete method permanently deletes this storage.
 old-location: wmdm\iwmdmstoragecontrol_delete.htm
 old-project: WMDM
 ms.assetid: f2b044d2-6386-4c2e-a437-5ebddf827fb4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Delete, Delete method [windows Media Device Manager], Delete method [windows Media Device Manager],IWMDMStorageControl interface, IWMDMStorageControl interface [windows Media Device Manager],Delete method, IWMDMStorageControl.Delete, IWMDMStorageControl::Delete, IWMDMStorageControlDelete, mswmdm/IWMDMStorageControl::Delete, wmdm.iwmdmstoragecontrol_delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

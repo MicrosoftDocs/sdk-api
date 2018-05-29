@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CMSG_CNG_CONTENT_DECRYPT_INFO
 title: "_CMSG_CNG_CONTENT_DECRYPT_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains all the relevant information passed between CryptMsgControl and object identifier (OID) installable functions for the import and decryption of a Cryptography API:\_Next Generation (CNG) content encryption key (CEK).
 old-location: security\cmsg_cng_content_decrypt_info.htm
 old-project: SecCrypto
 ms.assetid: 56e94b20-9d0a-4694-973f-a5878ad54f48
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCMSG_CNG_CONTENT_DECRYPT_INFO, CMSG_CNG_CONTENT_DECRYPT_INFO, CMSG_CNG_CONTENT_DECRYPT_INFO structure [Security], PCMSG_CNG_CONTENT_DECRYPT_INFO, PCMSG_CNG_CONTENT_DECRYPT_INFO structure pointer [Security], _CMSG_CNG_CONTENT_DECRYPT_INFO, security.cmsg_cng_content_decrypt_info, wincrypt/CMSG_CNG_CONTENT_DECRYPT_INFO, wincrypt/PCMSG_CNG_CONTENT_DECRYPT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

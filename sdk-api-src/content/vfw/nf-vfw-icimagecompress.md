@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICImageCompress
 title: ICImageCompress function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICImageCompress function compresses an image to a given size. This function does not require initialization functions.
 old-location: multimedia\icimagecompress.htm
 old-project: Multimedia
 ms.assetid: 111d3b97-527b-4cca-ba4e-3d8310a5c72b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICImageCompress, ICImageCompress function [Windows Multimedia], _win32_ICImageCompress, multimedia.icimagecompress, vfw/ICImageCompress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

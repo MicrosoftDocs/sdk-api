@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioSetProperty
 title: WinBioSetProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of a standard property associated with a biometric session, unit, template, or account. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiosetproperty.htm
 old-project: SecBioMet
 ms.assetid: 569AAEF0-DA06-4005-9874-2762BE96539F
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WinBioSetProperty, WinBioSetProperty function [Windows Biometric Framework API], secbiomet.winbiosetproperty, winbio/WinBioSetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: 

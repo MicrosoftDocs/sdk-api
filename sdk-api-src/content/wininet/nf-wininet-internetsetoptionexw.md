@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetSetOptionExW
 title: InternetSetOptionExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.Implemented only as a stub that calls the InternetSetOption function; InternetSetOptionEx has no functionality of its own. Do not use this function at this time.
 old-location: wininet\internetsetoptionex.htm
 old-project: WinInet
 ms.assetid: 535e4f38-d941-4b69-8c48-ea47f3fbd5e7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetSetOptionEx, InternetSetOptionEx function [WinINet], InternetSetOptionExA, InternetSetOptionExW, _inet_internetsetoptionex_function, wininet.internetsetoptionex, wininet/InternetSetOptionEx, wininet/InternetSetOptionExA, wininet/InternetSetOptionExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsvc.LockServiceDatabase
 title: LockServiceDatabase function
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests ownership of the service control manager (SCM) database lock. Only one process can own the lock at any specified time.
 old-location: base\lockservicedatabase.htm
 old-project: Services
 ms.assetid: 87861465-c966-479a-b906-27ae36cc83c8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: LockServiceDatabase, LockServiceDatabase function, _win32_lockservicedatabase, base.lockservicedatabase, winsvc/LockServiceDatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

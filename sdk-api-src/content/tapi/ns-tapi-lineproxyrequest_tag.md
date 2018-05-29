@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.lineproxyrequest_tag
 title: lineproxyrequest_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The LINEPROXYREQUEST structure contains parameter values of the application making the proxy request. Multiple TAPI call center functions generate a LINE_PROXYREQUEST message that references a LINEPROXYREQUEST structure.
 old-location: tapi2\lineproxyrequest_str.htm
 old-project: Tapi
 ms.assetid: 52c9b96e-4c59-46bf-ad37-78bcfc5e8dc3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPLINEPROXYREQUEST, LINEPROXYREQUEST, LINEPROXYREQUEST structure [TAPI 2.2], LPLINEPROXYREQUEST, LPLINEPROXYREQUEST structure pointer [TAPI 2.2], _tapi2_lineproxyrequest_str, lineproxyrequest_tag, tapi/LINEPROXYREQUEST, tapi/LPLINEPROXYREQUEST, tapi2.lineproxyrequest_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vss.IVssEnumObject.Reset
 title: IVssEnumObject::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the enumerator so that IVssEnumObject:Next starts at the first enumerated object.
 old-location: base\ivssenumobject_reset.htm
 old-project: VSS
 ms.assetid: 98fc07b0-3efe-4ec3-bb70-64a8b8828162
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssEnumObject interface [VSS],Reset method, IVssEnumObject.Reset, IVssEnumObject::Reset, Reset, Reset method [VSS], Reset method [VSS],IVssEnumObject interface, _win32_ivssenumobject_reset, base.ivssenumobject_reset, vss/IVssEnumObject::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vss.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateMuxStreamAttributes
 title: MFCreateMuxStreamAttributes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IMFAttributes describing the content of multiplexed substreams.
 old-location: mf\mfcreatemuxstreamattributes.htm
 old-project: medfound
 ms.assetid: 946D56BC-13A2-4464-8399-22A74E26693E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateMuxStreamAttributes, MFCreateMuxStreamAttributes function [Media Foundation], mf.mfcreatemuxstreamattributes, mfapi/MFCreateMuxStreamAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

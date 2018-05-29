@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IDeferredCommand.GetHResult
 title: IDeferredCommand::GetHResult
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetHResult method retrieves the return value from the invoked command.
 old-location: dshow\ideferredcommand_gethresult.htm
 old-project: DirectShow
 ms.assetid: ce047464-d283-4ff4-a5eb-9e394d4ac3fd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetHResult, GetHResult method [DirectShow], GetHResult method [DirectShow],IDeferredCommand interface, IDeferredCommand interface [DirectShow],GetHResult method, IDeferredCommand.GetHResult, IDeferredCommand::GetHResult, IDeferredCommandGetHResult, control/IDeferredCommand::GetHResult, dshow.ideferredcommand_gethresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

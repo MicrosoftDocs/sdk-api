@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CurrentAuthor
 title: IUIAutomationAnnotationPattern::get_CurrentAuthor
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the name of the annotation author.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentAuthor.htm
 old-project: WinAuto
 ms.assetid: 8F1573D5-3804-4C1D-A838-1D5D837BCE25
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentAuthor property [Windows Accessibility], CurrentAuthor property [Windows Accessibility],IUIAutomationAnnotationPattern interface, IUIAutomationAnnotationPattern interface [Windows Accessibility],CurrentAuthor property, IUIAutomationAnnotationPattern.CurrentAuthor, IUIAutomationAnnotationPattern.get_CurrentAuthor, IUIAutomationAnnotationPattern::CurrentAuthor, IUIAutomationAnnotationPattern::get_CurrentAuthor, get_CurrentAuthor, uiautomationclient/IUIAutomationAnnotationPattern::CurrentAuthor, uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentAuthor, winauto.uiauto_IUIAutomationAnnotationPattern_CurrentAuthor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

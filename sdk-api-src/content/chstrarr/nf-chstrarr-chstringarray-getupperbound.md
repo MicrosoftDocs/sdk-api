@@ -1,16 +1,16 @@
 ---
 UID: NF:chstrarr.CHStringArray.GetUpperBound
 title: CHStringArray::GetUpperBound
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetUpperBound method gets the current upper bound of an array. Because array indexes are zero-based, this function returns a value that is one less than GetSize.
 old-location: wmi\chstringarray_getupperbound.htm
 old-project: WmiSdk
 ms.assetid: 77c200f9-c63b-4842-881f-5c077e4618b8
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?GetUpperBound@CHStringArray@@QBEHXZ, ?GetUpperBound@CHStringArray@@QEBAHXZ, CHStringArray interface [Windows Management Instrumentation],GetUpperBound method, CHStringArray.GetUpperBound, CHStringArray::GetUpperBound, GetUpperBound, GetUpperBound method [Windows Management Instrumentation], GetUpperBound method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_getupperbound, chstrarr/CHStringArray::GetUpperBound, wmi.chstringarray_getupperbound"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstrarr.h
 req.include-header: FwCommon.h

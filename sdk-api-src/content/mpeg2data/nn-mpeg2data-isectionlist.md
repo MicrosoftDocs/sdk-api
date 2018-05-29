@@ -1,16 +1,16 @@
 ---
 UID: NN:mpeg2data.ISectionList
 title: ISectionList
-author: windows-driver-content
+author: windows-sdk-content
 description: The ISectionList interface represents a list of MPEG-2 table sections.
 old-location: mstv\isectionlist.htm
 old-project: mstv
 ms.assetid: eb6d31b4-ee4a-468f-9e58-115159095858
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISectionList, ISectionList interface [Microsoft TV Technologies], ISectionList interface [Microsoft TV Technologies],described, ISectionListInterface, mpeg2data/ISectionList, mstv.isectionlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mpeg2data.h
 req.include-header: 

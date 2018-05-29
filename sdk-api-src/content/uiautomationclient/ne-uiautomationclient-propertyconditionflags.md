@@ -1,16 +1,16 @@
 ---
 UID: NE:uiautomationclient.PropertyConditionFlags
 title: PropertyConditionFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values used in creating property conditions.
 old-location: winauto\uiauto_PropertyConditionFlagsEnum.htm
 old-project: WinAuto
 ms.assetid: debe8141-2a91-4774-b533-d6f3ccfc7744
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: PropertyConditionFlags, PropertyConditionFlags enumeration [Windows Accessibility], PropertyConditionFlags_IgnoreCase, PropertyConditionFlags_None, uiauto.uiauto_PropertyConditionFlagsEnum, uiauto_PropertyConditionFlagsEnum, uiautomationclient/PropertyConditionFlags, uiautomationclient/PropertyConditionFlags_IgnoreCase, uiautomationclient/PropertyConditionFlags_None, winauto.uiauto_PropertyConditionFlagsEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

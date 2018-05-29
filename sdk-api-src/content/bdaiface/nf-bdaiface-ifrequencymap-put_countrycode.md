@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IFrequencyMap.put_CountryCode
 title: IFrequencyMap::put_CountryCode
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_CountryCode method sets the country/region code on the Network Provider filter.
 old-location: mstv\ifrequencymap_put_countrycode.htm
 old-project: mstv
 ms.assetid: 8473e292-b47b-4c1a-b45e-b8acf0e36263
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFrequencyMap interface [Microsoft TV Technologies],put_CountryCode method, IFrequencyMap.put_CountryCode, IFrequencyMap::put_CountryCode, IFrequencyMapput_CountryCode, bdaiface/IFrequencyMap::put_CountryCode, mstv.ifrequencymap_put_countrycode, put_CountryCode, put_CountryCode method [Microsoft TV Technologies], put_CountryCode method [Microsoft TV Technologies],IFrequencyMap interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

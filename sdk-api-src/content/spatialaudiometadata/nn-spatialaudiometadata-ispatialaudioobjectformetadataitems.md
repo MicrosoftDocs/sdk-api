@@ -1,16 +1,16 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioObjectForMetadataItems
 title: ISpatialAudioObjectForMetadataItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to write spatial audio metadata for applications that require multiple metadata items per buffer with frame-accurate placement.
 old-location: coreaudio\ispatialaudioobjectformetadataitems.htm
 old-project: CoreAudio
 ms.assetid: 4861D2AA-E685-4A72-BE98-6FEEB72ACF67
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISpatialAudioObjectForMetadataItems, ISpatialAudioObjectForMetadataItems interface [Core Audio], ISpatialAudioObjectForMetadataItems interface [Core Audio],described, coreaudio.ispatialaudioobjectformetadataitems, spatialaudiometadata/ISpatialAudioObjectForMetadataItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudiometadata.h
 req.include-header: Spatialaudioclient.h

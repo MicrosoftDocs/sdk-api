@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.AccessibleObjectFromWindow
 title: AccessibleObjectFromWindow function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the address of the specified interface for the object associated with the specified window.
 old-location: winauto\accessibleobjectfromwindow.htm
 old-project: WinAuto
 ms.assetid: 297ac50f-2a58-477b-ba57-5d1416c191b3
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: AccessibleObjectFromWindow, AccessibleObjectFromWindow function [Windows Accessibility], _msaa_AccessibleObjectFromWindow, msaa.accessibleobjectfromwindow, oleacc/AccessibleObjectFromWindow, winauto.accessibleobjectfromwindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 

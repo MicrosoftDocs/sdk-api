@@ -1,16 +1,16 @@
 ---
 UID: NS:msime._IMEDLG
 title: "_IMEDLG"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used when invoking the Microsoft IME's Dictionary Tool or Word Register Dialog Window from the app.
 old-location: intl\imedlg.htm
 old-project: Intl
 ms.assetid: 14F39582-F51D-456F-BC19-AFE6E50D4155
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMEDLG, IMEDLG structure [Internationalization for Windows Applications], PIMEDLG, PIMEDLG structure pointer [Internationalization for Windows Applications], _IMEDLG, intl.imedlg, msime/IMEDLG, msime/PIMEDLG
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msime.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_ESP_DROP_PACKET_STATISTICS0_
 title: IPSEC_ESP_DROP_PACKET_STATISTICS0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores ESP drop packet statistics.
 old-location: fwp\ipsec_esp_drop_packet_statistics0_struct.htm
 old-project: FWP
 ms.assetid: d31ac463-8265-40c6-bd68-9f3ade35eb34
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_ESP_DROP_PACKET_STATISTICS0, IPSEC_ESP_DROP_PACKET_STATISTICS0 structure [Filtering], IPSEC_ESP_DROP_PACKET_STATISTICS0_, fwp.ipsec_esp_drop_packet_statistics0_struct, ipsectypes/IPSEC_ESP_DROP_PACKET_STATISTICS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

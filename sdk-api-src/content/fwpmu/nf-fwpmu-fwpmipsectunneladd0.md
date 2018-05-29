@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmIPsecTunnelAdd0
 title: FwpmIPsecTunnelAdd0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a new Internet Protocol Security (IPsec) tunnel mode policy to the system.
 old-location: fwp\fwpmipsectunneladd0.htm
 old-project: FWP
 ms.assetid: 6de989e0-c5e1-4147-b5da-23448a4af2c9
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_TUNNEL_FLAG_POINT_TO_POINT, FwpmIPsecTunnelAdd0, FwpmIpsecTunnelAdd0, FwpmIpsecTunnelAdd0 function [Filtering], fwp.fwpmipsectunneladd0, fwpmu/FwpmIpsecTunnelAdd0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

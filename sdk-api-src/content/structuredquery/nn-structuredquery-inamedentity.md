@@ -1,16 +1,16 @@
 ---
 UID: NN:structuredquery.INamedEntity
 title: INamedEntity
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to get the value of, or a default phrase for the value of, a named entity.
 old-location: search\_search_INamedEntity.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentity\inamedentity.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: INamedEntity, INamedEntity interface [search], INamedEntity interface [search],described, _search_INamedEntity, search._search_INamedEntity, structuredquery/INamedEntity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 

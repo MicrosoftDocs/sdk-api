@@ -1,16 +1,16 @@
 ---
 UID: NS:lmalert._USER_OTHER_INFO
 title: "_USER_OTHER_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The USER_OTHER_INFO structure contains user error code information. The NetAlertRaise and NetAlertRaiseEx functions use the USER_OTHER_INFO structure to specify information about an event or condition of interest to a user.
 old-location: netmgmt\user_other_info_str.htm
 old-project: NetMgmt
 ms.assetid: 2f6bd906-fdab-410a-8856-4482e047371f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPUSER_OTHER_INFO, *PUSER_OTHER_INFO, LPUSER_OTHER_INFO, LPUSER_OTHER_INFO structure pointer [Network Management], PUSER_OTHER_INFO, PUSER_OTHER_INFO structure pointer [Network Management], USER_OTHER_INFO, USER_OTHER_INFO structure [Network Management], _USER_OTHER_INFO, _win32_user_other_info_str, lmalert/LPUSER_OTHER_INFO, lmalert/PUSER_OTHER_INFO, lmalert/USER_OTHER_INFO, netmgmt.user_other_info_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmalert.h
 req.include-header: Lm.h

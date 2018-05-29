@@ -1,16 +1,16 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6AppendOptionRaw
 title: PxeDhcpv6AppendOptionRaw function
-author: windows-driver-content
+author: windows-sdk-content
 description: Appends a DHCPv6 option to the reply packet.
 old-location: wds\pxedhcpv6appendoptionraw.htm
 old-project: Wds
 ms.assetid: DABE18C2-50C3-4923-A2C9-8382DF762D3F
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: PxeDhcpv6AppendOptionRaw, PxeDhcpv6AppendOptionRaw function [Windows Deployment Services], wds.pxedhcpv6appendoptionraw, wdspxe/PxeDhcpv6AppendOptionRaw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

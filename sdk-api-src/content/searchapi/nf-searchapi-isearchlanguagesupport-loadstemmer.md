@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.LoadStemmer
 title: ISearchLanguageSupport::LoadStemmer
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an interface to the word stemmer registered for the specified language code identifier (LCID).
 old-location: search\_search_ISearchLanguageSupport_LoadStemmer.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\loadstemmer.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchLanguageSupport interface [search],LoadStemmer method, ISearchLanguageSupport.LoadStemmer, ISearchLanguageSupport::LoadStemmer, LoadStemmer, LoadStemmer method [search], LoadStemmer method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_LoadStemmer, search._search_ISearchLanguageSupport_LoadStemmer, searchapi/ISearchLanguageSupport::LoadStemmer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

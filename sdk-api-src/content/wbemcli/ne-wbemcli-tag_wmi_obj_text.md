@@ -1,16 +1,16 @@
 ---
 UID: NE:wbemcli.tag_WMI_OBJ_TEXT
 title: tag_WMI_OBJ_TEXT
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the valid object text formats to be used by SWbemObjectEx.GetText_.
 old-location: wmi\wmi_obj_text.htm
 old-project: WmiSdk
 ms.assetid: 18970FA8-F42E-4F3D-9D79-37B841814AF8
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: WMI_OBJ_TEXT, WMI_OBJ_TEXT enumeration [Windows Management Instrumentation], WMI_OBJ_TEXT_CIM_DTD_2_0, WMI_OBJ_TEXT_LAST, WMI_OBJ_TEXT_WMI_DTD_2_0, WMI_OBJ_TEXT_WMI_EXT1, WMI_OBJ_TEXT_WMI_EXT10, WMI_OBJ_TEXT_WMI_EXT2, WMI_OBJ_TEXT_WMI_EXT3, WMI_OBJ_TEXT_WMI_EXT4, WMI_OBJ_TEXT_WMI_EXT5, WMI_OBJ_TEXT_WMI_EXT6, WMI_OBJ_TEXT_WMI_EXT7, WMI_OBJ_TEXT_WMI_EXT8, WMI_OBJ_TEXT_WMI_EXT9, tag_WMI_OBJ_TEXT, wbemcli/WMI_OBJ_TEXT, wbemcli/WMI_OBJ_TEXT_CIM_DTD_2_0, wbemcli/WMI_OBJ_TEXT_LAST, wbemcli/WMI_OBJ_TEXT_WMI_DTD_2_0, wbemcli/WMI_OBJ_TEXT_WMI_EXT1, wbemcli/WMI_OBJ_TEXT_WMI_EXT10, wbemcli/WMI_OBJ_TEXT_WMI_EXT2, wbemcli/WMI_OBJ_TEXT_WMI_EXT3, wbemcli/WMI_OBJ_TEXT_WMI_EXT4, wbemcli/WMI_OBJ_TEXT_WMI_EXT5, wbemcli/WMI_OBJ_TEXT_WMI_EXT6, wbemcli/WMI_OBJ_TEXT_WMI_EXT7, wbemcli/WMI_OBJ_TEXT_WMI_EXT8, wbemcli/WMI_OBJ_TEXT_WMI_EXT9, wmi.wmi_obj_text
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 

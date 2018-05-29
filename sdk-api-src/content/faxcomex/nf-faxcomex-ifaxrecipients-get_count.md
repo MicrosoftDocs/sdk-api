@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxRecipients.get_Count
 title: IFaxRecipients::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: The Count property represents the number of objects in the FaxRecipients collection. This is the total number of recipients associated with the fax server or fax document.
 old-location: fax\_mfax_faxrecipients_count_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2cc4.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],FaxRecipients object, FaxRecipients object [Fax Service],Count property, FaxRecipients.Count, IFaxRecipients.get_Count, IFaxRecipients::get_Count, _mfax_faxrecipients.count, fax._mfax_faxrecipients_count, fax._mfax_faxrecipients_count_vb, get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

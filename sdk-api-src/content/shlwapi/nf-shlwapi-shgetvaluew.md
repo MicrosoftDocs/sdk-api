@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHGetValueW
 title: SHGetValueW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a registry value.
 old-location: shell\SHGetValue.htm
 old-project: shell
 ms.assetid: 8cca6bfe-d365-4d10-bc8d-f3bebefaad02
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHGetValue, SHGetValue function [Windows Shell], SHGetValueA, SHGetValueW, _win32_SHGetValue, shell.SHGetValue, shlwapi/SHGetValue, shlwapi/SHGetValueA, shlwapi/SHGetValueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

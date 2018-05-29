@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509Enrollment2.get_Template
 title: IX509Enrollment2::get_Template
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the certificate request template used during initialization.
 old-location: security\ix509enrollment2_template.htm
 old-project: SecCertEnroll
 ms.assetid: 14b6fab5-36d1-490b-9416-ff77f6bb7e01
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509Enrollment2 interface [Security],Template property, IX509Enrollment2.Template, IX509Enrollment2.get_Template, IX509Enrollment2::Template, IX509Enrollment2::get_Template, Template property [Security], Template property [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::Template, certenroll/IX509Enrollment2::get_Template, get_Template, security.ix509enrollment2_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

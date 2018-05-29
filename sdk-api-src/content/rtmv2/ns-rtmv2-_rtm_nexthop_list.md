@@ -1,16 +1,16 @@
 ---
 UID: NS:rtmv2._RTM_NEXTHOP_LIST
 title: "_RTM_NEXTHOP_LIST"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RTM_NEXTHOP_LIST structure contains a list of next hops used to determine equal-cost paths in a route.
 old-location: rras\rtm_nexthop_list.htm
 old-project: RRAS
 ms.assetid: f27269e5-ad7e-4426-ac07-cb3a05532579
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PRTM_NEXTHOP_LIST, PRTM_NEXTHOP_LIST, PRTM_NEXTHOP_LIST structure pointer [RAS], RTM_NEXTHOP_LIST, RTM_NEXTHOP_LIST structure [RAS], _RTM_NEXTHOP_LIST, _rtmv2ref_rtm_nexthop_list, rras.rtm_nexthop_list, rtmv2/PRTM_NEXTHOP_LIST, rtmv2/RTM_NEXTHOP_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rtmv2.h
 req.include-header: 

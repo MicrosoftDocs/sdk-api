@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IQueryCodePage
 title: IQueryCodePage
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets and sets the numeric value (Code Page identifier) of the ANSI code page.
 old-location: shell\IQueryCodePage.htm
 old-project: shell
 ms.assetid: 362a0b69-ca57-4d56-8c14-8f32aa41926c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IQueryCodePage, IQueryCodePage interface [Windows Shell], IQueryCodePage interface [Windows Shell],described, _shell_IQueryCodePage, shell.IQueryCodePage, shobjidl/IQueryCodePage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextDocument.Undo
 title: ITextDocument::Undo
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs a specified number of undo operations.
 old-location: controls\ITextDocument_Undo.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\undo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextDocument interface [Windows Controls],Undo method, ITextDocument.Undo, ITextDocument::Undo, Undo, Undo method [Windows Controls], Undo method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Undo, _win32_ITextDocument_Undo_cpp, controls.ITextDocument_Undo, controls._win32_ITextDocument_Undo, tom/ITextDocument::Undo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

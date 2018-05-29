@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.Destroy
 title: IPhotoProgressDialog::Destroy
-author: windows-driver-content
+author: windows-sdk-content
 description: The Destroy method closes and disposes of the progress dialog box shown during image enumeration and acquisition.
 old-location: picacq\iphotoprogressdialog_destroy.htm
 old-project: acquisition
 ms.assetid: 8690c67b-5f96-4e8c-8685-91fe5ed65511
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Destroy, Destroy method [Picture Acquisition], Destroy method [Picture Acquisition],IPhotoProgressDialog interface, IPhotoProgressDialog interface [Picture Acquisition],Destroy method, IPhotoProgressDialog.Destroy, IPhotoProgressDialog::Destroy, IPhotoProgressDialogDestroy, photoacquire/IPhotoProgressDialog::Destroy, picacq.iphotoprogressdialog_destroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

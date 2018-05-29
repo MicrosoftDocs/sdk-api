@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CLSIDFromProgID
 title: CLSIDFromProgID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Looks up a CLSID in the registry, given a ProgID.
 old-location: com\clsidfromprogid.htm
 old-project: com
 ms.assetid: 89fb20af-65bf-4ed4-9f71-eb707ee8eb09
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CLSIDFromProgID, CLSIDFromProgID function [COM], _com_CLSIDFromProgID, com.clsidfromprogid, combaseapi/CLSIDFromProgID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

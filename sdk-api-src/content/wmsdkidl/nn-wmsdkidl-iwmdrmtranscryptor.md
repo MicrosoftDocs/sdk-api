@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMDRMTranscryptor
 title: IWMDRMTranscryptor
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMDRMTranscryptor interface transforms a DRM-protected ASF file into a secure data stream conforming to the Windows Media DRM 10 for Network Devices protocol.
 old-location: wmformat\iwmdrmtranscryptor.htm
 old-project: wmformat
 ms.assetid: cd154077-eebe-4a0f-ae70-5268d5af4898
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMDRMTranscryptor, IWMDRMTranscryptor interface [windows Media Format], IWMDRMTranscryptor interface [windows Media Format],described, IWMDRMTranscryptorInterface, wmformat.iwmdrmtranscryptor, wmsdkidl/IWMDRMTranscryptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

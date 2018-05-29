@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS
 title: D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Arguments for draw indexed instanced indirect.
 old-location: direct3d11\d3d11_draw_indexed_instanced_indirect_args.htm
 old-project: direct3d11
 ms.assetid: 26530AAB-2E41-4165-AE19-5B8F95AE5A20
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS, D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS structure [Direct3D 11], d3d11/D3D11_DRAW_INDEXED_INSTANCED_INDIRECT_ARGS, direct3d11.d3d11_draw_indexed_instanced_indirect_args
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_CollectingInk
 title: IInkCollector::get_CollectingInk
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that specifies whether ink is currently being drawn on an ink collector (InkCollector, InkOverlay, or InkPicture).
 old-location: tablet\inkcollector_collectingink.htm
 old-project: tablet
 ms.assetid: c0ac36a8-e36e-45a7-b047-14d7f7c8ce14
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CollectingInk property [Tablet PC], CollectingInk property [Tablet PC],InkCollector class, IInkCollector.get_CollectingInk, IInkCollector::get_CollectingInk, InkCollector class [Tablet PC],CollectingInk property, InkCollector.CollectingInk, InkCollector.get_CollectingInk, c0ac36a8-e36e-45a7-b047-14d7f7c8ce14, get_CollectingInk, tablet.inkcollector_collectingink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

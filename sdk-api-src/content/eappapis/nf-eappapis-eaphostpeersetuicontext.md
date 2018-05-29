@@ -1,16 +1,16 @@
 ---
 UID: NF:eappapis.EapHostPeerSetUIContext
 title: EapHostPeerSetUIContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a new or updated user interface context to the EAP peer method loaded on EAPHost after the UI has been raised.
 old-location: eaphost\eaphostpeersetuicontext.htm
 old-project: EAPHost
 ms.assetid: f532dd65-d807-4880-9339-ba233e0faa38
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerSetUIContext, EapHostPeerSetUIContext function [EAPHost], eaphost.eaphostpeersetuicontext, eappapis/EapHostPeerSetUIContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

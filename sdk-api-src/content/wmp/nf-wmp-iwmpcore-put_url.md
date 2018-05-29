@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPCore.put_URL
 title: IWMPCore::put_URL
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_URL method specifies the URL of the media item to play.
 old-location: wmp\iwmpcore_put_url.htm
 old-project: WMP
 ms.assetid: 0a8625b9-19a1-41dc-9bb8-afca4bfebf5a
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPCore interface [Windows Media Player],put_URL method, IWMPCore.put_URL, IWMPCore::put_URL, IWMPCoreput_URL, put_URL, put_URL method [Windows Media Player], put_URL method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_put_url, wmp/IWMPCore::put_URL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

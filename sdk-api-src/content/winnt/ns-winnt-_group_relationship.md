@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._GROUP_RELATIONSHIP
 title: "_GROUP_RELATIONSHIP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents information about processor groups. This structure is used with the GetLogicalProcessorInformationEx function.
 old-location: base\group_relationship.htm
 old-project: ProcThread
 ms.assetid: 3529ddef-04c5-4573-877d-c225da684e38
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PGROUP_RELATIONSHIP, GROUP_RELATIONSHIP, GROUP_RELATIONSHIP structure, PGROUP_RELATIONSHIP, PGROUP_RELATIONSHIP structure pointer, _GROUP_RELATIONSHIP, base.group_relationship, winnt/GROUP_RELATIONSHIP, winnt/PGROUP_RELATIONSHIP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

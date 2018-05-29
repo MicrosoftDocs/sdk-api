@@ -1,16 +1,16 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_DELIVERY_MODE
 title: "_EC_SUBSCRIPTION_DELIVERY_MODE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values that indicate how events are delivered in a subscription.
 old-location: wec\ec_subscription_delivery_mode.htm
 old-project: WEC
 ms.assetid: ece884d6-df3c-44d0-a10c-affcf3107148
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EC_SUBSCRIPTION_DELIVERY_MODE, EC_SUBSCRIPTION_DELIVERY_MODE enumeration, EcDeliveryModePull, EcDeliveryModePush, _EC_SUBSCRIPTION_DELIVERY_MODE, evcoll/EC_SUBSCRIPTION_DELIVERY_MODE, evcoll/EcDeliveryModePull, evcoll/EcDeliveryModePush, wec.ec_subscription_delivery_mode, wes.ec_subscription_delivery_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: evcoll.h
 req.include-header: 

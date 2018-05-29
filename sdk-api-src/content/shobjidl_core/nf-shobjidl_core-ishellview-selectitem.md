@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellView.SelectItem
 title: IShellView::SelectItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes the selection state of one or more items within the Shell view window.
 old-location: shell\IShellView_SelectItem.htm
 old-project: shell
 ms.assetid: 5c34c05e-175c-43cb-9fbb-2eb3e2b39f6f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellView interface [Windows Shell],SelectItem method, IShellView.SelectItem, IShellView::SelectItem, SelectItem, SelectItem method [Windows Shell], SelectItem method [Windows Shell],IShellView interface, _win32_IShellView_SelectItem, shell.IShellView_SelectItem, shobjidl_core/IShellView::SelectItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

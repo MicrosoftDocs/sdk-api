@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10Device.UpdateSubresource
 title: ID3D10Device::UpdateSubresource
-author: windows-driver-content
+author: windows-sdk-content
 description: The CPU copies data from memory to a subresource created in non-mappable memory. See remarks.
 old-location: direct3d10\id3d10device_updatesubresource.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_updatesubresource.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 05dfa0e1-63e3-e98a-c07e-e9473eb93d43, ID3D10Device interface [Direct3D 10],UpdateSubresource method, ID3D10Device.UpdateSubresource, ID3D10Device::UpdateSubresource, UpdateSubresource, UpdateSubresource method [Direct3D 10], UpdateSubresource method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::UpdateSubresource, direct3d10.id3d10device_updatesubresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymGetTypeInfo
 title: SymGetTypeInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves type information for the specified type index.
 old-location: base\symgettypeinfo.htm
 old-project: Debug
 ms.assetid: bc94a5b1-d49d-425a-89a8-c584c3979930
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymGetTypeInfo, SymGetTypeInfo function, _win32_symgettypeinfo, base.symgettypeinfo, dbghelp/SymGetTypeInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsListInfoForServerA
 title: DsListInfoForServerA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DsListInfoForServer function lists miscellaneous data for a server.
 old-location: ad\dslistinfoforserver.htm
 old-project: AD
 ms.assetid: 15dcc7ac-4edb-42fa-8466-033794762046
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_LIST_ACCOUNT_OBJECT_FOR_SERVER, DS_LIST_DNS_HOST_NAME_FOR_SERVER, DS_LIST_DSA_OBJECT_FOR_SERVER, DsListInfoForServer, DsListInfoForServer function [Active Directory], DsListInfoForServerA, DsListInfoForServerW, _glines_dslistinfoforserver, ad.dslistinfoforserver, ntdsapi/DsListInfoForServer, ntdsapi/DsListInfoForServerA, ntdsapi/DsListInfoForServerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIFileRelease
 title: AVIFileRelease function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIFileRelease function decrements the reference count of an AVI file interface handle and closes the file if the count reaches zero.
 old-location: multimedia\avifilerelease.htm
 old-project: Multimedia
 ms.assetid: c2f94ca2-b46c-48b0-9c31-92cf2cf75be3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIFileRelease, AVIFileRelease function [Windows Multimedia], _win32_AVIFileRelease, multimedia.avifilerelease, vfw/AVIFileRelease
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

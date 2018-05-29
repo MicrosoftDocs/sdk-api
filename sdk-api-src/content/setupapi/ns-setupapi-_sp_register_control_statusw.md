@@ -1,16 +1,16 @@
 ---
 UID: NS:setupapi._SP_REGISTER_CONTROL_STATUSW
 title: "_SP_REGISTER_CONTROL_STATUSW"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SP_REGISTER_CONTROL_STATUS structure contains information about a file being registered or unregistered using the RegisterDlls INF directive to self-register DLLs on Windows 2000.
 old-location: setup\sp_register_control_status.htm
 old-project: SetupApi
 ms.assetid: aeeedba8-f788-4f95-9583-e76dbb116db9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PSP_REGISTER_CONTROL_STATUSW, PSP_REGISTER_CONTROL_STATUS, PSP_REGISTER_CONTROL_STATUS structure pointer [Setup API], SPREG_DLLINSTALL, SPREG_GETPROCADDR, SPREG_LOADLIBRARY, SPREG_REGSVR, SPREG_SUCCESS, SPREG_TIMEOUT, SPREG_UNKNOWN, SP_REGISTER_CONTROL_STATUS, SP_REGISTER_CONTROL_STATUS structure [Setup API], SP_REGISTER_CONTROL_STATUSW, _SP_REGISTER_CONTROL_STATUSW, _setupapi_sp_register_control_status, setup.sp_register_control_status, setupapi/PSP_REGISTER_CONTROL_STATUS, setupapi/SP_REGISTER_CONTROL_STATUS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 

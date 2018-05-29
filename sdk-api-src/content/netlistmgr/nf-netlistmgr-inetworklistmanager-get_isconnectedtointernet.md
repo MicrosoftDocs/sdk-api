@@ -1,16 +1,16 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.get_IsConnectedToInternet
 title: INetworkListManager::get_IsConnectedToInternet
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_IsConnectedToInternet property specifies if the local machine has internet connectivity.
 old-location: nla\inetworklistmanager_get_isconnectedtointernet.htm
 old-project: NLA
 ms.assetid: b3f06da5-c0e2-4c56-87af-b180aa87c827
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INetworkListManager interface [Network Awareness],get_IsConnectedToInternet method, INetworkListManager.get_IsConnectedToInternet, INetworkListManager::get_IsConnectedToInternet, get_IsConnectedToInternet, get_IsConnectedToInternet method [Network Awareness], get_IsConnectedToInternet method [Network Awareness],INetworkListManager interface, netlistmgr/INetworkListManager::get_IsConnectedToInternet, nla.inetworklistmanager_get_isconnectedtointernet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

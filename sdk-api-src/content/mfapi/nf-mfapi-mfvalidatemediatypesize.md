@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFValidateMediaTypeSize
 title: MFValidateMediaTypeSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Validates the size of a buffer for a video format block.
 old-location: mf\mfvalidatemediatypesize.htm
 old-project: medfound
 ms.assetid: 782b59ca-bfa8-4217-9b72-50a78937775a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 782b59ca-bfa8-4217-9b72-50a78937775a, FORMAT_DvInfo, FORMAT_MFVideoFormat, FORMAT_MPEG2Video, FORMAT_MPEGStreams, FORMAT_MPEGVideo, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, MFValidateMediaTypeSize, MFValidateMediaTypeSize function [Media Foundation], mf.mfvalidatemediatypesize, mfapi/MFValidateMediaTypeSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

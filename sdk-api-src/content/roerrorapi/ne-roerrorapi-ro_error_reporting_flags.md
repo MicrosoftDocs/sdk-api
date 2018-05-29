@@ -1,16 +1,16 @@
 ---
 UID: NE:roerrorapi.RO_ERROR_REPORTING_FLAGS
 title: RO_ERROR_REPORTING_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the behavior of the RoOriginateError and RoTransformError functions.
 old-location: winrt\ro_error_reporting_flags.htm
 old-project: WinRT
 ms.assetid: 345E1C4D-4A2F-4E18-9E70-4B8AE25FE8FD
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RO_ERROR_REPORTING_FLAGS, RO_ERROR_REPORTING_FLAGS enumeration [Windows Runtime], RO_ERROR_REPORTING_FORCEEXCEPTIONS, RO_ERROR_REPORTING_NONE, RO_ERROR_REPORTING_SUPPRESSEXCEPTIONS, RO_ERROR_REPORTING_SUPPRESSSETERRORINFO, RO_ERROR_REPORTING_USESETERRORINFO, roerrorapi/RO_ERROR_REPORTING_FLAGS, roerrorapi/RO_ERROR_REPORTING_FORCEEXCEPTIONS, roerrorapi/RO_ERROR_REPORTING_NONE, roerrorapi/RO_ERROR_REPORTING_SUPPRESSEXCEPTIONS, roerrorapi/RO_ERROR_REPORTING_SUPPRESSSETERRORINFO, roerrorapi/RO_ERROR_REPORTING_USESETERRORINFO, winrt.ro_error_reporting_flags, winrt.winrterrorreportingflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: roerrorapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.ParseURLA
 title: ParseURLA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs rudimentary parsing of a URL.
 old-location: shell\ParseURL.htm
 old-project: shell
 ms.assetid: 3d42dad0-b9eb-4e40-afc8-68cb85b27504
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ParseURL, ParseURL function [Windows Shell], ParseURLA, ParseURLW, _win32_ParseURL, shell.ParseURL, shlwapi/ParseURL, shlwapi/ParseURLA, shlwapi/ParseURLW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.SetIntVector
 title: ID3D10EffectVectorVariable::SetIntVector
-author: windows-driver-content
+author: windows-sdk-content
 description: Set a four-component vector that contains integer data.
 old-location: direct3d10\id3d10effectvectorvariable_setintvector.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_setintvector.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 5a963b18-3c66-7707-2028-6e38c0de7531, ID3D10EffectVectorVariable interface [Direct3D 10],SetIntVector method, ID3D10EffectVectorVariable.SetIntVector, ID3D10EffectVectorVariable::SetIntVector, SetIntVector, SetIntVector method [Direct3D 10], SetIntVector method [Direct3D 10],ID3D10EffectVectorVariable interface, d3d10effect/ID3D10EffectVectorVariable::SetIntVector, direct3d10.id3d10effectvectorvariable_setintvector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

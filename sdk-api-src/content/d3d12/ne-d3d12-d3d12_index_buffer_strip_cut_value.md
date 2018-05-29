@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_INDEX_BUFFER_STRIP_CUT_VALUE
 title: D3D12_INDEX_BUFFER_STRIP_CUT_VALUE
-author: windows-driver-content
+author: windows-sdk-content
 description: When using triangle strip primitive topology, vertex positions are interpreted as vertices of a continuous triangle “strip”.
 old-location: direct3d12\d3d12_index_buffer_strip_cut_value.htm
 old-project: direct3d12
 ms.assetid: 22448EAE-05F3-4E14-90A6-A427E83361B8
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_INDEX_BUFFER_STRIP_CUT_VALUE, D3D12_INDEX_BUFFER_STRIP_CUT_VALUE enumeration, D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFF, D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFFFFFF, D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_DISABLED, d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE, d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFF, d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFFFFFF, d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_DISABLED, direct3d12.d3d12_index_buffer_strip_cut_value
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

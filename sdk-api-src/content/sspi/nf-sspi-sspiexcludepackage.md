@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SspiExcludePackage
 title: SspiExcludePackage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new identity structure that is a copy of the specified identity structure modified to exclude the specified security support provider (SSP).
 old-location: security\sspiexcludepackage.htm
 old-project: SecAuthN
 ms.assetid: 2f85bb13-b72a-4c26-a328-9424a33a63b8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SspiExcludePackage, SspiExcludePackage function [Security], security.sspiexcludepackage, sspi/SspiExcludePackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

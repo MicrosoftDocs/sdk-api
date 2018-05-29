@@ -1,16 +1,16 @@
 ---
 UID: NF:ual.UalStop
 title: UalStop function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops a User Access Logging (UAL) session.
 old-location: ual\ualstop.htm
 old-project: ual
 ms.assetid: 142A0C96-2D53-4C31-9847-D6D5313C841E
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: UalStop, UalStop function [User Access Logging], ual.ualstop, ual/UalStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ual.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:winsync._ID_PARAMETERS
 title: "_ID_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the format schema for the group of IDs that are used to identify entities in a synchronization session.
 old-location: winsync\id_parameters.htm
 old-project: winsync
 ms.assetid: 7391689a-5546-409a-9fff-2ceced1850fe
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ID_PARAMETERS, ID_PARAMETERS structure [Windows Sync], _ID_PARAMETERS, winsync.id_parameters, winsync/ID_PARAMETERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsync.h
 req.include-header: 

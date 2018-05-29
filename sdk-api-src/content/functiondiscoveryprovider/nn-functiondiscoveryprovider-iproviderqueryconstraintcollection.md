@@ -1,16 +1,16 @@
 ---
 UID: NN:functiondiscoveryprovider.IProviderQueryConstraintCollection
 title: IProviderQueryConstraintCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is accessible to the provider through the IFunctionDiscoveryProviderQuery::GetQueryConstraints method.
 old-location: ncd\iproviderqueryconstraintcollection.htm
 old-project: FunDisc
 ms.assetid: 4d8ff5b9-ec4a-4ec6-b133-3d315f9c017b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IProviderQueryConstraintCollection, IProviderQueryConstraintCollection interface, IProviderQueryConstraintCollection interface,described, functiondiscoveryprovider/IProviderQueryConstraintCollection, ncd.iproviderqueryconstraintcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryprovider.h
 req.include-header: 

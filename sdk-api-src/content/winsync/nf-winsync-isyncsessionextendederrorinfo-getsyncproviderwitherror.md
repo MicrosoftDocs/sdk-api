@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncSessionExtendedErrorInfo.GetSyncProviderWithError
 title: ISyncSessionExtendedErrorInfo::GetSyncProviderWithError
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the ISyncProvider interface of the provider that caused synchronization to fail.
 old-location: winsync\isyncsessionextendederrorinfo_getsyncproviderwitherror.htm
 old-project: winsync
 ms.assetid: b0115f1a-41e7-4126-9b77-03960227d4fe
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSyncProviderWithError, GetSyncProviderWithError method [Windows Sync], GetSyncProviderWithError method [Windows Sync],ISyncSessionExtendedErrorInfo interface, ISyncSessionExtendedErrorInfo interface [Windows Sync],GetSyncProviderWithError method, ISyncSessionExtendedErrorInfo.GetSyncProviderWithError, ISyncSessionExtendedErrorInfo::GetSyncProviderWithError, winsync.isyncsessionextendederrorinfo_getsyncproviderwitherror, winsync/ISyncSessionExtendedErrorInfo::GetSyncProviderWithError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

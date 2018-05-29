@@ -1,16 +1,16 @@
 ---
 UID: NS:lmaccess._GROUP_INFO_1005
 title: "_GROUP_INFO_1005"
-author: windows-driver-content
+author: windows-sdk-content
 description: The GROUP_INFO_1005 structure contains the resource attributes associated with a global group.
 old-location: netmgmt\group_info_1005_str.htm
 old-project: NetMgmt
 ms.assetid: bd93820a-e019-45f4-88c7-011a517955ad
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPGROUP_INFO_1005, *PGROUP_INFO_1005, GROUP_INFO_1005, GROUP_INFO_1005 structure [Network Management], LPGROUP_INFO_1005, LPGROUP_INFO_1005 structure pointer [Network Management], PGROUP_INFO_1005, PGROUP_INFO_1005 structure pointer [Network Management], _GROUP_INFO_1005, _win32_group_info_1005_str, lmaccess/GROUP_INFO_1005, lmaccess/LPGROUP_INFO_1005, lmaccess/PGROUP_INFO_1005, netmgmt.group_info_1005_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IISDB_LDT
 title: IISDB_LDT
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) linked description table (LDT). An LDT contains data used to collect reference information from other tables.
 old-location: mstv\iisdb_ldt.htm
 old-project: mstv
 ms.assetid: 4fdf82f2-e931-406b-a8cb-7b24c1d0b8d3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IISDB_LDT, IISDB_LDT interface [Microsoft TV Technologies], IISDB_LDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_LDT, mstv.iisdb_ldt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: 

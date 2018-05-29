@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIFrameBuffer.get_Width
 title: IRDPSRAPIFrameBuffer::get_Width
-author: windows-driver-content
+author: windows-sdk-content
 description: Width, in pixels, of the frame buffer.
 old-location: rdp\irdpsrapiframebuffer_width.htm
 old-project: Rdp
 ms.assetid: 7f54d18a-29cf-402a-a672-2d0dae1f8ce4
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIFrameBuffer interface [RDP],Width property, IRDPSRAPIFrameBuffer.Width, IRDPSRAPIFrameBuffer.get_Width, IRDPSRAPIFrameBuffer::Width, IRDPSRAPIFrameBuffer::get_Width, Width property [RDP], Width property [RDP],IRDPSRAPIFrameBuffer interface, get_Width, rdp.irdpsrapiframebuffer_width, rdpencomapi/IRDPSRAPIFrameBuffer::Width, rdpencomapi/IRDPSRAPIFrameBuffer::get_Width
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

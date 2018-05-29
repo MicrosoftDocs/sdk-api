@@ -1,16 +1,16 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngine
 title: IMFMediaEngine
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an application to play audio or video files.
 old-location: mf\imfmediaengine.htm
 old-project: medfound
 ms.assetid: A0023F18-2D28-4F0D-9B00-B8FB11567034
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], IMFMediaEngine interface [Media Foundation],described, mf.imfmediaengine, mfmediaengine/IMFMediaEngine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

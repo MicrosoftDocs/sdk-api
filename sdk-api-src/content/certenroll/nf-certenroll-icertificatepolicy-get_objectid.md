@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertificatePolicy.get_ObjectId
 title: ICertificatePolicy::get_ObjectId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an object identifier (OID) for the policy object.
 old-location: security\icertificatepolicy_objectid_property.htm
 old-project: SecCertEnroll
 ms.assetid: 42d1689d-c086-4d67-8e16-997ecd515ae2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertificatePolicy interface [Security],ObjectId property, ICertificatePolicy.ObjectId, ICertificatePolicy.get_ObjectId, ICertificatePolicy::ObjectId, ICertificatePolicy::get_ObjectId, ObjectId property [Security], ObjectId property [Security],ICertificatePolicy interface, certenroll/ICertificatePolicy::ObjectId, certenroll/ICertificatePolicy::get_ObjectId, get_ObjectId, security.icertificatepolicy_objectid_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

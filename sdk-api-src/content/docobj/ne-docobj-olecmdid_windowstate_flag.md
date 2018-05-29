@@ -1,16 +1,16 @@
 ---
 UID: NE:docobj.OLECMDID_WINDOWSTATE_FLAG
 title: OLECMDID_WINDOWSTATE_FLAG
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the window state.
 old-location: com\olecmdid_windowstate_flag.htm
 old-project: com
 ms.assetid: 31331c73-1f26-436d-8fa7-83f13ef51f0e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OLECMDIDF_WINDOWSTATE_ENABLED, OLECMDIDF_WINDOWSTATE_ENABLED_VALID, OLECMDIDF_WINDOWSTATE_USERVISIBLE, OLECMDIDF_WINDOWSTATE_USERVISIBLE_VALID, OLECMDID_WINDOWSTATE_FLAG, OLECMDID_WINDOWSTATE_FLAG enumeration [COM], _ole_OLECMDID_WINDOWSTATE_FLAG, com.olecmdid_windowstate_flag, docobj/OLECMDIDF_WINDOWSTATE_ENABLED, docobj/OLECMDIDF_WINDOWSTATE_ENABLED_VALID, docobj/OLECMDIDF_WINDOWSTATE_USERVISIBLE, docobj/OLECMDIDF_WINDOWSTATE_USERVISIBLE_VALID, docobj/OLECMDID_WINDOWSTATE_FLAG
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: docobj.h
 req.include-header: 

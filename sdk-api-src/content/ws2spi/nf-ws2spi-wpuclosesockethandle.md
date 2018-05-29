@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2spi.WPUCloseSocketHandle
 title: WPUCloseSocketHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WPUCloseSocketHandle function closes an existing socket handle.
 old-location: winsock\wpuclosesockethandle_2.htm
 old-project: WinSock
 ms.assetid: c125b763-6c5a-4a83-ba34-79e898fdc9fe
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WPUCloseSocketHandle, WPUCloseSocketHandle function [Winsock], _win32_wpuclosesockethandle_2, winsock.wpuclosesockethandle_2, ws2spi/WPUCloseSocketHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

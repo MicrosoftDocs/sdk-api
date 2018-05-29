@@ -1,16 +1,16 @@
 ---
 UID: NS:wincodecsdk.WICMetadataPattern
 title: WICMetadataPattern
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a metadata pattern.
 old-location: wic\_wic_codec_wicmetadatapattern.htm
 old-project: wic
 ms.assetid: cea9e07d-5e55-4320-9744-b5864b58cfd6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICMetadataPattern, WICMetadataPattern structure [Windows Imaging Component], _wic_codec_wicmetadatapattern, wic._wic_codec_wicmetadatapattern, wincodecsdk/WICMetadataPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincodecsdk.h
 req.include-header: 

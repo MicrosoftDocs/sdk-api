@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgidebug.IDXGIDebug1
 title: IDXGIDebug1
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls debug settings for Microsoft DirectX Graphics Infrastructure (DXGI). You can use the IDXGIDebug1 interface in Windows Store apps.
 old-location: direct3ddxgi\idxgidebug1.htm
 old-project: direct3ddxgi
 ms.assetid: 16D52CA2-1495-407C-9B88-CF4D4C90BAFA
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIDebug1, IDXGIDebug1 interface [DXGI], IDXGIDebug1 interface [DXGI],described, direct3ddxgi.idxgidebug1, dxgidebug/IDXGIDebug1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgidebug.h
 req.include-header: 

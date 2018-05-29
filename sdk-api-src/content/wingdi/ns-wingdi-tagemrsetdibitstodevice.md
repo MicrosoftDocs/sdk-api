@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRSETDIBITSTODEVICE
 title: tagEMRSETDIBITSTODEVICE
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRSETDIBITSTODEVICE structure contains members for the SetDIBitsToDevice enhanced metafile record.
 old-location: gdi\emrsetdibitstodevice.htm
 old-project: gdi
 ms.assetid: a87546e4-32ce-438d-9997-6d329f43303e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRSETDIBITSTODEVICE, EMRSETDIBITSTODEVICE, EMRSETDIBITSTODEVICE structure [Windows GDI], PEMRSETDIBITSTODEVICE, PEMRSETDIBITSTODEVICE structure pointer [Windows GDI], _win32_EMRSETDIBITSTODEVICE_str, gdi.emrsetdibitstodevice, tagEMRSETDIBITSTODEVICE, wingdi/EMRSETDIBITSTODEVICE, wingdi/PEMRSETDIBITSTODEVICE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

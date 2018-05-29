@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_CHAR_ARRAY_DESCRIPTION
 title: "_WS_CHAR_ARRAY_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies constraints on the set of values which can be deserialized.
 old-location: wsw\ws_char_array_description.htm
 old-project: wsw
 ms.assetid: 3a489963-9ed3-40ca-be42-485415e7fa4a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_CHAR_ARRAY_DESCRIPTION, WS_CHAR_ARRAY_DESCRIPTION structure [Web Services for Windows], _WS_CHAR_ARRAY_DESCRIPTION, webservices/WS_CHAR_ARRAY_DESCRIPTION, wsw.ws_char_array_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

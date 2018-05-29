@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IStream
 title: IStream
-author: windows-driver-content
+author: windows-sdk-content
 description: The IStream interface lets you read and write data to stream objects.
 old-location: stg\istream.htm
 old-project: Stg
 ms.assetid: c6f60e37-eadc-46a1-94f6-cacc23613531
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IStream, IStream interface [Structured Storage], IStream interface [Structured Storage],described, _stg_istream, objidl/IStream, stg.istream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

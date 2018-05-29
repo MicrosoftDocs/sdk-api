@@ -1,16 +1,16 @@
 ---
 UID: NF:certbcli.CertSrvBackupGetBackupLogsW
 title: CertSrvBackupGetBackupLogsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the list of Certificate Services log file names that need to be backed up for the given backup context.
 old-location: security\certsrvbackupgetbackuplogs.htm
 old-project: SecCrypto
 ms.assetid: bbc6e6c2-bb2c-4b0e-b1ba-6acf26a48f45
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CSBFT_LOG, CSBFT_PATCH_FILE, CertSrvBackupGetBackupLogs, CertSrvBackupGetBackupLogs function [Security], CertSrvBackupGetBackupLogsW, _certsrv_certsrvbackupgetbackuplogs, certbcli/CertSrvBackupGetBackupLogs, certbcli/CertSrvBackupGetBackupLogsW, security.certsrvbackupgetbackuplogs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

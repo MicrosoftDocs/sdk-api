@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_CLUSTER_RESOURCE_ENUM
 title: PCLUSAPI_CLUSTER_RESOURCE_ENUM
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates a resource's dependent resources, nodes, or both.
 old-location: mscs\clusterresourceenum.htm
 old-project: MsCS
 ms.assetid: 73627594-90df-496d-8120-b24c34f13fb5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSTER_RESOURCE_ENUM_DEPENDS, CLUSTER_RESOURCE_ENUM_NODES, CLUSTER_RESOURCE_ENUM_PROVIDES, PCLUSAPI_CLUSTER_RESOURCE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_ENUM callback, PCLUSAPI_CLUSTER_RESOURCE_ENUM callback function [Failover Cluster], _wolf_clusterresourceenum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_ENUM, mscs.clusterresourceenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

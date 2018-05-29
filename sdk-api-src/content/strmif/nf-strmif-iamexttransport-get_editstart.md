@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_EditStart
 title: IAMExtTransport::get_EditStart
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_EditStart method determines whether the external transport's edit control is active.
 old-location: dshow\iamexttransport_get_editstart.htm
 old-project: DirectShow
 ms.assetid: 83eb6f22-646c-400a-8adb-5545914656c9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_EditStart method, IAMExtTransport.get_EditStart, IAMExtTransport::get_EditStart, IAMExtTransportget_EditStart, dshow.iamexttransport_get_editstart, get_EditStart, get_EditStart method [DirectShow], get_EditStart method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_EditStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

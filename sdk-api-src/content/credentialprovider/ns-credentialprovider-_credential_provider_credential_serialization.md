@@ -1,16 +1,16 @@
 ---
 UID: NS:credentialprovider._CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
 title: "_CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains details about a credential.
 old-location: shell\CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION.htm
 old-project: shell
 ms.assetid: 55ff9be3-490d-4f82-92a0-3551ccbcaade
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION structure [Windows Shell], _CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, _shell_CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, shell.CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: credentialprovider.h
 req.include-header: 

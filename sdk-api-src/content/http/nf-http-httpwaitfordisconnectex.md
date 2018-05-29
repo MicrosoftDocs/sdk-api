@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HttpWaitForDisconnectEx
 title: HttpWaitForDisconnectEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function is an extension to HttpWaitForDisconnect.
 old-location: http\httpwaitfordisconnectex.htm
 old-project: Http
 ms.assetid: D4946ECF-0E0E-439E-AEE5-BF24BD73D2B6
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HttpWaitForDisconnectEx, HttpWaitForDisconnectEx function [HTTP], http.httpwaitfordisconnectex, http/HttpWaitForDisconnectEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: http.h
 req.include-header: 

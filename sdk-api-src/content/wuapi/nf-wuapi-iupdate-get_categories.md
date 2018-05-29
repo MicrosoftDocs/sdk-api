@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdate.get_Categories
 title: IUpdate::get_Categories
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an interface that contains a collection of categories to which the update belongs.
 old-location: wua\iupdate_categories.htm
 old-project: Wua_Sdk
 ms.assetid: 25620fc2-25f2-4626-9e41-b44c305c505c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Categories property [Windows Update Agent], Categories property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],Categories property, IUpdate.Categories, IUpdate.get_Categories, IUpdate::Categories, IUpdate::get_Categories, get_Categories, wua.iupdate_categories, wuapi/IUpdate::Categories, wuapi/IUpdate::get_Categories
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

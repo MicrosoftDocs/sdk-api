@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetLocalGroupAddMembers
 title: NetLocalGroupAddMembers function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetLocalGroupAddMembers function adds membership of one or more existing user accounts or global group accounts to an existing local group.
 old-location: netmgmt\netlocalgroupaddmembers.htm
 old-project: NetMgmt
 ms.assetid: 3b2d3e4a-742e-4e67-8b28-3cd6d7e6a857
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0, 3, NetLocalGroupAddMembers, NetLocalGroupAddMembers function [Network Management], _win32_netlocalgroupaddmembers, lmaccess/NetLocalGroupAddMembers, netmgmt.netlocalgroupaddmembers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

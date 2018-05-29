@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSolidColorBrush.Clone
 title: IXpsOMSolidColorBrush::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomsolidcolorbrush_clone.htm
 old-project: printdocs
 ms.assetid: 7f25d5cf-b53d-4e86-ae61-1d0c9afc6236
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMSolidColorBrush interface, IXpsOMSolidColorBrush interface [XPS Documents and Packaging],Clone method, IXpsOMSolidColorBrush.Clone, IXpsOMSolidColorBrush::Clone, xps.ixpsomsolidcolorbrush_clone, xpsobjectmodel/IXpsOMSolidColorBrush::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

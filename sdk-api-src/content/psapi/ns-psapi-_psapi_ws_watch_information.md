@@ -1,16 +1,16 @@
 ---
 UID: NS:psapi._PSAPI_WS_WATCH_INFORMATION
 title: "_PSAPI_WS_WATCH_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a page added to a process working set.
 old-location: psapi\psapi_ws_watch_information_str.htm
 old-project: psapi
 ms.assetid: 61083366-2a55-431c-807a-3eb85ba0b347
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PPSAPI_WS_WATCH_INFORMATION, PPSAPI_WS_WATCH_INFORMATION, PPSAPI_WS_WATCH_INFORMATION structure pointer [PSAPI], PSAPI_WS_WATCH_INFORMATION, PSAPI_WS_WATCH_INFORMATION structure [PSAPI], _PSAPI_WS_WATCH_INFORMATION, _win32_psapi_ws_watch_information_str, base.psapi_ws_watch_information_str, psapi.psapi_ws_watch_information_str, psapi/PPSAPI_WS_WATCH_INFORMATION, psapi/PSAPI_WS_WATCH_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: psapi.h
 req.include-header: 

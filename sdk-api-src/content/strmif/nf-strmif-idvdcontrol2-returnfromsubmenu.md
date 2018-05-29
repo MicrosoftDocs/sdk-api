@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdControl2.ReturnFromSubmenu
 title: IDvdControl2::ReturnFromSubmenu
-author: windows-driver-content
+author: windows-sdk-content
 description: The ReturnFromSubmenu method returns the display from a submenu to its parent menu.
 old-location: dshow\idvdcontrol2_returnfromsubmenu.htm
 old-project: DirectShow
 ms.assetid: ef213ab6-3993-46e4-803d-3ce195256e7e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDvdControl2 interface [DirectShow],ReturnFromSubmenu method, IDvdControl2.ReturnFromSubmenu, IDvdControl2::ReturnFromSubmenu, IDvdControl2ReturnFromSubmenu, ReturnFromSubmenu, ReturnFromSubmenu method [DirectShow], ReturnFromSubmenu method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_returnfromsubmenu, strmif/IDvdControl2::ReturnFromSubmenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

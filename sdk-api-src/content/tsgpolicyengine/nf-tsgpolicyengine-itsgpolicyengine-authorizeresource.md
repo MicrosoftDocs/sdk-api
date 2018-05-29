@@ -1,16 +1,16 @@
 ---
 UID: NF:tsgpolicyengine.ITSGPolicyEngine.AuthorizeResource
 title: ITSGPolicyEngine::AuthorizeResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines which resources the specified connection is authorized to connect to.
 old-location: termserv\itsgpolicyengine_authorizeresource.htm
 old-project: TermServ
 ms.assetid: 77950541-c94a-4035-a2d8-a6014eb387e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthorizeResource, AuthorizeResource method [Remote Desktop Services], AuthorizeResource method [Remote Desktop Services],ITSGPolicyEngine interface, ITSGPolicyEngine interface [Remote Desktop Services],AuthorizeResource method, ITSGPolicyEngine.AuthorizeResource, ITSGPolicyEngine::AuthorizeResource, termserv.itsgpolicyengine_authorizeresource, tsgpolicyengine/ITSGPolicyEngine::AuthorizeResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tsgpolicyengine.h
 req.include-header: 

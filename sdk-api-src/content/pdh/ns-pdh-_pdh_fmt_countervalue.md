@@ -1,16 +1,16 @@
 ---
 UID: NS:pdh._PDH_FMT_COUNTERVALUE
 title: "_PDH_FMT_COUNTERVALUE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The PDH_FMT_COUNTERVALUE structure contains the computed value of the counter and its status.
 old-location: perf\pdh_fmt_countervalue_str.htm
 old-project: PerfCtrs
 ms.assetid: 68ccd722-94d2-4610-ba64-f51318f5436e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PPDH_FMT_COUNTERVALUE, PDH_FMT_COUNTERVALUE, PDH_FMT_COUNTERVALUE structure [Perf], PPDH_FMT_COUNTERVALUE, PPDH_FMT_COUNTERVALUE structure pointer [Perf], _PDH_FMT_COUNTERVALUE, _win32_pdh_fmt_countervalue_str, base.pdh_fmt_countervalue_str, pdh/PDH_FMT_COUNTERVALUE, pdh/PPDH_FMT_COUNTERVALUE, perf.pdh_fmt_countervalue_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: pdh.h
 req.include-header: 

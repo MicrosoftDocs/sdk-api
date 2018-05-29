@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.GetEncSChannel
 title: GetEncSChannel function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function is unavailable.
 old-location: security\getencschannel.htm
 old-project: SecCrypto
 ms.assetid: 4879895e-8bf4-4464-a344-04e4b361c5c7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetEncSChannel, GetEncSChannel function [Security], security.getencschannel, wincrypt/GetEncSChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

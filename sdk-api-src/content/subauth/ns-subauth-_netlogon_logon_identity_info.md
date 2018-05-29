@@ -1,16 +1,16 @@
 ---
 UID: NS:subauth._NETLOGON_LOGON_IDENTITY_INFO
 title: "_NETLOGON_LOGON_IDENTITY_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to pass information about a user for logon subauthentication.
 old-location: security\netlogon_logon_identity_info.htm
 old-project: SecAuthN
 ms.assetid: b9cdf09f-897c-407e-80ba-e18c9ba667ec
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PNETLOGON_LOGON_IDENTITY_INFO, CLEARTEXT_PASSWORD_ALLOWED, NETLOGON_LOGON_IDENTITY_INFO, NETLOGON_LOGON_IDENTITY_INFO structure [Security], PNETLOGON_LOGON_IDENTITY_INFO, PNETLOGON_LOGON_IDENTITY_INFO structure pointer [Security], _NETLOGON_LOGON_IDENTITY_INFO, _lsa_netlogon_logon_identity_info, security.netlogon_logon_identity_info, subauth/NETLOGON_LOGON_IDENTITY_INFO, subauth/PNETLOGON_LOGON_IDENTITY_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: subauth.h
 req.include-header: 

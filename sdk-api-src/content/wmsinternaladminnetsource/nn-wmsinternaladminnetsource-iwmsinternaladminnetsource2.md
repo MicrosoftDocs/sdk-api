@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsinternaladminnetsource.IWMSInternalAdminNetSource2
 title: IWMSInternalAdminNetSource2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMSInternalAdminNetSource2 interface provides improved methods for password caching.
 old-location: wmformat\iwmsinternaladminnetsource2.htm
 old-project: wmformat
 ms.assetid: 6d334725-11d5-4249-a83d-fc8c1c35a56f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMSInternalAdminNetSource2, IWMSInternalAdminNetSource2 interface [windows Media Format], IWMSInternalAdminNetSource2 interface [windows Media Format],described, IWMSInternalAdminNetSource2Interface, wmformat.iwmsinternaladminnetsource2, wmsinternaladminnetsource/IWMSInternalAdminNetSource2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsinternaladminnetsource.h
 req.include-header: 

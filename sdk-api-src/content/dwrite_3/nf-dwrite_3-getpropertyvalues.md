@@ -1,16 +1,16 @@
 ---
 UID: NF:dwrite_3.GetPropertyValues
 title: GetPropertyValues function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns property values for the font set.
 old-location: directwrite\idwritefontset_getpropertyvalues_overload.htm
 old-project: DirectWrite
 ms.assetid: 3c3fd5b7-88dd-d434-0b62-f365b407c379
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GetPropertyValues, GetPropertyValues methods [Direct Write], IDWriteFontSet::GetPropertyValues, directwrite.idwritefontset_getpropertyvalues_overload, dwrite_3/GetPropertyValues
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dwrite_3.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_DeviceControl.GetChangeState
 title: IBDA_DeviceControl::GetChangeState
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetChangeState method returns a value indicating whether any uncommitted changes are currently pending in the filter.
 old-location: mstv\ibda_devicecontrol_getchangestate.htm
 old-project: mstv
 ms.assetid: 17a36763-552a-44dc-8068-90f1b8fe09e5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetChangeState, GetChangeState method [Microsoft TV Technologies], GetChangeState method [Microsoft TV Technologies],IBDA_DeviceControl interface, IBDA_DeviceControl interface [Microsoft TV Technologies],GetChangeState method, IBDA_DeviceControl.GetChangeState, IBDA_DeviceControl::GetChangeState, IBDA_DeviceControlGetChangeState, bdaiface/IBDA_DeviceControl::GetChangeState, mstv.ibda_devicecontrol_getchangestate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

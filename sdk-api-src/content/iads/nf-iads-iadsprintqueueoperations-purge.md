@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsPrintQueueOperations.Purge
 title: IADsPrintQueueOperations::Purge
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsPrintQueueOperations::Purge method clears the print queue of all print jobs without processing them.
 old-location: adsi\iadsprintqueueoperations_purge.htm
 old-project: ADSI
 ms.assetid: d3af8fab-83fc-46e2-b924-9a4c5a362970
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsPrintQueueOperations interface [ADSI],Purge method, IADsPrintQueueOperations.Purge, IADsPrintQueueOperations::Purge, Purge, Purge method [ADSI], Purge method [ADSI],IADsPrintQueueOperations interface, _ds_iadsprintqueueoperations_purge, adsi.iadsprintqueueoperations__purge, adsi.iadsprintqueueoperations_purge, iads/IADsPrintQueueOperations::Purge
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

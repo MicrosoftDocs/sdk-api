@@ -1,16 +1,16 @@
 ---
 UID: NF:deviceaccess.IDeviceRequestCompletionCallback.RequestCompletion
 title: IDeviceRequestCompletionCallback::RequestCompletion
-author: windows-driver-content
+author: windows-sdk-content
 description: Implement the RequestCompletion method to handle the completion of calls to the DeviceIoControlAsyncmethod.
 old-location: deviceaccess\idevicerequestcompletioncallback_requestcompletion.htm
 old-project: deviceaccess
 ms.assetid: 5cc7bd36-3b8f-40af-badc-e8fc16d4a4c5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDeviceRequestCompletionCallback interface [Device Access Broker API],RequestCompletion method, IDeviceRequestCompletionCallback.RequestCompletion, IDeviceRequestCompletionCallback::RequestCompletion, RequestCompletion, RequestCompletion method [Device Access Broker API], RequestCompletion method [Device Access Broker API],IDeviceRequestCompletionCallback interface, deviceaccess.idevicerequestcompletioncallback_requestcompletion, deviceaccess/IDeviceRequestCompletionCallback::RequestCompletion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: deviceaccess.h
 req.include-header: 

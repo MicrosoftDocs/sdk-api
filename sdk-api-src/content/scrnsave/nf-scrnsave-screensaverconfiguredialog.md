@@ -1,16 +1,16 @@
 ---
 UID: NF:scrnsave.ScreenSaverConfigureDialog
 title: ScreenSaverConfigureDialog function
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives messages sent to a screen saver's configuration dialog box. A screen saver that allows user configuration must define this function.
 old-location: shell\ScreenSaverConfigureDialog.htm
 old-project: shell
 ms.assetid: 84c2966f-8f01-4f8d-9cec-c7fef657bff0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScreenSaverConfigureDialog, ScreenSaverConfigureDialog function [Windows Shell], _win32_ScreenSaverConfigureDialog, scrnsave/ScreenSaverConfigureDialog, shell.ScreenSaverConfigureDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: scrnsave.h
 req.include-header: 

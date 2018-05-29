@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_PropertyDecl
 title: "_MI_PropertyDecl"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a class property (element) in a class's declaration.
 old-location: wmi_v2\mi_propertydecl.htm
 old-project: wmi_v2
 ms.assetid: bc5e5c1e-3483-4762-8063-047308dc3652
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_FLAG_KEY, MI_FLAG_PROPERTY, MI_PropertyDecl, MI_PropertyDecl structure [Windows Management Infrastructure (MI)], _MI_PropertyDecl, mi/MI_PropertyDecl, wmi._mi_propertydecl, wmi_v2.mi_propertydecl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

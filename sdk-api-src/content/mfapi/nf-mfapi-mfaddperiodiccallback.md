@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFAddPeriodicCallback
 title: MFAddPeriodicCallback function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a callback function to be called at a fixed interval.
 old-location: mf\mfaddperiodiccallback.htm
 old-project: medfound
 ms.assetid: e5898fc8-72e9-45cc-8e85-4410ed7cc512
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFAddPeriodicCallback, MFAddPeriodicCallback function [Media Foundation], e5898fc8-72e9-45cc-8e85-4410ed7cc512, mf.mfaddperiodiccallback, mfapi/MFAddPeriodicCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

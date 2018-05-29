@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.Initialize
 title: IPhotoAcquireOptionsDialog::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the options dialog box and reads any saved options from the registry.
 old-location: picacq\iphotoacquireoptionsdialog_initialize.htm
 old-project: acquisition
 ms.assetid: 6e3c7876-28a6-4d5f-afca-7c0421df8c02
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoAcquireOptionsDialog interface [Picture Acquisition],Initialize method, IPhotoAcquireOptionsDialog.Initialize, IPhotoAcquireOptionsDialog::Initialize, IPhotoAcquireOptionsDialogInitialize, Initialize, Initialize method [Picture Acquisition], Initialize method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, photoacquire/IPhotoAcquireOptionsDialog::Initialize, picacq.iphotoacquireoptionsdialog_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

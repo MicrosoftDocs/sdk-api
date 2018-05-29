@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.GetFileSize
 title: GetFileSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the size of the specified file, in bytes.
 old-location: fs\getfilesize.htm
 old-project: FileIO
 ms.assetid: 3f5d2e4a-1e05-41c0-9b7e-0155e212f6dd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetFileSize, GetFileSize function [Files], _win32_getfilesize, base.getfilesize, fileapi/GetFileSize, fs.getfilesize, winbase/GetFileSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

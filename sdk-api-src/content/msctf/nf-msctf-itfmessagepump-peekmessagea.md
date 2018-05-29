@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfMessagePump.PeekMessageA
 title: ITfMessagePump::PeekMessageA
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfMessagePump::PeekMessageA method
 old-location: tsf\itfmessagepump_peekmessagea.htm
 old-project: TSF
 ms.assetid: 4b20fa18-f5c3-4f3b-bb93-0e352d620d31
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfMessagePump interface [Text Services Framework],PeekMessageA method, ITfMessagePump.PeekMessageA, ITfMessagePump::PeekMessageA, PeekMessageA, PeekMessageA method [Text Services Framework], PeekMessageA method [Text Services Framework],ITfMessagePump interface, _tsf_itfmessagepump_peekmessagea_ref, msctf/ITfMessagePump::PeekMessageA, tsf.itfmessagepump_peekmessagea
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

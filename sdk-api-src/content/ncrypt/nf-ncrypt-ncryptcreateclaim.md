@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptCreateClaim
 title: NCryptCreateClaim function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a key attestation claim.
 old-location: security\ncryptcreateclaim.htm
 old-project: SecCNG
 ms.assetid: EBEE3A67-0693-4B85-88B1-580CB2152703
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCryptCreateClaim, NCryptCreateClaim function [Security], ncrypt/NCryptCreateClaim, security.ncryptcreateclaim
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

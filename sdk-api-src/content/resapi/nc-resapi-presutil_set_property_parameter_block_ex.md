@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX
 title: PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets properties in the cluster database from a parameter block.
 old-location: mscs\resutilsetpropertyparameterblockex.htm
 old-project: MsCS
 ms.assetid: aeb53528-56bf-4330-ad43-22f1381df109
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX, PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX callback, PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX callback function [Failover Cluster], _wolf_resutilsetpropertyparameterblockex, mscs.resutilsetpropertyparameterblockex, resapi/PRESUTIL_SET_PROPERTY_PARAMETER_BLOCK_EX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

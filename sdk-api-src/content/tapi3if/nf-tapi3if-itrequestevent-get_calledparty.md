@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITRequestEvent.get_CalledParty
 title: ITRequestEvent::get_CalledParty
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CalledParty method gets the called party.
 old-location: tapi3\itrequestevent_get_calledparty.htm
 old-project: Tapi
 ms.assetid: 0dfbf033-83cf-4e2c-b107-963c10595ee5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_CalledParty method, ITRequestEvent.get_CalledParty, ITRequestEvent::get_CalledParty, _tapi3_itrequestevent_get_calledparty, get_CalledParty, get_CalledParty method [TAPI 2.2], get_CalledParty method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_calledparty, tapi3if/ITRequestEvent::get_CalledParty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

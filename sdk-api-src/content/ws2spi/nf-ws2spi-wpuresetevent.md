@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2spi.WPUResetEvent
 title: WPUResetEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WPUResetEvent function resets the state of the specified event object to nonsignaled. This call is safe for use within interrupt context.
 old-location: winsock\wpuresetevent_2.htm
 old-project: WinSock
 ms.assetid: a3385c77-899c-4772-88b9-fb3e0fab54e0
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WPUResetEvent, WPUResetEvent function [Winsock], _win32_wpuresetevent_2, winsock.wpuresetevent_2, ws2spi/WPUResetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

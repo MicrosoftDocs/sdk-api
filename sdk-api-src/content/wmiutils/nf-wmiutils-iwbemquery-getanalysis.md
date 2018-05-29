@@ -1,16 +1,16 @@
 ---
 UID: NF:wmiutils.IWbemQuery.GetAnalysis
 title: IWbemQuery::GetAnalysis
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the results of a successful query parse.
 old-location: wmi\iwbemquery_getanalysis.htm
 old-project: WmiSdk
 ms.assetid: 06cd2593-58f5-46b9-9100-debad0280d90
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetAnalysis, GetAnalysis method [Windows Management Instrumentation], GetAnalysis method [Windows Management Instrumentation],IWbemQuery interface, IWbemQuery interface [Windows Management Instrumentation],GetAnalysis method, IWbemQuery.GetAnalysis, IWbemQuery::GetAnalysis, WMIQ_ANALYSIS_ASSOC_QUERY, WMIQ_ANALYSIS_PROP_ANALYSIS_MATRIX, WMIQ_ANALYSIS_QUERY_TEXT, WMIQ_ANALYSIS_RPN_SEQUENCE, _hmm_iwbemquery_getanalysis, wmi.iwbemquery_getanalysis, wmiutils/IWbemQuery::GetAnalysis
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

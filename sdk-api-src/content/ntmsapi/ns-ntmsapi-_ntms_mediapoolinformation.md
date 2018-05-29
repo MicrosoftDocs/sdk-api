@@ -1,16 +1,16 @@
 ---
 UID: NS:ntmsapi._NTMS_MEDIAPOOLINFORMATION
 title: "_NTMS_MEDIAPOOLINFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The NTMS_MEDIAPOOLINFORMATION structure defines the properties specific to a media pool object.
 old-location: fs\ntms_mediapoolinformation.htm
 old-project: Rsm
 ms.assetid: 4feb9d68-f88b-4515-9c59-64fe9c5594d6
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: NTMS_ALLOCATE_FROMSCRATCH, NTMS_DEALLOCATE_TOSCRATCH, NTMS_MEDIAPOOLINFORMATION, NTMS_MEDIAPOOLINFORMATION structure [Files], NTMS_POOLTYPE_APPLICATION, NTMS_POOLTYPE_FOREIGN, NTMS_POOLTYPE_IMPORT, NTMS_POOLTYPE_SCRATCH, NTMS_POOLTYPE_UNKNOWN, _NTMS_MEDIAPOOLINFORMATION, _zaw_ntms_mediapoolinformation, base.ntms_mediapoolinformation, fs.ntms_mediapoolinformation, ntmsapi/NTMS_MEDIAPOOLINFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 

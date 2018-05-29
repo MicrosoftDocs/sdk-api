@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.SetDocumentStructureResource
 title: IXpsOMDocument::SetDocumentStructureResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the IXpsOMDocumentStructureResource interface for the document.
 old-location: xps\ixpsomdocument_setdocumentstructureresource.htm
 old-project: printdocs
 ms.assetid: 86d62b73-b7a7-4470-9e55-f4eab50531d0
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMDocument interface [XPS Documents and Packaging],SetDocumentStructureResource method, IXpsOMDocument.SetDocumentStructureResource, IXpsOMDocument::SetDocumentStructureResource, SetDocumentStructureResource, SetDocumentStructureResource method [XPS Documents and Packaging], SetDocumentStructureResource method [XPS Documents and Packaging],IXpsOMDocument interface, xps.ixpsomdocument_setdocumentstructureresource, xpsobjectmodel/IXpsOMDocument::SetDocumentStructureResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

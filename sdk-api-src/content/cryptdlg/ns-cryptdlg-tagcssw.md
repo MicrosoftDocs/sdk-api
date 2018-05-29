@@ -1,16 +1,16 @@
 ---
 UID: NS:cryptdlg.tagCSSW
 title: tagCSSW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains criteria upon which to select certificates that are presented in a certificate selection dialog box. This structure is used in the CertSelectCertificate function.
 old-location: security\cert_select_struct.htm
 old-project: SecCrypto
 ms.assetid: 49184872-d636-4e55-8e32-0f38b49b5c21
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_SELECT_STRUCT_W, CERT_SELECT_STRUCT, CERT_SELECT_STRUCT structure [Security], CERT_SELECT_STRUCT_A, CERT_SELECT_STRUCT_W, CSS_ALLOWMULTISELECT, CSS_ENABLEHOOK, CSS_ENABLETEMPLATE, CSS_ENABLETEMPLATEHANDLE, CSS_HIDE_PROPERTIES, CSS_SHOW_HELP, PCERT_SELECT_STRUCT, PCERT_SELECT_STRUCT structure pointer [Security], cryptdlg/CERT_SELECT_STRUCT, cryptdlg/CERT_SELECT_STRUCT_A, cryptdlg/CERT_SELECT_STRUCT_W, cryptdlg/PCERT_SELECT_STRUCT, security.cert_select_struct, security.cert_select_struct_w, tagCSSW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptdlg.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:structuredquery.__MIDL___MIDL_itf_structuredquery_0000_0012_0001
 title: "__MIDL___MIDL_itf_structuredquery_0000_0012_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the level of certainty for a named entity.
 old-location: search\_search_NAMED_ENTITY_CERTAINTY.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\named_entity_certainty.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NAMED_ENTITY_CERTAINTY, NAMED_ENTITY_CERTAINTY enumeration [search], NEC_HIGH, NEC_LOW, NEC_MEDIUM, __MIDL___MIDL_itf_structuredquery_0000_0012_0001, _search_NAMED_ENTITY_CERTAINTY, search._search_NAMED_ENTITY_CERTAINTY, structuredquery/NAMED_ENTITY_CERTAINTY, structuredquery/NEC_HIGH, structuredquery/NEC_LOW, structuredquery/NEC_MEDIUM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: structuredquery.h
 req.include-header: 
@@ -20,7 +20,7 @@ req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: UnalignedStringCchLengthW (Unicode) and StringCchLengthA (ANSI)
+req.unicode-ansi: StringCchVPrintf_lW (Unicode) and StringCchVPrintf_lA (ANSI)
 req.idl: Structuredquery.idl
 req.max-support: 
 req.namespace: 

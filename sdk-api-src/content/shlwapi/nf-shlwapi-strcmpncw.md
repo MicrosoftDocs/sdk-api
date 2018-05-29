@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrCmpNCW
 title: StrCmpNCW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares a specified number of characters from the beginning of two strings using C run-time (ASCII) collation rules. The comparison is case-sensitive.
 old-location: shell\StrCmpNC.htm
 old-project: shell
 ms.assetid: 4b4f18d3-9325-4bd9-ac65-af7f3012fdaa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrCmpNC, StrCmpNC function [Windows Shell], StrCmpNCA, StrCmpNCW, _shell_StrCmpNC, shell.StrCmpNC, shlwapi/StrCmpNC, shlwapi/StrCmpNCA, shlwapi/StrCmpNCW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

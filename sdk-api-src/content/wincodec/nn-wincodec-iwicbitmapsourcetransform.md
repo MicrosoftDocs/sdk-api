@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICBitmapSourceTransform
 title: IWICBitmapSourceTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods for offloading certain operations to the underlying IWICBitmapSource implementation.
 old-location: wic\_wic_codec_iwicbitmapsourcetransform.htm
 old-project: wic
 ms.assetid: f9cc348f-d4f0-4e77-90d6-9ff563a1799c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapSourceTransform, IWICBitmapSourceTransform interface [Windows Imaging Component], IWICBitmapSourceTransform interface [Windows Imaging Component],described, _wic_codec_iwicbitmapsourcetransform, wic._wic_codec_iwicbitmapsourcetransform, wincodec/IWICBitmapSourceTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidFeatures.get_Count
 title: IMSVidFeatures::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Count method retrieves the number of items in the collection.
 old-location: mstv\imsvidfeatures_get_count.htm
 old-project: mstv
 ms.assetid: 45ad322a-d9ec-446d-8c1e-c955049dd257
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],get_Count method, IMSVidFeatures.get_Count, IMSVidFeatures::get_Count, IMSVidFeaturesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IMSVidFeatures interface, mstv.imsvidfeatures_get_count, segment/IMSVidFeatures::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

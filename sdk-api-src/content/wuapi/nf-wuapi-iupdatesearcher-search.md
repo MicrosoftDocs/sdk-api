@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.Search
 title: IUpdateSearcher::Search
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs a synchronous search for updates. The search uses the search options that are currently configured.
 old-location: wua\iupdatesearchersearch.htm
 old-project: Wua_Sdk
 ms.assetid: 0511cfd0-f4de-41ab-af35-32d757217386
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],Search method, IUpdateSearcher.Search, IUpdateSearcher::Search, Search, Search method [Windows Update Agent], Search method [Windows Update Agent],IUpdateSearcher interface, wua.iupdatesearchersearch, wuapi/IUpdateSearcher::Search
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_CERT_SIGNED_SAML_AUTHENTICATOR
 title: "_WS_CERT_SIGNED_SAML_AUTHENTICATOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: The type for specifying a SAML token authenticator based on an array of expected issuer certificates.
 old-location: wsw\ws_cert_signed_saml_authenticator.htm
 old-project: wsw
 ms.assetid: 228ba94f-6e99-4bbf-93be-19d0311985ee
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_CERT_SIGNED_SAML_AUTHENTICATOR, WS_CERT_SIGNED_SAML_AUTHENTICATOR structure [Web Services for Windows], _WS_CERT_SIGNED_SAML_AUTHENTICATOR, webservices/WS_CERT_SIGNED_SAML_AUTHENTICATOR, wsw.ws_cert_signed_saml_authenticator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

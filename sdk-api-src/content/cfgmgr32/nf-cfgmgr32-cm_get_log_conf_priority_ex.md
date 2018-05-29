@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Log_Conf_Priority_Ex
 title: CM_Get_Log_Conf_Priority_Ex function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_Log_Conf_Priority_Ex function obtains the configuration priority of a specified logical configuration on a local or a remote machine.
 old-location: devinst\cm_get_log_conf_priority_ex.htm
 old-project: devinst
 ms.assetid: e02e8885-b459-4a70-9f0d-7765603e9dc4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_Log_Conf_Priority_Ex, CM_Get_Log_Conf_Priority_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Log_Conf_Priority_Ex, cfgmgrfn_f4e7d475-18c7-4854-bff1-a484014f07ac.xml, devinst.cm_get_log_conf_priority_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

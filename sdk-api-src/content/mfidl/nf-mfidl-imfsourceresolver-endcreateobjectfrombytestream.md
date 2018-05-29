@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.EndCreateObjectFromByteStream
 title: IMFSourceResolver::EndCreateObjectFromByteStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes an asynchronous request to create a media source from a byte stream.
 old-location: mf\imfsourceresolver_endcreateobjectfrombytestream.htm
 old-project: medfound
 ms.assetid: 54532c0e-772b-45b6-95a3-5959023b9bc8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 54532c0e-772b-45b6-95a3-5959023b9bc8, EndCreateObjectFromByteStream, EndCreateObjectFromByteStream method [Media Foundation], EndCreateObjectFromByteStream method [Media Foundation],IMFSourceResolver interface, IMFSourceResolver interface [Media Foundation],EndCreateObjectFromByteStream method, IMFSourceResolver.EndCreateObjectFromByteStream, IMFSourceResolver::EndCreateObjectFromByteStream, mf.imfsourceresolver_endcreateobjectfrombytestream, mfidl/IMFSourceResolver::EndCreateObjectFromByteStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

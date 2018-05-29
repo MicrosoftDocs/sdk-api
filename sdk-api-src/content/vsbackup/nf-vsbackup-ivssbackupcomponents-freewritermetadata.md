@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.FreeWriterMetadata
 title: IVssBackupComponents::FreeWriterMetadata
-author: windows-driver-content
+author: windows-sdk-content
 description: The FreeWriterMetadata method frees system resources allocated when IVssBackupComponents::GatherWriterMetadata was called.
 old-location: base\ivssbackupcomponents_freewritermetadata.htm
 old-project: VSS
 ms.assetid: 888d30bd-527b-4b7b-9d31-3df0556b268f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FreeWriterMetadata, FreeWriterMetadata method [VSS], FreeWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],FreeWriterMetadata method, IVssBackupComponents.FreeWriterMetadata, IVssBackupComponents::FreeWriterMetadata, _win32_ivssbackupcomponents_freewritermetadata, base.ivssbackupcomponents_freewritermetadata, vsbackup/IVssBackupComponents::FreeWriterMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

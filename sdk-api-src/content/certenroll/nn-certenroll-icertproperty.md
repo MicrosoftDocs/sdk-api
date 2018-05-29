@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ICertProperty
 title: ICertProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Can be used to associate an external property with a certificate.
 old-location: security\icertproperty.htm
 old-project: SecCertEnroll
 ms.assetid: 947c2f09-993d-4ced-8b76-66b79d96e3bc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertProperty, ICertProperty interface [Security], ICertProperty interface [Security],described, certenroll/ICertProperty, security.icertproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

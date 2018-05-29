@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2tcpip.GetAddrInfoExOverlappedResult
 title: GetAddrInfoExOverlappedResult function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the return code for an OVERLAPPED structure used by an asynchronous operation for the GetAddrInfoEx function.
 old-location: winsock\getaddrinfoexoverlappedresult.htm
 old-project: WinSock
 ms.assetid: BBA6E407-561C-4B3C-9218-0047477E82DE
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: GetAddrInfoExOverlappedResult, GetAddrInfoExOverlappedResult function [Winsock], winsock.getaddrinfoexoverlappedresult, ws2tcpip/GetAddrInfoExOverlappedResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

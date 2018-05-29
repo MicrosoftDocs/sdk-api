@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathRemoveBackslashW
 title: PathRemoveBackslashW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the trailing backslash from a given path.
 old-location: shell\PathRemoveBackslash.htm
 old-project: shell
 ms.assetid: 58d13c38-40aa-4aaa-81dc-2b68425f1fe0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathRemoveBackslash, PathRemoveBackslash function [Windows Shell], PathRemoveBackslashA, PathRemoveBackslashW, _win32_PathRemoveBackslash, shell.PathRemoveBackslash, shlwapi/PathRemoveBackslash, shlwapi/PathRemoveBackslashA, shlwapi/PathRemoveBackslashW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

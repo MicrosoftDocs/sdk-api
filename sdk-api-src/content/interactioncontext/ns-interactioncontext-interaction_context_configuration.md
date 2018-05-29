@@ -1,16 +1,16 @@
 ---
 UID: NS:interactioncontext.INTERACTION_CONTEXT_CONFIGURATION
 title: INTERACTION_CONTEXT_CONFIGURATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the configuration of an Interaction Context object that enables, disables, or modifies the behavior of an interaction.
 old-location: input_intcontext\interaction_context_configuration.htm
 old-project: Input_IntContext
 ms.assetid: 0cbae801-d6d9-412b-ab8a-0b6c9d7c103e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: INTERACTION_CONTEXT_CONFIGURATION, INTERACTION_CONTEXT_CONFIGURATION structure, input_intcontext.interaction_context_configuration, interactioncontext.interaction_context_configuration, interactioncontext/INTERACTION_CONTEXT_CONFIGURATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: interactioncontext.h
 req.include-header: 

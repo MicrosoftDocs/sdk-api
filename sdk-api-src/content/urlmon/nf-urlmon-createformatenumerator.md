@@ -1,16 +1,16 @@
 ---
 UID: NF:urlmon.CreateFormatEnumerator
 title: CreateFormatEnumerator function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an object that implements IEnumFORMATETC over a static array of FORMATETC structures.
 old-location: com\createformatenumerator.htm
 old-project: com
 ms.assetid: 302418e5-48b6-46ee-bb96-2a8170c4af5e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateFormatEnumerator, CreateFormatEnumerator function [COM], _ole_CreateFormatEnumerator, com.createformatenumerator, urlmon/CreateFormatEnumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: urlmon.h
 req.include-header: 

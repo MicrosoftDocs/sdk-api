@@ -1,16 +1,16 @@
 ---
 UID: NS:mfobjects._MFRatio
 title: "_MFRatio"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a ratio.
 old-location: mf\mfratio.htm
 old-project: medfound
 ms.assetid: 315d31d6-bf68-4495-9bae-1f624f497c1a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 315d31d6-bf68-4495-9bae-1f624f497c1a, MFRatio, MFRatio structure [Media Foundation], _MFRatio, mf.mfratio, mfobjects/MFRatio
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h

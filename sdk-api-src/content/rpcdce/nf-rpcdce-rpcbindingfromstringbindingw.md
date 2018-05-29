@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcBindingFromStringBindingW
 title: RpcBindingFromStringBindingW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a binding handle from a string representation of a binding handle.
 old-location: rpc\rpcbindingfromstringbinding.htm
 old-project: Rpc
 ms.assetid: fd82fb9f-da0e-46fb-9c11-a75a9b6ee858
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcBindingFromStringBinding, RpcBindingFromStringBinding function [RPC], RpcBindingFromStringBindingA, RpcBindingFromStringBindingW, _rpc_rpcbindingfromstringbinding, rpc.rpcbindingfromstringbinding, rpcdce/RpcBindingFromStringBinding, rpcdce/RpcBindingFromStringBindingA, rpcdce/RpcBindingFromStringBindingW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

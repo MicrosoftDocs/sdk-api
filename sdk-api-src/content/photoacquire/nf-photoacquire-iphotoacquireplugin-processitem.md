@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquirePlugin.ProcessItem
 title: IPhotoAcquirePlugin::ProcessItem
-author: windows-driver-content
+author: windows-sdk-content
 description: The ProcessItem method provides additional functionality each time an item is processed. The application provides the implementation of the ProcessItem method.
 old-location: picacq\iphotoacquireplugin_processitem.htm
 old-project: acquisition
 ms.assetid: f8a9144e-a728-48b7-a729-eec6d4db6d9e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoAcquirePlugin interface [Picture Acquisition],ProcessItem method, IPhotoAcquirePlugin.ProcessItem, IPhotoAcquirePlugin::ProcessItem, IPhotoAcquirePluginProcessItem, ProcessItem, ProcessItem method [Picture Acquisition], ProcessItem method [Picture Acquisition],IPhotoAcquirePlugin interface, photoacquire/IPhotoAcquirePlugin::ProcessItem, picacq.iphotoacquireplugin_processitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

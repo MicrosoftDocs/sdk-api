@@ -1,16 +1,16 @@
 ---
 UID: NN:qnetwork.IAMNetShowConfig
 title: IAMNetShowConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMNetShowConfig interface configures the legacy Windows Media Player 6.4 source filter. The Windows Media Source filter implements this interface.
 old-location: dshow\iamnetshowconfig.htm
 old-project: DirectShow
 ms.assetid: 611b43dc-7f6d-404e-90a4-b109b9475fb6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], IAMNetShowConfig interface [DirectShow],described, IAMNetShowConfigInterface, dshow.iamnetshowconfig, qnetwork/IAMNetShowConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: qnetwork.h
 req.include-header: 

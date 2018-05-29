@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzTask.put_Name
 title: IAzTask::put_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the name of the task.
 old-location: security\iaztask_name.htm
 old-project: SecAuthZ
 ms.assetid: 135706b0-8ef9-430b-aff3-3783a62232d9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzTask object [Security],Name property, IAzTask interface [Security],Name property, IAzTask.Name, IAzTask.put_Name, IAzTask::Name, IAzTask::get_Name, IAzTask::put_Name, Name property [Security], Name property [Security],AzTask object, Name property [Security],IAzTask interface, azroles/IAzTask::Name, azroles/IAzTask::get_Name, azroles/IAzTask::put_Name, put_Name, security.iaztask_name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

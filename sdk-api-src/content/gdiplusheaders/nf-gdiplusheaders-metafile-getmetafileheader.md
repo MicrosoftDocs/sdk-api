@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Metafile.GetMetafileHeader
 title: Metafile::GetMetafileHeader
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the GetMetafileHeader methods of the Metafile class. For a complete list of methods for the Metafile class, see Metafile Methods.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_GetMetafileHeader_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\metafilegetmetafileheadermethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetMetafileHeader, GetMetafileHeader methods [GDI+], Metafile.GetMetafileHeader, Metafile::GetMetafileHeader, _gdiplus_CLASS_Metafile_GetMetafileHeader_Methods, gdiplus._gdiplus_CLASS_Metafile_GetMetafileHeader_Methods, gdiplusheaders/GetMetafileHeader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 

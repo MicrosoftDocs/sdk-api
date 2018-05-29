@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.WaitOnAddress
 title: WaitOnAddress function
-author: windows-driver-content
+author: windows-sdk-content
 description: Waits for the value at the specified address to change.
 old-location: base\waitonaddress.htm
 old-project: Sync
 ms.assetid: d40de436-f71e-47f6-a8c3-549c2699eb4c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: WaitOnAddress, WaitOnAddress function, base.waitonaddress, synchapi/WaitOnAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows.h

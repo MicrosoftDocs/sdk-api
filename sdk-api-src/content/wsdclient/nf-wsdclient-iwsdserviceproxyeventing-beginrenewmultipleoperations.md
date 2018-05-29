@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.BeginRenewMultipleOperations
 title: IWSDServiceProxyEventing::BeginRenewMultipleOperations
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an asynchronous operation that renews a collection of existing notification subscriptions by submitting a new duration.
 old-location: ncd\iwsdserviceproxyeventing_beginrenewmultipleoperations.htm
 old-project: WsdApi
 ms.assetid: ac93a29a-789f-4aa0-b804-b4d0a5b89ee2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: BeginRenewMultipleOperations, BeginRenewMultipleOperations method, BeginRenewMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginRenewMultipleOperations method, IWSDServiceProxyEventing.BeginRenewMultipleOperations, IWSDServiceProxyEventing::BeginRenewMultipleOperations, ncd.iwsdserviceproxyeventing_beginrenewmultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginRenewMultipleOperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

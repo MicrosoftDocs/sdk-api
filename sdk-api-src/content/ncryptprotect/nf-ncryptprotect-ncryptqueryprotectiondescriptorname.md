@@ -1,16 +1,16 @@
 ---
 UID: NF:ncryptprotect.NCryptQueryProtectionDescriptorName
 title: NCryptQueryProtectionDescriptorName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the protection descriptor rule string associated with a registered descriptor display name.
 old-location: security\ncryptqueryprotectiondescriptorname.htm
 old-project: SecCNG
 ms.assetid: 32953AEC-01EE-4ED1-80F3-29963F43004F
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCryptQueryProtectionDescriptorName, NCryptQueryProtectionDescriptorName function [Security], ncryptprotect/NCryptQueryProtectionDescriptorName, security.ncryptqueryprotectiondescriptorname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 

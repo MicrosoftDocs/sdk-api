@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfThreadMgrEx.GetActiveFlags
 title: ITfThreadMgrEx::GetActiveFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfThreadMgrEx::GetActiveFlags method returns the flags TSF is active with.
 old-location: tsf\itfthreadmgrex_getactiveflags.htm
 old-project: TSF
 ms.assetid: 2b15ddc3-0719-48cf-95fc-9c6d1e15fd4f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetActiveFlags, GetActiveFlags method [Text Services Framework], GetActiveFlags method [Text Services Framework],ITfThreadMgrEx interface, ITfThreadMgrEx interface [Text Services Framework],GetActiveFlags method, ITfThreadMgrEx.GetActiveFlags, ITfThreadMgrEx::GetActiveFlags, TF_TMF_ACTIVATED, TF_TMF_COMLESS, TF_TMF_CONSOLE, TF_TMF_NOACTIVATETIP, TF_TMF_SECUREMODE, TF_TMF_UIELEMENTENABLEDONLY, TF_TMF_WOW16, msctf/ITfThreadMgrEx::GetActiveFlags, tsf.itfthreadmgrex_getactiveflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

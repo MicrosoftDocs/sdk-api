@@ -1,16 +1,16 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0002
 title: "__MIDL___MIDL_itf_ads_0000_0000_0002"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADS_OCTET_STRING structure is an ADSI representation of the Octet String attribute syntax used in Active Directory.
 old-location: adsi\ads_octet_string.htm
 old-project: ADSI
 ms.assetid: ecad3601-081d-4cb6-a6dd-7781d652af8e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PADS_OCTET_STRING, ADS_OCTET_STRING, ADS_OCTET_STRING structure [ADSI], PADS_OCTET_STRING, PADS_OCTET_STRING structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0002, _ds_ads_octet_string, adsi.ads__octet__string, adsi.ads_octet_string, iads/ADS_OCTET_STRING, iads/PADS_OCTET_STRING"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iads.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminServerDisconnect
 title: MprAdminServerDisconnect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminServerDisconnect function disconnects the connection made by a previous call to MprAdminServerConnect.
 old-location: rras\mpradminserverdisconnect.htm
 old-project: RRAS
 ms.assetid: 905b5296-ae6b-40a6-ba49-837db96de152
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminServerDisconnect, MprAdminServerDisconnect function [RAS], _mpr_mpradminserverdisconnect, mprapi/MprAdminServerDisconnect, rras.mpradminserverdisconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

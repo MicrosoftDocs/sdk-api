@@ -1,16 +1,16 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.GetProcAmpValues
 title: IMFVideoProcessor::GetProcAmpValues
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current settings for one or more color adjustment (ProcAmp) settings.
 old-location: mf\imfvideoprocessor_getprocampvalues.htm
 old-project: medfound
 ms.assetid: d1d6f6a4-fe3b-4acf-a004-d02ece41a302
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetProcAmpValues, GetProcAmpValues method [Media Foundation], GetProcAmpValues method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetProcAmpValues method, IMFVideoProcessor.GetProcAmpValues, IMFVideoProcessor::GetProcAmpValues, d1d6f6a4-fe3b-4acf-a004-d02ece41a302, evr9/IMFVideoProcessor::GetProcAmpValues, mf.imfvideoprocessor_getprocampvalues
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: evr9.h
 req.include-header: 

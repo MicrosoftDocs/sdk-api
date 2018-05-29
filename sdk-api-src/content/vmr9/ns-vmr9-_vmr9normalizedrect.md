@@ -1,16 +1,16 @@
 ---
 UID: NS:vmr9._VMR9NormalizedRect
 title: "_VMR9NormalizedRect"
-author: windows-driver-content
+author: windows-sdk-content
 description: The VMR9NormalizedRect structure is used with the VMR-9 filter in mixing operations to specify or retrieve the location of a video rectangle in composition space.
 old-location: dshow\vmr9normalizedrect.htm
 old-project: DirectShow
 ms.assetid: 226b685c-92da-45c3-b99a-6c1e732f8dc6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: VMR9NormalizedRect, VMR9NormalizedRect structure [DirectShow], VMR9NormalizedRectStructure, _VMR9NormalizedRect, dshow.vmr9normalizedrect, vmr9/VMR9NormalizedRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 

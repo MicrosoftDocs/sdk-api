@@ -1,16 +1,16 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
 title: PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function that is called by CertSetCRLContextProperty before setting the CRL's property.
 old-location: security\certstoreprovsetcrlpropertycallback.htm
 old-project: SecCrypto
 ms.assetid: 98ad9b24-8d7d-4fbe-8fd8-089f1ddfbff0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertStoreProvSetCRLPropertyCallback, CertStoreProvSetCRLPropertyCallback callback, CertStoreProvSetCRLPropertyCallback callback function [Security], PFN_CERT_STORE_PROV_SET_CRL_PROPERTY, PFN_CERT_STORE_PROV_SET_CRL_PROPERTY callback function [Security], _crypto2_certstoreprovsetcrlpropertycallback, security.certstoreprovsetcrlpropertycallback, wincrypt/CertStoreProvSetCRLPropertyCallback, wincrypt/PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

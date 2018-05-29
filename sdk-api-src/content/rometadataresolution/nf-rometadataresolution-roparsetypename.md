@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataresolution.RoParseTypeName
 title: RoParseTypeName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Parses a type name and existing type parameters, in the case of parameterized types.
 old-location: winrt\roparsetypename.htm
 old-project: WinRT
 ms.assetid: AF007D43-7BAC-4753-9D2B-8F397B4A464A
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoParseTypeName, RoParseTypeName function [Windows Runtime], rometadataresolution/RoParseTypeName, winrt.roparsetypename
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rometadataresolution.h
 req.include-header: 

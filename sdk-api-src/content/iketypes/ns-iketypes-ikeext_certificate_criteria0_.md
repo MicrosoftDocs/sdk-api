@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_CERTIFICATE_CRITERIA0_
 title: IKEEXT_CERTIFICATE_CRITERIA0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a set of criteria to applied to an authentication method.
 old-location: fwp\ikeext_certificate_criteria0.htm
 old-project: FWP
 ms.assetid: dbcb0e25-fdde-44d9-bfad-b3605f563773
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_CERTIFICATE_CRITERIA0, IKEEXT_CERTIFICATE_CRITERIA0 structure [Filtering], IKEEXT_CERTIFICATE_CRITERIA0_, fwp.ikeext_certificate_criteria0, iketypes/IKEEXT_CERTIFICATE_CRITERIA0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

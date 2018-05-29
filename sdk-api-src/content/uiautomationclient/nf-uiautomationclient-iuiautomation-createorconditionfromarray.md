@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateOrConditionFromArray
 title: IUIAutomation::CreateOrConditionFromArray
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a combination of two or more conditions where a match exists if any of the conditions is true.
 old-location: winauto\uiauto_IUIAutomation_CreateOrConditionFromArray.htm
 old-project: WinAuto
 ms.assetid: acd15fd0-ac15-4477-8e89-4d7a4f9c93c6
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CreateOrConditionFromArray, CreateOrConditionFromArray method [Windows Accessibility], CreateOrConditionFromArray method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateOrConditionFromArray method, IUIAutomation.CreateOrConditionFromArray, IUIAutomation::CreateOrConditionFromArray, uiauto.uiauto_IUIAutomation_CreateOrConditionFromArray, uiauto_IUIAutomation_CreateOrConditionFromArray, uiautomationclient/IUIAutomation::CreateOrConditionFromArray, winauto.uiauto_IUIAutomation_CreateOrConditionFromArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

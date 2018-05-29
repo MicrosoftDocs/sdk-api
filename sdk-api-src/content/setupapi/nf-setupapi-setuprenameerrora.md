@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupRenameErrorA
 title: SetupRenameErrorA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RenameError function generates a dialog box that informs the user of a file renaming error.
 old-location: setup\setuprenameerror.htm
 old-project: SetupApi
 ms.assetid: 43371fa0-d7b4-42e0-a94d-d307a7210618
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupRenameError, SetupRenameError function [Setup API], SetupRenameErrorA, SetupRenameErrorW, _setupapi_setuprenameerror, setup.setuprenameerror, setupapi/SetupRenameError, setupapi/SetupRenameErrorA, setupapi/SetupRenameErrorW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

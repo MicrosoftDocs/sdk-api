@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM
 title: PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an enumerator for iterating through a resource's dependencies and nodes.
 old-location: mscs\clusterresourceopenenum.htm
 old-project: MsCS
 ms.assetid: f801401f-f49d-41de-b88b-b832330eeccf
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSTER_RESOURCE_ENUM_DEPENDS, CLUSTER_RESOURCE_ENUM_NODES, CLUSTER_RESOURCE_ENUM_PROVIDES, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM callback, PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM callback function [Failover Cluster], _wolf_clusterresourceopenenum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_OPEN_ENUM, mscs.clusterresourceopenenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

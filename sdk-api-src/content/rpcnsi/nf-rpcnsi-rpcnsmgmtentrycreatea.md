@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtEntryCreateA
 title: RpcNsMgmtEntryCreateA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsMgmtEntryCreate function creates a name service&#8211;database entry.
 old-location: rpc\rpcnsmgmtentrycreate.htm
 old-project: Rpc
 ms.assetid: 32de2395-174a-4e14-82db-9043db817708
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsMgmtEntryCreate, RpcNsMgmtEntryCreate function [RPC], RpcNsMgmtEntryCreateA, RpcNsMgmtEntryCreateW, _rpc_rpcnsmgmtentrycreate, rpc.rpcnsmgmtentrycreate, rpcnsi/RpcNsMgmtEntryCreate, rpcnsi/RpcNsMgmtEntryCreateA, rpcnsi/RpcNsMgmtEntryCreateW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

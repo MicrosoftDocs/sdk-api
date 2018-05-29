@@ -1,16 +1,16 @@
 ---
 UID: NS:dxgi1_2.DXGI_OUTDUPL_FRAME_INFO
 title: DXGI_OUTDUPL_FRAME_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The DXGI_OUTDUPL_FRAME_INFO structure describes the current desktop image.
 old-location: direct3ddxgi\dxgi_outdupl_frame_info.htm
 old-project: direct3ddxgi
 ms.assetid: 2A5C6F99-0610-457D-9850-867DCDA8F293
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_OUTDUPL_FRAME_INFO, DXGI_OUTDUPL_FRAME_INFO structure [DXGI], direct3ddxgi.dxgi_outdupl_frame_info, dxgi1_2/DXGI_OUTDUPL_FRAME_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi1_2.h
 req.include-header: 

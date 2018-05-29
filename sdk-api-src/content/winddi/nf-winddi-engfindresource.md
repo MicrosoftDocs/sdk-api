@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngFindResource
 title: EngFindResource function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngFindResource function determines the location of a resource in a module.
 old-location: display\engfindresource.htm
 old-project: display
 ms.assetid: f83d9112-af06-4b73-84b3-5b1c5b3daffb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngFindResource, EngFindResource function [Display Devices], display.engfindresource, gdifncs_93a3a136-5dfb-4c3c-afbc-4a1c475ae0c6.xml, winddi/EngFindResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

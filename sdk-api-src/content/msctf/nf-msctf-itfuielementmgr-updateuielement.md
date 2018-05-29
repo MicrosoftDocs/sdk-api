@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.UpdateUIElement
 title: ITfUIElementMgr::UpdateUIElement
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfUIElementMgr::UpdateUIElement method is called by a text service when the UI element must be updated.
 old-location: tsf\itfuielementmgr_updateuielement.htm
 old-project: TSF
 ms.assetid: c7df9abf-53a0-41a4-aac5-d90b9abfbeec
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfUIElementMgr interface [Text Services Framework],UpdateUIElement method, ITfUIElementMgr.UpdateUIElement, ITfUIElementMgr::UpdateUIElement, UpdateUIElement, UpdateUIElement method [Text Services Framework], UpdateUIElement method [Text Services Framework],ITfUIElementMgr interface, msctf/ITfUIElementMgr::UpdateUIElement, tsf.itfuielementmgr_updateuielement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:imagehlp.ImageGetDigestStream
 title: ImageGetDigestStream function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the requested data from the specified image file.
 old-location: base\imagegetdigeststream.htm
 old-project: Debug
 ms.assetid: e4560609-5b10-453f-a9a6-c5483d88cd64
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CERT_PE_IMAGE_DIGEST_ALL_IMPORT_INFO, CERT_PE_IMAGE_DIGEST_DEBUG_INFO, CERT_PE_IMAGE_DIGEST_RESOURCES, ImageGetDigestStream, ImageGetDigestStream function, _win32_imagegetdigeststream, base.imagegetdigeststream, imagehlp/ImageGetDigestStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 

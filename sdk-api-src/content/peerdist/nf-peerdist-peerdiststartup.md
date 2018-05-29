@@ -1,16 +1,16 @@
 ---
 UID: NF:peerdist.PeerDistStartup
 title: PeerDistStartup function
-author: windows-driver-content
+author: windows-sdk-content
 description: PeerDistStartup function creates a new Peer Distribution instance handle which must be passed to all other Peer Distribution APIs.
 old-location: p2p\peerdiststartup.htm
 old-project: P2PSdk
 ms.assetid: 62d4f139-ab18-4d65-bda5-1cf09d7ddab9
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerDistStartup, PeerDistStartup function [Peer Networking], p2p.peerdiststartup, peerdist/PeerDistStartup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarR4FromUI1
 title: VarR4FromUI1 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an unsigned char value to a float value.
 old-location: automat\varr4fromui1.htm
 old-project: automat
 ms.assetid: f14cb5ff-8d73-46e5-8a57-7d6e69c4ee64
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarR4FromUI1, VarR4FromUI1 function [Automation], _oa96_VarR4FromUI1, automat.varr4fromui1, oleauto/VarR4FromUI1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

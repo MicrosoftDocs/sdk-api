@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.Size.Size(IN INT,IN INT)
 title: Size::Size(IN INT,IN INT)
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new Size object and initializes the members to zero. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_Size_Size_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizeconstructors\size_20.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Size, Size class [GDI+],Size constructor, Size constructor [GDI+], Size constructor [GDI+],Size class, Size.Size, Size.Size(), Size.Size(IN INT,IN INT), Size::Size, Size::Size(IN INT,IN INT), _gdiplus_CLASS_Size_Size_, gdiplus._gdiplus_CLASS_Size_Size_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

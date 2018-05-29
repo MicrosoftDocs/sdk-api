@@ -1,16 +1,16 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.ConfigureFilterUsingProfileId
 title: IConfigAsfWriter::ConfigureFilterUsingProfileId
-author: windows-driver-content
+author: windows-sdk-content
 description: The ConfigureFilterUsingProfileId method sets a Windows Media Format 4.0 profile on the WM ASF Writer filter. This method is deprecated. Applications should use the IConfigAsfWriter::ConfigureFilterUsingProfile method to set the profile.
 old-location: dshow\iconfigasfwriter_configurefilterusingprofileid.htm
 old-project: DirectShow
 ms.assetid: e532001a-e2ff-4ad4-8fef-2fa5b051d1f5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ConfigureFilterUsingProfileId, ConfigureFilterUsingProfileId method [DirectShow], ConfigureFilterUsingProfileId method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],ConfigureFilterUsingProfileId method, IConfigAsfWriter.ConfigureFilterUsingProfileId, IConfigAsfWriter::ConfigureFilterUsingProfileId, IConfigAsfWriterConfigureFilterUsingProfileId, dshow.iconfigasfwriter_configurefilterusingprofileid, dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfileId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 

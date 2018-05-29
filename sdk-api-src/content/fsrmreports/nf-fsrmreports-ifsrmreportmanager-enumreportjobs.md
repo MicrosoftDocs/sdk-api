@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.EnumReportJobs
 title: IFsrmReportManager::EnumReportJobs
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the report jobs.
 old-location: fsrm\ifsrmreportmanager_enumreportjobs.htm
 old-project: Fsrm
 ms.assetid: af66beb6-e82c-47e6-8658-da9702041053
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: EnumReportJobs, EnumReportJobs method [File Server Resource Manager], EnumReportJobs method [File Server Resource Manager],FsrmReportManager class, EnumReportJobs method [File Server Resource Manager],IFsrmReportManager interface, FsrmReportManager class [File Server Resource Manager],EnumReportJobs method, IFsrmReportManager interface [File Server Resource Manager],EnumReportJobs method, IFsrmReportManager.EnumReportJobs, IFsrmReportManager::EnumReportJobs, fs.ifsrmreportmanager_enumreportjobs, fsrm.ifsrmreportmanager_enumreportjobs, fsrmreports/IFsrmReportManager::EnumReportJobs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReader.GetMetadataFormat
 title: IWICMetadataReader::GetMetadataFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the metadata format associated with the reader.
 old-location: wic\_wic_codec_iwicmetadatareader_getmetadataformat.htm
 old-project: wic
 ms.assetid: 5dcbfac4-9a77-4453-be1e-3c42e94d548e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetMetadataFormat, GetMetadataFormat method [Windows Imaging Component], GetMetadataFormat method [Windows Imaging Component],IWICMetadataReader interface, IWICMetadataReader interface [Windows Imaging Component],GetMetadataFormat method, IWICMetadataReader.GetMetadataFormat, IWICMetadataReader::GetMetadataFormat, _wic_codec_iwicmetadatareader_getmetadataformat, wic._wic_codec_iwicmetadatareader_getmetadataformat, wincodecsdk/IWICMetadataReader::GetMetadataFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

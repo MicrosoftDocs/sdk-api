@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetLastModifiedBy
 title: IXpsOMCoreProperties::SetLastModifiedBy
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the lastModifiedBy property.
 old-location: xps\ixpsomcoreproperties_setlastmodifiedby.htm
 old-project: printdocs
 ms.assetid: 4c19e7c8-d790-42b8-a0c4-bfd95c7de2c5
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetLastModifiedBy method, IXpsOMCoreProperties.SetLastModifiedBy, IXpsOMCoreProperties::SetLastModifiedBy, SetLastModifiedBy, SetLastModifiedBy method [XPS Documents and Packaging], SetLastModifiedBy method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setlastmodifiedby, xpsobjectmodel/IXpsOMCoreProperties::SetLastModifiedBy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

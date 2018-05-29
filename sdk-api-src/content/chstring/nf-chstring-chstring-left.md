@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.Left
 title: CHString::Left
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the first nCount characters from a CHString string and returns a copy of the extracted substring.
 old-location: wmi\chstring_left.htm
 old-project: WmiSdk
 ms.assetid: 52219bbb-0a88-47b3-ac6c-ba54d15e8157
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?Left@CHString@@QBE?AV1@H@Z, ?Left@CHString@@QEBA?AV1@H@Z, CHString interface [Windows Management Instrumentation],Left method, CHString.Left, CHString::Left, Left, Left method [Windows Management Instrumentation], Left method [Windows Management Instrumentation],CHString interface, _hmm_chstring_left, chstring/CHString::Left, wmi.chstring_left"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

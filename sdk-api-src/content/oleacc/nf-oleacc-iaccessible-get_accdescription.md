@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccessible.get_accDescription
 title: IAccessible::get_accDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAccessible::get_accDescription method retrieves a string that describes the visual appearance of the specified object. Not all objects have a description.
 old-location: winauto\iaccessible_iaccessible__get_accdescription.htm
 old-project: WinAuto
 ms.assetid: ca70c5bc-ac20-41fe-a9fe-f4a7209c5958
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accDescription method, IAccessible.get_accDescription, IAccessible::get_accDescription, _msaa_IAccessible_get_accDescription, get_accDescription, get_accDescription method [Windows Accessibility], get_accDescription method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accdescription, oleacc/IAccessible::get_accDescription, winauto.iaccessible_iaccessible__get_accdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsStatusChange
 title: IMbnSmsEvents::OnSmsStatusChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification method indicating a change in the status of the message store.
 old-location: mbn\imbnsmsevents_onsmsstatuschange.htm
 old-project: mbn
 ms.assetid: 8a3027e2-f8ee-476a-96e2-29ef4d87db38
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsStatusChange method, IMbnSmsEvents.OnSmsStatusChange, IMbnSmsEvents::OnSmsStatusChange, OnSmsStatusChange, OnSmsStatusChange method [Microsoft Broadband Networks], OnSmsStatusChange method [Microsoft Broadband Networks],IMbnSmsEvents interface, mbn.imbnsmsevents_onsmsstatuschange, mbnapi/IMbnSmsEvents::OnSmsStatusChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

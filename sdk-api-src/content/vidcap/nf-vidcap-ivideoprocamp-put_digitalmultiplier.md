@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_DigitalMultiplier
 title: IVideoProcAmp::put_DigitalMultiplier
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_DigitalMultiplier method sets the camera's digital zoom level.
 old-location: dshow\ivideoprocamp_put_digitalmultiplier.htm
 old-project: DirectShow
 ms.assetid: c1832aad-22fc-41f0-a99a-09b56c148384
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_DigitalMultiplier method, IVideoProcAmp.put_DigitalMultiplier, IVideoProcAmp::put_DigitalMultiplier, IVideoProcAmpput_DigitalMultiplier, dshow.ivideoprocamp_put_digitalmultiplier, put_DigitalMultiplier, put_DigitalMultiplier method [DirectShow], put_DigitalMultiplier method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_DigitalMultiplier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

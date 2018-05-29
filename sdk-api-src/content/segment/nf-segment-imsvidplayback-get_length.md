@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_Length
 title: IMSVidPlayback::get_Length
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Length method retrieves the length of the playback source.
 old-location: mstv\imsvidplayback_get_length.htm
 old-project: mstv
 ms.assetid: a559c0b4-ed63-47ef-b99a-866c87939d5b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_Length method, IMSVidPlayback.get_Length, IMSVidPlayback::get_Length, IMSVidPlaybackget_Length, get_Length, get_Length method [Microsoft TV Technologies], get_Length method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_length, segment/IMSVidPlayback::get_Length
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

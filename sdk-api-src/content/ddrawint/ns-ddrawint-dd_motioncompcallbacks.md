@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint.DD_MOTIONCOMPCALLBACKS
 title: DD_MOTIONCOMPCALLBACKS
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_MOTIONCOMPCALLBACKS structure contains entry pointers to the motion compensation callback functions that a device driver supports.
 old-location: display\dd_motioncompcallbacks.htm
 old-project: display
 ms.assetid: db707fd8-2190-4c4f-89fd-ab46d97f66a2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_MOTIONCOMPCALLBACKS, DD_MOTIONCOMPCALLBACKS, DD_MOTIONCOMPCALLBACKS structure [Display Devices], PDD_MOTIONCOMPCALLBACKS, PDD_MOTIONCOMPCALLBACKS structure pointer [Display Devices], ddrawint/DD_MOTIONCOMPCALLBACKS, ddrawint/PDD_MOTIONCOMPCALLBACKS, ddstrcts_b9c5a52b-5814-42ae-8002-0de8f7c0bca5.xml, display.dd_motioncompcallbacks"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

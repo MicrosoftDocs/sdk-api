@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceEnumerator.GetCurrent
 title: IOpcSignatureRelationshipReferenceEnumerator::GetCurrent
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IOpcSignatureRelationshipReference interface pointer at the current position of the enumerator.
 old-location: opc\iopcsignaturerelationshipreferenceenumerator_getcurrent.htm
 old-project: OPC
 ms.assetid: 18aac7c9-db1a-4fc5-896e-7a02c12788f2
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceEnumerator interface, IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcSignatureRelationshipReferenceEnumerator.GetCurrent, IOpcSignatureRelationshipReferenceEnumerator::GetCurrent, msopc/IOpcSignatureRelationshipReferenceEnumerator::GetCurrent, opc.iopcsignaturerelationshipreferenceenumerator_getcurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

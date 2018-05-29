@@ -1,16 +1,16 @@
 ---
 UID: NF:lmjoin.NetEnumerateComputerNames
 title: NetEnumerateComputerNames function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates names for the specified computer.
 old-location: netmgmt\netenumeratecomputernames.htm
 old-project: NetMgmt
 ms.assetid: c657ae33-404e-4c36-a956-5fbcfa540be7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetAllComputerNames, NetAlternateComputerNames, NetComputerNameTypeMax, NetEnumerateComputerNames, NetEnumerateComputerNames function [Network Management], NetPrimaryComputerName, lmjoin/NetEnumerateComputerNames, netmgmt.netenumeratecomputernames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmjoin.h
 req.include-header: Lm.h

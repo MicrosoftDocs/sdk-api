@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents2.BeginFieldUpdates
 title: ICredentialProviderCredentialEvents2::BeginFieldUpdates
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts a batch update to fields in the logon or credential UI.
 old-location: shell\ICredentialProviderCredentialEvents2_BeginFieldUpdates.htm
 old-project: shell
 ms.assetid: 2E7EB8B4-ED6F-4954-88D3-FB79D80E53B2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: BeginFieldUpdates, BeginFieldUpdates method [Windows Shell], BeginFieldUpdates method [Windows Shell],ICredentialProviderCredentialEvents2 interface, ICredentialProviderCredentialEvents2 interface [Windows Shell],BeginFieldUpdates method, ICredentialProviderCredentialEvents2.BeginFieldUpdates, ICredentialProviderCredentialEvents2::BeginFieldUpdates, credentialprovider/ICredentialProviderCredentialEvents2::BeginFieldUpdates, shell.ICredentialProviderCredentialEvents2_BeginFieldUpdates
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

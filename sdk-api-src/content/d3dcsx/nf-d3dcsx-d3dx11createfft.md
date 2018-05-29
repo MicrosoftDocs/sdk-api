@@ -1,16 +1,16 @@
 ---
 UID: NF:d3dcsx.D3DX11CreateFFT
 title: D3DX11CreateFFT function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an ID3DX11FFT COM interface object.
 old-location: direct3d11\d3dx11createfft.htm
 old-project: direct3d11
 ms.assetid: 9a386221-b3ed-421d-aa98-933f7d267bdd
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3DX11CreateFFT, D3DX11CreateFFT function [Direct3D 11], ca8c0d76-37a0-9faf-2e44-4ead20994182, d3dcsx/D3DX11CreateFFT, direct3d11.d3dx11createfft
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3dcsx.h
 req.include-header: 

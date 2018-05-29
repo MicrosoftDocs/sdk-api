@@ -1,16 +1,16 @@
 ---
 UID: NE:dwmapi.DWMTRANSITION_OWNEDWINDOW_TARGET
 title: DWMTRANSITION_OWNEDWINDOW_TARGET
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the target.
 old-location: dwm\dwmtransition_ownedwindow_target.htm
 old-project: dwm
 ms.assetid: 01164EBA-EAD1-47EB-9ED6-F4791DAF7E00
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: DWMTRANSITION_OWNEDWINDOW_NULL, DWMTRANSITION_OWNEDWINDOW_REPOSITION, DWMTRANSITION_OWNEDWINDOW_TARGET, DWMTRANSITION_OWNEDWINDOW_TARGET enumeration [Desktop Window Manager], dwm.dwmtransition_ownedwindow_target, dwmapi/DWMTRANSITION_OWNEDWINDOW_NULL, dwmapi/DWMTRANSITION_OWNEDWINDOW_REPOSITION, dwmapi/DWMTRANSITION_OWNEDWINDOW_TARGET
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwmapi.h
 req.include-header: 

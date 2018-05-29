@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.RtlUniform
 title: RtlUniform function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates a uniform random number using D.H. Lehmer's 1948 algorithm.
 old-location: winprog\rtluniform.htm
 old-project: DevNotes
 ms.assetid: 78bb05fa-3ebc-4e61-ae4f-58544da51200
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtlUniform, RtlUniform function [Windows API], winprog.rtluniform, winternl/RtlUniform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

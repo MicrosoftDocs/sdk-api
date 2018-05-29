@@ -1,16 +1,16 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_NUMERIC_COMPARISON_INFO
 title: "_BLUETOOTH_NUMERIC_COMPARISON_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: BLUETOOTH_NUMERIC_COMPARISON_INFO structure contains the numeric value used for authentication via numeric comparison.
 old-location: bluetooth\bluetooth_numeric_comparison_info.htm
 old-project: Bluetooth
 ms.assetid: 5e8f8250-6790-41dd-bd0b-13a421cf3ebc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PBLUETOOTH_NUMERIC_COMPARISON_INFO, BLUETOOTH_NUMERIC_COMPARISON_INFO, BLUETOOTH_NUMERIC_COMPARISON_INFO structure [Bluetooth], PBLUETOOTH_NUMERIC_COMPARISON_INFO, PBLUETOOTH_NUMERIC_COMPARISON_INFO structure pointer [Bluetooth], _BLUETOOTH_NUMERIC_COMPARISON_INFO, bluetooth.bluetooth_numeric_comparison_info, bluetoothapis/BLUETOOTH_NUMERIC_COMPARISON_INFO, bluetoothapis/PBLUETOOTH_NUMERIC_COMPARISON_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateDepthStencilView
 title: ID3D10Device::CreateDepthStencilView
-author: windows-driver-content
+author: windows-sdk-content
 description: Create a depth-stencil view for accessing resource data.
 old-location: direct3d10\id3d10device_createdepthstencilview.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createdepthstencilview.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CreateDepthStencilView, CreateDepthStencilView method [Direct3D 10], CreateDepthStencilView method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateDepthStencilView method, ID3D10Device.CreateDepthStencilView, ID3D10Device::CreateDepthStencilView, d3d10/ID3D10Device::CreateDepthStencilView, direct3d10.id3d10device_createdepthstencilview, f7b0585b-710f-b4d1-e65f-c30b57116c09
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

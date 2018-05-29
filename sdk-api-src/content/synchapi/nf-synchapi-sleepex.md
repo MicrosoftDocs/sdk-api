@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.SleepEx
 title: SleepEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Suspends the current thread until the specified condition is met.
 old-location: base\sleepex.htm
 old-project: ProcThread
 ms.assetid: a73cff94-ad63-4110-9f01-6469481c3d55
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SleepEx, SleepEx function, _win32_sleepex, base.sleepex, synchapi/SleepEx, winbase/SleepEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

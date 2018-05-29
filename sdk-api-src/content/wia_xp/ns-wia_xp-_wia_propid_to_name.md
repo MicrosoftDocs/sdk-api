@@ -1,16 +1,16 @@
 ---
 UID: NS:wia_xp._WIA_PROPID_TO_NAME
 title: "_WIA_PROPID_TO_NAME"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a quick means by which applications can look up the standard Windows Image Acquisition (WIA) property name from the WIA property ID (or vice versa).
 old-location: wia\_wia_WIA_PROPID_TO_NAME.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_propid_to_name.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: "*PWIA_PROPID_TO_NAME, PWIA_PROPID_TO_NAME, PWIA_PROPID_TO_NAME structure pointer [WIA], WIA_PROPID_TO_NAME, WIA_PROPID_TO_NAME structure [WIA], _WIA_PROPID_TO_NAME, _wia_WIA_PROPID_TO_NAME, wia._wia_WIA_PROPID_TO_NAME, wia_xp/PWIA_PROPID_TO_NAME, wia_xp/WIA_PROPID_TO_NAME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wia_xp.h
 req.include-header: Wia.h

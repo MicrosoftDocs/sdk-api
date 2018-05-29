@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IPrincipal2.put_ProcessTokenSidType
 title: IPrincipal2::put_ProcessTokenSidType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the task process security identifier (SID) type.
 old-location: taskschd\iprincipal2_processtokensidtype.htm
 old-project: TaskSchd
 ms.assetid: 73bd517f-5496-482e-ad9d-59066689e84a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IPrincipal2 interface [Task Scheduler],ProcessTokenSidType property, IPrincipal2.ProcessTokenSidType, IPrincipal2.put_ProcessTokenSidType, IPrincipal2::ProcessTokenSidType, IPrincipal2::get_ProcessTokenSidType, IPrincipal2::put_ProcessTokenSidType, ProcessTokenSidType property [Task Scheduler], ProcessTokenSidType property [Task Scheduler],IPrincipal2 interface, TASK_PROCESSTOKENSID_DEFAULT, TASK_PROCESSTOKENSID_NONE, TASK_PROCESSTOKENSID_UNRESTRICTED, put_ProcessTokenSidType, taskschd.iprincipal2_processtokensidtype, taskschd/IPrincipal2::ProcessTokenSidType, taskschd/IPrincipal2::get_ProcessTokenSidType, taskschd/IPrincipal2::put_ProcessTokenSidType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

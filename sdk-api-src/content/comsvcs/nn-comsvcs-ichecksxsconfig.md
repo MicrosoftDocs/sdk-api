@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ICheckSxsConfig
 title: ICheckSxsConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to check the configuration of the current side-by-side assembly.
 old-location: cos\ichecksxsconfig.htm
 old-project: cossdk
 ms.assetid: 34c97d61-694e-4ee3-92ed-55b0a787b747
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICheckSxSConfig, ICheckSxSConfig interface [COM+], ICheckSxSConfig interface [COM+],described, _cos_ICheckSxsConfig, comsvcs/ICheckSxSConfig, cos.ichecksxsconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

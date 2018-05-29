@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Connect
 title: ITBasicCallControl::Connect
-author: windows-driver-content
+author: windows-sdk-content
 description: The Connect method attempts to complete the connection of an outgoing call.
 old-location: tapi3\itbasiccallcontrol_connect.htm
 old-project: Tapi
 ms.assetid: cc9a8bfd-14c0-459c-a911-325b73323c08
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Connect, Connect method [TAPI 2.2], Connect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Connect method, ITBasicCallControl.Connect, ITBasicCallControl::Connect, _tapi3_itbasiccallcontrol_connect, tapi3.itbasiccallcontrol_connect, tapi3if/ITBasicCallControl::Connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

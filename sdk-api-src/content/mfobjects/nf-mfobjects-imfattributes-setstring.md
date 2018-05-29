@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetString
 title: IMFAttributes::SetString
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates a wide-character string with a key.
 old-location: mf\imfattributes_setstring.htm
 old-project: medfound
 ms.assetid: 51d2a2a0-92cb-49e0-b4a9-7201e9d92322
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 51d2a2a0-92cb-49e0-b4a9-7201e9d92322, IMFAttributes interface [Media Foundation],SetString method, IMFAttributes.SetString, IMFAttributes::SetString, SetString, SetString method [Media Foundation], SetString method [Media Foundation],IMFAttributes interface, mf.imfattributes_setstring, mfobjects/IMFAttributes::SetString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

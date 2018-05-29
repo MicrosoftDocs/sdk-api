@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpSetExtendedInformationFn
 title: SpSetExtendedInformationFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets extended information about the security package.
 old-location: security\spsetextendedinformation.htm
 old-project: SecAuthN
 ms.assetid: a6176786-c19b-4ecf-8a7b-2430ff8b56f7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SpSetExtendedInformation, SpSetExtendedInformation function [Security], SpSetExtendedInformationFn, _ssp_spsetextendedinformation, ntsecpkg/SpSetExtendedInformation, security.spsetextendedinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

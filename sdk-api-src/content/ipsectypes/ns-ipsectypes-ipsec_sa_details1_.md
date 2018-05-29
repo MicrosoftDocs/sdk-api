@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_DETAILS1_
 title: IPSEC_SA_DETAILS1_
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to store information returned when enumerating IPsec security associations (SAs).
 old-location: fwp\ipsec_sa_details1_struct.htm
 old-project: FWP
 ms.assetid: 257e7ac0-9cb4-45aa-b7e5-107bb3483ab9
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_SA_DETAILS1, IPSEC_SA_DETAILS1 structure [Filtering], IPSEC_SA_DETAILS1_, fwp.ipsec_sa_details1_struct, ipsectypes/IPSEC_SA_DETAILS1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

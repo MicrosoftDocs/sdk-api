@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineDrop
 title: lineDrop function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineDrop function drops or disconnects the specified call. The application has the option to specify user-user information to be transmitted as part of the call disconnect.
 old-location: tapi2\linedrop.htm
 old-project: Tapi
 ms.assetid: ce1f1dbb-287b-483a-9e7e-87af0d07e4e4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linedrop, lineDrop, lineDrop function [TAPI 2.2], tapi/lineDrop, tapi2.linedrop"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_HTTP_URL
 title: "_WS_HTTP_URL"
-author: windows-driver-content
+author: windows-sdk-content
 description: The URL subtype for specifying an HTTP URL.
 old-location: wsw\ws_http_url.htm
 old-project: wsw
 ms.assetid: 36f4dda6-d46a-44cd-b4cd-597fa3298870
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_HTTP_URL, WS_HTTP_URL structure [Web Services for Windows], _WS_HTTP_URL, webservices/WS_HTTP_URL, wsw.ws_http_url
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

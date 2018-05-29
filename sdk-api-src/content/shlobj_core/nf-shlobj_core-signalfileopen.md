@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SignalFileOpen
 title: SignalFileOpen function
-author: windows-driver-content
+author: windows-sdk-content
 description: SignalFileOpen may be altered or unavailable.
 old-location: shell\SignalFileOpen.htm
 old-project: shell
 ms.assetid: b46bb06f-a183-4a39-89bd-457fa4fe728f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SignalFileOpen, SignalFileOpen function [Windows Shell], _win32_SignalFileOpen, shell.SignalFileOpen, shlobj_core/SignalFileOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

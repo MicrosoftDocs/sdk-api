@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollectionQuery.AddQueryConstraint
 title: IFunctionInstanceCollectionQuery::AddQueryConstraint
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a query constraint to the query.
 old-location: ncd\ifunctioninstancecollectionquery_addqueryconstraint.htm
 old-project: FunDisc
 ms.assetid: 334d7c04-1446-49da-ac45-9a7d4fd82a9d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: AddQueryConstraint, AddQueryConstraint method, AddQueryConstraint method,IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface,AddQueryConstraint method, IFunctionInstanceCollectionQuery.AddQueryConstraint, IFunctionInstanceCollectionQuery::AddQueryConstraint, functiondiscoveryapi/IFunctionInstanceCollectionQuery::AddQueryConstraint, ncd.ifunctioninstancecollectionquery_addqueryconstraint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 

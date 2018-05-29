@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.GetTimeSource
 title: IMFPresentationClock::GetTimeSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the clock's presentation time source.
 old-location: mf\imfpresentationclock_gettimesource.htm
 old-project: medfound
 ms.assetid: e6b6851b-f5b3-40c2-9160-59f2a68c9131
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetTimeSource, GetTimeSource method [Media Foundation], GetTimeSource method [Media Foundation],IMFPresentationClock interface, IMFPresentationClock interface [Media Foundation],GetTimeSource method, IMFPresentationClock.GetTimeSource, IMFPresentationClock::GetTimeSource, e6b6851b-f5b3-40c2-9160-59f2a68c9131, mf.imfpresentationclock_gettimesource, mfidl/IMFPresentationClock::GetTimeSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

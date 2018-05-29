@@ -1,16 +1,16 @@
 ---
 UID: NE:dispatcherqueue.DISPATCHERQUEUE_THREAD_TYPE
 title: DISPATCHERQUEUE_THREAD_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the thread affinity for a new DispatcherQueueController.
 old-location: base\dispatcherqueue_thread_type.htm
 old-project: ProcThread
 ms.assetid: 72558E7E-0ECB-4641-949F-07C43A6E2507
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DISPATCHERQUEUE_THREAD_TYPE, DISPATCHERQUEUE_THREAD_TYPE enumeration, DQTYPE_THREAD_CURRENT, DQTYPE_THREAD_DEDICATED, base.dispatcherqueue_thread_type, dispatcherqueue/DISPATCHERQUEUE_THREAD_TYPE, dispatcherqueue/DQTYPE_THREAD_CURRENT, dispatcherqueue/DQTYPE_THREAD_DEDICATED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dispatcherqueue.h
 req.include-header: 

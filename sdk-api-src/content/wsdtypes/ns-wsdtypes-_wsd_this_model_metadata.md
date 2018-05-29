@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_THIS_MODEL_METADATA
 title: "_WSD_THIS_MODEL_METADATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides model-specific information relating to the device.
 old-location: ncd\wsd_this_model_metadata_struct.htm
 old-project: WsdApi
 ms.assetid: 614daaeb-76ac-4dec-93fe-f413164d5330
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_THIS_MODEL_METADATA, WSD_THIS_MODEL_METADATA structure, _WSD_THIS_MODEL_METADATA, ncd.wsd_this_model_metadata_struct, wsdtypes/WSD_THIS_MODEL_METADATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

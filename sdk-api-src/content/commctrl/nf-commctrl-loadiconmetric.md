@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.LoadIconMetric
 title: LoadIconMetric function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads a specified icon resource with a client-specified system metric.
 old-location: controls\LoadIconMetric.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\loadiconmetric.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: LIM_LARGE, LIM_SMALL, LoadIconMetric, LoadIconMetric function [Windows Controls], _shell_LoadIconMetric, _shell_LoadIconMetric_cpp, commctrl/LoadIconMetric, controls.LoadIconMetric, controls._shell_LoadIconMetric
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

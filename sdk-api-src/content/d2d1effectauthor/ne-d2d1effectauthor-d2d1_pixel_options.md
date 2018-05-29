@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_PIXEL_OPTIONS
 title: D2D1_PIXEL_OPTIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates how pixel shader sampling will be restricted.
 old-location: direct2d\d2d1_pixel_options.htm
 old-project: Direct2D
 ms.assetid: 285cf526-d8f6-4ae7-a017-066e397078b0
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_PIXEL_OPTIONS, D2D1_PIXEL_OPTIONS enumeration [Direct2D], D2D1_PIXEL_OPTIONS_NONE, D2D1_PIXEL_OPTIONS_TRIVIAL_SAMPLING, d2d1effectauthor/D2D1_PIXEL_OPTIONS, d2d1effectauthor/D2D1_PIXEL_OPTIONS_NONE, d2d1effectauthor/D2D1_PIXEL_OPTIONS_TRIVIAL_SAMPLING, direct2d.d2d1_pixel_options
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effectauthor.h
 req.include-header: 

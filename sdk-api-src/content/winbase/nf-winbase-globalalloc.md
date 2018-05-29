@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GlobalAlloc
 title: GlobalAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates the specified number of bytes from the heap.
 old-location: base\globalalloc.htm
 old-project: Memory
 ms.assetid: 06886545-bd5c-4d81-b1c3-dfa7e146e43a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GHND, GMEM_FIXED, GMEM_MOVEABLE, GMEM_ZEROINIT, GPTR, GlobalAlloc, GlobalAlloc function, _win32_globalalloc, base.globalalloc, winbase/GlobalAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

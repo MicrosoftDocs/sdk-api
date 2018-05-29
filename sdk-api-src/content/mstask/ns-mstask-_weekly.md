@@ -1,16 +1,16 @@
 ---
 UID: NS:mstask._WEEKLY
 title: "_WEEKLY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the interval, in weeks, between invocations of a task.
 old-location: taskschd\weekly.htm
 old-project: TaskSchd
 ms.assetid: e2c14738-846c-485e-a564-d8e738ca61a2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: TASK_FRIDAY, TASK_MONDAY, TASK_SATURDAY, TASK_SUNDAY, TASK_THURSDAY, TASK_TUESDAY, TASK_WEDNESDAY, WEEKLY, WEEKLY structure [Task Scheduler], _WEEKLY, _msb_weekly, mstask/WEEKLY, taskschd.weekly, triggers [Task Scheduler],structures,WEEKLY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstask.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dpa_dsa.DPA_AppendPtr
 title: DPA_AppendPtr macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts a new item at the end of a dynamic pointer array (DPA).
 old-location: controls\DPA_AppendPtr.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_appendptr.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DPA_AppendPtr, DPA_AppendPtr macro [Windows Controls], _shell_DPA_AppendPtr, _shell_DPA_AppendPtr_cpp, controls.DPA_AppendPtr, controls._shell_DPA_AppendPtr, dpa_dsa/DPA_AppendPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: dpa_dsa.h
 req.include-header: 

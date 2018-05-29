@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseNoAuthentication
 title: IWSManEx::SessionFlagUseNoAuthentication
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagUseNoAuthentication for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusenoauthentication.htm
 old-project: WinRM
 ms.assetid: af3f7512-c1d5-4c4d-b79a-b0bf8b95be6d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseNoAuthentication method, IWSManEx.SessionFlagUseNoAuthentication, IWSManEx::SessionFlagUseNoAuthentication, SessionFlagUseNoAuthentication, SessionFlagUseNoAuthentication method [Windows Remote Management], SessionFlagUseNoAuthentication method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusenoauthentication, wsmandisp/IWSManEx::SessionFlagUseNoAuthentication
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor2.AddContentWithCrossProcessChaining
 title: IDirectManipulationCompositor2::AddContentWithCrossProcessChaining
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates content (owned by the component host) with the compositor, assigns a composition device to the content, and specifies the position of the content in the composition tree relative to other composition visuals.
 old-location: directmanipulation\idirectmanipulationcompositor2_addcontentwithcrossprocesschaining.htm
 old-project: directmanipulation
 ms.assetid: dd6052df-30b5-4872-89a7-b98126fcd44d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AddContentWithCrossProcessChaining, AddContentWithCrossProcessChaining method [Direct Manipulation], AddContentWithCrossProcessChaining method [Direct Manipulation],IDirectManipulationCompositor2 interface, IDirectManipulationCompositor2 interface [Direct Manipulation],AddContentWithCrossProcessChaining method, IDirectManipulationCompositor2.AddContentWithCrossProcessChaining, IDirectManipulationCompositor2::AddContentWithCrossProcessChaining, directmanipulation.idirectmanipulationcompositor2_addcontentwithcrossprocesschaining, directmanipulation/IDirectManipulationCompositor2::AddContentWithCrossProcessChaining
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

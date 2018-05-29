@@ -1,16 +1,16 @@
 ---
 UID: NE:certenroll.X509CertificateTemplatePrivateKeyFlag
 title: X509CertificateTemplatePrivateKeyFlag
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values that specify client actions regarding a private key.
 old-location: security\x509certificatetemplateprivatekeyflag.htm
 old-project: SecCertEnroll
 ms.assetid: b908b5fb-9089-493d-9ef4-1fe429ec43d4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PrivateKeyExportable, PrivateKeyRequireAlternateSignatureAlgorithm, PrivateKeyRequireArchival, PrivateKeyRequireStrongKeyProtection, X509CertificateTemplatePrivateKeyFlag, X509CertificateTemplatePrivateKeyFlag enumeration [Security], certenroll/PrivateKeyExportable, certenroll/PrivateKeyRequireAlternateSignatureAlgorithm, certenroll/PrivateKeyRequireArchival, certenroll/PrivateKeyRequireStrongKeyProtection, certenroll/X509CertificateTemplatePrivateKeyFlag, security.x509certificatetemplateprivatekeyflag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

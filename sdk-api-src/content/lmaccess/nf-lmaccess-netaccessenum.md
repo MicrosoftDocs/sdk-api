@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetAccessEnum
 title: NetAccessEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessenum.htm
 old-project: NetMgmt
 ms.assetid: 34ffea84-ff41-43c3-864c-957178e9d22a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0, 1, NetAccessEnum, NetAccessEnum function [Network Management], _win32_netaccessenum, lmaccess/NetAccessEnum, netmgmt.netaccessenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h

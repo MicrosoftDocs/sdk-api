@@ -1,16 +1,16 @@
 ---
 UID: NS:schannel._SecPkgContext_SessionInfo
 title: "_SecPkgContext_SessionInfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether the session is a reconnection and retrieves a value that identifies the session.
 old-location: security\secpkgcontext_sessioninfo.htm
 old-project: SecAuthN
 ms.assetid: d7725803-1f4c-4d5d-8c53-81ec24d5a9d8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgContext_SessionInfo, PSecPkgContext_SessionInfo, PSecPkgContext_SessionInfo structure pointer [Security], SSL_SESSION_RECONNECT, SecPkgContext_SessionInfo, SecPkgContext_SessionInfo structure [Security], _SecPkgContext_SessionInfo, schannel/PSecPkgContext_SessionInfo, schannel/SecPkgContext_SessionInfo, security.secpkgcontext_sessioninfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: schannel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.SetFolderSettings
 title: IExplorerBrowser::SetFolderSettings
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the folder settings for the current view.
 old-location: shell\IExplorerBrowser_SetFolderSettings.htm
 old-project: shell
 ms.assetid: f24b98dd-18fc-495d-b7dd-d1491dc0a077
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],SetFolderSettings method, IExplorerBrowser.SetFolderSettings, IExplorerBrowser::SetFolderSettings, SetFolderSettings, SetFolderSettings method [Windows Shell], SetFolderSettings method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_SetFolderSettings, shell.IExplorerBrowser_SetFolderSettings, shobjidl_core/IExplorerBrowser::SetFolderSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

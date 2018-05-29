@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmGetRegisteredEntities
 title: RtmGetRegisteredEntities function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmGetRegisteredEntities function returns information about all clients that have registered with the specified instance of the routing table manager and specified address family.
 old-location: rras\rtmgetregisteredentities.htm
 old-project: RRAS
 ms.assetid: 411e15bc-7f47-4ef7-9400-292203b581af
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmGetRegisteredEntities, RtmGetRegisteredEntities function [RAS], _rtmv2ref_rtmgetregisteredentities, rras.rtmgetregisteredentities, rtmv2/RtmGetRegisteredEntities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

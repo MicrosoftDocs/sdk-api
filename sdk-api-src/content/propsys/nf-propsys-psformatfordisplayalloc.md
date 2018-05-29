@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSFormatForDisplayAlloc
 title: PSFormatForDisplayAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a formatted, Unicode string representation of a property value stored in a PROPVARIANT structure. This function allocates memory for the output string.
 old-location: properties\PSFormatForDisplayAlloc.htm
 old-project: properties
 ms.assetid: d411ea72-fb29-47b6-a7f6-0839b3e2caf2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSFormatForDisplayAlloc, PSFormatForDisplayAlloc function [Windows Properties], properties.PSFormatForDisplayAlloc, propsys/PSFormatForDisplayAlloc, shell.PSFormatForDisplayAlloc, shell_PSFormatForDisplayAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

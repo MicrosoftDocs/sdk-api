@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorProfileCollection.GetProfile
 title: IMFSensorProfileCollection::GetProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified profile.
 old-location: mf\imfsensorprofilecollection_getprofile.htm
 old-project: medfound
 ms.assetid: 3E229A12-D53A-493F-9EFB-EA28131ABB10
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetProfile, GetProfile method [Media Foundation], GetProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],GetProfile method, IMFSensorProfileCollection.GetProfile, IMFSensorProfileCollection::GetProfile, mf.imfsensorprofilecollection_getprofile, mfidl/IMFSensorProfileCollection::GetProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

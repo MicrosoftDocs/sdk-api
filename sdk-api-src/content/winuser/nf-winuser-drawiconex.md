@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.DrawIconEx
 title: DrawIconEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Draws an icon or cursor into the specified device context, performing the specified raster operations, and stretching or compressing the icon or cursor as specified.
 old-location: menurc\drawiconex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\drawiconex.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DI_COMPAT, DI_DEFAULTSIZE, DI_IMAGE, DI_MASK, DI_NOMIRROR, DI_NORMAL, DrawIconEx, DrawIconEx function [Menus and Other Resources], _win32_DrawIconEx, _win32_drawiconex_cpp, menurc.drawiconex, winui._win32_drawiconex, winuser/DrawIconEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

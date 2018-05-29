@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsAbortServiceProxy
 title: WsAbortServiceProxy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Aborts the service proxy, and cancels any pending I/O on the service proxy.
 old-location: wsw\wsabortserviceproxy.htm
 old-project: wsw
 ms.assetid: 45dc9df4-3a98-446f-b749-809607137fb1
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsAbortServiceProxy, WsAbortServiceProxy function [Web Services for Windows], webservices/WsAbortServiceProxy, wsw.wsabortserviceproxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

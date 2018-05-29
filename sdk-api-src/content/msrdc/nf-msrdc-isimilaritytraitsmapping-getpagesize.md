@@ -1,16 +1,16 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.GetPageSize
 title: ISimilarityTraitsMapping::GetPageSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the page size (disk block size) for a similarity traits table file.
 old-location: rdc\isimilaritytraitsmapping_getpagesize.htm
 old-project: Rdc
 ms.assetid: 8189d346-9e8e-40c0-8080-75c36326c917
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetPageSize, GetPageSize method [Remote Differential Compression], GetPageSize method [Remote Differential Compression],ISimilarityTraitsMapping interface, ISimilarityTraitsMapping interface [Remote Differential Compression],GetPageSize method, ISimilarityTraitsMapping.GetPageSize, ISimilarityTraitsMapping::GetPageSize, fs.isimilaritytraitsmapping_getpagesize, msrdc/ISimilarityTraitsMapping::GetPageSize, rdc.isimilaritytraitsmapping_getpagesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

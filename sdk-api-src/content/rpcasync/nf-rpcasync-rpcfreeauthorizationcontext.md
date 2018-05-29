@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcasync.RpcFreeAuthorizationContext
 title: RpcFreeAuthorizationContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcFreeAuthorizationContext function frees an Authz context obtained by a previous call to the RpcGetAuthorizationContextForClient function.
 old-location: rpc\rpcfreeauthorizationcontext.htm
 old-project: Rpc
 ms.assetid: ad6117e1-3244-42dd-b513-d5b2c28e8e10
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcFreeAuthorizationContext, RpcFreeAuthorizationContext function [RPC], _rpc_rpcfreeauthorizationcontext, rpc.rpcfreeauthorizationcontext, rpcasync/RpcFreeAuthorizationContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h

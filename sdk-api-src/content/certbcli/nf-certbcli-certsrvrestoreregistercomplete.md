@@ -1,16 +1,16 @@
 ---
 UID: NF:certbcli.CertSrvRestoreRegisterComplete
 title: CertSrvRestoreRegisterComplete function
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes a registered Certificate Services restore operation.
 old-location: security\certsrvrestoreregistercomplete.htm
 old-project: SecCrypto
 ms.assetid: 1459d5b2-2c12-48df-ae01-c713c86f1c2e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertSrvRestoreRegisterComplete, CertSrvRestoreRegisterComplete function [Security], _certsrv_certsrvrestoreregistercomplete, certbcli/CertSrvRestoreRegisterComplete, security.certsrvrestoreregistercomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

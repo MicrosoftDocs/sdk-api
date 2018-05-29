@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.CopyContext
 title: CopyContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies a source context structure (including any XState) onto an initialized destination context structure.
 old-location: base\copycontext.htm
 old-project: Debug
 ms.assetid: 805CD02A-53BC-487C-83F8-FE804368C770
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CopyContext, CopyContext function, base.copycontext, winbase/CopyContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

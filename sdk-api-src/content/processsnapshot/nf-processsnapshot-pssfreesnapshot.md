@@ -1,16 +1,16 @@
 ---
 UID: NF:processsnapshot.PssFreeSnapshot
 title: PssFreeSnapshot function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a snapshot.
 old-location: proc_snap\pssfreesnapshot.htm
 old-project: proc_snap
 ms.assetid: 5D062AE6-2F7C-4121-AB6E-9BFA06AB36C6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PssFreeSnapshot, PssFreeSnapshot function, proc_snap.pssfreesnapshot, processsnapshot/PssFreeSnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 

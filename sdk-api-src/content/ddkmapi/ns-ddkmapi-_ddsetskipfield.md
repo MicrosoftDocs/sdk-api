@@ -1,16 +1,16 @@
 ---
 UID: NS:ddkmapi._DDSETSKIPFIELD
 title: "_DDSETSKIPFIELD"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDSETSKIPFIELD structure contains the start field information.
 old-location: display\ddsetskipfield.htm
 old-project: display
 ms.assetid: 146aa32d-5268-41b3-b98c-18223002ea65
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPDDSETSKIPFIELD, DDSETSKIPFIELD, DDSETSKIPFIELD structure [Display Devices], LPDDSETSKIPFIELD, LPDDSETSKIPFIELD structure pointer [Display Devices], _DDSETSKIPFIELD, ddkmapi/DDSETSKIPFIELD, ddkmapi/LPDDSETSKIPFIELD, ddstrcts_a0567a56-5d6e-4154-86ff-90463ed2c554.xml, display.ddsetskipfield"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

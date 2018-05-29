@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleCache.EnumCache
 title: IOleCache::EnumCache
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an enumerator that can be used to enumerate the current cache connections.
 old-location: com\iolecache_enumcache.htm
 old-project: com
 ms.assetid: a8d99926-8fb9-4624-8025-483101cb9311
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnumCache, EnumCache method [COM], EnumCache method [COM],IOleCache interface, IOleCache interface [COM],EnumCache method, IOleCache.EnumCache, IOleCache::EnumCache, _ole_iolecache_enumcache, com.iolecache_enumcache, oleidl/IOleCache::EnumCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

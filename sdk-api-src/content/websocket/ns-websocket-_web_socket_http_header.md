@@ -1,16 +1,16 @@
 ---
 UID: NS:websocket._WEB_SOCKET_HTTP_HEADER
 title: "_WEB_SOCKET_HTTP_HEADER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains an HTTP header.
 old-location: websock\web_socket_http_header.htm
 old-project: WebSock
 ms.assetid: d051c2fd-c21c-43dc-9160-5626fb1d6d49
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PWEB_SOCKET_HTTP_HEADER, PWEB_SOCKET_HTTP_HEADER, PWEB_SOCKET_HTTP_HEADER structure pointer [Websocket Protocol Component API], WEB_SOCKET_HTTP_HEADER, WEB_SOCKET_HTTP_HEADER structure [Websocket Protocol Component API], _WEB_SOCKET_HTTP_HEADER, websock.web_socket_http_header, websocket/PWEB_SOCKET_HTTP_HEADER, websocket/WEB_SOCKET_HTTP_HEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: websocket.h
 req.include-header: 

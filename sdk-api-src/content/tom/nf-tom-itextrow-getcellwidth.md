@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRow.GetCellWidth
 title: ITextRow::GetCellWidth
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the width of the active cell.
 old-location: controls\itextrow_getcellwidth.htm
 old-project: Controls
 ms.assetid: dc73fdf4-29ce-4432-825d-725d61717b7a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCellWidth, GetCellWidth method [Windows Controls], GetCellWidth method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellWidth method, ITextRow.GetCellWidth, ITextRow::GetCellWidth, controls.itextrow_getcellwidth, tom/ITextRow::GetCellWidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2fs.IEnumFsiItems
 title: IEnumFsiItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to enumerate the child directory and file items for a FsiDirectoryItem object.
 old-location: imapi\ienumfsiitems.htm
 old-project: imapi
 ms.assetid: f3186af1-4056-4cb5-aac4-5253ee6dbc01
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnumFsiItems, IEnumFsiItems interface [IMAPI], IEnumFsiItems interface [IMAPI],described, imapi.ienumfsiitems, imapi2fs/IEnumFsiItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d10.D3D10_INPUT_CLASSIFICATION
 title: D3D10_INPUT_CLASSIFICATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Type of data contained in an input slot.
 old-location: direct3d10\d3d10_input_classification.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_input_classification.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 324be834-c39b-26f0-18f5-c78924801214, D3D10_INPUT_CLASSIFICATION, D3D10_INPUT_CLASSIFICATION enumeration [Direct3D 10], D3D10_INPUT_PER_INSTANCE_DATA, D3D10_INPUT_PER_VERTEX_DATA, d3d10/D3D10_INPUT_CLASSIFICATION, d3d10/D3D10_INPUT_PER_INSTANCE_DATA, d3d10/D3D10_INPUT_PER_VERTEX_DATA, direct3d10.d3d10_input_classification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d10.h
 req.include-header: 

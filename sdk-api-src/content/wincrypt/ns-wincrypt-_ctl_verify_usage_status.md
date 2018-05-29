@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CTL_VERIFY_USAGE_STATUS
 title: "_CTL_VERIFY_USAGE_STATUS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a Certificate Trust List (CTL) returned by CertVerifyCTLUsage.
 old-location: security\ctl_verify_usage_status.htm
 old-project: SecCrypto
 ms.assetid: 2b7ef953-9422-4dcf-b293-a78a06bb080e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCTL_VERIFY_USAGE_STATUS, CTL_VERIFY_USAGE_STATUS, CTL_VERIFY_USAGE_STATUS structure [Security], PCTL_VERIFY_USAGE_STATUS, PCTL_VERIFY_USAGE_STATUS structure pointer [Security], _CTL_VERIFY_USAGE_STATUS, _crypto2_ctl_verify_usage_status, security.ctl_verify_usage_status, wincrypt/CTL_VERIFY_USAGE_STATUS, wincrypt/PCTL_VERIFY_USAGE_STATUS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

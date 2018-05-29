@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_NodeType
 title: IKsTopologyInfo::get_NodeType
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_NodeType method returns the node type for a given node.
 old-location: dshow\ikstopologyinfo_get_nodetype.htm
 old-project: DirectShow
 ms.assetid: 6606d563-6a35-4595-8bb2-6cf74f7af4e7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NodeType method, IKsTopologyInfo.get_NodeType, IKsTopologyInfo::get_NodeType, IKsTopologyInfoget_NodeType, dshow.ikstopologyinfo_get_nodetype, get_NodeType, get_NodeType method [DirectShow], get_NodeType method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NodeType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

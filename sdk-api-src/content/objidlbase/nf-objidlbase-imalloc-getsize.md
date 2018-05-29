@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IMalloc.GetSize
 title: IMalloc::GetSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the size of a previously allocated block of memory.
 old-location: com\imalloc_getsize.htm
 old-project: com
 ms.assetid: abf8cb53-7c1b-4dde-9745-30a45ad030b7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSize, GetSize method [COM], GetSize method [COM],IMalloc interface, IMalloc interface [COM],GetSize method, IMalloc.GetSize, IMalloc::GetSize, _com_imalloc_getsize, com.imalloc_getsize, objidlbase/IMalloc::GetSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

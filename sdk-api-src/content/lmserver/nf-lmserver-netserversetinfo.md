@@ -1,16 +1,16 @@
 ---
 UID: NF:lmserver.NetServerSetInfo
 title: NetServerSetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetServerSetInfo function sets a server's operating parameters; it can set them individually or collectively. The information is stored in a way that allows it to remain in effect after the system has been reinitialized.
 old-location: netmgmt\netserversetinfo.htm
 old-project: NetMgmt
 ms.assetid: 1a04a43d-34f9-4a08-ac66-750120792af0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 101, 102, 402, 403, NetServerSetInfo, NetServerSetInfo function [Network Management], _win32_netserversetinfo, lmserver/NetServerSetInfo, netmgmt.netserversetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmserver.h
 req.include-header: Lm.h

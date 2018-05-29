@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusButtonUp
 title: IStylusPlugin::StylusButtonUp
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the implementing plug-in that the user has released a stylus button.
 old-location: tablet\istylusplugin_stylusbuttonup.htm
 old-project: tablet
 ms.assetid: a56182f3-3e9a-4cc2-895d-54010cd00cb4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],StylusButtonUp method, IStylusPlugin.StylusButtonUp, IStylusPlugin::StylusButtonUp, StylusButtonUp, StylusButtonUp method [Tablet PC], StylusButtonUp method [Tablet PC],IStylusPlugin interface, a56182f3-3e9a-4cc2-895d-54010cd00cb4, rtscom/IStylusPlugin::StylusButtonUp, tablet.istylusplugin_stylusbuttonup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

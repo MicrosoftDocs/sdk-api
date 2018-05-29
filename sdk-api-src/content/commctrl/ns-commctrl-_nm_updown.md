@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl._NM_UPDOWN
 title: "_NM_UPDOWN"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information specific to up-down control notification messages. It is identical to and replaces the NM_UPDOWN structure.
 old-location: controls\NMUPDOWN.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\updown\structures\nmupdown.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMUPDOWN, LPNMUPDOWN, LPNMUPDOWN structure pointer [Windows Controls], NMUPDOWN, NMUPDOWN structure [Windows Controls], _NM_UPDOWN, _win32_NMUPDOWN, _win32_NMUPDOWN_cpp, commctrl/LPNMUPDOWN, commctrl/NMUPDOWN, controls.NMUPDOWN, controls._win32_NMUPDOWN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

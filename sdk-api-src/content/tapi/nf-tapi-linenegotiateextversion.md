@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineNegotiateExtVersion
 title: lineNegotiateExtVersion function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineNegotiateExtVersion function allows an application to negotiate an extension version to use with the specified line device. This operation need not be called if the application does not support extensions.
 old-location: tapi2\linenegotiateextversion.htm
 old-project: Tapi
 ms.assetid: 89a49709-a15b-4358-984a-fd836d8e237b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linenegotiateextversion, lineNegotiateExtVersion, lineNegotiateExtVersion function [TAPI 2.2], tapi/lineNegotiateExtVersion, tapi2.linenegotiateextversion"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

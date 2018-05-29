@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.SetStream
 title: IMFASFProfile::SetStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a stream to the profile or reconfigures an existing stream.
 old-location: mf\imfasfprofile_setstream.htm
 old-project: medfound
 ms.assetid: c2272260-74ab-42ff-bff3-d6c6d5b322f3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFASFProfile interface [Media Foundation],SetStream method, IMFASFProfile.SetStream, IMFASFProfile::SetStream, SetStream, SetStream method [Media Foundation], SetStream method [Media Foundation],IMFASFProfile interface, c2272260-74ab-42ff-bff3-d6c6d5b322f3, mf.imfasfprofile_setstream, wmcontainer/IMFASFProfile::SetStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

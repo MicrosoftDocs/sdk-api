@@ -1,16 +1,16 @@
 ---
 UID: NN:mfcaptureengine.IMFCapturePreviewSink
 title: IMFCapturePreviewSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls the preview sink.
 old-location: mf\imfcapturepreviewsink.htm
 old-project: medfound
 ms.assetid: 5E64C24D-D6EC-419B-9DC8-309EBCE0077E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCapturePreviewSink, IMFCapturePreviewSink interface [Media Foundation], IMFCapturePreviewSink interface [Media Foundation],described, mf.imfcapturepreviewsink, mfcaptureengine/IMFCapturePreviewSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfcaptureengine.h
 req.include-header: 

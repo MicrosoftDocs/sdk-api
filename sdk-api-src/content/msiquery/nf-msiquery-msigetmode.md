@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiGetMode
 title: MsiGetMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiGetMode function is used to determine whether the installer is currently running in a specified mode, as listed in the table.
 old-location: setup\msigetmode.htm
 old-project: Msi
 ms.assetid: 45827df5-3f3f-4fb9-bdfe-38dc78a45321
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MSIRUNMODE_ADMIN, MSIRUNMODE_ADVERTISE, MSIRUNMODE_CABINET, MSIRUNMODE_COMMIT, MSIRUNMODE_LOGENABLED, MSIRUNMODE_MAINTENANCE, MSIRUNMODE_OPERATIONS, MSIRUNMODE_REBOOTATEND, MSIRUNMODE_REBOOTNOW, MSIRUNMODE_RESERVED11, MSIRUNMODE_RESERVED14, MSIRUNMODE_RESERVED15, MSIRUNMODE_ROLLBACK, MSIRUNMODE_ROLLBACKENABLED, MSIRUNMODE_SCHEDULED, MSIRUNMODE_SOURCESHORTNAMES, MSIRUNMODE_TARGETSHORTNAMES, MSIRUNMODE_WINDOWS9X, MSIRUNMODE_ZAWENABLED, MsiGetMode, MsiGetMode function, _msi_msigetmode, msiquery/MsiGetMode, setup.msigetmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

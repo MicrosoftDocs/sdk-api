@@ -1,16 +1,16 @@
 ---
 UID: NF:mixerocx.IMixerOCX.Advise
 title: IMixerOCX::Advise
-author: windows-driver-content
+author: windows-sdk-content
 description: The Advise method provides the Overlay Mixer with a pointer to the client's IMixerOCXNotify interface for callback notifications.
 old-location: dshow\imixerocx_advise.htm
 old-project: DirectShow
 ms.assetid: 6708fc46-19cb-4843-9c9d-99ff67ee6d08
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Advise, Advise method [DirectShow], Advise method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],Advise method, IMixerOCX.Advise, IMixerOCX::Advise, IMixerOCXAdvise, dshow.imixerocx_advise, mixerocx/IMixerOCX::Advise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mixerocx.h
 req.include-header: 

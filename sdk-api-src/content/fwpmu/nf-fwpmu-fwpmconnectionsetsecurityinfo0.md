@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmConnectionSetSecurityInfo0
 title: FwpmConnectionSetSecurityInfo0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets specified security information in the security descriptor for a connection object change event.
 old-location: fwp\fwpmconnectionsetsecurityinfo0.htm
 old-project: FWP
 ms.assetid: 74c976b0-68a5-4e09-8c6f-6ccb2766e0ad
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmConnectionSetSecurityInfo0, FwpmConnectionSetSecurityInfo0 function [Filtering], fwp.fwpmconnectionsetsecurityinfo0, fwpmu/FwpmConnectionSetSecurityInfo0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

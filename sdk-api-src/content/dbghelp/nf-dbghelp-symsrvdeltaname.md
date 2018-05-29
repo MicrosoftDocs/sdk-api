@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymSrvDeltaName
 title: SymSrvDeltaName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates the name for a file that describes the relationship between two different versions of the same symbol or image file. Using this feature prevents applications from having to regenerate such information every time they analyze two files.
 old-location: base\symsrvdeltaname.htm
 old-project: Debug
 ms.assetid: 35be6aff-efc7-4ed9-bfe7-3d0f798acbd9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymSrvDeltaName, SymSrvDeltaName function, SymSrvDeltaNameW, base.symsrvdeltaname, dbghelp/SymSrvDeltaName, dbghelp/SymSrvDeltaNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcasync.RpcErrorStartEnumeration
 title: RpcErrorStartEnumeration function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcErrorStartEnumeration function begins enumeration of extended error information.
 old-location: rpc\rpcerrorstartenumeration.htm
 old-project: Rpc
 ms.assetid: 56c61902-4b34-4d92-b352-cd1837754aa3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcErrorStartEnumeration, RpcErrorStartEnumeration function [RPC], _rpc_rpcerrorstartenumeration, rpc.rpcerrorstartenumeration, rpcasync/RpcErrorStartEnumeration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h

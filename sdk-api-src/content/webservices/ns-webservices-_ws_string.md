@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_STRING
 title: "_WS_STRING"
-author: windows-driver-content
+author: windows-sdk-content
 description: An array of Unicode characters and a length.
 old-location: wsw\ws_string.htm
 old-project: wsw
 ms.assetid: eb6c7397-6b15-4e79-89ec-585861113edf
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_STRING, WS_STRING structure [Web Services for Windows], _WS_STRING, webservices/WS_STRING, wsw.ws_string
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

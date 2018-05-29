@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capFileSetInfoChunk
 title: capFileSetInfoChunk macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capFileSetInfoChunk macro sets and clears information chunks. Information chunks can be inserted in an AVI file during capture to embed text strings or custom data. You can use this macro or explicitly call the WM_CAP_FILE_SET_INFOCHUNK message.
 old-location: multimedia\capfilesetinfochunk.htm
 old-project: Multimedia
 ms.assetid: b0772aa7-944c-450e-a703-0057a3230cb0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capFileSetInfoChunk, capFileSetInfoChunk, capFileSetInfoChunk macro [Windows Multimedia], multimedia.capfilesetinfochunk, vfw/capFileSetInfoChunk"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:virtdisk._VIRTUAL_DISK_ACCESS_MASK
 title: "_VIRTUAL_DISK_ACCESS_MASK"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the bitmask for specifying access rights to a virtual hard disk (VHD) or CD or DVD image file (ISO).
 old-location: vhd\virtual_disk_access_mask.htm
 old-project: VStor
 ms.assetid: 2b1f02ab-dc32-4af1-880b-73e7db8602be
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: VIRTUAL_DISK_ACCESS_ALL, VIRTUAL_DISK_ACCESS_ATTACH_RO, VIRTUAL_DISK_ACCESS_ATTACH_RW, VIRTUAL_DISK_ACCESS_CREATE, VIRTUAL_DISK_ACCESS_DETACH, VIRTUAL_DISK_ACCESS_GET_INFO, VIRTUAL_DISK_ACCESS_MASK, VIRTUAL_DISK_ACCESS_MASK enumeration [VHD], VIRTUAL_DISK_ACCESS_METAOPS, VIRTUAL_DISK_ACCESS_NONE, VIRTUAL_DISK_ACCESS_READ, VIRTUAL_DISK_ACCESS_WRITABLE, _VIRTUAL_DISK_ACCESS_MASK, vhd.virtual_disk_access_mask, virtdisk/VIRTUAL_DISK_ACCESS_ALL, virtdisk/VIRTUAL_DISK_ACCESS_ATTACH_RO, virtdisk/VIRTUAL_DISK_ACCESS_ATTACH_RW, virtdisk/VIRTUAL_DISK_ACCESS_CREATE, virtdisk/VIRTUAL_DISK_ACCESS_DETACH, virtdisk/VIRTUAL_DISK_ACCESS_GET_INFO, virtdisk/VIRTUAL_DISK_ACCESS_MASK, virtdisk/VIRTUAL_DISK_ACCESS_METAOPS, virtdisk/VIRTUAL_DISK_ACCESS_NONE, virtdisk/VIRTUAL_DISK_ACCESS_READ, virtdisk/VIRTUAL_DISK_ACCESS_WRITABLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskNamedValuePair.put_Value
 title: ITaskNamedValuePair::put_Value
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the value that is associated with a name in a name-value pair.
 old-location: taskschd\itasknamedvaluepair_value.htm
 old-project: TaskSchd
 ms.assetid: 15428c07-fdce-40d0-a36c-5e23b462471b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskNamedValuePair interface [Task Scheduler],Value property, ITaskNamedValuePair.Value, ITaskNamedValuePair.put_Value, ITaskNamedValuePair::Value, ITaskNamedValuePair::get_Value, ITaskNamedValuePair::put_Value, Value property [Task Scheduler], Value property [Task Scheduler],ITaskNamedValuePair interface, put_Value, taskschd.itasknamedvaluepair_value, taskschd/ITaskNamedValuePair::Value, taskschd/ITaskNamedValuePair::get_Value, taskschd/ITaskNamedValuePair::put_Value
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

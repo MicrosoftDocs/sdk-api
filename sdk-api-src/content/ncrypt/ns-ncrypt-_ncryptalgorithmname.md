@@ -1,16 +1,16 @@
 ---
 UID: NS:ncrypt._NCryptAlgorithmName
 title: "_NCryptAlgorithmName"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to contain information about a CNG algorithm.
 old-location: security\ncryptalgorithmname_struct.htm
 old-project: SecCNG
 ms.assetid: 79b0193e-3be8-46ce-a422-40ed9698363f
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION, NCRYPT_SECRET_AGREEMENT_INTERFACE, NCRYPT_SECRET_AGREEMENT_OPERATION, NCRYPT_SIGNATURE_INTERFACE, NCRYPT_SIGNATURE_OPERATION, NCryptAlgorithmName, NCryptAlgorithmName structure [Security], _NCryptAlgorithmName, ncrypt/NCryptAlgorithmName, security.ncryptalgorithmname_struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ncrypt.h
 req.include-header: 

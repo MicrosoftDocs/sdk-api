@@ -1,16 +1,16 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.Reset
 title: IWMDMLogger::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reset method deletes the contents of the current log file.
 old-location: wmdm\iwmdmlogger_reset.htm
 old-project: WMDM
 ms.assetid: 1b26aede-0db4-4597-8494-7fd5e5cba857
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],Reset method, IWMDMLogger.Reset, IWMDMLogger::Reset, IWMDMLoggerReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_reset, wmdmlog/IWMDMLogger::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmdmlog.h
 req.include-header: 

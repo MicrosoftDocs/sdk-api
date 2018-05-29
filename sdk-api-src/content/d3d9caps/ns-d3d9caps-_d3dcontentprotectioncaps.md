@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d9caps._D3DCONTENTPROTECTIONCAPS
 title: "_D3DCONTENTPROTECTIONCAPS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the content protection capabilities of a display driver.
 old-location: mf\d3dcontentprotectioncaps.htm
 old-project: medfound
 ms.assetid: 73ef2e12-d376-4bc2-a940-d421acfdd43e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3DCONTENTPROTECTIONCAPS, D3DCONTENTPROTECTIONCAPS structure [Media Foundation], D3DCPCAPS_CONTENTKEY, D3DCPCAPS_ENCRYPTEDREADBACK, D3DCPCAPS_ENCRYPTEDREADBACKKEY, D3DCPCAPS_FRESHENSESSIONKEY, D3DCPCAPS_HARDWARE, D3DCPCAPS_PARTIALDECRYPTION, D3DCPCAPS_PROTECTIONALWAYSON, D3DCPCAPS_SEQUENTIAL_CTR_IV, D3DCPCAPS_SOFTWARE, D3DKEYEXCHANGE_DXVA, D3DKEYEXCHANGE_RSAES_OAEP, _D3DCONTENTPROTECTIONCAPS, d3d9caps/D3DCONTENTPROTECTIONCAPS, mf.d3dcontentprotectioncaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d9caps.h
 req.include-header: D3d9.h

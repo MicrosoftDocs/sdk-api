@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptDecryptAndVerifyMessageSignature
 title: CryptDecryptAndVerifyMessageSignature function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CryptDecryptAndVerifyMessageSignature function decrypts a message and verifies its signature.
 old-location: security\cryptdecryptandverifymessagesignature.htm
 old-project: SecCrypto
 ms.assetid: 0864a187-617f-4a21-9809-d2dbbc54ab9c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptDecryptAndVerifyMessageSignature, CryptDecryptAndVerifyMessageSignature function [Security], _crypto2_cryptdecryptandverifymessagesignature, security.cryptdecryptandverifymessagesignature, wincrypt/CryptDecryptAndVerifyMessageSignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

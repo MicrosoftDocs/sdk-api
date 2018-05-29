@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsADSystemInfo
 title: IADsADSystemInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsADSystemInfo interface retrieves data about the local computer if it is running a Windows operating system in a Windows domain. For example, you can get the domain, site, and distinguished name of the local computer.
 old-location: adsi\iadsadsysteminfo.htm
 old-project: ADSI
 ms.assetid: 5573d37b-10a8-4176-80c7-711552ff36cb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADSystemInfo, IADsADSystemInfo, IADsADSystemInfo interface [ADSI], IADsADSystemInfo interface [ADSI],described, _ds_iadsadsysteminfo, adsi.iadsadsysteminfo, iads/IADsADSystemInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

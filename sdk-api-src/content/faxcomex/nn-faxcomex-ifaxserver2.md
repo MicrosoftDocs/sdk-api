@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcomex.IFaxServer2
 title: IFaxServer2
-author: windows-driver-content
+author: windows-sdk-content
 description: Inherits all the functionality of the IFaxServer interface and adds read-only properties for the server's configuration, account management, security objects, and the current account.
 old-location: fax\_mfax_faxserver2_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxserver2\faxinto_z_ifaxserver2_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxServer2, IFaxServer2 interface [Fax Service], IFaxServer2 interface [Fax Service],described, _mfax_faxserver2_cpp, fax._mfax_faxserver2_cpp, faxcomex/IFaxServer2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

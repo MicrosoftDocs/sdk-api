@@ -1,16 +1,16 @@
 ---
 UID: NF:eappapis.EapHostPeerGetAuthStatus
 title: EapHostPeerGetAuthStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the supplicant's current EAP authentication status from EAPHost.
 old-location: eaphost\eaphostpeergetauthstatus.htm
 old-project: EAPHost
 ms.assetid: cb5ceffb-941f-48ad-9271-111f41adc65b
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostNapInfo, EapHostPeerAuthStatus, EapHostPeerGetAuthStatus, EapHostPeerGetAuthStatus function [EAPHost], EapHostPeerIdentity, EapHostPeerIdentityExtendedInfo, eaphost.eaphostpeergetauthstatus, eappapis/EapHostPeerGetAuthStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

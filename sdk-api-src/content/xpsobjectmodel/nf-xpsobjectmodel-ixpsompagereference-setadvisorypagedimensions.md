@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.SetAdvisoryPageDimensions
 title: IXpsOMPageReference::SetAdvisoryPageDimensions
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the suggested dimensions of the page.
 old-location: xps\ixpsompagereference_setadvisorypagedimensions.htm
 old-project: printdocs
 ms.assetid: 8286fd78-a7d8-4bf4-9b08-b93e19abccf9
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPageReference interface [XPS Documents and Packaging],SetAdvisoryPageDimensions method, IXpsOMPageReference.SetAdvisoryPageDimensions, IXpsOMPageReference::SetAdvisoryPageDimensions, SetAdvisoryPageDimensions, SetAdvisoryPageDimensions method [XPS Documents and Packaging], SetAdvisoryPageDimensions method [XPS Documents and Packaging],IXpsOMPageReference interface, xps.ixpsompagereference_setadvisorypagedimensions, xpsobjectmodel/IXpsOMPageReference::SetAdvisoryPageDimensions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

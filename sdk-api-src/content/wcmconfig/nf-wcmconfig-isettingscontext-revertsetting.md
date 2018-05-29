@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.RevertSetting
 title: ISettingsContext::RevertSetting
-author: windows-driver-content
+author: windows-sdk-content
 description: Reverts a setting in the namespace.
 old-location: smi\isettingscontext_revertsetting.htm
 old-project: SMI
 ms.assetid: 11f541e6-fd97-4756-91c1-44ba2e3d35b1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISettingsContext interface [SMI],RevertSetting method, ISettingsContext.RevertSetting, ISettingsContext::RevertSetting, RevertSetting, RevertSetting method [SMI], RevertSetting method [SMI],ISettingsContext interface, smi.isettingscontext_revertsetting, wcmconfig/ISettingsContext::RevertSetting
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

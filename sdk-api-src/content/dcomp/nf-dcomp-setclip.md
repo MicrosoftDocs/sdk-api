@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetClip
 title: SetClip function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Clip property of this visual to the specified rectangular region or clip object.
 old-location: directcomp\idcompositionvisual_setclip_overloaded.htm
 old-project: directcomp
 ms.assetid: ACEBA4F9-E1B0-459B-8DC2-272A822AB214
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionVisual::SetClip, SetClip, SetClip methods [DirectComposition], dcomp/SetClip, directcomp.idcompositionvisual_setclip_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

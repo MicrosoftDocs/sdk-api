@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertDuplicateStore
 title: CertDuplicateStore function
-author: windows-driver-content
+author: windows-sdk-content
 description: Duplicates a store handle by incrementing the store's reference count.
 old-location: security\certduplicatestore.htm
 old-project: SecCrypto
 ms.assetid: 628efd30-6e07-4748-82ac-5cdc723be451
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertDuplicateStore, CertDuplicateStore function [Security], _crypto2_certduplicatestore, security.certduplicatestore, wincrypt/CertDuplicateStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

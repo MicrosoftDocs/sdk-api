@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.GetDC
 title: IOleInPlaceSiteWindowless::GetDC
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides an object with a handle to a device context for a screen or compatible device from its container.
 old-location: com\ioleinplacesitewindowless_getdc.htm
 old-project: com
 ms.assetid: 232587a8-ed88-4339-9e28-6e34be263a51
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDC, GetDC method [COM], GetDC method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetDC method, IOleInPlaceSiteWindowless.GetDC, IOleInPlaceSiteWindowless::GetDC, _ole_ioleinplacesitewindowless_getdc, com.ioleinplacesitewindowless_getdc, ocidl/IOleInPlaceSiteWindowless::GetDC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

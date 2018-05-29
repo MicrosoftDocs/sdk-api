@@ -1,16 +1,16 @@
 ---
 UID: NF:roerrorapi.RoSetErrorReportingFlags
 title: RoSetErrorReportingFlags function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the reporting behavior of Windows Runtime error functions.
 old-location: winrt\roseterrorreportingflags.htm
 old-project: WinRT
 ms.assetid: 167C2EC9-9EA0-4E1D-840B-DAF5F47ED1FE
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoSetErrorReportingFlags, RoSetErrorReportingFlags function [Windows Runtime], WinRTSetErrorReportingFlags, roerrorapi/RoSetErrorReportingFlags, roerrorapi/WinRTSetErrorReportingFlags, winrt.roseterrorreportingflags, winrt.winrtseterrorreportingflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: Roapi.h

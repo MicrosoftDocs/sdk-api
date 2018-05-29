@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.OpenApplicationGroup
 title: IAzAuthorizationStore::OpenApplicationGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an IAzApplicationGroup object by specifying its name.
 old-location: security\azauthorizationstore_openapplicationgroup.htm
 old-project: SecAuthZ
 ms.assetid: 30860261-c792-4610-b217-7c4d58554778
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzAuthorizationStore object [Security],OpenApplicationGroup method, IAzAuthorizationStore interface [Security],OpenApplicationGroup method, IAzAuthorizationStore.OpenApplicationGroup, IAzAuthorizationStore::OpenApplicationGroup, OpenApplicationGroup, OpenApplicationGroup method [Security], OpenApplicationGroup method [Security],AzAuthorizationStore object, OpenApplicationGroup method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::OpenApplicationGroup, security.azauthorizationstore_openapplicationgroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

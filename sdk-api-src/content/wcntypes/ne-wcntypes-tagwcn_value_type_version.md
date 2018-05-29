@@ -1,16 +1,16 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_VERSION
 title: tagWCN_VALUE_TYPE_VERSION
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the supported version of Wi-Fi Protected Setup (WPS).
 old-location: wcn\wcn_value_type_version.htm
 old-project: wcn
 ms.assetid: 7EE57CB6-EC32-4C90-AC48-56B10FEBE929
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WCN_VALUE_TYPE_VERSION, WCN_VALUE_TYPE_VERSION enumeration [Windows Connect Now], WCN_VALUE_VERSION_1_0, WCN_VALUE_VERSION_2_0, tagWCN_VALUE_TYPE_VERSION, wcn.wcn_value_type_version, wcntypes/WCN_VALUE_TYPE_VERSION, wcntypes/WCN_VALUE_VERSION_1_0, wcntypes/WCN_VALUE_VERSION_2_0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcntypes.h
 req.include-header: 

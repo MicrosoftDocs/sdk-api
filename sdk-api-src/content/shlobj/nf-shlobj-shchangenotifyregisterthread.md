@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj.SHChangeNotifyRegisterThread
 title: SHChangeNotifyRegisterThread function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables asynchronous register and deregister of a thread.
 old-location: shell\SHChangeNotifyRegisterThread.htm
 old-project: shell
 ms.assetid: 170afefc-b4de-4661-9c12-1341656b0fdb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHChangeNotifyRegisterThread, SHChangeNotifyRegisterThread function [Windows Shell], _shell_SHChangeNotifyRegisterThread, shell.SHChangeNotifyRegisterThread, shlobj/SHChangeNotifyRegisterThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj.h
 req.include-header: 

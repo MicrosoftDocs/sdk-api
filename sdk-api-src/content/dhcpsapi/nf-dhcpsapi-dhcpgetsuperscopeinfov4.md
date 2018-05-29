@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpGetSuperScopeInfoV4
 title: DhcpGetSuperScopeInfoV4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns information on the superscope of a DHCP server.
 old-location: dhcp\dhcpgetsuperscopeinfov4.htm
 old-project: DHCP
 ms.assetid: f40c77b8-c8ad-432d-8a9e-6719630826ef
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpGetSuperScopeInfoV4, DhcpGetSuperScopeInfoV4 function [DHCP], dhcp.dhcpgetsuperscopeinfov4, dhcpsapi/DhcpGetSuperScopeInfoV4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

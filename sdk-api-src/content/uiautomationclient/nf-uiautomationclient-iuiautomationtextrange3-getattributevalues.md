@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange3.GetAttributeValues
 title: IUIAutomationTextRange3::GetAttributeValues
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns all of the requested text attribute values for a text range in a single cross-process call. This is equivalent to calling GetAttributeValue, except it can retrieve multiple values instead of just one.
 old-location: winauto\uiauto_IUIAutomationTextRange3_GetAttributeValues.htm
 old-project: WinAuto
 ms.assetid: 1AF29BF1-A074-4054-B338-7B6922B1415C
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetAttributeValues, GetAttributeValues method [Windows Accessibility], GetAttributeValues method [Windows Accessibility],IUIAutomationTextRange3 interface, IUIAutomationTextRange3 interface [Windows Accessibility],GetAttributeValues method, IUIAutomationTextRange3.GetAttributeValues, IUIAutomationTextRange3::GetAttributeValues, uiautomationclient/IUIAutomationTextRange3::GetAttributeValues, winauto.uiauto_IUIAutomationTextRange3_GetAttributeValues
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

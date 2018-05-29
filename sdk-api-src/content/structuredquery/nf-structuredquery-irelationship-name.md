@@ -1,16 +1,16 @@
 ---
 UID: NF:structuredquery.IRelationship.Name
 title: IRelationship::Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the name of the relationship.
 old-location: search\_search_IRelationship_Name.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\name.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRelationship interface [search],Name method, IRelationship.Name, IRelationship::Name, Name, Name method [search], Name method [search],IRelationship interface, _search_IRelationship_Name, search._search_IRelationship_Name, structuredquery/IRelationship::Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

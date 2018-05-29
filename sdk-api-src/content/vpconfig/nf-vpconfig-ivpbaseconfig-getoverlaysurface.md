@@ -1,16 +1,16 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.GetOverlaySurface
 title: IVPBaseConfig::GetOverlaySurface
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetOverlaySurface method queries whether the caller should use the driver's overlay surface. If so, the method returns a pointer to the surface.
 old-location: dshow\ivpbaseconfig_getoverlaysurface.htm
 old-project: DirectShow
 ms.assetid: a4d4b63f-b84c-4831-b16e-c0042b54a215
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetOverlaySurface, GetOverlaySurface method [DirectShow], GetOverlaySurface method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetOverlaySurface method, IVPBaseConfig.GetOverlaySurface, IVPBaseConfig::GetOverlaySurface, IVPBaseConfigGetOverlaySurface, dshow.ivpbaseconfig_getoverlaysurface, vpconfig/IVPBaseConfig::GetOverlaySurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 

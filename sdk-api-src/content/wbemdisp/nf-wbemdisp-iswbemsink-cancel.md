@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemdisp.ISWbemSink.Cancel
 title: ISWbemSink::Cancel
-author: windows-driver-content
+author: windows-sdk-content
 description: The Cancel method of the SWbemSink object cancels all outstanding asynchronous operations that are associated with this object sink.
 old-location: wmi\swbemsink_cancel.htm
 old-project: WmiSdk
 ms.assetid: dbe1eb24-5d9d-407a-b7c6-c58ec6891d7a
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: Cancel, Cancel method [Windows Management Instrumentation], Cancel method [Windows Management Instrumentation],ISWbemSink interface, Cancel method [Windows Management Instrumentation],SWbemSink object, ISWbemSink interface [Windows Management Instrumentation],Cancel method, ISWbemSink.Cancel, ISWbemSink::Cancel, SWbemSink object [Windows Management Instrumentation],Cancel method, _hmm_swbemsink.cancel, wmi.swbemsink_cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemdisp.h
 req.include-header: 

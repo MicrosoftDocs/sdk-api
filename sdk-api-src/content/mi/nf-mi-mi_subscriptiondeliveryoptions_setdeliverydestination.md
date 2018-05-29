@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetDeliveryDestination
 title: MI_SubscriptionDeliveryOptions_SetDeliveryDestination function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the destination endpoint that an indication will be delivered to.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setdeliverydestination.htm
 old-project: wmi_v2
 ms.assetid: 01405c64-83ab-4c39-975c-7786659e2c18
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_SetDeliveryDestination, MI_SubscriptionDeliveryOptions_SetDeliveryDestination function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetDeliveryDestination, wmi_v2.mi_subscriptiondeliveryoptions_setdeliverydestination
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

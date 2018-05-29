@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMExtDevice.get_DevicePower
 title: IAMExtDevice::get_DevicePower
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_DevicePower method retrieves the external device's power mode.
 old-location: dshow\iamextdevice_get_devicepower.htm
 old-project: DirectShow
 ms.assetid: 7f25aac8-13ad-4ea2-96df-351da4729666
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMExtDevice interface [DirectShow],get_DevicePower method, IAMExtDevice.get_DevicePower, IAMExtDevice::get_DevicePower, IAMExtDeviceget_DevicePower, dshow.iamextdevice_get_devicepower, get_DevicePower, get_DevicePower method [DirectShow], get_DevicePower method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::get_DevicePower
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

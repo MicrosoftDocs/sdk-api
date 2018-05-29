@@ -1,16 +1,16 @@
 ---
 UID: NN:gpmgmt.IGPMStatusMessage
 title: IGPMStatusMessage
-author: windows-driver-content
+author: windows-sdk-content
 description: The IGPMStatusMessage interface contains property methods that retrieve various properties of status messages related to GPO operations.
 old-location: gpmc\igpmstatusmessage.htm
 old-project: GPMC
 ms.assetid: 8570d40c-25c2-405c-b52a-dae6c0eb50e0
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMStatusMessage, IGPMStatusMessage, IGPMStatusMessage interface [GPMC], IGPMStatusMessage interface [GPMC],described, _win32_igpmstatusmessage, gpmc.igpmstatusmessage, gpmgmt/IGPMStatusMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

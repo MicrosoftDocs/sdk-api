@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_REVOCATION_CHAIN_PARA
 title: "_CERT_REVOCATION_CHAIN_PARA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains parameters used for building a chain for an independent online certificate status protocol (OCSP) response signer certificate.
 old-location: security\cert_revocation_chain_para.htm
 old-project: SecCrypto
 ms.assetid: 9cdcc81a-aef1-4a1e-94f8-7aa461225dae
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_REVOCATION_CHAIN_PARA, CERT_CHAIN_REVOCATION_CHECK_OCSP_CERT, CERT_REVOCATION_CHAIN_PARA, CERT_REVOCATION_CHAIN_PARA structure [Security], PCERT_REVOCATION_CHAIN_PARA, PCERT_REVOCATION_CHAIN_PARA structure pointer [Security], _CERT_REVOCATION_CHAIN_PARA, security.cert_revocation_chain_para, wincrypt/CERT_REVOCATION_CHAIN_PARA, wincrypt/PCERT_REVOCATION_CHAIN_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

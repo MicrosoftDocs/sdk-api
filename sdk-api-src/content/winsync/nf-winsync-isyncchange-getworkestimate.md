@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChange.GetWorkEstimate
 title: ISyncChange::GetWorkEstimate
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the work estimate for this change.
 old-location: winsync\isyncchange_getworkestimate.htm
 old-project: winsync
 ms.assetid: ba79bb88-bdeb-42be-88a9-1355fe048d10
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetWorkEstimate, GetWorkEstimate method [Windows Sync], GetWorkEstimate method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetWorkEstimate method, ISyncChange.GetWorkEstimate, ISyncChange::GetWorkEstimate, winsync.isyncchange_getworkestimate, winsync/ISyncChange::GetWorkEstimate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

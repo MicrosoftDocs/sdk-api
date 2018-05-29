@@ -1,16 +1,16 @@
 ---
 UID: NF:mmstream.IMediaStream.AllocateSample
 title: IMediaStream::AllocateSample
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Allocates a new stream sample object for the current media stream.
 old-location: dshow\imediastream_allocatesample.htm
 old-project: DirectShow
 ms.assetid: a035797d-ebf2-40c2-b1a3-b903a691b7d2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AllocateSample, AllocateSample method [DirectShow], AllocateSample method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],AllocateSample method, IMediaStream.AllocateSample, IMediaStream::AllocateSample, IMediaStreamAllocateSample, dshow.imediastream_allocatesample, mmstream/IMediaStream::AllocateSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mmstream.h
 req.include-header: 

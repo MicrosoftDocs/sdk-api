@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoObject.GetValue
 title: IComTrackingInfoObject::GetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of the specified property.
 old-location: cos\icomtrackinginfoobject_getvalue.htm
 old-project: cossdk
 ms.assetid: 38f5fc3d-eecd-42e5-92ea-df2b096aa1cc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetValue, GetValue method [COM+], GetValue method [COM+],IComTrackingInfoObject interface, IComTrackingInfoObject interface [COM+],GetValue method, IComTrackingInfoObject.GetValue, IComTrackingInfoObject::GetValue, _dtc_IComTrackingInfoObject_GetValue, comsvcs/IComTrackingInfoObject::GetValue, cos.icomtrackinginfoobject_getvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

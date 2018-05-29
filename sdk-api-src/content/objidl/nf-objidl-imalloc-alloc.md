@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IMalloc.Alloc
 title: IMalloc::Alloc
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates a block of memory.
 old-location: com\imalloc_alloc.htm
 old-project: com
 ms.assetid: c9c9bdac-965f-4b18-9338-28a025930480
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Alloc, Alloc method [COM], Alloc method [COM],IMalloc interface, IMalloc interface [COM],Alloc method, IMalloc.Alloc, IMalloc::Alloc, _com_imalloc_alloc, com.imalloc_alloc, objidl/IMalloc::Alloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

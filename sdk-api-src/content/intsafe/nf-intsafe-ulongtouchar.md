@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.ULongToUChar
 title: ULongToUChar function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type ULONG to a value of type UCHAR.
 old-location: shell\ULongToUChar.htm
 old-project: shell
 ms.assetid: 459c616d-8551-4112-850f-ddd4743fc2a6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DWordToUChar, ULongToUChar, ULongToUChar function [Windows Shell], _shell_ULongToUChar, intsafe/ULongToUChar, shell.ULongToUChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

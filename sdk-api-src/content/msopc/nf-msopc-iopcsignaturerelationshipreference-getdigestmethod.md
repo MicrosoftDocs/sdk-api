@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetDigestMethod
 title: IOpcSignatureRelationshipReference::GetDigestMethod
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the digest method to use on relationship markup of the selected relationships.
 old-location: opc\iopcsignaturerelationshipreference_getdigestmethod.htm
 old-project: OPC
 ms.assetid: 126e0b2c-8b58-4b42-b2b5-99f6fab40f27
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetDigestMethod, GetDigestMethod method [Open Packaging Conventions], GetDigestMethod method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetDigestMethod method, IOpcSignatureRelationshipReference.GetDigestMethod, IOpcSignatureRelationshipReference::GetDigestMethod, msopc/IOpcSignatureRelationshipReference::GetDigestMethod, opc.iopcsignaturerelationshipreference_getdigestmethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

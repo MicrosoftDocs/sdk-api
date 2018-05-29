@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.SetUserGeoID
 title: SetUserGeoID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the geographical location identifier for the user. This identifier should have one of the values described in Table of Geographical Locations.
 old-location: intl\setusergeoid.htm
 old-project: Intl
 ms.assetid: 2e201a7e-6767-4908-b98c-f5b7f0544e60
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetUserGeoID, SetUserGeoID function [Internationalization for Windows Applications], _win32_SetUserGeoID, intl.setusergeoid, winnls/SetUserGeoID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

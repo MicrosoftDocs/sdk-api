@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.TpInitializeCallbackEnviron
 title: TpInitializeCallbackEnviron function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a callback environment for the thread pool.
 old-location: base\tpinitializecallbackenviron.htm
 old-project: ProcThread
 ms.assetid: 4602CB19-D8C0-460E-A853-8DDECE643A76
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: TpInitializeCallbackEnviron, TpInitializeCallbackEnviron function, base.tpinitializecallbackenviron, winnt/TpInitializeCallbackEnviron
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Context_ShouldProcess
 title: MI_Context_ShouldProcess function
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries the client to determine if an operation should continue.
 old-location: wmi_v2\mi_context_shouldprocess.htm
 old-project: wmi_v2
 ms.assetid: adfa899c-f65a-4aac-b82d-5bc7b776713a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Context_ShouldProcess, MI_Context_ShouldProcess function [Windows Management Infrastructure (MI)], mi/MI_Context_ShouldProcess, wmi.mi_shouldprocess, wmi_v2.mi_context_shouldprocess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

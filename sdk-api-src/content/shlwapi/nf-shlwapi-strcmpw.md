@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrCmpW
 title: StrCmpW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares two strings to determine if they are the same. The comparison is case-sensitive.
 old-location: shell\StrCmp.htm
 old-project: shell
 ms.assetid: 12530a04-776c-4506-86d1-07e2c3569a36
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrCmp, StrCmp function [Windows Shell], StrCmpW, _win32_StrCmp, shell.StrCmp, shlwapi/StrCmp, shlwapi/StrCmpW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

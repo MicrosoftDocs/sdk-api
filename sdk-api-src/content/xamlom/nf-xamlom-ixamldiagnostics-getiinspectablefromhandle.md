@@ -1,16 +1,16 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetIInspectableFromHandle
 title: IXamlDiagnostics::GetIInspectableFromHandle
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IInspectable from the XAML Diagnostics cache.
 old-location: xaml_diagnostics\ixamldiagnostics_getiinspectablefromhandle.htm
 old-project: xaml_diagnostics
 ms.assetid: F5BD99E0-CBAF-461C-9B4A-692604D4BAA9
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: GetIInspectableFromHandle, GetIInspectableFromHandle method, GetIInspectableFromHandle method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetIInspectableFromHandle method, IXamlDiagnostics.GetIInspectableFromHandle, IXamlDiagnostics::GetIInspectableFromHandle, xaml_diagnostics.ixamldiagnostics_getiinspectablefromhandle, xamlom/IXamlDiagnostics::GetIInspectableFromHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

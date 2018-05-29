@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IDesktopGadget.RunGadget
 title: IDesktopGadget::RunGadget
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an installed gadget to the desktop.
 old-location: shell\IDesktopGadget_RunGadget.htm
 old-project: shell
 ms.assetid: 9243fd88-122f-40be-ab71-66c52fa99168
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDesktopGadget interface [Windows Shell],RunGadget method, IDesktopGadget.RunGadget, IDesktopGadget::RunGadget, RunGadget, RunGadget method [Windows Shell], RunGadget method [Windows Shell],IDesktopGadget interface, _shell_IDesktopGadget_RunGadget, shell.IDesktopGadget_RunGadget, shobjidl/IDesktopGadget::RunGadget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

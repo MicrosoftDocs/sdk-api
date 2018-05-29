@@ -1,16 +1,16 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetFlags
 title: IScheduledWorkItem::GetFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the flags that modify the behavior of any type of work item.
 old-location: taskschd\ischeduledworkitem_getflags.htm
 old-project: TaskSchd
 ms.assetid: 0fe3c184-2689-44de-b60f-92d31eaa5285
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetFlags, GetFlags method [Task Scheduler], GetFlags method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetFlags method, IScheduledWorkItem.GetFlags, IScheduledWorkItem::GetFlags, _msb_ischeduledworkitem_getflags, mstask/IScheduledWorkItem::GetFlags, taskschd.ischeduledworkitem_getflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

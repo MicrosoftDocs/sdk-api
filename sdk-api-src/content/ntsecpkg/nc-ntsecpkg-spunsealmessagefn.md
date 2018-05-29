@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpUnsealMessageFn
 title: SpUnsealMessageFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrypts a message that was previously encrypted with the SpSealMessage function.
 old-location: security\spunsealmessage.htm
 old-project: SecAuthN
 ms.assetid: 3ece6f30-bb8b-4fad-a8c4-9088c134cf25
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SpUnsealMessage, SpUnsealMessage function [Security], SpUnsealMessageFn, _ssp_spunsealmessage, ntsecpkg/SpUnsealMessage, security.spunsealmessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

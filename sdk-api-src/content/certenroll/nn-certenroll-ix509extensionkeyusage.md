@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509ExtensionKeyUsage
 title: IX509ExtensionKeyUsage
-author: windows-driver-content
+author: windows-sdk-content
 description: Can be used to define restrictions on the operations that can be performed by the public key contained in the certificate.
 old-location: security\ix509extensionkeyusage.htm
 old-project: SecCertEnroll
 ms.assetid: 4325e6aa-99bb-4c9a-9b19-c5352ebf27b9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509ExtensionKeyUsage, IX509ExtensionKeyUsage interface [Security], IX509ExtensionKeyUsage interface [Security],described, certenroll/IX509ExtensionKeyUsage, security.ix509extensionkeyusage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

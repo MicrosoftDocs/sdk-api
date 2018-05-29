@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.SetStartPoint
 title: IXpsOMLinearGradientBrush::SetStartPoint
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the start point of the gradient.
 old-location: xps\ixpsomlineargradientbrush_setstartpoint.htm
 old-project: printdocs
 ms.assetid: f2e40d75-c0de-4cba-850d-0c8c328e2950
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],SetStartPoint method, IXpsOMLinearGradientBrush.SetStartPoint, IXpsOMLinearGradientBrush::SetStartPoint, SetStartPoint, SetStartPoint method [XPS Documents and Packaging], SetStartPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, xps.ixpsomlineargradientbrush_setstartpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::SetStartPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

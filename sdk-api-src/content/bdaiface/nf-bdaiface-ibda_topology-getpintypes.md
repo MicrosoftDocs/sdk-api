@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_Topology.GetPinTypes
 title: IBDA_Topology::GetPinTypes
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPinTypes method retrieves a list of all the pin types in the template topology for this filter and network type.
 old-location: mstv\ibda_topology_getpintypes.htm
 old-project: mstv
 ms.assetid: e94c5ae3-1d5f-4ca6-a09b-7190cbe2035b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPinTypes, GetPinTypes method [Microsoft TV Technologies], GetPinTypes method [Microsoft TV Technologies],IBDA_Topology interface, IBDA_Topology interface [Microsoft TV Technologies],GetPinTypes method, IBDA_Topology.GetPinTypes, IBDA_Topology::GetPinTypes, IBDA_TopologyGetPinTypes, bdaiface/IBDA_Topology::GetPinTypes, mstv.ibda_topology_getpintypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

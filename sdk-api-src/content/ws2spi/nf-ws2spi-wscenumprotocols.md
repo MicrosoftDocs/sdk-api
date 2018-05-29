@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2spi.WSCEnumProtocols
 title: WSCEnumProtocols function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSCEnumProtocols function retrieves information about available transport protocols.
 old-location: winsock\wscenumprotocols_2.htm
 old-project: WinSock
 ms.assetid: c2e5332f-3327-4624-96b4-8e321795961d
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSCEnumProtocols, WSCEnumProtocols function [Winsock], _win32_wscenumprotocols_2, winsock.wscenumprotocols_2, ws2spi/WSCEnumProtocols
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

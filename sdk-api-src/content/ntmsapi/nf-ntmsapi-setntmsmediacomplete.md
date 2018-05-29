@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.SetNtmsMediaComplete
 title: SetNtmsMediaComplete function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetNtmsMediaComplete function marks a piece of logical media as complete.
 old-location: fs\setntmsmediacomplete.htm
 old-project: Rsm
 ms.assetid: 1513b487-93b6-4615-aa7b-e135f81b6ad0
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: SetNtmsMediaComplete, SetNtmsMediaComplete function [Files], _zaw_setntmsmediacomplete, base.setntmsmediacomplete, fs.setntmsmediacomplete, ntmsapi/SetNtmsMediaComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:setupapi._SP_DEVINSTALL_PARAMS_A
 title: "_SP_DEVINSTALL_PARAMS_A"
-author: windows-driver-content
+author: windows-sdk-content
 description: An SP_DEVINSTALL_PARAMS structure contains device installation parameters associated with a particular device information element or associated globally with a device information set.
 old-location: devinst\sp_devinstall_params.htm
 old-project: devinst
 ms.assetid: 1bd21150-f8f4-480d-a4b2-99fa4b4233b9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSP_DEVINSTALL_PARAMS_A, PSP_DEVINSTALL_PARAMS, PSP_DEVINSTALL_PARAMS structure pointer [Device and Driver Installation], SP_DEVINSTALL_PARAMS, SP_DEVINSTALL_PARAMS structure [Device and Driver Installation], SP_DEVINSTALL_PARAMS_A, _SP_DEVINSTALL_PARAMS_A, devinst.sp_devinstall_params, di-struct_ef7906d1-6416-41fc-8844-53f2f594a913.xml, setupapi/PSP_DEVINSTALL_PARAMS, setupapi/SP_DEVINSTALL_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h

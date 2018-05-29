@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChangeBatch.EndUnorderedGroup
 title: ISyncChangeBatch::EndUnorderedGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a previously opened unordered group in the change batch.
 old-location: winsync\isyncchangebatch_endunorderedgroup.htm
 old-project: winsync
 ms.assetid: ca9c37ca-6aa0-437d-b933-ca7d943e4ef2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: EndUnorderedGroup, EndUnorderedGroup method [Windows Sync], EndUnorderedGroup method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],EndUnorderedGroup method, ISyncChangeBatch.EndUnorderedGroup, ISyncChangeBatch::EndUnorderedGroup, winsync.isyncchangebatch_endunorderedgroup, winsync/ISyncChangeBatch::EndUnorderedGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

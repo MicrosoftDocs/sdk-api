@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.EjectDiskFromSADriveW
 title: EjectDiskFromSADriveW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EjectDiskFromSADrive function ejects the media that is in a standalone removable drive.
 old-location: fs\ejectdiskfromsadrive.htm
 old-project: Rsm
 ms.assetid: eb1e79b5-f059-4e18-836f-3ba4de97eea2
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: EjectDiskFromSADrive, EjectDiskFromSADrive function [Files], EjectDiskFromSADriveA, EjectDiskFromSADriveW, NTMS_EJECT_ASK_USER, NTMS_EJECT_FORCE, NTMS_EJECT_IMMEDIATE, NTMS_EJECT_QUEUE, NTMS_EJECT_START, NTMS_EJECT_STOP, base.ejectdiskfromsadrive, fs.ejectdiskfromsadrive, ntmsapi/EjectDiskFromSADrive, ntmsapi/EjectDiskFromSADriveA, ntmsapi/EjectDiskFromSADriveW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

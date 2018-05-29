@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.ISyncSessionState
 title: ISyncSessionState
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents information about the current synchronization session.
 old-location: winsync\isyncsessionstate.htm
 old-project: winsync
 ms.assetid: 9b03d5af-b5f5-49fa-a10e-9f9f3c1dab0e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncSessionState, ISyncSessionState interface [Windows Sync], ISyncSessionState interface [Windows Sync],described, winsync.isyncsessionstate, winsync/ISyncSessionState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

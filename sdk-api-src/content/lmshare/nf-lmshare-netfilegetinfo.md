@@ -1,16 +1,16 @@
 ---
 UID: NF:lmshare.NetFileGetInfo
 title: NetFileGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a particular opening of a server resource.
 old-location: fs\netfilegetinfo.htm
 old-project: NetShare
 ms.assetid: d50c05e7-7ddd-4a7d-96f6-51878e52373c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: 2, 3, NetFileGetInfo, NetFileGetInfo function [Files], _win32_netfilegetinfo, fs.netfilegetinfo, lmshare/NetFileGetInfo, netmgmt.netfilegetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h

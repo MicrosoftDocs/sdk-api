@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpoolTimer
 title: CreateThreadpoolTimer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new timer object.
 old-location: base\createthreadpooltimer.htm
 old-project: ProcThread
 ms.assetid: 1fa98b79-e646-4e48-9979-1817d2c1b713
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CreateThreadpoolTimer, CreateThreadpoolTimer function, base.createthreadpooltimer, threadpoolapiset/CreateThreadpoolTimer, winbase/CreateThreadpoolTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

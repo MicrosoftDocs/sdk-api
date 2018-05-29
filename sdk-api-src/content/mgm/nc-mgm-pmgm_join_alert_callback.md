@@ -1,16 +1,16 @@
 ---
 UID: NC:mgm.PMGM_JOIN_ALERT_CALLBACK
 title: PMGM_JOIN_ALERT_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: The PMGM_JOIN_ALERT_CALLBACK callback is a call into a routing protocol to notify the protocol that new receivers are present for one or more groups on interfaces that are owned by other routing protocols.
 old-location: rras\pmgm_join_alert_callback.htm
 old-project: RRAS
 ms.assetid: 6274f04c-78aa-4bce-b57d-625b0f4f6e5f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PMGM_JOIN_ALERT_CALLBACK, PMGM_JOIN_ALERT_CALLBACK callback, PMGM_JOIN_ALERT_CALLBACK callback function [RAS], _mpr_pmgm_join_alert_callback, mgm/PMGM_JOIN_ALERT_CALLBACK, rras.pmgm_join_alert_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: mgm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPStringCollection2.getItemInfoByType
 title: IWMPStringCollection2::getItemInfoByType
-author: windows-driver-content
+author: windows-sdk-content
 description: The getItemInfoByType method retrieves the value corresponding to the specified string collection item index, name, language, and attribute index.
 old-location: wmp\iwmpstringcollection2_getiteminfobytype.htm
 old-project: WMP
 ms.assetid: ff395caf-9b5a-41e0-94c6-4a5eb96281ca
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPStringCollection2 interface [Windows Media Player],getItemInfoByType method, IWMPStringCollection2.getItemInfoByType, IWMPStringCollection2::getItemInfoByType, IWMPStringCollection2getItemInfoByType, getItemInfoByType, getItemInfoByType method [Windows Media Player], getItemInfoByType method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_getiteminfobytype, wmp/IWMPStringCollection2::getItemInfoByType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpGetVb
 title: SnmpGetVb function
-author: windows-driver-content
+author: windows-sdk-content
 description: A WinSNMP application calls the SnmpGetVb function to retrieve information from a variable bindings list. This WinSNMP function retrieves a variable name and its associated value from the variable binding entry specified by the index parameter.
 old-location: snmp\snmpgetvb.htm
 old-project: SNMP
 ms.assetid: a6598b4e-6797-4e18-8ab5-059c75bc84ef
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SNMP_SYNTAX_CNTR32, SNMP_SYNTAX_CNTR64, SNMP_SYNTAX_ENDOFMIBVIEW, SNMP_SYNTAX_GAUGE32, SNMP_SYNTAX_INT, SNMP_SYNTAX_INT32, SNMP_SYNTAX_IPADDR, SNMP_SYNTAX_NOSUCHINSTANCE, SNMP_SYNTAX_NOSUCHOBJECT, SNMP_SYNTAX_NULL, SNMP_SYNTAX_OCTETS, SNMP_SYNTAX_OID, SNMP_SYNTAX_OPAQUE, SNMP_SYNTAX_TIMETICKS, SNMP_SYNTAX_UINT32, SnmpGetVb, SnmpGetVb function [SNMP], _snmp_snmpgetvb, snmp.snmpgetvb, winsnmp/SnmpGetVb
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

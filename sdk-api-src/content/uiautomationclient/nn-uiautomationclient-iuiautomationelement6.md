@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement6
 title: IUIAutomationElement6
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IUIAutomationElement5 interface to provide access to current and cached full descriptions.
 old-location: winauto\uiauto_IUIAutomationElement6.htm
 old-project: WinAuto
 ms.assetid: 3E00CFB1-0683-4946-9E57-7E4F6E86F60C
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationElement6, IUIAutomationElement6 interface [Windows Accessibility], IUIAutomationElement6 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement6, winauto.uiauto_IUIAutomationElement6
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

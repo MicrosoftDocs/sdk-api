@@ -1,16 +1,16 @@
 ---
 UID: NN:il21dec.IAMLine21Decoder
 title: IAMLine21Decoder
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMLine21Decoder interface sets and retrieves information about closed captions.The Line 21 Decoder filter exposes this interface.
 old-location: dshow\iamline21decoder.htm
 old-project: DirectShow
 ms.assetid: b6fbb5c3-28af-4db6-8dc4-82271b69bf71
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMLine21Decoder, IAMLine21Decoder interface [DirectShow], IAMLine21Decoder interface [DirectShow],described, IAMLine21DecoderInterface, dshow.iamline21decoder, il21dec/IAMLine21Decoder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: il21dec.h
 req.include-header: 

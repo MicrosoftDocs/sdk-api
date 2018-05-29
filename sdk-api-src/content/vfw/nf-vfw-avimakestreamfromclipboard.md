@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIMakeStreamFromClipboard
 title: AVIMakeStreamFromClipboard function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIMakeStreamFromClipboard function creates an editable stream from stream data on the clipboard.
 old-location: multimedia\avimakestreamfromclipboard.htm
 old-project: Multimedia
 ms.assetid: e41f4ef2-bb57-4a92-b382-7faa106d2aa0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIMakeStreamFromClipboard, AVIMakeStreamFromClipboard function [Windows Multimedia], _win32_AVIMakeStreamFromClipboard, multimedia.avimakestreamfromclipboard, vfw/AVIMakeStreamFromClipboard
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarDateFromR4
 title: VarDateFromR4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a float value to a date value.
 old-location: automat\vardatefromr4.htm
 old-project: automat
 ms.assetid: 58d83d5b-338d-449c-b4af-97f7b0dfbde3
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarDateFromR4, VarDateFromR4 function [Automation], _oa96_VarDateFromR4, automat.vardatefromr4, oleauto/VarDateFromR4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

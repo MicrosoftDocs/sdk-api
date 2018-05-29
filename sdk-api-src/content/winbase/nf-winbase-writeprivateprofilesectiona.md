@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.WritePrivateProfileSectionA
 title: WritePrivateProfileSectionA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces the keys and values for the specified section in an initialization file.
 old-location: base\writeprivateprofilesection.htm
 old-project: SysInfo
 ms.assetid: 23f9e012-4196-437a-9e22-0524b37505b4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WritePrivateProfileSection, WritePrivateProfileSection function, WritePrivateProfileSectionA, WritePrivateProfileSectionW, _win32_writeprivateprofilesection, base.writeprivateprofilesection, winbase/WritePrivateProfileSection, winbase/WritePrivateProfileSectionA, winbase/WritePrivateProfileSectionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

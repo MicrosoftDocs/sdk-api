@@ -1,16 +1,16 @@
 ---
 UID: NI:emi.IOCTL_EMI_GET_VERSION
 title: IOCTL_EMI_GET_VERSION
-author: windows-driver-content
+author: windows-sdk-content
 description: The IOCTL_EMI_GET_VERSION control code retrieves the current version of the EMI interface supported by the device.
 old-location: powermeter\ioctl_emi_get_version.htm
 old-project: powermeter
 ms.assetid: 6B27B70C-DB3C-4EF9-B8FF-8074B0285F87
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IOCTL_EMI_GET_VERSION, IOCTL_EMI_GET_VERSION control, IOCTL_EMI_GET_VERSION control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_VERSION, powermeter.ioctl_emi_get_version
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: emi.h
 req.include-header: Emi.h

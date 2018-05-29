@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.SendMouseWheelEvent
 title: IRDPViewerInputSink::SendMouseWheelEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a mouse wheel event message.
 old-location: rdp\irdpviewerinputsink_sendmousewheelevent.htm
 old-project: Rdp
 ms.assetid: CEC54C27-F49E-4B41-A18D-69F0414955A1
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPViewerInputSink interface [RDP],SendMouseWheelEvent method, IRDPViewerInputSink.SendMouseWheelEvent, IRDPViewerInputSink::SendMouseWheelEvent, SendMouseWheelEvent, SendMouseWheelEvent method [RDP], SendMouseWheelEvent method [RDP],IRDPViewerInputSink interface, rdp.irdpviewerinputsink_sendmousewheelevent, rdpencomapi/IRDPViewerInputSink::SendMouseWheelEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

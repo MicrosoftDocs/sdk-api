@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingUnexportPnPW
 title: RpcNsBindingUnexportPnPW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsBindingUnexportPnP function removes the binding handles for Plug and Play interfaces and objects from an entry in the name-service database.
 old-location: rpc\rpcnsbindingunexportpnp.htm
 old-project: Rpc
 ms.assetid: b19d9c18-b2fa-45da-b55f-583483c4d540
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsBindingUnexportPnP, RpcNsBindingUnexportPnP function [RPC], RpcNsBindingUnexportPnPA, RpcNsBindingUnexportPnPW, _rpc_rpcnsbindingunexportpnp, rpc.rpcnsbindingunexportpnp, rpcnsi/RpcNsBindingUnexportPnP, rpcnsi/RpcNsBindingUnexportPnPA, rpcnsi/RpcNsBindingUnexportPnPW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

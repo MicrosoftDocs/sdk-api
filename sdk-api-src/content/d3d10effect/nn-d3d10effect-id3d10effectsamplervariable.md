@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectSamplerVariable
 title: ID3D10EffectSamplerVariable
-author: windows-driver-content
+author: windows-sdk-content
 description: A sampler interface accesses sampler state.
 old-location: direct3d10\id3d10effectsamplervariable.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectsamplervariable.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 5f4e0586-ee65-dc10-114c-2c07af8387a7, ID3D10EffectSamplerVariable, ID3D10EffectSamplerVariable interface [Direct3D 10], ID3D10EffectSamplerVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectSamplerVariable, direct3d10.id3d10effectsamplervariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: 

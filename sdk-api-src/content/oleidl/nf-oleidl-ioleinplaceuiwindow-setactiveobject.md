@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleInPlaceUIWindow.SetActiveObject
 title: IOleInPlaceUIWindow::SetActiveObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a direct channel of communication between the object and each of the frame and document windows.
 old-location: com\ioleinplaceuiwindow_setactiveobject.htm
 old-project: com
 ms.assetid: 6ed1b09a-44e4-41dc-aa35-27efb3df66d6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceUIWindow interface [COM],SetActiveObject method, IOleInPlaceUIWindow.SetActiveObject, IOleInPlaceUIWindow::SetActiveObject, SetActiveObject, SetActiveObject method [COM], SetActiveObject method [COM],IOleInPlaceUIWindow interface, _ole_ioleinplaceuiwindow_setactiveobject, com.ioleinplaceuiwindow_setactiveobject, oleidl/IOleInPlaceUIWindow::SetActiveObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

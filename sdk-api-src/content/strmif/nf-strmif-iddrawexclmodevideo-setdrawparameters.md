@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.SetDrawParameters
 title: IDDrawExclModeVideo::SetDrawParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDrawParameters method specifies which part of the original video will appear at which position of the screen.
 old-location: dshow\iddrawexclmodevideo_setdrawparameters.htm
 old-project: DirectShow
 ms.assetid: e5c2eda5-4276-4906-8098-37bba3fd4e5a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDDrawExclModeVideo interface [DirectShow],SetDrawParameters method, IDDrawExclModeVideo.SetDrawParameters, IDDrawExclModeVideo::SetDrawParameters, IDDrawExclModeVideoSetDrawParameters, SetDrawParameters, SetDrawParameters method [DirectShow], SetDrawParameters method [DirectShow],IDDrawExclModeVideo interface, dshow.iddrawexclmodevideo_setdrawparameters, strmif/IDDrawExclModeVideo::SetDrawParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelectorEnumerator.Clone
 title: IOpcRelationshipSelectorEnumerator::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of the current IOpcRelationshipSelectorEnumerator interface pointer and all its descendants.
 old-location: opc\iopcrelationshipselectorenumerator_clone.htm
 old-project: OPC
 ms.assetid: 3eaf4b51-201d-43de-a9b7-408306992629
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcRelationshipSelectorEnumerator interface, IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],Clone method, IOpcRelationshipSelectorEnumerator.Clone, IOpcRelationshipSelectorEnumerator::Clone, msopc/IOpcRelationshipSelectorEnumerator::Clone, opc.iopcrelationshipselectorenumerator_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

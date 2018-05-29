@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheck.ISpellCheckerFactory.IsSupported
 title: ISpellCheckerFactory::IsSupported
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if the specified language is supported by a registered spell checker.
 old-location: intl\ispellcheckerfactory_issupported.htm
 old-project: Intl
 ms.assetid: eb21850d-d490-4055-8910-70f9c0090f59
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISpellCheckerFactory interface [Internationalization for Windows Applications],IsSupported method, ISpellCheckerFactory.IsSupported, ISpellCheckerFactory::IsSupported, IsSupported, IsSupported method [Internationalization for Windows Applications], IsSupported method [Internationalization for Windows Applications],ISpellCheckerFactory interface, intl.ispellcheckerfactory_issupported, spellcheck/ISpellCheckerFactory::IsSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

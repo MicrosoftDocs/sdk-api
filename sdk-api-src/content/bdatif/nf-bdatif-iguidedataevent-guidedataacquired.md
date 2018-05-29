@@ -1,16 +1,16 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.GuideDataAcquired
 title: IGuideDataEvent::GuideDataAcquired
-author: windows-driver-content
+author: windows-sdk-content
 description: The GuideDataAcquired method is called when a complete set of guide data has been acquired from the current transport stream.
 old-location: mstv\iguidedataevent_guidedataacquired.htm
 old-project: mstv
 ms.assetid: 00f1aec7-4d26-4323-9d7e-c75d9a0c374c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GuideDataAcquired, GuideDataAcquired method [Microsoft TV Technologies], GuideDataAcquired method [Microsoft TV Technologies],IGuideDataEvent interface, IGuideDataEvent interface [Microsoft TV Technologies],GuideDataAcquired method, IGuideDataEvent.GuideDataAcquired, IGuideDataEvent::GuideDataAcquired, IGuideDataEventGuideDataAcquired, bdatif/IGuideDataEvent::GuideDataAcquired, mstv.iguidedataevent_guidedataacquired
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

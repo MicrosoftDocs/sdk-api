@@ -1,16 +1,16 @@
 ---
 UID: NF:userenv.DeleteAppContainerProfile
 title: DeleteAppContainerProfile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the specified per-user, per-app profile.
 old-location: shell\deleteappcontainerprofile.htm
 old-project: shell
 ms.assetid: ED79D661-D087-4E44-8C32-14705ACA9D40
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DeleteAppContainerProfile, DeleteAppContainerProfile function [Windows Shell], shell.deleteappcontainerprofile, userenv/DeleteAppContainerProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

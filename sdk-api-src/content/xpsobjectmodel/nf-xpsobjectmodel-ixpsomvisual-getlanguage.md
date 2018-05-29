@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetLanguage
 title: IXpsOMVisual::GetLanguage
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the Language property of the visual and of its contents.
 old-location: xps\ixpsomvisual_getlanguage.htm
 old-project: printdocs
 ms.assetid: 22cddce5-f881-4585-9ab8-d8cdce06511f
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetLanguage, GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetLanguage method, IXpsOMVisual.GetLanguage, IXpsOMVisual::GetLanguage, xps.ixpsomvisual_getlanguage, xpsobjectmodel/IXpsOMVisual::GetLanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

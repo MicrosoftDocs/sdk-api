@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.Sign
 title: IOpcDigitalSignatureManager::Sign
-author: windows-driver-content
+author: windows-sdk-content
 description: Signs the package by generating a signature by using the specified certificate and IOpcSigningOptions interface pointer.
 old-location: opc\iopcdigitalsignaturemanager_sign.htm
 old-project: OPC
 ms.assetid: 5d40cae4-67d5-40a6-bd63-cf6243a703eb
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],Sign method, IOpcDigitalSignatureManager.Sign, IOpcDigitalSignatureManager::Sign, Sign, Sign method [Open Packaging Conventions], Sign method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::Sign, opc.iopcdigitalsignaturemanager_sign
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

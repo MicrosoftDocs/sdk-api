@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.SetNtmsDeviceChangeDetection
 title: SetNtmsDeviceChangeDetection function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetNtmsDeviceChangeDetection function sets one or more target devices for change detection.
 old-location: fs\setntmsdevicechangedetection.htm
 old-project: Rsm
 ms.assetid: 803bd7d6-f098-42f1-83da-fe9f71f960b0
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: SetNtmsDeviceChangeDetection, SetNtmsDeviceChangeDetection function [Files], _zaw_setntmsdevicechangedetection, base.setntmsdevicechangedetection, fs.setntmsdevicechangedetection, ntmsapi/SetNtmsDeviceChangeDetection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IEnumConnectionPoints.Skip
 title: IEnumConnectionPoints::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumconnectionpoints_skip.htm
 old-project: com
 ms.assetid: 53080d41-c8b8-46ad-a5f1-6eceb497aa9b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumConnectionPoints interface [COM],Skip method, IEnumConnectionPoints.Skip, IEnumConnectionPoints::Skip, Skip, Skip method [COM], Skip method [COM],IEnumConnectionPoints interface, _com_ienumconnectionpoints_skip, com.ienumconnectionpoints_skip, ocidl/IEnumConnectionPoints::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: ObjIdl.h

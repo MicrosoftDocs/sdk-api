@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_OperationType
 title: IFsrmFileManagementJob::put_OperationType
-author: windows-driver-content
+author: windows-sdk-content
 description: The type of file management job. The type determines the operation to perform on a file when all conditions are met.
 old-location: fsrm\ifsrmfilemanagementjob_operationtype.htm
 old-project: Fsrm
 ms.assetid: 98816ea0-7651-42ef-8893-13c568ed859a
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],OperationType property, IFsrmFileManagementJob.OperationType, IFsrmFileManagementJob.put_OperationType, IFsrmFileManagementJob::OperationType, IFsrmFileManagementJob::get_OperationType, IFsrmFileManagementJob::put_OperationType, OperationType property [File Server Resource Manager], OperationType property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_operationtype, fsrm.ifsrmfilemanagementjob_operationtype, fsrmreports/IFsrmFileManagementJob::OperationType, fsrmreports/IFsrmFileManagementJob::get_OperationType, fsrmreports/IFsrmFileManagementJob::put_OperationType, put_OperationType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

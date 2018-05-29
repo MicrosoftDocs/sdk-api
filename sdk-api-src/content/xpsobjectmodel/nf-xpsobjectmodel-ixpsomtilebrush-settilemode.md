@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetTileMode
 title: IXpsOMTileBrush::SetTileMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the XPS_TILE_MODE value that describes the tiling mode of the brush.
 old-location: xps\ixpsomtilebrush_settilemode.htm
 old-project: printdocs
 ms.assetid: 5901e5ec-1907-404b-b1a8-a00e13d3eab8
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetTileMode method, IXpsOMTileBrush.SetTileMode, IXpsOMTileBrush::SetTileMode, SetTileMode, SetTileMode method [XPS Documents and Packaging], SetTileMode method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_settilemode, xpsobjectmodel/IXpsOMTileBrush::SetTileMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

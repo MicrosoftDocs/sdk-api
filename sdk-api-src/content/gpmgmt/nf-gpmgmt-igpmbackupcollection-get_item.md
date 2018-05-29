@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMBackupCollection.get_Item
 title: IGPMBackupCollection::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Given an index, returns a GPMBackup object from the collection.
 old-location: gpmc\igpmbackupcollection_get_item.htm
 old-project: GPMC
 ms.assetid: 2e0ea5fb-3f91-4a64-8b4a-9fa97cd3ec3e
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMBackupCollection object [GPMC],Item property, IGPMBackupCollection interface [GPMC],Item property, IGPMBackupCollection.Item, IGPMBackupCollection.get_Item, IGPMBackupCollection::Item, IGPMBackupCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMBackupCollection object, Item property [GPMC],IGPMBackupCollection interface, get_Item, gpmc.igpmbackupcollection_get_item, gpmgmt/IGPMBackupCollection::Item, gpmgmt/IGPMBackupCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

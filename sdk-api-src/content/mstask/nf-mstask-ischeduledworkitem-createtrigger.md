@@ -1,16 +1,16 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.CreateTrigger
 title: IScheduledWorkItem::CreateTrigger
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a trigger for the work item.
 old-location: taskschd\ischeduledworkitem_createtrigger.htm
 old-project: TaskSchd
 ms.assetid: ff8c9c3b-697f-42f0-a5b5-6194e4c89096
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateTrigger, CreateTrigger method [Task Scheduler], CreateTrigger method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],CreateTrigger method, IScheduledWorkItem.CreateTrigger, IScheduledWorkItem::CreateTrigger, _msb_ischeduledworkitem_createtrigger, mstask/IScheduledWorkItem::CreateTrigger, taskschd.ischeduledworkitem_createtrigger
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

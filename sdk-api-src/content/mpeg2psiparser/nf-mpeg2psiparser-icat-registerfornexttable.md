@@ -1,16 +1,16 @@
 ---
 UID: NF:mpeg2psiparser.ICAT.RegisterForNextTable
 title: ICAT::RegisterForNextTable
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat_registerfornexttable.htm
 old-project: mstv
 ms.assetid: 17d77207-253f-48e2-a7ec-3bcc549d2d5e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICAT interface [Microsoft TV Technologies],RegisterForNextTable method, ICAT.RegisterForNextTable, ICAT::RegisterForNextTable, ICATRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],ICAT interface, mpeg2psiparser/ICAT::RegisterForNextTable, mstv.icat_registerfornexttable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskDefinition.get_Data
 title: ITaskDefinition::get_Data
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the data that is associated with the task.
 old-location: taskschd\itaskdefinition_data.htm
 old-project: TaskSchd
 ms.assetid: b2bb9102-3192-4336-9f91-efad081124b1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Data property [Task Scheduler], Data property [Task Scheduler],ITaskDefinition interface, ITaskDefinition interface [Task Scheduler],Data property, ITaskDefinition.Data, ITaskDefinition.get_Data, ITaskDefinition::Data, ITaskDefinition::get_Data, ITaskDefinition::put_Data, get_Data, taskschd.itaskdefinition_data, taskschd/ITaskDefinition::Data, taskschd/ITaskDefinition::get_Data, taskschd/ITaskDefinition::put_Data
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

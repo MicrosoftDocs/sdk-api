@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IResourceManager.RequestResource
 title: IResourceManager::RequestResource
-author: windows-driver-content
+author: windows-sdk-content
 description: The RequestResource method requests the use of a given registered resource.
 old-location: dshow\iresourcemanager_requestresource.htm
 old-project: DirectShow
 ms.assetid: b52dc38a-9246-4cef-ba1a-cf1927223183
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IResourceManager interface [DirectShow],RequestResource method, IResourceManager.RequestResource, IResourceManager::RequestResource, IResourceManagerRequestResource, RequestResource, RequestResource method [DirectShow], RequestResource method [DirectShow],IResourceManager interface, dshow.iresourcemanager_requestresource, strmif/IResourceManager::RequestResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:winbase._FILE_ID_INFO
 title: "_FILE_ID_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains identification information for a file.
 old-location: fs\file_id_info.htm
 old-project: FileIO
 ms.assetid: e2774e29-1a90-44d6-9001-f73a98be6624
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PFILE_ID_INFO, FILE_ID_INFO, FILE_ID_INFO structure [Files], PFILE_ID_INFO, PFILE_ID_INFO structure pointer [Files], _FILE_ID_INFO, fs.file_id_info, winbase/FILE_ID_INFO, winbase/PFILE_ID_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:ntdsapi._DS_REPL_OPW_BLOB
 title: "_DS_REPL_OPW_BLOB"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DS_REPL_OPW_BLOB structure describes a replication task currently executing or pending execution.
 old-location: ad\ds_repl_opw_blob.htm
 old-project: AD
 ms.assetid: 14676159-cc31-4254-b174-dcd84d9ceec1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_REPL_OPW_BLOB, DS_REPL_OPW_BLOB structure [Active Directory], DS_REPL_OP_TYPE_ADD, DS_REPL_OP_TYPE_DELETE, DS_REPL_OP_TYPE_MODIFY, DS_REPL_OP_TYPE_SYNC, DS_REPL_OP_TYPE_UPDATE_REFS, _DS_REPL_OPW_BLOB, ad.ds_repl_opw_blob, ntdsapi/DS_REPL_OPW_BLOB
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

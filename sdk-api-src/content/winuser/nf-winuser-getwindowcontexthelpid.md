@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetWindowContextHelpId
 title: GetWindowContextHelpId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Help context identifier, if any, associated with the specified window.
 old-location: shell\GetWindowContextHelpId.htm
 old-project: shell
 ms.assetid: 28e57c01-0327-4f64-9ef4-ca13c3c32b0c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetWindowContextHelpId, GetWindowContextHelpId function [Windows Shell], _win32_GetWindowContextHelpId, shell.GetWindowContextHelpId, winuser/GetWindowContextHelpId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

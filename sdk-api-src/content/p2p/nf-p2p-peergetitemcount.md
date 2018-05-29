@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGetItemCount
 title: PeerGetItemCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGetItemCount function returns a count of the items in a peer enumeration.
 old-location: p2p\peergetitemcount.htm
 old-project: P2PSdk
 ms.assetid: 8f6fec31-8867-4d65-b5b0-e6506be9c991
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGetItemCount, PeerGetItemCount function [Peer Networking], p2p.peergetitemcount, p2p/PeerGetItemCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

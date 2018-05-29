@@ -1,16 +1,16 @@
 ---
 UID: NF:npapi.NPGetResourceParent
 title: NPGetResourceParent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the parent of a specified network resource in the browse hierarchy.
 old-location: security\npgetresourceparent.htm
 old-project: SecAuthN
 ms.assetid: 48add326-7182-426a-b7b6-d56f4bfcfb2b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: NPGetResourceParent, NPGetResourceParent function [Security], _mnp_npgetresourceparent, npapi/NPGetResourceParent, security.npgetresourceparent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

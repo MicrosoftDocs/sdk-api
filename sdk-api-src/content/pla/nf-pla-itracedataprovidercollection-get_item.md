@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.get_Item
 title: ITraceDataProviderCollection::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the requested trace provider from the collection.
 old-location: pla\itracedataprovidercollection_item.htm
 old-project: PLA
 ms.assetid: 7668d9cc-c1b3-4b72-8e37-305c334905f3
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ITraceDataProviderCollection interface [PLA],Item property, ITraceDataProviderCollection.Item, ITraceDataProviderCollection.get_Item, ITraceDataProviderCollection::Item, ITraceDataProviderCollection::get_Item, Item property [PLA], Item property [PLA],ITraceDataProviderCollection interface, base.itracedataprovidercollection_item, get_Item, pla.itracedataprovidercollection_item, pla/ITraceDataProviderCollection::Item, pla/ITraceDataProviderCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

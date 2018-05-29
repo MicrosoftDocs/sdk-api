@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhValidatePathExA
 title: PdhValidatePathExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Validates that the specified counter is present on the computer or in the log file.
 old-location: perf\pdhvalidatepathex.htm
 old-project: PerfCtrs
 ms.assetid: e6b52af7-7276-4565-aa61-73899796a13c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhValidatePathEx, PdhValidatePathEx function [Perf], PdhValidatePathExA, PdhValidatePathExW, pdh/PdhValidatePathEx, pdh/PdhValidatePathExA, pdh/PdhValidatePathExW, perf.pdhvalidatepathex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

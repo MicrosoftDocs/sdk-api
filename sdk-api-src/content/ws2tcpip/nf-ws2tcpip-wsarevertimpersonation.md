@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2tcpip.WSARevertImpersonation
 title: WSARevertImpersonation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Terminates the impersonation of a socket peer. This must be called after calling WSAImpersonateSocketPeer and finishing any access checks.
 old-location: winsock\wsarevertimpersonation.htm
 old-project: WinSock
 ms.assetid: 7de25015-97ec-4338-846f-57df54142d65
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSARevertImpersonation, WSARevertImpersonation function [Winsock], winsock.wsarevertimpersonation, ws2tcpip/WSARevertImpersonation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

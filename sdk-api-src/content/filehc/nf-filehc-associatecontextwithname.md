@@ -1,16 +1,16 @@
 ---
 UID: NF:filehc.AssociateContextWithName
 title: AssociateContextWithName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts a name into the name cache to find a specified FIO_CONTEXT structure.
 old-location: winprog\_associatecontextwithname.htm
 old-project: DevNotes
 ms.assetid: 4f4bbfda-3be0-41d3-9087-d46edd2e21a3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: AssociateContextWithName, AssociateContextWithName function [Windows API], filehc/AssociateContextWithName, winprog._associatecontextwithname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

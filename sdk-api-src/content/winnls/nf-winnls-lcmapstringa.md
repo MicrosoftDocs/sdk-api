@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.LCMapStringA
 title: LCMapStringA function
-author: windows-driver-content
+author: windows-sdk-content
 description: For a locale specified by identifier, maps one input character string to another using a specified transformation, or generates a sort key for the input string.
 old-location: intl\lcmapstring.htm
 old-project: Intl
 ms.assetid: 84dda2cd-cbf9-45e9-b18c-7dea0b5bc991
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LCMapString, LCMapString function [Internationalization for Windows Applications], LCMapStringA, LCMapStringW, _win32_LCMapString, intl.lcmapstring, winnls/LCMapString, winnls/LCMapStringA, winnls/LCMapStringW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

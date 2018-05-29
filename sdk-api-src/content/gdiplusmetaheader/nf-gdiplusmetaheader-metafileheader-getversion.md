@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetVersion
 title: MetafileHeader::GetVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: The MetafileHeader::GetVersion method gets the version of the metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetVersion_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getversion.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetVersion, GetVersion method [GDI+], GetVersion method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetVersion method, MetafileHeader.GetVersion, MetafileHeader::GetVersion, _gdiplus_CLASS_MetafileHeader_GetVersion_, gdiplus._gdiplus_CLASS_MetafileHeader_GetVersion_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h

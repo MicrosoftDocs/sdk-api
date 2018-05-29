@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleCreateStaticFromData
 title: OleCreateStaticFromData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a static object, that contains only a representation, with no native data, from a data transfer object.
 old-location: com\olecreatestaticfromdata.htm
 old-project: com
 ms.assetid: 847d82f5-149d-48a4-a228-f5551a07a790
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleCreateStaticFromData, OleCreateStaticFromData function [COM], _ole_OleCreateStaticFromData, com.olecreatestaticfromdata, ole2/OleCreateStaticFromData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

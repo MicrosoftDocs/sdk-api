@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChainMedia.CheckPresentDurationSupport
 title: IDXGISwapChainMedia::CheckPresentDurationSupport
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries the graphics driver for a supported frame present duration corresponding to a custom refresh rate.
 old-location: direct3ddxgi\idxgiswapchainmedia_checkpresentdurationsupport.htm
 old-project: direct3ddxgi
 ms.assetid: 3334E761-745E-4476-9AB4-4FC6DABC78E8
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CheckPresentDurationSupport, CheckPresentDurationSupport method [DXGI], CheckPresentDurationSupport method [DXGI],IDXGISwapChainMedia interface, IDXGISwapChainMedia interface [DXGI],CheckPresentDurationSupport method, IDXGISwapChainMedia.CheckPresentDurationSupport, IDXGISwapChainMedia::CheckPresentDurationSupport, direct3ddxgi.idxgiswapchainmedia_checkpresentdurationsupport, dxgi1_3/IDXGISwapChainMedia::CheckPresentDurationSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 

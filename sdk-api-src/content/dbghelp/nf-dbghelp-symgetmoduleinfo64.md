@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymGetModuleInfo64
 title: SymGetModuleInfo64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the module information of the specified module.
 old-location: base\symgetmoduleinfo64.htm
 old-project: Debug
 ms.assetid: e8057cb5-3331-4460-b07c-4338a57024be
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymGetModuleInfo, SymGetModuleInfo function, SymGetModuleInfo64, SymGetModuleInfo64 function, SymGetModuleInfoW, SymGetModuleInfoW64, _win32_symgetmoduleinfo64, base.symgetmoduleinfo64, dbghelp/SymGetModuleInfo, dbghelp/SymGetModuleInfo64, dbghelp/SymGetModuleInfoW, dbghelp/SymGetModuleInfoW64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

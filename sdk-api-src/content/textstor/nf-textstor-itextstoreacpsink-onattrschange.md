@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnAttrsChange
 title: ITextStoreACPSink::OnAttrsChange
-author: windows-driver-content
+author: windows-sdk-content
 description: ITextStoreACPSink::OnAttrsChange method
 old-location: tsf\itextstoreacpsink_onattrschange.htm
 old-project: TSF
 ms.assetid: ae1e5f92-7462-46b4-b4dd-5032147de688
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnAttrsChange method, ITextStoreACPSink.OnAttrsChange, ITextStoreACPSink::OnAttrsChange, OnAttrsChange, OnAttrsChange method [Text Services Framework], OnAttrsChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onattrschange_ref, textstor/ITextStoreACPSink::OnAttrsChange, tsf.itextstoreacpsink_onattrschange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

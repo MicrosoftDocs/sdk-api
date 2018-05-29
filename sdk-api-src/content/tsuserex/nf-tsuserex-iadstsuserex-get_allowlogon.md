@@ -1,16 +1,16 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_AllowLogon
 title: IADsTSUserEx::get_AllowLogon
-author: windows-driver-content
+author: windows-sdk-content
 description: A value that specifies whether the user is allowed to log on to the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iadstsuserex_allowlogon.htm
 old-project: TermServ
 ms.assetid: 60271637-b25a-4857-896d-109737d2f046
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AllowLogon property [Remote Desktop Services], AllowLogon property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],AllowLogon property, IADsTSUserEx.AllowLogon, IADsTSUserEx.get_AllowLogon, IADsTSUserEx::AllowLogon, IADsTSUserEx::get_AllowLogon, IADsTSUserEx::put_AllowLogon, get_AllowLogon, termserv.iadstsuserex_allowlogon, tsuserex/IADsTSUserEx::AllowLogon, tsuserex/IADsTSUserEx::get_AllowLogon, tsuserex/IADsTSUserEx::put_AllowLogon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c

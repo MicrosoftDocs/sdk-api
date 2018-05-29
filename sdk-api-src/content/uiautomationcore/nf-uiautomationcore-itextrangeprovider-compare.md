@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.Compare
 title: ITextRangeProvider::Compare
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a value that specifies whether this text range has the same endpoints as another text range.
 old-location: winauto\uiauto_ITextRangeProvider_Compare.htm
 old-project: WinAuto
 ms.assetid: 6ccdeeee-4c9b-439b-abb8-1fc71f3d209c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: Compare, Compare method [Windows Accessibility], Compare method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],Compare method, ITextRangeProvider.Compare, ITextRangeProvider::Compare, uiauto.uiauto_ITextRangeProvider_Compare, uiauto_ITextRangeProvider_Compare, uiautomationcore/ITextRangeProvider::Compare, winauto.uiauto_ITextRangeProvider_Compare
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

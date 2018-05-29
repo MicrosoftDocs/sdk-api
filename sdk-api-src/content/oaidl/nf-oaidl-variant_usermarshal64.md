@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.VARIANT_UserMarshal64
 title: VARIANT_UserMarshal64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Marshals a VARIANT object into the RPC buffer.
 old-location: automat\variant_usermarshal64.htm
 old-project: automat
 ms.assetid: af9f85fa-b123-49da-99c7-552cd03197c0
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VARIANT_UserMarshal64, VARIANT_UserMarshal64 function [Automation], automat.variant_usermarshal64, oaidl/VARIANT_UserMarshal64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 

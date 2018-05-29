@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange2.GetURL
 title: ITextRange2::GetURL
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the URL text associated with a range.
 old-location: controls\itextrange2_geturl.htm
 old-project: Controls
 ms.assetid: 0d23f261-0b44-4532-86da-0ca40561bfe0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetURL, GetURL method [Windows Controls], GetURL method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetURL method, ITextRange2.GetURL, ITextRange2::GetURL, controls.itextrange2_geturl, tom/ITextRange2::GetURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:olectl.OleTranslateColor
 title: OleTranslateColor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an OLE_COLOR type to a COLORREF.
 old-location: com\oletranslatecolor.htm
 old-project: com
 ms.assetid: f4b407c3-e88a-47b4-bb43-8f691629d2f3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleTranslateColor, OleTranslateColor function [COM], _ctrl_OleTranslateColor, com.oletranslatecolor, olectl/OleTranslateColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: olectl.h
 req.include-header: 

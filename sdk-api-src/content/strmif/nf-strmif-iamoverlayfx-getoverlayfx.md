@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMOverlayFX.GetOverlayFX
 title: IAMOverlayFX::GetOverlayFX
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetOverlayFX method retrieves the effects currently applied to the overlay surface, if any. The application can call this method while the filter graph is running.
 old-location: dshow\iamoverlayfx_getoverlayfx.htm
 old-project: DirectShow
 ms.assetid: f8232fcf-a0d8-4155-941e-8613c09b4bbf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetOverlayFX, GetOverlayFX method [DirectShow], GetOverlayFX method [DirectShow],IAMOverlayFX interface, IAMOverlayFX interface [DirectShow],GetOverlayFX method, IAMOverlayFX.GetOverlayFX, IAMOverlayFX::GetOverlayFX, IAMOverlayFXGetOverlayFX, dshow.iamoverlayfx_getoverlayfx, strmif/IAMOverlayFX::GetOverlayFX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

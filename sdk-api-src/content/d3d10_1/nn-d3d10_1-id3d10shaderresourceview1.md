@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d10_1.ID3D10ShaderResourceView1
 title: ID3D10ShaderResourceView1
-author: windows-driver-content
+author: windows-sdk-content
 description: A shader-resource-view interface specifies the subresources a shader can access during rendering. Examples of shader resources include a constant buffer, a texture buffer, a texture or a sampler.
 old-location: direct3d10\id3d10shaderresourceview1.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderresourceview1.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 42bd4307-40a4-6b0e-192f-643d483668e8, ID3D10ShaderResourceView1, ID3D10ShaderResourceView1 interface [Direct3D 10], ID3D10ShaderResourceView1 interface [Direct3D 10],described, d3d10_1/ID3D10ShaderResourceView1, direct3d10.id3d10shaderresourceview1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10_1.h
 req.include-header: D3D10Shader.h

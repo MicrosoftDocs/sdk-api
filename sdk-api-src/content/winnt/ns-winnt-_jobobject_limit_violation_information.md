@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._JOBOBJECT_LIMIT_VIOLATION_INFORMATION
 title: "_JOBOBJECT_LIMIT_VIOLATION_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about resource notification limits that have been exceeded for a job object. This structure is used with the QueryInformationJobObject function with the JobObjectLimitViolationInformation information class.
 old-location: base\jobobject_limit_violation_information.htm
 old-project: ProcThread
 ms.assetid: 445f21aa-ba42-4ad6-8d28-f7811a5d8a8c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PJOBOBJECT_LIMIT_VIOLATION_INFORMATION, JOBOBJECT_LIMIT_VIOLATION_INFORMATION, JOBOBJECT_LIMIT_VIOLATION_INFORMATION structure, JOB_OBJECT_LIMIT_JOB_MEMORY, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, JOB_OBJECT_LIMIT_RATE_CONTROL, JOB_OBJECT_LIMIT_READ_BYTES, JOB_OBJECT_LIMIT_WRITE_BYTES, PJOBOBJECT_LIMIT_VIOLATION_INFORMATION, PJOBOBJECT_LIMIT_VIOLATION_INFORMATION structure pointer, ToleranceHigh, ToleranceIntervalLong, ToleranceIntervalMedium, ToleranceIntervalShort, ToleranceLow, ToleranceMedium, _JOBOBJECT_LIMIT_VIOLATION_INFORMATION, base.jobobject_limit_violation_information, winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION, winnt/PJOBOBJECT_LIMIT_VIOLATION_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

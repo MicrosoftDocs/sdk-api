@@ -1,16 +1,16 @@
 ---
 UID: NF:bitscfg.IBITSExtensionSetup.EnableBITSUploads
 title: IBITSExtensionSetup::EnableBITSUploads
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the EnableBITSUploads method to enable BITS upload on the virtual directory to which the ADSI object points. This method sets the BITSUploadEnabled IIS extension property.
 old-location: bits\ibitsextensionsetup_enablebitsuploads.htm
 old-project: Bits
 ms.assetid: 5b68dea2-f9a7-4a99-93d3-62c4f24b769f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EnableBITSUploads, EnableBITSUploads method [BITS], EnableBITSUploads method [BITS],IBITSExtensionSetup interface, IBITSExtensionSetup interface [BITS],EnableBITSUploads method, IBITSExtensionSetup.EnableBITSUploads, IBITSExtensionSetup::EnableBITSUploads, _drz_ibitsextensionsetup_enablebitsuploads, bits.ibitsextensionsetup_enablebitsuploads, bitscfg/IBITSExtensionSetup::EnableBITSUploads
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bitscfg.h
 req.include-header: 

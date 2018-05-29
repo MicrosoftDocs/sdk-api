@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetExtendedDiscoXML
 title: IWSDiscoveredService::GetExtendedDiscoXML
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves custom or extensible data provided in the header or body of the SOAP message.
 old-location: ncd\iwsdiscoveredservice_getextendeddiscoxml.htm
 old-project: WsdApi
 ms.assetid: 6ca12b1b-4adf-4c54-90b5-ab5286af9252
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetExtendedDiscoXML, GetExtendedDiscoXML method, GetExtendedDiscoXML method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetExtendedDiscoXML method, IWSDiscoveredService.GetExtendedDiscoXML, IWSDiscoveredService::GetExtendedDiscoXML, ncd.iwsdiscoveredservice_getextendeddiscoxml, wsddisco/IWSDiscoveredService::GetExtendedDiscoXML
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.IMDSPObjectInfo
 title: IMDSPObjectInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMDSPObjectInfo interface provides methods for getting and setting parameters that describe how playable objects on a storage medium are referenced or accessed by the IMDSPDeviceControl interface.
 old-location: wmdm\imdspobjectinfo.htm
 old-project: WMDM
 ms.assetid: f0003b14-7ae7-4822-befe-6bb1779328ec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMDSPObjectInfo, IMDSPObjectInfo interface [windows Media Device Manager], IMDSPObjectInfo interface [windows Media Device Manager],described, IMDSPObjectInfoInterface, mswmdm/IMDSPObjectInfo, wmdm.imdspobjectinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

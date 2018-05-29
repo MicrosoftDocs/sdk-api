@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.put_Context
 title: IRDPSRAPITransportStreamBuffer::put_Context
-author: windows-driver-content
+author: windows-sdk-content
 description: This property is reserved for use by the Remote Desktop Protocol (RDP) stack. Do not modify it.
 old-location: rdp\irdpsrapitransportstreambuffer_context.htm
 old-project: Rdp
 ms.assetid: 64307c9a-65c6-4a6d-b400-188d22bec996
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: Context property [RDP], Context property [RDP],IRDPSRAPITransportStreamBuffer interface, IRDPSRAPITransportStreamBuffer interface [RDP],Context property, IRDPSRAPITransportStreamBuffer.Context, IRDPSRAPITransportStreamBuffer.put_Context, IRDPSRAPITransportStreamBuffer::Context, IRDPSRAPITransportStreamBuffer::get_Context, IRDPSRAPITransportStreamBuffer::put_Context, put_Context, rdp.irdpsrapitransportstreambuffer_context, rdpencomapi/IRDPSRAPITransportStreamBuffer::Context, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Context, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_Context
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

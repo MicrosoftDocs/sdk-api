@@ -1,16 +1,16 @@
 ---
 UID: NF:tlhelp32.Heap32ListFirst
 title: Heap32ListFirst function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the first heap that has been allocated by a specified process.
 old-location: toolhelp\heap32listfirst.htm
 old-project: ToolHelp
 ms.assetid: b9a2992b-0dc1-41c3-aa23-796def674831
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Heap32ListFirst, Heap32ListFirst function [ToolHelp], _win32_heap32listfirst, base.heap32listfirst, tlhelp32/Heap32ListFirst, toolhelp.heap32listfirst
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.RemoveLogContainerSet
 title: RemoveLogContainerSet function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes multiple containers from a log that is associated with a dedicated or multiplexed log handle.
 old-location: fs\removelogcontainerset.htm
 old-project: Clfs
 ms.assetid: adc35813-7368-4d8c-ad2b-1bb0824ad019
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: RemoveLogContainerSet, RemoveLogContainerSet function [Files], clfsw32/RemoveLogContainerSet, fs.removelogcontainerset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

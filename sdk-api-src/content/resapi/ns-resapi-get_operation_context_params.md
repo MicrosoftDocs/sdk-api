@@ -1,16 +1,16 @@
 ---
 UID: NS:resapi.GET_OPERATION_CONTEXT_PARAMS
 title: GET_OPERATION_CONTEXT_PARAMS
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents context parameters that are used as input for the CLUSCTL_RESOURCE_GET_OPERATION_CONTEXT control code.
 old-location: mscs\get_operation_context_params.htm
 old-project: MsCS
 ms.assetid: 682215D9-7965-46D5-ABC7-A37B685C43F5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PGET_OPERATION_CONTEXT_PARAMS, GET_OPERATION_CONTEXT_PARAMS, GET_OPERATION_CONTEXT_PARAMS structure [Failover Cluster], PGET_OPERATION_CONTEXT_PARAMS, PGET_OPERATION_CONTEXT_PARAMS structure pointer [Failover Cluster], mscs.get_operation_context_params, resapi/GET_OPERATION_CONTEXT_PARAMS, resapi/PGET_OPERATION_CONTEXT_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

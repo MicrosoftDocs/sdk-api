@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif._FilterInfo
 title: "_FilterInfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: The FILTER_INFO structure contains information about a filter.
 old-location: dshow\filter_info.htm
 old-project: DirectShow
 ms.assetid: 43d1951e-448d-4139-879b-3fe021490d7d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FILTER_INFO, FILTER_INFO structure [DirectShow], FILTER_INFOStructure, _FilterInfo, dshow.filter_info, strmif/FILTER_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

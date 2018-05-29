@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.IntlStrEqWorkerW
 title: IntlStrEqWorkerW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares a specified number of characters from the beginning of two localized strings.
 old-location: shell\IntlStrEqWorker.htm
 old-project: shell
 ms.assetid: bc8e823e-79b2-49fd-950d-96a6e7256377
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IntlStrEqWorker, IntlStrEqWorker function [Windows Shell], IntlStrEqWorkerA, IntlStrEqWorkerW, _win32_IntlStrEqWorker, shell.IntlStrEqWorker, shlwapi/IntlStrEqWorker, shlwapi/IntlStrEqWorkerA, shlwapi/IntlStrEqWorkerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

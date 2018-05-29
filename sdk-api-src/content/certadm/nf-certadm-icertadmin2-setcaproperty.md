@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.ICertAdmin2.SetCAProperty
 title: ICertAdmin2::SetCAProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a property value for the certification authority (CA).
 old-location: security\icertadmin2_setcaproperty.htm
 old-project: SecCrypto
 ms.assetid: 29570a8f-41d4-4c6a-88d0-97d6aa9d0784
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CR_PROP_KRACERT, CR_PROP_KRACERTCOUNT, CR_PROP_KRACERTUSEDCOUNT, CR_PROP_ROLESEPARATIONENABLED, CR_PROP_TEMPLATES, ICertAdmin2 interface [Security],SetCAProperty method, ICertAdmin2.SetCAProperty, ICertAdmin2::SetCAProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCAProperty, SetCAProperty method [Security], SetCAProperty method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetCAProperty, security.icertadmin2_setcaproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

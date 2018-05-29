@@ -1,16 +1,16 @@
 ---
 UID: NE:cmdtree.DBCOMMANDOPENUM
 title: DBCOMMANDOPENUM
-author: windows-driver-content
+author: windows-sdk-content
 description: The DBCOMMANDOPENUM enumerated type contains a list of the possible command operators for nodes in a command tree.
 old-location: indexsrv\dbcommandopenum.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_6yp9.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DBCOMMANDOPENUM, DBCOMMANDOPENUM enumeration [Indexing Service], See below., _idxs_DBCOMMANDOPENUM, cmdtree/DBCOMMANDOPENUM, cmdtree/See below., indexsrv.dbcommandopenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: cmdtree.h
 req.include-header: 

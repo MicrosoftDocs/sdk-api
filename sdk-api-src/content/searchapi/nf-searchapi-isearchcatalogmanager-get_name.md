@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.get_Name
 title: ISearchCatalogManager::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name of the current catalog.
 old-location: search\_search_ISearchCatalogManager_get_Name.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\get_name.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchCatalogManager interface [search],get_Name method, ISearchCatalogManager.get_Name, ISearchCatalogManager::get_Name, _search_ISearchCatalogManager_get_Name, get_Name, get_Name method [search], get_Name method [search],ISearchCatalogManager interface, search._search_ISearchCatalogManager_get_Name, searchapi/ISearchCatalogManager::get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

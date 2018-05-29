@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.SetLongestAcceptableDelay
 title: IUIAnimationStoryboard2::SetLongestAcceptableDelay
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the longest acceptable delay before the scheduled storyboard begins.
 old-location: uianimation\iuianimationstoryboard2_setlongestacceptabledelay.htm
 old-project: UIAnimation
 ms.assetid: D23F4833-413C-470B-8572-2DCB051576A3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],SetLongestAcceptableDelay method, IUIAnimationStoryboard2.SetLongestAcceptableDelay, IUIAnimationStoryboard2::SetLongestAcceptableDelay, SetLongestAcceptableDelay, SetLongestAcceptableDelay method [Windows Animation], SetLongestAcceptableDelay method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_setlongestacceptabledelay, uianimation/IUIAnimationStoryboard2::SetLongestAcceptableDelay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

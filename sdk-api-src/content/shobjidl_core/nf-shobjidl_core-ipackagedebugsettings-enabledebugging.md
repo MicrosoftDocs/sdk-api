@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.EnableDebugging
 title: IPackageDebugSettings::EnableDebugging
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables debug mode for the processes of the specified package.
 old-location: shell\IPackageDebugSettings_EnableDebugging.htm
 old-project: shell
 ms.assetid: a3afae41-b46e-47c8-95bb-a0aa747c6353
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnableDebugging, EnableDebugging method [Windows Shell], EnableDebugging method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],EnableDebugging method, IPackageDebugSettings.EnableDebugging, IPackageDebugSettings::EnableDebugging, shell.IPackageDebugSettings_EnableDebugging, shobjidl_core/IPackageDebugSettings::EnableDebugging
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 

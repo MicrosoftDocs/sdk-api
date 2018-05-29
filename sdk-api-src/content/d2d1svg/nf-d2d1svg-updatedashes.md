@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1svg.UpdateDashes
 title: UpdateDashes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the array.
 old-location: direct2d\id2d1svgstrokedasharray_updatedashes_overload.htm
 old-project: Direct2D
 ms.assetid: b9be98f2-d215-d009-ec9e-732163539053
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: ID2D1SvgStrokeDashArray::UpdateDashes, UpdateDashes, UpdateDashes methods [Direct2D], d2d1svg/UpdateDashes, direct2d.id2d1svgstrokedasharray_updatedashes_overload
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1svg.h
 req.include-header: 

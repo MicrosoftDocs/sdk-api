@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.Initialize
 title: IX509SCEPEnrollment::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initialize the instance in preparation for a new request.
 old-location: security\ix509scepenrollment_initialize.htm
 old-project: SecCertEnroll
 ms.assetid: dcb887ab-c8b7-42e7-8b49-93755d24ba70
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],Initialize method, IX509SCEPEnrollment.Initialize, IX509SCEPEnrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::Initialize, security.ix509scepenrollment_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

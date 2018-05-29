@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetCountOfRecords
 title: IATSC_VCT::GetCountOfRecords
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getcountofrecords.htm
 old-project: mstv
 ms.assetid: a6a9f998-f8a8-4459-91f8-aa4a5206d190
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetCountOfRecords method, IATSC_VCT.GetCountOfRecords, IATSC_VCT::GetCountOfRecords, IATSC_VCTGetCountOfRecords, atscpsipparser/IATSC_VCT::GetCountOfRecords, mstv.iatsc_vct_getcountofrecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

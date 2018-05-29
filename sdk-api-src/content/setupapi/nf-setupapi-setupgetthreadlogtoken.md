@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupGetThreadLogToken
 title: SetupGetThreadLogToken function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupGetThreadLogToken function retrieves the log token for the thread from which this function was called.
 old-location: devinst\setupgetthreadlogtoken.htm
 old-project: devinst
 ms.assetid: a4d870d0-2a1a-4319-9e52-e5bf469c4cdf
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupGetThreadLogToken, SetupGetThreadLogToken function [Device and Driver Installation], devinst.setupgetthreadlogtoken, setupapi/SetupGetThreadLogToken, setupapilog-ref_2d342787-8c0e-4198-85cc-e64d51e98abb.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

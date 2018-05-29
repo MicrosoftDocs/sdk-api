@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFInvokeCallback
 title: MFInvokeCallback function
-author: windows-driver-content
+author: windows-sdk-content
 description: Invokes a callback method to complete an asynchronous operation.
 old-location: mf\mfinvokecallback.htm
 old-project: medfound
 ms.assetid: 28832d50-9b15-4eb0-96f9-2032d4edcaf4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 28832d50-9b15-4eb0-96f9-2032d4edcaf4, MFInvokeCallback, MFInvokeCallback function [Media Foundation], mf.mfinvokecallback, mfapi/MFInvokeCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

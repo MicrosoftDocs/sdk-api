@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_TARGET_BASE_TYPE
 title: DISPLAYCONFIG_TARGET_BASE_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies base output technology info for a given target ID.
 old-location: display\displayconfig_target_base_type.htm
 old-project: display
 ms.assetid: 7916E714-9A3C-4682-AC08-9B6EE222D8B7
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DISPLAYCONFIG_TARGET_BASE_TYPE, DISPLAYCONFIG_TARGET_BASE_TYPE structure [Display Devices], display.displayconfig_target_base_type, wingdi/DISPLAYCONFIG_TARGET_BASE_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

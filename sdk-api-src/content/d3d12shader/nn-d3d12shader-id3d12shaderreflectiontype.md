@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12shader.ID3D12ShaderReflectionType
 title: ID3D12ShaderReflectionType
-author: windows-driver-content
+author: windows-sdk-content
 description: This shader-reflection interface provides access to variable type.
 old-location: direct3d12\id3d12shaderreflectiontype.htm
 old-project: direct3d12
 ms.assetid: 78FF30C5-7F23-489D-9E9D-916F6CE09C0E
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12ShaderReflectionType, ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,described, d3d12shader/ID3D12ShaderReflectionType, direct3d12.id3d12shaderreflectiontype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12shader.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:thumbcache.IThumbnailSettings
 title: IThumbnailSettings
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method that enables a thumbnail provider to determine the user context of a thumbnail request.
 old-location: shell\IThumbnailSettings.htm
 old-project: shell
 ms.assetid: 502537E5-1D72-44f0-BC75-DBED61F174FC
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IThumbnailSettings, IThumbnailSettings interface [Windows Shell], IThumbnailSettings interface [Windows Shell],described, shell.IThumbnailSettings, thumbcache/IThumbnailSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: thumbcache.h
 req.include-header: 

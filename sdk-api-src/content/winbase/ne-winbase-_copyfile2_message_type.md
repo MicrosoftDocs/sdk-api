@@ -1,16 +1,16 @@
 ---
 UID: NE:winbase._COPYFILE2_MESSAGE_TYPE
 title: "_COPYFILE2_MESSAGE_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the type of message passed in the COPYFILE2_MESSAGE structure to the CopyFile2ProgressRoutine callback function.
 old-location: fs\copyfile2_message_type.htm
 old-project: FileIO
 ms.assetid: 3a16ca3b-79af-4064-82d5-c073d2aa531c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: COPYFILE2_CALLBACK_CHUNK_FINISHED, COPYFILE2_CALLBACK_CHUNK_STARTED, COPYFILE2_CALLBACK_ERROR, COPYFILE2_CALLBACK_MAX, COPYFILE2_CALLBACK_NONE, COPYFILE2_CALLBACK_POLL_CONTINUE, COPYFILE2_CALLBACK_STREAM_FINISHED, COPYFILE2_CALLBACK_STREAM_STARTED, COPYFILE2_MESSAGE_TYPE, COPYFILE2_MESSAGE_TYPE enumeration [Files], _COPYFILE2_MESSAGE_TYPE, fs.copyfile2_message_type, winbase/COPYFILE2_CALLBACK_CHUNK_FINISHED, winbase/COPYFILE2_CALLBACK_CHUNK_STARTED, winbase/COPYFILE2_CALLBACK_ERROR, winbase/COPYFILE2_CALLBACK_MAX, winbase/COPYFILE2_CALLBACK_NONE, winbase/COPYFILE2_CALLBACK_POLL_CONTINUE, winbase/COPYFILE2_CALLBACK_STREAM_FINISHED, winbase/COPYFILE2_CALLBACK_STREAM_STARTED, winbase/COPYFILE2_MESSAGE_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winbase.h
 req.include-header: Windows.h

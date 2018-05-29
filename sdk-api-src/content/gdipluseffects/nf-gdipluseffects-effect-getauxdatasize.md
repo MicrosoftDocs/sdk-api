@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluseffects.Effect.GetAuxDataSize
 title: Effect::GetAuxDataSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The Effect::GetAuxDataSize method gets the size, in bytes, of the auxiliary data created by a previous call to the Bitmap::ApplyEffect method.
 old-location: gdiplus\_gdiplus_CLASS_Effect_GetAuxDataSize_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectmethods\getauxdatasize.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Effect class [GDI+],GetAuxDataSize method, Effect.GetAuxDataSize, Effect::GetAuxDataSize, GetAuxDataSize, GetAuxDataSize method [GDI+], GetAuxDataSize method [GDI+],Effect class, _gdiplus_CLASS_Effect_GetAuxDataSize_, gdiplus._gdiplus_CLASS_Effect_GetAuxDataSize_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

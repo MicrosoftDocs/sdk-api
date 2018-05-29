@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmMonitorLogRecords.GetLogRecordVariants
 title: ICrmMonitorLogRecords::GetLogRecordVariants
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a structured log record given its numeric index.
 old-location: cos\icrmmonitorlogrecords_getlogrecordvariants.htm
 old-project: cossdk
 ms.assetid: 4f020d2d-ea2d-48c2-ab79-7b412e77b39f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetLogRecordVariants, GetLogRecordVariants method [COM+], GetLogRecordVariants method [COM+],ICrmMonitorLogRecords interface, ICrmMonitorLogRecords interface [COM+],GetLogRecordVariants method, ICrmMonitorLogRecords.GetLogRecordVariants, ICrmMonitorLogRecords::GetLogRecordVariants, _dtc_ICrmMonitorLogRecords_GetLogRecordVariants, comsvcs/ICrmMonitorLogRecords::GetLogRecordVariants, cos.icrmmonitorlogrecords_getlogrecordvariants
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

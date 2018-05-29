@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d10shader._D3D10_SHADER_TYPE_DESC
 title: "_D3D10_SHADER_TYPE_DESC"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a shader-variable type.
 old-location: direct3d10\d3d10_shader_type_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_type_desc.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: D3D10_SHADER_TYPE_DESC, D3D10_SHADER_TYPE_DESC structure [Direct3D 10], _D3D10_SHADER_TYPE_DESC, b18f1523-7db4-ff5b-d9ab-04f0e773c99b, d3d10shader/D3D10_SHADER_TYPE_DESC, direct3d10.d3d10_shader_type_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10shader.h
 req.include-header: 

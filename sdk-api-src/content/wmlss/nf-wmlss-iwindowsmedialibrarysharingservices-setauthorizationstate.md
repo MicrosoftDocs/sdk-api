@@ -1,16 +1,16 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.setAuthorizationState
 title: IWindowsMediaLibrarySharingServices::setAuthorizationState
-author: windows-driver-content
+author: windows-sdk-content
 description: The setAuthorizationState method enables or disables access to the current user's media library by a specified device.
 old-location: wmlss\IWMLSSsetAuthorizationState.htm
 old-project: WMLSS
 ms.assetid: bd67b81c-9810-4f35-b0b2-c471b4747216
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],setAuthorizationState method, IWindowsMediaLibrarySharingServices.setAuthorizationState, IWindowsMediaLibrarySharingServices::setAuthorizationState, setAuthorizationState, setAuthorizationState method [Windows Media Library Sharing Services], setAuthorizationState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSsetAuthorizationState, wmlss/IWindowsMediaLibrarySharingServices::setAuthorizationState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h

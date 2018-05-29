@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509Enrollment.Enroll
 title: IX509Enrollment::Enroll
-author: windows-driver-content
+author: windows-sdk-content
 description: Encodes a request, submits it to an appropriate certification authority (CA), and installs the response.
 old-location: security\ix509enrollment_enroll_method.htm
 old-project: SecCertEnroll
 ms.assetid: 63abecac-39f4-497a-8851-7a2260abc3dd
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Enroll, Enroll method [Security], Enroll method [Security],IX509Enrollment interface, IX509Enrollment interface [Security],Enroll method, IX509Enrollment.Enroll, IX509Enrollment::Enroll, certenroll/IX509Enrollment::Enroll, security.ix509enrollment_enroll_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

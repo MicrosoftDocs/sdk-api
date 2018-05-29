@@ -1,16 +1,16 @@
 ---
 UID: NF:comppkgsup.GetMediaExtensionCommunicationFactory
 title: GetMediaExtensionCommunicationFactory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a communication factory for registering a media extension.
 old-location: winprog\getmediaextensioncommunicationfactory.htm
 old-project: DevNotes
 ms.assetid: 79186891-FD54-4498-AF2A-D79D30F859A2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetMediaExtensionCommunicationFactory, GetMediaExtensionCommunicationFactory function [Windows API], comppkgsup/GetMediaExtensionCommunicationFactory, winprog.getmediaextensioncommunicationfactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: comppkgsup.h
 req.include-header: 

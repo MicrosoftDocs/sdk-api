@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.SelectClipPath
 title: SelectClipPath function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SelectClipPath function selects the current path as a clipping region for a device context, combining the new region with any existing clipping region using the specified mode.
 old-location: gdi\selectclippath.htm
 old-project: gdi
 ms.assetid: c5102e1b-ba33-4cce-a4e5-93cf10c1c0bb
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, SelectClipPath, SelectClipPath function [Windows GDI], _win32_SelectClipPath, gdi.selectclippath, wingdi/SelectClipPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

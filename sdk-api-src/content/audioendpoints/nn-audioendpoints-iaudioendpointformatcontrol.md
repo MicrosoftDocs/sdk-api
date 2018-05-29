@@ -1,16 +1,16 @@
 ---
 UID: NN:audioendpoints.IAudioEndpointFormatControl
 title: IAudioEndpointFormatControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Used for resetting the current audio endpoint device format.
 old-location: coreaudio\iaudioendpointformatcontrol.htm
 old-project: CoreAudio
 ms.assetid: 7FF7DCF2-0580-4B50-8EA9-87DB9478B1E8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioEndpointFormatControl, IAudioEndpointFormatControl interface [Core Audio], IAudioEndpointFormatControl interface [Core Audio],described, audioendpoints/IAudioEndpointFormatControl, coreaudio.iaudioendpointformatcontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioendpoints.h
 req.include-header: 

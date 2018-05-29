@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToInt32
 title: PropVariantToInt32 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the Int32 property value of a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\PropVariantToInt32.htm
 old-project: properties
 ms.assetid: 937722d6-cabf-4c4d-8ca9-06d6ed91b77a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToInt32, PropVariantToInt32 function [Windows Properties], properties.PropVariantToInt32, propvarutil/PropVariantToInt32, shell.PropVariantToInt32, shell_PropVariantToInt32
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

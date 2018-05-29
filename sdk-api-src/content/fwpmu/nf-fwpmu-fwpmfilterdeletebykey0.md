@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmFilterDeleteByKey0
 title: FwpmFilterDeleteByKey0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a filter object from the system.
 old-location: fwp\fwpmfilterdeletebykey0_func.htm
 old-project: FWP
 ms.assetid: 75c0796c-84d0-4282-bc93-267a17dd3edc
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmFilterDeleteByKey0, FwpmFilterDeleteByKey0 function [Filtering], fwp.fwpmfilterdeletebykey0_func, fwpmu/FwpmFilterDeleteByKey0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

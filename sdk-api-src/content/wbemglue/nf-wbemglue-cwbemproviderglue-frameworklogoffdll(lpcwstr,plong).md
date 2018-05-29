@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.FrameworkLogoffDLL(LPCWSTR,PLONG)
 title: CWbemProviderGlue::FrameworkLogoffDLL(LPCWSTR,PLONG)
-author: windows-driver-content
+author: windows-sdk-content
 description: The FrameworkLogoffDLL method is called by DllCanUnloadNow to determine whether the provider server is not in use and can be unloaded.
 old-location: wmi\cwbemproviderglue_frameworklogoffdll.htm
 old-project: WmiSdk
 ms.assetid: 5157d823-d3a1-46d2-8ae8-07e904001a14
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?FrameworkLogoffDLL@CWbemProviderGlue@@SAHPEBG@Z, ?FrameworkLogoffDLL@CWbemProviderGlue@@SGHPBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],FrameworkLogoffDLL method, CWbemProviderGlue.FrameworkLogoffDLL, CWbemProviderGlue.FrameworkLogoffDLL(LPCWSTR,PLONG), CWbemProviderGlue::FrameworkLogoffDLL, CWbemProviderGlue::FrameworkLogoffDLL(LPCWSTR,PLONG), FrameworkLogoffDLL, FrameworkLogoffDLL method [Windows Management Instrumentation], FrameworkLogoffDLL method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_frameworklogoffdll, wbemglue/CWbemProviderGlue::FrameworkLogoffDLL, wmi.cwbemproviderglue_frameworklogoffdll"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h

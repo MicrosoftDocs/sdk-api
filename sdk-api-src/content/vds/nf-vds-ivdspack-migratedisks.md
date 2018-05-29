@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsPack.MigrateDisks
 title: IVdsPack::MigrateDisks
-author: windows-driver-content
+author: windows-sdk-content
 description: Migrates a set of disks from one pack to another pack.
 old-location: base\ivdspack_migratedisks.htm
 old-project: VDS
 ms.assetid: c7e85c4c-fb7c-48de-abd7-8d65ecb9a1fa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsPack interface [VDS],MigrateDisks method, IVdsPack.MigrateDisks, IVdsPack::MigrateDisks, MigrateDisks, MigrateDisks method [VDS], MigrateDisks method [VDS],IVdsPack interface, base.ivdspack_migratedisks, vds/IVdsPack::MigrateDisks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

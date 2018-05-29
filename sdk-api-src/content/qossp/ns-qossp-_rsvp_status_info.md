@@ -1,16 +1,16 @@
 ---
 UID: NS:qossp._RSVP_STATUS_INFO
 title: "_RSVP_STATUS_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The QOS object RSVP_STATUS_INFO provides information regarding the status of RSVP for a given flow, including event notifications associated with monitoring FD_QOS events, as well as error information.
 old-location: qos\rsvp_status_info.htm
 old-project: QOS
 ms.assetid: ffb271e5-cdfe-4ac9-929e-9a0a81894238
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*LPRSVP_STATUS_INFO, LPRSVP_STATUS_INFO, LPRSVP_STATUS_INFO structure pointer [QOS], RSVP_STATUS_INFO, RSVP_STATUS_INFO structure [QOS], _RSVP_STATUS_INFO, _gqos_rsvp_status_info, qos.rsvp_status_info, qossp/LPRSVP_STATUS_INFO, qossp/RSVP_STATUS_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 

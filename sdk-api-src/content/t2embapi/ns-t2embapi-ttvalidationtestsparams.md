@@ -1,16 +1,16 @@
 ---
 UID: NS:t2embapi.TTVALIDATIONTESTSPARAMS
 title: TTVALIDATIONTESTSPARAMS
-author: windows-driver-content
+author: windows-sdk-content
 description: The TTVALIDATIONTESTSPARAMS structure contains parameters for testing a Microsoft OpenType font.
 old-location: gdi\ttvalidationtestparams.htm
 old-project: gdi
 ms.assetid: 901fd8e5-1602-4e20-9269-d0c3fe661e45
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: TTVALIDATIONTESTSPARAMS, TTVALIDATIONTESTSPARAMS structure [Windows GDI], _win32_TTVALIDATIONTESTPARAMS, gdi.ttvalidationtestparams, t2embapi/TTVALIDATIONTESTSPARAMS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: t2embapi.h
 req.include-header: 

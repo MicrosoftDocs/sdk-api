@@ -1,16 +1,16 @@
 ---
 UID: NF:msrdc.ISimilarityTableDumpState.GetNextData
 title: ISimilarityTableDumpState::GetNextData
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves one or more SimilarityDumpData structures from the similarity traits list that was returned by the ISimilarityTraitsTable::BeginDump method.
 old-location: rdc\isimilaritytabledumpstate_getnextdata.htm
 old-project: Rdc
 ms.assetid: 40ec97fc-052d-474e-9a55-822aa113ac03
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetNextData, GetNextData method [Remote Differential Compression], GetNextData method [Remote Differential Compression],ISimilarityTableDumpState interface, ISimilarityTableDumpState interface [Remote Differential Compression],GetNextData method, ISimilarityTableDumpState.GetNextData, ISimilarityTableDumpState::GetNextData, fs.isimilaritytabledumpstate_getnextdata, msrdc/ISimilarityTableDumpState::GetNextData, rdc.isimilaritytabledumpstate_getnextdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

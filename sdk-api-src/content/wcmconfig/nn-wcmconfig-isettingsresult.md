@@ -1,16 +1,16 @@
 ---
 UID: NN:wcmconfig.ISettingsResult
 title: ISettingsResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the code and description for errors and warnings returned by various operations.
 old-location: smi\isettingsresult.htm
 old-project: SMI
 ms.assetid: 0bbfd39a-0292-4d8e-ae31-f45aebd326a7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISettingsResult, ISettingsResult interface [SMI], ISettingsResult interface [SMI],described, smi.isettingsresult, wcmconfig/ISettingsResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wcndevice.IWCNConnectNotify.ConnectFailed
 title: IWCNConnectNotify::ConnectFailed
-author: windows-driver-content
+author: windows-sdk-content
 description: Callback method indicates a IWCNDevice::Connect failure.
 old-location: wcn\iwcnconnectnotify_connectfailed.htm
 old-project: wcn
 ms.assetid: cdf0394a-f5e6-49cf-bd18-9c3c2b689e50
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ConnectFailed, ConnectFailed method [Windows Connect Now], ConnectFailed method [Windows Connect Now],IWCNConnectNotify interface, IWCNConnectNotify interface [Windows Connect Now],ConnectFailed method, IWCNConnectNotify.ConnectFailed, IWCNConnectNotify::ConnectFailed, wcn.iwcnconnectnotify_connectfailed, wcndevice/IWCNConnectNotify::ConnectFailed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcndevice.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspen.Pen.SetDashPattern
 title: Pen::SetDashPattern
-author: windows-driver-content
+author: windows-sdk-content
 description: The Pen::SetDashPattern method sets an array of custom dashes and spaces for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetDashPattern_dashArray_count_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setdashpattern.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Pen class [GDI+],SetDashPattern method, Pen.SetDashPattern, Pen::SetDashPattern, SetDashPattern, SetDashPattern method [GDI+], SetDashPattern method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetDashPattern_dashArray_count_, gdiplus._gdiplus_CLASS_Pen_SetDashPattern_dashArray_count_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

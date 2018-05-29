@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.get_Operator
 title: IFsrmFileConditionProperty::get_Operator
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the comparison operator, as enumerated by the FsrmPropertyConditionType enumeration.
 old-location: fsrm\ifsrmfileconditionproperty_operator.htm
 old-project: Fsrm
 ms.assetid: b04b238b-55df-4467-809f-dbbc4ebd5595
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmFileConditionProperty interface [File Server Resource Manager],Operator property, IFsrmFileConditionProperty.Operator, IFsrmFileConditionProperty.get_Operator, IFsrmFileConditionProperty::Operator, IFsrmFileConditionProperty::get_Operator, IFsrmFileConditionProperty::put_Operator, Operator property [File Server Resource Manager], Operator property [File Server Resource Manager],IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_operator, fsrm.ifsrmfileconditionproperty_operator, fsrmreports/IFsrmFileConditionProperty::Operator, fsrmreports/IFsrmFileConditionProperty::get_Operator, fsrmreports/IFsrmFileConditionProperty::put_Operator, get_Operator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

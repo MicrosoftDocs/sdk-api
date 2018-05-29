@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.AppendRoot
 title: INameSpaceTreeControl::AppendRoot
-author: windows-driver-content
+author: windows-sdk-content
 description: Appends a Shell item to the list of roots in a tree.
 old-location: shell\INameSpaceTreeControl_AppendRoot.htm
 old-project: shell
 ms.assetid: a280d183-9215-43c2-bba3-63c34ba33285
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AppendRoot, AppendRoot method [Windows Shell], AppendRoot method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],AppendRoot method, INameSpaceTreeControl.AppendRoot, INameSpaceTreeControl::AppendRoot, NSTCRS_EXPANDED, NSTCRS_HIDDEN, NSTCRS_VISIBLE, _shell_INameSpaceTreeControl_AppendRoot, shell.INameSpaceTreeControl_AppendRoot, shobjidl_core/INameSpaceTreeControl::AppendRoot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

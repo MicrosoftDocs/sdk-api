@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.AbandonAllStoryboards
 title: IUIAnimationManager2::AbandonAllStoryboards
-author: windows-driver-content
+author: windows-sdk-content
 description: Abandons all active storyboards.
 old-location: uianimation\iuianimationmanager2_abandonallstoryboards.htm
 old-project: UIAnimation
 ms.assetid: E8DC71C0-CA68-4FD8-81CE-68450BF4EBA7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AbandonAllStoryboards, AbandonAllStoryboards method [Windows Animation], AbandonAllStoryboards method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],AbandonAllStoryboards method, IUIAnimationManager2.AbandonAllStoryboards, IUIAnimationManager2::AbandonAllStoryboards, uianimation.iuianimationmanager2_abandonallstoryboards, uianimation/IUIAnimationManager2::AbandonAllStoryboards
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

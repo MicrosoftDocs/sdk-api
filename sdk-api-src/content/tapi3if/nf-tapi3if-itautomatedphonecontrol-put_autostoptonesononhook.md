@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoStopTonesOnOnHook
 title: ITAutomatedPhoneControl::put_AutoStopTonesOnOnHook
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_AutoStopTonesOnOnHook method sets the AutoStopTonesOnOnHook property for this phone.
 old-location: tapi3\itautomatedphonecontrol_put_autostoptonesononhook.htm
 old-project: Tapi
 ms.assetid: 0047b631-91fc-47fb-aa38-cedb096a5646
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoStopTonesOnOnHook method, ITAutomatedPhoneControl.put_AutoStopTonesOnOnHook, ITAutomatedPhoneControl::put_AutoStopTonesOnOnHook, _tapi3_itautomatedphonecontrol_put_autostoptonesononhook, put_AutoStopTonesOnOnHook, put_AutoStopTonesOnOnHook method [TAPI 2.2], put_AutoStopTonesOnOnHook method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autostoptonesononhook, tapi3if/ITAutomatedPhoneControl::put_AutoStopTonesOnOnHook
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

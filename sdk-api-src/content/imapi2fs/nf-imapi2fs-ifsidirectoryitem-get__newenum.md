@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.get__NewEnum
 title: IFsiDirectoryItem::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of child items contained within the directory in the file system image.
 old-location: imapi\ifsidirectoryitem_get__newenum.htm
 old-project: imapi
 ms.assetid: 08ffc4dd-7001-4a89-a58e-a12e21600172
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],get__NewEnum method, IFsiDirectoryItem.get__NewEnum, IFsiDirectoryItem::get__NewEnum, get__NewEnum, get__NewEnum method [IMAPI], get__NewEnum method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_get__newenum, imapi2fs/IFsiDirectoryItem::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

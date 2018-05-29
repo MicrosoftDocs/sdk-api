@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICDecompress
 title: ICDecompress function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICDecompress function decompresses a single video frame.
 old-location: multimedia\icdecompress.htm
 old-project: Multimedia
 ms.assetid: 779b63db-6b1d-4eb5-9df5-bb847b35863d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICDecompress, ICDecompress function [Windows Multimedia], _win32_ICDecompress, multimedia.icdecompress, vfw/ICDecompress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

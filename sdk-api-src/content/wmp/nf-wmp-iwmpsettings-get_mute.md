@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPSettings.get_mute
 title: IWMPSettings::get_mute
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_mute method retrieves a value indicating whether audio is muted.
 old-location: wmp\iwmpsettings_get_mute.htm
 old-project: WMP
 ms.assetid: b0bb1c84-d208-4d29-a797-bb18af039f03
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_mute method, IWMPSettings.get_mute, IWMPSettings::get_mute, IWMPSettingsget_mute, get_mute, get_mute method [Windows Media Player], get_mute method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_mute, wmp/IWMPSettings::get_mute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

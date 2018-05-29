@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.put_Revoked
 title: IRDPSRAPIInvitation::put_Revoked
-author: windows-driver-content
+author: windows-sdk-content
 description: The revoked state of the invitation.
 old-location: rdp\irdpsrapiinvitation_revoked.htm
 old-project: Rdp
 ms.assetid: a5a2d1a4-a51b-4fd4-b79c-3381f296d072
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIInvitation interface [RDP],Revoked property, IRDPSRAPIInvitation.Revoked, IRDPSRAPIInvitation.put_Revoked, IRDPSRAPIInvitation::Revoked, IRDPSRAPIInvitation::get_Revoked, IRDPSRAPIInvitation::put_Revoked, RDPSRAPIInvitation object [RDP],Revoked property, Revoked property [RDP], Revoked property [RDP],IRDPSRAPIInvitation interface, Revoked property [RDP],RDPSRAPIInvitation object, put_Revoked, rdp.irdpsrapiinvitation_revoked, rdpencomapi/IRDPSRAPIInvitation::Revoked, rdpencomapi/IRDPSRAPIInvitation::get_Revoked, rdpencomapi/IRDPSRAPIInvitation::put_Revoked
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

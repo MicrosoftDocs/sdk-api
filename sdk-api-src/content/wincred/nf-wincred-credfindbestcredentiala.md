@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredFindBestCredentialA
 title: CredFindBestCredentialA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches the Credentials Management (CredMan) database for the set of generic credentials that are associated with the current logon session and that best match the specified target resource.
 old-location: security\credfindbestcredential.htm
 old-project: SecAuthN
 ms.assetid: b39e3167-dd63-4b81-b850-f3117be348a5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CredFindBestCredential, CredFindBestCredential function [Security], CredFindBestCredentialA, CredFindBestCredentialW, security.credfindbestcredential, wincred/CredFindBestCredential, wincred/CredFindBestCredentialA, wincred/CredFindBestCredentialW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

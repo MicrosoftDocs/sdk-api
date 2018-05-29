@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.IEnumLocation.Clone
 title: IEnumLocation::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumlocation_clone.htm
 old-project: Tapi
 ms.assetid: 3c190f38-26f4-49a6-8dcb-49e61c09db43
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumLocation interface, IEnumLocation interface [TAPI 2.2],Clone method, IEnumLocation.Clone, IEnumLocation::Clone, _tapi3_ienumlocation_clone, tapi3.ienumlocation_clone, tapi3if/IEnumLocation::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

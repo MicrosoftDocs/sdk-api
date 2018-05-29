@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_RENDER_TARGET_BLEND_DESC
 title: D3D11_RENDER_TARGET_BLEND_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the blend state for a render target.
 old-location: direct3d11\d3d11_render_target_blend_desc.htm
 old-project: direct3d11
 ms.assetid: 380435e9-e723-4b8b-a0bb-9ff7b4658cdc
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_RENDER_TARGET_BLEND_DESC, D3D11_RENDER_TARGET_BLEND_DESC structure [Direct3D 11], b9385251-2030-9e95-a5f0-6bdef2d1d699, d3d11/D3D11_RENDER_TARGET_BLEND_DESC, direct3d11.d3d11_render_target_blend_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

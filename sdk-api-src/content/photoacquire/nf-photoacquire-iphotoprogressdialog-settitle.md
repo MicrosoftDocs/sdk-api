@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetTitle
 title: IPhotoProgressDialog::SetTitle
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetTitle method sets the title of the progress dialog box.
 old-location: picacq\iphotoprogressdialog_settitle.htm
 old-project: acquisition
 ms.assetid: ee1f8b8e-bc46-4699-a682-2933c18a794b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetTitle method, IPhotoProgressDialog.SetTitle, IPhotoProgressDialog::SetTitle, IPhotoProgressDialogSetTitle, SetTitle, SetTitle method [Picture Acquisition], SetTitle method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetTitle, picacq.iphotoprogressdialog_settitle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

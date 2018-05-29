@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.ITuningSpace.put_DefaultLocator
 title: ITuningSpace::put_DefaultLocator
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_DefaultLocator method sets the default locator for this tuning space.
 old-location: mstv\ituningspace_put_defaultlocator.htm
 old-project: mstv
 ms.assetid: 59065cc9-8a11-4551-ad3d-e7963628aa20
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_DefaultLocator method, ITuningSpace.put_DefaultLocator, ITuningSpace::put_DefaultLocator, ITuningSpaceput_DefaultLocator, mstv.ituningspace_put_defaultlocator, put_DefaultLocator, put_DefaultLocator method [Microsoft TV Technologies], put_DefaultLocator method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_DefaultLocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

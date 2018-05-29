@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidClosedCaptioning3.get_TeleTextFilter
 title: IMSVidClosedCaptioning3::get_TeleTextFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidclosedcaptioning3_get_teletextfilter.htm
 old-project: mstv
 ms.assetid: 95376533-e684-4a8e-ac60-6c52bf0f82ae
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidClosedCaptioning3 interface [Microsoft TV Technologies],get_TeleTextFilter method, IMSVidClosedCaptioning3.get_TeleTextFilter, IMSVidClosedCaptioning3::get_TeleTextFilter, IMSVidClosedCaptioning3getTeleTextFilter, get_TeleTextFilter, get_TeleTextFilter method [Microsoft TV Technologies], get_TeleTextFilter method [Microsoft TV Technologies],IMSVidClosedCaptioning3 interface, mstv.imsvidclosedcaptioning3_get_teletextfilter, segment/IMSVidClosedCaptioning3::get_TeleTextFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

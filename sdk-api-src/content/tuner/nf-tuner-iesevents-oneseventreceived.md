@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESEvents.OnESEventReceived
 title: IESEvents::OnESEventReceived
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a handler for an event that is derived from the IESEvent interface.
 old-location: mstv\iesevents_oneseventreceived.htm
 old-project: mstv
 ms.assetid: d715f598-0dd5-4c8c-9f5b-3aaa65768600
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IESEvents interface [Microsoft TV Technologies],OnESEventReceived method, IESEvents.OnESEventReceived, IESEvents::OnESEventReceived, OnESEventReceived, OnESEventReceived method [Microsoft TV Technologies], OnESEventReceived method [Microsoft TV Technologies],IESEvents interface, mstv.iesevents_oneseventreceived, tuner/IESEvents::OnESEventReceived
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

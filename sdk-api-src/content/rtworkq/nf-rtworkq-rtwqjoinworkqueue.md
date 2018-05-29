@@ -1,16 +1,16 @@
 ---
 UID: NF:rtworkq.RtwqJoinWorkQueue
 title: RtwqJoinWorkQueue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates a work queue with an input/output (I/O) handle.
 old-location: base\rtwqjoinworkqueue.htm
 old-project: ProcThread
 ms.assetid: c7762a10-269e-48c0-83da-7e040cf9d083
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtwqJoinWorkQueue, RtwqJoinWorkQueue function, base.rtwqjoinworkqueue, rtworkq/RtwqJoinWorkQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

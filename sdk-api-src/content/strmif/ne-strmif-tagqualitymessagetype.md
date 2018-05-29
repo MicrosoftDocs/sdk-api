@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif.tagQualityMessageType
 title: tagQualityMessageType
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a quality message type.
 old-location: dshow\qualitymessagetype.htm
 old-project: DirectShow
 ms.assetid: 54a2239d-bf37-499d-b8c4-f797c1b46933
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Famine, Flood, QualityMessageType, QualityMessageType enumeration [DirectShow], QualityMessageTypeEnumeration, dshow.qualitymessagetype, strmif/Famine, strmif/Flood, strmif/QualityMessageType, tagQualityMessageType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

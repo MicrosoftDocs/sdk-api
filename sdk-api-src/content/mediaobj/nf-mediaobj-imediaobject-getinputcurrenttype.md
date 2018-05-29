@@ -1,16 +1,16 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputCurrentType
 title: IMediaObject::GetInputCurrentType
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetInputCurrentType method retrieves the media type that was set for an input stream, if any.
 old-location: dshow\imediaobject_getinputcurrenttype.htm
 old-project: DirectShow
 ms.assetid: 81d5c1b8-086c-422d-b2d7-85728507888d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetInputCurrentType, GetInputCurrentType method [DirectShow], GetInputCurrentType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputCurrentType method, IMediaObject.GetInputCurrentType, IMediaObject::GetInputCurrentType, IMediaObjectGetInputCurrentType, dshow.imediaobject_getinputcurrenttype, mediaobj/IMediaObject::GetInputCurrentType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

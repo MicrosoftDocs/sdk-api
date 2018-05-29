@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite.DWRITE_FONT_STRETCH
 title: DWRITE_FONT_STRETCH
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the degree to which a font has been stretched compared to a font's normal aspect ratio.
 old-location: directwrite\dwrite_font_stretch.htm
 old-project: DirectWrite
 ms.assetid: 10b3a703-239b-4fb1-9a20-e466b123b060
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_FONT_STRETCH, DWRITE_FONT_STRETCH enumeration [Direct Write], DWRITE_FONT_STRETCH_CONDENSED, DWRITE_FONT_STRETCH_EXPANDED, DWRITE_FONT_STRETCH_EXTRA_CONDENSED, DWRITE_FONT_STRETCH_EXTRA_EXPANDED, DWRITE_FONT_STRETCH_MEDIUM, DWRITE_FONT_STRETCH_NORMAL, DWRITE_FONT_STRETCH_SEMI_CONDENSED, DWRITE_FONT_STRETCH_SEMI_EXPANDED, DWRITE_FONT_STRETCH_ULTRA_CONDENSED, DWRITE_FONT_STRETCH_ULTRA_EXPANDED, DWRITE_FONT_STRETCH_UNDEFINED, directwrite.dwrite_font_stretch, dwrite/DWRITE_FONT_STRETCH, dwrite/DWRITE_FONT_STRETCH_CONDENSED, dwrite/DWRITE_FONT_STRETCH_EXPANDED, dwrite/DWRITE_FONT_STRETCH_EXTRA_CONDENSED, dwrite/DWRITE_FONT_STRETCH_EXTRA_EXPANDED, dwrite/DWRITE_FONT_STRETCH_MEDIUM, dwrite/DWRITE_FONT_STRETCH_NORMAL, dwrite/DWRITE_FONT_STRETCH_SEMI_CONDENSED, dwrite/DWRITE_FONT_STRETCH_SEMI_EXPANDED, dwrite/DWRITE_FONT_STRETCH_ULTRA_CONDENSED, dwrite/DWRITE_FONT_STRETCH_ULTRA_EXPANDED, dwrite/DWRITE_FONT_STRETCH_UNDEFINED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 

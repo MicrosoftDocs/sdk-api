@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_GetSelectedColumn
 title: ListView_GetSelectedColumn macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an integer that specifies the selected column. You can use this macro or send the LVM_GETSELECTEDCOLUMN message explicitly.
 old-location: controls\ListView_GetSelectedColumn.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectedcolumn.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_GetSelectedColumn, ListView_GetSelectedColumn macro [Windows Controls], _win32_ListView_GetSelectedColumn, _win32_ListView_GetSelectedColumn_cpp, commctrl/ListView_GetSelectedColumn, controls.ListView_GetSelectedColumn, controls._win32_ListView_GetSelectedColumn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

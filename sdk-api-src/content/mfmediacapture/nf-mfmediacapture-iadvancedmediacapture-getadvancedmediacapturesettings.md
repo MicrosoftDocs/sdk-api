@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediacapture.IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings
 title: IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the advanced media capture settings.
 old-location: mf\iadvancedmediacapture_getadvancedmediacapturesettings.htm
 old-project: medfound
 ms.assetid: 88c65141-9cc3-4da3-adee-06727152ba8b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetAdvancedMediaCaptureSettings, GetAdvancedMediaCaptureSettings method [Media Foundation], GetAdvancedMediaCaptureSettings method [Media Foundation],IAdvancedMediaCapture interface, IAdvancedMediaCapture interface [Media Foundation],GetAdvancedMediaCaptureSettings method, IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings, IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings, mf.iadvancedmediacapture_getadvancedmediacapturesettings, mfmediacapture/IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediacapture.h
 req.include-header: 

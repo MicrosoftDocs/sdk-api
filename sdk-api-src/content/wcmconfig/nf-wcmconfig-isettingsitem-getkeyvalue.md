@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetKeyValue
 title: ISettingsItem::GetKeyValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts key values for any list that already exists in the image, for example, DNS, http settings, and user account information.
 old-location: smi\isettingsitem_getkeyvalue.htm
 old-project: SMI
 ms.assetid: a627d0aa-05ef-43b6-a8e8-bb0770dd8873
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetKeyValue, GetKeyValue method [SMI], GetKeyValue method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetKeyValue method, ISettingsItem.GetKeyValue, ISettingsItem::GetKeyValue, smi.isettingsitem_getkeyvalue, wcmconfig/ISettingsItem::GetKeyValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

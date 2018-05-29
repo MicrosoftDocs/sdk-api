@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.GetOperationStatus
 title: IOperationsProgressDialog::GetOperationStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets operation status for progress dialog.
 old-location: shell\IOperationsProgressDialog_GetOperationStatus.htm
 old-project: shell
 ms.assetid: bd796369-9789-4c69-b699-eb0ec0e571b2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetOperationStatus, GetOperationStatus method [Windows Shell], GetOperationStatus method [Windows Shell],IOperationsProgressDialog interface, IOperationsProgressDialog interface [Windows Shell],GetOperationStatus method, IOperationsProgressDialog.GetOperationStatus, IOperationsProgressDialog::GetOperationStatus, _shell_IOperationsProgressDialog_GetOperationStatus, shell.IOperationsProgressDialog_GetOperationStatus, shobjidl_core/IOperationsProgressDialog::GetOperationStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

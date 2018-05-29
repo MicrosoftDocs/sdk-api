@@ -1,16 +1,16 @@
 ---
 UID: NE:clusapi.CLUSTER_QUORUM_TYPE
 title: CLUSTER_QUORUM_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The type of quorum resource to be created.
 old-location: mscs\cluster_quorum_type.htm
 old-project: MsCS
 ms.assetid: 2a1d24ab-236e-4fee-b411-cafc2cbd1832
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSTER_QUORUM_TYPE, CLUSTER_QUORUM_TYPE enumeration [Failover Cluster], ModifyQuorum, OperationalQuorum, _CLUSTER_QUORUM_TYPE, _CLUSTER_QUORUM_TYPE enumeration [Failover Cluster], clusapi/CLUSTER_QUORUM_TYPE, clusapi/ModifyQuorum, clusapi/OperationalQuorum, clusapi/_CLUSTER_QUORUM_TYPE, msclus/CLUSTER_QUORUM_TYPE, msclus/ModifyQuorum, msclus/OperationalQuorum, msclus/_CLUSTER_QUORUM_TYPE, mscs.cluster_quorum_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 

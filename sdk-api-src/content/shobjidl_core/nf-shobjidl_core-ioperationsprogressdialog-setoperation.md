@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.SetOperation
 title: IOperationsProgressDialog::SetOperation
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets which progress dialog operation is occurring, and whether we are in pre-flight or undo mode.
 old-location: shell\IOperationsProgressDialog_SetOperation.htm
 old-project: shell
 ms.assetid: b6fae1df-1c27-4ce9-a7f6-c5488f080ef3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],SetOperation method, IOperationsProgressDialog.SetOperation, IOperationsProgressDialog::SetOperation, SetOperation, SetOperation method [Windows Shell], SetOperation method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_SetOperation, shell.IOperationsProgressDialog_SetOperation, shobjidl_core/IOperationsProgressDialog::SetOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

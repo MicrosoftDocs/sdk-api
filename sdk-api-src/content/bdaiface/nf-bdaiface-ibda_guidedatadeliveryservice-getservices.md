@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetServices
 title: IBDA_GuideDataDeliveryService::GetServices
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a list of services that are available on the the media transform device (MTD).
 old-location: mstv\ibda_guidedatadeliveryservice_getservices.htm
 old-project: mstv
 ms.assetid: 82133fc5-0f42-4b24-abf6-bc46e72650ac
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetServices, GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetServices method, IBDA_GuideDataDeliveryService.GetServices, IBDA_GuideDataDeliveryService::GetServices, bdaiface/IBDA_GuideDataDeliveryService::GetServices, mstv.ibda_guidedatadeliveryservice_getservices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

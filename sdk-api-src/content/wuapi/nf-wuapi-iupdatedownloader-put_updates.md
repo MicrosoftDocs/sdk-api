@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.put_Updates
 title: IUpdateDownloader::put_Updates
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets and sets an interface that contains a read-only collection of the updates that are specified for download.
 old-location: wua\iupdatedownloader_updates.htm
 old-project: Wua_Sdk
 ms.assetid: 7c0444be-a9eb-461a-858e-1dea670afd06
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateDownloader interface [Windows Update Agent],Updates property, IUpdateDownloader.Updates, IUpdateDownloader.put_Updates, IUpdateDownloader::Updates, IUpdateDownloader::get_Updates, IUpdateDownloader::put_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IUpdateDownloader interface, put_Updates, wua.iupdatedownloader_updates, wuapi/IUpdateDownloader::Updates, wuapi/IUpdateDownloader::get_Updates, wuapi/IUpdateDownloader::put_Updates
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

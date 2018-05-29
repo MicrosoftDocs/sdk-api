@@ -1,16 +1,16 @@
 ---
 UID: NC:ddrawint.PDD_GETSCANLINE
 title: PDD_GETSCANLINE
-author: windows-driver-content
+author: windows-sdk-content
 description: The DdGetScanLine callback function returns the number of the current physical scan line.
 old-location: display\ddgetscanline.htm
 old-project: display
 ms.assetid: 3738205f-2d27-4211-944a-6ca71954fe47
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DdGetScanLine, DdGetScanLine callback function [Display Devices], PDD_GETSCANLINE, PDD_GETSCANLINE callback, ddfncs_640b22a3-e0aa-4e33-a510-36d91e5650cd.xml, ddrawint/DdGetScanLine, display.ddgetscanline
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

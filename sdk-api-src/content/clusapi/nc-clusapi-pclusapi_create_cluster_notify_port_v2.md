@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2
 title: PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates or modifies a notification port. For information about notification ports, see Receiving Cluster Events.
 old-location: mscs\createclusternotifyportv2.htm
 old-project: MsCS
 ms.assetid: 81FE17A9-DE1C-4CDD-BE7D-50EA202D5AAC
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2 callback, PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2 callback function [Failover Cluster], clusapi/PCLUSAPI_CREATE_CLUSTER_NOTIFY_PORT_V2, mscs.createclusternotifyportv2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPackageWriter
 title: IXpsOMPackageWriter
-author: windows-driver-content
+author: windows-sdk-content
 description: Incrementally writes the parts of an XPS document to a package file.
 old-location: xps\ixpsompackagewriter.htm
 old-project: printdocs
 ms.assetid: cbbcc8bf-6172-41c8-9d74-27e5635ec167
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPackageWriter, IXpsOMPackageWriter interface [XPS Documents and Packaging], IXpsOMPackageWriter interface [XPS Documents and Packaging],described, xps.ixpsompackagewriter, xpsobjectmodel/IXpsOMPackageWriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

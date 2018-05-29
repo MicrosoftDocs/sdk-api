@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaQueryForestTrustInformation
 title: LsaQueryForestTrustInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves forest trust information for the specified Local Security Authority&#160;TrustedDomain object.
 old-location: security\lsaqueryforesttrustinformation.htm
 old-project: SecAuthN
 ms.assetid: 38857f1f-e2c7-4ce5-a928-335bc3bd2176
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaQueryForestTrustInformation, LsaQueryForestTrustInformation function [Security], ntsecapi/LsaQueryForestTrustInformation, security.lsaqueryforesttrustinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

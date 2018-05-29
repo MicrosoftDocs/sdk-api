@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdxmldom._WSDXML_ATTRIBUTE
 title: "_WSDXML_ATTRIBUTE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an XML attribute.
 old-location: ncd\wsdxml_attribute_struct.htm
 old-project: WsdApi
 ms.assetid: 2697d30d-17c7-417d-a02b-c4427987ec4b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDXML_ATTRIBUTE, WSDXML_ATTRIBUTE structure, _WSDXML_ATTRIBUTE, ncd.wsdxml_attribute_struct, wsdxmldom/WSDXML_ATTRIBUTE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdxmldom.h
 req.include-header: 

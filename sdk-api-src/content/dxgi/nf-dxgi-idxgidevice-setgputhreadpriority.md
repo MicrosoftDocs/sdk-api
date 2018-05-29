@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi.IDXGIDevice.SetGPUThreadPriority
 title: IDXGIDevice::SetGPUThreadPriority
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the GPU thread priority.
 old-location: direct3ddxgi\idxgidevice_setgputhreadpriority.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice_setgputhreadpriority.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIDevice interface [DXGI],SetGPUThreadPriority method, IDXGIDevice.SetGPUThreadPriority, IDXGIDevice::SetGPUThreadPriority, SetGPUThreadPriority, SetGPUThreadPriority method [DXGI], SetGPUThreadPriority method [DXGI],IDXGIDevice interface, b610ce23-f003-9031-4c67-b5013c5af229, direct3ddxgi.idxgidevice_setgputhreadpriority, dxgi/IDXGIDevice::SetGPUThreadPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

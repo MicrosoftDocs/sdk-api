@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.Format
 title: CHString::Format
-author: windows-driver-content
+author: windows-sdk-content
 description: The Format method formats and stores a series of characters and values in a CHString string.
 old-location: wmi\chstring_format.htm
 old-project: WmiSdk
 ms.assetid: 95d24b0e-3580-4a5d-8dad-50d44ef1ca39
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CHString.Format, CHString::Format, CHString::Format methods [Windows Management Instrumentation], Format, chstring/CHString::Format, wmi.chstring_format
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

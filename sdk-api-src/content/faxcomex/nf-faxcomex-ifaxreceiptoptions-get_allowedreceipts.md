@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.get_AllowedReceipts
 title: IFaxReceiptOptions::get_AllowedReceipts
-author: windows-driver-content
+author: windows-sdk-content
 description: The AllowedReceipts property is a value that specifies the permitted types of delivery receipts.
 old-location: fax\_mfax_faxreceiptoptions_allowedreceipts_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3xbn.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: AllowedReceipts property [Fax Service], AllowedReceipts property [Fax Service],FaxReceiptOptions object, FaxReceiptOptions object [Fax Service],AllowedReceipts property, FaxReceiptOptions.AllowedReceipts, IFaxReceiptOptions.get_AllowedReceipts, IFaxReceiptOptions::get_AllowedReceipts, _mfax_faxreceiptoptions.allowedreceipts, fax._mfax_faxreceiptoptions_allowedreceipts, fax._mfax_faxreceiptoptions_allowedreceipts_vb, get_AllowedReceipts
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

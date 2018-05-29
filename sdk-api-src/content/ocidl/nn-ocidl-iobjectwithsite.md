@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IObjectWithSite
 title: IObjectWithSite
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a simple way to support communication between an object and its site in the container.
 old-location: com\iobjectwithsite.htm
 old-project: com
 ms.assetid: e688136e-e06b-46ba-bec9-b8db2f9c468d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IObjectWithSite, IObjectWithSite interface [COM], IObjectWithSite interface [COM],described, _ole_iobjectwithsite, com.iobjectwithsite, ocidl/IObjectWithSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

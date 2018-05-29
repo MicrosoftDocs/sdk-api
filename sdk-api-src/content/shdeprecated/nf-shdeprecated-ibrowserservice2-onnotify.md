@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.OnNotify
 title: IBrowserService2::OnNotify
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Calls the derived class from the base class on receipt of a WM_NOTIFY message. The derived class handles the message.
 old-location: shell\IBrowserService2_OnNotify.htm
 old-project: shell
 ms.assetid: 666d76da-0891-4645-8852-fc963be75369
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnNotify method, IBrowserService2.OnNotify, IBrowserService2::OnNotify, OnNotify, OnNotify method [Windows Shell], OnNotify method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnNotify, shell.IBrowserService2_OnNotify, zone_IBrowserService2_OnNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

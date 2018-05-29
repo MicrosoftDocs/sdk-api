@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.GetLongPathNameW
 title: GetLongPathNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the specified path to its long form.
 old-location: fs\getlongpathname.htm
 old-project: FileIO
 ms.assetid: 8ce69033-b69b-438b-a27f-938dd327c8ec
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetLongPathName, GetLongPathName function [Files], GetLongPathNameA, GetLongPathNameW, _win32_getlongpathname, base.getlongpathname, fileapi/GetLongPathName, fileapi/GetLongPathNameA, fileapi/GetLongPathNameW, fs.getlongpathname, winbase/GetLongPathName, winbase/GetLongPathNameA, winbase/GetLongPathNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

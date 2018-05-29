@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_INFO
 title: "_CERT_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the information of a certificate.
 old-location: security\cert_info.htm
 old-project: SecCrypto
 ms.assetid: 8d0a3053-52d4-437a-bf55-6724b5825cdc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_INFO, CERT_INFO, CERT_INFO structure [Security], CERT_V1, CERT_V2, CERT_V3, PCERT_INFO, PCERT_INFO structure pointer [Security], _CERT_INFO, _crypto2_cert_info, security.cert_info, wincrypt/CERT_INFO, wincrypt/PCERT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

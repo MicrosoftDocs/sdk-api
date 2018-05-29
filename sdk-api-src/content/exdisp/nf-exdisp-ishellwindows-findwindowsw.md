@@ -1,16 +1,16 @@
 ---
 UID: NF:exdisp.IShellWindows.FindWindowSW
 title: IShellWindows::FindWindowSW
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds a window in the Shell windows collection and returns the window's handle and IDispatch interface.
 old-location: shell\IShellWindows_FindWindowSW.htm
 old-project: shell
 ms.assetid: 10eed153-cb0b-4ce0-8cc5-2e7ebf683fda
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FindWindowSW, FindWindowSW method [Windows Shell], FindWindowSW method [Windows Shell],IShellWindows interface, IShellWindows interface [Windows Shell],FindWindowSW method, IShellWindows.FindWindowSW, IShellWindows::FindWindowSW, _win32_IShellWindows_FindWindowSW, exdisp/IShellWindows::FindWindowSW, shell.IShellWindows_FindWindowSW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 

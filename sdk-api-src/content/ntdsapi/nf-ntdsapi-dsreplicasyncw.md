@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsReplicaSyncW
 title: DsReplicaSyncW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Synchronizes a destination naming context (NC) with one of its sources.
 old-location: ad\dsreplicasync.htm
 old-project: AD
 ms.assetid: 20c7f96d-f298-4321-a6f5-910c25e418db
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_REPSYNC_ADD_REFERENCE, DS_REPSYNC_ALL_SOURCES, DS_REPSYNC_ASYNCHRONOUS_OPERATION, DS_REPSYNC_FORCE, DS_REPSYNC_FULL, DS_REPSYNC_INTERSITE_MESSAGING, DS_REPSYNC_NO_DISCARD, DS_REPSYNC_PERIODIC, DS_REPSYNC_URGENT, DS_REPSYNC_WRITEABLE, DsReplicaSync, DsReplicaSync function [Active Directory], DsReplicaSyncA, DsReplicaSyncW, _glines_dsreplicasync, ad.dsreplicasync, ntdsapi/DsReplicaSync, ntdsapi/DsReplicaSyncA, ntdsapi/DsReplicaSyncW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

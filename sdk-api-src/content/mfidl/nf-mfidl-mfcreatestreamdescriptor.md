@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateStreamDescriptor
 title: MFCreateStreamDescriptor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a stream descriptor.
 old-location: mf\mfcreatestreamdescriptor.htm
 old-project: medfound
 ms.assetid: 77a63d30-c03f-4339-9db3-eda60db9b194
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 77a63d30-c03f-4339-9db3-eda60db9b194, MFCreateStreamDescriptor, MFCreateStreamDescriptor function [Media Foundation], mf.mfcreatestreamdescriptor, mfidl/MFCreateStreamDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

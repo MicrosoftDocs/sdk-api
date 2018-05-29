@@ -1,16 +1,16 @@
 ---
 UID: NF:msacm.acmStreamPrepareHeader
 title: acmStreamPrepareHeader function
-author: windows-driver-content
+author: windows-sdk-content
 description: The acmStreamPrepareHeader function prepares an ACMSTREAMHEADER structure for an ACM stream conversion.
 old-location: multimedia\acmstreamprepareheader.htm
 old-project: Multimedia
 ms.assetid: ab90ac5f-6f39-4d26-96fc-5258d4e353cd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_acmStreamPrepareHeader, acmStreamPrepareHeader, acmStreamPrepareHeader function [Windows Multimedia], msacm/acmStreamPrepareHeader, multimedia.acmstreamprepareheader"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

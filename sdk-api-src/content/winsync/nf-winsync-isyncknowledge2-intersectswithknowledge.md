@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.IntersectsWithKnowledge
 title: ISyncKnowledge2::IntersectsWithKnowledge
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the specified knowledge intersects with this knowledge.
 old-location: winsync\isyncknowledge2_intersectswithknowledge.htm
 old-project: winsync
 ms.assetid: 8d2ce743-7827-4ee4-a800-3ba706d4a7a6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncKnowledge2 interface [Windows Sync],IntersectsWithKnowledge method, ISyncKnowledge2.IntersectsWithKnowledge, ISyncKnowledge2::IntersectsWithKnowledge, IntersectsWithKnowledge, IntersectsWithKnowledge method [Windows Sync], IntersectsWithKnowledge method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_intersectswithknowledge, winsync/ISyncKnowledge2::IntersectsWithKnowledge
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

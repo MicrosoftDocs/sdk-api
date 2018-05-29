@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadBSTR
 title: PSPropertyBag_ReadBSTR function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads a BSTR data value from a property in a property bag.
 old-location: properties\PSPropertyBag_ReadBSTR.htm
 old-project: properties
 ms.assetid: 14F21A4D-4867-4c4d-9BD8-C733B1C50266
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_ReadBSTR, PSPropertyBag_ReadBSTR function [Windows Properties], properties.PSPropertyBag_ReadBSTR, propsys/PSPropertyBag_ReadBSTR, shell.PSPropertyBag_ReadBSTR, shell_PSPropertyBag_ReadBSTR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

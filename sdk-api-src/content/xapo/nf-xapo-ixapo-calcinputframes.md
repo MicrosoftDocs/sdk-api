@@ -1,16 +1,16 @@
 ---
 UID: NF:xapo.IXAPO.CalcInputFrames
 title: IXAPO::CalcInputFrames
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of input frames required to generate the given number of output frames.
 old-location: xaudio2\ixapo_interface_calcinputframes.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.CalcInputFrames(UINT32)
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: CalcInputFrames, CalcInputFrames method [XAudio2 Audio Mixing APIs], CalcInputFrames method [XAudio2 Audio Mixing APIs],IXAPO interface, IXAPO interface [XAudio2 Audio Mixing APIs],CalcInputFrames method, IXAPO.CalcInputFrames, IXAPO::CalcInputFrames, xapo/IXAPO::CalcInputFrames, xaudio2.ixapo_interface_calcinputframes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xapo.h
 req.include-header: 

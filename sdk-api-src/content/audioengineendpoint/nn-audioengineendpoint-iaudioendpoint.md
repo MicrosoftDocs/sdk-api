@@ -1,16 +1,16 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpoint
 title: IAudioEndpoint
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information to the audio engine about an audio endpoint. This interface is implemented by an audio endpoint.
 old-location: termserv\iaudioendpoint.htm
 old-project: TermServ
 ms.assetid: a1bb3fe4-6051-4b9c-8270-70375e700f01
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAudioEndpoint, IAudioEndpoint interface [Remote Desktop Services], IAudioEndpoint interface [Remote Desktop Services],described, audioengineendpoint/IAudioEndpoint, termserv.iaudioendpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 

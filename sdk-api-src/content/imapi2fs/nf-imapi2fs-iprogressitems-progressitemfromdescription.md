@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IProgressItems.ProgressItemFromDescription
 title: IProgressItems::ProgressItemFromDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a progress item based on the specified file name.
 old-location: imapi\iprogressitems_progressitemfromdescription.htm
 old-project: imapi
 ms.assetid: c27e9f30-e3f1-4436-b33a-fa3130baf374
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IProgressItems interface [IMAPI],ProgressItemFromDescription method, IProgressItems.ProgressItemFromDescription, IProgressItems::ProgressItemFromDescription, ProgressItemFromDescription, ProgressItemFromDescription method [IMAPI], ProgressItemFromDescription method [IMAPI],IProgressItems interface, imapi.iprogressitems_progressitemfromdescription, imapi2fs/IProgressItems::ProgressItemFromDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

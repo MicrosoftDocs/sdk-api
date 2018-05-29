@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoReleaseServerProcess
 title: CoReleaseServerProcess function
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrements the global per-process reference count.
 old-location: com\coreleaseserverprocess.htm
 old-project: com
 ms.assetid: b28d41e2-4144-413d-9963-14f2d4dc8876
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoReleaseServerProcess, CoReleaseServerProcess function [COM], _com_CoReleaseServerProcess, com.coreleaseserverprocess, combaseapi/CoReleaseServerProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

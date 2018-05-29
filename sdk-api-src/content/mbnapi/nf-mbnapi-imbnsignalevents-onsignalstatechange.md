@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnSignalEvents.OnSignalStateChange
 title: IMbnSignalEvents::OnSignalStateChange
-author: windows-driver-content
+author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate that a signal quality update is available.
 old-location: mbn\imbnsignalevents_onsignalstatechange.htm
 old-project: mbn
 ms.assetid: 07e98555-03fa-4852-af65-55778dc9c477
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnSignalEvents interface [Microsoft Broadband Networks],OnSignalStateChange method, IMbnSignalEvents.OnSignalStateChange, IMbnSignalEvents::OnSignalStateChange, OnSignalStateChange, OnSignalStateChange method [Microsoft Broadband Networks], OnSignalStateChange method [Microsoft Broadband Networks],IMbnSignalEvents interface, mbn.imbnsignalevents_onsignalstatechange, mbnapi/IMbnSignalEvents::OnSignalStateChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

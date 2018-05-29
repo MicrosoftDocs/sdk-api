@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IResultsFolder.RemoveAll
 title: IResultsFolder::RemoveAll
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all items from a results folder.
 old-location: shell\IResultsFolder_RemoveAll.htm
 old-project: shell
 ms.assetid: 2aac1b5a-298a-4682-9874-7cf114ce1f63
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IResultsFolder interface [Windows Shell],RemoveAll method, IResultsFolder.RemoveAll, IResultsFolder::RemoveAll, RemoveAll, RemoveAll method [Windows Shell], RemoveAll method [Windows Shell],IResultsFolder interface, _shell_IResultsFolder_RemoveAll, shell.IResultsFolder_RemoveAll, shobjidl/IResultsFolder::RemoveAll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamStereoFormat
 title: ID3D11VideoContext::VideoProcessorGetStreamStereoFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the stereo 3D format for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamstereoformat.htm
 old-project: medfound
 ms.assetid: FCEE6C95-C631-4268-9B06-686B8AC7D80C
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FALSE, ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamStereoFormat method, ID3D11VideoContext.VideoProcessorGetStreamStereoFormat, ID3D11VideoContext::VideoProcessorGetStreamStereoFormat, TRUE, VideoProcessorGetStreamStereoFormat, VideoProcessorGetStreamStereoFormat method [Media Foundation], VideoProcessorGetStreamStereoFormat method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamStereoFormat, mf.id3d11videocontext_videoprocessorgetstreamstereoformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

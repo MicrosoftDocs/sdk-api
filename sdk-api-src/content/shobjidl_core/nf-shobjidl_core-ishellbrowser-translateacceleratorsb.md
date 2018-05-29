@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.TranslateAcceleratorSB
 title: IShellBrowser::TranslateAcceleratorSB
-author: windows-driver-content
+author: windows-sdk-content
 description: Translates accelerator keystrokes intended for the browser's frame while the view is active.
 old-location: shell\IShellBrowser_TranslateAcceleratorSB.htm
 old-project: shell
 ms.assetid: dda5c085-7199-4b83-b03e-e4c715665157
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellBrowser interface [Windows Shell],TranslateAcceleratorSB method, IShellBrowser.TranslateAcceleratorSB, IShellBrowser::TranslateAcceleratorSB, TranslateAcceleratorSB, TranslateAcceleratorSB method [Windows Shell], TranslateAcceleratorSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_TranslateAcceleratorSB, shell.IShellBrowser_TranslateAcceleratorSB, shobjidl_core/IShellBrowser::TranslateAcceleratorSB
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

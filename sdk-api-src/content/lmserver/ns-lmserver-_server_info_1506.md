@@ -1,16 +1,16 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1506
 title: "_SERVER_INFO_1506"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SERVER_INFO_1506 structure contains information about the maximum number of work items the specified server can allocate.
 old-location: netmgmt\server_info_1506_str.htm
 old-project: NetMgmt
 ms.assetid: 3a18838b-2a47-4b78-9356-f20de8a87d2f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPSERVER_INFO_1506, *PSERVER_INFO_1506, LPSERVER_INFO_1506, LPSERVER_INFO_1506 structure pointer [Network Management], PSERVER_INFO_1506, PSERVER_INFO_1506 structure pointer [Network Management], SERVER_INFO_1506, SERVER_INFO_1506 structure [Network Management], _SERVER_INFO_1506, _win32_server_info_1506_str, lmserver/LPSERVER_INFO_1506, lmserver/PSERVER_INFO_1506, lmserver/SERVER_INFO_1506, netmgmt.server_info_1506_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzClientContext3.AccessCheck2
 title: IAzClientContext3::AccessCheck2
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a value that specifies whether the principal represented by the current client context is allowed to perform the specified operation.
 old-location: security\iazclientcontext3_accesscheck2_method.htm
 old-project: SecAuthZ
 ms.assetid: 042d1f51-5eb8-4c32-97f1-bb76546e6624
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AccessCheck2, AccessCheck2 method [Security], AccessCheck2 method [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],AccessCheck2 method, IAzClientContext3.AccessCheck2, IAzClientContext3::AccessCheck2, azroles/IAzClientContext3::AccessCheck2, security.iazclientcontext3_accesscheck2_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

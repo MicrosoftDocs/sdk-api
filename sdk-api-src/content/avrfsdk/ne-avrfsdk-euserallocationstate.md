@@ -1,16 +1,16 @@
 ---
 UID: NE:avrfsdk.eUserAllocationState
 title: eUserAllocationState
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the application's current heap allocation state.
 old-location: winprog\euserallocationstate.htm
 old-project: DevNotes
 ms.assetid: 8aa46c8a-1261-47da-8145-e7ff9826d2ab
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: AllocationStateBusy, AllocationStateFree, AllocationStateUnknown, avrfsdk/AllocationStateBusy, avrfsdk/AllocationStateFree, avrfsdk/AllocationStateUnknown, avrfsdk/eUserAllocationState, base.euserallocationstate, eUserAllocationState, eUserAllocationState enumeration [Windows API], winprog.euserallocationstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: avrfsdk.h
 req.include-header: 

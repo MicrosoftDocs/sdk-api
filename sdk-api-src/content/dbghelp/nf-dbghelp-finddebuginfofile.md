@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.FindDebugInfoFile
 title: FindDebugInfoFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates a debug (.dbg) file.
 old-location: base\finddebuginfofile.htm
 old-project: Debug
 ms.assetid: a13d3bf4-f34d-4304-9d47-aa21c3fa23b8
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: FindDebugInfoFile, FindDebugInfoFile function, _win32_finddebuginfofile, base.finddebuginfofile, dbghelp/FindDebugInfoFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

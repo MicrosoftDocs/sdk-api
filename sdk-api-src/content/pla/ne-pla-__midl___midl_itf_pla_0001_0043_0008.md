@@ -1,16 +1,16 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0008
 title: "__MIDL___MIDL_itf_pla_0001_0043_0008"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the type of the value.
 old-location: pla\valuemaptype.htm
 old-project: PLA
 ms.assetid: cc217b3b-389a-4d15-b47d-456778f3eaec
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ValueMapType, ValueMapType enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0008, base.valuemaptype, pla.valuemaptype, pla/ValueMapType, pla/plaFlag, pla/plaFlagArray, pla/plaIndex, pla/plaValidation, plaFlag, plaFlagArray, plaIndex, plaValidation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: pla.h
 req.include-header: 

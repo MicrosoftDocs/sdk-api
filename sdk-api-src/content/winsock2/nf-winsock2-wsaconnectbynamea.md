@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSAConnectByNameA
 title: WSAConnectByNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Establishes a connection to a specified host and port.
 old-location: winsock\wsaconnectbyname_2.htm
 old-project: WinSock
 ms.assetid: 6d87699f-03bd-4579-9907-ae3c29b7332b
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAConnectByName, WSAConnectByName function [Winsock], WSAConnectByNameA, WSAConnectByNameW, winsock.wsaconnectbyname_2, winsock2/WSAConnectByName, winsock2/WSAConnectByNameA, winsock2/WSAConnectByNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

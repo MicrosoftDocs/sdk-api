@@ -1,16 +1,16 @@
 ---
 UID: NN:netfw.INetFwRule2
 title: INetFwRule2
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows an application or service to access all the properties of INetFwRule as well as the four edge properties of a firewall rule specified by NET_FW_EDGE_TRAVERSAL_TYPE.
 old-location: ics\inetfwrule2.htm
 old-project: ICS
 ms.assetid: 35c28180-b60c-4dc1-81ce-0ce012f96525
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwRule2, INetFwRule2 interface [ICS/ICF], INetFwRule2 interface [ICS/ICF],described, ics.inetfwrule2, netfw/INetFwRule2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelector.GetSelectorType
 title: IOpcRelationshipSelector::GetSelectorType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that describes how relationships are selected to be referenced for signing.
 old-location: opc\iopcrelationshipselector_getselectortype.htm
 old-project: OPC
 ms.assetid: 583f56e5-c374-4f79-badd-35eb5eecef70
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetSelectorType, GetSelectorType method [Open Packaging Conventions], GetSelectorType method [Open Packaging Conventions],IOpcRelationshipSelector interface, IOpcRelationshipSelector interface [Open Packaging Conventions],GetSelectorType method, IOpcRelationshipSelector.GetSelectorType, IOpcRelationshipSelector::GetSelectorType, msopc/IOpcRelationshipSelector::GetSelectorType, opc.iopcrelationshipselector_getselectortype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

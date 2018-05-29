@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IContextMenuCB
 title: IContextMenuCB
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that enables the callback of a context menu. For example, to add a shield icon to a menuItem that requires elevation.
 old-location: shell\IContextMenuCB.htm
 old-project: shell
 ms.assetid: 1a4c183b-97cf-4c9a-af5a-bcea7c2755a5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IContextMenuCB, IContextMenuCB interface [Windows Shell], IContextMenuCB interface [Windows Shell],described, _shell_IContextMenuCB, shell.IContextMenuCB, shobjidl_core/IContextMenuCB
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

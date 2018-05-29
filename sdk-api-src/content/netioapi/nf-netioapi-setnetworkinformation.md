@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.SetNetworkInformation
 title: SetNetworkInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for future use. Do not use this function.
 old-location: netvista\setnetworkinformation.htm
 old-project: netvista
 ms.assetid: e196e978-2eb7-4b22-af3b-e14736c5ac94
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: SetNetworkInformation, SetNetworkInformation function [Network Drivers Starting with Windows Vista], iphelper_d0cffca7-e9e7-404a-ab30-e2a2d6f66c14.xml, netioapi/SetNetworkInformation, netvista.setnetworkinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: 

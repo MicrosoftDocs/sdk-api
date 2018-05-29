@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidRect.get_HWnd
 title: IMSVidRect::get_HWnd
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_HWnd method retrieves the window associated with the rectangle.
 old-location: mstv\imsvidrect_get_hwnd.htm
 old-project: mstv
 ms.assetid: caa56beb-7eba-48a1-8645-f63666ba0593
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_HWnd method, IMSVidRect.get_HWnd, IMSVidRect::get_HWnd, IMSVidRectget_HWnd, get_HWnd, get_HWnd method [Microsoft TV Technologies], get_HWnd method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_hwnd, segment/IMSVidRect::get_HWnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:xapofx.FXECHO_PARAMETERS
 title: FXECHO_PARAMETERS
-author: windows-driver-content
+author: windows-sdk-content
 description: Parameters for use with the FXECHO XAPOFX.
 old-location: xaudio2\fxecho_parameters.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXECHO_PARAMETERS
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: FXECHO_PARAMETERS, FXECHO_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXECHO_PARAMETERS, xaudio2.fxecho_parameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xapofx.h
 req.include-header: 

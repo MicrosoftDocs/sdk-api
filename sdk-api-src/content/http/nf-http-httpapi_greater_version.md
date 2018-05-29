@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HTTPAPI_GREATER_VERSION
 title: HTTPAPI_GREATER_VERSION macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a non-zero value if an HTTPAPI_VERSION structure is greater than a specified major/minor version combination, or zero otherwise.
 old-location: http\httpapi_greater_version.htm
 old-project: Http
 ms.assetid: e70500dd-e750-437c-8652-280f9cc9de1d
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HTTPAPI_GREATER_VERSION, HTTPAPI_GREATER_VERSION macro [HTTP], http.httpapi_greater_version, http/HTTPAPI_GREATER_VERSION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: http.h
 req.include-header: 

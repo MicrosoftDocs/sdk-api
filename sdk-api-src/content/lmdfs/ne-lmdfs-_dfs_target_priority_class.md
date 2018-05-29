@@ -1,16 +1,16 @@
 ---
 UID: NE:lmdfs._DFS_TARGET_PRIORITY_CLASS
 title: "_DFS_TARGET_PRIORITY_CLASS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of possible DFS target priority class settings.
 old-location: dfs\dfs_target_priority_class.htm
 old-project: Dfs
 ms.assetid: 4aac4575-630f-4cb6-8312-edd1fad8f128
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DFS_TARGET_PRIORITY_CLASS, DFS_TARGET_PRIORITY_CLASS enumeration [Distributed File System], DfsGlobalHighPriorityClass, DfsGlobalLowPriorityClass, DfsInvalidPriorityClass, DfsSiteCostHighPriorityClass, DfsSiteCostLowPriorityClass, DfsSiteCostNormalPriorityClass, _DFS_TARGET_PRIORITY_CLASS, dfs.dfs_target_priority_class, fs.dfs_target_priority_class, lmdfs/DFS_TARGET_PRIORITY_CLASS, lmdfs/DfsGlobalHighPriorityClass, lmdfs/DfsGlobalLowPriorityClass, lmdfs/DfsInvalidPriorityClass, lmdfs/DfsSiteCostHighPriorityClass, lmdfs/DfsSiteCostLowPriorityClass, lmdfs/DfsSiteCostNormalPriorityClass, netmgmt.dfs_target_priority_class
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

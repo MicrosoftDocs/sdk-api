@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.InitializeCriticalSectionEx
 title: InitializeCriticalSectionEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a critical section object with a spin count and optional flags.
 old-location: base\initializecriticalsectionex.htm
 old-project: Sync
 ms.assetid: da84b187-0eb7-4363-8e68-8a525586d7d9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CRITICAL_SECTION_NO_DEBUG_INFO, InitializeCriticalSectionEx, InitializeCriticalSectionEx function, base.initializecriticalsectionex, synchapi/InitializeCriticalSectionEx, winbase/InitializeCriticalSectionEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPDevice3.GetProperty
 title: IMDSPDevice3::GetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetProperty method retrieves a specific device property.
 old-location: wmdm\imdspdevice3_getproperty.htm
 old-project: WMDM
 ms.assetid: e0665ba6-361d-488c-9100-68f39855b736
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetProperty, GetProperty method [windows Media Device Manager], GetProperty method [windows Media Device Manager],IMDSPDevice3 interface, IMDSPDevice3 interface [windows Media Device Manager],GetProperty method, IMDSPDevice3.GetProperty, IMDSPDevice3::GetProperty, IMDSPDevice3TransferSessionBegin, mswmdm/IMDSPDevice3::GetProperty, wmdm.imdspdevice3_getproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

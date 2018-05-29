@@ -1,16 +1,16 @@
 ---
 UID: NE:msclus.CLUSTER_NOTIFICATIONS_VERSION
 title: CLUSTER_NOTIFICATIONS_VERSION
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the various versions of cluster notification enumerations.
 old-location: mscs\cluster_notifications_version.htm
 old-project: MsCS
 ms.assetid: 0328B52E-F9C7-4DA4-85C6-109E3AD3E1A7
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSTER_NOTIFICATIONS_V1, CLUSTER_NOTIFICATIONS_V2, CLUSTER_NOTIFICATIONS_VERSION, CLUSTER_NOTIFICATIONS_VERSION enumeration [Failover Cluster], clusapi/CLUSTER_NOTIFICATIONS_V1, clusapi/CLUSTER_NOTIFICATIONS_V2, clusapi/CLUSTER_NOTIFICATIONS_VERSION, msclus/CLUSTER_NOTIFICATIONS_V1, msclus/CLUSTER_NOTIFICATIONS_V2, msclus/CLUSTER_NOTIFICATIONS_VERSION, mscs.cluster_notifications_version
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: 

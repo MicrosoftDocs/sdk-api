@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetGValue
 title: GetGValue macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetGValue macro retrieves an intensity value for the green component of a red, green, blue (RGB) value.
 old-location: gdi\getgvalue.htm
 old-project: gdi
 ms.assetid: be989b36-8acb-435b-8d71-1c388c7884f0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetGValue, GetGValue macro [Windows GDI], _win32_GetGValue, gdi.getgvalue, wingdi/GetGValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: wingdi.h
 req.include-header: Windows.h

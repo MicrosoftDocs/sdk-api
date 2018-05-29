@@ -1,16 +1,16 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetErrorRetryInterval
 title: IScheduledWorkItem::SetErrorRetryInterval
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the time interval, in minutes, between Task Scheduler's attempts to run a work item after an error occurs. This method is not implemented.
 old-location: taskschd\ischeduledworkitem_seterrorretryinterval.htm
 old-project: TaskSchd
 ms.assetid: e5923d76-50d0-4d1c-9d80-0b7cbd8ee3d7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetErrorRetryInterval method, IScheduledWorkItem.SetErrorRetryInterval, IScheduledWorkItem::SetErrorRetryInterval, SetErrorRetryInterval, SetErrorRetryInterval method [Task Scheduler], SetErrorRetryInterval method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_seterrorretryinterval, mstask/IScheduledWorkItem::SetErrorRetryInterval, taskschd.ischeduledworkitem_seterrorretryinterval
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

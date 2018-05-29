@@ -1,16 +1,16 @@
 ---
 UID: NF:rasdlg.RasEntryDlgW
 title: RasEntryDlgW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasEntryDlg function displays modal property sheets that allow a user to manipulate phone-book entries.
 old-location: rras\rasentrydlg.htm
 old-project: RRAS
 ms.assetid: 9259502d-c31b-4ebd-ace7-70f02bbb7873
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasEntryDlg, RasEntryDlg function [RAS], RasEntryDlgA, RasEntryDlgW, _ras_rasentrydlg, rasdlg/RasEntryDlg, rasdlg/RasEntryDlgA, rasdlg/RasEntryDlgW, rras.rasentrydlg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rasdlg.h
 req.include-header: 

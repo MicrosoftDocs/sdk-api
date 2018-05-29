@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDVRGB219.SetRGB219
 title: IDVRGB219::SetRGB219
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetRGB219 method controls the dynamic range for DV encoding and decoding.
 old-location: dshow\idvrgb219_setrgb219.htm
 old-project: DirectShow
 ms.assetid: d203158b-4c15-4fde-9bc2-6d0ba04af504
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDVRGB219 interface [DirectShow],SetRGB219 method, IDVRGB219.SetRGB219, IDVRGB219::SetRGB219, IDVRGB219SetRGB219, SetRGB219, SetRGB219 method [DirectShow], SetRGB219 method [DirectShow],IDVRGB219 interface, dshow.idvrgb219_setrgb219, strmif/IDVRGB219::SetRGB219
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

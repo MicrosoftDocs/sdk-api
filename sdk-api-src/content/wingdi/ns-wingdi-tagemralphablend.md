@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRALPHABLEND
 title: tagEMRALPHABLEND
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRALPHABLEND structure contains members for the AlphaBlend enhanced metafile record.
 old-location: gdi\emralphablend.htm
 old-project: gdi
 ms.assetid: 3270d8ed-a174-4d77-a9a7-3e3f0cab2a23
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRALPHABLEND, EMRALPHABLEND, EMRALPHABLEND structure [Windows GDI], PEMRALPHABLEND, PEMRALPHABLEND structure pointer [Windows GDI], _win32_EMRALPHABLEND_str, gdi.emralphablend, tagEMRALPHABLEND, wingdi/EMRALPHABLEND, wingdi/PEMRALPHABLEND"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

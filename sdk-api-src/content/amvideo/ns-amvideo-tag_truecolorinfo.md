@@ -1,16 +1,16 @@
 ---
 UID: NS:amvideo.tag_TRUECOLORINFO
 title: tag_TRUECOLORINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The TRUECOLORINFO structure contains color palette and bitmask information for a video image.
 old-location: dshow\truecolorinfostructure.htm
 old-project: DirectShow
 ms.assetid: 8269d8c2-ff8e-48e0-b4f6-06900a7ecfdc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TRUECOLORINFO, TRUECOLORINFO structure [DirectShow], TRUECOLORINFOStructure, amvideo/TRUECOLORINFO, dshow.truecolorinfostructure, tag_TRUECOLORINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: amvideo.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12shader.ID3D12FunctionReflection.GetConstantBufferByName
 title: ID3D12FunctionReflection::GetConstantBufferByName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a constant buffer by name for a function.
 old-location: direct3d12\id3d12functionreflection_getconstantbufferbyname.htm
 old-project: direct3d12
 ms.assetid: AB781E44-2FCE-4E20-955C-C6F9F6F3064B
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetConstantBufferByName, GetConstantBufferByName method, GetConstantBufferByName method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetConstantBufferByName method, ID3D12FunctionReflection.GetConstantBufferByName, ID3D12FunctionReflection::GetConstantBufferByName, d3d12shader/ID3D12FunctionReflection::GetConstantBufferByName, direct3d12.id3d12functionreflection_getconstantbufferbyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

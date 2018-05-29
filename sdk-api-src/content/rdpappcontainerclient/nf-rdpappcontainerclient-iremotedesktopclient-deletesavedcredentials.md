@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.DeleteSavedCredentials
 title: IRemoteDesktopClient::DeleteSavedCredentials
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes saved credentials for the specified remote computer.
 old-location: termserv\iremotedesktopclient_deletesavedcredentials.htm
 old-project: TermServ
 ms.assetid: 9addc8de-1e82-47a3-a10e-566bacc3e37c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DeleteSavedCredentials, DeleteSavedCredentials method [Remote Desktop Services], DeleteSavedCredentials method [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],DeleteSavedCredentials method, IRemoteDesktopClient.DeleteSavedCredentials, IRemoteDesktopClient::DeleteSavedCredentials, rdpappcontainerclient/IRemoteDesktopClient::DeleteSavedCredentials, termserv.iremotedesktopclient_deletesavedcredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 

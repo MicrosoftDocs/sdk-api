@@ -1,16 +1,16 @@
 ---
 UID: NS:shellapi._SHFILEINFOA
 title: "_SHFILEINFOA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a file object.
 old-location: shell\SHFILEINFO.htm
 old-project: shell
 ms.assetid: 9dbf873a-b447-4579-961e-20f2a64c87fe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHFILEINFO, SHFILEINFO structure [Windows Shell], SHFILEINFOA, _SHFILEINFOA, _win32_SHFILEINFO, shell.SHFILEINFO, shellapi/SHFILEINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IEnumSyncChangeUnits.Reset
 title: IEnumSyncChangeUnits::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the enumerator to the beginning of the list.
 old-location: winsync\ienumsyncchangeunits_reset.htm
 old-project: winsync
 ms.assetid: 7d9bd900-dda3-4deb-ab38-484842873dea
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IEnumSyncChangeUnits interface [Windows Sync],Reset method, IEnumSyncChangeUnits.Reset, IEnumSyncChangeUnits::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncChangeUnits interface, winsync.ienumsyncchangeunits_reset, winsync/IEnumSyncChangeUnits::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

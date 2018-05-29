@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.CreateWriter
 title: CreateWriter function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function is reserved for system use.
 old-location: base\createwriter.htm
 old-project: VSS
 ms.assetid: d459f025-3c47-4c9b-9fed-2da31aa63102
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateWriter, CreateWriter function, base.createwriter, vswriter/CreateWriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vswriter.h
 req.include-header: 

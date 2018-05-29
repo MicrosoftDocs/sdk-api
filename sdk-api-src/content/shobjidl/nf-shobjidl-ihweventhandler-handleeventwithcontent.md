@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IHWEventHandler.HandleEventWithContent
 title: IHWEventHandler::HandleEventWithContent
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented.
 old-location: shell\IHWEventHandler_HandleEventWithContent.htm
 old-project: shell
 ms.assetid: d5787ebd-2784-4e86-b749-93258a1a26bd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HandleEventWithContent, HandleEventWithContent method [Windows Shell], HandleEventWithContent method [Windows Shell],IHWEventHandler interface, IHWEventHandler interface [Windows Shell],HandleEventWithContent method, IHWEventHandler.HandleEventWithContent, IHWEventHandler::HandleEventWithContent, inet_IHWEventHandler_HandleEventWithContent, shell.IHWEventHandler_HandleEventWithContent, shobjidl/IHWEventHandler::HandleEventWithContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: Shobjidl.h

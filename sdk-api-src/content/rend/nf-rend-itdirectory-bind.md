@@ -1,16 +1,16 @@
 ---
 UID: NF:rend.ITDirectory.Bind
 title: ITDirectory::Bind
-author: windows-driver-content
+author: windows-sdk-content
 description: The Bind method binds to the server.
 old-location: tapi3\itdirectory_bind.htm
 old-project: Tapi
 ms.assetid: 4bcf994c-3091-445e-ad79-91958e48960a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Bind, Bind method [TAPI 2.2], Bind method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],Bind method, ITDirectory.Bind, ITDirectory::Bind, _tapi3_itdirectory_bind, rend/ITDirectory::Bind, tapi3.itdirectory_bind
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rend.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagMEASUREITEMSTRUCT
 title: tagMEASUREITEMSTRUCT
-author: windows-driver-content
+author: windows-sdk-content
 description: Informs the system of the dimensions of an owner-drawn control or menu item. This allows the system to process user interaction with the control correctly.
 old-location: controls\MEASUREITEMSTRUCT.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\measureitemstruct.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPMEASUREITEMSTRUCT, *PMEASUREITEMSTRUCT, MEASUREITEMSTRUCT, MEASUREITEMSTRUCT structure [Windows Controls], ODT_COMBOBOX, ODT_LISTBOX, ODT_LISTVIEW, ODT_MENU, _win32_MEASUREITEMSTRUCT_str, _win32_MEASUREITEMSTRUCT_str_cpp, controls.MEASUREITEMSTRUCT, controls._win32_MEASUREITEMSTRUCT_str, tagMEASUREITEMSTRUCT, winuser/MEASUREITEMSTRUCT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

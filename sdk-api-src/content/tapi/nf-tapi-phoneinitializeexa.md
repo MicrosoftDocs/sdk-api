@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneInitializeExA
 title: phoneInitializeExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneInitializeEx function initializes the application's use of TAPI for subsequent use of the phone abstraction.
 old-location: tapi2\phoneinitializeex.htm
 old-project: Tapi
 ms.assetid: 362e37df-4b14-4651-8d23-b70613e354c8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phoneinitializeex, phoneInitializeEx, phoneInitializeEx function [TAPI 2.2], phoneInitializeExA, phoneInitializeExW, tapi/phoneInitializeEx, tapi/phoneInitializeExA, tapi/phoneInitializeExW, tapi2.phoneinitializeex"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

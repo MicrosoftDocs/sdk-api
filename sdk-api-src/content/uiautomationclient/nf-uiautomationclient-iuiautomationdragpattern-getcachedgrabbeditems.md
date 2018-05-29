@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDragPattern.GetCachedGrabbedItems
 title: IUIAutomationDragPattern::GetCachedGrabbedItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a cached collection of elements that represent the full set of items that the user is dragging as part of a drag operation.
 old-location: winauto\uiauto_iuiautomationdragpattern_getcachedgrabbeditems.htm
 old-project: WinAuto
 ms.assetid: A3CB19E9-634D-4023-926E-BAA717DE4528
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetCachedGrabbedItems, GetCachedGrabbedItems method [Windows Accessibility], GetCachedGrabbedItems method [Windows Accessibility],IUIAutomationDragPattern interface, IUIAutomationDragPattern interface [Windows Accessibility],GetCachedGrabbedItems method, IUIAutomationDragPattern.GetCachedGrabbedItems, IUIAutomationDragPattern::GetCachedGrabbedItems, uiautomationclient/IUIAutomationDragPattern::GetCachedGrabbedItems, winauto.uiauto_iuiautomationdragpattern_getcachedgrabbeditems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

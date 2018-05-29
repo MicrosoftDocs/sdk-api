@@ -1,16 +1,16 @@
 ---
 UID: NS:usp10.tag_SCRIPT_TABDEF
 title: tag_SCRIPT_TABDEF
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains definitions of the tab positions for ScriptStringAnalyse.
 old-location: intl\script_tabdef.htm
 old-project: Intl
 ms.assetid: 023ec258-b3f9-4ea2-8c9d-838df1442068
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SCRIPT_TABDEF, SCRIPT_TABDEF structure [Internationalization for Windows Applications], _win32_SCRIPT_TABDEF_str, intl.script_tabdef, tag_SCRIPT_TABDEF, usp10/SCRIPT_TABDEF
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: usp10.h
 req.include-header: 

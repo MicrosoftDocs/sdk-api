@@ -1,16 +1,16 @@
 ---
 UID: NN:ctfspui.ITfSpeechUIServer
 title: ITfSpeechUIServer
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfSpeechUIServer interface manages the speech-related user interface on the TSF language bar.
 old-location: tsf\itfspeechuiserver.htm
 old-project: TSF
 ms.assetid: 40961001-b659-4ddb-ae7d-5342957770be
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfSpeechUIServer, ITfSpeechUIServer interface [Text Services Framework], ITfSpeechUIServer interface [Text Services Framework],described, ctfspui/ITfSpeechUIServer, tsf.itfspeechuiserver
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctfspui.h
 req.include-header: Ctfutb.h

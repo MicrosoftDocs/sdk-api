@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.ProgIDFromCLSID
 title: ProgIDFromCLSID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the ProgID for a given CLSID.
 old-location: com\progidfromclsid.htm
 old-project: com
 ms.assetid: a863cbc2-f8ab-468a-8254-b273077a6a2b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ProgIDFromCLSID, ProgIDFromCLSID function [COM], _com_ProgIDFromCLSID, com.progidfromclsid, combaseapi/ProgIDFromCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

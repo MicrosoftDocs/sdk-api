@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_MoreInfoText
 title: IAMMediaContent::get_MoreInfoText
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MoreInfoText method retrieves additional information as text.
 old-location: dshow\iammediacontent_get_moreinfotext.htm
 old-project: DirectShow
 ms.assetid: 4a511c86-0a3a-48d3-8a3a-2ab52ff7dcea
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_MoreInfoText method, IAMMediaContent.get_MoreInfoText, IAMMediaContent::get_MoreInfoText, IAMMediaContentget_MoreInfoText, dshow.iammediacontent_get_moreinfotext, get_MoreInfoText, get_MoreInfoText method [DirectShow], get_MoreInfoText method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_MoreInfoText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

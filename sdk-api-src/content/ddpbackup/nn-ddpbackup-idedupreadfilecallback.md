@@ -1,16 +1,16 @@
 ---
 UID: NN:ddpbackup.IDedupReadFileCallback
 title: IDedupReadFileCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: A callback interface, implemented by backup applications, that enables Data Deduplication to read content from metadata and container files residing in a backup store and optionally improve restore efficiency.
 old-location: dedup\idedupreadfilecallback.htm
 old-project: dedup
 ms.assetid: 0B7F5A5B-EB60-4BAF-86AF-D9101F3B482C
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDedupReadFileCallback, IDedupReadFileCallback interface [Data Deduplication API], IDedupReadFileCallback interface [Data Deduplication API],described, ddpbackup/IDedupReadFileCallback, dedup.idedupreadfilecallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ddpbackup.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.CreateGenericComposite
 title: CreateGenericComposite function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs a generic composition of two monikers and supplies a pointer to the resulting composite moniker.
 old-location: com\creategenericcomposite.htm
 old-project: com
 ms.assetid: 7fe5b3ff-6e9b-4a28-93d3-52c76d3e8b77
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateGenericComposite, CreateGenericComposite function [COM], _com_CreateGenericComposite, com.creategenericcomposite, objbase/CreateGenericComposite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:wmsdkidl.WMT_VERSION
 title: WMT_VERSION
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMT_VERSION enumeration type defines the versions of the Windows Media Format SDK.
 old-location: wmformat\wmt_version.htm
 old-project: wmformat
 ms.assetid: 9ee414c6-49aa-42ad-9310-52f54b23e712
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMT_VERSION, WMT_VERSION enumeration [windows Media Format], WMT_VER_4_0, WMT_VER_7_0, WMT_VER_8_0, WMT_VER_9_0, wmformat.wmt_version, wmsdkidl/WMT_VERSION, wmsdkidl/WMT_VER_4_0, wmsdkidl/WMT_VER_7_0, wmsdkidl/WMT_VER_8_0, wmsdkidl/WMT_VER_9_0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

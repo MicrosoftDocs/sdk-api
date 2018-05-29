@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1_1.GetBounds
 title: GetBounds function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the bounds of the geometry.
 old-location: direct2d\id2d1geometry_getbounds.htm
 old-project: Direct2D
 ms.assetid: 3932189a-7c6b-4144-9d4a-32d2aba70835
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: GetBounds, GetBounds methods [Direct2D], ID2D1Geometry::GetBounds, d2d1_1/GetBounds, direct2d.id2d1geometry_getbounds
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_1.h
 req.include-header: 

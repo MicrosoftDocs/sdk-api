@@ -1,16 +1,16 @@
 ---
 UID: NF:gamingtcui.TryCancelPendingGameUI
 title: TryCancelPendingGameUI function
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\trycancelpendinggameui.htm
 old-project: tcui
 ms.assetid: 620159FC-AC62-4568-8354-D15BCAEEEEB2
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: TryCancelPendingGameUI, TryCancelPendingGameUI function, gamingtcui/TryCancelPendingGameUI, tcui.trycancelpendinggameui
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: gamingtcui.h
 req.include-header: 

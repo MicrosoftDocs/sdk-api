@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.ICEnroll2.put_EnableT61DNEncoding
 title: ICEnroll2::put_EnableT61DNEncoding
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnableT61DNEncoding property of ICEnroll4 sets or retrieves a Boolean value that determines whether the distinguished name in the request is encoded as a T61 string instead of as a Unicode string.
 old-location: security\icenroll4_enablet61dnencoding.htm
 old-project: SecCrypto
 ms.assetid: ff8fe103-0303-4f40-af25-efa50155c36f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CEnroll object [Security],EnableT61DNEncoding property, EnableT61DNEncoding property [Security], EnableT61DNEncoding property [Security],CEnroll object, EnableT61DNEncoding property [Security],ICEnroll2 interface, EnableT61DNEncoding property [Security],ICEnroll3 interface, EnableT61DNEncoding property [Security],ICEnroll4 interface, ICEnroll2 interface [Security],EnableT61DNEncoding property, ICEnroll2.EnableT61DNEncoding, ICEnroll2.put_EnableT61DNEncoding, ICEnroll2::get_EnableT61DNEncoding, ICEnroll2::put_EnableT61DNEncoding, ICEnroll3 interface [Security],EnableT61DNEncoding property, ICEnroll3.EnableT61DNEncoding, ICEnroll3::get_EnableT61DNEncoding, ICEnroll3::put_EnableT61DNEncoding, ICEnroll4 interface [Security],EnableT61DNEncoding property, ICEnroll4.EnableT61DNEncoding, ICEnroll4::EnableT61DNEncoding, ICEnroll4::get_EnableT61DNEncoding, ICEnroll4::put_EnableT61DNEncoding, put_EnableT61DNEncoding, security.icenroll4_enablet61dnencoding, xenroll/ICEnroll2::EnableT61DNEncoding, xenroll/ICEnroll2::get_EnableT61DNEncoding, xenroll/ICEnroll2::put_EnableT61DNEncoding, xenroll/ICEnroll3::EnableT61DNEncoding, xenroll/ICEnroll3::get_EnableT61DNEncoding, xenroll/ICEnroll3::put_EnableT61DNEncoding, xenroll/ICEnroll4::EnableT61DNEncoding, xenroll/ICEnroll4::get_EnableT61DNEncoding, xenroll/ICEnroll4::put_EnableT61DNEncoding
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

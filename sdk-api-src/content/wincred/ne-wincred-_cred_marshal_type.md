@@ -1,16 +1,16 @@
 ---
 UID: NE:wincred._CRED_MARSHAL_TYPE
 title: "_CRED_MARSHAL_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the types of credential to be marshaled by CredMarshalCredential or unmarshaled by CredUnmarshalCredential.
 old-location: security\cred_marshal_type.htm
 old-project: SecAuthN
 ms.assetid: 612fdd6f-2b4c-4f41-a00b-250f90eb85d3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PCRED_MARSHAL_TYPE, CRED_MARSHAL_TYPE, CRED_MARSHAL_TYPE enumeration [Security], CertCredential, PCRED_MARSHAL_TYPE, PCRED_MARSHAL_TYPE enumeration pointer [Security], UsernameTargetCredential, _CRED_MARSHAL_TYPE, _cred_cred_marshal_type, security.cred_marshal_type, wincred/CRED_MARSHAL_TYPE, wincred/CertCredential, wincred/PCRED_MARSHAL_TYPE, wincred/UsernameTargetCredential"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincred.h
 req.include-header: 

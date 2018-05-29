@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMTuner
 title: IAMTuner
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMTuner interface controls a TV tuner.
 old-location: dshow\iamtuner.htm
 old-project: DirectShow
 ms.assetid: 997d39c5-a1a5-4d2d-8704-9846f149712c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMTuner, IAMTuner interface [DirectShow], IAMTuner interface [DirectShow],described, IAMTunerInterface, dshow.iamtuner, strmif/IAMTuner
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

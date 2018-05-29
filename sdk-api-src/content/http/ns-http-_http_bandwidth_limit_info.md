@@ -1,16 +1,16 @@
 ---
 UID: NS:http._HTTP_BANDWIDTH_LIMIT_INFO
 title: "_HTTP_BANDWIDTH_LIMIT_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The HTTP_BANDWIDTH_LIMIT_INFO structure is used to set or query the bandwidth throttling limit. This structure must be used when setting or querying the HttpServerBandwidthProperty on a URL Group or server session.
 old-location: http\http_bandwidth_limit_info.htm
 old-project: Http
 ms.assetid: 34c85ecf-1eb4-4f0d-a081-4b9feeb8dd15
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_BANDWIDTH_LIMIT_INFO, *PHTTP_BANDWIDTH_LIMIT_INFO structure [HTTP], HTTP_BANDWIDTH_LIMIT_INFO, HTTP_BANDWIDTH_LIMIT_INFO structure [HTTP], _HTTP_BANDWIDTH_LIMIT_INFO, http.http_bandwidth_limit_info, http/*PHTTP_BANDWIDTH_LIMIT_INFO, http/HTTP_BANDWIDTH_LIMIT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 

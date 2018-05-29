@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMCrossbar.get_IsRoutedTo
 title: IAMCrossbar::get_IsRoutedTo
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_IsRoutedTo method retrieves the input pin that is currently routed to the specified output pin.
 old-location: dshow\iamcrossbar_get_isroutedto.htm
 old-project: DirectShow
 ms.assetid: fbd59205-ef0a-4e1c-b9d3-63a083c0a7f6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMCrossbar interface [DirectShow],get_IsRoutedTo method, IAMCrossbar.get_IsRoutedTo, IAMCrossbar::get_IsRoutedTo, IAMCrossbarget_IsRoutedTo, dshow.iamcrossbar_get_isroutedto, get_IsRoutedTo, get_IsRoutedTo method [DirectShow], get_IsRoutedTo method [DirectShow],IAMCrossbar interface, strmif/IAMCrossbar::get_IsRoutedTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsDeleteOps
 title: IADsDeleteOps
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsDeleteOps interface specifies a method an object can use to delete itself from the underlying directory. For a container object, the method deletes its children and the entire subtree.
 old-location: adsi\iadsdeleteops.htm
 old-project: ADSI
 ms.assetid: 329d7061-9aa2-4f4e-a0ec-a0cbb1d231f5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsDeleteOps, IADsDeleteOps interface [ADSI], IADsDeleteOps interface [ADSI],described, _ds_iadsdeleteops, adsi.iadsdeleteops, iads/IADsDeleteOps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

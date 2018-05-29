@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnStartEditTransaction
 title: ITextStoreAnchorSink::OnStartEditTransaction
-author: windows-driver-content
+author: windows-sdk-content
 description: ITextStoreAnchorSink::OnStartEditTransaction method
 old-location: tsf\itextstoreanchorsink_onstartedittransaction.htm
 old-project: TSF
 ms.assetid: 9e86d767-8ace-4bd0-af12-2139814b4e44
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnStartEditTransaction method, ITextStoreAnchorSink.OnStartEditTransaction, ITextStoreAnchorSink::OnStartEditTransaction, OnStartEditTransaction, OnStartEditTransaction method [Text Services Framework], OnStartEditTransaction method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onstartedittransaction_ref, textstor/ITextStoreAnchorSink::OnStartEditTransaction, tsf.itextstoreanchorsink_onstartedittransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

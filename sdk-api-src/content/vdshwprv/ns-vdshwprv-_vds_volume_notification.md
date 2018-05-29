@@ -1,16 +1,16 @@
 ---
 UID: NS:vdshwprv._VDS_VOLUME_NOTIFICATION
 title: "_VDS_VOLUME_NOTIFICATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the details of volume events.
 old-location: base\vds_volume_notification.htm
 old-project: VDS
 ms.assetid: 0aea3de4-60b1-4452-a5f1-f3556e719e09
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_NF_VOLUME_ARRIVE, VDS_NF_VOLUME_DEPART, VDS_NF_VOLUME_MODIFY, VDS_NF_VOLUME_REBUILDING_PROGRESS, VDS_VOLUME_NOTIFICATION, VDS_VOLUME_NOTIFICATION structure [VDS], _VDS_VOLUME_NOTIFICATION, base.vds_volume_notification, vds/_VDS_VOLUME_NOTIFICATION, vdshwprv/_VDS_VOLUME_NOTIFICATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

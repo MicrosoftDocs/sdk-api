@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_CIPHER_INFORMATION0_
 title: IPSEC_SA_CIPHER_INFORMATION0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores information about the encryption algorithm of an IPsec security association (SA).
 old-location: fwp\ipsec_sa_cipher_information0_struct.htm
 old-project: FWP
 ms.assetid: 2a5105ad-b77f-46b7-9a79-50514b88e7ce
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_SA_CIPHER_INFORMATION0, IPSEC_SA_CIPHER_INFORMATION0 structure [Filtering], IPSEC_SA_CIPHER_INFORMATION0_, fwp.ipsec_sa_cipher_information0_struct, ipsectypes/IPSEC_SA_CIPHER_INFORMATION0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

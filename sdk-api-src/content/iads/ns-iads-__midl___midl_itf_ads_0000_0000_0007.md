@@ -1,16 +1,16 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0007
 title: "__MIDL___MIDL_itf_ads_0000_0000_0007"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADS_TIMESTAMP structure is an ADSI representation of the Timestamp attribute syntax.
 old-location: adsi\ads_timestamp.htm
 old-project: ADSI
 ms.assetid: 3e416a9a-e444-43eb-9e59-e8e91ccac2d9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PADS_TIMESTAMP, ADS_TIMESTAMP, ADS_TIMESTAMP structure [ADSI], PADS_TIMESTAMP, PADS_TIMESTAMP structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0007, _ds_ads_timestamp, adsi.ads__timestamp, adsi.ads_timestamp, iads/ADS_TIMESTAMP, iads/PADS_TIMESTAMP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iads.h
 req.include-header: 

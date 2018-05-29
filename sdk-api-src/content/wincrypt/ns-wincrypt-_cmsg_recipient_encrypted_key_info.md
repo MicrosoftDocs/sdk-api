@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CMSG_RECIPIENT_ENCRYPTED_KEY_INFO
 title: "_CMSG_RECIPIENT_ENCRYPTED_KEY_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CMSG_RECIPIENT_ENCRYPTED_KEY_INFO structure contains information used for an individual key agreement recipient.
 old-location: security\cmsg_recipient_encrypted_key_info.htm
 old-project: SecCrypto
 ms.assetid: 1921f9b6-86d9-47a0-a36e-e20d481382a3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO, CMSG_RECIPIENT_ENCRYPTED_KEY_INFO, CMSG_RECIPIENT_ENCRYPTED_KEY_INFO structure [Security], PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO, PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO structure pointer [Security], _CMSG_RECIPIENT_ENCRYPTED_KEY_INFO, _crypto2_cmsg_recipient_encrypted_key_info, security.cmsg_recipient_encrypted_key_info, wincrypt/CMSG_RECIPIENT_ENCRYPTED_KEY_INFO, wincrypt/PCMSG_RECIPIENT_ENCRYPTED_KEY_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

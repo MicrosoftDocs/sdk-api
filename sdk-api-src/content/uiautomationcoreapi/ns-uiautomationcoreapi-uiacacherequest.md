@@ -1,16 +1,16 @@
 ---
 UID: NS:uiautomationcoreapi.UiaCacheRequest
 title: UiaCacheRequest
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This structure is deprecated.  Contains information about a request to cache data about UI Automation elements.
 old-location: winauto\uiauto_UiaCacheRequestStruct.htm
 old-project: WinAuto
 ms.assetid: 426355e4-50ce-4189-824d-c2256903224c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaCacheRequest, UiaCacheRequest structure [Windows Accessibility], uiauto.uiauto_UiaCacheRequestStruct, uiauto_UiaCacheRequestStruct, uiautomationcoreapi/UiaCacheRequest, winauto.uiauto_UiaCacheRequestStruct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: uiautomationcoreapi.h
 req.include-header: 

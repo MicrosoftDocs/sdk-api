@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcomex.IFaxAccountSet
 title: IFaxAccountSet
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for fax account management, including adding, removing, and retrieving fax accounts.
 old-location: fax\_mfax_faxaccountset_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\faxinta_n_ifaxaccountset.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxAccountSet, IFaxAccountSet interface [Fax Service], IFaxAccountSet interface [Fax Service],described, _mfax_faxaccountset_cpp, fax._mfax_faxaccountset_cpp, faxcomex/IFaxAccountSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

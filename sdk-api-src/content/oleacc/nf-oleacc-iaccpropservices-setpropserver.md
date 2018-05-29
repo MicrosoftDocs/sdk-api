@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetPropServer
 title: IAccPropServices::SetPropServer
-author: windows-driver-content
+author: windows-sdk-content
 description: Servers use SetPropServer to specify a callback object to be used to annotate an array of properties for the accessible element.
 old-location: winauto\iaccpropservices_iaccpropservices__setpropserver.htm
 old-project: WinAuto
 ms.assetid: 15e43a38-4cb3-43ca-a0fc-28faf49057dc
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccPropServices interface [Windows Accessibility],SetPropServer method, IAccPropServices.SetPropServer, IAccPropServices::SetPropServer, SetPropServer, SetPropServer method [Windows Accessibility], SetPropServer method [Windows Accessibility],IAccPropServices interface, _msaa_IAccPropServices_SetPropServer, msaa.iaccpropservices_iaccpropservices__setpropserver, oleacc/IAccPropServices::SetPropServer, winauto.iaccpropservices_iaccpropservices__setpropserver
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.

@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.GetValues
 title: IPortableDeviceProperties::GetValues
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetValues method retrieves a list of specified properties from a specified object on a device.
 old-location: wpdsdk\iportabledeviceproperties_getvalues.htm
 old-project: wpd_sdk
 ms.assetid: 5f4ec65c-dd26-40d5-a9f8-a2175c3aa54c
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetValues, GetValues method [Windows Portable Devices SDK], GetValues method [Windows Portable Devices SDK],IPortableDeviceProperties interface, IPortableDeviceProperties interface [Windows Portable Devices SDK],GetValues method, IPortableDeviceProperties.GetValues, IPortableDeviceProperties::GetValues, IPortableDevicePropertiesGetValues, portabledeviceapi/IPortableDeviceProperties::GetValues, wpdsdk.iportabledeviceproperties_getvalues
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateInstantaneousVectorTransition
 title: IUIAnimationTransitionLibrary2::CreateInstantaneousVectorTransition
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instantaneous vector transition for each specified dimension.
 old-location: uianimation\iuianimationtransitionlibrary2_createinstantaneousvectortransition.htm
 old-project: UIAnimation
 ms.assetid: C4E97F25-85BD-4548-950D-06BD5E6C4831
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateInstantaneousVectorTransition, CreateInstantaneousVectorTransition method [Windows Animation], CreateInstantaneousVectorTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateInstantaneousVectorTransition method, IUIAnimationTransitionLibrary2.CreateInstantaneousVectorTransition, IUIAnimationTransitionLibrary2::CreateInstantaneousVectorTransition, uianimation.iuianimationtransitionlibrary2_createinstantaneousvectortransition, uianimation/IUIAnimationTransitionLibrary2::CreateInstantaneousVectorTransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

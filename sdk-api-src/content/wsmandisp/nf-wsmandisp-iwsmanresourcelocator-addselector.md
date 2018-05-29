@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.AddSelector
 title: IWSManResourceLocator::AddSelector
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a selector to the ResourceLocator object. The selector specifies a particular instance of a resource.
 old-location: winrm\iwsmanresourcelocator_addselector.htm
 old-project: WinRM
 ms.assetid: 2f6c1169-8e2a-4919-9a1a-856dbe41a9ce
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AddSelector, AddSelector method [Windows Remote Management], AddSelector method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],AddSelector method, IWSManResourceLocator.AddSelector, IWSManResourceLocator::AddSelector, winrm.iwsmanresourcelocator_addselector, wsmandisp/IWSManResourceLocator::AddSelector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

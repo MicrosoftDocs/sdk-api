@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertFindSubjectInCTL
 title: CertFindSubjectInCTL function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertFindSubjectInCTL function attempts to find the specified subject in a certificate trust list (CTL).
 old-location: security\certfindsubjectinctl.htm
 old-project: SecCrypto
 ms.assetid: e0c81531-e649-45bb-bafe-bced00c7b16a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CTL_ANY_SUBJECT_TYPE, CTL_CERT_SUBJECT_TYPE, CertFindSubjectInCTL, CertFindSubjectInCTL function [Security], _crypto2_certfindsubjectinctl, security.certfindsubjectinctl, wincrypt/CertFindSubjectInCTL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollectorSet.SetXml
 title: IDataCollectorSet::SetXml
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the property values of those properties included in the XML.
 old-location: pla\idatacollectorset_setxml.htm
 old-project: PLA
 ms.assetid: 10bffd54-990f-412f-baae-b8ab621b02b8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],SetXml method, IDataCollectorSet.SetXml, IDataCollectorSet::SetXml, SetXml, SetXml method [PLA], SetXml method [PLA],IDataCollectorSet interface, base.idatacollectorset_setxml, pla.idatacollectorset_setxml, pla/IDataCollectorSet::SetXml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

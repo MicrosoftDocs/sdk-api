@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidEVR.get_Presenter
 title: IMSVidEVR::get_Presenter
-author: windows-driver-content
+author: windows-sdk-content
 description: "."
 old-location: mstv\imsvidevr_get_presenter.htm
 old-project: mstv
 ms.assetid: d3b5e272-8c71-4e84-b08f-b277eec643c4
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],get_Presenter method, IMSVidEVR.get_Presenter, IMSVidEVR::get_Presenter, IMSVidEVRget_Presenter, get_Presenter, get_Presenter method [Microsoft TV Technologies], get_Presenter method [Microsoft TV Technologies],IMSVidEVR interface, mstv.imsvidevr_get_presenter, segment/IMSVidEVR::get_Presenter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.Wow64EnableWow64FsRedirection
 title: Wow64EnableWow64FsRedirection function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables file system redirection for the calling thread.
 old-location: fs\wow64enablewow64fsredirection.htm
 old-project: FileIO
 ms.assetid: 8d11a7ba-540d-4bd0-881a-a61605357dd8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Wow64EnableWow64FsRedirection, Wow64EnableWow64FsRedirection function [Files], base.wow64enablewow64fsredirection, fs.wow64enablewow64fsredirection, winbase/Wow64EnableWow64FsRedirection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

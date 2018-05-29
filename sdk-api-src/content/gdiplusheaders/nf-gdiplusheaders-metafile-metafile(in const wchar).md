@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Metafile.Metafile(IN const WCHAR)
 title: Metafile::Metafile(IN const WCHAR)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the constructors of the Metafile class. For a complete class listing, see Metafile Class.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Constructors.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Metafile, Metafile constructors [GDI+], Metafile.Metafile, Metafile.Metafile(IN const WCHAR), Metafile::Metafile, Metafile::Metafile(IN const WCHAR), _gdiplus_CLASS_Metafile_Constructors, gdiplus._gdiplus_CLASS_Metafile_Constructors, gdiplusheaders/Metafile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 

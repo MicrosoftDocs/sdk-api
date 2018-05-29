@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptEncrypt
 title: NCryptEncrypt function
-author: windows-driver-content
+author: windows-sdk-content
 description: Encrypts a block of data.
 old-location: security\ncryptencrypt_func.htm
 old-project: SecCNG
 ms.assetid: 837fc720-2167-4ead-86ea-2c3d438f2530
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCRYPT_NO_PADDING_FLAG, NCRYPT_PAD_OAEP_FLAG, NCRYPT_PAD_PKCS1_FLAG, NCRYPT_SILENT_FLAG, NCryptEncrypt, NCryptEncrypt function [Security], ncrypt/NCryptEncrypt, security.ncryptencrypt_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

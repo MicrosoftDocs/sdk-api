@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.SetEndOfLog
 title: SetEndOfLog function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function has been deprecated. Use TruncateLog instead.
 old-location: fs\setendoflog.htm
 old-project: Clfs
 ms.assetid: ef4f123f-3e1a-4082-93c7-f23783b1d45e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: SetEndOfLog, SetEndOfLog function [Files], clfsw32/SetEndOfLog, fs.setendoflog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

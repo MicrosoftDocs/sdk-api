@@ -1,16 +1,16 @@
 ---
 UID: NS:d3dcsx.D3DX11_FFT_DESC
 title: D3DX11_FFT_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an FFT.
 old-location: direct3d11\d3dx11_fft_desc.htm
 old-project: direct3d11
 ms.assetid: b410e7c4-3b16-4510-9555-fc8b22fd3e2c
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 68cda090-9f5e-c349-40c7-a6e3b2bd2960, D3DX11_FFT_DESC, D3DX11_FFT_DESC structure [Direct3D 11], d3dcsx/D3DX11_FFT_DESC, direct3d11.d3dx11_fft_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3dcsx.h
 req.include-header: 

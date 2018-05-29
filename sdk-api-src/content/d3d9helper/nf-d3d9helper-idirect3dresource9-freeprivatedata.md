@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DResource9.FreePrivateData
 title: IDirect3DResource9::FreePrivateData
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the specified private data associated with this resource.
 old-location: direct3d9\idirect3dresource9__freeprivatedata.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__freeprivatedata.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: FreePrivateData, FreePrivateData method [Direct3D 9], FreePrivateData method [Direct3D 9],IDirect3DResource9 interface, IDirect3DResource9 interface [Direct3D 9],FreePrivateData method, IDirect3DResource9.FreePrivateData, IDirect3DResource9::FreePrivateData, d3d9helper/IDirect3DResource9::FreePrivateData, direct3d9.idirect3dresource9__freeprivatedata, e283eb7c-b7c9-110d-2b8b-1966dc1dc914
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfSourceSingle.UnadviseSingleSink
 title: ITfSourceSingle::UnadviseSingleSink
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfSourceSingle::UnadviseSingleSink method
 old-location: tsf\itfsourcesingle_unadvisesinglesink.htm
 old-project: TSF
 ms.assetid: 1689dedb-c168-4a05-b598-517c87d9afbd
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IID_ITfCleanupContextDurationSink, IID_ITfCleanupContextSink, IID_ITfFunctionProvider, ITfSourceSingle interface [Text Services Framework],UnadviseSingleSink method, ITfSourceSingle.UnadviseSingleSink, ITfSourceSingle::UnadviseSingleSink, UnadviseSingleSink, UnadviseSingleSink method [Text Services Framework], UnadviseSingleSink method [Text Services Framework],ITfSourceSingle interface, _tsf_itfsourcesingle_unadvisesinglesink_ref, msctf/ITfSourceSingle::UnadviseSingleSink, tsf.itfsourcesingle_unadvisesinglesink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

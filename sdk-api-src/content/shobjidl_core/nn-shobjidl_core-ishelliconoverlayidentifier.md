@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IShellIconOverlayIdentifier
 title: IShellIconOverlayIdentifier
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that handle all communication between icon overlay handlers and the Shell.
 old-location: shell\IShellIconOverlayIdentifier.htm
 old-project: shell
 ms.assetid: c093bc13-def7-411d-b741-50996ffad84b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellIconOverlayIdentifier, IShellIconOverlayIdentifier interface [Windows Shell], IShellIconOverlayIdentifier interface [Windows Shell],described, _win32_IShellIconOverlayIdentifier, shell.IShellIconOverlayIdentifier, shobjidl_core/IShellIconOverlayIdentifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h

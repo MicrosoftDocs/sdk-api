@@ -1,16 +1,16 @@
 ---
 UID: NS:msime._POSTBL
 title: "_POSTBL"
-author: windows-driver-content
+author: windows-sdk-content
 description: An entry in the public POS (Part of Speech) table.
 old-location: intl\postbl.htm
 old-project: Intl
 ms.assetid: CA6A4E71-651A-44CA-B47D-79888A36BB12
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: POSTBL, POSTBL structure [Internationalization for Windows Applications], PPOSTBL, PPOSTBL structure pointer [Internationalization for Windows Applications], _POSTBL, intl.postbl, msime/POSTBL, msime/PPOSTBL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msime.h
 req.include-header: 

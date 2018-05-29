@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITSubStreamControl.get_SubStreams
 title: ITSubStreamControl::get_SubStreams
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_SubStreams method creates a collection of substreams currently available. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateSubStreams method.
 old-location: tapi3\itsubstreamcontrol_get_substreams.htm
 old-project: Tapi
 ms.assetid: 1ea7dca0-9a0b-4966-83ba-0d1f6c5e5ccb
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITSubStreamControl interface [TAPI 2.2],get_SubStreams method, ITSubStreamControl.get_SubStreams, ITSubStreamControl::get_SubStreams, _tapi3_itsubstreamcontrol_get_substreams, get_SubStreams, get_SubStreams method [TAPI 2.2], get_SubStreams method [TAPI 2.2],ITSubStreamControl interface, tapi3.itsubstreamcontrol_get_substreams, tapi3if/ITSubStreamControl::get_SubStreams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

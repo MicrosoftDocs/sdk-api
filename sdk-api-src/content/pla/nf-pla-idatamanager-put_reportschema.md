@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataManager.put_ReportSchema
 title: IDataManager::put_ReportSchema
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the schema used to customize the report that the TraceRpt.exe application generates.
 old-location: pla\idatamanager_reportschema.htm
 old-project: PLA
 ms.assetid: 32620e9d-9541-4c39-9312-937b0b4825ad
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataManager interface [PLA],ReportSchema property, IDataManager.ReportSchema, IDataManager.put_ReportSchema, IDataManager::ReportSchema, IDataManager::get_ReportSchema, IDataManager::put_ReportSchema, ReportSchema property [PLA], ReportSchema property [PLA],IDataManager interface, pla.idatamanager_reportschema, pla/IDataManager::ReportSchema, pla/IDataManager::get_ReportSchema, pla/IDataManager::put_ReportSchema, put_ReportSchema
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

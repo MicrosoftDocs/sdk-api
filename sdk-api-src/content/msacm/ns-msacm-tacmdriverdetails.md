@@ -1,16 +1,16 @@
 ---
 UID: NS:msacm.tACMDRIVERDETAILS
 title: tACMDRIVERDETAILS
-author: windows-driver-content
+author: windows-sdk-content
 description: The ACMDRIVERDETAILS structure describes the features of an ACM driver.
 old-location: multimedia\acmdriverdetails_struct.htm
 old-project: Multimedia
 ms.assetid: b45b26e2-a9c0-4d01-9989-a071d9c73993
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPACMDRIVERDETAILS, *PACMDRIVERDETAILS, ACMDRIVERDETAILS, ACMDRIVERDETAILS structure [Windows Multimedia], ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_DISABLED, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMDRIVERDETAILS_SUPPORTF_LOCAL, msacm/ACMDRIVERDETAILS, multimedia.acmdriverdetails_COLLISION566, multimedia.acmdriverdetails_struct, tACMDRIVERDETAILS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msacm.h
 req.include-header: 

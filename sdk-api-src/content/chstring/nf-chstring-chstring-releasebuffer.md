@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.ReleaseBuffer
 title: CHString::ReleaseBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Ends the use of a buffer allocated by GetBuffer.
 old-location: wmi\chstring_releasebuffer.htm
 old-project: WmiSdk
 ms.assetid: 55de2960-8a71-48cc-862b-7cf9a4edf8ea
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?ReleaseBuffer@CHString@@QAEXH@Z, ?ReleaseBuffer@CHString@@QEAAXH@Z, CHString interface [Windows Management Instrumentation],ReleaseBuffer method, CHString.ReleaseBuffer, CHString::ReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [Windows Management Instrumentation], ReleaseBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_releasebuffer, chstring/CHString::ReleaseBuffer, wmi.chstring_releasebuffer"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

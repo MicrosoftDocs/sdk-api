@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IVideoWindow.get_FullScreenMode
 title: IVideoWindow::get_FullScreenMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_FullScreenMode method queries whether the video renderer is in full-screen mode.
 old-location: dshow\ivideowindow_get_fullscreenmode.htm
 old-project: DirectShow
 ms.assetid: 742587c7-545a-4c5f-bff1-511ed6d0b1d5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_FullScreenMode method, IVideoWindow.get_FullScreenMode, IVideoWindow::get_FullScreenMode, IVideoWindowget_FullScreenMode, control/IVideoWindow::get_FullScreenMode, dshow.ivideowindow_get_fullscreenmode, get_FullScreenMode, get_FullScreenMode method [DirectShow], get_FullScreenMode method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

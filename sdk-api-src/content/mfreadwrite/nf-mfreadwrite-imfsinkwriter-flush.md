@@ -1,16 +1,16 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.Flush
 title: IMFSinkWriter::Flush
-author: windows-driver-content
+author: windows-sdk-content
 description: Flushes one or more streams.
 old-location: mf\imfsinkwriter_flush.htm
 old-project: medfound
 ms.assetid: 997235cb-6ca5-434c-81a6-7a294e0cccca
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],Flush method, IMFSinkWriter.Flush, IMFSinkWriter::Flush, mf.imfsinkwriter_flush, mfreadwrite/IMFSinkWriter::Flush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

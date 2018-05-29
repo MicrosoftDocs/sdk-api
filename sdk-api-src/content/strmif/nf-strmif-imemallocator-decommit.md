@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMemAllocator.Decommit
 title: IMemAllocator::Decommit
-author: windows-driver-content
+author: windows-sdk-content
 description: The Decommit method releases the buffer memory.
 old-location: dshow\imemallocator_decommit.htm
 old-project: DirectShow
 ms.assetid: 2c1211c1-e047-4240-b85a-9be0a9290d31
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Decommit, Decommit method [DirectShow], Decommit method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],Decommit method, IMemAllocator.Decommit, IMemAllocator::Decommit, IMemAllocatorDecommit, dshow.imemallocator_decommit, strmif/IMemAllocator::Decommit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

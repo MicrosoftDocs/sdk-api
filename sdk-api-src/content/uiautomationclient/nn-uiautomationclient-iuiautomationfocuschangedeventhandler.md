@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationFocusChangedEventHandler
 title: IUIAutomationFocusChangedEventHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method to handle events that are raised when the keyboard focus moves to another UI Automation element.
 old-location: winauto\uiauto_IUIAutomationFocusChangedEventHandler.htm
 old-project: WinAuto
 ms.assetid: 5dcc6ab0-02c1-4168-96f1-a71a00268527
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationFocusChangedEventHandler, IUIAutomationFocusChangedEventHandler interface [Windows Accessibility], IUIAutomationFocusChangedEventHandler interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationFocusChangedEventHandler, uiauto_IUIAutomationFocusChangedEventHandler, uiautomationclient/IUIAutomationFocusChangedEventHandler, winauto.uiauto_IUIAutomationFocusChangedEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

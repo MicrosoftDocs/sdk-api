@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_STOP_RESOURCE_SERVICE
 title: PRESUTIL_STOP_RESOURCE_SERVICE
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops a named service. The PRESUTIL_STOP_RESOURCE_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilstopresourceservice.htm
 old-project: MsCS
 ms.assetid: 25e8417d-d314-4987-bdb2-7740793e4ac2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_STOP_RESOURCE_SERVICE, PRESUTIL_STOP_RESOURCE_SERVICE callback, PRESUTIL_STOP_RESOURCE_SERVICE callback function [Failover Cluster], _wolf_resutilstopresourceservice, mscs.resutilstopresourceservice, resapi/PRESUTIL_STOP_RESOURCE_SERVICE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

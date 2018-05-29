@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMPacketSize2.SetMinPacketSize
 title: IWMPacketSize2::SetMinPacketSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetMinPacketSize method sets the minimum packet size for files created with the profile. This method cannot be called from an interface belonging to a reader or synchronous reader object.
 old-location: wmformat\iwmpacketsize2_setminpacketsize.htm
 old-project: wmformat
 ms.assetid: 6d58da65-710c-46ea-8fb9-9d161df06483
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMPacketSize2 interface [windows Media Format],SetMinPacketSize method, IWMPacketSize2.SetMinPacketSize, IWMPacketSize2::SetMinPacketSize, IWMPacketSize2SetMinPacketSize, SetMinPacketSize, SetMinPacketSize method [windows Media Format], SetMinPacketSize method [windows Media Format],IWMPacketSize2 interface, wmformat.iwmpacketsize2_setminpacketsize, wmsdkidl/IWMPacketSize2::SetMinPacketSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

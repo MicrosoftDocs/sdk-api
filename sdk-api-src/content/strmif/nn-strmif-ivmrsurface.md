@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IVMRSurface
 title: IVMRSurface
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRSurface interface is implemented on the media samples used by the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrsurface.htm
 old-project: DirectShow
 ms.assetid: 8222ea5c-be77-4f33-83ff-073fb3e85e73
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRSurface, IVMRSurface interface [DirectShow], IVMRSurface interface [DirectShow],described, IVMRSurfaceInterface, dshow.ivmrsurface, strmif/IVMRSurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

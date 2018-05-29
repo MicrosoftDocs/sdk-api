@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemClick
 title: INameSpaceTreeControlEvents::OnItemClick
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the user clicks a button on the mouse.
 old-location: shell\INameSpaceTreeControlEvents_OnItemClick.htm
 old-project: shell
 ms.assetid: a595ffd0-edc6-4726-b7b2-ad1aed9e9701
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnItemClick method, INameSpaceTreeControlEvents.OnItemClick, INameSpaceTreeControlEvents::OnItemClick, NSTCECT_BUTTON, NSTCECT_DBLCLICK, NSTCECT_LBUTTON, NSTCECT_MBUTTON, NSTCECT_RBUTTON, NSTCEHT_NOWHERE, NSTCEHT_ONITEM, NSTCEHT_ONITEMBUTTON, NSTCEHT_ONITEMICON, NSTCEHT_ONITEMINDENT, NSTCEHT_ONITEMLABEL, NSTCEHT_ONITEMRIGHT, NSTCEHT_ONITEMSTATEICON, NSTCEHT_ONITEMTABBUTTON, OnItemClick, OnItemClick method [Windows Shell], OnItemClick method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnItemClick, shell.INameSpaceTreeControlEvents_OnItemClick, shobjidl/INameSpaceTreeControlEvents::OnItemClick
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsGetHeaderAttributes
 title: WsGetHeaderAttributes function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function populates a ULONG parameter with the WS_HEADER_ATTRIBUTES from the header element on which the reader is positioned. The envelope version of the message is used to determine which attributes to return.
 old-location: wsw\wsgetheaderattributes.htm
 old-project: wsw
 ms.assetid: 323178d4-6bc9-4b5e-bd3d-b36972720cd7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsGetHeaderAttributes, WsGetHeaderAttributes function [Web Services for Windows], webservices/WsGetHeaderAttributes, wsw.wsgetheaderattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

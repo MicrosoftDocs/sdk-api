@@ -1,16 +1,16 @@
 ---
 UID: NF:libloaderapi2.QueryOptionalDelayLoadedAPI
 title: QueryOptionalDelayLoadedAPI function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the specified function in a delay-loaded DLL is available on the system.
 old-location: base\queryoptionaldelayloadedapi.htm
 old-project: Dlls
 ms.assetid: 43690689-4372-48ae-ac6d-230250f05f7c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: QueryOptionalDelayLoadedAPI, QueryOptionalDelayLoadedAPI function, base.queryoptionaldelayloadedapi, libloaderapi2/QueryOptionalDelayLoadedAPI
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: libloaderapi2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.TileVertically
 title: IShellDispatch::TileVertically
-author: windows-driver-content
+author: windows-sdk-content
 description: Tiles all of the windows on the desktop vertically. This method has the same effect as right-clicking the taskbar and selecting Show windows side by side.
 old-location: shell\IShellDispatch_TileVertically.htm
 old-project: shell
 ms.assetid: 63CB7E20-48E6-4cfe-B0BA-0D28A7B151BD
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],TileVertically method, IShellDispatch.TileVertically, IShellDispatch::TileVertically, TileVertically, TileVertically method [Windows Shell], TileVertically method [Windows Shell],IShellDispatch object, shell.IShellDispatch_TileVertically
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

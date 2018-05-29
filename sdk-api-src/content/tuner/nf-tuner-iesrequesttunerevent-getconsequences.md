@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESRequestTunerEvent.GetConsequences
 title: IESRequestTunerEvent::GetConsequences
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a code that indicates the consequences of a device request for exclusive access to a tuner and its Conditional Access Services (CAS).
 old-location: mstv\iesrequesttunerevent_getconsequences.htm
 old-project: mstv
 ms.assetid: 39588da7-90e7-4544-b53c-0f0ddb6cd951
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetConsequences, GetConsequences method [Microsoft TV Technologies], GetConsequences method [Microsoft TV Technologies],IESRequestTunerEvent interface, IESRequestTunerEvent interface [Microsoft TV Technologies],GetConsequences method, IESRequestTunerEvent.GetConsequences, IESRequestTunerEvent::GetConsequences, mstv.iesrequesttunerevent_getconsequences, tuner/IESRequestTunerEvent::GetConsequences
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

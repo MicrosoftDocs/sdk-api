@@ -1,16 +1,16 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0010
 title: "__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0010"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of automatic actions a WDS transport server, running on Windows Server 2008 R2, should use to handle a client computer that is slowing the multicast transmission.
 old-location: wds\wdstransport_slow_client_handling_type.htm
 old-project: Wds
 ms.assetid: e15e67c3-ad39-4504-bd38-1b291082d196
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE enumeration [Windows Deployment Services], WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE,*PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE,*PWDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE enumeration [Windows Deployment Services], WdsTptSlowClientHandlingAutoDisconnect, WdsTptSlowClientHandlingMultistream, WdsTptSlowClientHandlingNone, WdsTptSlowClientHandlingUnknown, __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0010, wds.wdstransport_slow_client_handling_type, wdstptmgmt/WDSTRANSPORT_SLOW_CLIENT_HANDLING_TYPE, wdstptmgmt/WdsTptSlowClientHandlingAutoDisconnect, wdstptmgmt/WdsTptSlowClientHandlingMultistream, wdstptmgmt/WdsTptSlowClientHandlingNone, wdstptmgmt/WdsTptSlowClientHandlingUnknown"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wdstptmgmt.h
 req.include-header: 

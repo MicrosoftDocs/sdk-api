@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetDocumentation
 title: ITypeInfo::GetDocumentation
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the documentation string, the complete Help file name and path, and the context ID for the Help topic for a specified type description.
 old-location: automat\itypeinfo_getdocumentation.htm
 old-project: automat
 ms.assetid: 64d2cb0c-d0ca-499b-b089-44525f7f9749
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetDocumentation, GetDocumentation method [Automation], GetDocumentation method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetDocumentation method, ITypeInfo.GetDocumentation, ITypeInfo::GetDocumentation, _oa96_ITypeInfo_GetDocumentation, automat.itypeinfo_getdocumentation, oaidl/ITypeInfo::GetDocumentation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

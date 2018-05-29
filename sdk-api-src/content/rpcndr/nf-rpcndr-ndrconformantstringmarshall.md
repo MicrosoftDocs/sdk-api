@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrConformantStringMarshall
 title: NdrConformantStringMarshall function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrConformantStringMarshall function marshals the conformant string into a network buffer to be sent to the server.
 old-location: rpc\ndrconformantstringmarshall.htm
 old-project: Rpc
 ms.assetid: d2e323fb-2bb2-4c6c-8f26-fc7e19c7fea7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrConformantStringMarshall, NdrConformantStringMarshall function [RPC], rpc.ndrconformantstringmarshall, rpcndr/NdrConformantStringMarshall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

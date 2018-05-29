@@ -1,16 +1,16 @@
 ---
 UID: NS:wcmapi.WCM_BILLING_CYCLE_INFO
 title: WCM_BILLING_CYCLE_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies information about the billing cycle.
 old-location: wcm\wcm_billing_cycle_info.htm
 old-project: wcm
 ms.assetid: 5cfcdfb7-aa33-4582-ba17-e1a305b830f5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WCM_BILLING_CYCLE_INFO, WCM_BILLING_CYCLE_INFO structure [Windows Connection Manager], wcm.wcm_billing_cycle_info, wcmapi/WCM_BILLING_CYCLE_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcmapi.h
 req.include-header: 

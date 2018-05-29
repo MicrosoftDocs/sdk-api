@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetLastPrinted
 title: IXpsOMCoreProperties::GetLastPrinted
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the lastPrinted property.
 old-location: xps\ixpsomcoreproperties_getlastprinted.htm
 old-project: printdocs
 ms.assetid: c7e4b994-ec4f-415d-a340-813f00adba19
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetLastPrinted, GetLastPrinted method [XPS Documents and Packaging], GetLastPrinted method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetLastPrinted method, IXpsOMCoreProperties.GetLastPrinted, IXpsOMCoreProperties::GetLastPrinted, xps.ixpsomcoreproperties_getlastprinted, xpsobjectmodel/IXpsOMCoreProperties::GetLastPrinted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

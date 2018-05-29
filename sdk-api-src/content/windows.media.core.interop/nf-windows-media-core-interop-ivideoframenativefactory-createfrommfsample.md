@@ -1,16 +1,16 @@
 ---
 UID: NF:windows.media.core.interop.IVideoFrameNativeFactory.CreateFromMFSample
 title: IVideoFrameNativeFactory::core
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IVideoFrameNative from the provided IMFSample.
 old-location: winrt\ivideoframenativefactory_createfrommfsample.htm
 old-project: WinRT
 ms.assetid: EE925680-42A1-4C7E-A39D-15EA93F11FA1
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: CreateFromMFSample, CreateFromMFSample method [Windows Runtime], CreateFromMFSample method [Windows Runtime],IVideoFrameNativeFactory interface, IVideoFrameNativeFactory interface [Windows Runtime],CreateFromMFSample method, IVideoFrameNativeFactory.CreateFromMFSample, IVideoFrameNativeFactory.core, IVideoFrameNativeFactory::CreateFromMFSample, IVideoFrameNativeFactory::core, windows/IVideoFrameNativeFactory::CreateFromMFSample, winrt.ivideoframenativefactory_createfrommfsample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: windows.media.core.interop.h
 req.include-header: 

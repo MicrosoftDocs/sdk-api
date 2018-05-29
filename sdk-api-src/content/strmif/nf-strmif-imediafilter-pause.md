@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMediaFilter.Pause
 title: IMediaFilter::Pause
-author: windows-driver-content
+author: windows-sdk-content
 description: The Pause method pauses the filter.
 old-location: dshow\imediafilter_pause.htm
 old-project: DirectShow
 ms.assetid: 0dbd79be-8f44-4bac-b117-03e6316693f8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IBaseFilter interface [DirectShow],Pause method, IBaseFilter::Pause, IMediaFilter interface [DirectShow],Pause method, IMediaFilter.Pause, IMediaFilter::Pause, IMediaFilterPause, Pause, Pause method [DirectShow], Pause method [DirectShow],IBaseFilter interface, Pause method [DirectShow],IMediaFilter interface, dshow.imediafilter_pause, strmif/IBaseFilter::Pause, strmif/IMediaFilter::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GetContextFlags
 title: ID3D11DeviceContext::GetContextFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the initialization flags associated with the current deferred context.
 old-location: direct3d11\id3d11devicecontext_getcontextflags.htm
 old-project: direct3d11
 ms.assetid: 063fbcaf-2216-4090-a4cb-79091ed9b87a
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 6f9bf33e-cbe5-0def-cecd-cb59d7e3a8f4, GetContextFlags, GetContextFlags method [Direct3D 11], GetContextFlags method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GetContextFlags method, ID3D11DeviceContext.GetContextFlags, ID3D11DeviceContext::GetContextFlags, d3d11/ID3D11DeviceContext::GetContextFlags, direct3d11.id3d11devicecontext_getcontextflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

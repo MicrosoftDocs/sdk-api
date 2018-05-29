@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetFileName
 title: IESLicenseRenewalResultEvent::GetFileName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the file name for the license to renew from a LicenseRenewalResult event.
 old-location: mstv\ieslicenserenewalresultevent_getfilename.htm
 old-project: mstv
 ms.assetid: 6ef49a38-c005-4731-a1cb-d5a63ea94e71
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFileName, GetFileName method [DirectShow], GetFileName method [DirectShow],IESLicenseRenewalResultEvent interface, IESLicenseRenewalResultEvent interface [DirectShow],GetFileName method, IESLicenseRenewalResultEvent.GetFileName, IESLicenseRenewalResultEvent::GetFileName, mstv.ieslicenserenewalresultevent_getfilename, tuner/IESLicenseRenewalResultEvent::GetFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

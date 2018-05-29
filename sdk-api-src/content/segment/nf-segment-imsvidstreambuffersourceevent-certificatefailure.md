@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.CertificateFailure
 title: IMSVidStreamBufferSourceEvent::CertificateFailure
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_certificatefailure.htm
 old-project: mstv
 ms.assetid: 10621576-65d0-46c1-8817-a96ee3822518
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CertificateFailure, CertificateFailure method [Microsoft TV Technologies], CertificateFailure method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],CertificateFailure method, IMSVidStreamBufferSourceEvent.CertificateFailure, IMSVidStreamBufferSourceEvent::CertificateFailure, IMSVidStreamBufferSourceEventCertificateFailure, mstv.imsvidstreambuffersourceevent_certificatefailure, segment/IMSVidStreamBufferSourceEvent::CertificateFailure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

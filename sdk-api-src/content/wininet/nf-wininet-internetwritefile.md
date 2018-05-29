@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetWriteFile
 title: InternetWriteFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes data to an open Internet file.
 old-location: wininet\internetwritefile.htm
 old-project: WinInet
 ms.assetid: 3bf8d4d8-9193-4aed-acf9-8d7207b332a5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetWriteFile, InternetWriteFile function [WinINet], _inet_internetwritefile_function, wininet.internetwritefile, wininet/InternetWriteFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

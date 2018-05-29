@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcBindingInqAuthInfoW
 title: RpcBindingInqAuthInfoW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcBindingInqAuthInfo function returns authentication and authorization information from a binding handle.
 old-location: rpc\rpcbindinginqauthinfo.htm
 old-project: Rpc
 ms.assetid: becb2c58-bfc7-47a7-ad2f-947ecf7bba2b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcBindingInqAuthInfo, RpcBindingInqAuthInfo function [RPC], RpcBindingInqAuthInfoA, RpcBindingInqAuthInfoW, _rpc_rpcbindinginqauthinfo, rpc.rpcbindinginqauthinfo, rpcdce/RpcBindingInqAuthInfo, rpcdce/RpcBindingInqAuthInfoA, rpcdce/RpcBindingInqAuthInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

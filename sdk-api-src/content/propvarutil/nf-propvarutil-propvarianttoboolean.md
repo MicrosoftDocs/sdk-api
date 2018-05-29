@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToBoolean
 title: PropVariantToBoolean function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a Boolean property value of a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\PropVariantToBoolean.htm
 old-project: properties
 ms.assetid: 74b9a388-8342-46e3-ac5e-b7c99e8f8f00
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToBoolean, PropVariantToBoolean function [Windows Properties], properties.PropVariantToBoolean, propvarutil/PropVariantToBoolean, shell.PropVariantToBoolean, shell_PropVariantToBoolean
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

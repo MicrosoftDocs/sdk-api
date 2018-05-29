@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_TiffTagString
 title: IFaxTiff::get_TiffTagString
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the TiffTagString property for a FaxTiff object. The TiffTagString property is a null-terminated string that contains the value of a specified Tagged Image File Format (TIFF) tag (field).
 old-location: fax\_mfax_ifaxtiff_get_tifftagstring_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1pif.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxTiff object [Fax Service],TiffTagString property, FaxTiff.TiffTagString, IFaxTiff.get_TiffTagString, IFaxTiff::get_TiffTagString, TiffTagString property [Fax Service], TiffTagString property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_tifftagstring, fax._mfax_ifaxtiff_get_tifftagstring, fax._mfax_ifaxtiff_get_tifftagstring_vb, get_TiffTagString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

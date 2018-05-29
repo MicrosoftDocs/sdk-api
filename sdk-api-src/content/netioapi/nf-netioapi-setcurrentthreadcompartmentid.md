@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.SetCurrentThreadCompartmentId
 title: SetCurrentThreadCompartmentId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for future use. Do not use this function.
 old-location: netvista\setcurrentthreadcompartmentid.htm
 old-project: netvista
 ms.assetid: 15c634b5-c621-430d-99d7-c55ad8b6864e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: SetCurrentThreadCompartmentId, SetCurrentThreadCompartmentId function [Network Drivers Starting with Windows Vista], iphelper_955bc56f-f531-4937-8175-288ec03ef9af.xml, netioapi/SetCurrentThreadCompartmentId, netvista.setcurrentthreadcompartmentid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: 

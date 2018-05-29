@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor.RemoveContent
 title: IDirectManipulationCompositor::RemoveContent
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes content from the compositor.
 old-location: directmanipulation\idirectmanipulationcompositor_removecontent.htm
 old-project: directmanipulation
 ms.assetid: 9bfb7fe4-abf9-4bb7-8d3f-673508053573
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationCompositor interface [Direct Manipulation],RemoveContent method, IDirectManipulationCompositor.RemoveContent, IDirectManipulationCompositor::RemoveContent, RemoveContent, RemoveContent method [Direct Manipulation], RemoveContent method [Direct Manipulation],IDirectManipulationCompositor interface, directmanipulation.idirectmanipulationcompositor_removecontent, directmanipulation/IDirectManipulationCompositor::RemoveContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

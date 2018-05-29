@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManagerEvents.OnConnectionProfileRemoval
 title: IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification method that indicates a connection profile has been removed from the system.
 old-location: mbn\imbnconnectionprofilemanagerevents_onconnectionprofileremoval.htm
 old-project: mbn
 ms.assetid: 30b8c7fb-5a48-4025-aa94-18f17e7c8d19
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnConnectionProfileManagerEvents interface [Microsoft Broadband Networks],OnConnectionProfileRemoval method, IMbnConnectionProfileManagerEvents.OnConnectionProfileRemoval, IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval, OnConnectionProfileRemoval, OnConnectionProfileRemoval method [Microsoft Broadband Networks], OnConnectionProfileRemoval method [Microsoft Broadband Networks],IMbnConnectionProfileManagerEvents interface, mbn.imbnconnectionprofilemanagerevents_onconnectionprofileremoval, mbnapi/IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.FindClose
 title: FindClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a file search handle opened by the FindFirstFile, FindFirstFileEx, FindFirstFileNameW, FindFirstFileNameTransactedW, FindFirstFileTransacted, FindFirstStreamTransactedW, or FindFirstStreamW functions.
 old-location: fs\findclose.htm
 old-project: FileIO
 ms.assetid: 64b3bc49-1e0e-4572-9d9f-936c45f5b01c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FindClose, FindClose function [Files], _win32_findclose, base.findclose, fileapi/FindClose, fs.findclose, winbase/FindClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

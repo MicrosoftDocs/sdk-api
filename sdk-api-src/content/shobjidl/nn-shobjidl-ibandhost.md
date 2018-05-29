@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IBandHost
 title: IBandHost
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that create and destroy bands and specifiy their availability.
 old-location: shell\IBandHost.htm
 old-project: shell
 ms.assetid: 8d9fe92a-812e-4fa0-954b-37aa48b52008
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBandHost, IBandHost interface [Windows Shell], IBandHost interface [Windows Shell],described, _shell_IBandHost, shell.IBandHost, shobjidl/IBandHost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

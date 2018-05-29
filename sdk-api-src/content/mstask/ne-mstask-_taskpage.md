@@ -1,16 +1,16 @@
 ---
 UID: NE:mstask._TASKPAGE
 title: "_TASKPAGE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the type of task page to be retrieved.
 old-location: taskschd\taskpage.htm
 old-project: TaskSchd
 ms.assetid: 6c822d4c-9d42-48a2-b378-06670acc39cf
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: TASKPAGE, TASKPAGE enumeration [Task Scheduler], TASKPAGE_SCHEDULE, TASKPAGE_SETTINGS, TASKPAGE_TASK, _TASKPAGE, _msb_taskpage, mstask/TASKPAGE, mstask/TASKPAGE_SCHEDULE, mstask/TASKPAGE_SETTINGS, mstask/TASKPAGE_TASK, task page [Task Scheduler],enumerations,TASKPAGE, taskschd.taskpage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mstask.h
 req.include-header: 

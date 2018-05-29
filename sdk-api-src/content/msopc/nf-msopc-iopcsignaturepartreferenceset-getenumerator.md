@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReferenceSet.GetEnumerator
 title: IOpcSignaturePartReferenceSet::GetEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an enumerator of IOpcSignaturePartReference interface pointers in the set.
 old-location: opc\iopcsignaturepartreferenceset_getenumerator.htm
 old-project: OPC
 ms.assetid: 5b345fe9-55b3-447c-9b5b-64ab292ab734
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcSignaturePartReferenceSet interface, IOpcSignaturePartReferenceSet interface [Open Packaging Conventions],GetEnumerator method, IOpcSignaturePartReferenceSet.GetEnumerator, IOpcSignaturePartReferenceSet::GetEnumerator, msopc/IOpcSignaturePartReferenceSet::GetEnumerator, opc.iopcsignaturepartreferenceset_getenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

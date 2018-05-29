@@ -1,16 +1,16 @@
 ---
 UID: NF:certview.IEnumCERTVIEWATTRIBUTE.Skip
 title: IEnumCERTVIEWATTRIBUTE::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips a specified number of attributes in the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_skip.htm
 old-project: SecCrypto
 ms.assetid: 546e7ad7-73f2-4f6e-8d02-a9ca5401ecce
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnumCERTVIEWATTRIBUTE interface [Security],Skip method, IEnumCERTVIEWATTRIBUTE object [Security],Skip method, IEnumCERTVIEWATTRIBUTE.Skip, IEnumCERTVIEWATTRIBUTE::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWATTRIBUTE interface, Skip method [Security],IEnumCERTVIEWATTRIBUTE object, _certsrv_ienumcertviewattribute_skip, certview/IEnumCERTVIEWATTRIBUTE::Skip, security.ienumcertviewattribute_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h

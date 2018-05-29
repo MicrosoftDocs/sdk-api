@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.GetNetworkId
 title: IDVB_NIT::GetNetworkId
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit_getnetworkid.htm
 old-project: mstv
 ms.assetid: 86841b62-d6c0-4911-baf7-dd6d1a08a770
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNetworkId, GetNetworkId method [Microsoft TV Technologies], GetNetworkId method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetNetworkId method, IDVB_NIT.GetNetworkId, IDVB_NIT::GetNetworkId, IDVB_NITGetNetworkId, dvbsiparser/IDVB_NIT::GetNetworkId, mstv.idvb_nit_getnetworkid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataManager.put_Rules
 title: IDataManager::put_Rules
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the rules to apply to the report.
 old-location: pla\idatamanager_rules.htm
 old-project: PLA
 ms.assetid: 17403e57-2eea-4a2b-a75c-66f486622078
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataManager interface [PLA],Rules property, IDataManager.Rules, IDataManager.put_Rules, IDataManager::Rules, IDataManager::get_Rules, IDataManager::put_Rules, Rules property [PLA], Rules property [PLA],IDataManager interface, base.idatamanager_rules, pla.idatamanager_rules, pla/IDataManager::Rules, pla/IDataManager::get_Rules, pla/IDataManager::put_Rules, put_Rules
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

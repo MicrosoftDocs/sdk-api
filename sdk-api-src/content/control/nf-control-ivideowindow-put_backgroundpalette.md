@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IVideoWindow.put_BackgroundPalette
 title: IVideoWindow::put_BackgroundPalette
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_BackgroundPalette method specifies whether the video window realizes its palette in the background.
 old-location: dshow\ivideowindow_put_backgroundpalette.htm
 old-project: DirectShow
 ms.assetid: 0b1d34b6-0043-4929-a496-cf84b5d47b55
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_BackgroundPalette method, IVideoWindow.put_BackgroundPalette, IVideoWindow::put_BackgroundPalette, IVideoWindowput_BackgroundPalette, control/IVideoWindow::put_BackgroundPalette, dshow.ivideowindow_put_backgroundpalette, put_BackgroundPalette, put_BackgroundPalette method [DirectShow], put_BackgroundPalette method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

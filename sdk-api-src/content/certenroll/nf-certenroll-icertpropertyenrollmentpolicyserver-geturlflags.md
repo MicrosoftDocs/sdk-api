@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetUrlFlags
 title: ICertPropertyEnrollmentPolicyServer::GetUrlFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a set of flags that contain miscellaneous policy information about the certificate enrollment policy (CEP) server.
 old-location: security\icertpropertyenrollmentpolicyserver_geturlflags.htm
 old-project: SecCertEnroll
 ms.assetid: eafd4290-5eef-432f-908c-0640a4ac667f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetUrlFlags, GetUrlFlags method [Security], GetUrlFlags method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetUrlFlags method, ICertPropertyEnrollmentPolicyServer.GetUrlFlags, ICertPropertyEnrollmentPolicyServer::GetUrlFlags, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, certenroll/ICertPropertyEnrollmentPolicyServer::GetUrlFlags, security.icertpropertyenrollmentpolicyserver_geturlflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

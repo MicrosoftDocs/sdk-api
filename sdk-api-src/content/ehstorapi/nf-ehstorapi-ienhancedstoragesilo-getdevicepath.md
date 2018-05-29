@@ -1,16 +1,16 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSilo.GetDevicePath
 title: IEnhancedStorageSilo::GetDevicePath
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the path to the silo device node. The returned string is suitable for passing to Windows System APIs such as CreateFile or SetupDiOpenDeviceInterface.
 old-location: enstor\ienhancedstoragesilo_getdevicepath.htm
 old-project: enstor
 ms.assetid: 98ef04a1-d14d-4de3-b24a-0f044335d75b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetDevicePath, GetDevicePath method [Enhanced Storage], GetDevicePath method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetDevicePath method, IEnhancedStorageSilo.GetDevicePath, IEnhancedStorageSilo::GetDevicePath, ehstorapi/IEnhancedStorageSilo::GetDevicePath, enstor.ienhancedstoragesilo_getdevicepath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 

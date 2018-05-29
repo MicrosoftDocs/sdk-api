@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesItemContainer.EnumItems
 title: IOfflineFilesItemContainer::EnumItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an enumerator of child items for the cache item implementing this method.
 old-location: of\iofflinefilesitemcontainer_enumitems.htm
 old-project: OfflineFiles
 ms.assetid: 9960e8f8-4d15-4a53-aa77-d0105b6a59d1
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EnumItems, EnumItems method [Offline Files], EnumItems method [Offline Files],IOfflineFilesItemContainer interface, IOfflineFilesItemContainer interface [Offline Files],EnumItems method, IOfflineFilesItemContainer.EnumItems, IOfflineFilesItemContainer::EnumItems, OFFLINEFILES_ITEM_QUERY_CONNECTIONSTATE, OFFLINEFILES_ITEM_QUERY_INCLUDETRANSPARENTCACHE, OFFLINEFILES_ITEM_QUERY_LOCALDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEINFO, cscobj/IOfflineFilesItemContainer::EnumItems, of.iofflinefilesitemcontainer_enumitems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

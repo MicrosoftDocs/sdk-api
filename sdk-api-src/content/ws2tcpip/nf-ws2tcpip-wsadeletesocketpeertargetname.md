@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2tcpip.WSADeleteSocketPeerTargetName
 title: WSADeleteSocketPeerTargetName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the association between a peer target name and an IP address for a socket. After a successful return, there will be no future association between the IP address and the target name.
 old-location: winsock\wsadeletesocketpeertargetname.htm
 old-project: WinSock
 ms.assetid: 5d973316-fc51-453e-8d98-36ba36367df7
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSADeleteSocketPeerTargetName, WSADeleteSocketPeerTargetName function [Winsock], winsock.wsadeletesocketpeertargetname, ws2tcpip/WSADeleteSocketPeerTargetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

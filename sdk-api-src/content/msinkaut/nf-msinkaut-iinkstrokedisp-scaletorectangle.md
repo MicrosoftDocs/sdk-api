@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.ScaleToRectangle
 title: IInkStrokeDisp::ScaleToRectangle
-author: windows-driver-content
+author: windows-sdk-content
 description: Scales the IInkStrokeDisp object or InkStrokes collection to fit in the specified InkRectangle object.
 old-location: tablet\iinkstrokedisp_scaletorectangle.htm
 old-project: tablet
 ms.assetid: 8bc22004-3781-4018-9a92-88958039248c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 8bc22004-3781-4018-9a92-88958039248c, IInkStrokeDisp interface [Tablet PC],ScaleToRectangle method, IInkStrokeDisp.ScaleToRectangle, IInkStrokeDisp::ScaleToRectangle, ScaleToRectangle, ScaleToRectangle method [Tablet PC], ScaleToRectangle method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::ScaleToRectangle, tablet.iinkstrokedisp_scaletorectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

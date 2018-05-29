@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddComboBox
 title: IFileDialogCustomize::AddComboBox
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a combo box to the dialog.
 old-location: shell\IFileDialogCustomize_AddComboBox.htm
 old-project: shell
 ms.assetid: fdb7d682-5182-4bc0-b256-5073bd55c96d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddComboBox, AddComboBox method [Windows Shell], AddComboBox method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddComboBox method, IFileDialogCustomize.AddComboBox, IFileDialogCustomize::AddComboBox, shell.IFileDialogCustomize_AddComboBox, shell_IFileDialogCustomize_AddComboBox, shobjidl_core/IFileDialogCustomize::AddComboBox
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

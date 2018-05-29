@@ -1,16 +1,16 @@
 ---
 UID: NF:icontentprefetchertasktrigger.IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
 title: IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates if an app package has registered for the content prefetch background task.
 old-location: wsw\icontentprefetchertasktrigger_isregisteredforcontentprefetch.htm
 old-project: wsw
 ms.assetid: 6F8A0A9B-CF05-47F9-8486-10DFE720E0DD
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: IContentPrefetcherTaskTrigger interface [Web Services for Windows],IsRegisteredForContentPrefetch method, IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch, IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch, IsRegisteredForContentPrefetch, IsRegisteredForContentPrefetch method [Web Services for Windows], IsRegisteredForContentPrefetch method [Web Services for Windows],IContentPrefetcherTaskTrigger interface, icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch, wsw.icontentprefetchertasktrigger_isregisteredforcontentprefetch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: icontentprefetchertasktrigger.h
 req.include-header: 

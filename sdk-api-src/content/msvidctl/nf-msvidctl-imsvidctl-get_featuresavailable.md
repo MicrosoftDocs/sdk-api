@@ -1,16 +1,16 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_FeaturesAvailable
 title: IMSVidCtl::get_FeaturesAvailable
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_FeaturesAvailable method retrieves the features that are available on the local system.
 old-location: mstv\imsvidctl_get_featuresavailable.htm
 old-project: mstv
 ms.assetid: 73da686c-0c25-4dfb-8a13-681f1dac6a4a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_FeaturesAvailable method, IMSVidCtl.get_FeaturesAvailable, IMSVidCtl::get_FeaturesAvailable, IMSVidCtlget_FeaturesAvailable, get_FeaturesAvailable, get_FeaturesAvailable method [Microsoft TV Technologies], get_FeaturesAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_featuresavailable, msvidctl/IMSVidCtl::get_FeaturesAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 

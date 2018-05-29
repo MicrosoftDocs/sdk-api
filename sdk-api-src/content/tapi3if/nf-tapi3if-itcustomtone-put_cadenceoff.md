@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCustomTone.put_CadenceOff
 title: ITCustomTone::put_CadenceOff
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_CadenceOff method sets the &#0034;off&#0034; duration of the cadence of the custom tone to generate.
 old-location: tapi3\itcustomtone_put_cadenceoff.htm
 old-project: Tapi
 ms.assetid: 056e1ca5-2bce-4a69-9b30-2ac142bcb52b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],put_CadenceOff method, ITCustomTone.put_CadenceOff, ITCustomTone::put_CadenceOff, _tapi3_itcustomtone_put_cadenceoff, put_CadenceOff, put_CadenceOff method [TAPI 2.2], put_CadenceOff method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_put_cadenceoff, tapi3if/ITCustomTone::put_CadenceOff
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

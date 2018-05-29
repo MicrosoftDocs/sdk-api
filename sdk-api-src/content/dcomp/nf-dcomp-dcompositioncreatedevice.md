@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.DCompositionCreateDevice
 title: DCompositionCreateDevice function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new device object that can be used to create other Microsoft DirectComposition objects.
 old-location: directcomp\dcompositioncreatedevice.htm
 old-project: directcomp
 ms.assetid: 3eb5d698-3cbf-456e-aa5f-395687c68c13
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DCompositionCreateDevice, DCompositionCreateDevice function [DirectComposition], dcomp/DCompositionCreateDevice, directcomp.dcompositioncreatedevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.CoGetInstanceFromFile
 title: CoGetInstanceFromFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new object and initializes it from a file using IPersistFile::Load.
 old-location: com\cogetinstancefromfile.htm
 old-project: com
 ms.assetid: f8a22f5f-a21f-49e7-bd6c-ca987206ee46
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoGetInstanceFromFile, CoGetInstanceFromFile function [COM], _com_CoGetInstanceFromFile, com.cogetinstancefromfile, objbase/CoGetInstanceFromFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

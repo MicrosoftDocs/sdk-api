@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetAllImplTypeCustData
 title: ITypeInfo2::GetAllImplTypeCustData
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets all custom data for the specified implementation type.
 old-location: automat\itypeinfo2_getallimpltypecustdata.htm
 old-project: automat
 ms.assetid: 021849d8-ec61-4f35-8302-caa8338a8758
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetAllImplTypeCustData, GetAllImplTypeCustData method [Automation], GetAllImplTypeCustData method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetAllImplTypeCustData method, ITypeInfo2.GetAllImplTypeCustData, ITypeInfo2::GetAllImplTypeCustData, _oa96_ITypeInfo2_GetAllImplTypeCustData, automat.itypeinfo2_getallimpltypecustdata, oaidl/ITypeInfo2::GetAllImplTypeCustData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

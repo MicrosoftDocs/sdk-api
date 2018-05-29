@@ -1,16 +1,16 @@
 ---
 UID: NF:psapi.GetDeviceDriverFileNameW
 title: GetDeviceDriverFileNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the path available for the specified device driver.
 old-location: psapi\getdevicedriverfilename.htm
 old-project: psapi
 ms.assetid: 6ddbcf7e-e41c-4ea7-b60a-01ed5c98c530
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetDeviceDriverFileName, GetDeviceDriverFileName function [PSAPI], GetDeviceDriverFileNameA, GetDeviceDriverFileNameW, K32GetDeviceDriverFileName, K32GetDeviceDriverFileNameA, K32GetDeviceDriverFileNameW, _win32_getdevicedriverfilename, base.getdevicedriverfilename, psapi.getdevicedriverfilename, psapi/GetDeviceDriverFileName, psapi/GetDeviceDriverFileNameA, psapi/GetDeviceDriverFileNameW, psapi/K32GetDeviceDriverFileName, psapi/K32GetDeviceDriverFileNameA, psapi/K32GetDeviceDriverFileNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: psapi.h
 req.include-header: 

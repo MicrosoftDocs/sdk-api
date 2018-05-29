@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDVB_ST.GetData
 title: IDVB_ST::GetData
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_st_getdata.htm
 old-project: mstv
 ms.assetid: 3afdafad-462c-4fad-a9c6-ec820bedf31a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetData, GetData method [Microsoft TV Technologies], GetData method [Microsoft TV Technologies],IDVB_ST interface, IDVB_ST interface [Microsoft TV Technologies],GetData method, IDVB_ST.GetData, IDVB_ST::GetData, IDVB_STGetData, dvbsiparser/IDVB_ST::GetData, mstv.idvb_st_getdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

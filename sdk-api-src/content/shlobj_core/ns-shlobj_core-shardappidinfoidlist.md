@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj_core.SHARDAPPIDINFOIDLIST
 title: SHARDAPPIDINFOIDLIST
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains data used by SHAddToRecentDocs to identify both an item&#8212;in this case by an absolute pointer to an item identifier list (PIDL)&#8212;and the process that it is associated with.
 old-location: shell\SHARDAPPIDINFOIDLIST.htm
 old-project: shell
 ms.assetid: 11c69ff9-b8a0-4168-8036-f45a9f7813ba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHARDAPPIDINFOIDLIST, SHARDAPPIDINFOIDLIST structure [Windows Shell], _shell_SHARDAPPIDINFOIDLIST, shell.SHARDAPPIDINFOIDLIST, shlobj_core/SHARDAPPIDINFOIDLIST
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

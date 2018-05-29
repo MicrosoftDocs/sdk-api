@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj_core._browseinfoA
 title: "_browseinfoA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains parameters for the SHBrowseForFolder function and receives information about the folder selected by the user.
 old-location: shell\BROWSEINFO.htm
 old-project: shell
 ms.assetid: 7c8df03a-93bb-42b2-b4a0-9c2ae917c0d1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPBROWSEINFOA, *PBROWSEINFOA, BIF_BROWSEFILEJUNCTIONS, BIF_BROWSEFORCOMPUTER, BIF_BROWSEFORPRINTER, BIF_BROWSEINCLUDEFILES, BIF_BROWSEINCLUDEURLS, BIF_DONTGOBELOWDOMAIN, BIF_EDITBOX, BIF_NEWDIALOGSTYLE, BIF_NONEWFOLDERBUTTON, BIF_NOTRANSLATETARGETS, BIF_RETURNFSANCESTORS, BIF_RETURNONLYFSDIRS, BIF_SHAREABLE, BIF_STATUSTEXT, BIF_UAHINT, BIF_USENEWUI, BIF_VALIDATE, BROWSEINFO, BROWSEINFO structure [Windows Shell], BROWSEINFOA, BROWSEINFOW, LPBROWSEINFO, LPBROWSEINFO structure pointer [Windows Shell], PBROWSEINFO, PBROWSEINFO structure pointer [Windows Shell], _browseinfoA, _win32_BROWSEINFO, shell.BROWSEINFO, shlobj_core/BROWSEINFO, shlobj_core/BROWSEINFOA, shlobj_core/BROWSEINFOW, shlobj_core/LPBROWSEINFO, shlobj_core/PBROWSEINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h

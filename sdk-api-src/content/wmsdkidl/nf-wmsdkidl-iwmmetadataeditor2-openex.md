@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMMetadataEditor2.OpenEx
 title: IWMMetadataEditor2::OpenEx
-author: windows-driver-content
+author: windows-sdk-content
 description: The OpenEx method opens a file for use by the metadata editor object. OpenEx opens ASF files and MP3 files, though the metadata editor has limited capabilities when working with MP3 files.
 old-location: wmformat\iwmmetadataeditor2_openex.htm
 old-project: wmformat
 ms.assetid: e35f5f85-659e-4a1f-8bfd-4ad3e946d733
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMMetadataEditor2 interface [windows Media Format],OpenEx method, IWMMetadataEditor2.OpenEx, IWMMetadataEditor2::OpenEx, IWMMetadataEditor2OpenEx, OpenEx, OpenEx method [windows Media Format], OpenEx method [windows Media Format],IWMMetadataEditor2 interface, wmformat.iwmmetadataeditor2_openex, wmsdkidl/IWMMetadataEditor2::OpenEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

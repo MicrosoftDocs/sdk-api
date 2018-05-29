@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetTemporaryStoreLocation
 title: ITargetInfo::GetTemporaryStoreLocation
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current temporary store location.
 old-location: smi\itargetinfo_gettemporarystorelocation.htm
 old-project: SMI
 ms.assetid: aebebdee-3a24-4a9b-9ec6-cc411385af41
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetTemporaryStoreLocation, GetTemporaryStoreLocation method [SMI], GetTemporaryStoreLocation method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTemporaryStoreLocation method, ITargetInfo.GetTemporaryStoreLocation, ITargetInfo::GetTemporaryStoreLocation, smi.itargetinfo_gettemporarystorelocation, wcmconfig/ITargetInfo::GetTemporaryStoreLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

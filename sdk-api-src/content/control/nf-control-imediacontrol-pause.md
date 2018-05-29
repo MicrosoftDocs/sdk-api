@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IMediaControl.Pause
 title: IMediaControl::Pause
-author: windows-driver-content
+author: windows-sdk-content
 description: The Pause method pauses all the filters in the filter graph.
 old-location: dshow\imediacontrol_pause.htm
 old-project: DirectShow
 ms.assetid: cfb875b7-cc4e-4ae2-8379-964d0e3ceb04
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaControl interface [DirectShow],Pause method, IMediaControl.Pause, IMediaControl::Pause, IMediaControlPause, Pause, Pause method [DirectShow], Pause method [DirectShow],IMediaControl interface, control/IMediaControl::Pause, dshow.imediacontrol_pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

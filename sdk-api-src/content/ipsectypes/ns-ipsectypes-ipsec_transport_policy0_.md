@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_TRANSPORT_POLICY0_
 title: IPSEC_TRANSPORT_POLICY0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores the quick mode negotiation policy for transport mode IPsec.
 old-location: fwp\ipsec_transport_policy0_struct.htm
 old-project: FWP
 ms.assetid: c17ebe74-41e3-467c-875a-db43978a5234
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME, IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_GENERAL_NAT_TRAVERSAL, IPSEC_POLICY_FLAG_NAT_ENCAP_ALLOW_PEER_BEHIND_NAT, IPSEC_POLICY_FLAG_ND_BOUNDARY, IPSEC_POLICY_FLAG_ND_SECURE, IPSEC_TRANSPORT_POLICY0, IPSEC_TRANSPORT_POLICY0 structure [Filtering], IPSEC_TRANSPORT_POLICY0_, fwp.ipsec_transport_policy0_struct, ipsectypes/IPSEC_TRANSPORT_POLICY0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

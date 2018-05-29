@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzObjectPicker
 title: IAzObjectPicker
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays a dialog box that allows users to select one or more principals from a list.
 old-location: security\iazobjectpicker.htm
 old-project: SecAuthZ
 ms.assetid: 767f30c9-6071-4f04-876d-b8b2392e650c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzObjectPicker, IAzObjectPicker interface [Security], IAzObjectPicker interface [Security],described, azroles/IAzObjectPicker, security.iazobjectpicker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

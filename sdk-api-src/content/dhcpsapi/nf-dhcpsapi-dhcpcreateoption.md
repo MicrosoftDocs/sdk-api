@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateOption
 title: DhcpCreateOption function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an option definition for the default user and vendor class at the default option level.
 old-location: dhcp\dhcpcreateoption.htm
 old-project: DHCP
 ms.assetid: 2a77467e-12e8-4a8e-a6ab-e3783a7492da
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpCreateOption, DhcpCreateOption function [DHCP], dhcp.dhcpcreateoption, dhcpsapi/DhcpCreateOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

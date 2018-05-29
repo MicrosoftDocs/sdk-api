@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.GetVisualLookup
 title: IXpsOMVisualBrush::GetVisualLookup
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the lookup key name of a visual in a resource dictionary; the visual is to be used as the source for the brush.
 old-location: xps\ixpsomvisualbrush_getvisuallookup.htm
 old-project: printdocs
 ms.assetid: 091cb7f3-6302-40a0-b509-c72e20109f75
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetVisualLookup, GetVisualLookup method [XPS Documents and Packaging], GetVisualLookup method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],GetVisualLookup method, IXpsOMVisualBrush.GetVisualLookup, IXpsOMVisualBrush::GetVisualLookup, xps.ixpsomvisualbrush_getvisuallookup, xpsobjectmodel/IXpsOMVisualBrush::GetVisualLookup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

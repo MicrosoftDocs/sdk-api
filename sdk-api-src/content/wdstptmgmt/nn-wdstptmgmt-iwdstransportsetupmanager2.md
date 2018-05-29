@@ -1,16 +1,16 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportSetupManager2
 title: IWdsTransportSetupManager2
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface inherits from the IWdsTransportSetupManager interface and extends it. It is available beginning with Windows Server 2012.
 old-location: wds\iwdstransportsetupmanager2.htm
 old-project: Wds
 ms.assetid: C16D037D-8E6C-4789-8947-D3BAC73D86FF
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportSetupManager2, IWdsTransportSetupManager2 interface [Windows Deployment Services], IWdsTransportSetupManager2 interface [Windows Deployment Services],described, wds.iwdstransportsetupmanager2, wdstptmgmt/IWdsTransportSetupManager2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

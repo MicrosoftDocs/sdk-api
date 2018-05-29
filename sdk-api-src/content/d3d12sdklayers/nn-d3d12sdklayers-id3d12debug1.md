@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12Debug1
 title: ID3D12Debug1
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds GPU-Based Validation and Dependent Command Queue Synchronization to the debug layer.
 old-location: direct3d12\id3d12debug1.htm
 old-project: direct3d12
 ms.assetid: 3D69D0CA-5D45-49EA-BCF0-5B0ABB916261
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12Debug1, ID3D12Debug1 interface, ID3D12Debug1 interface,described, d3d12sdklayers/ID3D12Debug1, direct3d12.id3d12debug1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12sdklayers.h
 req.include-header: 

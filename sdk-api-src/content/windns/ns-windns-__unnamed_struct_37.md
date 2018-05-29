@@ -1,16 +1,16 @@
 ---
 UID: NS:windns.__unnamed_struct_37
 title: DNS_TSIG_DATAW
-author: windows-driver-content
+author: windows-sdk-content
 description: The DNS_TSIG_DATA structure represents a secret key transaction authentication (TSIG) resource record (RR) as specified in RFC 2845 and RFC 3645.
 old-location: dns\dns_tsig_data.htm
 old-project: DNS
 ms.assetid: 32077169-d319-45c0-982f-8d470cd70111
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PDNS_TSIG_DATA, *PDNS_TSIG_DATAW, DNS_RCODE_BADKEY, DNS_RCODE_BADSIG, DNS_RCODE_BADTIME, DNS_TSIG_DATA, DNS_TSIG_DATA structure [DNS], DNS_TSIG_DATAW, PDNS_TSIG_DATA, PDNS_TSIG_DATA structure pointer [DNS], _dns_dns_tsig_data, dns.dns_tsig_data, gss-tsig, gss.microsoft.com, windns/DNS_TSIG_DATA, windns/PDNS_TSIG_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

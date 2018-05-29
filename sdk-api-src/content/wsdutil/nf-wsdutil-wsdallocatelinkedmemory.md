@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdutil.WSDAllocateLinkedMemory
 title: WSDAllocateLinkedMemory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates a linked memory block.
 old-location: ncd\wsdallocatelinkedmemory_func.htm
 old-project: WsdApi
 ms.assetid: 2608985f-56aa-4223-b76d-85ebe3b080fb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDAllocateLinkedMemory, WSDAllocateLinkedMemory function, ncd.wsdallocatelinkedmemory_func, wsdutil/WSDAllocateLinkedMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h

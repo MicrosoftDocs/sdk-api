@@ -1,16 +1,16 @@
 ---
 UID: NS:http._HTTP_FLOWRATE_INFO
 title: "_HTTP_FLOWRATE_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The transfer rate of a response.
 old-location: http\http_flowrate_info.htm
 old-project: Http
 ms.assetid: 5b52ef5b-dc82-4a87-9204-d32134074c31
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_FLOWRATE_INFO, HTTP_FLOWRATE_INFO, HTTP_FLOWRATE_INFO structure [HTTP], PHTTP_FLOWRATE_INFO, PHTTP_FLOWRATE_INFO structure pointer [HTTP], _HTTP_FLOWRATE_INFO, http.http_flowrate_info, http/HTTP_FLOWRATE_INFO, http/PHTTP_FLOWRATE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 

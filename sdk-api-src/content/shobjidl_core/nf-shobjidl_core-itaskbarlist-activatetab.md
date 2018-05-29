@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList.ActivateTab
 title: ITaskbarList::ActivateTab
-author: windows-driver-content
+author: windows-sdk-content
 description: Activates an item on the taskbar. The window is not actually activated; the window's item on the taskbar is merely displayed as active.
 old-location: shell\ITaskbarList_ActivateTab.htm
 old-project: shell
 ms.assetid: 1dc95768-62a5-4784-9f4f-96bebdd38c2b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ActivateTab, ActivateTab method [Windows Shell], ActivateTab method [Windows Shell],ITaskbarList interface, ITaskbarList interface [Windows Shell],ActivateTab method, ITaskbarList.ActivateTab, ITaskbarList::ActivateTab, _win32_ITaskbarList_ActivateTab, shell.ITaskbarList_ActivateTab, shobjidl_core/ITaskbarList::ActivateTab
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

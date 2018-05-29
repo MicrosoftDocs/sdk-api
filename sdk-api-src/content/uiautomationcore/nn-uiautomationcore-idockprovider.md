@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.IDockProvider
 title: IDockProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to an element in a docking container.
 old-location: winauto\uiauto_IDockProvider.htm
 old-project: WinAuto
 ms.assetid: 106ca4b4-1304-4942-88a4-79a3895b552f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IDockProvider, IDockProvider interface [Windows Accessibility], IDockProvider interface [Windows Accessibility],described, uiauto.uiauto_IDockProvider, uiauto_IDockProvider, uiautomationcore/IDockProvider, winauto.uiauto_IDockProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

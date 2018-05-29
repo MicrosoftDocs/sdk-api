@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT2_
 title: FWPM_NET_EVENT2_
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about all event types.
 old-location: fwp\fwpm_net_event2.htm
 old-project: FWP
 ms.assetid: fbcacfb1-b471-474e-bdee-12a481fadc63
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_NET_EVENT2, FWPM_NET_EVENT2 structure [Filtering], FWPM_NET_EVENT2_, fwp.fwpm_net_event2, fwpmtypes/FWPM_NET_EVENT2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

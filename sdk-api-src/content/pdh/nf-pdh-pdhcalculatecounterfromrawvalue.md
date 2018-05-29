@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhCalculateCounterFromRawValue
 title: PdhCalculateCounterFromRawValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Calculates the displayable value of two raw counter values.
 old-location: perf\pdhcalculatecounterfromrawvalue.htm
 old-project: PerfCtrs
 ms.assetid: fd50b1fd-29b7-49a8-bbcc-4d7f0cbd7079
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhCalculateCounterFromRawValue, PdhCalculateCounterFromRawValue function [Perf], _win32_pdhcalculatecounterfromrawvalue, base.pdhcalculatecounterfromrawvalue, pdh/PdhCalculateCounterFromRawValue, perf.pdhcalculatecounterfromrawvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

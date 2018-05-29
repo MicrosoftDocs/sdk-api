@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_OUTPUT
 title: "_WS_XML_WRITER_OUTPUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies where the writer should emit the bytes that comprise the xml document.
 old-location: wsw\ws_xml_writer_output.htm
 old-project: wsw
 ms.assetid: 367e6f98-9351-4a08-b8ce-036e7f2788e4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_WRITER_OUTPUT, WS_XML_WRITER_OUTPUT structure [Web Services for Windows], _WS_XML_WRITER_OUTPUT, webservices/WS_XML_WRITER_OUTPUT, wsw.ws_xml_writer_output
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

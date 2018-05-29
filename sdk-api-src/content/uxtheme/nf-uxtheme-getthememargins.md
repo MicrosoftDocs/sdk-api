@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemeMargins
 title: GetThemeMargins function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of a MARGINS property.
 old-location: controls\GetThemeMargins.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthememargins.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemeMargins, GetThemeMargins function [Windows Controls], controls.GetThemeMargins, controls.inet_GetThemeMargins, inet_GetThemeMargins, inet_GetThemeMargins_cpp, uxtheme/GetThemeMargins
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

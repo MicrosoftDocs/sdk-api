@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS
 title: "_SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS structure checks if any certificates in the chain have weak cryptography and checks if a third party root certificate is compliant with the Microsoft Root Program requirements.
 old-location: security\ssl_f12_extra_cert_chain_policy_status.htm
 old-project: SecCrypto
 ms.assetid: A78598AA-1C5F-49E9-9A0D-6B6C838F7DDD
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, CERT_CHAIN_POLICY_SSL_F12_ERROR_LEVEL, CERT_CHAIN_POLICY_SSL_F12_NONE_CATEGORY, CERT_CHAIN_POLICY_SSL_F12_ROOT_PROGRAM_CATEGORY, CERT_CHAIN_POLICY_SSL_F12_SUCCESS_LEVEL, CERT_CHAIN_POLICY_SSL_F12_WARNING_LEVEL, CERT_CHAIN_POLICY_SSL_F12_WEAK_CRYPTO_CATEGORY, PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS structure pointer [Security], SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS structure [Security], _SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, security.ssl_f12_extra_cert_chain_policy_status, wincrypt/PSSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS, wincrypt/SSL_F12_EXTRA_CERT_CHAIN_POLICY_STATUS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msrdc.IRdcComparator.Process
 title: IRdcComparator::Process
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares two signature streams (seed and source) and produces a needs list, which describes the chunks of file data needed to create the target file.
 old-location: rdc\irdccomparator_process.htm
 old-project: Rdc
 ms.assetid: cc98a90c-ba82-4b92-a56c-07496a843089
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IRdcComparator interface [Remote Differential Compression],Process method, IRdcComparator.Process, IRdcComparator::Process, Process, Process method [Remote Differential Compression], Process method [Remote Differential Compression],IRdcComparator interface, fs.irdccomparator_process, msrdc/IRdcComparator::Process, rdc.irdccomparator_process
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

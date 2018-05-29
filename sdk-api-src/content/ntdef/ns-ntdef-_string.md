@@ -1,16 +1,16 @@
 ---
 UID: NS:ntdef._STRING
 title: "_STRING"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ANSI_STRING structure defines a counted string used for ANSI strings.
 old-location: kernel\ansi_string.htm
 old-project: kernel
 ms.assetid: 80bd569a-ed6f-4227-9d14-c011623678a0
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*PSTRING, ANSI_STRING, ANSI_STRING structure [Kernel-Mode Driver Architecture], CANSI_STRING, OEM_STRING, PANSI_STRING, PANSI_STRING structure pointer [Kernel-Mode Driver Architecture], STRING, _STRING, kernel.ansi_string, kstruct_a_0b84d0be-6b91-48b6-87cf-2fd99f043bc4.xml, ntdef/ANSI_STRING, ntdef/PANSI_STRING"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdef.h
 req.include-header: Wdm.h, Ntddk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwOpenPorts.Remove
 title: INetFwOpenPorts::Remove
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a port and removes it from the collection.
 old-location: ics\inetfwopenports_remove.htm
 old-project: ICS
 ms.assetid: e3719087-f7b9-4780-a030-0c568248080d
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwOpenPorts interface [ICS/ICF],Remove method, INetFwOpenPorts.Remove, INetFwOpenPorts::Remove, Remove, Remove method [ICS/ICF], Remove method [ICS/ICF],INetFwOpenPorts interface, ics.inetfwopenports_remove, netfw/INetFwOpenPorts::Remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

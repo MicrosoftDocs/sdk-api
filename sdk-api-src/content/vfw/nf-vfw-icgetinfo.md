@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICGetInfo
 title: ICGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICGetInfo function obtains information about a compressor.
 old-location: multimedia\icgetinfo.htm
 old-project: Multimedia
 ms.assetid: 763dc5ef-7578-44c8-ab14-0e49644213ef
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICGetInfo, ICGetInfo function [Windows Multimedia], _win32_ICGetInfo, multimedia.icgetinfo, vfw/ICGetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

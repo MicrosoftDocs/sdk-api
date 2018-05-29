@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl._WMReaderStatistics
 title: "_WMReaderStatistics"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WM_READER_STATISTICS structure describes the performance of a reading operation.
 old-location: wmformat\wm_reader_statistics.htm
 old-project: wmformat
 ms.assetid: 30e58e9b-5247-4d9a-91dc-fd137d8f5613
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WM_READER_STATISTICS, WM_READER_STATISTICS structure [windows Media Format], _WMReaderStatistics, wmformat.wm_reader_statistics, wmsdkidl/WM_READER_STATISTICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

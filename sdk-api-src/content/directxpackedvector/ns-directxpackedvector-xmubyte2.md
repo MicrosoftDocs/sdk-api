@@ -1,16 +1,16 @@
 ---
 UID: NS:directxpackedvector.XMUBYTE2
 title: XMUBYTE2
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a 2D vector where each component is a unsigned integer, 8-bits (1 byte) in length.
 old-location: dxmath\xmubyte2.htm
 old-project: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUBYTE2
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: XMUBYTE2, XMUBYTE2 structure [DirectX Math Support APIs], _XMUBYTE2, _XMUBYTE2 structure [DirectX Math Support APIs], directxpackedvector/XMUBYTE2, dxmath.xmubyte2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 

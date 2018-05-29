@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverAddScopeToRelationship
 title: DhcpV4FailoverAddScopeToRelationship function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a DHCPv4 scope to the specified failover relationship.
 old-location: dhcp\dhcpv4failoveraddscopetorelationship.htm
 old-project: DHCP
 ms.assetid: fc54b3dc-86b3-4a18-b05f-7152097f8d5b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpV4FailoverAddScopeToRelationship, DhcpV4FailoverAddScopeToRelationship function [DHCP], dhcp.dhcpv4failoveraddscopetorelationship, dhcpsapi/DhcpV4FailoverAddScopeToRelationship
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

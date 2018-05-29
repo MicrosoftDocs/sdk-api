@@ -1,16 +1,16 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetNextTable
 title: IPAT::GetNextTable
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNextTable method retrieves the next table that follows the current table.
 old-location: mstv\ipat_getnexttable.htm
 old-project: mstv
 ms.assetid: 24cc3c97-60f6-440d-80fd-da7516698a2e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetNextTable method, IPAT.GetNextTable, IPAT::GetNextTable, IPATGetNextTable, mpeg2psiparser/IPAT::GetNextTable, mstv.ipat_getnexttable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 

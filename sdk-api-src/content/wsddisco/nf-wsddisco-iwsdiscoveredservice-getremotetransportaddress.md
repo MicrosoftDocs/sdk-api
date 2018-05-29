@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetRemoteTransportAddress
 title: IWSDiscoveredService::GetRemoteTransportAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the string representation of the remote transport (IP) address.
 old-location: ncd\iwsdiscoveredservice_getremotetransportaddress.htm
 old-project: WsdApi
 ms.assetid: 15376e12-fd7c-4cf5-a950-bf492392afa3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetRemoteTransportAddress, GetRemoteTransportAddress method, GetRemoteTransportAddress method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetRemoteTransportAddress method, IWSDiscoveredService.GetRemoteTransportAddress, IWSDiscoveredService::GetRemoteTransportAddress, ncd.iwsdiscoveredservice_getremotetransportaddress, wsddisco/IWSDiscoveredService::GetRemoteTransportAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

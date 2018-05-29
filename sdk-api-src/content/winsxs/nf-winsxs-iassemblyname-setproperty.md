@@ -1,16 +1,16 @@
 ---
 UID: NF:winsxs.IAssemblyName.SetProperty
 title: IAssemblyName::SetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetProperty method adds a name-value pair to the side-by-side assembly name. This method can change or delete the value of an existing name-value pair.
 old-location: setup\iassemblyname_setproperty.htm
 old-project: SbsCs
 ms.assetid: 057bc5b3-008b-495b-b96c-2c0dcc43f1a4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAssemblyName interface [Side-by-side Assemblies],SetProperty method, IAssemblyName.SetProperty, IAssemblyName::SetProperty, SetProperty, SetProperty method [Side-by-side Assemblies], SetProperty method [Side-by-side Assemblies],IAssemblyName interface, setup.iassemblyname_setproperty, winsxs/IAssemblyName::SetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsxs.h
 req.include-header: 

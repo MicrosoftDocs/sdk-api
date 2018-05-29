@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.UIntPtrToChar
 title: UIntPtrToChar function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type UINT_PTR to a value of type CHAR.
 old-location: shell\UIntPtrToChar.htm
 old-project: shell
 ms.assetid: b98ec1ee-8439-494b-b8e6-aa3d127042fa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UIntPtrToChar, UIntPtrToChar function [Windows Shell], intsafe/UIntPtrToChar, shell.UIntPtrToChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

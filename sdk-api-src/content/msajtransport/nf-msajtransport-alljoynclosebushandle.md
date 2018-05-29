@@ -1,16 +1,16 @@
 ---
 UID: NF:msajtransport.AllJoynCloseBusHandle
 title: AllJoynCloseBusHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the Named Pipe handle.
 old-location: alljoyn\alljoynclosebushandle.htm
 old-project: AllJoyn
 ms.assetid: FE545239-F88D-4876-8A3F-52AC8CA63FBB
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: AllJoynCloseBusHandle, AllJoynCloseBusHandle function [AllJoyn API], alljoyn.alljoynclosebushandle, msajtransport/AllJoynCloseBusHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msajtransport.h
 req.include-header: 

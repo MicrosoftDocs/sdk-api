@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarImp
 title: VarImp function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs a bitwise implication on two variants.
 old-location: automat\varimp.htm
 old-project: automat
 ms.assetid: c8d846dd-97c3-4e7d-af4f-632f04be75cf
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarImp, VarImp function [Automation], _oa96_VarImp, automat.varimp, oleauto/VarImp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

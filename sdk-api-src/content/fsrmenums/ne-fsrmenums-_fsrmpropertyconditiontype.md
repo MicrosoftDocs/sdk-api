@@ -1,16 +1,16 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyConditionType
 title: "_FsrmPropertyConditionType"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the possible comparison operations that can be used to determine whether a property value of a file meets a particular condition.
 old-location: fsrm\fsrmpropertyconditiontype.htm
 old-project: Fsrm
 ms.assetid: b3b5caab-4d70-4f85-bf53-0344192d3674
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: FsrmPropertyConditionType, FsrmPropertyConditionType enumeration [File Server Resource Manager], FsrmPropertyConditionType_Contain, FsrmPropertyConditionType_ContainedIn, FsrmPropertyConditionType_EndWith, FsrmPropertyConditionType_Equal, FsrmPropertyConditionType_Exist, FsrmPropertyConditionType_GreaterThan, FsrmPropertyConditionType_LessThan, FsrmPropertyConditionType_MatchesPattern, FsrmPropertyConditionType_NotEqual, FsrmPropertyConditionType_NotExist, FsrmPropertyConditionType_PrefixOf, FsrmPropertyConditionType_StartWith, FsrmPropertyConditionType_SuffixOf, FsrmPropertyConditionType_Unknown, _FsrmPropertyConditionType, fs.fsrmpropertyconditiontype, fsrm.fsrmpropertyconditiontype, fsrm/FsrmPropertyConditionType, fsrm/FsrmPropertyConditionType_Contain, fsrm/FsrmPropertyConditionType_ContainedIn, fsrm/FsrmPropertyConditionType_EndWith, fsrm/FsrmPropertyConditionType_Equal, fsrm/FsrmPropertyConditionType_Exist, fsrm/FsrmPropertyConditionType_GreaterThan, fsrm/FsrmPropertyConditionType_LessThan, fsrm/FsrmPropertyConditionType_MatchesPattern, fsrm/FsrmPropertyConditionType_NotEqual, fsrm/FsrmPropertyConditionType_NotExist, fsrm/FsrmPropertyConditionType_PrefixOf, fsrm/FsrmPropertyConditionType_StartWith, fsrm/FsrmPropertyConditionType_SuffixOf, fsrm/FsrmPropertyConditionType_Unknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, Fsrmenums.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationItemContainerPattern
 title: IUIAutomationItemContainerPattern
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that retrieves an item from a container, such as a virtual list.
 old-location: winauto\uiauto_IUIAutomationItemContainerPattern.htm
 old-project: WinAuto
 ms.assetid: 87655c25-d666-4349-9750-566b60b37c56
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationItemContainerPattern, IUIAutomationItemContainerPattern interface [Windows Accessibility], IUIAutomationItemContainerPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationItemContainerPattern, uiauto_IUIAutomationItemContainerPattern, uiautomationclient/IUIAutomationItemContainerPattern, winauto.uiauto_IUIAutomationItemContainerPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CreateHatchBrush
 title: CreateHatchBrush function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateHatchBrush function creates a logical brush that has the specified hatch pattern and color.
 old-location: gdi\createhatchbrush.htm
 old-project: gdi
 ms.assetid: 0b5849d6-1e22-4ac5-980c-2f2a73b16adb
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateHatchBrush, CreateHatchBrush function [Windows GDI], HS_BDIAGONAL, HS_CROSS, HS_DIAGCROSS, HS_FDIAGONAL, HS_HORIZONTAL, HS_VERTICAL, _win32_CreateHatchBrush, gdi.createhatchbrush, wingdi/CreateHatchBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

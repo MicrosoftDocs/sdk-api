@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.BackupRead
 title: BackupRead function
-author: windows-driver-content
+author: windows-sdk-content
 description: Back up a file or directory, including the security information.
 old-location: backup\backupread.htm
 old-project: Backup
 ms.assetid: 47d13662-af70-4c76-9fb6-3835e329ae5f
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: BackupRead, BackupRead function [Backup], _win32_backupread, backup.backupread, base.backupread, winbase/BackupRead
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

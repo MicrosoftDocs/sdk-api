@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFStreamSink
 title: IMFStreamSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a stream on a media sink object.
 old-location: mf\imfstreamsink.htm
 old-project: medfound
 ms.assetid: fe403cab-b901-4c8e-a23c-788ee65c4689
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFStreamSink, IMFStreamSink interface [Media Foundation], IMFStreamSink interface [Media Foundation],described, fe403cab-b901-4c8e-a23c-788ee65c4689, mf.imfstreamsink, mfidl/IMFStreamSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

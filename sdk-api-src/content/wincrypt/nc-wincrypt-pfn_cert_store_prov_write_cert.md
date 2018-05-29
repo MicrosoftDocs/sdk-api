@@ -1,16 +1,16 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_WRITE_CERT
 title: PFN_CERT_STORE_PROV_WRITE_CERT
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function that is called by CertAddEncodedCertificateToStore, CertAddCertificateContextToStore and CertAddSerializedElementToStore before adding to the store.
 old-location: security\certstoreprovwritecertcallback.htm
 old-project: SecCrypto
 ms.assetid: 97cc488a-7993-4b48-a4b4-cb13c6168226
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertStoreProvWriteCertCallback, CertStoreProvWriteCertCallback callback, CertStoreProvWriteCertCallback callback function [Security], PFN_CERT_STORE_PROV_WRITE_CERT, PFN_CERT_STORE_PROV_WRITE_CERT callback function [Security], _crypto2_certstoreprovwritecertcallback, security.certstoreprovwritecertcallback, wincrypt/CertStoreProvWriteCertCallback, wincrypt/PFN_CERT_STORE_PROV_WRITE_CERT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

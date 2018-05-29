@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymGetLinePrev
 title: SymGetLinePrev function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the line information for the previous source line.
 old-location: base\symgetlineprev64.htm
 old-project: Debug
 ms.assetid: 7f6d0f20-5dfa-4d6c-8551-1dbc3cc54176
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymGetLinePrev, SymGetLinePrev function, SymGetLinePrev64, SymGetLinePrev64 function, SymGetLinePrevW64, _win32_symgetlineprev64, base.symgetlineprev64, dbghelp/SymGetLinePrev, dbghelp/SymGetLinePrev64, dbghelp/SymGetLinePrevW64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

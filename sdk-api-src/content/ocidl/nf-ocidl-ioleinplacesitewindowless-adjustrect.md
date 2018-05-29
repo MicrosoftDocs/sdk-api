@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.AdjustRect
 title: IOleInPlaceSiteWindowless::AdjustRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Adjusts a specified rectangle if it is entirely or partially covered by overlapping, opaque objects.
 old-location: com\ioleinplacesitewindowless_adjustrect.htm
 old-project: com
 ms.assetid: 36fa395d-09b2-474d-85ae-5a22d25e88eb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AdjustRect, AdjustRect method [COM], AdjustRect method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],AdjustRect method, IOleInPlaceSiteWindowless.AdjustRect, IOleInPlaceSiteWindowless::AdjustRect, _ole_ioleinplacesitewindowless_adjustrect, com.ioleinplacesitewindowless_adjustrect, ocidl/IOleInPlaceSiteWindowless::AdjustRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

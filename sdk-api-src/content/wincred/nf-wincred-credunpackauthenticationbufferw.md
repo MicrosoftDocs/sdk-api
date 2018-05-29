@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredUnPackAuthenticationBufferW
 title: CredUnPackAuthenticationBufferW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an authentication buffer returned by a call to the CredUIPromptForWindowsCredentials function into a string user name and password.
 old-location: security\credunpackauthenticationbuffer.htm
 old-project: SecAuthN
 ms.assetid: c87f0b11-59c2-4450-ad63-398cdb15016f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CredUnPackAuthenticationBuffer, CredUnPackAuthenticationBuffer function [Security], CredUnPackAuthenticationBufferA, CredUnPackAuthenticationBufferW, security.credunpackauthenticationbuffer, wincred/CredUnPackAuthenticationBuffer, wincred/CredUnPackAuthenticationBufferA, wincred/CredUnPackAuthenticationBufferW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

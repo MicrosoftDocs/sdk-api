@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.GetPolicies
 title: ISyncMgrHandler::GetPolicies
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a set of flags describing the policies set by the handler.
 old-location: shell\ISyncMgrHandler_GetPolicies.htm
 old-project: shell
 ms.assetid: ff30441a-43bb-4f30-af04-4d2056b8dfb0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPolicies, GetPolicies method [Windows Shell], GetPolicies method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetPolicies method, ISyncMgrHandler.GetPolicies, ISyncMgrHandler::GetPolicies, _shell_ISyncMgrHandler_GetPolicies, shell.ISyncMgrHandler_GetPolicies, syncmgr/ISyncMgrHandler::GetPolicies
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

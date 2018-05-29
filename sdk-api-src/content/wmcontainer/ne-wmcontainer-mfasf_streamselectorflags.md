@@ -1,16 +1,16 @@
 ---
 UID: NE:wmcontainer.MFASF_STREAMSELECTORFLAGS
 title: MFASF_STREAMSELECTORFLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the ASF stream selector options.
 old-location: mf\mfasf_streamselector_flags.htm
 old-project: medfound
 ms.assetid: 2ececb4a-9516-4066-bf01-0924252f93ee
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 2ececb4a-9516-4066-bf01-0924252f93ee, MFASF_STREAMSELECTORFLAGS, MFASF_STREAMSELECTOR_DISABLE_THINNING, MFASF_STREAMSELECTOR_FLAGS, MFASF_STREAMSELECTOR_FLAGS enumeration [Media Foundation], MFASF_STREAMSELECTOR_USE_AVERAGE_BITRATE, enumeration [Media Foundation], mf.mfasf_streamselector_flags, wmcontainer/MFASF_STREAMSELECTOR_DISABLE_THINNING, wmcontainer/MFASF_STREAMSELECTOR_FLAGS, wmcontainer/MFASF_STREAMSELECTOR_USE_AVERAGE_BITRATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmcontainer.h
 req.include-header: 

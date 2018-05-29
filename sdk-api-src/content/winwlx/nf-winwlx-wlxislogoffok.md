@@ -1,16 +1,16 @@
 ---
 UID: NF:winwlx.WlxIsLogoffOk
 title: WlxIsLogoffOk function
-author: windows-driver-content
+author: windows-sdk-content
 description: Winlogon calls this function when the user initiates a logoff operation.
 old-location: security\wlxislogoffok.htm
 old-project: SecAuthN
 ms.assetid: fe718ae7-d19e-430c-8d84-41682dca30a1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: WlxIsLogoffOk, WlxIsLogoffOk function [Security], _gina_wlxislogoffok, security.wlxislogoffok, winwlx/WlxIsLogoffOk
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IDataRetrieverCallback
 title: IDataRetrieverCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents methods that an IAsynchronousDataRetriever object can call to indicate that processing has been completed on an IAsynchronousDataRetriever method.
 old-location: winsync\idataretrievercallback.htm
 old-project: winsync
 ms.assetid: fc49614d-fdd7-433a-a942-f442edf1c69f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDataRetrieverCallback, IDataRetrieverCallback interface [Windows Sync], IDataRetrieverCallback interface [Windows Sync],described, winsync.idataretrievercallback, winsync/IDataRetrieverCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

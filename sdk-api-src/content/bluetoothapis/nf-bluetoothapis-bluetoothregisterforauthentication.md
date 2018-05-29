@@ -1,16 +1,16 @@
 ---
 UID: NF:bluetoothapis.BluetoothRegisterForAuthentication
 title: BluetoothRegisterForAuthentication function
-author: windows-driver-content
+author: windows-sdk-content
 description: The BluetoothRegisterForAuthentication function registers a callback function that is called when a particular Bluetooth device requests authentication.
 old-location: bluetooth\bluetoothregisterforauthentication.htm
 old-project: Bluetooth
 ms.assetid: f85dd076-9062-413f-863f-9d3baba322ad
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BluetoothRegisterForAuthentication, BluetoothRegisterForAuthentication function [Bluetooth], bluetooth.bluetoothregisterforauthentication, bluetoothapis/BluetoothRegisterForAuthentication
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

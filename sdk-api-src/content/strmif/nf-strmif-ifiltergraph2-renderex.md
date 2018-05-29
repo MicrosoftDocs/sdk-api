@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IFilterGraph2.RenderEx
 title: IFilterGraph2::RenderEx
-author: windows-driver-content
+author: windows-sdk-content
 description: The RenderEx method renders an output pin, with an option to use existing renderers only.
 old-location: dshow\ifiltergraph2_renderex.htm
 old-project: DirectShow
 ms.assetid: b169c784-2ce3-47dc-ad64-3e4c96483f34
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IFilterGraph2 interface [DirectShow],RenderEx method, IFilterGraph2.RenderEx, IFilterGraph2::RenderEx, IFilterGraph2RenderEx, RenderEx, RenderEx method [DirectShow], RenderEx method [DirectShow],IFilterGraph2 interface, dshow.ifiltergraph2_renderex, strmif/IFilterGraph2::RenderEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetInputParameterDesc
 title: ID3D12ShaderReflection::GetInputParameterDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an input-parameter description for a shader.
 old-location: direct3d12\id3d12shaderreflection_getinputparameterdesc.htm
 old-project: direct3d12
 ms.assetid: CD1AFABD-E830-4292-96F4-278BA84E5B54
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetInputParameterDesc, GetInputParameterDesc method, GetInputParameterDesc method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetInputParameterDesc method, ID3D12ShaderReflection.GetInputParameterDesc, ID3D12ShaderReflection::GetInputParameterDesc, d3d12shader/ID3D12ShaderReflection::GetInputParameterDesc, direct3d12.id3d12shaderreflection_getinputparameterdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

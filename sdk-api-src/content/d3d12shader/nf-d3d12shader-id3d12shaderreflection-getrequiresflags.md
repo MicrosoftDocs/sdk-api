@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetRequiresFlags
 title: ID3D12ShaderReflection::GetRequiresFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a group of flags that indicates the requirements of a shader.
 old-location: direct3d12\id3d12shaderreflection_getrequiresflags.htm
 old-project: direct3d12
 ms.assetid: ABA7BB9E-AB1D-407A-BB16-97EE74318C1A
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetRequiresFlags, GetRequiresFlags method, GetRequiresFlags method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetRequiresFlags method, ID3D12ShaderReflection.GetRequiresFlags, ID3D12ShaderReflection::GetRequiresFlags, d3d12shader/ID3D12ShaderReflection::GetRequiresFlags, direct3d12.id3d12shaderreflection_getrequiresflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

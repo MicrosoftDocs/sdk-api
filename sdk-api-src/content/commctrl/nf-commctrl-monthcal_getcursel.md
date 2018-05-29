@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.MonthCal_GetCurSel
 title: MonthCal_GetCurSel macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the currently selected date. You can use this macro or send the MCM_GETCURSEL message explicitly.
 old-location: controls\MonthCal_GetCurSel.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcursel.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MonthCal_GetCurSel, MonthCal_GetCurSel macro [Windows Controls], _win32_MonthCal_GetCurSel, _win32_MonthCal_GetCurSel_cpp, commctrl/MonthCal_GetCurSel, controls.MonthCal_GetCurSel, controls._win32_MonthCal_GetCurSel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

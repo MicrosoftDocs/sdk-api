@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core._SPACTION
 title: "_SPACTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an action being performed that requires progress to be shown to the user using an IActionProgress interface.
 old-location: shell\SPACTION.htm
 old-project: shell
 ms.assetid: fc5a0f96-e8c2-483f-86b0-d8c870a9f77a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SPACTION, SPACTION enumeration [Windows Shell], SPACTION_APPLYINGATTRIBS, SPACTION_CALCULATING, SPACTION_COPYING, SPACTION_COPY_MOVING, SPACTION_DELETING, SPACTION_DOWNLOADING, SPACTION_FORMATTING, SPACTION_MOVING, SPACTION_NONE, SPACTION_RECYCLING, SPACTION_RENAMING, SPACTION_SEARCHING_FILES, SPACTION_SEARCHING_INTERNET, SPACTION_UPLOADING, _SPACTION, shell.SPACTION, shell_SPACTION, shobjidl_core/SPACTION, shobjidl_core/SPACTION_APPLYINGATTRIBS, shobjidl_core/SPACTION_CALCULATING, shobjidl_core/SPACTION_COPYING, shobjidl_core/SPACTION_COPY_MOVING, shobjidl_core/SPACTION_DELETING, shobjidl_core/SPACTION_DOWNLOADING, shobjidl_core/SPACTION_FORMATTING, shobjidl_core/SPACTION_MOVING, shobjidl_core/SPACTION_NONE, shobjidl_core/SPACTION_RECYCLING, shobjidl_core/SPACTION_RENAMING, shobjidl_core/SPACTION_SEARCHING_FILES, shobjidl_core/SPACTION_SEARCHING_INTERNET, shobjidl_core/SPACTION_UPLOADING
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

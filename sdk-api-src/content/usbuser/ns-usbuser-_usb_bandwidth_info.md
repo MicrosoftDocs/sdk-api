@@ -1,16 +1,16 @@
 ---
 UID: NS:usbuser._USB_BANDWIDTH_INFO
 title: "_USB_BANDWIDTH_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The USB_BANDWIDTH_INFO structure is used with the IOCTL_USB_USER_REQUEST I/O control request to retrieve information about the allocated bandwidth.
 old-location: buses\usb_bandwidth_info.htm
 old-project: usbref
 ms.assetid: 33983bed-9794-4deb-8d30-1089eee9eb9c
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.author: windowssdkdev
+ms.date: 05/07/2018
 ms.keywords: "*PUSB_BANDWIDTH_INFO, PUSB_BANDWIDTH_INFO, PUSB_BANDWIDTH_INFO structure pointer [Buses], USB_BANDWIDTH_INFO, USB_BANDWIDTH_INFO structure [Buses], _USB_BANDWIDTH_INFO, buses.usb_bandwidth_info, usbstrct_d852c165-11b3-405f-aa49-dc7f48f710a1.xml, usbuser/PUSB_BANDWIDTH_INFO, usbuser/USB_BANDWIDTH_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: usbuser.h
 req.include-header: Usbuser.h

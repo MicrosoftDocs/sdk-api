@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IAudioChannelConfig.SetChannelConfig
 title: IAudioChannelConfig::SetChannelConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetChannelConfig method sets the channel-configuration mask in a channel-configuration control.
 old-location: coreaudio\iaudiochannelconfig_setchannelconfig.htm
 old-project: CoreAudio
 ms.assetid: a63b92ab-8abf-4582-b408-6c3e94a6bd3c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioChannelConfig interface [Core Audio],SetChannelConfig method, IAudioChannelConfig.SetChannelConfig, IAudioChannelConfig::SetChannelConfig, IAudioChannelConfigSetChannelConfig, SetChannelConfig, SetChannelConfig method [Core Audio], SetChannelConfig method [Core Audio],IAudioChannelConfig interface, coreaudio.iaudiochannelconfig_setchannelconfig, devicetopology/IAudioChannelConfig::SetChannelConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

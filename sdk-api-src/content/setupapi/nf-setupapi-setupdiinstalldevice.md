@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiInstallDevice
 title: SetupDiInstallDevice function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiInstallDevice function is the default handler for the DIF_INSTALLDEVICE installation request.
 old-location: devinst\setupdiinstalldevice.htm
 old-project: devinst
 ms.assetid: 130a58a8-7964-40cb-87e8-4765178bd1ff
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiInstallDevice, SetupDiInstallDevice function [Device and Driver Installation], devinst.setupdiinstalldevice, di-rtns_5b8edbe1-3653-41c6-8a61-12f11544ff08.xml, setupapi/SetupDiInstallDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

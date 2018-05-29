@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumExportedTypes
 title: IMetaDataAssemblyImport::EnumExportedTypes
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the exported types referenced in the assembly manifest in the current metadata scope.
 old-location: winrt\imetadataassemblyimport_enumexportedtypes.htm
 old-project: WinRT
 ms.assetid: 8274d8e3-bcfb-4560-b925-2fede03be4cd
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: EnumExportedTypes, EnumExportedTypes method [Windows Runtime], EnumExportedTypes method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumExportedTypes method, IMetaDataAssemblyImport.EnumExportedTypes, IMetaDataAssemblyImport::EnumExportedTypes, rometadataapi/IMetaDataAssemblyImport::EnumExportedTypes, winrt.imetadataassemblyimport_enumexportedtypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

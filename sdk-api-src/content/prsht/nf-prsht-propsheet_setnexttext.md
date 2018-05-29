@@ -1,16 +1,16 @@
 ---
 UID: NF:prsht.PropSheet_SetNextText
 title: PropSheet_SetNextText macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the text of the Next button in a wizard. You can use this macro or send the PSM_SETNEXTTEXT message explicitly.
 old-location: controls\PropSheet_SetNextText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setnexttext.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropSheet_SetNextText, PropSheet_SetNextText macro [Windows Controls], _shell_PropSheet_SetNextText, _shell_PropSheet_SetNextText_cpp, controls.PropSheet_SetNextText, controls._shell_PropSheet_SetNextText, prsht/PropSheet_SetNextText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

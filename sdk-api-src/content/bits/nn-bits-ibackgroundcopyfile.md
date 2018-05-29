@@ -1,16 +1,16 @@
 ---
 UID: NN:bits.IBackgroundCopyFile
 title: IBackgroundCopyFile
-author: windows-driver-content
+author: windows-sdk-content
 description: IBackgroundCopyFile contains information about a file that is part of a job. For example, you can use IBackgroundCopyFile methods to retrieve the local and remote names of the file and transfer progress information.
 old-location: bits\ibackgroundcopyfile.htm
 old-project: Bits
 ms.assetid: fae9cf56-c211-445b-b962-9a9d7d67c59c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBackgroundCopyFile, IBackgroundCopyFile interface [BITS], IBackgroundCopyFile interface [BITS],described, _drz_ibackgroundcopyfile, bits.ibackgroundcopyfile, bits/IBackgroundCopyFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits.h
 req.include-header: 

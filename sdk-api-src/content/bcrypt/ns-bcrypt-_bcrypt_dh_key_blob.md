@@ -1,16 +1,16 @@
 ---
 UID: NS:bcrypt._BCRYPT_DH_KEY_BLOB
 title: "_BCRYPT_DH_KEY_BLOB"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used as a header for a Diffie-Hellman public key or private key BLOB in memory.
 old-location: security\bcrypt_dh_key_blob.htm
 old-project: SecCNG
 ms.assetid: 6004b2e5-7e06-4108-a0da-472b9b6d5fea
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: "*PBCRYPT_DH_KEY_BLOB, BCRYPT_DH_KEY_BLOB, BCRYPT_DH_KEY_BLOB structure [Security], BCRYPT_DH_PRIVATE_MAGIC, BCRYPT_DH_PUBLIC_MAGIC, PBCRYPT_DH_KEY_BLOB, PBCRYPT_DH_KEY_BLOB structure pointer [Security], _BCRYPT_DH_KEY_BLOB, bcrypt/BCRYPT_DH_KEY_BLOB, bcrypt/PBCRYPT_DH_KEY_BLOB, security.bcrypt_dh_key_blob"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

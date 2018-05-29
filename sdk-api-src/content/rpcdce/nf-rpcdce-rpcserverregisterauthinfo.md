@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcServerRegisterAuthInfo
 title: RpcServerRegisterAuthInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcServerRegisterAuthInfo function registers authentication information with the RPC run-time library.
 old-location: rpc\rpcserverregisterauthinfo.htm
 old-project: Rpc
 ms.assetid: b7a7b57e-540b-460b-9eec-6246cc1fd9d3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcServerRegisterAuthInfo, RpcServerRegisterAuthInfo function [RPC], RpcServerRegisterAuthInfoA, RpcServerRegisterAuthInfoW, _rpc_rpcserverregisterauthinfo, rpc.rpcserverregisterauthinfo, rpcdce/RpcServerRegisterAuthInfo, rpcdce/RpcServerRegisterAuthInfoA, rpcdce/RpcServerRegisterAuthInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

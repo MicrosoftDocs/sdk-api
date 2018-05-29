@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasSetSubEntryPropertiesA
 title: RasSetSubEntryPropertiesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasSetSubEntryProperties function creates a new subentry or modifies an existing subentry of a specified phone-book entry.
 old-location: rras\rassetsubentryproperties.htm
 old-project: RRAS
 ms.assetid: 6bbc826b-e296-42d0-89d0-a13d0ce94929
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasSetSubEntryProperties, RasSetSubEntryProperties function [RAS], RasSetSubEntryPropertiesA, RasSetSubEntryPropertiesW, _ras_rassetsubentryproperties, ras/RasSetSubEntryProperties, ras/RasSetSubEntryPropertiesA, ras/RasSetSubEntryPropertiesW, rras.rassetsubentryproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

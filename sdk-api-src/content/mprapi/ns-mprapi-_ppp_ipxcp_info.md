@@ -1,16 +1,16 @@
 ---
 UID: NS:mprapi._PPP_IPXCP_INFO
 title: "_PPP_IPXCP_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The PPP_IPXCP_INFO structure contains the result of a PPP Internetwork Packet Exchange (IPX) projection operation.
 old-location: rras\ppp_ipxcp_info.htm
 old-project: RRAS
 ms.assetid: 6e269c4e-8014-4d59-a7dc-3314a67a4d12
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PPP_IPXCP_INFO, PPP_IPXCP_INFO structure [RAS], _PPP_IPXCP_INFO, _mpr_ppp_ipxcp_info, mprapi/PPP_IPXCP_INFO, rras.ppp_ipxcp_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamNearestKeyFrame
 title: AVIStreamNearestKeyFrame macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamNearestKeyFrame macro locates the key frame at or preceding a specified position in a stream.
 old-location: multimedia\avistreamnearestkeyframe.htm
 old-project: Multimedia
 ms.assetid: 90d0e0a8-dc5b-4f7e-868e-03f40f037437
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamNearestKeyFrame, AVIStreamNearestKeyFrame macro [Windows Multimedia], _win32_AVIStreamNearestKeyFrame, multimedia.avistreamnearestkeyframe, vfw/AVIStreamNearestKeyFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

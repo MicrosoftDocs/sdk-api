@@ -1,16 +1,16 @@
 ---
 UID: NN:wbemcli.IWbemStatusCodeText
 title: IWbemStatusCodeText
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemStatusCodeText interface extracts text string descriptions of error codes or the name of the subsystem where the error occurred.
 old-location: wmi\iwbemstatuscodetext.htm
 old-project: WmiSdk
 ms.assetid: e196b598-6b1a-4d29-9724-2d221c4bcd16
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemStatusCodeText, IWbemStatusCodeText interface [Windows Management Instrumentation], IWbemStatusCodeText interface [Windows Management Instrumentation],described, WbemStatusCodeText, _hmm_iwbemstatuscodetext, wbemcli/IWbemStatusCodeText, wmi.iwbemstatuscodetext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

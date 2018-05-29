@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.Add
 title: IX509PolicyServerListManager::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an IX509PolicyServerUrl object to the collection.
 old-location: security\ix509policyserverlistmanager_add.htm
 old-project: SecCertEnroll
 ms.assetid: f1f22d27-96bf-47f7-8572-5f3842797c18
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509PolicyServerListManager interface, IX509PolicyServerListManager interface [Security],Add method, IX509PolicyServerListManager.Add, IX509PolicyServerListManager::Add, certenroll/IX509PolicyServerListManager::Add, security.ix509policyserverlistmanager_add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

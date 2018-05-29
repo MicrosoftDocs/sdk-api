@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1.D2D1InvertMatrix
 title: D2D1InvertMatrix function
-author: windows-driver-content
+author: windows-sdk-content
 description: Tries to invert the specified matrix.
 old-location: direct2d\d2d1invertmatrix.htm
 old-project: Direct2D
 ms.assetid: af01b6df-ada9-4e21-98f0-356b96d1017a
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1InvertMatrix, D2D1InvertMatrix function [Direct2D], d2d1/D2D1InvertMatrix, direct2d.d2d1invertmatrix
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1.h
 req.include-header: 

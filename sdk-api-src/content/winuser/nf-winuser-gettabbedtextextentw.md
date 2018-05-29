@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetTabbedTextExtentW
 title: GetTabbedTextExtentW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTabbedTextExtent function computes the width and height of a character string.
 old-location: gdi\gettabbedtextextent.htm
 old-project: gdi
 ms.assetid: 3444bb8d-4a30-47d4-b211-01f7cba39975
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTabbedTextExtent, GetTabbedTextExtent function [Windows GDI], GetTabbedTextExtentA, GetTabbedTextExtentW, _win32_GetTabbedTextExtent, gdi.gettabbedtextextent, winuser/GetTabbedTextExtent, winuser/GetTabbedTextExtentA, winuser/GetTabbedTextExtentW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

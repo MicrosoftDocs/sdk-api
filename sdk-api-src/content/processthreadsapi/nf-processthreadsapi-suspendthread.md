@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.SuspendThread
 title: SuspendThread function
-author: windows-driver-content
+author: windows-sdk-content
 description: Suspends the specified thread.
 old-location: base\suspendthread.htm
 old-project: ProcThread
 ms.assetid: 1332abcb-3356-4890-a03c-843358c1a3ce
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SuspendThread, SuspendThread function, _win32_suspendthread, base.suspendthread, processthreadsapi/SuspendThread, winbase/SuspendThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

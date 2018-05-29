@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMAudioRendererStats.GetStatParam
 title: IAMAudioRendererStats::GetStatParam
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetStatParam method retrieves performance information from the audio renderer.
 old-location: dshow\iamaudiorendererstats_getstatparam.htm
 old-project: DirectShow
 ms.assetid: bc01cac7-316f-4d18-ae68-c3db4dbf03fa
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetStatParam, GetStatParam method [DirectShow], GetStatParam method [DirectShow],IAMAudioRendererStats interface, IAMAudioRendererStats interface [DirectShow],GetStatParam method, IAMAudioRendererStats.GetStatParam, IAMAudioRendererStats::GetStatParam, IAMAudioRendererStatsGetStatParam, dshow.iamaudiorendererstats_getstatparam, strmif/IAMAudioRendererStats::GetStatParam
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

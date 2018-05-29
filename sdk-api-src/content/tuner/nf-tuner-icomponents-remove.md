@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IComponents.Remove
 title: IComponents::Remove
-author: windows-driver-content
+author: windows-sdk-content
 description: The Remove method removes a Component object from the collection.
 old-location: mstv\icomponents_remove.htm
 old-project: mstv
 ms.assetid: 0d71b1f0-1a15-4206-b22f-624cc4b246a3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IComponents interface [Microsoft TV Technologies],Remove method, IComponents.Remove, IComponents::Remove, IComponentsRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IComponents interface, mstv.icomponents_remove, tuner/IComponents::Remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

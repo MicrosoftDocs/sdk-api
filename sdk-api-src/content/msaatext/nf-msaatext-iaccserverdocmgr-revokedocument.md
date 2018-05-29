@@ -1,16 +1,16 @@
 ---
 UID: NF:msaatext.IAccServerDocMgr.RevokeDocument
 title: IAccServerDocMgr::RevokeDocument
-author: windows-driver-content
+author: windows-sdk-content
 description: Server applications call the IAccServerDocMgr::RevokeDocument method to notify the Microsoft Active Accessibility run time that a document is no longer available. Calling RevokeDocument removes it from the store so that clients cannot see the document.
 old-location: winauto\iaccserverdocmgr_iaccserverdocmgr__revokedocument.htm
 old-project: WinAuto
 ms.assetid: 8691a641-fc06-451c-9988-234e01dc02df
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccServerDocMgr interface [Windows Accessibility],RevokeDocument method, IAccServerDocMgr.RevokeDocument, IAccServerDocMgr::RevokeDocument, RevokeDocument, RevokeDocument method [Windows Accessibility], RevokeDocument method [Windows Accessibility],IAccServerDocMgr interface, _msaa_IAccServerDocMgr_RevokeDocument, msaa.iaccserverdocmgr_iaccserverdocmgr__revokedocument, msaatext/IAccServerDocMgr::RevokeDocument, winauto.iaccserverdocmgr_iaccserverdocmgr__revokedocument
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msaatext.h
 req.include-header: 

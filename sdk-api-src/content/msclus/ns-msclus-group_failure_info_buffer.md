@@ -1,16 +1,16 @@
 ---
 UID: NS:msclus.GROUP_FAILURE_INFO_BUFFER
 title: GROUP_FAILURE_INFO_BUFFER
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a buffer for a GROUP_FAILURE_INFO structure.
 old-location: mscs\group_failure_info_buffer.htm
 old-project: MsCS
 ms.assetid: 69824D88-B9CE-451B-B65A-84822755CEAC
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PGROUP_FAILURE_INFO_BUFFER, GROUP_FAILURE_INFO_BUFFER, GROUP_FAILURE_INFO_BUFFER structure [Failover Cluster], PGROUP_FAILURE_INFO_BUFFER, PGROUP_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], clusapi/GROUP_FAILURE_INFO_BUFFER, clusapi/PGROUP_FAILURE_INFO_BUFFER, msclus/GROUP_FAILURE_INFO_BUFFER, msclus/PGROUP_FAILURE_INFO_BUFFER, mscs.group_failure_info_buffer"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msclus.h
 req.include-header: 

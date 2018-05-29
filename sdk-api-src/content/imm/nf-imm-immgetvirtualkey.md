@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmGetVirtualKey
 title: ImmGetVirtualKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the original virtual key value associated with a key input message that the IME has already processed.
 old-location: intl\immgetvirtualkey.htm
 old-project: Intl
 ms.assetid: 56c40e55-19e3-4c06-bac7-c4d0098e932a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmGetVirtualKey, ImmGetVirtualKey function [Internationalization for Windows Applications], _win32_ImmGetVirtualKey, imm/ImmGetVirtualKey, intl.immgetvirtualkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

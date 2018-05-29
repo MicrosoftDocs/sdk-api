@@ -1,16 +1,16 @@
 ---
 UID: NF:msime.IFECommon.IsDefaultIME
 title: IFECommon::IsDefaultIME
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if the IME specified by the class ID is the default IME on a local computer.
 old-location: intl\ifecommon_isdefaultime.htm
 old-project: Intl
 ms.assetid: FFC3E200-54D4-4C47-A4A3-87AA2A4A2232
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],IsDefaultIME method, IFECommon.IsDefaultIME, IFECommon::IsDefaultIME, IsDefaultIME, IsDefaultIME method [Internationalization for Windows Applications], IsDefaultIME method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_isdefaultime, msime/IFECommon::IsDefaultIME
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msime.h
 req.include-header: 

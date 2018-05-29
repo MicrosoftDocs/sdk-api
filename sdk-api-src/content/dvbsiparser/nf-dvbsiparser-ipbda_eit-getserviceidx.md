@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetServiceIdx
 title: IPBDA_EIT::GetServiceIdx
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the service identifier from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream. The service identifier identifies the service that contains the events.
 old-location: mstv\ipbda_eit_getserviceidx.htm
 old-project: mstv
 ms.assetid: 10e8def6-be78-4b0f-8b47-d0485a1b50f1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetServiceIdx, GetServiceIdx method [Microsoft TV Technologies], GetServiceIdx method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetServiceIdx method, IPBDA_EIT.GetServiceIdx, IPBDA_EIT::GetServiceIdx, dvbsiparser/IPBDA_EIT::GetServiceIdx, mstv.ipbda_eit_getserviceidx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

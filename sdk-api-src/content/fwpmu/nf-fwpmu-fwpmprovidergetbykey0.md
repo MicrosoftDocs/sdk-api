@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmProviderGetByKey0
 title: FwpmProviderGetByKey0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a provider.
 old-location: fwp\fwpmprovidergetbykey0_func.htm
 old-project: FWP
 ms.assetid: e5ed3f8e-a740-4cd9-9311-278abc9444e1
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmProviderGetByKey0, FwpmProviderGetByKey0 function [Filtering], fwp.fwpmprovidergetbykey0_func, fwpmu/FwpmProviderGetByKey0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleCreateFromFile
 title: OleCreateFromFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an embedded object from the contents of a named file.
 old-location: com\olecreatefromfile.htm
 old-project: com
 ms.assetid: 98c63646-6617-46b6-8c3e-82d1c4d0adb6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleCreateFromFile, OleCreateFromFile function [COM], _ole_OleCreateFromFile, com.olecreatefromfile, ole/OleCreateFromFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: Ole2.h

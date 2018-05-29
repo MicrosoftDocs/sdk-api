@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkQueryStatus
 title: WlanHostedNetworkQueryStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries the current status of the wireless Hosted Network.
 old-location: nwifi\wlanhostednetworkquerystatus.htm
 old-project: NativeWiFi
 ms.assetid: 896cff65-74ec-41d5-89e3-95fa85fd54cd
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanHostedNetworkQueryStatus, WlanHostedNetworkQueryStatus function [NativeWIFI], nwifi.wlanhostednetworkquerystatus, wlanapi/WlanHostedNetworkQueryStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

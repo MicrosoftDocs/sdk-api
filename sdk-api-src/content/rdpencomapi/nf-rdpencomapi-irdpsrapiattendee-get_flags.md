@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_Flags
 title: IRDPSRAPIAttendee::get_Flags
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the attendee specific flags that are defined in the RDPENCOMAPI_ATTENDEE_FLAGS enumeration type.
 old-location: rdp\irdpsrapiattendee_flags.htm
 old-project: Rdp
 ms.assetid: e2e6bef1-6828-473c-aa33-ab30ebe56948
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIAttendee interface, Flags property [RDP],RDPSRAPIAttendee object, IRDPSRAPIAttendee interface [RDP],Flags property, IRDPSRAPIAttendee.Flags, IRDPSRAPIAttendee.get_Flags, IRDPSRAPIAttendee::Flags, IRDPSRAPIAttendee::get_Flags, RDPSRAPIAttendee object [RDP],Flags property, get_Flags, rdp.irdpsrapiattendee_flags, rdpencomapi/IRDPSRAPIAttendee::Flags, rdpencomapi/IRDPSRAPIAttendee::get_Flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSequencerSource.UpdateTopology
 title: IMFSequencerSource::UpdateTopology
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates a topology in the queue.
 old-location: mf\imfsequencersource_updatetopology.htm
 old-project: medfound
 ms.assetid: 4ed6be6c-a031-4628-a3c5-7f0676cc0baf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 4ed6be6c-a031-4628-a3c5-7f0676cc0baf, IMFSequencerSource interface [Media Foundation],UpdateTopology method, IMFSequencerSource.UpdateTopology, IMFSequencerSource::UpdateTopology, UpdateTopology, UpdateTopology method [Media Foundation], UpdateTopology method [Media Foundation],IMFSequencerSource interface, mf.imfsequencersource_updatetopology, mfidl/IMFSequencerSource::UpdateTopology
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

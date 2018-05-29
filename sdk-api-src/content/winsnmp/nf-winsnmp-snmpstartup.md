@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpStartup
 title: SnmpStartup function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SnmpStartup function notifies the Microsoft WinSNMP implementation that the WinSNMP application requires the implementation's services.
 old-location: snmp\snmpstartup.htm
 old-project: SNMP
 ms.assetid: 7b8a4a1e-871f-424b-8bcb-c0b3bfaae9ce
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpStartup, SnmpStartup function [SNMP], _snmp_snmpstartup, snmp.snmpstartup, winsnmp/SnmpStartup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

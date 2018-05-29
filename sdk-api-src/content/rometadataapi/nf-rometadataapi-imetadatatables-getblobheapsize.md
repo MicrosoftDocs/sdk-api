@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetBlobHeapSize
 title: IMetaDataTables::GetBlobHeapSize
-author: windows-driver-content
+author: windows-sdk-content
 description: A pointer to a pointer to the binary data retrieved.
 old-location: winrt\imetadatatables_getblobheapsize.htm
 old-project: WinRT
 ms.assetid: 9001b2ee-846e-476b-b1db-7860c25075ee
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetBlobHeapSize, GetBlobHeapSize method [Windows Runtime], GetBlobHeapSize method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetBlobHeapSize method, IMetaDataTables.GetBlobHeapSize, IMetaDataTables::GetBlobHeapSize, rometadataapi/IMetaDataTables::GetBlobHeapSize, winrt.imetadatatables_getblobheapsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics
 title: IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries the protocol if RemoteFX graphics should be enabled for the connection.
 old-location: termserv\iwrdsremotefxgraphicsconnection_enableremotefxgraphics.htm
 old-project: TermServ
 ms.assetid: 3ad667ed-bbb5-44e2-992a-df90bbab7b79
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnableRemoteFXGraphics, EnableRemoteFXGraphics method [Remote Desktop Services], EnableRemoteFXGraphics method [Remote Desktop Services],IWRdsRemoteFXGraphicsConnection interface, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services],EnableRemoteFXGraphics method, IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics, IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics, termserv.iwrdsremotefxgraphicsconnection_enableremotefxgraphics, wtsprotocol/IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

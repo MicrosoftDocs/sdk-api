@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IAutoComplete.Enable
 title: IAutoComplete::Enable
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables autocompletion.
 old-location: shell\IAutoComplete_Enable.htm
 old-project: shell
 ms.assetid: dd22d855-6ade-4e30-9d39-a4a6434e7185
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],IAutoComplete interface, IAutoComplete interface [Windows Shell],Enable method, IAutoComplete.Enable, IAutoComplete::Enable, _win32_IAutoComplete_Enable, shell.IAutoComplete_Enable, shldisp/IAutoComplete::Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_CoverpageNote
 title: IFaxDoc::get_CoverpageNote
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the CoverpageNote property of a FaxDoc object. The CoverpageNote property is a null-terminated string that contains the text of a message or note from the sender that pertains to the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_coverpagenote_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4t7p.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CoverpageNote property [Fax Service], CoverpageNote property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],CoverpageNote property, FaxDoc.CoverpageNote, IFaxDoc.get_CoverpageNote, IFaxDoc::get_CoverpageNote, _mfax_ifaxdoc_get_coverpagenote, fax._mfax_ifaxdoc_get_coverpagenote, fax._mfax_ifaxdoc_get_coverpagenote_vb, get_CoverpageNote
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

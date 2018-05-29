@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IComUserEvent
 title: IComUserEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the subscriber of the specified user-defined metrics.
 old-location: cos\icomuserevent.htm
 old-project: cossdk
 ms.assetid: a443b54a-018f-48a0-b61c-9e18e9567a22
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComUserEvent, IComUserEvent interface [COM+], IComUserEvent interface [COM+],described, _dtc_IComUserEvent, comsvcs/IComUserEvent, cos.icomuserevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

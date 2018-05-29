@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_QUERY_DATA_TIMESTAMP_DISJOINT
 title: D3D11_QUERY_DATA_TIMESTAMP_DISJOINT
-author: windows-driver-content
+author: windows-sdk-content
 description: Query information about the reliability of a timestamp query.
 old-location: direct3d11\d3d11_query_data_timestamp_disjoint.htm
 old-project: direct3d11
 ms.assetid: d706626a-cf11-4087-b66a-350161050aad
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_QUERY_DATA_TIMESTAMP_DISJOINT, D3D11_QUERY_DATA_TIMESTAMP_DISJOINT structure [Direct3D 11], d3d11/D3D11_QUERY_DATA_TIMESTAMP_DISJOINT, direct3d11.d3d11_query_data_timestamp_disjoint, f6339efd-3b83-c410-71de-6ecde51119d9
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

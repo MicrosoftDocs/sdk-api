@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.IRunningTask
 title: IRunningTask
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the methods to get information from and control a running task.
 old-location: taskschd\irunningtask.htm
 old-project: TaskSchd
 ms.assetid: 71a06a8f-8628-415d-b002-977c0d27f9a4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IRunningTask, IRunningTask interface [Task Scheduler], IRunningTask interface [Task Scheduler],described, taskschd.irunningtask, taskschd/IRunningTask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

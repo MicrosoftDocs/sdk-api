@@ -1,16 +1,16 @@
 ---
 UID: NF:winstring.WindowsReplaceString
 title: WindowsReplaceString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces all occurrences of a set of characters in the specified string with another set of characters to create a new string.
 old-location: winrt\windowsreplacestring.htm
 old-project: WinRT
 ms.assetid: 9675A3EA-12F9-4EE9-93D1-1138FEEB7CA4
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: WindowsReplaceString, WindowsReplaceString function [Windows Runtime], winrt.windowsreplacestring, winstring/WindowsReplaceString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.AnimatePalette
 title: AnimatePalette function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AnimatePalette function replaces entries in the specified logical palette.
 old-location: gdi\animatepalette.htm
 old-project: gdi
 ms.assetid: 65dd45e2-39a4-4a94-bd14-b0c8e4a609a3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AnimatePalette, AnimatePalette function [Windows GDI], _win32_AnimatePalette, gdi.animatepalette, wingdi/AnimatePalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

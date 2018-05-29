@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.get_SignalPresent
 title: IBDA_SignalStatistics::get_SignalPresent
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_SignalPresent method retrieves a Boolean value indicating whether a signal is present.
 old-location: mstv\ibda_signalstatistics_get_signalpresent.htm
 old-project: mstv
 ms.assetid: 834149e1-50b7-42f6-8fee-a357ed4bc8b8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SignalPresent method, IBDA_SignalStatistics.get_SignalPresent, IBDA_SignalStatistics::get_SignalPresent, IBDA_SignalStatisticsget_SignalPresent, bdaiface/IBDA_SignalStatistics::get_SignalPresent, get_SignalPresent, get_SignalPresent method [Microsoft TV Technologies], get_SignalPresent method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_signalpresent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

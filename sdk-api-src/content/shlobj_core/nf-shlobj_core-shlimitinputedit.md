@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHLimitInputEdit
 title: SHLimitInputEdit function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets limits on valid characters for an edit control.
 old-location: shell\SHLimitInputEdit.htm
 old-project: shell
 ms.assetid: 3f03374f-8dfe-4b80-9ecc-12c6548f2865
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHLimitInputEdit, SHLimitInputEdit function [Windows Shell], _shell_SHLimitInputEdit, shell.SHLimitInputEdit, shlobj_core/SHLimitInputEdit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

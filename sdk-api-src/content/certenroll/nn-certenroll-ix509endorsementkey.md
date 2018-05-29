@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509EndorsementKey
 title: IX509EndorsementKey
-author: windows-driver-content
+author: windows-sdk-content
 description: X.509 Endorsement Key Interface
 old-location: security\ix509endorsementkey.htm
 old-project: SecCertEnroll
 ms.assetid: 24f063a7-02e3-47cf-89ca-ebc63bf3e2dc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509EndorsementKey, IX509EndorsementKey interface [Security], IX509EndorsementKey interface [Security],described, certenroll/IX509EndorsementKey, security.ix509endorsementkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

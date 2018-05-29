@@ -1,16 +1,16 @@
 ---
 UID: NF:filter.IFilter.GetText
 title: IFilter::GetText
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves text (text-type properties) from the current chunk, which must have a CHUNKSTATE enumeration value of CHUNK_TEXT.
 old-location: indexsrv\ifilter_gettext.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_5378.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetText, GetText method [Indexing Service], GetText method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetText method, IFilter.GetText, IFilter::GetText, _idxs_IFilter_GetText, filter/IFilter::GetText, indexsrv.ifilter_gettext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: filter.h
 req.include-header: 

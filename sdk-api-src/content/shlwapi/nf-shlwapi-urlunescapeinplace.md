@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.UrlUnescapeInPlace
 title: UrlUnescapeInPlace macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts escape sequences back into ordinary characters and overwrites the original string.
 old-location: shell\UrlUnescapeInPlace.htm
 old-project: shell
 ms.assetid: 315215dc-c074-4abb-8bb2-006eff18b88d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: URL_DONT_UNESCAPE_EXTRA_INFO, UrlUnescapeInPlace, UrlUnescapeInPlace function [Windows Shell], _win32_UrlUnescapeInPlace, shell.UrlUnescapeInPlace, shlwapi/UrlUnescapeInPlace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: shlwapi.h
 req.include-header: 

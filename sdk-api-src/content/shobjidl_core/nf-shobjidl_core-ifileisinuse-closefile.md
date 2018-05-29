@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileIsInUse.CloseFile
 title: IFileIsInUse::CloseFile
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the file currently in use.
 old-location: shell\IFileIsInUse_CloseFile.htm
 old-project: shell
 ms.assetid: 27338e5a-b303-4b72-b316-3059ec6f1698
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CloseFile, CloseFile method [Windows Shell], CloseFile method [Windows Shell],IFileIsInUse interface, IFileIsInUse interface [Windows Shell],CloseFile method, IFileIsInUse.CloseFile, IFileIsInUse::CloseFile, _shell_IFileIsInUse_CloseFile, shell.IFileIsInUse_CloseFile, shobjidl_core/IFileIsInUse::CloseFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupQueryDrivesInDiskSpaceListW
 title: SetupQueryDrivesInDiskSpaceListW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupQueryDrivesInDiskSpaceList function fills a buffer with a list of the drives referenced by the file operations listed in the disk-space list.
 old-location: setup\setupquerydrivesindiskspacelist.htm
 old-project: SetupApi
 ms.assetid: be298b54-f5dc-46a3-a54c-f7ca5cb3a2fb
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupQueryDrivesInDiskSpaceList, SetupQueryDrivesInDiskSpaceList function [Setup API], SetupQueryDrivesInDiskSpaceListA, SetupQueryDrivesInDiskSpaceListW, _setupapi_setupquerydrivesindiskspacelist, setup.setupquerydrivesindiskspacelist, setupapi/SetupQueryDrivesInDiskSpaceList, setupapi/SetupQueryDrivesInDiskSpaceListA, setupapi/SetupQueryDrivesInDiskSpaceListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

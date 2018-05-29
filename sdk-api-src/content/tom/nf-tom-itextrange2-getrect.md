@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange2.GetRect
 title: ITextRange2::GetRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a rectangle of the specified type for the current range.
 old-location: controls\itextrange2_getrect.htm
 old-project: Controls
 ms.assetid: 14f0faab-ff37-4f86-a4ba-b6c207d7ddf0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetRect, GetRect method [Windows Controls], GetRect method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetRect method, ITextRange2.GetRect, ITextRange2::GetRect, controls.itextrange2_getrect, tom/ITextRange2::GetRect, tomAllowOffClient, tomClientCoord, tomObjectArg, tomTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

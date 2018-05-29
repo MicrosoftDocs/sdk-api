@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfFnConfigureRegisterEudc
 title: ITfFnConfigureRegisterEudc
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfFnConfigureRegisterEudc interface is implemented by a text service to provide the UI to register the key sequence for the given EUDC.
 old-location: tsf\itffnconfigureregistereudc.htm
 old-project: TSF
 ms.assetid: 40bbb994-fece-4c38-8480-2c50011aac64
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnConfigureRegisterEudc, ITfFnConfigureRegisterEudc interface [Text Services Framework], ITfFnConfigureRegisterEudc interface [Text Services Framework],described, _tsf_itffnconfigureregistereudc_ref, ctffunc/ITfFnConfigureRegisterEudc, tsf.itffnconfigureregistereudc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: Msctf.h

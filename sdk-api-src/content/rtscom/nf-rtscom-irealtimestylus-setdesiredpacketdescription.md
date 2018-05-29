@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.SetDesiredPacketDescription
 title: IRealTimeStylus::SetDesiredPacketDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests properties to be included in the packet stream.
 old-location: tablet\irealtimestylus_setdesiredpacketdescription.htm
 old-project: tablet
 ms.assetid: 1ea8359b-fc9f-4929-9499-c5017eb3d763
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 1ea8359b-fc9f-4929-9499-c5017eb3d763, IRealTimeStylus interface [Tablet PC],SetDesiredPacketDescription method, IRealTimeStylus.SetDesiredPacketDescription, IRealTimeStylus::SetDesiredPacketDescription, SetDesiredPacketDescription, SetDesiredPacketDescription method [Tablet PC], SetDesiredPacketDescription method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::SetDesiredPacketDescription, tablet.irealtimestylus_setdesiredpacketdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

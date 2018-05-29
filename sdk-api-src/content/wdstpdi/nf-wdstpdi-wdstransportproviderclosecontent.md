@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderCloseContent
 title: WdsTransportProviderCloseContent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a content stream specified by a handle.
 old-location: wds\wdstransportproviderclosecontent.htm
 old-project: Wds
 ms.assetid: 358fdf14-b57b-4c07-b0a5-d8f49aa96c21
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsTransportProviderCloseContent, WdsTransportProviderCloseContent callback, WdsTransportProviderCloseContent callback function [Windows Deployment Services], wds.wdstransportproviderclosecontent, wdstpdi/WdsTransportProviderCloseContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 

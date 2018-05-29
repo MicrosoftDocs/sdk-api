@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderProperties.SetValue
 title: IProviderProperties::SetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of the specified property key.
 old-location: ncd\iproviderproperties_setvalue.htm
 old-project: FunDisc
 ms.assetid: 5aa3e6a3-febc-4d2d-b58b-abfad28d325d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IProviderProperties interface,SetValue method, IProviderProperties.SetValue, IProviderProperties::SetValue, SetValue, SetValue method, SetValue method,IProviderProperties interface, functiondiscoveryprovider/IProviderProperties::SetValue, ncd.iproviderproperties_setvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

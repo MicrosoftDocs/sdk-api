@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetTextW
 title: IDvbExtendedEventDescriptor::GetTextW
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the text describing an itemfrom a Digital Video Broadcast (DVB) extended event descriptor, in string format.
 old-location: mstv\idvbextendedeventdescriptor_gettextw.htm
 old-project: mstv
 ms.assetid: 18433c81-c58f-4657-90b0-183b1ad9f8e8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetTextW method, IDvbExtendedEventDescriptor.GetTextW, IDvbExtendedEventDescriptor::GetTextW, dvbsiparser/IDvbExtendedEventDescriptor::GetTextW, mstv.idvbextendedeventdescriptor_gettextw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

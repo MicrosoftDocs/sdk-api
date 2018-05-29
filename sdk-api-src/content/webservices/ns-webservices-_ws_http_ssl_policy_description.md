@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_HTTP_SSL_POLICY_DESCRIPTION
 title: "_WS_HTTP_SSL_POLICY_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the policy specifying http channel binding.
 old-location: wsw\ws_http_ssl_policy_description.htm
 old-project: wsw
 ms.assetid: 5175dfe4-eba6-4101-982d-273f67065c5c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_HTTP_SSL_POLICY_DESCRIPTION, WS_HTTP_SSL_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_HTTP_SSL_POLICY_DESCRIPTION, webservices/WS_HTTP_SSL_POLICY_DESCRIPTION, wsw.ws_http_ssl_policy_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

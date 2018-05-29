@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetDigestValue
 title: IOpcSignatureReference::GetDigestValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the digest value that is calculated for the referenced XML element when the element is signed.
 old-location: opc\iopcsignaturereference_getdigestvalue.htm
 old-project: OPC
 ms.assetid: 0bb46de1-63af-4ac1-b37b-42a2b174b590
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetDigestValue, GetDigestValue method [Open Packaging Conventions], GetDigestValue method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetDigestValue method, IOpcSignatureReference.GetDigestValue, IOpcSignatureReference::GetDigestValue, msopc/IOpcSignatureReference::GetDigestValue, opc.iopcsignaturereference_getdigestvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

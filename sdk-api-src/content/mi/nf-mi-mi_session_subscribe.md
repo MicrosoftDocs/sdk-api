@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Session_Subscribe
 title: MI_Session_Subscribe function
-author: windows-driver-content
+author: windows-sdk-content
 description: Subscribes to an indication on the server represented by the session.
 old-location: wmi_v2\mi_session_subscribe.htm
 old-project: wmi_v2
 ms.assetid: fed64a7a-ef16-4e9b-91b4-7ecede099585
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Session_Subscribe, MI_Session_Subscribe function [Windows Management Infrastructure (MI)], mi/MI_Session_Subscribe, wmi_v2.mi_session_subscribe
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.KeepItems
 title: ISyncMgrResolutionHandler::KeepItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Keeps the Shell items that are passed in.
 old-location: shell\ISyncMgrResolutionHandler_KeepItems.htm
 old-project: shell
 ms.assetid: 81be006b-4aa4-42da-ae1b-001ae92a3e9b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],KeepItems method, ISyncMgrResolutionHandler.KeepItems, ISyncMgrResolutionHandler::KeepItems, KeepItems, KeepItems method [Windows Shell], KeepItems method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_KeepItems, shell.ISyncMgrResolutionHandler_KeepItems, syncmgr/ISyncMgrResolutionHandler::KeepItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

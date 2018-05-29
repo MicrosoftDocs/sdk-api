@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HTTPAPI_LESS_VERSION
 title: HTTPAPI_LESS_VERSION macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a non-zero value if an HTTPAPI_VERSION structure is less than a specified major/minor version combination, or zero otherwise.
 old-location: http\httpapi_less_version.htm
 old-project: Http
 ms.assetid: e53d1866-7e5a-43aa-a1b3-287e7cfe3ad8
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HTTPAPI_LESS_VERSION, HTTPAPI_LESS_VERSION macro [HTTP], http.httpapi_less_version, http/HTTPAPI_LESS_VERSION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: http.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.Exists
 title: IFileSystemImage::Exists
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks for the existence of a given file or directory.
 old-location: imapi\ifilesystemimage_exists.htm
 old-project: imapi
 ms.assetid: c3a86e85-1ffd-47c1-9dba-0fc207d76a1a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Exists, Exists method [IMAPI], Exists method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],Exists method, IFileSystemImage.Exists, IFileSystemImage::Exists, imapi.ifilesystemimage_exists, imapi2fs/IFileSystemImage::Exists
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

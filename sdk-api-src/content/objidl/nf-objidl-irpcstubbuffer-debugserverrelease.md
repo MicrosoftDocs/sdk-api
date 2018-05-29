@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.DebugServerRelease
 title: IRpcStubBuffer::DebugServerRelease
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases an interface pointer that was previously returned by DebugServerQueryInterface.
 old-location: com\irpcstubbuffer_debugserverrelease.htm
 old-project: com
 ms.assetid: 511f6e55-fb1d-4500-80fd-83e3fe2779d1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DebugServerRelease, DebugServerRelease method [COM], DebugServerRelease method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],DebugServerRelease method, IRpcStubBuffer.DebugServerRelease, IRpcStubBuffer::DebugServerRelease, _com_irpcstubbuffer_debugserverrelease, com.irpcstubbuffer_debugserverrelease, objidlbase/IRpcStubBuffer::DebugServerRelease
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

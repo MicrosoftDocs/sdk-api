@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsCreateMessageForChannel
 title: WsCreateMessageForChannel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a message for use with a specified channel.
 old-location: wsw\wscreatemessageforchannel.htm
 old-project: wsw
 ms.assetid: 0a4f076b-6725-45a9-8817-5dec3b647c4f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsCreateMessageForChannel, WsCreateMessageForChannel function [Web Services for Windows], webservices/WsCreateMessageForChannel, wsw.wscreatemessageforchannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

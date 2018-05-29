@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IWriteEngine2.get_StartingSectorsPerSecond
 title: IWriteEngine2::get_StartingSectorsPerSecond
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the estimated number of sectors per second that the recording device can write to the media at the start of the writing process.
 old-location: imapi\iwriteengine2_get_startingsectorspersecond.htm
 old-project: imapi
 ms.assetid: 335da519-7378-469d-83dc-7c6a265fe67b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],get_StartingSectorsPerSecond method, IWriteEngine2.get_StartingSectorsPerSecond, IWriteEngine2::get_StartingSectorsPerSecond, get_StartingSectorsPerSecond, get_StartingSectorsPerSecond method [IMAPI], get_StartingSectorsPerSecond method [IMAPI],IWriteEngine2 interface, imapi.iwriteengine2_get_startingsectorspersecond, imapi2/IWriteEngine2::get_StartingSectorsPerSecond
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

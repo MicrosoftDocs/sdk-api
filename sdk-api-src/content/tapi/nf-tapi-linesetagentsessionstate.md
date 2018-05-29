@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSetAgentSessionState
 title: lineSetAgentSessionState function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSetAgentSessionState function sets the agent session state associated with a particular agent session handle.
 old-location: tapi2\linesetagentsessionstate.htm
 old-project: Tapi
 ms.assetid: 284d8411-6ac7-4496-893b-0349057523e8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesetagentsessionstate, lineSetAgentSessionState, lineSetAgentSessionState function [TAPI 2.2], tapi/lineSetAgentSessionState, tapi2.linesetagentsessionstate"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

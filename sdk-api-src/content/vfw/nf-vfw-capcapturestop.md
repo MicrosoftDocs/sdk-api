@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capCaptureStop
 title: capCaptureStop macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capCaptureStop macro stops the capture operation. You can use this macro or explicitly send the WM_CAP_STOP message.
 old-location: multimedia\capcapturestop.htm
 old-project: Multimedia
 ms.assetid: 79b33f36-1bf9-41f2-827f-d0cfa276113e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capCaptureStop, capCaptureStop, capCaptureStop macro [Windows Multimedia], multimedia.capcapturestop, vfw/capCaptureStop"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.IsPathSupported
 title: IVssFileShareSnapshotProvider::IsPathSupported
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the given Universal Naming Convention (UNC) path is supported by this provider.
 old-location: base\ivssfilesharesnapshotprovider_ispathsupported.htm
 old-project: VSS
 ms.assetid: 6a4db9dd-3854-414f-ba5c-83e36de6f19b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],IsPathSupported method, IVssFileShareSnapshotProvider.IsPathSupported, IVssFileShareSnapshotProvider::IsPathSupported, IsPathSupported, IsPathSupported method [VSS], IsPathSupported method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_ispathsupported, vsprov/IVssFileShareSnapshotProvider::IsPathSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

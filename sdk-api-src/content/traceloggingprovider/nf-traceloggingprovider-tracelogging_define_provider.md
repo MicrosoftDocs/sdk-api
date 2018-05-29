@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingprovider.TRACELOGGING_DEFINE_PROVIDER
 title: TRACELOGGING_DEFINE_PROVIDER macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates storage for a TraceLogging provider and creates a handle to the provider.
 old-location: tracelogging\TRACELOGGING_DEFINE_PROVIDER.htm
 old-project: tracelogging
 ms.assetid: 4515652D-86B0-4274-8523-27292F5F6815
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TRACELOGGING_DEFINE_PROVIDER, TRACELOGGING_DEFINE_PROVIDER macro, tracelogging.TRACELOGGING_DEFINE_PROVIDER, tracelogging.traceloggingprovider, traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

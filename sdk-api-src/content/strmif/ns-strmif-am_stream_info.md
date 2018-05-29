@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.AM_STREAM_INFO
 title: AM_STREAM_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The AM_STREAM_INFO structure contains stream-control information.
 old-location: dshow\am_stream_info.htm
 old-project: DirectShow
 ms.assetid: 63b62f03-1973-41af-b6a4-e1bcb6ab803f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AM_STREAM_INFO, AM_STREAM_INFO structure [DirectShow], AM_STREAM_INFOStructure, dshow.am_stream_info, strmif/AM_STREAM_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

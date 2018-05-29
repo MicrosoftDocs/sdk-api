@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGraphConnect
 title: PeerGraphConnect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGraphConnect function attempts to make a connection to a specified node in a peer graph.
 old-location: p2p\peergraphconnect.htm
 old-project: P2PSdk
 ms.assetid: 76a2c54d-4424-4aa3-9b62-3ebe88b63c9f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGraphConnect, PeerGraphConnect function [Peer Networking], p2p.peergraphconnect, p2p/PeerGraphConnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

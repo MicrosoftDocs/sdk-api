@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.SetThreadPriorityBoost
 title: SetThreadPriorityBoost function
-author: windows-driver-content
+author: windows-sdk-content
 description: Disables or enables the ability of the system to temporarily boost the priority of a thread.
 old-location: base\setthreadpriorityboost.htm
 old-project: ProcThread
 ms.assetid: 5cc16bfe-6792-40e8-91ef-6f54a38e6e33
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetThreadPriorityBoost, SetThreadPriorityBoost function, _win32_setthreadpriorityboost, base.setthreadpriorityboost, processthreadsapi/SetThreadPriorityBoost, winbase/SetThreadPriorityBoost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

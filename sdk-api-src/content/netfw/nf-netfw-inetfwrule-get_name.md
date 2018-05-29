@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwRule.get_Name
 title: INetFwRule::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the friendly name of this rule.
 old-location: ics\inetfwrule_name.htm
 old-project: ICS
 ms.assetid: 669ea684-5b00-4b60-8259-fad02cca572b
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwRule interface [ICS/ICF],Name property, INetFwRule.Name, INetFwRule.get_Name, INetFwRule::Name, INetFwRule::get_Name, INetFwRule::put_Name, Name property [ICS/ICF], Name property [ICS/ICF],INetFwRule interface, get_Name, ics.inetfwrule_name, netfw/INetFwRule::Name, netfw/INetFwRule::get_Name, netfw/INetFwRule::put_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

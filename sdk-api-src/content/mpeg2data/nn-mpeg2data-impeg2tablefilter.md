@@ -1,16 +1,16 @@
 ---
 UID: NN:mpeg2data.IMpeg2TableFilter
 title: IMpeg2TableFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMpeg2TableFilter interface controls which tables are parsed by the MPEG-2 Sections and Tables filter. The BDA MPEG-2 Transport Information filter exposes this interface on its output pins.
 old-location: mstv\impeg2tablefilter.htm
 old-project: mstv
 ms.assetid: 9467352d-44a5-41eb-b426-28df83a6d423
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMpeg2TableFilter, IMpeg2TableFilter interface [Microsoft TV Technologies], IMpeg2TableFilter interface [Microsoft TV Technologies],described, IMpeg2TableFilterInterface, mpeg2data/IMpeg2TableFilter, mstv.impeg2tablefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mpeg2data.h
 req.include-header: 

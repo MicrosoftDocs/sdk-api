@@ -1,16 +1,16 @@
 ---
 UID: NN:eventsys.IEnumEventObject
 title: IEnumEventObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the event objects that are registered in the COM+ events store.
 old-location: cos\ienumeventobject.htm
 old-project: cossdk
 ms.assetid: a42d0791-28d0-4d83-b94d-ff2f8ef9a614
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumEventObject, IEnumEventObject interface [COM+], IEnumEventObject interface [COM+],described, _cos_ienumeventobject, cos.ienumeventobject, eventsys/IEnumEventObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 

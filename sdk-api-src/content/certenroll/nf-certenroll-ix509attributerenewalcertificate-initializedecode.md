@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509AttributeRenewalCertificate.InitializeDecode
 title: IX509AttributeRenewalCertificate::InitializeDecode
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the object from a Distinguished Encoding Rules (DER) encoded byte array that contains the certificate to be renewed.
 old-location: security\ix509attributerenewalcertificate_initializedecode_method.htm
 old-project: SecCertEnroll
 ms.assetid: dd5a43c3-5244-43da-a6d5-87b109baea09
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509AttributeRenewalCertificate interface [Security],InitializeDecode method, IX509AttributeRenewalCertificate.InitializeDecode, IX509AttributeRenewalCertificate::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509AttributeRenewalCertificate interface, certenroll/IX509AttributeRenewalCertificate::InitializeDecode, security.ix509attributerenewalcertificate_initializedecode_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

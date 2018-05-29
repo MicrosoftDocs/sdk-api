@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaTemplateManager
 title: IFsrmQuotaTemplateManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to manage quota templates.
 old-location: fsrm\ifsrmquotatemplatemanager.htm
 old-project: Fsrm
 ms.assetid: c6e782ff-b2e7-4bd6-bd9f-cc645c6ee5d6
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmQuotaTemplateManager, IFsrmQuotaTemplateManager interface [File Server Resource Manager], IFsrmQuotaTemplateManager interface [File Server Resource Manager],described, fs.ifsrmquotatemplatemanager, fsrm.ifsrmquotatemplatemanager, fsrmquota/IFsrmQuotaTemplateManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h

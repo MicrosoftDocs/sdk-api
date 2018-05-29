@@ -1,16 +1,16 @@
 ---
 UID: NN:xaudio2.IXAudio2SourceVoice
 title: IXAudio2SourceVoice
-author: windows-driver-content
+author: windows-sdk-content
 description: Use a source voice to submit audio data to the XAudio2 processing pipeline.
 old-location: xaudio2\ixaudio2sourcevoice.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: IXAudio2SourceVoice, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs], IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],described, xaudio2.ixaudio2sourcevoice, xaudio2/IXAudio2SourceVoice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xaudio2.h
 req.include-header: 

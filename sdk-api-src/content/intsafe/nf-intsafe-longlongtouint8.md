@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.LongLongToUInt8
 title: LongLongToUInt8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type LONGLONG to a value of type UINT8.
 old-location: shell\LongLongToUInt8.htm
 old-project: shell
 ms.assetid: b8dd8478-7c15-4183-9531-dd06ea2ccb03
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LongLongToUInt8, LongLongToUInt8 function [Windows Shell], intsafe/LongLongToUInt8, shell.LongLongToUInt8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

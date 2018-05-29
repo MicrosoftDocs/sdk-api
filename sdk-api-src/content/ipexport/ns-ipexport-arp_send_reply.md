@@ -1,16 +1,16 @@
 ---
 UID: NS:ipexport.arp_send_reply
 title: arp_send_reply
-author: windows-driver-content
+author: windows-sdk-content
 description: The ARP_SEND_REPLY structure stores information about an Address Resolution Protocol (ARP) reply messages.
 old-location: iphlp\arp_send_reply.htm
 old-project: IpHlp
 ms.assetid: 6495d289-b9b8-42cb-b00b-cde53d3dc91c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PARP_SEND_REPLY, *PARP_SEND_REPLY structure [IP Helper], ARP_SEND_REPLY, ARP_SEND_REPLY structure [IP Helper], arp_send_reply, ipexport/*PARP_SEND_REPLY, ipexport/ARP_SEND_REPLY, iphlp.arp_send_reply"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipexport.h
 req.include-header: Iphlpapi.h

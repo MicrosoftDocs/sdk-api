@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaNodeRelease
 title: UiaNodeRelease function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a node from memory.
 old-location: winauto\uiauto_UiaNodeReleaseMemManMeth.htm
 old-project: WinAuto
 ms.assetid: dce9fd8a-b307-46b6-9e1d-ee31904e383f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaNodeRelease, UiaNodeRelease function [Windows Accessibility], uiauto.uiauto_UiaNodeReleaseMemManMeth, uiauto_UiaNodeReleaseMemManMeth, uiautomationcoreapi/UiaNodeRelease, winauto.uiauto_UiaNodeReleaseMemManMeth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

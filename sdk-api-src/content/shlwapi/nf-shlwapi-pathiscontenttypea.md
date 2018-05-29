@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathIsContentTypeA
 title: PathIsContentTypeA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if a file's registered content type matches the specified content type. This function obtains the content type for the specified file type and compares that string with the pszContentType. The comparison is not case-sensitive.
 old-location: shell\PathIsContentType.htm
 old-project: shell
 ms.assetid: 53eac496-9666-41fc-8682-f7b6583a62fe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathIsContentType, PathIsContentType function [Windows Shell], PathIsContentTypeA, PathIsContentTypeW, _win32_PathIsContentType, shell.PathIsContentType, shlwapi/PathIsContentType, shlwapi/PathIsContentTypeA, shlwapi/PathIsContentTypeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

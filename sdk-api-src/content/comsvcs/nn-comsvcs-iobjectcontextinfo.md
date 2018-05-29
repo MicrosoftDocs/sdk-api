@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IObjectContextInfo
 title: IObjectContextInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves transaction, activity, and context information on the current context object.
 old-location: cos\iobjectcontextinfo.htm
 old-project: cossdk
 ms.assetid: 76dcc6f3-f840-4672-bba9-038c1249a306
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IObjectContextInfo, IObjectContextInfo interface [COM+], IObjectContextInfo interface [COM+],described, _cos_IObjectContextInfo, comsvcs/IObjectContextInfo, cos.iobjectcontextinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

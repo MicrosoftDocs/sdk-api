@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetDescription
 title: IWMProfile::GetDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDescription method retrieves the profile description. The description is a string that contains an explanation of what the profile should be used for.
 old-location: wmformat\iwmprofile_getdescription.htm
 old-project: wmformat
 ms.assetid: fa680ddb-091b-4461-8979-9330f8d59cea
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetDescription, GetDescription method [windows Media Format], GetDescription method [windows Media Format],IWMProfile interface, GetDescription method [windows Media Format],IWMProfile2 interface, GetDescription method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetDescription method, IWMProfile.GetDescription, IWMProfile2 interface [windows Media Format],GetDescription method, IWMProfile2::GetDescription, IWMProfile3 interface [windows Media Format],GetDescription method, IWMProfile3::GetDescription, IWMProfile::GetDescription, IWMProfileGetDescription, wmformat.iwmprofile_getdescription, wmsdkidl/IWMProfile2::GetDescription, wmsdkidl/IWMProfile3::GetDescription, wmsdkidl/IWMProfile::GetDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

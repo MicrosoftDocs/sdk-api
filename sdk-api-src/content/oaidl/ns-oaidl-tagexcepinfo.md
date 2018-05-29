@@ -1,16 +1,16 @@
 ---
 UID: NS:oaidl.tagEXCEPINFO
 title: tagEXCEPINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an exception that occurred during IDispatch::Invoke.
 old-location: automat\excepinfo.htm
 old-project: automat
 ms.assetid: 29583e58-10a6-4679-a5c6-d51f2b50b074
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: "*LPEXCEPINFO, EXCEPINFO, EXCEPINFO structure [Automation], LPEXCEPINFO, LPEXCEPINFO structure pointer [Automation], _oa96_EXCEPINFO, automat.excepinfo, oaidl/EXCEPINFO, oaidl/LPEXCEPINFO, tagEXCEPINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

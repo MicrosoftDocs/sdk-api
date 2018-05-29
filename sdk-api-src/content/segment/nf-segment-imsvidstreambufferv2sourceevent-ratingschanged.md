@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferV2SourceEvent.RatingsChanged
 title: IMSVidStreamBufferV2SourceEvent::RatingsChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: Fired when the SBE2 source filter receives a STREAMBUFFER_EC_RATE_CHANGED event, which indicates the playback rate has changed.
 old-location: mstv\imsvidstreambufferv2sourceevent_ratingschanged.htm
 old-project: mstv
 ms.assetid: 56ba6126-c3c7-4cbd-9209-7638452d5782
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferV2SourceEvent interface [Microsoft TV Technologies],RatingsChanged method, IMSVidStreamBufferV2SourceEvent.RatingsChanged, IMSVidStreamBufferV2SourceEvent::RatingsChanged, RatingsChanged, RatingsChanged method [Microsoft TV Technologies], RatingsChanged method [Microsoft TV Technologies],IMSVidStreamBufferV2SourceEvent interface, mstv.imsvidstreambufferv2sourceevent_ratingschanged, segment/IMSVidStreamBufferV2SourceEvent::RatingsChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

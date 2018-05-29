@@ -1,16 +1,16 @@
 ---
 UID: NE:msinkaut.InkPersistenceCompressionMode
 title: InkPersistenceCompressionMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values for the compression modes that are used to save the InkDisp object to a serialized format.
 old-location: tablet\inkpersistencecompressionmode.htm
 old-project: tablet
 ms.assetid: dac49948-3977-4952-a6c0-f54c4a0a2e36
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPCM_Default, IPCM_MaximumCompression, IPCM_NoCompression, InkPersistenceCompressionMode, InkPersistenceCompressionMode enumeration [Tablet PC], dac49948-3977-4952-a6c0-f54c4a0a2e36, msinkaut/IPCM_Default, msinkaut/IPCM_MaximumCompression, msinkaut/IPCM_NoCompression, msinkaut/InkPersistenceCompressionMode, tablet.inkpersistencecompressionmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

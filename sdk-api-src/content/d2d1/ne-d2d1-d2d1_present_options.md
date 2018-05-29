@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1.D2D1_PRESENT_OPTIONS
 title: D2D1_PRESENT_OPTIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes how a render target behaves when it presents its content. This enumeration allows a bitwise combination of its member values.
 old-location: direct2d\D2D1_PRESENT_OPTIONS.htm
 old-project: Direct2D
 ms.assetid: 56178ee9-7d35-42e1-97f8-62835010f277
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_PRESENT_OPTIONS, D2D1_PRESENT_OPTIONS enumeration [Direct2D], D2D1_PRESENT_OPTIONS_IMMEDIATELY, D2D1_PRESENT_OPTIONS_NONE, D2D1_PRESENT_OPTIONS_RETAIN_CONTENTS, d2d1/D2D1_PRESENT_OPTIONS, d2d1/D2D1_PRESENT_OPTIONS_IMMEDIATELY, d2d1/D2D1_PRESENT_OPTIONS_NONE, d2d1/D2D1_PRESENT_OPTIONS_RETAIN_CONTENTS, direct2d.D2D1_PRESENT_OPTIONS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 

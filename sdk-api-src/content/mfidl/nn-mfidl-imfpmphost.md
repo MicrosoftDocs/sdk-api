@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFPMPHost
 title: IMFPMPHost
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a media source in the application process to create objects in the protected media path (PMP) process.
 old-location: mf\imfpmphost.htm
 old-project: medfound
 ms.assetid: fab1fb42-07c5-4a74-b6f5-0950b2c3ba46
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFPMPHost, IMFPMPHost interface [Media Foundation], IMFPMPHost interface [Media Foundation],described, fab1fb42-07c5-4a74-b6f5-0950b2c3ba46, mf.imfpmphost, mfidl/IMFPMPHost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

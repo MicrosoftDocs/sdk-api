@@ -1,16 +1,16 @@
 ---
 UID: NS:aclui._EFFPERM_RESULT_LIST
 title: "_EFFPERM_RESULT_LIST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Lists the effective permissions.
 old-location: security\effperm_result_list.htm
 old-project: SecAuthZ
 ms.assetid: D83C5632-F67A-42BA-A146-989EBB3B2763
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PEFFPERM_RESULT_LIST, EFFPERM_RESULT_LIST, EFFPERM_RESULT_LIST structure [Security], PEFFPERM_RESULT_LIST, PEFFPERM_RESULT_LIST structure pointer [Security], _EFFPERM_RESULT_LIST, aclui/EFFPERM_RESULT_LIST, aclui/PEFFPERM_RESULT_LIST, security.effperm_result_list"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: aclui.h
 req.include-header: 

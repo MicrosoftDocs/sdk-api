@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetOutputSetting
 title: IWMReaderAdvanced2::GetOutputSetting
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetOutputSetting method retrieves a setting for a particular output by name.
 old-location: wmformat\iwmreaderadvanced2_getoutputsetting.htm
 old-project: wmformat
 ms.assetid: a46da973-8f2f-48b8-9a74-d54e67f68a83
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetOutputSetting, GetOutputSetting method [windows Media Format], GetOutputSetting method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetOutputSetting method, IWMReaderAdvanced2.GetOutputSetting, IWMReaderAdvanced2::GetOutputSetting, IWMReaderAdvanced2GetOutputSetting, wmformat.iwmreaderadvanced2_getoutputsetting, wmsdkidl/IWMReaderAdvanced2::GetOutputSetting
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IEnumContextProps.Clone
 title: IEnumContextProps::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumcontextprops_clone.htm
 old-project: com
 ms.assetid: 0bf7f7da-9e40-49bd-9bd0-d2fcdfc2f517
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumContextProps interface, IEnumContextProps interface [COM],Clone method, IEnumContextProps.Clone, IEnumContextProps::Clone, _com_ienumcontextprops_clone, com.ienumcontextprops_clone, objidlbase/IEnumContextProps::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

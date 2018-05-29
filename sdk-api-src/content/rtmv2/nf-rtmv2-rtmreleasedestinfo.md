@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmReleaseDestInfo
 title: RtmReleaseDestInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmReleaseDestInfo function releases a destination structure.
 old-location: rras\rtmreleasedestinfo.htm
 old-project: RRAS
 ms.assetid: 43992abd-7e52-4d1b-b693-f437f5ba77cb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmReleaseDestInfo, RtmReleaseDestInfo function [RAS], _rtmv2ref_rtmreleasedestinfo, rras.rtmreleasedestinfo, rtmv2/RtmReleaseDestInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

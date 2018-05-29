@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoProperties.GetPropName
 title: IComTrackingInfoProperties::GetPropName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the name of the property corresponding to the specified index number.
 old-location: cos\icomtrackinginfoproperties_getpropname.htm
 old-project: cossdk
 ms.assetid: 9a26bd3d-89e2-46fd-b9d1-b65ed12ae2ee
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetPropName, GetPropName method [COM+], GetPropName method [COM+],IComTrackingInfoProperties interface, IComTrackingInfoProperties interface [COM+],GetPropName method, IComTrackingInfoProperties.GetPropName, IComTrackingInfoProperties::GetPropName, _dtc_IComTrackingInfoProperties_GetPropName, comsvcs/IComTrackingInfoProperties::GetPropName, cos.icomtrackinginfoproperties_getpropname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

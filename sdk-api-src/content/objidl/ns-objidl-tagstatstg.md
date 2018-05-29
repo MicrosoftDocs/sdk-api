@@ -1,16 +1,16 @@
 ---
 UID: NS:objidl.tagSTATSTG
 title: tagSTATSTG
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains statistical data about an open storage, stream, or byte-array object.
 old-location: stg\statstg.htm
 old-project: Stg
 ms.assetid: 54e1df08-de8f-430a-bf76-e66594df4839
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: STATSTG, STATSTG [Strctd Stg], STATSTG structure [Structured Storage], _stg_statstg, objidl/STATSTG, stg.statstg, tagSTATSTG
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 

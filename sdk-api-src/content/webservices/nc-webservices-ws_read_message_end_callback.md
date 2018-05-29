@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_READ_MESSAGE_END_CALLBACK
 title: WS_READ_MESSAGE_END_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles the WsReadMessageEnd call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_read_message_end_callback.htm
 old-project: wsw
 ms.assetid: 6e03b812-9022-4c17-b25d-e06cc8943a1b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_READ_MESSAGE_END_CALLBACK, WS_READ_MESSAGE_END_CALLBACK callback, WS_READ_MESSAGE_END_CALLBACK callback function [Web Services for Windows], webservices/WS_READ_MESSAGE_END_CALLBACK, wsw.ws_read_message_end_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

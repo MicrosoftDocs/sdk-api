@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextDocument2.GetDisplays
 title: ITextDocument2::GetDisplays
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the displays collection for this Text Object Model (TOM) engine instance.
 old-location: controls\itextdocument2_getdisplays.htm
 old-project: Controls
 ms.assetid: 8f610b45-9c17-4b20-82e0-fa78169360cc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDisplays, GetDisplays method [Windows Controls], GetDisplays method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetDisplays method, ITextDocument2.GetDisplays, ITextDocument2::GetDisplays, controls.itextdocument2_getdisplays, tom/ITextDocument2::GetDisplays
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

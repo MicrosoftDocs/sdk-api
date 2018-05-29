@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfFnGetSAPIObject
 title: ITfFnGetSAPIObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfFnGetSAPIObject interface is implemented by the Speech API (SAPI) text service. This interface is used by the TSF manager or a client (application or other text service) to obtain various SAPI objects.
 old-location: tsf\itffngetsapiobject.htm
 old-project: TSF
 ms.assetid: d7b4caa5-e915-4e57-878a-2a2d6ce609a7
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnGetSAPIObject, ITfFnGetSAPIObject interface [Text Services Framework], ITfFnGetSAPIObject interface [Text Services Framework],described, _tsf_itffngetsapiobject_ref, ctffunc/ITfFnGetSAPIObject, tsf.itffngetsapiobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

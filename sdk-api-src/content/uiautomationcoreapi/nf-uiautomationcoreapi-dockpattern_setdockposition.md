@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.DockPattern_SetDockPosition
 title: DockPattern_SetDockPosition function
-author: windows-driver-content
+author: windows-sdk-content
 description: Docks the UI Automation element at the requested dockPosition within a docking container.
 old-location: winauto\uiauto_DockPattern_SetDockPositionConPat.htm
 old-project: WinAuto
 ms.assetid: 45fdd85f-1f35-4cdd-adfc-086e01e85adf
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: DockPattern_SetDockPosition, DockPattern_SetDockPosition function [Windows Accessibility], uiauto.uiauto_DockPattern_SetDockPositionConPat, uiauto_DockPattern_SetDockPositionConPat, uiautomationcoreapi/DockPattern_SetDockPosition, winauto.uiauto_DockPattern_SetDockPositionConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

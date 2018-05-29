@@ -1,16 +1,16 @@
 ---
 UID: NN:ddraw.IDirectDraw7
 title: IDirectDraw7
-author: windows-driver-content
+author: windows-sdk-content
 description: Applications use the methods of the IDirectDraw7 interface to create DirectDraw objects and work with system-level variables. This section is a reference to the methods of the IDirectDraw7 interface.
 old-location: directdraw\idirectdraw7.htm
 old-project: directdraw
 ms.assetid: 1a1164fe-00c2-4469-8346-f86f7f48781e
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IDirectDraw7, IDirectDraw7 interface [DirectDraw], IDirectDraw7 interface [DirectDraw],described, ddraw/IDirectDraw7, directdraw.idirectdraw7
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ddraw.h
 req.include-header: 

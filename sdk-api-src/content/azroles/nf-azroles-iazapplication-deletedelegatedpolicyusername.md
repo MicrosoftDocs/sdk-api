@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplication.DeleteDelegatedPolicyUserName
 title: IAzApplication::DeleteDelegatedPolicyUserName
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the specified account name from the list of principals that act as delegated policy users.
 old-location: security\iazapplication_deletedelegatedpolicyusername.htm
 old-project: SecAuthZ
 ms.assetid: b6abe8d6-9212-4c92-ba35-d6eaa8df1115
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzApplication object [Security],DeleteDelegatedPolicyUserName method, DeleteDelegatedPolicyUserName, DeleteDelegatedPolicyUserName method [Security], DeleteDelegatedPolicyUserName method [Security],AzApplication object, DeleteDelegatedPolicyUserName method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteDelegatedPolicyUserName method, IAzApplication.DeleteDelegatedPolicyUserName, IAzApplication::DeleteDelegatedPolicyUserName, azroles/IAzApplication::DeleteDelegatedPolicyUserName, security.iazapplication_deletedelegatedpolicyusername
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

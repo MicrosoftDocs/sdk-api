@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_ENDPOINT_REFERENCE_LIST
 title: "_WSD_ENDPOINT_REFERENCE_LIST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a node in a single-linked list of WSD_ENDPOINT_REFERENCE structures.
 old-location: ncd\wsd_endpoint_reference_list.htm
 old-project: WsdApi
 ms.assetid: fc9fed5c-8a5b-4960-836b-e083154b7d90
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_ENDPOINT_REFERENCE_LIST, WSD_ENDPOINT_REFERENCE_LIST structure, _WSD_ENDPOINT_REFERENCE_LIST, ncd.wsd_endpoint_reference_list, wsdtypes/WSD_ENDPOINT_REFERENCE_LIST
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wcmconfig.ISettingsIdentity
 title: ISettingsIdentity
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies a namespace to open or use.
 old-location: smi\isettingsidentity.htm
 old-project: SMI
 ms.assetid: aa9d5604-5b94-47d9-9e68-d708a656a5ea
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISettingsIdentity, ISettingsIdentity interface [SMI], ISettingsIdentity interface [SMI],described, smi.isettingsidentity, wcmconfig/ISettingsIdentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 

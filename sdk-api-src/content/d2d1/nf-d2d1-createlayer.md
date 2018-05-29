@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1.CreateLayer
 title: CreateLayer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a layer resource that can be used with this render target and its compatible render targets.
 old-location: direct2d\id2d1rendertarget_createlayer.htm
 old-project: Direct2D
 ms.assetid: 074e9ffb-c5f2-4e7b-94c7-d457bf07c0b7
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: CreateLayer, CreateLayer methods [Direct2D], ID2D1RenderTarget::CreateLayer, d2d1/CreateLayer, direct2d.id2d1rendertarget_createlayer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1.h
 req.include-header: 

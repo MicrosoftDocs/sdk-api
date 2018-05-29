@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsExtension.PrivateInvoke
 title: IADsExtension::PrivateInvoke
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsExtension::PrivateInvoke method is normally called by ADSI after the IADsExtension::PrivateGetIDsOfNames method. This method can either have a custom implementation or it can delegate the operation to IDispatch::DispInvoke method.
 old-location: adsi\iadsextension_privateinvoke.htm
 old-project: ADSI
 ms.assetid: 5af74a05-df64-4679-890b-a5a031633fd8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: DISPATCH_METHOD, DISPATCH_PROPERTYGET, DISPATCH_PROPERTYPUT, DISPATCH_PROPERTYPUTREF, IADsExtension interface [ADSI],PrivateInvoke method, IADsExtension.PrivateInvoke, IADsExtension::PrivateInvoke, PrivateInvoke, PrivateInvoke method [ADSI], PrivateInvoke method [ADSI],IADsExtension interface, _ds_iadsextension_privateinvoke, adsi.iadsextension__privateinvoke, adsi.iadsextension_privateinvoke, iads/IADsExtension::PrivateInvoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

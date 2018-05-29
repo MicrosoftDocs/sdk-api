@@ -1,16 +1,16 @@
 ---
 UID: NF:windows.data.pdf.interop.IPdfRendererNative.RenderPageToSurface
 title: IPdfRendererNative::pdf
-author: windows-driver-content
+author: windows-sdk-content
 description: Outputs a single page of a Portable Document Format (PDF) file to a Microsoft DirectX image-data object.
 old-location: winrt\ipdfrenderernative_renderpagetosurface.htm
 old-project: WinRT
 ms.assetid: d4688c23-0122-40a7-908e-793c3f03fb37
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IPdfRendererNative interface [Windows Runtime],RenderPageToSurface method, IPdfRendererNative.RenderPageToSurface, IPdfRendererNative.pdf, IPdfRendererNative::RenderPageToSurface, IPdfRendererNative::pdf, RenderPageToSurface, RenderPageToSurface method [Windows Runtime], RenderPageToSurface method [Windows Runtime],IPdfRendererNative interface, windows/IPdfRendererNative::RenderPageToSurface, winrt.ipdfrenderernative_renderpagetosurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: windows.data.pdf.interop.h
 req.include-header: 

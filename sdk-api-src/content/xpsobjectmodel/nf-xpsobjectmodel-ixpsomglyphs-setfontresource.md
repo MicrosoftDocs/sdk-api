@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetFontResource
 title: IXpsOMGlyphs::SetFontResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the pointer to the IXpsOMFontResource interface of the font resource object that is required for this text.
 old-location: xps\ixpsomglyphs_setfontresource.htm
 old-project: printdocs
 ms.assetid: 0de80249-a1e1-4205-81bd-3ecb6cc938d4
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFontResource method, IXpsOMGlyphs.SetFontResource, IXpsOMGlyphs::SetFontResource, SetFontResource, SetFontResource method [XPS Documents and Packaging], SetFontResource method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfontresource, xpsobjectmodel/IXpsOMGlyphs::SetFontResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

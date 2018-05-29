@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.PowerReadPossibleFriendlyName
 title: PowerReadPossibleFriendlyName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the friendly name for one of the possible choices of a power setting value.
 old-location: base\powerreadpossiblefriendlyname.htm
 old-project: Power
 ms.assetid: 38f3c5f4-ec65-47f0-b15c-36cd2b1e2813
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadPossibleFriendlyName, PowerReadPossibleFriendlyName function, base.powerreadpossiblefriendlyname, powrprof/PowerReadPossibleFriendlyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

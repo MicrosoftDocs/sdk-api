@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPart.GetPartName
 title: IXpsOMPart::GetPartName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name that will be used when the part is serialized.
 old-location: xps\ixpsompart_getpartname.htm
 old-project: printdocs
 ms.assetid: 43793c60-5fa3-4895-8a6a-7e010e65ac3e
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetPartName, GetPartName method [XPS Documents and Packaging], GetPartName method [XPS Documents and Packaging],IXpsOMPart interface, IXpsOMPart interface [XPS Documents and Packaging],GetPartName method, IXpsOMPart.GetPartName, IXpsOMPart::GetPartName, xps.ixpsompart_getpartname, xpsobjectmodel/IXpsOMPart::GetPartName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

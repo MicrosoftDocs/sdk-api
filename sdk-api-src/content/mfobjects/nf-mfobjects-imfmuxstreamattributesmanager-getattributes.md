@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamAttributesManager.GetAttributes
 title: IMFMuxStreamAttributesManager::GetAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IMFAttributes for the substream with the specified index.
 old-location: mf\imfmuxstreamattributesmanager_getattributes.htm
 old-project: medfound
 ms.assetid: 1C00900F-BD8B-4AF7-82E0-37AC370A90E3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetAttributes, GetAttributes method [Media Foundation], GetAttributes method [Media Foundation],IMFMuxStreamAttributesManager interface, IMFMuxStreamAttributesManager interface [Media Foundation],GetAttributes method, IMFMuxStreamAttributesManager.GetAttributes, IMFMuxStreamAttributesManager::GetAttributes, mf.imfmuxstreamattributesmanager_getattributes, mfobjects/IMFMuxStreamAttributesManager::GetAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: 

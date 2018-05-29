@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIFileWriteData
 title: AVIFileWriteData function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIFileWriteData function writes supplementary data (other than normal header, format, and stream data) to the file.
 old-location: multimedia\avifilewritedata.htm
 old-project: Multimedia
 ms.assetid: 27eef026-e401-44a2-9b46-a16b61026d2a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIFileWriteData, AVIFileWriteData function [Windows Multimedia], _win32_AVIFileWriteData, multimedia.avifilewritedata, vfw/AVIFileWriteData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

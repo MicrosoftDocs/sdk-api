@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IMenuPopup.SetSubMenu
 title: IMenuPopup::SetSubMenu
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the given menu bar interface to be the submenu of the calling application object's interface.
 old-location: shell\IMenuPopup_SetSubMenu.htm
 old-project: shell
 ms.assetid: c2f80502-bac5-4a6f-95ba-1610c548e636
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMenuPopup interface [Windows Shell],SetSubMenu method, IMenuPopup.SetSubMenu, IMenuPopup::SetSubMenu, SetSubMenu, SetSubMenu method [Windows Shell], SetSubMenu method [Windows Shell],IMenuPopup interface, _win32_IMenuPopup_SetSubMenu, shell.IMenuPopup_SetSubMenu, shobjidl_core/IMenuPopup::SetSubMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

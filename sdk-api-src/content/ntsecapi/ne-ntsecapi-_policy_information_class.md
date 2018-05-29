@@ -1,16 +1,16 @@
 ---
 UID: NE:ntsecapi._POLICY_INFORMATION_CLASS
 title: "_POLICY_INFORMATION_CLASS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values that indicate the type of information to set or query in a Policy object.
 old-location: security\policy_information_class.htm
 old-project: SecMgmt
 ms.assetid: b734b5e8-1ee9-436b-b2a9-210ae79fbaf5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PPOLICY_INFORMATION_CLASS, POLICY_INFORMATION_CLASS, POLICY_INFORMATION_CLASS enumeration [Security], PPOLICY_INFORMATION_CLASS, PPOLICY_INFORMATION_CLASS enumeration pointer [Security], PolicyAccountDomainInformation, PolicyAuditEventsInformation, PolicyAuditFullQueryInformation, PolicyAuditFullSetInformation, PolicyAuditLogInformation, PolicyDefaultQuotaInformation, PolicyDnsDomainInformation, PolicyLsaServerRoleInformation, PolicyModificationInformation, PolicyPdAccountInformation, PolicyPrimaryDomainInformation, PolicyReplicaSourceInformation, _POLICY_INFORMATION_CLASS, _lsa_policy_information_class, ntsecapi/POLICY_INFORMATION_CLASS, ntsecapi/PPOLICY_INFORMATION_CLASS, ntsecapi/PolicyAccountDomainInformation, ntsecapi/PolicyAuditEventsInformation, ntsecapi/PolicyAuditFullQueryInformation, ntsecapi/PolicyAuditFullSetInformation, ntsecapi/PolicyAuditLogInformation, ntsecapi/PolicyDefaultQuotaInformation, ntsecapi/PolicyDnsDomainInformation, ntsecapi/PolicyLsaServerRoleInformation, ntsecapi/PolicyModificationInformation, ntsecapi/PolicyPdAccountInformation, ntsecapi/PolicyPrimaryDomainInformation, ntsecapi/PolicyReplicaSourceInformation, security.policy_information_class"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ntsecapi.h
 req.include-header: 

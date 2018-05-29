@@ -1,16 +1,16 @@
 ---
 UID: NS:digitalv.MCI_DGV_SETVIDEO_PARMSA
 title: MCI_DGV_SETVIDEO_PARMSA
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCI_DGV_SETVIDEO_PARMS structure contains parameters for the MCI_SETVIDEO command for digital-video devices.
 old-location: multimedia\mci_dgv_setvideo_parms.htm
 old-project: Multimedia
 ms.assetid: 1ecc41b9-6c09-4ebb-b14a-e4044df3b5b7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPMCI_DGV_SETVIDEO_PARMSA, MCI_DGV_SETVIDEO_PARMS, MCI_DGV_SETVIDEO_PARMS structure [Windows Multimedia], MCI_DGV_SETVIDEO_PARMSA, _win32_MCI_DGV_SETVIDEO_PARMS_str, digitalv/MCI_DGV_SETVIDEO_PARMS, multimedia.mci_dgv_setvideo_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

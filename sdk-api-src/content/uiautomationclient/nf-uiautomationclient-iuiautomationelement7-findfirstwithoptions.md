@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement7.FindFirstWithOptions
 title: IUIAutomationElement7::FindFirstWithOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds the first matching element in the specified order.
 old-location: winauto\uiauto_IUIAutomationElement7_FindFirstWithOptions.htm
 old-project: WinAuto
 ms.assetid: D6A872E7-290D-45E7-B4FD-7201A4E990A2
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: FindFirstWithOptions, FindFirstWithOptions method [Windows Accessibility], FindFirstWithOptions method [Windows Accessibility],IUIAutomationElement7 interface, IUIAutomationElement7 interface [Windows Accessibility],FindFirstWithOptions method, IUIAutomationElement7.FindFirstWithOptions, IUIAutomationElement7::FindFirstWithOptions, uiautomationclient/IUIAutomationElement7::FindFirstWithOptions, winauto.uiauto_IUIAutomationElement7_FindFirstWithOptions, winauto.uiauto_iuiautomationelement_findfirstwithoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

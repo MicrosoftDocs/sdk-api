@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetGetDisplayInformationIndex
 title: NetGetDisplayInformationIndex function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetGetDisplayInformationIndex function returns the index of the first display information entry whose name begins with a specified string or whose name alphabetically follows the string.
 old-location: netmgmt\netgetdisplayinformationindex.htm
 old-project: NetMgmt
 ms.assetid: c56b3cf9-e0a2-4b66-a518-70753b79214c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 1, 2, 3, NetGetDisplayInformationIndex, NetGetDisplayInformationIndex function [Network Management], _win32_netgetdisplayinformationindex, lmaccess/NetGetDisplayInformationIndex, netmgmt.netgetdisplayinformationindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

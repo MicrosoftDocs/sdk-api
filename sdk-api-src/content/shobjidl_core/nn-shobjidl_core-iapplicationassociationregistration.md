@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IApplicationAssociationRegistration
 title: IApplicationAssociationRegistration
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that query and set default applications for specific file Association Type, and protocols at a specific Association Level.
 old-location: shell\IApplicationAssociationRegistration.htm
 old-project: shell
 ms.assetid: 015a3be4-2e74-4a2b-8c02-54dcbf0ecacd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IApplicationAssociationRegistration, IApplicationAssociationRegistration interface [Windows Shell], IApplicationAssociationRegistration interface [Windows Shell],described, _shell_IApplicationAssociationRegistration, shell.IApplicationAssociationRegistration, shobjidl_core/IApplicationAssociationRegistration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

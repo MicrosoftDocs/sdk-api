@@ -1,16 +1,16 @@
 ---
 UID: NS:cloneviewhelper.tagDisplayModes
 title: tagDisplayModes
-author: windows-driver-content
+author: windows-sdk-content
 description: The DisplayModes structure contains a list of display modes.
 old-location: display\displaymodes.htm
 old-project: display
 ms.assetid: 0add7a43-571f-4854-b019-d3601f915d48
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DisplayModes, DisplayModes structure [Display Devices], TMM_Ref_e94cf92c-8b36-4643-a34d-8e90faef7e72.xml, cloneviewhelper/DisplayModes, display.displaymodes, tagDisplayModes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:tpcshrd.tagSYSTEM_EVENT_DATA
 title: tagSYSTEM_EVENT_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a tablet system event.
 old-location: tablet\system_event_data.htm
 old-project: tablet
 ms.assetid: 3a2c33b7-91ca-48eb-a5b9-a1ccb5106f90
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 3a2c33b7-91ca-48eb-a5b9-a1ccb5106f90, SYSTEM_EVENT_DATA, SYSTEM_EVENT_DATA structure [Tablet PC], tablet.system_event_data, tagSYSTEM_EVENT_DATA, tpcshrd/SYSTEM_EVENT_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tpcshrd.h
 req.include-header: RTSCom.h

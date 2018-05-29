@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetRegistrationStats
 title: IWMDeviceRegistration::GetRegistrationStats
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetRegistrationStats method retrieves the number of devices in the device registration database that have a specified type.
 old-location: wmformat\iwmdeviceregistration_getregistrationstats.htm
 old-project: wmformat
 ms.assetid: 56c5b2c7-46c2-42e4-a7d4-f1b3e56ffbcb
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetRegistrationStats, GetRegistrationStats method [windows Media Format], GetRegistrationStats method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetRegistrationStats method, IWMDeviceRegistration.GetRegistrationStats, IWMDeviceRegistration::GetRegistrationStats, IWMDeviceRegistrationGetRegistrationStats, wmformat.iwmdeviceregistration_getregistrationstats, wmsdkidl/IWMDeviceRegistration::GetRegistrationStats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

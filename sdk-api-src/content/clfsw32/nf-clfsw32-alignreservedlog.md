@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.AlignReservedLog
 title: AlignReservedLog function
-author: windows-driver-content
+author: windows-sdk-content
 description: Calculates the sector-aligned reservation size for a set of reserved records.
 old-location: fs\alignreservedlog.htm
 old-project: Clfs
 ms.assetid: 1ac8ecc7-a937-40cb-8a8b-8b168d9fce61
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: AlignReservedLog, AlignReservedLog function [Files], clfsw32/AlignReservedLog, fs.alignreservedlog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

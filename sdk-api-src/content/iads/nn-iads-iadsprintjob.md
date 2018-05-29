@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsPrintJob
 title: IADsPrintJob
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsPrintJob interface is a dual interface that inherits from IADs.
 old-location: adsi\iadsprintjob.htm
 old-project: ADSI
 ms.assetid: 82d61e39-4dbb-41c9-85d5-6f4e7ab7f66b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsPrintJob, IADsPrintJob interface [ADSI], IADsPrintJob interface [ADSI],described, _ds_iadsprintjob, adsi.iadsprintjob, iads/IADsPrintJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

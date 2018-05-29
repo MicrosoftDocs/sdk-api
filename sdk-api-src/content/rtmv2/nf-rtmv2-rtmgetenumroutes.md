@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmGetEnumRoutes
 title: RtmGetEnumRoutes function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmGetEnumRoutes function retrieves the next set of routes in the specified enumeration.
 old-location: rras\rtmgetenumroutes.htm
 old-project: RRAS
 ms.assetid: fb3977ef-9edd-4653-b65c-b6d0fb66a785
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmGetEnumRoutes, RtmGetEnumRoutes function [RAS], _rtmv2ref_rtmgetenumroutes, rras.rtmgetenumroutes, rtmv2/RtmGetEnumRoutes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

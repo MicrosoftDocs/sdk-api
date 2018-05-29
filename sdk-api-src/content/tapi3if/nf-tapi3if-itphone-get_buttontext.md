@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPhone.get_ButtonText
 title: ITPhone::get_ButtonText
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_ButtonText method retrieves the button text associated with a particular button.
 old-location: tapi3\itphone_get_buttontext.htm
 old-project: Tapi
 ms.assetid: 75a216fb-7bb3-4178-baa5-8ba478bd5422
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_ButtonText method, ITPhone.get_ButtonText, ITPhone::get_ButtonText, _tapi3_itphone_get_buttontext, get_ButtonText, get_ButtonText method [TAPI 2.2], get_ButtonText method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_buttontext, tapi3if/ITPhone::get_ButtonText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

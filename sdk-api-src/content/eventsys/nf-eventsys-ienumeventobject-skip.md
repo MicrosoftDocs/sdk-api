@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEnumEventObject.Skip
 title: IEnumEventObject::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: cos\ienumeventobject_skip.htm
 old-project: cossdk
 ms.assetid: 7c830d29-8e66-4139-9445-d83dc7f7004f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumEventObject interface [COM+],Skip method, IEnumEventObject.Skip, IEnumEventObject::Skip, Skip, Skip method [COM+], Skip method [COM+],IEnumEventObject interface, _cos_ienumeventobject_skip, cos.ienumeventobject_skip, eventsys/IEnumEventObject::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

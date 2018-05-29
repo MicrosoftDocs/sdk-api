@@ -1,16 +1,16 @@
 ---
 UID: NS:dwrite_3.DWRITE_LINE_METRICS1
 title: DWRITE_LINE_METRICS1
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a formatted line of text.
 old-location: directwrite\dwrite_line_metrics1.htm
 old-project: DirectWrite
 ms.assetid: 7b5cc425-8a7e-0bff-3fe1-73984872b60b
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_LINE_METRICS1, DWRITE_LINE_METRICS1 structure [Direct Write], directwrite.dwrite_line_metrics1, dwrite_3/DWRITE_LINE_METRICS1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite_3.h
 req.include-header: 

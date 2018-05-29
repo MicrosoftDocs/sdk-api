@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItemArray.GetAttributes
 title: IShellItemArray::GetAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the attributes of the set of items contained in an IShellItemArray.
 old-location: shell\IShellItemArray_GetAttributes.htm
 old-project: shell
 ms.assetid: 0498ce03-9949-48bb-a1eb-b569f4171884
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetAttributes, GetAttributes method [Windows Shell], GetAttributes method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetAttributes method, IShellItemArray.GetAttributes, IShellItemArray::GetAttributes, SIATTRIBFLAGS_ALLITEMS, SIATTRIBFLAGS_AND, SIATTRIBFLAGS_APPCOMPAT, SIATTRIBFLAGS_MASK, SIATTRIBFLAGS_OR, _shell_IShellItemArray_GetAttributes, shell.IShellItemArray_GetAttributes, shobjidl_core/IShellItemArray::GetAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

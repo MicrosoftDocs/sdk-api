@@ -1,16 +1,16 @@
 ---
 UID: NF:drt.DrtGetEventDataSize
 title: DrtGetEventDataSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: DrtGetEventDataSize function returns the size of the DRT_EVENT_DATA structure associated with a signaled event.
 old-location: p2p\drtgeteventdatasize.htm
 old-project: P2PSdk
 ms.assetid: b73431fc-6b5a-41f7-8616-6d82dc8844f4
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DrtGetEventDataSize, DrtGetEventDataSize function [Peer Networking], drt/DrtGetEventDataSize, p2p.drtgeteventdatasize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: drt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:featurestagingapi.RecordFeatureError
 title: RecordFeatureError function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\recordfeatureerror.htm
 old-project: DevNotes
 ms.assetid: 8179277A-9F98-4FF1-8368-9393B12023D0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RecordFeatureError, RecordFeatureError function [Windows API], featurestagingapi/RecordFeatureError, winprog.recordfeatureerror
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: featurestagingapi.h
 req.include-header: 

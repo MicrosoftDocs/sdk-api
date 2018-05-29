@@ -1,16 +1,16 @@
 ---
 UID: NF:snmp.SnmpUtilVarBindListCpy
 title: SnmpUtilVarBindListCpy function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SnmpUtilVarBindListCpy function copies the specified SnmpVarBindList structure, and allocates any necessary memory for the destination's copy. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilvarbindlistcpy.htm
 old-project: SNMP
 ms.assetid: 19837eac-c5b0-46a6-b10d-4460cf918cba
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpUtilVarBindListCpy, SnmpUtilVarBindListCpy function [SNMP], _snmp_snmputilvarbindlistcpy, snmp.snmputilvarbindlistcpy, snmp/SnmpUtilVarBindListCpy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

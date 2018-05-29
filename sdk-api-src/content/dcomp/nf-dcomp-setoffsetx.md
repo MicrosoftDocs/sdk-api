@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetOffsetX
 title: SetOffsetX function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes or animates the value of the OffsetX property of a 3D translation transform effect.
 old-location: directcomp\idcompositiontranslatetransform3d_setoffsetx_overloaded.htm
 old-project: directcomp
 ms.assetid: 61EDA0AA-0274-446E-9169-974AB84802FA
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionTranslateTransform3D::SetOffsetX, SetOffsetX, SetOffsetX methods [DirectComposition], dcomp/SetOffsetX, directcomp.idcompositiontranslatetransform3d_setoffsetx_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

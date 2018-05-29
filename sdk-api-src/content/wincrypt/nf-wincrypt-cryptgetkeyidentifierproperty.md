@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptGetKeyIdentifierProperty
 title: CryptGetKeyIdentifierProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CryptGetKeyIdentifierProperty acquires a specific property from a specified key identifier.
 old-location: security\cryptgetkeyidentifierproperty.htm
 old-project: SecCrypto
 ms.assetid: bc0511c1-0699-4959-afd7-a838c91c77d5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_KEYID_ALLOC_FLAG, CRYPT_KEYID_MACHINE_FLAG, CryptGetKeyIdentifierProperty, CryptGetKeyIdentifierProperty function [Security], _crypto2_cryptgetkeyidentifierproperty, security.cryptgetkeyidentifierproperty, wincrypt/CryptGetKeyIdentifierProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

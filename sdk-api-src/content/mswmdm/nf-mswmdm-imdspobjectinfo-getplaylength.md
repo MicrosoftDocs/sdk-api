@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPObjectInfo.GetPlayLength
 title: IMDSPObjectInfo::GetPlayLength
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPlayLength method retrieves the play length of the object in units pertinent to the object. This is the remaining length that the object can play, not its total length.
 old-location: wmdm\imdspobjectinfo_getplaylength.htm
 old-project: WMDM
 ms.assetid: d5f2188f-f813-4c42-9878-52836ec8ebdc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPlayLength, GetPlayLength method [windows Media Device Manager], GetPlayLength method [windows Media Device Manager],IMDSPObjectInfo interface, IMDSPObjectInfo interface [windows Media Device Manager],GetPlayLength method, IMDSPObjectInfo.GetPlayLength, IMDSPObjectInfo::GetPlayLength, IMDSPObjectInfoGetPlayLength, mswmdm/IMDSPObjectInfo::GetPlayLength, wmdm.imdspobjectinfo_getplaylength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

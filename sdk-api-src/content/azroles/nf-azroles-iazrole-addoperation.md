@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzRole.AddOperation
 title: IAzRole::AddOperation
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the IAzOperation object with the specified name to the role.
 old-location: security\iazrole_addoperation.htm
 old-project: SecAuthZ
 ms.assetid: 8c6d26ff-3287-4a1d-91cb-759f79ec92e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddOperation, AddOperation method [Security], AddOperation method [Security],AzRole object, AddOperation method [Security],IAzRole interface, AzRole object [Security],AddOperation method, IAzRole interface [Security],AddOperation method, IAzRole.AddOperation, IAzRole::AddOperation, azroles/IAzRole::AddOperation, security.iazrole_addoperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

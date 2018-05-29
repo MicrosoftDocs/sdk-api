@@ -1,16 +1,16 @@
 ---
 UID: NF:indexsrv.IStemmer.GenerateWordForms
 title: IStemmer::GenerateWordForms
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates alternative forms for a word and puts these forms in the IWordFormSink object.
 old-location: search\_search_IStemmer_GenerateWordForms.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\generatewordforms.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GenerateWordForms, GenerateWordForms method [search], GenerateWordForms method [search],IStemmer interface, IStemmer interface [search],GenerateWordForms method, IStemmer.GenerateWordForms, IStemmer::GenerateWordForms, _search_IStemmer_GenerateWordForms, indexsrv/IStemmer::GenerateWordForms, search._search_IStemmer_GenerateWordForms
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 

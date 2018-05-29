@@ -1,16 +1,16 @@
 ---
 UID: NS:winefs._EFS_HASH_BLOB
 title: "_EFS_HASH_BLOB"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a certificate hash.
 old-location: fs\efs_hash_blob_str.htm
 old-project: FileIO
 ms.assetid: 23a172be-6e94-4a1f-afde-fc9437443c7a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PEFS_HASH_BLOB, EFS_HASH_BLOB, EFS_HASH_BLOB structure [Files], PEFS_HASH_BLOB, PEFS_HASH_BLOB structure pointer [Files], _EFS_HASH_BLOB, _win32_efs_hash_blob_str, base.efs_hash_blob_str, fs.efs_hash_blob_str, winefs/EFS_HASH_BLOB, winefs/PEFS_HASH_BLOB"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winefs.h
 req.include-header: Windows.h

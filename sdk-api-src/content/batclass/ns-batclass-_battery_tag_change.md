@@ -1,16 +1,16 @@
 ---
 UID: NS:batclass._BATTERY_TAG_CHANGE
 title: "_BATTERY_TAG_CHANGE"
-author: windows-driver-content
+author: windows-sdk-content
 description: This structure is reserved for system use.
 old-location: battery\battery_tag_change.htm
 old-project: battery
 ms.assetid: FF3E14E4-5521-42F9-BC60-39128A93814F
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PBATTERY_TAG_CHANGE, BATTERY_TAG_CHANGE, BATTERY_TAG_CHANGE structure [Battery Devices], PBATTERY_TAG_CHANGE, PBATTERY_TAG_CHANGE structure pointer [Battery Devices], _BATTERY_TAG_CHANGE, batclass/BATTERY_TAG_CHANGE, batclass/PBATTERY_TAG_CHANGE, battery.battery_tag_change"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: batclass.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:wtypes.tagSTATFLAG
 title: tagSTATFLAG
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicate whether the method should try to return a name in the pwcsName member of the STATSTG structure.
 old-location: stg\statflag.htm
 old-project: Stg
 ms.assetid: 9070b517-8ca5-455f-baee-0647b1895c08
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: STATFLAG, STATFLAG enumeration [Structured Storage], STATFLAG_DEFAULT, STATFLAG_NONAME, STATFLAG_NOOPEN, _stg_statflag, stg.statflag, tagSTATFLAG, wtypes/STATFLAG, wtypes/STATFLAG_DEFAULT, wtypes/STATFLAG_NONAME, wtypes/STATFLAG_NOOPEN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wtypes.h
 req.include-header: 

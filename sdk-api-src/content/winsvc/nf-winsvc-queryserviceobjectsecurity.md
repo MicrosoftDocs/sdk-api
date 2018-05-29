@@ -1,16 +1,16 @@
 ---
 UID: NF:winsvc.QueryServiceObjectSecurity
 title: QueryServiceObjectSecurity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a copy of the security descriptor associated with a service object.
 old-location: security\queryserviceobjectsecurity.htm
 old-project: SecAuthZ
 ms.assetid: 5d95945f-f11b-42af-b302-8d924917b9ab
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: QueryServiceObjectSecurity, QueryServiceObjectSecurity function [Security], _win32_queryserviceobjectsecurity, security.queryserviceobjectsecurity, winsvc/QueryServiceObjectSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

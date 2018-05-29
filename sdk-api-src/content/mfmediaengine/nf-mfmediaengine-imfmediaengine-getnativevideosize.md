@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetNativeVideoSize
 title: IMFMediaEngine::GetNativeVideoSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the size of the video frame, adjusted for aspect ratio.
 old-location: mf\imfmediaengine_getnativevideosize.htm
 old-project: medfound
 ms.assetid: 843F09F7-2E8B-4DF7-AF0C-136BB8626779
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetNativeVideoSize method, IMFMediaEngine.GetNativeVideoSize, IMFMediaEngine::GetNativeVideoSize, mf.imfmediaengine_getnativevideosize, mfmediaengine/IMFMediaEngine::GetNativeVideoSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

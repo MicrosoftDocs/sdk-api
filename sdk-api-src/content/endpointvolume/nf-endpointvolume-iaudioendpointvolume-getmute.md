@@ -1,16 +1,16 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.GetMute
 title: IAudioEndpointVolume::GetMute
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetMute method gets the muting state of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_getmute.htm
 old-project: CoreAudio
 ms.assetid: bb7cbb42-74cd-4951-92b1-a76ca42e5d3a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetMute, GetMute method [Core Audio], GetMute method [Core Audio],IAudioEndpointVolume interface, IAudioEndpointVolume interface [Core Audio],GetMute method, IAudioEndpointVolume.GetMute, IAudioEndpointVolume::GetMute, IAudioEndpointVolumeGetMute, coreaudio.iaudioendpointvolume_getmute, endpointvolume/IAudioEndpointVolume::GetMute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsDisk.QueryExtents
 title: IVdsDisk::QueryExtents
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the details of all the extents on a disk.
 old-location: base\ivdsdisk_queryextents.htm
 old-project: VDS
 ms.assetid: 2e7de42f-da7a-41a7-b38e-849ab8d72ab2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsDisk interface [VDS],QueryExtents method, IVdsDisk.QueryExtents, IVdsDisk::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsDisk interface, base.ivdsdisk_queryextents, vds/IVdsDisk::QueryExtents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

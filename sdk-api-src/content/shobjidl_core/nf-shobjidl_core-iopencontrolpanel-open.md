@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IOpenControlPanel.Open
 title: IOpenControlPanel::Open
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the specified Control Panel item, optionally to a specific page.
 old-location: shell\IOpenControlPanel_Open.htm
 old-project: shell
 ms.assetid: 9485540b-0c3a-46f7-8c79-55991f943809
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IOpenControlPanel interface [Windows Shell],Open method, IOpenControlPanel.Open, IOpenControlPanel::Open, Open, Open method [Windows Shell], Open method [Windows Shell],IOpenControlPanel interface, _shell_IOpenControlPanel_Open, shell.IOpenControlPanel_Open, shobjidl_core/IOpenControlPanel::Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:vds._VDS_CREATE_VDISK_PARAMETERS
 title: "_VDS_CREATE_VDISK_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the parameters to be used when a virtual disk is created.
 old-location: base\vds_create_vdisk_parameters.htm
 old-project: VDS
 ms.assetid: 7ee830d5-6392-4e66-a8bb-2fd92c1e092c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PVDS_CREATE_VDISK_PARAMETERS, PVDS_CREATE_VDISK_PARAMETERS, PVDS_CREATE_VDISK_PARAMETERS structure pointer, VDS_CREATE_VDISK_PARAMETERS, VDS_CREATE_VDISK_PARAMETERS structure, _VDS_CREATE_VDISK_PARAMETERS, base.vds_create_vdisk_parameters, vds/PVDS_CREATE_VDISK_PARAMETERS, vds/VDS_CREATE_VDISK_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

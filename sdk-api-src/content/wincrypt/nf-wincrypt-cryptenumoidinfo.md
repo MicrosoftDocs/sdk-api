@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptEnumOIDInfo
 title: CryptEnumOIDInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates predefined and registered object identifier (OID) CRYPT_OID_INFO structures. This function enumerates either all of the predefined and registered structures or only structures identified by a selected OID group.
 old-location: security\cryptenumoidinfo.htm
 old-project: SecCrypto
 ms.assetid: 6af23bb4-3a27-425a-90bb-9a69ea081b25
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptEnumOIDInfo, CryptEnumOIDInfo function [Security], _crypto2_cryptenumoidinfo, security.cryptenumoidinfo, wincrypt/CryptEnumOIDInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

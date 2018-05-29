@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FONTOBJ_pvTrueTypeFontFile
 title: FONTOBJ_pvTrueTypeFontFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FONTOBJ_pvTrueTypeFontFile function retrieves a user-mode pointer to a view of a TrueType, OpenType, or Type1 font file.
 old-location: display\fontobj_pvtruetypefontfile.htm
 old-project: display
 ms.assetid: 2665d984-6a35-4950-92c0-82e7c8b633aa
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FONTOBJ_pvTrueTypeFontFile, FONTOBJ_pvTrueTypeFontFile function [Display Devices], display.fontobj_pvtruetypefontfile, gdifncs_72ff6779-98e3-44b1-919c-06fa0ac1ffa2.xml, winddi/FONTOBJ_pvTrueTypeFontFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

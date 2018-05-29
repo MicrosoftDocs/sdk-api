@@ -1,16 +1,16 @@
 ---
 UID: NN:textserv.IRicheditUiaOverrides
 title: IRicheditUiaOverrides
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the host container of a windowless rich edit control to override the control's Microsoft UI Automation accessibility properties.
 old-location: controls\irichedituiaoverrides.htm
 old-project: Controls
 ms.assetid: 2590002F-A6B0-4AA7-A54C-A5AB5304D9FA
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRicheditUiaOverrides, IRicheditUiaOverrides interface [Windows Controls], IRicheditUiaOverrides interface [Windows Controls],described, controls.irichedituiaoverrides, textserv/IRicheditUiaOverrides
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: textserv.h
 req.include-header: 

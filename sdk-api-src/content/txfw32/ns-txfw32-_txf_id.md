@@ -1,16 +1,16 @@
 ---
 UID: NS:txfw32._TXF_ID
 title: "_TXF_ID"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a unique identifier within the context of the Resource Manager.
 old-location: fs\txf_id.htm
 old-project: FileIO
 ms.assetid: b7bdb226-69ce-4226-b826-baf9c732ec52
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PTXF_ID, PTXF_ID, PTXF_ID structure pointer [Files], TXF_ID, TXF_ID structure [Files], _TXF_ID, fs.txf_id, txfw32/PTXF_ID, txfw32/TXF_ID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: txfw32.h
 req.include-header: 

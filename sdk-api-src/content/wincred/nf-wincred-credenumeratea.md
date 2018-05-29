@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredEnumerateA
 title: CredEnumerateA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the credentials from the user's credential set.
 old-location: security\credenumerate.htm
 old-project: SecAuthN
 ms.assetid: ef0b7620-7b00-45f1-af16-141d2e940783
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CRED_ENUMERATE_ALL_CREDENTIALS, CredEnumerate, CredEnumerate function [Security], CredEnumerateA, CredEnumerateW, _cred_credenumerate, security.credenumerate, wincred/CredEnumerate, wincred/CredEnumerateA, wincred/CredEnumerateW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

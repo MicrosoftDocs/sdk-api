@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.Rect.Union
 title: Rect::Union
-author: windows-driver-content
+author: windows-sdk-content
 description: The Rect::Union method determines the union of two rectangles and stores the result in a Rect object.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Union_c_a_b_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\union.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Rect class [GDI+],Union method, Rect.Union, Rect::Union, Union, Union method [GDI+], Union method [GDI+],Rect class, _gdiplus_CLASS_Rect_Union_c_a_b_, gdiplus._gdiplus_CLASS_Rect_Union_c_a_b_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

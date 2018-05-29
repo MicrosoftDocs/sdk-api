@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITTAPIObjectEvent.get_Event
 title: ITTAPIObjectEvent::get_Event
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Event method gets information concerning an asynchronous event notification. The application uses TAPIOBJECT_EVENT to determine what type of event is being signaled.
 old-location: tapi3\ittapiobjectevent_get_event.htm
 old-project: Tapi
 ms.assetid: 5ae4362f-6987-461e-928f-9478e37e0380
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITTAPIObjectEvent interface [TAPI 2.2],get_Event method, ITTAPIObjectEvent.get_Event, ITTAPIObjectEvent::get_Event, _tapi3_ittapiobjectevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITTAPIObjectEvent interface, tapi3.ittapiobjectevent_get_event, tapi3if/ITTAPIObjectEvent::get_Event
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

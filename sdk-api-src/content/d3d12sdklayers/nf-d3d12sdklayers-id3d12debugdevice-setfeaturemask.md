@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugDevice.SetFeatureMask
 title: ID3D12DebugDevice::SetFeatureMask
-author: windows-driver-content
+author: windows-sdk-content
 description: Set a bit field of flags that will turn debug features on and off.
 old-location: direct3d12\id3d12debugdevice_setfeaturemask.htm
 old-project: direct3d12
 ms.assetid: 12232AB8-BBEA-4663-BEB2-7E296851FE5E
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12DebugDevice interface,SetFeatureMask method, ID3D12DebugDevice.SetFeatureMask, ID3D12DebugDevice::SetFeatureMask, SetFeatureMask, SetFeatureMask method, SetFeatureMask method,ID3D12DebugDevice interface, d3d12sdklayers/ID3D12DebugDevice::SetFeatureMask, direct3d12.id3d12debugdevice_setfeaturemask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

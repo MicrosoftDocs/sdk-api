@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITLegacyCallMediaControl
 title: ITLegacyCallMediaControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITLegacyCallMediaControl interface supports legacy applications that must communicate directly with a device. This interface is exposed on the Call Object and can be created by calling QueryInterface on ITBasicCallControl.
 old-location: tapi3\itlegacycallmediacontrol.htm
 old-project: Tapi
 ms.assetid: 73288c46-6c6d-4938-9bb7-4d94acfc67f6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITLegacyCallMediaControl, ITLegacyCallMediaControl interface [TAPI 2.2], ITLegacyCallMediaControl interface [TAPI 2.2],described, _tapi3_itlegacycallmediacontrol, tapi3.itlegacycallmediacontrol, tapi3if/ITLegacyCallMediaControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

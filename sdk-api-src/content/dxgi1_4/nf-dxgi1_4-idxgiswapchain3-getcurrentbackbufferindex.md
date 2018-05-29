@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_4.IDXGISwapChain3.GetCurrentBackBufferIndex
 title: IDXGISwapChain3::GetCurrentBackBufferIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the index of the swap chain's current back buffer.
 old-location: direct3ddxgi\idxgiswapchain3_getcurrentbackbufferindex.htm
 old-project: direct3ddxgi
 ms.assetid: C19D56AC-4094-4D4A-B992-8FE8348A7DE2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetCurrentBackBufferIndex, GetCurrentBackBufferIndex method [DXGI], GetCurrentBackBufferIndex method [DXGI],IDXGISwapChain3 interface, IDXGISwapChain3 interface [DXGI],GetCurrentBackBufferIndex method, IDXGISwapChain3.GetCurrentBackBufferIndex, IDXGISwapChain3::GetCurrentBackBufferIndex, direct3ddxgi.idxgiswapchain3_getcurrentbackbufferindex, dxgi1_4/IDXGISwapChain3::GetCurrentBackBufferIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_4.h
 req.include-header: 

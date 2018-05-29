@@ -1,16 +1,16 @@
 ---
 UID: NF:lzexpand.LZInit
 title: LZInit function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates memory for the internal data structures required to decompress files, and then creates and initializes them.
 old-location: fs\lzinit.htm
 old-project: FileIO
 ms.assetid: 53e6345a-e303-4ef6-8b4d-b9a3fcacfb13
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: LZInit, LZInit function [Files], _win32_lzinit, base.lzinit, fs.lzinit, lzexpand/LZInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lzexpand.h
 req.include-header: Windows.h

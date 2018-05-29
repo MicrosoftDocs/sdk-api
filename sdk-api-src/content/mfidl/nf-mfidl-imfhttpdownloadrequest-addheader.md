@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.AddHeader
 title: IMFHttpDownloadRequest::AddHeader
-author: windows-driver-content
+author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to add a single HTTP header to a HTTP request. Microsoft Media Foundation will invoke this method once for each header that shall be included in the HTTP request, before it invokes the BeginSendRequest method.
 old-location: mf\imfhttpdownloadrequest_addheader.htm
 old-project: medfound
 ms.assetid: 37A2C9D8-EFF6-49D5-B495-EDBEEABD59CE
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddHeader, AddHeader method [Media Foundation], AddHeader method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],AddHeader method, IMFHttpDownloadRequest.AddHeader, IMFHttpDownloadRequest::AddHeader, mf.imfhttpdownloadrequest_addheader, mfidl/IMFHttpDownloadRequest::AddHeader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

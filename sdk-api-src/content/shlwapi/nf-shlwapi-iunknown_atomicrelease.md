@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.IUnknown_AtomicRelease
 title: IUnknown_AtomicRelease function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases a Component Object Model (COM) pointer and sets it to NULL.
 old-location: shell\IUnknown_AtomicRelease.htm
 old-project: shell
 ms.assetid: 6bb3f9cf-bf28-4f94-8557-56c1952384ec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUnknown_AtomicRelease, IUnknown_AtomicRelease function [Windows Shell], _win32_IUnknown_AtomicRelease, shell.IUnknown_AtomicRelease, shlwapi/IUnknown_AtomicRelease
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11sdklayers.D3D11_INFO_QUEUE_FILTER
 title: D3D11_INFO_QUEUE_FILTER
-author: windows-driver-content
+author: windows-sdk-content
 description: Debug message filter; contains a lists of message types to allow or deny.
 old-location: direct3d11\d3d11_info_queue_filter.htm
 old-project: direct3d11
 ms.assetid: 6ff12751-86dd-4ae0-b532-661a70dad21f
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 9211ecf7-c9cd-c8c2-618a-e4909600a06e, D3D11_INFO_QUEUE_FILTER, D3D11_INFO_QUEUE_FILTER structure [Direct3D 11], d3d11sdklayers/D3D11_INFO_QUEUE_FILTER, direct3d11.d3d11_info_queue_filter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11sdklayers.h
 req.include-header: 

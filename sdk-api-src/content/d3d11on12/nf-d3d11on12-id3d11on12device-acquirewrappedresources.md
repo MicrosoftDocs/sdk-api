@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11on12.ID3D11On12Device.AcquireWrappedResources
 title: ID3D11On12Device::AcquireWrappedResources
-author: windows-driver-content
+author: windows-sdk-content
 description: Acquires D3D11 resources for use with D3D 11on12. Indicates that rendering to the wrapped resources can begin again.
 old-location: direct3d12\id3d11on12device_acquirewrappedresources.htm
 old-project: direct3d12
 ms.assetid: 123FC8D9-6411-4CB7-921B-CEB32F5A9AD9
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: AcquireWrappedResources, AcquireWrappedResources method, AcquireWrappedResources method,ID3D11On12Device interface, ID3D11On12Device interface,AcquireWrappedResources method, ID3D11On12Device.AcquireWrappedResources, ID3D11On12Device::AcquireWrappedResources, d3d11on12/ID3D11On12Device::AcquireWrappedResources, direct3d12.id3d11on12device_acquirewrappedresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11on12.h
 req.include-header: 

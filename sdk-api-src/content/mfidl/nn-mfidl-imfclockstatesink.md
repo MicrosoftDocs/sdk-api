@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFClockStateSink
 title: IMFClockStateSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives state-change notifications from the presentation clock.
 old-location: mf\imfclockstatesink.htm
 old-project: medfound
 ms.assetid: 9aa0d2cd-a687-4b3a-834d-ccc8d3a03196
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 9aa0d2cd-a687-4b3a-834d-ccc8d3a03196, IMFClockStateSink, IMFClockStateSink interface [Media Foundation], IMFClockStateSink interface [Media Foundation],described, mf.imfclockstatesink, mfidl/IMFClockStateSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

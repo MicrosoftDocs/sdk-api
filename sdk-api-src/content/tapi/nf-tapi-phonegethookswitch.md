@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneGetHookSwitch
 title: phoneGetHookSwitch function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneGetHookSwitch function returns the current hookswitch mode of the specified open phone device.
 old-location: tapi2\phonegethookswitch.htm
 old-project: Tapi
 ms.assetid: 246f8b2b-8748-453d-b2b6-16771c0aad36
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phonegethookswitch, phoneGetHookSwitch, phoneGetHookSwitch function [TAPI 2.2], tapi/phoneGetHookSwitch, tapi2.phonegethookswitch"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

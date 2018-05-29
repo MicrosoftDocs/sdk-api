@@ -1,16 +1,16 @@
 ---
 UID: NS:iscsidsc.ISCSI_TARGET_PORTAL_GROUPW
 title: ISCSI_TARGET_PORTAL_GROUPW
-author: windows-driver-content
+author: windows-sdk-content
 description: ISCSI_TARGET_PORTAL_GROUP.
 old-location: iscsidisc\iscsi_target_portal_group.htm
 old-project: iSCSIDisc
 ms.assetid: 8b7e874b-5d2b-4948-98f2-1bcd6d4f8ca6
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PISCSI_TARGET_PORTAL_GROUPW, ISCSI_TARGET_PORTAL_GROUP, ISCSI_TARGET_PORTAL_GROUP structure [iSCSI Discovery Library API], ISCSI_TARGET_PORTAL_GROUPA, ISCSI_TARGET_PORTAL_GROUPW, PISCSI_TARGET_PORTAL_GROUP, PISCSI_TARGET_PORTAL_GROUP structure pointer [iSCSI Discovery Library API], iscsidisc.iscsi_target_portal_group, iscsidsc/ISCSI_TARGET_PORTAL_GROUP, iscsidsc/ISCSI_TARGET_PORTAL_GROUPA, iscsidsc/ISCSI_TARGET_PORTAL_GROUPW, iscsidsc/PISCSI_TARGET_PORTAL_GROUP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 

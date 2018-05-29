@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.RecoverEnlistment
 title: RecoverEnlistment function
-author: windows-driver-content
+author: windows-sdk-content
 description: Recovers an enlistment's state.
 old-location: fs\recoverenlistment.htm
 old-project: Ktm
 ms.assetid: 5c36732f-bf4f-4071-959e-3359be0b2363
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RecoverEnlistment, RecoverEnlistment function [Files], fs.recoverenlistment, ktmw32/RecoverEnlistment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIApplication
 title: IRDPSRAPIApplication
-author: windows-driver-content
+author: windows-sdk-content
 description: Groups the sharable windows within a process. Each application object contains a list of window objects. If an application object is shared, all its windows are shared.
 old-location: rdp\irdpsrapiapplication.htm
 old-project: Rdp
 ms.assetid: 9a934718-1eea-4406-a1da-b7d493f6667e
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIApplication, IRDPSRAPIApplication interface [RDP], IRDPSRAPIApplication interface [RDP],described, rdp.irdpsrapiapplication, rdpencomapi/IRDPSRAPIApplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

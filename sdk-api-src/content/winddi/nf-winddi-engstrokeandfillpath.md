@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngStrokeAndFillPath
 title: EngStrokeAndFillPath function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngStrokeAndFillPath function causes GDI to fill a path and stroke it at the same time.
 old-location: display\engstrokeandfillpath.htm
 old-project: display
 ms.assetid: a58ce829-aa55-46d6-b6d0-205140a9548c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngStrokeAndFillPath, EngStrokeAndFillPath function [Display Devices], display.engstrokeandfillpath, gdifncs_aad2693d-6a0e-40ab-ad95-aa38e77c7651.xml, winddi/EngStrokeAndFillPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

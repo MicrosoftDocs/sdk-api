@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IObjectContextActivity
 title: IObjectContextActivity
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the activity identifier associated with the current object context.
 old-location: cos\iobjectcontextactivity.htm
 old-project: cossdk
 ms.assetid: b3cdd835-60fd-414c-9b60-b15c07b11f34
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IObjectContextActivity, IObjectContextActivity interface [COM+], IObjectContextActivity interface [COM+],described, _cos_IObjectContextActivity, comsvcs/IObjectContextActivity, cos.iobjectcontextactivity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

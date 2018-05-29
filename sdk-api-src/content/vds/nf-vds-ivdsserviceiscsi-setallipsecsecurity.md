@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsServiceIscsi.SetAllIpsecSecurity
 title: IVdsServiceIscsi::SetAllIpsecSecurity
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.
 old-location: base\ivdsserviceiscsi_setallipsecsecurity.htm
 old-project: VDS
 ms.assetid: d76be416-c5e2-4b53-a1ff-0a27418c151e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],SetAllIpsecSecurity method, IVdsServiceIscsi.SetAllIpsecSecurity, IVdsServiceIscsi::SetAllIpsecSecurity, SetAllIpsecSecurity, SetAllIpsecSecurity method [VDS], SetAllIpsecSecurity method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_setallipsecsecurity, vds/IVdsServiceIscsi::SetAllIpsecSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

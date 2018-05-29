@@ -1,16 +1,16 @@
 ---
 UID: NE:fsrmenums._FsrmFileStreamingMode
 title: "_FsrmFileStreamingMode"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the streaming modes to use for the file stream.
 old-location: fsrm\fsrmfilestreamingmode.htm
 old-project: Fsrm
 ms.assetid: a2f7de78-7102-43f9-a7b8-b35ac0b7286a
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: FsrmFileStreamingMode, FsrmFileStreamingMode enumeration [File Server Resource Manager], FsrmFileStreamingMode_Read, FsrmFileStreamingMode_Unknown, FsrmFileStreamingMode_Write, _FsrmFileStreamingMode, fs.fsrmfilestreamingmode, fsrm.fsrmfilestreamingmode, fsrmenums/FsrmFileStreamingMode, fsrmenums/FsrmFileStreamingMode_Read, fsrmenums/FsrmFileStreamingMode_Unknown, fsrmenums/FsrmFileStreamingMode_Write
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

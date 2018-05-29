@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced3.StartAtPosition
 title: IWMReaderAdvanced3::StartAtPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: The StartAtPosition method enables you to specify a starting position for a file using one of several offset formats.
 old-location: wmformat\iwmreaderadvanced3_startatposition.htm
 old-project: wmformat
 ms.assetid: 64b922be-3a8f-4cbe-aa1d-aa3833e1f0fa
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReaderAdvanced3 interface [windows Media Format],StartAtPosition method, IWMReaderAdvanced3.StartAtPosition, IWMReaderAdvanced3::StartAtPosition, IWMReaderAdvanced3StartAtPosition, StartAtPosition, StartAtPosition method [windows Media Format], StartAtPosition method [windows Media Format],IWMReaderAdvanced3 interface, wmformat.iwmreaderadvanced3_startatposition, wmsdkidl/IWMReaderAdvanced3::StartAtPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

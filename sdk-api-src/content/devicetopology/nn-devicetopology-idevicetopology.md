@@ -1,16 +1,16 @@
 ---
 UID: NN:devicetopology.IDeviceTopology
 title: IDeviceTopology
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDeviceTopology interface provides access to the topology of an audio device.
 old-location: coreaudio\idevicetopology.htm
 old-project: CoreAudio
 ms.assetid: 1b509f69-6277-40c0-a293-02afc30d464a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDeviceTopology, IDeviceTopology interface [Core Audio], IDeviceTopology interface [Core Audio],described, coreaudio.idevicetopology, devicetopology/IDeviceTopology
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

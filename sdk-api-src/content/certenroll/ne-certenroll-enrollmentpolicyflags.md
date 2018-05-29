@@ -1,16 +1,16 @@
 ---
 UID: NE:certenroll.EnrollmentPolicyFlags
 title: EnrollmentPolicyFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies group policy flags.
 old-location: security\enrollmentpolicyflags.htm
 old-project: SecCertEnroll
 ms.assetid: 07f80422-6856-4371-946f-88efdd9c765a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DisableGroupPolicyList, DisableUserServerList, EnrollmentPolicyFlags, EnrollmentPolicyFlags enumeration [Security], certenroll/DisableGroupPolicyList, certenroll/DisableUserServerList, certenroll/EnrollmentPolicyFlags, security.enrollmentpolicyflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

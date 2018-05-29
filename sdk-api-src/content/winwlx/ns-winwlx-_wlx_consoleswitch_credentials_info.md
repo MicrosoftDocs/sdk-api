@@ -1,16 +1,16 @@
 ---
 UID: NS:winwlx._WLX_CONSOLESWITCH_CREDENTIALS_INFO
 title: "_WLX_CONSOLESWITCH_CREDENTIALS_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the client credentials returned by a call to WlxGetConsoleSwitchCredentials.
 old-location: security\wlx_consoleswitch_credentials_info_v1_0.htm
 old-project: SecAuthN
 ms.assetid: f72f3dd3-42a3-4f2b-be36-13c496c396fd
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, LOGON_EXTRA_SIDS, PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0 structure pointer [Security], WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0 structure [Security], _WLX_CONSOLESWITCH_CREDENTIALS_INFO, _gina_wlx_consoleswitch_credentials_info_v1_0, security.wlx_consoleswitch_credentials_info_v1_0, winwlx/PWLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0, winwlx/WLX_CONSOLESWITCH_CREDENTIALS_INFO_V1_0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winwlx.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:setupapi._SOURCE_MEDIA_W
 title: "_SOURCE_MEDIA_W"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SOURCE_MEDIA structure is used with the SPFILENOTIFY_NEEDMEDIA notification to pass source media information.
 old-location: setup\source_media_str.htm
 old-project: SetupApi
 ms.assetid: 93a72ec8-b979-4e61-bb06-eed1a6432f16
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PSOURCE_MEDIA_W, PSOURCE_MEDIA, PSOURCE_MEDIA structure pointer [Setup API], SOURCE_MEDIA, SOURCE_MEDIA structure [Setup API], SOURCE_MEDIA_W, _SOURCE_MEDIA_W, _setupapi_source_media_str, setup.source_media_str, setupapi/PSOURCE_MEDIA, setupapi/SOURCE_MEDIA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 

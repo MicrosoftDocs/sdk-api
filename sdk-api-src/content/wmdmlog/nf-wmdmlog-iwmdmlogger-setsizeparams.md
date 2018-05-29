@@ -1,16 +1,16 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.SetSizeParams
 title: IWMDMLogger::SetSizeParams
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetSizeParams method sets the current size parameters for the current log file.
 old-location: wmdm\iwmdmlogger_setsizeparams.htm
 old-project: WMDM
 ms.assetid: f602efb8-7b00-4a9d-a61a-06e2f15e9185
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],SetSizeParams method, IWMDMLogger.SetSizeParams, IWMDMLogger::SetSizeParams, IWMDMLoggerSetSizeParams, SetSizeParams, SetSizeParams method [windows Media Device Manager], SetSizeParams method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_setsizeparams, wmdmlog/IWMDMLogger::SetSizeParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmdmlog.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12shader._D3D12_SHADER_INPUT_BIND_DESC
 title: "_D3D12_SHADER_INPUT_BIND_DESC"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes how a shader resource is bound to a shader input.
 old-location: direct3d12\d3d12_shader_input_bind_desc.htm
 old-project: direct3d12
 ms.assetid: 4179C417-388D-4A20-8878-D074E20A706F
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_SHADER_INPUT_BIND_DESC, D3D12_SHADER_INPUT_BIND_DESC structure, _D3D12_SHADER_INPUT_BIND_DESC, d3d12shader/D3D12_SHADER_INPUT_BIND_DESC, direct3d12.d3d12_shader_input_bind_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12shader.h
 req.include-header: 

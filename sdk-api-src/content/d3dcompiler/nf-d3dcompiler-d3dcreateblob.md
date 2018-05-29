@@ -1,16 +1,16 @@
 ---
 UID: NF:d3dcompiler.D3DCreateBlob
 title: D3DCreateBlob function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a buffer.
 old-location: direct3dhlsl\d3dcreateblob.htm
 old-project: direct3dhlsl
 ms.assetid: 9cad9bff-1641-4fb1-a7c9-c3e31089d7f7
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: D3DCreateBlob, D3DCreateBlob function [HLSL], d3dcompiler/D3DCreateBlob, direct3dhlsl.d3dcreateblob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 

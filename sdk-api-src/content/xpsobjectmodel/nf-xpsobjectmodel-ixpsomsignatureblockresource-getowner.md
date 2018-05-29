@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResource.GetOwner
 title: IXpsOMSignatureBlockResource::GetOwner
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the IXpsOMDocument interface that contains the resource.
 old-location: xps\ixpsomsignatureblockresource_getowner.htm
 old-project: printdocs
 ms.assetid: b94e5b76-ae45-483c-b9ea-3987d7b4837a
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMSignatureBlockResource interface, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],GetOwner method, IXpsOMSignatureBlockResource.GetOwner, IXpsOMSignatureBlockResource::GetOwner, xps.ixpsomsignatureblockresource_getowner, xpsobjectmodel/IXpsOMSignatureBlockResource::GetOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

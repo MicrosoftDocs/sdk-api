@@ -1,16 +1,16 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorColorTemperature
 title: GetMonitorColorTemperature function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a monitor's current color temperature.
 old-location: monitor\getmonitorcolortemperature.htm
 old-project: Monitor
 ms.assetid: 872aabcc-b274-454c-a08b-6c4c5aa83012
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetMonitorColorTemperature, GetMonitorColorTemperature function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorColorTemperature, monitor.getmonitorcolortemperature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

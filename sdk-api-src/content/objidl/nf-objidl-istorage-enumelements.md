@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IStorage.EnumElements
 title: IStorage::EnumElements
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumElements method retrieves a pointer to an enumerator object that can be used to enumerate the storage and stream objects contained within this storage object.
 old-location: stg\istorage_enumelements.htm
 old-project: Stg
 ms.assetid: 29ca157e-40e2-4e9a-95fb-a31bb45570f2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnumElements, EnumElements method [Structured Storage], EnumElements method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],EnumElements method, IStorage.EnumElements, IStorage::EnumElements, _stg_istorage_enumelements, objidl/IStorage::EnumElements, stg.istorage_enumelements
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

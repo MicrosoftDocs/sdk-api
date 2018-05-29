@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseAutomationPropertyChangedEvent
 title: UiaRaiseAutomationPropertyChangedEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by providers to notify the Microsoft UI Automation core that an element property has changed.
 old-location: winauto\uiauto_RaiseAutoPropChangedEventFunction.htm
 old-project: WinAuto
 ms.assetid: ec9da198-eb1d-4883-9b5c-539c92bd530b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaRaiseAutomationPropertyChangedEvent, UiaRaiseAutomationPropertyChangedEvent function [Windows Accessibility], uiauto.uiauto_RaiseAutoPropChangedEventFunction, uiauto_RaiseAutoPropChangedEventFunction, uiautomationcoreapi/UiaRaiseAutomationPropertyChangedEvent, winauto.uiauto_RaiseAutoPropChangedEventFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

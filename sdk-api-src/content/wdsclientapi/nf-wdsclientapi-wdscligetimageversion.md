@@ -1,16 +1,16 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageVersion
 title: WdsCliGetImageVersion function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the version of the current image.
 old-location: wds\wdscligetimageversion.htm
 old-project: Wds
 ms.assetid: 50cd6ca0-dffd-452c-9e68-904037f71ccc
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsCliGetImageVersion, WdsCliGetImageVersion function [Windows Deployment Services], wds.wdscligetimageversion, wdsclientapi/WdsCliGetImageVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

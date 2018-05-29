@@ -1,16 +1,16 @@
 ---
 UID: NF:wmpplug.IWMPPluginUI.Destroy
 title: IWMPPluginUI::Destroy
-author: windows-driver-content
+author: windows-sdk-content
 description: The Destroy method is called by Windows Media Player to shut down the plug-in user interface.
 old-location: wmp\iwmppluginui_destroy.htm
 old-project: WMP
 ms.assetid: ca78c354-92ae-47d4-82c3-e41eae19f246
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: Destroy, Destroy method [Windows Media Player], Destroy method [Windows Media Player],IWMPPluginUI interface, IWMPPluginUI interface [Windows Media Player],Destroy method, IWMPPluginUI.Destroy, IWMPPluginUI::Destroy, IWMPPluginUIDestroy, wmp.iwmppluginui_destroy, wmpplug/IWMPPluginUI::Destroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmpplug.h
 req.include-header: 

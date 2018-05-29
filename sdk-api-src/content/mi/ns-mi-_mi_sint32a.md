@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_Sint32A
 title: "_MI_Sint32A"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an array of MI_Sint32 types.
 old-location: wmi_v2\mi_sint32a.htm
 old-project: wmi_v2
 ms.assetid: a50d9d8d-8114-498e-ace3-f975fe413903
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Sint32A, MI_Sint32A structure [Windows Management Infrastructure (MI)], _MI_Sint32A, mi/MI_Sint32A, wmi._mi_sint32a, wmi_v2.mi_sint32a
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

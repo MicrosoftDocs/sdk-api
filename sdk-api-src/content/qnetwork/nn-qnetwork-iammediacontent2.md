@@ -1,16 +1,16 @@
 ---
 UID: NN:qnetwork.IAMMediaContent2
 title: IAMMediaContent2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMMediaContent2 interface retrieves custom parameters and playlists from ASX files. This interface is not implemented by any default components in DirectShow.
 old-location: dshow\iammediacontent2.htm
 old-project: DirectShow
 ms.assetid: cf8381f2-2ef0-4169-8029-bce36bf3d6a9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMMediaContent2, IAMMediaContent2 interface [DirectShow], IAMMediaContent2 interface [DirectShow],described, IAMMediaContent2Interface, dshow.iammediacontent2, qnetwork/IAMMediaContent2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: qnetwork.h
 req.include-header: 

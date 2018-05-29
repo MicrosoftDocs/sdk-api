@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.EnumItemsInCategory
 title: ITfCategoryMgr::EnumItemsInCategory
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfCategoryMgr::EnumItemsInCategory method
 old-location: tsf\itfcategorymgr_enumitemsincategory.htm
 old-project: TSF
 ms.assetid: 88b123d8-86aa-40ae-8777-1b33cfbb953a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EnumItemsInCategory, EnumItemsInCategory method [Text Services Framework], EnumItemsInCategory method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],EnumItemsInCategory method, ITfCategoryMgr.EnumItemsInCategory, ITfCategoryMgr::EnumItemsInCategory, _tsf_itfcategorymgr_enumitemsincategory_ref, msctf/ITfCategoryMgr::EnumItemsInCategory, tsf.itfcategorymgr_enumitemsincategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

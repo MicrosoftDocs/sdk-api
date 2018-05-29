@@ -1,16 +1,16 @@
 ---
 UID: NF:peerdist.PeerDistGetStatus
 title: PeerDistGetStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: PeerDistGetStatus function returns the current status of the Peer Distribution service.
 old-location: p2p\peerdistgetstatus.htm
 old-project: P2PSdk
 ms.assetid: 1ab188cc-db79-49b2-977f-0b8fccf7f274
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerDistGetStatus, PeerDistGetStatus function [Peer Networking], p2p.peerdistgetstatus, peerdist/PeerDistGetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

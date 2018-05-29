@@ -1,16 +1,16 @@
 ---
 UID: NF:callobj.ICallFrame.GetIIDAndMethod
 title: ICallFrame::GetIIDAndMethod
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the interface ID or the method number.
 old-location: com\icallframe_getiidandmethod.htm
 old-project: com
 ms.assetid: 938798ef-ddc8-4182-9216-d130c4f0e4ae
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetIIDAndMethod, GetIIDAndMethod method [COM], GetIIDAndMethod method [COM],ICallFrame interface, ICallFrame interface [COM],GetIIDAndMethod method, ICallFrame.GetIIDAndMethod, ICallFrame::GetIIDAndMethod, _com_icallframe_getiidandmethod, callobj/ICallFrame::GetIIDAndMethod, com.icallframe_getiidandmethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: callobj.h
 req.include-header: 

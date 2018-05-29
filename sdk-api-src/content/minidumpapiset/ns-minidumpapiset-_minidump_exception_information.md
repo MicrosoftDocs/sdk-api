@@ -1,16 +1,16 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_EXCEPTION_INFORMATION
 title: "_MINIDUMP_EXCEPTION_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the exception information written to the minidump file by the MiniDumpWriteDump function.
 old-location: base\minidump_exception_information_str.htm
 old-project: Debug
 ms.assetid: 86416432-99e4-45ae-84e0-84b7b2341d11
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PMINIDUMP_EXCEPTION_INFORMATION, MINIDUMP_EXCEPTION_INFORMATION, MINIDUMP_EXCEPTION_INFORMATION structure, PMINIDUMP_EXCEPTION_INFORMATION, PMINIDUMP_EXCEPTION_INFORMATION structure pointer, _MINIDUMP_EXCEPTION_INFORMATION, _win32_minidump_exception_information_str, base.minidump_exception_information_str, minidumpapiset/MINIDUMP_EXCEPTION_INFORMATION, minidumpapiset/PMINIDUMP_EXCEPTION_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

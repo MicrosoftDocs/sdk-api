@@ -1,16 +1,16 @@
 ---
 UID: NS:qosobjs._QOS_DS_CLASS
 title: "_QOS_DS_CLASS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The traffic control object QOS_DS_CLASS enables application developers to override the default Diffserv code point (DSCP) value for the IP packets associated with a given flow. By default, the DSCP value is derived from the flow's ServiceType.
 old-location: qos\qos_ds_class.htm
 old-project: QOS
 ms.assetid: 56eca8ef-2b6e-4380-869c-bf1a4c8fdb1f
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*LPQOS_DS_CLASS, LPQOS_DS_CLASS, LPQOS_DS_CLASS structure pointer [QOS], QOS_DS_CLASS, QOS_DS_CLASS structure [QOS], _QOS_DS_CLASS, _gqos_qos_ds_class, qos.qos_ds_class, qosobjs/LPQOS_DS_CLASS, qosobjs/QOS_DS_CLASS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: qosobjs.h
 req.include-header: 

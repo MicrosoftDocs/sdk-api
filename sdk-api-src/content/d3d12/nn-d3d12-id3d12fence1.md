@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12.ID3D12Fence1
 title: ID3D12Fence1
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a fence. This interface extends ID3D12Fence, and supports the retrieval of the flags used to create the original fence.
 old-location: direct3d12\id3d12fence1.htm
 old-project: direct3d12
 ms.assetid: 292FA25B-7C72-4092-8822-DB15951A8309
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12Fence1, ID3D12Fence1 interface, ID3D12Fence1 interface,described, d3d12/ID3D12Fence1, direct3d12.id3d12fence1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

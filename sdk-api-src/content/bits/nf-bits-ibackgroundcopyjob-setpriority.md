@@ -1,16 +1,16 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetPriority
 title: IBackgroundCopyJob::SetPriority
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the priority level of your job. The priority level determines when your job is processed relative to other jobs in the transfer queue.
 old-location: bits\ibackgroundcopyjob_setpriority.htm
 old-project: Bits
 ms.assetid: 8b59128d-7e63-45dc-af0f-54ea844dac98
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],SetPriority method, IBackgroundCopyJob.SetPriority, IBackgroundCopyJob::SetPriority, SetPriority, SetPriority method [BITS], SetPriority method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setpriority, bits.ibackgroundcopyjob_setpriority, bits/IBackgroundCopyJob::SetPriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 

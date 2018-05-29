@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.PtInRegion
 title: PtInRegion function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PtInRegion function determines whether the specified point is inside the specified region.
 old-location: gdi\ptinregion.htm
 old-project: gdi
 ms.assetid: 6fab6126-4672-49d6-825b-66a7927a7e99
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PtInRegion, PtInRegion function [Windows GDI], _win32_PtInRegion, gdi.ptinregion, wingdi/PtInRegion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

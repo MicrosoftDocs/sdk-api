@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent
 title: IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether there is optional bundle information at the current position of the enumerator.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfoenumerator_gethascurrent.htm
 old-project: appxpkg
 ms.assetid: C7473291-89EA-4412-848E-07257C0AC0FB
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxBundleManifestOptionalBundleInfoEnumerator interface, IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management],GetHasCurrent method, IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent, IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_gethascurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

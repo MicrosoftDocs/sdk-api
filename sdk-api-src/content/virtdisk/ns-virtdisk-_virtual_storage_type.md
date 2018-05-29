@@ -1,16 +1,16 @@
 ---
 UID: NS:virtdisk._VIRTUAL_STORAGE_TYPE
 title: "_VIRTUAL_STORAGE_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the type and provider (vendor) of the virtual storage device.
 old-location: vhd\virtual_storage_type.htm
 old-project: VStor
 ms.assetid: 9f0c1848-fa8e-4747-a3b1-71a274695280
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PVIRTUAL_STORAGE_TYPE, PVIRTUAL_STORAGE_TYPE, PVIRTUAL_STORAGE_TYPE structure pointer [VHD], VIRTUAL_STORAGE_TYPE, VIRTUAL_STORAGE_TYPE structure [VHD], VIRTUAL_STORAGE_TYPE_DEVICE_ISO, VIRTUAL_STORAGE_TYPE_DEVICE_UNKNOWN, VIRTUAL_STORAGE_TYPE_DEVICE_VHD, VIRTUAL_STORAGE_TYPE_DEVICE_VHDX, VIRTUAL_STORAGE_TYPE_VENDOR_MICROSOFT, VIRTUAL_STORAGE_TYPE_VENDOR_UNKNOWN, _VIRTUAL_STORAGE_TYPE, vhd.virtual_storage_type, virtdisk/PVIRTUAL_STORAGE_TYPE, virtdisk/VIRTUAL_STORAGE_TYPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: Windows.h

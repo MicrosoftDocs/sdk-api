@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Image.RotateFlip
 title: Image::RotateFlip
-author: windows-driver-content
+author: windows-sdk-content
 description: The Image::RotateFlip method rotates and flips this image.
 old-location: gdiplus\_gdiplus_CLASS_Image_RotateFlip_rotateFlipType_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\rotateflip.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Image class [GDI+],RotateFlip method, Image.RotateFlip, Image::RotateFlip, RotateFlip, RotateFlip method [GDI+], RotateFlip method [GDI+],Image class, _gdiplus_CLASS_Image_RotateFlip_rotateFlipType_, gdiplus._gdiplus_CLASS_Image_RotateFlip_rotateFlipType_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

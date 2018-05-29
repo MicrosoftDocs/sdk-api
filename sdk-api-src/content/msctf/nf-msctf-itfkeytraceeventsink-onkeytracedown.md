@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfKeyTraceEventSink.OnKeyTraceDown
 title: ITfKeyTraceEventSink::OnKeyTraceDown
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfKeyTraceEventSink::OnKeyTraceDown method
 old-location: tsf\itfkeytraceeventsink_onkeytracedown.htm
 old-project: TSF
 ms.assetid: 826b45cd-a1ec-406c-bf7a-685a766484e3
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfKeyTraceEventSink interface [Text Services Framework],OnKeyTraceDown method, ITfKeyTraceEventSink.OnKeyTraceDown, ITfKeyTraceEventSink::OnKeyTraceDown, OnKeyTraceDown, OnKeyTraceDown method [Text Services Framework], OnKeyTraceDown method [Text Services Framework],ITfKeyTraceEventSink interface, _tsf_itfkeytraceeventsink_onkeytracedown_ref, msctf/ITfKeyTraceEventSink::OnKeyTraceDown, tsf.itfkeytraceeventsink_onkeytracedown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

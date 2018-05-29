@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiSetPropertyA
 title: MsiSetPropertyA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiSetProperty function sets the value for an installation property.
 old-location: setup\msisetproperty.htm
 old-project: Msi
 ms.assetid: f6376a19-579a-4e25-8ab6-bb66c623dd25
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiSetProperty, MsiSetProperty function, MsiSetPropertyA, MsiSetPropertyW, _msi_msisetproperty, msiquery/MsiSetProperty, msiquery/MsiSetPropertyA, msiquery/MsiSetPropertyW, setup.msisetproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

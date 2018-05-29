@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl.tagWMSCRIPTFORMAT
 title: tagWMSCRIPTFORMAT
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMSCRIPTFORMAT structure describes the type of script data used in a script stream.
 old-location: wmformat\wmscriptformat.htm
 old-project: wmformat
 ms.assetid: b7c513ac-9c28-4556-a0c8-f3e0d6efc735
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMSCRIPTFORMAT, WMSCRIPTFORMAT structure [windows Media Format], tagWMSCRIPTFORMAT, wmformat.wmscriptformat, wmsdkidl/WMSCRIPTFORMAT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

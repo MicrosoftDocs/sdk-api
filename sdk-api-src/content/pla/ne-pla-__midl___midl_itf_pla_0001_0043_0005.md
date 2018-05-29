@@ -1,16 +1,16 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0005
 title: "__MIDL___MIDL_itf_pla_0001_0043_0005"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the clock resolution to use when tracing events.
 old-location: pla\clocktype.htm
 old-project: PLA
 ms.assetid: e255d486-2f1f-4a3d-a8a5-1c997d61a073
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ClockType, ClockType enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0005, base.clocktype, pla.clocktype, pla/ClockType, pla/plaCycle, pla/plaPerformance, pla/plaSystem, pla/plaTimeStamp, plaCycle, plaPerformance, plaSystem, plaTimeStamp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: pla.h
 req.include-header: 

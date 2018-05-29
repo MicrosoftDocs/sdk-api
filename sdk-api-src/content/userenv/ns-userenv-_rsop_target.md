@@ -1,16 +1,16 @@
 ---
 UID: NS:userenv._RSOP_TARGET
 title: "_RSOP_TARGET"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RSOP_TARGET structure contains computer and user information required by the GenerateGroupPolicy function.
 old-location: policy\rsop_target_str.htm
 old-project: Policy
 ms.assetid: 65b0eb27-fc4a-44d6-843e-965a90dc51e8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PRSOP_TARGET, PRSOP_TARGET, PRSOP_TARGET structure pointer [Group Policy], RSOP_TARGET, RSOP_TARGET structure [Group Policy], _RSOP_TARGET, _win32_rsop_target_str, policy.rsop_target_str, userenv/PRSOP_TARGET, userenv/RSOP_TARGET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: userenv.h
 req.include-header: 

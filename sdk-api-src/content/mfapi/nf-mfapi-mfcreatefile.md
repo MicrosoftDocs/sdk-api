@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateFile
 title: MFCreateFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a byte stream from a file.
 old-location: mf\mfcreatefile.htm
 old-project: medfound
 ms.assetid: 29269ea4-151f-4819-ae49-9f1c13a901e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 29269ea4-151f-4819-ae49-9f1c13a901e5, MFCreateFile, MFCreateFile function [Media Foundation], mf.mfcreatefile, mfapi/MFCreateFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

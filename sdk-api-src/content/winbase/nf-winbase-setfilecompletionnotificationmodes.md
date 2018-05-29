@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetFileCompletionNotificationModes
 title: SetFileCompletionNotificationModes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the notification modes for a file handle, allowing you to specify how completion notifications work for the specified file.
 old-location: fs\setfilecompletionnotificationmodes_func.htm
 old-project: FileIO
 ms.assetid: 23796484-ee47-4f80-856d-5a5d5635547c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FILE_SKIP_COMPLETION_PORT_ON_SUCCESS, FILE_SKIP_SET_EVENT_ON_HANDLE, SetFileCompletionNotificationModes, SetFileCompletionNotificationModes function [Files], fs.setfilecompletionnotificationmodes_func, winbase/SetFileCompletionNotificationModes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

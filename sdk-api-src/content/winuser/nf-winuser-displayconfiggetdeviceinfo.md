@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.DisplayConfigGetDeviceInfo
 title: DisplayConfigGetDeviceInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DisplayConfigGetDeviceInfo function retrieves display configuration information about the device.
 old-location: display\displayconfiggetdeviceinfo.htm
 old-project: display
 ms.assetid: 249dcb1a-4ce3-4478-8331-fb81e91313b0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CCD_Functions_e8c6c762-da08-4b21-b016-e66bb44c248d.xml, DisplayConfigGetDeviceInfo, DisplayConfigGetDeviceInfo function [Display Devices], display.displayconfiggetdeviceinfo, winuser/DisplayConfigGetDeviceInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

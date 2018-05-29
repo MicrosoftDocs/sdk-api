@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.HttpSendRequestExW
 title: HttpSendRequestExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends the specified request to the HTTP server.
 old-location: wininet\httpsendrequestex.htm
 old-project: WinInet
 ms.assetid: 3362fcd2-e8df-4886-9525-bf60589b2c1f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HttpSendRequestEx, HttpSendRequestEx function [WinINet], HttpSendRequestExA, HttpSendRequestExW, _win32_httpsendrequestex, wininet.httpsendrequestex, wininet/HttpSendRequestEx, wininet/HttpSendRequestExA, wininet/HttpSendRequestExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

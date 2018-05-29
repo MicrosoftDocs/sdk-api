@@ -1,16 +1,16 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetBackgroundColor
 title: IAMWstDecoder::SetBackgroundColor
-author: windows-driver-content
+author: windows-sdk-content
 description: Downstream filters use the SetBackgroundColor method to assign the physical color to be used in color keying the background for overlay mixing.
 old-location: dshow\iamwstdecoder_setbackgroundcolor.htm
 old-project: DirectShow
 ms.assetid: d65726aa-a826-41d4-95f3-40c86d7b9347
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetBackgroundColor method, IAMWstDecoder.SetBackgroundColor, IAMWstDecoder::SetBackgroundColor, IAMWstDecoderSetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [DirectShow], SetBackgroundColor method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setbackgroundcolor, iwstdec/IAMWstDecoder::SetBackgroundColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 

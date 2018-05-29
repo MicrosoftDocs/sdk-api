@@ -1,16 +1,16 @@
 ---
 UID: NS:oledlg.tagOLEUIINSERTOBJECTW
 title: tagOLEUIINSERTOBJECTW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that the OLE User Interface Library uses to initialize the Insert Object dialog box, and space for the library to return information when the dialog box is dismissed.
 old-location: com\oleuiinsertobject_struct.htm
 old-project: com
 ms.assetid: b14df159-ed62-4745-8cac-c31364d0de7b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPOLEUIINSERTOBJECTW, *POLEUIINSERTOBJECTW, IOF_CHECKDISPLAYASICON, IOF_CHECKLINK, IOF_CREATEFILEOBJECT, IOF_CREATELINKOBJECT, IOF_CREATENEWOBJECT, IOF_DISABLEDISPLAYASICON, IOF_DISABLELINK, IOF_HIDECHANGEICON, IOF_SELECTCREATECONTROL, IOF_SELECTCREATEFROMFILE, IOF_SELECTCREATENEW, IOF_SHOWHELP, IOF_SHOWINSERTCONTROL, IOF_VERIFYSERVERSEXIST, LPOLEUIINSERTOBJECT, LPOLEUIINSERTOBJECT structure pointer [COM], OLEUIINSERTOBJECT, OLEUIINSERTOBJECT structure [COM], OLEUIINSERTOBJECTA, OLEUIINSERTOBJECTW, POLEUIINSERTOBJECT, POLEUIINSERTOBJECT structure pointer [COM], _ole_OLEUIINSERTOBJECT_str, com.oleuiinsertobject_struct, oledlg/LPOLEUIINSERTOBJECT, oledlg/OLEUIINSERTOBJECT, oledlg/OLEUIINSERTOBJECTA, oledlg/OLEUIINSERTOBJECTW, oledlg/POLEUIINSERTOBJECT, tagOLEUIINSERTOBJECTW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 

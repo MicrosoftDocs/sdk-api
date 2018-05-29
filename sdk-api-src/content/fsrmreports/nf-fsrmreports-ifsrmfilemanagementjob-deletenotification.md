@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.DeleteNotification
 title: IFsrmFileManagementJob::DeleteNotification
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a notification value from the file management job's list of notifications.
 old-location: fsrm\ifsrmfilemanagementjob_deletenotification.htm
 old-project: Fsrm
 ms.assetid: d21e289a-5062-4897-9479-3408589db11f
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: DeleteNotification, DeleteNotification method [File Server Resource Manager], DeleteNotification method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],DeleteNotification method, IFsrmFileManagementJob.DeleteNotification, IFsrmFileManagementJob::DeleteNotification, fs.ifsrmfilemanagementjob_deletenotification, fsrm.ifsrmfilemanagementjob_deletenotification, fsrmreports/IFsrmFileManagementJob::DeleteNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

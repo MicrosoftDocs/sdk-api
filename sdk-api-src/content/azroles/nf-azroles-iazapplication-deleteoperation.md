@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplication.DeleteOperation
 title: IAzApplication::DeleteOperation
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the IAzOperation object with the specified name from the IAzApplication object.
 old-location: security\iazapplication_deleteoperation.htm
 old-project: SecAuthZ
 ms.assetid: 2541e01d-20a4-424f-b8e0-5d6dedfbd7fe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzApplication object [Security],DeleteOperation method, DeleteOperation, DeleteOperation method [Security], DeleteOperation method [Security],AzApplication object, DeleteOperation method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteOperation method, IAzApplication.DeleteOperation, IAzApplication::DeleteOperation, azroles/IAzApplication::DeleteOperation, security.iazapplication_deleteoperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

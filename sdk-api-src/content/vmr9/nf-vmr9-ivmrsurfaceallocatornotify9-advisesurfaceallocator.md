@@ -1,16 +1,16 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocatorNotify9.AdviseSurfaceAllocator
 title: IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator
-author: windows-driver-content
+author: windows-sdk-content
 description: The AdviseSurfaceAllocator method is called by an application to instruct the VMR-9 to use a custom allocator-presenter.
 old-location: dshow\ivmrsurfaceallocatornotify9_advisesurfaceallocator.htm
 old-project: DirectShow
 ms.assetid: 99f9c549-e4b1-480b-97a4-7a29c9cdb649
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AdviseSurfaceAllocator, AdviseSurfaceAllocator method [DirectShow], AdviseSurfaceAllocator method [DirectShow],IVMRSurfaceAllocatorNotify9 interface, IVMRSurfaceAllocatorNotify9 interface [DirectShow],AdviseSurfaceAllocator method, IVMRSurfaceAllocatorNotify9.AdviseSurfaceAllocator, IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator, IVMRSurfaceAllocatorNotify9AdviseSurfaceAllocator, dshow.ivmrsurfaceallocatornotify9_advisesurfaceallocator, vmr9/IVMRSurfaceAllocatorNotify9::AdviseSurfaceAllocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dsparse.DsIsMangledRdnValueW
 title: DsIsMangledRdnValueW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if a given relative distinguished name value is a mangled name of the given type.
 old-location: ad\dsismangledrdnvalue.htm
 old-project: AD
 ms.assetid: adf5e133-9e48-4e97-af0c-4f8ea9b8bf8f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsIsMangledRdnValue, DsIsMangledRdnValue function [Active Directory], DsIsMangledRdnValueA, DsIsMangledRdnValueW, _glines_dsismangledrdnvalue, ad.dsismangledrdnvalue, dsparse/DsIsMangledRdnValue, dsparse/DsIsMangledRdnValueA, dsparse/DsIsMangledRdnValueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dsparse.h
 req.include-header: Ntdsapi.h

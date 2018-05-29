@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_MaxLength
 title: ICspAlgorithm::get_MaxLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the maximum permitted length for a key.
 old-location: security\icspalgorithm_maxlength_property.htm
 old-project: SecCertEnroll
 ms.assetid: 516afaa4-0317-4f05-87e7-bd614b428ccb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICspAlgorithm interface [Security],MaxLength property, ICspAlgorithm.MaxLength, ICspAlgorithm.get_MaxLength, ICspAlgorithm::MaxLength, ICspAlgorithm::get_MaxLength, MaxLength property [Security], MaxLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::MaxLength, certenroll/ICspAlgorithm::get_MaxLength, get_MaxLength, security.icspalgorithm_maxlength_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

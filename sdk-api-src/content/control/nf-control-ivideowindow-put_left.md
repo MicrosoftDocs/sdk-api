@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IVideoWindow.put_Left
 title: IVideoWindow::put_Left
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Left method sets the x-coordinate of the video window.
 old-location: dshow\ivideowindow_put_left.htm
 old-project: DirectShow
 ms.assetid: a614ee46-49cf-40e4-a1f7-b3b3b7065175
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Left method, IVideoWindow.put_Left, IVideoWindow::put_Left, IVideoWindowput_Left, control/IVideoWindow::put_Left, dshow.ivideowindow_put_left, put_Left, put_Left method [DirectShow], put_Left method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

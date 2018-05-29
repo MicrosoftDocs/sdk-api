@@ -1,16 +1,16 @@
 ---
 UID: NC:ddrawint.PDD_VPORTCB_GETINPUTFORMATS
 title: PDD_VPORTCB_GETINPUTFORMATS
-author: windows-driver-content
+author: windows-sdk-content
 description: The DdVideoPortGetInputFormats callback function determines the input formats that the DirectDraw VPE object can accept.
 old-location: display\ddvideoportgetinputformats.htm
 old-project: display
 ms.assetid: aac34116-a6a2-4d00-b0c4-87fac786b68d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DdVideoPortGetInputFormats, DdVideoPortGetInputFormats callback function [Display Devices], PDD_VPORTCB_GETINPUTFORMATS, PDD_VPORTCB_GETINPUTFORMATS callback, ddfncs_0dc8b987-a259-4778-8cbc-1fbb7a1169bd.xml, ddrawint/DdVideoPortGetInputFormats, display.ddvideoportgetinputformats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IChannelTuneRequest
 title: IChannelTuneRequest
-author: windows-driver-content
+author: windows-sdk-content
 description: The IChannelTuneRequest interface is implemented on tuning request objects that support channel numbers, including analog TV and ATSC.
 old-location: mstv\ichanneltunerequest.htm
 old-project: mstv
 ms.assetid: cdb65c1a-bd86-4dc8-a72f-c08e36999880
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IChannelTuneRequest, IChannelTuneRequest interface [Microsoft TV Technologies], IChannelTuneRequest interface [Microsoft TV Technologies],described, IChannelTuneRequestInterface, mstv.ichanneltunerequest, tuner/IChannelTuneRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

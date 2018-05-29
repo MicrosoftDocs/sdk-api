@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_DICTIONARY
 title: "_WS_XML_DICTIONARY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a set of unique strings. This information is used by the binary encoding to write a more compact xml document.
 old-location: wsw\ws_xml_dictionary.htm
 old-project: wsw
 ms.assetid: 2cba47fd-a049-4e50-99dd-20ccf91c9e0f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_DICTIONARY, WS_XML_DICTIONARY structure [Web Services for Windows], _WS_XML_DICTIONARY, webservices/WS_XML_DICTIONARY, wsw.ws_xml_dictionary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

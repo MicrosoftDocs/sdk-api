@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IWizardExtension
 title: IWizardExtension
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by wizards such as the Web Publishing Wizard and Online Print Ordering Wizard which host server-side content pages. This interface exposes methods to specify supported extension pages and to navigate into and out of those pages.
 old-location: shell\IWizardExtension.htm
 old-project: shell
 ms.assetid: f2d69f18-73de-44c1-9543-909e509b1c4f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IWizardExtension, IWizardExtension interface [Windows Shell], IWizardExtension interface [Windows Shell],described, _shell_IWizardExtension, shell.IWizardExtension, shobjidl/IWizardExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

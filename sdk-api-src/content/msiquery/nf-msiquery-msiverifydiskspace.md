@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiVerifyDiskSpace
 title: MsiVerifyDiskSpace function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiVerifyDiskSpace function checks to see if sufficient disk space is present for the current installation.
 old-location: setup\msiverifydiskspace.htm
 old-project: Msi
 ms.assetid: 5b1ded22-37a4-4026-872a-20ac3a69fe86
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiVerifyDiskSpace, MsiVerifyDiskSpace function, _msi_msiverifydiskspace, msiquery/MsiVerifyDiskSpace, setup.msiverifydiskspace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

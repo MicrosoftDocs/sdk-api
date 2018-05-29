@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.SetRestoreMethod
 title: IVssCreateWriterMetadata::SetRestoreMethod
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetRestoreMethod method indicates how the writer's data is to be restored.
 old-location: base\ivsscreatewritermetadata_setrestoremethod.htm
 old-project: VSS
 ms.assetid: 0e04df40-49e4-4f23-b4d5-d6b602162935
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssCreateWriterMetadata interface [VSS],SetRestoreMethod method, IVssCreateWriterMetadata.SetRestoreMethod, IVssCreateWriterMetadata::SetRestoreMethod, SetRestoreMethod, SetRestoreMethod method [VSS], SetRestoreMethod method [VSS],IVssCreateWriterMetadata interface, _win32_ivsscreatewritermetadata_setrestoremethod, base.ivsscreatewritermetadata_setrestoremethod, vswriter/IVssCreateWriterMetadata::SetRestoreMethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

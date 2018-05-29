@@ -1,16 +1,16 @@
 ---
 UID: NE:ipsectypes.IPSEC_TOKEN_MODE_
 title: IPSEC_TOKEN_MODE_
-author: windows-driver-content
+author: windows-sdk-content
 description: Different IPsec modes in which a token can be obtained.
 old-location: fwp\ipsec_token_mode.htm
 old-project: FWP
 ms.assetid: 5f90e473-39e1-4eed-9ea1-1f20929d5a07
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_TOKEN_MODE, IPSEC_TOKEN_MODE enumeration [Filtering], IPSEC_TOKEN_MODE_, IPSEC_TOKEN_MODE_EXTENDED, IPSEC_TOKEN_MODE_MAIN, IPSEC_TOKEN_MODE_MAX, fwp.ipsec_token_mode, ipsectypes/IPSEC_TOKEN_MODE, ipsectypes/IPSEC_TOKEN_MODE_EXTENDED, ipsectypes/IPSEC_TOKEN_MODE_MAIN, ipsectypes/IPSEC_TOKEN_MODE_MAX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ipsectypes.h
 req.include-header: 

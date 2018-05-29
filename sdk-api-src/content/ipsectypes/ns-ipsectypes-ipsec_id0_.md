@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_ID0_
 title: IPSEC_ID0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information corresponding to identities that are authenticated by IPsec.
 old-location: fwp\ipsec_id0.htm
 old-project: FWP
 ms.assetid: e8881c50-9586-447e-a514-cc28895e5e90
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_ID0, IPSEC_ID0 structure [Filtering], IPSEC_ID0_, fwp.ipsec_id0, ipsectypes/IPSEC_ID0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

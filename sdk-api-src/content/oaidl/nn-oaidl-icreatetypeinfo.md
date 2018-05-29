@@ -1,16 +1,16 @@
 ---
 UID: NN:oaidl.ICreateTypeInfo
 title: ICreateTypeInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the tools for creating and administering the type information defined through the type description.
 old-location: automat\icreatetypeinfo.htm
 old-project: automat
 ms.assetid: c8bbb677-2666-4900-8fb9-788742eef656
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateTypeInfo, ICreateTypeInfo interface [Automation], ICreateTypeInfo interface [Automation],described, _oa96_ICreateTypeInfo_Interface, automat.icreatetypeinfo, oaidl/ICreateTypeInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

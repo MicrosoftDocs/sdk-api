@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.GetCurrentSelection
 title: IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Microsoft Active Accessibility property that identifies the selected children of this element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection.htm
 old-project: WinAuto
 ms.assetid: 7fe666dc-2168-44a0-87f2-f444fd2a70f2
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetCurrentSelection, GetCurrentSelection method [Windows Accessibility], GetCurrentSelection method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],GetCurrentSelection method, IUIAutomationLegacyIAccessiblePattern.GetCurrentSelection, IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection, uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::GetCurrentSelection, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetCurrentSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

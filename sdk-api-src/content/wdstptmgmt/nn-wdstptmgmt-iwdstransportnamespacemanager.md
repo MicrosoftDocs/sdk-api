@@ -1,16 +1,16 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportNamespaceManager
 title: IWdsTransportNamespaceManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages namespaces on a WDS transport server.
 old-location: wds\iwdstransportnamespacemanager.htm
 old-project: Wds
 ms.assetid: de5fc470-af9f-4f9f-bc17-a347dc702e36
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportNamespaceManager, IWdsTransportNamespaceManager interface [Windows Deployment Services], IWdsTransportNamespaceManager interface [Windows Deployment Services],described, wds.iwdstransportnamespacemanager, wdstptmgmt/IWdsTransportNamespaceManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

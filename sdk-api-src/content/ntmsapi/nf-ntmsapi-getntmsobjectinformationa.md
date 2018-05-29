@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.GetNtmsObjectInformationA
 title: GetNtmsObjectInformationA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNtmsObjectInformation function returns an object's information structure for the specified object.
 old-location: fs\getntmsobjectinformation.htm
 old-project: Rsm
 ms.assetid: e5c1b165-2c55-40c3-94d8-c996c5db4250
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: GetNtmsObjectInformation, GetNtmsObjectInformation function [Files], GetNtmsObjectInformationA, GetNtmsObjectInformationW, _zaw_getntmsobjectinformation, base.getntmsobjectinformation, fs.getntmsobjectinformation, ntmsapi/GetNtmsObjectInformation, ntmsapi/GetNtmsObjectInformationA, ntmsapi/GetNtmsObjectInformationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

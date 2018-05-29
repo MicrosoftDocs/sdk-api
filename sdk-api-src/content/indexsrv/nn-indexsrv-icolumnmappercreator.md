@@ -1,16 +1,16 @@
 ---
 UID: NN:indexsrv.IColumnMapperCreator
 title: IColumnMapperCreator
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a method to retrieves a column mapper object.
 old-location: search\icolumnmappercreator.htm
 old-project: search
 ms.assetid: 3598C736-5736-4B08-83B7-E80BA69FCBAB
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IColumnMapperCreator, IColumnMapperCreator interface [search], IColumnMapperCreator interface [search],described, indexsrv/IColumnMapperCreator, search.icolumnmappercreator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: indexsrv.h
 req.include-header: 

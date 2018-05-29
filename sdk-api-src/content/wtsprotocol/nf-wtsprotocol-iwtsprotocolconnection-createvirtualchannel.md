@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.CreateVirtualChannel
 title: IWTSProtocolConnection::CreateVirtualChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: IWTSProtocolConnection::CreateVirtualChannel is no longer available. Instead, use IWRdsProtocolConnection::CreateVirtualChannel.
 old-location: termserv\iwtsprotocolconnection_createvirtualchannel.htm
 old-project: TermServ
 ms.assetid: 28cdabde-980f-48b7-920e-1eeeb70b6952
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateVirtualChannel, CreateVirtualChannel method [Remote Desktop Services], CreateVirtualChannel method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],CreateVirtualChannel method, IWTSProtocolConnection.CreateVirtualChannel, IWTSProtocolConnection::CreateVirtualChannel, termserv.iwtsprotocolconnection_createvirtualchannel, wtsprotocol/IWTSProtocolConnection::CreateVirtualChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

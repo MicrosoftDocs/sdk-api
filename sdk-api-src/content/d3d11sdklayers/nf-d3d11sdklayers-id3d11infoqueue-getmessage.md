@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.GetMessage
 title: ID3D11InfoQueue::GetMessage
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a message from the message queue.
 old-location: direct3d11\id3d11infoqueue_getmessage.htm
 old-project: direct3d11
 ms.assetid: 685cddc5-cedd-410f-a693-665d2d69402e
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: GetMessage, GetMessage method [Direct3D 11], GetMessage method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetMessage method, ID3D11InfoQueue.GetMessage, ID3D11InfoQueue::GetMessage, d3d11sdklayers/ID3D11InfoQueue::GetMessage, direct3d11.id3d11infoqueue_getmessage, fcb657d8-1742-cfff-a8cc-5af0bec46085
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 

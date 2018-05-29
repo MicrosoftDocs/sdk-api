@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamOpenFromFileW
 title: AVIStreamOpenFromFileW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamOpenFromFile function opens a single stream from a file.
 old-location: multimedia\avistreamopenfromfile.htm
 old-project: Multimedia
 ms.assetid: f9ac2a8a-08b7-42a7-b71b-a1d44c924b20
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamOpenFromFile, AVIStreamOpenFromFile function [Windows Multimedia], AVIStreamOpenFromFileA, AVIStreamOpenFromFileW, _win32_AVIStreamOpenFromFile, multimedia.avistreamopenfromfile, vfw/AVIStreamOpenFromFile, vfw/AVIStreamOpenFromFileA, vfw/AVIStreamOpenFromFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

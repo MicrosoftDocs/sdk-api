@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_ConfidenceAlternates
 title: IInkRecognitionAlternate::get_ConfidenceAlternates
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the collection of alternates in which each alternate in the collection consists of the segments with the same property values.
 old-location: tablet\iinkrecognitionalternate_confidencealternates.htm
 old-project: tablet
 ms.assetid: ef3ab614-7aff-4660-bb2a-783f14e75b94
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ConfidenceAlternates property [Tablet PC], ConfidenceAlternates property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],ConfidenceAlternates property, IInkRecognitionAlternate.ConfidenceAlternates, IInkRecognitionAlternate.get_ConfidenceAlternates, IInkRecognitionAlternate::ConfidenceAlternates, IInkRecognitionAlternate::get_ConfidenceAlternates, ef3ab614-7aff-4660-bb2a-783f14e75b94, get_ConfidenceAlternates, msinkaut/IInkRecognitionAlternate::ConfidenceAlternates, msinkaut/IInkRecognitionAlternate::get_ConfidenceAlternates, tablet.iinkrecognitionalternate_confidencealternates
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

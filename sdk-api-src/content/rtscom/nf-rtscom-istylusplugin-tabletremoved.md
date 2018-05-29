@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IStylusPlugin.TabletRemoved
 title: IStylusPlugin::TabletRemoved
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies an implementing plug-in when an ITablet object is removed from the system.
 old-location: tablet\istylusplugin_tabletremoved.htm
 old-project: tablet
 ms.assetid: b953c2f8-3f49-4b7a-af4a-528c8815b066
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStylusPlugin interface [Tablet PC],TabletRemoved method, IStylusPlugin.TabletRemoved, IStylusPlugin::TabletRemoved, TabletRemoved, TabletRemoved method [Tablet PC], TabletRemoved method [Tablet PC],IStylusPlugin interface, b953c2f8-3f49-4b7a-af4a-528c8815b066, rtscom/IStylusPlugin::TabletRemoved, tablet.istylusplugin_tabletremoved
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

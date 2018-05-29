@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IAutomaticUpdatesSettings
 title: IAutomaticUpdatesSettings
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the settings that are available in Automatic Updates.
 old-location: wua\iautomaticupdatessettings.htm
 old-project: Wua_Sdk
 ms.assetid: c4672df5-9e47-45f5-9504-1ebb0bf3c6a6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAutomaticUpdatesSettings, IAutomaticUpdatesSettings interface [Windows Update Agent], IAutomaticUpdatesSettings interface [Windows Update Agent],described, wua.iautomaticupdatessettings, wuapi/IAutomaticUpdatesSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

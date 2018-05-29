@@ -1,16 +1,16 @@
 ---
 UID: NS:amva._tag_AMVAUncompBufferInfo
 title: "_tag_AMVAUncompBufferInfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AMVAUncompBufferInfo structure describes the uncompressed surfaces to be allocated by the video renderer.
 old-location: dshow\amvauncompbufferinfo.htm
 old-project: DirectShow
 ms.assetid: 113cc7ba-d05e-48a7-88cb-13645beb16d1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPAMVAUncompBufferInfo, AMVAUncompBufferInfo, AMVAUncompBufferInfo structure [DirectShow], AMVAUncompBufferInfoStructure, LPAMVAUncompBufferInfo, LPAMVAUncompBufferInfo structure pointer [DirectShow], _tag_AMVAUncompBufferInfo, amva/AMVAUncompBufferInfo, amva/LPAMVAUncompBufferInfo, dshow.amvauncompbufferinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: amva.h
 req.include-header: Videoacc.h

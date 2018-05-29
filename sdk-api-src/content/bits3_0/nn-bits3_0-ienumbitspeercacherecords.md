@@ -1,16 +1,16 @@
 ---
 UID: NN:bits3_0.IEnumBitsPeerCacheRecords
 title: IEnumBitsPeerCacheRecords
-author: windows-driver-content
+author: windows-sdk-content
 description: Use IEnumBitsPeerCacheRecords to enumerate the records of the cache.
 old-location: bits\ienumbitspeercacherecords.htm
 old-project: Bits
 ms.assetid: 680c1468-d780-44a3-9048-c7c3928234f9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IEnumBitsPeerCacheRecords, IEnumBitsPeerCacheRecords interface [BITS], IEnumBitsPeerCacheRecords interface [BITS],described, bits.ienumbitspeercacherecords, bits3_0/IEnumBitsPeerCacheRecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits3_0.h
 req.include-header: Bits.h

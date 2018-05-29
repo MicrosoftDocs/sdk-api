@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFPresentationTimeSource
 title: IMFPresentationTimeSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the clock times for the presentation clock.
 old-location: mf\imfpresentationtimesource.htm
 old-project: medfound
 ms.assetid: e5fab6b7-0abc-4ad7-89a9-33c673e97ce2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFPresentationTimeSource, IMFPresentationTimeSource interface [Media Foundation], IMFPresentationTimeSource interface [Media Foundation],described, e5fab6b7-0abc-4ad7-89a9-33c673e97ce2, mf.imfpresentationtimesource, mfidl/IMFPresentationTimeSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.LoadModule
 title: LoadModule function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads and executes an application or creates a new instance of an existing application.
 old-location: base\loadmodule.htm
 old-project: Dlls
 ms.assetid: 80571b80-851a-4272-bfa6-d26e217e714a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: LOADPARMS32, LoadModule, LoadModule function, _win32_loadmodule, base.loadmodule, winbase/LoadModule
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

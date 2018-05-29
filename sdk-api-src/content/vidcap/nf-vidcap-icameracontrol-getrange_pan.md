@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Pan
 title: ICameraControl::getRange_Pan
-author: windows-driver-content
+author: windows-sdk-content
 description: The getRange_Pan method returns the range of panning angles supported by the camera.
 old-location: dshow\icameracontrol_getrange_pan.htm
 old-project: DirectShow
 ms.assetid: 390c6330-1eb4-4149-aabc-296b585b577a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_Pan method, ICameraControl.getRange_Pan, ICameraControl::getRange_Pan, ICameraControlgetRange_Pan, dshow.icameracontrol_getrange_pan, getRange_Pan, getRange_Pan method [DirectShow], getRange_Pan method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Pan
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

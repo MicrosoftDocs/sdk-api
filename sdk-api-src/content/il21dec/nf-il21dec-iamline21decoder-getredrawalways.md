@@ -1,16 +1,16 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetRedrawAlways
 title: IAMLine21Decoder::GetRedrawAlways
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetRedrawAlways method indicates whether the Line 21 Decoder filter redraws the entire output bitmap for each sample.
 old-location: dshow\iamline21decoder_getredrawalways.htm
 old-project: DirectShow
 ms.assetid: 9ab65d23-816d-4c6f-a0bc-b3334babdc23
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetRedrawAlways, GetRedrawAlways method [DirectShow], GetRedrawAlways method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetRedrawAlways method, IAMLine21Decoder.GetRedrawAlways, IAMLine21Decoder::GetRedrawAlways, IAMLine21DecoderGetRedrawAlways, dshow.iamline21decoder_getredrawalways, il21dec/IAMLine21Decoder::GetRedrawAlways
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: il21dec.h
 req.include-header: 

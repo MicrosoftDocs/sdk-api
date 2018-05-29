@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi.IDiscRecorder.QueryMediaType
 title: IDiscRecorder::QueryMediaType
-author: windows-driver-content
+author: windows-sdk-content
 description: Detects the type of media currently inserted in the recorder, if any.
 old-location: imapi\idiscrecorder_querymediatype.htm
 old-project: imapi
 ms.assetid: 40f9376d-5702-4dfb-a69b-0ca4fcfc8d8e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscRecorder interface [IMAPI],QueryMediaType method, IDiscRecorder.QueryMediaType, IDiscRecorder::QueryMediaType, MEDIA_BLANK, MEDIA_CDDA_CDROM, MEDIA_CD_EXTRA, MEDIA_CD_I, MEDIA_CD_OTHER, MEDIA_CD_ROM_XA, MEDIA_RW, MEDIA_SPECIAL, MEDIA_WRITABLE, QueryMediaType, QueryMediaType method [IMAPI], QueryMediaType method [IMAPI],IDiscRecorder interface, _win32_idiscrecorder_querymediatype, base.idiscrecorder_querymediatype, imapi.idiscrecorder_querymediatype, imapi/IDiscRecorder::QueryMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

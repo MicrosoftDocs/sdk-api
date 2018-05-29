@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDockPattern.SetDockPosition
 title: IUIAutomationDockPattern::SetDockPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the dock position of this element.
 old-location: winauto\uiauto_IUIAutomationDockPattern_SetDockPosition.htm
 old-project: WinAuto
 ms.assetid: 165de0f3-61b3-473c-8f97-3070596451db
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationDockPattern interface [Windows Accessibility],SetDockPosition method, IUIAutomationDockPattern.SetDockPosition, IUIAutomationDockPattern::SetDockPosition, SetDockPosition, SetDockPosition method [Windows Accessibility], SetDockPosition method [Windows Accessibility],IUIAutomationDockPattern interface, uiauto.uiauto_IUIAutomationDockPattern_SetDockPosition, uiauto_IUIAutomationDockPattern_SetDockPosition, uiautomationclient/IUIAutomationDockPattern::SetDockPosition, winauto.uiauto_IUIAutomationDockPattern_SetDockPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

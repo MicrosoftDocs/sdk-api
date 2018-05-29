@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GrayStringA
 title: GrayStringA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GrayString function draws gray text at the specified location.
 old-location: gdi\graystring.htm
 old-project: gdi
 ms.assetid: b14b8c40-f97f-4e41-8d8d-687692acfda9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GrayString, GrayString function [Windows GDI], GrayStringA, GrayStringW, _win32_GrayString, gdi.graystring, winuser/GrayString, winuser/GrayStringA, winuser/GrayStringW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

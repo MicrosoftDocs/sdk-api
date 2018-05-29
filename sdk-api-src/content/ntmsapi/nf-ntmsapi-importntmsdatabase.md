@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.ImportNtmsDatabase
 title: ImportNtmsDatabase function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ImportNtmsDatabase function causes RSM to import the database files from the database Export directory at the next restart of the RSM.
 old-location: fs\importntmsdatabase.htm
 old-project: Rsm
 ms.assetid: 9bb41109-6548-4d22-92c8-0d8ed960f119
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: ImportNtmsDatabase, ImportNtmsDatabase function [Files], _zaw_importntmsdatabase, base.importntmsdatabase, fs.importntmsdatabase, ntmsapi/ImportNtmsDatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

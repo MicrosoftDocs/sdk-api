@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusResDependencies
 title: ISClusResDependencies
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the dependencies of a resource.
 old-location: mscs\clusresdependencies_collection.htm
 old-project: MsCS
 ms.assetid: 10695840-38ec-4614-8bbd-5772a53dea4b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusResDependencies, ClusResDependencies collection [Failover Cluster], ClusResDependencies collection [Failover Cluster],described, ISClusResDependencies, _wolf_clusresdependencies_collection, msclus/ClusResDependencies, mscs.clusresdependencies_collection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

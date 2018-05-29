@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.LongLongToUShort
 title: LongLongToUShort function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type LONGLONG to a value of type USHORT.
 old-location: shell\LongLongToUShort.htm
 old-project: shell
 ms.assetid: fd70ca5d-1dc0-4d2a-b497-a7df9cfba95c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LongLongToUShort, LongLongToUShort function [Windows Shell], intsafe/LongLongToUShort, shell.LongLongToUShort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.get_Flags
 title: IRDPSRAPITransportStreamBuffer::get_Flags
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or specifies options for the stream buffer.
 old-location: rdp\irdpsrapitransportstreambuffer_flags.htm
 old-project: Rdp
 ms.assetid: 505ff729-258c-4919-9985-a8a3a9f09871
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPITransportStreamBuffer interface, IRDPSRAPITransportStreamBuffer interface [RDP],Flags property, IRDPSRAPITransportStreamBuffer.Flags, IRDPSRAPITransportStreamBuffer.get_Flags, IRDPSRAPITransportStreamBuffer::Flags, IRDPSRAPITransportStreamBuffer::get_Flags, IRDPSRAPITransportStreamBuffer::put_Flags, get_Flags, rdp.irdpsrapitransportstreambuffer_flags, rdpencomapi/IRDPSRAPITransportStreamBuffer::Flags, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_Flags, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_Flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:featurestagingapi.FEATURE_ERROR
 title: FEATURE_ERROR
-author: windows-driver-content
+author: windows-sdk-content
 description: This structure is intended for infrastructure use only.
 old-location: winprog\feature_error.htm
 old-project: DevNotes
 ms.assetid: D289E97E-CEA7-408E-98D5-44A5B07B512A
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FEATURE_ERROR, FEATURE_ERROR structure [Windows API], featurestagingapi/FEATURE_ERROR, winprog.feature_error
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: featurestagingapi.h
 req.include-header: 

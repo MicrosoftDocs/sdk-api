@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_DESTROYSURFACEDATA
 title: "_DD_DESTROYSURFACEDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_DESTROYSURFACEDATA structure contains information necessary to destroy the specified surface--in the case of DestroyD3DBuffer, a command or vertex buffer.
 old-location: display\dd_destroysurfacedata.htm
 old-project: display
 ms.assetid: 77d9544d-72df-4e7d-ba57-644aeee34a88
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_DESTROYSURFACEDATA, DD_DESTROYSURFACEDATA, DD_DESTROYSURFACEDATA structure [Display Devices], _DD_DESTROYSURFACEDATA, ddrawint/DD_DESTROYSURFACEDATA, ddstrcts_19c2445b-0f9f-445d-a486-8ca100beeca7.xml, display.dd_destroysurfacedata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

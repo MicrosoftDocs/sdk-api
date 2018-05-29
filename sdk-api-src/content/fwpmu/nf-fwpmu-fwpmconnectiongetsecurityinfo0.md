@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmConnectionGetSecurityInfo0
 title: FwpmConnectionGetSecurityInfo0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for a connection object change event.
 old-location: fwp\fwpmconnectiongetsecurityinfo0.htm
 old-project: FWP
 ms.assetid: 872f0ab0-0cac-43e6-b4d6-ad62bde707ea
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmConnectionGetSecurityInfo0, FwpmConnectionGetSecurityInfo0 function [Filtering], fwp.fwpmconnectiongetsecurityinfo0, fwpmu/FwpmConnectionGetSecurityInfo0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

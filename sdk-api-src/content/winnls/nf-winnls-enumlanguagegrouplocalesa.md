@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.EnumLanguageGroupLocalesA
 title: EnumLanguageGroupLocalesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the locales in a specified language group.
 old-location: intl\enumlanguagegrouplocales.htm
 old-project: Intl
 ms.assetid: 5a85c6bd-0362-46ff-80be-a198b1259482
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnumLanguageGroupLocales, EnumLanguageGroupLocales function [Internationalization for Windows Applications], EnumLanguageGroupLocalesA, EnumLanguageGroupLocalesW, _win32_EnumLanguageGroupLocales, intl.enumlanguagegrouplocales, winnls/EnumLanguageGroupLocales, winnls/EnumLanguageGroupLocalesA, winnls/EnumLanguageGroupLocalesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

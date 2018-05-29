@@ -1,16 +1,16 @@
 ---
 UID: NE:oaidl.tagVARFLAGS
 title: tagVARFLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies variable flags.
 old-location: automat\varflags.htm
 old-project: automat
 ms.assetid: 9422f2a5-d8c0-4d65-ad7a-9eaa9bbedf91
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VARFLAGS, VARFLAGS enumeration [Automation], VARFLAG_FBINDABLE, VARFLAG_FDEFAULTBIND, VARFLAG_FDEFAULTCOLLELEM, VARFLAG_FDISPLAYBIND, VARFLAG_FHIDDEN, VARFLAG_FIMMEDIATEBIND, VARFLAG_FNONBROWSABLE, VARFLAG_FREADONLY, VARFLAG_FREPLACEABLE, VARFLAG_FREQUESTEDIT, VARFLAG_FRESTRICTED, VARFLAG_FSOURCE, VARFLAG_FUIDEFAULT, _oa96_VARFLAGS, automat.varflags, oaidl/VARFLAGS, oaidl/VARFLAG_FBINDABLE, oaidl/VARFLAG_FDEFAULTBIND, oaidl/VARFLAG_FDEFAULTCOLLELEM, oaidl/VARFLAG_FDISPLAYBIND, oaidl/VARFLAG_FHIDDEN, oaidl/VARFLAG_FIMMEDIATEBIND, oaidl/VARFLAG_FNONBROWSABLE, oaidl/VARFLAG_FREADONLY, oaidl/VARFLAG_FREPLACEABLE, oaidl/VARFLAG_FREQUESTEDIT, oaidl/VARFLAG_FRESTRICTED, oaidl/VARFLAG_FSOURCE, oaidl/VARFLAG_FUIDEFAULT, tagVARFLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: oaidl.h
 req.include-header: 

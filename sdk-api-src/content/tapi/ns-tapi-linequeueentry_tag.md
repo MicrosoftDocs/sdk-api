@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.linequeueentry_tag
 title: linequeueentry_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The LINEQUEUEENTRY structure provides the information for a single queue entry. The LINEQUEUELIST structure can contain an array of LINEQUEUEENTRY structures. This structure requires TAPI 3.0 version negotiation.
 old-location: tapi2\linequeueentry.htm
 old-project: Tapi
 ms.assetid: b05eb100-2a43-421f-826b-c37d05e4ef14
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPLINEQUEUEENTRY, LINEQUEUEENTRY, LINEQUEUEENTRY structure [TAPI 2.2], LPLINEQUEUEENTRY, LPLINEQUEUEENTRY structure pointer [TAPI 2.2], _tapi2_linequeueentry, linequeueentry_tag, tapi/LINEQUEUEENTRY, tapi/LPLINEQUEUEENTRY, tapi2.linequeueentry"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.LoadLibraryFromKnownFolder
 title: IShellLibrary::LoadLibraryFromKnownFolder
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads the library that is referenced by a KNOWNFOLDERID.
 old-location: shell\IShellLibrary_LoadLibraryFromKnownFolder.htm
 old-project: shell
 ms.assetid: 3fc1147e-6338-4fec-b20d-db5eb1303fe1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellLibrary interface [Windows Shell],LoadLibraryFromKnownFolder method, IShellLibrary.LoadLibraryFromKnownFolder, IShellLibrary::LoadLibraryFromKnownFolder, LoadLibraryFromKnownFolder, LoadLibraryFromKnownFolder method [Windows Shell], LoadLibraryFromKnownFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_LoadLibraryFromKnownFolder, shell.IShellLibrary_LoadLibraryFromKnownFolder, shobjidl_core/IShellLibrary::LoadLibraryFromKnownFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

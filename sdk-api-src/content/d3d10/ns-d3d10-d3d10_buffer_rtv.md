@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d10.D3D10_BUFFER_RTV
 title: D3D10_BUFFER_RTV
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the elements from a buffer resource to use in a render-target view.
 old-location: direct3d10\d3d10_buffer_rtv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_buffer_rtv.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 4eb8f5a5-bb65-b551-7e42-ac051b09f97c, D3D10_BUFFER_RTV, D3D10_BUFFER_RTV structure [Direct3D 10], d3d10/D3D10_BUFFER_RTV, direct3d10.d3d10_buffer_rtv
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 

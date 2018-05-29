@@ -1,16 +1,16 @@
 ---
 UID: NS:mfidl._MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA
 title: "_MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Advises the secure processor of the Multimedia Class Scheduler service (MMCSS) parameters so that real-time tasks can be scheduled at the expected priority.
 old-location: mf\mfcontentprotectiondevice_realtimeclient_data.htm
 old-project: medfound
 ms.assetid: E0A98B31-13D4-4281-AFFB-A3DA664CE876
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA, MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA structure [Media Foundation], _MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA, mf.mfcontentprotectiondevice_realtimeclient_data, mfidl/MFCONTENTPROTECTIONDEVICE_REALTIMECLIENT_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 

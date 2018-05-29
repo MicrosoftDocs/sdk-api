@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHLocalStrDupA
 title: SHLocalStrDupA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes a copy of a string in newly allocated memory.
 old-location: shell\SHLocalStrDup.htm
 old-project: shell
 ms.assetid: 79da6160-b1b1-41c3-9b21-229aadf251dd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHLocalStrDup, SHLocalStrDup function [Windows Shell], SHLocalStrDupA, SHLocalStrDupW, _shell_SHLocalStrDup, shell.SHLocalStrDup, shlwapi/SHLocalStrDup, shlwapi/SHLocalStrDupA, shlwapi/SHLocalStrDupW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

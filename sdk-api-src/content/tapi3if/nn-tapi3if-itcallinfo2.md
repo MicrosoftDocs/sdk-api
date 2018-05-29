@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITCallInfo2
 title: ITCallInfo2
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITCallInfo2 interface is an extension of the ITCallInfo interface. ITCallInfo2 provides additional methods that allow an application to set event filtering on a per-call basis.
 old-location: tapi3\itcallinfo2.htm
 old-project: Tapi
 ms.assetid: 20f7b20e-37f8-49f7-ae9d-83a9b9f574b6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallInfo2, ITCallInfo2 interface [TAPI 2.2], ITCallInfo2 interface [TAPI 2.2],described, _tapi3_itcallinfo2, tapi3.itcallinfo2, tapi3if/ITCallInfo2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

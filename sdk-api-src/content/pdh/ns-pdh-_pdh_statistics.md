@@ -1,16 +1,16 @@
 ---
 UID: NS:pdh._PDH_STATISTICS
 title: "_PDH_STATISTICS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The PDH_STATISTICS structure contains the minimum, maximum, and mean values for an array of raw counters values.
 old-location: perf\pdh_statistics_str.htm
 old-project: PerfCtrs
 ms.assetid: a1daedfd-55f6-418e-b71f-8334cb628d98
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PPDH_STATISTICS, PDH_STATISTICS, PDH_STATISTICS structure [Perf], PPDH_STATISTICS, PPDH_STATISTICS structure pointer [Perf], _PDH_STATISTICS, _win32_pdh_statistics_str, base.pdh_statistics_str, pdh/PDH_STATISTICS, pdh/PPDH_STATISTICS, perf.pdh_statistics_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: pdh.h
 req.include-header: 

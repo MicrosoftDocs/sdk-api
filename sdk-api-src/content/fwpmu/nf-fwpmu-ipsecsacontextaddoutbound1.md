@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IPsecSaContextAddOutbound1
 title: IPsecSaContextAddOutbound1 function
-author: windows-driver-content
+author: windows-sdk-content
 description: The IPsecSaContextAddOutbound1 function adds an outbound IPsec security association (SA) bundle to an existing SA context.Note  IPsecSaContextAddOutbound1 is the specific implementation of IPsecSaContextAddOutbound used in Windows 7 and later.
 old-location: fwp\ipsecsacontextaddoutbound1.htm
 old-project: FWP
 ms.assetid: ca8bc833-4d6f-4ed0-9c9b-15bbca5e0090
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPsecSaContextAddOutbound1, IPsecSaContextAddOutbound1 function [Filtering], fwp.ipsecsacontextaddoutbound1, fwpmu/IPsecSaContextAddOutbound1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

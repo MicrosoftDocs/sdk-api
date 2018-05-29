@@ -1,16 +1,16 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderInfos.Clone
 title: IEnumSyncProviderInfos::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 old-location: winsync\ienumsyncproviderinfos_clone.htm
 old-project: winsync
 ms.assetid: de53dade-82f3-418c-a44c-58d4b7502729
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumSyncProviderInfos interface, IEnumSyncProviderInfos interface [Windows Sync],Clone method, IEnumSyncProviderInfos.Clone, IEnumSyncProviderInfos::Clone, syncregistration/IEnumSyncProviderInfos::Clone, winsync.ienumsyncproviderinfos_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

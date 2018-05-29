@@ -1,16 +1,16 @@
 ---
 UID: NF:bluetoothapis.BluetoothSdpGetString
 title: BluetoothSdpGetString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a raw string embedded in the SDP record into a Unicode string.
 old-location: bluetooth\bluetoothsdpgetstring.htm
 old-project: Bluetooth
 ms.assetid: 26a68fe3-6ffb-44ff-b9db-757d35022a41
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BluetoothSdpGetString, BluetoothSdpGetString function [Bluetooth], bluetooth.bluetoothsdpgetstring, bluetoothapis/BluetoothSdpGetString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

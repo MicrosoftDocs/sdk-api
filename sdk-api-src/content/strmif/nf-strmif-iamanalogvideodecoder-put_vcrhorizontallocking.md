@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.put_VCRHorizontalLocking
 title: IAMAnalogVideoDecoder::put_VCRHorizontalLocking
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_VCRHorizontalLocking method specifies whether the video is a tape source or a broadcast source.
 old-location: dshow\iamanalogvideodecoder_put_vcrhorizontallocking.htm
 old-project: DirectShow
 ms.assetid: 4b215f8b-dfd9-40cf-a392-7cc42b17b214
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],put_VCRHorizontalLocking method, IAMAnalogVideoDecoder.put_VCRHorizontalLocking, IAMAnalogVideoDecoder::put_VCRHorizontalLocking, IAMAnalogVideoDecoderput_VCRHorizontalLocking, dshow.iamanalogvideodecoder_put_vcrhorizontallocking, put_VCRHorizontalLocking, put_VCRHorizontalLocking method [DirectShow], put_VCRHorizontalLocking method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::put_VCRHorizontalLocking
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

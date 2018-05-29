@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_HostedProvider_Close
 title: MI_HostedProvider_Close function
-author: windows-driver-content
+author: windows-sdk-content
 description: Close a hosted provider handle that was returned from MI_Application_NewHostedProvider.
 old-location: wmi_v2\mi_hostedprovider_close.htm
 old-project: wmi_v2
 ms.assetid: b0cae173-a552-4c5a-8181-ba20143d846b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_HostedProvider_Close, MI_HostedProvider_Close function [Windows Management Infrastructure (MI)], mi/MI_HostedProvider_Close, wmi_v2.mi_hostedprovider_close
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

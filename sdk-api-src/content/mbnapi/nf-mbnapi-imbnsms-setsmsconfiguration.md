@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnSms.SetSmsConfiguration
 title: IMbnSms::SetSmsConfiguration
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the SMS configuration for a device.
 old-location: mbn\imbnsms_setsmsconfiguration.htm
 old-project: mbn
 ms.assetid: 8ed3af39-345b-4bfb-aea1-072a64f7921a
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SetSmsConfiguration method, IMbnSms.SetSmsConfiguration, IMbnSms::SetSmsConfiguration, SetSmsConfiguration, SetSmsConfiguration method [Microsoft Broadband Networks], SetSmsConfiguration method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_setsmsconfiguration, mbnapi/IMbnSms::SetSmsConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

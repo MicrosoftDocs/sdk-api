@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_THUMBPRINT_CERT_CREDENTIAL
 title: "_WS_THUMBPRINT_CERT_CREDENTIAL"
-author: windows-driver-content
+author: windows-sdk-content
 description: The type for specifying a certificate credential using the certificate's thumbprint, store location and store name.
 old-location: wsw\ws_thumbprint_cert_credential.htm
 old-project: wsw
 ms.assetid: b1e7b6a6-1f71-4bcd-9c0e-9a46b963b19b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_THUMBPRINT_CERT_CREDENTIAL, WS_THUMBPRINT_CERT_CREDENTIAL structure [Web Services for Windows], _WS_THUMBPRINT_CERT_CREDENTIAL, webservices/WS_THUMBPRINT_CERT_CREDENTIAL, wsw.ws_thumbprint_cert_credential
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

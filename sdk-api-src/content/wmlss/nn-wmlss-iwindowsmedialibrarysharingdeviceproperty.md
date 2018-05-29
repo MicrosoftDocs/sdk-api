@@ -1,16 +1,16 @@
 ---
 UID: NN:wmlss.IWindowsMediaLibrarySharingDeviceProperty
 title: IWindowsMediaLibrarySharingDeviceProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWindowsMediaLibrarySharingDeviceProperty interface defines methods that provide access to the name and value of an individual property of a media device.
 old-location: wmlss\IWindowsMediaLibrarySharingDevicePropertyInterface.htm
 old-project: WMLSS
 ms.assetid: 7b76cf66-0096-4b63-a30c-2df7d1a14527
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperty, IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingDevicePropertyInterface, wmlss/IWindowsMediaLibrarySharingDeviceProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmlss.h
 req.include-header: Wmlss.h

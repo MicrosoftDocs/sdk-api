@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.GetObject
 title: ISyncMgrSyncItem::GetObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a specific type of object related to the item.
 old-location: shell\ISyncMgrSyncItem_GetObject.htm
 old-project: shell
 ms.assetid: 54336c43-348b-4767-94e4-fe7dc47c0876
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetObject, GetObject method [Windows Shell], GetObject method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetObject method, ISyncMgrSyncItem.GetObject, ISyncMgrSyncItem::GetObject, SYNCMGR_OBJECTID_BrowseContent, SYNCMGR_OBJECTID_ConflictStore, SYNCMGR_OBJECTID_EventStore, SYNCMGR_OBJECTID_Icon, SYNCMGR_OBJECTID_QueryBeforeDelete, SYNCMGR_OBJECTID_QueryBeforeDisable, SYNCMGR_OBJECTID_QueryBeforeEnable, _shell_ISyncMgrSyncItem_GetObject, shell.ISyncMgrSyncItem_GetObject, syncmgr/ISyncMgrSyncItem::GetObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

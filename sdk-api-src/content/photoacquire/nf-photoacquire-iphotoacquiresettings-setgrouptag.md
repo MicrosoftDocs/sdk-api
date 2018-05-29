@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetGroupTag
 title: IPhotoAcquireSettings::SetGroupTag
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetGroupTag method sets the group tag for an acquisition session.
 old-location: picacq\iphotoacquiresettings_setgrouptag.htm
 old-project: acquisition
 ms.assetid: f3c8b7dc-5701-412a-a376-498c40017d8f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetGroupTag method, IPhotoAcquireSettings.SetGroupTag, IPhotoAcquireSettings::SetGroupTag, IPhotoAcquireSettingsSetGroupTag, SetGroupTag, SetGroupTag method [Picture Acquisition], SetGroupTag method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetGroupTag, picacq.iphotoacquiresettings_setgrouptag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

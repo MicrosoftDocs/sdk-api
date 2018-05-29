@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetCommBreak
 title: SetCommBreak function
-author: windows-driver-content
+author: windows-sdk-content
 description: Suspends character transmission for a specified communications device and places the transmission line in a break state until the ClearCommBreak function is called.
 old-location: base\setcommbreak.htm
 old-project: DevIO
 ms.assetid: 997fa1e0-c585-4517-abe7-77b9b08440ee
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: SetCommBreak, SetCommBreak function, _win32_setcommbreak, base.setcommbreak, winbase/SetCommBreak
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

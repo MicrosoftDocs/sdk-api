@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcServerUseAllProtseqsIfEx
 title: RpcServerUseAllProtseqsIfEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcServerUseAllProtseqsIfEx function tells the RPC run-time library to use all the specified protocol sequences and endpoints in the interface specification for receiving remote procedure calls.
 old-location: rpc\rpcserveruseallprotseqsifex.htm
 old-project: Rpc
 ms.assetid: 118c931e-29ca-4ffb-aa32-24c6f4289cc8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcServerUseAllProtseqsIfEx, RpcServerUseAllProtseqsIfEx function [RPC], _rpc_rpcserveruseallprotseqsifex, rpc.rpcserveruseallprotseqsifex, rpcdce/RpcServerUseAllProtseqsIfEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

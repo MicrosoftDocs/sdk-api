@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.Add
 title: IGPMMigrationTable::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds entries from the IGPMGPO and IGPMBackup interfaces. The method updates any entries that are already present in the migration table.
 old-location: gpmc\igpmmigrationtable_add.htm
 old-project: GPMC
 ms.assetid: e7be82b5-acb5-4e08-9771-d2698df3d0df
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Add, Add method [GPMC], Add method [GPMC],GPMMigrationTable class, Add method [GPMC],IGPMMigrationTable interface, GPMMigrationTable class [GPMC],Add method, GPM_PROCESS_SECURITY, IGPMMigrationTable interface [GPMC],Add method, IGPMMigrationTable.Add, IGPMMigrationTable::Add, gpmc.igpmmigrationtable_add, gpmgmt/IGPMMigrationTable::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.GetPreferredSize
 title: ITfLangBarItemBitmapButton::GetPreferredSize
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfLangBarItemBitmapButton::GetPreferredSize method
 old-location: tsf\itflangbaritembitmapbutton_getpreferredsize.htm
 old-project: TSF
 ms.assetid: 271e4e24-c81e-484c-84bb-d7b67038a5c5
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetPreferredSize, GetPreferredSize method [Text Services Framework], GetPreferredSize method [Text Services Framework],ITfLangBarItemBitmapButton interface, ITfLangBarItemBitmapButton interface [Text Services Framework],GetPreferredSize method, ITfLangBarItemBitmapButton.GetPreferredSize, ITfLangBarItemBitmapButton::GetPreferredSize, _tsf_itflangbaritembitmapbutton_getpreferredsize_ref, ctfutb/ITfLangBarItemBitmapButton::GetPreferredSize, tsf.itflangbaritembitmapbutton_getpreferredsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetGuideDataType
 title: IBDA_GuideDataDeliveryService::GetGuideDataType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the format UUID for the data that is retrieved on this service.
 old-location: mstv\ibda_guidedatadeliveryservice_getguidedatatype.htm
 old-project: mstv
 ms.assetid: 74370ba8-2104-41f9-aa02-02b6790236da
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CLSID_PBDA_GDDS_DATA_TYPE, GetGuideDataType, GetGuideDataType method [Microsoft TV Technologies], GetGuideDataType method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetGuideDataType method, IBDA_GuideDataDeliveryService.GetGuideDataType, IBDA_GuideDataDeliveryService::GetGuideDataType, bdaiface/IBDA_GuideDataDeliveryService::GetGuideDataType, mstv.ibda_guidedatadeliveryservice_getguidedatatype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

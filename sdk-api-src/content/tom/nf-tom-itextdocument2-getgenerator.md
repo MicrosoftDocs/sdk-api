@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextDocument2.GetGenerator
 title: ITextDocument2::GetGenerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_getgenerator.htm
 old-project: Controls
 ms.assetid: 22cfa44e-3603-458b-991e-6e536df63803
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetGenerator, GetGenerator method [Windows Controls], GetGenerator method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetGenerator method, ITextDocument2.GetGenerator, ITextDocument2::GetGenerator, controls.itextdocument2_getgenerator, tom/ITextDocument2::GetGenerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

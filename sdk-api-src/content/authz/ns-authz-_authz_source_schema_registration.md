@@ -1,16 +1,16 @@
 ---
 UID: NS:authz._AUTHZ_SOURCE_SCHEMA_REGISTRATION
 title: "_AUTHZ_SOURCE_SCHEMA_REGISTRATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies information about source schema registration.
 old-location: security\authz_source_schema_registration.htm
 old-project: SecAuthZ
 ms.assetid: 8b4d6e14-fb9c-428a-bd94-34eba668edc6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PAUTHZ_SOURCE_SCHEMA_REGISTRATION, AUTHZ_ALLOW_MULTIPLE_SOURCE_INSTANCES, AUTHZ_MIGRATED_LEGACY_PUBLISHER, AUTHZ_SOURCE_SCHEMA_REGISTRATION, AUTHZ_SOURCE_SCHEMA_REGISTRATION structure [Security], PAUTHZ_SOURCE_SCHEMA_REGISTRATION, PAUTHZ_SOURCE_SCHEMA_REGISTRATION structure pointer [Security], _AUTHZ_SOURCE_SCHEMA_REGISTRATION, authz/AUTHZ_SOURCE_SCHEMA_REGISTRATION, authz/PAUTHZ_SOURCE_SCHEMA_REGISTRATION, security.authz_source_schema_registration"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: authz.h
 req.include-header: 

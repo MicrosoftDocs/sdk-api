@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsEmail
 title: IADsEmail
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsEmail interface provides methods for an ADSI client to access the Email Address attribute.
 old-location: adsi\iadsemail.htm
 old-project: ADSI
 ms.assetid: ce788365-9e43-4bce-89c3-07506cb308fa
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Email, IADsEmail, IADsEmail interface [ADSI], IADsEmail interface [ADSI],described, _ds_iadsemail, adsi.iadsemail, iads/IADsEmail
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

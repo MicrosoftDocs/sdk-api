@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSGetPropertyKeyFromName
 title: PSGetPropertyKeyFromName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the property key for a canonical property name.
 old-location: properties\PSGetPropertyKeyFromName.htm
 old-project: properties
 ms.assetid: a80301d9-8b4e-4a17-8e24-4362ba3b1ab5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSGetPropertyKeyFromName, PSGetPropertyKeyFromName function [Windows Properties], properties.PSGetPropertyKeyFromName, propsys/PSGetPropertyKeyFromName, shell.PSGetPropertyKeyFromName, shell_PSGetPropertyKeyFromName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

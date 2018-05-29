@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.FtpCommandA
 title: FtpCommandA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends commands directly to an FTP server.
 old-location: wininet\ftpcommand.htm
 old-project: WinInet
 ms.assetid: cd12f52c-80d6-4aee-96c8-cb3cafcf0a6a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FTP_TRANSFER_TYPE_ASCII, FTP_TRANSFER_TYPE_BINARY, FtpCommand, FtpCommand function [WinINet], FtpCommandA, FtpCommandW, _inet_ftpcommand_function, wininet.ftpcommand, wininet/FtpCommand, wininet/FtpCommandA, wininet/FtpCommandW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

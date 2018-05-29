@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IEnumWIA_FORMAT_INFO.GetCount
 title: IEnumWIA_FORMAT_INFO::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumWIA_FORMAT_INFO::GetCount method returns the number of elements stored by this enumerator.
 old-location: wia\_wia_IEnumWIA_FORMAT_INFO_GetCount.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwia_format_info\getcount.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: GetCount, GetCount method [WIA], GetCount method [WIA],IEnumWIA_FORMAT_INFO interface, IEnumWIA_FORMAT_INFO interface [WIA],GetCount method, IEnumWIA_FORMAT_INFO.GetCount, IEnumWIA_FORMAT_INFO::GetCount, _wia_IEnumWIA_FORMAT_INFO_GetCount, wia._wia_IEnumWIA_FORMAT_INFO_GetCount, wia_xp/IEnumWIA_FORMAT_INFO::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:scesvc._SCESVC_ANALYSIS_INFO_
 title: "_SCESVC_ANALYSIS_INFO_"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the analysis information.
 old-location: security\scesvc_analysis_info.htm
 old-project: SecMgmt
 ms.assetid: 4f0273df-435d-4324-b8ce-a774da935059
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSCESVC_ANALYSIS_INFO, PSCESVC_ANALYSIS_INFO, PSCESVC_ANALYSIS_INFO structure pointer [Security], SCESVC_ANALYSIS_INFO, SCESVC_ANALYSIS_INFO structure [Security], _SCESVC_ANALYSIS_INFO_, _config_scesvc_analysis_info, scesvc/PSCESVC_ANALYSIS_INFO, scesvc/SCESVC_ANALYSIS_INFO, security.scesvc_analysis_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: scesvc.h
 req.include-header: 

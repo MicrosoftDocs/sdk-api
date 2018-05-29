@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetURLIndexingState
 title: ISearchCatalogManager::GetURLIndexingState
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchCatalogManager_GetURLIndexingState.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\geturlindexingstate.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetURLIndexingState, GetURLIndexingState method [search], GetURLIndexingState method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetURLIndexingState method, ISearchCatalogManager.GetURLIndexingState, ISearchCatalogManager::GetURLIndexingState, _search_ISearchCatalogManager_GetURLIndexingState, search._search_ISearchCatalogManager_GetURLIndexingState, searchapi/ISearchCatalogManager::GetURLIndexingState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h

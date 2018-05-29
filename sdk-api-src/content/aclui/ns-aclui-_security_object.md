@@ -1,16 +1,16 @@
 ---
 UID: NS:aclui._SECURITY_OBJECT
 title: "_SECURITY_OBJECT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the security object information.
 old-location: security\security_object.htm
 old-project: SecAuthZ
 ms.assetid: C3E61527-76AB-49E9-8BBD-486F437CC677
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PSECURITY_OBJECT, PSECURITY_OBJECT, PSECURITY_OBJECT structure pointer [Security], SECURITY_OBJECT, SECURITY_OBJECT structure [Security], SECURITY_OBJECT_ID_CENTRAL_ACCESS_RULE (4), SECURITY_OBJECT_ID_CENTRAL_POLICY (3), SECURITY_OBJECT_ID_OBJECT_SD (1), SECURITY_OBJECT_ID_SHARE (2), _SECURITY_OBJECT, aclui/PSECURITY_OBJECT, aclui/SECURITY_OBJECT, security.security_object"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: aclui.h
 req.include-header: 

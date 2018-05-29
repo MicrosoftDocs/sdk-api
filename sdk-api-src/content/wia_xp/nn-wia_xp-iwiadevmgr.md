@@ -1,16 +1,16 @@
 ---
 UID: NN:wia_xp.IWiaDevMgr
 title: IWiaDevMgr
-author: windows-driver-content
+author: windows-sdk-content
 description: Applications use the IWiaDevMgr interface to create and manage image acquisition devices.
 old-location: wia\_wia_IWiaDevMgr.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\iwiadevmgr.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IWiaDevMgr, IWiaDevMgr interface [WIA], IWiaDevMgr interface [WIA],described, _wia_IWiaDevMgr, wia._wia_IWiaDevMgr, wia_xp/IWiaDevMgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h

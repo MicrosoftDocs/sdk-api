@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathIsDirectoryEmptyA
 title: PathIsDirectoryEmptyA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a specified path is an empty directory.
 old-location: shell\PathIsDirectoryEmpty.htm
 old-project: shell
 ms.assetid: 833fe68e-8b21-4819-8370-d1b5391a3080
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathIsDirectoryEmpty, PathIsDirectoryEmpty function [Windows Shell], PathIsDirectoryEmptyA, PathIsDirectoryEmptyW, _win32_PathIsDirectoryEmpty, shell.PathIsDirectoryEmpty, shlwapi/PathIsDirectoryEmpty, shlwapi/PathIsDirectoryEmptyA, shlwapi/PathIsDirectoryEmptyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:sessdirpublictypes._TARGET_TYPE
 title: "_TARGET_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether a target belongs to a pool or farm.
 old-location: termserv\target_type.htm
 old-project: TermServ
 ms.assetid: 4ad44a75-0975-4933-a914-a64a82fcae6c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FARM, NONFARM, TARGET_TYPE, TARGET_TYPE enumeration [Remote Desktop Services], UNKNOWN, _TARGET_TYPE, sessdirpublictypes/FARM, sessdirpublictypes/NONFARM, sessdirpublictypes/TARGET_TYPE, sessdirpublictypes/UNKNOWN, termserv.target_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: sessdirpublictypes.h
 req.include-header: 

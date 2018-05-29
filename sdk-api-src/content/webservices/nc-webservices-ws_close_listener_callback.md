@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_CLOSE_LISTENER_CALLBACK
 title: WS_CLOSE_LISTENER_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles the WsCloseListener call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_close_listener_callback.htm
 old-project: wsw
 ms.assetid: 9a5d6b10-b4c8-41ba-9b69-4537e44416df
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_CLOSE_LISTENER_CALLBACK, WS_CLOSE_LISTENER_CALLBACK callback, WS_CLOSE_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_CLOSE_LISTENER_CALLBACK, wsw.ws_close_listener_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

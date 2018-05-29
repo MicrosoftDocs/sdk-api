@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_CHECK_VERIFY
 title: IOCTL_STORAGE_CHECK_VERIFY
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether media are accessible for a device.
 old-location: base\ioctl_storage_check_verify.htm
 old-project: DevIO
 ms.assetid: b4705882-30ce-4527-a1b5-c0b296b70274
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: IOCTL_STORAGE_CHECK_VERIFY, IOCTL_STORAGE_CHECK_VERIFY control, IOCTL_STORAGE_CHECK_VERIFY control code, _win32_ioctl_storage_check_verify, base.ioctl_storage_check_verify, winioctl/IOCTL_STORAGE_CHECK_VERIFY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

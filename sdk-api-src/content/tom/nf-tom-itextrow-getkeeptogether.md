@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRow.GetKeepTogether
 title: ITextRow::GetKeepTogether
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets whether this row is allowed to be broken across pages.
 old-location: controls\itextrow_getkeeptogether.htm
 old-project: Controls
 ms.assetid: 3f40c910-2636-4412-ae05-7a630c1f4806
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetKeepTogether, GetKeepTogether method [Windows Controls], GetKeepTogether method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetKeepTogether method, ITextRow.GetKeepTogether, ITextRow::GetKeepTogether, controls.itextrow_getkeeptogether, tom/ITextRow::GetKeepTogether
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

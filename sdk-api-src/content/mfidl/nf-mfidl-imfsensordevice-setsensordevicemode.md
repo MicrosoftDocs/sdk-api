@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.SetSensorDeviceMode
 title: IMFSensorDevice::SetSensorDeviceMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a value that specifies the sharing mode of the sensor device to either controller or shared.
 old-location: mf\imfsensordevice_setsensordevicemode.htm
 old-project: medfound
 ms.assetid: 2B0DC098-EA3B-4061-8191-C67BA54663A3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSensorDevice interface [Media Foundation],SetSensorDeviceMode method, IMFSensorDevice.SetSensorDeviceMode, IMFSensorDevice::SetSensorDeviceMode, SetSensorDeviceMode, SetSensorDeviceMode method [Media Foundation], SetSensorDeviceMode method [Media Foundation],IMFSensorDevice interface, mf.imfsensordevice_setsensordevicemode, mfidl/IMFSensorDevice::SetSensorDeviceMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

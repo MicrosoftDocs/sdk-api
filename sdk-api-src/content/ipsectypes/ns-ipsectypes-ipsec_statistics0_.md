@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_STATISTICS0_
 title: IPSEC_STATISTICS0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Is the top-level of the IPsec statistics structures.
 old-location: fwp\ipsec_statistics0_struct.htm
 old-project: FWP
 ms.assetid: 05873d6d-9e0c-4d3e-9b4d-7831e29e2942
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_STATISTICS0, IPSEC_STATISTICS0 structure [Filtering], IPSEC_STATISTICS0_, fwp.ipsec_statistics0_struct, ipsectypes/IPSEC_STATISTICS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

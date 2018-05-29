@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.SetDefaultSensorDeviceIndex
 title: IMFSensorGroup::SetDefaultSensorDeviceIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures one of the devices in the sensor group as the default device.
 old-location: mf\imfsensorgroup_setdefaultsensordeviceindex.htm
 old-project: medfound
 ms.assetid: 06E2E2DB-8361-49BB-9369-0D0C33DF0C32
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSensorGroup interface [Media Foundation],SetDefaultSensorDeviceIndex method, IMFSensorGroup.SetDefaultSensorDeviceIndex, IMFSensorGroup::SetDefaultSensorDeviceIndex, SetDefaultSensorDeviceIndex, SetDefaultSensorDeviceIndex method [Media Foundation], SetDefaultSensorDeviceIndex method [Media Foundation],IMFSensorGroup interface, mf.imfsensorgroup_setdefaultsensordeviceindex, mfidl/IMFSensorGroup::SetDefaultSensorDeviceIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

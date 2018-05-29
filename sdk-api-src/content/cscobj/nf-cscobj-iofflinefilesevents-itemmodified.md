@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemModified
 title: IOfflineFilesEvents::ItemModified
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports that an item in the Offline Files cache has been modified.
 old-location: of\iofflinefilesevents_itemmodified.htm
 old-project: OfflineFiles
 ms.assetid: e689b111-d6d1-436e-b468-570e575a5170
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemModified method, IOfflineFilesEvents.ItemModified, IOfflineFilesEvents::ItemModified, ItemModified, ItemModified method [Offline Files], ItemModified method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemModified, of.iofflinefilesevents_itemmodified
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

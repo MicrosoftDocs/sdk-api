@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetCountOfRecords
 title: IIsdbEmergencyInformationDescriptor::GetCountOfRecords
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of records in an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_getcountofrecords.htm
 old-project: mstv
 ms.assetid: d23f1cc0-c6b0-4054-80be-36d7675fdec7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbEmergencyInformationDescriptor.GetCountOfRecords, IIsdbEmergencyInformationDescriptor::GetCountOfRecords, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetCountOfRecords, mstv.iisdbemergencyinformationdescriptor_getcountofrecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

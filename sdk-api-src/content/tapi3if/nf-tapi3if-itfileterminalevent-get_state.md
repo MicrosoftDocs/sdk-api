@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITFileTerminalEvent.get_State
 title: ITFileTerminalEvent::get_State
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_State method gets information on the new file terminal state.
 old-location: tapi3\itfileterminalevent_get_state.htm
 old-project: Tapi
 ms.assetid: f75537e8-f54c-4165-ba89-013eeabceb74
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITFileTerminalEvent interface [TAPI 2.2],get_State method, ITFileTerminalEvent.get_State, ITFileTerminalEvent::get_State, _tapi3_itfileterminalevent_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITFileTerminalEvent interface, tapi3.itfileterminalevent_get_state, tapi3if/ITFileTerminalEvent::get_State
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

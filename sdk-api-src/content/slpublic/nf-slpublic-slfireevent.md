@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLFireEvent
 title: SLFireEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a specified event to a registered listener.
 old-location: security\slfireevent.htm
 old-project: SecSLApi
 ms.assetid: 7d66526a-f83a-4a7d-9691-e8ee9ec9a135
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLFireEvent, SLFireEvent function [Security], security.slfireevent, slpublic/SLFireEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

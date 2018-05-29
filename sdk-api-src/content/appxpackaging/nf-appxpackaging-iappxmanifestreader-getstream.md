@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetStream
 title: IAppxManifestReader::GetStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the raw XML parsed and read by the manifest reader.
 old-location: appxpkg\iappxmanifestreader_getstream.htm
 old-project: appxpkg
 ms.assetid: 00467E92-5282-4119-A036-00CE769839B9
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetStream, GetStream method [App packaging and management], GetStream method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetStream method, IAppxManifestReader.GetStream, IAppxManifestReader::GetStream, appxpackaging/IAppxManifestReader::GetStream, appxpkg.iappxmanifestreader_getstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

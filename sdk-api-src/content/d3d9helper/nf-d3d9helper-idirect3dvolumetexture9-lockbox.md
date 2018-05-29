@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DVolumeTexture9.LockBox
 title: IDirect3DVolumeTexture9::LockBox
-author: windows-driver-content
+author: windows-sdk-content
 description: Locks a box on a volume texture resource.
 old-location: direct3d9\idirect3dvolumetexture9__lockbox.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolumetexture9__lockbox.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 9be8529a-2a7d-01f2-cddd-e44589e88cfe, IDirect3DVolumeTexture9 interface [Direct3D 9],LockBox method, IDirect3DVolumeTexture9.LockBox, IDirect3DVolumeTexture9::LockBox, LockBox, LockBox method [Direct3D 9], LockBox method [Direct3D 9],IDirect3DVolumeTexture9 interface, d3d9helper/IDirect3DVolumeTexture9::LockBox, direct3d9.idirect3dvolumetexture9__lockbox
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_AttachFaxToReceipt
 title: IFaxDocument::get_AttachFaxToReceipt
-author: windows-driver-content
+author: windows-sdk-content
 description: The AttachFaxToReceipt property indicates whether to attach a fax to the receipt.
 old-location: fax\_mfax_faxdocument_attachfaxtoreceipt_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5blg.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: AttachFaxToReceipt property [Fax Service], AttachFaxToReceipt property [Fax Service],FaxDocument object, FaxDocument object [Fax Service],AttachFaxToReceipt property, FaxDocument.AttachFaxToReceipt, IFaxDocument.get_AttachFaxToReceipt, IFaxDocument::get_AttachFaxToReceipt, _mfax_faxdocument.attachfaxtoreceipt, fax._mfax_faxdocument_attachfaxtoreceipt, fax._mfax_faxdocument_attachfaxtoreceipt_vb, get_AttachFaxToReceipt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

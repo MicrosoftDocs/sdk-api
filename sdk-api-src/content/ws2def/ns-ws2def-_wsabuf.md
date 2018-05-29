@@ -1,16 +1,16 @@
 ---
 UID: NS:ws2def._WSABUF
 title: "_WSABUF"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSABUF structure enables the creation or manipulation of a data buffer used by some Winsock functions.
 old-location: winsock\wsabuf_2.htm
 old-project: WinSock
 ms.assetid: a012c3ba-67fd-4fcf-84d1-85e9d495c29c
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPWSABUF, LPWSABUF, LPWSABUF structure pointer [Winsock], WSABUF, WSABUF structure [Winsock], WSABUFA, _WSABUF, _win32_wsabuf_2, winsock.wsabuf_2, ws2def/LPWSABUF, ws2def/WSABUF"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2def.h
 req.include-header: Winsock2.h

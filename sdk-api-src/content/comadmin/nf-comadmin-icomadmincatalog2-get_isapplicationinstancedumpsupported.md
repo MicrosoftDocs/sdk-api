@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.get_IsApplicationInstanceDumpSupported
 title: ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the software required for application instance dumps is installed.
 old-location: cos\icomadmincatalog2_isapplicationinstancedumpsupported.htm
 old-project: cossdk
 ms.assetid: d290ec47-a2df-4de3-8719-cceeb893557d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],IsApplicationInstanceDumpSupported property, ICOMAdminCatalog2.IsApplicationInstanceDumpSupported, ICOMAdminCatalog2.get_IsApplicationInstanceDumpSupported, ICOMAdminCatalog2::IsApplicationInstanceDumpSupported, ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported, IsApplicationInstanceDumpSupported property [COM+], IsApplicationInstanceDumpSupported property [COM+],ICOMAdminCatalog2 interface, _cos_IComAdminCatalog2_get_IsApplicationInstanceDumpSupported, comadmin/ICOMAdminCatalog2::IsApplicationInstanceDumpSupported, comadmin/ICOMAdminCatalog2::get_IsApplicationInstanceDumpSupported, cos.icomadmincatalog2_isapplicationinstancedumpsupported, get_IsApplicationInstanceDumpSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

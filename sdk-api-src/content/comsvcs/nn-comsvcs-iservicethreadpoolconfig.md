@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IServiceThreadPoolConfig
 title: IServiceThreadPoolConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures the thread pool of the activity object that is returned by calling CoCreateActivity.
 old-location: cos\iservicethreadpoolconfig.htm
 old-project: cossdk
 ms.assetid: 89c04fef-c6a0-4d73-a25a-a70b4b0f0bcf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServiceThreadPoolConfig, IServiceThreadPoolConfig interface [COM+], IServiceThreadPoolConfig interface [COM+],described, _cos_IServiceThreadPoolConfig, comsvcs/IServiceThreadPoolConfig, cos.iservicethreadpoolconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnSmsConfiguration
 title: IMbnSmsConfiguration
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the SMS configuration of a device.
 old-location: mbn\imbnsmsconfiguration.htm
 old-project: mbn
 ms.assetid: ee261c32-aa17-496a-a568-d9da43e1e23a
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnSmsConfiguration, IMbnSmsConfiguration interface [Microsoft Broadband Networks], IMbnSmsConfiguration interface [Microsoft Broadband Networks],described, mbn.imbnsmsconfiguration, mbnapi/IMbnSmsConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

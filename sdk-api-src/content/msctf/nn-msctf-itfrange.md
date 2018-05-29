@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfRange
 title: ITfRange
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfRange interface is used by text services and applications to reference and manipulate text within a given context. The interface ID is IID_ITfRange.
 old-location: tsf\itfrange.htm
 old-project: TSF
 ms.assetid: b8889f7d-3228-4ecc-8d24-c04234d3101e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfRange, ITfRange interface [Text Services Framework], ITfRange interface [Text Services Framework],described, _tsf_itfrange_ref, msctf/ITfRange, tsf.itfrange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

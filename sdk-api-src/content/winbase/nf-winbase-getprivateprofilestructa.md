@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetPrivateProfileStructA
 title: GetPrivateProfileStructA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the data associated with a key in the specified section of an initialization file.
 old-location: base\getprivateprofilestruct.htm
 old-project: SysInfo
 ms.assetid: a14ba43e-d16d-4c52-a8ac-0d4c71229b7b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPrivateProfileStruct, GetPrivateProfileStruct function, GetPrivateProfileStructA, GetPrivateProfileStructW, _win32_getprivateprofilestruct, base.getprivateprofilestruct, winbase/GetPrivateProfileStruct, winbase/GetPrivateProfileStructA, winbase/GetPrivateProfileStructW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

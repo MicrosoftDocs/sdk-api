@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi.IDXGIResource.GetSharedHandle
 title: IDXGIResource::GetSharedHandle
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the handle to a shared resource.
 old-location: direct3ddxgi\idxgiresource_getsharedhandle.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource_getsharedhandle.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetSharedHandle, GetSharedHandle method [DXGI], GetSharedHandle method [DXGI],IDXGIResource interface, IDXGIResource interface [DXGI],GetSharedHandle method, IDXGIResource.GetSharedHandle, IDXGIResource::GetSharedHandle, direct3ddxgi.idxgiresource_getsharedhandle, dxgi/IDXGIResource::GetSharedHandle, fea59fdb-2526-c2b6-2bd7-58a9fe56c221
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

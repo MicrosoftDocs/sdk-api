@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoAddRefServerProcess
 title: CoAddRefServerProcess function
-author: windows-driver-content
+author: windows-sdk-content
 description: Increments a global per-process reference count.
 old-location: com\coaddrefserverprocess.htm
 old-project: com
 ms.assetid: 79887f9d-cad1-492a-b406-d1753ffaf82b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoAddRefServerProcess, CoAddRefServerProcess function [COM], _com_CoAddRefServerProcess, com.coaddrefserverprocess, combaseapi/CoAddRefServerProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

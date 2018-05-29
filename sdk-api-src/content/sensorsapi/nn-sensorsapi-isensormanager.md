@@ -1,16 +1,16 @@
 ---
 UID: NN:sensorsapi.ISensorManager
 title: ISensorManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for discovering and retrieving available sensors and a method to request sensor manager events.
 old-location: winsensors\isensormanager.htm
 old-project: SensorsAPI
 ms.assetid: 313742c9-58a7-4ddd-9582-a6ee276e97d0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISensorManager, ISensorManager interface [WinSensors], ISensorManager interface [WinSensors],described, sensorsapi/ISensorManager, winsensors.isensormanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sensorsapi.h
 req.include-header: 

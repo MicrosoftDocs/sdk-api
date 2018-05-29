@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.WriteFile
 title: WriteFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes data to the specified file or input/output (I/O) device.
 old-location: fs\writefile.htm
 old-project: FileIO
 ms.assetid: 9d6fa723-fe3e-4052-b0b3-2686eee076a7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WriteFile, WriteFile function [Files], _win32_writefile, base.writefile, fileapi/WriteFile, fs.writefile, winbase/WriteFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

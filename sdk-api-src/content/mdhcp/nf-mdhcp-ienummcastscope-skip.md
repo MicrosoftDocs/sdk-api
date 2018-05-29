@@ -1,16 +1,16 @@
 ---
 UID: NF:mdhcp.IEnumMcastScope.Skip
 title: IEnumMcastScope::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienummcastscope_skip.htm
 old-project: Tapi
 ms.assetid: 0e2255e7-586b-422f-a500-a32e6a460514
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumMcastScope interface [TAPI 2.2],Skip method, IEnumMcastScope.Skip, IEnumMcastScope::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumMcastScope interface, _tapi3_ienummcastscope_skip, mdhcp/IEnumMcastScope::Skip, tapi3.ienummcastscope_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 

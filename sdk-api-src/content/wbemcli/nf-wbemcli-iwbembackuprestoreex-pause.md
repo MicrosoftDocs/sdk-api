@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemBackupRestoreEx.Pause
 title: IWbemBackupRestoreEx::Pause
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemBackupRestoreEx::Pause method locks out write operations from the Windows Management Instrumentation (WMI) repository, and may cause read operations to be blocked.
 old-location: wmi\iwbembackuprestoreex_pause.htm
 old-project: WmiSdk
 ms.assetid: ce4f2637-cf30-4087-bd49-b26554f434ca
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemBackupRestoreEx interface [Windows Management Instrumentation],Pause method, IWbemBackupRestoreEx.Pause, IWbemBackupRestoreEx::Pause, Pause, Pause method [Windows Management Instrumentation], Pause method [Windows Management Instrumentation],IWbemBackupRestoreEx interface, wbemcli/IWbemBackupRestoreEx::Pause, wmi.iwbembackuprestoreex_pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

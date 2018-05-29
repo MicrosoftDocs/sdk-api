@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl.NSTCSTYLE2
 title: NSTCSTYLE2
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by methods of the INameSpaceTreeControl2 to specify extended display styles in a Shell namespace treeview.
 old-location: shell\NSTCSTYLE2.htm
 old-project: shell
 ms.assetid: 0bfa6900-71c0-44b7-8157-662bee58e6c9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NSTCS2_DEFAULT, NSTCS2_DISPLAYPADDING, NSTCS2_DISPLAYPINNEDONLY, NSTCS2_INTERRUPTNOTIFICATIONS, NSTCS2_NOSINGLETONAUTOEXPAND, NSTCS2_SHOWNULLSPACEMENU, NSTCSTYLE2, NSTCSTYLE2 enumeration [Windows Shell], NTSCS2_NEVERINSERTNONENUMERATED, _shell_NSTCSTYLE2, shell.NSTCSTYLE2, shobjidl/NSTCS2_DEFAULT, shobjidl/NSTCS2_DISPLAYPADDING, shobjidl/NSTCS2_DISPLAYPINNEDONLY, shobjidl/NSTCS2_INTERRUPTNOTIFICATIONS, shobjidl/NSTCS2_NOSINGLETONAUTOEXPAND, shobjidl/NSTCS2_SHOWNULLSPACEMENU, shobjidl/NSTCSTYLE2, shobjidl/NTSCS2_NEVERINSERTNONENUMERATED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl.h
 req.include-header: 

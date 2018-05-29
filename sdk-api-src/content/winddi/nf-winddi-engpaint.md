@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngPaint
 title: EngPaint function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngPaint function causes GDI to paint a specified region.
 old-location: display\engpaint.htm
 old-project: display
 ms.assetid: 9bfa2e7b-06c7-427a-9283-54b9c6cdac30
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngPaint, EngPaint function [Display Devices], display.engpaint, gdifncs_fdbafee3-278d-4d69-bd16-535e92436a1d.xml, winddi/EngPaint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

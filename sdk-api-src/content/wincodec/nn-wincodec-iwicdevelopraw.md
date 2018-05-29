@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICDevelopRaw
 title: IWICDevelopRaw
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that provide access to the capabilites of a raw codec format.
 old-location: wic\_wic_codec_iwicdevelopraw.htm
 old-project: wic
 ms.assetid: d449f3f7-fd43-44b0-ab7f-2ae307a74191
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICDevelopRaw, IWICDevelopRaw interface [Windows Imaging Component], IWICDevelopRaw interface [Windows Imaging Component],described, _wic_codec_iwicdevelopraw, wic._wic_codec_iwicdevelopraw, wincodec/IWICDevelopRaw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

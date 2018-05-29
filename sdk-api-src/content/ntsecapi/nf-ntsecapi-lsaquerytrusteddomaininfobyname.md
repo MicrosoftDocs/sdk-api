@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaQueryTrustedDomainInfoByName
 title: LsaQueryTrustedDomainInfoByName function
-author: windows-driver-content
+author: windows-sdk-content
 description: The LsaQueryTrustedDomainInfoByName function returns information about a trusted domain.
 old-location: security\lsaquerytrusteddomaininfobyname.htm
 old-project: SecMgmt
 ms.assetid: d33d6cee-bd8b-49f4-8e65-07cdc65bec7c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaQueryTrustedDomainInfoByName, LsaQueryTrustedDomainInfoByName function [Security], TrustedDomainFullInformation, TrustedDomainInformationBasic, TrustedDomainInformationEx, TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixInformation, _lsa_lsaquerytrusteddomaininfobyname, ntsecapi/LsaQueryTrustedDomainInfoByName, security.lsaquerytrusteddomaininfobyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

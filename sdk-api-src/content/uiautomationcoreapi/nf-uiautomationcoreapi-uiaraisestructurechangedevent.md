@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseStructureChangedEvent
 title: UiaRaiseStructureChangedEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by a provider to notify the Microsoft UI Automation core that the tree structure has changed.
 old-location: winauto\uiauto_UiaRaiseStructureChangedEventFunction.htm
 old-project: WinAuto
 ms.assetid: 29137b40-4758-4c73-9596-8cb375b8d362
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaRaiseStructureChangedEvent, UiaRaiseStructureChangedEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseStructureChangedEventFunction, uiauto_UiaRaiseStructureChangedEventFunction, uiautomationcoreapi/UiaRaiseStructureChangedEvent, winauto.uiauto_UiaRaiseStructureChangedEventFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

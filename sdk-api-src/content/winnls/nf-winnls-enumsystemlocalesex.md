@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.EnumSystemLocalesEx
 title: EnumSystemLocalesEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the locales that are either installed on or supported by an operating system.Note  The application should call this function in preference to EnumSystemLocales if designed to run only on Windows Vista and later.
 old-location: intl\enumsystemlocalesex.htm
 old-project: Intl
 ms.assetid: 74b1b453-66e9-4724-a956-26cea2d7d744
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnumSystemLocalesEx, EnumSystemLocalesEx function [Internationalization for Windows Applications], _win32_EnumSystemLocalesEx, intl.enumsystemlocalesex, winnls/EnumSystemLocalesEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

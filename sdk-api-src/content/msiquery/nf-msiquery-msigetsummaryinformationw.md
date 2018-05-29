@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiGetSummaryInformationW
 title: MsiGetSummaryInformationW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiGetSummaryInformation function obtains a handle to the _SummaryInformation stream for an installer database. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msigetsummaryinformation.htm
 old-project: Msi
 ms.assetid: f3a6d7cc-83b2-45c6-bf86-c579b39c2c92
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiGetSummaryInformation, MsiGetSummaryInformation function, MsiGetSummaryInformationA, MsiGetSummaryInformationW, _msi_msigetsummaryinformation, msiquery/MsiGetSummaryInformation, msiquery/MsiGetSummaryInformationA, msiquery/MsiGetSummaryInformationW, setup.msigetsummaryinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

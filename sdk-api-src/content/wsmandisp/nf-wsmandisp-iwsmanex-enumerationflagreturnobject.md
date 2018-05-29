@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagReturnObject
 title: IWSManEx::EnumerationFlagReturnObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the value of the enumeration constant EnumerationFlagReturnObject for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflagreturnobject.htm
 old-project: WinRM
 ms.assetid: 19993342-a805-4d92-ac80-40f568b53800
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EnumerationFlagReturnObject, EnumerationFlagReturnObject method [Windows Remote Management], EnumerationFlagReturnObject method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagReturnObject method, IWSManEx.EnumerationFlagReturnObject, IWSManEx::EnumerationFlagReturnObject, winrm.iwsmanex_enumerationflagreturnobject, wsmandisp/IWSManEx::EnumerationFlagReturnObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.IEnumNetSharingPrivateConnection.Skip
 title: IEnumNetSharingPrivateConnection::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: The Skip method skips the specified number of privately-shared connections for this enumeration.
 old-location: ics\ienumnetsharingprivateconnection_skip.htm
 old-project: ICS
 ms.assetid: 2157ab88-02ed-4c04-be07-7bebe3cd85b8
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IEnumNetSharingPrivateConnection interface [ICS/ICF],Skip method, IEnumNetSharingPrivateConnection.Skip, IEnumNetSharingPrivateConnection::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingPrivateConnection interface, _ics_ienumnetsharingprivateconnection_skip, ics.ienumnetsharingprivateconnection_skip, netcon/IEnumNetSharingPrivateConnection::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

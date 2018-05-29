@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl._WMT_FILESINK_DATA_UNIT
 title: "_WMT_FILESINK_DATA_UNIT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMT_FILESINK_DATA_UNIT structure is used by IWMWriterFileSink3::OnDataUnitEx to deliver information about a packet.
 old-location: wmformat\wmt_filesink_data_unit.htm
 old-project: wmformat
 ms.assetid: e1deb01f-9f53-4ede-a3e1-13d6dc79adb5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMT_FILESINK_DATA_UNIT, WMT_FILESINK_DATA_UNIT structure [windows Media Format], _WMT_FILESINK_DATA_UNIT, wmformat.wmt_filesink_data_unit, wmsdkidl/WMT_FILESINK_DATA_UNIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

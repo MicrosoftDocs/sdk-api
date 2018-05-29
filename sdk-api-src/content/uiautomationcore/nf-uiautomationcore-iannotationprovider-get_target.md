@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IAnnotationProvider.get_Target
 title: IAnnotationProvider::get_Target
-author: windows-driver-content
+author: windows-sdk-content
 description: The UI Automation element that is being annotated.
 old-location: winauto\uiauto_IAnnotationProvider_Target.htm
 old-project: WinAuto
 ms.assetid: 2ACCB4D9-E2EA-4962-8014-7B8382251A39
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAnnotationProvider interface [Windows Accessibility],Target property, IAnnotationProvider.Target, IAnnotationProvider.get_Target, IAnnotationProvider::Target, IAnnotationProvider::get_Target, Target property [Windows Accessibility], Target property [Windows Accessibility],IAnnotationProvider interface, get_Target, uiautomationcore/IAnnotationProvider::Target, uiautomationcore/IAnnotationProvider::get_Target, winauto.uiauto_IAnnotationProvider_Target
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

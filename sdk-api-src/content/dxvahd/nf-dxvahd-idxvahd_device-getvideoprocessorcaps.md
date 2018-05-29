@@ -1,16 +1,16 @@
 ---
 UID: NF:dxvahd.IDXVAHD_Device.GetVideoProcessorCaps
 title: IDXVAHD_Device::GetVideoProcessorCaps
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the capabilities of one or more Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processors.
 old-location: mf\idxvahd_device_getvideoprocessorcaps.htm
 old-project: medfound
 ms.assetid: d9423b3f-4a4b-49f0-8018-c19a7b663300
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetVideoProcessorCaps, GetVideoProcessorCaps method [Media Foundation], GetVideoProcessorCaps method [Media Foundation],IDXVAHD_Device interface, IDXVAHD_Device interface [Media Foundation],GetVideoProcessorCaps method, IDXVAHD_Device.GetVideoProcessorCaps, IDXVAHD_Device::GetVideoProcessorCaps, dxvahd/IDXVAHD_Device::GetVideoProcessorCaps, mf.idxvahd_device_getvideoprocessorcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxvahd.h
 req.include-header: 

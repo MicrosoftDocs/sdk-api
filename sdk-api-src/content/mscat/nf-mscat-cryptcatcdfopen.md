@@ -1,16 +1,16 @@
 ---
 UID: NF:mscat.CryptCATCDFOpen
 title: CryptCATCDFOpen function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an existing catalog definition file (CDF) for reading and initializes a CRYPTCATCDF structure.
 old-location: security\cryptcatcdfopen.htm
 old-project: SecCrypto
 ms.assetid: d400d8bd-c0a0-41dc-9093-8e4fc758d82f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptCATCDFOpen, CryptCATCDFOpen function [Security], mscat/CryptCATCDFOpen, security.cryptcatcdfopen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

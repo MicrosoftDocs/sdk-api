@@ -1,16 +1,16 @@
 ---
 UID: NE:wbemdisp.WbemImpersonationLevelEnum
 title: WbemImpersonationLevelEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Define the security impersonation levels. These constants are used with SWbemSecurity.
 old-location: wmi\wbemimpersonationlevelenum.htm
 old-project: WmiSdk
 ms.assetid: 4a6d92a6-82d1-4426-8175-89cf9495c448
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: WbemImpersonationLevelEnum, WbemImpersonationLevelEnum enumeration [Windows Management Instrumentation], _hmm_wbemimpersonationlevelenum, wbemImpersonationLevelAnonymous, wbemImpersonationLevelDelegate, wbemImpersonationLevelIdentify, wbemImpersonationLevelImpersonate, wbemdisp/WbemImpersonationLevelEnum, wbemdisp/wbemImpersonationLevelAnonymous, wbemdisp/wbemImpersonationLevelDelegate, wbemdisp/wbemImpersonationLevelIdentify, wbemdisp/wbemImpersonationLevelImpersonate, wmi.wbemimpersonationlevelenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:objidlbase.IMarshalingStream
 title: IMarshalingStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides additional information about the marshaling context to custom-marshaled objects and unmarshalers.
 old-location: com\imarshalingstream.htm
 old-project: com
 ms.assetid: 7C4A3982-3623-4F1F-929C-6D0503700450
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMarshalingStream, IMarshalingStream interface [COM], IMarshalingStream interface [COM],described, com.imarshalingstream, objidl/IMarshalingStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: Objidlbase.h

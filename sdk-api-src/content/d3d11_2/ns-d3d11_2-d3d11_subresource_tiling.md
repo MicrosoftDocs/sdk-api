@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11_2.D3D11_SUBRESOURCE_TILING
 title: D3D11_SUBRESOURCE_TILING
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a tiled subresource volume.
 old-location: direct3d11\d3d11_subresource_tiling.htm
 old-project: direct3d11
 ms.assetid: 679E4AD1-3AC8-4055-9D38-37776E2D17BE
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_SUBRESOURCE_TILING, D3D11_SUBRESOURCE_TILING structure [Direct3D 11], d3d11_2/D3D11_SUBRESOURCE_TILING, direct3d11.d3d11_subresource_tiling
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_2.h
 req.include-header: 

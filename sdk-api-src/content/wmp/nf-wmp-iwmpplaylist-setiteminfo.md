@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPPlaylist.setItemInfo
 title: IWMPPlaylist::setItemInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The setItemInfo method specifies the value of an attribute of the current playlist. .
 old-location: wmp\iwmpplaylist_setiteminfo.htm
 old-project: WMP
 ms.assetid: fd812af6-0bdf-4da4-a066-4411d0d9e259
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],setItemInfo method, IWMPPlaylist.setItemInfo, IWMPPlaylist::setItemInfo, IWMPPlaylistsetItemInfo, setItemInfo, setItemInfo method [Windows Media Player], setItemInfo method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_setiteminfo, wmp/IWMPPlaylist::setItemInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

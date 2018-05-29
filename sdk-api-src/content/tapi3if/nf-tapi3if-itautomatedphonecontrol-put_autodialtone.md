@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoDialtone
 title: ITAutomatedPhoneControl::put_AutoDialtone
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_AutoDialtone method sets the value of the AutoDialtone property.
 old-location: tapi3\itautomatedphonecontrol_put_autodialtone.htm
 old-project: Tapi
 ms.assetid: a906104f-01eb-4c53-9571-7068a98d48a5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoDialtone method, ITAutomatedPhoneControl.put_AutoDialtone, ITAutomatedPhoneControl::put_AutoDialtone, _tapi3_itautomatedphonecontrol_put_autodialtone, put_AutoDialtone, put_AutoDialtone method [TAPI 2.2], put_AutoDialtone method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autodialtone, tapi3if/ITAutomatedPhoneControl::put_AutoDialtone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

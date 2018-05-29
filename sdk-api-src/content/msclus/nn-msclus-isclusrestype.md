@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusResType
 title: ISClusResType
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables operations on a resource type, its properties, and related objects.
 old-location: mscs\clusrestype_object.htm
 old-project: MsCS
 ms.assetid: e4ad6364-f318-47f9-a276-d99c91ffbbb5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusResType, ClusResType object [Failover Cluster], ClusResType object [Failover Cluster],described, ISClusResType, _wolf_clusrestype_object, msclus/ClusResType, mscs.clusrestype_object
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

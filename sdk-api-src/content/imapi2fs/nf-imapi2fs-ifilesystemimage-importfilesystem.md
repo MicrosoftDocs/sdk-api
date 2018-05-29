@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.ImportFileSystem
 title: IFileSystemImage::ImportFileSystem
-author: windows-driver-content
+author: windows-sdk-content
 description: Imports the default file system on the current disc.
 old-location: imapi\ifilesystemimage_importfilesystem.htm
 old-project: imapi
 ms.assetid: 87d654bc-f2c9-4a74-a822-352cdb242b5f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFileSystemImage interface [IMAPI],ImportFileSystem method, IFileSystemImage.ImportFileSystem, IFileSystemImage::ImportFileSystem, ImportFileSystem, ImportFileSystem method [IMAPI], ImportFileSystem method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_importfilesystem, imapi2fs/IFileSystemImage::ImportFileSystem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

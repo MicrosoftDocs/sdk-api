@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsVolumeShrink.QueryMaxReclaimableBytes
 title: IVdsVolumeShrink::QueryMaxReclaimableBytes
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the maximum number of bytes that can be reclaimed from the current volume.
 old-location: base\ivdsvolumeshrink_querymaxreclaimablebytes.htm
 old-project: VDS
 ms.assetid: 416ceb78-50fb-4976-8814-3981b594ebec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsVolumeShrink interface,QueryMaxReclaimableBytes method, IVdsVolumeShrink.QueryMaxReclaimableBytes, IVdsVolumeShrink::QueryMaxReclaimableBytes, QueryMaxReclaimableBytes, QueryMaxReclaimableBytes method, QueryMaxReclaimableBytes method,IVdsVolumeShrink interface, base.ivdsvolumeshrink_querymaxreclaimablebytes, vds/IVdsVolumeShrink::QueryMaxReclaimableBytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateMetadataReader
 title: IWICComponentFactory::CreateMetadataReader
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IWICMetadataReader based on the given parameters.
 old-location: wic\_wic_codec_iwiccomponentfactory_createmetadatareader.htm
 old-project: wic
 ms.assetid: 3fc94831-1743-4269-97af-48116e2a4e1a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateMetadataReader, CreateMetadataReader method [Windows Imaging Component], CreateMetadataReader method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateMetadataReader method, IWICComponentFactory.CreateMetadataReader, IWICComponentFactory::CreateMetadataReader, _wic_codec_iwiccomponentfactory_createmetadatareader, wic._wic_codec_iwiccomponentfactory_createmetadatareader, wincodecsdk/IWICComponentFactory::CreateMetadataReader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

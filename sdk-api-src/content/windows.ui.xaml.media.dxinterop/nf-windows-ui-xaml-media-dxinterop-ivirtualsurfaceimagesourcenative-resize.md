@@ -1,16 +1,16 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.Resize
 title: IVirtualSurfaceImageSourceNative::xaml
-author: windows-driver-content
+author: windows-sdk-content
 description: Resizes the surface.
 old-location: winrt\ivirtualsurfaceimagesourcenative_resize.htm
 old-project: WinRT
 ms.assetid: 09808606-9735-4838-BE32-F10B172FD7A9
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IVirtualSurfaceImageSourceNative interface [Windows Runtime],Resize method, IVirtualSurfaceImageSourceNative.Resize, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::Resize, IVirtualSurfaceImageSourceNative::xaml, Resize, Resize method [Windows Runtime], Resize method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, windows/IVirtualSurfaceImageSourceNative::Resize, winrt.ivirtualsurfaceimagesourcenative_resize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 

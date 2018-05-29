@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminServerSetInfoEx
 title: MprAdminServerSetInfoEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminServerSetInfoEx function sets port information on a specified RRAS server.
 old-location: rras\mpradminserversetinfoex.htm
 old-project: RRAS
 ms.assetid: 6109d6e0-21ce-4837-9e94-83318c9af3d8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminServerSetInfoEx, MprAdminServerSetInfoEx function [RAS], mprapi/MprAdminServerSetInfoEx, rras.mpradminserversetinfoex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:objidlbase.IProcessInitControl
 title: IProcessInitControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the process initialization time-out interval.
 old-location: com\iprocessinitcontrol.htm
 old-project: com
 ms.assetid: acce67ef-3290-4892-b56a-77a256776c80
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IProcessInitControl, IProcessInitControl interface [COM], IProcessInitControl interface [COM],described, _com_iprocessinitcontrol, com.iprocessinitcontrol, objidlbase/IProcessInitControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

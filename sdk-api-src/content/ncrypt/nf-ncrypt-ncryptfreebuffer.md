@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptFreeBuffer
 title: NCryptFreeBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases a block of memory allocated by a CNG key storage provider.
 old-location: security\ncryptfreebuffer_func.htm
 old-project: SecCNG
 ms.assetid: 15f19999-cf64-4a30-b38d-9372066add0a
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCryptFreeBuffer, NCryptFreeBuffer function [Security], ncrypt/NCryptFreeBuffer, security.ncryptfreebuffer_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

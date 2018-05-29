@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1_1helper.Vector3F
 title: Vector3F function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a filled D2D1_VECTOR_3F structure.
 old-location: direct2d\vector3f.htm
 old-project: Direct2D
 ms.assetid: C2842DD9-A70E-4B7C-AFF5-3B95631800A3
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: Vector3F, Vector3F function [Direct2D], d2d1_1helper/Vector3F, direct2d.vector3f
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_1helper.h
 req.include-header: 

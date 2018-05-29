@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Skew
 title: Matrix3x2F::Skew
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a skew transformation that has the specified x-axis and y-axis values and center point.
 old-location: direct2d\matrix3x2f_skew.htm
 old-project: Direct2D
 ms.assetid: 7d53aaff-3a6f-4949-9835-a30027d247dd
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1.Matrix3x2F.Skew, D2D1::Matrix3x2F::Skew, Matrix3x2F interface [Direct2D],Skew method, Matrix3x2F.Skew, Matrix3x2F::Skew, Skew, Skew method [Direct2D], Skew method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Skew, direct2d.matrix3x2f_skew
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d2d1helper.h
 req.include-header: 

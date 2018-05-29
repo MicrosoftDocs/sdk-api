@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IObjectWithFolderEnumMode
 title: IObjectWithFolderEnumMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that get and set enumeration modes of a parsed item.
 old-location: shell\IObjectWithFolderEnumMode.htm
 old-project: shell
 ms.assetid: 33838ddc-8e0e-431a-a957-40e23f0ad0c7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IObjectWithFolderEnumMode, IObjectWithFolderEnumMode interface [Windows Shell], IObjectWithFolderEnumMode interface [Windows Shell],described, _shell_IObjectWithFolderEnumMode, shell.IObjectWithFolderEnumMode, shobjidl_core/IObjectWithFolderEnumMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

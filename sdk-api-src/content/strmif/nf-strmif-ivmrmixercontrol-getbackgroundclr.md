@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRMixerControl.GetBackgroundClr
 title: IVMRMixerControl::GetBackgroundClr
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current background color on the output rectangle.
 old-location: dshow\ivmrmixercontrol_getbackgroundclr.htm
 old-project: DirectShow
 ms.assetid: 095f0ed3-46e4-48f9-97d5-5bca1c2efa30
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetBackgroundClr, GetBackgroundClr method [DirectShow], GetBackgroundClr method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetBackgroundClr method, IVMRMixerControl.GetBackgroundClr, IVMRMixerControl::GetBackgroundClr, IVMRMixerControlGetBackgroundClr, dshow.ivmrmixercontrol_getbackgroundclr, strmif/IVMRMixerControl::GetBackgroundClr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

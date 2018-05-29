@@ -1,16 +1,16 @@
 ---
 UID: NE:structuredquery.tagINTERVAL_LIMIT_KIND
 title: tagINTERVAL_LIMIT_KIND
-author: windows-driver-content
+author: windows-sdk-content
 description: These values are returned by IInterval::GetLimits as pairs to specify a range with an upper and lower limit.
 old-location: search\_search_INTERVAL_LIMIT_KIND.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\interval_limit_kind.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ILK_EXPLICIT_EXCLUDED, ILK_EXPLICIT_INCLUDED, ILK_NEGATIVE_INFINITY, ILK_POSITIVE_INFINITY, INTERVAL_LIMIT_KIND, INTERVAL_LIMIT_KIND enumeration [search], _search_INTERVAL_LIMIT_KIND, search._search_INTERVAL_LIMIT_KIND, structuredquery/ILK_EXPLICIT_EXCLUDED, structuredquery/ILK_EXPLICIT_INCLUDED, structuredquery/ILK_NEGATIVE_INFINITY, structuredquery/ILK_POSITIVE_INFINITY, structuredquery/INTERVAL_LIMIT_KIND, tagINTERVAL_LIMIT_KIND
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: structuredquery.h
 req.include-header: 
@@ -20,7 +20,7 @@ req.target-min-winversvr: Windows Server 2003 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: UnalignedStringCchLengthW (Unicode) and StringCchLengthA (ANSI)
+req.unicode-ansi: StringCchVPrintf_lW (Unicode) and StringCchVPrintf_lA (ANSI)
 req.idl: Structuredquery.idl
 req.max-support: 
 req.namespace: 

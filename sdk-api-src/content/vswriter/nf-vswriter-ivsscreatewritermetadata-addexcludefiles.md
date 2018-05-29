@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddExcludeFiles
 title: IVssCreateWriterMetadata::AddExcludeFiles
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddExcludeFiles method is used to explicitly exclude a file set (a specified file or files) that might otherwise be implicitly included when a component of the current writer is backed up.
 old-location: base\ivsscreatewritermetadata_addexcludefiles.htm
 old-project: VSS
 ms.assetid: 705bb666-9080-4b42-af58-9cc21fbf88cf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddExcludeFiles, AddExcludeFiles method [VSS], AddExcludeFiles method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddExcludeFiles method, IVssCreateWriterMetadata.AddExcludeFiles, IVssCreateWriterMetadata::AddExcludeFiles, _win32_ivsscreatewritermetadata_addexcludefiles, base.ivsscreatewritermetadata_addexcludefiles, vswriter/IVssCreateWriterMetadata::AddExcludeFiles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

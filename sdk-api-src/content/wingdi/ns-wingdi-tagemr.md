@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMR
 title: tagEMR
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMR structure provides the base structure for all enhanced metafile records. An enhanced metafile record contains the parameters for a specific GDI function used to create part of a picture in an enhanced format metafile.
 old-location: gdi\emr.htm
 old-project: gdi
 ms.assetid: 06582047-b64b-44ec-ae27-1f8ed7c56b97
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMR, EMR, EMR structure [Windows GDI], PEMR, PEMR structure pointer [Windows GDI], _win32_EMR_str, gdi.emr, tagEMR, wingdi/EMR, wingdi/PEMR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

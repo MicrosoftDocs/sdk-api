@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryWriter.SetMetadataByName
 title: IWICMetadataQueryWriter::SetMetadataByName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a metadata item to a specific location.
 old-location: wic\_wic_codec_iwicmetadataquerywriter_setmetadatabyname.htm
 old-project: wic
 ms.assetid: fd3a9752-f13f-4f19-b2bd-04b5df1e0dd2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICMetadataQueryWriter interface [Windows Imaging Component],SetMetadataByName method, IWICMetadataQueryWriter.SetMetadataByName, IWICMetadataQueryWriter::SetMetadataByName, SetMetadataByName, SetMetadataByName method [Windows Imaging Component], SetMetadataByName method [Windows Imaging Component],IWICMetadataQueryWriter interface, _wic_codec_iwicmetadataquerywriter_setmetadatabyname, wic._wic_codec_iwicmetadataquerywriter_setmetadatabyname, wincodec/IWICMetadataQueryWriter::SetMetadataByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:uiautomationcoreapi.UiaEventCallback
 title: UiaEventCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: A client-implemented function that is called by UI Automation when an event is raised that the client has subscribed to.
 old-location: winauto\uiauto_UiaEventCallbackClientEvent.htm
 old-project: WinAuto
 ms.assetid: a7dbe077-e059-4e92-8fb8-950cb67c4975
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaEventCallback, UiaEventCallback callback, UiaEventCallback callback function [Windows Accessibility], uiauto.uiauto_UiaEventCallbackClientEvent, uiauto_UiaEventCallbackClientEvent, uiautomationcoreapi/UiaEventCallback, winauto.uiauto_UiaEventCallbackClientEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: uiautomationcoreapi.h
 req.include-header: 

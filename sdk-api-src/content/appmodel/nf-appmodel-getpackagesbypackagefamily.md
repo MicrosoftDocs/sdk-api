@@ -1,16 +1,16 @@
 ---
 UID: NF:appmodel.GetPackagesByPackageFamily
 title: GetPackagesByPackageFamily function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the packages with the specified family name for the current user.
 old-location: appxpkg\getpackagesbypackagefamily.htm
 old-project: appxpkg
 ms.assetid: C2163203-D654-4491-9090-0CC43F42EC35
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetPackagesByPackageFamily, GetPackagesByPackageFamily function [App packaging and management], appmodel/GetPackagesByPackageFamily, appxpkg.getpackagesbypackagefamily
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

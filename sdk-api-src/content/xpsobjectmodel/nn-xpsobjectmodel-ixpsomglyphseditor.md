@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGlyphsEditor
 title: IXpsOMGlyphsEditor
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows batch modification of properties that affect the text content in an IXpsOMGlyphs interface.
 old-location: xps\ixpsomglyphseditor.htm
 old-project: printdocs
 ms.assetid: 5bdf2892-ce6f-4560-b638-e441166fc309
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMGlyphsEditor, IXpsOMGlyphsEditor interface [XPS Documents and Packaging], IXpsOMGlyphsEditor interface [XPS Documents and Packaging],described, xps.ixpsomglyphseditor, xpsobjectmodel/IXpsOMGlyphsEditor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

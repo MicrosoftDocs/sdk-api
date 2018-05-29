@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetOutputExtension
 title: ID3D11VideoContext::VideoProcessorGetOutputExtension
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets private state data from the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetoutputextension.htm
 old-project: medfound
 ms.assetid: 3B979D5D-CB3D-4B67-9BE3-277005076604
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetOutputExtension method, ID3D11VideoContext.VideoProcessorGetOutputExtension, ID3D11VideoContext::VideoProcessorGetOutputExtension, VideoProcessorGetOutputExtension, VideoProcessorGetOutputExtension method [Media Foundation], VideoProcessorGetOutputExtension method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetOutputExtension, mf.id3d11videocontext_videoprocessorgetoutputextension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

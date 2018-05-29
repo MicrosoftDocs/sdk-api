@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAddress2.get_PreferredPhones
 title: ITAddress2::get_PreferredPhones
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_PreferredPhones method returns a collection of phone objects corresponding to the phone devices that are preferred for use with this address.
 old-location: tapi3\itaddress2_get_preferredphones.htm
 old-project: Tapi
 ms.assetid: 6cb17c83-86db-4d44-bbd3-80a0e52fec73
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAddress2 interface [TAPI 2.2],get_PreferredPhones method, ITAddress2.get_PreferredPhones, ITAddress2::get_PreferredPhones, _tapi3_itaddress2_get_preferredphones, get_PreferredPhones, get_PreferredPhones method [TAPI 2.2], get_PreferredPhones method [TAPI 2.2],ITAddress2 interface, tapi3.itaddress2_get_preferredphones, tapi3if/ITAddress2::get_PreferredPhones
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

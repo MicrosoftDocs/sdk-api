@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_TUNNEL_ENDPOINTS0_
 title: IPSEC_TUNNEL_ENDPOINTS0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to store end points of a tunnel mode SA.
 old-location: fwp\ipsec_tunnel_endpoints0_struct.htm
 old-project: FWP
 ms.assetid: a37b13c7-61e4-49be-bd21-db3e7c9bcca5
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_TUNNEL_ENDPOINTS0, IPSEC_TUNNEL_ENDPOINTS0 structure [Filtering], IPSEC_TUNNEL_ENDPOINTS0_, fwp.ipsec_tunnel_endpoints0_struct, ipsectypes/IPSEC_TUNNEL_ENDPOINTS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

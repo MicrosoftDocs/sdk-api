@@ -1,16 +1,16 @@
 ---
 UID: NF:evcoll.EcGetSubscriptionRunTimeStatus
 title: EcGetSubscriptionRunTimeStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the run time status information for an event source of a subscription or the subscription itself.
 old-location: wec\ecgetsubscriptionruntimestatus.htm
 old-project: WEC
 ms.assetid: 17d9d264-5ae3-4e31-869c-ada0c6c5c53b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EcGetSubscriptionRunTimeStatus, EcGetSubscriptionRunTimeStatus function, evcoll/EcGetSubscriptionRunTimeStatus, wec.ecgetsubscriptionruntimestatus, wes.ecgetsubscriptionruntimestatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 

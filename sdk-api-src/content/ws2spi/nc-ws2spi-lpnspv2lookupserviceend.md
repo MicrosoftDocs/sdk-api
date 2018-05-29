@@ -1,16 +1,16 @@
 ---
 UID: NC:ws2spi.LPNSPV2LOOKUPSERVICEEND
 title: LPNSPV2LOOKUPSERVICEEND
-author: windows-driver-content
+author: windows-sdk-content
 description: Called to free the handle after previous calls to NSPv2LookupServiceBegin and NSPv2LookupServiceNextEx.
 old-location: winsock\nspv2lookupserviceend.htm
 old-project: WinSock
 ms.assetid: 5f2b56c5-3a8e-4bf9-8f28-d2a06543227b
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: LPNSPV2LOOKUPSERVICEEND, NSPv2LookupServiceEnd, NSPv2LookupServiceEnd function [Winsock], winsock.nspv2lookupserviceend, ws2spi/NSPv2LookupServiceEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

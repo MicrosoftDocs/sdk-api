@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.RemoveEntryByIndex
 title: ITocEntryList::RemoveEntryByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: The RemoveEntryByIndex method removes an entry, specified by an index, from the list.
 old-location: mf\itocentrylist_removeentrybyindex.htm
 old-project: medfound
 ms.assetid: 72b9141c-2e61-42be-a4a1-910b607ab5f1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITocEntryList interface [Media Foundation],RemoveEntryByIndex method, ITocEntryList.RemoveEntryByIndex, ITocEntryList::RemoveEntryByIndex, RemoveEntryByIndex, RemoveEntryByIndex method [Media Foundation], RemoveEntryByIndex method [Media Foundation],ITocEntryList interface, codecapi.itocentrylist_removeentrybyindex, mf.itocentrylist_removeentrybyindex, wmcodecdsp/ITocEntryList::RemoveEntryByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

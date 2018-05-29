@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceCreate
 title: MprConfigInterfaceCreate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigInterfaceCreate function creates a router interface in the specified router configuration.
 old-location: rras\mprconfiginterfacecreate.htm
 old-project: RRAS
 ms.assetid: e368aa3c-bb80-49ed-a1da-39777dada960
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigInterfaceCreate, MprConfigInterfaceCreate function [RAS], _mpr_mprconfiginterfacecreate, mprapi/MprConfigInterfaceCreate, rras.mprconfiginterfacecreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.ProgIdCompensator
 title: ICrmMonitorClerks::ProgIdCompensator
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the ProgId of the CRM Compensator for the specified index.
 old-location: cos\icrmmonitorclerks_progidcompensator.htm
 old-project: cossdk
 ms.assetid: c174908b-293e-4481-b35d-455ee4f52eea
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],ProgIdCompensator method, ICrmMonitorClerks.ProgIdCompensator, ICrmMonitorClerks::ProgIdCompensator, ProgIdCompensator, ProgIdCompensator method [COM+], ProgIdCompensator method [COM+],ICrmMonitorClerks interface, _dtc_ICrmMonitorClerks_ProgIdCompensator, comsvcs/ICrmMonitorClerks::ProgIdCompensator, cos.icrmmonitorclerks_progidcompensator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

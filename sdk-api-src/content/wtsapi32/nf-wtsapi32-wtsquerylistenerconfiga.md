@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsapi32.WTSQueryListenerConfigA
 title: WTSQueryListenerConfigA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves configuration information for a Remote Desktop Services listener.
 old-location: termserv\wtsquerylistenerconfig.htm
 old-project: TermServ
 ms.assetid: abdcb98e-c00c-444f-a6f9-ce98161c8b62
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WTSQueryListenerConfig, WTSQueryListenerConfig function [Remote Desktop Services], WTSQueryListenerConfigA, WTSQueryListenerConfigW, termserv.wtsquerylistenerconfig, wtsapi32/WTSQueryListenerConfig, wtsapi32/WTSQueryListenerConfigA, wtsapi32/WTSQueryListenerConfigW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi.IDXGIOutput.ReleaseOwnership
 title: IDXGIOutput::ReleaseOwnership
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases ownership of the output.
 old-location: direct3ddxgi\idxgioutput_releaseownership.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_releaseownership.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: 85bdbad9-3499-5766-c623-04b46be2a80a, IDXGIOutput interface [DXGI],ReleaseOwnership method, IDXGIOutput.ReleaseOwnership, IDXGIOutput::ReleaseOwnership, ReleaseOwnership, ReleaseOwnership method [DXGI], ReleaseOwnership method [DXGI],IDXGIOutput interface, direct3ddxgi.idxgioutput_releaseownership, dxgi/IDXGIOutput::ReleaseOwnership
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

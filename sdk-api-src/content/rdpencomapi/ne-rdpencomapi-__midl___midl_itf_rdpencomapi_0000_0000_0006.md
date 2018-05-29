@@ -1,16 +1,16 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0006
 title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0006"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values for the type of attendee.
 old-location: rdp\rdpencomapi_attendee_flags.htm
 old-project: Rdp
 ms.assetid: a2e5520f-f19a-4800-bc41-bb12bd244d35
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: ATTENDEE_FLAGS_LOCAL, RDPENCOMAPI_ATTENDEE_FLAGS, RDPENCOMAPI_ATTENDEE_FLAGS enumeration [RDP], __MIDL___MIDL_itf_rdpencomapi_0000_0000_0006, rdp.rdpencomapi_attendee_flags, rdpencomapi/ATTENDEE_FLAGS_LOCAL, rdpencomapi/RDPENCOMAPI_ATTENDEE_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: rdpencomapi.h
 req.include-header: 

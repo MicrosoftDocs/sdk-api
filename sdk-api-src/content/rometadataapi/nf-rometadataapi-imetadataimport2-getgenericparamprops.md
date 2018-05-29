@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.GetGenericParamProps
 title: IMetaDataImport2::GetGenericParamProps
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the metadata associated with the generic parameter represented by the specified token.
 old-location: winrt\imetadataimport2_getgenericparamprops.htm
 old-project: WinRT
 ms.assetid: 3967e82c-64e3-4d05-b10a-e4e86f9f60ab
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetGenericParamProps, GetGenericParamProps method [Windows Runtime], GetGenericParamProps method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetGenericParamProps method, IMetaDataImport2.GetGenericParamProps, IMetaDataImport2::GetGenericParamProps, rometadataapi/IMetaDataImport2::GetGenericParamProps, winrt.imetadataimport2_getgenericparamprops
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

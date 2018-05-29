@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.GetBlocks
 title: IAppxBlockMapFile::GetBlocks
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an enumerator for traversing the blocks of a file listed in the block map.
 old-location: appxpkg\iappxblockmapfile_getblocks.htm
 old-project: appxpkg
 ms.assetid: CE8FB813-B125-4FD6-A7C3-CA3ECA72ECE7
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetBlocks, GetBlocks method [App packaging and management], GetBlocks method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetBlocks method, IAppxBlockMapFile.GetBlocks, IAppxBlockMapFile::GetBlocks, appxpackaging/IAppxBlockMapFile::GetBlocks, appxpkg.iappxblockmapfile_getblocks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHAlloc
 title: SHAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates memory from the Shell's heap.
 old-location: shell\SHAlloc.htm
 old-project: shell
 ms.assetid: 621e4335-1484-4111-9cfe-7ae5c6d5c609
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHAlloc, SHAlloc function [Windows Shell], _win32_SHAlloc, shell.SHAlloc, shlobj_core/SHAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

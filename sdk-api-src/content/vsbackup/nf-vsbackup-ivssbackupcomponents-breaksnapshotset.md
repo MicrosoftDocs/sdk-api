@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.BreakSnapshotSet
 title: IVssBackupComponents::BreakSnapshotSet
-author: windows-driver-content
+author: windows-sdk-content
 description: The BreakSnapshotSet method causes the existence of a shadow copy set to be &#0034;forgotten&#0034; by VSS.
 old-location: base\ivssbackupcomponents_breaksnapshotset.htm
 old-project: VSS
 ms.assetid: 8c366f19-b10f-46cd-b5dc-cc3c77c5a008
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BreakSnapshotSet, BreakSnapshotSet method [VSS], BreakSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],BreakSnapshotSet method, IVssBackupComponents.BreakSnapshotSet, IVssBackupComponents::BreakSnapshotSet, _win32_ivssbackupcomponents_breaksnapshotset, base.ivssbackupcomponents_breaksnapshotset, vsbackup/IVssBackupComponents::BreakSnapshotSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

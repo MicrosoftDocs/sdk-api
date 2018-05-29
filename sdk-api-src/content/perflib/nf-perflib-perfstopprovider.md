@@ -1,16 +1,16 @@
 ---
 UID: NF:perflib.PerfStopProvider
 title: PerfStopProvider function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the provider's registration from the list of registered providers and frees all resources associated with the provider.
 old-location: perf\perfstopprovider.htm
 old-project: PerfCtrs
 ms.assetid: 4b31f88b-cadc-4bee-bdea-9079cc14c140
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PerfStopProvider, PerfStopProvider function [Perf], base.perfstopprovider, perf.perfstopprovider, perflib/PerfStopProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

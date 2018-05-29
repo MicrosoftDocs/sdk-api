@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_PKCS8_EXPORT_PARAMS
 title: "_CRYPT_PKCS8_EXPORT_PARAMS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the private key and a callback function to encrypt the private key. CRYPT_PKCS8_EXPORT_PARAMS is used as a parameter to the CryptExportPKCS8Ex function, which exports a private key in PKCS #8 format.
 old-location: security\crypt_pkcs8_export_params.htm
 old-project: SecCrypto
 ms.assetid: 5a60c96e-907a-409e-921c-59055452463f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_PKCS8_EXPORT_PARAMS, AT_KEYEXCHANGE, AT_SIGNATURE, CRYPT_PKCS8_EXPORT_PARAMS, CRYPT_PKCS8_EXPORT_PARAMS structure [Security], PCRYPT_PKCS8_EXPORT_PARAMS, PCRYPT_PKCS8_EXPORT_PARAMS structure pointer [Security], _CRYPT_PKCS8_EXPORT_PARAMS, security.crypt_pkcs8_export_params, wincrypt/CRYPT_PKCS8_EXPORT_PARAMS, wincrypt/PCRYPT_PKCS8_EXPORT_PARAMS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

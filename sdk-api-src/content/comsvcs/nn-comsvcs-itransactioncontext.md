@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ITransactionContext
 title: ITransactionContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables you to compose the work of multiple COM+ objects in a single transaction and explicitly commit or abort the transaction.
 old-location: cos\itransactioncontext.htm
 old-project: cossdk
 ms.assetid: 818fe18b-04ed-4f54-aeb7-b19aafc8a51a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ITransactionContext, ITransactionContext interface [COM+], ITransactionContext interface [COM+],described, _cos_ITransactionContext_Interface, comsvcs/ITransactionContext, cos.itransactioncontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3dcompiler.D3DWriteBlobToFile
 title: D3DWriteBlobToFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes a memory blob to a file on disk.
 old-location: direct3dhlsl\d3dwriteblobtofile.htm
 old-project: direct3dhlsl
 ms.assetid: F21FF3B4-5F69-4C93-9F93-6A12324A664A
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: D3DWriteBlobToFile, D3DWriteBlobToFile function [HLSL], d3dcompiler/D3DWriteBlobToFile, direct3dhlsl.d3dwriteblobtofile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 

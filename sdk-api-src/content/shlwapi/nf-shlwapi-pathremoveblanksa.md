@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathRemoveBlanksA
 title: PathRemoveBlanksA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all leading and trailing spaces from a string.
 old-location: shell\PathRemoveBlanks.htm
 old-project: shell
 ms.assetid: 0f496855-3ea7-4193-b895-fd4ea26ef6c5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathRemoveBlanks, PathRemoveBlanks function [Windows Shell], PathRemoveBlanksA, PathRemoveBlanksW, _win32_PathRemoveBlanks, shell.PathRemoveBlanks, shlwapi/PathRemoveBlanks, shlwapi/PathRemoveBlanksA, shlwapi/PathRemoveBlanksW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

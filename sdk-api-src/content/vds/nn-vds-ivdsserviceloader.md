@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsServiceLoader
 title: IVdsServiceLoader
-author: windows-driver-content
+author: windows-sdk-content
 description: Instantiates a service loader object.
 old-location: base\ivdsserviceloader.htm
 old-project: VDS
 ms.assetid: 43533ee7-4e44-48c9-8c9d-0992426d79ba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsServiceLoader, IVdsServiceLoader interface [VDS], IVdsServiceLoader interface [VDS],described, base.ivdsserviceloader, vds/IVdsServiceLoader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

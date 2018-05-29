@@ -1,16 +1,16 @@
 ---
 UID: NN:oleidl.IOleContainer
 title: IOleContainer
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates objects in a compound document or lock a container in the running state. Container and object applications both implement this interface.
 old-location: com\iolecontainer.htm
 old-project: com
 ms.assetid: 98549309-8ac8-4391-92ab-8a62269ff579
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleContainer, IOleContainer interface [COM], IOleContainer interface [COM],described, _ole_iolecontainer, com.iolecontainer, oleidl/IOleContainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

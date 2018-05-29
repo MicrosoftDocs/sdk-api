@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.DeleteLogByHandle
 title: DeleteLogByHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Marks the specified log for deletion. The log is actually deleted when all handles, marshaling areas, and read contexts to the log are closed. If the log is a physical log, its underlying containers are deleted.
 old-location: fs\deletelogbyhandle.htm
 old-project: Clfs
 ms.assetid: 2426058f-312c-4946-ac12-52e55a3307b5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DeleteLogByHandle, DeleteLogByHandle function [Files], clfsw32/DeleteLogByHandle, fs.deletelogbyhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

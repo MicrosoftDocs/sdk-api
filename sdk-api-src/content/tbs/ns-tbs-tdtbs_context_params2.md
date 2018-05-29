@@ -1,16 +1,16 @@
 ---
 UID: NS:tbs.tdTBS_CONTEXT_PARAMS2
 title: tdTBS_CONTEXT_PARAMS2
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the version of the TBS context implementation. You must use this structure if your application works with both versions of TPM.
 old-location: tbs\tbs_context_params2.htm
 old-project: TBS
 ms.assetid: B113B422-A66E-4498-99DA-65D4ED0B84B1
-ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.author: windowssdkdev
+ms.date: 03/01/2018
 ms.keywords: "*PTBS_CONTEXT_PARAMS2, PTBS_CONTEXT_PARAMS2, PTBS_CONTEXT_PARAMS2 structure pointer [TBS], TBS_CONTEXT_PARAMS2, TBS_CONTEXT_PARAMS2 structure [TBS], tbs.tbs_context_params2, tbs/PTBS_CONTEXT_PARAMS2, tbs/TBS_CONTEXT_PARAMS2, tdTBS_CONTEXT_PARAMS2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tbs.h
 req.include-header: 

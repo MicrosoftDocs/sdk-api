@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IDropSourceNotify.DragEnterTarget
 title: IDropSourceNotify::DragEnterTarget
-author: windows-driver-content
+author: windows-sdk-content
 description: OLE calls this method when the user drags the mouse cursor into a potential drop target window.
 old-location: com\idropsourcenotify_dragentertarget.htm
 old-project: com
 ms.assetid: 2f2ca860-1f63-4cc1-9a9e-4efb6fceb867
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DragEnterTarget, DragEnterTarget method [COM], DragEnterTarget method [COM],IDropSourceNotify interface, IDropSourceNotify interface [COM],DragEnterTarget method, IDropSourceNotify.DragEnterTarget, IDropSourceNotify::DragEnterTarget, _ole_idropsourcenotify_dragentertarget, com.idropsourcenotify_dragentertarget, oleidl/IDropSourceNotify::DragEnterTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

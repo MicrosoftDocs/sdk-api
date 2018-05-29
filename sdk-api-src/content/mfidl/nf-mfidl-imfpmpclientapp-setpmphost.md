@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFPMPClientApp.SetPMPHost
 title: IMFPMPClientApp::SetPMPHost
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a pointer to the IMFPMPHostApp interface allowing a media source to create objects in the PMP process.
 old-location: mf\imfpmpclientapp_setpmphost.htm
 old-project: medfound
 ms.assetid: 8809e691-f0cf-4c1f-8409-5e7fbac46b16
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFPMPClientApp interface [Media Foundation],SetPMPHost method, IMFPMPClientApp.SetPMPHost, IMFPMPClientApp::SetPMPHost, SetPMPHost, SetPMPHost method [Media Foundation], SetPMPHost method [Media Foundation],IMFPMPClientApp interface, mf.imfpmpclientapp_setpmphost, mfidl/IMFPMPClientApp::SetPMPHost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

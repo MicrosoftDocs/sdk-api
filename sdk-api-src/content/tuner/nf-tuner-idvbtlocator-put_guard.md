@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IDVBTLocator.put_Guard
 title: IDVBTLocator::put_Guard
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Guard method sets the guard interval.
 old-location: mstv\idvbtlocator_put_guard.htm
 old-project: mstv
 ms.assetid: af0accaf-ef33-4074-ac04-2bd09f3ad879
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],put_Guard method, IDVBTLocator.put_Guard, IDVBTLocator::put_Guard, IDVBTLocatorput_Guard, mstv.idvbtlocator_put_guard, put_Guard, put_Guard method [Microsoft TV Technologies], put_Guard method [Microsoft TV Technologies],IDVBTLocator interface, tuner/IDVBTLocator::put_Guard
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

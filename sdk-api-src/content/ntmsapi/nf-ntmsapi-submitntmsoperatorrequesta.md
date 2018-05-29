@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.SubmitNtmsOperatorRequestA
 title: SubmitNtmsOperatorRequestA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SubmitNtmsOperatorRequest function submits an RSM operator request.
 old-location: fs\submitntmsoperatorrequest.htm
 old-project: Rsm
 ms.assetid: d2c146d0-f1f9-4810-a489-91b5c4ca3431
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: NTMS_OPREQ_CLEANER, NTMS_OPREQ_DEVICESERVICE, NTMS_OPREQ_MESSAGE, NTMS_OPREQ_MOVEMEDIA, NTMS_OPREQ_NEWMEDIA, SubmitNtmsOperatorRequest, SubmitNtmsOperatorRequest function [Files], SubmitNtmsOperatorRequestA, SubmitNtmsOperatorRequestW, _zaw_submitntmsoperatorrequest, base.submitntmsoperatorrequest, fs.submitntmsoperatorrequest, ntmsapi/SubmitNtmsOperatorRequest, ntmsapi/SubmitNtmsOperatorRequestA, ntmsapi/SubmitNtmsOperatorRequestW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

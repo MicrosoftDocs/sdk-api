@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhGetRawCounterValue
 title: PdhGetRawCounterValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the current raw value of the counter.
 old-location: perf\pdhgetrawcountervalue.htm
 old-project: PerfCtrs
 ms.assetid: bb246c82-8748-4e2f-9f44-a206199aff90
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhGetRawCounterValue, PdhGetRawCounterValue function [Perf], _win32_pdhgetrawcountervalue, base.pdhgetrawcountervalue, pdh/PdhGetRawCounterValue, perf.pdhgetrawcountervalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

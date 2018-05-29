@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Enumerate_Classes_Ex
 title: CM_Enumerate_Classes_Ex function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Enumerate_Classes_Ex function, when called repeatedly, enumerates a local or a remote machine's installed device classes, by supplying each class's GUID.
 old-location: devinst\cm_enumerate_classes_ex.htm
 old-project: devinst
 ms.assetid: 8dce071c-3f91-42c2-a334-ec1051b6436a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Enumerate_Classes_Ex, CM_Enumerate_Classes_Ex function [Device and Driver Installation], cfgmgr32/CM_Enumerate_Classes_Ex, cfgmgrfn_586eceae-046e-4e4a-8763-e287b039585e.xml, devinst.cm_enumerate_classes_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase._lopen
 title: "_lopen function"
-author: windows-driver-content
+author: windows-sdk-content
 description: The _lopen function opens an existing file and sets the file pointer to the beginning of the file. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the CreateFile function.
 old-location: winprog\_lopen.htm
 old-project: DevNotes
 ms.assetid: E920F688-C694-44A6-ABD3-5414C4F01839
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "_lopen, _lopen function [Windows API], winbase/_lopen, winprog._lopen"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: 

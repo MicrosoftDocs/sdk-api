@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_PUBLIC_KEY_INFO
 title: "_CERT_PUBLIC_KEY_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a public key and its algorithm.
 old-location: security\cert_public_key_info.htm
 old-project: SecCrypto
 ms.assetid: bab6c147-b7cd-408a-acac-90f05921e065
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_PUBLIC_KEY_INFO, CERT_PUBLIC_KEY_INFO, CERT_PUBLIC_KEY_INFO structure [Security], PCERT_PUBLIC_KEY_INFO, PCERT_PUBLIC_KEY_INFO structure pointer [Security], _CERT_PUBLIC_KEY_INFO, _crypto2_cert_public_key_info, security.cert_public_key_info, wincrypt/CERT_PUBLIC_KEY_INFO, wincrypt/PCERT_PUBLIC_KEY_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

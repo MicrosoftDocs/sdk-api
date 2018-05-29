@@ -1,16 +1,16 @@
 ---
 UID: NS:imepad.tagAPPLETIDLIST
 title: tagAPPLETIDLIST
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies an IImePadApplet IID list.
 old-location: intl\appletidlist.htm
 old-project: Intl
 ms.assetid: 6A93B726-1C35-4779-AF60-859DF3B18462
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPAPPLETIDLIST, APPLETIDLIST, APPLETIDLIST structure [Internationalization for Windows Applications], PAPPLETIDLIST, PAPPLETIDLIST structure pointer [Internationalization for Windows Applications], imepad/APPLETIDLIST, imepad/PAPPLETIDLIST, intl.appletidlist, tagAPPLETIDLIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: imepad.h
 req.include-header: 

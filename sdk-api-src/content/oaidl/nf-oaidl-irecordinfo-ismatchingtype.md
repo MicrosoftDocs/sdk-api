@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.IRecordInfo.IsMatchingType
 title: IRecordInfo::IsMatchingType
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the record that is passed in matches that of the current record information.
 old-location: automat\irecordinfo_ismatchingtype.htm
 old-project: automat
 ms.assetid: 3db29912-3864-4750-b255-77dcffe711cf
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IRecordInfo interface [Automation],IsMatchingType method, IRecordInfo.IsMatchingType, IRecordInfo::IsMatchingType, IsMatchingType, IsMatchingType method [Automation], IsMatchingType method [Automation],IRecordInfo interface, _oa96_IRecordInfo_IsMatchingType, automat.irecordinfo_ismatchingtype, oaidl/IRecordInfo::IsMatchingType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

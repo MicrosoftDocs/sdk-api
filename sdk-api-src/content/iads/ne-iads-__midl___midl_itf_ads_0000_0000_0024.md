@@ -1,16 +1,16 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0024
 title: "__MIDL___MIDL_itf_ads_0000_0000_0024"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADS_CHASE_REFERRALS_ENUM enumeration specifies if, and how, referral chasing occurs.
 old-location: adsi\ads_chase_referrals_enum.htm
 old-project: ADSI
 ms.assetid: 1a6ff821-95fe-4993-b503-a8afdedfaeeb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADS_CHASE_REFERRALS_ALWAYS, ADS_CHASE_REFERRALS_ENUM, ADS_CHASE_REFERRALS_ENUM enumeration [ADSI], ADS_CHASE_REFERRALS_EXTERNAL, ADS_CHASE_REFERRALS_NEVER, ADS_CHASE_REFERRALS_SUBORDINATE, __MIDL___MIDL_itf_ads_0000_0000_0024, _ds_ads_chase_referrals_enum, adsi.ads__chase__referrals__enum, adsi.ads_chase_referrals_enum, iads/ADS_CHASE_REFERRALS_ALWAYS, iads/ADS_CHASE_REFERRALS_ENUM, iads/ADS_CHASE_REFERRALS_EXTERNAL, iads/ADS_CHASE_REFERRALS_NEVER, iads/ADS_CHASE_REFERRALS_SUBORDINATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: iads.h
 req.include-header: 

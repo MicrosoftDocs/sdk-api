@@ -1,16 +1,16 @@
 ---
 UID: NN:wmnetsourcecreator.INSNetSourceCreator
 title: INSNetSourceCreator
-author: windows-driver-content
+author: windows-sdk-content
 description: The INSNetSourceCreator interface creates an administrative network source plug-in.
 old-location: wmformat\insnetsourcecreator.htm
 old-project: wmformat
 ms.assetid: 39e692a6-fb68-447f-bd28-8d216776157a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: INSNetSourceCreator, INSNetSourceCreator interface [windows Media Format], INSNetSourceCreator interface [windows Media Format],described, INSNetSourceCreatorInterface, wmformat.insnetsourcecreator, wmnetsourcecreator/INSNetSourceCreator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmnetsourcecreator.h
 req.include-header: 

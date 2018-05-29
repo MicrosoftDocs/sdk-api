@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItems.GetMaxValueBufferLength
 title: ISpatialAudioMetadataItems::GetMaxValueBufferLength
-author: windows-driver-content
+author: windows-sdk-content
 description: The size of the largest command value defined by the metadata format for the ISpatialAudioMetadataItems.
 old-location: coreaudio\ispatialaudiometadataitems_getmaxvaluebufferlength.htm
 old-project: CoreAudio
 ms.assetid: B6D4117B-CDFE-49E8-A9BC-B69AEBA7C9AC
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetMaxValueBufferLength, GetMaxValueBufferLength method [Core Audio], GetMaxValueBufferLength method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetMaxValueBufferLength method, ISpatialAudioMetadataItems.GetMaxValueBufferLength, ISpatialAudioMetadataItems::GetMaxValueBufferLength, coreaudio.ispatialaudiometadataitems_getmaxvaluebufferlength, spatialaudiometadata/ISpatialAudioMetadataItems::GetMaxValueBufferLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:textstor.TS_ATTRVAL
 title: TS_ATTRVAL
-author: windows-driver-content
+author: windows-sdk-content
 description: The TS_ATTRVAL structure contains document attribute values.
 old-location: tsf\ts_attrval.htm
 old-project: TSF
 ms.assetid: 9209ef60-6a1d-4aad-9f9f-775534116f37
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TS_ATTRVAL, TS_ATTRVAL structure [Text Services Framework], _tsf_ts_attrval_ref, textstor/TS_ATTRVAL, tsf.ts_attrval
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: textstor.h
 req.include-header: 

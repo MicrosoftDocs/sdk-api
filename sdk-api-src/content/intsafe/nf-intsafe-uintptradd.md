@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.UIntPtrAdd
 title: UIntPtrAdd function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds two values of type UINT_PTR.
 old-location: shell\UIntPtrAdd.htm
 old-project: shell
 ms.assetid: 85658194-cb13-443f-8e6b-84034f7cd46b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UIntPtrAdd, UIntPtrAdd function [Windows Shell], _shell_UIntPtrAdd, intsafe/UIntPtrAdd, shell.UIntPtrAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

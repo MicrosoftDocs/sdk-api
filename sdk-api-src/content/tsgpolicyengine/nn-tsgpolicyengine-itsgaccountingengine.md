@@ -1,16 +1,16 @@
 ---
 UID: NN:tsgpolicyengine.ITSGAccountingEngine
 title: ITSGAccountingEngine
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that provide information about the creation or closing of sessions for a connection.
 old-location: termserv\itsgaccountingengine.htm
 old-project: TermServ
 ms.assetid: 49b402a9-137a-4cfa-89f5-12bf89c3ebb6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITSGAccountingEngine, ITSGAccountingEngine interface [Remote Desktop Services], ITSGAccountingEngine interface [Remote Desktop Services],described, termserv.itsgaccountingengine, tsgpolicyengine/ITSGAccountingEngine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsgpolicyengine.h
 req.include-header: 

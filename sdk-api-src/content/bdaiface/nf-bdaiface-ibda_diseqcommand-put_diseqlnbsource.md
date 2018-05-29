@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_DiseqCommand.put_DiseqLNBSource
 title: IBDA_DiseqCommand::put_DiseqLNBSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the low-noise block (LNB) converter source.
 old-location: mstv\ibda_diseqcommand_put_diseqlnbsource.htm
 old-project: mstv
 ms.assetid: 09ed3d1d-026a-43b3-863b-a77260e082d8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 0, 1, 2, 3, IBDA_DiseqCommand interface [Microsoft TV Technologies],put_DiseqLNBSource method, IBDA_DiseqCommand.put_DiseqLNBSource, IBDA_DiseqCommand::put_DiseqLNBSource, bdaiface/IBDA_DiseqCommand::put_DiseqLNBSource, mstv.ibda_diseqcommand_put_diseqlnbsource, put_DiseqLNBSource, put_DiseqLNBSource method [Microsoft TV Technologies], put_DiseqLNBSource method [Microsoft TV Technologies],IBDA_DiseqCommand interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

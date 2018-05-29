@@ -1,16 +1,16 @@
 ---
 UID: NS:resapi.RESUTIL_LARGEINT_DATA
 title: RESUTIL_LARGEINT_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the default, maximum, and minimum values allowed for a signed large integer.
 old-location: mscs\resutil_largeint_data.htm
 old-project: MsCS
 ms.assetid: 2498a771-f430-4faa-81c8-78d56905d18b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PRESUTIL_LARGEINT_DATA, PRESUTIL_LARGEINT_DATA, PRESUTIL_LARGEINT_DATA structure pointer [Failover Cluster], RESUTIL_LARGEINT_DATA, RESUTIL_LARGEINT_DATA structure [Failover Cluster], _wolf_resutil_largeint_data, mscs.resutil_largeint_data, resapi/PRESUTIL_LARGEINT_DATA, resapi/RESUTIL_LARGEINT_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

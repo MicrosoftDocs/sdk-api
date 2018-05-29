@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.IStream_WriteStr
 title: IStream_WriteStr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads from a string and writes into a stream.
 old-location: shell\IStream_WriteStr.htm
 old-project: shell
 ms.assetid: 13292ccd-fc0c-4230-a935-4d5aed8cec97
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStream_WriteStr, IStream_WriteStr function [Windows Shell], _shell_IStream_WriteStr, shell.IStream_WriteStr, shlwapi/IStream_WriteStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

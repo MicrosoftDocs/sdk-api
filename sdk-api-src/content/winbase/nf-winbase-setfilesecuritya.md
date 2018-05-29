@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetFileSecurityA
 title: SetFileSecurityA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the security of a file or directory object.
 old-location: security\setfilesecurity.htm
 old-project: SecAuthZ
 ms.assetid: 27766c97-7ac5-40fc-b798-7cd07e496c0d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SetFileSecurity, SetFileSecurity function [Security], SetFileSecurityA, SetFileSecurityW, _win32_setfilesecurity, security.setfilesecurity, winbase/SetFileSecurity, winbase/SetFileSecurityA, winbase/SetFileSecurityW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

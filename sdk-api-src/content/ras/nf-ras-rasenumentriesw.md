@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasEnumEntriesW
 title: RasEnumEntriesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasEnumEntries function lists all entry names in a remote access phone book.
 old-location: rras\rasenumentries.htm
 old-project: RRAS
 ms.assetid: 9df7402f-c93e-45d4-925a-f2ce9d547bce
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasEnumEntries, RasEnumEntries function [RAS], RasEnumEntriesA, RasEnumEntriesW, _ras_rasenumentries, ras/RasEnumEntries, ras/RasEnumEntriesA, ras/RasEnumEntriesW, rras.rasenumentries
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ncryptprotect.NCryptStreamClose
 title: NCryptStreamClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a data protection stream object opened by using the NCryptStreamOpenToProtect or NCryptStreamOpenToUnprotect functions.
 old-location: security\ncryptstreamclose.htm
 old-project: SecCNG
 ms.assetid: 770640F2-04C7-4512-8004-41F4ECDC110E
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCryptStreamClose, NCryptStreamClose function [Security], ncryptprotect/NCryptStreamClose, security.ncryptstreamclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 

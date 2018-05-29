@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capSetCallbackOnWaveStream
 title: capSetCallbackOnWaveStream macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capSetCallbackOnWaveStream macro sets a callback function in the application.
 old-location: multimedia\capsetcallbackonwavestream.htm
 old-project: Multimedia
 ms.assetid: 282386af-506b-4be6-bb75-aa3c62f9778a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capSetCallbackOnWaveStream, capSetCallbackOnWaveStream, capSetCallbackOnWaveStream macro [Windows Multimedia], multimedia.capsetcallbackonwavestream, vfw/capSetCallbackOnWaveStream"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

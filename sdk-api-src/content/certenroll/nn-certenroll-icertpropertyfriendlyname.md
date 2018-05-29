@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ICertPropertyFriendlyName
 title: ICertPropertyFriendlyName
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables you to specify and retrieve a string that contains the display name of a certificate.
 old-location: security\icertpropertyfriendlyname.htm
 old-project: SecCertEnroll
 ms.assetid: d2bfe2f2-423e-4620-8933-bbae4f98c62a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertPropertyFriendlyName, ICertPropertyFriendlyName interface [Security], ICertPropertyFriendlyName interface [Security],described, certenroll/ICertPropertyFriendlyName, security.icertpropertyfriendlyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

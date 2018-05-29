@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPrintTicketResource
 title: IXpsOMPrintTicketResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides an IStream interface to a PrintTicket resource.
 old-location: xps\ixpsomprintticketresource.htm
 old-project: printdocs
 ms.assetid: 2f37dbd2-3078-4aa8-97e7-556a0ff2dd74
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPrintTicketResource, IXpsOMPrintTicketResource interface [XPS Documents and Packaging], IXpsOMPrintTicketResource interface [XPS Documents and Packaging],described, xps.ixpsomprintticketresource, xpsobjectmodel/IXpsOMPrintTicketResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2tcpip.GetAddrInfoExW
 title: GetAddrInfoExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request.
 old-location: winsock\getaddrinfoex.htm
 old-project: WinSock
 ms.assetid: cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: GetAddrInfoEx, GetAddrInfoEx function [Winsock], GetAddrInfoExA, GetAddrInfoExW, NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NETBT, NS_NLA, NS_NTDS, NS_PNRPCLOUD, NS_PNRPNAME, NS_WINS, winsock.getaddrinfoex, ws2tcpip/GetAddrInfoEx, ws2tcpip/GetAddrInfoExA, ws2tcpip/GetAddrInfoExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

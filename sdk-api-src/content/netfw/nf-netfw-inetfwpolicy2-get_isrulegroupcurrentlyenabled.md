@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwPolicy2.get_IsRuleGroupCurrentlyEnabled
 title: INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a specified group of firewall rules are enabled or disabled.
 old-location: ics\inetfwpolicy2_isrulegroupcurrentlyenabled.htm
 old-project: ICS
 ms.assetid: 47a18291-398d-459f-b1e8-0bb7c8134e17
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],get_IsRuleGroupCurrentlyEnabled method, INetFwPolicy2.get_IsRuleGroupCurrentlyEnabled, INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled, get_IsRuleGroupCurrentlyEnabled, get_IsRuleGroupCurrentlyEnabled method [ICS/ICF], get_IsRuleGroupCurrentlyEnabled method [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_isrulegroupcurrentlyenabled, netfw/INetFwPolicy2::get_IsRuleGroupCurrentlyEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

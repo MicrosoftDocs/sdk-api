@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptUnregisterConfigChangeNotify
 title: BCryptUnregisterConfigChangeNotify function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a user mode CNG configuration change event handler that was created by using the BCryptRegisterConfigChangeNotify(HANDLE*) function.
 old-location: security\bcryptunregisterconfigchangenotify_handle.htm
 old-project: SecCNG
 ms.assetid: 204d289d-46c0-4815-a628-758310014790
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptUnregisterConfigChangeNotify, BCryptUnregisterConfigChangeNotify function [Security], BCryptUnregisterConfigChangeNotify(HANDLE), bcrypt/BCryptUnregisterConfigChangeNotify, security.bcryptunregisterconfigchangenotify_handle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

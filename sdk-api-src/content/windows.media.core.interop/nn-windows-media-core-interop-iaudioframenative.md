@@ -1,16 +1,16 @@
 ---
 UID: NN:windows.media.core.interop.IAudioFrameNative
 title: IAudioFrameNative
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a frame of audio data.
 old-location: winrt\iaudioframenative.htm
 old-project: WinRT
 ms.assetid: 9C9DDDFD-8399-403F-8EB4-485D8531C94B
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IAudioFrameNative, IAudioFrameNative interface [Windows Runtime], IAudioFrameNative interface [Windows Runtime],described, windows/IAudioFrameNative, winrt.iaudioframenative
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.media.core.interop.h
 req.include-header: 

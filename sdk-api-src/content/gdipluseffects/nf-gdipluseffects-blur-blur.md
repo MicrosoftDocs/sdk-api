@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluseffects.Blur.Blur
 title: Blur::Blur
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a Blur object.
 old-location: gdiplus\_gdiplus_CLASS_Blur_Blur_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\blurclass\blurconstructors\blur.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Blur, Blur class [GDI+],Blur constructor, Blur constructor [GDI+], Blur constructor [GDI+],Blur class, Blur.Blur, Blur::Blur, _gdiplus_CLASS_Blur_Blur_, gdiplus._gdiplus_CLASS_Blur_Blur_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

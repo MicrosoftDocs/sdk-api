@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_STATIC_BORDER_COLOR
 title: D3D12_STATIC_BORDER_COLOR
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the border color for a static sampler.
 old-location: direct3d12\d3d12_static_border_color.htm
 old-project: direct3d12
 ms.assetid: E5D3E447-F1C7-4AAF-B9AB-829C33622E34
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_STATIC_BORDER_COLOR, D3D12_STATIC_BORDER_COLOR enumeration, D3D12_STATIC_BORDER_COLOR_OPAQUE_BLACK, D3D12_STATIC_BORDER_COLOR_OPAQUE_WHITE, D3D12_STATIC_BORDER_COLOR_TRANSPARENT_BLACK, d3d12/D3D12_STATIC_BORDER_COLOR, d3d12/D3D12_STATIC_BORDER_COLOR_OPAQUE_BLACK, d3d12/D3D12_STATIC_BORDER_COLOR_OPAQUE_WHITE, d3d12/D3D12_STATIC_BORDER_COLOR_TRANSPARENT_BLACK, direct3d12.d3d12_static_border_color
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

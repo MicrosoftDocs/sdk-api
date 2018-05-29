@@ -1,16 +1,16 @@
 ---
 UID: NF:timeapi.timeEndPeriod
 title: timeEndPeriod function
-author: windows-driver-content
+author: windows-sdk-content
 description: The timeEndPeriod function clears a previously set minimum timer resolution.
 old-location: multimedia\timeendperiod.htm
 old-project: Multimedia
 ms.assetid: b06531f9-4fd7-4051-80d4-5a175fdd37e7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_timeEndPeriod, mmsystem/timeEndPeriod, multimedia.timeendperiod, timeEndPeriod, timeEndPeriod function [Windows Multimedia], timeapi/timeEndPeriod"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: timeapi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2spi.WSCInstallNameSpaceEx32
 title: WSCInstallNameSpaceEx32 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Installs a specified 32-bit namespace provider.
 old-location: winsock\wscinstallnamespaceex32.htm
 old-project: WinSock
 ms.assetid: 222ebfcc-8854-4224-b464-28098c84b750
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSCInstallNameSpaceEx32, WSCInstallNameSpaceEx32 function [Winsock], winsock.wscinstallnamespaceex32, ws2spi/WSCInstallNameSpaceEx32
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

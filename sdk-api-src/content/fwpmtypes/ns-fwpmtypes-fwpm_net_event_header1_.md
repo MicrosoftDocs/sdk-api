@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_HEADER1_
 title: FWPM_NET_EVENT_HEADER1_
-author: windows-driver-content
+author: windows-sdk-content
 description: Information common to all events. Reserved.
 old-location: fwp\fwpm_net_event_header1.htm
 old-project: FWP
 ms.assetid: b5315a3b-07ae-4596-92f3-0ca72ca4dd49
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_NET_EVENT_FLAG_APP_ID_SET, FWPM_NET_EVENT_FLAG_IP_PROTOCOL_SET, FWPM_NET_EVENT_FLAG_IP_VERSION_SET, FWPM_NET_EVENT_FLAG_LOCAL_ADDR_SET, FWPM_NET_EVENT_FLAG_LOCAL_PORT_SET, FWPM_NET_EVENT_FLAG_REMOTE_ADDR_SET, FWPM_NET_EVENT_FLAG_REMOTE_PORT_SET, FWPM_NET_EVENT_FLAG_SCOPE_ID_SET, FWPM_NET_EVENT_FLAG_USER_ID_SET, FWPM_NET_EVENT_HEADER1, FWPM_NET_EVENT_HEADER1 structure [Filtering], FWPM_NET_EVENT_HEADER1_, fwp.fwpm_net_event_header1, fwpmtypes/FWPM_NET_EVENT_HEADER1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

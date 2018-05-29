@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
 title: D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE command.
 old-location: mf\d3d11_authenticated_configure_initialize_input.htm
 old-project: medfound
 ms.assetid: D634AF82-BC17-43FC-9E0E-1FEC10B5A42E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT, D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT, mf.d3d11_authenticated_configure_initialize_input
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IControlChangeNotify.OnNotify
 title: IControlChangeNotify::OnNotify
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnNotify method notifies the client when the status of a connector or subunit changes.
 old-location: coreaudio\icontrolchangenotify_onnotify.htm
 old-project: CoreAudio
 ms.assetid: a2f32cb9-3c8b-4b44-96a2-dd70afcca71a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IControlChangeNotify interface [Core Audio],OnNotify method, IControlChangeNotify.OnNotify, IControlChangeNotify::OnNotify, IControlChangeNotifyOnNotify, OnNotify, OnNotify method [Core Audio], OnNotify method [Core Audio],IControlChangeNotify interface, coreaudio.icontrolchangenotify_onnotify, devicetopology/IControlChangeNotify::OnNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetVersionNumber
 title: ISCTE_EAS::GetVersionNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetVersionNumber method returns the version number for the EAS table.
 old-location: mstv\iscte_eas_getversionnumber.htm
 old-project: mstv
 ms.assetid: b2108435-37ef-404c-b735-a5100acfa8a4
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetVersionNumber method, ISCTE_EAS.GetVersionNumber, ISCTE_EAS::GetVersionNumber, ISCTE_EASGetVersionNumber, atscpsipparser/ISCTE_EAS::GetVersionNumber, mstv.iscte_eas_getversionnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

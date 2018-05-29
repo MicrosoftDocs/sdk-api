@@ -1,16 +1,16 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0011
 title: "__MIDL___MIDL_itf_ads_0000_0000_0011"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADS_NETADDRESS structure is an ADSI representation of the Net Address attribute syntax.
 old-location: adsi\ads_netaddress.htm
 old-project: ADSI
 ms.assetid: 108c5e24-c52b-472a-b5c6-f7d534cab892
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PADS_NETADDRESS, ADS_NETADDRESS, ADS_NETADDRESS structure [ADSI], PADS_NETADDRESS, PADS_NETADDRESS structure pointer [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0011, _ds_ads_netaddress, adsi.ads__netaddress, adsi.ads_netaddress, iads/ADS_NETADDRESS, iads/PADS_NETADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iads.h
 req.include-header: 

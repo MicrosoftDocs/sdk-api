@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi1_3.IDXGISwapChain2
 title: IDXGISwapChain2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends IDXGISwapChain1 with methods to support swap back buffer scaling and lower-latency swap chains.
 old-location: direct3ddxgi\idxgiswapchain2.htm
 old-project: direct3ddxgi
 ms.assetid: 1E14EAF6-5EEA-4B4A-8F5F-0BC779093654
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGISwapChain2, IDXGISwapChain2 interface [DXGI], IDXGISwapChain2 interface [DXGI],described, direct3ddxgi.idxgiswapchain2, dxgi1_3/IDXGISwapChain2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_3.h
 req.include-header: 

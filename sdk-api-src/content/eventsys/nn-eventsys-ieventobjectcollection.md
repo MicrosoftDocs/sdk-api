@@ -1,16 +1,16 @@
 ---
 UID: NN:eventsys.IEventObjectCollection
 title: IEventObjectCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages objects in an event objects collection.
 old-location: cos\ieventobjectcollection.htm
 old-project: cossdk
 ms.assetid: 7bb00b80-a48f-49c8-983d-9ff0ea424e4d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEventObjectCollection, IEventObjectCollection interface [COM+], IEventObjectCollection interface [COM+],described, _cos_IEventObjectCollection, cos.ieventobjectcollection, eventsys/IEventObjectCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 

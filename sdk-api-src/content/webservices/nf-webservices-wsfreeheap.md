@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsFreeHeap
 title: WsFreeHeap function
-author: windows-driver-content
+author: windows-sdk-content
 description: This frees the heap object, and the memory associated with any allocations made on it using WsAlloc.
 old-location: wsw\wsfreeheap.htm
 old-project: wsw
 ms.assetid: ec643915-8c4b-4916-b390-d6ca043350db
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsFreeHeap, WsFreeHeap function [Web Services for Windows], webservices/WsFreeHeap, wsw.wsfreeheap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

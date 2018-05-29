@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprModifyV4PolicyExpr
 title: DhcpHlprModifyV4PolicyExpr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Modifies the DHCP server policy expression in a DHCP server policy structure.
 old-location: dhcp\dhcphlprmodifyv4policyexpr.htm
 old-project: DHCP
 ms.assetid: 5d6818f9-4e44-4f24-a489-84defd1117c0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpHlprModifyV4PolicyExpr, DhcpHlprModifyV4PolicyExpr function [DHCP], dhcp.dhcphlprmodifyv4policyexpr, dhcpsapi/DhcpHlprModifyV4PolicyExpr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

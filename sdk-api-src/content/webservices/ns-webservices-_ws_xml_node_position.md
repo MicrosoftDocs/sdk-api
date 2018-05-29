@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_NODE_POSITION
 title: "_WS_XML_NODE_POSITION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a position within an XML buffer.
 old-location: wsw\ws_xml_node_position.htm
 old-project: wsw
 ms.assetid: 40ca058c-04e1-4358-b330-360a094a8791
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_NODE_POSITION, WS_XML_NODE_POSITION structure [Web Services for Windows], _WS_XML_NODE_POSITION, webservices/WS_XML_NODE_POSITION, wsw.ws_xml_node_position
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

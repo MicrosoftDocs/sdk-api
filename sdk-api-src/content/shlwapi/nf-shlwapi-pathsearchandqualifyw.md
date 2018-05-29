@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathSearchAndQualifyW
 title: PathSearchAndQualifyW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if a given path is correctly formatted and fully qualified.
 old-location: shell\PathSearchAndQualify.htm
 old-project: shell
 ms.assetid: 90da281d-349a-460a-aa5a-14e3b4ced727
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathSearchAndQualify, PathSearchAndQualify function [Windows Shell], PathSearchAndQualifyA, PathSearchAndQualifyW, _win32_PathSearchAndQualify, shell.PathSearchAndQualify, shlwapi/PathSearchAndQualify, shlwapi/PathSearchAndQualifyA, shlwapi/PathSearchAndQualifyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

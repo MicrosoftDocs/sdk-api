@@ -1,16 +1,16 @@
 ---
 UID: NS:tlhelp32.tagHEAPENTRY32
 title: tagHEAPENTRY32
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes one entry (block) of a heap that is being examined.
 old-location: toolhelp\heapentry32_str.htm
 old-project: ToolHelp
 ms.assetid: c5f1dc66-d44f-4491-b0b7-961b163d0f1f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPHEAPENTRY32, *PHEAPENTRY32, HEAPENTRY32, HEAPENTRY32 structure [ToolHelp], LF32_FIXED, LF32_FREE, LF32_MOVEABLE, PHEAPENTRY32, PHEAPENTRY32 structure pointer [ToolHelp], _win32_heapentry32_str, base.heapentry32_str, tagHEAPENTRY32, tlhelp32/HEAPENTRY32, tlhelp32/PHEAPENTRY32, toolhelp.heapentry32_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tlhelp32.h
 req.include-header: 

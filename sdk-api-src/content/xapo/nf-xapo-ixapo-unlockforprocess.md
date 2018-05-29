@@ -1,16 +1,16 @@
 ---
 UID: NF:xapo.IXAPO.UnlockForProcess
 title: IXAPO::UnlockForProcess
-author: windows-driver-content
+author: windows-sdk-content
 description: Deallocates variables that were allocated with the LockForProcess method.
 old-location: xaudio2\ixapo_interface_unlockforprocess.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.UnlockForProcess
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],UnlockForProcess method, IXAPO.UnlockForProcess, IXAPO::UnlockForProcess, UnlockForProcess, UnlockForProcess method [XAudio2 Audio Mixing APIs], UnlockForProcess method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::UnlockForProcess, xaudio2.ixapo_interface_unlockforprocess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xapo.h
 req.include-header: 

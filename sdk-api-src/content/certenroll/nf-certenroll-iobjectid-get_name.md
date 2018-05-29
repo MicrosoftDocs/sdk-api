@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IObjectId.get_Name
 title: IObjectId::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a CERTENROLL_OBJECTID value that contains an object identifier.
 old-location: security\iobjectid_name_property.htm
 old-project: SecCertEnroll
 ms.assetid: 3d3842a9-73b6-4fb8-83cf-ac65c5a09acb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IObjectId interface [Security],Name property, IObjectId.Name, IObjectId.get_Name, IObjectId::Name, IObjectId::get_Name, Name property [Security], Name property [Security],IObjectId interface, certenroll/IObjectId::Name, certenroll/IObjectId::get_Name, get_Name, security.iobjectid_name_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

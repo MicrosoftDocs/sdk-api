@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IDropTarget.Drop
 title: IDropTarget::Drop
-author: windows-driver-content
+author: windows-sdk-content
 description: Incorporates the source data into the target window, removes target feedback, and releases the data object.
 old-location: com\idroptarget_drop.htm
 old-project: com
 ms.assetid: 7ea6d815-bf8f-47d5-99d3-f9a55bafee2e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Drop, Drop method [COM], Drop method [COM],IDropTarget interface, IDropTarget interface [COM],Drop method, IDropTarget.Drop, IDropTarget::Drop, _ole_idroptarget_drop, com.idroptarget_drop, oleidl/IDropTarget::Drop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

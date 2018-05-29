@@ -1,16 +1,16 @@
 ---
 UID: NE:spatialaudiohrtf.SpatialAudioHrtfDistanceDecayType
 title: SpatialAudioHrtfDistanceDecayType
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of decay applied over distance from the position of an ISpatialAudioObjectForHrtf to the position of the listener.
 old-location: coreaudio\spatialaudiohrtfdistancedecaytype.htm
 old-project: CoreAudio
 ms.assetid: EF4ACEB1-E802-4337-AA76-467BCB90D7C6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SpatialAudioHrtfDistanceDecayType, SpatialAudioHrtfDistanceDecayType enumeration [Core Audio], SpatialAudioHrtfDistanceDecay_CustomDecay, SpatialAudioHrtfDistanceDecay_NaturalDecay, coreaudio.spatialaudiohrtfdistancedecaytype, spatialaudiohrtf/ SpatialAudioHrtfDistanceDecay_NaturalDecay, spatialaudiohrtf/SpatialAudioHrtfDistanceDecayType, spatialaudiohrtf/SpatialAudioHrtfDistanceDecay_CustomDecay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: spatialaudiohrtf.h
 req.include-header: 

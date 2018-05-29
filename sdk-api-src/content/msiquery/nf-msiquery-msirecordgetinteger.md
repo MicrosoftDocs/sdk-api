@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiRecordGetInteger
 title: MsiRecordGetInteger function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiRecordGetInteger function returns the integer value from a record field.
 old-location: setup\msirecordgetinteger.htm
 old-project: Msi
 ms.assetid: f04d4d61-ebe0-4eb1-b0e7-b94d9ef3c900
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiRecordGetInteger, MsiRecordGetInteger function, _msi_msirecordgetinteger, msiquery/MsiRecordGetInteger, setup.msirecordgetinteger
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:datetimeapi.GetTimeFormatA
 title: GetTimeFormatA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats time as a time string for a locale specified by identifier. The function formats either a specified time or the local system time.
 old-location: intl\gettimeformat.htm
 old-project: Intl
 ms.assetid: 3db91d29-df97-4660-b3cd-0db5b42cfd01
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTimeFormat, GetTimeFormat function [Internationalization for Windows Applications], GetTimeFormatA, GetTimeFormatW, _win32_GetTimeFormat, datetimeapi/GetTimeFormat, datetimeapi/GetTimeFormatA, datetimeapi/GetTimeFormatW, intl.gettimeformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: datetimeapi.h
 req.include-header: 

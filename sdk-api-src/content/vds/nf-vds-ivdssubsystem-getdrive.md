@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsSubSystem.GetDrive
 title: IVdsSubSystem::GetDrive
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the specified drive.
 old-location: base\ivdssubsystem_getdrive.htm
 old-project: VDS
 ms.assetid: 855e9991-606c-4fcc-ba1d-ebdb928d4c3e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetDrive, GetDrive method [VDS], GetDrive method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],GetDrive method, IVdsSubSystem.GetDrive, IVdsSubSystem::GetDrive, base.ivdssubsystem_getdrive, vds/IVdsSubSystem::GetDrive, vdshwprv/IVdsSubSystem::GetDrive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

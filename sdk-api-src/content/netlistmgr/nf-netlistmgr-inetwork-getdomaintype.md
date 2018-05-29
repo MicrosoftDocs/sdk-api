@@ -1,16 +1,16 @@
 ---
 UID: NF:netlistmgr.INetwork.GetDomainType
 title: INetwork::GetDomainType
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDomainType method returns the domain type of a network.
 old-location: nla\inetwork_getdomaintype.htm
 old-project: NLA
 ms.assetid: ca23d7c0-fe25-4375-bd2c-6c2ccae56548
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDomainType, GetDomainType method [Network Awareness], GetDomainType method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetDomainType method, INetwork.GetDomainType, INetwork::GetDomainType, netlistmgr/INetwork::GetDomainType, nla.inetwork_getdomaintype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:windns.__unnamed_struct_41
 title: DNS_WINSR_DATAW
-author: windows-driver-content
+author: windows-sdk-content
 description: The DNS_WINSR_DATA structure represents a DNS Windows Internet Name Service reverse-lookup (WINSR) record.
 old-location: dns\dns_winsr_data.htm
 old-project: DNS
 ms.assetid: a7e79e30-905f-42a5-a4de-02d71adfe95e
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PDNS_WINSR_DATA, *PDNS_WINSR_DATAW, DNS_WINSR_DATA, DNS_WINSR_DATA structure [DNS], DNS_WINSR_DATAW, DNS_WINS_FLAG_LOCAL, DNS_WINS_FLAG_SCOPE, PDNS_WINSR_DATA, PDNS_WINSR_DATA structure pointer [DNS], _dns_dns_winsr_data, dns.dns_winsr_data, windns/DNS_WINSR_DATA, windns/PDNS_WINSR_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

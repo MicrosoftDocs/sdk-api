@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.SetWriteSpeed
 title: IDiscFormat2TrackAtOnce::SetWriteSpeed
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the write speed of the disc recorder.
 old-location: imapi\idiscformat2trackatonce_setwritespeed.htm
 old-project: imapi
 ms.assetid: 29c4487a-4247-45cf-af95-dc85fafb05c5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],SetWriteSpeed method, IDiscFormat2TrackAtOnce.SetWriteSpeed, IDiscFormat2TrackAtOnce::SetWriteSpeed, SetWriteSpeed, SetWriteSpeed method [IMAPI], SetWriteSpeed method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_setwritespeed, imapi2/IDiscFormat2TrackAtOnce::SetWriteSpeed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

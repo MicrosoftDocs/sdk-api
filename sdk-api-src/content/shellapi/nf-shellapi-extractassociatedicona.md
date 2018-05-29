@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.ExtractAssociatedIconA
 title: ExtractAssociatedIconA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a handle to an indexed icon found in a file or an icon found in an associated executable file.
 old-location: menurc\extractassociatedicon.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\extractassociatedicon.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ExtractAssociatedIcon, ExtractAssociatedIcon function [Menus and Other Resources], ExtractAssociatedIconA, ExtractAssociatedIconW, _win32_ExtractAssociatedIcon, _win32_extractassociatedicon_cpp, menurc.extractassociatedicon, shellapi/ExtractAssociatedIcon, shellapi/ExtractAssociatedIconA, shellapi/ExtractAssociatedIconW, winui._win32_extractassociatedicon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

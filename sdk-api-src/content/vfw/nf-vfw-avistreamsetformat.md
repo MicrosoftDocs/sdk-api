@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamSetFormat
 title: AVIStreamSetFormat function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamSetFormat function sets the format of a stream at the specified position.
 old-location: multimedia\avistreamsetformat.htm
 old-project: Multimedia
 ms.assetid: b896f674-823d-49c9-8e48-c5081e37a13a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamSetFormat, AVIStreamSetFormat function [Windows Multimedia], _win32_AVIStreamSetFormat, multimedia.avistreamsetformat, vfw/AVIStreamSetFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

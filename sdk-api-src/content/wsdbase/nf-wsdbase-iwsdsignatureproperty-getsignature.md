@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.IWSDSignatureProperty.GetSignature
 title: IWSDSignatureProperty::GetSignature
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the signature of a message.
 old-location: ncd\iwsdsignatureproperty_getsignature.htm
 old-project: WsdApi
 ms.assetid: e13df6a4-f51f-4453-8482-563ff7c398c3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetSignature, GetSignature method, GetSignature method,IWSDSignatureProperty interface, IWSDSignatureProperty interface,GetSignature method, IWSDSignatureProperty.GetSignature, IWSDSignatureProperty::GetSignature, ncd.iwsdsignatureproperty_getsignature, wsdbase/IWSDSignatureProperty::GetSignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

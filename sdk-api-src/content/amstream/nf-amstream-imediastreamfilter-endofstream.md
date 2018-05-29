@@ -1,16 +1,16 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.EndOfStream
 title: IMediaStreamFilter::EndOfStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The EndOfStream method signals the end of a stream. The Media Stream filter's input pins call this method on the filter.
 old-location: dshow\imediastreamfilter_endofstream.htm
 old-project: DirectShow
 ms.assetid: ceec4ead-e439-4206-ab30-ae37d15c5b44
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EndOfStream, EndOfStream method [DirectShow], EndOfStream method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],EndOfStream method, IMediaStreamFilter.EndOfStream, IMediaStreamFilter::EndOfStream, IMediaStreamFilterEndOfStream, amstream/IMediaStreamFilter::EndOfStream, dshow.imediastreamfilter_endofstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

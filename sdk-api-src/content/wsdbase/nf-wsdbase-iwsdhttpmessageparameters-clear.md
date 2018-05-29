@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.Clear
 title: IWSDHttpMessageParameters::Clear
-author: windows-driver-content
+author: windows-sdk-content
 description: Clears the HTTP headers used for SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_clear.htm
 old-project: WsdApi
 ms.assetid: e5cd5c07-3326-4508-89ac-939466381b12
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Clear, Clear method, Clear method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,Clear method, IWSDHttpMessageParameters.Clear, IWSDHttpMessageParameters::Clear, ncd.iwsdhttpmessageparameters_clear, wsdbase/IWSDHttpMessageParameters::Clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

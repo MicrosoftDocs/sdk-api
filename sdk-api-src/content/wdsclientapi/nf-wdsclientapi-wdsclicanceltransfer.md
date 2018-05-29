@@ -1,16 +1,16 @@
 ---
 UID: NF:wdsclientapi.WdsCliCancelTransfer
 title: WdsCliCancelTransfer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels a WDS transfer operation.
 old-location: wds\wdsclicanceltransfer.htm
 old-project: Wds
 ms.assetid: 8d138b95-4be1-4f53-ac15-21503408954b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsCliCancelTransfer, WdsCliCancelTransfer function [Windows Deployment Services], wds.wdsclicanceltransfer, wdsclientapi/WdsCliCancelTransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

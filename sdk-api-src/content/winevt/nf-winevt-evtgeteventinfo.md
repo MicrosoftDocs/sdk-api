@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtGetEventInfo
 title: EvtGetEventInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information that identifies the structured XML query that selected the event and the channel or log file that contained the event.
 old-location: wes\evtgeteventinfo.htm
 old-project: WES
 ms.assetid: 69aa22a1-10c1-43bd-ae3b-d7641bed2065
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtGetEventInfo, EvtGetEventInfo function [EventLog], wes.evtgeteventinfo, winevt/EvtGetEventInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.DeliverTime
 title: IWMReaderAdvanced::DeliverTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeliverTime method provides the reader with a clock time. Use this method only when the application is providing the clock.
 old-location: wmformat\iwmreaderadvanced_delivertime.htm
 old-project: wmformat
 ms.assetid: 5e47ef96-9971-47b0-a003-b38f4045da7a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DeliverTime, DeliverTime method [windows Media Format], DeliverTime method [windows Media Format],IWMReaderAdvanced interface, DeliverTime method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced interface [windows Media Format],DeliverTime method, IWMReaderAdvanced.DeliverTime, IWMReaderAdvanced2 interface [windows Media Format],DeliverTime method, IWMReaderAdvanced2::DeliverTime, IWMReaderAdvanced::DeliverTime, IWMReaderAdvancedDeliverTime, wmformat.iwmreaderadvanced_delivertime, wmsdkidl/IWMReaderAdvanced2::DeliverTime, wmsdkidl/IWMReaderAdvanced::DeliverTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

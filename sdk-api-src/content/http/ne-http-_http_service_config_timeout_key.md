@@ -1,16 +1,16 @@
 ---
 UID: NE:http._HTTP_SERVICE_CONFIG_TIMEOUT_KEY
 title: "_HTTP_SERVICE_CONFIG_TIMEOUT_KEY"
-author: windows-driver-content
+author: windows-sdk-content
 description: The HTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration defines the type of timer that is queried or configured through the HTTP_SERVICE_CONFIG_TIMEOUT_SET structure.
 old-location: http\http_service_config_timeout_key.htm
 old-project: Http
 ms.assetid: e591a6b8-e63f-40c3-bd48-e14cb9f89453
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_TIMEOUT_KEY, *PHTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration [HTTP], HTTP_SERVICE_CONFIG_TIMEOUT_KEY, HTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration [HTTP], HeaderWaitTimeout, IdleConnectionTimeout, _HTTP_SERVICE_CONFIG_TIMEOUT_KEY, http.http_service_config_timeout_key, http/*PHTTP_SERVICE_CONFIG_TIMEOUT_KEY, http/HTTP_SERVICE_CONFIG_TIMEOUT_KEY, http/HeaderWaitTimeout, http/IdleConnectionTimeout"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 

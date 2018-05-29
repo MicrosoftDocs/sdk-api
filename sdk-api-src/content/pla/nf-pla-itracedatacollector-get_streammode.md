@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_StreamMode
 title: ITraceDataCollector::get_StreamMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the logging mode of the trace session.
 old-location: pla\itracedatacollector_streammode.htm
 old-project: PLA
 ms.assetid: eeca98e2-8da1-44e5-8d43-00b52f51bcae
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ITraceDataCollector interface [PLA],StreamMode property, ITraceDataCollector.StreamMode, ITraceDataCollector.get_StreamMode, ITraceDataCollector::StreamMode, ITraceDataCollector::get_StreamMode, ITraceDataCollector::put_StreamMode, StreamMode property [PLA], StreamMode property [PLA],ITraceDataCollector interface, base.itracedatacollector_streammode, get_StreamMode, pla.itracedatacollector_streammode, pla/ITraceDataCollector::StreamMode, pla/ITraceDataCollector::get_StreamMode, pla/ITraceDataCollector::put_StreamMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITToneTerminalEvent
 title: ITToneTerminalEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITToneTerminalEvent interface contains methods that retrieve the description of tone terminal events that have occurred.
 old-location: tapi3\ittoneterminalevent.htm
 old-project: Tapi
 ms.assetid: 6a5d03e9-e6d1-452a-a189-ca693a72c610
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITToneTerminalEvent, ITToneTerminalEvent interface [TAPI 2.2], ITToneTerminalEvent interface [TAPI 2.2],described, _tapi3_ittoneterminalevent, tapi3.ittoneterminalevent, tapi3if/ITToneTerminalEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

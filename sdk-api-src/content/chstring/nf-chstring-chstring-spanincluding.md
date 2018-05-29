@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.SpanIncluding
 title: CHString::SpanIncluding
-author: windows-driver-content
+author: windows-sdk-content
 description: The SpanIncluding method extracts characters of a string that are identified by lpszCharSet.
 old-location: wmi\chstring_spanincluding.htm
 old-project: WmiSdk
 ms.assetid: d99ce931-c6ec-4f1c-b4ab-144dc930f990
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],SpanIncluding method, CHString.SpanIncluding, CHString::SpanIncluding, SpanIncluding, SpanIncluding method [Windows Management Instrumentation], SpanIncluding method [Windows Management Instrumentation],CHString interface, _hmm_chstring_spanincluding, chstring/CHString::SpanIncluding, wmi.chstring_spanincluding
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

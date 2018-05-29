@@ -1,16 +1,16 @@
 ---
 UID: NF:oledlg.OleUIPasteSpecialW
 title: OleUIPasteSpecialW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Invokes the standard Paste Special dialog box, allowing the user to select the format of the clipboard object to be pasted or paste-linked.
 old-location: com\oleuipastespecial.htm
 old-project: com
 ms.assetid: fb1335da-a863-4d15-8a8d-289d8cccd13f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleUIPasteSpecial, OleUIPasteSpecial function [COM], OleUIPasteSpecialA, OleUIPasteSpecialW, _ole_OleUIPasteSpecial, com.oleuipastespecial, oledlg/OleUIPasteSpecial, oledlg/OleUIPasteSpecialA, oledlg/OleUIPasteSpecialW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oledlg.h
 req.include-header: 

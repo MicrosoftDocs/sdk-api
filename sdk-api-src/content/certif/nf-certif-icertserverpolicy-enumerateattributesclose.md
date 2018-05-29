@@ -1,16 +1,16 @@
 ---
 UID: NF:certif.ICertServerPolicy.EnumerateAttributesClose
 title: ICertServerPolicy::EnumerateAttributesClose
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the resources connected with attribute enumeration.
 old-location: security\icertserverpolicy_enumerateattributesclose.htm
 old-project: SecCrypto
 ms.assetid: 91cb8edd-7735-44c5-b2c5-d46fa1e33e41
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateAttributesClose method, EnumerateAttributesClose, EnumerateAttributesClose method [Security], EnumerateAttributesClose method [Security],CCertServerPolicy object, EnumerateAttributesClose method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateAttributesClose method, ICertServerPolicy.EnumerateAttributesClose, ICertServerPolicy::EnumerateAttributesClose, _certsrv_icertserverpolicy_enumerateattributesclose, certif/ICertServerPolicy::EnumerateAttributesClose, security.icertserverpolicy_enumerateattributesclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h

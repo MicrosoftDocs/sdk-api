@@ -1,16 +1,16 @@
 ---
 UID: NF:dsgetdc.DsAddressToSiteNamesExW
 title: DsAddressToSiteNamesExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the site and subnet names corresponding to the addresses specified.
 old-location: ad\dsaddresstositenamesex.htm
 old-project: AD
 ms.assetid: 60ac6195-6e43-46da-a1e6-74ec989cd0c4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsAddressToSiteNamesEx, DsAddressToSiteNamesEx function [Active Directory], DsAddressToSiteNamesExA, DsAddressToSiteNamesExW, ad.dsaddresstositenamesex, dsgetdc/DsAddressToSiteNamesEx, dsgetdc/DsAddressToSiteNamesExA, dsgetdc/DsAddressToSiteNamesExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.IOCSPCAConfigurationCollection.DeleteCAConfiguration
 title: IOCSPCAConfigurationCollection::DeleteCAConfiguration
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a named certification authority (CA) configuration from the configuration set.
 old-location: security\iocspcaconfigurationcollection_deletecaconfiguration_method.htm
 old-project: SecCrypto
 ms.assetid: 3733d98c-d262-4083-bac9-109720059f0b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: DeleteCAConfiguration, DeleteCAConfiguration method [Security], DeleteCAConfiguration method [Security],IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection interface [Security],DeleteCAConfiguration method, IOCSPCAConfigurationCollection.DeleteCAConfiguration, IOCSPCAConfigurationCollection::DeleteCAConfiguration, certadm/IOCSPCAConfigurationCollection::DeleteCAConfiguration, security.iocspcaconfigurationcollection_deletecaconfiguration_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

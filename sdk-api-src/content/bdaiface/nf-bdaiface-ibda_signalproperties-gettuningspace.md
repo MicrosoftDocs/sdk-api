@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_SignalProperties.GetTuningSpace
 title: IBDA_SignalProperties::GetTuningSpace
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibda_signalproperties_gettuningspace.htm
 old-project: mstv
 ms.assetid: 03738363-5923-4e26-a0ea-e345b927140c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTuningSpace, GetTuningSpace method [Microsoft TV Technologies], GetTuningSpace method [Microsoft TV Technologies],IBDA_SignalProperties interface, IBDA_SignalProperties interface [Microsoft TV Technologies],GetTuningSpace method, IBDA_SignalProperties.GetTuningSpace, IBDA_SignalProperties::GetTuningSpace, IBDA_SignalPropertiesGetTuningSpace, bdaiface/IBDA_SignalProperties::GetTuningSpace, mstv.ibda_signalproperties_gettuningspace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

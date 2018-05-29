@@ -1,16 +1,16 @@
 ---
 UID: NF:lmdfs.NetDfsRemove
 title: NetDfsRemove function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a Distributed File System (DFS) link or a specific link target of a DFS link in a DFS namespace. When removing a specific link target, the link itself is removed if the last link target of the link is removed.
 old-location: dfs\netdfsremove.htm
 old-project: Dfs
 ms.assetid: c879ba56-cc42-4fa3-960f-ddc65a75dbe3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: NetDfsRemove, NetDfsRemove function [Distributed File System], _win32_netdfsremove, dfs.netdfsremove, fs.netdfsremove, lmdfs/NetDfsRemove, netmgmt.netdfsremove
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

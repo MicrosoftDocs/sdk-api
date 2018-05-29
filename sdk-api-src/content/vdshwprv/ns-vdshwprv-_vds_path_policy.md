@@ -1,16 +1,16 @@
 ---
 UID: NS:vdshwprv._VDS_PATH_POLICY
 title: "_VDS_PATH_POLICY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the load balance policy as it applies to a particular path.
 old-location: base\vds_path_policy.htm
 old-project: VDS
 ms.assetid: 7dec1d91-6781-42fa-9476-bb64e2554017
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_PATH_POLICY, VDS_PATH_POLICY structure [VDS], _VDS_PATH_POLICY, base.vds_path_policy, vds/VDS_PATH_POLICY, vdshwprv/VDS_PATH_POLICY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

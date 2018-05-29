@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.AllocateDataUnit
 title: IWMWriterSink::AllocateDataUnit
-author: windows-driver-content
+author: windows-sdk-content
 description: The AllocateDataUnit method is called by the writer object when it needs a buffer to deliver a data unit.
 old-location: wmformat\iwmwritersink_allocatedataunit.htm
 old-project: wmformat
 ms.assetid: 56a16163-84e7-4235-8bf3-03e81696bb63
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AllocateDataUnit, AllocateDataUnit method [windows Media Format], AllocateDataUnit method [windows Media Format],IWMWriterSink interface, IWMWriterSink interface [windows Media Format],AllocateDataUnit method, IWMWriterSink.AllocateDataUnit, IWMWriterSink::AllocateDataUnit, IWMWriterSinkAllocateDataUnit, wmformat.iwmwritersink_allocatedataunit, wmsdkidl/IWMWriterSink::AllocateDataUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellView.GetItemObject
 title: IShellView::GetItemObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an interface that refers to data presented in the view.
 old-location: shell\IShellView_GetItemObject.htm
 old-project: shell
 ms.assetid: 249ce8cc-6820-4f0a-a83a-2035e88d0d9c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetItemObject, GetItemObject method [Windows Shell], GetItemObject method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],GetItemObject method, IShellView.GetItemObject, IShellView::GetItemObject, _win32_IShellView_GetItemObject, shell.IShellView_GetItemObject, shobjidl_core/IShellView::GetItemObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

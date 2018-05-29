@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetTargetProcessorArchitecture
 title: ITargetInfo::GetTargetProcessorArchitecture
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets processor architecture associated with the current target.
 old-location: smi\itargetinfo_gettargetprocessorarchitecture.htm
 old-project: SMI
 ms.assetid: 7c66e131-97e6-4a8e-b4b0-927633d6d53a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetTargetProcessorArchitecture, GetTargetProcessorArchitecture method [SMI], GetTargetProcessorArchitecture method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTargetProcessorArchitecture method, ITargetInfo.GetTargetProcessorArchitecture, ITargetInfo::GetTargetProcessorArchitecture, smi.itargetinfo_gettargetprocessorarchitecture, wcmconfig/ITargetInfo::GetTargetProcessorArchitecture
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

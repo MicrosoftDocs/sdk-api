@@ -1,16 +1,16 @@
 ---
 UID: NN:mfobjects.IMFAttributes
 title: IMFAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a generic way to store key/value pairs on an object.
 old-location: mf\imfattributes.htm
 old-project: medfound
 ms.assetid: e12259f4-b631-4d4a-a296-c1cc6334b962
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFAttributes, IMFAttributes interface [Media Foundation], IMFAttributes interface [Media Foundation],described, e12259f4-b631-4d4a-a296-c1cc6334b962, mf.imfattributes, mfobjects/IMFAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

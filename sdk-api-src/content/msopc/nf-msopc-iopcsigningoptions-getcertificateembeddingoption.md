@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCertificateEmbeddingOption
 title: IOpcSigningOptions::GetCertificateEmbeddingOption
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that specifies the storage location in the package of the certificate to be used for the signature.
 old-location: opc\iopcsigningoptions_getcertificateembeddingoption.htm
 old-project: OPC
 ms.assetid: 86f83829-0507-4918-ae7f-71738f985068
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetCertificateEmbeddingOption, GetCertificateEmbeddingOption method [Open Packaging Conventions], GetCertificateEmbeddingOption method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCertificateEmbeddingOption method, IOpcSigningOptions.GetCertificateEmbeddingOption, IOpcSigningOptions::GetCertificateEmbeddingOption, msopc/IOpcSigningOptions::GetCertificateEmbeddingOption, opc.iopcsigningoptions_getcertificateembeddingoption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

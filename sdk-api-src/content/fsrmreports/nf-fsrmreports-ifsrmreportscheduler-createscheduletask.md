@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmReportScheduler.CreateScheduleTask
 title: IFsrmReportScheduler::CreateScheduleTask
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a scheduled task that is used to trigger a report job.
 old-location: fsrm\ifsrmreportscheduler_createscheduletask.htm
 old-project: Fsrm
 ms.assetid: 983a6d05-417f-4aea-9652-955fd96e78f0
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: CreateScheduleTask, CreateScheduleTask method [File Server Resource Manager], CreateScheduleTask method [File Server Resource Manager],FsrmReportScheduler class, CreateScheduleTask method [File Server Resource Manager],IFsrmReportScheduler interface, FsrmReportScheduler class [File Server Resource Manager],CreateScheduleTask method, IFsrmReportScheduler interface [File Server Resource Manager],CreateScheduleTask method, IFsrmReportScheduler.CreateScheduleTask, IFsrmReportScheduler::CreateScheduleTask, fs.ifsrmreportscheduler_createscheduletask, fsrm.ifsrmreportscheduler_createscheduletask, fsrmreports/IFsrmReportScheduler::CreateScheduleTask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h

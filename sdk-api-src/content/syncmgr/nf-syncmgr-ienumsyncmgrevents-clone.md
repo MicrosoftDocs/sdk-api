@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrEvents.Clone
 title: IEnumSyncMgrEvents::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Clones an IEnumSyncMgrEvents object.
 old-location: shell\IEnumSyncMgrEvents_Clone.htm
 old-project: shell
 ms.assetid: 55be3dd4-993e-4f8f-a9d3-be5b7e4f6ddb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumSyncMgrEvents interface, IEnumSyncMgrEvents interface [Windows Shell],Clone method, IEnumSyncMgrEvents.Clone, IEnumSyncMgrEvents::Clone, _shell_IEnumSyncMgrEvents_Clone, shell.IEnumSyncMgrEvents_Clone, syncmgr/IEnumSyncMgrEvents::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToUInt64
 title: VariantToUInt64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts unsigned Int64 property value of a variant structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\VariantToUInt64.htm
 old-project: properties
 ms.assetid: 1278f775-8439-4d05-acc9-b5207a3ccba7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToUInt64, VariantToUInt64 function [Windows Properties], _shell_VariantToUInt64, properties.VariantToUInt64, propvarutil/VariantToUInt64, shell.VariantToUInt64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

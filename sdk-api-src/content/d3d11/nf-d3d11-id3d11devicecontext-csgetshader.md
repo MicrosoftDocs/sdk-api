@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSGetShader
 title: ID3D11DeviceContext::CSGetShader
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the compute shader currently set on the device.
 old-location: direct3d11\id3d11devicecontext_csgetshader.htm
 old-project: direct3d11
 ms.assetid: ddd09ca8-ab1f-4d1d-a182-44e48bac93c5
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: CSGetShader, CSGetShader method [Direct3D 11], CSGetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSGetShader method, ID3D11DeviceContext.CSGetShader, ID3D11DeviceContext::CSGetShader, d3d11/ID3D11DeviceContext::CSGetShader, d55a8dcd-a09c-0388-1870-f4bcb519d6b1, direct3d11.id3d11devicecontext_csgetshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

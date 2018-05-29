@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DCubeTexture9.UnlockRect
 title: IDirect3DCubeTexture9::UnlockRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Unlocks a rectangle on a cube texture resource.
 old-location: direct3d9\idirect3dcubetexture9__unlockrect.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dcubetexture9__unlockrect.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: IDirect3DCubeTexture9 interface [Direct3D 9],UnlockRect method, IDirect3DCubeTexture9.UnlockRect, IDirect3DCubeTexture9::UnlockRect, UnlockRect, UnlockRect method [Direct3D 9], UnlockRect method [Direct3D 9],IDirect3DCubeTexture9 interface, d3d9helper/IDirect3DCubeTexture9::UnlockRect, direct3d9.idirect3dcubetexture9__unlockrect, f5fb42b3-5c6a-7e4c-83fd-575e49595447
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2.DDiscFormat2TrackAtOnceEvents
 title: DDiscFormat2TrackAtOnceEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Implement this interface to receive notifications of the current track-writing operation.
 old-location: imapi\ddiscformat2trackatonceevents.htm
 old-project: imapi
 ms.assetid: 15d88768-f6e9-4d0a-a132-08f89fb3c34f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: DDiscFormat2TrackAtOnceEvents, DDiscFormat2TrackAtOnceEvents interface [IMAPI], DDiscFormat2TrackAtOnceEvents interface [IMAPI],described, imapi.ddiscformat2trackatonceevents, imapi2/DDiscFormat2TrackAtOnceEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

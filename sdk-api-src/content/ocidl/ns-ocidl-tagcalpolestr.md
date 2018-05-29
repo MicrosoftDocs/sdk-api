@@ -1,16 +1,16 @@
 ---
 UID: NS:ocidl.tagCALPOLESTR
 title: tagCALPOLESTR
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a counted array of strings used to specify the predefined strings that a property can accept.
 old-location: com\calpolestr.htm
 old-project: com
 ms.assetid: 730d5e23-e84a-4629-9b59-492d8536122e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPCALPOLESTR, CALPOLESTR, CALPOLESTR structure [COM], LPCALPOLESTR, LPCALPOLESTR structure pointer [COM], _ctrl_CALPOLESTR, com.calpolestr, ocidl/CALPOLESTR, ocidl/LPCALPOLESTR, tagCALPOLESTR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

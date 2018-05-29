@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.GetProcessId
 title: GetProcessId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the process identifier of the specified process.
 old-location: base\getprocessid.htm
 old-project: ProcThread
 ms.assetid: 9a024147-8bfe-427a-af12-a63f23328e38
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetProcessId, GetProcessId function, base.getprocessid, processthreadsapi/GetProcessId, winbase/GetProcessId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

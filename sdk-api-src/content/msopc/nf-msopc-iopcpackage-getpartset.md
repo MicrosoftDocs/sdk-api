@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcPackage.GetPartSet
 title: IOpcPackage::GetPartSet
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a part set object that contains IOpcPart interface pointers.
 old-location: opc\iopcpackage_getpartset.htm
 old-project: OPC
 ms.assetid: 9460e057-8fe8-46b8-b12e-ba761fcaf49b
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetPartSet, GetPartSet method [Open Packaging Conventions], GetPartSet method [Open Packaging Conventions],IOpcPackage interface, IOpcPackage interface [Open Packaging Conventions],GetPartSet method, IOpcPackage.GetPartSet, IOpcPackage::GetPartSet, msopc/IOpcPackage::GetPartSet, opc.iopcpackage_getpartset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

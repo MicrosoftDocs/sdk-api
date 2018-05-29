@@ -1,16 +1,16 @@
 ---
 UID: NF:winfax.FaxSetConfigurationA
 title: FaxSetConfigurationA function
-author: windows-driver-content
+author: windows-sdk-content
 description: A fax client application calls the FaxSetConfiguration function to change the global configuration settings for the fax server to which the client has connected.
 old-location: fax\_mfax_faxsetconfiguration.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8iwe.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxSetConfiguration, FaxSetConfiguration function [Fax Service], FaxSetConfigurationA, FaxSetConfigurationW, _mfax_faxsetconfiguration, fax._mfax_faxsetconfiguration, winfax/FaxSetConfiguration, winfax/FaxSetConfigurationA, winfax/FaxSetConfigurationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

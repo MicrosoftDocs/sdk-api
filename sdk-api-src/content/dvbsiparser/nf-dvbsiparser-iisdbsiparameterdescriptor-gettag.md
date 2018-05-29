@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetTag
 title: IIsdbSIParameterDescriptor::GetTag
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the tag that identifies a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 9d38b158-39b0-4960-b392-086595680133
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbSIParameterDescriptor.GetTag, IIsdbSIParameterDescriptor::GetTag, dvbsiparser/IIsdbSIParameterDescriptor::GetTag, mstv.iisdbsiparameterdescriptor_gettag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Utilities_CimErrorFromErrorCode
 title: MI_Utilities_CimErrorFromErrorCode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Maps an operating-system specific error code to a CIM error instance.
 old-location: wmi_v2\mi_utilities_cimerrorfromerrorcode.htm
 old-project: wmi_v2
 ms.assetid: dab6226b-5769-4e2f-abd2-b89cc2d9911e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_RESULT_TYPE_HRESULT, MI_RESULT_TYPE_MI, MI_RESULT_TYPE_WIN32, MI_Utilities_CimErrorFromErrorCode, MI_Utilities_CimErrorFromErrorCode function [Windows Management Infrastructure (MI)], mi/MI_Utilities_CimErrorFromErrorCode, wmi_v2.mi_utilities_cimerrorfromerrorcode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

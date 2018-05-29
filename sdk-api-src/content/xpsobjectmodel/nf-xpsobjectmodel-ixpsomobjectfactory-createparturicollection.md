@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePartUriCollection
 title: IXpsOMObjectFactory::CreatePartUriCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IXpsOMPartUriCollection interface that can contain IOpcPartUri interface pointers.
 old-location: xps\ixpsomobjectfactory_createparturicollection.htm
 old-project: printdocs
 ms.assetid: 1127a314-43c8-43a2-a06e-88858a43c519
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CreatePartUriCollection, CreatePartUriCollection method [XPS Documents and Packaging], CreatePartUriCollection method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePartUriCollection method, IXpsOMObjectFactory.CreatePartUriCollection, IXpsOMObjectFactory::CreatePartUriCollection, xps.ixpsomobjectfactory_createparturicollection, xpsobjectmodel/IXpsOMObjectFactory::CreatePartUriCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

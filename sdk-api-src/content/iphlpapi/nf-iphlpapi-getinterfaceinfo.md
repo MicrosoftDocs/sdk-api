@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.GetInterfaceInfo
 title: GetInterfaceInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetInterfaceInfo function obtains the list of the network interface adapters with IPv4 enabled on the local system.
 old-location: iphlp\getinterfaceinfo.htm
 old-project: IpHlp
 ms.assetid: efc0d175-2c6d-4608-b385-1623a9e0375c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetInterfaceInfo, GetInterfaceInfo function [IP Helper], _iphlp_getinterfaceinfo, iphlp.getinterfaceinfo, iphlpapi/GetInterfaceInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IUserNotification.SetIconInfo
 title: IUserNotification::SetIconInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the notification area icon associated with specific user information.
 old-location: shell\IUserNotification_SetIconInfo.htm
 old-project: shell
 ms.assetid: f9a3612e-8a25-48d5-8122-44d6aa217bab
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUserNotification interface [Windows Shell],SetIconInfo method, IUserNotification.SetIconInfo, IUserNotification::SetIconInfo, SetIconInfo, SetIconInfo method [Windows Shell], SetIconInfo method [Windows Shell],IUserNotification interface, inet_IUserNotification_SetIconInfo, shell.IUserNotification_SetIconInfo, shobjidl_core/IUserNotification::SetIconInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

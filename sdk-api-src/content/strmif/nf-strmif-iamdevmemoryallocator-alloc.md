@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.Alloc
 title: IAMDevMemoryAllocator::Alloc
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  The IAMDevMemoryAllocator interface is deprecated. Allocates a memory buffer.
 old-location: dshow\iamdevmemoryallocator_alloc.htm
 old-project: DirectShow
 ms.assetid: de5f7755-fd96-4016-9cab-b98721080e14
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Alloc, Alloc method [DirectShow], Alloc method [DirectShow],IAMDevMemoryAllocator interface, IAMDevMemoryAllocator interface [DirectShow],Alloc method, IAMDevMemoryAllocator.Alloc, IAMDevMemoryAllocator::Alloc, IAMDevMemoryAllocatorAlloc, dshow.iamdevmemoryallocator_alloc, strmif/IAMDevMemoryAllocator::Alloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

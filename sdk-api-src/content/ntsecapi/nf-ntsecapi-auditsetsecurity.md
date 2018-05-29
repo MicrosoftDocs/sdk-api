@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.AuditSetSecurity
 title: AuditSetSecurity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a security descriptor that delegates access to audit policy.
 old-location: security\auditsetsecurity.htm
 old-project: SecAuthZ
 ms.assetid: 2f4d6198-775a-40e4-9158-a69e71bfe050
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuditSetSecurity, AuditSetSecurity function [Security], ntsecapi/AuditSetSecurity, security.auditsetsecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

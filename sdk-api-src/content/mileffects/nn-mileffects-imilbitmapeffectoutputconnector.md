@@ -1,16 +1,16 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectOutputConnector
 title: IMILBitmapEffectOutputConnector
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that define an output connector.
 old-location: wibe\_wibe_imilbitmapeffectoutputconnector.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectoutputconnector\imilbitmapeffectoutputconnector.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: IMILBitmapEffectOutputConnector, IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects], IMILBitmapEffectOutputConnector interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectoutputconnector, mileffects/IMILBitmapEffectOutputConnector, wibe._wibe_imilbitmapeffectoutputconnector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mileffects.h
 req.include-header: 

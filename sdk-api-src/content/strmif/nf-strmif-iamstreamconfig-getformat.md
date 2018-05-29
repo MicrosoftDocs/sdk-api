@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMStreamConfig.GetFormat
 title: IAMStreamConfig::GetFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetFormat method retrieves the current or preferred output format.
 old-location: dshow\iamstreamconfig_getformat.htm
 old-project: DirectShow
 ms.assetid: 5443141b-eb2c-412c-8bd1-7175e724b602
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAMStreamConfig interface, IAMStreamConfig interface [DirectShow],GetFormat method, IAMStreamConfig.GetFormat, IAMStreamConfig::GetFormat, IAMStreamConfigGetFormat, dshow.iamstreamconfig_getformat, strmif/IAMStreamConfig::GetFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

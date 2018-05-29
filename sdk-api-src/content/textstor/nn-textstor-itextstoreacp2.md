@@ -1,16 +1,16 @@
 ---
 UID: NN:textstor.ITextStoreACP2
 title: ITextStoreACP2
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStoreACP2 interface is implemented by the application and is used by the TSF manager to manipulate text streams or text stores in TSF.
 old-location: tsf\itextstoreacp2.htm
 old-project: TSF
 ms.assetid: c256f1c2-6b67-4417-8707-3490a2c5cb55
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreACP2, ITextStoreACP2 interface [Text Services Framework], ITextStoreACP2 interface [Text Services Framework],described, textstor/ITextStoreACP2, tsf.itextstoreacp2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: textstor.h
 req.include-header: 

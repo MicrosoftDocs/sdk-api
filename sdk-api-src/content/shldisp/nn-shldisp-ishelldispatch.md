@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.IShellDispatch
 title: IShellDispatch
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an object in the Shell.
 old-location: shell\IShellDispatch.htm
 old-project: shell
 ms.assetid: 9B429C03-7F80-45db-B8CD-58D19FAD2E61
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellDispatch, IShellDispatch object [Windows Shell], IShellDispatch object [Windows Shell],described, shell.IShellDispatch, shldisp/IShellDispatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

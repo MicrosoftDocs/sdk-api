@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_OperationOptions
 title: "_MI_OperationOptions"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a set of operation options.
 old-location: wmi_v2\mi_operationoptions.htm
 old-project: wmi_v2
 ms.assetid: 60445a53-c40c-4d0a-9650-21d0c7f3bbf6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_OperationOptions, MI_OperationOptions structure [Windows Management Infrastructure (MI)], _MI_OperationOptions, mi/MI_OperationOptions, wmi_v2.mi_operationoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

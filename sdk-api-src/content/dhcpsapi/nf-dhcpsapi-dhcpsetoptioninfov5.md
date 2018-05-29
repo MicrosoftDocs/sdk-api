@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpSetOptionInfoV5
 title: DhcpSetOptionInfoV5 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets information for a specific DHCP option.
 old-location: dhcp\dhcpsetoptioninfov5.htm
 old-project: DHCP
 ms.assetid: 2a58706e-dfae-418e-867a-328830d47d5b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpSetOptionInfoV5, DhcpSetOptionInfoV5 function [DHCP], dhcp.dhcpsetoptioninfov5, dhcpsapi/DhcpSetOptionInfoV5
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

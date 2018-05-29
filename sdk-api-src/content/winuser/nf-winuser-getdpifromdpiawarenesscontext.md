@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetDpiFromDpiAwarenessContext
 title: GetDpiFromDpiAwarenessContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the DPI from a given DPI_AWARENESS_CONTEXT handle. This enables you to determine the DPI of a thread without needed to examine a window created within that thread.
 old-location: hidpi\getdpifromdpiawarenesscontext.htm
 old-project: hidpi
 ms.assetid: E47A7A12-AE11-4E66-AE49-463C9F4A6330
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.author: windowssdkdev
+ms.date: 03/29/2018
 ms.keywords: GetDpiFromDpiAwarenessContext, GetDpiFromDpiAwarenessContext function [High DPI], hidpi.getdpifromdpiawarenesscontext, winuser/GetDpiFromDpiAwarenessContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

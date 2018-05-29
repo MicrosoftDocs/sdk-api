@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingKeyword
 title: TraceLoggingKeyword macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Wrapper macro for setting the event's keyword(s).
 old-location: tracelogging\traceloggingkeyword.htm
 old-project: tracelogging
 ms.assetid: 4837DCE3-929F-458B-95E1-8720FD3E9FFA
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingKeyword, TraceLoggingKeyword macro, tracelogging.traceloggingkeyword, traceloggingprovider/TraceLoggingKeyword
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

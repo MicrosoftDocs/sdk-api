@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertEnumPhysicalStore
 title: CertEnumPhysicalStore function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertEnumPhysicalStore function retrieves the physical stores on a computer. The function calls the provided callback function for each physical store found.
 old-location: security\certenumphysicalstore.htm
 old-project: SecCrypto
 ms.assetid: 5804d565-5129-4e6d-8b3d-9bd938807740
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertEnumPhysicalStore, CertEnumPhysicalStore function [Security], _crypto2_certenumphysicalstore, security.certenumphysicalstore, wincrypt/CertEnumPhysicalStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

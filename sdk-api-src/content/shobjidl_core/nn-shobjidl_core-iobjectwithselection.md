@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IObjectWithSelection
 title: IObjectWithSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that get or set selected items represented by a Shell item array.
 old-location: shell\IObjectWithSelection.htm
 old-project: shell
 ms.assetid: 8fb248eb-73e7-4db0-8585-4accafe332d0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IObjectWithSelection, IObjectWithSelection interface [Windows Shell], IObjectWithSelection interface [Windows Shell],described, _shell_IObjectWithSelection, shell.IObjectWithSelection, shobjidl_core/IObjectWithSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:vptype._AMVPSIZE
 title: "_AMVPSIZE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AMVPSIZE structure specifies the width and height for a VP image.
 old-location: dshow\amvpsize.htm
 old-project: DirectShow
 ms.assetid: e36163bc-a7ea-421e-b876-2d459ecb11e8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPAMVPSIZE, AMVPSIZE, AMVPSIZE structure [DirectShow], AMVPSIZEStructure, LPAMVPSIZE, LPAMVPSIZE structure pointer [DirectShow], _AMVPSIZE, dshow.amvpsize, vptype/AMVPSIZE, vptype/LPAMVPSIZE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vptype.h
 req.include-header: 

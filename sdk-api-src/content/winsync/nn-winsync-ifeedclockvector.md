@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IFeedClockVector
 title: IFeedClockVector
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a clock vector that contains FeedSync information.
 old-location: winsync\ifeedclockvector.htm
 old-project: winsync
 ms.assetid: 9acee83e-a16c-4511-a1e3-ce653ed09535
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IFeedClockVector, IFeedClockVector interface [Windows Sync], IFeedClockVector interface [Windows Sync],described, winsync.ifeedclockvector, winsync/IFeedClockVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

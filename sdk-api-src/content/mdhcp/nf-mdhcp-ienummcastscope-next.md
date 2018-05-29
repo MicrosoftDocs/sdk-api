@@ -1,16 +1,16 @@
 ---
 UID: NF:mdhcp.IEnumMcastScope.Next
 title: IEnumMcastScope::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienummcastscope_next.htm
 old-project: Tapi
 ms.assetid: f7618414-c2fc-46c8-8f9d-c1ad217c8d94
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumMcastScope interface [TAPI 2.2],Next method, IEnumMcastScope.Next, IEnumMcastScope::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumMcastScope interface, _tapi3_ienummcastscope_next, mdhcp/IEnumMcastScope::Next, tapi3.ienummcastscope_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 

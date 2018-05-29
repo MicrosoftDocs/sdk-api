@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SetWorkAreas
 title: ListView_SetWorkAreas macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the working areas within a list-view control. You can use this macro or send the LVM_SETWORKAREAS message explicitly.
 old-location: controls\ListView_SetWorkAreas.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setworkareas.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_SetWorkAreas, ListView_SetWorkAreas macro [Windows Controls], _win32_ListView_SetWorkAreas, _win32_ListView_SetWorkAreas_cpp, commctrl/ListView_SetWorkAreas, controls.ListView_SetWorkAreas, controls._win32_ListView_SetWorkAreas
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

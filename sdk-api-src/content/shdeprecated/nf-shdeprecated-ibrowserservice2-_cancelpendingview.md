@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._CancelPendingView
 title: IBrowserService2::_CancelPendingView
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Enables a derived class to request that the base class cancel any pending views.
 old-location: shell\IBrowserService2__CancelPendingView.htm
 old-project: shell
 ms.assetid: 70f1c3b7-be10-44e1-b119-cdae23dde1c1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_CancelPendingView method, IBrowserService2._CancelPendingView, IBrowserService2::_CancelPendingView, _CancelPendingView, _CancelPendingView method [Windows Shell], _CancelPendingView method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_CancelPendingView, shell.IBrowserService2__CancelPendingView, zone_IBrowserService2__CancelPendingView
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

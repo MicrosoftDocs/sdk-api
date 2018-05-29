@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IActionCollection.Create
 title: IActionCollection::Create
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and adds a new action to the collection.
 old-location: taskschd\iactioncollection_create.htm
 old-project: TaskSchd
 ms.assetid: 815a000b-ba02-470d-80e6-06ba3c8ea014
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Create, Create method [Task Scheduler], Create method [Task Scheduler],IActionCollection interface, IActionCollection interface [Task Scheduler],Create method, IActionCollection.Create, IActionCollection::Create, TASK_ACTION_COM_HANDLER, TASK_ACTION_EXEC, TASK_ACTION_SEND_EMAIL, TASK_ACTION_SHOW_MESSAGE, actions [Task Scheduler],creating, taskschd.iactioncollection_create, taskschd/IActionCollection::Create
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

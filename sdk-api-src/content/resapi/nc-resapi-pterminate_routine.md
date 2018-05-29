@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PTERMINATE_ROUTINE
 title: PTERMINATE_ROUTINE
-author: windows-driver-content
+author: windows-sdk-content
 description: Immediately marks a resource as unavailable for use without waiting for cleanup processing to be completed.
 old-location: mscs\terminate.htm
 old-project: MsCS
 ms.assetid: b53ab7db-ed17-4386-8a5f-5d0b0d1cb1b3
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PTERMINATE_ROUTINE, PTERMINATE_ROUTINE callback function [Failover Cluster], Terminate, Terminate callback, Terminate callback function [Failover Cluster], _wolf_terminate, mscs.terminate, resapi/PTERMINATE_ROUTINE, resapi/Terminate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

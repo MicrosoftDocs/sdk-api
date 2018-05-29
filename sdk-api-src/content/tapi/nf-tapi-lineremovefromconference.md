@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineRemoveFromConference
 title: lineRemoveFromConference function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineRemoveFromConference function removes the specified call from the conference call to which it currently belongs. The remaining calls in the conference call are unaffected.
 old-location: tapi2\lineremovefromconference.htm
 old-project: Tapi
 ms.assetid: 03363579-66c2-4bb5-b110-01084c20bf09
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_lineremovefromconference, lineRemoveFromConference, lineRemoveFromConference function [TAPI 2.2], tapi/lineRemoveFromConference, tapi2.lineremovefromconference"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

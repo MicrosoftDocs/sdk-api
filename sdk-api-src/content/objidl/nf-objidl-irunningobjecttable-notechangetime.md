@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IRunningObjectTable.NoteChangeTime
 title: IRunningObjectTable::NoteChangeTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Records the time that a running object was last modified. The object must have previously been registered with the running object table (ROT). This method stores the time of last change in the ROT.
 old-location: com\irunningobjecttable_notechangetime.htm
 old-project: com
 ms.assetid: 7bc410f8-3a39-478d-bc4d-adcd976f305b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRunningObjectTable interface [COM],NoteChangeTime method, IRunningObjectTable.NoteChangeTime, IRunningObjectTable::NoteChangeTime, NoteChangeTime, NoteChangeTime method [COM], NoteChangeTime method [COM],IRunningObjectTable interface, _com_irunningobjecttable_notechangetime, com.irunningobjecttable_notechangetime, objidl/IRunningObjectTable::NoteChangeTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

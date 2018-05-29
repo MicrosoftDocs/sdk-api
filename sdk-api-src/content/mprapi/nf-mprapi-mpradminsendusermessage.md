@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminSendUserMessage
 title: MprAdminSendUserMessage function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminSendUserMessage function sends a message to the user connected on the specified connection.
 old-location: rras\mpradminsendusermessage.htm
 old-project: RRAS
 ms.assetid: 3c0d8b6c-25c1-47c3-baef-d82e6d2fa52f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminSendUserMessage, MprAdminSendUserMessage function [RAS], _mpr_mpradminsendusermessage, mprapi/MprAdminSendUserMessage, rras.mpradminsendusermessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

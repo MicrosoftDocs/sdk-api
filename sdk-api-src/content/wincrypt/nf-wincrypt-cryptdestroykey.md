@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptDestroyKey
 title: CryptDestroyKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the handle referenced by the hKey parameter.
 old-location: security\cryptdestroykey.htm
 old-project: SecCrypto
 ms.assetid: ed5d8047-c9fd-4765-915f-a6a014004b30
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptDestroyKey, CryptDestroyKey function [Security], _crypto2_cryptdestroykey, security.cryptdestroykey, wincrypt/CryptDestroyKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3.ITQueue.get_TotalCallsFlowedOut
 title: ITQueue::get_TotalCallsFlowedOut
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_TotalCallsFlowedOut method gets the total number of calls that flowed out of this queue (passed down to another queue or ACD group) during the current measurement period.
 old-location: tapi3\itqueue_get_totalcallsflowedout.htm
 old-project: Tapi
 ms.assetid: e12cc43b-54d9-4e65-82e8-a2e819ea219e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_TotalCallsFlowedOut method, ITQueue.get_TotalCallsFlowedOut, ITQueue::get_TotalCallsFlowedOut, _tapi3_itqueue_get_totalcallsflowedout, get_TotalCallsFlowedOut, get_TotalCallsFlowedOut method [TAPI 2.2], get_TotalCallsFlowedOut method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_totalcallsflowedout, tapi3cc/ITQueue::get_TotalCallsFlowedOut
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

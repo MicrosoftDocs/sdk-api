@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITForwardInformation.SetForwardType
 title: ITForwardInformation::SetForwardType
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetForwardType method sets the forwarding mode and destination by caller address.
 old-location: tapi3\itforwardinformation_setforwardtype.htm
 old-project: Tapi
 ms.assetid: 5f7972a8-c9b0-4033-8b00-a107a513ee66
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],SetForwardType method, ITForwardInformation.SetForwardType, ITForwardInformation::SetForwardType, SetForwardType, SetForwardType method [TAPI 2.2], SetForwardType method [TAPI 2.2],ITForwardInformation interface, _tapi3_itforwardinformation_setforwardtype, tapi3.itforwardinformation_setforwardtype, tapi3if/ITForwardInformation::SetForwardType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

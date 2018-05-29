@@ -1,16 +1,16 @@
 ---
 UID: NF:processsnapshot.PssCaptureSnapshot
 title: PssCaptureSnapshot function
-author: windows-driver-content
+author: windows-sdk-content
 description: Captures a snapshot of a target process.
 old-location: proc_snap\psscapturesnapshot.htm
 old-project: proc_snap
 ms.assetid: 44F2CB48-A9F6-4131-B21C-9F27A27CECD5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PssCaptureSnapshot, PssCaptureSnapshot function, proc_snap.psscapturesnapshot, processsnapshot/PssCaptureSnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 

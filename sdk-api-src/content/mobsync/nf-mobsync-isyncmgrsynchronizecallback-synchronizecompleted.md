@@ -1,16 +1,16 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.SynchronizeCompleted
 title: ISyncMgrSynchronizeCallback::SynchronizeCompleted
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by an application when its Synchronize method is complete.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_synchronizecompleted.htm
 old-project: shell
 ms.assetid: df0f0e20-6b84-4ff1-badb-40006a4b8e2c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],SynchronizeCompleted method, ISyncMgrSynchronizeCallback.SynchronizeCompleted, ISyncMgrSynchronizeCallback::SynchronizeCompleted, SynchronizeCompleted, SynchronizeCompleted method [Windows Shell], SynchronizeCompleted method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::SynchronizeCompleted, shell.syncmgr_isyncmgrsynchronizecallback_synchronizecompleted, syncmgr.isyncmgrsynchronizecallback_synchronizecompleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetGreenYIntercept
 title: SetGreenYIntercept function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Y-intercept of the linear function for the green channel.
 old-location: directcomp\idcompositionlineartransfereffect_setgreenyintercept_overloaded.htm
 old-project: directcomp
 ms.assetid: 1aa4c933-ee49-2772-9a7e-b120b5bdd331
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionLinearTransferEffect::setgreenyintercept, SetGreenYIntercept, SetGreenYIntercept methods [DirectComposition], dcomp/SetGreenYIntercept, directcomp.idcompositionlineartransfereffect_setgreenyintercept_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

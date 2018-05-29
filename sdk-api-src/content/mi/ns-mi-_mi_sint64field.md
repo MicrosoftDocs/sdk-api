@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_Sint64Field
 title: "_MI_Sint64Field"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_sint64field.htm
 old-project: wmi_v2
 ms.assetid: 98d8dab2-e28f-4f74-9617-2bfad7f3ea7e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Sint64Field, MI_Sint64Field structure [Windows Management Infrastructure (MI)], _MI_Sint64Field, mi/MI_Sint64Field, wmi._mi_sint64field, wmi_v2.mi_sint64field
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetCaption
 title: IPhotoProgressDialog::SetCaption
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the caption of the progress dialog box.
 old-location: picacq\iphotoprogressdialog_setcaption.htm
 old-project: acquisition
 ms.assetid: 01689aa9-e3ae-48b4-b105-25880097a112
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetCaption method, IPhotoProgressDialog.SetCaption, IPhotoProgressDialog::SetCaption, IPhotoProgressDialogSetCaption, SetCaption, SetCaption method [Picture Acquisition], SetCaption method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetCaption, picacq.iphotoprogressdialog_setcaption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.Add
 title: ITuningSpaceContainer::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: The Add method adds a new persistent tuning space to the system.
 old-location: mstv\ituningspacecontainer_add.htm
 old-project: mstv
 ms.assetid: 9c7faab5-48d4-47fa-be8a-7dafce8504a6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],ITuningSpaceContainer interface, ITuningSpaceContainer interface [Microsoft TV Technologies],Add method, ITuningSpaceContainer.Add, ITuningSpaceContainer::Add, ITuningSpaceContainerAdd, mstv.ituningspacecontainer_add, tuner/ITuningSpaceContainer::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

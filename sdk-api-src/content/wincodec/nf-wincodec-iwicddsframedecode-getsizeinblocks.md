@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICDdsFrameDecode.GetSizeInBlocks
 title: IWICDdsFrameDecode::GetSizeInBlocks
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the width and height, in blocks, of the DDS image.
 old-location: wic\iwicddsframedecode_getsizeinblocks.htm
 old-project: wic
 ms.assetid: 34F3A19C-4B68-4E6A-AE08-71DE9A0687BF
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSizeInBlocks, GetSizeInBlocks method [Windows Imaging Component], GetSizeInBlocks method [Windows Imaging Component],IWICDdsFrameDecode interface, IWICDdsFrameDecode interface [Windows Imaging Component],GetSizeInBlocks method, IWICDdsFrameDecode.GetSizeInBlocks, IWICDdsFrameDecode::GetSizeInBlocks, wic.iwicddsframedecode_getsizeinblocks, wincodec/IWICDdsFrameDecode::GetSizeInBlocks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

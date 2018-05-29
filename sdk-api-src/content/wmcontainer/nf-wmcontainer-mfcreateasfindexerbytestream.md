@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.MFCreateASFIndexerByteStream
 title: MFCreateASFIndexerByteStream function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a byte stream to access the index in an ASF stream.
 old-location: mf\mfcreateasfindexerbytestream.htm
 old-project: medfound
 ms.assetid: edcce9d4-9296-4b39-8e58-58ae602c250f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateASFIndexerByteStream, MFCreateASFIndexerByteStream function [Media Foundation], edcce9d4-9296-4b39-8e58-58ae602c250f, mf.mfcreateasfindexerbytestream, wmcontainer/MFCreateASFIndexerByteStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wmcontainer.h
 req.include-header: 

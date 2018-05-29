@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_QUERY_STATUS_FN
 title: PIBIO_SENSOR_QUERY_STATUS_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the current status of the sensor device.
 old-location: secbiomet\sensoradapterquerystatus.htm
 old-project: SecBioMet
 ms.assetid: 88c22183-5bc8-4ac9-9048-72ee7a861b76
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: PIBIO_SENSOR_QUERY_STATUS_FN, PIBIO_SENSOR_QUERY_STATUS_FN callback, SensorAdapterQueryStatus, SensorAdapterQueryStatus callback function [Windows Biometric Framework API], secbiomet.sensoradapterquerystatus, winbio_adapter/SensorAdapterQueryStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

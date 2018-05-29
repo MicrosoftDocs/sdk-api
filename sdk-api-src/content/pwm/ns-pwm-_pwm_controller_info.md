@@ -1,16 +1,16 @@
 ---
 UID: NS:pwm._PWM_CONTROLLER_INFO
 title: "_PWM_CONTROLLER_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the static information that characterizes a Pulse Width Modulation (PWM) controller.
 old-location: base\pwm_controller_info.htm
 old-project: DevIO
 ms.assetid: 64002D7B-0752-4EC9-88E7-D166CBDE0AB5
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: PWM_CONTROLLER_GET_INFO_OUTPUT, PWM_CONTROLLER_INFO, PWM_CONTROLLER_INFO structure, _PWM_CONTROLLER_INFO, base.pwm_controller_info, pwm/PWM_CONTROLLER_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: pwm.h
 req.include-header: Pwm.h

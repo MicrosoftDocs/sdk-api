@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.GenTspec
 title: GenTspec
-author: windows-driver-content
+author: windows-sdk-content
 description: The GenTspec structure stores generic Tspec information.
 old-location: qos\gentspec.htm
 old-project: QOS
 ms.assetid: cefd94ed-ed54-471d-97fc-d523cedd71d6
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GenTspec, GenTspec structure [QOS], lpmapi/GenTspec, qos.gentspec
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

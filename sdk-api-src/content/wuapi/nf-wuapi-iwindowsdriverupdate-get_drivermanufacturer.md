@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DriverManufacturer
 title: IWindowsDriverUpdate::get_DriverManufacturer
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the language-invariant name of the manufacturer of the Windows driver update.
 old-location: wua\iwindowsdriverupdate_drivermanufacturer.htm
 old-project: Wua_Sdk
 ms.assetid: 36411faf-bafa-43cc-886c-133d4967b97d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DriverManufacturer property [Windows Update Agent], DriverManufacturer property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DriverManufacturer property, IWindowsDriverUpdate.DriverManufacturer, IWindowsDriverUpdate.get_DriverManufacturer, IWindowsDriverUpdate::DriverManufacturer, IWindowsDriverUpdate::get_DriverManufacturer, get_DriverManufacturer, wua.iwindowsdriverupdate_drivermanufacturer, wuapi/IWindowsDriverUpdate::DriverManufacturer, wuapi/IWindowsDriverUpdate::get_DriverManufacturer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

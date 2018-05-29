@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.CoGetObject
 title: CoGetObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a display name into a moniker that identifies the object named, and then binds to the object identified by the moniker.
 old-location: com\cogetobject.htm
 old-project: com
 ms.assetid: 0f5c9ef5-3918-4f93-bfd1-1017029b3dc1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoGetObject, CoGetObject function [COM], _com_CoGetObject, com.cogetobject, objbase/CoGetObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio_adapter.WbioQueryEngineInterface
 title: WbioQueryEngineInterface function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to the WINBIO_ENGINE_INTERFACE structure for the engine adapter.
 old-location: secbiomet\wbioqueryengineinterface.htm
 old-project: SecBioMet
 ms.assetid: d98da825-ce27-41ec-8f82-6f44e4854018
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WbioQueryEngineInterface, WbioQueryEngineInterface function [Windows Biometric Framework API], secbiomet.wbioqueryengineinterface, winbio_adapter/WbioQueryEngineInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.EndPrepare
 title: ICrmCompensator::EndPrepare
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the CRM Compensator that it has had all the log records available during the prepare phase.
 old-location: cos\icrmcompensator_endprepare.htm
 old-project: cossdk
 ms.assetid: 97dfdd8c-1a33-4173-aa71-cb9c9b1ef5ee
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EndPrepare, EndPrepare method [COM+], EndPrepare method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],EndPrepare method, ICrmCompensator.EndPrepare, ICrmCompensator::EndPrepare, _dtc_ICrmCompensator_EndPrepare, comsvcs/ICrmCompensator::EndPrepare, cos.icrmcompensator_endprepare
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

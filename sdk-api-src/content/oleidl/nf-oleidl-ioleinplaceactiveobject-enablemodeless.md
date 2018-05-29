@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.EnableModeless
 title: IOleInPlaceActiveObject::EnableModeless
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables modeless dialog boxes when the container creates or destroys a modal dialog box.
 old-location: com\ioleinplaceactiveobject_enablemodeless.htm
 old-project: com
 ms.assetid: 2fc45490-b3fe-48fd-a41c-2b7f35b09edc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnableModeless, EnableModeless method [COM], EnableModeless method [COM],IOleInPlaceActiveObject interface, IOleInPlaceActiveObject interface [COM],EnableModeless method, IOleInPlaceActiveObject.EnableModeless, IOleInPlaceActiveObject::EnableModeless, _ole_ioleinplaceactiveobject_enablemodeless, com.ioleinplaceactiveobject_enablemodeless, oleidl/IOleInPlaceActiveObject::EnableModeless
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

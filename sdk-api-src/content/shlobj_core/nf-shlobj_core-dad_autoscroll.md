@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.DAD_AutoScroll
 title: DAD_AutoScroll function
-author: windows-driver-content
+author: windows-sdk-content
 description: Scrolls the window while an image is being dragged.
 old-location: shell\DAD_AutoScroll.htm
 old-project: shell
 ms.assetid: 3c5af682-8497-477e-8222-3eb37d1e295f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DAD_AutoScroll, DAD_AutoScroll function [Windows Shell], shell.DAD_AutoScroll, shell_DAD_AutoScroll, shlobj_core/DAD_AutoScroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:mpeg2data.IMpeg2Data
 title: IMpeg2Data
-author: windows-driver-content
+author: windows-sdk-content
 description: IMpeg2Data is no longer available for use as of Windows 7.
 old-location: mstv\impeg2data.htm
 old-project: mstv
 ms.assetid: 82af47a2-cac4-4d4f-ba20-d4f6b5485a65
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMpeg2Data, IMpeg2Data interface [Microsoft TV Technologies], IMpeg2Data interface [Microsoft TV Technologies],described, IMpeg2DataInterface, mpeg2data/IMpeg2Data, mstv.impeg2data
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mpeg2data.h
 req.include-header: 

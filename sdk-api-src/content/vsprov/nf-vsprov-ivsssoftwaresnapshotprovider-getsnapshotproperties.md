@@ -1,16 +1,16 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.GetSnapshotProperties
 title: IVssSoftwareSnapshotProvider::GetSnapshotProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the properties of the specified shadow copy.
 old-location: base\ivsssoftwaresnapshotprovider_getsnapshotproperties.htm
 old-project: VSS
 ms.assetid: 59886344-d594-4eb8-9718-ab11a6627e8e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSnapshotProperties, GetSnapshotProperties method, GetSnapshotProperties method,IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,GetSnapshotProperties method, IVssSoftwareSnapshotProvider.GetSnapshotProperties, IVssSoftwareSnapshotProvider::GetSnapshotProperties, base.ivsssoftwaresnapshotprovider_getsnapshotproperties, vsprov/IVssSoftwareSnapshotProvider::GetSnapshotProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

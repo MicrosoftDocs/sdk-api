@@ -1,16 +1,16 @@
 ---
 UID: NS:dwrite.DWRITE_TRIMMING
 title: DWRITE_TRIMMING
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the trimming option for text overflowing the layout box.
 old-location: directwrite\dwrite_trimming.htm
 old-project: DirectWrite
 ms.assetid: c252b936-8a09-45b4-8138-84cf54058f72
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_TRIMMING, DWRITE_TRIMMING structure [Direct Write], directwrite.dwrite_trimming, dwrite/DWRITE_TRIMMING
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

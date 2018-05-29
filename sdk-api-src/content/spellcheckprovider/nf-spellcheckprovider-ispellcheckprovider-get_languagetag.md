@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.get_LanguageTag
 title: ISpellCheckProvider::get_LanguageTag
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the BCP47 language tag this instance of the spell checker supports.
 old-location: intl\ispellcheckprovider_languagetag.htm
 old-project: Intl
 ms.assetid: 74ED381D-3BF5-4E43-85DA-8CD53C821979
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],LanguageTag property, ISpellCheckProvider.LanguageTag, ISpellCheckProvider.get_LanguageTag, ISpellCheckProvider::LanguageTag, ISpellCheckProvider::get_LanguageTag, LanguageTag property [Internationalization for Windows Applications], LanguageTag property [Internationalization for Windows Applications],ISpellCheckProvider interface, get_LanguageTag, intl.ispellcheckprovider_languagetag, spellcheckprovider/ISpellCheckProvider::LanguageTag, spellcheckprovider/ISpellCheckProvider::get_LanguageTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheckprovider.h
 req.include-header: 

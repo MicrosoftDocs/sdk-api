@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SearchTreeForFile
 title: SearchTreeForFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches a directory tree for a specified file.
 old-location: base\searchtreeforfile.htm
 old-project: Debug
 ms.assetid: dc641de0-8e22-402e-be64-f3231ba9ed8c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SearchTreeForFile, SearchTreeForFile function, SearchTreeForFileW, _win32_searchtreeforfile, base.searchtreeforfile, dbghelp/SearchTreeForFile, dbghelp/SearchTreeForFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

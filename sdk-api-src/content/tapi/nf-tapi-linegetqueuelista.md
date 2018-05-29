@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineGetQueueListA
 title: lineGetQueueListA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineGetQueueList function returns a list of queues associated with a particular ACD Group.
 old-location: tapi2\linegetqueuelist.htm
 old-project: Tapi
 ms.assetid: 3921ab24-c9c8-4068-a885-e55759f04076
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linegetqueuelist, lineGetQueueList, lineGetQueueList function [TAPI 2.2], lineGetQueueListA, lineGetQueueListW, tapi/lineGetQueueList, tapi/lineGetQueueListA, tapi/lineGetQueueListW, tapi2.linegetqueuelist"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetManifestResourceProps
 title: IMetaDataAssemblyImport::GetManifestResourceProps
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the set of properties of the manifest resource with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getmanifestresourceprops.htm
 old-project: WinRT
 ms.assetid: caa859c8-de40-4de6-bf90-41104cef91b2
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetManifestResourceProps, GetManifestResourceProps method [Windows Runtime], GetManifestResourceProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetManifestResourceProps method, IMetaDataAssemblyImport.GetManifestResourceProps, IMetaDataAssemblyImport::GetManifestResourceProps, rometadataapi/IMetaDataAssemblyImport::GetManifestResourceProps, winrt.imetadataassemblyimport_getmanifestresourceprops
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

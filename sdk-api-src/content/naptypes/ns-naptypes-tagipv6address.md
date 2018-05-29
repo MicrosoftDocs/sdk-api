@@ -1,16 +1,16 @@
 ---
 UID: NS:naptypes.tagIpv6Address
 title: tagIpv6Address
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an IPv6 address.
 old-location: nap\ipv6address_struct.htm
 old-project: NAP
 ms.assetid: 7d8a87fc-2817-4f24-8d06-1656b79da6d2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Ipv6Address, Ipv6Address structure [NAP], nap.ipv6address_struct, naptypes/Ipv6Address, tagIpv6Address
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

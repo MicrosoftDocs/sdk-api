@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IPsecSaContextCreateEnumHandle0
 title: IPsecSaContextCreateEnumHandle0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a handle used to enumerate a set of IPsec security association (SA) context objects.
 old-location: fwp\ipsecsacontextcreateenumhandle0.htm
 old-project: FWP
 ms.assetid: ce4340df-e4e0-48ca-b827-2216803a8a94
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPsecSaContextCreateEnumHandle0, IPsecSaContextCreateEnumHandle0 function [Filtering], fwp.ipsecsacontextcreateenumhandle0, fwpmu/IPsecSaContextCreateEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

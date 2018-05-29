@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.CopyFile2
 title: CopyFile2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies an existing file to a new file, notifying the application of its progress through a callback function.
 old-location: fs\copyfile2.htm
 old-project: FileIO
 ms.assetid: aa2df686-4b61-4d90-ba0b-c78c5a0d2d59
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CopyFile2, CopyFile2 function [Files], fs.copyfile2, winbase/CopyFile2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

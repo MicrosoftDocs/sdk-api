@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsDrive.QueryExtents
 title: IVdsDrive::QueryExtents
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an array of the extents on a drive, including both allocated and unallocated extents.
 old-location: base\ivdsdrive_queryextents.htm
 old-project: VDS
 ms.assetid: 8ee3e085-ce69-457e-b652-bb9c45b7fdd8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsDrive interface [VDS],QueryExtents method, IVdsDrive.QueryExtents, IVdsDrive::QueryExtents, QueryExtents, QueryExtents method [VDS], QueryExtents method [VDS],IVdsDrive interface, base.ivdsdrive_queryextents, vds/IVdsDrive::QueryExtents, vdshwprv/IVdsDrive::QueryExtents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

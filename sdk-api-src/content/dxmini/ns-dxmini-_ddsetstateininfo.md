@@ -1,16 +1,16 @@
 ---
 UID: NS:dxmini._DDSETSTATEININFO
 title: "_DDSETSTATEININFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDSETSTATEININFO structure contains the surface and video port extensions (VPE) object information.
 old-location: display\ddsetstateininfo.htm
 old-project: display
 ms.assetid: 85fdf0eb-3253-4370-b1b5-ade85c5c992f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDDSETSTATEININFO, DDSETSTATEININFO, DDSETSTATEININFO structure [Display Devices], PDDSETSTATEININFO, PDDSETSTATEININFO structure pointer [Display Devices], Video_Structs_ac2e1c06-be26-4f4c-8dd9-e322535c3a12.xml, _DDSETSTATEININFO, display.ddsetstateininfo, dxmini/DDSETSTATEININFO, dxmini/PDDSETSTATEININFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h

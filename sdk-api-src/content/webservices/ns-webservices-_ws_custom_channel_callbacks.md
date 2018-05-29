@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_CUSTOM_CHANNEL_CALLBACKS
 title: "_WS_CUSTOM_CHANNEL_CALLBACKS"
-author: windows-driver-content
+author: windows-sdk-content
 description: A structure that is used to specify a set of callbacks that form the implementation of a custom channel.
 old-location: wsw\ws_custom_channel_callbacks.htm
 old-project: wsw
 ms.assetid: 8df774fd-7cfc-4006-84ad-b81737770b6e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_CUSTOM_CHANNEL_CALLBACKS, WS_CUSTOM_CHANNEL_CALLBACKS structure [Web Services for Windows], _WS_CUSTOM_CHANNEL_CALLBACKS, webservices/WS_CUSTOM_CHANNEL_CALLBACKS, wsw.ws_custom_channel_callbacks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

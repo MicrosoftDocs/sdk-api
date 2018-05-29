@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.OpenWaitableTimerA
 title: OpenWaitableTimerA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an existing named waitable timer object.
 old-location: base\openwaitabletimer.htm
 old-project: Sync
 ms.assetid: 0f9b49ea-5d04-449c-9b7d-f79ab28b548b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: OpenWaitableTimer, OpenWaitableTimer function, OpenWaitableTimerA, OpenWaitableTimerW, _win32_openwaitabletimer, base.openwaitabletimer, winbase/OpenWaitableTimer, winbase/OpenWaitableTimerA, winbase/OpenWaitableTimerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

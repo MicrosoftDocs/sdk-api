@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.ClearEventLogA
 title: ClearEventLogA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Clears the specified event log, and optionally saves the current copy of the log to a backup file.
 old-location: base\cleareventlog.htm
 old-project: EventLog
 ms.assetid: b66896f6-baee-43c4-9d9b-5663c164d092
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ClearEventLog, ClearEventLog function, ClearEventLogA, ClearEventLogW, _win32_cleareventlog, base.cleareventlog, winbase/ClearEventLog, winbase/ClearEventLogA, winbase/ClearEventLogW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

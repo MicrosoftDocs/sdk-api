@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11_3.D3D11_TEX2D_RTV1
 title: D3D11_TEX2D_RTV1
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the subresource from a 2D texture to use in a render-target view.
 old-location: direct3d11\d3d11_tex2d_rtv1.htm
 old-project: direct3d11
 ms.assetid: CA815C7D-BA10-4C1B-A6E6-8B42229179B1
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_TEX2D_RTV1, D3D11_TEX2D_RTV1 structure [Direct3D 11], d3d11_3/D3D11_TEX2D_RTV1, direct3d11.d3d11_tex2d_rtv1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_3.h
 req.include-header: 

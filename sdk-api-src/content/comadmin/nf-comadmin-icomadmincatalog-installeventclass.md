@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.InstallEventClass
 title: ICOMAdminCatalog::InstallEventClass
-author: windows-driver-content
+author: windows-sdk-content
 description: Installs event classes from a file into a COM+ application.
 old-location: cos\icomadmincatalog_installeventclass.htm
 old-project: cossdk
 ms.assetid: 8e9f7c79-076e-46dc-bce0-389c5309e6fa
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],InstallEventClass method, ICOMAdminCatalog.InstallEventClass, ICOMAdminCatalog::InstallEventClass, InstallEventClass, InstallEventClass method [COM+], InstallEventClass method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallEventClass, comadmin/ICOMAdminCatalog::InstallEventClass, cos.icomadmincatalog_installeventclass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

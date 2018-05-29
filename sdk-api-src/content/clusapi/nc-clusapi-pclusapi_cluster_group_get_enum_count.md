@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT
 title: PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of cluster objects associated with a group enumeration handle.
 old-location: mscs\clustergroupgetenumcount.htm
 old-project: MsCS
 ms.assetid: 068cd55e-4220-447c-bf2f-a515503b7cc9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT callback, PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT callback function [Failover Cluster], _wolf_clustergroupgetenumcount, clusapi/PCLUSAPI_CLUSTER_GROUP_GET_ENUM_COUNT, mscs.clustergroupgetenumcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

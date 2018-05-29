@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif.tagDVD_FRAMERATE
 title: tagDVD_FRAMERATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the DVD is authored to play at 25 or 30 frames per second.
 old-location: dshow\dvd_framerate.htm
 old-project: DirectShow
 ms.assetid: 92309c56-87fe-43cc-b76e-43f9686177be
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_FPS_25, DVD_FPS_30NonDrop, DVD_FRAMERATE, DVD_FRAMERATE , DVD_FRAMERATE enumeration [DirectShow], DVD_FRAMERATEEnumeration, dshow.dvd_framerate, strmif/DVD_FPS_25, strmif/DVD_FPS_30NonDrop, strmif/DVD_FRAMERATE, tagDVD_FRAMERATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

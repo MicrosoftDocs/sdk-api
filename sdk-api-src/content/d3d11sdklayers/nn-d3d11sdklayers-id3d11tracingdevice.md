@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11TracingDevice
 title: ID3D11TracingDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: The tracing device interface sets shader tracking information, which enables accurate logging and playback of shader execution.
 old-location: direct3d11\id3d11tracingdevice.htm
 old-project: direct3d11
 ms.assetid: AE42E2A8-9FEE-4991-B1A0-4C6C04958DE4
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11TracingDevice, ID3D11TracingDevice interface [Direct3D 11], ID3D11TracingDevice interface [Direct3D 11],described, d3d11sdklayers/ID3D11TracingDevice, direct3d11.id3d11tracingdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11sdklayers.h
 req.include-header: 

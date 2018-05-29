@@ -1,16 +1,16 @@
 ---
 UID: NC:ras.PFNRASGETBUFFER
 title: PFNRASGETBUFFER
-author: windows-driver-content
+author: windows-sdk-content
 description: The custom-scripting DLL calls RasGetBuffer to allocate memory for sending or receiving data over the port connected to the server.
 old-location: rras\rasgetbuffer.htm
 old-project: RRAS
 ms.assetid: 655f2dfa-a6cf-43db-8d2e-bf9a10163c75
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PFNRASGETBUFFER, PFNRASGETBUFFER callback, RasGetBuffer, RasGetBuffer callback function [RAS], _ras_rasgetbuffer, ras/RasGetBuffer, rras.rasgetbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ras.h
 req.include-header: 

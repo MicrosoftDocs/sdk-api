@@ -1,16 +1,16 @@
 ---
 UID: NF:micaut.IMathInputControl.GetPreviewHeight
 title: IMathInputControl::GetPreviewHeight
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the height in pixels of the preview area.
 old-location: tablet\imathinputcontrol_getpreviewheight.htm
 old-project: tablet
 ms.assetid: 3b3404f5-b775-483f-b3a9-9467c937226b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPreviewHeight, GetPreviewHeight method [Tablet PC], GetPreviewHeight method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],GetPreviewHeight method, IMathInputControl.GetPreviewHeight, IMathInputControl::GetPreviewHeight, micaut/IMathInputControl::GetPreviewHeight, tablet.imathinputcontrol_getpreviewheight
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

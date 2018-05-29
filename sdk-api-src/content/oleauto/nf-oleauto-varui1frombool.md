@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarUI1FromBool
 title: VarUI1FromBool function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a Boolean value to an unsigned char value.
 old-location: automat\varui1frombool.htm
 old-project: automat
 ms.assetid: 27a06c84-ff09-48c6-9cd1-349fd74cd8df
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarUI1FromBool, VarUI1FromBool function [Automation], _oa96_VarUI1FromBool, automat.varui1frombool, oleauto/VarUI1FromBool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

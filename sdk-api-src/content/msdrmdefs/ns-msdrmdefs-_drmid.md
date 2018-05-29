@@ -1,16 +1,16 @@
 ---
 UID: NS:msdrmdefs._DRMID
 title: "_DRMID"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies an object.
 old-location: rm\drmid.htm
 old-project: AdRms_Sdk
 ms.assetid: 8b7f22e0-586e-4950-94fe-868b3fc91ffa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMID, DRMID structure [Active Directory Rights Management Services SDK 1.0], _DRMID, msdrmdefs/DRMID, rm.drmid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msdrmdefs.h
 req.include-header: 

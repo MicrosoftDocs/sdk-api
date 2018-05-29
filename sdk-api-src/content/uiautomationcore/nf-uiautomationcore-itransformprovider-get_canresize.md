@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.get_CanResize
 title: ITransformProvider::get_CanResize
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the control can be resized.
 old-location: winauto\uiauto_ITransformProvider_CanResize.htm
 old-project: WinAuto
 ms.assetid: fd7cb359-6e71-44c2-b1c0-4fd7e210244e
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CanResize property [Windows Accessibility], CanResize property [Windows Accessibility],ITransformProvider interface, ITransformProvider interface [Windows Accessibility],CanResize property, ITransformProvider.CanResize, ITransformProvider.get_CanResize, ITransformProvider::CanResize, ITransformProvider::get_CanResize, get_CanResize, uiauto.uiauto_ITransformProvider_CanResize, uiauto_ITransformProvider_CanResize, uiautomationcore/ITransformProvider::CanResize, uiautomationcore/ITransformProvider::get_CanResize, winauto.uiauto_ITransformProvider_CanResize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

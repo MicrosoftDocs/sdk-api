@@ -1,16 +1,16 @@
 ---
 UID: NF:inspectable.HSTRING_UserMarshal
 title: HSTRING_UserMarshal function
-author: windows-driver-content
+author: windows-sdk-content
 description: Marshals an HSTRING object into the RPC buffer.
 old-location: winrt\hstring_usermarshal.htm
 old-project: WinRT
 ms.assetid: 986942D6-A1CD-4BED-9AD3-82FB4892E28E
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: HSTRING_UserMarshal, HSTRING_UserMarshal function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserMarshal, winrt.hstring_usermarshal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h

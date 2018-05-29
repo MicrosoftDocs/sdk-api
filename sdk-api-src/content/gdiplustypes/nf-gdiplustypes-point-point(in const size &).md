@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.Point.Point(IN const Size &)
 title: Point::Point(IN const Size &)
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a Point object and initializes the X and Y data members to zero. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_Point_Point_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointconstructors\point_14.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Point, Point class [GDI+],Point constructor, Point constructor [GDI+], Point constructor [GDI+],Point class, Point.Point, Point.Point(), Point.Point(IN const Size &), Point::Point, Point::Point(IN const Size &), _gdiplus_CLASS_Point_Point_, gdiplus._gdiplus_CLASS_Point_Point_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

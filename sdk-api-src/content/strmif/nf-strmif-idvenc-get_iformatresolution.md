@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDVEnc.get_IFormatResolution
 title: IDVEnc::get_IFormatResolution
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_IFormatResolution method retrieves the encoding resolution.
 old-location: dshow\idvenc_get_iformatresolution.htm
 old-project: DirectShow
 ms.assetid: 5921e19a-d500-4799-88a0-ff2f67bd81af
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDVEnc interface [DirectShow],get_IFormatResolution method, IDVEnc.get_IFormatResolution, IDVEnc::get_IFormatResolution, IDVEncget_IFormatResolution, dshow.idvenc_get_iformatresolution, get_IFormatResolution, get_IFormatResolution method [DirectShow], get_IFormatResolution method [DirectShow],IDVEnc interface, strmif/IDVEnc::get_IFormatResolution
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

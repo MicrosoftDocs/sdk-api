@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_AP_LOGON_TERMINATED
 title: LSA_AP_LOGON_TERMINATED
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to notify an authentication package when a logon session terminates. A logon session terminates when the last token referencing the logon session is deleted.
 old-location: security\lsaaplogonterminated.htm
 old-project: SecAuthN
 ms.assetid: 17e8426a-5a25-48ca-8cef-91bbeda8490c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LSA_AP_LOGON_TERMINATED, LsaApLogonTerminated, LsaApLogonTerminated function [Security], _lsa_lsaaplogonterminated, ntsecpkg/LsaApLogonTerminated, security.lsaaplogonterminated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.get_VerticalViewSize
 title: IScrollProvider::get_VerticalViewSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the vertical size of the viewable region.
 old-location: winauto\uiauto_IScrollProvider_VerticalViewSize.htm
 old-project: WinAuto
 ms.assetid: 9ddf60c9-68d4-4bec-8bbe-cb9bb13711e6
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],VerticalViewSize property, IScrollProvider.VerticalViewSize, IScrollProvider.get_VerticalViewSize, IScrollProvider::VerticalViewSize, IScrollProvider::get_VerticalViewSize, VerticalViewSize property [Windows Accessibility], VerticalViewSize property [Windows Accessibility],IScrollProvider interface, get_VerticalViewSize, uiauto.uiauto_IScrollProvider_VerticalViewSize, uiauto_IScrollProvider_VerticalViewSize, uiautomationcore/IScrollProvider::VerticalViewSize, uiautomationcore/IScrollProvider::get_VerticalViewSize, winauto.uiauto_IScrollProvider_VerticalViewSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

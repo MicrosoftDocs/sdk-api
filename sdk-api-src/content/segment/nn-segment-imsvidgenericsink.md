@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidGenericSink
 title: IMSVidGenericSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMSVidGenericSink interface represents a generic output device that supports streaming output. It is implemented by the MSVidGenericSink object.
 old-location: mstv\imsvidgenericsink.htm
 old-project: mstv
 ms.assetid: 15181a89-aa64-4ecf-aaf5-4aac36753ddf
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidGenericSink, IMSVidGenericSink interface [Microsoft TV Technologies], IMSVidGenericSink interface [Microsoft TV Technologies],described, IMSVidGenericSinkInterface, mstv.imsvidgenericsink, segment/IMSVidGenericSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

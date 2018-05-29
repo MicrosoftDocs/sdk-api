@@ -1,16 +1,16 @@
 ---
 UID: NC:avrfsdk.AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
 title: AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives information related to heap allocations.
 old-location: winprog\avrf_heap_allocation_enumerate_callback.htm
 old-project: DevNotes
 ms.assetid: 614d49f5-d119-4afe-b821-30ee9cb29582
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK, AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback, AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback function [Windows API], avrfsdk/AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK, base.avrf_heap_allocation_enumerate_callback, winprog.avrf_heap_allocation_enumerate_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: avrfsdk.h
 req.include-header: 

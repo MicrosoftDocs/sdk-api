@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.SysReAllocString
 title: SysReAllocString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reallocates a previously allocated string to be the size of a second string and copies the second string into the reallocated memory.
 old-location: automat\sysreallocstring.htm
 old-project: automat
 ms.assetid: 0207c33b-c065-42bb-8d70-ccdc3fddb338
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: SysReAllocString, SysReAllocString function [Automation], _oa96_SysReAllocString, automat.sysreallocstring, oleauto/SysReAllocString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

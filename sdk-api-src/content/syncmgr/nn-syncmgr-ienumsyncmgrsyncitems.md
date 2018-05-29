@@ -1,16 +1,16 @@
 ---
 UID: NN:syncmgr.IEnumSyncMgrSyncItems
 title: IEnumSyncMgrSyncItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that enumerate the sync item objects managed by the handler.
 old-location: shell\IEnumSyncMgrSyncItems.htm
 old-project: shell
 ms.assetid: 0d1695e2-6936-4f53-9594-e0e2bc69afd4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumSyncMgrSyncItems, IEnumSyncMgrSyncItems interface [Windows Shell], IEnumSyncMgrSyncItems interface [Windows Shell],described, _shell_IEnumSyncMgrSyncItems, shell.IEnumSyncMgrSyncItems, syncmgr/IEnumSyncMgrSyncItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

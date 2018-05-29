@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.MCIWndOpen
 title: MCIWndOpen macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCIWndOpen macro opens an MCI device and associates it with an MCIWnd window.
 old-location: multimedia\mciwndopen.htm
 old-project: Multimedia
 ms.assetid: 88620085-8cba-489c-bfb8-d28b0a5e6013
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MCIWndOpen, MCIWndOpen macro [Windows Multimedia], _win32_MCIWndOpen, multimedia.mciwndopen, vfw/MCIWndOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADs
 title: IADs
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADs interface defines the basic object features, that is, properties and methods, of any ADSI object.
 old-location: adsi\iads.htm
 old-project: ADSI
 ms.assetid: f53d9ee0-3f4d-4a01-b953-98d168ad94cb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADs, IADs interface [ADSI], IADs interface [ADSI],described, _ds_iads, adsi.iads, iads/IADs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

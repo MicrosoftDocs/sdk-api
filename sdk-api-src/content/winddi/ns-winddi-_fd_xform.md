@@ -1,16 +1,16 @@
 ---
 UID: NS:winddi._FD_XFORM
 title: "_FD_XFORM"
-author: windows-driver-content
+author: windows-sdk-content
 description: The FD_XFORM structure describes an arbitrary two-dimensional font transform.
 old-location: display\fd_xform.htm
 old-project: display
 ms.assetid: 4d15a771-fbf2-46ed-9698-faa3840f5f76
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PFD_XFORM, FD_XFORM, FD_XFORM structure [Display Devices], PFD_XFORM, PFD_XFORM structure pointer [Display Devices], _FD_XFORM, display.fd_xform, grstrcts_c68b9048-8da3-4c5d-b977-6bd50cbd6703.xml, winddi/FD_XFORM, winddi/PFD_XFORM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: 

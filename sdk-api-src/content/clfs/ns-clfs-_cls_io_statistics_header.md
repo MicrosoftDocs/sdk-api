@@ -1,16 +1,16 @@
 ---
 UID: NS:clfs._CLS_IO_STATISTICS_HEADER
 title: "_CLS_IO_STATISTICS_HEADER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Header for information retrieved by the GetLogIoStatistics function, which defines the I/O performance counters of a log.
 old-location: fs\clfs_io_statistics_header.htm
 old-project: Clfs
 ms.assetid: ebf3f962-5c15-4caf-910a-13bf02137046
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLFS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER, CLFS_IO_STATISTICS_HEADER, CLFS_IO_STATISTICS_HEADER structure [Files], CLS_IO_STATISTICS_HEADER, PCLFS_IO_STATISTICS_HEADER, PCLFS_IO_STATISTICS_HEADER structure pointer [Files], PPCLFS_IO_STATISTICS_HEADER, PPCLFS_IO_STATISTICS_HEADER structure pointer [Files], PPCLS_IO_STATISTICS_HEADER, _CLS_IO_STATISTICS_HEADER, clfs/PCLFS_IO_STATISTICS_HEADER, clfs/PPCLFS_IO_STATISTICS_HEADER, clfs/_CLFS_IO_STATISTICS_HEADER, fs.clfs_io_statistics_header"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h

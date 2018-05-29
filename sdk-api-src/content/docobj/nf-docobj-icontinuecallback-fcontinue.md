@@ -1,16 +1,16 @@
 ---
 UID: NF:docobj.IContinueCallback.FContinue
 title: IContinueCallback::FContinue
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether a generic operation should continue.
 old-location: com\icontinuecallback_fcontinue.htm
 old-project: com
 ms.assetid: c84899df-fef1-473d-8278-d715a8ab8ee5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FContinue, FContinue method [COM], FContinue method [COM],IContinueCallback interface, IContinueCallback interface [COM],FContinue method, IContinueCallback.FContinue, IContinueCallback::FContinue, _com_icontinuecallback_fcontinue, com.icontinuecallback_fcontinue, docobj/IContinueCallback::FContinue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: docobj.h
 req.include-header: 

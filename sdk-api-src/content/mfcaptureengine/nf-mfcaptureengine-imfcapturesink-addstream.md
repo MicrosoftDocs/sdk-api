@@ -1,16 +1,16 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink.AddStream
 title: IMFCaptureSink::AddStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Connects a stream from the capture source to this capture sink.
 old-location: mf\imfcapturesink_addstream.htm
 old-project: medfound
 ms.assetid: 5D7A1FE0-92B9-4CC4-A268-17FA848055A9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddStream, AddStream method [Media Foundation], AddStream method [Media Foundation],IMFCaptureSink interface, IMFCaptureSink interface [Media Foundation],AddStream method, IMFCaptureSink.AddStream, IMFCaptureSink::AddStream, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, mf.imfcapturesink_addstream, mfcaptureengine/IMFCaptureSink::AddStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

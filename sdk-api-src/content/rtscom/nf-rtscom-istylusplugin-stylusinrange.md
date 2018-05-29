@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusInRange
 title: IStylusPlugin::StylusInRange
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the implementing plug-in that the stylus is entering the detection range of the digitizer.
 old-location: tablet\istylusplugin_stylusinrange.htm
 old-project: tablet
 ms.assetid: 586e7fee-6340-46b6-941f-1316b2925e1c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 586e7fee-6340-46b6-941f-1316b2925e1c, IStylusPlugin interface [Tablet PC],StylusInRange method, IStylusPlugin.StylusInRange, IStylusPlugin::StylusInRange, StylusInRange, StylusInRange method [Tablet PC], StylusInRange method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::StylusInRange, tablet.istylusplugin_stylusinrange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

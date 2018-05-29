@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.Gads_parms_t
 title: Gads_parms_t
-author: windows-driver-content
+author: windows-sdk-content
 description: The Gads_parms_t structure stores guaranteed service Adspec parameters.
 old-location: qos\gads_parms_t.htm
 old-project: QOS
 ms.assetid: 06492722-948d-407a-b1bf-e1c4f5ea7f89
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: Gads_parms_t, Gads_parms_t structure [QOS], lpmapi/Gads_parms_t, qos.gads_parms_t
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

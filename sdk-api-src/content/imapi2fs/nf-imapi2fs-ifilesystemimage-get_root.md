@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_Root
 title: IFileSystemImage::get_Root
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the root directory item.
 old-location: imapi\ifilesystemimage_get_root.htm
 old-project: imapi
 ms.assetid: 4b43468a-f02c-4806-9f65-529dc6d8f20a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_Root method, IFileSystemImage.get_Root, IFileSystemImage::get_Root, get_Root, get_Root method [IMAPI], get_Root method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_root, imapi2fs/IFileSystemImage::get_Root
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpGetAllOptionValuesV6
 title: DhcpGetAllOptionValuesV6 function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DhcpGetAllOptionValuesV6 function returns an array that contains all option values defined for a specific scope on the DHCP server.
 old-location: dhcp\dhcpgetalloptionvaluesv6.htm
 old-project: DHCP
 ms.assetid: b8be43f1-198b-4c96-a258-014842673192
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetAllOptionValuesV6, DhcpGetAllOptionValuesV6 function [DHCP], dhcp.dhcpgetalloptionvaluesv6, dhcpsapi/DhcpGetAllOptionValuesV6
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

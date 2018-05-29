@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaEnumerateTrustedDomains
 title: LsaEnumerateTrustedDomains function
-author: windows-driver-content
+author: windows-sdk-content
 description: The LsaEnumerateTrustedDomains function retrieves the names and SIDs of domains trusted to authenticate logon credentials.
 old-location: security\lsaenumeratetrusteddomains.htm
 old-project: SecMgmt
 ms.assetid: 5c371d5a-26cf-4a99-a8e1-006b6b3cc91f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaEnumerateTrustedDomains, LsaEnumerateTrustedDomains function [Security], _lsa_lsaenumeratetrusteddomains, ntsecapi/LsaEnumerateTrustedDomains, security.lsaenumeratetrusteddomains
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

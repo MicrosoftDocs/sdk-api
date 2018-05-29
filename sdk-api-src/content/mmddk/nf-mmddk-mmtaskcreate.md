@@ -1,16 +1,16 @@
 ---
 UID: NF:mmddk.mmTaskCreate
 title: mmTaskCreate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The mmTaskCreate function is deprecated. Applications should not use this function.
 old-location: multimedia\mmtaskcreate.htm
 old-project: Multimedia
 ms.assetid: 9e5cad11-ed26-4c19-89e0-dbf6be9af78c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: mmTaskCreate, mmTaskCreate function [Windows Multimedia], mmddk/mmTaskCreate, multimedia.mmtaskcreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mmddk.h
 req.include-header: 

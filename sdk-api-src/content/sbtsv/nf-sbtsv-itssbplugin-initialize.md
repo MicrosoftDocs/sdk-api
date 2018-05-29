@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbPlugin.Initialize
 title: ITsSbPlugin::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the plug-in.
 old-location: termserv\itssbplugin_initialize.htm
 old-project: TermServ
 ms.assetid: 1ff0b1a2-042d-4df2-9ae4-cfa4b7c644ab
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbLoadBalancing interface [Remote Desktop Services],Initialize method, ITsSbLoadBalancing::Initialize, ITsSbOrchestration interface [Remote Desktop Services],Initialize method, ITsSbOrchestration::Initialize, ITsSbPlacement interface [Remote Desktop Services],Initialize method, ITsSbPlacement::Initialize, ITsSbPlugin interface [Remote Desktop Services],Initialize method, ITsSbPlugin.Initialize, ITsSbPlugin::Initialize, ITsSbProvisioning interface [Remote Desktop Services],Initialize method, ITsSbProvisioning::Initialize, ITsSbResourcePlugin interface [Remote Desktop Services],Initialize method, ITsSbResourcePlugin::Initialize, ITsSbTaskPlugin interface [Remote Desktop Services],Initialize method, ITsSbTaskPlugin::Initialize, Initialize, Initialize method [Remote Desktop Services], Initialize method [Remote Desktop Services],ITsSbLoadBalancing interface, Initialize method [Remote Desktop Services],ITsSbOrchestration interface, Initialize method [Remote Desktop Services],ITsSbPlacement interface, Initialize method [Remote Desktop Services],ITsSbPlugin interface, Initialize method [Remote Desktop Services],ITsSbProvisioning interface, Initialize method [Remote Desktop Services],ITsSbResourcePlugin interface, Initialize method [Remote Desktop Services],ITsSbTaskPlugin interface, sbtsv/ITsSbLoadBalancing::Initialize, sbtsv/ITsSbOrchestration::Initialize, sbtsv/ITsSbPlacement::Initialize, sbtsv/ITsSbPlugin::Initialize, sbtsv/ITsSbProvisioning::Initialize, sbtsv/ITsSbResourcePlugin::Initialize, sbtsv/ITsSbTaskPlugin::Initialize, termserv.itssbplugin_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

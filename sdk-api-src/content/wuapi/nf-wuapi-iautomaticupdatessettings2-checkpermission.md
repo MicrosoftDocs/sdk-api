@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IAutomaticUpdatesSettings2.CheckPermission
 title: IAutomaticUpdatesSettings2::CheckPermission
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a specific user or type of user has permission to perform a selected action.
 old-location: wua\iautomaticupdatessettings2_checkpermission.htm
 old-project: Wua_Sdk
 ms.assetid: fbf36d9f-98c1-4b9d-b479-a9203b6ce952
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CheckPermission, CheckPermission method [Windows Update Agent], CheckPermission method [Windows Update Agent],IAutomaticUpdatesSettings2 interface, IAutomaticUpdatesSettings2 interface [Windows Update Agent],CheckPermission method, IAutomaticUpdatesSettings2.CheckPermission, IAutomaticUpdatesSettings2::CheckPermission, wua.iautomaticupdatessettings2_checkpermission, wuapi/IAutomaticUpdatesSettings2::CheckPermission
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

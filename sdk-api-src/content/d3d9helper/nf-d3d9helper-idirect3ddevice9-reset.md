@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.Reset
 title: IDirect3DDevice9::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the type, size, and format of the swap chain.
 old-location: direct3d9\idirect3ddevice9__reset.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__reset.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],Reset method, IDirect3DDevice9.Reset, IDirect3DDevice9::Reset, Reset, Reset method [Direct3D 9], Reset method [Direct3D 9],IDirect3DDevice9 interface, b7f53ca7-1a26-5bf8-890b-5a4f26b3c249, d3d9helper/IDirect3DDevice9::Reset, direct3d9.idirect3ddevice9__reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrm.IFsrmMutableCollection.RemoveById
 title: IFsrmMutableCollection::RemoveById
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the specified object from the collection using an object identifier.
 old-location: fsrm\ifsrmmutablecollection_removebyid.htm
 old-project: Fsrm
 ms.assetid: 42f6fc4c-72fe-47c8-91c5-21987fa91848
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmMutableCollection interface [File Server Resource Manager],RemoveById method, IFsrmMutableCollection.RemoveById, IFsrmMutableCollection::RemoveById, RemoveById, RemoveById method [File Server Resource Manager], RemoveById method [File Server Resource Manager],IFsrmMutableCollection interface, fs.ifsrmmutablecollection_removebyid, fsrm.ifsrmmutablecollection_removebyid, fsrm/IFsrmMutableCollection::RemoveById
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h

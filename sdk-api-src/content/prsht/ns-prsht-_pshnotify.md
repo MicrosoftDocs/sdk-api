@@ -1,16 +1,16 @@
 ---
 UID: NS:prsht._PSHNOTIFY
 title: "_PSHNOTIFY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information for the property sheet notification messages.
 old-location: controls\PSHNOTIFY.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\pshnotify.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPPSHNOTIFY, LPPSHNOTIFY, LPPSHNOTIFY structure pointer [Windows Controls], PSHNOTIFY, PSHNOTIFY structure [Windows Controls], _PSHNOTIFY, _win32_PSHNOTIFY, _win32_PSHNOTIFY_cpp, controls.PSHNOTIFY, controls._win32_PSHNOTIFY, prsht/LPPSHNOTIFY, prsht/PSHNOTIFY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: prsht.h
 req.include-header: 

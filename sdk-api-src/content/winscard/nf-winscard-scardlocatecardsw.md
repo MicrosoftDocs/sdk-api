@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardLocateCardsW
 title: SCardLocateCardsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches the readers listed in the rgReaderStates parameter for a card with an ATR string that matches one of the card names specified in mszCards, returning immediately with the result.
 old-location: security\scardlocatecards.htm
 old-project: SecAuthN
 ms.assetid: 7ee90188-6fe5-417b-a7c7-9c29d9cdd4d0
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCardLocateCards, SCardLocateCards function [Security], SCardLocateCardsA, SCardLocateCardsW, _smart_scardlocatecards, security.scardlocatecards, winscard/SCardLocateCards, winscard/SCardLocateCardsA, winscard/SCardLocateCardsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

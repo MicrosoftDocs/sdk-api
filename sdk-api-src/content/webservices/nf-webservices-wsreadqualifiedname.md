@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsReadQualifiedName
 title: WsReadQualifiedName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads a qualified name and separates it into its prefix, localName and namespace based on the current namespace scope of the XML_READER.
 old-location: wsw\wsreadqualifiedname.htm
 old-project: wsw
 ms.assetid: bc49fb89-72ba-435a-ac50-303f16d36da2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsReadQualifiedName, WsReadQualifiedName function [Web Services for Windows], webservices/WsReadQualifiedName, wsw.wsreadqualifiedname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIPutFileOnClipboard
 title: AVIPutFileOnClipboard function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIPutFileOnClipboard function copies an AVI file to the clipboard.
 old-location: multimedia\aviputfileonclipboard.htm
 old-project: Multimedia
 ms.assetid: 5b2bf73d-9a09-4eec-bbb2-893fe584e3e0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIPutFileOnClipboard, AVIPutFileOnClipboard function [Windows Multimedia], _win32_AVIPutFileOnClipboard, multimedia.aviputfileonclipboard, vfw/AVIPutFileOnClipboard
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

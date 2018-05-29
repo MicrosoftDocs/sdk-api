@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SecPkgContext_Flags
 title: "_SecPkgContext_Flags"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SecPkgContext_Flags structure contains information about the flags in the current security context. This structure is returned by QueryContextAttributes (General).
 old-location: security\secpkgcontext_flags.htm
 old-project: SecAuthN
 ms.assetid: 0be0e945-4048-4748-a9fd-15d08fb7ff3e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgContext_Flags, PSecPkgContext_Flags, PSecPkgContext_Flags structure pointer [Security], SecPkgContext_Flags, SecPkgContext_Flags structure [Security], _SecPkgContext_Flags, security.secpkgcontext_flags, sspi/PSecPkgContext_Flags, sspi/SecPkgContext_Flags"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Seek
 title: IMDSPObject::Seek
-author: windows-driver-content
+author: windows-sdk-content
 description: The Seek method sets the current position within the object. This operation is valid only if the storage object represents a file.
 old-location: wmdm\imdspobject_seek.htm
 old-project: WMDM
 ms.assetid: 89494180-9dd7-41f3-b510-a59c38415d75
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Seek method, IMDSPObject.Seek, IMDSPObject::Seek, IMDSPObjectSeek, Seek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Seek, wmdm.imdspobject_seek
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

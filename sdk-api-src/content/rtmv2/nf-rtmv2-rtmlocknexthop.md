@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmLockNextHop
 title: RtmLockNextHop function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmLockNextHop function locks or unlocks a next hop. This function should be called by the next hop's owner to lock the next hop before making changes to the next hop. A pointer to the next hop is returned.
 old-location: rras\rtmlocknexthop.htm
 old-project: RRAS
 ms.assetid: f5b6d430-a50e-49fc-8274-81bac1300477
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmLockNextHop, RtmLockNextHop function [RAS], _rtmv2ref_rtmlocknexthop, rras.rtmlocknexthop, rtmv2/RtmLockNextHop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

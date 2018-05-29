@@ -1,16 +1,16 @@
 ---
 UID: NS:winnls._nlsversioninfoex
 title: "_nlsversioninfoex"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains version information about an NLS capability.
 old-location: intl\nlsversioninfoex.htm
 old-project: Intl
 ms.assetid: 97f637df-3e0e-4349-a617-96b7c640b19d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPNLSVERSIONINFOEX, LPNLSVERSIONINFOEX, LPNLSVERSIONINFOEX structure pointer [Internationalization for Windows Applications], NLSVERSIONINFOEX, NLSVERSIONINFOEX structure [Internationalization for Windows Applications], _nlsversioninfoex, _win32_NLSVERSIONINFOEX_str, intl.nlsversioninfoex, winnls/LPNLSVERSIONINFOEX, winnls/NLSVERSIONINFOEX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnls.h
 req.include-header: Windows.h

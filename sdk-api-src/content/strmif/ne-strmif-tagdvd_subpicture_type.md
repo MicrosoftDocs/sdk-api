@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif.tagDVD_SUBPICTURE_TYPE
 title: tagDVD_SUBPICTURE_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines flags used to determine what kind of content the subpicture stream contains.
 old-location: dshow\dvd_subpicture_type.htm
 old-project: DirectShow
 ms.assetid: c4c5eb83-4773-464d-8b0c-b46b13c3b6d3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_SPType_Language, DVD_SPType_NotSpecified, DVD_SPType_Other, DVD_SUBPICTURE_TYPE, DVD_SUBPICTURE_TYPE , DVD_SUBPICTURE_TYPE enumeration [DirectShow], DVD_SUBPICTURE_TYPEEnumeration, dshow.dvd_subpicture_type, strmif/DVD_SPType_Language, strmif/DVD_SPType_NotSpecified, strmif/DVD_SPType_Other, strmif/DVD_SUBPICTURE_TYPE, tagDVD_SUBPICTURE_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._LOOKUP_STREAM_FROM_CLUSTER_INPUT
 title: "_LOOKUP_STREAM_FROM_CLUSTER_INPUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Passed as input to the FSCTL_LOOKUP_STREAM_FROM_CLUSTER control code.
 old-location: fs\lookup_stream_from_cluster_input.htm
 old-project: FileIO
 ms.assetid: 4b398ae8-a396-4917-bcb8-aa5f5920296f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PLOOKUP_STREAM_FROM_CLUSTER_INPUT, LOOKUP_STREAM_FROM_CLUSTER_INPUT, LOOKUP_STREAM_FROM_CLUSTER_INPUT structure [Files], PLOOKUP_STREAM_FROM_CLUSTER_INPUT, PLOOKUP_STREAM_FROM_CLUSTER_INPUT structure pointer [Files], _LOOKUP_STREAM_FROM_CLUSTER_INPUT, fs.lookup_stream_from_cluster_input, winioctl/LOOKUP_STREAM_FROM_CLUSTER_INPUT, winioctl/PLOOKUP_STREAM_FROM_CLUSTER_INPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetPaletteEntries
 title: GetPaletteEntries function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPaletteEntries function retrieves a specified range of palette entries from the given logical palette.
 old-location: gdi\getpaletteentries.htm
 old-project: gdi
 ms.assetid: 5e72e881-32e1-458e-a09e-91fa13abe178
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPaletteEntries, GetPaletteEntries function [Windows GDI], _win32_GetPaletteEntries, gdi.getpaletteentries, wingdi/GetPaletteEntries
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

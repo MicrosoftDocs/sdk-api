@@ -1,16 +1,16 @@
 ---
 UID: NS:cfgmgr32.DMA_Range_s
 title: DMA_Range_s
-author: windows-driver-content
+author: windows-sdk-content
 description: The DMA_RANGE structure specifies a resource requirements list that describes DMA channel usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
 old-location: devinst\dma_range.htm
 old-project: devinst
 ms.assetid: 46c80013-1863-4e02-be8d-282d2e619200
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PDMA_RANGE, DMA_RANGE, DMA_RANGE structure [Device and Driver Installation], DMA_Range_s, PDMA_RANGE, PDMA_RANGE structure pointer [Device and Driver Installation], cfgmgr32/DMA_RANGE, cfgmgr32/PDMA_RANGE, cfgmgrst_a19d993e-d664-4218-8bae-23e97919b3a8.xml, devinst.dma_range"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

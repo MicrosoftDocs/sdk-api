@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsWriteStartElement
 title: WsWriteStartElement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes a start element to the writer.
 old-location: wsw\wswritestartelement.htm
 old-project: wsw
 ms.assetid: da23f5e6-504c-4e93-9190-7d8c41efc0da
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsWriteStartElement, WsWriteStartElement function [Web Services for Windows], webservices/WsWriteStartElement, wsw.wswritestartelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

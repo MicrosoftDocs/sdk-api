@@ -1,16 +1,16 @@
 ---
 UID: NE:textstor.__MIDL_IAnchor_0001
 title: "__MIDL_IAnchor_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Elements of the TsGravity enumeration specify the gravity type associated with an IAnchor object.
 old-location: tsf\tsgravity.htm
 old-project: TSF
 ms.assetid: 12ec85b9-e65f-485d-8e42-164d2a988356
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TS_GR_BACKWARD, TS_GR_FORWARD, TsGravity, TsGravity enumeration [Text Services Framework], __MIDL_IAnchor_0001, _tsf_tsgravity_ref, textstor/TS_GR_BACKWARD, textstor/TS_GR_FORWARD, textstor/TsGravity, tsf.tsgravity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: textstor.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:faxroute.FaxRouteInitialize
 title: FaxRouteInitialize function
-author: windows-driver-content
+author: windows-sdk-content
 description: The fax service calls the FaxRouteInitialize function once, each time the service starts, to initialize the fax routing extension DLL. Each fax routing extension DLL must export the FaxRouteInitialize function.
 old-location: fax\_mfax_faxrouteinitialize.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_54o5.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxRouteInitialize, FaxRouteInitialize function [Fax Service], _mfax_faxrouteinitialize, fax._mfax_faxrouteinitialize, faxroute/FaxRouteInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: faxroute.h
 req.include-header: 

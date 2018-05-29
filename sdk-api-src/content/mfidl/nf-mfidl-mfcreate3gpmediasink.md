@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreate3GPMediaSink
 title: MFCreate3GPMediaSink function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a media sink for authoring 3GP files.
 old-location: mf\mfcreate3gpmediasink.htm
 old-project: medfound
 ms.assetid: a0a1f6af-5d73-4347-abd7-9b2bde61fdf2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreate3GPMediaSink, MFCreate3GPMediaSink function [Media Foundation], mf.mfcreate3gpmediasink, mfidl/MFCreate3GPMediaSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

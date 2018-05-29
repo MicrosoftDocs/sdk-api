@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiGetClassBitmapIndex
 title: SetupDiGetClassBitmapIndex function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiGetClassBitmapIndex function retrieves the index of the mini-icon supplied for the specified class.
 old-location: devinst\setupdigetclassbitmapindex.htm
 old-project: devinst
 ms.assetid: 5e64d387-701c-42eb-87a8-ba2f51c8552d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiGetClassBitmapIndex, SetupDiGetClassBitmapIndex function [Device and Driver Installation], devinst.setupdigetclassbitmapindex, di-rtns_6c4b7a43-90cf-4f8a-9766-2ebe966fb8c0.xml, setupapi/SetupDiGetClassBitmapIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.CleanNtmsDrive
 title: CleanNtmsDrive function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CleanNtmsDrive function queues a cleaning request for the specified drive for cleaning.
 old-location: fs\cleanntmsdrive.htm
 old-project: Rsm
 ms.assetid: 55a8e7c0-85fd-40c5-b5b9-46ad321761c4
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: CleanNtmsDrive, CleanNtmsDrive function [Files], _zaw_cleanntmsdrive, base.cleanntmsdrive, fs.cleanntmsdrive, ntmsapi/CleanNtmsDrive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

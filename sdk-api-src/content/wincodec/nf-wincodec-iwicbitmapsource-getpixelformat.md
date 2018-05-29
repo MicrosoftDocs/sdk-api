@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapSource.GetPixelFormat
 title: IWICBitmapSource::GetPixelFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the pixel format of the bitmap source..
 old-location: wic\_wic_codec_iwicbitmapsource_getpixelformat.htm
 old-project: wic
 ms.assetid: 6fd30a38-a447-4e4e-93ea-e31c5ba1271e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [Windows Imaging Component], GetPixelFormat method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],GetPixelFormat method, IWICBitmapSource.GetPixelFormat, IWICBitmapSource::GetPixelFormat, _wic_codec_iwicbitmapsource_getpixelformat, wic._wic_codec_iwicbitmapsource_getpixelformat, wincodec/IWICBitmapSource::GetPixelFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

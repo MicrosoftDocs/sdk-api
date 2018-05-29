@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDrawPalette.GetCaps
 title: IDirectDrawPalette::GetCaps
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the capabilities of the palette object.
 old-location: directdraw\idirectdrawpalette_getcaps.htm
 old-project: directdraw
 ms.assetid: 7afdea97-39b7-4dd1-8084-90ec40814735
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DDPCAPS_1BIT, DDPCAPS_2BIT, DDPCAPS_4BIT, DDPCAPS_8BIT, DDPCAPS_8BITENTRIES, DDPCAPS_ALLOW256, DDPCAPS_ALPHA, DDPCAPS_PRIMARYSURFACE, DDPCAPS_PRIMARYSURFACELEFT, DDPCAPS_VSYNC, GetCaps, GetCaps method [DirectDraw], GetCaps method [DirectDraw],IDirectDrawPalette interface, IDirectDrawPalette interface [DirectDraw],GetCaps method, IDirectDrawPalette.GetCaps, IDirectDrawPalette::GetCaps, ddraw/IDirectDrawPalette::GetCaps, directdraw.idirectdrawpalette_getcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

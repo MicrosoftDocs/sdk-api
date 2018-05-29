@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResource.SetContent
 title: IXpsOMSignatureBlockResource::SetContent
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the read-only stream to be associated with this resource.
 old-location: xps\ixpsomsignatureblockresource_setcontent.htm
 old-project: printdocs
 ms.assetid: f9a10907-9241-42af-8858-029c2cf925cf
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],SetContent method, IXpsOMSignatureBlockResource.SetContent, IXpsOMSignatureBlockResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMSignatureBlockResource interface, xps.ixpsomsignatureblockresource_setcontent, xpsobjectmodel/IXpsOMSignatureBlockResource::SetContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

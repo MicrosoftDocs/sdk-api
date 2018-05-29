@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_WSZ_DESCRIPTION
 title: "_WS_WSZ_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: This type description is used with WS_WSZ_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_wsz_description.htm
 old-project: wsw
 ms.assetid: 12b6f630-7585-4c88-8c49-f37d1899d32b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_WSZ_DESCRIPTION, WS_WSZ_DESCRIPTION structure [Web Services for Windows], _WS_WSZ_DESCRIPTION, webservices/WS_WSZ_DESCRIPTION, wsw.ws_wsz_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

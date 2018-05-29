@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccPropServices.ClearHmenuProps
 title: IAccPropServices::ClearHmenuProps
-author: windows-driver-content
+author: windows-sdk-content
 description: This method wraps ClearProps, and provides a convenient entry point for callers who are annotating HMENU-based accessible elements.
 old-location: winauto\iaccpropservices_iaccpropservices__clearhmenuprops.htm
 old-project: WinAuto
 ms.assetid: dbff74b0-c67b-4ef4-add7-6063c4760455
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ClearHmenuProps, ClearHmenuProps method [Windows Accessibility], ClearHmenuProps method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ClearHmenuProps method, IAccPropServices.ClearHmenuProps, IAccPropServices::ClearHmenuProps, oleacc/IAccPropServices::ClearHmenuProps, winauto.iaccpropservices_iaccpropservices__clearhmenuprops
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.

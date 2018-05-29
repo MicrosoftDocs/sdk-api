@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IAnalogLocator.get_VideoStandard
 title: IAnalogLocator::get_VideoStandard
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_VideoStandard method retrieves the format of the analog television signal.
 old-location: mstv\ianaloglocator_get_videostandard.htm
 old-project: mstv
 ms.assetid: 8530f436-8067-43bd-8f64-45e042ccb466
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAnalogLocator interface [Microsoft TV Technologies],get_VideoStandard method, IAnalogLocator.get_VideoStandard, IAnalogLocator::get_VideoStandard, IAnalogLocatorget_VideoStandard, get_VideoStandard, get_VideoStandard method [Microsoft TV Technologies], get_VideoStandard method [Microsoft TV Technologies],IAnalogLocator interface, mstv.ianaloglocator_get_videostandard, tuner/IAnalogLocator::get_VideoStandard
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.MCIWndSetRepeat
 title: MCIWndSetRepeat macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCIWndSetRepeat macro sets the repeat flag associated with continuous playback. You can use this macro or explicitly send the MCIWNDM_SETREPEAT message.
 old-location: multimedia\mciwndsetrepeat.htm
 old-project: Multimedia
 ms.assetid: e9c64f01-dd51-4f45-bf58-e930d5d23461
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MCIWndSetRepeat, MCIWndSetRepeat macro [Windows Multimedia], _win32_MCIWndSetRepeat, multimedia.mciwndsetrepeat, vfw/MCIWndSetRepeat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

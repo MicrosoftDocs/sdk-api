@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.GetEncryptionStatus
 title: IOfflineFilesCache::GetEncryptionStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current encryption state (encrypted or unencrypted) of the Offline Files cache.
 old-location: of\iofflinefilescache_getencryptionstatus.htm
 old-project: OfflineFiles
 ms.assetid: 87c2aced-84c9-40cb-bdf2-6974925e89d5
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetEncryptionStatus, GetEncryptionStatus method [Offline Files], GetEncryptionStatus method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],GetEncryptionStatus method, IOfflineFilesCache.GetEncryptionStatus, IOfflineFilesCache::GetEncryptionStatus, cscobj/IOfflineFilesCache::GetEncryptionStatus, of.iofflinefilescache_getencryptionstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

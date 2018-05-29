@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaLookupNames
 title: LsaLookupNames function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs) that correspond to an array of user, group, or local group names.
 old-location: security\lsalookupnames.htm
 old-project: SecMgmt
 ms.assetid: 867604aa-7a39-4da7-b189-a9183461e9a0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaLookupNames, LsaLookupNames function [Security], _lsa_lsalookupnames, ntsecapi/LsaLookupNames, security.lsalookupnames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

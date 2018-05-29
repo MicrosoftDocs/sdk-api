@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.SetDirectory
 title: IExecuteCommand::SetDirectory
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a new working directory.
 old-location: shell\IExecuteCommand_SetDirectory.htm
 old-project: shell
 ms.assetid: 8416b2ef-8e62-4679-adc1-ec953875db34
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetDirectory method, IExecuteCommand.SetDirectory, IExecuteCommand::SetDirectory, SetDirectory, SetDirectory method [Windows Shell], SetDirectory method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetDirectory, shell.IExecuteCommand_SetDirectory, shobjidl_core/IExecuteCommand::SetDirectory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

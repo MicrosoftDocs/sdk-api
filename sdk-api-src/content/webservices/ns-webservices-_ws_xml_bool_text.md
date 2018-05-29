@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_BOOL_TEXT
 title: "_WS_XML_BOOL_TEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: A Boolean value that represents the text &#0034;true&#0034; or &#0034;false&#0034;.
 old-location: wsw\ws_xml_bool_text.htm
 old-project: wsw
 ms.assetid: 2f40b717-f94e-49d2-b79c-d8a5e86bebe6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_BOOL_TEXT, WS_XML_BOOL_TEXT structure [Web Services for Windows], _WS_XML_BOOL_TEXT, webservices/WS_XML_BOOL_TEXT, wsw.ws_xml_bool_text
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

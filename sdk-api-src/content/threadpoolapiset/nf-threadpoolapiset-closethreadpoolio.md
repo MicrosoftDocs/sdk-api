@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolIo
 title: CloseThreadpoolIo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the specified I/O completion object.
 old-location: base\closethreadpoolio.htm
 old-project: ProcThread
 ms.assetid: 499190de-54e8-4be6-909b-04505bcb0aa6
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CloseThreadpoolIo, CloseThreadpoolIo function, base.closethreadpoolio, threadpoolapiset/CloseThreadpoolIo, winbase/CloseThreadpoolIo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:portabledeviceapi.IEnumPortableDeviceObjectIDs
 title: IEnumPortableDeviceObjectIDs
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumPortableDeviceObjectIDs interface enumerates the objects on a portable device. Get this interface initially by calling IPortableDeviceContent::EnumObjects on a device.
 old-location: wpdsdk\ienumportabledeviceobjectids.htm
 old-project: wpd_sdk
 ms.assetid: 0e9a65cc-819c-494e-9c7c-8f5fec78a2ee
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IEnumPortableDeviceObjectIDs, IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK], IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],described, IEnumPortableDeviceObjectIDsInterface, portabledeviceapi/IEnumPortableDeviceObjectIDs, wpdsdk.ienumportabledeviceobjectids
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 

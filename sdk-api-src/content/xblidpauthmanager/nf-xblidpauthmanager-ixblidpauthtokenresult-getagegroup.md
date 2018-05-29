@@ -1,16 +1,16 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetAgeGroup
 title: IXblIdpAuthTokenResult::GetAgeGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getagegroup.htm
 old-project: xblidp
 ms.assetid: 0C2699CB-6AAF-4720-90AF-03A05A193DBC
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetAgeGroup, GetAgeGroup method, GetAgeGroup method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetAgeGroup method, IXblIdpAuthTokenResult.GetAgeGroup, IXblIdpAuthTokenResult::GetAgeGroup, xblidp.ixblidpauthtokenresult_getagegroup, xblidpauthmanager/IXblIdpAuthTokenResult::GetAgeGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

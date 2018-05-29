@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509Attribute.Initialize
 title: IX509Attribute::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the object from an object identifier (OID) and a value.
 old-location: security\ix509attribute_initialize_method.htm
 old-project: SecCertEnroll
 ms.assetid: 82457ca3-4aae-4f47-950c-1146c8614a5b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509Attribute interface [Security],Initialize method, IX509Attribute.Initialize, IX509Attribute::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509Attribute interface, certenroll/IX509Attribute::Initialize, security.ix509attribute_initialize_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

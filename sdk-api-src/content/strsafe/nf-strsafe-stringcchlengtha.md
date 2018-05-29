@@ -1,16 +1,16 @@
 ---
 UID: NF:strsafe.StringCchLengthA
 title: StringCchLengthA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a string exceeds the specified length, in characters.
 old-location: menurc\stringcchlength.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchlength.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
-ms.keywords: StringCchLength, StringCchLength function [Menus and Other Resources], StringCchLengthA, StringCchLengthW, _shell_StringCchLength, _shell_stringcchlength_cpp, menurc.stringcchlength, strsafe/StringCchLength, strsafe/StringCchLengthA, strsafe/StringCchLengthW, winui._shell_stringcchlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: StringCchLength, StringCchLength function [Menus and Other Resources], StringCchLengthA, StringCchLengthW, UnalignedStringCchLength, _shell_StringCchLength, _shell_stringcchlength_cpp, menurc.stringcchlength, strsafe/StringCchLength, strsafe/StringCchLengthA, strsafe/StringCchLengthW, winui._shell_stringcchlength
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 
@@ -166,6 +166,9 @@ Compared to  the functions it replaces, <b>StringCchLength</b> is an additional 
 </tr>
 </table>
  
+
+
+<a href="https://msdn.microsoft.com/35571305-9ef4-4215-ad88-80590e9b89cc">UnalignedStringCchLength</a> is an alias for this function.
 
 
 

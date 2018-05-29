@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_COUNTER_DESC
 title: D3D11_COUNTER_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a counter.
 old-location: direct3d11\d3d11_counter_desc.htm
 old-project: direct3d11
 ms.assetid: a0816409-fbe1-4b45-9b69-6f85b20008cb
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 37ab8337-bf1a-9bbe-268c-5a6aa3f34dda, D3D11_COUNTER_DESC, D3D11_COUNTER_DESC structure [Direct3D 11], d3d11/D3D11_COUNTER_DESC, direct3d11.d3d11_counter_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

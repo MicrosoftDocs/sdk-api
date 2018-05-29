@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_MASK_GEN_ALGORITHM
 title: "_CRYPT_MASK_GEN_ALGORITHM"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the algorithm used to generate an RSA PKCS #1 v2.1 signature mask.
 old-location: security\crypt_mask_gen_algorithm.htm
 old-project: SecCrypto
 ms.assetid: 26ccf26d-9cde-4653-b4ab-7362f4fad640
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_MASK_GEN_ALGORITHM, CRYPT_MASK_GEN_ALGORITHM, CRYPT_MASK_GEN_ALGORITHM structure [Security], PCRYPT_MASK_GEN_ALGORITHM, PCRYPT_MASK_GEN_ALGORITHM structure pointer [Security], _CRYPT_MASK_GEN_ALGORITHM, security.crypt_mask_gen_algorithm, szOID_RSA_MGF1, wincrypt/CRYPT_MASK_GEN_ALGORITHM, wincrypt/PCRYPT_MASK_GEN_ALGORITHM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

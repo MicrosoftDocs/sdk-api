@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_CanStep
 title: IMSVidPlayback::get_CanStep
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CanStep method queries whether the input source can step frame by frame.
 old-location: mstv\imsvidplayback_get_canstep.htm
 old-project: mstv
 ms.assetid: 41aad247-1f04-4245-89df-8ac527926307
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_CanStep method, IMSVidPlayback.get_CanStep, IMSVidPlayback::get_CanStep, IMSVidPlaybackget_CanStep, get_CanStep, get_CanStep method [Microsoft TV Technologies], get_CanStep method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_canstep, segment/IMSVidPlayback::get_CanStep
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecProgressNotification.RegisterProgressNotification
 title: IWICBitmapCodecProgressNotification::RegisterProgressNotification
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a progress notification callback function.
 old-location: wic\_wic_codec_iwicbitmapcodecprogressnotification_registerprogressnotification.htm
 old-project: wic
 ms.assetid: ac47178a-f149-4313-8673-ece59e88cfb3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapCodecProgressNotification interface [Windows Imaging Component],RegisterProgressNotification method, IWICBitmapCodecProgressNotification.RegisterProgressNotification, IWICBitmapCodecProgressNotification::RegisterProgressNotification, RegisterProgressNotification, RegisterProgressNotification method [Windows Imaging Component], RegisterProgressNotification method [Windows Imaging Component],IWICBitmapCodecProgressNotification interface, _wic_codec_iwicbitmapcodecprogressnotification_registerprogressnotification, wic._wic_codec_iwicbitmapcodecprogressnotification_registerprogressnotification, wincodec/IWICBitmapCodecProgressNotification::RegisterProgressNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

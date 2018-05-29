@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.ApplySettings
 title: IRemoteDesktopClientSettings::ApplySettings
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores the specified contents in the RDP file.
 old-location: termserv\iremotedesktopclientsettings_applysettings.htm
 old-project: TermServ
 ms.assetid: 24f17f50-6cb0-422a-88c6-77bae48af392
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ApplySettings, ApplySettings method [Remote Desktop Services], ApplySettings method [Remote Desktop Services],IRemoteDesktopClientSettings interface, IRemoteDesktopClientSettings interface [Remote Desktop Services],ApplySettings method, IRemoteDesktopClientSettings.ApplySettings, IRemoteDesktopClientSettings::ApplySettings, rdpappcontainerclient/IRemoteDesktopClientSettings::ApplySettings, termserv.iremotedesktopclientsettings_applysettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: 

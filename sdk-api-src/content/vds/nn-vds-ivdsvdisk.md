@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsVDisk
 title: IVdsVDisk
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods for managing a virtual disk.
 old-location: base\ivdsvdisk.htm
 old-project: VDS
 ms.assetid: 2b4f81f9-81ec-4288-a26c-8ed4d378358a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsVDisk, IVdsVDisk interface, IVdsVDisk interface,described, base.ivdsvdisk, vds/IVdsVDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

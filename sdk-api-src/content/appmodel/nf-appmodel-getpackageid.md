@@ -1,16 +1,16 @@
 ---
 UID: NF:appmodel.GetPackageId
 title: GetPackageId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the package identifier (ID) for the specified process.
 old-location: appxpkg\getpackageid.htm
 old-project: appxpkg
 ms.assetid: BA5D87F5-72FD-48BE-A104-EC7D1459FD58
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetPackageId, GetPackageId function [App packaging and management], appmodel/GetPackageId, appxpkg.getpackageid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

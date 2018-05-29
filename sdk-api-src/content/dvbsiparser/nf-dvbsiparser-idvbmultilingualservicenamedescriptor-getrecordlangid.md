@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbMultilingualServiceNameDescriptor.GetRecordLangId
 title: IDvbMultilingualServiceNameDescriptor::GetRecordLangId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) multilingual service name descriptor. The language code identifies the language used for text in the descriptor.
 old-location: mstv\idvbmultilingualservicenamedescriptor_getrecordlangid.htm
 old-project: mstv
 ms.assetid: a8432acb-f59b-4995-8b5d-576acab0f6b1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordLangId, GetRecordLangId method [Microsoft TV Technologies], GetRecordLangId method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetRecordLangId method, IDvbMultilingualServiceNameDescriptor.GetRecordLangId, IDvbMultilingualServiceNameDescriptor::GetRecordLangId, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetRecordLangId, mstv.idvbmultilingualservicenamedescriptor_getrecordlangid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

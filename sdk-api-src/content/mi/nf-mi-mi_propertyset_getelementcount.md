@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_PropertySet_GetElementCount
 title: MI_PropertySet_GetElementCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of elements in the specified property set.
 old-location: wmi_v2\mi_propertyset_getelementcount.htm
 old-project: wmi_v2
 ms.assetid: 450f778c-6b59-4c01-9c21-7f96f28ebe26
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_PropertySet_GetElementCount, MI_PropertySet_GetElementCount function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_GetElementCount, wmi_v2.mi_propertyset_getelementcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:structuredquery.IConditionFactory.MakeAndOr
 title: IConditionFactory::MakeAndOr
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a condition node that is a logical conjunction (AND) or disjunction (OR) of a collection of subconditions.
 old-location: search\_search_IConditionFactory_MakeAndOr.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\makeandor.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IConditionFactory interface [search],MakeAndOr method, IConditionFactory.MakeAndOr, IConditionFactory::MakeAndOr, MakeAndOr, MakeAndOr method [search], MakeAndOr method [search],IConditionFactory interface, _search_IConditionFactory_MakeAndOr, search._search_IConditionFactory_MakeAndOr, structuredquery/IConditionFactory::MakeAndOr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

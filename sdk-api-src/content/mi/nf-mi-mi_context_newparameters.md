@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Context_NewParameters
 title: MI_Context_NewParameters function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new instance of a method given a method declaration.
 old-location: wmi_v2\mi_context_newparameters.htm
 old-project: wmi_v2
 ms.assetid: 8fb80e6f-627c-4897-9776-7454c0258809
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Context_NewParameters, MI_Context_NewParameters function [Windows Management Infrastructure (MI)], mi/MI_Context_NewParameters, wmi.mi_newparameters, wmi_v2.mi_context_newparameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

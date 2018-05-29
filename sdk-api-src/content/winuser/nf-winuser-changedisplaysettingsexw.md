@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.ChangeDisplaySettingsExW
 title: ChangeDisplaySettingsExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ChangeDisplaySettingsEx function changes the settings of the specified display device to the specified graphics mode.
 old-location: gdi\changedisplaysettingsex.htm
 old-project: gdi
 ms.assetid: 1448e04c-1452-4eab-bda4-4d249cb67a24
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CDS_DISABLE_UNSAFE_MODES, CDS_ENABLE_UNSAFE_MODES, CDS_FULLSCREEN, CDS_GLOBAL, CDS_NORESET, CDS_RESET, CDS_SET_PRIMARY, CDS_TEST, CDS_UPDATEREGISTRY, CDS_VIDEOPARAMETERS, ChangeDisplaySettingsEx, ChangeDisplaySettingsEx function [Windows GDI], ChangeDisplaySettingsExA, ChangeDisplaySettingsExW, _win32_ChangeDisplaySettingsEx, gdi.changedisplaysettingsex, winuser/ChangeDisplaySettingsEx, winuser/ChangeDisplaySettingsExA, winuser/ChangeDisplaySettingsExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

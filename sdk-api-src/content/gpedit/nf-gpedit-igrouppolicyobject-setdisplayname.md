@@ -1,16 +1,16 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.SetDisplayName
 title: IGroupPolicyObject::SetDisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDisplayName method sets the display name for the GPO.
 old-location: policy\igrouppolicyobject_setdisplayname.htm
 old-project: Policy
 ms.assetid: 979e8399-83e1-421e-8f32-813464ac97aa
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IGroupPolicyObject interface [Group Policy],SetDisplayName method, IGroupPolicyObject.SetDisplayName, IGroupPolicyObject::SetDisplayName, SetDisplayName, SetDisplayName method [Group Policy], SetDisplayName method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_setdisplayname, gpedit/IGroupPolicyObject::SetDisplayName, policy.igrouppolicyobject_setdisplayname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpedit.h
 req.include-header: 

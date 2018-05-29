@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt16WithDefault
 title: PropVariantToUInt16WithDefault function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts an unsigned short value from a PROPVARIANT structure. If no value exists, then the specified default value is returned.
 old-location: properties\PropVariantToUInt16WithDefault.htm
 old-project: properties
 ms.assetid: 4346cef2-5e43-47bf-9bfb-0ede923872fd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToUInt16WithDefault, PropVariantToUInt16WithDefault function [Windows Properties], properties.PropVariantToUInt16WithDefault, propvarutil/PropVariantToUInt16WithDefault, shell.PropVariantToUInt16WithDefault, shell_PropVariantToUInt16WithDefault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

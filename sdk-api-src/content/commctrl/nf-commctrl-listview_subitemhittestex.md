@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SubItemHitTestEx
 title: ListView_SubItemHitTestEx macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines which list-view item or subitem is located at a given position. You can use this macro or send the LVM_SUBITEMHITTEST message explicitly.
 old-location: controls\ListView_SubItemHitTestEx.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_subitemhittestex.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_SubItemHitTestEx, ListView_SubItemHitTestEx macro [Windows Controls], _shell_ListView_SubItemHitTestEx, _shell_ListView_SubItemHitTestEx_cpp, commctrl/ListView_SubItemHitTestEx, controls.ListView_SubItemHitTestEx, controls._shell_ListView_SubItemHitTestEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

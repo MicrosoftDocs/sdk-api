@@ -1,16 +1,16 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_AutoSize
 title: IMSVidCtl::put_AutoSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_AutoSize method specifies whether the Video Control automatically resizes to display its entire contents.
 old-location: mstv\imsvidctl_put_autosize.htm
 old-project: mstv
 ms.assetid: eb5863e2-380b-4bee-ac18-e5f28551a6ab
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_AutoSize method, IMSVidCtl.put_AutoSize, IMSVidCtl::put_AutoSize, IMSVidCtlput_AutoSize, mstv.imsvidctl_put_autosize, msvidctl/IMSVidCtl::put_AutoSize, put_AutoSize, put_AutoSize method [Microsoft TV Technologies], put_AutoSize method [Microsoft TV Technologies],IMSVidCtl interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msvidctl.h
 req.include-header: 

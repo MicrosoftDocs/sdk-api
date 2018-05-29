@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Finish
 title: ITBasicCallControl::Finish
-author: windows-driver-content
+author: windows-sdk-content
 description: The Finish method is called on a consultation call to finish a conference or a transfer.
 old-location: tapi3\itbasiccallcontrol_finish.htm
 old-project: Tapi
 ms.assetid: 3b0bd871-b618-4c24-a717-62a248112d97
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Finish, Finish method [TAPI 2.2], Finish method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Finish method, ITBasicCallControl.Finish, ITBasicCallControl::Finish, _tapi3_itbasiccallcontrol_finish, tapi3.itbasiccallcontrol_finish, tapi3if/ITBasicCallControl::Finish
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

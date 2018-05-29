@@ -1,16 +1,16 @@
 ---
 UID: NS:objidl.tagDVTARGETDEVICE
 title: tagDVTARGETDEVICE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies information about the target device for which data is being composed. DVTARGETDEVICE contains enough information about a Windows target device so a handle to a device context (HDC) can be created using the CreateDC function.
 old-location: com\dvtargetdevice.htm
 old-project: com
 ms.assetid: 724ff714-c170-4d06-92cb-e042e41c0af2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DVTARGETDEVICE, DVTARGETDEVICE structure [COM], _ole_DVTARGETDEVICE, com.dvtargetdevice, objidl/DVTARGETDEVICE, tagDVTARGETDEVICE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 

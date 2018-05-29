@@ -1,16 +1,16 @@
 ---
 UID: NS:digitalv.MCI_DGV_PASTE_PARMS
 title: MCI_DGV_PASTE_PARMS
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCI_DGV_PASTE_PARMS structure contains parameters for the MCI_PASTE command for digital-video devices.
 old-location: multimedia\mci_dgv_paste_parms.htm
 old-project: Multimedia
 ms.assetid: f350b992-5c0b-468e-8898-97793ad896e6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPMCI_DGV_PASTE_PARMS, MCI_DGV_PASTE_PARMS, MCI_DGV_PASTE_PARMS structure [Windows Multimedia], _win32_MCI_DGV_PASTE_PARMS_str, digitalv/MCI_DGV_PASTE_PARMS, multimedia.mci_dgv_paste_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCallInfo.put_CallInfoBuffer
 title: ITCallInfo::put_CallInfoBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_CallInfoBuffer method sets call information items which require a buffer, such as user-user information.
 old-location: tapi3\itcallinfo_put_callinfobuffer.htm
 old-project: Tapi
 ms.assetid: 4404ec08-2443-4d1a-8f94-5eb1b3315169
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],put_CallInfoBuffer method, ITCallInfo.put_CallInfoBuffer, ITCallInfo::put_CallInfoBuffer, _tapi3_itcallinfo_put_callinfobuffer, put_CallInfoBuffer, put_CallInfoBuffer method [TAPI 2.2], put_CallInfoBuffer method [TAPI 2.2],ITCallInfo interface, tapi3.itcallinfo_put_callinfobuffer, tapi3if/ITCallInfo::put_CallInfoBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

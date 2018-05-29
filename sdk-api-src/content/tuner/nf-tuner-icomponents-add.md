@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IComponents.Add
 title: IComponents::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: The Add method adds a Component object to the collection.
 old-location: mstv\icomponents_add.htm
 old-project: mstv
 ms.assetid: ec5d9d6c-4957-46f2-9798-6e30c934459e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IComponents interface, IComponents interface [Microsoft TV Technologies],Add method, IComponents.Add, IComponents::Add, IComponentsAdd, mstv.icomponents_add, tuner/IComponents::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

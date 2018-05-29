@@ -1,16 +1,16 @@
 ---
 UID: NF:msime.IFECommon.InvokeWordRegDialog
 title: IFECommon::InvokeWordRegDialog
-author: windows-driver-content
+author: windows-sdk-content
 description: Invokes the Microsoft IME Word Register Dialog Window from the app.
 old-location: intl\ifecommon_invokewordregdialog.htm
 old-project: Intl
 ms.assetid: FBD09E98-9C89-4CE4-9D17-A13E2BE0AB91
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFECommon interface [Internationalization for Windows Applications],InvokeWordRegDialog method, IFECommon.InvokeWordRegDialog, IFECommon::InvokeWordRegDialog, InvokeWordRegDialog, InvokeWordRegDialog method [Internationalization for Windows Applications], InvokeWordRegDialog method [Internationalization for Windows Applications],IFECommon interface, intl.ifecommon_invokewordregdialog, msime/IFECommon::InvokeWordRegDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msime.h
 req.include-header: 

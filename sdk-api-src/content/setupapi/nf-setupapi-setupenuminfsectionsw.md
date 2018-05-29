@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupEnumInfSectionsW
 title: SetupEnumInfSectionsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupEnumInfSections function retrieves section names from an INF file.
 old-location: setup\setupenuminfsections.htm
 old-project: SetupApi
 ms.assetid: 9b19ced6-728a-48e7-9e87-03fc53f7fb72
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupEnumInfSections, SetupEnumInfSections function [Setup API], SetupEnumInfSectionsA, SetupEnumInfSectionsW, setup.setupenuminfsections, setupapi/SetupEnumInfSections, setupapi/SetupEnumInfSectionsA, setupapi/SetupEnumInfSectionsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_X942_OTHER_INFO
 title: "_CRYPT_X942_OTHER_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CRYPT_X942_OTHER_INFO structure contains additional key generation information.
 old-location: security\crypt_x942_other_info.htm
 old-project: SecCrypto
 ms.assetid: 7761af36-ad16-4628-86cb-16cbded6fb69
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_X942_OTHER_INFO, CRYPT_X942_OTHER_INFO, CRYPT_X942_OTHER_INFO structure [Security], PCRYPT_X942_OTHER_INFO, PCRYPT_X942_OTHER_INFO structure pointer [Security], _CRYPT_X942_OTHER_INFO, _crypto2_crypt_x942_other_info, security.crypt_x942_other_info, wincrypt/CRYPT_X942_OTHER_INFO, wincrypt/PCRYPT_X942_OTHER_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

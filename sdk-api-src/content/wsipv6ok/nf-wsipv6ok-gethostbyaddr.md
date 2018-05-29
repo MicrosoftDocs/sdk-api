@@ -1,16 +1,16 @@
 ---
 UID: NF:wsipv6ok.gethostbyaddr
 title: gethostbyaddr macro
-author: windows-driver-content
+author: windows-sdk-content
 description: gethostbyaddr is no longer recommended for use as of Windows Sockets 2.
 old-location: winsock\gethostbyaddr_2.htm
 old-project: WinSock
 ms.assetid: 303023e1-a486-4457-80f6-8aa80f6b2c79
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: AF_INET, AF_INET6, AF_NETBIOS, _win32_gethostbyaddr_2, gethostbyaddr, gethostbyaddr function [Winsock], winsock.gethostbyaddr_2, wsipv6ok/gethostbyaddr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h

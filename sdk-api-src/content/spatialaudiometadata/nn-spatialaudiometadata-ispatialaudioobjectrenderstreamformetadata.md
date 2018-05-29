@@ -1,16 +1,16 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioObjectRenderStreamForMetadata
 title: ISpatialAudioObjectRenderStreamForMetadata
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for controlling a spatial audio object render stream for metadata, including starting, stopping, and resetting the stream.
 old-location: coreaudio\ispatialaudioobjectrenderstreamformetadata.htm
 old-project: CoreAudio
 ms.assetid: 1623B280-FC12-4C19-9D4A-D8463D1A1046
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISpatialAudioObjectRenderStreamForMetadata, ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio], ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstreamformetadata, spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudiometadata.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.CancelThreadpoolIo
 title: CancelThreadpoolIo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels the notification from the StartThreadpoolIo function.
 old-location: base\cancelthreadpoolio.htm
 old-project: ProcThread
 ms.assetid: e3af8313-2e09-4c88-8cef-671efd4228c7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CancelThreadpoolIo, CancelThreadpoolIo function, base.cancelthreadpoolio, threadpoolapiset/CancelThreadpoolIo, winbase/CancelThreadpoolIo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

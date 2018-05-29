@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.Header_GetItem
 title: Header_GetItem macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information about an item in a header control. You can use this macro or send the HDM_GETITEM message explicitly.
 old-location: controls\Header_GetItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitem.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Header_GetItem, Header_GetItem macro [Windows Controls], _win32_Header_GetItem, _win32_Header_GetItem_cpp, commctrl/Header_GetItem, controls.Header_GetItem, controls._win32_Header_GetItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

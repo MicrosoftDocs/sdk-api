@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetDataLocale
 title: MI_DestinationOptions_SetDataLocale function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the default data locale to use for operations.
 old-location: wmi_v2\mi_destinationoptions_setdatalocale.htm
 old-project: wmi_v2
 ms.assetid: 0b5c0ae7-d11c-4014-b61e-4528b9320844
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_DestinationOptions_SetDataLocale, MI_DestinationOptions_SetDataLocale function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetDataLocale, wmi_v2.mi_destinationoptions_setdatalocale
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

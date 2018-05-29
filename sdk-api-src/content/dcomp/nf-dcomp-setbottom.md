@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetBottom
 title: SetBottom function
-author: windows-driver-content
+author: windows-sdk-content
 description: Animates or changes the value of the Bottom property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_setbottom_overloaded.htm
 old-project: directcomp
 ms.assetid: 5C80AA94-AE61-4F12-86C8-6474ADD455B1
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionRectangleClip::SetBottom, SetBottom, SetBottom methods [DirectComposition], dcomp/SetBottom, directcomp.idcompositionrectangleclip_setbottom_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

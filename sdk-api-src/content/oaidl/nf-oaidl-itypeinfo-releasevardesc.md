@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeInfo.ReleaseVarDesc
 title: ITypeInfo::ReleaseVarDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases a VARDESC previously returned by ITypeInfo::GetVarDesc.
 old-location: automat\itypeinfo_releasevardesc.htm
 old-project: automat
 ms.assetid: a0f734d8-9b14-474a-b701-df8ba7641501
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ITypeInfo interface [Automation],ReleaseVarDesc method, ITypeInfo.ReleaseVarDesc, ITypeInfo::ReleaseVarDesc, ReleaseVarDesc, ReleaseVarDesc method [Automation], ReleaseVarDesc method [Automation],ITypeInfo interface, _oa96_ITypeInfo_ReleaseVarDesc, automat.itypeinfo_releasevardesc, oaidl/ITypeInfo::ReleaseVarDesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

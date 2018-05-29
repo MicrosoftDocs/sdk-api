@@ -1,16 +1,16 @@
 ---
 UID: NF:winsxs.IAssemblyCacheItem.Commit
 title: IAssemblyCacheItem::Commit
-author: windows-driver-content
+author: windows-sdk-content
 description: The Commit method copies information into the side-by-side store. When this method returns, the assembly is visible in the side-by-side store.
 old-location: setup\iassemblycacheitem_commit.htm
 old-project: SbsCs
 ms.assetid: d8f8b6b3-72b4-400b-a780-fc25d1f4b9d0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Commit, Commit method [Side-by-side Assemblies], Commit method [Side-by-side Assemblies],IAssemblyCacheItem interface, IASSEMBLYCACHEITEM_COMMIT_DISPOSITION_ALREADY_INSTALLED, IASSEMBLYCACHEITEM_COMMIT_DISPOSITION_INSTALLED, IASSEMBLYCACHEITEM_COMMIT_DISPOSITION_REFRESHED, IASSEMBLYCACHEITEM_COMMIT_FLAG_FORCE_REFRESH, IASSEMBLYCACHEITEM_COMMIT_FLAG_REFRESH, IAssemblyCacheItem interface [Side-by-side Assemblies],Commit method, IAssemblyCacheItem.Commit, IAssemblyCacheItem::Commit, setup.iassemblycacheitem_commit, winsxs/IAssemblyCacheItem::Commit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsxs.h
 req.include-header: 

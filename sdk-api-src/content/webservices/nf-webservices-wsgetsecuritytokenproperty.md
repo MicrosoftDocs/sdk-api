@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsGetSecurityTokenProperty
 title: WsGetSecurityTokenProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a field or a property from a security token.
 old-location: wsw\wsgetsecuritytokenproperty.htm
 old-project: wsw
 ms.assetid: ce41062f-5125-4a4b-acc1-5df15b26276b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsGetSecurityTokenProperty, WsGetSecurityTokenProperty function [Web Services for Windows], webservices/WsGetSecurityTokenProperty, wsw.wsgetsecuritytokenproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

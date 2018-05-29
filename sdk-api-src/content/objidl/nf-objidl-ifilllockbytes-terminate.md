@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IFillLockBytes.Terminate
 title: IFillLockBytes::Terminate
-author: windows-driver-content
+author: windows-sdk-content
 description: The Terminate method informs the byte array that the download has been terminated, either successfully or unsuccessfully.
 old-location: stg\ifilllockbytes_terminate.htm
 old-project: Stg
 ms.assetid: 21ea78c7-51f1-4418-915c-79db47c25715
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IFillLockBytes interface [Structured Storage],Terminate method, IFillLockBytes.Terminate, IFillLockBytes::Terminate, Terminate, Terminate method [Structured Storage], Terminate method [Structured Storage],IFillLockBytes interface, _stg_ifilllockbytes_terminate, objidl/IFillLockBytes::Terminate, stg.ifilllockbytes_terminate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

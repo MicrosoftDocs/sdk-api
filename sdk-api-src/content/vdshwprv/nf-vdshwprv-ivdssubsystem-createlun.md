@@ -1,16 +1,16 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.CreateLun
 title: IVdsSubSystem::CreateLun
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a logical unit number (LUN).
 old-location: base\ivdssubsystem_createlun.htm
 old-project: VDS
 ms.assetid: e8097364-1f23-4cda-8f12-a750bbb4eb4c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CreateLun, CreateLun method [VDS], CreateLun method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],CreateLun method, IVdsSubSystem.CreateLun, IVdsSubSystem::CreateLun, base.ivdssubsystem_createlun, vds/IVdsSubSystem::CreateLun, vdshwprv/IVdsSubSystem::CreateLun
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

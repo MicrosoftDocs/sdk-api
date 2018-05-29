@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnPinManager.GetPinState
 title: IMbnPinManager::GetPinState
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current PIN state of the device.
 old-location: mbn\imbnpinmanager_getpinstate.htm
 old-project: mbn
 ms.assetid: 34378403-cf58-4ada-9eb6-f5dad5f69bc9
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetPinState, GetPinState method [Microsoft Broadband Networks], GetPinState method [Microsoft Broadband Networks],IMbnPinManager interface, IMbnPinManager interface [Microsoft Broadband Networks],GetPinState method, IMbnPinManager.GetPinState, IMbnPinManager::GetPinState, mbn.imbnpinmanager_getpinstate, mbnapi/IMbnPinManager::GetPinState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

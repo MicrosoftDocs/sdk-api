@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Class_Property_Keys
 title: CM_Get_Class_Property_Keys function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_Class_Property_Keys function retrieves an array of the device property keys that represent the device properties that are set for a device interface class or device setup class.
 old-location: devinst\cm_get_class_property_keys.htm
 old-project: devinst
 ms.assetid: D226EB4B-40F5-485D-9D58-642B6AE7B482
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_Class_Property_Keys, CM_Get_Class_Property_Keys function [Device and Driver Installation], cfgmgr32/CM_Get_Class_Property_Keys, devinst.cm_get_class_property_keys
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

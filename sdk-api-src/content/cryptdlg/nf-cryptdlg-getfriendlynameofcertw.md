@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptdlg.GetFriendlyNameOfCertW
 title: GetFriendlyNameOfCertW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the display name for a certificate.
 old-location: security\getfriendlynameofcert.htm
 old-project: SecCrypto
 ms.assetid: a66a8573-b234-4d5d-bd38-72a3a44a0419
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetFriendlyNameOfCert, GetFriendlyNameOfCert function [Security], GetFriendlyNameOfCertA, GetFriendlyNameOfCertW, cryptdlg/GetFriendlyNameOfCert, cryptdlg/GetFriendlyNameOfCertA, cryptdlg/GetFriendlyNameOfCertW, security.getfriendlynameofcert
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptdlg.h
 req.include-header: 

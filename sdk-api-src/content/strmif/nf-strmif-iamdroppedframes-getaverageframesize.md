@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMDroppedFrames.GetAverageFrameSize
 title: IAMDroppedFrames::GetAverageFrameSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAverageFrameSize method retrieves the average size of the frames that the filter has captured.
 old-location: dshow\iamdroppedframes_getaverageframesize.htm
 old-project: DirectShow
 ms.assetid: 49b63a9f-8192-4fce-8cfe-c92bd39ca2b0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAverageFrameSize, GetAverageFrameSize method [DirectShow], GetAverageFrameSize method [DirectShow],IAMDroppedFrames interface, IAMDroppedFrames interface [DirectShow],GetAverageFrameSize method, IAMDroppedFrames.GetAverageFrameSize, IAMDroppedFrames::GetAverageFrameSize, IAMDroppedFramesGetAverageFrameSize, dshow.iamdroppedframes_getaverageframesize, strmif/IAMDroppedFrames::GetAverageFrameSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

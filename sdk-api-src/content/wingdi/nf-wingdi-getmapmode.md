@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetMapMode
 title: GetMapMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetMapMode function retrieves the current mapping mode.
 old-location: gdi\getmapmode.htm
 old-project: gdi
 ms.assetid: bc446b86-3dde-4460-bc54-1eaa4ad19941
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetMapMode, GetMapMode function [Windows GDI], _win32_GetMapMode, gdi.getmapmode, wingdi/GetMapMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

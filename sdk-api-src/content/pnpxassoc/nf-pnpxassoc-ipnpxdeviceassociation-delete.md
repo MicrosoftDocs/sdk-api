@@ -1,16 +1,16 @@
 ---
 UID: NF:pnpxassoc.IPNPXDeviceAssociation.Delete
 title: IPNPXDeviceAssociation::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an entry from the association database and sends an appropriate notification.
 old-location: ncd\ipnpxdeviceassociation_delete.htm
 old-project: FunDisc
 ms.assetid: 208da586-6bb3-4365-90ba-9fd615a371eb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Delete, Delete method, Delete method,IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,Delete method, IPNPXDeviceAssociation.Delete, IPNPXDeviceAssociation::Delete, ncd.ipnpxdeviceassociation_delete, pnpxassoc/IPNPXDeviceAssociation::Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pnpxassoc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationCacheRequest.AddPattern
 title: IUIAutomationCacheRequest::AddPattern
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a control pattern to the cache request.
 old-location: winauto\uiauto_IUIAutomationCacheRequest_AddPattern.htm
 old-project: WinAuto
 ms.assetid: f081d4da-2fba-4846-813c-33e11c09315b
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: AddPattern, AddPattern method [Windows Accessibility], AddPattern method [Windows Accessibility],IUIAutomationCacheRequest interface, IUIAutomationCacheRequest interface [Windows Accessibility],AddPattern method, IUIAutomationCacheRequest.AddPattern, IUIAutomationCacheRequest::AddPattern, uiauto.uiauto_IUIAutomationCacheRequest_AddPattern, uiauto_IUIAutomationCacheRequest_AddPattern, uiautomationclient/IUIAutomationCacheRequest::AddPattern, winauto.uiauto_IUIAutomationCacheRequest_AddPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

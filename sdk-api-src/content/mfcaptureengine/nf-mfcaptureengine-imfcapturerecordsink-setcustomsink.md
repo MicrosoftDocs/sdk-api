@@ -1,16 +1,16 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetCustomSink
 title: IMFCaptureRecordSink::SetCustomSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a custom media sink for recording.
 old-location: mf\imfcapturerecordsink_setcustomsink.htm
 old-project: medfound
 ms.assetid: 76140ECF-E7A2-4C41-A710-813B2DF8F52C
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetCustomSink method, IMFCaptureRecordSink.SetCustomSink, IMFCaptureRecordSink::SetCustomSink, SetCustomSink, SetCustomSink method [Media Foundation], SetCustomSink method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setcustomsink, mfcaptureengine/IMFCaptureRecordSink::SetCustomSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

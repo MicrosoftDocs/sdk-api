@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetTime
 title: ISyncMgrEvent::GetTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the creation time.
 old-location: shell\ISyncMgrEvent_GetTime.htm
 old-project: shell
 ms.assetid: 1cfe8555-4c63-443a-b3da-e671f8e343d4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTime, GetTime method [Windows Shell], GetTime method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetTime method, ISyncMgrEvent.GetTime, ISyncMgrEvent::GetTime, _shell_ISyncMgrEvent_GetTime, shell.ISyncMgrEvent_GetTime, syncmgr/ISyncMgrEvent::GetTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

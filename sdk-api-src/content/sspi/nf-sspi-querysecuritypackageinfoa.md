@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.QuerySecurityPackageInfoA
 title: QuerySecurityPackageInfoA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a specified security package. This information includes the bounds on sizes of authentication information, credentials, and contexts.
 old-location: security\querysecuritypackageinfo.htm
 old-project: SecAuthN
 ms.assetid: 130ef0fe-bb13-4a65-b476-cd25ed234da1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: QuerySecurityPackageInfo, QuerySecurityPackageInfo function [Security], QuerySecurityPackageInfoA, QuerySecurityPackageInfoW, _ssp_querysecuritypackageinfo, security.querysecuritypackageinfo, sspi/QuerySecurityPackageInfo, sspi/QuerySecurityPackageInfoA, sspi/QuerySecurityPackageInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

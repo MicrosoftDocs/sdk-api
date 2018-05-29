@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDT.GetRecordEITUserDefinedFlags
 title: IISDB_SDT::GetRecordEITUserDefinedFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the EIT_user_defined_flags field value from a service descriptor in an Integrated Services Digital Broadcasting (ISDB) service description table (SDT).
 old-location: mstv\iisdb_sdt_getrecordeituserdefinedflags.htm
 old-project: mstv
 ms.assetid: c67d37e5-f258-45f5-8bc7-c539e3fa5e1a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordEITUserDefinedFlags, GetRecordEITUserDefinedFlags method [Microsoft TV Technologies], GetRecordEITUserDefinedFlags method [Microsoft TV Technologies],IISDB_SDT interface, IISDB_SDT interface [Microsoft TV Technologies],GetRecordEITUserDefinedFlags method, IISDB_SDT.GetRecordEITUserDefinedFlags, IISDB_SDT::GetRecordEITUserDefinedFlags, dvbsiparser/IISDB_SDT::GetRecordEITUserDefinedFlags, mstv.iisdb_sdt_getrecordeituserdefinedflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

@@ -1,16 +1,16 @@
 ---
 UID: NF:compressapi.Decompress
 title: Decompress function
-author: windows-driver-content
+author: windows-sdk-content
 description: Takes a block of compressed information and decompresses it.
 old-location: cmpapi\decompress.htm
 old-project: cmpapi
 ms.assetid: 654b88c7-14f2-43d4-8850-675ea303b439
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: Decompress, Decompress function [Compression API], cmpapi.decompress, compressapi/Decompress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 

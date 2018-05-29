@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IOverlay.GetPalette
 title: IOverlay::GetPalette
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPalette method retrieves the current system palette.
 old-location: dshow\ioverlay_getpalette.htm
 old-project: DirectShow
 ms.assetid: 993c80fb-fa67-4dd6-815b-8e15d2f7f495
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetPalette, GetPalette method [DirectShow], GetPalette method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetPalette method, IOverlay.GetPalette, IOverlay::GetPalette, IOverlayGetPalette, dshow.ioverlay_getpalette, strmif/IOverlay::GetPalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:commoncontrols.IImageList.AddMasked
 title: IImageList::AddMasked
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an image or images to an image list, generating a mask from the specified bitmap.
 old-location: controls\IImageList_AddMasked.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\addmasked.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddMasked, AddMasked method [Windows Controls], AddMasked method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],AddMasked method, IImageList.AddMasked, IImageList::AddMasked, comctl_IImageList_AddMasked, comctl_IImageList_AddMasked_cpp, commoncontrols/IImageList::AddMasked, controls.IImageList_AddMasked, controls.comctl_IImageList_AddMasked
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 

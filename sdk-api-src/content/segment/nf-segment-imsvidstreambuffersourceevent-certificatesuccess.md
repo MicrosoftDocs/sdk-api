@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.CertificateSuccess
 title: IMSVidStreamBufferSourceEvent::CertificateSuccess
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_certificatesuccess.htm
 old-project: mstv
 ms.assetid: 1c541058-5e02-4b78-8c28-a2a0709d5872
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CertificateSuccess, CertificateSuccess method [Microsoft TV Technologies], CertificateSuccess method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],CertificateSuccess method, IMSVidStreamBufferSourceEvent.CertificateSuccess, IMSVidStreamBufferSourceEvent::CertificateSuccess, IMSVidStreamBufferSourceEventCertificateSuccess, mstv.imsvidstreambuffersourceevent_certificatesuccess, segment/IMSVidStreamBufferSourceEvent::CertificateSuccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

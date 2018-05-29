@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.FindNextStreamW
 title: FindNextStreamW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Continues a stream search started by a previous call to the FindFirstStreamW function.
 old-location: fs\findnextstreamw.htm
 old-project: FileIO
 ms.assetid: 2bb0301c-b2be-4056-913c-e4102386135e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FindNextStreamW, FindNextStreamW function [Files], _win32_findnextstreamw, base.findnextstreamw, fileapi/FindNextStreamW, fs.findnextstreamw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h

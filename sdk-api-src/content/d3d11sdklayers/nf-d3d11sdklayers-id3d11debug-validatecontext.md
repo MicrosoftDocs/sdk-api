@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.ValidateContext
 title: ID3D11Debug::ValidateContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Check to see if the draw pipeline state is valid.
 old-location: direct3d11\id3d11debug_validatecontext.htm
 old-project: direct3d11
 ms.assetid: c8679a68-336f-4bfa-91d6-398a75b34dfb
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 4ee713bf-94e0-0a30-fb72-d6e8a2216e88, ID3D11Debug interface [Direct3D 11],ValidateContext method, ID3D11Debug.ValidateContext, ID3D11Debug::ValidateContext, ValidateContext, ValidateContext method [Direct3D 11], ValidateContext method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::ValidateContext, direct3d11.id3d11debug_validatecontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 

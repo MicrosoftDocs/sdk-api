@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.SHCreateShellItemArrayFromShellItem
 title: SHCreateShellItemArrayFromShellItem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an array of one element from a single Shell item.
 old-location: shell\SHCreateShellItemArrayFromShellItem.htm
 old-project: shell
 ms.assetid: 93401708-6f11-474d-8009-24554f316e79
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCreateShellItemArrayFromShellItem, SHCreateShellItemArrayFromShellItem function [Windows Shell], _shell_SHCreateShellItemArrayFromShellItem, shell.SHCreateShellItemArrayFromShellItem, shobjidl_core/SHCreateShellItemArrayFromShellItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

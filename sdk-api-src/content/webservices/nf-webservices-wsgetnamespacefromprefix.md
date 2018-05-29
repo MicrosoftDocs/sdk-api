@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsGetNamespaceFromPrefix
 title: WsGetNamespaceFromPrefix function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function returns a namespace from the prefix to which it is bound.
 old-location: wsw\wsgetnamespacefromprefix.htm
 old-project: wsw
 ms.assetid: 35351ce3-4ff9-4a15-856b-c3ee485f9d37
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsGetNamespaceFromPrefix, WsGetNamespaceFromPrefix function [Web Services for Windows], webservices/WsGetNamespaceFromPrefix, wsw.wsgetnamespacefromprefix
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

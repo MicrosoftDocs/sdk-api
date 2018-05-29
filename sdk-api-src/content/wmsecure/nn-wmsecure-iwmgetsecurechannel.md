@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsecure.IWMGetSecureChannel
 title: IWMGetSecureChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMGetSecureChannel interface is used by one communication party to get the other party's IWMSecureChannel interface.
 old-location: wmformat\iwmgetsecurechannel.htm
 old-project: wmformat
 ms.assetid: 0ebb380a-5c14-4630-8ae4-825809f4737a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMGetSecureChannel, IWMGetSecureChannel interface [windows Media Format], IWMGetSecureChannel interface [windows Media Format],described, wmformat.iwmgetsecurechannel, wmsecure/IWMGetSecureChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsecure.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorTransformFactory.GetTransformCount
 title: IMFSensorTransformFactory::GetTransformCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the media pipeline to get the number of transforms provided by the sensor transform.
 old-location: mf\imfsensortransformfactory_gettransformcount.htm
 old-project: medfound
 ms.assetid: D1B1DA8D-9A59-43A0-9A2F-8749B2C05D37
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetTransformCount, GetTransformCount method [Media Foundation], GetTransformCount method [Media Foundation],IMFSensorTransformFactory interface, IMFSensorTransformFactory interface [Media Foundation],GetTransformCount method, IMFSensorTransformFactory.GetTransformCount, IMFSensorTransformFactory::GetTransformCount, mf.imfsensortransformfactory_gettransformcount, mfidl/IMFSensorTransformFactory::GetTransformCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

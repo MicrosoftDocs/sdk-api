@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.GetDDrawObject
 title: IDDrawExclModeVideo::GetDDrawObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDDrawObject method retrieves the DirectDraw object being used by the Overlay Mixer filter.
 old-location: dshow\iddrawexclmodevideo_getddrawobject.htm
 old-project: DirectShow
 ms.assetid: b664fbcc-de14-42ca-95d0-97719e381605
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDDrawObject, GetDDrawObject method [DirectShow], GetDDrawObject method [DirectShow],IDDrawExclModeVideo interface, IDDrawExclModeVideo interface [DirectShow],GetDDrawObject method, IDDrawExclModeVideo.GetDDrawObject, IDDrawExclModeVideo::GetDDrawObject, IDDrawExclModeVideoGetDDrawObject, dshow.iddrawexclmodevideo_getddrawobject, strmif/IDDrawExclModeVideo::GetDDrawObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

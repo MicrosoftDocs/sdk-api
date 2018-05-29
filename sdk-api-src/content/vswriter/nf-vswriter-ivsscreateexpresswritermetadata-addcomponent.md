@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.IVssCreateExpressWriterMetadata.AddComponent
 title: IVssCreateExpressWriterMetadata::AddComponent
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a file group to an express writer's set of components to be backed up.
 old-location: base\ivsscreateexpresswritermetadata_addcomponent.htm
 old-project: VSS
 ms.assetid: e17ed040-7fe2-4605-b1b5-295abbf14289
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddComponent, AddComponent method, AddComponent method,IVssCreateExpressWriterMetadata interface, IVssCreateExpressWriterMetadata interface,AddComponent method, IVssCreateExpressWriterMetadata.AddComponent, IVssCreateExpressWriterMetadata::AddComponent, base.ivsscreateexpresswritermetadata_addcomponent, vswriter/IVssCreateExpressWriterMetadata::AddComponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

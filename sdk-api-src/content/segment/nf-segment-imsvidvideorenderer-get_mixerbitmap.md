@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_MixerBitmap
 title: IMSVidVideoRenderer::get_MixerBitmap
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MixerBitmap method retrieves the static bitmap image, as an IPictureDisp type.
 old-location: mstv\imsvidvideorenderer_get_mixerbitmap.htm
 old-project: mstv
 ms.assetid: cfcfab14-7084-4716-8955-574168cd3506
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_MixerBitmap method, IMSVidVideoRenderer.get_MixerBitmap, IMSVidVideoRenderer::get_MixerBitmap, IMSVidVideoRendererget_MixerBitmap, get_MixerBitmap, get_MixerBitmap method [Microsoft TV Technologies], get_MixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_mixerbitmap, segment/IMSVidVideoRenderer::get_MixerBitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

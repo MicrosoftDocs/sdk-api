@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPStorage4.SetReferences
 title: IMDSPStorage4::SetReferences
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetReferences method sets the references contained in a storage that has references (such as playlist/album), overwriting any previously existing references contained in this storage.
 old-location: wmdm\imdspstorage4_setreferences.htm
 old-project: WMDM
 ms.assetid: 45fd9efa-b03d-46de-9d8c-85ed04d446dd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMDSPStorage4 interface [windows Media Device Manager],SetReferences method, IMDSPStorage4.SetReferences, IMDSPStorage4::SetReferences, IMDSPStorage4SetReferences, SetReferences, SetReferences method [windows Media Device Manager], SetReferences method [windows Media Device Manager],IMDSPStorage4 interface, mswmdm/IMDSPStorage4::SetReferences, wmdm.imdspstorage4_setreferences
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

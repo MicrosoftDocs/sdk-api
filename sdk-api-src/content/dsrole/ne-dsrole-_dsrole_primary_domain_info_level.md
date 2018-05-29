@@ -1,16 +1,16 @@
 ---
 UID: NE:dsrole._DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
 title: "_DSROLE_PRIMARY_DOMAIN_INFO_LEVEL"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used with the DsRoleGetPrimaryDomainInformation function to specify the type of data to retrieve.
 old-location: ad\dsrole_primary_domain_info_level.htm
 old-project: AD
 ms.assetid: c8b141b1-d5fa-4ec9-8899-a1b0f6a4ce1d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DSROLE_PRIMARY_DOMAIN_INFO_LEVEL, DSROLE_PRIMARY_DOMAIN_INFO_LEVEL enumeration [Active Directory], DsRoleOperationState, DsRolePrimaryDomainInfoBasic, DsRoleUpgradeStatus, _DSROLE_PRIMARY_DOMAIN_INFO_LEVEL, ad.dsrole_primary_domain_info_level, dsrole/DSROLE_PRIMARY_DOMAIN_INFO_LEVEL, dsrole/DsRoleOperationState, dsrole/DsRolePrimaryDomainInfoBasic, dsrole/DsRoleUpgradeStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dsrole.h
 req.include-header: 

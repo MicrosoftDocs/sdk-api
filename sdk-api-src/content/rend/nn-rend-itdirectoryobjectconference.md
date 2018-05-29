@@ -1,16 +1,16 @@
 ---
 UID: NN:rend.ITDirectoryObjectConference
 title: ITDirectoryObjectConference
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITDirectoryObjectConference interface provides methods that allow an application to set and get conference details. The ITDirectoryObjectConference interface is created by calling QueryInterface on ITDirectoryObject.
 old-location: tapi3\itdirectoryobjectconference.htm
 old-project: Tapi
 ms.assetid: bab167cf-2726-4423-87b3-69227404bddc
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITDirectoryObjectConference, ITDirectoryObjectConference interface [TAPI 2.2], ITDirectoryObjectConference interface [TAPI 2.2],described, _tapi3_itdirectoryobjectconference, rend/ITDirectoryObjectConference, tapi3.itdirectoryobjectconference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rend.h
 req.include-header: 

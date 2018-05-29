@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaOpenPolicy
 title: LsaOpenPolicy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a handle to the Policy object on a local or remote system.
 old-location: security\lsaopenpolicy.htm
 old-project: SecAuthN
 ms.assetid: 361bc962-1e97-4606-a835-cbce37692c55
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaOpenPolicy, LsaOpenPolicy function [Security], _lsa_lsaopenpolicy, ntsecapi/LsaOpenPolicy, security.lsaopenpolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

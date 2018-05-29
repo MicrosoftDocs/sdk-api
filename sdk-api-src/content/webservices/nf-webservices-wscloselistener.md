@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsCloseListener
 title: WsCloseListener function
-author: windows-driver-content
+author: windows-sdk-content
 description: Causes the specified listener to stop listening.
 old-location: wsw\wscloselistener.htm
 old-project: wsw
 ms.assetid: 6023595a-ac52-4619-a824-df49da887fc5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsCloseListener, WsCloseListener function [Web Services for Windows], webservices/WsCloseListener, wsw.wscloselistener
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.SetRoundingMode
 title: IUIAnimationVariable::SetRoundingMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the rounding mode for the animation variable.
 old-location: uianimation\iuianimationvariable_setroundingmode.htm
 old-project: UIAnimation
 ms.assetid: e8c86195-14a1-4535-9fc2-4992c8090e79
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetRoundingMode method, IUIAnimationVariable.SetRoundingMode, IUIAnimationVariable::SetRoundingMode, SetRoundingMode, SetRoundingMode method [Windows Animation], SetRoundingMode method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_setroundingmode, uianimation/IUIAnimationVariable::SetRoundingMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

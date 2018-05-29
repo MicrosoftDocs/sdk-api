@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.IWSDSSLClientCertificate.GetMappedAccessToken
 title: IWSDSSLClientCertificate::GetMappedAccessToken
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the mapped access token.
 old-location: ncd\iwsdsslclientcertificate_getmappedaccesstoken.htm
 old-project: WsdApi
 ms.assetid: 79dbd838-cffd-4571-8227-e508673c1b02
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetMappedAccessToken, GetMappedAccessToken method, GetMappedAccessToken method,IWSDSSLClientCertificate interface, IWSDSSLClientCertificate interface,GetMappedAccessToken method, IWSDSSLClientCertificate.GetMappedAccessToken, IWSDSSLClientCertificate::GetMappedAccessToken, ncd.iwsdsslclientcertificate_getmappedaccesstoken, wsdbase/IWSDSSLClientCertificate::GetMappedAccessToken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

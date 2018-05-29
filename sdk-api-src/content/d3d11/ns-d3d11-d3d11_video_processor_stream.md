@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_STREAM
 title: D3D11_VIDEO_PROCESSOR_STREAM
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains stream-level data for the ID3D11VideoContext::VideoProcessorBlt method.
 old-location: mf\d3d11_video_processor_stream.htm
 old-project: medfound
 ms.assetid: B861D00B-2FF2-4F8F-AD40-0EE6A9706A0C
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_STREAM, D3D11_VIDEO_PROCESSOR_STREAM structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_STREAM, mf.d3d11_video_processor_stream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:msinkaut.InkPictureSizeMode
 title: InkPictureSizeMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how the picture behaves inside the InkPicture control.
 old-location: tablet\inkpicturesizemode.htm
 old-project: tablet
 ms.assetid: e24c38b4-b25f-4d0e-88f5-f56f5dc6be1a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPSM_AutoSize, IPSM_CenterImage, IPSM_Normal, IPSM_StretchImage, InkPictureSizeMode, InkPictureSizeMode enumeration [Tablet PC], e24c38b4-b25f-4d0e-88f5-f56f5dc6be1a, msinkaut/IPSM_AutoSize, msinkaut/IPSM_CenterImage, msinkaut/IPSM_Normal, msinkaut/IPSM_StretchImage, msinkaut/InkPictureSizeMode, tablet.inkpicturesizemode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

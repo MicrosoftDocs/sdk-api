@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoGetObjectContext
 title: CoGetObjectContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the context for the current object.
 old-location: com\cogetobjectcontext.htm
 old-project: com
 ms.assetid: 97a0c6c3-a011-44dc-b428-aabdad7d4364
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoGetObjectContext, CoGetObjectContext function [COM], _com_CoGetObjectContext, com.cogetobjectcontext, combaseapi/CoGetObjectContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

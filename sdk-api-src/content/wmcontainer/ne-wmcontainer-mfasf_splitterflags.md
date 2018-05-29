@@ -1,16 +1,16 @@
 ---
 UID: NE:wmcontainer.MFASF_SPLITTERFLAGS
 title: MFASF_SPLITTERFLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the ASF splitter options.
 old-location: mf\mfasf_splitterflags.htm
 old-project: medfound
 ms.assetid: 8eaad139-b487-4348-ae19-4251a2aeed14
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 8eaad139-b487-4348-ae19-4251a2aeed14, MFASF_SPLITTERFLAGS, MFASF_SPLITTERFLAGS enumeration [Media Foundation], MFASF_SPLITTER_REVERSE, MFASF_SPLITTER_WMDRM, enumeration [Media Foundation], mf.mfasf_splitterflags, wmcontainer/MFASF_SPLITTERFLAGS, wmcontainer/MFASF_SPLITTER_REVERSE, wmcontainer/MFASF_SPLITTER_WMDRM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmcontainer.h
 req.include-header: 

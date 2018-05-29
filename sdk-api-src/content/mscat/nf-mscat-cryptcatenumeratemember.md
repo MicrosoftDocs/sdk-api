@@ -1,16 +1,16 @@
 ---
 UID: NF:mscat.CryptCATEnumerateMember
 title: CryptCATEnumerateMember function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the members of a catalog.
 old-location: security\cryptcatenumeratemember.htm
 old-project: SecCrypto
 ms.assetid: 6bbfef11-a150-4255-8620-27c1b1587b48
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptCATEnumerateMember, CryptCATEnumerateMember function [Security], mscat/CryptCATEnumerateMember, security.cryptcatenumeratemember
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

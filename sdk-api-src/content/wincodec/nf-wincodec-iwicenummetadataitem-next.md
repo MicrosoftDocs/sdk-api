@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICEnumMetadataItem.Next
 title: IWICEnumMetadataItem::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Advanced the current position in the enumeration.
 old-location: wic\_wic_codec_iwicenummetadataitem_next.htm
 old-project: wic
 ms.assetid: e502f42e-573c-416b-9282-dd50827ef132
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICEnumMetadataItem interface [Windows Imaging Component],Next method, IWICEnumMetadataItem.Next, IWICEnumMetadataItem::Next, Next, Next method [Windows Imaging Component], Next method [Windows Imaging Component],IWICEnumMetadataItem interface, _wic_codec_iwicenummetadataitem_next, wic._wic_codec_iwicenummetadataitem_next, wincodec/IWICEnumMetadataItem::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.ISyncFilterInfo2
 title: ISyncFilterInfo2
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents additional information about a filter that can be used to control which changes are included in an ISyncChangeBatch object.
 old-location: winsync\isyncfilterinfo2.htm
 old-project: winsync
 ms.assetid: b1ffc6a7-ca82-4ce6-b7ac-c4c39c59891d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncFilterInfo2, ISyncFilterInfo2 interface [Windows Sync], ISyncFilterInfo2 interface [Windows Sync],described, winsync.isyncfilterinfo2, winsync/ISyncFilterInfo2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

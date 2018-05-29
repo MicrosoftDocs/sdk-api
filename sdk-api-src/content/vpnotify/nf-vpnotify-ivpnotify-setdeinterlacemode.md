@@ -1,16 +1,16 @@
 ---
 UID: NF:vpnotify.IVPNotify.SetDeinterlaceMode
 title: IVPNotify::SetDeinterlaceMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the mode (such as bob or weave).
 old-location: dshow\ivpnotify_setdeinterlacemode.htm
 old-project: DirectShow
 ms.assetid: 41984fb1-7276-4232-b19a-d251c9fcd699
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVPNotify interface [DirectShow],SetDeinterlaceMode method, IVPNotify.SetDeinterlaceMode, IVPNotify::SetDeinterlaceMode, IVPNotifySetDeinterlaceMode, SetDeinterlaceMode, SetDeinterlaceMode method [DirectShow], SetDeinterlaceMode method [DirectShow],IVPNotify interface, dshow.ivpnotify_setdeinterlacemode, vpnotify/IVPNotify::SetDeinterlaceMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vpnotify.h
 req.include-header: 

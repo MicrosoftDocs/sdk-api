@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetInstancesByQuery(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR)
 title: CWbemProviderGlue::GetInstancesByQuery(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR)
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetInstancesByQuery method retrieves a list of instances that match a particular query.
 old-location: wmi\cwbemproviderglue_getinstancesbyquery.htm
 old-project: WmiSdk
 ms.assetid: cf086577-8964-4b6b-8863-78b53f73397e
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetInstancesByQuery method, CWbemProviderGlue.GetInstancesByQuery, CWbemProviderGlue.GetInstancesByQuery(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR), CWbemProviderGlue::GetInstancesByQuery, CWbemProviderGlue::GetInstancesByQuery(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR), GetInstancesByQuery, GetInstancesByQuery method [Windows Management Instrumentation], GetInstancesByQuery method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getinstancesbyquery, wbemglue/CWbemProviderGlue::GetInstancesByQuery, wmi.cwbemproviderglue_getinstancesbyquery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h

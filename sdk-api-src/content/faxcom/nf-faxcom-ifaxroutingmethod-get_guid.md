@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_Guid
 title: IFaxRoutingMethod::get_Guid
-author: windows-driver-content
+author: windows-sdk-content
 description: The Guid property is a null-terminated string that contains the GUID that uniquely identifies the fax routing method.
 old-location: fax\_mfax_ifaxroutingmethod_get_guid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1les.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxRoutingMethod object [Fax Service],Guid property, FaxRoutingMethod.Guid, Guid property [Fax Service], Guid property [Fax Service],FaxRoutingMethod object, IFaxRoutingMethod.get_Guid, IFaxRoutingMethod::get_Guid, _mfax_ifaxroutingmethod_get_guid, fax._mfax_ifaxroutingmethod_get_guid, fax._mfax_ifaxroutingmethod_get_guid_vb, get_Guid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

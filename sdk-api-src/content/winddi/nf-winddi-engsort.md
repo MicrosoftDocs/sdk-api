@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngSort
 title: EngSort function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngSort function performs a quick-sort on the specified list.
 old-location: display\engsort.htm
 old-project: display
 ms.assetid: e3d1864e-97da-4085-89fa-86135a687f60
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngSort, EngSort function [Display Devices], display.engsort, gdifncs_d675bef7-30d0-4e0d-a798-a397b282ce48.xml, winddi/EngSort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetDrawBackgroundMode
 title: IAMWstDecoder::GetDrawBackgroundMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Downstream filters use the GetDrawBackgroundMode method to determine whether the caption text background is opaque or transparent.
 old-location: dshow\iamwstdecoder_getdrawbackgroundmode.htm
 old-project: DirectShow
 ms.assetid: c5bf3a83-5f74-4ef1-81b6-6c99e3832725
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDrawBackgroundMode, GetDrawBackgroundMode method [DirectShow], GetDrawBackgroundMode method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetDrawBackgroundMode method, IAMWstDecoder.GetDrawBackgroundMode, IAMWstDecoder::GetDrawBackgroundMode, IAMWstDecoderGetDrawBackgroundMode, dshow.iamwstdecoder_getdrawbackgroundmode, iwstdec/IAMWstDecoder::GetDrawBackgroundMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 

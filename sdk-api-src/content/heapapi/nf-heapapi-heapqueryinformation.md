@@ -1,16 +1,16 @@
 ---
 UID: NF:heapapi.HeapQueryInformation
 title: HeapQueryInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the specified heap.
 old-location: base\heapqueryinformation.htm
 old-project: Memory
 ms.assetid: 6bf6cb8b-7212-4ddb-9ea6-34bc78824a8f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: HeapCompatibilityInformation, HeapQueryInformation, HeapQueryInformation function, _win32_heapqueryinformation, base.heapqueryinformation, heapapi/HeapQueryInformation, winbase/HeapQueryInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h

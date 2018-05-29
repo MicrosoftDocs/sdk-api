@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION
 title: PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the dependency expression for a cluster group.
 old-location: mscs\setgroupdependencyexpression.htm
 old-project: MsCS
 ms.assetid: 4cf98bed-77fd-4c6a-98c1-ce602e1895f9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION, PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION callback, PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION callback function [Failover Cluster], clusapi/PCLUSAPI_SET_GROUP_DEPENDENCY_EXPRESSION, mscs.setgroupdependencyexpression
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

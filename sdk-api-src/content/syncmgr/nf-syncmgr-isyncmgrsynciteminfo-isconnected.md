@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemInfo.IsConnected
 title: ISyncMgrSyncItemInfo::IsConnected
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates a value that indicates whether the item&#8212;typically some type of external device&#8212;is connected.
 old-location: shell\ISyncMgrSyncItemInfo_IsConnected.htm
 old-project: shell
 ms.assetid: 12ecfdba-87fb-4b73-8dac-0279f3f140fc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrSyncItemInfo interface [Windows Shell],IsConnected method, ISyncMgrSyncItemInfo.IsConnected, ISyncMgrSyncItemInfo::IsConnected, IsConnected, IsConnected method [Windows Shell], IsConnected method [Windows Shell],ISyncMgrSyncItemInfo interface, _shell_ISyncMgrSyncItemInfo_IsConnected, shell.ISyncMgrSyncItemInfo_IsConnected, syncmgr/ISyncMgrSyncItemInfo::IsConnected
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

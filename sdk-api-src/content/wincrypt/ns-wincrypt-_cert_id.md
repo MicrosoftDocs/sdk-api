@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_ID
 title: "_CERT_ID"
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used as a flexible means of uniquely identifying a certificate.
 old-location: security\cert_id.htm
 old-project: SecCrypto
 ms.assetid: 9e33f661-c365-4725-8c3f-27b6cdd9a84e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_ID, CERT_ID, CERT_ID structure [Security], CERT_ID_ISSUER_SERIAL_NUMBER, CERT_ID_KEY_IDENTIFIER, CERT_ID_SHA1_HASH, PCERT_ID, PCERT_ID structure pointer [Security], _CERT_ID, _crypto2_cert_id, security.cert_id, wincrypt/CERT_ID, wincrypt/PCERT_ID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

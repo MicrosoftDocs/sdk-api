@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.RtlVirtualUnwind
 title: RtlVirtualUnwind function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the invocation context of the function that precedes the specified function context.
 old-location: base\rtlvirtualunwind.htm
 old-project: Debug
 ms.assetid: 78d60f7a-0e16-4856-8aca-c251ab066b83
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtlVirtualUnwind, RtlVirtualUnwind function, UNW_FLAG_CHAININFO, UNW_FLAG_EHANDLER, UNW_FLAG_NHANDLER, UNW_FLAG_UHANDLER, base.rtlvirtualunwind, winnt/RtlVirtualUnwind
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

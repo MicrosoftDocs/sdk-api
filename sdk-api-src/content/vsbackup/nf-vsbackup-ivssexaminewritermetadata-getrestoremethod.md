@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetRestoreMethod
 title: IVssExamineWriterMetadata::GetRestoreMethod
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetRestoreMethod method returns information about how a writer wants its data to be restored.
 old-location: base\ivssexaminewritermetadata_getrestoremethod.htm
 old-project: VSS
 ms.assetid: c93f841f-057c-4aee-b8f2-263395e84c7b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetRestoreMethod, GetRestoreMethod method [VSS], GetRestoreMethod method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetRestoreMethod method, IVssExamineWriterMetadata.GetRestoreMethod, IVssExamineWriterMetadata::GetRestoreMethod, _win32_ivssexaminewritermetadata_getrestoremethod, base.ivssexaminewritermetadata_getrestoremethod, vsbackup/IVssExamineWriterMetadata::GetRestoreMethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

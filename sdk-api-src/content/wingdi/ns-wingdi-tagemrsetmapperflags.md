@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRSETMAPPERFLAGS
 title: tagEMRSETMAPPERFLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRSETMAPPERFLAGS structure contains members for the SetMapperFlags enhanced metafile record.
 old-location: gdi\emrsetmapperflags.htm
 old-project: gdi
 ms.assetid: d8a01e0a-6da9-43e2-9910-87503b5c851e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRSETMAPPERFLAGS, EMRSETMAPPERFLAGS, EMRSETMAPPERFLAGS structure [Windows GDI], PEMRSETMAPPERFLAGS, PEMRSETMAPPERFLAGS structure pointer [Windows GDI], _win32_EMRSETMAPPERFLAGS_str, gdi.emrsetmapperflags, tagEMRSETMAPPERFLAGS, wingdi/EMRSETMAPPERFLAGS, wingdi/PEMRSETMAPPERFLAGS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

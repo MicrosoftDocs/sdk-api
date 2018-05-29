@@ -1,16 +1,16 @@
 ---
 UID: NF:jobapi2.QueryIoRateControlInformationJobObject
 title: QueryIoRateControlInformationJobObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information about the control of the I/O rate for a job object.
 old-location: base\queryioratecontrolinformationjobobject.htm
 old-project: ProcThread
 ms.assetid: B61DA8FC-1CF7-4D97-86F5-E3C2131D41EC
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: QueryIoRateControlInformationJobObject, QueryIoRateControlInformationJobObject function, base.queryioratecontrolinformationjobobject, jobapi2/QueryIoRateControlInformationJobObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: jobapi2.h
 req.include-header: 

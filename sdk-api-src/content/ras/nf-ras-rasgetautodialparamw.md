@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasGetAutodialParamW
 title: RasGetAutodialParamW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasGetAutodialParam function retrieves the value of an AutoDial parameter.
 old-location: rras\rasgetautodialparam.htm
 old-project: RRAS
 ms.assetid: 49f0f944-49e7-4836-bf56-0fef07f39191
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RASADP_ConnectionQueryTimeout, RASADP_DisableConnectionQuery, RASADP_FailedConnectionTimeout, RASADP_LoginSessionDisable, RASADP_SavedAddressesLimit, RasGetAutodialParam, RasGetAutodialParam function [RAS], RasGetAutodialParamA, RasGetAutodialParamW, _ras_rasgetautodialparam, ras/RasGetAutodialParam, ras/RasGetAutodialParamA, ras/RasGetAutodialParamW, rras.rasgetautodialparam
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

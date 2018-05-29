@@ -1,16 +1,16 @@
 ---
 UID: NN:inputscope.ITfInputScope
 title: ITfInputScope
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfInputScope interface is used by the text input processors to get the InputScope value that represents a document context associated with a window.
 old-location: tsf\ITfInputScope.htm
 old-project: TSF
 ms.assetid: b2a045dd-dc2c-489d-bcb9-80710faef9c2
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfInputScope, ITfInputScope interface [Text Services Framework], ITfInputScope interface [Text Services Framework],described, _tsf_itfinputscope_ref, inputscope/ITfInputScope, tsf.ITfInputScope
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: inputscope.h
 req.include-header: 

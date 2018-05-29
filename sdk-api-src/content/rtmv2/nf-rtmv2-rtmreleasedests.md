@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmReleaseDests
 title: RtmReleaseDests function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmReleaseDests function releases the destination handles.
 old-location: rras\rtmreleasedests.htm
 old-project: RRAS
 ms.assetid: eb338b7f-8461-4980-b92f-09d976661ff2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmReleaseDests, RtmReleaseDests function [RAS], _rtmv2ref_rtmreleasedests, rras.rtmreleasedests, rtmv2/RtmReleaseDests
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

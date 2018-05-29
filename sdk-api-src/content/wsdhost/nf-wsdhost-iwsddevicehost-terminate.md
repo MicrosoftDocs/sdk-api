@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.Terminate
 title: IWSDDeviceHost::Terminate
-author: windows-driver-content
+author: windows-sdk-content
 description: Terminates the host and releases any attached services.
 old-location: ncd\iwsddevicehost_terminate.htm
 old-project: WsdApi
 ms.assetid: 2a8df6fb-2834-44f4-9f25-454dcc2ff660
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDDeviceHost interface,Terminate method, IWSDDeviceHost.Terminate, IWSDDeviceHost::Terminate, Terminate, Terminate method, Terminate method,IWSDDeviceHost interface, ncd.iwsddevicehost_terminate, wsdhost/IWSDDeviceHost::Terminate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

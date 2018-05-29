@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventObjectCollection.Add
 title: IEventObjectCollection::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an event object to the collection.
 old-location: cos\ieventobjectcollection_add.htm
 old-project: cossdk
 ms.assetid: ca08e56a-2ade-4209-a61a-b9dae021e888
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Add, Add method [COM+], Add method [COM+],IEventObjectCollection interface, IEventObjectCollection interface [COM+],Add method, IEventObjectCollection.Add, IEventObjectCollection::Add, _cos_IEventObjectCollection_Add, cos.ieventobjectcollection_add, eventsys/IEventObjectCollection::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

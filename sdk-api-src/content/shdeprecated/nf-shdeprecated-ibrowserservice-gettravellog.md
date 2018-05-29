@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetTravelLog
 title: IBrowserService::GetTravelLog
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Retrieves the browser's ITravelLog.
 old-location: shell\IBrowserService_GetTravelLog.htm
 old-project: shell
 ms.assetid: 8e6c09e4-5489-4c21-8e42-28cdc4c216f1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTravelLog, GetTravelLog method [Windows Shell], GetTravelLog method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetTravelLog method, IBrowserService.GetTravelLog, IBrowserService::GetTravelLog, shdeprecated/IBrowserService::GetTravelLog, shell.IBrowserService_GetTravelLog, zone_IBrowserService_GetTravelLog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

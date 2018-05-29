@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpCountVbl
 title: SnmpCountVbl function
-author: windows-driver-content
+author: windows-sdk-content
 description: A WinSNMP application calls the WinSNMP SnmpCountVbl function to enumerate the variable binding entries in the specified variable bindings list.
 old-location: snmp\snmpcountvbl.htm
 old-project: SNMP
 ms.assetid: 08e7d450-0c75-4ef5-a9c5-ef0255601a9a
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpCountVbl, SnmpCountVbl function [SNMP], _snmp_snmpcountvbl, snmp.snmpcountvbl, winsnmp/SnmpCountVbl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

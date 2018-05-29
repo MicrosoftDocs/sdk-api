@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetCoreWindow
 title: IDXGISwapChain1::GetCoreWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the underlying CoreWindow object for this swap-chain object.
 old-location: direct3ddxgi\idxgiswapchain1_getimmersivewindow.htm
 old-project: direct3ddxgi
 ms.assetid: ABD529CF-41D8-4F21-8F47-D0D053AF2322
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetCoreWindow, GetCoreWindow method [DXGI], GetCoreWindow method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetCoreWindow method, IDXGISwapChain1.GetCoreWindow, IDXGISwapChain1::GetCoreWindow, direct3ddxgi.idxgiswapchain1_getimmersivewindow, dxgi1_2/IDXGISwapChain1::GetCoreWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

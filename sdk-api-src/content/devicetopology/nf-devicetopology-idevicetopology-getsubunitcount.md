@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetSubunitCount
 title: IDeviceTopology::GetSubunitCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSubunitCount method gets the number of subunits in the device topology.
 old-location: coreaudio\idevicetopology_getsubunitcount.htm
 old-project: CoreAudio
 ms.assetid: 70fa57bb-56fe-4f8c-9967-10714f1cba22
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSubunitCount, GetSubunitCount method [Core Audio], GetSubunitCount method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetSubunitCount method, IDeviceTopology.GetSubunitCount, IDeviceTopology::GetSubunitCount, IDeviceTopologyGetSubunitCount, coreaudio.idevicetopology_getsubunitcount, devicetopology/IDeviceTopology::GetSubunitCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

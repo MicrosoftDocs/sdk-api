@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetFeeNameW
 title: IIsdbCAContractInformationDescriptor::GetFeeNameW
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets, in Unicode-text format, the value of the fee_name field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field describes the fee for the ES group being described.
 old-location: mstv\iisdbcacontractinformationdescriptor_getfeenamew.htm
 old-project: mstv
 ms.assetid: c2fcdcc1-acca-417e-bcf5-baad4ea07cef
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFeeNameW, GetFeeNameW method [Microsoft TV Technologies], GetFeeNameW method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetFeeNameW method, IIsdbCAContractInformationDescriptor.GetFeeNameW, IIsdbCAContractInformationDescriptor::GetFeeNameW, dvbsiparser/IIsdbCAContractInformationDescriptor::GetFeeNameW, mstv.iisdbcacontractinformationdescriptor_getfeenamew
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

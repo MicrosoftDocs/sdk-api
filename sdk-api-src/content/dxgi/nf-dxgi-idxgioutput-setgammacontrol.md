@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi.IDXGIOutput.SetGammaControl
 title: IDXGIOutput::SetGammaControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the gamma controls.
 old-location: direct3ddxgi\idxgioutput_setgammacontrol.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_setgammacontrol.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: 1363de75-ecbe-4dfc-a09c-6cb809f2a5cf, IDXGIOutput interface [DXGI],SetGammaControl method, IDXGIOutput.SetGammaControl, IDXGIOutput::SetGammaControl, SetGammaControl, SetGammaControl method [DXGI], SetGammaControl method [DXGI],IDXGIOutput interface, direct3ddxgi.idxgioutput_setgammacontrol, dxgi/IDXGIOutput::SetGammaControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

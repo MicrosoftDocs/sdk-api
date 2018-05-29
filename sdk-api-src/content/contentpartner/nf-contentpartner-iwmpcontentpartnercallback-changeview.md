@@ -1,16 +1,16 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.ChangeView
 title: IWMPContentPartnerCallback::ChangeView
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The ChangeView method changes the view in Windows Media Player.
 old-location: wmp\iwmpcontentpartnercallback_changeview.htm
 old-project: WMP
 ms.assetid: eb796ef2-6d08-4746-952b-24ac51ae7733
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ChangeView, ChangeView method [Windows Media Player], ChangeView method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],ChangeView method, IWMPContentPartnerCallback.ChangeView, IWMPContentPartnerCallback::ChangeView, IWMPContentPartnerCallbackChangeView, contentpartner/IWMPContentPartnerCallback::ChangeView, wmp.iwmpcontentpartnercallback_changeview
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: contentpartner.h
 req.include-header: 

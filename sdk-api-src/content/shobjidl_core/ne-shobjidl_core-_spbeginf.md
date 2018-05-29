@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core._SPBEGINF
 title: "_SPBEGINF"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by IActionProgress::Begin, these constants specify certain UI operations that are to be enabled or disabled.
 old-location: shell\SPBEGINF_Constants.htm
 old-project: shell
 ms.assetid: dc5215ca-17c8-47c1-8059-f46400ff1d0f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SPBEGINF, SPBEGINF enumeration [Windows Shell], SPBEGINF_AUTOTIME, SPBEGINF_MARQUEEPROGRESS, SPBEGINF_NOCANCELBUTTON, SPBEGINF_NOPROGRESSBAR, SPBEGINF_NORMAL, _SPBEGINF, shell.SPBEGINF_Constants, shell_SPBEGINF_Constants, shobjidl_core/SPBEGINF, shobjidl_core/SPBEGINF_AUTOTIME, shobjidl_core/SPBEGINF_MARQUEEPROGRESS, shobjidl_core/SPBEGINF_NOCANCELBUTTON, shobjidl_core/SPBEGINF_NOPROGRESSBAR, shobjidl_core/SPBEGINF_NORMAL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

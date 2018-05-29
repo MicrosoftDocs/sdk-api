@@ -1,16 +1,16 @@
 ---
 UID: NN:msrdc.ISimilarityTraitsMappedView
 title: ISimilarityTraitsMappedView
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods that an RDC application can implement for manipulating a mapped view of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmappedview.htm
 old-project: Rdc
 ms.assetid: 48d6d4a0-fbf1-476a-b30f-83176c51cb48
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISimilarityTraitsMappedView, ISimilarityTraitsMappedView interface [Remote Differential Compression], ISimilarityTraitsMappedView interface [Remote Differential Compression],described, fs.isimilaritytraitsmappedview, msrdc/ISimilarityTraitsMappedView, rdc.isimilaritytraitsmappedview
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

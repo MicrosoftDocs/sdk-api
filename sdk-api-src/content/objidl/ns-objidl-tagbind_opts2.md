@@ -1,16 +1,16 @@
 ---
 UID: NS:objidl.tagBIND_OPTS2
 title: tagBIND_OPTS2
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains parameters used during a moniker-binding operation.
 old-location: com\bind_opts2.htm
 old-project: com
 ms.assetid: fb2aa8c1-dddc-480e-b544-61a1074125ef
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPBIND_OPTS2, BIND_OPTS2, BIND_OPTS2 structure [COM], LPBIND_OPTS2, LPBIND_OPTS2 structure pointer [COM], _com_BIND_OPTS2, com.bind_opts2, objidl/BIND_OPTS2, objidl/LPBIND_OPTS2, tagBIND_OPTS2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:comsvcs.tagCSC_TransactionConfig
 title: tagCSC_TransactionConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates how transactions are configured for CServiceConfig.
 old-location: cos\csc_transactionconfig.htm
 old-project: cossdk
 ms.assetid: 3524d7b3-4bcd-4e92-afc2-ddac98a23b7c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CSC_CreateTransactionIfNecessary, CSC_IfContainerIsTransactional, CSC_NewTransaction, CSC_NoTransaction, CSC_TransactionConfig, CSC_TransactionConfig enumeration [COM+], _cos_CSC_TransactionConfig, comsvcs/CSC_CreateTransactionIfNecessary, comsvcs/CSC_IfContainerIsTransactional, comsvcs/CSC_NewTransaction, comsvcs/CSC_NoTransaction, comsvcs/CSC_TransactionConfig, cos.csc_transactionconfig, tagCSC_TransactionConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 

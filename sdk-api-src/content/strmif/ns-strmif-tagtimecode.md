@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.tagTIMECODE
 title: tagTIMECODE
-author: windows-driver-content
+author: windows-sdk-content
 description: The TIMECODE structure contains basic timecode frame count information.
 old-location: dshow\timecode.htm
 old-project: DirectShow
 ms.assetid: 652be387-aa5e-4077-8b2d-b08bc40b31bb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PTIMECODE, ED_FORMAT_SMPTE_24, ED_FORMAT_SMPTE_25, ED_FORMAT_SMPTE_30, ED_FORMAT_SMPTE_30DROP, TIMECODE, TIMECODE structure [DirectShow], TIMECODEStructure, dshow.timecode, strmif/TIMECODE, tagTIMECODE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

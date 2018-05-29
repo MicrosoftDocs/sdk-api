@@ -1,16 +1,16 @@
 ---
 UID: NE:structuredquery.CASE_REQUIREMENT
 title: CASE_REQUIREMENT
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the case requirements of keywords, if any, for a query.
 old-location: search\_search_CASE_REQUIREMENT.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\case_requirement.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CASE_REQUIREMENT, CASE_REQUIREMENT enumeration [search], CASE_REQUIREMENT_ANY, CASE_REQUIREMENT_UPPER_IF_AQS, _search_CASE_REQUIREMENT, search._search_CASE_REQUIREMENT, structuredquery/CASE_REQUIREMENT, structuredquery/CASE_REQUIREMENT_ANY, structuredquery/CASE_REQUIREMENT_UPPER_IF_AQS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: structuredquery.h
 req.include-header: 
@@ -20,7 +20,7 @@ req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: UnalignedStringCchLengthW (Unicode) and StringCchLengthA (ANSI)
+req.unicode-ansi: StringCchVPrintf_lW (Unicode) and StringCchVPrintf_lA (ANSI)
 req.idl: Structuredquery.idl
 req.max-support: 
 req.namespace: 

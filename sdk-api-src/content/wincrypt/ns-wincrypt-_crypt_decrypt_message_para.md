@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_DECRYPT_MESSAGE_PARA
 title: "_CRYPT_DECRYPT_MESSAGE_PARA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CRYPT_DECRYPT_MESSAGE_PARA structure contains information for decrypting messages.
 old-location: security\crypt_decrypt_message_para.htm
 old-project: SecCrypto
 ms.assetid: 67e136cd-12e3-4a31-9d8b-b53e1129e940
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_DECRYPT_MESSAGE_PARA, CRYPT_DECRYPT_MESSAGE_PARA, CRYPT_DECRYPT_MESSAGE_PARA structure [Security], PCRYPT_DECRYPT_MESSAGE_PARA, PCRYPT_DECRYPT_MESSAGE_PARA structure pointer [Security], _CRYPT_DECRYPT_MESSAGE_PARA, _crypto2_crypt_decrypt_message_para, security.crypt_decrypt_message_para, wincrypt/CRYPT_DECRYPT_MESSAGE_PARA, wincrypt/PCRYPT_DECRYPT_MESSAGE_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

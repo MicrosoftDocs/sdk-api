@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ILoadChangeContext.SetRecoverableErrorOnChange
 title: ILoadChangeContext::SetRecoverableErrorOnChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates a recoverable error on this change has occurred.
 old-location: winsync\iloadchangecontext_setrecoverableerroronchange.htm
 old-project: winsync
 ms.assetid: 9e557889-a4f6-4e05-99ce-bb05013dc4cd
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ILoadChangeContext interface [Windows Sync],SetRecoverableErrorOnChange method, ILoadChangeContext.SetRecoverableErrorOnChange, ILoadChangeContext::SetRecoverableErrorOnChange, SetRecoverableErrorOnChange, SetRecoverableErrorOnChange method [Windows Sync], SetRecoverableErrorOnChange method [Windows Sync],ILoadChangeContext interface, winsync.iloadchangecontext_setrecoverableerroronchange, winsync/ILoadChangeContext::SetRecoverableErrorOnChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

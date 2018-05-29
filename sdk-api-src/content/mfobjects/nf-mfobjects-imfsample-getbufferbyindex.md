@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFSample.GetBufferByIndex
 title: IMFSample::GetBufferByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a buffer from the sample, by index.
 old-location: mf\imfsample_getbufferbyindex.htm
 old-project: medfound
 ms.assetid: 48d3b861-96e8-4767-a8b1-65614fd48254
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 48d3b861-96e8-4767-a8b1-65614fd48254, GetBufferByIndex, GetBufferByIndex method [Media Foundation], GetBufferByIndex method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetBufferByIndex method, IMFSample.GetBufferByIndex, IMFSample::GetBufferByIndex, mf.imfsample_getbufferbyindex, mfobjects/IMFSample::GetBufferByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

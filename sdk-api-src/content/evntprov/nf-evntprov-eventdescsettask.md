@@ -1,16 +1,16 @@
 ---
 UID: NF:evntprov.EventDescSetTask
 title: EventDescSetTask function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Task member of the event descriptor.
 old-location: etw\eventdescsettask_func.htm
 old-project: ETW
 ms.assetid: 74298e6f-b29a-4fa7-98d1-f81270fcbc0e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EventDescSetTask, EventDescSetTask function [ETW], base.eventdescsettask_func, etw.eventdescsettask_func, evntprov/EventDescSetTask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

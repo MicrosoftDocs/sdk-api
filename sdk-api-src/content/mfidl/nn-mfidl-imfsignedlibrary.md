@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFSignedLibrary
 title: IMFSignedLibrary
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method that allows content protection systems to get the procedure address of a function in the signed library. This method provides the same functionality as GetProcAddress which is not available to Windows Store apps.
 old-location: mf\imfsignedlibrary.htm
 old-project: medfound
 ms.assetid: 1170fd74-7da4-49a8-b095-dd1572db382d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSignedLibrary, IMFSignedLibrary interface [Media Foundation], IMFSignedLibrary interface [Media Foundation],described, mf.imfsignedlibrary, mfidl/IMFSignedLibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

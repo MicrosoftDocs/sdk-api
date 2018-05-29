@@ -1,16 +1,16 @@
 ---
 UID: NF:sensevts.ISensOnNow.OnACPower
 title: ISensOnNow::OnACPower
-author: windows-driver-content
+author: windows-sdk-content
 description: SENS calls the OnACPower method to notify your application that the computer is using AC power.
 old-location: sens\isensonnow_onacpower.htm
 old-project: Sens
 ms.assetid: 4d9e8de9-a329-4f8c-883b-e4baab04729b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISensOnNow interface [SENS],OnACPower method, ISensOnNow.OnACPower, ISensOnNow::OnACPower, OnACPower, OnACPower method [SENS], OnACPower method [SENS],ISensOnNow interface, _zaw_isensonnow_onacpower, sens.isensonnow_onacpower, sensevts/ISensOnNow::OnACPower, syncmgr.isensonnow_onacpower
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 

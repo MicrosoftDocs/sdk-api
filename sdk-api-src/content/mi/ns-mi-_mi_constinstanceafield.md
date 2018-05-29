@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_ConstInstanceAField
 title: "_MI_ConstInstanceAField"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constinstanceafield.htm
 old-project: wmi_v2
 ms.assetid: 529de1de-9a17-4794-8a27-8b58eabad008
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_ConstInstanceAField, MI_ConstInstanceAField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstInstanceAField, mi/MI_ConstInstanceAField, wmi._mi_constinstanceafield, wmi_v2.mi_constinstanceafield
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

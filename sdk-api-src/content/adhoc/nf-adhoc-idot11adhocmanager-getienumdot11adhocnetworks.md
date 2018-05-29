@@ -1,16 +1,16 @@
 ---
 UID: NF:adhoc.IDot11AdHocManager.GetIEnumDot11AdHocNetworks
 title: IDot11AdHocManager::GetIEnumDot11AdHocNetworks
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a list of available ad hoc network destinations within connection range.
 old-location: nwifi\idot11adhocmanager_getienumdot11adhocnetworks.htm
 old-project: NativeWiFi
 ms.assetid: 3d37fad8-18e8-4280-9fa8-e40c742ec8ba
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: GetIEnumDot11AdHocNetworks, GetIEnumDot11AdHocNetworks method [NativeWIFI], GetIEnumDot11AdHocNetworks method [NativeWIFI],IDot11AdHocManager interface, IDot11AdHocManager interface [NativeWIFI],GetIEnumDot11AdHocNetworks method, IDot11AdHocManager.GetIEnumDot11AdHocNetworks, IDot11AdHocManager::GetIEnumDot11AdHocNetworks, adhoc/IDot11AdHocManager::GetIEnumDot11AdHocNetworks, nwifi.idot11adhocmanager_getienumdot11adhocnetworks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IBootOptions.get_BootImage
 title: IBootOptions::get_BootImage
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to the boot image data stream.
 old-location: imapi\ibootoptions_get_bootimage.htm
 old-project: imapi
 ms.assetid: 161e0cea-63dd-4806-a246-4b36249b2cc7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IBootOptions interface [IMAPI],get_BootImage method, IBootOptions.get_BootImage, IBootOptions::get_BootImage, get_BootImage, get_BootImage method [IMAPI], get_BootImage method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_bootimage, imapi2fs/IBootOptions::get_BootImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

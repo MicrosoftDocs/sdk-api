@@ -1,16 +1,16 @@
 ---
 UID: NE:docobj.OLECMDTEXTF
 title: OLECMDTEXTF
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of information that an object should store in the OLECMDTEXT structure passed in IOleCommandTarget::QueryStatus.
 old-location: com\olecmdtextf.htm
 old-project: com
 ms.assetid: 8978331a-33b6-4f57-b5a3-aae305c1d872
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OLECMDTEXTF, OLECMDTEXTF enumeration [COM], OLECMDTEXTF_NAME, OLECMDTEXTF_NONE, OLECMDTEXTF_STATUS, _ole_OLECMDTEXTF, com.olecmdtextf, docobj/OLECMDTEXTF, docobj/OLECMDTEXTF_NAME, docobj/OLECMDTEXTF_NONE, docobj/OLECMDTEXTF_STATUS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: docobj.h
 req.include-header: 

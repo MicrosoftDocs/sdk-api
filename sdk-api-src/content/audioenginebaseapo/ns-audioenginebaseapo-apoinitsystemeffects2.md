@@ -1,16 +1,16 @@
 ---
 UID: NS:audioenginebaseapo.APOInitSystemEffects2
 title: APOInitSystemEffects2
-author: windows-driver-content
+author: windows-sdk-content
 description: The APOInitSystemEffects2 structure was introduced with Windows 8.1, to make it possible to provide additional initialization context to the audio processing object (APO) for initialization.
 old-location: audio\apoinitsystemeffects2.htm
 old-project: audio
 ms.assetid: 87E59FCE-1965-4B23-B1F5-F54FEDD5A83E
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: APOInitSystemEffects2, APOInitSystemEffects2 structure [Audio Devices], PAPOInitSystemEffects2, PAPOInitSystemEffects2 structure pointer [Audio Devices], audio.apoinitsystemeffects2, audioenginebaseapo/APOInitSystemEffects2, audioenginebaseapo/PAPOInitSystemEffects2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioenginebaseapo.h
 req.include-header: 

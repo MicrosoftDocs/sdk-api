@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLUnregisterEvent
 title: SLUnregisterEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters a registered event in the SL service.
 old-location: security\slunregisterevent.htm
 old-project: SecSLApi
 ms.assetid: 0fd02eb4-16d9-4892-b50c-3f9b0ead8478
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLUnregisterEvent, SLUnregisterEvent function [Security], security.slunregisterevent, slpublic/SLUnregisterEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

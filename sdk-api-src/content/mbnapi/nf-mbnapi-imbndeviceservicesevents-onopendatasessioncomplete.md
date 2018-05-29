@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnOpenDataSessionComplete
 title: IMbnDeviceServicesEvents::OnOpenDataSessionComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification method indicating that a device service OpenDataSession request has completed.
 old-location: mbn\imbndeviceservicesevents_onopendatasessioncomplete.htm
 old-project: mbn
 ms.assetid: 50FDF285-0C93-45C3-AB07-9BFB067DAD94
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnOpenDataSessionComplete method, IMbnDeviceServicesEvents.OnOpenDataSessionComplete, IMbnDeviceServicesEvents::OnOpenDataSessionComplete, OnOpenDataSessionComplete, OnOpenDataSessionComplete method [Microsoft Broadband Networks], OnOpenDataSessionComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onopendatasessioncomplete, mbnapi/IMbnDeviceServicesEvents::OnOpenDataSessionComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

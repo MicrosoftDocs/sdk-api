@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymGetSymbolFileW
 title: SymGetSymbolFileW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates a symbol file in the specified symbol path.
 old-location: base\symgetsymbolfile.htm
 old-project: Debug
 ms.assetid: 8e78e0ef-e68c-4270-8c63-9513f3069ed0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymGetSymbolFile, SymGetSymbolFile function, SymGetSymbolFileW, base.symgetsymbolfile, dbghelp/SymGetSymbolFile, dbghelp/SymGetSymbolFileW, sfDbg, sfImage, sfMpd, sfPdb
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_SetSharedData
 title: IWMSecureChannel::WMSC_SetSharedData
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMSC_SetSharedData method is used during the connection negotiation process.
 old-location: wmformat\iwmsecurechannel_wmsc_setshareddata.htm
 old-project: wmformat
 ms.assetid: b6a87115-f781-4283-b343-301fdf7c5845
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_SetSharedData method, IWMSecureChannel.WMSC_SetSharedData, IWMSecureChannel::WMSC_SetSharedData, WMSC_SetSharedData, WMSC_SetSharedData method [windows Media Format], WMSC_SetSharedData method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_setshareddata, wmsecure/IWMSecureChannel::WMSC_SetSharedData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsecure.h
 req.include-header: 

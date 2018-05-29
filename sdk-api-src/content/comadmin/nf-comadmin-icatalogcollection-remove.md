@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICatalogCollection.Remove
 title: ICatalogCollection::Remove
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an item from the collection, given its index, and re-indexes the items with higher index values.
 old-location: cos\icatalogcollection_remove.htm
 old-project: cossdk
 ms.assetid: 984f60b1-0963-482c-90a3-563e8699f73d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICatalogCollection interface [COM+],Remove method, ICatalogCollection.Remove, ICatalogCollection::Remove, Remove, Remove method [COM+], Remove method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_Remove, comadmin/ICatalogCollection::Remove, cos.icatalogcollection_remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

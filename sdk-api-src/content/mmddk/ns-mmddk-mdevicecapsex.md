@@ -1,16 +1,16 @@
 ---
 UID: NS:mmddk.MDEVICECAPSEX
 title: MDEVICECAPSEX
-author: windows-driver-content
+author: windows-sdk-content
 description: The MDEVICECAPSEX structure contains device capability information for Plug and Play (PnP) device drivers.
 old-location: audio\mdevicecapsex.htm
 old-project: audio
 ms.assetid: d2da18d2-4ff3-47a8-9cd9-f8df03eed0a5
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: MDEVICECAPSEX, MDEVICECAPSEX structure [Audio Devices], aud-prop_12e0eeb8-beac-4b01-8a5c-6e78f58f703b.xml, audio.mdevicecapsex, mmddk/MDEVICECAPSEX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmddk.h
 req.include-header: Mmddk.h, Mmsystem.h, Windows.h

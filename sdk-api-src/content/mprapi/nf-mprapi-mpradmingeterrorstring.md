@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminGetErrorString
 title: MprAdminGetErrorString function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminGetErrorString function returns the string associated with a router error from Mprerror.h.
 old-location: rras\mpradmingeterrorstring.htm
 old-project: RRAS
 ms.assetid: d086f12e-7352-4a0d-bfbe-ddab3b44d757
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminGetErrorString, MprAdminGetErrorString function [RAS], _mpr_mpradmingeterrorstring, mprapi/MprAdminGetErrorString, rras.mpradmingeterrorstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

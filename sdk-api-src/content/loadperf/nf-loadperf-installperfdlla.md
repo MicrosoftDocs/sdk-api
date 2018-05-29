@@ -1,16 +1,16 @@
 ---
 UID: NF:loadperf.InstallPerfDllA
 title: InstallPerfDllA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Installs performance counter strings, as defined in an input .ini file, into the system registry.
 old-location: winprog\installperfdll.htm
 old-project: DevNotes
 ms.assetid: d674f023-27e5-4ca2-926d-4fa02292ffbb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: InstallPerfDll, InstallPerfDll function [Windows API], InstallPerfDllA, InstallPerfDllW, loadperf/InstallPerfDll, winprog.installperfdll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: loadperf.h
 req.include-header: 

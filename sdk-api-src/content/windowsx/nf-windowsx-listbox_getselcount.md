@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.ListBox_GetSelCount
 title: ListBox_GetSelCount macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the count of selected items in a multiple-selection list box. You can use this macro or send the LB_GETSELCOUNT message explicitly.
 old-location: controls\ListBox_GetSelCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_getselcount.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListBox_GetSelCount, ListBox_GetSelCount macro [Windows Controls], _win32_ListBox_GetSelCount, _win32_ListBox_GetSelCount_cpp, controls.ListBox_GetSelCount, controls._win32_ListBox_GetSelCount, windowsx/ListBox_GetSelCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

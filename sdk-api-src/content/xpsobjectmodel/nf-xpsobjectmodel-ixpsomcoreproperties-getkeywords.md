@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetKeywords
 title: IXpsOMCoreProperties::GetKeywords
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the keywords property.
 old-location: xps\ixpsomcoreproperties_getkeywords.htm
 old-project: printdocs
 ms.assetid: f0bac4c7-5bb6-4a9d-8f16-db97e7efee5a
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetKeywords, GetKeywords method [XPS Documents and Packaging], GetKeywords method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetKeywords method, IXpsOMCoreProperties.GetKeywords, IXpsOMCoreProperties::GetKeywords, xps.ixpsomcoreproperties_getkeywords, xpsobjectmodel/IXpsOMCoreProperties::GetKeywords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

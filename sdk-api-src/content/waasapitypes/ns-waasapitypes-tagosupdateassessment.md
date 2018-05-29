@@ -1,16 +1,16 @@
 ---
 UID: NS:waasapitypes.tagOSUpdateAssessment
 title: tagOSUpdateAssessment
-author: windows-driver-content
+author: windows-sdk-content
 description: The OSUpdateAssessment structure defines how up-to-date the OS on a targeted device is.
 old-location: base\osupdateassessment.htm
 old-project: SysInfo
 ms.assetid: D76D0587-E31E-48D2-9DF6-33444E4CA325
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OSUpdateAssessment, OSUpdateAssessment structure, base.osupdateassessment, tagOSUpdateAssessment, waasapitypes/OSUpdateAssessment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: waasapitypes.h
 req.include-header: 

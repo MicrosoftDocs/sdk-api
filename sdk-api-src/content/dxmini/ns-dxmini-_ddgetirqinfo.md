@@ -1,16 +1,16 @@
 ---
 UID: NS:dxmini._DDGETIRQINFO
 title: "_DDGETIRQINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDGETIRQINFO structure contains interrupt information for the video miniport driver.
 old-location: display\ddgetirqinfo.htm
 old-project: display
 ms.assetid: fdc3b929-902b-4759-b603-1624e3fb01dc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDDGETIRQINFO, DDGETIRQINFO, DDGETIRQINFO structure [Display Devices], PDDGETIRQINFO, PDDGETIRQINFO structure pointer [Display Devices], Video_Structs_18f717ac-c026-4679-b55f-394135132ccc.xml, _DDGETIRQINFO, display.ddgetirqinfo, dxmini/DDGETIRQINFO, dxmini/PDDGETIRQINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h

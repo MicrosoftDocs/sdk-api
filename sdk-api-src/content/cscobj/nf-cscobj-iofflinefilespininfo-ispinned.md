@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesPinInfo.IsPinned
 title: IOfflineFilesPinInfo::IsPinned
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the item is pinned.
 old-location: of\iofflinefilespininfo_ispinned.htm
 old-project: OfflineFiles
 ms.assetid: 143cf346-dbe0-42cf-871e-a0cb54722403
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesPinInfo interface [Offline Files],IsPinned method, IOfflineFilesPinInfo.IsPinned, IOfflineFilesPinInfo::IsPinned, IsPinned, IsPinned method [Offline Files], IsPinned method [Offline Files],IOfflineFilesPinInfo interface, cscobj/IOfflineFilesPinInfo::IsPinned, of.iofflinefilespininfo_ispinned
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

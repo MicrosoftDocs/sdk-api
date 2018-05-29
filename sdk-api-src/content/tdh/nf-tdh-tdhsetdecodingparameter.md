@@ -1,16 +1,16 @@
 ---
 UID: NF:tdh.TdhSetDecodingParameter
 title: TdhSetDecodingParameter function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of a decoding parameter.
 old-location: etw\tdhsetdecodingparameter.htm
 old-project: ETW
 ms.assetid: 00a286f4-cf0f-46d5-a797-bb7494a68034
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TdhSetDecodingParameter, TdhSetDecodingParameter function [ETW], etw.tdhsetdecodingparameter, tdh/TdhSetDecodingParameter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

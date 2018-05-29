@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxFactory.CreatePackageWriter
 title: IAppxFactory::CreatePackageWriter
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a write-only package object to which files can be added.
 old-location: appxpkg\iappxfactory_createpackagewriter.htm
 old-project: appxpkg
 ms.assetid: 10E9250E-7A64-4FB0-ACB9-10CB144A0FBE
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: CreatePackageWriter, CreatePackageWriter method [App packaging and management], CreatePackageWriter method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreatePackageWriter method, IAppxFactory.CreatePackageWriter, IAppxFactory::CreatePackageWriter, appxpackaging/IAppxFactory::CreatePackageWriter, appxpkg.iappxfactory_createpackagewriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

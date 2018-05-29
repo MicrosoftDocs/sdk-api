@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi.IDXGIAdapter1
 title: IDXGIAdapter1
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDXGIAdapter1 interface represents a display sub-system (including one or more GPU's, DACs and video memory).
 old-location: direct3ddxgi\idxgiadapter1.htm
 old-project: direct3ddxgi
 ms.assetid: 003d5a10-e978-481f-8ca6-9e5ab69bfec0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: 2ac7b82f-b5a5-ec94-1506-33b758455dd2, IDXGIAdapter1, IDXGIAdapter1 interface [DXGI], IDXGIAdapter1 interface [DXGI],described, direct3ddxgi.idxgiadapter1, dxgi/IDXGIAdapter1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumIDList.Next
 title: IEnumIDList::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified number of item identifiers in the enumeration sequence and advances the current position by the number of items retrieved.
 old-location: shell\IEnumIDList_Next.htm
 old-project: shell
 ms.assetid: 4b2cd7a3-687c-4a51-b9af-a01576463f0b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumIDList interface [Windows Shell],Next method, IEnumIDList.Next, IEnumIDList::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumIDList interface, _win32_IEnumIDList_Next, shell.IEnumIDList_Next, shobjidl_core/IEnumIDList::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:d2d1_3.D2D1_GRADIENT_MESH_PATCH
 title: D2D1_GRADIENT_MESH_PATCH
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a tensor patch with 16 control points, 4 corner colors, and boundary flags. An ID2D1GradientMesh is made up of 1 or more gradient mesh patches. Use the GradientMeshPatch function or the GradientMeshPatchFromCoonsPatch function to create one.
 old-location: direct2d\D2D1_GRADIENT_MESH_PATCH.htm
 old-project: Direct2D
 ms.assetid: 16d1ef03-f0c9-7414-d54d-9513199272aa
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_GRADIENT_MESH_PATCH, D2D1_GRADIENT_MESH_PATCH structure [Direct2D], d2d1_3/D2D1_GRADIENT_MESH_PATCH, direct2d.D2D1_GRADIENT_MESH_PATCH
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_3.h
 req.include-header: 

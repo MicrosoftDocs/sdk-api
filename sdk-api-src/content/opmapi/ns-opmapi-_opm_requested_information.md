@@ -1,16 +1,16 @@
 ---
 UID: NS:opmapi._OPM_REQUESTED_INFORMATION
 title: "_OPM_REQUESTED_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the result of an Output Protection Manager (OPM) status request.
 old-location: mf\opm_requested_information.htm
 old-project: medfound
 ms.assetid: 84ffa808-1bdb-47c8-a18c-6dfa6fcf90de
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OPM_REQUESTED_INFORMATION, OPM_REQUESTED_INFORMATION structure [Media Foundation], _OPM_REQUESTED_INFORMATION, ksopmapi/OPM_REQUESTED_INFORMATION, mf.opm_requested_information
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: opmapi.h
 req.include-header: Opmapi.h

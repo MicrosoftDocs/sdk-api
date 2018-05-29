@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineGenerateDigitsA
 title: lineGenerateDigitsA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates the generation of the specified digits on the specified call as inband tones using the specified signaling mode.
 old-location: tapi2\linegeneratedigits.htm
 old-project: Tapi
 ms.assetid: aa407269-06be-43e2-906e-20137e4bdb89
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linegeneratedigits, lineGenerateDigits, lineGenerateDigits function [TAPI 2.2], lineGenerateDigitsA, lineGenerateDigitsW, tapi/lineGenerateDigits, tapi/lineGenerateDigitsA, tapi/lineGenerateDigitsW, tapi2.linegeneratedigits"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

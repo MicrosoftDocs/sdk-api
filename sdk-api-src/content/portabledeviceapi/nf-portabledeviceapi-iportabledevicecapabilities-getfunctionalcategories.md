@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetFunctionalCategories
 title: IPortableDeviceCapabilities::GetFunctionalCategories
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetFunctionalCategories method retrieves all functional categories supported by the device.
 old-location: wpdsdk\iportabledevicecapabilities_getfunctionalcategories.htm
 old-project: wpd_sdk
 ms.assetid: c444f9d6-7bef-4e0a-bcd8-6a6110986208
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetFunctionalCategories, GetFunctionalCategories method [Windows Portable Devices SDK], GetFunctionalCategories method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetFunctionalCategories method, IPortableDeviceCapabilities.GetFunctionalCategories, IPortableDeviceCapabilities::GetFunctionalCategories, IPortableDeviceCapabilitiesGetFunctionalCategories, portabledeviceapi/IPortableDeviceCapabilities::GetFunctionalCategories, wpdsdk.iportabledevicecapabilities_getfunctionalcategories
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

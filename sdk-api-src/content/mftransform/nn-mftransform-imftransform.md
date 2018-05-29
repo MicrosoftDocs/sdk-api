@@ -1,16 +1,16 @@
 ---
 UID: NN:mftransform.IMFTransform
 title: IMFTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by all Media Foundation Transforms (MFTs).
 old-location: mf\imftransform.htm
 old-project: medfound
 ms.assetid: 3cc502d8-d364-43b9-b0b6-d9474c002b20
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 3cc502d8-d364-43b9-b0b6-d9474c002b20, IMFTransform, IMFTransform interface [Media Foundation], IMFTransform interface [Media Foundation],described, mf.imftransform, mftransform/IMFTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mftransform.h
 req.include-header: 

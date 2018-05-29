@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarDecFromR4
 title: VarDecFromR4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a float value to a decimal value.
 old-location: automat\vardecfromr4.htm
 old-project: automat
 ms.assetid: c422adac-7430-4793-b07f-8be3af88dc7f
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarDecFromR4, VarDecFromR4 function [Automation], _oa96_VarDecFromR4, automat.vardecfromr4, oleauto/VarDecFromR4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

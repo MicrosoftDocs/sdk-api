@@ -1,16 +1,16 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_CONFIGURATION
 title: DIRECTMANIPULATION_CONFIGURATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the interaction configuration states available in Direct Manipulation.
 old-location: directmanipulation\directmanipulation_configuration.htm
 old-project: directmanipulation
 ms.assetid: a7c146e8-a1df-4445-8230-1dd491d0e9a3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DIRECTMANIPULATION_CONFIGURATION, DIRECTMANIPULATION_CONFIGURATION enumeration [Direct Manipulation], DIRECTMANIPULATION_CONFIGURATION_INTERACTION, DIRECTMANIPULATION_CONFIGURATION_NONE, DIRECTMANIPULATION_CONFIGURATION_RAILS_X, DIRECTMANIPULATION_CONFIGURATION_RAILS_Y, DIRECTMANIPULATION_CONFIGURATION_SCALING, DIRECTMANIPULATION_CONFIGURATION_SCALING_INERTIA, DIRECTMANIPULATION_CONFIGURATION_TRANSLATION_INERTIA, DIRECTMANIPULATION_CONFIGURATION_TRANSLATION_X, DIRECTMANIPULATION_CONFIGURATION_TRANSLATION_Y, directmanipulation.directmanipulation_configuration, directmanipulation/DIRECTMANIPULATION_CONFIGURATION, directmanipulation/DIRECTMANIPULATION_CONFIGURATION_INTERACTION, directmanipulation/DIRECTMANIPULATION_CONFIGURATION_NONE, directmanipulation/DIRECTMANIPULATION_CONFIGURATION_RAILS_X, directmanipulation/DIRECTMANIPULATION_CONFIGURATION_RAILS_Y, directmanipulation/DIRECTMANIPULATION_CONFIGURATION_SCALING, directmanipulation/DIRECTMANIPULATION_CONFIGURATION_SCALING_INERTIA, directmanipulation/DIRECTMANIPULATION_CONFIGURATION_TRANSLATION_INERTIA, directmanipulation/DIRECTMANIPULATION_CONFIGURATION_TRANSLATION_X, directmanipulation/DIRECTMANIPULATION_CONFIGURATION_TRANSLATION_Y
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 

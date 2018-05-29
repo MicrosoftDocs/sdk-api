@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectTechnique.ComputeStateBlockMask
 title: ID3D10EffectTechnique::ComputeStateBlockMask
-author: windows-driver-content
+author: windows-sdk-content
 description: Compute a state-block mask to allow/prevent state changes.
 old-location: direct3d10\id3d10effecttechnique_computestateblockmask.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttechnique_computestateblockmask.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ComputeStateBlockMask, ComputeStateBlockMask method [Direct3D 10], ComputeStateBlockMask method [Direct3D 10],ID3D10EffectTechnique interface, ID3D10EffectTechnique interface [Direct3D 10],ComputeStateBlockMask method, ID3D10EffectTechnique.ComputeStateBlockMask, ID3D10EffectTechnique::ComputeStateBlockMask, d3d10effect/ID3D10EffectTechnique::ComputeStateBlockMask, direct3d10.id3d10effecttechnique_computestateblockmask, edde0246-0e4d-7194-97eb-796b3e11860c
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

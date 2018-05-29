@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITTAPI.get_EventFilter
 title: ITTAPI::get_EventFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_EventFilter method gets the current event filter mask. The mask is a series of ORed members of the TAPI_EVENT enumeration.
 old-location: tapi3\ittapi_get_eventfilter.htm
 old-project: Tapi
 ms.assetid: c0544e9f-0bfc-43ab-bcf0-800afb0ebfcf
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],get_EventFilter method, ITTAPI.get_EventFilter, ITTAPI::get_EventFilter, _tapi3_ittapi_get_eventfilter, get_EventFilter, get_EventFilter method [TAPI 2.2], get_EventFilter method [TAPI 2.2],ITTAPI interface, tapi3.ittapi_get_eventfilter, tapi3if/ITTAPI::get_EventFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

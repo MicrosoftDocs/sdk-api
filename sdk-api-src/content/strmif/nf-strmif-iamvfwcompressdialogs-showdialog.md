@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMVfwCompressDialogs.ShowDialog
 title: IAMVfwCompressDialogs::ShowDialog
-author: windows-driver-content
+author: windows-sdk-content
 description: The ShowDialog method displays the specified dialog box.
 old-location: dshow\iamvfwcompressdialogs_showdialog.htm
 old-project: DirectShow
 ms.assetid: 4826bd47-0091-4a74-b88d-72a5b0f1c5ac
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMVfwCompressDialogs interface [DirectShow],ShowDialog method, IAMVfwCompressDialogs.ShowDialog, IAMVfwCompressDialogs::ShowDialog, IAMVfwCompressDialogsShowDialog, ShowDialog, ShowDialog method [DirectShow], ShowDialog method [DirectShow],IAMVfwCompressDialogs interface, dshow.iamvfwcompressdialogs_showdialog, strmif/IAMVfwCompressDialogs::ShowDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

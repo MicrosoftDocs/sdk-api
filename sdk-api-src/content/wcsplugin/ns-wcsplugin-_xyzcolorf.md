@@ -1,16 +1,16 @@
 ---
 UID: NS:wcsplugin._XYZColorF
 title: "_XYZColorF"
-author: windows-driver-content
+author: windows-sdk-content
 description: TBD.
 old-location: wcs\xyzcolorf.htm
 old-project: WCS
 ms.assetid: 841c0d86-c27a-4a64-b956-02abc435e108
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: XYZColorF, XYZColorF structure [Windows Color System], _XYZColorF, wcs.xyzcolorf, wcsplugin/XYZColorF
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wcsplugin.h
 req.include-header: 

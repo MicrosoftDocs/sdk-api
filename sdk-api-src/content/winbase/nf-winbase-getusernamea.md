@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetUserNameA
 title: GetUserNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the name of the user associated with the current thread.
 old-location: base\getusername.htm
 old-project: SysInfo
 ms.assetid: 87adc46a-c069-4ee5-900a-03b646306e64
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetUserName, GetUserName function, GetUserNameA, GetUserNameW, _win32_getusername, base.getusername, winbase/GetUserName, winbase/GetUserNameA, winbase/GetUserNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

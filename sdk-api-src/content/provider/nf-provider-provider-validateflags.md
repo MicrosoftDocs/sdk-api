@@ -1,16 +1,16 @@
 ---
 UID: NF:provider.Provider.ValidateFlags
 title: Provider::ValidateFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: The ValidateFlags method determines whether a set of flags is valid.
 old-location: wmi\provider_validateflags.htm
 old-project: WmiSdk
 ms.assetid: 1d6d1006-99b9-4646-a5c4-835940ce3ac0
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: Provider interface [Windows Management Instrumentation],ValidateFlags method, Provider.ValidateFlags, Provider::ValidateFlags, ValidateFlags, ValidateFlags method [Windows Management Instrumentation], ValidateFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validateflags, provider/Provider::ValidateFlags, wmi.provider_validateflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

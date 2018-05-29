@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineDevSpecific
 title: lineDevSpecific function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineDevSpecific function enables service providers to provide access to features not offered by other TAPI functions.
 old-location: tapi2\linedevspecific.htm
 old-project: Tapi
 ms.assetid: 28f43b21-5118-465f-95b3-036aab16a049
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linedevspecific, lineDevSpecific, lineDevSpecific function [TAPI 2.2], tapi/lineDevSpecific, tapi2.linedevspecific"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

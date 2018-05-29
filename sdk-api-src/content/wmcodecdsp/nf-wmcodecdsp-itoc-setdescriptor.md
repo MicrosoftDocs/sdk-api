@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.IToc.SetDescriptor
 title: IToc::SetDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDescriptor method associates a descriptor with the table of contents.
 old-location: mf\itoc_setdescriptor.htm
 old-project: medfound
 ms.assetid: 55208226-fd2d-48e5-887b-34e95309a770
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IToc interface [Media Foundation],SetDescriptor method, IToc.SetDescriptor, IToc::SetDescriptor, SetDescriptor, SetDescriptor method [Media Foundation], SetDescriptor method [Media Foundation],IToc interface, codecapi.itoc_setdescriptor, mf.itoc_setdescriptor, wmcodecdsp/IToc::SetDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

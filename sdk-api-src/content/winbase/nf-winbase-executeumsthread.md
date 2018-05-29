@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.ExecuteUmsThread
 title: ExecuteUmsThread function
-author: windows-driver-content
+author: windows-sdk-content
 description: Runs the specified UMS worker thread.
 old-location: base\executeumsthread.htm
 old-project: ProcThread
 ms.assetid: e4265351-e8e9-4878-bd42-93258b4cd1a0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ExecuteUmsThread, ExecuteUmsThread function, base.executeumsthread, winbase/ExecuteUmsThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMSOURCEFILES_CALLBACKW
 title: PSYM_ENUMSOURCEFILES_CALLBACKW
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumSourceFiles function.
 old-location: base\symenumsourcefilesproc.htm
 old-project: Debug
 ms.assetid: b1d1e967-514d-43da-b470-23228fa03dd9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: PSYM_ENUMSOURCEFILES_CALLBACK, PSYM_ENUMSOURCEFILES_CALLBACKW, SymEnumSourceFilesProc, SymEnumSourceFilesProc callback, SymEnumSourceFilesProc callback function, base.symenumsourcefilesproc, dbghelp/SymEnumSourceFilesProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 

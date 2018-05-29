@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY
 title: "_PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to impose new behavior on handle references that are not valid.
 old-location: base\process_mitigation_strict_handle_check_policy.htm
 old-project: ProcThread
 ms.assetid: 32d97712-67fe-44f2-92d8-23855db5502d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PPROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY, PPROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY, PPROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY structure pointer, PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY, PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY structure, _PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY, base.process_mitigation_strict_handle_check_policy, winnt/PPROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY, winnt/PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

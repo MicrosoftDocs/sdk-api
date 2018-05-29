@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsSetListenerProperty
 title: WsSetListenerProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a Listenerobject property.
 old-location: wsw\wssetlistenerproperty.htm
 old-project: wsw
 ms.assetid: 5c494651-3944-4424-8cd4-a6e14c239e80
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsSetListenerProperty, WsSetListenerProperty function [Web Services for Windows], webservices/WsSetListenerProperty, wsw.wssetlistenerproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:micaut.IMathInputControl.LoadInk
 title: IMathInputControl::LoadInk
-author: windows-driver-content
+author: windows-sdk-content
 description: Processes ink and triggers recognition.
 old-location: tablet\imathinputcontrol_loadink.htm
 old-project: tablet
 ms.assetid: 3313cb16-3400-48d5-8ba0-b3bd593b37ea
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMathInputControl interface [Tablet PC],LoadInk method, IMathInputControl.LoadInk, IMathInputControl::LoadInk, LoadInk, LoadInk method [Tablet PC], LoadInk method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::LoadInk, tablet.imathinputcontrol_loadink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

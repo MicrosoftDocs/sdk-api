@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo2.GetIsDefaultApplicablePackage
 title: IAppxBundleManifestPackageInfo2::GetIsDefaultApplicablePackage
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the app package is a default applicable package.
 old-location: appxpkg\iappxbundlemanifestpackageinfo2_getisdefaultapplicablepackage.htm
 old-project: appxpkg
 ms.assetid: 0C1181F5-0BD9-4F8E-A4E3-75A562ADF56A
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetIsDefaultApplicablePackage, GetIsDefaultApplicablePackage method [App packaging and management], GetIsDefaultApplicablePackage method [App packaging and management],IAppxBundleManifestPackageInfo2 interface, IAppxBundleManifestPackageInfo2 interface [App packaging and management],GetIsDefaultApplicablePackage method, IAppxBundleManifestPackageInfo2.GetIsDefaultApplicablePackage, IAppxBundleManifestPackageInfo2::GetIsDefaultApplicablePackage, appxpackaging/IAppxBundleManifestPackageInfo2::GetIsDefaultApplicablePackage, appxpkg.iappxbundlemanifestpackageinfo2_getisdefaultapplicablepackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk.CreatePartition
 title: IVdsAdvancedDisk::CreatePartition
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a partition on a basic disk. The IVdsCreatePartitionEx::CreatePartitionEx method supersedes this method.
 old-location: base\ivdsadvanceddisk_createpartition.htm
 old-project: VDS
 ms.assetid: 94f80a9f-459f-4f3d-8d85-e5ec7d5734c4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CreatePartition, CreatePartition method [VDS], CreatePartition method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],CreatePartition method, IVdsAdvancedDisk.CreatePartition, IVdsAdvancedDisk::CreatePartition, base.ivdsadvanceddisk_createpartition, vds/IVdsAdvancedDisk::CreatePartition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

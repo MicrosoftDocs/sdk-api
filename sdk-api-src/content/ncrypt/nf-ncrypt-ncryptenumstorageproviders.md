@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptEnumStorageProviders
 title: NCryptEnumStorageProviders function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the names of the registered key storage providers.
 old-location: security\ncryptenumstorageproviders_func.htm
 old-project: SecCNG
 ms.assetid: 24a8ee01-b716-4f36-9df5-b6476b1df4f0
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCryptEnumStorageProviders, NCryptEnumStorageProviders function [Security], ncrypt/NCryptEnumStorageProviders, security.ncryptenumstorageproviders_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:audioclient.IAudioClient.Stop
 title: IAudioClient::Stop
-author: windows-driver-content
+author: windows-sdk-content
 description: The Stop method stops the audio stream.
 old-location: coreaudio\iaudioclient_stop.htm
 old-project: CoreAudio
 ms.assetid: d5824aa9-0b91-4bee-9c0c-26e12a6b96b5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioClient interface [Core Audio],Stop method, IAudioClient.Stop, IAudioClient::Stop, IAudioClientStop, Stop, Stop method [Core Audio], Stop method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Stop, coreaudio.iaudioclient_stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 

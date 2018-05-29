@@ -1,16 +1,16 @@
 ---
 UID: NF:structuredquery.IEntity.NamedEntities
 title: IEntity::NamedEntities
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an enumeration of INamedEntity objects, one for each known named entity of this type.
 old-location: search\_search_IEntity_NamedEntities.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\namedentities.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEntity interface [search],NamedEntities method, IEntity.NamedEntities, IEntity::NamedEntities, NamedEntities, NamedEntities method [search], NamedEntities method [search],IEntity interface, _search_IEntity_NamedEntities, search._search_IEntity_NamedEntities, structuredquery/IEntity::NamedEntities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

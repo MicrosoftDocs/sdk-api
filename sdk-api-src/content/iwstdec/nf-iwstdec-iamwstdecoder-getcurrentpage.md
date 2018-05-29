@@ -1,16 +1,16 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetCurrentPage
 title: IAMWstDecoder::GetCurrentPage
-author: windows-driver-content
+author: windows-sdk-content
 description: Downstream filters use the GetCurrentPage method to retrieve the current WST page.
 old-location: dshow\iamwstdecoder_getcurrentpage.htm
 old-project: DirectShow
 ms.assetid: e4e52723-27ad-487a-a547-7ad7ade6f099
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCurrentPage, GetCurrentPage method [DirectShow], GetCurrentPage method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetCurrentPage method, IAMWstDecoder.GetCurrentPage, IAMWstDecoder::GetCurrentPage, IAMWstDecoderGetCurrentPage, dshow.iamwstdecoder_getcurrentpage, iwstdec/IAMWstDecoder::GetCurrentPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iwstdec.h
 req.include-header: 

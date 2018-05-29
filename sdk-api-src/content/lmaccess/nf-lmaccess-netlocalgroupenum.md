@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetLocalGroupEnum
 title: NetLocalGroupEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetLocalGroupEnum function returns information about each local group account on the specified server.
 old-location: netmgmt\netlocalgroupenum.htm
 old-project: NetMgmt
 ms.assetid: fc27d7f1-bfbe-46d7-a154-f04eb9249248
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0, 1, NetLocalGroupEnum, NetLocalGroupEnum function [Network Management], _win32_netlocalgroupenum, lmaccess/NetLocalGroupEnum, netmgmt.netlocalgroupenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IThreadPoolKnobs
 title: IThreadPoolKnobs
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to control the behavior of thread pools.
 old-location: cos\ithreadpoolknobs.htm
 old-project: cossdk
 ms.assetid: 3d36e4ec-f4d4-407b-b671-4134886b7a2c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IThreadPoolKnobs, IThreadPoolKnobs interface [COM+], IThreadPoolKnobs interface [COM+],described, _cos_IThreadPoolKnobs, comsvcs/IThreadPoolKnobs, cos.ithreadpoolknobs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

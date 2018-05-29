@@ -1,16 +1,16 @@
 ---
 UID: NF:resapi.InitializeClusterHealthFaultArray
 title: InitializeClusterHealthFaultArray function
-author: windows-driver-content
+author: windows-sdk-content
 description: TBD.
 old-location: mscs\initializeclusterhealthfaultarray.htm
 old-project: MsCS
 ms.assetid: 9b2a2706-5641-46ba-a280-5a689ad50316
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: InitializeClusterHealthFaultArray, InitializeClusterHealthFaultArray function [Failover Cluster], mscs.initializeclusterhealthfaultarray, resapi/InitializeClusterHealthFaultArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

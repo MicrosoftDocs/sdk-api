@@ -1,16 +1,16 @@
 ---
 UID: NS:winsync._SYNC_RANGE
 title: "_SYNC_RANGE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a range of item IDs.
 old-location: winsync\sync_range.htm
 old-project: winsync
 ms.assetid: d3e4a4f4-4a67-4dce-a81a-3861dcf788e6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SYNC_RANGE, SYNC_RANGE structure [Windows Sync], _SYNC_RANGE, winsync.sync_range, winsync/SYNC_RANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsync.h
 req.include-header: 

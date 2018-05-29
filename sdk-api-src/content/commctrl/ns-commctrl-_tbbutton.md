@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl._TBBUTTON
 title: "_TBBUTTON"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a button in a toolbar.
 old-location: controls\TBBUTTON.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbbutton.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPTBBUTTON, *PTBBUTTON, LPTBBUTTON, LPTBBUTTON structure pointer [Windows Controls], PTBBUTTON, PTBBUTTON structure pointer [Windows Controls], TBBUTTON, TBBUTTON structure [Windows Controls], _TBBUTTON, _win32_TBBUTTON, _win32_TBBUTTON_cpp, commctrl/LPTBBUTTON, commctrl/PTBBUTTON, commctrl/TBBUTTON, controls.TBBUTTON, controls._win32_TBBUTTON"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

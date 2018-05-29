@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.AddAtomW
 title: AddAtomW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a character string to the local atom table and returns a unique value (an atom) identifying the string.
 old-location: dataxchg\addatom.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\addatom.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: AddAtom, AddAtom function [Data Exchange], AddAtomW, _win32_AddAtom, _win32_addatom_cpp, dataxchg.addatom, winbase/AddAtom, winbase/AddAtomW, winui._win32_addatom
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

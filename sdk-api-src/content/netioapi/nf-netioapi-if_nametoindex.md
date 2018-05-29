@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.if_nametoindex
 title: if_nametoindex function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the ANSI interface name for a network interface to the local index for the interface.
 old-location: iphlp\if_nametoindex.htm
 old-project: IpHlp
 ms.assetid: 599e5a34-1e17-4c5f-b58e-727871e409be
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: if_nametoindex, if_nametoindex function [IP Helper], iphlp.if_nametoindex, netioapi/if_nametoindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

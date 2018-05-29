@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_control_freeA
 title: ldap_control_freeA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ldap_control_free function frees an LDAPControl structure.
 old-location: ldap\ldap_control_free.htm
 old-project: LDAP
 ms.assetid: 10729355-8f80-477b-acc8-705db72cebdb
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_control_free, ldap.ldap__control__free, ldap.ldap_control_free, ldap_control_free, ldap_control_free function [LDAP], ldap_control_freeA, ldap_control_freeW, winldap/ldap_control_free, winldap/ldap_control_freeA, winldap/ldap_control_freeW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

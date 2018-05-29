@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_VOLUME_OFFLINE
 title: IOCTL_VOLUME_OFFLINE
-author: windows-driver-content
+author: windows-sdk-content
 description: Takes a volume offline.
 old-location: fs\ioctl_volume_offline.htm
 old-project: FileIO
 ms.assetid: 7c9b97eb-c167-41cd-b235-7a9d7830915e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IOCTL_VOLUME_OFFLINE, IOCTL_VOLUME_OFFLINE control, IOCTL_VOLUME_OFFLINE control code [Files], fs.ioctl_volume_offline, winioctl/IOCTL_VOLUME_OFFLINE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

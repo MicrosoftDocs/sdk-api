@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.BeginSendRequest
 title: IMFHttpDownloadRequest::BeginSendRequest
-author: windows-driver-content
+author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to send a HTTP or HTTPS request.
 old-location: mf\imfhttpdownloadrequest_beginsendrequest.htm
 old-project: medfound
 ms.assetid: 38025B19-146A-4050-9BD2-2CF974729FE3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BeginSendRequest, BeginSendRequest method [Media Foundation], BeginSendRequest method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginSendRequest method, IMFHttpDownloadRequest.BeginSendRequest, IMFHttpDownloadRequest::BeginSendRequest, mf.imfhttpdownloadrequest_beginsendrequest, mfidl/IMFHttpDownloadRequest::BeginSendRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

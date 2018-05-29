@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IChangeUnitException
 title: IChangeUnitException
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a change unit to exclude from a knowledge object.
 old-location: winsync\ichangeunitexception.htm
 old-project: winsync
 ms.assetid: 3b47abab-0a33-405f-a765-307ab800bad6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IChangeUnitException, IChangeUnitException interface [Windows Sync], IChangeUnitException interface [Windows Sync],described, winsync.ichangeunitexception, winsync/IChangeUnitException
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

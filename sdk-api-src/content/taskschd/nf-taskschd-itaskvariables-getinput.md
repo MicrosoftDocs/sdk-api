@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskVariables.GetInput
 title: ITaskVariables::GetInput
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the input variables for a task.
 old-location: taskschd\itaskvariables_getinput.htm
 old-project: TaskSchd
 ms.assetid: 7c38a633-b3f1-4894-9152-e01a083a54fc
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetInput, GetInput method [Task Scheduler], GetInput method [Task Scheduler],ITaskVariables interface, ITaskVariables interface [Task Scheduler],GetInput method, ITaskVariables.GetInput, ITaskVariables::GetInput, taskschd.itaskvariables_getinput, taskschd/ITaskVariables::GetInput
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

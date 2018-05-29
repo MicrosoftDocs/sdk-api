@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Class_GetParentClass
 title: MI_Class_GetParentClass function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the parent class for the specified class.
 old-location: wmi_v2\mi_class_getparentclass.htm
 old-project: wmi_v2
 ms.assetid: e90e3072-7d01-4959-bfee-c85ea89775a2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Class_GetParentClass, MI_Class_GetParentClass function [Windows Management Infrastructure (MI)], mi/MI_Class_GetParentClass, wmi_v2.mi_class_getparentclass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

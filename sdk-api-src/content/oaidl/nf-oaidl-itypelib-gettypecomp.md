@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeComp
 title: ITypeLib::GetTypeComp
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a client compiler to bind to the types, variables, constants, and global functions for a library.
 old-location: automat\itypelib_gettypecomp.htm
 old-project: automat
 ms.assetid: 11c22e52-b0d5-4251-b8fa-ea3efae555e6
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetTypeComp, GetTypeComp method [Automation], GetTypeComp method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeComp method, ITypeLib.GetTypeComp, ITypeLib::GetTypeComp, _oa96_ITypeLib_GetTypeComp, automat.itypelib_gettypecomp, oaidl/ITypeLib::GetTypeComp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

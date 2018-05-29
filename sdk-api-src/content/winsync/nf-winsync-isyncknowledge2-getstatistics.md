@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetStatistics
 title: ISyncKnowledge2::GetStatistics
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the specified statistic data that is contained in this object.
 old-location: winsync\isyncknowledge2_getstatistics.htm
 old-project: winsync
 ms.assetid: a7dea268-87d7-4e6d-9618-089036d52699
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetStatistics, GetStatistics method [Windows Sync], GetStatistics method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetStatistics method, ISyncKnowledge2.GetStatistics, ISyncKnowledge2::GetStatistics, winsync.isyncknowledge2_getstatistics, winsync/ISyncKnowledge2::GetStatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

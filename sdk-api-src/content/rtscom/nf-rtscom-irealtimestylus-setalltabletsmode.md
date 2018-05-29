@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.SetAllTabletsMode
 title: IRealTimeStylus::SetAllTabletsMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the mode for the RealTimeStylus Class object to collect data from all digitizers.
 old-location: tablet\irealtimestylus_setalltabletsmode.htm
 old-project: tablet
 ms.assetid: cb8b2a17-68b9-482b-b212-ad129522ff2e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IRealTimeStylus interface [Tablet PC],SetAllTabletsMode method, IRealTimeStylus.SetAllTabletsMode, IRealTimeStylus::SetAllTabletsMode, SetAllTabletsMode, SetAllTabletsMode method [Tablet PC], SetAllTabletsMode method [Tablet PC],IRealTimeStylus interface, cb8b2a17-68b9-482b-b212-ad129522ff2e, rtscom/IRealTimeStylus::SetAllTabletsMode, tablet.irealtimestylus_setalltabletsmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

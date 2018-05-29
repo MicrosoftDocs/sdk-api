@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupGetStatus
 title: PeerGroupGetStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupGetStatus function retrieves the current status of a group.
 old-location: p2p\peergroupgetstatus.htm
 old-project: P2PSdk
 ms.assetid: 712e6473-bb49-460a-9761-69a5ee4a067e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupGetStatus, PeerGroupGetStatus function [Peer Networking], p2p.peergroupgetstatus, p2p/PeerGroupGetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

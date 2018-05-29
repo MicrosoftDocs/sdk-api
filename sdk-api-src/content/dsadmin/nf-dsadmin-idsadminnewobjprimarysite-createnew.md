@@ -1,16 +1,16 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjPrimarySite.CreateNew
 title: IDsAdminNewObjPrimarySite::CreateNew
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDsAdminNewObjPrimarySite::CreateNew method enables a primary object creation extension to create a temporary directory service object in Active Directory Domain Services.
 old-location: ad\idsadminnewobjprimarysite_createnew.htm
 old-project: AD
 ms.assetid: ec685ae1-6a37-43d3-84ed-7409611ab63b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CreateNew, CreateNew method [Active Directory], CreateNew method [Active Directory],IDsAdminNewObjPrimarySite interface, IDsAdminNewObjPrimarySite interface [Active Directory],CreateNew method, IDsAdminNewObjPrimarySite.CreateNew, IDsAdminNewObjPrimarySite::CreateNew, _glines_idsadminnewobjprimarysite_createnew, ad.idsadminnewobjprimarysite__createnew, ad.idsadminnewobjprimarysite_createnew, dsadmin/IDsAdminNewObjPrimarySite::CreateNew
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntlsa.LsaQueryCAPs
 title: LsaQueryCAPs function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the Central Access Policies (CAPs) for the specified IDs.
 old-location: security\lsaquerycaps.htm
 old-project: SecAuthN
 ms.assetid: 55D6FD6F-0FD5-41F6-967B-F5600E19C3EF
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaQueryCAPs, LsaQueryCAPs function [Security], ntlsa/LsaQueryCAPs, security.lsaquerycaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntlsa.h
 req.include-header: 

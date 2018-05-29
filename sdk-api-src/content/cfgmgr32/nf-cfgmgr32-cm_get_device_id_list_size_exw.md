@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_ID_List_Size_ExW
 title: CM_Get_Device_ID_List_Size_ExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_Device_ID_List_Size_Ex function retrieves the buffer size required to hold a list of device instance IDs for a local or a remote machine's device instances.
 old-location: devinst\cm_get_device_id_list_size_ex.htm
 old-project: devinst
 ms.assetid: ed89ff61-c92b-4841-9038-3c26d8594aee
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_Device_ID_List_Size_Ex, CM_Get_Device_ID_List_Size_Ex function [Device and Driver Installation], CM_Get_Device_ID_List_Size_ExW, cfgmgr32/CM_Get_Device_ID_List_Size_Ex, cfgmgr32/CM_Get_Device_ID_List_Size_ExW, cfgmgrfn_2e9a6787-1578-48c1-9f3b-5d1ee266f9ac.xml, devinst.cm_get_device_id_list_size_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

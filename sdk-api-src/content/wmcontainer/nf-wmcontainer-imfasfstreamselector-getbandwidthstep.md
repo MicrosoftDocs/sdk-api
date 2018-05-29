@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetBandwidthStep
 title: IMFASFStreamSelector::GetBandwidthStep
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the stream numbers that apply to a bandwidth step. This method is used for multiple bit rate (MBR) content.
 old-location: mf\imfasfstreamselector_getbandwidthstep.htm
 old-project: medfound
 ms.assetid: 82d9b642-48e3-4ef5-b0e1-b72f1dd39b2c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 82d9b642-48e3-4ef5-b0e1-b72f1dd39b2c, GetBandwidthStep, GetBandwidthStep method [Media Foundation], GetBandwidthStep method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetBandwidthStep method, IMFASFStreamSelector.GetBandwidthStep, IMFASFStreamSelector::GetBandwidthStep, mf.imfasfstreamselector_getbandwidthstep, wmcontainer/IMFASFStreamSelector::GetBandwidthStep
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

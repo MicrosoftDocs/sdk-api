@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdutil.WSDXMLAddSibling
 title: WSDXMLAddSibling function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a sibling element.
 old-location: ncd\wsdxmladdsibling.htm
 old-project: WsdApi
 ms.assetid: dbe5de39-eb8e-4352-b0c4-32d10e324185
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDXMLAddSibling, WSDXMLAddSibling function, ncd.wsdxmladdsibling, wsdutil/WSDXMLAddSibling
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h

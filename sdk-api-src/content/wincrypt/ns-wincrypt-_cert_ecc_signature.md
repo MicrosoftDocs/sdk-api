@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_ECC_SIGNATURE
 title: "_CERT_ECC_SIGNATURE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the r and s values for an Elliptic Curve Digital Signature Algorithm (ECDSA) signature.
 old-location: security\cert_ecc_signature.htm
 old-project: SecCrypto
 ms.assetid: f341d839-c06d-40e9-a6ed-79a627918110
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_ECC_SIGNATURE, CERT_ECC_SIGNATURE, CERT_ECC_SIGNATURE structure [Security], PCERT_ECC_SIGNATURE, PCERT_ECC_SIGNATURE structure pointer [Security], _CERT_ECC_SIGNATURE, security.cert_ecc_signature, wincrypt/CERT_ECC_SIGNATURE, wincrypt/PCERT_ECC_SIGNATURE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

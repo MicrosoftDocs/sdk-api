@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2tcpip.WSAQuerySocketSecurity
 title: WSAQuerySocketSecurity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries information about the security applied to a connection on a socket.
 old-location: winsock\wsaquerysocketsecurity.htm
 old-project: WinSock
 ms.assetid: fda7738f-b7fc-49c3-aa40-9beea31d1009
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAQuerySocketSecurity, WSAQuerySocketSecurity function [Winsock], winsock.wsaquerysocketsecurity, ws2tcpip/WSAQuerySocketSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

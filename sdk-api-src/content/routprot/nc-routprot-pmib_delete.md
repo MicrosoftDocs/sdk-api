@@ -1,16 +1,16 @@
 ---
 UID: NC:routprot.PMIB_DELETE
 title: PMIB_DELETE
-author: windows-driver-content
+author: windows-sdk-content
 description: The MibDelete function passes an SNMP MIB-style Delete Request to the routing protocol.
 old-location: rras\mibdelete.htm
 old-project: RRAS
 ms.assetid: 3097843e-ffa6-443a-9ee8-1034f3ed474a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MibDelete, MibDelete callback function [RAS], PMIB_DELETE, PMIB_DELETE callback, _mpr_mibdelete, routprot/MibDelete, rras.mibdelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

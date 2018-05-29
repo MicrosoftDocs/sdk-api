@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IHolder.FreeResource
 title: IHolder::FreeResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a resource to the inventory.
 old-location: cos\iholder_freeresource.htm
 old-project: cossdk
 ms.assetid: 1d110bf6-7204-4fbb-abb7-ced7cf885e5b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FreeResource, FreeResource method [COM+], FreeResource method [COM+],IHolder interface, IHolder interface [COM+],FreeResource method, IHolder.FreeResource, IHolder::FreeResource, _dtc_IHolder_FreeResource, comsvcs/IHolder::FreeResource, cos.iholder_freeresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

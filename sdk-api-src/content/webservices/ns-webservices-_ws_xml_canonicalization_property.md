@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_CANONICALIZATION_PROPERTY
 title: "_WS_XML_CANONICALIZATION_PROPERTY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a setting that controls how XML canonicalization is done.
 old-location: wsw\ws_xml_canonicalization_property.htm
 old-project: wsw
 ms.assetid: 79f65ff2-4fa2-4808-b5cb-ad3aa6200260
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_CANONICALIZATION_PROPERTY, WS_XML_CANONICALIZATION_PROPERTY structure [Web Services for Windows], _WS_XML_CANONICALIZATION_PROPERTY, webservices/WS_XML_CANONICALIZATION_PROPERTY, wsw.ws_xml_canonicalization_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

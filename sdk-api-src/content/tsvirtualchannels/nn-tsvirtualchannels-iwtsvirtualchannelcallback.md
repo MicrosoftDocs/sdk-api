@@ -1,16 +1,16 @@
 ---
 UID: NN:tsvirtualchannels.IWTSVirtualChannelCallback
 title: IWTSVirtualChannelCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives notifications about channel state changes or data received.
 old-location: termserv\iwtsvirtualchannelcallback.htm
 old-project: TermServ
 ms.assetid: d90c6f80-ed4c-4b99-af85-d2c5816ade85
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSVirtualChannelCallback, IWTSVirtualChannelCallback interface [Remote Desktop Services], IWTSVirtualChannelCallback interface [Remote Desktop Services],described, termserv.iwtsvirtualchannelcallback, tsvirtualchannels/IWTSVirtualChannelCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsvirtualchannels.h
 req.include-header: 

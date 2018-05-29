@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextStrings.Add
 title: ITextStrings::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a string to the end of the collection.
 old-location: controls\itextstrings_add.htm
 old-project: Controls
 ms.assetid: 59630068-e3c7-4c3b-bd89-f1127759f979
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Add, Add method [Windows Controls], Add method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],Add method, ITextStrings.Add, ITextStrings::Add, controls.itextstrings_add, tom/ITextStrings::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

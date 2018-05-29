@@ -1,16 +1,16 @@
 ---
 UID: NF:lmdfs.NetDfsSetSecurity
 title: NetDfsSetSecurity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the security descriptor for the root object of the specified DFS namespace.
 old-location: dfs\netdfssetsecurity.htm
 old-project: Dfs
 ms.assetid: 7ee81f67-face-498f-b5bd-ca2636408012
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: NetDfsSetSecurity, NetDfsSetSecurity function [Distributed File System], dfs.netdfssetsecurity, fs.netdfssetsecurity, lmdfs/NetDfsSetSecurity, netmgmt.netdfssetsecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

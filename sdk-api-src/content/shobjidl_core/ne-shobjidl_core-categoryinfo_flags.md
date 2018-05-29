@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.CATEGORYINFO_FLAGS
 title: CATEGORYINFO_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a set of flags for use with the CATEGORY_INFO structure.
 old-location: shell\CATEGORYINFO_FLAGS.htm
 old-project: shell
 ms.assetid: 6179ed67-905a-454a-a226-fe1e5070e39f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CATEGORYINFO_FLAGS, CATEGORYINFO_FLAGS enumeration [Windows Shell], CATINFO_COLLAPSED, CATINFO_EXPANDED, CATINFO_HIDDEN, CATINFO_NOHEADER, CATINFO_NOHEADERCOUNT, CATINFO_NORMAL, CATINFO_NOTCOLLAPSIBLE, CATINFO_SUBSETTED, inet_CATEGORYINFO_FLAGS, shell.CATEGORYINFO_FLAGS, shobjidl_core/CATEGORYINFO_FLAGS, shobjidl_core/CATINFO_COLLAPSED, shobjidl_core/CATINFO_EXPANDED, shobjidl_core/CATINFO_HIDDEN, shobjidl_core/CATINFO_NOHEADER, shobjidl_core/CATINFO_NOHEADERCOUNT, shobjidl_core/CATINFO_NORMAL, shobjidl_core/CATINFO_NOTCOLLAPSIBLE, shobjidl_core/CATINFO_SUBSETTED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

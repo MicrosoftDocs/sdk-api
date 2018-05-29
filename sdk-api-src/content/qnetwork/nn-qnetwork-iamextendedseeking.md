@@ -1,16 +1,16 @@
 ---
 UID: NN:qnetwork.IAMExtendedSeeking
 title: IAMExtendedSeeking
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMExtendedSeeking interface seeks to a marker in a Windows Media stream or changes the playback rate for a Windows Media file. This interface is implemented by the Windows Media Source filter and the WM ASF Reader filter.
 old-location: dshow\iamextendedseeking.htm
 old-project: DirectShow
 ms.assetid: 9e0e49af-61ef-408c-8c26-bb29ab26a1f5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], IAMExtendedSeeking interface [DirectShow],described, IAMExtendedSeekingInterface, dshow.iamextendedseeking, qnetwork/IAMExtendedSeeking
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: qnetwork.h
 req.include-header: 

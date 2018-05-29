@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderEvents.CredentialsChanged
 title: ICredentialProviderEvents::CredentialsChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: Signals the Logon UI or Credential UI that the enumerated list of credentials has changed.
 old-location: shell\ICredentialProviderEvents_CredentialsChanged.htm
 old-project: shell
 ms.assetid: bff835ed-01b9-4620-a97c-c64a2445e02a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CredentialsChanged, CredentialsChanged method [Windows Shell], CredentialsChanged method [Windows Shell],ICredentialProviderEvents interface, ICredentialProviderEvents interface [Windows Shell],CredentialsChanged method, ICredentialProviderEvents.CredentialsChanged, ICredentialProviderEvents::CredentialsChanged, credentialprovider/ICredentialProviderEvents::CredentialsChanged, shell.ICredentialProviderEvents_CredentialsChanged, shell_ICredentialProviderEvents_CredentialsChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

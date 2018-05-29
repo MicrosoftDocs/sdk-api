@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsWriteEnvelopeEnd
 title: WsWriteEnvelopeEnd function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes the closing elements of a message.
 old-location: wsw\wswriteenvelopeend.htm
 old-project: wsw
 ms.assetid: 4d19d70d-76c5-42db-ae15-1e1ebf9c5aac
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsWriteEnvelopeEnd, WsWriteEnvelopeEnd function [Web Services for Windows], webservices/WsWriteEnvelopeEnd, wsw.wswriteenvelopeend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

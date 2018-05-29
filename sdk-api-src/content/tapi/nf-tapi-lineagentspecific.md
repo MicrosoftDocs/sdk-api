@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineAgentSpecific
 title: lineAgentSpecific function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineAgentSpecific function allows the application to access proprietary handler-specific functions of the agent handler associated with the address.
 old-location: tapi2\lineagentspecific.htm
 old-project: Tapi
 ms.assetid: 4a1f2be4-4465-418a-9717-3857acf930a4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_lineagentspecific, lineAgentSpecific, lineAgentSpecific function [TAPI 2.2], tapi/lineAgentSpecific, tapi2.lineagentspecific"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

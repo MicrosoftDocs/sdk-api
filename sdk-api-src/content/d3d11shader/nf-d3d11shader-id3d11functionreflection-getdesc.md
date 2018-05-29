@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionReflection.GetDesc
 title: ID3D11FunctionReflection::GetDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Fills the function descriptor structure for the function.
 old-location: direct3d11\id3d11functionreflection_getdesc.htm
 old-project: direct3d11
 ms.assetid: CD4A0602-BF89-4B17-99E3-35293FB0B66C
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11FunctionReflection interface, ID3D11FunctionReflection interface [Direct3D 11],GetDesc method, ID3D11FunctionReflection.GetDesc, ID3D11FunctionReflection::GetDesc, d3d11shader/ID3D11FunctionReflection::GetDesc, direct3d11.id3d11functionreflection_getdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

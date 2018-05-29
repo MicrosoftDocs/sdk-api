@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._ENCLAVE_CREATE_INFO_VBS
 title: "_ENCLAVE_CREATE_INFO_VBS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains architecture-specific information to use to create an enclave when the enclave type is ENCLAVE_TYPE_VBS, which specifies a virtualization-based security (VBS) enclave.
 old-location: base\enclave_create_info_vbs.htm
 old-project: Memory
 ms.assetid: 5AD6D695-92D6-47AC-A43C-D3A37D28C76C
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PENCLAVE_CREATE_INFO_VBS, ENCLAVE_CREATE_INFO_VBS, ENCLAVE_CREATE_INFO_VBS structure, ENCLAVE_VBS_FLAG_DEBUG, PENCLAVE_CREATE_INFO_VBS, PENCLAVE_CREATE_INFO_VBS structure pointer, _ENCLAVE_CREATE_INFO_VBS, base.enclave_create_info_vbs, winnt/ENCLAVE_CREATE_INFO_VBS, winnt/PENCLAVE_CREATE_INFO_VBS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

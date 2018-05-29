@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_RSA_SSA_PSS_PARAMETERS
 title: "_CRYPT_RSA_SSA_PSS_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the parameters for an RSA PKCS #1 v2.1 signature.
 old-location: security\crypt_rsa_ssa_pss_parameters.htm
 old-project: SecCrypto
 ms.assetid: 3887e6c7-17df-42d3-82b1-a8f410321ba0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_RSA_SSA_PSS_PARAMETERS, CRYPT_RSA_SSA_PSS_PARAMETERS, CRYPT_RSA_SSA_PSS_PARAMETERS structure [Security], PCRYPT_RSA_SSA_PSS_PARAMETERS, PCRYPT_RSA_SSA_PSS_PARAMETERS structure pointer [Security], _CRYPT_RSA_SSA_PSS_PARAMETERS, security.crypt_rsa_ssa_pss_parameters, wincrypt/CRYPT_RSA_SSA_PSS_PARAMETERS, wincrypt/PCRYPT_RSA_SSA_PSS_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

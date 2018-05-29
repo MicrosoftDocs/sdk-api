@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcMgmtSetCancelTimeout
 title: RpcMgmtSetCancelTimeout function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcMgmtSetCancelTimeout function sets the lower bound on the time to wait before timing out after forwarding a cancel.
 old-location: rpc\rpcmgmtsetcanceltimeout.htm
 old-project: Rpc
 ms.assetid: 0a616f5d-b30a-4cd3-9348-19f09f373c50
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcMgmtSetCancelTimeout, RpcMgmtSetCancelTimeout function [RPC], _rpc_rpcmgmtsetcanceltimeout, rpc.rpcmgmtsetcanceltimeout, rpcdce/RpcMgmtSetCancelTimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

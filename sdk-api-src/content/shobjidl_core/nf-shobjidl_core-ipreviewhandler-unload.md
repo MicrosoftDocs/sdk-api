@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandler.Unload
 title: IPreviewHandler::Unload
-author: windows-driver-content
+author: windows-sdk-content
 description: Directs the preview handler to cease rendering a preview and to release all resources that have been allocated based on the item passed in during the initialization.
 old-location: shell\IPreviewHandler_Unload.htm
 old-project: shell
 ms.assetid: cefa9888-66cf-48a1-a6cd-49e273076d39
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],Unload method, IPreviewHandler.Unload, IPreviewHandler::Unload, Unload, Unload method [Windows Shell], Unload method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_Unload, shell.IPreviewHandler_Unload, shobjidl_core/IPreviewHandler::Unload
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

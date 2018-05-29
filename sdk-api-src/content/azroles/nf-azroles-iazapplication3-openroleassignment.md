@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplication3.OpenRoleAssignment
 title: IAzApplication3::OpenRoleAssignment
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an IAzRoleAssignment object with the specified name.
 old-location: security\iazapplication3_openroleassignment.htm
 old-project: SecAuthZ
 ms.assetid: 2d0ec47e-5d5f-43d7-aace-fffca0037ac3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzApplication3 interface [Security],OpenRoleAssignment method, IAzApplication3.OpenRoleAssignment, IAzApplication3::OpenRoleAssignment, OpenRoleAssignment, OpenRoleAssignment method [Security], OpenRoleAssignment method [Security],IAzApplication3 interface, azroles/IAzApplication3::OpenRoleAssignment, security.iazapplication3_openroleassignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

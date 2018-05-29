@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSCreatePropertyStoreFromPropertySetStorage
 title: PSCreatePropertyStoreFromPropertySetStorage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Wraps an IPropertySetStorage interface in an IPropertyStore interface.
 old-location: properties\PSCreatePropertyStoreFromPropertySetStorage.htm
 old-project: properties
 ms.assetid: efba5a2a-df26-4f7e-9ddf-ec471e3d547c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSCreatePropertyStoreFromPropertySetStorage, PSCreatePropertyStoreFromPropertySetStorage function [Windows Properties], STGM_READ, STGM_READWRITE, STGM_WRITE, _shell_PSCreatePropertyStoreFromPropertySetStorage, properties.PSCreatePropertyStoreFromPropertySetStorage, propsys/PSCreatePropertyStoreFromPropertySetStorage, shell.PSCreatePropertyStoreFromPropertySetStorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

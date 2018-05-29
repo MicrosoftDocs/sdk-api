@@ -1,16 +1,16 @@
 ---
 UID: NF:dsclient.DsGetIcon
 title: DsGetIcon function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the icon for a given object class.
 old-location: ad\dsgeticon.htm
 old-project: AD
 ms.assetid: eee18c78-aefa-4f09-9361-91893502efec
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DSGIF_DEFAULTISCONTAINER, DSGIF_GETDEFAULTICON, DSGIF_ISDISABLED, DSGIF_ISNORMAL, DSGIF_ISOPEN, DsGetIcon, DsGetIcon function [Active Directory], ad.dsgeticon, dsclient/DsGetIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dsclient.h
 req.include-header: 

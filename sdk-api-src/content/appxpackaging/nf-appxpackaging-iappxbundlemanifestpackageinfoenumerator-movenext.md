@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfoEnumerator.MoveNext
 title: IAppxBundleManifestPackageInfoEnumerator::MoveNext
-author: windows-driver-content
+author: windows-sdk-content
 description: Advances the position of the enumerator to the next &lt;Package&gt; element.
 old-location: appxpkg\iappxbundlemanifestpackageinfoenumerator_movenext.htm
 old-project: appxpkg
 ms.assetid: 8818FC6B-28CB-420F-A5BB-BCB62DFD4A78
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management],MoveNext method, IAppxBundleManifestPackageInfoEnumerator.MoveNext, IAppxBundleManifestPackageInfoEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxBundleManifestPackageInfoEnumerator interface, appxpackaging/IAppxBundleManifestPackageInfoEnumerator::MoveNext, appxpkg.iappxbundlemanifestpackageinfoenumerator_movenext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

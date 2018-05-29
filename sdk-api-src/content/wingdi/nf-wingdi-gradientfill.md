@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GradientFill
 title: GradientFill function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GradientFill function fills rectangle and triangle structures.
 old-location: gdi\gradientfill.htm
 old-project: gdi
 ms.assetid: 2f3e23e4-0105-4dcf-89ea-702ec2cf9e21
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GRADIENT_FILL_RECT_H, GRADIENT_FILL_RECT_V, GRADIENT_FILL_TRIANGLE, GradientFill, GradientFill function [Windows GDI], _win32_GradientFill, gdi.gradientfill, wingdi/GradientFill
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

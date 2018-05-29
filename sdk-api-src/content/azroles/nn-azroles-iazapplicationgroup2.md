@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzApplicationGroup2
 title: IAzApplicationGroup2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IAzApplicationGroup interface by adding support for the BizRule group type.
 old-location: security\iazapplicationgroup2.htm
 old-project: SecAuthZ
 ms.assetid: 948357d7-4e59-48d2-9e3b-7d88a4c81023
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzApplicationGroup2, IAzApplicationGroup2 interface [Security], IAzApplicationGroup2 interface [Security],described, azroles/IAzApplicationGroup2, security.iazapplicationgroup2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

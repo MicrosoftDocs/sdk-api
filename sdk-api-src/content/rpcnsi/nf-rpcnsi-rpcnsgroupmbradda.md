@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrAddA
 title: RpcNsGroupMbrAddA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsGroupMbrAdd function adds an entry name to a group. If necessary, it creates the entry.
 old-location: rpc\rpcnsgroupmbradd.htm
 old-project: Rpc
 ms.assetid: fa32b5e5-1a8a-44f4-aa38-81b024f4db51
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsGroupMbrAdd, RpcNsGroupMbrAdd function [RPC], RpcNsGroupMbrAddA, RpcNsGroupMbrAddW, _rpc_rpcnsgroupmbradd, rpc.rpcnsgroupmbradd, rpcnsi/RpcNsGroupMbrAdd, rpcnsi/RpcNsGroupMbrAddA, rpcnsi/RpcNsGroupMbrAddW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

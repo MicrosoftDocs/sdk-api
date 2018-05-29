@@ -1,16 +1,16 @@
 ---
 UID: NF:upnp.IUPnPDeviceDocumentAccessEx.GetDocument
 title: IUPnPDeviceDocumentAccessEx::GetDocument
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the XML device description document for a UPnP device.
 old-location: upnp\iupnpdevicedocumentex_getdocument.htm
 old-project: UPnP
 ms.assetid: 12778bd4-9e62-42a4-b9b3-29ee9c6d2d40
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: GetDocument, GetDocument method [UPnP APIs], GetDocument method [UPnP APIs],IUPnPDeviceDocumentAccessEx interface, IUPnPDeviceDocumentAccessEx interface [UPnP APIs],GetDocument method, IUPnPDeviceDocumentAccessEx.GetDocument, IUPnPDeviceDocumentAccessEx::GetDocument, upnp.iupnpdevicedocumentex_getdocument, upnp/IUPnPDeviceDocumentAccessEx::GetDocument
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: upnp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcomex.IFaxInboundRoutingMethod
 title: IFaxInboundRoutingMethod
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxInboundRoutingMethod interface defines a configuration object used by a fax client application to retrieve information about an individual fax inbound routing method on a connected fax server.
 old-location: fax\_mfax_faxinboundroutingmethod_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_95t0_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxInboundRoutingMethod, IFaxInboundRoutingMethod interface [Fax Service], IFaxInboundRoutingMethod interface [Fax Service],described, _mfax_faxinboundroutingmethod_cpp, fax._mfax_faxinboundroutingmethod_cpp, faxcomex/IFaxInboundRoutingMethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

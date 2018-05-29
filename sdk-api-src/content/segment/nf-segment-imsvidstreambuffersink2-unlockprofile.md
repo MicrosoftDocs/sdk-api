@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink2.UnlockProfile
 title: IMSVidStreamBufferSink2::UnlockProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink2_unlockprofile.htm
 old-project: mstv
 ms.assetid: 1394c3f9-943d-4b75-b650-fbb04c294e45
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferSink2 interface [Microsoft TV Technologies],UnlockProfile method, IMSVidStreamBufferSink2.UnlockProfile, IMSVidStreamBufferSink2::UnlockProfile, IMSVidStreamBufferSink2UnlockProfile, UnlockProfile, UnlockProfile method [Microsoft TV Technologies], UnlockProfile method [Microsoft TV Technologies],IMSVidStreamBufferSink2 interface, mstv.imsvidstreambuffersink2_unlockprofile, segment/IMSVidStreamBufferSink2::UnlockProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

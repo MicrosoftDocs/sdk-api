@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IWebProxy.PromptForCredentialsFromHwnd
 title: IWebProxy::PromptForCredentialsFromHwnd
-author: windows-driver-content
+author: windows-sdk-content
 description: Prompts the user for a password to use for proxy authentication using the hWnd property of the parent window.
 old-location: wua\iwebproxy_promptforcredentialsfromhwnd.htm
 old-project: Wua_Sdk
 ms.assetid: 36ee1771-cfa6-4fa0-924b-69dbd57b1ad4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWebProxy interface [Windows Update Agent],PromptForCredentialsFromHwnd method, IWebProxy.PromptForCredentialsFromHwnd, IWebProxy::PromptForCredentialsFromHwnd, PromptForCredentialsFromHwnd, PromptForCredentialsFromHwnd method [Windows Update Agent], PromptForCredentialsFromHwnd method [Windows Update Agent],IWebProxy interface, wua.iwebproxy_promptforcredentialsfromhwnd, wuapi/IWebProxy::PromptForCredentialsFromHwnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

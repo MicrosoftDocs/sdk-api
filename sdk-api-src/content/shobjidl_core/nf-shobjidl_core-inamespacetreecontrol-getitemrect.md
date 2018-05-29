@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetItemRect
 title: INameSpaceTreeControl::GetItemRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the RECT structure that describes the size and position of a given item.
 old-location: shell\INameSpaceTreeControl_GetItemRect.htm
 old-project: shell
 ms.assetid: 57e7707c-0fe2-4cde-87d8-2d58e7c06bba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetItemRect, GetItemRect method [Windows Shell], GetItemRect method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetItemRect method, INameSpaceTreeControl.GetItemRect, INameSpaceTreeControl::GetItemRect, _shell_INameSpaceTreeControl_GetItemRect, shell.INameSpaceTreeControl_GetItemRect, shobjidl_core/INameSpaceTreeControl::GetItemRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

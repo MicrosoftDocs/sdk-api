@@ -1,16 +1,16 @@
 ---
 UID: NF:docobj.IOleDocument.EnumViews
 title: IOleDocument::EnumViews
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an object that enumerates the views supported by a document object, or if only one view is supported, returns a pointer to that view.
 old-location: com\ioledocument_enumviews.htm
 old-project: com
 ms.assetid: ca186853-0792-4a34-b718-46927a73e670
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnumViews, EnumViews method [COM], EnumViews method [COM],IOleDocument interface, IOleDocument interface [COM],EnumViews method, IOleDocument.EnumViews, IOleDocument::EnumViews, _ole_ioledocument_enumviews, com.ioledocument_enumviews, docobj/IOleDocument::EnumViews
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: docobj.h
 req.include-header: 

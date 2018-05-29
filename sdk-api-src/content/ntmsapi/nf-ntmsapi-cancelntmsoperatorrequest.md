@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.CancelNtmsOperatorRequest
 title: CancelNtmsOperatorRequest function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CancelNtmsOperatorRequest function cancels the specified RSM operator request.
 old-location: fs\cancelntmsoperatorrequest.htm
 old-project: Rsm
 ms.assetid: d0ba65fe-0355-4bd6-b9ad-98e8f7992827
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: CancelNtmsOperatorRequest, CancelNtmsOperatorRequest function [Files], _zaw_cancelntmsoperatorrequest, base.cancelntmsoperatorrequest, fs.cancelntmsoperatorrequest, ntmsapi/CancelNtmsOperatorRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IMallocSpy.PostFree
 title: IMallocSpy::PostFree
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs operations required after calling IMalloc::Free.
 old-location: com\imallocspy_postfree.htm
 old-project: com
 ms.assetid: b46b0b1e-6144-4bb8-84d5-9db5690b7421
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMallocSpy interface [COM],PostFree method, IMallocSpy.PostFree, IMallocSpy::PostFree, PostFree, PostFree method [COM], PostFree method [COM],IMallocSpy interface, _com_imallocspy_postfree, com.imallocspy_postfree, objidl/IMallocSpy::PostFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

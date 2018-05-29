@@ -1,16 +1,16 @@
 ---
 UID: NF:traffic.TcOpenInterfaceW
 title: TcOpenInterfaceW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TcOpenInterface function opens an interface.
 old-location: qos\tcopeninterface.htm
 old-project: QOS
 ms.assetid: 8c7e658c-862f-4715-9ba5-ac079db924a1
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: TcOpenInterface, TcOpenInterface function [QOS], TcOpenInterfaceA, TcOpenInterfaceW, _gqos_tcopeninterface, qos.tcopeninterface, traffic/TcOpenInterface, traffic/TcOpenInterfaceA, traffic/TcOpenInterfaceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

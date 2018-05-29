@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiLoadDeviceIcon
 title: SetupDiLoadDeviceIcon function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiLoadDeviceIcon function retrieves an icon for a specified device.
 old-location: devinst\setupdiloaddeviceicon.htm
 old-project: devinst
 ms.assetid: 65a47cea-1c70-46ed-9cf5-601387dbe323
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiLoadDeviceIcon, SetupDiLoadDeviceIcon function [Device and Driver Installation], devinst.setupdiloaddeviceicon, di-rtns_bcd13849-30ed-4c7e-923d-1524552d78aa.xml, setupapi/SetupDiLoadDeviceIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineCompleteTransfer
 title: lineCompleteTransfer function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineCompleteTransfer function completes the transfer of the specified call to the party connected in the consultation call.
 old-location: tapi2\linecompletetransfer.htm
 old-project: Tapi
 ms.assetid: ebedf664-4c45-49c3-9d86-c3d782077a00
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linecompletetransfer, lineCompleteTransfer, lineCompleteTransfer function [TAPI 2.2], tapi/lineCompleteTransfer, tapi2.linecompletetransfer"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

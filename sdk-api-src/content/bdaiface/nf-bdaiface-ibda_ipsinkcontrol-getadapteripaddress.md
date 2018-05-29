@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_IPSinkControl.GetAdapterIPAddress
 title: IBDA_IPSinkControl::GetAdapterIPAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
 old-location: mstv\ibda_ipsinkcontrol_getadapteripaddress.htm
 old-project: mstv
 ms.assetid: ce9710e6-f611-4457-a282-9a7677b3055e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetAdapterIPAddress, GetAdapterIPAddress method [Microsoft TV Technologies], GetAdapterIPAddress method [Microsoft TV Technologies],IBDA_IPSinkControl interface, IBDA_IPSinkControl interface [Microsoft TV Technologies],GetAdapterIPAddress method, IBDA_IPSinkControl.GetAdapterIPAddress, IBDA_IPSinkControl::GetAdapterIPAddress, IBDA_IPSinkControlGetAdapterIPAddress, bdaiface/IBDA_IPSinkControl::GetAdapterIPAddress, mstv.ibda_ipsinkcontrol_getadapteripaddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

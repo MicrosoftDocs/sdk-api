@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1_1.D2D1Tan
 title: D2D1Tan function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the tangent of an angle.
 old-location: direct2d\d2d1tan.htm
 old-project: Direct2D
 ms.assetid: 2BC66DEA-5C40-4EBA-8CDB-B48036E8A85F
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1Tan, D2D1Tan function [Direct2D], d2d1_1/D2D1Tan, direct2d.d2d1tan
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_1.h
 req.include-header: 

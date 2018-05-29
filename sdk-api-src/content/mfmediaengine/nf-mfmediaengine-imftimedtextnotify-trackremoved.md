@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.TrackRemoved
 title: IMFTimedTextNotify::TrackRemoved
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when a text track is removed.
 old-location: mf\imftimedtextnotify_trackremoved.htm
 old-project: medfound
 ms.assetid: 6C88C832-5C18-4196-B142-4E398D498A36
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFTimedTextNotify interface [Media Foundation],TrackRemoved method, IMFTimedTextNotify.TrackRemoved, IMFTimedTextNotify::TrackRemoved, TrackRemoved, TrackRemoved method [Media Foundation], TrackRemoved method [Media Foundation],IMFTimedTextNotify interface, mf.imftimedtextnotify_trackremoved, mfmediaengine/IMFTimedTextNotify::TrackRemoved
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

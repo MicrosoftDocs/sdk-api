@@ -1,16 +1,16 @@
 ---
 UID: NC:stm.PCREATE_STATIC_SERVICE
 title: PCREATE_STATIC_SERVICE
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateStaticService function adds a static service to the table.
 old-location: rras\createstaticservice.htm
 old-project: RRAS
 ms.assetid: 529beae6-ba39-417c-8fa6-7b97fc720352
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CreateStaticService, CreateStaticService callback function [RAS], PCREATE_STATIC_SERVICE, PCREATE_STATIC_SERVICE callback, _mpr_createstaticservice, rras.createstaticservice, stm/CreateStaticService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: stm.h
 req.include-header: 

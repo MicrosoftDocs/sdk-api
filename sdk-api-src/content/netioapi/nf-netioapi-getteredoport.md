@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.GetTeredoPort
 title: GetTeredoPort function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the dynamic UDP port number used by the Teredo client on the local computer.
 old-location: iphlp\getteredoport.htm
 old-project: IpHlp
 ms.assetid: 59d3764d-e560-4474-a73e-ab50bbddbf07
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetTeredoPort, GetTeredoPort function [IP Helper], iphlp.getteredoport, netioapi/GetTeredoPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

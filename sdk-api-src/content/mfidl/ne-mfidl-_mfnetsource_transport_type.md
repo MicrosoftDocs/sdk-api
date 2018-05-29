@@ -1,16 +1,16 @@
 ---
 UID: NE:mfidl._MFNETSOURCE_TRANSPORT_TYPE
 title: "_MFNETSOURCE_TRANSPORT_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the type of transport used in streaming or downloading data (TCP or UDP).
 old-location: mf\mfnetsource_transport_type.htm
 old-project: medfound
 ms.assetid: b3cdb604-15eb-4df7-af30-b21093c93781
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFNETSOURCE_TCP, MFNETSOURCE_TRANSPORT_TYPE, MFNETSOURCE_TRANSPORT_TYPE enumeration [Media Foundation], MFNETSOURCE_UDP, _MFNETSOURCE_TRANSPORT_TYPE, b3cdb604-15eb-4df7-af30-b21093c93781, mf.mfnetsource_transport_type, mfidl/MFNETSOURCE_TCP, mfidl/MFNETSOURCE_TRANSPORT_TYPE, mfidl/MFNETSOURCE_UDP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

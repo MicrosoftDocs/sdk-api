@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.INetSharingPortMapping.Delete
 title: INetSharingPortMapping::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: The Delete method deletes a port mapping from the list of port mappings for a particular connection.
 old-location: ics\inetsharingportmapping_delete.htm
 old-project: ICS
 ms.assetid: f9582110-a717-41a4-8ddd-26ef703b8356
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: Delete, Delete method [ICS/ICF], Delete method [ICS/ICF],INetSharingPortMapping interface, INetSharingPortMapping interface [ICS/ICF],Delete method, INetSharingPortMapping.Delete, INetSharingPortMapping::Delete, _ics_inetsharingportmapping_delete, ics.inetsharingportmapping_delete, netcon/INetSharingPortMapping::Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

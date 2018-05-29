@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.Attach
 title: IWSDiscoveryProvider::Attach
-author: windows-driver-content
+author: windows-sdk-content
 description: Attaches a callback interface to the discovery provider.
 old-location: ncd\iwsdiscoveryprovider_attach_method.htm
 old-project: WsdApi
 ms.assetid: 3bb2aead-b082-4a2b-b4bf-97a1feb1e11e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Attach, Attach method, Attach method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,Attach method, IWSDiscoveryProvider.Attach, IWSDiscoveryProvider::Attach, ncd.iwsdiscoveryprovider_attach_method, wsddisco/IWSDiscoveryProvider::Attach
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

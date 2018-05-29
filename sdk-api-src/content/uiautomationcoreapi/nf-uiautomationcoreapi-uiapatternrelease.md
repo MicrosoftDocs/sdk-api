@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaPatternRelease
 title: UiaPatternRelease function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an allocated pattern object from memory.
 old-location: winauto\uiauto_UiaPatternReleaseMemManMeth.htm
 old-project: WinAuto
 ms.assetid: caa7231b-5b31-499e-b548-479501ddf016
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaPatternRelease, UiaPatternRelease function [Windows Accessibility], uiauto.uiauto_UiaPatternReleaseMemManMeth, uiauto_UiaPatternReleaseMemManMeth, uiautomationcoreapi/UiaPatternRelease, winauto.uiauto_UiaPatternReleaseMemManMeth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

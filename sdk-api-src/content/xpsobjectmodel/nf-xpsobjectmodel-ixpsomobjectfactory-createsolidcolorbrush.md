@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateSolidColorBrush
 title: IXpsOMObjectFactory::CreateSolidColorBrush
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IXpsOMSolidColorBrush interface, which specifies a brush of a single, solid color.
 old-location: xps\ixpsomobjectfactory_createsolidcolorbrush.htm
 old-project: printdocs
 ms.assetid: 58690d93-9e3f-487c-956e-bb21122ecc96
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CreateSolidColorBrush, CreateSolidColorBrush method [XPS Documents and Packaging], CreateSolidColorBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateSolidColorBrush method, IXpsOMObjectFactory.CreateSolidColorBrush, IXpsOMObjectFactory::CreateSolidColorBrush, xps.ixpsomobjectfactory_createsolidcolorbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateSolidColorBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

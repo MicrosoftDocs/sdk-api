@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolTimer
 title: SetThreadpoolTimer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the timer object&#8212;, replacing the previous timer, if any. A worker thread calls the timer object's callback after the specified timeout expires.
 old-location: base\setthreadpooltimer.htm
 old-project: ProcThread
 ms.assetid: 017f88c6-e14c-47ba-94d2-e7bb0dc95d12
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetThreadpoolTimer, SetThreadpoolTimer function, base.setthreadpooltimer, threadpoolapiset/SetThreadpoolTimer, winbase/SetThreadpoolTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupQueueRenameA
 title: SetupQueueRenameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupQueueRename function places an individual file rename operation on a setup file queue.
 old-location: setup\setupqueuerename.htm
 old-project: SetupApi
 ms.assetid: 0b80eba9-9e71-4255-8c1b-039878682ec4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupQueueRename, SetupQueueRename function [Setup API], SetupQueueRenameA, SetupQueueRenameW, _setupapi_setupqueuerename, setup.setupqueuerename, setupapi/SetupQueueRename, setupapi/SetupQueueRenameA, setupapi/SetupQueueRenameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

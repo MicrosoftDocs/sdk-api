@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetWindowRgn
 title: GetWindowRgn function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetWindowRgn function obtains a copy of the window region of a window.
 old-location: gdi\getwindowrgn.htm
 old-project: gdi
 ms.assetid: c8a8fa46-354b-489e-b016-fd2e728958ce
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetWindowRgn, GetWindowRgn function [Windows GDI], _win32_GetWindowRgn, gdi.getwindowrgn, winuser/GetWindowRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

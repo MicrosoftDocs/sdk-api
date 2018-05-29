@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.WakeByAddressSingle
 title: WakeByAddressSingle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Wakes one thread that is waiting for the value of an address to change.
 old-location: base\wakebyaddresssingle.htm
 old-project: Sync
 ms.assetid: 4ca8f7b9-e78e-4324-9e72-84267746fe53
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: WakeByAddressSingle, WakeByAddressSingle function, base.wakebyaddresssingle, synchapi/WakeByAddressSingle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows.h

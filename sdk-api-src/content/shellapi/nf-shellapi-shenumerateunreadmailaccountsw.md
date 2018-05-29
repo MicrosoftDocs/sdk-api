@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.SHEnumerateUnreadMailAccountsW
 title: SHEnumerateUnreadMailAccountsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the user accounts that have unread email.
 old-location: shell\SHEnumerateUnreadMailAccounts.htm
 old-project: shell
 ms.assetid: 67ec8355-f902-4b71-972f-94e403701f96
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHEnumerateUnreadMailAccounts, SHEnumerateUnreadMailAccounts function [Windows Shell], SHEnumerateUnreadMailAccountsA, SHEnumerateUnreadMailAccountsW, _shell_SHEnumerateUnreadMailAccounts, shell.SHEnumerateUnreadMailAccounts, shellapi/SHEnumerateUnreadMailAccounts, shellapi/SHEnumerateUnreadMailAccountsA, shellapi/SHEnumerateUnreadMailAccountsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

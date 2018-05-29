@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetAudioAttributes
 title: IDvdInfo2::GetAudioAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAudioAttributes method retrieves the attributes of the specified audio stream in the current title or menu.
 old-location: dshow\idvdinfo2_getaudioattributes.htm
 old-project: DirectShow
 ms.assetid: 80291efa-f3eb-47f0-94e0-dcde583ff35c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAudioAttributes, GetAudioAttributes method [DirectShow], GetAudioAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAudioAttributes method, IDvdInfo2.GetAudioAttributes, IDvdInfo2::GetAudioAttributes, IDvdInfo2GetAudioAttributes, dshow.idvdinfo2_getaudioattributes, strmif/IDvdInfo2::GetAudioAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:effects.IWMPEffects.GetCapabilities
 title: IWMPEffects::GetCapabilities
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCapabilities method gets the capabilities of the visualization.
 old-location: wmp\iwmpeffects_getcapabilities.htm
 old-project: WMP
 ms.assetid: e2efb0cd-417f-4b96-a4d7-c02c41a6244d
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: EffectsGetCapabilities, GetCapabilities, GetCapabilities method [Windows Media Player], GetCapabilities method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetCapabilities method, IWMPEffects.GetCapabilities, IWMPEffects::GetCapabilities, effects/IWMPEffects::GetCapabilities, wmp.iwmpeffects_getcapabilities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: effects.h
 req.include-header: 

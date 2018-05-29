@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCallNotificationEvent.get_Event
 title: ITCallNotificationEvent::get_Event
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Event method returns a CALL_NOTIFICATION_EVENT description of whether the application owns or is monitoring the call on which the event has occurred.
 old-location: tapi3\itcallnotificationevent_get_event.htm
 old-project: Tapi
 ms.assetid: 08a3925c-e14e-442e-952e-483fc41d049c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallNotificationEvent interface [TAPI 2.2],get_Event method, ITCallNotificationEvent.get_Event, ITCallNotificationEvent::get_Event, _tapi3_itcallnotificationevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITCallNotificationEvent interface, tapi3.itcallnotificationevent_get_event, tapi3if/ITCallNotificationEvent::get_Event
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

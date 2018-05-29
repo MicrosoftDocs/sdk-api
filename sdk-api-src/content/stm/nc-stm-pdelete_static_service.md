@@ -1,16 +1,16 @@
 ---
 UID: NC:stm.PDELETE_STATIC_SERVICE
 title: PDELETE_STATIC_SERVICE
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeleteStaticService function deletes a static service from the table.
 old-location: rras\deletestaticservice.htm
 old-project: RRAS
 ms.assetid: 230ddff5-7fd1-4e4e-b4bb-49c427a3f9c7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: DeleteStaticService, DeleteStaticService callback function [RAS], PDELETE_STATIC_SERVICE, PDELETE_STATIC_SERVICE callback, _mpr_deletestaticservice, rras.deletestaticservice, stm/DeleteStaticService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: stm.h
 req.include-header: 

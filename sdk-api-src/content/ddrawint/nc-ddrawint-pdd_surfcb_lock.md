@@ -1,16 +1,16 @@
 ---
 UID: NC:ddrawint.PDD_SURFCB_LOCK
 title: PDD_SURFCB_LOCK
-author: windows-driver-content
+author: windows-sdk-content
 description: The DdLock callback function locks a specified area of surface memory and provides a valid pointer to a block of memory associated with a surface.
 old-location: display\ddlock.htm
 old-project: display
 ms.assetid: b5256ed8-79be-4c7b-a079-ed3bca954e9e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DdLock, DdLock callback function [Display Devices], PDD_SURFCB_LOCK, PDD_SURFCB_LOCK callback, ddfncs_af3e49f9-5fe1-4bf7-962b-18644a6fb582.xml, ddrawint/DdLock, display.ddlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

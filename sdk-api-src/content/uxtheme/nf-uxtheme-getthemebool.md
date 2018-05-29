@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemeBool
 title: GetThemeBool function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of a BOOL property from the SysMetrics section of theme data.
 old-location: controls\GetThemeBool.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebool.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemeBool, GetThemeBool function [Windows Controls], TMT_ALWAYSSHOWSIZINGBAR, TMT_AUTOSIZE, TMT_BGFILL, TMT_BORDERONLY, TMT_COMPOSITED, TMT_GLYPHONLY, TMT_GLYPHTRANSPARENT, TMT_INTEGRALSIZING, TMT_MIRRORIMAGE, TMT_SOURCEGROW, TMT_SOURCESHRINK, TMT_TRANSPARENT, TMT_UNIFORMSIZING, TMT_USERPICTURE, controls.GetThemeBool, controls.inet_GetThemeBool, inet_GetThemeBool, inet_GetThemeBool_cpp, uxtheme/GetThemeBool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

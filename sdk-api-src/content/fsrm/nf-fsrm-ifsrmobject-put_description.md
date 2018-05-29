@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrm.IFsrmObject.put_Description
 title: IFsrmObject::put_Description
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the description of the object.
 old-location: fsrm\ifsrmobject_description.htm
 old-project: Fsrm
 ms.assetid: 8e039e44-17f0-47e7-935b-404af43685bf
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager],IFsrmObject interface, IFsrmObject interface [File Server Resource Manager],Description property, IFsrmObject.Description, IFsrmObject.put_Description, IFsrmObject::Description, IFsrmObject::get_Description, IFsrmObject::put_Description, fs.ifsrmobject_description, fsrm.ifsrmobject_description, fsrm/IFsrmObject::Description, fsrm/IFsrmObject::get_Description, fsrm/IFsrmObject::put_Description, put_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h

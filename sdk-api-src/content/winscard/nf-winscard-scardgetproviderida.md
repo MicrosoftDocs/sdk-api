@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardGetProviderIdA
 title: SCardGetProviderIdA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the identifier (GUID) of the primary service provider for a given card.
 old-location: security\scardgetproviderid.htm
 old-project: SecAuthN
 ms.assetid: 6e0f42af-9ac1-469b-b241-939d64676d99
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCardGetProviderId, SCardGetProviderId function [Security], SCardGetProviderIdA, SCardGetProviderIdW, _smart_scardgetproviderid, security.scardgetproviderid, winscard/SCardGetProviderId, winscard/SCardGetProviderIdA, winscard/SCardGetProviderIdW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

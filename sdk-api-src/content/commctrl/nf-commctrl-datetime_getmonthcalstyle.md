@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.DateTime_GetMonthCalStyle
 title: DateTime_GetMonthCalStyle macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the style of a specified date and time picker (DTP) control. Use this macro or send the DTM_GETMCSTYLE message explicitly.
 old-location: controls\DateTime_GetMonthCalStyle.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcalstyle.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DateTime_GetMonthCalStyle, DateTime_GetMonthCalStyle macro [Windows Controls], _shell_DateTime_GetMonthCalStyle, _shell_DateTime_GetMonthCalStyle_cpp, commctrl/DateTime_GetMonthCalStyle, controls.DateTime_GetMonthCalStyle, controls._shell_DateTime_GetMonthCalStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

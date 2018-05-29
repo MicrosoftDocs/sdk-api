@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetNumber
 title: MI_SubscriptionDeliveryOptions_GetNumber function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of the named numeric option.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getnumber.htm
 old-project: wmi_v2
 ms.assetid: 80314490-204d-4b99-937f-f9b55266ac1a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetNumber, MI_SubscriptionDeliveryOptions_GetNumber function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetNumber, wmi_v2.mi_subscriptiondeliveryoptions_getnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

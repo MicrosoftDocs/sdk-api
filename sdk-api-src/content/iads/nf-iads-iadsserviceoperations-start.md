@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsServiceOperations.Start
 title: IADsServiceOperations::Start
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsServiceOperations::Start method starts a network service.
 old-location: adsi\iadsserviceoperations_start.htm
 old-project: ADSI
 ms.assetid: 8eabd59e-2abf-4e6f-be42-342f3b722d75
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsServiceOperations interface [ADSI],Start method, IADsServiceOperations.Start, IADsServiceOperations::Start, Start, Start method [ADSI], Start method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_start, adsi.iadsserviceoperations__start, adsi.iadsserviceoperations_start, iads/IADsServiceOperations::Start
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

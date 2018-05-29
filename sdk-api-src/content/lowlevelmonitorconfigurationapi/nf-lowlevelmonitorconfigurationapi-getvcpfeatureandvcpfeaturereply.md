@@ -1,16 +1,16 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.GetVCPFeatureAndVCPFeatureReply
 title: GetVCPFeatureAndVCPFeatureReply function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current value, maximum value, and code type of a Virtual Control Panel (VCP) code for a monitor.
 old-location: monitor\getvcpfeatureandvcpfeaturereply.htm
 old-project: Monitor
 ms.assetid: b0b06137-8f67-46fc-ba6b-3022f3331fa5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetVCPFeatureAndVCPFeatureReply, GetVCPFeatureAndVCPFeatureReply function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetVCPFeatureAndVCPFeatureReply, monitor.getvcpfeatureandvcpfeaturereply
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 

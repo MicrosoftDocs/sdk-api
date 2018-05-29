@@ -1,16 +1,16 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetVideoPosition
 title: IMFVideoDisplayControl::GetVideoPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the source and destination rectangles for the video.
 old-location: mf\imfvideodisplaycontrol_getvideoposition.htm
 old-project: medfound
 ms.assetid: 59c2e914-cc15-4534-976c-a760ff97f6ae
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 59c2e914-cc15-4534-976c-a760ff97f6ae, GetVideoPosition, GetVideoPosition method [Media Foundation], GetVideoPosition method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetVideoPosition method, IMFVideoDisplayControl.GetVideoPosition, IMFVideoDisplayControl::GetVideoPosition, evr/IMFVideoDisplayControl::GetVideoPosition, mf.imfvideodisplaycontrol_getvideoposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: evr.h
 req.include-header: 

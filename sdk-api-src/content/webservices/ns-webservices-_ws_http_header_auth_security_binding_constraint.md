@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT
 title: "_WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT"
-author: windows-driver-content
+author: windows-sdk-content
 description: A security binding constraint that corresponds to the WS_HTTP_HEADER_AUTH_SECURITY_BINDING.
 old-location: wsw\ws_http_header_auth_security_binding_constraint.htm
 old-project: wsw
 ms.assetid: 1f6341b2-1f98-40a0-8f3a-cc9cf4538209
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT, WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows], _WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT, webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT, wsw.ws_http_header_auth_security_binding_constraint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

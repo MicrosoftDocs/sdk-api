@@ -1,16 +1,16 @@
 ---
 UID: NS:magnification.tagMAGIMAGEHEADER
 title: tagMAGIMAGEHEADER
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an image format.
 old-location: magapi\magapi_magimageheader.htm
 old-project: magapi
 ms.assetid: VS|magapi|~\magapi\reference\structures\magimageheaderstruct.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PMAGIMAGEHEADER, MAGIMAGEHEADER, MAGIMAGEHEADER structure [Magnification API], PMAGIMAGEHEADER, PMAGIMAGEHEADER structure pointer [Magnification API], magapi.magapi_magimageheader, magapi_magimageheader, magnification/MAGIMAGEHEADER, magnification/PMAGIMAGEHEADER, tagMAGIMAGEHEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: magnification.h
 req.include-header: 

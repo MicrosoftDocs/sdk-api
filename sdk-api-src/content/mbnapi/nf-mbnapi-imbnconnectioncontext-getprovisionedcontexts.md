@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnConnectionContext.GetProvisionedContexts
 title: IMbnConnectionContext::GetProvisionedContexts
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a list of connection contexts.
 old-location: mbn\imbnconnectioncontext_getprovisionedcontexts.htm
 old-project: mbn
 ms.assetid: eceba2a8-baff-436f-b561-d9e130df5702
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetProvisionedContexts, GetProvisionedContexts method [Microsoft Broadband Networks], GetProvisionedContexts method [Microsoft Broadband Networks],IMbnConnectionContext interface, IMbnConnectionContext interface [Microsoft Broadband Networks],GetProvisionedContexts method, IMbnConnectionContext.GetProvisionedContexts, IMbnConnectionContext::GetProvisionedContexts, mbn.imbnconnectioncontext_getprovisionedcontexts, mbnapi/IMbnConnectionContext::GetProvisionedContexts
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

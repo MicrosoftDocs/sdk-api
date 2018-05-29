@@ -1,16 +1,16 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.HitTest
 title: IXamlDiagnostics::HitTest
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets all elements in the visual tree that fall within the specified rectangle.
 old-location: xaml_diagnostics\ixamldiagnostics_hittest.htm
 old-project: xaml_diagnostics
 ms.assetid: B7722F49-F477-4D24-9183-BC09A4A12730
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: HitTest, HitTest method, HitTest method,IXamlDiagnostics interface, IXamlDiagnostics interface,HitTest method, IXamlDiagnostics.HitTest, IXamlDiagnostics::HitTest, xaml_diagnostics.ixamldiagnostics_hittest, xamlom/IXamlDiagnostics::HitTest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

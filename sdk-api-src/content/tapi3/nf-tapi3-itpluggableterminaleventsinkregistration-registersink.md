@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3.ITPluggableTerminalEventSinkRegistration.RegisterSink
 title: ITPluggableTerminalEventSinkRegistration::RegisterSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The RegisterSink method registers the application for pluggable terminal event notification.
 old-location: tapi3\itpluggableterminaleventsinkregistration_registersink.htm
 old-project: Tapi
 ms.assetid: 4887d299-8c63-4ead-b456-e80417e6ec56
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2],RegisterSink method, ITPluggableTerminalEventSinkRegistration.RegisterSink, ITPluggableTerminalEventSinkRegistration::RegisterSink, RegisterSink, RegisterSink method [TAPI 2.2], RegisterSink method [TAPI 2.2],ITPluggableTerminalEventSinkRegistration interface, _tapi3_itpluggableterminaleventsinkregistration_registersink, msp/ITPluggableTerminalEventSinkRegistration::RegisterSink, tapi3.itpluggableterminaleventsinkregistration_registersink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

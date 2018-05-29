@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertProperties.Add
 title: ICertProperties::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a property to the collection.
 old-location: security\icertproperties_add_method.htm
 old-project: SecCertEnroll
 ms.assetid: 53ea895d-0c41-445e-bfcc-2b2e53e10ff8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICertProperties interface, ICertProperties interface [Security],Add method, ICertProperties.Add, ICertProperties::Add, certenroll/ICertProperties::Add, security.icertproperties_add_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

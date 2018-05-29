@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10misc.D3D10CreateDevice
 title: D3D10CreateDevice function
-author: windows-driver-content
+author: windows-sdk-content
 description: Create a Direct3D 10.0 device that represents the display adapter.
 old-location: direct3d10\d3d10createdevice.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10createdevice.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 2a50ebc1-5169-2724-57d7-f5fe11b437c5, D3D10CreateDevice, D3D10CreateDevice function [Direct3D 10], d3d10misc/D3D10CreateDevice, direct3d10.d3d10createdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3d10misc.h
 req.include-header: 

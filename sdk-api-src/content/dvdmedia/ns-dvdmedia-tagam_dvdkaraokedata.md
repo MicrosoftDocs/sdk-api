@@ -1,16 +1,16 @@
 ---
 UID: NS:dvdmedia.tagAM_DvdKaraokeData
 title: tagAM_DvdKaraokeData
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how to mix the karaoke audio channels.
 old-location: dshow\am_dvdkaraokedata.htm
 old-project: DirectShow
 ms.assetid: 9fef2dd9-0a56-4e51-a64b-7f12c8f9a966
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AM_DvdKaraokeData, AM_DvdKaraokeData structure [DirectShow], dshow.am_dvdkaraokedata, dvdmedia/AM_DvdKaraokeData, tagAM_DvdKaraokeData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

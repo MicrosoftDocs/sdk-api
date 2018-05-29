@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GdiFlush
 title: GdiFlush function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GdiFlush function flushes the calling thread's current batch.
 old-location: gdi\gdiflush.htm
 old-project: gdi
 ms.assetid: 6d2f398d-7a30-4b14-81de-23ab10e1749c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GdiFlush, GdiFlush function [Windows GDI], _win32_GdiFlush, gdi.gdiflush, wingdi/GdiFlush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

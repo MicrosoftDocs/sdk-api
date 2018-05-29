@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerReportCreate
 title: WerReportCreate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a problem report that describes an application event.
 old-location: wer\werreportcreate.htm
 old-project: wer
 ms.assetid: 41f68dde-5e43-45a6-8e0b-3ae0c6180e8b
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WerReportApplicationCrash, WerReportApplicationHang, WerReportCreate, WerReportCreate function [Windows Error Reporting], WerReportCritical, WerReportInvalid, WerReportKernel, WerReportNonCritical, base.werreportcreate, wer.werreportcreate, werapi/WerReportCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

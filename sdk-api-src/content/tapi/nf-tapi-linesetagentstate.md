@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSetAgentState
 title: lineSetAgentState function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSetAgentState function sets the agent state associated with a particular address.
 old-location: tapi2\linesetagentstate.htm
 old-project: Tapi
 ms.assetid: 985798fd-54b1-4674-a1fe-b72c56c5176b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesetagentstate, lineSetAgentState, lineSetAgentState function [TAPI 2.2], tapi/lineSetAgentState, tapi2.linesetagentstate"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

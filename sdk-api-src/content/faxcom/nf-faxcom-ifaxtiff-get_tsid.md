@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_Tsid
 title: IFaxTiff::get_Tsid
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Tsid property for a FaxTiff object. The Tsid property is a null-terminated string that contains transmitting station identifier (TSID) information, which is typically the fax number of the device that sent the specified fax file.
 old-location: fax\_mfax_ifaxtiff_get_tsid_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7tes.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxTiff object [Fax Service],Tsid property, FaxTiff.Tsid, IFaxTiff.get_Tsid, IFaxTiff::get_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_tsid, fax._mfax_ifaxtiff_get_tsid, fax._mfax_ifaxtiff_get_tsid_vb, get_Tsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

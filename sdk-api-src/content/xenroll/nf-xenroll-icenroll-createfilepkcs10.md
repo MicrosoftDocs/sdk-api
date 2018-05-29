@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.ICEnroll.createFilePKCS10
 title: ICEnroll::createFilePKCS10
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a base64-encoded PKCS #10 certificate request and saves it in a file. This method was first defined in the ICEnroll interface.
 old-location: security\icenroll4_createfilepkcs10.htm
 old-project: SecCrypto
 ms.assetid: 074c7321-6117-4261-836a-a2055c9e029d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CEnroll object [Security],createFilePKCS10 method, ICEnroll interface [Security],createFilePKCS10 method, ICEnroll.createFilePKCS10, ICEnroll2 interface [Security],createFilePKCS10 method, ICEnroll2::createFilePKCS10, ICEnroll3 interface [Security],createFilePKCS10 method, ICEnroll3::createFilePKCS10, ICEnroll4 interface [Security],createFilePKCS10 method, ICEnroll4::createFilePKCS10, ICEnroll::createFilePKCS10, createFilePKCS10, createFilePKCS10 method [Security], createFilePKCS10 method [Security],CEnroll object, createFilePKCS10 method [Security],ICEnroll interface, createFilePKCS10 method [Security],ICEnroll2 interface, createFilePKCS10 method [Security],ICEnroll3 interface, createFilePKCS10 method [Security],ICEnroll4 interface, security.icenroll4_createfilepkcs10, xenroll/ICEnroll2::createFilePKCS10, xenroll/ICEnroll3::createFilePKCS10, xenroll/ICEnroll4::createFilePKCS10, xenroll/ICEnroll::createFilePKCS10
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

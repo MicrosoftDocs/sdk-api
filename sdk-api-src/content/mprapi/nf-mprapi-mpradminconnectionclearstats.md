@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminConnectionClearStats
 title: MprAdminConnectionClearStats function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminConnectionClearStats function resets the statistics counters for the specified connection.
 old-location: rras\mpradminconnectionclearstats.htm
 old-project: RRAS
 ms.assetid: d1d9b218-e376-4c26-a1c0-d06537492622
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminConnectionClearStats, MprAdminConnectionClearStats function [RAS], _mpr_mpradminconnectionclearstats, mprapi/MprAdminConnectionClearStats, rras.mpradminconnectionclearstats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

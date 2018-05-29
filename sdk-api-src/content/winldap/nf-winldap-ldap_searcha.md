@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_searchA
 title: ldap_searchA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches the LDAP directory and returns a requested set of attributes for each matched entry.
 old-location: ldap\ldap_search.htm
 old-project: LDAP
 ms.assetid: fe0d782b-8faf-4666-a952-e2bfd33f6d67
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search, ldap.ldap__search, ldap.ldap_search, ldap_search, ldap_search function [LDAP], ldap_searchA, ldap_searchW, winldap/ldap_search, winldap/ldap_searchA, winldap/ldap_searchW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

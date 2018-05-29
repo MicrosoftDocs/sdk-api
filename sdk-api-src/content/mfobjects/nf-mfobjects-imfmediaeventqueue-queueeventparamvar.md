@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.QueueEventParamVar
 title: IMFMediaEventQueue::QueueEventParamVar
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an event, sets a PROPVARIANT as the event data, and puts the event in the queue.Call this method inside your implementation of IMFMediaEventGenerator::QueueEvent.
 old-location: mf\imfmediaeventqueue_queueeventparamvar.htm
 old-project: medfound
 ms.assetid: e2bafeca-76e7-4df4-94a7-86aef04f3a35
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEventQueue interface [Media Foundation],QueueEventParamVar method, IMFMediaEventQueue.QueueEventParamVar, IMFMediaEventQueue::QueueEventParamVar, QueueEventParamVar, QueueEventParamVar method [Media Foundation], QueueEventParamVar method [Media Foundation],IMFMediaEventQueue interface, e2bafeca-76e7-4df4-94a7-86aef04f3a35, mf.imfmediaeventqueue_queueeventparamvar, mfobjects/IMFMediaEventQueue::QueueEventParamVar
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcMgmtInqComTimeout
 title: RpcMgmtInqComTimeout function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcMgmtInqComTimeout function returns the binding-communications time-out value in a binding handle.
 old-location: rpc\rpcmgmtinqcomtimeout.htm
 old-project: Rpc
 ms.assetid: e7bb9955-68a7-49fe-bcdb-2450518ffe0a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcMgmtInqComTimeout, RpcMgmtInqComTimeout function [RPC], _rpc_rpcmgmtinqcomtimeout, rpc.rpcmgmtinqcomtimeout, rpcdce/RpcMgmtInqComTimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

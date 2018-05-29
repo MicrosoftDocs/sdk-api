@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.GetPrintTicketResource
 title: IXpsOMDocument::GetPrintTicketResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IXpsOMPrintTicketResource interface of the document-level print ticket.
 old-location: xps\ixpsomdocument_getprintticketresource.htm
 old-project: printdocs
 ms.assetid: 381bfbb3-1dfd-4761-acdc-cfe64a3aeeb5
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetPrintTicketResource, GetPrintTicketResource method [XPS Documents and Packaging], GetPrintTicketResource method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetPrintTicketResource method, IXpsOMDocument.GetPrintTicketResource, IXpsOMDocument::GetPrintTicketResource, xps.ixpsomdocument_getprintticketresource, xpsobjectmodel/IXpsOMDocument::GetPrintTicketResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IDvdCmd
 title: IDvdCmd
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDvdCmd interface waits for DVD commands to start or end.The DVD Navigator creates synchronization objects that expose this interface.
 old-location: dshow\idvdcmd.htm
 old-project: DirectShow
 ms.assetid: 85f9b208-ddc2-4d9c-a30b-b666c81a49d2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDvdCmd, IDvdCmd interface [DirectShow], IDvdCmd interface [DirectShow],described, IDvdCmdInterface, dshow.idvdcmd, strmif/IDvdCmd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

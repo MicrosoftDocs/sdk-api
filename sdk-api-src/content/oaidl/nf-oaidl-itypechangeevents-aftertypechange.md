@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeChangeEvents.AfterTypeChange
 title: ITypeChangeEvents::AfterTypeChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Raised after a type has been changed.
 old-location: automat\itypechangeevents_aftertypechange.htm
 old-project: automat
 ms.assetid: 902663be-4cdb-47e5-916a-004483d6758e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: AfterTypeChange, AfterTypeChange method [Automation], AfterTypeChange method [Automation],ITypeChangeEvents interface, CHANGEKIND_ADDMEMBER, CHANGEKIND_CHANGEFAILED, CHANGEKIND_DELETEMEMBER, CHANGEKIND_GENERAL, CHANGEKIND_INVALIDATE, CHANGEKIND_SETDOCUMENTATION, CHANGEKIND_SETNAMES, ITypeChangeEvents interface [Automation],AfterTypeChange method, ITypeChangeEvents.AfterTypeChange, ITypeChangeEvents::AfterTypeChange, _oa96_ITypeChangeEvents_AfterTypeChange, automat.itypechangeevents_aftertypechange, oaidl/ITypeChangeEvents::AfterTypeChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

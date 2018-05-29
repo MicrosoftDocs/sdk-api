@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1_2.D2D1_RENDERING_PRIORITY
 title: D2D1_RENDERING_PRIORITY
-author: windows-driver-content
+author: windows-sdk-content
 description: The rendering priority affects the extent to which Direct2D will throttle its rendering workload.
 old-location: direct2d\d2d1_rendering_priority.htm
 old-project: Direct2D
 ms.assetid: 25DC645B-7693-468C-AE11-05F6D1B11741
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_RENDERING_PRIORITY, D2D1_RENDERING_PRIORITY enumeration [Direct2D], D2D1_RENDERING_PRIORITY_LOW, D2D1_RENDERING_PRIORITY_NORMAL, d2d1_2/D2D1_RENDERING_PRIORITY, d2d1_2/D2D1_RENDERING_PRIORITY_LOW, d2d1_2/D2D1_RENDERING_PRIORITY_NORMAL, direct2d.d2d1_rendering_priority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiReinstallFeatureA
 title: MsiReinstallFeatureA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reinstalls features.
 old-location: setup\msireinstallfeature.htm
 old-project: Msi
 ms.assetid: 0750838d-56c8-449c-b1fd-99c9426beb52
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiReinstallFeature, MsiReinstallFeature function, MsiReinstallFeatureA, MsiReinstallFeatureW, REINSTALLMODE_FILEEQUALVERSION, REINSTALLMODE_FILEEXACT, REINSTALLMODE_FILEMISSING, REINSTALLMODE_FILEOLDERVERSION, REINSTALLMODE_FILEREPLACE, REINSTALLMODE_FILEVERIFY, REINSTALLMODE_MACHINEDATA, REINSTALLMODE_PACKAGE, REINSTALLMODE_SHORTCUT, REINSTALLMODE_USERDATA, _msi_msireinstallfeature, msi/MsiReinstallFeature, msi/MsiReinstallFeatureA, msi/MsiReinstallFeatureW, setup.msireinstallfeature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

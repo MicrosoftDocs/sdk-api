@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SspiLocalFree
 title: SspiLocalFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the memory associated with the specified buffer.
 old-location: security\sspilocalfree.htm
 old-project: SecAuthN
 ms.assetid: afb890a8-a2c3-4c35-ba76-758b047ababb
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SspiLocalFree, SspiLocalFree function [Security], security.sspilocalfree, sspi/SspiLocalFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

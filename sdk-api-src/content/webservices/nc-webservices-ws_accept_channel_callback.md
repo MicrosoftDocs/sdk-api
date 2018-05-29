@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_ACCEPT_CHANNEL_CALLBACK
 title: WS_ACCEPT_CHANNEL_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles the WsAcceptChannel call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_accept_channel_callback.htm
 old-project: wsw
 ms.assetid: 2c7f36cf-ee7d-4de0-8599-ccfd066cca7e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_ACCEPT_CHANNEL_CALLBACK, WS_ACCEPT_CHANNEL_CALLBACK callback, WS_ACCEPT_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_ACCEPT_CHANNEL_CALLBACK, wsw.ws_accept_channel_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_QualifierSet_GetQualifierAt
 title: MI_QualifierSet_GetQualifierAt function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a qualifier at the specified index.
 old-location: wmi_v2\mi_qualifierset_getqualifierat.htm
 old-project: wmi_v2
 ms.assetid: 5dfcdd7a-7740-4d40-b412-89f6f090561c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_QualifierSet_GetQualifierAt, MI_QualifierSet_GetQualifierAt function [Windows Management Infrastructure (MI)], mi/MI_QualifierSet_GetQualifierAt, wmi_v2.mi_qualifierset_getqualifierat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

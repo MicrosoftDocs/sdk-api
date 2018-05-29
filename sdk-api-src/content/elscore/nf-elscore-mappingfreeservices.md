@@ -1,16 +1,16 @@
 ---
 UID: NF:elscore.MappingFreeServices
 title: MappingFreeServices function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees memory and resources allocated for the application to interact with one or more ELS services. The memory and resources are allocated in an application call to MappingGetServices.
 old-location: intl\mappingfreeservices.htm
 old-project: Intl
 ms.assetid: 3b90c1c5-3007-4c5d-a51b-e77b1f9c2dd0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MappingFreeServices, MappingFreeServices function [Internationalization for Windows Applications], elscore/MappingFreeServices, intl.mappingfreeservices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: elscore.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:batclass._BATTERY_WMI_CYCLE_COUNT
 title: "_BATTERY_WMI_CYCLE_COUNT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines information about number of charge cycles of a battery for use with the BatteryClassQueryWmiDataBlock function.
 old-location: battery\battery_wmi_cycle_count.htm
 old-project: battery
 ms.assetid: DFC94773-C198-4FC4-813C-0986ABA953A5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PBATTERY_WMI_CYCLE_COUNT, BATTERY_WMI_CYCLE_COUNT, BATTERY_WMI_CYCLE_COUNT structure [Battery Devices], PBATTERY_WMI_CYCLE_COUNT, PBATTERY_WMI_CYCLE_COUNT structure pointer [Battery Devices], _BATTERY_WMI_CYCLE_COUNT, batclass/BATTERY_WMI_CYCLE_COUNT, batclass/PBATTERY_WMI_CYCLE_COUNT, battery.battery_wmi_cycle_count"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: batclass.h
 req.include-header: Batclass.h

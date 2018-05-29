@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk.AssignDriveLetter
 title: IVdsAdvancedDisk::AssignDriveLetter
-author: windows-driver-content
+author: windows-sdk-content
 description: Assigns a drive letter to an existing OEM, ESP, or unknown partition.
 old-location: base\ivdsadvanceddisk_assigndriveletter.htm
 old-project: VDS
 ms.assetid: 92a79b87-7385-40d9-aa20-e4724b241e59
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AssignDriveLetter, AssignDriveLetter method [VDS], AssignDriveLetter method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],AssignDriveLetter method, IVdsAdvancedDisk.AssignDriveLetter, IVdsAdvancedDisk::AssignDriveLetter, base.ivdsadvanceddisk_assigndriveletter, vds/IVdsAdvancedDisk::AssignDriveLetter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator+=
 title: WBEMTimeSpan::operator+=
-author: windows-driver-content
+author: windows-sdk-content
 description: The WBEMTimeSpan class add-and-assign operator adds one time span to another. The operation create a new time span that contains the resulting time.
 old-location: wmi\wbemtimespan_operator_plus_equal.htm
 old-project: WmiSdk
 ms.assetid: d531e7e0-7de2-41d0-bf1b-7c4ef43b3b46
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator+= method, WBEMTimeSpan.operator+=, WBEMTimeSpan::operator+=, _hmm_wbemtimespan_operator_plus_equal, operator+=, operator+= method [Windows Management Instrumentation], operator+= method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator+=, wmi.wbemtimespan_operator_plus_equal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

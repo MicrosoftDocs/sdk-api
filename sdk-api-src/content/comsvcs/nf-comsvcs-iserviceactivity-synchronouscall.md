@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IServiceActivity.SynchronousCall
 title: IServiceActivity::SynchronousCall
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs the user-defined work synchronously.
 old-location: cos\iserviceactivity_synchronouscall.htm
 old-project: cossdk
 ms.assetid: d25e6942-7b1b-4b74-b711-2d0f513d0b38
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServiceActivity interface [COM+],SynchronousCall method, IServiceActivity.SynchronousCall, IServiceActivity::SynchronousCall, SynchronousCall, SynchronousCall method [COM+], SynchronousCall method [COM+],IServiceActivity interface, _cos_IServiceActivity_SynchronousCall, comsvcs/IServiceActivity::SynchronousCall, cos.iserviceactivity_synchronouscall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

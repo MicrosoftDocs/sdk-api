@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMMetaData.QueryByIndex
 title: IWMDMMetaData::QueryByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: The QueryByIndex method retrieves the value of a property specified by index.
 old-location: wmdm\iwmdmmetadata_querybyindex.htm
 old-project: WMDM
 ms.assetid: 5d27e1e9-ab91-433d-8216-ace195386d44
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMMetaData interface [windows Media Device Manager],QueryByIndex method, IWMDMMetaData.QueryByIndex, IWMDMMetaData::QueryByIndex, IWMDMMetaDataQueryByIndex, QueryByIndex, QueryByIndex method [windows Media Device Manager], QueryByIndex method [windows Media Device Manager],IWMDMMetaData interface, mswmdm/IWMDMMetaData::QueryByIndex, wmdm.iwmdmmetadata_querybyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

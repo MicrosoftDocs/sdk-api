@@ -1,16 +1,16 @@
 ---
 UID: NN:tsgpolicyengine.ITSGAuthorizeResourceSink
 title: ITSGAuthorizeResourceSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that notify Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a resource.
 old-location: termserv\itsgauthorizeresourcesink.htm
 old-project: TermServ
 ms.assetid: 4656064a-41d9-428c-8260-24eea0ee83cc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITSGAuthorizeResourceSink, ITSGAuthorizeResourceSink interface [Remote Desktop Services], ITSGAuthorizeResourceSink interface [Remote Desktop Services],described, termserv.itsgauthorizeresourcesink, tsgpolicyengine/ITSGAuthorizeResourceSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsgpolicyengine.h
 req.include-header: 

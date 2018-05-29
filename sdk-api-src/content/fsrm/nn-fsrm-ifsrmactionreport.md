@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrm.IFsrmActionReport
 title: IFsrmActionReport
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to generate a report in response to a quota or file screen event.
 old-location: fsrm\ifsrmactionreport.htm
 old-project: Fsrm
 ms.assetid: efff4cec-6985-40aa-a74e-bb2afdeb2a0a
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmActionReport, IFsrmActionReport interface [File Server Resource Manager], IFsrmActionReport interface [File Server Resource Manager],described, fs.ifsrmactionreport, fsrm.ifsrmactionreport, fsrm/IFsrmActionReport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

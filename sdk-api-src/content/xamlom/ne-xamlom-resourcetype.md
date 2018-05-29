@@ -1,16 +1,16 @@
 ---
 UID: NE:xamlom.ResourceType
 title: ResourceType
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines constants that specify the type of a resource in a resource dictionary.
 old-location: xaml_diagnostics\resourcetype.htm
 old-project: xaml_diagnostics
 ms.assetid: F491E78E-86AF-499F-A729-2D534FBA8460
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: ResourceType, ResourceType enumeration, ResourceTypeStatic, ResourceTypeTheme, xaml_diagnostics.resourcetype, xamlom/ResourceType, xamlom/ResourceTypeStatic, xamlom/ResourceTypeTheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: xamlom.h
 req.include-header: 

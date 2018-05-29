@@ -1,16 +1,16 @@
 ---
 UID: NN:bdatif.IBDA_TIF_REGISTRATION
 title: IBDA_TIF_REGISTRATION
-author: windows-driver-content
+author: windows-sdk-content
 description: The IBDA_TIF_REGISTRATION interface is exposed by the BDA Network Provider.
 old-location: mstv\ibda_tif_registration.htm
 old-project: mstv
 ms.assetid: 96c76a81-57c9-4c4b-a5f6-7b9862757847
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_TIF_REGISTRATION, IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies], IBDA_TIF_REGISTRATION interface [Microsoft TV Technologies],described, IBDA_TIF_REGISTRATIONInterface, bdatif/IBDA_TIF_REGISTRATION, mstv.ibda_tif_registration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdatif.h
 req.include-header: 

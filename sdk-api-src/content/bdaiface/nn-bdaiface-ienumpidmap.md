@@ -1,16 +1,16 @@
 ---
 UID: NN:bdaiface.IEnumPIDMap
 title: IEnumPIDMap
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumPIDMap interface enumerates a collection of Packet ID (PID) maps.
 old-location: dshow\ienumpidmap.htm
 old-project: DirectShow
 ms.assetid: d46010c4-0f16-4c97-ad10-16f7ac250390
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumPIDMap, IEnumPIDMap interface [DirectShow], IEnumPIDMap interface [DirectShow],described, IEnumPIDMapInterface, bdaiface/IEnumPIDMap, dshow.ienumpidmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

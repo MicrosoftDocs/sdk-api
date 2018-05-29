@@ -1,16 +1,16 @@
 ---
 UID: NF:eappapis.EapHostPeerGetResult
 title: EapHostPeerGetResult function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the authentication result for the specified EAP authentication session.
 old-location: eaphost\eaphostpeergetresult.htm
 old-project: EAPHost
 ms.assetid: e1f0fc05-d9cd-4a37-ba74-89ac9948a292
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerGetResult, EapHostPeerGetResult function [EAPHost], eaphost.eaphostpeergetresult, eappapis/EapHostPeerGetResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

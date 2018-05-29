@@ -1,16 +1,16 @@
 ---
 UID: NN:vdshwprv.IVdsHwProviderType2
 title: IVdsHwProviderType2
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is not implemented. Use IVdsHwProviderType instead.
 old-location: base\ivdshwprovidertype2.htm
 old-project: VDS
 ms.assetid: b75b455a-0b1e-49f4-9181-5cbbf1b5d98c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsHwProviderType2, IVdsHwProviderType2 interface, IVdsHwProviderType2 interface,described, base.ivdshwprovidertype2, vds/IVdsHwProviderType2, vdshwprv/IVdsHwProviderType2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

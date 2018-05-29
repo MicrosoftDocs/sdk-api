@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarI1FromUI4
 title: VarI1FromUI4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an unsigned long value to a char value.
 old-location: automat\vari1fromui4.htm
 old-project: automat
 ms.assetid: c95778a5-1bdf-443a-90a3-792004e54268
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarI1FromUI4, VarI1FromUI4 function [Automation], _oa96_VarI1FromUI4, automat.vari1fromui4, oleauto/VarI1FromUI4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

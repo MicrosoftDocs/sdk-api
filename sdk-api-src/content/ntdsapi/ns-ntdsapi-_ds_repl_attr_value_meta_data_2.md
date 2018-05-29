@@ -1,16 +1,16 @@
 ---
 UID: NS:ntdsapi._DS_REPL_ATTR_VALUE_META_DATA_2
 title: "_DS_REPL_ATTR_VALUE_META_DATA_2"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used with the DsReplicaGetInfo2 function to provide metadata for a collection of attribute values.
 old-location: ad\ds_repl_attr_value_meta_data_2.htm
 old-project: AD
 ms.assetid: 2022362a-e2f7-4cfd-a512-cfe29e5d439d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_REPL_ATTR_VALUE_META_DATA_2, DS_REPL_ATTR_VALUE_META_DATA_2 structure [Active Directory], _DS_REPL_ATTR_VALUE_META_DATA_2, ad.ds_repl_attr_value_meta_data_2, ntdsapi/DS_REPL_ATTR_VALUE_META_DATA_2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

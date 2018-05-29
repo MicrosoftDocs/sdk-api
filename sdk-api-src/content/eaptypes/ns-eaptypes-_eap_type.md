@@ -1,16 +1,16 @@
 ---
 UID: NS:eaptypes._EAP_TYPE
 title: "_EAP_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains type and vendor identification information for an EAP method.
 old-location: eaphost\eap_type.htm
 old-project: EAPHost
 ms.assetid: 383f1e11-2e40-45e6-8c55-a23d1b8eb71f
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EAP_TYPE, EAP_TYPE structure [EAPHost], _EAP_TYPE, eaphost.eap_type, eaptypes/EAP_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

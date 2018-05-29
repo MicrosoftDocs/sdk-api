@@ -1,16 +1,16 @@
 ---
 UID: NF:magnification.MagInitialize
 title: MagInitialize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and initializes the magnifier run-time objects.
 old-location: magapi\magapi_MagInitialize.htm
 old-project: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maginitialize.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: MagInitialize, MagInitialize function [Magnification API], magapi.magapi_MagInitialize, magapi_MagInitialize, magnification/MagInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: magnification.h
 req.include-header: 

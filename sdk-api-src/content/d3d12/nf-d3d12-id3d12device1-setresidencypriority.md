@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12Device1.SetResidencyPriority
 title: ID3D12Device1::SetResidencyPriority
-author: windows-driver-content
+author: windows-sdk-content
 description: This method sets residency priorities of a specified list of objects.
 old-location: direct3d12\id3d12device1_setresidencypriority.htm
 old-project: direct3d12
 ms.assetid: C489AA41-B2FC-418D-8268-9C02E5E10E0D
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12Device1 interface,SetResidencyPriority method, ID3D12Device1.SetResidencyPriority, ID3D12Device1::SetResidencyPriority, SetResidencyPriority, SetResidencyPriority method, SetResidencyPriority method,ID3D12Device1 interface, d3d12/ID3D12Device1::SetResidencyPriority, direct3d12.id3d12device1_setresidencypriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

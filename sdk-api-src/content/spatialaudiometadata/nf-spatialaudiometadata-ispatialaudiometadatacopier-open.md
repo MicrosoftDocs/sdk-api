@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataCopier.Open
 title: ISpatialAudioMetadataCopier::Open
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an ISpatialAudioMetadataItems object for copying.
 old-location: coreaudio\ispatialaudiometadatacopier_open.htm
 old-project: CoreAudio
 ms.assetid: F2D077EF-89B0-4BD6-85FB-F0AF63F1986D
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISpatialAudioMetadataCopier interface [Core Audio],Open method, ISpatialAudioMetadataCopier.Open, ISpatialAudioMetadataCopier::Open, Open, Open method [Core Audio], Open method [Core Audio],ISpatialAudioMetadataCopier interface, coreaudio.ispatialaudiometadatacopier_open, spatialaudiometadata/ISpatialAudioMetadataCopier::Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 

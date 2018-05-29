@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IPersist.GetClassID
 title: IPersist::GetClassID
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the class identifier (CLSID) of the object.
 old-location: com\ipersist_getclassid.htm
 old-project: com
 ms.assetid: 921a3b86-a240-454e-9411-8d653e02b90e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetClassID, GetClassID method [COM], GetClassID method [COM],IBaseFilter interface, GetClassID method [COM],IPersist interface, GetClassID method [COM],IPersistFolder interface, IBaseFilter interface [COM],GetClassID method, IBaseFilter::GetClassID, IPersist interface [COM],GetClassID method, IPersist.GetClassID, IPersist::GetClassID, IPersistFolder interface [COM],GetClassID method, IPersistFolder::GetClassID, _com_ipersist_getclassid, com.ipersist_getclassid, objidl/IBaseFilter::GetClassID, objidl/IPersist::GetClassID, objidl/IPersistFolder::GetClassID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

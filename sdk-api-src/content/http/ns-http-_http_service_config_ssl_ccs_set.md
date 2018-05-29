@@ -1,16 +1,16 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_CCS_SET
 title: "_HTTP_SERVICE_CONFIG_SSL_CCS_SET"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the SSL certificate record that specifies that Http.sys should consult the Centralized Certificate Store (CCS) store to find certificates if the port receives a Transport Layer Security (TLS) handshake.
 old-location: http\http_service_config_ssl_ccs_set.htm
 old-project: Http
 ms.assetid: BA815FB7-4A9F-4917-89E7-3CD108E1CEE3
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_CCS_SET, HTTP_SERVICE_CONFIG_SSL_CCS_SET, HTTP_SERVICE_CONFIG_SSL_CCS_SET structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_CCS_SET, PHTTP_SERVICE_CONFIG_SSL_CCS_SET structure pointer [HTTP], _HTTP_SERVICE_CONFIG_SSL_CCS_SET, http.http_service_config_ssl_ccs_set, http/HTTP_SERVICE_CONFIG_SSL_CCS_SET, http/PHTTP_SERVICE_CONFIG_SSL_CCS_SET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 

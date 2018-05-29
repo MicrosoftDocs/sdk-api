@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsProvider.GetProperties
 title: IVdsProvider::GetProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the properties of a provider.
 old-location: base\ivdsprovider_getproperties.htm
 old-project: VDS
 ms.assetid: a4cb18c5-2cda-4d0a-9be0-4a548ec2f6eb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsProvider interface, IVdsProvider interface [VDS],GetProperties method, IVdsProvider.GetProperties, IVdsProvider::GetProperties, base.ivdsprovider_getproperties, vds/IVdsProvider::GetProperties, vdshwprv/IVdsProvider::GetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

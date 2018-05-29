@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspen.Pen.GetBrush
 title: Pen::GetBrush
-author: windows-driver-content
+author: windows-sdk-content
 description: The Pen::GetBrush method gets the Brush object that is currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetBrush_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getbrush.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetBrush, GetBrush method [GDI+], GetBrush method [GDI+],Pen class, Pen class [GDI+],GetBrush method, Pen.GetBrush, Pen::GetBrush, _gdiplus_CLASS_Pen_GetBrush_, gdiplus._gdiplus_CLASS_Pen_GetBrush_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

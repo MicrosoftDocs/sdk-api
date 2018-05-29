@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService.SetFlags
 title: IBrowserService::SetFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Sets flags that indicate browser status.
 old-location: shell\IBrowserService_SetFlags.htm
 old-project: shell
 ms.assetid: 696d4350-95f9-4d69-bb4b-92f4c26b3f65
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: BSF_CANMAXIMIZE, BSF_DELEGATEDNAVIGATION, BSF_DONTSHOWNAVCANCELPAGE, BSF_FEEDNAVIGATION, BSF_FEEDSUBSCRIBED, BSF_HTMLNAVCANCELED, BSF_MERGEDMENUS, BSF_NAVNOHISTORY, BSF_NOLOCALFILEWARNING, BSF_REGISTERASDROPTARGET, BSF_RESIZABLE, BSF_SETNAVIGATABLECODEPAGE, BSF_THEATERMODE, BSF_TOPBROWSER, BSF_TRUSTEDFORACTIVEX, BSF_UISETBYAUTOMATION, IBrowserService interface [Windows Shell],SetFlags method, IBrowserService.SetFlags, IBrowserService::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetFlags, shell.IBrowserService_SetFlags, zone_IBrowserService_SetFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

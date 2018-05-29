@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.IsInBandEnabled
 title: IMFTimedText::IsInBandEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether inband mode is enabled.
 old-location: mf\imftimedtext_isinbandenabled.htm
 old-project: medfound
 ms.assetid: 21BBA2CE-6732-45BD-B5EC-7DBC4A3123E1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFTimedText interface [Media Foundation],IsInBandEnabled method, IMFTimedText.IsInBandEnabled, IMFTimedText::IsInBandEnabled, IsInBandEnabled, IsInBandEnabled method [Media Foundation], IsInBandEnabled method [Media Foundation],IMFTimedText interface, mf.imftimedtext_isinbandenabled, mfmediaengine/IMFTimedText::IsInBandEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

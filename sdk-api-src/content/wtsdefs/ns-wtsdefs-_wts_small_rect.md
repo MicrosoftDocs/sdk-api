@@ -1,16 +1,16 @@
 ---
 UID: NS:wtsdefs._WTS_SMALL_RECT
 title: "_WTS_SMALL_RECT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains client window coordinates.
 old-location: termserv\wts_small_rect.htm
 old-project: TermServ
 ms.assetid: 5f139077-8ef4-4c8e-ae33-0dd3aee58ef6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PWTS_SMALL_RECT, PWRDS_SMALL_RECT, PWRDS_SMALL_RECT structure pointer [Remote Desktop Services], PWTS_SMALL_RECT, PWTS_SMALL_RECT structure pointer [Remote Desktop Services], WRDS_SMALL_RECT, WRDS_SMALL_RECT structure [Remote Desktop Services], WTS_SMALL_RECT, WTS_SMALL_RECT structure [Remote Desktop Services], _WTS_SMALL_RECT, termserv.wts_small_rect, wtsdefs/PWRDS_SMALL_RECT, wtsdefs/PWTS_SMALL_RECT, wtsdefs/WRDS_SMALL_RECT, wtsdefs/WTS_SMALL_RECT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h

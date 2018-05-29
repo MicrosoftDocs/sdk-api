@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecpkg._LSA_TOKEN_INFORMATION_V1
 title: "_LSA_TOKEN_INFORMATION_V1"
-author: windows-driver-content
-description: Contains information an authentication package can place in a Version 1 Windows token object.
-old-location: security\lsa_token_information_v1.htm
+author: windows-sdk-content
+description: Contains information an authentication package can place in a Version 2 Windows token object and has superceded LSA_TOKEN_INFORMATION_V1.
+old-location: security\lsa_token_information_v2.htm
 old-project: SecAuthN
-ms.assetid: e4c43828-aa5c-443c-93ad-96bb986533c5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
-ms.keywords: "*PLSA_TOKEN_INFORMATION_V1, *PLSA_TOKEN_INFORMATION_V2, LSA_TOKEN_INFORMATION_V1, LSA_TOKEN_INFORMATION_V1 structure [Security], LSA_TOKEN_INFORMATION_V2, PLSA_TOKEN_INFORMATION_V1, PLSA_TOKEN_INFORMATION_V1 structure pointer [Security], _LSA_TOKEN_INFORMATION_V1, _lsa_lsa_token_information_v1, ntsecpkg/LSA_TOKEN_INFORMATION_V1, ntsecpkg/PLSA_TOKEN_INFORMATION_V1, security.lsa_token_information_v1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.assetid: 6BEDAC01-99DA-4EE5-9667-A11E00BE7A30
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: "*PLSA_TOKEN_INFORMATION_V1, *PLSA_TOKEN_INFORMATION_V2, LSA_TOKEN_INFORMATION_V1, LSA_TOKEN_INFORMATION_V2, LSA_TOKEN_INFORMATION_V2 structure [Security], PLSA_TOKEN_INFORMATION_V2, PLSA_TOKEN_INFORMATION_V2 structure pointer [Security], _LSA_TOKEN_INFORMATION_V1, ntsecpkg/LSA_TOKEN_INFORMATION_V2, ntsecpkg/PLSA_TOKEN_INFORMATION_V2, security.lsa_token_information_v2"
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 
@@ -35,7 +35,7 @@ api_type:
 api_location:
 -	Ntsecpkg.h
 api_name:
--	LSA_TOKEN_INFORMATION_V1
+-	LSA_TOKEN_INFORMATION_V2
 product: Windows
 targetos: Windows
 req.lib: 
@@ -50,11 +50,11 @@ req.product: Rights Management Services client 1.0 or later
 ## -description
 
 
-The <b>LSA_TOKEN_INFORMATION_V1</b> structure contains information an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">authentication package</a> can place in a Version 1 Windows token object.
+The <b>LSA_TOKEN_INFORMATION_V2</b> structure contains information an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">authentication package</a> can place in a Version 2 Windows token object and has superceded <a href="https://msdn.microsoft.com/e4c43828-aa5c-443c-93ad-96bb986533c5">LSA_TOKEN_INFORMATION_V1</a>.
 
-The version 1 token information has been superceded by <a href="https://msdn.microsoft.com/6BEDAC01-99DA-4EE5-9667-A11E00BE7A30">LSA_TOKEN_INFORMATION_V2</a> and <a href="https://msdn.microsoft.com/927828CD-9763-4CE4-B3E7-376181EA7C70">LSA_TOKEN_INFORMATION_V3</a> structures.
+The version 2 token information is used in most logons. The structure is identical to the <a href="https://msdn.microsoft.com/e4c43828-aa5c-443c-93ad-96bb986533c5">LSA_TOKEN_INFORMATION_V1</a> structure, with the exception that the memory allocation is handled differently. The <b>LSA_TOKEN_INFORMATION_V2</b> structure is intended to be allocated monolithically with the privileges, DACL, SIDs, and group array either part of the same allocation, or allocated and freed externally.
 
-A Version 1 Windows token object stores all the information needed to build a token from the authentication package to the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA). The LSA passes this information into the kernel to create a token object and to return a handle to that token object to the caller of <a href="https://msdn.microsoft.com/75968d53-5af2-4d77-9486-26403b73c954">LsaLogonUser</a>.
+A Version 2 Windows token object stores all the information needed to build a token from the authentication package to the <a href="https://msdn.microsoft.com/65dd9a04-fc7c-4179-95ff-dac7dad4668f">Local Security Authority</a> (LSA). The LSA passes this information into the kernel to create a token object and to return a handle to that token object to the caller of <a href="https://msdn.microsoft.com/75968d53-5af2-4d77-9486-26403b73c954">LsaLogonUser</a>.
 
 
 ## -struct-fields

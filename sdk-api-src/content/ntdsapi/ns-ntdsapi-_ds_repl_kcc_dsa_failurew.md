@@ -1,16 +1,16 @@
 ---
 UID: NS:ntdsapi._DS_REPL_KCC_DSA_FAILUREW
 title: "_DS_REPL_KCC_DSA_FAILUREW"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DS_REPL_KCC_DSA_FAILURE structure contains replication state data about a specific inbound replication partner, as returned by the DsReplicaGetInfo and DsReplicaGetInfo2 function.
 old-location: ad\ds_repl_kcc_dsa_failure.htm
 old-project: AD
 ms.assetid: 7a7131ce-a647-4b3d-a9f3-091b6dcebff7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, DS_REPL_INFO_KCC_DSA_LINK_FAILURES, DS_REPL_KCC_DSA_FAILURE, DS_REPL_KCC_DSA_FAILURE structure [Active Directory], DS_REPL_KCC_DSA_FAILUREW, DS_REPL_KCC_DSA_FAILUREW structure [Active Directory], _DS_REPL_KCC_DSA_FAILUREW, _glines_ds_repl_kcc_dsa_failure, ad.ds__repl__kcc__dsa__failure, ad.ds_repl_kcc_dsa_failure, ntdsapi/DS_REPL_KCC_DSA_FAILURE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

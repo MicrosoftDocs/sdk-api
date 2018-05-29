@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITPhoneEvent
 title: ITPhoneEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITPhoneEvent interface contains methods that retrieve the description of phone events that have occurred.
 old-location: tapi3\itphoneevent.htm
 old-project: Tapi
 ms.assetid: cc3ca533-d523-4889-b3c7-bb306e49b85b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPhoneEvent, ITPhoneEvent interface [TAPI 2.2], ITPhoneEvent interface [TAPI 2.2],described, _tapi3_itphoneevent, tapi3.itphoneevent, tapi3if/ITPhoneEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

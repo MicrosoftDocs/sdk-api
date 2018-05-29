@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.htond
 title: htond function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a double from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htond.htm
 old-project: WinSock
 ms.assetid: DEC42B75-F637-4CD5-B42F-4F59D1516BB9
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: htond, htond function [Winsock], winsock.htond, winsock2/htond
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

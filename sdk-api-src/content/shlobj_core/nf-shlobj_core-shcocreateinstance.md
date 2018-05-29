@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHCoCreateInstance
 title: SHCoCreateInstance function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHCoCreateInstance may be altered or unavailable. Instead, use CoCreateInstance.
 old-location: shell\SHCoCreateInstance.htm
 old-project: shell
 ms.assetid: 334fc581-29b2-4576-94ec-7dd3d6e0020b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCoCreateInstance, SHCoCreateInstance function [Windows Shell], _win32_SHCoCreateInstance, shell.SHCoCreateInstance, shlobj_core/SHCoCreateInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

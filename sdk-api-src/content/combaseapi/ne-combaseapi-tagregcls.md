@@ -1,16 +1,16 @@
 ---
 UID: NE:combaseapi.tagREGCLS
 title: tagREGCLS
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls the type of connections to a class object.
 old-location: com\regcls.htm
 old-project: com
 ms.assetid: 16bca8e0-9999-4d51-b7f0-87deb7619d89
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: REGCLS, REGCLS enumeration [COM], REGCLS_MULTIPLEUSE, REGCLS_MULTI_SEPARATE, REGCLS_SINGLEUSE, REGCLS_SURROGATE, REGCLS_SUSPENDED, _com_REGCLS, com.regcls, combaseapi/REGCLS, combaseapi/REGCLS_MULTIPLEUSE, combaseapi/REGCLS_MULTI_SEPARATE, combaseapi/REGCLS_SINGLEUSE, combaseapi/REGCLS_SURROGATE, combaseapi/REGCLS_SUSPENDED, tagREGCLS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: combaseapi.h
 req.include-header: Objbase.h

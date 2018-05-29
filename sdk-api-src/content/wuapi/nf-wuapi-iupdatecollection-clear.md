@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Clear
 title: IUpdateCollection::Clear
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all the elements from the collection.
 old-location: wua\iupdatecollection_clear.htm
 old-project: Wua_Sdk
 ms.assetid: 53b30472-ae1b-4d29-a411-25f03e515996
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Clear, Clear method [Windows Update Agent], Clear method [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Clear method, IUpdateCollection.Clear, IUpdateCollection::Clear, wua.iupdatecollection_clear, wuapi/IUpdateCollection::Clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

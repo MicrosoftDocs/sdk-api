@@ -1,16 +1,16 @@
 ---
 UID: NF:roapi.RoUninitialize
 title: RoUninitialize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the Windows Runtime on the current thread.
 old-location: winrt\rouninitialize.htm
 old-project: WinRT
 ms.assetid: 0F910E71-BA44-44A6-8432-52A4E38854F9
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoUninitialize, RoUninitialize function [Windows Runtime], WinRTUninitialize, roapi/RoUninitialize, roapi/WinRTUninitialize, winrt.rouninitialize, winrt.winrtuninitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roapi.h
 req.include-header: 

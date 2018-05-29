@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_READER_ENCODING
 title: "_WS_XML_READER_ENCODING"
-author: windows-driver-content
+author: windows-sdk-content
 description: This structure is the base type for all the different kinds of reader encodings.
 old-location: wsw\ws_xml_reader_encoding.htm
 old-project: wsw
 ms.assetid: 54d9683e-c2d1-4e18-92a2-a68558999e28
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_READER_ENCODING, WS_XML_READER_ENCODING structure [Web Services for Windows], _WS_XML_READER_ENCODING, webservices/WS_XML_READER_ENCODING, wsw.ws_xml_reader_encoding
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

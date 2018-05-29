@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceEnumerator.Clone
 title: IOpcSignatureRelationshipReferenceEnumerator::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of the current IOpcSignatureRelationshipReferenceEnumerator interface pointer and all its descendants.
 old-location: opc\iopcsignaturerelationshipreferenceenumerator_clone.htm
 old-project: OPC
 ms.assetid: 2a48818c-fc8f-4f4b-bb45-12728f7fea7d
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceEnumerator interface, IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions],Clone method, IOpcSignatureRelationshipReferenceEnumerator.Clone, IOpcSignatureRelationshipReferenceEnumerator::Clone, msopc/IOpcSignatureRelationshipReferenceEnumerator::Clone, opc.iopcsignaturerelationshipreferenceenumerator_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

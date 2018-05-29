@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.AccessibleObjectFromEvent
 title: AccessibleObjectFromEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the address of the IAccessible interface for the object that generated the event that is currently being processed by the client's event hook function.
 old-location: winauto\accessibleobjectfromevent.htm
 old-project: WinAuto
 ms.assetid: d453c163-3918-4a1c-9636-16816227a295
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: AccessibleObjectFromEvent, AccessibleObjectFromEvent function [Windows Accessibility], _msaa_AccessibleObjectFromEvent, msaa.accessibleobjectfromevent, oleacc/AccessibleObjectFromEvent, winauto.accessibleobjectfromevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 

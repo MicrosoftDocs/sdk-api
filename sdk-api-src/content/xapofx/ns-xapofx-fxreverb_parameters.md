@@ -1,16 +1,16 @@
 ---
 UID: NS:xapofx.FXREVERB_PARAMETERS
 title: FXREVERB_PARAMETERS
-author: windows-driver-content
+author: windows-sdk-content
 description: Parameters for use with the FXReverb XAPO.
 old-location: xaudio2\fxreverb_parameters.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXREVERB_PARAMETERS
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: FXREVERB_PARAMETERS, FXREVERB_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXREVERB_PARAMETERS, xaudio2.fxreverb_parameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xapofx.h
 req.include-header: 

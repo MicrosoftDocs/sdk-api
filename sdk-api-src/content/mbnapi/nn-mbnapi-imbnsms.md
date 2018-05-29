@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnSms
 title: IMbnSms
-author: windows-driver-content
+author: windows-sdk-content
 description: SMS interface for sending and receiving messages as well as controlling the messaging configuration.
 old-location: mbn\imbnsms.htm
 old-project: mbn
 ms.assetid: 4a5fae5a-91d5-4a94-ac54-cb641147e8dc
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnSms, IMbnSms interface [Microsoft Broadband Networks], IMbnSms interface [Microsoft Broadband Networks],described, mbn.imbnsms, mbnapi/IMbnSms
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

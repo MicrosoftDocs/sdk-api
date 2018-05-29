@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHHandleUpdateImage
 title: SHHandleUpdateImage function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHHandleUpdateImage may be altered or unavailable.
 old-location: shell\SHHandleUpdateImage.htm
 old-project: shell
 ms.assetid: 9d43e28a-bce0-4da4-98c9-5a6a199b4d8e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHHandleUpdateImage, SHHandleUpdateImage function [Windows Shell], _win32_SHHandleUpdateImage, shell.SHHandleUpdateImage, shlobj_core/SHHandleUpdateImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

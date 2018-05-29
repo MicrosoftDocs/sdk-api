@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSampleGrabberSinkCallback2.OnProcessSampleEx
 title: IMFSampleGrabberSinkCallback2::OnProcessSampleEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the sample-grabber sink receives a new media sample.
 old-location: mf\imfsamplegrabbersinkcallback2_onprocesssampleex.htm
 old-project: medfound
 ms.assetid: dc880967-ac97-4835-bbc9-1bd664e42739
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSampleGrabberSinkCallback2 interface [Media Foundation],OnProcessSampleEx method, IMFSampleGrabberSinkCallback2.OnProcessSampleEx, IMFSampleGrabberSinkCallback2::OnProcessSampleEx, OnProcessSampleEx, OnProcessSampleEx method [Media Foundation], OnProcessSampleEx method [Media Foundation],IMFSampleGrabberSinkCallback2 interface, mf.imfsamplegrabbersinkcallback2_onprocesssampleex, mfidl/IMFSampleGrabberSinkCallback2::OnProcessSampleEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

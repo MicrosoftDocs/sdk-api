@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemeFilename
 title: GetThemeFilename function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of a filename property.
 old-location: controls\GetThemeFilename.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemefilename.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemeFilename, GetThemeFilename function [Windows Controls], controls.GetThemeFilename, controls.inet_GetThemeFilename, inet_GetThemeFilename, inet_GetThemeFilename_cpp, uxtheme/GetThemeFilename
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

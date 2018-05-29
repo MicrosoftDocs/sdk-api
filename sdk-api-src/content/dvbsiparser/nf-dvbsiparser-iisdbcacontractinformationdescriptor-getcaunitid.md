@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetCAUnitId
 title: IIsdbCAContractInformationDescriptor::GetCAUnitId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of the CA_unit_id field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field identifies the billing or nonbilling unit to which the component belongs.
 old-location: mstv\iisdbcacontractinformationdescriptor_getcaunitid.htm
 old-project: mstv
 ms.assetid: 1e50f417-6403-499a-944c-2926a18dada1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCAUnitId, GetCAUnitId method [Microsoft TV Technologies], GetCAUnitId method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetCAUnitId method, IIsdbCAContractInformationDescriptor.GetCAUnitId, IIsdbCAContractInformationDescriptor::GetCAUnitId, dvbsiparser/IIsdbCAContractInformationDescriptor::GetCAUnitId, mstv.iisdbcacontractinformationdescriptor_getcaunitid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

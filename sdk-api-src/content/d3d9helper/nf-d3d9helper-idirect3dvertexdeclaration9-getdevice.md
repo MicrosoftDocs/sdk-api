@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DVertexDeclaration9.GetDevice
 title: IDirect3DVertexDeclaration9::GetDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current device.
 old-location: direct3d9\idirect3dvertexdeclaration9__getdevice.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexdeclaration9__getdevice.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 06ae2ca9-697f-c95d-8f0b-7e78f6bb21dd, GetDevice, GetDevice method [Direct3D 9], GetDevice method [Direct3D 9],IDirect3DVertexDeclaration9 interface, IDirect3DVertexDeclaration9 interface [Direct3D 9],GetDevice method, IDirect3DVertexDeclaration9.GetDevice, IDirect3DVertexDeclaration9::GetDevice, d3d9helper/IDirect3DVertexDeclaration9::GetDevice, direct3d9.idirect3dvertexdeclaration9__getdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

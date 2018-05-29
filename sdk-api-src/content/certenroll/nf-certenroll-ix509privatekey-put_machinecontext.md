@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_MachineContext
 title: IX509PrivateKey::put_MachineContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies or retrieves a Boolean value that identifies the local certificate store context.
 old-location: security\ix509privatekey_machinecontext_property.htm
 old-project: SecCertEnroll
 ms.assetid: bdc3278e-3b5a-4ad0-9e9b-9639a2db4040
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509PrivateKey interface [Security],MachineContext property, IX509PrivateKey.MachineContext, IX509PrivateKey.put_MachineContext, IX509PrivateKey::MachineContext, IX509PrivateKey::get_MachineContext, IX509PrivateKey::put_MachineContext, MachineContext property [Security], MachineContext property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::MachineContext, certenroll/IX509PrivateKey::get_MachineContext, certenroll/IX509PrivateKey::put_MachineContext, put_MachineContext, security.ix509privatekey_machinecontext_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

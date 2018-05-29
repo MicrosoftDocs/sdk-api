@@ -1,16 +1,16 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_SYNC_OPERATION
 title: tagOFFLINEFILES_SYNC_OPERATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the type of sync operation that was being performed when a sync error was encountered.
 old-location: of\offlinefiles_sync_operation.htm
 old-project: OfflineFiles
 ms.assetid: d32db35c-4789-49e6-8c15-15d44eac95cf
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: OFFLINEFILES_SYNC_OPERATION, OFFLINEFILES_SYNC_OPERATION enumeration [Offline Files], OFFLINEFILES_SYNC_OPERATION_CREATE_COPY_ON_CLIENT, OFFLINEFILES_SYNC_OPERATION_CREATE_COPY_ON_SERVER, OFFLINEFILES_SYNC_OPERATION_DELETE_CLIENT_COPY, OFFLINEFILES_SYNC_OPERATION_DELETE_SERVER_COPY, OFFLINEFILES_SYNC_OPERATION_PIN, OFFLINEFILES_SYNC_OPERATION_PREPARE, OFFLINEFILES_SYNC_OPERATION_SYNC_TO_CLIENT, OFFLINEFILES_SYNC_OPERATION_SYNC_TO_SERVER, cscobj/OFFLINEFILES_SYNC_OPERATION, cscobj/OFFLINEFILES_SYNC_OPERATION_CREATE_COPY_ON_CLIENT, cscobj/OFFLINEFILES_SYNC_OPERATION_CREATE_COPY_ON_SERVER, cscobj/OFFLINEFILES_SYNC_OPERATION_DELETE_CLIENT_COPY, cscobj/OFFLINEFILES_SYNC_OPERATION_DELETE_SERVER_COPY, cscobj/OFFLINEFILES_SYNC_OPERATION_PIN, cscobj/OFFLINEFILES_SYNC_OPERATION_PREPARE, cscobj/OFFLINEFILES_SYNC_OPERATION_SYNC_TO_CLIENT, cscobj/OFFLINEFILES_SYNC_OPERATION_SYNC_TO_SERVER, of.offlinefiles_sync_operation, tagOFFLINEFILES_SYNC_OPERATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: cscobj.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winfax.FaxSetJobA
 title: FaxSetJobA function
-author: windows-driver-content
+author: windows-sdk-content
 description: A fax client application calls the FaxSetJob function to pause, resume, cancel, or restart a specified fax job.
 old-location: fax\_mfax_faxsetjob.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4pwi.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxSetJob, FaxSetJob function [Fax Service], FaxSetJobA, FaxSetJobW, JC_DELETE, JC_PAUSE, JC_RESTART, JC_RESUME, _mfax_faxsetjob, fax._mfax_faxsetjob, winfax/FaxSetJob, winfax/FaxSetJobA, winfax/FaxSetJobW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

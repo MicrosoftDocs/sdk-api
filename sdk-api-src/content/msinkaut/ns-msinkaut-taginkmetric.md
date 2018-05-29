@@ -1,16 +1,16 @@
 ---
 UID: NS:msinkaut.tagINKMETRIC
 title: tagINKMETRIC
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies display properties for a text ink object (tInk).
 old-location: tablet\inkmetric.htm
 old-project: tablet
 ms.assetid: 27d56034-725d-4b05-9c43-6b3180d7411b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PINKMETRIC, 27d56034-725d-4b05-9c43-6b3180d7411b, IMF_BOLD, IMF_FONT_SELECTED_IN_HDC, IMF_ITALIC, INKMETRIC, INKMETRIC structure [Tablet PC], PINKMETRIC, PINKMETRIC structure pointer [Tablet PC], msinkaut/INKMETRIC, msinkaut/PINKMETRIC, tablet.inkmetric, tagINKMETRIC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msinkaut.h
 req.include-header: 

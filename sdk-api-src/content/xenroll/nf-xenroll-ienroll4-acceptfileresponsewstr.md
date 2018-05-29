@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll4.acceptFileResponseWStr
 title: IEnroll4::acceptFileResponseWStr
-author: windows-driver-content
+author: windows-sdk-content
 description: Accepts delivery of the credentials issued in response to an earlier call to createFileRequestWStr, and it places the credentials in the appropriate store.
 old-location: security\ienroll4_acceptfileresponsewstr.htm
 old-project: SecCrypto
 ms.assetid: b9c92f20-5f23-4dda-9e80-df9bf400ac08
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnroll4 interface [Security],acceptFileResponseWStr method, IEnroll4.acceptFileResponseWStr, IEnroll4::acceptFileResponseWStr, acceptFileResponseWStr, acceptFileResponseWStr method [Security], acceptFileResponseWStr method [Security],IEnroll4 interface, security.ienroll4_acceptfileresponsewstr, xenroll/IEnroll4::acceptFileResponseWStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

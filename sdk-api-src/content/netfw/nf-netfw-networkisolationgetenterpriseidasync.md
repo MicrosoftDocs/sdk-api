@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.NetworkIsolationGetEnterpriseIdAsync
 title: NetworkIsolationGetEnterpriseIdAsync function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the Enterprise ID for Enterprise Data Protection Server endpoints.
 old-location: ics\networkisolationgetenterpriseidasync.htm
 old-project: ICS
 ms.assetid: 709211F9-FE7A-4C43-AD35-101C4B64ED26
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: NetworkIsolationGetEnterpriseIdAsync, NetworkIsolationGetEnterpriseIdAsync function [ICS/ICF], ics.networkisolationgetenterpriseidasync, netfw/NetworkIsolationGetEnterpriseIdAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.GetVideoDecoderService
 title: IDirectXVideoDecoder::GetVideoDecoderService
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the DirectX Video Acceleration (DXVA) decoder service that created this decoder device.
 old-location: mf\idirectxvideodecoder_getvideodecoderservice.htm
 old-project: medfound
 ms.assetid: 092c49cd-6bfc-4ed0-9378-5751ad19296c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 092c49cd-6bfc-4ed0-9378-5751ad19296c, GetVideoDecoderService, GetVideoDecoderService method [Media Foundation], GetVideoDecoderService method [Media Foundation],IDirectXVideoDecoder interface, IDirectXVideoDecoder interface [Media Foundation],GetVideoDecoderService method, IDirectXVideoDecoder.GetVideoDecoderService, IDirectXVideoDecoder::GetVideoDecoderService, dxva2api/IDirectXVideoDecoder::GetVideoDecoderService, mf.idirectxvideodecoder_getvideodecoderservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 

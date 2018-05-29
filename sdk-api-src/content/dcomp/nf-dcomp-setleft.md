@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetLeft
 title: SetLeft function
-author: windows-driver-content
+author: windows-sdk-content
 description: Animates or changes the value of the Left property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_setleft_overloaded.htm
 old-project: directcomp
 ms.assetid: A8E2C2A3-6146-486F-8FF4-05097BFE9222
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionRectangleClip::SetLeft, SetLeft, SetLeft methods [DirectComposition], dcomp/SetLeft, directcomp.idcompositionrectangleclip_setleft_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

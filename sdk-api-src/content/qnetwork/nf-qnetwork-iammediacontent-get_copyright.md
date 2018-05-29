@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_Copyright
 title: IAMMediaContent::get_Copyright
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Copyright method retrieves copyright information.
 old-location: dshow\iammediacontent_get_copyright.htm
 old-project: DirectShow
 ms.assetid: f63dc869-6b95-4923-80a6-22b5d8b81fa0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Copyright method, IAMMediaContent.get_Copyright, IAMMediaContent::get_Copyright, IAMMediaContentget_Copyright, dshow.iammediacontent_get_copyright, get_Copyright, get_Copyright method [DirectShow], get_Copyright method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Copyright
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ksopmapi._OPM_GET_INFO_PARAMETERS
 title: "_OPM_GET_INFO_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains parameters for the IOPMVideoOutput::GetInformation method.
 old-location: mf\opm_get_info_parameters.htm
 old-project: medfound
 ms.assetid: 8959c7d1-9a78-497f-8841-d3e61e9db6a3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OPM_GET_INFO_PARAMETERS, OPM_GET_INFO_PARAMETERS structure [Media Foundation], _OPM_GET_INFO_PARAMETERS, ksopmapi/OPM_GET_INFO_PARAMETERS, mf.opm_get_info_parameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ksopmapi.h
 req.include-header: Opmapi.h

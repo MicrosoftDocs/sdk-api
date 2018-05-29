@@ -1,16 +1,16 @@
 ---
 UID: NF:micaut.IMathInputControl.SetPreviewHeight
 title: IMathInputControl::SetPreviewHeight
-author: windows-driver-content
+author: windows-sdk-content
 description: Modifies the preview-area height in pixels.
 old-location: tablet\imathinputcontrol_setpreviewheight.htm
 old-project: tablet
 ms.assetid: a5e011f6-cd51-4016-ba15-c47c152bfa99
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetPreviewHeight method, IMathInputControl.SetPreviewHeight, IMathInputControl::SetPreviewHeight, SetPreviewHeight, SetPreviewHeight method [Tablet PC], SetPreviewHeight method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetPreviewHeight, tablet.imathinputcontrol_setpreviewheight
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

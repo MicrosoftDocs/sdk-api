@@ -1,16 +1,16 @@
 ---
 UID: NF:wdspxe.PxeProviderSetAttribute
 title: PxeProviderSetAttribute function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies attributes for the provider.
 old-location: wds\pxeprovidersetattribute.htm
 old-project: Wds
 ms.assetid: 01f7b50b-966b-4ff9-b933-851eaf1f1411
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: PXE_PROV_ATTR_FILTER, PXE_PROV_ATTR_FILTER_IPV6, PXE_PROV_ATTR_IPV6_CAPABLE, PXE_PROV_FILTER_ALL, PXE_PROV_FILTER_DHCP_ONLY, PXE_PROV_FILTER_PXE_ONLY, PxeProviderSetAttribute, PxeProviderSetAttribute function [Windows Deployment Services], wds.pxeprovidersetattribute, wdspxe/PxeProviderSetAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

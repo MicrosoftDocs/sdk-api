@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont2.SetDuplicate2
 title: ITextFont2::SetDuplicate2
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the properties of this object by copying the properties of another text font object.
 old-location: controls\itextfont2_setduplicate2.htm
 old-project: Controls
 ms.assetid: aaaafed9-be20-40a2-beed-09703970452f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetDuplicate2 method, ITextFont2.SetDuplicate2, ITextFont2::SetDuplicate2, SetDuplicate2, SetDuplicate2 method [Windows Controls], SetDuplicate2 method [Windows Controls],ITextFont2 interface, controls.itextfont2_setduplicate2, tom/ITextFont2::SetDuplicate2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IPerPropertyBrowsing.GetPredefinedStrings
 title: IPerPropertyBrowsing::GetPredefinedStrings
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an array description strings for the allowable values that the specified property can accept.
 old-location: com\iperpropertybrowsing_getpredefinedstrings.htm
 old-project: com
 ms.assetid: 1b20585f-2bcd-475e-abee-80158692ae0f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPredefinedStrings, GetPredefinedStrings method [COM], GetPredefinedStrings method [COM],IPerPropertyBrowsing interface, IPerPropertyBrowsing interface [COM],GetPredefinedStrings method, IPerPropertyBrowsing.GetPredefinedStrings, IPerPropertyBrowsing::GetPredefinedStrings, _ctrl_iperpropertybrowsing_getpredefinedstrings, com.iperpropertybrowsing_getpredefinedstrings, ocidl/IPerPropertyBrowsing::GetPredefinedStrings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

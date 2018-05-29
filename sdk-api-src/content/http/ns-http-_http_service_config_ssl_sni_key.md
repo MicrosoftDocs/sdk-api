@@ -1,16 +1,16 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_SNI_KEY
 title: "_HTTP_SERVICE_CONFIG_SSL_SNI_KEY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Serves as the key by which a given Secure Sockets Layer (SSL) Server Name Indication (SNI) certificate record is identified in the SSL SNI store.
 old-location: http\http_service_config_ssl_sni_key.htm
 old-project: Http
 ms.assetid: 0EABB454-B4B9-4912-8E81-7930164B12F2
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_SSL_SNI_KEY, HTTP_SERVICE_CONFIG_SSL_SNI_KEY, HTTP_SERVICE_CONFIG_SSL_SNI_KEY structure [HTTP], PHTTP_SERVICE_CONFIG_SSL_SNI_KEY, PHTTP_SERVICE_CONFIG_SSL_SNI_KEY structure pointer [HTTP], _HTTP_SERVICE_CONFIG_SSL_SNI_KEY, http.http_service_config_ssl_sni_key, http/HTTP_SERVICE_CONFIG_SSL_SNI_KEY, http/PHTTP_SERVICE_CONFIG_SSL_SNI_KEY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 

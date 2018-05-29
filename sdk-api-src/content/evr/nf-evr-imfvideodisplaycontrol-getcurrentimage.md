@@ -1,16 +1,16 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetCurrentImage
 title: IMFVideoDisplayControl::GetCurrentImage
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a copy of the current image being displayed by the video renderer.
 old-location: mf\imfvideodisplaycontrol_getcurrentimage.htm
 old-project: medfound
 ms.assetid: 25ec4c23-04dd-4e18-9cc1-de9e57271e8f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 25ec4c23-04dd-4e18-9cc1-de9e57271e8f, GetCurrentImage, GetCurrentImage method [Media Foundation], GetCurrentImage method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetCurrentImage method, IMFVideoDisplayControl.GetCurrentImage, IMFVideoDisplayControl::GetCurrentImage, evr/IMFVideoDisplayControl::GetCurrentImage, mf.imfvideodisplaycontrol_getcurrentimage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: evr.h
 req.include-header: 

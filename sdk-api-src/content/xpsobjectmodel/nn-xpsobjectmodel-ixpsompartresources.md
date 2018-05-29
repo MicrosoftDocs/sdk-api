@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPartResources
 title: IXpsOMPartResources
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to all shared, part-based resources of the XPS document.
 old-location: xps\ixpsompartresources.htm
 old-project: printdocs
 ms.assetid: 9f706f23-25a0-40ee-93f4-3d7ac98ad6ed
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPartResources, IXpsOMPartResources interface [XPS Documents and Packaging], IXpsOMPartResources interface [XPS Documents and Packaging],described, xps.ixpsompartresources, xpsobjectmodel/IXpsOMPartResources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CloseFigure
 title: CloseFigure function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CloseFigure function closes an open figure in a path.
 old-location: gdi\closefigure.htm
 old-project: gdi
 ms.assetid: 2532227c-35c9-4a46-b4eb-4a156ef28219
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CloseFigure, CloseFigure function [Windows GDI], _win32_CloseFigure, gdi.closefigure, wingdi/CloseFigure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

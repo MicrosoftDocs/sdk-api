@@ -1,16 +1,16 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetErrorCount
 title: IBackgroundCopyJob::GetErrorCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of times BITS tried to transfer the job and an error occurred.
 old-location: bits\ibackgroundcopyjob_geterrorcount.htm
 old-project: Bits
 ms.assetid: 04ca4752-8c4d-4f54-9dfa-3c9f567d7980
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetErrorCount, GetErrorCount method [BITS], GetErrorCount method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetErrorCount method, IBackgroundCopyJob.GetErrorCount, IBackgroundCopyJob::GetErrorCount, _drz_ibackgroundcopyjob_geterrorcount, bits.ibackgroundcopyjob_geterrorcount, bits/IBackgroundCopyJob::GetErrorCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 

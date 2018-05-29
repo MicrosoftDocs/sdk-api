@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._MSV1_0_INTERACTIVE_LOGON
 title: "_MSV1_0_INTERACTIVE_LOGON"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an interactive logon.
 old-location: security\msv1_0_interactive_logon.htm
 old-project: SecAuthN
 ms.assetid: f9b9a966-54b9-4f89-98cc-d92e3f74571d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PMSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_LOGON structure [Security], _MSV1_0_INTERACTIVE_LOGON, _lsa_msv1_0_interactive_logon, ntsecapi/MSV1_0_INTERACTIVE_LOGON, security.msv1_0_interactive_logon"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:icontact.IContactProperties.GetLabels
 title: IContactProperties::GetLabels
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the labels for a specified array element name.
 old-location: wincontacts\_wincontacts_IContactProperties_GetLabels.htm
 old-project: wincontacts
 ms.assetid: c639a30b-3778-4ed9-b175-60b4a7ba9748
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetLabels, GetLabels method [Windows Contacts], GetLabels method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetLabels method, IContactProperties.GetLabels, IContactProperties::GetLabels, _wincontacts_IContactProperties_GetLabels, icontact/IContactProperties::GetLabels, wincontacts._wincontacts_IContactProperties_GetLabels
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

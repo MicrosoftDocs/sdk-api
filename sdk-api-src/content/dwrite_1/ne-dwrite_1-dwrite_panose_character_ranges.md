@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_CHARACTER_RANGES
 title: DWRITE_PANOSE_CHARACTER_RANGES
-author: windows-driver-content
+author: windows-sdk-content
 description: The DWRITE_PANOSE_CHARACTER_RANGES enumeration contains values that specify the type of characters available in the font.
 old-location: directwrite\dwrite_panose_character_ranges.htm
 old-project: DirectWrite
 ms.assetid: A50F0296-D977-47C5-9E41-9567980B16A6
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_PANOSE_CHARACTER_RANGES, DWRITE_PANOSE_CHARACTER_RANGES enumeration [Direct Write], DWRITE_PANOSE_CHARACTER_RANGES_ANY, DWRITE_PANOSE_CHARACTER_RANGES_EXTENDED_COLLECTION, DWRITE_PANOSE_CHARACTER_RANGES_LITERALS, DWRITE_PANOSE_CHARACTER_RANGES_NO_FIT, DWRITE_PANOSE_CHARACTER_RANGES_NO_LOWER_CASE, DWRITE_PANOSE_CHARACTER_RANGES_SMALL_CAPS, directwrite.dwrite_panose_character_ranges, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_ANY, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_EXTENDED_COLLECTION, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_LITERALS, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_NO_FIT, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_NO_LOWER_CASE, dwrite_1/DWRITE_PANOSE_CHARACTER_RANGES_SMALL_CAPS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_1.h
 req.include-header: 

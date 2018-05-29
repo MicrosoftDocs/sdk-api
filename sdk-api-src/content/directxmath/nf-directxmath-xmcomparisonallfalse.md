@@ -1,16 +1,16 @@
 ---
 UID: NF:directxmath.XMComparisonAllFalse
 title: XMComparisonAllFalse function
-author: windows-driver-content
+author: windows-sdk-content
 description: Tests the comparison value to determine if all of the compared components are false.
 old-location: dxmath\xmcomparisonallfalse.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonAllFalse(uint32_t)
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: Use DirectX..XMComparisonAllFalse, XMComparisonAllFalse, XMComparisonAllFalse method [DirectX Math Support APIs], dxmath.xmcomparisonallfalse
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

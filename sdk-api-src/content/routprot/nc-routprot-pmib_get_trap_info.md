@@ -1,16 +1,16 @@
 ---
 UID: NC:routprot.PMIB_GET_TRAP_INFO
 title: PMIB_GET_TRAP_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The MibGetTrapInfo function queries the module that set a trap event for more information about the trap.
 old-location: rras\mibgettrapinfo.htm
 old-project: RRAS
 ms.assetid: 2eb77b83-27bb-414b-8fbf-519d5e0cb08a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MibGetTrapInfo, MibGetTrapInfo callback function [RAS], PMIB_GET_TRAP_INFO, PMIB_GET_TRAP_INFO callback, _mpr_mibgettrapinfo, routprot/MibGetTrapInfo, rras.mibgettrapinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

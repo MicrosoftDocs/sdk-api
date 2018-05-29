@@ -1,16 +1,16 @@
 ---
 UID: NF:timeprov.TimeProvOpen
 title: TimeProvOpen function
-author: windows-driver-content
+author: windows-sdk-content
 description: A callback function that is called by the time provider manager when the time provider DLL is loaded.
 old-location: base\timeprovopen.htm
 old-project: SysInfo
 ms.assetid: cf4f8d00-4c6f-4036-a179-444ff7505ab4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TimeProvOpen, TimeProvOpen callback, TimeProvOpen callback function, _win32_timeprovopen, base.timeprovopen, timeprov/TimeProvOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: timeprov.h
 req.include-header: 

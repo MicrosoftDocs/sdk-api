@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPM.GetRSOP
 title: IGPM::GetRSOP
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and returns an GPMRSOP. You can specify the Resultant Set of Policy (RSoP) mode and a Windows Management Instrumentation (WMI) namespace.
 old-location: gpmc\igpm_getrsop.htm
 old-project: GPMC
 ms.assetid: 61a1be3e-d959-47e2-ad6c-ca00accd0afe
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPM object [GPMC],GetRSOP method, GetRSOP, GetRSOP method [GPMC], GetRSOP method [GPMC],GPM object, GetRSOP method [GPMC],IGPM interface, IGPM interface [GPMC],GetRSOP method, IGPM.GetRSOP, IGPM::GetRSOP, _win32_igpm_getrsop, gpmc.igpm_getrsop, gpmgmt/IGPM::GetRSOP, rsopLogging, rsopPlanning, rsopUnknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

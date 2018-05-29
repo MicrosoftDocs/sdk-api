@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfContext.RequestEditSession
 title: ITfContext::RequestEditSession
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfContext::RequestEditSession method
 old-location: tsf\itfcontext_requesteditsession.htm
 old-project: TSF
 ms.assetid: 6c7b150c-0ca0-4aa5-8828-0c548dbfb215
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfContext interface [Text Services Framework],RequestEditSession method, ITfContext.RequestEditSession, ITfContext::RequestEditSession, RequestEditSession, RequestEditSession method [Text Services Framework], RequestEditSession method [Text Services Framework],ITfContext interface, TF_ES_ASYNC, TF_ES_ASYNCDONTCARE, TF_ES_READ, TF_ES_READWRITE, TF_ES_SYNC, _tsf_itfcontext_requesteditsession_ref, msctf/ITfContext::RequestEditSession, tsf.itfcontext_requesteditsession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

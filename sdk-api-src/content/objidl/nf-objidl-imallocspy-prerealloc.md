@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IMallocSpy.PreRealloc
 title: IMallocSpy::PreRealloc
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs operations required before calling IMalloc::Realloc.
 old-location: com\imallocspy_prerealloc.htm
 old-project: com
 ms.assetid: dd4db69c-3369-4aca-bc05-4c3c6850cc09
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMallocSpy interface [COM],PreRealloc method, IMallocSpy.PreRealloc, IMallocSpy::PreRealloc, PreRealloc, PreRealloc method [COM], PreRealloc method [COM],IMallocSpy interface, _com_imallocspy_prerealloc, com.imallocspy_prerealloc, objidl/IMallocSpy::PreRealloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

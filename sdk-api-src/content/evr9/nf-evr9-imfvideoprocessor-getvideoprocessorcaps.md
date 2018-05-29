@@ -1,16 +1,16 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.GetVideoProcessorCaps
 title: IMFVideoProcessor::GetVideoProcessorCaps
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the capabilities of a video processor mode.
 old-location: mf\imfvideoprocessor_getvideoprocessorcaps.htm
 old-project: medfound
 ms.assetid: 9a02aed2-8225-4416-ae54-7ed51c67a149
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 9a02aed2-8225-4416-ae54-7ed51c67a149, GetVideoProcessorCaps, GetVideoProcessorCaps method [Media Foundation], GetVideoProcessorCaps method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetVideoProcessorCaps method, IMFVideoProcessor.GetVideoProcessorCaps, IMFVideoProcessor::GetVideoProcessorCaps, evr9/IMFVideoProcessor::GetVideoProcessorCaps, mf.imfvideoprocessor_getvideoprocessorcaps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: evr9.h
 req.include-header: 

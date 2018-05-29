@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.MkParseDisplayName
 title: MkParseDisplayName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a string into a moniker that identifies the object named by the string.
 old-location: com\mkparsedisplayname.htm
 old-project: com
 ms.assetid: ada46dd3-e2c5-4ff5-89bd-3805f98b247b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MkParseDisplayName, MkParseDisplayName function [COM], _com_MkParseDisplayName, com.mkparsedisplayname, objbase/MkParseDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

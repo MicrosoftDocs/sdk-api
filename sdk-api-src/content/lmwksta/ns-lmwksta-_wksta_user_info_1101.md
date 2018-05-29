@@ -1,16 +1,16 @@
 ---
 UID: NS:lmwksta._WKSTA_USER_INFO_1101
 title: "_WKSTA_USER_INFO_1101"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WKSTA_USER_INFO_1101 structure contains information about the domains accessed by a workstation.
 old-location: netmgmt\wksta_user_info_1101_str.htm
 old-project: NetMgmt
 ms.assetid: 88772ba2-046b-4b03-ae02-d851075e4363
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPWKSTA_USER_INFO_1101, *PWKSTA_USER_INFO_1101, LPWKSTA_USER_INFO_1101, LPWKSTA_USER_INFO_1101 structure pointer [Network Management], PWKSTA_USER_INFO_1101, PWKSTA_USER_INFO_1101 structure pointer [Network Management], WKSTA_USER_INFO_1101, WKSTA_USER_INFO_1101 structure [Network Management], _WKSTA_USER_INFO_1101, _win32_wksta_user_info_1101_str, lmwksta/LPWKSTA_USER_INFO_1101, lmwksta/PWKSTA_USER_INFO_1101, lmwksta/WKSTA_USER_INFO_1101, netmgmt.wksta_user_info_1101_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmwksta.h
 req.include-header: Lm.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdate5.get_AutoSelection
 title: IUpdate5::get_AutoSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value indicating the automatic selection mode of update in the Control Panel of Windows Update.
 old-location: wua\iupdate5_autoselection.htm
 old-project: Wua_Sdk
 ms.assetid: 5b5fdec6-04b3-40ad-b1a6-e5a69f215e39
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AutoSelection property [Windows Update Agent], AutoSelection property [Windows Update Agent],IUpdate5 interface, IUpdate5 interface [Windows Update Agent],AutoSelection property, IUpdate5.AutoSelection, IUpdate5.get_AutoSelection, IUpdate5::AutoSelection, IUpdate5::get_AutoSelection, get_AutoSelection, wua.iupdate5_autoselection, wuapi/IUpdate5::AutoSelection, wuapi/IUpdate5::get_AutoSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

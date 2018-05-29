@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateIdentity.get_UpdateID
 title: IUpdateIdentity::get_UpdateID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the revision-independent identifier of an update.
 old-location: wua\iupdateidentity_updateid.htm
 old-project: Wua_Sdk
 ms.assetid: 072c85a7-bcac-4323-97df-75aa2b89f1ba
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateIdentity interface [Windows Update Agent],UpdateID property, IUpdateIdentity.UpdateID, IUpdateIdentity.get_UpdateID, IUpdateIdentity::UpdateID, IUpdateIdentity::get_UpdateID, UpdateID property [Windows Update Agent], UpdateID property [Windows Update Agent],IUpdateIdentity interface, get_UpdateID, wua.iupdateidentity_updateid, wuapi/IUpdateIdentity::UpdateID, wuapi/IUpdateIdentity::get_UpdateID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

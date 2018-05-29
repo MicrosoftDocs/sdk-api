@@ -1,16 +1,16 @@
 ---
 UID: NN:natupnp.IStaticPortMappingCollection
 title: IStaticPortMappingCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: The IStaticPortMappingCollection interface provides methods to manage the collection of static port mappings.
 old-location: ics\istaticportmappingcollection.htm
 old-project: ICS
 ms.assetid: 4858c474-b57e-4baa-8e82-10bc41e026cd
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IStaticPortMappingCollection, IStaticPortMappingCollection interface [ICS/ICF], IStaticPortMappingCollection interface [ICS/ICF],described, _ics_istaticportmappingcollection, ics.istaticportmappingcollection, natupnp/IStaticPortMappingCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: natupnp.h
 req.include-header: 

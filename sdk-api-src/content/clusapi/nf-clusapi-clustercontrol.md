@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.ClusterControl
 title: ClusterControl function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates an operation that affects a cluster.
 old-location: mscs\clustercontrol.htm
 old-project: MsCS
 ms.assetid: 7ef06c95-8d9d-4b87-a6d8-d6a2d49523ee
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterControl, ClusterControl function [Failover Cluster], _wolf_clustercontrol, clusapi/ClusterControl, mscs.clustercontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

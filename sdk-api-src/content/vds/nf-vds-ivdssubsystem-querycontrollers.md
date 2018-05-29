@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsSubSystem.QueryControllers
 title: IVdsSubSystem::QueryControllers
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an object that enumerates the online and offline controllers managed by the subsystem.
 old-location: base\ivdssubsystem_querycontrollers.htm
 old-project: VDS
 ms.assetid: 61f32915-c616-477e-b0f0-4a7f92aca0e2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsSubSystem interface [VDS],QueryControllers method, IVdsSubSystem.QueryControllers, IVdsSubSystem::QueryControllers, QueryControllers, QueryControllers method [VDS], QueryControllers method [VDS],IVdsSubSystem interface, base.ivdssubsystem_querycontrollers, vds/IVdsSubSystem::QueryControllers, vdshwprv/IVdsSubSystem::QueryControllers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

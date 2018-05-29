@@ -1,16 +1,16 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_HORIZONTALALIGNMENT
 title: DIRECTMANIPULATION_HORIZONTALALIGNMENT
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the horizontal alignment options for content within a viewport.
 old-location: directmanipulation\directmanipulation_horizontalalignment.htm
 old-project: directmanipulation
 ms.assetid: ced17ad6-0728-46ed-8c04-d0c588f0bb38
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DIRECTMANIPULATION_HORIZONTALALIGNMENT, DIRECTMANIPULATION_HORIZONTALALIGNMENT enumeration [Direct Manipulation], DIRECTMANIPULATION_HORIZONTALALIGNMENT_CENTER, DIRECTMANIPULATION_HORIZONTALALIGNMENT_LEFT, DIRECTMANIPULATION_HORIZONTALALIGNMENT_NONE, DIRECTMANIPULATION_HORIZONTALALIGNMENT_RIGHT, DIRECTMANIPULATION_HORIZONTALALIGNMENT_UNLOCKCENTER, directmanipulation.directmanipulation_horizontalalignment, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT_CENTER, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT_LEFT, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT_NONE, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT_RIGHT, directmanipulation/DIRECTMANIPULATION_HORIZONTALALIGNMENT_UNLOCKCENTER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: directmanipulation.h
 req.include-header: 

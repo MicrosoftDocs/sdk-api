@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.tagDVD_MUA_Coeff
 title: tagDVD_MUA_Coeff
-author: windows-driver-content
+author: windows-sdk-content
 description: The DVD_MUA_Coeff structure defines the mixing coefficients for one channel in a multichannel audio stream. The DVD_MultichannelAudioAttributes structure contains an array of eight DVD_MUA_Coeff structures, one for each channel in the stream.
 old-location: dshow\dvd_mua_coeff.htm
 old-project: DirectShow
 ms.assetid: 8b8402da-37c2-4983-ae09-967c269fc828
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_MUA_Coeff, DVD_MUA_Coeff structure [DirectShow], DVD_MUA_CoeffStructure, dshow.dvd_mua_coeff, strmif/DVD_MUA_Coeff, tagDVD_MUA_Coeff
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

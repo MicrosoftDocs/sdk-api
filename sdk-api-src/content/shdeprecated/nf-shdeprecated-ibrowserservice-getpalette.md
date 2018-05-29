@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetPalette
 title: IBrowserService::GetPalette
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Retrieves the browser's palette.
 old-location: shell\IBrowserService_GetPalette.htm
 old-project: shell
 ms.assetid: 039a24d0-8cda-48bf-a10b-baf6d76c808d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPalette, GetPalette method [Windows Shell], GetPalette method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetPalette method, IBrowserService.GetPalette, IBrowserService::GetPalette, shdeprecated/IBrowserService::GetPalette, shell.IBrowserService_GetPalette, zone_IBrowserService_GetPalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

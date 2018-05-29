@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.MonthCal_GetMaxTodayWidth
 title: MonthCal_GetMaxTodayWidth macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the maximum width of the &#0034;today&#0034; string in a month calendar control. This includes the label text and the date text. You can use this macro or send the MCM_GETMAXTODAYWIDTH message explicitly.
 old-location: controls\MonthCal_GetMaxTodayWidth.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmaxtodaywidth.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MonthCal_GetMaxTodayWidth, MonthCal_GetMaxTodayWidth macro [Windows Controls], _win32_MonthCal_GetMaxTodayWidth, _win32_MonthCal_GetMaxTodayWidth_cpp, commctrl/MonthCal_GetMaxTodayWidth, controls.MonthCal_GetMaxTodayWidth, controls._win32_MonthCal_GetMaxTodayWidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

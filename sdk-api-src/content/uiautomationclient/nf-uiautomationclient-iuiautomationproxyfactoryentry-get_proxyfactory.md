@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.get_ProxyFactory
 title: IUIAutomationProxyFactoryEntry::get_ProxyFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the proxy factory associated with this entry.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_ProxyFactory.htm
 old-project: WinAuto
 ms.assetid: da6f0c23-b16d-4fd5-8d91-cc5a830a03c6
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationProxyFactoryEntry interface [Windows Accessibility],ProxyFactory property, IUIAutomationProxyFactoryEntry.ProxyFactory, IUIAutomationProxyFactoryEntry.get_ProxyFactory, IUIAutomationProxyFactoryEntry::ProxyFactory, IUIAutomationProxyFactoryEntry::get_ProxyFactory, ProxyFactory property [Windows Accessibility], ProxyFactory property [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, get_ProxyFactory, uiauto.uiauto_IUIAutomationProxyFactoryEntry_ProxyFactory, uiauto_IUIAutomationProxyFactoryEntry_ProxyFactory, uiautomationclient/IUIAutomationProxyFactoryEntry::ProxyFactory, uiautomationclient/IUIAutomationProxyFactoryEntry::get_ProxyFactory, winauto.uiauto_IUIAutomationProxyFactoryEntry_ProxyFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

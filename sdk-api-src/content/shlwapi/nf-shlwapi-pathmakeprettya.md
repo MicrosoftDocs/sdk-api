@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathMakePrettyA
 title: PathMakePrettyA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an all-uppercase path to all lowercase characters to give the path a consistent appearance.
 old-location: shell\PathMakePretty.htm
 old-project: shell
 ms.assetid: fb871054-4c63-42de-b85b-edefa4b09ea0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathMakePretty, PathMakePretty function [Windows Shell], PathMakePrettyA, PathMakePrettyW, _win32_PathMakePretty, shell.PathMakePretty, shlwapi/PathMakePretty, shlwapi/PathMakePrettyA, shlwapi/PathMakePrettyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

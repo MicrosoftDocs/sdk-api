@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMWriter
 title: IWMWriter
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMWriter interface is used to write ASF files.
 old-location: wmformat\iwmwriter.htm
 old-project: wmformat
 ms.assetid: a194ef11-5203-4e85-af91-cdce0c53fe76
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMWriter, IWMWriter interface [windows Media Format], IWMWriter interface [windows Media Format],described, IWMWriterInterface, wmformat.iwmwriter, wmsdkidl/IWMWriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

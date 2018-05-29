@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.AssocQueryKeyA
 title: AssocQueryKeyA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches for and retrieves a key related to a file or protocol association from the registry.
 old-location: shell\AssocQueryKey.htm
 old-project: shell
 ms.assetid: 9eaeb885-0428-48c3-82a7-5dc21d5015ce
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AssocQueryKey, AssocQueryKey function [Windows Shell], AssocQueryKeyA, AssocQueryKeyW, CLSID, Executable name, File name extension, ProgID, _win32_AssocQueryKey, shell.AssocQueryKey, shlwapi/AssocQueryKey, shlwapi/AssocQueryKeyA, shlwapi/AssocQueryKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplication.DeletePolicyAdministratorName
 title: IAzApplication::DeletePolicyAdministratorName
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the specified account name from the list of principals that act as policy administrators.
 old-location: security\iazapplication_deletepolicyadministratorname.htm
 old-project: SecAuthZ
 ms.assetid: 6da92103-6de0-4310-b52c-c1441e775da8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzApplication object [Security],DeletePolicyAdministratorName method, DeletePolicyAdministratorName, DeletePolicyAdministratorName method [Security], DeletePolicyAdministratorName method [Security],AzApplication object, DeletePolicyAdministratorName method [Security],IAzApplication interface, IAzApplication interface [Security],DeletePolicyAdministratorName method, IAzApplication.DeletePolicyAdministratorName, IAzApplication::DeletePolicyAdministratorName, azroles/IAzApplication::DeletePolicyAdministratorName, security.iazapplication_deletepolicyadministratorname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

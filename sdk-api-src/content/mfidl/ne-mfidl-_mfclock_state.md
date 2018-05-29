@@ -1,16 +1,16 @@
 ---
 UID: NE:mfidl._MFCLOCK_STATE
 title: "_MFCLOCK_STATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the state of a clock.
 old-location: mf\mfclock_state.htm
 old-project: medfound
 ms.assetid: 90e04807-c3be-4f38-a508-9dfe62700869
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 90e04807-c3be-4f38-a508-9dfe62700869, MFCLOCK_STATE, MFCLOCK_STATE enumeration [Media Foundation], MFCLOCK_STATE_INVALID, MFCLOCK_STATE_PAUSED, MFCLOCK_STATE_RUNNING, MFCLOCK_STATE_STOPPED, MF_CLOCK_STATE, MF_CLOCK_STATE enumeration [Media Foundation], _MFCLOCK_STATE, mf.mfclock_state, mfidl/MFCLOCK_STATE, mfidl/MFCLOCK_STATE_INVALID, mfidl/MFCLOCK_STATE_PAUSED, mfidl/MFCLOCK_STATE_RUNNING, mfidl/MFCLOCK_STATE_STOPPED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

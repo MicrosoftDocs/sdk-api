@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ISuspensionDependencyManager.GroupChildWithParent
 title: ISuspensionDependencyManager::GroupChildWithParent
-author: windows-driver-content
+author: windows-sdk-content
 description: ISuspensionDependencyManager::GroupChildWithParent method
 old-location: shell\ISuspensionDependencyManager_GroupChildWithParent.htm
 old-project: shell
 ms.assetid: E9E5FDCB-83AA-4EC1-9CE2-1EABDD7DF39C
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GroupChildWithParent, GroupChildWithParent method [Windows Shell], GroupChildWithParent method [Windows Shell],ISuspensionDependencyManager interface, ISuspensionDependencyManager interface [Windows Shell],GroupChildWithParent method, ISuspensionDependencyManager.GroupChildWithParent, ISuspensionDependencyManager::GroupChildWithParent, shell.ISuspensionDependencyManager_GroupChildWithParent, shobjidl_core/ISuspensionDependencyManager::GroupChildWithParent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

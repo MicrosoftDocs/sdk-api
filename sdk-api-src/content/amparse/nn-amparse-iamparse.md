@@ -1,16 +1,16 @@
 ---
 UID: NN:amparse.IAMParse
 title: IAMParse
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMParse interface sets and retrieves the parse time for an MPEG-2 stream.
 old-location: dshow\iamparse.htm
 old-project: DirectShow
 ms.assetid: c5f3e153-c92f-4cdf-9aae-336b1f3dd8d6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMParse, IAMParse interface [DirectShow], IAMParse interface [DirectShow],described, IAMParseInterface, amparse/IAMParse, dshow.iamparse
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: amparse.h
 req.include-header: 

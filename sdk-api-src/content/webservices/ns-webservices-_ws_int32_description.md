@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_INT32_DESCRIPTION
 title: "_WS_INT32_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: An optional type description used with WS_INT32_TYPE to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_int32_description.htm
 old-project: wsw
 ms.assetid: 98761df2-b195-4f22-90ba-3dac8920f3ef
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_INT32_DESCRIPTION, WS_INT32_DESCRIPTION structure [Web Services for Windows], _WS_INT32_DESCRIPTION, webservices/WS_INT32_DESCRIPTION, wsw.ws_int32_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

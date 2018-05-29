@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.EnumerateNtmsObject
 title: EnumerateNtmsObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumerateNtmsObject function enumerates the RSM objects contained in the lpContainerId parameter.
 old-location: fs\enumeratentmsobject.htm
 old-project: Rsm
 ms.assetid: bbbb2888-36f5-4667-90f0-088382ad32f5
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: EnumerateNtmsObject, EnumerateNtmsObject function [Files], NTMS_CHANGER, NTMS_CHANGER_TYPE, NTMS_COMPUTER, NTMS_DRIVE, NTMS_DRIVE_TYPE, NTMS_ENUM_DEFAULT, NTMS_ENUM_ROOTPOOL, NTMS_IEDOOR, NTMS_IEPORT, NTMS_LIBRARY, NTMS_LIBREQUEST, NTMS_LOGICAL_MEDIA, NTMS_MEDIA_POOL, NTMS_MEDIA_TYPE, NTMS_OPREQUEST, NTMS_PARTITION, NTMS_PHYSICAL_MEDIA, NTMS_STORAGESLOT, _zaw_enumeratentmsobject, base.enumeratentmsobject, fs.enumeratentmsobject, ntmsapi/EnumerateNtmsObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

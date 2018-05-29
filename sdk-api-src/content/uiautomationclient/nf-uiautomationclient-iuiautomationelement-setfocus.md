@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.SetFocus
 title: IUIAutomationElement::SetFocus
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the keyboard focus to this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_SetFocus.htm
 old-project: WinAuto
 ms.assetid: 4a4e549a-1812-4380-bc0a-2da579a62b5d
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationElement interface [Windows Accessibility],SetFocus method, IUIAutomationElement.SetFocus, IUIAutomationElement::SetFocus, SetFocus, SetFocus method [Windows Accessibility], SetFocus method [Windows Accessibility],IUIAutomationElement interface, uiauto.uiauto_IUIAutomationElement_SetFocus, uiauto_IUIAutomationElement_SetFocus, uiautomationclient/IUIAutomationElement::SetFocus, winauto.uiauto_IUIAutomationElement_SetFocus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

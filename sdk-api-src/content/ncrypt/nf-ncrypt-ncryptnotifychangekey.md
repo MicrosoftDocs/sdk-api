@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptNotifyChangeKey
 title: NCryptNotifyChangeKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates or removes a key change notification.
 old-location: security\ncryptnotifychangekey.htm
 old-project: SecCNG
 ms.assetid: 2d2ddb55-ef32-4227-b901-ee11e961d0e6
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_REGISTER_NOTIFY_FLAG, NCRYPT_UNREGISTER_NOTIFY_FLAG, NCryptNotifyChangeKey, NCryptNotifyChangeKey function [Security], ncrypt/NCryptNotifyChangeKey, security.ncryptnotifychangekey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

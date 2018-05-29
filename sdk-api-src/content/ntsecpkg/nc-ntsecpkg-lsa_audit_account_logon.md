@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_AUDIT_ACCOUNT_LOGON
 title: LSA_AUDIT_ACCOUNT_LOGON
-author: windows-driver-content
+author: windows-sdk-content
 description: The AuditAccountLogon function produces an audit record that represents the mapping of a foreign principal name onto a Windows account.
 old-location: security\auditaccountlogon.htm
 old-project: SecAuthN
 ms.assetid: dcf2d16b-8352-4d40-9723-c8cf8465431c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AuditAccountLogon, AuditAccountLogon function [Security], LSA_AUDIT_ACCOUNT_LOGON, _ssp_auditaccountlogon, ntsecpkg/AuditAccountLogon, security.auditaccountlogon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

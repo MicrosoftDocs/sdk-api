@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.ITableItemProvider
 title: ITableItemProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to child controls of containers that implement ITableProvider.
 old-location: winauto\uiauto_ITableItemProvider.htm
 old-project: WinAuto
 ms.assetid: 73cba491-1aa6-4bd7-bcd6-95b5d85c9457
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ITableItemProvider, ITableItemProvider interface [Windows Accessibility], ITableItemProvider interface [Windows Accessibility],described, uiauto.uiauto_ITableItemProvider, uiauto_ITableItemProvider, uiautomationcore/ITableItemProvider, winauto.uiauto_ITableItemProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

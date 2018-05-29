@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DResource9.GetType
 title: IDirect3DResource9::GetType
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the type of the resource.
 old-location: direct3d9\idirect3dresource9__gettype.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__gettype.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: GetType, GetType method [Direct3D 9], GetType method [Direct3D 9],IDirect3DResource9 interface, IDirect3DResource9 interface [Direct3D 9],GetType method, IDirect3DResource9.GetType, IDirect3DResource9::GetType, d3d9helper/IDirect3DResource9::GetType, direct3d9.idirect3dresource9__gettype, fedd6b5b-487e-c6e4-6122-21f132ce241b
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

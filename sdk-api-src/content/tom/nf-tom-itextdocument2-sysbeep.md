@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextDocument2.SysBeep
 title: ITextDocument2::SysBeep
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates a system beep.
 old-location: controls\itextdocument2_sysbeep.htm
 old-project: Controls
 ms.assetid: 2f1f83a0-9308-40c8-b889-aa8118ee9e71
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SysBeep method, ITextDocument2.SysBeep, ITextDocument2::SysBeep, SysBeep, SysBeep method [Windows Controls], SysBeep method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_sysbeep, tom/ITextDocument2::SysBeep
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

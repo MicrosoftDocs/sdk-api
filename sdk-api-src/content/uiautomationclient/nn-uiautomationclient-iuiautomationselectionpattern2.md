@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationSelectionPattern2
 title: IUIAutomationSelectionPattern2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IUIAutomationSelectionPattern interface to provide information about selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2.htm
 old-project: WinAuto
 ms.assetid: E237CE81-9C01-4EBB-AA75-4EB90123E8C8
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationSelectionPattern2, IUIAutomationSelectionPattern2 interface [Windows Accessibility], IUIAutomationSelectionPattern2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationSelectionPattern2, winauto.uiauto_IUIAutomationSelectionPattern2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

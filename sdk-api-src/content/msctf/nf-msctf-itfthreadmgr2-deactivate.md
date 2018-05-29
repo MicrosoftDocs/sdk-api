@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.Deactivate
 title: ITfThreadMgr2::Deactivate
-author: windows-driver-content
+author: windows-sdk-content
 description: Deactivates TSF for the calling thread.
 old-location: tsf\itfthreadmgr2_deactivate.htm
 old-project: TSF
 ms.assetid: 5ED1A430-27C3-44BA-BF17-B5FB9D4C7087
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Deactivate, Deactivate method [Text Services Framework], Deactivate method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],Deactivate method, ITfThreadMgr2.Deactivate, ITfThreadMgr2::Deactivate, msctf/ITfThreadMgr2::Deactivate, tsf.itfthreadmgr2_deactivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

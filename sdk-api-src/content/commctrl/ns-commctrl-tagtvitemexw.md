@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagTVITEMEXW
 title: tagTVITEMEXW
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies or receives attributes of a tree-view item. This structure is an enhancement to the TVITEM structure. New applications should use this structure where appropriate.
 old-location: controls\TVITEMEX.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvitemex.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPTVITEMEXW, I_CHILDRENAUTO, I_CHILDRENCALLBACK, LPTVITEMEX, LPTVITEMEX structure pointer [Windows Controls], TVIF_CHILDREN, TVIF_DI_SETITEM, TVIF_EXPANDEDIMAGE, TVIF_HANDLE, TVIF_IMAGE, TVIF_INTEGRAL, TVIF_PARAM, TVIF_SELECTEDIMAGE, TVIF_STATE, TVIF_STATEEX, TVIF_TEXT, TVIS_EX_DISABLED, TVIS_EX_FLAT, TVIS_EX_HWND, TVITEMEX, TVITEMEX structure [Windows Controls], TVITEMEXA, TVITEMEXW, _win32_TVITEMEX, _win32_TVITEMEX_cpp, commctrl/LPTVITEMEX, commctrl/TVITEMEX, commctrl/TVITEMEXA, commctrl/TVITEMEXW, controls.TVITEMEX, controls._win32_TVITEMEX, one, tagTVITEMEXW, zero"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

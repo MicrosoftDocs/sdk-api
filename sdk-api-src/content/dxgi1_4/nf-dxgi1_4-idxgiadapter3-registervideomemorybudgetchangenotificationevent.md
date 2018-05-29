@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.RegisterVideoMemoryBudgetChangeNotificationEvent
 title: IDXGIAdapter3::RegisterVideoMemoryBudgetChangeNotificationEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: This method establishes a correlation between a CPU synchronization object and the budget change event.
 old-location: direct3ddxgi\idxgiadapter3_registervideomemorybudgetchangenotificationevent.htm
 old-project: direct3ddxgi
 ms.assetid: 58ACCDE6-CB33-4BCE-9B15-84F60AC7B905
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIAdapter3 interface [DXGI],RegisterVideoMemoryBudgetChangeNotificationEvent method, IDXGIAdapter3.RegisterVideoMemoryBudgetChangeNotificationEvent, IDXGIAdapter3::RegisterVideoMemoryBudgetChangeNotificationEvent, RegisterVideoMemoryBudgetChangeNotificationEvent, RegisterVideoMemoryBudgetChangeNotificationEvent method [DXGI], RegisterVideoMemoryBudgetChangeNotificationEvent method [DXGI],IDXGIAdapter3 interface, direct3ddxgi.idxgiadapter3_registervideomemorybudgetchangenotificationevent, dxgi1_4/IDXGIAdapter3::RegisterVideoMemoryBudgetChangeNotificationEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h

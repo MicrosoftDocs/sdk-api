@@ -1,16 +1,16 @@
 ---
 UID: NS:vss._VSS_OBJECT_PROP
 title: "_VSS_OBJECT_PROP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the properties of a provider, volume, shadow copy, or shadow copy set.
 old-location: base\vss_object_prop.htm
 old-project: VSS
 ms.assetid: 90664042-e9a0-4959-a975-9289477d2394
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PVSS_OBJECT_PROP, PVSS_OBJECT_PROP, PVSS_OBJECT_PROP structure pointer [VSS], VSS_OBJECT_PROP, VSS_OBJECT_PROP structure [VSS], _VSS_OBJECT_PROP, _win32_vss_object_prop, base.vss_object_prop, vss/PVSS_OBJECT_PROP, vss/VSS_OBJECT_PROP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vss.h
 req.include-header: 

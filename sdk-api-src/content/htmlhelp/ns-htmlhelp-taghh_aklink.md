@@ -1,16 +1,16 @@
 ---
 UID: NS:htmlhelp.tagHH_AKLINK
 title: tagHH_AKLINK
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this structure to specify one or more ALink names or KLink keywords that you want to search for.
 old-location: htmlhelp\hh_aklink_structure.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhaklink.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: HH_AKLINK, HH_AKLINK structure [HTML Help Workshop], htmlhelp.hh_aklink_structure, htmlhelp/HH_AKLINK, tagHH_AKLINK, vsconStrhhaklink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: htmlhelp.h
 req.include-header: 

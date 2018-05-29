@@ -1,16 +1,16 @@
 ---
 UID: NF:shellscalingapi.GetScaleFactorForMonitor
 title: GetScaleFactorForMonitor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the scale factor of a specific monitor. This function replaces GetScaleFactorForDevice.
 old-location: shell\GetScaleFactorForMonitor.htm
 old-project: shell
 ms.assetid: 2F214512-704D-41A2-86A6-1EF880CD3DB4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetScaleFactorForMonitor, GetScaleFactorForMonitor function [Windows Shell], shell.GetScaleFactorForMonitor, shellscalingapi/GetScaleFactorForMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 

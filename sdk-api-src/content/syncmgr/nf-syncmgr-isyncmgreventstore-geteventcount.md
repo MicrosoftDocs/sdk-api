@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrEventStore.GetEventCount
 title: ISyncMgrEventStore::GetEventCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the event count.
 old-location: shell\ISyncMgrEventStore_GetEventCount.htm
 old-project: shell
 ms.assetid: 7e8482ed-3cdc-49a3-ad65-237f163e440d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetEventCount, GetEventCount method [Windows Shell], GetEventCount method [Windows Shell],ISyncMgrEventStore interface, ISyncMgrEventStore interface [Windows Shell],GetEventCount method, ISyncMgrEventStore.GetEventCount, ISyncMgrEventStore::GetEventCount, _shell_ISyncMgrEventStore_GetEventCount, shell.ISyncMgrEventStore_GetEventCount, syncmgr/ISyncMgrEventStore::GetEventCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

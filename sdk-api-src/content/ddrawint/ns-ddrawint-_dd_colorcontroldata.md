@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_COLORCONTROLDATA
 title: "_DD_COLORCONTROLDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_COLORCONTROLDATA structure contains the color control information for the specified overlay.
 old-location: display\dd_colorcontroldata.htm
 old-project: display
 ms.assetid: 7c983faa-de9d-4a04-ac8d-d37fb182a662
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_COLORCONTROLDATA, DD_COLORCONTROLDATA, DD_COLORCONTROLDATA structure [Display Devices], _DD_COLORCONTROLDATA, ddrawint/DD_COLORCONTROLDATA, ddstrcts_5bc6386d-437a-4fa7-b9ac-def03150b340.xml, display.dd_colorcontroldata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

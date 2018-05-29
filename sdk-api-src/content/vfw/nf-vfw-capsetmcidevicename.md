@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capSetMCIDeviceName
 title: capSetMCIDeviceName macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capSetMCIDeviceName macro specifies the name of the MCI video device to be used to capture data. You can use this macro or explicitly call the WM_CAP_SET_MCI_DEVICE message.
 old-location: multimedia\capsetmcidevicename.htm
 old-project: Multimedia
 ms.assetid: 2dabc360-7f69-4dbb-9826-0657eec265ff
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capSetMCIDeviceName, capSetMCIDeviceName, capSetMCIDeviceName macro [Windows Multimedia], multimedia.capsetmcidevicename, vfw/capSetMCIDeviceName"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

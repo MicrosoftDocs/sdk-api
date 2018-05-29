@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1_1.D2D1_COLOR_INTERPOLATION_MODE
 title: D2D1_COLOR_INTERPOLATION_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines how to interpolate between colors.
 old-location: direct2d\d2d1_color_interpolation_mode.htm
 old-project: Direct2D
 ms.assetid: E3E9FB4C-5E77-451B-ABED-39D9C7AE567A
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_COLOR_INTERPOLATION_MODE, D2D1_COLOR_INTERPOLATION_MODE enumeration [Direct2D], D2D1_COLOR_INTERPOLATION_MODE_PREMULTIPLIED, D2D1_COLOR_INTERPOLATION_MODE_STRAIGHT, d2d1_1/D2D1_COLOR_INTERPOLATION_MODE, d2d1_1/D2D1_COLOR_INTERPOLATION_MODE_PREMULTIPLIED, d2d1_1/D2D1_COLOR_INTERPOLATION_MODE_STRAIGHT, direct2d.d2d1_color_interpolation_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_1.h
 req.include-header: 

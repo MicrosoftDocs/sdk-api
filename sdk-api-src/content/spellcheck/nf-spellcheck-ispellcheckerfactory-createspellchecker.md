@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheck.ISpellCheckerFactory.CreateSpellChecker
 title: ISpellCheckerFactory::CreateSpellChecker
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a spell checker that supports the specified language.
 old-location: intl\ispellcheckerfactory_createspellchecker.htm
 old-project: Intl
 ms.assetid: 9167b675-01ec-4173-a790-5452907b5598
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateSpellChecker, CreateSpellChecker method [Internationalization for Windows Applications], CreateSpellChecker method [Internationalization for Windows Applications],ISpellCheckerFactory interface, ISpellCheckerFactory interface [Internationalization for Windows Applications],CreateSpellChecker method, ISpellCheckerFactory.CreateSpellChecker, ISpellCheckerFactory::CreateSpellChecker, intl.ispellcheckerfactory_createspellchecker, spellcheck/ISpellCheckerFactory::CreateSpellChecker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

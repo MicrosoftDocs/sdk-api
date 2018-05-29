@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.GetServiceObjectID
 title: IPortableDeviceService::GetServiceObjectID
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an object identifier for the service. This object identifier can be used to access the properties of the service, for example.
 old-location: wpdsdk\iportabledeviceservice_getserviceobjectid.htm
 old-project: wpd_sdk
 ms.assetid: f86907c4-5d8a-4659-ab57-3c235face8cf
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetServiceObjectID, GetServiceObjectID method [Windows Portable Devices SDK], GetServiceObjectID method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],GetServiceObjectID method, IPortableDeviceService.GetServiceObjectID, IPortableDeviceService::GetServiceObjectID, portabledeviceapi/IPortableDeviceService::GetServiceObjectID, wpdsdk.iportabledeviceservice_getserviceobjectid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICPlanarBitmapFrameEncode.WritePixels
 title: IWICPlanarBitmapFrameEncode::WritePixels
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes lines from the source planes to the encoded format.
 old-location: wic\iwicplanarbitmapframeencode_writepixels.htm
 old-project: wic
 ms.assetid: 57DB1340-9BE4-46ED-9ADE-9B91657F09B7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICPlanarBitmapFrameEncode interface [Windows Imaging Component],WritePixels method, IWICPlanarBitmapFrameEncode.WritePixels, IWICPlanarBitmapFrameEncode::WritePixels, WritePixels, WritePixels method [Windows Imaging Component], WritePixels method [Windows Imaging Component],IWICPlanarBitmapFrameEncode interface, wic.iwicplanarbitmapframeencode_writepixels, wincodec/IWICPlanarBitmapFrameEncode::WritePixels
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

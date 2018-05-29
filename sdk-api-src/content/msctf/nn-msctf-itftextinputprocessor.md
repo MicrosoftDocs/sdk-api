@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfTextInputProcessor
 title: ITfTextInputProcessor
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfTextInputProcessor interface is implemented by a text service and used by the TSF manager to activate and deactivate the text service.
 old-location: tsf\itftextinputprocessor.htm
 old-project: TSF
 ms.assetid: d3fd296b-0009-4fc2-bf91-0ad31454f0e8
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfTextInputProcessor, ITfTextInputProcessor interface [Text Services Framework], ITfTextInputProcessor interface [Text Services Framework],described, _tsf_itftextinputprocessor_ref, msctf/ITfTextInputProcessor, tsf.itftextinputprocessor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

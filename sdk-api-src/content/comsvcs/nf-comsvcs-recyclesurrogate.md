@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.RecycleSurrogate
 title: RecycleSurrogate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Recycles the calling process.
 old-location: cos\recyclesurrogate.htm
 old-project: cossdk
 ms.assetid: d75f5894-f711-48f8-a6f5-be7ac594dc42
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CRR_ACTIVATION_LIMIT, CRR_CALL_LIMIT, CRR_LIFETIME_LIMIT, CRR_MEMORY_LIMIT, CRR_NO_REASON_SUPPLIED, CRR_RECYCLED_FROM_UI, RecycleSurrogate, RecycleSurrogate function [COM+], _cos_recyclesurrogate, comsvcs/RecycleSurrogate, cos.recyclesurrogate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: comsvcs.h
 req.include-header: 

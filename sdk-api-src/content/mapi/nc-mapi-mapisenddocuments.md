@@ -1,16 +1,16 @@
 ---
 UID: NC:mapi.MAPISENDDOCUMENTS
 title: MAPISENDDOCUMENTS
-author: windows-driver-content
+author: windows-sdk-content
 description: The MAPISendDocuments function sends a standard message with one or more attached files and a cover note.
 old-location: mapi\mapisenddocuments.htm
 old-project: WindowsMAPI
 ms.assetid: 79a2f17e-fb07-4f3b-b8f6-0448399ffa50
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: MAPISendDocuments, MAPISendDocuments callback, MAPISendDocuments callback function, mapi.mapisenddocuments, mapi/MAPISendDocuments
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathCreateFromUrlAlloc
 title: PathCreateFromUrlAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a path from a file URL.
 old-location: shell\PathCreateFromUrlAlloc.htm
 old-project: shell
 ms.assetid: 274411cd-5922-4db8-8775-feb93cae32dd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathCreateFromUrlAlloc, PathCreateFromUrlAlloc function [Windows Shell], _shell_PathCreateFromUrlAlloc, shell.PathCreateFromUrlAlloc, shlwapi/PathCreateFromUrlAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rtworkq.RtwqUnregisterPlatformFromMMCSS
 title: RtwqUnregisterPlatformFromMMCSS function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters the platform work queues from a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: base\rtwqunregisterplatformfrommmcss.htm
 old-project: ProcThread
 ms.assetid: 12fca5ba-640d-4c6f-878b-7744331bbcff
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtwqUnregisterPlatformFromMMCSS, RtwqUnregisterPlatformFromMMCSS function, base.rtwqunregisterplatformfrommmcss, rtworkq/RtwqUnregisterPlatformFromMMCSS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

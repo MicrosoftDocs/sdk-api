@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICSetStatusProc
 title: ICSetStatusProc function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICSetStatusProc function sends the address of a status callback function to a compressor. The compressor calls this function during lengthy operations.
 old-location: multimedia\icsetstatusproc.htm
 old-project: Multimedia
 ms.assetid: 1e59a5ae-ac59-45fd-b80a-1908f1bf0d5e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICSetStatusProc, ICSetStatusProc function [Windows Multimedia], _win32_ICSetStatusProc, multimedia.icsetstatusproc, vfw/ICSetStatusProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_DESKTOP_IMAGE_INFO
 title: DISPLAYCONFIG_DESKTOP_IMAGE_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The DISPLAYCONFIG_DESKTOP_IMAGE_INFO structure contains information about the image displayed on the desktop.
 old-location: display\displayconfig_desktop_image_info.htm
 old-project: display
 ms.assetid: 2DACA175-19BC-4192-A2FF-CB8AC7220B98
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DISPLAYCONFIG_DESKTOP_IMAGE_INFO, DISPLAYCONFIG_DESKTOP_IMAGE_INFO structure [Display Devices], display.displayconfig_desktop_image_info, wingdi/DISPLAYCONFIG_DESKTOP_IMAGE_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

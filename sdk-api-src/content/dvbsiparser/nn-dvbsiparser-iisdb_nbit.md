@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IISDB_NBIT
 title: IISDB_NBIT
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT). The NBIT describes the programs included in a multiplexed transport stream for an ISDB broadcast.
 old-location: mstv\iisdb_nbit.htm
 old-project: mstv
 ms.assetid: 32c15a03-6683-4b22-b374-a15784696368
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IISDB_NBIT, IISDB_NBIT interface [Microsoft TV Technologies], IISDB_NBIT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_NBIT, mstv.iisdb_nbit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

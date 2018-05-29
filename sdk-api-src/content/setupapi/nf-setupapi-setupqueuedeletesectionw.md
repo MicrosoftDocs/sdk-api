@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupQueueDeleteSectionW
 title: SetupQueueDeleteSectionW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupQueueDeleteSection function queues all the files in a section of an INF file for deletion. The section must be in the correct Delete Files format and the INF file must contain a DestinationDirs section.
 old-location: setup\setupqueuedeletesection.htm
 old-project: SetupApi
 ms.assetid: 3e76e345-1d6c-4eb5-a743-b71d5ccc52e5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupQueueDeleteSection, SetupQueueDeleteSection function [Setup API], SetupQueueDeleteSectionA, SetupQueueDeleteSectionW, _setupapi_setupqueuedeletesection, setup.setupqueuedeletesection, setupapi/SetupQueueDeleteSection, setupapi/SetupQueueDeleteSectionA, setupapi/SetupQueueDeleteSectionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

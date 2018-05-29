@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITDigitsGatheredEvent.get_Call
 title: ITDigitsGatheredEvent::get_Call
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Call method gets a pointer to the call information interface for the call object on which the event occurred.
 old-location: tapi3\itdigitsgatheredevent_get_call.htm
 old-project: Tapi
 ms.assetid: 43625f93-4ab2-4aeb-83da-70310f118e34
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_Call method, ITDigitsGatheredEvent.get_Call, ITDigitsGatheredEvent::get_Call, _tapi3_itdigitsgatheredevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_call, tapi3if/ITDigitsGatheredEvent::get_Call
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

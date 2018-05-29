@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_abandon
 title: ldap_abandon function
-author: windows-driver-content
+author: windows-sdk-content
 description: A client calls ldap_abandon to cancel an in-process asynchronous LDAP call.
 old-location: ldap\ldap_abandon.htm
 old-project: LDAP
 ms.assetid: 5c238d98-77f5-4702-bae1-80cdec70a30c
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_abandon, ldap.ldap__abandon, ldap.ldap_abandon, ldap_abandon, ldap_abandon function [LDAP], winldap/ldap_abandon"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

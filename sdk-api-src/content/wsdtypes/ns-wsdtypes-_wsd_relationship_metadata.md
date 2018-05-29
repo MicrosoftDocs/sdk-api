@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_RELATIONSHIP_METADATA
 title: "_WSD_RELATIONSHIP_METADATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides metadata about the relationship between two or more services.
 old-location: ncd\wsd_relationship_metadata.htm
 old-project: WsdApi
 ms.assetid: 232ea033-f368-4a37-9bec-ba5dc0d9b60f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_RELATIONSHIP_METADATA, WSD_RELATIONSHIP_METADATA structure, _WSD_RELATIONSHIP_METADATA, ncd.wsd_relationship_metadata, wsdtypes/WSD_RELATIONSHIP_METADATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

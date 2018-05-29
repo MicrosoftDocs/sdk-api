@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_4
 title: RESPONSEBODY_Renew
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a WS-Eventing Renew response message.
 old-location: ncd\responsebody_renew_struct.htm
 old-project: WsdApi
 ms.assetid: 3fe288b6-bb84-4b8f-b973-b2309c60c28e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: RESPONSEBODY_Renew, RESPONSEBODY_Renew structure, ncd.responsebody_renew_struct, wsdtypes/RESPONSEBODY_Renew
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStop.Clone
 title: IXpsOMGradientStop::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes a deep copy of the IXpsOMGradientStop interface.
 old-location: xps\ixpsomgradientstop_clone.htm
 old-project: printdocs
 ms.assetid: ea4cdf1d-bb65-4a1b-b5bc-3eb1e90929ff
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMGradientStop interface, IXpsOMGradientStop interface [XPS Documents and Packaging],Clone method, IXpsOMGradientStop.Clone, IXpsOMGradientStop::Clone, xps.ixpsomgradientstop_clone, xpsobjectmodel/IXpsOMGradientStop::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

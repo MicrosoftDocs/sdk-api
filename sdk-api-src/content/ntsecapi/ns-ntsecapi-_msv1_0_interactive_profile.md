@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._MSV1_0_INTERACTIVE_PROFILE
 title: "_MSV1_0_INTERACTIVE_PROFILE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MSV1_0_INTERACTIVE_PROFILE structure contains information about an interactive logon profile. This structure is used by the LsaLogonUser function.
 old-location: security\msv1_0_interactive_profile.htm
 old-project: SecAuthN
 ms.assetid: 70592c29-0810-4d3b-bc5a-73165582a94b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PMSV1_0_INTERACTIVE_PROFILE, LOGON_EXTRA_SIDS, MSV1_0_INTERACTIVE_PROFILE, MSV1_0_INTERACTIVE_PROFILE structure [Security], PMSV1_0_INTERACTIVE_PROFILE, PMSV1_0_INTERACTIVE_PROFILE structure pointer [Security], _MSV1_0_INTERACTIVE_PROFILE, _lsa_msv1_0_interactive_profile, ntsecapi/MSV1_0_INTERACTIVE_PROFILE, ntsecapi/PMSV1_0_INTERACTIVE_PROFILE, security.msv1_0_interactive_profile"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

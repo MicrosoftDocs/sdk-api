@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509AttributeCspProvider.InitializeEncode
 title: IX509AttributeCspProvider::InitializeEncode
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the attribute from information about the provider.
 old-location: security\ix509attributecspprovider_initializeencode_method.htm
 old-project: SecCertEnroll
 ms.assetid: b0b45ea2-b682-4065-8624-08c34581b5ea
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509AttributeCspProvider interface [Security],InitializeEncode method, IX509AttributeCspProvider.InitializeEncode, IX509AttributeCspProvider::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeCspProvider interface, certenroll/IX509AttributeCspProvider::InitializeEncode, security.ix509attributecspprovider_initializeencode_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

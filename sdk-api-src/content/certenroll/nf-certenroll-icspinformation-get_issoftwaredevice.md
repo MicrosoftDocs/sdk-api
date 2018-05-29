@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICspInformation.get_IsSoftwareDevice
 title: ICspInformation::get_IsSoftwareDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the provider is implemented in software.
 old-location: security\icspinformation_issoftwaredevice_property.htm
 old-project: SecCertEnroll
 ms.assetid: 50f78dcc-4d32-40c9-8153-f0b6ac72c03b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICspInformation interface [Security],IsSoftwareDevice property, ICspInformation.IsSoftwareDevice, ICspInformation.get_IsSoftwareDevice, ICspInformation::IsSoftwareDevice, ICspInformation::get_IsSoftwareDevice, IsSoftwareDevice property [Security], IsSoftwareDevice property [Security],ICspInformation interface, certenroll/ICspInformation::IsSoftwareDevice, certenroll/ICspInformation::get_IsSoftwareDevice, get_IsSoftwareDevice, security.icspinformation_issoftwaredevice_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

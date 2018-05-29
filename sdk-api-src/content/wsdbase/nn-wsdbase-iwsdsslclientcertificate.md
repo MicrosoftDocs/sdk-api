@@ -1,16 +1,16 @@
 ---
 UID: NN:wsdbase.IWSDSSLClientCertificate
 title: IWSDSSLClientCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the client SSL certificate.
 old-location: ncd\iwsdsslclientcertificate.htm
 old-project: WsdApi
 ms.assetid: d1b5eb99-7bbb-4881-8251-4362368dff88
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDSSLClientCertificate, IWSDSSLClientCertificate interface, IWSDSSLClientCertificate interface,described, ncd.iwsdsslclientcertificate, wsdbase/IWSDSSLClientCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

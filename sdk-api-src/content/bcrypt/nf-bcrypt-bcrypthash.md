@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptHash
 title: BCryptHash function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs a single hash computation. This is a convenience function that wraps calls to BCryptCreateHash, BCryptHashData, BCryptFinishHash, and BCryptDestroyHash.
 old-location: security\bcrypthash.htm
 old-project: SecCNG
 ms.assetid: F0FF9B6D-1345-480A-BE13-BE90547407BF
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptHash, BCryptHash function [Security], bcrypt/BCryptHash, security.bcrypthash
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

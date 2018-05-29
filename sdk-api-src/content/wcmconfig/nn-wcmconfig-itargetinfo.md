@@ -1,16 +1,16 @@
 ---
 UID: NN:wcmconfig.ITargetInfo
 title: ITargetInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the offline target information, specifically, file and registry locations as well as wow64 information.
 old-location: smi\itargetinfo.htm
 old-project: SMI
 ms.assetid: f1dd3c93-43ca-4804-8330-55acaccf8ea8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ITargetInfo, ITargetInfo interface [SMI], ITargetInfo interface [SMI],described, smi.itargetinfo, wcmconfig/ITargetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wcmconfig.h
 req.include-header: 

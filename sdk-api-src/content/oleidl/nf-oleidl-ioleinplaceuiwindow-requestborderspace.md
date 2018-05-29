@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleInPlaceUIWindow.RequestBorderSpace
 title: IOleInPlaceUIWindow::RequestBorderSpace
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether there is space available for tools to be installed around the object's window frame while the object is active in place.
 old-location: com\ioleinplaceuiwindow_requestborderspace.htm
 old-project: com
 ms.assetid: fd477b1d-e9a5-4b99-adf1-8e62de975730
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceUIWindow interface [COM],RequestBorderSpace method, IOleInPlaceUIWindow.RequestBorderSpace, IOleInPlaceUIWindow::RequestBorderSpace, RequestBorderSpace, RequestBorderSpace method [COM], RequestBorderSpace method [COM],IOleInPlaceUIWindow interface, _ole_ioleinplaceuiwindow_requestborderspace, com.ioleinplaceuiwindow_requestborderspace, oleidl/IOleInPlaceUIWindow::RequestBorderSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

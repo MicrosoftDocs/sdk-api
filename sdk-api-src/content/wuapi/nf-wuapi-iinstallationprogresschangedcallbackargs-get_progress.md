@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IInstallationProgressChangedCallbackArgs.get_Progress
 title: IInstallationProgressChangedCallbackArgs::get_Progress
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an interface that contains the progress of the asynchronous installation or uninstallation at the time the callback was made.
 old-location: wua\iinstallationprogresschangedcallbackargs_progress.htm
 old-project: Wua_Sdk
 ms.assetid: 362e4138-5ba0-4aba-bff3-bf0834d21059
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IInstallationProgressChangedCallbackArgs interface [Windows Update Agent],Progress property, IInstallationProgressChangedCallbackArgs.Progress, IInstallationProgressChangedCallbackArgs.get_Progress, IInstallationProgressChangedCallbackArgs::Progress, IInstallationProgressChangedCallbackArgs::get_Progress, Progress property [Windows Update Agent], Progress property [Windows Update Agent],IInstallationProgressChangedCallbackArgs interface, get_Progress, wua.iinstallationprogresschangedcallbackargs_progress, wuapi/IInstallationProgressChangedCallbackArgs::Progress, wuapi/IInstallationProgressChangedCallbackArgs::get_Progress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.SetInputSignature
 title: ID3D11FunctionLinkingGraph::SetInputSignature
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the input signature of the function-linking-graph.
 old-location: direct3d11\id3d11functionlinkinggraph_setinputsignature.htm
 old-project: direct3d11
 ms.assetid: 9108BA38-6A0A-4438-BC63-A80790E4A5F0
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11FunctionLinkingGraph interface [Direct3D 11],SetInputSignature method, ID3D11FunctionLinkingGraph.SetInputSignature, ID3D11FunctionLinkingGraph::SetInputSignature, SetInputSignature, SetInputSignature method [Direct3D 11], SetInputSignature method [Direct3D 11],ID3D11FunctionLinkingGraph interface, d3d11shader/ID3D11FunctionLinkingGraph::SetInputSignature, direct3d11.id3d11functionlinkinggraph_setinputsignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

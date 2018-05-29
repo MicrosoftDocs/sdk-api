@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.CollectLinkTargets
 title: IXpsOMPageReference::CollectLinkTargets
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IXpsOMNameCollection interface that contains the names of all the document subtree objects whose IsHyperlinkTarget property is set to TRUE.
 old-location: xps\ixpsompagereference_collectlinktargets.htm
 old-project: printdocs
 ms.assetid: 82c64e8a-d8fb-41e3-95f8-b8ca490eae78
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CollectLinkTargets, CollectLinkTargets method [XPS Documents and Packaging], CollectLinkTargets method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],CollectLinkTargets method, IXpsOMPageReference.CollectLinkTargets, IXpsOMPageReference::CollectLinkTargets, xps.ixpsompagereference_collectlinktargets, xpsobjectmodel/IXpsOMPageReference::CollectLinkTargets
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

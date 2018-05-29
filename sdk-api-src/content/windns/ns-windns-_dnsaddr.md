@@ -1,16 +1,16 @@
 ---
 UID: NS:windns._DnsAddr
 title: "_DnsAddr"
-author: windows-driver-content
+author: windows-sdk-content
 description: A DNS_ADDR structure stores an IPv4 or IPv6 address.
 old-location: dns\dns_addr.htm
 old-project: DNS
 ms.assetid: c14e6fc0-34b3-40e8-b9b8-61e4aea01677
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PDNS_ADDR, DNS_ADDR, DNS_ADDR structure [DNS], PDNS_ADDR, PDNS_ADDR structure pointer [DNS], _DnsAddr, dns.dns_addr, windns/DNS_ADDR, windns/PDNS_ADDR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:pla.IFolderActionCollection
 title: IFolderActionCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages a collection of FolderAction objects.To get this interface, access the IDataManager::FolderActions property.
 old-location: pla\ifolderactioncollection.htm
 old-project: PLA
 ms.assetid: 9b0ab26f-7e91-4d7a-9fd7-73332601dd7b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IFolderActionCollection, IFolderActionCollection interface [PLA], IFolderActionCollection interface [PLA],described, base.ifolderactioncollection, pla.ifolderactioncollection, pla/IFolderActionCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

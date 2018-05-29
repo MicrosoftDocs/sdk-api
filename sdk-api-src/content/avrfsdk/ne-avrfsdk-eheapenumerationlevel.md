@@ -1,16 +1,16 @@
 ---
 UID: NE:avrfsdk.eHeapEnumerationLevel
 title: eHeapEnumerationLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the enumeration operation should continue or stop.
 old-location: winprog\eheapenumerationlevel.htm
 old-project: DevNotes
 ms.assetid: f8260ae8-eb1e-45f4-babc-905f4af7e3b1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: HeapEnumerationEverything, HeapEnumerationStop, avrfsdk/HeapEnumerationEverything, avrfsdk/HeapEnumerationStop, avrfsdk/eHeapEnumerationLevel, base.eheapenumerationlevel, eHeapEnumerationLevel, eHeapEnumerationLevel enumeration [Windows API], winprog.eheapenumerationlevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: avrfsdk.h
 req.include-header: 

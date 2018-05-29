@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupConnectByAddress
 title: PeerGroupConnectByAddress function
-author: windows-driver-content
+author: windows-sdk-content
 description: Attempts to connect to the peer group that other peers with known IPv6 addresses are participating in.
 old-location: p2p\peergroupconnectbyaddress.htm
 old-project: P2PSdk
 ms.assetid: 44885110-fcb1-402a-86c6-1229b087165b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupConnectByAddress, PeerGroupConnectByAddress function [Peer Networking], p2p.peergroupconnectbyaddress, p2p/PeerGroupConnectByAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

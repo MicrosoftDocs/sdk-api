@@ -1,16 +1,16 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_KEY_INFO_ITEM
 title: "_CRYPT_XML_KEY_INFO_ITEM"
-author: windows-driver-content
+author: windows-sdk-content
 description: Encapsulates key information data that corresponds to a KeyInfo element. The KeyInfo element enables the recipient to obtain the key needed to validate the signature.
 old-location: security\crypt_xml_key_info_item.htm
 old-project: SecCrypto
 ms.assetid: 3fbb1623-d493-49f1-a004-74ec8d22520e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_XML_KEYINFO_TYPE_CUSTOM, CRYPT_XML_KEYINFO_TYPE_KEYNAME, CRYPT_XML_KEYINFO_TYPE_KEYVALUE, CRYPT_XML_KEYINFO_TYPE_RETRIEVAL, CRYPT_XML_KEYINFO_TYPE_X509DATA, CRYPT_XML_KEY_INFO_ITEM, CRYPT_XML_KEY_INFO_ITEM structure [Security], _CRYPT_XML_KEY_INFO_ITEM, cryptxml/CRYPT_XML_KEY_INFO_ITEM, security.crypt_xml_key_info_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 

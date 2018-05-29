@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty
 title: IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IPropertyDescription object that represents the related property.
 old-location: properties\IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty.htm
 old-project: properties
 ms.assetid: 735880dc-4cf2-4f4a-b9fc-f4dddd19415d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetRelatedProperty, GetRelatedProperty method [Windows Properties], GetRelatedProperty method [Windows Properties],IPropertyDescriptionRelatedPropertyInfo interface, IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties],GetRelatedProperty method, IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty, IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty, _shell_IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty, properties.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty, propsys/IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty, shell.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

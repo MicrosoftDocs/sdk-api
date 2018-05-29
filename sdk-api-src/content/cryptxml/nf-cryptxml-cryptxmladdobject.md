@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptxml.CryptXmlAddObject
 title: CryptXmlAddObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the Object element to the Signature in the Document Context opened for encoding.
 old-location: security\cryptxmladdobject.htm
 old-project: SecCrypto
 ms.assetid: 906c17a2-d8f3-4f90-a697-432cae7c789a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_XML_ADD_OBJECT_CREATE_REFERENCE, CryptXmlAddObject, CryptXmlAddObject function [Security], cryptxml/CryptXmlAddObject, security.cryptxmladdobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

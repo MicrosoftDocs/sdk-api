@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMMutualExclusion
 title: IWMMutualExclusion
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMMutualExclusion interface represents a group of streams, of which only one at a time can be played.IWMMutualExclusion is the base interface for mutual exclusion objects.
 old-location: wmformat\iwmmutualexclusion.htm
 old-project: wmformat
 ms.assetid: 040635fb-de00-4c8c-9c39-c28c409311c3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMMutualExclusion, IWMMutualExclusion interface [windows Media Format], IWMMutualExclusion interface [windows Media Format],described, IWMMutualExclusionInterface, wmformat.iwmmutualexclusion, wmsdkidl/IWMMutualExclusion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

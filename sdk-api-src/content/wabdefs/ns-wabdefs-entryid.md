@@ -1,16 +1,16 @@
 ---
 UID: NS:wabdefs.ENTRYID
 title: ENTRYID
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. Contains the entry identifier information for a MAPI object.
 old-location: wab\_wab_ENTRYID.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\entryid.htm
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPENTRYID, ENTRYID, ENTRYID structure [Windows Address Book], LPENTRYID, LPENTRYID structure pointer [Windows Address Book], _wab_ENTRYID, wab._wab_ENTRYID, wabdefs/ENTRYID, wabdefs/LPENTRYID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

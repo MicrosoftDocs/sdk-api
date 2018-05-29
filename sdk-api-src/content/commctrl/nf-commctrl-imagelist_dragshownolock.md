@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ImageList_DragShowNolock
 title: ImageList_DragShowNolock function
-author: windows-driver-content
+author: windows-sdk-content
 description: Shows or hides the image being dragged.
 old-location: controls\ImageList_DragShowNolock.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragshownolock.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ImageList_DragShowNolock, ImageList_DragShowNolock function [Windows Controls], _win32_ImageList_DragShowNolock, _win32_ImageList_DragShowNolock_cpp, commctrl/ImageList_DragShowNolock, controls.ImageList_DragShowNolock, controls._win32_ImageList_DragShowNolock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

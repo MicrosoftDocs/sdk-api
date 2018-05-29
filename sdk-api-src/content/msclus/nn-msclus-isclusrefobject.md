@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusRefObject
 title: ISClusRefObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a cluster reference object.
 old-location: mscs\clusrefobject.htm
 old-project: MsCS
 ms.assetid: 0136CF16-7814-4EC7-9117-D3C0CF3A8216
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusRefObject, ClusRefObject object [Failover Cluster], ClusRefObject object [Failover Cluster],described, ISClusRefObject, msclus/ClusRefObject, mscs.clusrefobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

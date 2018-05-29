@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertFindSubjectInSortedCTL
 title: CertFindSubjectInSortedCTL function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertFindSubjectInSortedCTL function attempts to find the specified subject in a sorted certificate trust list (CTL).
 old-location: security\certfindsubjectinsortedctl.htm
 old-project: SecCrypto
 ms.assetid: 027e89e6-3de0-440d-be70-2281778f9a1e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertFindSubjectInSortedCTL, CertFindSubjectInSortedCTL function [Security], _crypto2_certfindsubjectinsortedctl, security.certfindsubjectinsortedctl, wincrypt/CertFindSubjectInSortedCTL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

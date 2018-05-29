@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_METADATA_SECTION
 title: "_WSD_METADATA_SECTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a section of metadata in a generic form.
 old-location: ncd\wsd_metadata_section_struct.htm
 old-project: WsdApi
 ms.assetid: e3e39d0a-6fb1-4cb9-b399-6ffe0e73ba91
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_METADATA_SECTION, WSD_METADATA_SECTION structure, _WSD_METADATA_SECTION, http://schemas.xmlsoap.org/ws/2006/02/devprof/Relationship, http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisDevice, http://schemas.xmlsoap.org/ws/2006/02/devprof/ThisModel, ncd.wsd_metadata_section_struct, wsdtypes/WSD_METADATA_SECTION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

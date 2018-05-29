@@ -1,16 +1,16 @@
 ---
 UID: NS:wincodec.WICJpegFrameHeader
 title: WICJpegFrameHeader
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a JPEG frame header.
 old-location: wic\wicjpegframeheader.htm
 old-project: wic
 ms.assetid: BB207D78-9E27-49A4-91E4-601CED109389
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICJpegFrameHeader, WICJpegFrameHeader structure [Windows Imaging Component], wic.wicjpegframeheader, wincodec/WICJpegFrameHeader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincodec.h
 req.include-header: 

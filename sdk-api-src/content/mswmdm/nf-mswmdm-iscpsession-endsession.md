@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.ISCPSession.EndSession
 title: ISCPSession::EndSession
-author: windows-driver-content
+author: windows-sdk-content
 description: The EndSession method indicates the ending of a transfer session.
 old-location: wmdm\iscpsession_endsession.htm
 old-project: WMDM
 ms.assetid: 322794ae-f8cd-4e2d-a329-728d281755cd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EndSession, EndSession method [windows Media Device Manager], EndSession method [windows Media Device Manager],ISCPSession interface, ISCPSession interface [windows Media Device Manager],EndSession method, ISCPSession.EndSession, ISCPSession::EndSession, ISCPSessionEndSession, mswmdm/ISCPSession::EndSession, wmdm.iscpsession_endsession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

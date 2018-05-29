@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IPsecKeyManagerUnregisterAndDelete0
 title: IPsecKeyManagerUnregisterAndDelete0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters a Trusted Intermediary Agent (TIA) which had previously been registered with IPsec.
 old-location: fwp\ipseckeymanagerunregisteranddelete0.htm
 old-project: FWP
 ms.assetid: 6A200451-3528-4728-A2D1-643385BA23E6
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPsecKeyManagerUnregisterAndDelete0, IPsecKeyManagerUnregisterAndDelete0 function [Filtering], fwp.ipseckeymanagerunregisteranddelete0, fwpmu/IPsecKeyManagerUnregisterAndDelete0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

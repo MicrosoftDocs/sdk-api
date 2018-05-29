@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetInputMode
 title: IDirectManipulationViewport::SetInputMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies if input is visible to the UI thread.
 old-location: directmanipulation\idirectmanipulationviewport_setinputmode.htm
 old-project: directmanipulation
 ms.assetid: 2be1c8a1-a729-4851-b103-b108b9a96e2d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetInputMode method, IDirectManipulationViewport.SetInputMode, IDirectManipulationViewport::SetInputMode, SetInputMode, SetInputMode method [Direct Manipulation], SetInputMode method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setinputmode, directmanipulation/IDirectManipulationViewport::SetInputMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

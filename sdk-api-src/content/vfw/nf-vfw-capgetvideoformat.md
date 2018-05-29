@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capGetVideoFormat
 title: capGetVideoFormat macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capGetVideoFormat macro retrieves a copy of the video format in use. You can use this macro or explicitly call the WM_CAP_GET_VIDEOFORMAT message.
 old-location: multimedia\capgetvideoformat.htm
 old-project: Multimedia
 ms.assetid: 2013bf9c-3759-440a-a62c-2ba3c54441c1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capGetVideoFormat, capGetVideoFormat, capGetVideoFormat macro [Windows Multimedia], multimedia.capgetvideoformat, vfw/capGetVideoFormat"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

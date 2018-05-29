@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromUInt16Vector
 title: InitPropVariantFromUInt16Vector function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a vector of 16-bit unsigned integer values.
 old-location: properties\InitPropVariantFromUInt16Vector.htm
 old-project: properties
 ms.assetid: 2e0eebd9-c246-42a7-90a8-d27fff6a2eab
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitPropVariantFromUInt16Vector, InitPropVariantFromUInt16Vector function [Windows Properties], properties.InitPropVariantFromUInt16Vector, propvarutil/InitPropVariantFromUInt16Vector, shell.InitPropVariantFromUInt16Vector, shell_InitPropVariantFromUInt16Vector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

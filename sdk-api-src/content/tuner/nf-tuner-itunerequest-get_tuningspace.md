@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.ITuneRequest.get_TuningSpace
 title: ITuneRequest::get_TuningSpace
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_TuningSpace method retrieves the tuning space that was used to create this tune request.
 old-location: mstv\itunerequest_get_tuningspace.htm
 old-project: mstv
 ms.assetid: 6952df72-30f3-4c33-a0bf-d2ad8022042c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITuneRequest interface [Microsoft TV Technologies],get_TuningSpace method, ITuneRequest.get_TuningSpace, ITuneRequest::get_TuningSpace, ITuneRequestget_TuningSpace, get_TuningSpace, get_TuningSpace method [Microsoft TV Technologies], get_TuningSpace method [Microsoft TV Technologies],ITuneRequest interface, mstv.itunerequest_get_tuningspace, tuner/ITuneRequest::get_TuningSpace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

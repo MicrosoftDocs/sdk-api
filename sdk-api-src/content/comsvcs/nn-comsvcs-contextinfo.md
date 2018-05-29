@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ContextInfo
 title: ContextInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves transaction, activity, and context information on the current context object. Using the methods of this interface, you can retrieve relevant information contained within an object context.
 old-location: cos\contextinfo.htm
 old-project: cossdk
 ms.assetid: ef8d7ef7-fae4-4a20-80fb-18f5daa9b564
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ContextInfo, ContextInfo interface [COM+], ContextInfo interface [COM+],described, _cos_ContextInfo, comsvcs/ContextInfo, cos.contextinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

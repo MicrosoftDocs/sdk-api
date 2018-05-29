@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IMallocSpy.PostDidAlloc
 title: IMallocSpy::PostDidAlloc
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs operations required after calling IMalloc::DidAlloc.
 old-location: com\imallocspy_postdidalloc.htm
 old-project: com
 ms.assetid: 820ff316-9edd-4894-8461-fc532d439348
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMallocSpy interface [COM],PostDidAlloc method, IMallocSpy.PostDidAlloc, IMallocSpy::PostDidAlloc, PostDidAlloc, PostDidAlloc method [COM], PostDidAlloc method [COM],IMallocSpy interface, _com_imallocspy_postdidalloc, com.imallocspy_postdidalloc, objidl/IMallocSpy::PostDidAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

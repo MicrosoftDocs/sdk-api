@@ -1,16 +1,16 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectGroup
 title: IMILBitmapEffectGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods used to access a group of effects.
 old-location: wibe\_wibe_imilbitmapeffectgroup.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroup\imilbitmapeffectgroup.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: IMILBitmapEffectGroup, IMILBitmapEffectGroup interface [WPF Bitmap Effects], IMILBitmapEffectGroup interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectgroup, mileffects/IMILBitmapEffectGroup, wibe._wibe_imilbitmapeffectgroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mileffects.h
 req.include-header: 

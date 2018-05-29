@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern.get_DocumentRange
 title: IUIAutomationTextPattern::get_DocumentRange
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a text range that encloses the main text of a document.
 old-location: winauto\uiauto_IUIAutomationTextPattern_DocumentRange.htm
 old-project: WinAuto
 ms.assetid: 4234260a-6b3d-4f63-9082-9e225c614410
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: DocumentRange property [Windows Accessibility], DocumentRange property [Windows Accessibility],IUIAutomationTextPattern interface, IUIAutomationTextPattern interface [Windows Accessibility],DocumentRange property, IUIAutomationTextPattern.DocumentRange, IUIAutomationTextPattern.get_DocumentRange, IUIAutomationTextPattern::DocumentRange, IUIAutomationTextPattern::get_DocumentRange, get_DocumentRange, uiauto.uiauto_IUIAutomationTextPattern_DocumentRange, uiauto_IUIAutomationTextPattern_DocumentRange, uiautomationclient/IUIAutomationTextPattern::DocumentRange, uiautomationclient/IUIAutomationTextPattern::get_DocumentRange, winauto.uiauto_IUIAutomationTextPattern_DocumentRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

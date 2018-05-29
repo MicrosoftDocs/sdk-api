@@ -1,16 +1,16 @@
 ---
 UID: NN:pla.IDataCollectorCollection
 title: IDataCollectorCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages a collection of DataCollector objects.To get this interface, access the IDataCollectorSet::DataCollectors property.
 old-location: pla\idatacollectorcollection.htm
 old-project: PLA
 ms.assetid: 6b47fb9d-6ca4-4e6b-b117-027ef1e963ac
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollectorCollection, IDataCollectorCollection interface [PLA], IDataCollectorCollection interface [PLA],described, base.idatacollectorcollection, pla.idatacollectorcollection, pla/IDataCollectorCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: pla.h
 req.include-header: 

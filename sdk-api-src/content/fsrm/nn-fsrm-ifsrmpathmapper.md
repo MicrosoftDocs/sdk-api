@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrm.IFsrmPathMapper
 title: IFsrmPathMapper
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to retrieve the network share paths that are mapped to a local path.
 old-location: fsrm\ifsrmpathmapper.htm
 old-project: Fsrm
 ms.assetid: 04e62a10-1719-454b-adfb-6320e31c7a88
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmPathMapper, IFsrmPathMapper interface [File Server Resource Manager], IFsrmPathMapper interface [File Server Resource Manager],described, fs.ifsrmpathmapper, fsrm.ifsrmpathmapper, fsrm/IFsrmPathMapper
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h

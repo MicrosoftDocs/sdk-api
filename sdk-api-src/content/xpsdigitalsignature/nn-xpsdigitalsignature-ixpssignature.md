@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignature
 title: IXpsSignature
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a single digital signature.
 old-location: xps\ixpssignature.htm
 old-project: printdocs
 ms.assetid: 23e2f9bd-7b0b-46ef-8ce3-a0c63be554e5
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsSignature, IXpsSignature interface [XPS Documents and Packaging], IXpsSignature interface [XPS Documents and Packaging],described, xps.ixpssignature, xpsdigitalsignature/IXpsSignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsdigitalsignature.h
 req.include-header: 

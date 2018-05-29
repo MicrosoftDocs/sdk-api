@@ -1,16 +1,16 @@
 ---
 UID: NN:structuredquery.ISchemaLocalizerSupport
 title: ISchemaLocalizerSupport
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method for localizing keywords in a specified string.
 old-location: search\_search_ISchemaLocalizerSupport.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemalocalizersupport\ischemalocalizersupport.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISchemaLocalizerSupport, ISchemaLocalizerSupport interface [search], ISchemaLocalizerSupport interface [search],described, _search_ISchemaLocalizerSupport, search._search_ISchemaLocalizerSupport, structuredquery/ISchemaLocalizerSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: structuredquery.h
 req.include-header: 

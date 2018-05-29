@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_GET_CERT_CALLBACK
 title: WS_GET_CERT_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a certificate to the security runtime.
 old-location: wsw\ws_get_cert_callback.htm
 old-project: wsw
 ms.assetid: 36e787ff-f6bc-4814-be3f-a64f3edc2326
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_GET_CERT_CALLBACK, WS_GET_CERT_CALLBACK callback, WS_GET_CERT_CALLBACK callback function [Web Services for Windows], webservices/WS_GET_CERT_CALLBACK, wsw.ws_get_cert_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3dcompiler.D3DGetBlobPart
 title: D3DGetBlobPart function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a specific part from a compilation result.
 old-location: direct3dhlsl\d3dgetblobpart.htm
 old-project: direct3dhlsl
 ms.assetid: cf9cea53-e7a3-4473-bfdf-0cdeb8370974
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: D3DGetBlobPart, D3DGetBlobPart function [HLSL], d3dcompiler/D3DGetBlobPart, direct3dhlsl.d3dgetblobpart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 

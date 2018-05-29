@@ -1,16 +1,16 @@
 ---
 UID: NS:wsman._WSMAN_AUTHENTICATION_CREDENTIALS
 title: "_WSMAN_AUTHENTICATION_CREDENTIALS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the authentication method and the credentials used for server or proxy authentication.
 old-location: winrm\wsman_authentication_credentials.htm
 old-project: WinRM
 ms.assetid: e9090d88-c76e-4a85-946e-ff46403e6725
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSMAN_AUTHENTICATION_CREDENTIALS, WSMAN_AUTHENTICATION_CREDENTIALS structure [Windows Remote Management], _WSMAN_AUTHENTICATION_CREDENTIALS, winrm.wsman_authentication_credentials, wsman/WSMAN_AUTHENTICATION_CREDENTIALS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:vdslun._VDS_INTERCONNECT
 title: "_VDS_INTERCONNECT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the address data of a physical interconnect.
 old-location: base\vds_interconnect.htm
 old-project: VDS
 ms.assetid: fc9f532b-a37f-4338-95db-6ec988131211
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_INTERCONNECT, VDS_INTERCONNECT structure [VDS], _VDS_INTERCONNECT, base.vds_interconnect, vdslun/_VDS_INTERCONNECT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdslun.h
 req.include-header: Vds.h, VdsHwPrv.h for hardware providers

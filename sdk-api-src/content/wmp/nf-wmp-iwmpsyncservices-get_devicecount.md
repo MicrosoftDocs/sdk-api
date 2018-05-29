@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPSyncServices.get_deviceCount
 title: IWMPSyncServices::get_deviceCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_deviceCount method retrieves the number of available devices.
 old-location: wmp\iwmpsyncservices_get_devicecount.htm
 old-project: WMP
 ms.assetid: dde5b3c8-ea22-403c-ae69-05dc7f2efdda
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSyncServices interface [Windows Media Player],get_deviceCount method, IWMPSyncServices.get_deviceCount, IWMPSyncServices::get_deviceCount, IWMPSyncServicesget_deviceCount, get_deviceCount, get_deviceCount method [Windows Media Player], get_deviceCount method [Windows Media Player],IWMPSyncServices interface, wmp.iwmpsyncservices_get_devicecount, wmp/IWMPSyncServices::get_deviceCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

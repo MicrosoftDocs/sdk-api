@@ -1,16 +1,16 @@
 ---
 UID: NS:oaidl.tagCUSTDATAITEM
 title: tagCUSTDATAITEM
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a custom data item.
 old-location: automat\custdataitem.htm
 old-project: automat
 ms.assetid: dae0f1be-0b77-4af6-9983-d8cb313e5276
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: "*LPCUSTDATAITEM, CUSTDATAITEM, CUSTDATAITEM structure [Automation], LPCUSTDATAITEM, LPCUSTDATAITEM structure pointer [Automation], _oa96_CUSTDATAITEM, automat.custdataitem, oaidl/CUSTDATAITEM, oaidl/LPCUSTDATAITEM, tagCUSTDATAITEM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_OR_CRL_BLOB
 title: "_CERT_OR_CRL_BLOB"
-author: windows-driver-content
+author: windows-sdk-content
 description: Encapsulates certificates for use with Internet Key Exchange messages.
 old-location: security\cert_or_crl_blob.htm
 old-project: SecCrypto
 ms.assetid: f1e37c8f-7fca-4bf1-868f-8ec03a23a434
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_OR_CRL_BLOB, CERT_BUNDLE_CERTIFICATE, CERT_BUNDLE_CRL, CERT_OR_CRL_BLOB, CERT_OR_CRL_BLOB structure [Security], PCERT_OR_CRL_BLOB, PCERT_OR_CRL_BLOB structure pointer [Security], _CERT_OR_CRL_BLOB, security.cert_or_crl_blob, wincrypt/CERT_OR_CRL_BLOB, wincrypt/PCERT_OR_CRL_BLOB"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

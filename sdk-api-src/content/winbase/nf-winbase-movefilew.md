@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.MoveFileW
 title: MoveFileW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves an existing file or a directory, including its children.
 old-location: fs\movefile.htm
 old-project: FileIO
 ms.assetid: baa3cc02-0a61-4463-b2f1-0d7aaefa126b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: MoveFile, MoveFile function [Files], MoveFileA, MoveFileW, _win32_movefile, base.movefile, fs.movefile, rename file [Files], winbase/MoveFile, winbase/MoveFileA, winbase/MoveFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

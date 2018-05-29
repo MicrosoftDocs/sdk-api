@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESOURCE_CONTROL_ROUTINE
 title: PRESOURCE_CONTROL_ROUTINE
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs an operation that applies to a resource.
 old-location: mscs\resourcecontrol.htm
 old-project: MsCS
 ms.assetid: a9c64471-41fa-4101-9a02-ad57add8124c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESOURCE_CONTROL_ROUTINE, PRESOURCE_CONTROL_ROUTINE callback function [Failover Cluster], ResourceControl, ResourceControl callback, ResourceControl callback function [Failover Cluster], _wolf_resourcecontrol, mscs.resourcecontrol, resapi/PRESOURCE_CONTROL_ROUTINE, resapi/ResourceControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

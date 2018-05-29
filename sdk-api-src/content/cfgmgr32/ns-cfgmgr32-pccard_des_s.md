@@ -1,16 +1,16 @@
 ---
 UID: NS:cfgmgr32.PcCard_Des_s
 title: PcCard_Des_s
-author: windows-driver-content
+author: windows-sdk-content
 description: The PCCARD_DES structure is used for specifying either a resource list or a resource requirements list that describes resource usage by a PC Card instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
 old-location: devinst\pccard_des.htm
 old-project: devinst
 ms.assetid: d1bf4d50-70e1-4eff-8973-0b83a31f55fc
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PPCCARD_DES, PCCARD_DES, PCCARD_DES structure [Device and Driver Installation], PPCCARD_DES, PPCCARD_DES structure pointer [Device and Driver Installation], PcCard_Des_s, cfgmgr32/PCCARD_DES, cfgmgr32/PPCCARD_DES, cfgmgrst_c82ff49b-4ae5-478d-a981-26d75408b157.xml, devinst.pccard_des"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

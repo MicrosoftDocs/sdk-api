@@ -1,16 +1,16 @@
 ---
 UID: NE:gdiplusenums.InterpolationMode
 title: InterpolationMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The InterpolationMode enumeration specifies the algorithm that is used when images are scaled or rotated. This enumeration is used by the Graphics::GetInterpolationMode and Graphics::SetInterpolationMode methods of the Graphics class.
 old-location: gdiplus\_gdiplus_ENUM_InterpolationMode.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\interpolationmode.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InterpolationMode, InterpolationMode enumeration [GDI+], InterpolationModeBicubic, InterpolationModeBilinear, InterpolationModeDefault, InterpolationModeHighQuality, InterpolationModeHighQualityBicubic, InterpolationModeHighQualityBilinear, InterpolationModeInvalid, InterpolationModeLowQuality, InterpolationModeNearestNeighbor, _gdiplus_ENUM_InterpolationMode, gdiplus._gdiplus_ENUM_InterpolationMode, gdiplusenums/InterpolationMode, gdiplusenums/InterpolationModeBicubic, gdiplusenums/InterpolationModeBilinear, gdiplusenums/InterpolationModeDefault, gdiplusenums/InterpolationModeHighQuality, gdiplusenums/InterpolationModeHighQualityBicubic, gdiplusenums/InterpolationModeHighQualityBilinear, gdiplusenums/InterpolationModeInvalid, gdiplusenums/InterpolationModeLowQuality, gdiplusenums/InterpolationModeNearestNeighbor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

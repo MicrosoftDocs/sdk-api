@@ -1,16 +1,16 @@
 ---
 UID: NF:directxmath.XMComparisonAnyOutOfBounds
 title: XMComparisonAnyOutOfBounds function
-author: windows-driver-content
+author: windows-sdk-content
 description: Tests the comparison value to determine if any of the compared components are outside the set bounds.
 old-location: dxmath\xmcomparisonanyoutofbounds.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonAnyOutOfBounds(uint32_t)
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: Use DirectX..XMComparisonAnyOutOfBounds, XMComparisonAnyOutOfBounds, XMComparisonAnyOutOfBounds method [DirectX Math Support APIs], dxmath.xmcomparisonanyoutofbounds
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

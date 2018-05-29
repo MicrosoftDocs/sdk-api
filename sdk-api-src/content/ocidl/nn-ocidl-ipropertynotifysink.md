@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IPropertyNotifySink
 title: IPropertyNotifySink
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by a sink object to receive notifications about property changes from an object that supports IPropertyNotifySink as an outgoing interface.
 old-location: com\ipropertynotifysink.htm
 old-project: com
 ms.assetid: bfdf315c-6375-4c77-abd8-03f07342820f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyNotifySink, IPropertyNotifySink interface [COM], IPropertyNotifySink interface [COM],described, _ctrl_ipropertynotifysink, com.ipropertynotifysink, ocidl/IPropertyNotifySink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

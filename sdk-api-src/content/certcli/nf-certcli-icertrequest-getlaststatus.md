@@ -1,16 +1,16 @@
 ---
 UID: NF:certcli.ICertRequest.GetLastStatus
 title: ICertRequest::GetLastStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the last return code for this request. This returns the error code information, rather than the disposition of the request.
 old-location: security\icertrequest2_getlaststatus.htm
 old-project: SecCrypto
 ms.assetid: ebe5cfa7-6bfd-4454-9272-64e3b1bf0ae2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertRequest object [Security],GetLastStatus method, GetLastStatus, GetLastStatus method [Security], GetLastStatus method [Security],CCertRequest object, GetLastStatus method [Security],ICertRequest interface, GetLastStatus method [Security],ICertRequest2 interface, GetLastStatus method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetLastStatus method, ICertRequest.GetLastStatus, ICertRequest2 interface [Security],GetLastStatus method, ICertRequest2::GetLastStatus, ICertRequest3 interface [Security],GetLastStatus method, ICertRequest3::GetLastStatus, ICertRequest::GetLastStatus, certcli/ICertRequest2::GetLastStatus, certcli/ICertRequest3::GetLastStatus, certcli/ICertRequest::GetLastStatus, security.icertrequest2_getlaststatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h

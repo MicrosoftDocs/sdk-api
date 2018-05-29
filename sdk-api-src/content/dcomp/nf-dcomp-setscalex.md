@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetScaleX
 title: SetScaleX function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes or animates the value of the ScaleX property of a 3D scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setscalex_overloaded.htm
 old-project: directcomp
 ms.assetid: 96A7B9EC-7CD9-489F-AB97-A297321BDACD
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionScaleTransform3D::SetScaleX, SetScaleX, SetScaleX methods [DirectComposition], dcomp/SetScaleX, directcomp.idcompositionscaletransform3d_setscalex_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

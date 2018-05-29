@@ -1,16 +1,16 @@
 ---
 UID: NN:msinkaut.IInkTablet
 title: IInkTablet
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the digitizer device of Tablet PC that receives tablet device messages or events.
 old-location: tablet\iinktablet.htm
 old-project: tablet
 ms.assetid: 9a945740-b191-41f5-8b3d-49b7e2d1e463
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 9a945740-b191-41f5-8b3d-49b7e2d1e463, IInkTablet, IInkTablet interface [Tablet PC], IInkTablet interface [Tablet PC],described, msinkaut/IInkTablet, tablet.iinktablet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

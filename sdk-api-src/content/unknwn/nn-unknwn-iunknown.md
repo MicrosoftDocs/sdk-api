@@ -1,16 +1,16 @@
 ---
 UID: NN:unknwn.IUnknown
 title: IUnknown
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables clients to get pointers to other interfaces on a given object through the QueryInterface method, and manage the existence of the object through the AddRef and Release methods.
 old-location: com\iunknown.htm
 old-project: com
 ms.assetid: 33f1d79a-33fc-4ce5-a372-e08bda378332
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IUnknown, IUnknown interface [COM], IUnknown interface [COM],described, _com_iunknown, com.iunknown, unknwn/IUnknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: unknwn.h
 req.include-header: 

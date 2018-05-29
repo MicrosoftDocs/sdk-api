@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChangeBatchAdvanced.GetBatchLevelKnowledgeShouldBeApplied
 title: ISyncChangeBatchAdvanced::GetBatchLevelKnowledgeShouldBeApplied
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that indicates whether the learned knowledge for the batch must be saved after the batch is applied to the destination replica.
 old-location: winsync\isyncchangebatchadvanced_getbatchlevelknowledgeshouldbeapplied.htm
 old-project: winsync
 ms.assetid: 911ac2dd-a8df-4f71-81da-032219664453
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetBatchLevelKnowledgeShouldBeApplied, GetBatchLevelKnowledgeShouldBeApplied method [Windows Sync], GetBatchLevelKnowledgeShouldBeApplied method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],GetBatchLevelKnowledgeShouldBeApplied method, ISyncChangeBatchAdvanced.GetBatchLevelKnowledgeShouldBeApplied, ISyncChangeBatchAdvanced::GetBatchLevelKnowledgeShouldBeApplied, winsync.isyncchangebatchadvanced_getbatchlevelknowledgeshouldbeapplied, winsync/ISyncChangeBatchAdvanced::GetBatchLevelKnowledgeShouldBeApplied
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

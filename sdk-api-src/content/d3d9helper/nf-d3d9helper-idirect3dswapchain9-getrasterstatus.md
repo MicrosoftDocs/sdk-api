@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DSwapChain9.GetRasterStatus
 title: IDirect3DSwapChain9::GetRasterStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns information describing the raster of the monitor on which the swap chain is presented.
 old-location: direct3d9\idirect3dswapchain9__getrasterstatus.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dswapchain9__getrasterstatus.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 4aff9086-c86f-2455-7c76-8c5de15bd4bd, GetRasterStatus, GetRasterStatus method [Direct3D 9], GetRasterStatus method [Direct3D 9],IDirect3DSwapChain9 interface, IDirect3DSwapChain9 interface [Direct3D 9],GetRasterStatus method, IDirect3DSwapChain9.GetRasterStatus, IDirect3DSwapChain9::GetRasterStatus, d3d9helper/IDirect3DSwapChain9::GetRasterStatus, direct3d9.idirect3dswapchain9__getrasterstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

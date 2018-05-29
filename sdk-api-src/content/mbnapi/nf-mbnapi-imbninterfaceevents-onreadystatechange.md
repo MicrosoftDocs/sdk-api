@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnReadyStateChange
 title: IMbnInterfaceEvents::OnReadyStateChange
-author: windows-driver-content
+author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate a change in an interface's ready state.
 old-location: mbn\imbninterfaceevents_onreadystatechange.htm
 old-project: mbn
 ms.assetid: eb4364b8-cbbf-44c7-ae13-66950ce614e9
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnReadyStateChange method, IMbnInterfaceEvents.OnReadyStateChange, IMbnInterfaceEvents::OnReadyStateChange, OnReadyStateChange, OnReadyStateChange method [Microsoft Broadband Networks], OnReadyStateChange method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_onreadystatechange, mbnapi/IMbnInterfaceEvents::OnReadyStateChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:bits3_0.IBackgroundCopyFile3
 title: IBackgroundCopyFile3
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to retrieve the name of the temporary file that contains the downloaded content and to validate the file so that peers can request its content.
 old-location: bits\ibackgroundcopyfile3.htm
 old-project: Bits
 ms.assetid: 5304f93a-993a-4327-9fdb-fb2ef1dafecb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBackgroundCopyFile3, IBackgroundCopyFile3 interface [BITS], IBackgroundCopyFile3 interface [BITS],described, bits.ibackgroundcopyfile3, bits3_0/IBackgroundCopyFile3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits3_0.h
 req.include-header: Bits.h

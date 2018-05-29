@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_CurrentPhysicalMediaType
 title: IDiscFormat2Data::get_CurrentPhysicalMediaType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the type of media in the disc device.
 old-location: imapi\idiscformat2data_get_currentphysicalmediatype.htm
 old-project: imapi
 ms.assetid: 6b9a80fc-6ef5-4102-9361-313d33f182ab
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_CurrentPhysicalMediaType method, IDiscFormat2Data.get_CurrentPhysicalMediaType, IDiscFormat2Data::get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType method [IMAPI], get_CurrentPhysicalMediaType method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_currentphysicalmediatype, imapi2/IDiscFormat2Data::get_CurrentPhysicalMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

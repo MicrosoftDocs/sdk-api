@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.ReportIScsiSendTargetPortalsExW
 title: ReportIScsiSendTargetPortalsExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: ReportIscsiSendTargetPortalsEx function retrieves a list of static target portals that the iSCSI initiator service uses to perform automatic discovery with SendTarget requests.
 old-location: iscsidisc\reportiscsisendtargetportalsex.htm
 old-project: iSCSIDisc
 ms.assetid: bf67ff5c-77b5-42ec-81b3-86b98e216d81
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ReportIScsiSendTargetPortalsExW, ReportIscsiSendTargetPortalsEx, ReportIscsiSendTargetPortalsEx function [iSCSI Discovery Library API], ReportIscsiSendTargetPortalsExA, ReportIscsiSendTargetPortalsExW, iscsidisc.reportiscsisendtargetportalsex, iscsidsc/ReportIscsiSendTargetPortalsEx, iscsidsc/ReportIscsiSendTargetPortalsExA, iscsidsc/ReportIscsiSendTargetPortalsExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

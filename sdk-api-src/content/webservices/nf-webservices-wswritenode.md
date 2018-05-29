@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsWriteNode
 title: WsWriteNode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes the specified node to the XML Writer.
 old-location: wsw\wswritenode.htm
 old-project: wsw
 ms.assetid: ea2e511c-f3a6-415a-8a2d-a49e321b69d7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsWriteNode, WsWriteNode function [Web Services for Windows], webservices/WsWriteNode, wsw.wswritenode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

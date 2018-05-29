@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISDomainNames
 title: ISDomainNames
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the names of the domains on a network.
 old-location: mscs\domainnames_collection.htm
 old-project: MsCS
 ms.assetid: e7f806a7-02e7-41be-b8b9-60351180e748
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DomainNames, DomainNames collection [Failover Cluster], DomainNames collection [Failover Cluster],described, ISDomainNames, _wolf_domainnames_collection, msclus/DomainNames, mscs.domainnames_collection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

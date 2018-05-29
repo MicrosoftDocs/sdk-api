@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetName
 title: IRecordInfo::GetName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name of the record type.
 old-location: automat\irecordinfo_getname.htm
 old-project: automat
 ms.assetid: b769f792-45cb-4070-9be7-0b95b17a9ed8
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetName, GetName method [Automation], GetName method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetName method, IRecordInfo.GetName, IRecordInfo::GetName, _oa96_IRecordInfo_GetName, automat.irecordinfo_getname, oaidl/IRecordInfo::GetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

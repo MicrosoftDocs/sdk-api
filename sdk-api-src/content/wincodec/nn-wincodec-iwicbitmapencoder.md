@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICBitmapEncoder
 title: IWICBitmapEncoder
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods for setting an encoder's properties such as thumbnails, frames, and palettes.
 old-location: wic\_wic_codec_iwicbitmapencoder.htm
 old-project: wic
 ms.assetid: fe87c9ae-dedf-4ec2-ac11-0ea5fc6aa3ad
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapEncoder, IWICBitmapEncoder interface [Windows Imaging Component], IWICBitmapEncoder interface [Windows Imaging Component],described, _wic_codec_iwicbitmapencoder, wic._wic_codec_iwicbitmapencoder, wincodec/IWICBitmapEncoder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

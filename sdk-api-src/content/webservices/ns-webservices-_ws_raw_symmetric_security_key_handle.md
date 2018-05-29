@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
 title: "_WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The type for specifying a symmetric cryptographic key as raw bytes.
 old-location: wsw\ws_raw_symmetric_security_key_handle.htm
 old-project: wsw
 ms.assetid: 8c2c664b-2ee4-4647-a219-119eb5c5a0f6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE, WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows], _WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE, webservices/WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE, wsw.ws_raw_symmetric_security_key_handle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

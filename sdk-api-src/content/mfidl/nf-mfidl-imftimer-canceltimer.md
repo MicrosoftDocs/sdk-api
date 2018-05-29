@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFTimer.CancelTimer
 title: IMFTimer::CancelTimer
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels a timer that was set using the IMFTimer::SetTimer method.
 old-location: mf\imftimer_canceltimer.htm
 old-project: medfound
 ms.assetid: 3fa65809-1652-4903-92ad-1034bcdf0743
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 3fa65809-1652-4903-92ad-1034bcdf0743, CancelTimer, CancelTimer method [Media Foundation], CancelTimer method [Media Foundation],IMFTimer interface, IMFTimer interface [Media Foundation],CancelTimer method, IMFTimer.CancelTimer, IMFTimer::CancelTimer, mf.imftimer_canceltimer, mfidl/IMFTimer::CancelTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

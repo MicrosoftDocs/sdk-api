@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_CLOSE_CLUSTER
 title: PCLUSAPI_CLOSE_CLUSTER
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a cluster handle.
 old-location: mscs\closecluster.htm
 old-project: MsCS
 ms.assetid: cf055fd6-b1e1-4262-b205-c7d926522450
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_CLOSE_CLUSTER, PCLUSAPI_CLOSE_CLUSTER callback, PCLUSAPI_CLOSE_CLUSTER callback function [Failover Cluster], _wolf_closecluster, clusapi/PCLUSAPI_CLOSE_CLUSTER, mscs.closecluster
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

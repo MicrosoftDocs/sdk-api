@@ -1,16 +1,16 @@
 ---
 UID: NN:wsmandisp.IWSManConnectionOptionsEx
 title: IWSManConnectionOptionsEx
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWSManConnectionOptionsEx object is passed to the IWSMan::CreateSession method to provide the thumbprint of the client certificate used for authentication.
 old-location: winrm\iwsmanconnectionoptionsex.htm
 old-project: WinRM
 ms.assetid: aa47c9bf-6c7d-41c2-a29b-929600ee371a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSManConnectionOptionsEx, IWSManConnectionOptionsEx interface [Windows Remote Management], IWSManConnectionOptionsEx interface [Windows Remote Management],described, winrm.iwsmanconnectionoptionsex, wsmandisp/IWSManConnectionOptionsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsmandisp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSilo.GetInfo
 title: IEnhancedStorageSilo::GetInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the descriptive information associated with the silo object.
 old-location: enstor\ienhancedstoragesilo_getinfo.htm
 old-project: enstor
 ms.assetid: c3d84462-fb2c-4ad7-b539-1d6c775812dd
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetInfo, GetInfo method [Enhanced Storage], GetInfo method [Enhanced Storage],IEnhancedStorageSilo interface, IEnhancedStorageSilo interface [Enhanced Storage],GetInfo method, IEnhancedStorageSilo.GetInfo, IEnhancedStorageSilo::GetInfo, ehstorapi/IEnhancedStorageSilo::GetInfo, enstor.ienhancedstoragesilo_getinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 

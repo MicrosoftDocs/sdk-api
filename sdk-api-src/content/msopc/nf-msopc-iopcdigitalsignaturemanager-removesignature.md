@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.RemoveSignature
 title: IOpcDigitalSignatureManager::RemoveSignature
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes from the package a specified signature part that stores signature markup.
 old-location: opc\iopcdigitalsignaturemanager_removesignature.htm
 old-project: OPC
 ms.assetid: bc022b81-f61d-4efa-9c68-f798b2d929c2
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],RemoveSignature method, IOpcDigitalSignatureManager.RemoveSignature, IOpcDigitalSignatureManager::RemoveSignature, RemoveSignature, RemoveSignature method [Open Packaging Conventions], RemoveSignature method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::RemoveSignature, opc.iopcdigitalsignaturemanager_removesignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

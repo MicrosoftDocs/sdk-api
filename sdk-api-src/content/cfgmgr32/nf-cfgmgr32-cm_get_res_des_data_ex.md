@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Res_Des_Data_Ex
 title: CM_Get_Res_Des_Data_Ex function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_Res_Des_Data_Ex function retrieves the information stored in a resource descriptor on a local or a remote machine.
 old-location: devinst\cm_get_res_des_data_ex.htm
 old-project: devinst
 ms.assetid: fc7dc2d6-f4ef-4da7-af51-92053afa8db9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_Res_Des_Data_Ex, CM_Get_Res_Des_Data_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Res_Des_Data_Ex, cfgmgrfn_58308b51-6217-4e1e-80ac-b4d3b431cdfb.xml, devinst.cm_get_res_des_data_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

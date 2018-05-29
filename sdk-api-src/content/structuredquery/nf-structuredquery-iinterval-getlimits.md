@@ -1,16 +1,16 @@
 ---
 UID: NF:structuredquery.IInterval.GetLimits
 title: IInterval::GetLimits
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the lower and upper limits of an interval, each of which may be infinite or a specific value.
 old-location: search\_search_IInterval_GetLimits.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iinterval\getlimits.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetLimits, GetLimits method [search], GetLimits method [search],IInterval interface, IInterval interface [search],GetLimits method, IInterval.GetLimits, IInterval::GetLimits, _search_IInterval_GetLimits, search._search_IInterval_GetLimits, structuredquery/IInterval::GetLimits
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

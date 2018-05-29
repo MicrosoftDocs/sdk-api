@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ITransactionStatus
 title: ITransactionStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to discover the status of the transaction that is completed by the call to CoLeaveServiceDomain when CServiceConfig is configured to use transactions in the call to CoEnterServiceDomain.
 old-location: cos\itransactionstatus.htm
 old-project: cossdk
 ms.assetid: df5eba93-6db7-478c-b6d7-831c20398d66
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ITransactionStatus, ITransactionStatus interface [COM+], ITransactionStatus interface [COM+],described, _cos_ITransactionStatus, comsvcs/ITransactionStatus, cos.itransactionstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

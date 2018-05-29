@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxJob.get_QueueStatus
 title: IFaxJob::get_QueueStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: The QueueStatus property is a null-terminated string that describes the job queue status of the fax job.
 old-location: fax\_mfax_ifaxjob_get_queuestatus_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8mnn.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Deleting, Failed, FaxJob object [Fax Service],QueueStatus property, FaxJob.QueueStatus, IFaxJob.get_QueueStatus, IFaxJob::get_QueueStatus, In Progress, No Line, Paused, Pending, QueueStatus property [Fax Service], QueueStatus property [Fax Service],FaxJob object, Retries Exceeded, Retrying, _mfax_ifaxjob_get_queuestatus, fax._mfax_ifaxjob_get_queuestatus, fax._mfax_ifaxjob_get_queuestatus_vb, get_QueueStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

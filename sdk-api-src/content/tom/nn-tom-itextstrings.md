@@ -1,16 +1,16 @@
 ---
 UID: NN:tom.ITextStrings
 title: ITextStrings
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStrings interface represents a collection of rich-text strings that are useful for manipulating rich text.
 old-location: controls\itextstrings.htm
 old-project: Controls
 ms.assetid: c878d0db-ac13-4ac9-8601-d1c1ba76cd85
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextStrings, ITextStrings interface [Windows Controls], ITextStrings interface [Windows Controls],described, controls.itextstrings, tom/ITextStrings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tom.h
 req.include-header: 

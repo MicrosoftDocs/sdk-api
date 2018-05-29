@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfRange.InsertEmbedded
 title: ITfRange::InsertEmbedded
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfRange::InsertEmbedded method inserts an object at the location of the start anchor of the range of text.
 old-location: tsf\itfrange_insertembedded.htm
 old-project: TSF
 ms.assetid: 95b8622d-c934-4293-abb4-9eface451be5
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfRange interface [Text Services Framework],InsertEmbedded method, ITfRange.InsertEmbedded, ITfRange::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITfRange interface, _tsf_itfrange_insertembedded_ref, msctf/ITfRange::InsertEmbedded, tsf.itfrange_insertembedded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:udpmib._MIB_UDPROW_OWNER_MODULE
 title: "_MIB_UDPROW_OWNER_MODULE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains an entry from the IPv4 User Datagram Protocol (UDP) listener table on the local computer. This entry also also includes any available ownership data and the process ID (PID) that issued the call to the bind function for the UDP endpoint.
 old-location: mib\mib_udprow_owner_module.htm
 old-project: MIB
 ms.assetid: 9ae304e0-4653-4757-a823-d4ccf68627bf
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_UDPROW_OWNER_MODULE, MIB_UDPROW_OWNER_MODULE, MIB_UDPROW_OWNER_MODULE structure [MIB], PMIB_UDPROW_OWNER_MODULE, PMIB_UDPROW_OWNER_MODULE structure pointer [MIB], _MIB_UDPROW_OWNER_MODULE, iprtrmib/MIB_UDPROW_OWNER_MODULE, iprtrmib/PMIB_UDPROW_OWNER_MODULE, mib.mib_udprow_owner_module, udpmib/MIB_UDPROW_OWNER_MODULE, udpmib/PMIB_UDPROW_OWNER_MODULE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: udpmib.h
 req.include-header: Iphlpapi.h

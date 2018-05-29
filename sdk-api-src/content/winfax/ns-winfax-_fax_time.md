@@ -1,16 +1,16 @@
 ---
 UID: NS:winfax._FAX_TIME
 title: "_FAX_TIME"
-author: windows-driver-content
+author: windows-sdk-content
 description: The FAX_TIME structure represents a time, using individual members for the current hour and minute. The time is expressed in Coordinated Universal Time (UTC).
 old-location: fax\_mfax_fax_time_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_24fm.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PFAX_TIME, FAX_TIME, FAX_TIME structure [Fax Service], FAX_TIMEA, FAX_TIMEW, PFAX_TIME, PFAX_TIME structure pointer [Fax Service], _FAX_TIME, _mfax_fax_time_str, fax._mfax_fax_time_str, winfax/FAX_TIME, winfax/FAX_TIMEA, winfax/FAX_TIMEW, winfax/PFAX_TIME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2fs.IFileSystemImage3
 title: IFileSystemImage3
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to set or check the metadata and metadata mirror files in a UDF file system (rev 2.50 and later) to determine redundancy.
 old-location: imapi\ifilesystemimage3.htm
 old-project: imapi
 ms.assetid: ffe343fa-2837-41f7-b7e0-097788fb5d4e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFileSystemImage3, IFileSystemImage3 interface [IMAPI], IFileSystemImage3 interface [IMAPI],described, imapi.ifilesystemimage3, imapi2fs/IFileSystemImage3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

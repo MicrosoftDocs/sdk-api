@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICryptAttributes.AddRange
 title: ICryptAttributes::AddRange
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a range of ICryptAttribute objects to the collection. The attributes are contained in another ICryptAttributes collection.
 old-location: security\icryptattributes_addrange_method.htm
 old-project: SecCertEnroll
 ms.assetid: 8dc0a2c5-3734-47c7-a716-f53322fee39d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: AddRange, AddRange method [Security], AddRange method [Security],ICryptAttributes interface, ICryptAttributes interface [Security],AddRange method, ICryptAttributes.AddRange, ICryptAttributes::AddRange, certenroll/ICryptAttributes::AddRange, security.icryptattributes_addrange_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

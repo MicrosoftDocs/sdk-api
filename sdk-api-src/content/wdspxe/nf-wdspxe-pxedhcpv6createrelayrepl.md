@@ -1,16 +1,16 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6CreateRelayRepl
 title: PxeDhcpv6CreateRelayRepl function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates a RELAY-REPL message.
 old-location: wds\pxedhcpv6createrelayrepl.htm
 old-project: Wds
 ms.assetid: 0FE31279-64CA-4B5E-87E4-6BD035A59A02
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: PxeDhcpv6CreateRelayRepl, PxeDhcpv6CreateRelayRepl function [Windows Deployment Services], wds.pxedhcpv6createrelayrepl, wdspxe/PxeDhcpv6CreateRelayRepl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:oleidl.tagUSERCLASSTYPE
 title: tagUSERCLASSTYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the different variants of the display name associated with a class of objects.
 old-location: com\userclasstype.htm
 old-project: com
 ms.assetid: f35dd18a-7fde-4954-8315-bc9bfd933827
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: USERCLASSTYPE, USERCLASSTYPE enumeration [COM], USERCLASSTYPE_APPNAME, USERCLASSTYPE_FULL, USERCLASSTYPE_SHORT, _ole_USERCLASSTYPE, com.userclasstype, oleidl/USERCLASSTYPE, oleidl/USERCLASSTYPE_APPNAME, oleidl/USERCLASSTYPE_FULL, oleidl/USERCLASSTYPE_SHORT, tagUSERCLASSTYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: oleidl.h
 req.include-header: 

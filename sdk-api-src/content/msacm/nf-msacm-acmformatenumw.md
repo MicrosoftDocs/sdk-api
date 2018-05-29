@@ -1,16 +1,16 @@
 ---
 UID: NF:msacm.acmFormatEnumW
 title: acmFormatEnumW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The acmFormatEnum function enumerates waveform-audio formats available for a given format tag from an ACM driver. This function continues enumerating until there are no more suitable formats for the format tag or the callback function returns FALSE.
 old-location: multimedia\acmformatenum.htm
 old-project: Multimedia
 ms.assetid: 31da0e86-a298-4ef6-a515-4954aa120656
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_acmFormatEnum, acmFormatEnum, acmFormatEnum function [Windows Multimedia], acmFormatEnumA, acmFormatEnumW, msacm/acmFormatEnum, msacm/acmFormatEnumA, msacm/acmFormatEnumW, multimedia.acmformatenum"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

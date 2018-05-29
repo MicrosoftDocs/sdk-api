@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.EnableHandler
 title: ISyncMgrControl::EnableHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables a handler.
 old-location: shell\ISyncMgrControl_EnableHandler.htm
 old-project: shell
 ms.assetid: 92a9525c-bf06-4720-a3e2-5352fa693c8e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnableHandler, EnableHandler method [Windows Shell], EnableHandler method [Windows Shell],ISyncMgrControl interface, ISyncMgrControl interface [Windows Shell],EnableHandler method, ISyncMgrControl.EnableHandler, ISyncMgrControl::EnableHandler, _shell_ISyncMgrControl_EnableHandler, shell.ISyncMgrControl_EnableHandler, syncmgr/ISyncMgrControl::EnableHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

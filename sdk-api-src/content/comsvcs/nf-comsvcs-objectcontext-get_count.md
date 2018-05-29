@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ObjectContext.get_Count
 title: ObjectContext::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of named context object properties.
 old-location: cos\objectcontext_get_count.htm
 old-project: cossdk
 ms.assetid: 0844876e-6e21-4fac-9d74-01c221e1d78a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ObjectContext interface [COM+],get_Count method, ObjectContext.get_Count, ObjectContext::get_Count, _cos_ObjectContext_get_Count, comsvcs/ObjectContext::get_Count, cos.objectcontext_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ObjectContext interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

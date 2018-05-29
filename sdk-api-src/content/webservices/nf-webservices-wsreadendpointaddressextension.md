@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsReadEndpointAddressExtension
 title: WsReadEndpointAddressExtension function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads an extension of the WS_ENDPOINT_ADDRESS.
 old-location: wsw\wsreadendpointaddressextension.htm
 old-project: wsw
 ms.assetid: 6133be54-8d47-4869-bf84-892324175942
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsReadEndpointAddressExtension, WsReadEndpointAddressExtension function [Web Services for Windows], webservices/WsReadEndpointAddressExtension, wsw.wsreadendpointaddressextension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

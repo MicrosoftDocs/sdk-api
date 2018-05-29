@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetEndACP
 title: ITextStoreACP::GetEndACP
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStoreACP::GetEndACP method returns the number of characters in a document.
 old-location: tsf\itextstoreacp_getendacp.htm
 old-project: TSF
 ms.assetid: 741ec23f-9d73-40ee-af94-f9a18bbb8e87
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetEndACP, GetEndACP method [Text Services Framework], GetEndACP method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetEndACP method, ITextStoreACP.GetEndACP, ITextStoreACP::GetEndACP, _tsf_itextstoreacp_getendacp_ref, textstor/ITextStoreACP::GetEndACP, tsf.itextstoreacp_getendacp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

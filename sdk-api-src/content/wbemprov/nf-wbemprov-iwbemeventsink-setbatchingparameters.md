@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemprov.IWbemEventSink.SetBatchingParameters
 title: IWbemEventSink::SetBatchingParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemEventSink::SetBatchingParameters method is used to set the maximum event buffer size and its associated processing latency value.
 old-location: wmi\iwbemeventsink_setbatchingparameters.htm
 old-project: WmiSdk
 ms.assetid: 7fcc1598-bc0c-4d4a-ad6f-69317bd789a4
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemEventSink interface [Windows Management Instrumentation],SetBatchingParameters method, IWbemEventSink.SetBatchingParameters, IWbemEventSink::SetBatchingParameters, SetBatchingParameters, SetBatchingParameters method [Windows Management Instrumentation], SetBatchingParameters method [Windows Management Instrumentation],IWbemEventSink interface, WBEM_FLAG_BATCH_IF_NEEDED, WBEM_FLAG_MUST_BATCH, WBEM_FLAG_MUST_NOT_BATCH, _hmm_iwbemeventsink_setbatchingparameters, wbemprov/IWbemEventSink::SetBatchingParameters, wmi.iwbemeventsink_setbatchingparameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

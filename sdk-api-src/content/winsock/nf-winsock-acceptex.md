@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock.AcceptEx
 title: AcceptEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Accepts a new connection, returns the local and remote address, and receives the first block of data sent by the client application. Note  This function is a Microsoft-specific extension to the Windows Sockets specification. .
 old-location: winsock\acceptex_2.htm
 old-project: WinSock
 ms.assetid: cfd4c169-a8af-46cc-9b0e-fd7fb5aad61b
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: AcceptEx, AcceptEx function [Winsock], _win32_acceptex_2, winsock.acceptex_2, winsock/AcceptEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock.h
 req.include-header: Mswsock.h

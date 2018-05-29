@@ -1,16 +1,16 @@
 ---
 UID: NN:identityprovider.IIdentityAdvise
 title: IIdentityAdvise
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows an identity provider to notify a calling application when an identity is updated.
 old-location: security\iidentityadvise.htm
 old-project: SecAuthN
 ms.assetid: fa348d46-bcd2-4009-89d6-11e738d4a82b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IIdentityAdvise, IIdentityAdvise interface [Security], IIdentityAdvise interface [Security],described, identityprovider/IIdentityAdvise, identitystore/IIdentityAdvise, security.iidentityadvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: identityprovider.h
 req.include-header: 

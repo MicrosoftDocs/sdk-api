@@ -1,16 +1,16 @@
 ---
 UID: NE:vss._VSS_PROVIDER_CAPABILITIES
 title: "_VSS_PROVIDER_CAPABILITIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: This enumeration is reserved for future use.
 old-location: base\_vss_provider_capabilities.htm
 old-project: VSS
 ms.assetid: 933d7567-d3d3-49cd-970b-f1355702f290
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PVSS_PROVIDER_CAPABILITIES, VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES, _VSS_PROVIDER_CAPABILITIES enumeration, base._vss_provider_capabilities, vss/, vss/_VSS_PROVIDER_CAPABILITIES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 

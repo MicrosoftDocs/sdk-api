@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_SERVICE_CONTRACT
 title: "_WS_SERVICE_CONTRACT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a service contract on an endpoint.
 old-location: wsw\ws_service_contract.htm
 old-project: wsw
 ms.assetid: 77bd8c1e-0596-44d7-be99-356d052ee6c1
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SERVICE_CONTRACT, WS_SERVICE_CONTRACT structure [Web Services for Windows], _WS_SERVICE_CONTRACT, webservices/WS_SERVICE_CONTRACT, wsw.ws_service_contract
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

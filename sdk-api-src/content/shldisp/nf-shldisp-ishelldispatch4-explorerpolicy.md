@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch4.ExplorerPolicy
 title: IShellDispatch4::ExplorerPolicy
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value for a specified Windows Internet Explorer policy.
 old-location: shell\IShellDispatch4_ExplorerPolicy.htm
 old-project: shell
 ms.assetid: 490c3e18-b606-456a-9016-dc4f7bad2bc3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ExplorerPolicy, ExplorerPolicy method [Windows Shell], ExplorerPolicy method [Windows Shell],IShellDispatch4 object, IShellDispatch4 object [Windows Shell],ExplorerPolicy method, IShellDispatch4.ExplorerPolicy, IShellDispatch4::ExplorerPolicy, _shell_IShellDispatch4_ExplorerPolicy, shell.IShellDispatch4_ExplorerPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

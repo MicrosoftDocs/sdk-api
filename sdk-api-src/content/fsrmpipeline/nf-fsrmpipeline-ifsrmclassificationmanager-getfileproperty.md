@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.GetFileProperty
 title: IFsrmClassificationManager::GetFileProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified property from the file or folder.
 old-location: fsrm\ifsrmclassificationmanager_getfileproperty.htm
 old-project: Fsrm
 ms.assetid: c8a3c4cb-4753-495b-88f4-2d6cdfef7dc7
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],GetFileProperty method, GetFileProperty, GetFileProperty method [File Server Resource Manager], GetFileProperty method [File Server Resource Manager],FsrmClassificationManager class, GetFileProperty method [File Server Resource Manager],IFsrmClassificationManager interface, GetFileProperty method [File Server Resource Manager],IFsrmClassificationManager2 interface, IFsrmClassificationManager interface [File Server Resource Manager],GetFileProperty method, IFsrmClassificationManager.GetFileProperty, IFsrmClassificationManager2 interface [File Server Resource Manager],GetFileProperty method, IFsrmClassificationManager2::GetFileProperty, IFsrmClassificationManager::GetFileProperty, fs.ifsrmclassificationmanager_getfileproperty, fsrm.ifsrmclassificationmanager_getfileproperty, fsrmpipeline/IFsrmClassificationManager2::GetFileProperty, fsrmpipeline/IFsrmClassificationManager::GetFileProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h

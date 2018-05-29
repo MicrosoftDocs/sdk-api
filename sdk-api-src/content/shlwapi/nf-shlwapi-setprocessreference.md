@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SetProcessReference
 title: SetProcessReference function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a Component Object Model (COM) object that allows hosted Shell extensions and other components to prevent their host process from closing prematurely.
 old-location: shell\SetProcessReference.htm
 old-project: shell
 ms.assetid: 65C1BE1D-2C67-47a3-9958-38829BB8CCB0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetProcessReference, SetProcessReference function [Windows Shell], shell.SetProcessReference, shlwapi/SetProcessReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

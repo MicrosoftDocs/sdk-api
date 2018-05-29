@@ -1,16 +1,16 @@
 ---
 UID: NF:fci.FNFCICLOSE
 title: FNFCICLOSE macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The FNFCICLOSE macro provides the declaration for the application-defined callback function to close a file in an FCI context.
 old-location: winprog\fnfciclose.htm
 old-project: DevNotes
 ms.assetid: c4edf6ca-0b16-4e30-933b-934f8930c6d6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FNFCICLOSE, FNFCICLOSE macro [Windows API], fci/FNFCICLOSE, winprog.fnfciclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: fci.h
 req.include-header: 

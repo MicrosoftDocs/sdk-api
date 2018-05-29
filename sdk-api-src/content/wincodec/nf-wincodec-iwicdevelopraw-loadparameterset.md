@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.LoadParameterSet
 title: IWICDevelopRaw::LoadParameterSet
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the desired WICRawParameterSet option.
 old-location: wic\_wic_codec_iwicdevelopraw_loadparameterset.htm
 old-project: wic
 ms.assetid: c3882d90-5772-4b10-8fcc-8d16f5004a05
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],LoadParameterSet method, IWICDevelopRaw.LoadParameterSet, IWICDevelopRaw::LoadParameterSet, LoadParameterSet, LoadParameterSet method [Windows Imaging Component], LoadParameterSet method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_loadparameterset, wic._wic_codec_iwicdevelopraw_loadparameterset, wincodec/IWICDevelopRaw::LoadParameterSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

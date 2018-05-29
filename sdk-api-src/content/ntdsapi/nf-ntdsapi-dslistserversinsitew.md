@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsListServersInSiteW
 title: DsListServersInSiteW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Lists all the servers in a site.
 old-location: ad\dslistserversinsite.htm
 old-project: AD
 ms.assetid: 46773631-d464-4d9e-83e7-aa502599df71
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsListServersInSite, DsListServersInSite function [Active Directory], DsListServersInSiteA, DsListServersInSiteW, _glines_dslistserversinsite, ad.dslistserversinsite, ntdsapi/DsListServersInSite, ntdsapi/DsListServersInSiteA, ntdsapi/DsListServersInSiteW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

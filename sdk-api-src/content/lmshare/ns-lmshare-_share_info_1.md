@@ -1,16 +1,16 @@
 ---
 UID: NS:lmshare._SHARE_INFO_1
 title: "_SHARE_INFO_1"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the shared resource, including the name and type of the resource, and a comment associated with the resource.
 old-location: fs\share_info_1_str.htm
 old-project: NetShare
 ms.assetid: 9bc69340-4ea5-4180-ae5c-667c0a245b66
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPSHARE_INFO_1, *PSHARE_INFO_1, LPSHARE_INFO_1, LPSHARE_INFO_1 structure pointer [Files], PSHARE_INFO_1, PSHARE_INFO_1 structure pointer [Files], SHARE_INFO_1, SHARE_INFO_1 structure [Files], STYPE_DEVICE, STYPE_DISKTREE, STYPE_IPC, STYPE_PRINTQ, STYPE_SPECIAL, STYPE_TEMPORARY, _SHARE_INFO_1, _win32_share_info_1_str, fs.share_info_1_str, lmshare/LPSHARE_INFO_1, lmshare/PSHARE_INFO_1, lmshare/SHARE_INFO_1, netmgmt.share_info_1_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h

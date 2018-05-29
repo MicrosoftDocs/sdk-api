@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor.SetUpdateManager
 title: IDirectManipulationCompositor::SetUpdateManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the update manager used to send compositor updates to Direct Manipulation.
 old-location: directmanipulation\idirectmanipulationcompositor_setupdatemanager.htm
 old-project: directmanipulation
 ms.assetid: 8efab95b-2e06-4a3f-9b1b-171c1aada40a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationCompositor interface [Direct Manipulation],SetUpdateManager method, IDirectManipulationCompositor.SetUpdateManager, IDirectManipulationCompositor::SetUpdateManager, SetUpdateManager, SetUpdateManager method [Direct Manipulation], SetUpdateManager method [Direct Manipulation],IDirectManipulationCompositor interface, directmanipulation.idirectmanipulationcompositor_setupdatemanager, directmanipulation/IDirectManipulationCompositor::SetUpdateManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

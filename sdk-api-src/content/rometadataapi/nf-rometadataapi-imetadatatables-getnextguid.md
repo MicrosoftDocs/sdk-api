@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetNextGuid
 title: IMetaDataTables::GetNextGuid
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the index of the next GUID value in the current table column.
 old-location: winrt\imetadatatables_getnextguid.htm
 old-project: WinRT
 ms.assetid: b624f727-8371-49a1-8ec7-7110d9b8f971
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetNextGuid, GetNextGuid method [Windows Runtime], GetNextGuid method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetNextGuid method, IMetaDataTables.GetNextGuid, IMetaDataTables::GetNextGuid, rometadataapi/IMetaDataTables::GetNextGuid, winrt.imetadatatables_getnextguid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

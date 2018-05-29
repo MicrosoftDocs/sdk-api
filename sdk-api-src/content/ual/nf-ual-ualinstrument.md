@@ -1,16 +1,16 @@
 ---
 UID: NF:ual.UalInstrument
 title: UalInstrument function
-author: windows-driver-content
+author: windows-sdk-content
 description: Records the specified data to the User Access Logging (UAL) framework by using information from a UAL_DATA_BLOB structure.
 old-location: ual\ualinstrument.htm
 old-project: ual
 ms.assetid: C7A0340F-3250-4570-9672-FC78AFC9ECC6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: UalInstrument, UalInstrument function [User Access Logging], ual.ualinstrument, ual/UalInstrument
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ual.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.MonthCal_SetCALID
 title: MonthCal_SetCALID macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the calendar ID for the given calendar control. You can use this macro or send the MCM_SETCALID message explicitly.
 old-location: controls\MonthCal_SetCALID.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcalid.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MonthCal_SetCALID, MonthCal_SetCALID macro [Windows Controls], _shell_MonthCal_SetCALID, _shell_MonthCal_SetCALID_cpp, commctrl/MonthCal_SetCALID, controls.MonthCal_SetCALID, controls._shell_MonthCal_SetCALID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

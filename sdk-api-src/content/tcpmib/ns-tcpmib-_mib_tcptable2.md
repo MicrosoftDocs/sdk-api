@@ -1,16 +1,16 @@
 ---
 UID: NS:tcpmib._MIB_TCPTABLE2
 title: "_MIB_TCPTABLE2"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a table of IPv4 TCP connections on the local computer.
 old-location: mib\mib_tcptable2.htm
 old-project: MIB
 ms.assetid: e07de994-0bd5-4d18-9012-8ff191dd6939
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_TCPTABLE2, MIB_TCPTABLE2, MIB_TCPTABLE2 structure [MIB], PMIB_TCPTABLE2, PMIB_TCPTABLE2 structure pointer [MIB], _MIB_TCPTABLE2, mib.mib_tcptable2, tcpmib/MIB_TCPTABLE2, tcpmib/PMIB_TCPTABLE2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h

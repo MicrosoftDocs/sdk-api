@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMMatrixTransform
 title: IXpsOMMatrixTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies an affine matrix transform that can be applied to other objects in the object model.
 old-location: xps\ixpsommatrixtransform.htm
 old-project: printdocs
 ms.assetid: d21457bc-9445-4ca2-ab9f-1e3f55e2e635
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMMatrixTransform, IXpsOMMatrixTransform interface [XPS Documents and Packaging], IXpsOMMatrixTransform interface [XPS Documents and Packaging],described, xps.ixpsommatrixtransform, xpsobjectmodel/IXpsOMMatrixTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

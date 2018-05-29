@@ -1,16 +1,16 @@
 ---
 UID: NN:uianimation.IUIAnimationPriorityComparison
 title: IUIAnimationPriorityComparison
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a method for priority comparison that the animation manager uses to resolve scheduling conflicts.
 old-location: uianimation\iuianimationprioritycomparison.htm
 old-project: UIAnimation
 ms.assetid: 65311cf0-f8d4-4d2c-bd4d-585ae5d921df
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationPriorityComparison, IUIAnimationPriorityComparison interface [Windows Animation], IUIAnimationPriorityComparison interface [Windows Animation],described, uianimation.iuianimationprioritycomparison, uianimation/IUIAnimationPriorityComparison
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

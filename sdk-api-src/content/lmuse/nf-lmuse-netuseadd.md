@@ -1,16 +1,16 @@
 ---
 UID: NF:lmuse.NetUseAdd
 title: NetUseAdd function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetUseAdd function establishes a connection between the local computer and a remote server.
 old-location: netmgmt\netuseadd.htm
 old-project: NetMgmt
 ms.assetid: 22550c17-003a-4f59-80f0-58fa3e286844
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 1, 2, NetUseAdd, NetUseAdd function [Network Management], _win32_netuseadd, lmuse/NetUseAdd, netmgmt.netuseadd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmuse.h
 req.include-header: Lm.h

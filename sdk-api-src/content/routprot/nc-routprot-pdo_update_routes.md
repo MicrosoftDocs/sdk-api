@@ -1,16 +1,16 @@
 ---
 UID: NC:routprot.PDO_UPDATE_ROUTES
 title: PDO_UPDATE_ROUTES
-author: windows-driver-content
+author: windows-sdk-content
 description: The DoUpdateRoutes function requests the routing protocol to perform a routing information update over the specified interface to obtain static route information.
 old-location: rras\doupdateroutes.htm
 old-project: RRAS
 ms.assetid: 5942c856-f504-4e2d-86c8-f3207c787ed5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: DoUpdateRoutes, DoUpdateRoutes callback function [RAS], PDO_UPDATE_ROUTES, PDO_UPDATE_ROUTES callback, _mpr_doupdateroutes, routprot/DoUpdateRoutes, rras.doupdateroutes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICDdsDecoder.GetFrame
 title: IWICDdsDecoder::GetFrame
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified frame of the DDS image.
 old-location: wic\iwicddsdecoder_getframe.htm
 old-project: wic
 ms.assetid: 8842FD14-575B-4A81-9598-83A5A67415B7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetFrame, GetFrame method [Windows Imaging Component], GetFrame method [Windows Imaging Component],IWICDdsDecoder interface, IWICDdsDecoder interface [Windows Imaging Component],GetFrame method, IWICDdsDecoder.GetFrame, IWICDdsDecoder::GetFrame, wic.iwicddsdecoder_getframe, wincodec/IWICDdsDecoder::GetFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

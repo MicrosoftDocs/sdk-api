@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetServiceId
 title: IIsdbEmergencyInformationDescriptor::GetServiceId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the identifier for a broadcasting event from an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_getserviceid.htm
 old-project: mstv
 ms.assetid: 298f0637-eea1-4247-a9ff-cbe1a82fb8f6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetServiceId, GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetServiceId method, IIsdbEmergencyInformationDescriptor.GetServiceId, IIsdbEmergencyInformationDescriptor::GetServiceId, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetServiceId, mstv.iisdbemergencyinformationdescriptor_getserviceid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerEventHandler.OnPreUpdate
 title: IUIAnimationTimerEventHandler::OnPreUpdate
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles events that occur before an animation update begins.
 old-location: uianimation\iuianimationtimereventhandler_onpreupdate.htm
 old-project: UIAnimation
 ms.assetid: 4f3dcac0-c800-48e5-82d6-b6bc3fb0409b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationTimerEventHandler interface [Windows Animation],OnPreUpdate method, IUIAnimationTimerEventHandler.OnPreUpdate, IUIAnimationTimerEventHandler::OnPreUpdate, OnPreUpdate, OnPreUpdate method [Windows Animation], OnPreUpdate method [Windows Animation],IUIAnimationTimerEventHandler interface, uianimation.iuianimationtimereventhandler_onpreupdate, uianimation/IUIAnimationTimerEventHandler::OnPreUpdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

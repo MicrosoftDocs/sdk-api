@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.AddConfiguration
 title: IDirectManipulationViewport::AddConfiguration
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an interaction configuration for the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_addconfiguration.htm
 old-project: directmanipulation
 ms.assetid: 908f67ef-3606-4636-88aa-4e95d80a9c7a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AddConfiguration, AddConfiguration method [Direct Manipulation], AddConfiguration method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],AddConfiguration method, IDirectManipulationViewport.AddConfiguration, IDirectManipulationViewport::AddConfiguration, directmanipulation.idirectmanipulationviewport_addconfiguration, directmanipulation/IDirectManipulationViewport::AddConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

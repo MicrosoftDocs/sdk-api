@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.IS_INTRESOURCE
 title: IS_INTRESOURCE macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a value is an integer identifier for a resource.
 old-location: menurc\is_intresource.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcemacros\is_intresource.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IS_INTRESOURCE, IS_INTRESOURCE macro [Menus and Other Resources], _win32_IS_INTRESOURCE, _win32_is_intresource_cpp, menurc.is_intresource, winui._win32_is_intresource, winuser/IS_INTRESOURCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumResources.Next
 title: IEnumResources::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the next SHELL_ITEM_RESOURCE structure.
 old-location: shell\IEnumResources_Next.htm
 old-project: shell
 ms.assetid: b5d0d754-4252-476a-b3af-0ba257eab339
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumResources interface [Windows Shell],Next method, IEnumResources.Next, IEnumResources::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumResources interface, _shell_IEnumResources_Next, shell.IEnumResources_Next, shobjidl_core/IEnumResources::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

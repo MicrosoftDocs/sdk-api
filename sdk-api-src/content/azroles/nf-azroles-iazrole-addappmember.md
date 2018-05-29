@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzRole.AddAppMember
 title: IAzRole::AddAppMember
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the specified IAzApplicationGroup object to the list of application groups that belong to this role.
 old-location: security\iazrole_addappmember.htm
 old-project: SecAuthZ
 ms.assetid: 118387f8-a422-4a8d-9d12-a5b5ee1e7b06
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddAppMember, AddAppMember method [Security], AddAppMember method [Security],AzRole object, AddAppMember method [Security],IAzRole interface, AzRole object [Security],AddAppMember method, IAzRole interface [Security],AddAppMember method, IAzRole.AddAppMember, IAzRole::AddAppMember, azroles/IAzRole::AddAppMember, security.iazrole_addappmember
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

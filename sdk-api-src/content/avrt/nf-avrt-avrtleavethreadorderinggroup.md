@@ -1,16 +1,16 @@
 ---
 UID: NF:avrt.AvRtLeaveThreadOrderingGroup
 title: AvRtLeaveThreadOrderingGroup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables client threads to leave a thread ordering group.
 old-location: base\avrtleavethreadorderinggroup.htm
 old-project: ProcThread
 ms.assetid: b618c312-0a43-4815-ad32-8820c658dc0b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: AvRtLeaveThreadOrderingGroup, AvRtLeaveThreadOrderingGroup function, avrt/AvRtLeaveThreadOrderingGroup, base.avrtleavethreadorderinggroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: avrt.h
 req.include-header: 

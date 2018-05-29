@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetFriendlyName
 title: IX509EnrollmentPolicyServer::GetFriendlyName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a display name for the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getfriendlyname.htm
 old-project: SecCertEnroll
 ms.assetid: a2e3da49-19b8-44f6-af7c-ec5c13411f3f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [Security], GetFriendlyName method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetFriendlyName method, IX509EnrollmentPolicyServer.GetFriendlyName, IX509EnrollmentPolicyServer::GetFriendlyName, certenroll/IX509EnrollmentPolicyServer::GetFriendlyName, security.ix509enrollmentpolicyserver_getfriendlyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

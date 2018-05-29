@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.MCIWndSaveDialog
 title: MCIWndSaveDialog macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCIWndSaveDialog macro saves the content currently used by an MCI device. This macro displays the Save dialog box to let the user select a filename to store the content. You can use this macro or explicitly send the MCI_SAVE command.
 old-location: multimedia\mciwndsavedialog.htm
 old-project: Multimedia
 ms.assetid: 3ab1121f-5122-424b-a1df-ceeb57751dac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MCIWndSaveDialog, MCIWndSaveDialog macro [Windows Multimedia], _win32_MCIWndSaveDialog, multimedia.mciwndsavedialog, vfw/MCIWndSaveDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

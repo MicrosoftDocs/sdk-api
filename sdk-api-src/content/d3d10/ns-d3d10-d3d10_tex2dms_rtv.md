@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d10.D3D10_TEX2DMS_RTV
 title: D3D10_TEX2DMS_RTV
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the subresource from a multisampled 2D texture to use in a render-target view.
 old-location: direct3d10\d3d10_tex2dms_rtv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2dms_rtv.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: D3D10_TEX2DMS_RTV, D3D10_TEX2DMS_RTV structure [Direct3D 10], b35fccdd-d7a7-672b-7f33-80eef15788d6, d3d10/D3D10_TEX2DMS_RTV, direct3d10.d3d10_tex2dms_rtv
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 

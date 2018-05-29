@@ -1,16 +1,16 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.GetActualDataLength
 title: IAMMediaTypeSample::GetActualDataLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The GetActualDataLength method retrieves the data length of the sample, in bytes.
 old-location: dshow\iammediatypesample_getactualdatalength.htm
 old-project: DirectShow
 ms.assetid: e73672c7-7400-40dd-be65-f6c30c476c91
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetActualDataLength, GetActualDataLength method [DirectShow], GetActualDataLength method [DirectShow],IAMMediaTypeSample interface, IAMMediaTypeSample interface [DirectShow],GetActualDataLength method, IAMMediaTypeSample.GetActualDataLength, IAMMediaTypeSample::GetActualDataLength, IAMMediaTypeSampleGetActualDataLength, amstream/IAMMediaTypeSample::GetActualDataLength, dshow.iammediatypesample_getactualdatalength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

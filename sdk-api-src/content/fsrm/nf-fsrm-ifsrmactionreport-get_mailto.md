@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrm.IFsrmActionReport.get_MailTo
 title: IFsrmActionReport::get_MailTo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the email address to which the reports are sent.
 old-location: fsrm\ifsrmactionreport_mailto.htm
 old-project: Fsrm
 ms.assetid: 89c2fc2c-bf14-4a42-b7ab-12988433b275
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmActionReport interface [File Server Resource Manager],MailTo property, IFsrmActionReport.MailTo, IFsrmActionReport.get_MailTo, IFsrmActionReport::MailTo, IFsrmActionReport::get_MailTo, IFsrmActionReport::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager],IFsrmActionReport interface, fs.ifsrmactionreport_mailto, fsrm.ifsrmactionreport_mailto, fsrm/IFsrmActionReport::MailTo, fsrm/IFsrmActionReport::get_MailTo, fsrm/IFsrmActionReport::put_MailTo, get_MailTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMColorProfileResourceCollection
 title: IXpsOMColorProfileResourceCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: A collection of IXpsOMColorProfileResource interface pointers.
 old-location: xps\ixpsomcolorprofileresourcecollection.htm
 old-project: printdocs
 ms.assetid: cb9253f3-461e-47a3-820b-bb6bf5e30210
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMColorProfileResourceCollection, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging], IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomcolorprofileresourcecollection, xpsobjectmodel/IXpsOMColorProfileResourceCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

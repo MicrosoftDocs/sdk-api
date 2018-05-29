@@ -1,16 +1,16 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.GetEnvironment
 title: IXblIdpAuthManager::GetEnvironment
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_getenvironment.htm
 old-project: xblidp
 ms.assetid: 9AEFE6CB-9C15-4945-ACAC-6AE0C04331CC
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetEnvironment, GetEnvironment method, GetEnvironment method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetEnvironment method, IXblIdpAuthManager.GetEnvironment, IXblIdpAuthManager::GetEnvironment, xblidp.ixblidpauthmanager_getenvironment, xblidpauthmanager/IXblIdpAuthManager::GetEnvironment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

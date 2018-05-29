@@ -1,16 +1,16 @@
 ---
 UID: NF:icontact.IContactProperties.SetDate
 title: IContactProperties::SetDate
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the date and time value at a specified property to a given FILETIME. All times are stored and returned as Coordinated Universal Time (UTC).
 old-location: wincontacts\_wincontacts_IContactProperties_SetDate.htm
 old-project: wincontacts
 ms.assetid: bbe0a788-7291-48f7-a36a-88e5b6b971dc
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IContactProperties interface [Windows Contacts],SetDate method, IContactProperties.SetDate, IContactProperties::SetDate, SetDate, SetDate method [Windows Contacts], SetDate method [Windows Contacts],IContactProperties interface, _wincontacts_IContactProperties_SetDate, icontact/IContactProperties::SetDate, wincontacts._wincontacts_IContactProperties_SetDate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

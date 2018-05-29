@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ISelectCOMLBServer
 title: ISelectCOMLBServer
-author: windows-driver-content
+author: windows-sdk-content
 description: Activates the COM+ component load balancing service.
 old-location: cos\iselectcomlbserver.htm
 old-project: cossdk
 ms.assetid: ce2edece-6375-4101-b288-c250fb21cfb7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ISelectCOMLBServer, ISelectCOMLBServer interface [COM+], ISelectCOMLBServer interface [COM+],described, _cos_ISelectCOMLBServer, comsvcs/ISelectCOMLBServer, cos.iselectcomlbserver
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

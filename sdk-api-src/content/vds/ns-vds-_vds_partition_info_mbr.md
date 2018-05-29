@@ -1,16 +1,16 @@
 ---
 UID: NS:vds._VDS_PARTITION_INFO_MBR
 title: "_VDS_PARTITION_INFO_MBR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the details of a master boot record (MBR) partition.
 old-location: base\vds_partition_info_mbr.htm
 old-project: VDS
 ms.assetid: d14a852f-8a78-4631-a288-476701321ac2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_PARTITION_INFO_MBR, VDS_PARTITION_INFO_MBR structure [VDS], _VDS_PARTITION_INFO_MBR, base.vds_partition_info_mbr, vds/_VDS_PARTITION_INFO_MBR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

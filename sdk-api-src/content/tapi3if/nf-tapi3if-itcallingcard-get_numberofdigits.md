@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCallingCard.get_NumberOfDigits
 title: ITCallingCard::get_NumberOfDigits
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_NumberOfDigits method gets the number of digits in the existing card number.
 old-location: tapi3\itcallingcard_get_numberofdigits.htm
 old-project: Tapi
 ms.assetid: 9eacfd2d-b137-4923-9cfa-139473ba8298
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallingCard interface [TAPI 2.2],get_NumberOfDigits method, ITCallingCard.get_NumberOfDigits, ITCallingCard::get_NumberOfDigits, _tapi3_itcallingcard_get_numberofdigits, get_NumberOfDigits, get_NumberOfDigits method [TAPI 2.2], get_NumberOfDigits method [TAPI 2.2],ITCallingCard interface, tapi3.itcallingcard_get_numberofdigits, tapi3if/ITCallingCard::get_NumberOfDigits
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetEASEventCodeLen
 title: ISCTE_EAS::GetEASEventCodeLen
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetEASEventCodeLen method returns the size of the EAS event code.
 old-location: mstv\iscte_eas_geteaseventcodelen.htm
 old-project: mstv
 ms.assetid: d6e05cd0-d043-4f15-b25b-28402035943b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetEASEventCodeLen, GetEASEventCodeLen method [Microsoft TV Technologies], GetEASEventCodeLen method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetEASEventCodeLen method, ISCTE_EAS.GetEASEventCodeLen, ISCTE_EAS::GetEASEventCodeLen, ISCTE_EASGetEASEventCodeLen, atscpsipparser/ISCTE_EAS::GetEASEventCodeLen, mstv.iscte_eas_geteaseventcodelen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

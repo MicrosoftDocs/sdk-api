@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.GetSOM
 title: IGPMDomain::GetSOM
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IGPMSOM interface that represents the domain or the organizational unit (OU) at the specified path.
 old-location: gpmc\igpmdomain_getsom.htm
 old-project: GPMC
 ms.assetid: cbacd900-26ea-4554-97d8-8f33d2f5dd2b
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMDomain class [GPMC],GetSOM method, GetSOM, GetSOM method [GPMC], GetSOM method [GPMC],GPMDomain class, GetSOM method [GPMC],IGPMDomain interface, IGPMDomain interface [GPMC],GetSOM method, IGPMDomain.GetSOM, IGPMDomain::GetSOM, _win32_igpmdomain_getsom, gpmc.igpmdomain_getsom, gpmgmt/IGPMDomain::GetSOM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

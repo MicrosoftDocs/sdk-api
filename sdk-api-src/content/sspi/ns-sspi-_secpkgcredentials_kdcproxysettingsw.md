@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SecPkgCredentials_KdcProxySettingsW
 title: "_SecPkgCredentials_KdcProxySettingsW"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the Kerberos proxy settings for the credentials.
 old-location: security\secpkgcredentials_kdcproxysettings.htm
 old-project: SecAuthN
 ms.assetid: 42BC75B8-6392-4FD4-95BC-266B3AFDDC62
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgCredentials_KdcProxySettingsW, PSecPkgCredentials_KdcProxySettings, PSecPkgCredentials_KdcProxySettings structure pointer [Security], SecPkgCredentials_KdcProxySettings, SecPkgCredentials_KdcProxySettings structure [Security], SecPkgCredentials_KdcProxySettingsW, _SecPkgCredentials_KdcProxySettingsW, security.secpkgcredentials_kdcproxysettings, sspi/PSecPkgCredentials_KdcProxySettings, sspi/SecPkgCredentials_KdcProxySettings, sspi/SecPkgCredentials_KdcProxySettingsW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 

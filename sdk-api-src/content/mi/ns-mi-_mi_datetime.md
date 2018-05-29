@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_Datetime
 title: "_MI_Datetime"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a union of MI_Timestamp and MI_Interval.
 old-location: wmi_v2\mi_datetime.htm
 old-project: wmi_v2
 ms.assetid: 2f7d857f-5115-40a2-84d9-a4429d935de1
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Datetime, MI_Datetime structure [Windows Management Infrastructure (MI)], _MI_Datetime, mi/MI_Datetime, wmi._mi_datetime, wmi_v2.mi_datetime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

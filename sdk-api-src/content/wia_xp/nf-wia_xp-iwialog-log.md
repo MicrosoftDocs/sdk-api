@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IWiaLog.Log
 title: IWiaLog::Log
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is not supported.
 old-location: wia\_wia_IWiaLog_Log.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialog\log.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IWiaLog interface [WIA],Log method, IWiaLog.Log, IWiaLog::Log, Log, Log method [WIA], Log method [WIA],IWiaLog interface, _wia_IWiaLog_Log, wia._wia_IWiaLog_Log, wia_xp/IWiaLog::Log
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

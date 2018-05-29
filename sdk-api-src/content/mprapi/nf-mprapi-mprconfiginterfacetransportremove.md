@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportRemove
 title: MprConfigInterfaceTransportRemove function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigInterfaceTransportRemove function removes the specified transport from the specified interface configuration on the router.
 old-location: rras\mprconfiginterfacetransportremove.htm
 old-project: RRAS
 ms.assetid: 0f286003-f9d8-490b-a379-76baa3f53c6f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigInterfaceTransportRemove, MprConfigInterfaceTransportRemove function [RAS], _mpr_mprconfiginterfacetransportremove, mprapi/MprConfigInterfaceTransportRemove, rras.mprconfiginterfacetransportremove
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

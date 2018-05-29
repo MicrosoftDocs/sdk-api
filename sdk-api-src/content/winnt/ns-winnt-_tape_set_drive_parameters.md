@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._TAPE_SET_DRIVE_PARAMETERS
 title: "_TAPE_SET_DRIVE_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the tape drive. It is used by the SetTapeParameters function.
 old-location: backup\tape_set_drive_parameters_str.htm
 old-project: Backup
 ms.assetid: 5615e83a-99c0-4214-8621-7e0561512816
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: "*PTAPE_SET_DRIVE_PARAMETERS, PTAPE_SET_DRIVE_PARAMETERS, PTAPE_SET_DRIVE_PARAMETERS structure pointer [Backup], TAPE_SET_DRIVE_PARAMETERS, TAPE_SET_DRIVE_PARAMETERS structure [Backup], _TAPE_SET_DRIVE_PARAMETERS, _win32_tape_set_drive_parameters_str, backup.tape_set_drive_parameters_str, base.tape_set_drive_parameters_str, winnt/PTAPE_SET_DRIVE_PARAMETERS, winnt/TAPE_SET_DRIVE_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

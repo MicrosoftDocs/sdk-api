@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IAudioOutputSelector.SetSelection
 title: IAudioOutputSelector::SetSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetSelection method selects one of the outputs of the output selector.
 old-location: coreaudio\iaudiooutputselector_setselection.htm
 old-project: CoreAudio
 ms.assetid: e81d54f4-1451-4bd0-be06-28ff01fb65ab
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioOutputSelector interface [Core Audio],SetSelection method, IAudioOutputSelector.SetSelection, IAudioOutputSelector::SetSelection, IAudioOutputSelectorSetSelection, SetSelection, SetSelection method [Core Audio], SetSelection method [Core Audio],IAudioOutputSelector interface, coreaudio.iaudiooutputselector_setselection, devicetopology/IAudioOutputSelector::SetSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

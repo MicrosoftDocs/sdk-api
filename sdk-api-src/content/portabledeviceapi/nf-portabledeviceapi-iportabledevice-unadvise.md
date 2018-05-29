@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.Unadvise
 title: IPortableDevice::Unadvise
-author: windows-driver-content
+author: windows-sdk-content
 description: The Unadvise method unregisters a client from receiving callback notifications. You must call this method if you called Advise previously.
 old-location: wpdsdk\iportabledevice_unadvise.htm
 old-project: wpd_sdk
 ms.assetid: 6720e92b-35cd-4e3f-bd21-36337cf80140
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],Unadvise method, IPortableDevice.Unadvise, IPortableDevice::Unadvise, IPortableDeviceUnadvise, Unadvise, Unadvise method [Windows Portable Devices SDK], Unadvise method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::Unadvise, wpdsdk.iportabledevice_unadvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

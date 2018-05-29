@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IFilterMapper2.EnumMatchingFilters
 title: IFilterMapper2::EnumMatchingFilters
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumMatchingFilters method enumerates registered filters that meet specified requirements.
 old-location: dshow\ifiltermapper2_enummatchingfilters.htm
 old-project: DirectShow
 ms.assetid: f121b4c3-fce1-4be3-ace4-5084242130f6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EnumMatchingFilters, EnumMatchingFilters method [DirectShow], EnumMatchingFilters method [DirectShow],IFilterMapper2 interface, IFilterMapper2 interface [DirectShow],EnumMatchingFilters method, IFilterMapper2.EnumMatchingFilters, IFilterMapper2::EnumMatchingFilters, IFilterMapper2EnumMatchingFilters, dshow.ifiltermapper2_enummatchingfilters, strmif/IFilterMapper2::EnumMatchingFilters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

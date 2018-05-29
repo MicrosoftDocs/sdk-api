@@ -1,16 +1,16 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_TYPE
 title: "_EVT_CHANNEL_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the type of a channel.
 old-location: wes\evt_channel_type.htm
 old-project: WES
 ms.assetid: 5650dd28-b0ef-4d74-abc6-85ed2bd56b38
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EVT_CHANNEL_TYPE, EVT_CHANNEL_TYPE enumeration [EventLog], EvtChannelTypeAdmin, EvtChannelTypeAnalytic, EvtChannelTypeDebug, EvtChannelTypeOperational, _EVT_CHANNEL_TYPE, wes.evt_channel_type, winevt/EVT_CHANNEL_TYPE, winevt/EvtChannelTypeAdmin, winevt/EvtChannelTypeAnalytic, winevt/EvtChannelTypeDebug, winevt/EvtChannelTypeOperational
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

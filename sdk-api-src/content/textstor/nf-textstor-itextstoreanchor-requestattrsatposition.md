@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RequestAttrsAtPosition
 title: ITextStoreAnchor::RequestAttrsAtPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: ITextStoreAnchor::RequestAttrsAtPosition method
 old-location: tsf\itextstoreanchor_requestattrsatposition.htm
 old-project: TSF
 ms.assetid: d0f20507-005b-409d-90d5-5817b7d95f19
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],RequestAttrsAtPosition method, ITextStoreAnchor.RequestAttrsAtPosition, ITextStoreAnchor::RequestAttrsAtPosition, RequestAttrsAtPosition, RequestAttrsAtPosition method [Text Services Framework], RequestAttrsAtPosition method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::RequestAttrsAtPosition, tsf.itextstoreanchor_requestattrsatposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

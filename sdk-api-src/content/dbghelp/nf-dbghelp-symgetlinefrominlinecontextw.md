@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymGetLineFromInlineContextW
 title: SymGetLineFromInlineContextW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates the source line for the specified inline context.
 old-location: base\symgetlinefrominlinecontext.htm
 old-project: Debug
 ms.assetid: 0c362bd9-7496-436b-9e01-2054dc3dfc57
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymGetLineFromInlineContext, SymGetLineFromInlineContext function, SymGetLineFromInlineContextW, base.symgetlinefrominlinecontext, dbghelp/SymGetLineFromInlineContext, dbghelp/SymGetLineFromInlineContextW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

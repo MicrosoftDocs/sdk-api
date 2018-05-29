@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.SetPredication
 title: ID3D11DeviceContext::SetPredication
-author: windows-driver-content
+author: windows-sdk-content
 description: Set a rendering predicate.
 old-location: direct3d11\id3d11devicecontext_setpredication.htm
 old-project: direct3d11
 ms.assetid: ceac248a-31c9-4e14-892f-f047e288daae
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 98e79ffd-cbd6-1ca3-db07-4eea5d48cf38, ID3D11DeviceContext interface [Direct3D 11],SetPredication method, ID3D11DeviceContext.SetPredication, ID3D11DeviceContext::SetPredication, SetPredication, SetPredication method [Direct3D 11], SetPredication method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::SetPredication, direct3d11.id3d11devicecontext_setpredication
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

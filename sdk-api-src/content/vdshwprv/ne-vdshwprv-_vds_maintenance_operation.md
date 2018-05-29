@@ -1,16 +1,16 @@
 ---
 UID: NE:vdshwprv._VDS_MAINTENANCE_OPERATION
 title: "_VDS_MAINTENANCE_OPERATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of valid subsystem maintenance operations.
 old-location: base\vds_maintenance_operation.htm
 old-project: VDS
 ms.assetid: 29bc5eb3-2e4b-4ca1-8b0a-9b43d2723e56
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: BeepAlarm, BlinkLight, Ping, SpinDown, SpinUp, VDS_MAINTENANCE_OPERATION, VDS_MAINTENANCE_OPERATION enumeration [VDS], _VDS_MAINTENANCE_OPERATION, base.vds_maintenance_operation, vds/BeepAlarm, vds/BlinkLight, vds/Ping, vds/SpinDown, vds/SpinUp, vds/VDS_MAINTENANCE_OPERATION, vdshwprv/BeepAlarm, vdshwprv/BlinkLight, vdshwprv/Ping, vdshwprv/SpinDown, vdshwprv/SpinUp, vdshwprv/VDS_MAINTENANCE_OPERATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: vdshwprv.h
 req.include-header: 

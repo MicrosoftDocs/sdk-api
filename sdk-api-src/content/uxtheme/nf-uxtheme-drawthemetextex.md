@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.DrawThemeTextEx
 title: DrawThemeTextEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Draws text using the color and font defined by the visual style. Extends DrawThemeText by allowing additional text format options.
 old-location: controls\DrawThemeTextEx.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemetextex.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DrawThemeTextEx, DrawThemeTextEx function [Windows Controls], controls.DrawThemeTextEx, controls.inet_DrawThemeTextEx, inet_DrawThemeTextEx, inet_DrawThemeTextEx_cpp, uxtheme/DrawThemeTextEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

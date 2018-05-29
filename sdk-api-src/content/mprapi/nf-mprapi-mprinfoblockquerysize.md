@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprInfoBlockQuerySize
 title: MprInfoBlockQuerySize function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprInfoBlockQuerySize function returns the returns the size of the information header.
 old-location: rras\mprinfoblockquerysize.htm
 old-project: RRAS
 ms.assetid: cac491c9-3486-4eba-afe9-9e18f50c0643
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprInfoBlockQuerySize, MprInfoBlockQuerySize function [RAS], _mpr_mprinfoblockquerysize, mprapi/MprInfoBlockQuerySize, rras.mprinfoblockquerysize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

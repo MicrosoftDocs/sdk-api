@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.linereqmediacall_tag
 title: linereqmediacall_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a request initiated by a call to the lineGetRequest function. This data structure is obsolete and should not be used.
 old-location: tapi2\linereqmediacall_str.htm
 old-project: Tapi
 ms.assetid: 4b0e4919-ebf9-496c-a8c9-bb8357879c65
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPLINEREQMEDIACALL, LINEREQMEDIACALL, LINEREQMEDIACALL structure [TAPI 2.2], LPLINEREQMEDIACALL, LPLINEREQMEDIACALL structure pointer [TAPI 2.2], _tapi2_linereqmediacall_str, linereqmediacall_tag, tapi/LINEREQMEDIACALL, tapi/LPLINEREQMEDIACALL, tapi2.linereqmediacall_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

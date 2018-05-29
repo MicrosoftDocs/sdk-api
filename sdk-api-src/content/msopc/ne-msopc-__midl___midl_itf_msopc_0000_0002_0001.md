@@ -1,16 +1,16 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0000_0002_0001
 title: "__MIDL___MIDL_itf_msopc_0000_0002_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the target mode of a relationship.
 old-location: opc\opc_uri_target_mode.htm
 old-project: OPC
 ms.assetid: af052aa3-db7a-47de-938c-32895b8735e9
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: OPC_URI_TARGET_MODE, OPC_URI_TARGET_MODE enumeration [Open Packaging Conventions], OPC_URI_TARGET_MODE_EXTERNAL, OPC_URI_TARGET_MODE_INTERNAL, __MIDL___MIDL_itf_msopc_0000_0002_0001, msopc/OPC_URI_TARGET_MODE, msopc/OPC_URI_TARGET_MODE_EXTERNAL, msopc/OPC_URI_TARGET_MODE_INTERNAL, opc.opc_uri_target_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msopc.h
 req.include-header: 

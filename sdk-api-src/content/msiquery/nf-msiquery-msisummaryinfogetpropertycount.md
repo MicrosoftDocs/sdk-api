@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiSummaryInfoGetPropertyCount
 title: MsiSummaryInfoGetPropertyCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiSummaryInfoGetPropertyCount function returns the number of existing properties in the summary information stream.
 old-location: setup\msisummaryinfogetpropertycount.htm
 old-project: Msi
 ms.assetid: 8a9fe9cc-8289-479a-acda-ce2a2b76705f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiSummaryInfoGetPropertyCount, MsiSummaryInfoGetPropertyCount function, _msi_msisummaryinfogetpropertycount, msiquery/MsiSummaryInfoGetPropertyCount, setup.msisummaryinfogetpropertycount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

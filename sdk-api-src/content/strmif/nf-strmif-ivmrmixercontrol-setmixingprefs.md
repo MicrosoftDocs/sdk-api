@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRMixerControl.SetMixingPrefs
 title: IVMRMixerControl::SetMixingPrefs
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the mixing preferences for the stream.
 old-location: dshow\ivmrmixercontrol_setmixingprefs.htm
 old-project: DirectShow
 ms.assetid: b0bd2086-af22-4530-921d-b7c56471d142
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetMixingPrefs method, IVMRMixerControl.SetMixingPrefs, IVMRMixerControl::SetMixingPrefs, IVMRMixerControlSetOutputRect, SetMixingPrefs, SetMixingPrefs method [DirectShow], SetMixingPrefs method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setmixingprefs, strmif/IVMRMixerControl::SetMixingPrefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

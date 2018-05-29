@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont.GetForeColor
 title: ITextFont::GetForeColor
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the foreground, or text, color.
 old-location: controls\ITextFont_GetForeColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getforecolor.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetForeColor, GetForeColor method [Windows Controls], GetForeColor method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetForeColor method, ITextFont.GetForeColor, ITextFont::GetForeColor, _win32_ITextFont_GetForeColor, _win32_ITextFont_GetForeColor_cpp, controls.ITextFont_GetForeColor, controls._win32_ITextFont_GetForeColor, tom/ITextFont::GetForeColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

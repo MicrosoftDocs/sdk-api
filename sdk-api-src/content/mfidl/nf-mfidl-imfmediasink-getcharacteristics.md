@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaSink.GetCharacteristics
 title: IMFMediaSink::GetCharacteristics
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the characteristics of the media sink.
 old-location: mf\imfmediasink_getcharacteristics.htm
 old-project: medfound
 ms.assetid: a7e8e2af-8b10-47f5-8b09-a7147ace5ba1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCharacteristics, GetCharacteristics method [Media Foundation], GetCharacteristics method [Media Foundation],IMFMediaSink interface, IMFMediaSink interface [Media Foundation],GetCharacteristics method, IMFMediaSink.GetCharacteristics, IMFMediaSink::GetCharacteristics, MEDIASINK_CANNOT_MATCH_CLOCK, MEDIASINK_CAN_PREROLL, MEDIASINK_CLOCK_REQUIRED, MEDIASINK_FIXED_STREAMS, MEDIASINK_RATELESS, MEDIASINK_REQUIRE_REFERENCE_MEDIATYPE, a7e8e2af-8b10-47f5-8b09-a7147ace5ba1, mf.imfmediasink_getcharacteristics, mfidl/IMFMediaSink::GetCharacteristics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

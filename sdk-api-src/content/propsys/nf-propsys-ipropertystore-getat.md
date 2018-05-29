@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyStore.GetAt
 title: IPropertyStore::GetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a property key from the property array of an item.
 old-location: audio\ipropertystore_getat.htm
 old-project: audio
 ms.assetid: 4f93949a-d5d5-4fbf-8538-6171861e5884
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: GetAt, GetAt method [Audio Devices], GetAt method [Audio Devices],IPropertyStore interface, IPropertyStore interface [Audio Devices],GetAt method, IPropertyStore.GetAt, IPropertyStore::GetAt, audio.ipropertystore_getat, audio_syseffects_r_3a52a0be-2e51-468f-9a93-86bd242b422e.xml, propsys/IPropertyStore::GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

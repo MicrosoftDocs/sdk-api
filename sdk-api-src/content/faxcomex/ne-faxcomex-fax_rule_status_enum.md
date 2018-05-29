@@ -1,16 +1,16 @@
 ---
 UID: NE:faxcomex.FAX_RULE_STATUS_ENUM
 title: FAX_RULE_STATUS_ENUM
-author: windows-driver-content
+author: windows-sdk-content
 description: The FAX_RULE_STATUS_ENUM enumeration defines the status types for outbound routing rules.
 old-location: fax\_mfax_fax_rule_status_enum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5p2l.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FAX_RULE_STATUS_ENUM, FAX_RULE_STATUS_ENUM enumeration [Fax Service], _mfax_fax_rule_status_enum, fax._mfax_fax_rule_status_enum, faxcomex/FAX_RULE_STATUS_ENUM, faxcomex/frsALL_GROUP_DEV_NOT_VALID, faxcomex/frsBAD_DEVICE, faxcomex/frsEMPTY_GROUP, faxcomex/frsSOME_GROUP_DEV_NOT_VALID, faxcomex/frsVALID, frsALL_GROUP_DEV_NOT_VALID, frsBAD_DEVICE, frsEMPTY_GROUP, frsSOME_GROUP_DEV_NOT_VALID, frsVALID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 

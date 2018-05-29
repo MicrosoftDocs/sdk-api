@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.GetTotalLength
 title: IMFHttpDownloadRequest::GetTotalLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to retrieve the total length of the resource that is being downloaded, if known.
 old-location: mf\imfhttpdownloadrequest_gettotallength.htm
 old-project: medfound
 ms.assetid: E52D44B5-F24F-4234-A67D-0F764A3864DB
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetTotalLength, GetTotalLength method [Media Foundation], GetTotalLength method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetTotalLength method, IMFHttpDownloadRequest.GetTotalLength, IMFHttpDownloadRequest::GetTotalLength, mf.imfhttpdownloadrequest_gettotallength, mfidl/IMFHttpDownloadRequest::GetTotalLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

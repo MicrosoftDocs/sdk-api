@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupSetDirectoryIdA
 title: SetupSetDirectoryIdA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupSetDirectoryId function associates a directory identifier in an INF file with a specific directory.
 old-location: setup\setupsetdirectoryid.htm
 old-project: SetupApi
 ms.assetid: bacb7b90-a391-4f05-bedb-0c0f52fd15f9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupSetDirectoryId, SetupSetDirectoryId function [Setup API], SetupSetDirectoryIdA, SetupSetDirectoryIdW, _setupapi_setupsetdirectoryid, setup.setupsetdirectoryid, setupapi/SetupSetDirectoryId, setupapi/SetupSetDirectoryIdA, setupapi/SetupSetDirectoryIdW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

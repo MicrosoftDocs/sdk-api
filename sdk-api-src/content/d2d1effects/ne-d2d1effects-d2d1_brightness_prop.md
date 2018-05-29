@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1effects.D2D1_BRIGHTNESS_PROP
 title: D2D1_BRIGHTNESS_PROP
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifiers for the properties of the Brightness effect.
 old-location: direct2d\d2d1_brightness_prop.htm
 old-project: Direct2D
 ms.assetid: 7D3CEF7A-AF72-451B-8E6A-A9DF8E85EDE9
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_BRIGHTNESS_PROP, D2D1_BRIGHTNESS_PROP enumeration [Direct2D], D2D1_BRIGHTNESS_PROP_BLACK_POINT, D2D1_BRIGHTNESS_PROP_WHITE_POINT, d2d1effects/D2D1_BRIGHTNESS_PROP, d2d1effects/D2D1_BRIGHTNESS_PROP_BLACK_POINT, d2d1effects/D2D1_BRIGHTNESS_PROP_WHITE_POINT, direct2d.d2d1_brightness_prop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 

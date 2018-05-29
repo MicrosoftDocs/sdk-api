@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiRecordGetFieldCount
 title: MsiRecordGetFieldCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of fields in a record.
 old-location: setup\msirecordgetfieldcount.htm
 old-project: Msi
 ms.assetid: 17d4e593-f80c-4f67-bfd0-fa487e2477c4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiRecordGetFieldCount, MsiRecordGetFieldCount function, _msi_msirecordgetfieldcount, msiquery/MsiRecordGetFieldCount, setup.msirecordgetfieldcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

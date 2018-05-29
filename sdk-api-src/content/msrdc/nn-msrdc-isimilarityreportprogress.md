@@ -1,16 +1,16 @@
 ---
 UID: NN:msrdc.ISimilarityReportProgress
 title: ISimilarityReportProgress
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a method for RDC to report the current completion percentage of a similarity operation.
 old-location: rdc\isimilarityreportprogress.htm
 old-project: Rdc
 ms.assetid: 813bda93-08d5-456c-9bde-ce6dd53fb8bf
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISimilarityReportProgress, ISimilarityReportProgress interface [Remote Differential Compression], ISimilarityReportProgress interface [Remote Differential Compression],described, fs.isimilarityreportprogress, msrdc/ISimilarityReportProgress, rdc.isimilarityreportprogress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

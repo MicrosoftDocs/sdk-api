@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.CalculateDiscIdentifier
 title: IFileSystemImage::CalculateDiscIdentifier
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a string that identifies a disc and the sessions recorded on the disc.
 old-location: imapi\ifilesystemimage_calculatediscidentifier.htm
 old-project: imapi
 ms.assetid: c1d1fc83-326e-4d9f-b771-c520ee956ed5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CalculateDiscIdentifier, CalculateDiscIdentifier method [IMAPI], CalculateDiscIdentifier method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],CalculateDiscIdentifier method, IFileSystemImage.CalculateDiscIdentifier, IFileSystemImage::CalculateDiscIdentifier, imapi.ifilesystemimage_calculatediscidentifier, imapi2fs/IFileSystemImage::CalculateDiscIdentifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

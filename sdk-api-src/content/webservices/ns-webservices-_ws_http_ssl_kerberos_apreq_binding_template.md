@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE
 title: "_WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Username/password security template information to be filled in by application. Associated with WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE_TYPE.
 old-location: wsw\ws_http_ssl_kerberos_apreq_binding_template.htm
 old-project: wsw
 ms.assetid: 6534962a-452c-4c61-9c01-7fe8a8cc5c7d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE, WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE structure [Web Services for Windows], _WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE, webservices/WS_HTTP_SSL_KERBEROS_APREQ_BINDING_TEMPLATE, wsw.ws_http_ssl_kerberos_apreq_binding_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

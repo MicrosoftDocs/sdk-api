@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngAllocMem
 title: EngAllocMem macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngAllocMem function allocates a block of memory and inserts a caller-supplied tag before the allocation.
 old-location: display\engallocmem.htm
 old-project: display
 ms.assetid: 61bef5a1-bf68-4d37-ae5d-13ff045a2344
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngAllocMem, EngAllocMem function [Display Devices], display.engallocmem, gdifncs_c8084f74-b624-4f79-be0a-cf1fc144afaa.xml, winddi/EngAllocMem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winddi.h
 req.include-header: Winddi.h

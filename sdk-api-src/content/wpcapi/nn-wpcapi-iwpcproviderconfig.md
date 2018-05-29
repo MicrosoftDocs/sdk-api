@@ -1,16 +1,16 @@
 ---
 UID: NN:wpcapi.IWPCProviderConfig
 title: IWPCProviderConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes configuration methods that are implemented by third parties.
 old-location: parcon\iwpcproviderconfig.htm
 old-project: parcon
 ms.assetid: 008786aa-72ef-4591-8826-01176d3e3fba
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWPCProviderConfig, IWPCProviderConfig interface, IWPCProviderConfig interface,described, parcon.iwpcproviderconfig, wpcapi/IWPCProviderConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wpcapi.h
 req.include-header: 

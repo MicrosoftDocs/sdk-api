@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderPlaylistBurn.GetInitResults
 title: IWMReaderPlaylistBurn::GetInitResults
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetInitResults method retrieves the results of the playlist file check.
 old-location: wmformat\iwmreaderplaylistburn_getinitresults.htm
 old-project: wmformat
 ms.assetid: 9f9db03b-0bcc-4442-b97e-f6a2f8d179fa
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetInitResults, GetInitResults method [windows Media Format], GetInitResults method [windows Media Format],IWMReaderPlaylistBurn interface, IWMReaderPlaylistBurn interface [windows Media Format],GetInitResults method, IWMReaderPlaylistBurn.GetInitResults, IWMReaderPlaylistBurn::GetInitResults, IWMReaderPlaylistBurnGetInitResults, wmformat.iwmreaderplaylistburn_getinitresults, wmsdkidl/IWMReaderPlaylistBurn::GetInitResults
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

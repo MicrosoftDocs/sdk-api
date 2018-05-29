@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetStylusAsyncPluginCount
 title: IRealTimeStylus::GetStylusAsyncPluginCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of plug-ins in the asynchronous plug-in collection.
 old-location: tablet\irealtimestylus_getstylusasyncplugincount.htm
 old-project: tablet
 ms.assetid: 45861b92-0a2c-42ec-96e5-c3afd45e0e85
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 45861b92-0a2c-42ec-96e5-c3afd45e0e85, GetStylusAsyncPluginCount, GetStylusAsyncPluginCount method [Tablet PC], GetStylusAsyncPluginCount method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusAsyncPluginCount method, IRealTimeStylus.GetStylusAsyncPluginCount, IRealTimeStylus::GetStylusAsyncPluginCount, rtscom/IRealTimeStylus::GetStylusAsyncPluginCount, tablet.irealtimestylus_getstylusasyncplugincount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

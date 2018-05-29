@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Enable_DevNode
 title: CM_Enable_DevNode function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Enable_DevNode function enables a device.
 old-location: devinst\cm_enable_devnode.htm
 old-project: devinst
 ms.assetid: ddc3a507-03ee-4f44-89e3-64ec4290d0ff
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Enable_DevNode, CM_Enable_DevNode function [Device and Driver Installation], cfgmgr32/CM_Enable_DevNode, cfgmgrfn_10a592e0-91c9-47f2-aaa1-769e44bc1cbc.xml, devinst.cm_enable_devnode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

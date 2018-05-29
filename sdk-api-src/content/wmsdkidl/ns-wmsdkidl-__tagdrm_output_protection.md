@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl.__tagDRM_OUTPUT_PROTECTION
 title: "__tagDRM_OUTPUT_PROTECTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DRM_VIDEO_OUTPUT_PROTECTION structure holds a video output technology identifier and the configuration data required by that technology.
 old-location: wmformat\drm_video_output_protection.htm
 old-project: wmformat
 ms.assetid: 73c7b2ab-3680-462a-ab7f-d3270ea0127b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DRM_OUTPUT_PROTECTION, DRM_VIDEO_OUTPUT_PROTECTION, DRM_VIDEO_OUTPUT_PROTECTION structure [windows Media Format], __tagDRM_OUTPUT_PROTECTION, structure [windows Media Format], wmformat.drm_video_output_protection, wmsdkidl/DRM_VIDEO_OUTPUT_PROTECTION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h

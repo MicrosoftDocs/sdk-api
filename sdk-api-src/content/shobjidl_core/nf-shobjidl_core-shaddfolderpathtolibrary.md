@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.SHAddFolderPathToLibrary
 title: SHAddFolderPathToLibrary function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a folder to a library.
 old-location: shell\SHAddFolderPathToLibrary.htm
 old-project: shell
 ms.assetid: 308e7905-dfa1-438f-9e7e-f895517e7adb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHAddFolderPathToLibrary, SHAddFolderPathToLibrary function [Windows Shell], _shell_SHAddFolderPathToLibrary, shell.SHAddFolderPathToLibrary, shobjidl_core/SHAddFolderPathToLibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

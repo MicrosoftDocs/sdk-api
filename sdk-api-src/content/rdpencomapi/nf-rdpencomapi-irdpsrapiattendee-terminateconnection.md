@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.TerminateConnection
 title: IRDPSRAPIAttendee::TerminateConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: Disconnects the client represented by the attendee.
 old-location: rdp\irdpsrapiattendee_terminateconnection.htm
 old-project: Rdp
 ms.assetid: e666fdd4-7417-40ea-9643-d7df587294f2
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIAttendee interface [RDP],TerminateConnection method, IRDPSRAPIAttendee.TerminateConnection, IRDPSRAPIAttendee::TerminateConnection, TerminateConnection, TerminateConnection method [RDP], TerminateConnection method [RDP],IRDPSRAPIAttendee interface, rdp.irdpsrapiattendee_terminateconnection, rdpencomapi/IRDPSRAPIAttendee::TerminateConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

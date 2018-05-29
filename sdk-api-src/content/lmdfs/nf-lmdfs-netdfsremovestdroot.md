@@ -1,16 +1,16 @@
 ---
 UID: NF:lmdfs.NetDfsRemoveStdRoot
 title: NetDfsRemoveStdRoot function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a stand-alone Distributed File System (DFS) namespace.
 old-location: dfs\netdfsremovestdroot.htm
 old-project: Dfs
 ms.assetid: 850427cc-56da-45cc-8833-e242acc53589
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: NetDfsRemoveStdRoot, NetDfsRemoveStdRoot function [Distributed File System], _win32_netdfsremovestdroot, dfs.netdfsremovestdroot, fs.netdfsremovestdroot, lmdfs/NetDfsRemoveStdRoot, netmgmt.netdfsremovestdroot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

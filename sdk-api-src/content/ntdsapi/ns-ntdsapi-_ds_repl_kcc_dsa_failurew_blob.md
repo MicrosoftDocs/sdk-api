@@ -1,16 +1,16 @@
 ---
 UID: NS:ntdsapi._DS_REPL_KCC_DSA_FAILUREW_BLOB
 title: "_DS_REPL_KCC_DSA_FAILUREW_BLOB"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains replication state data with respect to a specific inbound replication partner.
 old-location: ad\ds_repl_kcc_dsa_failurew_blob.htm
 old-project: AD
 ms.assetid: b0df588a-2ef1-4870-b304-c6f9e07322b0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_REPL_KCC_DSA_FAILUREW_BLOB, DS_REPL_KCC_DSA_FAILUREW_BLOB structure [Active Directory], _DS_REPL_KCC_DSA_FAILUREW_BLOB, ad.ds_repl_kcc_dsa_failurew_blob, msDS-ReplConnectionFailures, msDS-ReplLinkFailures, ntdsapi/DS_REPL_KCC_DSA_FAILUREW_BLOB
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

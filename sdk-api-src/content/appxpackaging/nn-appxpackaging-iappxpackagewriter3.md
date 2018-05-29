@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxPackageWriter3
 title: IAppxPackageWriter3
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a write-only object model for app packages.
 old-location: appxpkg\iappxpackagewriter3.htm
 old-project: appxpkg
 ms.assetid: 0373AC0B-8988-494B-A795-CAA62A538FE4
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxPackageWriter3, IAppxPackageWriter3 interface [App packaging and management], IAppxPackageWriter3 interface [App packaging and management],described, appxpackaging/IAppxPackageWriter3, appxpkg.iappxpackagewriter3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

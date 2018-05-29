@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileGroupManager
 title: IFsrmFileGroupManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to manage file group objects.
 old-location: fsrm\ifsrmfilegroupmanager.htm
 old-project: Fsrm
 ms.assetid: e0a1a3d3-f683-410d-a0d9-081cd2476d1e
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmFileGroupManager, IFsrmFileGroupManager interface [File Server Resource Manager], IFsrmFileGroupManager interface [File Server Resource Manager],described, fs.ifsrmfilegroupmanager, fsrm.ifsrmfilegroupmanager, fsrmscreen/IFsrmFileGroupManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h

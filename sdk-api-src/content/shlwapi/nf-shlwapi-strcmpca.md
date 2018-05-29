@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrCmpCA
 title: StrCmpCA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares strings using C run-time (ASCII) collation rules. The comparison is case-sensitive.
 old-location: shell\StrCmpC.htm
 old-project: shell
 ms.assetid: f4c4bc76-1e42-4cb0-bf74-d395743c9b1c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrCmpC, StrCmpC function [Windows Shell], StrCmpCA, StrCmpCW, _shell_StrCmpC, shell.StrCmpC, shlwapi/StrCmpC, shlwapi/StrCmpCA, shlwapi/StrCmpCW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

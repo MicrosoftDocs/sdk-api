@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.IEnumCall.Next
 title: IEnumCall::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumcall_next.htm
 old-project: Tapi
 ms.assetid: 5cb911fc-59aa-49c1-9df2-594b0dc22414
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumCall interface [TAPI 2.2],Next method, IEnumCall.Next, IEnumCall::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumCall interface, _tapi3_ienumcall_next, tapi3.ienumcall_next, tapi3if/IEnumCall::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextPara.SetLineSpacing
 title: ITextPara::SetLineSpacing
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the paragraph line-spacing rule and the line spacing for a paragraph.
 old-location: controls\ITextPara_SetLineSpacing.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlinespacing.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextPara interface [Windows Controls],SetLineSpacing method, ITextPara.SetLineSpacing, ITextPara::SetLineSpacing, SetLineSpacing, SetLineSpacing method [Windows Controls], SetLineSpacing method [Windows Controls],ITextPara interface, _win32_ITextPara_SetLineSpacing, _win32_ITextPara_SetLineSpacing_cpp, controls.ITextPara_SetLineSpacing, controls._win32_ITextPara_SetLineSpacing, tom/ITextPara::SetLineSpacing
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

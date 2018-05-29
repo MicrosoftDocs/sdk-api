@@ -1,16 +1,16 @@
 ---
 UID: NS:npapi._NOTIFYCANCEL
 title: "_NOTIFYCANCEL"
-author: windows-driver-content
+author: windows-sdk-content
 description: The NOTIFYCANCEL structure contains the details of a network disconnect operation. It is used by the CancelConnectNotify function.
 old-location: security\notifycancel.htm
 old-project: SecAuthN
 ms.assetid: cc4cb0fb-ff7d-4bdc-944c-3bf9b08ea72c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPNOTIFYCANCEL, LPNOTIFYCANCEL, LPNOTIFYCANCEL structure pointer [Security], NOTIFYCANCEL, NOTIFYCANCEL structure [Security], _NOTIFYCANCEL, _mnp_notifycancel, npapi/LPNOTIFYCANCEL, npapi/NOTIFYCANCEL, security.notifycancel"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: npapi.h
 req.include-header: 

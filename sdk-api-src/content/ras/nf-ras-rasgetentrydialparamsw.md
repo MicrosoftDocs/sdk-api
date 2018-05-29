@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasGetEntryDialParamsW
 title: RasGetEntryDialParamsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasGetEntryDialParams function retrieves the connection information saved by the last successful call to the RasDial or RasSetEntryDialParams function for a specified phone-book entry.
 old-location: rras\rasgetentrydialparams.htm
 old-project: RRAS
 ms.assetid: c6752f95-c7e8-44d9-9dbd-9f03cc4778fa
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasGetEntryDialParams, RasGetEntryDialParams function [RAS], RasGetEntryDialParamsA, RasGetEntryDialParamsW, _ras_rasgetentrydialparams, ras/RasGetEntryDialParams, ras/RasGetEntryDialParamsA, ras/RasGetEntryDialParamsW, rras.rasgetentrydialparams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

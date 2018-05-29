@@ -1,16 +1,16 @@
 ---
 UID: NF:tokenbinding.TokenBindingGenerateID
 title: TokenBindingGenerateID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Constructs the token binding identifier by extracting the signature algorithm from the key type and copying the exported public key.
 old-location: security\tokenbindinggenerateid.htm
 old-project: SecCNG
 ms.assetid: F3E30DF8-2A1D-445E-914B-62999428BB6F
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: TokenBindingGenerateID, TokenBindingGenerateID function [Security], security.tokenbindinggenerateid, tokenbinding/TokenBindingGenerateID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tokenbinding.h
 req.include-header: 

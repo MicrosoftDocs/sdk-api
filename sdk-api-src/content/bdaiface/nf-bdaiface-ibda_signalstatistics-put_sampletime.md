@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.put_SampleTime
 title: IBDA_SignalStatistics::put_SampleTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_SampleTime method specifies the sample time of the signal.
 old-location: mstv\ibda_signalstatistics_put_sampletime.htm
 old-project: mstv
 ms.assetid: 086fd3ad-26d7-4b5b-b73a-a7d4db44d2c2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],put_SampleTime method, IBDA_SignalStatistics.put_SampleTime, IBDA_SignalStatistics::put_SampleTime, IBDA_SignalStatisticsput_SampleTime, bdaiface/IBDA_SignalStatistics::put_SampleTime, mstv.ibda_signalstatistics_put_sampletime, put_SampleTime, put_SampleTime method [Microsoft TV Technologies], put_SampleTime method [Microsoft TV Technologies],IBDA_SignalStatistics interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

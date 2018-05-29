@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzApplication3
 title: IAzApplication3
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to manage IAzRoleAssignment, IAzRoleDefinition, and IAzScope2 objects.
 old-location: security\iazapplication3.htm
 old-project: SecAuthZ
 ms.assetid: 9d0b2c3b-b8b6-4fae-9308-9dd29da0724f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzApplication3, IAzApplication3 interface [Security], IAzApplication3 interface [Security],described, azroles/IAzApplication3, security.iazapplication3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

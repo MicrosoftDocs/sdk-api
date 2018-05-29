@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509ExtensionKeyUsage.get_KeyUsage
 title: IX509ExtensionKeyUsage::get_KeyUsage
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the restrictions placed on the public key.
 old-location: security\ix509extensionkeyusage_keyusage_property.htm
 old-project: SecCertEnroll
 ms.assetid: ddb23d36-342f-4bd1-9936-72b025c4a03b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509ExtensionKeyUsage interface [Security],KeyUsage property, IX509ExtensionKeyUsage.KeyUsage, IX509ExtensionKeyUsage.get_KeyUsage, IX509ExtensionKeyUsage::KeyUsage, IX509ExtensionKeyUsage::get_KeyUsage, KeyUsage property [Security], KeyUsage property [Security],IX509ExtensionKeyUsage interface, certenroll/IX509ExtensionKeyUsage::KeyUsage, certenroll/IX509ExtensionKeyUsage::get_KeyUsage, get_KeyUsage, security.ix509extensionkeyusage_keyusage_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

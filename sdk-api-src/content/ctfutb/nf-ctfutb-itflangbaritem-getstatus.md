@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.GetStatus
 title: ITfLangBarItem::GetStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfLangBarItem::GetStatus method
 old-location: tsf\itflangbaritem_getstatus.htm
 old-project: TSF
 ms.assetid: 2f850553-ec79-4e2f-a4d5-c40dbaca0f01
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfLangBarItem interface, ITfLangBarItem interface [Text Services Framework],GetStatus method, ITfLangBarItem.GetStatus, ITfLangBarItem::GetStatus, _tsf_itflangbaritem_getstatus_ref, ctfutb/ITfLangBarItem::GetStatus, tsf.itflangbaritem_getstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:enclaveapi.DeleteEnclave
 title: DeleteEnclave function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the specified enclave.
 old-location: base\deleteenclave.htm
 old-project: Memory
 ms.assetid: 04FCD129-3A3B-40EA-AD62-01C674CF2E61
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DeleteEnclave, DeleteEnclave function, base.deleteenclave, enclaveapi/DeleteEnclave
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: enclaveapi.h
 req.include-header: 

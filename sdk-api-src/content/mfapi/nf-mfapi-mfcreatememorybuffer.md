@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateMemoryBuffer
 title: MFCreateMemoryBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates system memory and creates a media buffer to manage it.
 old-location: mf\mfcreatememorybuffer.htm
 old-project: medfound
 ms.assetid: 1f79d057-7ef7-4662-9f82-ceadc23276f0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 1f79d057-7ef7-4662-9f82-ceadc23276f0, MFCreateMemoryBuffer, MFCreateMemoryBuffer function [Media Foundation], mf.mfcreatememorybuffer, mfapi/MFCreateMemoryBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

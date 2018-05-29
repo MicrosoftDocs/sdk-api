@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.ILaunchTargetViewSizePreference
 title: ILaunchTargetViewSizePreference
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method for retrieving the preferred view size for a new application window.
 old-location: shell\ILaunchTargetViewSizePreference.htm
 old-project: shell
 ms.assetid: 3535E9EF-265E-4278-8E0D-60AA8A34C316
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ILaunchTargetViewSizePreference, ILaunchTargetViewSizePreference interface [Windows Shell], ILaunchTargetViewSizePreference interface [Windows Shell],described, shell.ILaunchTargetViewSizePreference, shobjidl_core/ILaunchTargetViewSizePreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

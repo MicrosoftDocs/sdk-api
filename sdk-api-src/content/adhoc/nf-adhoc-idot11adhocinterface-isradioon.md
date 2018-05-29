@@ -1,16 +1,16 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.IsRadioOn
 title: IDot11AdHocInterface::IsRadioOn
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether the radio is on.
 old-location: nwifi\idot11adhocinterface_isradioon.htm
 old-project: NativeWiFi
 ms.assetid: f5d76166-b960-4b70-acf7-e8eb65ca8cfb
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: IDot11AdHocInterface interface [NativeWIFI],IsRadioOn method, IDot11AdHocInterface.IsRadioOn, IDot11AdHocInterface::IsRadioOn, IsRadioOn, IsRadioOn method [NativeWIFI], IsRadioOn method [NativeWIFI],IDot11AdHocInterface interface, adhoc/IDot11AdHocInterface::IsRadioOn, nwifi.idot11adhocinterface_isradioon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

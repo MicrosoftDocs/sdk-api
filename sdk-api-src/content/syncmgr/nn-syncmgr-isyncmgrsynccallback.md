@@ -1,16 +1,16 @@
 ---
 UID: NN:syncmgr.ISyncMgrSyncCallback
 title: ISyncMgrSyncCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that allow a synchronization process to report progress and events to Sync Center, or to query whether the process has been canceled.
 old-location: shell\ISyncMgrSyncCallback.htm
 old-project: shell
 ms.assetid: 4f2b6dc3-3b81-4c0a-b0a2-b48f13fba397
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrSyncCallback, ISyncMgrSyncCallback interface [Windows Shell], ISyncMgrSyncCallback interface [Windows Shell],described, _shell_ISyncMgrSyncCallback, shell.ISyncMgrSyncCallback, syncmgr/ISyncMgrSyncCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

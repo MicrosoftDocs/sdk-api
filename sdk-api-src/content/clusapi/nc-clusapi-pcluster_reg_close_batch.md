@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSTER_REG_CLOSE_BATCH
 title: PCLUSTER_REG_CLOSE_BATCH
-author: windows-driver-content
+author: windows-sdk-content
 description: Executes or ignores the batch created by the ClusterRegCreateBatch function.
 old-location: mscs\clusterregclosebatch.htm
 old-project: MsCS
 ms.assetid: d43644cf-370b-499f-b321-24e43f145a98
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSTER_REG_CLOSE_BATCH, PCLUSTER_REG_CLOSE_BATCH callback, PCLUSTER_REG_CLOSE_BATCH callback function [Failover Cluster], clusapi/PCLUSTER_REG_CLOSE_BATCH, mscs.clusterregclosebatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

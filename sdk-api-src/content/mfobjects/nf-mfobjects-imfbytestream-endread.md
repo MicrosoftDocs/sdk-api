@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFByteStream.EndRead
 title: IMFByteStream::EndRead
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes an asynchronous read operation.
 old-location: mf\imfbytestream_endread.htm
 old-project: medfound
 ms.assetid: dd62f644-fb97-474b-8303-3086a7b51c4d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EndRead, EndRead method [Media Foundation], EndRead method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],EndRead method, IMFByteStream.EndRead, IMFByteStream::EndRead, dd62f644-fb97-474b-8303-3086a7b51c4d, mf.imfbytestream_endread, mfobjects/IMFByteStream::EndRead
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

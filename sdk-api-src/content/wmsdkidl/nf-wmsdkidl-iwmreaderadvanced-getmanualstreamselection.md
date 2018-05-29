@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetManualStreamSelection
 title: IWMReaderAdvanced::GetManualStreamSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetManualStreamSelection method ascertains whether manual stream selection has been specified.
 old-location: wmformat\iwmreaderadvanced_getmanualstreamselection.htm
 old-project: wmformat
 ms.assetid: 3205f508-a24b-4d24-a5e6-be16885e941b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetManualStreamSelection, GetManualStreamSelection method [windows Media Format], GetManualStreamSelection method [windows Media Format],IWMReaderAdvanced interface, IWMReaderAdvanced interface [windows Media Format],GetManualStreamSelection method, IWMReaderAdvanced.GetManualStreamSelection, IWMReaderAdvanced::GetManualStreamSelection, IWMReaderAdvancedGetManualStreamSelection, wmformat.iwmreaderadvanced_getmanualstreamselection, wmsdkidl/IWMReaderAdvanced::GetManualStreamSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

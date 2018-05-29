@@ -1,16 +1,16 @@
 ---
 UID: NF:dwmapi.DwmUpdateThumbnailProperties
 title: DwmUpdateThumbnailProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the properties for a Desktop Window Manager (DWM) thumbnail.
 old-location: dwm\dwmupdatethumbnailproperties.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmupdatethumbnailproperties.htm
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: DwmUpdateThumbnailProperties, DwmUpdateThumbnailProperties function [Desktop Window Manager], _udwm_dwmupdatethumbnailproperties, _udwm_dwmupdatethumbnailproperties_cpp, dwm.dwmupdatethumbnailproperties, dwmapi/DwmUpdateThumbnailProperties, winui._udwm_dwmupdatethumbnailproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

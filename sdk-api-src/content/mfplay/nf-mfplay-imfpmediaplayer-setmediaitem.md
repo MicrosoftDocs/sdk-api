@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetMediaItem
 title: IMFPMediaPlayer::SetMediaItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Queues a media item for playback.
 old-location: mf\imfpmediaplayer_setmediaitem.htm
 old-project: medfound
 ms.assetid: c792a024-c4f8-4e0b-9720-259d1dc28ee8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetMediaItem method, IMFPMediaPlayer.SetMediaItem, IMFPMediaPlayer::SetMediaItem, SetMediaItem, SetMediaItem method [Media Foundation], SetMediaItem method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setmediaitem, mfplay/IMFPMediaPlayer::SetMediaItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

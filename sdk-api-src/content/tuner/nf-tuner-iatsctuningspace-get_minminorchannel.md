@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.get_MinMinorChannel
 title: IATSCTuningSpace::get_MinMinorChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MinMinorChannel method gets the lowest minor channel number ever allowed for this tuning space.
 old-location: mstv\iatsctuningspace_get_minminorchannel.htm
 old-project: mstv
 ms.assetid: 93068602-0efa-45f2-9883-d8b681cd3a0f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],get_MinMinorChannel method, IATSCTuningSpace.get_MinMinorChannel, IATSCTuningSpace::get_MinMinorChannel, IATSCTuningSpaceget_MinMinorChannel, get_MinMinorChannel, get_MinMinorChannel method [Microsoft TV Technologies], get_MinMinorChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, mstv.iatsctuningspace_get_minminorchannel, tuner/IATSCTuningSpace::get_MinMinorChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

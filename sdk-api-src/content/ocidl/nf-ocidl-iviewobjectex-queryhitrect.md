@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IViewObjectEx.QueryHitRect
 title: IViewObjectEx::QueryHitRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether any point in a rectangle is within a given drawing aspect of an object.
 old-location: com\iviewobjectex_queryhitrect.htm
 old-project: com
 ms.assetid: eb155424-e74c-497f-a9c0-33ed3b2b5513
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IViewObjectEx interface [COM],QueryHitRect method, IViewObjectEx.QueryHitRect, IViewObjectEx::QueryHitRect, QueryHitRect, QueryHitRect method [COM], QueryHitRect method [COM],IViewObjectEx interface, _ole_iviewobjectex_queryhitrect, com.iviewobjectex_queryhitrect, ocidl/IViewObjectEx::QueryHitRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

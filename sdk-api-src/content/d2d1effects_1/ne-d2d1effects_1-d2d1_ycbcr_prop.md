@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1effects_1.D2D1_YCBCR_PROP
 title: D2D1_YCBCR_PROP
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifiers for properties of the YCbCr effect.
 old-location: direct2d\d2d1_ycbcr_prop.htm
 old-project: Direct2D
 ms.assetid: 08019B09-0254-48B3-9213-3E7362358109
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_YCBCR_PROP, D2D1_YCBCR_PROP enumeration [Direct2D], D2D1_YCBCR_PROP_CHROMA_SUBSAMPLING, D2D1_YCBCR_PROP_INTERPOLATION_MODE, D2D1_YCBCR_PROP_TRANSFORM_MATRIX, d2d1effects_1/D2D1_YCBCR_PROP, d2d1effects_1/D2D1_YCBCR_PROP_CHROMA_SUBSAMPLING, d2d1effects_1/D2D1_YCBCR_PROP_INTERPOLATION_MODE, d2d1effects_1/D2D1_YCBCR_PROP_TRANSFORM_MATRIX, direct2d.d2d1_ycbcr_prop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects_1.h
 req.include-header: 

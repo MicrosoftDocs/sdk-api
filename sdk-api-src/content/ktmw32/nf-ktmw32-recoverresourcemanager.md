@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.RecoverResourceManager
 title: RecoverResourceManager function
-author: windows-driver-content
+author: windows-sdk-content
 description: Recovers a resource manager's state from its log file.
 old-location: fs\recoverresourcemanager.htm
 old-project: Ktm
 ms.assetid: 616ff873-c0d0-464e-9b1b-74a426b99abd
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RecoverResourceManager, RecoverResourceManager function [Files], fs.recoverresourcemanager, ktmw32/RecoverResourceManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

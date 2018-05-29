@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptxml.CryptXmlClose
 title: CryptXmlClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a cryptographic XML object handle.
 old-location: security\cryptxmlclose.htm
 old-project: SecCrypto
 ms.assetid: ee3f8ea3-4898-462b-87cd-47dd3134636c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptXmlClose, CryptXmlClose function [Security], cryptxml/CryptXmlClose, security.cryptxmlclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

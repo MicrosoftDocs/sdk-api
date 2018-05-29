@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeLib2.GetLibStatistics
 title: ITypeLib2::GetLibStatistics
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns statistics about a type library that are required for efficient sizing of hash tables.
 old-location: automat\itypelib2_getlibstatistics.htm
 old-project: automat
 ms.assetid: b6ee47f7-eca6-48f6-b984-ff8c83a4ca46
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetLibStatistics, GetLibStatistics method [Automation], GetLibStatistics method [Automation],ITypeLib2 interface, ITypeLib2 interface [Automation],GetLibStatistics method, ITypeLib2.GetLibStatistics, ITypeLib2::GetLibStatistics, _oa96_ITypeLib2_GetLibStatistics, automat.itypelib2_getlibstatistics, oaidl/ITypeLib2::GetLibStatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

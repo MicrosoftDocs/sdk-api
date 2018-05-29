@@ -1,16 +1,16 @@
 ---
 UID: NF:baseaudioprocessingobject.AERT_Allocate
 title: AERT_Allocate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AERT_Allocate utility function allocates and locks a segment of memory for use by audio processing objects.
 old-location: audio\aert_allocate.htm
 old-project: audio
 ms.assetid: b992842d-0612-464c-9b82-b75137fa49eb
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: AERT_Allocate, AERT_Allocate function [Audio Devices], audio.aert_allocate, audio_syseffects_r_db01d2ca-9a2d-4054-b066-773f2cb54276.xml, baseaudioprocessingobject/AERT_Allocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: baseaudioprocessingobject.h
 req.include-header: 

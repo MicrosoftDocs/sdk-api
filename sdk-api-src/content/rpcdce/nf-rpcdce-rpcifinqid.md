@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcIfInqId
 title: RpcIfInqId function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcIfInqId function returns the interface-identification part of an interface specification.
 old-location: rpc\rpcifinqid.htm
 old-project: Rpc
 ms.assetid: 1b91e88c-b242-472f-b719-60f96599cb67
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcIfInqId, RpcIfInqId function [RPC], _rpc_rpcifinqid, rpc.rpcifinqid, rpcdce/RpcIfInqId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

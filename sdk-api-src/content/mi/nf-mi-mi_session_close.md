@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Session_Close
 title: MI_Session_Close function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a session and releases all associated memory.
 old-location: wmi_v2\mi_session_close.htm
 old-project: wmi_v2
 ms.assetid: c77a93b0-446c-417b-81ab-746c639477f7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Session_Close, MI_Session_Close function [Windows Management Infrastructure (MI)], mi/MI_Session_Close, wmi_v2.mi_session_close
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

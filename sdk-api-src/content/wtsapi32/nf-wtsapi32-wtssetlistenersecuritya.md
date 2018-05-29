@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsapi32.WTSSetListenerSecurityA
 title: WTSSetListenerSecurityA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures the security descriptor of a Remote Desktop Services listener.
 old-location: termserv\wtssetlistenersecurity.htm
 old-project: TermServ
 ms.assetid: bc90d526-e252-4506-b781-66da5bd66ced
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WTSSetListenerSecurity, WTSSetListenerSecurity function [Remote Desktop Services], WTSSetListenerSecurityA, WTSSetListenerSecurityW, WTS_SECURITY_ALL_ACCESS, WTS_SECURITY_CONNECT, WTS_SECURITY_CURRENT_GUEST_ACCESS, WTS_SECURITY_CURRENT_USER_ACCESS, WTS_SECURITY_DISCONNECT, WTS_SECURITY_GUEST_ACCESS, WTS_SECURITY_LOGOFF, WTS_SECURITY_LOGON, WTS_SECURITY_MESSAGE, WTS_SECURITY_QUERY_INFORMATION, WTS_SECURITY_REMOTE_CONTROL, WTS_SECURITY_RESET, WTS_SECURITY_SET_INFORMATION, WTS_SECURITY_USER_ACCESS, WTS_SECURITY_VIRTUAL_CHANNELS, termserv.wtssetlistenersecurity, wtsapi32/WTSSetListenerSecurity, wtsapi32/WTSSetListenerSecurityA, wtsapi32/WTSSetListenerSecurityW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

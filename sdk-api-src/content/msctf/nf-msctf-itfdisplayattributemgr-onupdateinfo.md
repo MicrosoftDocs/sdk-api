@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeMgr.OnUpdateInfo
 title: ITfDisplayAttributeMgr::OnUpdateInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfDisplayAttributeMgr::OnUpdateInfo method
 old-location: tsf\itfdisplayattributemgr_onupdateinfo.htm
 old-project: TSF
 ms.assetid: 0f906a19-16b8-47c1-adca-10d6da0cc7dd
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfDisplayAttributeMgr interface [Text Services Framework],OnUpdateInfo method, ITfDisplayAttributeMgr.OnUpdateInfo, ITfDisplayAttributeMgr::OnUpdateInfo, OnUpdateInfo, OnUpdateInfo method [Text Services Framework], OnUpdateInfo method [Text Services Framework],ITfDisplayAttributeMgr interface, _tsf_itfdisplayattributemgr_onupdateinfo_ref, msctf/ITfDisplayAttributeMgr::OnUpdateInfo, tsf.itfdisplayattributemgr_onupdateinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

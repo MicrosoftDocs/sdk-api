@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmDeregisterFromChangeNotification
 title: RtmDeregisterFromChangeNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmDeregisterFromChangeNotification function unregisters a client from change notification and frees all resources allocated to the notification.
 old-location: rras\rtmderegisterfromchangenotification.htm
 old-project: RRAS
 ms.assetid: 489668ce-9226-470d-8306-5ad0546275e7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmDeregisterFromChangeNotification, RtmDeregisterFromChangeNotification function [RAS], _rtmv2ref_rtmderegisterfromchangenotification, rras.rtmderegisterfromchangenotification, rtmv2/RtmDeregisterFromChangeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IClassFactory2.GetLicInfo
 title: IClassFactory2::GetLicInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the licensing capabilities of this class factory.
 old-location: com\iclassfactory2_getlicinfo.htm
 old-project: com
 ms.assetid: e55d1089-b1df-4de0-9a19-cbd255b36126
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetLicInfo, GetLicInfo method [COM], GetLicInfo method [COM],IClassFactory2 interface, IClassFactory2 interface [COM],GetLicInfo method, IClassFactory2.GetLicInfo, IClassFactory2::GetLicInfo, _com_iclassfactory2_getlicinfo, com.iclassfactory2_getlicinfo, ocidl/IClassFactory2::GetLicInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

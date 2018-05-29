@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IRpcOptions.Set
 title: IRpcOptions::Set
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of an RPC binding option property.
 old-location: com\irpcoptions_set.htm
 old-project: com
 ms.assetid: b4412e45-adc7-47e4-a19c-9ada6407e6dc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRpcOptions interface [COM],Set method, IRpcOptions.Set, IRpcOptions::Set, Set, Set method [COM], Set method [COM],IRpcOptions interface, _com_irpcoptions_set, com.irpcoptions_set, objidlbase/IRpcOptions::Set
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

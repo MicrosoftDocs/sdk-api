@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.IntMult
 title: IntMult function
-author: windows-driver-content
+author: windows-sdk-content
 description: Multiplies two values of type INT.
 old-location: shell\IntMult.htm
 old-project: shell
 ms.assetid: 7a8ec63e-7424-4a12-9bc9-7c91e4c49fa7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IntMult, IntMult function [Windows Shell], intsafe/IntMult, shell.IntMult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

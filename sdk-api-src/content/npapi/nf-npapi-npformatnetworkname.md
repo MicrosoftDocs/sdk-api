@@ -1,16 +1,16 @@
 ---
 UID: NF:npapi.NPFormatNetworkName
 title: NPFormatNetworkName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats a network name in a provider-specific format for display in a control.
 old-location: security\npformatnetworkname.htm
 old-project: SecAuthN
 ms.assetid: a1d599fb-7b1c-4828-9cd7-bd520513f5be
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: NPFormatNetworkName, NPFormatNetworkName function [Security], WNFMT_ABBREVIATED, WNFMT_INENUM, WNFMT_MULTILINE, _mnp_npformatnetworkname, npapi/NPFormatNetworkName, security.npformatnetworkname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

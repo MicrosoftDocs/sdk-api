@@ -1,16 +1,16 @@
 ---
 UID: NC:powrprof.DEVICE_NOTIFY_CALLBACK_ROUTINE
 title: DEVICE_NOTIFY_CALLBACK_ROUTINE
-author: windows-driver-content
+author: windows-sdk-content
 description: An application's DeviceNotifyCallbackRoutine callback function is used for receiving power notifications.
 old-location: base\device_notify_callback_routine.htm
 old-project: Power
 ms.assetid: 5734FDEE-E330-4115-AFA5-725114023A5A
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: DEVICE_NOTIFY_CALLBACK_ROUTINE, DEVICE_NOTIFY_CALLBACK_ROUTINE callback function, DeviceNotifyCallbackRoutine, DeviceNotifyCallbackRoutine callback, DeviceNotifyCallbackRoutine callback function, PDEVICE_NOTIFY_CALLBACK_ROUTINE, PDEVICE_NOTIFY_CALLBACK_ROUTINE callback function pointer, base.device_notify_callback_routine, powrprof/DeviceNotifyCallbackRoutine, powrprof/PDEVICE_NOTIFY_CALLBACK_ROUTINE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: powrprof.h
 req.include-header: 

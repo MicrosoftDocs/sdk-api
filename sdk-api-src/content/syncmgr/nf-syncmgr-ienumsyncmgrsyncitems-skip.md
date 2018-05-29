@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrSyncItems.Skip
 title: IEnumSyncMgrSyncItems::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips forward in the enumeration the specified number of items.
 old-location: shell\IEnumSyncMgrSyncItems_Skip.htm
 old-project: shell
 ms.assetid: a07038de-84dc-4371-b72f-c835efd73ffc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumSyncMgrSyncItems interface [Windows Shell],Skip method, IEnumSyncMgrSyncItems.Skip, IEnumSyncMgrSyncItems::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumSyncMgrSyncItems interface, _shell_IEnumSyncMgrSyncItems_Skip, shell.IEnumSyncMgrSyncItems_Skip, syncmgr/IEnumSyncMgrSyncItems::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

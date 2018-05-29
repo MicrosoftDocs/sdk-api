@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE
 title: "_WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The security binding template for specifying the use of HTP header authentication protocol based security.
 old-location: wsw\ws_http_header_auth_security_binding_template.htm
 old-project: wsw
 ms.assetid: 4eabe380-de6d-48e3-bdad-dbf593a9850a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE, WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], _WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE, webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE, wsw.ws_http_header_auth_security_binding_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.Direct3DCreate9
 title: Direct3DCreate9 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Create an IDirect3D9 object and return an interface to it.
 old-location: direct3d9\direct3dcreate9.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\direct3d_tutorials.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 911c767b-a75f-146e-b3ba-02c1df537127, Direct3DCreate9, Direct3DCreate9 function [Direct3D 9], d3d9helper/Direct3DCreate9, direct3d9.direct3dcreate9
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3d9helper.h
 req.include-header: D3D9.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.SetSpreadMethod
 title: IXpsOMGradientBrush::SetSpreadMethod
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the XPS_SPREAD_METHOD value, which describes how the area outside of the gradient region is to be rendered.
 old-location: xps\ixpsomgradientbrush_setspreadmethod.htm
 old-project: printdocs
 ms.assetid: 2114ba2e-95df-466e-983f-a56491bf891c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMGradientBrush interface [XPS Documents and Packaging],SetSpreadMethod method, IXpsOMGradientBrush.SetSpreadMethod, IXpsOMGradientBrush::SetSpreadMethod, SetSpreadMethod, SetSpreadMethod method [XPS Documents and Packaging], SetSpreadMethod method [XPS Documents and Packaging],IXpsOMGradientBrush interface, xps.ixpsomgradientbrush_setspreadmethod, xpsobjectmodel/IXpsOMGradientBrush::SetSpreadMethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

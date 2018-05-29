@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaManager
 title: IFsrmQuotaManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to manage quotas.
 old-location: fsrm\ifsrmquotamanager.htm
 old-project: Fsrm
 ms.assetid: 20bda7d6-5c7b-4066-82e2-83ad52515568
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmQuotaManager, IFsrmQuotaManager interface [File Server Resource Manager], IFsrmQuotaManager interface [File Server Resource Manager],described, fs.ifsrmquotamanager, fsrm.ifsrmquotamanager, fsrmquota/IFsrmQuotaManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h

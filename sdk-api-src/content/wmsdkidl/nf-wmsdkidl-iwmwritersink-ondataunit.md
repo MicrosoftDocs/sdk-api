@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.OnDataUnit
 title: IWMWriterSink::OnDataUnit
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnDataUnit method is called by the writer when a data unit is ready for the sink. How your application handles the data unit depends upon the destination of the content.
 old-location: wmformat\iwmwritersink_ondataunit.htm
 old-project: wmformat
 ms.assetid: 32e52cdb-e7cb-4caf-a202-0d2ff746017c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMWriterSink interface [windows Media Format],OnDataUnit method, IWMWriterSink.OnDataUnit, IWMWriterSink::OnDataUnit, IWMWriterSinkOnDataUnit, OnDataUnit, OnDataUnit method [windows Media Format], OnDataUnit method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_ondataunit, wmsdkidl/IWMWriterSink::OnDataUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

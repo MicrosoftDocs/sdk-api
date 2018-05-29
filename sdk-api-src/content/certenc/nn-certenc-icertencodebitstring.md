@@ -1,16 +1,16 @@
 ---
 UID: NN:certenc.ICertEncodeBitString
 title: ICertEncodeBitString
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for handling bit strings used in certificate extensions.
 old-location: security\icertencodebitstring.htm
 old-project: SecCrypto
 ms.assetid: 51178b67-46da-49f8-9bd7-a500e846e0a8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertEncodeBitString, ICertEncodeBitString interface [Security], ICertEncodeBitString interface [Security],described, _certsrv_icertencodebitstring, certenc/ICertEncodeBitString, security.icertencodebitstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenc.h
 req.include-header: Certsrv.h

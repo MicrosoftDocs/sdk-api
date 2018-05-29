@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.INetSharingPortMapping.Enable
 title: INetSharingPortMapping::Enable
-author: windows-driver-content
+author: windows-sdk-content
 description: The Enable method enables a port mapping for a particular connection.
 old-location: ics\inetsharingportmapping_enable.htm
 old-project: ICS
 ms.assetid: 55a639f3-9180-4d02-9d10-659a398fa32f
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: Enable, Enable method [ICS/ICF], Enable method [ICS/ICF],INetSharingPortMapping interface, INetSharingPortMapping interface [ICS/ICF],Enable method, INetSharingPortMapping.Enable, INetSharingPortMapping::Enable, _ics_inetsharingportmapping_enable, ics.inetsharingportmapping_enable, netcon/INetSharingPortMapping::Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

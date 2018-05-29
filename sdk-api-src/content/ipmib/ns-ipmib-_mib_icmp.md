@@ -1,16 +1,16 @@
 ---
 UID: NS:ipmib._MIB_ICMP
 title: "_MIB_ICMP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the Internet Control Message Protocol (ICMP) statistics for a particular computer.
 old-location: mib\mib_icmp.htm
 old-project: MIB
 ms.assetid: 45ccaacb-f2cd-4be5-94ef-48d4403d5f60
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_ICMP, MIB_ICMP, MIB_ICMP structure [MIB], PMIB_ICMP, PMIB_ICMP structure pointer [MIB], _MIB_ICMP, _mpr_mib_icmp, ipmib/MIB_ICMP, ipmib/PMIB_ICMP, iprtrmib/MIB_ICMP, iprtrmib/PMIB_ICMP, mib.mib_icmp, rras.mib_icmp"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h

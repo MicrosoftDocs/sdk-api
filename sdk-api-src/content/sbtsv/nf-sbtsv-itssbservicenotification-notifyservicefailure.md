@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbServiceNotification.NotifyServiceFailure
 title: ITsSbServiceNotification::NotifyServiceFailure
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies registered plug-ins that the Remote Desktop Connection Broker (RD Connection Broker) service has stopped.
 old-location: termserv\itssbservicenotification_notifyservicefailure.htm
 old-project: TermServ
 ms.assetid: 76e8819f-93d0-4f1b-a573-5b9aeaaae08a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbServiceNotification interface [Remote Desktop Services],NotifyServiceFailure method, ITsSbServiceNotification.NotifyServiceFailure, ITsSbServiceNotification::NotifyServiceFailure, NotifyServiceFailure, NotifyServiceFailure method [Remote Desktop Services], NotifyServiceFailure method [Remote Desktop Services],ITsSbServiceNotification interface, sbtsv/ITsSbServiceNotification::NotifyServiceFailure, termserv.itssbservicenotification_notifyservicefailure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

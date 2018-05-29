@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.InitializeFromRegistry
 title: IPhotoAcquireSettings::InitializeFromRegistry
-author: windows-driver-content
+author: windows-sdk-content
 description: The InitializeFromRegistry method specifies a registry key from which to initialize settings.
 old-location: picacq\iphotoacquiresettings_initializefromregistry.htm
 old-project: acquisition
 ms.assetid: 7459792f-20f8-4449-96c5-8c289b17db68
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],InitializeFromRegistry method, IPhotoAcquireSettings.InitializeFromRegistry, IPhotoAcquireSettings::InitializeFromRegistry, IPhotoAcquireSettingsInitializeFromRegistry, InitializeFromRegistry, InitializeFromRegistry method [Picture Acquisition], InitializeFromRegistry method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::InitializeFromRegistry, picacq.iphotoacquiresettings_initializefromregistry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

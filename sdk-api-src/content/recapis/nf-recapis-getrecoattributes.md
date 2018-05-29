@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.GetRecoAttributes
 title: GetRecoAttributes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the attributes of the recognizer.
 old-location: tablet\getrecoattributes.htm
 old-project: tablet
 ms.assetid: 45683203-1886-4542-8b66-84861862cb6a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 45683203-1886-4542-8b66-84861862cb6a, GetRecoAttributes, GetRecoAttributes function [Tablet PC], recapis/GetRecoAttributes, tablet.getrecoattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

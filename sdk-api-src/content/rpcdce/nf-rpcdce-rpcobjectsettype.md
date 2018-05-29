@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcObjectSetType
 title: RpcObjectSetType function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcObjectSetType function assigns the type of an object.
 old-location: rpc\rpcobjectsettype.htm
 old-project: Rpc
 ms.assetid: 2fb22b97-97ce-403a-bfcb-101bb63f906f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcObjectSetType, RpcObjectSetType function [RPC], _rpc_rpcobjectsettype, rpc.rpcobjectsettype, rpcdce/RpcObjectSetType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

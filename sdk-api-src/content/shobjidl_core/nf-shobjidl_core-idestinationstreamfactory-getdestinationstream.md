@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDestinationStreamFactory.GetDestinationStream
 title: IDestinationStreamFactory::GetDestinationStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an empty stream that receives the new version of the file being copied.
 old-location: shell\IDestinationStreamFactory_GetDestinationStream.htm
 old-project: shell
 ms.assetid: 4903a3a1-12b7-4094-aac8-6e8525998c3c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDestinationStream, GetDestinationStream method [Windows Shell], GetDestinationStream method [Windows Shell],IDestinationStreamFactory interface, IDestinationStreamFactory interface [Windows Shell],GetDestinationStream method, IDestinationStreamFactory.GetDestinationStream, IDestinationStreamFactory::GetDestinationStream, shell.IDestinationStreamFactory_GetDestinationStream, shell_IDestinationStreamFactory_GetDestinationStream, shobjidl_core/IDestinationStreamFactory::GetDestinationStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

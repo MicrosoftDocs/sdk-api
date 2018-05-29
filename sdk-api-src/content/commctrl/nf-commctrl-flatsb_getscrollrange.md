@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.FlatSB_GetScrollRange
 title: FlatSB_GetScrollRange function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the scroll range for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard GetScrollRange function.
 old-location: controls\FlatSB_GetScrollRange.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollrange.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FlatSB_GetScrollRange, FlatSB_GetScrollRange function [Windows Controls], SB_HORZ, SB_VERT, _win32_FlatSB_GetScrollRange, _win32_FlatSB_GetScrollRange_cpp, commctrl/FlatSB_GetScrollRange, controls.FlatSB_GetScrollRange, controls._win32_FlatSB_GetScrollRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

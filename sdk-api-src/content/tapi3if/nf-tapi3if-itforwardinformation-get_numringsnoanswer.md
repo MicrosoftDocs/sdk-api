@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITForwardInformation.get_NumRingsNoAnswer
 title: ITForwardInformation::get_NumRingsNoAnswer
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_NumRingsNoAnswer method retrieves the number of rings after which a no answer condition is assumed.
 old-location: tapi3\itforwardinformation_get_numringsnoanswer.htm
 old-project: Tapi
 ms.assetid: bfd46f8b-6501-43ca-b3bd-35394526d5ce
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],get_NumRingsNoAnswer method, ITForwardInformation.get_NumRingsNoAnswer, ITForwardInformation::get_NumRingsNoAnswer, _tapi3_itforwardinformation_get_numringsnoanswer, get_NumRingsNoAnswer, get_NumRingsNoAnswer method [TAPI 2.2], get_NumRingsNoAnswer method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_get_numringsnoanswer, tapi3if/ITForwardInformation::get_NumRingsNoAnswer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.IDListContainerIsConsistent
 title: IDListContainerIsConsistent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies that the container structure of an IDList is valid.
 old-location: shell\IDListContainerIsConsistent.htm
 old-project: shell
 ms.assetid: 2B61EDB2-F967-450a-9294-4A6597859F2C
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDListContainerIsConsistent, IDListContainerIsConsistent function [Windows Shell], shell.IDListContainerIsConsistent, shlobj_core/IDListContainerIsConsistent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

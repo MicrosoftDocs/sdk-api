@@ -1,16 +1,16 @@
 ---
 UID: NE:medparam._MP_Type
 title: "_MP_Type"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MP_TYPE enumeration specifies the data type for a parameter.
 old-location: dshow\mp_type.htm
 old-project: DirectShow
 ms.assetid: 9c8851c7-1a72-4dfd-ba2f-e64d8e22f6dc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: MPT_BOOL, MPT_ENUM, MPT_FLOAT, MPT_INT, MPT_MAX, MP_TYPE, MP_TYPE , MP_TYPE enumeration [DirectShow], MP_TYPEEnumeration, _MP_Type, dshow.mp_type, medparam/MPT_BOOL, medparam/MPT_ENUM, medparam/MPT_FLOAT, medparam/MPT_INT, medparam/MPT_MAX, medparam/MP_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: medparam.h
 req.include-header: 

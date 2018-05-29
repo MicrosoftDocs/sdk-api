@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLConsumeRight
 title: SLConsumeRight function
-author: windows-driver-content
+author: windows-sdk-content
 description: Let an application to exercise rights on a locally-stored licenses.
 old-location: security\slconsumeright.htm
 old-project: SecSLApi
 ms.assetid: d61ec4ec-c552-4963-8f4e-a1540081e747
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLConsumeRight, SLConsumeRight function [Security], security.slconsumeright, slpublic/SLConsumeRight
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

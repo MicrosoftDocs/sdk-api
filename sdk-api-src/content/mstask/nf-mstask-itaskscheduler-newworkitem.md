@@ -1,16 +1,16 @@
 ---
 UID: NF:mstask.ITaskScheduler.NewWorkItem
 title: ITaskScheduler::NewWorkItem
-author: windows-driver-content
+author: windows-sdk-content
 description: The NewWorkItem method creates a new work item, allocating space for the work item and retrieving its address.
 old-location: taskschd\itaskscheduler_newworkitem.htm
 old-project: TaskSchd
 ms.assetid: 1fbd65ae-0b54-4175-bf26-4226b1aabdc1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskScheduler interface [Task Scheduler],NewWorkItem method, ITaskScheduler.NewWorkItem, ITaskScheduler::NewWorkItem, NewWorkItem, NewWorkItem method [Task Scheduler], NewWorkItem method [Task Scheduler],ITaskScheduler interface, _msb_itaskscheduler_newworkitem, mstask/ITaskScheduler::NewWorkItem, taskschd.itaskscheduler_newworkitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

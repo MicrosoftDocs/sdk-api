@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.UIntAdd
 title: UIntAdd function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds two values of type UINT.
 old-location: shell\UIntAdd.htm
 old-project: shell
 ms.assetid: 387d53e8-3e52-470f-bfd2-ad2b1e0a3d5a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UIntAdd, UIntAdd function [Windows Shell], _shell_UIntAdd, intsafe/UIntAdd, shell.UIntAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

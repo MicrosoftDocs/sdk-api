@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemHiPerfEnum.GetObjects
 title: IWbemHiPerfEnum::GetObjects
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemHiPerfEnum::GetObjects method retrieves objects currently residing in the enumerator.
 old-location: wmi\iwbemhiperfenum_getobjects.htm
 old-project: WmiSdk
 ms.assetid: 27dd9c2c-236e-41be-bfaa-90ebf8dfb1bc
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetObjects, GetObjects method [Windows Management Instrumentation], GetObjects method [Windows Management Instrumentation],IWbemHiPerfEnum interface, IWbemHiPerfEnum interface [Windows Management Instrumentation],GetObjects method, IWbemHiPerfEnum.GetObjects, IWbemHiPerfEnum::GetObjects, _hmm_iwbemhiperfenum_getobjects, wbemcli/IWbemHiPerfEnum::GetObjects, wmi.iwbemhiperfenum_getobjects
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

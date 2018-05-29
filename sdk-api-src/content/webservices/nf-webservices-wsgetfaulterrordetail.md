@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsGetFaultErrorDetail
 title: WsGetFaultErrorDetail function
-author: windows-driver-content
+author: windows-sdk-content
 description: Read the fault detail stored in a WS_ERROR object.
 old-location: wsw\wsgetfaulterrordetail.htm
 old-project: wsw
 ms.assetid: 426c292f-64a5-411f-a63e-6be05fe93438
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsGetFaultErrorDetail, WsGetFaultErrorDetail function [Web Services for Windows], webservices/WsGetFaultErrorDetail, wsw.wsgetfaulterrordetail
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

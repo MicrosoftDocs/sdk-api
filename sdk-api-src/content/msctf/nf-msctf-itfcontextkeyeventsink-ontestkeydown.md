@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfContextKeyEventSink.OnTestKeyDown
 title: ITfContextKeyEventSink::OnTestKeyDown
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfContextKeyEventSink::OnTestKeyDown method
 old-location: tsf\itfcontextkeyeventsink_ontestkeydown.htm
 old-project: TSF
 ms.assetid: 26f22721-6d64-4637-92cd-8c18caa2d95f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfContextKeyEventSink interface [Text Services Framework],OnTestKeyDown method, ITfContextKeyEventSink.OnTestKeyDown, ITfContextKeyEventSink::OnTestKeyDown, OnTestKeyDown, OnTestKeyDown method [Text Services Framework], OnTestKeyDown method [Text Services Framework],ITfContextKeyEventSink interface, _tsf_itfcontextkeyeventsink_ontestkeydown_ref, msctf/ITfContextKeyEventSink::OnTestKeyDown, tsf.itfcontextkeyeventsink_ontestkeydown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

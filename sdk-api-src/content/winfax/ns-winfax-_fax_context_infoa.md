@@ -1,16 +1,16 @@
 ---
 UID: NS:winfax._FAX_CONTEXT_INFOA
 title: "_FAX_CONTEXT_INFOA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The FAX_CONTEXT_INFO structure contains information about a fax printer device context. The SizeOfStruct member is required. Information for the other members is supplied by a call to the FaxStartPrintJob function.
 old-location: fax\_mfax_fax_context_info_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7v5e.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PFAX_CONTEXT_INFOA, FAX_CONTEXT_INFO, FAX_CONTEXT_INFO structure [Fax Service], FAX_CONTEXT_INFOA, FAX_CONTEXT_INFOW, PFAX_CONTEXT_INFO, PFAX_CONTEXT_INFO structure pointer [Fax Service], _FAX_CONTEXT_INFOA, _mfax_fax_context_info_str, fax._mfax_fax_context_info_str, winfax/FAX_CONTEXT_INFO, winfax/FAX_CONTEXT_INFOA, winfax/FAX_CONTEXT_INFOW, winfax/PFAX_CONTEXT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 

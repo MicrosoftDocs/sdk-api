@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_ALL_OPTION_VALUES
 title: "_DHCP_ALL_OPTION_VALUES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of all option values defined on a DHCP server, organized according to class/vendor pairing.
 old-location: dhcp\dhcp_all_option_values.htm
 old-project: DHCP
 ms.assetid: f6641ff6-c9f0-4ceb-9509-2c394f30ad93
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_ALL_OPTION_VALUES, DHCP_ALL_OPTION_VALUES, DHCP_ALL_OPTION_VALUES structure [DHCP], LPDHCP_ALL_OPTION_VALUES, LPDHCP_ALL_OPTION_VALUES structure pointer [DHCP], _DHCP_ALL_OPTION_VALUES, dhcp.dhcp_all_option_values, dhcpsapi/LPDHCP_ALL_OPTION_VALUES, dhcpsapi/_DHCP_ALL_OPTION_VALUES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

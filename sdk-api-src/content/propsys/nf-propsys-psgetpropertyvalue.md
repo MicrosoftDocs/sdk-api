@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSGetPropertyValue
 title: PSGetPropertyValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a property value from a property store.
 old-location: properties\PSGetPropertyValue.htm
 old-project: properties
 ms.assetid: 9369dc85-b006-4b30-a25e-58d53b76f334
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSGetPropertyValue, PSGetPropertyValue function [Windows Properties], _shell_PSGetPropertyValue, properties.PSGetPropertyValue, propsys/PSGetPropertyValue, shell.PSGetPropertyValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.EndCommitVariants
 title: ICrmCompensatorVariants::EndCommitVariants
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the CRM Compensator that it has delivered all the log records available during the commit phase.
 old-location: cos\icrmcompensatorvariants_endcommitvariants.htm
 old-project: cossdk
 ms.assetid: 1004437b-0281-439c-9b6d-0043caeb2844
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EndCommitVariants, EndCommitVariants method [COM+], EndCommitVariants method [COM+],ICrmCompensatorVariants interface, ICrmCompensatorVariants interface [COM+],EndCommitVariants method, ICrmCompensatorVariants.EndCommitVariants, ICrmCompensatorVariants::EndCommitVariants, _dtc_ICrmCompensatorVariants_EndCommitVariants, comsvcs/ICrmCompensatorVariants::EndCommitVariants, cos.icrmcompensatorvariants_endcommitvariants
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

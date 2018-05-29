@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzScope2.get_RoleDefinitions
 title: IAzScope2::get_RoleDefinitions
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IAzRoleDefinitions object that represents the collection of IAzRoleDefinition objects associated with this scope.
 old-location: security\iazscope2_roledefinitions.htm
 old-project: SecAuthZ
 ms.assetid: cff40ce8-fa5f-4673-9338-58cff2c941aa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzScope2 interface [Security],RoleDefinitions property, IAzScope2.RoleDefinitions, IAzScope2.get_RoleDefinitions, IAzScope2::RoleDefinitions, IAzScope2::get_RoleDefinitions, RoleDefinitions property [Security], RoleDefinitions property [Security],IAzScope2 interface, azroles/IAzScope2::RoleDefinitions, azroles/IAzScope2::get_RoleDefinitions, get_RoleDefinitions, security.iazscope2_roledefinitions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

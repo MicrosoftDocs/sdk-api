@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer2_Connect
 title: CStdStubBuffer2_Connect function
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Connect method and connects the server object to the stub.
 old-location: rpc\cstdstubbuffer2_connect.htm
 old-project: Rpc
 ms.assetid: ED3BA34C-1BAE-4CA0-A701-C64B8B9E717E
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: CStdStubBuffer2_Connect, CStdStubBuffer2_Connect function [RPC], rpc.cstdstubbuffer2_connect, rpcproxy/CStdStubBuffer2_Connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.GetStatistics
 title: IMFSinkWriter::GetStatistics
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets statistics about the performance of the sink writer.
 old-location: mf\imfsinkwriter_getstatistics.htm
 old-project: medfound
 ms.assetid: 84028b1d-3843-4289-a04c-3039311d095b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetStatistics, GetStatistics method [Media Foundation], GetStatistics method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],GetStatistics method, IMFSinkWriter.GetStatistics, IMFSinkWriter::GetStatistics, mf.imfsinkwriter_getstatistics, mfreadwrite/IMFSinkWriter::GetStatistics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

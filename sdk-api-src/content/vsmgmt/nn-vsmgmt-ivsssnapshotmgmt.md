@@ -1,16 +1,16 @@
 ---
 UID: NN:vsmgmt.IVssSnapshotMgmt
 title: IVssSnapshotMgmt
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method that returns an interface to further configure a shadow copy provider.
 old-location: base\ivsssnapshotmgmt.htm
 old-project: VSS
 ms.assetid: 5e5694a1-7c17-4d8a-b094-09dcf28a636f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssSnapshotMgmt, IVssSnapshotMgmt interface [Files], IVssSnapshotMgmt interface [Files],described, base.ivsssnapshotmgmt, vsmgmt/IVssSnapshotMgmt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vsmgmt.h
 req.include-header: 

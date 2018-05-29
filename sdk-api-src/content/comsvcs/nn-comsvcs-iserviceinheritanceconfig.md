@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IServiceInheritanceConfig
 title: IServiceInheritanceConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether to construct a new context based on the current context or to create a new context based solely on the information in CServiceConfig.
 old-location: cos\iserviceinheritanceconfig.htm
 old-project: cossdk
 ms.assetid: 8bb95aef-7470-43cc-941d-2105cdf48f37
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServiceInheritanceConfig, IServiceInheritanceConfig interface [COM+], IServiceInheritanceConfig interface [COM+],described, _cos_IServiceInheritanceConfig, comsvcs/IServiceInheritanceConfig, cos.iserviceinheritanceconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:austream.IMemoryData.GetInfo
 title: IMemoryData::GetInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves information describing an audio data object.
 old-location: dshow\imemorydata_getinfo.htm
 old-project: DirectShow
 ms.assetid: 9e9538c4-2f11-401e-a3c1-f8aa6c24f725
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetInfo, GetInfo method [DirectShow], GetInfo method [DirectShow],IMemoryData interface, IMemoryData interface [DirectShow],GetInfo method, IMemoryData.GetInfo, IMemoryData::GetInfo, IMemoryDataGetInfo, austream/IMemoryData::GetInfo, dshow.imemorydata_getinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: austream.h
 req.include-header: 

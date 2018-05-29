@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.WSDCreateHttpAddress
 title: WSDCreateHttpAddress function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IWSDHttpAddress object.
 old-location: ncd\wsdcreatehttpaddress.htm
 old-project: WsdApi
 ms.assetid: 05a862e9-51db-442d-bdce-1209cb718b6f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDCreateHttpAddress, WSDCreateHttpAddress function, ncd.wsdcreatehttpaddress, wsdbase/WSDCreateHttpAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

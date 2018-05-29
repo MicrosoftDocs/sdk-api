@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetStoryFragmentsResource
 title: IXpsOMPageReference::GetStoryFragmentsResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the IXpsOMStoryFragmentsResource interface of the StoryFragments part resource that is associated with the page.
 old-location: xps\ixpsompagereference_getstoryfragmentsresource.htm
 old-project: printdocs
 ms.assetid: 9b768734-07e3-4917-adb9-29989e7e2b32
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetStoryFragmentsResource, GetStoryFragmentsResource method [XPS Documents and Packaging], GetStoryFragmentsResource method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetStoryFragmentsResource method, IXpsOMPageReference.GetStoryFragmentsResource, IXpsOMPageReference::GetStoryFragmentsResource, xps.ixpsompagereference_getstoryfragmentsresource, xpsobjectmodel/IXpsOMPageReference::GetStoryFragmentsResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

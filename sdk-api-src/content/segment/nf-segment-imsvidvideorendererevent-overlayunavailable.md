@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidVideoRendererEvent.OverlayUnavailable
 title: IMSVidVideoRendererEvent::OverlayUnavailable
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidvideorendererevent_overlayunavailable.htm
 old-project: mstv
 ms.assetid: cb58e84f-1a45-4b72-aafd-d7a80a4b5b9d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidVideoRendererEvent interface [Microsoft TV Technologies],OverlayUnavailable method, IMSVidVideoRendererEvent.OverlayUnavailable, IMSVidVideoRendererEvent::OverlayUnavailable, IMSVidVideoRendererEventOverlayUnavailable, OverlayUnavailable, OverlayUnavailable method [Microsoft TV Technologies], OverlayUnavailable method [Microsoft TV Technologies],IMSVidVideoRendererEvent interface, mstv.imsvidvideorendererevent_overlayunavailable, segment/IMSVidVideoRendererEvent::OverlayUnavailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

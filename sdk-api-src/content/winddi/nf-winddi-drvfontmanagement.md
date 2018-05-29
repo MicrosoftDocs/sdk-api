@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.DrvFontManagement
 title: DrvFontManagement function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrvFontManagement function is an optional entry point provided for PostScript devices.
 old-location: display\drvfontmanagement.htm
 old-project: display
 ms.assetid: cd52e32a-6d95-4aaf-96d3-45da2e5359e4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DrvFontManagement, DrvFontManagement function [Display Devices], ddifncs_d63b3833-8097-4fe0-b124-567aa07e917c.xml, display.drvfontmanagement, winddi/DrvFontManagement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

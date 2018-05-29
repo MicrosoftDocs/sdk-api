@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItemArray.GetCount
 title: IShellItemArray::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of items in the given IShellItem array.
 old-location: shell\IShellItemArray_GetCount.htm
 old-project: shell
 ms.assetid: 84d20695-bd51-4727-bd82-bd104de99067
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetCount method, IShellItemArray.GetCount, IShellItemArray::GetCount, _shell_IShellItemArray_GetCount, shell.IShellItemArray_GetCount, shobjidl_core/IShellItemArray::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

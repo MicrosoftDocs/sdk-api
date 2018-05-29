@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.AccessNtmsLibraryDoor
 title: AccessNtmsLibraryDoor function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AccessNtmsLibraryDoor function unlocks the door of the specified library. If the library is busy, RSM queues the request and returns successfully.
 old-location: fs\accessntmslibrarydoor.htm
 old-project: Rsm
 ms.assetid: c7bc4582-4405-4e42-a8bf-e2e8c68bbd7e
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: AccessNtmsLibraryDoor, AccessNtmsLibraryDoor function [Files], NTMS_INVENTORY_DEFAULT, NTMS_INVENTORY_FAST, NTMS_INVENTORY_NONE, NTMS_INVENTORY_OMID, _zaw_accessntmslibrarydoor, base.accessntmslibrarydoor, fs.accessntmslibrarydoor, ntmsapi/AccessNtmsLibraryDoor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

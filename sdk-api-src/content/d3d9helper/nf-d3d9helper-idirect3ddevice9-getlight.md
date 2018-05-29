@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetLight
 title: IDirect3DDevice9::GetLight
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a set of lighting properties that this device uses.
 old-location: direct3d9\idirect3ddevice9__getlight.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getlight.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 63c42786-98b1-2b46-00cc-ad05ab2594f4, GetLight, GetLight method [Direct3D 9], GetLight method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetLight method, IDirect3DDevice9.GetLight, IDirect3DDevice9::GetLight, d3d9helper/IDirect3DDevice9::GetLight, direct3d9.idirect3ddevice9__getlight
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

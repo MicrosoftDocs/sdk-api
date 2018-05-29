@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAudioStream.Stop
 title: IRDPSRAPIAudioStream::Stop
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops the audio stream.
 old-location: rdp\irdpsrapiaudiostream_stop.htm
 old-project: Rdp
 ms.assetid: D2F6264D-3855-4AF8-B295-59D51B90FD94
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIAudioStream interface [RDP],Stop method, IRDPSRAPIAudioStream.Stop, IRDPSRAPIAudioStream::Stop, Stop, Stop method [RDP], Stop method [RDP],IRDPSRAPIAudioStream interface, rdp.irdpsrapiaudiostream_stop, rdpencomapi/IRDPSRAPIAudioStream::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

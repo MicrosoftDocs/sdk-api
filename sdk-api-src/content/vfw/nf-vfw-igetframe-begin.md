@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.IGetFrame.Begin
 title: IGetFrame::Begin
-author: windows-driver-content
+author: windows-sdk-content
 description: The Begin method prepares to extract and decompress copies of frames from a stream. Called when an application uses the AVIStreamGetFrameOpen function.
 old-location: multimedia\igetframe_begin.htm
 old-project: Multimedia
 ms.assetid: 2d2c1872-e0c3-4fea-bfb9-45b814973072
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Begin, Begin method [Windows Multimedia], Begin method [Windows Multimedia],IGetFrame interface, IGetFrame interface [Windows Multimedia],Begin method, IGetFrame.Begin, IGetFrame::Begin, _win32_IGetFrame_Begin, multimedia.igetframe_begin, vfw/IGetFrame::Begin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vfw.h
 req.include-header: 

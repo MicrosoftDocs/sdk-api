@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._NUMA_NODE_RELATIONSHIP
 title: "_NUMA_NODE_RELATIONSHIP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents information about a NUMA node in a processor group. This structure is used with the GetLogicalProcessorInformationEx function.
 old-location: base\numa_node_relationship.htm
 old-project: ProcThread
 ms.assetid: a4e4c994-c4af-4b4f-8684-6037bcba35a9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PNUMA_NODE_RELATIONSHIP, NUMA_NODE_RELATIONSHIP, NUMA_NODE_RELATIONSHIP structure, PNUMA_NODE_RELATIONSHIP, PNUMA_NODE_RELATIONSHIP structure pointer, _NUMA_NODE_RELATIONSHIP, base.numa_node_relationship, winnt/NUMA_NODE_RELATIONSHIP, winnt/PNUMA_NODE_RELATIONSHIP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

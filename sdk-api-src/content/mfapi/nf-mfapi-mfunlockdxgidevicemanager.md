@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFUnlockDXGIDeviceManager
 title: MFUnlockDXGIDeviceManager function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unlocks the shared Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager.
 old-location: mf\mfunlockdxgidevicemanager.htm
 old-project: medfound
 ms.assetid: 89121716-4F30-4ACD-AA48-F563550B94A1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFUnlockDXGIDeviceManager, MFUnlockDXGIDeviceManager function [Media Foundation], mf.mfunlockdxgidevicemanager, mfapi/MFUnlockDXGIDeviceManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

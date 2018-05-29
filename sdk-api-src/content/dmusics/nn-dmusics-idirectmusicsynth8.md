@@ -1,16 +1,16 @@
 ---
 UID: NN:dmusics.IDirectMusicSynth8
 title: IDirectMusicSynth8
-author: windows-driver-content
+author: windows-sdk-content
 description: IDirectMusicSynth8 is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8.htm
 old-project: audio
 ms.assetid: C5D773BB-3939-494D-9F61-3DC8231295AF
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDirectMusicSynth8, IDirectMusicSynth8 interface [Audio Devices], IDirectMusicSynth8 interface [Audio Devices],described, audio.idirectmusicsynth8, dmusics/IDirectMusicSynth8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dmusics.h
 req.include-header: 

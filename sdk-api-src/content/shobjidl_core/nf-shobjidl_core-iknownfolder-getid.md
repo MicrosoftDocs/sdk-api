@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetId
 title: IKnownFolder::GetId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the ID of the selected folder.
 old-location: shell\IKnownFolder_GetId.htm
 old-project: shell
 ms.assetid: c20fc32f-394d-4fbe-b7dd-072d84be2713
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetId, GetId method [Windows Shell], GetId method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetId method, IKnownFolder.GetId, IKnownFolder::GetId, _shell_IKnownFolder_GetId, shell.IKnownFolder_GetId, shobjidl_core/IKnownFolder::GetId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_GetHotItem
 title: ListView_GetHotItem macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the index of the hot item. You can use this macro or send the LVM_GETHOTITEM message explicitly.
 old-location: controls\ListView_GetHotItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_gethotitem.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_GetHotItem, ListView_GetHotItem macro [Windows Controls], _win32_ListView_GetHotItem, _win32_ListView_GetHotItem_cpp, commctrl/ListView_GetHotItem, controls.ListView_GetHotItem, controls._win32_ListView_GetHotItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

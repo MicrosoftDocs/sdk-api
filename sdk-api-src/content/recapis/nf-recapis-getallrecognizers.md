@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.GetAllRecognizers
 title: GetAllRecognizers function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets all recognizers.
 old-location: tablet\getallrecognizers.htm
 old-project: tablet
 ms.assetid: F2039094-E3B0-4FF4-9B69-ED29D681B388
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetAllRecognizers, GetAllRecognizers function [Tablet PC], recapis/GetAllRecognizers, tablet.getallrecognizers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

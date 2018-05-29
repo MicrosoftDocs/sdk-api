@@ -1,16 +1,16 @@
 ---
 UID: NF:videoacc.IAMVideoAcceleratorNotify.GetUncompSurfacesInfo
 title: IAMVideoAcceleratorNotify::GetUncompSurfacesInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetUncompSurfacesInfo method queries the decoder for the number of uncompressed surfaces to allocate and the pixel format.
 old-location: dshow\iamvideoacceleratornotify_getuncompsurfacesinfo.htm
 old-project: DirectShow
 ms.assetid: ee8cbe71-6ac3-4f41-a9af-f372f825485d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetUncompSurfacesInfo, GetUncompSurfacesInfo method [DirectShow], GetUncompSurfacesInfo method [DirectShow],IAMVideoAcceleratorNotify interface, IAMVideoAcceleratorNotify interface [DirectShow],GetUncompSurfacesInfo method, IAMVideoAcceleratorNotify.GetUncompSurfacesInfo, IAMVideoAcceleratorNotify::GetUncompSurfacesInfo, IAMVideoAcceleratorNotifyGetUncompSurfacesInfo, dshow.iamvideoacceleratornotify_getuncompsurfacesinfo, videoacc/IAMVideoAcceleratorNotify::GetUncompSurfacesInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 

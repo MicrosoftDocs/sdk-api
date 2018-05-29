@@ -1,16 +1,16 @@
 ---
 UID: NN:manipulations.IInertiaProcessor
 title: IInertiaProcessor
-author: windows-driver-content
+author: windows-sdk-content
 description: The IInertiaProcessor interface handles calculations regarding object motion for Windows Touch.
 old-location: wintouch\iinertiaprocessor.htm
 old-project: wintouch
 ms.assetid: 8dc171eb-0c6e-41dd-b506-5f91ea703a53
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IInertiaProcessor, IInertiaProcessor interface [Windows Touch], IInertiaProcessor interface [Windows Touch],described, manipulations/IInertiaProcessor, wintouch.iinertiaprocessor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: manipulations.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IDVEnc
 title: IDVEnc
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDVEnc interface sets and retrieves properties on the DV Video Encoder filter.
 old-location: dshow\idvenc.htm
 old-project: DirectShow
 ms.assetid: f193b76f-ca6a-44f5-b097-1570c4527ab4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDVEnc, IDVEnc interface [DirectShow], IDVEnc interface [DirectShow],described, IDVEncInterface, dshow.idvenc, strmif/IDVEnc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:resapi.ResUtilGetClusterRoleState
 title: ResUtilGetClusterRoleState function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether or not a specific role has been assigned to a cluster.
 old-location: mscs\resutilgetclusterrolestate.htm
 old-project: MsCS
 ms.assetid: 582992ca-9381-4673-8fe8-835b50047f51
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterRoleDHCP, ClusterRoleDTC, ClusterRoleFileServer, ClusterRoleGenericApplication, ClusterRoleGenericScript, ClusterRoleGenericService, ClusterRoleISCSINameServer, ClusterRoleMSMQ, ClusterRoleNFS, ClusterRolePrintServer, ClusterRoleStandAloneNamespaceServer, ClusterRoleVolumeShadowCopyServiceTask, ClusterRoleWINS, ResUtilGetClusterRoleState, ResUtilGetClusterRoleState function [Failover Cluster], mscs.resutilgetclusterrolestate, resapi/ResUtilGetClusterRoleState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

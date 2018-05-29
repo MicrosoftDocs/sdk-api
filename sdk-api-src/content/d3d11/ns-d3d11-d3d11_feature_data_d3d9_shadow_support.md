@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT
 title: D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes Direct3D 9 shadow support in the current graphics driver.
 old-location: direct3d11\d3d11_feature_data_d3d9_shadow_support.htm
 old-project: direct3d11
 ms.assetid: E30500A0-D77D-4783-A5D5-418770DA1376
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT, D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D9_SHADOW_SUPPORT, direct3d11.d3d11_feature_data_d3d9_shadow_support
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

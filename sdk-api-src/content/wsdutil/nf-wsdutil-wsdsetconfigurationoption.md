@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdutil.WSDSetConfigurationOption
 title: WSDSetConfigurationOption function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a WSDAPI configuration option.
 old-location: ncd\wsdsetconfigurationoption.htm
 old-project: WsdApi
 ms.assetid: d7d9b946-9f02-4770-aafe-5ee9e04a51cd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, WSDSetConfigurationOption, WSDSetConfigurationOption function, ncd.wsdsetconfigurationoption, wsdutil/WSDSetConfigurationOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h

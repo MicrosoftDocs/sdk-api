@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.INetSharingPortMappingCollection.get__NewEnum
 title: INetSharingPortMappingCollection::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the port mapping collection.
 old-location: ics\inetsharingportmappingcollection_get__newenum.htm
 old-project: ICS
 ms.assetid: e2e7fee0-70b7-4b74-a95f-0637a0c1cdd2
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetSharingPortMappingCollection interface [ICS/ICF],get__NewEnum method, INetSharingPortMappingCollection.get__NewEnum, INetSharingPortMappingCollection::get__NewEnum, _ics_inetsharingportmappingcollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],INetSharingPortMappingCollection interface, ics.inetsharingportmappingcollection_get__newenum, netcon/INetSharingPortMappingCollection::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

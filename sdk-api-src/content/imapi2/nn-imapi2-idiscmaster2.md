@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2.IDiscMaster2
 title: IDiscMaster2
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to enumerate the CD and DVD devices installed on the computer.
 old-location: imapi\idiscmaster2.htm
 old-project: imapi
 ms.assetid: cdca44d4-6ab5-4c2f-91ba-bef79b1d457e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscMaster2, IDiscMaster2 interface [IMAPI], IDiscMaster2 interface [IMAPI],described, imapi.idiscmaster2, imapi2/IDiscMaster2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

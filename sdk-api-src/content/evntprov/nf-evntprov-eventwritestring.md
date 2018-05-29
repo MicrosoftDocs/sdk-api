@@ -1,16 +1,16 @@
 ---
 UID: NF:evntprov.EventWriteString
 title: EventWriteString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes an event that contains a string as its data.
 old-location: etw\eventwritestring_func.htm
 old-project: ETW
 ms.assetid: ecdb0e92-fcc1-4b4f-99ea-6812b6b49381
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EventWriteString, EventWriteString function [ETW], base.eventwritestring_func, etw.eventwritestring_func, evntprov/EventWriteString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

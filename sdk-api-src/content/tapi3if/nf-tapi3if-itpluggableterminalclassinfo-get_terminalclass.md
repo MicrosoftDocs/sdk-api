@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPluggableTerminalClassInfo.get_TerminalClass
 title: ITPluggableTerminalClassInfo::get_TerminalClass
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_TerminalClass method gets the terminal's terminal class.
 old-location: tapi3\itpluggableterminalclassinfo_get_terminalclass.htm
 old-project: Tapi
 ms.assetid: 7dfa6cf8-23b8-4959-ba39-6efda1d71562
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPluggableTerminalClassInfo interface [TAPI 2.2],get_TerminalClass method, ITPluggableTerminalClassInfo.get_TerminalClass, ITPluggableTerminalClassInfo::get_TerminalClass, _tapi3_itpluggableterminalclassinfo_get_terminalclass, get_TerminalClass, get_TerminalClass method [TAPI 2.2], get_TerminalClass method [TAPI 2.2],ITPluggableTerminalClassInfo interface, tapi3.itpluggableterminalclassinfo_get_terminalclass, tapi3if/ITPluggableTerminalClassInfo::get_TerminalClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

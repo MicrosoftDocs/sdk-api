@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_Password
 title: ISearchRoot::put_Password
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented.
 old-location: search\_search_ISearchRoot_put_Password.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_password.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchRoot interface [search],put_Password method, ISearchRoot.put_Password, ISearchRoot::put_Password, _search_ISearchRoot_put_Password, put_Password, put_Password method [search], put_Password method [search],ISearchRoot interface, search._search_ISearchRoot_put_Password, searchapi/ISearchRoot::put_Password
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: Searchapi.h

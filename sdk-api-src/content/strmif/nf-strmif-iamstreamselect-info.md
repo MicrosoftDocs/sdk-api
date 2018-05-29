@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMStreamSelect.Info
 title: IAMStreamSelect::Info
-author: windows-driver-content
+author: windows-sdk-content
 description: The Info method retrieves information about a given stream.
 old-location: dshow\iamstreamselect_info.htm
 old-project: DirectShow
 ms.assetid: 9396d4fb-e06e-4b54-9601-fd443c81ff35
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMStreamSelect interface [DirectShow],Info method, IAMStreamSelect.Info, IAMStreamSelect::Info, IAMStreamSelectInfo, Info, Info method [DirectShow], Info method [DirectShow],IAMStreamSelect interface, dshow.iamstreamselect_info, strmif/IAMStreamSelect::Info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

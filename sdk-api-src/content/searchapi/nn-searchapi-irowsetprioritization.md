@@ -1,16 +1,16 @@
 ---
 UID: NN:searchapi.IRowsetPrioritization
 title: IRowsetPrioritization
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the current indexer prioritization level for the scope specified by this query.
 old-location: search\_search_IRowsetPrioritization.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\irowsetprioritization.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRowsetPrioritization, IRowsetPrioritization interface [search], IRowsetPrioritization interface [search],described, _search_IRowsetPrioritization, search._search_IRowsetPrioritization, searchapi/IRowsetPrioritization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: searchapi.h
 req.include-header: 

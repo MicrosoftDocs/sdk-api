@@ -1,16 +1,16 @@
 ---
 UID: NF:virtdisk.SetVirtualDiskInformation
 title: SetVirtualDiskInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets information about a virtual hard disk (VHD).
 old-location: vhd\setvirtualdiskinformation.htm
 old-project: VStor
 ms.assetid: bd4bee14-6812-4a28-8c44-2b8e8d42e697
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetVirtualDiskInformation, SetVirtualDiskInformation function [VHD], vhd.setvirtualdiskinformation, virtdisk/SetVirtualDiskInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: Windows.h

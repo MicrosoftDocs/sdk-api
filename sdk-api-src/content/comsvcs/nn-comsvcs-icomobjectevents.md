@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IComObjectEvents
 title: IComObjectEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the subscriber if an instance of a just-in-time (JIT) activated object has been created or freed.
 old-location: cos\icomobjectevents.htm
 old-project: cossdk
 ms.assetid: 4354fc5b-4d72-4a56-b246-2ae2cf9b5ae1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComObjectEvents, IComObjectEvents interface [COM+], IComObjectEvents interface [COM+],described, _dtc_IComObjectEvents, comsvcs/IComObjectEvents, cos.icomobjectevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

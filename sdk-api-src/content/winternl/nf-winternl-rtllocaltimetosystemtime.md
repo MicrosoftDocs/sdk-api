@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.RtlLocalTimeToSystemTime
 title: RtlLocalTimeToSystemTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the specified local time to system time.
 old-location: base\rtllocaltimetosystemtime.htm
 old-project: SysInfo
 ms.assetid: ce6f0578-0ea1-4e31-98a7-0008795abd32
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RtlLocalTimeToSystemTime, RtlLocalTimeToSystemTime function, base.rtllocaltimetosystemtime, winternl/RtlLocalTimeToSystemTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

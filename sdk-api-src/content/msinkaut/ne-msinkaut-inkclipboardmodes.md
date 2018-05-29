@@ -1,16 +1,16 @@
 ---
 UID: NE:msinkaut.InkClipboardModes
 title: InkClipboardModes
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the copy options of the Clipboard.
 old-location: tablet\inkclipboardmodes.htm
 old-project: tablet
 ms.assetid: a9718b79-8f98-4bfc-a5db-208899d1f59e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICB_Copy, ICB_Cut, ICB_Default, ICB_DelayedCopy, ICB_ExtractOnly, InkClipboardModes, InkClipboardModes enumeration [Tablet PC], a9718b79-8f98-4bfc-a5db-208899d1f59e, msinkaut/ICB_Copy, msinkaut/ICB_Cut, msinkaut/ICB_Default, msinkaut/ICB_DelayedCopy, msinkaut/ICB_ExtractOnly, msinkaut/InkClipboardModes, tablet.inkclipboardmodes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.CommitComplete
 title: CommitComplete function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that a resource manager (RM) has finished committing a transaction that was requested by the transaction manager (TM).
 old-location: fs\commitcomplete.htm
 old-project: Ktm
 ms.assetid: de3e3a26-3e56-4732-8e7c-945b45593aed
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CommitComplete, CommitComplete function [Files], fs.commitcomplete, ktmw32/CommitComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

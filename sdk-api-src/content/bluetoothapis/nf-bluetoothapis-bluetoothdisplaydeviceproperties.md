@@ -1,16 +1,16 @@
 ---
 UID: NF:bluetoothapis.BluetoothDisplayDeviceProperties
 title: BluetoothDisplayDeviceProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts Control Panel device information property sheet.
 old-location: bluetooth\bluetoothdisplaydeviceproperties.htm
 old-project: Bluetooth
 ms.assetid: cb33cf35-eb1e-4953-a779-4eb38afe0c34
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BluetoothDisplayDeviceProperties, BluetoothDisplayDeviceProperties function [Bluetooth], bluetooth.bluetoothdisplaydeviceproperties, bluetoothapis/BluetoothDisplayDeviceProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

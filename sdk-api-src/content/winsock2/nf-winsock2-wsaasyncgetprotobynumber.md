@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSAAsyncGetProtoByNumber
 title: WSAAsyncGetProtoByNumber function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSAAsyncGetProtoByNumber function asynchronously retrieves protocol information that corresponds to a protocol number.
 old-location: winsock\wsaasyncgetprotobynumber_2.htm
 old-project: WinSock
 ms.assetid: 10f28345-c178-47c0-9d0f-87f6743131d9
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAAsyncGetProtoByNumber, WSAAsyncGetProtoByNumber function [Winsock], _win32_wsaasyncgetprotobynumber_2, winsock.wsaasyncgetprotobynumber_2, winsock/WSAAsyncGetProtoByNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: Winsock2.h

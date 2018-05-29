@@ -1,16 +1,16 @@
 ---
 UID: NS:perflib._PERF_COUNTER_DATA
 title: "_PERF_COUNTER_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the PERF_COUNTER_DATA block that contains the structure.
 old-location: perf\perf_counter_data.htm
 old-project: PerfCtrs
 ms.assetid: 19D65E98-182E-45CC-946F-F1924CB78029
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PPERF_COUNTER_DATA, PERF_COUNTER_DATA, PERF_COUNTER_DATA structure [Perf], PPERF_COUNTER_DATA, PPERF_COUNTER_DATA structure pointer [Perf], _PERF_COUNTER_DATA, perf.perf_counter_data, perflib/PERF_COUNTER_DATA, perflib/PPERF_COUNTER_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: perflib.h
 req.include-header: 

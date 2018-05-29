@@ -1,16 +1,16 @@
 ---
 UID: NF:directxmath.XMConvertToDegrees
 title: XMConvertToDegrees function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an angle measured in radians into one measured in degrees.
 old-location: dxmath\xmconverttodegrees.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertToDegrees(float)
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: Use DirectX..XMConvertToDegrees, XMConvertToDegrees, XMConvertToDegrees method [DirectX Math Support APIs], dxmath.xmconverttodegrees
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

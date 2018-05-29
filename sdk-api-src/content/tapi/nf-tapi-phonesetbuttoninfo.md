@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneSetButtonInfo
 title: phoneSetButtonInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneSetButtonInfo function sets information about the specified button on the specified phone.
 old-location: tapi2\phonesetbuttoninfo.htm
 old-project: Tapi
 ms.assetid: f51581a9-7b2a-4ba0-83fa-f464c8202648
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phonesetbuttoninfo, phoneSetButtonInfo, phoneSetButtonInfo function [TAPI 2.2], phoneSetButtonInfoA, phoneSetButtonInfoW, tapi/phoneSetButtonInfo, tapi/phoneSetButtonInfoA, tapi/phoneSetButtonInfoW, tapi2.phonesetbuttoninfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

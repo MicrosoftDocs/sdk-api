@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHBindToParent
 title: SHBindToParent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Takes a pointer to a fully qualified item identifier list (PIDL), and returns a specified interface pointer on the parent object.
 old-location: shell\SHBindToParent.htm
 old-project: shell
 ms.assetid: 1cb283a6-3ebf-4986-9f32-5f6ab8d977ad
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHBindToParent, SHBindToParent function [Windows Shell], _win32_SHBindToParent, shell.SHBindToParent, shlobj_core/SHBindToParent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

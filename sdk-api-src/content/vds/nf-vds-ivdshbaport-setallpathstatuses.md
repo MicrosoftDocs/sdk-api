@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsHbaPort.SetAllPathStatuses
 title: IVdsHbaPort::SetAllPathStatuses
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the statuses of all paths originating from the HBA port to a specified status.
 old-location: base\ivdshbaport_setallpathstatuses.htm
 old-project: VDS
 ms.assetid: 0df5b5f7-1fdc-41f1-96e4-2abe96c59228
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsHbaPort interface [VDS],SetAllPathStatuses method, IVdsHbaPort.SetAllPathStatuses, IVdsHbaPort::SetAllPathStatuses, SetAllPathStatuses, SetAllPathStatuses method [VDS], SetAllPathStatuses method [VDS],IVdsHbaPort interface, base.ivdshbaport_setallpathstatuses, vds/IVdsHbaPort::SetAllPathStatuses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

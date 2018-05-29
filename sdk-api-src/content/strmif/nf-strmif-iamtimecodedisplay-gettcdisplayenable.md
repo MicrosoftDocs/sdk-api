@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMTimecodeDisplay.GetTCDisplayEnable
 title: IAMTimecodeDisplay::GetTCDisplayEnable
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTCDisplayEnable method determines whether an external device's timecode character generator output is enabled or disabled.
 old-location: dshow\iamtimecodedisplay_gettcdisplayenable.htm
 old-project: DirectShow
 ms.assetid: fe8bac4d-a271-47b3-9737-f115429b50aa
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetTCDisplayEnable, GetTCDisplayEnable method [DirectShow], GetTCDisplayEnable method [DirectShow],IAMTimecodeDisplay interface, IAMTimecodeDisplay interface [DirectShow],GetTCDisplayEnable method, IAMTimecodeDisplay.GetTCDisplayEnable, IAMTimecodeDisplay::GetTCDisplayEnable, IAMTimecodeDisplayGetTCDisplayEnable, dshow.iamtimecodedisplay_gettcdisplayenable, strmif/IAMTimecodeDisplay::GetTCDisplayEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

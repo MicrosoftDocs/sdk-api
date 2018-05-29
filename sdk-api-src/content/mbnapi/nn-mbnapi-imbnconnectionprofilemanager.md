@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnConnectionProfileManager
 title: IMbnConnectionProfileManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to connection profiles and connection notifications.
 old-location: mbn\imbnconnectionprofilemanager.htm
 old-project: mbn
 ms.assetid: a55e4183-f914-4064-a391-3bd31ca59160
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnConnectionProfileManager, IMbnConnectionProfileManager interface [Microsoft Broadband Networks], IMbnConnectionProfileManager interface [Microsoft Broadband Networks],described, mbn.imbnconnectionprofilemanager, mbnapi/IMbnConnectionProfileManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

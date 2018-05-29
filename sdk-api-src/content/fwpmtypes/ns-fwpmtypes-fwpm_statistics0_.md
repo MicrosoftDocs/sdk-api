@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpmtypes.FWPM_STATISTICS0_
 title: FWPM_STATISTICS0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores statistics related to connections at specific layers.
 old-location: fwp\fwpm_statistics0.htm
 old-project: FWP
 ms.assetid: c3ac6871-79b1-4378-8f3c-a56e85fd2a3b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_STATISTICS0, FWPM_STATISTICS0 structure [Filtering], FWPM_STATISTICS0_, fwp.fwpm_statistics0, fwpmtypes/FWPM_STATISTICS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

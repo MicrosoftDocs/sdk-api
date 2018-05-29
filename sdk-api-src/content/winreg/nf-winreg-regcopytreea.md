@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.RegCopyTreeA
 title: RegCopyTreeA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies the specified registry key, along with its values and subkeys, to the specified destination key.
 old-location: base\regcopytree.htm
 old-project: SysInfo
 ms.assetid: d16f2b47-e537-42b0-90b3-9f9a00e61e76
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RegCopyTree, RegCopyTree function, RegCopyTreeA, RegCopyTreeW, base.regcopytree, winreg/RegCopyTree, winreg/RegCopyTreeA, winreg/RegCopyTreeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

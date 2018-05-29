@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITCallingCard
 title: ITCallingCard
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITCallingCard interface provides methods to retrieve information concerning telephony calling cards.
 old-location: tapi3\itcallingcard.htm
 old-project: Tapi
 ms.assetid: 09787cd2-56b5-4ed2-8783-f3c53ce2cc66
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallingCard, ITCallingCard interface [TAPI 2.2], ITCallingCard interface [TAPI 2.2],described, _tapi3_itcallingcard, tapi3.itcallingcard, tapi3if/ITCallingCard
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

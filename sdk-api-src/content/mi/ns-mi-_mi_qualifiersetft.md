@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_QualifierSetFT
 title: "_MI_QualifierSetFT"
-author: windows-driver-content
+author: windows-sdk-content
 description: A support structure used in the MI_QualifierSet structure. Use the functions with the name prefix &#0034;MI_QualifierSet_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_qualifiersetft.htm
 old-project: wmi_v2
 ms.assetid: 3868c336-e3c1-4977-8c5d-3964c93b6074
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_QualifierSetFT, MI_QualifierSetFT structure [Windows Management Infrastructure (MI)], _MI_QualifierSetFT, mi/MI_QualifierSetFT, wmi_v2.mi_qualifiersetft
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

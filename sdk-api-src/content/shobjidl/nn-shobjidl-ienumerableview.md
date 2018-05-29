@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IEnumerableView
 title: IEnumerableView
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that enumerate the contents of a view and receive notification from callback upon enumeration completion. This interface enables clients of a view to attempt to share the view's list of folder contents.
 old-location: shell\IEnumerableView.htm
 old-project: shell
 ms.assetid: 6e096f7b-b40b-45ea-a348-ddfedf5913f8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumerableView, IEnumerableView interface [Windows Shell], IEnumerableView interface [Windows Shell],described, _shell_IEnumerableView, shell.IEnumerableView, shobjidl/IEnumerableView
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

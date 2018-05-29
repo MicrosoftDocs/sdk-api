@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_KERBEROS_AUTHENTICATION0__
 title: IKEEXT_KERBEROS_AUTHENTICATION0__
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information needed for preshared key authentication.
 old-location: fwp\ikeext_kerberos_authentication0.htm
 old-project: FWP
 ms.assetid: 2dd626c2-4b70-450a-ad6a-a978f1d93bbf
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_KERBEROS_AUTHENTICATION0, IKEEXT_KERBEROS_AUTHENTICATION0 structure [Filtering], IKEEXT_KERBEROS_AUTHENTICATION0__, IKEEXT_KERB_AUTH_DISABLE_INITIATOR_TOKEN_GENERATION, IKEEXT_KERB_AUTH_DONT_ACCEPT_EXPLICIT_CREDENTIALS, fwp.ikeext_kerberos_authentication0, iketypes/IKEEXT_KERBEROS_AUTHENTICATION0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

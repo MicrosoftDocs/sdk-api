@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleObject.Unadvise
 title: IOleObject::Unadvise
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a previously established advisory connection.
 old-location: com\ioleobject_unadvise.htm
 old-project: com
 ms.assetid: e3d63a75-30b0-4fe5-9a1d-c70820583765
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleObject interface [COM],Unadvise method, IOleObject.Unadvise, IOleObject::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IOleObject interface, _ole_ioleobject_unadvise, com.ioleobject_unadvise, oleidl/IOleObject::Unadvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.RpcSmDisableAllocate
 title: RpcSmDisableAllocate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcSmDisableAllocate function frees resources and memory within the stub memory&#8211;management environment.
 old-location: rpc\rpcsmdisableallocate.htm
 old-project: Rpc
 ms.assetid: 229cab16-eabf-49d3-a61e-3c06e001d0ac
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcSmDisableAllocate, RpcSmDisableAllocate function [RPC], _rpc_rpcsmdisableallocate, rpc.rpcsmdisableallocate, rpcndr/RpcSmDisableAllocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

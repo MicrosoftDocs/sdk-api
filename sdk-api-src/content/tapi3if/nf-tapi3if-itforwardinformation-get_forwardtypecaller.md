@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITForwardInformation.get_ForwardTypeCaller
 title: ITForwardInformation::get_ForwardTypeCaller
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_ForwardTypeCaller method gets the type of caller for a given forwarding mode.
 old-location: tapi3\itforwardinformation_get_forwardtypecaller.htm
 old-project: Tapi
 ms.assetid: 3fca5b5c-dd1e-4c8d-878a-99a7e3ec45f9
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],get_ForwardTypeCaller method, ITForwardInformation.get_ForwardTypeCaller, ITForwardInformation::get_ForwardTypeCaller, _tapi3_itforwardinformation_get_forwardtypecaller, get_ForwardTypeCaller, get_ForwardTypeCaller method [TAPI 2.2], get_ForwardTypeCaller method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_get_forwardtypecaller, tapi3if/ITForwardInformation::get_ForwardTypeCaller
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

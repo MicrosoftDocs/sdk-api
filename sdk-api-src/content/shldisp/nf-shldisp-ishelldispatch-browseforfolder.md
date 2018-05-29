@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.BrowseForFolder
 title: IShellDispatch::BrowseForFolder
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a dialog box that enables the user to select a folder and then returns the selected folder's Folder object.
 old-location: shell\IShellDispatch_BrowseForFolder.htm
 old-project: shell
 ms.assetid: 578C51C1-F59B-4604-A09B-62BA61225ABB
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: BrowseForFolder, BrowseForFolder method [Windows Shell], BrowseForFolder method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],BrowseForFolder method, IShellDispatch.BrowseForFolder, IShellDispatch::BrowseForFolder, shell.IShellDispatch_BrowseForFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptItemize
 title: ScriptItemize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Breaks a Unicode string into individually shapeable items.
 old-location: intl\scriptitemize.htm
 old-project: Intl
 ms.assetid: 1491d9c5-e86b-45cc-bb47-85c8619eab69
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptItemize, ScriptItemize function [Internationalization for Windows Applications], _win32_ScriptItemize, intl.scriptitemize, usp10/ScriptItemize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

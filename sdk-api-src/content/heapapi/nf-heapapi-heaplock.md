@@ -1,16 +1,16 @@
 ---
 UID: NF:heapapi.HeapLock
 title: HeapLock function
-author: windows-driver-content
+author: windows-sdk-content
 description: Attempts to acquire the critical section object, or lock, that is associated with a specified heap.
 old-location: base\heaplock.htm
 old-project: Memory
 ms.assetid: bc01b82d-ef10-40d7-af82-e599ba825944
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: HeapLock, HeapLock function, _win32_heaplock, base.heaplock, heapapi/HeapLock, winbase/HeapLock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h

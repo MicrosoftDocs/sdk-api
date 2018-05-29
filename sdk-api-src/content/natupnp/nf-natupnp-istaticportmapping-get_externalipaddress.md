@@ -1,16 +1,16 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_ExternalIPAddress
 title: IStaticPortMapping::get_ExternalIPAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_ExternalIPAddress method retrieves the external IP address for this port mapping on the NAT computer.
 old-location: ics\istaticportmapping_get_externalipaddress.htm
 old-project: ICS
 ms.assetid: 4641f827-5408-4a4b-8454-41e960926621
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_ExternalIPAddress method, IStaticPortMapping.get_ExternalIPAddress, IStaticPortMapping::get_ExternalIPAddress, _ics_istaticportmapping_get_externalipaddress, get_ExternalIPAddress, get_ExternalIPAddress method [ICS/ICF], get_ExternalIPAddress method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_externalipaddress, natupnp/IStaticPortMapping::get_ExternalIPAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 

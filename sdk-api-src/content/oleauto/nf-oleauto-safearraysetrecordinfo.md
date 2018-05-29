@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.SafeArraySetRecordInfo
 title: SafeArraySetRecordInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the record info in the specified safe array.
 old-location: automat\safearraysetrecordinfo.htm
 old-project: automat
 ms.assetid: 85317e8e-7625-4799-9c34-73245f164f85
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: SafeArraySetRecordInfo, SafeArraySetRecordInfo function [Automation], _oa96_SafeArraySetRecordInfo, automat.safearraysetrecordinfo, oleauto/SafeArraySetRecordInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

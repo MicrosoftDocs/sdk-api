@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElementArray.get_Length
 title: IUIAutomationElementArray::get_Length
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of elements in the collection.
 old-location: winauto\uiauto_IUIAutomationElementArray_Length.htm
 old-project: WinAuto
 ms.assetid: 1d560139-c6bb-4f45-a593-8af4249114f8
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationElementArray interface [Windows Accessibility],Length property, IUIAutomationElementArray.Length, IUIAutomationElementArray.get_Length, IUIAutomationElementArray::Length, IUIAutomationElementArray::get_Length, Length property [Windows Accessibility], Length property [Windows Accessibility],IUIAutomationElementArray interface, get_Length, uiauto.uiauto_IUIAutomationElementArray_Length, uiauto_IUIAutomationElementArray_Length, uiautomationclient/IUIAutomationElementArray::Length, uiautomationclient/IUIAutomationElementArray::get_Length, winauto.uiauto_IUIAutomationElementArray_Length
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxManifestProperties.GetBoolValue
 title: IAppxManifestProperties::GetBoolValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of the specified Boolean element in the properties section.
 old-location: appxpkg\iappxmanifestproperties_getboolvalue.htm
 old-project: appxpkg
 ms.assetid: 228FD28A-E65E-484B-81EF-83CC993F05D6
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetBoolValue, GetBoolValue method [App packaging and management], GetBoolValue method [App packaging and management],IAppxManifestProperties interface, IAppxManifestProperties interface [App packaging and management],GetBoolValue method, IAppxManifestProperties.GetBoolValue, IAppxManifestProperties::GetBoolValue, appxpackaging/IAppxManifestProperties::GetBoolValue, appxpkg.iappxmanifestproperties_getboolvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

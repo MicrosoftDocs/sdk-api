@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptOpenStorageProvider
 title: NCryptOpenStorageProvider function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads and initializes a CNG key storage provider.
 old-location: security\ncryptopenstorageprovider_func.htm
 old-project: SecCNG
 ms.assetid: febcf440-78b3-420b-b13d-030e8071cd50
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: MS_KEY_STORAGE_PROVIDER, MS_SMART_CARD_KEY_STORAGE_PROVIDER, NCryptOpenStorageProvider, NCryptOpenStorageProvider function [Security], ncrypt/NCryptOpenStorageProvider, security.ncryptopenstorageprovider_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

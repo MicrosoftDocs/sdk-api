@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IPolicyQualifier.get_RawData
 title: IPolicyQualifier::get_RawData
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Distinguished Encoding Rules (DER) encoded qualifier object.
 old-location: security\ipolicyqualifier_rawdata_property.htm
 old-project: SecCertEnroll
 ms.assetid: a654f60c-7f67-4fe2-847b-e8c5f91fde80
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IPolicyQualifier interface [Security],RawData property, IPolicyQualifier.RawData, IPolicyQualifier.get_RawData, IPolicyQualifier::RawData, IPolicyQualifier::get_RawData, RawData property [Security], RawData property [Security],IPolicyQualifier interface, certenroll/IPolicyQualifier::RawData, certenroll/IPolicyQualifier::get_RawData, get_RawData, security.ipolicyqualifier_rawdata_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

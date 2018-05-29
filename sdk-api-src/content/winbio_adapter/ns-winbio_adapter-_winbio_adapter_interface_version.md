@@ -1,16 +1,16 @@
 ---
 UID: NS:winbio_adapter._WINBIO_ADAPTER_INTERFACE_VERSION
 title: "_WINBIO_ADAPTER_INTERFACE_VERSION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a major and minor version number used in the engine, sensor, and storage adapter interface tables.
 old-location: secbiomet\winbio_adapter_interface_version.htm
 old-project: SecBioMet
 ms.assetid: e9dd91ea-cca3-49f3-89dc-f8f2c0594bd2
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: "*PWINBIO_ADAPTER_INTERFACE_VERSION, PWINBIO_ADAPTER_INTERFACE_VERSION, PWINBIO_ADAPTER_INTERFACE_VERSION structure pointer [Windows Biometric Framework API], WINBIO_ADAPTER_INTERFACE_VERSION, WINBIO_ADAPTER_INTERFACE_VERSION structure [Windows Biometric Framework API], _WINBIO_ADAPTER_INTERFACE_VERSION, secbiomet.winbio_adapter_interface_version, winbio_adapter/PWINBIO_ADAPTER_INTERFACE_VERSION, winbio_adapter/WINBIO_ADAPTER_INTERFACE_VERSION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbio_adapter.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetRight
 title: SetRight function
-author: windows-driver-content
+author: windows-sdk-content
 description: Animates or changes the value of the Right property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_setright_overloaded.htm
 old-project: directcomp
 ms.assetid: DBF1C6CE-5256-4175-9530-30D0B24FAB6D
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionRectangleClip::SetRight, SetRight, SetRight methods [DirectComposition], dcomp/SetRight, directcomp.idcompositionrectangleclip_setright_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2.DDiscFormat2RawCDEvents
 title: DDiscFormat2RawCDEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Implement this interface to receive notifications of the current raw-image write operation.
 old-location: imapi\ddiscformat2rawcdevents.htm
 old-project: imapi
 ms.assetid: 3a06911e-8a50-4e41-874c-478ad05f6488
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: DDiscFormat2RawCDEvents, DDiscFormat2RawCDEvents interface [IMAPI], DDiscFormat2RawCDEvents interface [IMAPI],described, imapi.ddiscformat2rawcdevents, imapi2/DDiscFormat2RawCDEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.SetNtmsRequestOrder
 title: SetNtmsRequestOrder function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetNtmsRequestOrder function sets the order that the specified request will be processed in the library queue.
 old-location: fs\setntmsrequestorder.htm
 old-project: Rsm
 ms.assetid: d7171ce9-14d9-4fbc-b95f-19c502adedd0
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: SetNtmsRequestOrder, SetNtmsRequestOrder function [Files], _zaw_setntmsrequestorder, base.setntmsrequestorder, fs.setntmsrequestorder, ntmsapi/SetNtmsRequestOrder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

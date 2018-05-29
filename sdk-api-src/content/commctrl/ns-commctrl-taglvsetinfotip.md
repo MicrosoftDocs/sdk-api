@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagLVSETINFOTIP
 title: tagLVSETINFOTIP
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information about tooltip text that is to be set.
 old-location: controls\LVSETINFOTIP.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvsetinfotip.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PLVSETINFOTIP, LVSETINFOTIP, LVSETINFOTIP structure [Windows Controls], PLVSETINFOTIP, PLVSETINFOTIP structure pointer [Windows Controls], commctrl/LVSETINFOTIP, commctrl/PLVSETINFOTIP, controls.LVSETINFOTIP, controls.inet_LVSETINFOTIP, inet_LVSETINFOTIP, inet_LVSETINFOTIP_cpp, tagLVSETINFOTIP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

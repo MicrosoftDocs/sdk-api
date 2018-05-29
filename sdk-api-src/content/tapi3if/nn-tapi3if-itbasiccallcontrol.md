@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITBasicCallControl
 title: ITBasicCallControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITBasicCallControl interface is used by the application to connect, answer, and perform basic telephony operations on a call object.
 old-location: tapi3\itbasiccallcontrol.htm
 old-project: Tapi
 ms.assetid: a0b4c496-5ee8-4810-8170-8ea505c99f18
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITBasicCallControl, ITBasicCallControl interface [TAPI 2.2], ITBasicCallControl interface [TAPI 2.2],described, _tapi3_itbasiccallcontrol, tapi3.itbasiccallcontrol, tapi3if/ITBasicCallControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

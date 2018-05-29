@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Application_InitializeV1
 title: MI_Application_InitializeV1 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an application so that it can make Management Infrastructure (MI) client API calls.
 old-location: wmi_v2\mi_application_initialize.htm
 old-project: wmi_v2
 ms.assetid: 32696A33-820D-4D01-AF71-DDA1F34EFBE0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Application_Initialize, MI_Application_Initialize function [Windows Management Infrastructure (MI)], MI_Application_InitializeV1, MI_Application_InitializeV1 function [Windows Management Infrastructure (MI)], mi/MI_Application_Initialize, mi/MI_Application_InitializeV1, wmi_v2.mi_application_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

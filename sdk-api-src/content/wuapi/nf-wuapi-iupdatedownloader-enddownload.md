@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.EndDownload
 title: IUpdateDownloader::EndDownload
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes an asynchronous download.
 old-location: wua\iupdatedownloader_enddownload.htm
 old-project: Wua_Sdk
 ms.assetid: b89ec12a-8a51-46e6-9911-2535abc3925b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: EndDownload, EndDownload method [Windows Update Agent], EndDownload method [Windows Update Agent],IUpdateDownloader interface, IUpdateDownloader interface [Windows Update Agent],EndDownload method, IUpdateDownloader.EndDownload, IUpdateDownloader::EndDownload, wua.iupdatedownloader_enddownload, wuapi/IUpdateDownloader::EndDownload
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

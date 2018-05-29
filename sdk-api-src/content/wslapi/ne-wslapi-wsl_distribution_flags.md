@@ -1,16 +1,16 @@
 ---
 UID: NE:wslapi.WSL_DISTRIBUTION_FLAGS
 title: WSL_DISTRIBUTION_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSL_DISTRIBUTION_FLAGS enumeration specifies the behavior of a distribution in the Windows Subsystem for Linux (WSL).
 old-location: wsl\wsl_distribution_flags.htm
 old-project: wsl
 ms.assetid: C0E67521-2C18-4464-B0BC-BBBC4C1FCAF0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WSL_DISTRIBUTION_FLAGS, WSL_DISTRIBUTION_FLAGS enumeration, WSL_DISTRIBUTION_FLAGS_APPEND_NT_PATH, WSL_DISTRIBUTION_FLAGS_ENABLE_DRIVE_MOUNTING, WSL_DISTRIBUTION_FLAGS_ENABLE_INTEROP, WSL_DISTRIBUTION_FLAGS_NONE, wsl.wsl_distribution_flags, wslapi/WSL_DISTRIBUTION_FLAGS, wslapi/WSL_DISTRIBUTION_FLAGS_APPEND_NT_PATH, wslapi/WSL_DISTRIBUTION_FLAGS_ENABLE_DRIVE_MOUNTING, wslapi/WSL_DISTRIBUTION_FLAGS_ENABLE_INTEROP, wslapi/WSL_DISTRIBUTION_FLAGS_NONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wslapi.h
 req.include-header: 

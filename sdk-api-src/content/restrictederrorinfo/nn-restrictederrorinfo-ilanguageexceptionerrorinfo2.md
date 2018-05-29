@@ -1,16 +1,16 @@
 ---
 UID: NN:restrictederrorinfo.ILanguageExceptionErrorInfo2
 title: ILanguageExceptionErrorInfo2
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables language projections to provide and retrieve error information as with ILanguageExceptionErrorInfo, with the additional benefit of working across language boundaries.
 old-location: winrt\ilanguageexceptionerrorinfo2.htm
 old-project: WinRT
 ms.assetid: A943EE85-F2A9-4D5E-AA6F-0C4AB8556A4C
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: ILanguageExceptionErrorInfo2, ILanguageExceptionErrorInfo2 interface [Windows Runtime], ILanguageExceptionErrorInfo2 interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionErrorInfo2, winrt.ilanguageexceptionerrorinfo2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: restrictederrorinfo.h
 req.include-header: 

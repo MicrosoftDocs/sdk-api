@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetLanguage
 title: IXpsOMCoreProperties::GetLanguage
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the language property.
 old-location: xps\ixpsomcoreproperties_getlanguage.htm
 old-project: printdocs
 ms.assetid: 3a35185a-0dbc-48bb-8ae1-53fafa197bb7
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetLanguage, GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetLanguage method, IXpsOMCoreProperties.GetLanguage, IXpsOMCoreProperties::GetLanguage, xps.ixpsomcoreproperties_getlanguage, xpsobjectmodel/IXpsOMCoreProperties::GetLanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

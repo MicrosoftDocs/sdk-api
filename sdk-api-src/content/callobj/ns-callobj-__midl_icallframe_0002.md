@@ -1,16 +1,16 @@
 ---
 UID: NS:callobj.__MIDL_ICallFrame_0002
 title: "__MIDL_ICallFrame_0002"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information about the parameter on the stack.
 old-location: com\callframeparaminfo.htm
 old-project: com
 ms.assetid: 0f3a1e81-c8b6-4141-8712-c600b30a2779
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CALLFRAMEPARAMINFO, CALLFRAMEPARAMINFO structure [COM], __MIDL_ICallFrame_0002, callobj/CALLFRAMEPARAMINFO, com.callframeparaminfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: callobj.h
 req.include-header: 

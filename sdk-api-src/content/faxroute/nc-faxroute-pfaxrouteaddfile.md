@@ -1,16 +1,16 @@
 ---
 UID: NC:faxroute.PFAXROUTEADDFILE
 title: PFAXROUTEADDFILE
-author: windows-driver-content
+author: windows-sdk-content
 description: A fax routing method calls the FaxRouteAddFile callback function to add a file to the fax file list associated with a received fax document.
 old-location: fax\_mfax_faxrouteaddfile.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_5k6d.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxRouteAddFile, FaxRouteAddFile callback function [Fax Service], PFAXROUTEADDFILE, PFAXROUTEADDFILE callback, _mfax_faxrouteaddfile, fax._mfax_faxrouteaddfile, faxroute/FaxRouteAddFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: faxroute.h
 req.include-header: 

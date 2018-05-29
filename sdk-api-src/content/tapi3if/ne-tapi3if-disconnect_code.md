@@ -1,16 +1,16 @@
 ---
 UID: NE:tapi3if.DISCONNECT_CODE
 title: DISCONNECT_CODE
-author: windows-driver-content
+author: windows-sdk-content
 description: The DISCONNECT_CODE enum is used by the ITBasicCallControl::Disconnect method.
 old-location: tapi3\disconnect_code.htm
 old-project: Tapi
 ms.assetid: 90e7b63f-3e19-422d-b45b-43408de9c6cc
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DC_NOANSWER, DC_NORMAL, DC_REJECTED, DISCONNECT_CODE, DISCONNECT_CODE enumeration [TAPI 2.2], _tapi3_disconnect_code, tapi3.disconnect_code, tapi3if/DC_NOANSWER, tapi3if/DC_NORMAL, tapi3if/DC_REJECTED, tapi3if/DISCONNECT_CODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 

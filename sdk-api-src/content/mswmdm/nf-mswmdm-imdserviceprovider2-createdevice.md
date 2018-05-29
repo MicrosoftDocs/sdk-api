@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDServiceProvider2.CreateDevice
 title: IMDServiceProvider2::CreateDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateDevice method is called by the Windows Media Device Manager to get the IMDSPDevice object(s) corresponding to the canonical device obtained from the PnP subsystem.
 old-location: wmdm\imdserviceprovider2_createdevice.htm
 old-project: WMDM
 ms.assetid: f724ef14-c572-41ca-a56b-fde85d7620e0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateDevice, CreateDevice method [windows Media Device Manager], CreateDevice method [windows Media Device Manager],IMDServiceProvider2 interface, IMDServiceProvider2 interface [windows Media Device Manager],CreateDevice method, IMDServiceProvider2.CreateDevice, IMDServiceProvider2::CreateDevice, IMDServiceProvider2GetDevicesFromDevicePath, mswmdm/IMDServiceProvider2::CreateDevice, wmdm.imdserviceprovider2_createdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

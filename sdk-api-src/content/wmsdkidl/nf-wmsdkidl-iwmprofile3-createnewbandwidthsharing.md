@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.CreateNewBandwidthSharing
 title: IWMProfile3::CreateNewBandwidthSharing
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateNewBandwidthSharing method creates a new bandwidth sharing object.
 old-location: wmformat\iwmprofile3_createnewbandwidthsharing.htm
 old-project: wmformat
 ms.assetid: ab6c9903-95ea-499b-be75-ff57328336f0
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateNewBandwidthSharing, CreateNewBandwidthSharing method [windows Media Format], CreateNewBandwidthSharing method [windows Media Format],IWMProfile3 interface, IWMProfile3 interface [windows Media Format],CreateNewBandwidthSharing method, IWMProfile3.CreateNewBandwidthSharing, IWMProfile3::CreateNewBandwidthSharing, IWMProfile3CreateNewBandwidthSharing, wmformat.iwmprofile3_createnewbandwidthsharing, wmsdkidl/IWMProfile3::CreateNewBandwidthSharing
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

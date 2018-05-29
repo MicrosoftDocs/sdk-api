@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetSymbolicLink
 title: IMFSensorDevice::GetSymbolicLink
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the symbolic link name of the sensor device.
 old-location: mf\imfsensordevice_getsymboliclink.htm
 old-project: medfound
 ms.assetid: F9244454-DF1D-4A3D-8A63-830A8422AFA2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSymbolicLink, GetSymbolicLink method [Media Foundation], GetSymbolicLink method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetSymbolicLink method, IMFSensorDevice.GetSymbolicLink, IMFSensorDevice::GetSymbolicLink, mf.imfsensordevice_getsymboliclink, mfidl/IMFSensorDevice::GetSymbolicLink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

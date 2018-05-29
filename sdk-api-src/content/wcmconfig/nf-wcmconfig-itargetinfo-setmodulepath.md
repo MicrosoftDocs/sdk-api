@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetModulePath
 title: ITargetInfo::SetModulePath
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the module path for the offline installation location.
 old-location: smi\itargetinfo_setmodulepath.htm
 old-project: SMI
 ms.assetid: 4831fdf9-411b-4fdb-bd5c-3a309e6b6918
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ITargetInfo interface [SMI],SetModulePath method, ITargetInfo.SetModulePath, ITargetInfo::SetModulePath, SetModulePath, SetModulePath method [SMI], SetModulePath method [SMI],ITargetInfo interface, smi.itargetinfo_setmodulepath, wcmconfig/ITargetInfo::SetModulePath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

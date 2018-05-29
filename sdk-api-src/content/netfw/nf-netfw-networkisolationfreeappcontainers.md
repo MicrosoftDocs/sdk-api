@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.NetworkIsolationFreeAppContainers
 title: NetworkIsolationFreeAppContainers function
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to release memory resources allocated to one or more app containers.
 old-location: ics\networkisolationfreeappcontainers.htm
 old-project: ICS
 ms.assetid: d850eef3-382e-4b3e-9059-35f3171a07c7
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: NetworkIsolationFreeAppContainers, NetworkIsolationFreeAppContainers function [ICS/ICF], ics.networkisolationfreeappcontainers, networkisolation/NetworkIsolationFreeAppContainers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netfw.h
 req.include-header: Netfw.h

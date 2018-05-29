@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnPinEvents
 title: IMbnPinEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is a notification interface used to indicate when asynchronous PIN requests have completed.
 old-location: mbn\imbnpinevents.htm
 old-project: mbn
 ms.assetid: 4bdaa4e5-880e-4d1f-aec1-36811a0f21c1
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnPinEvents, IMbnPinEvents interface [Microsoft Broadband Networks], IMbnPinEvents interface [Microsoft Broadband Networks],described, mbn.imbnpinevents, mbnapi/IMbnPinEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:opmapi._OPM_DPCP_PROTECTION_LEVEL
 title: "_OPM_DPCP_PROTECTION_LEVEL"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the protection level for DisplayPort Content Protection (DPCP).
 old-location: mf\opm_dpcp_protection_level.htm
 old-project: medfound
 ms.assetid: c761f3c1-f18e-4ae9-9aa1-1ba440a6c8df
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OPM_DPCP_FORCE_ULONG, OPM_DPCP_OFF, OPM_DPCP_ON, OPM_DPCP_PROTECTION_LEVEL, OPM_DPCP_PROTECTION_LEVEL enumeration [Media Foundation], _OPM_DPCP_PROTECTION_LEVEL, mf.opm_dpcp_protection_level, opmapi/OPM_DPCP_FORCE_ULONG, opmapi/OPM_DPCP_OFF, opmapi/OPM_DPCP_ON, opmapi/OPM_DPCP_PROTECTION_LEVEL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: opmapi.h
 req.include-header: 

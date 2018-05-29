@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetIDList
 title: IKnownFolder::GetIDList
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the location of the Shell namespace folder in the IDList (ITEMIDLIST) form.
 old-location: shell\IKnownFolder_GetIDList.htm
 old-project: shell
 ms.assetid: b1c77198-da52-4f74-9e20-56b6d1d450f5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetIDList, GetIDList method [Windows Shell], GetIDList method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetIDList method, IKnownFolder.GetIDList, IKnownFolder::GetIDList, _shell_IKnownFolder_GetIDList, shell.IKnownFolder_GetIDList, shobjidl_core/IKnownFolder::GetIDList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

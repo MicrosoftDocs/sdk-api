@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESEventServiceConfiguration.RemoveParent
 title: IESEventServiceConfiguration::RemoveParent
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the parent of the current event service. Once an event service has removed a parent, the parent can no longer pass advise events to the child event service for handling.
 old-location: mstv\ieseventserviceconfiguration_removeparent.htm
 old-project: mstv
 ms.assetid: 74d92e84-9819-49ed-bd56-26d6768f3ed0
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],RemoveParent method, IESEventServiceConfiguration.RemoveParent, IESEventServiceConfiguration::RemoveParent, RemoveParent, RemoveParent method [Microsoft TV Technologies], RemoveParent method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_removeparent, tuner/IESEventServiceConfiguration::RemoveParent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

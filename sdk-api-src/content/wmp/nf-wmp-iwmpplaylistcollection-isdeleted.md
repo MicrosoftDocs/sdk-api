@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPPlaylistCollection.isDeleted
 title: IWMPPlaylistCollection::isDeleted
-author: windows-driver-content
+author: windows-sdk-content
 description: The isDeleted method retrieves a value indicating whether the specified playlist is in the deleted items folder.
 old-location: wmp\iwmpplaylistcollection_isdeleted.htm
 old-project: WMP
 ms.assetid: ac3e3401-ac7e-44d2-9680-5abe69678fc7
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPPlaylistCollection interface [Windows Media Player],isDeleted method, IWMPPlaylistCollection.isDeleted, IWMPPlaylistCollection::isDeleted, IWMPPlaylistCollectionisDeleted, isDeleted, isDeleted method [Windows Media Player], isDeleted method [Windows Media Player],IWMPPlaylistCollection interface, wmp.iwmpplaylistcollection_isdeleted, wmp/IWMPPlaylistCollection::isDeleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

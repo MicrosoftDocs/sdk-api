@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFPMPHostApp.ActivateClassById
 title: IMFPMPHostApp::ActivateClassById
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a Windows Runtime object in the protected media path (PMP) process.
 old-location: mf\imfpmphostapp_activateclassbyid.htm
 old-project: medfound
 ms.assetid: e0e14171-fcc9-418a-a93d-3cdbae254a3f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ActivateClassById, ActivateClassById method [Media Foundation], ActivateClassById method [Media Foundation],IMFPMPHostApp interface, IMFPMPHostApp interface [Media Foundation],ActivateClassById method, IMFPMPHostApp.ActivateClassById, IMFPMPHostApp::ActivateClassById, mf.imfpmphostapp_activateclassbyid, mfidl/IMFPMPHostApp::ActivateClassById
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

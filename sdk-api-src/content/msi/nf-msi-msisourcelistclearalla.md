@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiSourceListClearAllA
 title: MsiSourceListClearAllA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiSourceListClearAll function removes all network sources from the source list of a patch or product in a specified context. For more information, see Source Resiliency.
 old-location: setup\msisourcelistclearall.htm
 old-project: Msi
 ms.assetid: e46d222d-f788-4b68-b7ff-a72261e1066b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiSourceListClearAll, MsiSourceListClearAll function, MsiSourceListClearAllA, MsiSourceListClearAllW, _msi_msisourcelistclearall, msi/MsiSourceListClearAll, msi/MsiSourceListClearAllA, msi/MsiSourceListClearAllW, setup.msisourcelistclearall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_SOAP_HEADER
 title: "_WSD_SOAP_HEADER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides SOAP header data for the WSD_SOAP_MESSAGE structure.
 old-location: ncd\wsd_soap_header_struct.htm
 old-project: WsdApi
 ms.assetid: 6a0f0fd3-486e-45b3-bac6-e241bce8e2dc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_SOAP_HEADER, WSD_SOAP_HEADER structure, _WSD_SOAP_HEADER, ncd.wsd_soap_header_struct, wsdtypes/WSD_SOAP_HEADER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

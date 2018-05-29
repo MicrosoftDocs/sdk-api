@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetGuid
 title: IRecordInfo::GetGuid
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the GUID of the record type.
 old-location: automat\irecordinfo_getguid.htm
 old-project: automat
 ms.assetid: e28ed38a-5cd6-4edb-871e-e69283e4d47e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetGuid, GetGuid method [Automation], GetGuid method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetGuid method, IRecordInfo.GetGuid, IRecordInfo::GetGuid, _oa96_IRecordInfo_GetGuid, automat.irecordinfo_getguid, oaidl/IRecordInfo::GetGuid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

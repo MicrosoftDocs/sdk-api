@@ -1,16 +1,16 @@
 ---
 UID: NE:dxgidebug.DXGI_INFO_QUEUE_MESSAGE_SEVERITY
 title: DXGI_INFO_QUEUE_MESSAGE_SEVERITY
-author: windows-driver-content
+author: windows-sdk-content
 description: Values that specify debug message severity levels for an information queue.
 old-location: direct3ddxgi\dxgi_info_queue_message_severity.htm
 old-project: direct3ddxgi
 ms.assetid: 99F9DDC8-5CCF-4991-94AD-0A399932F5B3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_INFO_QUEUE_MESSAGE_SEVERITY, DXGI_INFO_QUEUE_MESSAGE_SEVERITY enumeration [DXGI], DXGI_INFO_QUEUE_MESSAGE_SEVERITY_CORRUPTION, DXGI_INFO_QUEUE_MESSAGE_SEVERITY_ERROR, DXGI_INFO_QUEUE_MESSAGE_SEVERITY_INFO, DXGI_INFO_QUEUE_MESSAGE_SEVERITY_MESSAGE, DXGI_INFO_QUEUE_MESSAGE_SEVERITY_WARNING, direct3ddxgi.dxgi_info_queue_message_severity, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_SEVERITY, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_SEVERITY_CORRUPTION, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_SEVERITY_ERROR, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_SEVERITY_INFO, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_SEVERITY_MESSAGE, dxgidebug/DXGI_INFO_QUEUE_MESSAGE_SEVERITY_WARNING
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgidebug.h
 req.include-header: 

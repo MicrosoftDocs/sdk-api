@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPSettings.get_enableErrorDialogs
 title: IWMPSettings::get_enableErrorDialogs
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_enableErrorDialogs method retrieves a value indicating whether error dialog boxes are displayed automatically.
 old-location: wmp\iwmpsettings_get_enableerrordialogs.htm
 old-project: WMP
 ms.assetid: 557493ea-b685-44e4-b8c3-3f8c5fbe49b8
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_enableErrorDialogs method, IWMPSettings.get_enableErrorDialogs, IWMPSettings::get_enableErrorDialogs, IWMPSettingsget_enableErrorDialogs, get_enableErrorDialogs, get_enableErrorDialogs method [Windows Media Player], get_enableErrorDialogs method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_enableerrordialogs, wmp/IWMPSettings::get_enableErrorDialogs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

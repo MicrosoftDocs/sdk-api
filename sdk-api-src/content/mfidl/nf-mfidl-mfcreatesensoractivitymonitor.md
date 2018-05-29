@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateSensorActivityMonitor
 title: MFCreateSensorActivityMonitor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a new instance of the IMFSensorActivityMonitor interface.
 old-location: mf\mfcreatesensoractivitymonitor.htm
 old-project: medfound
 ms.assetid: 852395EE-AA84-4C61-A55F-E8D925FA1447
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateSensorActivityMonitor, MFCreateSensorActivityMonitor function [Media Foundation], mf.mfcreatesensoractivitymonitor, mfidl/MFCreateSensorActivityMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

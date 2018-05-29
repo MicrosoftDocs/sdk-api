@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetAllInstances
 title: CWbemProviderGlue::GetAllInstances
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAllInstances method retrieves a list of instances returned by a specific class.
 old-location: wmi\cwbemproviderglue_getallinstances.htm
 old-project: WmiSdk
 ms.assetid: 510d0711-ee82-4270-a7e3-f6bb214716a0
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?GetAllInstances@CWbemProviderGlue@@SGJPBGPAV?$TRefPointerCollection@VCInstance@@@@0PAVMethodContext@@@Z, CWbemProviderGlue interface [Windows Management Instrumentation],GetAllInstances method, CWbemProviderGlue.GetAllInstances, CWbemProviderGlue::GetAllInstances, GetAllInstances, GetAllInstances method [Windows Management Instrumentation], GetAllInstances method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getallinstances, wbemglue/CWbemProviderGlue::GetAllInstances, wmi.cwbemproviderglue_getallinstances"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetWindowDpiAwarenessContext
 title: GetWindowDpiAwarenessContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the DPI_AWARENESS_CONTEXT associated with a window.
 old-location: hidpi\getwindowdpiawarenesscontext.htm
 old-project: hidpi
 ms.assetid: BCBC6EC7-9792-43C0-BE0E-D94F00A7CAFD
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.author: windowssdkdev
+ms.date: 03/29/2018
 ms.keywords: GetWindowDpiAwarenessContext, GetWindowDpiAwarenessContext function [High DPI], hidpi.getwindowdpiawarenesscontext, winuser/GetWindowDpiAwarenessContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

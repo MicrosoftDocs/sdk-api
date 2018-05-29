@@ -1,16 +1,16 @@
 ---
 UID: NS:ws2ipdef._INTERFACE_INFO_EX
 title: "_INTERFACE_INFO_EX"
-author: windows-driver-content
+author: windows-sdk-content
 description: The INTERFACE_INFO_EX structure is used in conjunction with the SIO_GET_INTERFACE_LIST IOCTL command to obtain information about an interface IP address.
 old-location: winsock\interface_info_ex.htm
 old-project: WinSock
 ms.assetid: d13a4b5d-9f61-464f-be50-ceda596cbb65
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPINTERFACE_INFO_EX, IFF_BROADCAST, IFF_LOOPBACK, IFF_MULTICAST, IFF_POINTTOPOINT, IFF_UP, INTERFACE_INFO_EX, INTERFACE_INFO_EX structure [Winsock], INTERFACE_INFO_EX,FAR * _LPINTERFACE_INFO_EX, INTERFACE_INFO_EX,FAR * _LPINTERFACE_INFO_EX structure [Winsock], _INTERFACE_INFO_EX, winsock.interface_info_ex, ws2ipdef/INTERFACE_INFO_EX, ws2tcpip/INTERFACE_INFO_EX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h

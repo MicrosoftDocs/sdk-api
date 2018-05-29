@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.MFP_GET_MEDIAITEM_SET_EVENT
 title: MFP_GET_MEDIAITEM_SET_EVENT macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_MEDIAITEM_SET_EVENT pointer.
 old-location: mf\mfp_get_mediaitem_set_event.htm
 old-project: medfound
 ms.assetid: 3a03a657-0c93-496c-b3dc-6afeef7ee03f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFP_GET_MEDIAITEM_SET_EVENT, MFP_GET_MEDIAITEM_SET_EVENT macro [Media Foundation], mf.mfp_get_mediaitem_set_event, mfplay/MFP_GET_MEDIAITEM_SET_EVENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: mfplay.h
 req.include-header: 

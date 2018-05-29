@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_SupportedWriteSpeeds
 title: IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of the write speeds supported by the disc recorder and current media.
 old-location: imapi\idiscformat2trackatonce_get_supportedwritespeeds.htm
 old-project: imapi
 ms.assetid: b95b7fb9-6e4b-4d9d-86fe-64ca92343225
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_SupportedWriteSpeeds method, IDiscFormat2TrackAtOnce.get_SupportedWriteSpeeds, IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds, get_SupportedWriteSpeeds, get_SupportedWriteSpeeds method [IMAPI], get_SupportedWriteSpeeds method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_supportedwritespeeds, imapi2/IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

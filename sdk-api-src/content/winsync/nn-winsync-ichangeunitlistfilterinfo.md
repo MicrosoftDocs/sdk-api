@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IChangeUnitListFilterInfo
 title: IChangeUnitListFilterInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a filter that can be used to control which change units are included for items in an ISyncChangeBatch object.
 old-location: winsync\ichangeunitlistfilterinfo.htm
 old-project: winsync
 ms.assetid: fd379fc6-22e5-4165-b4e6-480bc65cccb3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IChangeUnitListFilterInfo, IChangeUnitListFilterInfo interface [Windows Sync], IChangeUnitListFilterInfo interface [Windows Sync],described, winsync.ichangeunitlistfilterinfo, winsync/IChangeUnitListFilterInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

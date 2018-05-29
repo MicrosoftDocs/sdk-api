@@ -1,16 +1,16 @@
 ---
 UID: NC:winfax.PFAX_RECIPIENT_CALLBACKA
 title: PFAX_RECIPIENT_CALLBACKA
-author: windows-driver-content
+author: windows-sdk-content
 description: The FAX_RECIPIENT_CALLBACK function is an application-defined or library-defined callback function that the FaxSendDocumentForBroadcast function calls to retrieve user-specific information for the transmission.
 old-location: fax\_mfax_fax_recipient_callback.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5a5n.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FAX_RECIPIENT_CALLBACK, FAX_RECIPIENT_CALLBACK callback, FAX_RECIPIENT_CALLBACK callback function [Fax Service], PFAX_RECIPIENT_CALLBACKA, PFAX_RECIPIENT_CALLBACKW, _mfax_fax_recipient_callback, fax._mfax_fax_recipient_callback, winfax/FAX_RECIPIENT_CALLBACK, winfax/PFAX_RECIPIENT_CALLBACKA, winfax/PFAX_RECIPIENT_CALLBACKW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winfax.h
 req.include-header: 

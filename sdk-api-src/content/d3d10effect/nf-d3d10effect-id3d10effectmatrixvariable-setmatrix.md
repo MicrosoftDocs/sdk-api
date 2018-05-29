@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectMatrixVariable.SetMatrix
 title: ID3D10EffectMatrixVariable::SetMatrix
-author: windows-driver-content
+author: windows-sdk-content
 description: Set a floating-point matrix.
 old-location: direct3d10\id3d10effectmatrixvariable_setmatrix.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_setmatrix.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 5af32f4e-56a0-556d-ab18-783fdfb6038f, ID3D10EffectMatrixVariable interface [Direct3D 10],SetMatrix method, ID3D10EffectMatrixVariable.SetMatrix, ID3D10EffectMatrixVariable::SetMatrix, SetMatrix, SetMatrix method [Direct3D 10], SetMatrix method [Direct3D 10],ID3D10EffectMatrixVariable interface, d3d10effect/ID3D10EffectMatrixVariable::SetMatrix, direct3d10.id3d10effectmatrixvariable_setmatrix
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

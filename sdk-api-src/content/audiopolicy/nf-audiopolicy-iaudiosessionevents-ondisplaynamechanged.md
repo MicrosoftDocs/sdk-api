@@ -1,16 +1,16 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnDisplayNameChanged
 title: IAudioSessionEvents::OnDisplayNameChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnDisplayNameChanged method notifies the client that the display name for the session has changed.
 old-location: coreaudio\iaudiosessionevents_ondisplaynamechanged.htm
 old-project: CoreAudio
 ms.assetid: 65d21f0c-b6f1-4506-975c-6d0308b3fc2f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnDisplayNameChanged method, IAudioSessionEvents.OnDisplayNameChanged, IAudioSessionEvents::OnDisplayNameChanged, IAudioSessionEventsOnDisplayNameChanged, OnDisplayNameChanged, OnDisplayNameChanged method [Core Audio], OnDisplayNameChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnDisplayNameChanged, coreaudio.iaudiosessionevents_ondisplaynamechanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

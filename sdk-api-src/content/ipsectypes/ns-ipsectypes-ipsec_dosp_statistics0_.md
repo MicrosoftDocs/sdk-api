@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_DOSP_STATISTICS0_
 title: IPSEC_DOSP_STATISTICS0_
-author: windows-driver-content
+author: windows-sdk-content
 description: The IPSEC_DOSP_STATISTICS0 structure.
 old-location: fwp\ipsec_dosp_statistics0.htm
 old-project: FWP
 ms.assetid: 951b6aa9-ea96-4256-a304-5b753f2a3656
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_DOSP_STATISTICS0, IPSEC_DOSP_STATISTICS0 structure [Filtering], IPSEC_DOSP_STATISTICS0_, fwp.ipsec_dosp_statistics0, ipsectypes/IPSEC_DOSP_STATISTICS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

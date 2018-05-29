@@ -1,16 +1,16 @@
 ---
 UID: NS:udpmib._MIB_UDPSTATS
 title: "_MIB_UDPSTATS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains statistics for the User Datagram Protocol (UDP) running on the local computer.
 old-location: mib\mib_udpstats.htm
 old-project: MIB
 ms.assetid: 128bae44-59a2-4e37-a588-a18805b9e340
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_UDPSTATS, MIB_UDPSTATS, MIB_UDPSTATS structure [MIB], PMIB_UDPSTATS, PMIB_UDPSTATS structure pointer [MIB], _MIB_UDPSTATS, _mpr_mib_udpstats, iprtrmib/MIB_UDPSTATS, iprtrmib/PMIB_UDPSTATS, mib.mib_udpstats, rras.mib_udpstats, udpmib/MIB_UDPSTATS, udpmib/PMIB_UDPSTATS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: udpmib.h
 req.include-header: Iphlpapi.h

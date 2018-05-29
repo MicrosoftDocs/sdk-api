@@ -1,16 +1,16 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0004
 title: "__MIDL___MIDL_itf_wcmconfig_0000_0000_0004"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes setting types that are returned from the ISettingsItem::GetSettingType method and defines the object model type for the calling ISettingsItem interface.
 old-location: smi\wcmsettingtype.htm
 old-project: SMI
 ms.assetid: e7dbe536-778a-445c-929b-56e490fdeffb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WcmSettingType, WcmSettingType enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0004, settingTypeComplex, settingTypeList, settingTypeScalar, smi.wcmsettingtype, wcmconfig/WcmSettingType, wcmconfig/settingTypeComplex, wcmconfig/settingTypeList, wcmconfig/settingTypeScalar
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcmconfig.h
 req.include-header: 

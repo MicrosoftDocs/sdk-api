@@ -1,16 +1,16 @@
 ---
 UID: NF:traffic.TcAddFilter
 title: TcAddFilter function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TcAddFilter function associates a new filter with an existing flow that allows packets matching the filter to be directed to the associated flow.
 old-location: qos\tcaddfilter.htm
 old-project: QOS
 ms.assetid: c6d7c346-c353-4224-a8b5-56910e447902
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: TcAddFilter, TcAddFilter function [QOS], _gqos_tcaddfilter, qos.tcaddfilter, traffic/TcAddFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IConfigAviMux
 title: IConfigAviMux
-author: windows-driver-content
+author: windows-sdk-content
 description: The IConfigAviMux interface configures the AVI Mux filter.
 old-location: dshow\iconfigavimux.htm
 old-project: DirectShow
 ms.assetid: 4cc3cdeb-ebc5-46e1-8cc4-84b40e91323b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IConfigAviMux, IConfigAviMux interface [DirectShow], IConfigAviMux interface [DirectShow],described, IConfigAviMuxInterface, dshow.iconfigavimux, strmif/IConfigAviMux
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:dcommon.D2D_VECTOR_3F
 title: D2D_VECTOR_3F
-author: windows-driver-content
+author: windows-sdk-content
 description: A 3D vector that consists of three single-precision floating-point values (x, y, z).
 old-location: direct2d\d2d_vector_3f.htm
 old-project: Direct2D
 ms.assetid: B25AE930-F747-4F4C-93BC-9647F414E76B
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D_VECTOR_3F, D2D_VECTOR_3F structure [Direct2D], dcommon/D2D_VECTOR_3F, direct2d.d2d_vector_3f
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dcommon.h
 req.include-header: D2d1.h

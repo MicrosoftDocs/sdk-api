@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_FLIPVPORTDATA
 title: "_DD_FLIPVPORTDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_FLIPVPORTDATA structure contains the information necessary for the video port extensions (VPE) object to perform a flip.
 old-location: display\dd_flipvportdata.htm
 old-project: display
 ms.assetid: 1bc6dc12-1213-47d7-9e6f-2396a41cc6d0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_FLIPVPORTDATA, DD_FLIPVPORTDATA, DD_FLIPVPORTDATA structure [Display Devices], _DD_FLIPVPORTDATA, ddrawint/DD_FLIPVPORTDATA, ddstrcts_9af598a7-a7fc-40f2-a1dd-355964f60da9.xml, display.dd_flipvportdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

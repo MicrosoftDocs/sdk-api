@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.SetFileInformationByHandle
 title: SetFileInformationByHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the file information for the specified file.
 old-location: fs\setfileinformationbyhandle.htm
 old-project: FileIO
 ms.assetid: ea4981e6-a8f1-4977-aca9-b2f53604d449
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: SetFileInformationByHandle, SetFileInformationByHandle function [Files], fileapi/SetFileInformationByHandle, fileextd/SetFileInformationByHandle, fs.setfileinformationbyhandle, winbase/SetFileInformationByHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

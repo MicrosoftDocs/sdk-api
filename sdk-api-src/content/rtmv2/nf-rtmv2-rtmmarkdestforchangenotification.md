@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmMarkDestForChangeNotification
 title: RtmMarkDestForChangeNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmMarkDestForChangeNotification function marks a destination for a client.
 old-location: rras\rtmmarkdestforchangenotification.htm
 old-project: RRAS
 ms.assetid: b7db8664-2775-4f96-8e5b-5062a8abcfe0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmMarkDestForChangeNotification, RtmMarkDestForChangeNotification function [RAS], _rtmv2ref_rtmmarkdestforchangenotification, rras.rtmmarkdestforchangenotification, rtmv2/RtmMarkDestForChangeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

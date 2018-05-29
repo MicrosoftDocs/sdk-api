@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagTTPOLYGONHEADER
 title: tagTTPOLYGONHEADER
-author: windows-driver-content
+author: windows-sdk-content
 description: The TTPOLYGONHEADER structure specifies the starting position and type of a contour in a TrueType character outline.
 old-location: gdi\ttpolygonheader.htm
 old-project: gdi
 ms.assetid: eea54aeb-7847-4393-87fa-86de93017be8
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPTTPOLYGONHEADER, LPTTPOLYGONHEADER, LPTTPOLYGONHEADER structure pointer [Windows GDI], TTPOLYGONHEADER, TTPOLYGONHEADER structure [Windows GDI], _win32_TTPOLYGONHEADER_str, gdi.ttpolygonheader, tagTTPOLYGONHEADER, wingdi/LPTTPOLYGONHEADER, wingdi/TTPOLYGONHEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

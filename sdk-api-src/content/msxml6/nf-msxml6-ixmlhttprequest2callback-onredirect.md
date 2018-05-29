@@ -1,16 +1,16 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnRedirect
 title: IXMLHTTPRequest2Callback::OnRedirect
-author: windows-driver-content
+author: windows-sdk-content
 description: Occurs when a client sends an HTTP request that the server redirects to a new URL.
 old-location: ixhr2\ixmlhttprequest2callback_onredirect.htm
 old-project: ixhr2
 ms.assetid: 8492FFD5-99C8-4545-B5FD-465CC01D0038
-ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.author: windowssdkdev
+ms.date: 04/02/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnRedirect method, IXMLHTTPRequest2Callback.OnRedirect, IXMLHTTPRequest2Callback::OnRedirect, OnRedirect, OnRedirect method [XMLHttpRequest2], OnRedirect method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onredirect, msxml6/IXMLHTTPRequest2Callback::OnRedirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 

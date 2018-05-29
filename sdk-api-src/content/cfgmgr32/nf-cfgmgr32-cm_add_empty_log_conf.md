@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Add_Empty_Log_Conf
 title: CM_Add_Empty_Log_Conf function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Add_Empty_Log_Conf function creates an empty logical configuration, for a specified configuration type and a specified device instance, on the local machine.
 old-location: devinst\cm_add_empty_log_conf.htm
 old-project: devinst
 ms.assetid: 9de0b04d-96be-4c93-b7af-09200fdcf807
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Add_Empty_Log_Conf, CM_Add_Empty_Log_Conf function [Device and Driver Installation], cfgmgr32/CM_Add_Empty_Log_Conf, cfgmgrfn_91cca29b-dad4-43a7-882c-0cc465811429.xml, devinst.cm_add_empty_log_conf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsCreatePartitionEx
 title: IVdsCreatePartitionEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a partition on a basic disk.
 old-location: base\ivdscreatepartitionex.htm
 old-project: VDS
 ms.assetid: aae89a86-35b2-45ab-83f5-9461960876c4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsCreatePartitionEx, IVdsCreatePartitionEx interface [VDS], IVdsCreatePartitionEx interface [VDS],described, base.ivdscreatepartitionex, vds/IVdsCreatePartitionEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

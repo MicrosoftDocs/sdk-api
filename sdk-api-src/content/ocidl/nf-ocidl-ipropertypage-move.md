@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IPropertyPage.Move
 title: IPropertyPage::Move
-author: windows-driver-content
+author: windows-sdk-content
 description: Positions and resizes the property page dialog box within the frame.
 old-location: com\ipropertypage_move.htm
 old-project: com
 ms.assetid: 305857c2-cb3a-4a56-9db3-b986b278bd02
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyPage interface [COM],Move method, IPropertyPage.Move, IPropertyPage::Move, Move, Move method [COM], Move method [COM],IPropertyPage interface, _ctrl_ipropertypage_move, com.ipropertypage_move, ocidl/IPropertyPage::Move
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

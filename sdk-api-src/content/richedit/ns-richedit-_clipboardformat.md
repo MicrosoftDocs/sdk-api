@@ -1,16 +1,16 @@
 ---
 UID: NS:richedit._clipboardformat
 title: "_clipboardformat"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the clipboard format. This structure included with the EN_CLIPFORMAT notification.
 old-location: controls\clipboardformat.htm
 old-project: Controls
 ms.assetid: 5AD870B6-C4F1-446C-A516-171B24355EFA
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CLIPBOARDFORMAT, CLIPBOARDFORMAT structure [Windows Controls], _clipboardformat, controls.clipboardformat, richedit/CLIPBOARDFORMAT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

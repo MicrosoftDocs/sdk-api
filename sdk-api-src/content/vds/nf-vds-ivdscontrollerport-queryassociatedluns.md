@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsControllerPort.QueryAssociatedLuns
 title: IVdsControllerPort::QueryAssociatedLuns
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an enumeration of the LUNs with which the controller port is associated&#8212;the LUNs for which the controller is active. This method replaces IVdsController::QueryAssociatedLuns.
 old-location: base\ivdscontrollerport_queryassociatedluns.htm
 old-project: VDS
 ms.assetid: 062b820e-f384-4c2e-a2f7-c90748c74976
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
-ms.keywords: IVdsControllerPort interface [VDS],QueryAssociatedLuns method, IVdsControllerPort.QueryAssociatedLuns, IVdsControllerPort::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_queryassociatedluns, vds/IVdsControllerPort::QueryAssociatedLuns
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IVdsControllerPort interface [VDS],QueryAssociatedLuns method, IVdsControllerPort.QueryAssociatedLuns, IVdsControllerPort::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsControllerPort interface, base.ivdscontrollerport_queryassociatedluns, vds/IVdsControllerPort::QueryAssociatedLuns, vdshwprv/IVdsControllerPort::QueryAssociatedLuns
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 
@@ -34,6 +34,7 @@ api_type:
 -	COM
 api_location:
 -	Vds.h
+-	VdsHwPrv.h
 api_name:
 -	IVdsControllerPort.QueryAssociatedLuns
 product: Windows

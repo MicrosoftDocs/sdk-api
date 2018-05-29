@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFTimer
 title: IMFTimer
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a timer that invokes a callback at a specified time.
 old-location: mf\imftimer.htm
 old-project: medfound
 ms.assetid: 152594df-de3d-4f6f-9277-dba95ab3533a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 152594df-de3d-4f6f-9277-dba95ab3533a, IMFTimer, IMFTimer interface [Media Foundation], IMFTimer interface [Media Foundation],described, mf.imftimer, mfidl/IMFTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

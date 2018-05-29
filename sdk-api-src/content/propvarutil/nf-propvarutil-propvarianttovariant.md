@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToVariant
 title: PropVariantToVariant function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the contents of a PROPVARIANT structure to a VARIANT structure.
 old-location: properties\PropVariantToVariant.htm
 old-project: properties
 ms.assetid: 34907419-47ae-4f8f-8ce6-5f5e9b098488
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToVariant, PropVariantToVariant function [Windows Properties], properties.PropVariantToVariant, propvarutil/PropVariantToVariant, shell.PropVariantToVariant, shell_PropVariantToVariant
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

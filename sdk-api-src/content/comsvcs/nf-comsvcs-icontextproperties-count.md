@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IContextProperties.Count
 title: IContextProperties::Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of context object properties.
 old-location: cos\icontextproperties_count.htm
 old-project: cossdk
 ms.assetid: 96259fe8-138d-498e-8be0-1fe1cc3f0d83
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Count, Count method [COM+], Count method [COM+],IContextProperties interface, IContextProperties interface [COM+],Count method, IContextProperties.Count, IContextProperties::Count, _cos_IContextProperties_Count, comsvcs/IContextProperties::Count, cos.icontextproperties_count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

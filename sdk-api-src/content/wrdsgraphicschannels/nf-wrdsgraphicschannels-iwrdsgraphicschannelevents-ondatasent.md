@@ -1,16 +1,16 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnDataSent
 title: IWRdsGraphicsChannelEvents::OnDataSent
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the IWRdsGraphicsChannel::Write method is called and the data has been sent.
 old-location: termserv\iwrdsgraphicschannelevents_ondatasent.htm
 old-project: TermServ
 ms.assetid: eb5af337-a412-4bda-862f-7e12705d0446
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnDataSent method, IWRdsGraphicsChannelEvents.OnDataSent, IWRdsGraphicsChannelEvents::OnDataSent, OnDataSent, OnDataSent method [Remote Desktop Services], OnDataSent method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_ondatasent, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnDataSent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wrdsgraphicschannels.h
 req.include-header: 

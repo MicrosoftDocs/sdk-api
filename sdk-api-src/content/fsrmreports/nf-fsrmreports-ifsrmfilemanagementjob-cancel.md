@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.Cancel
 title: IFsrmFileManagementJob::Cancel
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels the job if it is running.
 old-location: fsrm\ifsrmfilemanagementjob_cancel.htm
 old-project: Fsrm
 ms.assetid: 3abb6673-fdd8-4828-ba7a-7666208dc8f0
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: Cancel, Cancel method [File Server Resource Manager], Cancel method [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],Cancel method, IFsrmFileManagementJob.Cancel, IFsrmFileManagementJob::Cancel, fs.ifsrmfilemanagementjob_cancel, fsrm.ifsrmfilemanagementjob_cancel, fsrmreports/IFsrmFileManagementJob::Cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

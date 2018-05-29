@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenManager
 title: IFsrmFileScreenManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to manage file screen objects.
 old-location: fsrm\ifsrmfilescreenmanager.htm
 old-project: Fsrm
 ms.assetid: a0cea95d-5839-41a2-91b9-da8e13030682
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmFileScreenManager, IFsrmFileScreenManager interface [File Server Resource Manager], IFsrmFileScreenManager interface [File Server Resource Manager],described, fs.ifsrmfilescreenmanager, fsrm.ifsrmfilescreenmanager, fsrmscreen/IFsrmFileScreenManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h

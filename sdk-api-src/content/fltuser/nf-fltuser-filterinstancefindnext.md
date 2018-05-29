@@ -1,16 +1,16 @@
 ---
 UID: NF:fltuser.FilterInstanceFindNext
 title: FilterInstanceFindNext function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FilterInstanceFindNext function continues a minifilter driver instance search started by a call to FilterInstanceFindFirst.
 old-location: ifsk\filterinstancefindnext.htm
 old-project: ifsk
 ms.assetid: c7305378-1de8-4db0-89a2-2ac342a17620
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: FilterInstanceFindNext, FilterInstanceFindNext function [Installable File System Drivers], FltWin32ApiRef_35023bec-f16b-4ac0-ad0f-f3550e8cfafd.xml, fltuser/FilterInstanceFindNext, ifsk.filterinstancefindnext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fltuser.h
 req.include-header: FltUser.h

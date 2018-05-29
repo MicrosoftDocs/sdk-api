@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMColorProfileResource
 title: IXpsOMColorProfileResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides an IStream interface to a color profile resource.
 old-location: xps\ixpsomcolorprofileresource.htm
 old-project: printdocs
 ms.assetid: 8a344300-c3fc-4225-bfa5-d5d33798a094
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMColorProfileResource, IXpsOMColorProfileResource interface [XPS Documents and Packaging], IXpsOMColorProfileResource interface [XPS Documents and Packaging],described, xps.ixpsomcolorprofileresource, xpsobjectmodel/IXpsOMColorProfileResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

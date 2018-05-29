@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif.tagVideoProcAmpFlags
 title: tagVideoProcAmpFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: The VideoProcAmpFlags enumeration indicates whether a particular video property is controlled manually or automatically.
 old-location: dshow\videoprocampflags.htm
 old-project: DirectShow
 ms.assetid: 42876f3b-d2b9-4ddb-85c0-80f5177eef6b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: VideoProcAmpFlags, VideoProcAmpFlags enumeration [DirectShow], VideoProcAmpFlagsEnumeration, VideoProcAmp_Flags_Auto, VideoProcAmp_Flags_Manual, dshow.videoprocampflags, strmif/VideoProcAmpFlags, strmif/VideoProcAmp_Flags_Auto, strmif/VideoProcAmp_Flags_Manual, tagVideoProcAmpFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

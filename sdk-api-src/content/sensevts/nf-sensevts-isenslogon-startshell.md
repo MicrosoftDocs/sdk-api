@@ -1,16 +1,16 @@
 ---
 UID: NF:sensevts.ISensLogon.StartShell
 title: ISensLogon::StartShell
-author: windows-driver-content
+author: windows-sdk-content
 description: The StartShell method notifies an application that the shell is started.
 old-location: sens\isenslogon_startshell.htm
 old-project: Sens
 ms.assetid: 0bde3bda-c0ed-4303-b6c1-dd667e9b7504
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISensLogon interface [SENS],StartShell method, ISensLogon.StartShell, ISensLogon::StartShell, StartShell, StartShell method [SENS], StartShell method [SENS],ISensLogon interface, _zaw_isenslogon_startshell, sens.isenslogon_startshell, sensevts/ISensLogon::StartShell, syncmgr.isenslogon_startshell
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sensevts.h
 req.include-header: 

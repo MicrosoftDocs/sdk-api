@@ -1,16 +1,16 @@
 ---
 UID: NF:qos2.QOSQueryFlow
 title: QOSQueryFlow function
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests information about a specific flow.
 old-location: qos\qosqueryflow.htm
 old-project: QOS
 ms.assetid: 8cae3ba2-beca-45e2-9526-2d917abc2606
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: QOSQueryFlow, QOSQueryFlow function [QOS], QOSQueryFlowFundamentals, QOSQueryOutgoingRate, QOSQueryPacketPriority, QOS_QUERYFLOW_FRESH, qos.qosqueryflow, qos2/QOSQueryFlow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h

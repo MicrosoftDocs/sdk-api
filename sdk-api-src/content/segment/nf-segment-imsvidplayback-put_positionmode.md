@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidPlayback.put_PositionMode
 title: IMSVidPlayback::put_PositionMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_PositionMode method specifies how position values will be interpreted by this interface.
 old-location: mstv\imsvidplayback_put_positionmode.htm
 old-project: mstv
 ms.assetid: b2ff0b7e-c35d-4ea9-92de-a31654781687
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_PositionMode method, IMSVidPlayback.put_PositionMode, IMSVidPlayback::put_PositionMode, IMSVidPlaybackput_PositionMode, mstv.imsvidplayback_put_positionmode, put_PositionMode, put_PositionMode method [Microsoft TV Technologies], put_PositionMode method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_PositionMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

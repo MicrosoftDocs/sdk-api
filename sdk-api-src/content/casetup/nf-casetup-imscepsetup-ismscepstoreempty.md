@@ -1,16 +1,16 @@
 ---
 UID: NF:casetup.IMSCEPSetup.IsMSCEPStoreEmpty
 title: IMSCEPSetup::IsMSCEPStoreEmpty
-author: windows-driver-content
+author: windows-sdk-content
 description: Always returns VARIANT_TRUE. It should not be used.
 old-location: security\imscepsetup_ismscepstoreempty.htm
 old-project: SecCrypto
 ms.assetid: 90ce2ea5-e531-4787-954a-cd4d09ba753e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IMSCEPSetup interface [Security],IsMSCEPStoreEmpty method, IMSCEPSetup.IsMSCEPStoreEmpty, IMSCEPSetup::IsMSCEPStoreEmpty, IsMSCEPStoreEmpty, IsMSCEPStoreEmpty method [Security], IsMSCEPStoreEmpty method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::IsMSCEPStoreEmpty, security.imscepsetup_ismscepstoreempty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

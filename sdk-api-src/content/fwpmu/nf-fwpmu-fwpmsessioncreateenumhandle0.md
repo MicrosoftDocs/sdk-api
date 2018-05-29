@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmSessionCreateEnumHandle0
 title: FwpmSessionCreateEnumHandle0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a handle used to enumerate a set of session objects.
 old-location: fwp\fwpmsessioncreateenumhandle0_func.htm
 old-project: FWP
 ms.assetid: 018944eb-698b-4d3e-a9ba-253b8bbebea7
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmSessionCreateEnumHandle0, FwpmSessionCreateEnumHandle0 function [Filtering], fwp.fwpmsessioncreateenumhandle0_func, fwpmu/FwpmSessionCreateEnumHandle0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

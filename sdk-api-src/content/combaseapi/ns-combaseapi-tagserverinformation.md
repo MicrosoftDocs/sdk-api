@@ -1,16 +1,16 @@
 ---
 UID: NS:combaseapi.tagServerInformation
 title: tagServerInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the implementation of a Component Object Model (COM) interface in a server process.
 old-location: winrt\serverinformation.htm
 old-project: WinRT
 ms.assetid: 568246B8-48F7-4A83-B7DE-24F36B2C3F49
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "*PServerInformation, PServerInformation, PServerInformation structure pointer [Windows Runtime], ServerInformation, ServerInformation structure [Windows Runtime], combaseapi/PServerInformation, combaseapi/ServerInformation, tagServerInformation, winrt.serverinformation"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: combaseapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:certcli.ICertRequest3
 title: ICertRequest3
-author: windows-driver-content
+author: windows-sdk-content
 description: Provide communications between a client or intermediary application and Certificate Services.
 old-location: security\icertrequest3.htm
 old-project: SecCrypto
 ms.assetid: 01de2ac0-4844-41a6-acef-e3e83b350393
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertRequest3, ICertRequest3 interface [Security], ICertRequest3 interface [Security],described, certcli/ICertRequest3, security.icertrequest3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certcli.h
 req.include-header: Certsrv.h

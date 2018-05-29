@@ -1,16 +1,16 @@
 ---
 UID: NS:ocidl.tagCADWORD
 title: tagCADWORD
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a counted array of values that can be used to obtain the value corresponding to one of the predefined strings for a property.
 old-location: com\cadword.htm
 old-project: com
 ms.assetid: 4e7f8e1a-53cc-40db-9651-00f5d912e768
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPCADWORD, CADWORD, CADWORD structure [COM], LPCADWORD, LPCADWORD structure pointer [COM], _ctrl_CADWORD, com.cadword, ocidl/CADWORD, ocidl/LPCADWORD, tagCADWORD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

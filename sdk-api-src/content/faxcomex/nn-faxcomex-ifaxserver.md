@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcomex.IFaxServer
 title: IFaxServer
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxServer interface describes a messaging collection that is used by a fax client application to manage a connection to the fax service.
 old-location: fax\_mfax_faxserver_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4isy_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxServer, IFaxServer interface [Fax Service], IFaxServer interface [Fax Service],described, _mfax_faxserver_cpp, fax._mfax_faxserver_cpp, faxcomex/IFaxServer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

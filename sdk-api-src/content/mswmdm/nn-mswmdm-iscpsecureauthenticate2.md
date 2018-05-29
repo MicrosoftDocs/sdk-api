@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.ISCPSecureAuthenticate2
 title: ISCPSecureAuthenticate2
-author: windows-driver-content
+author: windows-sdk-content
 description: The ISCPSecureAuthenticate2 interface extends ISCPSecureAuthenticate by providing a way to get a session object.
 old-location: wmdm\iscpsecureauthenticate2.htm
 old-project: WMDM
 ms.assetid: 8123f4d2-dcd4-4ff8-a7cf-be8d5f2bf285
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISCPSecureAuthenticate2, ISCPSecureAuthenticate2 interface [windows Media Device Manager], ISCPSecureAuthenticate2 interface [windows Media Device Manager],described, ISCPSecureAuthenticate2Interface, mswmdm/ISCPSecureAuthenticate2, wmdm.iscpsecureauthenticate2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

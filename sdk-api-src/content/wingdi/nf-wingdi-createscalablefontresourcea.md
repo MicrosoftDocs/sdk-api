@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CreateScalableFontResourceA
 title: CreateScalableFontResourceA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateScalableFontResource function creates a font resource file for a scalable font.
 old-location: gdi\createscalablefontresource.htm
 old-project: gdi
 ms.assetid: 9a43a254-4cf4-46de-80b2-a83838871fd7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 0, 1, CreateScalableFontResource, CreateScalableFontResource function [Windows GDI], CreateScalableFontResourceA, CreateScalableFontResourceW, _win32_CreateScalableFontResource, gdi.createscalablefontresource, wingdi/CreateScalableFontResource, wingdi/CreateScalableFontResourceA, wingdi/CreateScalableFontResourceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

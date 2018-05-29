@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._STORAGE_OFFLOAD_WRITE_OUTPUT
 title: "_STORAGE_OFFLOAD_WRITE_OUTPUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Output structure for the DeviceDsmAction_OffloadWrite action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\storage_offload_write_output.htm
 old-project: DevIO
 ms.assetid: 9da3ac28-93fd-45b7-9ebe-1436593bf591
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: "*PSTORAGE_OFFLOAD_WRITE_OUTPUT, PSTORAGE_OFFLOAD_WRITE_OUTPUT, PSTORAGE_OFFLOAD_WRITE_OUTPUT structure pointer, STORAGE_OFFLOAD_TOKEN_INVALID, STORAGE_OFFLOAD_WRITE_OUTPUT, STORAGE_OFFLOAD_WRITE_OUTPUT structure, STORAGE_OFFLOAD_WRITE_RANGE_TRUNCATED, _STORAGE_OFFLOAD_WRITE_OUTPUT, base.storage_offload_write_output, winioctl/PSTORAGE_OFFLOAD_WRITE_OUTPUT, winioctl/STORAGE_OFFLOAD_WRITE_OUTPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

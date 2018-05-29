@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPCdrom.get_driveSpecifier
 title: IWMPCdrom::get_driveSpecifier
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_driveSpecifier method retrieves the CD or DVD drive letter.
 old-location: wmp\iwmpcdrom_get_drivespecifier.htm
 old-project: WMP
 ms.assetid: 0bc7766b-1e5d-4ed4-8016-aa1e8e0a7cc1
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPCdrom interface [Windows Media Player],get_driveSpecifier method, IWMPCdrom.get_driveSpecifier, IWMPCdrom::get_driveSpecifier, IWMPCdromget_driveSpecifier, get_driveSpecifier, get_driveSpecifier method [Windows Media Player], get_driveSpecifier method [Windows Media Player],IWMPCdrom interface, wmp.iwmpcdrom_get_drivespecifier, wmp/IWMPCdrom::get_driveSpecifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

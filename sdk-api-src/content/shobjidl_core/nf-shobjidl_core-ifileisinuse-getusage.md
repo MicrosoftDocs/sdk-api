@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileIsInUse.GetUsage
 title: IFileIsInUse::GetUsage
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that indicates how the file in use is being used.
 old-location: shell\IFileIsInUse_GetUsage.htm
 old-project: shell
 ms.assetid: 7baba34d-b246-4d48-9f0c-e950d33ed5cf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetUsage, GetUsage method [Windows Shell], GetUsage method [Windows Shell],IFileIsInUse interface, IFileIsInUse interface [Windows Shell],GetUsage method, IFileIsInUse.GetUsage, IFileIsInUse::GetUsage, _shell_IFileIsInUse_GetUsage, shell.IFileIsInUse_GetUsage, shobjidl_core/IFileIsInUse::GetUsage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

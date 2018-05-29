@@ -1,16 +1,16 @@
 ---
 UID: NF:davclnt.DavRegisterAuthCallback
 title: DavRegisterAuthCallback function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers an application-defined callback function that the WebDAV client can use to prompt the user for credentials.
 old-location: webdav\davregisterauthcallback.htm
 old-project: WebDAV
 ms.assetid: 7b381929-174f-4b7b-aa22-dc7a2c3e3b4d
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: DavRegisterAuthCallback, DavRegisterAuthCallback function [WebDAV], davclnt/DavRegisterAuthCallback, webdav.davregisterauthcallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: davclnt.h
 req.include-header: 

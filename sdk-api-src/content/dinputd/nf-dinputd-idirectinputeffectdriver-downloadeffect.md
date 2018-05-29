@@ -1,16 +1,16 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.DownloadEffect
 title: IDirectInputEffectDriver::DownloadEffect
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDirectInputEffectDriver::DownloadEffect method sends an effect to the device.
 old-location: hid\idirectinputeffectdriver_downloadeffect.htm
 old-project: hid
 ms.assetid: c10ee6f6-ed9e-45f9-b98d-db62d250a420
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: DownloadEffect, DownloadEffect method [Human Input Devices], DownloadEffect method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],DownloadEffect method, IDirectInputEffectDriver.DownloadEffect, IDirectInputEffectDriver::DownloadEffect, di_ref_6f931ad9-9a30-45a6-aae5-0b10b1e4e4a7.xml, dinputd/IDirectInputEffectDriver::DownloadEffect, hid.idirectinputeffectdriver_downloadeffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h

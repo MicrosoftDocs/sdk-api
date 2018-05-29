@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarDecCmpR8
 title: VarDecCmpR8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares a variant of type decimal with the a value of type double.
 old-location: automat\vardeccmpr8.htm
 old-project: automat
 ms.assetid: b078ead4-3df6-42b0-8844-143969e7e71e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarDecCmpR8, VarDecCmpR8 function [Automation], _oa96_VarDecCmpR8, automat.vardeccmpr8, oleauto/VarDecCmpR8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

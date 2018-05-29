@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_INPUT_CLASSIFICATION
 title: D3D12_INPUT_CLASSIFICATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the type of data contained in an input slot.
 old-location: direct3d12\d3d12_input_classification.htm
 old-project: direct3d12
 ms.assetid: 09A14704-2E0B-4994-BED4-94F933A47317
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_INPUT_CLASSIFICATION, D3D12_INPUT_CLASSIFICATION enumeration, D3D12_INPUT_CLASSIFICATION_PER_INSTANCE_DATA, D3D12_INPUT_CLASSIFICATION_PER_VERTEX_DATA, d3d12/D3D12_INPUT_CLASSIFICATION, d3d12/D3D12_INPUT_CLASSIFICATION_PER_INSTANCE_DATA, d3d12/D3D12_INPUT_CLASSIFICATION_PER_VERTEX_DATA, direct3d12.d3d12_input_classification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IUserNotificationCallback.OnBalloonUserClick
 title: IUserNotificationCallback::OnBalloonUserClick
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the user clicks the balloon. The application may respond with an action that is suitable for the balloon being clicked.
 old-location: shell\IUserNotificationCallback_OnBalloonUserClick.htm
 old-project: shell
 ms.assetid: b7360a2b-30ed-459e-ab6d-56a2127c2668
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUserNotificationCallback interface [Windows Shell],OnBalloonUserClick method, IUserNotificationCallback.OnBalloonUserClick, IUserNotificationCallback::OnBalloonUserClick, OnBalloonUserClick, OnBalloonUserClick method [Windows Shell], OnBalloonUserClick method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnBalloonUserClick, shell.IUserNotificationCallback_OnBalloonUserClick, shobjidl/IUserNotificationCallback::OnBalloonUserClick
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetIndexByteStreamCount
 title: IMFASFIndexer::GetIndexByteStreamCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of byte streams that are in use by the indexer object.
 old-location: mf\imfasfindexer_getindexbytestreamcount.htm
 old-project: medfound
 ms.assetid: a433af8a-9e8a-4234-9694-c3a5420a1710
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetIndexByteStreamCount, GetIndexByteStreamCount method [Media Foundation], GetIndexByteStreamCount method [Media Foundation],IMFASFIndexer interface, IMFASFIndexer interface [Media Foundation],GetIndexByteStreamCount method, IMFASFIndexer.GetIndexByteStreamCount, IMFASFIndexer::GetIndexByteStreamCount, a433af8a-9e8a-4234-9694-c3a5420a1710, mf.imfasfindexer_getindexbytestreamcount, wmcontainer/IMFASFIndexer::GetIndexByteStreamCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.ReadEncryptedFileRaw
 title: ReadEncryptedFileRaw function
-author: windows-driver-content
+author: windows-sdk-content
 description: Backs up (export) encrypted files.
 old-location: fs\readencryptedfileraw.htm
 old-project: FileIO
 ms.assetid: 15f6f617-969d-4a40-9038-b902a3c2518b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ReadEncryptedFileRaw, ReadEncryptedFileRaw function [Files], base.readencryptedfileraw, fs.readencryptedfileraw, winbase/ReadEncryptedFileRaw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

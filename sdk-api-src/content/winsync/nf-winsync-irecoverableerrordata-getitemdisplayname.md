@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IRecoverableErrorData.GetItemDisplayName
 title: IRecoverableErrorData::GetItemDisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the display name of the item that caused the error.
 old-location: winsync\irecoverableerrordata_getitemdisplayname.htm
 old-project: winsync
 ms.assetid: 6b40d528-18dc-4924-959a-cde5f02d18b1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetItemDisplayName, GetItemDisplayName method [Windows Sync], GetItemDisplayName method [Windows Sync],IRecoverableErrorData interface, IRecoverableErrorData interface [Windows Sync],GetItemDisplayName method, IRecoverableErrorData.GetItemDisplayName, IRecoverableErrorData::GetItemDisplayName, winsync.irecoverableerrordata_getitemdisplayname, winsync/IRecoverableErrorData::GetItemDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineCompleteCall
 title: lineCompleteCall function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineCompleteCall function specifies how a call that could not be connected normally should be completed instead.
 old-location: tapi2\linecompletecall.htm
 old-project: Tapi
 ms.assetid: 4cc4c1fd-3f54-40ec-9342-58b3783031ad
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linecompletecall, lineCompleteCall, lineCompleteCall function [TAPI 2.2], tapi/lineCompleteCall, tapi2.linecompletecall"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

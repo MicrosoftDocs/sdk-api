@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.StartEnumeration
 title: IPhotoAcquireProgressCB::StartEnumeration
-author: windows-driver-content
+author: windows-sdk-content
 description: The StartEnumeration method provides extended functionality when the enumeration of items to acquire begins.
 old-location: picacq\iphotoacquireprogresscb_startenumeration.htm
 old-project: acquisition
 ms.assetid: ef42722d-ca39-4d22-8de1-6b3926669abf
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartEnumeration method, IPhotoAcquireProgressCB.StartEnumeration, IPhotoAcquireProgressCB::StartEnumeration, IPhotoAcquireProgressCBStartEnumeration, StartEnumeration, StartEnumeration method [Picture Acquisition], StartEnumeration method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartEnumeration, picacq.iphotoacquireprogresscb_startenumeration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

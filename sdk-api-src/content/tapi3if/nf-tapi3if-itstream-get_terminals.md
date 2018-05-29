@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITStream.get_Terminals
 title: ITStream::get_Terminals
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Terminals method creates a collection of terminals associated with the current stream. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateTerminals method.
 old-location: tapi3\itstream_get_terminals.htm
 old-project: Tapi
 ms.assetid: 2861dbf7-fc13-4182-90e5-32347f3d1e54
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITStream interface [TAPI 2.2],get_Terminals method, ITStream.get_Terminals, ITStream::get_Terminals, _tapi3_itstream_get_terminals, get_Terminals, get_Terminals method [TAPI 2.2], get_Terminals method [TAPI 2.2],ITStream interface, tapi3.itstream_get_terminals, tapi3if/ITStream::get_Terminals
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

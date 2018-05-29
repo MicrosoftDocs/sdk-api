@@ -1,16 +1,16 @@
 ---
 UID: NS:raseapif._PPP_EAP_OUTPUT
 title: "_PPP_EAP_OUTPUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The authentication protocol uses the PPP_EAP_OUTPUT structure to communicate requests and status information to the Connection Manager on return from calls to RasEapMakeMessage.
 old-location: eap\ppp_eap_output.htm
 old-project: EAP
 ms.assetid: d1634973-f6af-4be3-914a-513098c5fccf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PPPP_EAP_OUTPUT, PPPP_EAP_OUTPUT, PPPP_EAP_OUTPUT structure pointer [EAP], PPP_EAP_OUTPUT, PPP_EAP_OUTPUT structure [EAP], _PPP_EAP_OUTPUT, _eap_ppp_eap_output, eap.ppp_eap_output, raseapif/PPPP_EAP_OUTPUT, raseapif/PPP_EAP_OUTPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: raseapif.h
 req.include-header: 

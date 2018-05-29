@@ -1,16 +1,16 @@
 ---
 UID: NF:mssip.CryptSIPRetrieveSubjectGuidForCatalogFile
 title: CryptSIPRetrieveSubjectGuidForCatalogFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the subject GUID associated with the specified file.
 old-location: security\cryptsipretrievesubjectguidforcatalogfile.htm
 old-project: SecCrypto
 ms.assetid: 7f757dc8-948c-476e-aca3-a9051e962ed4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptSIPRetrieveSubjectGuidForCatalogFile, CryptSIPRetrieveSubjectGuidForCatalogFile function [Security], mssip/CryptSIPRetrieveSubjectGuidForCatalogFile, security.cryptsipretrievesubjectguidforcatalogfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mssip.h
 req.include-header: 

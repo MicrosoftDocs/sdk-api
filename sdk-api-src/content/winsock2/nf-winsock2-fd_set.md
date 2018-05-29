@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.FD_SET
 title: FD_SET macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Fd_set structure is used by Windows Sockets (Winsock) functions and service providers to place sockets into a set.
 old-location: winsock\fd_set_2.htm
 old-project: WinSock
 ms.assetid: 2af5d69d-190e-4814-8d8b-438431808625
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: FD_SET, _win32_fd_set_2, fd_set, fd_set structure [Winsock], winsock.fd_set_2, winsock/fd_set
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winsock2.h
 req.include-header: Winsock2.h, Winsock.h

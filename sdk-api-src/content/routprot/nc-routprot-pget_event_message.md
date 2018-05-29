@@ -1,16 +1,16 @@
 ---
 UID: NC:routprot.PGET_EVENT_MESSAGE
 title: PGET_EVENT_MESSAGE
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetEventMessage function gets an entry from the routing protocol's message queue. The routing protocol uses the queue to inform the router manager of asynchronous events.
 old-location: rras\geteventmessage.htm
 old-project: RRAS
 ms.assetid: 59aa7bd8-3510-4ca0-90f1-2667dcb4abf0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetEventMessage, GetEventMessage callback function [RAS], PGET_EVENT_MESSAGE, PGET_EVENT_MESSAGE callback, ROUTER_STOPPED, SAVE_GLOBAL_CONFIG_INFO, SAVE_INTERFACE_CONFIG_INFO, UPDATE_COMPLETE, _mpr_geteventmessage, routprot/GetEventMessage, rras.geteventmessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

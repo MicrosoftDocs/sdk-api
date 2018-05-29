@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateStandardQualityManager
 title: MFCreateStandardQualityManager function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates the default implementation of the quality manager.
 old-location: mf\mfcreatestandardqualitymanager.htm
 old-project: medfound
 ms.assetid: 9abaa474-8a00-4e36-897d-9de9578333b7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 9abaa474-8a00-4e36-897d-9de9578333b7, MFCreateStandardQualityManager, MFCreateStandardQualityManager function [Media Foundation], mf.mfcreatestandardqualitymanager, mfidl/MFCreateStandardQualityManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

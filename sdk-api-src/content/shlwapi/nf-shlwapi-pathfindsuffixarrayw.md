@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathFindSuffixArrayW
 title: PathFindSuffixArrayW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a given file name has one of a list of suffixes.
 old-location: shell\PathFindSuffixArray.htm
 old-project: shell
 ms.assetid: e2285f7d-bb5d-48c5-bdf1-10ca410389f0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathFindSuffixArray, PathFindSuffixArray function [Windows Shell], PathFindSuffixArrayA, PathFindSuffixArrayW, _win32_PathFindSuffixArray, shell.PathFindSuffixArray, shlwapi/PathFindSuffixArray, shlwapi/PathFindSuffixArrayA, shlwapi/PathFindSuffixArrayW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

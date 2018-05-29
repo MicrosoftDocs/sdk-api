@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceWebControl.GetDeviceFromIdAsync
 title: IPortableDeviceWebControl::GetDeviceFromIdAsync
-author: windows-driver-content
+author: windows-sdk-content
 description: Instantiates a WPD Automation Device object asynchronously for a given WPD device identifier.
 old-location: wpdauto\iportabledevicewebcontrol_getdevicefromidasync.htm
 old-project: wpdauto
 ms.assetid: a53e4a15-4f51-43e7-84c7-4c75be87e3d9
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: GetDeviceFromIdAsync, GetDeviceFromIdAsync method [WPD Automation], GetDeviceFromIdAsync method [WPD Automation],IPortableDeviceWebControl interface, IPortableDeviceWebControl interface [WPD Automation],GetDeviceFromIdAsync method, IPortableDeviceWebControl.GetDeviceFromIdAsync, IPortableDeviceWebControl::GetDeviceFromIdAsync, portabledeviceapi/IPortableDeviceWebControl::GetDeviceFromIdAsync, wpdauto.iportabledevicewebcontrol_getdevicefromidasync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:audiopolicy.IAudioSessionManager2
 title: IAudioSessionManager2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioSessionManager2 interface enables an application to manage submixes for the audio device.
 old-location: coreaudio\iaudiosessionmanager2.htm
 old-project: CoreAudio
 ms.assetid: 476dac90-d0c4-499c-973e-33ea55546659
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioSessionManager2, IAudioSessionManager2 interface [Core Audio], IAudioSessionManager2 interface [Core Audio],described, audiopolicy/IAudioSessionManager2, coreaudio.iaudiosessionmanager2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audiopolicy.h
 req.include-header: 

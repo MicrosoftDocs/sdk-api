@@ -1,16 +1,16 @@
 ---
 UID: NF:shappmgr.IPublishedApp.GetPublishedAppInfo
 title: IPublishedApp::GetPublishedAppInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets publishing-related information about an application published by an application publisher.
 old-location: shell\IPublishedApp_GetPublishedAppInfo.htm
 old-project: shell
 ms.assetid: 4ffcc30a-cf07-45e7-b9a5-342fe2b553c8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPublishedAppInfo, GetPublishedAppInfo method [Windows Shell], GetPublishedAppInfo method [Windows Shell],IPublishedApp interface, IPublishedApp interface [Windows Shell],GetPublishedAppInfo method, IPublishedApp.GetPublishedAppInfo, IPublishedApp::GetPublishedAppInfo, inet_IPublishedApp_GetPublishedAppInfo, shappmgr/IPublishedApp::GetPublishedAppInfo, shell.IPublishedApp_GetPublishedAppInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shappmgr.h
 req.include-header: 

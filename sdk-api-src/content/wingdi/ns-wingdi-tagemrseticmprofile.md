@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRSETICMPROFILE
 title: tagEMRSETICMPROFILE
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRSETICMPROFILE structure contains members for the SetICMProfile enhanced metafile record.
 old-location: gdi\emrseticmprofile.htm
 old-project: gdi
 ms.assetid: 2f43db1e-95eb-4812-9422-ddc9df634c15
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRSETICMPROFILE, *PEMRSETICMPROFILEA, *PEMRSETICMPROFILEW, EMRSETICMPROFILE, EMRSETICMPROFILE structure [Windows GDI], EMRSETICMPROFILEA, EMRSETICMPROFILEA structure [Windows GDI], EMRSETICMPROFILEW, EMRSETICMPROFILEW structure [Windows GDI], PEMRSETICMPROFILE, PEMRSETICMPROFILE structure pointer [Windows GDI], PEMRSETICMPROFILEA, PEMRSETICMPROFILEA structure pointer [Windows GDI], PEMRSETICMPROFILEW, PEMRSETICMPROFILEW structure pointer [Windows GDI], _win32_EMRSETICMPROFILE_str, gdi.emrseticmprofile, tagEMRSETICMPROFILE, wingdi/EMRSETICMPROFILE, wingdi/EMRSETICMPROFILEA, wingdi/EMRSETICMPROFILEW, wingdi/PEMRSETICMPROFILE, wingdi/PEMRSETICMPROFILEA, wingdi/PEMRSETICMPROFILEW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

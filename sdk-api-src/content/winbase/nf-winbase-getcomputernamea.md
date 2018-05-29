@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetComputerNameA
 title: GetComputerNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the NetBIOS name of the local computer. This name is established at system startup, when the system reads it from the registry.
 old-location: base\getcomputername.htm
 old-project: SysInfo
 ms.assetid: 8ca3e611-e5fb-4909-adf6-98eb8552c9e1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetComputerName, GetComputerName function, GetComputerNameA, GetComputerNameW, _win32_getcomputername, base.getcomputername, winbase/GetComputerName, winbase/GetComputerNameA, winbase/GetComputerNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

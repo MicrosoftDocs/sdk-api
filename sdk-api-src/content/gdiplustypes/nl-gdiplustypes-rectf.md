@@ -1,16 +1,16 @@
 ---
 UID: NL:gdiplustypes.RectF
 title: RectF
-author: windows-driver-content
+author: windows-sdk-content
 description: A RectF object stores the upper-left corner, width, and height of a rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectf.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: RectF, RectF class [GDI+], RectF class [GDI+],described, _gdiplus_CLASS_RectF_Class, gdiplus._gdiplus_CLASS_RectF_Class, gdiplustypes/RectF
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: gdiplustypes.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:vptype._AMVP_SELECT_FORMAT_BY
 title: "_AMVP_SELECT_FORMAT_BY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the criteria that the Overlay Mixer Filter should use to select the video format.
 old-location: dshow\amvp_select_format_by.htm
 old-project: DirectShow
 ms.assetid: 98f60199-630b-4759-a0fa-86292713a36d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AMVP_BEST_BANDWIDTH, AMVP_DO_NOT_CARE, AMVP_INPUT_SAME_AS_OUTPUT, AMVP_SELECT_FORMAT_BY, AMVP_SELECT_FORMAT_BY , AMVP_SELECT_FORMAT_BY enumeration [DirectShow], AMVP_SELECT_FORMAT_BYEnumeration, _AMVP_SELECT_FORMAT_BY, dshow.amvp_select_format_by, vptype/AMVP_BEST_BANDWIDTH, vptype/AMVP_DO_NOT_CARE, vptype/AMVP_INPUT_SAME_AS_OUTPUT, vptype/AMVP_SELECT_FORMAT_BY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: vptype.h
 req.include-header: 

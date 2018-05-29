@@ -1,16 +1,16 @@
 ---
 UID: NS:wia_xp._WIA_DITHER_PATTERN_DATA
 title: "_WIA_DITHER_PATTERN_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WIA_DITHER_PATTERN_DATA structure specifies a dither pattern for scanners. It is used in conjunction with the scanner device property constant WIA_DPS_DITHER_PATTERN_DATA.
 old-location: wia\_wia_WIA_DITHER_PATTERN_DATA.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_dither_pattern_data.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: "*PWIA_DITHER_PATTERN_DATA, PWIA_DITHER_PATTERN_DATA, PWIA_DITHER_PATTERN_DATA structure pointer [WIA], WIA_DITHER_PATTERN_DATA, WIA_DITHER_PATTERN_DATA structure [WIA], _WIA_DITHER_PATTERN_DATA, _wia_WIA_DITHER_PATTERN_DATA, wia._wia_WIA_DITHER_PATTERN_DATA, wia_xp/PWIA_DITHER_PATTERN_DATA, wia_xp/WIA_DITHER_PATTERN_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wia_xp.h
 req.include-header: Wia.h

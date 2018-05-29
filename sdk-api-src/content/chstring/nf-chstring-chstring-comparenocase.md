@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.CompareNoCase
 title: CHString::CompareNoCase
-author: windows-driver-content
+author: windows-sdk-content
 description: The CompareNoCase method uses the _wcsicmp function to compare a CHString string with another string.
 old-location: wmi\chstring_comparenocase.htm
 old-project: WmiSdk
 ms.assetid: 72ad2532-ece8-43e2-b768-7dec6a378c98
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?CompareNoCase@CHString@@QBEHPBG@Z, ?CompareNoCase@CHString@@QEBAHPEBG@Z, CHString interface [Windows Management Instrumentation],CompareNoCase method, CHString.CompareNoCase, CHString::CompareNoCase, CompareNoCase, CompareNoCase method [Windows Management Instrumentation], CompareNoCase method [Windows Management Instrumentation],CHString interface, _hmm_chstring_comparenocase, chstring/CHString::CompareNoCase, wmi.chstring_comparenocase"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

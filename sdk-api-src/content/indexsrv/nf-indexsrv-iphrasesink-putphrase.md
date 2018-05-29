@@ -1,16 +1,16 @@
 ---
 UID: NF:indexsrv.IPhraseSink.PutPhrase
 title: IPhraseSink::PutPhrase
-author: windows-driver-content
+author: windows-sdk-content
 description: Puts a query-time phrase in the IPhraseSink object.
 old-location: search\iphrasesink_putphrase.htm
 old-project: search
 ms.assetid: 5E1762A8-8CC9-4EAE-BC79-91672994C1E3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPhraseSink interface [search],PutPhrase method, IPhraseSink.PutPhrase, IPhraseSink::PutPhrase, PutPhrase, PutPhrase method [search], PutPhrase method [search],IPhraseSink interface, indexsrv/IPhraseSink::PutPhrase, search.iphrasesink_putphrase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 

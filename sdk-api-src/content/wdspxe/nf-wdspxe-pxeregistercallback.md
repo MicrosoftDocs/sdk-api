@@ -1,16 +1,16 @@
 ---
 UID: NF:wdspxe.PxeRegisterCallback
 title: PxeRegisterCallback function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers callback functions for different notification events.
 old-location: wds\pxeregistercallback.htm
 old-project: Wds
 ms.assetid: e4d7295a-99ef-4dcb-8e40-b5a5383356b5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: PXE_CALLBACK_MAX, PXE_CALLBACK_RECV_REQUEST, PXE_CALLBACK_SERVICE_CONTROL, PXE_CALLBACK_SHUTDOWN, PxeRegisterCallback, PxeRegisterCallback function [Windows Deployment Services], wds.pxeregistercallback, wdspxe/PxeRegisterCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetTransportBasicParameters
 title: IAMExtTransport::GetTransportBasicParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTransportBasicParameters method retrieves general properties of the external transport.
 old-location: dshow\iamexttransport_gettransportbasicparameters.htm
 old-project: DirectShow
 ms.assetid: 7f670efe-4433-496d-b789-925c02b69f58
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetTransportBasicParameters, GetTransportBasicParameters method [DirectShow], GetTransportBasicParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportBasicParameters method, IAMExtTransport.GetTransportBasicParameters, IAMExtTransport::GetTransportBasicParameters, IAMExtTransportGetTransportBasicParameters, dshow.iamexttransport_gettransportbasicparameters, strmif/IAMExtTransport::GetTransportBasicParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

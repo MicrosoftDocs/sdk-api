@@ -1,16 +1,16 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_ANYCAST_ADDRESS_XP
 title: "_IP_ADAPTER_ANYCAST_ADDRESS_XP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores a single anycast IP address in a linked list of addresses for a particular adapter.
 old-location: iphlp\ip_adapter_anycast_address.htm
 old-project: IpHlp
 ms.assetid: 2626fc86-e29b-4162-8625-207c709d67ed
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PIP_ADAPTER_ANYCAST_ADDRESS, *PIP_ADAPTER_ANYCAST_ADDRESS_XP, IP_ADAPTER_ADDRESS_DNS_ELIGIBLE, IP_ADAPTER_ADDRESS_TRANSIENT, IP_ADAPTER_ANYCAST_ADDRESS, IP_ADAPTER_ANYCAST_ADDRESS structure [IP Helper], IP_ADAPTER_ANYCAST_ADDRESS_XP, PIP_ADAPTER_ANYCAST_ADDRESS, PIP_ADAPTER_ANYCAST_ADDRESS structure pointer [IP Helper], _IP_ADAPTER_ANYCAST_ADDRESS_XP, _iphlp_ip_adapter_anycast_address, iphlp.ip_adapter_anycast_address, iptypes/IP_ADAPTER_ANYCAST_ADDRESS, iptypes/PIP_ADAPTER_ANYCAST_ADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.StartOperations
 title: IFileOperationProgressSink::StartOperations
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs caller-implemented actions before any specific file operations are performed.
 old-location: shell\IFileOperationProgressSink_StartOperations.htm
 old-project: shell
 ms.assetid: 8b9e4423-ead7-44be-b960-5ee83025f42a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],StartOperations method, IFileOperationProgressSink.StartOperations, IFileOperationProgressSink::StartOperations, StartOperations, StartOperations method [Windows Shell], StartOperations method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_StartOperations, shell.IFileOperationProgressSink_StartOperations, shobjidl_core/IFileOperationProgressSink::StartOperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

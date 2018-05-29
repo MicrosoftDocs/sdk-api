@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2tcpip.setsourcefilter
 title: setsourcefilter function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the multicast filter state for an IPv4 or IPv6 socket.
 old-location: winsock\setsourcefilter.htm
 old-project: WinSock
 ms.assetid: 320455F3-FDFB-46C6-9F26-3C60064A2CB0
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: setsourcefilter, setsourcefilter function [Winsock], winsock.setsourcefilter, ws2tcpip/setsourcefilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

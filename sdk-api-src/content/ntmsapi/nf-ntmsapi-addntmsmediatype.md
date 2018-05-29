@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.AddNtmsMediaType
 title: AddNtmsMediaType function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddNtmsMediaType function adds the specified media type to the specified library if there is not currently a relation in the library object. The function then creates the system media pools if they do not exist.
 old-location: fs\addntmsmediatype.htm
 old-project: Rsm
 ms.assetid: fa8ad4af-eeb8-445e-ac6c-671badb651ec
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: AddNtmsMediaType, AddNtmsMediaType function [Files], _zaw_addntmsmediatype, base.addntmsmediatype, fs.addntmsmediatype, ntmsapi/AddNtmsMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

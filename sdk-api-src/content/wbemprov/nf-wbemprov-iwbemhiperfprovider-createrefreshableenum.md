@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.CreateRefreshableEnum
 title: IWbemHiPerfProvider::CreateRefreshableEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new refreshable enumeration.
 old-location: wmi\iwbemhiperfprovider_createrefreshableenum.htm
 old-project: WmiSdk
 ms.assetid: 086a1717-b6e8-45c1-9397-ec894ee900a0
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CreateRefreshableEnum, CreateRefreshableEnum method [Windows Management Instrumentation], CreateRefreshableEnum method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],CreateRefreshableEnum method, IWbemHiPerfProvider.CreateRefreshableEnum, IWbemHiPerfProvider::CreateRefreshableEnum, _hmm_iwbemhiperfprovider_createrefreshableenum, wbemprov/IWbemHiPerfProvider::CreateRefreshableEnum, wmi.iwbemhiperfprovider_createrefreshableenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

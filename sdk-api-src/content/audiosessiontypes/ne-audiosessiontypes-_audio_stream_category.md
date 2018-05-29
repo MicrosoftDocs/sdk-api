@@ -1,16 +1,16 @@
 ---
 UID: NE:audiosessiontypes._AUDIO_STREAM_CATEGORY
 title: "_AUDIO_STREAM_CATEGORY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the category of an audio stream.
 old-location: coreaudio\audio_stream_category.htm
 old-project: CoreAudio
 ms.assetid: B6B9195A-2704-4633-AFCF-B01CED6B6DB4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AUDIO_STREAM_CATEGORY, AUDIO_STREAM_CATEGORY enumeration [Core Audio], AudioCategory_Alerts, AudioCategory_BackgroundCapableMedia, AudioCategory_Communications, AudioCategory_ForegroundOnlyMedia, AudioCategory_GameChat, AudioCategory_GameEffects, AudioCategory_GameMedia, AudioCategory_Media, AudioCategory_Movie, AudioCategory_Other, AudioCategory_SoundEffects, AudioCategory_Speech, _AUDIO_STREAM_CATEGORY, audiosessiontypes/AUDIO_STREAM_CATEGORY, audiosessiontypes/AudioCategory_Alerts, audiosessiontypes/AudioCategory_BackgroundCapableMedia, audiosessiontypes/AudioCategory_Communications, audiosessiontypes/AudioCategory_ForegroundOnlyMedia, audiosessiontypes/AudioCategory_GameChat, audiosessiontypes/AudioCategory_GameEffects, audiosessiontypes/AudioCategory_GameMedia, audiosessiontypes/AudioCategory_Media, audiosessiontypes/AudioCategory_Movie, audiosessiontypes/AudioCategory_Other, audiosessiontypes/AudioCategory_SoundEffects, audiosessiontypes/AudioCategory_Speech, coreaudio.audio_stream_category
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: audiosessiontypes.h
 req.include-header: Audioclient.h

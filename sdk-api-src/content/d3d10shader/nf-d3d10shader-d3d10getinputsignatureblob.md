@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10shader.D3D10GetInputSignatureBlob
 title: D3D10GetInputSignatureBlob function
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a buffer that contains shader-input signatures.
 old-location: direct3d10\d3d10getinputsignatureblob.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10getinputsignatureblob.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 127a7a10-b34d-1640-0c7f-282d07d86e4c, D3D10GetInputSignatureBlob, D3D10GetInputSignatureBlob function [Direct3D 10], d3d10shader/D3D10GetInputSignatureBlob, direct3d10.d3d10getinputsignatureblob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3d10shader.h
 req.include-header: 

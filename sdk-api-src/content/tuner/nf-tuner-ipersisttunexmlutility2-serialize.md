@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IPersistTuneXmlUtility2.Serialize
 title: IPersistTuneXmlUtility2::Serialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Serializes a tuning request to an XML tuning request string.
 old-location: mstv\ipersisttunexmlutility2_serialize.htm
 old-project: mstv
 ms.assetid: 463ddd94-5eb1-4553-a31d-0a06326eceec
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPersistTuneXmlUtility2 interface [Microsoft TV Technologies],Serialize method, IPersistTuneXmlUtility2.Serialize, IPersistTuneXmlUtility2::Serialize, Serialize, Serialize method [Microsoft TV Technologies], Serialize method [Microsoft TV Technologies],IPersistTuneXmlUtility2 interface, mstv.ipersisttunexmlutility2_serialize, tuner/IPersistTuneXmlUtility2::Serialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

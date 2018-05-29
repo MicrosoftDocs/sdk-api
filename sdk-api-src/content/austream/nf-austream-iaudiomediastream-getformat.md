@@ -1,16 +1,16 @@
 ---
 UID: NF:austream.IAudioMediaStream.GetFormat
 title: IAudioMediaStream::GetFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the stream data's current format.
 old-location: dshow\iaudiomediastream_getformat.htm
 old-project: DirectShow
 ms.assetid: df582b90-f537-42cf-a83e-109a20446d8a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAudioMediaStream interface, IAudioMediaStream interface [DirectShow],GetFormat method, IAudioMediaStream.GetFormat, IAudioMediaStream::GetFormat, IAudioMediaStreamGetFormat, austream/IAudioMediaStream::GetFormat, dshow.iaudiomediastream_getformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: austream.h
 req.include-header: 

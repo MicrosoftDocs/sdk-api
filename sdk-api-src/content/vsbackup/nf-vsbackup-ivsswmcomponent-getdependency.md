@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssWMComponent.GetDependency
 title: IVssWMComponent::GetDependency
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDependency method returns an instance of the IVssWMDependency interface containing accessors for obtaining information about explicit writer-component dependencies of one of the current components.
 old-location: base\ivsswmcomponent_getdependency.htm
 old-project: VSS
 ms.assetid: ead9ff63-15dc-4fcc-b341-85ad9c3eabb7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDependency, GetDependency method [VSS], GetDependency method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],GetDependency method, IVssWMComponent.GetDependency, IVssWMComponent::GetDependency, _win32_ivsswmcomponent_getdependency, base.ivsswmcomponent_getdependency, vsbackup/IVssWMComponent::GetDependency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

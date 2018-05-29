@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Tablet
 title: IInkCursor::get_Tablet
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets either the IInkTablet object to which a cursor belongs or the IInkTablet object that an object or control is currently using to collect input.
 old-location: tablet\inkcursor_tablet.htm
 old-project: tablet
 ms.assetid: 85bbf314-e1fe-43fb-b743-d648aa6a54cd
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 85bbf314-e1fe-43fb-b743-d648aa6a54cd, IInkCursor interface [Tablet PC],Tablet property, IInkCursor.Tablet, IInkCursor.get_Tablet, IInkCursor::Tablet, IInkCursor::get_Tablet, Tablet property [Tablet PC], Tablet property [Tablet PC],IInkCursor interface, get_Tablet, msinkaut/IInkCursor::Tablet, msinkaut/IInkCursor::get_Tablet, tablet.inkcursor_tablet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

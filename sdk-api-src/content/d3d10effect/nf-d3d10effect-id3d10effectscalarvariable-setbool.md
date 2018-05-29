@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.SetBool
 title: ID3D10EffectScalarVariable::SetBool
-author: windows-driver-content
+author: windows-sdk-content
 description: Set a boolean variable.
 old-location: direct3d10\id3d10effectscalarvariable_setbool.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_setbool.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ID3D10EffectScalarVariable interface [Direct3D 10],SetBool method, ID3D10EffectScalarVariable.SetBool, ID3D10EffectScalarVariable::SetBool, SetBool, SetBool method [Direct3D 10], SetBool method [Direct3D 10],ID3D10EffectScalarVariable interface, d3d10effect/ID3D10EffectScalarVariable::SetBool, df7ba15f-fa96-1b62-92df-96ce9e9146b9, direct3d10.id3d10effectscalarvariable_setbool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

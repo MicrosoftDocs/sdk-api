@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_GetOrigin
 title: ListView_GetOrigin macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current view origin for a list-view control. You can use this macro or send the LVM_GETORIGIN message explicitly.
 old-location: controls\ListView_GetOrigin.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getorigin.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_GetOrigin, ListView_GetOrigin macro [Windows Controls], _win32_ListView_GetOrigin, _win32_ListView_GetOrigin_cpp, commctrl/ListView_GetOrigin, controls.ListView_GetOrigin, controls._win32_ListView_GetOrigin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

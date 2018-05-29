@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.CommitTransactionAsync
 title: CommitTransactionAsync function
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests that the specified transaction be committed.
 old-location: fs\committransactionasync.htm
 old-project: Ktm
 ms.assetid: cc0f4314-e216-490b-a49a-14bb850e0762
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CommitTransactionAsync, CommitTransactionAsync function [Files], fs.committransactionasync, ktmw32/CommitTransactionAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

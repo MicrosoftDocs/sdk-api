@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetMessageCountLimit
 title: IDXGIInfoQueue::GetMessageCountLimit
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the maximum number of messages that can be added to the message queue.
 old-location: direct3ddxgi\idxgiinfoqueue_getmessagecountlimit.htm
 old-project: direct3ddxgi
 ms.assetid: F9700374-255D-423E-8E60-4FE7FFA9E807
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetMessageCountLimit, GetMessageCountLimit method [DXGI], GetMessageCountLimit method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetMessageCountLimit method, IDXGIInfoQueue.GetMessageCountLimit, IDXGIInfoQueue::GetMessageCountLimit, direct3ddxgi.idxgiinfoqueue_getmessagecountlimit, dxgidebug/IDXGIInfoQueue::GetMessageCountLimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

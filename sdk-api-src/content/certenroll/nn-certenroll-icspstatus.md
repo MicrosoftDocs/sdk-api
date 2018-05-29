@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ICspStatus
 title: ICspStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a cryptographic provider/algorithm pair.
 old-location: security\icspstatus.htm
 old-project: SecCertEnroll
 ms.assetid: 30cc43c8-6ef3-49ad-8cff-9a5b7389ff68
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICspStatus, ICspStatus interface [Security], ICspStatus interface [Security],described, certenroll/ICspStatus, security.icspstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddMenu
 title: IFileDialogCustomize::AddMenu
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a menu to the dialog.
 old-location: shell\IFileDialogCustomize_AddMenu.htm
 old-project: shell
 ms.assetid: e5e29554-e095-4164-bf67-64f9d6a3e502
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddMenu, AddMenu method [Windows Shell], AddMenu method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddMenu method, IFileDialogCustomize.AddMenu, IFileDialogCustomize::AddMenu, shell.IFileDialogCustomize_AddMenu, shell_IFileDialogCustomize_AddMenu, shobjidl_core/IFileDialogCustomize::AddMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

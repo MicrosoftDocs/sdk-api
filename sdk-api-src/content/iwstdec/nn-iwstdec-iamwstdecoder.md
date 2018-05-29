@@ -1,16 +1,16 @@
 ---
 UID: NN:iwstdec.IAMWstDecoder
 title: IAMWstDecoder
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMWstDecoder interface sets and retrieves information about World Standard Teletext (WST). The WST Decoder filter implements this interface.
 old-location: dshow\iamwstdecoder.htm
 old-project: DirectShow
 ms.assetid: f2f5a459-14de-4be1-909c-3c23e4cfd737
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], IAMWstDecoder interface [DirectShow],described, IAMWstDecoderInterface, dshow.iamwstdecoder, iwstdec/IAMWstDecoder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iwstdec.h
 req.include-header: 

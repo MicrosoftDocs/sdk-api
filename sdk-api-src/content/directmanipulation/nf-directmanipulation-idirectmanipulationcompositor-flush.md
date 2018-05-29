@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationCompositor.Flush
 title: IDirectManipulationCompositor::Flush
-author: windows-driver-content
+author: windows-sdk-content
 description: Commits all pending updates in the compositor to the system for rendering.
 old-location: directmanipulation\idirectmanipulationcompositor_flush.htm
 old-project: directmanipulation
 ms.assetid: E6D1BD41-6D5A-4BC0-983E-CBE79613FCF8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Flush, Flush method [Direct Manipulation], Flush method [Direct Manipulation],IDirectManipulationCompositor interface, IDirectManipulationCompositor interface [Direct Manipulation],Flush method, IDirectManipulationCompositor.Flush, IDirectManipulationCompositor::Flush, directmanipulation.idirectmanipulationcompositor_flush, directmanipulation/IDirectManipulationCompositor::Flush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

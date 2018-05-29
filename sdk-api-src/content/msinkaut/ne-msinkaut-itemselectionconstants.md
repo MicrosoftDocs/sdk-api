@@ -1,16 +1,16 @@
 ---
 UID: NE:msinkaut.ItemSelectionConstants
 title: ItemSelectionConstants
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether the first element or all elements within a group of points or packet values are used.
 old-location: tablet\itemselectionconstants.htm
 old-project: tablet
 ms.assetid: 785b5ac7-b629-4948-a8bf-e92b74dacdb7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 785b5ac7-b629-4948-a8bf-e92b74dacdb7, ISC_AllElements, ISC_FirstElement, InkSelectionConstants, InkSelectionConstants enumeration [Tablet PC], ItemSelectionConstants, ItemSelectionConstants enumeration [Tablet PC], msinkaut/ISC_AllElements, msinkaut/ISC_FirstElement, msinkaut/ItemSelectionConstants, tablet.itemselectionconstants
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

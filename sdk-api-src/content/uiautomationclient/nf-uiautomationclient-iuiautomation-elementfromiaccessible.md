@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromIAccessible
 title: IUIAutomation::ElementFromIAccessible
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a UI Automation element for the specified accessible object from a Microsoft Active Accessibility server.
 old-location: winauto\uiauto_IUIAutomation_ElementFromIAccessible.htm
 old-project: WinAuto
 ms.assetid: b3dcc31c-e111-4841-82a8-a6329020b595
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ElementFromIAccessible, ElementFromIAccessible method [Windows Accessibility], ElementFromIAccessible method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromIAccessible method, IUIAutomation.ElementFromIAccessible, IUIAutomation::ElementFromIAccessible, uiauto.uiauto_IUIAutomation_ElementFromIAccessible, uiauto_IUIAutomation_ElementFromIAccessible, uiautomationclient/IUIAutomation::ElementFromIAccessible, winauto.uiauto_IUIAutomation_ElementFromIAccessible
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

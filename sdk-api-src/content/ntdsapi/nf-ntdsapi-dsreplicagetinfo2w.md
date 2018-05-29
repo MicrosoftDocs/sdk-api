@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsReplicaGetInfo2W
 title: DsReplicaGetInfo2W function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves replication state data from the directory service. This function allows paging of results in cases where there are more than 1000 entries to retrieve.
 old-location: ad\dsreplicagetinfo2.htm
 old-project: AD
 ms.assetid: 5735d91d-1b7d-4dc6-b6c6-61ba38ebe50d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_REPL_INFO_CURSORS_2_FOR_NC, DS_REPL_INFO_CURSORS_3_FOR_NC, DS_REPL_INFO_CURSORS_FOR_NC, DS_REPL_INFO_FLAG_IMPROVE_LINKED_ATTRS, DS_REPL_INFO_KCC_DSA_CONNECT_FAILURES, DS_REPL_INFO_KCC_DSA_LINK_FAILURES, DS_REPL_INFO_METADATA_2_FOR_ATTR_VALUE, DS_REPL_INFO_METADATA_2_FOR_OBJ, DS_REPL_INFO_METADATA_FOR_ATTR_VALUE, DS_REPL_INFO_METADATA_FOR_OBJ, DS_REPL_INFO_NEIGHBORS, DS_REPL_INFO_PENDING_OPS, DsReplicaGetInfo2, DsReplicaGetInfo2 function [Active Directory], DsReplicaGetInfo2W, ad.dsreplicagetinfo2, ntdsapi/DsReplicaGetInfo2, ntdsapi/DsReplicaGetInfo2W
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

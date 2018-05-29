@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IFilterGraph.Disconnect
 title: IFilterGraph::Disconnect
-author: windows-driver-content
+author: windows-sdk-content
 description: The Disconnect method disconnects this pin.
 old-location: dshow\ifiltergraph_disconnect.htm
 old-project: DirectShow
 ms.assetid: 8c7d6cb6-b91c-4461-8f2b-38342a88eafc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Disconnect, Disconnect method [DirectShow], Disconnect method [DirectShow],IFilterGraph interface, Disconnect method [DirectShow],IGraphBuilder interface, IFilterGraph interface [DirectShow],Disconnect method, IFilterGraph.Disconnect, IFilterGraph::Disconnect, IFilterGraphDisconnect, IGraphBuilder interface [DirectShow],Disconnect method, IGraphBuilder.Disconnect, IGraphBuilder::Disconnect, dshow.ifiltergraph_disconnect, strmif/IFilterGraph::Disconnect, strmif/IGraphBuilder::Disconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

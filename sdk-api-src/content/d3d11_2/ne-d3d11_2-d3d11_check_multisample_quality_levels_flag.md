@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11_2.D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
 title: D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies how to check multisample quality levels.
 old-location: direct3d11\d3d11_check_multisample_quality_levels_flags.htm
 old-project: direct3d11
 ms.assetid: 756AD5B2-3B6A-4F28-B034-93F59C41D02B
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG, D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG enumeration [Direct3D 11], D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_TILED_RESOURCE, d3d11_2/D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG, d3d11_2/D3D11_CHECK_MULTISAMPLE_QUALITY_LEVELS_TILED_RESOURCE, direct3d11.d3d11_check_multisample_quality_levels_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11_2.h
 req.include-header: 

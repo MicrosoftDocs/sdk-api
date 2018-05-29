@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrInterfacePointerBufferSize
 title: NdrInterfacePointerBufferSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrInterfacePointerBufferSize function calculates the size of the buffer, in bytes, needed to marshal the interface pointer.
 old-location: rpc\ndrinterfacepointerbuffersize.htm
 old-project: Rpc
 ms.assetid: 815ebf99-f616-44e3-9b87-25d9a889cf6b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrInterfacePointerBufferSize, NdrInterfacePointerBufferSize function [RPC], rpc.ndrinterfacepointerbuffersize, rpcndr/NdrInterfacePointerBufferSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

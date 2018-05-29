@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.IUrlAccessor4.ShouldIndexProperty
 title: IUrlAccessor4::ShouldIndexProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies whether a property should be indexed.
 old-location: search\iurlaccessor4_shouldindexproperty.htm
 old-project: search
 ms.assetid: 44F10BD2-0CE5-4462-A50B-CBD63EE3B802
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IUrlAccessor4 interface [search],ShouldIndexProperty method, IUrlAccessor4.ShouldIndexProperty, IUrlAccessor4::ShouldIndexProperty, ShouldIndexProperty, ShouldIndexProperty method [search], ShouldIndexProperty method [search],IUrlAccessor4 interface, search.iurlaccessor4_shouldindexproperty, searchapi/IUrlAccessor4::ShouldIndexProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

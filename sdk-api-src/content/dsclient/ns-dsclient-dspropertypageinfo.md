@@ -1,16 +1,16 @@
 ---
 UID: NS:dsclient.DSPROPERTYPAGEINFO
 title: DSPROPERTYPAGEINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The DSPROPERTYPAGEINFO structure is used by an Active Directory property sheet extension to obtain static registration data for the extension. This structure is supplied by the CFSTR_DSPROPERTYPAGEINFO clipboard format.
 old-location: ad\dspropertypageinfo.htm
 old-project: AD
 ms.assetid: 1f8313cd-5cbe-440b-bcf9-de835f2b4f4a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDSPROPERTYPAGEINFO, DSPROPERTYPAGEINFO, DSPROPERTYPAGEINFO structure [Active Directory], LPDSPROPERTYPAGEINFO, LPDSPROPERTYPAGEINFO structure pointer [Active Directory], _glines_dspropertypageinfo, ad.dspropertypageinfo, dsclient/DSPROPERTYPAGEINFO, dsclient/LPDSPROPERTYPAGEINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 

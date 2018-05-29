@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_DUP_PARAMETER_BLOCK
 title: PRESUTIL_DUP_PARAMETER_BLOCK
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs a member-wise copy of the data from one parameter block to another.
 old-location: mscs\resutildupparameterblock.htm
 old-project: MsCS
 ms.assetid: b05b5afe-7d4b-4a21-9f28-88d6effaf5af
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_DUP_PARAMETER_BLOCK, PRESUTIL_DUP_PARAMETER_BLOCK callback, PRESUTIL_DUP_PARAMETER_BLOCK callback function [Failover Cluster], _wolf_resutildupparameterblock, mscs.resutildupparameterblock, resapi/PRESUTIL_DUP_PARAMETER_BLOCK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

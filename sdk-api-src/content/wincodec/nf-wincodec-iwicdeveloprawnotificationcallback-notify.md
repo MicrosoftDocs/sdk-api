@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICDevelopRawNotificationCallback.Notify
 title: IWICDevelopRawNotificationCallback::Notify
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback method used for raw image parameter change notifications.
 old-location: wic\_wic_codec_iwicdeveloprawnotificationcallback_notify.htm
 old-project: wic
 ms.assetid: a91fb8e8-a4f4-4a6d-87d0-00bf2ef205e6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICDevelopRawNotificationCallback interface [Windows Imaging Component],Notify method, IWICDevelopRawNotificationCallback.Notify, IWICDevelopRawNotificationCallback::Notify, Notify, Notify method [Windows Imaging Component], Notify method [Windows Imaging Component],IWICDevelopRawNotificationCallback interface, _wic_codec_iwicdeveloprawnotificationcallback_notify, wic._wic_codec_iwicdeveloprawnotificationcallback_notify, wincodec/IWICDevelopRawNotificationCallback::Notify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

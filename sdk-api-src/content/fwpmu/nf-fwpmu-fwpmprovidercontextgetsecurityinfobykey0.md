@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextGetSecurityInfoByKey0
 title: FwpmProviderContextGetSecurityInfoByKey0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for a provider context object.
 old-location: fwp\fwpmprovidercontextgetsecurityinfobykey0_func.htm
 old-project: FWP
 ms.assetid: da2740e5-352b-4f00-bfeb-2eeaab3f470a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmProviderContextGetSecurityInfoByKey0, FwpmProviderContextGetSecurityInfoByKey0 function [Filtering], fwp.fwpmprovidercontextgetsecurityinfobykey0_func, fwpmu/FwpmProviderContextGetSecurityInfoByKey0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

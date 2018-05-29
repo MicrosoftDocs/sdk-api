@@ -1,16 +1,16 @@
 ---
 UID: NN:netlistmgr.INetworkConnectionCostEvents
 title: INetworkConnectionCostEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface to notify an application of cost and data plan status change events for a connection.
 old-location: nla\inetworkconnectioncostevents.htm
 old-project: NLA
 ms.assetid: ABFE73E5-CB9E-4077-81D2-DD0FB39F4EC5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INetworkConnectionCostEvents, INetworkConnectionCostEvents interface [Network Awareness], INetworkConnectionCostEvents interface [Network Awareness],described, netlistmgr/INetworkConnectionCostEvents, nla.inetworkconnectioncostevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

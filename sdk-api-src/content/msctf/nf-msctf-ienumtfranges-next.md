@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Next
 title: IEnumTfRanges::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: IEnumTfRanges::Next method
 old-location: tsf\ienumtfranges_next.htm
 old-project: TSF
 ms.assetid: 95fe45f0-bf30-4f8c-86f3-e20a0d70127e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IEnumTfRanges interface [Text Services Framework],Next method, IEnumTfRanges.Next, IEnumTfRanges::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfRanges interface, _tsf_ienumtfranges_next_ref, msctf/IEnumTfRanges::Next, tsf.ienumtfranges_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

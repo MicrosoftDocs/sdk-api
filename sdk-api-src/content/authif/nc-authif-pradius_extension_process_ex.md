@@ -1,16 +1,16 @@
 ---
 UID: NC:authif.PRADIUS_EXTENSION_PROCESS_EX
 title: PRADIUS_EXTENSION_PROCESS_EX
-author: windows-driver-content
+author: windows-sdk-content
 description: The RadiusExtensionProcessEx function is an application-defined function and is called by NPS for each authentication or accounting packet that NPS receives from the network access server (NAS).
 old-location: nps\IAS_radiusextensionprocessex.htm
 old-project: Nps
 ms.assetid: 7525b719-5741-4256-8759-421a407b9e44
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRADIUS_EXTENSION_PROCESS_EX, PRADIUS_EXTENSION_PROCESS_EX callback, PRADIUS_EXTENSION_PROCESS_EX callback function [Network Policy Server], RadiusExtensionProcessEx, _ias_radiusextensionprocessex, authif/PRADIUS_EXTENSION_PROCESS_EX, ias.radiusextensionprocessex, nps.IAS_radiusextensionprocessex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: authif.h
 req.include-header: 

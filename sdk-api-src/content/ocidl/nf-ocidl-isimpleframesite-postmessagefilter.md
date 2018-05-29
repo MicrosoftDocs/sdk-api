@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.ISimpleFrameSite.PostMessageFilter
 title: ISimpleFrameSite::PostMessageFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends the simple frame site a message that is received by a control's own window after the control has processed the message.
 old-location: com\isimpleframesite_postmessagefilter.htm
 old-project: com
 ms.assetid: b9725ef9-16e0-4574-9b94-826814a396be
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISimpleFrameSite interface [COM],PostMessageFilter method, ISimpleFrameSite.PostMessageFilter, ISimpleFrameSite::PostMessageFilter, PostMessageFilter, PostMessageFilter method [COM], PostMessageFilter method [COM],ISimpleFrameSite interface, _ctrl_isimpleframesite_postmessagefilter, com.isimpleframesite_postmessagefilter, ocidl/ISimpleFrameSite::PostMessageFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

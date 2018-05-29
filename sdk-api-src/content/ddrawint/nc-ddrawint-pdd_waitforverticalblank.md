@@ -1,16 +1,16 @@
 ---
 UID: NC:ddrawint.PDD_WAITFORVERTICALBLANK
 title: PDD_WAITFORVERTICALBLANK
-author: windows-driver-content
+author: windows-sdk-content
 description: The DdWaitForVerticalBlank callback function returns the vertical blank status of the device.
 old-location: display\ddwaitforverticalblank.htm
 old-project: display
 ms.assetid: 0eeeed70-bfda-45c0-8709-29e97ab0c5a9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DdWaitForVerticalBlank, DdWaitForVerticalBlank callback function [Display Devices], PDD_WAITFORVERTICALBLANK, PDD_WAITFORVERTICALBLANK callback, ddfncs_ed0f04a7-78e9-4ecc-80a6-95127dc28aed.xml, ddrawint/DdWaitForVerticalBlank, display.ddwaitforverticalblank
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

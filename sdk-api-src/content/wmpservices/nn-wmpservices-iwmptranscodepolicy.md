@@ -1,16 +1,16 @@
 ---
 UID: NN:wmpservices.IWMPTranscodePolicy
 title: IWMPTranscodePolicy
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPTranscodePolicy interface provides a method implemented by DirectShow source filters to manage changing the format of digital media files.
 old-location: wmp\iwmptranscodepolicy.htm
 old-project: WMP
 ms.assetid: b7dbd25f-6865-44fa-9d46-e77de393ce13
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPTranscodePolicy, IWMPTranscodePolicy interface [Windows Media Player], IWMPTranscodePolicy interface [Windows Media Player],described, IWMPTranscodePolicyInterface, wmp.iwmptranscodepolicy, wmpservices/IWMPTranscodePolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmpservices.h
 req.include-header: 

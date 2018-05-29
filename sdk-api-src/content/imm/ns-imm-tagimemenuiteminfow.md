@@ -1,16 +1,16 @@
 ---
 UID: NS:imm.tagIMEMENUITEMINFOW
 title: tagIMEMENUITEMINFOW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about IME menu items.
 old-location: intl\imemenuiteminfo.htm
 old-project: Intl
 ms.assetid: 2e00993f-6720-4139-8097-a3d830e661ca
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPIMEMENUITEMINFOW, *NPIMEMENUITEMINFOW, *PIMEMENUITEMINFOW, IMEMENUITEMINFO, IMEMENUITEMINFO structure [Internationalization for Windows Applications], IMEMENUITEMINFOA, IMEMENUITEMINFOW, PIMEMENUITEMINFO, PIMEMENUITEMINFO structure pointer [Internationalization for Windows Applications], _win32_IMEMENUITEMINFO_str, imm/IMEMENUITEMINFO, imm/IMEMENUITEMINFOA, imm/IMEMENUITEMINFOW, imm/PIMEMENUITEMINFO, intl.imemenuiteminfo, tagIMEMENUITEMINFOA, tagIMEMENUITEMINFOW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: imm.h
 req.include-header: Windows.h

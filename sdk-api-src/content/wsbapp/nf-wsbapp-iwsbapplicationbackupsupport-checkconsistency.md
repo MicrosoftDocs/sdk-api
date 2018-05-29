@@ -1,16 +1,16 @@
 ---
 UID: NF:wsbapp.IWsbApplicationBackupSupport.CheckConsistency
 title: IWsbApplicationBackupSupport::CheckConsistency
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks the consistency of the VSS writer's components in the shadow copy after shadow copies are created for the volumes to be backed up.
 old-location: wsb\iwsbapplicationbackupsupport_checkconsistency.htm
 old-project: wsb
 ms.assetid: 27ec1ee5-d612-48eb-8a5b-41e01c7f28d3
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CheckConsistency, CheckConsistency method [Windows Server Backup], CheckConsistency method [Windows Server Backup],IWsbApplicationBackupSupport interface, IWsbApplicationBackupSupport interface [Windows Server Backup],CheckConsistency method, IWsbApplicationBackupSupport.CheckConsistency, IWsbApplicationBackupSupport::CheckConsistency, wsb.iwsbapplicationbackupsupport_checkconsistency, wsbapp/IWsbApplicationBackupSupport::CheckConsistency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsbapp.h
 req.include-header: 

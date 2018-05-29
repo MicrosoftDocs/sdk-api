@@ -1,16 +1,16 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISwapChainBackgroundPanelNative.SetSwapChain
 title: ISwapChainBackgroundPanelNative::xaml
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the DirectX swap chain for SwapChainBackgroundPanel.
 old-location: winrt\iswapchainbackgroundpanelnative_setswapchain.htm
 old-project: WinRT
 ms.assetid: EDAEA67F-78CD-49F8-84FC-A7037629239A
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: ISwapChainBackgroundPanelNative interface [Windows Runtime],SetSwapChain method, ISwapChainBackgroundPanelNative.SetSwapChain, ISwapChainBackgroundPanelNative.xaml, ISwapChainBackgroundPanelNative::SetSwapChain, ISwapChainBackgroundPanelNative::xaml, SetSwapChain, SetSwapChain method [Windows Runtime], SetSwapChain method [Windows Runtime],ISwapChainBackgroundPanelNative interface, windows/ISwapChainBackgroundPanelNative::SetSwapChain, winrt.iswapchainbackgroundpanelnative_setswapchain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 

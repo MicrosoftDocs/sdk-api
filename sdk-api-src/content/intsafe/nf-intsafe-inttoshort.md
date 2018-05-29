@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.IntToShort
 title: IntToShort function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type INT to a value of type SHORT.
 old-location: shell\IntToShort.htm
 old-project: shell
 ms.assetid: a3f6ae04-fa81-4b41-9792-5e3403016f1d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IntToShort, IntToShort function [Windows Shell], _shell_IntToShort, intsafe/IntToShort, shell.IntToShort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

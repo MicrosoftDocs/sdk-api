@@ -1,16 +1,16 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateExtensions
 title: ICertServerExit::EnumerateExtensions
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the object identifier (OID) string (also known as the extension name) of the next certificate extension to be enumerated, then increments the internal pointer to the following extension.
 old-location: security\icertserverexit_enumerateextensions.htm
 old-project: SecCrypto
 ms.assetid: 8726f5fa-dc85-4357-b73a-013842d6ab78
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertServerExit object [Security],EnumerateExtensions method, EnumerateExtensions, EnumerateExtensions method [Security], EnumerateExtensions method [Security],CCertServerExit object, EnumerateExtensions method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateExtensions method, ICertServerExit.EnumerateExtensions, ICertServerExit::EnumerateExtensions, _certsrv_icertserverexit_enumerateextensions, certif/ICertServerExit::EnumerateExtensions, security.icertserverexit_enumerateextensions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h

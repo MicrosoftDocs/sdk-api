@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IUserNotification2.PlaySound
 title: IUserNotification2::PlaySound
-author: windows-driver-content
+author: windows-sdk-content
 description: Plays a sound in conjunction with the notification.
 old-location: shell\IUserNotification2_PlaySound.htm
 old-project: shell
 ms.assetid: C1C0C408-B860-4aa6-8696-C95BF73AAB54
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUserNotification2 interface [Windows Shell],PlaySound method, IUserNotification2.PlaySound, IUserNotification2::PlaySound, PlaySound, PlaySound method [Windows Shell], PlaySound method [Windows Shell],IUserNotification2 interface, _shell_IUserNotification2_PlaySound, shell.IUserNotification2_PlaySound, shobjidl/IUserNotification2::PlaySound
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

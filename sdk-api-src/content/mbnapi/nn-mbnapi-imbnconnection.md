@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnConnection
 title: IMbnConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the network connectivity of a device.
 old-location: mbn\imbnconnection.htm
 old-project: mbn
 ms.assetid: dae6ce6f-2534-4799-8ed3-53cd1f2eca13
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnConnection, IMbnConnection interface [Microsoft Broadband Networks], IMbnConnection interface [Microsoft Broadband Networks],described, mbn.imbnconnection, mbnapi/IMbnConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

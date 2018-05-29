@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITAddressTranslationInfo
 title: ITAddressTranslationInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to determine the address translation data.
 old-location: tapi3\itaddresstranslationinfo.htm
 old-project: Tapi
 ms.assetid: b59454a0-315f-4160-b969-d930c13bb4de
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAddressTranslationInfo, ITAddressTranslationInfo interface [TAPI 2.2], ITAddressTranslationInfo interface [TAPI 2.2],described, _tapi3_itaddresstranslationinfo, tapi3.itaddresstranslationinfo, tapi3if/ITAddressTranslationInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

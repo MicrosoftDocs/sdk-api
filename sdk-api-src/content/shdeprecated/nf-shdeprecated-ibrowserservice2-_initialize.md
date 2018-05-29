@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._Initialize
 title: IBrowserService2::_Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Coordinates the initializing of state between the base and the derived classes.
 old-location: shell\IBrowserService2__Initialize.htm
 old-project: shell
 ms.assetid: 990f7456-dce3-4c67-9a1e-97c8772e4332
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_Initialize method, IBrowserService2._Initialize, IBrowserService2::_Initialize, _Initialize, _Initialize method [Windows Shell], _Initialize method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_Initialize, shell.IBrowserService2__Initialize, zone_IBrowserService2__Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:t2embapi.TTEmbedFont
 title: TTEmbedFont function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a font structure containing the subsetted wide-character (16-bit) font. The current font of the device context (hDC) provides the font information.
 old-location: gdi\ttembedfont.htm
 old-project: gdi
 ms.assetid: 32f1df87-b742-4b5a-8c61-07e758c7660b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CHARSET_SYMBOL, CHARSET_UNICODE, EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, TTEMBED_EMBEDEUDC, TTEMBED_RAW, TTEMBED_SUBSET, TTEMBED_TTCOMPRESSED, TTEmbedFont, TTEmbedFont function [Windows GDI], _win32_TTEmbedFont, gdi.ttembedfont, t2embapi/TTEmbedFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 

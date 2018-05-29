@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioLogonIdentifiedUser
 title: WinBioLogonIdentifiedUser function
-author: windows-driver-content
+author: windows-sdk-content
 description: Causes a fast user switch to the account associated with the last successful identification operation performed by the biometric session.
 old-location: secbiomet\winbiologonidentifieduser.htm
 old-project: SecBioMet
 ms.assetid: 0df6da19-e23b-445f-82d9-bd51cda3ae15
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WinBioLogonIdentifiedUser, WinBioLogonIdentifiedUser function [Windows Biometric Framework API], secbiomet.winbiologonidentifieduser, winbio/WinBioLogonIdentifiedUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

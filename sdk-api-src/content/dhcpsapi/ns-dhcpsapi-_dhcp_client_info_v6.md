@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_V6
 title: "_DHCP_CLIENT_INFO_V6"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCP_CLIENT_INFO_V6 structure contains information on DHCPv6 clients.
 old-location: dhcp\dhcp_client_info_v6.htm
 old-project: DHCP
 ms.assetid: c676878d-2186-4aa2-b912-dc89272902c6
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_V6, ADDRESS_TYPE_IANA, ADDRESS_TYPE_IATA, DHCP_CLIENT_INFO_V6, DHCP_CLIENT_INFO_V6 structure [DHCP], PDHCP_CLIENT_INFO_V6, PDHCP_CLIENT_INFO_V6 structure pointer [DHCP], _DHCP_CLIENT_INFO_V6, dhcp.dhcp_client_info_v6, dhcpsapi/DHCP_CLIENT_INFO_V6, dhcpsapi/PDHCP_CLIENT_INFO_V6"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

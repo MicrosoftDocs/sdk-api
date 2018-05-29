@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictStore.EnumConflicts
 title: ISyncMgrConflictStore::EnumConflicts
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates conflicts scoped to the provided sync handler and sync item.
 old-location: shell\ISyncMgrConflictStore_EnumConflicts.htm
 old-project: shell
 ms.assetid: b59c679c-7759-4b7a-9a23-f054af99d6a7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnumConflicts, EnumConflicts method [Windows Shell], EnumConflicts method [Windows Shell],ISyncMgrConflictStore interface, ISyncMgrConflictStore interface [Windows Shell],EnumConflicts method, ISyncMgrConflictStore.EnumConflicts, ISyncMgrConflictStore::EnumConflicts, _shell_ISyncMgrConflictStore_EnumConflicts, shell.ISyncMgrConflictStore_EnumConflicts, syncmgr/ISyncMgrConflictStore::EnumConflicts
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

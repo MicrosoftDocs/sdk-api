@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.StopSharingPrinters
 title: ISharingConfigurationManager::StopSharingPrinters
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops sharing all local, shared printers connected to a computer.
 old-location: shell\ISharingConfigurationManager_StopSharingPrinters.htm
 old-project: shell
 ms.assetid: dfb5a6a6-3530-4925-bbe8-d67c2537ef4e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISharingConfigurationManager interface [Windows Shell],StopSharingPrinters method, ISharingConfigurationManager.StopSharingPrinters, ISharingConfigurationManager::StopSharingPrinters, StopSharingPrinters, StopSharingPrinters method [Windows Shell], StopSharingPrinters method [Windows Shell],ISharingConfigurationManager interface, _shell_ISharingConfigurationManager_StopSharingPrinters, shell.ISharingConfigurationManager_StopSharingPrinters, shobjidl_core/ISharingConfigurationManager::StopSharingPrinters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

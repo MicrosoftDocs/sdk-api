@@ -1,16 +1,16 @@
 ---
 UID: NF:audioengineendpoint.IAudioOutputEndpointRT.GetOutputDataPointer
 title: IAudioOutputEndpointRT::GetOutputDataPointer
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a pointer to the output buffer in which data will be written by the audio engine.
 old-location: termserv\iaudiooutputendpointrt_getoutputdatapointer.htm
 old-project: TermServ
 ms.assetid: 14d69520-3d0c-42ee-8986-9d83b5cff62e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetOutputDataPointer, GetOutputDataPointer method [Remote Desktop Services], GetOutputDataPointer method [Remote Desktop Services],IAudioOutputEndpointRT interface, IAudioOutputEndpointRT interface [Remote Desktop Services],GetOutputDataPointer method, IAudioOutputEndpointRT.GetOutputDataPointer, IAudioOutputEndpointRT::GetOutputDataPointer, audioengineendpoint/IAudioOutputEndpointRT::GetOutputDataPointer, termserv.iaudiooutputendpointrt_getoutputdatapointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 

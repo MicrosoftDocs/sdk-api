@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnServiceActivationEvents.OnActivationComplete
 title: IMbnServiceActivationEvents::OnActivationComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that a service activation request ahs completed.
 old-location: mbn\imbnserviceactivationevents_onactivationcomplete.htm
 old-project: mbn
 ms.assetid: bc1c85b3-1b7b-4439-9358-801da8f4c79b
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: E_INVALIDARG, E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_PROVIDER_NOT_VISIBLE, E_MBN_RADIO_POWER_OFF, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnServiceActivationEvents interface [Microsoft Broadband Networks],OnActivationComplete method, IMbnServiceActivationEvents.OnActivationComplete, IMbnServiceActivationEvents::OnActivationComplete, OnActivationComplete, OnActivationComplete method [Microsoft Broadband Networks], OnActivationComplete method [Microsoft Broadband Networks],IMbnServiceActivationEvents interface, S_OK, mbn.imbnserviceactivationevents_onactivationcomplete, mbnapi/IMbnServiceActivationEvents::OnActivationComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

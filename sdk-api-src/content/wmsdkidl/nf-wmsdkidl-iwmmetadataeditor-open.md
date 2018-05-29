@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMMetadataEditor.Open
 title: IWMMetadataEditor::Open
-author: windows-driver-content
+author: windows-sdk-content
 description: The Open method opens an ASF file.
 old-location: wmformat\iwmmetadataeditor_open.htm
 old-project: wmformat
 ms.assetid: 01dd09ff-35d2-4e00-9eab-5110a426449f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMMetadataEditor interface [windows Media Format],Open method, IWMMetadataEditor.Open, IWMMetadataEditor::Open, IWMMetadataEditorOpen, Open, Open method [windows Media Format], Open method [windows Media Format],IWMMetadataEditor interface, wmformat.iwmmetadataeditor_open, wmsdkidl/IWMMetadataEditor::Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

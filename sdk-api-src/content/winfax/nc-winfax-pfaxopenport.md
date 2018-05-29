@@ -1,16 +1,16 @@
 ---
 UID: NC:winfax.PFAXOPENPORT
 title: PFAXOPENPORT
-author: windows-driver-content
+author: windows-sdk-content
 description: The FaxOpenPort function returns a fax port handle to a fax client application. The port handle is required when the application calls other fax client functions that facilitate device management and fax document routing.
 old-location: fax\_mfax_faxopenport.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_15ro.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxOpenPortA, FaxOpenPortW, PFAXOPENPORT, PFAXOPENPORT callback, PFAXOPENPORT callback function [Fax Service], PORT_OPEN_MODIFY, PORT_OPEN_QUERY, _mfax_faxopenport, fax._mfax_faxopenport, winfax/FaxOpenPortA, winfax/FaxOpenPortW, winfax/PFAXOPENPORT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winfax.h
 req.include-header: 

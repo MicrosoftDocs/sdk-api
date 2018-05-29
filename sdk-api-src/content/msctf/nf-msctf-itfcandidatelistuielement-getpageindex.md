@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetPageIndex
 title: ITfCandidateListUIElement::GetPageIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfCandidateListUIElement::GetPageIndex method returns the page index of the list.
 old-location: tsf\itfcandidatelistuielement_getpageindex.htm
 old-project: TSF
 ms.assetid: d63afb41-0276-4bc9-af4d-319d39de519d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetPageIndex, GetPageIndex method [Text Services Framework], GetPageIndex method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetPageIndex method, ITfCandidateListUIElement.GetPageIndex, ITfCandidateListUIElement::GetPageIndex, msctf/ITfCandidateListUIElement::GetPageIndex, tsf.itfcandidatelistuielement_getpageindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

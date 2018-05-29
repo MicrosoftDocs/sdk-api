@@ -1,16 +1,16 @@
 ---
 UID: NF:inputscope.SetInputScope
 title: SetInputScope function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets an input scope for the specified window.
 old-location: tsf\SetInputScope.htm
 old-project: TSF
 ms.assetid: 4098525c-8d29-419a-9484-9e70420416bc
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: SetInputScope, SetInputScope function [Text Services Framework], inputscope/SetInputScope, tsf.SetInputScope
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: inputscope.h
 req.include-header: 

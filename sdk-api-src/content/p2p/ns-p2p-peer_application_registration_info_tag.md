@@ -1,16 +1,16 @@
 ---
 UID: NS:p2p.peer_application_registration_info_tag
 title: peer_application_registration_info_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PEER_APPLICATION_REGISTRATION_INFO structure contains peer application information for registration with the local computer.
 old-location: p2p\peer_application_registration_info.htm
 old-project: P2PSdk
 ms.assetid: 64c9eb02-3235-4824-8de1-352b0a1ffbb4
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*PPEER_APPLICATION_REGISTRATION_INFO, PCPEER_APPLICATION_REGISTRATION_INFO, PCPEER_APPLICATION_REGISTRATION_INFO structure pointer [Peer Networking], PEER_APPLICATION_REGISTRATION_INFO, PEER_APPLICATION_REGISTRATION_INFO structure [Peer Networking], PPEER_APPLICATION_REGISTRATION_INFO, PPEER_APPLICATION_REGISTRATION_INFO structure pointer [Peer Networking], p2p.peer_application_registration_info, p2p/PCPEER_APPLICATION_REGISTRATION_INFO, p2p/PEER_APPLICATION_REGISTRATION_INFO, p2p/PPEER_APPLICATION_REGISTRATION_INFO, peer_application_registration_info_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

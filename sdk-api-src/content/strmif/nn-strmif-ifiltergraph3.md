@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IFilterGraph3
 title: IFilterGraph3
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFilterGraph3 interface extends the IFilterGraph2 interface, which contains methods for building filter graphs.The Filter Graph Manager implements this interface.
 old-location: dshow\ifiltergraph3.htm
 old-project: DirectShow
 ms.assetid: 1d5f8eda-2b09-4627-8ae9-f43f38c3c26a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IFilterGraph3, IFilterGraph3 interface [DirectShow], IFilterGraph3 interface [DirectShow],described, IFilterGraph3Interface, dshow.ifiltergraph3, strmif/IFilterGraph3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

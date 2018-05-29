@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenTemplateImported
 title: IFsrmFileScreenTemplateImported
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to save imported file screen templates.
 old-location: fsrm\ifsrmfilescreentemplateimported.htm
 old-project: Fsrm
 ms.assetid: 9e3c3d05-298d-4373-abd2-21de9770e85c
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmFileScreenTemplateImported, IFsrmFileScreenTemplateImported interface [File Server Resource Manager], IFsrmFileScreenTemplateImported interface [File Server Resource Manager],described, fs.ifsrmfilescreentemplateimported, fsrm.ifsrmfilescreentemplateimported, fsrm/IFsrmFileScreenTemplateImported
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmscreen.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

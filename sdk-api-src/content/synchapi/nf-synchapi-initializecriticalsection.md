@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.InitializeCriticalSection
 title: InitializeCriticalSection function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a critical section object.
 old-location: base\initializecriticalsection.htm
 old-project: Sync
 ms.assetid: ad4b182d-a65d-4890-9eda-fdd6d044f736
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InitializeCriticalSection, InitializeCriticalSection function, _win32_initializecriticalsection, base.initializecriticalsection, synchapi/InitializeCriticalSection, winbase/InitializeCriticalSection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

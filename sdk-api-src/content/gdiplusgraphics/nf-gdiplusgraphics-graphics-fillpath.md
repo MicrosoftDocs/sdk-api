@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillPath
 title: Graphics::FillPath
-author: windows-driver-content
+author: windows-sdk-content
 description: The Graphics::FillPath method uses a brush to fill the interior of a path. If a figure in the path is not closed, this method treats the nonclosed figure as if it were closed by a straight line that connects the figure's starting and ending points.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPath_brush_path_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\fillpath.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FillPath, FillPath method [GDI+], FillPath method [GDI+],Graphics class, Graphics class [GDI+],FillPath method, Graphics.FillPath, Graphics::FillPath, _gdiplus_CLASS_Graphics_FillPath_brush_path_, gdiplus._gdiplus_CLASS_Graphics_FillPath_brush_path_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

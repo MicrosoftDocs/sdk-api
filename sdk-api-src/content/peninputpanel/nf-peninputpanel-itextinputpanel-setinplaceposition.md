@@ -1,16 +1,16 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.SetInPlacePosition
 title: ITextInputPanel::SetInPlacePosition
-author: windows-driver-content
+author: windows-sdk-content
 description: Explicitly positions the Tablet PC Input Panel in screen coordinates.
 old-location: tablet\itextinputpanel_setinplaceposition.htm
 old-project: tablet
 ms.assetid: 49bb1a89-7064-4822-866f-739434043869
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 49bb1a89-7064-4822-866f-739434043869, ITextInputPanel interface [Tablet PC],SetInPlacePosition method, ITextInputPanel.SetInPlacePosition, ITextInputPanel::SetInPlacePosition, SetInPlacePosition, SetInPlacePosition method [Tablet PC], SetInPlacePosition method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::SetInPlacePosition, tablet.itextinputpanel_setinplaceposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

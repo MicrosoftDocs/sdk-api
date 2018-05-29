@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509Extensions.Remove
 title: IX509Extensions::Remove
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an IX509Extension object from the collection by index number.
 old-location: security\ix509extensions_remove_method.htm
 old-project: SecCertEnroll
 ms.assetid: da1fcad3-7351-4d26-b483-a6548c3bdbec
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509Extensions interface [Security],Remove method, IX509Extensions.Remove, IX509Extensions::Remove, Remove, Remove method [Security], Remove method [Security],IX509Extensions interface, certenroll/IX509Extensions::Remove, security.ix509extensions_remove_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

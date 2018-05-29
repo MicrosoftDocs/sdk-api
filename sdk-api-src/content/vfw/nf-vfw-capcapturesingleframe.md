@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capCaptureSingleFrame
 title: capCaptureSingleFrame macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capCaptureSingleFrame macro appends a single frame to a capture file that was opened using the capCaptureSingleFrameOpen macro. You can use this macro or explicitly send the WM_CAP_SINGLE_FRAME message.
 old-location: multimedia\capcapturesingleframe.htm
 old-project: Multimedia
 ms.assetid: 1204cd8f-a439-4dcc-8bba-f8fbc2184ca4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capCaptureSingleFrame, capCaptureSingleFrame, capCaptureSingleFrame macro [Windows Multimedia], multimedia.capcapturesingleframe, vfw/capCaptureSingleFrame"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wsddisco.IWSDiscoveryProvider
 title: IWSDiscoveryProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to discover services on the network advertised by WS-Discovery.
 old-location: ncd\iwsdiscoveryprovider.htm
 old-project: WsdApi
 ms.assetid: e3d3acc2-914b-40bd-9e1e-a3a612821ab7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDiscoveryProvider, IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,described, ncd.iwsdiscoveryprovider, wsddisco/IWSDiscoveryProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

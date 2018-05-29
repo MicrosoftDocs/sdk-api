@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmInsertInRouteList
 title: RtmInsertInRouteList function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmInsertInRouteList function inserts the specified set of routes into the client's route list. If a route is already in another list, the route is removed from the old list and inserted into the new one.
 old-location: rras\rtminsertinroutelist.htm
 old-project: RRAS
 ms.assetid: e0145bdc-5000-429d-8603-1ebc6003a2bc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmInsertInRouteList, RtmInsertInRouteList function [RAS], _rtmv2ref_rtminsertinroutelist, rras.rtminsertinroutelist, rtmv2/RtmInsertInRouteList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

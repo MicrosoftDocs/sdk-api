@@ -1,16 +1,16 @@
 ---
 UID: NN:bits4_0.IBackgroundCopyFile4
 title: IBackgroundCopyFile4
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to retrieve download statistics for peers and origin servers.
 old-location: bits\ibackgroundcopyfile4.htm
 old-project: Bits
 ms.assetid: d404c4f8-cc97-4254-bca8-41bc359f0777
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBackgroundCopyFile4, IBackgroundCopyFile4 interface [BITS], IBackgroundCopyFile4 interface [BITS],described, bits.ibackgroundcopyfile4, bits4_0/IBackgroundCopyFile4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bits4_0.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.GetText
 title: ITfLangBarItemBitmapButton::GetText
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfLangBarItemBitmapButton::GetText method
 old-location: tsf\itflangbaritembitmapbutton_gettext.htm
 old-project: TSF
 ms.assetid: ac37ea79-59bb-44c1-aace-b3c0dccfd377
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITfLangBarItemBitmapButton interface, ITfLangBarItemBitmapButton interface [Text Services Framework],GetText method, ITfLangBarItemBitmapButton.GetText, ITfLangBarItemBitmapButton::GetText, _tsf_itflangbaritembitmapbutton_gettext_ref, ctfutb/ITfLangBarItemBitmapButton::GetText, tsf.itflangbaritembitmapbutton_gettext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

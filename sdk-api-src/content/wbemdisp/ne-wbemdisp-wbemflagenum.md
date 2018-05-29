@@ -1,16 +1,16 @@
 ---
 UID: NE:wbemdisp.WbemFlagEnum
 title: WbemFlagEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines constants that are used by SWbemServices.ExecQuery, SWbemServices.ExecQueryAsync, SWbemServices.SubclassesOf, and SWbemServices.InstancesOf.
 old-location: wmi\wbemflagenum.htm
 old-project: WmiSdk
 ms.assetid: 51c54f70-9067-4523-9108-89af731b9d55
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: WbemFlagEnum, WbemFlagEnum enumeration [Windows Management Instrumentation], _hmm_wbemflagenum, wbemFlagBidirectional, wbemFlagDontSendStatus, wbemFlagForwardOnly, wbemFlagNoErrorObject, wbemFlagReturnErrorObject, wbemFlagReturnImmediately, wbemFlagReturnWhenComplete, wbemFlagSendStatus, wbemFlagUseAmendedQualifiers, wbemdisp/WbemFlagEnum, wbemdisp/wbemFlagBidirectional, wbemdisp/wbemFlagDontSendStatus, wbemdisp/wbemFlagForwardOnly, wbemdisp/wbemFlagNoErrorObject, wbemdisp/wbemFlagReturnErrorObject, wbemdisp/wbemFlagReturnImmediately, wbemdisp/wbemFlagReturnWhenComplete, wbemdisp/wbemFlagSendStatus, wbemdisp/wbemFlagUseAmendedQualifiers, wmi.wbemflagenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemdisp.h
 req.include-header: 

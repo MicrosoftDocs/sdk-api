@@ -1,16 +1,16 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureSink2
 title: IMFCaptureSink2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IMFCaptureSink interface to provide functionality for dynamically setting the output media type of the record sink or preview sink.
 old-location: mf\imfcapturesink2.htm
 old-project: medfound
 ms.assetid: afaf0d2e-3732-4c78-8aba-870c6aaefa28
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCaptureSink2, IMFCaptureSink2 interface [Media Foundation], IMFCaptureSink2 interface [Media Foundation],described, mf.imfcapturesink2, mfcaptureengine/IMFCaptureSink2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfcaptureengine.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Session_AssociatorInstances
 title: MI_Session_AssociatorInstances function
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds instances that are associated with the specific key instance.
 old-location: wmi_v2\mi_session_associatorinstances.htm
 old-project: wmi_v2
 ms.assetid: 4e517289-a30e-4ba3-8cbf-dfc4f9744b1a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Session_AssociatorInstances, MI_Session_AssociatorInstances function [Windows Management Infrastructure (MI)], mi/MI_Session_AssociatorInstances, wmi_v2.mi_session_associatorinstances
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

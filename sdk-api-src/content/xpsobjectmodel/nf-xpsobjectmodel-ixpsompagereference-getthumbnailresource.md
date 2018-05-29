@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetThumbnailResource
 title: IXpsOMPageReference::GetThumbnailResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the IXpsOMImageResource interface of the thumbnail image resource that is associated with the page.
 old-location: xps\ixpsompagereference_getthumbnailresource.htm
 old-project: printdocs
 ms.assetid: ec9cc698-892f-4216-b491-cabdfa60deaa
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetThumbnailResource, GetThumbnailResource method [XPS Documents and Packaging], GetThumbnailResource method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],GetThumbnailResource method, IXpsOMPageReference.GetThumbnailResource, IXpsOMPageReference::GetThumbnailResource, xps.ixpsompagereference_getthumbnailresource, xpsobjectmodel/IXpsOMPageReference::GetThumbnailResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

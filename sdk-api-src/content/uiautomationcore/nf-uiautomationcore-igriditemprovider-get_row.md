@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IGridItemProvider.get_Row
 title: IGridItemProvider::get_Row
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the ordinal number of the row that contains this cell or item.
 old-location: winauto\uiauto_IGridItemProvider_Row.htm
 old-project: WinAuto
 ms.assetid: 546e9914-3904-4386-9809-6c22ad9c9acd
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IGridItemProvider interface [Windows Accessibility],Row property, IGridItemProvider.Row, IGridItemProvider.get_Row, IGridItemProvider::Row, IGridItemProvider::get_Row, Row property [Windows Accessibility], Row property [Windows Accessibility],IGridItemProvider interface, get_Row, uiauto.uiauto_IGridItemProvider_Row, uiauto_IGridItemProvider_Row, uiautomationcore/IGridItemProvider::Row, uiautomationcore/IGridItemProvider::get_Row, winauto.uiauto_IGridItemProvider_Row
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

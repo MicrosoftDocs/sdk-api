@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumExtraSearch.Next
 title: IEnumExtraSearch::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to request information on one or more search objects.
 old-location: shell\IEnumExtraSearch_Next.htm
 old-project: shell
 ms.assetid: 915f1cd5-5429-4080-8357-753dd1744d93
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumExtraSearch interface [Windows Shell],Next method, IEnumExtraSearch.Next, IEnumExtraSearch::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumExtraSearch interface, _win32_IEnumExtraSearch_Next, shell.IEnumExtraSearch_Next, shobjidl_core/IEnumExtraSearch::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

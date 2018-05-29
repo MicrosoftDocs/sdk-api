@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.CreateDialogParamW
 title: CreateDialogParamW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a modeless dialog box from a dialog box template resource.
 old-location: dlgbox\createdialogparam.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialogparam.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CreateDialogParam, CreateDialogParam function [Dialog Boxes], CreateDialogParamA, CreateDialogParamW, _win32_CreateDialogParam, _win32_createdialogparam_cpp, dlgbox.createdialogparam, winui._win32_createdialogparam, winuser/CreateDialogParam, winuser/CreateDialogParamA, winuser/CreateDialogParamW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

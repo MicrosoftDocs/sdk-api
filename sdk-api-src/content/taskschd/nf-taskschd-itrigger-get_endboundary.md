@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITrigger.get_EndBoundary
 title: ITrigger::get_EndBoundary
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the date and time when the trigger is deactivated.
 old-location: taskschd\itrigger_endboundary.htm
 old-project: TaskSchd
 ms.assetid: 985316de-eaba-478f-a53f-1bea2a0cc9c6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: EndBoundary property [Task Scheduler], EndBoundary property [Task Scheduler],ITrigger interface, ITrigger interface [Task Scheduler],EndBoundary property, ITrigger.EndBoundary, ITrigger.get_EndBoundary, ITrigger::EndBoundary, ITrigger::get_EndBoundary, ITrigger::put_EndBoundary, get_EndBoundary, taskschd.itrigger_endboundary, taskschd/ITrigger::EndBoundary, taskschd/ITrigger::get_EndBoundary, taskschd/ITrigger::put_EndBoundary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

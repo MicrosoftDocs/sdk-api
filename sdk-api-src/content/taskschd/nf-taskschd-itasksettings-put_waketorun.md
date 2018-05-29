@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_WakeToRun
 title: ITaskSettings::put_WakeToRun
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the Task Scheduler will wake the computer when it is time to run the task, and keep the computer awake until the task is completed.
 old-location: taskschd\itasksettings_waketorun.htm
 old-project: TaskSchd
 ms.assetid: efa1c7cd-7a70-4760-909f-bb5a1ede35f4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],WakeToRun property, ITaskSettings.WakeToRun, ITaskSettings.put_WakeToRun, ITaskSettings::WakeToRun, ITaskSettings::get_WakeToRun, ITaskSettings::put_WakeToRun, WakeToRun property [Task Scheduler], WakeToRun property [Task Scheduler],ITaskSettings interface, put_WakeToRun, taskschd.itasksettings_waketorun, taskschd/ITaskSettings::WakeToRun, taskschd/ITaskSettings::get_WakeToRun, taskschd/ITaskSettings::put_WakeToRun
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

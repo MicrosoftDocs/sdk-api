@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.ScaleTransform
 title: IInkStrokeDisp::ScaleTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: Applies the specified horizontal and vertical factors to the transform or ink.
 old-location: tablet\iinkstrokedisp_scaletransform.htm
 old-project: tablet
 ms.assetid: a4140abe-adc8-492d-bb8c-96fba5ca3bd0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IInkStrokeDisp interface [Tablet PC],ScaleTransform method, IInkStrokeDisp.ScaleTransform, IInkStrokeDisp::ScaleTransform, ScaleTransform, ScaleTransform method [Tablet PC], ScaleTransform method [Tablet PC],IInkStrokeDisp interface, a4140abe-adc8-492d-bb8c-96fba5ca3bd0, msinkaut/IInkStrokeDisp::ScaleTransform, tablet.iinkstrokedisp_scaletransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

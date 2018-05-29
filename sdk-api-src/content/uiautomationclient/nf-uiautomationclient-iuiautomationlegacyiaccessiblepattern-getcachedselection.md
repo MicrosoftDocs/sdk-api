@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.GetCachedSelection
 title: IUIAutomationLegacyIAccessiblePattern::GetCachedSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the cached Microsoft Active Accessibility property that identifies the selected children of this element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_GetCachedSelection.htm
 old-project: WinAuto
 ms.assetid: 923c3f64-7205-4d41-b726-90324e65661e
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetCachedSelection, GetCachedSelection method [Windows Accessibility], GetCachedSelection method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],GetCachedSelection method, IUIAutomationLegacyIAccessiblePattern.GetCachedSelection, IUIAutomationLegacyIAccessiblePattern::GetCachedSelection, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetCachedSelection, uiauto_IUIAutomationLegacyIAccessiblePattern_GetCachedSelection, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::GetCachedSelection, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetCachedSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

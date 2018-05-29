@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiGetDatabaseState
 title: MsiGetDatabaseState function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiGetDatabaseState function returns the state of the database.
 old-location: setup\msigetdatabasestate.htm
 old-project: Msi
 ms.assetid: 33c4618f-f9b5-4512-baba-27f62cd32329
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiGetDatabaseState, MsiGetDatabaseState function, _msi_msigetdatabasestate, msiquery/MsiGetDatabaseState, setup.msigetdatabasestate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

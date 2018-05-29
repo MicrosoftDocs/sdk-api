@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.CreateFileMappingNumaA
 title: CreateFileMappingNumaA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates or opens a named or unnamed file mapping object for a specified file and specifies the NUMA node for the physical memory.
 old-location: base\createfilemappingnuma.htm
 old-project: Memory
 ms.assetid: d10ead2c-e8a1-4e41-9bcd-d9025dbba3ff
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateFileMappingNuma, CreateFileMappingNuma function, CreateFileMappingNumaA, CreateFileMappingNumaW, NUMA_NO_PREFERRED_NODE, PAGE_EXECUTE_READ, PAGE_EXECUTE_READWRITE, PAGE_EXECUTE_WRITECOPY, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, base.createfilemappingnuma, winbase/CreateFileMappingNuma, winbase/CreateFileMappingNumaA, winbase/CreateFileMappingNumaW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.CredReadFn
 title: CredReadFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads a credential from the Credential Manager.
 old-location: security\crediread.htm
 old-project: SecAuthN
 ms.assetid: b6abfde9-74ac-4af0-b8ab-4f6be937f17f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CREDP_FLAGS_CLEAR_PASSWORD, CREDP_FLAGS_DONT_CACHE_TI, CREDP_FLAGS_IN_PROCESS, CREDP_FLAGS_TRUSTED_CALLER, CREDP_FLAGS_USER_ENCRYPTED_PASSWORD, CREDP_FLAGS_USE_MIDL_HEAP, CredReadFn, CrediRead, CrediRead function [Security], ntsecpkg/CrediRead, security.crediread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

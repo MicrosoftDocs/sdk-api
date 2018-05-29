@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetEnableContentCaching
 title: IWMReaderNetworkConfig2::GetEnableContentCaching
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetEnableContentCaching method queries whether content caching is enabled. If content caching is enabled, streaming content can be cached locally.
 old-location: wmformat\iwmreadernetworkconfig2_getenablecontentcaching.htm
 old-project: wmformat
 ms.assetid: c8fdbb18-ba50-47e7-b7c9-858e6c452071
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetEnableContentCaching, GetEnableContentCaching method [windows Media Format], GetEnableContentCaching method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetEnableContentCaching method, IWMReaderNetworkConfig2.GetEnableContentCaching, IWMReaderNetworkConfig2::GetEnableContentCaching, IWMReaderNetworkConfig2GetEnableContentCaching, wmformat.iwmreadernetworkconfig2_getenablecontentcaching, wmsdkidl/IWMReaderNetworkConfig2::GetEnableContentCaching
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

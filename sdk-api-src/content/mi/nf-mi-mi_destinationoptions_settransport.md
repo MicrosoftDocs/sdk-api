@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetTransport
 title: MI_DestinationOptions_SetTransport function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the transport to be used to communicate with the destination machine.
 old-location: wmi_v2\mi_destinationoptions_settransport.htm
 old-project: wmi_v2
 ms.assetid: 998ac6ee-29a4-49bf-8ca1-01b7afddd33f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_DESTINATIONOPTIONS_TRANPSORT_HTTPS, MI_DESTINATIONOPTIONS_TRANSPORT_HTTP, MI_DestinationOptions_SetTransport, MI_DestinationOptions_SetTransport function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetTransport, wmi_v2.mi_destinationoptions_settransport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

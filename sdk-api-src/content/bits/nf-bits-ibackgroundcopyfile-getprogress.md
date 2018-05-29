@@ -1,16 +1,16 @@
 ---
 UID: NF:bits.IBackgroundCopyFile.GetProgress
 title: IBackgroundCopyFile::GetProgress
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information on the progress of the file transfer.
 old-location: bits\ibackgroundcopyfile_getprogress.htm
 old-project: Bits
 ms.assetid: e72ec5af-7c21-48f8-b027-76a6c9e67f5e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetProgress method, IBackgroundCopyFile.GetProgress, IBackgroundCopyFile::GetProgress, _drz_ibackgroundcopyfile_getprogress, bits.ibackgroundcopyfile_getprogress, bits/IBackgroundCopyFile::GetProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.GetAt
 title: IXpsOMPartUriCollection::GetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IOpcPartUri interface pointer from a specified location in the collection.
 old-location: xps\ixpsomparturicollection_getat.htm
 old-project: printdocs
 ms.assetid: 9d7fcc13-13f5-494d-b6b2-d1180902ec08
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, IXpsOMPartUriCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMPartUriCollection.GetAt, IXpsOMPartUriCollection::GetAt, xps.ixpsomparturicollection_getat, xpsobjectmodel/IXpsOMPartUriCollection::GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_AP_CALL_PACKAGE
 title: LSA_AP_CALL_PACKAGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the Local Security Authority (LSA) when a logon application with a trusted connection to the LSA calls the LsaCallAuthenticationPackage function and specifies the authentication package's identifier.
 old-location: security\lsaapcallpackage.htm
 old-project: SecAuthN
 ms.assetid: be0f9886-c0f6-4361-96c7-d16da8713fc7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LSA_AP_CALL_PACKAGE, LsaApCallPackage, LsaApCallPackage function [Security], _lsa_lsaapcallpackage, ntsecpkg/LsaApCallPackage, security.lsaapcallpackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsShutdownSessionChannel
 title: WsShutdownSessionChannel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to signal the end of messages for a session channel.
 old-location: wsw\wsshutdownsessionchannel.htm
 old-project: wsw
 ms.assetid: db12b0b7-698e-4c74-b547-6c95d0c5fdb7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsShutdownSessionChannel, WsShutdownSessionChannel function [Web Services for Windows], webservices/WsShutdownSessionChannel, wsw.wsshutdownsessionchannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

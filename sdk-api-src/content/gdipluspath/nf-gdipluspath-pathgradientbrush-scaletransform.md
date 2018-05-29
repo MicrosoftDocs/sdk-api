@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.ScaleTransform
 title: PathGradientBrush::ScaleTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: The PathGradientBrush::ScaleTransform method updates this brush's current transformation matrix with the product of itself and a scaling matrix.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_order_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\scaletransform_38sx_sy_order.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathGradientBrush class [GDI+],ScaleTransform method, PathGradientBrush.ScaleTransform, PathGradientBrush::ScaleTransform, ScaleTransform, ScaleTransform method [GDI+], ScaleTransform method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_order_, gdiplus._gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_order_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

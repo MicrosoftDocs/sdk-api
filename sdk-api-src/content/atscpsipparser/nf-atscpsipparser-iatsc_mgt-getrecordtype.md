@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.IATSC_MGT.GetRecordType
 title: IATSC_MGT::GetRecordType
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_mgt_getrecordtype.htm
 old-project: mstv
 ms.assetid: f3a1ef39-7de4-4979-acb9-805893f41937
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordType, GetRecordType method [Microsoft TV Technologies], GetRecordType method [Microsoft TV Technologies],IATSC_MGT interface, IATSC_MGT interface [Microsoft TV Technologies],GetRecordType method, IATSC_MGT.GetRecordType, IATSC_MGT::GetRecordType, IATSC_MGTGetRecordType, atscpsipparser/IATSC_MGT::GetRecordType, mstv.iatsc_mgt_getrecordtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

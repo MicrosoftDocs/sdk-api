@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IMessageFilter
 title: IMessageFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides COM servers and applications with the ability to selectively handle incoming and outgoing COM messages while waiting for responses from synchronous calls.
 old-location: com\imessagefilter.htm
 old-project: com
 ms.assetid: e12d48c0-5033-47a8-bdcd-e94c49857248
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMessageFilter, IMessageFilter interface [COM], IMessageFilter interface [COM],described, _com_imessagefilter, com.imessagefilter, objidl/IMessageFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

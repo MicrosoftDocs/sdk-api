@@ -1,16 +1,16 @@
 ---
 UID: NN:azroles.IAzTask
 title: IAzTask
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a set of operations.
 old-location: security\iaztask.htm
 old-project: SecAuthZ
 ms.assetid: 90eb19c9-1490-43f4-ab4b-393e825aeb2f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzTask, IAzTask interface [Security], IAzTask interface [Security],described, azroles/IAzTask, security.iaztask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: azroles.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_DRM.GetDRMPairingStatus
 title: IBDA_DRM::GetDRMPairingStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDRMPairingStatus method queries the status of the DRM handshake.
 old-location: mstv\ibda_drm_getdrmpairingstatus.htm
 old-project: mstv
 ms.assetid: dff38609-9e90-491c-b8c4-33fd07471895
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDRMPairingStatus, GetDRMPairingStatus method [Microsoft TV Technologies], GetDRMPairingStatus method [Microsoft TV Technologies],IBDA_DRM interface, IBDA_DRM interface [Microsoft TV Technologies],GetDRMPairingStatus method, IBDA_DRM.GetDRMPairingStatus, IBDA_DRM::GetDRMPairingStatus, IBDA_DRMGetDRMPairingStatus, bdaiface/IBDA_DRM::GetDRMPairingStatus, mstv.ibda_drm_getdrmpairingstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

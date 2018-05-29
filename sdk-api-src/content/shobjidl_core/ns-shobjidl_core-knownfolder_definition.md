@@ -1,16 +1,16 @@
 ---
 UID: NS:shobjidl_core.KNOWNFOLDER_DEFINITION
 title: KNOWNFOLDER_DEFINITION
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the specifics of a known folder.
 old-location: shell\KNOWNFOLDER_DEFINITION.htm
 old-project: shell
 ms.assetid: 08bd8406-68fa-4e02-9a64-ed5e62f8639b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: KNOWNFOLDER_DEFINITION, KNOWNFOLDER_DEFINITION structure [Windows Shell], _shell_KNOWNFOLDER_DEFINITION, shell.KNOWNFOLDER_DEFINITION, shobjidl_core/KNOWNFOLDER_DEFINITION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:eappapis.EapHostPeerGetIdentity
 title: EapHostPeerGetIdentity function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function is called by tunnel methods to request identity information from the inner methods. This function returns the identity and user credential information.
 old-location: eaphost\eaphostpeergetidentity.htm
 old-project: EAPHost
 ms.assetid: 25d1b360-694d-4ab8-9be4-a79354367068
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerGetIdentity, EapHostPeerGetIdentity function [EAPHost], eaphost.eaphostpeergetidentity, eappapis/EapHostPeerGetIdentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

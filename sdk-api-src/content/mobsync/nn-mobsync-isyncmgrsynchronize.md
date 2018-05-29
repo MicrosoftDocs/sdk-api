@@ -1,16 +1,16 @@
 ---
 UID: NN:mobsync.ISyncMgrSynchronize
 title: ISyncMgrSynchronize
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that enable the registered application or service to receive notifications from the synchronization manager.
 old-location: shell\syncmgr_isyncmgrsynchronize.htm
 old-project: shell
 ms.assetid: bb821672-10b1-4fe6-a752-6cd1ccd1e49e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrSynchronize, ISyncMgrSynchronize interface [Windows Shell], ISyncMgrSynchronize interface [Windows Shell],described, mobsync/ISyncMgrSynchronize, shell.syncmgr_isyncmgrsynchronize, syncmgr.isyncmgrsynchronize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mobsync.h
 req.include-header: 

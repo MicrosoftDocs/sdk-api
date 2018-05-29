@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMResult.OverallStatus
 title: IGPMResult::OverallStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the overall status of a GPMC operation, such as a copy, restore, backup, or import. If no error occurred during the operation, the method returns a success code; otherwise the method returns a failure code.
 old-location: gpmc\igpmresult_overallstatus.htm
 old-project: GPMC
 ms.assetid: 814c59b7-47bc-4757-997e-95ca578f544a
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMResult class [GPMC],OverallStatus method, IGPMResult interface [GPMC],OverallStatus method, IGPMResult.OverallStatus, IGPMResult::OverallStatus, OverallStatus, OverallStatus method [GPMC], OverallStatus method [GPMC],GPMResult class, OverallStatus method [GPMC],IGPMResult interface, _win32_igpmresult_overallstatus, gpmc.igpmresult_overallstatus, gpmgmt/IGPMResult::OverallStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

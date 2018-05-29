@@ -1,16 +1,16 @@
 ---
 UID: NE:mobsync._tagSYNCMGRINVOKEFLAGS
 title: "_tagSYNCMGRINVOKEFLAGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SYNCMGRINVOKEFLAGS enumeration value specifies how the Sync Manager is to be invoked in the ISyncMgrSynchronizeInvoke::UpdateItems method.
 old-location: shell\syncmgr_syncmgrinvokeflags.htm
 old-project: shell
 ms.assetid: 6526e048-b7a8-4822-afd7-30f04a3039eb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SYNCMGRINVOKEFLAGS, SYNCMGRINVOKEFLAGS enumeration [Windows Shell], SYNCMGRINVOKE_MINIMIZED, SYNCMGRINVOKE_STARTSYNC, _tagSYNCMGRINVOKEFLAGS, mobsync/SYNCMGRINVOKEFLAGS, mobsync/SYNCMGRINVOKE_MINIMIZED, mobsync/SYNCMGRINVOKE_STARTSYNC, shell.syncmgr_syncmgrinvokeflags, syncmgr.syncmgrinvokeflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mobsync.h
 req.include-header: 

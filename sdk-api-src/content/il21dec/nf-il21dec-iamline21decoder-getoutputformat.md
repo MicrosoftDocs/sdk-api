@@ -1,16 +1,16 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetOutputFormat
 title: IAMLine21Decoder::GetOutputFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetOutputFormat method retrieves the Line 21 Decoder filter's output format.
 old-location: dshow\iamline21decoder_getoutputformat.htm
 old-project: DirectShow
 ms.assetid: 3d1ded3c-fdeb-4e02-92ee-d0986711c335
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetOutputFormat, GetOutputFormat method [DirectShow], GetOutputFormat method [DirectShow],IAMLine21Decoder interface, IAMLine21Decoder interface [DirectShow],GetOutputFormat method, IAMLine21Decoder.GetOutputFormat, IAMLine21Decoder::GetOutputFormat, IAMLine21DecoderGetOutputFormat, dshow.iamline21decoder_getoutputformat, il21dec/IAMLine21Decoder::GetOutputFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: il21dec.h
 req.include-header: 

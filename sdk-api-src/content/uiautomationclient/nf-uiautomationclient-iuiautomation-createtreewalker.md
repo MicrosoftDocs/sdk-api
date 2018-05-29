@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateTreeWalker
 title: IUIAutomation::CreateTreeWalker
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a tree walker object that can be used to traverse the Microsoft UI Automation tree.
 old-location: winauto\uiauto_IUIAutomation_CreateTreeWalker.htm
 old-project: WinAuto
 ms.assetid: c976bf97-656b-4992-b0c5-f442b501ad75
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CreateTreeWalker, CreateTreeWalker method [Windows Accessibility], CreateTreeWalker method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateTreeWalker method, IUIAutomation.CreateTreeWalker, IUIAutomation::CreateTreeWalker, uiauto.uiauto_IUIAutomation_CreateTreeWalker, uiauto_IUIAutomation_CreateTreeWalker, uiautomationclient/IUIAutomation::CreateTreeWalker, winauto.uiauto_IUIAutomation_CreateTreeWalker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

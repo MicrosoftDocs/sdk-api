@@ -1,16 +1,16 @@
 ---
 UID: NC:ras.PFNRASSETCOMMSETTINGS
 title: PFNRASSETCOMMSETTINGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Call RasSetCommSettings from a custom-scripting DLL to change the settings on the port for the connection.
 old-location: rras\rassetcommsettings.htm
 old-project: RRAS
 ms.assetid: 1df305b8-39b0-4426-b20a-62aa79240f67
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PFNRASSETCOMMSETTINGS, PFNRASSETCOMMSETTINGS callback, RasSetCommSettings, RasSetCommSettings callback function [RAS], _ras_rassetcommsettings, ras/RasSetCommSettings, rras.rassetcommsettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ras.h
 req.include-header: 

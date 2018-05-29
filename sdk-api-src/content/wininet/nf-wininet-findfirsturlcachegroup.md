@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.FindFirstUrlCacheGroup
 title: FindFirstUrlCacheGroup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates the enumeration of the cache groups in the Internet cache.
 old-location: wininet\findfirsturlcachegroup.htm
 old-project: WinInet
 ms.assetid: a333cbc6-a880-4b1c-be0d-abb083909638
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FindFirstUrlCacheGroup, FindFirstUrlCacheGroup function [WinINet], _inet_findfirsturlcachegroup_function, wininet.findfirsturlcachegroup, wininet/FindFirstUrlCacheGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

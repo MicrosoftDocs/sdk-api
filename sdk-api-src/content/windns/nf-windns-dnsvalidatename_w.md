@@ -1,16 +1,16 @@
 ---
 UID: NF:windns.DnsValidateName_W
 title: DnsValidateName_W function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DnsValidateName function validates the status of a specified DNS name.
 old-location: dns\dnsvalidatename.htm
 old-project: DNS
 ms.assetid: efdbd217-6936-42c1-a1eb-8655a62513ee
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: DnsValidateName, DnsValidateName function [DNS], DnsValidateName_A, DnsValidateName_UTF8, DnsValidateName_W, _dns_dnsvalidatename, dns.dnsvalidatename, windns/DnsValidateName, windns/DnsValidateName_A, windns/DnsValidateName_UTF8, windns/DnsValidateName_W
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: windns.h
 req.include-header: 

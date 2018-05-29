@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_Rate
 title: IAMExtTransport::get_Rate
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Rate method retrieves the playback rate for variable-speed external devices.
 old-location: dshow\iamexttransport_get_rate.htm
 old-project: DirectShow
 ms.assetid: 35a2fb2b-0963-4bdb-86a4-b5950b48a834
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_Rate method, IAMExtTransport.get_Rate, IAMExtTransport::get_Rate, IAMExtTransportget_Rate, dshow.iamexttransport_get_rate, get_Rate, get_Rate method [DirectShow], get_Rate method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_Rate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

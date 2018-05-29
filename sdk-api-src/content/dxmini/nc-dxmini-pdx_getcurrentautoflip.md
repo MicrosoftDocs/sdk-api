@@ -1,16 +1,16 @@
 ---
 UID: NC:dxmini.PDX_GETCURRENTAUTOFLIP
 title: PDX_GETCURRENTAUTOFLIP
-author: windows-driver-content
+author: windows-sdk-content
 description: The DxGetCurrentAutoflip callback function is called when the device is hardware autoflipping and a client of the video miniport driver wants to know which surface is receiving the current field of video data for capture purposes.
 old-location: display\dxgetcurrentautoflip.htm
 old-project: display
 ms.assetid: 25010ffb-893f-401f-8883-f5a08e7014bf
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DxGetCurrentAutoflip, DxGetCurrentAutoflip callback function [Display Devices], PDX_GETCURRENTAUTOFLIP, PDX_GETCURRENTAUTOFLIP callback, VideoMiniPort_DxApiFunctions_1e8f1780-efe2-4f65-955b-887dc9a11358.xml, display.dxgetcurrentautoflip, dxmini/DxGetCurrentAutoflip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h

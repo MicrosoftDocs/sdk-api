@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IMediaControl.RenderFile
 title: IMediaControl::RenderFile
-author: windows-driver-content
+author: windows-sdk-content
 description: The RenderFile method builds a filter graph that renders the specified file.
 old-location: dshow\imediacontrol_renderfile.htm
 old-project: DirectShow
 ms.assetid: 5dfff776-da3f-40a3-86d4-76a5099d6e6f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaControl interface [DirectShow],RenderFile method, IMediaControl.RenderFile, IMediaControl::RenderFile, IMediaControlRenderFile, RenderFile, RenderFile method [DirectShow], RenderFile method [DirectShow],IMediaControl interface, control/IMediaControl::RenderFile, dshow.imediacontrol_renderfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

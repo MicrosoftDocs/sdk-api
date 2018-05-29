@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer3.GetProperty
 title: INSSBuffer3::GetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetProperty method is used to retrieve a property of the sample in the buffer. Buffer properties are used to pass information along with the sample to the writer object when writing ASF files. Sample properties are GUID values.
 old-location: wmformat\inssbuffer3_getproperty.htm
 old-project: wmformat
 ms.assetid: b7733df5-f764-4996-b324-fa050b1db0af
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetProperty, GetProperty method [windows Media Format], GetProperty method [windows Media Format],INSSBuffer3 interface, INSSBuffer3 interface [windows Media Format],GetProperty method, INSSBuffer3.GetProperty, INSSBuffer3::GetProperty, INSSBuffer3GetProperty, wmformat.inssbuffer3_getproperty, wmsbuffer/INSSBuffer3::GetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h

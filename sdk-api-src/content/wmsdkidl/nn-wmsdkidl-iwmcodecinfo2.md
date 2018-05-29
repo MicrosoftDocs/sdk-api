@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMCodecInfo2
 title: IWMCodecInfo2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMCodecInfo2 interface manages the retrieval of information about codecs. To access it, call QueryInterface on a profile manager object.
 old-location: wmformat\iwmcodecinfo2.htm
 old-project: wmformat
 ms.assetid: 0cfb355e-af68-400d-aa64-57f17e7d936b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMCodecInfo2, IWMCodecInfo2 interface [windows Media Format], IWMCodecInfo2 interface [windows Media Format],described, IWMCodecInfo2Interface, wmformat.iwmcodecinfo2, wmsdkidl/IWMCodecInfo2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

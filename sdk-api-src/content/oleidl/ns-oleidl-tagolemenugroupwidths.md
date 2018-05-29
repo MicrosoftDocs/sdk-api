@@ -1,16 +1,16 @@
 ---
 UID: NS:oleidl.tagOleMenuGroupWidths
 title: tagOleMenuGroupWidths
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the number of menu items in each of the six menu groups of a menu shared between a container and an object server during an in-place editing session. This is the mechanism for building a shared menu.
 old-location: com\olemenugroupwidths.htm
 old-project: com
 ms.assetid: e6ad4ab7-0e53-4fad-8f2e-a0ff7b376815
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPOLEMENUGROUPWIDTHS, LPOLEMENUGROUPWIDTHS, LPOLEMENUGROUPWIDTHS structure pointer [COM], OLEMENUGROUPWIDTHS, OLEMENUGROUPWIDTHS structure [COM], _ole_OLEMENUGROUPWIDTHS, com.olemenugroupwidths, oleidl/LPOLEMENUGROUPWIDTHS, oleidl/OLEMENUGROUPWIDTHS, tagOleMenuGroupWidths"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oleidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wsman._WSMAN_KEY
 title: "_WSMAN_KEY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a key and value pair within a selector set and is used to identify a particular resource.
 old-location: winrm\wsman_key.htm
 old-project: WinRM
 ms.assetid: dbd66ad3-3816-43a3-a8e4-403ff3847da0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSMAN_KEY, WSMAN_KEY structure [Windows Remote Management], _WSMAN_KEY, winrm.wsman_key, wsman/WSMAN_KEY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsman.h
 req.include-header: 

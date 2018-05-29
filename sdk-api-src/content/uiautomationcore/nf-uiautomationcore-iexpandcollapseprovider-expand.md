@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IExpandCollapseProvider.Expand
 title: IExpandCollapseProvider::Expand
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays all child nodes, controls, or content of the control.
 old-location: winauto\uiauto_IExpandCollapseProvider_Expand.htm
 old-project: WinAuto
 ms.assetid: 1ac8c1fd-e754-439a-9bcf-92cb0974df91
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: Expand, Expand method [Windows Accessibility], Expand method [Windows Accessibility],IExpandCollapseProvider interface, IExpandCollapseProvider interface [Windows Accessibility],Expand method, IExpandCollapseProvider.Expand, IExpandCollapseProvider::Expand, uiauto.uiauto_IExpandCollapseProvider_Expand, uiauto_IExpandCollapseProvider_Expand, uiautomationcore/IExpandCollapseProvider::Expand, winauto.uiauto_IExpandCollapseProvider_Expand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

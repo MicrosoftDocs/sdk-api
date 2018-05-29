@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IPropertyPage.TranslateAccelerator
 title: IPropertyPage::TranslateAccelerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Passes a keystroke to the property page for processing.
 old-location: com\ipropertypage_translateaccelerator.htm
 old-project: com
 ms.assetid: 70501c3d-257c-4981-b841-4bd45f0bec27
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyPage interface [COM],TranslateAccelerator method, IPropertyPage.TranslateAccelerator, IPropertyPage::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IPropertyPage interface, _ctrl_ipropertypage_translateaccelerator, com.ipropertypage_translateaccelerator, ocidl/IPropertyPage::TranslateAccelerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:vdshwprv.IVdsLunPlex
 title: IVdsLunPlex
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a LUN plex.
 old-location: base\ivdslunplex.htm
 old-project: VDS
 ms.assetid: de795ae2-784c-43d7-a34c-546af31d2747
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsLunPlex, IVdsLunPlex interface [VDS], IVdsLunPlex interface [VDS],described, base.ivdslunplex, vds/IVdsLunPlex, vdshwprv/IVdsLunPlex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

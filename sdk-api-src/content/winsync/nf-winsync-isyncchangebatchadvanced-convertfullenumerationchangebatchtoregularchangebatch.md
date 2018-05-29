@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChangeBatchAdvanced.ConvertFullEnumerationChangeBatchToRegularChangeBatch
 title: ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an ISyncFullEnumerationChangeBatch object to an ISyncChangeBatch object.
 old-location: winsync\isyncchangebatchadvanced_convertfullenumerationchangebatchtoregularchangebatch.htm
 old-project: winsync
 ms.assetid: 073369ab-232e-410f-b6f1-c43bf15cc652
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ConvertFullEnumerationChangeBatchToRegularChangeBatch, ConvertFullEnumerationChangeBatchToRegularChangeBatch method [Windows Sync], ConvertFullEnumerationChangeBatchToRegularChangeBatch method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],ConvertFullEnumerationChangeBatchToRegularChangeBatch method, ISyncChangeBatchAdvanced.ConvertFullEnumerationChangeBatchToRegularChangeBatch, ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch, winsync.isyncchangebatchadvanced_convertfullenumerationchangebatchtoregularchangebatch, winsync/ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

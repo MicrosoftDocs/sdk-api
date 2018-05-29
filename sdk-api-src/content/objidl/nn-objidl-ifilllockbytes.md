@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IFillLockBytes
 title: IFillLockBytes
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFillLockBytes interface enables downloading code to write data asynchronously to a structured storage byte array.
 old-location: stg\ifilllockbytes.htm
 old-project: Stg
 ms.assetid: 033b3db4-3ff0-4cb4-916f-2490e92f5e6a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IFillLockBytes, IFillLockBytes interface [Structured Storage], IFillLockBytes interface [Structured Storage],described, _stg_ifilllockbytes, objidl/IFillLockBytes, stg.ifilllockbytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

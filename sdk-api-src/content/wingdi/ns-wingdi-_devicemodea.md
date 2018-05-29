@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi._devicemodeA
 title: "_devicemodeA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DEVMODE data structure contains information about the initialization and environment of a printer or a display device.
 old-location: gdi\devmode.htm
 old-project: printdocs
 ms.assetid: 85741025-9393-42ab-8a6d-27f1ae2c0f1b
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*LPDEVMODEA, *NPDEVMODEA, *PDEVMODEA, DEVMODE, DEVMODE structure [Windows GDI], DEVMODEA, DMBIN_AUTO, DMBIN_CASSETTE, DMBIN_ENVELOPE, DMBIN_ENVMANUAL, DMBIN_FIRST, DMBIN_FORMSOURCE, DMBIN_LARGECAPACITY, DMBIN_LARGEFMT, DMBIN_LAST, DMBIN_LOWER, DMBIN_MANUAL, DMBIN_MIDDLE, DMBIN_ONLYONE, DMBIN_SMALLFMT, DMBIN_TRACTOR, DMBIN_UPPER, DMRES_DRAFT, DMRES_HIGH, DMRES_LOW, DMRES_MEDIUM, LPDEVMODE, LPDEVMODE structure pointer [Windows GDI], PDEVMODE, PDEVMODE structure pointer [Windows GDI], _DEVMODEA, _DEVMODEW, _devicemodeA, _win32_DEVMODE_str, gdi.devmode, wingdi/DEVMODE, wingdi/LPDEVMODE, wingdi/PDEVMODE, wingdi/_DEVMODEA, wingdi/_DEVMODEW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

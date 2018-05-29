@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.IWSDSignatureProperty.IsMessageSignatureTrusted
 title: IWSDSignatureProperty::IsMessageSignatureTrusted
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies if a message signature is trusted.
 old-location: ncd\iwsdsignatureproperty_ismessagesignaturetrusted.htm
 old-project: WsdApi
 ms.assetid: b71ddd44-4823-455c-aea7-ee2f63b423bb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDSignatureProperty interface,IsMessageSignatureTrusted method, IWSDSignatureProperty.IsMessageSignatureTrusted, IWSDSignatureProperty::IsMessageSignatureTrusted, IsMessageSignatureTrusted, IsMessageSignatureTrusted method, IsMessageSignatureTrusted method,IWSDSignatureProperty interface, ncd.iwsdsignatureproperty_ismessagesignaturetrusted, wsdbase/IWSDSignatureProperty::IsMessageSignatureTrusted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

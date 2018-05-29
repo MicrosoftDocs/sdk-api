@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextChildPattern
 title: IUIAutomationTextChildPattern
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access a text-based control (or an object embedded in text) that is a child or descendant of another text-based control.
 old-location: winauto\uiauto_IUIAutomationTextChildPattern.htm
 old-project: WinAuto
 ms.assetid: 0669C1F6-8C82-474E-B697-B3C4EA2D60CB
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationTextChildPattern, IUIAutomationTextChildPattern interface [Windows Accessibility], IUIAutomationTextChildPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextChildPattern, winauto.uiauto_IUIAutomationTextChildPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

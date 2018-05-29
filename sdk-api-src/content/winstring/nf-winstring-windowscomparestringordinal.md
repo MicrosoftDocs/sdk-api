@@ -1,16 +1,16 @@
 ---
 UID: NF:winstring.WindowsCompareStringOrdinal
 title: WindowsCompareStringOrdinal function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares two specified HSTRING objects and returns an integer that indicates their relative position in a sort order.
 old-location: winrt\windowscomparestringordinal.htm
 old-project: WinRT
 ms.assetid: 40B34A65-4E3C-4B9D-9315-A0EF015BB8D0
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: WindowsCompareStringOrdinal, WindowsCompareStringOrdinal function [Windows Runtime], winrt.windowscomparestringordinal, winstring/WindowsCompareStringOrdinal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

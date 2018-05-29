@@ -1,16 +1,16 @@
 ---
 UID: NF:eappapis.EapHostPeerEndSession
 title: EapHostPeerEndSession function
-author: windows-driver-content
+author: windows-sdk-content
 description: Terminates the current EAP authentication session between EAPHost and the calling supplicant, and clears data stored for the session.
 old-location: eaphost\eaphostpeerendsession.htm
 old-project: EAPHost
 ms.assetid: 6571b50b-f613-4da6-8262-1df2cf97a735
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerEndSession, EapHostPeerEndSession function [EAPHost], eaphost.eaphostpeerendsession, eappapis/EapHostPeerEndSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont.SetSuperscript
 title: ITextFont::SetSuperscript
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets whether characters are displayed as superscript.
 old-location: controls\ITextFont_SetSuperscript.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsuperscript.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextFont interface [Windows Controls],SetSuperscript method, ITextFont.SetSuperscript, ITextFont::SetSuperscript, SetSuperscript, SetSuperscript method [Windows Controls], SetSuperscript method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSuperscript, _win32_ITextFont_SetSuperscript_cpp, controls.ITextFont_SetSuperscript, controls._win32_ITextFont_SetSuperscript, tom/ITextFont::SetSuperscript
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

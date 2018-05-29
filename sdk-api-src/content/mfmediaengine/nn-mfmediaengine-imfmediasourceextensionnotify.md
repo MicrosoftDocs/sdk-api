@@ -1,16 +1,16 @@
 ---
 UID: NN:mfmediaengine.IMFMediaSourceExtensionNotify
 title: IMFMediaSourceExtensionNotify
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides functionality for raising events associated with IMFMediaSourceExtension.
 old-location: mf\imfmediasourceextensionnotify.htm
 old-project: medfound
 ms.assetid: 44eed02d-cf92-41e5-8748-1ce11ab4aac0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaSourceExtensionNotify, IMFMediaSourceExtensionNotify interface [Media Foundation], IMFMediaSourceExtensionNotify interface [Media Foundation],described, mf.imfmediasourceextensionnotify, mfmediaengine/IMFMediaSourceExtensionNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

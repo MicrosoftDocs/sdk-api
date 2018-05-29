@@ -1,16 +1,16 @@
 ---
 UID: NN:certadm.ICertAdmin
 title: ICertAdmin
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides administration functionality for properly authorized clients.
 old-location: security\icertadmin.htm
 old-project: SecCrypto
 ms.assetid: e906b69b-5574-4dd5-aa30-9c2a67972202
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertAdmin, ICertAdmin interface [Security], ICertAdmin interface [Security],described, _certsrv_icertadmin, certadm/ICertAdmin, security.icertadmin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certadm.h
 req.include-header: Certsrv.h

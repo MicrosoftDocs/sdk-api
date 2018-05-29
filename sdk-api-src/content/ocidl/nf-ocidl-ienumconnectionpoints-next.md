@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IEnumConnectionPoints.Next
 title: IEnumConnectionPoints::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumconnectionpoints_next.htm
 old-project: com
 ms.assetid: 954bd587-75ce-4216-85c9-f1382414a979
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumConnectionPoints interface [COM],Next method, IEnumConnectionPoints.Next, IEnumConnectionPoints::Next, Next, Next method [COM], Next method [COM],IEnumConnectionPoints interface, _com_ienumconnectionpoints_next, com.ienumconnectionpoints_next, ocidl/IEnumConnectionPoints::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: ObjIdl.h

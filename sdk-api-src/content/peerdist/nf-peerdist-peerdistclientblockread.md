@@ -1,16 +1,16 @@
 ---
 UID: NF:peerdist.PeerDistClientBlockRead
 title: PeerDistClientBlockRead function
-author: windows-driver-content
+author: windows-sdk-content
 description: PeerDistClientBlockRead function reads content data blocks.
 old-location: p2p\peerdistclientblockread.htm
 old-project: P2PSdk
 ms.assetid: ee64c0a8-7a07-4045-96fa-855b31c2e5b1
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PEERDIST_READ_TIMEOUT_DEFAULT, PEERDIST_READ_TIMEOUT_LOCAL_CACHE_ONLY, PeerDistClientBlockRead, PeerDistClientBlockRead function [Peer Networking], p2p.peerdistclientblockread, peerdist/PeerDistClientBlockRead
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

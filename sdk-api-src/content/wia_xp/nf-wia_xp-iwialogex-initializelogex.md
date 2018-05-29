@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IWiaLogEx.InitializeLogEx
 title: IWiaLogEx::InitializeLogEx
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is not supported.
 old-location: wia\_wia_IWiaLogEx_InitializeLogEx.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\initializelogex.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IWiaLogEx interface [WIA],InitializeLogEx method, IWiaLogEx.InitializeLogEx, IWiaLogEx::InitializeLogEx, InitializeLogEx, InitializeLogEx method [WIA], InitializeLogEx method [WIA],IWiaLogEx interface, _wia_IWiaLogEx_InitializeLogEx, wia._wia_IWiaLogEx_InitializeLogEx, wia_xp/IWiaLogEx::InitializeLogEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

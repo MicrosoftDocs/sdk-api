@@ -1,16 +1,16 @@
 ---
 UID: NF:effects.IWMPEffects2.Create
 title: IWMPEffects2::Create
-author: windows-driver-content
+author: windows-sdk-content
 description: The Create method is called by Windows Media Player to instantiate a visualization window.
 old-location: wmp\iwmpeffects2_create.htm
 old-project: WMP
 ms.assetid: a0bc4e45-7174-4dbd-a902-06c685c9a9ac
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: Create, Create method [Windows Media Player], Create method [Windows Media Player],IWMPEffects2 interface, IWMPEffects2 interface [Windows Media Player],Create method, IWMPEffects2.Create, IWMPEffects2::Create, IWMPEffectsCreate, effects/IWMPEffects2::Create, wmp.iwmpeffects2_create
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: effects.h
 req.include-header: 

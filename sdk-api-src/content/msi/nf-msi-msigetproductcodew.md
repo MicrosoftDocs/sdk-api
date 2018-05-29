@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiGetProductCodeW
 title: MsiGetProductCodeW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiGetProductCode function returns the product code of an application by using the component code of an installed or advertised component of the application.
 old-location: setup\msigetproductcode.htm
 old-project: Msi
 ms.assetid: 5893c437-6827-44d6-bc22-18c402dda894
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiGetProductCode, MsiGetProductCode function, MsiGetProductCodeA, MsiGetProductCodeW, _msi_msigetproductcode, msi/MsiGetProductCode, msi/MsiGetProductCodeA, msi/MsiGetProductCodeW, setup.msigetproductcode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsPostalAddress
 title: IADsPostalAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsPostalAddress interface provides methods for an ADSI client to access the Postal Address attribute.
 old-location: adsi\iadspostaladdress.htm
 old-project: ADSI
 ms.assetid: 53ff56a6-60ee-44a1-b18b-18f17efe2acd
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsPostalAddress, IADsPostalAddress interface [ADSI], IADsPostalAddress interface [ADSI],described, _ds_iadspostaladdress, adsi.iadspostaladdress, iads/IADsPostalAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

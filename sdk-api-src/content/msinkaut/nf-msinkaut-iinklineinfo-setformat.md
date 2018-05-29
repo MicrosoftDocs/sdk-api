@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.SetFormat
 title: IInkLineInfo::SetFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the display properties to set on the text ink object (tInk).
 old-location: tablet\iinklineinfo_setformat.htm
 old-project: tablet
 ms.assetid: 42e16e86-fc90-4089-9ae0-9a896cbeaccc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 42e16e86-fc90-4089-9ae0-9a896cbeaccc, IInkLineInfo interface [Tablet PC],SetFormat method, IInkLineInfo.SetFormat, IInkLineInfo::SetFormat, SetFormat, SetFormat method [Tablet PC], SetFormat method [Tablet PC],IInkLineInfo interface, msinkaut/IInkLineInfo::SetFormat, tablet.iinklineinfo_setformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.CreateRemoteThread
 title: CreateRemoteThread function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a thread that runs in the virtual address space of another process.
 old-location: base\createremotethread.htm
 old-project: ProcThread
 ms.assetid: f5257f78-b20f-4db5-b63e-3bb4e41a4b19
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CREATE_SUSPENDED, CreateRemoteThread, CreateRemoteThread function, STACK_SIZE_PARAM_IS_A_RESERVATION, _win32_createremotethread, base.createremotethread, processthreadsapi/CreateRemoteThread, winbase/CreateRemoteThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

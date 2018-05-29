@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMTVTuner.AutoTune
 title: IAMTVTuner::AutoTune
-author: windows-driver-content
+author: windows-sdk-content
 description: The AutoTune method scans for a precise signal on the channel's frequency.
 old-location: dshow\iamtvtuner_autotune.htm
 old-project: DirectShow
 ms.assetid: ae8338e4-b75d-42d5-bcb7-84352921458c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AutoTune, AutoTune method [DirectShow], AutoTune method [DirectShow],IAMTVTuner interface, IAMTVTuner interface [DirectShow],AutoTune method, IAMTVTuner.AutoTune, IAMTVTuner::AutoTune, IAMTVTunerAutoTune, dshow.iamtvtuner_autotune, strmif/IAMTVTuner::AutoTune
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

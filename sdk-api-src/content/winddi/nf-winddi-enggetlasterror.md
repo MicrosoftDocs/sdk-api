@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngGetLastError
 title: EngGetLastError function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngGetLastError function returns the last error code logged by GDI for the calling thread.
 old-location: display\enggetlasterror.htm
 old-project: display
 ms.assetid: 47138077-125e-4da9-b0de-e437a9b1733d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngGetLastError, EngGetLastError function [Display Devices], display.enggetlasterror, gdifncs_19c92fa6-2204-40e7-adc5-22a85b9ba0d5.xml, winddi/EngGetLastError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

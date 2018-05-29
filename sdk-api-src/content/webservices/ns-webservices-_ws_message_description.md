@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_MESSAGE_DESCRIPTION
 title: "_WS_MESSAGE_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The schema for the input/output WS_MESSAGE for a given operation description.
 old-location: wsw\ws_message_description.htm
 old-project: wsw
 ms.assetid: 399b3363-004b-499a-9726-0b2513826f43
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_MESSAGE_DESCRIPTION, WS_MESSAGE_DESCRIPTION structure [Web Services for Windows], _WS_MESSAGE_DESCRIPTION, webservices/WS_MESSAGE_DESCRIPTION, wsw.ws_message_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

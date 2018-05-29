@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_ErrorCorrection
 title: IAMNetShowExProps::get_ErrorCorrection
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_ErrorCorrection method retrieves the current error correction method.
 old-location: dshow\iamnetshowexprops_get_errorcorrection.htm
 old-project: DirectShow
 ms.assetid: ab731d68-969b-425d-978a-879b15c06a88
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_ErrorCorrection method, IAMNetShowExProps.get_ErrorCorrection, IAMNetShowExProps::get_ErrorCorrection, IAMNetShowExPropsget_ErrorCorrection, dshow.iamnetshowexprops_get_errorcorrection, get_ErrorCorrection, get_ErrorCorrection method [DirectShow], get_ErrorCorrection method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_ErrorCorrection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

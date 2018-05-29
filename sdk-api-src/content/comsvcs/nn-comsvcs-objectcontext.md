@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ObjectContext
 title: ObjectContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the current object's context. An object's context is primarily used when working with transactions or dealing with the security of an object.
 old-location: cos\objectcontext.htm
 old-project: cossdk
 ms.assetid: 09a17e57-7224-43bc-93c7-16ab95ca2517
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ObjectContext, ObjectContext interface [COM+], ObjectContext interface [COM+],described, _cos_ObjectContext, comsvcs/ObjectContext, cos.objectcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

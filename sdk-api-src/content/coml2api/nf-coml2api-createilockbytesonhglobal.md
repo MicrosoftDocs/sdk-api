@@ -1,16 +1,16 @@
 ---
 UID: NF:coml2api.CreateILockBytesOnHGlobal
 title: CreateILockBytesOnHGlobal function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a byte array object that uses an HGLOBAL memory handle to store the bytes intended for in-memory storage of a compound file.
 old-location: stg\createilockbytesonhglobal.htm
 old-project: Stg
 ms.assetid: e7963be7-ccd8-49fb-85bb-e22fbbb6dc5c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateILockBytesOnHGlobal, CreateILockBytesOnHGlobal function [Structured Storage], _stg_createilockbytesonhglobal, coml2api/CreateILockBytesOnHGlobal, stg.createilockbytesonhglobal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: coml2api.h
 req.include-header: Ole2.h

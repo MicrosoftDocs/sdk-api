@@ -1,16 +1,16 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetDispatcher
 title: IXamlDiagnostics::GetDispatcher
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the core dispatcher used to access elements on the UI thread.
 old-location: xaml_diagnostics\ixamldiagnostics_getdispatcher.htm
 old-project: xaml_diagnostics
 ms.assetid: 6C7605F7-BBD7-4FAD-AA35-A3DC18AA6FF3
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: GetDispatcher, GetDispatcher method, GetDispatcher method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetDispatcher method, IXamlDiagnostics.GetDispatcher, IXamlDiagnostics::GetDispatcher, xaml_diagnostics.ixamldiagnostics_getdispatcher, xamlom/IXamlDiagnostics::GetDispatcher
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

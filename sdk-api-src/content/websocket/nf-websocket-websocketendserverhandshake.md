@@ -1,16 +1,16 @@
 ---
 UID: NF:websocket.WebSocketEndServerHandshake
 title: WebSocketEndServerHandshake function
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes the server-side handshake.
 old-location: websock\websocketendserverhandshake.htm
 old-project: WebSock
 ms.assetid: 8708d290-18d6-4130-aa1c-8e4e5a716a5c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WebSocketEndServerHandshake, WebSocketEndServerHandshake function [Websocket Protocol Component API], websock.websocketendserverhandshake, websocket/WebSocketEndServerHandshake
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: websocket.h
 req.include-header: 

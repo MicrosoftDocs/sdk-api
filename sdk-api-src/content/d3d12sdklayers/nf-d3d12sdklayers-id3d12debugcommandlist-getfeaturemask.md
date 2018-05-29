@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandList.GetFeatureMask
 title: ID3D12DebugCommandList::GetFeatureMask
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the debug feature flags that have been set on a command list.
 old-location: direct3d12\id3d12debugcommandlist_getfeaturemask.htm
 old-project: direct3d12
 ms.assetid: 98FE1D2C-648B-4689-BE52-A53C969D9281
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetFeatureMask, GetFeatureMask method, GetFeatureMask method,ID3D12DebugCommandList interface, ID3D12DebugCommandList interface,GetFeatureMask method, ID3D12DebugCommandList.GetFeatureMask, ID3D12DebugCommandList::GetFeatureMask, d3d12sdklayers/ID3D12DebugCommandList::GetFeatureMask, direct3d12.id3d12debugcommandlist_getfeaturemask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

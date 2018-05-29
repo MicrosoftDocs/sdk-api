@@ -1,16 +1,16 @@
 ---
 UID: NE:nldef._NL_ROUTE_ORIGIN
 title: "_NL_ROUTE_ORIGIN"
-author: windows-driver-content
+author: windows-sdk-content
 description: The NL_ROUTE_ORIGIN enumeration type defines the origin of the IP route.
 old-location: netvista\nl_route_origin.htm
 old-project: netvista
 ms.assetid: 15f45fe9-5a51-4b4b-ba34-cec2488cd1e0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PNL_ROUTE_ORIGIN, NL_ROUTE_ORIGIN, NL_ROUTE_ORIGIN enumeration [Network Drivers Starting with Windows Vista], Nlro6to4, NlroDHCP, NlroManual, NlroRouterAdvertisement, NlroWellKnown, PNL_ROUTE_ORIGIN, PNL_ROUTE_ORIGIN enumeration pointer [Network Drivers Starting with Windows Vista], _NL_ROUTE_ORIGIN, iphelper_f6fb2f16-6da7-4f32-895e-8dbb6929f81f.xml, netvista.nl_route_origin, nldef/NL_ROUTE_ORIGIN, nldef/Nlro6to4, nldef/NlroDHCP, nldef/NlroManual, nldef/NlroRouterAdvertisement, nldef/NlroWellKnown, nldef/PNL_ROUTE_ORIGIN"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: nldef.h
 req.include-header: Netioapi.h
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Newdev.lib
-req.dll: Newdev.dll
+req.dll: 
 req.irql: 
 req.product: Rights Management Services client 1.0 or later
 ---

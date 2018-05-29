@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IVMRImagePresenter
 title: IVMRImagePresenter
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRImagePresenter interface is implemented by the default Allocator-Presenter for the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrimagepresenter.htm
 old-project: DirectShow
 ms.assetid: cb9b1e29-45c3-4208-8343-c2924505a9f3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRImagePresenter, IVMRImagePresenter interface [DirectShow], IVMRImagePresenter interface [DirectShow],described, IVMRImagePresenterInterface, dshow.ivmrimagepresenter, strmif/IVMRImagePresenter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

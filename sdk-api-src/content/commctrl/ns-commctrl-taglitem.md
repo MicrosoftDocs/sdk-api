@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagLITEM
 title: tagLITEM
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to set and retrieve information about a link item.
 old-location: controls\LITEM.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\litem.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PLITEM, LITEM, LITEM structure [Windows Controls], PLITEM, PLITEM structure pointer [Windows Controls], commctrl/LITEM, commctrl/PLITEM, controls.LITEM, controls.inet_LITEM, inet_LITEM, inet_LITEM_cpp, tagLITEM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

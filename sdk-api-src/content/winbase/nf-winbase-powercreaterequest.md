@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.PowerCreateRequest
 title: PowerCreateRequest function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new power request object.
 old-location: base\powercreaterequest.htm
 old-project: Power
 ms.assetid: 2122bf00-9e6b-48ab-89b0-f53dd6804902
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: PowerCreateRequest, PowerCreateRequest function, base.powercreaterequest, winbase/PowerCreateRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

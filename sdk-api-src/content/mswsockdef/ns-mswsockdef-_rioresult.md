@@ -1,16 +1,16 @@
 ---
 UID: NS:mswsockdef._RIORESULT
 title: "_RIORESULT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains data used to indicate request completion results used with the Winsock registered I/O extensions.
 old-location: winsock\rioresult.htm
 old-project: WinSock
 ms.assetid: D56D67C4-B455-4F59-8996-CF158DDA3AC2
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*PRIORESULT, PRIORESULT, PRIORESULT structure pointer [Winsock], RIORESULT, RIORESULT structure [Winsock], _RIORESULT, mswsockdef/PRIORESULT, mswsockdef/RIORESULT, winsock.rioresult"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mswsockdef.h
 req.include-header: Mswsock.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:wscapi._WSC_SECURITY_PROVIDER_HEALTH
 title: "_WSC_SECURITY_PROVIDER_HEALTH"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the possible states for any service monitored by Windows Security Center (WSC).
 old-location: winprog\wsc_security_provider_health.htm
 old-project: DevNotes
 ms.assetid: a5f34088-13b9-4269-a3ca-777e0bb9b655
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PWSC_SECURITY_PROVIDER_HEALTH, WSC_SECURITY_PROVIDER_HEALTH, WSC_SECURITY_PROVIDER_HEALTH enumeration [Windows API], WSC_SECURITY_PROVIDER_HEALTH,*PWSC_SECURITY_PROVIDER_HEALTH, WSC_SECURITY_PROVIDER_HEALTH,*PWSC_SECURITY_PROVIDER_HEALTH enumeration [Windows API], WSC_SECURITY_PROVIDER_HEALTH_GOOD, WSC_SECURITY_PROVIDER_HEALTH_NOTMONITORED, WSC_SECURITY_PROVIDER_HEALTH_POOR, WSC_SECURITY_PROVIDER_HEALTH_SNOOZE, _WSC_SECURITY_PROVIDER_HEALTH, winprog.wsc_security_provider_health, wscapi/WSC_SECURITY_PROVIDER_HEALTH, wscapi/WSC_SECURITY_PROVIDER_HEALTH_GOOD, wscapi/WSC_SECURITY_PROVIDER_HEALTH_NOTMONITORED, wscapi/WSC_SECURITY_PROVIDER_HEALTH_POOR, wscapi/WSC_SECURITY_PROVIDER_HEALTH_SNOOZE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wscapi.h
 req.include-header: 

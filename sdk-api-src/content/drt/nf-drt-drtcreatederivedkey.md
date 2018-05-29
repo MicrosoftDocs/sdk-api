@@ -1,16 +1,16 @@
 ---
 UID: NF:drt.DrtCreateDerivedKey
 title: DrtCreateDerivedKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: DrtCreateDerivedKey function creates a key that can be utilized by DrtRegisterKey when the DRT is using a derived key security provider.
 old-location: p2p\drtcreatederivedkey.htm
 old-project: P2PSdk
 ms.assetid: 069358e0-4b61-44ed-b235-37f1d038feff
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DrtCreateDerivedKey, DrtCreateDerivedKey function [Peer Networking], drt/DrtCreateDerivedKey, p2p.drtcreatederivedkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: drt.h
 req.include-header: 

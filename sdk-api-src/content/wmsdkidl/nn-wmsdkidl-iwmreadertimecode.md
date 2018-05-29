@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMReaderTimecode
 title: IWMReaderTimecode
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMReaderTimecode interface provides access to information about SMPTE (Society of Motion Picture and Television Engineers) time code ranges.
 old-location: wmformat\iwmreadertimecode.htm
 old-project: wmformat
 ms.assetid: 7f7d5608-c505-46ab-9e1e-e45b383c879b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReaderTimecode, IWMReaderTimecode interface [windows Media Format], IWMReaderTimecode interface [windows Media Format],described, IWMReaderTimecodeInterface, wmformat.iwmreadertimecode, wmsdkidl/IWMReaderTimecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

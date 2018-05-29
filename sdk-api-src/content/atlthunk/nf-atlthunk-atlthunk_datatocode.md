@@ -1,16 +1,16 @@
 ---
 UID: NF:atlthunk.AtlThunk_DataToCode
 title: AtlThunk_DataToCode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an executable function corresponding to the AtlThunkData_t parameter.
 old-location: base\atlthunk_datatocode.htm
 old-project: Memory
 ms.assetid: 138714A8-5BBE-47A8-9E57-9CD6D35DE644
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AtlThunk_DataToCode, AtlThunk_DataToCode function, atlthunk/AtlThunk_DataToCode, base.atlthunk_datatocode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: atlthunk.h
 req.include-header: 

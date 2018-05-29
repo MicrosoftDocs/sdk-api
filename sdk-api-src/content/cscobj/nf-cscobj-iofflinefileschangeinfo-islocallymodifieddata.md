@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesChangeInfo.IsLocallyModifiedData
 title: IOfflineFilesChangeInfo::IsLocallyModifiedData
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether an item's data was modified while working offline.
 old-location: of\iofflinefileschangeinfo_islocallymodifieddata.htm
 old-project: OfflineFiles
 ms.assetid: d27999af-147e-4c1b-be89-58191292337d
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesChangeInfo interface [Offline Files],IsLocallyModifiedData method, IOfflineFilesChangeInfo.IsLocallyModifiedData, IOfflineFilesChangeInfo::IsLocallyModifiedData, IsLocallyModifiedData, IsLocallyModifiedData method [Offline Files], IsLocallyModifiedData method [Offline Files],IOfflineFilesChangeInfo interface, cscobj/IOfflineFilesChangeInfo::IsLocallyModifiedData, of.iofflinefileschangeinfo_islocallymodifieddata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

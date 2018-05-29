@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmCreateRouteList
 title: RtmCreateRouteList function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmCreateRouteList function creates a list in which the caller can keep a copy of the routes it owns.
 old-location: rras\rtmcreateroutelist.htm
 old-project: RRAS
 ms.assetid: 6fa732a8-6c2f-4034-ab13-d64845fab14c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmCreateRouteList, RtmCreateRouteList function [RAS], _rtmv2ref_rtmcreateroutelist, rras.rtmcreateroutelist, rtmv2/RtmCreateRouteList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

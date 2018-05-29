@@ -1,16 +1,16 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache.Purge
 title: IEmptyVolumeCache::Purge
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the handler to start deleting its unneeded files.
 old-location: lwef\iemptyvolumecache_purge.htm
 old-project: lwef
 ms.assetid: c42430da-9d6a-42e9-bc4f-325d986c7c48
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.author: windowssdkdev
+ms.date: 04/27/2018
 ms.keywords: IEmptyVolumeCache interface [Legacy Windows Environment Features],Purge method, IEmptyVolumeCache.Purge, IEmptyVolumeCache::Purge, Purge, Purge method [Legacy Windows Environment Features], Purge method [Legacy Windows Environment Features],IEmptyVolumeCache interface, _win32_IEmptyVolumeCache_Purge, emptyvc/IEmptyVolumeCache::Purge, lwef.iemptyvolumecache_purge, shell.iemptyvolumecache_purge
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: emptyvc.h
 req.include-header: 

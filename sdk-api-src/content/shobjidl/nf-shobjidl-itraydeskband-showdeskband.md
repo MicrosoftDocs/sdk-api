@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.ITrayDeskBand.ShowDeskBand
 title: ITrayDeskBand::ShowDeskBand
-author: windows-driver-content
+author: windows-sdk-content
 description: Shows a specified deskband.
 old-location: shell\ITrayDeskBand_ShowDeskBand.htm
 old-project: shell
 ms.assetid: 6fd46acd-47b3-46dd-955d-c036995dd01b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITrayDeskBand interface [Windows Shell],ShowDeskBand method, ITrayDeskBand.ShowDeskBand, ITrayDeskBand::ShowDeskBand, ShowDeskBand, ShowDeskBand method [Windows Shell], ShowDeskBand method [Windows Shell],ITrayDeskBand interface, _shell_ITrayDeskBand_ShowDeskBand, shell.ITrayDeskBand_ShowDeskBand, shobjidl/ITrayDeskBand::ShowDeskBand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

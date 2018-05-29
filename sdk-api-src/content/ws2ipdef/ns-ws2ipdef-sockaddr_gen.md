@@ -1,16 +1,16 @@
 ---
 UID: NS:ws2ipdef.sockaddr_gen
 title: sockaddr_gen
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides generic socket address information, and is used with the INTERFACE_INFO structure.
 old-location: winsock\sockaddr_gen.htm
 old-project: WinSock
 ms.assetid: 60b11476-07ca-476e-a2f0-669631835128
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: sockaddr_gen, sockaddr_gen union [Winsock], winsock.sockaddr_gen, ws2ipdef/sockaddr_gen, ws2tcpip/sockaddr_gen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h

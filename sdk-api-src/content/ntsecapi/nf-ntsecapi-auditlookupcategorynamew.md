@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.AuditLookupCategoryNameW
 title: AuditLookupCategoryNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the display name of the specified audit-policy category.
 old-location: security\auditlookupcategoryname_func.htm
 old-project: SecAuthZ
 ms.assetid: 8b30d864-8eb5-42d8-bc9a-a9eae1de5187
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuditLookupCategoryName, AuditLookupCategoryName function [Security], AuditLookupCategoryNameA, AuditLookupCategoryNameW, ntsecapi/AuditLookupCategoryName, ntsecapi/AuditLookupCategoryNameA, ntsecapi/AuditLookupCategoryNameW, security.auditlookupcategoryname_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

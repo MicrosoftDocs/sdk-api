@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.Save
 title: IPersistStreamInit::Save
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves an object to the specified stream.
 old-location: com\ipersiststreaminit_save.htm
 old-project: com
 ms.assetid: f88b61d0-dd85-4e8e-b445-dfced6521981
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPersistStreamInit interface [COM],Save method, IPersistStreamInit.Save, IPersistStreamInit::Save, Save, Save method [COM], Save method [COM],IPersistStreamInit interface, _com_ipersiststreaminit_save, com.ipersiststreaminit_save, ocidl/IPersistStreamInit::Save
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

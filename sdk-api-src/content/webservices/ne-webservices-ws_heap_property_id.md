@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_HEAP_PROPERTY_ID
 title: WS_HEAP_PROPERTY_ID
-author: windows-driver-content
+author: windows-sdk-content
 description: Each heap property is identified by an ID and has an associated value.
 old-location: wsw\ws_heap_property_id.htm
 old-project: wsw
 ms.assetid: c047a3b9-27a1-464c-b9f9-0b0c6cf8eb97
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_HEAP_PROPERTY_ACTUAL_SIZE, WS_HEAP_PROPERTY_ID, WS_HEAP_PROPERTY_ID enumeration [Web Services for Windows], WS_HEAP_PROPERTY_MAX_SIZE, WS_HEAP_PROPERTY_REQUESTED_SIZE, WS_HEAP_PROPERTY_TRIM_SIZE, webservices/WS_HEAP_PROPERTY_ACTUAL_SIZE, webservices/WS_HEAP_PROPERTY_ID, webservices/WS_HEAP_PROPERTY_MAX_SIZE, webservices/WS_HEAP_PROPERTY_REQUESTED_SIZE, webservices/WS_HEAP_PROPERTY_TRIM_SIZE, wsw.ws_heap_property_id
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

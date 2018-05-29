@@ -1,16 +1,16 @@
 ---
 UID: NF:certif.ICertServerPolicy.SetCertificateProperty
 title: ICertServerPolicy::SetCertificateProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: To set a property associated with a certificate.
 old-location: security\icertserverpolicy_setcertificateproperty.htm
 old-project: SecCrypto
 ms.assetid: 1230aa79-d8b0-4f2b-ab10-412b8c530b0b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertServerPolicy object [Security],SetCertificateProperty method, CrossForest, GeneralFlags, ICertServerPolicy interface [Security],SetCertificateProperty method, ICertServerPolicy.SetCertificateProperty, ICertServerPolicy::SetCertificateProperty, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RequesterDN, RequesterSAMName, RequesterUPN, SetCertificateProperty, SetCertificateProperty method [Security], SetCertificateProperty method [Security],CCertServerPolicy object, SetCertificateProperty method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcertificateproperty, certif/ICertServerPolicy::SetCertificateProperty, security.icertserverpolicy_setcertificateproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certif.h
 req.include-header: Certsrv.h

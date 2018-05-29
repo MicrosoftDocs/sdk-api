@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_ENROLLMENT_NAME_VALUE_PAIR
 title: "_CRYPT_ENROLLMENT_NAME_VALUE_PAIR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to create certificate requests on behalf of a user.
 old-location: security\crypt_enrollment_name_value_pair.htm
 old-project: SecCrypto
 ms.assetid: 996bd28e-73c1-494e-957c-8dd4c7b8e064
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_ENROLLMENT_NAME_VALUE_PAIR, CRYPT_ENROLLMENT_NAME_VALUE_PAIR, CRYPT_ENROLLMENT_NAME_VALUE_PAIR structure [Security], _CRYPT_ENROLLMENT_NAME_VALUE_PAIR, _crypto2_crypt_enrollment_name_value_pair, security.crypt_enrollment_name_value_pair, wincrypt/CRYPT_ENROLLMENT_NAME_VALUE_PAIR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

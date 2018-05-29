@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IAdviseSinkEx
 title: IAdviseSinkEx
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is derived from IAdviseSink to provide extensions for notifying the sink of changes in an object's view status.
 old-location: com\iadvisesinkex.htm
 old-project: com
 ms.assetid: d1a52353-dd86-4083-9dbc-3a6f363a1a57
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAdviseSinkEx, IAdviseSinkEx interface [COM], IAdviseSinkEx interface [COM],described, _ole_iadvisesinkex, com.iadvisesinkex, ocidl/IAdviseSinkEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

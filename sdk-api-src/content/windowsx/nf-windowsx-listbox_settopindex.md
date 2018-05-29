@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.ListBox_SetTopIndex
 title: ListBox_SetTopIndex macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Ensures that the specified item in a list box is visible. You can use this macro or send the LB_SETTOPINDEX message explicitly.
 old-location: controls\ListBox_SetTopIndex.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_settopindex.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListBox_SetTopIndex, ListBox_SetTopIndex macro [Windows Controls], _win32_ListBox_SetTopIndex, _win32_ListBox_SetTopIndex_cpp, controls.ListBox_SetTopIndex, controls._win32_ListBox_SetTopIndex, windowsx/ListBox_SetTopIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

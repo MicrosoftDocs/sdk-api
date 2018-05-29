@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPEvents.PlaylistCollectionPlaylistAdded
 title: IWMPEvents::PlaylistCollectionPlaylistAdded
-author: windows-driver-content
+author: windows-sdk-content
 description: The PlaylistCollectionPlaylistAdded event occurs when a playlist is added to the playlist collection.
 old-location: wmp\iwmpevents_iwmpevents__playlistcollectionplaylistadded.htm
 old-project: WMP
 ms.assetid: f865021c-692b-425e-a37a-b3048f7e5c64
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PlaylistCollectionPlaylistAdded method, IWMPEvents.PlaylistCollectionPlaylistAdded, IWMPEvents::PlaylistCollectionPlaylistAdded, IWMPEventsPlaylistCollectionPlaylistAdded, PlaylistCollectionPlaylistAdded, PlaylistCollectionPlaylistAdded method [Windows Media Player], PlaylistCollectionPlaylistAdded method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__playlistcollectionplaylistadded, wmp/IWMPEvents::PlaylistCollectionPlaylistAdded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchPersistentItemsChangedSink.StartedMonitoringScope
 title: ISearchPersistentItemsChangedSink::StartedMonitoringScope
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by a notifications provider to notify the indexer to monitor changes to items within a specified hierarchical scope.
 old-location: search\_search_ISearchPersistentItemsChangedSink_StartedMonitoringScope.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\startedmonitoringscope.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchPersistentItemsChangedSink interface [search],StartedMonitoringScope method, ISearchPersistentItemsChangedSink.StartedMonitoringScope, ISearchPersistentItemsChangedSink::StartedMonitoringScope, StartedMonitoringScope, StartedMonitoringScope method [search], StartedMonitoringScope method [search],ISearchPersistentItemsChangedSink interface, _search_ISearchPersistentItemsChangedSink_StartedMonitoringScope, search._search_ISearchPersistentItemsChangedSink_StartedMonitoringScope, searchapi/ISearchPersistentItemsChangedSink::StartedMonitoringScope
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

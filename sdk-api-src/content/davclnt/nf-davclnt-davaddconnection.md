@@ -1,16 +1,16 @@
 ---
 UID: NF:davclnt.DavAddConnection
 title: DavAddConnection function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a secure connection to a WebDAV server or to a remote file or directory on a WebDAV server.
 old-location: webdav\davaddconnection.htm
 old-project: WebDAV
 ms.assetid: d69cba04-503c-4d21-b762-3094c0921e28
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: DavAddConnection, DavAddConnection function [WebDAV], davclnt/DavAddConnection, webdav.davaddconnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: davclnt.h
 req.include-header: 

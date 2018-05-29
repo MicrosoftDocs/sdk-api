@@ -1,16 +1,16 @@
 ---
 UID: NS:bits2_0._BG_FILE_RANGE
 title: "_BG_FILE_RANGE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The BG_FILE_RANGE structure identifies a range of bytes to download from a file.
 old-location: bits\bg_file_range.htm
 old-project: Bits
 ms.assetid: 4ed20321-fb89-410b-906e-9f2c4366645a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BG_FILE_RANGE, BG_FILE_RANGE structure [BITS], _BG_FILE_RANGE, bits.bg_file_range, bits2_0/BG_FILE_RANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bits2_0.h
 req.include-header: Bits.h

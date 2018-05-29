@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFAudioPolicy.SetDisplayName
 title: IMFAudioPolicy::SetDisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the display name of the audio session. The Windows volume control displays this name.
 old-location: mf\imfaudiopolicy_setdisplayname.htm
 old-project: medfound
 ms.assetid: 4cd48400-8d12-4a6b-95fd-bf6ae7700cb8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 4cd48400-8d12-4a6b-95fd-bf6ae7700cb8, IMFAudioPolicy interface [Media Foundation],SetDisplayName method, IMFAudioPolicy.SetDisplayName, IMFAudioPolicy::SetDisplayName, SetDisplayName, SetDisplayName method [Media Foundation], SetDisplayName method [Media Foundation],IMFAudioPolicy interface, mf.imfaudiopolicy_setdisplayname, mfidl/IMFAudioPolicy::SetDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

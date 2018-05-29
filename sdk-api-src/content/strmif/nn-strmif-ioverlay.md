@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IOverlay
 title: IOverlay
-author: windows-driver-content
+author: windows-sdk-content
 description: The IOverlay interface provides information so that a filter can write directly to video memory while placing the video in the correct window position.
 old-location: dshow\ioverlay.htm
 old-project: DirectShow
 ms.assetid: 2d49888a-7046-4779-9634-d181fa582584
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IOverlay, IOverlay interface [DirectShow], IOverlay interface [DirectShow],described, IOverlayInterface, dshow.ioverlay, strmif/IOverlay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

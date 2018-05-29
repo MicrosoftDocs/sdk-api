@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl.Move
 title: IWMDMStorageControl::Move
-author: windows-driver-content
+author: windows-sdk-content
 description: The Move method moves the current storage to a new location on the device.
 old-location: wmdm\iwmdmstoragecontrol_move.htm
 old-project: WMDM
 ms.assetid: 6a2cfca0-66e6-4358-99c1-161f7baccdd5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Move method, IWMDMStorageControl.Move, IWMDMStorageControl::Move, IWMDMStorageControlMove, Move, Move method [windows Media Device Manager], Move method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Move, wmdm.iwmdmstoragecontrol_move
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.GetRecordCount
 title: IMFASFMutualExclusion::GetRecordCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of records in the Advanced Systems Format mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_getrecordcount.htm
 old-project: medfound
 ms.assetid: 8dbd883e-4ae3-422d-bb2e-087a9e311558
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 8dbd883e-4ae3-422d-bb2e-087a9e311558, GetRecordCount, GetRecordCount method [Media Foundation], GetRecordCount method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],GetRecordCount method, IMFASFMutualExclusion.GetRecordCount, IMFASFMutualExclusion::GetRecordCount, mf.imfasfmutualexclusion_getrecordcount, wmcontainer/IMFASFMutualExclusion::GetRecordCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

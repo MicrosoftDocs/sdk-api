@@ -1,16 +1,16 @@
 ---
 UID: NS:clfs._CLS_ARCHIVE_DESCRIPTOR
 title: "_CLS_ARCHIVE_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by the GetNextLogArchiveExtent function to return information about log archive extents.
 old-location: fs\clfs_archive_descriptor.htm
 old-project: Clfs
 ms.assetid: a2d50d1d-f4cb-48de-be73-4858adfa951f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLFS_ARCHIVE_DESCRIPTOR, *PCLS_ARCHIVE_DESCRIPTOR, CLFS_ARCHIVE_DESCRIPTOR, CLFS_ARCHIVE_DESCRIPTOR structure [Files], CLS_ARCHIVE_DESCRIPTOR, PCLFS_ARCHIVE_DESCRIPTOR, PCLFS_ARCHIVE_DESCRIPTOR structure pointer [Files], PPCLFS_ARCHIVE_DESCRIPTOR, PPCLFS_ARCHIVE_DESCRIPTOR structure pointer [Files], PPCLS_ARCHIVE_DESCRIPTOR, _CLS_ARCHIVE_DESCRIPTOR, clfs/CLFS_ARCHIVE_DESCRIPTOR, clfs/PCLFS_ARCHIVE_DESCRIPTOR, clfs/PPCLFS_ARCHIVE_DESCRIPTOR, fs.clfs_archive_descriptor"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h

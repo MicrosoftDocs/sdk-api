@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.AuditQuerySecurity
 title: AuditQuerySecurity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves security descriptor that delegates access to audit policy.
 old-location: security\auditquerysecurity.htm
 old-project: SecAuthZ
 ms.assetid: 496c9659-0c03-42c9-93c4-eb4d97e950e2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuditQuerySecurity, AuditQuerySecurity function [Security], ntsecapi/AuditQuerySecurity, security.auditquerysecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

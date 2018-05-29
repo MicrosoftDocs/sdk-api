@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.DeleteSecurityPackageA
 title: DeleteSecurityPackageA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a security support provider from the list of providers supported by Microsoft Negotiate.
 old-location: security\deletesecuritypackage.htm
 old-project: SecAuthN
 ms.assetid: 7a9a2c64-92a4-419b-8b20-d0f5cba64147
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DeleteSecurityPackage, DeleteSecurityPackage function [Security], DeleteSecurityPackageA, DeleteSecurityPackageW, security.deletesecuritypackage, sspi/DeleteSecurityPackage, sspi/DeleteSecurityPackageA, sspi/DeleteSecurityPackageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

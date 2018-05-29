@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsFileTimeToDateTime
 title: WsFileTimeToDateTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: Takes a reference to a FILETIME object and converts it into a WS_DATETIME object. A reference to the WS_DATETIME object is returned by output parameter.
 old-location: wsw\wsfiletimetodatetime.htm
 old-project: wsw
 ms.assetid: 75a547f8-c8dc-47c3-97c9-2a39b046263f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsFileTimeToDateTime, WsFileTimeToDateTime function [Web Services for Windows], webservices/WsFileTimeToDateTime, wsw.wsfiletimetodatetime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

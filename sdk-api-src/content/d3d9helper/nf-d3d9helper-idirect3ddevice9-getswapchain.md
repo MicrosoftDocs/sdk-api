@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetSwapChain
 title: IDirect3DDevice9::GetSwapChain
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to a swap chain.
 old-location: direct3d9\idirect3ddevice9__getswapchain.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getswapchain.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 141571bf-172b-c679-109b-248388ab3cc3, GetSwapChain, GetSwapChain method [Direct3D 9], GetSwapChain method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetSwapChain method, IDirect3DDevice9.GetSwapChain, IDirect3DDevice9::GetSwapChain, d3d9helper/IDirect3DDevice9::GetSwapChain, direct3d9.idirect3ddevice9__getswapchain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

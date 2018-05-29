@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.Prompt
 title: IAttachmentExecute::Prompt
-author: windows-driver-content
+author: windows-sdk-content
 description: Presents a prompt UI to the user.
 old-location: shell\IAttachmentExecute_Prompt.htm
 old-project: shell
 ms.assetid: 01c01abf-df7a-411b-979b-ddd8da569f91
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],Prompt method, IAttachmentExecute.Prompt, IAttachmentExecute::Prompt, Prompt, Prompt method [Windows Shell], Prompt method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_Prompt, shell.IAttachmentExecute_Prompt, shobjidl_core/IAttachmentExecute::Prompt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

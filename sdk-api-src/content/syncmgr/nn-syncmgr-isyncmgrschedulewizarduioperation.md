@@ -1,16 +1,16 @@
 ---
 UID: NN:syncmgr.ISyncMgrScheduleWizardUIOperation
 title: ISyncMgrScheduleWizardUIOperation
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that allows a handler to display the sync schedule wizard for the handler.
 old-location: shell\ISyncMgrScheduleWizardUIOperation.htm
 old-project: shell
 ms.assetid: dcbe22fb-624f-4784-b1c3-5c463d6502a3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrScheduleWizardUIOperation, ISyncMgrScheduleWizardUIOperation interface [Windows Shell], ISyncMgrScheduleWizardUIOperation interface [Windows Shell],described, _shell_ISyncMgrScheduleWizardUIOperation, shell.ISyncMgrScheduleWizardUIOperation, syncmgr/ISyncMgrScheduleWizardUIOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

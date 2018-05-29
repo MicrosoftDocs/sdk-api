@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IPicture.get_Height
 title: IPicture::get_Height
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current height of the picture in the picture object.
 old-location: com\ipicture_get_height.htm
 old-project: com
 ms.assetid: a582cc9d-4356-49ec-9f14-38c75e690fbe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPicture interface [COM],get_Height method, IPicture.get_Height, IPicture::get_Height, _ctrl_ipicture_get_height, com.ipicture_get_height, get_Height, get_Height method [COM], get_Height method [COM],IPicture interface, ocidl/IPicture::get_Height
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectSet.GetEnumerator
 title: IOpcSignatureCustomObjectSet::GetEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an enumerator of IOpcSignatureCustomObject interface pointers in the set.
 old-location: opc\iopcsignaturecustomobjectset_getenumerator.htm
 old-project: OPC
 ms.assetid: a365a1df-4c72-44a0-bcf5-8ef19c54f4ee
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcSignatureCustomObjectSet interface, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],GetEnumerator method, IOpcSignatureCustomObjectSet.GetEnumerator, IOpcSignatureCustomObjectSet::GetEnumerator, msopc/IOpcSignatureCustomObjectSet::GetEnumerator, opc.iopcsignaturecustomobjectset_getenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

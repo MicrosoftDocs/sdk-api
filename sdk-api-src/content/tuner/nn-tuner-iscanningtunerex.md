@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IScanningTunerEx
 title: IScanningTunerEx
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows Vista.
 old-location: mstv\iscanningtunerex.htm
 old-project: mstv
 ms.assetid: 3f89173a-d24b-400c-a229-28efb7a703be
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IScanningTunerEx, IScanningTunerEx interface [Microsoft TV Technologies], IScanningTunerEx interface [Microsoft TV Technologies],described, IScanningTunerExInterface, mstv.iscanningtunerex, tuner/IScanningTunerEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

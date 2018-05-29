@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.BUTTON_IMAGELIST
 title: BUTTON_IMAGELIST
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an image list that is used with a button control.
 old-location: controls\BUTTON_IMAGELIST.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonstructures\button_imagelist.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PBUTTON_IMAGELIST, BUTTON_IMAGELIST, BUTTON_IMAGELIST structure [Windows Controls], BUTTON_IMAGELIST_ALIGN_BOTTOM, BUTTON_IMAGELIST_ALIGN_CENTER, BUTTON_IMAGELIST_ALIGN_LEFT, BUTTON_IMAGELIST_ALIGN_RIGHT, BUTTON_IMAGELIST_ALIGN_TOP, PBUTTON_IMAGELIST, PBUTTON_IMAGELIST structure pointer [Windows Controls], _win32_BUTTON_IMAGELIST_str, _win32_BUTTON_IMAGELIST_str_cpp, commctrl/BUTTON_IMAGELIST, commctrl/PBUTTON_IMAGELIST, controls.BUTTON_IMAGELIST, controls._win32_BUTTON_IMAGELIST_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

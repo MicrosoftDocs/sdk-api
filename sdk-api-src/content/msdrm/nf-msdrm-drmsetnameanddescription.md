@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMSetNameAndDescription
 title: DRMSetNameAndDescription function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows an application to specify names and descriptions of the license in multiple (human) languages.
 old-location: rm\drmsetnameanddescription.htm
 old-project: AdRms_Sdk
 ms.assetid: c5dc8aa8-f45b-4b8a-bd83-0661db424303
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMSetNameAndDescription, DRMSetNameAndDescription function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetNameAndDescription, rm.drmsetnameanddescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

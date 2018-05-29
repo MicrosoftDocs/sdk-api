@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.RemoveMenu
 title: RemoveMenu function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a menu item or detaches a submenu from the specified menu.
 old-location: menurc\removemenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\removemenu.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MF_BYCOMMAND, MF_BYPOSITION, RemoveMenu, RemoveMenu function [Menus and Other Resources], _win32_RemoveMenu, _win32_removemenu_cpp, menurc.removemenu, winui._win32_removemenu, winuser/RemoveMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

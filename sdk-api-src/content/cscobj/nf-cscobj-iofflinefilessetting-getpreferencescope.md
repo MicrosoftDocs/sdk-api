@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetPreferenceScope
 title: IOfflineFilesSetting::GetPreferenceScope
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the scope of the preference associated with this setting.
 old-location: of\iofflinefilessetting_getpreferencescope.htm
 old-project: OfflineFiles
 ms.assetid: 618a83b7-a86d-4356-8312-7aba8923e8a4
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetPreferenceScope, GetPreferenceScope method [Offline Files], GetPreferenceScope method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPreferenceScope method, IOfflineFilesSetting.GetPreferenceScope, IOfflineFilesSetting::GetPreferenceScope, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPreferenceScope, of.iofflinefilessetting_getpreferencescope
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

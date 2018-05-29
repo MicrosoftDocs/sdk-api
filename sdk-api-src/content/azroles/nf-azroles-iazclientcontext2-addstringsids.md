@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzClientContext2.AddStringSids
 title: IAzClientContext2::AddStringSids
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an array of string representations of security identifiers (SIDs) to the client context.
 old-location: security\iazclientcontext2_addstringsids.htm
 old-project: SecAuthZ
 ms.assetid: ac437686-fefb-413e-9f53-eed6c1df5798
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddStringSids, AddStringSids method [Security], AddStringSids method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],AddStringSids method, IAzClientContext2.AddStringSids, IAzClientContext2::AddStringSids, azroles/IAzClientContext2::AddStringSids, security.iazclientcontext2_addstringsids
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

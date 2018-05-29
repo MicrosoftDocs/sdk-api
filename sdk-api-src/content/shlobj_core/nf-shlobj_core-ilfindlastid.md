@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.ILFindLastID
 title: ILFindLastID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a pointer to the last SHITEMID structure in an ITEMIDLIST structure.
 old-location: shell\ILFindLastID.htm
 old-project: shell
 ms.assetid: 877029b7-a2fb-42c2-98a1-0eb6f229f1d9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ILFindLastID, ILFindLastID function [Windows Shell], _win32_ILFindLastID, shell.ILFindLastID, shlobj_core/ILFindLastID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

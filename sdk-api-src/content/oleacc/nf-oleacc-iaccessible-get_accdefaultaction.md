@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccessible.get_accDefaultAction
 title: IAccessible::get_accDefaultAction
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAccessible::get_accDefaultAction method retrieves a string that indicates the object's default action. Not all objects have a default action.
 old-location: winauto\iaccessible_iaccessible__get_accdefaultaction.htm
 old-project: WinAuto
 ms.assetid: 1261ff7c-7822-47c1-ac39-536b5ea09f31
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accDefaultAction method, IAccessible.get_accDefaultAction, IAccessible::get_accDefaultAction, _msaa_IAccessible_get_accDefaultAction, get_accDefaultAction, get_accDefaultAction method [Windows Accessibility], get_accDefaultAction method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accdefaultaction, oleacc/IAccessible::get_accDefaultAction, winauto.iaccessible_iaccessible__get_accdefaultaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSGetConstantBuffers
 title: ID3D10Device::GSGetConstantBuffers
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the constant buffers used by the geometry shader pipeline stage.
 old-location: direct3d10\id3d10device_gsgetconstantbuffers.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gsgetconstantbuffers.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 31eb9c1b-cc8e-64bc-4567-a82debaa5287, GSGetConstantBuffers, GSGetConstantBuffers method [Direct3D 10], GSGetConstantBuffers method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSGetConstantBuffers method, ID3D10Device.GSGetConstantBuffers, ID3D10Device::GSGetConstantBuffers, d3d10/ID3D10Device::GSGetConstantBuffers, direct3d10.id3d10device_gsgetconstantbuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

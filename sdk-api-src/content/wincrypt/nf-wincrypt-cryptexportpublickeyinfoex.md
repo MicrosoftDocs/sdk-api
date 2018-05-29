@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptExportPublicKeyInfoEx
 title: CryptExportPublicKeyInfoEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Exports the public key information associated with the provider's corresponding private key.
 old-location: security\cryptexportpublickeyinfoex.htm
 old-project: SecCrypto
 ms.assetid: 38274222-90b3-4038-86d3-6b2813100ce2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptExportPublicKeyInfoEx, CryptExportPublicKeyInfoEx function [Security], _crypto2_cryptexportpublickeyinfoex, security.cryptexportpublickeyinfoex, wincrypt/CryptExportPublicKeyInfoEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspen.Pen.GetEndCap
 title: Pen::GetEndCap
-author: windows-driver-content
+author: windows-sdk-content
 description: The Pen::GetEndCap method gets the end cap currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetEndCap_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getendcap.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetEndCap, GetEndCap method [GDI+], GetEndCap method [GDI+],Pen class, Pen class [GDI+],GetEndCap method, Pen.GetEndCap, Pen::GetEndCap, _gdiplus_CLASS_Pen_GetEndCap_, gdiplus._gdiplus_CLASS_Pen_GetEndCap_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

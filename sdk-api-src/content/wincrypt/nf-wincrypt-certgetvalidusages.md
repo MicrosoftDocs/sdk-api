@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertGetValidUsages
 title: CertGetValidUsages function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an array of usages that consist of the intersection of the valid usages for all certificates in an array of certificates.
 old-location: security\certgetvalidusages.htm
 old-project: SecCrypto
 ms.assetid: 1504f166-2fa9-4041-9d72-b150cd8baa8a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertGetValidUsages, CertGetValidUsages function [Security], _crypto2_certgetvalidusages, security.certgetvalidusages, wincrypt/CertGetValidUsages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

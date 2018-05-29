@@ -1,16 +1,16 @@
 ---
 UID: NF:windns.DnsReleaseContextHandle
 title: DnsReleaseContextHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DnsReleaseContextHandle function releases memory used to store the credentials of a specific account.
 old-location: dns\dnsreleasecontexthandle.htm
 old-project: DNS
 ms.assetid: 08a5fa73-4583-4e87-bddb-09bfbfe1b36f
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: DnsReleaseContextHandle, DnsReleaseContextHandle function [DNS], _dns_dnsreleasecontexthandle, dns.dnsreleasecontexthandle, windns/DnsReleaseContextHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: windns.h
 req.include-header: 

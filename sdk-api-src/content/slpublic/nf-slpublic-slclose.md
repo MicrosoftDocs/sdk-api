@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLClose
 title: SLClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the Software Licensing Client (SLC) context handle.
 old-location: security\slclose.htm
 old-project: SecSLApi
 ms.assetid: a2483fa2-cdd6-48b8-861f-34fd5efc34df
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLClose, SLClose function [Security], security.slclose, slpublic/SLClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

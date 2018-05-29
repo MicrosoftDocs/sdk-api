@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._TOKEN_STATISTICS
 title: "_TOKEN_STATISTICS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an access token.
 old-location: security\token_statistics.htm
 old-project: SecAuthZ
 ms.assetid: 7fcc4a46-1bac-49c1-a239-b466d3bf31d9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PTOKEN_STATISTICS, PTOKEN_STATISTICS, PTOKEN_STATISTICS structure pointer [Security], TOKEN_STATISTICS, TOKEN_STATISTICS structure [Security], _TOKEN_STATISTICS, _win32_token_statistics_str, security.token_statistics, winnt/PTOKEN_STATISTICS, winnt/TOKEN_STATISTICS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

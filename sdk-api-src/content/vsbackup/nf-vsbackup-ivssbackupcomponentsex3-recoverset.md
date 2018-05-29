@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx3.RecoverSet
 title: IVssBackupComponentsEx3::RecoverSet
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates a LUN resynchronization operation.
 old-location: base\ivssbackupcomponentsex3_recoverset.htm
 old-project: VSS
 ms.assetid: 2e468527-11e7-42d8-808b-2cb2eb86e0ba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssBackupComponentsEx3 interface,RecoverSet method, IVssBackupComponentsEx3.RecoverSet, IVssBackupComponentsEx3::RecoverSet, RecoverSet, RecoverSet method, RecoverSet method,IVssBackupComponentsEx3 interface, base.ivssbackupcomponentsex3_recoverset, vsbackup/IVssBackupComponentsEx3::RecoverSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

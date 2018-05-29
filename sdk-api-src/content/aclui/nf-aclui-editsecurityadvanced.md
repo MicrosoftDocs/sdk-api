@@ -1,16 +1,16 @@
 ---
 UID: NF:aclui.EditSecurityAdvanced
 title: EditSecurityAdvanced function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the EditSecurity function to include the security page type when displaying the property sheet that contains a basic security property page.
 old-location: security\editsecurityadvanced.htm
 old-project: SecAuthZ
 ms.assetid: E451BBB9-4E01-4A8F-9ACD-750351F16453
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EditSecurityAdvanced, EditSecurityAdvanced function [Security], aclui/EditSecurityAdvanced, security.editsecurityadvanced
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: aclui.h
 req.include-header: 

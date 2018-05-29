@@ -1,16 +1,16 @@
 ---
 UID: NF:vmr9.IVMRMonitorConfig9.GetAvailableMonitors
 title: IVMRMonitorConfig9::GetAvailableMonitors
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAvailableMonitors method retrieves information about the monitors currently available on the system.
 old-location: dshow\ivmrmonitorconfig9_getavailablemonitors.htm
 old-project: DirectShow
 ms.assetid: cebd40c2-ea41-4ed1-87d1-37f9d427c539
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAvailableMonitors, GetAvailableMonitors method [DirectShow], GetAvailableMonitors method [DirectShow],IVMRMonitorConfig9 interface, IVMRMonitorConfig9 interface [DirectShow],GetAvailableMonitors method, IVMRMonitorConfig9.GetAvailableMonitors, IVMRMonitorConfig9::GetAvailableMonitors, IVMRMonitorConfig9GetAvailableMonitors, dshow.ivmrmonitorconfig9_getavailablemonitors, vmr9/IVMRMonitorConfig9::GetAvailableMonitors
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

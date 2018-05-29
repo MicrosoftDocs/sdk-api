@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagPANOSE
 title: tagPANOSE
-author: windows-driver-content
+author: windows-sdk-content
 description: The PANOSE structure describes the PANOSE font-classification values for a TrueType font. These characteristics are then used to associate the font with other fonts of similar appearance but different names.
 old-location: gdi\panose.htm
 old-project: gdi
 ms.assetid: 18aa4a36-8e47-4e35-973f-376d412ed923
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPPANOSE, LPPANOSE, LPPANOSE structure pointer [Windows GDI], PANOSE, PANOSE structure [Windows GDI], _win32_PANOSE_str, gdi.panose, tagPANOSE, wingdi/LPPANOSE, wingdi/PANOSE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

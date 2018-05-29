@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2spi.NSPStartup
 title: NSPStartup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the dynamic information about a provider, such as the list of the DLL entry points.
 old-location: winsock\nspstartup_2.htm
 old-project: WinSock
 ms.assetid: ed9e4ff3-736a-4037-bf85-5572f0cd279d
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: NSPStartup, NSPStartup function [Winsock], _win32_nspstartup_2, winsock.nspstartup_2, ws2spi/NSPStartup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

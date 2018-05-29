@@ -1,16 +1,16 @@
 ---
 UID: NN:uiribbon.IUISimplePropertySet
 title: IUISimplePropertySet
-author: windows-driver-content
+author: windows-sdk-content
 description: IUISimplePropertySet is a read-only interface that defines a method for retrieving the value identified by a property key.
 old-location: windowsribbon\windowsribbon_iuisimplepropertyset.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuisimplepropertyset\iuisimplepropertyset.htm
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IUISimplePropertySet, IUISimplePropertySet interface [Windows Ribbon], IUISimplePropertySet interface [Windows Ribbon],described, scenicintent_IUISimplePropertySet, uiribbon/IUISimplePropertySet, windowsribbon.windowsribbon_iuisimplepropertyset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 

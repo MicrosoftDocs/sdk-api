@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateDepthStencilState
 title: ID3D10Device::CreateDepthStencilState
-author: windows-driver-content
+author: windows-sdk-content
 description: Create a depth-stencil state object that encapsulates depth-stencil test information for the output-merger stage.
 old-location: direct3d10\id3d10device_createdepthstencilstate.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createdepthstencilstate.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CreateDepthStencilState, CreateDepthStencilState method [Direct3D 10], CreateDepthStencilState method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateDepthStencilState method, ID3D10Device.CreateDepthStencilState, ID3D10Device::CreateDepthStencilState, a3a47d35-efaa-1c5f-3cb4-492e0e20a0b0, d3d10/ID3D10Device::CreateDepthStencilState, direct3d10.id3d10device_createdepthstencilstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

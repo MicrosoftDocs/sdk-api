@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMGetMetaData
 title: DRMGetMetaData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves metadata from an issuance license.
 old-location: rm\drmgetmetadata.htm
 old-project: AdRms_Sdk
 ms.assetid: bea3120a-11a2-42e9-bf1b-368cad25ede5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMGetMetaData, DRMGetMetaData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetMetaData, rm.drmgetmetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

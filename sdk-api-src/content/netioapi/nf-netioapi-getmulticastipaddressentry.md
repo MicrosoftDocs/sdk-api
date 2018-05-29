@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.GetMulticastIpAddressEntry
 title: GetMulticastIpAddressEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information for an existing multicast IP address entry on the local computer.
 old-location: iphlp\getmulticastipaddressentry.htm
 old-project: IpHlp
 ms.assetid: dc6401b6-7692-44a5-b2f0-4e729b996765
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetMulticastIpAddressEntry, GetMulticastIpAddressEntry function [IP Helper], iphlp.getmulticastipaddressentry, netioapi/GetMulticastIpAddressEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

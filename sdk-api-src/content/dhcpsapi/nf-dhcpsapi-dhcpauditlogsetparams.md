@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpAuditLogSetParams
 title: DhcpAuditLogSetParams function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the parameters for audit log generation on a DHCP server.
 old-location: dhcp\dhcpauditlogsetparams.htm
 old-project: DHCP
 ms.assetid: ea7fc321-3e7c-4d1f-9a39-6a25d0d1c5b2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpAuditLogSetParams, DhcpAuditLogSetParams function [DHCP], dhcp.dhcpauditlogsetparams, dhcpsapi/DhcpAuditLogSetParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

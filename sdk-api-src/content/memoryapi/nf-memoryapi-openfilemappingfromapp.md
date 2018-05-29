@@ -1,16 +1,16 @@
 ---
 UID: NF:memoryapi.OpenFileMappingFromApp
 title: OpenFileMappingFromApp function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a named file mapping object.
 old-location: base\openfilemappingfromapp.htm
 old-project: Memory
 ms.assetid: 66BAB9A6-F983-49D8-8F87-69A3CCBBB1BC
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OpenFileMappingFromApp, OpenFileMappingFromApp function, base.openfilemappingfromapp, memoryapi/OpenFileMappingFromApp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows.h

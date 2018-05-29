@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_GetItem
 title: ListView_GetItem macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets some or all of a list-view item's attributes. You can use this macro or send the LVM_GETITEM message explicitly.
 old-location: controls\ListView_GetItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitem.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_GetItem, ListView_GetItem macro [Windows Controls], _win32_ListView_GetItem, _win32_ListView_GetItem_cpp, commctrl/ListView_GetItem, controls.ListView_GetItem, controls._win32_ListView_GetItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

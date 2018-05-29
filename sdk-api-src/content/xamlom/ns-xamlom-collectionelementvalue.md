@@ -1,16 +1,16 @@
 ---
 UID: NS:xamlom.CollectionElementValue
 title: CollectionElementValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an element in a collection.
 old-location: xaml_diagnostics\collectionelementvalue.htm
 old-project: xaml_diagnostics
 ms.assetid: 0FE09913-7EAF-4335-AF41-F83FEBCAF12E
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: CollectionElementValue, CollectionElementValue structure, PCollectionElementValue, PCollectionElementValue structure pointer, xaml_diagnostics.collectionelementvalue, xamlom/CollectionElementValue, xamlom/PCollectionElementValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xamlom.h
 req.include-header: 

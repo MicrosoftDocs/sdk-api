@@ -1,16 +1,16 @@
 ---
 UID: NN:mfmediaengine.IMFBufferListNotify
 title: IMFBufferListNotify
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables IMFSourceBufferList object to notify its clients of important state changes.
 old-location: mf\imfbufferlistnotify.htm
 old-project: medfound
 ms.assetid: 2a2705b4-fac3-4059-b2c9-c03efaa9c15e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFBufferListNotify, IMFBufferListNotify interface [Media Foundation], IMFBufferListNotify interface [Media Foundation],described, mf.imfbufferlistnotify, mfmediaengine/IMFBufferListNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

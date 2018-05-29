@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.DceErrorInqTextW
 title: DceErrorInqTextW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DceErrorInqText function returns the message text for a status code.
 old-location: rpc\dceerrorinqtext.htm
 old-project: Rpc
 ms.assetid: 0aea211b-48bb-4a2f-a42e-1f35259e7f82
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: DceErrorInqText, DceErrorInqText function [RPC], DceErrorInqTextA, DceErrorInqTextW, RPC_S_INVALID_ARG, RPC_S_OK, _rpc_dceerrorinqtext, rpc.dceerrorinqtext, rpcdce/DceErrorInqText, rpcdce/DceErrorInqTextA, rpcdce/DceErrorInqTextW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

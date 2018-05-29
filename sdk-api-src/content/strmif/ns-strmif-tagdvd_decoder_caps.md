@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.tagDVD_DECODER_CAPS
 title: tagDVD_DECODER_CAPS
-author: windows-driver-content
+author: windows-sdk-content
 description: The DVD_DECODER_CAPS structure indicates the capabilities of a DVD decoder.
 old-location: dshow\dvd_decoder_caps.htm
 old-project: DirectShow
 ms.assetid: 7bfe5922-5d84-4ec8-87a0-e9bad102508b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_AUDIO_CAPS_AC3, DVD_AUDIO_CAPS_DTS, DVD_AUDIO_CAPS_LPCM, DVD_AUDIO_CAPS_MPEG2, DVD_AUDIO_CAPS_SDDS, DVD_DECODER_CAPS, DVD_DECODER_CAPS structure [DirectShow], DVD_DECODER_CAPSStructure, dshow.dvd_decoder_caps, strmif/DVD_DECODER_CAPS, tagDVD_DECODER_CAPS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

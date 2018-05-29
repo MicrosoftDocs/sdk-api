@@ -1,16 +1,16 @@
 ---
 UID: NL:xapobase.CXAPOParametersBase
 title: CXAPOParametersBase
-author: windows-driver-content
+author: windows-sdk-content
 description: Default implementation of the IXAPOParameters interface.
 old-location: xaudio2\cxapoparametersbase.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: CXAPOParametersBase, CXAPOParametersBase class [XAudio2 Audio Mixing APIs], CXAPOParametersBase class [XAudio2 Audio Mixing APIs],described, xapobase/CXAPOParametersBase, xaudio2.cxapoparametersbase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: xapobase.h
 req.include-header: 

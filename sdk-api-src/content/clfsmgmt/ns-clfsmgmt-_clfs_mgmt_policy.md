@@ -1,16 +1,16 @@
 ---
 UID: NS:clfsmgmt._CLFS_MGMT_POLICY
 title: "_CLFS_MGMT_POLICY"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CLFS_MGMT_POLICY structure specifies a Common Log File System (CLFS) management policy. The PolicyType member specifies the members used for a policy.
 old-location: fs\clfs_mgmt_policy.htm
 old-project: Clfs
 ms.assetid: 3f5d9c38-b299-4102-9786-115ece5b0928
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLFS_MGMT_POLICY, CLFS_MGMT_POLICY, CLFS_MGMT_POLICY structure [Files], PCLFS_MGMT_POLICY, PCLFS_MGMT_POLICY structure pointer [Files], _CLFS_MGMT_POLICY, clfsmgmt/CLFS_MGMT_POLICY, clfsmgmt/PCLFS_MGMT_POLICY, fs.clfs_mgmt_policy"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfsmgmt.h
 req.include-header: 

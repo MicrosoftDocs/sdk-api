@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentFlowsTo
 title: IUIAutomationElement::get_CurrentFlowsTo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an array of elements that indicates the reading order after the current element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentFlowsTo.htm
 old-project: WinAuto
 ms.assetid: 4b807101-1a80-4f2b-a1d3-a08cd654ec44
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentFlowsTo property [Windows Accessibility], CurrentFlowsTo property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentFlowsTo property, IUIAutomationElement.CurrentFlowsTo, IUIAutomationElement.get_CurrentFlowsTo, IUIAutomationElement::CurrentFlowsTo, IUIAutomationElement::get_CurrentFlowsTo, get_CurrentFlowsTo, uiauto.uiauto_IUIAutomationElement_CurrentFlowsTo, uiauto_IUIAutomationElement_CurrentFlowsTo, uiautomationclient/IUIAutomationElement::CurrentFlowsTo, uiautomationclient/IUIAutomationElement::get_CurrentFlowsTo, winauto.uiauto_IUIAutomationElement_CurrentFlowsTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

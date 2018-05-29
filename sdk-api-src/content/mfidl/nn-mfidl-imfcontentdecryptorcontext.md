@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFContentDecryptorContext
 title: IMFContentDecryptorContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows a decryptor to manage hardware keys and decrypt hardware samples.
 old-location: mf\imfcontentdecryptorcontext.htm
 old-project: medfound
 ms.assetid: 94DB835F-3D2A-4CC8-A1CF-10215E3D30D6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFContentDecryptorContext, IMFContentDecryptorContext interface [Media Foundation], IMFContentDecryptorContext interface [Media Foundation],described, mf.imfcontentdecryptorcontext, mfidl/IMFContentDecryptorContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11on12.ID3D11On12Device
 title: ID3D11On12Device
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles the creation, wrapping and releasing of D3D11 resources for Direct3D 11on12.
 old-location: direct3d12\id3d11on12device.htm
 old-project: direct3d12
 ms.assetid: 031F9AC2-E5C0-47F9-B084-2D2431F1187A
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D11On12Device, ID3D11On12Device interface, ID3D11On12Device interface,described, d3d11on12/ID3D11On12Device, direct3d12.id3d11on12device
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11on12.h
 req.include-header: 

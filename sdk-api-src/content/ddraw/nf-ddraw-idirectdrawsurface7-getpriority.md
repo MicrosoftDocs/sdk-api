@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetPriority
 title: IDirectDrawSurface7::GetPriority
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the texture-management priority for this texture. This method succeeds only on managed textures.
 old-location: directdraw\idirectdrawsurface7_getpriority.htm
 old-project: directdraw
 ms.assetid: 59a47305-92d5-42a3-9ad1-11c80e3744df
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GetPriority, GetPriority method [DirectDraw], GetPriority method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetPriority method, IDirectDrawSurface7.GetPriority, IDirectDrawSurface7::GetPriority, ddraw/IDirectDrawSurface7::GetPriority, directdraw.idirectdrawsurface7_getpriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

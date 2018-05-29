@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl.__WMT_VIDEOIMAGE_SAMPLE2
 title: "__WMT_VIDEOIMAGE_SAMPLE2"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMT_VIDEOIMAGE_SAMPLE2 structure describes a sample for a Video Image stream.
 old-location: wmformat\wmt_videoimage_sample2.htm
 old-project: wmformat
 ms.assetid: 0c4fa9e2-9b7b-4c9e-be58-e28da408337d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMT_VIDEOIMAGE_SAMPLE2, WMT_VIDEOIMAGE_SAMPLE2 structure [windows Media Format], __WMT_VIDEOIMAGE_SAMPLE2, wmformat.wmt_videoimage_sample2, wmsdkidl/WMT_VIDEOIMAGE_SAMPLE2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:dcompanimation.IDCompositionAnimation
 title: IDCompositionAnimation
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a function for animating one or more properties of one or more Microsoft DirectComposition objects.
 old-location: directcomp\idcompositionanimation.htm
 old-project: directcomp
 ms.assetid: f914e14b-4ac0-4591-9b7f-6b45b88baaaa
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionAnimation, IDCompositionAnimation interface [DirectComposition], IDCompositionAnimation interface [DirectComposition],described, dcompanimation/IDCompositionAnimation, directcomp.idcompositionanimation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dcompanimation.h
 req.include-header: 

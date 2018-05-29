@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsServiceHba
 title: IVdsServiceHba
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method to query HBA ports on the local system.
 old-location: base\ivdsservicehba.htm
 old-project: VDS
 ms.assetid: 0f3375fa-fc17-4808-ac29-a772a9c13850
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsServiceHba, IVdsServiceHba interface [VDS], IVdsServiceHba interface [VDS],described, base.ivdsservicehba, vds/IVdsServiceHba
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

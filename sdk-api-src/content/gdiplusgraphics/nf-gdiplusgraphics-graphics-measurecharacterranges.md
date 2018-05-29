@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.MeasureCharacterRanges
 title: Graphics::MeasureCharacterRanges
-author: windows-driver-content
+author: windows-sdk-content
 description: The Graphics::MeasureCharacterRanges method gets a set of regions each of which bounds a range of character positions within a string.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\measurecharacterranges.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Graphics class [GDI+],MeasureCharacterRanges method, Graphics.MeasureCharacterRanges, Graphics::MeasureCharacterRanges, MeasureCharacterRanges, MeasureCharacterRanges method [GDI+], MeasureCharacterRanges method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun, gdiplus._gdiplus_CLASS_Graphics_MeasureCharacterRanges_string_length_font_layoutRect_stringFormat_regionCoun
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

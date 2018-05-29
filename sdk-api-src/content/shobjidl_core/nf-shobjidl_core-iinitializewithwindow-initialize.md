@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IInitializeWithWindow.Initialize
 title: IInitializeWithWindow::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies an owner window to be used by a Windows Runtime object that is used in a desktop app.
 old-location: shell\IInitializeWithWindow_Initialize.htm
 old-project: shell
 ms.assetid: 429E5D12-9ED9-4f4f-A0E6-F95953C9113A
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IInitializeWithWindow interface [Windows Shell],Initialize method, IInitializeWithWindow.Initialize, IInitializeWithWindow::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithWindow interface, shell.IInitializeWithWindow_Initialize, shobjidl_core/IInitializeWithWindow::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

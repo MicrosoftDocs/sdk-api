@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptCacheGetHeight
 title: ScriptCacheGetHeight function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the height of the currently cached font.
 old-location: intl\scriptcachegetheight.htm
 old-project: Intl
 ms.assetid: e147b0c4-7d9f-4961-8bce-25dab716f7a2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptCacheGetHeight, ScriptCacheGetHeight function [Internationalization for Windows Applications], _win32_ScriptCacheGetHeight, intl.scriptcachegetheight, usp10/ScriptCacheGetHeight
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

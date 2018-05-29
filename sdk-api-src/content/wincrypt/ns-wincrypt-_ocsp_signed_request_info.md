@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._OCSP_SIGNED_REQUEST_INFO
 title: "_OCSP_SIGNED_REQUEST_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information for an online certificate status protocol (OCSP) request with optional signature information.
 old-location: security\ocsp_signed_request_info.htm
 old-project: SecCrypto
 ms.assetid: b3ff0843-77d8-4a9e-a3ba-97e9c398919a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*POCSP_SIGNED_REQUEST_INFO, OCSP_SIGNED_REQUEST_INFO, OCSP_SIGNED_REQUEST_INFO structure [Security], POCSP_SIGNED_REQUEST_INFO, POCSP_SIGNED_REQUEST_INFO structure pointer [Security], _OCSP_SIGNED_REQUEST_INFO, security.ocsp_signed_request_info, wincrypt/OCSP_SIGNED_REQUEST_INFO, wincrypt/POCSP_SIGNED_REQUEST_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetCurrentMode
 title: IFullScreenVideoEx::GetCurrentMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCurrentMode method retrieves the current display mode.
 old-location: dshow\ifullscreenvideoex_getcurrentmode.htm
 old-project: DirectShow
 ms.assetid: 036914da-4223-4601-9e4a-4c7840b7dd22
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCurrentMode, GetCurrentMode method [DirectShow], GetCurrentMode method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetCurrentMode method, IFullScreenVideoEx.GetCurrentMode, IFullScreenVideoEx::GetCurrentMode, IFullScreenVideoGetCurrentMode, amvideo/IFullScreenVideoEx::GetCurrentMode, dshow.ifullscreenvideoex_getcurrentmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

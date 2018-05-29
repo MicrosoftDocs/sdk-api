@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_CLOSE_SAM_USER
 title: LSA_CLOSE_SAM_USER
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a handle to a Security Accounts Manager (SAM) user account.
 old-location: security\closesamuser.htm
 old-project: SecAuthN
 ms.assetid: 1e56e38e-ba8f-4781-80f1-e60bd33250e4
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CloseSamUser, CloseSamUser function [Security], LSA_CLOSE_SAM_USER, _ssp_closesamuser, ntsecpkg/CloseSamUser, security.closesamuser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

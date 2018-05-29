@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmProviderSubscriptionsGet0
 title: FwpmProviderSubscriptionsGet0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an array of all the current provider change notification subscriptions.
 old-location: fwp\fwpmprovidersubscriptionsget0_func.htm
 old-project: FWP
 ms.assetid: c37a690a-8f5e-4f97-b676-e977ff2a5621
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmProviderSubscriptionsGet0, FwpmProviderSubscriptionsGet0 function [Filtering], fwp.fwpmprovidersubscriptionsget0_func, fwpmu/FwpmProviderSubscriptionsGet0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

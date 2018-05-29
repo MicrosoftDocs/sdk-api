@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FONTOBJ_pwszFontFilePaths
 title: FONTOBJ_pwszFontFilePaths function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FONTOBJ_pwszFontFilePaths function retrieves the file path(s) associated with a font.
 old-location: display\fontobj_pwszfontfilepaths.htm
 old-project: display
 ms.assetid: a175a282-4d0c-4379-b2f8-5e7e8cf7a137
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FONTOBJ_pwszFontFilePaths, FONTOBJ_pwszFontFilePaths function [Display Devices], display.fontobj_pwszfontfilepaths, gdifncs_51e9e4ce-3de8-4b6c-8d7f-ccd19b9bd449.xml, winddi/FONTOBJ_pwszFontFilePaths
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingOptionGroup
 title: TraceLoggingOptionGroup macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Wrapper macro for use in TRACELOGGING_DEFINE_PROVIDER to declare the GUID of the provider group that the provider is a member of.
 old-location: tracelogging\traceloggingoptiongroup.htm
 old-project: tracelogging
 ms.assetid: 5D794C46-95B2-4111-AFB8-CE488B4D1A42
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingOptionGroup, TraceLoggingOptionGroup macro, tracelogging.traceloggingoptiongroup, traceloggingprovider/TraceLoggingOptionGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

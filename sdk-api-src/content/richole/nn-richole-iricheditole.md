@@ -1,16 +1,16 @@
 ---
 UID: NN:richole.IRichEditOle
 title: IRichEditOle
-author: windows-driver-content
+author: windows-sdk-content
 description: The IRichEditOle interface exposes the Component Object Model (COM) functionality of a rich edit control. The interface can be obtained by sending the EM_GETOLEINTERFACE message. This interface has the following methods.
 old-location: controls\IRichEditOle.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRichEditOle, IRichEditOle interface [Windows Controls], IRichEditOle interface [Windows Controls],described, _win32_IRichEditOle, _win32_IRichEditOle_cpp, controls.IRichEditOle, controls._win32_IRichEditOle, richole/IRichEditOle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: richole.h
 req.include-header: 

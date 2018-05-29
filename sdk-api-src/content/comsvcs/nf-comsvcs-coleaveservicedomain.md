@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.CoLeaveServiceDomain
 title: CoLeaveServiceDomain function
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to leave code that uses COM+ services.
 old-location: cos\coleaveservicedomain.htm
 old-project: cossdk
 ms.assetid: b67b3cf6-4462-4578-b61b-c5c61d809822
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CoLeaveServiceDomain, CoLeaveServiceDomain function [COM+], _cos_CoLeaveServiceDomain, comsvcs/CoLeaveServiceDomain, cos.coleaveservicedomain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: comsvcs.h
 req.include-header: 

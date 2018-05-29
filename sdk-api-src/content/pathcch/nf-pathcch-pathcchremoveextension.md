@@ -1,16 +1,16 @@
 ---
 UID: NF:pathcch.PathCchRemoveExtension
 title: PathCchRemoveExtension function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the file name extension from a path, if one is present.This function differs from PathRemoveExtension in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchRemoveExtension.htm
 old-project: shell
 ms.assetid: 9adfb054-6d62-41bb-9036-0bf670ea24b2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathCchRemoveExtension, PathCchRemoveExtension function [Windows Shell], pathcch/PathCchRemoveExtension, shell.PathCchRemoveExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

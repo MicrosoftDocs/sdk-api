@@ -1,16 +1,16 @@
 ---
 UID: NS:vmr9._VMR9MonitorInfo
 title: "_VMR9MonitorInfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: The VMR9MonitorInfo structure is used with the VMR-9 in the IVMRMonitorConfig9::GetAvailableMonitors method to set and retrieve information about monitors on the system.
 old-location: dshow\vmr9monitorinfo.htm
 old-project: DirectShow
 ms.assetid: cb7d5c27-8762-450e-ba47-2a46e3106472
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: VMR9MonitorInfo, VMR9MonitorInfo structure [DirectShow], VMR9MonitorInfoStructure, _VMR9MonitorInfo, dshow.vmr9monitorinfo, vmr9/VMR9MonitorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vmr9.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ntddpsch._PS_ADAPTER_STATS
 title: "_PS_ADAPTER_STATS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The PS_ADAPTER_STATS structure provides statistical packet shaper information about a specified adapter. Note that the PS_ADAPTER_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.
 old-location: qos\ps_adapter_stats.htm
 old-project: QOS
 ms.assetid: 365b3987-9a7a-4c15-980d-aa39956c68c8
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*PPS_ADAPTER_STATS, PPS_ADAPTER_STATS, PPS_ADAPTER_STATS structure pointer [QOS], PS_ADAPTER_STATS, PS_ADAPTER_STATS structure [QOS], _PS_ADAPTER_STATS, _gqos_ps_adapter_stats, ntddpsch/PPS_ADAPTER_STATS, ntddpsch/PS_ADAPTER_STATS, qos.ps_adapter_stats"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddpsch.h
 req.include-header: 

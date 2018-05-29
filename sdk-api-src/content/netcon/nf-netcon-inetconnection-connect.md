@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.INetConnection.Connect
 title: INetConnection::Connect
-author: windows-driver-content
+author: windows-sdk-content
 description: The Connect method connects, or establishes, this network connection.
 old-location: ics\inetconnection_connect.htm
 old-project: ICS
 ms.assetid: ff627133-1f48-4a4d-96d5-9a2ef95b6e61
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: Connect, Connect method [ICS/ICF], Connect method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Connect method, INetConnection.Connect, INetConnection::Connect, _ics_inetconnection_connect, ics.inetconnection_connect, netcon/INetConnection::Connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

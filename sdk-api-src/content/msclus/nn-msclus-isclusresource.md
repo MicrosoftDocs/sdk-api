@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusResource
 title: ISClusResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables operations on a resource, its properties, and related objects.
 old-location: mscs\clusresource_object.htm
 old-project: MsCS
 ms.assetid: c1b66495-c428-4ee4-94e2-263fd31f61ad
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusResource, ClusResource object [Failover Cluster], ClusResource object [Failover Cluster],described, ISClusResource, _wolf_clusresource_object, msclus/ClusResource, mscs.clusresource_object
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

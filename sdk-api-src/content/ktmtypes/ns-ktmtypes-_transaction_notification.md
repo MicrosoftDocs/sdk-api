@@ -1,16 +1,16 @@
 ---
 UID: NS:ktmtypes._TRANSACTION_NOTIFICATION
 title: "_TRANSACTION_NOTIFICATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the data that is associated with a transaction notification.
 old-location: fs\transaction_notification.htm
 old-project: Ktm
 ms.assetid: 4f87de9d-a068-4ab9-8f38-b75f20552b1d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PTRANSACTION_NOTIFICATION, PTRANSACTION_NOTIFICATION, PTRANSACTION_NOTIFICATION structure pointer [Files], TRANSACTION_NOTIFICATION, TRANSACTION_NOTIFICATION structure [Files], _TRANSACTION_NOTIFICATION, fs.transaction_notification, ktmtypes/PTRANSACTION_NOTIFICATION, ktmtypes/TRANSACTION_NOTIFICATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ktmtypes.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarMonthName
 title: VarMonthName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a string containing the localized month name.
 old-location: automat\varmonthname.htm
 old-project: automat
 ms.assetid: 8bb760ae-2306-4c32-805d-58e5402e6d78
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarMonthName, VarMonthName function [Automation], _oa96_VarMonthName, automat.varmonthname, oleauto/VarMonthName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

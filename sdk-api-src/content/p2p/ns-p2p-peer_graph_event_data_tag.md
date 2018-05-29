@@ -1,16 +1,16 @@
 ---
 UID: NS:p2p.peer_graph_event_data_tag
 title: peer_graph_event_data_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PEER_GRAPH_EVENT_DATA structure contains data associated with a peer event.
 old-location: p2p\peer_graph_event_data.htm
 old-project: P2PSdk
 ms.assetid: a052bff8-e90c-4ff7-8362-edb94b130f38
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*PPEER_GRAPH_EVENT_DATA, PEER_GRAPH_EVENT_DATA, PEER_GRAPH_EVENT_DATA structure [Peer Networking], PPEER_GRAPH_EVENT_DATA, PPEER_GRAPH_EVENT_DATA structure pointer [Peer Networking], p2p.peer_graph_event_data, p2p/PPEER_GRAPH_EVENT_DATA, p2p/peer_graph_event_data_tag, peer_graph_event_data_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingRegister
 title: TraceLoggingRegister function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a TraceLogging provider so that it can be used for to log events.
 old-location: tracelogging\traceloggingregister.htm
 old-project: tracelogging
 ms.assetid: 621A7DA3-8E75-431C-B747-FFCE72EB2110
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingRegister, TraceLoggingRegister function, tracelogging.traceloggingregister, traceloggingprovider/TraceLoggingRegister
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: traceloggingprovider.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmConnectionSubscribe0
 title: FwpmConnectionSubscribe0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to request the delivery of notifications about changes to a connection object.
 old-location: fwp\fwpmconnectionsubscribe0.htm
 old-project: FWP
 ms.assetid: 86fe40b0-aada-44e1-91dd-0e825589159d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmConnectionSubscribe0, FwpmConnectionSubscribe0 function [Filtering], fwp.fwpmconnectionsubscribe0, fwpmu/FwpmConnectionSubscribe0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

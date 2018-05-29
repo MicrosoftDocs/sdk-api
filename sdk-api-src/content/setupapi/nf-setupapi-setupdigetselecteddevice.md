@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiGetSelectedDevice
 title: SetupDiGetSelectedDevice function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiGetSelectedDevice function retrieves the selected device information element in a device information set.
 old-location: devinst\setupdigetselecteddevice.htm
 old-project: devinst
 ms.assetid: 317ed10b-f779-449e-8b57-329279629cc6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiGetSelectedDevice, SetupDiGetSelectedDevice function [Device and Driver Installation], devinst.setupdigetselecteddevice, di-rtns_c28297c0-dcc3-4bfa-9448-46ec7e9ac3a0.xml, setupapi/SetupDiGetSelectedDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

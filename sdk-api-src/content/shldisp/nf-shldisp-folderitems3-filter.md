@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.FolderItems3.Filter
 title: FolderItems3::Filter
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a wildcard filter to apply to the items returned.
 old-location: shell\FolderItems3_Filter.htm
 old-project: shell
 ms.assetid: 19ca82c5-16ff-46c7-8ea1-ddbfc2ce3ac9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Filter, Filter method [Windows Shell], Filter method [Windows Shell],FolderItems3 object, FolderItems3 object [Windows Shell],Filter method, FolderItems3.Filter, FolderItems3::Filter, _win32_FolderItems3_Filter, shell.FolderItems3_Filter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymCleanup
 title: SymCleanup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deallocates all resources associated with the process handle.
 old-location: base\symcleanup.htm
 old-project: Debug
 ms.assetid: 56107b71-a3f9-49af-9a90-df3585aed7c8
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymCleanup, SymCleanup function, _win32_symcleanup, base.symcleanup, dbghelp/SymCleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

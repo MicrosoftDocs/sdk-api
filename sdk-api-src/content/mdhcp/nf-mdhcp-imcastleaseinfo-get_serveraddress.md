@@ -1,16 +1,16 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_ServerAddress
 title: IMcastLeaseInfo::get_ServerAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_ServerAddress method obtains a string representing the address of the multicast server granting this lease.
 old-location: tapi3\imcastleaseinfo_get_serveraddress.htm
 old-project: Tapi
 ms.assetid: 15f33689-07d5-4bd9-978a-2b5d9088b2ed
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_ServerAddress method, IMcastLeaseInfo.get_ServerAddress, IMcastLeaseInfo::get_ServerAddress, _tapi3_imcastleaseinfo_get_serveraddress, get_ServerAddress, get_ServerAddress method [TAPI 2.2], get_ServerAddress method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_ServerAddress, tapi3.imcastleaseinfo_get_serveraddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mdhcp.h
 req.include-header: 

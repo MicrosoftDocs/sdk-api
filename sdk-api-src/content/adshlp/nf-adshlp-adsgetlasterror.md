@@ -1,16 +1,16 @@
 ---
 UID: NF:adshlp.ADsGetLastError
 title: ADsGetLastError function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADsGetLastError function retrieves the calling thread's last-error code value.
 old-location: adsi\adsgetlasterror.htm
 old-project: ADSI
 ms.assetid: 5e9899e9-e51e-4785-812a-f86eac6e2006
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADsGetLastError, ADsGetLastError function [ADSI], _ds_adsgetlasterror, adshlp/ADsGetLastError, adsi.adsgetlasterror
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 

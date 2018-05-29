@@ -1,16 +1,16 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerTarget.Unpeg
 title: IReferenceTrackerTarget::xaml
-author: windows-driver-content
+author: windows-sdk-content
 description: Marks that the reference tracker target is no longer in use by the XAML framework, and can be collected.
 old-location: winrt\ireferencetrackertarget_unpeg.htm
 old-project: WinRT
 ms.assetid: c070957f-3bf8-4e72-ad56-e9cb023692c6
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IReferenceTrackerTarget interface [Windows Runtime],Unpeg method, IReferenceTrackerTarget.Unpeg, IReferenceTrackerTarget.xaml, IReferenceTrackerTarget::Unpeg, IReferenceTrackerTarget::xaml, Unpeg, Unpeg method [Windows Runtime], Unpeg method [Windows Runtime],IReferenceTrackerTarget interface, windows/IReferenceTrackerTarget::Unpeg, winrt.ireferencetrackertarget_unpeg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 

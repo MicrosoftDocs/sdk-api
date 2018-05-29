@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.FindVolumeClose
 title: FindVolumeClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the specified volume search handle.
 old-location: fs\findvolumeclose.htm
 old-project: FileIO
 ms.assetid: 091a2f0c-df38-4fef-a926-3507545bb58d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FindVolumeClose, FindVolumeClose function [Files], _win32_findvolumeclose, base.findvolumeclose, fileapi/FindVolumeClose, fs.findvolumeclose, winbase/FindVolumeClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

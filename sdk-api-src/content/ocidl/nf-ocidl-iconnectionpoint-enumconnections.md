@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IConnectionPoint.EnumConnections
 title: IConnectionPoint::EnumConnections
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an enumerator object to iterate through the current connections for this connection point.
 old-location: com\iconnectionpoint_enumconnections.htm
 old-project: com
 ms.assetid: 424aab99-990e-4b45-9b58-ac22b2cee87c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnumConnections, EnumConnections method [COM], EnumConnections method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],EnumConnections method, IConnectionPoint.EnumConnections, IConnectionPoint::EnumConnections, _com_iconnectionpoint_enumconnections, com.iconnectionpoint_enumconnections, ocidl/IConnectionPoint::EnumConnections
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

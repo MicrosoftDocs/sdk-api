@@ -1,16 +1,16 @@
 ---
 UID: NF:icontact.IContactProperties.CreateArrayNode
 title: IContactProperties::CreateArrayNode
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new array node in a multi-value property.
 old-location: wincontacts\_wincontacts_IContactProperties_CreateArrayNode.htm
 old-project: wincontacts
 ms.assetid: 422b9991-c8ac-4e8b-9432-1ccba02f7cfd
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: CreateArrayNode, CreateArrayNode method [Windows Contacts], CreateArrayNode method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],CreateArrayNode method, IContactProperties.CreateArrayNode, IContactProperties::CreateArrayNode, _wincontacts_IContactProperties_CreateArrayNode, icontact/IContactProperties::CreateArrayNode, wincontacts._wincontacts_IContactProperties_CreateArrayNode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

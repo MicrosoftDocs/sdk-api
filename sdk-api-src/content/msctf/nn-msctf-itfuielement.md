@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfUIElement
 title: ITfUIElement
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfUIElement interface is a base interface of the UIElement object and is implemented by a text service.
 old-location: tsf\itfuielement.htm
 old-project: TSF
 ms.assetid: 651c3ca1-5e5b-4978-80d2-2183bd158610
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfUIElement, ITfUIElement interface [Text Services Framework], ITfUIElement interface [Text Services Framework],described, _tsf_itfuielement_ref, msctf/ITfUIElement, tsf.itfuielement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

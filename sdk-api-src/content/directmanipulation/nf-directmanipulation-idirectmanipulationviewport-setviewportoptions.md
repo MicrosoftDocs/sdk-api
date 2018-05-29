@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetViewportOptions
 title: IDirectManipulationViewport::SetViewportOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets how the viewport handles input and output.
 old-location: directmanipulation\idirectmanipulationviewport_setviewportoptions.htm
 old-project: directmanipulation
 ms.assetid: F2B861B9-9E86-4AEE-B86C-03BF37F0988B
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetViewportOptions method, IDirectManipulationViewport.SetViewportOptions, IDirectManipulationViewport::SetViewportOptions, SetViewportOptions, SetViewportOptions method [Direct Manipulation], SetViewportOptions method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setviewportoptions, directmanipulation/IDirectManipulationViewport::SetViewportOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

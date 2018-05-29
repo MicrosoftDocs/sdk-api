@@ -1,16 +1,16 @@
 ---
 UID: NS:mprapi._IKEV2_PROJECTION_INFO2
 title: "_IKEV2_PROJECTION_INFO2"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information obtained during Internet Key Exchange (IKE) negotiation.
 old-location: rras\ikev2_projection_info2.htm
 old-project: RRAS
 ms.assetid: 577a276e-e2f4-46d6-ae0b-2ba0f0bac67f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PIKEV2_PROJECTION_INFO2, IKEV2_PROJECTION_INFO2, IKEV2_PROJECTION_INFO2 structure [RAS], IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, MPRAPI_IKEV2_AUTH_USING_CERT, MPRAPI_IKEV2_AUTH_USING_EAP, PIKEV2_PROJECTION_INFO2, PIKEV2_PROJECTION_INFO2 structure pointer [RAS], _IKEV2_PROJECTION_INFO2, mprapi/IKEV2_PROJECTION_INFO2, mprapi/PIKEV2_PROJECTION_INFO2, rras.ikev2_projection_info2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrFromTimeIntervalW
 title: StrFromTimeIntervalW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a time interval, specified in milliseconds, to a string.
 old-location: shell\StrFromTimeInterval.htm
 old-project: shell
 ms.assetid: e2a9492f-acfa-4cbd-8426-895e361f0174
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrFromTimeInterval, StrFromTimeInterval function [Windows Shell], StrFromTimeIntervalA, StrFromTimeIntervalW, _win32_StrFromTimeInterval, shell.StrFromTimeInterval, shlwapi/StrFromTimeInterval, shlwapi/StrFromTimeIntervalA, shlwapi/StrFromTimeIntervalW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

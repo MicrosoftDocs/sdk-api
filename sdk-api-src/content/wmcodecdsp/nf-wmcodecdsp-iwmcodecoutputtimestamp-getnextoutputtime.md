@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecOutputTimestamp.GetNextOutputTime
 title: IWMCodecOutputTimestamp::GetNextOutputTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries the decoder for the time stamp of the upcoming output sample. Use this method if you need to know the time of the sample before calling IMediaObject::ProcessOutput or IMFTransform::ProcessOutput to get the sample.
 old-location: mf\iwmcodecoutputtimestampgetnextoutputtime.htm
 old-project: medfound
 ms.assetid: 8af7e77b-da10-4d6a-b7a1-515a54aa3a20
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetNextOutputTime, GetNextOutputTime method [Media Foundation], GetNextOutputTime method [Media Foundation],IWMCodecOutputTimestamp interface, IWMCodecOutputTimestamp interface [Media Foundation],GetNextOutputTime method, IWMCodecOutputTimestamp.GetNextOutputTime, IWMCodecOutputTimestamp::GetNextOutputTime, codecapi.iwmcodecoutputtimestampgetnextoutputtime, mf.iwmcodecoutputtimestampgetnextoutputtime, wmcodecdsp/ IWMCodecOutputTimestamp::GetNextOutputTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._HTTPSPolicyCallbackData
 title: "_HTTPSPolicyCallbackData"
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds policy information used in the verification of Secure Sockets Layer (SSL) client/server certificate chains.
 old-location: security\ssl_extra_cert_chain_policy_para.htm
 old-project: SecCrypto
 ms.assetid: 3422693a-3fad-4ed8-9fab-d9a185476123
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PHTTPSPolicyCallbackData, *PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHTYPE_CLIENT, AUTHTYPE_SERVER, HTTPSPolicyCallbackData, HTTPSPolicyCallbackData structure [Security], PHTTPSPolicyCallbackData, PHTTPSPolicyCallbackData structure pointer [Security], PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, PSSL_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], SECURITY_FLAG_IGNORE_CERT_CN_INVALID, SECURITY_FLAG_IGNORE_CERT_DATE_INVALID, SECURITY_FLAG_IGNORE_REVOCATION, SECURITY_FLAG_IGNORE_UNKNOWN_CA, SECURITY_FLAG_IGNORE_WRONG_USAGE, SSL_EXTRA_CERT_CHAIN_POLICY_PARA, SSL_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], _HTTPSPolicyCallbackData, security.ssl_extra_cert_chain_policy_para, wincrypt/PHTTPSPolicyCallbackData, wincrypt/PSSL_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/SSL_EXTRA_CERT_CHAIN_POLICY_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

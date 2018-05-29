@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiGetFeatureUsageA
 title: MsiGetFeatureUsageA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiGetFeatureUsage function returns the usage metrics for a product feature.
 old-location: setup\msigetfeatureusage.htm
 old-project: Msi
 ms.assetid: ab347f39-e1f6-4cb2-85ff-bad872b5256f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiGetFeatureUsage, MsiGetFeatureUsage function, MsiGetFeatureUsageA, MsiGetFeatureUsageW, _msi_msigetfeatureusage, msi/MsiGetFeatureUsage, msi/MsiGetFeatureUsageA, msi/MsiGetFeatureUsageW, setup.msigetfeatureusage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

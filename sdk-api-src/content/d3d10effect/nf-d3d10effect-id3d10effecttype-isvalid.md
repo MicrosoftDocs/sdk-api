@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectType.IsValid
 title: ID3D10EffectType::IsValid
-author: windows-driver-content
+author: windows-sdk-content
 description: Tests that the effect type is valid.
 old-location: direct3d10\id3d10effecttype_isvalid.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttype_isvalid.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 92917948-9af2-cb84-d571-0492115a9dfa, ID3D10EffectType interface [Direct3D 10],IsValid method, ID3D10EffectType.IsValid, ID3D10EffectType::IsValid, IsValid, IsValid method [Direct3D 10], IsValid method [Direct3D 10],ID3D10EffectType interface, d3d10effect/ID3D10EffectType::IsValid, direct3d10.id3d10effecttype_isvalid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

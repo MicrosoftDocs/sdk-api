@@ -1,16 +1,16 @@
 ---
 UID: NE:tapi3if.CALL_MEDIA_EVENT_CAUSE
 title: CALL_MEDIA_EVENT_CAUSE
-author: windows-driver-content
+author: windows-sdk-content
 description: The CALL_MEDIA_EVENT_CAUSE enum is used by ITCallMediaEvent::get_Cause method to return a description of what caused a media event, such as a device timeout.
 old-location: tapi3\call_media_event_cause.htm
 old-project: Tapi
 ms.assetid: c43e0a72-decc-47e3-bd5e-d94a95a2e404
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CALL_MEDIA_EVENT_CAUSE, CALL_MEDIA_EVENT_CAUSE enumeration [TAPI 2.2], CMC_BAD_DEVICE, CMC_CONNECT_FAIL, CMC_LOCAL_REQUEST, CMC_MEDIA_RECOVERED, CMC_MEDIA_TIMEOUT, CMC_REMOTE_REQUEST, CMC_UNKNOWN, _tapi3_call_media_event_cause, tapi3.call_media_event_cause, tapi3if/CALL_MEDIA_EVENT_CAUSE, tapi3if/CMC_BAD_DEVICE, tapi3if/CMC_CONNECT_FAIL, tapi3if/CMC_LOCAL_REQUEST, tapi3if/CMC_MEDIA_RECOVERED, tapi3if/CMC_MEDIA_TIMEOUT, tapi3if/CMC_REMOTE_REQUEST, tapi3if/CMC_UNKNOWN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:xapo.IXAPOParameters
 title: IXAPOParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: An optional interface that allows an XAPO to use effect-specific parameters.
 old-location: xaudio2\ixapoparameters.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixapoparameters.IXAPOParameters
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: IXAPOParameters, IXAPOParameters interface [XAudio2 Audio Mixing APIs], IXAPOParameters interface [XAudio2 Audio Mixing APIs],described, xapo/IXAPOParameters, xaudio2.ixapoparameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xapo.h
 req.include-header: 

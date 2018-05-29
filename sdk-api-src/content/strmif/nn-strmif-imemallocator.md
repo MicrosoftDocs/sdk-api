@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IMemAllocator
 title: IMemAllocator
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMemAllocator interface allocates media samples, for moving data between pins.This interface is used by pins that share allocators, when the input pin exposes the IMemInputPin interface.
 old-location: dshow\imemallocator.htm
 old-project: DirectShow
 ms.assetid: 77a161c4-706c-4270-a343-9e16c03cd590
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMemAllocator, IMemAllocator interface [DirectShow], IMemAllocator interface [DirectShow],described, IMemAllocatorInterface, dshow.imemallocator, strmif/IMemAllocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

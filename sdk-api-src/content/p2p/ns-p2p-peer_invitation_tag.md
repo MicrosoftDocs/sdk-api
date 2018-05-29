@@ -1,16 +1,16 @@
 ---
 UID: NS:p2p.peer_invitation_tag
 title: peer_invitation_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PEER_INVITATION structure contains a request to initiate or join a peer collaboration activity.
 old-location: p2p\peer_invitation.htm
 old-project: P2PSdk
 ms.assetid: b74b45c0-760f-4008-87dd-9fdea0d4be05
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*PPEER_INVITATION, PEER_INVITATION, PEER_INVITATION structure [Peer Networking], PPEER_INVITATION, PPEER_INVITATION structure pointer [Peer Networking], p2p.peer_invitation, p2p/PEER_INVITATION, p2p/PPEER_INVITATION, peer_invitation_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

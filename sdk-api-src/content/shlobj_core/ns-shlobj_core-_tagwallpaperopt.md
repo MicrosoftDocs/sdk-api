@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj_core._tagWALLPAPEROPT
 title: "_tagWALLPAPEROPT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the wallpaper display options. Used with members of the IActiveDesktop interface.
 old-location: shell\WALLPAPEROPT.htm
 old-project: shell
 ms.assetid: 5fafbc3a-606c-4175-ac3a-132a1bfded07
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPWALLPAPEROPT, WALLPAPEROPT, WALLPAPEROPT structure [Windows Shell], WPSTYLE_CENTER, WPSTYLE_CROPTOFIT, WPSTYLE_KEEPASPECT, WPSTYLE_MAX, WPSTYLE_SPAN, WPSTYLE_STRETCH, WPSTYLE_TILE, _tagWALLPAPEROPT, _win32_WALLPAPEROPT, shell.WALLPAPEROPT, shlobj_core/WALLPAPEROPT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

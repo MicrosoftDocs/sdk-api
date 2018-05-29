@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetToneCurve
 title: IWICDevelopRaw::SetToneCurve
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the tone curve for the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_settonecurve.htm
 old-project: wic
 ms.assetid: cfb0b67d-7eb1-4bbb-90be-33ca82b9460f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetToneCurve method, IWICDevelopRaw.SetToneCurve, IWICDevelopRaw::SetToneCurve, SetToneCurve, SetToneCurve method [Windows Imaging Component], SetToneCurve method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_settonecurve, wic._wic_codec_iwicdevelopraw_settonecurve, wincodec/IWICDevelopRaw::SetToneCurve
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

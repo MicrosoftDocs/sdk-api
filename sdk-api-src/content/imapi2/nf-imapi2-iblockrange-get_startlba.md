@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IBlockRange.get_StartLba
 title: IBlockRange::get_StartLba
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the start sector of the range described by IBlockRange.
 old-location: imapi\iblockrange_get_startlba.htm
 old-project: imapi
 ms.assetid: 6891aebd-3795-4e1c-a065-1579a984de41
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IBlockRange interface [IMAPI],get_StartLba method, IBlockRange.get_StartLba, IBlockRange::get_StartLba, get_StartLba, get_StartLba method [IMAPI], get_StartLba method [IMAPI],IBlockRange interface, imapi.iblockrange_get_startlba, imapi2/IBlockRange::get_StartLba
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shidfact.CItemIDFactory.CreateItemID
 title: CItemIDFactory::CreateItemID
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an ItemID from the supplied data.
 old-location: shell\citemidfactory_createitemid.htm
 old-project: shell
 ms.assetid: 2129F4F3-A989-4CE2-ABFF-FE83DD78D4CE
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],CreateItemID method, CItemIDFactory.CreateItemID, CItemIDFactory::CreateItemID, CreateItemID, CreateItemID method [Windows Shell], CreateItemID method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_createitemid, shidfact/CItemIDFactory::CreateItemID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shidfact.h
 req.include-header: 

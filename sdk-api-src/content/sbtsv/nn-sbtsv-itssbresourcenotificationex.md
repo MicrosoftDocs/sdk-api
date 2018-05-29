@@ -1,16 +1,16 @@
 ---
 UID: NN:sbtsv.ITsSbResourceNotificationEx
 title: ITsSbResourceNotificationEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that Remote Desktop Connection Broker (RD Connection Broker) uses to notify plug-ins of any state changes that occur in the session, target, and client connection objects.
 old-location: termserv\itssbresourcenotificationex.htm
 old-project: TermServ
 ms.assetid: 5e40535d-62b2-4d16-a995-61c24aefb2e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbResourceNotificationEx, ITsSbResourceNotificationEx interface [Remote Desktop Services], ITsSbResourceNotificationEx interface [Remote Desktop Services],described, sbtsv/ITsSbResourceNotificationEx, termserv.itssbresourcenotificationex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

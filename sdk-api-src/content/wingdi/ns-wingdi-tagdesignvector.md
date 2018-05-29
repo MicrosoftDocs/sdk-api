@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagDESIGNVECTOR
 title: tagDESIGNVECTOR
-author: windows-driver-content
+author: windows-sdk-content
 description: The DESIGNVECTOR structure is used by an application to specify values for the axes of a multiple master font.
 old-location: gdi\designvector.htm
 old-project: gdi
 ms.assetid: aeff9901-2405-44aa-ba46-8d784afd6b76
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPDESIGNVECTOR, *PDESIGNVECTOR, DESIGNVECTOR, DESIGNVECTOR structure [Windows GDI], PDESIGNVECTOR, PDESIGNVECTOR structure pointer [Windows GDI], _win32_DESIGNVECTOR_str, gdi.designvector, tagDESIGNVECTOR, wingdi/DESIGNVECTOR, wingdi/PDESIGNVECTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

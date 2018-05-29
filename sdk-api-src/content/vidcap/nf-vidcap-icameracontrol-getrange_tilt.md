@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Tilt
 title: ICameraControl::getRange_Tilt
-author: windows-driver-content
+author: windows-sdk-content
 description: The getRange_Tilt method returns the range of tilt angles supported by the camera.
 old-location: dshow\icameracontrol_getrange_tilt.htm
 old-project: DirectShow
 ms.assetid: d48920cf-677e-4014-a998-426bb45d1b46
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_Tilt method, ICameraControl.getRange_Tilt, ICameraControl::getRange_Tilt, ICameraControlgetRange_Tilt, dshow.icameracontrol_getrange_tilt, getRange_Tilt, getRange_Tilt method [DirectShow], getRange_Tilt method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Tilt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

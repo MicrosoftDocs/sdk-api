@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetActiveView
 title: ITextStoreAnchor::GetActiveView
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStoreAnchor::GetActiveView method returns a TsViewCookie data type that specifies the current active view. TSF supports only a single active view, so a given text store should always return the same TsViewCookie data type.
 old-location: tsf\itextstoreanchor_getactiveview.htm
 old-project: TSF
 ms.assetid: b1940cac-7295-41c5-bd26-8be1d1fa4da9
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetActiveView, GetActiveView method [Text Services Framework], GetActiveView method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetActiveView method, ITextStoreAnchor.GetActiveView, ITextStoreAnchor::GetActiveView, textstor/ITextStoreAnchor::GetActiveView, tsf.itextstoreanchor_getactiveview
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

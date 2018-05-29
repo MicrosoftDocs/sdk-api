@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarBoolFromR8
 title: VarBoolFromR8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a double value to a Boolean value.
 old-location: automat\varboolfromr8.htm
 old-project: automat
 ms.assetid: 075a15f7-cd3b-4a6c-ae46-408da0dbd7ba
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarBoolFromR8, VarBoolFromR8 function [Automation], _oa96_VarBoolFromR8, automat.varboolfromr8, oleauto/VarBoolFromR8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

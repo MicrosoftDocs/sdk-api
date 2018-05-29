@@ -1,16 +1,16 @@
 ---
 UID: NS:restartmanager._RM_PROCESS_INFO
 title: "_RM_PROCESS_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an application that is to be registered with the Restart Manager.
 old-location: rstmgr\rm_process_info.htm
 old-project: RstMgr
 ms.assetid: 27e593f9-8ff0-4de4-87ca-7fa5f324468a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PRM_PROCESS_INFO, RM_PROCESS_INFO, RM_PROCESS_INFO structure [Restart Mgr], _RM_PROCESS_INFO, restartmanager/_RM_PROCESS_INFO, rstmgr.rm_process_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: restartmanager.h
 req.include-header: 

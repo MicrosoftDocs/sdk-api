@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.GetPriorityClass
 title: GetPriorityClass function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the priority class for the specified process. This value, together with the priority value of each thread of the process, determines each thread's base priority level.
 old-location: base\getpriorityclass.htm
 old-project: ProcThread
 ms.assetid: 2a16b18f-8efa-43f0-9f7d-d38cc8a153d3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetPriorityClass, GetPriorityClass function, _win32_getpriorityclass, base.getpriorityclass, processthreadsapi/GetPriorityClass, winbase/GetPriorityClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

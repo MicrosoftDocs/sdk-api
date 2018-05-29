@@ -1,16 +1,16 @@
 ---
 UID: NF:wsipv6ok.inet_addr
 title: inet_addr macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The inet_addr function converts a string containing an IPv4 dotted-decimal address into a proper address for the IN_ADDR structure.
 old-location: winsock\inet_addr_2.htm
 old-project: WinSock
 ms.assetid: 7d6df658-9d83-45c7-97e7-b2a016a73847
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "_win32_inet_addr_2, inet_addr, inet_addr function [Winsock], winsock.inet_addr_2, wsipv6ok/inet_addr"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h

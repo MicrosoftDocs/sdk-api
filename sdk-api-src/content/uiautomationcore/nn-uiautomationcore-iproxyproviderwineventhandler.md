@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.IProxyProviderWinEventHandler
 title: IProxyProviderWinEventHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that is implemented by proxy providers to handle WinEvents.
 old-location: winauto\uiauto_IProxyProviderWinEventHandler.htm
 old-project: WinAuto
 ms.assetid: 3105ce04-fc99-494a-8db2-1a221af61c0a
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IProxyProviderWinEventHandler, IProxyProviderWinEventHandler interface [Windows Accessibility], IProxyProviderWinEventHandler interface [Windows Accessibility],described, uiauto.uiauto_IProxyProviderWinEventHandler, uiauto_IProxyProviderWinEventHandler, uiautomationcore/IProxyProviderWinEventHandler, winauto.uiauto_IProxyProviderWinEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

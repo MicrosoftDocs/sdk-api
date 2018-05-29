@@ -1,16 +1,16 @@
 ---
 UID: NF:winstring.WindowsStringHasEmbeddedNull
 title: WindowsStringHasEmbeddedNull function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the specified string has embedded null characters.
 old-location: winrt\windowsstringhasembeddednull.htm
 old-project: WinRT
 ms.assetid: BE3B0198-C6D1-4F3C-A9E2-F186FB025DCE
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: WindowsStringHasEmbeddedNull, WindowsStringHasEmbeddedNull function [Windows Runtime], winrt.windowsstringhasembeddednull, winstring/WindowsStringHasEmbeddedNull
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

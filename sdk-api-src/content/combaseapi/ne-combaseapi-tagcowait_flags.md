@@ -1,16 +1,16 @@
 ---
 UID: NE:combaseapi.tagCOWAIT_FLAGS
 title: tagCOWAIT_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the behavior of the CoWaitForMultipleHandles function.
 old-location: com\cowait_flags.htm
 old-project: com
 ms.assetid: e6f8300c-f74b-4383-8ee5-519a0ed0b358
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: COWAIT_ALERTABLE, COWAIT_DISPATCH_CALLS, COWAIT_DISPATCH_WINDOW_MESSAGES, COWAIT_FLAGS, COWAIT_FLAGS enumeration [COM], COWAIT_INPUTAVAILABLE, COWAIT_WAITALL, _com_COWAIT_FLAGS, com.cowait_flags, combaseapi/COWAIT_ALERTABLE, combaseapi/COWAIT_DISPATCH_CALLS, combaseapi/COWAIT_DISPATCH_WINDOW_MESSAGES, combaseapi/COWAIT_FLAGS, combaseapi/COWAIT_INPUTAVAILABLE, combaseapi/COWAIT_WAITALL, tagCOWAIT_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: combaseapi.h
 req.include-header: Objbase.h

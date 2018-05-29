@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzScope2.OpenRoleAssignment
 title: IAzScope2::OpenRoleAssignment
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an IAzRoleAssignment object with the specified name in this scope.
 old-location: security\iazscope2_openroleassignment.htm
 old-project: SecAuthZ
 ms.assetid: cb7560d0-da5c-444d-9944-b6db980985bc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzScope2 interface [Security],OpenRoleAssignment method, IAzScope2.OpenRoleAssignment, IAzScope2::OpenRoleAssignment, OpenRoleAssignment, OpenRoleAssignment method [Security], OpenRoleAssignment method [Security],IAzScope2 interface, azroles/IAzScope2::OpenRoleAssignment, security.iazscope2_openroleassignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

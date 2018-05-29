@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfContextComposition
 title: ITfContextComposition
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfContextComposition interface is implemented by the TSF manager and is used by a text service to create and manipulate compositions. An instance of this interface is provided by ITfContext::QueryInterface with IID_ITfContextComposition.
 old-location: tsf\itfcontextcomposition.htm
 old-project: TSF
 ms.assetid: cf02c50c-dca8-47ad-b8ff-0fa3884db674
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfContextComposition, ITfContextComposition interface [Text Services Framework], ITfContextComposition interface [Text Services Framework],described, _tsf_itfcontextcomposition_ref, msctf/ITfContextComposition, tsf.itfcontextcomposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

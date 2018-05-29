@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.SetKeyState
 title: IExecuteCommand::SetKeyState
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a value based on the current state of the keys CTRL and SHIFT.
 old-location: shell\IExecuteCommand_SetKeyState.htm
 old-project: shell
 ms.assetid: 66f051a1-eb45-43c1-bf09-4be6ca2a1c7c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetKeyState method, IExecuteCommand.SetKeyState, IExecuteCommand::SetKeyState, MK_CONTROL, MK_SHIFT, SetKeyState, SetKeyState method [Windows Shell], SetKeyState method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetKeyState, shell.IExecuteCommand_SetKeyState, shobjidl_core/IExecuteCommand::SetKeyState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

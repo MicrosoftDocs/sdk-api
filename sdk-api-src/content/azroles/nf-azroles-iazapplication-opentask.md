@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplication.OpenTask
 title: IAzApplication::OpenTask
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an IAzTask object with the specified name.
 old-location: security\iazapplication_opentask.htm
 old-project: SecAuthZ
 ms.assetid: 2d34a56d-ada8-4d7d-b026-4f1abfa290ac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzApplication object [Security],OpenTask method, IAzApplication interface [Security],OpenTask method, IAzApplication.OpenTask, IAzApplication::OpenTask, OpenTask, OpenTask method [Security], OpenTask method [Security],AzApplication object, OpenTask method [Security],IAzApplication interface, azroles/IAzApplication::OpenTask, security.iazapplication_opentask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

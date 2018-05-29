@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IProgressItem.get_Description
 title: IProgressItem::get_Description
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the description in the progress item.
 old-location: imapi\iprogressitem_get_description.htm
 old-project: imapi
 ms.assetid: 72da165f-a875-4f26-a2ba-701ad0a4a9d1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IProgressItem interface [IMAPI],get_Description method, IProgressItem.get_Description, IProgressItem::get_Description, get_Description, get_Description method [IMAPI], get_Description method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_description, imapi2fs/IProgressItem::get_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

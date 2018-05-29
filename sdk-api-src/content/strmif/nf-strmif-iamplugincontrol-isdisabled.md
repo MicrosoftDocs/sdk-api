@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMPluginControl.IsDisabled
 title: IAMPluginControl::IsDisabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries whether a class identifier (CLSID) appears in the blocked list.
 old-location: dshow\iamplugincontrol_isdisabled.htm
 old-project: DirectShow
 ms.assetid: 2d6bae28-7c26-47c4-8633-9ecc60293dc6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMPluginControl interface [DirectShow],IsDisabled method, IAMPluginControl.IsDisabled, IAMPluginControl::IsDisabled, IsDisabled, IsDisabled method [DirectShow], IsDisabled method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_isdisabled, strmif/IAMPluginControl::IsDisabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

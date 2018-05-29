@@ -1,16 +1,16 @@
 ---
 UID: NS:vfw.ICOPEN
 title: ICOPEN
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICOPEN structure contains information about the data stream being compressed or decompressed, the version number of the driver, and how the driver is used.
 old-location: multimedia\icopen_struct.htm
 old-project: Multimedia
 ms.assetid: 6c29961c-7f9c-49e5-84aa-a5f4ff1cbbd1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICMODE_COMPRESS, ICMODE_DECOMPRESS, ICMODE_DRAW, ICMODE_QUERY, ICOPEN, ICOPEN structure [Windows Multimedia], multimedia.icopen_COLLISION563, multimedia.icopen_struct, vfw/ICOPEN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

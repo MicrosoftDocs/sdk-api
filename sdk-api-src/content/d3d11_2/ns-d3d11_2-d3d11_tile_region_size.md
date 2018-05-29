@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11_2.D3D11_TILE_REGION_SIZE
 title: D3D11_TILE_REGION_SIZE
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the size of a tiled region.
 old-location: direct3d11\d3d11_tile_region_size.htm
 old-project: direct3d11
 ms.assetid: D4A93462-9A2F-416A-9CC1-AC24DFF35890
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_TILE_REGION_SIZE, D3D11_TILE_REGION_SIZE structure [Direct3D 11], d3d11_2/D3D11_TILE_REGION_SIZE, direct3d11.d3d11_tile_region_size
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_2.h
 req.include-header: 

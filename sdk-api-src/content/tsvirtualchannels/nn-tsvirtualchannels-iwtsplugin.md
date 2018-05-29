@@ -1,16 +1,16 @@
 ---
 UID: NN:tsvirtualchannels.IWTSPlugin
 title: IWTSPlugin
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows for the Remote Desktop Connection (RDC) client plug-in to be loaded by the Remote Desktop Connection (RDC) client.
 old-location: termserv\iwtsplugin.htm
 old-project: TermServ
 ms.assetid: e34caf2c-1eb6-40eb-9407-20ed4fde9cdb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSPlugin, IWTSPlugin interface [Remote Desktop Services], IWTSPlugin interface [Remote Desktop Services],described, termserv.iwtsplugin, tsvirtualchannels/IWTSPlugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsvirtualchannels.h
 req.include-header: 

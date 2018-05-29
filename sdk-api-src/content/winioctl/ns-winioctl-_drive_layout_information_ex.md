@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._DRIVE_LAYOUT_INFORMATION_EX
 title: "_DRIVE_LAYOUT_INFORMATION_EX"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains extended information about a drive's partitions.
 old-location: fs\drive_layout_information_ex_str.htm
 old-project: FileIO
 ms.assetid: 381c87a8-fe40-4251-a4df-dddc9e2a126d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PDRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX structure [Files], PARTITION_STYLE_GPT, PARTITION_STYLE_MBR, PARTITION_STYLE_RAW, PDRIVE_LAYOUT_INFORMATION_EX, PDRIVE_LAYOUT_INFORMATION_EX structure pointer [Files], _DRIVE_LAYOUT_INFORMATION_EX, _win32_drive_layout_information_ex_str, base.drive_layout_information_ex_str, fs.drive_layout_information_ex_str, winioctl/DRIVE_LAYOUT_INFORMATION_EX, winioctl/PDRIVE_LAYOUT_INFORMATION_EX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFQualityManager.NotifyPresentationClock
 title: IMFQualityManager::NotifyPresentationClock
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the Media Session selects a presentation clock.
 old-location: mf\imfqualitymanager_notifypresentationclock.htm
 old-project: medfound
 ms.assetid: b358d98e-7b02-4c58-b556-cfa15436e435
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFQualityManager interface [Media Foundation],NotifyPresentationClock method, IMFQualityManager.NotifyPresentationClock, IMFQualityManager::NotifyPresentationClock, NotifyPresentationClock, NotifyPresentationClock method [Media Foundation], NotifyPresentationClock method [Media Foundation],IMFQualityManager interface, b358d98e-7b02-4c58-b556-cfa15436e435, mf.imfqualitymanager_notifypresentationclock, mfidl/IMFQualityManager::NotifyPresentationClock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

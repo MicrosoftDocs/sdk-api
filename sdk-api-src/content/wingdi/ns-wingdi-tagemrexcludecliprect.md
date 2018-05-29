@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMREXCLUDECLIPRECT
 title: tagEMREXCLUDECLIPRECT
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMREXCLUDECLIPRECT and EMRINTERSECTCLIPRECT structures contain members for the ExcludeClipRect and IntersectClipRect enhanced metafile records.
 old-location: gdi\emrexcludecliprect__emrintersectcliprect.htm
 old-project: gdi
 ms.assetid: a8969bfd-cd60-485f-bbcc-4bf015526d56
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMREXCLUDECLIPRECT, *PEMRINTERSECTCLIPRECT, EMREXCLUDECLIPRECT, EMREXCLUDECLIPRECT structure [Windows GDI], EMREXCLUDECLIPRECT,EMRINTERSECTCLIPRECT, EMREXCLUDECLIPRECT,EMRINTERSECTCLIPRECT structure [Windows GDI], EMRINTERSECTCLIPRECT, EMRINTERSECTCLIPRECT structure [Windows GDI], PEMREXCLUDECLIPRECT, PEMREXCLUDECLIPRECT structure pointer [Windows GDI], PEMRINTERSECTCLIPRECT, PEMRINTERSECTCLIPRECT structure pointer [Windows GDI], _win32_EMREXCLUDECLIPRECT_str, gdi.emrexcludecliprect__emrintersectcliprect, tagEMREXCLUDECLIPRECT, wingdi/EMREXCLUDECLIPRECT,EMRINTERSECTCLIPRECT, wingdi/EMRINTERSECTCLIPRECT, wingdi/PEMREXCLUDECLIPRECT, wingdi/PEMRINTERSECTCLIPRECT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

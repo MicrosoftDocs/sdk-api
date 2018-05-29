@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethods.get_Count
 title: IFaxRoutingMethods::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxRoutingMethods::get_Count returns the number of fax routing methods associated with a FaxPort object.
 old-location: fax\_mfax_ifaxroutingmethods_get_count.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0lis.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxRoutingMethods interface [Fax Service],get_Count method, IFaxRoutingMethods.get_Count, IFaxRoutingMethods::get_Count, _mfax_ifaxroutingmethods_get_count, fax._mfax_ifaxroutingmethods_get_count, faxcom/IFaxRoutingMethods::get_Count, get_Count, get_Count method [Fax Service], get_Count method [Fax Service],IFaxRoutingMethods interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

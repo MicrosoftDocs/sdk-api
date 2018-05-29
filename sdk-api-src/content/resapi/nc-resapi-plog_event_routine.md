@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PLOG_EVENT_ROUTINE
 title: PLOG_EVENT_ROUTINE
-author: windows-driver-content
+author: windows-sdk-content
 description: Records an event in the cluster log.
 old-location: mscs\logevent.htm
 old-project: MsCS
 ms.assetid: 91389083-e007-4d64-885f-e5188e74b9d8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: LOG_ERROR, LOG_INFORMATION, LOG_SEVERE, LOG_WARNING, LogEvent, LogEvent callback, LogEvent callback function [Failover Cluster], PLOG_EVENT_ROUTINE, PLOG_EVENT_ROUTINE callback function [Failover Cluster], _wolf_logevent, mscs.logevent, resapi/LogEvent, resapi/PLOG_EVENT_ROUTINE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

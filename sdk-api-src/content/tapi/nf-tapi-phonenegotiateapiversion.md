@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneNegotiateAPIVersion
 title: phoneNegotiateAPIVersion function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneNegotiateAPIVersion allows an application to negotiate an API version to use for the specified phone device.
 old-location: tapi2\phonenegotiateapiversion.htm
 old-project: Tapi
 ms.assetid: 50c2c15c-459f-451b-9b79-9118acc81c8c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phonenegotiateapiversion, phoneNegotiateAPIVersion, phoneNegotiateAPIVersion function [TAPI 2.2], tapi/phoneNegotiateAPIVersion, tapi2.phonenegotiateapiversion"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

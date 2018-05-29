@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFPutWorkItem2
 title: MFPutWorkItem2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Puts an asynchronous operation on a work queue, with a specified priority.
 old-location: mf\mfputworkitem2.htm
 old-project: medfound
 ms.assetid: C49818B3-83FF-40CE-B68A-F60F3277F7B8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFPutWorkItem2, MFPutWorkItem2 function [Media Foundation], mf.mfputworkitem2, mfapi/MFPutWorkItem2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHRestricted
 title: SHRestricted function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHRestricted may be altered or unavailable.
 old-location: shell\SHRestricted.htm
 old-project: shell
 ms.assetid: 94adf343-3879-455a-9770-70460cf383ca
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHRestricted, SHRestricted function [Windows Shell], _win32_SHRestricted, shell.SHRestricted, shlobj_core/SHRestricted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

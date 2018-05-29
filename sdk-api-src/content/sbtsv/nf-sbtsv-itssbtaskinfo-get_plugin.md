@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Plugin
 title: ITsSbTaskInfo::get_Plugin
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the display name of the task agent.
 old-location: termserv\itssbtaskinfo_plugin.htm
 old-project: TermServ
 ms.assetid: 1302377f-08db-413a-9f6c-ab9c974cf760
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],Plugin property, ITsSbTaskInfo.Plugin, ITsSbTaskInfo.get_Plugin, ITsSbTaskInfo::Plugin, ITsSbTaskInfo::get_Plugin, Plugin property [Remote Desktop Services], Plugin property [Remote Desktop Services],ITsSbTaskInfo interface, get_Plugin, sbtsv/ITsSbTaskInfo::Plugin, sbtsv/ITsSbTaskInfo::get_Plugin, termserv.itssbtaskinfo_plugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

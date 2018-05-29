@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmEngineOpen0
 title: FwpmEngineOpen0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a session to the filter engine.
 old-location: fwp\fwpmengineopen0_func.htm
 old-project: FWP
 ms.assetid: 5165f219-f3e0-4e84-915b-75912aab02b7
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmEngineOpen0, FwpmEngineOpen0 function [Filtering], fwp.fwpmengineopen0_func, fwpmu/FwpmEngineOpen0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

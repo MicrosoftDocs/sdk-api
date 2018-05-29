@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Parameters
 title: IFsrmPipelineModuleDefinition::put_Parameters
-author: windows-driver-content
+author: windows-sdk-content
 description: The optional parameters to pass to the module.
 old-location: fsrm\ifsrmpipelinemoduledefinition_parameters.htm
 old-project: Fsrm
 ms.assetid: 71421c07-f7cd-4baf-80a1-47416d514f56
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Parameters property, IFsrmPipelineModuleDefinition.Parameters, IFsrmPipelineModuleDefinition.put_Parameters, IFsrmPipelineModuleDefinition::Parameters, IFsrmPipelineModuleDefinition::get_Parameters, IFsrmPipelineModuleDefinition::put_Parameters, Parameters property [File Server Resource Manager], Parameters property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_parameters, fsrm.ifsrmpipelinemoduledefinition_parameters, fsrmpipeline/IFsrmPipelineModuleDefinition::Parameters, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Parameters, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Parameters, put_Parameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

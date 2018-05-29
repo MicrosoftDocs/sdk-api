@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFFrameRateToAverageTimePerFrame
 title: MFFrameRateToAverageTimePerFrame function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a video frame rate into a frame duration.
 old-location: mf\mfframeratetoaveragetimeperframe.htm
 old-project: medfound
 ms.assetid: 750f6920-3386-4d50-9d59-73e876b406da
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 750f6920-3386-4d50-9d59-73e876b406da, MFFrameRateToAverageTimePerFrame, MFFrameRateToAverageTimePerFrame function [Media Foundation], mf.mfframeratetoaveragetimeperframe, mfapi/MFFrameRateToAverageTimePerFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

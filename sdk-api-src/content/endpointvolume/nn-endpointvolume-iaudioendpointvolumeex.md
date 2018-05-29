@@ -1,16 +1,16 @@
 ---
 UID: NN:endpointvolume.IAudioEndpointVolumeEx
 title: IAudioEndpointVolumeEx
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioEndpointVolumeEx interface provides volume controls on the audio stream to or from a device endpoint.
 old-location: coreaudio\iaudioendpointvolumeex.htm
 old-project: CoreAudio
 ms.assetid: 905ef0c9-ac32-4dfd-a25a-820cafa04815
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioEndpointVolumeEx, IAudioEndpointVolumeEx interface [Core Audio], IAudioEndpointVolumeEx interface [Core Audio],described, coreaudio.iaudioendpointvolumeex, endpointvolume/IAudioEndpointVolumeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: endpointvolume.h
 req.include-header: 

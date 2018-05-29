@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.TreeView_SetItemState
 title: TreeView_SetItemState macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a tree-view item's state attributes. You can use this macro or send the TVM_SETITEM message explicitly.
 old-location: controls\TreeView_SetItemState.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setitemstate.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TreeView_SetItemState, TreeView_SetItemState macro [Windows Controls], _win32_TreeView_SetItemState, _win32_TreeView_SetItemState_cpp, commctrl/TreeView_SetItemState, controls.TreeView_SetItemState, controls._win32_TreeView_SetItemState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

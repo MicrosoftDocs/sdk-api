@@ -1,16 +1,16 @@
 ---
 UID: NE:wbemcli.tag_WBEM_BACKUP_RESTORE_FLAGS
 title: tag_WBEM_BACKUP_RESTORE_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains flags used for the IWbemBackupRestore::Restore method and the IWbemBackupRestoreEx::Restore method.
 old-location: wmi\wbem_backup_restore_flags.htm
 old-project: WmiSdk
 ms.assetid: 00072B9F-B4AE-4308-9E8C-F61D982525B3
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: WBEM_BACKUP_RESTORE_FLAGS, WBEM_BACKUP_RESTORE_FLAGS enumeration [Windows Management Instrumentation], WBEM_FLAG_BACKUP_RESTORE_DEFAULT, WBEM_FLAG_BACKUP_RESTORE_FORCE_SHUTDOWN, tag_WBEM_BACKUP_RESTORE_FLAGS, wbemcli/WBEM_BACKUP_RESTORE_FLAGS, wbemcli/WBEM_FLAG_BACKUP_RESTORE_DEFAULT, wbemcli/WBEM_FLAG_BACKUP_RESTORE_FORCE_SHUTDOWN, wmi.wbem_backup_restore_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 

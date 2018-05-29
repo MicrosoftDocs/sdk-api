@@ -1,16 +1,16 @@
 ---
 UID: NF:dskquota.OnUserNameChanged
 title: OnUserNameChanged function
-author: windows-driver-content
+author: windows-sdk-content
 description: Occurs when the name information for a DIDiskQuotaUser object has been resolved.
 old-location: shell\DiskQuotaControl_OnUserNameChanged.htm
 old-project: shell
 ms.assetid: df32cb17-ad90-4535-a36b-60c5b4e9999f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: OnUserNameChanged, OnUserNameChanged function [Windows Shell], _win32_DiskQuotaControl_OnUserNameChanged, dskquota/OnUserNameChanged, shell.DiskQuotaControl_OnUserNameChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dskquota.h
 req.include-header: 

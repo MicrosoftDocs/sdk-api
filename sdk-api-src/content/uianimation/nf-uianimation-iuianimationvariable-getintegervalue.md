@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.GetIntegerValue
 title: IUIAnimationVariable::GetIntegerValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current value of the animation variable as an integer.
 old-location: uianimation\iuianimationvariable_getintegervalue.htm
 old-project: UIAnimation
 ms.assetid: 044fd6a3-6e40-4f4f-8777-1a1a66c91989
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetIntegerValue, GetIntegerValue method [Windows Animation], GetIntegerValue method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetIntegerValue method, IUIAnimationVariable.GetIntegerValue, IUIAnimationVariable::GetIntegerValue, uianimation.iuianimationvariable_getintegervalue, uianimation/IUIAnimationVariable::GetIntegerValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

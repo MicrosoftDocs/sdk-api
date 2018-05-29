@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetBookmark
 title: MI_SubscriptionDeliveryOptions_GetBookmark function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a previously set subscription bookmark.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getbookmark.htm
 old-project: wmi_v2
 ms.assetid: f3c8721f-2aa0-40ca-ac51-3db03f9c5c30
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetBookmark, MI_SubscriptionDeliveryOptions_GetBookmark function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetBookmark, wmi_v2.mi_subscriptiondeliveryoptions_getbookmark
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

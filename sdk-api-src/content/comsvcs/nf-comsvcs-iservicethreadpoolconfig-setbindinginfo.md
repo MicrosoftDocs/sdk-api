@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IServiceThreadPoolConfig.SetBindingInfo
 title: IServiceThreadPoolConfig::SetBindingInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Binds all work submitted by the activity to a single single-threaded apartment.
 old-location: cos\iservicethreadpoolconfig_setbindinginfo.htm
 old-project: cossdk
 ms.assetid: 9d2c4e6f-aa12-4874-a8e0-ca21a981b43f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServiceThreadPoolConfig interface [COM+],SetBindingInfo method, IServiceThreadPoolConfig.SetBindingInfo, IServiceThreadPoolConfig::SetBindingInfo, SetBindingInfo, SetBindingInfo method [COM+], SetBindingInfo method [COM+],IServiceThreadPoolConfig interface, _cos_IServiceThreadPoolConfig_SetBindingInfo, comsvcs/IServiceThreadPoolConfig::SetBindingInfo, cos.iservicethreadpoolconfig_setbindinginfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

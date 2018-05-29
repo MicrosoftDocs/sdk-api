@@ -1,16 +1,16 @@
 ---
 UID: NF:physicalmonitorenumerationapi.GetPhysicalMonitorsFromHMONITOR
 title: GetPhysicalMonitorsFromHMONITOR function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the physical monitors associated with an HMONITOR monitor handle.
 old-location: monitor\getphysicalmonitorsfromhmonitor.htm
 old-project: Monitor
 ms.assetid: f2ac8a6a-3be9-4155-ad13-c256b96da792
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetPhysicalMonitorsFromHMONITOR, GetPhysicalMonitorsFromHMONITOR function [Monitor Configuration], monitor.getphysicalmonitorsfromhmonitor, physicalmonitorenumerationapi/GetPhysicalMonitorsFromHMONITOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 

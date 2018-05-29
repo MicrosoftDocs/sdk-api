@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_PinControl.RegistrationContext
 title: IBDA_PinControl::RegistrationContext
-author: windows-driver-content
+author: windows-sdk-content
 description: The RegistrationContext method retrieves the registration context of a particular pin.
 old-location: mstv\ibda_pincontrol_registrationcontext.htm
 old-project: mstv
 ms.assetid: 6e54bb4e-9c65-4f57-ba4a-c5b35ccaae1f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_PinControl interface [Microsoft TV Technologies],RegistrationContext method, IBDA_PinControl.RegistrationContext, IBDA_PinControl::RegistrationContext, IBDA_PinControlRegistrationContext, RegistrationContext, RegistrationContext method [Microsoft TV Technologies], RegistrationContext method [Microsoft TV Technologies],IBDA_PinControl interface, bdaiface/IBDA_PinControl::RegistrationContext, mstv.ibda_pincontrol_registrationcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shellscalingapi.GetDpiForShellUIComponent
 title: GetDpiForShellUIComponent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the dots per inch (dpi) occupied by a SHELL_UI_COMPONENT based on the current scale factor and PROCESS_DPI_AWARENESS.
 old-location: shell\getdpiforshelluicomponent.htm
 old-project: shell
 ms.assetid: D5198497-DBD5-439E-809C-A36211C2774C
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDpiForShellUIComponent, GetDpiForShellUiComponent, GetDpiForShellUiComponent function [Windows Shell], shell.getdpiforshelluicomponent, shellscalingapi/GetDpiForShellUiComponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellscalingapi.h
 req.include-header: 

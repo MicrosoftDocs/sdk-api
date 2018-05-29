@@ -1,16 +1,16 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorBrightness
 title: SetMonitorBrightness function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a monitor's brightness value.
 old-location: monitor\setmonitorbrightness.htm
 old-project: Monitor
 ms.assetid: e7cf47f2-f833-4f34-89d2-3143ab57b561
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SetMonitorBrightness, SetMonitorBrightness function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorBrightness, monitor.setmonitorbrightness
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

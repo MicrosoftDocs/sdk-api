@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10_1shader.ID3D10ShaderReflection1.GetBitwiseInstructionCount
 title: ID3D10ShaderReflection1::GetBitwiseInstructionCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of bitwise instructions.
 old-location: direct3d10\id3d10shaderreflection1_getbitwiseinstructioncount.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection1_getbitwiseinstructioncount.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetBitwiseInstructionCount, GetBitwiseInstructionCount method [Direct3D 10], GetBitwiseInstructionCount method [Direct3D 10],ID3D10ShaderReflection1 interface, ID3D10ShaderReflection1 interface [Direct3D 10],GetBitwiseInstructionCount method, ID3D10ShaderReflection1.GetBitwiseInstructionCount, ID3D10ShaderReflection1::GetBitwiseInstructionCount, d3d10_1shader/ID3D10ShaderReflection1::GetBitwiseInstructionCount, direct3d10.id3d10shaderreflection1_getbitwiseinstructioncount, f02502a1-d6e6-ca62-6303-d73c0804a05b
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10_1shader.h
 req.include-header: 

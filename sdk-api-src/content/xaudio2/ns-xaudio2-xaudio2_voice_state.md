@@ -1,16 +1,16 @@
 ---
 UID: NS:xaudio2.XAUDIO2_VOICE_STATE
 title: XAUDIO2_VOICE_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the voice's current state and cursor position data.
 old-location: xaudio2\xaudio2_voice_state.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_VOICE_STATE
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: XAUDIO2_VOICE_STATE, XAUDIO2_VOICE_STATE structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_voice_state, xaudio2/XAUDIO2_VOICE_STATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xaudio2.h
 req.include-header: 

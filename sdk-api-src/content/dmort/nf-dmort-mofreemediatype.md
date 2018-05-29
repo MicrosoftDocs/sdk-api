@@ -1,16 +1,16 @@
 ---
 UID: NF:dmort.MoFreeMediaType
 title: MoFreeMediaType function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MoFreeMediaType function frees the allocated members of a media type structure.
 old-location: dshow\mofreemediatype.htm
 old-project: DirectShow
 ms.assetid: a1f0949d-a590-4759-87b5-f47307bc3ec0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: MoFreeMediaType, MoFreeMediaType function [DirectShow], dmort/MoFreeMediaType, dshow.mofreemediatype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dmort.h
 req.include-header: Dmo.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:vbinterf.IGetOleObject.GetOleObject
 title: IGetOleObject::GetOleObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to an OLE control on a Visual Basic container.
 old-location: com\igetoleobject_getoleobject.htm
 old-project: com
 ms.assetid: eafb9dbc-ab46-4b83-8be9-6c8cd1de8ab3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetOleObject, GetOleObject method [COM], GetOleObject method [COM],IGetOleObject interface, IGetOleObject interface [COM],GetOleObject method, IGetOleObject.GetOleObject, IGetOleObject::GetOleObject, _com_IGetOleObject_GetOleObject, com.igetoleobject_getoleobject, vbinterf/IGetOleObject::GetOleObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vbinterf.h
 req.include-header: 

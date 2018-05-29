@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CurrentFirstSelectedItem
 title: IUIAutomationSelectionPattern2::get_CurrentFirstSelectedItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IUIAutomationElement object representing the first item in a group of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CurrentFirstSelectedItem.htm
 old-project: WinAuto
 ms.assetid: 6372915A-B9BC-4081-9B24-EF8332743EFD
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentFirstSelectedItem property [Windows Accessibility], CurrentFirstSelectedItem property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CurrentFirstSelectedItem property, IUIAutomationSelectionPattern2.CurrentFirstSelectedItem, IUIAutomationSelectionPattern2.get_CurrentFirstSelectedItem, IUIAutomationSelectionPattern2::CurrentFirstSelectedItem, IUIAutomationSelectionPattern2::get_CurrentFirstSelectedItem, get_CurrentFirstSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::CurrentFirstSelectedItem, uiautomationclient/IUIAutomationSelectionPattern2::get_CurrentFirstSelectedItem, winauto.uiauto_IUIAutomationSelectionPattern2_CurrentFirstSelectedItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

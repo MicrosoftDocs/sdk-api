@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneOpen
 title: phoneOpen function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneOpen function opens the specified phone device.
 old-location: tapi2\phoneopen.htm
 old-project: Tapi
 ms.assetid: 8fba6d5e-0d8c-488f-a17c-4852b487e300
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phoneopen, phoneOpen, phoneOpen function [TAPI 2.2], tapi/phoneOpen, tapi2.phoneopen"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

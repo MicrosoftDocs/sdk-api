@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.SetWindowRgn
 title: SetWindowRgn function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetWindowRgn function sets the window region of a window.
 old-location: gdi\setwindowrgn.htm
 old-project: gdi
 ms.assetid: 06209d0c-14f9-45ec-ae2c-9cc596b5bbaa
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetWindowRgn, SetWindowRgn function [Windows GDI], _win32_SetWindowRgn, gdi.setwindowrgn, winuser/SetWindowRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

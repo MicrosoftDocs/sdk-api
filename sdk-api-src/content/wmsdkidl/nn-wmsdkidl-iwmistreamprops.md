@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMIStreamProps
 title: IWMIStreamProps
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMIStreamProps interface provides access to the properties of an IStream object.To obtain a pointer to an IWMIStreamProps interface, call IStream::QueryInterface.
 old-location: wmformat\iwmistreamprops.htm
 old-project: wmformat
 ms.assetid: 336e11ce-6212-4d08-8c50-76b2128ddc35
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMIStreamProps, IWMIStreamProps interface [windows Media Format], IWMIStreamProps interface [windows Media Format],described, IWMIStreamPropsInterface, wmformat.iwmistreamprops, wmsdkidl/IWMIStreamProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IFileSyncMergeHandler
 title: IFileSyncMergeHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: "."
 old-location: shell\IFileSyncMergeHandler.htm
 old-project: shell
 ms.assetid: 467BF7B9-184E-409F-B5B7-F95E9891C2CD
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileSyncMergeHandler, IFileSyncMergeHandler interface [Windows Shell], IFileSyncMergeHandler interface [Windows Shell],described, shell.IFileSyncMergeHandler, shobjidl_core/IFileSyncMergeHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

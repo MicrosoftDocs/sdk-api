@@ -1,16 +1,16 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_READ_CERT
 title: PFN_CERT_STORE_PROV_READ_CERT
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function that reads the provider's copy of the certificate context.
 old-location: security\certstoreprovreadcertcallback.htm
 old-project: SecCrypto
 ms.assetid: 9073f41e-19cd-46af-9e05-3f55607802c3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertStoreProvReadCertCallback, CertStoreProvReadCertCallback callback, CertStoreProvReadCertCallback callback function [Security], PFN_CERT_STORE_PROV_READ_CERT, PFN_CERT_STORE_PROV_READ_CERT callback function [Security], _crypto2_certstoreprovreadcertcallback, security.certstoreprovreadcertcallback, wincrypt/CertStoreProvReadCertCallback, wincrypt/PFN_CERT_STORE_PROV_READ_CERT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

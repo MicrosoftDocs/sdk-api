@@ -1,16 +1,16 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerGetPosition
 title: PssWalkMarkerGetPosition function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the current position of a walk marker.
 old-location: proc_snap\psswalkmarkergetposition.htm
 old-project: proc_snap
 ms.assetid: A2058E81-2B01-4436-ACC6-2A3E58BC4E27
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PssWalkMarkerGetPosition, PssWalkMarkerGetPosition function, proc_snap.psswalkmarkergetposition, processsnapshot/PssWalkMarkerGetPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 

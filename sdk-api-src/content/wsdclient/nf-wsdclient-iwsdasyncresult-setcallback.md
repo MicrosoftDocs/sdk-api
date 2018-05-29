@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.SetCallback
 title: IWSDAsyncResult::SetCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a callback interface to call when the asynchronous operation has completed.
 old-location: ncd\iwsdasyncresult_setcallback.htm
 old-project: WsdApi
 ms.assetid: 39fc05f8-4b09-4305-b9a4-b4ef65788efc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDAsyncResult interface,SetCallback method, IWSDAsyncResult.SetCallback, IWSDAsyncResult::SetCallback, SetCallback, SetCallback method, SetCallback method,IWSDAsyncResult interface, ncd.iwsdasyncresult_setcallback, wsdclient/IWSDAsyncResult::SetCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

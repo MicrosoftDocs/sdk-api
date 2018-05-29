@@ -1,16 +1,16 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0006
 title: "__MIDL___MIDL_itf_wcmconfig_0000_0000_0006"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the status of the user.
 old-location: smi\wcmuserstatus.htm
 old-project: SMI
 ms.assetid: 1a21d53f-cc0d-48ac-8d38-c53d5ac09878
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: UnknownStatus, UserLoaded, UserRegistered, UserUnloaded, UserUnregistered, WcmUserStatus, WcmUserStatus enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0006, smi.wcmuserstatus, wcmconfig/UnknownStatus, wcmconfig/UserLoaded, wcmconfig/UserRegistered, wcmconfig/UserUnloaded, wcmconfig/UserUnregistered, wcmconfig/WcmUserStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcmconfig.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wsbapp.IWsbApplicationAsync
 title: IWsbApplicationAsync
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods to monitor and control the progress of an asynchronous operation.
 old-location: wsb\iwsbapplicationasync.htm
 old-project: wsb
 ms.assetid: cd8f74c0-c2dc-487c-b702-1e1355e99b7d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWsbApplicationAsync, IWsbApplicationAsync interface [Windows Server Backup], IWsbApplicationAsync interface [Windows Server Backup],described, wsb.iwsbapplicationasync, wsbapp/IWsbApplicationAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsbapp.h
 req.include-header: 

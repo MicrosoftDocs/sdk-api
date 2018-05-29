@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll4.setPendingRequestInfoWStr
 title: IEnroll4::setPendingRequestInfoWStr
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets properties for a pending request.
 old-location: security\ienroll4_setpendingrequestinfowstr.htm
 old-project: SecCrypto
 ms.assetid: 02b49033-3354-4e30-a816-a9c078c6164a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnroll4 interface [Security],setPendingRequestInfoWStr method, IEnroll4.setPendingRequestInfoWStr, IEnroll4::setPendingRequestInfoWStr, security.ienroll4_setpendingrequestinfowstr, setPendingRequestInfoWStr, setPendingRequestInfoWStr method [Security], setPendingRequestInfoWStr method [Security],IEnroll4 interface, xenroll/IEnroll4::setPendingRequestInfoWStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

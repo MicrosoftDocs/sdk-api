@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.MFCreatePresentationDescriptorFromASFProfile
 title: MFCreatePresentationDescriptorFromASFProfile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a presentation descriptor from an ASF profile object.
 old-location: mf\mfcreatepresentationdescriptorfromasfprofile.htm
 old-project: medfound
 ms.assetid: e36ac685-4ebe-4fc6-a17a-f36b9d667add
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreatePresentationDescriptorFromASFProfile, MFCreatePresentationDescriptorFromASFProfile function [Media Foundation], e36ac685-4ebe-4fc6-a17a-f36b9d667add, mf.mfcreatepresentationdescriptorfromasfprofile, wmcontainer/MFCreatePresentationDescriptorFromASFProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wmcontainer.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Enabled
 title: IFsrmPipelineModuleDefinition::put_Enabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the module is enabled.
 old-location: fsrm\ifsrmpipelinemoduledefinition_enabled.htm
 old-project: Fsrm
 ms.assetid: 808abe6d-384b-4d75-a792-0896297cfe4c
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: Enabled property [File Server Resource Manager], Enabled property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Enabled property, IFsrmPipelineModuleDefinition.Enabled, IFsrmPipelineModuleDefinition.put_Enabled, IFsrmPipelineModuleDefinition::Enabled, IFsrmPipelineModuleDefinition::get_Enabled, IFsrmPipelineModuleDefinition::put_Enabled, fs.ifsrmpipelinemoduledefinition_enabled, fsrm.ifsrmpipelinemoduledefinition_enabled, fsrmpipeline/IFsrmPipelineModuleDefinition::Enabled, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Enabled, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Enabled, put_Enabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CreatePolygonRgn
 title: CreatePolygonRgn function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreatePolygonRgn function creates a polygonal region.
 old-location: gdi\createpolygonrgn.htm
 old-project: gdi
 ms.assetid: dd7ad6de-c5f2-46e4-8d28-24caaa48ba3a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ALTERNATE, CreatePolygonRgn, CreatePolygonRgn function [Windows GDI], WINDING, _win32_CreatePolygonRgn, gdi.createpolygonrgn, wingdi/CreatePolygonRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

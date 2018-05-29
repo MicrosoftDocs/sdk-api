@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaCreateTrustedDomainEx
 title: LsaCreateTrustedDomainEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The LsaCreateTrustedDomainEx function establishes a new trusted domain by creating a new TrustedDomain object.
 old-location: security\lsacreatetrusteddomainex.htm
 old-project: SecMgmt
 ms.assetid: 2f458098-9498-4f08-bd13-ac572678d734
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaCreateTrustedDomainEx, LsaCreateTrustedDomainEx function [Security], _lsa_lsacreatetrusteddomainex, ntsecapi/LsaCreateTrustedDomainEx, security.lsacreatetrusteddomainex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

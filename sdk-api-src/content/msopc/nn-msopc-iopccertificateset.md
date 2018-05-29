@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcCertificateSet
 title: IOpcCertificateSet
-author: windows-driver-content
+author: windows-sdk-content
 description: An unordered set of certificates to be used with a signature.
 old-location: opc\iopccertificateset.htm
 old-project: OPC
 ms.assetid: 0ac56b41-a120-4a9b-9bfa-afba1ba0f3b4
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcCertificateSet, IOpcCertificateSet interface [Open Packaging Conventions], IOpcCertificateSet interface [Open Packaging Conventions],described, msopc/IOpcCertificateSet, opc.iopccertificateset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

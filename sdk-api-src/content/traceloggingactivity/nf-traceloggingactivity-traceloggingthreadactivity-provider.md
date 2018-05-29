@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingThreadActivity.Provider
 title: TraceLoggingThreadActivity::Provider
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the handle to the TraceLogging provider associated with this activity.
 old-location: tracelogging\traceloggingthreadactivity_provider.htm
 old-project: tracelogging
 ms.assetid: 53B0C290-8A1B-4C0A-8EA7-98E26EFF47D1
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: Provider, Provider method, Provider method,TraceLoggingThreadActivity interface, TraceLoggingThreadActivity interface,Provider method, TraceLoggingThreadActivity.Provider, TraceLoggingThreadActivity::Provider, tracelogging.traceloggingthreadactivity_provider, traceloggingactivity/TraceLoggingThreadActivity::Provider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: traceloggingactivity.h
 req.include-header: 

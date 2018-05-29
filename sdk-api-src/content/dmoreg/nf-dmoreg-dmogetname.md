@@ -1,16 +1,16 @@
 ---
 UID: NF:dmoreg.DMOGetName
 title: DMOGetName function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DMOGetName function retrieves the name of a DMO from the registry.
 old-location: dshow\dmogetname.htm
 old-project: DirectShow
 ms.assetid: 7cb803c2-4fe1-46e3-868d-1b7c28b07a5b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DMOGetName, DMOGetName function [DirectShow], dmoreg/DMOGetName, dshow.dmogetname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dmoreg.h
 req.include-header: Dmo.h

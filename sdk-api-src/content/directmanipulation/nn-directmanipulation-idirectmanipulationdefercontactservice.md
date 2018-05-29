@@ -1,16 +1,16 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationDeferContactService
 title: IDirectManipulationDeferContactService
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a service for managing associations between a contact and a viewport.
 old-location: directmanipulation\idirectmanipulationdefercontactservice.htm
 old-project: directmanipulation
 ms.assetid: 6063352F-39FF-4E8F-B836-3DA0A02BE523
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationDeferContactService, IDirectManipulationDeferContactService interface [Direct Manipulation], IDirectManipulationDeferContactService interface [Direct Manipulation],described, directmanipulation.idirectmanipulationdefercontactservice, directmanipulation/IDirectManipulationDeferContactService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: directmanipulation.h
 req.include-header: 

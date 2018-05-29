@@ -1,16 +1,16 @@
 ---
 UID: NF:rasshost.RasSecurityDialogBegin
 title: RasSecurityDialogBegin function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasSecurityDialogBegin function is a third-party RAS security DLL entry point that the RAS server calls when a remote user tries to connect. This enables the security DLL to begin its authentication of the remote user.
 old-location: rras\rassecuritydialogbegin.htm
 old-project: RRAS
 ms.assetid: 19f4591b-ecae-478b-b110-c0d88c72f7eb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasSecurityDialogBegin, RasSecurityDialogBegin callback, RasSecurityDialogBegin callback function [RAS], _ras_rassecuritydialogbegin, rasshost/RasSecurityDialogBegin, rras.rassecuritydialogbegin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rasshost.h
 req.include-header: 

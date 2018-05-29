@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.NextSubpath
 title: GraphicsPathIterator::NextSubpath
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the NextSubpath methods of the GraphicsPathIterator class. For a complete list of methods for the GraphicsPathIterator class, see GraphicsPathIterator Methods.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_NextSubpath_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\graphicspathiteratornextsubpathmethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GraphicsPathIterator.NextSubpath, GraphicsPathIterator::NextSubpath, NextSubpath, NextSubpath methods [GDI+], _gdiplus_CLASS_GraphicsPathIterator_NextSubpath_Methods, gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextSubpath_Methods, gdipluspath/NextSubpath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 

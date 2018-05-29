@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfReverseConversionList.GetString
 title: ITfReverseConversionList::GetString
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the keystroke sequence at the specified index.
 old-location: tsf\itfreverseconversionlist_getstring.htm
 old-project: TSF
 ms.assetid: 5a8cc79f-d348-4fe8-b005-aeabd6db43c5
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetString, GetString method [Text Services Framework], GetString method [Text Services Framework],ITfReverseConversionList interface, ITfReverseConversionList interface [Text Services Framework],GetString method, ITfReverseConversionList.GetString, ITfReverseConversionList::GetString, msctf/ITfReverseConversionList::GetString, tsf.itfreverseconversionlist_getstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

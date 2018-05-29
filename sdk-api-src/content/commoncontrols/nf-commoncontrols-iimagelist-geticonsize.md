@@ -1,16 +1,16 @@
 ---
 UID: NF:commoncontrols.IImageList.GetIconSize
 title: IImageList::GetIconSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the dimensions of images in an image list. All images in an image list have the same dimensions.
 old-location: controls\IImageList_GetIconSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\geticonsize.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetIconSize, GetIconSize method [Windows Controls], GetIconSize method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetIconSize method, IImageList.GetIconSize, IImageList::GetIconSize, comctl_IImageList_GetIconSize, comctl_IImageList_GetIconSize_cpp, commoncontrols/IImageList::GetIconSize, controls.IImageList_GetIconSize, controls.comctl_IImageList_GetIconSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 

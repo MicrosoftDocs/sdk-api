@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.MCIWndGetFileName
 title: MCIWndGetFileName macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCIWndGetFileName macro retrieves the filename used by an MCI device. You can use this macro or explicitly send the MCIWNDM_GETFILENAME message.
 old-location: multimedia\mciwndgetfilename.htm
 old-project: Multimedia
 ms.assetid: 4118b9fe-4252-4591-862d-a1cc48fa3cff
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MCIWndGetFileName, MCIWndGetFileName macro [Windows Multimedia], _win32_MCIWndGetFileName, multimedia.mciwndgetfilename, vfw/MCIWndGetFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

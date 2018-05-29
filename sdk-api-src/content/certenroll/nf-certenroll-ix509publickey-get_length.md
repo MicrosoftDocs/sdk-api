@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PublicKey.get_Length
 title: IX509PublicKey::get_Length
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the length of the public key.
 old-location: security\ix509publickey_length_property.htm
 old-project: SecCertEnroll
 ms.assetid: c386fb27-84c5-4570-9cdb-202baa726b96
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509PublicKey interface [Security],Length property, IX509PublicKey.Length, IX509PublicKey.get_Length, IX509PublicKey::Length, IX509PublicKey::get_Length, Length property [Security], Length property [Security],IX509PublicKey interface, certenroll/IX509PublicKey::Length, certenroll/IX509PublicKey::get_Length, get_Length, security.ix509publickey_length_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

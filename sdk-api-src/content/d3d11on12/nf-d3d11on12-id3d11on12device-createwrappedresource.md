@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11on12.ID3D11On12Device.CreateWrappedResource
 title: ID3D11On12Device::CreateWrappedResource
-author: windows-driver-content
+author: windows-sdk-content
 description: This method creates D3D11 resources for use with D3D 11on12.
 old-location: direct3d12\id3d11on12device_createwrappedresource.htm
 old-project: direct3d12
 ms.assetid: 83B37B0A-9965-40F6-A5B1-8B4DC21BC455
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: CreateWrappedResource, CreateWrappedResource method, CreateWrappedResource method,ID3D11On12Device interface, ID3D11On12Device interface,CreateWrappedResource method, ID3D11On12Device.CreateWrappedResource, ID3D11On12Device::CreateWrappedResource, d3d11on12/ID3D11On12Device::CreateWrappedResource, direct3d12.id3d11on12device_createwrappedresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11on12.h
 req.include-header: 

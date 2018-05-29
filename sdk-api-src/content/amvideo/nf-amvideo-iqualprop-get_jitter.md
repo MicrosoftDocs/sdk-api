@@ -1,16 +1,16 @@
 ---
 UID: NF:amvideo.IQualProp.get_Jitter
 title: IQualProp::get_Jitter
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Jitter method gets the jitter (variation in time) between successive frames delivered to the video renderer.
 old-location: dshow\iqualprop_get_jitter.htm
 old-project: DirectShow
 ms.assetid: e1f6e93f-58d6-41b4-b16f-e9f02bfec0fe
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IQualProp interface [DirectShow],get_Jitter method, IQualProp.get_Jitter, IQualProp::get_Jitter, IQualPropget_Jitter, amvideo/IQualProp::get_Jitter, dshow.iqualprop_get_jitter, get_Jitter, get_Jitter method [DirectShow], get_Jitter method [DirectShow],IQualProp interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.SetMenuSB
 title: IShellBrowser::SetMenuSB
-author: windows-driver-content
+author: windows-sdk-content
 description: Installs the composite menu in the view window.
 old-location: shell\IShellBrowser_SetMenuSB.htm
 old-project: shell
 ms.assetid: ae6fe864-7fa1-4c74-a27f-d428bdeccc3d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellBrowser interface [Windows Shell],SetMenuSB method, IShellBrowser.SetMenuSB, IShellBrowser::SetMenuSB, SetMenuSB, SetMenuSB method [Windows Shell], SetMenuSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SetMenuSB, shell.IShellBrowser_SetMenuSB, shobjidl_core/IShellBrowser::SetMenuSB
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetLastStatus
 title: StringFormat::GetLastStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: The StringFormat::GetLastStatus method returns a value that indicates the nature of this StringFormat object's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetLastStatus_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getlaststatus_15.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],StringFormat class, StringFormat class [GDI+],GetLastStatus method, StringFormat.GetLastStatus, StringFormat::GetLastStatus, _gdiplus_CLASS_StringFormat_GetLastStatus_, gdiplus._gdiplus_CLASS_StringFormat_GetLastStatus_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMGetRightExtendedInfo
 title: DRMGetRightExtendedInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves custom name-value pairs attached to a right.
 old-location: rm\drmgetrightextendedinfo.htm
 old-project: AdRms_Sdk
 ms.assetid: d228660a-3c20-403e-9a89-e35195b19f92
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMGetRightExtendedInfo, DRMGetRightExtendedInfo function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetRightExtendedInfo, rm.drmgetrightextendedinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.FindFirstFileNameW
 title: FindFirstFileNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an enumeration of all the hard links to the specified file. The FindFirstFileNameW function returns a handle to the enumeration that can be used on subsequent calls to the FindNextFileNameW function.
 old-location: fs\findfirstfilenamew.htm
 old-project: FileIO
 ms.assetid: 9f64aa3e-4c73-47a8-8304-6134f1b4d153
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FindFirstFileNameW, FindFirstFileNameW function [Files], fileapi/FindFirstFileNameW, fs.findfirstfilenamew
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h

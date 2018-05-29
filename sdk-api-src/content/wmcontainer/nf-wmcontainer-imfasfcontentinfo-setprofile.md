@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.SetProfile
 title: IMFASFContentInfo::SetProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: Uses profile data from a profile object to configure settings in the ContentInfo object.
 old-location: mf\imfasfcontentinfo_setprofile.htm
 old-project: medfound
 ms.assetid: 7e7e062d-9507-400a-8cc2-5355c12017f5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 7e7e062d-9507-400a-8cc2-5355c12017f5, IMFASFContentInfo interface [Media Foundation],SetProfile method, IMFASFContentInfo.SetProfile, IMFASFContentInfo::SetProfile, SetProfile, SetProfile method [Media Foundation], SetProfile method [Media Foundation],IMFASFContentInfo interface, mf.imfasfcontentinfo_setprofile, wmcontainer/IMFASFContentInfo::SetProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

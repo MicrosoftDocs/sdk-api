@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_EXPAND_AUTH_DATA_FOR_DOMAIN
 title: LSA_EXPAND_AUTH_DATA_FOR_DOMAIN
-author: windows-driver-content
+author: windows-sdk-content
 description: Expands the domain groups in the specified user authentication data.
 old-location: security\expandauthdatafordomain.htm
 old-project: SecAuthN
 ms.assetid: 965d8575-a05b-45d8-8718-4004f1d22ca5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ExpandAuthDataForDomain, ExpandAuthDataForDomain function [Security], LSA_EXPAND_AUTH_DATA_FOR_DOMAIN, ntsecpkg/ExpandAuthDataForDomain, security.expandauthdatafordomain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

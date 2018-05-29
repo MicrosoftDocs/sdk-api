@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange.Delete
 title: ITextRange::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: Mimics the DELETE and BACKSPACE keys, with and without the CTRL key depressed.
 old-location: controls\ITextRange_Delete.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\delete.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Delete, Delete method [Windows Controls], Delete method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Delete method, ITextRange.Delete, ITextRange::Delete, _win32_ITextRange_Delete, _win32_ITextRange_Delete_cpp, controls.ITextRange_Delete, controls._win32_ITextRange_Delete, tom/ITextRange::Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

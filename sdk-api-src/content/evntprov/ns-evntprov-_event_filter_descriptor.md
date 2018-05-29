@@ -1,16 +1,16 @@
 ---
 UID: NS:evntprov._EVENT_FILTER_DESCRIPTOR
 title: "_EVENT_FILTER_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the filter data that a session passes to the provider's enable callback function.
 old-location: etw\event_filter_descriptor.htm
 old-project: ETW
 ms.assetid: 9318868a-29d8-4a5e-9579-c06a7c0fd78f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PEVENT_FILTER_DESCRIPTOR, EVENT_FILTER_DESCRIPTOR, EVENT_FILTER_DESCRIPTOR structure [ETW], EVENT_FILTER_TYPE_EVENT_ID, EVENT_FILTER_TYPE_EVENT_NAME, EVENT_FILTER_TYPE_EXECUTABLE_NAME, EVENT_FILTER_TYPE_NONE, EVENT_FILTER_TYPE_PACKAGE_APP_ID, EVENT_FILTER_TYPE_PACKAGE_ID, EVENT_FILTER_TYPE_PAYLOAD, EVENT_FILTER_TYPE_PID, EVENT_FILTER_TYPE_SCHEMATIZED, EVENT_FILTER_TYPE_STACKWALK, EVENT_FILTER_TYPE_STACKWALK_LEVEL_KW, EVENT_FILTER_TYPE_STACKWALK_NAME, EVENT_FILTER_TYPE_SYSTEM_FLAGS, EVENT_FILTER_TYPE_TRACEHANDLE, PEVENT_FILTER_DESCRIPTOR, PEVENT_FILTER_DESCRIPTOR structure pointer [ETW], _EVENT_FILTER_DESCRIPTOR, base.event_filter_descriptor, etw.event_filter_descriptor, evntprov/EVENT_FILTER_DESCRIPTOR, evntprov/PEVENT_FILTER_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntprov.h
 req.include-header: 

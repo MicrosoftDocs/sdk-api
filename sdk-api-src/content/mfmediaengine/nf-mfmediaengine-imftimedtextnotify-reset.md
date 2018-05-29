@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.Reset
 title: IMFTimedTextNotify::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the timed-text-notify object.
 old-location: mf\imftimedtextnotify_reset.htm
 old-project: medfound
 ms.assetid: 2743B39A-7C57-418C-897F-5B4952840135
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFTimedTextNotify interface [Media Foundation],Reset method, IMFTimedTextNotify.Reset, IMFTimedTextNotify::Reset, Reset, Reset method [Media Foundation], Reset method [Media Foundation],IMFTimedTextNotify interface, mf.imftimedtextnotify_reset, mfmediaengine/IMFTimedTextNotify::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

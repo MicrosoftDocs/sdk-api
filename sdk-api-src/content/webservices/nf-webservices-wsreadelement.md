@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsReadElement
 title: WsReadElement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Read an element producing a value of the specified WS_TYPE.
 old-location: wsw\wsreadelement.htm
 old-project: wsw
 ms.assetid: 88e0cc4d-ae24-46af-998d-fdbfbcc1be64
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsReadElement, WsReadElement function [Web Services for Windows], webservices/WsReadElement, wsw.wsreadelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

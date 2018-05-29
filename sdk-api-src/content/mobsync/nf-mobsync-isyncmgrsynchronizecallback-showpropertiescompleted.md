@@ -1,16 +1,16 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.ShowPropertiesCompleted
 title: ISyncMgrSynchronizeCallback::ShowPropertiesCompleted
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the registered application's handler before or after its ShowProperties operation is completed.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_showpropertiescompleted.htm
 old-project: shell
 ms.assetid: d451e72e-d4a8-4899-b18e-d8912d817de5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],ShowPropertiesCompleted method, ISyncMgrSynchronizeCallback.ShowPropertiesCompleted, ISyncMgrSynchronizeCallback::ShowPropertiesCompleted, ShowPropertiesCompleted, ShowPropertiesCompleted method [Windows Shell], ShowPropertiesCompleted method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::ShowPropertiesCompleted, shell.syncmgr_isyncmgrsynchronizecallback_showpropertiescompleted, syncmgr.isyncmgrsynchronizecallback_showpropertiescompleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:textserv.ITextHost2.TxGetWindow
 title: ITextHost2::TxGetWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the handle of the text host window for the rich edit control.
 old-location: controls\itexthost2_txgetwindow.htm
 old-project: Controls
 ms.assetid: 42594B92-298B-4659-87EC-D10C6996CECF
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetWindow method, ITextHost2.TxGetWindow, ITextHost2::TxGetWindow, TxGetWindow, TxGetWindow method [Windows Controls], TxGetWindow method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgetwindow, textserv/ITextHost2::TxGetWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

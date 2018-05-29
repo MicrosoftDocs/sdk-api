@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaTypeHandler.GetMediaTypeCount
 title: IMFMediaTypeHandler::GetMediaTypeCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of media types in the object's list of supported media types.
 old-location: mf\imfmediatypehandler_getmediatypecount.htm
 old-project: medfound
 ms.assetid: c5ee41bc-ee8b-4990-ae9d-92ef54597f31
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetMediaTypeCount, GetMediaTypeCount method [Media Foundation], GetMediaTypeCount method [Media Foundation],IMFMediaTypeHandler interface, IMFMediaTypeHandler interface [Media Foundation],GetMediaTypeCount method, IMFMediaTypeHandler.GetMediaTypeCount, IMFMediaTypeHandler::GetMediaTypeCount, c5ee41bc-ee8b-4990-ae9d-92ef54597f31, mf.imfmediatypehandler_getmediatypecount, mfidl/IMFMediaTypeHandler::GetMediaTypeCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

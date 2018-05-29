@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptTranslateHandle
 title: NCryptTranslateHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Translates a CryptoAPI handle into a CNG key handle.
 old-location: security\ncrypttranslatehandle.htm
 old-project: SecCNG
 ms.assetid: 0c339864-b598-430c-a597-09d3571fdbb2
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCryptTranslateHandle, NCryptTranslateHandle function [Security], ncrypt/NCryptTranslateHandle, security.ncrypttranslatehandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

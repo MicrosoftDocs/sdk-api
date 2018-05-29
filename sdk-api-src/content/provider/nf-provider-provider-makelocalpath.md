@@ -1,16 +1,16 @@
 ---
 UID: NF:provider.Provider.MakeLocalPath
 title: Provider::MakeLocalPath
-author: windows-driver-content
+author: windows-sdk-content
 description: The MakeLocalPath method builds a full instance path from a relative path.
 old-location: wmi\provider_makelocalpath.htm
 old-project: WmiSdk
 ms.assetid: 8a2476c0-73c0-4a95-8973-e6da451116af
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: MakeLocalPath, MakeLocalPath method [Windows Management Instrumentation], MakeLocalPath method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],MakeLocalPath method, Provider.MakeLocalPath, Provider::MakeLocalPath, _hmm_provider_makelocalpath, provider/Provider::MakeLocalPath, wmi.provider_makelocalpath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

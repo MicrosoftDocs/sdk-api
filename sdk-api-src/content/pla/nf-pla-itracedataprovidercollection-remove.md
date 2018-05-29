@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.Remove
 title: ITraceDataProviderCollection::Remove
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a trace provider from the collection.
 old-location: pla\itracedataprovidercollection_remove.htm
 old-project: PLA
 ms.assetid: 553ec66e-d38a-46cc-9b01-f4d7947eda91
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ITraceDataProviderCollection interface [PLA],Remove method, ITraceDataProviderCollection.Remove, ITraceDataProviderCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],ITraceDataProviderCollection interface, base.itracedataprovidercollection_remove, pla.itracedataprovidercollection_remove, pla/ITraceDataProviderCollection::Remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

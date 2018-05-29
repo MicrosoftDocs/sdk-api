@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.ReadFileEx
 title: ReadFileEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads data from the specified file or input/output (I/O) device. It reports its completion status asynchronously, calling the specified completion routine when reading is completed or canceled and the calling thread is in an alertable wait state.
 old-location: fs\readfileex.htm
 old-project: FileIO
 ms.assetid: 6c1a4de1-6cae-4c35-bfba-0bc252fadbd9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ReadFileEx, ReadFileEx function [Files], _win32_readfileex, base.readfileex, fileapi/ReadFileEx, fs.readfileex, winbase/ReadFileEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

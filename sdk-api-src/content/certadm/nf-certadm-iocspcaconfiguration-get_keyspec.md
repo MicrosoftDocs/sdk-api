@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_KeySpec
 title: IOCSPCAConfiguration::get_KeySpec
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that indicates whether the key bound to the configuration is used for encryption or for signing content.
 old-location: security\iocspcaconfiguration_keyspec_method.htm
 old-project: SecCrypto
 ms.assetid: 86f1e52f-bce2-497c-98e7-848ffc3243a0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],KeySpec property, IOCSPCAConfiguration.KeySpec, IOCSPCAConfiguration.get_KeySpec, IOCSPCAConfiguration::KeySpec, IOCSPCAConfiguration::get_KeySpec, KeySpec property [Security], KeySpec property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::KeySpec, certadm/IOCSPCAConfiguration::get_KeySpec, get_KeySpec, security.iocspcaconfiguration_keyspec_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

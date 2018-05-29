@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition2.SetInitialVectorValue
 title: IUIAnimationTransition2::SetInitialVectorValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the initial value of the transition for each specified dimension in the animation variable.
 old-location: uianimation\iuianimationtransition2_setinitialvectorvalue.htm
 old-project: UIAnimation
 ms.assetid: B46F15F2-8C2A-4F15-9BBE-20FB8E5C84C6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationTransition2 interface [Windows Animation],SetInitialVectorValue method, IUIAnimationTransition2.SetInitialVectorValue, IUIAnimationTransition2::SetInitialVectorValue, SetInitialVectorValue, SetInitialVectorValue method [Windows Animation], SetInitialVectorValue method [Windows Animation],IUIAnimationTransition2 interface, uianimation.iuianimationtransition2_setinitialvectorvalue, uianimation/IUIAnimationTransition2::SetInitialVectorValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

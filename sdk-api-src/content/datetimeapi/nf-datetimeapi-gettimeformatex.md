@@ -1,16 +1,16 @@
 ---
 UID: NF:datetimeapi.GetTimeFormatEx
 title: GetTimeFormatEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats time as a time string for a locale specified by name.
 old-location: intl\gettimeformatex.htm
 old-project: Intl
 ms.assetid: 4d63888e-4496-4315-ac87-bf60c54daa37
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTimeFormatEx, GetTimeFormatEx function [Internationalization for Windows Applications], TIME_FORCE24HOURFORMAT, TIME_NOMINUTESORSECONDS, TIME_NOSECONDS, TIME_NOTIMEMARKER, _win32_GetTimeFormatEx, datetimeapi/GetTimeFormatEx, intl.gettimeformatex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: datetimeapi.h
 req.include-header: 

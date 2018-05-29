@@ -1,16 +1,16 @@
 ---
 UID: NF:userenv.EnterCriticalPolicySection
 title: EnterCriticalPolicySection function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnterCriticalPolicySection function pauses the application of policy to allow applications to safely read policy settings.
 old-location: policy\entercriticalpolicysection.htm
 old-project: Policy
 ms.assetid: d17578b3-3a71-456b-97ca-961b81572528
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EnterCriticalPolicySection, EnterCriticalPolicySection function [Group Policy], _win32_entercriticalpolicysection, policy.entercriticalpolicysection, userenv/EnterCriticalPolicySection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

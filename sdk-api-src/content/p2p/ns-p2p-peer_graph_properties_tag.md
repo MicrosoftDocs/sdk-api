@@ -1,16 +1,16 @@
 ---
 UID: NS:p2p.peer_graph_properties_tag
 title: peer_graph_properties_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PEER_GRAPH_PROPERTIES structure contains data about the policy of a peer graph, ID, scope, and other information.
 old-location: p2p\peer_graph_properties.htm
 old-project: P2PSdk
 ms.assetid: 15b4eeb4-1040-4f07-8e79-2c09aab9f926
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*PPEER_GRAPH_PROPERTIES, PEER_GRAPH_PROPERTIES, PEER_GRAPH_PROPERTIES structure [Peer Networking], PPEER_GRAPH_PROPERTIES, PPEER_GRAPH_PROPERTIES structure pointer [Peer Networking], p2p.peer_graph_properties, p2p/PPEER_GRAPH_PROPERTIES, p2p/peer_graph_properties_tag, peer_graph_properties_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

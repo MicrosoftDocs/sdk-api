@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkCollector.put_DynamicRendering
 title: IInkCollector::put_DynamicRendering
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the value that specifies whether ink is rendered as it is drawn.
 old-location: tablet\inkcollector_dynamicrendering.htm
 old-project: tablet
 ms.assetid: 48464ebc-d1a2-4068-b9ee-061adce30879
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DynamicRendering property [Tablet PC], DynamicRendering property [Tablet PC],InkCollector class, IInkCollector.put_DynamicRendering, IInkCollector::put_DynamicRendering, InkCollector class [Tablet PC],DynamicRendering property, InkCollector.DynamicRendering, InkCollector.get_DynamicRendering, InkCollector.put_DynamicRendering, get_DynamicRendering, put_DynamicRendering, tablet.inkcollector_dynamicrendering
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

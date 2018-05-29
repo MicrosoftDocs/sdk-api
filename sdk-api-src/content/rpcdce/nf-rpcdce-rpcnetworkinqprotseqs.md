@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcNetworkInqProtseqs
 title: RpcNetworkInqProtseqs function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNetworkInqProtseqs function returns all protocol sequences supported by both the RPC run-time library and the operating system.
 old-location: rpc\rpcnetworkinqprotseqs.htm
 old-project: Rpc
 ms.assetid: 7390e30a-9e29-417e-8d21-a045f1888036
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNetworkInqProtseqs, RpcNetworkInqProtseqs function [RPC], RpcNetworkInqProtseqsA, RpcNetworkInqProtseqsW, _rpc_rpcnetworkinqprotseqs, rpc.rpcnetworkinqprotseqs, rpcdce/RpcNetworkInqProtseqs, rpcdce/RpcNetworkInqProtseqsA, rpcdce/RpcNetworkInqProtseqsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

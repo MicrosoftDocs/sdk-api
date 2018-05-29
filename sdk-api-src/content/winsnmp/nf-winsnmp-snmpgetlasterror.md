@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpGetLastError
 title: SnmpGetLastError function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinSNMP SnmpGetLastError function returns the calling application's last-error code value. The value indicates the reason why the last function call executed by the WinSNMP application failed.
 old-location: snmp\snmpgetlasterror.htm
 old-project: SNMP
 ms.assetid: 0cfb2bc3-cfa5-4806-9dcf-119541463e7b
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpGetLastError, SnmpGetLastError function [SNMP], _snmp_snmpgetlasterror, snmp.snmpgetlasterror, winsnmp/SnmpGetLastError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

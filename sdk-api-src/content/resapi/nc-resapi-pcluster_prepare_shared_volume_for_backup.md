@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP
 title: PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP
-author: windows-driver-content
+author: windows-sdk-content
 description: ClusterPrepareSharedVolumeForBackup may be altered or unavailable.
 old-location: mscs\clusterpreparesharedvolumeforbackup.htm
 old-project: MsCS
 ms.assetid: d30f1a5b-f231-4874-8e79-6d25cfd094a5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP, PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP callback, PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP callback function [Failover Cluster], mscs.clusterpreparesharedvolumeforbackup, resapi/PCLUSTER_PREPARE_SHARED_VOLUME_FOR_BACKUP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ICertPropertyEnrollmentPolicyServer
 title: ICertPropertyEnrollmentPolicyServer
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an external certificate property that contains information about a certificate enrollment policy (CEP) server and a certificate enrollment server (CES).
 old-location: security\icertpropertyenrollmentpolicyserver.htm
 old-project: SecCertEnroll
 ms.assetid: 1af7b178-3226-43c3-bfbe-08738f9ef851
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertPropertyEnrollmentPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security], ICertPropertyEnrollmentPolicyServer interface [Security],described, certenroll/ICertPropertyEnrollmentPolicyServer, security.icertpropertyenrollmentpolicyserver
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

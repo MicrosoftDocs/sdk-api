@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICInfo
 title: ICInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICInfo function retrieves information about specific installed compressors or enumerates the installed compressors.
 old-location: multimedia\icinfo.htm
 old-project: Multimedia
 ms.assetid: 755ff010-3edc-4e13-9c8f-104a6d1f590a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICInfo, ICInfo function [Windows Multimedia], _win32_ICInfo, multimedia.icinfo, vfw/ICInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.GetFlags
 title: IExplorerCommand::GetFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the flags associated with a Windows Explorer command.
 old-location: shell\IExplorerCommand_GetFlags.htm
 old-project: shell
 ms.assetid: cd0a01fa-2525-4296-b77d-bba3fb80472d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ECF_AUTOMENUICONS, ECF_DEFAULT, ECF_HASLUASHIELD, ECF_HASSPLITBUTTON, ECF_HASSUBCOMMANDS, ECF_HIDELABEL, ECF_ISDROPDOWN, ECF_ISSEPARATOR, ECF_SEPARATORAFTER, ECF_SEPARATORBEFORE, ECF_TOGGLEABLE, GetFlags, GetFlags method [Windows Shell], GetFlags method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetFlags method, IExplorerCommand.GetFlags, IExplorerCommand::GetFlags, _shell_IExplorerCommand_GetFlags, shell.IExplorerCommand_GetFlags, shobjidl_core/IExplorerCommand::GetFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:sbtsv.ITsSbOrchestrationNotifySink
 title: ITsSbOrchestrationNotifySink
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that return an ITsSbTarget object to Remote Desktop Connection Broker (RD Connection Broker) after the target is successfully prepared for a connection.
 old-location: termserv\itssborchestrationnotifysink.htm
 old-project: TermServ
 ms.assetid: 767b6e73-ee0d-4802-99ff-ac37880a0884
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbOrchestrationNotifySink, ITsSbOrchestrationNotifySink interface [Remote Desktop Services], ITsSbOrchestrationNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbOrchestrationNotifySink, termserv.itssborchestrationnotifysink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

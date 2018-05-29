@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider2.Zoom
 title: ITransformProvider2::Zoom
-author: windows-driver-content
+author: windows-sdk-content
 description: Zooms the viewport of the control.
 old-location: winauto\uiauto_ITransformProvider2_Zoom.htm
 old-project: WinAuto
 ms.assetid: B267DAB1-F78B-4543-9A90-7107E5259A0C
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ITransformProvider2 interface [Windows Accessibility],Zoom method, ITransformProvider2.Zoom, ITransformProvider2::Zoom, Zoom, Zoom method [Windows Accessibility], Zoom method [Windows Accessibility],ITransformProvider2 interface, uiautomationcore/ITransformProvider2::Zoom, winauto.uiauto_ITransformProvider2_Zoom
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

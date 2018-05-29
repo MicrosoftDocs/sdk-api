@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzScope.DeletePolicyReader
 title: IAzScope::DeletePolicyReader
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeletePolicyReader method of IAzScope removes the specified security identifier in text form from the list of principals that act as policy readers.
 old-location: security\iazscope_deletepolicyreader.htm
 old-project: SecAuthZ
 ms.assetid: c328a838-ae81-463d-8aa5-827071f58747
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzScope object [Security],DeletePolicyReader method, DeletePolicyReader, DeletePolicyReader method [Security], DeletePolicyReader method [Security],AzScope object, DeletePolicyReader method [Security],IAzScope interface, IAzScope interface [Security],DeletePolicyReader method, IAzScope.DeletePolicyReader, IAzScope::DeletePolicyReader, azroles/IAzScope::DeletePolicyReader, security.iazscope_deletepolicyreader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

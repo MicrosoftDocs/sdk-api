@@ -1,16 +1,16 @@
 ---
 UID: NS:vds._VDS_PARTITION_PROP
 title: "_VDS_PARTITION_PROP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the properties of a partition.
 old-location: base\vds_partition_prop.htm
 old-project: VDS
 ms.assetid: f1b465ad-f03b-4ce8-ae83-f8e93b7fa4c4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_PARTITION_PROP, VDS_PARTITION_PROP structure [VDS], _VDS_PARTITION_PROP, base.vds_partition_prop, vds/_VDS_PARTITION_PROP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

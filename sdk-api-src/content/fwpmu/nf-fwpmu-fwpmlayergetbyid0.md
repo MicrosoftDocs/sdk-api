@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmLayerGetById0
 title: FwpmLayerGetById0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a layer object.
 old-location: fwp\fwpmlayergetbyid0_func.htm
 old-project: FWP
 ms.assetid: c7668d06-8533-4dd1-a4f6-fb38c97219db
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmLayerGetById0, FwpmLayerGetById0 function [Filtering], fwp.fwpmlayergetbyid0_func, fwpmu/FwpmLayerGetById0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

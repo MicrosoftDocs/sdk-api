@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFGetAttributeUINT64
 title: MFGetAttributeUINT64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a UINT64 value from an attribute store, or a default value if the attribute is not present.
 old-location: mf\mfgetattributeuint64.htm
 old-project: medfound
 ms.assetid: 843946a4-d270-4440-9818-59e95cbf9a5b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 843946a4-d270-4440-9818-59e95cbf9a5b, MFGetAttributeUINT64, MFGetAttributeUINT64 function [Media Foundation], mf.mfgetattributeuint64, mfapi/MFGetAttributeUINT64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

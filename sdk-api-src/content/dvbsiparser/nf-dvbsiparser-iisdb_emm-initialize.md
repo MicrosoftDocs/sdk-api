@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.Initialize
 title: IISDB_EMM::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the data elements of an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table by using the list of MPEG-2 EMM sections.
 old-location: mstv\iisdb_emm_initialize.htm
 old-project: mstv
 ms.assetid: 127e7987-6782-4577-9104-86124d948d18
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IISDB_EMM interface [Microsoft TV Technologies],Initialize method, IISDB_EMM.Initialize, IISDB_EMM::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_EMM interface, dvbsiparser/IISDB_EMM::Initialize, mstv.iisdb_emm_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

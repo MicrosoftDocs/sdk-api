@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxyExceptionList
 title: IWMPNetwork::setProxyExceptionList
-author: windows-driver-content
+author: windows-sdk-content
 description: The setProxyExceptionList method specifies the proxy exception list.
 old-location: wmp\iwmpnetwork_setproxyexceptionlist.htm
 old-project: WMP
 ms.assetid: af9202aa-fa4e-4726-908f-3fc5370e06df
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxyExceptionList method, IWMPNetwork.setProxyExceptionList, IWMPNetwork::setProxyExceptionList, IWMPNetworksetProxyExceptionList, setProxyExceptionList, setProxyExceptionList method [Windows Media Player], setProxyExceptionList method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxyexceptionlist, wmp/IWMPNetwork::setProxyExceptionList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

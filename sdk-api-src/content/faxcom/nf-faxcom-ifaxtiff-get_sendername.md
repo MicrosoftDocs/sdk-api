@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_SenderName
 title: IFaxTiff::get_SenderName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the SenderName property for a FaxTiff object. The SenderName property is a null-terminated string that contains the name of the user who queued the fax transmission.
 old-location: fax\_mfax_ifaxtiff_get_sendername_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_62at.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxTiff object [Fax Service],SenderName property, FaxTiff.SenderName, IFaxTiff.get_SenderName, IFaxTiff::get_SenderName, SenderName property [Fax Service], SenderName property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_sendername, fax._mfax_ifaxtiff_get_sendername, fax._mfax_ifaxtiff_get_sendername_vb, get_SenderName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

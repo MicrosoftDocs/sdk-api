@@ -1,16 +1,16 @@
 ---
 UID: NS:vdshwprv._VDS_MOUNT_POINT_NOTIFICATION
 title: "_VDS_MOUNT_POINT_NOTIFICATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents notification information that was returned by the basic or dynamic software provider because a drive letter or volume GUID path changed.
 old-location: base\vds_mount_point_notification.htm
 old-project: VDS
 ms.assetid: 6e49437e-8fc7-4fc5-a227-b326a1ea9967
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_MOUNT_POINT_NOTIFICATION, VDS_MOUNT_POINT_NOTIFICATION structure [VDS], VDS_NF_MOUNT_POINTS_CHANGE, _VDS_MOUNT_POINT_NOTIFICATION, base.vds_mount_point_notification, vds/_VDS_MOUNT_POINT_NOTIFICATION, vdshwprv/_VDS_MOUNT_POINT_NOTIFICATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

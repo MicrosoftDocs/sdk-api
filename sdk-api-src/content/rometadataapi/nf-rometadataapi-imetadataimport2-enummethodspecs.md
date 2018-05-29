@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.EnumMethodSpecs
 title: IMetaDataImport2::EnumMethodSpecs
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an enumerator for an array of MethodSpec tokens associated with the specified MethodDef or MemberRef token.
 old-location: winrt\imetadataimport2_enummethodspecs.htm
 old-project: WinRT
 ms.assetid: b4327a57-8a19-44f9-90b6-df2b089f63e4
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: EnumMethodSpecs, EnumMethodSpecs method [Windows Runtime], EnumMethodSpecs method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],EnumMethodSpecs method, IMetaDataImport2.EnumMethodSpecs, IMetaDataImport2::EnumMethodSpecs, rometadataapi/IMetaDataImport2::EnumMethodSpecs, winrt.imetadataimport2_enummethodspecs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

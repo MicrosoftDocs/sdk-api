@@ -1,16 +1,16 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformationCollection.get__NewEnum
 title: ICertSrvSetupKeyInformationCollection::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an enumerator for the information set.
 old-location: security\icertsrvsetupkeyinformationcollection__newenum.htm
 old-project: SecCrypto
 ms.assetid: 80a34341-176d-4040-bc60-79ce81b917b2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertSrvSetupKeyInformationCollection interface [Security],_NewEnum property, ICertSrvSetupKeyInformationCollection._NewEnum, ICertSrvSetupKeyInformationCollection.get__NewEnum, ICertSrvSetupKeyInformationCollection::_NewEnum, ICertSrvSetupKeyInformationCollection::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertSrvSetupKeyInformationCollection interface, casetup/ICertSrvSetupKeyInformationCollection::_NewEnum, casetup/ICertSrvSetupKeyInformationCollection::get__NewEnum, get__NewEnum, security.icertsrvsetupkeyinformationcollection__newenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

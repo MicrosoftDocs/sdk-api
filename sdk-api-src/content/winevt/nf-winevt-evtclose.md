@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtClose
 title: EvtClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes an open handle.
 old-location: wes\evtclose.htm
 old-project: WES
 ms.assetid: c4b82d7b-508d-45bf-b990-04e90e846525
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtClose, EvtClose function [EventLog], wes.evtclose, winevt/EvtClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

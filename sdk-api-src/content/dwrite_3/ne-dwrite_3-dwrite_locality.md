@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite_3.DWRITE_LOCALITY
 title: DWRITE_LOCALITY
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the location of a resource.
 old-location: directwrite\dwrite_locality.htm
 old-project: DirectWrite
 ms.assetid: DEBFE4E0-C995-4468-9702-44EA37F1BCFF
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_LOCALITY, DWRITE_LOCALITY enumeration [Direct Write], DWRITE_LOCALITY_LOCAL, DWRITE_LOCALITY_PARTIAL, DWRITE_LOCALITY_REMOTE, directwrite.dwrite_locality, dwrite_3/DWRITE_LOCALITY, dwrite_3/DWRITE_LOCALITY_LOCAL, dwrite_3/DWRITE_LOCALITY_PARTIAL, dwrite_3/DWRITE_LOCALITY_REMOTE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite_3.h
 req.include-header: 

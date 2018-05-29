@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupSetNonInteractiveMode
 title: SetupSetNonInteractiveMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupSetNonInteractiveMode function sets a non-interactive SetupAPI flag that determines whether SetupAPI can interact with a user in the caller's context.
 old-location: devinst\setupsetnoninteractivemode.htm
 old-project: devinst
 ms.assetid: 5858547d-cd0e-4067-a94b-fff58b4f1334
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupSetNonInteractiveMode, SetupSetNonInteractiveMode function [Device and Driver Installation], devinst.setupsetnoninteractivemode, setup-ref_6afe961a-ba91-4ab8-b296-39308b6413c7.xml, setupapi/SetupSetNonInteractiveMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

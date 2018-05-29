@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_CHARSET
 title: WS_CHARSET
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the character set of a document.
 old-location: wsw\ws_charset.htm
 old-project: wsw
 ms.assetid: 47dadf5d-1bc7-4f93-936c-21c936bc3fc3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_CHARSET, WS_CHARSET enumeration [Web Services for Windows], WS_CHARSET_AUTO, WS_CHARSET_UTF16BE, WS_CHARSET_UTF16LE, WS_CHARSET_UTF8, webservices/WS_CHARSET, webservices/WS_CHARSET_AUTO, webservices/WS_CHARSET_UTF16BE, webservices/WS_CHARSET_UTF16LE, webservices/WS_CHARSET_UTF8, wsw.ws_charset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

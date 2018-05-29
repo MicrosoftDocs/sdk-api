@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.IntServServiceHdr
 title: IntServServiceHdr
-author: windows-driver-content
+author: windows-sdk-content
 description: The IntServServiceHdr structure is a header for Integrated Services service objects.
 old-location: qos\intservservicehdr.htm
 old-project: QOS
 ms.assetid: 63e6a944-f16e-4b90-ab77-22e5c8ef3fb2
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IntServServiceHdr, IntServServiceHdr structure [QOS], lpmapi/IntServServiceHdr, qos.intservservicehdr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.UpdateProgress
 title: IFileOperationProgressSink::UpdateProgress
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides an estimate of the total amount of work currently done in relation to the total amount of work.
 old-location: shell\IFileOperationProgressSink_UpdateProgress.htm
 old-project: shell
 ms.assetid: c61d4440-bcd3-46a7-8aeb-e5d80d0d53eb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],UpdateProgress method, IFileOperationProgressSink.UpdateProgress, IFileOperationProgressSink::UpdateProgress, UpdateProgress, UpdateProgress method [Windows Shell], UpdateProgress method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_UpdateProgress, shell.IFileOperationProgressSink_UpdateProgress, shobjidl_core/IFileOperationProgressSink::UpdateProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

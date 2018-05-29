@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IAutoCompleteDropDown
 title: IAutoCompleteDropDown
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that allow clients to reset or query the display state of the autocomplete drop-down list, which contains possible completions to a string entered by the user in an edit control.
 old-location: shell\IAutoCompleteDropDown.htm
 old-project: shell
 ms.assetid: 1f956d61-6a09-464e-bfe8-0b3bcb9ea181
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAutoCompleteDropDown, IAutoCompleteDropDown interface [Windows Shell], IAutoCompleteDropDown interface [Windows Shell],described, _shell_IAutoCompleteDropDown, shell.IAutoCompleteDropDown, shobjidl/IAutoCompleteDropDown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

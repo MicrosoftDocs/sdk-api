@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportManager.GetWdsTransportServer
 title: IWdsTransportManager::GetWdsTransportServer
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an object of the IWdsTransportServer interface that can be used to manage a WDS transport server. The method confirms that the system can reach a WDS transport server with the specified name.
 old-location: wds\iwdstransportmanager_getwdstransportserver.htm
 old-project: Wds
 ms.assetid: 537f75d1-43aa-4f18-a39b-ad45148c1246
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetWdsTransportServer, GetWdsTransportServer method [Windows Deployment Services], GetWdsTransportServer method [Windows Deployment Services],IWdsTransportManager interface, IWdsTransportManager interface [Windows Deployment Services],GetWdsTransportServer method, IWdsTransportManager.GetWdsTransportServer, IWdsTransportManager::GetWdsTransportServer, wds.iwdstransportmanager_getwdstransportserver, wdstptmgmt/IWdsTransportManager::GetWdsTransportServer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

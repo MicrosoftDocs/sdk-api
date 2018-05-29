@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcproxy.NdrDllRegisterProxy
 title: NdrDllRegisterProxy function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrDllRegisterProxy function creates a registry entry for the interfaces contained in the proxy DLL.
 old-location: rpc\ndrdllregisterproxy.htm
 old-project: Rpc
 ms.assetid: 555a9e8b-c720-4bd5-872c-1af317511858
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrDllRegisterProxy, NdrDllRegisterProxy function [RPC], rpc.ndrdllregisterproxy, rpcproxy/NdrDllRegisterProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

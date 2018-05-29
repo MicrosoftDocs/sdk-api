@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_PropertyBagFlags
 title: IFsrmPropertyBag::get_PropertyBagFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: A set of flags that provide additional information about the property bag.
 old-location: fsrm\ifsrmpropertybag_propertybagflags.htm
 old-project: Fsrm
 ms.assetid: b7e5885e-c716-4fa8-afc0-bfe258e5f421
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],PropertyBagFlags property, IFsrmPropertyBag.PropertyBagFlags, IFsrmPropertyBag.get_PropertyBagFlags, IFsrmPropertyBag::PropertyBagFlags, IFsrmPropertyBag::get_PropertyBagFlags, PropertyBagFlags property [File Server Resource Manager], PropertyBagFlags property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_propertybagflags, fsrm.ifsrmpropertybag_propertybagflags, fsrmpipeline/IFsrmPropertyBag::PropertyBagFlags, fsrmpipeline/IFsrmPropertyBag::get_PropertyBagFlags, get_PropertyBagFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

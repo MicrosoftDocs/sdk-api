@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFRemoteDesktopPlugin
 title: IMFRemoteDesktopPlugin
-author: windows-driver-content
+author: windows-sdk-content
 description: Modifies a topology for use in a Terminal Services environment.
 old-location: mf\imfremotedesktopplugin.htm
 old-project: medfound
 ms.assetid: 75bb9bf8-12a7-430f-9943-18623aff9903
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 75bb9bf8-12a7-430f-9943-18623aff9903, IMFRemoteDesktopPlugin, IMFRemoteDesktopPlugin interface [Media Foundation], IMFRemoteDesktopPlugin interface [Media Foundation],described, mf.imfremotedesktopplugin, mfidl/IMFRemoteDesktopPlugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

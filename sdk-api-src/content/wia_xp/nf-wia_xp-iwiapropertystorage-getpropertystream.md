@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IWiaPropertyStorage.GetPropertyStream
 title: IWiaPropertyStorage::GetPropertyStream
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWiaPropertyStorage::GetPropertyStream method retrieves the property stream of an item.
 old-location: wia\_wia_IWiaPropertyStorage_GetPropertyStream.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getpropertystream.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: GetPropertyStream, GetPropertyStream method [WIA], GetPropertyStream method [WIA],IWiaPropertyStorage interface, IWiaPropertyStorage interface [WIA],GetPropertyStream method, IWiaPropertyStorage.GetPropertyStream, IWiaPropertyStorage::GetPropertyStream, _wia_IWiaPropertyStorage_GetPropertyStream, wia._wia_IWiaPropertyStorage_GetPropertyStream, wia_xp/IWiaPropertyStorage::GetPropertyStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

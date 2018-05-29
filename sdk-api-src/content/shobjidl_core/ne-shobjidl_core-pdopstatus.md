@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.PDOPSTATUS
 title: PDOPSTATUS
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides operation status flags.
 old-location: properties\PDOPSTATUS.htm
 old-project: properties
 ms.assetid: f9fd5cbe-2cb7-4ae7-9cf2-f8545095eec8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PDOPSTATUS, PDOPSTATUS enumeration [Windows Properties], PDOPS_CANCELLED, PDOPS_ERRORS, PDOPS_PAUSED, PDOPS_RUNNING, PDOPS_STOPPED, _shell_PDOPSTATUS, properties.PDOPSTATUS, shell.PDOPSTATUS, shobjidl_core/PDOPSTATUS, shobjidl_core/PDOPS_CANCELLED, shobjidl_core/PDOPS_ERRORS, shobjidl_core/PDOPS_PAUSED, shobjidl_core/PDOPS_RUNNING, shobjidl_core/PDOPS_STOPPED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: 

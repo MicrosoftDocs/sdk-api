@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSetTollListA
 title: lineSetTollListA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSetTollList function manipulates the toll list.
 old-location: tapi2\linesettolllist.htm
 old-project: Tapi
 ms.assetid: 40471e45-cb1d-4730-ba35-ffec99953235
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesettolllist, lineSetTollList, lineSetTollList function [TAPI 2.2], lineSetTollListA, lineSetTollListW, tapi/lineSetTollList, tapi/lineSetTollListA, tapi/lineSetTollListW, tapi2.linesettolllist"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

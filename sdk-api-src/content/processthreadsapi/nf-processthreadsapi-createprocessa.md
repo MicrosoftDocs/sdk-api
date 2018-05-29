@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.CreateProcessA
 title: CreateProcessA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new process and its primary thread. The new process runs in the security context of the calling process.
 old-location: base\createprocess.htm
 old-project: ProcThread
 ms.assetid: 3ef0a5b2-4d71-4c17-8188-76a4025287fc
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CreateProcess, CreateProcess function, CreateProcessA, CreateProcessW, _win32_createprocess, base.createprocess, processthreadsapi/CreateProcess, processthreadsapi/CreateProcessA, processthreadsapi/CreateProcessW, winbase/CreateProcess, winbase/CreateProcessA, winbase/CreateProcessW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

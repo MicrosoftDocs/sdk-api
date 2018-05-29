@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.BSTR_UserMarshal
 title: BSTR_UserMarshal function
-author: windows-driver-content
+author: windows-sdk-content
 description: Marshals a BSTR object into the RPC buffer.
 old-location: automat\bstr_usermarshal.htm
 old-project: automat
 ms.assetid: 98825155-1dd3-47c0-928d-484d5bc70927
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: BSTR_UserMarshal, BSTR_UserMarshal function [Automation], _oa96_BSTR_UserMarshal, automat.bstr_usermarshal, oaidl/BSTR_UserMarshal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 

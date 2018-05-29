@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumResources.Reset
 title: IEnumResources::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the enumeration index to 0.
 old-location: shell\IEnumResources_Reset.htm
 old-project: shell
 ms.assetid: 0b3f38d2-80fe-4242-a99d-5d82f9dd50e9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumResources interface [Windows Shell],Reset method, IEnumResources.Reset, IEnumResources::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumResources interface, _shell_IEnumResources_Reset, shell.IEnumResources_Reset, shobjidl_core/IEnumResources::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.GetAttributeCountEx
 title: IWMHeaderInfo3::GetAttributeCountEx
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAttributeCountEx method retrieves the total number of attributes associated with a specified stream number.
 old-location: wmformat\iwmheaderinfo3_getattributecountex.htm
 old-project: wmformat
 ms.assetid: 8c56d7b6-4f59-450e-938c-b7d0bd37ea08
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetAttributeCountEx, GetAttributeCountEx method [windows Media Format], GetAttributeCountEx method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],GetAttributeCountEx method, IWMHeaderInfo3.GetAttributeCountEx, IWMHeaderInfo3::GetAttributeCountEx, IWMHeaderInfo3GetAttributeCountEx, wmformat.iwmheaderinfo3_getattributecountex, wmsdkidl/IWMHeaderInfo3::GetAttributeCountEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

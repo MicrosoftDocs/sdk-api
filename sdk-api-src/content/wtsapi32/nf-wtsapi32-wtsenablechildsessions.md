@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsapi32.WTSEnableChildSessions
 title: WTSEnableChildSessions function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables Child Sessions.
 old-location: termserv\wtsenablechildsessions.htm
 old-project: TermServ
 ms.assetid: BA995C04-9004-4A41-8E4A-8701E8C64F2E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WTSEnableChildSessions, WTSEnableChildSessions function [Remote Desktop Services], termserv.wtsenablechildsessions, wtsapi32/WTSEnableChildSessions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

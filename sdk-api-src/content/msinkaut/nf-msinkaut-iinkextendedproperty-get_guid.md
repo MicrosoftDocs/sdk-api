@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperty.get_Guid
 title: IInkExtendedProperty::get_Guid
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the globally unique identifier (GUID) of the IInkExtendedProperty object.
 old-location: tablet\iinkextendedproperty_guid.htm
 old-project: tablet
 ms.assetid: cd029ffc-11c4-41f7-86bc-c11fac38ec72
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Guid property [Tablet PC], Guid property [Tablet PC],IInkExtendedProperty interface, IInkExtendedProperty interface [Tablet PC],Guid property, IInkExtendedProperty.Guid, IInkExtendedProperty.get_Guid, IInkExtendedProperty::Guid, IInkExtendedProperty::get_Guid, cd029ffc-11c4-41f7-86bc-c11fac38ec72, get_Guid, msinkaut/IInkExtendedProperty::Guid, msinkaut/IInkExtendedProperty::get_Guid, tablet.iinkextendedproperty_guid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

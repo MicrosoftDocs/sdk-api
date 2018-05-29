@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GET_CACHE_INFORMATION
 title: IOCTL_DISK_GET_CACHE_INFORMATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the disk cache configuration data.
 old-location: fs\ioctl_disk_get_cache_information.htm
 old-project: FileIO
 ms.assetid: 025a92e8-6169-4d7e-9029-f22acb2bdc9f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IOCTL_DISK_GET_CACHE_INFORMATION, IOCTL_DISK_GET_CACHE_INFORMATION control, IOCTL_DISK_GET_CACHE_INFORMATION control code [Files], base.ioctl_disk_get_cache_information, fs.ioctl_disk_get_cache_information, winioctl/IOCTL_DISK_GET_CACHE_INFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

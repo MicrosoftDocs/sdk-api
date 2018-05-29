@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_Ringer
 title: ITAutomatedPhoneControl::get_Ringer
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Ringer method returns a Boolean value indicating whether the phone is currently performing an incoming ring that was initiated by the StartRinger method on this interface.
 old-location: tapi3\itautomatedphonecontrol_get_ringer.htm
 old-project: Tapi
 ms.assetid: cc4daec0-7f55-4c76-b8a0-19307c7046dc
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_Ringer method, ITAutomatedPhoneControl.get_Ringer, ITAutomatedPhoneControl::get_Ringer, _tapi3_itautomatedphonecontrol_get_ringer, get_Ringer, get_Ringer method [TAPI 2.2], get_Ringer method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_ringer, tapi3if/ITAutomatedPhoneControl::get_Ringer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange.ScrollIntoView
 title: ITextRange::ScrollIntoView
-author: windows-driver-content
+author: windows-sdk-content
 description: Scrolls the specified range into view.
 old-location: controls\ITextRange_ScrollIntoView.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\scrollintoview.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRange interface [Windows Controls],ScrollIntoView method, ITextRange.ScrollIntoView, ITextRange::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Controls], ScrollIntoView method [Windows Controls],ITextRange interface, _win32_ITextRange_ScrollIntoView, _win32_ITextRange_ScrollIntoView_cpp, controls.ITextRange_ScrollIntoView, controls._win32_ITextRange_ScrollIntoView, tom/ITextRange::ScrollIntoView, tomEnd, tomNoUpScroll, tomNoVpScroll, tomStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

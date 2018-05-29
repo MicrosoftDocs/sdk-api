@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICspStatus.put_Ordinal
 title: ICspStatus::put_Ordinal
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies or retrieves the position of the ICspStatus object in the ICspStatuses collection.
 old-location: security\icspstatus_ordinal_property.htm
 old-project: SecCertEnroll
 ms.assetid: e392e28f-084e-43a7-8a5e-14bea0ed8d58
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICspStatus interface [Security],Ordinal property, ICspStatus.Ordinal, ICspStatus.put_Ordinal, ICspStatus::Ordinal, ICspStatus::get_Ordinal, ICspStatus::put_Ordinal, Ordinal property [Security], Ordinal property [Security],ICspStatus interface, certenroll/ICspStatus::Ordinal, certenroll/ICspStatus::get_Ordinal, certenroll/ICspStatus::put_Ordinal, put_Ordinal, security.icspstatus_ordinal_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

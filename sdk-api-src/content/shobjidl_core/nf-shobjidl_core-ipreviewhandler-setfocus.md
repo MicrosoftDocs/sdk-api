@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandler.SetFocus
 title: IPreviewHandler::SetFocus
-author: windows-driver-content
+author: windows-sdk-content
 description: Directs the preview handler to set focus to itself.
 old-location: shell\IPreviewHandler_SetFocus.htm
 old-project: shell
 ms.assetid: 93667383-da56-4fe9-a79e-933ab9703365
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],SetFocus method, IPreviewHandler.SetFocus, IPreviewHandler::SetFocus, SetFocus, SetFocus method [Windows Shell], SetFocus method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_SetFocus, shell.IPreviewHandler_SetFocus, shobjidl_core/IPreviewHandler::SetFocus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

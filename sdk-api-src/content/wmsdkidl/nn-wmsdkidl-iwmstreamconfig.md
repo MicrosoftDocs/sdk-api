@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMStreamConfig
 title: IWMStreamConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMStreamConfig interface is the primary interface of a stream configuration object.
 old-location: wmformat\iwmstreamconfig.htm
 old-project: wmformat
 ms.assetid: e013996a-95b6-4cd3-9fb5-75dbce821eef
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMStreamConfig, IWMStreamConfig interface [windows Media Format], IWMStreamConfig interface [windows Media Format],described, IWMStreamConfigInterface, wmformat.iwmstreamconfig, wmsdkidl/IWMStreamConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

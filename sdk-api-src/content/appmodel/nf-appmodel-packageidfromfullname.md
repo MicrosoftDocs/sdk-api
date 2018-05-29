@@ -1,16 +1,16 @@
 ---
 UID: NF:appmodel.PackageIdFromFullName
 title: PackageIdFromFullName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the package identifier (ID) for the specified package full name.
 old-location: appxpkg\packageidfromfullname.htm
 old-project: appxpkg
 ms.assetid: EED832F8-E4F7-4A0F-93E2-451F78F67767
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: PackageIdFromFullName, PackageIdFromFullName function [App packaging and management], appmodel/PackageIdFromFullName, appxpkg.packageidfromfullname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

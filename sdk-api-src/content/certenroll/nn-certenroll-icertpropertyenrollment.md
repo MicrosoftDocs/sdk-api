@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ICertPropertyEnrollment
 title: ICertPropertyEnrollment
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a certificate property that contains certificate and certification authority (CA) information created when the client calls the Enroll method on the IX509Enrollment interface.
 old-location: security\icertpropertyenrollment.htm
 old-project: SecCertEnroll
 ms.assetid: 7530998b-b59c-426b-a74a-ead4bca55c3b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertPropertyEnrollment, ICertPropertyEnrollment interface [Security], ICertPropertyEnrollment interface [Security],described, certenroll/ICertPropertyEnrollment, security.icertpropertyenrollment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

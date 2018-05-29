@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetUserDefaultUILanguage
 title: GetUserDefaultUILanguage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the language identifier for the user UI language for the current user.
 old-location: intl\getuserdefaultuilanguage.htm
 old-project: Intl
 ms.assetid: 0de3a2d8-e595-4068-805c-b9bcba7ada91
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetUserDefaultUILanguage, GetUserDefaultUILanguage function [Internationalization for Windows Applications], _win32_GetUserDefaultUILanguage, intl.getuserdefaultuilanguage, winnls/GetUserDefaultUILanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

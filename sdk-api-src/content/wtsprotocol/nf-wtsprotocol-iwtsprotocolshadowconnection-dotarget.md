@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowConnection.DoTarget
 title: IWTSProtocolShadowConnection::DoTarget
-author: windows-driver-content
+author: windows-sdk-content
 description: IWTSProtocolShadowConnection::DoTarget is no longer available. Instead, use IWRdsProtocolShadowConnection::DoTarget.
 old-location: termserv\iwtsprotocolshadowconnection_dotarget.htm
 old-project: TermServ
 ms.assetid: 437983a4-48a4-4b37-99ba-35fe1f03b3ec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DoTarget, DoTarget method [Remote Desktop Services], DoTarget method [Remote Desktop Services],IWTSProtocolShadowConnection interface, IWTSProtocolShadowConnection interface [Remote Desktop Services],DoTarget method, IWTSProtocolShadowConnection.DoTarget, IWTSProtocolShadowConnection::DoTarget, termserv.iwtsprotocolshadowconnection_dotarget, wtsprotocol/IWTSProtocolShadowConnection::DoTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

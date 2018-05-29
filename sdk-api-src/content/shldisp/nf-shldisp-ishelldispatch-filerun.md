@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.FileRun
 title: IShellDispatch::FileRun
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays the Run dialog to the user.
 old-location: shell\IShellDispatch_FileRun.htm
 old-project: shell
 ms.assetid: BC7C4C26-593D-4467-A2AA-4F2DF835C989
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FileRun, FileRun method [Windows Shell], FileRun method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],FileRun method, IShellDispatch.FileRun, IShellDispatch::FileRun, shell.IShellDispatch_FileRun
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

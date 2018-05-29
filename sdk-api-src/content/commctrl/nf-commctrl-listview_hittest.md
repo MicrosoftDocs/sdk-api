@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_HitTest
 title: ListView_HitTest macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines which list-view item, if any, is at a specified position. You can use this macro or send the LVM_HITTEST message explicitly.
 old-location: controls\ListView_HitTest.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_hittest.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_HitTest, ListView_HitTest macro [Windows Controls], _win32_ListView_HitTest, _win32_ListView_HitTest_cpp, commctrl/ListView_HitTest, controls.ListView_HitTest, controls._win32_ListView_HitTest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

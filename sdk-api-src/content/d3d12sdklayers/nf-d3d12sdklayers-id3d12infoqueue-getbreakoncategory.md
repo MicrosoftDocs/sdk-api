@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetBreakOnCategory
 title: ID3D12InfoQueue::GetBreakOnCategory
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a message category to break on when a message with that category passes through the storage filter.
 old-location: direct3d12\id3d12infoqueue_getbreakoncategory.htm
 old-project: direct3d12
 ms.assetid: 3B966BB5-4AA6-4475-890F-4477A5C7E55E
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetBreakOnCategory, GetBreakOnCategory method, GetBreakOnCategory method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetBreakOnCategory method, ID3D12InfoQueue.GetBreakOnCategory, ID3D12InfoQueue::GetBreakOnCategory, d3d12sdklayers/ID3D12InfoQueue::GetBreakOnCategory, direct3d12.id3d12infoqueue_getbreakoncategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

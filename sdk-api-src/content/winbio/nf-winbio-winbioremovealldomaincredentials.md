@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioRemoveAllDomainCredentials
 title: WinBioRemoveAllDomainCredentials function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all user credentials for the current domain from the store. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioremovealldomaincredentials.htm
 old-project: SecBioMet
 ms.assetid: 2aee0929-2340-4901-a5d2-f1cd4395624a
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WinBioRemoveAllDomainCredentials, WinBioRemoveAllDomainCredentials function [Windows Biometric Framework API], secbiomet.winbioremovealldomaincredentials, winbio/WinBioRemoveAllDomainCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

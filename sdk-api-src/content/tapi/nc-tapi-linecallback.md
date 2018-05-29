@@ -1,16 +1,16 @@
 ---
 UID: NC:tapi.LINECALLBACK
 title: LINECALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineCallback function is a placeholder for the application-supplied function name.
 old-location: tapi2\linecallbackfunc.htm
 old-project: Tapi
 ms.assetid: 449ecf4f-0b1b-449e-9eae-049770d41dbc
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LINECALLBACK, LINECALLBACK callback function [TAPI 2.2], _tapi2_linecallbackfunc, lineCallback callback, tapi/LINECALLBACK, tapi2.linecallbackfunc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: tapi.h
 req.include-header: 

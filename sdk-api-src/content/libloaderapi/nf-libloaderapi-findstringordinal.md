@@ -1,16 +1,16 @@
 ---
 UID: NF:libloaderapi.FindStringOrdinal
 title: FindStringOrdinal function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates a Unicode string (wide characters) in another Unicode string for a non-linguistic comparison.
 old-location: intl\findstringordinal.htm
 old-project: Intl
 ms.assetid: 6aca64f5-640a-4be6-9606-260314e9c7dc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FIND_ENDSWITH, FIND_FROMEND, FIND_FROMSTART, FIND_STARTSWITH, FindStringOrdinal, FindStringOrdinal function [Internationalization for Windows Applications], intl.findstringordinal, libloaderapi/FindStringOrdinal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: libloaderapi.h
 req.include-header: Windows.h

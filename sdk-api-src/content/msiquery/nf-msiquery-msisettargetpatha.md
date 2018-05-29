@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiSetTargetPathA
 title: MsiSetTargetPathA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiSetTargetPath function sets the full target path for a folder in the Directory table.
 old-location: setup\msisettargetpath.htm
 old-project: Msi
 ms.assetid: bfd39656-4901-442f-940d-424d440caf70
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiSetTargetPath, MsiSetTargetPath function, MsiSetTargetPathA, MsiSetTargetPathW, _msi_msisettargetpath, msiquery/MsiSetTargetPath, msiquery/MsiSetTargetPathA, msiquery/MsiSetTargetPathW, setup.msisettargetpath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

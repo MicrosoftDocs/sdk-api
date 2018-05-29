@@ -1,16 +1,16 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorInitialize
 title: EapMethodAuthenticatorInitialize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an EAP authenticator method for the server EAPHost.
 old-location: eaphost\eapmethodauthenticatorinitialize.htm
 old-project: EAPHost
 ms.assetid: 19484962-01fa-4abe-a6b4-c05b8112b0aa
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapMethodAuthenticatorInitialize, EapMethodAuthenticatorInitialize function [EAPHost], eaphost.eapmethodauthenticatorinitialize, eapmethodauthenticatorapis/EapMethodAuthenticatorInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 

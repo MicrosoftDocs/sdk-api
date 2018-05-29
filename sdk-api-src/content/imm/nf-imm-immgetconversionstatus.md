@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmGetConversionStatus
 title: ImmGetConversionStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current conversion status.
 old-location: intl\immgetconversionstatus.htm
 old-project: Intl
 ms.assetid: 64220427-e352-4445-9476-35e6246e59cd
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmGetConversionStatus, ImmGetConversionStatus function [Internationalization for Windows Applications], _win32_ImmGetConversionStatus, imm/ImmGetConversionStatus, intl.immgetconversionstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

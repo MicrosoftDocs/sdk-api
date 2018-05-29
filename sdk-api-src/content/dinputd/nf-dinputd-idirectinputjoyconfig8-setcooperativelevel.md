@@ -1,16 +1,16 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.SetCooperativeLevel
 title: IDirectInputJoyConfig8::SetCooperativeLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDirectInputJoyConfig8::SetCooperativeLevel method establishes the cooperation level for the instance of the device. The only cooperative levels supported for the IDirectInputJoyConfig8 interface are DISCL_EXCLUSIVE and DISCL_BACKGROUND.
 old-location: hid\idirectinputjoyconfig8_setcooperativelevel.htm
 old-project: hid
 ms.assetid: 0132194a-ee7b-4aa2-af79-f92071072429
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetCooperativeLevel method, IDirectInputJoyConfig8.SetCooperativeLevel, IDirectInputJoyConfig8::SetCooperativeLevel, SetCooperativeLevel, SetCooperativeLevel method [Human Input Devices], SetCooperativeLevel method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_3730e9ce-af55-43a3-866f-ecb288958005.xml, dinputd/IDirectInputJoyConfig8::SetCooperativeLevel, hid.idirectinputjoyconfig8_setcooperativelevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h

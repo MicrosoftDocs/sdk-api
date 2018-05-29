@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetCoefficient4
 title: SetCoefficient4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the fourth coefficient for the equation used to composite the two input images.
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient4_overloaded.htm
 old-project: directcomp
 ms.assetid: adaa5348-3887-d3ba-dad1-e49310815cc2
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: SetCoefficient4, SetCoefficient4 methods [DirectComposition], dcomp/SetCoefficient4, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient4_overloaded, idcompositionarithmeticcompositeeffect::SetCoefficient4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

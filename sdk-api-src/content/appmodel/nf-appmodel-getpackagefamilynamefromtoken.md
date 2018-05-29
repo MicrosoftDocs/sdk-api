@@ -1,16 +1,16 @@
 ---
 UID: NF:appmodel.GetPackageFamilyNameFromToken
 title: GetPackageFamilyNameFromToken function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the package family name for the specified token.
 old-location: appxpkg\getpackagefamilynamefromtoken.htm
 old-project: appxpkg
 ms.assetid: C4FAF5DE-DF1F-4AFA-813B-5D80C786031B
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetPackageFamilyNameFromToken, GetPackageFamilyNameFromToken function [App packaging and management], appmodel/GetPackageFamilyNameFromToken, appxpkg.getpackagefamilynamefromtoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

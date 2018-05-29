@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollector.put_LogCircular
 title: IDataCollector::put_LogCircular
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets a value that indicates if PLA should create a circular file.
 old-location: pla\idatacollector_logcircular.htm
 old-project: PLA
 ms.assetid: d1b35b02-cfda-42a4-bd1d-d837a91861d6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollector interface [PLA],LogCircular property, IDataCollector.LogCircular, IDataCollector.put_LogCircular, IDataCollector::LogCircular, IDataCollector::get_LogCircular, IDataCollector::put_LogCircular, LogCircular property [PLA], LogCircular property [PLA],IDataCollector interface, base.idatacollector_logcircular, pla.idatacollector_logcircular, pla/IDataCollector::LogCircular, pla/IDataCollector::get_LogCircular, pla/IDataCollector::put_LogCircular, put_LogCircular
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

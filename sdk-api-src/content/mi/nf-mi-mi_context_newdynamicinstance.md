@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Context_NewDynamicInstance
 title: MI_Context_NewDynamicInstance function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new dynamic instance (weakly typed instance without a class declaration) of a class.
 old-location: wmi_v2\mi_context_newdynamicinstance.htm
 old-project: wmi_v2
 ms.assetid: 05415945-c804-4056-b4bf-673995c1d6e4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Context_NewDynamicInstance, MI_Context_NewDynamicInstance function [Windows Management Infrastructure (MI)], mi/MI_Context_NewDynamicInstance, wmi.mi_newdynamicinstance, wmi_v2.mi_context_newdynamicinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

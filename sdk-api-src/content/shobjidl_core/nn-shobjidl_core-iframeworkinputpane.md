@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IFrameworkInputPane
 title: IFrameworkInputPane
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods that enable apps to be informed of state changes and location for the input pane.
 old-location: shell\IFrameworkInputPane.htm
 old-project: shell
 ms.assetid: 05C115BA-249A-4271-9C6F-DAAEE91BB936
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFrameworkInputPane, IFrameworkInputPane interface [Windows Shell], IFrameworkInputPane interface [Windows Shell],described, shell.IFrameworkInputPane, shobjidl_core/IFrameworkInputPane
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

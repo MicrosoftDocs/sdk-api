@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IObjectContextTip.GetTipUrl
 title: IObjectContextTip::GetTipUrl
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the URL of the TIP context.
 old-location: cos\iobjectcontexttip_gettipurl.htm
 old-project: cossdk
 ms.assetid: 9948a1b4-efbe-4a44-a67d-ea91a846708f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetTipUrl, GetTipUrl method [COM+], GetTipUrl method [COM+],IObjectContextTip interface, IObjectContextTip interface [COM+],GetTipUrl method, IObjectContextTip.GetTipUrl, IObjectContextTip::GetTipUrl, _cos_IObjectContextTip_GetTipUrl, comsvcs/IObjectContextTip::GetTipUrl, cos.iobjectcontexttip_gettipurl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

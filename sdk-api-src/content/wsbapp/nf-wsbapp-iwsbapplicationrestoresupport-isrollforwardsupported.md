@@ -1,16 +1,16 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.IsRollForwardSupported
 title: IWsbApplicationRestoreSupport::IsRollForwardSupported
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports whether the application supports roll-forward restore.
 old-location: wsb\iwsbapplicationrestoresupport_isrollforwardsupported.htm
 old-project: wsb
 ms.assetid: 6dae61b7-0e52-42f7-8ca4-b3566f6b4bbc
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],IsRollForwardSupported method, IWsbApplicationRestoreSupport.IsRollForwardSupported, IWsbApplicationRestoreSupport::IsRollForwardSupported, IsRollForwardSupported, IsRollForwardSupported method [Windows Server Backup], IsRollForwardSupported method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_isrollforwardsupported, wsbapp/IWsbApplicationRestoreSupport::IsRollForwardSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsbapp.h
 req.include-header: 

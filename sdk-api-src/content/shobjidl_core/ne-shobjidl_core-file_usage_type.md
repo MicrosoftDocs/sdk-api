@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.FILE_USAGE_TYPE
 title: FILE_USAGE_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Constants used by IFileIsInUse::GetUsage to indicate how a file in use is being used.
 old-location: shell\FILE_USAGE_TYPE.htm
 old-project: shell
 ms.assetid: 32b0e148-499a-401d-837c-8cea74cf9cac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FILE_USAGE_TYPE, FILE_USAGE_TYPE enumeration [Windows Shell], FUT_EDITING, FUT_GENERIC, FUT_PLAYING, _shell_FILE_USAGE_TYPE, shell.FILE_USAGE_TYPE, shobjidl_core/FILE_USAGE_TYPE, shobjidl_core/FUT_EDITING, shobjidl_core/FUT_GENERIC, shobjidl_core/FUT_PLAYING
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

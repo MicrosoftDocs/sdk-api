@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetInboundHttpHeaders
 title: IWSDHttpMessageParameters::GetInboundHttpHeaders
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current HTTP headers used for inbound SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_getinboundhttpheaders.htm
 old-project: WsdApi
 ms.assetid: 99b30444-1059-45c3-ac72-a0f98d722365
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetInboundHttpHeaders, GetInboundHttpHeaders method, GetInboundHttpHeaders method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetInboundHttpHeaders method, IWSDHttpMessageParameters.GetInboundHttpHeaders, IWSDHttpMessageParameters::GetInboundHttpHeaders, ncd.iwsdhttpmessageparameters_getinboundhttpheaders, wsdbase/IWSDHttpMessageParameters::GetInboundHttpHeaders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

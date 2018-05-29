@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.SetFileValidData
 title: SetFileValidData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the valid data length of the specified file. This function is useful in very limited scenarios. For more information, see the Remarks section.
 old-location: fs\setfilevaliddata.htm
 old-project: FileIO
 ms.assetid: c6ded2d7-270a-4b75-b2d4-1007a92fe831
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: SetFileValidData, SetFileValidData function [Files], _win32_setfilevaliddata, base.setfilevaliddata, fileapi/SetFileValidData, fs.setfilevaliddata, winbase/SetFileValidData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

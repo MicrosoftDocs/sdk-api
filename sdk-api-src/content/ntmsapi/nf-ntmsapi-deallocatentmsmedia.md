@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.DeallocateNtmsMedia
 title: DeallocateNtmsMedia function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeallocateNtmsMedia function deallocates the side associated with the specified logical media.
 old-location: fs\deallocatentmsmedia.htm
 old-project: Rsm
 ms.assetid: e053c725-2da6-4eeb-b471-644847dd8db5
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: DeallocateNtmsMedia, DeallocateNtmsMedia function [Files], _zaw_deallocatentmsmedia, base.deallocatentmsmedia, fs.deallocatentmsmedia, ntmsapi/DeallocateNtmsMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

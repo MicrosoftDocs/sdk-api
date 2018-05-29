@@ -1,16 +1,16 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetSyncProviderConfigUIInfo
 title: ISyncProviderRegistration::GetSyncProviderConfigUIInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an ISyncProviderConfigUIInfo object for the given unique instance ID.
 old-location: winsync\isyncproviderregistration_getsyncproviderconfiguiinfo.htm
 old-project: winsync
 ms.assetid: 687f2f28-378e-456c-a06a-d78e486e6635
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSyncProviderConfigUIInfo, GetSyncProviderConfigUIInfo method [Windows Sync], GetSyncProviderConfigUIInfo method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderConfigUIInfo method, ISyncProviderRegistration.GetSyncProviderConfigUIInfo, ISyncProviderRegistration::GetSyncProviderConfigUIInfo, syncregistration/ISyncProviderRegistration::GetSyncProviderConfigUIInfo, winsync.isyncproviderregistration_getsyncproviderconfiguiinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

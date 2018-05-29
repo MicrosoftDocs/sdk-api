@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.GetSignatureOriginPartName
 title: IOpcDigitalSignatureManager::GetSignatureOriginPartName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IOpcPartUri interface pointer that represents the part name of the Digital Signature Origin part.
 old-location: opc\iopcdigitalsignaturemanager_getsignatureoriginpartname.htm
 old-project: OPC
 ms.assetid: 958cf2e7-0956-489a-904f-01ec00af48d1
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetSignatureOriginPartName, GetSignatureOriginPartName method [Open Packaging Conventions], GetSignatureOriginPartName method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, IOpcDigitalSignatureManager interface [Open Packaging Conventions],GetSignatureOriginPartName method, IOpcDigitalSignatureManager.GetSignatureOriginPartName, IOpcDigitalSignatureManager::GetSignatureOriginPartName, msopc/IOpcDigitalSignatureManager::GetSignatureOriginPartName, opc.iopcdigitalsignaturemanager_getsignatureoriginpartname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

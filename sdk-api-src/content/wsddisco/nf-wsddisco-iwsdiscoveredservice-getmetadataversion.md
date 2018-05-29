@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetMetadataVersion
 title: IWSDiscoveredService::GetMetadataVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the metadata version of this message.
 old-location: ncd\iwsdiscoveredservice_getmetadataversion.htm
 old-project: WsdApi
 ms.assetid: ce0d463e-6455-48cc-b01f-6aa93fd628b6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetMetadataVersion, GetMetadataVersion method, GetMetadataVersion method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetMetadataVersion method, IWSDiscoveredService.GetMetadataVersion, IWSDiscoveredService::GetMetadataVersion, ncd.iwsdiscoveredservice_getmetadataversion, wsddisco/IWSDiscoveredService::GetMetadataVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

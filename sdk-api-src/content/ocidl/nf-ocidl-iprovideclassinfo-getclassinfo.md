@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IProvideClassInfo.GetClassInfo
 title: IProvideClassInfo::GetClassInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to the ITypeInfo interface for the object's type information. The type information for an object corresponds to the object's coclass entry in a type library.
 old-location: com\iprovideclassinfo_getclassinfo.htm
 old-project: com
 ms.assetid: 9dac095d-4657-47ea-a673-4d8a96fc29bb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetClassInfo, GetClassInfo method [COM], GetClassInfo method [COM],IProvideClassInfo interface, IProvideClassInfo interface [COM],GetClassInfo method, IProvideClassInfo.GetClassInfo, IProvideClassInfo::GetClassInfo, _com_iprovideclassinfo_getclassinfo, com.iprovideclassinfo_getclassinfo, ocidl/IProvideClassInfo::GetClassInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

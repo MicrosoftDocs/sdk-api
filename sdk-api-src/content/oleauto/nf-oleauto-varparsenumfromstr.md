@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarParseNumFromStr
 title: VarParseNumFromStr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Parses a string, and creates a type-independent description of the number it represents.
 old-location: automat\varparsenumfromstr.htm
 old-project: automat
 ms.assetid: b77ce0df-5635-4760-8b42-f3afec49482b
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarParseNumFromStr, VarParseNumFromStr function [Automation], _oa96_VarParseNumFromStr, automat.varparsenumfromstr, oleauto/VarParseNumFromStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

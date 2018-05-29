@@ -1,16 +1,16 @@
 ---
 UID: NS:ntmsapi._NTMS_OBJECTINFORMATIONW
 title: "_NTMS_OBJECTINFORMATIONW"
-author: windows-driver-content
+author: windows-sdk-content
 description: The NTMS_OBJECTINFORMATION structure defines the properties that an application can get and set for RSM devices, media and system controls (such as libraries, drives, media, operator requests). This is the common structure of objects in the RSM database.
 old-location: fs\ntms_objectinformation.htm
 old-project: Rsm
 ms.assetid: 56e3380b-47c7-4861-bb2b-31d67ac10fe1
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: "*LPNTMS_OBJECTINFORMATIONW, LPNTMS_OBJECTINFORMATION, LPNTMS_OBJECTINFORMATION structure pointer [Files], NTMS_CHANGER, NTMS_CHANGER_TYPE, NTMS_COMPUTER, NTMS_DRIVE, NTMS_DRIVE_TYPE, NTMS_IEDOOR, NTMS_IEPORT, NTMS_LIBRARY, NTMS_LIBREQUEST, NTMS_LOGICAL_MEDIA, NTMS_MEDIA_POOL, NTMS_MEDIA_TYPE, NTMS_NEEDS_SERVICE, NTMS_NOT_PRESENT, NTMS_OBJECTINFORMATION, NTMS_OBJECTINFORMATION structure [Files], NTMS_OBJECTINFORMATIONW, NTMS_OPREQUEST, NTMS_PARTITION, NTMS_PHYSICAL_MEDIA, NTMS_READY, NTMS_STORAGESLOT, _NTMS_OBJECTINFORMATIONA, _NTMS_OBJECTINFORMATIONW, _zaw_ntms_objectinformation, base.ntms_objectinformation, fs.ntms_objectinformation, ntmsapi/LPNTMS_OBJECTINFORMATION, ntmsapi/NTMS_OBJECTINFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntmsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.get_ApplicationFilter
 title: IRDPSRAPISharingSession::get_ApplicationFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIApplicationFilter interface.
 old-location: rdp\irdpsrapisharingsession_applicationfilter.htm
 old-project: Rdp
 ms.assetid: 4a346305-972c-40c4-882e-905745edf6e9
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: ApplicationFilter property [RDP], ApplicationFilter property [RDP],IRDPSRAPISharingSession interface, ApplicationFilter property [RDP],IRDPSRAPISharingSession2 interface, ApplicationFilter property [RDP],RDPSession object, IRDPSRAPISharingSession interface [RDP],ApplicationFilter property, IRDPSRAPISharingSession.ApplicationFilter, IRDPSRAPISharingSession.get_ApplicationFilter, IRDPSRAPISharingSession2 interface [RDP],ApplicationFilter property, IRDPSRAPISharingSession2.ApplicationFilter, IRDPSRAPISharingSession2::ApplicationFilter, IRDPSRAPISharingSession2::get_ApplicationFilter, IRDPSRAPISharingSession::get_ApplicationFilter, RDPSession object [RDP],ApplicationFilter property, get_ApplicationFilter, rdp.irdpsrapisharingsession_applicationfilter, rdpencomapi/IRDPSRAPISharingSession2::ApplicationFilter, rdpencomapi/IRDPSRAPISharingSession2::get_ApplicationFilter, rdpencomapi/IRDPSRAPISharingSession::ApplicationFilter, rdpencomapi/IRDPSRAPISharingSession::get_ApplicationFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xamlom.IVisualTreeService.GetEnums
 title: IVisualTreeService::GetEnums
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an array of all the enums defined in the XAML runtime and the total count.
 old-location: xaml_diagnostics\ivisualtreeservice_getenums.htm
 old-project: xaml_diagnostics
 ms.assetid: 95D6F754-C1D0-4B8E-8E31-999CAE0EDF02
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: GetEnums, GetEnums method, GetEnums method,IVisualTreeService interface, IVisualTreeService interface,GetEnums method, IVisualTreeService.GetEnums, IVisualTreeService::GetEnums, xaml_diagnostics.ivisualtreeservice_getenums, xamlom/IVisualTreeService::GetEnums
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.CoInstall
 title: CoInstall function
-author: windows-driver-content
+author: windows-sdk-content
 description: Installs the requested COM server application.
 old-location: com\coinstall.htm
 old-project: com
 ms.assetid: 9486ef2d-51a1-41b4-85e5-427af9a98cec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoInstall, CoInstall function [COM], _com_CoInstall, com.coinstall, objbase/CoInstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

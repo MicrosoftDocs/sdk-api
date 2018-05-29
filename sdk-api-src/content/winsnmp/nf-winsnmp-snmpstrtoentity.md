@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpStrToEntity
 title: SnmpStrToEntity function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinSNMP SnmpStrToEntity function returns a handle to information about an SNMP management entity that is specific to the Microsoft WinSNMP implementation.
 old-location: snmp\snmpstrtoentity.htm
 old-project: SNMP
 ms.assetid: d0a8e389-ba5b-45f4-9682-1fbe456daaed
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SNMPAPI_TRANSLATED, SNMPAPI_UNTRANSLATED_V1, SNMPAPI_UNTRANSLATED_V2, SnmpStrToEntity, SnmpStrToEntity function [SNMP], _snmp_snmpstrtoentity, snmp.snmpstrtoentity, winsnmp/SnmpStrToEntity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

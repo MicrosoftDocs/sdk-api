@@ -1,16 +1,16 @@
 ---
 UID: NN:functiondiscoveryprovider.IFunctionDiscoveryProvider
 title: IFunctionDiscoveryProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: This is the main interface implemented by a discovery provider. It is the primary interface the Function Discovery infrastructure uses to communicate with the provider and its resources.
 old-location: ncd\ifunctiondiscoveryprovider.htm
 old-project: FunDisc
 ms.assetid: e0019d0d-1495-4a0e-a7d9-7772046a4a26
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IFunctionDiscoveryProvider, IFunctionDiscoveryProvider interface, IFunctionDiscoveryProvider interface,described, functiondiscoveryprovider/IFunctionDiscoveryProvider, ncd.ifunctiondiscoveryprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryprovider.h
 req.include-header: 

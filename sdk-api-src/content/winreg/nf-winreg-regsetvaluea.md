@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.RegSetValueA
 title: RegSetValueA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the data for the default or unnamed value of a specified registry key. The data must be a text string.
 old-location: base\regsetvalue.htm
 old-project: SysInfo
 ms.assetid: f99774d4-575b-43a3-8887-e15acb0477fd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RegSetValue, RegSetValue function, RegSetValueA, RegSetValueW, _win32_regsetvalue, base.regsetvalue, winreg/RegSetValue, winreg/RegSetValueA, winreg/RegSetValueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetSampleCallback
 title: IMFCaptureRecordSink::SetSampleCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a callback to receive the recording data for one stream.
 old-location: mf\imfcapturerecordsink_setsamplecallback.htm
 old-project: medfound
 ms.assetid: 1D7BB0D1-3F77-4AF3-9624-73EE4D0D0BCE
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetSampleCallback method, IMFCaptureRecordSink.SetSampleCallback, IMFCaptureRecordSink::SetSampleCallback, SetSampleCallback, SetSampleCallback method [Media Foundation], SetSampleCallback method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setsamplecallback, mfcaptureengine/IMFCaptureRecordSink::SetSampleCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

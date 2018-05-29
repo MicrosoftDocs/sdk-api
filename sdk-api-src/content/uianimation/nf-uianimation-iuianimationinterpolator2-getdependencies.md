@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator2.GetDependencies
 title: IUIAnimationInterpolator2::GetDependencies
-author: windows-driver-content
+author: windows-sdk-content
 description: For the given dimension, GetDependencies retrieves the aspects of the interpolator that depend on the initial value or velocity that is passed to the IUIAnimationInterpolator2::SetInitialValueAndVelocity method or the duration that is passed to the IUIAnimationInterpolator2::SetDuration method.
 old-location: uianimation\iuianimationinterpolator2_getdependencies.htm
 old-project: UIAnimation
 ms.assetid: DC6F046E-1A35-4FB9-9016-853AF2B598DE
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDependencies, GetDependencies method [Windows Animation], GetDependencies method [Windows Animation],IUIAnimationInterpolator2 interface, IUIAnimationInterpolator2 interface [Windows Animation],GetDependencies method, IUIAnimationInterpolator2.GetDependencies, IUIAnimationInterpolator2::GetDependencies, uianimation.iuianimationinterpolator2_getdependencies, uianimation/IUIAnimationInterpolator2::GetDependencies
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceMethodCallback.OnComplete
 title: IPortableDeviceServiceMethodCallback::OnComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that a callback method has completed execution.
 old-location: wpdsdk\iportabledeviceservicemethodcallback_oncomplete.htm
 old-project: wpd_sdk
 ms.assetid: b04e7bf1-bad7-4e9a-b53a-ec064d323f94
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IPortableDeviceServiceMethodCallback interface [Windows Portable Devices SDK],OnComplete method, IPortableDeviceServiceMethodCallback.OnComplete, IPortableDeviceServiceMethodCallback::OnComplete, OnComplete, OnComplete method [Windows Portable Devices SDK], OnComplete method [Windows Portable Devices SDK],IPortableDeviceServiceMethodCallback interface, portabledeviceapi/IPortableDeviceServiceMethodCallback::OnComplete, wpdsdk.iportabledeviceservicemethodcallback_oncomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

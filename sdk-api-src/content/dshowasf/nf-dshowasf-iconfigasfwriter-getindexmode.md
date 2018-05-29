@@ -1,16 +1,16 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.GetIndexMode
 title: IConfigAsfWriter::GetIndexMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetIndexMode method retrieves the current index mode.
 old-location: dshow\iconfigasfwriter_getindexmode.htm
 old-project: DirectShow
 ms.assetid: 70d9a2e7-2f5a-4f87-b42c-3a225c42a44b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetIndexMode, GetIndexMode method [DirectShow], GetIndexMode method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetIndexMode method, IConfigAsfWriter.GetIndexMode, IConfigAsfWriter::GetIndexMode, IConfigAsfWriterGetIndexMode, dshow.iconfigasfwriter_getindexmode, dshowasf/IConfigAsfWriter::GetIndexMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 

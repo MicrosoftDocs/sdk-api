@@ -1,16 +1,16 @@
 ---
 UID: NC:prsht.LPFNADDPROPSHEETPAGE
 title: LPFNADDPROPSHEETPAGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies an application-defined callback function that a property sheet extension uses to add a page to a property sheet.
 old-location: controls\AddPropSheetPageProc.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\addpropsheetpageproc.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddPropSheetPageProc, AddPropSheetPageProc callback, AddPropSheetPageProc callback function [Windows Controls], LPFNADDPROPSHEETPAGE, _win32_AddPropSheetPageProc, _win32_AddPropSheetPageProc_cpp, controls.AddPropSheetPageProc, controls._win32_AddPropSheetPageProc, prsht/AddPropSheetPageProc, prsht/LPFNADDPROPSHEETPAGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: prsht.h
 req.include-header: 

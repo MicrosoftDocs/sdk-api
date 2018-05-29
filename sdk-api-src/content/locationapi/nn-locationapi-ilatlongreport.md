@@ -1,16 +1,16 @@
 ---
 UID: NN:locationapi.ILatLongReport
 title: ILatLongReport
-author: windows-driver-content
+author: windows-sdk-content
 description: ILatLongReport represents a location report that contains information in the form of latitude and longitude.
 old-location: winlocation\ilatlongreport.htm
 old-project: LocationAPI
 ms.assetid: b489959e-74c7-46df-b63f-7d37e3a244d5
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ILatLongReport, ILatLongReport interface [WinLocation], ILatLongReport interface [WinLocation],described, locationapi/ILatLongReport, winlocation.ilatlongreport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: locationapi.h
 req.include-header: 

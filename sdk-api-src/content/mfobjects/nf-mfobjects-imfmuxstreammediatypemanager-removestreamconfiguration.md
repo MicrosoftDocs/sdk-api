@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.RemoveStreamConfiguration
 title: IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters a stream configuration, which defines a set of substreams that can be included the multiplexed output.
 old-location: mf\imfmuxstreammediatypemanager_removestreamconfiguration.htm
 old-project: medfound
 ms.assetid: 8808DC0A-7675-4913-B4F1-B2FCCB3AFBBF
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMuxStreamMediaTypeManager interface [Media Foundation],RemoveStreamConfiguration method, IMFMuxStreamMediaTypeManager.RemoveStreamConfiguration, IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration, RemoveStreamConfiguration, RemoveStreamConfiguration method [Media Foundation], RemoveStreamConfiguration method [Media Foundation],IMFMuxStreamMediaTypeManager interface, mf.imfmuxstreammediatypemanager_removestreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::RemoveStreamConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: 

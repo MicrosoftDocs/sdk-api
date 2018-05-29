@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_TEXTURE2D_DESC
 title: D3D11_TEXTURE2D_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a 2D texture.
 old-location: direct3d11\d3d11_texture2d_desc.htm
 old-project: direct3d11
 ms.assetid: 90c0f877-daf5-4b3d-9846-5bb414c55461
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 0e4a1b3e-1d71-7891-e22e-f3f18ab0f0b9, D3D11_TEXTURE2D_DESC, D3D11_TEXTURE2D_DESC structure [Direct3D 11], d3d11/D3D11_TEXTURE2D_DESC, direct3d11.d3d11_texture2d_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

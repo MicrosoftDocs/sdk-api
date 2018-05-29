@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.SizeF.SizeF(IN const SizeF &)
 title: SizeF::SizeF(IN const SizeF &)
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a SizeF object and initializes the members to zero. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_SizeF_SizeF_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizefclass\sizefconstructors\sizef_24.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SizeF, SizeF class [GDI+],SizeF constructor, SizeF constructor [GDI+], SizeF constructor [GDI+],SizeF class, SizeF.SizeF, SizeF.SizeF(), SizeF.SizeF(IN const SizeF &), SizeF::SizeF, SizeF::SizeF(IN const SizeF &), _gdiplus_CLASS_SizeF_SizeF_, gdiplus._gdiplus_CLASS_SizeF_SizeF_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

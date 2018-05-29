@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Instance_GetClass
 title: MI_Instance_GetClass function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the MI_Class associated with an instance.
 old-location: wmi_v2\mi_instance_getclass.htm
 old-project: wmi_v2
 ms.assetid: 4799e9f0-f233-499f-acec-9041074eab42
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Instance_GetClass, MI_Instance_GetClass function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetClass, wmi_v2.mi_instance_getclass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

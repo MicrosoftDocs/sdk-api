@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFAudioStreamVolume
 title: IMFAudioStreamVolume
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls the volume levels of individual audio channels.
 old-location: mf\imfaudiostreamvolume.htm
 old-project: medfound
 ms.assetid: f06ed262-a2ec-4688-b477-877d04cf1892
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFAudioStreamVolume, IMFAudioStreamVolume interface [Media Foundation], IMFAudioStreamVolume interface [Media Foundation],described, f06ed262-a2ec-4688-b477-877d04cf1892, mf.imfaudiostreamvolume, mfidl/IMFAudioStreamVolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

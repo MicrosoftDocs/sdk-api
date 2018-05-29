@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyEnumTypeList.GetAt
 title: IPropertyEnumTypeList::GetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IPropertyEnumType object at the specified index in the list.
 old-location: properties\IPropertyEnumTypeList_GetAt.htm
 old-project: properties
 ms.assetid: 1713d16f-58d9-46f9-9795-4e05ff257901
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetAt, GetAt method [Windows Properties], GetAt method [Windows Properties],IPropertyEnumTypeList interface, IPropertyEnumTypeList interface [Windows Properties],GetAt method, IPropertyEnumTypeList.GetAt, IPropertyEnumTypeList::GetAt, _shell_IPropertyEnumTypeList_GetAt, properties.IPropertyEnumTypeList_GetAt, propsys/IPropertyEnumTypeList::GetAt, shell.IPropertyEnumTypeList_GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveSubnetElementV6
 title: DhcpRemoveSubnetElementV6 function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DhcpRemoveSubnetElementV6 function removes an element from a subnet defined on the DHCP server.
 old-location: dhcp\dhcpremovesubnetelementv6.htm
 old-project: DHCP
 ms.assetid: 02efbce8-ac9c-4e8e-96d0-cdb556204b3d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpRemoveSubnetElementV6, DhcpRemoveSubnetElementV6 function [DHCP], dhcp.dhcpremovesubnetelementv6, dhcpsapi/DhcpRemoveSubnetElementV6
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

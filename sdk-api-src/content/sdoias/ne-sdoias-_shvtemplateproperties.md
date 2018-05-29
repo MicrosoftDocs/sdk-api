@@ -1,16 +1,16 @@
 ---
 UID: NE:sdoias._SHVTEMPLATEPROPERTIES
 title: "_SHVTEMPLATEPROPERTIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: The values of the SHVTEMPLATEPROPERTIES enumeration type enumerate the properties of a System Health Validator (SHV) template.
 old-location: nps\SDO_shvtemplateproperties.htm
 old-project: Nps
 ms.assetid: dc6aafe8-61c0-4dc6-9705-272ee2b6f2bb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PROPERTY_SHV_COMBINATION_TYPE, PROPERTY_SHV_LIST, SHVTEMPLATEPROPERTIES, SHVTEMPLATEPROPERTIES enumeration [Network Policy Server], _SHVTEMPLATEPROPERTIES, nps.SDO_shvtemplateproperties, sdo.shvtemplateproperties, sdoias/PROPERTY_SHV_COMBINATION_TYPE, sdoias/PROPERTY_SHV_LIST, sdoias/SHVTEMPLATEPROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetGlyphIndexCount
 title: IXpsOMGlyphsEditor::GetGlyphIndexCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of glyph indices.
 old-location: xps\ixpsomglyphseditor_getglyphindexcount.htm
 old-project: printdocs
 ms.assetid: e7b83f08-e87f-4921-8dbb-f33453c63732
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetGlyphIndexCount, GetGlyphIndexCount method [XPS Documents and Packaging], GetGlyphIndexCount method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetGlyphIndexCount method, IXpsOMGlyphsEditor.GetGlyphIndexCount, IXpsOMGlyphsEditor::GetGlyphIndexCount, xps.ixpsomglyphseditor_getglyphindexcount, xpsobjectmodel/IXpsOMGlyphsEditor::GetGlyphIndexCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:bdaiface.IBDA_ConditionalAccess
 title: IBDA_ConditionalAccess
-author: windows-driver-content
+author: windows-sdk-content
 description: The IBDA_ConditionalAccess interface provides conditional access to program content.
 old-location: mstv\ibda_conditionalaccess.htm
 old-project: mstv
 ms.assetid: 93bd3c38-2591-4d36-b296-5ad939487277
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_ConditionalAccess, IBDA_ConditionalAccess interface [Microsoft TV Technologies], IBDA_ConditionalAccess interface [Microsoft TV Technologies],described, IBDA_ConditionalAccessInterface, bdaiface/IBDA_ConditionalAccess, mstv.ibda_conditionalaccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

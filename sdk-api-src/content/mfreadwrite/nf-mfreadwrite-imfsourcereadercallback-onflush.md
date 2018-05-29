@@ -1,16 +1,16 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback.OnFlush
 title: IMFSourceReaderCallback::OnFlush
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the IMFSourceReader::Flush method completes.
 old-location: mf\imfsourcereadercallback_onflush.htm
 old-project: medfound
 ms.assetid: a8273b0a-a75a-453f-bb42-38d554e44262
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSourceReaderCallback interface [Media Foundation],OnFlush method, IMFSourceReaderCallback.OnFlush, IMFSourceReaderCallback::OnFlush, OnFlush, OnFlush method [Media Foundation], OnFlush method [Media Foundation],IMFSourceReaderCallback interface, mf.imfsourcereadercallback_onflush, mfreadwrite/IMFSourceReaderCallback::OnFlush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

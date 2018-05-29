@@ -1,16 +1,16 @@
 ---
 UID: NS:tdh._PROVIDER_EVENT_INFO
 title: "_PROVIDER_EVENT_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an array of events in a provider manifest.
 old-location: etw\provider_event_info.htm
 old-project: ETW
 ms.assetid: CC392841-7436-4543-A846-FB5A27D9A014
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PPROVIDER_EVENT_INFO, PPROVIDER_EVENT_INFO, PPROVIDER_EVENT_INFO structure pointer [ETW], PROVIDER_EVENT_INFO, PROVIDER_EVENT_INFO structure [ETW], _PROVIDER_EVENT_INFO, etw.provider_event_info, tdh/PPROVIDER_EVENT_INFO, tdh/PROVIDER_EVENT_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 

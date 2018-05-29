@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.GetAutoReconnectLimit
 title: IWMReaderNetworkConfig2::GetAutoReconnectLimit
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAutoReconnectLimit method retrieves the maximum number of times the reader will attempt to reconnect to the server in the case of an unexpected disconnection.
 old-location: wmformat\iwmreadernetworkconfig2_getautoreconnectlimit.htm
 old-project: wmformat
 ms.assetid: 8d0b794c-b3bf-4ec5-ac68-9666e73f7a6e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetAutoReconnectLimit, GetAutoReconnectLimit method [windows Media Format], GetAutoReconnectLimit method [windows Media Format],IWMReaderNetworkConfig2 interface, IWMReaderNetworkConfig2 interface [windows Media Format],GetAutoReconnectLimit method, IWMReaderNetworkConfig2.GetAutoReconnectLimit, IWMReaderNetworkConfig2::GetAutoReconnectLimit, IWMReaderNetworkConfig2GetAutoReconnectLimit, wmformat.iwmreadernetworkconfig2_getautoreconnectlimit, wmsdkidl/IWMReaderNetworkConfig2::GetAutoReconnectLimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

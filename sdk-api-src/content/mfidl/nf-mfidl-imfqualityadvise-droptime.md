@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFQualityAdvise.DropTime
 title: IMFQualityAdvise::DropTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Drops samples over a specified interval of time.
 old-location: mf\imfqualityadvise_droptime.htm
 old-project: medfound
 ms.assetid: 60d27190-7bed-427c-9018-2926c85815fe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 60d27190-7bed-427c-9018-2926c85815fe, DropTime, DropTime method [Media Foundation], DropTime method [Media Foundation],IMFQualityAdvise interface, IMFQualityAdvise interface [Media Foundation],DropTime method, IMFQualityAdvise.DropTime, IMFQualityAdvise::DropTime, mf.imfqualityadvise_droptime, mfidl/IMFQualityAdvise::DropTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_DigitalMultiplier
 title: IVideoProcAmp::getRange_DigitalMultiplier
-author: windows-driver-content
+author: windows-sdk-content
 description: The getRange_DigitalMultiplier method returns the range of digital zoom levels supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_digitalmultiplier.htm
 old-project: DirectShow
 ms.assetid: 8a8a5f72-d51f-4f5a-95e4-ac8d1ac1b24f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_DigitalMultiplier method, IVideoProcAmp.getRange_DigitalMultiplier, IVideoProcAmp::getRange_DigitalMultiplier, IVideoProcAmpgetRange_DigitalMultiplier, dshow.ivideoprocamp_getrange_digitalmultiplier, getRange_DigitalMultiplier, getRange_DigitalMultiplier method [DirectShow], getRange_DigitalMultiplier method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_DigitalMultiplier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

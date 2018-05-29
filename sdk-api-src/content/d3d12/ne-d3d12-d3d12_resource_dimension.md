@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_RESOURCE_DIMENSION
 title: D3D12_RESOURCE_DIMENSION
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the type of resource being used.
 old-location: direct3d12\d3d12_resource_dimension.htm
 old-project: direct3d12
 ms.assetid: E04F3124-01FB-4EE7-BDF8-4821F2F1FCEB
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_RESOURCE_DIMENSION, D3D12_RESOURCE_DIMENSION enumeration, D3D12_RESOURCE_DIMENSION_BUFFER, D3D12_RESOURCE_DIMENSION_TEXTURE1D, D3D12_RESOURCE_DIMENSION_TEXTURE2D, D3D12_RESOURCE_DIMENSION_TEXTURE3D, D3D12_RESOURCE_DIMENSION_UNKNOWN, d3d12/D3D12_RESOURCE_DIMENSION, d3d12/D3D12_RESOURCE_DIMENSION_BUFFER, d3d12/D3D12_RESOURCE_DIMENSION_TEXTURE1D, d3d12/D3D12_RESOURCE_DIMENSION_TEXTURE2D, d3d12/D3D12_RESOURCE_DIMENSION_TEXTURE3D, d3d12/D3D12_RESOURCE_DIMENSION_UNKNOWN, direct3d12.d3d12_resource_dimension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

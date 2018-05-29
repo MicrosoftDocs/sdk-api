@@ -1,16 +1,16 @@
 ---
 UID: NS:iprtrmib._MIB_IPMCAST_BOUNDARY
 title: "_MIB_IPMCAST_BOUNDARY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a row in a MIB_IPMCAST_BOUNDARY_TABLE structure that lists a router's scoped IPv4 multicast address boundaries.
 old-location: mib\mib_ipmcast_boundary.htm
 old-project: MIB
 ms.assetid: a3d900be-14c9-4ad9-bc2e-382849a6d1c6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_IPMCAST_BOUNDARY, MIB_IPMCAST_BOUNDARY, MIB_IPMCAST_BOUNDARY structure [MIB], PMIB_IPMCAST_BOUNDARY, PMIB_IPMCAST_BOUNDARY structure pointer [MIB], _MIB_IPMCAST_BOUNDARY, iprtrmib/MIB_IPMCAST_BOUNDARY, iprtrmib/PMIB_IPMCAST_BOUNDARY, mib.mib_ipmcast_boundary"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h

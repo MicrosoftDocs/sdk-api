@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRow.IsEqual
 title: ITextRow::IsEqual
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares two table rows to determine if they have the same properties.
 old-location: controls\itextrow_isequal.htm
 old-project: Controls
 ms.assetid: 2e516a4d-0f3b-475b-969d-661662bfaeef
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRow interface [Windows Controls],IsEqual method, ITextRow.IsEqual, ITextRow::IsEqual, IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls],ITextRow interface, controls.itextrow_isequal, tom/ITextRow::IsEqual
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

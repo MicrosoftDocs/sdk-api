@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnConnectionEvents.OnConnectStateChange
 title: IMbnConnectionEvents::OnConnectStateChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification method that indicates whether the connection state of the device has changed.
 old-location: mbn\imbnconnectionevents_onconnectstatechange.htm
 old-project: mbn
 ms.assetid: 5392e5b7-eac7-40f1-b5cd-adde5a6ff1b8
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnConnectionEvents interface [Microsoft Broadband Networks],OnConnectStateChange method, IMbnConnectionEvents.OnConnectStateChange, IMbnConnectionEvents::OnConnectStateChange, OnConnectStateChange, OnConnectStateChange method [Microsoft Broadband Networks], OnConnectStateChange method [Microsoft Broadband Networks],IMbnConnectionEvents interface, mbn.imbnconnectionevents_onconnectstatechange, mbnapi/IMbnConnectionEvents::OnConnectStateChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

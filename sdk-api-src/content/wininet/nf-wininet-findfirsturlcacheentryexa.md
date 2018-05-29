@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.FindFirstUrlCacheEntryExA
 title: FindFirstUrlCacheEntryExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts a filtered enumeration of the Internet cache.
 old-location: wininet\findfirsturlcacheentryex.htm
 old-project: WinInet
 ms.assetid: af17c809-2a9e-443a-b64a-93c028e3b71b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FindFirstUrlCacheEntryEx, FindFirstUrlCacheEntryEx function [WinINet], FindFirstUrlCacheEntryExA, FindFirstUrlCacheEntryExW, _inet_findfirsturlcacheentryex_function, wininet.findfirsturlcacheentryex, wininet/FindFirstUrlCacheEntryEx, wininet/FindFirstUrlCacheEntryExA, wininet/FindFirstUrlCacheEntryExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

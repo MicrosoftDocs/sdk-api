@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.Pager_GetButtonSize
 title: Pager_GetButtonSize macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current button size for the pager control. You can use this macro or send the PGM_GETBUTTONSIZE message explicitly.
 old-location: controls\Pager_GetButtonSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_getbuttonsize.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Pager_GetButtonSize, Pager_GetButtonSize macro [Windows Controls], _win32_Pager_GetButtonSize, _win32_Pager_GetButtonSize_cpp, commctrl/Pager_GetButtonSize, controls.Pager_GetButtonSize, controls._win32_Pager_GetButtonSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

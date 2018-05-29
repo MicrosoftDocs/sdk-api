@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMCreateEnablingPrincipal
 title: DRMCreateEnablingPrincipal function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an enabling principal needed to bind to a license.
 old-location: rm\drmcreateenablingprincipal.htm
 old-project: AdRms_Sdk
 ms.assetid: 92858a46-cef5-4d25-9f3c-cbb343743565
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMCreateEnablingPrincipal, DRMCreateEnablingPrincipal function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCreateEnablingPrincipal, rm.drmcreateenablingprincipal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

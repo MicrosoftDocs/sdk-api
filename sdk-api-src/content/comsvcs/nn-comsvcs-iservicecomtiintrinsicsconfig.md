@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IServiceComTIIntrinsicsConfig
 title: IServiceComTIIntrinsicsConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures the COM Transaction Integrator (COMTI) intrinsics for the work that is done when calling the CoCreateActivity or CoEnterServiceDomain function.
 old-location: cos\iservicecomtiintrinsicsconfig.htm
 old-project: cossdk
 ms.assetid: dafa74f9-21fb-4495-911a-60183d36d83c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServiceComTIIntrinsicsConfig, IServiceComTIIntrinsicsConfig interface [COM+], IServiceComTIIntrinsicsConfig interface [COM+],described, _cos_IServiceComTIIntrinsicsConfig, comsvcs/IServiceComTIIntrinsicsConfig, cos.iservicecomtiintrinsicsconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

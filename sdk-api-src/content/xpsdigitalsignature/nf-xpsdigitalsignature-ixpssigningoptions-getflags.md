@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetFlags
 title: IXpsSigningOptions::GetFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the XPS_SIGN_FLAGS value that specifies the signing flags to be used for this signature.
 old-location: xps\ixpssigningoptions_getflags.htm
 old-project: printdocs
 ms.assetid: 02d07300-e8f2-44fa-a562-5cec03af9a8c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetFlags, GetFlags method [XPS Documents and Packaging], GetFlags method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetFlags method, IXpsSigningOptions.GetFlags, IXpsSigningOptions::GetFlags, xps.ixpssigningoptions_getflags, xpsdigitalsignature/IXpsSigningOptions::GetFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

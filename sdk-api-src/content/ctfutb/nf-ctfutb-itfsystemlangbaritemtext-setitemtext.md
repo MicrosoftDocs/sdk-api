@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItemText.SetItemText
 title: ITfSystemLangBarItemText::SetItemText
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfSystemLangBarItemText::SetItemText method modifies the text displayed for the system language bar menu.
 old-location: tsf\itfsystemlangbaritemtext_setitemtext.htm
 old-project: TSF
 ms.assetid: 4265f1b6-8688-4b88-b738-e373beea622b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfSystemLangBarItemText interface [Text Services Framework],SetItemText method, ITfSystemLangBarItemText.SetItemText, ITfSystemLangBarItemText::SetItemText, SetItemText, SetItemText method [Text Services Framework], SetItemText method [Text Services Framework],ITfSystemLangBarItemText interface, ctfutb/ITfSystemLangBarItemText::SetItemText, tsf.itfsystemlangbaritemtext_setitemtext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: Msctf.h

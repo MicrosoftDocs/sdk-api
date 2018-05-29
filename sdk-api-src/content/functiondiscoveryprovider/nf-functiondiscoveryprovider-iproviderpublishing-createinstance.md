@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPublishing.CreateInstance
 title: IProviderPublishing::CreateInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new function instance.
 old-location: ncd\iproviderpublishing_createinstance_method.htm
 old-project: FunDisc
 ms.assetid: 1c8988d0-552a-434b-b33c-31017a191896
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CreateInstance, CreateInstance method, CreateInstance method,IProviderPublishing interface, IProviderPublishing interface,CreateInstance method, IProviderPublishing.CreateInstance, IProviderPublishing::CreateInstance, functiondiscoveryprovider/IProviderPublishing::CreateInstance, ncd.iproviderpublishing_createinstance_method, ncd.iproviderpublishing_oncreateinstance_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

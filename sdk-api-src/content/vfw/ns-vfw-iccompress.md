@@ -1,16 +1,16 @@
 ---
 UID: NS:vfw.ICCOMPRESS
 title: ICCOMPRESS
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICCOMPRESS structure contains compression parameters used with the ICM_COMPRESS message.
 old-location: multimedia\iccompress_struct.htm
 old-project: Multimedia
 ms.assetid: ba6aec9c-b622-484b-88ce-ff5c659bd6d7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICCOMPRESS, ICCOMPRESS structure [Windows Multimedia], ICCOMPRESS_KEYFRAME, multimedia.iccompress_COLLISION455, multimedia.iccompress_struct, vfw/ICCOMPRESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

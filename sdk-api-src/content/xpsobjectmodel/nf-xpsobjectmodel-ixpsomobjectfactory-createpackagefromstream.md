@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackageFromStream
 title: IXpsOMObjectFactory::CreatePackageFromStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a stream that contains an XPS package, and returns an instantiated XPS document object tree.
 old-location: xps\ixpsomobjectfactory_createpackagefromstream.htm
 old-project: printdocs
 ms.assetid: 4a4bb128-9480-4e50-8848-a2e1e715f4e3
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CreatePackageFromStream, CreatePackageFromStream method [XPS Documents and Packaging], CreatePackageFromStream method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackageFromStream method, IXpsOMObjectFactory.CreatePackageFromStream, IXpsOMObjectFactory::CreatePackageFromStream, TRUE, xps.ixpsomobjectfactory_createpackagefromstream, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageFromStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

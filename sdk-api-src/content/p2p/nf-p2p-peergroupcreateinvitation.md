@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupCreateInvitation
 title: PeerGroupCreateInvitation function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupCreateInvitation function returns an XML string that can be used by the specified peer to join a group.
 old-location: p2p\peergroupcreateinvitation.htm
 old-project: P2PSdk
 ms.assetid: 1ae5c288-6e9b-452a-8994-7878d713cd6d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEMBER, PeerGroupCreateInvitation, PeerGroupCreateInvitation function [Peer Networking], p2p.peergroupcreateinvitation, p2p/PeerGroupCreateInvitation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_AP_LOGON_USER_EX2
 title: LSA_AP_LOGON_USER_EX2
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to authenticate a user logon attempt on the user's initial logon. A new logon session is established for the user, and validation information for the user is returned.
 old-location: security\lsaaplogonuserex2.htm
 old-project: SecAuthN
 ms.assetid: 002ac773-bd46-49b5-b54c-6b8f5d5ef9f7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LSA_AP_LOGON_USER_EX2, LsaApLogonUserEx2, LsaApLogonUserEx2 function [Security], STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsaaplogonuserex2, ntsecpkg/LsaApLogonUserEx2, security.lsaaplogonuserex2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:mbnapi.MBN_COMPRESSION
 title: MBN_COMPRESSION
-author: windows-driver-content
+author: windows-sdk-content
 description: The MBN_COMPRESSION enumerated type specifies whether compression is to be used in the data link for header and data.
 old-location: mbn\mbn_compression.htm
 old-project: mbn
 ms.assetid: fd5cbfba-2eea-4d81-9733-33feb402fd8d
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_COMPRESSION, MBN_COMPRESSION enumeration [Microsoft Broadband Networks], MBN_COMPRESSION_ENABLE, MBN_COMPRESSION_NONE, mbn.mbn_compression, mbnapi/MBN_COMPRESSION, mbnapi/MBN_COMPRESSION_ENABLE, mbnapi/MBN_COMPRESSION_NONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

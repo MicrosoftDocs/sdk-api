@@ -1,16 +1,16 @@
 ---
 UID: NF:ndfapi.NdfCreateWebIncident
 title: NdfCreateWebIncident function
-author: windows-driver-content
+author: windows-sdk-content
 description: Diagnoses web connectivity problems.
 old-location: ndf\ndfcreatewebincident.htm
 old-project: NDF
 ms.assetid: 28ca2949-6867-4c9a-aebc-bf2a57627c04
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NdfCreateWebIncident, NdfCreateWebIncident function [NDF], ndf.ndfcreatewebincident, ndfapi/NdfCreateWebIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

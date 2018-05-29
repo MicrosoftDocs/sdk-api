@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfInsertAtSelection.InsertTextAtSelection
 title: ITfInsertAtSelection::InsertTextAtSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfInsertAtSelection::InsertTextAtSelection method
 old-location: tsf\itfinsertatselection_inserttextatselection.htm
 old-project: TSF
 ms.assetid: 1373fe9b-6c51-4514-a7da-c1f872d9b1ce
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfInsertAtSelection interface [Text Services Framework],InsertTextAtSelection method, ITfInsertAtSelection.InsertTextAtSelection, ITfInsertAtSelection::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITfInsertAtSelection interface, TF_IAS_NOQUERY, TF_IAS_NO_DEFAULT_COMPOSITION, TF_IAS_QUERYONLY, _tsf_itfinsertatselection_inserttextatselection_ref, msctf/ITfInsertAtSelection::InsertTextAtSelection, tsf.itfinsertatselection_inserttextatselection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

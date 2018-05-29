@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventClass2.get_FireInParallel
 title: IEventClass2::get_FireInParallel
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether events of this class can be fired in parallel.
 old-location: cos\ieventclass2_fireinparallel.htm
 old-project: cossdk
 ms.assetid: 83db1bcd-8b41-4036-9073-c417e97826ed
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FireInParallel property [COM+], FireInParallel property [COM+],IEventClass2 interface, IEventClass2 interface [COM+],FireInParallel property, IEventClass2.FireInParallel, IEventClass2.get_FireInParallel, IEventClass2::FireInParallel, IEventClass2::get_FireInParallel, IEventClass2::put_FireInParallel, _cos_IEventClass2_get_FireInParallel, _cos_IEventClass2_put_FireInParallel, cos.ieventclass2_fireinparallel, eventsys/IEventClass2::FireInParallel, eventsys/IEventClass2::get_FireInParallel, eventsys/IEventClass2::put_FireInParallel, get_FireInParallel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: Eventsys.h

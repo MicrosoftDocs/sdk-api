@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi.IDXGIFactory
 title: IDXGIFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: An IDXGIFactory interface implements methods for generating DXGI objects (which handle full screen transitions).
 old-location: direct3ddxgi\idxgifactory.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIFactory, IDXGIFactory interface [DXGI], IDXGIFactory interface [DXGI],described, b1276108-6fb6-9c57-75ed-b22303809d9e, direct3ddxgi.idxgifactory, dxgi/IDXGIFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi.h
 req.include-header: 

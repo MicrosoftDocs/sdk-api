@@ -1,16 +1,16 @@
 ---
 UID: NN:audioenginebaseapo.IAudioProcessingObjectRT
 title: IAudioProcessingObjectRT
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface can operate in real-time mode and its methods can be called form real-time processing threads.
 old-location: audio\iaudioprocessingobjectrt.htm
 old-project: audio
 ms.assetid: 640ac817-16f2-47c8-87e9-1ae0136e6e55
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IAudioProcessingObjectRT, IAudioProcessingObjectRT interface [Audio Devices], IAudioProcessingObjectRT interface [Audio Devices],described, audio.iaudioprocessingobjectrt, audio_syseffects_r_843f0618-1708-4779-996d-7dc474a73bbf.xml, audioenginebaseapo/IAudioProcessingObjectRT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioenginebaseapo.h
 req.include-header: 

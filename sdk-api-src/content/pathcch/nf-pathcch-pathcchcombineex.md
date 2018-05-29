@@ -1,16 +1,16 @@
 ---
 UID: NF:pathcch.PathCchCombineEx
 title: PathCchCombineEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Combines two path fragments into a single path.
 old-location: shell\PathCchCombineEx.htm
 old-project: shell
 ms.assetid: 798c2e49-04a5-4270-b584-41faf1519e4b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH, PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS, PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS, PATHCCH_NONE, PathCchCombineEx, PathCchCombineEx function [Windows Shell], pathcch/PathCchCombineEx, shell.PathCchCombineEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

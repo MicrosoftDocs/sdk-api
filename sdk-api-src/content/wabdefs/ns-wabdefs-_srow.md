@@ -1,16 +1,16 @@
 ---
 UID: NS:wabdefs._SRow
 title: "_SRow"
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. Describes a row from a table containing selected properties for a specific object.
 old-location: wab\_wab_SRow.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srow.htm
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPSRow, LPSRow, LPSRow structure pointer [Windows Address Book], SRow, SRow structure [Windows Address Book], _SRow, _wab_SRow, wab._wab_SRow, wabdefs/LPSRow, wabdefs/SRow"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

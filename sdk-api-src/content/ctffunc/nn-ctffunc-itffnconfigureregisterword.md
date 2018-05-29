@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfFnConfigureRegisterWord
 title: ITfFnConfigureRegisterWord
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfFnConfigureRegisterWord interface is implemented by a text service to enable the Active Input Method Editor (IME) to cause the text service to display a word registration dialog box.
 old-location: tsf\itffnconfigureregisterword.htm
 old-project: TSF
 ms.assetid: 515e5f01-a68f-4e67-acf5-cac1923d485e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnConfigureRegisterWord, ITfFnConfigureRegisterWord interface [Text Services Framework], ITfFnConfigureRegisterWord interface [Text Services Framework],described, _tsf_itffnconfigureregisterword_ref, ctffunc/ITfFnConfigureRegisterWord, tsf.itffnconfigureregisterword
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

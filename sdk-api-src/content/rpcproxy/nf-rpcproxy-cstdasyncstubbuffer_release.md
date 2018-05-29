@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcproxy.CStdAsyncStubBuffer_Release
 title: CStdAsyncStubBuffer_Release function
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements the IRpcStubBuffer::Release method.
 old-location: rpc\cstdasyncstubbuffer_release.htm
 old-project: Rpc
 ms.assetid: 963EB39C-F260-4FE5-94A9-D23AC7CC59E1
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: CStdAsyncStubBuffer_Release, CStdAsyncStubBuffer_Release function [RPC], rpc.cstdasyncstubbuffer_release, rpcproxy/CStdAsyncStubBuffer_Release
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

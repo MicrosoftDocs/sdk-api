@@ -1,16 +1,16 @@
 ---
 UID: NS:tsgpolicyengine.__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003
 title: "__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003"
-author: windows-driver-content
+author: windows-sdk-content
 description: This structure contains information about a connection event.
 old-location: termserv\aaaccountingdata.htm
 old-project: TermServ
 ms.assetid: 1c79f910-8dd9-47dc-80d1-f6252f0a43dd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AAAccountingData, AAAccountingData structure [Remote Desktop Services], __MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003, termserv.aaaccountingdata, tsgpolicyengine/AAAccountingData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tsgpolicyengine.h
 req.include-header: 

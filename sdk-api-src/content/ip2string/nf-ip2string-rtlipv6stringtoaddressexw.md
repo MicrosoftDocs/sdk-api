@@ -1,16 +1,16 @@
 ---
 UID: NF:ip2string.RtlIpv6StringToAddressExW
 title: RtlIpv6StringToAddressExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a string representation of an IPv6 address, scope ID, and port number to a binary IPv6 address, scope ID, and port.
 old-location: iphlp\rtlipv6stringtoaddressex.htm
 old-project: IpHlp
 ms.assetid: 3a95c405-3f2c-4bd5-805e-3e879c4c20e2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: RtlIpv6StringToAddressEx, RtlIpv6StringToAddressEx function [IP Helper], RtlIpv6StringToAddressExW, ip2string/RtlIpv6StringToAddressEx, ip2string/RtlIpv6StringToAddressExW, iphlp.rtlipv6stringtoaddressex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ip2string.h
 req.include-header: Mstcpip.h

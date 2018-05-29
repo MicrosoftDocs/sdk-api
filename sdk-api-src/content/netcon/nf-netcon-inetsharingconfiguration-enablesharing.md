@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.EnableSharing
 title: INetSharingConfiguration::EnableSharing
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnableSharing method enables sharing on this connection.
 old-location: ics\inetsharingconfiguration_enablesharing.htm
 old-project: ICS
 ms.assetid: 40b2a2ff-50f4-484c-bf79-ae99a348644f
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EnableSharing, EnableSharing method [ICS/ICF], EnableSharing method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],EnableSharing method, INetSharingConfiguration.EnableSharing, INetSharingConfiguration::EnableSharing, _ics_inetsharingconfiguration_enablesharing, ics.inetsharingconfiguration_enablesharing, netcon/INetSharingConfiguration::EnableSharing
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

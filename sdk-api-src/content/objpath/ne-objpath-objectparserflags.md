@@ -1,16 +1,16 @@
 ---
 UID: NE:objpath.ObjectParserFlags
 title: ObjectParserFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Flags used by constructor for CObjectPathParser.
 old-location: wmi\objectparserflags.htm
 old-project: WmiSdk
 ms.assetid: 25e575fc-c8d3-461c-a792-0780ea56612d
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: ObjectParserFlags, ObjectParserFlags enumeration [Windows Management Instrumentation], e_ParserAbsoluteNamespaceOnly, e_ParserAcceptAll, e_ParserAcceptRelativeNamespace, objpath/ObjectParserFlags, objpath/e_ParserAbsoluteNamespaceOnly, objpath/e_ParserAcceptAll, objpath/e_ParserAcceptRelativeNamespace, wmi.objectparserflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: objpath.h
 req.include-header: Objpath.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.ReserveNtmsCleanerSlot
 title: ReserveNtmsCleanerSlot function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ReserveNtmsCleanerSlot function reserves a single slot in a library unit for a drive cleaner cartridge.
 old-location: fs\reserventmscleanerslot.htm
 old-project: Rsm
 ms.assetid: 17e5acf8-c6b3-42a8-a9fe-fdda53779b67
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: ReserveNtmsCleanerSlot, ReserveNtmsCleanerSlot function [Files], _zaw_reserventmscleanerslot, base.reserventmscleanerslot, fs.reserventmscleanerslot, ntmsapi/ReserveNtmsCleanerSlot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

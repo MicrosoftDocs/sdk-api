@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptCreateHash
 title: BCryptCreateHash function
-author: windows-driver-content
+author: windows-sdk-content
 description: Called to create a hash or Message Authentication Code (MAC) object.
 old-location: security\bcryptcreatehash_func.htm
 old-project: SecCNG
 ms.assetid: deb02f67-f3d3-4542-8245-fd4982c3190b
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_HASH_REUSABLE_FLAG, BCryptCreateHash, BCryptCreateHash function [Security], bcrypt/BCryptCreateHash, security.bcryptcreatehash_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

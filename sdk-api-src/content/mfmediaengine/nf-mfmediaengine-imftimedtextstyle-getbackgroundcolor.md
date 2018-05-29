@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetBackgroundColor
 title: IMFTimedTextStyle::GetBackgroundColor
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the background color of the timed-text style.
 old-location: mf\imftimedtextstyle_getbackgroundcolor.htm
 old-project: medfound
 ms.assetid: 2641F157-31CE-4659-AF6B-B57774AEF4E5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [Media Foundation], GetBackgroundColor method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetBackgroundColor method, IMFTimedTextStyle.GetBackgroundColor, IMFTimedTextStyle::GetBackgroundColor, mf.imftimedtextstyle_getbackgroundcolor, mfmediaengine/IMFTimedTextStyle::GetBackgroundColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

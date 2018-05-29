@@ -1,16 +1,16 @@
 ---
 UID: NN:oleidl.IOleInPlaceObject
 title: IOleInPlaceObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages the activation and deactivation of in-place objects, and determines how much of the in-place object should be visible.
 old-location: com\ioleinplaceobject.htm
 old-project: com
 ms.assetid: c14de79d-e844-49cf-ae70-6c3e417fab90
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceObject, IOleInPlaceObject interface [COM], IOleInPlaceObject interface [COM],described, _ole_ioleinplaceobject, com.ioleinplaceobject, oleidl/IOleInPlaceObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

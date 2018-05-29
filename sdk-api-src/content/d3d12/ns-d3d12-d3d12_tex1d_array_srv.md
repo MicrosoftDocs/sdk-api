@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_TEX1D_ARRAY_SRV
 title: D3D12_TEX1D_ARRAY_SRV
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the subresources from an array of 1D textures to use in a shader-resource view.
 old-location: direct3d12\d3d12_tex1d_array_srv.htm
 old-project: direct3d12
 ms.assetid: 12931858-3E3C-4D4E-9459-7C15A73A485B
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_TEX1D_ARRAY_SRV, D3D12_TEX1D_ARRAY_SRV structure, d3d12/D3D12_TEX1D_ARRAY_SRV, direct3d12.d3d12_tex1d_array_srv
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

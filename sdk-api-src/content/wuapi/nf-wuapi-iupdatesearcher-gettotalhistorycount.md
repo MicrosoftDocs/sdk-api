@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.GetTotalHistoryCount
 title: IUpdateSearcher::GetTotalHistoryCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of update events on the computer.
 old-location: wua\iupdatesearchergettotalhistorycount.htm
 old-project: Wua_Sdk
 ms.assetid: 895f60c2-c106-4088-9a4f-7c1d159d8a9b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetTotalHistoryCount, GetTotalHistoryCount method [Windows Update Agent], GetTotalHistoryCount method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],GetTotalHistoryCount method, IUpdateSearcher.GetTotalHistoryCount, IUpdateSearcher::GetTotalHistoryCount, wua.iupdatesearchergettotalhistorycount, wuapi/IUpdateSearcher::GetTotalHistoryCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

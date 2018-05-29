@@ -1,16 +1,16 @@
 ---
 UID: NF:msacm.acmStreamOpen
 title: acmStreamOpen function
-author: windows-driver-content
+author: windows-sdk-content
 description: The acmStreamOpen function opens an ACM conversion stream. Conversion streams are used to convert data from one specified audio format to another.
 old-location: multimedia\acmstreamopen.htm
 old-project: Multimedia
 ms.assetid: 9e323d35-e640-4c6d-ab74-c4abacaea1bd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_acmStreamOpen, acmStreamOpen, acmStreamOpen function [Windows Multimedia], msacm/acmStreamOpen, multimedia.acmstreamopen"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

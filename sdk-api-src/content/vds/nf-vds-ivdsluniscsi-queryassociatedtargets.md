@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsLunIscsi.QueryAssociatedTargets
 title: IVdsLunIscsi::QueryAssociatedTargets
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an enumeration of currently associated iSCSI targets&#8212;the targets through which the LUN is accessible.
 old-location: base\ivdsluniscsi_queryassociatedtargets.htm
 old-project: VDS
 ms.assetid: 4979e3c1-d966-4dfd-bb87-73c3e1252c50
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsLunIscsi interface [VDS],QueryAssociatedTargets method, IVdsLunIscsi.QueryAssociatedTargets, IVdsLunIscsi::QueryAssociatedTargets, QueryAssociatedTargets, QueryAssociatedTargets method [VDS], QueryAssociatedTargets method [VDS],IVdsLunIscsi interface, base.ivdsluniscsi_queryassociatedtargets, vds/IVdsLunIscsi::QueryAssociatedTargets, vdshwprv/IVdsLunIscsi::QueryAssociatedTargets
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

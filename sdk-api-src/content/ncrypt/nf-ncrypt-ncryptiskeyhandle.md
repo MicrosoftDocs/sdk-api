@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptIsKeyHandle
 title: NCryptIsKeyHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if the specified handle is a CNG key handle.
 old-location: security\ncryptiskeyhandle.htm
 old-project: SecCNG
 ms.assetid: ad841c2e-8097-4b07-914e-8e7240d55585
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCryptIsKeyHandle, NCryptIsKeyHandle function [Security], ncrypt/NCryptIsKeyHandle, security.ncryptiskeyhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

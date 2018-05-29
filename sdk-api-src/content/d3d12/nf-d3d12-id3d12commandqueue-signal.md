@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.Signal
 title: ID3D12CommandQueue::Signal
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates a fence to a specified value.
 old-location: direct3d12\id3d12commandqueue_signal.htm
 old-project: direct3d12
 ms.assetid: 487E2DED-C741-4376-9EE2-3DDD2F4F76BB
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12CommandQueue interface,Signal method, ID3D12CommandQueue.Signal, ID3D12CommandQueue::Signal, Signal, Signal method, Signal method,ID3D12CommandQueue interface, d3d12/ID3D12CommandQueue::Signal, direct3d12.id3d12commandqueue_signal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

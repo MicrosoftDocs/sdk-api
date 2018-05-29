@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsNamespace.CreateSettingByPath
 title: ISettingsNamespace::CreateSettingByPath
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a setting object specified by its path.
 old-location: smi\isettingsnamespace_createsettingbypath.htm
 old-project: SMI
 ms.assetid: 804cab32-eb0a-4e6e-8f58-042c1f5dde77
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CreateSettingByPath, CreateSettingByPath method [SMI], CreateSettingByPath method [SMI],ISettingsNamespace interface, ISettingsNamespace interface [SMI],CreateSettingByPath method, ISettingsNamespace.CreateSettingByPath, ISettingsNamespace::CreateSettingByPath, smi.isettingsnamespace_createsettingbypath, wcmconfig/ISettingsNamespace::CreateSettingByPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

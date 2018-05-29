@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionPromote
 title: IComLTxEvents::OnLtxTransactionPromote
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when a transaction is promoted.
 old-location: cos\icomltxevents_onltxtransactionpromote.htm
 old-project: cossdk
 ms.assetid: 9cd9927c-355c-4d9f-b679-278e4b6897e1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionPromote method, IComLTxEvents.OnLtxTransactionPromote, IComLTxEvents::OnLtxTransactionPromote, OnLtxTransactionPromote, OnLtxTransactionPromote method [COM+], OnLtxTransactionPromote method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionPromote, cos.icomltxevents_onltxtransactionpromote
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsatcominterfacei.IInitiateWinSATAssessment.InitiateAssessment
 title: IInitiateWinSATAssessment::InitiateAssessment
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates an ad hoc assessment.
 old-location: winsat\iinitiatewinsatassessment_initiateassessment.htm
 old-project: WinSAT
 ms.assetid: c57d88b6-81ac-4314-8593-59a950348be4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IInitiateWinSATAssessment interface [WinSAT],InitiateAssessment method, IInitiateWinSATAssessment.InitiateAssessment, IInitiateWinSATAssessment::InitiateAssessment, InitiateAssessment, InitiateAssessment method [WinSAT], InitiateAssessment method [WinSAT],IInitiateWinSATAssessment interface, winsat.iinitiatewinsatassessment_initiateassessment, winsatcominterfacei/IInitiateWinSATAssessment::InitiateAssessment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsatcominterfacei.h
 req.include-header: 

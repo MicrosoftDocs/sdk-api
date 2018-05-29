@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.StartSnapshotSet
 title: IVssBackupComponents::StartSnapshotSet
-author: windows-driver-content
+author: windows-sdk-content
 description: The StartSnapshotSet method creates a new, empty shadow copy set.
 old-location: base\ivssbackupcomponents_startsnapshotset.htm
 old-project: VSS
 ms.assetid: 6a0a6228-2131-48a6-8d18-9491969d265b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssBackupComponents interface [VSS],StartSnapshotSet method, IVssBackupComponents.StartSnapshotSet, IVssBackupComponents::StartSnapshotSet, StartSnapshotSet, StartSnapshotSet method [VSS], StartSnapshotSet method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_startsnapshotset, base.ivssbackupcomponents_startsnapshotset, vsbackup/IVssBackupComponents::StartSnapshotSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

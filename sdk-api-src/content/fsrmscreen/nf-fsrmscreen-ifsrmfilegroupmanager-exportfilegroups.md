@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.ExportFileGroups
 title: IFsrmFileGroupManager::ExportFileGroups
-author: windows-driver-content
+author: windows-sdk-content
 description: Exports the specified file groups as an XML string.
 old-location: fsrm\ifsrmfilegroupmanager_exportfilegroups.htm
 old-project: Fsrm
 ms.assetid: 59d7ef32-f06b-4167-8e28-da88da27ab0a
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: ExportFileGroups, ExportFileGroups method [File Server Resource Manager], ExportFileGroups method [File Server Resource Manager],FsrmFileGroupManager class, ExportFileGroups method [File Server Resource Manager],IFsrmFileGroupManager interface, FsrmFileGroupManager class [File Server Resource Manager],ExportFileGroups method, IFsrmFileGroupManager interface [File Server Resource Manager],ExportFileGroups method, IFsrmFileGroupManager.ExportFileGroups, IFsrmFileGroupManager::ExportFileGroups, fs.ifsrmfilegroupmanager_exportfilegroups, fsrm.ifsrmfilegroupmanager_exportfilegroups, fsrmscreen/IFsrmFileGroupManager::ExportFileGroups
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 

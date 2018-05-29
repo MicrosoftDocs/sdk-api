@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IClientSecurity
 title: IClientSecurity
-author: windows-driver-content
+author: windows-sdk-content
 description: Gives the client control over the security settings for each individual interface proxy of an object.
 old-location: com\iclientsecurity.htm
 old-project: com
 ms.assetid: 65066913-f9d8-48c7-bcb5-68c8ddc4a009
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IClientSecurity, IClientSecurity interface [COM], IClientSecurity interface [COM],described, _com_iclientsecurity, com.iclientsecurity, objidl/IClientSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

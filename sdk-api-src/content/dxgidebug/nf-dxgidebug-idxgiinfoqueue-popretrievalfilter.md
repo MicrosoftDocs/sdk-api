@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PopRetrievalFilter
 title: IDXGIInfoQueue::PopRetrievalFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Pops a retrieval filter from the top of the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_popretrievalfilter.htm
 old-project: direct3ddxgi
 ms.assetid: E766B599-1168-4E8C-9433-0200D34CD38D
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PopRetrievalFilter method, IDXGIInfoQueue.PopRetrievalFilter, IDXGIInfoQueue::PopRetrievalFilter, PopRetrievalFilter, PopRetrievalFilter method [DXGI], PopRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_popretrievalfilter, dxgidebug/IDXGIInfoQueue::PopRetrievalFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

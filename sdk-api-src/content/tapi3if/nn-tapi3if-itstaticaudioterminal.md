@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITStaticAudioTerminal
 title: ITStaticAudioTerminal
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITStaticAudioTerminal interface is an interface that TAPI 3.1 MSPs must expose on all static audio terminals. The interface defines methods on static audio terminal objects that are needed to support phone devices.
 old-location: tapi3\itstaticaudioterminal.htm
 old-project: Tapi
 ms.assetid: 154c07b6-c693-469d-819a-f6d2d2afd744
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITStaticAudioTerminal, ITStaticAudioTerminal interface [TAPI 2.2], ITStaticAudioTerminal interface [TAPI 2.2],described, _tapi3_itstaticaudioterminal, tapi3.itstaticaudioterminal, tapi3if/ITStaticAudioTerminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

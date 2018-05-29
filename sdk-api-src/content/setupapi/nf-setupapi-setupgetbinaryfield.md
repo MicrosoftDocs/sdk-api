@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupGetBinaryField
 title: SetupGetBinaryField function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupGetBinaryField function retrieves binary data from a line in an INF file section, from the specified field to the end of the line.
 old-location: setup\setupgetbinaryfield.htm
 old-project: SetupApi
 ms.assetid: 6dfd4c8b-0197-4c6d-a780-084b428805b2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupGetBinaryField, SetupGetBinaryField function [Setup API], _setupapi_setupgetbinaryfield, setup.setupgetbinaryfield, setupapi/SetupGetBinaryField
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

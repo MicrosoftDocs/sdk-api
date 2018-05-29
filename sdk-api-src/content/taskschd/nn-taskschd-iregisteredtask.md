@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.IRegisteredTask
 title: IRegisteredTask
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the methods that are used to run the task immediately, get any running instances of the task, get or set the credentials that are used to register the task, and the properties that describe the task.
 old-location: taskschd\iregisteredtask.htm
 old-project: TaskSchd
 ms.assetid: 3743d012-ad7c-402f-8859-939bb01ee447
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IRegisteredTask, IRegisteredTask interface [Task Scheduler], IRegisteredTask interface [Task Scheduler],described, taskschd.iregisteredtask, taskschd/IRegisteredTask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

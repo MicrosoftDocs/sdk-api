@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxContentGroupFilesEnumerator
 title: IAppxContentGroupFilesEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates files in content groups from a content group map.
 old-location: appxpkg\iappxcontentgroupfilesenumerator_.htm
 old-project: appxpkg
 ms.assetid: 42F1E3DE-B2A3-42DE-8FBE-BEE02D546ABA
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxContentGroupFilesEnumerator, IAppxContentGroupFilesEnumerator interface [App packaging and management], IAppxContentGroupFilesEnumerator interface [App packaging and management],described, appxpackaging/IAppxContentGroupFilesEnumerator, appxpkg.iappxcontentgroupfilesenumerator_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

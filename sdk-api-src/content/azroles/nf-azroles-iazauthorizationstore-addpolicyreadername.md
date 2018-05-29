@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddPolicyReaderName
 title: IAzAuthorizationStore::AddPolicyReaderName
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the specified account name to the list of principals that act as policy readers.
 old-location: security\azauthorizationstore_addpolicyreadername.htm
 old-project: SecAuthZ
 ms.assetid: 3b111542-61d6-4e5d-abf8-0af61161c885
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddPolicyReaderName, AddPolicyReaderName method [Security], AddPolicyReaderName method [Security],AzAuthorizationStore object, AddPolicyReaderName method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPolicyReaderName method, IAzAuthorizationStore interface [Security],AddPolicyReaderName method, IAzAuthorizationStore.AddPolicyReaderName, IAzAuthorizationStore::AddPolicyReaderName, azroles/IAzAuthorizationStore::AddPolicyReaderName, security.azauthorizationstore_addpolicyreadername
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

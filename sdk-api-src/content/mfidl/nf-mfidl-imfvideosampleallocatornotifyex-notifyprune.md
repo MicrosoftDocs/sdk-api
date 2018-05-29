@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocatorNotifyEx.NotifyPrune
 title: IMFVideoSampleAllocatorNotifyEx::NotifyPrune
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when allocator samples are released for pruning by the allocator, or when the allocator is removed.
 old-location: mf\imfvideosampleallocatornotifyex_notifyprune.htm
 old-project: medfound
 ms.assetid: DCC3B043-4BD9-4A39-AA4C-98054223769F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFVideoSampleAllocatorNotifyEx interface [Media Foundation],NotifyPrune method, IMFVideoSampleAllocatorNotifyEx.NotifyPrune, IMFVideoSampleAllocatorNotifyEx::NotifyPrune, NotifyPrune, NotifyPrune method [Media Foundation], NotifyPrune method [Media Foundation],IMFVideoSampleAllocatorNotifyEx interface, mf.imfvideosampleallocatornotifyex_notifyprune, mfidl/IMFVideoSampleAllocatorNotifyEx::NotifyPrune
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

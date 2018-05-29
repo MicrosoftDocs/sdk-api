@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.AssocCreateForClasses
 title: AssocCreateForClasses function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an object that implements an IQueryAssociations interface.
 old-location: shell\AssocCreateForClasses.htm
 old-project: shell
 ms.assetid: 43257507-dd5e-4622-8445-c132187fd1e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AssocCreateForClasses, AssocCreateForClasses function [Windows Shell], _shell_AssocCreateForClasses, shell.AssocCreateForClasses, shellapi/AssocCreateForClasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

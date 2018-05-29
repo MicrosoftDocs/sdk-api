@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMediaSample.GetMediaTime
 title: IMediaSample::GetMediaTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetMediaTime method retrieves the media times for this sample.
 old-location: dshow\imediasample_getmediatime.htm
 old-project: DirectShow
 ms.assetid: eb2a8fd4-4a25-482c-8509-f43461c708d6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetMediaTime, GetMediaTime method [DirectShow], GetMediaTime method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetMediaTime method, IMediaSample.GetMediaTime, IMediaSample::GetMediaTime, IMediaSampleGetMediaTime, dshow.imediasample_getmediatime, strmif/IMediaSample::GetMediaTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

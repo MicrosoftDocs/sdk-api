@@ -1,16 +1,16 @@
 ---
 UID: NN:icontact.IContactCollection
 title: IContactCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. Enumerates the contacts known by the IContactManager.
 old-location: wincontacts\_wincontacts_IContactCollection.htm
 old-project: wincontacts
 ms.assetid: 4d7f26b0-a2c0-4c7b-8f1d-f918cb1e0897
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IContactCollection, IContactCollection interface [Windows Contacts], IContactCollection interface [Windows Contacts],described, _wincontacts_IContactCollection, icontact/IContactCollection, wincontacts._wincontacts_IContactCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: icontact.h
 req.include-header: 

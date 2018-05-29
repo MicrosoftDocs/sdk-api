@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderHwndOverride.GetOverrideProviderForHwnd
 title: IRawElementProviderHwndOverride::GetOverrideProviderForHwnd
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a UI Automation provider for the specified element.
 old-location: winauto\uiauto_IRawElementProviderHwndOverride_GetOverrideProviderForHwnd.htm
 old-project: WinAuto
 ms.assetid: 595c50eb-871b-41e1-9fab-36cf3de2340f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetOverrideProviderForHwnd, GetOverrideProviderForHwnd method [Windows Accessibility], GetOverrideProviderForHwnd method [Windows Accessibility],IRawElementProviderHwndOverride interface, IRawElementProviderHwndOverride interface [Windows Accessibility],GetOverrideProviderForHwnd method, IRawElementProviderHwndOverride.GetOverrideProviderForHwnd, IRawElementProviderHwndOverride::GetOverrideProviderForHwnd, uiauto.uiauto_IRawElementProviderHwndOverride_GetOverrideProviderForHwnd, uiauto_IRawElementProviderHwndOverride_GetOverrideProviderForHwnd, uiautomationcore/IRawElementProviderHwndOverride::GetOverrideProviderForHwnd, winauto.uiauto_IRawElementProviderHwndOverride_GetOverrideProviderForHwnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

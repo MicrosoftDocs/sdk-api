@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport2.get_PluggableSuperclasses
 title: ITTerminalSupport2::get_PluggableSuperclasses
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_PluggableSuperclasses method returns a collection of ITPluggableTerminalSuperclassInfo superclass information interface pointers.
 old-location: tapi3\itterminalsupport2_get_pluggablesuperclasses.htm
 old-project: Tapi
 ms.assetid: 6d66aeca-5ac2-4019-b326-71c3bfb6d28e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITTerminalSupport2 interface [TAPI 2.2],get_PluggableSuperclasses method, ITTerminalSupport2.get_PluggableSuperclasses, ITTerminalSupport2::get_PluggableSuperclasses, _tapi3_itterminalsupport2_get_pluggablesuperclasses, get_PluggableSuperclasses, get_PluggableSuperclasses method [TAPI 2.2], get_PluggableSuperclasses method [TAPI 2.2],ITTerminalSupport2 interface, tapi3.itterminalsupport2_get_pluggablesuperclasses, tapi3if/ITTerminalSupport2::get_PluggableSuperclasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmpservices.IWMPGraphCreation
 title: IWMPGraphCreation
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPGraphCreation interface provides methods that Windows Media Player calls to enable you to manage the DirectShow filter graph.
 old-location: wmp\iwmpgraphcreation.htm
 old-project: WMP
 ms.assetid: 80d6f1f0-10c9-4e60-9bb7-556e340730a8
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPGraphCreation, IWMPGraphCreation interface [Windows Media Player], IWMPGraphCreation interface [Windows Media Player],described, IWMPGraphCreationInterface, wmp.iwmpgraphcreation, wmpservices/IWMPGraphCreation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmpservices.h
 req.include-header: 

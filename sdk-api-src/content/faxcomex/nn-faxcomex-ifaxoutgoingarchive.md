@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcomex.IFaxOutgoingArchive
 title: IFaxOutgoingArchive
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxOutgoingArchive interface describes a configuration object that is used by a fax client application to access and configure the archive of outbound fax messages transmitted successfully by the fax service.
 old-location: fax\_mfax_faxoutgoingarchive_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3wmd_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxOutgoingArchive, IFaxOutgoingArchive interface [Fax Service], IFaxOutgoingArchive interface [Fax Service],described, _mfax_faxoutgoingarchive_cpp, fax._mfax_faxoutgoingarchive_cpp, faxcomex/IFaxOutgoingArchive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

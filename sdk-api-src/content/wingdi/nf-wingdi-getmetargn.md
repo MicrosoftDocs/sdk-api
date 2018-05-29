@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetMetaRgn
 title: GetMetaRgn function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetMetaRgn function retrieves the current metaregion for the specified device context.
 old-location: gdi\getmetargn.htm
 old-project: gdi
 ms.assetid: 9c2741cf-30e4-4100-bae9-ad99a7ae37f1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetMetaRgn, GetMetaRgn function [Windows GDI], _win32_GetMetaRgn, gdi.getmetargn, wingdi/GetMetaRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

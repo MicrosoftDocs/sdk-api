@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IInternalUnknown
 title: IInternalUnknown
-author: windows-driver-content
+author: windows-sdk-content
 description: Used exclusively in lightweight client-side handlers that require access to some of the internal interfaces on the proxy.
 old-location: com\iinternalunknown.htm
 old-project: com
 ms.assetid: d2f4c8bc-80b9-4ba0-9f30-f0864144902b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IInternalUnknown, IInternalUnknown interface [COM], IInternalUnknown interface [COM],described, _com_iinternalunknown, com.iinternalunknown, objidlbase/IInternalUnknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

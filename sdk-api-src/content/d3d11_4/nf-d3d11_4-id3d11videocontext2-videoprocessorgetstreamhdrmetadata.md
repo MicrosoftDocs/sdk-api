@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_4.ID3D11VideoContext2.VideoProcessorGetStreamHDRMetaData
 title: ID3D11VideoContext2::VideoProcessorGetStreamHDRMetaData
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the HDR metadata associated with the video stream.
 old-location: mf\id3d11videocontext2_videoprocessorgetstreamhdrmetadata.htm
 old-project: medfound
 ms.assetid: 08464EB5-8E1F-4E4B-A545-A18C82A0C921
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoContext2 interface [Media Foundation],VideoProcessorGetStreamHDRMetaData method, ID3D11VideoContext2.VideoProcessorGetStreamHDRMetaData, ID3D11VideoContext2::VideoProcessorGetStreamHDRMetaData, VideoProcessorGetStreamHDRMetaData, VideoProcessorGetStreamHDRMetaData method [Media Foundation], VideoProcessorGetStreamHDRMetaData method [Media Foundation],ID3D11VideoContext2 interface, d3d11_4/ID3D11VideoContext2::VideoProcessorGetStreamHDRMetaData, mf.id3d11videocontext2_videoprocessorgetstreamhdrmetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_4.h
 req.include-header: 

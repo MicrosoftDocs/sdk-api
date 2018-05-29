@@ -1,16 +1,16 @@
 ---
 UID: NS:msctf.TF_PRESERVEDKEY
 title: TF_PRESERVEDKEY
-author: windows-driver-content
+author: windows-sdk-content
 description: The TF_PRESERVEDKEY structure represents a preserved key.
 old-location: tsf\tf_preservedkey.htm
 old-project: TSF
 ms.assetid: 95d37e94-3991-49c9-bddf-4183a69d49b9
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TF_PRESERVEDKEY, TF_PRESERVEDKEY structure [Text Services Framework], _tsf_tf_preservedkey_ref, msctf/TF_PRESERVEDKEY, tsf.tf_preservedkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msctf.h
 req.include-header: 

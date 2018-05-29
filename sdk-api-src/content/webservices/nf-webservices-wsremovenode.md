@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsRemoveNode
 title: WsRemoveNode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the node at the specified position from the xml buffer.
 old-location: wsw\wsremovenode.htm
 old-project: wsw
 ms.assetid: 955fd0b3-b351-40db-a25f-dd1ed8b55550
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsRemoveNode, WsRemoveNode function [Web Services for Windows], webservices/WsRemoveNode, wsw.wsremovenode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

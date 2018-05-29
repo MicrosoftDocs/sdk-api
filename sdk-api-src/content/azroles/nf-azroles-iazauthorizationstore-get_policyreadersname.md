@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_PolicyReadersName
 title: IAzAuthorizationStore::get_PolicyReadersName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the account names of principals that act as policy readers.
 old-location: security\azauthorizationstore_policyreadersname.htm
 old-project: SecAuthZ
 ms.assetid: d550448e-a1ea-45f3-9151-affd4b8c0b14
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzAuthorizationStore object [Security],PolicyReadersName property, IAzAuthorizationStore interface [Security],PolicyReadersName property, IAzAuthorizationStore.PolicyReadersName, IAzAuthorizationStore.get_PolicyReadersName, IAzAuthorizationStore::PolicyReadersName, IAzAuthorizationStore::get_PolicyReadersName, PolicyReadersName property [Security], PolicyReadersName property [Security],AzAuthorizationStore object, PolicyReadersName property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::PolicyReadersName, azroles/IAzAuthorizationStore::get_PolicyReadersName, get_PolicyReadersName, security.azauthorizationstore_policyreadersname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

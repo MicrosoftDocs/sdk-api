@@ -1,16 +1,16 @@
 ---
 UID: NN:filter.IFilter
 title: IFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Scans documents for text and properties (also called attributes).
 old-location: indexsrv\ifilter.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9sfm.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IFilter, IFilter interface [Indexing Service], IFilter interface [Indexing Service],described, _idxs_IFilter, filter/IFilter, indexsrv.ifilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: filter.h
 req.include-header: 

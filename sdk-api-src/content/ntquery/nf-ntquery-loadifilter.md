@@ -1,16 +1,16 @@
 ---
 UID: NF:ntquery.LoadIFilter
 title: LoadIFilter function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves IFilter from path name for object.
 old-location: indexsrv\loadifilter.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_5ar6.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: LoadIFilter, LoadIFilter function [Indexing Service], _idxs_LoadIFilter, indexsrv.loadifilter, ntquery/LoadIFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

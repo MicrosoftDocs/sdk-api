@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordSubtitlingType
 title: IDvbSubtitlingDescriptor::GetRecordSubtitlingType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the subtitling component type from a DVB subtitling descriptor.
 old-location: mstv\idvbsubtitlingdescriptor_getrecordsubtitlingtype.htm
 old-project: mstv
 ms.assetid: 5ab91508-9afe-4ab7-957f-5467e87ce7ee
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordSubtitlingType, GetRecordSubtitlingType method [Microsoft TV Technologies], GetRecordSubtitlingType method [Microsoft TV Technologies],IDvbSubtitlingDescriptor interface, IDvbSubtitlingDescriptor interface [Microsoft TV Technologies],GetRecordSubtitlingType method, IDvbSubtitlingDescriptor.GetRecordSubtitlingType, IDvbSubtitlingDescriptor::GetRecordSubtitlingType, dvbsiparser/IDvbSubtitlingDescriptor::GetRecordSubtitlingType, mstv.idvbsubtitlingdescriptor_getrecordsubtitlingtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

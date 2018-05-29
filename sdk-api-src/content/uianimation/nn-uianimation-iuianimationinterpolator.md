@@ -1,16 +1,16 @@
 ---
 UID: NN:uianimation.IUIAnimationInterpolator
 title: IUIAnimationInterpolator
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods for creating a custom interpolator.
 old-location: uianimation\iuianimationinterpolator.htm
 old-project: UIAnimation
 ms.assetid: 8e1f2a9a-ab93-485a-83b2-baebb9ee4bcc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationInterpolator, IUIAnimationInterpolator interface [Windows Animation], IUIAnimationInterpolator interface [Windows Animation],described, uianimation.iuianimationinterpolator, uianimation/IUIAnimationInterpolator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

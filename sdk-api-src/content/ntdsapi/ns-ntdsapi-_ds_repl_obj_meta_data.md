@@ -1,16 +1,16 @@
 ---
 UID: NS:ntdsapi._DS_REPL_OBJ_META_DATA
 title: "_DS_REPL_OBJ_META_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DS_REPL_OBJ_META_DATA structure contains an array of DS_REPL_ATTR_META_DATA structures. These structures contain replication state data for past and present attributes for a given object.
 old-location: ad\ds_repl_obj_meta_data.htm
 old-project: AD
 ms.assetid: 7851ffbc-5d05-4ea7-b3b4-1b8b77299be5
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_REPL_OBJ_META_DATA, DS_REPL_OBJ_META_DATA structure [Active Directory], _DS_REPL_OBJ_META_DATA, _glines_ds_repl_obj_meta_data, ad.ds__repl__obj__meta__data, ad.ds_repl_obj_meta_data, ntdsapi/DS_REPL_OBJ_META_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

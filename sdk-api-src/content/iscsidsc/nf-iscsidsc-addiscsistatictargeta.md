@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.AddIScsiStaticTargetA
 title: AddIScsiStaticTargetA function
-author: windows-driver-content
+author: windows-sdk-content
 description: AddIscsiStaticTarget function adds a target to the list of static targets available to the iSCSI initiator.
 old-location: iscsidisc\addiscsistatictarget.htm
 old-project: iSCSIDisc
 ms.assetid: 81f5ac9a-debb-4fa3-8ccf-1303cd45f1de
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: AddIScsiStaticTargetA, AddIscsiStaticTarget, AddIscsiStaticTarget function [iSCSI Discovery Library API], AddIscsiStaticTargetA, AddIscsiStaticTargetW, ISCSI_TARGET_FLAG_HIDE_STATIC_TARGET, ISCSI_TARGET_FLAG_MERGE_TARGET_INFORMATION, iscsidisc.addiscsistatictarget, iscsidsc/AddIscsiStaticTarget, iscsidsc/AddIscsiStaticTargetA, iscsidsc/AddIscsiStaticTargetW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

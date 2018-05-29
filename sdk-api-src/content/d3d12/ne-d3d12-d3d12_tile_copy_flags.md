@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_TILE_COPY_FLAGS
 title: D3D12_TILE_COPY_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how to copy a tile.
 old-location: direct3d12\d3d12_tile_copy_flags.htm
 old-project: direct3d12
 ms.assetid: A540A369-DF23-4961-8213-B4B2B5C365E5
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_TILE_COPY_FLAGS, D3D12_TILE_COPY_FLAGS enumeration, D3D12_TILE_COPY_FLAG_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, D3D12_TILE_COPY_FLAG_NONE, D3D12_TILE_COPY_FLAG_NO_HAZARD, D3D12_TILE_COPY_FLAG_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, d3d12/D3D12_TILE_COPY_FLAGS, d3d12/D3D12_TILE_COPY_FLAG_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, d3d12/D3D12_TILE_COPY_FLAG_NONE, d3d12/D3D12_TILE_COPY_FLAG_NO_HAZARD, d3d12/D3D12_TILE_COPY_FLAG_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, direct3d12.d3d12_tile_copy_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.WritePrivateProfileStructA
 title: WritePrivateProfileStructA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies data into a key in the specified section of an initialization file. As it copies the data, the function calculates a checksum and appends it to the end of the data.
 old-location: base\writeprivateprofilestruct.htm
 old-project: SysInfo
 ms.assetid: 21b1927c-40b0-4b79-931b-6d3db176fb71
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WritePrivateProfileStruct, WritePrivateProfileStruct function, WritePrivateProfileStructA, WritePrivateProfileStructW, _win32_writeprivateprofilestruct, base.writeprivateprofilestruct, winbase/WritePrivateProfileStruct, winbase/WritePrivateProfileStructA, winbase/WritePrivateProfileStructW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

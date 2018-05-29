@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiBuildClassInfoList
 title: SetupDiBuildClassInfoList function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiBuildClassInfoList function returns a list of setup class GUIDs that identify the classes that are installed on a local computer.
 old-location: devinst\setupdibuildclassinfolist.htm
 old-project: devinst
 ms.assetid: a01b1f8f-55af-4053-8c31-9329ef36f2ce
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiBuildClassInfoList, SetupDiBuildClassInfoList function [Device and Driver Installation], devinst.setupdibuildclassinfolist, di-rtns_25e014d5-5a99-42c3-8032-a24acd1856df.xml, setupapi/SetupDiBuildClassInfoList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_GETBLTSTATUSDATA
 title: "_DD_GETBLTSTATUSDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_GETBLTSTATUSDATA structure returns the blit status information.
 old-location: display\dd_getbltstatusdata.htm
 old-project: display
 ms.assetid: 16b0cac9-af8c-4106-b74e-6c9ada543851
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_GETBLTSTATUSDATA, DD_GETBLTSTATUSDATA, DD_GETBLTSTATUSDATA structure [Display Devices], _DD_GETBLTSTATUSDATA, ddrawint/DD_GETBLTSTATUSDATA, ddstrcts_fec10d7e-ffc0-4368-8cd8-e1028ac7874d.xml, display.dd_getbltstatusdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

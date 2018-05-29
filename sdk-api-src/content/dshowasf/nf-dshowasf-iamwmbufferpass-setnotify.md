@@ -1,16 +1,16 @@
 ---
 UID: NF:dshowasf.IAMWMBufferPass.SetNotify
 title: IAMWMBufferPass::SetNotify
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetNotify method sets an application-defined callback on the WM ASF Reader or WM ASF Writer filter.
 old-location: dshow\iamwmbufferpass_setnotify.htm
 old-project: DirectShow
 ms.assetid: 4aa6fc71-39a7-4fa5-bfe3-b5b12dd44a2b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMWMBufferPass interface [DirectShow],SetNotify method, IAMWMBufferPass.SetNotify, IAMWMBufferPass::SetNotify, IAMWMBufferPassSetNotify, SetNotify, SetNotify method [DirectShow], SetNotify method [DirectShow],IAMWMBufferPass interface, dshow.iamwmbufferpass_setnotify, dshowasf/IAMWMBufferPass::SetNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 

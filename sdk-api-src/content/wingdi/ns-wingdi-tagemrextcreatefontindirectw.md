@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMREXTCREATEFONTINDIRECTW
 title: tagEMREXTCREATEFONTINDIRECTW
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMREXTCREATEFONTINDIRECTW structure contains members for the CreateFontIndirect enhanced metafile record.
 old-location: gdi\emrextcreatefontindirectw.htm
 old-project: gdi
 ms.assetid: 27adba1d-6845-4d5e-8183-9c092775b473
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMREXTCREATEFONTINDIRECTW, *PEMREXTCREATEFONTINDIRECTW structure [Windows GDI], EMREXTCREATEFONTINDIRECTW, EMREXTCREATEFONTINDIRECTW structure [Windows GDI], _win32_EMREXTCREATEFONTINDIRECTW_str, gdi.emrextcreatefontindirectw, tagEMREXTCREATEFONTINDIRECTW, wingdi/*PEMREXTCREATEFONTINDIRECTW, wingdi/EMREXTCREATEFONTINDIRECTW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

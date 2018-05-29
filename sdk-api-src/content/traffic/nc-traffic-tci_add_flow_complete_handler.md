@@ -1,16 +1,16 @@
 ---
 UID: NC:traffic.TCI_ADD_FLOW_COMPLETE_HANDLER
 title: TCI_ADD_FLOW_COMPLETE_HANDLER
-author: windows-driver-content
+author: windows-sdk-content
 description: The ClAddFlowComplete function is used by traffic control to notify the client of the completion of its previous call to the TcAddFlow function.
 old-location: qos\claddflowcomplete.htm
 old-project: QOS
 ms.assetid: 0aa6f590-f7b2-4312-87a7-3854f883fa22
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: ClAddFlowComplete, ClAddFlowComplete callback, ClAddFlowComplete callback function [QOS], TCI_ADD_FLOW_COMPLETE_HANDLER, TCI_ADD_FLOW_COMPLETE_HANDLER callback function [QOS], _gqos_claddflowcomplete, qos.claddflowcomplete, traffic/ClAddFlowComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: traffic.h
 req.include-header: 

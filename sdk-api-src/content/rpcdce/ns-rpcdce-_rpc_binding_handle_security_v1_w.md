@@ -1,16 +1,16 @@
 ---
 UID: NS:rpcdce._RPC_BINDING_HANDLE_SECURITY_V1_W
 title: "_RPC_BINDING_HANDLE_SECURITY_V1_W"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the basic security options with which to create an RPC binding handle.
 old-location: rpc\rpc_binding_handle_security_v1.htm
 old-project: Rpc
 ms.assetid: b8ea2e96-2e7e-428c-a5cd-dfe9dd341063
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: "*PRPC_BINDING_HANDLE_SECURITY_V1_W, RPC_BINDING_HANDLE_SECURITY, RPC_BINDING_HANDLE_SECURITY structure [RPC], RPC_BINDING_HANDLE_SECURITY_V1, RPC_BINDING_HANDLE_SECURITY_V1 structure [RPC], RPC_BINDING_HANDLE_SECURITY_V1_W, _RPC_BINDING_HANDLE_SECURITY_V1_A, _RPC_BINDING_HANDLE_SECURITY_V1_W, rpc.rpc_binding_handle_security_v1, rpcdce/RPC_BINDING_HANDLE_SECURITY, rpcdce/RPC_BINDING_HANDLE_SECURITY_V1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h

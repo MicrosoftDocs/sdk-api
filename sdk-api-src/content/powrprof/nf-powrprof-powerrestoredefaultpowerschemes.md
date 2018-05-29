@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.PowerRestoreDefaultPowerSchemes
 title: PowerRestoreDefaultPowerSchemes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces the power schemes for the system with default power schemes. All current power schemes and settings are deleted and replaced with the default system power schemes.
 old-location: base\powerrestoredefaultpowerschemes.htm
 old-project: Power
 ms.assetid: 6d0a6167-34de-439b-afb4-2536c715905c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: PowerRestoreDefaultPowerSchemes, PowerRestoreDefaultPowerSchemes function, base.powerrestoredefaultpowerschemes, powrprof/PowerRestoreDefaultPowerSchemes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

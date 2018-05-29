@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET
 title: PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a handle to the specified groupset.
 old-location: mscs\openclustergroupcollection.htm
 old-project: MsCS
 ms.assetid: 8a5b944b-53c2-4437-b580-6ad603d0011a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET, PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET callback, PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET callback function [Failover Cluster], clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET, mscs.openclustergroupcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

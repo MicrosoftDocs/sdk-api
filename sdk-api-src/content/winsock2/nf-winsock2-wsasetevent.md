@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSASetEvent
 title: WSASetEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSASetEvent function sets the state of the specified event object to signaled.
 old-location: winsock\wsasetevent_2.htm
 old-project: WinSock
 ms.assetid: 8a3f41fe-77da-4e4e-975d-00eec7c11446
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSASetEvent, WSASetEvent function [Winsock], _win32_wsasetevent_2, winsock.wsasetevent_2, winsock2/WSASetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

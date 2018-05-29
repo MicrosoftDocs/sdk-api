@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsRevokeSecurityContext
 title: WsRevokeSecurityContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Revokes a security context.
 old-location: wsw\wsrevokesecuritycontext.htm
 old-project: wsw
 ms.assetid: 07367f3d-4158-4ef4-ac27-4218d2a810a8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsRevokeSecurityContext, WsRevokeSecurityContext function [Web Services for Windows], webservices/WsRevokeSecurityContext, wsw.wsrevokesecuritycontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

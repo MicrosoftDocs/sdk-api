@@ -1,16 +1,16 @@
 ---
 UID: NF:winber.ber_skip_tag
 title: ber_skip_tag function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ber_skip_tag function skips the current tag and returns the tag of the next element in the supplied BerElement structure.
 old-location: ldap\ber_skip_tag.htm
 old-project: LDAP
 ms.assetid: aa7548db-7752-4ce5-9f24-434abe77b000
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ber_skip_tag, ber_skip_tag, ber_skip_tag function [LDAP], ldap.ber__skip__tag, ldap.ber_skip_tag, winber/ber_skip_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winber.h
 req.include-header: 

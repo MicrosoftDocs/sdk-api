@@ -1,16 +1,16 @@
 ---
 UID: NN:scesvc.ISceSvcAttachmentData
 title: ISceSvcAttachmentData
-author: windows-driver-content
+author: windows-sdk-content
 description: The ISceSvcAttachmentData interface retrieves configuration and analysis data about a specified security service from the Security Configuration snap-ins.
 old-location: security\iscesvcattachmentdata.htm
 old-project: SecMgmt
 ms.assetid: 385acdb9-5642-47c1-b2ac-be388edaac12
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ISceSvcAttachmentData, ISceSvcAttachmentData interface [Security], ISceSvcAttachmentData interface [Security],described, _config_iscesvcattachmentdata, scesvc/ISceSvcAttachmentData, security.iscesvcattachmentdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: scesvc.h
 req.include-header: 

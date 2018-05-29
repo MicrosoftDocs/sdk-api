@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasEnumConnectionsA
 title: RasEnumConnectionsA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasEnumConnections function lists all active RAS connections. It returns each connection's handle and phone-book entry name.
 old-location: rras\rasenumconnections.htm
 old-project: RRAS
 ms.assetid: b581cfbf-a55e-4f56-89cd-168aa23af550
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasEnumConnections, RasEnumConnections function [RAS], RasEnumConnectionsA, RasEnumConnectionsW, _ras_rasenumconnections, ras/RasEnumConnections, ras/RasEnumConnectionsA, ras/RasEnumConnectionsW, rras.rasenumconnections
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

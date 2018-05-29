@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IManagedPoolAction
 title: IManagedPoolAction
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an object to be notified before it is released from a COM+ object pool.
 old-location: cos\imanagedpoolaction.htm
 old-project: cossdk
 ms.assetid: 6c29bbe0-840f-4eaf-97ad-40b0f89cadfd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IManagedPoolAction, IManagedPoolAction interface [COM+], IManagedPoolAction interface [COM+],described, _cos_IManagedPoolAction, comsvcs/IManagedPoolAction, cos.imanagedpoolaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiSetSelectedDevice
 title: SetupDiSetSelectedDevice function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiSetSelectedDevice function sets a device information element as the selected member of a device information set. This function is typically used by an installation wizard.
 old-location: devinst\setupdisetselecteddevice.htm
 old-project: devinst
 ms.assetid: d3ce8a05-d26b-452f-8418-e104ae486a1a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiSetSelectedDevice, SetupDiSetSelectedDevice function [Device and Driver Installation], devinst.setupdisetselecteddevice, di-rtns_db49eaf1-c6cb-48ef-ae17-f5c578672eca.xml, setupapi/SetupDiSetSelectedDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

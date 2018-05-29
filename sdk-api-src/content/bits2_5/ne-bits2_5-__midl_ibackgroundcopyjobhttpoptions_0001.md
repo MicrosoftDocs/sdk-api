@@ -1,16 +1,16 @@
 ---
 UID: NE:bits2_5.__MIDL_IBackgroundCopyJobHttpOptions_0001
 title: "__MIDL_IBackgroundCopyJobHttpOptions_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: The BG_CERT_STORE_LOCATION enumeration defines the location of the certificate store.
 old-location: bits\bg_cert_store_location.htm
 old-project: Bits
 ms.assetid: 596b1ba1-6652-4c97-a44d-e8271471d864
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BG_CERT_STORE_LOCATION, BG_CERT_STORE_LOCATION enumeration [BITS], BG_CERT_STORE_LOCATION_CURRENT_SERVICE, BG_CERT_STORE_LOCATION_CURRENT_USER, BG_CERT_STORE_LOCATION_CURRENT_USER_GROUP_POLICY, BG_CERT_STORE_LOCATION_LOCAL_MACHINE, BG_CERT_STORE_LOCATION_LOCAL_MACHINE_ENTERPRISE, BG_CERT_STORE_LOCATION_LOCAL_MACHINE_GROUP_POLICY, BG_CERT_STORE_LOCATION_SERVICES, BG_CERT_STORE_LOCATION_USERS, __MIDL_IBackgroundCopyJobHttpOptions_0001, bits.bg_cert_store_location, bits2_5/BG_CERT_STORE_LOCATION, bits2_5/BG_CERT_STORE_LOCATION_CURRENT_SERVICE, bits2_5/BG_CERT_STORE_LOCATION_CURRENT_USER, bits2_5/BG_CERT_STORE_LOCATION_CURRENT_USER_GROUP_POLICY, bits2_5/BG_CERT_STORE_LOCATION_LOCAL_MACHINE, bits2_5/BG_CERT_STORE_LOCATION_LOCAL_MACHINE_ENTERPRISE, bits2_5/BG_CERT_STORE_LOCATION_LOCAL_MACHINE_GROUP_POLICY, bits2_5/BG_CERT_STORE_LOCATION_SERVICES, bits2_5/BG_CERT_STORE_LOCATION_USERS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: bits2_5.h
 req.include-header: Bits.h

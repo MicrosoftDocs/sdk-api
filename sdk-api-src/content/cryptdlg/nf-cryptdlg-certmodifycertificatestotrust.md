@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptdlg.CertModifyCertificatesToTrust
 title: CertModifyCertificatesToTrust function
-author: windows-driver-content
+author: windows-sdk-content
 description: Modifies the set of certificates in a certificate trust list (CTL) for a given purpose.
 old-location: security\certmodifycertificatestotrust.htm
 old-project: SecCrypto
 ms.assetid: a23d968e-113f-470e-a629-18c22882c77f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertModifyCertificatesToTrust, CertModifyCertificatesToTrust function [Security], cryptdlg/CertModifyCertificatesToTrust, security.certmodifycertificatestotrust
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptdlg.h
 req.include-header: 

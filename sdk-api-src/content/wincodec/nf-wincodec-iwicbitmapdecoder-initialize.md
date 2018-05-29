@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.Initialize
 title: IWICBitmapDecoder::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the decoder with the provided stream.
 old-location: wic\_wic_codec_iwicbitmapdecoder_initialize.htm
 old-project: wic
 ms.assetid: 60a7e0b8-202c-4fed-b105-f8c4fa9817a9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapDecoder interface [Windows Imaging Component],Initialize method, IWICBitmapDecoder.Initialize, IWICBitmapDecoder::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapDecoder interface, _wic_codec_iwicbitmapdecoder_initialize, wic._wic_codec_iwicbitmapdecoder_initialize, wincodec/IWICBitmapDecoder::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

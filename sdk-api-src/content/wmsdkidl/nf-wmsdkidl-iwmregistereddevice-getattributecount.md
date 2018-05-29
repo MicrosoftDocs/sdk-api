@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetAttributeCount
 title: IWMRegisteredDevice::GetAttributeCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAttributeCount method retrieves the total number of attributes associated with the device.
 old-location: wmformat\iwmregistereddevice_getattributecount.htm
 old-project: wmformat
 ms.assetid: 6032cb18-4c4a-4cd7-905e-5cb390bfc37b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetAttributeCount, GetAttributeCount method [windows Media Format], GetAttributeCount method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetAttributeCount method, IWMRegisteredDevice.GetAttributeCount, IWMRegisteredDevice::GetAttributeCount, IWMRegisteredDeviceGetAttributeCount, wmformat.iwmregistereddevice_getattributecount, wmsdkidl/IWMRegisteredDevice::GetAttributeCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

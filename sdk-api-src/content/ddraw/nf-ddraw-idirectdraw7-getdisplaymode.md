@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetDisplayMode
 title: IDirectDraw7::GetDisplayMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current display mode.
 old-location: directdraw\idirectdraw7_getdisplaymode.htm
 old-project: directdraw
 ms.assetid: bd31efc8-17c4-4744-a03b-a22a50c7d9c2
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GetDisplayMode, GetDisplayMode method [DirectDraw], GetDisplayMode method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetDisplayMode method, IDirectDraw7.GetDisplayMode, IDirectDraw7::GetDisplayMode, ddraw/IDirectDraw7::GetDisplayMode, directdraw.idirectdraw7_getdisplaymode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

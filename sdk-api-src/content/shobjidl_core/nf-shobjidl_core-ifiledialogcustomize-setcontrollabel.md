@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetControlLabel
 title: IFileDialogCustomize::SetControlLabel
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the text associated with a control, such as button text or an edit box label.
 old-location: shell\IFileDialogCustomize_SetControlLabel.htm
 old-project: shell
 ms.assetid: 369038ad-999b-425c-bd47-b6a06e5f6939
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],SetControlLabel method, IFileDialogCustomize.SetControlLabel, IFileDialogCustomize::SetControlLabel, SetControlLabel, SetControlLabel method [Windows Shell], SetControlLabel method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_SetControlLabel, shell_IFileDialogCustomize_SetControlLabel, shobjidl_core/IFileDialogCustomize::SetControlLabel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

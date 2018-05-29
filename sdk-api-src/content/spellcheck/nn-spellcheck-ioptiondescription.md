@@ -1,16 +1,16 @@
 ---
 UID: NN:spellcheck.IOptionDescription
 title: IOptionDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the description of a spell checker option.
 old-location: intl\ioptiondescription.htm
 old-project: Intl
 ms.assetid: 809d1a71-bb14-4516-9624-2f10fe19a5d9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IOptionDescription, IOptionDescription interface [Internationalization for Windows Applications], IOptionDescription interface [Internationalization for Windows Applications],described, intl.ioptiondescription, spellcheck/IOptionDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: spellcheck.h
 req.include-header: 

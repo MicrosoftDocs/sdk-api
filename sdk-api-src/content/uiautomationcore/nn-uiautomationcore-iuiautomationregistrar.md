@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.IUIAutomationRegistrar
 title: IUIAutomationRegistrar
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods for registering new control patterns, properties, and events.
 old-location: winauto\uiauto_IUIAutomationRegistrar.htm
 old-project: WinAuto
 ms.assetid: b5d979aa-7a87-4d6c-acdc-6e9eb19aac98
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationRegistrar, IUIAutomationRegistrar interface [Windows Accessibility], IUIAutomationRegistrar interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationRegistrar, uiauto_IUIAutomationRegistrar, uiautomationcore/IUIAutomationRegistrar, winauto.uiauto_IUIAutomationRegistrar
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

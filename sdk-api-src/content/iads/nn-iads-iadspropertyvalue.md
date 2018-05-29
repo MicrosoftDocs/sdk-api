@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsPropertyValue
 title: IADsPropertyValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to represent the value of an IADsPropertyEntry object in a predefined data type.
 old-location: adsi\iadspropertyvalue.htm
 old-project: ADSI
 ms.assetid: 7cad4d04-80d4-4f9a-95b7-2f1809ddb8fb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsPropertyValue, IADsPropertyValue interface [ADSI], IADsPropertyValue interface [ADSI],described, PropertyValue, _ds_iadspropertyvalue, adsi.iadspropertyvalue, iads/IADsPropertyValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

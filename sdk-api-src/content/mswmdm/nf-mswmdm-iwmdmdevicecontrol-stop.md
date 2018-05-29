@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.Stop
 title: IWMDMDeviceControl::Stop
-author: windows-driver-content
+author: windows-sdk-content
 description: The Stop method stops the current record or play operation.
 old-location: wmdm\iwmdmdevicecontrol_stop.htm
 old-project: WMDM
 ms.assetid: 842b7de7-dde2-40d1-8028-9ffebcaea90e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Stop method, IWMDMDeviceControl.Stop, IWMDMDeviceControl::Stop, IWMDMDeviceControlStop, Stop, Stop method [windows Media Device Manager], Stop method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Stop, wmdm.iwmdmdevicecontrol_stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

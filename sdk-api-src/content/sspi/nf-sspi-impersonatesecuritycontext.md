@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.ImpersonateSecurityContext
 title: ImpersonateSecurityContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows a server to impersonate a client by using a token previously obtained by a call to AcceptSecurityContext (General) or QuerySecurityContextToken.
 old-location: security\impersonatesecuritycontext.htm
 old-project: SecAuthN
 ms.assetid: 167eaf3b-b794-4587-946d-fa596f1f9411
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ImpersonateSecurityContext, ImpersonateSecurityContext function [Security], _ssp_impersonatesecuritycontext, security.impersonatesecuritycontext, sspi/ImpersonateSecurityContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

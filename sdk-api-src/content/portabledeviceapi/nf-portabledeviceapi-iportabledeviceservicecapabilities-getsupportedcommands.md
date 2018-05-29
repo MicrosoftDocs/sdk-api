@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetSupportedCommands
 title: IPortableDeviceServiceCapabilities::GetSupportedCommands
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the commands supported by the service.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getsupportedcommands.htm
 old-project: wpd_sdk
 ms.assetid: b116ae11-f02f-47aa-8c54-4810e2d50046
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetSupportedCommands, GetSupportedCommands method [Windows Portable Devices SDK], GetSupportedCommands method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetSupportedCommands method, IPortableDeviceServiceCapabilities.GetSupportedCommands, IPortableDeviceServiceCapabilities::GetSupportedCommands, portabledeviceapi/IPortableDeviceServiceCapabilities::GetSupportedCommands, wpdsdk.iportabledeviceservicecapabilities_getsupportedcommands
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

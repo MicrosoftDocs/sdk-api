@@ -1,16 +1,16 @@
 ---
 UID: NF:infotech.IITResultSet.Add(LPVOID)
 title: IITResultSet::Add(LPVOID)
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds columns to result set, given a header containing pairs of property ID followed by property type.
 old-location: htmlhelp\iitresultset_add1.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetadd.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Add, Add method [HTML Help Workshop], Add method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Add method, IITResultSet.Add, IITResultSet.Add(LPVOID), IITResultSet::Add, IITResultSet::Add(LPVOID), htmlhelp.iitresultset_add1, infotech/IITResultSet::Add, refIITResultSetAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

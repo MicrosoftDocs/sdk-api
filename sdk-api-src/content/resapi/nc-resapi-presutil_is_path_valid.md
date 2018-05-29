@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_IS_PATH_VALID
 title: PRESUTIL_IS_PATH_VALID
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks whether a path is syntactically valid.
 old-location: mscs\resutilispathvalid.htm
 old-project: MsCS
 ms.assetid: 4cc8e0ad-8dbc-409d-b063-9fa26f810aac
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_IS_PATH_VALID, PRESUTIL_IS_PATH_VALID callback, PRESUTIL_IS_PATH_VALID callback function [Failover Cluster], _wolf_resutilispathvalid, mscs.resutilispathvalid, resapi/PRESUTIL_IS_PATH_VALID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

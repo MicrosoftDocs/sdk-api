@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzBizRuleContext.GetParameter
 title: IAzBizRuleContext::GetParameter
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the specified value from the varParameterValues parameter of the IAzClientContext::AccessCheck method.
 old-location: security\azbizrulecontext_getparameter.htm
 old-project: SecAuthZ
 ms.assetid: 9c956eea-92a5-4da8-abe0-a5ab4e41ab85
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzBizRuleContext object [Security],GetParameter method, GetParameter, GetParameter method [Security], GetParameter method [Security],AzBizRuleContext object, GetParameter method [Security],IAzBizRuleContext interface, IAzBizRuleContext interface [Security],GetParameter method, IAzBizRuleContext.GetParameter, IAzBizRuleContext::GetParameter, azroles/IAzBizRuleContext::GetParameter, security.azbizrulecontext_getparameter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_VALUE_BOOL
 title: "_EAP_METHOD_PROPERTY_VALUE_BOOL"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a Boolean value of an EAP method property.
 old-location: eaphost\eap_method_property_value_bool.htm
 old-project: EAPHost
 ms.assetid: ff482df6-a9c9-41b3-bedf-880fee71b968
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_BOOL, EAP_METHOD_PROPERTY_VALUE_BOOL structure [EAPHost], PEAP_METHOD_PROPERTY_VALUE_BOOL, PEAP_METHOD_PROPERTY_VALUE_BOOL structure pointer [EAPHost], _EAP_METHOD_PROPERTY_VALUE_BOOL, eaphost.eap_method_property_value_bool, eaptypes/EAP_METHOD_PROPERTY_VALUE_BOOL, eaptypes/PEAP_METHOD_PROPERTY_VALUE_BOOL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

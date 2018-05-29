@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.DrvDitherColor
 title: DrvDitherColor function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrvDitherColor function requests the device to create a brush dithered against a device palette.
 old-location: display\drvdithercolor.htm
 old-project: display
 ms.assetid: 635a4af8-ec19-4f99-80b2-bad2a6e87edc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DrvDitherColor, DrvDitherColor function [Display Devices], ddifncs_2b62d877-2c36-41ad-bca7-88f1daf3640c.xml, display.drvdithercolor, winddi/DrvDitherColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

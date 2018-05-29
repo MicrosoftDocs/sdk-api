@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll.put_GenKeyFlags
 title: IEnroll::put_GenKeyFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the values passed to CryptGenKey when the certificate request is generated.
 old-location: security\ienroll4_genkeyflags.htm
 old-project: SecCrypto
 ms.assetid: 6dac3321-9dca-4b7d-8432-e8124bd51db7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GenKeyFlags property [Security], GenKeyFlags property [Security],IEnroll interface, IEnroll interface [Security],GenKeyFlags property, IEnroll.GenKeyFlags, IEnroll.put_GenKeyFlags, IEnroll::GenKeyFlags, IEnroll::get_GenKeyFlags, IEnroll::put_GenKeyFlags, put_GenKeyFlags, security.ienroll4_genkeyflags, xenroll/IEnroll::GenKeyFlags, xenroll/IEnroll::get_GenKeyFlags, xenroll/IEnroll::put_GenKeyFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

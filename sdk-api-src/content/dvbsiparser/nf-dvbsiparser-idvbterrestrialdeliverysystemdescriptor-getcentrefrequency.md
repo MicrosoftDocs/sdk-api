@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetCentreFrequency
 title: IDvbTerrestrialDeliverySystemDescriptor::GetCentreFrequency
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getcentrefrequency.htm
 old-project: mstv
 ms.assetid: 80ce6831-afb0-4fdd-844d-1aa400449110
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCentreFrequency, GetCentreFrequency method [Microsoft TV Technologies], GetCentreFrequency method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetCentreFrequency method, IDvbTerrestrialDeliverySystemDescriptor.GetCentreFrequency, IDvbTerrestrialDeliverySystemDescriptor::GetCentreFrequency, IDvbTerrestrialDeliverySystemDescriptorGetCentreFrequency, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetCentreFrequency, mstv.idvbterrestrialdeliverysystemdescriptor_getcentrefrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:appxpackaging.APPX_KEY_INFO
 title: APPX_KEY_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Windows app package key information.
 old-location: appxpkg\appx_key_info.htm
 old-project: appxpkg
 ms.assetid: 16D21F7E-0F98-47F3-BB96-0E2D263B249B
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: APPX_KEY_INFO, APPX_KEY_INFO structure [App packaging and management], PAPPX_KEY_INFO, PAPPX_KEY_INFO structure pointer [App packaging and management], appxpackaging/APPX_KEY_INFO, appxpackaging/PAPPX_KEY_INFO, appxpkg.appx_key_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: appxpackaging.h
 req.include-header: 

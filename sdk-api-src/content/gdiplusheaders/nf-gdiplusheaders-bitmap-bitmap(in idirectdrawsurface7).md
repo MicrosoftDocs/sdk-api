@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Bitmap(IN IDirectDrawSurface7)
 title: Bitmap::Bitmap(IN IDirectDrawSurface7)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the constructors of the Bitmap class. For a complete class listing, see Bitmap Class.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Constructors.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Bitmap, Bitmap constructors [GDI+], Bitmap.Bitmap, Bitmap.Bitmap(IN IDirectDrawSurface7), Bitmap::Bitmap, Bitmap::Bitmap(IN IDirectDrawSurface7), _gdiplus_CLASS_Bitmap_Constructors, gdiplus._gdiplus_CLASS_Bitmap_Constructors, gdiplusheaders/Bitmap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 

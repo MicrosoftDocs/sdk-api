@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetDigestMethod
 title: IXpsSigningOptions::SetDigestMethod
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the URI of the digest method.
 old-location: xps\ixpssigningoptions_setdigestmethod.htm
 old-project: printdocs
 ms.assetid: d9f72cc4-38b2-4a91-8813-183483d47986
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetDigestMethod method, IXpsSigningOptions.SetDigestMethod, IXpsSigningOptions::SetDigestMethod, SetDigestMethod, SetDigestMethod method [XPS Documents and Packaging], SetDigestMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setdigestmethod, xpsdigitalsignature/IXpsSigningOptions::SetDigestMethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpV4AddPolicyRange
 title: DhcpV4AddPolicyRange function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an IP address range to a policy.
 old-location: dhcp\dhcpv4addpolicyrange.htm
 old-project: DHCP
 ms.assetid: 43ec0634-6a4b-4d70-98d1-410b33a7cb17
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpV4AddPolicyRange, DhcpV4AddPolicyRange function [DHCP], dhcp.dhcpv4addpolicyrange, dhcpsapi/DhcpV4AddPolicyRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

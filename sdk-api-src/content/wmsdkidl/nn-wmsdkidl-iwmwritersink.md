@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMWriterSink
 title: IWMWriterSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMWriterSink interface is the basic interface of all writer sinks, including the file, network, and push sinks defined in the Windows Media Format SDK, and custom sinks.
 old-location: wmformat\iwmwritersink.htm
 old-project: wmformat
 ms.assetid: 73656814-7fac-4567-abcd-dbb3243fcaa8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMWriterSink, IWMWriterSink interface [windows Media Format], IWMWriterSink interface [windows Media Format],described, IWMWriterSinkInterface, wmformat.iwmwritersink, wmsdkidl/IWMWriterSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

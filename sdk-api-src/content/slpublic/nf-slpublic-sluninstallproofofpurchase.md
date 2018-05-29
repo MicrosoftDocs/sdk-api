@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLUninstallProofOfPurchase
 title: SLUninstallProofOfPurchase function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters the product key information.
 old-location: security\sluninstallproofofpurchase.htm
 old-project: SecSLApi
 ms.assetid: f3e5e43e-ea4a-4aad-b60a-833859996339
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLUninstallProofOfPurchase, SLUninstallProofOfPurchase function [Security], security.sluninstallproofofpurchase, slpublic/SLUninstallProofOfPurchase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

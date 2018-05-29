@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.SetInBandEnabled
 title: IMFTimedText::SetInBandEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables inband mode.
 old-location: mf\imftimedtext_setinbandenabled.htm
 old-project: medfound
 ms.assetid: 4AF63D30-4A91-4DFF-96B9-0A26102B93FE
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SetInBandEnabled method, IMFTimedText.SetInBandEnabled, IMFTimedText::SetInBandEnabled, SetInBandEnabled, SetInBandEnabled method [Media Foundation], SetInBandEnabled method [Media Foundation],IMFTimedText interface, mf.imftimedtext_setinbandenabled, mfmediaengine/IMFTimedText::SetInBandEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

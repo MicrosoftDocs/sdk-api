@@ -1,16 +1,16 @@
 ---
 UID: NS:windns._DnsRecordFlags
 title: "_DnsRecordFlags"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DNS_RECORD_FLAGS structure is used to set flags for use in the DNS_RECORD structure.
 old-location: dns\dns_record_flags.htm
 old-project: DNS
 ms.assetid: 53c1c8bc-20b0-4b15-b2b6-9c9854f73ee3
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: DNS_RECORD_FLAGS, DNS_RECORD_FLAGS structure [DNS], _DnsRecordFlags, _dns_dns_record_flags, dns.dns_record_flags, windns/DNS_RECORD_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

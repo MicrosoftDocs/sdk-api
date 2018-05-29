@@ -1,16 +1,16 @@
 ---
 UID: NE:naptypes.tagRemoteConfigurationType
 title: tagRemoteConfigurationType
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the type of remote configuration possible for a component.
 old-location: nap\remoteconfigurationtype.htm
 old-project: NAP
 ms.assetid: 951fbae2-48cb-4e3f-a03f-bf55bf017ec5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RemoteConfigurationType, RemoteConfigurationType enumeration [NAP], nap.remoteconfigurationtype, naptypes/RemoteConfigurationType, naptypes/remoteConfigTypeConfigBlob, naptypes/remoteConfigTypeMachine, remoteConfigTypeConfigBlob, remoteConfigTypeMachine, tagRemoteConfigurationType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: naptypes.h
 req.include-header: 

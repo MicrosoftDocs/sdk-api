@@ -1,16 +1,16 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
 title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an object.
 old-location: security\pfn_crypt_object_locator_provider_get.htm
 old-project: SecCrypto
 ms.assetid: 2073915D-F23B-41BD-8376-4493FE9D62C6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_OBJECT_LOCATOR_FIRST_RESERVED_USER_NAME_TYPE, CRYPT_OBJECT_LOCATOR_LAST_RESERVED_NAME_TYPE, CRYPT_OBJECT_LOCATOR_LAST_RESERVED_USER_NAME_TYPE, CRYPT_OBJECT_LOCATOR_SPN_NAME_TYPE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET function, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET function pointer [Security], security.pfn_crypt_object_locator_provider_get, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_GET
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

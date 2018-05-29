@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecpkg._SECPKG_SERIALIZED_OID
 title: "_SECPKG_SERIALIZED_OID"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the security package's object identifier (OID).
 old-location: security\secpkg_serialized_oid.htm
 old-project: SecAuthN
 ms.assetid: 54CF931B-AD1F-4370-A2AF-5DF4BC9EA007
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSECPKG_SERIALIZED_OID, PSECPKG_SERIALIZED_OID, PSECPKG_SERIALIZED_OID structure pointer [Security], SECPKG_SERIALIZED_OID, SECPKG_SERIALIZED_OID structure [Security], _SECPKG_SERIALIZED_OID, ntsecpkg/PSECPKG_SERIALIZED_OID, ntsecpkg/SECPKG_SERIALIZED_OID, security.secpkg_serialized_oid"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 

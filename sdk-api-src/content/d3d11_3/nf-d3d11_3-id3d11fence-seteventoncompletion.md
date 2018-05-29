@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_3.ID3D11Fence.SetEventOnCompletion
 title: ID3D11Fence::SetEventOnCompletion
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies an event that should be fired when the fence reaches a certain value.
 old-location: direct3d11\id3d11fence_seteventoncompletion.htm
 old-project: direct3d11
 ms.assetid: 255FF723-85FA-4230-B751-B5F52A6F8EBB
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11Fence interface [Direct3D 11],SetEventOnCompletion method, ID3D11Fence.SetEventOnCompletion, ID3D11Fence::SetEventOnCompletion, SetEventOnCompletion, SetEventOnCompletion method [Direct3D 11], SetEventOnCompletion method [Direct3D 11],ID3D11Fence interface, d3d11_3/ID3D11Fence::SetEventOnCompletion, direct3d11.id3d11fence_seteventoncompletion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_3.h
 req.include-header: 

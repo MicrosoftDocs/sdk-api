@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_RESOURCE_BARRIER
 title: D3D12_RESOURCE_BARRIER
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a resource barrier (transition in resource use).
 old-location: direct3d12\d3d12_resource_barrier.htm
 old-project: direct3d12
 ms.assetid: 49F02D65-767E-4BA4-A90D-68AA2D709E09
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_RESOURCE_BARRIER, D3D12_RESOURCE_BARRIER structure, d3d12/D3D12_RESOURCE_BARRIER, direct3d12.d3d12_resource_barrier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

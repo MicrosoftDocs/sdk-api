@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaSession.GetClock
 title: IMFMediaSession::GetClock
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Media Session's presentation clock.
 old-location: mf\imfmediasession_getclock.htm
 old-project: medfound
 ms.assetid: 16444da2-68f2-4d94-8c6f-9e512d51e5e9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 16444da2-68f2-4d94-8c6f-9e512d51e5e9, GetClock, GetClock method [Media Foundation], GetClock method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetClock method, IMFMediaSession.GetClock, IMFMediaSession::GetClock, mf.imfmediasession_getclock, mfidl/IMFMediaSession::GetClock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

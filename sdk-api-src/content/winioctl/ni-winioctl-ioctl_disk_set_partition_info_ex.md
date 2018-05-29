@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_SET_PARTITION_INFO_EX
 title: IOCTL_DISK_SET_PARTITION_INFO_EX
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets partition information for the specified disk partition, including layout information for AT and EFI (Extensible Firmware Interface) partitions.
 old-location: fs\ioctl_disk_set_partition_info_ex.htm
 old-project: FileIO
 ms.assetid: 6feec7a9-5b57-406b-bbea-04cf9cdaf56b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IOCTL_DISK_SET_PARTITION_INFO_EX, IOCTL_DISK_SET_PARTITION_INFO_EX control, IOCTL_DISK_SET_PARTITION_INFO_EX control code [Files], _win32_ioctl_disk_set_partition_info_ex, base.ioctl_disk_set_partition_info_ex, fs.ioctl_disk_set_partition_info_ex, winioctl/IOCTL_DISK_SET_PARTITION_INFO_EX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

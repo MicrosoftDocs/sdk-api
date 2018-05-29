@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetRootStorage
 title: IMDSPStorageGlobals::GetRootStorage
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetRootStorage method retrieves a pointer to the IMDSPStorage interface for the root storage of the storage medium.
 old-location: wmdm\imdspstorageglobals_getrootstorage.htm
 old-project: WMDM
 ms.assetid: 80b6cb71-d567-4fb5-9f75-82ae2fe118c7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetRootStorage, GetRootStorage method [windows Media Device Manager], GetRootStorage method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetRootStorage method, IMDSPStorageGlobals.GetRootStorage, IMDSPStorageGlobals::GetRootStorage, IMDSPStorageGlobalsGetRootStorage, mswmdm/IMDSPStorageGlobals::GetRootStorage, wmdm.imdspstorageglobals_getrootstorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

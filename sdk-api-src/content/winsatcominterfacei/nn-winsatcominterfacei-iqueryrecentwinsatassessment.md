@@ -1,16 +1,16 @@
 ---
 UID: NN:winsatcominterfacei.IQueryRecentWinSATAssessment
 title: IQueryRecentWinSATAssessment
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves details about the results of the most recent formal WinSAT assessment.
 old-location: winsat\iqueryrecentwinsatassessment.htm
 old-project: WinSAT
 ms.assetid: 6849d8b6-d192-4520-a737-39e22e14a70f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IQueryRecentWinSATAssessment, IQueryRecentWinSATAssessment interface [WinSAT], IQueryRecentWinSATAssessment interface [WinSAT],described, winsat.iqueryrecentwinsatassessment, winsatcominterfacei/IQueryRecentWinSATAssessment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsatcominterfacei.h
 req.include-header: 

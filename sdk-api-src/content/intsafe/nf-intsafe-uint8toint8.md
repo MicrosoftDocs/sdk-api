@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.UInt8ToInt8
 title: UInt8ToInt8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type UINT8 to a value of type INT8.
 old-location: shell\UInt8ToInt8.htm
 old-project: shell
 ms.assetid: e62784c6-0a26-4b3a-a9cc-0ab7b64ff37c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UInt8ToInt8, UInt8ToInt8 function [Windows Shell], intsafe/UInt8ToInt8, shell.UInt8ToInt8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Contrast
 title: IVideoProcAmp::put_Contrast
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Contrast method sets the camera's contrast setting.
 old-location: dshow\ivideoprocamp_put_contrast.htm
 old-project: DirectShow
 ms.assetid: a03ab735-2258-49c6-a66a-fabe38f88532
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Contrast method, IVideoProcAmp.put_Contrast, IVideoProcAmp::put_Contrast, IVideoProcAmpput_Contrast, dshow.ivideoprocamp_put_contrast, put_Contrast, put_Contrast method [DirectShow], put_Contrast method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Contrast
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

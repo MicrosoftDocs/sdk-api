@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll2.GetSupportedKeySpec
 title: IEnroll2::GetSupportedKeySpec
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information regarding the current cryptographic service provider (CSP) support for signature and/or exchange operations.
 old-location: security\ienroll4_getsupportedkeyspec.htm
 old-project: SecCrypto
 ms.assetid: 8f7ace8e-0102-4c89-9d8a-e252ad60bb96
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetSupportedKeySpec, GetSupportedKeySpec method [Security], GetSupportedKeySpec method [Security],IEnroll2 interface, IEnroll2 interface [Security],GetSupportedKeySpec method, IEnroll2.GetSupportedKeySpec, IEnroll2::GetSupportedKeySpec, security.ienroll4_getsupportedkeyspec, xenroll/IEnroll2::GetSupportedKeySpec
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

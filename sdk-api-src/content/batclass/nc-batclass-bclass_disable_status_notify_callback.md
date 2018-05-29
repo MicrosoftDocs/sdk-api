@@ -1,16 +1,16 @@
 ---
 UID: NC:batclass.BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK
 title: BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: BatteryMiniDisableStatusNotify disables status notification for a battery device.
 old-location: battery\batteryminidisablestatusnotify.htm
 old-project: battery
 ms.assetid: 5120205f-0d55-4391-a560-3089fbe11d82
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK, BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK callback, BatteryMiniDisableStatusNotify, BatteryMiniDisableStatusNotify callback function [Battery Devices], bat-mini_2e5f13bc-0046-486c-a1f9-be94bf309559.xml, batclass/BatteryMiniDisableStatusNotify, battery.batteryminidisablestatusnotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: batclass.h
 req.include-header: Batclass.h

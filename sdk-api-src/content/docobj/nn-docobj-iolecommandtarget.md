@@ -1,16 +1,16 @@
 ---
 UID: NN:docobj.IOleCommandTarget
 title: IOleCommandTarget
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables objects and their containers to dispatch commands to each other. For example, an object's toolbars may contain buttons for commands such as Print, Print Preview, Save, New, and Zoom.
 old-location: com\iolecommandtarget.htm
 old-project: com
 ms.assetid: 5c8b455e-7740-4f71-aef6-27390a11a1a3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleCommandTarget, IOleCommandTarget interface [COM], IOleCommandTarget interface [COM],described, _ole_iolecommandtarget, com.iolecommandtarget, docobj/IOleCommandTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: docobj.h
 req.include-header: 

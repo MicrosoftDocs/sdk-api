@@ -1,16 +1,16 @@
 ---
 UID: NS:dxgidebug.DXGI_INFO_QUEUE_FILTER_DESC
 title: DXGI_INFO_QUEUE_FILTER_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the types of messages to allow or deny to pass through a filter.
 old-location: direct3ddxgi\dxgi_info_queue_filter_desc.htm
 old-project: direct3ddxgi
 ms.assetid: B916731B-362B-46AD-BC18-71339A2935B4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_INFO_QUEUE_FILTER_DESC, DXGI_INFO_QUEUE_FILTER_DESC structure [DXGI], direct3ddxgi.dxgi_info_queue_filter_desc, dxgidebug/DXGI_INFO_QUEUE_FILTER_DESC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgidebug.h
 req.include-header: 

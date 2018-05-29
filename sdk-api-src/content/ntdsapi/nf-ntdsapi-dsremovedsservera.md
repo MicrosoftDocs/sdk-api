@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsRemoveDsServerA
 title: DsRemoveDsServerA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DsRemoveDsServer function removes all traces of a directory service agent (DSA) from the global area of the directory service.
 old-location: ad\dsremovedsserver.htm
 old-project: AD
 ms.assetid: a79a2b71-10c7-495b-861f-0c7a4d86f720
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsRemoveDsServer, DsRemoveDsServer function [Active Directory], DsRemoveDsServerA, DsRemoveDsServerW, _glines_dsremovedsserver, ad.dsremovedsserver, ntdsapi/DsRemoveDsServer, ntdsapi/DsRemoveDsServerA, ntdsapi/DsRemoveDsServerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

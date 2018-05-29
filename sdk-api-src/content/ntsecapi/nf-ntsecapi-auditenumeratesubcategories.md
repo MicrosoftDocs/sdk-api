@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.AuditEnumerateSubCategories
 title: AuditEnumerateSubCategories function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the available audit-policy subcategories.
 old-location: security\auditenumeratesubcategories_func.htm
 old-project: SecAuthZ
 ms.assetid: c5af83f4-9524-4a39-ad1d-39b21bb073bd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuditEnumerateSubCategories, AuditEnumerateSubCategories function [Security], ntsecapi/AuditEnumerateSubCategories, security.auditenumeratesubcategories_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

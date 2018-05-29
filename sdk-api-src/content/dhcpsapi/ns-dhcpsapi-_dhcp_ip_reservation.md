@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_RESERVATION
 title: "_DHCP_IP_RESERVATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCP_IP_RESERVATION structure defines a client IP reservation.
 old-location: dhcp\dhcp_ip_reservation.htm
 old-project: DHCP
 ms.assetid: 35d7ebc7-790b-4453-a9d4-b485f0adac46
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_IP_RESERVATION, DHCP_IP_RESERVATION, DHCP_IP_RESERVATION structure [DHCP], LPDHCP_IP_RESERVATION, LPDHCP_IP_RESERVATION structure pointer [DHCP], _DHCP_IP_RESERVATION, dhcp.dhcp_ip_reservation, dhcpsapi/LPDHCP_IP_RESERVATION, dhcpsapi/_DHCP_IP_RESERVATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

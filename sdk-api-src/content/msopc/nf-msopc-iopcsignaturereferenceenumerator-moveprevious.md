@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureReferenceEnumerator.MovePrevious
 title: IOpcSignatureReferenceEnumerator::MovePrevious
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves the current position of the enumerator to the previous IOpcSignatureReference interface pointer.
 old-location: opc\iopcsignaturereferenceenumerator_moveprevious.htm
 old-project: OPC
 ms.assetid: 7ff697a4-45fe-46cd-8d36-96bafcb32aa1
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcSignatureReferenceEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignatureReferenceEnumerator.MovePrevious, IOpcSignatureReferenceEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignatureReferenceEnumerator interface, msopc/IOpcSignatureReferenceEnumerator::MovePrevious, opc.iopcsignaturereferenceenumerator_moveprevious
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

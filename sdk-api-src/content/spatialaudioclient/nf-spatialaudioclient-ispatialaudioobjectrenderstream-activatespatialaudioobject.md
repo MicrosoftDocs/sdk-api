@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectRenderStream.ActivateSpatialAudioObject
 title: ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Activates an ISpatialAudioObject for audio rendering.
 old-location: coreaudio\ispatialaudioobjectrenderstream_activatespatialaudioobject.htm
 old-project: CoreAudio
 ms.assetid: 1B99E7FB-0796-4902-9B00-470FD08F8AFA
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ActivateSpatialAudioObject, ActivateSpatialAudioObject method [Core Audio], ActivateSpatialAudioObject method [Core Audio],ISpatialAudioObjectRenderStream interface, ISpatialAudioObjectRenderStream interface [Core Audio],ActivateSpatialAudioObject method, ISpatialAudioObjectRenderStream.ActivateSpatialAudioObject, ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject, coreaudio.ispatialaudioobjectrenderstream_activatespatialaudioobject, spatialaudioclient/ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 

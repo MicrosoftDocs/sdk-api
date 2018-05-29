@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamBuffer.get_PayloadOffset
 title: IRDPSRAPITransportStreamBuffer::get_PayloadOffset
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the location in the stream buffer where the content starts.
 old-location: rdp\irdpsrapitransportstreambuffer_payloadoffset.htm
 old-project: Rdp
 ms.assetid: 2d684e5d-65b5-4216-8256-d861028220c4
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],PayloadOffset property, IRDPSRAPITransportStreamBuffer.PayloadOffset, IRDPSRAPITransportStreamBuffer.get_PayloadOffset, IRDPSRAPITransportStreamBuffer::PayloadOffset, IRDPSRAPITransportStreamBuffer::get_PayloadOffset, IRDPSRAPITransportStreamBuffer::put_PayloadOffset, PayloadOffset property [RDP], PayloadOffset property [RDP],IRDPSRAPITransportStreamBuffer interface, get_PayloadOffset, rdp.irdpsrapitransportstreambuffer_payloadoffset, rdpencomapi/IRDPSRAPITransportStreamBuffer::PayloadOffset, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_PayloadOffset, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_PayloadOffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IFrameworkInputPaneHandler
 title: IFrameworkInputPaneHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an app to be notified when the input pane (the on-screen keyboard or handwriting panel) is being shown or hidden. This allows the app window to adjust its display so that no input areas (such as a text box) are obscured by the input pane.
 old-location: shell\IFrameworkInputPaneHandler.htm
 old-project: shell
 ms.assetid: E8038442-9E96-4eee-968E-3A6BC747852D
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFrameworkInputPaneHandler, IFrameworkInputPaneHandler interface [Windows Shell], IFrameworkInputPaneHandler interface [Windows Shell],described, shell.IFrameworkInputPaneHandler, shobjidl_core/IFrameworkInputPaneHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

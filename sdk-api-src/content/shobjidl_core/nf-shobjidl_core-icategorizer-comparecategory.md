@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ICategorizer.CompareCategory
 title: ICategorizer::CompareCategory
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the relative order of two items in their item identifier lists, and hence in the UI.
 old-location: shell\ICategorizer_CompareCategory.htm
 old-project: shell
 ms.assetid: 25775fa5-595d-4911-9cd4-47fde429b923
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CompareCategory, CompareCategory method [Windows Shell], CompareCategory method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],CompareCategory method, ICategorizer.CompareCategory, ICategorizer::CompareCategory, inet_ICategorizer_CompareCategory, shell.ICategorizer_CompareCategory, shobjidl_core/ICategorizer::CompareCategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

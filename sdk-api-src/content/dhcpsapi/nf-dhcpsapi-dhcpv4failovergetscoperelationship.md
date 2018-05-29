@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverGetScopeRelationship
 title: DhcpV4FailoverGetScopeRelationship function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the failover relationship that is configured on a specified DHCPv4 scope.
 old-location: dhcp\dhcpv4failovergetscoperelationship.htm
 old-project: DHCP
 ms.assetid: 795eb9ff-cc44-4567-b496-1bff559290b2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpV4FailoverGetScopeRelationship, DhcpV4FailoverGetScopeRelationship function [DHCP], dhcp.dhcpv4failovergetscoperelationship, dhcpsapi/DhcpV4FailoverGetScopeRelationship
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

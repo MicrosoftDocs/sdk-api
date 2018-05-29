@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetCurrentDirectory
 title: GetCurrentDirectory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current directory for the current process.
 old-location: fs\getcurrentdirectory.htm
 old-project: FileIO
 ms.assetid: 1fbe6289-2ca8-4ca8-b004-ecf513f9b0bd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCurrentDirectory, GetCurrentDirectory function [Files], GetCurrentDirectoryA, GetCurrentDirectoryW, _win32_getcurrentdirectory, base.getcurrentdirectory, fs.getcurrentdirectory, winbase/GetCurrentDirectory, winbase/GetCurrentDirectoryA, winbase/GetCurrentDirectoryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

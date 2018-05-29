@@ -1,16 +1,16 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.SetNameEntry
 title: ICertEncodeCRLDistInfo::SetNameEntry
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a name at a specified index of a distribution point in a certificate revocation list (CRL) distribution information array.
 old-location: security\icertencodecrldistinfo_setnameentry.htm
 old-project: SecCrypto
 ms.assetid: fe33265a-8c75-4e16-8178-3569cf30d8e4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],SetNameEntry method, CERT_ALT_NAME_DNS_NAME, CERT_ALT_NAME_REGISTERED_ID, CERT_ALT_NAME_RFC822_NAME, CERT_ALT_NAME_URL, ICertEncodeCRLDistInfo interface [Security],SetNameEntry method, ICertEncodeCRLDistInfo.SetNameEntry, ICertEncodeCRLDistInfo::SetNameEntry, SetNameEntry, SetNameEntry method [Security], SetNameEntry method [Security],CCertEncodeCRLDistInfo object, SetNameEntry method [Security],ICertEncodeCRLDistInfo interface, _certsrv_icertencodecrldistinfo_setnameentry, certenc/ICertEncodeCRLDistInfo::SetNameEntry, security.icertencodecrldistinfo_setnameentry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h

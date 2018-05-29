@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_Invitations
 title: IRDPSRAPIViewer::get_Invitations
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIInvitationManager interface.
 old-location: rdp\irdpsrapiviewer_invitations.htm
 old-project: Rdp
 ms.assetid: 2657e79a-de3a-44e1-90af-81242ac123f6
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],Invitations property, IRDPSRAPIViewer.Invitations, IRDPSRAPIViewer.get_Invitations, IRDPSRAPIViewer::Invitations, IRDPSRAPIViewer::get_Invitations, Invitations property [RDP], Invitations property [RDP],IRDPSRAPIViewer interface, Invitations property [RDP],RDPViewer object, RDPViewer object [RDP],Invitations property, get_Invitations, rdp.irdpsrapiviewer_invitations, rdpencomapi/IRDPSRAPIViewer::Invitations, rdpencomapi/IRDPSRAPIViewer::get_Invitations
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

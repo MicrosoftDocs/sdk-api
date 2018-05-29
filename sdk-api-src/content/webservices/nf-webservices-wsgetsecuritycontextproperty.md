@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsGetSecurityContextProperty
 title: WsGetSecurityContextProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a property of the specified security context.
 old-location: wsw\wsgetsecuritycontextproperty.htm
 old-project: wsw
 ms.assetid: 7ef32fbe-0b50-4ede-96af-075137df340d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsGetSecurityContextProperty, WsGetSecurityContextProperty function [Web Services for Windows], webservices/WsGetSecurityContextProperty, wsw.wsgetsecuritycontextproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

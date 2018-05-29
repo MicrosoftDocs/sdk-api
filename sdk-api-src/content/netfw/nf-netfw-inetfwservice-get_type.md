@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwService.get_Type
 title: INetFwService::get_Type
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the type of the service.
 old-location: ics\inetfwservice_type.htm
 old-project: ICS
 ms.assetid: 22f91e9a-e5b2-47a1-8ccb-b033c7d88286
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwService interface [ICS/ICF],Type property, INetFwService.Type, INetFwService.get_Type, INetFwService::Type, INetFwService::get_Type, Type property [ICS/ICF], Type property [ICS/ICF],INetFwService interface, get_Type, ics.inetfwservice_type, netfw/INetFwService::Type, netfw/INetFwService::get_Type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

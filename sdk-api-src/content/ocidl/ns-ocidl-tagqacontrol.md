@@ -1,16 +1,16 @@
 ---
 UID: NS:ocidl.tagQACONTROL
 title: tagQACONTROL
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies control information for IQuickActivate::QuickActivate.
 old-location: com\qacontrol.htm
 old-project: com
 ms.assetid: dd7ee4b1-2ad9-4ceb-b569-9988696760e8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: QACONTROL, QACONTROL structure [COM], _ctrl_QACONTROL, com.qacontrol, ocidl/QACONTROL, tagQACONTROL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromCLSID
 title: InitPropVariantFromCLSID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on a class identifier (CLSID).
 old-location: properties\InitPropVariantFromCLSID.htm
 old-project: properties
 ms.assetid: a48a8927-2718-4f9c-96f2-ab370206550b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitPropVariantFromCLSID, InitPropVariantFromCLSID function [Windows Properties], properties.InitPropVariantFromCLSID, propvarutil/InitPropVariantFromCLSID, shell.InitPropVariantFromCLSID, shell_InitPropVariantFromCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

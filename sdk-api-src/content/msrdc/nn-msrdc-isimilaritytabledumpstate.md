@@ -1,16 +1,16 @@
 ---
 UID: NN:msrdc.ISimilarityTableDumpState
 title: ISimilarityTableDumpState
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method for retrieving information from the similarity traits list that was returned by the ISimilarityTraitsTable::BeginDump method.
 old-location: rdc\isimilaritytabledumpstate.htm
 old-project: Rdc
 ms.assetid: a56433b5-191f-49fe-83fb-7057e4c30bbd
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISimilarityTableDumpState, ISimilarityTableDumpState interface [Remote Differential Compression], ISimilarityTableDumpState interface [Remote Differential Compression],described, fs.isimilaritytabledumpstate, msrdc/ISimilarityTableDumpState, rdc.isimilaritytabledumpstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

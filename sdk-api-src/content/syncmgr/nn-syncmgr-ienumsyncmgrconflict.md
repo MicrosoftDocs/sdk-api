@@ -1,16 +1,16 @@
 ---
 UID: NN:syncmgr.IEnumSyncMgrConflict
 title: IEnumSyncMgrConflict
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes conflict enumeration methods.
 old-location: shell\IEnumSyncMgrConflict.htm
 old-project: shell
 ms.assetid: 627f39be-5c9d-49a1-af73-210cdbb7940a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumSyncMgrConflict, IEnumSyncMgrConflict interface [Windows Shell], IEnumSyncMgrConflict interface [Windows Shell],described, _shell_IEnumSyncMgrConflict, shell.IEnumSyncMgrConflict, syncmgr/IEnumSyncMgrConflict
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

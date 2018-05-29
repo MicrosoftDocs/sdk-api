@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.SafeArrayAllocData
 title: SafeArrayAllocData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates memory for a safe array, based on a descriptor created with SafeArrayAllocDescriptor.
 old-location: automat\safearrayallocdata.htm
 old-project: automat
 ms.assetid: a1f984cd-9638-415d-8582-25b1bdfbd694
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: SafeArrayAllocData, SafeArrayAllocData function [Automation], _oa96_SafeArrayAllocData, automat.safearrayallocdata, oleauto/SafeArrayAllocData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

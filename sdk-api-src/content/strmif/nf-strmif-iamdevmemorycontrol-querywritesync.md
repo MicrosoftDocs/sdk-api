@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMDevMemoryControl.QueryWriteSync
 title: IAMDevMemoryControl::QueryWriteSync
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  The IAMDevMemoryControl interface is deprecated. Checks if the memory supported by the allocator requires the use of the IAMDevMemoryControl::WriteSync method.
 old-location: dshow\iamdevmemorycontrol_querywritesync.htm
 old-project: DirectShow
 ms.assetid: ec6dd7e2-b1f2-48fa-bf79-2688e286425e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMDevMemoryControl interface [DirectShow],QueryWriteSync method, IAMDevMemoryControl.QueryWriteSync, IAMDevMemoryControl::QueryWriteSync, IAMDevMemoryControlQueryWriteSync, QueryWriteSync, QueryWriteSync method [DirectShow], QueryWriteSync method [DirectShow],IAMDevMemoryControl interface, dshow.iamdevmemorycontrol_querywritesync, strmif/IAMDevMemoryControl::QueryWriteSync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

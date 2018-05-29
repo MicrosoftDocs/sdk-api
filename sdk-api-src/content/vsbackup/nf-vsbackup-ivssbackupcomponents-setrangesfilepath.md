@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetRangesFilePath
 title: IVssBackupComponents::SetRangesFilePath
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetRangesFilePath method is used when a partial file operation requires a ranges file, and that file has been restored to a location other than its original one.
 old-location: base\ivssbackupcomponents_setrangesfilepath.htm
 old-project: VSS
 ms.assetid: 170f9ea0-4846-49d4-ab06-eb1ce580e827
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetRangesFilePath method, IVssBackupComponents.SetRangesFilePath, IVssBackupComponents::SetRangesFilePath, SetRangesFilePath, SetRangesFilePath method [VSS], SetRangesFilePath method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setrangesfilepath, base.ivssbackupcomponents_setrangesfilepath, vsbackup/IVssBackupComponents::SetRangesFilePath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

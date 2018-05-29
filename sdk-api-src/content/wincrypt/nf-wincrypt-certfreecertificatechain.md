@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertFreeCertificateChain
 title: CertFreeCertificateChain function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertFreeCertificateChain function frees a certificate chain by reducing its reference count. If the reference count becomes zero, memory allocated for the chain is released.
 old-location: security\certfreecertificatechain.htm
 old-project: SecCrypto
 ms.assetid: 5ba181c2-6936-4848-a571-2bb58f46f081
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertFreeCertificateChain, CertFreeCertificateChain function [Security], _crypto2_certfreecertificatechain, security.certfreecertificatechain, wincrypt/CertFreeCertificateChain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

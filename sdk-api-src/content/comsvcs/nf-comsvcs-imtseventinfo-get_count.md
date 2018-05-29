@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IMtsEventInfo.get_Count
 title: IMtsEventInfo::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of data values from the object.
 old-location: cos\imtseventinfo_get_count.htm
 old-project: cossdk
 ms.assetid: f92c93eb-841a-4bc8-9c02-644c30daccad
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_Count method, IMtsEventInfo.get_Count, IMtsEventInfo::get_Count, _dtc_IMtsEventInfo_Count, comsvcs/IMtsEventInfo::get_Count, cos.imtseventinfo_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],IMtsEventInfo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

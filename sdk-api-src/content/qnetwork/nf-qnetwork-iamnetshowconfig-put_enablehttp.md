@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_EnableHTTP
 title: IAMNetShowConfig::put_EnableHTTP
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_EnableHTTP method enables or disables HTTP-based streaming.
 old-location: dshow\iamnetshowconfig_put_enablehttp.htm
 old-project: DirectShow
 ms.assetid: 162a581d-9697-4a6e-aedc-ec1ebc28a867
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableHTTP method, IAMNetShowConfig.put_EnableHTTP, IAMNetShowConfig::put_EnableHTTP, IAMNetShowConfigput_EnableHTTP, dshow.iamnetshowconfig_put_enablehttp, put_EnableHTTP, put_EnableHTTP method [DirectShow], put_EnableHTTP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableHTTP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICDecompressBegin
 title: ICDecompressBegin macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICDecompressBegin macro notifies a video decompression driver to prepare to decompress data. You can use this macro or explicitly call the ICM_DECOMPRESS_BEGIN message.
 old-location: multimedia\icdecompressbegin.htm
 old-project: Multimedia
 ms.assetid: 3e9fb4b7-bdc6-402c-a5c6-3f837149c291
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICDecompressBegin, ICDecompressBegin macro [Windows Multimedia], _win32_ICDecompressBegin, multimedia.icdecompressbegin, vfw/ICDecompressBegin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

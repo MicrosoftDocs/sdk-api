@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmSetCompositionFontA
 title: ImmSetCompositionFontA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the logical font to use to display characters in the composition window.
 old-location: intl\immsetcompositionfont.htm
 old-project: Intl
 ms.assetid: 5a3a9230-0ccf-4a6e-a3e0-7a3c7dbe35cf
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmSetCompositionFont, ImmSetCompositionFont function [Internationalization for Windows Applications], ImmSetCompositionFontA, ImmSetCompositionFontW, _win32_ImmSetCompositionFont, imm/ImmSetCompositionFont, imm/ImmSetCompositionFontA, imm/ImmSetCompositionFontW, intl.immsetcompositionfont
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

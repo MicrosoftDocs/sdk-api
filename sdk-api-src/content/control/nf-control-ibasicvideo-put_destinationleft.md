@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IBasicVideo.put_DestinationLeft
 title: IBasicVideo::put_DestinationLeft
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_DestinationLeft method sets the x-coordinate of the destination rectangle.
 old-location: dshow\ibasicvideo_put_destinationleft.htm
 old-project: DirectShow
 ms.assetid: 718fcc07-1e37-4e37-ab99-39f629e65309
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_DestinationLeft method, IBasicVideo.put_DestinationLeft, IBasicVideo::put_DestinationLeft, IBasicVideoput_DestinationLeft, control/IBasicVideo::put_DestinationLeft, dshow.ibasicvideo_put_destinationleft, put_DestinationLeft, put_DestinationLeft method [DirectShow], put_DestinationLeft method [DirectShow],IBasicVideo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

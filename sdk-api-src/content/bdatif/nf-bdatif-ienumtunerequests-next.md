@@ -1,16 +1,16 @@
 ---
 UID: NF:bdatif.IEnumTuneRequests.Next
 title: IEnumTuneRequests::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The Next method retrieves the specified number of items in the collection.
 old-location: mstv\ienumtunerequests_next.htm
 old-project: mstv
 ms.assetid: fb846bdb-f0ce-44f7-8d15-608c21e095c1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumTuneRequests interface [Microsoft TV Technologies],Next method, IEnumTuneRequests.Next, IEnumTuneRequests::Next, IEnumTuneRequestsNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumTuneRequests interface, bdatif/IEnumTuneRequests::Next, mstv.ienumtunerequests_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

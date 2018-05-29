@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertCreateSelfSignCertificate
 title: CertCreateSelfSignCertificate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Builds a self-signed certificate and returns a pointer to a CERT_CONTEXT structure that represents the certificate.
 old-location: security\certcreateselfsigncertificate.htm
 old-project: SecCrypto
 ms.assetid: 89028c4e-f896-4c50-9fa2-bcb4e1784244
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CERT_CREATE_SELFSIGN_NO_KEY_INFO, CERT_CREATE_SELFSIGN_NO_SIGN, CertCreateSelfSignCertificate, CertCreateSelfSignCertificate function [Security], _crypto2_certcreateselfsigncertificate, security.certcreateselfsigncertificate, wincrypt/CertCreateSelfSignCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

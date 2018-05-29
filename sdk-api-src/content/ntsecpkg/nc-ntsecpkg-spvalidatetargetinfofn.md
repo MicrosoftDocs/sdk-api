@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpValidateTargetInfoFn
 title: SpValidateTargetInfoFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Validates that the specified SECPKG_TARGETINFO structure represents a valid target.
 old-location: security\spvalidatetargetinfofn.htm
 old-project: SecAuthN
 ms.assetid: 01d1b74a-14d9-40cd-bcca-a031f5fc9cbb
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SpValidateTargetInfoFn, SpValidateTargetInfoFn function [Security], ntsecpkg/SpValidateTargetInfoFn, security.spvalidatetargetinfofn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

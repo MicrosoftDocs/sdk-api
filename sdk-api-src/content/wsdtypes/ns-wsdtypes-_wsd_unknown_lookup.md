@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_UNKNOWN_LOOKUP
 title: "_WSD_UNKNOWN_LOOKUP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an XML element that could not be parsed.
 old-location: ncd\wsd_unknown_lookup.htm
 old-project: WsdApi
 ms.assetid: 7711f7d7-0d3c-419c-a02b-2e75ce550d24
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_UNKNOWN_LOOKUP, WSD_UNKNOWN_LOOKUP structure, _WSD_UNKNOWN_LOOKUP, ncd.wsd_unknown_lookup, wsdtypes/WSD_UNKNOWN_LOOKUP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

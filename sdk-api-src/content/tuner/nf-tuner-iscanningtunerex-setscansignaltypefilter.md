@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IScanningTunerEx.SetScanSignalTypeFilter
 title: IScanningTunerEx::SetScanSignalTypeFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_setscansignaltypefilter.htm
 old-project: mstv
 ms.assetid: 223a904a-1f15-4010-b25f-8551c1e9fc25
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IScanningTunerEx interface [Microsoft TV Technologies],SetScanSignalTypeFilter method, IScanningTunerEx.SetScanSignalTypeFilter, IScanningTunerEx::SetScanSignalTypeFilter, IScanningTunerExSetScanSignalTypeFilter, SetScanSignalTypeFilter, SetScanSignalTypeFilter method [Microsoft TV Technologies], SetScanSignalTypeFilter method [Microsoft TV Technologies],IScanningTunerEx interface, mstv.iscanningtunerex_setscansignaltypefilter, tuner/IScanningTunerEx::SetScanSignalTypeFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

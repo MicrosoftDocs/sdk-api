@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SetInfoTip
 title: ListView_SetInfoTip macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets tooltip text. You can use this macro or send the LVM_SETINFOTIP message explicitly.
 old-location: controls\ListView_SetInfoTip.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setinfotip.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_SetInfoTip, ListView_SetInfoTip macro [Windows Controls], _win32_ListView_SetInfoTip, _win32_ListView_SetInfoTip_cpp, commctrl/ListView_SetInfoTip, controls.ListView_SetInfoTip, controls._win32_ListView_SetInfoTip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

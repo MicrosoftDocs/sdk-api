@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.GetAtEndOfPayload
 title: IMFHttpDownloadRequest::GetAtEndOfPayload
-author: windows-driver-content
+author: windows-sdk-content
 description: Invoked by Microsoft Media Foundation to check if it should invoke BeginReadPayload to read data from the message body of the response.
 old-location: mf\imfhttpdownloadrequest_getatendofpayload.htm
 old-project: medfound
 ms.assetid: 2F2D65BA-4719-4633-9B2D-2CAF88F4E3DD
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetAtEndOfPayload, GetAtEndOfPayload method [Media Foundation], GetAtEndOfPayload method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetAtEndOfPayload method, IMFHttpDownloadRequest.GetAtEndOfPayload, IMFHttpDownloadRequest::GetAtEndOfPayload, mf.imfhttpdownloadrequest_getatendofpayload, mfidl/IMFHttpDownloadRequest::GetAtEndOfPayload
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

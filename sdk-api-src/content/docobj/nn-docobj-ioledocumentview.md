@@ -1,16 +1,16 @@
 ---
 UID: NN:docobj.IOleDocumentView
 title: IOleDocumentView
-author: windows-driver-content
+author: windows-sdk-content
 description: The IOleDocumentView interface enables a container to communicate with each view supported by a document object.
 old-location: com\ioledocumentview.htm
 old-project: com
 ms.assetid: 07948c08-f047-4ae0-a41b-5410b4bbf4d6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleDocumentView, IOleDocumentView interface [COM], IOleDocumentView interface [COM],described, _ole_ioledocumentview, com.ioledocumentview, docobj/IOleDocumentView
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: docobj.h
 req.include-header: 

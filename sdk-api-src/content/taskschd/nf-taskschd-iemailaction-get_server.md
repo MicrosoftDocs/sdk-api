@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IEmailAction.get_Server
 title: IEmailAction::get_Server
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the name of the SMTP server that you use to send email from.
 old-location: taskschd\iemailaction_server.htm
 old-project: TaskSchd
 ms.assetid: c781f189-f27b-4f37-af53-144e1ae8cb75
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IEmailAction interface [Task Scheduler],Server property, IEmailAction.Server, IEmailAction.get_Server, IEmailAction::Server, IEmailAction::get_Server, IEmailAction::put_Server, Server property [Task Scheduler], Server property [Task Scheduler],IEmailAction interface, get_Server, taskschd.iemailaction_server, taskschd/IEmailAction::Server, taskschd/IEmailAction::get_Server, taskschd/IEmailAction::put_Server
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

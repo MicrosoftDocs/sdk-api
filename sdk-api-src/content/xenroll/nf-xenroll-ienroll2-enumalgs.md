@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll2.EnumAlgs
 title: IEnroll2::EnumAlgs
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IDs of cryptographic algorithms in a given algorithm class that are supported by the current cryptographic service provider (CSP).
 old-location: security\ienroll4_enumalgs.htm
 old-project: SecCrypto
 ms.assetid: a40d85d0-fd02-4e0a-af7d-dfefe02f4e2a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: EnumAlgs, EnumAlgs method [Security], EnumAlgs method [Security],IEnroll2 interface, IEnroll2 interface [Security],EnumAlgs method, IEnroll2.EnumAlgs, IEnroll2::EnumAlgs, security.ienroll4_enumalgs, xenroll/IEnroll2::EnumAlgs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

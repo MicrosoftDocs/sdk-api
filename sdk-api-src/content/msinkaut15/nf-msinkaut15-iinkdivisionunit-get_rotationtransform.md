@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut15.IInkDivisionUnit.get_RotationTransform
 title: IInkDivisionUnit::get_RotationTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the transformation matrix that the IInkDivisionUnit object uses to rotate the strokes to horizontal.
 old-location: tablet\iinkdivisionunit_rotationtransform.htm
 old-project: tablet
 ms.assetid: 2c1c0b5e-2f39-4901-a8c7-96dd65ced5c8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 2c1c0b5e-2f39-4901-a8c7-96dd65ced5c8, IInkDivisionUnit interface [Tablet PC],RotationTransform property, IInkDivisionUnit.RotationTransform, IInkDivisionUnit.get_RotationTransform, IInkDivisionUnit::RotationTransform, IInkDivisionUnit::get_RotationTransform, RotationTransform property [Tablet PC], RotationTransform property [Tablet PC],IInkDivisionUnit interface, get_RotationTransform, msinkaut15/IInkDivisionUnit::RotationTransform, msinkaut15/IInkDivisionUnit::get_RotationTransform, tablet.iinkdivisionunit_rotationtransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut15.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:eapmethodauthenticatorapis._EAP_AUTHENTICATOR_METHOD_ROUTINES
 title: "_EAP_AUTHENTICATOR_METHOD_ROUTINES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a set of function pointers to the EAPHost Authenticator Method APIs.
 old-location: eaphost\eap_authenticator_method_routines.htm
 old-project: EAPHost
 ms.assetid: 8ec96ee2-678a-45c0-bfeb-c460ee863620
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PEAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES, EAP_AUTHENTICATOR_METHOD_ROUTINES structure [EAPHost], _EAP_AUTHENTICATOR_METHOD_ROUTINES, eaphost.eap_authenticator_method_routines, eapmethodauthenticatorapis/EAP_AUTHENTICATOR_METHOD_ROUTINES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 

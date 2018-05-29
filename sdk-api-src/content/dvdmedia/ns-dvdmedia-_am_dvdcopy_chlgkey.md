@@ -1,16 +1,16 @@
 ---
 UID: NS:dvdmedia._AM_DVDCOPY_CHLGKEY
 title: "_AM_DVDCOPY_CHLGKEY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the DVD challenge key.
 old-location: dshow\am_dvdcopy_chlgkey.htm
 old-project: DirectShow
 ms.assetid: da129f9c-fe30-42f7-b7ca-dfb352b1810d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PAM_DVDCOPY_CHLGKEY, AM_DVDCOPY_CHLGKEY, AM_DVDCOPY_CHLGKEY structure [DirectShow], PAM_DVDCOPY_CHLGKEY, PAM_DVDCOPY_CHLGKEY structure pointer [DirectShow], _AM_DVDCOPY_CHLGKEY, dshow.am_dvdcopy_chlgkey, dvdmedia/AM_DVDCOPY_CHLGKEY, dvdmedia/PAM_DVDCOPY_CHLGKEY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

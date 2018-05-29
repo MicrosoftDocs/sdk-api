@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDropTargetPattern.get_CachedDropTargetEffects
 title: IUIAutomationDropTargetPattern::get_CachedDropTargetEffects
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a cached array of localized strings that enumerate the full set of effects that can happen when the user drops a grabbed element on this drop target as part of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdroptargetpattern_cacheddroptargeteffects.htm
 old-project: WinAuto
 ms.assetid: 6F61F13B-0E5B-449D-A237-FF494B730392
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedDropTargetEffects property [Windows Accessibility], CachedDropTargetEffects property [Windows Accessibility],IUIAutomationDropTargetPattern interface, IUIAutomationDropTargetPattern interface [Windows Accessibility],CachedDropTargetEffects property, IUIAutomationDropTargetPattern.CachedDropTargetEffects, IUIAutomationDropTargetPattern.get_CachedDropTargetEffects, IUIAutomationDropTargetPattern::CachedDropTargetEffects, IUIAutomationDropTargetPattern::get_CachedDropTargetEffects, get_CachedDropTargetEffects, uiautomationclient/IUIAutomationDropTargetPattern::CachedDropTargetEffects, uiautomationclient/IUIAutomationDropTargetPattern::get_CachedDropTargetEffects, winauto.uiauto_iuiautomationdroptargetpattern_cacheddroptargeteffects
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

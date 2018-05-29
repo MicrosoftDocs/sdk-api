@@ -1,16 +1,16 @@
 ---
 UID: NC:winfax.PFAXACCESSCHECK
 title: PFAXACCESSCHECK
-author: windows-driver-content
+author: windows-sdk-content
 description: A fax client application calls the FaxAccessCheck function to query the fax access privileges of a user.
 old-location: fax\_mfax_faxaccesscheck.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_76i3.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxAccessCheckA, FaxAccessCheckW, PFAXACCESSCHECK, PFAXACCESSCHECK callback, PFAXACCESSCHECK callback function [Fax Service], _mfax_faxaccesscheck, fax._mfax_faxaccesscheck, winfax/FaxAccessCheckA, winfax/FaxAccessCheckW, winfax/PFAXACCESSCHECK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winfax.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0013_0001
 title: "__MIDL___MIDL_itf_vmr9_0000_0013_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: The VMR9DeinterlacePrefs enumeration type describes the deinterlacing method that the Video Mixing Renderer Filter 9 (VMR-9) uses if the method set by the application cannot be used.
 old-location: dshow\vmr9deinterlaceprefs.htm
 old-project: DirectShow
 ms.assetid: 1e5f5749-bdf9-4220-9867-ba6899797850
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DeinterlacePref9_BOB, DeinterlacePref9_Mask, DeinterlacePref9_NextBest, DeinterlacePref9_Weave, VMR9DeinterlacePrefs, VMR9DeinterlacePrefs , VMR9DeinterlacePrefs enumeration [DirectShow], VMR9DeinterlacePrefsEnumeration, __MIDL___MIDL_itf_vmr9_0000_0013_0001, dshow.vmr9deinterlaceprefs, vmr9/DeinterlacePref9_BOB, vmr9/DeinterlacePref9_Mask, vmr9/DeinterlacePref9_NextBest, vmr9/DeinterlacePref9_Weave, vmr9/VMR9DeinterlacePrefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: vmr9.h
 req.include-header: 

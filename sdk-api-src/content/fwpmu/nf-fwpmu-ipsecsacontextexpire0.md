@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IPsecSaContextExpire0
 title: IPsecSaContextExpire0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that an IPsec security association (SA) context should be expired.
 old-location: fwp\ipsecsacontextexpire0.htm
 old-project: FWP
 ms.assetid: 7e249e61-ba40-4dd9-b675-c3c86e8dd1bf
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPsecSaContextExpire0, IPsecSaContextExpire0 function [Filtering], fwp.ipsecsacontextexpire0, fwpmu/IPsecSaContextExpire0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

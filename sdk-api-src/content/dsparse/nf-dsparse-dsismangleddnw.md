@@ -1,16 +1,16 @@
 ---
 UID: NF:dsparse.DsIsMangledDnW
 title: DsIsMangledDnW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DsIsMangledDn function determines if the first relative distinguished name (RDN) in a distinguished name (DN) is a mangled name of a given type.
 old-location: ad\dsismangleddn.htm
 old-project: AD
 ms.assetid: e4aaa83c-3bd6-48db-9d34-367b76ba629c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsIsMangledDn, DsIsMangledDn function [Active Directory], DsIsMangledDnA, DsIsMangledDnW, _glines_dsismangleddn, ad.dsismangleddn, dsparse/DsIsMangledDn, dsparse/DsIsMangledDnA, dsparse/DsIsMangledDnW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dsparse.h
 req.include-header: Ntdsapi.h

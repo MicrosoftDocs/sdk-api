@@ -1,16 +1,16 @@
 ---
 UID: NE:wlanapi._WLAN_HOSTED_NETWORK_STATE
 title: "_WLAN_HOSTED_NETWORK_STATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the possible values for the network state of the wireless Hosted Network.
 old-location: nwifi\wlan_hosted_network_state.htm
 old-project: NativeWiFi
 ms.assetid: 4c845df3-6bc8-4e09-ac01-6c9180d43b16
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: "*PWLAN_HOSTED_NETWORK_STATE, PWLAN_HOSTED_NETWORK_STATE, PWLAN_HOSTED_NETWORK_STATE enumeration [NativeWIFI], WLAN_HOSTED_NETWORK_STATE, WLAN_HOSTED_NETWORK_STATE enumeration [NativeWIFI], _WLAN_HOSTED_NETWORK_STATE, nwifi.wlan_hosted_network_state, wlan_hosted_network_active, wlan_hosted_network_idle, wlan_hosted_network_unavailable, wlanapi/PWLAN_HOSTED_NETWORK_STATE, wlanapi/WLAN_HOSTED_NETWORK_STATE, wlanapi/wlan_hosted_network_active, wlanapi/wlan_hosted_network_idle, wlanapi/wlan_hosted_network_unavailable"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

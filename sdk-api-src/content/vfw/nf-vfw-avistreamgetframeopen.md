@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamGetFrameOpen
 title: AVIStreamGetFrameOpen function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamGetFrameOpen function prepares to decompress video frames from the specified video stream.
 old-location: multimedia\avistreamgetframeopen.htm
 old-project: Multimedia
 ms.assetid: 467560b2-f79f-49ab-b019-d6315f0c2030
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamGetFrameOpen, AVIStreamGetFrameOpen function [Windows Multimedia], _win32_AVIStreamGetFrameOpen, multimedia.avistreamgetframeopen, vfw/AVIStreamGetFrameOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:http._HTTP_QOS_SETTING_TYPE
 title: "_HTTP_QOS_SETTING_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the type of a QOS setting contained in a HTTP_QOS_SETTING_INFO structure.
 old-location: http\http_qos_setting_type.htm
 old-project: Http
 ms.assetid: d1593670-9f5c-48a9-93d9-d5ff744cfc8b
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_QOS_SETTING_TYPE, *PHTTP_QOS_SETTING_TYPE enumeration [HTTP], HTTP_QOS_SETTING_TYPE, HTTP_QOS_SETTING_TYPE enumeration [HTTP], HttpQosSettingTypeBandwidth, HttpQosSettingTypeConnectionLimit, HttpQosSettingTypeFlowRate, _HTTP_QOS_SETTING_TYPE, http.http_qos_setting_type, http/*PHTTP_QOS_SETTING_TYPE, http/HTTP_QOS_SETTING_TYPE, http/HttpQosSettingTypeBandwidth, http/HttpQosSettingTypeConnectionLimit, http/HttpQosSettingTypeFlowRate"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 

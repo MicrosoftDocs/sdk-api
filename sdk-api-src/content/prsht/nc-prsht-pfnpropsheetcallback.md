@@ -1,16 +1,16 @@
 ---
 UID: NC:prsht.PFNPROPSHEETCALLBACK
 title: PFNPROPSHEETCALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function that the system calls when the property sheet is being created and initialized.
 old-location: controls\PropSheetProc.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propsheetproc.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PFNPROPSHEETCALLBACK, PSCB_BUTTONPRESSED, PSCB_INITIALIZED, PSCB_PRECREATE, PropSheetProc, PropSheetProc callback, PropSheetProc callback function [Windows Controls], _win32_PropSheetProc, _win32_PropSheetProc_cpp, controls.PropSheetProc, controls._win32_PropSheetProc, prsht/PFNPROPSHEETCALLBACK, prsht/PropSheetProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: prsht.h
 req.include-header: 

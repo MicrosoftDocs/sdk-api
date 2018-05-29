@@ -1,16 +1,16 @@
 ---
 UID: NE:interactioncontext.INTERACTION_STATE
 title: INTERACTION_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the state of the Interaction Context object.
 old-location: input_intcontext\interaction_state.htm
 old-project: Input_IntContext
 ms.assetid: ab44d530-da26-4b40-99d8-f75dd32c3182
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: INTERACTION_STATE, INTERACTION_STATE enumeration, INTERACTION_STATE_IDLE, INTERACTION_STATE_IN_INTERACTION, INTERACTION_STATE_MAX, INTERACTION_STATE_POSSIBLE_DOUBLE_TAP, input_intcontext.interaction_state, interactioncontext.interaction_state, interactioncontext/INTERACTION_STATE, interactioncontext/INTERACTION_STATE_IDLE, interactioncontext/INTERACTION_STATE_IN_INTERACTION, interactioncontext/INTERACTION_STATE_MAX, interactioncontext/INTERACTION_STATE_POSSIBLE_DOUBLE_TAP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: interactioncontext.h
 req.include-header: 

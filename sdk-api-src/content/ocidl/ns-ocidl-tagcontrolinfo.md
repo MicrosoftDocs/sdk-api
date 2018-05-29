@@ -1,16 +1,16 @@
 ---
 UID: NS:ocidl.tagCONTROLINFO
 title: tagCONTROLINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains parameters that describe a control's keyboard mnemonics and keyboard behavior. The structure is populated during the IOleControl::GetControlInfo method.
 old-location: com\controlinfo.htm
 old-project: com
 ms.assetid: 3f22dc1d-554a-4dd1-a79a-121117f65caf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPCONTROLINFO, CONTROLINFO, CONTROLINFO structure [COM], LPCONTROLINFO, LPCONTROLINFO structure pointer [COM], _ctrl_CONTROLINFO, com.controlinfo, ocidl/CONTROLINFO, ocidl/LPCONTROLINFO, tagCONTROLINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

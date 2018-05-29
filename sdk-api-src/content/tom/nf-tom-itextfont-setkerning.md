@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont.SetKerning
 title: ITextFont::SetKerning
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the minimum font size at which kerning occurs.
 old-location: controls\ITextFont_SetKerning.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setkerning.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextFont interface [Windows Controls],SetKerning method, ITextFont.SetKerning, ITextFont::SetKerning, SetKerning, SetKerning method [Windows Controls], SetKerning method [Windows Controls],ITextFont interface, _win32_ITextFont_SetKerning, _win32_ITextFont_SetKerning_cpp, controls.ITextFont_SetKerning, controls._win32_ITextFont_SetKerning, tom/ITextFont::SetKerning
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

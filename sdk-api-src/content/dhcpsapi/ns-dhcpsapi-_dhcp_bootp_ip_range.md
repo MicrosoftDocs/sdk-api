@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_BOOTP_IP_RANGE
 title: "_DHCP_BOOTP_IP_RANGE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCP_BOOTP_IP_RANGE structure defines a suite of IPs for lease to BOOTP-specific clients.
 old-location: dhcp\dhcp_bootp_ip_range.htm
 old-project: DHCP
 ms.assetid: 23268029-0b49-4fd4-8410-4bac6c8ad151
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_BOOT_IP_RANGE, DHCP_BOOTP_IP_RANGE, DHCP_BOOTP_IP_RANGE structure [DHCP], LPDHCP_BOOT_IP_RANGE, LPDHCP_BOOT_IP_RANGE structure pointer [DHCP], _DHCP_BOOTP_IP_RANGE, dhcp.dhcp_bootp_ip_range, dhcpsapi/LPDHCP_BOOT_IP_RANGE, dhcpsapi/_DHCP_BOOTP_IP_RANGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

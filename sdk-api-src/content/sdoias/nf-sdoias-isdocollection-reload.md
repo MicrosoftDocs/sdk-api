@@ -1,16 +1,16 @@
 ---
 UID: NF:sdoias.ISdoCollection.Reload
 title: ISdoCollection::Reload
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reload method reloads all the objects in the collection from the underlying datastore.
 old-location: nps\SDO_isdocollection_reload.htm
 old-project: Nps
 ms.assetid: 9bf216a0-2d65-4242-97bc-f4b690e92d55
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],Reload method, ISdoCollection.Reload, ISdoCollection::Reload, Reload, Reload method [Network Policy Server], Reload method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_reload, nps.SDO_isdocollection_reload, sdo.isdocollection_reload, sdoias/ISdoCollection::Reload
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 

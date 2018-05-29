@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.RollbackToChangePoint
 title: IFileSystemImage::RollbackToChangePoint
-author: windows-driver-content
+author: windows-sdk-content
 description: Reverts the image back to the specified change point.
 old-location: imapi\ifilesystemimage_rollbacktochangepoint.htm
 old-project: imapi
 ms.assetid: 852b88ed-6af7-4fe6-bf5f-831d55423130
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFileSystemImage interface [IMAPI],RollbackToChangePoint method, IFileSystemImage.RollbackToChangePoint, IFileSystemImage::RollbackToChangePoint, RollbackToChangePoint, RollbackToChangePoint method [IMAPI], RollbackToChangePoint method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_rollbacktochangepoint, imapi2fs/IFileSystemImage::RollbackToChangePoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

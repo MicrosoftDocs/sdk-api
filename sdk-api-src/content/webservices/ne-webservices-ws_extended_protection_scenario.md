@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_EXTENDED_PROTECTION_SCENARIO
 title: WS_EXTENDED_PROTECTION_SCENARIO
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines how Extended Protection is validated.
 old-location: wsw\ws_extended_protection_scenario.htm
 old-project: wsw
 ms.assetid: bd4a41aa-10bc-445c-9664-49f284881bf8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_EXTENDED_PROTECTION_SCENARIO, WS_EXTENDED_PROTECTION_SCENARIO enumeration [Web Services for Windows], WS_EXTENDED_PROTECTION_SCENARIO_BOUND_SERVER, WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL, webservices/WS_EXTENDED_PROTECTION_SCENARIO, webservices/WS_EXTENDED_PROTECTION_SCENARIO_BOUND_SERVER, webservices/WS_EXTENDED_PROTECTION_SCENARIO_TERMINATED_SSL, wsw.ws_extended_protection_scenario
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

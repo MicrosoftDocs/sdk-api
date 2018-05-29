@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplicationFilter.get_Applications
 title: IRDPSRAPIApplicationFilter::get_Applications
-author: windows-driver-content
+author: windows-sdk-content
 description: The list of sharable applications.
 old-location: rdp\irdpsrapiapplicationfilter_applications.htm
 old-project: Rdp
 ms.assetid: 08704192-320d-44f2-a811-f8565285bd30
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: Applications property [RDP], Applications property [RDP],IRDPSRAPIApplicationFilter interface, Applications property [RDP],RDPSRAPIApplicationFilter object, IRDPSRAPIApplicationFilter interface [RDP],Applications property, IRDPSRAPIApplicationFilter.Applications, IRDPSRAPIApplicationFilter.get_Applications, IRDPSRAPIApplicationFilter::Applications, IRDPSRAPIApplicationFilter::get_Applications, RDPSRAPIApplicationFilter object [RDP],Applications property, get_Applications, rdp.irdpsrapiapplicationfilter_applications, rdpencomapi/IRDPSRAPIApplicationFilter::Applications, rdpencomapi/IRDPSRAPIApplicationFilter::get_Applications
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

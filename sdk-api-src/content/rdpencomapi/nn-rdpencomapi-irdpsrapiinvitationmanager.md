@@ -1,16 +1,16 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIInvitationManager
 title: IRDPSRAPIInvitationManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages invitation objects.
 old-location: rdp\irdpsrapiinvitationmanager.htm
 old-project: Rdp
 ms.assetid: 300940ef-e8a6-4dd9-a078-d4325e20ae91
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIInvitationManager, IRDPSRAPIInvitationManager interface [RDP], IRDPSRAPIInvitationManager interface [RDP],described, rdp.irdpsrapiinvitationmanager, rdpencomapi/IRDPSRAPIInvitationManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.Header_GetItemCount
 title: Header_GetItemCount macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a count of the items in a header control. You can use this macro or send the HDM_GETITEMCOUNT message explicitly.
 old-location: controls\Header_GetItemCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getitemcount.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Header_GetItemCount, Header_GetItemCount macro [Windows Controls], _win32_Header_GetItemCount, _win32_Header_GetItemCount_cpp, commctrl/Header_GetItemCount, controls.Header_GetItemCount, controls._win32_Header_GetItemCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

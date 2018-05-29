@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMTTDISPINFOA
 title: tagNMTTDISPINFOA
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used in handling the TTN_GETDISPINFO notification code. This structure supersedes the TOOLTIPTEXT structure.
 old-location: controls\NMTTDISPINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\tooltiptext.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMTTDISPINFOA, LPNMTTDISPINFO, LPNMTTDISPINFO structure pointer [Windows Controls], NMTTDISPINFO, NMTTDISPINFO structure [Windows Controls], NMTTDISPINFOA, NMTTDISPINFOW, TTF_DI_SETITEM, TTF_IDISHWND, TTF_RTLREADING, _win32_NMTTDISPINFO, _win32_NMTTDISPINFO_cpp, commctrl/LPNMTTDISPINFO, commctrl/NMTTDISPINFO, commctrl/NMTTDISPINFOA, commctrl/NMTTDISPINFOW, controls.NMTTDISPINFO, controls._win32_NMTTDISPINFO, tagNMTTDISPINFOA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

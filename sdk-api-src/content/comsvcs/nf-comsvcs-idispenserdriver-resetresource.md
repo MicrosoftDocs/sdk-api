@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IDispenserDriver.ResetResource
 title: IDispenserDriver::ResetResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Prepares the resource to be put back into general or enlisted inventory.
 old-location: cos\idispenserdriver_resetresource.htm
 old-project: cossdk
 ms.assetid: 59df0703-90ea-480c-8608-7d43039b48ba
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDispenserDriver interface [COM+],ResetResource method, IDispenserDriver.ResetResource, IDispenserDriver::ResetResource, ResetResource, ResetResource method [COM+], ResetResource method [COM+],IDispenserDriver interface, _dtc_IDispenserDriver_ResetResource, comsvcs/IDispenserDriver::ResetResource, cos.idispenserdriver_resetresource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

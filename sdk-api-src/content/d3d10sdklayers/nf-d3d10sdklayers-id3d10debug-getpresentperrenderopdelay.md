@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10Debug.GetPresentPerRenderOpDelay
 title: ID3D10Debug::GetPresentPerRenderOpDelay
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the number of milliseconds to sleep after Present is called.
 old-location: direct3d10\id3d10debug_getpresentperrenderopdelay.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10debug_getpresentperrenderopdelay.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 089e85a9-c0e8-518c-4ced-8dfac65c1761, GetPresentPerRenderOpDelay, GetPresentPerRenderOpDelay method [Direct3D 10], GetPresentPerRenderOpDelay method [Direct3D 10],ID3D10Debug interface, ID3D10Debug interface [Direct3D 10],GetPresentPerRenderOpDelay method, ID3D10Debug.GetPresentPerRenderOpDelay, ID3D10Debug::GetPresentPerRenderOpDelay, d3d10sdklayers/ID3D10Debug::GetPresentPerRenderOpDelay, direct3d10.id3d10debug_getpresentperrenderopdelay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10sdklayers.h
 req.include-header: 

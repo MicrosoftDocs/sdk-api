@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi.IDXGIResource.GetUsage
 title: IDXGIResource::GetUsage
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the expected resource usage.
 old-location: direct3ddxgi\idxgiresource_getusage.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource_getusage.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: 1fc82eef-f409-1d78-ab65-dd0124809d16, GetUsage, GetUsage method [DXGI], GetUsage method [DXGI],IDXGIResource interface, IDXGIResource interface [DXGI],GetUsage method, IDXGIResource.GetUsage, IDXGIResource::GetUsage, direct3ddxgi.idxgiresource_getusage, dxgi/IDXGIResource::GetUsage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

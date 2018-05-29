@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupWriteTextLogInfLine
 title: SetupWriteTextLogInfLine function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupWriteTextLogInfLine function writes a log entry in a SetupAPI text log that contains the text of a specified INF file line.
 old-location: devinst\setupwritetextloginfline.htm
 old-project: devinst
 ms.assetid: 79386854-8b6b-4836-b8f3-d70657f6162c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupWriteTextLogInfLine, SetupWriteTextLogInfLine function [Device and Driver Installation], devinst.setupwritetextloginfline, setupapi/SetupWriteTextLogInfLine, setupapilog-ref_f6f9d000-dcfd-4dda-8a2c-bac81274a836.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

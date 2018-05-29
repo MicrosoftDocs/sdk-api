@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._SYSTEM_AUDIT_CALLBACK_ACE
 title: "_SYSTEM_AUDIT_CALLBACK_ACE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SYSTEM_AUDIT_CALLBACK_ACE structure defines an access control entry for the system access control list that specifies what types of access cause system-level notifications.
 old-location: security\system_audit_callback_ace.htm
 old-project: SecAuthZ
 ms.assetid: 4d1799b0-3e55-48d7-94ff-c0094945adea
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PSYSTEM_AUDIT_CALLBACK_ACE, PACCESS_AUDIT_CALLBACK_ACE, PACCESS_AUDIT_CALLBACK_ACE structure pointer [Security], SYSTEM_AUDIT_CALLBACK_ACE, SYSTEM_AUDIT_CALLBACK_ACE structure [Security], _SYSTEM_AUDIT_CALLBACK_ACE, security.system_audit_callback_ace, winnt/PACCESS_AUDIT_CALLBACK_ACE, winnt/SYSTEM_AUDIT_CALLBACK_ACE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

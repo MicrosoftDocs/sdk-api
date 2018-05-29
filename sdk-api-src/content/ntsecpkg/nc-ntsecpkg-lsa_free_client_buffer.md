@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_FREE_CLIENT_BUFFER
 title: LSA_FREE_CLIENT_BUFFER
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a client buffer previously allocated with the AllocateClientBuffer function.
 old-location: security\freeclientbuffer.htm
 old-project: SecAuthN
 ms.assetid: c3a92039-7fb1-49e9-8e7a-0c902770543e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: FreeClientBuffer, FreeClientBuffer function [Security], LSA_FREE_CLIENT_BUFFER, _lsa_freeclientbuffer, ntsecpkg/FreeClientBuffer, security.freeclientbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

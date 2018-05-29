@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITDetectTone.get_AppSpecific
 title: ITDetectTone::get_AppSpecific
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_AppSpecific method retrieves the application-defined tag that identifies the tone to detect.
 old-location: tapi3\itdetecttone_get_appspecific.htm
 old-project: Tapi
 ms.assetid: a3ffba50-664d-42d2-87b2-fe6943715e85
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITDetectTone interface [TAPI 2.2],get_AppSpecific method, ITDetectTone.get_AppSpecific, ITDetectTone::get_AppSpecific, _tapi3_itdetecttone_get_appspecific, get_AppSpecific, get_AppSpecific method [TAPI 2.2], get_AppSpecific method [TAPI 2.2],ITDetectTone interface, tapi3.itdetecttone_get_appspecific, tapi3if/ITDetectTone::get_AppSpecific
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

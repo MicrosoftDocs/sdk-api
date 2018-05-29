@@ -1,16 +1,16 @@
 ---
 UID: NF:snmp.SnmpUtilOctetsFree
 title: SnmpUtilOctetsFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SnmpUtilOctetsFree function frees the memory allocated for the specified octet string. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputiloctetsfree.htm
 old-project: SNMP
 ms.assetid: be101ab3-393c-4b1a-882d-0284715d1da4
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpUtilOctetsFree, SnmpUtilOctetsFree function [SNMP], _snmp_snmputiloctetsfree, snmp.snmputiloctetsfree, snmp/SnmpUtilOctetsFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

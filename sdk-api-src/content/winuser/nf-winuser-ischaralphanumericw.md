@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.IsCharAlphaNumericW
 title: IsCharAlphaNumericW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a character is either an alphabetical or a numeric character. This determination is based on the semantics of the language selected by the user during setup or through Control Panel.
 old-location: menurc\ischaralphanumeric.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\ischaralphanumeric.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IsCharAlphaNumeric, IsCharAlphaNumeric function [Menus and Other Resources], IsCharAlphaNumericA, IsCharAlphaNumericW, _win32_IsCharAlphaNumeric, _win32_ischaralphanumeric_cpp, menurc.ischaralphanumeric, winui._win32_ischaralphanumeric, winuser/IsCharAlphaNumeric, winuser/IsCharAlphaNumericA, winuser/IsCharAlphaNumericW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

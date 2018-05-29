@@ -1,16 +1,16 @@
 ---
 UID: NS:stm._IPX_SERVICE
 title: "_IPX_SERVICE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The IPX_SERVICE structure contains information about an IPX service, and identifies the interface and protocol through which this information was obtained.
 old-location: rras\ipx_service.htm
 old-project: RRAS
 ms.assetid: 37da1071-b665-405c-a4ce-f1a484aeb19b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PIPX_SERVICE, IPX_SERVICE, IPX_SERVICE structure [RAS], PIPX_SERVICE, PIPX_SERVICE structure pointer [RAS], _IPX_SERVICE, _mpr_ipx_service, rras.ipx_service, stm/IPX_SERVICE, stm/PIPX_SERVICE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: stm.h
 req.include-header: 

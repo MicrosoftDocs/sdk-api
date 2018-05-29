@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateSmoothStopTransition
 title: IUIAnimationTransitionLibrary::CreateSmoothStopTransition
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a smooth-stop transition.
 old-location: uianimation\iuianimationtransitionlibrary_createsmoothstoptransition.htm
 old-project: UIAnimation
 ms.assetid: fce15425-5529-4ebf-9961-7e125cc64edb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateSmoothStopTransition, CreateSmoothStopTransition method [Windows Animation], CreateSmoothStopTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateSmoothStopTransition method, IUIAnimationTransitionLibrary.CreateSmoothStopTransition, IUIAnimationTransitionLibrary::CreateSmoothStopTransition, uianimation.iuianimationtransitionlibrary_createsmoothstoptransition, uianimation/IUIAnimationTransitionLibrary::CreateSmoothStopTransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

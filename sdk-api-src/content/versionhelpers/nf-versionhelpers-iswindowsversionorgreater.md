@@ -1,16 +1,16 @@
 ---
 UID: NF:versionhelpers.IsWindowsVersionOrGreater
 title: IsWindowsVersionOrGreater function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the provided version information.
 old-location: base\iswindowsversionorgreater.htm
 old-project: SysInfo
 ms.assetid: B28DFEC0-A94E-49F6-9DF0-4EE470EC4AF5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsWindowsVersionOrGreater, IsWindowsVersionOrGreater function, base.iswindowsversionorgreater, versionhelpers/IsWindowsVersionOrGreater
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: versionhelpers.h
 req.include-header: 

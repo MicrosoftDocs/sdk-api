@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoEndOfNumberTimeout
 title: ITAutomatedPhoneControl::put_AutoEndOfNumberTimeout
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_AutoEndOfNumberTimeout method sets the value of the AutoEndOfNumberTimeout property. The property specifies how long to wait after a digit has been pressed before it is assumed that the entire number has been gathered.
 old-location: tapi3\itautomatedphonecontrol_put_autoendofnumbertimeout.htm
 old-project: Tapi
 ms.assetid: 985466a4-212b-48fd-b901-5fd3cc37eb0e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoEndOfNumberTimeout method, ITAutomatedPhoneControl.put_AutoEndOfNumberTimeout, ITAutomatedPhoneControl::put_AutoEndOfNumberTimeout, _tapi3_itautomatedphonecontrol_put_autoendofnumbertimeout, put_AutoEndOfNumberTimeout, put_AutoEndOfNumberTimeout method [TAPI 2.2], put_AutoEndOfNumberTimeout method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autoendofnumbertimeout, tapi3if/ITAutomatedPhoneControl::put_AutoEndOfNumberTimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

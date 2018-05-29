@@ -1,16 +1,16 @@
 ---
 UID: NF:adshlp.ADsGetObject
 title: ADsGetObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Binds to an object given its path and a specified interface identifier.
 old-location: adsi\adsgetobject.htm
 old-project: ADSI
 ms.assetid: 595b2c7f-584c-4343-a75c-327d8ed4ceb1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADsGetObject, ADsGetObject function [ADSI], _ds_adsgetobject, adshlp/ADsGetObject, adsi.adsgetobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 

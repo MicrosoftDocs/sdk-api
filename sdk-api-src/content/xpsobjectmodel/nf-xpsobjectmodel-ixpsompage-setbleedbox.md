@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetBleedBox
 title: IXpsOMPage::SetBleedBox
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the dimensions of the page's bleed box.
 old-location: xps\ixpsompage_setbleedbox.htm
 old-project: printdocs
 ms.assetid: 947313e1-6c95-4751-997f-d5172acaa5d5
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetBleedBox method, IXpsOMPage.SetBleedBox, IXpsOMPage::SetBleedBox, SetBleedBox, SetBleedBox method [XPS Documents and Packaging], SetBleedBox method [XPS Documents and Packaging],IXpsOMPage interface, bleedBox.height, bleedBox.width, bleedBox.x, bleedBox.y, xps.ixpsompage_setbleedbox, xpsobjectmodel/IXpsOMPage::SetBleedBox
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

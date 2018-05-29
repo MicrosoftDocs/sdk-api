@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.IATSC_STT.GetTableDescriptorByTag
 title: IATSC_STT::GetTableDescriptorByTag
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_stt_gettabledescriptorbytag.htm
 old-project: mstv
 ms.assetid: e520dd8d-95f7-4b29-817c-14e3c663fdfc
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],IATSC_STT interface, IATSC_STT interface [Microsoft TV Technologies],GetTableDescriptorByTag method, IATSC_STT.GetTableDescriptorByTag, IATSC_STT::GetTableDescriptorByTag, IATSC_STTGetTableDescriptorByTag, atscpsipparser/IATSC_STT::GetTableDescriptorByTag, mstv.iatsc_stt_gettabledescriptorbytag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

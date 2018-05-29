@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagTRBTHUMBPOSCHANGING
 title: tagTRBTHUMBPOSCHANGING
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a trackbar change notification. This message is sent with the TRBN_THUMBPOSCHANGING notification.
 old-location: controls\NMTRBTHUMBPOSCHANGING.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\trackbar\structures\nmtrbthumbposchanging.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NMTRBTHUMBPOSCHANGING, NMTRBTHUMBPOSCHANGING structure [Windows Controls], _shell_NMTRBTHUMBPOSCHANGING, _shell_NMTRBTHUMBPOSCHANGING_cpp, commctrl/NMTRBTHUMBPOSCHANGING, controls.NMTRBTHUMBPOSCHANGING, controls._shell_NMTRBTHUMBPOSCHANGING, tagTRBTHUMBPOSCHANGING
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

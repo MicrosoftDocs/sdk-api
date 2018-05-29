@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_DOUBLES
 title: D3D11_FEATURE_DATA_DOUBLES
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes double data type support in the current graphics driver.
 old-location: direct3d11\d3d11_feature_data_doubles.htm
 old-project: direct3d11
 ms.assetid: 3cd4006b-25bd-46b8-9fa7-6b7d7eb82a75
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_FEATURE_DATA_DOUBLES, D3D11_FEATURE_DATA_DOUBLES structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_DOUBLES, dde276ab-cd61-a449-9965-674c9221da9c, direct3d11.d3d11_feature_data_doubles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

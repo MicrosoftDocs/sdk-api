@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.PopRetrievalFilter
 title: ID3D12InfoQueue::PopRetrievalFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Pop a retrieval filter from the top of the retrieval-filter stack.
 old-location: direct3d12\id3d12infoqueue_popretrievalfilter.htm
 old-project: direct3d12
 ms.assetid: 06C23F24-0FD0-4B48-8F21-1E68420B7E65
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12InfoQueue interface,PopRetrievalFilter method, ID3D12InfoQueue.PopRetrievalFilter, ID3D12InfoQueue::PopRetrievalFilter, PopRetrievalFilter, PopRetrievalFilter method, PopRetrievalFilter method,ID3D12InfoQueue interface, d3d12sdklayers/ID3D12InfoQueue::PopRetrievalFilter, direct3d12.id3d12infoqueue_popretrievalfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

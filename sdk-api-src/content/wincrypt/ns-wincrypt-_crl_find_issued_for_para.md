@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRL_FIND_ISSUED_FOR_PARA
 title: "_CRL_FIND_ISSUED_FOR_PARA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the certificate contexts of both a subject and a certificate issuer.
 old-location: security\crl_find_issued_for_para.htm
 old-project: SecCrypto
 ms.assetid: a5c04859-00bb-4b7d-a98c-5b17bf0fa38a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRL_FIND_ISSUED_FOR_PARA, CRL_FIND_ISSUED_FOR_PARA, CRL_FIND_ISSUED_FOR_PARA structure [Security], PCRL_FIND_ISSUED_FOR_PARA, PCRL_FIND_ISSUED_FOR_PARA structure pointer [Security], _CRL_FIND_ISSUED_FOR_PARA, _crypto2_crl_find_issued_for_para, security.crl_find_issued_for_para, wincrypt/CRL_FIND_ISSUED_FOR_PARA, wincrypt/PCRL_FIND_ISSUED_FOR_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

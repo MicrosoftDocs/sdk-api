@@ -1,16 +1,16 @@
 ---
 UID: NF:msacm.acmFilterTagEnumA
 title: acmFilterTagEnumA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The acmFilterTagEnum function enumerates waveform-audio filter tags available from an ACM driver. This function continues enumerating until there are no more suitable filter tags or the callback function returns FALSE.
 old-location: multimedia\acmfiltertagenum.htm
 old-project: Multimedia
 ms.assetid: eaec57c2-51b8-4842-ba78-f5726c2dc31d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_acmFilterTagEnum, acmFilterTagEnum, acmFilterTagEnum function [Windows Multimedia], acmFilterTagEnumA, acmFilterTagEnumW, msacm/acmFilterTagEnum, msacm/acmFilterTagEnumA, msacm/acmFilterTagEnumW, multimedia.acmfiltertagenum"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

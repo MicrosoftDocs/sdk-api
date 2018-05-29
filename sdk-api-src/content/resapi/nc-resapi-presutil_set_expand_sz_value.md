@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_SET_EXPAND_SZ_VALUE
 title: PRESUTIL_SET_EXPAND_SZ_VALUE
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets an expandable string value in the cluster database. The PRESUTIL_SET_EXPAND_SZ_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetexpandszvalue.htm
 old-project: MsCS
 ms.assetid: a2049be4-cebb-45bf-b2f7-40841e379b12
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_SET_EXPAND_SZ_VALUE, PRESUTIL_SET_EXPAND_SZ_VALUE callback, PRESUTIL_SET_EXPAND_SZ_VALUE callback function [Failover Cluster], _wolf_resutilsetexpandszvalue, mscs.resutilsetexpandszvalue, resapi/PRESUTIL_SET_EXPAND_SZ_VALUE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

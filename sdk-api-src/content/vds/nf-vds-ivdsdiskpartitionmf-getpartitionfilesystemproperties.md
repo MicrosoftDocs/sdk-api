@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsDiskPartitionMF.GetPartitionFileSystemProperties
 title: IVdsDiskPartitionMF::GetPartitionFileSystemProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns property details about the file system on a partition on the disk at a specified byte offset.
 old-location: base\ivdsdiskpartitionmf_getpartitionfilesystemproperties.htm
 old-project: VDS
 ms.assetid: 1b49ffba-00df-4d8f-a90f-5e26a5c898dd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetPartitionFileSystemProperties, GetPartitionFileSystemProperties method, GetPartitionFileSystemProperties method,IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,GetPartitionFileSystemProperties method, IVdsDiskPartitionMF.GetPartitionFileSystemProperties, IVdsDiskPartitionMF::GetPartitionFileSystemProperties, base.ivdsdiskpartitionmf_getpartitionfilesystemproperties, vds/IVdsDiskPartitionMF::GetPartitionFileSystemProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

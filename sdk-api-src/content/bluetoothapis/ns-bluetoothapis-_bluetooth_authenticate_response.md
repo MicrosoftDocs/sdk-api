@@ -1,16 +1,16 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_AUTHENTICATE_RESPONSE
 title: "_BLUETOOTH_AUTHENTICATE_RESPONSE"
-author: windows-driver-content
+author: windows-sdk-content
 description: BLUETOOTH_AUTHENTICATE_RESPONSE structure contains information passed in response to a BTH_REMOTE_AUTHENTICATE_REQUEST event.
 old-location: bluetooth\bluetooth_authenticate_response.htm
 old-project: Bluetooth
 ms.assetid: fc7eda84-3e7b-49e9-a1a6-e1759c894e1a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PBLUETOOTH_AUTHENTICATE_RESPONSE, BLUETOOTH_AUTHENTICATE_RESPONSE, BLUETOOTH_AUTHENTICATE_RESPONSE structure [Bluetooth], PBLUETOOTH_AUTHENTICATE_RESPONSE, PBLUETOOTH_AUTHENTICATE_RESPONSE structure pointer [Bluetooth], _BLUETOOTH_AUTHENTICATE_RESPONSE, bluetooth.bluetooth_authenticate_response, bluetoothapis/BLUETOOTH_AUTHENTICATE_RESPONSE, bluetoothapis/PBLUETOOTH_AUTHENTICATE_RESPONSE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

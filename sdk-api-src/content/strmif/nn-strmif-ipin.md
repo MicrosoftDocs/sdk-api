@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IPin
 title: IPin
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is exposed by all input and output pins.The filter graph manager uses this interface to connect pins and perform flushing operations.
 old-location: dshow\ipin.htm
 old-project: DirectShow
 ms.assetid: ad0ead4e-9f8e-4935-b220-306d665e50f4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IPin, IPin interface [DirectShow], IPin interface [DirectShow],described, IPinInterface, dshow.ipin, strmif/IPin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

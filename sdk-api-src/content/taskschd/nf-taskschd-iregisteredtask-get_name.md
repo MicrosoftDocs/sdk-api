@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_Name
 title: IRegisteredTask::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name of the registered task.
 old-location: taskschd\iregisteredtask_name.htm
 old-project: TaskSchd
 ms.assetid: 17aff717-10dd-43ac-9d14-6c07831d4c18
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Name property, IRegisteredTask.Name, IRegisteredTask.get_Name, IRegisteredTask::Name, IRegisteredTask::get_Name, Name property [Task Scheduler], Name property [Task Scheduler],IRegisteredTask interface, get_Name, taskschd.iregisteredtask_name, taskschd/IRegisteredTask::Name, taskschd/IRegisteredTask::get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

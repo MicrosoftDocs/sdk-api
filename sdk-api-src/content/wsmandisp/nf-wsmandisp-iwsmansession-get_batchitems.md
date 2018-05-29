@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManSession.get_BatchItems
 title: IWSManSession::get_BatchItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets and gets the number of items in each enumeration batch.
 old-location: winrm\iwsmansession_batchitems.htm
 old-project: WinRM
 ms.assetid: 883fc265-b84e-4757-a9b1-8c52174cb701
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: BatchItems property [Windows Remote Management], BatchItems property [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],BatchItems property, IWSManSession.BatchItems, IWSManSession.get_BatchItems, IWSManSession::BatchItems, IWSManSession::get_BatchItems, IWSManSession::put_BatchItems, get_BatchItems, winrm.iwsmansession_batchitems, wsmandisp/IWSManSession::BatchItems, wsmandisp/IWSManSession::get_BatchItems, wsmandisp/IWSManSession::put_BatchItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

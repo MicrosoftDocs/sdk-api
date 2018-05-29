@@ -1,16 +1,16 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_DEFERRED_SYMBOL_LOADW64
 title: "_IMAGEHLP_DEFERRED_SYMBOL_LOADW64"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a deferred symbol load.
 old-location: base\imagehlp_deferred_symbol_load64_str.htm
 old-project: Debug
 ms.assetid: 151c47dd-df4a-44c9-ad9f-1ffc80dd81e9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PIMAGEHLP_DEFERRED_SYMBOL_LOADW64, DSLFLAG_MISMATCHED_DBG, DSLFLAG_MISMATCHED_PDB, IMAGEHLP_DEFERRED_SYMBOL_LOAD, IMAGEHLP_DEFERRED_SYMBOL_LOAD structure, IMAGEHLP_DEFERRED_SYMBOL_LOAD64, IMAGEHLP_DEFERRED_SYMBOL_LOAD64 structure, IMAGEHLP_DEFERRED_SYMBOL_LOADW64, PIMAGEHLP_DEFERRED_SYMBOL_LOAD64, PIMAGEHLP_DEFERRED_SYMBOL_LOAD64 structure pointer, _IMAGEHLP_DEFERRED_SYMBOL_LOAD64, _IMAGEHLP_DEFERRED_SYMBOL_LOADW64, _win32_imagehlp_deferred_symbol_load64_str, base.imagehlp_deferred_symbol_load64_str, dbghelp/IMAGEHLP_DEFERRED_SYMBOL_LOAD64, dbghelp/IMAGEHLP_DEFERRED_SYMBOL_LOADW64, dbghelp/PIMAGEHLP_DEFERRED_SYMBOL_LOAD64"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 

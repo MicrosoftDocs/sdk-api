@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.SetIcon
 title: IShellLibrary::SetIcon
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the default icon for the library.
 old-location: shell\IShellLibrary_SetIcon.htm
 old-project: shell
 ms.assetid: 7d6d6bd5-14cc-432b-b712-64bac78f5df9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SetIcon method, IShellLibrary.SetIcon, IShellLibrary::SetIcon, SetIcon, SetIcon method [Windows Shell], SetIcon method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SetIcon, shell.IShellLibrary_SetIcon, shobjidl_core/IShellLibrary::SetIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

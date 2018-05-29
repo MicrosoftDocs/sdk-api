@@ -1,16 +1,16 @@
 ---
 UID: NF:dvdmedia.MPEG1_SEQUENCE_INFO
 title: MPEG1_SEQUENCE_INFO macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The MPEG1_SEQUENCE_INFO macro returns the address of the sequence header inside an MPEG1VIDEOINFO structure.
 old-location: dshow\mpeg1_sequence_info.htm
 old-project: DirectShow
 ms.assetid: 2c3f7dd7-3437-49ab-969c-d2425a75352b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: MPEG1_SEQUENCE_INFO, MPEG1_SEQUENCE_INFO macro [DirectShow], dshow.mpeg1_sequence_info, dvdmedia/MPEG1_SEQUENCE_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: dvdmedia.h
 req.include-header: Streams.h

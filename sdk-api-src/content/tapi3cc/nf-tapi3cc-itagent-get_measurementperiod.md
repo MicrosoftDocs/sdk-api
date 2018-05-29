@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3cc.ITAgent.get_MeasurementPeriod
 title: ITAgent::get_MeasurementPeriod
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MeasurementPeriod method gets the measurement period (in seconds) for which the switch and/or implementation stores and calculates information.
 old-location: tapi3\itagent_get_measurementperiod.htm
 old-project: Tapi
 ms.assetid: ccc91dfb-83e5-496a-921d-784fcaea5af5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAgent interface [TAPI 2.2],get_MeasurementPeriod method, ITAgent.get_MeasurementPeriod, ITAgent::get_MeasurementPeriod, _tapi3_itagent_get_measurementperiod, get_MeasurementPeriod, get_MeasurementPeriod method [TAPI 2.2], get_MeasurementPeriod method [TAPI 2.2],ITAgent interface, tapi3.itagent_get_measurementperiod, tapi3cc/ITAgent::get_MeasurementPeriod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

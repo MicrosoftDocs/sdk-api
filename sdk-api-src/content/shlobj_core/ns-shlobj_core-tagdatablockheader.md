@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj_core.tagDATABLOCKHEADER
 title: tagDATABLOCKHEADER
-author: windows-driver-content
+author: windows-sdk-content
 description: Serves as the header for some of the extra data structures used by IShellLinkDataList.
 old-location: shell\DATABLOCK_HEADER_str.htm
 old-project: shell
 ms.assetid: 06de45c2-8cb5-45e3-9639-d4625c24d27b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPDATABLOCK_HEADER, *LPDBLIST, DATABLOCK_HEADER, DATABLOCK_HEADER structure [Windows Shell], LPDATABLOCK_HEADER, LPDATABLOCK_HEADER structure pointer [Windows Shell], LPDBLIST, LPDBLIST structure pointer [Windows Shell], _win32_DATABLOCK_HEADER_str, shell.DATABLOCK_HEADER_str, shlobj_core/DATABLOCK_HEADER, shlobj_core/LPDATABLOCK_HEADER, shlobj_core/LPDBLIST, tagDATABLOCKHEADER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

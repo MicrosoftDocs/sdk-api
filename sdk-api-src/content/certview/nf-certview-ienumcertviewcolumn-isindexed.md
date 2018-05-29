@@ -1,16 +1,16 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.IsIndexed
 title: IEnumCERTVIEWCOLUMN::IsIndexed
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports whether the data in the column is indexed.
 old-location: security\ienumcertviewcolumn_isindexed.htm
 old-project: SecCrypto
 ms.assetid: 7373c0c3-3a1d-4a32-90e6-0f0575a0b61b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnumCERTVIEWCOLUMN interface [Security],IsIndexed method, IEnumCERTVIEWCOLUMN.IsIndexed, IEnumCERTVIEWCOLUMN::IsIndexed, IsIndexed, IsIndexed method [Security], IsIndexed method [Security],IEnumCERTVIEWCOLUMN interface, _certsrv_ienumcertviewcolumn_isindexed, certview/IEnumCERTVIEWCOLUMN::IsIndexed, security.ienumcertviewcolumn_isindexed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certview.h
 req.include-header: Certsrv.h

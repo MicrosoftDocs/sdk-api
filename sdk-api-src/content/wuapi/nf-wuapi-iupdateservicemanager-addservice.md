@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.AddService
 title: IUpdateServiceManager::AddService
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a service with Windows Update Agent (WUA).
 old-location: wua\iupdateservicemanager_addservice.htm
 old-project: Wua_Sdk
 ms.assetid: b4071ef7-316f-4624-bc43-79c5982c4a82
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AddService, AddService method [Windows Update Agent], AddService method [Windows Update Agent],IUpdateServiceManager interface, IUpdateServiceManager interface [Windows Update Agent],AddService method, IUpdateServiceManager.AddService, IUpdateServiceManager::AddService, wua.iupdateservicemanager_addservice, wuapi/IUpdateServiceManager::AddService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

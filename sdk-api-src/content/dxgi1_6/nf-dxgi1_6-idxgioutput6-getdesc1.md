@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_6.IDXGIOutput6.GetDesc1
 title: IDXGIOutput6::GetDesc1
-author: windows-driver-content
+author: windows-sdk-content
 description: Get an extended description of the output that includes color characteristics and connection type.
 old-location: direct3ddxgi\idxgioutput6_getdesc1.htm
 old-project: direct3ddxgi
 ms.assetid: DE251D64-BB41-49D7-AC46-791089502286
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetDesc1, GetDesc1 method [DXGI], GetDesc1 method [DXGI],IDXGIOutput6 interface, IDXGIOutput6 interface [DXGI],GetDesc1 method, IDXGIOutput6.GetDesc1, IDXGIOutput6::GetDesc1, direct3ddxgi.idxgioutput6_getdesc1, dxgi1_6/IDXGIOutput6::GetDesc1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_6.h
 req.include-header: 

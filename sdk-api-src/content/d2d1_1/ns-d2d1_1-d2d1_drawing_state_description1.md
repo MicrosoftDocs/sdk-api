@@ -1,16 +1,16 @@
 ---
 UID: NS:d2d1_1.D2D1_DRAWING_STATE_DESCRIPTION1
 title: D2D1_DRAWING_STATE_DESCRIPTION1
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the drawing state of a device context.
 old-location: direct2d\d2d1_drawing_state_description1.htm
 old-project: Direct2D
 ms.assetid: E1BFF353-8445-435C-8F7A-E93BFE58A794
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_DRAWING_STATE_DESCRIPTION1, D2D1_DRAWING_STATE_DESCRIPTION1 structure [Direct2D], d2d1_1/D2D1_DRAWING_STATE_DESCRIPTION1, direct2d.d2d1_drawing_state_description1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 

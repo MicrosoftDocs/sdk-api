@@ -1,16 +1,16 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.CanUseOverlayStretch
 title: IDirectDrawVideo::CanUseOverlayStretch
-author: windows-driver-content
+author: windows-sdk-content
 description: The CanUseOverlayStretch method determines whether the renderer will check overlay restrictions.
 old-location: dshow\idirectdrawvideo_canuseoverlaystretch.htm
 old-project: DirectShow
 ms.assetid: 35af80c9-7cc7-46c7-899c-c47f56a4ec17
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CanUseOverlayStretch, CanUseOverlayStretch method [DirectShow], CanUseOverlayStretch method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],CanUseOverlayStretch method, IDirectDrawVideo.CanUseOverlayStretch, IDirectDrawVideo::CanUseOverlayStretch, IDirectDrawVideoCanUseOverlayStretch, amvideo/IDirectDrawVideo::CanUseOverlayStretch, dshow.idirectdrawvideo_canuseoverlaystretch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amvideo.h
 req.include-header: Dshow.h

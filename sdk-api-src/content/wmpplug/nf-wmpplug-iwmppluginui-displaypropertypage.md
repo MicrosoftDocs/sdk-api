@@ -1,16 +1,16 @@
 ---
 UID: NF:wmpplug.IWMPPluginUI.DisplayPropertyPage
 title: IWMPPluginUI::DisplayPropertyPage
-author: windows-driver-content
+author: windows-sdk-content
 description: The DisplayPropertyPage method is called by Windows Media Player to request that the plug-in display its property page. This method is passed a handle to a parent window of the plug-in property page dialog box.
 old-location: wmp\iwmppluginui_displaypropertypage.htm
 old-project: WMP
 ms.assetid: 29d1438a-164a-460b-9c3e-804417ce362a
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: DisplayPropertyPage, DisplayPropertyPage method [Windows Media Player], DisplayPropertyPage method [Windows Media Player],IWMPPluginUI interface, IWMPPluginUI interface [Windows Media Player],DisplayPropertyPage method, IWMPPluginUI.DisplayPropertyPage, IWMPPluginUI::DisplayPropertyPage, IWMPPluginUIDisplayPropertyPage, wmp.iwmppluginui_displaypropertypage, wmpplug/IWMPPluginUI::DisplayPropertyPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmpplug.h
 req.include-header: 

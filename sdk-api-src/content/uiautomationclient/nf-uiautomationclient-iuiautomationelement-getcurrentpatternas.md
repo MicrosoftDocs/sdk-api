@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCurrentPatternAs
 title: IUIAutomationElement::GetCurrentPatternAs
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the control pattern interface of the specified pattern on this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCurrentPatternAs.htm
 old-project: WinAuto
 ms.assetid: 98b0f647-7f6e-4e07-8530-1dae781507bc
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetCurrentPatternAs, GetCurrentPatternAs method [Windows Accessibility], GetCurrentPatternAs method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCurrentPatternAs method, IUIAutomationElement.GetCurrentPatternAs, IUIAutomationElement::GetCurrentPatternAs, uiauto.uiauto_IUIAutomationElement_GetCurrentPatternAs, uiauto_IUIAutomationElement_GetCurrentPatternAs, uiautomationclient/IUIAutomationElement::GetCurrentPatternAs, winauto.uiauto_IUIAutomationElement_GetCurrentPatternAs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

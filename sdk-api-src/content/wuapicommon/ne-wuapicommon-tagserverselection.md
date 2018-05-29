@@ -1,16 +1,16 @@
 ---
 UID: NE:wuapicommon.tagServerSelection
 title: tagServerSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the update services that Windows Update can operate against.
 old-location: wua\serverselection.htm
 old-project: Wua_Sdk
 ms.assetid: 51caac5e-98a6-49e4-a175-6319349a6d68
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ServerSelection, ServerSelection enumeration [Windows Update Agent], ssDefault, ssManagedServer, ssOthers, ssWindowsUpdate, tagServerSelection, wua.serverselection, wuapicommon/ServerSelection, wuapicommon/ssDefault, wuapicommon/ssManagedServer, wuapicommon/ssOthers, wuapicommon/ssWindowsUpdate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wuapicommon.h
 req.include-header: Wuapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ObjectControl.Activate
 title: ObjectControl::Activate
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a COM+ object to perform context-specific initialization whenever it is activated.
 old-location: cos\objectcontrol_activate.htm
 old-project: cossdk
 ms.assetid: 70b260e7-a51d-4ddc-b395-5478e368e776
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Activate, Activate method [COM+], Activate method [COM+],ObjectControl interface, ObjectControl interface [COM+],Activate method, ObjectControl.Activate, ObjectControl::Activate, _cos_ObjectControl_Activate, comsvcs/ObjectControl::Activate, cos.objectcontrol_activate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

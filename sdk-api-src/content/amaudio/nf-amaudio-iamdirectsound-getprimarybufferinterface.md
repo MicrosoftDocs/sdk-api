@@ -1,16 +1,16 @@
 ---
 UID: NF:amaudio.IAMDirectSound.GetPrimaryBufferInterface
 title: IAMDirectSound::GetPrimaryBufferInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPrimaryBufferInterface method is not implemented.
 old-location: dshow\iamdirectsound_getprimarybufferinterface.htm
 old-project: DirectShow
 ms.assetid: 5cac3834-5f0a-4977-802e-b3b824a01dbc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetPrimaryBufferInterface, GetPrimaryBufferInterface method [DirectShow], GetPrimaryBufferInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetPrimaryBufferInterface method, IAMDirectSound.GetPrimaryBufferInterface, IAMDirectSound::GetPrimaryBufferInterface, IAMDirectSoundGetPrimaryBufferInterface, amaudio/IAMDirectSound::GetPrimaryBufferInterface, dshow.iamdirectsound_getprimarybufferinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 

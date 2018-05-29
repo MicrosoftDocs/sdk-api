@@ -1,16 +1,16 @@
 ---
 UID: NS:uiautomationcore.UIAutomationPatternInfo
 title: UIAutomationPatternInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a custom control pattern.
 old-location: winauto\uiauto_UIAutomationPatternInfoStruct.htm
 old-project: WinAuto
 ms.assetid: f45c5736-75f3-4e44-b92a-3b0a51b41849
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UIAutomationPatternInfo, UIAutomationPatternInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationPatternInfoStruct, uiauto_UIAutomationPatternInfoStruct, uiautomationcore/UIAutomationPatternInfo, winauto.uiauto_UIAutomationPatternInfoStruct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:tsvirtualchannels.IWTSBitmapRendererCallback.OnTargetSizeChanged
 title: IWTSBitmapRendererCallback::OnTargetSizeChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the size of the render target has changed.
 old-location: termserv\iwtsbitmaprenderercallback_ontargetsizechanged.htm
 old-project: TermServ
 ms.assetid: 2c4eeec8-7d9c-4321-9fdb-3ea8c7a36893
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSBitmapRendererCallback interface [Remote Desktop Services],OnTargetSizeChanged method, IWTSBitmapRendererCallback.OnTargetSizeChanged, IWTSBitmapRendererCallback::OnTargetSizeChanged, OnTargetSizeChanged, OnTargetSizeChanged method [Remote Desktop Services], OnTargetSizeChanged method [Remote Desktop Services],IWTSBitmapRendererCallback interface, termserv.iwtsbitmaprenderercallback_ontargetsizechanged, tsvirtualchannels/IWTSBitmapRendererCallback::OnTargetSizeChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tsvirtualchannels.h
 req.include-header: 

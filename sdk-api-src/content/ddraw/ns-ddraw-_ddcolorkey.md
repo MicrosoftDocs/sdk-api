@@ -1,16 +1,16 @@
 ---
 UID: NS:ddraw._DDCOLORKEY
 title: "_DDCOLORKEY"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDCOLORKEY structure describes a source color key, destination color key, or color space.
 old-location: directdraw\ddcolorkey.htm
 old-project: directdraw
 ms.assetid: c520e649-86f9-4c4a-bb67-22d75aa3c8b0
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*LPDDCOLORKEY, DDCOLORKEY, DDCOLORKEY structure [DirectDraw], LPDDCOLORKEY, LPDDCOLORKEY structure pointer [DirectDraw], _DDCOLORKEY, ddraw/DDCOLORKEY, ddraw/LPDDCOLORKEY, directdraw.ddcolorkey"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 

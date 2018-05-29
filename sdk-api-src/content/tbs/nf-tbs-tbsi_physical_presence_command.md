@@ -1,16 +1,16 @@
 ---
 UID: NF:tbs.Tbsi_Physical_Presence_Command
 title: Tbsi_Physical_Presence_Command function
-author: windows-driver-content
+author: windows-sdk-content
 description: Passes a physical presence ACPI command through TBS to the driver.
 old-location: tbs\_tbsi_physical_presence_command.htm
 old-project: TBS
 ms.assetid: b5f91253-ac25-4ae3-93b0-4a6492dca90c
-ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.author: windowssdkdev
+ms.date: 03/01/2018
 ms.keywords: Tbsi_Physical_Presence_Command, Tbsi_Physical_Presence_Command function [TBS], tbs._tbsi_physical_presence_command, tbs/Tbsi_Physical_Presence_Command
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tbs.h
 req.include-header: 

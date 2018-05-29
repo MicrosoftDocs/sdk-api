@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnLayoutChange
 title: ITextStoreAnchorSink::OnLayoutChange
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStoreAnchorSink::OnLayoutChange method is called when the layout (on-screen representation) of the document changes.
 old-location: tsf\itextstoreanchorsink_onlayoutchange.htm
 old-project: TSF
 ms.assetid: 22629ca6-5701-4f6f-b797-bb71c8d31da6
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnLayoutChange method, ITextStoreAnchorSink.OnLayoutChange, ITextStoreAnchorSink::OnLayoutChange, OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onlayoutchange_ref, textstor/ITextStoreAnchorSink::OnLayoutChange, tsf.itextstoreanchorsink_onlayoutchange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptuiapi.CertSelectionGetSerializedBlob
 title: CertSelectionGetSerializedBlob function
-author: windows-driver-content
+author: windows-sdk-content
 description: A helper function used to retrieve a serialized certificate BLOB from a CERT_SELECTUI_INPUT structure.
 old-location: security\certselectiongetserializedblob.htm
 old-project: SecCrypto
 ms.assetid: 6c3240f7-5121-401d-a4d4-df3055cb301a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertSelectionGetSerializedBlob, CertSelectionGetSerializedBlob function [Security], cryptuiapi/CertSelectionGetSerializedBlob, security.certselectiongetserializedblob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptuiapi.h
 req.include-header: 

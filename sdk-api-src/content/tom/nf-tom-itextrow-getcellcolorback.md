@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRow.GetCellColorBack
 title: ITextRow::GetCellColorBack
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the background color of the active cell.
 old-location: controls\itextrow_getcellcolorback.htm
 old-project: Controls
 ms.assetid: d199c4d7-17fd-4d1d-9d6d-b11db71f1363
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCellColorBack, GetCellColorBack method [Windows Controls], GetCellColorBack method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellColorBack method, ITextRow.GetCellColorBack, ITextRow::GetCellColorBack, controls.itextrow_getcellcolorback, tom/ITextRow::GetCellColorBack
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

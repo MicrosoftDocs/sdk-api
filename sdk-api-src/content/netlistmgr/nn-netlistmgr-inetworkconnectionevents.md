@@ -1,16 +1,16 @@
 ---
 UID: NN:netlistmgr.INetworkConnectionEvents
 title: INetworkConnectionEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: The INetworkConnectionEvents interface is a message sink interface that a client implements to get network connection-related events. Applications that are interested in lower-level events (such as authentication changes) must implement this interface.
 old-location: nla\inetworkconnectionevents.htm
 old-project: NLA
 ms.assetid: 339f23ee-583d-4623-ad43-00b4fd4395ad
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INetworkConnectionEvents, INetworkConnectionEvents interface [Network Awareness], INetworkConnectionEvents interface [Network Awareness],described, netlistmgr/INetworkConnectionEvents, nla.inetworkconnectionevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

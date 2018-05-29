@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Operation_GetClass
 title: MI_Operation_GetClass function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a synchronous result for a class operation.
 old-location: wmi_v2\mi_operation_getclass.htm
 old-project: wmi_v2
 ms.assetid: f29f5a03-2b0b-4d36-97cb-f3b38f6037b3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Operation_GetClass, MI_Operation_GetClass function [Windows Management Infrastructure (MI)], mi/MI_Operation_GetClass, wmi_v2.mi_operation_getclass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

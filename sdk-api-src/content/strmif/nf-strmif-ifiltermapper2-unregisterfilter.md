@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IFilterMapper2.UnregisterFilter
 title: IFilterMapper2::UnregisterFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: The UnregisterFilter method removes filter information from the registry.
 old-location: dshow\ifiltermapper2_unregisterfilter.htm
 old-project: DirectShow
 ms.assetid: cfba764d-ec94-49a2-9aaf-2b107b742f83
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IFilterMapper2 interface [DirectShow],UnregisterFilter method, IFilterMapper2.UnregisterFilter, IFilterMapper2::UnregisterFilter, IFilterMapper2UnregisterFilter, UnregisterFilter, UnregisterFilter method [DirectShow], UnregisterFilter method [DirectShow],IFilterMapper2 interface, dshow.ifiltermapper2_unregisterfilter, strmif/IFilterMapper2::UnregisterFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

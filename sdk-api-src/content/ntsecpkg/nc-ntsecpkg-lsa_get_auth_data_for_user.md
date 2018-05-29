@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_GET_AUTH_DATA_FOR_USER
 title: LSA_GET_AUTH_DATA_FOR_USER
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAuthDataForUser function retrieves authentication information for a user from the Security Accounts Manager (SAM) database and puts it into a format suitable for the ConvertAuthDataToToken function.
 old-location: security\getauthdataforuser.htm
 old-project: SecAuthN
 ms.assetid: 1cc02c6b-2628-441d-97ae-ed83a4f6bfd0
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetAuthDataForUser, GetAuthDataForUser function [Security], LSA_GET_AUTH_DATA_FOR_USER, SecNameAlternateId, SecNameDN, SecNameFlat, SecNameSamCompatible, _ssp_getauthdataforuser, ntsecpkg/GetAuthDataForUser, security.getauthdataforuser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

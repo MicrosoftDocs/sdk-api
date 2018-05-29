@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetPatternProgrammaticName
 title: IUIAutomation::GetPatternProgrammaticName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the registered programmatic name of a control pattern.
 old-location: winauto\uiauto_IUIAutomation_GetPatternProgrammaticName.htm
 old-project: WinAuto
 ms.assetid: a5968193-e3d9-41d1-b13f-8e86db5e0c70
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetPatternProgrammaticName, GetPatternProgrammaticName method [Windows Accessibility], GetPatternProgrammaticName method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetPatternProgrammaticName method, IUIAutomation.GetPatternProgrammaticName, IUIAutomation::GetPatternProgrammaticName, uiauto.uiauto_IUIAutomation_GetPatternProgrammaticName, uiauto_IUIAutomation_GetPatternProgrammaticName, uiautomationclient/IUIAutomation::GetPatternProgrammaticName, winauto.uiauto_IUIAutomation_GetPatternProgrammaticName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

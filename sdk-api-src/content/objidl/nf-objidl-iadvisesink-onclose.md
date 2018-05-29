@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IAdviseSink.OnClose
 title: IAdviseSink::OnClose
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the server to notify all registered advisory sinks that the object has changed from the running to the loaded state.
 old-location: com\iadvisesink_onclose.htm
 old-project: com
 ms.assetid: a695c623-4a4e-4f3d-9f12-ee198c0761a9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAdviseSink interface [COM],OnClose method, IAdviseSink.OnClose, IAdviseSink::OnClose, OnClose, OnClose method [COM], OnClose method [COM],IAdviseSink interface, _ole_iadvisesink_onclose, com.iadvisesink_onclose, objidl/IAdviseSink::OnClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

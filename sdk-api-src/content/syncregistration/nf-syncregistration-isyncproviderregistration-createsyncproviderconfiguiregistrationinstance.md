@@ -1,16 +1,16 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance
 title: ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an in-memory instance of a synchronization provider configuration UI.
 old-location: winsync\isyncproviderregistration_createsyncproviderconfiguiregistrationinstance.htm
 old-project: winsync
 ms.assetid: a61b07b3-45ce-429e-9641-4cebc5b44c1b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateSyncProviderConfigUIRegistrationInstance, CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync], CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],CreateSyncProviderConfigUIRegistrationInstance method, ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance, ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance, syncregistration/ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance, winsync.isyncproviderregistration_createsyncproviderconfiguiregistrationinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncregistration.h
 req.include-header: 

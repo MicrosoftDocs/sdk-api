@@ -1,16 +1,16 @@
 ---
 UID: NN:sbe.IStreamBufferRecordingAttribute
 title: IStreamBufferRecordingAttribute
-author: windows-driver-content
+author: windows-sdk-content
 description: The IStreamBufferRecordingAttribute interface sets and retrieves attributes on a stream buffer recording.
 old-location: mstv\istreambufferrecordingattribute.htm
 old-project: mstv
 ms.assetid: 7c46413f-3e51-4d72-b7f7-a8239c61b161
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStreamBufferRecordingAttribute, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies], IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],described, IStreamBufferRecordingAttributeInterface, mstv.istreambufferrecordingattribute, sbe/IStreamBufferRecordingAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbe.h
 req.include-header: 

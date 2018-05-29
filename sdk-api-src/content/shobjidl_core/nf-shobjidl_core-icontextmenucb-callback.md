@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IContextMenuCB.CallBack
 title: IContextMenuCB::CallBack
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the callback function for a context menu.
 old-location: shell\IContextMenuCB_CallBack.htm
 old-project: shell
 ms.assetid: 9d091b1a-26b5-4cab-a3ec-6d59dc7d103e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CallBack, CallBack method [Windows Shell], CallBack method [Windows Shell],IContextMenuCB interface, IContextMenuCB interface [Windows Shell],CallBack method, IContextMenuCB.CallBack, IContextMenuCB::CallBack, _shell_IContextMenuCB_CallBack, shell.IContextMenuCB_CallBack, shobjidl_core/IContextMenuCB::CallBack
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

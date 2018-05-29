@@ -1,16 +1,16 @@
 ---
 UID: NF:wintrust.WintrustGetDefaultForUsage
 title: WintrustGetDefaultForUsage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the default usage identifier and callback information.
 old-location: security\wintrustgetdefaultforusage.htm
 old-project: SecCrypto
 ms.assetid: B2ED5489-792F-4B00-A21E-EE1B1462D1C8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: DWACTION_ALLOCANDFILL, DWACTION_FREE, WintrustGetDefaultForUsage, WintrustGetDefaultForUsage function [Security], security.wintrustgetdefaultforusage, wintrust/WintrustGetDefaultForUsage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 

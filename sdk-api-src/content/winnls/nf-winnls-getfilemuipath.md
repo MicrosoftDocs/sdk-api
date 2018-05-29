@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetFileMUIPath
 title: GetFileMUIPath function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the path to all language-specific resource files associated with the supplied LN file. The application must call this function repeatedly to get the path for each resource file.
 old-location: intl\getfilemuipath.htm
 old-project: Intl
 ms.assetid: a95ef85a-4a3a-49c6-b700-03763950c64f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFileMUIPath, GetFileMUIPath function [Internationalization for Windows Applications], MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_LANG_NEUTRAL_PE_FILE, MUI_NON_LANG_NEUTRAL_FILE, MUI_USER_PREFERRED_UI_LANGUAGES, MUI_USE_INSTALLED_LANGUAGES, MUI_USE_SEARCH_ALL_LANGUAGES, _win32_GetFileMUIPath, intl.getfilemuipath, winnls/GetFileMUIPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

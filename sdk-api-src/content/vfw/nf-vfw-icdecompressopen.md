@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICDecompressOpen
 title: ICDecompressOpen macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICDecompressOpen macro opens a decompressor that is compatible with the specified formats.
 old-location: multimedia\icdecompressopen.htm
 old-project: Multimedia
 ms.assetid: 83db0e07-7e93-4c77-a017-68a30b1372ef
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICDecompressOpen, ICDecompressOpen macro [Windows Multimedia], _win32_ICDecompressOpen, multimedia.icdecompressopen, vfw/ICDecompressOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

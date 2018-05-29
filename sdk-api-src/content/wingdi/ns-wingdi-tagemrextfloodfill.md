@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMREXTFLOODFILL
 title: tagEMREXTFLOODFILL
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMREXTFLOODFILL structure contains members for the ExtFloodFill enhanced metafile record.
 old-location: gdi\emrextfloodfill.htm
 old-project: gdi
 ms.assetid: 93c80ea4-42f3-4c0a-8f72-76d2a6634e15
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMREXTFLOODFILL, EMREXTFLOODFILL, EMREXTFLOODFILL structure [Windows GDI], PEMREXTFLOODFILL, PEMREXTFLOODFILL structure pointer [Windows GDI], _win32_EMREXTFLOODFILL_str, gdi.emrextfloodfill, tagEMREXTFLOODFILL, wingdi/EMREXTFLOODFILL, wingdi/PEMREXTFLOODFILL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

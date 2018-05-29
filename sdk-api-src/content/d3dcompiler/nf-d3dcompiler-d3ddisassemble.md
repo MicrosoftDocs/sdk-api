@@ -1,16 +1,16 @@
 ---
 UID: NF:d3dcompiler.D3DDisassemble
 title: D3DDisassemble function
-author: windows-driver-content
+author: windows-sdk-content
 description: Disassembles compiled HLSL code.
 old-location: direct3dhlsl\d3ddisassemble.htm
 old-project: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3ddisassemble.htm
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: 102070a9-01bc-45ad-cbcb-2ef04db4d6e7, D3DDisassemble, D3DDisassemble function [HLSL], d3dcompiler/D3DDisassemble, direct3dhlsl.d3ddisassemble
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wiavideo.IWiaVideo.get_PreviewVisible
 title: IWiaVideo::get_PreviewVisible
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWiaVideo::PreviewVisible property specifies whether the video playback is visible in its parent window. This does not affect the WIAVIDEO_STATE of the video.
 old-location: wia\_wia_IWiaVideo_PreviewVisible.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\previewvisible.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IWiaVideo interface [WIA],PreviewVisible property, IWiaVideo.PreviewVisible, IWiaVideo.get_PreviewVisible, IWiaVideo::PreviewVisible, IWiaVideo::get_PreviewVisible, IWiaVideo::put_PreviewVisible, PreviewVisible property [WIA], PreviewVisible property [WIA],IWiaVideo interface, _wia_IWiaVideo_PreviewVisible, get_PreviewVisible, wia._wia_IWiaVideo_PreviewVisible, wiavideo/IWiaVideo::PreviewVisible, wiavideo/IWiaVideo::get_PreviewVisible, wiavideo/IWiaVideo::put_PreviewVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wiavideo.h
 req.include-header: 

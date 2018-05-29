@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsOffsetOf
 title: WsOffsetOf macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the offset in bytes of a field within a structure given the names of the structure and field.
 old-location: wsw\wsoffsetof.htm
 old-project: wsw
 ms.assetid: a3965e97-c818-4dd3-95e7-60a844181b96
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsOffsetOf, WsOffsetOf macro [Web Services for Windows], webservices/WsOffsetOf, wsw.wsoffsetof
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: webservices.h
 req.include-header: 

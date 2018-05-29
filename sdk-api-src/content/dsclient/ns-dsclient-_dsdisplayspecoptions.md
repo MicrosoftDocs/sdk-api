@@ -1,16 +1,16 @@
 ---
 UID: NS:dsclient._DSDISPLAYSPECOPTIONS
 title: "_DSDISPLAYSPECOPTIONS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to supply data to a context menu or property page extension about the display specifiers used.
 old-location: ad\dsdisplayspecoptions.htm
 old-project: AD
 ms.assetid: 01b7a571-fdbd-41e9-96c9-843cc733a32c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDSDISPLAYSPECOPTIONS, *PDSDISPLAYSPECOPTIONS, DSDISPLAYSPECOPTIONS, DSDISPLAYSPECOPTIONS structure [Active Directory], DSDSOF_DONTSIGNSEAL, DSDSOF_DSAVAILABLE, DSDSOF_HASUSERANDSERVERINFO, DSDSOF_SIMPLEAUTHENTICATE, LPDSDISPLAYSPECOPTIONS, LPDSDISPLAYSPECOPTIONS structure pointer [Active Directory], PDSDISPLAYSPECOPTIONS, PDSDISPLAYSPECOPTIONS structure pointer [Active Directory], _DSDISPLAYSPECOPTIONS, _glines_dsdisplayspecoptions, ad.dsdisplayspecoptions, dsclient/DSDISPLAYSPECOPTIONS, dsclient/LPDSDISPLAYSPECOPTIONS, dsclient/PDSDISPLAYSPECOPTIONS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsclient.h
 req.include-header: 

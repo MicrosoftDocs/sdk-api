@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.CanCategorizeOnSCID
 title: ICategoryProvider::CanCategorizeOnSCID
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a column can be used as a category.
 old-location: shell\ICategoryProvider_CanCategorizeOnSCID.htm
 old-project: shell
 ms.assetid: e0b10007-7b25-4ddf-8cb9-76d85f8fb4df
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CanCategorizeOnSCID, CanCategorizeOnSCID method [Windows Shell], CanCategorizeOnSCID method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],CanCategorizeOnSCID method, ICategoryProvider.CanCategorizeOnSCID, ICategoryProvider::CanCategorizeOnSCID, inet_ICategoryProvider_CanCategorizeOnSCID, shell.ICategoryProvider_CanCategorizeOnSCID, shobjidl_core/ICategoryProvider::CanCategorizeOnSCID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

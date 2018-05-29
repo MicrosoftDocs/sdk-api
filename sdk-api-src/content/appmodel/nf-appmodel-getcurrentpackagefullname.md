@@ -1,16 +1,16 @@
 ---
 UID: NF:appmodel.GetCurrentPackageFullName
 title: GetCurrentPackageFullName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the package full name for the calling process.
 old-location: appxpkg\getcurrentpackagefullname.htm
 old-project: appxpkg
 ms.assetid: D5B00C53-1FBF-4245-92D1-FA39713A9EE7
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetCurrentPackageFullName, GetCurrentPackageFullName function [App packaging and management], appmodel/GetCurrentPackageFullName, appxpkg.getcurrentpackagefullname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

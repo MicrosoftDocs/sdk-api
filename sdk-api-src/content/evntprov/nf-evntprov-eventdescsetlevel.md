@@ -1,16 +1,16 @@
 ---
 UID: NF:evntprov.EventDescSetLevel
 title: EventDescSetLevel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Level member of the event descriptor.
 old-location: etw\eventdescsetlevel_func.htm
 old-project: ETW
 ms.assetid: a4fe3b0e-6ca5-401c-a669-752e2955cc52
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EventDescSetLevel, EventDescSetLevel function [ETW], base.eventdescsetlevel_func, etw.eventdescsetlevel_func, evntprov/EventDescSetLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

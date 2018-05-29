@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.IsAccelerator
 title: IsAccelerator function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the specified keystroke maps to an accelerator in the specified accelerator table.
 old-location: com\isaccelerator.htm
 old-project: com
 ms.assetid: 2d09f81a-b422-4379-89c8-d50992ebb24c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsAccelerator, IsAccelerator function [COM], _com_IsAccelerator, com.isaccelerator, ole2/IsAccelerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

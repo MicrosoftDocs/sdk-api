@@ -1,16 +1,16 @@
 ---
 UID: NN:upnp.IUPnPServiceCallback
 title: IUPnPServiceCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: The IUPnPServiceCallback interface is used to send event notifications to clients of Service objects.
 old-location: upnp\iupnpservicecallback.htm
 old-project: UPnP
 ms.assetid: 44515be4-891b-4f3d-a2c2-1699e468e708
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: IUPnPServiceCallback, IUPnPServiceCallback interface [UPnP APIs], IUPnPServiceCallback interface [UPnP APIs],described, _upnp_iupnpservicecallback, upnp.iupnpservicecallback, upnp/IUPnPServiceCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

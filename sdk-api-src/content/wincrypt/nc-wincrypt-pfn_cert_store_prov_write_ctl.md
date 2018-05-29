@@ -1,16 +1,16 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_WRITE_CTL
 title: PFN_CERT_STORE_PROV_WRITE_CTL
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertStoreProvWriteCTL callback function can be called by CertAddEncodedCTLToStore, CertAddCTLContextToStore or CertAddSerializedElementToStore before a CTL is added to the store.
 old-location: security\certstoreprovwritectl.htm
 old-project: SecCrypto
 ms.assetid: 91344133-0785-4c4f-8df3-83301cf85e70
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertStoreProvWriteCTL, CertStoreProvWriteCTL callback, CertStoreProvWriteCTL callback function [Security], PFN_CERT_STORE_PROV_WRITE_CTL, PFN_CERT_STORE_PROV_WRITE_CTL callback function [Security], _crypto2_certstoreprovwritectl, security.certstoreprovwritectl, wincrypt/CertStoreProvWriteCTL, wincrypt/PFN_CERT_STORE_PROV_WRITE_CTL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wincrypt.h
 req.include-header: 

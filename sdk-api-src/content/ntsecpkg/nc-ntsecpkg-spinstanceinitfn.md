@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpInstanceInitFn
 title: SpInstanceInitFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes user-mode security packages in an SSP/AP.
 old-location: security\spinstanceinit.htm
 old-project: SecAuthN
 ms.assetid: 12f5903d-af13-40fd-8a23-2a28ffd9fc44
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SpInstanceInit, SpInstanceInit function [Security], SpInstanceInitFn, _ssp_spinstanceinit, ntsecpkg/SpInstanceInit, security.spinstanceinit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

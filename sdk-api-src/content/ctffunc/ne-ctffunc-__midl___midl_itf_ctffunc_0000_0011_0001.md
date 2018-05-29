@@ -1,16 +1,16 @@
 ---
 UID: NE:ctffunc.__MIDL___MIDL_itf_ctffunc_0000_0011_0001
 title: "__MIDL___MIDL_itf_ctffunc_0000_0011_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Elements of the TfSapiObject enumeration are used with the ITfFnGetSAPIObject::Get method to specify a specific type of Speech API (SAPI) object.
 old-location: tsf\tfsapiobject.htm
 old-project: TSF
 ms.assetid: 82fb6417-efee-4f04-a9a9-4e52934e2e86
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GETIF_DICTGRAM, GETIF_RECOCONTEXT, GETIF_RECOGNIZER, GETIF_RECOGNIZERNOINIT, GETIF_RESMGR, GETIF_VOICE, TfSapiObject, TfSapiObject enumeration [Text Services Framework], __MIDL___MIDL_itf_ctffunc_0000_0011_0001, _tsf_tfsapiobject_ref, ctffunc/GETIF_DICTGRAM, ctffunc/GETIF_RECOCONTEXT, ctffunc/GETIF_RECOGNIZER, ctffunc/GETIF_RECOGNIZERNOINIT, ctffunc/GETIF_RESMGR, ctffunc/GETIF_VOICE, ctffunc/TfSapiObject, tsf.tfsapiobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ctffunc.h
 req.include-header: 

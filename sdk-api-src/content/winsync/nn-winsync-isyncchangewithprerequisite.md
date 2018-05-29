@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.ISyncChangeWithPrerequisite
 title: ISyncChangeWithPrerequisite
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents metadata about a change that is based on the prerequisite knowledge that is associated with the change.
 old-location: winsync\isyncchangewithprerequisite.htm
 old-project: winsync
 ms.assetid: 7650fc2c-fe2d-4cb1-a22a-433c90c5cb8d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncChangeWithPrerequisite, ISyncChangeWithPrerequisite interface [Windows Sync], ISyncChangeWithPrerequisite interface [Windows Sync],described, winsync.isyncchangewithprerequisite, winsync/ISyncChangeWithPrerequisite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

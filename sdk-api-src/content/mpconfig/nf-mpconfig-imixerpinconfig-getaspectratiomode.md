@@ -1,16 +1,16 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetAspectRatioMode
 title: IMixerPinConfig::GetAspectRatioMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAspectRatioMode method retrieves the aspect ratio correction mode for window resizing.
 old-location: dshow\imixerpinconfig_getaspectratiomode.htm
 old-project: DirectShow
 ms.assetid: 091ebea0-8688-4965-8727-0738cc19d47e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetAspectRatioMode method, IMixerPinConfig.GetAspectRatioMode, IMixerPinConfig::GetAspectRatioMode, IMixerPinConfigGetAspectRatioMode, dshow.imixerpinconfig_getaspectratiomode, mpconfig/IMixerPinConfig::GetAspectRatioMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpconfig.h
 req.include-header: 

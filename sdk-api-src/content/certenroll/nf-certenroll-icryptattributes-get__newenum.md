@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICryptAttributes.get__NewEnum
 title: ICryptAttributes::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the enumerator for the collection.
 old-location: security\icryptattributes__newenum_property.htm
 old-project: SecCertEnroll
 ms.assetid: 872ef6ff-d093-48e7-9062-4b81a771666d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICryptAttributes interface [Security],_NewEnum property, ICryptAttributes._NewEnum, ICryptAttributes.get__NewEnum, ICryptAttributes::_NewEnum, ICryptAttributes::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICryptAttributes interface, certenroll/ICryptAttributes::_NewEnum, certenroll/ICryptAttributes::get__NewEnum, get__NewEnum, security.icryptattributes__newenum_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLGetPolicyInformation
 title: SLGetPolicyInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the policy information after right has been consumed successfully.
 old-location: security\slgetpolicyinformation.htm
 old-project: SecSLApi
 ms.assetid: a9cfd1a0-e622-4726-918b-264f196a4e85
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLGetPolicyInformation, SLGetPolicyInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, security.slgetpolicyinformation, slpublic/SLGetPolicyInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleCreateLinkEx
 title: OleCreateLinkEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends OleCreateLink functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple formats of presentations or data, instead of the single format supported by OleCreateLink.
 old-location: com\olecreatelinkex.htm
 old-project: com
 ms.assetid: b43acd14-3cf8-45da-8c2c-f2f6dc2ada78
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleCreateLinkEx, OleCreateLinkEx function [COM], _ole_OleCreateLinkEx, com.olecreatelinkex, ole2/OleCreateLinkEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

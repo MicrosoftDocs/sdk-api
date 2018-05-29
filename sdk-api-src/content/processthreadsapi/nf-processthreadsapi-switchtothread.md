@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.SwitchToThread
 title: SwitchToThread function
-author: windows-driver-content
+author: windows-sdk-content
 description: Causes the calling thread to yield execution to another thread that is ready to run on the current processor. The operating system selects the next thread to be executed.
 old-location: base\switchtothread.htm
 old-project: ProcThread
 ms.assetid: d1e6d734-0c5b-4aa0-b1b3-220f2615e56b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SwitchToThread, SwitchToThread function, _win32_switchtothread, base.switchtothread, processthreadsapi/SwitchToThread, winbase/SwitchToThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

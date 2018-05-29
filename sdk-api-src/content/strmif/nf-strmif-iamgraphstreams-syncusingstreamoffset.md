@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMGraphStreams.SyncUsingStreamOffset
 title: IAMGraphStreams::SyncUsingStreamOffset
-author: windows-driver-content
+author: windows-sdk-content
 description: The SyncUsingStreamOffset method enables or disables synchronization using time-stamp offsets.
 old-location: dshow\iamgraphstreams_syncusingstreamoffset.htm
 old-project: DirectShow
 ms.assetid: 1a61da3a-3933-4543-b733-1b8a60929e43
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMGraphStreams interface [DirectShow],SyncUsingStreamOffset method, IAMGraphStreams.SyncUsingStreamOffset, IAMGraphStreams::SyncUsingStreamOffset, IAMGraphStreamsSyncUsingStreamOffset, SyncUsingStreamOffset, SyncUsingStreamOffset method [DirectShow], SyncUsingStreamOffset method [DirectShow],IAMGraphStreams interface, dshow.iamgraphstreams_syncusingstreamoffset, strmif/IAMGraphStreams::SyncUsingStreamOffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

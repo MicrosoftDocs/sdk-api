@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentSequence.GetDocuments
 title: IXpsOMDocumentSequence::GetDocuments
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the IXpsOMDocumentCollection interface, which contains the documents specified in the document sequence.
 old-location: xps\ixpsomdocumentsequence_getdocuments.htm
 old-project: printdocs
 ms.assetid: d924e610-1142-4623-b64b-219558fb07d6
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetDocuments, GetDocuments method [XPS Documents and Packaging], GetDocuments method [XPS Documents and Packaging],IXpsOMDocumentSequence interface, IXpsOMDocumentSequence interface [XPS Documents and Packaging],GetDocuments method, IXpsOMDocumentSequence.GetDocuments, IXpsOMDocumentSequence::GetDocuments, xps.ixpsomdocumentsequence_getdocuments, xpsobjectmodel/IXpsOMDocumentSequence::GetDocuments
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:amxmlgraphbuilder.IXMLGraphBuilder
 title: IXMLGraphBuilder
-author: windows-driver-content
+author: windows-sdk-content
 description: The IXMLGraphBuilder interface is used to persist a DirectShow filter graph using an XML file format.Note  Support for this interface was removed in Windows 7. New applications should not use this interface. .
 old-location: dshow\ixmlgraphbuilder.htm
 old-project: DirectShow
 ms.assetid: c30a8b33-7783-4987-aa65-ccba476ea937
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IXMLGraphBuilder, IXMLGraphBuilder interface [DirectShow], IXMLGraphBuilder interface [DirectShow],described, IXMLGraphBuilderInterface, amxmlgraphbuilder/IXMLGraphBuilder, dshow.ixmlgraphbuilder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: amxmlgraphbuilder.h
 req.include-header: 

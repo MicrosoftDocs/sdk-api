@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ITransferDestination.Advise
 title: ITransferDestination::Advise
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets up an advisory connection for notifications on the status of file operations.
 old-location: shell\ITransferDestination_Advise.htm
 old-project: shell
 ms.assetid: e25040dd-bb51-45cc-99fb-9113e26d0baa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],ITransferDestination interface, ITransferDestination interface [Windows Shell],Advise method, ITransferDestination.Advise, ITransferDestination::Advise, _shell_ITransferDestination_Advise, shell.ITransferDestination_Advise, shobjidl_core/ITransferDestination::Advise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

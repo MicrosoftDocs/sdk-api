@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetLcid
 title: ICreateTypeLib::SetLcid
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the binary Microsoft national language ID associated with the library.
 old-location: automat\icreatetypelib_setlcid.htm
 old-project: automat
 ms.assetid: 4281058b-a617-4504-bc36-b18763b40897
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetLcid method, ICreateTypeLib.SetLcid, ICreateTypeLib::SetLcid, SetLcid, SetLcid method [Automation], SetLcid method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetLcid, automat.icreatetypelib_setlcid, oaidl/ICreateTypeLib::SetLcid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

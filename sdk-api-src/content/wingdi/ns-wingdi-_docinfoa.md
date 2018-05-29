@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi._DOCINFOA
 title: "_DOCINFOA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DOCINFO structure contains the input and output file names and other information used by the StartDoc function.
 old-location: gdi\docinfo.htm
 old-project: printdocs
 ms.assetid: 329bf0d9-399b-4f64-a029-361ef7558aeb
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*LPDOCINFOA, DOCINFO, DOCINFO structure [Windows GDI], DOCINFOA, LPDOCINFO, LPDOCINFO structure pointer [Windows GDI], _DOCINFOA, _win32_DOCINFO_str, gdi.docinfo, wingdi/DOCINFO, wingdi/LPDOCINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

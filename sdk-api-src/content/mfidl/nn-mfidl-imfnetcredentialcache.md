@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFNetCredentialCache
 title: IMFNetCredentialCache
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets credentials from the credential cache.
 old-location: mf\imfnetcredentialcache.htm
 old-project: medfound
 ms.assetid: d02e26e7-e99c-4be7-8495-830eff2f1554
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFNetCredentialCache, IMFNetCredentialCache interface [Media Foundation], IMFNetCredentialCache interface [Media Foundation],described, d02e26e7-e99c-4be7-8495-830eff2f1554, mf.imfnetcredentialcache, mfidl/IMFNetCredentialCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptedBundleWriter
 title: IAppxEncryptedBundleWriter
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a write-only object model for encrypted bundle packages.
 old-location: appxpkg\iappxencryptedbundlewriter.htm
 old-project: appxpkg
 ms.assetid: E88355DA-F7BE-45C7-9DDB-EC39DB2AD280
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxEncryptedBundleWriter, IAppxEncryptedBundleWriter interface [App packaging and management], IAppxEncryptedBundleWriter interface [App packaging and management],described, appxpackaging/IAppxEncryptedBundleWriter, appxpkg.iappxencryptedbundlewriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

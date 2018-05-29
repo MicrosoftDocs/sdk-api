@@ -1,16 +1,16 @@
 ---
 UID: NF:mfreadwrite.MFCreateSinkWriterFromURL
 title: MFCreateSinkWriterFromURL function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates the sink writer from a URL or byte stream.
 old-location: mf\mfcreatesinkwriterfromurl.htm
 old-project: medfound
 ms.assetid: ac6a30c7-5e44-453a-8114-8d7d65332024
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateSinkWriterFromURL, MFCreateSinkWriterFromURL function [Media Foundation], mf.mfcreatesinkwriterfromurl, mfreadwrite/MFCreateSinkWriterFromURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfreadwrite.h
 req.include-header: 

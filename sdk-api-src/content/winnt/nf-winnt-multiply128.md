@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.Multiply128
 title: Multiply128 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Multiplies two 64-bit integers to produce a 128-bit integer.
 old-location: winprog\multiply128.htm
 old-project: WinProg
 ms.assetid: EB398E5B-1EE8-4BFA-889A-A46094F82B9F
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: Multiply128, Multiply128 function [Windows API], winnt/Multiply128, winprog.multiply128
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

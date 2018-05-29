@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.RSVP_HOP
 title: RSVP_HOP
-author: windows-driver-content
+author: windows-sdk-content
 description: The RSVP_HOP structure contains information about an RSVP-enabled hop.
 old-location: qos\rsvp_hop.htm
 old-project: QOS
 ms.assetid: 4b23bc0e-ccea-4161-93fa-b136099e88bd
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: RSVP_HOP, RSVP_HOP structure [QOS], lpmapi/RSVP_HOP, qos.rsvp_hop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

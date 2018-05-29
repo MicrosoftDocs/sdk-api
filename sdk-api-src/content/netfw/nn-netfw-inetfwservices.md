@@ -1,16 +1,16 @@
 ---
 UID: NN:netfw.INetFwServices
 title: INetFwServices
-author: windows-driver-content
+author: windows-sdk-content
 description: The INetFwServices interface is a standard Automation interface which provides access to a collection of services that may be authorized to listen through the firewall.
 old-location: ics\inetfwservices.htm
 old-project: ICS
 ms.assetid: b99464c5-dabc-405a-ad3e-da06a6faef47
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwServices, INetFwServices interface [ICS/ICF], INetFwServices interface [ICS/ICF],described, ics.inetfwservices, netfw/INetFwServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

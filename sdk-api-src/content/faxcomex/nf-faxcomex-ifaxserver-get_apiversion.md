@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_APIVersion
 title: IFaxServer::get_APIVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: The APIVersion property is a value that indicates the version of the fax server API.
 old-location: fax\_mfax_faxserver_apiversion_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_43vy.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: APIVersion property [Fax Service], APIVersion property [Fax Service],FaxServer object, FaxServer object [Fax Service],APIVersion property, FaxServer.APIVersion, IFaxServer.get_APIVersion, IFaxServer::get_APIVersion, _mfax_faxserver.apiversion, fax._mfax_faxserver_apiversion, fax._mfax_faxserver_apiversion_vb, get_APIVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

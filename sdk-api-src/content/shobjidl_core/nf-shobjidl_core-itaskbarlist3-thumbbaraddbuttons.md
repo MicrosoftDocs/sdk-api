@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.ThumbBarAddButtons
 title: ITaskbarList3::ThumbBarAddButtons
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a thumbnail toolbar with a specified set of buttons to the thumbnail image of a window in a taskbar button flyout.
 old-location: shell\ITaskbarList3_ThumbBarAddButtons.htm
 old-project: shell
 ms.assetid: 5d573879-aa90-41d9-a9b7-b813dafa78ae
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarAddButtons method, ITaskbarList3.ThumbBarAddButtons, ITaskbarList3::ThumbBarAddButtons, ThumbBarAddButtons, ThumbBarAddButtons method [Windows Shell], ThumbBarAddButtons method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_ThumbBarAddButtons, shell.ITaskbarList3_ThumbBarAddButtons, shobjidl_core/ITaskbarList3::ThumbBarAddButtons
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

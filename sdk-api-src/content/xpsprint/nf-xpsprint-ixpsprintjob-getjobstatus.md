@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsprint.IXpsPrintJob.GetJobStatus
 title: IXpsPrintJob::GetJobStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current status of the print job.
 old-location: gdi\ixpsprintjob_getjobstatus.htm
 old-project: printdocs
 ms.assetid: e2a55aec-f8a5-40b4-8c26-1488df49eed0
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetJobStatus, GetJobStatus method [Windows GDI], GetJobStatus method [Windows GDI],IXpsPrintJob interface, IXpsPrintJob interface [Windows GDI],GetJobStatus method, IXpsPrintJob.GetJobStatus, IXpsPrintJob::GetJobStatus, gdi.ixpsprintjob_getjobstatus, xpsprint/IXpsPrintJob::GetJobStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsprint.h
 req.include-header: 

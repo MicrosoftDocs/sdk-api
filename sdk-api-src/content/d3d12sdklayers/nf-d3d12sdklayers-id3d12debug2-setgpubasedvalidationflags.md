@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12Debug2.SetGPUBasedValidationFlags
 title: ID3D12Debug2::SetGPUBasedValidationFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: This method configures the level of GPU-based validation that the debug device is to perform at runtime.
 old-location: direct3d12\id3d12debug2_setgpubasedvalidationflags.htm
 old-project: direct3d12
 ms.assetid: EA774CC4-7675-46AA-9CDF-56C8B9507702
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12Debug2 interface,SetGPUBasedValidationFlags method, ID3D12Debug2.SetGPUBasedValidationFlags, ID3D12Debug2::SetGPUBasedValidationFlags, SetGPUBasedValidationFlags, SetGPUBasedValidationFlags method, SetGPUBasedValidationFlags method,ID3D12Debug2 interface, d3d12sdklayers/ID3D12Debug2::SetGPUBasedValidationFlags, direct3d12.id3d12debug2_setgpubasedvalidationflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

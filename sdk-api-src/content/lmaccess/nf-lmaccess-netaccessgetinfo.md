@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetAccessGetInfo
 title: NetAccessGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.
 old-location: netmgmt\netaccessgetinfo.htm
 old-project: NetMgmt
 ms.assetid: 76d818db-ce13-4879-9ba5-c26d13fe098a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0, 1, NetAccessGetInfo, NetAccessGetInfo function [Network Management], _win32_netaccessgetinfo, lmaccess/NetAccessGetInfo, netmgmt.netaccessgetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h

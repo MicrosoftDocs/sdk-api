@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.GetHostNameW
 title: GetHostNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetHostNameW function retrieves the standard host name for the local computer as a Unicode string.
 old-location: winsock\gethostnamew.htm
 old-project: WinSock
 ms.assetid: 787EB209-5944-4F0A-8550-FE1115C2298A
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: GetHostNameW, GetHostNameW function [Winsock], winsock.gethostnamew, winsock2/GetHostNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

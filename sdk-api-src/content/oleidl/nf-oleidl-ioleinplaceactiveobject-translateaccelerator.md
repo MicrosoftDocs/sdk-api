@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.TranslateAccelerator
 title: IOleInPlaceActiveObject::TranslateAccelerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Processes menu accelerator-key messages from the container's message queue. This method should only be used for objects created by a DLL object application.
 old-location: com\ioleinplaceactiveobject_translateaccelerator.htm
 old-project: com
 ms.assetid: ce460c52-c7aa-4ee4-955e-76407af7cf1e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],TranslateAccelerator method, IOleInPlaceActiveObject.TranslateAccelerator, IOleInPlaceActiveObject::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_translateaccelerator, com.ioleinplaceactiveobject_translateaccelerator, oleidl/IOleInPlaceActiveObject::TranslateAccelerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

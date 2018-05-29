@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMStorage2.SetAttributes2
 title: IWMDMStorage2::SetAttributes2
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetAttributes2 method sets extended attributes of the storage.
 old-location: wmdm\iwmdmstorage2_setattributes2.htm
 old-project: WMDM
 ms.assetid: 0a2e143e-8d6a-497e-9c45-fd3349c4ec97
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMStorage2 interface [windows Media Device Manager],SetAttributes2 method, IWMDMStorage2.SetAttributes2, IWMDMStorage2::SetAttributes2, IWMDMStorage2SetAttributes2, SetAttributes2, SetAttributes2 method [windows Media Device Manager], SetAttributes2 method [windows Media Device Manager],IWMDMStorage2 interface, mswmdm/IWMDMStorage2::SetAttributes2, wmdm.iwmdmstorage2_setattributes2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

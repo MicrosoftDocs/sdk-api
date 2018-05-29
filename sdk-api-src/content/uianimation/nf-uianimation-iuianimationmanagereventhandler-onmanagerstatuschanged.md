@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationManagerEventHandler.OnManagerStatusChanged
 title: IUIAnimationManagerEventHandler::OnManagerStatusChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles status changes to an animation manager.
 old-location: uianimation\iuianimationmanagereventhandler_onmanagerstatuschanged.htm
 old-project: UIAnimation
 ms.assetid: 17f98ff5-f18e-44be-a8bd-bc5a6467fa83
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationManagerEventHandler interface [Windows Animation],OnManagerStatusChanged method, IUIAnimationManagerEventHandler.OnManagerStatusChanged, IUIAnimationManagerEventHandler::OnManagerStatusChanged, OnManagerStatusChanged, OnManagerStatusChanged method [Windows Animation], OnManagerStatusChanged method [Windows Animation],IUIAnimationManagerEventHandler interface, uianimation.iuianimationmanagereventhandler_onmanagerstatuschanged, uianimation/IUIAnimationManagerEventHandler::OnManagerStatusChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

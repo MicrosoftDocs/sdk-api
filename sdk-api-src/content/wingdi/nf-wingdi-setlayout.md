@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.SetLayout
 title: SetLayout function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetLayout function changes the layout of a device context (DC).
 old-location: gdi\setlayout.htm
 old-project: gdi
 ms.assetid: 81c6dccd-cfb1-486f-8c25-f46ba7c3ff8d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LAYOUT_BITMAPORIENTATIONPRESERVED, LAYOUT_RTL, SetLayout, SetLayout function [Windows GDI], _win32_SetLayout, gdi.setlayout, wingdi/SetLayout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

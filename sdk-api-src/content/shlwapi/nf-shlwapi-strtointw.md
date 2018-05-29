@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrToIntW
 title: StrToIntW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a string that represents a decimal value to an integer. The StrToLong macro is identical to this function.
 old-location: shell\StrToInt.htm
 old-project: shell
 ms.assetid: 74313e56-a820-4d02-91f4-f629d2fc72d4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrToInt, StrToInt function [Windows Shell], StrToIntA, StrToIntW, _win32_StrToInt, shell.StrToInt, shlwapi/StrToInt, shlwapi/StrToIntA, shlwapi/StrToIntW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

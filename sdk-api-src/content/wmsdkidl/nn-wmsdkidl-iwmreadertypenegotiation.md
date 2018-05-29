@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMReaderTypeNegotiation
 title: IWMReaderTypeNegotiation
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMReaderTypeNegotiation interface provides a single method that can be used to test certain changes to the output properties of a stream.An IWMReaderTypeNegotiation interface exists for every reader object.
 old-location: wmformat\iwmreadertypenegotiation.htm
 old-project: wmformat
 ms.assetid: 289ca857-5421-47f8-927e-6ca4204a31f9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReaderTypeNegotiation, IWMReaderTypeNegotiation interface [windows Media Format], IWMReaderTypeNegotiation interface [windows Media Format],described, IWMReaderTypeNegotiationInterface, wmformat.iwmreadertypenegotiation, wmsdkidl/IWMReaderTypeNegotiation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

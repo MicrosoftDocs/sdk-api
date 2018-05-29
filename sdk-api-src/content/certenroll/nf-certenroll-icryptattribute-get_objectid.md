@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICryptAttribute.get_ObjectId
 title: ICryptAttribute::get_ObjectId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the object identifier (OID) for the attribute.
 old-location: security\icryptattribute_objectid_property.htm
 old-project: SecCertEnroll
 ms.assetid: 9ae9a217-1658-42ac-bd28-33abab5d0d70
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICryptAttribute interface [Security],ObjectId property, ICryptAttribute.ObjectId, ICryptAttribute.get_ObjectId, ICryptAttribute::ObjectId, ICryptAttribute::get_ObjectId, ObjectId property [Security], ObjectId property [Security],ICryptAttribute interface, certenroll/ICryptAttribute::ObjectId, certenroll/ICryptAttribute::get_ObjectId, get_ObjectId, security.icryptattribute_objectid_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

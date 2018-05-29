@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.EnumerateSessions
 title: ITsSbResourcePluginStore::EnumerateSessions
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates a specified set of sessions.
 old-location: termserv\itssbresourcepluginstore_enumeratesessions.htm
 old-project: TermServ
 ms.assetid: 217b5c28-b0f8-4a8f-8695-8c8e0895b508
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnumerateSessions, EnumerateSessions method [Remote Desktop Services], EnumerateSessions method [Remote Desktop Services],ITsSbResourcePluginStore interface, EnumerateSessions method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],EnumerateSessions method, ITsSbResourcePluginStore.EnumerateSessions, ITsSbResourcePluginStore::EnumerateSessions, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],EnumerateSessions method, ITsSbResourcePluginStoreEx::EnumerateSessions, sbtsv/ITsSbResourcePluginStore::EnumerateSessions, sbtsv/ITsSbResourcePluginStoreEx::EnumerateSessions, termserv.itssbresourcepluginstore_enumeratesessions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

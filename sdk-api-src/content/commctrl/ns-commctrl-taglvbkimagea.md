@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagLVBKIMAGEA
 title: tagLVBKIMAGEA
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the background image of a list-view control. This structure is used for both setting and retrieving background image information.
 old-location: controls\LVBKIMAGE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvbkimage.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPLVBKIMAGEA, LPLVBKIMAGE, LPLVBKIMAGE structure pointer [Windows Controls], LVBKIF_FLAG_ALPHABLEND, LVBKIF_FLAG_TILEOFFSET, LVBKIF_SOURCE_HBITMAP, LVBKIF_SOURCE_NONE, LVBKIF_SOURCE_URL, LVBKIF_STYLE_NORMAL, LVBKIF_STYLE_TILE, LVBKIF_TYPE_WATERMARK, LVBKIMAGE, LVBKIMAGE structure [Windows Controls], LVBKIMAGEA, LVBKIMAGEW, _win32_LVBKIMAGE, _win32_LVBKIMAGE_cpp, commctrl/LPLVBKIMAGE, commctrl/LVBKIMAGE, commctrl/LVBKIMAGEA, commctrl/LVBKIMAGEW, controls.LVBKIMAGE, controls._win32_LVBKIMAGE, tagLVBKIMAGEA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

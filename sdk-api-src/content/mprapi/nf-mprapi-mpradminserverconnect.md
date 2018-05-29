@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminServerConnect
 title: MprAdminServerConnect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminServerConnect function establishes a connection to a router for the purpose of administering that router.
 old-location: rras\mpradminserverconnect.htm
 old-project: RRAS
 ms.assetid: f93b37bc-d3d1-40f0-aef6-839bb43c88e2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminServerConnect, MprAdminServerConnect function [RAS], _mpr_mpradminserverconnect, mprapi/MprAdminServerConnect, rras.mpradminserverconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

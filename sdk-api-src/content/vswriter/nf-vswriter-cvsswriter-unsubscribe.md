@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.CVssWriter.Unsubscribe
 title: CVssWriter::Unsubscribe
-author: windows-driver-content
+author: windows-sdk-content
 description: The Unsubscribe method unsubscribes the writer with VSS.
 old-location: base\cvsswriter_unsubscribe.htm
 old-project: VSS
 ms.assetid: b2bb68d1-7beb-4ba1-b16d-6314ac3f4a3d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CVssWriter interface [VSS],Unsubscribe method, CVssWriter.Unsubscribe, CVssWriter::Unsubscribe, Unsubscribe, Unsubscribe method [VSS], Unsubscribe method [VSS],CVssWriter interface, _win32_cvsswriter_unsubscribe, base.cvsswriter_unsubscribe, vswriter/CVssWriter::Unsubscribe
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0000_0002
 title: "__MIDL___MIDL_itf_UIAnimation_0000_0000_0002"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the activity status of an animation manager.
 old-location: uianimation\ui_animation_manager_status.htm
 old-project: UIAnimation
 ms.assetid: 499c74c0-d1e7-4ab4-9c3a-19c2e1abeda8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UI_ANIMATION_MANAGER_BUSY, UI_ANIMATION_MANAGER_IDLE, UI_ANIMATION_MANAGER_STATUS, UI_ANIMATION_MANAGER_STATUS enumeration [Windows Animation], __MIDL___MIDL_itf_UIAnimation_0000_0000_0002, uianimation.ui_animation_manager_status, uianimation/UI_ANIMATION_MANAGER_BUSY, uianimation/UI_ANIMATION_MANAGER_IDLE, uianimation/UI_ANIMATION_MANAGER_STATUS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: uianimation.h
 req.include-header: 

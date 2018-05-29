@@ -1,16 +1,16 @@
 ---
 UID: NS:directxpackedvector.XMUSHORTN4
 title: XMUSHORTN4
-author: windows-driver-content
+author: windows-sdk-content
 description: A 4D vector for storing unsigned, normalized values as signed 16-bit integers (type uint16_t).
 old-location: dxmath\xmushortn4.htm
 old-project: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUSHORTN4
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: XMUSHORTN4, XMUSHORTN4 structure [DirectX Math Support APIs], directxpackedvector/XMUSHORTN4, dxmath.xmushortn4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: directxpackedvector.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateDownloadContentCollection.get_Item
 title: IUpdateDownloadContentCollection::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the download content for an update from an IUpdateDownloadContentCollection interface.
 old-location: wua\iupdatedownloadcontentcollection_item.htm
 old-project: Wua_Sdk
 ms.assetid: 64684a77-e264-40a5-a517-e4b58947c613
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateDownloadContentCollection interface [Windows Update Agent],Item property, IUpdateDownloadContentCollection.Item, IUpdateDownloadContentCollection.get_Item, IUpdateDownloadContentCollection::Item, IUpdateDownloadContentCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],IUpdateDownloadContentCollection interface, get_Item, wua.iupdatedownloadcontentcollection_item, wuapi/IUpdateDownloadContentCollection::Item, wuapi/IUpdateDownloadContentCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

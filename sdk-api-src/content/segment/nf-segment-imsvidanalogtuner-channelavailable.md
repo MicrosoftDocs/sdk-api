@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.ChannelAvailable
 title: IMSVidAnalogTuner::ChannelAvailable
-author: windows-driver-content
+author: windows-sdk-content
 description: The ChannelAvailable method queries whether a specified channel is available for viewing.
 old-location: mstv\imsvidanalogtuner_channelavailable.htm
 old-project: mstv
 ms.assetid: 67533d80-6026-434f-a20f-ded3c119d318
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ChannelAvailable, ChannelAvailable method [Microsoft TV Technologies], ChannelAvailable method [Microsoft TV Technologies],IMSVidAnalogTuner interface, IMSVidAnalogTuner interface [Microsoft TV Technologies],ChannelAvailable method, IMSVidAnalogTuner.ChannelAvailable, IMSVidAnalogTuner::ChannelAvailable, IMSVidAnalogTunerChannelAvailable, mstv.imsvidanalogtuner_channelavailable, segment/IMSVidAnalogTuner::ChannelAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

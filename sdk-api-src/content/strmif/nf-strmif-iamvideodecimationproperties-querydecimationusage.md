@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMVideoDecimationProperties.QueryDecimationUsage
 title: IAMVideoDecimationProperties::QueryDecimationUsage
-author: windows-driver-content
+author: windows-sdk-content
 description: The QueryDecimationUsage method retrieves the current decimation strategy.
 old-location: dshow\iamvideodecimationproperties_querydecimationusage.htm
 old-project: DirectShow
 ms.assetid: 3addb9be-61df-4310-9066-85f75c64aae4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMVideoDecimationProperties interface [DirectShow],QueryDecimationUsage method, IAMVideoDecimationProperties.QueryDecimationUsage, IAMVideoDecimationProperties::QueryDecimationUsage, IAMVideoDecimationPropertiesQueryDecimationUsage, QueryDecimationUsage, QueryDecimationUsage method [DirectShow], QueryDecimationUsage method [DirectShow],IAMVideoDecimationProperties interface, dshow.iamvideodecimationproperties_querydecimationusage, strmif/IAMVideoDecimationProperties::QueryDecimationUsage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

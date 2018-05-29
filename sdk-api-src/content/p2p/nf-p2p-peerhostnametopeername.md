@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerHostNameToPeerName
 title: PeerHostNameToPeerName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Decodes a host name returned by PeerNameToPeerHostName into the peer name string it represents.
 old-location: p2p\peerhostnametopeername.htm
 old-project: P2PSdk
 ms.assetid: 3150d37e-84a3-4386-b38c-b37f7d6642cc
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerHostNameToPeerName, PeerHostNameToPeerName function [Peer Networking], p2p.peerhostnametopeername, p2p/PeerHostNameToPeerName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetChaining
 title: IDirectManipulationViewport::SetChaining
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the motion types supported in a viewport that can be chained to a parent viewport.
 old-location: directmanipulation\idirectmanipulationviewport_setchaining.htm
 old-project: directmanipulation
 ms.assetid: c172e985-4dc4-4d2a-a9e1-d88bc86ff75b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetChaining method, IDirectManipulationViewport.SetChaining, IDirectManipulationViewport::SetChaining, SetChaining, SetChaining method [Direct Manipulation], SetChaining method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setchaining, directmanipulation/IDirectManipulationViewport::SetChaining
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

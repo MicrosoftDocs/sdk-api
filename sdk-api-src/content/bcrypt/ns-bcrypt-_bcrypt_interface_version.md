@@ -1,16 +1,16 @@
 ---
 UID: NS:bcrypt._BCRYPT_INTERFACE_VERSION
 title: "_BCRYPT_INTERFACE_VERSION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains version information for a programmatic interface for a CNG provider.
 old-location: security\bcrypt_interface_version.htm
 old-project: SecCNG
 ms.assetid: d89e819e-7cbc-4f19-85c5-08c1ecab3bdd
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: "*PBCRYPT_INTERFACE_VERSION, BCRYPT_INTERFACE_VERSION, BCRYPT_INTERFACE_VERSION structure [Security], PBCRYPT_INTERFACE_VERSION, PBCRYPT_INTERFACE_VERSION structure pointer [Security], _BCRYPT_INTERFACE_VERSION, bcrypt/BCRYPT_INTERFACE_VERSION, bcrypt/PBCRYPT_INTERFACE_VERSION, security.bcrypt_interface_version"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

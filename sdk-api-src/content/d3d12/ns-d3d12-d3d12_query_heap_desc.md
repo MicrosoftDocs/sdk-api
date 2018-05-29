@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_QUERY_HEAP_DESC
 title: D3D12_QUERY_HEAP_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the purpose of a query heap. A query heap contains an array of individual queries.
 old-location: direct3d12\d3d12_query_heap_desc.htm
 old-project: direct3d12
 ms.assetid: 1B1CB0D8-B370-4D38-BDA9-21C58D6A8F15
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_QUERY_HEAP_DESC, D3D12_QUERY_HEAP_DESC structure, d3d12/D3D12_QUERY_HEAP_DESC, direct3d12.d3d12_query_heap_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

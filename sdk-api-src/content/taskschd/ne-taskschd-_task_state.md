@@ -1,16 +1,16 @@
 ---
 UID: NE:taskschd._TASK_STATE
 title: "_TASK_STATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the different states that a registered task can be in.
 old-location: taskschd\task_state.htm
 old-project: TaskSchd
 ms.assetid: 89fd8b0b-1cdf-4222-99cc-d8c55a3e68d6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: TASK_STATE, TASK_STATE enumeration [Task Scheduler], TASK_STATE_DISABLED, TASK_STATE_QUEUED, TASK_STATE_READY, TASK_STATE_RUNNING, TASK_STATE_UNKNOWN, _TASK_STATE, taskschd.task_state, taskschd/TASK_STATE, taskschd/TASK_STATE_DISABLED, taskschd/TASK_STATE_QUEUED, taskschd/TASK_STATE_READY, taskschd/TASK_STATE_RUNNING, taskschd/TASK_STATE_UNKNOWN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: taskschd.h
 req.include-header: 

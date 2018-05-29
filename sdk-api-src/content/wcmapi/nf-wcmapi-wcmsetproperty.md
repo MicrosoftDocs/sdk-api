@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmapi.WcmSetProperty
 title: WcmSetProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of a WCM property.
 old-location: wcm\wcmsetproperty.htm
 old-project: wcm
 ms.assetid: 79985d5e-a6a1-447c-b12e-11c6022c19a6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WcmSetProperty, WcmSetProperty function [Windows Connection Manager], wcm.wcmsetproperty, wcmapi/WcmSetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wcmapi.h
 req.include-header: 

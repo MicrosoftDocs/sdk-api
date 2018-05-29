@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Gain
 title: IVideoProcAmp::getRange_Gain
-author: windows-driver-content
+author: windows-sdk-content
 description: The getRange_Gain method returns the range of gain settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_gain.htm
 old-project: DirectShow
 ms.assetid: a039cece-ee44-43e0-ade9-5a7e1d9a1c11
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Gain method, IVideoProcAmp.getRange_Gain, IVideoProcAmp::getRange_Gain, IVideoProcAmpgetRange_Gain, dshow.ivideoprocamp_getrange_gain, getRange_Gain, getRange_Gain method [DirectShow], getRange_Gain method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Gain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

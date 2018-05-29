@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsdefender.WDEnable
 title: WDEnable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes Windows Defender status to on or off.
 old-location: lwef\defender_wdenable.htm
 old-project: lwef
 ms.assetid: a12d3b2a-6873-4ef4-90d6-08dbd5feb959
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.author: windowssdkdev
+ms.date: 04/27/2018
 ms.keywords: WDEnable, WDEnable function [Legacy Windows Environment Features], lwef.defender_wdenable, shell.defender_wdenable, shell_defender_WDEnable, windowsdefender/WDEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: windowsdefender.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.IsWindowedStereoEnabled
 title: IDXGIFactory2::IsWindowedStereoEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether to use stereo mode.
 old-location: direct3ddxgi\idxgifactory2_iswindowedstereoenabled.htm
 old-project: direct3ddxgi
 ms.assetid: 81DA1DD6-7D36-4848-ADCB-1F7B765B0A62
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIFactory2 interface [DXGI],IsWindowedStereoEnabled method, IDXGIFactory2.IsWindowedStereoEnabled, IDXGIFactory2::IsWindowedStereoEnabled, IsWindowedStereoEnabled, IsWindowedStereoEnabled method [DXGI], IsWindowedStereoEnabled method [DXGI],IDXGIFactory2 interface, direct3ddxgi.idxgifactory2_iswindowedstereoenabled, dxgi1_2/IDXGIFactory2::IsWindowedStereoEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

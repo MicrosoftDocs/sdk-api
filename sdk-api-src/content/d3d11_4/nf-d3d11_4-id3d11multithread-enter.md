@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_4.ID3D11Multithread.Enter
 title: ID3D11Multithread::Enter
-author: windows-driver-content
+author: windows-sdk-content
 description: Enter a device's critical section.
 old-location: direct3d11\id3d11multithread_enter.htm
 old-project: direct3d11
 ms.assetid: A742D03A-0A47-4B08-952A-836A272D1519
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: Enter, Enter method [Direct3D 11], Enter method [Direct3D 11],ID3D11Multithread interface, ID3D11Multithread interface [Direct3D 11],Enter method, ID3D11Multithread.Enter, ID3D11Multithread::Enter, d3d11_4/ID3D11Multithread::Enter, direct3d11.id3d11multithread_enter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_4.h
 req.include-header: 

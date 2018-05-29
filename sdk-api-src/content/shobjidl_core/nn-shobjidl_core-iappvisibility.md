@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IAppVisibility
 title: IAppVisibility
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides functionality to determine whether the display is showing Windows Store apps.
 old-location: shell\IAppVisibility.htm
 old-project: shell
 ms.assetid: 89E26D36-3536-45F5-9396-83CCFB26890B
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAppVisibility, IAppVisibility interface [Windows Shell], IAppVisibility interface [Windows Shell],described, shell.IAppVisibility, shobjidl_core/IAppVisibility
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

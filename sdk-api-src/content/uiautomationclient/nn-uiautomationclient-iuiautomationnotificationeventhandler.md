@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationNotificationEventHandler
 title: IUIAutomationNotificationEventHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method to handle Microsoft UI Automation notification events.
 old-location: winauto\uiauto_IUIAutomationNotificationEventHandler.htm
 old-project: WinAuto
 ms.assetid: 7E12B8C2-D6A7-4637-9049-312B78EC01DE
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationNotificationEventHandler, IUIAutomationNotificationEventHandler interface [Windows Accessibility], IUIAutomationNotificationEventHandler interface [Windows Accessibility],described, uiautomationclient/IUIAutomationNotificationEventHandler, winauto.uiauto_IUIAutomationNotificationEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

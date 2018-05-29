@@ -1,16 +1,16 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetDataFromIDList(PCUIDLIST_RELATIVE)
 title: CItemIDFactory::GetDataFromIDList(PCUIDLIST_RELATIVE)
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a read only pointer to the client provided structure in the first ItemID in the IDList.
 old-location: shell\citemidfactory_getdatafromidlist.htm
 old-project: shell
 ms.assetid: E3E2233D-F424-4BF9-AAC4-4DC2FB75E214
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetDataFromIDList method, CItemIDFactory.GetDataFromIDList, CItemIDFactory.GetDataFromIDList(PCUIDLIST_RELATIVE), CItemIDFactory::GetDataFromIDList, CItemIDFactory::GetDataFromIDList(PCUIDLIST_RELATIVE), GetDataFromIDList, GetDataFromIDList method [Windows Shell], GetDataFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getdatafromidlist, shidfact/CItemIDFactory::GetDataFromIDList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shidfact.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PCLOSE_CLUSTER_CRYPT_PROVIDER
 title: PCLOSE_CLUSTER_CRYPT_PROVIDER
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a handle to a Cryptographic Service Provider (CSP). The PCLOSE_CLUSTER_CRYPT_PROVIDER type defines a pointer to this function.
 old-location: mscs\closeclustercryptprovider.htm
 old-project: MsCS
 ms.assetid: 844D991A-6B29-4ADE-8CFE-114FD4AF7C9B
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLOSE_CLUSTER_CRYPT_PROVIDER, PCLOSE_CLUSTER_CRYPT_PROVIDER callback, PCLOSE_CLUSTER_CRYPT_PROVIDER callback function [Failover Cluster], mscs.closeclustercryptprovider, resapi/PCLOSE_CLUSTER_CRYPT_PROVIDER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

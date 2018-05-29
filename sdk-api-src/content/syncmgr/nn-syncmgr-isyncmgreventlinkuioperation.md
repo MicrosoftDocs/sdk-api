@@ -1,16 +1,16 @@
 ---
 UID: NN:syncmgr.ISyncMgrEventLinkUIOperation
 title: ISyncMgrEventLinkUIOperation
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method that is called when event links are clicked in the sync results folder.
 old-location: shell\ISyncMgrEventLinkUIOperation.htm
 old-project: shell
 ms.assetid: 53ea9488-77e0-4eb2-86d3-88747ba44654
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrEventLinkUIOperation, ISyncMgrEventLinkUIOperation interface [Windows Shell], ISyncMgrEventLinkUIOperation interface [Windows Shell],described, _shell_ISyncMgrEventLinkUIOperation, shell.ISyncMgrEventLinkUIOperation, syncmgr/ISyncMgrEventLinkUIOperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

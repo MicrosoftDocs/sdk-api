@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.GetTransactionId
 title: GetTransactionId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the identifier (ID) for the specified transaction.
 old-location: fs\gettransactionid.htm
 old-project: Ktm
 ms.assetid: 10f4729f-3e6e-469a-8f72-48c29735e7b1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetTransactionId, GetTransactionId function [Files], fs.gettransactionid, ktmw32/GetTransactionId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

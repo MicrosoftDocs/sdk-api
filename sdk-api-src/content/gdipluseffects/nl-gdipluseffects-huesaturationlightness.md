@@ -1,16 +1,16 @@
 ---
 UID: NL:gdipluseffects.HueSaturationLightness
 title: HueSaturationLightness
-author: windows-driver-content
+author: windows-sdk-content
 description: The HueSaturationLightness class enables you to change the hue, saturation, and lightness of a bitmap.
 old-location: gdiplus\_gdiplus_CLASS_HueSaturationLightness_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\huesaturationlightness.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HueSaturationLightness, HueSaturationLightness class [GDI+], HueSaturationLightness class [GDI+],described, _gdiplus_CLASS_HueSaturationLightness_Class, gdiplus._gdiplus_CLASS_HueSaturationLightness_Class, gdipluseffects/HueSaturationLightness
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: gdipluseffects.h
 req.include-header: 

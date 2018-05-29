@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncKnowledge.FindMinTickCountForReplica
 title: ISyncKnowledge::FindMinTickCountForReplica
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds the minimum tick count in the knowledge for the specified replica.
 old-location: winsync\isyncknowledge_findmintickcountforreplica.htm
 old-project: winsync
 ms.assetid: 6a1a3fb2-b656-4ecf-8fed-dc5f20cd22f1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: FindMinTickCountForReplica, FindMinTickCountForReplica method [Windows Sync], FindMinTickCountForReplica method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],FindMinTickCountForReplica method, ISyncKnowledge.FindMinTickCountForReplica, ISyncKnowledge::FindMinTickCountForReplica, winsync.isyncknowledge_findmintickcountforreplica, winsync/ISyncKnowledge::FindMinTickCountForReplica
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

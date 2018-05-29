@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetStream
 title: IMFASFProfile::GetStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a stream from the profile by stream index, and/or retrieves the stream number for a stream index.
 old-location: mf\imfasfprofile_getstream.htm
 old-project: medfound
 ms.assetid: 918f6534-811e-42f6-9836-1c77816007fa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 918f6534-811e-42f6-9836-1c77816007fa, GetStream, GetStream method [Media Foundation], GetStream method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetStream method, IMFASFProfile.GetStream, IMFASFProfile::GetStream, mf.imfasfprofile_getstream, wmcontainer/IMFASFProfile::GetStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

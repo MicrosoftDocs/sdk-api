@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetBackupState
 title: IVssBackupComponents::SetBackupState
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetBackupState method defines an overall configuration for a backup operation.
 old-location: base\ivssbackupcomponents_setbackupstate.htm
 old-project: VSS
 ms.assetid: 18a1295d-b763-477b-bda2-baf8a878bf46
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetBackupState method, IVssBackupComponents.SetBackupState, IVssBackupComponents::SetBackupState, SetBackupState, SetBackupState method [VSS], SetBackupState method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupstate, base.ivssbackupcomponents_setbackupstate, vsbackup/IVssBackupComponents::SetBackupState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

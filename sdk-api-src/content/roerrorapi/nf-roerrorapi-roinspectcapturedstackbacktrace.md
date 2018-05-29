@@ -1,16 +1,16 @@
 ---
 UID: NF:roerrorapi.RoInspectCapturedStackBackTrace
 title: RoInspectCapturedStackBackTrace function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a way to for debuggers to inspect a call stack from a target process.
 old-location: winrt\roinspectcapturedstackbacktrace.htm
 old-project: WinRT
 ms.assetid: 2C5B04DD-888B-4400-A01D-CDF9DD870584
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoInspectCapturedStackBackTrace, RoInspectCapturedStackBackTrace function [Windows Runtime], roerrorapi/RoInspectCapturedStackBackTrace, winrt.roinspectcapturedstackbacktrace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Sharpness
 title: IVideoProcAmp::put_Sharpness
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Sharpness method sets the camera's sharpness setting.
 old-location: dshow\ivideoprocamp_put_sharpness.htm
 old-project: DirectShow
 ms.assetid: a47e8f21-29ec-4845-97b2-1a9d6478afa6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Sharpness method, IVideoProcAmp.put_Sharpness, IVideoProcAmp::put_Sharpness, IVideoProcAmpput_Sharpness, dshow.ivideoprocamp_put_sharpness, put_Sharpness, put_Sharpness method [DirectShow], put_Sharpness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Sharpness
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

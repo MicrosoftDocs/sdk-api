@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptuiapi.CryptUIWizExport
 title: CryptUIWizExport function
-author: windows-driver-content
+author: windows-sdk-content
 description: Exports a certificate, a certificate trust list (CTL), a certificate revocation list (CRL), or a certificate store to a file.
 old-location: security\cryptuiwizexport.htm
 old-project: SecCrypto
 ms.assetid: 62537d51-c761-4180-b857-58c819ea66aa
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPTUI_WIZ_EXPORT_NO_DELETE_PRIVATE_KEY, CRYPTUI_WIZ_EXPORT_PRIVATE_KEY, CRYPTUI_WIZ_IGNORE_NO_UI_FLAG_FOR_CSPS, CRYPTUI_WIZ_NO_UI, CRYPTUI_WIZ_NO_UI_EXCEPT_CSP, CryptUIWizExport, CryptUIWizExport function [Security], cryptuiapi/CryptUIWizExport, security.cryptuiwizexport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptuiapi.h
 req.include-header: 

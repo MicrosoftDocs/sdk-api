@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IEnumNames
 title: IEnumNames
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates names.
 old-location: cos\ienumnames.htm
 old-project: cossdk
 ms.assetid: 9f70b554-3cdd-4a4b-b180-c6de6182a46a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumNames, IEnumNames interface [COM+], IEnumNames interface [COM+],described, _cos_IEnumNames, comsvcs/IEnumNames, cos.ienumnames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

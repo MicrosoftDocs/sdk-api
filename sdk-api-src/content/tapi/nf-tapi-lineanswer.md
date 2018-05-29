@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineAnswer
 title: lineAnswer function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineAnswer function answers the specified offering call.
 old-location: tapi2\lineanswer.htm
 old-project: Tapi
 ms.assetid: dd51991c-c044-4b88-8f97-9e0ae701a2a5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_lineanswer, lineAnswer, lineAnswer function [TAPI 2.2], tapi/lineAnswer, tapi2.lineanswer"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.RSVP_SCOPE
 title: RSVP_SCOPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The RSVP_SCOPE structure provides RSVP scope information.
 old-location: qos\rsvp_scope.htm
 old-project: QOS
 ms.assetid: 64a7e461-d767-4571-97ca-cf7862a05d18
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: RSVP_SCOPE, RSVP_SCOPE structure [QOS], lpmapi/RSVP_SCOPE, qos.rsvp_scope
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

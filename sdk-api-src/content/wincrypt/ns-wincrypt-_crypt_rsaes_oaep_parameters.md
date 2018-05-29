@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_RSAES_OAEP_PARAMETERS
 title: "_CRYPT_RSAES_OAEP_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the parameters for an RSAES-OAEP key encryption.
 old-location: security\crypt_rsaes_oaep_parameters.htm
 old-project: SecCrypto
 ms.assetid: ebcd25a2-2547-4949-85fd-be5f6c5bfcd2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_RSAES_OAEP_PARAMETERS, CRYPT_RSAES_OAEP_PARAMETERS, CRYPT_RSAES_OAEP_PARAMETERS structure [Security], PCRYPT_RSAES_OAEP_PARAMETERS, PCRYPT_RSAES_OAEP_PARAMETERS structure pointer [Security], _CRYPT_RSAES_OAEP_PARAMETERS, security.crypt_rsaes_oaep_parameters, wincrypt/CRYPT_RSAES_OAEP_PARAMETERS, wincrypt/PCRYPT_RSAES_OAEP_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

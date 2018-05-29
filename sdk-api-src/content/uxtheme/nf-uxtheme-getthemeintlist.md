@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemeIntList
 title: GetThemeIntList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of int data from a visual style.
 old-location: controls\GetThemeIntList.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeintlist.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemeIntList, GetThemeIntList function [Windows Controls], controls.GetThemeIntList, controls.inet_GetThemeIntList, inet_GetThemeIntList, inet_GetThemeIntList_cpp, uxtheme/GetThemeIntList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

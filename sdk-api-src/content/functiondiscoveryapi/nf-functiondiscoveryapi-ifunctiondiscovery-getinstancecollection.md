@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.GetInstanceCollection
 title: IFunctionDiscovery::GetInstanceCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the specified collection of function instances, based on category and subcategory.
 old-location: ncd\ifunctiondiscovery_getinstancecollection_method.htm
 old-project: FunDisc
 ms.assetid: 615d252c-7365-4ef5-9e4f-94a49783a1bb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetInstanceCollection, GetInstanceCollection method, GetInstanceCollection method,IFunctionDiscovery interface, IFunctionDiscovery interface,GetInstanceCollection method, IFunctionDiscovery.GetInstanceCollection, IFunctionDiscovery::GetInstanceCollection, functiondiscoveryapi/IFunctionDiscovery::GetInstanceCollection, ncd.ifunctiondiscovery_getinstancecollection_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 

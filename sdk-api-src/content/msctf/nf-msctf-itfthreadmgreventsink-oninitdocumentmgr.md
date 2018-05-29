@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfThreadMgrEventSink.OnInitDocumentMgr
 title: ITfThreadMgrEventSink::OnInitDocumentMgr
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfThreadMgrEventSink::OnInitDocumentMgr method
 old-location: tsf\itfthreadmgreventsink_oninitdocumentmgr.htm
 old-project: TSF
 ms.assetid: 18586e51-66b6-4071-88b4-9b92d5449a45
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnInitDocumentMgr method, ITfThreadMgrEventSink.OnInitDocumentMgr, ITfThreadMgrEventSink::OnInitDocumentMgr, OnInitDocumentMgr, OnInitDocumentMgr method [Text Services Framework], OnInitDocumentMgr method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_oninitdocumentmgr_ref, msctf/ITfThreadMgrEventSink::OnInitDocumentMgr, tsf.itfthreadmgreventsink_oninitdocumentmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

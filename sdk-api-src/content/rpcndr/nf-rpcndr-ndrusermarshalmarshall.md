@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrUserMarshalMarshall
 title: NdrUserMarshalMarshall function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrUserMarshalMarshall function marshals the supplied data buffer.
 old-location: rpc\ndrusermarshalmarshall.htm
 old-project: Rpc
 ms.assetid: 9c89f342-2356-4a58-81bf-f9e53535468e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrUserMarshalMarshall, NdrUserMarshalMarshall function [RPC], rpc.ndrusermarshalmarshall, rpcndr/NdrUserMarshalMarshall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

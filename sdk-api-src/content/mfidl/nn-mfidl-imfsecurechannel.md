@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFSecureChannel
 title: IMFSecureChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: Establishes a one-way secure channel between two objects.
 old-location: mf\imfsecurechannel.htm
 old-project: medfound
 ms.assetid: 063170b8-9483-4acd-9b42-a226e9c38f0e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 063170b8-9483-4acd-9b42-a226e9c38f0e, IMFSecureChannel, IMFSecureChannel interface [Media Foundation], IMFSecureChannel interface [Media Foundation],described, mf.imfsecurechannel, mfidl/IMFSecureChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

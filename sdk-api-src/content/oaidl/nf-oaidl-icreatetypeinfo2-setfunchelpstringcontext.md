@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetFuncHelpStringContext
 title: ICreateTypeInfo2::SetFuncHelpStringContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a Help context value for a specified function.
 old-location: automat\icreatetypeinfo2_setfunchelpstringcontext.htm
 old-project: automat
 ms.assetid: ee0fad66-632e-48f7-bd38-b17c82be555b
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetFuncHelpStringContext method, ICreateTypeInfo2.SetFuncHelpStringContext, ICreateTypeInfo2::SetFuncHelpStringContext, SetFuncHelpStringContext, SetFuncHelpStringContext method [Automation], SetFuncHelpStringContext method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetFuncHelpStringContext, automat.icreatetypeinfo2_setfunchelpstringcontext, oaidl/ICreateTypeInfo2::SetFuncHelpStringContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

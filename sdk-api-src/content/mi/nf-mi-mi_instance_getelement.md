@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Instance_GetElement
 title: MI_Instance_GetElement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of the named element (CIM property).
 old-location: wmi_v2\mi_instance_getelement.htm
 old-project: wmi_v2
 ms.assetid: 1e366cc5-0fb9-41c9-961c-07b076a18529
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_FLAG_IN, MI_FLAG_KEY, MI_FLAG_NULL, MI_FLAG_OUT, MI_Instance_GetElement, MI_Instance_GetElement function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetElement, wmi_v2.mi_instance_getelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

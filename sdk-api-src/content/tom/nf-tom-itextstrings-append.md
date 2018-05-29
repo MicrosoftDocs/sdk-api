@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextStrings.Append
 title: ITextStrings::Append
-author: windows-driver-content
+author: windows-sdk-content
 description: Appends a string to the string at the specified index in the collection.
 old-location: controls\itextstrings_append.htm
 old-project: Controls
 ms.assetid: e280008b-b41e-43e3-9f16-6fe1f88e10ea
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Append, Append method [Windows Controls], Append method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],Append method, ITextStrings.Append, ITextStrings::Append, controls.itextstrings_append, tom/ITextStrings::Append
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

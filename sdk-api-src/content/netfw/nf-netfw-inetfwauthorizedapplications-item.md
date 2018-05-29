@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.Item
 title: INetFwAuthorizedApplications::Item
-author: windows-driver-content
+author: windows-sdk-content
 description: The Item method returns the specified application if it is in the collection.
 old-location: ics\inetfwauthorizedapplications_item.htm
 old-project: ICS
 ms.assetid: 3c9eac16-9ba5-43f6-b52e-4340598745d8
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwAuthorizedApplications interface [ICS/ICF],Item method, INetFwAuthorizedApplications.Item, INetFwAuthorizedApplications::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwAuthorizedApplications interface, ics.inetfwauthorizedapplications_item, netfw/INetFwAuthorizedApplications::Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

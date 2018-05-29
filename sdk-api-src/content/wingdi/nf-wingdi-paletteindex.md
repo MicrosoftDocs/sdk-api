@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.PALETTEINDEX
 title: PALETTEINDEX macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The PALETTEINDEX macro accepts an index to a logical-color palette entry and returns a palette-entry specifier consisting of a COLORREF value that specifies the color associated with the given index.
 old-location: gdi\paletteindex.htm
 old-project: gdi
 ms.assetid: 76d859fa-11a5-451f-9d7a-9cf0740eca36
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PALETTEINDEX, PALETTEINDEX macro [Windows GDI], _win32_PALETTEINDEX, gdi.paletteindex, wingdi/PALETTEINDEX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: wingdi.h
 req.include-header: Windows.h

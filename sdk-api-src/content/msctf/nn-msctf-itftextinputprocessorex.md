@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfTextInputProcessorEx
 title: ITfTextInputProcessorEx
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfTextInputProcessorEx interface is implemented by a text service and used by the TSF manager to activate and deactivate the text service.
 old-location: tsf\itftextinputprocessorex.htm
 old-project: TSF
 ms.assetid: fc762a6f-8d15-4082-9588-fc77fa565549
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfTextInputProcessorEx, ITfTextInputProcessorEx interface [Text Services Framework], ITfTextInputProcessorEx interface [Text Services Framework],described, _tsf_itftextinputprocessorex_ref, msctf/ITfTextInputProcessorEx, tsf.itftextinputprocessorex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

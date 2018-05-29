@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetHelpContext
 title: ICreateTypeInfo::SetHelpContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Help context ID of the type information.
 old-location: automat\icreatetypeinfo_sethelpcontext.htm
 old-project: automat
 ms.assetid: 8f61500a-29b5-48e4-b8ee-584cf5430274
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetHelpContext method, ICreateTypeInfo.SetHelpContext, ICreateTypeInfo::SetHelpContext, SetHelpContext, SetHelpContext method [Automation], SetHelpContext method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetHelpContext, automat.icreatetypeinfo_sethelpcontext, oaidl/ICreateTypeInfo::SetHelpContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

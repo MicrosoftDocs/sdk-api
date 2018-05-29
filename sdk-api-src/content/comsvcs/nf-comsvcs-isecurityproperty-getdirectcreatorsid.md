@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.GetDirectCreatorSID
 title: ISecurityProperty::GetDirectCreatorSID
-author: windows-driver-content
+author: windows-sdk-content
 description: In MTS 2.0, this method retrieves the security identifier of the external process that directly created the current object. Do not use this method in COM+.
 old-location: cos\isecurityproperty_getdirectcreatorsid.htm
 old-project: cossdk
 ms.assetid: cd06e71b-563a-45d2-91fb-f57375016dc3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDirectCreatorSID, GetDirectCreatorSID method [COM+], GetDirectCreatorSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetDirectCreatorSID method, ISecurityProperty.GetDirectCreatorSID, ISecurityProperty::GetDirectCreatorSID, _cos_ISecurityProperty_GetDirectCreatorSID, comsvcs/ISecurityProperty::GetDirectCreatorSID, cos.isecurityproperty_getdirectcreatorsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

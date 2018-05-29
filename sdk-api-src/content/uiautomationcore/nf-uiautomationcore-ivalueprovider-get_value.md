@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IValueProvider.get_Value
 title: IValueProvider::get_Value
-author: windows-driver-content
+author: windows-sdk-content
 description: The value of the control.
 old-location: winauto\uiauto_IValueProvider_Value.htm
 old-project: WinAuto
 ms.assetid: 83cd0b99-32e4-4a25-aebb-b769745df78f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IValueProvider interface [Windows Accessibility],Value property, IValueProvider.Value, IValueProvider.get_Value, IValueProvider::Value, IValueProvider::get_Value, Value property [Windows Accessibility], Value property [Windows Accessibility],IValueProvider interface, get_Value, uiauto.uiauto_IValueProvider_Value, uiauto_IValueProvider_Value, uiautomationcore/IValueProvider::Value, uiautomationcore/IValueProvider::get_Value, winauto.uiauto_IValueProvider_Value
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

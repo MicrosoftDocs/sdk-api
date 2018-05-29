@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.VssFreeSnapshotPropertiesInternal
 title: VssFreeSnapshotPropertiesInternal function
-author: windows-driver-content
+author: windows-sdk-content
 description: The VssFreeSnapshotProperties function is used to free the contents of a VSS_SNAPSHOT_PROP structure as part of managing its life cycle.
 old-location: base\vssfreesnapshotproperties.htm
 old-project: VSS
 ms.assetid: d5b5883b-03d5-4a83-af2e-f4d22e26ee82
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VssFreeSnapshotProperties, VssFreeSnapshotProperties function [VSS], VssFreeSnapshotPropertiesInternal, _win32_vssfreesnapshotproperties, base.vssfreesnapshotproperties, vsbackup/VssFreeSnapshotProperties, vsbackup/VssFreeSnapshotPropertiesInternal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

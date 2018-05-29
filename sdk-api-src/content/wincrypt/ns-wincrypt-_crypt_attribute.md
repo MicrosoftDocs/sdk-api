@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_ATTRIBUTE
 title: "_CRYPT_ATTRIBUTE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CRYPT_ATTRIBUTE structure specifies an attribute that has one or more values.
 old-location: security\crypt_attribute.htm
 old-project: SecCrypto
 ms.assetid: cdbaf38d-ddbe-4be0-afbc-f8bd76ef4847
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_ATTRIBUTE, CRYPT_ATTRIBUTE, CRYPT_ATTRIBUTE structure [Security], PCRYPT_ATTRIBUTE, PCRYPT_ATTRIBUTE structure pointer [Security], _CRYPT_ATTRIBUTE, _crypto2_crypt_attribute, security.crypt_attribute, wincrypt/CRYPT_ATTRIBUTE, wincrypt/PCRYPT_ATTRIBUTE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

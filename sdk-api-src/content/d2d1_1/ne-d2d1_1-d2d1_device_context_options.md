@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1_1.D2D1_DEVICE_CONTEXT_OPTIONS
 title: D2D1_DEVICE_CONTEXT_OPTIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: This specifies options that apply to the device context for its lifetime.
 old-location: direct2d\__d2d1_device_context_options.htm
 old-project: Direct2D
 ms.assetid: be4e6eb7-0767-4faf-9f27-eeb3bed48244
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_DEVICE_CONTEXT_OPTIONS, D2D1_DEVICE_CONTEXT_OPTIONS enumeration [Direct2D], D2D1_DEVICE_CONTEXT_OPTIONS_ENABLE_MULTITHREADED_OPTIMIZATIONS, D2D1_DEVICE_CONTEXT_OPTIONS_NONE, d2d1_1/D2D1_DEVICE_CONTEXT_OPTIONS, d2d1_1/D2D1_DEVICE_CONTEXT_OPTIONS_ENABLE_MULTITHREADED_OPTIMIZATIONS, d2d1_1/D2D1_DEVICE_CONTEXT_OPTIONS_NONE, direct2d.__d2d1_device_context_options
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1_1.h
 req.include-header: 

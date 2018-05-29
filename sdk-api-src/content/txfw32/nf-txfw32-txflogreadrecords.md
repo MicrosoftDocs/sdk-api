@@ -1,16 +1,16 @@
 ---
 UID: NF:txfw32.TxfLogReadRecords
 title: TxfLogReadRecords function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the redo records from the log.
 old-location: fs\txflogreadrecords.htm
 old-project: FileIO
 ms.assetid: f0f10d9c-957a-4484-bde8-337d235e3262
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TxfLogReadRecords, TxfLogReadRecords function [Files], fs.txflogreadrecords, txfw32/TxfLogReadRecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: txfw32.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmquota.IFsrmQuota.get_QuotaPeakUsage
 title: IFsrmQuota::get_QuotaPeakUsage
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the highest amount of disk space usage charged to this quota.
 old-location: fsrm\ifsrmquota_quotapeakusage.htm
 old-project: Fsrm
 ms.assetid: 86e2f8a1-766e-494d-9b99-c55e51d8509c
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmQuota interface [File Server Resource Manager],QuotaPeakUsage property, IFsrmQuota.QuotaPeakUsage, IFsrmQuota.get_QuotaPeakUsage, IFsrmQuota::QuotaPeakUsage, IFsrmQuota::get_QuotaPeakUsage, QuotaPeakUsage property [File Server Resource Manager], QuotaPeakUsage property [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_quotapeakusage, fsrm.ifsrmquota_quotapeakusage, fsrmquota/IFsrmQuota::QuotaPeakUsage, fsrmquota/IFsrmQuota::get_QuotaPeakUsage, get_QuotaPeakUsage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: 

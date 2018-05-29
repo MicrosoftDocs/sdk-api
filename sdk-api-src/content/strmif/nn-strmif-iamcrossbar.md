@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMCrossbar
 title: IAMCrossbar
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMCrossbar interface routes signals from an analog or digital source to a video capture filter.This interface is implemented by the Analog Video Crossbar Filter.
 old-location: dshow\iamcrossbar.htm
 old-project: DirectShow
 ms.assetid: 9eef4923-62e7-475e-85e6-de8c1eefe483
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMCrossbar, IAMCrossbar interface [DirectShow], IAMCrossbar interface [DirectShow],described, IAMCrossbarInterface, dshow.iamcrossbar, strmif/IAMCrossbar
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:propsys.IPropertyChangeArray
 title: IPropertyChangeArray
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods for several multiple change operations that may be passed to IFileOperation.
 old-location: properties\IPropertyChangeArray.htm
 old-project: properties
 ms.assetid: c7de40d0-9fe6-4c4b-ba17-c4648501ce0a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyChangeArray, IPropertyChangeArray interface [Windows Properties], IPropertyChangeArray interface [Windows Properties],described, _shell_IPropertyChangeArray, properties.IPropertyChangeArray, propsys/IPropertyChangeArray, shell.IPropertyChangeArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

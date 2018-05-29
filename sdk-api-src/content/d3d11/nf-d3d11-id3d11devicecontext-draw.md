@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.Draw
 title: ID3D11DeviceContext::Draw
-author: windows-driver-content
+author: windows-sdk-content
 description: Draw non-indexed, non-instanced primitives.
 old-location: direct3d11\id3d11devicecontext_draw.htm
 old-project: direct3d11
 ms.assetid: 9c63067b-c7ac-412c-ad49-c35d4fba1d68
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 531461d1-7b41-e75e-d7e7-78e6386f31f4, Draw, Draw method [Direct3D 11], Draw method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],Draw method, ID3D11DeviceContext.Draw, ID3D11DeviceContext::Draw, d3d11/ID3D11DeviceContext::Draw, direct3d11.id3d11devicecontext_draw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

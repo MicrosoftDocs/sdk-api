@@ -1,16 +1,16 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache.GetSpaceUsed
 title: IEmptyVolumeCache::GetSpaceUsed
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests the amount of disk space that the disk cleanup handler can free.
 old-location: lwef\iemptyvolumecache_getspaceused.htm
 old-project: lwef
 ms.assetid: c8ec2f70-f327-49d4-babb-a9640f105003
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.author: windowssdkdev
+ms.date: 04/27/2018
 ms.keywords: GetSpaceUsed, GetSpaceUsed method [Legacy Windows Environment Features], GetSpaceUsed method [Legacy Windows Environment Features],IEmptyVolumeCache interface, IEmptyVolumeCache interface [Legacy Windows Environment Features],GetSpaceUsed method, IEmptyVolumeCache.GetSpaceUsed, IEmptyVolumeCache::GetSpaceUsed, _win32_IEmptyVolumeCache_GetSpaceUsed, emptyvc/IEmptyVolumeCache::GetSpaceUsed, lwef.iemptyvolumecache_getspaceused, shell.iemptyvolumecache_getspaceused
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: emptyvc.h
 req.include-header: 

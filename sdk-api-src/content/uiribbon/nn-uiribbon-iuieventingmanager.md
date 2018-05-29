@@ -1,16 +1,16 @@
 ---
 UID: NN:uiribbon.IUIEventingManager
 title: IUIEventingManager
-author: windows-driver-content
+author: windows-sdk-content
 description: The IUIEventingManager interface is implemented by the Ribbon framework and provides the notification functionality for applications that register for ribbon events.
 old-location: windowsribbon\iuieventingmanager.htm
 old-project: windowsribbon
 ms.assetid: 11E53D75-B8C0-40A3-8E4D-ACAA10BEAC84
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IUIEventingManager, IUIEventingManager interface [Windows Ribbon], IUIEventingManager interface [Windows Ribbon],described, uiribbon/IUIEventingManager, windowsribbon.iuieventingmanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiribbon.h
 req.include-header: 

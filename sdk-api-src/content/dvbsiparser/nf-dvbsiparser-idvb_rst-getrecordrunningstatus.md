@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDVB_RST.GetRecordRunningStatus
 title: IDVB_RST::GetRecordRunningStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_rst_getrecordrunningstatus.htm
 old-project: mstv
 ms.assetid: ca0a0b3b-14a8-4456-85a0-51df559d04b8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordRunningStatus, GetRecordRunningStatus method [Microsoft TV Technologies], GetRecordRunningStatus method [Microsoft TV Technologies],IDVB_RST interface, IDVB_RST interface [Microsoft TV Technologies],GetRecordRunningStatus method, IDVB_RST.GetRecordRunningStatus, IDVB_RST::GetRecordRunningStatus, IDVB_RSTGetRecordRunningStatus, dvbsiparser/IDVB_RST::GetRecordRunningStatus, mstv.idvb_rst_getrecordrunningstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMReaderAdvanced3
 title: IWMReaderAdvanced3
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMReaderAdvanced3 interface provides additional functionality to the reader object.
 old-location: wmformat\iwmreaderadvanced3.htm
 old-project: wmformat
 ms.assetid: 20bf3c00-0f35-4b8e-b78d-a36fbfd865b7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReaderAdvanced3, IWMReaderAdvanced3 interface [windows Media Format], IWMReaderAdvanced3 interface [windows Media Format],described, IWMReaderAdvanced3Interface, wmformat.iwmreaderadvanced3, wmsdkidl/IWMReaderAdvanced3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

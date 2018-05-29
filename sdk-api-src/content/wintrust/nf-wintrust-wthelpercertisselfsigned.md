@@ -1,16 +1,16 @@
 ---
 UID: NF:wintrust.WTHelperCertIsSelfSigned
 title: WTHelperCertIsSelfSigned function
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks whether a certificate is self-signed.
 old-location: security\wthelpercertisselfsigned.htm
 old-project: SecCrypto
 ms.assetid: 456b8c8c-6ca3-469a-a415-e72109696bf5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: WTHelperCertIsSelfSigned, WTHelperCertIsSelfSigned function [Security], security.wthelpercertisselfsigned, wintrust/WTHelperCertIsSelfSigned
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 

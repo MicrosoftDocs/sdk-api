@@ -1,16 +1,16 @@
 ---
 UID: NS:xamlom.EnumType
 title: EnumType
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a XAML Runtime enumeration.
 old-location: xaml_diagnostics\enumtype.htm
 old-project: xaml_diagnostics
 ms.assetid: 0C50F820-E55B-425E-A8D2-1F0CEE03FEE7
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: EnumType, EnumType structure, PEnumType, PEnumType structure pointer, xaml_diagnostics.enumtype, xamlom/EnumType, xamlom/PEnumType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xamlom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.Run
 title: IFsrmFileManagementJob::Run
-author: windows-driver-content
+author: windows-sdk-content
 description: Runs the job.
 old-location: fsrm\ifsrmfilemanagementjob_run.htm
 old-project: Fsrm
 ms.assetid: 2db27e05-5c3b-4827-a616-36fd46281911
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Run method, IFsrmFileManagementJob.Run, IFsrmFileManagementJob::Run, Run, Run method [File Server Resource Manager], Run method [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_run, fsrm.ifsrmfilemanagementjob_run, fsrmreports/IFsrmFileManagementJob::Run
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

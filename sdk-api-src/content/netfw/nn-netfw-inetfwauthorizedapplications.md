@@ -1,16 +1,16 @@
 ---
 UID: NN:netfw.INetFwAuthorizedApplications
 title: INetFwAuthorizedApplications
-author: windows-driver-content
+author: windows-sdk-content
 description: The INetFwAuthorizedApplications interface provides access to a collection of applications authorized open ports in the firewall.
 old-location: ics\inetfwauthorizedapplications.htm
 old-project: ICS
 ms.assetid: 70ea2cd1-5422-4db1-ab84-9924dab5623d
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwAuthorizedApplications, INetFwAuthorizedApplications interface [ICS/ICF], INetFwAuthorizedApplications interface [ICS/ICF],described, ics.inetfwauthorizedapplications, netfw/INetFwAuthorizedApplications
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

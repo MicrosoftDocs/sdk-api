@@ -1,16 +1,16 @@
 ---
 UID: NF:realtimeapiset.QueryThreadCycleTime
 title: QueryThreadCycleTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the cycle time for the specified thread.
 old-location: base\querythreadcycletime.htm
 old-project: ProcThread
 ms.assetid: 5828b073-48af-4118-9206-096b87c978e7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: QueryThreadCycleTime, QueryThreadCycleTime function, base.querythreadcycletime, realtimeapiset/QueryThreadCycleTime, winbase/QueryThreadCycleTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: realtimeapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

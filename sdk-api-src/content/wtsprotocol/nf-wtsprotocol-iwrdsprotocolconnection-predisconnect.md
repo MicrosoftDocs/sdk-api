@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.PreDisconnect
 title: IWRdsProtocolConnection::PreDisconnect
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the protocol that the session is about to be disconnected.
 old-location: termserv\iwrdsprotocolconnection_predisconnect.htm
 old-project: TermServ
 ms.assetid: 988032B5-94AA-40ED-B571-E7C2E652D023
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],PreDisconnect method, IWRdsProtocolConnection.PreDisconnect, IWRdsProtocolConnection::PreDisconnect, PreDisconnect, PreDisconnect method [Remote Desktop Services], PreDisconnect method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_predisconnect, wtsprotocol/IWRdsProtocolConnection::PreDisconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

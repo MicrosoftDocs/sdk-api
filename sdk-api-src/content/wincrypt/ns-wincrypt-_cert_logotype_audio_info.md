@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_LOGOTYPE_AUDIO_INFO
 title: "_CERT_LOGOTYPE_AUDIO_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains more detailed information about an audio logotype.
 old-location: security\cert_logotype_audio_info.htm
 old-project: SecCrypto
 ms.assetid: 7a12447b-1561-4fbc-8984-d28555a13159
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_LOGOTYPE_AUDIO_INFO, CERT_LOGOTYPE_AUDIO_INFO, CERT_LOGOTYPE_AUDIO_INFO structure [Security], PCERT_LOGOTYPE_AUDIO_INFO, PCERT_LOGOTYPE_AUDIO_INFO structure pointer [Security], _CERT_LOGOTYPE_AUDIO_INFO, security.cert_logotype_audio_info, wincrypt/CERT_LOGOTYPE_AUDIO_INFO, wincrypt/PCERT_LOGOTYPE_AUDIO_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

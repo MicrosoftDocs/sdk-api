@@ -1,16 +1,16 @@
 ---
 UID: NS:dvdmedia._AM_DVD_YUV
 title: "_AM_DVD_YUV"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains DVD YUV subpicture data.
 old-location: dshow\am_dvd_yuv.htm
 old-project: DirectShow
 ms.assetid: fb954bc2-4ef1-4a5f-b795-a3b2a8aae8d4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PAM_DVD_YUV, AM_DVD_YUV, AM_DVD_YUV structure [DirectShow], PAM_DVD_YUV, PAM_DVD_YUV structure pointer [DirectShow], _AM_DVD_YUV, dshow.am_dvd_yuv, dvdmedia/AM_DVD_YUV, dvdmedia/PAM_DVD_YUV"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dvdmedia.h
 req.include-header: 

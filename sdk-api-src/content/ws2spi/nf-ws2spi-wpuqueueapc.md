@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2spi.WPUQueueApc
 title: WPUQueueApc function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WPUQueueApc function queues a user mode&#8211;asynchronous procedure call (APC) to the specified thread in order to facilitate invocation of overlapped I/O completion routines.
 old-location: winsock\wpuqueueapc_2.htm
 old-project: WinSock
 ms.assetid: 4326547e-85e2-409c-9f36-aa013853dfd9
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WPUQueueApc, WPUQueueApc function [Winsock], _win32_wpuqueueapc_2, winsock.wpuqueueapc_2, ws2spi/WPUQueueApc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2spi.h
 req.include-header: 

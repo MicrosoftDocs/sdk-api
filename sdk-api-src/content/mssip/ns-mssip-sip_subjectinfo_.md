@@ -1,16 +1,16 @@
 ---
 UID: NS:mssip.SIP_SUBJECTINFO_
 title: SIP_SUBJECTINFO_
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies subject information data to the subject interface package (SIP) APIs.
 old-location: security\sip_subjectinfo.htm
 old-project: SecCrypto
 ms.assetid: 6274cd08-d67f-410d-9303-3a42b7f1edc6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*LPSIP_SUBJECTINFO, LPSIP_SUBJECTINFO, LPSIP_SUBJECTINFO structure pointer [Security], MSSIP_ADDINFO_BLOB, MSSIP_ADDINFO_CATMEMBER, MSSIP_ADDINFO_FLAT, MSSIP_ADDINFO_NONE, MSSIP_ADDINFO_NONMSSIP, SIP_SUBJECTINFO, SIP_SUBJECTINFO structure [Security], SIP_SUBJECTINFO_, mssip/LPSIP_SUBJECTINFO, mssip/SIP_SUBJECTINFO, security.sip_subjectinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mssip.h
 req.include-header: 

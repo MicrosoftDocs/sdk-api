@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.GetFileInformationByHandle
 title: GetFileInformationByHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves file information for the specified file.
 old-location: fs\getfileinformationbyhandle.htm
 old-project: FileIO
 ms.assetid: d026ee3a-c165-42a2-a4e1-efccdafbefc5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetFileInformationByHandle, GetFileInformationByHandle function [Files], _win32_getfileinformationbyhandle, base.getfileinformationbyhandle, fileapi/GetFileInformationByHandle, fs.getfileinformationbyhandle, winbase/GetFileInformationByHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

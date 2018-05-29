@@ -1,16 +1,16 @@
 ---
 UID: NF:ncrypt.NCryptVerifySignature
 title: NCryptVerifySignature function
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies that the specified signature matches the specified hash.
 old-location: security\ncryptverifysignature_func.htm
 old-project: SecCNG
 ms.assetid: 9a839d99-4e9a-4114-982c-51dee38d2949
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCRYPT_PAD_PKCS1_FLAG, NCRYPT_PAD_PSS_FLAG, NCRYPT_SILENT_FLAG, NCryptVerifySignature, NCryptVerifySignature function [Security], ncrypt/NCryptVerifySignature, security.ncryptverifysignature_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncrypt.h
 req.include-header: 

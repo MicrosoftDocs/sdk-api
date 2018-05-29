@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsReplicaAddA
 title: DsReplicaAddA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a replication source reference to a destination naming context.
 old-location: ad\dsreplicaadd.htm
 old-project: AD
 ms.assetid: 33bd1b61-b9ed-479f-a128-fb7ddbb5e9af
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_REPADD_ASYNCHRONOUS_OPERATION, DS_REPADD_ASYNCHRONOUS_REPLICA, DS_REPADD_DISABLE_NOTIFICATION, DS_REPADD_DISABLE_PERIODIC, DS_REPADD_INITIAL, DS_REPADD_INTERSITE_MESSAGING, DS_REPADD_NEVER_NOTIFY, DS_REPADD_PERIODIC, DS_REPADD_USE_COMPRESSION, DS_REPADD_WRITEABLE, DsReplicaAdd, DsReplicaAdd function [Active Directory], DsReplicaAddA, DsReplicaAddW, _glines_dsreplicaadd, ad.dsreplicaadd, ntdsapi/DsReplicaAdd, ntdsapi/DsReplicaAddA, ntdsapi/DsReplicaAddW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

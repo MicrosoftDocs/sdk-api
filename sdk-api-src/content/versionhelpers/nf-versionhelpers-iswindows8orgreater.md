@@ -1,16 +1,16 @@
 ---
 UID: NF:versionhelpers.IsWindows8OrGreater
 title: IsWindows8OrGreater function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows 8 version.
 old-location: base\iswindows8orgreater.htm
 old-project: SysInfo
 ms.assetid: D11971C8-2E8F-4AD2-BE0B-FEFEC8949125
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsWindows8OrGreater, IsWindows8OrGreater function, base.iswindows8orgreater, versionhelpers/IsWindows8OrGreater
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: versionhelpers.h
 req.include-header: 

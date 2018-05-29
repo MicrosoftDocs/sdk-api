@@ -1,16 +1,16 @@
 ---
 UID: NC:vfw.CAPWAVECALLBACK
 title: CAPWAVECALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: The capWaveStreamCallback function is the callback function used with streaming capture to optionally process buffers of audio data. The name capWaveStreamCallback is a placeholder for the application-supplied function name.
 old-location: multimedia\capwavestreamcallback.htm
 old-project: Multimedia
 ms.assetid: e7047d3d-9393-4611-a034-d36d6e92ee01
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CAPWAVECALLBACK, _win32_capWaveStreamCallback, capWaveStreamCallback, capWaveStreamCallback callback, capWaveStreamCallback callback function [Windows Multimedia], multimedia.capwavestreamcallback, vfw/capWaveStreamCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: vfw.h
 req.include-header: 

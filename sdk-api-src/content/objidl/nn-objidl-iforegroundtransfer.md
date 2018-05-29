@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IForegroundTransfer
 title: IForegroundTransfer
-author: windows-driver-content
+author: windows-sdk-content
 description: Transfers the foreground window to the process hosting the COM server.
 old-location: com\iforegroundtransfer.htm
 old-project: com
 ms.assetid: 21857592-0f98-4eb4-a153-4ce20edf26c7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IForegroundTransfer, IForegroundTransfer interface [COM], IForegroundTransfer interface [COM],described, _com_iforegroundtransfer, com.iforegroundtransfer, objidl/IForegroundTransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

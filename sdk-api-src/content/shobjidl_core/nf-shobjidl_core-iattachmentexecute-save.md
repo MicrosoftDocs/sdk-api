@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.Save
 title: IAttachmentExecute::Save
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves the attachment.
 old-location: shell\IAttachmentExecute_Save.htm
 old-project: shell
 ms.assetid: 25661942-f38b-42d6-981b-4a3f4d083f6c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],Save method, IAttachmentExecute.Save, IAttachmentExecute::Save, Save, Save method [Windows Shell], Save method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_Save, shell.IAttachmentExecute_Save, shobjidl_core/IAttachmentExecute::Save
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

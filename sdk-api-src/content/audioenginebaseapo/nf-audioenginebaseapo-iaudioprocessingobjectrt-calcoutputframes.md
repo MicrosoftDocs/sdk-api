@@ -1,16 +1,16 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObjectRT.CalcOutputFrames
 title: IAudioProcessingObjectRT::CalcOutputFrames
-author: windows-driver-content
+author: windows-sdk-content
 description: The CalcOutputFrames method returns the number of output frames that an APO requires for a given number of input frames.
 old-location: audio\iaudioprocessingobjectrt_calcoutputframes.htm
 old-project: audio
 ms.assetid: af558f8c-a38e-44d0-ad50-5e650f86cf2e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: CalcOutputFrames, CalcOutputFrames method [Audio Devices], CalcOutputFrames method [Audio Devices],IAudioProcessingObjectRT interface, IAudioProcessingObjectRT interface [Audio Devices],CalcOutputFrames method, IAudioProcessingObjectRT.CalcOutputFrames, IAudioProcessingObjectRT::CalcOutputFrames, audio.iaudioprocessingobjectrt_calcoutputframes, audio_syseffects_r_1352a553-5788-46cb-be25-1d3d8e6ab963.xml, audioenginebaseapo/IAudioProcessingObjectRT::CalcOutputFrames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: 

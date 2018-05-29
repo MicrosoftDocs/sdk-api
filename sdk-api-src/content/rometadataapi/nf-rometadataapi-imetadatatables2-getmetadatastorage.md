@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables2.GetMetaDataStorage
 title: IMetaDataTables2::GetMetaDataStorage
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the size and contents of the metadata stored in the specified section.
 old-location: winrt\imetadatatables2_getmetadatastorage.htm
 old-project: WinRT
 ms.assetid: 7de4fccb-9cd6-443d-bbd3-ba545e040ca6
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetMetaDataStorage, GetMetaDataStorage method [Windows Runtime], GetMetaDataStorage method [Windows Runtime],IMetaDataTables2 interface, IMetaDataTables2 interface [Windows Runtime],GetMetaDataStorage method, IMetaDataTables2.GetMetaDataStorage, IMetaDataTables2::GetMetaDataStorage, rometadataapi/IMetaDataTables2::GetMetaDataStorage, winrt.imetadatatables2_getmetadatastorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

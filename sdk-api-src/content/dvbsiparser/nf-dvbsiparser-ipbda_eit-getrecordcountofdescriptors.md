@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordCountOfDescriptors
 title: IPBDA_EIT::GetRecordCountOfDescriptors
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of event records from an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_getrecordcountofdescriptors.htm
 old-project: mstv
 ms.assetid: c491b2d0-6426-4a76-b3a1-4477fdf1779c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IPBDA_EIT.GetRecordCountOfDescriptors, IPBDA_EIT::GetRecordCountOfDescriptors, dvbsiparser/IPBDA_EIT::GetRecordCountOfDescriptors, mstv.ipbda_eit_getrecordcountofdescriptors
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

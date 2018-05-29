@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetEnabledXStateFeatures
 title: GetEnabledXStateFeatures function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a mask of enabled XState features on x86 or x64 processors.
 old-location: base\getenabledxstatefeatures.htm
 old-project: Debug
 ms.assetid: E7DE090F-F83E-440D-B2A3-BCF160889F2E
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetEnabledXStateFeatures, GetEnabledXStateFeatures function, base.getenabledxstatefeatures, winbase/GetEnabledXStateFeatures
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

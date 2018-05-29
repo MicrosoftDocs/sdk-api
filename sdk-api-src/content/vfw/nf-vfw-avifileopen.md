@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIFileOpen
 title: AVIFileOpen function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIFileOpen function opens an AVI file and returns the address of a file interface used to access it.
 old-location: multimedia\avifileopen.htm
 old-project: Multimedia
 ms.assetid: a5d7b278-7c80-42a3-94a4-5c012ad9a9fd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIFileOpen, AVIFileOpen function [Windows Multimedia], AVIFileOpenA, AVIFileOpenW, _win32_AVIFileOpen, multimedia.avifileopen, vfw/AVIFileOpen, vfw/AVIFileOpenA, vfw/AVIFileOpenW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

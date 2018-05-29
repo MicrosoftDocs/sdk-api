@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.IsDisplay
 title: MetafileHeader::IsDisplay
-author: windows-driver-content
+author: windows-sdk-content
 description: The MetafileHeader::IsDisplay method determines whether the associated metafile was recorded against a video display device context.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsDisplay_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isdisplay.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IsDisplay, IsDisplay method [GDI+], IsDisplay method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsDisplay method, MetafileHeader.IsDisplay, MetafileHeader::IsDisplay, _gdiplus_CLASS_MetafileHeader_IsDisplay_, gdiplus._gdiplus_CLASS_MetafileHeader_IsDisplay_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h

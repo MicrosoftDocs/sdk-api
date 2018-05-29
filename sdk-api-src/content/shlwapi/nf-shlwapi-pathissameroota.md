@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathIsSameRootA
 title: PathIsSameRootA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares two paths to determine if they have a common root component.
 old-location: shell\PathIsSameRoot.htm
 old-project: shell
 ms.assetid: 3409a8f1-e22c-4c13-961e-211a2d10fe10
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathIsSameRoot, PathIsSameRoot function [Windows Shell], PathIsSameRootA, PathIsSameRootW, _win32_PathIsSameRoot, shell.PathIsSameRoot, shlwapi/PathIsSameRoot, shlwapi/PathIsSameRootA, shlwapi/PathIsSameRootW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

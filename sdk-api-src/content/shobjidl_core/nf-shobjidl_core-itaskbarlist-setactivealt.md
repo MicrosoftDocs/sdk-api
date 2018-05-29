@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList.SetActiveAlt
 title: ITaskbarList::SetActiveAlt
-author: windows-driver-content
+author: windows-sdk-content
 description: Marks a taskbar item as active but does not visually activate it.
 old-location: shell\ITaskbarList_SetActiveAlt.htm
 old-project: shell
 ms.assetid: b9d08a72-6a4d-483b-bf12-3f78e1d2237a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITaskbarList interface [Windows Shell],SetActiveAlt method, ITaskbarList.SetActiveAlt, ITaskbarList::SetActiveAlt, SetActiveAlt, SetActiveAlt method [Windows Shell], SetActiveAlt method [Windows Shell],ITaskbarList interface, _win32_ITaskbarList_SetActiveAlt, shell.ITaskbarList_SetActiveAlt, shobjidl_core/ITaskbarList::SetActiveAlt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

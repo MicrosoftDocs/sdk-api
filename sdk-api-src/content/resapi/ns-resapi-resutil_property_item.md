@@ -1,16 +1,16 @@
 ---
 UID: NS:resapi.RESUTIL_PROPERTY_ITEM
 title: RESUTIL_PROPERTY_ITEM
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a cluster object property. An array of RESUTIL_PROPERTY_ITEM structures forms a property table which can be used in property operations.
 old-location: mscs\resutil_property_item.htm
 old-project: MsCS
 ms.assetid: f65ee50f-59f7-44db-ad69-b29b3e693c7e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PRESUTIL_PROPERTY_ITEM, PRESUTIL_PROPERTY_ITEM, PRESUTIL_PROPERTY_ITEM structure pointer [Failover Cluster], RESUTIL_PROPERTY_ITEM, RESUTIL_PROPERTY_ITEM structure [Failover Cluster], RESUTIL_PROPITEM_READ_ONLY, RESUTIL_PROPITEM_REQUIRED, RESUTIL_PROPITEM_SIGNED, _wolf_resutil_property_item, mscs.resutil_property_item, resapi/PRESUTIL_PROPERTY_ITEM, resapi/RESUTIL_PROPERTY_ITEM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

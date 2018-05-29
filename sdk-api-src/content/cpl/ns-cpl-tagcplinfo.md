@@ -1,16 +1,16 @@
 ---
 UID: NS:cpl.tagCPLINFO
 title: tagCPLINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains resource information and an application-defined value for a dialog box supported by a Control Panel application.
 old-location: shell\CPLINFO.htm
 old-project: shell
 ms.assetid: 707950c9-c242-43b2-b665-c97a89e632c5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPCPLINFO, CPLINFO, CPLINFO structure [Windows Shell], _win32_CPLINFO, cpl/CPLINFO, shell.CPLINFO, tagCPLINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cpl.h
 req.include-header: 

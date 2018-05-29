@@ -1,16 +1,16 @@
 ---
 UID: NF:cluadmex.IWEExtendContextMenu.AddContextMenuItems
 title: IWEExtendContextMenu::AddContextMenuItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows you to create context menu items for a cluster object and add the items to a Failover Cluster Administrator context menu.
 old-location: mscs\iweextendcontextmenu_addcontextmenuitems.htm
 old-project: MsCS
 ms.assetid: 48de3627-a919-437b-b19b-374327234df9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: AddContextMenuItems, AddContextMenuItems method [Failover Cluster], AddContextMenuItems method [Failover Cluster],IWEExtendContextMenu interface, IWEExtendContextMenu interface [Failover Cluster],AddContextMenuItems method, IWEExtendContextMenu.AddContextMenuItems, IWEExtendContextMenu::AddContextMenuItems, _wolf_iweextendcontextmenu_addcontextmenuitems, cluadmex/IWEExtendContextMenu::AddContextMenuItems, mscs.iweextendcontextmenu_addcontextmenuitems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 

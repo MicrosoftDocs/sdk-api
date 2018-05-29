@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMExtDevice.get_ExternalDeviceID
 title: IAMExtDevice::get_ExternalDeviceID
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_ExternalDeviceID method retrieves the model number of the external device.
 old-location: dshow\iamextdevice_get_externaldeviceid.htm
 old-project: DirectShow
 ms.assetid: 2217b0b1-3663-438b-8951-d2d1d8404e9c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMExtDevice interface [DirectShow],get_ExternalDeviceID method, IAMExtDevice.get_ExternalDeviceID, IAMExtDevice::get_ExternalDeviceID, IAMExtDeviceget_ExternalDeviceID, dshow.iamextdevice_get_externaldeviceid, get_ExternalDeviceID, get_ExternalDeviceID method [DirectShow], get_ExternalDeviceID method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::get_ExternalDeviceID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

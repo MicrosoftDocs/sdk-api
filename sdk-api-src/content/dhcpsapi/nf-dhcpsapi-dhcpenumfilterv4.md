@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumFilterV4
 title: DhcpEnumFilterV4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates all of the filter records from the DHCP server's allow or deny list.
 old-location: dhcp\dhcpenumfilterv4.htm
 old-project: DHCP
 ms.assetid: a861b34a-19cc-4732-bb38-6b0643319640
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpEnumFilterV4, DhcpEnumFilterV4 function [DHCP], dhcp.dhcpenumfilterv4, dhcpsapi/DhcpEnumFilterV4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

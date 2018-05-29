@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.GenerateHlsl
 title: ID3D11FunctionLinkingGraph::GenerateHlsl
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates Microsoft High Level Shader Language (HLSL) shader code that represents the function-linking-graph.
 old-location: direct3d11\id3d11functionlinkinggraph_generatehlsl.htm
 old-project: direct3d11
 ms.assetid: CD3B815A-0D18-4568-BCDF-7E2D5F1C139F
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: GenerateHlsl, GenerateHlsl method [Direct3D 11], GenerateHlsl method [Direct3D 11],ID3D11FunctionLinkingGraph interface, ID3D11FunctionLinkingGraph interface [Direct3D 11],GenerateHlsl method, ID3D11FunctionLinkingGraph.GenerateHlsl, ID3D11FunctionLinkingGraph::GenerateHlsl, d3d11shader/ID3D11FunctionLinkingGraph::GenerateHlsl, direct3d11.id3d11functionlinkinggraph_generatehlsl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

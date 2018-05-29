@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrSimpleTypeUnmarshall
 title: NdrSimpleTypeUnmarshall function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrSimpleTypeUnmarshall function unmarshalls a simple type.
 old-location: rpc\ndrsimpletypeunmarshall.htm
 old-project: Rpc
 ms.assetid: f1ed9bdc-3ff6-4947-b77f-cb95fe8c3e85
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrSimpleTypeUnmarshall, NdrSimpleTypeUnmarshall function [RPC], rpc.ndrsimpletypeunmarshall, rpcndr/NdrSimpleTypeUnmarshall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

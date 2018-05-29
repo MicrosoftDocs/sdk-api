@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineRegisterRequestRecipient
 title: lineRegisterRequestRecipient function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineRegisterRequestRecipient function registers the invoking application as a recipient of requests for the specified request mode.
 old-location: tapi2\lineregisterrequestrecipient.htm
 old-project: Tapi
 ms.assetid: ff2f9ab0-389f-4b35-abd1-29486750283b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_lineregisterrequestrecipient, lineRegisterRequestRecipient, lineRegisterRequestRecipient function [TAPI 2.2], tapi/lineRegisterRequestRecipient, tapi2.lineregisterrequestrecipient"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

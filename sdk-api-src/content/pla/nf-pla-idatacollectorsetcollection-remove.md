@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.Remove
 title: IDataCollectorSetCollection::Remove
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a data collector set from the collection.
 old-location: pla\idatacollectorsetcollection_remove.htm
 old-project: PLA
 ms.assetid: 6200dac0-8817-4d59-9456-67921bcf15ae
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollectorSetCollection interface [PLA],Remove method, IDataCollectorSetCollection.Remove, IDataCollectorSetCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IDataCollectorSetCollection interface, base.idatacollectorsetcollection_remove, pla.idatacollectorsetcollection_remove, pla/IDataCollectorSetCollection::Remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

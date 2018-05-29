@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes.__unnamed_struct_7
 title: REQUESTBODY_Unsubscribe
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a WS-Eventing Unsubscribe request message.
 old-location: ncd\requestbody_unsubscribe_struct.htm
 old-project: WsdApi
 ms.assetid: 4032fe2b-1fd4-4e6d-998d-3fb80a5b906f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: REQUESTBODY_Unsubscribe, REQUESTBODY_Unsubscribe structure, ncd.requestbody_unsubscribe_struct, wsdtypes/REQUESTBODY_Unsubscribe
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

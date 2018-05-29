@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.tagDVD_PLAYBACK_LOCATION2
 title: tagDVD_PLAYBACK_LOCATION2
-author: windows-driver-content
+author: windows-sdk-content
 description: The DVD_PLAYBACK_LOCATION2 structure indicates DVD playback location.
 old-location: dshow\dvd_playback_location2.htm
 old-project: DirectShow
 ms.assetid: 58506709-42e2-43e4-a4c7-b522b7d06e6f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_PLAYBACK_LOCATION2, DVD_PLAYBACK_LOCATION2 structure [DirectShow], DVD_PLAYBACK_LOCATION2Structure, dshow.dvd_playback_location2, strmif/DVD_PLAYBACK_LOCATION2, tagDVD_PLAYBACK_LOCATION2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

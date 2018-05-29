@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_ELIGIBLE_SOURCE_DATADISKS
 title: "_SR_RESOURCE_TYPE_ELIGIBLE_SOURCE_DATADISKS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a set of retrieved data disks that can be used as source sites for replication.
 old-location: mscs\sr_resource_type_query_eligible_source_datadisks.htm
 old-project: MsCS
 ms.assetid: DA64413A-0FCB-4D25-A6D0-58C1E978455E
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS, PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS structure pointer [Failover Cluster], SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS, SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS structure [Failover Cluster], _SR_RESOURCE_TYPE_ELIGIBLE_SOURCE_DATADISKS, clusapi/PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS, clusapi/SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS, mscs.sr_resource_type_query_eligible_source_datadisks"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

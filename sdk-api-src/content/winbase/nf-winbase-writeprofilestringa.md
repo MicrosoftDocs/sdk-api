@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.WriteProfileStringA
 title: WriteProfileStringA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies a string into the specified section of the Win.ini file.
 old-location: base\writeprofilestring.htm
 old-project: SysInfo
 ms.assetid: d3fb74bb-7ce9-4669-8f00-02ac8a95ddd5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WriteProfileString, WriteProfileString function, WriteProfileStringA, WriteProfileStringW, _win32_writeprofilestring, base.writeprofilestring, winbase/WriteProfileString, winbase/WriteProfileStringA, winbase/WriteProfileStringW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

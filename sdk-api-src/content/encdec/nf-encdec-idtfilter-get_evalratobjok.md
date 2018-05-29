@@ -1,16 +1,16 @@
 ---
 UID: NF:encdec.IDTFilter.get_EvalRatObjOK
 title: IDTFilter::get_EvalRatObjOK
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_EvalRatObjOK method queries whether the EvalRat object was created successfully.
 old-location: mstv\idtfilter_get_evalratobjok.htm
 old-project: mstv
 ms.assetid: 92bbe476-3aba-4a50-9cb3-500356228c4b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_EvalRatObjOK method, IDTFilter.get_EvalRatObjOK, IDTFilter::get_EvalRatObjOK, IDTFilterget_EvalRatObjOK, encdec/IDTFilter::get_EvalRatObjOK, get_EvalRatObjOK, get_EvalRatObjOK method [Microsoft TV Technologies], get_EvalRatObjOK method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_evalratobjok
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: encdec.h
 req.include-header: 

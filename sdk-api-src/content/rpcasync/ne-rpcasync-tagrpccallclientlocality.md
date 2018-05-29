@@ -1,16 +1,16 @@
 ---
 UID: NE:rpcasync.tagRpcCallClientLocality
 title: tagRpcCallClientLocality
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the set of possible RPC client localities.
 old-location: rpc\rpccallclientlocality.htm
 old-project: Rpc
 ms.assetid: bdb60917-575e-47d1-a5a7-42159aac2d35
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcCallClientLocality, RpcCallClientLocality enumeration [RPC], rcclClientUnknownLocality, rcclInvalid, rcclLocal, rcclRemote, rpc.rpccallclientlocality, rpcasync/RpcCallClientLocality, rpcasync/rcclClientUnknownLocality, rpcasync/rcclInvalid, rpcasync/rcclLocal, rpcasync/rcclRemote, tagRpcCallClientLocality
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: rpcasync.h
 req.include-header: 

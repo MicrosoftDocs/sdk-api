@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxManifestMainPackageDependenciesEnumerator
 title: IAppxManifestMainPackageDependenciesEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates &lt;MainPackageDependency&gt; elements from an app manifest.
 old-location: appxpkg\iappxmanifestmainpackagedependenciesenumerator.htm
 old-project: appxpkg
 ms.assetid: EB511040-5011-4B79-AFEE-DFF42E11025B
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxManifestMainPackageDependenciesEnumerator, IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management], IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestMainPackageDependenciesEnumerator, appxpkg.iappxmanifestmainpackagedependenciesenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

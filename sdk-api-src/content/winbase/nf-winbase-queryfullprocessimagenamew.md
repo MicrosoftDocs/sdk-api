@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.QueryFullProcessImageNameW
 title: QueryFullProcessImageNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the full name of the executable image for the specified process.
 old-location: base\queryfullprocessimagename.htm
 old-project: ProcThread
 ms.assetid: 49a9d1aa-30f3-45ea-a4ec-9f55df692b8b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: PROCESS_NAME_NATIVE, QueryFullProcessImageName, QueryFullProcessImageName function, QueryFullProcessImageNameA, QueryFullProcessImageNameW, base.queryfullprocessimagename, winbase/QueryFullProcessImageName, winbase/QueryFullProcessImageNameA, winbase/QueryFullProcessImageNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

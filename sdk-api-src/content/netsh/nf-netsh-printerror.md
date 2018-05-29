@@ -1,16 +1,16 @@
 ---
 UID: NF:netsh.PrintError
 title: PrintError function
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays a system or application error message to the NetShell console.
 old-location: netshell\printerror.htm
 old-project: NetShell
 ms.assetid: de48b797-9cb5-4bc0-89d4-86dd7f56a610
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PrintError, PrintError function [NetShell], _netsh_printerror, netsh/PrintError, netshell.printerror
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netsh.h
 req.include-header: 

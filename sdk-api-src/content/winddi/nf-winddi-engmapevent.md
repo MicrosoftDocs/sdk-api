@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngMapEvent
 title: EngMapEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngMapEvent function maps a user-mode event object to kernel mode.
 old-location: display\engmapevent.htm
 old-project: display
 ms.assetid: a48f2367-49da-4d5c-87e5-b5c67e2311eb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngMapEvent, EngMapEvent function [Display Devices], display.engmapevent, gdifncs_5d41fd21-c767-4c7b-8bd6-546be9ce1439.xml, winddi/EngMapEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

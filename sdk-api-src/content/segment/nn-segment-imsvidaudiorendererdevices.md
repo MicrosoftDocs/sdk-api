@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidAudioRendererDevices
 title: IMSVidAudioRendererDevices
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMSVidAudioRendererDevices interface represents a collection of audio renderers. Applications can use this interface to enumerate the collection. The MSVidAudioRendererDevices object exposes this method.
 old-location: mstv\imsvidaudiorendererdevices.htm
 old-project: mstv
 ms.assetid: 2cf03260-7abe-4602-8364-447d076a4f76
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidAudioRendererDevices, IMSVidAudioRendererDevices interface [Microsoft TV Technologies], IMSVidAudioRendererDevices interface [Microsoft TV Technologies],described, IMSVidAudioRendererDevicesInterface, mstv.imsvidaudiorendererdevices, segment/IMSVidAudioRendererDevices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

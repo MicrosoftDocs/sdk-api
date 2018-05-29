@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IEnumRangeExceptions.Next
 title: IEnumRangeExceptions::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the next elements in the change unit exception set, if they are available.
 old-location: winsync\ienumrangeexceptions_next.htm
 old-project: winsync
 ms.assetid: 0ca472d7-4e97-4998-b883-05329dfdb27a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IEnumRangeExceptions interface [Windows Sync],Next method, IEnumRangeExceptions.Next, IEnumRangeExceptions::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumRangeExceptions interface, winsync.ienumrangeexceptions_next, winsync/IEnumRangeExceptions::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

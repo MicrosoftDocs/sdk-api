@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT
 title: D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains input data for a D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION query.
 old-location: mf\d3d11_authenticated_query_crypto_session_input.htm
 old-project: medfound
 ms.assetid: 012E594C-4E0B-48A3-828A-A8F8B901F8E7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT, D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT, mf.d3d11_authenticated_query_crypto_session_input
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

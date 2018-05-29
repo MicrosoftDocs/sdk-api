@@ -1,16 +1,16 @@
 ---
 UID: NS:prsht._PROPSHEETPAGEA_V4
 title: "_PROPSHEETPAGEA_V4"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a page in a property sheet.
 old-location: controls\PROPSHEETPAGE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\propsheetpage.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPPROPSHEETPAGEA_V4, LPPROPSHEETPAGE, LPPROPSHEETPAGE structure pointer [Windows Controls], PROPSHEETPAGE, PROPSHEETPAGE structure [Windows Controls], PROPSHEETPAGEA, PROPSHEETPAGEA_LATEST, PROPSHEETPAGEA_V4, PROPSHEETPAGEW, PSP_DEFAULT, PSP_DLGINDIRECT, PSP_HASHELP, PSP_HIDEHEADER, PSP_PREMATURE, PSP_RTLREADING, PSP_USECALLBACK, PSP_USEFUSIONCONTEXT, PSP_USEHEADERSUBTITLE, PSP_USEHEADERTITLE, PSP_USEHICON, PSP_USEICONID, PSP_USEREFPARENT, PSP_USETITLE, _PROPSHEETPAGEA_V4, _win32_PROPSHEETPAGE_str, _win32_PROPSHEETPAGE_str_cpp, controls.PROPSHEETPAGE, controls._win32_PROPSHEETPAGE_str, prsht/LPPROPSHEETPAGE, prsht/PROPSHEETPAGE, prsht/PROPSHEETPAGEA, prsht/PROPSHEETPAGEW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: prsht.h
 req.include-header: 

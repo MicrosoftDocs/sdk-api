@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_FaxNumber
 title: IFaxDoc::get_FaxNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the FaxNumber property of a FaxDoc object. The FaxNumber property is a null-terminated string that contains the fax number to which the fax server will send the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_faxnumber_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_833m.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxDoc object [Fax Service],FaxNumber property, FaxDoc.FaxNumber, FaxNumber property [Fax Service], FaxNumber property [Fax Service],FaxDoc object, IFaxDoc.get_FaxNumber, IFaxDoc::get_FaxNumber, _mfax_ifaxdoc_get_faxnumber, fax._mfax_ifaxdoc_get_faxnumber, fax._mfax_ifaxdoc_get_faxnumber_vb, get_FaxNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

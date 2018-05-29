@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.GetTocByIndex
 title: ITocParser::GetTocByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTocByIndex method retrieves a table of contents, specified by an index, from the TOC Parser object.
 old-location: mf\itocparser_gettocbyindex.htm
 old-project: medfound
 ms.assetid: 1386e348-c94f-4343-908c-338352eae494
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetTocByIndex, GetTocByIndex method [Media Foundation], GetTocByIndex method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],GetTocByIndex method, ITocParser.GetTocByIndex, ITocParser::GetTocByIndex, codecapi.itocparser_gettocbyindex, mf.itocparser_gettocbyindex, wmcodecdsp/ITocParser::GetTocByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_BYTES
 title: "_WS_BYTES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to serialize and deserialize an array of bytes.
 old-location: wsw\ws_bytes.htm
 old-project: wsw
 ms.assetid: 0106e372-80bf-4a62-b941-1a4501c92a9c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_BYTES, WS_BYTES structure [Web Services for Windows], _WS_BYTES, webservices/WS_BYTES, wsw.ws_bytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

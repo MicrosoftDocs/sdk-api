@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptSecretAgreement
 title: BCryptSecretAgreement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a secret agreement value from a private and a public key.
 old-location: security\bcryptsecretagreement.htm
 old-project: SecCNG
 ms.assetid: 96863d81-3643-4962-8abf-db1cc2acde07
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptSecretAgreement, BCryptSecretAgreement function [Security], bcrypt/BCryptSecretAgreement, security.bcryptsecretagreement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

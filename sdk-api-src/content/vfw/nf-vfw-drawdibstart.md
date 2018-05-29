@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.DrawDibStart
 title: DrawDibStart function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrawDibStart function prepares a DrawDib DC for streaming playback.
 old-location: multimedia\drawdibstart.htm
 old-project: Multimedia
 ms.assetid: 2c992a4f-3308-4f0a-a1cf-40515e28ae33
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DrawDibStart, DrawDibStart function [Windows Multimedia], _win32_DrawDibStart, multimedia.drawdibstart, vfw/DrawDibStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

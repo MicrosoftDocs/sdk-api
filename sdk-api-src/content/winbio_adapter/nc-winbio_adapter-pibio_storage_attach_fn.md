@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_ATTACH_FN
 title: PIBIO_STORAGE_ATTACH_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a storage adapter to the processing pipeline of the biometric unit.
 old-location: secbiomet\storageadapterattach.htm
 old-project: SecBioMet
 ms.assetid: 6abded6b-12e0-4cc6-a011-0b18e8ea747b
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: PIBIO_STORAGE_ATTACH_FN, PIBIO_STORAGE_ATTACH_FN callback, StorageAdapterAttach, StorageAdapterAttach callback function [Windows Biometric Framework API], secbiomet.storageadapterattach, winbio_adapter/StorageAdapterAttach
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:oleidl.IDropSource
 title: IDropSource
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDropSource interface is one of the interfaces you implement to provide drag-and-drop operations in your application.
 old-location: com\idropsource.htm
 old-project: com
 ms.assetid: 963a36bc-4ad7-4591-bffc-a96b4310177d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IDropSource, IDropSource interface [COM], IDropSource interface [COM],described, _ole_idropsource, com.idropsource, oleidl/IDropSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

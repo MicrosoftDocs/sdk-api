@@ -1,16 +1,16 @@
 ---
 UID: NS:winsnmp.smiVENDORINFO
 title: smiVENDORINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The smiVENDORINFO structure contains information about the Microsoft WinSNMP implementation.
 old-location: snmp\smivendorinfo_str.htm
 old-project: SNMP
 ms.assetid: 78b7b736-f68a-456a-9178-9a5b40e3bc8d
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: "*smiLPVENDORINFO, _snmp_smivendorinfo_str, smiLPVENDORINFO, smiLPVENDORINFO structure pointer [SNMP], smiVENDORINFO, smiVENDORINFO structure [SNMP], snmp.smivendorinfo_str, winsnmp/smiLPVENDORINFO, winsnmp/smiVENDORINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsnmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SetGroupInfo
 title: ListView_SetGroupInfo macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets group information. You can use this macro or send the LVM_SETGROUPINFO message explicitly.
 old-location: controls\ListView_SetGroupInfo.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_SetGroupInfo, ListView_SetGroupInfo macro [Windows Controls], _win32_ListView_SetGroupInfo, _win32_ListView_SetGroupInfo_cpp, commctrl/ListView_SetGroupInfo, controls.ListView_SetGroupInfo, controls._win32_ListView_SetGroupInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

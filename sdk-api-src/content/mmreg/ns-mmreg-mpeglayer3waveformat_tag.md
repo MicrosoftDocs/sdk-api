@@ -1,16 +1,16 @@
 ---
 UID: NS:mmreg.mpeglayer3waveformat_tag
 title: mpeglayer3waveformat_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The MPEGLAYER3WAVEFORMAT structure describes an MPEG Audio Layer-3 (MP3) audio format.
 old-location: dshow\mpeglayer3waveformat.htm
 old-project: DirectShow
 ms.assetid: eca403a0-01a2-4290-951f-a7d516a58b9e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPMPEGLAYER3WAVEFORMAT, *NPMPEGLAYER3WAVEFORMAT, *PMPEGLAYER3WAVEFORMAT, MPEGLAYER3WAVEFORMAT, MPEGLAYER3WAVEFORMAT structure [DirectShow], MPEGLAYER3WAVEFORMATStructure, MPEGLAYER3_FLAG_PADDING_ISO, MPEGLAYER3_FLAG_PADDING_OFF, MPEGLAYER3_FLAG_PADDING_ON, dshow.mpeglayer3waveformat, mmreg/MPEGLAYER3WAVEFORMAT, mpeglayer3waveformat_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: 

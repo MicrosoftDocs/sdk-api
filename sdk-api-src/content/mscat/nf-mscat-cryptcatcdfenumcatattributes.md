@@ -1,16 +1,16 @@
 ---
 UID: NF:mscat.CryptCATCDFEnumCatAttributes
 title: CryptCATCDFEnumCatAttributes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates catalog-level attributes within the CatalogHeader section of a catalog definition file (CDF).
 old-location: security\cryptcatcdfenumcatattributes.htm
 old-project: SecCrypto
 ms.assetid: 01889cb9-7bf4-4591-9bb2-b263c4effe0c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptCATCDFEnumCatAttributes, CryptCATCDFEnumCatAttributes function [Security], mscat/CryptCATCDFEnumCatAttributes, security.cryptcatcdfenumcatattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

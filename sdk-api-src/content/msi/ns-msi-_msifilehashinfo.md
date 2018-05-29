@@ -1,16 +1,16 @@
 ---
 UID: NS:msi._MSIFILEHASHINFO
 title: "_MSIFILEHASHINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MSIFILEHASHINFO structure contains the file hash information returned by MsiGetFileHash and used in the MsiFileHash table.
 old-location: setup\msifilehashinfo.htm
 old-project: Msi
 ms.assetid: b4176b5b-149d-4542-9a6c-27281877a3ff
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PMSIFILEHASHINFO, MSIFILEHASHINFO, MSIFILEHASHINFO structure, PMSIFILEHASHINFO, PMSIFILEHASHINFO structure pointer, _MSIFILEHASHINFO, _msi_msifilehashinfo, msi/MSIFILEHASHINFO, msi/PMSIFILEHASHINFO, setup.msifilehashinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msi.h
 req.include-header: 

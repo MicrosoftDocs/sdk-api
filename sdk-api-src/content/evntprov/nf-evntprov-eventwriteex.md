@@ -1,16 +1,16 @@
 ---
 UID: NF:evntprov.EventWriteEx
 title: EventWriteEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this function to write an event.
 old-location: etw\eventwriteex.htm
 old-project: ETW
 ms.assetid: 00b907cb-45cd-48c7-bea4-4d8a39b4fa24
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EventWriteEx, EventWriteEx function [ETW], etw.eventwriteex, evntprov/EventWriteEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

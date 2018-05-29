@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLSetAuthenticationData
 title: SLSetAuthenticationData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets authentication data.
 old-location: security\slsetauthenticationdata.htm
 old-project: SecSLApi
 ms.assetid: 68906873-6c49-4221-ad87-1e1f1463c0d4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLSetAuthenticationData, SLSetAuthenticationData function [Security], security.slsetauthenticationdata, slpublic/SLSetAuthenticationData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

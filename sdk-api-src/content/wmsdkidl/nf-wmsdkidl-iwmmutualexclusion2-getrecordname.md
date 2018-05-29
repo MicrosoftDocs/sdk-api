@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.GetRecordName
 title: IWMMutualExclusion2::GetRecordName
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetRecordName method retrieves the name of the specified record. A record has a name only if a name has been assigned using the IWMMutualExclusion2::SetRecordName method.
 old-location: wmformat\iwmmutualexclusion2_getrecordname.htm
 old-project: wmformat
 ms.assetid: 7508a473-77ae-49ce-b041-2d171193e730
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetRecordName, GetRecordName method [windows Media Format], GetRecordName method [windows Media Format],IWMMutualExclusion2 interface, IWMMutualExclusion2 interface [windows Media Format],GetRecordName method, IWMMutualExclusion2.GetRecordName, IWMMutualExclusion2::GetRecordName, IWMMutualExclusion2GetRecordName, wmformat.iwmmutualexclusion2_getrecordname, wmsdkidl/IWMMutualExclusion2::GetRecordName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetFolderLogicalViewMode
 title: ISearchFolderItemFactory::SetFolderLogicalViewMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets folder logical view mode. The default settings are based on the FolderTypeID which is set by the ISearchFolderItemFactory::SetFolderTypeID method.
 old-location: shell\ISearchFolderItemFactory_SetFolderLogicalViewMode.htm
 old-project: shell
 ms.assetid: ef72f196-cfd5-4547-85cb-0ccfdc496c46
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetFolderLogicalViewMode method, ISearchFolderItemFactory.SetFolderLogicalViewMode, ISearchFolderItemFactory::SetFolderLogicalViewMode, SetFolderLogicalViewMode, SetFolderLogicalViewMode method [Windows Shell], SetFolderLogicalViewMode method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetFolderLogicalViewMode, shell.ISearchFolderItemFactory_SetFolderLogicalViewMode, shobjidl_core/ISearchFolderItemFactory::SetFolderLogicalViewMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

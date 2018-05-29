@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_DESCRIPTOR_HEAP_TYPE
 title: D3D12_DESCRIPTOR_HEAP_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a type of descriptor heap.
 old-location: direct3d12\d3d12_descriptor_heap_type.htm
 old-project: direct3d12
 ms.assetid: E74C78BC-B0FC-473A-B4F3-434F50A55E9F
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_DESCRIPTOR_HEAP_TYPE, D3D12_DESCRIPTOR_HEAP_TYPE enumeration, D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV, D3D12_DESCRIPTOR_HEAP_TYPE_DSV, D3D12_DESCRIPTOR_HEAP_TYPE_NUM_TYPES, D3D12_DESCRIPTOR_HEAP_TYPE_RTV, D3D12_DESCRIPTOR_HEAP_TYPE_SAMPLER, d3d12/D3D12_DESCRIPTOR_HEAP_TYPE, d3d12/D3D12_DESCRIPTOR_HEAP_TYPE_CBV_SRV_UAV, d3d12/D3D12_DESCRIPTOR_HEAP_TYPE_DSV, d3d12/D3D12_DESCRIPTOR_HEAP_TYPE_NUM_TYPES, d3d12/D3D12_DESCRIPTOR_HEAP_TYPE_RTV, d3d12/D3D12_DESCRIPTOR_HEAP_TYPE_SAMPLER, direct3d12.d3d12_descriptor_heap_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

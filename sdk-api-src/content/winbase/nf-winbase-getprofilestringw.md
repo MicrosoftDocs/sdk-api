@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetProfileStringW
 title: GetProfileStringW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the string associated with a key in the specified section of the Win.ini file.
 old-location: base\getprofilestring.htm
 old-project: SysInfo
 ms.assetid: 70987969-7ad5-4eb6-bcd0-ce8709864ee7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetProfileString, GetProfileString function, GetProfileStringA, GetProfileStringW, _win32_getprofilestring, base.getprofilestring, winbase/GetProfileString, winbase/GetProfileStringA, winbase/GetProfileStringW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

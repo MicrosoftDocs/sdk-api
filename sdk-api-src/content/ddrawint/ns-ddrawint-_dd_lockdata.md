@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_LOCKDATA
 title: "_DD_LOCKDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_LOCKDATA structure contains information necessary to do a lock as defined by the Microsoft DirectDraw parameter structures.
 old-location: display\dd_lockdata.htm
 old-project: display
 ms.assetid: 46de3dbb-abdf-4518-b62d-891efa5a949b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_LOCKDATA, DD_LOCKDATA, DD_LOCKDATA structure [Display Devices], _DD_LOCKDATA, ddrawint/DD_LOCKDATA, ddstrcts_8de05e54-e1e1-4773-982d-e48f7e051f7e.xml, display.dd_lockdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

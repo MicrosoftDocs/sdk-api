@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetLogColorSpaceW
 title: GetLogColorSpaceW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetLogColorSpace function retrieves the color space definition identified by a specified handle.
 old-location: wcs\getlogcolorspace.htm
 old-project: WCS
 ms.assetid: 01862a48-8c2f-4b29-b928-2800c02218a2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetLogColorSpace, GetLogColorSpace function [Windows Color System], GetLogColorSpaceA, GetLogColorSpaceW, _color_GetLogColorSpace, wcs.getlogcolorspace, wingdi/GetLogColorSpace, wingdi/GetLogColorSpaceA, wingdi/GetLogColorSpaceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IImageInformation
 title: IImageInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a localized image that is associated with an update or a category.
 old-location: wua\iimageinformation.htm
 old-project: Wua_Sdk
 ms.assetid: 869c10c3-a4d1-4001-86f1-30ebf2abe96f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IImageInformation, IImageInformation interface [Windows Update Agent], IImageInformation interface [Windows Update Agent],described, wua.iimageinformation, wuapi/IImageInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

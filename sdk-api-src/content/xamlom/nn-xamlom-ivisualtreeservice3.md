@@ -1,16 +1,16 @@
 ---
 UID: NN:xamlom.IVisualTreeService3
 title: IVisualTreeService3
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents additional capabilities of an IVisualTreeService2 object.
 old-location: xaml_diagnostics\ivisualtreeservice3.htm
 old-project: xaml_diagnostics
 ms.assetid: 20AD2DC4-388E-458E-AA44-8B2F3464FD6C
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: IVisualTreeService3, IVisualTreeService3 interface, IVisualTreeService3 interface,described, xaml_diagnostics.ivisualtreeservice3, xamlom/IVisualTreeService3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xamlom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetTypeInfo
 title: IRecordInfo::GetTypeInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the type information that describes a UDT or safearray of UDTs.
 old-location: automat\irecordinfo_gettypeinfo.htm
 old-project: automat
 ms.assetid: c8c05c4a-000a-4e48-aace-ff9f9292e3ea
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetTypeInfo, GetTypeInfo method [Automation], GetTypeInfo method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetTypeInfo method, IRecordInfo.GetTypeInfo, IRecordInfo::GetTypeInfo, _oa96_IRecordInfo_GetTypeInfo, automat.irecordinfo_gettypeinfo, oaidl/IRecordInfo::GetTypeInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

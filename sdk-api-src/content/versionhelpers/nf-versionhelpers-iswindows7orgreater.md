@@ -1,16 +1,16 @@
 ---
 UID: NF:versionhelpers.IsWindows7OrGreater
 title: IsWindows7OrGreater function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows 7 version.
 old-location: base\iswindows7orgreater.htm
 old-project: SysInfo
 ms.assetid: 5C475B5E-1412-4F60-AB81-00BE83E204BF
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsWindows7OrGreater, IsWindows7OrGreater function, base.iswindows7orgreater, versionhelpers/IsWindows7OrGreater
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: versionhelpers.h
 req.include-header: 

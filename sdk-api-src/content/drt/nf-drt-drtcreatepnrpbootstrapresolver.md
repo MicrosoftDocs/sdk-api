@@ -1,16 +1,16 @@
 ---
 UID: NF:drt.DrtCreatePnrpBootstrapResolver
 title: DrtCreatePnrpBootstrapResolver function
-author: windows-driver-content
+author: windows-sdk-content
 description: DrtCreatePnrpBootstrapResolver.
 old-location: p2p\drtcreatepnrpbootstrapresolver.htm
 old-project: P2PSdk
 ms.assetid: 5bd64f10-abb8-4cba-8ebd-780a6a0c7074
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DrtCreatePnrpBootstrapResolver, DrtCreatePnrpBootstrapResolver function [Peer Networking], drt/DrtCreatePnrpBootstrapResolver, p2p.drtcreatepnrpbootstrapresolver
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: drt.h
 req.include-header: 

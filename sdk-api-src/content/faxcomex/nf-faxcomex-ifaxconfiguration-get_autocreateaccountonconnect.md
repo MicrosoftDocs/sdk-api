@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_AutoCreateAccountOnConnect
 title: IFaxConfiguration::get_AutoCreateAccountOnConnect
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves a value that indicates whether the server automatically creates a fax account once a connection is initiated.
 old-location: fax\_mfax_FaxConfiguration_AutoCreateAccountOnConnect_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\autocreateaccountonconnect.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: AutoCreateAccountOnConnect property [Fax Service], AutoCreateAccountOnConnect property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],AutoCreateAccountOnConnect property, FaxConfiguration.AutoCreateAccountOnConnect, IFaxConfiguration.get_AutoCreateAccountOnConnect, IFaxConfiguration::get_AutoCreateAccountOnConnect, _mfax_IFaxConfiguration_AutoCreateAccountOnConnect, fax._mfax_FaxConfiguration_AutoCreateAccountOnConnect_vb, get_AutoCreateAccountOnConnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

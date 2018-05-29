@@ -1,16 +1,16 @@
 ---
 UID: NE:wsbonline._WSB_OB_STATUS_ENTRY_PAIR_TYPE
 title: "_WSB_OB_STATUS_ENTRY_PAIR_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the type of the parameter value.
 old-location: wsb\wsb_ob_status_entry_pair_type.htm
 old-project: wsb
 ms.assetid: E2D70C01-D331-4FBC-8586-2878513618D5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WSB_OB_ET_DATETIME, WSB_OB_ET_MAX, WSB_OB_ET_NUMBER, WSB_OB_ET_SIZE, WSB_OB_ET_STRING, WSB_OB_ET_TIME, WSB_OB_ET_UNDEFINED, WSB_OB_STATUS_ENTRY_PAIR_TYPE, WSB_OB_STATUS_ENTRY_PAIR_TYPE enumeration [Windows Server Backup], _WSB_OB_STATUS_ENTRY_PAIR_TYPE, wsb.wsb_ob_status_entry_pair_type, wsbonline/WSB_OB_ET_DATETIME, wsbonline/WSB_OB_ET_MAX, wsbonline/WSB_OB_ET_NUMBER, wsbonline/WSB_OB_ET_SIZE, wsbonline/WSB_OB_ET_STRING, wsbonline/WSB_OB_ET_TIME, wsbonline/WSB_OB_ET_UNDEFINED, wsbonline/WSB_OB_STATUS_ENTRY_PAIR_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wsbonline.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnPinManagerEvents.OnPinListAvailable
 title: IMbnPinManagerEvents::OnPinListAvailable
-author: windows-driver-content
+author: windows-sdk-content
 description: Notification method called by the Mobile Broadband service to indicate that the list of device PINs is available.
 old-location: mbn\imbnpinmanagerevents_onpinlistavailable.htm
 old-project: mbn
 ms.assetid: 37347dd8-07c2-4521-a5f0-a51053634704
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnPinManagerEvents interface [Microsoft Broadband Networks],OnPinListAvailable method, IMbnPinManagerEvents.OnPinListAvailable, IMbnPinManagerEvents::OnPinListAvailable, OnPinListAvailable, OnPinListAvailable method [Microsoft Broadband Networks], OnPinListAvailable method [Microsoft Broadband Networks],IMbnPinManagerEvents interface, mbn.imbnpinmanagerevents_onpinlistavailable, mbnapi/IMbnPinManagerEvents::OnPinListAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

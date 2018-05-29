@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadStr
 title: PSPropertyBag_ReadStr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the string data value of a property in a property bag.
 old-location: properties\PSPropertyBag_ReadStr.htm
 old-project: properties
 ms.assetid: 2E3E86D6-B070-49fc-AAF0-D6DCF0EA16B7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_ReadStr, PSPropertyBag_ReadStr function [Windows Properties], properties.PSPropertyBag_ReadStr, propsys/PSPropertyBag_ReadStr, shell.PSPropertyBag_ReadStr, shell_PSPropertyBag_ReadStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

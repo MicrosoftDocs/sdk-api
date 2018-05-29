@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetDouble
 title: IMFAttributes::GetDouble
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a double value associated with a key.
 old-location: mf\imfattributes_getdouble.htm
 old-project: medfound
 ms.assetid: 650a5f7f-609f-477b-8834-ff66ca3a9ca3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 650a5f7f-609f-477b-8834-ff66ca3a9ca3, GetDouble, GetDouble method [Media Foundation], GetDouble method [Media Foundation],IMFAttributes interface, IMFActivate.GetDouble, IMFAttributes interface [Media Foundation],GetDouble method, IMFAttributes.GetDouble, IMFAttributes::GetDouble, mf.imfattributes_getdouble, mfobjects/IMFAttributes::GetDouble
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

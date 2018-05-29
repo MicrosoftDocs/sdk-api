@@ -1,16 +1,16 @@
 ---
 UID: NS:fwptypes.FWP_V6_ADDR_AND_MASK_
 title: FWP_V6_ADDR_AND_MASK_
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies an IPv6 address and mask.
 old-location: fwp\fwp_v6_addr_and_mask_struct.htm
 old-project: FWP
 ms.assetid: d8566d41-677a-424f-89f3-e333a0520288
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWP_V6_ADDR_AND_MASK, FWP_V6_ADDR_AND_MASK structure [Filtering], FWP_V6_ADDR_AND_MASK_, fwp.fwp_v6_addr_and_mask_struct, fwptypes/FWP_V6_ADDR_AND_MASK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 

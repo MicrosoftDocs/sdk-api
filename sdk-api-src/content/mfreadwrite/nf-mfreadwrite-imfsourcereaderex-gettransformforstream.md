@@ -1,16 +1,16 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderEx.GetTransformForStream
 title: IMFSourceReaderEx::GetTransformForStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
 old-location: mf\imfsourcereaderex_gettransformforstream.htm
 old-project: medfound
 ms.assetid: 39F2D132-5D2B-4389-AB30-FE2942EC3965
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetTransformForStream, GetTransformForStream method [Media Foundation], GetTransformForStream method [Media Foundation],IMFSourceReaderEx interface, IMFSourceReaderEx interface [Media Foundation],GetTransformForStream method, IMFSourceReaderEx.GetTransformForStream, IMFSourceReaderEx::GetTransformForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereaderex_gettransformforstream, mfreadwrite/IMFSourceReaderEx::GetTransformForStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

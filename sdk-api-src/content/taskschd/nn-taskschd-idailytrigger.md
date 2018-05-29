@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.IDailyTrigger
 title: IDailyTrigger
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a trigger that starts a task based on a daily schedule.
 old-location: taskschd\idailytrigger.htm
 old-project: TaskSchd
 ms.assetid: 9980ddb1-9873-46d2-8dea-bfc3fd78bba8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDailyTrigger, IDailyTrigger interface [Task Scheduler], IDailyTrigger interface [Task Scheduler],described, daily trigger [Task Scheduler],interface, taskschd.idailytrigger, taskschd/IDailyTrigger
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

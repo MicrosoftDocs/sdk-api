@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.DecoderEnableDownsampling
 title: ID3D11VideoContext1::DecoderEnableDownsampling
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that decoder downsampling will be used and that the driver should allocate the appropriate reference frames.
 old-location: mf\id3d11videocontext1_decoderenabledownsampling.htm
 old-project: medfound
 ms.assetid: 0BE7E6EC-E090-4A13-9D18-108BDBBC211A
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DecoderEnableDownsampling, DecoderEnableDownsampling method [Media Foundation], DecoderEnableDownsampling method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],DecoderEnableDownsampling method, ID3D11VideoContext1.DecoderEnableDownsampling, ID3D11VideoContext1::DecoderEnableDownsampling, d3d11_1/ID3D11VideoContext1::DecoderEnableDownsampling, mf.id3d11videocontext1_decoderenabledownsampling
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.ReplaceSignatureXml
 title: IOpcDigitalSignatureManager::ReplaceSignatureXml
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces the existing signature markup that is stored in a specified signature part.
 old-location: opc\iopcdigitalsignaturemanager_replacesignaturexml.htm
 old-project: OPC
 ms.assetid: cacd0ccf-0cb9-41dc-a944-74db8254fd95
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],ReplaceSignatureXml method, IOpcDigitalSignatureManager.ReplaceSignatureXml, IOpcDigitalSignatureManager::ReplaceSignatureXml, ReplaceSignatureXml, ReplaceSignatureXml method [Open Packaging Conventions], ReplaceSignatureXml method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::ReplaceSignatureXml, opc.iopcdigitalsignaturemanager_replacesignaturexml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

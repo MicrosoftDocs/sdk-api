@@ -1,16 +1,16 @@
 ---
 UID: NS:tlhelp32.tagHEAPLIST32
 title: tagHEAPLIST32
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an entry from a list that enumerates the heaps used by a specified process.
 old-location: toolhelp\heaplist32_str.htm
 old-project: ToolHelp
 ms.assetid: 61e01d23-9f15-44c5-9f6d-45df4809ccad
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPHEAPLIST32, *PHEAPLIST32, HEAPLIST32, HEAPLIST32 structure [ToolHelp], HF32_DEFAULT, PHEAPLIST32, PHEAPLIST32 structure pointer [ToolHelp], _win32_heaplist32_str, base.heaplist32_str, tagHEAPLIST32, tlhelp32/HEAPLIST32, tlhelp32/PHEAPLIST32, toolhelp.heaplist32_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tlhelp32.h
 req.include-header: 

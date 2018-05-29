@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.Pack2UINT32AsUINT64
 title: Pack2UINT32AsUINT64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Packs two UINT32 values into a UINT64 value.
 old-location: mf\pack2uint32asuint64.htm
 old-project: medfound
 ms.assetid: 82d37211-e2e5-4b34-8102-2c3f8650cc26
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Pack2UINT32AsUINT64, Pack2UINT32AsUINT64 function [Media Foundation], mf.pack2uint32asuint64, mfapi/Pack2UINT32AsUINT64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

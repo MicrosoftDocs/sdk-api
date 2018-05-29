@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingWrite
 title: TraceLoggingWrite macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Emits an event.
 old-location: tracelogging\traceloggingwrite.htm
 old-project: tracelogging
 ms.assetid: BFBC6802-64DC-478E-B09D-F550135994AB
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingWrite, TraceLoggingWrite macro, tracelogging.traceloggingwrite, traceloggingprovider/TraceLoggingWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

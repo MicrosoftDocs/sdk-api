@@ -1,16 +1,16 @@
 ---
 UID: NE:gamingdeviceinformation.GAMING_DEVICE_VENDOR_ID
 title: GAMING_DEVICE_VENDOR_ID
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the vendor of the console that the game is running on.
 old-location: gamingdvcinfo\gaming_device_vendor_id.htm
 old-project: gamingdvcinfo
 ms.assetid: 0A74E610-9853-4299-A278-41C3B7F47D9C
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GAMING_DEVICE_VENDOR_ID, GAMING_DEVICE_VENDOR_ID enumeration, GAMING_DEVICE_VENDOR_ID_MICROSOFT, GAMING_DEVICE_VENDOR_ID_NONE, gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID, gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID_MICROSOFT, gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID_NONE, gamingdvcinfo.gaming_device_vendor_id
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gamingdeviceinformation.h
 req.include-header: 

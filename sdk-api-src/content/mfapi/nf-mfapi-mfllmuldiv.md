@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFllMulDiv
 title: MFllMulDiv function
-author: windows-driver-content
+author: windows-sdk-content
 description: Calculates ((a * b) + d) / c, where each term is a 64-bit signed value.
 old-location: mf\mfllmuldiv.htm
 old-project: medfound
 ms.assetid: ee369c2e-99a1-4ee4-ac67-02f14e11e269
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFllMulDiv, MFllMulDiv function [Media Foundation], mf.mfllmuldiv, mfapi/MFllMulDiv
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

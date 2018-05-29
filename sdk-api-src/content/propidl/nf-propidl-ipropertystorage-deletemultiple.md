@@ -1,16 +1,16 @@
 ---
 UID: NF:propidl.IPropertyStorage.DeleteMultiple
 title: IPropertyStorage::DeleteMultiple
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeleteMultiple method deletes as many of the indicated properties as exist in this property set.
 old-location: stg\ipropertystorage_deletemultiple.htm
 old-project: Stg
 ms.assetid: 95c218f1-2bf7-4946-ae9c-934e5916395a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DeleteMultiple, DeleteMultiple method [Structured Storage], DeleteMultiple method [Structured Storage],IPropertyStorage interface, IPropertyStorage interface [Structured Storage],DeleteMultiple method, IPropertyStorage.DeleteMultiple, IPropertyStorage::DeleteMultiple, _stg_ipropertystorage_deletemultiple, propidl/IPropertyStorage::DeleteMultiple, stg.ipropertystorage_deletemultiple
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propidl.h
 req.include-header: Objbase.h

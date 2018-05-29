@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.GetNumStoredMessages
 title: ID3D11InfoQueue::GetNumStoredMessages
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the number of messages currently stored in the message queue.
 old-location: direct3d11\id3d11infoqueue_getnumstoredmessages.htm
 old-project: direct3d11
 ms.assetid: d07a74ed-d409-4242-9687-a61bb64e455c
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: GetNumStoredMessages, GetNumStoredMessages method [Direct3D 11], GetNumStoredMessages method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetNumStoredMessages method, ID3D11InfoQueue.GetNumStoredMessages, ID3D11InfoQueue::GetNumStoredMessages, d3d11sdklayers/ID3D11InfoQueue::GetNumStoredMessages, direct3d11.id3d11infoqueue_getnumstoredmessages, e1be4c55-533e-0e99-92b8-8a9ac2e72584
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 

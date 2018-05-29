@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESOURCE_TYPE_CONTROL_ROUTINE
 title: PRESOURCE_TYPE_CONTROL_ROUTINE
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs an operation that applies to a resource type.
 old-location: mscs\resourcetypecontrol.htm
 old-project: MsCS
 ms.assetid: dc4a6e6e-f968-4502-88d0-dc692341528d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESOURCE_TYPE_CONTROL_ROUTINE, PRESOURCE_TYPE_CONTROL_ROUTINE callback function [Failover Cluster], ResourceTypeControl, ResourceTypeControl callback, ResourceTypeControl callback function [Failover Cluster], _wolf_resourcetypecontrol, mscs.resourcetypecontrol, resapi/PRESOURCE_TYPE_CONTROL_ROUTINE, resapi/ResourceTypeControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

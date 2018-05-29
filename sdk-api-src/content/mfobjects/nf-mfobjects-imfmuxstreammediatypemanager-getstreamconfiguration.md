@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.GetStreamConfiguration
 title: IMFMuxStreamMediaTypeManager::GetStreamConfiguration
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the stream configuration with the specified index, which defines a set of substreams that can be included the multiplexed output.
 old-location: mf\imfmuxstreammediatypemanager_getstreamconfiguration.htm
 old-project: medfound
 ms.assetid: 5B2B7F8C-0D3B-4BBB-8445-1A428A29A272
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetStreamConfiguration, GetStreamConfiguration method [Media Foundation], GetStreamConfiguration method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetStreamConfiguration method, IMFMuxStreamMediaTypeManager.GetStreamConfiguration, IMFMuxStreamMediaTypeManager::GetStreamConfiguration, mf.imfmuxstreammediatypemanager_getstreamconfiguration, mfobjects/IMFMuxStreamMediaTypeManager::GetStreamConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: 

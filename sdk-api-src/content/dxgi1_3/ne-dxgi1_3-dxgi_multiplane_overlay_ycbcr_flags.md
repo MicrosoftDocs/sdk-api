@@ -1,16 +1,16 @@
 ---
 UID: NE:dxgi1_3.DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 title: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Options for swap-chain color space.
 old-location: direct3ddxgi\dxgi_multiplane_overlay_ycbcr_flags.htm
 old-project: direct3ddxgi
 ms.assetid: 8BD502DC-39C1-472E-AC29-14A1F7EDB37E
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration [DXGI], DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC, direct3ddxgi.dxgi_multiplane_overlay_ycbcr_flags, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, dxgi1_3/DXGI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_3.h
 req.include-header: DXGIPartner.h

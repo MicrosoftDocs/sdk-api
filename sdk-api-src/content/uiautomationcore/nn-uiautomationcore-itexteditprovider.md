@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.ITextEditProvider
 title: ITextEditProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the ITextProvider interface to enable Microsoft UI Automation providers to expose programmatic text-edit actions.
 old-location: winauto\uiauto_itexteditprovider.htm
 old-project: WinAuto
 ms.assetid: 6AA3F2A5-B34C-F7CB-13B3-6C62E2B67326
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ITextEditProvider, ITextEditProvider interface [Windows Accessibility], ITextEditProvider interface [Windows Accessibility],described, uiautomationcore/ITextEditProvider, winauto.uiauto_itexteditprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

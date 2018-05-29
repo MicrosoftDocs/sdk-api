@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_CountRefs
 title: CStdStubBuffer_CountRefs function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CStdStubBuffer_CountRefs function implements the IRpcStubBuffer::CountRefs method.
 old-location: rpc\cstdstubbuffer_countrefs.htm
 old-project: Rpc
 ms.assetid: ad330a86-27d9-453d-af9b-4a7f62d641bf
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: CStdStubBuffer_CountRefs, CStdStubBuffer_CountRefs function [RPC], rpc.cstdstubbuffer_countrefs, rpcproxy/CStdStubBuffer_CountRefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

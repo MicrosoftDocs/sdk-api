@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2fs.IFileSystemImage
 title: IFileSystemImage
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to build a file system image, set session parameter, and import or export an image.
 old-location: imapi\ifilesystemimage.htm
 old-project: imapi
 ms.assetid: 0256f1d2-a3fb-45b2-bd84-e2b71148e4ec
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], IFileSystemImage interface [IMAPI],described, imapi.ifilesystemimage, imapi2fs/IFileSystemImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

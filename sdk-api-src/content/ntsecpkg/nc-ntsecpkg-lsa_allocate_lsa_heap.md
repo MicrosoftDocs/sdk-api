@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_ALLOCATE_LSA_HEAP
 title: LSA_ALLOCATE_LSA_HEAP
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates memory on the heap. Some information passed back to the LSA is expected to be allocated using this function.
 old-location: security\allocatelsaheap.htm
 old-project: SecAuthN
 ms.assetid: cb87f1b1-3e1e-4add-8e74-ca7b4f8599ba
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AllocateLsaHeap, AllocateLsaHeap function [Security], LSA_ALLOCATE_LSA_HEAP, _lsa_allocatelsaheap, ntsecpkg/AllocateLsaHeap, security.allocatelsaheap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

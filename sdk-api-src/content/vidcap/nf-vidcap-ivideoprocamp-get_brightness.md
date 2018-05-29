@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Brightness
 title: IVideoProcAmp::get_Brightness
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Brightness method returns the camera's brightness setting.
 old-location: dshow\ivideoprocamp_get_brightness.htm
 old-project: DirectShow
 ms.assetid: b0e3b7cf-c133-4b47-8209-1014d1e3d671
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Brightness method, IVideoProcAmp.get_Brightness, IVideoProcAmp::get_Brightness, IVideoProcAmpget_Brightness, dshow.ivideoprocamp_get_brightness, get_Brightness, get_Brightness method [DirectShow], get_Brightness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Brightness
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

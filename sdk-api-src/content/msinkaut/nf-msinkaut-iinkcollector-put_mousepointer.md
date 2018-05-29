@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkCollector.put_MousePointer
 title: IInkCollector::put_MousePointer
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a value that indicates the type of mouse pointer that appears.
 old-location: tablet\inkcollector_mousepointer.htm
 old-project: tablet
 ms.assetid: 8876b0ef-1a61-481b-ac37-9e4d637f8097
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 8876b0ef-1a61-481b-ac37-9e4d637f8097, IInkCollector.put_MousePointer, IInkCollector::put_MousePointer, InkCollector class [Tablet PC],MousePointer property, InkCollector.MousePointer, InkCollector.get_MousePointer, InkCollector.put_MousePointer, MousePointer property [Tablet PC], MousePointer property [Tablet PC],InkCollector class, get_MousePointer, put_MousePointer, tablet.inkcollector_mousepointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

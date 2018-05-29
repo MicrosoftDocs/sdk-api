@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetTransform
 title: IXpsOMVisual::GetTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the visual's resolved matrix transform.
 old-location: xps\ixpsomvisual_gettransform.htm
 old-project: printdocs
 ms.assetid: 966916c9-8b63-468b-80fb-0c4863ff893a
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetTransform, GetTransform method [XPS Documents and Packaging], GetTransform method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetTransform method, IXpsOMVisual.GetTransform, IXpsOMVisual::GetTransform, xps.ixpsomvisual_gettransform, xpsobjectmodel/IXpsOMVisual::GetTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

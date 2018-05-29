@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetAlphaYIntercept
 title: SetAlphaYIntercept function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Y-intercept of the linear function for the alpha channel.
 old-location: directcomp\idcompositionlineartransfereffect_setalphayintercept_overloaded.htm
 old-project: directcomp
 ms.assetid: 7d0fa3a9-367b-4cb7-b6d2-db2f603f38bd
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionLinearTransferEffect::SetAlphaYIntercept, SetAlphaYIntercept, SetAlphaYIntercept methods [DirectComposition], dcomp/SetAlphaYIntercept, directcomp.idcompositionlineartransfereffect_setalphayintercept_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

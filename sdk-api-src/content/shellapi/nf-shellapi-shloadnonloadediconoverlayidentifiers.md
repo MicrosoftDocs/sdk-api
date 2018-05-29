@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.SHLoadNonloadedIconOverlayIdentifiers
 title: SHLoadNonloadedIconOverlayIdentifiers function
-author: windows-driver-content
+author: windows-sdk-content
 description: Signals the Shell that during the next operation requiring overlay information, it should load icon overlay identifiers that either failed creation or were not present for creation at startup. Identifiers that have already been loaded are not affected.
 old-location: shell\SHLoadNonloadedIconOverlayIdentifiers.htm
 old-project: shell
 ms.assetid: d2c4f37e-6e9d-4536-90ea-d69461c4105a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHLoadNonloadedIconOverlayIdentifiers, SHLoadNonloadedIconOverlayIdentifiers function [Windows Shell], _shell_shloadnonloadediconoverlayidentifiers, shell.SHLoadNonloadedIconOverlayIdentifiers, shellapi/SHLoadNonloadedIconOverlayIdentifiers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

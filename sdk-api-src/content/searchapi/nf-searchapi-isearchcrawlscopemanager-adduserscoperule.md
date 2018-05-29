@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.AddUserScopeRule
 title: ISearchCrawlScopeManager::AddUserScopeRule
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a new crawl scope rule when the user creates a new rule or adds a URL to be indexed.
 old-location: search\_search_ISearchCrawlScopeManager_AddUserScopeRule.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\adduserscoperule.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddUserScopeRule, AddUserScopeRule method [search], AddUserScopeRule method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],AddUserScopeRule method, ISearchCrawlScopeManager.AddUserScopeRule, ISearchCrawlScopeManager::AddUserScopeRule, _search_ISearchCrawlScopeManager_AddUserScopeRule, search._search_ISearchCrawlScopeManager_AddUserScopeRule, searchapi/ISearchCrawlScopeManager::AddUserScopeRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IStreamPseudoRandomBased.get_ExtendedSeed
 title: IStreamPseudoRandomBased::get_ExtendedSeed
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an array of seed values used by the random number generator.
 old-location: imapi\istreampseudorandombased_get_extendedseed.htm
 old-project: imapi
 ms.assetid: e15e47aa-e5c4-4944-a3c4-14e459a31bb5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IStreamPseudoRandomBased interface [IMAPI],get_ExtendedSeed method, IStreamPseudoRandomBased.get_ExtendedSeed, IStreamPseudoRandomBased::get_ExtendedSeed, get_ExtendedSeed, get_ExtendedSeed method [IMAPI], get_ExtendedSeed method [IMAPI],IStreamPseudoRandomBased interface, imapi.istreampseudorandombased_get_extendedseed, imapi2/IStreamPseudoRandomBased::get_ExtendedSeed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

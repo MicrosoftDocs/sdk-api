@@ -1,16 +1,16 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpointOffloadStreamMute
 title: IAudioEndpointOffloadStreamMute
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioEndpointOffloadStreamMute interface allows a client to manipulate the mute status of the offloaded audio stream.
 old-location: coreaudio\iaudioendpointoffloadstreammute.htm
 old-project: CoreAudio
 ms.assetid: F102CBB2-6751-416C-B59B-F91440583594
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioEndpointOffloadStreamMute, IAudioEndpointOffloadStreamMute interface [Core Audio], IAudioEndpointOffloadStreamMute interface [Core Audio],described, audioengineendpoint/IAudioEndpointOffloadStreamMute, coreaudio.iaudioendpointoffloadstreammute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 

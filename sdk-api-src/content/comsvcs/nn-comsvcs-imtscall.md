@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IMTSCall
 title: IMTSCall
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements the batch work that is submitted through the activity created by the MTSCreateActivity function.
 old-location: cos\imtscall.htm
 old-project: cossdk
 ms.assetid: dccf53c3-19d9-435b-91b7-98e41bd48e29
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMTSCall, IMTSCall interface [COM+], IMTSCall interface [COM+],described, _cos_IMTSCall, comsvcs/IMTSCall, cos.imtscall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

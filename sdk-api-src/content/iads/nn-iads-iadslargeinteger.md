@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsLargeInteger
 title: IADsLargeInteger
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to manipulate 64-bit integers of the LargeInteger type.
 old-location: adsi\iadslargeinteger.htm
 old-project: ADSI
 ms.assetid: d49e3339-8488-44c1-9d60-706492e65abc
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsLargeInteger, IADsLargeInteger interface [ADSI], IADsLargeInteger interface [ADSI],described, _ds_iadslargeinteger, adsi.iadslargeinteger, iads/IADsLargeInteger
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

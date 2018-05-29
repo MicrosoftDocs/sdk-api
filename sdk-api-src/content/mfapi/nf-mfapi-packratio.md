@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.PackRatio
 title: PackRatio function
-author: windows-driver-content
+author: windows-sdk-content
 description: Packs two UINT32 values, which represent a ratio, into a UINT64 value.
 old-location: mf\packratio.htm
 old-project: medfound
 ms.assetid: 2E175E21-D5A3-43B1-8AB9-A427E0F9350E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PackRatio, PackRatio function [Media Foundation], mf.packratio, mfapi/PackRatio
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

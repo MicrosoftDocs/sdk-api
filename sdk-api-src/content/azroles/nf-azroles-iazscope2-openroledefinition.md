@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzScope2.OpenRoleDefinition
 title: IAzScope2::OpenRoleDefinition
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an IAzRoleDefinition object with the specified name in this scope.
 old-location: security\iazscope2_openroledefinition.htm
 old-project: SecAuthZ
 ms.assetid: 58b792aa-1432-4b23-8d7a-33606741bf27
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAzScope2 interface [Security],OpenRoleDefinition method, IAzScope2.OpenRoleDefinition, IAzScope2::OpenRoleDefinition, OpenRoleDefinition, OpenRoleDefinition method [Security], OpenRoleDefinition method [Security],IAzScope2 interface, azroles/IAzScope2::OpenRoleDefinition, security.iazscope2_openroledefinition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11Device.CheckFormatSupport
 title: ID3D11Device::CheckFormatSupport
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the support of a given format on the installed video device.
 old-location: direct3d11\id3d11device_checkformatsupport.htm
 old-project: direct3d11
 ms.assetid: d5442fe8-e510-4bda-9df0-377b465cdd5e
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 2d26cce0-cf41-b6fc-ed00-e69b3d5ba58f, CheckFormatSupport, CheckFormatSupport method [Direct3D 11], CheckFormatSupport method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CheckFormatSupport method, ID3D11Device.CheckFormatSupport, ID3D11Device::CheckFormatSupport, d3d11/ID3D11Device::CheckFormatSupport, direct3d11.id3d11device_checkformatsupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

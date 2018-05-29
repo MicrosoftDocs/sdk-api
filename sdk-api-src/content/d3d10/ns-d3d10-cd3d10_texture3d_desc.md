@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d10.CD3D10_TEXTURE3D_DESC
 title: CD3D10_TEXTURE3D_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a 3D texture.
 old-location: direct3d10\d3d10_texture3d_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_texture3d_desc.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CD3D10_TEXTURE3D_DESC, D3D10_TEXTURE3D_DESC, D3D10_TEXTURE3D_DESC structure [Direct3D 10], abbd74e0-643f-c06c-689d-08361a07731d, d3d10/D3D10_TEXTURE3D_DESC, direct3d10.d3d10_texture3d_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10.h
 req.include-header: 

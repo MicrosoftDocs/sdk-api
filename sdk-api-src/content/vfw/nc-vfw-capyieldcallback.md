@@ -1,16 +1,16 @@
 ---
 UID: NC:vfw.CAPYIELDCALLBACK
 title: CAPYIELDCALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: The capYieldCallback function is the yield callback function used with video capture. The name capYieldCallback is a placeholder for the application-supplied function name.
 old-location: multimedia\capyieldcallback.htm
 old-project: Multimedia
 ms.assetid: 4d92ab5e-5cde-4fed-a661-0458b5399c2a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capYieldCallback, capYieldCallback, capYieldCallback callback, capYieldCallback callback function [Windows Multimedia], multimedia.capyieldcallback, vfw/capYieldCallback"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: vfw.h
 req.include-header: 

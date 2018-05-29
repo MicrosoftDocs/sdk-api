@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.IEnumTfLatticeElements
 title: IEnumTfLatticeElements
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumTfLatticeElements interface is implemented by the TSF manager to provide an enumeration of lattice elements.
 old-location: tsf\ienumtflatticeelements.htm
 old-project: TSF
 ms.assetid: 5e36f052-a539-4020-8899-fb14c792c666
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IEnumTfLatticeElements, IEnumTfLatticeElements interface [Text Services Framework], IEnumTfLatticeElements interface [Text Services Framework],described, _tsf_ienumtflatticeelements_ref, ctffunc/IEnumTfLatticeElements, tsf.ienumtflatticeelements
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.wglCopyContext
 title: wglCopyContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: The wglCopyContext function copies selected groups of rendering states from one OpenGL rendering context to another.
 old-location: opengl\wglcopycontext.htm
 old-project: OpenGL
 ms.assetid: dc350848-7921-41b8-96f1-c0eabad3d157
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "_ogl_wglCopyContext, opengl.wglcopycontext, wglCopyContext, wglCopyContext function [OpenGL], wingdi/wglCopyContext"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

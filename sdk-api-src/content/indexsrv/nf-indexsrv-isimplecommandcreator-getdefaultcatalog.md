@@ -1,16 +1,16 @@
 ---
 UID: NF:indexsrv.ISimpleCommandCreator.GetDefaultCatalog
 title: ISimpleCommandCreator::GetDefaultCatalog
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the default catalog for the system.
 old-location: search\isimplecommandcreator_getdefaultcatalog.htm
 old-project: search
 ms.assetid: 6BD65290-209A-4FCA-BD2B-E4BB800C8BEF
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDefaultCatalog, GetDefaultCatalog method [search], GetDefaultCatalog method [search],ISimpleCommandCreator interface, ISimpleCommandCreator interface [search],GetDefaultCatalog method, ISimpleCommandCreator.GetDefaultCatalog, ISimpleCommandCreator::GetDefaultCatalog, indexsrv/ISimpleCommandCreator::GetDefaultCatalog, search.isimplecommandcreator_getdefaultcatalog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 

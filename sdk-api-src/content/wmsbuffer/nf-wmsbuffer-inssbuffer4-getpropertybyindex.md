@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer4.GetPropertyByIndex
 title: INSSBuffer4::GetPropertyByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPropertyByIndex method retrieves a buffer property, also called a data unit extension, that was set using INSSBuffer3::SetProperty.
 old-location: wmformat\inssbuffer4_getpropertybyindex.htm
 old-project: wmformat
 ms.assetid: 8812b7c9-610b-4c17-a274-55e043cfb091
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetPropertyByIndex, GetPropertyByIndex method [windows Media Format], GetPropertyByIndex method [windows Media Format],INSSBuffer4 interface, INSSBuffer4 interface [windows Media Format],GetPropertyByIndex method, INSSBuffer4.GetPropertyByIndex, INSSBuffer4::GetPropertyByIndex, INSSBuffer4GetPropertyByIndex, wmformat.inssbuffer4_getpropertybyindex, wmsbuffer/INSSBuffer4::GetPropertyByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h

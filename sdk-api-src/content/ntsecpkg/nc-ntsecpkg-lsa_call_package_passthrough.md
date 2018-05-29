@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_CALL_PACKAGE_PASSTHROUGH
 title: LSA_CALL_PACKAGE_PASSTHROUGH
-author: windows-driver-content
+author: windows-sdk-content
 description: The CallPackagePassthrough function is used to call another security package to access its services.
 old-location: security\callpackagepassthrough.htm
 old-project: SecAuthN
 ms.assetid: 622856ca-f49e-4995-bead-7b02501a84e5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CallPackagePassthrough, CallPackagePassthrough function [Security], LSA_CALL_PACKAGE_PASSTHROUGH, _ssp_callpackagepassthrough, ntsecpkg/CallPackagePassthrough, security.callpackagepassthrough
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

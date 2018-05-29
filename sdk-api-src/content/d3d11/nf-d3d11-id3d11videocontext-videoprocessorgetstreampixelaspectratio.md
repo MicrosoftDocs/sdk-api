@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamPixelAspectRatio
 title: ID3D11VideoContext::VideoProcessorGetStreamPixelAspectRatio
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the pixel aspect ratio for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreampixelaspectratio.htm
 old-project: medfound
 ms.assetid: 45B0CF31-6552-4C75-B32F-755398D1A054
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamPixelAspectRatio method, ID3D11VideoContext.VideoProcessorGetStreamPixelAspectRatio, ID3D11VideoContext::VideoProcessorGetStreamPixelAspectRatio, VideoProcessorGetStreamPixelAspectRatio, VideoProcessorGetStreamPixelAspectRatio method [Media Foundation], VideoProcessorGetStreamPixelAspectRatio method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamPixelAspectRatio, mf.id3d11videocontext_videoprocessorgetstreampixelaspectratio
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

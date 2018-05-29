@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_RecipientNumber
 title: IFaxTiff::get_RecipientNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the RecipientNumber property for a FaxTiff object. The RecipientNumber property is a null-terminated string that contains the fax number to which a fax was transmitted.
 old-location: fax\_mfax_ifaxtiff_get_recipientnumber_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3b8y.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxTiff object [Fax Service],RecipientNumber property, FaxTiff.RecipientNumber, IFaxTiff.get_RecipientNumber, IFaxTiff::get_RecipientNumber, RecipientNumber property [Fax Service], RecipientNumber property [Fax Service],FaxTiff object, _mfax_ifaxtiff_get_recipientnumber, fax._mfax_ifaxtiff_get_recipientnumber, fax._mfax_ifaxtiff_get_recipientnumber_vb, get_RecipientNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

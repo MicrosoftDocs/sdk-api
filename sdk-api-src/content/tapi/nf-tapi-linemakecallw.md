@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineMakeCallW
 title: lineMakeCallW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineMakeCall function places a call on the specified line to the specified destination address. Optionally, call parameters can be specified if anything but default call setup parameters are requested.
 old-location: tapi2\linemakecall.htm
 old-project: Tapi
 ms.assetid: a7dc9cdc-3cc3-4b6a-98c8-e141402c781e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linemakecall, lineMakeCall, lineMakeCall function [TAPI 2.2], lineMakeCallA, lineMakeCallW, tapi/lineMakeCall, tapi/lineMakeCallA, tapi/lineMakeCallW, tapi2.linemakecall"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

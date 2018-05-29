@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.SHGetStockIconInfo
 title: SHGetStockIconInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about system-defined Shell icons.
 old-location: shell\SHGetStockIconInfo.htm
 old-project: shell
 ms.assetid: c08b1a53-e67c-4ed0-a9c6-d000c448e182
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGSI_ICON, SHGSI_ICONLOCATION, SHGSI_LARGEICON, SHGSI_LINKOVERLAY, SHGSI_SELECTED, SHGSI_SHELLICONSIZE, SHGSI_SMALLICON, SHGSI_SYSICONINDEX, SHGetStockIconInfo, SHGetStockIconInfo function [Windows Shell], _shell_SHGetStockIconInfo, shell.SHGetStockIconInfo, shellapi/SHGetStockIconInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

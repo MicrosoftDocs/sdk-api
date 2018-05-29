@@ -1,16 +1,16 @@
 ---
 UID: NF:inspectable.HSTRING_UserSize
 title: HSTRING_UserSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Calculates the wire size of the HSTRING object, and gets its handle and data.
 old-location: winrt\hstring_usersize.htm
 old-project: WinRT
 ms.assetid: F258F308-7A16-4C24-9770-F6D8A1604811
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: HSTRING_UserSize, HSTRING_UserSize function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserSize, winrt.hstring_usersize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: inspectable.h
 req.include-header: Winstring.h, Inspectable.h

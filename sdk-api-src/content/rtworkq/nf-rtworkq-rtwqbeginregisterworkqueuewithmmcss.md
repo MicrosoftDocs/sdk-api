@@ -1,16 +1,16 @@
 ---
 UID: NF:rtworkq.RtwqBeginRegisterWorkQueueWithMMCSS
 title: RtwqBeginRegisterWorkQueueWithMMCSS function
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: base\rtwqbeginregisterworkqueuewithmmcss.htm
 old-project: ProcThread
 ms.assetid: 3012EFE9-437A-4B60-98DD-7602CD9A9E76
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtwqBeginRegisterWorkQueueWithMMCSS, RtwqBeginRegisterWorkQueueWithMMCSS function, base.rtwqbeginregisterworkqueuewithmmcss, rtworkq/RtwqBeginRegisterWorkQueueWithMMCSS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

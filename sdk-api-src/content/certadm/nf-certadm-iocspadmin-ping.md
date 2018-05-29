@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.IOCSPAdmin.Ping
 title: IOCSPAdmin::Ping
-author: windows-driver-content
+author: windows-sdk-content
 description: Tests a DCOM connection with an Online Certificate Status Protocol (OCSP) responder service.
 old-location: security\iocspadmin_ping.htm
 old-project: SecCrypto
 ms.assetid: 55d224c7-f309-471a-b2e5-38b8e2b8e00c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IOCSPAdmin interface [Security],Ping method, IOCSPAdmin.Ping, IOCSPAdmin::Ping, Ping, Ping method [Security], Ping method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::Ping, security.iocspadmin_ping
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shimgdata.IShellImageDataFactory.CreateIShellImageData
 title: IShellImageDataFactory::CreateIShellImageData
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instance of the IShellImageData interface.
 old-location: shell\IShellImageDataFactory_CreateIShellImageData.htm
 old-project: shell
 ms.assetid: fdba8376-c878-4fc8-bedc-e73cfeef8b9b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateIShellImageData, CreateIShellImageData method [Windows Shell], CreateIShellImageData method [Windows Shell],IShellImageDataFactory interface, IShellImageDataFactory interface [Windows Shell],CreateIShellImageData method, IShellImageDataFactory.CreateIShellImageData, IShellImageDataFactory::CreateIShellImageData, _shell_IShellImageDataFactory_CreateIShellImageData, shell.IShellImageDataFactory_CreateIShellImageData, shimgdata/IShellImageDataFactory::CreateIShellImageData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

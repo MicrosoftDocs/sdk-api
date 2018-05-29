@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.CreateEmptyProfile
 title: IWMProfileManager::CreateEmptyProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateEmptyProfile method creates an empty profile object. You can use the interfaces of the profile object to configure the profile. When you are done configuring the profile, you can save it to a string using IWMProfileManager::SaveProfile.
 old-location: wmformat\iwmprofilemanager_createemptyprofile.htm
 old-project: wmformat
 ms.assetid: fb5c2ed4-f733-422e-87e3-8e70c3ee9f1c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateEmptyProfile, CreateEmptyProfile method [windows Media Format], CreateEmptyProfile method [windows Media Format],IWMProfileManager interface, IWMProfileManager interface [windows Media Format],CreateEmptyProfile method, IWMProfileManager.CreateEmptyProfile, IWMProfileManager::CreateEmptyProfile, IWMProfileManagerCreateEmptyProfile, wmformat.iwmprofilemanager_createemptyprofile, wmsdkidl/IWMProfileManager::CreateEmptyProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

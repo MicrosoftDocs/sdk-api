@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._LARGE_INTEGER
 title: "_LARGE_INTEGER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a 64-bit signed integer value.
 old-location: winprog\large_integer_str.htm
 old-project: WinProg
 ms.assetid: 6a2985b6-5baf-49ab-af28-67c1374557ea
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: "*PLARGE_INTEGER, LARGE_INTEGER, LARGE_INTEGER union [Windows API], PLARGE_INTEGER, PLARGE_INTEGER union pointer [Windows API], _LARGE_INTEGER, _win32_large_integer_str, winnt/LARGE_INTEGER, winnt/PLARGE_INTEGER, winprog.large_integer_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

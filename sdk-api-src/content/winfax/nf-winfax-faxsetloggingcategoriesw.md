@@ -1,16 +1,16 @@
 ---
 UID: NF:winfax.FaxSetLoggingCategoriesW
 title: FaxSetLoggingCategoriesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: A fax client application calls the FaxSetLoggingCategories function to modify the current logging categories for the fax server to which the client has connected.
 old-location: fax\_mfax_faxsetloggingcategories.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_30vn.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxSetLoggingCategories, FaxSetLoggingCategories function [Fax Service], FaxSetLoggingCategoriesA, FaxSetLoggingCategoriesW, _mfax_faxsetloggingcategories, fax._mfax_faxsetloggingcategories, winfax/FaxSetLoggingCategories, winfax/FaxSetLoggingCategoriesA, winfax/FaxSetLoggingCategoriesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

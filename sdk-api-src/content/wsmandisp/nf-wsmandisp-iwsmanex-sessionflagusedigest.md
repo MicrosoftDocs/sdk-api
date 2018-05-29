@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseDigest
 title: IWSManEx::SessionFlagUseDigest
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagUseDigest for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusedigest.htm
 old-project: WinRM
 ms.assetid: 3aa44847-932e-49c6-a7fd-966a2bb3539d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseDigest method, IWSManEx.SessionFlagUseDigest, IWSManEx::SessionFlagUseDigest, SessionFlagUseDigest, SessionFlagUseDigest method [Windows Remote Management], SessionFlagUseDigest method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusedigest, wsmandisp/IWSManEx::SessionFlagUseDigest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

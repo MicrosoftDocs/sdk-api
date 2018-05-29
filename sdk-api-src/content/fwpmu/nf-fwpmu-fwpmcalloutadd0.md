@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmCalloutAdd0
 title: FwpmCalloutAdd0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a new callout object to the system.
 old-location: fwp\fwpmcalloutadd0_func.htm
 old-project: FWP
 ms.assetid: e4f79262-6345-49e9-a50c-9f8a82f2df0e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmCalloutAdd0, FwpmCalloutAdd0 function [Filtering], fwp.fwpmcalloutadd0_func, fwpmu/FwpmCalloutAdd0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

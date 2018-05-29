@@ -1,16 +1,16 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0011
 title: "__MIDL___MIDL_itf_winsync_0000_0000_0011"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the possible results when a knowledge cookie is compared with a knowledge object by using ISyncKnowledge2::CompareToKnowledgeCookie.
 old-location: winsync\knowledge_cookie_comparison_result.htm
 old-project: winsync
 ms.assetid: 9770679e-19ed-49ed-a505-076db6f0119c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: KCCR_COOKIE_KNOWLEDGE_CONTAINED, KCCR_COOKIE_KNOWLEDGE_CONTAINS, KCCR_COOKIE_KNOWLEDGE_EQUAL, KCCR_COOKIE_KNOWLEDGE_NOT_COMPARABLE, KNOWLEDGE_COOKIE_COMPARISON_RESULT, KNOWLEDGE_COOKIE_COMPARISON_RESULT enumeration [Windows Sync], __MIDL___MIDL_itf_winsync_0000_0000_0011, winsync.knowledge_cookie_comparison_result, winsync/KCCR_COOKIE_KNOWLEDGE_CONTAINED, winsync/KCCR_COOKIE_KNOWLEDGE_CONTAINS, winsync/KCCR_COOKIE_KNOWLEDGE_EQUAL, winsync/KCCR_COOKIE_KNOWLEDGE_NOT_COMPARABLE, winsync/KNOWLEDGE_COOKIE_COMPARISON_RESULT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsync.h
 req.include-header: 

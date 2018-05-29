@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsBindWithSpnA
 title: DsBindWithSpnA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication.
 old-location: ad\dsbindwithspn.htm
 old-project: AD
 ms.assetid: 9a149654-fd94-4b0c-b712-07fb827bef2f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsBindWithSpn, DsBindWithSpn function [Active Directory], DsBindWithSpnA, DsBindWithSpnW, _glines_dsbindwithspn, ad.dsbindwithspn, ntdsapi/DsBindWithSpn, ntdsapi/DsBindWithSpnA, ntdsapi/DsBindWithSpnW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

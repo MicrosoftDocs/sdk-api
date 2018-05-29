@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertFindRDNAttr
 title: CertFindRDNAttr function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertFindRDNAttr function finds the first RDN attribute identified by its object identifier (OID) in a list of the Relative Distinguished Names (RDN).
 old-location: security\certfindrdnattr.htm
 old-project: SecCrypto
 ms.assetid: 31f82a02-e90a-48de-857a-9fbb03048b5c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertFindRDNAttr, CertFindRDNAttr function [Security], _crypto2_certfindrdnattr, security.certfindrdnattr, wincrypt/CertFindRDNAttr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

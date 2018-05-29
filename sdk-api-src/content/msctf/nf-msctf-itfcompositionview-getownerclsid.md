@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfCompositionView.GetOwnerClsid
 title: ITfCompositionView::GetOwnerClsid
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfCompositionView::GetOwnerClsid method
 old-location: tsf\itfcompositionview_getownerclsid.htm
 old-project: TSF
 ms.assetid: 1435e083-c6a1-491c-a7c2-7d2cb1d54508
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetOwnerClsid, GetOwnerClsid method [Text Services Framework], GetOwnerClsid method [Text Services Framework],ITfCompositionView interface, ITfCompositionView interface [Text Services Framework],GetOwnerClsid method, ITfCompositionView.GetOwnerClsid, ITfCompositionView::GetOwnerClsid, _tsf_itfcompositionview_getownerclsid_ref, msctf/ITfCompositionView::GetOwnerClsid, tsf.itfcompositionview_getownerclsid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

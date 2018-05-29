@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList2.MarkFullscreenWindow
 title: ITaskbarList2::MarkFullscreenWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Marks a window as full-screen.
 old-location: shell\ITaskbarList2_MarkFullscreenWindow.htm
 old-project: shell
 ms.assetid: 17b4a9ff-f5a2-4178-971b-f80d65d72fb5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITaskbarList2 interface [Windows Shell],MarkFullscreenWindow method, ITaskbarList2.MarkFullscreenWindow, ITaskbarList2::MarkFullscreenWindow, MarkFullscreenWindow, MarkFullscreenWindow method [Windows Shell], MarkFullscreenWindow method [Windows Shell],ITaskbarList2 interface, shell.ITaskbarList2_MarkFullscreenWindow, shell_ITaskbarList2_MarkFullscreenWindow, shobjidl_core/ITaskbarList2::MarkFullscreenWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

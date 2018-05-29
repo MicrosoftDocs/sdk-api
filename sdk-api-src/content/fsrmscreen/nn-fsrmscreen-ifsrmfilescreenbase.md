@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenBase
 title: IFsrmFileScreenBase
-author: windows-driver-content
+author: windows-sdk-content
 description: Base class for all file screen interfaces.
 old-location: fsrm\ifsrmfilescreenbase.htm
 old-project: Fsrm
 ms.assetid: 9e52af8c-e03b-4b44-83bd-541fe1419d6c
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmFileScreenBase, IFsrmFileScreenBase interface [File Server Resource Manager], IFsrmFileScreenBase interface [File Server Resource Manager],described, fs.ifsrmfilescreenbase, fsrm.ifsrmfilescreenbase, fsrmscreen/IFsrmFileScreenBase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h

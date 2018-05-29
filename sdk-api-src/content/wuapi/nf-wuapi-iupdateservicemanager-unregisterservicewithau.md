@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.UnregisterServiceWithAU
 title: IUpdateServiceManager::UnregisterServiceWithAU
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters a service with Automatic Updates.
 old-location: wua\iupdateservicemanager_unregisterservicewithau.htm
 old-project: Wua_Sdk
 ms.assetid: d537594c-ccf3-463b-9860-612c5ea351cb
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateServiceManager interface [Windows Update Agent],UnregisterServiceWithAU method, IUpdateServiceManager.UnregisterServiceWithAU, IUpdateServiceManager::UnregisterServiceWithAU, UnregisterServiceWithAU, UnregisterServiceWithAU method [Windows Update Agent], UnregisterServiceWithAU method [Windows Update Agent],IUpdateServiceManager interface, wua.iupdateservicemanager_unregisterservicewithau, wuapi/IUpdateServiceManager::UnregisterServiceWithAU
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

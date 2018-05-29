@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineGetDevConfig
 title: lineGetDevConfig function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineGetDevConfig function returns an &#0034;opaque&#0034; data structure object, the contents of which are specific to the line (service provider) and device class.
 old-location: tapi2\linegetdevconfig.htm
 old-project: Tapi
 ms.assetid: 39ff5ddb-142e-4f11-9395-e2c3a3ac7d19
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linegetdevconfig, lineGetDevConfig, lineGetDevConfig function [TAPI 2.2], lineGetDevConfigA, lineGetDevConfigW, tapi/lineGetDevConfig, tapi/lineGetDevConfigA, tapi/lineGetDevConfigW, tapi2.linegetdevconfig"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

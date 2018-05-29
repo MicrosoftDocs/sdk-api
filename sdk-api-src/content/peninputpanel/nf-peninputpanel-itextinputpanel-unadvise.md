@@ -1,16 +1,16 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.Unadvise
 title: ITextInputPanel::Unadvise
-author: windows-driver-content
+author: windows-sdk-content
 description: Terminates an advisory connection previously established through ITextInputPanel::Advise Method.
 old-location: tablet\itextinputpanel_unadvise.htm
 old-project: tablet
 ms.assetid: 8ea2c112-0d57-4da6-89da-5afe57ff2346
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 8ea2c112-0d57-4da6-89da-5afe57ff2346, ITextInputPanel interface [Tablet PC],Unadvise method, ITextInputPanel.Unadvise, ITextInputPanel::Unadvise, Unadvise, Unadvise method [Tablet PC], Unadvise method [Tablet PC],ITextInputPanel interface, peninputpanel/ITextInputPanel::Unadvise, tablet.itextinputpanel_unadvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

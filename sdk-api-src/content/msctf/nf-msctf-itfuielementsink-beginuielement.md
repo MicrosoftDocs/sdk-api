@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfUIElementSink.BeginUIElement
 title: ITfUIElementSink::BeginUIElement
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfUIElementSink::BeginUIElement method is called when the UIElement started. This sink can let the textservice to draw or not to draw the UI element.
 old-location: tsf\itfuielementsink_beginuielement.htm
 old-project: TSF
 ms.assetid: 068c6963-7d69-45b9-8f8b-7af358548a56
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: BeginUIElement, BeginUIElement method [Text Services Framework], BeginUIElement method [Text Services Framework],ITfUIElementSink interface, ITfUIElementSink interface [Text Services Framework],BeginUIElement method, ITfUIElementSink.BeginUIElement, ITfUIElementSink::BeginUIElement, msctf/ITfUIElementSink::BeginUIElement, tsf.itfuielementsink_beginuielement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

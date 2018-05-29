@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetFieldNames
 title: IRecordInfo::GetFieldNames
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the names of the fields of the record.
 old-location: automat\irecordinfo_getfieldnames.htm
 old-project: automat
 ms.assetid: 1cf4f149-1cdc-4884-887a-0eb44eeab8ff
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetFieldNames, GetFieldNames method [Automation], GetFieldNames method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetFieldNames method, IRecordInfo.GetFieldNames, IRecordInfo::GetFieldNames, _oa96_IRecordInfo_GetFieldNames, automat.irecordinfo_getfieldnames, oaidl/IRecordInfo::GetFieldNames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

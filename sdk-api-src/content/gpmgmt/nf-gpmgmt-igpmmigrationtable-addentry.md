@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.AddEntry
 title: IGPMMigrationTable::AddEntry
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an entry in the migration table. The method updates an existing entry.
 old-location: gpmc\igpmmigrationtable_addentry.htm
 old-project: GPMC
 ms.assetid: 2e6f6b81-b01c-4d46-9b7b-3265580f112a
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: AddEntry, AddEntry method [GPMC], AddEntry method [GPMC],GPMMigrationTable class, AddEntry method [GPMC],IGPMMigrationTable interface, GPMMigrationTable class [GPMC],AddEntry method, IGPMMigrationTable interface [GPMC],AddEntry method, IGPMMigrationTable.AddEntry, IGPMMigrationTable::AddEntry, gpmc.igpmmigrationtable_addentry, gpmgmt/IGPMMigrationTable::AddEntry, typeComputer, typeGlobalGroup, typeLocalGroup, typeUNCPath, typeUniversalGroup, typeUnknown, typeUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyStore.GetCount
 title: IPropertyStore::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: This method returns a count of the number of properties that are attached to the file.
 old-location: audio\ipropertystore_getcount.htm
 old-project: audio
 ms.assetid: 23f7b982-29db-4960-9a1d-2f9e033ebf61
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: GetCount, GetCount method [Audio Devices], GetCount method [Audio Devices],IPropertyStore interface, IPropertyStore interface [Audio Devices],GetCount method, IPropertyStore.GetCount, IPropertyStore::GetCount, audio.ipropertystore_getcount, audio_syseffects_r_2670eef9-2f2a-4e3d-8a43-d8d61a9ebce5.xml, propsys/IPropertyStore::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService.allowPlay
 title: IWMPSubscriptionService::allowPlay
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice_allowplay.htm
 old-project: WMP
 ms.assetid: 6350bf9d-f046-494f-8052-2a6f5339b4bd
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowPlay method, IWMPSubscriptionService.allowPlay, IWMPSubscriptionService::allowPlay, IWMPSubscriptionServiceallowPlay, allowPlay, allowPlay method [Windows Media Player], allowPlay method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::allowPlay, wmp.iwmpsubscriptionservice_allowplay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: subscriptionservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupAddToSourceListW
 title: SetupAddToSourceListW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupAddToSourceList function appends a value to the list of installation sources for either the current user or the system. If the value already exists, it is removed first, so that duplicate entries are not created.
 old-location: setup\setupaddtosourcelist.htm
 old-project: SetupApi
 ms.assetid: c1da3f9b-12ea-49f3-a5ca-45a63a56becd
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupAddToSourceList, SetupAddToSourceList function [Setup API], SetupAddToSourceListA, SetupAddToSourceListW, _setupapi_setupaddtosourcelist, setup.setupaddtosourcelist, setupapi/SetupAddToSourceList, setupapi/SetupAddToSourceListA, setupapi/SetupAddToSourceListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

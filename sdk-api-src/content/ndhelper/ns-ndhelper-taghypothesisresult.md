@@ -1,16 +1,16 @@
 ---
 UID: NS:ndhelper.tagHypothesisResult
 title: tagHypothesisResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a hypothesis returned from a helper class.
 old-location: ndf\hypothesisresult.htm
 old-project: NDF
 ms.assetid: bbf3cc69-c81b-4a3d-8fd8-d4e37a57bed6
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HypothesisResult, HypothesisResult structure [NDF], ndf.hypothesisresult, ndhelper/HypothesisResult, tagHypothesisResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndhelper.h
 req.include-header: 

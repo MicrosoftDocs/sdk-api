@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwRule.get_LocalAddresses
 title: INetFwRule::get_LocalAddresses
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the list of local addresses for this rule.
 old-location: ics\inetfwrule_localaddresses.htm
 old-project: ICS
 ms.assetid: e95c6545-770b-430f-a1fc-32dcaac0eaa0
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwRule interface [ICS/ICF],LocalAddresses property, INetFwRule.LocalAddresses, INetFwRule.get_LocalAddresses, INetFwRule::LocalAddresses, INetFwRule::get_LocalAddresses, INetFwRule::put_LocalAddresses, LocalAddresses property [ICS/ICF], LocalAddresses property [ICS/ICF],INetFwRule interface, get_LocalAddresses, ics.inetfwrule_localaddresses, netfw/INetFwRule::LocalAddresses, netfw/INetFwRule::get_LocalAddresses, netfw/INetFwRule::put_LocalAddresses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

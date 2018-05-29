@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextAdd0
 title: FwpmProviderContextAdd0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a new provider context to the system.
 old-location: fwp\fwpmprovidercontextadd0_func.htm
 old-project: FWP
 ms.assetid: c31595b8-81e4-4399-b2a3-d228c35875fe
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmProviderContextAdd0, FwpmProviderContextAdd0 function [Filtering], fwp.fwpmprovidercontextadd0_func, fwpmu/FwpmProviderContextAdd0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

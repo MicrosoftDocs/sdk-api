@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetSurfaceDesc
 title: IDirectDrawSurface7::GetSurfaceDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a description of this surface in its current condition.
 old-location: directdraw\idirectdrawsurface7_getsurfacedesc.htm
 old-project: directdraw
 ms.assetid: 4c36685e-8eb7-4d91-a479-8f099d5e712b
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GetSurfaceDesc, GetSurfaceDesc method [DirectDraw], GetSurfaceDesc method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetSurfaceDesc method, IDirectDrawSurface7.GetSurfaceDesc, IDirectDrawSurface7::GetSurfaceDesc, ddraw/IDirectDrawSurface7::GetSurfaceDesc, directdraw.idirectdrawsurface7_getsurfacedesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

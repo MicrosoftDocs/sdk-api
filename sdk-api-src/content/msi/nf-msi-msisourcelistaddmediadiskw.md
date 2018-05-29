@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiSourceListAddMediaDiskW
 title: MsiSourceListAddMediaDiskW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiSourceListAddMediaDisk function adds or updates a disk of the media source of a registered product or patch.
 old-location: setup\msisourcelistaddmediadisk.htm
 old-project: Msi
 ms.assetid: 70c58c39-1b0b-44ec-ba0c-6755015c28d7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListAddMediaDisk, MsiSourceListAddMediaDisk function, MsiSourceListAddMediaDiskA, MsiSourceListAddMediaDiskW, NULL, User SID, msi/MsiSourceListAddMediaDisk, msi/MsiSourceListAddMediaDiskA, msi/MsiSourceListAddMediaDiskW, setup.msisourcelistaddmediadisk, setup.msisourcelistaddmediadisks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

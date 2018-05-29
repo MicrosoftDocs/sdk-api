@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.DeleteNtmsMediaPool
 title: DeleteNtmsMediaPool function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeleteNtmsMediaPool function deletes the specified application media pool.
 old-location: fs\deletentmsmediapool.htm
 old-project: Rsm
 ms.assetid: 79885083-beb6-4c66-8271-23082994a258
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: DeleteNtmsMediaPool, DeleteNtmsMediaPool function [Files], _zaw_deletentmsmediapool, base.deletentmsmediapool, fs.deletentmsmediapool, ntmsapi/DeleteNtmsMediaPool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

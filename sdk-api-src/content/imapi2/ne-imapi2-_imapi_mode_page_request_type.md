@@ -1,16 +1,16 @@
 ---
 UID: NE:imapi2._IMAPI_MODE_PAGE_REQUEST_TYPE
 title: "_IMAPI_MODE_PAGE_REQUEST_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values that indicate requests sent to a device using the MODE_SENSE10 MMC command.
 old-location: imapi\imapi_mode_page_request_type.htm
 old-project: imapi
 ms.assetid: f27cd003-34a0-4aee-81d5-74fb02d9427c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PIMAPI_MODE_PAGE_REQUEST_TYPE, IMAPI_MODE_PAGE_REQUEST_TYPE, IMAPI_MODE_PAGE_REQUEST_TYPE enumeration [IMAPI], IMAPI_MODE_PAGE_REQUEST_TYPE_CHANGEABLE_VALUES, IMAPI_MODE_PAGE_REQUEST_TYPE_CURRENT_VALUES, IMAPI_MODE_PAGE_REQUEST_TYPE_DEFAULT_VALUES, IMAPI_MODE_PAGE_REQUEST_TYPE_SAVED_VALUES, PIMAPI_MODE_PAGE_REQUEST_TYPE, PIMAPI_MODE_PAGE_REQUEST_TYPE enumeration pointer [IMAPI], _IMAPI_MODE_PAGE_REQUEST_TYPE, imapi.imapi_mode_page_request_type, imapi2/IMAPI_MODE_PAGE_REQUEST_TYPE, imapi2/IMAPI_MODE_PAGE_REQUEST_TYPE_CHANGEABLE_VALUES, imapi2/IMAPI_MODE_PAGE_REQUEST_TYPE_CURRENT_VALUES, imapi2/IMAPI_MODE_PAGE_REQUEST_TYPE_DEFAULT_VALUES, imapi2/IMAPI_MODE_PAGE_REQUEST_TYPE_SAVED_VALUES, imapi2/PIMAPI_MODE_PAGE_REQUEST_TYPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: imapi2.h
 req.include-header: 

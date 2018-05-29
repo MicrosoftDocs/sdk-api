@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.DrvStrokeAndFillPath
 title: DrvStrokeAndFillPath function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrvStrokeAndFillPath function strokes (outlines) and fills a path concurrently.
 old-location: display\drvstrokeandfillpath.htm
 old-project: display
 ms.assetid: 92a04fe5-146d-4839-a854-1ac50705b447
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DrvStrokeAndFillPath, DrvStrokeAndFillPath function [Display Devices], ddifncs_ca3b1895-31d0-4c1b-b47c-df61ccef2afa.xml, display.drvstrokeandfillpath, winddi/DrvStrokeAndFillPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

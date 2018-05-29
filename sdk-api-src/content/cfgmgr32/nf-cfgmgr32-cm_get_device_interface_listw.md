@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_ListW
 title: CM_Get_Device_Interface_ListW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_Device_Interface_List function retrieves a list of device interface instances that belong to a specified device interface class.
 old-location: devinst\cm_get_device_interface_list.htm
 old-project: devinst
 ms.assetid: 3f2dfc0f-1bde-40a8-b48c-25b75759e0d8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_Device_Interface_List, CM_Get_Device_Interface_List function [Device and Driver Installation], CM_Get_Device_Interface_ListA, CM_Get_Device_Interface_ListW, cfgmgr32/CM_Get_Device_Interface_List, cfgmgr32/CM_Get_Device_Interface_ListA, cfgmgr32/CM_Get_Device_Interface_ListW, cfgmgrfn_8729dc17-f9a0-4ebe-ad56-35c63f9299f0.xml, devinst.cm_get_device_interface_list
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

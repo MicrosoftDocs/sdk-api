@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2.IRawCDImageTrackInfo
 title: IRawCDImageTrackInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to track per-track properties that are applied to CD media.
 old-location: imapi\irawcdimagetrackinfo.htm
 old-project: imapi
 ms.assetid: 5d074279-35fb-48d0-b298-c1a83f57d805
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IRawCDImageTrackInfo, IRawCDImageTrackInfo interface [IMAPI], IRawCDImageTrackInfo interface [IMAPI],described, imapi.irawcdimagetrackinfo, imapi2/IRawCDImageTrackInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

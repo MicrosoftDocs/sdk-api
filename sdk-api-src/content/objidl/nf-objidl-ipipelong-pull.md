@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IPipeLong.Pull
 title: IPipeLong::Pull
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves data of the long integer type from the pipe source.
 old-location: com\ipipelong_pull.htm
 old-project: com
 ms.assetid: 33da8bd7-3350-4f6e-84f8-3046da226d2f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPipeLong interface [COM],Pull method, IPipeLong.Pull, IPipeLong::Pull, Pull, Pull method [COM], Pull method [COM],IPipeLong interface, _com_ipipelong_pull, com.ipipelong_pull, objidlbase/IPipeLong::Pull
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

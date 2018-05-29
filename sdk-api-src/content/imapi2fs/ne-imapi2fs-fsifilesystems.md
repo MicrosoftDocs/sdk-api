@@ -1,16 +1,16 @@
 ---
 UID: NE:imapi2fs.FsiFileSystems
 title: FsiFileSystems
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values for recognized file systems.
 old-location: imapi\fsifilesystems.htm
 old-project: imapi
 ms.assetid: afb27235-a9b4-4629-aac0-9c43e5b2cf3f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FsiFileSystemISO9660, FsiFileSystemJoliet, FsiFileSystemNone, FsiFileSystemUDF, FsiFileSystemUnknown, FsiFileSystems, FsiFileSystems enumeration [IMAPI], imapi.fsifilesystems, imapi2fs/FsiFileSystemISO9660, imapi2fs/FsiFileSystemJoliet, imapi2fs/FsiFileSystemNone, imapi2fs/FsiFileSystemUDF, imapi2fs/FsiFileSystemUnknown, imapi2fs/FsiFileSystems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: imapi2fs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdate.get_SecurityBulletinIDs
 title: IUpdate::get_SecurityBulletinIDs
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a collection of string values that contain the security bulletin IDs that are associated with the update.
 old-location: wua\iupdate_securitybulletinids.htm
 old-project: Wua_Sdk
 ms.assetid: 63de677b-4a0e-4ac6-937f-bf195a0da205
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdate interface [Windows Update Agent],SecurityBulletinIDs property, IUpdate.SecurityBulletinIDs, IUpdate.get_SecurityBulletinIDs, IUpdate::SecurityBulletinIDs, IUpdate::get_SecurityBulletinIDs, SecurityBulletinIDs property [Windows Update Agent], SecurityBulletinIDs property [Windows Update Agent],IUpdate interface, get_SecurityBulletinIDs, wua.iupdate_securitybulletinids, wuapi/IUpdate::SecurityBulletinIDs, wuapi/IUpdate::get_SecurityBulletinIDs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

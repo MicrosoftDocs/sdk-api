@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.GetGuide
 title: GetGuide function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the guide used for boxed, lined, or freeform input.
 old-location: tablet\getguide.htm
 old-project: tablet
 ms.assetid: b86d6266-cce3-4f84-80b6-7d136172b3ca
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetGuide, GetGuide function [Tablet PC], b86d6266-cce3-4f84-80b6-7d136172b3ca, recapis/GetGuide, tablet.getguide
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:oledlg.tagOLEUICHANGESOURCEW
 title: tagOLEUICHANGESOURCEW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that is used to initialize the standard Change Source dialog box.
 old-location: com\oleuichangesource_struct.htm
 old-project: com
 ms.assetid: 440d120c-a121-471b-bee1-f23af136a664
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPOLEUICHANGESOURCEW, *POLEUICHANGESOURCEW, CSF_ONLYGETSOURCE, CSF_SHOWHELP, CSF_VALIDSOURCE, LPOLEUICHANGESOURCE, LPOLEUICHANGESOURCE structure pointer [COM], OLEUICHANGESOURCE, OLEUICHANGESOURCE structure [COM], OLEUICHANGESOURCEA, OLEUICHANGESOURCEW, POLEUICHANGESOURCE, POLEUICHANGESOURCE structure pointer [COM], _ole_OLEUICHANGESOURCE_str, com.oleuichangesource_struct, oledlg/LPOLEUICHANGESOURCE, oledlg/OLEUICHANGESOURCE, oledlg/OLEUICHANGESOURCEA, oledlg/OLEUICHANGESOURCEW, oledlg/POLEUICHANGESOURCE, tagOLEUICHANGESOURCEW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 

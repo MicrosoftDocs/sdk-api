@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IComThreadingInfo.GetCurrentLogicalThreadId
 title: IComThreadingInfo::GetCurrentLogicalThreadId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the GUID of the thread in which the caller is executing.
 old-location: com\icomthreadinginfo_getcurrentlogicalthreadid.htm
 old-project: com
 ms.assetid: 780bc94d-19b6-4cc8-b27f-9e38520b0afc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCurrentLogicalThreadId, GetCurrentLogicalThreadId method [COM], GetCurrentLogicalThreadId method [COM],IComThreadingInfo interface, IComThreadingInfo interface [COM],GetCurrentLogicalThreadId method, IComThreadingInfo.GetCurrentLogicalThreadId, IComThreadingInfo::GetCurrentLogicalThreadId, _com_icomthreadinginfo_getcurrentlogicalthreadid, com.icomthreadinginfo_getcurrentlogicalthreadid, objidlbase/IComThreadingInfo::GetCurrentLogicalThreadId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

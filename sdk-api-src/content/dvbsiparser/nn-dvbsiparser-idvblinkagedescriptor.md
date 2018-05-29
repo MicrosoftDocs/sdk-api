@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IDvbLinkageDescriptor
 title: IDvbLinkageDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods that get data from a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor.htm
 old-project: mstv
 ms.assetid: 4e419b50-b9c2-48e4-a484-f0fcf5c9cb7f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDvbLinkageDescriptor, IDvbLinkageDescriptor interface [Microsoft TV Technologies], IDvbLinkageDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbLinkageDescriptor, mstv.idvblinkagedescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

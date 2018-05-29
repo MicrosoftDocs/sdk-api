@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetCommMask
 title: GetCommMask function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of the event mask for a specified communications device.
 old-location: base\getcommmask.htm
 old-project: DevIO
 ms.assetid: 502aa563-c783-4a98-8596-74514a5b261e
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: EV_BREAK, EV_CTS, EV_DSR, EV_ERR, EV_EVENT1, EV_EVENT2, EV_PERR, EV_RING, EV_RLSD, EV_RX80FULL, EV_RXCHAR, EV_RXFLAG, EV_TXEMPTY, GetCommMask, GetCommMask function, _win32_getcommmask, base.getcommmask, winbase/GetCommMask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:dxva9typ._DXVABufferInfo
 title: "_DXVABufferInfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a buffer for the IDirect3DDXVADevice9::Execute method.
 old-location: mf\dxvabufferinfo.htm
 old-project: medfound
 ms.assetid: 048a3fcf-6076-4500-b5cc-edfe782f467b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVABufferInfo, DXVABufferInfo structure [Media Foundation], _DXVABufferInfo, dxva9typ/DXVABufferInfo, mf.dxvabufferinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva9typ.h
 req.include-header: Dxva.h

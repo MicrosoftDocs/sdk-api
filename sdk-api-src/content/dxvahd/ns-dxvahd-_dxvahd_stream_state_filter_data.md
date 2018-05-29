@@ -1,16 +1,16 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_FILTER_DATA
 title: "_DXVAHD_STREAM_STATE_FILTER_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the level for a filtering operation on a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) input stream.
 old-location: mf\dxvahd_stream_state_filter_data.htm
 old-project: medfound
 ms.assetid: 2f70222d-f87a-49a5-8da5-15dfa2807cd7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVAHD_STREAM_STATE_FILTER_DATA, DXVAHD_STREAM_STATE_FILTER_DATA structure [Media Foundation], _DXVAHD_STREAM_STATE_FILTER_DATA, dxvahd/DXVAHD_STREAM_STATE_FILTER_DATA, mf.dxvahd_stream_state_filter_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

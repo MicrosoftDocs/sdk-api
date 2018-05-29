@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.IntPtrToInt8
 title: IntPtrToInt8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type INT_PTR to a value of type INT8.
 old-location: shell\IntPtrToInt8.htm
 old-project: shell
 ms.assetid: b453eb77-fcf4-4f0b-8662-88e91f73c7b7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IntPtrToInt8, IntPtrToInt8 function [Windows Shell], intsafe/IntPtrToInt8, shell.IntPtrToInt8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IServiceSxsConfig
 title: IServiceSxsConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures side-by-side assemblies for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
 old-location: cos\iservicesxsconfig.htm
 old-project: cossdk
 ms.assetid: 24d4a22b-0a01-4bf2-9cc6-4a1b31897d05
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServiceSxSConfig, IServiceSxSConfig interface [COM+], IServiceSxSConfig interface [COM+],described, _cos_IServiceSxsConfig, comsvcs/IServiceSxSConfig, cos.iservicesxsconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

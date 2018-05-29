@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.wglGetCurrentContext
 title: wglGetCurrentContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: The wglGetCurrentContext function obtains a handle to the current OpenGL rendering context of the calling thread.
 old-location: opengl\wglgetcurrentcontext.htm
 old-project: OpenGL
 ms.assetid: 8e2a4f24-689c-48b7-a06e-fc57d65b5567
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "_ogl_wglGetCurrentContext, opengl.wglgetcurrentcontext, wglGetCurrentContext, wglGetCurrentContext function [OpenGL], wingdi/wglGetCurrentContext"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:dpa_dsa.PFNDPASTREAM
 title: PFNDPASTREAM
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the prototype for the callback function used by DPA_LoadStream and DPA_SaveStream.
 old-location: controls\PFNDPASTREAM.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndpastream.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PFNDPASTREAM, PFNDPASTREAM callback, PFNDPASTREAM callback function [Windows Controls], _win32_PFNDPASTREAM_Function, _win32_PFNDPASTREAM_Function_cpp, controls.PFNDPASTREAM, controls._win32_PFNDPASTREAM_Function, dpa_dsa/PFNDPASTREAM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: dpa_dsa.h
 req.include-header: 

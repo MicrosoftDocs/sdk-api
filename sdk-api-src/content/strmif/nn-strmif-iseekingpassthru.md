@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.ISeekingPassThru
 title: ISeekingPassThru
-author: windows-driver-content
+author: windows-sdk-content
 description: The ISeekingPassThru interface creates a helper object that implements seeking for one-input filters.
 old-location: dshow\iseekingpassthru.htm
 old-project: DirectShow
 ms.assetid: a22f2723-b44e-4c7e-8508-db5c6af5b1d6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ISeekingPassThru, ISeekingPassThru interface [DirectShow], ISeekingPassThru interface [DirectShow],described, ISeekingPassThruInterface, dshow.iseekingpassthru, strmif/ISeekingPassThru
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupParseInvitation
 title: PeerGroupParseInvitation function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupParseInvitation function returns a PEER_INVITATION_INFO structure with the details of a specific invitation.
 old-location: p2p\peergroupparseinvitation.htm
 old-project: P2PSdk
 ms.assetid: ddc1c419-7be3-4115-af21-1108921c7b1d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupParseInvitation, PeerGroupParseInvitation function [Peer Networking], p2p.peergroupparseinvitation, p2p/PeerGroupParseInvitation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

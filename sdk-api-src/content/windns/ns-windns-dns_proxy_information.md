@@ -1,16 +1,16 @@
 ---
 UID: NS:windns.DNS_PROXY_INFORMATION
 title: DNS_PROXY_INFORMATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the proxy information for a DNS server's name resolution policy table.
 old-location: dns\dns_proxy_information.htm
 old-project: DNS
 ms.assetid: cfe7653f-7e68-4e50-ba67-bd441f837ef8
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: DNS_PROXY_INFORMATION, DNS_PROXY_INFORMATION structure [DNS], PDNS_PROXY_INFORMATION, PDNS_PROXY_INFORMATION structure pointer [DNS], dns.dns_proxy_information, windns/DNS_PROXY_INFORMATION, windns/PDNS_PROXY_INFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

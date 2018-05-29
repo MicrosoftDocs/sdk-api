@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPEvents3.CdromBurnMediaError
 title: IWMPEvents3::CdromBurnMediaError
-author: windows-driver-content
+author: windows-sdk-content
 description: The CdromBurnMediaError event occurs when an error happens while burning an individual media item to a CD.
 old-location: wmp\iwmpevents3_iwmpevents3__cdromburnmediaerror.htm
 old-project: WMP
 ms.assetid: 4bad9de2-8899-4149-965c-7835bd854f6f
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: CdromBurnMediaError, CdromBurnMediaError method [Windows Media Player], CdromBurnMediaError method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromBurnMediaError method, IWMPEvents3.CdromBurnMediaError, IWMPEvents3::CdromBurnMediaError, IWMPEvents3CdromBurnMediaError, wmp.iwmpevents3_iwmpevents3__cdromburnmediaerror, wmp/IWMPEvents3::CdromBurnMediaError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._DEVICE_SEEK_PENALTY_DESCRIPTOR
 title: "_DEVICE_SEEK_PENALTY_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the seek penalty descriptor data for a device.
 old-location: fs\device_seek_penalty_descriptor.htm
 old-project: FileIO
 ms.assetid: b3fbf27a-dac8-4fd2-8c0d-f621f0123c98
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PDEVICE_SEEK_PENALTY_DESCRIPTOR, DEVICE_SEEK_PENALTY_DESCRIPTOR, DEVICE_SEEK_PENALTY_DESCRIPTOR structure [Files], PDEVICE_SEEK_PENALTY_DESCRIPTOR, PDEVICE_SEEK_PENALTY_DESCRIPTOR structure pointer [Files], _DEVICE_SEEK_PENALTY_DESCRIPTOR, fs.device_seek_penalty_descriptor, winioctl/DEVICE_SEEK_PENALTY_DESCRIPTOR, winioctl/PDEVICE_SEEK_PENALTY_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

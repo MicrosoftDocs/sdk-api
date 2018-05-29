@@ -1,16 +1,16 @@
 ---
 UID: NS:digitalv.MCI_DGV_QUALITY_PARMSA
 title: MCI_DGV_QUALITY_PARMSA
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCI_DGV_QUALITY_PARMS structure contains parameters for the MCI_QUALITY command for digital-video devices.
 old-location: multimedia\mci_dgv_quality_parms.htm
 old-project: Multimedia
 ms.assetid: 0a150c37-9699-4b9e-b539-bdeb980b2f28
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPMCI_DGV_QUALITY_PARMSA, MCI_DGV_QUALITY_PARMS, MCI_DGV_QUALITY_PARMS structure [Windows Multimedia], MCI_DGV_QUALITY_PARMSA, MCI_QUALITY_ITEM_AUDIO, MCI_QUALITY_ITEM_STILL, MCI_QUALITY_ITEM_VIDEO, _win32_MCI_DGV_QUALITY_PARMS_str, digitalv/MCI_DGV_QUALITY_PARMS, multimedia.mci_dgv_quality_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskDefinition.get_Triggers
 title: ITaskDefinition::get_Triggers
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a collection of triggers used to start a task.
 old-location: taskschd\itaskdefinition_triggers.htm
 old-project: TaskSchd
 ms.assetid: 53093027-a371-49e1-a2c7-f7ca95f97a3d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],Triggers property, ITaskDefinition.Triggers, ITaskDefinition.get_Triggers, ITaskDefinition::Triggers, ITaskDefinition::get_Triggers, ITaskDefinition::put_Triggers, Triggers property [Task Scheduler], Triggers property [Task Scheduler],ITaskDefinition interface, get_Triggers, taskschd.itaskdefinition_triggers, taskschd/ITaskDefinition::Triggers, taskschd/ITaskDefinition::get_Triggers, taskschd/ITaskDefinition::put_Triggers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

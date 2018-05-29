@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.DeleteIpNetEntry
 title: DeleteIpNetEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeleteIpNetEntry function deletes an ARP entry from the ARP table on the local computer.
 old-location: iphlp\deleteipnetentry.htm
 old-project: IpHlp
 ms.assetid: 0d338676-b66f-410c-8022-5576096954b4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DeleteIpNetEntry, DeleteIpNetEntry function [IP Helper], _iphlp_deleteipnetentry, iphlp.deleteipnetentry, iphlpapi/DeleteIpNetEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

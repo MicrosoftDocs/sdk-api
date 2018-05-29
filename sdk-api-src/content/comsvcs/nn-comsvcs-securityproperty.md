@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.SecurityProperty
 title: SecurityProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the current object's original caller and direct caller.
 old-location: cos\securityproperty.htm
 old-project: cossdk
 ms.assetid: e4eb8e83-3510-4c2c-8b9c-563bfcbf48b3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: SecurityProperty, SecurityProperty interface [COM+], SecurityProperty interface [COM+],described, _cos_SecurityProperty, comsvcs/SecurityProperty, cos.securityproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

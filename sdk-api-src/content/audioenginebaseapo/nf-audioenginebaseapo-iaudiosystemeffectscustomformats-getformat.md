@@ -1,16 +1,16 @@
 ---
 UID: NF:audioenginebaseapo.IAudioSystemEffectsCustomFormats.GetFormat
 title: IAudioSystemEffectsCustomFormats::GetFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetFormat method retrieves an IAudioMediaType representation of a custom format.
 old-location: audio\iaudiosystemeffectscustomformats_getformat.htm
 old-project: audio
 ms.assetid: 0eab885f-32f7-47d3-b9b1-684eb3d2cd37
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: GetFormat, GetFormat method [Audio Devices], GetFormat method [Audio Devices],IAudioSystemEffectsCustomFormats interface, IAudioSystemEffectsCustomFormats interface [Audio Devices],GetFormat method, IAudioSystemEffectsCustomFormats.GetFormat, IAudioSystemEffectsCustomFormats::GetFormat, audio.iaudiosystemeffectscustomformats_getformat, audio_syseffects_r_6d606a4f-7fce-4ae6-af5b-77a3baf2e41e.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: Audioenginebaseapo.h

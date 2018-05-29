@@ -1,16 +1,16 @@
 ---
 UID: NF:mmdeviceapi.IMMNotificationClient.OnDeviceAdded
 title: IMMNotificationClient::OnDeviceAdded
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnDeviceAdded method indicates that a new audio endpoint device has been added.
 old-location: coreaudio\immnotificationclient_ondeviceadded.htm
 old-project: CoreAudio
 ms.assetid: c839493d-e53c-4afe-b53d-af9d1a6f2965
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDeviceAdded method, IMMNotificationClient.OnDeviceAdded, IMMNotificationClient::OnDeviceAdded, IMMNotificationClientOnDeviceAdded, OnDeviceAdded, OnDeviceAdded method [Core Audio], OnDeviceAdded method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondeviceadded, mmdeviceapi/IMMNotificationClient::OnDeviceAdded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mmdeviceapi.h
 req.include-header: 

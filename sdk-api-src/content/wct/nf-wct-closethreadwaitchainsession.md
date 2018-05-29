@@ -1,16 +1,16 @@
 ---
 UID: NF:wct.CloseThreadWaitChainSession
 title: CloseThreadWaitChainSession function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes the specified WCT session and cancels any outstanding asynchronous operations.
 old-location: base\closethreadwaitchainsession.htm
 old-project: Debug
 ms.assetid: dc288418-01e4-4737-9c63-e6e6b73b5d13
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CloseThreadWaitChainSession, CloseThreadWaitChainSession function, base.closethreadwaitchainsession, wct/CloseThreadWaitChainSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wct.h
 req.include-header: 

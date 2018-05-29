@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFBeginRegisterWorkQueueWithMMCSSEx
 title: MFBeginRegisterWorkQueueWithMMCSSEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: mf\mfbeginregisterworkqueuewithmmcssex.htm
 old-project: medfound
 ms.assetid: D27E2B51-857D-48E5-8D25-A26917FCF959
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFBeginRegisterWorkQueueWithMMCSSEx, MFBeginRegisterWorkQueueWithMMCSSEx function [Media Foundation], mf.mfbeginregisterworkqueuewithmmcssex, mfapi/MFBeginRegisterWorkQueueWithMMCSSEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddEditBox
 title: IFileDialogCustomize::AddEditBox
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an edit box control to the dialog.
 old-location: shell\IFileDialogCustomize_AddEditBox.htm
 old-project: shell
 ms.assetid: 7648eb7a-d7c4-4d4f-a347-52eb81135270
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddEditBox, AddEditBox method [Windows Shell], AddEditBox method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddEditBox method, IFileDialogCustomize.AddEditBox, IFileDialogCustomize::AddEditBox, shell.IFileDialogCustomize_AddEditBox, shell_IFileDialogCustomize_AddEditBox, shobjidl_core/IFileDialogCustomize::AddEditBox
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

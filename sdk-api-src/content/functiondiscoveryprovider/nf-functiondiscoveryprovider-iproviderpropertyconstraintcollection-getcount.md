@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPropertyConstraintCollection.GetCount
 title: IProviderPropertyConstraintCollection::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of items in the collection.
 old-location: ncd\iproviderpropertyconstraintcollection_getcount.htm
 old-project: FunDisc
 ms.assetid: 62dc9e75-ff40-472f-8acf-ebe40dbac95c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,GetCount method, IProviderPropertyConstraintCollection.GetCount, IProviderPropertyConstraintCollection::GetCount, functiondiscoveryprovider/IProviderPropertyConstraintCollection::GetCount, ncd.iproviderpropertyconstraintcollection_getcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

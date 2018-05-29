@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.CreateUnicastIpAddressEntry
 title: CreateUnicastIpAddressEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a new unicast IP address entry on the local computer.
 old-location: iphlp\createunicastipaddressentry.htm
 old-project: IpHlp
 ms.assetid: 8afca4e9-a4c4-4f93-bb4d-25e2eea71ae0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreateUnicastIpAddressEntry, CreateUnicastIpAddressEntry function [IP Helper], iphlp.createunicastipaddressentry, netioapi/CreateUnicastIpAddressEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

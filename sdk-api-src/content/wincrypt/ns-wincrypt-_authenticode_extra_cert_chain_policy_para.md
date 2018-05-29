@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA
 title: "_AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds policy information used in the verification of certificate chains for files.
 old-location: security\authenticode_extra_cert_chain_policy_para.htm
 old-project: SecCrypto
 ms.assetid: 591bd4d4-5062-4282-84fc-f7e02e9592e7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], WTPF_ALLOWONLYPERTRUST, WTPF_IGNOREEXPIRATION, WTPF_IGNOREREVOCATIONONTS, WTPF_IGNOREREVOKATION, WTPF_OFFLINEOKNBU_COM, WTPF_OFFLINEOKNBU_IND, WTPF_OFFLINEOK_COM, WTPF_OFFLINEOK_IND, WTPF_TESTCANBEVALID, WTPF_TRUSTTEST, WTPF_VERIFY_V1_OFF, _AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, _crypto2_authenticode_extra_cert_chain_policy_para, security.authenticode_extra_cert_chain_policy_para, wincrypt/AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSGetShaderResources
 title: ID3D10Device::GSGetShaderResources
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the geometry shader resources.
 old-location: direct3d10\id3d10device_gsgetshaderresources.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gsgetshaderresources.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 1f730e36-30d4-870c-a3ab-3a6e91123778, GSGetShaderResources, GSGetShaderResources method [Direct3D 10], GSGetShaderResources method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSGetShaderResources method, ID3D10Device.GSGetShaderResources, ID3D10Device::GSGetShaderResources, d3d10/ID3D10Device::GSGetShaderResources, direct3d10.id3d10device_gsgetshaderresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

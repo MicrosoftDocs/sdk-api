@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetFileTypeIndex
 title: IFileDialog::SetFileTypeIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the file type that appears as selected in the dialog.
 old-location: shell\IFileDialog_SetFileTypeIndex.htm
 old-project: shell
 ms.assetid: 733ade05-e255-4b1c-a961-e1feb749f73d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFileTypeIndex method, IFileDialog.SetFileTypeIndex, IFileDialog::SetFileTypeIndex, SetFileTypeIndex, SetFileTypeIndex method [Windows Shell], SetFileTypeIndex method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFileTypeIndex, shell_IFileDialog_SetFileTypeIndex, shobjidl_core/IFileDialog::SetFileTypeIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

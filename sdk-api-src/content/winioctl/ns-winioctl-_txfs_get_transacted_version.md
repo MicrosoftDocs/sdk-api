@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._TXFS_GET_TRANSACTED_VERSION
 title: "_TXFS_GET_TRANSACTED_VERSION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the information about the base and latest versions of the specified file.
 old-location: fs\txfs_get_transacted_version.htm
 old-project: FileIO
 ms.assetid: 4a8d0271-7693-483f-89b3-2f6b592bbb8a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PTXFS_GET_TRANSACTED_VERSION, PTXFS_GET_TRANSACTED_VERSION, PTXFS_GET_TRANSACTED_VERSION structure pointer [Files], TXFS_GET_TRANSACTED_VERSION, TXFS_GET_TRANSACTED_VERSION structure [Files], TXFS_TRANSACTED_VERSION_NONTRANSACTED, TXFS_TRANSACTED_VERSION_UNCOMMITTED, _TXFS_GET_TRANSACTED_VERSION, fs.get_transacted_version, fs.txfs_get_transacted_version, winioctl/PTXFS_GET_TRANSACTED_VERSION, winioctl/TXFS_GET_TRANSACTED_VERSION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

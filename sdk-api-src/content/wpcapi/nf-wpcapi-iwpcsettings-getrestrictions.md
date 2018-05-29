@@ -1,16 +1,16 @@
 ---
 UID: NF:wpcapi.IWPCSettings.GetRestrictions
 title: IWPCSettings::GetRestrictions
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether web restrictions, time limits, or game restrictions are on.
 old-location: parcon\iwpcsettings_getrestrictions.htm
 old-project: parcon
 ms.assetid: 22350ef3-3068-4d33-a023-74644e5fbb83
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetRestrictions, GetRestrictions method, GetRestrictions method,IWPCSettings interface, IWPCSettings interface,GetRestrictions method, IWPCSettings.GetRestrictions, IWPCSettings::GetRestrictions, WPCFLAG_APPS_RESTRICTED, WPCFLAG_GAMES_BLOCKED, WPCFLAG_HOURS_RESTRICTED, WPCFLAG_LOGGING_REQUIRED, WPCFLAG_NO_RESTRICTION, WPCFLAG_WEB_FILTERED, parcon.iwpcsettings_getrestrictions, wpcapi/IWPCSettings::GetRestrictions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 

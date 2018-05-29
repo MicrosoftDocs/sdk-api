@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLASS_INFO_ARRAY
 title: "_DHCP_CLASS_INFO_ARRAY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an array of elements that contain DHCP class information.
 old-location: dhcp\dhcp_class_info_array.htm
 old-project: DHCP
 ms.assetid: 716beba3-cba2-406c-a41f-2f08b6a7dc5a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_CLASS_INFO_ARRAY, DHCP_CLASS_INFO_ARRAY, DHCP_CLASS_INFO_ARRAY structure [DHCP], LPDHCP_CLASS_INFO_ARRAY, LPDHCP_CLASS_INFO_ARRAY structure pointer [DHCP], _DHCP_CLASS_INFO_ARRAY, dhcp.dhcp_class_info_array, dhcpsapi/LPDHCP_CLASS_INFO_ARRAY, dhcpsapi/_DHCP_CLASS_INFO_ARRAY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

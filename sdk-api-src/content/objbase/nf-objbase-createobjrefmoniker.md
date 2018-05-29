@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.CreateObjrefMoniker
 title: CreateObjrefMoniker function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an OBJREF moniker based on a pointer to an object.
 old-location: com\createobjrefmoniker.htm
 old-project: com
 ms.assetid: 0a214a11-776c-4ef6-af68-a141398f853c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateObjrefMoniker, CreateObjrefMoniker function [COM], _com_CreateObjrefMoniker, com.createobjrefmoniker, objbase/CreateObjrefMoniker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

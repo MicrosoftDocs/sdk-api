@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.SetMaxQueuedRequests
 title: IThreadPoolKnobs::SetMaxQueuedRequests
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the maximum number of asynchronous execution requests that can be simultaneously queued.
 old-location: cos\ithreadpoolknobs_setmaxqueuedrequests.htm
 old-project: cossdk
 ms.assetid: 63f579a0-853e-484b-bc49-1c0f4c76d889
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IThreadPoolKnobs interface [COM+],SetMaxQueuedRequests method, IThreadPoolKnobs.SetMaxQueuedRequests, IThreadPoolKnobs::SetMaxQueuedRequests, SetMaxQueuedRequests, SetMaxQueuedRequests method [COM+], SetMaxQueuedRequests method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetMaxQueuedRequests, comsvcs/IThreadPoolKnobs::SetMaxQueuedRequests, cos.ithreadpoolknobs_setmaxqueuedrequests
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_STATISTIC
 title: MF_MEDIA_ENGINE_STATISTIC
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies statistics that the Media Engine tracks during playback.
 old-location: mf\mf_media_engine_statistic.htm
 old-project: medfound
 ms.assetid: EB431C2F-69A3-4376-BEC7-A5AE0329AD15
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_MEDIA_ENGINE_STATISTIC, MF_MEDIA_ENGINE_STATISTIC enumeration [Media Foundation], MF_MEDIA_ENGINE_STATISTIC_BUFFER_PROGRESS, MF_MEDIA_ENGINE_STATISTIC_BYTES_DOWNLOADED, MF_MEDIA_ENGINE_STATISTIC_FRAMES_CORRUPTED, MF_MEDIA_ENGINE_STATISTIC_FRAMES_DROPPED, MF_MEDIA_ENGINE_STATISTIC_FRAMES_PER_SECOND, MF_MEDIA_ENGINE_STATISTIC_FRAMES_RENDERED, MF_MEDIA_ENGINE_STATISTIC_PLAYBACK_JITTER, MF_MEDIA_ENGINE_STATISTIC_TOTAL_FRAME_DELAY, mf.mf_media_engine_statistic, mfmediaengine/ MF_MEDIA_ENGINE_STATISTIC_FRAMES_CORRUPTED, mfmediaengine/ MF_MEDIA_ENGINE_STATISTIC_PLAYBACK_JITTER, mfmediaengine/ MF_MEDIA_ENGINE_STATISTIC_TOTAL_FRAME_DELAY, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC_BUFFER_PROGRESS, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC_BYTES_DOWNLOADED, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC_FRAMES_DROPPED, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC_FRAMES_PER_SECOND, mfmediaengine/MF_MEDIA_ENGINE_STATISTIC_FRAMES_RENDERED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfmediaengine.h
 req.include-header: 

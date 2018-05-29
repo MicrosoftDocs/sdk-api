@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.INetConnection.Disconnect
 title: INetConnection::Disconnect
-author: windows-driver-content
+author: windows-sdk-content
 description: The Disconnect method disconnects this connection.
 old-location: ics\inetconnection_disconnect.htm
 old-project: ICS
 ms.assetid: 023abd16-7a07-4247-96cc-607a5e313bad
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: Disconnect, Disconnect method [ICS/ICF], Disconnect method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Disconnect method, INetConnection.Disconnect, INetConnection::Disconnect, _ics_inetconnection_disconnect, ics.inetconnection_disconnect, netcon/INetConnection::Disconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiViewGetColumnInfo
 title: MsiViewGetColumnInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiViewGetColumnInfo function returns a record containing column names or definitions. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msiviewgetcolumninfo.htm
 old-project: Msi
 ms.assetid: f1b8e24c-ac90-4a25-a1d1-c005c403dffc
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MSICOLINFO_NAMES, MSICOLINFO_TYPES, MsiViewGetColumnInfo, MsiViewGetColumnInfo function, _msi_msiviewgetcolumninfo, msiquery/MsiViewGetColumnInfo, setup.msiviewgetcolumninfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.GetIAccessible
 title: ILegacyIAccessibleProvider::GetIAccessible
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an accessible object that corresponds to a UI Automation element that supports the LegacyIAccessible control pattern.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_GetIAccessible.htm
 old-project: WinAuto
 ms.assetid: 1d156866-d19a-4fd2-8664-d22e8b5434be
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetIAccessible, GetIAccessible method [Windows Accessibility], GetIAccessible method [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],GetIAccessible method, ILegacyIAccessibleProvider.GetIAccessible, ILegacyIAccessibleProvider::GetIAccessible, uiauto.uiauto_ILegacyIAccessibleProvider_GetIAccessible, uiauto_ILegacyIAccessibleProvider_GetIAccessible, uiautomationcore/ILegacyIAccessibleProvider::GetIAccessible, winauto.uiauto_ILegacyIAccessibleProvider_GetIAccessible
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

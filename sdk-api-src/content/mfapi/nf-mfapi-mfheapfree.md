@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFHeapFree
 title: MFHeapFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a block of memory that was allocated by calling the MFHeapAlloc function.
 old-location: mf\mfheapfree.htm
 old-project: medfound
 ms.assetid: c4a03a20-5398-4fe0-9a1f-3bc162c624cd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFHeapFree, MFHeapFree function [Media Foundation], c4a03a20-5398-4fe0-9a1f-3bc162c624cd, mf.mfheapfree, mfapi/MFHeapFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

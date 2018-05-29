@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLGetLicense
 title: SLGetLicense function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the license file BLOB.
 old-location: security\slgetlicense.htm
 old-project: SecSLApi
 ms.assetid: 68648512-ea63-43b9-af86-b1014c89f1d7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLGetLicense, SLGetLicense function [Security], security.slgetlicense, slpublic/SLGetLicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

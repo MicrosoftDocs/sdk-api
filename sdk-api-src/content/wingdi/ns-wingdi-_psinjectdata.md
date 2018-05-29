@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi._PSINJECTDATA
 title: "_PSINJECTDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The PSINJECTDATA structure is a header for the input buffer used with the POSTSCRIPT_INJECTION printer escape function.
 old-location: gdi\psinjectdata.htm
 old-project: printdocs
 ms.assetid: f42c8f69-7fe9-4740-b295-32ef2a5b714c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PPSINJECTDATA, PPSINJECTDATA, PPSINJECTDATA structure pointer [Windows GDI], PSINJECTDATA, PSINJECTDATA structure [Windows GDI], _PSINJECTDATA, _win32_PSINJECTDATA_str, gdi.psinjectdata, wingdi/PPSINJECTDATA, wingdi/PSINJECTDATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

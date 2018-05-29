@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IInstallationAgent
 title: IInstallationAgent
-author: windows-driver-content
+author: windows-sdk-content
 description: Records the result for an update.
 old-location: wua\iinstallationagent.htm
 old-project: Wua_Sdk
 ms.assetid: B24B527C-D92B-4BEB-ADCC-5E2BA684A478
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IInstallationAgent, IInstallationAgent interface [Windows Update Agent], IInstallationAgent interface [Windows Update Agent],described, wua.iinstallationagent, wuapi/IInstallationAgent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

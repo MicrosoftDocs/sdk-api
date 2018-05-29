@@ -1,16 +1,16 @@
 ---
 UID: NL:vswriter.IVssCreateWriterMetadataEx
 title: IVssCreateWriterMetadataEx
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVssCreateWriterMetadataEx interface is a C++ (not COM) interface that defines a method to report any file sets that will be explicitly excluded when a shadow copy is created.
 old-location: base\ivsscreatewritermetadataex.htm
 old-project: VSS
 ms.assetid: eec0a7ef-ad7c-4fb6-a101-573c2d0943c2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssCreateWriterMetadataEx, IVssCreateWriterMetadataEx interface, IVssCreateWriterMetadataEx interface,described, base.ivsscreatewritermetadataex, vswriter/IVssCreateWriterMetadataEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

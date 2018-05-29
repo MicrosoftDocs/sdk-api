@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.SetArcDirection
 title: SetArcDirection function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetArcDirection sets the drawing direction to be used for arc and rectangle functions.
 old-location: gdi\setarcdirection.htm
 old-project: gdi
 ms.assetid: cec31eb2-cc9d-4384-b973-dd4339b96ed0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AD_CLOCKWISE, AD_COUNTERCLOCKWISE, SetArcDirection, SetArcDirection function [Windows GDI], _win32_SetArcDirection, gdi.setarcdirection, wingdi/SetArcDirection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IBandSite.GetBandObject
 title: IBandSite::GetBandObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a specified band object from a band site.
 old-location: shell\IBandSite_GetBandObject.htm
 old-project: shell
 ms.assetid: e6eba36d-5fc8-4b79-8129-1e07c5cc5b5f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetBandObject, GetBandObject method [Windows Shell], GetBandObject method [Windows Shell],IBandSite interface, IBandSite interface [Windows Shell],GetBandObject method, IBandSite.GetBandObject, IBandSite::GetBandObject, _win32_IBandSite_GetBandObject, shell.IBandSite_GetBandObject, shobjidl_core/IBandSite::GetBandObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h

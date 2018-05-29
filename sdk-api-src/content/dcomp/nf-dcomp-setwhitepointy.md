@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetWhitePointY
 title: SetWhitePointY function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the y value of the white point.
 old-location: directcomp\idcompositionbrightnesseffect_setwhitepointy_overloaded.htm
 old-project: directcomp
 ms.assetid: b8111c61-cb02-e23f-6257-36708f775d02
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: SetWhitePointY, SetWhitePointY methods [DirectComposition], dcomp/SetWhitePointY, directcomp.idcompositionbrightnesseffect_setwhitepointy_overloaded, idcompositionbrightnesseffect::SetWhitePointY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:resapi.CLRES_FUNCTION_TABLE
 title: CLRES_FUNCTION_TABLE
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a function table for any version of the Resource API.
 old-location: mscs\clres_function_table.htm
 old-project: MsCS
 ms.assetid: fa27076f-393c-415a-9301-91cfe770fb3c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLRES_FUNCTION_TABLE, CLRES_FUNCTION_TABLE, CLRES_FUNCTION_TABLE structure [Failover Cluster], CLRES_V1_FUNCTION_SIZE, CLRES_V2_FUNCTION_SIZE, CLRES_V3_FUNCTION_SIZE, CLRES_VERSION_V1_00, CLRES_VERSION_V2_00, CLRES_VERSION_V3_00, PCLRES_FUNCTION_TABLE, PCLRES_FUNCTION_TABLE structure pointer [Failover Cluster], _wolf_clres_function_table, mscs.clres_function_table, resapi/CLRES_FUNCTION_TABLE, resapi/PCLRES_FUNCTION_TABLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: resapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:comppkgsup.InstantiateComponentFromPackage
 title: InstantiateComponentFromPackage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instance of a class in an application package.
 old-location: winprog\instantiatecomponentfrompackage.htm
 old-project: DevNotes
 ms.assetid: 831324BC-854B-4070-9DAE-55E68304D608
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: InstantiateComponentFromPackage, InstantiateComponentFromPackage function [Windows API], comppkgsup/InstantiateComponentFromPackage, winprog.instantiatecomponentfrompackage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: comppkgsup.h
 req.include-header: 

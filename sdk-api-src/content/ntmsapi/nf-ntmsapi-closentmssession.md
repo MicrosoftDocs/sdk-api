@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.CloseNtmsSession
 title: CloseNtmsSession function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CloseNtmsSession function closes the specified RSM session.
 old-location: fs\closentmssession.htm
 old-project: Rsm
 ms.assetid: 54bc354a-fdef-4642-8e53-cf20ed374000
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: CloseNtmsSession, CloseNtmsSession function [Files], _zaw_closentmssession, base.closentmssession, fs.closentmssession, ntmsapi/CloseNtmsSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

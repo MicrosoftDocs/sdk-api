@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheck.IUserDictionariesRegistrar.RegisterUserDictionary
 title: IUserDictionariesRegistrar::RegisterUserDictionary
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a file to be used as a user dictionary for the current user, until unregistered.
 old-location: intl\iuserdictionariesregistrar_registeruserdictionary.htm
 old-project: Intl
 ms.assetid: 5dd64e20-af2d-4d84-9e66-01ac19f34212
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUserDictionariesRegistrar interface [Internationalization for Windows Applications],RegisterUserDictionary method, IUserDictionariesRegistrar.RegisterUserDictionary, IUserDictionariesRegistrar::RegisterUserDictionary, RegisterUserDictionary, RegisterUserDictionary method [Internationalization for Windows Applications], RegisterUserDictionary method [Internationalization for Windows Applications],IUserDictionariesRegistrar interface, intl.iuserdictionariesregistrar_registeruserdictionary, spellcheck/IUserDictionariesRegistrar::RegisterUserDictionary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

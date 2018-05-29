@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertUnregisterPhysicalStore
 title: CertUnregisterPhysicalStore function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertUnregisterPhysicalStore function removes a physical store from a specified system store collection. CertUnregisterPhysicalStore can also be used to delete the physical store.
 old-location: security\certunregisterphysicalstore.htm
 old-project: SecCrypto
 ms.assetid: 06480a2f-5a94-4cf5-9774-ceb9499e1d44
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CERT_STORE_DELETE_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertUnregisterPhysicalStore, CertUnregisterPhysicalStore function [Security], _crypto2_certunregisterphysicalstore, security.certunregisterphysicalstore, wincrypt/CertUnregisterPhysicalStore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

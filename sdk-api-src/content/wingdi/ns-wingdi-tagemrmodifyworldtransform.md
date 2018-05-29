@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRMODIFYWORLDTRANSFORM
 title: tagEMRMODIFYWORLDTRANSFORM
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRMODIFYWORLDTRANSFORM structure contains members for the ModifyWorldTransform enhanced metafile record.
 old-location: gdi\emrmodifyworldtransform.htm
 old-project: gdi
 ms.assetid: 61d51fc9-a8dd-4981-940d-eedc8936360a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRMODIFYWORLDTRANSFORM, EMRMODIFYWORLDTRANSFORM, EMRMODIFYWORLDTRANSFORM structure [Windows GDI], PEMRMODIFYWORLDTRANSFORM, PEMRMODIFYWORLDTRANSFORM structure pointer [Windows GDI], _win32_EMRMODIFYWORLDTRANSFORM_str, gdi.emrmodifyworldtransform, tagEMRMODIFYWORLDTRANSFORM, wingdi/EMRMODIFYWORLDTRANSFORM, wingdi/PEMRMODIFYWORLDTRANSFORM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_LogApisRecursively
 title: IApiTracingDataCollector::get_LogApisRecursively
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether API tracing logs calls that are imported directly by the application.
 old-location: pla\iapitracingdatacollector_logapisrecursively.htm
 old-project: PLA
 ms.assetid: 245f4f27-9a57-459c-b6e9-fe11fe58d77a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IApiTracingDataCollector interface [PLA],LogApisRecursively property, IApiTracingDataCollector.LogApisRecursively, IApiTracingDataCollector.get_LogApisRecursively, IApiTracingDataCollector::LogApisRecursively, IApiTracingDataCollector::get_LogApisRecursively, IApiTracingDataCollector::put_LogApisRecursively, LogApisRecursively property [PLA], LogApisRecursively property [PLA],IApiTracingDataCollector interface, get_LogApisRecursively, pla.iapitracingdatacollector_logapisrecursively, pla/IApiTracingDataCollector::LogApisRecursively, pla/IApiTracingDataCollector::get_LogApisRecursively, pla/IApiTracingDataCollector::put_LogApisRecursively
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

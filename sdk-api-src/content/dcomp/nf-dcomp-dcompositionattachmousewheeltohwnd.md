@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.DCompositionAttachMouseWheelToHwnd
 title: DCompositionAttachMouseWheelToHwnd function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an Interaction/InputSink to route mouse wheel messages to the given HWND.
 old-location: directcomp\dcompositionattachmousewheeltohwnd.htm
 old-project: directcomp
 ms.assetid: 0a047702-e707-8df7-7660-0759a94b21af
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DCompositionAttachMouseWheelToHwnd, DCompositionAttachMouseWheelToHwnd function [DirectComposition], dcomp/DCompositionAttachMouseWheelToHwnd, directcomp.dcompositionattachmousewheeltohwnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

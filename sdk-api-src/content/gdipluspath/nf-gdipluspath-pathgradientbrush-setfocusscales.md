@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetFocusScales
 title: PathGradientBrush::SetFocusScales
-author: windows-driver-content
+author: windows-sdk-content
 description: The PathGradientBrush::SetFocusScales method sets the focus scales of this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetFocusScales_xScale_yScale_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setfocusscales.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathGradientBrush class [GDI+],SetFocusScales method, PathGradientBrush.SetFocusScales, PathGradientBrush::SetFocusScales, SetFocusScales, SetFocusScales method [GDI+], SetFocusScales method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_SetFocusScales_xScale_yScale_, gdiplus._gdiplus_CLASS_PathGradientBrush_SetFocusScales_xScale_yScale_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

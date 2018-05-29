@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetURL
 title: IMFPMediaItem::GetURL
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the URL that was used to create the media item.
 old-location: mf\imfpmediaitem_geturl.htm
 old-project: medfound
 ms.assetid: 2598534c-28cc-4f4c-bf87-17ab7044e0c1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetURL method, IMFPMediaItem.GetURL, IMFPMediaItem::GetURL, mf.imfpmediaitem_geturl, mfplay/IMFPMediaItem::GetURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

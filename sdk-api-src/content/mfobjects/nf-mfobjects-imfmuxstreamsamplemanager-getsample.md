@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamSampleManager.GetSample
 title: IMFMuxStreamSampleManager::GetSample
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IMFSample associated with the substream with the specified index.
 old-location: mf\imfmuxstreamsamplemanager_getsample.htm
 old-project: medfound
 ms.assetid: F52147C3-FF6D-4F8F-93BE-2A3237C5A827
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSample, GetSample method [Media Foundation], GetSample method [Media Foundation],IMFMuxStreamSampleManager interface, IMFMuxStreamSampleManager interface [Media Foundation],GetSample method, IMFMuxStreamSampleManager.GetSample, IMFMuxStreamSampleManager::GetSample, mf.imfmuxstreamsamplemanager_getsample, mfobjects/IMFMuxStreamSampleManager::GetSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: 

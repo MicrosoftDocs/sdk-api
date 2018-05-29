@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMTunerNotification
 title: IAMTunerNotification
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This callback interface has been deprecated, because the TV Tuner filter does not implement the callback mechanism. .
 old-location: dshow\iamtunernotification.htm
 old-project: DirectShow
 ms.assetid: 8e5fde62-d17c-4d3c-bdb0-0748a9bd285b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMTunerNotification, IAMTunerNotification interface [DirectShow], IAMTunerNotification interface [DirectShow],described, IAMTunerNotificationInterface, dshow.iamtunernotification, strmif/IAMTunerNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 

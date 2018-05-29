@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.ILayoutStorage.LayoutScript
 title: ILayoutStorage::LayoutScript
-author: windows-driver-content
+author: windows-sdk-content
 description: The LayoutScript method provides explicit directions for reordering the storages, streams, and controls in a compound file to match the order in which they are accessed during the download.
 old-location: stg\ilayoutstorage_layoutscript.htm
 old-project: Stg
 ms.assetid: 22ae3485-15d9-47e4-988e-fb760e67595b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ILayoutStorage interface [Structured Storage],LayoutScript method, ILayoutStorage.LayoutScript, ILayoutStorage::LayoutScript, LayoutScript, LayoutScript method [Structured Storage], LayoutScript method [Structured Storage],ILayoutStorage interface, _stg_ilayoutstorage_layoutscript, objidl/ILayoutStorage::LayoutScript, stg.ilayoutstorage_layoutscript
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

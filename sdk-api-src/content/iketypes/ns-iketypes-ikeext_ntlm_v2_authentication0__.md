@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_NTLM_V2_AUTHENTICATION0__
 title: IKEEXT_NTLM_V2_AUTHENTICATION0__
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information needed for Microsoft Windows NT LAN Manager (NTLM) V2 authentication.
 old-location: fwp\ikeext_ntlm_v2_authentication0.htm
 old-project: FWP
 ms.assetid: 8ac34054-5066-49f2-80b6-e674f6175c8e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_NTLM_V2_AUTHENTICATION0, IKEEXT_NTLM_V2_AUTHENTICATION0 structure [Filtering], IKEEXT_NTLM_V2_AUTHENTICATION0__, IKEEXT_NTLM_V2_AUTH_DONT_ACCEPT_EXPLICIT_CREDENTIALS, fwp.ikeext_ntlm_v2_authentication0, iketypes/IKEEXT_NTLM_V2_AUTHENTICATION0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

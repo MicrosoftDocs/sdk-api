@@ -1,16 +1,16 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetNetworkConnection
 title: INetworkListManager::GetNetworkConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNetworkConnection method retrieves a network based on a supplied Network Connection ID.
 old-location: nla\inetworklistmanager_getnetworkconnection.htm
 old-project: NLA
 ms.assetid: d57341f1-5f73-4d6d-964f-cb80cfbedf1b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNetworkConnection, GetNetworkConnection method [Network Awareness], GetNetworkConnection method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],GetNetworkConnection method, INetworkListManager.GetNetworkConnection, INetworkListManager::GetNetworkConnection, netlistmgr/INetworkListManager::GetNetworkConnection, nla.inetworklistmanager_getnetworkconnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

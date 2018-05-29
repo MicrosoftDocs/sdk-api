@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Instance_GetServerName
 title: MI_Instance_GetServerName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the server name from the specified instance.
 old-location: wmi_v2\mi_instance_getservername.htm
 old-project: wmi_v2
 ms.assetid: 773b2cb9-9296-4da9-8c13-288524bfccd5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Instance_GetServerName, MI_Instance_GetServerName function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetServerName, wmi_v2.mi_instance_getservername
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

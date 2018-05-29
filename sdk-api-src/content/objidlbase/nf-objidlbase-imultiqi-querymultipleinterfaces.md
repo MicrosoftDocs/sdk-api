@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IMultiQI.QueryMultipleInterfaces
 title: IMultiQI::QueryMultipleInterfaces
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves pointers to multiple supported interfaces on an object.
 old-location: com\imultiqi_querymultipleinterfaces.htm
 old-project: com
 ms.assetid: 412f1d03-f40c-4451-9c99-1134c69c9989
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMultiQI interface [COM],QueryMultipleInterfaces method, IMultiQI.QueryMultipleInterfaces, IMultiQI::QueryMultipleInterfaces, QueryMultipleInterfaces, QueryMultipleInterfaces method [COM], QueryMultipleInterfaces method [COM],IMultiQI interface, _com_imultiqi_querymultipleinterfaces, com.imultiqi_querymultipleinterfaces, objidlbase/IMultiQI::QueryMultipleInterfaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

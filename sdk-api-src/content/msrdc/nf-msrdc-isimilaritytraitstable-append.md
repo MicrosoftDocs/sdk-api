@@ -1,16 +1,16 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.Append
 title: ISimilarityTraitsTable::Append
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a SimilarityData structure to the similarity traits table.
 old-location: rdc\isimilaritytraitstable_append.htm
 old-project: Rdc
 ms.assetid: e4c5f75c-282e-4c99-8c5a-53421f4bfc92
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Append, Append method [Remote Differential Compression], Append method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],Append method, ISimilarityTraitsTable.Append, ISimilarityTraitsTable::Append, fs.isimilaritytraitstable_append, msrdc/ISimilarityTraitsTable::Append, rdc.isimilaritytraitstable_append
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

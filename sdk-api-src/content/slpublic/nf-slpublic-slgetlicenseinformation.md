@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLGetLicenseInformation
 title: SLGetLicenseInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the specified license information.
 old-location: security\slgetlicenseinformation.htm
 old-project: SecSLApi
 ms.assetid: d573bf38-590c-4f8e-a465-9322cbe2b7c4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLGetLicenseInformation, SLGetLicenseInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_DESCRIPTION, SL_INFO_KEY_LICENSE_TYPE, SL_INFO_KEY_VERSION, security.slgetlicenseinformation, slpublic/SLGetLicenseInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

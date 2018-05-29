@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetUserDefaultLCID
 title: GetUserDefaultLCID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the locale identifier for the user default locale.Caution  If the user default locale is a custom locale, an application cannot accurately tag data with the value or exchange it.
 old-location: intl\getuserdefaultlcid.htm
 old-project: Intl
 ms.assetid: bbf8399e-9034-4480-8d6e-030714f94e48
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetUserDefaultLCID, GetUserDefaultLCID function [Internationalization for Windows Applications], _win32_GetUserDefaultLCID, intl.getuserdefaultlcid, winnls/GetUserDefaultLCID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

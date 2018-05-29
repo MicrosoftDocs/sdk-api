@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetMediaPlayer
 title: IMFPMediaItem::GetMediaPlayer
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the MFPlay player object that created the media item.
 old-location: mf\imfpmediaitem_getmediaplayer.htm
 old-project: medfound
 ms.assetid: 6d6f822a-d599-437e-a73a-2242d4d3fe3a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetMediaPlayer, GetMediaPlayer method [Media Foundation], GetMediaPlayer method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetMediaPlayer method, IMFPMediaItem.GetMediaPlayer, IMFPMediaItem::GetMediaPlayer, mf.imfpmediaitem_getmediaplayer, mfplay/IMFPMediaItem::GetMediaPlayer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

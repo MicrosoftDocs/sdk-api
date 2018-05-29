@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_GetViewRect
 title: ListView_GetViewRect macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the bounding rectangle of all items in the list-view control. The list view must be in icon or small icon view. You can use this macro or send the LVM_GETVIEWRECT message explicitly.
 old-location: controls\ListView_GetViewRect.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getviewrect.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_GetViewRect, ListView_GetViewRect macro [Windows Controls], _win32_ListView_GetViewRect, _win32_ListView_GetViewRect_cpp, commctrl/ListView_GetViewRect, controls.ListView_GetViewRect, controls._win32_ListView_GetViewRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

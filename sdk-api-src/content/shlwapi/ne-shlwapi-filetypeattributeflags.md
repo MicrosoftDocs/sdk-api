@@ -1,16 +1,16 @@
 ---
 UID: NE:shlwapi.FILETYPEATTRIBUTEFLAGS
 title: FILETYPEATTRIBUTEFLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates FILETYPEATTRIBUTEFLAGS constants that are used in the EditFlags value of a file association PROGID registry key.
 old-location: shell\FILETYPEATTRIBUTEFLAGS.htm
 old-project: shell
 ms.assetid: 63b58659-9c4c-4b39-98d1-743724523dcd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FILETYPEATTRIBUTEFLAGS, FILETYPEATTRIBUTEFLAGS enumeration [Windows Shell], FTA_AlwaysUnsafe, FTA_AlwaysUseDirectInvoke, FTA_Exclude, FTA_HasExtension, FTA_NoDDE, FTA_NoEdit, FTA_NoEditDesc, FTA_NoEditDflt, FTA_NoEditIcon, FTA_NoEditMIME, FTA_NoEditVerb, FTA_NoEditVerbCmd, FTA_NoEditVerbExe, FTA_NoNewVerb, FTA_NoRecentDocs, FTA_NoRemove, FTA_NoRemoveVerb, FTA_None, FTA_OpenIsSafe, FTA_SafeForElevation, FTA_Show, shell.FILETYPEATTRIBUTEFLAGS, shell_FILETYPEATTRIBUTEFLAGS, shlwapi/FILETYPEATTRIBUTEFLAGS, shlwapi/FTA_AlwaysUnsafe, shlwapi/FTA_AlwaysUseDirectInvoke, shlwapi/FTA_Exclude, shlwapi/FTA_HasExtension, shlwapi/FTA_NoDDE, shlwapi/FTA_NoEdit, shlwapi/FTA_NoEditDesc, shlwapi/FTA_NoEditDflt, shlwapi/FTA_NoEditIcon, shlwapi/FTA_NoEditMIME, shlwapi/FTA_NoEditVerb, shlwapi/FTA_NoEditVerbCmd, shlwapi/FTA_NoEditVerbExe, shlwapi/FTA_NoNewVerb, shlwapi/FTA_NoRecentDocs, shlwapi/FTA_NoRemove, shlwapi/FTA_NoRemoveVerb, shlwapi/FTA_None, shlwapi/FTA_OpenIsSafe, shlwapi/FTA_SafeForElevation, shlwapi/FTA_Show
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shlwapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpmtypes.FWPM_FILTER_SUBSCRIPTION0_
 title: FWPM_FILTER_SUBSCRIPTION0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to subscribe for change notifications.
 old-location: fwp\fwpm_filter_subscription0_struct.htm
 old-project: FWP
 ms.assetid: 723d2e27-420d-4eea-9ae1-d624807bf4ec
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_FILTER_SUBSCRIPTION0, FWPM_FILTER_SUBSCRIPTION0 structure [Filtering], FWPM_FILTER_SUBSCRIPTION0_, FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD, FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE, fwp.fwpm_filter_subscription0_struct, fwpmtypes/FWPM_FILTER_SUBSCRIPTION0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

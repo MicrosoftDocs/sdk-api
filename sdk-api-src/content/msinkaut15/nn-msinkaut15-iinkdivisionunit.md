@@ -1,16 +1,16 @@
 ---
 UID: NN:msinkaut15.IInkDivisionUnit
 title: IInkDivisionUnit
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a single structural element within an IInkDivisionResult object.
 old-location: tablet\iinkdivisionunit.htm
 old-project: tablet
 ms.assetid: 5c5479e0-7568-40c8-bb75-e2ded3ac86b7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 5c5479e0-7568-40c8-bb75-e2ded3ac86b7, IInkDivisionUnit, IInkDivisionUnit interface [Tablet PC], IInkDivisionUnit interface [Tablet PC],described, msinkaut15/IInkDivisionUnit, tablet.iinkdivisionunit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut15.h
 req.include-header: 

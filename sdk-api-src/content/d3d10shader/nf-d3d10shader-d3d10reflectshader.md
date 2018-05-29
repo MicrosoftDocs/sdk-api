@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10shader.D3D10ReflectShader
 title: D3D10ReflectShader function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function -- which creates a shader-reflection object for retrieving information about a compiled shader -- has been deprecated. Instead, use D3DReflect.
 old-location: direct3d10\d3d10reflectshader.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10reflectshader.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: D3D10ReflectShader, D3D10ReflectShader function [Direct3D 10], abc201df-57cf-fbbd-708b-94ffa50ba7d4, d3d10shader/D3D10ReflectShader, direct3d10.d3d10reflectshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3d10shader.h
 req.include-header: 

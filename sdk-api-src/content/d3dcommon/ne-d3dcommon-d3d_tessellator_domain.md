@@ -1,16 +1,16 @@
 ---
 UID: NE:d3dcommon.D3D_TESSELLATOR_DOMAIN
 title: D3D_TESSELLATOR_DOMAIN
-author: windows-driver-content
+author: windows-sdk-content
 description: Values that identify domain options for tessellator data.
 old-location: direct3d11\d3d_tessellator_domain.htm
 old-project: direct3d11
 ms.assetid: 9a62f3f4-b9d9-4aed-952e-00f3ad6aafd1
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_TESSELLATOR_DOMAIN_ISOLINE, D3D11_TESSELLATOR_DOMAIN_QUAD, D3D11_TESSELLATOR_DOMAIN_TRI, D3D11_TESSELLATOR_DOMAIN_UNDEFINED, D3D_TESSELLATOR_DOMAIN, D3D_TESSELLATOR_DOMAIN enumeration [Direct3D 11], D3D_TESSELLATOR_DOMAIN_ISOLINE, D3D_TESSELLATOR_DOMAIN_QUAD, D3D_TESSELLATOR_DOMAIN_TRI, D3D_TESSELLATOR_DOMAIN_UNDEFINED, d3dcommon/D3D11_TESSELLATOR_DOMAIN_ISOLINE, d3dcommon/D3D11_TESSELLATOR_DOMAIN_QUAD, d3dcommon/D3D11_TESSELLATOR_DOMAIN_TRI, d3dcommon/D3D11_TESSELLATOR_DOMAIN_UNDEFINED, d3dcommon/D3D_TESSELLATOR_DOMAIN, d3dcommon/D3D_TESSELLATOR_DOMAIN_ISOLINE, d3dcommon/D3D_TESSELLATOR_DOMAIN_QUAD, d3dcommon/D3D_TESSELLATOR_DOMAIN_TRI, d3dcommon/D3D_TESSELLATOR_DOMAIN_UNDEFINED, direct3d11.d3d_tessellator_domain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: 

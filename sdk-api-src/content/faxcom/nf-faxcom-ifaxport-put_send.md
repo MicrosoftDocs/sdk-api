@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxPort.put_Send
 title: IFaxPort::put_Send
-author: windows-driver-content
+author: windows-sdk-content
 description: The Send property is a Boolean value that indicates whether a fax port is enabled to send faxes.
 old-location: fax\_mfax_ifaxport_get_send_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9uqs.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxPort object [Fax Service],Send property, FaxPort.Send, IFaxPort.put_Send, IFaxPort::put_Send, Send property [Fax Service], Send property [Fax Service],FaxPort object, _mfax_ifaxport_get_send, fax._mfax_ifaxport_get_send, fax._mfax_ifaxport_get_send_vb, put_Send
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

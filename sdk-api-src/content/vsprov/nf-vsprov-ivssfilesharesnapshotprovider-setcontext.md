@@ -1,16 +1,16 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.SetContext
 title: IVssFileShareSnapshotProvider::SetContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the context for the subsequent shadow copy-related operations.
 old-location: base\ivssfilesharesnapshotprovider_setcontext.htm
 old-project: VSS
 ms.assetid: 28e53076-4d8e-4f24-83b0-d0aaf7260802
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],SetContext method, IVssFileShareSnapshotProvider.SetContext, IVssFileShareSnapshotProvider::SetContext, SetContext, SetContext method [VSS], SetContext method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_setcontext, vsprov/IVssFileShareSnapshotProvider::SetContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

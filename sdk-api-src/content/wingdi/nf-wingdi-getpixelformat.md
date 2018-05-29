@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetPixelFormat
 title: GetPixelFormat function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPixelFormat function obtains the index of the currently selected pixel format of the specified device context.
 old-location: opengl\getpixelformat.htm
 old-project: OpenGL
 ms.assetid: e9a65f3a-6932-462f-b342-a993d222fae8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetPixelFormat, GetPixelFormat function [OpenGL], _ogl_GetPixelFormat, opengl.getpixelformat, wingdi/GetPixelFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

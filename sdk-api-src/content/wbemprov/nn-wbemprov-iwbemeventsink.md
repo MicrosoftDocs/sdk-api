@@ -1,16 +1,16 @@
 ---
 UID: NN:wbemprov.IWbemEventSink
 title: IWbemEventSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates communication with an event provider using a restricted set of queries.
 old-location: wmi\iwbemeventsink.htm
 old-project: WmiSdk
 ms.assetid: dd076dd0-ed39-47a2-86fb-a595baf3f464
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemEventSink, IWbemEventSink interface [Windows Management Instrumentation], IWbemEventSink interface [Windows Management Instrumentation],described, _hmm_iwbemeventsink, wbemprov/IWbemEventSink, wmi.iwbemeventsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

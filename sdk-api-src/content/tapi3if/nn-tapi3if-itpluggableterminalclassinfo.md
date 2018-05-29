@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITPluggableTerminalClassInfo
 title: ITPluggableTerminalClassInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITPluggableTerminalClassInfo interface exposes methods that allow the application to retrieve information concerning a pluggable terminal.
 old-location: tapi3\itpluggableterminalclassinfo.htm
 old-project: Tapi
 ms.assetid: 0f7190c4-c696-4749-82f2-20fdbc8651f4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPluggableTerminalClassInfo, ITPluggableTerminalClassInfo interface [TAPI 2.2], ITPluggableTerminalClassInfo interface [TAPI 2.2],described, _tapi3_itpluggableterminalclassinfo, tapi3.itpluggableterminalclassinfo, tapi3if/ITPluggableTerminalClassInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

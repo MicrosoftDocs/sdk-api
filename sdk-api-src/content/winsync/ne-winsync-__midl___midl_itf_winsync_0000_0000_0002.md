@@ -1,16 +1,16 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0002
 title: "__MIDL___MIDL_itf_winsync_0000_0000_0002"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the options for the concurrency conflict resolution policy to use for the synchronization session.
 old-location: winsync\conflict_resolution_policy.htm
 old-project: winsync
 ms.assetid: 4c2f7237-32ac-4f2d-bf6a-7959bc5d40d4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CONFLICT_RESOLUTION_POLICY, CONFLICT_RESOLUTION_POLICY enumeration [Windows Sync], CRP_DESTINATION_PROVIDER_WINS, CRP_LAST, CRP_NONE, CRP_SOURCE_PROVIDER_WINS, __MIDL___MIDL_itf_winsync_0000_0000_0002, winsync.conflict_resolution_policy, winsync/CONFLICT_RESOLUTION_POLICY, winsync/CRP_DESTINATION_PROVIDER_WINS, winsync/CRP_LAST, winsync/CRP_NONE, winsync/CRP_SOURCE_PROVIDER_WINS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsync.h
 req.include-header: 

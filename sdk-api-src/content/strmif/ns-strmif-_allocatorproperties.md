@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif._AllocatorProperties
 title: "_AllocatorProperties"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ALLOCATOR_PROPERTIES structure describes an allocator's count, size, alignment, and prefix properties.
 old-location: dshow\allocator_properties.htm
 old-project: DirectShow
 ms.assetid: 813e4693-b549-4045-aff5-08f2dd754b6e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ALLOCATOR_PROPERTIES, ALLOCATOR_PROPERTIES structure [DirectShow], ALLOCATOR_PROPERTIESStructure, _AllocatorProperties, dshow.allocator_properties, strmif/ALLOCATOR_PROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

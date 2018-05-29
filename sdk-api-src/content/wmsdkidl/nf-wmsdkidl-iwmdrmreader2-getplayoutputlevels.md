@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader2.GetPlayOutputLevels
 title: IWMDRMReader2::GetPlayOutputLevels
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPlayOutputLevels method retrieves the output protection levels (OPLs) that apply to the play action in the license of the file loaded in the reader.
 old-location: wmformat\iwmdrmreader2_getplayoutputlevels.htm
 old-project: wmformat
 ms.assetid: a53d58cc-655f-4441-9c16-5afc5b53a233
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetPlayOutputLevels, GetPlayOutputLevels method [windows Media Format], GetPlayOutputLevels method [windows Media Format],IWMDRMReader2 interface, IWMDRMReader2 interface [windows Media Format],GetPlayOutputLevels method, IWMDRMReader2.GetPlayOutputLevels, IWMDRMReader2::GetPlayOutputLevels, IWMDRMReader2GetPlayOutputLevels, wmformat.iwmdrmreader2_getplayoutputlevels, wmsdkidl/IWMDRMReader2::GetPlayOutputLevels
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsafer.SaferCreateLevel
 title: SaferCreateLevel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a SAFER_LEVEL_HANDLE.
 old-location: security\safercreatelevel.htm
 old-project: SecMgmt
 ms.assetid: 7deb1365-5355-4983-900b-8e4fed009403
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SAFER_LEVELID_CONSTRAINED, SAFER_LEVELID_DISALLOWED, SAFER_LEVELID_FULLYTRUSTED, SAFER_LEVELID_NORMALUSER, SAFER_LEVELID_UNTRUSTED, SAFER_LEVEL_OPEN, SAFER_SCOPEID_MACHINE, SAFER_SCOPEID_USER, SaferCreateLevel, SaferCreateLevel function [Security], _mnp_safercreatelevel, security.safercreatelevel, winsafer/SaferCreateLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsafer.h
 req.include-header: 

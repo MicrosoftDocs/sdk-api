@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFBeginCreateFile
 title: MFBeginCreateFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Begins an asynchronous request to create a byte stream from a file.
 old-location: mf\mfbegincreatefile.htm
 old-project: medfound
 ms.assetid: aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFBeginCreateFile, MFBeginCreateFile function [Media Foundation], aca304f6-cf7c-43ea-8ebe-d3bb46f8a2fd, mf.mfbegincreatefile, mfapi/MFBeginCreateFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

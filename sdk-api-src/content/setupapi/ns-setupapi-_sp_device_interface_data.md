@@ -1,16 +1,16 @@
 ---
 UID: NS:setupapi._SP_DEVICE_INTERFACE_DATA
 title: "_SP_DEVICE_INTERFACE_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: An SP_DEVICE_INTERFACE_DATA structure defines a device interface in a device information set.
 old-location: devinst\sp_device_interface_data.htm
 old-project: devinst
 ms.assetid: df142e95-aa1c-4d3e-90c6-bac86effbd5d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSP_DEVICE_INTERFACE_DATA, PSP_DEVICE_INTERFACE_DATA, PSP_DEVICE_INTERFACE_DATA structure pointer [Device and Driver Installation], SP_DEVICE_INTERFACE_DATA, SP_DEVICE_INTERFACE_DATA structure [Device and Driver Installation], SP_INTERFACE_DEVICE_DATA, _SP_DEVICE_INTERFACE_DATA, devinst.sp_device_interface_data, di-struct_6ad1a986-b29c-4adc-af28-e8895eee5ac4.xml, setupapi/PSP_DEVICE_INTERFACE_DATA, setupapi/SP_DEVICE_INTERFACE_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h

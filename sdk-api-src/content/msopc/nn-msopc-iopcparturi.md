@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcPartUri
 title: IOpcPartUri
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the part name of a part.
 old-location: opc\iopcparturi.htm
 old-project: OPC
 ms.assetid: 81123212-7a32-4833-b81f-8454a544327d
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcPartUri, IOpcPartUri interface [Open Packaging Conventions], IOpcPartUri interface [Open Packaging Conventions],described, msopc/IOpcPartUri, opc.iopcparturi
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

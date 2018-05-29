@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFolderViewSettings.GetFolderFlags
 title: IFolderViewSettings::GetFolderFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets folder view options flags.
 old-location: shell\IFolderViewSettings_GetFolderFlags.htm
 old-project: shell
 ms.assetid: a3b21d20-179c-4d6c-ac2e-9001d6358e52
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFolderFlags, GetFolderFlags method [Windows Shell], GetFolderFlags method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetFolderFlags method, IFolderViewSettings.GetFolderFlags, IFolderViewSettings::GetFolderFlags, _shell_IFolderViewSettings_GetFolderFlags, shell.IFolderViewSettings_GetFolderFlags, shobjidl_core/IFolderViewSettings::GetFolderFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

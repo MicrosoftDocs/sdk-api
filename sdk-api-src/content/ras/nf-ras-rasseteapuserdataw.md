@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasSetEapUserDataW
 title: RasSetEapUserDataW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the RasSetEapUserData function to store user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry in the registry.
 old-location: rras\rasseteapuserdata.htm
 old-project: RRAS
 ms.assetid: 702e5c42-cc8c-43cf-a0bf-d3e450c031a4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasSetEapUserData, RasSetEapUserData function [RAS], RasSetEapUserDataA, RasSetEapUserDataW, _ras_rasseteapuserdata, ras/RasSetEapUserData, ras/RasSetEapUserDataA, ras/RasSetEapUserDataW, rras.rasseteapuserdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

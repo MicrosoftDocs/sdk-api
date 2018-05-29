@@ -1,16 +1,16 @@
 ---
 UID: NE:sdoias._ATTRIBUTEFILTER
 title: "_ATTRIBUTEFILTER"
-author: windows-driver-content
+author: windows-sdk-content
 description: The usage cases for the NPS dictionary attributes.
 old-location: nps\SDO_attributefilter.htm
 old-project: Nps
 ms.assetid: 7c90abe6-7a01-477d-b44d-6ae3ff1ef588
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ATTRIBUTEFILTER, ATTRIBUTEFILTER enumeration [Network Policy Server], ATTRIBUTE_FILTER_IEEE_802_1x, ATTRIBUTE_FILTER_NONE, ATTRIBUTE_FILTER_VPN_DIALUP, _ATTRIBUTEFILTER, nps.SDO_attributefilter, sdo.attributefilter, sdoias/ATTRIBUTEFILTER, sdoias/ATTRIBUTE_FILTER_IEEE_802_1x, sdoias/ATTRIBUTE_FILTER_NONE, sdoias/ATTRIBUTE_FILTER_VPN_DIALUP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

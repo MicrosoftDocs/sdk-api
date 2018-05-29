@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetRelationshipType
 title: IOpcRelationship::GetRelationshipType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the relationship type.
 old-location: opc\iopcrelationship_getrelationshiptype.htm
 old-project: OPC
 ms.assetid: da832c8e-99e1-452a-90eb-97580f00f003
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetRelationshipType, GetRelationshipType method [Open Packaging Conventions], GetRelationshipType method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetRelationshipType method, IOpcRelationship.GetRelationshipType, IOpcRelationship::GetRelationshipType, msopc/IOpcRelationship::GetRelationshipType, opc.iopcrelationship_getrelationshiptype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HttpSetServiceConfiguration
 title: HttpSetServiceConfiguration function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and sets a configuration record for the HTTP Server API configuration store.
 old-location: http\httpsetserviceconfiguration.htm
 old-project: Http
 ms.assetid: b0a6d442-2ff4-4e00-8301-696fb0864d8c
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HttpServiceConfigIPListenList, HttpServiceConfigSSLCertInfo, HttpServiceConfigSslCcsCertInfo, HttpServiceConfigSslSniCertInfo, HttpServiceConfigTimeout, HttpServiceConfigUrlAclInfo, HttpSetServiceConfiguration, HttpSetServiceConfiguration function [HTTP], _http_httpsetserviceconfiguration, http.httpsetserviceconfiguration, http/HttpSetServiceConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: http.h
 req.include-header: 

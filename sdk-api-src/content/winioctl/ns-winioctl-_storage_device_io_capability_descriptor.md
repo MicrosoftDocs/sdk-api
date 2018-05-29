@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
 title: "_STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: The output buffer for the StorageDeviceIoCapabilityProperty as defined in STORAGE_PROPERTY_ID.
 old-location: fs\storage_device_io_capability_descriptor.htm
 old-project: FileIO
 ms.assetid: E9AAE295-091C-4DF4-9EBD-0B8AD6C48F9C
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure [Files], _STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, fs.storage_device_io_capability_descriptor, winioctl/PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, winioctl/STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

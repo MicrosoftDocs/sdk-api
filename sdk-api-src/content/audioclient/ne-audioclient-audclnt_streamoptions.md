@@ -1,16 +1,16 @@
 ---
 UID: NE:audioclient.AUDCLNT_STREAMOPTIONS
 title: AUDCLNT_STREAMOPTIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values that describe the characteristics of an audio stream.
 old-location: coreaudio\audclnt_streamoptions.htm
 old-project: CoreAudio
 ms.assetid: C9A51FB2-46F5-4F20-B9F2-63EC53CAB3D7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AUDCLNT_STREAMOPTIONS, AUDCLNT_STREAMOPTIONS enumeration [Core Audio], AUDCLNT_STREAMOPTIONS_MATCH_FORMAT, AUDCLNT_STREAMOPTIONS_NONE, AUDCLNT_STREAMOPTIONS_RAW, audioclient/AUDCLNT_STREAMOPTIONS, audioclient/AUDCLNT_STREAMOPTIONS_MATCH_FORMAT, audioclient/AUDCLNT_STREAMOPTIONS_NONE, audioclient/AUDCLNT_STREAMOPTIONS_RAW, coreaudio.audclnt_streamoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: audioclient.h
 req.include-header: 

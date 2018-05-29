@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.SetSuspendState
 title: SetSuspendState function
-author: windows-driver-content
+author: windows-sdk-content
 description: Suspends the system by shutting power down. Depending on the Hibernate parameter, the system either enters a suspend (sleep) state or hibernation (S4).
 old-location: base\setsuspendstate.htm
 old-project: Power
 ms.assetid: 63cb6574-8c0d-4bcb-832c-7088447a5c04
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SetSuspendState, SetSuspendState function, _win32_setsuspendstate, base.setsuspendstate, powrprof/SetSuspendState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

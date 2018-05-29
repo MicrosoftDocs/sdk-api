@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFLocalMFTRegistration
 title: IMFLocalMFTRegistration
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers Media Foundation transforms (MFTs) in the caller's process.
 old-location: mf\imflocalmftregistration.htm
 old-project: medfound
 ms.assetid: e540a93a-ecce-4c5b-a121-b0f868a2af41
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFLocalMFTRegistration, IMFLocalMFTRegistration interface [Media Foundation], IMFLocalMFTRegistration interface [Media Foundation],described, mf.imflocalmftregistration, mfidl/IMFLocalMFTRegistration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredUIConfirmCredentialsA
 title: CredUIConfirmCredentialsA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is called after CredUIPromptForCredentials or CredUICmdLinePromptForCredentials, to confirm the validity of the credential harvested.
 old-location: security\creduiconfirmcredentials.htm
 old-project: SecAuthN
 ms.assetid: 67262844-75f0-4f68-90f6-63f9a6d2b0a1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CredUIConfirmCredentials, CredUIConfirmCredentials function [Security], CredUIConfirmCredentialsA, CredUIConfirmCredentialsW, _cred_creduiconfirmcredentials, security.creduiconfirmcredentials, wincred/CredUIConfirmCredentials, wincred/CredUIConfirmCredentialsA, wincred/CredUIConfirmCredentialsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

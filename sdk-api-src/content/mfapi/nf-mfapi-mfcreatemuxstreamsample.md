@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateMuxStreamSample
 title: MFCreateMuxStreamSample function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IMFSample containing the samples of multiplexed substreams.
 old-location: mf\mfcreatemuxstreamsample.htm
 old-project: medfound
 ms.assetid: D7E7B260-54E0-47F4-9762-ADB06103CDF3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateMuxStreamSample, MFCreateMuxStreamSample function [Media Foundation], mf.mfcreatemuxstreamsample, mfapi/MFCreateMuxStreamSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

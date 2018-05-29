@@ -1,16 +1,16 @@
 ---
 UID: NF:evntprov.EventDescGetTask
 title: EventDescGetTask function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the task from the event descriptor.
 old-location: etw\eventdescgettask_func.htm
 old-project: ETW
 ms.assetid: 5913587d-5c0d-4c50-99d9-8bff266b1c5b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EventDescGetTask, EventDescGetTask function [ETW], base.eventdescgettask_func, etw.eventdescgettask_func, evntprov/EventDescGetTask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

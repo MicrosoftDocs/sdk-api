@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagTOUCHINPUT
 title: tagTOUCHINPUT
-author: windows-driver-content
+author: windows-sdk-content
 description: Encapsulates data for touch input.
 old-location: wintouch\touchinput.htm
 old-project: wintouch
 ms.assetid: fc382759-3a1e-401e-a6a7-1bf209a5434b
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*PTOUCHINPUT, PTOUCHINPUT, PTOUCHINPUT structure pointer [Windows Touch], TOUCHINPUT, TOUCHINPUT structure [Windows Touch], tagTOUCHINPUT, wintouch.touchinput, winuser/PTOUCHINPUT, winuser/TOUCHINPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

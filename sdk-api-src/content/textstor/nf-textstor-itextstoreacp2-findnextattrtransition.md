@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreACP2.FindNextAttrTransition
 title: ITextStoreACP2::FindNextAttrTransition
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the character position where a transition occurs in an attribute value. The specified attribute to check is application-dependent.
 old-location: tsf\itextstoreacp2_findnextattrtransition.htm
 old-project: TSF
 ms.assetid: 8ccad786-64e0-423c-8b8e-c853123828e5
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FindNextAttrTransition, FindNextAttrTransition method [Text Services Framework], FindNextAttrTransition method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],FindNextAttrTransition method, ITextStoreACP2.FindNextAttrTransition, ITextStoreACP2::FindNextAttrTransition, TS_ATTR_FIND_BACKWARDS, TS_ATTR_FIND_WANT_OFFSET, textstor/ITextStoreACP2::FindNextAttrTransition, tsf.itextstoreacp2_findnextattrtransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

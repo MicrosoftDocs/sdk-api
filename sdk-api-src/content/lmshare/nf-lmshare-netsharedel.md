@@ -1,16 +1,16 @@
 ---
 UID: NF:lmshare.NetShareDel
 title: NetShareDel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a share name from a server's list of shared resources, disconnecting all connections to the shared resource.
 old-location: fs\netsharedel.htm
 old-project: NetShare
 ms.assetid: 374b8f81-b3d6-4967-bd4a-ffd3fdc3cf7c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: NetShareDel, NetShareDel function [Files], _win32_netsharedel, fs.netsharedel, lmshare/NetShareDel, netmgmt.netsharedel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h

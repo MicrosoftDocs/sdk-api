@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.PlayEnhMetaFile
 title: PlayEnhMetaFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PlayEnhMetaFile function displays the picture stored in the specified enhanced-format metafile.
 old-location: gdi\playenhmetafile.htm
 old-project: gdi
 ms.assetid: 51e8937b-0c42-49fe-8930-7af303fce788
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PlayEnhMetaFile, PlayEnhMetaFile function [Windows GDI], _win32_PlayEnhMetaFile, gdi.playenhmetafile, wingdi/PlayEnhMetaFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

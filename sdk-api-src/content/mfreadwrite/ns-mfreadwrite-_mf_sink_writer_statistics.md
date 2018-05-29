@@ -1,16 +1,16 @@
 ---
 UID: NS:mfreadwrite._MF_SINK_WRITER_STATISTICS
 title: "_MF_SINK_WRITER_STATISTICS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains statistics about the performance of the sink writer.
 old-location: mf\mf_sink_writer_statistics.htm
 old-project: medfound
 ms.assetid: ff083ae1-9a53-4215-9738-d1776f8d7f9b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_SINK_WRITER_STATISTICS, MF_SINK_WRITER_STATISTICS structure [Media Foundation], _MF_SINK_WRITER_STATISTICS, mf.mf_sink_writer_statistics, mfreadwrite/MF_SINK_WRITER_STATISTICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfreadwrite.h
 req.include-header: 

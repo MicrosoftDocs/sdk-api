@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.ClusterResourceControl
 title: ClusterResourceControl function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates an operation affecting a resource. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clusterresourcecontrol.htm
 old-project: MsCS
 ms.assetid: a98ca55a-6535-48cf-a925-5005baa01b94
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterResourceControl, ClusterResourceControl function [Failover Cluster], _wolf_clusterresourcecontrol, clusapi/ClusterResourceControl, mscs.clusterresourcecontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

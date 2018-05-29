@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.PreFetchCacheLine
 title: PreFetchCacheLine macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates to the processor that a cache line will be needed in the near future.
 old-location: base\prefetchcacheline.htm
 old-project: Sync
 ms.assetid: 112f3acc-e9d4-44c0-8844-1dc8cc1de2c8
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: PF_NON_TEMPORAL_LEVEL_ALL, PF_TEMPORAL_LEVEL_1, PreFetchCacheLine, PreFetchCacheLine macro, base.prefetchcacheline, winnt/PreFetchCacheLine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h

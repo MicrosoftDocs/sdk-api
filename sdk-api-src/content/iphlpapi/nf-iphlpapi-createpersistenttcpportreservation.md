@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.CreatePersistentTcpPortReservation
 title: CreatePersistentTcpPortReservation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
 old-location: iphlp\createpersistenttcpportreservation.htm
 old-project: IpHlp
 ms.assetid: 19DAF828-B0E4-49E2-843D-7350C8083C45
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreatePersistentTcpPortReservation, CreatePersistentTcpPortReservation function [IP Helper], iphlp.createpersistenttcpportreservation, iphlpapi/CreatePersistentTcpPortReservation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tdh.TdhGetDecodingParameter
 title: TdhGetDecodingParameter function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of a decoding parameter.
 old-location: etw\tdhgetdecodingparameter.htm
 old-project: ETW
 ms.assetid: 81aeea7c-fd35-4fa8-af72-804006c22f7b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TdhGetDecodingParameter, TdhGetDecodingParameter function [ETW], etw.tdhgetdecodingparameter, tdh/TdhGetDecodingParameter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.IsTextUnicode
 title: IsTextUnicode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if a buffer is likely to contain a form of Unicode text.
 old-location: intl\istextunicode.htm
 old-project: Intl
 ms.assetid: 47e05b5b-a16b-4957-bc86-ed3cef4968ee
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IS_TEXT_UNICODE_ASCII16, IS_TEXT_UNICODE_BUFFER_TOO_SMALL, IS_TEXT_UNICODE_CONTROLS, IS_TEXT_UNICODE_ILLEGAL_CHARS, IS_TEXT_UNICODE_NOT_ASCII_MASK, IS_TEXT_UNICODE_NOT_UNICODE_MASK, IS_TEXT_UNICODE_NULL_BYTES, IS_TEXT_UNICODE_ODD_LENGTH, IS_TEXT_UNICODE_REVERSE_ASCII16, IS_TEXT_UNICODE_REVERSE_CONTROLS, IS_TEXT_UNICODE_REVERSE_MASK, IS_TEXT_UNICODE_REVERSE_SIGNATURE, IS_TEXT_UNICODE_REVERSE_STATISTICS, IS_TEXT_UNICODE_SIGNATURE, IS_TEXT_UNICODE_STATISTICS, IS_TEXT_UNICODE_UNICODE_MASK, IsTextUnicode, IsTextUnicode function [Internationalization for Windows Applications], _win32_IsTextUnicode, intl.istextunicode, winbase/IsTextUnicode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

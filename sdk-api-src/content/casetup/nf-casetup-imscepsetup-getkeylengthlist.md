@@ -1,16 +1,16 @@
 ---
 UID: NF:casetup.IMSCEPSetup.GetKeyLengthList
 title: IMSCEPSetup::GetKeyLengthList
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the list of key lengths supported by the specified cryptographic service provider (CSP).
 old-location: security\imscepsetup_getkeylengthlist.htm
 old-project: SecCrypto
 ms.assetid: 992619dd-1d59-4033-b3aa-ae32dc9948c2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetKeyLengthList, GetKeyLengthList method [Security], GetKeyLengthList method [Security],IMSCEPSetup interface, IMSCEPSetup interface [Security],GetKeyLengthList method, IMSCEPSetup.GetKeyLengthList, IMSCEPSetup::GetKeyLengthList, casetup/IMSCEPSetup::GetKeyLengthList, security.imscepsetup_getkeylengthlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

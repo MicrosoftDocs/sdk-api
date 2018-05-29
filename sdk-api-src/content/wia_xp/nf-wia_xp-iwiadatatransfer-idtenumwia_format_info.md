@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IWiaDataTransfer.idtEnumWIA_FORMAT_INFO
 title: IWiaDataTransfer::idtEnumWIA_FORMAT_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWiaDataTransfer::idtEnumWIA_FORMAT_INFO method creates a banded transfer implementation of the IEnumWIA_FORMAT_INFO interface.
 old-location: wia\_wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtenumwia_format_info.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtEnumWIA_FORMAT_INFO method, IWiaDataTransfer.idtEnumWIA_FORMAT_INFO, IWiaDataTransfer::idtEnumWIA_FORMAT_INFO, _wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO, idtEnumWIA_FORMAT_INFO, idtEnumWIA_FORMAT_INFO method [WIA], idtEnumWIA_FORMAT_INFO method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtEnumWIA_FORMAT_INFO, wia_xp/IWiaDataTransfer::idtEnumWIA_FORMAT_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

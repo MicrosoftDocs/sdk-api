@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.ISearchFolderItemFactory
 title: ISearchFolderItemFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that create and modify search folders.
 old-location: shell\ISearchFolderItemFactory.htm
 old-project: shell
 ms.assetid: a684b373-6de4-4b4a-bbae-85e1c5a7e04a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISearchFolderItemFactory, ISearchFolderItemFactory interface [Windows Shell], ISearchFolderItemFactory interface [Windows Shell],described, _shell_ISearchFolderItemFactory, shell.ISearchFolderItemFactory, shobjidl_core/ISearchFolderItemFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

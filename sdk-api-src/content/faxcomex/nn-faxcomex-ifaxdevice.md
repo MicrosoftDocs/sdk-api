@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcomex.IFaxDevice
 title: IFaxDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxDevice interface defines a configuration object used by a fax client application to retrieve and set fax device information, and to add and remove fax routing methods associated with a fax device.
 old-location: fax\_mfax_faxdevice_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5nad_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxDevice, IFaxDevice interface [Fax Service], IFaxDevice interface [Fax Service],described, _mfax_faxdevice_cpp, fax._mfax_faxdevice_cpp, faxcomex/IFaxDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl.GetID
 title: ITLegacyCallMediaControl::GetID
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetID method gets the identifier for the device associated with the current call.
 old-location: tapi3\itlegacycallmediacontrol_getid.htm
 old-project: Tapi
 ms.assetid: 7516f929-d782-499b-a9fb-24c44a85aa9e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetID, GetID method [TAPI 2.2], GetID method [TAPI 2.2],ITLegacyCallMediaControl interface, ITLegacyCallMediaControl interface [TAPI 2.2],GetID method, ITLegacyCallMediaControl.GetID, ITLegacyCallMediaControl::GetID, _tapi3_itlegacycallmediacontrol_getid, tapi3.itlegacycallmediacontrol_getid, tapi3if/ITLegacyCallMediaControl::GetID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

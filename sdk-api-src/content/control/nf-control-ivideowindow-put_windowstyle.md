@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IVideoWindow.put_WindowStyle
 title: IVideoWindow::put_WindowStyle
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_WindowStyle method sets the window styles on the video window.
 old-location: dshow\ivideowindow_put_windowstyle.htm
 old-project: DirectShow
 ms.assetid: cd1422d1-16a3-4aae-aadb-772a06173ba3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_WindowStyle method, IVideoWindow.put_WindowStyle, IVideoWindow::put_WindowStyle, IVideoWindowput_WindowStyle, control/IVideoWindow::put_WindowStyle, dshow.ivideowindow_put_windowstyle, put_WindowStyle, put_WindowStyle method [DirectShow], put_WindowStyle method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

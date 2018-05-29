@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.PrepareLogArchive
 title: PrepareLogArchive function
-author: windows-driver-content
+author: windows-sdk-content
 description: Prepares a physical log for archival.
 old-location: fs\preparelogarchive.htm
 old-project: Clfs
 ms.assetid: dfdad56a-7485-4c23-852e-819980ecd5e9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PrepareLogArchive, PrepareLogArchive function [Files], clfsw32/PrepareLogArchive, fs.preparelogarchive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

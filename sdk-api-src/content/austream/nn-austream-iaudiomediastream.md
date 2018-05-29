@@ -1,16 +1,16 @@
 ---
 UID: NN:austream.IAudioMediaStream
 title: IAudioMediaStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated.
 old-location: dshow\iaudiomediastream.htm
 old-project: DirectShow
 ms.assetid: b4098876-6c11-4cc6-8b6d-16edc02316f3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAudioMediaStream, IAudioMediaStream interface [DirectShow], IAudioMediaStream interface [DirectShow],described, IAudioMediaStreamInterface, austream/IAudioMediaStream, dshow.iaudiomediastream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: austream.h
 req.include-header: 

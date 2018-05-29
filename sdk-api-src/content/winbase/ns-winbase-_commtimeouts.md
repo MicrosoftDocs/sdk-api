@@ -1,16 +1,16 @@
 ---
 UID: NS:winbase._COMMTIMEOUTS
 title: "_COMMTIMEOUTS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the time-out parameters for a communications device.
 old-location: base\commtimeouts_str.htm
 old-project: DevIO
 ms.assetid: 259aa110-b2c3-4583-a3f9-805a42025a81
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: "*LPCOMMTIMEOUTS, COMMTIMEOUTS, COMMTIMEOUTS structure, LPCOMMTIMEOUTS, LPCOMMTIMEOUTS structure pointer, _COMMTIMEOUTS, _win32_commtimeouts_str, base.commtimeouts_str, winbase/COMMTIMEOUTS, winbase/LPCOMMTIMEOUTS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winbase.h
 req.include-header: Windows.h

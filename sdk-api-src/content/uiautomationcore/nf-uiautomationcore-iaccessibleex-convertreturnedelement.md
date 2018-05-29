@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IAccessibleEx.ConvertReturnedElement
 title: IAccessibleEx::ConvertReturnedElement
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IAccessibleEx interface of an element returned as a property value.
 old-location: winauto\uiauto_IAccessibleEx_ConvertReturnedElement.htm
 old-project: WinAuto
 ms.assetid: eafda7ed-b18c-4d52-9d1c-a9d1a2d5dfd1
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ConvertReturnedElement, ConvertReturnedElement method [Windows Accessibility], ConvertReturnedElement method [Windows Accessibility],IAccessibleEx interface, IAccessibleEx interface [Windows Accessibility],ConvertReturnedElement method, IAccessibleEx.ConvertReturnedElement, IAccessibleEx::ConvertReturnedElement, uiauto.uiauto_IAccessibleEx_ConvertReturnedElement, uiauto_IAccessibleEx_ConvertReturnedElement, uiautomationcore/IAccessibleEx::ConvertReturnedElement, winauto.uiauto_IAccessibleEx_ConvertReturnedElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

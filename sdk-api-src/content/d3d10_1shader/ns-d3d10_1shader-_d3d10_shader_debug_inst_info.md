@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_INST_INFO
 title: "_D3D10_SHADER_DEBUG_INST_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains instruction data.
 old-location: direct3d10\d3d10_shader_debug_inst_info.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_inst_info.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: D3D10_SHADER_DEBUG_INST_INFO, D3D10_SHADER_DEBUG_INST_INFO structure [Direct3D 10], _D3D10_SHADER_DEBUG_INST_INFO, be8000a0-f3a0-c087-b23f-aeedd69d29d6, d3d10_1shader/D3D10_SHADER_DEBUG_INST_INFO, direct3d10.d3d10_shader_debug_inst_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h

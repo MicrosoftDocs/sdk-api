@@ -1,16 +1,16 @@
 ---
 UID: NE:certenroll.KeyIdentifierHashAlgorithm
 title: KeyIdentifierHashAlgorithm
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the algorithm used to hash the public key in a certificate request.
 old-location: security\keyidentifierhashalgorithm_enum.htm
 old-project: SecCertEnroll
 ms.assetid: 80e3c730-880f-4cfa-921f-3bb88cf827f2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: KeyIdentifierHashAlgorithm, KeyIdentifierHashAlgorithm enumeration [Security], SKIHashCapiSha1, SKIHashDefault, SKIHashSha1, SKIHashSha256, certenroll/KeyIdentifierHashAlgorithm, certenroll/SKIHashCapiSha1, certenroll/SKIHashDefault, certenroll/SKIHashSha1, certenroll/SKIHashSha256, security.keyidentifierhashalgorithm_enum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

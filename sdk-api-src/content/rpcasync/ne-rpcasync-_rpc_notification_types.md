@@ -1,16 +1,16 @@
 ---
 UID: NE:rpcasync._RPC_NOTIFICATION_TYPES
 title: "_RPC_NOTIFICATION_TYPES"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RPC_NOTIFICATION_TYPES enumerated type contains values that specify the method of asynchronous notification that a client program will use.
 old-location: rpc\rpc_notification_types.htm
 old-project: Rpc
 ms.assetid: 3c6fcba5-ea74-47ee-8fb9-6393d1ea62fc
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RPC_NOTIFICATION_TYPES, RPC_NOTIFICATION_TYPES enumeration [RPC], RpcNotificationTypeApc, RpcNotificationTypeCallback, RpcNotificationTypeEvent, RpcNotificationTypeHwnd, RpcNotificationTypeIoc, RpcNotificationTypeNone, _RPC_NOTIFICATION_TYPES, _rpc_rpc_notification_types, rpc.rpc_notification_types, rpcasync/RPC_NOTIFICATION_TYPES, rpcasync/RpcNotificationTypeApc, rpcasync/RpcNotificationTypeCallback, rpcasync/RpcNotificationTypeEvent, rpcasync/RpcNotificationTypeHwnd, rpcasync/RpcNotificationTypeIoc, rpcasync/RpcNotificationTypeNone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: rpcasync.h
 req.include-header: Rpc.h

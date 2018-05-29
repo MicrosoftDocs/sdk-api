@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SecPkgContext_DceInfo
 title: "_SecPkgContext_DceInfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SecPkgContext_DceInfo structure contains authorization data used by DCE services. The QueryContextAttributes (General) function uses this structure.
 old-location: security\secpkgcontext_dceinfo.htm
 old-project: SecAuthN
 ms.assetid: 490688d0-efdd-4a40-88b9-eb53ff592d2a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgContext_DceInfo, PSecPkgContext_DceInfo, PSecPkgContext_DceInfo structure pointer [Security], SecPkgContext_DceInfo, SecPkgContext_DceInfo structure [Security], _SecPkgContext_DceInfo, _ssp_secpkgcontext_dceinfo, security.secpkgcontext_dceinfo, sspi/PSecPkgContext_DceInfo, sspi/SecPkgContext_DceInfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:vds._VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
 title: "_VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information about file systems that are supported for formatting volumes.
 old-location: base\vds_file_system_format_support_prop.htm
 old-project: VDS
 ms.assetid: 0a0863d3-a97f-4be5-bba4-15d6bbbf03a5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP structure pointer, VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP structure, _VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, base.vds_file_system_format_support_prop, vds/PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP, vds/VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 

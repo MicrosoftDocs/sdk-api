@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderSetUserArray.SetUserArray
 title: ICredentialProviderSetUserArray::SetUserArray
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the system during the initialization of a logon or credential UI to retrieve the set of users to show in that UI.
 old-location: shell\ICredentialProviderSetUserArray_SetUserArray.htm
 old-project: shell
 ms.assetid: 14A9DFBD-7B44-4983-8B02-5880017B9B04
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICredentialProviderSetUserArray interface [Windows Shell],SetUserArray method, ICredentialProviderSetUserArray.SetUserArray, ICredentialProviderSetUserArray::SetUserArray, SetUserArray, SetUserArray method [Windows Shell], SetUserArray method [Windows Shell],ICredentialProviderSetUserArray interface, credentialprovider/ICredentialProviderSetUserArray::SetUserArray, shell.ICredentialProviderSetUserArray_SetUserArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

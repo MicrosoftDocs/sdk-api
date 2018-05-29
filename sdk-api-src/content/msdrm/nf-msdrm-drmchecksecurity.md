@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMCheckSecurity
 title: DRMCheckSecurity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns S_OK for any level of the security check being run.
 old-location: rm\drmchecksecurity.htm
 old-project: AdRms_Sdk
 ms.assetid: 8c0ea50b-ba7c-4cbc-9e1d-4089995374f8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMCheckSecurity, DRMCheckSecurity function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMCheckSecurity, rm.drmchecksecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

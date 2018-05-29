@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_PARAMETER_DESCRIPTION
 title: "_WS_PARAMETER_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The index of the parameters in the incoming/outgoing messages field descriptions.
 old-location: wsw\ws_parameter_description.htm
 old-project: wsw
 ms.assetid: 357ac313-7ad2-411f-802e-d08ecf648710
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_PARAMETER_DESCRIPTION, WS_PARAMETER_DESCRIPTION structure [Web Services for Windows], _WS_PARAMETER_DESCRIPTION, webservices/WS_PARAMETER_DESCRIPTION, wsw.ws_parameter_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

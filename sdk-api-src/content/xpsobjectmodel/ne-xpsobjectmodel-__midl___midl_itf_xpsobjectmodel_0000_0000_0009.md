@@ -1,16 +1,16 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0009
 title: "__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0009"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the color type used by the XPS_COLOR structure.
 old-location: xps\xps_color_type.htm
 old-project: printdocs
 ms.assetid: 995576a6-ccca-4c0d-8346-2155801a2fbc
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: XPS_COLOR_TYPE, XPS_COLOR_TYPE enumeration [XPS Documents and Packaging], XPS_COLOR_TYPE_CONTEXT, XPS_COLOR_TYPE_SCRGB, XPS_COLOR_TYPE_SRGB, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0009, xps.xps_color_type, xpsobjectmodel/XPS_COLOR_TYPE, xpsobjectmodel/XPS_COLOR_TYPE_CONTEXT, xpsobjectmodel/XPS_COLOR_TYPE_SCRGB, xpsobjectmodel/XPS_COLOR_TYPE_SRGB
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: xpsobjectmodel.h
 req.include-header: 

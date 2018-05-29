@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FLOATOBJ_SetFloat
 title: FLOATOBJ_SetFloat function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FLOATOBJ_SetFloat function assigns the value of type FLOATL to the FLOATOBJ.
 old-location: display\floatobj_setfloat.htm
 old-project: display
 ms.assetid: ba2c33fa-9489-482d-b27e-79537425cc4b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FLOATOBJ_SetFloat, FLOATOBJ_SetFloat function [Display Devices], display.floatobj_setfloat, gdifncs_3bf0c118-feea-48f1-8e20-d3b43408a860.xml, winddi/FLOATOBJ_SetFloat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

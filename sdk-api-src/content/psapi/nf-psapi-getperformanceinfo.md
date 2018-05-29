@@ -1,16 +1,16 @@
 ---
 UID: NF:psapi.GetPerformanceInfo
 title: GetPerformanceInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the performance values contained in the PERFORMANCE_INFORMATION structure.
 old-location: psapi\getperformanceinfo.htm
 old-project: psapi
 ms.assetid: 21655278-49da-4e63-a4f9-0ee9f6179f4a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetPerformanceInfo, GetPerformanceInfo function [PSAPI], K32GetPerformanceInfo, _win32_getperformanceinfo, base.getperformanceinfo, psapi.getperformanceinfo, psapi/GetPerformanceInfo, psapi/K32GetPerformanceInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: psapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:roerrorapi.IsErrorPropagationEnabled
 title: IsErrorPropagationEnabled function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the CoreApplication.UnhandledErrorDetected event occurs for the errors that are returned by the delegate registered as a callback function for a Windows Runtime API event or the completion of an asynchronous method.
 old-location: winrt\iserrorpropagationenabled.htm
 old-project: WinRT
 ms.assetid: 9F2DBD9C-5562-43F1-B3C4-475BB0000364
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IsErrorPropagationEnabled, IsErrorPropagationEnabled function [Windows Runtime], roerrorapi/IsErrorPropagationEnabled, winrt.iserrorpropagationenabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 

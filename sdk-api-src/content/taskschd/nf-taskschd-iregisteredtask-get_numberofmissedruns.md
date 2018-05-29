@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_NumberOfMissedRuns
 title: IRegisteredTask::get_NumberOfMissedRuns
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of times the registered task has missed a scheduled run.
 old-location: taskschd\iregisteredtask_numberofmissedruns.htm
 old-project: TaskSchd
 ms.assetid: 8f5b5471-edfa-45e6-b556-ba12c0721aed
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],NumberOfMissedRuns property, IRegisteredTask.NumberOfMissedRuns, IRegisteredTask.get_NumberOfMissedRuns, IRegisteredTask::NumberOfMissedRuns, IRegisteredTask::get_NumberOfMissedRuns, NumberOfMissedRuns property [Task Scheduler], NumberOfMissedRuns property [Task Scheduler],IRegisteredTask interface, get_NumberOfMissedRuns, taskschd.iregisteredtask_numberofmissedruns, taskschd/IRegisteredTask::NumberOfMissedRuns, taskschd/IRegisteredTask::get_NumberOfMissedRuns
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.GetFullPathNameA
 title: GetFullPathNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the full path and file name of the specified file.
 old-location: fs\getfullpathname.htm
 old-project: FileIO
 ms.assetid: 4cf59ee3-4065-4096-a2b5-fbed20aa5caa
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetFullPathName, GetFullPathName function [Files], GetFullPathNameA, GetFullPathNameW, _win32_getfullpathname, base.getfullpathname, fileapi/GetFullPathName, fileapi/GetFullPathNameA, fileapi/GetFullPathNameW, fs.getfullpathname, winbase/GetFullPathName, winbase/GetFullPathNameA, winbase/GetFullPathNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

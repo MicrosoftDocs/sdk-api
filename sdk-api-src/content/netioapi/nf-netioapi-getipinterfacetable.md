@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.GetIpInterfaceTable
 title: GetIpInterfaceTable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IP interface entries on the local computer.
 old-location: iphlp\getipinterfacetable.htm
 old-project: IpHlp
 ms.assetid: 09f2bbff-3281-41ae-878f-61c5afa20ec5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpInterfaceTable, GetIpInterfaceTable function [IP Helper], iphlp.getipinterfacetable, netioapi/GetIpInterfaceTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

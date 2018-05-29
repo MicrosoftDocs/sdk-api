@@ -1,16 +1,16 @@
 ---
 UID: NF:interactioncontext.ProcessBufferedPacketsInteractionContext
 title: ProcessBufferedPacketsInteractionContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Process buffered packets at the end of a pointer input frame.
 old-location: input_intcontext\processbufferedpacketsinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: 52bbeae9-70ab-403c-a035-de2acc2e0599
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: ProcessBufferedPacketsInteractionContext, ProcessBufferedPacketsInteractionContext function, input_intcontext.processbufferedpacketsinteractioncontext, interactioncontext.processbufferedpacketsinteractioncontext, interactioncontext/ProcessBufferedPacketsInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcMgmtEpEltInqDone
 title: RpcMgmtEpEltInqDone function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcMgmtEpEltInqDone function deletes the inquiry context for viewing the elements in an endpoint map.
 old-location: rpc\rpcmgmtepeltinqdone.htm
 old-project: Rpc
 ms.assetid: 7a0aac99-8829-4720-a388-da88d015d596
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcMgmtEpEltInqDone, RpcMgmtEpEltInqDone function [RPC], _rpc_rpcmgmtepeltinqdone, rpc.rpcmgmtepeltinqdone, rpcdce/RpcMgmtEpEltInqDone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

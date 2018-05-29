@@ -1,16 +1,16 @@
 ---
 UID: NS:netioapi._MIB_IPNET_TABLE2
 title: "_MIB_IPNET_TABLE2"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a table of neighbor IP address entries.
 old-location: mib\mib_ipnet_table2.htm
 old-project: MIB
 ms.assetid: 39b87d81-69ce-4f9b-8af6-5e0c5051657c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_IPNET_TABLE2, MIB_IPNET_TABLE2, MIB_IPNET_TABLE2 structure [MIB], PMIB_IPNET_TABLE2, PMIB_IPNET_TABLE2 structure pointer [MIB], _MIB_IPNET_TABLE2, mib.mib_ipnet_table2, netioapi/MIB_IPNET_TABLE2, netioapi/PMIB_IPNET_TABLE2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

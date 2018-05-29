@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.put_RunOnLastWeekOfMonth
 title: IMonthlyDOWTrigger::put_RunOnLastWeekOfMonth
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the task runs on the last week of the month.
 old-location: taskschd\imonthlydowtrigger_runonlastweekofmonth.htm
 old-project: TaskSchd
 ms.assetid: a45d3207-6202-4aee-9ef7-c257884fcfed
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IMonthlyDOWTrigger interface [Task Scheduler],RunOnLastWeekOfMonth property, IMonthlyDOWTrigger.RunOnLastWeekOfMonth, IMonthlyDOWTrigger.put_RunOnLastWeekOfMonth, IMonthlyDOWTrigger::RunOnLastWeekOfMonth, IMonthlyDOWTrigger::get_RunOnLastWeekOfMonth, IMonthlyDOWTrigger::put_RunOnLastWeekOfMonth, RunOnLastWeekOfMonth property [Task Scheduler], RunOnLastWeekOfMonth property [Task Scheduler],IMonthlyDOWTrigger interface, put_RunOnLastWeekOfMonth, taskschd.imonthlydowtrigger_runonlastweekofmonth, taskschd/IMonthlyDOWTrigger::RunOnLastWeekOfMonth, taskschd/IMonthlyDOWTrigger::get_RunOnLastWeekOfMonth, taskschd/IMonthlyDOWTrigger::put_RunOnLastWeekOfMonth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

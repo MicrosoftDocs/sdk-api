@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ICspAlgorithms
 title: ICspAlgorithms
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICspAlgorithms interface defines the following methods and properties that manage a collection of ICspAlgorithm objects.
 old-location: security\icspalgorithms.htm
 old-project: SecCertEnroll
 ms.assetid: bbf8cff4-b1b2-480e-8c30-eb34166db143
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICspAlgorithms, ICspAlgorithms interface [Security], ICspAlgorithms interface [Security],described, certenroll/ICspAlgorithms, security.icspalgorithms
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

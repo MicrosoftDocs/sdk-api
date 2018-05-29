@@ -1,16 +1,16 @@
 ---
 UID: NN:structuredquerycondition.ICondition
 title: ICondition
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for retrieving information about a search condition.
 old-location: search\_search_ICondition.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\icondition.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ICondition, ICondition interface [search], ICondition interface [search],described, _search_ICondition, search._search_ICondition, structuredquerycondition/ICondition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: structuredquerycondition.h
 req.include-header: 

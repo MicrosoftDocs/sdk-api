@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_FillColor
 title: IStylesProvider::get_FillColor
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the fill color of an element in a document.
 old-location: winauto\uiauto_istylesprovider_fillcolor.htm
 old-project: WinAuto
 ms.assetid: E5E7DA9D-02AD-4802-8B7E-6177CFC2925E
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: FillColor property [Windows Accessibility], FillColor property [Windows Accessibility],IStylesProvider interface, IStylesProvider interface [Windows Accessibility],FillColor property, IStylesProvider.FillColor, IStylesProvider.get_FillColor, IStylesProvider::FillColor, IStylesProvider::get_FillColor, get_FillColor, uiautomationcore/IStylesProvider::FillColor, uiautomationcore/IStylesProvider::get_FillColor, winauto.uiauto_istylesprovider_fillcolor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

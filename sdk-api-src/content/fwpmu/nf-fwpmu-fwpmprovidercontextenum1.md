@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextEnum1
 title: FwpmProviderContextEnum1 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the next page of results from the provider context enumerator.
 old-location: fwp\fwpmprovidercontextenum1_func.htm
 old-project: FWP
 ms.assetid: 97a6e562-0423-438d-ab21-48c0f0830610
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmProviderContextEnum1, FwpmProviderContextEnum1 function [Filtering], fwp.fwpmprovidercontextenum1_func, fwpmu/FwpmProviderContextEnum1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

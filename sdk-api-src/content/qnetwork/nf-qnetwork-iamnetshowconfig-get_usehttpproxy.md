@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_UseHTTPProxy
 title: IAMNetShowConfig::get_UseHTTPProxy
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_UseHTTPProxy method queries whether the filter should use the HTTP proxy server.
 old-location: dshow\iamnetshowconfig_get_usehttpproxy.htm
 old-project: DirectShow
 ms.assetid: 4d51676a-bf14-408c-bc8b-331ce11fc237
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_UseHTTPProxy method, IAMNetShowConfig.get_UseHTTPProxy, IAMNetShowConfig::get_UseHTTPProxy, IAMNetShowConfigget_UseHTTPProxy, dshow.iamnetshowconfig_get_usehttpproxy, get_UseHTTPProxy, get_UseHTTPProxy method [DirectShow], get_UseHTTPProxy method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_UseHTTPProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

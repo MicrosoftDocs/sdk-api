@@ -1,16 +1,16 @@
 ---
 UID: NE:inked.InkEditStatus
 title: InkEditStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether the InkEdit control is idle, collecting ink, or recognizing ink.
 old-location: tablet\inkeditstatus.htm
 old-project: tablet
 ms.assetid: 94c3a863-4c8a-4471-be1b-b4d5f8ded374
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 94c3a863-4c8a-4471-be1b-b4d5f8ded374, IES_Collecting, IES_Idle, IES_Recognizing, InkEditStatus, InkEditStatus enumeration [Tablet PC], inked/IES_Collecting, inked/IES_Idle, inked/IES_Recognizing, inked/InkEditStatus, tablet.inkeditstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: inked.h
 req.include-header: 

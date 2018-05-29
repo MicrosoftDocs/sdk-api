@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemQualifierSet.Get
 title: IWbemQualifierSet::Get
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemQualifierSet::Get method gets the specified named qualifier, if found.
 old-location: wmi\iwbemqualifierset_get.htm
 old-project: WmiSdk
 ms.assetid: f4663cd1-0dc9-4021-918e-d5eda1648429
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: Get, Get method [Windows Management Instrumentation], Get method [Windows Management Instrumentation],IWbemQualifierSet interface, IWbemQualifierSet interface [Windows Management Instrumentation],Get method, IWbemQualifierSet.Get, IWbemQualifierSet::Get, _hmm_iwbemqualifierset_get, wbemcli/IWbemQualifierSet::Get, wmi.iwbemqualifierset_get
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetCustomObjectEnumerator
 title: IXpsSignature::GetCustomObjectEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to an IOpcSignatureCustomObjectEnumerator interface, which enumerates the custom objects of the signature.
 old-location: xps\ixpssignature_getcustomobjectenumerator.htm
 old-project: printdocs
 ms.assetid: 98a656c7-714b-4b59-9289-e78dee795eaa
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetCustomObjectEnumerator, GetCustomObjectEnumerator method [XPS Documents and Packaging], GetCustomObjectEnumerator method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetCustomObjectEnumerator method, IXpsSignature.GetCustomObjectEnumerator, IXpsSignature::GetCustomObjectEnumerator, xps.ixpssignature_getcustomobjectenumerator, xpsdigitalsignature/IXpsSignature::GetCustomObjectEnumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

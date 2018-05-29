@@ -1,16 +1,16 @@
 ---
 UID: NN:tsvirtualchannels.IWTSPluginServiceProvider
 title: IWTSPluginServiceProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a way for Dynamic Virtual Channel plug-ins to query various Remote Desktop Client services.
 old-location: termserv\iwtspluginserviceprovider.htm
 old-project: TermServ
 ms.assetid: 8baf8d8b-95a0-46bd-81ea-e99a7db45cdc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSPluginServiceProvider, IWTSPluginServiceProvider interface [Remote Desktop Services], IWTSPluginServiceProvider interface [Remote Desktop Services],described, termserv.iwtspluginserviceprovider, tsvirtualchannels/IWTSPluginServiceProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsvirtualchannels.h
 req.include-header: 

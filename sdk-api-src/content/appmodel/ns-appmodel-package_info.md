@@ -1,16 +1,16 @@
 ---
 UID: NS:appmodel.PACKAGE_INFO
 title: PACKAGE_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents package identification information that includes the package identifier, full name, and install location.
 old-location: appxpkg\package_info.htm
 old-project: appxpkg
 ms.assetid: 0DDE00D1-9C5F-4F2B-8110-A92B1FFA1B64
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: PACKAGE_INFO, PACKAGE_INFO structure [App packaging and management], appmodel/PACKAGE_INFO, appxpkg.package_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: appmodel.h
 req.include-header: 

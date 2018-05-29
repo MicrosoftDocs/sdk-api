@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.CompleteAuthToken
 title: CompleteAuthToken function
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes an authentication token.
 old-location: security\completeauthtoken.htm
 old-project: SecAuthN
 ms.assetid: a404d0a3-d1ea-4708-87d7-2d216e9a5f5f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CompleteAuthToken, CompleteAuthToken function [Security], _ssp_completeauthtoken, security.completeauthtoken, sspi/CompleteAuthToken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

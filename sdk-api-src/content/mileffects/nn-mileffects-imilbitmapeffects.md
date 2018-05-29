@@ -1,16 +1,16 @@
 ---
 UID: NN:mileffects.IMILBitmapEffects
 title: IMILBitmapEffects
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that define an enumeration of effects.
 old-location: wibe\_wibe_imilbitmapeffects.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\imilbitmapeffects.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: IMILBitmapEffects, IMILBitmapEffects interface [WPF Bitmap Effects], IMILBitmapEffects interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffects, mileffects/IMILBitmapEffects, wibe._wibe_imilbitmapeffects
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mileffects.h
 req.include-header: 

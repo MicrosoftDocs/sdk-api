@@ -1,16 +1,16 @@
 ---
 UID: NS:dwrite.DWRITE_OVERHANG_METRICS
 title: DWRITE_OVERHANG_METRICS
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates how much any visible DIPs (device independent pixels) overshoot each side of the layout or inline objects.
 old-location: directwrite\dwrite_overhang_metrics.htm
 old-project: DirectWrite
 ms.assetid: a285f06b-a4d0-4ebe-80f5-157e59bfba31
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_OVERHANG_METRICS, DWRITE_OVERHANG_METRICS structure [Direct Write], PDWRITE_OVERHANG_METRICS, PDWRITE_OVERHANG_METRICS structure pointer [Direct Write], directwrite.dwrite_overhang_metrics, dwrite/DWRITE_OVERHANG_METRICS, dwrite/PDWRITE_OVERHANG_METRICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

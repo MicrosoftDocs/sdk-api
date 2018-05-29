@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.GetEntry
 title: IGPMMigrationTable::GetEntry
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetEntry method gets the entry in the migration table for a specified source field.
 old-location: gpmc\igpmmigrationtable_getentry.htm
 old-project: GPMC
 ms.assetid: 3d6985ab-dbea-446c-9666-5fa19b97b40c
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMMigrationTable class [GPMC],GetEntry method, GetEntry, GetEntry method [GPMC], GetEntry method [GPMC],GPMMigrationTable class, GetEntry method [GPMC],IGPMMigrationTable interface, IGPMMigrationTable interface [GPMC],GetEntry method, IGPMMigrationTable.GetEntry, IGPMMigrationTable::GetEntry, gpmc.igpmmigrationtable_getentry, gpmgmt/IGPMMigrationTable::GetEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

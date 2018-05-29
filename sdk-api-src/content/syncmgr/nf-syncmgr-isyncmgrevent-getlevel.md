@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetLevel
 title: ISyncMgrEvent::GetLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the log level of the event.
 old-location: shell\ISyncMgrEvent_GetLevel.htm
 old-project: shell
 ms.assetid: 2937dc05-9576-43b4-9fbe-6c151dffcace
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLevel, GetLevel method [Windows Shell], GetLevel method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetLevel method, ISyncMgrEvent.GetLevel, ISyncMgrEvent::GetLevel, _shell_ISyncMgrEvent_GetLevel, shell.ISyncMgrEvent_GetLevel, syncmgr/ISyncMgrEvent::GetLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

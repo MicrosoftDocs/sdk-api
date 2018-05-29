@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetFillBrush
 title: IXpsOMPath::GetFillBrush
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the resolved IXpsOMBrush interface that contains the fill brush for the path.
 old-location: xps\ixpsompath_getfillbrush.htm
 old-project: printdocs
 ms.assetid: fc121659-c04f-433a-aaf7-ab7ecd1fd763
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetFillBrush, GetFillBrush method [XPS Documents and Packaging], GetFillBrush method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetFillBrush method, IXpsOMPath.GetFillBrush, IXpsOMPath::GetFillBrush, xps.ixpsompath_getfillbrush, xpsobjectmodel/IXpsOMPath::GetFillBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

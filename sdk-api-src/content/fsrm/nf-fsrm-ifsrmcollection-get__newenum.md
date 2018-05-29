@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrm.IFsrmCollection.get__NewEnum
 title: IFsrmCollection::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IUnknown pointer of a new IEnumVARIANT enumeration for the items in the collection.
 old-location: fsrm\ifsrmcollection__newenum.htm
 old-project: Fsrm
 ms.assetid: 0973b046-e350-44df-a02d-40b0ba272638
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],_NewEnum property, IFsrmCollection._NewEnum, IFsrmCollection.get__NewEnum, IFsrmCollection::_NewEnum, IFsrmCollection::get__NewEnum, _NewEnum property [File Server Resource Manager], _NewEnum property [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection__newenum, fsrm.ifsrmcollection__newenum, fsrm/IFsrmCollection::_NewEnum, fsrm/IFsrmCollection::get__NewEnum, get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h

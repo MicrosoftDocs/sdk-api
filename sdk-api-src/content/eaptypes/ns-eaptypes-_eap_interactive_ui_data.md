@@ -1,16 +1,16 @@
 ---
 UID: NS:eaptypes._EAP_INTERACTIVE_UI_DATA
 title: "_EAP_INTERACTIVE_UI_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains configuration information for interactive UI components raised on an EAP supplicant.
 old-location: eaphost\eap_interactive_ui_data.htm
 old-project: EAPHost
 ms.assetid: 68141611-4a1c-409e-8ed2-3d21a76640c3
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EAP_INTERACTIVE_UI_DATA, EAP_INTERACTIVE_UI_DATA structure [EAPHost], EAP_INTERACTIVE_UI_DATA_VERSION, _EAP_INTERACTIVE_UI_DATA, eaphost.eap_interactive_ui_data, eaptypes/EAP_INTERACTIVE_UI_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

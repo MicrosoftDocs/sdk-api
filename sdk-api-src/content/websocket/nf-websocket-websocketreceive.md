@@ -1,16 +1,16 @@
 ---
 UID: NF:websocket.WebSocketReceive
 title: WebSocketReceive function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a receive operation to the protocol component operation queue.
 old-location: websock\websocketreceive.htm
 old-project: WebSock
 ms.assetid: 6285c6fc-1f7a-45f3-ba28-94992e73693e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WebSocketReceive, WebSocketReceive function [Websocket Protocol Component API], websock.websocketreceive, websocket/WebSocketReceive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: websocket.h
 req.include-header: 

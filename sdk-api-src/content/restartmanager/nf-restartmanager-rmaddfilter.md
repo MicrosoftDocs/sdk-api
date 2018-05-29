@@ -1,16 +1,16 @@
 ---
 UID: NF:restartmanager.RmAddFilter
 title: RmAddFilter function
-author: windows-driver-content
+author: windows-sdk-content
 description: Modifies the shutdown or restart actions that are applied to an application or service.
 old-location: rstmgr\rmaddfilter.htm
 old-project: RstMgr
 ms.assetid: 63d1d1d2-d7b7-4d6c-99f9-b849229e171f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RmAddFilter, RmAddFilter function [Restart Mgr], restartmanager/RmAddFilter, rstmgr.rmaddfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: restartmanager.h
 req.include-header: 

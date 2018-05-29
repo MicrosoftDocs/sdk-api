@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardGetStatusChangeA
 title: SCardGetStatusChangeA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Blocks execution until the current availability of the cards in a specific set of readers changes.
 old-location: security\scardgetstatuschange.htm
 old-project: SecAuthN
 ms.assetid: 94776f3d-e8f0-4062-a766-2cf28cbfd050
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCardGetStatusChange, SCardGetStatusChange function [Security], SCardGetStatusChangeA, SCardGetStatusChangeW, _smart_scardgetstatuschange, security.scardgetstatuschange, winscard/SCardGetStatusChange, winscard/SCardGetStatusChangeA, winscard/SCardGetStatusChangeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

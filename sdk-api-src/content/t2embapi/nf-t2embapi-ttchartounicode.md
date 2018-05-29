@@ -1,16 +1,16 @@
 ---
 UID: NF:t2embapi.TTCharToUnicode
 title: TTCharToUnicode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an array of 8-bit character code values to 16-bit Unicode values.
 old-location: gdi\ttchartounicode.htm
 old-project: gdi
 ms.assetid: b5ed9429-31fa-4f78-8fc3-aeb5cb1540d1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: TTCharToUnicode, TTCharToUnicode function [Windows GDI], _win32_BytesToUnicode, gdi.ttchartounicode, t2embapi/TTCharToUnicode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: t2embapi.h
 req.include-header: 

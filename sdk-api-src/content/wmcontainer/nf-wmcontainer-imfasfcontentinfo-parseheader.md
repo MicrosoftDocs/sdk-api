@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.ParseHeader
 title: IMFASFContentInfo::ParseHeader
-author: windows-driver-content
+author: windows-sdk-content
 description: Parses the information in an ASF header and uses that information to set values in the ContentInfo object. You can pass the entire header in a single buffer or send it in several pieces.
 old-location: mf\imfasfcontentinfo_parseheader.htm
 old-project: medfound
 ms.assetid: 149e2514-74e5-403b-925f-53a17dbbcb64
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 149e2514-74e5-403b-925f-53a17dbbcb64, IMFASFContentInfo interface [Media Foundation],ParseHeader method, IMFASFContentInfo.ParseHeader, IMFASFContentInfo::ParseHeader, ParseHeader, ParseHeader method [Media Foundation], ParseHeader method [Media Foundation],IMFASFContentInfo interface, mf.imfasfcontentinfo_parseheader, wmcontainer/IMFASFContentInfo::ParseHeader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

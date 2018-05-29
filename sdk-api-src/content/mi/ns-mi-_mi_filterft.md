@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_FilterFT
 title: "_MI_FilterFT"
-author: windows-driver-content
+author: windows-sdk-content
 description: A support structure used in the MI_Filter structure. Use the functions with the name prefix &#0034;MI_Filter_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_filterft.htm
 old-project: wmi_v2
 ms.assetid: f090b05e-e99b-47aa-8458-8e2cf9031ac7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_FilterFT, MI_FilterFT structure [Windows Management Infrastructure (MI)], _MI_FilterFT, mi/MI_FilterFT, wmi_v2.mi_filterft
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

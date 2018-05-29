@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleCreate
 title: OleCreate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an embedded object identified by a CLSID. You use it typically to implement the menu item that allows the end user to insert a new object.
 old-location: com\olecreate.htm
 old-project: com
 ms.assetid: 00b7edd2-8e2e-4e0a-91a6-d966f6c8d456
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleCreate, OleCreate function [COM], _ole_OleCreate, com.olecreate, ole/OleCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: Ole2.h

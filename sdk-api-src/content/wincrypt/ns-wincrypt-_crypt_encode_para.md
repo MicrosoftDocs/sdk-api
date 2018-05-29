@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_ENCODE_PARA
 title: "_CRYPT_ENCODE_PARA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by the CryptEncodeObjectEx function to provide access to memory allocation and memory freeing callback functions.
 old-location: security\crypt_encode_para.htm
 old-project: SecCrypto
 ms.assetid: 330af6ac-f1db-4cee-81fd-d3c2c341d493
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_ENCODE_PARA, CRYPT_ENCODE_PARA, CRYPT_ENCODE_PARA structure [Security], PCRYPT_ENCODE_PARA, PCRYPT_ENCODE_PARA structure pointer [Security], _CRYPT_ENCODE_PARA, _crypto2_crypt_encode_para, security.crypt_encode_para, wincrypt/CRYPT_ENCODE_PARA, wincrypt/PCRYPT_ENCODE_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

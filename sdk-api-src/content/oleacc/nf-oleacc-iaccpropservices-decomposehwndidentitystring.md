@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccPropServices.DecomposeHwndIdentityString
 title: IAccPropServices::DecomposeHwndIdentityString
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this method to determine the HWND, object ID, and child ID for the accessible element identified by the identity string.
 old-location: winauto\iaccpropservices_iaccpropservices__decomposehwndidentitystring.htm
 old-project: WinAuto
 ms.assetid: b14932a1-7585-49e4-80eb-498cf48796ee
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: DecomposeHwndIdentityString, DecomposeHwndIdentityString method [Windows Accessibility], DecomposeHwndIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],DecomposeHwndIdentityString method, IAccPropServices.DecomposeHwndIdentityString, IAccPropServices::DecomposeHwndIdentityString, _msaa_IAccPropServices_DecomposeHwndIdentityString, msaa.iaccpropservices_iaccpropservices__decomposehwndidentitystring, oleacc/IAccPropServices::DecomposeHwndIdentityString, winauto.iaccpropservices_iaccpropservices__decomposehwndidentitystring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.

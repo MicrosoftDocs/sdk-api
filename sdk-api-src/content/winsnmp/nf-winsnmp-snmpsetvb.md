@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpSetVb
 title: SnmpSetVb function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinSNMP SnmpSetVb function changes variable binding entries in a variable bindings list. This function also appends new variable binding entries to an existing variable bindings list.
 old-location: snmp\snmpsetvb.htm
 old-project: SNMP
 ms.assetid: 65d962bd-f4d7-4cf4-9b24-a7678e669e24
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpSetVb, SnmpSetVb function [SNMP], _snmp_snmpsetvb, snmp.snmpsetvb, winsnmp/SnmpSetVb
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

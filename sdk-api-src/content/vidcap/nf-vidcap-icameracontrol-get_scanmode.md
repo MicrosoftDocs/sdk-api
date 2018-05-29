@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.ICameraControl.get_ScanMode
 title: ICameraControl::get_ScanMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_ScanMode method returns the current scanning mode (interlaced or progressive).
 old-location: dshow\icameracontrol_get_scanmode.htm
 old-project: DirectShow
 ms.assetid: 09a75986-9c5d-44fc-af62-297481854574
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICameraControl interface [DirectShow],get_ScanMode method, ICameraControl.get_ScanMode, ICameraControl::get_ScanMode, ICameraControlget_ScanMode, dshow.icameracontrol_get_scanmode, get_ScanMode, get_ScanMode method [DirectShow], get_ScanMode method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_ScanMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

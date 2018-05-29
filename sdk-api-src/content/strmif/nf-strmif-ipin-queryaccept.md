@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IPin.QueryAccept
 title: IPin::QueryAccept
-author: windows-driver-content
+author: windows-sdk-content
 description: The QueryAccept method determines whether the pin accepts a specified media type.
 old-location: dshow\ipin_queryaccept.htm
 old-project: DirectShow
 ms.assetid: ed11eeef-464b-4a75-958b-2bc6dbc7af04
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IPin interface [DirectShow],QueryAccept method, IPin.QueryAccept, IPin::QueryAccept, IPinQueryAccept, QueryAccept, QueryAccept method [DirectShow], QueryAccept method [DirectShow],IPin interface, dshow.ipin_queryaccept, strmif/IPin::QueryAccept
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

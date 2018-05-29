@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpReceiveResponse
 title: WinHttpReceiveResponse function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinHttpReceiveResponse function waits to receive the response to an HTTP request initiated by WinHttpSendRequest.
 old-location: http\winhttpreceiveresponse.htm
 old-project: WinHttp
 ms.assetid: 0b79e73b-9f6a-42eb-9108-1ba142ad7c48
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WinHttpReceiveResponse, WinHttpReceiveResponse function [WinHTTP], http.winhttpreceiveresponse, winhttp.winhttpreceiveresponse_function, winhttp/WinHttpReceiveResponse
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

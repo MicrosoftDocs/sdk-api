@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.ILGetNext
 title: ILGetNext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the next SHITEMID structure in an ITEMIDLIST structure.
 old-location: shell\ILGetNext.htm
 old-project: shell
 ms.assetid: 0b58cc30-fe1a-487c-8f24-f1de54f7730f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ILGetNext, ILGetNext function [Windows Shell], _win32_ILGetNext, shell.ILGetNext, shlobj_core/ILGetNext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

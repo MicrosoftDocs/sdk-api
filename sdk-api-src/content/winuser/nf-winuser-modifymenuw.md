@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.ModifyMenuW
 title: ModifyMenuW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes an existing menu item.
 old-location: menurc\modifymenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\modifymenu.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MF_BITMAP, MF_BYCOMMAND, MF_BYPOSITION, MF_CHECKED, MF_DISABLED, MF_ENABLED, MF_GRAYED, MF_MENUBARBREAK, MF_MENUBREAK, MF_OWNERDRAW, MF_POPUP, MF_SEPARATOR, MF_STRING, MF_UNCHECKED, ModifyMenu, ModifyMenu function [Menus and Other Resources], ModifyMenuA, ModifyMenuW, _win32_ModifyMenu, _win32_modifymenu_cpp, menurc.modifymenu, winui._win32_modifymenu, winuser/ModifyMenu, winuser/ModifyMenuA, winuser/ModifyMenuW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

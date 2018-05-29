@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.Int8Add
 title: Int8Add function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds two values of type INT8.
 old-location: shell\Int8Add.htm
 old-project: shell
 ms.assetid: 2b9e9c0b-ddf4-4a95-a743-004a7575bbfa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Int8Add, Int8Add function [Windows Shell], intsafe/Int8Add, shell.Int8Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

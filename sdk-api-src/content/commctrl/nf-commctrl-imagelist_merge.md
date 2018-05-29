@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ImageList_Merge
 title: ImageList_Merge function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new image by combining two existing images. The function also creates a new image list in which to store the image.
 old-location: controls\ImageList_Merge.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_merge.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ImageList_Merge, ImageList_Merge function [Windows Controls], _win32_ImageList_Merge, _win32_ImageList_Merge_cpp, commctrl/ImageList_Merge, controls.ImageList_Merge, controls._win32_ImageList_Merge
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

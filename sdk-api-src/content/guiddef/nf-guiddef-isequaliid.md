@@ -1,16 +1,16 @@
 ---
 UID: NF:guiddef.IsEqualIID
 title: IsEqualIID macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether two interface identifiers are equal.
 old-location: com\isequaliid.htm
 old-project: com
 ms.assetid: 4753a5f2-78a0-4622-bf4c-fd19731fa9e4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsEqualIID, IsEqualIID function [COM], _com_IsEqualIID, com.isequaliid, guiddef/IsEqualIID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: guiddef.h
 req.include-header: 

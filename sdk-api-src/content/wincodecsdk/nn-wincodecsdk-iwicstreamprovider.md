@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodecsdk.IWICStreamProvider
 title: IWICStreamProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods for a stream provider.
 old-location: wic\_wic_codec_iwicstreamprovider.htm
 old-project: wic
 ms.assetid: fdcaf668-a5c3-4852-8bc9-5535f0756592
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICStreamProvider, IWICStreamProvider interface [Windows Imaging Component], IWICStreamProvider interface [Windows Imaging Component],described, _wic_codec_iwicstreamprovider, wic._wic_codec_iwicstreamprovider, wincodecsdk/IWICStreamProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodecsdk.h
 req.include-header: 

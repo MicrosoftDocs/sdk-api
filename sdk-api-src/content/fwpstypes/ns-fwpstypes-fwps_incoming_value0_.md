@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpstypes.FWPS_INCOMING_VALUE0_
 title: FWPS_INCOMING_VALUE0_
-author: windows-driver-content
+author: windows-sdk-content
 description: The FWPS_INCOMING_VALUE0 structure defines an individual data value.Note  FWPS_INCOMING_VALUE0 is a specific version of FWPS_INCOMING_VALUE.
 old-location: netvista\fwps_incoming_value0.htm
 old-project: netvista
 ms.assetid: 94a81a93-7c92-4c0a-9ac7-c2085175c1a7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FWPS_INCOMING_VALUE0, FWPS_INCOMING_VALUE0 structure [Network Drivers Starting with Windows Vista], FWPS_INCOMING_VALUE0_, fwpstypes/FWPS_INCOMING_VALUE0, netvista.fwps_incoming_value0, wfp_ref_3_struct_3_fwps_F-O_de0ecafa-7ade-4473-a04e-3fb924c22db0.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SetSelectionMark
 title: ListView_SetSelectionMark macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the selection mark in a list-view control. You can use this macro or send the LVM_SETSELECTIONMARK message explicitly.
 old-location: controls\ListView_SetSelectionMark.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setselectionmark.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_SetSelectionMark, ListView_SetSelectionMark macro [Windows Controls], _win32_ListView_SetSelectionMark, _win32_ListView_SetSelectionMark_cpp, commctrl/ListView_SetSelectionMark, controls.ListView_SetSelectionMark, controls._win32_ListView_SetSelectionMark
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

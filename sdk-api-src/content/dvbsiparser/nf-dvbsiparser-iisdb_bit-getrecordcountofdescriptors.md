@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetRecordCountOfDescriptors
 title: IISDB_BIT::GetRecordCountOfDescriptors
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of descriptors for subtables in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getrecordcountofdescriptors.htm
 old-project: mstv
 ms.assetid: 08df6f74-dbeb-4d32-8b0f-4ec88d35ff36
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IISDB_BIT.GetRecordCountOfDescriptors, IISDB_BIT::GetRecordCountOfDescriptors, dvbsiparser/IISDB_BIT::GetRecordCountOfDescriptors, mstv.iisdb_bit_getrecordcountofdescriptors
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

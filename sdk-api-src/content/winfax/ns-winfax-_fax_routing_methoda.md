@@ -1,16 +1,16 @@
 ---
 UID: NS:winfax._FAX_ROUTING_METHODA
 title: "_FAX_ROUTING_METHODA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The FAX_ROUTING_METHOD structure contains information about one fax routing method, as it pertains to one fax device.
 old-location: fax\_mfax_fax_routing_method_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7w1e.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PFAX_ROUTING_METHODA, FAX_ROUTING_METHOD, FAX_ROUTING_METHOD structure [Fax Service], FAX_ROUTING_METHODA, FAX_ROUTING_METHODW, PFAX_ROUTING_METHOD, PFAX_ROUTING_METHOD structure pointer [Fax Service], _FAX_ROUTING_METHODA, _mfax_fax_routing_method_str, fax._mfax_fax_routing_method_str, winfax/FAX_ROUTING_METHOD, winfax/FAX_ROUTING_METHODA, winfax/FAX_ROUTING_METHODW, winfax/PFAX_ROUTING_METHOD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winfax.h
 req.include-header: 

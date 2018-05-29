@@ -1,16 +1,16 @@
 ---
 UID: NF:wpcapi.IWPCWebSettings.GetSettings
 title: IWPCWebSettings::GetSettings
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the web restrictions settings.
 old-location: parcon\iwpcwebsettings_getsettings.htm
 old-project: parcon
 ms.assetid: bf0c1a54-ac36-45f4-8005-1847dc00bf7f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetSettings, GetSettings method, GetSettings method,IWPCWebSettings interface, IWPCWebSettings interface,GetSettings method, IWPCWebSettings.GetSettings, IWPCWebSettings::GetSettings, WPCFLAG_WEB_SETTING_DOWNLOADSBLOCKED, WPCFLAG_WEB_SETTING_NOTBLOCKED, parcon.iwpcwebsettings_getsettings, wpcapi/IWPCWebSettings::GetSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManEnumerator.get_AtEndOfStream
 title: IWSManEnumerator::get_AtEndOfStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that the end of items in the IWSManEnumerator object has been reached by calls to IWSManEnumerator::ReadItem.
 old-location: winrm\iwsmanenumerator_atendofstream.htm
 old-project: WinRM
 ms.assetid: d80028b0-04ff-4c6d-90f5-1c81141a956c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AtEndOfStream property [Windows Remote Management], AtEndOfStream property [Windows Remote Management],IWSManEnumerator interface, IWSManEnumerator interface [Windows Remote Management],AtEndOfStream property, IWSManEnumerator.AtEndOfStream, IWSManEnumerator.get_AtEndOfStream, IWSManEnumerator::AtEndOfStream, IWSManEnumerator::get_AtEndOfStream, get_AtEndOfStream, winrm.iwsmanenumerator_atendofstream, wsmandisp/IWSManEnumerator::AtEndOfStream, wsmandisp/IWSManEnumerator::get_AtEndOfStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

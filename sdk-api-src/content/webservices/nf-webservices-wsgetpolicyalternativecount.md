@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsGetPolicyAlternativeCount
 title: WsGetPolicyAlternativeCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of alternatives available in the policy object.
 old-location: wsw\wsgetpolicyalternativecount.htm
 old-project: wsw
 ms.assetid: 2d3ac397-07a0-45c4-84b4-0f4806a324bc
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsGetPolicyAlternativeCount, WsGetPolicyAlternativeCount function [Web Services for Windows], webservices/WsGetPolicyAlternativeCount, wsw.wsgetpolicyalternativecount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

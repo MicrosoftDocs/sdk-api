@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_KEY_CONTEXT
 title: "_CERT_KEY_CONTEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains data associated with a CERT_KEY_CONTEXT_PROP_ID property.
 old-location: security\cert_key_context.htm
 old-project: SecCrypto
 ms.assetid: 796adb9c-ec38-41d0-8f8b-ea1053e9f9f0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_KEY_CONTEXT, AT_KEYEXCHANGE, AT_SIGNATURE, CERT_KEY_CONTEXT, CERT_KEY_CONTEXT structure [Security], CERT_NCRYPT_KEY_SPEC, PCERT_KEY_CONTEXT, PCERT_KEY_CONTEXT structure pointer [Security], _CERT_KEY_CONTEXT, _crypto2_cert_key_context, security.cert_key_context, wincrypt/CERT_KEY_CONTEXT, wincrypt/PCERT_KEY_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

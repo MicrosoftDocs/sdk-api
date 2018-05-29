@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamEnd
 title: AVIStreamEnd macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamEnd macro calculates the sample associated with the end of a stream.
 old-location: multimedia\avistreamend.htm
 old-project: Multimedia
 ms.assetid: 9c132953-1b24-4a5f-b2e9-b5569a579696
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamEnd, AVIStreamEnd macro [Windows Multimedia], _win32_AVIStreamEnd, multimedia.avistreamend, vfw/AVIStreamEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

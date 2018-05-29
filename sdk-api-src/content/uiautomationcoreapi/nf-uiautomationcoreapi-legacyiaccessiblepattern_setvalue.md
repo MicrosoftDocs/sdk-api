@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.LegacyIAccessiblePattern_SetValue
 title: LegacyIAccessiblePattern_SetValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Microsoft Active Accessibility value property for the node.
 old-location: winauto\uiauto_LegacyIAccessiblePattern_SetValue.htm
 old-project: WinAuto
 ms.assetid: ce3fc72b-ddef-4add-a9ff-42763af7ec48
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: LegacyIAccessiblePattern_SetValue, LegacyIAccessiblePattern_SetValue function [Windows Accessibility], uiauto.uiauto_LegacyIAccessiblePattern_SetValue, uiauto_LegacyIAccessiblePattern_SetValue, uiautomationcoreapi/LegacyIAccessiblePattern_SetValue, winauto.uiauto_LegacyIAccessiblePattern_SetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

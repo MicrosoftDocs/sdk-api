@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICSeqCompressFrame
 title: ICSeqCompressFrame function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICSeqCompressFrame function compresses one frame in a sequence of frames.
 old-location: multimedia\icseqcompressframe.htm
 old-project: Multimedia
 ms.assetid: 6159e455-1e1a-4aa5-9d75-53cd2af2656a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICSeqCompressFrame, ICSeqCompressFrame function [Windows Multimedia], _win32_ICSeqCompressFrame, multimedia.icseqcompressframe, vfw/ICSeqCompressFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:bits1_5.__MIDL_IBackgroundCopyJob2_0004
 title: "__MIDL_IBackgroundCopyJob2_0004"
-author: windows-driver-content
+author: windows-sdk-content
 description: The BG_AUTH_CREDENTIALS_UNION union identifies the credentials to use for the authentication scheme specified in the BG_AUTH_CREDENTIALS structure.
 old-location: bits\bg_auth_credentials_union.htm
 old-project: Bits
 ms.assetid: c16c616c-f4cb-483d-8a15-6ff9d45762ae
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BG_AUTH_CREDENTIALS_UNION, BG_AUTH_CREDENTIALS_UNION union [BITS], __MIDL_IBackgroundCopyJob2_0004, _drz_bg_auth_credentials_union, bits.bg_auth_credentials_union, bits1_5/BG_AUTH_CREDENTIALS_UNION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bits1_5.h
 req.include-header: Bits.h

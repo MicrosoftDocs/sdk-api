@@ -1,16 +1,16 @@
 ---
 UID: NF:amstream.IDirectDrawMediaSample.LockMediaSamplePointer
 title: IDirectDrawMediaSample::LockMediaSamplePointer
-author: windows-driver-content
+author: windows-sdk-content
 description: The LockMediaSamplePointer method locks the surface that the sample represents.
 old-location: dshow\idirectdrawmediasample_lockmediasamplepointer.htm
 old-project: DirectShow
 ms.assetid: f711a82d-7560-43f8-8689-7f2fca77ae64
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDirectDrawMediaSample interface [DirectShow],LockMediaSamplePointer method, IDirectDrawMediaSample.LockMediaSamplePointer, IDirectDrawMediaSample::LockMediaSamplePointer, IDirectDrawMediaSampleLockMediaSamplePointer, LockMediaSamplePointer, LockMediaSamplePointer method [DirectShow], LockMediaSamplePointer method [DirectShow],IDirectDrawMediaSample interface, amstream/IDirectDrawMediaSample::LockMediaSamplePointer, dshow.idirectdrawmediasample_lockmediasamplepointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

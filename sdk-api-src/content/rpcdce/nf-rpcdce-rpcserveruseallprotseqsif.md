@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcServerUseAllProtseqsIf
 title: RpcServerUseAllProtseqsIf function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcServerUseAllProtseqsIf function tells the RPC run-time library to use all specified protocol sequences and endpoints in the interface specification for receiving remote procedure calls.
 old-location: rpc\rpcserveruseallprotseqsif.htm
 old-project: Rpc
 ms.assetid: 6f3f7726-3e12-4b0b-8454-25f06a29b245
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcServerUseAllProtseqsIf, RpcServerUseAllProtseqsIf function [RPC], _rpc_rpcserveruseallprotseqsif, rpc.rpcserveruseallprotseqsif, rpcdce/RpcServerUseAllProtseqsIf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

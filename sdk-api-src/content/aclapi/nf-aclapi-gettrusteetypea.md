@@ -1,16 +1,16 @@
 ---
 UID: NF:aclapi.GetTrusteeTypeA
 title: GetTrusteeTypeA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the trustee type from the specified TRUSTEE structure. This value indicates whether the trustee is a user, a group, or the trustee type is unknown.
 old-location: security\gettrusteetype.htm
 old-project: SecAuthZ
 ms.assetid: 19777929-43cf-45ea-8283-e42bf9ce8d7a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetTrusteeType, GetTrusteeType function [Security], GetTrusteeTypeA, GetTrusteeTypeW, _win32_gettrusteetype, aclapi/GetTrusteeType, aclapi/GetTrusteeTypeA, aclapi/GetTrusteeTypeW, security.gettrusteetype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 

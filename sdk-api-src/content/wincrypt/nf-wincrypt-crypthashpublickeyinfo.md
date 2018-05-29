@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptHashPublicKeyInfo
 title: CryptHashPublicKeyInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Encodes the public key information in a CERT_PUBLIC_KEY_INFO structure and computes the hash of the encoded bytes.
 old-location: security\crypthashpublickeyinfo.htm
 old-project: SecCrypto
 ms.assetid: b0c419b7-ebb3-42c6-9f6a-59b55a2db1b2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptHashPublicKeyInfo, CryptHashPublicKeyInfo function [Security], _crypto2_crypthashpublickeyinfo, security.crypthashpublickeyinfo, wincrypt/CryptHashPublicKeyInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

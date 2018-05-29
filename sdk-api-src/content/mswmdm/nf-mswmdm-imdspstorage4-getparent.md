@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPStorage4.GetParent
 title: IMDSPStorage4::GetParent
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetParent method retrieves the parent of the current storage.
 old-location: wmdm\imdspstorage4_getparent.htm
 old-project: WMDM
 ms.assetid: 7b8264ef-9288-4196-9b92-a54a25aad795
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetParent, GetParent method [windows Media Device Manager], GetParent method [windows Media Device Manager],IMDSPStorage4 interface, IMDSPStorage4 interface [windows Media Device Manager],GetParent method, IMDSPStorage4.GetParent, IMDSPStorage4::GetParent, IMDSPStorage4GetParent, mswmdm/IMDSPStorage4::GetParent, wmdm.imdspstorage4_getparent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

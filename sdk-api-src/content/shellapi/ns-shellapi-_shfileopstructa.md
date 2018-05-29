@@ -1,16 +1,16 @@
 ---
 UID: NS:shellapi._SHFILEOPSTRUCTA
 title: "_SHFILEOPSTRUCTA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that the SHFileOperation function uses to perform file operations.
 old-location: shell\SHFILEOPSTRUCT.htm
 old-project: shell
 ms.assetid: 590d87c2-0c75-44b9-a9b5-f7c37728512b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPSHFILEOPSTRUCTA, FOF_ALLOWUNDO, FOF_CONFIRMMOUSE, FOF_FILESONLY, FOF_MULTIDESTFILES, FOF_NOCONFIRMATION, FOF_NOCONFIRMMKDIR, FOF_NOCOPYSECURITYATTRIBS, FOF_NOERRORUI, FOF_NORECURSEREPARSE, FOF_NORECURSION, FOF_NO_CONNECTED_ELEMENTS, FOF_NO_UI, FOF_RENAMEONCOLLISION, FOF_SILENT, FOF_SIMPLEPROGRESS, FOF_WANTMAPPINGHANDLE, FOF_WANTNUKEWARNING, FO_COPY, FO_DELETE, FO_MOVE, FO_RENAME, LPSHFILEOPSTRUCT, LPSHFILEOPSTRUCT structure pointer [Windows Shell], SHFILEOPSTRUCT, SHFILEOPSTRUCT structure [Windows Shell], SHFILEOPSTRUCTA, _SHFILEOPSTRUCTA, _win32_SHFILEOPSTRUCT, shell.SHFILEOPSTRUCT, shellapi/LPSHFILEOPSTRUCT, shellapi/SHFILEOPSTRUCT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shellapi.h
 req.include-header: 

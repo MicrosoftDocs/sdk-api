@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10_1.ID3D10Device1.GetFeatureLevel
 title: ID3D10Device1::GetFeatureLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the feature level of the hardware device.
 old-location: direct3d10\id3d10device1_getfeaturelevel.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device1_getfeaturelevel.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetFeatureLevel, GetFeatureLevel method [Direct3D 10], GetFeatureLevel method [Direct3D 10],ID3D10Device1 interface, ID3D10Device1 interface [Direct3D 10],GetFeatureLevel method, ID3D10Device1.GetFeatureLevel, ID3D10Device1::GetFeatureLevel, b022958c-4dfb-b20b-1514-f13fbfb0fd46, d3d10_1/ID3D10Device1::GetFeatureLevel, direct3d10.id3d10device1_getfeaturelevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10_1.h
 req.include-header: 

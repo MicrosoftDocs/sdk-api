@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_SectorType
 title: IRawCDImageTrackInfo::get_SectorType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the type of data provided for the sectors in this track. For more detail on the possible sector types, see IMAPI_CD_SECTOR_TYPE.
 old-location: imapi\irawcdimagetrackinfo_get_sectortype.htm
 old-project: imapi
 ms.assetid: fbec6c4b-dd0e-46c3-9e46-97b8f98438b3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_SectorType method, IRawCDImageTrackInfo.get_SectorType, IRawCDImageTrackInfo::get_SectorType, get_SectorType, get_SectorType method [IMAPI], get_SectorType method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_sectortype, imapi2/IRawCDImageTrackInfo::get_SectorType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

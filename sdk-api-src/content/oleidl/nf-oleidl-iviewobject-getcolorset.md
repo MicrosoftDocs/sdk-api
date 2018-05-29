@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IViewObject.GetColorSet
 title: IViewObject::GetColorSet
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the logical palette that the object will use for drawing in its IViewObject::Draw method with the corresponding parameters.
 old-location: com\iviewobject_getcolorset.htm
 old-project: com
 ms.assetid: 68454266-ca31-44ec-8847-4d47001d9849
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetColorSet, GetColorSet method [COM], GetColorSet method [COM],IViewObject interface, IViewObject interface [COM],GetColorSet method, IViewObject.GetColorSet, IViewObject::GetColorSet, _ole_iviewobject_getcolorset, com.iviewobject_getcolorset, oleidl/IViewObject::GetColorSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

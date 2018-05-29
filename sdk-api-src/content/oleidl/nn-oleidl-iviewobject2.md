@@ -1,16 +1,16 @@
 ---
 UID: NN:oleidl.IViewObject2
 title: IViewObject2
-author: windows-driver-content
+author: windows-sdk-content
 description: An extension to the IViewObject interface which returns the size of the drawing for a given view of an object. You can prevent the object from being run if it isn't already running by calling this method instead of IOleObject::GetExtent.
 old-location: com\iviewobject2.htm
 old-project: com
 ms.assetid: b150ca4b-c53c-4bcb-85fa-461f9fa8b63b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IViewObject2, IViewObject2 interface [COM], IViewObject2 interface [COM],described, _ole_iviewobject2, com.iviewobject2, oleidl/IViewObject2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

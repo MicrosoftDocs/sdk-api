@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetTargetInfo
 title: ISettingsEngine::GetTargetInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current offline target for the engine.
 old-location: smi\isettingsengine_gettargetinfo.htm
 old-project: SMI
 ms.assetid: 2e14644b-84bc-48eb-8d8c-d6290db72dea
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetTargetInfo, GetTargetInfo method [SMI], GetTargetInfo method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetTargetInfo method, ISettingsEngine.GetTargetInfo, ISettingsEngine::GetTargetInfo, smi.isettingsengine_gettargetinfo, wcmconfig/ISettingsEngine::GetTargetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

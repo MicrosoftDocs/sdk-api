@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.AbortPath
 title: AbortPath function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AbortPath function closes and discards any paths in the specified device context.
 old-location: gdi\abortpath.htm
 old-project: gdi
 ms.assetid: 49299a11-910b-40e0-b02e-80a244cfc978
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AbortPath, AbortPath function [Windows GDI], _win32_AbortPath, gdi.abortpath, wingdi/AbortPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

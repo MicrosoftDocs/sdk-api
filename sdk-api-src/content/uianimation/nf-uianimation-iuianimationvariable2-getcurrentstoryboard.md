@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetCurrentStoryboard
 title: IUIAnimationVariable2::GetCurrentStoryboard
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the active storyboard for the animation variable.
 old-location: uianimation\iuianimationvariable2_getcurrentstoryboard.htm
 old-project: UIAnimation
 ms.assetid: 7A9B4A84-94E4-4B6C-B2FF-0A0A70397D21
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCurrentStoryboard, GetCurrentStoryboard method [Windows Animation], GetCurrentStoryboard method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetCurrentStoryboard method, IUIAnimationVariable2.GetCurrentStoryboard, IUIAnimationVariable2::GetCurrentStoryboard, uianimation.iuianimationvariable2_getcurrentstoryboard, uianimation/IUIAnimationVariable2::GetCurrentStoryboard
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

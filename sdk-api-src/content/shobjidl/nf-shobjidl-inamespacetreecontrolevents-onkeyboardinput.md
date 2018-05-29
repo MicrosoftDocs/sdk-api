@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnKeyboardInput
 title: INameSpaceTreeControlEvents::OnKeyboardInput
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the user presses a key on the keyboard.
 old-location: shell\INameSpaceTreeControlEvents_OnKeyboardInput.htm
 old-project: shell
 ms.assetid: b5034847-cba9-4ebe-8578-c933234396e2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnKeyboardInput method, INameSpaceTreeControlEvents.OnKeyboardInput, INameSpaceTreeControlEvents::OnKeyboardInput, OnKeyboardInput, OnKeyboardInput method [Windows Shell], OnKeyboardInput method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnKeyboardInput, shell.INameSpaceTreeControlEvents_OnKeyboardInput, shobjidl/INameSpaceTreeControlEvents::OnKeyboardInput
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiInstallProductA
 title: MsiInstallProductA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Installs or uninstalls a product.
 old-location: setup\msiinstallproduct.htm
 old-project: Msi
 ms.assetid: ec8d6710-ecfe-432c-ba1d-2e3532a25988
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiInstallProduct, MsiInstallProduct function, MsiInstallProductA, MsiInstallProductW, _msi_msiinstallproduct, msi/MsiInstallProduct, msi/MsiInstallProductA, msi/MsiInstallProductW, setup.msiinstallproduct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

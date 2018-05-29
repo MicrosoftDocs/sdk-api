@@ -1,16 +1,16 @@
 ---
 UID: NS:ws2bth._BTH_SET_SERVICE
 title: "_BTH_SET_SERVICE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides service information for the specified Bluetooth service.
 old-location: bluetooth\bth_set_service.htm
 old-project: Bluetooth
 ms.assetid: 66b5474d-ea21-4ae4-9297-9740f1bc9ecb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PBTHNS_SETBLOB, *PBTH_SET_SERVICE, BTHNS_SETBLOB, BTH_SET_SERVICE, BTH_SET_SERVICE structure [Bluetooth], PBTH_SET_SERVICE, PBTH_SET_SERVICE structure pointer [Bluetooth], _BTH_SET_SERVICE, _bth_bth_set_service, bluetooth.bth_set_service, ws2bth/BTH_SET_SERVICE, ws2bth/PBTH_SET_SERVICE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2bth.h
 req.include-header: 

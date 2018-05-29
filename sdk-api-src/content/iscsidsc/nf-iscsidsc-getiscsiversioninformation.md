@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.GetIScsiVersionInformation
 title: GetIScsiVersionInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: GetIscsiVersionInformation function retrieves information about the initiator version.
 old-location: iscsidisc\getiscsiversioninformation.htm
 old-project: iSCSIDisc
 ms.assetid: b1b17aa4-1aa8-440e-a9d8-f11c03e48afc
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetIScsiVersionInformation, GetIscsiVersionInformation, GetIscsiVersionInformation function [iSCSI Discovery Library API], iscsidisc.getiscsiversioninformation, iscsidsc/GetIscsiVersionInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12DebugDevice
 title: ID3D12DebugDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface represents a graphics device for debugging.
 old-location: direct3d12\id3d12debugdevice.htm
 old-project: direct3d12
 ms.assetid: 6FD77F14-E260-4DBB-8434-664DE1F6DE39
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12DebugDevice, ID3D12DebugDevice interface, ID3D12DebugDevice interface,described, d3d12sdklayers/ID3D12DebugDevice, direct3d12.id3d12debugdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12sdklayers.h
 req.include-header: 

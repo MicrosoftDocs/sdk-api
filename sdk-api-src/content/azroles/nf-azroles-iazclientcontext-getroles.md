@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzClientContext.GetRoles
 title: IAzClientContext::GetRoles
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the roles for the client context.
 old-location: security\iazclientcontext_getroles.htm
 old-project: SecAuthZ
 ms.assetid: 753506cc-ed44-4795-90e5-c76010181d8a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzClientContext object [Security],GetRoles method, GetRoles, GetRoles method [Security], GetRoles method [Security],AzClientContext object, GetRoles method [Security],IAzClientContext interface, IAzClientContext interface [Security],GetRoles method, IAzClientContext.GetRoles, IAzClientContext::GetRoles, azroles/IAzClientContext::GetRoles, security.iazclientcontext_getroles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

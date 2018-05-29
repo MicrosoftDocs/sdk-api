@@ -1,16 +1,16 @@
 ---
 UID: NS:nb30._NCB
 title: "_NCB"
-author: windows-driver-content
+author: windows-sdk-content
 description: The NCB structure represents a network control block.
 old-location: netbios\ncb.htm
 old-project: NetBIOS
 ms.assetid: e3fcca1c-8057-41c4-80a5-d1e67920d88c
-ms.author: windowsdriverdev
-ms.date: 5/2/2018
+ms.author: windowssdkdev
+ms.date: 05/02/2018
 ms.keywords: "*PNCB, NCB, NCB structure [NetBIOS], PNCB, PNCB structure pointer [NetBIOS], _NCB, nb30/NCB, nb30/PNCB, netbios.ncb"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: nb30.h
 req.include-header: 

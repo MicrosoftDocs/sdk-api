@@ -1,16 +1,16 @@
 ---
 UID: NF:prsht.PropSheet_ShowWizButtons
 title: PropSheet_ShowWizButtons macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Show or hide buttons in a wizard. You can use this macro or send the PSM_SHOWWIZBUTTONS message explicitly.
 old-location: controls\PropSheet_ShowWizButtons.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_showwizbuttons.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSWIZB_BACK, PSWIZB_CANCEL, PSWIZB_FINISH, PSWIZB_NEXT, PSWIZB_RESTORE, PSWIZB_SHOW, PropSheet_ShowWizButtons, PropSheet_ShowWizButtons macro [Windows Controls], _shell_PropSheet_ShowWizButtons, _shell_PropSheet_ShowWizButtons_cpp, controls.PropSheet_ShowWizButtons, controls._shell_PropSheet_ShowWizButtons, prsht/PropSheet_ShowWizButtons
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

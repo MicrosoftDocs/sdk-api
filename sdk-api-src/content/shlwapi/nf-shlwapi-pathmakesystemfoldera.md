@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathMakeSystemFolderA
 title: PathMakeSystemFolderA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gives an existing folder the proper attributes to become a system folder.
 old-location: shell\PathMakeSystemFolder.htm
 old-project: shell
 ms.assetid: 5b0faeb8-f8ae-481b-b5b2-cae9efe638e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathMakeSystemFolder, PathMakeSystemFolder function [Windows Shell], PathMakeSystemFolderA, PathMakeSystemFolderW, _win32_PathMakeSystemFolder, shell.PathMakeSystemFolder, shlwapi/PathMakeSystemFolder, shlwapi/PathMakeSystemFolderA, shlwapi/PathMakeSystemFolderW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

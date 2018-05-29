@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.put_BlockUnrated
 title: IMSVidStreamBufferSource::put_BlockUnrated
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_BlockUnrated method specifies whether to block unrated content.
 old-location: mstv\imsvidstreambuffersource_put_blockunrated.htm
 old-project: mstv
 ms.assetid: 9dd59b87-708b-4003-9575-54a02b97c272
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],put_BlockUnrated method, IMSVidStreamBufferSource.put_BlockUnrated, IMSVidStreamBufferSource::put_BlockUnrated, IMSVidStreamBufferSourceput_BlockUnrated, mstv.imsvidstreambuffersource_put_blockunrated, put_BlockUnrated, put_BlockUnrated method [Microsoft TV Technologies], put_BlockUnrated method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, segment/IMSVidStreamBufferSource::put_BlockUnrated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

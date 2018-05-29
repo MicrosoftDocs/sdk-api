@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDVB_SIT.GetNextTable
 title: IDVB_SIT::GetNextTable
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit_getnexttable.htm
 old-project: mstv
 ms.assetid: e5a23ec2-8eff-42cb-abe2-bf4447406e8c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetNextTable method, IDVB_SIT.GetNextTable, IDVB_SIT::GetNextTable, IDVB_SITGetNextTable, dvbsiparser/IDVB_SIT::GetNextTable, mstv.idvb_sit_getnexttable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

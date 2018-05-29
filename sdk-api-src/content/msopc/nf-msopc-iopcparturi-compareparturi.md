@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcPartUri.ComparePartUri
 title: IOpcPartUri::ComparePartUri
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an integer that indicates whether the URIs represented by the current part URI object and a specified part URI object are equivalent.
 old-location: opc\iopcparturi_compareparturi.htm
 old-project: OPC
 ms.assetid: b97890f8-dc9d-494f-82f9-3d32c09f5d67
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: ComparePartUri, ComparePartUri method [Open Packaging Conventions], ComparePartUri method [Open Packaging Conventions],IOpcPartUri interface, IOpcPartUri interface [Open Packaging Conventions],ComparePartUri method, IOpcPartUri.ComparePartUri, IOpcPartUri::ComparePartUri, msopc/IOpcPartUri::ComparePartUri, opc.iopcparturi_compareparturi
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

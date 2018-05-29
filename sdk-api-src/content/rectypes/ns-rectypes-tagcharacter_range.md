@@ -1,16 +1,16 @@
 ---
 UID: NS:rectypes.tagCHARACTER_RANGE
 title: tagCHARACTER_RANGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a range of Unicode points (characters).
 old-location: tablet\character_range.htm
 old-project: tablet
 ms.assetid: 51d13adf-170e-4172-b752-c9dac5a96fa5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PCHARACTER_RANGE, 51d13adf-170e-4172-b752-c9dac5a96fa5, CHARACTER_RANGE, CHARACTER_RANGE structure [Tablet PC], rectypes/CHARACTER_RANGE, tablet.character_range, tagCHARACTER_RANGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardEndTransaction
 title: SCardEndTransaction function
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes a previously declared transaction, allowing other applications to resume interactions with the card.
 old-location: security\scardendtransaction.htm
 old-project: SecAuthN
 ms.assetid: 0acaff20-006a-47d3-bc7a-834b3281cde6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCARD_EJECT_CARD, SCARD_LEAVE_CARD, SCARD_RESET_CARD, SCARD_UNPOWER_CARD, SCardEndTransaction, SCardEndTransaction function [Security], _smart_scardendtransaction, security.scardendtransaction, winscard/SCardEndTransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

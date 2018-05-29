@@ -1,16 +1,16 @@
 ---
 UID: NS:dde.DDEPOKE
 title: DDEPOKE
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the data, and information about the data, sent as part of a WM_DDE_POKE message.
 old-location: dataxchg\ddepoke.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\ddepoke.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CF_BITMAP, CF_DIB, CF_DIF, CF_ENHMETAFILE, CF_METAFILEPICT, CF_OEMTEXT, CF_PALETTE, CF_PENDATA, CF_RIFF, CF_SYLK, CF_TEXT, CF_TIFF, CF_UNICODETEXT, CF_WAVE, DDEPOKE, DDEPOKE structure [Data Exchange], _win32_DDEPOKE_str, _win32_ddepoke_str_cpp, dataxchg.ddepoke, dde/DDEPOKE, winui._win32_ddepoke_str
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dde.h
 req.include-header: Windows.h

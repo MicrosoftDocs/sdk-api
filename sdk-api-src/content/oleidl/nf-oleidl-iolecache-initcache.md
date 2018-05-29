@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleCache.InitCache
 title: IOleCache::InitCache
-author: windows-driver-content
+author: windows-sdk-content
 description: Fills the cache as needed using the data provided by the specified data object.
 old-location: com\iolecache_initcache.htm
 old-project: com
 ms.assetid: 4b1f2fb6-636c-47dd-8f89-884f7b4f3977
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleCache interface [COM],InitCache method, IOleCache.InitCache, IOleCache::InitCache, InitCache, InitCache method [COM], InitCache method [COM],IOleCache interface, _ole_iolecache_initcache, com.iolecache_initcache, oleidl/IOleCache::InitCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

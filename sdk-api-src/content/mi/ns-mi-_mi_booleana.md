@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_BooleanA
 title: "_MI_BooleanA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an array of MI_Boolean types.
 old-location: wmi_v2\mi_booleana.htm
 old-project: wmi_v2
 ms.assetid: d6e9c3b2-b9ef-4e59-bf9c-d36bf9a8d619
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_BooleanA, MI_BooleanA structure [Windows Management Infrastructure (MI)], _MI_BooleanA, mi/MI_BooleanA, wmi._mi_booleana, wmi_v2.mi_booleana
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

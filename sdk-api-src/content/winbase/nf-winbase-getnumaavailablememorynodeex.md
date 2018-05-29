@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetNumaAvailableMemoryNodeEx
 title: GetNumaAvailableMemoryNodeEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the amount of memory that is available in a node specified as a USHORT value.
 old-location: base\getnumaavailablememorynodeex.htm
 old-project: ProcThread
 ms.assetid: 59382114-f3da-45e0-843e-51c0fd52a164
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetNumaAvailableMemoryNodeEx, GetNumaAvailableMemoryNodeEx function, base.getnumaavailablememorynodeex, winbase/GetNumaAvailableMemoryNodeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

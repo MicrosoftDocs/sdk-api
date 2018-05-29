@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IEnumOLEVERB.Skip
 title: IEnumOLEVERB::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumoleverb_skip.htm
 old-project: com
 ms.assetid: f949f993-1c4c-4d42-ba23-93330f0e9967
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumOLEVERB interface [COM],Skip method, IEnumOLEVERB.Skip, IEnumOLEVERB::Skip, Skip, Skip method [COM], Skip method [COM],IEnumOLEVERB interface, _ole_ienumoleverb_skip, com.ienumoleverb_skip, oleidl/IEnumOLEVERB::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

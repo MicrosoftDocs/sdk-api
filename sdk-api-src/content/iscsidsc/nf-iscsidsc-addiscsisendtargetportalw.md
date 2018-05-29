@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.AddIScsiSendTargetPortalW
 title: AddIScsiSendTargetPortalW function
-author: windows-driver-content
+author: windows-sdk-content
 description: AddIscsiSendTargetPortal function adds a static target portal to the list of target portals to which the iSCSI initiator service transmits SendTargets requests.
 old-location: iscsidisc\addiscsisendtargetportal.htm
 old-project: iSCSIDisc
 ms.assetid: 8ca378bd-400d-40f1-81d2-c8b4135a3d3c
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: AddIScsiSendTargetPortalW, AddIscsiSendTargetPortal, AddIscsiSendTargetPortal function [iSCSI Discovery Library API], AddIscsiSendTargetPortalA, AddIscsiSendTargetPortalW, ISCSI_SECURITY_FLAG_AGGRESSIVE_MODE_ENABLED, ISCSI_SECURITY_FLAG_IKE_IPSEC_ENABLED, ISCSI_SECURITY_FLAG_MAIN_MODE_ENABLED, ISCSI_SECURITY_FLAG_PFS_ENABLED, ISCSI_SECURITY_FLAG_TRANSPORT_MODE_PREFERRED, ISCSI_SECURITY_FLAG_TUNNEL_MODE_PREFERRED, ISCSI_SECURITY_FLAG_VALID, iscsidisc.addiscsisendtargetportal, iscsidsc/AddIscsiSendTargetPortal, iscsidsc/AddIscsiSendTargetPortalA, iscsidsc/AddIscsiSendTargetPortalW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

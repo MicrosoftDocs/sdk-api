@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.RestoreGPO
 title: IGPMDomain::RestoreGPO
-author: windows-driver-content
+author: windows-sdk-content
 description: Restores a Group Policy object (GPO) from a GPMBackup object.
 old-location: gpmc\igpmdomain_restoregpo.htm
 old-project: GPMC
 ms.assetid: 8e202ea1-ca5c-4757-950b-ea1802699b68
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMDomain object [GPMC],RestoreGPO method, IGPMDomain interface [GPMC],RestoreGPO method, IGPMDomain.RestoreGPO, IGPMDomain::RestoreGPO, RestoreGPO, RestoreGPO method [GPMC], RestoreGPO method [GPMC],GPMDomain object, RestoreGPO method [GPMC],IGPMDomain interface, _win32_igpmdomain_restoregpo, gpmc.igpmdomain_restoregpo, gpmgmt/IGPMDomain::RestoreGPO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

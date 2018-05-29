@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IPsecSaDbGetSecurityInfo0
 title: IPsecSaDbGetSecurityInfo0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for the IPsec security association (SA) database.
 old-location: fwp\ipsecsadbgetsecurityinfo0.htm
 old-project: FWP
 ms.assetid: 19121de3-91bc-4dca-94f8-599a43bb1e68
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPsecSaDbGetSecurityInfo0, IPsecSaDbGetSecurityInfo0 function [Filtering], fwp.ipsecsadbgetsecurityinfo0, fwpmu/IPsecSaDbGetSecurityInfo0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

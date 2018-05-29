@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.IMDSPStorage
 title: IMDSPStorage
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMDSPStorage interface provides an instanced-based association with a storage medium on a device.
 old-location: wmdm\imdspstorage.htm
 old-project: WMDM
 ms.assetid: f22b8a6d-7df8-4fea-9436-79b9ded25a40
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMDSPStorage, IMDSPStorage interface [windows Media Device Manager], IMDSPStorage interface [windows Media Device Manager],described, IMDSPStorageInterface, mswmdm/IMDSPStorage, wmdm.imdspstorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

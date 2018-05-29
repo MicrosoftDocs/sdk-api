@@ -1,16 +1,16 @@
 ---
 UID: NS:werapi._WER_REPORT_INFORMATION
 title: "_WER_REPORT_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used by the WerReportCreate function.
 old-location: wer\wer_report_information.htm
 old-project: wer
 ms.assetid: 3efe2b43-53ac-48e3-bc39-4a9fe6041fca
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: "*PWER_REPORT_INFORMATION, PWER_REPORT_INFORMATION, PWER_REPORT_INFORMATION structure pointer [Windows Error Reporting], WER_REPORT_INFORMATION, WER_REPORT_INFORMATION structure [Windows Error Reporting], _WER_REPORT_INFORMATION, base.wer_report_information, wer.wer_report_information, werapi/PWER_REPORT_INFORMATION, werapi/WER_REPORT_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: werapi.h
 req.include-header: 

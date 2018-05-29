@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.SpSaveCredentialsFn
 title: SpSaveCredentialsFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves a supplemental credential to the user object.
 old-location: security\spsavecredentials.htm
 old-project: SecAuthN
 ms.assetid: 15983acb-6fa3-4c53-9ede-a41db95c82f1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SpSaveCredentials, SpSaveCredentials function [Security], SpSaveCredentialsFn, _ssp_spsavecredentials, ntsecpkg/SpSaveCredentials, security.spsavecredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

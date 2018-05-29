@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GSGetShader
 title: ID3D11DeviceContext::GSGetShader
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the geometry shader currently set on the device.
 old-location: direct3d11\id3d11devicecontext_gsgetshader.htm
 old-project: direct3d11
 ms.assetid: 5d5b935f-7eef-48ee-a2ed-82dd6c59aa19
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 154380d2-d835-0821-b4a5-1f810f07c0e3, GSGetShader, GSGetShader method [Direct3D 11], GSGetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GSGetShader method, ID3D11DeviceContext.GSGetShader, ID3D11DeviceContext::GSGetShader, d3d11/ID3D11DeviceContext::GSGetShader, direct3d11.id3d11devicecontext_gsgetshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

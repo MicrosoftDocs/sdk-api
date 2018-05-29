@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IExtractImage
 title: IExtractImage
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that request a thumbnail image from a Shell folder.
 old-location: shell\IExtractImage.htm
 old-project: shell
 ms.assetid: 28a13749-89e7-407e-89cb-95464859ce3e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IExtractImage, IExtractImage interface [Windows Shell], IExtractImage interface [Windows Shell],described, _win32_IExtractImage, shell.IExtractImage, shobjidl_core/IExtractImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

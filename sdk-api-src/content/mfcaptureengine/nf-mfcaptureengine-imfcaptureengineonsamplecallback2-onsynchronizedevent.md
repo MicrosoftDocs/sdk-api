@@ -1,16 +1,16 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent
 title: IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the capture sink when the format of the sample is changed.
 old-location: mf\imfcaptureengineonsamplecallback2_onsynchronizedevent.htm
 old-project: medfound
 ms.assetid: f82a657a-bc6a-407b-ad72-1e9c6ec17bed
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCaptureEngineOnSampleCallback2 interface [Media Foundation],OnSynchronizedEvent method, IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent, IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent, OnSynchronizedEvent, OnSynchronizedEvent method [Media Foundation], OnSynchronizedEvent method [Media Foundation],IMFCaptureEngineOnSampleCallback2 interface, mf.imfcaptureengineonsamplecallback2_onsynchronizedevent, mfcaptureengine/IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

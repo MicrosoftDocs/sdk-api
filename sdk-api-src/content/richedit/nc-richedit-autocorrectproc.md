@@ -1,16 +1,16 @@
 ---
 UID: NC:richedit.AutoCorrectProc
 title: AutoCorrectProc
-author: windows-driver-content
+author: windows-sdk-content
 description: The AutoCorrectProc function is an application-defined callback function that is used with the EM_SETAUTOCORRECTPROC message.
 old-location: controls\autocorrectproc.htm
 old-project: Controls
 ms.assetid: 36EF880D-F6A9-434A-820B-17E663357573
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AutoCorrectProc, AutoCorrectProc callback, AutoCorrectProc callback function [Windows Controls], controls.autocorrectproc, richedit/AutoCorrectProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: richedit.h
 req.include-header: 

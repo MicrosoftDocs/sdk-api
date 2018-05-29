@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpmu._IPSEC_KEY_MANAGER_CALLBACKS0
 title: "_IPSEC_KEY_MANAGER_CALLBACKS0"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the set of callbacks which should be invoked by IPsec at various stages of SA negotiation.
 old-location: fwp\ipsec_key_manager_callbacks0.htm
 old-project: FWP
 ms.assetid: 736ea54d-ca17-4cb5-bcb2-95b4377f321c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_KEY_MANAGER_CALLBACKS0, IPSEC_KEY_MANAGER_CALLBACKS0 structure [Filtering], _IPSEC_KEY_MANAGER_CALLBACKS0, fwp.ipsec_key_manager_callbacks0, fwpmu/IPSEC_KEY_MANAGER_CALLBACKS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmu.h
 req.include-header: 

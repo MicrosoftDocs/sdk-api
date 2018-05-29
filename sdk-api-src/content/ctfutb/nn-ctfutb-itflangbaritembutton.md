@@ -1,16 +1,16 @@
 ---
 UID: NN:ctfutb.ITfLangBarItemButton
 title: ITfLangBarItemButton
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfLangBarItemButton interface is implemented by a language bar button provider and used by the language bar manager to obtain information about a button item on the language bar.
 old-location: tsf\itflangbaritembutton.htm
 old-project: TSF
 ms.assetid: 098a8cdc-ff34-4729-9b34-279c499d40a8
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfLangBarItemButton, ITfLangBarItemButton interface [Text Services Framework], ITfLangBarItemButton interface [Text Services Framework],described, _tsf_itflangbaritembutton_ref, ctfutb/ITfLangBarItemButton, tsf.itflangbaritembutton
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctfutb.h
 req.include-header: 

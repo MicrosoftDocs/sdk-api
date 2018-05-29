@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._TRUSTED_PASSWORD_INFO
 title: "_TRUSTED_PASSWORD_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The TRUSTED_PASSWORD_INFO structure is used to query or set the password for a trusted domain.
 old-location: security\trusted_password_info.htm
 old-project: SecMgmt
 ms.assetid: 2c3aca10-8efd-4278-8127-2d31db776c0e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PTRUSTED_PASSWORD_INFO, PTRUSTED_PASSWORD_INFO, PTRUSTED_PASSWORD_INFO structure pointer [Security], TRUSTED_PASSWORD_INFO, TRUSTED_PASSWORD_INFO structure [Security], _TRUSTED_PASSWORD_INFO, _lsa_trusted_password_info, ntsecapi/PTRUSTED_PASSWORD_INFO, ntsecapi/TRUSTED_PASSWORD_INFO, security.trusted_password_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

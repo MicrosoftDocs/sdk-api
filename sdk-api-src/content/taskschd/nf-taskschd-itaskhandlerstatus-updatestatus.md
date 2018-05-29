@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskHandlerStatus.UpdateStatus
 title: ITaskHandlerStatus::UpdateStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Tells the Task Scheduler about the percentage of completion of the COM handler.
 old-location: taskschd\itaskhandlerstatus_updatestatus.htm
 old-project: TaskSchd
 ms.assetid: 3cab2b3b-7293-4d06-843f-9151d62d4950
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskHandlerStatus interface [Task Scheduler],UpdateStatus method, ITaskHandlerStatus.UpdateStatus, ITaskHandlerStatus::UpdateStatus, UpdateStatus, UpdateStatus method [Task Scheduler], UpdateStatus method [Task Scheduler],ITaskHandlerStatus interface, taskschd.itaskhandlerstatus_updatestatus, taskschd/ITaskHandlerStatus::UpdateStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupFreeSourceListA
 title: SetupFreeSourceListA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupFreeSourceList function frees the system resources allocated to a source list.
 old-location: setup\setupfreesourcelist.htm
 old-project: SetupApi
 ms.assetid: ac326a2c-df67-4a3e-9290-663f84027a48
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupFreeSourceList, SetupFreeSourceList function [Setup API], SetupFreeSourceListA, SetupFreeSourceListW, _setupapi_setupfreesourcelist, setup.setupfreesourcelist, setupapi/SetupFreeSourceList, setupapi/SetupFreeSourceListA, setupapi/SetupFreeSourceListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

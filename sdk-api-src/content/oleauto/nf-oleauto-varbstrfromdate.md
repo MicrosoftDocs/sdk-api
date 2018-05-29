@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarBstrFromDate
 title: VarBstrFromDate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a date value to a BSTR value.
 old-location: automat\varbstrfromdate.htm
 old-project: automat
 ms.assetid: f9b22626-0f9f-4ef9-ab6d-7cea44b01eb6
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_CALENDAR_GREGORIAN, VAR_CALENDAR_HIJRI, VAR_CALENDAR_THAI, VAR_DATEVALUEONLY, VAR_FOURDIGITYEARS, VAR_TIMEVALUEONLY, VarBstrFromDate, VarBstrFromDate function [Automation], _oa96_VarBstrFromDate, automat.varbstrfromdate, oleauto/VarBstrFromDate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

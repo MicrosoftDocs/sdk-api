@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IAppDomainHelper
 title: IAppDomainHelper
-author: windows-driver-content
+author: windows-sdk-content
 description: Binds a managed object to an application domain, which is an isolated environment where applications execute.
 old-location: cos\iappdomainhelper.htm
 old-project: cossdk
 ms.assetid: 2709f284-ca8c-404e-b568-b655f780549a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAppDomainHelper, IAppDomainHelper interface [COM+], IAppDomainHelper interface [COM+],described, _cos_IAppDomainHelper, comsvcs/IAppDomainHelper, cos.iappdomainhelper
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

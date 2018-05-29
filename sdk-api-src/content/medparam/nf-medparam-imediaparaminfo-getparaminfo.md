@@ -1,16 +1,16 @@
 ---
 UID: NF:medparam.IMediaParamInfo.GetParamInfo
 title: IMediaParamInfo::GetParamInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetParamInfo method retrieves information about a specified parameter.
 old-location: dshow\imediaparaminfo_getparaminfo.htm
 old-project: DirectShow
 ms.assetid: 80fdb9c2-d979-4671-981a-54d968b23042
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetParamInfo, GetParamInfo method [DirectShow], GetParamInfo method [DirectShow],IMediaParamInfo interface, IMediaParamInfo interface [DirectShow],GetParamInfo method, IMediaParamInfo.GetParamInfo, IMediaParamInfo::GetParamInfo, IMediaParamInfoGetParamInfo, dshow.imediaparaminfo_getparaminfo, medparam/IMediaParamInfo::GetParamInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: medparam.h
 req.include-header: 

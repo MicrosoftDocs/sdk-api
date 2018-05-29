@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetFlags
 title: ISyncMgrEvent::GetFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets event flags.
 old-location: shell\ISyncMgrEvent_GetFlags.htm
 old-project: shell
 ms.assetid: 51651a03-da3d-4b75-97bf-3be1db56054e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFlags, GetFlags method [Windows Shell], GetFlags method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetFlags method, ISyncMgrEvent.GetFlags, ISyncMgrEvent::GetFlags, _shell_ISyncMgrEvent_GetFlags, shell.ISyncMgrEvent_GetFlags, syncmgr/ISyncMgrEvent::GetFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

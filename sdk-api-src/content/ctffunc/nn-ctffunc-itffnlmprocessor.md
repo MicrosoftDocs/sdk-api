@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfFnLMProcessor
 title: ITfFnLMProcessor
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfFnLMProcessor interface is implemented by the language model text service and is used by an application or text service to enable alternate language model processing.
 old-location: tsf\itffnlmprocessor.htm
 old-project: TSF
 ms.assetid: 89581a75-9263-45d7-99de-b3bd78a5169c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnLMProcessor, ITfFnLMProcessor interface [Text Services Framework], ITfFnLMProcessor interface [Text Services Framework],described, _tsf_itffnlmprocessor_ref, ctffunc/ITfFnLMProcessor, tsf.itffnlmprocessor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

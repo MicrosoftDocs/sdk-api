@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IWiaNotifyDevMgr.NewDeviceArrival
 title: IWiaNotifyDevMgr::NewDeviceArrival
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is not implemented.
 old-location: wia\_wia_IWiaNotifyDevMgr_NewDeviceArrival.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwianotifydevmgr\newdevicearrival.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IWiaNotifyDevMgr interface [WIA],NewDeviceArrival method, IWiaNotifyDevMgr.NewDeviceArrival, IWiaNotifyDevMgr::NewDeviceArrival, NewDeviceArrival, NewDeviceArrival method [WIA], NewDeviceArrival method [WIA],IWiaNotifyDevMgr interface, _wia_IWiaNotifyDevMgr_NewDeviceArrival, wia._wia_IWiaNotifyDevMgr_NewDeviceArrival, wia_xp/IWiaNotifyDevMgr::NewDeviceArrival
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

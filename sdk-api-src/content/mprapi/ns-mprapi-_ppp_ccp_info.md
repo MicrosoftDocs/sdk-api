@@ -1,16 +1,16 @@
 ---
 UID: NS:mprapi._PPP_CCP_INFO
 title: "_PPP_CCP_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The PPP_CCP_INFO structure contains information that describes the results of a Compression Control Protocol (CCP) negotiation.
 old-location: rras\ppp_ccp_info.htm
 old-project: RRAS
 ms.assetid: d50493c4-8a18-4cab-8973-a752f3f7f6c2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PPP_CCP_COMPRESSION, PPP_CCP_ENCRYPTION128BIT, PPP_CCP_ENCRYPTION40BIT, PPP_CCP_ENCRYPTION40BITOLD, PPP_CCP_ENCRYPTION56BIT, PPP_CCP_HISTORYLESS, PPP_CCP_INFO, PPP_CCP_INFO structure [RAS], RASCCPCA_MPPC, RASCCPCA_STAC, _PPP_CCP_INFO, _mpr_ppp_ccp_info, mprapi/PPP_CCP_INFO, rras.ppp_ccp_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

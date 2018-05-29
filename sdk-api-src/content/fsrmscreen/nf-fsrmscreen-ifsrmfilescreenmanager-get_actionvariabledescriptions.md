@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.get_ActionVariableDescriptions
 title: IFsrmFileScreenManager::get_ActionVariableDescriptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the descriptions for the macros contained in the IFsrmFileScreenManager::ActionVariables property.
 old-location: fsrm\ifsrmfilescreenmanager_actionvariabledescriptions.htm
 old-project: Fsrm
 ms.assetid: 93d7cc4d-3367-4fe2-8e4c-c12be6867d69
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: ActionVariableDescriptions property [File Server Resource Manager], ActionVariableDescriptions property [File Server Resource Manager],FsrmFileScreenManager class, ActionVariableDescriptions property [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileScreenManager interface [File Server Resource Manager],ActionVariableDescriptions property, IFsrmFileScreenManager.ActionVariableDescriptions, IFsrmFileScreenManager.get_ActionVariableDescriptions, IFsrmFileScreenManager::ActionVariableDescriptions, IFsrmFileScreenManager::get_ActionVariableDescriptions, fs.ifsrmfilescreenmanager_actionvariabledescriptions, fsrm.ifsrmfilescreenmanager_actionvariabledescriptions, fsrmscreen/IFsrmFileScreenManager::ActionVariableDescriptions, fsrmscreen/IFsrmFileScreenManager::get_ActionVariableDescriptions, get_ActionVariableDescriptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmscreen.h
 req.include-header: 

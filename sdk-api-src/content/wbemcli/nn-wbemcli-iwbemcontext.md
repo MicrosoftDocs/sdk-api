@@ -1,16 +1,16 @@
 ---
 UID: NN:wbemcli.IWbemContext
 title: IWbemContext
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemContext interface is optionally used to communicate additional context information to providers when submitting IWbemServices calls to WMI. All primary calls in IWbemServices take an optional parameter pointing to an object of this type.
 old-location: wmi\iwbemcontext.htm
 old-project: WmiSdk
 ms.assetid: 458bd455-6984-414b-a0b7-62887d9dad7c
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemContext, IWbemContext interface [Windows Management Instrumentation], IWbemContext interface [Windows Management Instrumentation],described, WbemContext, _hmm_iwbemcontext, wbemcli/IWbemContext, wmi.iwbemcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

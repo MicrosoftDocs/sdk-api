@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10_1shader.ID3D10ShaderReflection1.GetGSInputPrimitive
 title: ID3D10ShaderReflection1::GetGSInputPrimitive
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the geometry-shader input-primitive description.
 old-location: direct3d10\id3d10shaderreflection1_getgsinputprimitive.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection1_getgsinputprimitive.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetGSInputPrimitive, GetGSInputPrimitive method [Direct3D 10], GetGSInputPrimitive method [Direct3D 10],ID3D10ShaderReflection1 interface, ID3D10ShaderReflection1 interface [Direct3D 10],GetGSInputPrimitive method, ID3D10ShaderReflection1.GetGSInputPrimitive, ID3D10ShaderReflection1::GetGSInputPrimitive, d3d10_1shader/ID3D10ShaderReflection1::GetGSInputPrimitive, direct3d10.id3d10shaderreflection1_getgsinputprimitive, e6a690aa-8956-bd7e-467e-da156afe0b07
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10_1shader.h
 req.include-header: 

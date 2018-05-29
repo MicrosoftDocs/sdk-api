@@ -1,16 +1,16 @@
 ---
 UID: NS:vss.__MIDL___MIDL_itf_vss_0000_0000_0001
 title: "__MIDL___MIDL_itf_vss_0000_0000_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: A union of VSS_SNAPSHOT_PROP and VSS_PROVIDER_PROP structures, which is used by the VSS_OBJECT_PROP structure.
 old-location: base\vss_object_union.htm
 old-project: VSS
 ms.assetid: e8d70f20-00a9-4cae-a92c-e3f3673a8db3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VSS_OBJECT_UNION, VSS_OBJECT_UNION union [VSS], __MIDL___MIDL_itf_vss_0000_0000_0001, _win32_vss_object_union, base.vss_object_union, vss/VSS_OBJECT_UNION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vss.h
 req.include-header: 

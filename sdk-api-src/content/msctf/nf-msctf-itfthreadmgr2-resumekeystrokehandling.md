@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.ResumeKeystrokeHandling
 title: ITfThreadMgr2::ResumeKeystrokeHandling
-author: windows-driver-content
+author: windows-sdk-content
 description: Resumes suspended keystroke handling.
 old-location: tsf\itfthreadmgr2_resumekeystrokehandling.htm
 old-project: TSF
 ms.assetid: 68948ACE-EF49-4F24-B579-72304A00A98D
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfThreadMgr2 interface [Text Services Framework],ResumeKeystrokeHandling method, ITfThreadMgr2.ResumeKeystrokeHandling, ITfThreadMgr2::ResumeKeystrokeHandling, ResumeKeystrokeHandling, ResumeKeystrokeHandling method [Text Services Framework], ResumeKeystrokeHandling method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::ResumeKeystrokeHandling, tsf.itfthreadmgr2_resumekeystrokehandling
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

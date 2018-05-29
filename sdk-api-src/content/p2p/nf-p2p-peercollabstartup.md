@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerCollabStartup
 title: PeerCollabStartup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the Peer Collaboration infrastructure.
 old-location: p2p\peercollabstartup.htm
 old-project: P2PSdk
 ms.assetid: b3f4ac2a-c722-4609-b893-c4b9667ae559
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerCollabStartup, PeerCollabStartup function [Peer Networking], p2p.peercollabstartup, p2p/PeerCollabStartup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.CoFreeAllLibraries
 title: CoFreeAllLibraries function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees all the DLLs that have been loaded with the CoLoadLibrary function (called internally by CoGetClassObject), regardless of whether they are currently in use.
 old-location: com\cofreealllibraries.htm
 old-project: com
 ms.assetid: 20616c05-21c6-4895-a1b5-4bae1aa417c7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoFreeAllLibraries, CoFreeAllLibraries function [COM], _com_CoFreeAllLibraries, com.cofreealllibraries, objbase/CoFreeAllLibraries
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

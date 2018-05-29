@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._KERB_INTERACTIVE_LOGON
 title: "_KERB_INTERACTIVE_LOGON"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an interactive logon session.
 old-location: security\kerb_interactive_logon.htm
 old-project: SecAuthN
 ms.assetid: 96aec0cc-b3e1-4b4b-aa0e-ecf05b9fabbe
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PKERB_INTERACTIVE_LOGON, KERB_INTERACTIVE_LOGON, KERB_INTERACTIVE_LOGON structure [Security], PKERB_INTERACTIVE_LOGON, PKERB_INTERACTIVE_LOGON structure pointer [Security], _KERB_INTERACTIVE_LOGON, _lsa_kerb_interactive_logon, ntsecapi/KERB_INTERACTIVE_LOGON, ntsecapi/PKERB_INTERACTIVE_LOGON, security.kerb_interactive_logon"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

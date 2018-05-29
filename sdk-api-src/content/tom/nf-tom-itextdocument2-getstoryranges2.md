@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextDocument2.GetStoryRanges2
 title: ITextDocument2::GetStoryRanges2
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an object for enumerating the stories in a document.
 old-location: controls\itextdocument2_getstoryranges2.htm
 old-project: Controls
 ms.assetid: ec62db67-d5e6-47d9-ad35-0fc33ba45b6b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetStoryRanges2, GetStoryRanges2 method [Windows Controls], GetStoryRanges2 method [Windows Controls],ITextDocument2 interface, ITextDocument2 interface [Windows Controls],GetStoryRanges2 method, ITextDocument2.GetStoryRanges2, ITextDocument2::GetStoryRanges2, controls.itextdocument2_getstoryranges2, tom/ITextDocument2::GetStoryRanges2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

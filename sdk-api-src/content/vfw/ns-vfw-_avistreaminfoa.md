@@ -1,16 +1,16 @@
 ---
 UID: NS:vfw._AVISTREAMINFOA
 title: "_AVISTREAMINFOA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVISTREAMINFO structure contains information for a single stream.
 old-location: multimedia\avistreaminfo_struct.htm
 old-project: Multimedia
 ms.assetid: dca6d9ca-a825-4bd0-a19d-0655d775fdfb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPAVISTREAMINFOA, AVISTREAMINFO, AVISTREAMINFO structure [Windows Multimedia], AVISTREAMINFOA, AVISTREAMINFOW, AVISTREAMINFO_DISABLED, AVISTREAMINFO_FORMATCHANGES, _AVISTREAMINFOA, multimedia.avistreaminfo_COLLISION869, multimedia.avistreaminfo_struct, streamtypeAUDIO, streamtypeMIDI, streamtypeTEXT, streamtypeVIDEO, vfw/AVISTREAMINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

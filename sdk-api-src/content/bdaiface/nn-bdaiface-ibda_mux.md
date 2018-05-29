@@ -1,16 +1,16 @@
 ---
 UID: NN:bdaiface.IBDA_MUX
 title: IBDA_MUX
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to a device's Mux Service. The Mux Service is used to specify which packet identifiers (PIDs) in the MPEG transport stream are delivered to a media sink device (MSD).
 old-location: mstv\ibda_mux.htm
 old-project: mstv
 ms.assetid: 5dde7b14-d5a4-4db5-b91f-d6bfd4be269d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_MUX, IBDA_MUX interface [Microsoft TV Technologies], IBDA_MUX interface [Microsoft TV Technologies],described, bdaiface/IBDA_MUX, mstv.ibda_mux
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

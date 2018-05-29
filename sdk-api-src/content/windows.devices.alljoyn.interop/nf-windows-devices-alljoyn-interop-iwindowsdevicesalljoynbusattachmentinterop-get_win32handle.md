@@ -1,16 +1,16 @@
 ---
 UID: NF:windows.devices.alljoyn.interop.IWindowsDevicesAllJoynBusAttachmentInterop.get_Win32Handle
 title: IWindowsDevicesAllJoynBusAttachmentInterop::alljoyn
-author: windows-driver-content
+author: windows-sdk-content
 description: Classic COM interface that simply returns a pointer to the underlying alljoyn_busattachment instance, so the app can use it directly with the AllJoyn Core C API.
 old-location: alljoyn\iwindowsdevicesalljoynbusattachmentinterop_get_win32handle.htm
 old-project: AllJoyn
 ms.assetid: E46C47FC-08D2-4CE6-9205-46A840DFA3F4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IInspectable ::get_Win32Handle, IInspectable interface [AllJoyn API],get_Win32Handle method, IWindowsDevicesAllJoynBusAttachmentInterop interface [AllJoyn API],get_Win32Handle method, IWindowsDevicesAllJoynBusAttachmentInterop.alljoyn, IWindowsDevicesAllJoynBusAttachmentInterop.get_Win32Handle, IWindowsDevicesAllJoynBusAttachmentInterop::alljoyn, IWindowsDevicesAllJoynBusAttachmentInterop::get_Win32Handle, alljoyn.iwindowsdevicesalljoynbusattachmentinterop_get_win32handle, get_Win32Handle, get_Win32Handle method [AllJoyn API], get_Win32Handle method [AllJoyn API],IInspectable interface, get_Win32Handle method [AllJoyn API],IWindowsDevicesAllJoynBusAttachmentInterop interface, windows/IInspectable ::get_Win32Handle, windows/IWindowsDevicesAllJoynBusAttachmentInterop::get_Win32Handle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: windows.devices.alljoyn.interop.h
 req.include-header: 

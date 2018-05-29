@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_PROXY_MESSAGE_CALLBACK_CONTEXT
 title: "_WS_PROXY_MESSAGE_CALLBACK_CONTEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the callback function and state for an application that wishes to associate or inspect headers in an input or an output message respectively. See also, WS_CALL_PROPERTY_SEND_MESSAGE_CONTEXT and WS_CALL_PROPERTY_RECEIVE_MESSAGE_CONTEXT.
 old-location: wsw\ws_proxy_message_callback_context.htm
 old-project: wsw
 ms.assetid: 1dfde962-7475-430a-b586-1684a173908f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_PROXY_MESSAGE_CALLBACK_CONTEXT, WS_PROXY_MESSAGE_CALLBACK_CONTEXT structure [Web Services for Windows], _WS_PROXY_MESSAGE_CALLBACK_CONTEXT, webservices/WS_PROXY_MESSAGE_CALLBACK_CONTEXT, wsw.ws_proxy_message_callback_context
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

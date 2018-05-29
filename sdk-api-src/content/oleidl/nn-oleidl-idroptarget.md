@@ -1,16 +1,16 @@
 ---
 UID: NN:oleidl.IDropTarget
 title: IDropTarget
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDropTarget interface is one of the interfaces you implement to provide drag-and-drop operations in your application.
 old-location: com\idroptarget.htm
 old-project: com
 ms.assetid: 13fbe834-1ef8-4944-b2e4-9f5c413c65c8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IDropTarget, IDropTarget interface [COM], IDropTarget interface [COM],described, _ole_idroptarget, com.idroptarget, oleidl/IDropTarget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

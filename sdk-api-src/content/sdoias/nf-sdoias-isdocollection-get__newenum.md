@@ -1,16 +1,16 @@
 ---
 UID: NF:sdoias.ISdoCollection.get__NewEnum
 title: ISdoCollection::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: The get__NewEnum method retrieves an IEnumVARIANT interface for a Server Data Objects (SDO) collection.
 old-location: nps\SDO_isdocollection_get__newenum.htm
 old-project: Nps
 ms.assetid: f41211cf-7ed6-4f49-ba90-a72b6eb4db3e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],get__NewEnum method, ISdoCollection.get__NewEnum, ISdoCollection::get__NewEnum, _sdo_isdocollection_get__newenum, get__NewEnum, get__NewEnum method [Network Policy Server], get__NewEnum method [Network Policy Server],ISdoCollection interface, nps.SDO_isdocollection_get__newenum, sdo.isdocollection_get__newenum, sdoias/ISdoCollection::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 

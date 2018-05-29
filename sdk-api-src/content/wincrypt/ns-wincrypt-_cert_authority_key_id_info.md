@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_AUTHORITY_KEY_ID_INFO
 title: "_CERT_AUTHORITY_KEY_ID_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the key used to sign a certificate or certificate revocation list (CRL).
 old-location: security\cert_authority_key_id_info.htm
 old-project: SecCrypto
 ms.assetid: 2f966d39-8d7c-41e7-bf6a-5a30170b100d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_AUTHORITY_KEY_ID_INFO, CERT_AUTHORITY_KEY_ID_INFO, CERT_AUTHORITY_KEY_ID_INFO structure [Security], PCERT_AUTHORITY_KEY_ID_INFO, PCERT_AUTHORITY_KEY_ID_INFO structure pointer [Security], _CERT_AUTHORITY_KEY_ID_INFO, _crypto2_cert_authority_key_id_info, security.cert_authority_key_id_info, wincrypt/CERT_AUTHORITY_KEY_ID_INFO, wincrypt/PCERT_AUTHORITY_KEY_ID_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

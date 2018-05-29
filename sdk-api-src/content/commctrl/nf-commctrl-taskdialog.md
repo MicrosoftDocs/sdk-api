@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.TaskDialog
 title: TaskDialog function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TaskDialog function creates, displays, and operates a task dialog.
 old-location: controls\TaskDialog.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfunctions\taskdialog.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TDCBF_CANCEL_BUTTON, TDCBF_CLOSE_BUTTON, TDCBF_NO_BUTTON, TDCBF_OK_BUTTON, TDCBF_RETRY_BUTTON, TDCBF_YES_BUTTON, TD_ERROR_ICON, TD_INFORMATION_ICON, TD_SHIELD_ICON, TD_WARNING_ICON, TaskDialog, TaskDialog function [Windows Controls], _shell_TaskDialog, _shell_TaskDialog_cpp, commctrl/TaskDialog, controls.TaskDialog, controls._shell_TaskDialog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: Commctrl.h

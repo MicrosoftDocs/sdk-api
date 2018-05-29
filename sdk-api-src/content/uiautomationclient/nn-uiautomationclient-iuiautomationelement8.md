@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement8
 title: IUIAutomationElement8
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IUIAutomationElement7 interface.
 old-location: winauto\uiauto_IUIAutomationElement8.htm
 old-project: WinAuto
 ms.assetid: EEADC0FE-279C-4CA1-A812-5D7C37A48AEE
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationElement8, IUIAutomationElement8 interface [Windows Accessibility], IUIAutomationElement8 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement8, winauto.uiauto_IUIAutomationElement8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif._VMRFrequency
 title: "_VMRFrequency"
-author: windows-driver-content
+author: windows-sdk-content
 description: The VMRFrequency structure describes the frequency of a video stream. Frequencies are described as ratios. For example, the NTSC frame rate of 29.97 fps is expressed as 30,000:1001.
 old-location: dshow\vmrfrequency.htm
 old-project: DirectShow
 ms.assetid: fb4c094a-2760-45b2-b494-a44d5493987f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: VMRFrequency, VMRFrequency structure [DirectShow], VMRFrequencyStructure, _VMRFrequency, dshow.vmrfrequency, strmif/VMRFrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

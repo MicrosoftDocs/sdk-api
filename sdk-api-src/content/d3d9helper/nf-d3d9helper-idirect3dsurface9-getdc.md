@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DSurface9.GetDC
 title: IDirect3DSurface9::GetDC
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a device context.
 old-location: direct3d9\idirect3dsurface9__getdc.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__getdc.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 945f6e77-19f2-e9bf-18a4-09747a9990f3, GetDC, GetDC method [Direct3D 9], GetDC method [Direct3D 9],IDirect3DSurface9 interface, IDirect3DSurface9 interface [Direct3D 9],GetDC method, IDirect3DSurface9.GetDC, IDirect3DSurface9::GetDC, d3d9helper/IDirect3DSurface9::GetDC, direct3d9.idirect3dsurface9__getdc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

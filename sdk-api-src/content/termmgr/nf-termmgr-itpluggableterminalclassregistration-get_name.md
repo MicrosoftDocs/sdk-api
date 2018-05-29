@@ -1,16 +1,16 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_Name
 title: ITPluggableTerminalClassRegistration::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Name method gets the terminal's friendly name.
 old-location: tapi3\itpluggableterminalclassregistration_get_name.htm
 old-project: Tapi
 ms.assetid: 0bbc0862-41d7-40cc-9b9d-57a2238122ee
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],get_Name method, ITPluggableTerminalClassRegistration.get_Name, ITPluggableTerminalClassRegistration::get_Name, _tapi3_itpluggableterminalclassregistration_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_get_name, termmgr/ITPluggableTerminalClassRegistration::get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

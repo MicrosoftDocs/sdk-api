@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_OPEN_DATABASE_FN
 title: PIBIO_STORAGE_OPEN_DATABASE_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a database for use by the storage adapter.
 old-location: secbiomet\storageadapteropendatabase.htm
 old-project: SecBioMet
 ms.assetid: 4f3dfa67-5020-461a-b3d1-33c948129bdf
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: PIBIO_STORAGE_OPEN_DATABASE_FN, PIBIO_STORAGE_OPEN_DATABASE_FN callback, StorageAdapterOpenDatabase, StorageAdapterOpenDatabase callback function [Windows Biometric Framework API], secbiomet.storageadapteropendatabase, winbio_adapter/StorageAdapterOpenDatabase
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

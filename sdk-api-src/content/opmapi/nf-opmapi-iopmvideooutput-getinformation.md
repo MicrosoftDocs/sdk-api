@@ -1,16 +1,16 @@
 ---
 UID: NF:opmapi.IOPMVideoOutput.GetInformation
 title: IOPMVideoOutput::GetInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends an Output Protection Manager (OPM) status request to the display driver.
 old-location: mf\iopmvideooutput_iopmvideooutput__getinformation.htm
 old-project: medfound
 ms.assetid: 47d724eb-07e9-4659-886a-4b492fbb2415
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetInformation, GetInformation method [Media Foundation], GetInformation method [Media Foundation],IOPMVideoOutput interface, IOPMVideoOutput interface [Media Foundation],GetInformation method, IOPMVideoOutput.GetInformation, IOPMVideoOutput::GetInformation, mf.iopmvideooutput_iopmvideooutput__getinformation, opmapi/IOPMVideoOutput::GetInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: opmapi.h
 req.include-header: 

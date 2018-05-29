@@ -1,16 +1,16 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.GetSize
 title: TRefPointerCollection::GetSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSize method returns how many items are in the list.
 old-location: wmi\trefpointercollection_getsize.htm
 old-project: WmiSdk
 ms.assetid: 0ffdf8b9-53be-4a3d-8272-02f6c3be5fd1
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],GetSize method, TRefPointerCollection.GetSize, TRefPointerCollection::GetSize, _hmm_trefpointercollection_getsize, refptrco/TRefPointerCollection::GetSize, wmi.trefpointercollection_getsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: refptrco.h
 req.include-header: FwCommon.h

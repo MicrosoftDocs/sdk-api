@@ -1,16 +1,16 @@
 ---
 UID: NS:callobj.__MIDL_ICallFrame_0001
 title: "__MIDL_ICallFrame_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information about a call frame such as the method in the call frame, if it has in, out, or in/out parameters, the number of [in], [out], or [in, out] interfaces, the interface ID, the number of methods in the interface and the number of parameters in this method.
 old-location: com\callframeinfo.htm
 old-project: com
 ms.assetid: 3d490c8b-d254-458b-b355-39c3942ddc5e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CALLFRAMEINFO, CALLFRAMEINFO structure [COM], __MIDL_ICallFrame_0001, callobj/CALLFRAMEINFO, com.callframeinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: callobj.h
 req.include-header: 

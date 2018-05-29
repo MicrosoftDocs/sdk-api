@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.VARIANT_UserFree64
 title: VARIANT_UserFree64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees resources on the server side when called by RPC stub files.
 old-location: automat\variant_userfree64.htm
 old-project: automat
 ms.assetid: d36c9c17-13b1-4f68-9406-f17ed4c39062
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VARIANT_UserFree64, VARIANT_UserFree64 function [Automation], automat.variant_userfree64, oaidl/VARIANT_UserFree64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 

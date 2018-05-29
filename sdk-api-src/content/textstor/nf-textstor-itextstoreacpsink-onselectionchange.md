@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnSelectionChange
 title: ITextStoreACPSink::OnSelectionChange
-author: windows-driver-content
+author: windows-sdk-content
 description: ITextStoreACPSink::OnSelectionChange method
 old-location: tsf\itextstoreacpsink_onselectionchange.htm
 old-project: TSF
 ms.assetid: 500333ae-06dc-4194-a21b-e03c1acc9f9a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnSelectionChange method, ITextStoreACPSink.OnSelectionChange, ITextStoreACPSink::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Text Services Framework], OnSelectionChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onselectionchange_ref, textstor/ITextStoreACPSink::OnSelectionChange, tsf.itextstoreacpsink_onselectionchange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

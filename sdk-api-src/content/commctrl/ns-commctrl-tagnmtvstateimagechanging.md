@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMTVSTATEIMAGECHANGING
 title: tagNMTVSTATEIMAGECHANGING
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an NM_TVSTATEIMAGECHANGING notification code.
 old-location: controls\NMTVSTATEIMAGECHANGING.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvstateimagechanging.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMTVSTATEIMAGECHANGING, LPNMTVSTATEIMAGECHANGING, LPNMTVSTATEIMAGECHANGING structure pointer [Windows Controls], NMTVSTATEIMAGECHANGING, NMTVSTATEIMAGECHANGING structure [Windows Controls], _shell_NMTVSTATEIMAGECHANGING, _shell_NMTVSTATEIMAGECHANGING_cpp, commctrl/LPNMTVSTATEIMAGECHANGING, commctrl/NMTVSTATEIMAGECHANGING, controls.NMTVSTATEIMAGECHANGING, controls._shell_NMTVSTATEIMAGECHANGING, tagNMTVSTATEIMAGECHANGING"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

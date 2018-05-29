@@ -1,16 +1,16 @@
 ---
 UID: NF:tsgpolicyengine.ITSGPolicyEngine.AuthorizeConnection
 title: ITSGPolicyEngine::AuthorizeConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the specified connection is authorized to connect to Remote Desktop Gateway (RD Gateway).
 old-location: termserv\itsgpolicyengine_authorizeconnection.htm
 old-project: TermServ
 ms.assetid: 41a61eef-c8fe-4e08-b793-a58553f31646
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthorizeConnection, AuthorizeConnection method [Remote Desktop Services], AuthorizeConnection method [Remote Desktop Services],ITSGPolicyEngine interface, ITSGPolicyEngine interface [Remote Desktop Services],AuthorizeConnection method, ITSGPolicyEngine.AuthorizeConnection, ITSGPolicyEngine::AuthorizeConnection, termserv.itsgpolicyengine_authorizeconnection, tsgpolicyengine/ITSGPolicyEngine::AuthorizeConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tsgpolicyengine.h
 req.include-header: 

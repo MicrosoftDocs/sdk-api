@@ -1,16 +1,16 @@
 ---
 UID: NF:magnification.MagSetImageScalingCallback
 title: MagSetImageScalingCallback function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the callback function for external image filtering and scaling.
 old-location: magapi\magapi_MagSetImageScalingCallback.htm
 old-project: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetimagescalingcallback.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: MagSetImageScalingCallback, MagSetImageScalingCallback function [Magnification API], magapi.magapi_MagSetImageScalingCallback, magapi_MagSetImageScalingCallback, magnification/MagSetImageScalingCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: magnification.h
 req.include-header: 

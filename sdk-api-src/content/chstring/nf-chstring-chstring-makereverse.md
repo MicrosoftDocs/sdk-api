@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.MakeReverse
 title: CHString::MakeReverse
-author: windows-driver-content
+author: windows-sdk-content
 description: The MakeReverse method reverses the order of the characters in a CHString string.
 old-location: wmi\chstring_makereverse.htm
 old-project: WmiSdk
 ms.assetid: 129792cf-e442-4491-b921-273363809210
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],MakeReverse method, CHString.MakeReverse, CHString::MakeReverse, MakeReverse, MakeReverse method [Windows Management Instrumentation], MakeReverse method [Windows Management Instrumentation],CHString interface, _hmm_chstring_makereverse, chstring/CHString::MakeReverse, wmi.chstring_makereverse
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

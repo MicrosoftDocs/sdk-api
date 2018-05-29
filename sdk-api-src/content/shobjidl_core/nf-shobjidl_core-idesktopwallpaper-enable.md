@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.Enable
 title: IDesktopWallpaper::Enable
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables the desktop background.
 old-location: shell\IDesktopWallpaper_Enable.htm
 old-project: shell
 ms.assetid: 8BC04B93-4BF4-4713-8EF8-C4BCF1C8090E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Enable, Enable method [Windows Shell], Enable method [Windows Shell],IDesktopWallpaper interface, IDesktopWallpaper interface [Windows Shell],Enable method, IDesktopWallpaper.Enable, IDesktopWallpaper::Enable, shell.IDesktopWallpaper_Enable, shobjidl_core/IDesktopWallpaper::Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

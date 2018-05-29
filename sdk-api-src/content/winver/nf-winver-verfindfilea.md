@@ -1,16 +1,16 @@
 ---
 UID: NF:winver.VerFindFileA
 title: VerFindFileA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines where to install a file based on whether it locates another version of the file in the system. The values VerFindFile returns in the specified buffers are used in a subsequent call to the VerInstallFile function.
 old-location: menurc\verfindfile.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\verfindfile.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: VFFF_ISSHAREDFILE, VerFindFile, VerFindFile function [Menus and Other Resources], VerFindFileA, VerFindFileW, _win32_VerFindFile, _win32_verfindfile_cpp, menurc.verfindfile, winui._win32_verfindfile, winver/VerFindFile, winver/VerFindFileA, winver/VerFindFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winver.h
 req.include-header: Windows.h

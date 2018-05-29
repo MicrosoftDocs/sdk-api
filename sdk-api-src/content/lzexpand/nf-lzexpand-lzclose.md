@@ -1,16 +1,16 @@
 ---
 UID: NF:lzexpand.LZClose
 title: LZClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a file that was opened by using the LZOpenFile function.
 old-location: fs\lzclose.htm
 old-project: FileIO
 ms.assetid: ba535eb7-8d9b-4290-af1f-495e9737cd38
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: LZClose, LZClose function [Files], _win32_lzclose, base.lzclose, fs.lzclose, lzexpand/LZClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lzexpand.h
 req.include-header: Windows.h

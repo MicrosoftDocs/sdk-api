@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.IWMDMStorage2
 title: IWMDMStorage2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMDMStorage2 interface extends IWMDMStorage by making it possible to get a child storage by name, and to get and set extended attributes. IWMDMStorage3 interface extends this interface by supporting metadata.
 old-location: wmdm\iwmdmstorage2.htm
 old-project: WMDM
 ms.assetid: 1283a5b5-d893-4795-a50a-5a3bd6fce8d5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMStorage2, IWMDMStorage2 interface [windows Media Device Manager], IWMDMStorage2 interface [windows Media Device Manager],described, IWMDMStorage2Interface, mswmdm/IWMDMStorage2, wmdm.iwmdmstorage2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

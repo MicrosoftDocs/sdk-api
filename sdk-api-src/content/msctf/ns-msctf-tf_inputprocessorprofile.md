@@ -1,16 +1,16 @@
 ---
 UID: NS:msctf.TF_INPUTPROCESSORPROFILE
 title: TF_INPUTPROCESSORPROFILE
-author: windows-driver-content
+author: windows-sdk-content
 description: This structure contains data for the input processor profile.
 old-location: tsf\tf_inputprocessorprofile.htm
 old-project: TSF
 ms.assetid: fecaf8f5-1323-4a2e-94ee-26b5712ed643
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TF_INPUTPROCESSORPROFILE, TF_INPUTPROCESSORPROFILE structure [Text Services Framework], _tsf_tf_inputprocessorprofile_ref, msctf/TF_INPUTPROCESSORPROFILE, tsf.tf_inputprocessorprofile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msctf.h
 req.include-header: 

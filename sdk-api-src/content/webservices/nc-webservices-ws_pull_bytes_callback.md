@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_PULL_BYTES_CALLBACK
 title: WS_PULL_BYTES_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by the WsPullBytes function to request the data that should be written.
 old-location: wsw\ws_pull_bytes_callback.htm
 old-project: wsw
 ms.assetid: 84634ecc-056f-4fcc-838e-93f0dfc06e8d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_PULL_BYTES_CALLBACK, WS_PULL_BYTES_CALLBACK callback, WS_PULL_BYTES_CALLBACK callback function [Web Services for Windows], webservices/WS_PULL_BYTES_CALLBACK, wsw.ws_pull_bytes_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

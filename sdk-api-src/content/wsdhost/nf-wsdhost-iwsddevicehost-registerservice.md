@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.RegisterService
 title: IWSDDeviceHost::RegisterService
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a service object for incoming requests and adds the service to the device host metadata.
 old-location: ncd\iwsddevicehost_registerservice_method.htm
 old-project: WsdApi
 ms.assetid: 8e125e72-4060-4be6-b370-b2f6b24d9da7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDDeviceHost interface,RegisterService method, IWSDDeviceHost.RegisterService, IWSDDeviceHost::RegisterService, RegisterService, RegisterService method, RegisterService method,IWSDDeviceHost interface, ncd.iwsddevicehost_registerservice_method, wsdhost/IWSDDeviceHost::RegisterService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

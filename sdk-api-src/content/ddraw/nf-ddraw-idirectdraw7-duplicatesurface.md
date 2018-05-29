@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDraw7.DuplicateSurface
 title: IDirectDraw7::DuplicateSurface
-author: windows-driver-content
+author: windows-sdk-content
 description: Duplicates a DirectDrawSurface object.
 old-location: directdraw\idirectdraw7_duplicatesurface.htm
 old-project: directdraw
 ms.assetid: 515219e9-95e9-41fd-9797-d143cd542ef6
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DuplicateSurface, DuplicateSurface method [DirectDraw], DuplicateSurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],DuplicateSurface method, IDirectDraw7.DuplicateSurface, IDirectDraw7::DuplicateSurface, ddraw/IDirectDraw7::DuplicateSurface, directdraw.idirectdraw7_duplicatesurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

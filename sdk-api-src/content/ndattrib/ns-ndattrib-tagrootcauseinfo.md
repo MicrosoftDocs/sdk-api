@@ -1,16 +1,16 @@
 ---
 UID: NS:ndattrib.tagRootCauseInfo
 title: tagRootCauseInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains detailed information about the root cause of an incident.
 old-location: ndf\rootcauseinfo.htm
 old-project: NDF
 ms.assetid: 01d02658-ae12-4465-94fc-7a966dcdd8fb
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PRootCauseInfo, RCF_ISCONFIRMED, RCF_ISLEAF, RCF_ISTHIRDPARTY, RootCauseInfo, RootCauseInfo structure [NDF], ndattrib/RootCauseInfo, ndf.rootcauseinfo, tagRootCauseInfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndattrib.h
 req.include-header: 

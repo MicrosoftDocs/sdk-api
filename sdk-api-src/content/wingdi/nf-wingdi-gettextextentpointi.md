@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetTextExtentPointI
 title: GetTextExtentPointI function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTextExtentPointI function computes the width and height of the specified array of glyph indices.
 old-location: gdi\gettextextentpointi.htm
 old-project: gdi
 ms.assetid: d06a48dd-3f38-4c60-a4c6-954e43f718d1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTextExtentPointI, GetTextExtentPointI function [Windows GDI], _win32_GetTextExtentPointI, gdi.gettextextentpointi, wingdi/GetTextExtentPointI
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

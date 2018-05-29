@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi1_5.IDXGISwapChain4
 title: IDXGISwapChain4
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface exposes a single method for setting video metadata.
 old-location: direct3ddxgi\idxgiswapchain4.htm
 old-project: direct3ddxgi
 ms.assetid: F24AF5B3-AEEF-433E-A597-4A588B9B1D2B
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGISwapChain4, IDXGISwapChain4 interface [DXGI], IDXGISwapChain4 interface [DXGI],described, direct3ddxgi.idxgiswapchain4, dxgi1_5/IDXGISwapChain4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_5.h
 req.include-header: 

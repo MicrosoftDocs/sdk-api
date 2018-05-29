@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.LineDDA
 title: LineDDA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The LineDDA function determines which pixels should be highlighted for a line defined by the specified starting and ending points.
 old-location: gdi\linedda.htm
 old-project: gdi
 ms.assetid: 1400d947-324a-4921-9f65-f5d3a11005da
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LineDDA, LineDDA function [Windows GDI], _win32_LineDDA, gdi.linedda, wingdi/LineDDA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

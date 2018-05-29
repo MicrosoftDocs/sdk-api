@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.GetFlags
 title: IPhotoAcquireSettings::GetFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetFlags method retrieves the photo acquire flags.
 old-location: picacq\iphotoacquiresettings_getflags.htm
 old-project: acquisition
 ms.assetid: 9ed9183b-c1a2-4251-bb65-bd947c2034ad
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetFlags, GetFlags method [Picture Acquisition], GetFlags method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetFlags method, IPhotoAcquireSettings.GetFlags, IPhotoAcquireSettings::GetFlags, IPhotoAcquireSettingsGetFlags, photoacquire/IPhotoAcquireSettings::GetFlags, picacq.iphotoacquiresettings_getflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

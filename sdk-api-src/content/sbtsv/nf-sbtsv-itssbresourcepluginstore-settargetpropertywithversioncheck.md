@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck
 title: ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of a property of a target.
 old-location: termserv\itssbresourcepluginstore_settargetpropertywithversioncheck.htm
 old-project: TermServ
 ms.assetid: 51b5e267-da1a-4d83-81bc-0cf8fb525fa9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetTargetPropertyWithVersionCheck method, ITsSbResourcePluginStore.SetTargetPropertyWithVersionCheck, ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, SetTargetPropertyWithVersionCheck, SetTargetPropertyWithVersionCheck method [Remote Desktop Services], SetTargetPropertyWithVersionCheck method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetTargetPropertyWithVersionCheck, termserv.itssbresourcepluginstore_settargetpropertywithversioncheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IStringCollection.Copy
 title: IStringCollection::Copy
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a deep read/write copy of the collection.
 old-location: wua\istringcollection_copy.htm
 old-project: Wua_Sdk
 ms.assetid: e2f6d5c0-c92a-44e5-a322-f336a3ef64ce
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Copy, Copy method [Windows Update Agent], Copy method [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Copy method, IStringCollection.Copy, IStringCollection::Copy, wua.istringcollection_copy, wuapi/IStringCollection::Copy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

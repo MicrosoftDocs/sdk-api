@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj_core._tagIE4COMPONENT
 title: "_tagIE4COMPONENT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by Microsoft Internet Explorer 4.0 and Microsoft Internet Explorer 4.01 to hold information about a component. With Windows 2000, it is replaced by the COMPONENT structure.
 old-location: shell\IE4COMPONENT.htm
 old-project: shell
 ms.assetid: 5fcb2853-271b-4fcc-a3ea-0c2c6dd68195
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPIE4COMPONENT, COMP_TYPE_CONTROL, COMP_TYPE_HTMLDOC, COMP_TYPE_PICTURE, COMP_TYPE_WEBSITE, IE4COMPONENT, IE4COMPONENT structure [Windows Shell], LPIE4COMPONENT, LPIE4COMPONENT structure pointer [Windows Shell], _shell_IE4COMPONENT, _tagIE4COMPONENT, shell.IE4COMPONENT, shlobj_core/IE4COMPONENT, shlobj_core/LPIE4COMPONENT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

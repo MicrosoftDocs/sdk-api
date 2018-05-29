@@ -1,16 +1,16 @@
 ---
 UID: NS:p2p.peer_version_data_tag
 title: peer_version_data_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PEER_VERSION_DATA structure contains the version information about the Peer Graphing and Grouping APIs.
 old-location: p2p\peer_version_data.htm
 old-project: P2PSdk
 ms.assetid: b212101f-8c34-41d1-92b9-4daf3591200e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*PPEER_VERSION_DATA, PEER_VERSION_DATA, PEER_VERSION_DATA structure [Peer Networking], PPEER_VERSION_DATA, PPEER_VERSION_DATA structure pointer [Peer Networking], p2p.peer_version_data, p2p/PPEER_VERSION_DATA, p2p/peer_version_data_tag, peer_version_data_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

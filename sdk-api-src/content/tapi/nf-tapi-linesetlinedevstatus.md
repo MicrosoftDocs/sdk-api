@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSetLineDevStatus
 title: lineSetLineDevStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSetLineDevStatus function sets the line device status.
 old-location: tapi2\linesetlinedevstatus.htm
 old-project: Tapi
 ms.assetid: c8eb142d-5160-49f3-81c1-61094c180df8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesetlinedevstatus, lineSetLineDevStatus, lineSetLineDevStatus function [TAPI 2.2], tapi/lineSetLineDevStatus, tapi2.linesetlinedevstatus"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

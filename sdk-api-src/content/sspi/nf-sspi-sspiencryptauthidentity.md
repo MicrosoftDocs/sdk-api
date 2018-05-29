@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SspiEncryptAuthIdentity
 title: SspiEncryptAuthIdentity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Encrypts the specified identity structure.
 old-location: security\sspiencryptauthidentity.htm
 old-project: SecAuthN
 ms.assetid: 4460f7ec-35fd-4ad1-8c20-dda9f4d3477a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SspiEncryptAuthIdentity, SspiEncryptAuthIdentity function [Security], security.sspiencryptauthidentity, sspi/SspiEncryptAuthIdentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

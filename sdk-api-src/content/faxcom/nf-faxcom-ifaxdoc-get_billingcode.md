@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_BillingCode
 title: IFaxDoc::get_BillingCode
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the BillingCode property of a FaxDoc object. The BillingCode property is a null-terminated string that contains an optional billing code that applies to the fax transmission.
 old-location: fax\_mfax_ifaxdoc_get_billingcode_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_95yd.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: BillingCode property [Fax Service], BillingCode property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],BillingCode property, FaxDoc.BillingCode, IFaxDoc.get_BillingCode, IFaxDoc::get_BillingCode, _mfax_ifaxdoc_get_billingcode, fax._mfax_ifaxdoc_get_billingcode, fax._mfax_ifaxdoc_get_billingcode_vb, get_BillingCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.LookupPersistentTcpPortReservation
 title: LookupPersistentTcpPortReservation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Looks up the token for a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
 old-location: iphlp\lookuppersistenttcpportreservation.htm
 old-project: IpHlp
 ms.assetid: 5EBEB774-13A2-49C2-92ED-5271081615AA
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: LookupPersistentTcpPortReservation, LookupPersistentTcpPortReservation function [IP Helper], iphlp.lookuppersistenttcpportreservation, iphlpapi/LookupPersistentTcpPortReservation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

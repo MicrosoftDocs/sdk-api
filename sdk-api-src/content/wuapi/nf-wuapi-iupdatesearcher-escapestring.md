@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.EscapeString
 title: IUpdateSearcher::EscapeString
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a string into a string that can be used as a literal value in a search criteria string.
 old-location: wua\iupdatesearcherescapestring.htm
 old-project: Wua_Sdk
 ms.assetid: 27d510da-3d0c-4a8a-89c9-4abc009489b4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: EscapeString, EscapeString method [Windows Update Agent], EscapeString method [Windows Update Agent],IUpdateSearcher interface, IUpdateSearcher interface [Windows Update Agent],EscapeString method, IUpdateSearcher.EscapeString, IUpdateSearcher::EscapeString, wua.iupdatesearcherescapestring, wuapi/IUpdateSearcher::EscapeString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupRemoveSectionFromDiskSpaceListA
 title: SetupRemoveSectionFromDiskSpaceListA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupRemoveSectionFromDiskSpaceList function removes the file delete or copy operations listed in a Copy Files section of an INF file from a disk-space list.
 old-location: setup\setupremovesectionfromdiskspacelist.htm
 old-project: SetupApi
 ms.assetid: 0ac9becd-bdd5-4017-b880-4f226150d275
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: FILEOP_COPY, FILEOP_DELETE, SetupRemoveSectionFromDiskSpaceList, SetupRemoveSectionFromDiskSpaceList function [Setup API], SetupRemoveSectionFromDiskSpaceListA, SetupRemoveSectionFromDiskSpaceListW, _setupapi_setupremovesectionfromdiskspacelist, setup.setupremovesectionfromdiskspacelist, setupapi/SetupRemoveSectionFromDiskSpaceList, setupapi/SetupRemoveSectionFromDiskSpaceListA, setupapi/SetupRemoveSectionFromDiskSpaceListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

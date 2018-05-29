@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComSecurityEvents.OnAuthenticateFail
 title: IComSecurityEvents::OnAuthenticateFail
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when a method call level authentication fails.
 old-location: cos\icomsecurityevents_onauthenticatefail.htm
 old-project: cossdk
 ms.assetid: 3ead4865-924c-40fb-9ed8-5b98c603c5cf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComSecurityEvents interface [COM+],OnAuthenticateFail method, IComSecurityEvents.OnAuthenticateFail, IComSecurityEvents::OnAuthenticateFail, OnAuthenticateFail, OnAuthenticateFail method [COM+], OnAuthenticateFail method [COM+],IComSecurityEvents interface, _dtc_IComSecurityEvents_OnAuthenticateFail, comsvcs/IComSecurityEvents::OnAuthenticateFail, cos.icomsecurityevents_onauthenticatefail
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

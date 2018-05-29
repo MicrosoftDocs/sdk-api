@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzRegisterSecurityEventSource
 title: AuthzRegisterSecurityEventSource function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a security event source with the Local Security Authority (LSA).
 old-location: security\authzregistersecurityeventsource.htm
 old-project: SecAuthZ
 ms.assetid: 726e480d-1a34-4fd6-ac2d-876fa08f4eae
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthzRegisterSecurityEventSource, AuthzRegisterSecurityEventSource function [Security], authz/AuthzRegisterSecurityEventSource, security.authzregistersecurityeventsource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

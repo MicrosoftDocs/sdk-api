@@ -1,16 +1,16 @@
 ---
 UID: NF:mstask.ITask.GetPriority
 title: ITask::GetPriority
-author: windows-driver-content
+author: windows-sdk-content
 description: This method retrieves the priority for the task.
 old-location: taskschd\itask_getpriority.htm
 old-project: TaskSchd
 ms.assetid: 4ace8ab8-e629-4cf9-9bdf-416b2f67c4cd
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetPriority, GetPriority method [Task Scheduler], GetPriority method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetPriority method, ITask.GetPriority, ITask::GetPriority, _msb_itask_getpriority, mstask/ITask::GetPriority, taskschd.itask_getpriority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

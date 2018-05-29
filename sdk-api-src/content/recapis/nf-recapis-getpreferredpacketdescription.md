@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.GetPreferredPacketDescription
 title: GetPreferredPacketDescription function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a packet description that contains the packet properties the recognizer uses.
 old-location: tablet\getpreferredpacketdescription.htm
 old-project: tablet
 ms.assetid: 6600b345-db7a-49ca-a54a-7d212952cb8f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 6600b345-db7a-49ca-a54a-7d212952cb8f, GetPreferredPacketDescription, GetPreferredPacketDescription function [Tablet PC], recapis/GetPreferredPacketDescription, tablet.getpreferredpacketdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

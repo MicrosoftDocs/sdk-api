@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.GetNotificationResourceManagerAsync
 title: GetNotificationResourceManagerAsync function
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests and receives asynchronous notification for a resource manager (RM). This function is used by the RM register to receive notifications when a transaction changes state.
 old-location: fs\getnotificationresourcemanagerasync.htm
 old-project: Ktm
 ms.assetid: c83e104b-6cd7-4399-8232-7c2e7b408f1a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetNotificationResourceManagerAsync, GetNotificationResourceManagerAsync function [Files], fs.getnotificationresourcemanagerasync, ktmw32/GetNotificationResourceManagerAsync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10DepthStencilState.GetDesc
 title: ID3D10DepthStencilState::GetDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the depth-stencil state.
 old-location: direct3d10\id3d10depthstencilstate_getdesc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10depthstencilstate_getdesc.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10DepthStencilState interface, ID3D10DepthStencilState interface [Direct3D 10],GetDesc method, ID3D10DepthStencilState.GetDesc, ID3D10DepthStencilState::GetDesc, b619fad1-5159-b9ea-3203-439bc2625a45, d3d10/ID3D10DepthStencilState::GetDesc, direct3d10.id3d10depthstencilstate_getdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

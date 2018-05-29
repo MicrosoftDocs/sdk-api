@@ -1,16 +1,16 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.SetGroupingParam
 title: IAudioSessionControl::SetGroupingParam
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetGroupingParam method assigns a session to a grouping of sessions.
 old-location: coreaudio\iaudiosessioncontrol_setgroupingparam.htm
 old-project: CoreAudio
 ms.assetid: 990bebd9-c37d-4f72-b349-a43a074d8992
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],SetGroupingParam method, IAudioSessionControl.SetGroupingParam, IAudioSessionControl::SetGroupingParam, IAudioSessionControlSetGroupingParam, SetGroupingParam, SetGroupingParam method [Core Audio], SetGroupingParam method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::SetGroupingParam, coreaudio.iaudiosessioncontrol_setgroupingparam
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

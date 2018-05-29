@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.GetErrorInfo
 title: GetErrorInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the error information pointer set by the previous call to SetErrorInfo in the current logical thread.
 old-location: automat\geterrorinfo.htm
 old-project: automat
 ms.assetid: 03317526-8c4f-4173-bc10-110c8112676a
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetErrorInfo, GetErrorInfo function [Automation], _oa96_GetErrorInfo, automat.geterrorinfo, oleauto/GetErrorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

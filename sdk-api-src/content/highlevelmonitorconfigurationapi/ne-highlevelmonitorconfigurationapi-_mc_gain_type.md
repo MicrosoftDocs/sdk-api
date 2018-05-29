@@ -1,16 +1,16 @@
 ---
 UID: NE:highlevelmonitorconfigurationapi._MC_GAIN_TYPE
 title: "_MC_GAIN_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether to get or set a monitor's red, green, or blue gain.
 old-location: monitor\mc_gain_type.htm
 old-project: Monitor
 ms.assetid: 330b7891-bc65-4c78-bb43-f8fcd2a6b1c3
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: MC_BLUE_GAIN, MC_GAIN_TYPE, MC_GAIN_TYPE , MC_GAIN_TYPE enumeration [Monitor Configuration], MC_GREEN_GAIN, MC_RED_GAIN, _MC_GAIN_TYPE, highlevelmonitorconfigurationapi/MC_BLUE_GAIN, highlevelmonitorconfigurationapi/MC_GAIN_TYPE, highlevelmonitorconfigurationapi/MC_GREEN_GAIN, highlevelmonitorconfigurationapi/MC_RED_GAIN, monitor.mc_gain_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

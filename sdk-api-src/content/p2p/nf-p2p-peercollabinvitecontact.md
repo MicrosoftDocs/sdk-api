@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerCollabInviteContact
 title: PeerCollabInviteContact function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends an invitation to join a peer collaboration activity to a trusted contact. This call is synchronous and, if successful, obtains a response from the contact.
 old-location: p2p\peercollabinvitecontact.htm
 old-project: P2PSdk
 ms.assetid: 65c6cdb5-33af-435c-9444-42f8689e13a8
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerCollabInviteContact, PeerCollabInviteContact function [Peer Networking], p2p.peercollabinvitecontact, p2p/PeerCollabInviteContact
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

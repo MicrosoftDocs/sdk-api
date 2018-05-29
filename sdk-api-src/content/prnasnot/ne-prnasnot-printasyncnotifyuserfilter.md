@@ -1,16 +1,16 @@
 ---
 UID: NE:prnasnot.PrintAsyncNotifyUserFilter
 title: PrintAsyncNotifyUserFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether notifications will go only to listening applications that are associated with the same user as the Print Spooler-hosted sender, or go to a broader set of listening applications.
 old-location: gdi\printasyncnotifyuserfilter.htm
 old-project: printdocs
 ms.assetid: 89893e25-486a-4cef-b1a6-f812c8cc1fe2
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PrintAsyncNotifyUserFilter, PrintAsyncNotifyUserFilter enumeration [Windows GDI], _win32_PrintAsyncNotifyUserFilter, gdi.printasyncnotifyuserfilter, kAllUsers, kPerUser, prnasnot/PrintAsyncNotifyUserFilter, prnasnot/kAllUsers, prnasnot/kPerUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: prnasnot.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextSelection.GetFlags
 title: ITextSelection::GetFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the text selection flags.
 old-location: controls\ITextSelection_GetFlags.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getflags.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetFlags, GetFlags method [Windows Controls], GetFlags method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],GetFlags method, ITextSelection.GetFlags, ITextSelection::GetFlags, _win32_ITextSelection_GetFlags, _win32_ITextSelection_GetFlags_cpp, controls.ITextSelection_GetFlags, controls._win32_ITextSelection_GetFlags, tom/ITextSelection::GetFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

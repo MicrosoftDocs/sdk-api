@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetLength
 title: IIsdbSIParameterDescriptor::GetLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the body length of a service information (SI) parameter descriptor, in bytes.
 old-location: mstv\iisdbsiparameterdescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 6e4ac80d-30a9-4879-9cd3-a3964c675b27
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbSIParameterDescriptor.GetLength, IIsdbSIParameterDescriptor::GetLength, dvbsiparser/IIsdbSIParameterDescriptor::GetLength, mstv.iisdbsiparameterdescriptor_getlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

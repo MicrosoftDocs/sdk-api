@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif._NORMALIZEDRECT
 title: "_NORMALIZEDRECT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The NORMALIZEDRECT structure is used with the VMR filter in mixing operations to specify the location of a video rectangle in composition space.
 old-location: dshow\normalizedrect.htm
 old-project: DirectShow
 ms.assetid: c40a0feb-f33e-40e3-9c58-0a22d2aa1858
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PNORMALIZEDRECT, NORMALIZEDRECT, NORMALIZEDRECT structure [DirectShow], NORMALIZEDRECT2, PNORMALIZEDRECT, PNORMALIZEDRECT structure pointer [DirectShow], _NORMALIZEDRECT, dshow.normalizedrect, strmif/NORMALIZEDRECT, strmif/PNORMALIZEDRECT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

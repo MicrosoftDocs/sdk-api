@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetStereo3DFramePackingMode
 title: IMFMediaEngineEx::SetStereo3DFramePackingMode
-author: windows-driver-content
+author: windows-sdk-content
 description: For stereoscopic 3D video, sets the layout of the two views within a video frame.
 old-location: mf\imfmediaengineex_setstereo3dframepackingmode.htm
 old-project: medfound
 ms.assetid: E6B1EFA3-188E-495C-A38C-9CD48214BD23
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetStereo3DFramePackingMode method, IMFMediaEngineEx.SetStereo3DFramePackingMode, IMFMediaEngineEx::SetStereo3DFramePackingMode, SetStereo3DFramePackingMode, SetStereo3DFramePackingMode method [Media Foundation], SetStereo3DFramePackingMode method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setstereo3dframepackingmode, mfmediaengine/IMFMediaEngineEx::SetStereo3DFramePackingMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

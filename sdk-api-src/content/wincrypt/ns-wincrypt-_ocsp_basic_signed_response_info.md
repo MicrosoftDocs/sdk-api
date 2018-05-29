@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._OCSP_BASIC_SIGNED_RESPONSE_INFO
 title: "_OCSP_BASIC_SIGNED_RESPONSE_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a basic online certificate status protocol (OCSP) response with a signature.
 old-location: security\ocsp_basic_signed_response_info.htm
 old-project: SecCrypto
 ms.assetid: 4b88a946-030f-490a-b46a-c42507e1268d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*POCSP_BASIC_SIGNED_RESPONSE_INFO, OCSP_BASIC_SIGNED_RESPONSE_INFO, OCSP_BASIC_SIGNED_RESPONSE_INFO structure [Security], POCSP_BASIC_SIGNED_RESPONSE_INFO, POCSP_BASIC_SIGNED_RESPONSE_INFO structure pointer [Security], _OCSP_BASIC_SIGNED_RESPONSE_INFO, security.ocsp_basic_signed_response_info, wincrypt/OCSP_BASIC_SIGNED_RESPONSE_INFO, wincrypt/POCSP_BASIC_SIGNED_RESPONSE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

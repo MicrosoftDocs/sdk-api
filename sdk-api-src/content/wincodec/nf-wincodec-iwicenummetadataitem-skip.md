@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICEnumMetadataItem.Skip
 title: IWICEnumMetadataItem::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips to given number of objects.
 old-location: wic\_wic_codec_iwicenummetadataitem_skip.htm
 old-project: wic
 ms.assetid: 05c1c69c-ad87-42ff-947d-1f39a70605f3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICEnumMetadataItem interface [Windows Imaging Component],Skip method, IWICEnumMetadataItem.Skip, IWICEnumMetadataItem::Skip, Skip, Skip method [Windows Imaging Component], Skip method [Windows Imaging Component],IWICEnumMetadataItem interface, _wic_codec_iwicenummetadataitem_skip, wic._wic_codec_iwicenummetadataitem_skip, wincodec/IWICEnumMetadataItem::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

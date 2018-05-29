@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.VideoProcessorGetBehaviorHints
 title: ID3D11VideoContext1::VideoProcessorGetBehaviorHints
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns driver hints that indicate which of the video processor operations are best performed using multi-plane overlay hardware rather than ID3D11VideoContext::VideoProcessorBlt method.
 old-location: mf\id3d11videocontext1_videoprocessorgetbehaviorhints.htm
 old-project: medfound
 ms.assetid: DDA8B3DE-A9D2-48A5-ABEE-E3F7A0EEB965
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorGetBehaviorHints method, ID3D11VideoContext1.VideoProcessorGetBehaviorHints, ID3D11VideoContext1::VideoProcessorGetBehaviorHints, VideoProcessorGetBehaviorHints, VideoProcessorGetBehaviorHints method [Media Foundation], VideoProcessorGetBehaviorHints method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorGetBehaviorHints, mf.id3d11videocontext1_videoprocessorgetbehaviorhints
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 

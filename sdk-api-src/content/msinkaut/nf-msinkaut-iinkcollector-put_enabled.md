@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkCollector.put_Enabled
 title: IInkCollector::put_Enabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a value that specifies whether the InkCollector object collects pen input (in-air packets, cursor in range events, and so on).
 old-location: tablet\inkcollector_enabled.htm
 old-project: tablet
 ms.assetid: ab55a399-1990-4cfc-a4ab-834a5db8d7a9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],InkCollector class, IInkCollector.put_Enabled, IInkCollector::put_Enabled, InkCollector class [Tablet PC],Enabled property, InkCollector.Enabled, InkCollector.get_Enabled, InkCollector.put_Enabled, ab55a399-1990-4cfc-a4ab-834a5db8d7a9, get_Enabled, put_Enabled, tablet.inkcollector_enabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_PropertySet_ContainsElement
 title: MI_PropertySet_ContainsElement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the property list contains the specified property name.
 old-location: wmi_v2\mi_propertyset_containselement.htm
 old-project: wmi_v2
 ms.assetid: 71cf9c53-4e97-432c-9dfe-bef8ba119f71
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_PropertySet_ContainsElement, MI_PropertySet_ContainsElement function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_ContainsElement, wmi_v2.mi_propertyset_containselement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

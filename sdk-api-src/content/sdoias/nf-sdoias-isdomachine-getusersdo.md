@@ -1,16 +1,16 @@
 ---
 UID: NF:sdoias.ISdoMachine.GetUserSDO
 title: ISdoMachine::GetUserSDO
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetUserSDO method retrieves an interface to the Server Data Object (SDO) for the specified user.
 old-location: nps\SDO_isdomachine_getusersdo.htm
 old-project: Nps
 ms.assetid: c416c0db-836a-4056-bcd7-819f10923446
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetUserSDO, GetUserSDO method [Network Policy Server], GetUserSDO method [Network Policy Server],ISdoMachine interface, GetUserSDO method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetUserSDO method, ISdoMachine.GetUserSDO, ISdoMachine::GetUserSDO, SdoMachine object [Network Policy Server],GetUserSDO method, _sdo_isdomachine_getusersdo, nps.SDO_isdomachine_getusersdo, sdo.isdomachine_getusersdo, sdoias/ISdoMachine::GetUserSDO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateRadialGradientBrush
 title: IXpsOMObjectFactory::CreateRadialGradientBrush
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IXpsOMRadialGradientBrush interface.
 old-location: xps\ixpsomobjectfactory_createradialgradientbrush.htm
 old-project: printdocs
 ms.assetid: b91c9490-1995-48cb-a313-ef83f00b9c50
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CreateRadialGradientBrush, CreateRadialGradientBrush method [XPS Documents and Packaging], CreateRadialGradientBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateRadialGradientBrush method, IXpsOMObjectFactory.CreateRadialGradientBrush, IXpsOMObjectFactory::CreateRadialGradientBrush, xps.ixpsomobjectfactory_createradialgradientbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateRadialGradientBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

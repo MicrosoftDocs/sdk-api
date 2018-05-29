@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetTrackInformation
 title: IDiscRecorder2Ex::GetTrackInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the track information from the media.
 old-location: imapi\idiscrecorder2ex_gettrackinformation.htm
 old-project: imapi
 ms.assetid: bfb8c7b0-8fe4-4e41-8e71-31ea0af57619
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetTrackInformation, GetTrackInformation method [IMAPI], GetTrackInformation method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetTrackInformation method, IDiscRecorder2Ex.GetTrackInformation, IDiscRecorder2Ex::GetTrackInformation, imapi.idiscrecorder2ex_gettrackinformation, imapi2/IDiscRecorder2Ex::GetTrackInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage2.get_BootImageOptionsArray
 title: IFileSystemImage2::get_BootImageOptionsArray
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the boot option array that will be utilized to generate the file system image.
 old-location: imapi\ifilesystemimage2_get_bootimageoptionsarray.htm
 old-project: imapi
 ms.assetid: 31e4c8e8-7a00-41e7-b3cf-78dbc10fc3d2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFileSystemImage2 interface [IMAPI],get_BootImageOptionsArray method, IFileSystemImage2.get_BootImageOptionsArray, IFileSystemImage2::get_BootImageOptionsArray, get_BootImageOptionsArray, get_BootImageOptionsArray method [IMAPI], get_BootImageOptionsArray method [IMAPI],IFileSystemImage2 interface, imapi.ifilesystemimage2_get_bootimageoptionsarray, imapi2fs/IFileSystemImage2::get_BootImageOptionsArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.IWSDScopeMatchingRule.GetScopeRule
 title: IWSDScopeMatchingRule::GetScopeRule
-author: windows-driver-content
+author: windows-sdk-content
 description: Is called to return a URI defining the implemented scope matching rule.
 old-location: ncd\iwsdscopematchingrule_getscoperule_method.htm
 old-project: WsdApi
 ms.assetid: 86ce14eb-555f-4575-a335-8a428cffa20d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetScopeRule, GetScopeRule method, GetScopeRule method,IWSDScopeMatchingRule interface, IWSDScopeMatchingRule interface,GetScopeRule method, IWSDScopeMatchingRule.GetScopeRule, IWSDScopeMatchingRule::GetScopeRule, ncd.iwsdscopematchingrule_getscoperule_method, wsddisco/IWSDScopeMatchingRule::GetScopeRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

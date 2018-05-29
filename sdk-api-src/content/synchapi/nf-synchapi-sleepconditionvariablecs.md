@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.SleepConditionVariableCS
 title: SleepConditionVariableCS function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sleeps on the specified condition variable and releases the specified critical section as an atomic operation.
 old-location: base\sleepconditionvariablecs.htm
 old-project: Sync
 ms.assetid: af435aef-710a-4f97-bcfd-dcb7f2ec0253
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SleepConditionVariableCS, SleepConditionVariableCS function, base.sleepconditionvariablecs, synchapi/SleepConditionVariableCS, winbase/SleepConditionVariableCS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

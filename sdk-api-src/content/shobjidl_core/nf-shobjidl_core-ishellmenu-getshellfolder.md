@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.GetShellFolder
 title: IShellMenu::GetShellFolder
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the folder that the menu band is set to browse.
 old-location: shell\IShellMenu_GetShellFolder.htm
 old-project: shell
 ms.assetid: 6f88e1ee-950f-41b8-ad53-3bd7e8772f42
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetShellFolder, GetShellFolder method [Windows Shell], GetShellFolder method [Windows Shell],IShellMenu interface, IShellMenu interface [Windows Shell],GetShellFolder method, IShellMenu.GetShellFolder, IShellMenu::GetShellFolder, SMINIT_CACHED, SMINIT_DEFAULT, SMINIT_HORIZONTAL, SMINIT_RESTRICT_DRAGDROP, SMINIT_TOPLEVEL, SMINIT_VERTICAL, _shell_IShellMenu_GetShellFolder, shell.IShellMenu_GetShellFolder, shobjidl_core/IShellMenu::GetShellFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

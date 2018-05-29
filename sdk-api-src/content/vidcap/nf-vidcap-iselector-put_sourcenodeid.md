@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.ISelector.put_SourceNodeId
 title: ISelector::put_SourceNodeId
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_SourceNodeId method activates a source node.
 old-location: dshow\iselector_put_sourcenodeid.htm
 old-project: DirectShow
 ms.assetid: 6cf6a406-eeb8-45ba-9c4c-0fdc6d6a30cf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ISelector interface [DirectShow],put_SourceNodeId method, ISelector.put_SourceNodeId, ISelector::put_SourceNodeId, ISelectorput_SourceNodeId, dshow.iselector_put_sourcenodeid, put_SourceNodeId, put_SourceNodeId method [DirectShow], put_SourceNodeId method [DirectShow],ISelector interface, vidcap/ISelector::put_SourceNodeId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

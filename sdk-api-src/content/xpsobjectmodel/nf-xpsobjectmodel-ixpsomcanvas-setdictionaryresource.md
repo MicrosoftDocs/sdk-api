@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetDictionaryResource
 title: IXpsOMCanvas::SetDictionaryResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the IXpsOMRemoteDictionaryResource interface pointer of the remote dictionary resource.
 old-location: xps\ixpsomcanvas_setdictionaryresource.htm
 old-project: printdocs
 ms.assetid: 8f6a80e9-fa66-45fa-bee9-c80a64a4593f
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetDictionaryResource method, IXpsOMCanvas.SetDictionaryResource, IXpsOMCanvas::SetDictionaryResource, SetDictionaryResource, SetDictionaryResource method [XPS Documents and Packaging], SetDictionaryResource method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setdictionaryresource, xpsobjectmodel/IXpsOMCanvas::SetDictionaryResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

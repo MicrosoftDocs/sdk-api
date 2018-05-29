@@ -1,16 +1,16 @@
 ---
 UID: NS:faxroute._FAX_ROUTE_CALLBACKROUTINES
 title: "_FAX_ROUTE_CALLBACKROUTINES"
-author: windows-driver-content
+author: windows-sdk-content
 description: The FAX_ROUTE_CALLBACKROUTINES structure contains pointers to callback functions the fax service provides.
 old-location: fax\_mfax_fax_route_callbackroutines_str.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_6ctu.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PFAX_ROUTE_CALLBACKROUTINES, FAX_ROUTE_CALLBACKROUTINES, FAX_ROUTE_CALLBACKROUTINES structure [Fax Service], PFAX_ROUTE_CALLBACKROUTINES, PFAX_ROUTE_CALLBACKROUTINES structure pointer [Fax Service], _FAX_ROUTE_CALLBACKROUTINES, _mfax_fax_route_callbackroutines_str, fax._mfax_fax_route_callbackroutines_str, faxroute/FAX_ROUTE_CALLBACKROUTINES, faxroute/PFAX_ROUTE_CALLBACKROUTINES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: faxroute.h
 req.include-header: 

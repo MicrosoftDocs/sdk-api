@@ -1,16 +1,16 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticateUserSink.ReauthenticateUser
 title: ITSGAuthenticateUserSink::ReauthenticateUser
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies Remote Desktop Gateway (RD Gateway) that it should silently reauthenticate and reauthorize the user.
 old-location: termserv\itsgauthenticateusersink_reauthenticateuser.htm
 old-project: TermServ
 ms.assetid: f3706f72-d23c-49ac-9d81-3a38f8d399c8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITSGAuthenticateUserSink interface [Remote Desktop Services],ReauthenticateUser method, ITSGAuthenticateUserSink.ReauthenticateUser, ITSGAuthenticateUserSink::ReauthenticateUser, ReauthenticateUser, ReauthenticateUser method [Remote Desktop Services], ReauthenticateUser method [Remote Desktop Services],ITSGAuthenticateUserSink interface, termserv.itsgauthenticateusersink_reauthenticateuser, tsgauthenticationengine/ITSGAuthenticateUserSink::ReauthenticateUser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tsgauthenticationengine.h
 req.include-header: 

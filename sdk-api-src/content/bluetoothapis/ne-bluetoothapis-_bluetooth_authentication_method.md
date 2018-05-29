@@ -1,16 +1,16 @@
 ---
 UID: NE:bluetoothapis._BLUETOOTH_AUTHENTICATION_METHOD
 title: "_BLUETOOTH_AUTHENTICATION_METHOD"
-author: windows-driver-content
+author: windows-sdk-content
 description: BLUETOOTH_AUTHENTICATION_METHOD enumeration defines the supported authentication types during device pairing.
 old-location: bluetooth\bluetooth_authentication_method.htm
 old-project: Bluetooth
 ms.assetid: 2374df2c-2f50-4a06-aaad-384d81b067c5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PBLUETOOTH_AUTHENTICATION_METHOD, BLUETOOTH_AUTHENTICATION_METHOD, BLUETOOTH_AUTHENTICATION_METHOD enumeration [Bluetooth], BLUETOOTH_AUTHENTICATION_METHOD_LEGACY, BLUETOOTH_AUTHENTICATION_METHOD_NUMERIC_COMPARISON, BLUETOOTH_AUTHENTICATION_METHOD_OOB, BLUETOOTH_AUTHENTICATION_METHOD_PASSKEY, BLUETOOTH_AUTHENTICATION_METHOD_PASSKEY_NOTIFICATION, _BLUETOOTH_AUTHENTICATION_METHOD, bluetooth.bluetooth_authentication_method, bluetoothapis/BLUETOOTH_AUTHENTICATION_METHOD, bluetoothapis/BLUETOOTH_AUTHENTICATION_METHOD_LEGACY, bluetoothapis/BLUETOOTH_AUTHENTICATION_METHOD_NUMERIC_COMPARISON, bluetoothapis/BLUETOOTH_AUTHENTICATION_METHOD_OOB, bluetoothapis/BLUETOOTH_AUTHENTICATION_METHOD_PASSKEY, bluetoothapis/BLUETOOTH_AUTHENTICATION_METHOD_PASSKEY_NOTIFICATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

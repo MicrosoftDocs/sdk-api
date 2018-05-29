@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemprov.IWbemEventSink.IsActive
 title: IWbemEventSink::IsActive
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemEventSink::IsActive method is used by the provider to determine if there is interest in the events that the sink is filtering.
 old-location: wmi\iwbemeventsink_isactive.htm
 old-project: WmiSdk
 ms.assetid: dc5afbc1-60da-42ec-9dc3-79b66243690c
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemEventSink interface [Windows Management Instrumentation],IsActive method, IWbemEventSink.IsActive, IWbemEventSink::IsActive, IsActive, IsActive method [Windows Management Instrumentation], IsActive method [Windows Management Instrumentation],IWbemEventSink interface, _hmm_iwbemeventsink_isactive, wbemprov/IWbemEventSink::IsActive, wmi.iwbemeventsink_isactive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

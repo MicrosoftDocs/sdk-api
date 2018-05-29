@@ -1,16 +1,16 @@
 ---
 UID: NF:magnification.MagSetWindowTransform
 title: MagSetWindowTransform function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the transformation matrix for a magnifier control.
 old-location: magapi\magapi_MagSetWindowTransform.htm
 old-project: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetwindowtransform.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: MagSetWindowTransform, MagSetWindowTransform function [Magnification API], magapi.magapi_MagSetWindowTransform, magapi_MagSetWindowTransform, magnification/MagSetWindowTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: magnification.h
 req.include-header: 

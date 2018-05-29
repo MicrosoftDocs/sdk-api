@@ -1,16 +1,16 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1523
 title: "_SERVER_INFO_1523"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SERVER_INFO_1523 structure specifies the length of time the server retains information about incomplete search operations.
 old-location: netmgmt\server_info_1523_str.htm
 old-project: NetMgmt
 ms.assetid: 61cf462b-8a1d-455e-b664-6ee6a1a1375c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPSERVER_INFO_1523, *PSERVER_INFO_1523, LPSERVER_INFO_1523, LPSERVER_INFO_1523 structure pointer [Network Management], PSERVER_INFO_1523, PSERVER_INFO_1523 structure pointer [Network Management], SERVER_INFO_1523, SERVER_INFO_1523 structure [Network Management], _SERVER_INFO_1523, _win32_server_info_1523_str, lmserver/LPSERVER_INFO_1523, lmserver/PSERVER_INFO_1523, lmserver/SERVER_INFO_1523, netmgmt.server_info_1523_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptxml.CryptXmlOpenToEncode
 title: CryptXmlOpenToEncode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an XML digital signature to encode and returns a handle of the opened Signature element. The handle encapsulates a document context with a single CRYPT_XML_SIGNATURE structure and remains open until the CryptXmlClose function is called.
 old-location: security\cryptxmlopentoencode.htm
 old-project: SecCrypto
 ms.assetid: a313d14c-03fc-4719-bacd-c7b3e5ce2dba
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_FLAG_NO_SERIALIZE, CryptXmlOpenToEncode, CryptXmlOpenToEncode function [Security], cryptxml/CryptXmlOpenToEncode, security.cryptxmlopentoencode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

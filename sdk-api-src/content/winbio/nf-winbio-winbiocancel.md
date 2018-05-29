@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioCancel
 title: WinBioCancel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels all pending biometric operations for a specified session. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiocancel.htm
 old-project: SecBioMet
 ms.assetid: 62176608-1545-47d2-b4be-37bb2a4a064b
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WinBioCancel, WinBioCancel function [Windows Biometric Framework API], secbiomet.winbiocancel, winbio/WinBioCancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

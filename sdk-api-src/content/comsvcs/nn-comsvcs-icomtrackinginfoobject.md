@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IComTrackingInfoObject
 title: IComTrackingInfoObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the properties of a tracking information object.
 old-location: cos\icomtrackinginfoobject.htm
 old-project: cossdk
 ms.assetid: 2e27b2b5-a2f5-471d-9f3d-95b13c07037b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComTrackingInfoObject, IComTrackingInfoObject interface [COM+], IComTrackingInfoObject interface [COM+],described, _dtc_IComTrackingInfoObject, comsvcs/IComTrackingInfoObject, cos.icomtrackinginfoobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

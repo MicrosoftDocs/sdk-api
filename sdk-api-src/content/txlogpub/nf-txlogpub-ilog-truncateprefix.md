@@ -1,16 +1,16 @@
 ---
 UID: NF:txlogpub.ILog.TruncatePrefix
 title: ILog::TruncatePrefix
-author: windows-driver-content
+author: windows-sdk-content
 description: Throws away the specified prefix of the log, making it no longer retrievable.
 old-location: com\ilog_truncateprefix.htm
 old-project: com
 ms.assetid: 079c05b3-19ad-401d-ad5c-1095e897799f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ILog interface [COM],TruncatePrefix method, ILog.TruncatePrefix, ILog::TruncatePrefix, TruncatePrefix, TruncatePrefix method [COM], TruncatePrefix method [COM],ILog interface, _com_ilog_truncateprefix, com.ilog_truncateprefix, txlogpub/ILog::TruncatePrefix
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: txlogpub.h
 req.include-header: 

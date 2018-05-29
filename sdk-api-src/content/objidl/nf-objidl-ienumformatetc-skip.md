@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IEnumFORMATETC.Skip
 title: IEnumFORMATETC::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumformatetc_skip.htm
 old-project: com
 ms.assetid: 5fdf81ee-df31-4702-8b5e-f540ca3e6602
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumFORMATETC interface [COM],Skip method, IEnumFORMATETC.Skip, IEnumFORMATETC::Skip, Skip, Skip method [COM], Skip method [COM],IEnumFORMATETC interface, _ole_ienumformatetc_skip, com.ienumformatetc_skip, objidl/IEnumFORMATETC::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

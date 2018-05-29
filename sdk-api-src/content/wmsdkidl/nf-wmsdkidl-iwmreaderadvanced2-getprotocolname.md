@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetProtocolName
 title: IWMReaderAdvanced2::GetProtocolName
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetProtocolName method retrieves the name of the protocol that is being used.
 old-location: wmformat\iwmreaderadvanced2_getprotocolname.htm
 old-project: wmformat
 ms.assetid: 056d5f3f-79bf-4e21-9f2c-cda05eaca13d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetProtocolName, GetProtocolName method [windows Media Format], GetProtocolName method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetProtocolName method, IWMReaderAdvanced2.GetProtocolName, IWMReaderAdvanced2::GetProtocolName, IWMReaderAdvanced2GetProtocolName, wmformat.iwmreaderadvanced2_getprotocolname, wmsdkidl/IWMReaderAdvanced2::GetProtocolName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

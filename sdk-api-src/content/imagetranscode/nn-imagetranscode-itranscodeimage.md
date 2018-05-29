@@ -1,16 +1,16 @@
 ---
 UID: NN:imagetranscode.ITranscodeImage
 title: ITranscodeImage
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that allows conversion to JPEG or bitmap (BMP) image formats from any image type supported by Windows.
 old-location: shell\ITranscodeImage.htm
 old-project: shell
 ms.assetid: 747a7d5b-df7c-498b-a541-13c6561cebfe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITranscodeImage, ITranscodeImage interface [Windows Shell], ITranscodeImage interface [Windows Shell],described, _shell_ITranscodeImage, imagetranscode/ITranscodeImage, shell.ITranscodeImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imagetranscode.h
 req.include-header: 

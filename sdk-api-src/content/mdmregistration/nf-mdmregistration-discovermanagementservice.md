@@ -1,16 +1,16 @@
 ---
 UID: NF:mdmregistration.DiscoverManagementService
 title: DiscoverManagementService function
-author: windows-driver-content
+author: windows-sdk-content
 description: Discovers the MDM service.
 old-location: mdmreg\discovermanagementservice.htm
 old-project: MDMReg
 ms.assetid: 0b01225c-83db-4b13-ad7e-52beae05a8ee
-ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.author: windowssdkdev
+ms.date: 02/20/2018
 ms.keywords: DiscoverManagementService, DiscoverManagementService function [MDM Registration], mdmreg.discovermanagementservice, mdmregistration/DiscoverManagementService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mdmregistration.h
 req.include-header: 

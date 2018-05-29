@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.GetGUIDDescription
 title: ITfCategoryMgr::GetGUIDDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfCategoryMgr::GetGUIDDescription method
 old-location: tsf\itfcategorymgr_getguiddescription.htm
 old-project: TSF
 ms.assetid: e0c4f64e-7e20-4dff-b597-acc280aebf32
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetGUIDDescription, GetGUIDDescription method [Text Services Framework], GetGUIDDescription method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],GetGUIDDescription method, ITfCategoryMgr.GetGUIDDescription, ITfCategoryMgr::GetGUIDDescription, _tsf_itfcategorymgr_getguiddescription_ref, msctf/ITfCategoryMgr::GetGUIDDescription, tsf.itfcategorymgr_getguiddescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

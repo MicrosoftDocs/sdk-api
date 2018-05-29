@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrInqNextA
 title: RpcNsGroupMbrInqNextA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsGroupMbrInqNext function returns one entry name from a group at a time.
 old-location: rpc\rpcnsgroupmbrinqnext.htm
 old-project: Rpc
 ms.assetid: 58f32594-85de-4d20-86b2-210367ccb7ce
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsGroupMbrInqNext, RpcNsGroupMbrInqNext function [RPC], RpcNsGroupMbrInqNextA, RpcNsGroupMbrInqNextW, _rpc_rpcnsgroupmbrinqnext, rpc.rpcnsgroupmbrinqnext, rpcnsi/RpcNsGroupMbrInqNext, rpcnsi/RpcNsGroupMbrInqNextA, rpcnsi/RpcNsGroupMbrInqNextW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

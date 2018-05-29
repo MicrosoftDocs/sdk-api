@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.ULongToUInt8
 title: ULongToUInt8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type ULONG to a value of type UINT8.
 old-location: shell\ULongToUInt8.htm
 old-project: shell
 ms.assetid: 2d1db351-797f-4785-b67c-9ab6e661282a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DWordToByte, ULongToUInt8, ULongToUInt8 function [Windows Shell], intsafe/ULongToUInt8, shell.ULongToUInt8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

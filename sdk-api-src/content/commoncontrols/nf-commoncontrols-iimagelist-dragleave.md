@@ -1,16 +1,16 @@
 ---
 UID: NF:commoncontrols.IImageList.DragLeave
 title: IImageList::DragLeave
-author: windows-driver-content
+author: windows-sdk-content
 description: Unlocks the specified window and hides the drag image, which enables the window to update.
 old-location: controls\IImageList_DragLeave.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragleave.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DragLeave, DragLeave method [Windows Controls], DragLeave method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],DragLeave method, IImageList.DragLeave, IImageList::DragLeave, comctl_IImageList_DragLeave, comctl_IImageList_DragLeave_cpp, commoncontrols/IImageList::DragLeave, controls.IImageList_DragLeave, controls.comctl_IImageList_DragLeave
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 

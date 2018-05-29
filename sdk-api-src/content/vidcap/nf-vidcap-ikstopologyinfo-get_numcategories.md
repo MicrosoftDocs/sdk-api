@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.get_NumCategories
 title: IKsTopologyInfo::get_NumCategories
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_NumCategories method returns the number of categories for this filter.
 old-location: dshow\ikstopologyinfo_get_numcategories.htm
 old-project: DirectShow
 ms.assetid: 86bbe461-37c1-4dbc-bebd-fa8784d49083
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IKsTopologyInfo interface [DirectShow],get_NumCategories method, IKsTopologyInfo.get_NumCategories, IKsTopologyInfo::get_NumCategories, IKsTopologyInfoget_NumCategories, dshow.ikstopologyinfo_get_numcategories, get_NumCategories, get_NumCategories method [DirectShow], get_NumCategories method [DirectShow],IKsTopologyInfo interface, vidcap/IKsTopologyInfo::get_NumCategories
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

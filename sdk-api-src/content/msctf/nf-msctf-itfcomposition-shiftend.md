@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfComposition.ShiftEnd
 title: ITfComposition::ShiftEnd
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfComposition::ShiftEnd method
 old-location: tsf\itfcomposition_shiftend.htm
 old-project: TSF
 ms.assetid: 40472318-85de-4cff-ac60-adfcbacc1537
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfComposition interface [Text Services Framework],ShiftEnd method, ITfComposition.ShiftEnd, ITfComposition::ShiftEnd, ShiftEnd, ShiftEnd method [Text Services Framework], ShiftEnd method [Text Services Framework],ITfComposition interface, _tsf_itfcomposition_shiftend_ref, msctf/ITfComposition::ShiftEnd, tsf.itfcomposition_shiftend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

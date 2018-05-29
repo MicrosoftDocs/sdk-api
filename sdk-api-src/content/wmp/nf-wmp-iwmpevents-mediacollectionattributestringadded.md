@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaCollectionAttributeStringAdded
 title: IWMPEvents::MediaCollectionAttributeStringAdded
-author: windows-driver-content
+author: windows-sdk-content
 description: The MediaCollectionAttributeStringAdded event occurs when an attribute is added to the library.
 old-location: wmp\iwmpevents_iwmpevents__mediacollectionattributestringadded.htm
 old-project: WMP
 ms.assetid: c18aa7d1-2788-473d-8ade-5e897b83a4d6
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MediaCollectionAttributeStringAdded method, IWMPEvents.MediaCollectionAttributeStringAdded, IWMPEvents::MediaCollectionAttributeStringAdded, IWMPEventsMediaCollectionAttributeStringAdded, MediaCollectionAttributeStringAdded, MediaCollectionAttributeStringAdded method [Windows Media Player], MediaCollectionAttributeStringAdded method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mediacollectionattributestringadded, wmp/IWMPEvents::MediaCollectionAttributeStringAdded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

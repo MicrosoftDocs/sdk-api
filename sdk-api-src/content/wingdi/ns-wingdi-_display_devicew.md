@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi._DISPLAY_DEVICEW
 title: "_DISPLAY_DEVICEW"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DISPLAY_DEVICE structure receives information about the display device specified by the iDevNum parameter of the EnumDisplayDevices function.
 old-location: gdi\display_device.htm
 old-project: gdi
 ms.assetid: 9a7813fe-358a-44eb-99da-c63f98d055c3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPDISPLAY_DEVICEW, *PDISPLAY_DEVICEW, DISPLAY_DEVICE, DISPLAY_DEVICE structure [Windows GDI], DISPLAY_DEVICEA, DISPLAY_DEVICEW, PDISPLAY_DEVICE, PDISPLAY_DEVICE structure pointer [Windows GDI], _DISPLAY_DEVICEA, _DISPLAY_DEVICEW, _win32_DISPLAY_DEVICE_str, gdi.display_device, wingdi/DISPLAY_DEVICE, wingdi/DISPLAY_DEVICEA, wingdi/DISPLAY_DEVICEW, wingdi/PDISPLAY_DEVICE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryKeywordLocale
 title: ISearchQueryHelper::get_QueryKeywordLocale
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the language code identifier (LCID) for the locale to use when parsing Advanced Query Syntax (AQS) keywords.
 old-location: search\_search_ISearchQueryHelper_get_QueryKeywordLocale.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querykeywordlocale.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QueryKeywordLocale method, ISearchQueryHelper.get_QueryKeywordLocale, ISearchQueryHelper::get_QueryKeywordLocale, _search_ISearchQueryHelper_get_QueryKeywordLocale, get_QueryKeywordLocale, get_QueryKeywordLocale method [search], get_QueryKeywordLocale method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QueryKeywordLocale, searchapi/ISearchQueryHelper::get_QueryKeywordLocale
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfUIElementSink
 title: ITfUIElementSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfUIElementSink interface is implemented by an application to receive notifications when the UI element is changed.
 old-location: tsf\itfuielementsink.htm
 old-project: TSF
 ms.assetid: 8f77b3bc-2e47-4966-8030-d05a626ee00a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfUIElementSink, ITfUIElementSink interface [Text Services Framework], ITfUIElementSink interface [Text Services Framework],described, _tsf_itfuielementsink_ref, msctf/ITfUIElementSink, tsf.itfuielementsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

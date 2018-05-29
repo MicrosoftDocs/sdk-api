@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemServices.PutInstance
 title: IWbemServices::PutInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemServices::PutInstance method creates or updates an instance of an existing class. The instance is written to the WMI repository.
 old-location: wmi\iwbemservices_putinstance.htm
 old-project: WmiSdk
 ms.assetid: 1e07b328-40f7-4e14-bf53-9a5cebfc23f6
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemServices interface [Windows Management Instrumentation],PutInstance method, IWbemServices.PutInstance, IWbemServices::PutInstance, PutInstance, PutInstance method [Windows Management Instrumentation], PutInstance method [Windows Management Instrumentation],IWbemServices interface, WBEM_FLAG_CREATE_ONLY, WBEM_FLAG_CREATE_OR_UPDATE, WBEM_FLAG_RETURN_IMMEDIATELY, WBEM_FLAG_UPDATE_ONLY, WBEM_FLAG_USE_AMENDED_QUALIFIERS, _hmm_iwbemservices_putinstance, wbemcli/IWbemServices::PutInstance, wmi.iwbemservices_putinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

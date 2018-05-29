@@ -1,16 +1,16 @@
 ---
 UID: NF:icontact.IContactPropertyCollection.GetPropertyVersion
 title: IContactPropertyCollection::GetPropertyVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the version number for the current property in the enumeration.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyVersion.htm
 old-project: wincontacts
 ms.assetid: ff10129e-45cb-41a4-8800-22b33a238b65
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetPropertyVersion, GetPropertyVersion method [Windows Contacts], GetPropertyVersion method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyVersion method, IContactPropertyCollection.GetPropertyVersion, IContactPropertyCollection::GetPropertyVersion, _wincontacts_IContactPropertyCollection_GetPropertyVersion, icontact/IContactPropertyCollection::GetPropertyVersion, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

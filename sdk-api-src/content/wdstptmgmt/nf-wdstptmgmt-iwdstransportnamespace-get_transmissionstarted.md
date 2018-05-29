@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_TransmissionStarted
 title: IWdsTransportNamespace::get_TransmissionStarted
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives a value that indicates whether the server has started transmitting data under this namespace.
 old-location: wds\iwdstransportnamespace_transmissionstarted.htm
 old-project: Wds
 ms.assetid: abc395e5-aabe-478b-8232-48a107813da9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],TransmissionStarted property, IWdsTransportNamespace.TransmissionStarted, IWdsTransportNamespace.get_TransmissionStarted, IWdsTransportNamespace::TransmissionStarted, IWdsTransportNamespace::get_TransmissionStarted, TransmissionStarted property [Windows Deployment Services], TransmissionStarted property [Windows Deployment Services],IWdsTransportNamespace interface, get_TransmissionStarted, wds.iwdstransportnamespace_transmissionstarted, wdstptmgmt/IWdsTransportNamespace::TransmissionStarted, wdstptmgmt/IWdsTransportNamespace::get_TransmissionStarted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

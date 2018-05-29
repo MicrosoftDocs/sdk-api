@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfPropertyStore
 title: ITfPropertyStore
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfPropertyStore interface is implemented by a text service and used by the TSF manager to provide non-static property values. An instance of this interface is passed to ITfProperty::SetValueStore.
 old-location: tsf\itfpropertystore.htm
 old-project: TSF
 ms.assetid: 0678e622-3733-499b-b289-c8c181d4638c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfPropertyStore, ITfPropertyStore interface [Text Services Framework], ITfPropertyStore interface [Text Services Framework],described, _tsf_itfpropertystore_ref, msctf/ITfPropertyStore, tsf.itfpropertystore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

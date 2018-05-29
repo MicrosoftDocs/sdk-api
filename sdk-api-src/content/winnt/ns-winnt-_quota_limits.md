@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._QUOTA_LIMITS
 title: "_QUOTA_LIMITS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the amount of system resources available to a user.
 old-location: security\quota_limits.htm
 old-project: SecAuthN
 ms.assetid: 7514ec77-34b1-490d-ba21-3b6944942aa7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PQUOTA_LIMITS, PQUOTA_LIMITS, PQUOTA_LIMITS structure pointer [Security], QUOTA_LIMITS, QUOTA_LIMITS structure [Security], _QUOTA_LIMITS, _lsa_quota_limits, security.quota_limits, winnt/PQUOTA_LIMITS, winnt/QUOTA_LIMITS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

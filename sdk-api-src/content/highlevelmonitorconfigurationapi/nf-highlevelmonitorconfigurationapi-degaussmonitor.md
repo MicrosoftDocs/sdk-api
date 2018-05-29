@@ -1,16 +1,16 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.DegaussMonitor
 title: DegaussMonitor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Degausses a monitor.
 old-location: monitor\degaussmonitor.htm
 old-project: Monitor
 ms.assetid: 8f476ba3-24d2-456a-9335-873368993d71
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: DegaussMonitor, DegaussMonitor function [Monitor Configuration], highlevelmonitorconfigurationapi/DegaussMonitor, monitor.degaussmonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

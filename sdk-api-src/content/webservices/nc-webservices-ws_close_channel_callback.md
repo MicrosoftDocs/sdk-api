@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_CLOSE_CHANNEL_CALLBACK
 title: WS_CLOSE_CHANNEL_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles the WsCloseChannel call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_close_channel_callback.htm
 old-project: wsw
 ms.assetid: 363ac4e0-5cfe-4c12-ad06-027ec2b735e6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_CLOSE_CHANNEL_CALLBACK, WS_CLOSE_CHANNEL_CALLBACK callback, WS_CLOSE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_CLOSE_CHANNEL_CALLBACK, wsw.ws_close_channel_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

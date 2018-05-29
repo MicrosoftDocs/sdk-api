@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_ACDGroup
 title: ITAgentSession::get_ACDGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_ACDGroup method gets the ACD group associated with this session.
 old-location: tapi3\itagentsession_get_acdgroup.htm
 old-project: Tapi
 ms.assetid: ec80092d-ceff-432c-ba0a-695718b890af
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_ACDGroup method, ITAgentSession.get_ACDGroup, ITAgentSession::get_ACDGroup, _tapi3_itagentsession_get_acdgroup, get_ACDGroup, get_ACDGroup method [TAPI 2.2], get_ACDGroup method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_acdgroup, tapi3cc/ITAgentSession::get_ACDGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

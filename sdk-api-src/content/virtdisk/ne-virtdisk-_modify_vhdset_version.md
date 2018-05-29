@@ -1,16 +1,16 @@
 ---
 UID: NE:virtdisk._MODIFY_VHDSET_VERSION
 title: "_MODIFY_VHDSET_VERSION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the version of the MODIFY_VHDSET_PARAMETERS structure to use in calls to virtual disk functions.
 old-location: vhd\modify_vhdset_version.htm
 old-project: VStor
 ms.assetid: A93E73C9-63B2-49C3-A0E4-63BEC96F449A
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PMODIFY_VHDSET_VERSION, MODIFY_VHDSET_DEFAULT_SNAPSHOT_PATH, MODIFY_VHDSET_REMOVE_SNAPSHOT, MODIFY_VHDSET_SNAPSHOT_PATH, MODIFY_VHDSET_UNSPECIFIED, MODIFY_VHDSET_VERSION, MODIFY_VHDSET_VERSION enumeration [VHD], PMODIFY_VHDSET_VERSION, PMODIFY_VHDSET_VERSION enumeration pointer [VHD], _MODIFY_VHDSET_VERSION, vhd.modify_vhdset_version, virtdisk/MODIFY_VHDSET_DEFAULT_SNAPSHOT_PATH, virtdisk/MODIFY_VHDSET_REMOVE_SNAPSHOT, virtdisk/MODIFY_VHDSET_SNAPSHOT_PATH, virtdisk/MODIFY_VHDSET_UNSPECIFIED, virtdisk/MODIFY_VHDSET_VERSION, virtdisk/PMODIFY_VHDSET_VERSION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.Render
 title: IAMMultiMediaStream::Render
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The Render method renders the current filter graph.
 old-location: dshow\iammultimediastream_render.htm
 old-project: DirectShow
 ms.assetid: 09866cf0-650d-4d8e-81d4-6a568709c027
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMMultiMediaStream interface [DirectShow],Render method, IAMMultiMediaStream.Render, IAMMultiMediaStream::Render, IAMMultiMediaStreamRender, Render, Render method [DirectShow], Render method [DirectShow],IAMMultiMediaStream interface, amstream/IAMMultiMediaStream::Render, dshow.iammultimediastream_render
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

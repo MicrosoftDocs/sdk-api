@@ -1,16 +1,16 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioMetadataWriter
 title: ISpatialAudioMetadataWriter
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for storing spatial audio metadata items positioned within a range of corresponding audio frames.
 old-location: coreaudio\ispatialaudiometadatawriter.htm
 old-project: CoreAudio
 ms.assetid: F8CD8B79-9442-46D0-ABF5-5F6734474B01
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISpatialAudioMetadataWriter, ISpatialAudioMetadataWriter interface [Core Audio], ISpatialAudioMetadataWriter interface [Core Audio],described, coreaudio.ispatialaudiometadatawriter, spatialaudiometadata/ISpatialAudioMetadataWriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudiometadata.h
 req.include-header: 

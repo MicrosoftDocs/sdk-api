@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService.DisplayParseError
 title: IBrowserService::DisplayParseError
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Displays a URL that failed to be successfully parsed by IBrowserService::IEParseDisplayName.
 old-location: shell\IBrowserService_DisplayParseError.htm
 old-project: shell
 ms.assetid: 966fec07-6a67-435a-8908-67999afce9f0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DisplayParseError, DisplayParseError method [Windows Shell], DisplayParseError method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],DisplayParseError method, IBrowserService.DisplayParseError, IBrowserService::DisplayParseError, shdeprecated/IBrowserService::DisplayParseError, shell.IBrowserService_DisplayParseError, zone_IBrowserService_DisplayParseError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

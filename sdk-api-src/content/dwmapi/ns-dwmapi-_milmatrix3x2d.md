@@ -1,16 +1,16 @@
 ---
 UID: NS:dwmapi._MilMatrix3x2D
 title: "_MilMatrix3x2D"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a 3x2 matrix that describes a transform.
 old-location: dwm\milmatrix3x2d.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\milmatrix3x2d.htm
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MIL_MATRIX3X2D, MilMatrix3x2D, MilMatrix3x2D structure [Desktop Window Manager], _MilMatrix3x2D, _udwm_MilMatrix3x2D, _udwm_milmatrix3x2d_cpp, dwm.milmatrix3x2d, dwmapi/MilMatrix3x2D, winui._udwm_milmatrix3x2d
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwmapi.h
 req.include-header: 

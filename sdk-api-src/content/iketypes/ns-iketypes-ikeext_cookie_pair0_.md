@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_COOKIE_PAIR0_
 title: IKEEXT_COOKIE_PAIR0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to store a pair of IKE/Authip cookies.
 old-location: fwp\ikeext_cookie_pair0.htm
 old-project: FWP
 ms.assetid: c752545b-1880-40ac-871e-e36d4b81668f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_COOKIE_PAIR0, IKEEXT_COOKIE_PAIR0 structure [Filtering], IKEEXT_COOKIE_PAIR0_, fwp.ikeext_cookie_pair0, iketypes/IKEEXT_COOKIE_PAIR0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

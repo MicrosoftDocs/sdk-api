@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.SetEndPoint
 title: IXpsOMLinearGradientBrush::SetEndPoint
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the end point of the gradient.
 old-location: xps\ixpsomlineargradientbrush_setendpoint.htm
 old-project: printdocs
 ms.assetid: 5eec7bda-bbd8-454a-8b32-9db769df91e6
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],SetEndPoint method, IXpsOMLinearGradientBrush.SetEndPoint, IXpsOMLinearGradientBrush::SetEndPoint, SetEndPoint, SetEndPoint method [XPS Documents and Packaging], SetEndPoint method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, xps.ixpsomlineargradientbrush_setendpoint, xpsobjectmodel/IXpsOMLinearGradientBrush::SetEndPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

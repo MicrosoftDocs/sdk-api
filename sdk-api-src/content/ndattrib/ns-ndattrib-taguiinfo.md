@@ -1,16 +1,16 @@
 ---
 UID: NS:ndattrib.tagUiInfo
 title: tagUiInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The UiInfo structure is used to display repair messages to the user.
 old-location: ndf\uiinfo.htm
 old-project: NDF
 ms.assetid: 62d3c908-8fc4-4bd9-94ac-94dfcf8db395
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PUiInfo, UiInfo, UiInfo structure [NDF], UiInfo,*PUiInfo, UiInfo,*PUiInfo structure [NDF], ndattrib/UiInfo, ndf.uiinfo, tagUiInfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ndattrib.h
 req.include-header: 

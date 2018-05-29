@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHUpdateImageA
 title: SHUpdateImageA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the Shell that an image in the system image list has changed.
 old-location: shell\SHUpdateImage.htm
 old-project: shell
 ms.assetid: 9df5860e-db65-4e43-aaf9-c1e0e33fc569
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHUpdateImage, SHUpdateImage function [Windows Shell], SHUpdateImageA, SHUpdateImageW, _win32_SHUpdateImage, shell.SHUpdateImage, shlobj_core/SHUpdateImage, shlobj_core/SHUpdateImageA, shlobj_core/SHUpdateImageW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h

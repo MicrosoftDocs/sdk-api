@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSimpleAudioVolume.GetMasterVolume
 title: IMFSimpleAudioVolume::GetMasterVolume
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the master volume level.
 old-location: mf\imfsimpleaudiovolume_getmastervolume.htm
 old-project: medfound
 ms.assetid: 03ce097e-c4e5-4dac-84c0-b569efc420bc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 03ce097e-c4e5-4dac-84c0-b569efc420bc, GetMasterVolume, GetMasterVolume method [Media Foundation], GetMasterVolume method [Media Foundation],IMFSimpleAudioVolume interface, IMFSimpleAudioVolume interface [Media Foundation],GetMasterVolume method, IMFSimpleAudioVolume.GetMasterVolume, IMFSimpleAudioVolume::GetMasterVolume, mf.imfsimpleaudiovolume_getmastervolume, mfidl/IMFSimpleAudioVolume::GetMasterVolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winefs.FreeEncryptionCertificateHashList
 title: FreeEncryptionCertificateHashList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a certificate hash list.
 old-location: fs\freeencryptioncertificatehashlist.htm
 old-project: FileIO
 ms.assetid: 63d5811f-a135-45b0-8f23-fd8851f7bcca
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FreeEncryptionCertificateHashList, FreeEncryptionCertificateHashList function [Files], _win32_freeencryptioncertificatehashlist, base.freeencryptioncertificatehashlist, fs.freeencryptioncertificatehashlist, winefs/FreeEncryptionCertificateHashList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winefs.h
 req.include-header: Windows.h

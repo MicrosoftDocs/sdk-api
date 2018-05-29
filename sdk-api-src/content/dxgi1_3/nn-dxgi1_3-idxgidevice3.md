@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi1_3.IDXGIDevice3
 title: IDXGIDevice3
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDXGIDevice3 interface implements a derived class for DXGI objects that produce image data. The interface exposes a method to trim graphics memory usage by the DXGI device.
 old-location: direct3ddxgi\idxgidevice3.htm
 old-project: direct3ddxgi
 ms.assetid: 3D6A0173-456D-4783-943D-35F335F358BE
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIDevice3, IDXGIDevice3 interface [DXGI], IDXGIDevice3 interface [DXGI],described, direct3ddxgi.idxgidevice3, dxgi1_3/IDXGIDevice3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_3.h
 req.include-header: 

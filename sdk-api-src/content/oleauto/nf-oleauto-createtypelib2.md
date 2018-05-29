@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.CreateTypeLib2
 title: CreateTypeLib2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a type library in the current file format.
 old-location: automat\createtypelib2.htm
 old-project: automat
 ms.assetid: 73df6ef2-fae1-4cfb-ba59-3812e3a2e3b9
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: CreateTypeLib2, CreateTypeLib2 function [Automation], _oa96_CreateTypeLib2, automat.createtypelib2, oleauto/CreateTypeLib2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

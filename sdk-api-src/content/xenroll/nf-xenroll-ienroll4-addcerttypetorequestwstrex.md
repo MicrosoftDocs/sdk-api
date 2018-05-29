@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll4.AddCertTypeToRequestWStrEx
 title: IEnroll4::AddCertTypeToRequestWStrEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a certificate template (also known as certificate type) to a request.
 old-location: security\ienroll4_addcerttypetorequestwstrex.htm
 old-project: SecCrypto
 ms.assetid: aa3bab0d-2ed4-4ef2-9665-a6c70e14308d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: AddCertTypeToRequestWStrEx, AddCertTypeToRequestWStrEx method [Security], AddCertTypeToRequestWStrEx method [Security],IEnroll4 interface, IEnroll4 interface [Security],AddCertTypeToRequestWStrEx method, IEnroll4.AddCertTypeToRequestWStrEx, IEnroll4::AddCertTypeToRequestWStrEx, XECT_EXTENSION_V1, XECT_EXTENSION_V2, security.ienroll4_addcerttypetorequestwstrex, xenroll/IEnroll4::AddCertTypeToRequestWStrEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

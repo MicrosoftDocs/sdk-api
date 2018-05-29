@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Methods
 title: IPortableDeviceService::Methods
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IPortableDeviceServiceMethods interface that is used to invoke custom functionality on the service.
 old-location: wpdsdk\iportabledeviceservice_methods.htm
 old-project: wpd_sdk
 ms.assetid: 345102d4-3dac-4878-9196-bb0d97c0df07
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],Methods method, IPortableDeviceService.Methods, IPortableDeviceService::Methods, Methods, Methods method [Windows Portable Devices SDK], Methods method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::Methods, wpdsdk.iportabledeviceservice_methods
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

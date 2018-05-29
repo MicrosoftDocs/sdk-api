@@ -1,16 +1,16 @@
 ---
 UID: NS:xamlom.VisualElement
 title: VisualElement
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a XAML element in the Live Visual Tree in Microsoft Visual Studio.
 old-location: xaml_diagnostics\visualelement.htm
 old-project: xaml_diagnostics
 ms.assetid: 655642E7-64B3-439A-BAE1-7D54461EE058
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: PVisualElement, PVisualElement structure pointer, VisualElement, VisualElement structure, xaml_diagnostics.visualelement, xamlom/PVisualElement, xamlom/VisualElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xamlom.h
 req.include-header: 

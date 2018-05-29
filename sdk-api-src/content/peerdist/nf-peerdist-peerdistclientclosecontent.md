@@ -1,16 +1,16 @@
 ---
 UID: NF:peerdist.PeerDistClientCloseContent
 title: PeerDistClientCloseContent function
-author: windows-driver-content
+author: windows-sdk-content
 description: PeerDistClientCloseContent function closes the content handle opened by PeerDistClientOpenContent.
 old-location: p2p\peerdistclientclosecontent.htm
 old-project: P2PSdk
 ms.assetid: c55300b7-13b6-42bf-b673-56a5e077416d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerDistClientCloseContent, PeerDistClientCloseContent function [Peer Networking], p2p.peerdistclientclosecontent, peerdist/PeerDistClientCloseContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: peerdist.h
 req.include-header: 

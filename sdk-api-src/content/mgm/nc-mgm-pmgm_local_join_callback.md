@@ -1,16 +1,16 @@
 ---
 UID: NC:mgm.PMGM_LOCAL_JOIN_CALLBACK
 title: PMGM_LOCAL_JOIN_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: The PMGM_LOCAL_JOIN_CALLBACK callback is a call into a routing protocol to notify the protocol that IGMP has detected new receivers for a group on an interface that is currently owned by the routing protocol.
 old-location: rras\pmgm_local_join_callback.htm
 old-project: RRAS
 ms.assetid: e8245b09-0fbc-49c3-a7bb-534115c74c88
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PMGM_LOCAL_JOIN_CALLBACK, PMGM_LOCAL_JOIN_CALLBACK callback, PMGM_LOCAL_JOIN_CALLBACK callback function [RAS], _mpr_pmgm_local_join_callback, mgm/PMGM_LOCAL_JOIN_CALLBACK, rras.pmgm_local_join_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: mgm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetTheme
 title: IVisualProperties::SetTheme
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the specified theme.
 old-location: shell\IVisualProperties_SetTheme.htm
 old-project: shell
 ms.assetid: 0be91bde-ef05-4d64-9f94-91b9020586cb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetTheme method, IVisualProperties.SetTheme, IVisualProperties::SetTheme, SetTheme, SetTheme method [Windows Shell], SetTheme method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetTheme, shell.IVisualProperties_SetTheme, shobjidl/IVisualProperties::SetTheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

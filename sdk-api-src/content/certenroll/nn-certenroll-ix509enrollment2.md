@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509Enrollment2
 title: IX509Enrollment2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IX509Enrollment2 interface enables you to enroll in a certificate hierarchy and install a certificate response.
 old-location: security\ix509enrollment2.htm
 old-project: SecCertEnroll
 ms.assetid: 8e262b4b-de6a-417e-9ade-0b451bd4c09a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509Enrollment2, IX509Enrollment2 interface [Security], IX509Enrollment2 interface [Security],described, certenroll/IX509Enrollment2, security.ix509enrollment2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

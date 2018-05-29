@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IStorage.OpenStream
 title: IStorage::OpenStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an existing stream object within this storage object in the specified access mode.
 old-location: stg\istorage_openstream.htm
 old-project: Stg
 ms.assetid: f7bd1f26-e9a3-415d-8cd3-dc34f7ad8feb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IStorage interface [Structured Storage],OpenStream method, IStorage.OpenStream, IStorage::OpenStream, OpenStream, OpenStream method [Structured Storage], OpenStream method [Structured Storage],IStorage interface, _stg_istorage_openstream, objidl/IStorage::OpenStream, stg.istorage_openstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

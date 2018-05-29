@@ -1,16 +1,16 @@
 ---
 UID: NN:mfsharingengine.IPlayToSourceClassFactory
 title: IPlayToSourceClassFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instance of the PlayToSource object.
 old-location: mf\iplaytosourceclassfactory.htm
 old-project: medfound
 ms.assetid: F8F9FEC6-836C-429A-BADD-5CD1E550AED0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPlayToSourceClassFactory, IPlayToSourceClassFactory interface [Media Foundation], IPlayToSourceClassFactory interface [Media Foundation],described, mf.iplaytocontrollerclassfactory, mf.iplaytosourceclassfactory, mfsharingengine/IPlayToSourceClassFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfsharingengine.h
 req.include-header: 

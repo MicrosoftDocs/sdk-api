@@ -1,16 +1,16 @@
 ---
 UID: NN:tssbx.IWTSSBPlugin
 title: IWTSSBPlugin
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to extend the capabilities of Terminal Services Session Broker (TS&#160;Session Broker). Implement this interface when you want to provide a plug-in that overrides the redirection logic of TS&#160;Session Broker.
 old-location: termserv\iwtssbplugin.htm
 old-project: TermServ
 ms.assetid: f6959b8c-a8a8-438b-8b6d-31bf0e782bac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSSBPlugin, IWTSSBPlugin interface [Remote Desktop Services], IWTSSBPlugin interface [Remote Desktop Services],described, termserv.iwtssbplugin, tssbx/IWTSSBPlugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tssbx.h
 req.include-header: 

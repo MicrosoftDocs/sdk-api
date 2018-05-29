@@ -1,16 +1,16 @@
 ---
 UID: NC:mapi.MAPILOGON
 title: MAPILOGON
-author: windows-driver-content
+author: windows-sdk-content
 description: The MAPILogon function begins a Simple MAPI session, loading the default message store and address book providers.
 old-location: mapi\mapilogon.htm
 old-project: WindowsMAPI
 ms.assetid: 5a61f0f2-347e-40fb-b7f9-6b42690cbcd8
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: MAPILogon, MAPILogon callback, MAPILogon callback function, MAPI_FORCE_DOWNLOAD, MAPI_LOGON_UI, MAPI_NEW_SESSION, MAPI_PASSWORD_UI, mapi.mapilogon, mapi/MAPILogon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 

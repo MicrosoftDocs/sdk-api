@@ -1,16 +1,16 @@
 ---
 UID: NF:lpmapi.LPM_AdmitRsvpMsg
 title: LPM_AdmitRsvpMsg function
-author: windows-driver-content
+author: windows-sdk-content
 description: The LPM_AdmitRsvpMsg function is called by the PCM to pass RSVP messages to the LPM for policy based&#8211;admission control decisions.
 old-location: qos\lpm_admitrsvpmsg.htm
 old-project: QOS
 ms.assetid: 0bf84c25-312c-4b4a-8bb1-e8f00711dbe3
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: ErrorSpec, FlowDescList, FlowDescListCount, LPM_AdmitRsvpMsg, LPM_AdmitRsvpMsg callback, LPM_AdmitRsvpMsg callback function [QOS], LpmPriorityValue, PolicyDataCount, PolicyDataObjects, PolicyErrorCode, PolicyErrorValue, RsvpFromHop, RsvpMsgType, RsvpScope, RsvpSession, RsvpStyle, _gqos_lpm_admitrsvpmsg, lpmapi/LPM_AdmitRsvpMsg, qos.lpm_admitrsvpmsg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lpmapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:fsrmenums._FsrmRuleFlags
 title: "_FsrmRuleFlags"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the possible states of a rule.
 old-location: fsrm\fsrmruleflags.htm
 old-project: Fsrm
 ms.assetid: 81150d1e-4ce9-4c8f-a4d5-77f7c8759e59
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: FsrmRuleFlags, FsrmRuleFlags enumeration [File Server Resource Manager], FsrmRuleFlags_ClearAutomaticallyClassifiedProperty, FsrmRuleFlags_ClearManuallyClassifiedProperty, FsrmRuleFlags_Disabled, FsrmRuleFlags_Invalid, _FsrmRuleFlags, fs.fsrmruleflags, fsrm.fsrmruleflags, fsrmenums/FsrmRuleFlags, fsrmenums/FsrmRuleFlags_ClearAutomaticallyClassifiedProperty, fsrmenums/FsrmRuleFlags_ClearManuallyClassifiedProperty, fsrmenums/FsrmRuleFlags_Disabled, fsrmenums/FsrmRuleFlags_Invalid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

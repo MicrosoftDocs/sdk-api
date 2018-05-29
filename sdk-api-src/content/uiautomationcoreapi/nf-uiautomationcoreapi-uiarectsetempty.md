@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRectSetEmpty
 title: UiaRectSetEmpty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the elements of a UiaRect structure to 0.
 old-location: winauto\uiauto_UiaRectSetEmptyFunction.htm
 old-project: WinAuto
 ms.assetid: c42ced34-2645-4f10-962b-6e5345c1c439
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaRectSetEmpty, UiaRectSetEmpty function [Windows Accessibility], uiauto.uiauto_UiaRectSetEmptyFunction, uiauto_UiaRectSetEmptyFunction, uiautomationcoreapi/UiaRectSetEmpty, winauto.uiauto_UiaRectSetEmptyFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

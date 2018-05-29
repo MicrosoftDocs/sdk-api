@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupQuerySourceListW
 title: SetupQuerySourceListW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupQuerySourceList function queries the current list of installation sources. The list is built from the system and user-specific lists, and potentially overridden by a temporary list (see SetupSetSourceList).
 old-location: setup\setupquerysourcelist.htm
 old-project: SetupApi
 ms.assetid: 8d1de1d5-5b82-45ae-b29c-4f9a93d28c6e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupQuerySourceList, SetupQuerySourceList function [Setup API], SetupQuerySourceListA, SetupQuerySourceListW, _setupapi_setupquerysourcelist, setup.setupquerysourcelist, setupapi/SetupQuerySourceList, setupapi/SetupQuerySourceListA, setupapi/SetupQuerySourceListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

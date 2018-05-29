@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ISendMethodEvents
 title: ISendMethodEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an event class that notifies subscribers whenever a method on the object that implements it either is called or returns from a call.
 old-location: cos\isendmethodevents.htm
 old-project: cossdk
 ms.assetid: d1437581-8a2b-4e88-aa12-a16eb9f40125
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ISendMethodEvents, ISendMethodEvents interface [COM+], ISendMethodEvents interface [COM+],described, _cos_ISendMethodEvents, comsvcs/ISendMethodEvents, cos.isendmethodevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

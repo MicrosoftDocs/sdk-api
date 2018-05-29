@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.UnregisterPowerSettingNotification
 title: UnregisterPowerSettingNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters the power setting notification.
 old-location: base\unregisterpowersettingnotification.htm
 old-project: Power
 ms.assetid: de1509f5-cf4c-448e-bb3b-08da6be53bfa
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: UnregisterPowerSettingNotification, UnregisterPowerSettingNotification function, base.unregisterpowersettingnotification, winuser/UnregisterPowerSettingNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

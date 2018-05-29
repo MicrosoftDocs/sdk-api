@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhRemoveCounter
 title: PdhRemoveCounter function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a counter from a query.
 old-location: perf\pdhremovecounter.htm
 old-project: PerfCtrs
 ms.assetid: adf9c7bd-47d6-489a-88fc-954fdf127ce8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhRemoveCounter, PdhRemoveCounter function [Perf], _win32_pdhremovecounter, base.pdhremovecounter, pdh/PdhRemoveCounter, perf.pdhremovecounter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

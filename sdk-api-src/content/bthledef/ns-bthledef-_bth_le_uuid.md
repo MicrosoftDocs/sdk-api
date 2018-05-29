@@ -1,16 +1,16 @@
 ---
 UID: NS:bthledef._BTH_LE_UUID
 title: "_BTH_LE_UUID"
-author: windows-driver-content
+author: windows-sdk-content
 description: The BTH_LE_UUID structure contains information about a Bluetooth Low Energy (LE) Universally Unique Identifier (UUID).
 old-location: bltooth\bth_le_uuid.htm
 old-project: bltooth
 ms.assetid: FA82A099-7924-44A1-A14C-7633B8656FB7
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.author: windowssdkdev
+ms.date: 04/27/2018
 ms.keywords: "*PBTH_LE_UUID, BTH_LE_UUID, BTH_LE_UUID structure [Bluetooth Devices], PBTH_LE_UUID, PBTH_LE_UUID structure pointer [Bluetooth Devices], _BTH_LE_UUID, bltooth.bth_le_uuid, bthledef/BTH_LE_UUID, bthledef/PBTH_LE_UUID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h

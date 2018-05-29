@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.SetBackgroundColor
 title: IDesktopWallpaper::SetBackgroundColor
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the color that is visible on the desktop when no image is displayed or when the desktop background has been disabled. This color is also used as a border when the desktop wallpaper does not fill the entire screen.
 old-location: shell\IDesktopWallpaper_SetBackgroundColor.htm
 old-project: shell
 ms.assetid: 9CA14C0B-4727-4702-9EB0-4D24003EB456
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDesktopWallpaper interface [Windows Shell],SetBackgroundColor method, IDesktopWallpaper.SetBackgroundColor, IDesktopWallpaper::SetBackgroundColor, SetBackgroundColor, SetBackgroundColor method [Windows Shell], SetBackgroundColor method [Windows Shell],IDesktopWallpaper interface, shell.IDesktopWallpaper_SetBackgroundColor, shobjidl_core/IDesktopWallpaper::SetBackgroundColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

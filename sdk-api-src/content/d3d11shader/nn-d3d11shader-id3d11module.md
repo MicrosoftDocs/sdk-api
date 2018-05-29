@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11shader.ID3D11Module
 title: ID3D11Module
-author: windows-driver-content
+author: windows-sdk-content
 description: A module interface creates an instance of a module that is used for resource rebinding.
 old-location: direct3d11\id3d11module.htm
 old-project: direct3d11
 ms.assetid: 5915DACB-1D3A-496C-96C6-77D85CC6560B
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11Module, ID3D11Module interface [Direct3D 11], ID3D11Module interface [Direct3D 11],described, d3d11shader/ID3D11Module, direct3d11.id3d11module
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11shader.h
 req.include-header: 

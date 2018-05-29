@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMSignatureBlockResource
 title: IXpsOMSignatureBlockResource
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides an IStream interface to a signature block resource.
 old-location: xps\ixpsomsignatureblockresource.htm
 old-project: printdocs
 ms.assetid: f5052470-487d-4f47-8d42-70538a4a45a8
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMSignatureBlockResource, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging], IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],described, xps.ixpsomsignatureblockresource, xpsobjectmodel/IXpsOMSignatureBlockResource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

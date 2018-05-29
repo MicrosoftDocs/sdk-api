@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.FolderItemVerb.DoIt
 title: FolderItemVerb::DoIt
-author: windows-driver-content
+author: windows-sdk-content
 description: Executes a verb on the FolderItem associated with the verb.
 old-location: shell\FolderItemVerb_DoIt.htm
 old-project: shell
 ms.assetid: 92400fe9-e4d1-4bc9-b4ee-d2adaf38154f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DoIt, DoIt method [Windows Shell], DoIt method [Windows Shell],FolderItemVerb object, FolderItemVerb object [Windows Shell],DoIt method, FolderItemVerb.DoIt, FolderItemVerb::DoIt, _win32_FolderItemVerb_DoIt, shell.FolderItemVerb_DoIt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

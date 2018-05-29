@@ -1,16 +1,16 @@
 ---
 UID: NF:editionupgradehelper.IEditionUpgradeHelper.GetGenuineLocalStatus
 title: IEditionUpgradeHelper::GetGenuineLocalStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves whether the currently installed operating system is activated.
 old-location: winprog\ieditionupgradehelper_getgenuinelocalstatus.htm
 old-project: DevNotes
 ms.assetid: 061AECF0-AC7A-480F-B532-F5D8AC078168
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetGenuineLocalStatus, GetGenuineLocalStatus method [Windows API], GetGenuineLocalStatus method [Windows API],IEditionUpgradeHelper interface, IEditionUpgradeHelper interface [Windows API],GetGenuineLocalStatus method, IEditionUpgradeHelper.GetGenuineLocalStatus, IEditionUpgradeHelper::GetGenuineLocalStatus, editionupgradehelper/IEditionUpgradeHelper::GetGenuineLocalStatus, winprog.ieditionupgradehelper_getgenuinelocalstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: editionupgradehelper.h
 req.include-header: 

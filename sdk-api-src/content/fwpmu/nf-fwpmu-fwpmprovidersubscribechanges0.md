@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmProviderSubscribeChanges0
 title: FwpmProviderSubscribeChanges0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to request the delivery of notifications regarding changes in a particular provider.
 old-location: fwp\fwpmprovidersubscribechanges0_func.htm
 old-project: FWP
 ms.assetid: 73d04bcb-b888-4e40-90e6-a0d777f926ef
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmProviderSubscribeChanges0, FwpmProviderSubscribeChanges0 function [Filtering], fwp.fwpmprovidersubscribechanges0_func, fwpmu/FwpmProviderSubscribeChanges0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Region.MakeEmpty
 title: Region::MakeEmpty
-author: windows-driver-content
+author: windows-sdk-content
 description: The Region::MakeEmpty method updates this region to an empty region. In other words, the region occupies no space on the display device.
 old-location: gdiplus\_gdiplus_CLASS_Region_MakeEmpty_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\makeempty.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MakeEmpty, MakeEmpty method [GDI+], MakeEmpty method [GDI+],Region class, Region class [GDI+],MakeEmpty method, Region.MakeEmpty, Region::MakeEmpty, _gdiplus_CLASS_Region_MakeEmpty_, gdiplus._gdiplus_CLASS_Region_MakeEmpty_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

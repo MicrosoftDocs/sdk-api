@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.FileTimeToLocalFileTime
 title: FileTimeToLocalFileTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a file time to a local file time.
 old-location: base\filetimetolocalfiletime.htm
 old-project: SysInfo
 ms.assetid: 58dfce16-2d7f-4db5-9f84-5dd651d26745
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FileTimeToLocalFileTime, FileTimeToLocalFileTime function, _win32_filetimetolocalfiletime, base.filetimetolocalfiletime, fileapi/FileTimeToLocalFileTime, winbase/FileTimeToLocalFileTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

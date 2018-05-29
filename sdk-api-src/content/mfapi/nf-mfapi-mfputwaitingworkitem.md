@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFPutWaitingWorkItem
 title: MFPutWaitingWorkItem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Queues a work item that waits for an event to be signaled.
 old-location: mf\mfputwaitingworkitem.htm
 old-project: medfound
 ms.assetid: BBD80C60-E42F-4B3B-96E3-E01058A27DB8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFPutWaitingWorkItem, MFPutWaitingWorkItem function [Media Foundation], mf.mfputwaitingworkitem, mfapi/MFPutWaitingWorkItem, mfplat/MFPutWaitingWorkItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

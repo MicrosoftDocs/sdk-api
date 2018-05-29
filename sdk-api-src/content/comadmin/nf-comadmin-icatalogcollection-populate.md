@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICatalogCollection.Populate
 title: ICatalogCollection::Populate
-author: windows-driver-content
+author: windows-sdk-content
 description: Populates the collection with data for all items contained in the collection.
 old-location: cos\icatalogcollection_populate.htm
 old-project: cossdk
 ms.assetid: 817f203c-ddc6-47bd-a946-2393067eca44
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICatalogCollection interface [COM+],Populate method, ICatalogCollection.Populate, ICatalogCollection::Populate, Populate, Populate method [COM+], Populate method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_Populate, comadmin/ICatalogCollection::Populate, cos.icatalogcollection_populate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

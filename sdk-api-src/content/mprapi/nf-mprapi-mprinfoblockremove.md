@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprInfoBlockRemove
 title: MprInfoBlockRemove function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprInfoBlockRemove function creates a new header that is identical to an existing header with a specified block removed.
 old-location: rras\mprinfoblockremove.htm
 old-project: RRAS
 ms.assetid: 2d124541-c954-4031-95cd-68a96c8e0a77
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprInfoBlockRemove, MprInfoBlockRemove function [RAS], _mpr_mprinfoblockremove, mprapi/MprInfoBlockRemove, rras.mprinfoblockremove
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

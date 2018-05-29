@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.Import
 title: IGPMGPO::Import
-author: windows-driver-content
+author: windows-sdk-content
 description: Imports the policy settings from the specified GPMBackup object.
 old-location: gpmc\igpmgpo_import.htm
 old-project: GPMC
 ms.assetid: 3b16eefb-89af-408b-a84c-c8ab958b4cc7
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMGPO object [GPMC],Import method, IGPMGPO interface [GPMC],Import method, IGPMGPO.Import, IGPMGPO::Import, Import, Import method [GPMC], Import method [GPMC],GPMGPO object, Import method [GPMC],IGPMGPO interface, _win32_igpmgpo_import, gpmc.igpmgpo_import, gpmgmt/IGPMGPO::Import
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

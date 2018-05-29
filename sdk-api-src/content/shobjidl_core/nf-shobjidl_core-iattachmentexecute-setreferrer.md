@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.SetReferrer
 title: IAttachmentExecute::SetReferrer
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the security zone associated with the attachment file based on the referring file.
 old-location: shell\IAttachmentExecute_SetReferrer.htm
 old-project: shell
 ms.assetid: d7ee869a-2afe-4d98-a0bb-d80e57425079
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetReferrer method, IAttachmentExecute.SetReferrer, IAttachmentExecute::SetReferrer, SetReferrer, SetReferrer method [Windows Shell], SetReferrer method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetReferrer, shell.IAttachmentExecute_SetReferrer, shobjidl_core/IAttachmentExecute::SetReferrer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

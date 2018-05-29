@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxSecurity.get_InformationType
 title: IFaxSecurity::get_InformationType
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxSecurity::InformationType property represents the security information type.
 old-location: fax\_mfax_faxsecurity_informationtype_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_4up1_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxSecurity interface [Fax Service],InformationType property, IFaxSecurity.InformationType, IFaxSecurity.get_InformationType, IFaxSecurity::InformationType, IFaxSecurity::get_InformationType, IFaxSecurity::put_InformationType, InformationType property [Fax Service], InformationType property [Fax Service],IFaxSecurity interface, _mfax_faxsecurity.informationtype_cpp, fax._mfax_faxsecurity_informationtype_cpp, faxcomex/IFaxSecurity::InformationType, faxcomex/IFaxSecurity::get_InformationType, faxcomex/IFaxSecurity::put_InformationType, get_InformationType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

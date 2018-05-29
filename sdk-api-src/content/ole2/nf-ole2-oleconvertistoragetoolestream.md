@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleConvertIStorageToOLESTREAM
 title: OleConvertIStorageToOLESTREAM function
-author: windows-driver-content
+author: windows-sdk-content
 description: The OleConvertIStorageToOLESTREAM function converts the specified storage object from OLE 2 structured storage to the OLE 1 storage object model but does not include the presentation data. This is one of several compatibility functions.
 old-location: stg\oleconvertistoragetoolestream.htm
 old-project: Stg
 ms.assetid: d100d32a-6559-4a7c-a0ae-780bc9d82611
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleConvertIStorageToOLESTREAM, OleConvertIStorageToOLESTREAM function [Structured Storage], _stg_oleconvertistoragetoolestream, ole2/OleConvertIStorageToOLESTREAM, stg.oleconvertistoragetoolestream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

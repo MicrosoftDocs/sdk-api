@@ -1,16 +1,16 @@
 ---
 UID: NE:mbnapi.MBN_AUTH_PROTOCOL
 title: MBN_AUTH_PROTOCOL
-author: windows-driver-content
+author: windows-sdk-content
 description: The MBN_AUTH_PROTOCOL enumerated type specifies the authentication protocol used for Packet Data Protocol (PDP) activation.
 old-location: mbn\mbn_auth_protocol.htm
 old-project: mbn
 ms.assetid: 7a1858d4-3415-490d-b264-3033cd8f5af7
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_AUTH_PROTOCOL, MBN_AUTH_PROTOCOL enumeration [Microsoft Broadband Networks], MBN_AUTH_PROTOCOL_CHAP, MBN_AUTH_PROTOCOL_MSCHAPV2, MBN_AUTH_PROTOCOL_NONE, MBN_AUTH_PROTOCOL_PAP, mbn.mbn_auth_protocol, mbnapi/MBN_AUTH_PROTOCOL, mbnapi/MBN_AUTH_PROTOCOL_CHAP, mbnapi/MBN_AUTH_PROTOCOL_MSCHAPV2, mbnapi/MBN_AUTH_PROTOCOL_NONE, mbnapi/MBN_AUTH_PROTOCOL_PAP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

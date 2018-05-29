@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.Clear
 title: IInkExtendedProperties::Clear
-author: windows-driver-content
+author: windows-sdk-content
 description: Clears all of the IInkExtendedProperty objects from the IInkExtendedProperties collection.
 old-location: tablet\iinkextendedproperties_clear.htm
 old-project: tablet
 ms.assetid: b5270e5c-51fa-4d1f-b4e0-9129c61bac88
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Clear, Clear method [Tablet PC], Clear method [Tablet PC],IInkExtendedProperties interface, IInkExtendedProperties interface [Tablet PC],Clear method, IInkExtendedProperties.Clear, IInkExtendedProperties::Clear, b5270e5c-51fa-4d1f-b4e0-9129c61bac88, msinkaut/IInkExtendedProperties::Clear, tablet.iinkextendedproperties_clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

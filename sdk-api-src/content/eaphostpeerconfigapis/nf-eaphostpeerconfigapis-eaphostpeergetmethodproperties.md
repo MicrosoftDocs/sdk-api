@@ -1,16 +1,16 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerGetMethodProperties
 title: EapHostPeerGetMethodProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to retrieve the properties of an EAP method given the connection and user data.
 old-location: eaphost\eaphostpeergetmethodproperties.htm
 old-project: EAPHost
 ms.assetid: b553c022-c9a2-4cf7-8c09-e629b49cd929
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerGetMethodProperties, EapHostPeerGetMethodProperties function [EAPHost], eaphost.eaphostpeergetmethodproperties, eaphostpeerconfigapis/EapHostPeerGetMethodProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eaphostpeerconfigapis.h
 req.include-header: 

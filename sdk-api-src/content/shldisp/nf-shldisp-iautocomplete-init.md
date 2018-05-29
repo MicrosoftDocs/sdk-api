@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IAutoComplete.Init
 title: IAutoComplete::Init
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the autocomplete object.
 old-location: shell\IAutoComplete_Init.htm
 old-project: shell
 ms.assetid: e5ee36b7-11b4-4eca-ae8e-eefa6245f287
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAutoComplete interface [Windows Shell],Init method, IAutoComplete.Init, IAutoComplete::Init, Init, Init method [Windows Shell], Init method [Windows Shell],IAutoComplete interface, _win32_IAutoComplete_Init, shell.IAutoComplete_Init, shldisp/IAutoComplete::Init
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

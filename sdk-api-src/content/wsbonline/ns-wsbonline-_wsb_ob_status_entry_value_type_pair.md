@@ -1,16 +1,16 @@
 ---
 UID: NS:wsbonline._WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
 title: "_WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the value and value type for a parameter used to expand the value resource string.
 old-location: wsb\wsb_ob_status_entry_value_type_pair.htm
 old-project: wsb
 ms.assetid: FA92796E-7C26-4FD0-8AC2-F84F8F5E5A6C
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR, WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR structure [Windows Server Backup], _WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR, wsb.wsb_ob_status_entry_value_type_pair, wsbonline/WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsbonline.h
 req.include-header: 

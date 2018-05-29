@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitVariantFromUInt64
 title: InitVariantFromUInt64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a VARIANT structure with an unsigned 64-bit integer value.
 old-location: properties\InitVariantFromUInt64.htm
 old-project: properties
 ms.assetid: 8fa8bfe9-b9a6-4292-b303-621ef9d8aa4d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitVariantFromUInt64, InitVariantFromUInt64 function [Windows Properties], _shell_InitVariantFromUInt64, properties.InitVariantFromUInt64, propvarutil/InitVariantFromUInt64, shell.InitVariantFromUInt64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

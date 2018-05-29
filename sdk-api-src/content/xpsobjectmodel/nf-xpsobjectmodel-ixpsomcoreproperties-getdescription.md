@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetDescription
 title: IXpsOMCoreProperties::GetDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the description property.
 old-location: xps\ixpsomcoreproperties_getdescription.htm
 old-project: printdocs
 ms.assetid: 56a6367d-8ab7-40ac-989b-d5a60126eae5
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetDescription, GetDescription method [XPS Documents and Packaging], GetDescription method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetDescription method, IXpsOMCoreProperties.GetDescription, IXpsOMCoreProperties::GetDescription, xps.ixpsomcoreproperties_getdescription, xpsobjectmodel/IXpsOMCoreProperties::GetDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

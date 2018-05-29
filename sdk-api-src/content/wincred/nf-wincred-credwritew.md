@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredWriteW
 title: CredWriteW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new credential or modifies an existing credential in the user's credential set.
 old-location: security\credwrite.htm
 old-project: SecAuthN
 ms.assetid: 9a590347-d610-4916-bf63-60fbec173ac2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CRED_PRESERVE_CREDENTIAL_BLOB, CredWrite, CredWrite function [Security], CredWriteA, CredWriteW, _cred_credwrite, security.credwrite, wincred/CredWrite, wincred/CredWriteA, wincred/CredWriteW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.TreeView_SelectSetFirstVisible
 title: TreeView_SelectSetFirstVisible macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Scrolls the tree-view control vertically to ensure that the specified item is visible.
 old-location: controls\TreeView_SelectSetFirstVisible.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_selectsetfirstvisible.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TreeView_SelectSetFirstVisible, TreeView_SelectSetFirstVisible macro [Windows Controls], _win32_TreeView_SelectSetFirstVisible, _win32_TreeView_SelectSetFirstVisible_cpp, commctrl/TreeView_SelectSetFirstVisible, controls.TreeView_SelectSetFirstVisible, controls._win32_TreeView_SelectSetFirstVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

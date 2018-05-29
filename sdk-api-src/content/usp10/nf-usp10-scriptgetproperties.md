@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptGetProperties
 title: ScriptGetProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the current scripts.
 old-location: intl\scriptgetproperties.htm
 old-project: Intl
 ms.assetid: 4799829d-8122-4bb4-839c-92f177cfd2da
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptGetProperties, ScriptGetProperties function [Internationalization for Windows Applications], _win32_ScriptGetProperties, intl.scriptgetproperties, usp10/ScriptGetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

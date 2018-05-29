@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigFilterSetInfo
 title: MprConfigFilterSetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the static filtering information for a specified transport protocol type.
 old-location: rras\mprconfigfiltersetinfo.htm
 old-project: RRAS
 ms.assetid: 278cf536-3aed-4384-a9d8-ab8786a5cb1e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigFilterSetInfo, MprConfigFilterSetInfo function [RAS], mprapi/MprConfigFilterSetInfo, rras.mprconfigfiltersetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

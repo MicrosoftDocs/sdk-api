@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll4.put_ThumbPrintWStr
 title: IEnroll4::put_ThumbPrintWStr
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves a hash of the certificate data. The thumbprint is used to point to the pending certificate.
 old-location: security\ienroll4_thumbprintwstr.htm
 old-project: SecCrypto
 ms.assetid: 3682e83d-8c3c-42fa-b743-0b149c956339
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnroll4 interface [Security],ThumbPrintWStr property, IEnroll4.ThumbPrintWStr, IEnroll4.put_ThumbPrintWStr, IEnroll4::ThumbPrintWStr, IEnroll4::get_ThumbPrintWStr, IEnroll4::put_ThumbPrintWStr, ThumbPrintWStr property [Security], ThumbPrintWStr property [Security],IEnroll4 interface, put_ThumbPrintWStr, security.ienroll4_thumbprintwstr, xenroll/IEnroll4::ThumbPrintWStr, xenroll/IEnroll4::get_ThumbPrintWStr, xenroll/IEnroll4::put_ThumbPrintWStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

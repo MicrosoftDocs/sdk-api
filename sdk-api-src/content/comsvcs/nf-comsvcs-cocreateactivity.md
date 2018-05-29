@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.CoCreateActivity
 title: CoCreateActivity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an activity to do synchronous or asynchronous batch work that can use COM+ services without needing to create a COM+ component.
 old-location: cos\cocreateactivity.htm
 old-project: cossdk
 ms.assetid: 3009eb4f-e3f3-497b-ba05-5b750d8a40d0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CoCreateActivity, CoCreateActivity function [COM+], _cos_CoCreateActivity, comsvcs/CoCreateActivity, cos.cocreateactivity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: comsvcs.h
 req.include-header: 

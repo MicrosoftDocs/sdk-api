@@ -1,16 +1,16 @@
 ---
 UID: NF:dsparse.DsCrackUnquotedMangledRdnW
 title: DsCrackUnquotedMangledRdnW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DsCrackUnquotedMangledRdn function unmangles (unencodes) a given relative distinguished name and returns both the decoded GUID and the mangling type used.
 old-location: ad\dscrackunquotedmangledrdn.htm
 old-project: AD
 ms.assetid: 30711d2d-f541-46b4-a301-a0f9fc7d6676
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsCrackUnquotedMangledRdn, DsCrackUnquotedMangledRdn function [Active Directory], DsCrackUnquotedMangledRdnA, DsCrackUnquotedMangledRdnW, _glines_dscrackunquotedmangledrdn, ad.dscrackunquotedmangledrdn, dsparse/DsCrackUnquotedMangledRdn, dsparse/DsCrackUnquotedMangledRdnA, dsparse/DsCrackUnquotedMangledRdnW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dsparse.h
 req.include-header: Ntdsapi.h

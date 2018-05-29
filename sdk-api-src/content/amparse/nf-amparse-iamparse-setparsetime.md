@@ -1,16 +1,16 @@
 ---
 UID: NF:amparse.IAMParse.SetParseTime
 title: IAMParse::SetParseTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetParseTime method sets the current stream parse time. For MPEG-2, this corresponds to the system clock time computed for the current stream position.
 old-location: dshow\iamparse_setparsetime.htm
 old-project: DirectShow
 ms.assetid: 52c53994-7cb7-4f50-a00d-87faa309c717
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMParse interface [DirectShow],SetParseTime method, IAMParse.SetParseTime, IAMParse::SetParseTime, IAMParseSetParseTime, SetParseTime, SetParseTime method [DirectShow], SetParseTime method [DirectShow],IAMParse interface, amparse/IAMParse::SetParseTime, dshow.iamparse_setparsetime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amparse.h
 req.include-header: 

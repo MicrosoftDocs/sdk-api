@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetUserCredentials
 title: IWTSProtocolConnection::GetUserCredentials
-author: windows-driver-content
+author: windows-sdk-content
 description: IWTSProtocolConnection::GetUserCredentials is no longer available. Instead, use IWRdsProtocolConnection::GetUserCredentials.
 old-location: termserv\iwtsprotocolconnection_getusercredentials.htm
 old-project: TermServ
 ms.assetid: 48cd1a57-5f6d-4feb-889d-7441a76c0410
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetUserCredentials, GetUserCredentials method [Remote Desktop Services], GetUserCredentials method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetUserCredentials method, IWTSProtocolConnection.GetUserCredentials, IWTSProtocolConnection::GetUserCredentials, termserv.iwtsprotocolconnection_getusercredentials, wtsprotocol/IWTSProtocolConnection::GetUserCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

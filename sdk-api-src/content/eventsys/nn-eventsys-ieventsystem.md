@@ -1,16 +1,16 @@
 ---
 UID: NN:eventsys.IEventSystem
 title: IEventSystem
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the event data store.
 old-location: cos\ieventsystem.htm
 old-project: cossdk
 ms.assetid: 29b3e552-b717-4d10-9fa4-1386da3c5460
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEventSystem, IEventSystem interface [COM+], IEventSystem interface [COM+],described, _cos_IEventSystem, cos.ieventsystem, eventsys/IEventSystem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 

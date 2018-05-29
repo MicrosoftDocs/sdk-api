@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.EncryptionBlt
 title: IDirect3DCryptoSession9::EncryptionBlt
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads encrypted data from a protected surface.
 old-location: mf\idirect3dcryptosession9_encryptionblt.htm
 old-project: medfound
 ms.assetid: 42aa21d3-7c38-4058-b766-454be8b1ae80
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EncryptionBlt, EncryptionBlt method [Media Foundation], EncryptionBlt method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],EncryptionBlt method, IDirect3DCryptoSession9.EncryptionBlt, IDirect3DCryptoSession9::EncryptionBlt, d3d9/IDirect3DCryptoSession9::EncryptionBlt, mf.idirect3dcryptosession9_encryptionblt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 

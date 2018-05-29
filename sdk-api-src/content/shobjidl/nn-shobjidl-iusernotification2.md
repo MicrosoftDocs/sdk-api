@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IUserNotification2
 title: IUserNotification2
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that set notification information and then display that notification to the user in a balloon that appears in conjunction with the notification area of the taskbar.
 old-location: shell\IUserNotification2.htm
 old-project: shell
 ms.assetid: 6605a014-4f79-4856-8fd9-df926ea76052
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUserNotification2, IUserNotification2 interface [Windows Shell], IUserNotification2 interface [Windows Shell],described, _shell_IUserNotification2, shell.IUserNotification2, shobjidl/IUserNotification2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPErrorItem.get_errorContext
 title: IWMPErrorItem::get_errorContext
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_errorContext method retrieves a value indicating the context of the error.
 old-location: wmp\iwmperroritem_get_errorcontext.htm
 old-project: WMP
 ms.assetid: 575f14e7-7a5b-4000-9957-253c40b1ef62
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPErrorItem interface [Windows Media Player],get_errorContext method, IWMPErrorItem.get_errorContext, IWMPErrorItem::get_errorContext, IWMPErrorItemget_errorContext, get_errorContext, get_errorContext method [Windows Media Player], get_errorContext method [Windows Media Player],IWMPErrorItem interface, wmp.iwmperroritem_get_errorcontext, wmp/IWMPErrorItem::get_errorContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

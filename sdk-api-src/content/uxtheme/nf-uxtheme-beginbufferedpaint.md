@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.BeginBufferedPaint
 title: BeginBufferedPaint function
-author: windows-driver-content
+author: windows-sdk-content
 description: Begins a buffered paint operation.
 old-location: controls\BeginBufferedPaint.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\beginbufferedpaint.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BeginBufferedPaint, BeginBufferedPaint function [Windows Controls], _shell_BeginBufferedPaint, _shell_BeginBufferedPaint_cpp, controls.BeginBufferedPaint, controls._shell_BeginBufferedPaint, uxtheme/BeginBufferedPaint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

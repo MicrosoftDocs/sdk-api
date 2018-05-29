@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ICrmCompensator
 title: ICrmCompensator
-author: windows-driver-content
+author: windows-sdk-content
 description: Delivers unstructured log records to the CRM Compensator when using Microsoft Visual C++.
 old-location: cos\icrmcompensator.htm
 old-project: cossdk
 ms.assetid: 9e5a8f2c-4115-42bd-a541-d0ce75c45b72
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICrmCompensator, ICrmCompensator interface [COM+], ICrmCompensator interface [COM+],described, _dtc_ICrmCompensator_Interface, comsvcs/ICrmCompensator, cos.icrmcompensator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

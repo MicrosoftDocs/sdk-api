@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdate.get_Identity
 title: IUpdate::get_Identity
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an interface that contains the unique identifier of the update.
 old-location: wua\iupdate_identity.htm
 old-project: Wua_Sdk
 ms.assetid: e34019e4-54f4-486d-b5e7-5e65f65d1941
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdate interface [Windows Update Agent],Identity property, IUpdate.Identity, IUpdate.get_Identity, IUpdate::Identity, IUpdate::get_Identity, Identity property [Windows Update Agent], Identity property [Windows Update Agent],IUpdate interface, get_Identity, wua.iupdate_identity, wuapi/IUpdate::Identity, wuapi/IUpdate::get_Identity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

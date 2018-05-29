@@ -1,16 +1,16 @@
 ---
 UID: NF:interactioncontext.GetStateInteractionContext
 title: GetStateInteractionContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets current Interaction Context state and the time when the context will return to idle state.
 old-location: input_intcontext\getstateinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: 35d581a9-b1be-4f9b-8783-ccea3469921a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: GetStateInteractionContext, GetStateInteractionContext function, input_intcontext.getstateinteractioncontext, interactioncontext.getstateinteractioncontext, interactioncontext/GetStateInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

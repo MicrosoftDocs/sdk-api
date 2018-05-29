@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.TpSetCallbackThreadpool
 title: TpSetCallbackThreadpool function
-author: windows-driver-content
+author: windows-sdk-content
 description: Assigns a thread pool to a callback environment.
 old-location: base\tpsetcallbackthreadpool.htm
 old-project: ProcThread
 ms.assetid: A1BED20A-9DB5-4B5A-B1AD-60454176AB1D
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: TpSetCallbackThreadpool, TpSetCallbackThreadpool function, base.tpsetcallbackthreadpool, winnt/TpSetCallbackThreadpool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:pnrpns._PNRPCLOUDINFO
 title: "_PNRPCLOUDINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The PNRPCLOUDINFO structure is pointed to by the lpBlob member of the WSAQUERYSET structure.
 old-location: p2p\pnrpcloudinfo.htm
 old-project: P2PSdk
 ms.assetid: 82af5a4f-1b29-405a-a200-1d723ea7693b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*PPNRPCLOUDINFO, PNRPCLOUDINFO, PNRPCLOUDINFO structure [Peer Networking], PPNRPCLOUDINFO, PPNRPCLOUDINFO structure pointer [Peer Networking], _PNRPCLOUDINFO, p2p.pnrpcloudinfo, pnrpns/PNRPCLOUDINFO, pnrpns/PPNRPCLOUDINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: pnrpns.h
 req.include-header: 

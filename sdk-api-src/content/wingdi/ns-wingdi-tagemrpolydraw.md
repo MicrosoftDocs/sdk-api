@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRPOLYDRAW
 title: tagEMRPOLYDRAW
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRPOLYDRAW structure contains members for the PolyDraw enhanced metafile record.
 old-location: gdi\emrpolydraw.htm
 old-project: gdi
 ms.assetid: c75d19bf-a7e3-45db-9534-f089d4cec3eb
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRPOLYDRAW, EMRPOLYDRAW, EMRPOLYDRAW structure [Windows GDI], PEMRPOLYDRAW, PEMRPOLYDRAW structure pointer [Windows GDI], _win32_EMRPOLYDRAW_str, gdi.emrpolydraw, tagEMRPOLYDRAW, wingdi/EMRPOLYDRAW, wingdi/PEMRPOLYDRAW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

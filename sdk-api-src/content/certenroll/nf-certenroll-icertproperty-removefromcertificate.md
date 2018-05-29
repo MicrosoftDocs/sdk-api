@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertProperty.RemoveFromCertificate
 title: ICertProperty::RemoveFromCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Disassociates a property from a certificate.
 old-location: security\icertproperty_removefromcertificate_method.htm
 old-project: SecCertEnroll
 ms.assetid: 9f3e21ec-f537-40ba-84a3-b71c7aa50e84
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertProperty interface [Security],RemoveFromCertificate method, ICertProperty.RemoveFromCertificate, ICertProperty::RemoveFromCertificate, RemoveFromCertificate, RemoveFromCertificate method [Security], RemoveFromCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::RemoveFromCertificate, security.icertproperty_removefromcertificate_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

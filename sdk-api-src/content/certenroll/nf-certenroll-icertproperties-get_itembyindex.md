@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertProperties.get_ItemByIndex
 title: ICertProperties::get_ItemByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a property from the collection by index number.
 old-location: security\icertproperties_itembyindex_property.htm
 old-project: SecCertEnroll
 ms.assetid: d0e92e8a-2153-440e-829f-3c9cda8c8de4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertProperties interface [Security],ItemByIndex property, ICertProperties.ItemByIndex, ICertProperties.get_ItemByIndex, ICertProperties::ItemByIndex, ICertProperties::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICertProperties interface, certenroll/ICertProperties::ItemByIndex, certenroll/ICertProperties::get_ItemByIndex, get_ItemByIndex, security.icertproperties_itembyindex_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

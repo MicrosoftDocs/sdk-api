@@ -1,16 +1,16 @@
 ---
 UID: NF:dpapi.CryptUpdateProtectedState
 title: CryptUpdateProtectedState function
-author: windows-driver-content
+author: windows-sdk-content
 description: Migrates the current user's master keys after the user's security identifier (SID) has changed.
 old-location: security\cryptupdateprotectedstate.htm
 old-project: SecCrypto
 ms.assetid: f32e8fcd-6b5b-4a43-b3f9-77e17c84deca
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptUpdateProtectedState, CryptUpdateProtectedState function [Security], dpapi/CryptUpdateProtectedState, security.cryptupdateprotectedstate, wincrypt/CryptUpdateProtectedState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dpapi.h
 req.include-header: 

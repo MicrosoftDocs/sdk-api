@@ -1,16 +1,16 @@
 ---
 UID: NF:lmjoin.NetRequestOfflineDomainJoin
 title: NetRequestOfflineDomainJoin function
-author: windows-driver-content
+author: windows-sdk-content
 description: Executes locally on a machine to modify a Windows operating system image mounted on a volume.
 old-location: netmgmt\netrequestofflinedomainjoin.htm
 old-project: NetMgmt
 ms.assetid: f3f8fe00-d6f7-4d59-a4e7-6aef7f507e1a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NETSETUP_PROVISION_ONLINE_CALLER, NetRequestOfflineDomainJoin, NetRequestOfflineDomainJoin function [Network Management], lmjoin/NetRequestOfflineDomainJoin, netmgmt.netrequestofflinedomainjoin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmjoin.h
 req.include-header: Lm.h

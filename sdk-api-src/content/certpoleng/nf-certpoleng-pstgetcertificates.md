@@ -1,16 +1,16 @@
 ---
 UID: NF:certpoleng.PstGetCertificates
 title: PstGetCertificates function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves certificate chains that specify certificates that can be used to authenticate a user on the specified server.
 old-location: security\pstgetcertificates.htm
 old-project: SecAuthN
 ms.assetid: 3dfe3a7b-aefd-487a-a826-065e80f21eb5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: PstGetCertificates, PstGetCertificates function [Security], certpoleng/PstGetCertificates, security.pstgetcertificates
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: certpoleng.h
 req.include-header: 

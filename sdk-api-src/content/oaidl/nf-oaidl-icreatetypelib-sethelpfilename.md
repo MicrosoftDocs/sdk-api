@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.SetHelpFileName
 title: ICreateTypeLib::SetHelpFileName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the name of the Help file.
 old-location: automat\icreatetypelib_sethelpfilename.htm
 old-project: automat
 ms.assetid: a9dc11b0-1483-4272-84cb-4f885f6cff6f
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateTypeLib interface [Automation],SetHelpFileName method, ICreateTypeLib.SetHelpFileName, ICreateTypeLib::SetHelpFileName, SetHelpFileName, SetHelpFileName method [Automation], SetHelpFileName method [Automation],ICreateTypeLib interface, _oa96_ICreateTypeLib_SetHelpFileName, automat.icreatetypelib_sethelpfilename, oaidl/ICreateTypeLib::SetHelpFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

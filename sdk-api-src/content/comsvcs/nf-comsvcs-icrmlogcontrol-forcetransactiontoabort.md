@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.ForceTransactionToAbort
 title: ICrmLogControl::ForceTransactionToAbort
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs an immediate abort call on the transaction.
 old-location: cos\icrmlogcontrol_forcetransactiontoabort.htm
 old-project: cossdk
 ms.assetid: 5a0289c6-d177-40a3-968d-96ae3179e78d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ForceTransactionToAbort, ForceTransactionToAbort method [COM+], ForceTransactionToAbort method [COM+],ICrmLogControl interface, ICrmLogControl interface [COM+],ForceTransactionToAbort method, ICrmLogControl.ForceTransactionToAbort, ICrmLogControl::ForceTransactionToAbort, _dtc_ICrmLogControl_ForceTransactionToAbort, comsvcs/ICrmLogControl::ForceTransactionToAbort, cos.icrmlogcontrol_forcetransactiontoabort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

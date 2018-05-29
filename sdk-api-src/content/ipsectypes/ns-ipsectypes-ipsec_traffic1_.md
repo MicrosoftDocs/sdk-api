@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_TRAFFIC1_
 title: IPSEC_TRAFFIC1_
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies parameters to describe IPsec traffic.
 old-location: fwp\ipsec_traffic1_struct.htm
 old-project: FWP
 ms.assetid: 2a3ad63f-9fa1-41c7-b628-5fe4e17ce7ac
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_TRAFFIC1, IPSEC_TRAFFIC1 structure [Filtering], IPSEC_TRAFFIC1_, fwp.ipsec_traffic1_struct, ipsectypes/IPSEC_TRAFFIC1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

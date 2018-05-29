@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.NotifyStableUnicastIpAddressTable
 title: NotifyStableUnicastIpAddressTable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the stable unicast IP address table on a local computer.
 old-location: iphlp\notifystableunicastipaddresstable.htm
 old-project: IpHlp
 ms.assetid: 80d10088-79ef-41fd-add7-994d2a780ddb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyStableUnicastIpAddressTable, NotifyStableUnicastIpAddressTable function [IP Helper], iphlp.notifystableunicastipaddresstable, netioapi/NotifyStableUnicastIpAddressTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

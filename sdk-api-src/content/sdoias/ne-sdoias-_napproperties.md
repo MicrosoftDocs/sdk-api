@@ -1,16 +1,16 @@
 ---
 UID: NE:sdoias._NAPPROPERTIES
 title: "_NAPPROPERTIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: The values of the NAPPROPERTIES enumeration type specify properties for Network Access Policies (NAP).
 old-location: nps\SDO_napproperties.htm
 old-project: Nps
 ms.assetid: 1e43524c-1c6a-49fc-a962-e804e98454c5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: NAPPROPERTIES, NAPPROPERTIES enumeration [Network Policy Server], PROPERTY_NAP_POLICIES_COLLECTION, PROPERTY_SHV_TEMPLATES_COLLECTION, _NAPPROPERTIES, _sdo_napproperties, nps.SDO_napproperties, sdo.napproperties, sdoias/NAPPROPERTIES, sdoias/PROPERTY_NAP_POLICIES_COLLECTION, sdoias/PROPERTY_SHV_TEMPLATES_COLLECTION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

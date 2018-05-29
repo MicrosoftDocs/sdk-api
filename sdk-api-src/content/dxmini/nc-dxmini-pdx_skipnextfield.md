@@ -1,16 +1,16 @@
 ---
 UID: NC:dxmini.PDX_SKIPNEXTFIELD
 title: PDX_SKIPNEXTFIELD
-author: windows-driver-content
+author: windows-sdk-content
 description: The DxSkipNextField callback function is called when the next field needs to be skipped or reenabled.
 old-location: display\dxskipnextfield.htm
 old-project: display
 ms.assetid: da19c8dc-fef5-41e6-b032-2a0ae05a73da
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DxSkipNextField, DxSkipNextField callback function [Display Devices], PDX_SKIPNEXTFIELD, PDX_SKIPNEXTFIELD callback, VideoMiniPort_DxApiFunctions_417d791c-4050-4c35-aecb-bbf62e8a3e2f.xml, display.dxskipnextfield, dxmini/DxSkipNextField
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h

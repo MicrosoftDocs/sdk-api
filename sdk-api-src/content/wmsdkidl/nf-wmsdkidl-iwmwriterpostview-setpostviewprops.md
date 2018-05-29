@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.SetPostViewProps
 title: IWMWriterPostView::SetPostViewProps
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetPostViewProps method specifies the format for the specified output stream.
 old-location: wmformat\iwmwriterpostview_setpostviewprops.htm
 old-project: wmformat
 ms.assetid: e5b92065-fff3-41d2-b263-375ae14869e5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMWriterPostView interface [windows Media Format],SetPostViewProps method, IWMWriterPostView.SetPostViewProps, IWMWriterPostView::SetPostViewProps, IWMWriterPostViewSetPostViewProps, SetPostViewProps, SetPostViewProps method [windows Media Format], SetPostViewProps method [windows Media Format],IWMWriterPostView interface, wmformat.iwmwriterpostview_setpostviewprops, wmsdkidl/IWMWriterPostView::SetPostViewProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

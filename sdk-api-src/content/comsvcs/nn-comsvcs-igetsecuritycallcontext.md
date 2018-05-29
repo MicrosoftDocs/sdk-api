@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IGetSecurityCallContext
 title: IGetSecurityCallContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a reference to an object created from the SecurityCallContext class that is associated with the current call.
 old-location: cos\igetsecuritycallcontext.htm
 old-project: cossdk
 ms.assetid: 7be988b7-b144-4b8f-b8d3-b0700b564df3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IGetSecurityCallContext, IGetSecurityCallContext interface [COM+], IGetSecurityCallContext interface [COM+],described, _cos_IGetSecurityCallContext, comsvcs/IGetSecurityCallContext, cos.igetsecuritycallcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

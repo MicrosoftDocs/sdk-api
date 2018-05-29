@@ -1,16 +1,16 @@
 ---
 UID: NN:msime.IFECommon
 title: IFECommon
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFECommon interface provides IME-related services that are common for different languages.
 old-location: intl\ifecommon.htm
 old-project: Intl
 ms.assetid: 9FBECA6F-F162-485D-938F-FADC2D47083E
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFECommon, IFECommon interface [Internationalization for Windows Applications], IFECommon interface [Internationalization for Windows Applications],described, intl.ifecommon, msime/IFECommon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msime.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.DrawShadowText
 title: DrawShadowText function
-author: windows-driver-content
+author: windows-sdk-content
 description: Draws text that has a shadow.
 old-location: controls\DrawShadowText.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\drawshadowtext.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DrawShadowText, DrawShadowText function [Windows Controls], commctrl/DrawShadowText, controls.DrawShadowText, controls.inet_DrawShadowText, inet_DrawShadowText, inet_DrawShadowText_cpp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

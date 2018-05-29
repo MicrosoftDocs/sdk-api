@@ -1,16 +1,16 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnBufferEnd
 title: IXAudio2VoiceCallback::OnBufferEnd
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the voice finishes processing a buffer.
 old-location: xaudio2\ixaudio2voicecallback_interface_onbufferend.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnBufferEnd(void)
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnBufferEnd method, IXAudio2VoiceCallback.OnBufferEnd, IXAudio2VoiceCallback::OnBufferEnd, OnBufferEnd, OnBufferEnd method [XAudio2 Audio Mixing APIs], OnBufferEnd method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onbufferend, xaudio2/IXAudio2VoiceCallback::OnBufferEnd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

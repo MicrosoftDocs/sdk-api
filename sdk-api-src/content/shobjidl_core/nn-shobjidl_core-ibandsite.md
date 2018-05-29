@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IBandSite
 title: IBandSite
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that control band objects.
 old-location: shell\IBandSite.htm
 old-project: shell
 ms.assetid: d7893136-a1a3-4c4b-b8f3-e4679710d827
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBandSite, IBandSite interface [Windows Shell], IBandSite interface [Windows Shell],described, _win32_IBandSite, shell.IBandSite, shobjidl_core/IBandSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h

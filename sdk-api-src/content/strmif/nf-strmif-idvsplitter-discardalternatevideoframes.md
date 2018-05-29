@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDVSplitter.DiscardAlternateVideoFrames
 title: IDVSplitter::DiscardAlternateVideoFrames
-author: windows-driver-content
+author: windows-sdk-content
 description: The DiscardAlternateVideoFrames method discards half of the frames in the video stream. For NTSC, the frame rate is reduced from 30 frames per second (fps) to 15 fps. For PAL, the frame rate is reduced from 25 fps to 12.5 fps.
 old-location: dshow\idvsplitter_discardalternatevideoframes.htm
 old-project: DirectShow
 ms.assetid: 121b94cd-cc39-4ac2-9423-f75df9fcd491
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DiscardAlternateVideoFrames, DiscardAlternateVideoFrames method [DirectShow], DiscardAlternateVideoFrames method [DirectShow],IDVSplitter interface, IDVSplitter interface [DirectShow],DiscardAlternateVideoFrames method, IDVSplitter.DiscardAlternateVideoFrames, IDVSplitter::DiscardAlternateVideoFrames, IDVSplitterDiscardAlternateVideoFrames, dshow.idvsplitter_discardalternatevideoframes, strmif/IDVSplitter::DiscardAlternateVideoFrames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

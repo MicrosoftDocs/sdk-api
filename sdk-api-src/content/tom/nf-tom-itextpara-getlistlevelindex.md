@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextPara.GetListLevelIndex
 title: ITextPara::GetListLevelIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the list level index used with paragraphs.
 old-location: controls\ITextPara_GetListLevelIndex.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlistlevelindex.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetListLevelIndex, GetListLevelIndex method [Windows Controls], GetListLevelIndex method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListLevelIndex method, ITextPara.GetListLevelIndex, ITextPara::GetListLevelIndex, _win32_ITextPara_GetListLevelIndex, _win32_ITextPara_GetListLevelIndex_cpp, controls.ITextPara_GetListLevelIndex, controls._win32_ITextPara_GetListLevelIndex, tom/ITextPara::GetListLevelIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

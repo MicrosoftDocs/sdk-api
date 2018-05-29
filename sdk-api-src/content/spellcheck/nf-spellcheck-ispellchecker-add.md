@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheck.ISpellChecker.Add
 title: ISpellChecker::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Treats the provided word as though it were part of the original dictionary.
 old-location: intl\ispellchecker_add.htm
 old-project: Intl
 ms.assetid: d600a57e-7191-4a82-8004-026a04ef94ed
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Add, Add method [Internationalization for Windows Applications], Add method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],Add method, ISpellChecker.Add, ISpellChecker::Add, intl.ispellchecker_add, spellcheck/ISpellChecker::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

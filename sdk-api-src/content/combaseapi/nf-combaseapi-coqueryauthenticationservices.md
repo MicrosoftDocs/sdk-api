@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoQueryAuthenticationServices
 title: CoQueryAuthenticationServices function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of the authentication services registered when the process called CoInitializeSecurity.
 old-location: com\coqueryauthenticationservices.htm
 old-project: com
 ms.assetid: e9e7c5a3-70ec-4a68-ac21-1ab6774d140f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoQueryAuthenticationServices, CoQueryAuthenticationServices function [COM], _com_CoQueryAuthenticationServices, com.coqueryauthenticationservices, combaseapi/CoQueryAuthenticationServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

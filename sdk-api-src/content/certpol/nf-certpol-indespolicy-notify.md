@@ -1,16 +1,16 @@
 ---
 UID: NF:certpol.INDESPolicy.Notify
 title: INDESPolicy::Notify
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the plug-in of the transaction status of the SCEP certificate request.
 old-location: security\indespolicy_notify.htm
 old-project: SecCrypto
 ms.assetid: dcb1c006-c709-4879-a9bf-8d441d26db8d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: INDESPolicy interface [Security],Notify method, INDESPolicy.Notify, INDESPolicy::Notify, Notify, Notify method [Security], Notify method [Security],INDESPolicy interface, certpol/INDESPolicy::Notify, security.indespolicy_notify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certpol.h
 req.include-header: 

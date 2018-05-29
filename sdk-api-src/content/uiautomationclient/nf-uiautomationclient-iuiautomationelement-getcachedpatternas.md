@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCachedPatternAs
 title: IUIAutomationElement::GetCachedPatternAs
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the control pattern interface of the specified pattern from the cache of this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCachedPatternAs.htm
 old-project: WinAuto
 ms.assetid: 2d0170e2-277e-48f8-a2e4-5c4ece92d8ec
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetCachedPatternAs, GetCachedPatternAs method [Windows Accessibility], GetCachedPatternAs method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCachedPatternAs method, IUIAutomationElement.GetCachedPatternAs, IUIAutomationElement::GetCachedPatternAs, uiauto.uiauto_IUIAutomationElement_GetCachedPatternAs, uiauto_IUIAutomationElement_GetCachedPatternAs, uiautomationclient/IUIAutomationElement::GetCachedPatternAs, winauto.uiauto_IUIAutomationElement_GetCachedPatternAs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

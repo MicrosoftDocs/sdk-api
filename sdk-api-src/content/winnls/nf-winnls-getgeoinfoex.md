@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetGeoInfoEx
 title: GetGeoInfoEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a geographic location that you specify by using a two-letter International Organization for Standardization (ISO) 3166-1 code or numeric United Nations (UN) Series M, Number 49 (M.49) code.
 old-location: intl\getgeoinfoex.htm
 old-project: Intl
 ms.assetid: 05BF6434-A80F-4BF5-9A43-C4D65E72F43B
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetGeoInfoEx, GetGeoInfoEx function [Internationalization for Windows Applications], intl.getgeoinfoex, winnls/GetGeoInfoEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: 

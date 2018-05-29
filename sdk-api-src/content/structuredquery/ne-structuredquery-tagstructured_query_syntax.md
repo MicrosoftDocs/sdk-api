@@ -1,16 +1,16 @@
 ---
 UID: NE:structuredquery.tagSTRUCTURED_QUERY_SYNTAX
 title: tagSTRUCTURED_QUERY_SYNTAX
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of query syntax.
 old-location: search\_search_STRUCTURED_QUERY_SYNTAX.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\structured_query_syntax.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SQS_ADVANCED_QUERY_SYNTAX, SQS_NATURAL_QUERY_SYNTAX, SQS_NO_SYNTAX, STRUCTURED_QUERY_SYNTAX, STRUCTURED_QUERY_SYNTAX enumeration [search], _search_STRUCTURED_QUERY_SYNTAX, search._search_STRUCTURED_QUERY_SYNTAX, structuredquery/SQS_ADVANCED_QUERY_SYNTAX, structuredquery/SQS_NATURAL_QUERY_SYNTAX, structuredquery/SQS_NO_SYNTAX, structuredquery/STRUCTURED_QUERY_SYNTAX, tagSTRUCTURED_QUERY_SYNTAX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: structuredquery.h
 req.include-header: 
@@ -20,7 +20,7 @@ req.target-min-winversvr: Windows Server 2008 R2 [desktop apps only]
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
-req.unicode-ansi: UnalignedStringCchLengthW (Unicode) and StringCchLengthA (ANSI)
+req.unicode-ansi: StringCchVPrintf_lW (Unicode) and StringCchVPrintf_lA (ANSI)
 req.idl: Structuredquery.idl
 req.max-support: 
 req.namespace: 

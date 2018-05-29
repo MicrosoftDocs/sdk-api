@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICFormatConverterInfo
 title: IWICFormatConverterInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that provide information about a pixel format converter.
 old-location: wic\_wic_codec_iwicformatconverterinfo.htm
 old-project: wic
 ms.assetid: e6e2bade-66c1-4994-89b9-68aa038bdc8c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICFormatConverterInfo, IWICFormatConverterInfo interface [Windows Imaging Component], IWICFormatConverterInfo interface [Windows Imaging Component],described, _wic_codec_iwicformatconverterinfo, wic._wic_codec_iwicformatconverterinfo, wincodec/IWICFormatConverterInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.ParkIndirect
 title: ITBasicCallControl::ParkIndirect
-author: windows-driver-content
+author: windows-sdk-content
 description: The ParkIndirect method parks the call and returns the parked address.
 old-location: tapi3\itbasiccallcontrol_parkindirect.htm
 old-project: Tapi
 ms.assetid: 661ad11c-b653-4b70-9553-59d484527c29
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],ParkIndirect method, ITBasicCallControl.ParkIndirect, ITBasicCallControl::ParkIndirect, ParkIndirect, ParkIndirect method [TAPI 2.2], ParkIndirect method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_parkindirect, tapi3.itbasiccallcontrol_parkindirect, tapi3if/ITBasicCallControl::ParkIndirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

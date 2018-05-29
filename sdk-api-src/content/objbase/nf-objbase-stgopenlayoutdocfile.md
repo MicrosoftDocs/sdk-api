@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.StgOpenLayoutDocfile
 title: StgOpenLayoutDocfile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a compound file on an ILockBytes implementation that is capable of monitoring sector data.
 old-location: stg\stgopenlayoutdocfile.htm
 old-project: Stg
 ms.assetid: 6ecfb6bd-e623-42b6-9b95-f0563921ac15
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: StgOpenLayoutDocfile, StgOpenLayoutDocfile function [Structured Storage], _stg_stgopenlayoutdocfile, objbase/StgOpenLayoutDocfile, stg.stgopenlayoutdocfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SignalObjectAndWait
 title: SignalObjectAndWait function
-author: windows-driver-content
+author: windows-sdk-content
 description: Signals one object and waits on another object as a single operation.
 old-location: base\signalobjectandwait.htm
 old-project: Sync
 ms.assetid: 2b1ce22b-8edb-4685-99f4-4fc38eec202a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SignalObjectAndWait, SignalObjectAndWait function, _win32_signalobjectandwait, base.signalobjectandwait, winbase/SignalObjectAndWait
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

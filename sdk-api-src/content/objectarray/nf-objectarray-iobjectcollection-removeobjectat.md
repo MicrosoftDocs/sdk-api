@@ -1,16 +1,16 @@
 ---
 UID: NF:objectarray.IObjectCollection.RemoveObjectAt
 title: IObjectCollection::RemoveObjectAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a single, specified object from the collection.
 old-location: shell\IObjectCollection_RemoveObjectAt.htm
 old-project: shell
 ms.assetid: a0e526c0-a374-4952-8fe1-2a5aa53d9c41
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IObjectCollection interface [Windows Shell],RemoveObjectAt method, IObjectCollection.RemoveObjectAt, IObjectCollection::RemoveObjectAt, RemoveObjectAt, RemoveObjectAt method [Windows Shell], RemoveObjectAt method [Windows Shell],IObjectCollection interface, _shell_IObjectCollection_RemoveObjectAt, objectarray/IObjectCollection::RemoveObjectAt, shell.IObjectCollection_RemoveObjectAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objectarray.h
 req.include-header: Shobjidl.h

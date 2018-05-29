@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmGetCandidateListCountA
 title: ImmGetCandidateListCountA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the size of the candidate lists.
 old-location: intl\immgetcandidatelistcount.htm
 old-project: Intl
 ms.assetid: da7c4eee-3c79-4ea8-b9a5-3b43befa0021
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmGetCandidateListCount, ImmGetCandidateListCount function [Internationalization for Windows Applications], ImmGetCandidateListCountA, ImmGetCandidateListCountW, _win32_ImmGetCandidateListCount, imm/ImmGetCandidateListCount, imm/ImmGetCandidateListCountA, imm/ImmGetCandidateListCountW, intl.immgetcandidatelistcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

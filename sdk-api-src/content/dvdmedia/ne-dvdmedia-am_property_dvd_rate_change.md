@@ -1,16 +1,16 @@
 ---
 UID: NE:dvdmedia.AM_PROPERTY_DVD_RATE_CHANGE
 title: AM_PROPERTY_DVD_RATE_CHANGE
-author: windows-driver-content
+author: windows-sdk-content
 description: The AM_PROPERTY_DVD_RATE_CHANGE enumeration is not used.
 old-location: dshow\am_property_dvd_rate_change.htm
 old-project: DirectShow
 ms.assetid: 1a8e1a93-893f-4aaa-bbcc-f660b064e8a9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AM_PROPERTY_DVD_RATE_CHANGE, AM_PROPERTY_DVD_RATE_CHANGE enumeration [DirectShow], AM_RATE_ChangeRate, AM_RATE_DecoderPosition, AM_RATE_DecoderVersion, AM_RATE_FullDataRateMax, AM_RATE_ReverseDecode, dshow.am_property_dvd_rate_change, dvdmedia/AM_PROPERTY_DVD_RATE_CHANGE, dvdmedia/AM_RATE_ChangeRate, dvdmedia/AM_RATE_DecoderPosition, dvdmedia/AM_RATE_DecoderVersion, dvdmedia/AM_RATE_FullDataRateMax, dvdmedia/AM_RATE_ReverseDecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dvdmedia.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.SafeArrayGetLBound
 title: SafeArrayGetLBound function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the lower bound for any dimension of the specified safe array.
 old-location: automat\safearraygetlbound.htm
 old-project: automat
 ms.assetid: f3134cc9-759b-4908-ada0-d025a525e795
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: SafeArrayGetLBound, SafeArrayGetLBound function [Automation], _oa96_SafeArrayGetLBound, automat.safearraygetlbound, oleauto/SafeArrayGetLBound
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

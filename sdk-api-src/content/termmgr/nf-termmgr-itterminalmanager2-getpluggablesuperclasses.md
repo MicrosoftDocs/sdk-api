@@ -1,16 +1,16 @@
 ---
 UID: NF:termmgr.ITTerminalManager2.GetPluggableSuperclasses
 title: ITTerminalManager2::GetPluggableSuperclasses
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPluggableSuperclasses method gets the public CLSIDs for all pluggable terminal superclasses in the registry.
 old-location: tapi3\itterminalmanager2_getpluggablesuperclasses.htm
 old-project: Tapi
 ms.assetid: a3db1979-0ba5-416a-bb14-0ac4b61eb425
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetPluggableSuperclasses, GetPluggableSuperclasses method [TAPI 2.2], GetPluggableSuperclasses method [TAPI 2.2],ITTerminalManager2 interface, ITTerminalManager2 interface [TAPI 2.2],GetPluggableSuperclasses method, ITTerminalManager2.GetPluggableSuperclasses, ITTerminalManager2::GetPluggableSuperclasses, _tapi3_itterminalmanager2_getpluggablesuperclasses, tapi3.itterminalmanager2_getpluggablesuperclasses, termmgr/ITTerminalManager2::GetPluggableSuperclasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_WRITE_MESSAGE_START_CALLBACK
 title: WS_WRITE_MESSAGE_START_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles the WsWriteMessageStart call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_write_message_start_callback.htm
 old-project: wsw
 ms.assetid: 55a9a297-1a6e-41cf-a605-02c4cfef8ed0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_WRITE_MESSAGE_START_CALLBACK, WS_WRITE_MESSAGE_START_CALLBACK callback, WS_WRITE_MESSAGE_START_CALLBACK callback function [Web Services for Windows], webservices/WS_WRITE_MESSAGE_START_CALLBACK, wsw.ws_write_message_start_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

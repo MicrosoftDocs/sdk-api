@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IDataAdviseHolder.EnumAdvise
 title: IDataAdviseHolder::EnumAdvise
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an object that can be used to enumerate the current advisory connections.
 old-location: com\idataadviseholder_enumadvise.htm
 old-project: com
 ms.assetid: 0863d013-6f55-40ce-92d2-68bb0455a911
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IDataAdviseHolder interface, IDataAdviseHolder interface [COM],EnumAdvise method, IDataAdviseHolder.EnumAdvise, IDataAdviseHolder::EnumAdvise, _ole_idataadviseholder_enumadvise, com.idataadviseholder_enumadvise, objidl/IDataAdviseHolder::EnumAdvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

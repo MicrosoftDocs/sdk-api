@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.GetInvertedIfStackTable
 title: GetInvertedIfStackTable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a table of inverted network interface stack row entries that specify the relationship of the network interfaces on an interface stack.
 old-location: iphlp\getinvertedifstacktable.htm
 old-project: IpHlp
 ms.assetid: d1808ded-2798-46cc-8021-fdbcd3da60ea
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetInvertedIfStackTable, GetInvertedIfStackTable function [IP Helper], iphlp.getinvertedifstacktable, netioapi/GetInvertedIfStackTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

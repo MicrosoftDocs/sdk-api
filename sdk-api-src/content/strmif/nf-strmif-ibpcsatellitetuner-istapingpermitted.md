@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IBPCSatelliteTuner.IsTapingPermitted
 title: IBPCSatelliteTuner::IsTapingPermitted
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  The IBPCSatelliteTuner interface is deprecated. Queries whether taping is permitted.
 old-location: dshow\ibpcsatellitetuner_istapingpermitted.htm
 old-project: DirectShow
 ms.assetid: 5e5b661f-46d5-47f1-adeb-d323c57ddff0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IBPCSatelliteTuner interface [DirectShow],IsTapingPermitted method, IBPCSatelliteTuner.IsTapingPermitted, IBPCSatelliteTuner::IsTapingPermitted, IBPCSatelliteTunerIsTapingPermitted, IsTapingPermitted, IsTapingPermitted method [DirectShow], IsTapingPermitted method [DirectShow],IBPCSatelliteTuner interface, dshow.ibpcsatellitetuner_istapingpermitted, strmif/IBPCSatelliteTuner::IsTapingPermitted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

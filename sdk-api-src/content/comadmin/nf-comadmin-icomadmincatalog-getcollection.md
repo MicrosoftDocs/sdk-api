@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.GetCollection
 title: ICOMAdminCatalog::GetCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a top-level collection on the COM+ catalog.
 old-location: cos\icomadmincatalog_getcollection.htm
 old-project: cossdk
 ms.assetid: 6f01a7a7-d8f3-470f-8eb3-aa698b353af1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCollection, GetCollection method [COM+], GetCollection method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetCollection method, ICOMAdminCatalog.GetCollection, ICOMAdminCatalog::GetCollection, _cos_ICOMAdminCatalog_GetCollection, comadmin/ICOMAdminCatalog::GetCollection, cos.icomadmincatalog_getcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

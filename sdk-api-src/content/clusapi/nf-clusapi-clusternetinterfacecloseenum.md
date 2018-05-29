@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.ClusterNetInterfaceCloseEnum
 title: ClusterNetInterfaceCloseEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a network interface enumeration handle.
 old-location: mscs\clusternetinterfacecloseenum.htm
 old-project: MsCS
 ms.assetid: da7819b5-0f18-44e3-83e7-f6d5ccbc0de6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterNetInterfaceCloseEnum, ClusterNetInterfaceCloseEnum function [Failover Cluster], clusapi/ClusterNetInterfaceCloseEnum, mscs.clusternetinterfacecloseenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

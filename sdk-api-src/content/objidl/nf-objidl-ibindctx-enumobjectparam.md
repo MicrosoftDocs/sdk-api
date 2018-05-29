@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IBindCtx.EnumObjectParam
 title: IBindCtx::EnumObjectParam
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to an interface that can be used to enumerate the keys of the bind context's string-keyed table of pointers.
 old-location: com\ibindctx_enumobjectparam.htm
 old-project: com
 ms.assetid: 9e799ce4-e9b3-4b31-98a0-2167a0c19848
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnumObjectParam, EnumObjectParam method [COM], EnumObjectParam method [COM],IBindCtx interface, IBindCtx interface [COM],EnumObjectParam method, IBindCtx.EnumObjectParam, IBindCtx::EnumObjectParam, _com_ibindctx_enumobjectparam, com.ibindctx_enumobjectparam, objidl/IBindCtx::EnumObjectParam
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

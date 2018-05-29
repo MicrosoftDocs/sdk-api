@@ -1,16 +1,16 @@
 ---
 UID: NS:oaidl.tagSAFEARRAYBOUND
 title: tagSAFEARRAYBOUND
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the bounds of one dimension of the array.
 old-location: automat\safearraybound.htm
 old-project: automat
 ms.assetid: 303a9bdb-71d6-4f14-8747-84cf84936c6d
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: "*LPSAFEARRAYBOUND, LPSAFEARRAYBOUND, LPSAFEARRAYBOUND structure pointer [Automation], SAFEARRAYBOUND, SAFEARRAYBOUND structure [Automation], _oa96_SAFEARRAYBOUND, automat.safearraybound, oaidl/LPSAFEARRAYBOUND, oaidl/SAFEARRAYBOUND, tagSAFEARRAYBOUND"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

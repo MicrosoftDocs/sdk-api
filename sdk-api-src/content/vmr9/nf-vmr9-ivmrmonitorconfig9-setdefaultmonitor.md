@@ -1,16 +1,16 @@
 ---
 UID: NF:vmr9.IVMRMonitorConfig9.SetDefaultMonitor
 title: IVMRMonitorConfig9::SetDefaultMonitor
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDefaultMonitor method specifies the default monitor that all future instances of the VMR should use for video playback.
 old-location: dshow\ivmrmonitorconfig9_setdefaultmonitor.htm
 old-project: DirectShow
 ms.assetid: 4e02e0b6-8c0e-4c32-9059-91b1b8be165f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRMonitorConfig9 interface [DirectShow],SetDefaultMonitor method, IVMRMonitorConfig9.SetDefaultMonitor, IVMRMonitorConfig9::SetDefaultMonitor, IVMRMonitorConfig9SetDefaultMonitor, SetDefaultMonitor, SetDefaultMonitor method [DirectShow], SetDefaultMonitor method [DirectShow],IVMRMonitorConfig9 interface, dshow.ivmrmonitorconfig9_setdefaultmonitor, vmr9/IVMRMonitorConfig9::SetDefaultMonitor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

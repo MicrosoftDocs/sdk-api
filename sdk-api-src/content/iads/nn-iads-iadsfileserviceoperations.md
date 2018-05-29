@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsFileServiceOperations
 title: IADsFileServiceOperations
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsFileServiceOperations interface is a dual interface that inherits from IADsServiceOperations.
 old-location: adsi\iadsfileserviceoperations.htm
 old-project: ADSI
 ms.assetid: 91335658-8efb-4945-9862-f72e78d749d6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsFileServiceOperations, IADsFileServiceOperations interface [ADSI], IADsFileServiceOperations interface [ADSI],described, _ds_iadsfileserviceoperations, adsi.iadsfileserviceoperations, iads/IADsFileServiceOperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

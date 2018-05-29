@@ -1,16 +1,16 @@
 ---
 UID: NS:wabdefs._ADRENTRY
 title: "_ADRENTRY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. Describes zero or more properties belonging to one or more recipients.
 old-location: wab\_wab_ADRENTRY.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrentry.htm
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPADRENTRY, ADRENTRY, ADRENTRY structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _ADRENTRY, _wab_ADRENTRY, wab._wab_ADRENTRY, wabdefs/ADRENTRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

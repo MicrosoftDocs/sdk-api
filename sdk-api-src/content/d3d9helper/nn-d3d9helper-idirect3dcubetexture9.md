@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d9helper.IDirect3DCubeTexture9
 title: IDirect3DCubeTexture9
-author: windows-driver-content
+author: windows-sdk-content
 description: Applications use the methods of the IDirect3DCubeTexture9 interface to manipulate a cube texture resource.
 old-location: direct3d9\idirect3dcubetexture9.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dcubetexture9.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 44cd2690-0c08-62c5-decf-0c54344edb9b, IDirect3DCubeTexture9, IDirect3DCubeTexture9 interface [Direct3D 9], IDirect3DCubeTexture9 interface [Direct3D 9],described, d3d9helper/IDirect3DCubeTexture9, direct3d9.idirect3dcubetexture9
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d9helper.h
 req.include-header: D3D9.h

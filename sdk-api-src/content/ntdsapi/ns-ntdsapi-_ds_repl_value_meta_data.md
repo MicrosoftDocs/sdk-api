@@ -1,16 +1,16 @@
 ---
 UID: NS:ntdsapi._DS_REPL_VALUE_META_DATA
 title: "_DS_REPL_VALUE_META_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used with the DS_REPL_ATTR_VALUE_META_DATA structure to contain attribute value replication metadata.
 old-location: ad\ds_repl_value_meta_data.htm
 old-project: AD
 ms.assetid: 294a466e-8a83-4b33-a8a8-ac7b51d081d4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_REPL_VALUE_META_DATA, DS_REPL_VALUE_META_DATA structure [Active Directory], _DS_REPL_VALUE_META_DATA, ad.ds_repl_value_meta_data, ntdsapi/DS_REPL_VALUE_META_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

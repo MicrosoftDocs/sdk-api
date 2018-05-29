@@ -1,16 +1,16 @@
 ---
 UID: NE:evntprov._EVENT_INFO_CLASS
 title: "_EVENT_INFO_CLASS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a type of operation to perform on a registration object.
 old-location: etw\event_info_class.htm
 old-project: ETW
 ms.assetid: 76ac2b93-d5df-4504-b36d-1530bbb12ab4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EVENT_INFO_CLASS, EVENT_INFO_CLASS enumeration [ETW], EventProviderBinaryTrackInfo, EventProviderSetTraits, EventProviderUseDescriptorType, MaxEventInfo, _EVENT_INFO_CLASS, etw.event_info_class, evntprov/EVENT_INFO_CLASS, evntprov/EventProviderBinaryTrackInfo, evntprov/EventProviderSetTraits, evntprov/EventProviderUseDescriptorType, evntprov/MaxEventInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: evntprov.h
 req.include-header: 

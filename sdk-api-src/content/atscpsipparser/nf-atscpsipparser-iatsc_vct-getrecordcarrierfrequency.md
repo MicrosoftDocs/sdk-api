@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordCarrierFrequency
 title: IATSC_VCT::GetRecordCarrierFrequency
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordcarrierfrequency.htm
 old-project: mstv
 ms.assetid: ff875184-1d91-489d-9941-5d1cd3e9e872
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordCarrierFrequency, GetRecordCarrierFrequency method [Microsoft TV Technologies], GetRecordCarrierFrequency method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordCarrierFrequency method, IATSC_VCT.GetRecordCarrierFrequency, IATSC_VCT::GetRecordCarrierFrequency, IATSC_VCTGetRecordCarrierFrequency, atscpsipparser/IATSC_VCT::GetRecordCarrierFrequency, mstv.iatsc_vct_getrecordcarrierfrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

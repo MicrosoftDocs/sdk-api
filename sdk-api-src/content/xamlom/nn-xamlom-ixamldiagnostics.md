@@ -1,16 +1,16 @@
 ---
 UID: NN:xamlom.IXamlDiagnostics
 title: IXamlDiagnostics
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a XAML Diagnostics session.
 old-location: xaml_diagnostics\ixamldiagnostics.htm
 old-project: xaml_diagnostics
 ms.assetid: 1BCE3EC3-8B48-4F16-8E91-78776C07F309
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: IXamlDiagnostics, IXamlDiagnostics interface, IXamlDiagnostics interface,described, xaml_diagnostics.ixamldiagnostics, xamlom/IXamlDiagnostics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xamlom.h
 req.include-header: 

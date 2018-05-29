@@ -1,16 +1,16 @@
 ---
 UID: NF:editionupgradehelper.IEditionUpgradeHelper.CanUpgrade
 title: IEditionUpgradeHelper::CanUpgrade
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks if the user has sufficient permissions to upgrade the operating system, and prompts the user to run as an administrator if needed.
 old-location: winprog\ieditionupgradehelper_canupgrade.htm
 old-project: DevNotes
 ms.assetid: 8B2776DC-09DE-4E40-96CC-656C4B09A109
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CanUpgrade, CanUpgrade method [Windows API], CanUpgrade method [Windows API],IEditionUpgradeHelper interface, IEditionUpgradeHelper interface [Windows API],CanUpgrade method, IEditionUpgradeHelper.CanUpgrade, IEditionUpgradeHelper::CanUpgrade, editionupgradehelper/IEditionUpgradeHelper::CanUpgrade, winprog.ieditionupgradehelper_canupgrade
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: editionupgradehelper.h
 req.include-header: 

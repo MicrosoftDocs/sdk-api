@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.INamedPropertyStore.GetNameCount
 title: INamedPropertyStore::GetNameCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of property names in the property store.
 old-location: shell\INamedPropertyStore_GetNameCount.htm
 old-project: shell
 ms.assetid: 74bba1bf-e003-40bb-9118-4d647f78e409
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNameCount, GetNameCount method [Windows Shell], GetNameCount method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNameCount method, INamedPropertyStore.GetNameCount, INamedPropertyStore::GetNameCount, _shell_INamedPropertyStore_GetNameCount, propsys/INamedPropertyStore::GetNameCount, shell.INamedPropertyStore_GetNameCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

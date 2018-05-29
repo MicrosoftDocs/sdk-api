@@ -1,16 +1,16 @@
 ---
 UID: NN:encdec.IETFilter
 title: IETFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: The IETFilter interface is exposed by the Encrypter/Tagger filter. Most applications will not have to use this interface.
 old-location: mstv\ietfilter.htm
 old-project: mstv
 ms.assetid: 9fce6b33-394c-47d2-9d02-7b0dadaa1736
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IETFilter, IETFilter interface [Microsoft TV Technologies], IETFilter interface [Microsoft TV Technologies],described, IETFilterInterface, encdec/IETFilter, mstv.ietfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: encdec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Validate
 title: INetDiagHelper::Validate
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by NDF after a repair is successfully completed.
 old-location: ndf\inetdiaghelpe_validate.htm
 old-project: NDF
 ms.assetid: 2faab163-5684-4b10-b62d-7e22d5b789a8
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INetDiagHelper interface [NDF],Validate method, INetDiagHelper.Validate, INetDiagHelper::Validate, Validate, Validate method [NDF], Validate method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_validate, ndhelper/INetDiagHelper::Validate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 

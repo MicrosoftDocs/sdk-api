@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictItems.GetCount
 title: ISyncMgrConflictItems::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the conflict item count.
 old-location: shell\ISyncMgrConflictItems_GetCount.htm
 old-project: shell
 ms.assetid: 948223a2-289f-4372-bd5d-5a075b659804
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],ISyncMgrConflictItems interface, ISyncMgrConflictItems interface [Windows Shell],GetCount method, ISyncMgrConflictItems.GetCount, ISyncMgrConflictItems::GetCount, _shell_ISyncMgrConflictItems_GetCount, shell.ISyncMgrConflictItems_GetCount, syncmgr/ISyncMgrConflictItems::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICspStatuses.get_ItemByOrdinal
 title: ICspStatuses::get_ItemByOrdinal
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an ICspStatus object from the collection by ordinal number.
 old-location: security\icspstatuses_itembyordinal_property.htm
 old-project: SecCertEnroll
 ms.assetid: 94b5f741-eceb-4ef9-8010-5033ce042018
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICspStatuses interface [Security],ItemByOrdinal property, ICspStatuses.ItemByOrdinal, ICspStatuses.get_ItemByOrdinal, ICspStatuses::ItemByOrdinal, ICspStatuses::get_ItemByOrdinal, ItemByOrdinal property [Security], ItemByOrdinal property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByOrdinal, certenroll/ICspStatuses::get_ItemByOrdinal, get_ItemByOrdinal, security.icspstatuses_itembyordinal_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

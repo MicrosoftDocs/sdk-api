@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMGraphBuilderCallback.CreatedFilter
 title: IAMGraphBuilderCallback::CreatedFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: The Filter Graph Manager calls this method after it has created a filter, but before it attempts to connect the filter.
 old-location: dshow\iamgraphbuildercallback_createdfilter.htm
 old-project: DirectShow
 ms.assetid: 04a20a3f-a4a5-434b-896a-60d36430f390
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreatedFilter, CreatedFilter method [DirectShow], CreatedFilter method [DirectShow],IAMGraphBuilderCallback interface, IAMGraphBuilderCallback interface [DirectShow],CreatedFilter method, IAMGraphBuilderCallback.CreatedFilter, IAMGraphBuilderCallback::CreatedFilter, IAMGraphBuilderCallbackCreatedFilter, dshow.iamgraphbuildercallback_createdfilter, strmif/IAMGraphBuilderCallback::CreatedFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

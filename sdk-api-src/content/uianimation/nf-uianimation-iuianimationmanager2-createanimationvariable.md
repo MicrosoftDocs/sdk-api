@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.CreateAnimationVariable
 title: IUIAnimationManager2::CreateAnimationVariable
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new animation variable.
 old-location: uianimation\iuianimationmanager2_createanimationvariable.htm
 old-project: UIAnimation
 ms.assetid: 5E963D24-2436-4B8F-8806-69E521EC83AF
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateAnimationVariable, CreateAnimationVariable method [Windows Animation], CreateAnimationVariable method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],CreateAnimationVariable method, IUIAnimationManager2.CreateAnimationVariable, IUIAnimationManager2::CreateAnimationVariable, uianimation.iuianimationmanager2_createanimationvariable, uianimation/IUIAnimationManager2::CreateAnimationVariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

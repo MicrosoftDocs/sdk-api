@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectSet.Create
 title: IOpcSignatureCustomObjectSet::Create
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IOpcSignatureCustomObject interface pointer to represent an application-specific Object element in the signature, and adds the new interface to the set.
 old-location: opc\iopcsignaturecustomobjectset_create.htm
 old-project: OPC
 ms.assetid: 93bf4509-900c-42bc-9834-c8a33cfe7e65
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureCustomObjectSet interface, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],Create method, IOpcSignatureCustomObjectSet.Create, IOpcSignatureCustomObjectSet::Create, msopc/IOpcSignatureCustomObjectSet::Create, opc.iopcsignaturecustomobjectset_create
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

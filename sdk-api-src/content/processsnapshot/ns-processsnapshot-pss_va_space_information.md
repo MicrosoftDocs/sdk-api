@@ -1,16 +1,16 @@
 ---
 UID: NS:processsnapshot.PSS_VA_SPACE_INFORMATION
 title: PSS_VA_SPACE_INFORMATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds virtual address (VA) space information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_va_space_information.htm
 old-project: proc_snap
 ms.assetid: F38FF7EB-DDC5-4692-8F57-8D633193D891
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PSS_VA_SPACE_INFORMATION, PSS_VA_SPACE_INFORMATION structure, proc_snap.pss_va_space_information, processsnapshot/PSS_VA_SPACE_INFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

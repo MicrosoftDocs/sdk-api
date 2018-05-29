@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrm.IFsrmAction.get_RunLimitInterval
 title: IFsrmAction::get_RunLimitInterval
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the interval that must expire before the action is run again.
 old-location: fsrm\ifsrmaction_runlimitinterval.htm
 old-project: Fsrm
 ms.assetid: 3d5be77f-282f-479d-aa34-a8cb1c771951
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmAction interface [File Server Resource Manager],RunLimitInterval property, IFsrmAction.RunLimitInterval, IFsrmAction.get_RunLimitInterval, IFsrmAction::RunLimitInterval, IFsrmAction::get_RunLimitInterval, IFsrmAction::put_RunLimitInterval, RunLimitInterval property [File Server Resource Manager], RunLimitInterval property [File Server Resource Manager],IFsrmAction interface, fs.ifsrmaction_runlimitinterval, fsrm.ifsrmaction_runlimitinterval, fsrm/IFsrmAction::RunLimitInterval, fsrm/IFsrmAction::get_RunLimitInterval, fsrm/IFsrmAction::put_RunLimitInterval, get_RunLimitInterval
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h

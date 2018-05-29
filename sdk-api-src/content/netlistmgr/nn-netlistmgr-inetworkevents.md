@@ -1,16 +1,16 @@
 ---
 UID: NN:netlistmgr.INetworkEvents
 title: INetworkEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: INetworkEvents is a notification sink interface that a client implements to get network related events. These APIs are all callback functions that are called automatically when the respective events are raised.
 old-location: nla\inetworkevents.htm
 old-project: NLA
 ms.assetid: 75cc6efb-dd1b-40b6-84fe-5ba7c244cd72
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INetworkEvents, INetworkEvents interface [Network Awareness], INetworkEvents interface [Network Awareness],described, netlistmgr/INetworkEvents, nla.inetworkevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netlistmgr.h
 req.include-header: 

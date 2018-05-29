@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventSubscription.get_SubscriptionID
 title: IEventSubscription::get_SubscriptionID
-author: windows-driver-content
+author: windows-sdk-content
 description: The unique ID for the subscription object.
 old-location: cos\ieventsubscription_subscriptionid.htm
 old-project: cossdk
 ms.assetid: 923eadb6-2ee8-4db9-952a-69f73367b2f8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEventSubscription interface [COM+],SubscriptionID property, IEventSubscription.SubscriptionID, IEventSubscription.get_SubscriptionID, IEventSubscription::SubscriptionID, IEventSubscription::get_SubscriptionID, IEventSubscription::put_SubscriptionID, SubscriptionID property [COM+], SubscriptionID property [COM+],IEventSubscription interface, cos.ieventsubscription_subscriptionid, eventsys/IEventSubscription::SubscriptionID, eventsys/IEventSubscription::get_SubscriptionID, eventsys/IEventSubscription::put_SubscriptionID, get_SubscriptionID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

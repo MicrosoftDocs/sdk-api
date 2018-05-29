@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.AddLogContainerSet
 title: AddLogContainerSet function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds multiple log containers to the physical log that is associated with the log handle&#8212;if the calling process has access to the log handle.
 old-location: fs\addlogcontainerset.htm
 old-project: Clfs
 ms.assetid: b3dec3bd-3e39-42fa-8f73-71784b3d5be2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: AddLogContainerSet, AddLogContainerSet function [Files], clfsw32/AddLogContainerSet, fs.addlogcontainerset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbSatelliteDeliverySystemDescriptor.GetTag
 title: IDvbSatelliteDeliverySystemDescriptor::GetTag
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: 217b49b8-8e98-4784-837d-67471fda2ea5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbSatelliteDeliverySystemDescriptor.GetTag, IDvbSatelliteDeliverySystemDescriptor::GetTag, IDvbSatelliteDeliverySystemDescriptorGetTag, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetTag, mstv.idvbsatellitedeliverysystemdescriptor_gettag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

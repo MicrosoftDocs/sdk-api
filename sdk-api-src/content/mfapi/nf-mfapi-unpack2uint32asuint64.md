@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.Unpack2UINT32AsUINT64
 title: Unpack2UINT32AsUINT64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the low-order and high-order UINT32 values from a UINT64 value.
 old-location: mf\unpack2uint32asuint64.htm
 old-project: medfound
 ms.assetid: 507504c2-85d3-44b6-9972-bcdd3c4227f6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Unpack2UINT32AsUINT64, Unpack2UINT32AsUINT64 function [Media Foundation], mf.unpack2uint32asuint64, mfapi/Unpack2UINT32AsUINT64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

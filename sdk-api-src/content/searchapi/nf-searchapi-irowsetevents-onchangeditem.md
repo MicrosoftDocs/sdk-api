@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.IRowsetEvents.OnChangedItem
 title: IRowsetEvents::OnChangedItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the indexer to notify clients that an item has been modified. This item may have matched some (or all) of the criteria for the client rowset.
 old-location: search\_search_IRowsetEvents_OnChangedItem.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onchangeditem.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRowsetEvents interface [search],OnChangedItem method, IRowsetEvents.OnChangedItem, IRowsetEvents::OnChangedItem, OnChangedItem, OnChangedItem method [search], OnChangedItem method [search],IRowsetEvents interface, _search_IRowsetEvents_OnChangedItem, search._search_IRowsetEvents_OnChangedItem, searchapi/IRowsetEvents::OnChangedItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

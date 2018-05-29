@@ -1,16 +1,16 @@
 ---
 UID: NE:nldef._NL_LINK_LOCAL_ADDRESS_BEHAVIOR
 title: "_NL_LINK_LOCAL_ADDRESS_BEHAVIOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: The NL_LINK_LOCAL_ADDRESS_BEHAVIOR enumeration type defines the link local address behavior.
 old-location: netvista\nl_link_local_address_behavior.htm
 old-project: netvista
 ms.assetid: d3010b6a-445b-44eb-8ebb-101664f3f835
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: LinkLocalAlwaysOff, LinkLocalAlwaysOn, LinkLocalDelayed, LinkLocalUnchanged, NL_LINK_LOCAL_ADDRESS_BEHAVIOR, NL_LINK_LOCAL_ADDRESS_BEHAVIOR enumeration [Network Drivers Starting with Windows Vista], _NL_LINK_LOCAL_ADDRESS_BEHAVIOR, iphelper_9f039710-dacb-46b7-b2ff-b7ca7feac810.xml, netvista.nl_link_local_address_behavior, nldef/LinkLocalAlwaysOff, nldef/LinkLocalAlwaysOn, nldef/LinkLocalDelayed, nldef/LinkLocalUnchanged, nldef/NL_LINK_LOCAL_ADDRESS_BEHAVIOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: nldef.h
 req.include-header: Netioapi.h
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Newdev.lib
-req.dll: Newdev.dll
+req.dll: 
 req.irql: 
 req.product: Rights Management Services client 1.0 or later
 ---

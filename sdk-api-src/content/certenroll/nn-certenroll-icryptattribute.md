@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ICryptAttribute
 title: ICryptAttribute
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICryptAttribute interface represents a cryptographic attribute in a certificate request. A collection of these attributes is contained in the CertificateRequestInfo structure of a PKCS #10 request as shown by the following example syntax.
 old-location: security\icryptattribute.htm
 old-project: SecCertEnroll
 ms.assetid: 2aefde1b-0f77-4a88-8851-5bacd363900b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICryptAttribute, ICryptAttribute interface [Security], ICryptAttribute interface [Security],described, certenroll/ICryptAttribute, security.icryptattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

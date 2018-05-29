@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.AddStreamForRecord
 title: IMFASFMutualExclusion::AddStreamForRecord
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a stream number to a record in the Advanced Systems Format mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_addstreamforrecord.htm
 old-project: medfound
 ms.assetid: cfbfe3be-b0a4-408a-952e-e4f996f94cee
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddStreamForRecord, AddStreamForRecord method [Media Foundation], AddStreamForRecord method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],AddStreamForRecord method, IMFASFMutualExclusion.AddStreamForRecord, IMFASFMutualExclusion::AddStreamForRecord, cfbfe3be-b0a4-408a-952e-e4f996f94cee, mf.imfasfmutualexclusion_addstreamforrecord, wmcontainer/IMFASFMutualExclusion::AddStreamForRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

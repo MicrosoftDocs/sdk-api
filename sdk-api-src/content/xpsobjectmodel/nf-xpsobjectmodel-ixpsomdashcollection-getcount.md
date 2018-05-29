@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.GetCount
 title: IXpsOMDashCollection::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of XPS_DASH structures in the collection.
 old-location: xps\ixpsomdashcollection_getcount.htm
 old-project: printdocs
 ms.assetid: 51393b2f-6658-4268-bcfc-5647ef2c8406
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMDashCollection interface, IXpsOMDashCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMDashCollection.GetCount, IXpsOMDashCollection::GetCount, xps.ixpsomdashcollection_getcount, xpsobjectmodel/IXpsOMDashCollection::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

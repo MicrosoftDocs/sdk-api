@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock.getservbyport
 title: getservbyport function
-author: windows-driver-content
+author: windows-sdk-content
 description: The getservbyport function retrieves service information corresponding to a port and protocol.
 old-location: winsock\getservbyport_2.htm
 old-project: WinSock
 ms.assetid: afd63c2d-4f77-49df-aeff-bfe56598fcbf
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "_win32_getservbyport_2, getservbyport, getservbyport function [Winsock], winsock.getservbyport_2, winsock/getservbyport"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock.h
 req.include-header: Winsock2.h

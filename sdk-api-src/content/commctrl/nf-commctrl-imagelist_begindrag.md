@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ImageList_BeginDrag
 title: ImageList_BeginDrag function
-author: windows-driver-content
+author: windows-sdk-content
 description: Begins dragging an image.
 old-location: controls\ImageList_BeginDrag.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_begindrag.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ImageList_BeginDrag, ImageList_BeginDrag function [Windows Controls], _win32_ImageList_BeginDrag, _win32_ImageList_BeginDrag_cpp, commctrl/ImageList_BeginDrag, controls.ImageList_BeginDrag, controls._win32_ImageList_BeginDrag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

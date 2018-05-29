@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFNetCredentialManager.BeginGetCredentials
 title: IMFNetCredentialManager::BeginGetCredentials
-author: windows-driver-content
+author: windows-sdk-content
 description: Begins an asynchronous request to retrieve the user's credentials.
 old-location: mf\imfnetcredentialmanager_begingetcredentials.htm
 old-project: medfound
 ms.assetid: ff11ff99-18bf-4c4c-93fd-31c06309f105
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BeginGetCredentials, BeginGetCredentials method [Media Foundation], BeginGetCredentials method [Media Foundation],IMFNetCredentialManager interface, IMFNetCredentialManager interface [Media Foundation],BeginGetCredentials method, IMFNetCredentialManager.BeginGetCredentials, IMFNetCredentialManager::BeginGetCredentials, ff11ff99-18bf-4c4c-93fd-31c06309f105, mf.imfnetcredentialmanager_begingetcredentials, mfidl/IMFNetCredentialManager::BeginGetCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

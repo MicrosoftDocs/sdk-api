@@ -1,16 +1,16 @@
 ---
 UID: NS:dwrite.DWRITE_FONT_METRICS
 title: DWRITE_FONT_METRICS
-author: windows-driver-content
+author: windows-sdk-content
 description: The DWRITE_FONT_METRICS structure specifies the metrics that are applicable to all glyphs within the font face.
 old-location: directwrite\dwrite_font_metrics.htm
 old-project: DirectWrite
 ms.assetid: ffbf987c-145e-4b93-a48f-8948944c6e33
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_FONT_METRICS, DWRITE_FONT_METRICS structure [Direct Write], directwrite.dwrite_font_metrics, dwrite/DWRITE_FONT_METRICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

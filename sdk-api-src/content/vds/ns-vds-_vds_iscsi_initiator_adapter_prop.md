@@ -1,16 +1,16 @@
 ---
 UID: NS:vds._VDS_ISCSI_INITIATOR_ADAPTER_PROP
 title: "_VDS_ISCSI_INITIATOR_ADAPTER_PROP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the properties of an iSCSI initiator adapter.
 old-location: base\vds_iscsi_initiator_adapter_prop.htm
 old-project: VDS
 ms.assetid: cfcc7c7a-d135-4404-8f67-64e43a425669
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
-ms.keywords: VDS_ISCSI_INITIATOR_ADAPTER_PROP, VDS_ISCSI_INITIATOR_ADAPTER_PROP structure [VDS], _VDS_ISCSI_INITIATOR_ADAPTER_PROP, base.vds_iscsi_initiator_adapter_prop, vds/VDS_ISCSI_INITIATOR_ADAPTER_PROP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: VDS_ISCSI_INITIATOR_ADAPTER_PROP, VDS_ISCSI_INITIATOR_ADAPTER_PROP structure [VDS], _VDS_ISCSI_INITIATOR_ADAPTER_PROP, base.vds_iscsi_initiator_adapter_prop, vds/VDS_ISCSI_INITIATOR_ADAPTER_PROP, vdshwprv/VDS_ISCSI_INITIATOR_ADAPTER_PROP
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vds.h
 req.include-header: 
@@ -34,6 +34,7 @@ api_type:
 -	HeaderDef
 api_location:
 -	Vds.h
+-	VdsHwPrv.h
 api_name:
 -	VDS_ISCSI_INITIATOR_ADAPTER_PROP
 product: Windows

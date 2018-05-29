@@ -1,16 +1,16 @@
 ---
 UID: NC:routprot.PMIB_GET_FIRST
 title: PMIB_GET_FIRST
-author: windows-driver-content
+author: windows-sdk-content
 description: The MibGetFirst function passes a SNMP MIB-style Get First Request to the routing protocol.
 old-location: rras\mibgetfirst.htm
 old-project: RRAS
 ms.assetid: 3aef09e2-6314-4de8-a9dd-e02c13e0145c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MibGetFirst, MibGetFirst callback function [RAS], PMIB_GET_FIRST, PMIB_GET_FIRST callback, _mpr_mibgetfirst, routprot/MibGetFirst, rras.mibgetfirst
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: routprot.h
 req.include-header: 

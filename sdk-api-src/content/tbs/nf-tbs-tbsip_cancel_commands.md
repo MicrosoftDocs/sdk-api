@@ -1,16 +1,16 @@
 ---
 UID: NF:tbs.Tbsip_Cancel_Commands
 title: Tbsip_Cancel_Commands function
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels all outstanding commands for the specified context.
 old-location: tbs\_tbsip_cancel_commands.htm
 old-project: TBS
 ms.assetid: aaf209cb-2250-4c23-900f-9026d2f44e24
-ms.author: windowsdriverdev
-ms.date: 3/1/2018
+ms.author: windowssdkdev
+ms.date: 03/01/2018
 ms.keywords: Tbsip_Cancel_Commands, Tbsip_Cancel_Commands function [TBS], tbs._tbsip_cancel_commands, tbs/Tbsip_Cancel_Commands
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tbs.h
 req.include-header: 

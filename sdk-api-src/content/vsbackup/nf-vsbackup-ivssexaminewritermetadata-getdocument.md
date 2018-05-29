@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetDocument
 title: IVssExamineWriterMetadata::GetDocument
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.
 old-location: base\ivssexaminewritermetadata_getdocument.htm
 old-project: VSS
 ms.assetid: 3ade4232-147b-4e56-b45c-e692d08cfcdc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDocument, GetDocument method [VSS], GetDocument method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetDocument method, IVssExamineWriterMetadata.GetDocument, IVssExamineWriterMetadata::GetDocument, _win32_ivssexaminewritermetadata_getdocument, base.ivssexaminewritermetadata_getdocument, vsbackup/IVssExamineWriterMetadata::GetDocument
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

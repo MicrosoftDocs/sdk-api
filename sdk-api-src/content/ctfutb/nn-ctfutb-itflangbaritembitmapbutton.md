@@ -1,16 +1,16 @@
 ---
 UID: NN:ctfutb.ITfLangBarItemBitmapButton
 title: ITfLangBarItemBitmapButton
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfLangBarItemBitmapButton interface is implemented by a language bar bitmap button provider and is used by the language bar manager to obtain information specific to a bitmap button item on the language bar.
 old-location: tsf\itflangbaritembitmapbutton.htm
 old-project: TSF
 ms.assetid: 29fcc913-fcc7-4321-918b-2c354dd751ff
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfLangBarItemBitmapButton, ITfLangBarItemBitmapButton interface [Text Services Framework], ITfLangBarItemBitmapButton interface [Text Services Framework],described, _tsf_itflangbaritembitmapbutton_ref, ctfutb/ITfLangBarItemBitmapButton, tsf.itflangbaritembitmapbutton
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctfutb.h
 req.include-header: 

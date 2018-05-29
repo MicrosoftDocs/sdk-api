@@ -1,16 +1,16 @@
 ---
 UID: NN:bdaiface.IBDA_ConditionalAccessEx
 title: IBDA_ConditionalAccessEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to a device's Conditional Access Service (CAS), which manages access to protected content.
 old-location: mstv\ibda_conditionalaccessex.htm
 old-project: mstv
 ms.assetid: 9db9b6b1-fc4f-48f0-940e-d79a321ef094
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_ConditionalAccessEx, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies], IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],described, bdaiface/IBDA_ConditionalAccessEx, mstv.ibda_conditionalaccessex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

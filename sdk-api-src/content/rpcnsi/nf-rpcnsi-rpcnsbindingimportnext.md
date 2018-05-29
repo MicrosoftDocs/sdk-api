@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingImportNext
 title: RpcNsBindingImportNext function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsBindingImportNext function looks up an interface (and optionally an object from a name-service database) and returns a binding handle of a compatible server, if found.
 old-location: rpc\rpcnsbindingimportnext.htm
 old-project: Rpc
 ms.assetid: c437cd19-0cf8-4fc9-b6fb-cb09cde9a82e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsBindingImportNext, RpcNsBindingImportNext function [RPC], _rpc_rpcnsbindingimportnext, rpc.rpcnsbindingimportnext, rpcnsi/RpcNsBindingImportNext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

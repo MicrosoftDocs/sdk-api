@@ -1,16 +1,16 @@
 ---
 UID: NN:vdshwprv.IEnumVdsObject
 title: IEnumVdsObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates through a set of VDS objects of a given type. Objects can be providers, subsystems, controllers, LUNs, LUN plexes, drives, disk packs, disks, volumes, or volume plexes.
 old-location: base\ienumvdsobject.htm
 old-project: VDS
 ms.assetid: 08379071-b3cc-495a-bc8e-ad6cfacd432c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumVdsObject, IEnumVdsObject interface [VDS], IEnumVdsObject interface [VDS],described, base.ienumvdsobject, vds/IEnumVdsObject, vdshwprv/IEnumVdsObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

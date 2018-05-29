@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IStream.Commit
 title: IStream::Commit
-author: windows-driver-content
+author: windows-sdk-content
 description: The Commit method ensures that any changes made to a stream object open in transacted mode are reflected in the parent storage.
 old-location: stg\istream_commit.htm
 old-project: Stg
 ms.assetid: 335c3a53-ca6a-42f3-bbf9-684ed48591e6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Commit, Commit method [Structured Storage], Commit method [Structured Storage],IStream interface, IStream interface [Structured Storage],Commit method, IStream.Commit, IStream::Commit, _stg_istream_commit, objidl/IStream::Commit, stg.istream_commit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:directxmath.XMComparisonAllInBounds
 title: XMComparisonAllInBounds function
-author: windows-driver-content
+author: windows-sdk-content
 description: Tests the comparison value to determine if all of the compared components are within set bounds.
 old-location: dxmath\xmcomparisonallinbounds.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonAllInBounds(uint32_t)
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: Use DirectX..XMComparisonAllInBounds, XMComparisonAllInBounds, XMComparisonAllInBounds method [DirectX Math Support APIs], dxmath.xmcomparisonallinbounds
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: directxmath.h
 req.include-header: 

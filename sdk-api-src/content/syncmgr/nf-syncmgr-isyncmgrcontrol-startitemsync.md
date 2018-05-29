@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.StartItemSync
 title: ISyncMgrControl::StartItemSync
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates the synchronization of specified items managed by a particular handler.
 old-location: shell\ISyncMgrControl_StartItemSync.htm
 old-project: shell
 ms.assetid: 7e4798ce-04ee-4c75-8be2-0ad8fdc400a5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StartItemSync method, ISyncMgrControl.StartItemSync, ISyncMgrControl::StartItemSync, StartItemSync, StartItemSync method [Windows Shell], StartItemSync method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StartItemSync, shell.ISyncMgrControl_StartItemSync, syncmgr/ISyncMgrControl::StartItemSync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

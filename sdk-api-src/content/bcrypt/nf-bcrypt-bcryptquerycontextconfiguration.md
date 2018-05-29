@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptQueryContextConfiguration
 title: BCryptQueryContextConfiguration function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current configuration for the specified CNG context.
 old-location: security\bcryptquerycontextconfiguration.htm
 old-project: SecCNG
 ms.assetid: 3e2ae471-cad6-4bfe-9e30-7b2a7014bc08
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptQueryContextConfiguration, BCryptQueryContextConfiguration function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptQueryContextConfiguration, security.bcryptquerycontextconfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

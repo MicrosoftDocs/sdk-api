@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11.D3D11_CONSERVATIVE_RASTERIZATION_TIER
 title: D3D11_CONSERVATIVE_RASTERIZATION_TIER
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies if the hardware and driver support conservative rasterization and at what tier level.
 old-location: direct3d11\d3d11_conservative_rasterization_tier.htm
 old-project: direct3d11
 ms.assetid: 1409ACE8-960C-4297-80D9-DAD3CD1886AD
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_CONSERVATIVE_RASTERIZATION_NOT_SUPPORTED, D3D11_CONSERVATIVE_RASTERIZATION_TIER, D3D11_CONSERVATIVE_RASTERIZATION_TIER enumeration [Direct3D 11], D3D11_CONSERVATIVE_RASTERIZATION_TIER_1, D3D11_CONSERVATIVE_RASTERIZATION_TIER_2, D3D11_CONSERVATIVE_RASTERIZATION_TIER_3, d3d11/D3D11_CONSERVATIVE_RASTERIZATION_NOT_SUPPORTED, d3d11/D3D11_CONSERVATIVE_RASTERIZATION_TIER, d3d11/D3D11_CONSERVATIVE_RASTERIZATION_TIER_1, d3d11/D3D11_CONSERVATIVE_RASTERIZATION_TIER_2, d3d11/D3D11_CONSERVATIVE_RASTERIZATION_TIER_3, direct3d11.d3d11_conservative_rasterization_tier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 

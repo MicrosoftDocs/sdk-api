@@ -1,16 +1,16 @@
 ---
 UID: NF:vmr9.IVMRImageCompositor9.InitCompositionDevice
 title: IVMRImageCompositor9::InitCompositionDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: The InitCompositionDevice method informs the compositor that a new composition target has been created.
 old-location: dshow\ivmrimagecompositor9_initcompositiondevice.htm
 old-project: DirectShow
 ms.assetid: 78381141-6b6d-4ed5-b8d3-aa1114fd9ac0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRImageCompositor9 interface [DirectShow],InitCompositionDevice method, IVMRImageCompositor9.InitCompositionDevice, IVMRImageCompositor9::InitCompositionDevice, IVMRImageCompositor9InitCompositionDevice, InitCompositionDevice, InitCompositionDevice method [DirectShow], InitCompositionDevice method [DirectShow],IVMRImageCompositor9 interface, dshow.ivmrimagecompositor9_initcompositiondevice, vmr9/IVMRImageCompositor9::InitCompositionDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:oledlg.IOleUIObjInfoA
 title: IOleUIObjInfoA
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by containers and used by the container's Object Properties dialog box and by the Convert dialog box.
 old-location: com\ioleuiobjinfo.htm
 old-project: com
 ms.assetid: 508dccb3-e98b-4f62-8bc3-98ca2b0d1349
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleUIObjInfo, IOleUIObjInfo interface [COM], IOleUIObjInfo interface [COM],described, IOleUIObjInfoA, IOleUIObjInfoW, _ole_IOleUIObjInfo, com.ioleuiobjinfo, oledlg/IOleUIObjInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oledlg.h
 req.include-header: 

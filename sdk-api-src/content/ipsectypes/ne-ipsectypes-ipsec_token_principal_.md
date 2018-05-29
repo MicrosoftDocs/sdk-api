@@ -1,16 +1,16 @@
 ---
 UID: NE:ipsectypes.IPSEC_TOKEN_PRINCIPAL_
 title: IPSEC_TOKEN_PRINCIPAL_
-author: windows-driver-content
+author: windows-sdk-content
 description: An access token principal.
 old-location: fwp\ipsec_token_principal.htm
 old-project: FWP
 ms.assetid: f61944aa-2545-4fdd-8bae-6271d4535acc
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_TOKEN_PRINCIPAL, IPSEC_TOKEN_PRINCIPAL enumeration [Filtering], IPSEC_TOKEN_PRINCIPAL_, IPSEC_TOKEN_PRINCIPAL_LOCAL, IPSEC_TOKEN_PRINCIPAL_MAX, IPSEC_TOKEN_PRINCIPAL_PEER, fwp.ipsec_token_principal, ipsectypes/IPSEC_TOKEN_PRINCIPAL, ipsectypes/IPSEC_TOKEN_PRINCIPAL_LOCAL, ipsectypes/IPSEC_TOKEN_PRINCIPAL_MAX, ipsectypes/IPSEC_TOKEN_PRINCIPAL_PEER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ipsectypes.h
 req.include-header: 

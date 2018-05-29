@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IRealTimeStylusSynchronization.AcquireLock
 title: IRealTimeStylusSynchronization::AcquireLock
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified lock.
 old-location: tablet\irealtimestylussynchronization_acquirelock.htm
 old-project: tablet
 ms.assetid: 74e315c5-99c2-4ba5-bca5-72d812624fa0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 74e315c5-99c2-4ba5-bca5-72d812624fa0, AcquireLock, AcquireLock method [Tablet PC], AcquireLock method [Tablet PC],IRealTimeStylusSynchronization interface, IRealTimeStylusSynchronization interface [Tablet PC],AcquireLock method, IRealTimeStylusSynchronization.AcquireLock, IRealTimeStylusSynchronization::AcquireLock, rtscom/IRealTimeStylusSynchronization::AcquireLock, tablet.irealtimestylussynchronization_acquirelock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

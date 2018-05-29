@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_ArchiveAgeLimit
 title: IFaxConfiguration::get_ArchiveAgeLimit
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves a value that indicates how long a fax message is kept on the server.
 old-location: fax\_mfax_FaxConfiguration_ArchiveAgeLimit_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\archiveagelimit.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ArchiveAgeLimit property [Fax Service], ArchiveAgeLimit property [Fax Service],FaxConfiguration object, FaxConfiguration object [Fax Service],ArchiveAgeLimit property, FaxConfiguration.ArchiveAgeLimit, IFaxConfiguration.get_ArchiveAgeLimit, IFaxConfiguration::get_ArchiveAgeLimit, _mfax_IFaxConfiguration_ArchiveAgeLimit, fax._mfax_FaxConfiguration_ArchiveAgeLimit_vb, get_ArchiveAgeLimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

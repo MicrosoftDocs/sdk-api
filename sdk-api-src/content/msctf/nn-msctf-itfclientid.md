@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfClientId
 title: ITfClientId
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfClientId interface is implemented by the TSF manager. This interface is used to obtain a client identifier for TSF objects. An instance of this interface is obtained by querying the thread manager with IID_ITfClientId.
 old-location: tsf\itfclientid.htm
 old-project: TSF
 ms.assetid: ccb06ed3-67e2-4e46-8037-ff215ba23601
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfClientId, ITfClientId interface [Text Services Framework], ITfClientId interface [Text Services Framework],described, _tsf_itfclientid_ref, msctf/ITfClientId, tsf.itfclientid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

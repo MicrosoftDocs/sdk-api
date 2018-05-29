@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMDRMWriter2
 title: IWMDRMWriter2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMDRMWriter2 interface provides a method that enables you to write content encrypted with Windows Media DRM 10 for Network Devices.An IWMDRMWriter2 interface exists for every writer object.
 old-location: wmformat\iwmdrmwriter2.htm
 old-project: wmformat
 ms.assetid: 8511b464-1f47-4184-9cb7-9aca0cb6660f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMDRMWriter2, IWMDRMWriter2 interface [windows Media Format], IWMDRMWriter2 interface [windows Media Format],described, IWMDRMWriter2Interface, wmformat.iwmdrmwriter2, wmsdkidl/IWMDRMWriter2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

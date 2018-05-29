@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertificateAttestationChallenge.Initialize
 title: ICertificateAttestationChallenge::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initialize using the full Certificate Management over CMS (CMC) response returned from the CA.
 old-location: security\icertificateattestationchallenge_initialize.htm
 old-project: SecCertEnroll
 ms.assetid: d4dbda92-4523-4adb-9b88-b2bc763570fd
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertificateAttestationChallenge interface [Security],Initialize method, ICertificateAttestationChallenge.Initialize, ICertificateAttestationChallenge::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertificateAttestationChallenge interface, certenroll/ICertificateAttestationChallenge::Initialize, security.icertificateattestationchallenge_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

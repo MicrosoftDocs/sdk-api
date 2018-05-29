@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IShellLinkA
 title: IShellLinkA
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that create, modify, and resolve Shell links.
 old-location: shell\IShellLink.htm
 old-project: shell
 ms.assetid: 67982d28-27ce-4482-b588-10fec8143750
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellLink, IShellLink interface [Windows Shell], IShellLink interface [Windows Shell],described, IShellLinkA, IShellLinkW, _win32_IShellLink, _win32_IShellLink_cpp, shell.IShellLink, shobjidl_core/IShellLink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: 

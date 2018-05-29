@@ -1,16 +1,16 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0023_0002
 title: "__MIDL___MIDL_itf_searchapi_0000_0023_0002"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the type of change to the rowset's data.
 old-location: search\_search_ROWSETEVENT_TYPE.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\rowsetevent_type.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ROWSETEVENT_TYPE, ROWSETEVENT_TYPE enumeration [search], ROWSETEVENT_TYPE_DATAEXPIRED, ROWSETEVENT_TYPE_FOREGROUNDLOST, ROWSETEVENT_TYPE_SCOPESTATISTICS, __MIDL___MIDL_itf_searchapi_0000_0023_0002, _search_ROWSETEVENT_TYPE, search._search_ROWSETEVENT_TYPE, searchapi/ROWSETEVENT_TYPE, searchapi/ROWSETEVENT_TYPE_DATAEXPIRED, searchapi/ROWSETEVENT_TYPE_FOREGROUNDLOST, searchapi/ROWSETEVENT_TYPE_SCOPESTATISTICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 

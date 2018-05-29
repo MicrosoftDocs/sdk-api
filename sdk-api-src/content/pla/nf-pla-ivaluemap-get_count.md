@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IValueMap.get_Count
 title: IValueMap::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of items in the collection.
 old-location: pla\ivaluemap_count.htm
 old-project: PLA
 ms.assetid: 990b48d8-357f-4157-a3d2-1ea1c80e1887
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Count property [PLA], Count property [PLA],IValueMap interface, IValueMap interface [PLA],Count property, IValueMap.Count, IValueMap.get_Count, IValueMap::Count, IValueMap::get_Count, base.ivaluemap_count, get_Count, pla.ivaluemap_count, pla/IValueMap::Count, pla/IValueMap::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

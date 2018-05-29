@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.IsSpatialAudioStreamAvailable
 title: ISpatialAudioClient::IsSpatialAudioStreamAvailable
-author: windows-driver-content
+author: windows-sdk-content
 description: When successful, gets a value indicating whether the currently active spatial rendering engine supports the specified spatial audio render stream.
 old-location: coreaudio\ispatialaudioclient_isspatialaudiostreamavailable.htm
 old-project: CoreAudio
 ms.assetid: 4CE8A0D2-8B0B-4628-99DE-5B588842D7C5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISpatialAudioClient interface [Core Audio],IsSpatialAudioStreamAvailable method, ISpatialAudioClient.IsSpatialAudioStreamAvailable, ISpatialAudioClient::IsSpatialAudioStreamAvailable, IsSpatialAudioStreamAvailable, IsSpatialAudioStreamAvailable method [Core Audio], IsSpatialAudioStreamAvailable method [Core Audio],ISpatialAudioClient interface, coreaudio.ispatialaudioclient_isspatialaudiostreamavailable, spatialaudioclient/ISpatialAudioClient::IsSpatialAudioStreamAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 

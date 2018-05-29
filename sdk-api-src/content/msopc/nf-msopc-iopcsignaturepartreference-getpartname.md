@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetPartName
 title: IOpcSignaturePartReference::GetPartName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the part name of the referenced part.
 old-location: opc\iopcsignaturepartreference_getpartname.htm
 old-project: OPC
 ms.assetid: bf34361f-da74-4785-8e5b-8b9caf809a41
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetPartName, GetPartName method [Open Packaging Conventions], GetPartName method [Open Packaging Conventions],IOpcSignaturePartReference interface, IOpcSignaturePartReference interface [Open Packaging Conventions],GetPartName method, IOpcSignaturePartReference.GetPartName, IOpcSignaturePartReference::GetPartName, msopc/IOpcSignaturePartReference::GetPartName, opc.iopcsignaturepartreference_getpartname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportTftpClient
 title: IWdsTransportTftpClient
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is used to specify information of a TFTP client session currently active in the server.
 old-location: wds\iwdstransporttftpclient.htm
 old-project: Wds
 ms.assetid: B612A719-247E-40CC-B7BC-E2A6144DA329
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportTftpClient, IWdsTransportTftpClient interface [Windows Deployment Services], IWdsTransportTftpClient interface [Windows Deployment Services],described, wds.iwdstransporttftpclient, wdstptmgmt/IWdsTransportTftpClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

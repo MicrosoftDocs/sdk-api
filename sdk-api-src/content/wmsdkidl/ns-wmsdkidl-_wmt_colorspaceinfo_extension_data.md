@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl._WMT_COLORSPACEINFO_EXTENSION_DATA
 title: "_WMT_COLORSPACEINFO_EXTENSION_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMT_COLORSPACEINFO_EXTENSION_DATA structure contains information about the color format of output video samples. It is used as the value for the WM_SampleExtensionGUID_ColorSpaceInfo data unit extension.
 old-location: wmformat\wmt_colorspaceinfo_extension_data.htm
 old-project: wmformat
 ms.assetid: 0d512d6a-95d5-4ca1-aee2-ca19319e1b83
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMT_COLORSPACEINFO_EXTENSION_DATA, WMT_COLORSPACEINFO_EXTENSION_DATA structure [windows Media Format], _WMT_COLORSPACEINFO_EXTENSION_DATA, wmformat.wmt_colorspaceinfo_extension_data, wmsdkidl/WMT_COLORSPACEINFO_EXTENSION_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

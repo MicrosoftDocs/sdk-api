@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.WriteLogRestartArea
 title: WriteLogRestartArea function
-author: windows-driver-content
+author: windows-sdk-content
 description: Appends a new client restart area to a log, and optionally advances the base log sequence number (LSN) of the log.
 old-location: fs\writelogrestartarea.htm
 old-project: Clfs
 ms.assetid: deb5fd90-e987-4e5b-9740-6ecef8705557
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLFS_FLAG_NO_FLAGS, CLFS_FLAG_USE_RESERVATION, WriteLogRestartArea, WriteLogRestartArea function [Files], clfsw32/WriteLogRestartArea, fs.writelogrestartarea
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

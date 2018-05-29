@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDictionary
 title: IXpsOMDictionary
-author: windows-driver-content
+author: windows-sdk-content
 description: The dictionary is used by an XPS package to share resources.
 old-location: xps\ixpsomdictionary.htm
 old-project: printdocs
 ms.assetid: f887e3d3-973c-4267-a785-6bc190c13082
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMDictionary, IXpsOMDictionary interface [XPS Documents and Packaging], IXpsOMDictionary interface [XPS Documents and Packaging],described, xps.ixpsomdictionary, xpsobjectmodel/IXpsOMDictionary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

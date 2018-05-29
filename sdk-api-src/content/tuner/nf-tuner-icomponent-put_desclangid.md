@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IComponent.put_DescLangID
 title: IComponent::put_DescLangID
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_DescLangID method sets the language for presentation of the description.
 old-location: mstv\icomponent_put_desclangid.htm
 old-project: mstv
 ms.assetid: 0f914835-e097-4a02-80fe-371154c9d95a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],put_DescLangID method, IComponent.put_DescLangID, IComponent::put_DescLangID, IComponentput_DescLangID, mstv.icomponent_put_desclangid, put_DescLangID, put_DescLangID method [Microsoft TV Technologies], put_DescLangID method [Microsoft TV Technologies],IComponent interface, tuner/IComponent::put_DescLangID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

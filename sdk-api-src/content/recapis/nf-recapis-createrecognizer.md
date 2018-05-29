@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.CreateRecognizer
 title: CreateRecognizer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a recognizer.
 old-location: tablet\createrecognizer.htm
 old-project: tablet
 ms.assetid: b4a5517e-d818-4d4d-a06f-3e0dcbcc52c6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateRecognizer, CreateRecognizer function [Tablet PC], b4a5517e-d818-4d4d-a06f-3e0dcbcc52c6, recapis/CreateRecognizer, tablet.createrecognizer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

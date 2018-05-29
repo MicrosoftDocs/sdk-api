@@ -1,16 +1,16 @@
 ---
 UID: NF:qos2.QOSSetFlow
 title: QOSSetFlow function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is called by an application to request the QOS subsystem to prioritize the application's packets and change the flow traffic.
 old-location: qos\qossetoutgoingrate.htm
 old-project: QOS
 ms.assetid: b30e8887-4445-480d-aba8-79ec36384648
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: QOSSetFlow, QOSSetFlow function [QOS], QOSSetOutgoingDSCPValue, QOSSetOutgoingRate, QOSSetTrafficType, qos.qossetoutgoingrate, qos2/QOSSetFlow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: qos2.h
 req.include-header: Qos2.h

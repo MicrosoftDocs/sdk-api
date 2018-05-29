@@ -1,16 +1,16 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioMetadataReader
 title: ISpatialAudioMetadataReader
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for extracting spatial audio metadata items and item command value pairs from an ISpatialAudioMetadataItems object.
 old-location: coreaudio\ispatialaudiometadatareader.htm
 old-project: CoreAudio
 ms.assetid: BD1AD4CE-6E88-4292-AA79-E71FE00C2078
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISpatialAudioMetadataReader, ISpatialAudioMetadataReader interface [Core Audio], ISpatialAudioMetadataReader interface [Core Audio],described, coreaudio.ispatialaudiometadatareader, spatialaudiometadata/ISpatialAudioMetadataReader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: spatialaudiometadata.h
 req.include-header: 

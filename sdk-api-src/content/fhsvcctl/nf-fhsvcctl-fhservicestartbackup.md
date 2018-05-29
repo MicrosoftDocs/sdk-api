@@ -1,16 +1,16 @@
 ---
 UID: NF:fhsvcctl.FhServiceStartBackup
 title: FhServiceStartBackup function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function starts an immediate backup for the current user.
 old-location: winprog\fhservicestartbackup.htm
 old-project: DevNotes
 ms.assetid: 30800744-8605-4F8B-9B7A-50F57CC73483
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FhServiceStartBackup, FhServiceStartBackup function [Windows API], fhsvcctl/FhServiceStartBackup, winprog.fhservicestartbackup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fhsvcctl.h
 req.include-header: 

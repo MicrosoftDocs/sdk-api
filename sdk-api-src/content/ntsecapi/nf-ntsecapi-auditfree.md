@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.AuditFree
 title: AuditFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the memory allocated by audit functions for the specified buffer.
 old-location: security\auditfree_func.htm
 old-project: SecAuthZ
 ms.assetid: 697baf9b-91c4-4a88-a190-e9f6812e08af
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuditFree, AuditFree function [Security], ntsecapi/AuditFree, security.auditfree_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

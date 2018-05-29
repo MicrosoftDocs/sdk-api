@@ -1,16 +1,16 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetRestrictions
 title: IXblIdpAuthTokenResult::GetRestrictions
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getrestrictions.htm
 old-project: xblidp
 ms.assetid: 6F3B7959-BFAF-496B-A8AB-FD29606199AF
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetRestrictions, GetRestrictions method, GetRestrictions method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetRestrictions method, IXblIdpAuthTokenResult.GetRestrictions, IXblIdpAuthTokenResult::GetRestrictions, xblidp.ixblidpauthtokenresult_getrestrictions, xblidpauthmanager/IXblIdpAuthTokenResult::GetRestrictions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

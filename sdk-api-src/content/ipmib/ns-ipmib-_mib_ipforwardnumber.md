@@ -1,16 +1,16 @@
 ---
 UID: NS:ipmib._MIB_IPFORWARDNUMBER
 title: "_MIB_IPFORWARDNUMBER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores the number of routes in a particular IP routing table.
 old-location: mib\mib_ipforwardnumber.htm
 old-project: MIB
 ms.assetid: 71508d8e-3265-4c08-913c-248af2d8bbd6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_IPFORWARDNUMBER, MIB_IPFORWARDNUMBER, MIB_IPFORWARDNUMBER structure [MIB], PMIB_IPFORWARDNUMBER, PMIB_IPFORWARDNUMBER structure pointer [MIB], _MIB_IPFORWARDNUMBER, _mpr_mib_ipforwardnumber, ipmib/MIB_IPFORWARDNUMBER, ipmib/PMIB_IPFORWARDNUMBER, iprtrmib/MIB_IPFORWARDNUMBER, iprtrmib/PMIB_IPFORWARDNUMBER, mib.mib_ipforwardnumber, rras.mib_ipforwardnumber"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipmib.h
 req.include-header: Iphlpapi.h

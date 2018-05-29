@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcasync.RpcAsyncGetCallHandle
 title: RpcAsyncGetCallHandle macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcAsyncGetCallHandle macro returns the binding handle on an asynchronous remote procedure call.
 old-location: rpc\rpcasyncgetcallhandle.htm
 old-project: Rpc
 ms.assetid: 5a218d25-187e-4899-8a27-a955f77af8c2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcAsyncGetCallHandle, RpcAsyncGetCallHandle macro [RPC], _rpc_rpcasyncgetcallhandle, rpc.rpcasyncgetcallhandle, rpcasync/RpcAsyncGetCallHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: rpcasync.h
 req.include-header: Rpc.h

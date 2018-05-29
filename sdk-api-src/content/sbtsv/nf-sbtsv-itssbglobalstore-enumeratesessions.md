@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.EnumerateSessions
 title: ITsSbGlobalStore::EnumerateSessions
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an array that contains sessions on the specified provider.
 old-location: termserv\itssbglobalstore_enumeratesessions.htm
 old-project: TermServ
 ms.assetid: 16fe9154-913a-4b7f-8ab5-ea8654b7cc98
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnumerateSessions, EnumerateSessions method [Remote Desktop Services], EnumerateSessions method [Remote Desktop Services],ITsSbGlobalStore interface, ITsSbGlobalStore interface [Remote Desktop Services],EnumerateSessions method, ITsSbGlobalStore.EnumerateSessions, ITsSbGlobalStore::EnumerateSessions, sbtsv/ITsSbGlobalStore::EnumerateSessions, termserv.itssbglobalstore_enumeratesessions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

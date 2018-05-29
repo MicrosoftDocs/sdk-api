@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE
 title: "_WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Security template information to be filled in by application. Associated with WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE_TYPE.
 old-location: wsw\ws_tcp_sspi_username_security_context_binding_template.htm
 old-project: wsw
 ms.assetid: e72dc719-df42-42c8-98c0-d997c5876dd4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE, WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE structure [Web Services for Windows], _WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE, webservices/WS_TCP_SSPI_USERNAME_SECURITY_CONTEXT_BINDING_TEMPLATE, wsw.ws_tcp_sspi_username_security_context_binding_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

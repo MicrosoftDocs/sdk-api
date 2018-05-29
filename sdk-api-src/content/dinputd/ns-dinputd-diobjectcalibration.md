@@ -1,16 +1,16 @@
 ---
 UID: NS:dinputd.DIOBJECTCALIBRATION
 title: DIOBJECTCALIBRATION
-author: windows-driver-content
+author: windows-sdk-content
 description: The DIOBJECTCALIBRATION structure describes the information contained in the &#0034;Calibration&#0034; value of the registry key for each axis on a device.
 old-location: hid\diobjectcalibration.htm
 old-project: hid
 ms.assetid: d1e6a9ee-c7eb-42d1-9f91-185dcccc3109
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPDIOBJECTCALIBRATION, DIOBJECTCALIBRATION, DIOBJECTCALIBRATION structure [Human Input Devices], di_ref_232167f0-8ec2-4ec7-91aa-169ab5ae5921.xml, dinputd/DIOBJECTCALIBRATION, hid.diobjectcalibration"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: Dinputd.h

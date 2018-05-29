@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.MFP_GET_STOP_EVENT
 title: MFP_GET_STOP_EVENT macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Casts an MFP_EVENT_HEADER pointer to an MFP_STOP_EVENT pointer.
 old-location: mf\mfp_get_stop_event.htm
 old-project: medfound
 ms.assetid: 3ca3fa23-1abf-49fc-96e3-f094b483c78f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFP_GET_STOP_EVENT, MFP_GET_STOP_EVENT macro [Media Foundation], mf.mfp_get_stop_event, mfplay/MFP_GET_STOP_EVENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: mfplay.h
 req.include-header: 

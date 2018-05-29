@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGradientStop
 title: IXpsOMGradientStop
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a single color and location within a gradient.
 old-location: xps\ixpsomgradientstop.htm
 old-project: printdocs
 ms.assetid: e115d806-70c1-4c6a-810e-e6a058628b44
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMGradientStop, IXpsOMGradientStop interface [XPS Documents and Packaging], IXpsOMGradientStop interface [XPS Documents and Packaging],described, xps.ixpsomgradientstop, xpsobjectmodel/IXpsOMGradientStop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoStopRingOnOffHook
 title: ITAutomatedPhoneControl::put_AutoStopRingOnOffHook
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_AutoStopRingOnOffHook method sets the AutoStopRingOnOffHook property. When this feature is enabled, the phone going offhook results in the termination of any incoming ring produced on the phone (via a call to ITAutomatedPhoneControl::StopRinger).
 old-location: tapi3\itautomatedphonecontrol_put_autostopringonoffhook.htm
 old-project: Tapi
 ms.assetid: 114e17e2-63e7-47f9-8ae7-1c7e452376f6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoStopRingOnOffHook method, ITAutomatedPhoneControl.put_AutoStopRingOnOffHook, ITAutomatedPhoneControl::put_AutoStopRingOnOffHook, _tapi3_itautomatedphonecontrol_put_autostopringonoffhook, put_AutoStopRingOnOffHook, put_AutoStopRingOnOffHook method [TAPI 2.2], put_AutoStopRingOnOffHook method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autostopringonoffhook, tapi3if/ITAutomatedPhoneControl::put_AutoStopRingOnOffHook
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

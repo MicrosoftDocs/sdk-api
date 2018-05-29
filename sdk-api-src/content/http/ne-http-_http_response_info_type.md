@@ -1,16 +1,16 @@
 ---
 UID: NE:http._HTTP_RESPONSE_INFO_TYPE
 title: "_HTTP_RESPONSE_INFO_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The HTTP_RESPONSE_INFO_TYPE enumeration defines the type of information contained in the HTTP_RESPONSE_INFO structure.This enumeration is used in the HTTP_RESPONSE_INFO structure.
 old-location: http\http_response_info_type.htm
 old-project: Http
 ms.assetid: 2f85e8dd-1693-4a54-a38f-9b70b2a46361
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_RESPONSE_INFO_TYPE, *PHTTP_RESPONSE_INFO_TYPE enumeration [HTTP], HTTP_RESPONSE_INFO_TYPE, HTTP_RESPONSE_INFO_TYPE enumeration [HTTP], HttpResponseInfoTypeAuthenticationProperty, HttpResponseInfoTypeChannelBind, HttpResponseInfoTypeMultipleKnownHeaders, HttpResponseInfoTypeQosProperty, PHTTP_RESPONSE_INFO_TYPE, _HTTP_RESPONSE_INFO_TYPE, http.http_response_info_type, http/*PHTTP_RESPONSE_INFO_TYPE, http/HTTP_RESPONSE_INFO_TYPE, http/HttpResponseInfoTypeAuthenticationProperty, http/HttpResponseInfoTypeChannelBind, http/HttpResponseInfoTypeMultipleKnownHeaders, http/HttpResponseInfoTypeQosProperty"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: http.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IHandlerInfo
 title: IHandlerInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Supplies methods that provide information about the handler to methods of the IHandlerActivationHost interface.
 old-location: shell\IHandlerInfo.htm
 old-project: shell
 ms.assetid: f0b8da9f-75ee-418d-8df6-fa0d7c600e62
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IHandlerInfo, IHandlerInfo interface [Windows Shell], IHandlerInfo interface [Windows Shell],described, shell.IHandlerInfo, shobjidl_core/IHandlerInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateSubnet
 title: DhcpCreateSubnet function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DhcpCreateSubnet function creates a new subnet on the DHCP server.
 old-location: dhcp\dhcpcreatesubnet.htm
 old-project: DHCP
 ms.assetid: acae01cf-cbd9-4461-a1cc-5fcb745b9c8f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpCreateSubnet, DhcpCreateSubnet function [DHCP], dhcp.dhcpcreatesubnet, dhcpsapi/DhcpCreateSubnet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

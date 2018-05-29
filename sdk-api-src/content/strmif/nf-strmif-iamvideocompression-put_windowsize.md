@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMVideoCompression.put_WindowSize
 title: IAMVideoCompression::put_WindowSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_WindowSize method sets the number of frames over which the compressor must maintain an average data rate.
 old-location: dshow\iamvideocompression_put_windowsize.htm
 old-project: DirectShow
 ms.assetid: 744cd32d-5f61-4069-82c4-50bc1b800f24
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],put_WindowSize method, IAMVideoCompression.put_WindowSize, IAMVideoCompression::put_WindowSize, IAMVideoCompressionput_WindowSize, dshow.iamvideocompression_put_windowsize, put_WindowSize, put_WindowSize method [DirectShow], put_WindowSize method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::put_WindowSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumServers
 title: DhcpEnumServers function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DhcpEnumServers function returns an enumerated list of DHCP servers found in the directory service.
 old-location: dhcp\dhcpenumservers.htm
 old-project: DHCP
 ms.assetid: c8b4d241-19d4-4a97-9129-c2954d63b6ac
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpEnumServers, DhcpEnumServers function [DHCP], dhcp.dhcpenumservers, dhcpsapi/DhcpEnumServers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.PrivateFontCollection.PrivateFontCollection(const PrivateFontCollection &)
 title: PrivateFontCollection::PrivateFontCollection(const PrivateFontCollection &)
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an empty PrivateFontCollection object.
 old-location: gdiplus\_gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\privatefontcollectionclass\privatefontcollection_12.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PrivateFontCollection, PrivateFontCollection class [GDI+],PrivateFontCollection constructor, PrivateFontCollection constructor [GDI+], PrivateFontCollection constructor [GDI+],PrivateFontCollection class, PrivateFontCollection.PrivateFontCollection, PrivateFontCollection.PrivateFontCollection(const PrivateFontCollection &), PrivateFontCollection::PrivateFontCollection, PrivateFontCollection::PrivateFontCollection(const PrivateFontCollection &), _gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_, gdiplus._gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

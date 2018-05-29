@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.FreeCredentialsHandle
 title: FreeCredentialsHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the security system that the credentials are no longer needed.
 old-location: security\freecredentialshandle.htm
 old-project: SecAuthN
 ms.assetid: e089618c-8233-475a-9725-39265c6427ab
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: FreeCredentialsHandle, FreeCredentialsHandle function [Security], _ssp_freecredentialshandle, security.freecredentialshandle, sspi/FreeCredentialsHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

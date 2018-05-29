@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_CONTEXT
 title: "_CERT_CONTEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains both the encoded and decoded representations of a certificate.
 old-location: security\cert_context.htm
 old-project: SecCrypto
 ms.assetid: f0a3200e-6541-423d-a4a3-595a31026eea
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_CONTEXT, CERT_CONTEXT, CERT_CONTEXT structure [Security], PCCERT_CONTEXT, PCCERT_CONTEXT structure pointer [Security], PCERT_CONTEXT, PCERT_CONTEXT structure pointer [Security], _CERT_CONTEXT, _crypto2_cert_context, security.cert_context, wincrypt/CERT_CONTEXT, wincrypt/PCCERT_CONTEXT, wincrypt/PCERT_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

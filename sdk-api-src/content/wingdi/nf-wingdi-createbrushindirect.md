@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CreateBrushIndirect
 title: CreateBrushIndirect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateBrushIndirect function creates a logical brush that has the specified style, color, and pattern.
 old-location: gdi\createbrushindirect.htm
 old-project: gdi
 ms.assetid: 75f94ad1-ca25-4ad1-9e8c-ad1a4b8475a7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateBrushIndirect, CreateBrushIndirect function [Windows GDI], _win32_CreateBrushIndirect, gdi.createbrushindirect, wingdi/CreateBrushIndirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

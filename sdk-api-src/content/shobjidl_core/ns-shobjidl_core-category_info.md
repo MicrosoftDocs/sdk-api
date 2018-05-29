@@ -1,16 +1,16 @@
 ---
 UID: NS:shobjidl_core.CATEGORY_INFO
 title: CATEGORY_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains category information. A component category is a group of logically-related Component Object Model (COM) classes that share a common category identifier (CATID).
 old-location: shell\CATEGORY_INFO.htm
 old-project: shell
 ms.assetid: 6198cd31-94db-4d31-9cc9-f8b90e661809
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CATEGORY_INFO, CATEGORY_INFO structure [Windows Shell], inet_CATEGORY_INFO, shell.CATEGORY_INFO, shobjidl_core/CATEGORY_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetMetafileSize
 title: MetafileHeader::GetMetafileSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The MetafileHeader::GetMetafileSize method gets the size, in bytes, of the metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetMetafileSize_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getmetafilesize.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetMetafileSize, GetMetafileSize method [GDI+], GetMetafileSize method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetMetafileSize method, MetafileHeader.GetMetafileSize, MetafileHeader::GetMetafileSize, _gdiplus_CLASS_MetafileHeader_GetMetafileSize_, gdiplus._gdiplus_CLASS_MetafileHeader_GetMetafileSize_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h

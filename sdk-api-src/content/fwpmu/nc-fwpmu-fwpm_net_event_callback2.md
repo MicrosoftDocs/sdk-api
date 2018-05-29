@@ -1,16 +1,16 @@
 ---
 UID: NC:fwpmu.FWPM_NET_EVENT_CALLBACK2
 title: FWPM_NET_EVENT_CALLBACK2
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to add custom behavior to the net event subscription process.
 old-location: fwp\fwpm_net_event_callback2.htm
 old-project: FWP
 ms.assetid: 0A5E0ADB-0879-4646-9F69-D8AB9BD067AD
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_NET_EVENT_CALLBACK2, FWPM_NET_EVENT_CALLBACK2 callback, FWPM_NET_EVENT_CALLBACK2 callback function [Filtering], fwp.fwpm_net_event_callback2, fwpmu/FWPM_NET_EVENT_CALLBACK2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: fwpmu.h
 req.include-header: 

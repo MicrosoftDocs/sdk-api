@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsVolumeMF.Mount
 title: IVdsVolumeMF::Mount
-author: windows-driver-content
+author: windows-sdk-content
 description: Mounts a volume.
 old-location: base\ivdsvolumemf_mount.htm
 old-project: VDS
 ms.assetid: 1de3bbd7-cd81-42f9-9e25-48a0a07e9ccc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsVolumeMF interface [VDS],Mount method, IVdsVolumeMF.Mount, IVdsVolumeMF::Mount, Mount, Mount method [VDS], Mount method [VDS],IVdsVolumeMF interface, base.ivdsvolumemf_mount, vds/IVdsVolumeMF::Mount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnInterfaceCapabilityAvailable
 title: IMbnInterfaceEvents::OnInterfaceCapabilityAvailable
-author: windows-driver-content
+author: windows-sdk-content
 description: This notification method is called by the Mobile Broadband service to indicate that interface capability information is available.
 old-location: mbn\imbninterfaceevents_oninterfacecapabilityavailable.htm
 old-project: mbn
 ms.assetid: eeeffe13-307b-45f3-aa24-c33c621aa18e
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnInterfaceCapabilityAvailable method, IMbnInterfaceEvents.OnInterfaceCapabilityAvailable, IMbnInterfaceEvents::OnInterfaceCapabilityAvailable, OnInterfaceCapabilityAvailable, OnInterfaceCapabilityAvailable method [Microsoft Broadband Networks], OnInterfaceCapabilityAvailable method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, mbn.imbninterfaceevents_oninterfacecapabilityavailable, mbnapi/IMbnInterfaceEvents::OnInterfaceCapabilityAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDefaultExtractIconInit.SetOpenIcon
 title: IDefaultExtractIconInit::SetOpenIcon
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the icon that allows containers to specify an &#0034;open&#0034; look.
 old-location: shell\IDefaultExtractIconInit_SetOpenIcon.htm
 old-project: shell
 ms.assetid: 837a0006-2153-405f-a035-06738b89b058
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetOpenIcon method, IDefaultExtractIconInit.SetOpenIcon, IDefaultExtractIconInit::SetOpenIcon, SetOpenIcon, SetOpenIcon method [Windows Shell], SetOpenIcon method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetOpenIcon, shell.IDefaultExtractIconInit_SetOpenIcon, shobjidl_core/IDefaultExtractIconInit::SetOpenIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

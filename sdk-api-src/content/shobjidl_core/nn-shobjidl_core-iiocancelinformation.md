@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IIOCancelInformation
 title: IIOCancelInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods for posting a cancel window message to the process thread from the Progress Dialog.
 old-location: shell\IIOCancelInformation.htm
 old-project: shell
 ms.assetid: fb030100-b0e8-497c-b9e1-338599aa3b0f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IIOCancelInformation, IIOCancelInformation interface [Windows Shell], IIOCancelInformation interface [Windows Shell],described, _shell_IIOCancelInformation, shell.IIOCancelInformation, shobjidl_core/IIOCancelInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

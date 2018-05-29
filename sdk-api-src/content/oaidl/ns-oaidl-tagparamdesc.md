@@ -1,16 +1,16 @@
 ---
 UID: NS:oaidl.tagPARAMDESC
 title: tagPARAMDESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information needed for transferring a structure element, parameter, or function return value between processes.
 old-location: automat\paramdesc.htm
 old-project: automat
 ms.assetid: 3b3b2c54-1997-4d1f-9934-81621500b2b9
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: "*LPPARAMDESC, LPPARAMDESC, LPPARAMDESC structure pointer [Automation], PARAMDESC, PARAMDESC structure [Automation], _oa96_PARAMDESC, automat.paramdesc, oaidl/LPPARAMDESC, oaidl/PARAMDESC, tagPARAMDESC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oaidl.h
 req.include-header: 

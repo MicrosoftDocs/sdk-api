@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngCopyBits
 title: EngCopyBits function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngCopyBits function translates between device-managed raster surfaces and GDI standard-format bitmaps.
 old-location: display\engcopybits.htm
 old-project: display
 ms.assetid: ad8e0658-8378-4f4e-867a-6bd8a479c354
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngCopyBits, EngCopyBits function [Display Devices], display.engcopybits, gdifncs_032d6884-2d0c-4554-a896-0fb80cfca707.xml, winddi/EngCopyBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

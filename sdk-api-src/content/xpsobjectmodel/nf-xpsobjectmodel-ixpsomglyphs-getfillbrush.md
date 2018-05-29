@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFillBrush
 title: IXpsOMGlyphs::GetFillBrush
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the resolved IXpsOMBrush interface of the fill brush to be used for the text.
 old-location: xps\ixpsomglyphs_getfillbrush.htm
 old-project: printdocs
 ms.assetid: 0deadd8e-24c5-4be1-8eaf-43cd59e22243
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetFillBrush, GetFillBrush method [XPS Documents and Packaging], GetFillBrush method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFillBrush method, IXpsOMGlyphs.GetFillBrush, IXpsOMGlyphs::GetFillBrush, xps.ixpsomglyphs_getfillbrush, xpsobjectmodel/IXpsOMGlyphs::GetFillBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

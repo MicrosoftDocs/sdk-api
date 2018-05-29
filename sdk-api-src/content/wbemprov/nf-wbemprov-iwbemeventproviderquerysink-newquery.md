@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemprov.IWbemEventProviderQuerySink.NewQuery
 title: IWbemEventProviderQuerySink::NewQuery
-author: windows-driver-content
+author: windows-sdk-content
 description: Call the IWbemEventProviderQuerySink::NewQuery method when a logical event consumer registers a relevant event query filter with Windows Management.
 old-location: wmi\iwbemeventproviderquerysink_newquery.htm
 old-project: WmiSdk
 ms.assetid: 82f76b19-2035-4567-b619-31ce8a35e422
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemEventProviderQuerySink interface [Windows Management Instrumentation],NewQuery method, IWbemEventProviderQuerySink.NewQuery, IWbemEventProviderQuerySink::NewQuery, NewQuery, NewQuery method [Windows Management Instrumentation], NewQuery method [Windows Management Instrumentation],IWbemEventProviderQuerySink interface, _hmm_iwbemeventproviderquerysink_newquery, wbemprov/IWbemEventProviderQuerySink::NewQuery, wmi.iwbemeventproviderquerysink_newquery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

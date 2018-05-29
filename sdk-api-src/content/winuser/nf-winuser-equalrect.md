@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.EqualRect
 title: EqualRect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EqualRect function determines whether the two specified rectangles are equal by comparing the coordinates of their upper-left and lower-right corners.
 old-location: gdi\equalrect.htm
 old-project: gdi
 ms.assetid: 00763184-6b60-4095-b71e-5a851c2643aa
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EqualRect, EqualRect function [Windows GDI], _win32_EqualRect, gdi.equalrect, winuser/EqualRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

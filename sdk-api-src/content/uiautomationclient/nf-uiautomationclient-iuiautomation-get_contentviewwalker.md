@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ContentViewWalker
 title: IUIAutomation::get_ContentViewWalker
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IUIAutomationTreeWalker interface used to discover content elements.
 old-location: winauto\uiauto_IUIAutomation_ContentViewWalker.htm
 old-project: WinAuto
 ms.assetid: f34b7631-1d95-4c2e-b3fc-7600d5b24b15
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ContentViewWalker property [Windows Accessibility], ContentViewWalker property [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ContentViewWalker property, IUIAutomation.ContentViewWalker, IUIAutomation.get_ContentViewWalker, IUIAutomation::ContentViewWalker, IUIAutomation::get_ContentViewWalker, get_ContentViewWalker, uiauto.uiauto_IUIAutomation_ContentViewWalker, uiauto_IUIAutomation_ContentViewWalker, uiautomationclient/IUIAutomation::ContentViewWalker, uiautomationclient/IUIAutomation::get_ContentViewWalker, winauto.uiauto_IUIAutomation_ContentViewWalker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi.KERB_CRYPTO_KEY
 title: KERB_CRYPTO_KEY
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a Kerberos cryptographic session key.
 old-location: security\kerb_crypto_key.htm
 old-project: SecAuthN
 ms.assetid: ac7ea61c-b1e0-4dc0-931e-81bb6fd74888
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PKERB_CRYPTO_KEY, KERB_CRYPTO_KEY, KERB_CRYPTO_KEY structure [Security], KERB_ETYPE_DES_CBC_CRC, KERB_ETYPE_DES_CBC_MD4, KERB_ETYPE_DES_CBC_MD5, KERB_ETYPE_NULL, KERB_ETYPE_RC4_HMAC_NT, KERB_ETYPE_RC4_MD4, PKERB_CRYPTO_KEY, PKERB_CRYPTO_KEY structure pointer [Security], _lsa_kerb_crypto_key, ntsecapi/KERB_CRYPTO_KEY, ntsecapi/PKERB_CRYPTO_KEY, security.kerb_crypto_key"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.SetEnableThinning
 title: IWMReaderNetworkConfig2::SetEnableThinning
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetEnableThinning method enables or disables Intelligent Streaming. Intelligent Streaming is the communication between the reader and the streaming server that enables the server to change the content sent based on available bandwidth.
 old-location: wmformat\iwmreadernetworkconfig2_setenablethinning.htm
 old-project: wmformat
 ms.assetid: 98d4eb7e-e712-4ca0-a532-1160254748b8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetEnableThinning method, IWMReaderNetworkConfig2.SetEnableThinning, IWMReaderNetworkConfig2::SetEnableThinning, IWMReaderNetworkConfig2SetEnableThinning, SetEnableThinning, SetEnableThinning method [windows Media Format], SetEnableThinning method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setenablethinning, wmsdkidl/IWMReaderNetworkConfig2::SetEnableThinning
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

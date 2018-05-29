@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfThreadMgrEx.ActivateEx
 title: ITfThreadMgrEx::ActivateEx
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfThreadMgrEx::ActivateEx method is used by an application to initialize and activate TSF for the calling thread. Unlike ITfThreadMgr::Activate, ITfThreadMgrEx::ActivateEx can take a flag to specify how TSF is activated.
 old-location: tsf\itfthreadmgrex_activateex.htm
 old-project: TSF
 ms.assetid: a3cecc02-5228-4912-a609-f9f3334e11b7
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ActivateEx, ActivateEx method [Text Services Framework], ActivateEx method [Text Services Framework],ITfThreadMgrEx interface, ITfThreadMgrEx interface [Text Services Framework],ActivateEx method, ITfThreadMgrEx.ActivateEx, ITfThreadMgrEx::ActivateEx, TF_TMAE_COMLESS, TF_TMAE_NOACTIVATEKEYBOARDLAYOUT, TF_TMAE_NOACTIVATETIP, TF_TMAE_SECUREMODE, TF_TMAE_UIELEMENTENABLEDONLY, msctf/ITfThreadMgrEx::ActivateEx, tsf.itfthreadmgrex_activateex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

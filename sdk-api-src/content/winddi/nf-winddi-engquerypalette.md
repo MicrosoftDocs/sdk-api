@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngQueryPalette
 title: EngQueryPalette function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngQueryPalette function queries the specified palette for its attributes.
 old-location: display\engquerypalette.htm
 old-project: display
 ms.assetid: be4d0547-b71a-49b4-9d2c-12fab67c9412
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngQueryPalette, EngQueryPalette function [Display Devices], display.engquerypalette, gdifncs_e11ff13c-9834-4911-9a02-a7d98f4cdfdc.xml, winddi/EngQueryPalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

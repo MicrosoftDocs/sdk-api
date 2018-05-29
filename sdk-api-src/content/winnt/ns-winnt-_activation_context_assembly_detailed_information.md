@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION
 title: "_ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION structure is used by the QueryActCtxW function.
 old-location: setup\activation_context_assembly_detailed_information.htm
 old-project: SbsCs
 ms.assetid: b093cc6a-55ea-49bf-904d-2b43517f9b02
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION structure [Side-by-side Assemblies], PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION structure pointer [Side-by-side Assemblies], _ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, _win32_activation_context_assembly_detailed_information, setup.activation_context_assembly_detailed_information, winnt/ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, winnt/PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IDownloadProgressChangedCallbackArgs
 title: IDownloadProgressChangedCallbackArgs
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the change in the progress of an asynchronous download operation.
 old-location: wua\idownloadprogresschangedcallbackargs.htm
 old-project: Wua_Sdk
 ms.assetid: 014bb208-1241-4022-b37a-cd16da48174c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDownloadProgressChangedCallbackArgs, IDownloadProgressChangedCallbackArgs interface [Windows Update Agent], IDownloadProgressChangedCallbackArgs interface [Windows Update Agent],described, wua.idownloadprogresschangedcallbackargs, wuapi/IDownloadProgressChangedCallbackArgs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

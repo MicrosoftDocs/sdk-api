@@ -1,16 +1,16 @@
 ---
 UID: NS:qosobjs._QOS_DIFFSERV_RULE
 title: "_QOS_DIFFSERV_RULE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The QOS_DIFFSERV_RULE structure is used in conjunction with the traffic control object QOS_DIFFSERV to provide Diffserv rules for a given flow.
 old-location: qos\qos_diffserv_rule.htm
 old-project: QOS
 ms.assetid: 732cfbec-4175-4397-854f-0d2a930e11bc
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*LPQOS_DIFFSERV_RULE, LPQOS_DIFFSERV_RULE, LPQOS_DIFFSERV_RULE structure pointer [QOS], QOS_DIFFSERV_RULE, QOS_DIFFSERV_RULE structure [QOS], _QOS_DIFFSERV_RULE, _gqos_qos_diffserv_rule, qos.qos_diffserv_rule, qosobjs/LPQOS_DIFFSERV_RULE, qosobjs/QOS_DIFFSERV_RULE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: qosobjs.h
 req.include-header: 

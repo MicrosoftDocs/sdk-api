@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfRangeACP.GetExtent
 title: ITfRangeACP::GetExtent
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfRangeACP::GetExtent method
 old-location: tsf\itfrangeacp_getextent.htm
 old-project: TSF
 ms.assetid: 14838cea-1a19-4faa-ac7f-617fde82432d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetExtent, GetExtent method [Text Services Framework], GetExtent method [Text Services Framework],ITfRangeACP interface, ITfRangeACP interface [Text Services Framework],GetExtent method, ITfRangeACP.GetExtent, ITfRangeACP::GetExtent, _tsf_itfrangeacp_getextent_ref, msctf/ITfRangeACP::GetExtent, tsf.itfrangeacp_getextent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

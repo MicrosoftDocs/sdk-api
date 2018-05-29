@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetDialogControlDpiChangeBehavior
 title: GetDialogControlDpiChangeBehavior function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves and per-monitor DPI scaling behavior overrides of a child window in a dialog.
 old-location: hidpi\getdialogresizebehavior.htm
 old-project: hidpi
 ms.assetid: 1651353F-5823-41B8-AE52-016AEBA6C4F0
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.author: windowssdkdev
+ms.date: 03/29/2018
 ms.keywords: GetDialogControlDpiChangeBehavior, GetDialogControlDpiChangeBehavior function [High DPI], hidpi.getdialogresizebehavior, winuser/GetDialogControlDpiChangeBehavior
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_WritePOINTS
 title: PSPropertyBag_WritePOINTS function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores the property coordinates in aPOINTS structure of a specified property bag.
 old-location: properties\PSPropertyBag_WritePOINTS.htm
 old-project: properties
 ms.assetid: B1E3E061-042A-4ba0-98F2-EA8A022882CC
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_WritePOINTS, PSPropertyBag_WritePOINTS function [Windows Properties], properties.PSPropertyBag_WritePOINTS, propsys/PSPropertyBag_WritePOINTS, shell.PSPropertyBag_WritePOINTS, shell_PSPropertyBag_WritePOINTS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

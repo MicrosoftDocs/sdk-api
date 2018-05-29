@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.SetIndexByteStreams
 title: IMFASFIndexer::SetIndexByteStreams
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds byte streams to be indexed.
 old-location: mf\imfasfindexer_setindexbytestreams.htm
 old-project: medfound
 ms.assetid: f116baaa-8d9b-4ac0-9263-3bb65d67ee63
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFASFIndexer interface [Media Foundation],SetIndexByteStreams method, IMFASFIndexer.SetIndexByteStreams, IMFASFIndexer::SetIndexByteStreams, SetIndexByteStreams, SetIndexByteStreams method [Media Foundation], SetIndexByteStreams method [Media Foundation],IMFASFIndexer interface, f116baaa-8d9b-4ac0-9263-3bb65d67ee63, mf.imfasfindexer_setindexbytestreams, wmcontainer/IMFASFIndexer::SetIndexByteStreams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

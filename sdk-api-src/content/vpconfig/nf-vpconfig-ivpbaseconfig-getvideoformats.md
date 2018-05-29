@@ -1,16 +1,16 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.GetVideoFormats
 title: IVPBaseConfig::GetVideoFormats
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetVideoFormats method retrieves the video formats the driver supports.
 old-location: dshow\ivpbaseconfig_getvideoformats.htm
 old-project: DirectShow
 ms.assetid: a0426a2a-a856-4e5d-8ff2-4afa3b18355e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetVideoFormats, GetVideoFormats method [DirectShow], GetVideoFormats method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetVideoFormats method, IVPBaseConfig.GetVideoFormats, IVPBaseConfig::GetVideoFormats, IVPBaseConfigGetVideoFormats, dshow.ivpbaseconfig_getvideoformats, vpconfig/IVPBaseConfig::GetVideoFormats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vpconfig.h
 req.include-header: 

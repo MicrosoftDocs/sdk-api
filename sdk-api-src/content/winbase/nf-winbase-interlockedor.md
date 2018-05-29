@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.InterlockedOr
 title: InterlockedOr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs an atomic OR operation on the specified LONG values.
 old-location: base\interlockedor.htm
 old-project: Sync
 ms.assetid: c677e9fb-4188-466a-8283-9d65a50d150e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InterlockedOr, InterlockedOr function, base.interlockedor, winbase/InterlockedOr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

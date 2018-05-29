@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextStrings.Item
 title: ITextStrings::Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an ITextRange2 object for a selected index in a string collection.
 old-location: controls\itextstrings_item.htm
 old-project: Controls
 ms.assetid: 8eed4bc6-75a8-440e-a334-543e7b996df0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextStrings interface [Windows Controls],Item method, ITextStrings.Item, ITextStrings::Item, Item, Item method [Windows Controls], Item method [Windows Controls],ITextStrings interface, controls.itextstrings_item, tom/ITextStrings::Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

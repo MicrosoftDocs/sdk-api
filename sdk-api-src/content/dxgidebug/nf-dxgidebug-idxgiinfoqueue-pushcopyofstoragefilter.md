@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushCopyOfStorageFilter
 title: IDXGIInfoQueue::PushCopyOfStorageFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Pushes a copy of the storage filter that is currently on the top of the storage-filter stack onto the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushcopyofstoragefilter.htm
 old-project: direct3ddxgi
 ms.assetid: 1CD32898-90B1-4523-8C97-985CA9F7D92B
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushCopyOfStorageFilter method, IDXGIInfoQueue.PushCopyOfStorageFilter, IDXGIInfoQueue::PushCopyOfStorageFilter, PushCopyOfStorageFilter, PushCopyOfStorageFilter method [DXGI], PushCopyOfStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushcopyofstoragefilter, dxgidebug/IDXGIInfoQueue::PushCopyOfStorageFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

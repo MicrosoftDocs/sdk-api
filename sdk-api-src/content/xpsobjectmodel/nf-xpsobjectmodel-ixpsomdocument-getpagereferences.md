@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.GetPageReferences
 title: IXpsOMDocument::GetPageReferences
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IXpsOMPageReferenceCollection interface of the document, which allows virtualized access to its pages.
 old-location: xps\ixpsomdocument_getpagereferences.htm
 old-project: printdocs
 ms.assetid: 65e8b20b-6a6b-4d24-86a1-b9d1833caa3c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetPageReferences, GetPageReferences method [XPS Documents and Packaging], GetPageReferences method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetPageReferences method, IXpsOMDocument.GetPageReferences, IXpsOMDocument::GetPageReferences, xps.ixpsomdocument_getpagereferences, xpsobjectmodel/IXpsOMDocument::GetPageReferences
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

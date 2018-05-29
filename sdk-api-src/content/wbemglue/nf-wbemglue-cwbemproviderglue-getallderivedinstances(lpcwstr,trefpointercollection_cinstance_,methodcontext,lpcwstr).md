@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.GetAllDerivedInstances(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR)
 title: CWbemProviderGlue::GetAllDerivedInstances(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR)
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAllDerivedInstances method retrieves a list of instances of a base class, or any children of that base class.
 old-location: wmi\cwbemproviderglue_getallderivedinstances.htm
 old-project: WmiSdk
 ms.assetid: ecdca316-12a0-46c3-97df-85a087533837
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CWbemProviderGlue interface [Windows Management Instrumentation],GetAllDerivedInstances method, CWbemProviderGlue.GetAllDerivedInstances, CWbemProviderGlue.GetAllDerivedInstances(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR), CWbemProviderGlue::GetAllDerivedInstances, CWbemProviderGlue::GetAllDerivedInstances(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR), GetAllDerivedInstances, GetAllDerivedInstances method [Windows Management Instrumentation], GetAllDerivedInstances method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_getallderivedinstances, wbemglue/CWbemProviderGlue::GetAllDerivedInstances, wmi.cwbemproviderglue_getallderivedinstances
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemglue.h
 req.include-header: FwCommon.h

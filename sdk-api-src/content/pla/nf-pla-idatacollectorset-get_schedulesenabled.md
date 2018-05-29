@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_SchedulesEnabled
 title: IDataCollectorSet::get_SchedulesEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets a value that indicates whether the schedules are enabled.
 old-location: pla\idatacollectorset_get_schedulesenabled.htm
 old-project: PLA
 ms.assetid: 75ebe328-1494-464c-9491-e8a39e1d8ee1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],SchedulesEnabled property, IDataCollectorSet.SchedulesEnabled, IDataCollectorSet.get_SchedulesEnabled, IDataCollectorSet::SchedulesEnabled, IDataCollectorSet::get_SchedulesEnabled, IDataCollectorSet::put_SchedulesEnabled, SchedulesEnabled property [PLA], SchedulesEnabled property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_schedulesenabled, get_SchedulesEnabled, pla.idatacollectorset_get_schedulesenabled, pla/IDataCollectorSet::SchedulesEnabled, pla/IDataCollectorSet::get_SchedulesEnabled, pla/IDataCollectorSet::put_SchedulesEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

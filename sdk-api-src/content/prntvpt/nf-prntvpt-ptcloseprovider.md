@@ -1,16 +1,16 @@
 ---
 UID: NF:prntvpt.PTCloseProvider
 title: PTCloseProvider function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a print ticket provider handle.
 old-location: gdi\ptcloseprovider.htm
 old-project: printdocs
 ms.assetid: 28e85b53-fd0c-4210-ae2b-794efaf65bd4
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PTCloseProvider, PTCloseProvider function [Windows GDI], _win32_PTCloseProvider, gdi.ptcloseprovider, prntvpt/PTCloseProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: prntvpt.h
 req.include-header: 

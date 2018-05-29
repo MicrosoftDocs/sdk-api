@@ -1,16 +1,16 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfActivationParams
 title: SpatialAudioHrtfActivationParams
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the activation parameters for an ISpatialAudioRenderStreamForHrtf.
 old-location: coreaudio\spatialaudiohrtfactivationparams.htm
 old-project: CoreAudio
 ms.assetid: 6A549BFB-993A-4A20-AFAB-B38D03EAE35C
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: PSpatialAudioHrtfActivationParams, PSpatialAudioHrtfActivationParams structure pointer [Core Audio], SpatialAudioHrtfActivationParams, SpatialAudioHrtfActivationParams structure [Core Audio], coreaudio.spatialaudiohrtfactivationparams, spatialaudiohrtf/PSpatialAudioHrtfActivationParams, spatialaudiohrtf/SpatialAudioHrtfActivationParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: spatialaudiohrtf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IBlockingLock
 title: IBlockingLock
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a semaphore that can be used to provide temporarily exclusive access to a shared resource such as a file.
 old-location: com\iblockinglock.htm
 old-project: com
 ms.assetid: 8fccc4f9-17fe-4927-b00d-2815f47857e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IBlockingLock, IBlockingLock interface [COM], IBlockingLock interface [COM],described, _com_iblockinglock, com.iblockinglock, objidl/IBlockingLock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

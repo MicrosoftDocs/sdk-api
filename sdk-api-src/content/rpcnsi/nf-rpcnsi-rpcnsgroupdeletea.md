@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupDeleteA
 title: RpcNsGroupDeleteA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsGroupDelete function deletes a group attribute.
 old-location: rpc\rpcnsgroupdelete.htm
 old-project: Rpc
 ms.assetid: 4455e891-7846-47b5-9283-549c3451b70e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RPC_C_NS_SYNTAX_DCE, RPC_C_NS_SYNTAX_DEFAULT, RpcNsGroupDelete, RpcNsGroupDelete function [RPC], RpcNsGroupDeleteA, RpcNsGroupDeleteW, _rpc_rpcnsgroupdelete, rpc.rpcnsgroupdelete, rpcnsi/RpcNsGroupDelete, rpcnsi/RpcNsGroupDeleteA, rpcnsi/RpcNsGroupDeleteW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

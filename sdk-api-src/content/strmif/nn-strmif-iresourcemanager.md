@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IResourceManager
 title: IResourceManager
-author: windows-driver-content
+author: windows-sdk-content
 description: The IResourceManager interface resolves contentions for system resources.The filter graph manager exposes this interface.
 old-location: dshow\iresourcemanager.htm
 old-project: DirectShow
 ms.assetid: 8cbe908e-5675-4134-81e7-2c5c31b0ffc5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IResourceManager, IResourceManager interface [DirectShow], IResourceManager interface [DirectShow],described, IResourceManagerInterface, dshow.iresourcemanager, strmif/IResourceManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

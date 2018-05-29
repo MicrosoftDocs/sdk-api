@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PostRenameItem
 title: IFileOperationProgressSink::PostRenameItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs caller-implemented actions after the rename process for each item is complete.
 old-location: shell\IFileOperationProgressSink_PostRenameItem.htm
 old-project: shell
 ms.assetid: 3bb55ecf-a975-4e7f-9e41-30e778d4cbac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostRenameItem method, IFileOperationProgressSink.PostRenameItem, IFileOperationProgressSink::PostRenameItem, PostRenameItem, PostRenameItem method [Windows Shell], PostRenameItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostRenameItem, shell.IFileOperationProgressSink_PostRenameItem, shobjidl_core/IFileOperationProgressSink::PostRenameItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

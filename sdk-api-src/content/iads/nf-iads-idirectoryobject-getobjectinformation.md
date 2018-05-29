@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IDirectoryObject.GetObjectInformation
 title: IDirectoryObject::GetObjectInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDirectoryObject::GetObjectInformation method retrieves a pointer to an ADS_OBJECT_INFO structure that contains data regarding the identity and location of a directory service object.
 old-location: adsi\idirectoryobject_getobjectinformation.htm
 old-project: ADSI
 ms.assetid: 5a2d7fee-666e-4b3b-b6fa-b9f6d785c2c1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetObjectInformation, GetObjectInformation method [ADSI], GetObjectInformation method [ADSI],IDirectoryObject interface, IDirectoryObject interface [ADSI],GetObjectInformation method, IDirectoryObject.GetObjectInformation, IDirectoryObject::GetObjectInformation, _ds_idirectoryobject_getobjectinformation, adsi.idirectoryobject__getobjectinformation, adsi.idirectoryobject_getobjectinformation, iads/IDirectoryObject::GetObjectInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

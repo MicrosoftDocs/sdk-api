@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateADTSMediaSink
 title: MFCreateADTSMediaSink function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instance of the audio data transport stream (ADTS) media sink.
 old-location: mf\mfcreateadtsmediasink.htm
 old-project: medfound
 ms.assetid: 18B2F5C7-61A6-447B-9BC8-2394A68BA777
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateADTSMediaSink, MFCreateADTSMediaSink function [Media Foundation], mf.mfcreateadtsmediasink, mfidl/MFCreateADTSMediaSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

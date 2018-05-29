@@ -1,16 +1,16 @@
 ---
 UID: NE:uiautomationcoreapi.AsyncContentLoadedState
 title: AsyncContentLoadedState
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values that describe the progress of asynchronous loading of content.
 old-location: winauto\uiauto_AsyncContentLoadedStateEnum.htm
 old-project: WinAuto
 ms.assetid: 7c562d3a-10cc-4d9e-aaad-6729574fcb96
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: AsyncContentLoadedState, AsyncContentLoadedState enumeration [Windows Accessibility], AsyncContentLoadedState_Beginning, AsyncContentLoadedState_Completed, AsyncContentLoadedState_Progress, uiauto.uiauto_AsyncContentLoadedStateEnum, uiauto_AsyncContentLoadedStateEnum, uiautomationcoreapi/AsyncContentLoadedState, uiautomationcoreapi/AsyncContentLoadedState_Beginning, uiautomationcoreapi/AsyncContentLoadedState_Completed, uiautomationcoreapi/AsyncContentLoadedState_Progress, winauto.uiauto_AsyncContentLoadedStateEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcoreapi.h
 req.include-header: UIAutomation.h

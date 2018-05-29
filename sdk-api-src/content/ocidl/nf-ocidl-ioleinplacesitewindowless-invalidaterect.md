@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.InvalidateRect
 title: IOleInPlaceSiteWindowless::InvalidateRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an object to invalidate a specified rectangle of its in-place image on the screen.
 old-location: com\ioleinplacesitewindowless_invalidaterect.htm
 old-project: com
 ms.assetid: 034025f5-f9cd-4ad3-9b98-216b373cd10f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],InvalidateRect method, IOleInPlaceSiteWindowless.InvalidateRect, IOleInPlaceSiteWindowless::InvalidateRect, InvalidateRect, InvalidateRect method [COM], InvalidateRect method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_invalidaterect, com.ioleinplacesitewindowless_invalidaterect, ocidl/IOleInPlaceSiteWindowless::InvalidateRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

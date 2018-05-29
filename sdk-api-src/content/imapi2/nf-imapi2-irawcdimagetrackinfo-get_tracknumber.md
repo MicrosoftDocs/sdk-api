@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_TrackNumber
 title: IRawCDImageTrackInfo::get_TrackNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the track number for this track.
 old-location: imapi\irawcdimagetrackinfo_get_tracknumber.htm
 old-project: imapi
 ms.assetid: ccc84237-3819-45b4-980a-a73669f605fb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_TrackNumber method, IRawCDImageTrackInfo.get_TrackNumber, IRawCDImageTrackInfo::get_TrackNumber, get_TrackNumber, get_TrackNumber method [IMAPI], get_TrackNumber method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_tracknumber, imapi2/IRawCDImageTrackInfo::get_TrackNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

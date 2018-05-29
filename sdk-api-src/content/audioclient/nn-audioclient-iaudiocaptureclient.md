@@ -1,16 +1,16 @@
 ---
 UID: NN:audioclient.IAudioCaptureClient
 title: IAudioCaptureClient
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioCaptureClient interface enables a client to read input data from a capture endpoint buffer.
 old-location: coreaudio\iaudiocaptureclient.htm
 old-project: CoreAudio
 ms.assetid: c0fa6841-56bf-421e-9949-c6a037cf9fd4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioCaptureClient, IAudioCaptureClient interface [Core Audio], IAudioCaptureClient interface [Core Audio],described, audioclient/IAudioCaptureClient, coreaudio.iaudiocaptureclient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioclient.h
 req.include-header: 

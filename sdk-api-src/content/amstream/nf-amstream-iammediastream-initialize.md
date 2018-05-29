@@ -1,16 +1,16 @@
 ---
 UID: NF:amstream.IAMMediaStream.Initialize
 title: IAMMediaStream::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. The Initialize method creates and initializes a new media stream with the specified stream type and purpose ID.
 old-location: dshow\iammediastream_initialize.htm
 old-project: DirectShow
 ms.assetid: b695100b-75a4-4107-828c-e0067290d972
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMMediaStream interface [DirectShow],Initialize method, IAMMediaStream.Initialize, IAMMediaStream::Initialize, IAMMediaStreamInitialize, Initialize, Initialize method [DirectShow], Initialize method [DirectShow],IAMMediaStream interface, amstream/IAMMediaStream::Initialize, dshow.iammediastream_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amstream.h
 req.include-header: 

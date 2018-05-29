@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IUserNotification.SetBalloonRetry
 title: IUserNotification::SetBalloonRetry
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the conditions for trying to display user information when the first attempt fails.
 old-location: shell\IUserNotification_SetBalloonRetry.htm
 old-project: shell
 ms.assetid: b9ad42e1-19eb-44a9-aa09-4a31840104d6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUserNotification interface [Windows Shell],SetBalloonRetry method, IUserNotification.SetBalloonRetry, IUserNotification::SetBalloonRetry, SetBalloonRetry, SetBalloonRetry method [Windows Shell], SetBalloonRetry method [Windows Shell],IUserNotification interface, inet_IUserNotification_SetBalloonRetry, shell.IUserNotification_SetBalloonRetry, shobjidl_core/IUserNotification::SetBalloonRetry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

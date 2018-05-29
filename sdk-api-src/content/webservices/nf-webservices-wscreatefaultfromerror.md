@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsCreateFaultFromError
 title: WsCreateFaultFromError function
-author: windows-driver-content
+author: windows-sdk-content
 description: Constructs a WS_FAULT from a specified error object.
 old-location: wsw\wscreatefaultfromerror.htm
 old-project: wsw
 ms.assetid: 193854d7-3b7f-4f2b-b068-33b9c4d91e57
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsCreateFaultFromError, WsCreateFaultFromError function [Web Services for Windows], webservices/WsCreateFaultFromError, wsw.wscreatefaultfromerror
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

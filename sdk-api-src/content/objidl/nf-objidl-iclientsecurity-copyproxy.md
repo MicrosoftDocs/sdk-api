@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IClientSecurity.CopyProxy
 title: IClientSecurity::CopyProxy
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes a private copy of the proxy for the specified interface.
 old-location: com\iclientsecurity_copyproxy.htm
 old-project: com
 ms.assetid: 4664351b-d43b-45dc-800e-574685afd0f6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CopyProxy, CopyProxy method [COM], CopyProxy method [COM],IClientSecurity interface, IClientSecurity interface [COM],CopyProxy method, IClientSecurity.CopyProxy, IClientSecurity::CopyProxy, _com_iclientsecurity_copyproxy, com.iclientsecurity_copyproxy, objidlbase/IClientSecurity::CopyProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

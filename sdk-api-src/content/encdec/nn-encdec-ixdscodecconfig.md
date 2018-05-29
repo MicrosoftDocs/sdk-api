@@ -1,16 +1,16 @@
 ---
 UID: NN:encdec.IXDSCodecConfig
 title: IXDSCodecConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005. The IXDSCodecConfig interface configures the XDS Codec filter. Most applications will not have to use this interface.
 old-location: mstv\ixdscodecconfig.htm
 old-project: mstv
 ms.assetid: 90f8ce9b-2a85-43d0-9f2a-a3d248414a2d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IXDSCodecConfig, IXDSCodecConfig interface [Microsoft TV Technologies], IXDSCodecConfig interface [Microsoft TV Technologies],described, IXDSCodecConfigInterface, encdec/IXDSCodecConfig, mstv.ixdscodecconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: encdec.h
 req.include-header: 

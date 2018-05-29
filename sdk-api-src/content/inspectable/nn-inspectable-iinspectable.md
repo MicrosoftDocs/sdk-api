@@ -1,16 +1,16 @@
 ---
 UID: NN:inspectable.IInspectable
 title: IInspectable
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides functionality required for all Windows Runtime classes.
 old-location: winrt\iinspectable.htm
 old-project: WinRT
 ms.assetid: 0657E51F-D4C0-46C6-927D-B01E54B6846C
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IInspectable, IInspectable interface [Windows Runtime], IInspectable interface [Windows Runtime],described, inspectable/IInspectable, winrt.iinspectable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: inspectable.h
 req.include-header: 

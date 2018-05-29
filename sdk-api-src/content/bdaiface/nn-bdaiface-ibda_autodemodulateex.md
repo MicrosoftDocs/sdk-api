@@ -1,16 +1,16 @@
 ---
 UID: NN:bdaiface.IBDA_AutoDemodulateEx
 title: IBDA_AutoDemodulateEx
-author: windows-driver-content
+author: windows-sdk-content
 description: The IBDA_AutoDemodulateEx interface extends IBDA_AutoDemodulate.
 old-location: mstv\ibda_autodemodulateex.htm
 old-project: mstv
 ms.assetid: ecc642e4-7c36-400c-8a63-639f75b2bbc2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_AutoDemodulateEx, IBDA_AutoDemodulateEx interface [Microsoft TV Technologies], IBDA_AutoDemodulateEx interface [Microsoft TV Technologies],described, IBDA_AutoDemodulateExInterface, bdaiface/IBDA_AutoDemodulateEx, mstv.ibda_autodemodulateex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

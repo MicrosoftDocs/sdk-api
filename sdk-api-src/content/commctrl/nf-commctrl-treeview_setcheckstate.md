@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.TreeView_SetCheckState
 title: TreeView_SetCheckState macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the item's state image to &#0034;checked&#0034; or &#0034;unchecked.&#0034; You can also use the TVM_SETITEM message directly.
 old-location: controls\TreeView_SetCheckState.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setcheckstate.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TreeView_SetCheckState, TreeView_SetCheckState macro [Windows Controls], _win32_TreeView_SetCheckState, _win32_TreeView_SetCheckState_cpp, commctrl/TreeView_SetCheckState, controls.TreeView_SetCheckState, controls._win32_TreeView_SetCheckState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

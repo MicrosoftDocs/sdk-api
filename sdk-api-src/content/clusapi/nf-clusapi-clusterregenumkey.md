@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.ClusterRegEnumKey
 title: ClusterRegEnumKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the subkeys of an open cluster database key.
 old-location: mscs\clusterregenumkey.htm
 old-project: MsCS
 ms.assetid: ed70c16d-98d2-4d84-b5cd-1e5decc5b7bd
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterRegEnumKey, ClusterRegEnumKey function [Failover Cluster], _wolf_clusterregenumkey, clusapi/ClusterRegEnumKey, mscs.clusterregenumkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

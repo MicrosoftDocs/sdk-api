@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11_1.D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
 title: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides data to the ID3D11VideoContext::DecoderBeginFrame method.
 old-location: mf\d3d11_video_decoder_begin_frame_crypto_session.htm
 old-project: medfound
 ms.assetid: 7A4E0B99-90EE-4669-813E-5A3CD58D24A7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION structure [Media Foundation], d3d11_1/D3D11_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION, mf.d3d11_video_decoder_begin_frame_crypto_session
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11_1.h
 req.include-header: 

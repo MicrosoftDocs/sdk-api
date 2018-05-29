@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.WMCreateSyncReader
 title: WMCreateSyncReader function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMCreateSyncReader function creates a synchronous reader object.
 old-location: wmformat\wmcreatesyncreader.htm
 old-project: wmformat
 ms.assetid: 77cb65cc-9785-4af4-9b92-245c17e5ab82
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMCreateSyncReader, WMCreateSyncReader function [windows Media Format], wmformat.wmcreatesyncreader, wmsdkidl/WMCreateSyncReader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

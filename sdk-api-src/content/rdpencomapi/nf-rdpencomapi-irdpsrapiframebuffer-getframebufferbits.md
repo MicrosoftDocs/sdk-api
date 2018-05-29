@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIFrameBuffer.GetFrameBufferBits
 title: IRDPSRAPIFrameBuffer::GetFrameBufferBits
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the bits in a specified area of the frame.
 old-location: rdp\irdpsrapiframebuffer_getframebufferbits.htm
 old-project: Rdp
 ms.assetid: 6497d9d1-c987-40ea-b384-0fff1e852122
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: GetFrameBufferBits, GetFrameBufferBits method [RDP], GetFrameBufferBits method [RDP],IRDPSRAPIFrameBuffer interface, IRDPSRAPIFrameBuffer interface [RDP],GetFrameBufferBits method, IRDPSRAPIFrameBuffer.GetFrameBufferBits, IRDPSRAPIFrameBuffer::GetFrameBufferBits, rdp.irdpsrapiframebuffer_getframebufferbits, rdpencomapi/IRDPSRAPIFrameBuffer::GetFrameBufferBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

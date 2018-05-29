@@ -1,16 +1,16 @@
 ---
 UID: NS:richedit._formatrange
 title: "_formatrange"
-author: windows-driver-content
+author: windows-sdk-content
 description: Information that a rich edit control uses to format its output for a particular device. This structure is used with the EM_FORMATRANGE message.
 old-location: controls\FORMATRANGE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\formatrange.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FORMATRANGE, FORMATRANGE structure [Windows Controls], _formatrange, _win32_FORMATRANGE_str, _win32_FORMATRANGE_str_cpp, controls.FORMATRANGE, controls._win32_FORMATRANGE_str, richedit/FORMATRANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsPath
 title: IADsPath
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsPath interface provides methods for an ADSI client to access the Path attribute.
 old-location: adsi\iadspath.htm
 old-project: ADSI
 ms.assetid: e588195c-eb4f-48d3-a2fa-777dd6dc2901
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsPath, IADsPath interface [ADSI], IADsPath interface [ADSI],described, _ds_iadspath, adsi.iadspath, iads/IADsPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

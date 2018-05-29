@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESFileExpiryDateEvent.GetTunerId
 title: IESFileExpiryDateEvent::GetTunerId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a globally unique identifier (GUID) from a FileExpiryDate event that identifies the media transform device (MTD) that originated the event.
 old-location: mstv\iesfileexpirydateevent_gettunerid.htm
 old-project: mstv
 ms.assetid: 1271df60-7830-4e10-9af8-caf59aff56f8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTunerId, GetTunerId method [Microsoft TV Technologies], GetTunerId method [Microsoft TV Technologies],IESFileExpiryDateEvent interface, IESFileExpiryDateEvent interface [Microsoft TV Technologies],GetTunerId method, IESFileExpiryDateEvent.GetTunerId, IESFileExpiryDateEvent::GetTunerId, mstv.iesfileexpirydateevent_gettunerid, tuner/IESFileExpiryDateEvent::GetTunerId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

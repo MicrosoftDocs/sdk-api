@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.RpcSsGetThreadHandle
 title: RpcSsGetThreadHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcSsGetThreadHandle function returns a thread handle for the stub memory&#8211;management environment.
 old-location: rpc\rpcssgetthreadhandle.htm
 old-project: Rpc
 ms.assetid: f3b10f9c-7383-4665-96e3-1518f554f23e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcSsGetThreadHandle, RpcSsGetThreadHandle function [RPC], _rpc_rpcssgetthreadhandle, rpc.rpcssgetthreadhandle, rpcndr/RpcSsGetThreadHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mscat.CryptCATOpen
 title: CryptCATOpen function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a catalog and returns a context handle to the open catalog.
 old-location: security\cryptcatopen.htm
 old-project: SecCrypto
 ms.assetid: e81f3a3d-d5b7-4266-838d-b83e331c8594
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPTCAT_OPEN_ALWAYS, CRYPTCAT_OPEN_CREATENEW, CRYPTCAT_VERSION_1, CRYPTCAT_VERSION_2, CryptCATOpen, CryptCATOpen function [Security], mscat/CryptCATOpen, security.cryptcatopen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

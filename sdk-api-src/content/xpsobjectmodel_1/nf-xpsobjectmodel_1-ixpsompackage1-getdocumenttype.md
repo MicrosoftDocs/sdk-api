@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMPackage1.GetDocumentType
 title: IXpsOMPackage1::GetDocumentType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the document type of the data that was used to initialize this package. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see XPS Documents.
 old-location: xps\ixpsompackage1_getdocumenttype.htm
 old-project: printdocs
 ms.assetid: 8f51e5c5-ac80-4f45-a0bb-ef19137fe391
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetDocumentType, GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging],IXpsOMPackage1 interface, IXpsOMPackage1 interface [XPS Documents and Packaging],GetDocumentType method, IXpsOMPackage1.GetDocumentType, IXpsOMPackage1::GetDocumentType, xps.ixpsompackage1_getdocumenttype, xpsobjectmodel_1/IXpsOMPackage1::GetDocumentType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel_1.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:shellapi.QUERY_USER_NOTIFICATION_STATE
 title: QUERY_USER_NOTIFICATION_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the state of the machine for the current user in relation to the propriety of sending a notification. Used by SHQueryUserNotificationState.
 old-location: shell\QUERY_USER_NOTIFICATION_STATE.htm
 old-project: shell
 ms.assetid: b26439dd-6695-45d8-8c7f-5bbd5eaf5b54
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: QUERY_USER_NOTIFICATION_STATE, QUERY_USER_NOTIFICATION_STATE enumeration [Windows Shell], QUNS_ACCEPTS_NOTIFICATIONS, QUNS_APP, QUNS_BUSY, QUNS_NOT_PRESENT, QUNS_PRESENTATION_MODE, QUNS_QUIET_TIME, QUNS_RUNNING_D3D_FULL_SCREEN, _shell_QUERY_USER_NOTIFICATION_STATE, shell.QUERY_USER_NOTIFICATION_STATE, shellapi/QUERY_USER_NOTIFICATION_STATE, shellapi/QUNS_ACCEPTS_NOTIFICATIONS, shellapi/QUNS_APP, shellapi/QUNS_BUSY, shellapi/QUNS_NOT_PRESENT, shellapi/QUNS_PRESENTATION_MODE, shellapi/QUNS_QUIET_TIME, shellapi/QUNS_RUNNING_D3D_FULL_SCREEN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shellapi.h
 req.include-header: 

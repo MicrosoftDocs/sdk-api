@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.Initialize
 title: IMFASFMultiplexer::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the multiplexer with the data from an ASF ContentInfo object.
 old-location: mf\imfasfmultiplexer_initialize.htm
 old-project: medfound
 ms.assetid: 61c37bd5-3f6f-434b-ae5b-c25c5213d49f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 61c37bd5-3f6f-434b-ae5b-c25c5213d49f, IMFASFMultiplexer interface [Media Foundation],Initialize method, IMFASFMultiplexer.Initialize, IMFASFMultiplexer::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFASFMultiplexer interface, mf.imfasfmultiplexer_initialize, wmcontainer/IMFASFMultiplexer::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerCreate
 title: PssWalkMarkerCreate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a walk marker.
 old-location: proc_snap\psswalkmarkercreate.htm
 old-project: proc_snap
 ms.assetid: 58E2FBAF-661C-45BE-A25A-A096AF52ED3E
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PssWalkMarkerCreate, PssWalkMarkerCreate function, proc_snap.psswalkmarkercreate, processsnapshot/PssWalkMarkerCreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 

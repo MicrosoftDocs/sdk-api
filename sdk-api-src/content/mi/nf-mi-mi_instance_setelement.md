@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Instance_SetElement
 title: MI_Instance_SetElement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Set the value of the element with the given name in the given instance.
 old-location: wmi_v2\mi_instance_setelement.htm
 old-project: wmi_v2
 ms.assetid: 581f8d9f-5421-44ab-a3e2-dfb536a35c2c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NULL, MI_Instance_SetElement, MI_Instance_SetElement function [Windows Management Infrastructure (MI)], mi/MI_Instance_SetElement, wmi_v2.mi_instance_setelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

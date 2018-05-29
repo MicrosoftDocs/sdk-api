@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRAISE_RES_TYPE_NOTIFICATION
 title: PRAISE_RES_TYPE_NOTIFICATION
-author: windows-driver-content
+author: windows-sdk-content
 description: TBD. The PRAISE_RES_TYPE_NOTIFICATION type is a pointer to this function.
 old-location: mscs\raiserestypenotification.htm
 old-project: MsCS
 ms.assetid: 9F5C8008-6B7B-4CA9-896C-15E5A3FB68C9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRAISE_RES_TYPE_NOTIFICATION, PRAISE_RES_TYPE_NOTIFICATION callback function [Failover Cluster], RaiseResTypeNotification, RaiseResTypeNotification callback, RaiseResTypeNotification callback function [Failover Cluster], mscs.raiserestypenotification, resapi/PRAISE_RES_TYPE_NOTIFICATION, resapi/RaiseResTypeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

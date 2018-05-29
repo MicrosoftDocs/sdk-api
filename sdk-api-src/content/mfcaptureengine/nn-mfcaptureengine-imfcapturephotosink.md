@@ -1,16 +1,16 @@
 ---
 UID: NN:mfcaptureengine.IMFCapturePhotoSink
 title: IMFCapturePhotoSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls the photo sink.
 old-location: mf\imfcapturephotosink.htm
 old-project: medfound
 ms.assetid: 14BB9A86-47F2-4CFE-A932-3F2C7B6AF2BA
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCapturePhotoSink, IMFCapturePhotoSink interface [Media Foundation], IMFCapturePhotoSink interface [Media Foundation],described, mf.imfcapturephotosink, mfcaptureengine/IMFCapturePhotoSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfcaptureengine.h
 req.include-header: 

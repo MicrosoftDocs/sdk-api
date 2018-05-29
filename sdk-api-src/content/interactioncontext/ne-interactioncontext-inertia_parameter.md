@@ -1,16 +1,16 @@
 ---
 UID: NE:interactioncontext.INERTIA_PARAMETER
 title: INERTIA_PARAMETER
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the inertia values for a manipulation (translation, rotation, scaling).
 old-location: input_intcontext\inertia_parameter.htm
 old-project: Input_IntContext
 ms.assetid: 06a7bab7-3821-42f3-bf2c-2d0724cb1119
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: INERTIA_PARAMETER, INERTIA_PARAMETER enumeration, INERTIA_PARAMETER_EXPANSION_DECELERATION, INERTIA_PARAMETER_EXPANSION_EXPANSION, INERTIA_PARAMETER_MAX, INERTIA_PARAMETER_ROTATION_ANGLE, INERTIA_PARAMETER_ROTATION_DECELERATION, INERTIA_PARAMETER_TRANSLATION_DECELERATION, INERTIA_PARAMETER_TRANSLATION_DISPLACEMENT, input_intcontext.inertia_parameter, interactioncontext.inertia_parameter, interactioncontext/INERTIA_PARAMETER, interactioncontext/INERTIA_PARAMETER_EXPANSION_DECELERATION, interactioncontext/INERTIA_PARAMETER_EXPANSION_EXPANSION, interactioncontext/INERTIA_PARAMETER_MAX, interactioncontext/INERTIA_PARAMETER_ROTATION_ANGLE, interactioncontext/INERTIA_PARAMETER_ROTATION_DECELERATION, interactioncontext/INERTIA_PARAMETER_TRANSLATION_DECELERATION, interactioncontext/INERTIA_PARAMETER_TRANSLATION_DISPLACEMENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: interactioncontext.h
 req.include-header: 

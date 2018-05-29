@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptHashCertificate2
 title: CryptHashCertificate2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Hashes a block of data by using a CNG hash provider.
 old-location: security\crypthashcertificate2.htm
 old-project: SecCrypto
 ms.assetid: 9f315374-0002-499a-81ea-efcb3c19e68f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptHashCertificate2, CryptHashCertificate2 function [Security], security.crypthashcertificate2, wincrypt/CryptHashCertificate2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

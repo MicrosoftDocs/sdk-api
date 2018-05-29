@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.RefreshISNSServerW
 title: RefreshISNSServerW function
-author: windows-driver-content
+author: windows-sdk-content
 description: RefreshIsnsServer function instructs the iSCSI initiator service to query the indicated Internet Storage Name Service (iSNS) server to refresh the list of discovered targets for the iSCSI initiator service.
 old-location: iscsidisc\refreshisnsserver.htm
 old-project: iSCSIDisc
 ms.assetid: c954126a-6bad-49cf-889e-81746fe175a4
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: RefreshISNSServerW, RefreshIsnsServer, RefreshIsnsServer function [iSCSI Discovery Library API], RefreshIsnsServerA, RefreshIsnsServerW, iscsidisc.refreshisnsserver, iscsidsc/RefreshIsnsServer, iscsidsc/RefreshIsnsServerA, iscsidsc/RefreshIsnsServerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

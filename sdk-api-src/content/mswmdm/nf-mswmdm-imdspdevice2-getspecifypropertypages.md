@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPDevice2.GetSpecifyPropertyPages
 title: IMDSPDevice2::GetSpecifyPropertyPages
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSpecifyPropertyPages method gets property pages describing non-standard capabilities of portable devices.
 old-location: wmdm\imdspdevice2_getspecifypropertypages.htm
 old-project: WMDM
 ms.assetid: e79ce0d2-bfea-4a5b-82f8-9d69f96d9698
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSpecifyPropertyPages, GetSpecifyPropertyPages method [windows Media Device Manager], GetSpecifyPropertyPages method [windows Media Device Manager],IMDSPDevice2 interface, IMDSPDevice2 interface [windows Media Device Manager],GetSpecifyPropertyPages method, IMDSPDevice2.GetSpecifyPropertyPages, IMDSPDevice2::GetSpecifyPropertyPages, IMDSPDevice2GetSpecifyPropertyPages, mswmdm/IMDSPDevice2::GetSpecifyPropertyPages, wmdm.imdspdevice2_getspecifypropertypages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

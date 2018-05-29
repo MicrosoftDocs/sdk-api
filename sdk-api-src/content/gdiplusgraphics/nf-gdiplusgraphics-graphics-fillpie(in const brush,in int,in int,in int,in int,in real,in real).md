@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillPie(IN const Brush,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL)
 title: Graphics::FillPie(IN const Brush,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the FillPie methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPie_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpiemethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FillPie, FillPie methods [GDI+], Graphics.FillPie, Graphics.FillPie(IN const Brush,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), Graphics::FillPie, Graphics::FillPie(IN const Brush,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_FillPie_Methods, gdiplus._gdiplus_CLASS_Graphics_FillPie_Methods, gdiplusgraphics/FillPie
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 

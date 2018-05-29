@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_SET_BINARY_VALUE
 title: PRESUTIL_SET_BINARY_VALUE
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a binary value in the cluster database.
 old-location: mscs\resutilsetbinaryvalue.htm
 old-project: MsCS
 ms.assetid: 6a32169c-af14-40f4-ac45-f9923da544ca
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_SET_BINARY_VALUE, PRESUTIL_SET_BINARY_VALUE callback, PRESUTIL_SET_BINARY_VALUE callback function [Failover Cluster], _wolf_resutilsetbinaryvalue, mscs.resutilsetbinaryvalue, resapi/PRESUTIL_SET_BINARY_VALUE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

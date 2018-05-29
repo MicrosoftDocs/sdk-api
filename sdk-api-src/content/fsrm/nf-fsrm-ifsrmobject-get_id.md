@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrm.IFsrmObject.get_Id
 title: IFsrmObject::get_Id
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the identifier of the object.
 old-location: fsrm\ifsrmobject_id.htm
 old-project: Fsrm
 ms.assetid: 40134594-39e1-416c-9afd-056355bcb0b5
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmObject interface [File Server Resource Manager],Id property, IFsrmObject.Id, IFsrmObject.get_Id, IFsrmObject::Id, IFsrmObject::get_Id, Id property [File Server Resource Manager], Id property [File Server Resource Manager],IFsrmObject interface, fs.ifsrmobject_id, fsrm.ifsrmobject_id, fsrm/IFsrmObject::Id, fsrm/IFsrmObject::get_Id, get_Id
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.ConfigureFilterUsingProfile
 title: IConfigAsfWriter::ConfigureFilterUsingProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: The ConfigureFilterUsingProfile method sets an ASF profile on the WM ASF Writer filter. This method is the recommended way to set a profile on the WM ASF Writer filter.
 old-location: dshow\iconfigasfwriter_configurefilterusingprofile.htm
 old-project: DirectShow
 ms.assetid: 89156f64-7a20-4226-9f01-5b1bd4a1fe98
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ConfigureFilterUsingProfile, ConfigureFilterUsingProfile method [DirectShow], ConfigureFilterUsingProfile method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],ConfigureFilterUsingProfile method, IConfigAsfWriter.ConfigureFilterUsingProfile, IConfigAsfWriter::ConfigureFilterUsingProfile, IConfigAsfWriterConfigureFilterUsingProfile, dshow.iconfigasfwriter_configurefilterusingprofile, dshowasf/IConfigAsfWriter::ConfigureFilterUsingProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 

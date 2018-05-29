@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Session_Invoke
 title: MI_Session_Invoke function
-author: windows-driver-content
+author: windows-sdk-content
 description: Invokes a method in the provider.
 old-location: wmi_v2\mi_session_invoke.htm
 old-project: wmi_v2
 ms.assetid: 46bce0cc-9795-47af-8318-4250dc3d5c6e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Session_Invoke, MI_Session_Invoke function [Windows Management Infrastructure (MI)], mi/MI_Session_Invoke, wmi_v2.mi_session_invoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

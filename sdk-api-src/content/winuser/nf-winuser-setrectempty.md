@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.SetRectEmpty
 title: SetRectEmpty function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetRectEmpty function creates an empty rectangle in which all coordinates are set to zero.
 old-location: gdi\setrectempty.htm
 old-project: gdi
 ms.assetid: d3c677ae-e45c-4d54-8521-75954a466a68
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetRectEmpty, SetRectEmpty function [Windows GDI], _win32_SetRectEmpty, gdi.setrectempty, winuser/SetRectEmpty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

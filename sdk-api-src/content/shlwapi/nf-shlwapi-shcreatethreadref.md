@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHCreateThreadRef
 title: SHCreateThreadRef function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a per-thread reference to a Component Object Model (COM) object.
 old-location: shell\SHCreateThreadRef.htm
 old-project: shell
 ms.assetid: 6abca2df-832c-410b-93c7-5131e481e595
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCreateThreadRef, SHCreateThreadRef function [Windows Shell], _shell_SHCreateThreadRef, shell.SHCreateThreadRef, shlwapi/SHCreateThreadRef
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

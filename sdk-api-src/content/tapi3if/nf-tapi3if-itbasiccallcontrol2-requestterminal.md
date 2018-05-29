@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl2.RequestTerminal
 title: ITBasicCallControl2::RequestTerminal
-author: windows-driver-content
+author: windows-sdk-content
 description: The RequestTerminal method gets a suitable terminal, given the class, media, and direction required.
 old-location: tapi3\itbasiccallcontrol2_requestterminal.htm
 old-project: Tapi
 ms.assetid: 20b7266c-8990-457c-94cf-18cc2bed6b21
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITBasicCallControl2 interface [TAPI 2.2],RequestTerminal method, ITBasicCallControl2.RequestTerminal, ITBasicCallControl2::RequestTerminal, RequestTerminal, RequestTerminal method [TAPI 2.2], RequestTerminal method [TAPI 2.2],ITBasicCallControl2 interface, _tapi3_itbasiccallcontrol2_requestterminal, tapi3.itbasiccallcontrol2_requestterminal, tapi3if/ITBasicCallControl2::RequestTerminal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

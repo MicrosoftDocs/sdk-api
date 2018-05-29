@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IRegisteredTaskCollection.get_Count
 title: IRegisteredTaskCollection::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of registered tasks in the collection.
 old-location: taskschd\iregisteredtaskcollection_count.htm
 old-project: TaskSchd
 ms.assetid: 62667998-2743-488d-bea1-957a65006ad9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],IRegisteredTaskCollection interface, IRegisteredTaskCollection interface [Task Scheduler],Count property, IRegisteredTaskCollection.Count, IRegisteredTaskCollection.get_Count, IRegisteredTaskCollection::Count, IRegisteredTaskCollection::get_Count, get_Count, taskschd.iregisteredtaskcollection_count, taskschd/IRegisteredTaskCollection::Count, taskschd/IRegisteredTaskCollection::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ddraw._DDSCAPS
 title: "_DDSCAPS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDSCAPS structure defines the capabilities of a DirectDrawSurface object. This structure is part of the DDCAPS and DDSURFACEDESC structures.
 old-location: directdraw\ddscaps.htm
 old-project: directdraw
 ms.assetid: d7c4025c-dbb6-4182-b730-c69abd97f2bb
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*LPDDSCAPS, DDSCAPS, DDSCAPS structure [DirectDraw], DDSCAPS_3D, DDSCAPS_3DDEVICE, DDSCAPS_ALLOCONLOAD, DDSCAPS_ALPHA, DDSCAPS_BACKBUFFER, DDSCAPS_COMPLEX, DDSCAPS_FLIP, DDSCAPS_FRONTBUFFER, DDSCAPS_HWCODEC, DDSCAPS_LIVEVIDEO, DDSCAPS_LOCALVIDMEM, DDSCAPS_MIPMAP, DDSCAPS_MODEX, DDSCAPS_NONLOCALVIDMEM, DDSCAPS_OFFSCREENPLAIN, DDSCAPS_OPTIMIZED, DDSCAPS_OVERLAY, DDSCAPS_OWNDC, DDSCAPS_PALETTE, DDSCAPS_PRIMARYSURFACE, DDSCAPS_STANDARDVGAMODE, DDSCAPS_SYSTEMMEMORY, DDSCAPS_TEXTURE, DDSCAPS_VIDEOMEMORY, DDSCAPS_VIDEOPORT, DDSCAPS_VISIBLE, DDSCAPS_WRITEONLY, DDSCAPS_ZBUFFER, LPDDSCAPS, LPDDSCAPS structure pointer [DirectDraw], _DDSCAPS, ddraw/DDSCAPS, ddraw/LPDDSCAPS, directdraw.ddscaps"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 

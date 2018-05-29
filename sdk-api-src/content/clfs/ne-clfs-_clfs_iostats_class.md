@@ -1,16 +1,16 @@
 ---
 UID: NE:clfs._CLFS_IOSTATS_CLASS
 title: "_CLFS_IOSTATS_CLASS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines types of I/O statistics reported by CLFS and is used when a client calls GetLogIoStatistics.
 old-location: fs\clfs_iostats_class.htm
 old-project: Clfs
 ms.assetid: 8ba1f5e4-9af3-4c8a-8b57-b6075d0560d6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLFS_IOSTATS_CLASS, CLFS_IOSTATS_CLASS, CLFS_IOSTATS_CLASS enumeration [Files], ClfsIoStatsDefault, ClfsIoStatsMax, PCLFS_IOSTATS_CLASS, PCLFS_IOSTATS_CLASS enumeration pointer [Files], PPCLFS_IOSTATS_CLASS, PPCLFS_IOSTATS_CLASS enumeration pointer [Files], _CLFS_IOSTATS_CLASS, clfs/CLFS_IOSTATS_CLASS, clfs/ClfsIoStatsDefault, clfs/ClfsIoStatsMax, clfs/PCLFS_IOSTATS_CLASS, clfs/PPCLFS_IOSTATS_CLASS, fs.clfs_iostats_class"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: clfs.h
 req.include-header: Clfsw32.h

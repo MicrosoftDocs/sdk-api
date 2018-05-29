@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrInterfacePointerFree
 title: NdrInterfacePointerFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrInterfacePointerFree function releases the interface pointer.
 old-location: rpc\ndrinterfacepointerfree.htm
 old-project: Rpc
 ms.assetid: fc40b621-b823-4a14-bd72-eab6086ec998
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrInterfacePointerFree, NdrInterfacePointerFree function [RPC], rpc.ndrinterfacepointerfree, rpcndr/NdrInterfacePointerFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

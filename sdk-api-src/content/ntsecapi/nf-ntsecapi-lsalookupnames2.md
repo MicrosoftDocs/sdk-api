@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaLookupNames2
 title: LsaLookupNames2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs) for specified account names. LsaLookupNames2 can look up the SID for any account in any domain in a Windows forest.
 old-location: security\lsalookupnames2.htm
 old-project: SecMgmt
 ms.assetid: fe219070-6a00-4b8c-b2e4-2ad290a1cb9c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LSA_LOOKUP_ISOLATED_AS_LOCAL, LsaLookupNames2, LsaLookupNames2 function [Security], _lsa_lsalookupnames2, ntsecapi/LsaLookupNames2, security.lsalookupnames2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

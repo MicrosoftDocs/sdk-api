@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IAccessibilityDockingService.DockWindow
 title: IAccessibilityDockingService::DockWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Docks the specified window handle to the specified monitor handle.
 old-location: com\iaccessibilitydockingservice_dockwindow.htm
 old-project: com
 ms.assetid: 99C6A82C-A421-4A5E-B23A-167384A7AB90
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DockWindow, DockWindow method [COM], DockWindow method [COM],IAccessibilityDockingService interface, IAccessibilityDockingService interface [COM],DockWindow method, IAccessibilityDockingService.DockWindow, IAccessibilityDockingService::DockWindow, com.iaccessibilitydockingservice_dockwindow, shobjidl/IAccessibilityDockingService::DockWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

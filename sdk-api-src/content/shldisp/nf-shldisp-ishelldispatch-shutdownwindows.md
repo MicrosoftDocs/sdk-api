@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.ShutdownWindows
 title: IShellDispatch::ShutdownWindows
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays the Shut Down Windows dialog box. This is the same as clicking the Start menu and selecting Shut Down.
 old-location: shell\IShellDispatch_ShutdownWindows.htm
 old-project: shell
 ms.assetid: 3C4F6579-6398-4af4-8911-FE22555B0ABC
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],ShutdownWindows method, IShellDispatch.ShutdownWindows, IShellDispatch::ShutdownWindows, ShutdownWindows, ShutdownWindows method [Windows Shell], ShutdownWindows method [Windows Shell],IShellDispatch object, shell.IShellDispatch_ShutdownWindows
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

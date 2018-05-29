@@ -1,16 +1,16 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM
 title: "_HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to specify an IP address to be added to or deleted from the list of IP addresses to which the HTTP service binds.
 old-location: http\http_service_config_ip_listen_param.htm
 old-project: Http
 ms.assetid: a45fd5e4-0ae4-47fc-bb50-931e0947a6bc
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_SERVICE_CONFIG_IP_LISTEN_PARAM, HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM, HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM structure [HTTP], PHTTP_SERVICE_CONFIG_IP_LISTEN_PARAM, PHTTP_SERVICE_CONFIG_IP_LISTEN_PARAM structure pointer [HTTP], _HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM, _http_http_service_config_ip_listen_param, http.http_service_config_ip_listen_param, http/HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM, http/PHTTP_SERVICE_CONFIG_IP_LISTEN_PARAM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 

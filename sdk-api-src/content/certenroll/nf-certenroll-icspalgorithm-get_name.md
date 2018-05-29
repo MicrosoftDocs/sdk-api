@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_Name
 title: ICspAlgorithm::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the abbreviated algorithm name.
 old-location: security\icspalgorithm_name_property.htm
 old-project: SecCertEnroll
 ms.assetid: af7fa894-58e2-4607-9b6e-c32d4f412ddf
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICspAlgorithm interface [Security],Name property, ICspAlgorithm.Name, ICspAlgorithm.get_Name, ICspAlgorithm::Name, ICspAlgorithm::get_Name, Name property [Security], Name property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::Name, certenroll/ICspAlgorithm::get_Name, get_Name, security.icspalgorithm_name_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

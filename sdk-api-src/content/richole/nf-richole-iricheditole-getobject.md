@@ -1,16 +1,16 @@
 ---
 UID: NF:richole.IRichEditOle.GetObject
 title: IRichEditOle::GetObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information, stored in a REOBJECT structure, about an object in a rich edit control.
 old-location: controls\IRichEditOle_GetObject.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetobject.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetObject, GetObject method [Windows Controls], GetObject method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],GetObject method, IRichEditOle.GetObject, IRichEditOle::GetObject, REO_GETOBJ_ALL_INTERFACES, REO_GETOBJ_NO_INTERFACES, REO_GETOBJ_POLEOBJ, REO_GETOBJ_POLESITE, REO_GETOBJ_PSTG, _win32_IRichEditOle_GetObject, _win32_IRichEditOle_GetObject_cpp, controls.IRichEditOle_GetObject, controls._win32_IRichEditOle_GetObject, richole/IRichEditOle::GetObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: richole.h
 req.include-header: 

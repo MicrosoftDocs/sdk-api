@@ -1,16 +1,16 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.SetIndexMode
 title: IConfigAsfWriter::SetIndexMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetIndexMode method controls whether the WM ASF Writer filter creates a file with a temporal index.
 old-location: dshow\iconfigasfwriter_setindexmode.htm
 old-project: DirectShow
 ms.assetid: d7f5d13a-d36e-4da2-babc-0446e5697b61
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IConfigAsfWriter interface [DirectShow],SetIndexMode method, IConfigAsfWriter.SetIndexMode, IConfigAsfWriter::SetIndexMode, IConfigAsfWriterSetIndexMode, SetIndexMode, SetIndexMode method [DirectShow], SetIndexMode method [DirectShow],IConfigAsfWriter interface, dshow.iconfigasfwriter_setindexmode, dshowasf/IConfigAsfWriter::SetIndexMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dshowasf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:davclnt.AUTHNEXTSTEP
 title: AUTHNEXTSTEP
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the next action that the WebDAV client should take after a successful call to the DavAuthCallback callback function.
 old-location: webdav\authnextstep.htm
 old-project: WebDAV
 ms.assetid: e9ce9e61-c395-4f6b-843c-c1caa13ac3b4
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: AUTHNEXTSTEP, AUTHNEXTSTEP enumeration [WebDAV], CancelRequest, DefaultBehavior, RetryRequest, davclnt/AUTHNEXTSTEP, davclnt/CancelRequest, davclnt/DefaultBehavior, davclnt/RetryRequest, webdav.authnextstep
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: davclnt.h
 req.include-header: 

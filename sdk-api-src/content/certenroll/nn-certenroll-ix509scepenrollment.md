@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509SCEPEnrollment
 title: IX509SCEPEnrollment
-author: windows-driver-content
+author: windows-sdk-content
 description: X.509 Simple Computer Enrollment Protocol Interface
 old-location: security\ix509scepenrollment.htm
 old-project: SecCertEnroll
 ms.assetid: fcbac911-9e37-4994-bbb6-544b19a92749
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509SCEPEnrollment, IX509SCEPEnrollment interface [Security], IX509SCEPEnrollment interface [Security],described, certenroll/IX509SCEPEnrollment, security.ix509scepenrollment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

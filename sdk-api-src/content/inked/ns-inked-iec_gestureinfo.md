@@ -1,16 +1,16 @@
 ---
 UID: NS:inked.IEC_GESTUREINFO
 title: IEC_GESTUREINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a specific gesture.
 old-location: tablet\iec_gestureinfo__win32_only_.htm
 old-project: tablet
 ms.assetid: f932508b-44d3-4605-97a7-bb6eed248939
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEC_GESTUREINFO, IEC_GESTUREINFO (Win32 Only), IEC_GESTUREINFO (Win32 Only) structure [Tablet PC], f932508b-44d3-4605-97a7-bb6eed248939, inked/IEC_GESTUREINFO, tablet.iec_gestureinfo__win32_only_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: inked.h
 req.include-header: 

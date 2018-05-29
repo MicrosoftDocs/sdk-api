@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpWriteData
 title: WinHttpWriteData function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinHttpWriteData function writes request data to an HTTP server.
 old-location: http\winhttpwritedata.htm
 old-project: WinHttp
 ms.assetid: c8b94285-1b01-451b-9803-cc1bacb015ff
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WinHttpWriteData, WinHttpWriteData function [WinHTTP], http.winhttpwritedata, winhttp.winhttpwritedata_function, winhttp/WinHttpWriteData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

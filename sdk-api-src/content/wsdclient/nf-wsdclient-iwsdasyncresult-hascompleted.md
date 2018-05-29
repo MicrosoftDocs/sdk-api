@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.HasCompleted
 title: IWSDAsyncResult::HasCompleted
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the operation has completed.
 old-location: ncd\iwsdasyncresult_hascompleted_method.htm
 old-project: WsdApi
 ms.assetid: 67944519-c6cc-4dc8-9035-4e6ee84e1277
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: HasCompleted, HasCompleted method, HasCompleted method,IWSDAsyncResult interface, IWSDAsyncResult interface,HasCompleted method, IWSDAsyncResult.HasCompleted, IWSDAsyncResult::HasCompleted, ncd.iwsdasyncresult_hascompleted_method, wsdclient/IWSDAsyncResult::HasCompleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

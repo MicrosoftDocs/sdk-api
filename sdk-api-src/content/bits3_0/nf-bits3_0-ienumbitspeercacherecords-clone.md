@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeerCacheRecords.Clone
 title: IEnumBitsPeerCacheRecords::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates another IEnumBitsPeerCacheRecords enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbitspeercacherecords_clone.htm
 old-project: Bits
 ms.assetid: 4eb19401-119d-4ce6-92b1-aa41b6dcb97c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBitsPeerCacheRecords interface, IEnumBitsPeerCacheRecords interface [BITS],Clone method, IEnumBitsPeerCacheRecords.Clone, IEnumBitsPeerCacheRecords::Clone, bits.ienumbitspeercacherecords_clone, bits3_0/IEnumBitsPeerCacheRecords::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

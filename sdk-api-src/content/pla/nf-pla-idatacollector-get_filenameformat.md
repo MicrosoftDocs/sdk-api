@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollector.get_FileNameFormat
 title: IDataCollector::get_FileNameFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets flags that describe how to decorate the file name.
 old-location: pla\idatacollector_filenameformat.htm
 old-project: PLA
 ms.assetid: 3a7744a6-feb3-4aea-856d-8496aecc0176
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: FileNameFormat property [PLA], FileNameFormat property [PLA],IDataCollector interface, IDataCollector interface [PLA],FileNameFormat property, IDataCollector.FileNameFormat, IDataCollector.get_FileNameFormat, IDataCollector::FileNameFormat, IDataCollector::get_FileNameFormat, IDataCollector::put_FileNameFormat, base.idatacollector_filenameformat, get_FileNameFormat, pla.idatacollector_filenameformat, pla/IDataCollector::FileNameFormat, pla/IDataCollector::get_FileNameFormat, pla/IDataCollector::put_FileNameFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

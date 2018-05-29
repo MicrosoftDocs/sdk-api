@@ -1,16 +1,16 @@
 ---
 UID: NN:uianimation.IUIAnimationTransition
 title: IUIAnimationTransition
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a transition, which determines how an animation variable changes over time.
 old-location: uianimation\iuianimationtransition.htm
 old-project: UIAnimation
 ms.assetid: 99804a2f-82c9-494c-b75d-69e66f1e49ef
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationTransition, IUIAnimationTransition interface [Windows Animation], IUIAnimationTransition interface [Windows Animation],described, uianimation.iuianimationtransition, uianimation/IUIAnimationTransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

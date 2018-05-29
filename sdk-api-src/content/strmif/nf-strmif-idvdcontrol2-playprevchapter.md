@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayPrevChapter
 title: IDvdControl2::PlayPrevChapter
-author: windows-driver-content
+author: windows-sdk-content
 description: The PlayPrevChapter method starts playback from the beginning of the previous chapter in the current title.
 old-location: dshow\idvdcontrol2_playprevchapter.htm
 old-project: DirectShow
 ms.assetid: bebfe1e1-9197-4105-9b3f-edeb6f04836c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayPrevChapter method, IDvdControl2.PlayPrevChapter, IDvdControl2::PlayPrevChapter, IDvdControl2PlayPrevChapter, PlayPrevChapter, PlayPrevChapter method [DirectShow], PlayPrevChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playprevchapter, strmif/IDvdControl2::PlayPrevChapter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICDrawSetTime
 title: ICDrawSetTime macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICDrawSetTime macro provides synchronization information to a rendering driver that handles the timing of drawing frames.
 old-location: multimedia\icdrawsettime.htm
 old-project: Multimedia
 ms.assetid: 4c97e0ee-c6f1-4258-9a5f-de633f8c0335
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICDrawSetTime, ICDrawSetTime macro [Windows Multimedia], _win32_ICDrawSetTime, multimedia.icdrawsettime, vfw/ICDrawSetTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

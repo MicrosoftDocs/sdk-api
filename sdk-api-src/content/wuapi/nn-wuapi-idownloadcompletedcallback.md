@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IDownloadCompletedCallback
 title: IDownloadCompletedCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the callback that is used when an asynchronous download is completed.
 old-location: wua\idownloadcompletedcallback.htm
 old-project: Wua_Sdk
 ms.assetid: ad1c3075-21d9-409f-9677-fbf6d0c50313
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDownloadCompletedCallback, IDownloadCompletedCallback interface [Windows Update Agent], IDownloadCompletedCallback interface [Windows Update Agent],described, wua.idownloadcompletedcallback, wuapi/IDownloadCompletedCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

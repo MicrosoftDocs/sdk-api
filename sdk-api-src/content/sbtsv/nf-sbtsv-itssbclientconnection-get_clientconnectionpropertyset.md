@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_ClientConnectionPropertySet
 title: ITsSbClientConnection::get_ClientConnectionPropertySet
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an object that contains properties associated with the client connection.
 old-location: termserv\itssbclientconnection_clientconnectionpropertyset.htm
 old-project: TermServ
 ms.assetid: 488c5b71-7139-4744-93bf-484d05457d0f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ClientConnectionPropertySet property [Remote Desktop Services], ClientConnectionPropertySet property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],ClientConnectionPropertySet property, ITsSbClientConnection.ClientConnectionPropertySet, ITsSbClientConnection.get_ClientConnectionPropertySet, ITsSbClientConnection::ClientConnectionPropertySet, ITsSbClientConnection::get_ClientConnectionPropertySet, get_ClientConnectionPropertySet, sbtsv/ITsSbClientConnection::ClientConnectionPropertySet, sbtsv/ITsSbClientConnection::get_ClientConnectionPropertySet, termserv.itssbclientconnection_clientconnectionpropertyset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

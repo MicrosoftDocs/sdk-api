@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.GetUdpTable
 title: GetUdpTable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IPv4 User Datagram Protocol (UDP) listener table.
 old-location: iphlp\getudptable.htm
 old-project: IpHlp
 ms.assetid: 00e80e90-1a6d-426d-90cd-20b967ebbb8e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetUdpTable, GetUdpTable function [IP Helper], _iphlp_getudptable, iphlp.getudptable, iphlpapi/GetUdpTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

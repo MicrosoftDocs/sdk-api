@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont.GetItalic
 title: ITextFont::GetItalic
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets whether characters are in italics.
 old-location: controls\ITextFont_GetItalic.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getitalic.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetItalic, GetItalic method [Windows Controls], GetItalic method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetItalic method, ITextFont.GetItalic, ITextFont::GetItalic, _win32_ITextFont_GetItalic, _win32_ITextFont_GetItalic_cpp, controls.ITextFont_GetItalic, controls._win32_ITextFont_GetItalic, tom/ITextFont::GetItalic
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

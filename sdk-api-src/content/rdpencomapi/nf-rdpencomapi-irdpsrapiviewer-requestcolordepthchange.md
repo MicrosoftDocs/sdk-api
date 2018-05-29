@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.RequestColorDepthChange
 title: IRDPSRAPIViewer::RequestColorDepthChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests a color depth change on the sharer Winlogon user session.
 old-location: rdp\irdpsrapiviewer_requestcolordepthchange.htm
 old-project: Rdp
 ms.assetid: 3dd57235-89bb-4199-a95a-d8f522cda6a2
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],RequestColorDepthChange method, IRDPSRAPIViewer.RequestColorDepthChange, IRDPSRAPIViewer::RequestColorDepthChange, RequestColorDepthChange, RequestColorDepthChange method [RDP], RequestColorDepthChange method [RDP],IRDPSRAPIViewer interface, rdp.irdpsrapiviewer_requestcolordepthchange, rdpencomapi/IRDPSRAPIViewer::RequestColorDepthChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IRecoverableError.GetProvider
 title: IRecoverableError::GetProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the role of the provider that skipped the item change.
 old-location: winsync\irecoverableerror_getprovider.htm
 old-project: winsync
 ms.assetid: 48ecfc21-ab30-45c7-879b-c2487288419f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetProvider, GetProvider method [Windows Sync], GetProvider method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetProvider method, IRecoverableError.GetProvider, IRecoverableError::GetProvider, winsync.irecoverableerror_getprovider, winsync/IRecoverableError::GetProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

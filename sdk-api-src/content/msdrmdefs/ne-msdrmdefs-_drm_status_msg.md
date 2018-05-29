@@ -1,16 +1,16 @@
 ---
 UID: NE:msdrmdefs._DRM_STATUS_MSG
 title: "_DRM_STATUS_MSG"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by the custom callback function to specify why the callback function is being called.
 old-location: rm\drm_status_msg.htm
 old-project: AdRms_Sdk
 ms.assetid: 9420c415-09ef-43a0-b458-bfaae9857314
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRM_MSG_ACQUIRE_ADVISORY, DRM_MSG_ACQUIRE_CLIENTLICENSOR, DRM_MSG_ACQUIRE_ISSUANCE_LICENSE_TEMPLATE, DRM_MSG_ACQUIRE_LICENSE, DRM_MSG_ACTIVATE_GROUPIDENTITY, DRM_MSG_ACTIVATE_MACHINE, DRM_MSG_SIGN_ISSUANCE_LICENSE, DRM_STATUS_MSG, DRM_STATUS_MSG enumeration [Active Directory Rights Management Services SDK 1.0], _DRM_STATUS_MSG, msdrmdefs/DRM_MSG_ACQUIRE_ADVISORY, msdrmdefs/DRM_MSG_ACQUIRE_CLIENTLICENSOR, msdrmdefs/DRM_MSG_ACQUIRE_ISSUANCE_LICENSE_TEMPLATE, msdrmdefs/DRM_MSG_ACQUIRE_LICENSE, msdrmdefs/DRM_MSG_ACTIVATE_GROUPIDENTITY, msdrmdefs/DRM_MSG_ACTIVATE_MACHINE, msdrmdefs/DRM_MSG_SIGN_ISSUANCE_LICENSE, msdrmdefs/DRM_STATUS_MSG, rm.drm_status_msg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msdrmdefs.h
 req.include-header: 

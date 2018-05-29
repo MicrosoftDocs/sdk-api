@@ -1,16 +1,16 @@
 ---
 UID: NE:p2p.peer_member_flags_tag
 title: peer_member_flags_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PEER_MEMBER_FLAGS flag allows an application to specify whether all members or only present ones should be enumerated when the PeerGroupEnumMembers function is called, or to indicate whether or not a member is present within the peer group.
 old-location: p2p\peer_member_flags.htm
 old-project: P2PSdk
 ms.assetid: 96a8e4ae-dce6-4f07-ab22-71da347ef347
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PEER_MEMBER_FLAGS, PEER_MEMBER_FLAGS enumeration [Peer Networking], PEER_MEMBER_PRESENT, p2p.peer_member_flags, p2p/PEER_MEMBER_FLAGS, p2p/PEER_MEMBER_PRESENT, peer_member_flags_tag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 

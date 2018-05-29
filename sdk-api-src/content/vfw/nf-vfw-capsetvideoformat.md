@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capSetVideoFormat
 title: capSetVideoFormat macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capSetVideoFormat macro sets the format of captured video data. You can use this macro or explicitly call the WM_CAP_SET_VIDEOFORMAT message.
 old-location: multimedia\capsetvideoformat.htm
 old-project: Multimedia
 ms.assetid: 3c4bee26-d578-463b-8d97-6cdc78957ce0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capSetVideoFormat, capSetVideoFormat, capSetVideoFormat macro [Windows Multimedia], multimedia.capsetvideoformat, vfw/capSetVideoFormat"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

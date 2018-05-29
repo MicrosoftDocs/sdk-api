@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredMarshalCredentialA
 title: CredMarshalCredentialA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CredMarshalCredential function transforms a credential into a text string.
 old-location: security\credmarshalcredential.htm
 old-project: SecAuthN
 ms.assetid: 20a1d54b-04a7-4b0a-88e4-1970d1f71502
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CredMarshalCredential, CredMarshalCredential function [Security], CredMarshalCredentialA, CredMarshalCredentialW, _cred_credmarshalcredential, security.credmarshalcredential, wincred/CredMarshalCredential, wincred/CredMarshalCredentialA, wincred/CredMarshalCredentialW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

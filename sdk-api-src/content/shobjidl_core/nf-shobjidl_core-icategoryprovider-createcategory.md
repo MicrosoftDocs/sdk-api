@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.CreateCategory
 title: ICategoryProvider::CreateCategory
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a category object.
 old-location: shell\ICategoryProvider_CreateCategory.htm
 old-project: shell
 ms.assetid: 3703c061-4d21-4c36-900a-9ccacf4d482a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateCategory, CreateCategory method [Windows Shell], CreateCategory method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],CreateCategory method, ICategoryProvider.CreateCategory, ICategoryProvider::CreateCategory, inet_ICategoryProvider_CreateCategory, shell.ICategoryProvider_CreateCategory, shobjidl_core/ICategoryProvider::CreateCategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

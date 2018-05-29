@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.INetSharingPublicConnectionCollection.get__NewEnum
 title: INetSharingPublicConnectionCollection::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: The get__NewEnum method retrieves an enumerator for the public connections collection.
 old-location: ics\inetsharingpublicconnectioncollection_get__newenum.htm
 old-project: ICS
 ms.assetid: 169de955-d53d-410e-b2e6-911ab0a78bba
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetSharingPublicConnectionCollection interface [ICS/ICF],get__NewEnum method, INetSharingPublicConnectionCollection.get__NewEnum, INetSharingPublicConnectionCollection::get__NewEnum, _ics_inetsharingpublicconnectioncollection_get__newenum, get__NewEnum, get__NewEnum method [ICS/ICF], get__NewEnum method [ICS/ICF],INetSharingPublicConnectionCollection interface, ics.inetsharingpublicconnectioncollection_get__newenum, netcon/INetSharingPublicConnectionCollection::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

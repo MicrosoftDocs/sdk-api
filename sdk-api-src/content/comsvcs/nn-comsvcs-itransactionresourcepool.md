@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ITransactionResourcePool
 title: ITransactionResourcePool
-author: windows-driver-content
+author: windows-sdk-content
 description: Maintains a list of pooled objects, keyed by IObjPool, that are used until the transaction completes.
 old-location: cos\itransactionresourcepool.htm
 old-project: cossdk
 ms.assetid: bf7ca849-6025-4358-bf2d-629d80e06a04
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ITransactionResourcePool, ITransactionResourcePool interface [COM+], ITransactionResourcePool interface [COM+],described, _cos_ITransactionResourcePool, comsvcs/ITransactionResourcePool, cos.itransactionresourcepool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

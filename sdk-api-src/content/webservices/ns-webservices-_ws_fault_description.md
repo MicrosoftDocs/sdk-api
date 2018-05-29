@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_FAULT_DESCRIPTION
 title: "_WS_FAULT_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Information about a mapping between an WS_FAULT and an XML element.
 old-location: wsw\ws_fault_description.htm
 old-project: wsw
 ms.assetid: 6634faec-5491-4332-b815-be2effa263f8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_FAULT_DESCRIPTION, WS_FAULT_DESCRIPTION structure [Web Services for Windows], _WS_FAULT_DESCRIPTION, webservices/WS_FAULT_DESCRIPTION, wsw.ws_fault_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

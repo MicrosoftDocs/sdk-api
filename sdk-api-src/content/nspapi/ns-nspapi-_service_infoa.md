@@ -1,16 +1,16 @@
 ---
 UID: NS:nspapi._SERVICE_INFOA
 title: "_SERVICE_INFOA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a network service or a network service type.
 old-location: winsock\service_info_2.htm
 old-project: WinSock
 ms.assetid: e76e0c1b-8cbf-45ad-a685-fb672801c24d
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPSERVICE_INFOA, *PSERVICE_INFOA, RESOURCEDISPLAYTYPE_DOMAIN, RESOURCEDISPLAYTYPE_FILE, RESOURCEDISPLAYTYPE_GENERIC, RESOURCEDISPLAYTYPE_GROUP, RESOURCEDISPLAYTYPE_SERVER, RESOURCEDISPLAYTYPE_SHARE, RESOURCEDISPLAYTYPE_TREE, SERVICE_INFO, SERVICE_INFO structure [Winsock], SERVICE_INFOA, SERVICE_INFOW, _SERVICE_INFOA, _win32_service_info_2, nspapi/SERVICE_INFO, nspapi/SERVICE_INFOA, nspapi/SERVICE_INFOW, winsock.service_info_2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: nspapi.h
 req.include-header: 

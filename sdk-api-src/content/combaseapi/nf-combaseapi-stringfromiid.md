@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.StringFromIID
 title: StringFromIID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an interface identifier into a string of printable characters.
 old-location: com\stringfromiid.htm
 old-project: com
 ms.assetid: 92e59631-0675-4bca-bcd4-a1f83ab6ec8a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: StringFromIID, StringFromIID function [COM], _com_StringFromIID, com.stringfromiid, combaseapi/StringFromIID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

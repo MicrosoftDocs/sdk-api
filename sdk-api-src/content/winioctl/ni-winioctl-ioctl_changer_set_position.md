@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_CHANGER_SET_POSITION
 title: IOCTL_CHANGER_SET_POSITION
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the changer's robotic transport mechanism to the specified element address. This optimizes moving or exchanging media by positioning the transport beforehand.
 old-location: base\ioctl_changer_set_position.htm
 old-project: DevIO
 ms.assetid: 1c3348d5-6d22-40cb-bf4f-e843819884b9
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: IOCTL_CHANGER_SET_POSITION, IOCTL_CHANGER_SET_POSITION control, IOCTL_CHANGER_SET_POSITION control code, _win32_ioctl_changer_set_position, base.ioctl_changer_set_position, winioctl/IOCTL_CHANGER_SET_POSITION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

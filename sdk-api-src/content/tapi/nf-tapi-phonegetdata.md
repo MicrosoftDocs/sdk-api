@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneGetData
 title: phoneGetData function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneGetData function uploads the information from the specified location in the open phone device to the specified buffer.
 old-location: tapi2\phonegetdata.htm
 old-project: Tapi
 ms.assetid: 9ad2f99e-73b3-4e4c-a6cd-49ca0fe775ca
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phonegetdata, phoneGetData, phoneGetData function [TAPI 2.2], tapi/phoneGetData, tapi2.phonegetdata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

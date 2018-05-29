@@ -1,16 +1,16 @@
 ---
 UID: NN:sbtsv.ITsSbProvisioning
 title: ITsSbProvisioning
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that create and maintain virtual machines.
 old-location: termserv\itssbprovisioning.htm
 old-project: TermServ
 ms.assetid: 136c1538-be4f-4b1c-b74f-8914a51f774a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbProvisioning, ITsSbProvisioning interface [Remote Desktop Services], ITsSbProvisioning interface [Remote Desktop Services],described, sbtsv/ITsSbProvisioning, termserv.itssbprovisioning
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

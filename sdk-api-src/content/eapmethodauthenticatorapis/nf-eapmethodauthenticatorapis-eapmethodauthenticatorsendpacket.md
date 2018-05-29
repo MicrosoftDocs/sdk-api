@@ -1,16 +1,16 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorSendPacket
 title: EapMethodAuthenticatorSendPacket function
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains an authentication packet from the EAP authenticator method to send to the supplicant.
 old-location: eaphost\eapmethodauthenticatorsendpacket.htm
 old-project: EAPHost
 ms.assetid: 5227ff56-8ac3-4fd7-b6c0-c2d3ef6b906e
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapMethodAuthenticatorSendPacket, EapMethodAuthenticatorSendPacket function [EAPHost], eaphost.eapmethodauthenticatorsendpacket, eapmethodauthenticatorapis/EapMethodAuthenticatorSendPacket
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 

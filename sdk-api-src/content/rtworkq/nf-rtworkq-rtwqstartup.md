@@ -1,16 +1,16 @@
 ---
 UID: NF:rtworkq.RtwqStartup
 title: RtwqStartup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the platform.
 old-location: base\rtwqstartup.htm
 old-project: ProcThread
 ms.assetid: 101e73ec-34ec-49af-999d-5410f46ff319
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtwqStartup, RtwqStartup function, base.rtwqstartup, rtworkq/RtwqStartup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IBandSite.SetBandState
 title: IBandSite::SetBandState
-author: windows-driver-content
+author: windows-sdk-content
 description: Set the state of a band in the band site.
 old-location: shell\IBandSite_SetBandState.htm
 old-project: shell
 ms.assetid: d327f0fe-7d61-4edd-aff3-f4507763d751
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBandSite interface [Windows Shell],SetBandState method, IBandSite.SetBandState, IBandSite::SetBandState, SetBandState, SetBandState method [Windows Shell], SetBandState method [Windows Shell],IBandSite interface, _win32_IBandSite_SetBandState, shell.IBandSite_SetBandState, shobjidl_core/IBandSite::SetBandState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h

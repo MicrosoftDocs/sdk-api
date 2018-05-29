@@ -1,16 +1,16 @@
 ---
 UID: NC:wofapi.WofEnumEntryProc
 title: WofEnumEntryProc
-author: windows-driver-content
+author: windows-sdk-content
 description: Callback function that gets called for each data source in response to a call to WofEnumEntries.
 old-location: fs\wofenumentryproc.htm
 old-project: FileIO
 ms.assetid: B0569A28-7B5F-451D-A972-89A6D42F9821
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WofEnumEntryProc, WofEnumEntryProc function, WofEnumEntryProc function pointer [Files], fs.wofenumentryproc, wofapi/WofEnumEntryProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wofapi.h
 req.include-header: 

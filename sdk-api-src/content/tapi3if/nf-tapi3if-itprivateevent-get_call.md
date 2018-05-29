@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPrivateEvent.get_Call
 title: ITPrivateEvent::get_Call
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Call method returns a pointer to the ITCallInfo interface of the call on which the event occurred.
 old-location: tapi3\itprivateevent_get_call.htm
 old-project: Tapi
 ms.assetid: 3d4db0b3-9bff-4e14-9fe2-549934c2d244
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPrivateEvent interface [TAPI 2.2],get_Call method, ITPrivateEvent.get_Call, ITPrivateEvent::get_Call, _tapi3_itprivateevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITPrivateEvent interface, tapi3.itprivateevent_get_call, tapi3if/ITPrivateEvent::get_Call
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

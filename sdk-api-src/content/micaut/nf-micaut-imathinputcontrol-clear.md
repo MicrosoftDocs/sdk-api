@@ -1,16 +1,16 @@
 ---
 UID: NF:micaut.IMathInputControl.Clear
 title: IMathInputControl::Clear
-author: windows-driver-content
+author: windows-sdk-content
 description: Clears all ink from the control.
 old-location: tablet\imathinputcontrol_clear.htm
 old-project: tablet
 ms.assetid: e9482f82-a08a-498d-bad0-3a1438231b23
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Clear, Clear method [Tablet PC], Clear method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],Clear method, IMathInputControl.Clear, IMathInputControl::Clear, micaut/IMathInputControl::Clear, tablet.imathinputcontrol_clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

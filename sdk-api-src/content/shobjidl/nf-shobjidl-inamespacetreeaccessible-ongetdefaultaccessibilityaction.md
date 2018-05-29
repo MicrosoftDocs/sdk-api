@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeAccessible.OnGetDefaultAccessibilityAction
 title: INameSpaceTreeAccessible::OnGetDefaultAccessibilityAction
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the default accessibility action for a Shell item.
 old-location: shell\INameSpaceTreeAccessible_OnGetDefaultAccessibilityAction.htm
 old-project: shell
 ms.assetid: 96eaac9c-7fab-4326-a737-4819794a34c6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INameSpaceTreeAccessible interface [Windows Shell],OnGetDefaultAccessibilityAction method, INameSpaceTreeAccessible.OnGetDefaultAccessibilityAction, INameSpaceTreeAccessible::OnGetDefaultAccessibilityAction, OnGetDefaultAccessibilityAction, OnGetDefaultAccessibilityAction method [Windows Shell], OnGetDefaultAccessibilityAction method [Windows Shell],INameSpaceTreeAccessible interface, _shell_INameSpaceTreeAccessible_OnGetDefaultAccessibilityAction, shell.INameSpaceTreeAccessible_OnGetDefaultAccessibilityAction, shobjidl/INameSpaceTreeAccessible::OnGetDefaultAccessibilityAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

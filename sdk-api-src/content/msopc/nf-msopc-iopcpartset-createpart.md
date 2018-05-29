@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcPartSet.CreatePart
 title: IOpcPartSet::CreatePart
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a part object that represents a part and adds a pointer to the object's IOpcPart interface to the set.
 old-location: opc\iopcpartset_createpart.htm
 old-project: OPC
 ms.assetid: 8c5de7ac-f51c-42f2-9068-8e9ede86ad97
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: CreatePart, CreatePart method [Open Packaging Conventions], CreatePart method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],CreatePart method, IOpcPartSet.CreatePart, IOpcPartSet::CreatePart, msopc/IOpcPartSet::CreatePart, opc.iopcpartset_createpart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

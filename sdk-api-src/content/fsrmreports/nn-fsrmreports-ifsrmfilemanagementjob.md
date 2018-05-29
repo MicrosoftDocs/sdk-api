@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmreports.IFsrmFileManagementJob
 title: IFsrmFileManagementJob
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a file management job.
 old-location: fsrm\ifsrmfilemanagementjob.htm
 old-project: Fsrm
 ms.assetid: e9ae697d-4f7c-47d9-8d2a-c46c2e5f838f
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmFileManagementJob, IFsrmFileManagementJob interface [File Server Resource Manager], IFsrmFileManagementJob interface [File Server Resource Manager],described, fs.ifsrmfilemanagementjob, fsrm.ifsrmfilemanagementjob, fsrm/IFsrmFileManagementJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

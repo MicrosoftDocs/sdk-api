@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.LogicalToPhysicalPointForPerMonitorDPI
 title: LogicalToPhysicalPointForPerMonitorDPI function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a point in a window from logical coordinates into physical coordinates, regardless of the dots per inch (dpi) awareness of the caller.
 old-location: hidpi\logicaltophysicalpointforpermonitordpi.htm
 old-project: hidpi
 ms.assetid: C9ABDC73-1E96-42F1-B34D-3A649DDF02A6
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.author: windowssdkdev
+ms.date: 03/29/2018
 ms.keywords: LogicalToPhysicalPointForPerMonitorDPI, LogicalToPhysicalPointForPerMonitorDPI function [High DPI], hidpi.logicaltophysicalpointforpermonitordpi, winuser/LogicalToPhysicalPointForPerMonitorDPI
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

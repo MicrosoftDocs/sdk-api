@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_parse_sort_controlA
 title: ldap_parse_sort_controlA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ldap_parse_sort_control function parses the sort control returned by the server.
 old-location: ldap\ldap_parse_sort_control.htm
 old-project: LDAP
 ms.assetid: 71d6bae2-3ee4-417c-8c1b-d277cad03f36
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_parse_sort_control, ldap.ldap__parse__sort__control, ldap.ldap_parse_sort_control, ldap_parse_sort_control, ldap_parse_sort_control function [LDAP], ldap_parse_sort_controlA, ldap_parse_sort_controlW, winldap/ldap_parse_sort_control, winldap/ldap_parse_sort_controlA, winldap/ldap_parse_sort_controlW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateAndConditionFromArray
 title: IUIAutomation::CreateAndConditionFromArray
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a condition that selects elements based on multiple conditions, all of which must be true.
 old-location: winauto\uiauto_IUIAutomation_CreateAndConditionFromArray.htm
 old-project: WinAuto
 ms.assetid: ec9ad1a1-72c7-4fc6-8812-577b44b4c5eb
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CreateAndConditionFromArray, CreateAndConditionFromArray method [Windows Accessibility], CreateAndConditionFromArray method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateAndConditionFromArray method, IUIAutomation.CreateAndConditionFromArray, IUIAutomation::CreateAndConditionFromArray, uiauto.uiauto_IUIAutomation_CreateAndConditionFromArray, uiauto_IUIAutomation_CreateAndConditionFromArray, uiautomationclient/IUIAutomation::CreateAndConditionFromArray, winauto.uiauto_IUIAutomation_CreateAndConditionFromArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetMessageCountLimit
 title: ID3D12InfoQueue::GetMessageCountLimit
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the maximum number of messages that can be added to the message queue.
 old-location: direct3d12\id3d12infoqueue_getmessagecountlimit.htm
 old-project: direct3d12
 ms.assetid: FAE16E2C-6E18-4345-88A8-DDC5836A75A9
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetMessageCountLimit, GetMessageCountLimit method, GetMessageCountLimit method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetMessageCountLimit method, ID3D12InfoQueue.GetMessageCountLimit, ID3D12InfoQueue::GetMessageCountLimit, d3d12sdklayers/ID3D12InfoQueue::GetMessageCountLimit, direct3d12.id3d12infoqueue_getmessagecountlimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

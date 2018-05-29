@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl._WMWriterStatistics
 title: "_WMWriterStatistics"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WM_WRITER_STATISTICS structure describes the performance of a writing operation.
 old-location: wmformat\wm_writer_statistics.htm
 old-project: wmformat
 ms.assetid: 907711c9-2ae1-4049-afd8-768912778e37
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WM_WRITER_STATISTICS, WM_WRITER_STATISTICS structure [windows Media Format], _WMWriterStatistics, wmformat.wm_writer_statistics, wmsdkidl/WM_WRITER_STATISTICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

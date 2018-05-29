@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IMtsEvents
 title: IMtsEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for obtaining information about the running package and establishing event sinks.
 old-location: cos\imtsevents.htm
 old-project: cossdk
 ms.assetid: 7db3a373-00d3-480e-8f8e-7e65a468d5dc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMtsEvents, IMtsEvents interface [COM+], IMtsEvents interface [COM+],described, _dtc_IMtsEvents_Interface, comsvcs/IMtsEvents, cos.imtsevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

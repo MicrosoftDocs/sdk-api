@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection
 title: IXpsOMRemoteDictionaryResourceCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: A collection of IXpsOMRemoteDictionaryResource interface pointers.
 old-location: xps\ixpsomremotedictionaryresourcecollection.htm
 old-project: printdocs
 ms.assetid: 50c9bd7a-226f-4785-96b4-d0b5e861ae37
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMRemoteDictionaryResourceCollection, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging], IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomremotedictionaryresourcecollection, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel.h
 req.include-header: 

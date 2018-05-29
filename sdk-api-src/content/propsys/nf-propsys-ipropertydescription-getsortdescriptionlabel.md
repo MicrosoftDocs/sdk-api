@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetSortDescriptionLabel
 title: IPropertyDescription::GetSortDescriptionLabel
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the localized display string that describes the current sort order.
 old-location: properties\IPropertyDescription_GetSortDescriptionLabel.htm
 old-project: properties
 ms.assetid: 5cfa445b-953b-474f-ba7b-1ed6cfbf981d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSortDescriptionLabel, GetSortDescriptionLabel method [Windows Properties], GetSortDescriptionLabel method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetSortDescriptionLabel method, IPropertyDescription.GetSortDescriptionLabel, IPropertyDescription::GetSortDescriptionLabel, properties.IPropertyDescription_GetSortDescriptionLabel, propsys/IPropertyDescription::GetSortDescriptionLabel, shell.IPropertyDescription_GetSortDescriptionLabel, shell_IPropertyDescription_GetSortDescriptionLabel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetProgress
 title: IBackgroundCopyJob::GetProgress
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves job-related progress information, such as the number of bytes and files transferred.
 old-location: bits\ibackgroundcopyjob_getprogress.htm
 old-project: Bits
 ms.assetid: 30aae990-1cc1-468b-9e5f-7ef5ce6eeb9a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetProgress method, IBackgroundCopyJob.GetProgress, IBackgroundCopyJob::GetProgress, _drz_ibackgroundcopyjob_getprogress, bits.ibackgroundcopyjob_getprogress, bits/IBackgroundCopyJob::GetProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 

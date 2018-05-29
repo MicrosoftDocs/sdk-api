@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_RESET_SNAPSHOT_INFO
 title: IOCTL_DISK_RESET_SNAPSHOT_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Clears all Volume Shadow Copy Service (VSS) hardware-based shadow copy (also called &#0034;snapshot&#0034;) information from the disk.
 old-location: fs\ioctl_disk_reset_snapshot_info.htm
 old-project: FileIO
 ms.assetid: 522f469e-9630-4fa3-a157-7090c58a9856
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IOCTL_DISK_RESET_SNAPSHOT_INFO, IOCTL_DISK_RESET_SNAPSHOT_INFO control, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Files], fs.ioctl_disk_reset_snapshot_info, winioctl/IOCTL_DISK_RESET_SNAPSHOT_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

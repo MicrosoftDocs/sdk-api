@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.ShortToUIntPtr
 title: ShortToUIntPtr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type SHORT to a value of type UINT_PTR.
 old-location: shell\ShortToUIntPtr.htm
 old-project: shell
 ms.assetid: 6b5d0c0c-a2c3-4d63-ab6c-d93372a7413e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ShortToUIntPtr, ShortToUIntPtr function [Windows Shell], intsafe/ShortToUIntPtr, shell.ShortToUIntPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

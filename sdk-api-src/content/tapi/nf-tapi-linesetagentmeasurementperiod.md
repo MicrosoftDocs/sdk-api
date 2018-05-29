@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSetAgentMeasurementPeriod
 title: lineSetAgentMeasurementPeriod function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSetAgentMeasurementPeriod function sets the measurement period associated with a particular agent.
 old-location: tapi2\linesetagentmeasurementperiod.htm
 old-project: Tapi
 ms.assetid: bb84f18f-0052-45f8-8049-8576e1eb6fef
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesetagentmeasurementperiod, lineSetAgentMeasurementPeriod, lineSetAgentMeasurementPeriod function [TAPI 2.2], tapi/lineSetAgentMeasurementPeriod, tapi2.linesetagentmeasurementperiod"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

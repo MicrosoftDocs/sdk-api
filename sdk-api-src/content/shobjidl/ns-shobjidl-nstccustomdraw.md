@@ -1,16 +1,16 @@
 ---
 UID: NS:shobjidl.NSTCCUSTOMDRAW
 title: NSTCCUSTOMDRAW
-author: windows-driver-content
+author: windows-sdk-content
 description: Custom draw structure used by INameSpaceTreeControlCustomDraw methods.
 old-location: shell\NSTCCUSTOMDRAW.htm
 old-project: shell
 ms.assetid: 95747075-4882-4c29-8653-941ac04db54b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NSTCCUSTOMDRAW, NSTCCUSTOMDRAW structure [Windows Shell], _shell_NSTCCUSTOMDRAW, shell.NSTCCUSTOMDRAW, shobjidl/NSTCCUSTOMDRAW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl.h
 req.include-header: 

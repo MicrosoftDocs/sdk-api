@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfCompositionSink.OnCompositionTerminated
 title: ITfCompositionSink::OnCompositionTerminated
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfCompositionSink::OnCompositionTerminated method
 old-location: tsf\itfcompositionsink_oncompositionterminated.htm
 old-project: TSF
 ms.assetid: 4b7c3993-6d01-492f-9bb5-241a1cbd4b63
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfCompositionSink interface [Text Services Framework],OnCompositionTerminated method, ITfCompositionSink.OnCompositionTerminated, ITfCompositionSink::OnCompositionTerminated, OnCompositionTerminated, OnCompositionTerminated method [Text Services Framework], OnCompositionTerminated method [Text Services Framework],ITfCompositionSink interface, _tsf_itfcompositionsink_oncompositionterminated_ref, msctf/ITfCompositionSink::OnCompositionTerminated, tsf.itfcompositionsink_oncompositionterminated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

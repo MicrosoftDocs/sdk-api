@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumShellItems.Clone
 title: IEnumShellItems::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a copy of the current enumeration.
 old-location: shell\IEnumShellItems_Clone.htm
 old-project: shell
 ms.assetid: ccfe8ab0-8bc5-4270-9189-01bac38ce36a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumShellItems interface, IEnumShellItems interface [Windows Shell],Clone method, IEnumShellItems.Clone, IEnumShellItems::Clone, _shell_IEnumShellItems_Clone, shell.IEnumShellItems_Clone, shobjidl_core/IEnumShellItems::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

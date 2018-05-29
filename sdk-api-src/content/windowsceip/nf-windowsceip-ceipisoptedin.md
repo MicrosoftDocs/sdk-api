@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsceip.CeipIsOptedIn
 title: CeipIsOptedIn function
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks whether the user has opted in for SQM data collection as part of the Customer Experience Improvement Program (CEIP).
 old-location: base\ceipisoptedin.htm
 old-project: SysInfo
 ms.assetid: 4CDB5B09-B172-4E99-AB46-A08E32346266
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CeipIsOptedIn, CeipIsOptedIn function, base.ceipisoptedin, windowsceip/ CeipIsOptedIn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: windowsceip.h
 req.include-header: 

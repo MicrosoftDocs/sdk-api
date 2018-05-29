@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.get_SAP
 title: IMSVidAnalogTuner::get_SAP
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_SAP method retrieves the tuner's SAP setting to enable secondary audio components.
 old-location: mstv\imsvidanalogtuner_get_sap.htm
 old-project: mstv
 ms.assetid: 9943ca7e-754e-4145-8f52-0a915fd7133d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],get_SAP method, IMSVidAnalogTuner.get_SAP, IMSVidAnalogTuner::get_SAP, IMSVidAnalogTunerget_SAP, get_SAP, get_SAP method [Microsoft TV Technologies], get_SAP method [Microsoft TV Technologies],IMSVidAnalogTuner interface, mstv.imsvidanalogtuner_get_sap, segment/IMSVidAnalogTuner::get_SAP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

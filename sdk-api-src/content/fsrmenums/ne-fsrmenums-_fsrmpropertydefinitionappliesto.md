@@ -1,16 +1,16 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyDefinitionAppliesTo
 title: "_FsrmPropertyDefinitionAppliesTo"
-author: windows-driver-content
+author: windows-sdk-content
 description: Flags that indicate what a FSRM classification property can be applied to.
 old-location: fsrm\fsrmpropertydefinitionappliesto.htm
 old-project: Fsrm
 ms.assetid: deca10b5-fd5f-446f-ab88-1731402a550c
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: FsrmPropertyDefinitionAppliesTo, FsrmPropertyDefinitionAppliesTo enumeration [File Server Resource Manager], FsrmPropertyDefinitionAppliesTo_Files, FsrmPropertyDefinitionAppliesTo_Folders, _FsrmPropertyDefinitionAppliesTo, fs.fsrmpropertydefinitionappliesto, fsrm.fsrmpropertydefinitionappliesto, fsrmenums/FsrmPropertyDefinitionAppliesTo, fsrmenums/FsrmPropertyDefinitionAppliesTo_Files, fsrmenums/FsrmPropertyDefinitionAppliesTo_Folders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfigBase.ConfigureTransaction
 title: IServiceTransactionConfigBase::ConfigureTransaction
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures how transactions are used in the enclosed work.
 old-location: cos\iservicetransactionconfigbase_configuretransaction.htm
 old-project: cossdk
 ms.assetid: 8277b133-2c0c-4a21-b441-457efb285178
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ConfigureTransaction, ConfigureTransaction method [COM+], ConfigureTransaction method [COM+],IServiceTransactionConfigBase interface, IServiceTransactionConfigBase interface [COM+],ConfigureTransaction method, IServiceTransactionConfigBase.ConfigureTransaction, IServiceTransactionConfigBase::ConfigureTransaction, _cos_IServiceTransactionConfigBase_ConfigureTransaction, comsvcs/IServiceTransactionConfigBase::ConfigureTransaction, cos.iservicetransactionconfigbase_configuretransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.PerformOperations
 title: IFileOperation::PerformOperations
-author: windows-driver-content
+author: windows-sdk-content
 description: Executes all selected operations.
 old-location: shell\IFileOperation_PerformOperations.htm
 old-project: shell
 ms.assetid: eceb5f0a-ad9a-4b7a-9656-c10e0420a96a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileOperation interface [Windows Shell],PerformOperations method, IFileOperation.PerformOperations, IFileOperation::PerformOperations, PerformOperations, PerformOperations method [Windows Shell], PerformOperations method [Windows Shell],IFileOperation interface, _shell_IFileOperation_PerformOperations, shell.IFileOperation_PerformOperations, shobjidl_core/IFileOperation::PerformOperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

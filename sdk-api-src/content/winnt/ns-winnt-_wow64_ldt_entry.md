@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._WOW64_LDT_ENTRY
 title: "_WOW64_LDT_ENTRY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an entry in the descriptor table for a 32-bit thread on a 64-bit system. This structure is valid only on 64-bit systems.
 old-location: base\wow64_ldt_entry_str.htm
 old-project: Debug
 ms.assetid: a571cd2f-0873-4ad5-bcb8-c0da2d47a820
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PWOW64_LDT_ENTRY, PWOW64_LDT_ENTRY, PWOW64_LDT_ENTRY structure pointer, WOW64_LDT_ENTRY, WOW64_LDT_ENTRY structure, _WOW64_LDT_ENTRY, base.wow64_ldt_entry_str, winnt/LDT_ENTRY, winnt/PWOW64_LDT_ENTRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

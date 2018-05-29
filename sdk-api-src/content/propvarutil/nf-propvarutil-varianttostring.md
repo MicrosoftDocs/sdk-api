@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToString
 title: VariantToString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the variant value of a variant structure to a string. If no value can be extracted, then a default value is assigned.
 old-location: properties\VariantToString.htm
 old-project: properties
 ms.assetid: 4850f9b8-8f86-4428-bf3b-f3abdc6047c1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToString, VariantToString function [Windows Properties], _shell_VariantToString, properties.VariantToString, propvarutil/VariantToString, shell.VariantToString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

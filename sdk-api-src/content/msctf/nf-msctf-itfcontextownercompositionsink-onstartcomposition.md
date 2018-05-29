@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionSink.OnStartComposition
 title: ITfContextOwnerCompositionSink::OnStartComposition
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfContextOwnerCompositionSink::OnStartComposition method
 old-location: tsf\itfcontextownercompositionsink_onstartcomposition.htm
 old-project: TSF
 ms.assetid: 18356eda-42b1-4b29-8fd8-cff4a3f6d234
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfContextOwnerCompositionSink interface [Text Services Framework],OnStartComposition method, ITfContextOwnerCompositionSink.OnStartComposition, ITfContextOwnerCompositionSink::OnStartComposition, OnStartComposition, OnStartComposition method [Text Services Framework], OnStartComposition method [Text Services Framework],ITfContextOwnerCompositionSink interface, _tsf_itfcontextownercompositionsink_onstartcomposition_ref, msctf/ITfContextOwnerCompositionSink::OnStartComposition, tsf.itfcontextownercompositionsink_onstartcomposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

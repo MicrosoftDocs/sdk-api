@@ -1,16 +1,16 @@
 ---
 UID: NS:netioapi._MIB_IFSTACK_TABLE
 title: "_MIB_IFSTACK_TABLE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a table of network interface stack row entries. This specifies the relationship of the network interfaces on an interface stack.
 old-location: mib\mib_ifstack_table.htm
 old-project: MIB
 ms.assetid: b2f6eea7-c3d4-493d-bf55-bc95b97601bd
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_IFSTACK_TABLE, MIB_IFSTACK_TABLE, MIB_IFSTACK_TABLE structure [MIB], PMIB_IFSTACK_TABLE, PMIB_IFSTACK_TABLE structure pointer [MIB], _MIB_IFSTACK_TABLE, mib.mib_ifstack_table, netioapi/MIB_IFSTACK_TABLE, netioapi/PMIB_IFSTACK_TABLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

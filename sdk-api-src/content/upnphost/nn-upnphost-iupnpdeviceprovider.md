@@ -1,16 +1,16 @@
 ---
 UID: NN:upnphost.IUPnPDeviceProvider
 title: IUPnPDeviceProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: The IUPnPDeviceProvider interface allows a device provider to start and stop its processing.
 old-location: upnp\iupnpdeviceprovider.htm
 old-project: UPnP
 ms.assetid: daaa8b55-bcef-4142-8f7b-e6f64e0ac258
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: IUPnPDeviceProvider, IUPnPDeviceProvider interface [UPnP APIs], IUPnPDeviceProvider interface [UPnP APIs],described, _upnp_iupnpdeviceprovider, upnp.iupnpdeviceprovider, upnphost/IUPnPDeviceProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnphost.h
 req.include-header: 

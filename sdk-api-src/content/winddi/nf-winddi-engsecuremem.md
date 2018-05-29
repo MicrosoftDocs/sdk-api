@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngSecureMem
 title: EngSecureMem function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngSecureMem function locks down the specified address range in memory.
 old-location: display\engsecuremem.htm
 old-project: display
 ms.assetid: 30c1e7bb-5300-4c0f-871d-a1c09fa83fdd
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngSecureMem, EngSecureMem function [Display Devices], display.engsecuremem, gdifncs_b152193e-5e03-4223-b847-8dc99aeb0852.xml, winddi/EngSecureMem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

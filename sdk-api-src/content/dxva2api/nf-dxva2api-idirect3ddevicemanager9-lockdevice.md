@@ -1,16 +1,16 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.LockDevice
 title: IDirect3DDeviceManager9::LockDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: Gives the caller exclusive access to the Direct3D device.
 old-location: mf\idirect3ddevicemanager9_lockdevice.htm
 old-project: medfound
 ms.assetid: 51631747-04af-448e-97cf-25a329d4fbb4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 51631747-04af-448e-97cf-25a329d4fbb4, IDirect3DDeviceManager9 interface [Media Foundation],LockDevice method, IDirect3DDeviceManager9.LockDevice, IDirect3DDeviceManager9::LockDevice, LockDevice, LockDevice method [Media Foundation], LockDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::LockDevice, mf.idirect3ddevicemanager9_lockdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:p2p.peer_member_change_type_tag
 title: peer_member_change_type_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PEER_MEMBER_CHANGE_TYPE enumeration defines the set of possible peer group membership and presence states for a peer.
 old-location: p2p\peer_member_change_type.htm
 old-project: P2PSdk
 ms.assetid: ecebec4f-1dc6-481c-a2d4-cf0043729a8c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PEER_MEMBER_CHANGE_TYPE, PEER_MEMBER_CHANGE_TYPE enumeration [Peer Networking], PEER_MEMBER_CONNECTED, PEER_MEMBER_DISCONNECTED, PEER_MEMBER_JOINED, PEER_MEMBER_LEFT, PEER_MEMBER_UPDATED, p2p.peer_member_change_type, p2p/ PEER_MEMBER_CHANGE_TYPE, p2p/PEER_MEMBER_CONNECTED, p2p/PEER_MEMBER_DISCONNECTED, p2p/PEER_MEMBER_JOINED, p2p/PEER_MEMBER_LEFT, p2p/PEER_MEMBER_UPDATED, peer_member_change_type_tag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: p2p.h
 req.include-header: 

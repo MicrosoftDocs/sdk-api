@@ -1,16 +1,16 @@
 ---
 UID: NE:rtscom.RealTimeStylusLockType
 title: RealTimeStylusLockType
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the locks within the RealTimeStylus Class object that protect the RealTimeStylus Class object's members and properties from modification.
 old-location: tablet\realtimestyluslocktype.htm
 old-project: tablet
 ms.assetid: d472b588-b208-4665-9364-f2c92fe09bcd
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: RTSLT_AsyncEventLock, RTSLT_AsyncObjLock, RTSLT_ExcludeCallback, RTSLT_ObjLock, RTSLT_SyncEventLock, RTSLT_SyncObjLock, RealTimeStylusLockType, RealTimeStylusLockType enumeration [Tablet PC], d472b588-b208-4665-9364-f2c92fe09bcd, rtscom/RTSLT_AsyncEventLock, rtscom/RTSLT_AsyncObjLock, rtscom/RTSLT_ExcludeCallback, rtscom/RTSLT_ObjLock, rtscom/RTSLT_SyncEventLock, rtscom/RTSLT_SyncObjLock, rtscom/RealTimeStylusLockType, tablet.realtimestyluslocktype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: rtscom.h
 req.include-header: 

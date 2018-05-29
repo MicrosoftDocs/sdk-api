@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptGenRandom
 title: CryptGenRandom function
-author: windows-driver-content
+author: windows-sdk-content
 description: Fills a buffer with cryptographically random bytes.
 old-location: security\cryptgenrandom.htm
 old-project: SecCrypto
 ms.assetid: 3e5a437f-7439-43c9-a191-2908d2df0eb6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptGenRandom, CryptGenRandom function [Security], _crypto2_cryptgenrandom, security.cryptgenrandom, wincrypt/CryptGenRandom
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

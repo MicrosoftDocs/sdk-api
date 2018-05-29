@@ -1,16 +1,16 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_HANDLE_OBJECT_INFORMATION
 title: "_MINIDUMP_HANDLE_OBJECT_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains object-specific information for a handle.
 old-location: base\minidump_handle_object_information.htm
 old-project: Debug
 ms.assetid: fb79de10-7a98-4a21-b394-63e5279b6681
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: MINIDUMP_HANDLE_OBJECT_INFORMATION, MINIDUMP_HANDLE_OBJECT_INFORMATION structure, _MINIDUMP_HANDLE_OBJECT_INFORMATION, base.minidump_handle_object_information, minidumpapiset/MINIDUMP_HANDLE_OBJECT_INFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmiutils.IWbemQuery
 title: IWbemQuery
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides an entry point through which a WMI Query Language (WQL) query can be parsed.
 old-location: wmi\iwbemquery.htm
 old-project: WmiSdk
 ms.assetid: 4a0c0c1d-3d84-491f-8379-d164821fa71b
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemQuery, IWbemQuery interface [Windows Management Instrumentation], IWbemQuery interface [Windows Management Instrumentation],described, WbemQuery, _hmm_iwbemquery, wmi.iwbemquery, wmiutils/IWbemQuery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmiutils.h
 req.include-header: 

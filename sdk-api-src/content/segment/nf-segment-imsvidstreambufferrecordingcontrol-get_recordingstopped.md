@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.get_RecordingStopped
 title: IMSVidStreamBufferRecordingControl::get_RecordingStopped
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_RecordingStopped method queries whether the recording has stopped.
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_recordingstopped.htm
 old-project: mstv
 ms.assetid: 894bed11-7bb6-49b9-8036-c32536949dbd
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_RecordingStopped method, IMSVidStreamBufferRecordingControl.get_RecordingStopped, IMSVidStreamBufferRecordingControl::get_RecordingStopped, IMSVidStreamBufferRecordingControlget_RecordingStopped, get_RecordingStopped, get_RecordingStopped method [Microsoft TV Technologies], get_RecordingStopped method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_recordingstopped, segment/IMSVidStreamBufferRecordingControl::get_RecordingStopped
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

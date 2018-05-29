@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmpipeline.IFsrmProperty.get_Sources
 title: IFsrmProperty::get_Sources
-author: windows-driver-content
+author: windows-sdk-content
 description: The modules and rules that have set the value.
 old-location: fsrm\ifsrmproperty_sources.htm
 old-project: Fsrm
 ms.assetid: fc29b42c-f2d7-4a13-a2f9-94416f8ef803
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmProperty interface [File Server Resource Manager],Sources property, IFsrmProperty.Sources, IFsrmProperty.get_Sources, IFsrmProperty::Sources, IFsrmProperty::get_Sources, Sources property [File Server Resource Manager], Sources property [File Server Resource Manager],IFsrmProperty interface, fs.ifsrmproperty_sources, fsrm.ifsrmproperty_sources, fsrmpipeline/IFsrmProperty::Sources, fsrmpipeline/IFsrmProperty::get_Sources, get_Sources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmpipeline.h
 req.include-header: 

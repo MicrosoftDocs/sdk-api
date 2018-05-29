@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.InitiateSystemShutdownExW
 title: InitiateSystemShutdownExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates a shutdown and optional restart of the specified computer, and optionally records the reason for the shutdown.
 old-location: base\initiatesystemshutdownex.htm
 old-project: Shutdown
 ms.assetid: 4536cf76-7669-42b1-8c44-9f5e368424cc
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: InitiateSystemShutdownEx, InitiateSystemShutdownEx function, InitiateSystemShutdownExA, InitiateSystemShutdownExW, _win32_initiatesystemshutdownex, base.initiatesystemshutdownex, winreg/InitiateSystemShutdownEx, winreg/InitiateSystemShutdownExA, winreg/InitiateSystemShutdownExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

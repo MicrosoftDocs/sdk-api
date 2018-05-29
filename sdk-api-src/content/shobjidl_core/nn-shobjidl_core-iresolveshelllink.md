@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IResolveShellLink
 title: IResolveShellLink
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that enables an application to request that a Shell folder object resolve a link for one of its items.
 old-location: shell\IResolveShellLink.htm
 old-project: shell
 ms.assetid: ed5fc982-9d20-4ace-9d34-17cbef8ad8e2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IResolveShellLink, IResolveShellLink interface [Windows Shell], IResolveShellLink interface [Windows Shell],described, _win32_IResolveShellLink, shell.IResolveShellLink, shobjidl_core/IResolveShellLink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

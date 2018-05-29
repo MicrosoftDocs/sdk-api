@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.TpSetCallbackNoActivationContext
 title: TpSetCallbackNoActivationContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that the callback environment has no activation context.
 old-location: base\tpsetcallbacknoactivationcontext.htm
 old-project: ProcThread
 ms.assetid: 8415197A-C785-492E-9C74-2055FADDF0CD
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: TpSetCallbackNoActivationContext, TpSetCallbackNoActivationContext function, base.tpsetcallbacknoactivationcontext, winnt/TpSetCallbackNoActivationContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: 

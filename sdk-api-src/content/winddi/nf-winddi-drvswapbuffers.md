@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.DrvSwapBuffers
 title: DrvSwapBuffers function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrvSwapBuffers function displays the contents of the window's associated hidden buffer on the specified surface.
 old-location: display\drvswapbuffers.htm
 old-project: display
 ms.assetid: 2fee2f9d-85fd-4b21-83be-11469fede71a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DrvSwapBuffers, DrvSwapBuffers function [Display Devices], ddifncs_8f9d0c15-6eb3-4bed-9efa-bb40026576a1.xml, display.drvswapbuffers, winddi/DrvSwapBuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

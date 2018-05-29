@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoTaskMemAlloc
 title: CoTaskMemAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates a block of task memory in the same way that IMalloc::Alloc does.
 old-location: com\cotaskmemalloc.htm
 old-project: com
 ms.assetid: c4cb588d-9482-4f90-a92e-75b604540d5c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoTaskMemAlloc, CoTaskMemAlloc function [COM], _com_CoTaskMemAlloc, com.cotaskmemalloc, combaseapi/CoTaskMemAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluseffects.Levels.SetParameters
 title: Levels::SetParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: The Levels::SetParameters method sets the parameters of this Levels object.
 old-location: gdiplus\_gdiplus_CLASS_Levels_SetParameters_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levelsclass\levelsmethods\setparameters.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Levels class [GDI+],SetParameters method, Levels.SetParameters, Levels::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],Levels class, _gdiplus_CLASS_Levels_SetParameters_, gdiplus._gdiplus_CLASS_Levels_SetParameters_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

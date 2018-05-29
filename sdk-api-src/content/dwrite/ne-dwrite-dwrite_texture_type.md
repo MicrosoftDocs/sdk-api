@@ -1,16 +1,16 @@
 ---
 UID: NE:dwrite.DWRITE_TEXTURE_TYPE
 title: DWRITE_TEXTURE_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies a type of alpha texture.
 old-location: directwrite\dwrite_texture_type.htm
 old-project: DirectWrite
 ms.assetid: c97ee0fd-2743-4f72-aa69-bf5e3780aa33
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_TEXTURE_ALIASED_1x1, DWRITE_TEXTURE_CLEARTYPE_3x1, DWRITE_TEXTURE_TYPE, DWRITE_TEXTURE_TYPE enumeration [Direct Write], directwrite.dwrite_texture_type, dwrite/DWRITE_TEXTURE_ALIASED_1x1, dwrite/DWRITE_TEXTURE_CLEARTYPE_3x1, dwrite/DWRITE_TEXTURE_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dwrite.h
 req.include-header: 

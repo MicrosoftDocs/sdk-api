@@ -1,16 +1,16 @@
 ---
 UID: NN:uianimation.IUIAnimationTransitionLibrary2
 title: IUIAnimationTransitionLibrary2
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a library of standard transitions for a specified dimension.
 old-location: uianimation\iuianimationtransitionlibrary2.htm
 old-project: UIAnimation
 ms.assetid: 92C10ED5-DCE6-4B1D-8608-E2C3C6AD97BA
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationTransitionLibrary2, IUIAnimationTransitionLibrary2 interface [Windows Animation], IUIAnimationTransitionLibrary2 interface [Windows Animation],described, uianimation.iuianimationtransitionlibrary2, uianimation/IUIAnimationTransitionLibrary2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uianimation.h
 req.include-header: 

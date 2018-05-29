@@ -1,16 +1,16 @@
 ---
 UID: NF:evntprov.EventUnregister
 title: EventUnregister function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the provider's registration. You must call this function before your process exits.
 old-location: etw\eventunregister_func.htm
 old-project: ETW
 ms.assetid: fdcccf6f-2f31-4356-a4ee-3b6229c01b75
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EventUnregister, EventUnregister function [ETW], base.eventunregister_func, etw.eventunregister_func, evntprov/EventUnregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

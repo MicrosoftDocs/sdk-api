@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrContextHandleInitialize
 title: NdrContextHandleInitialize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a new RPC context handle.
 old-location: rpc\ndrcontexthandleinitialize.htm
 old-project: Rpc
 ms.assetid: 023f5137-fbdb-44c2-9c11-a3a8f1eb615e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrContextHandleInitialize, NdrContextHandleInitialize function [RPC], rpc.ndrcontexthandleinitialize, rpcndr/NdrContextHandleInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

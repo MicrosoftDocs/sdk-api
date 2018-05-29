@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.CoGetInstanceFromIStorage
 title: CoGetInstanceFromIStorage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new object and initializes it from a storage object through an internal call to IPersistFile::Load.
 old-location: com\cogetinstancefromistorage.htm
 old-project: com
 ms.assetid: 6a77770c-b7e1-4d29-9c4b-331b5950a635
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoGetInstanceFromIStorage, CoGetInstanceFromIStorage function [COM], _com_CoGetInstanceFromIStorage, com.cogetinstancefromistorage, objbase/CoGetInstanceFromIStorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

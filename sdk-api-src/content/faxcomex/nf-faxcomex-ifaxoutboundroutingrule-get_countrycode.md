@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRule.get_CountryCode
 title: IFaxOutboundRoutingRule::get_CountryCode
-author: windows-driver-content
+author: windows-sdk-content
 description: The CountryCode property specifies the country/region code to which the outbound routing rule applies.
 old-location: fax\_mfax_faxoutboundroutingrule_countrycode_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5ysl.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CountryCode property [Fax Service], CountryCode property [Fax Service],FaxOutboundRoutingRule object, FaxOutboundRoutingRule object [Fax Service],CountryCode property, FaxOutboundRoutingRule.CountryCode, IFaxOutboundRoutingRule.get_CountryCode, IFaxOutboundRoutingRule::get_CountryCode, _mfax_faxoutboundroutingrule.countrycode, fax._mfax_faxoutboundroutingrule_countrycode, fax._mfax_faxoutboundroutingrule_countrycode_vb, get_CountryCode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

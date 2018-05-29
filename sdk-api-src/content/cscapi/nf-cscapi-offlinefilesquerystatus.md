@@ -1,16 +1,16 @@
 ---
 UID: NF:cscapi.OfflineFilesQueryStatus
 title: OfflineFilesQueryStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the Offline Files feature is enabled and, if so, whether it is active.
 old-location: of\offlinefilesquerystatus.htm
 old-project: OfflineFiles
 ms.assetid: 2b3a77cd-e874-42fb-8bfa-6d6b26866153
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: OfflineFilesQueryStatus, OfflineFilesQueryStatus function [Offline Files], cscapi/OfflineFilesQueryStatus, of.offlinefilesquerystatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cscapi.h
 req.include-header: 

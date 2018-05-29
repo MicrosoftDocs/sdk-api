@@ -1,16 +1,16 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetProperties
 title: IShellImageData::GetProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IPropertySetStorage through which the properties of the image can be accessed.
 old-location: shell\IShellImageData_GetProperties.htm
 old-project: shell
 ms.assetid: 0fb59627-a31f-4c23-955f-3032c5814a5a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetProperties, GetProperties method [Windows Shell], GetProperties method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetProperties method, IShellImageData.GetProperties, IShellImageData::GetProperties, _shell_IShellImageData_GetProperties, shell.IShellImageData_GetProperties, shimgdata/IShellImageData::GetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

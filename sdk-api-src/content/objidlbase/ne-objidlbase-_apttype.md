@@ -1,16 +1,16 @@
 ---
 UID: NE:objidlbase._APTTYPE
 title: "_APTTYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies different types of apartments.
 old-location: com\apttype.htm
 old-project: com
 ms.assetid: eae95b1f-3883-4334-aa7e-84e71e05fb24
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: APTTYPE, APTTYPE enumeration [COM], APTTYPE_CURRENT, APTTYPE_MAINSTA, APTTYPE_MTA, APTTYPE_NA, APTTYPE_STA, _APTTYPE, _com_APTTYPE, com.apttype, objidlbase/APTTYPE, objidlbase/APTTYPE_CURRENT, objidlbase/APTTYPE_MAINSTA, objidlbase/APTTYPE_MTA, objidlbase/APTTYPE_NA, objidlbase/APTTYPE_STA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidlbase.h
 req.include-header: Objidl.h

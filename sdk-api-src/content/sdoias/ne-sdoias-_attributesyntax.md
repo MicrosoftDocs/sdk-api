@@ -1,16 +1,16 @@
 ---
 UID: NE:sdoias._ATTRIBUTESYNTAX
 title: "_ATTRIBUTESYNTAX"
-author: windows-driver-content
+author: windows-sdk-content
 description: Each value from the ATTRIBUTESYNTAX enumeration type specifies a possible attribute syntax.
 old-location: nps\SDO_attributesyntax.htm
 old-project: Nps
 ms.assetid: 50d56c43-6552-4bb0-a204-a0cfc3ee7202
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ATTRIBUTESYNTAX, ATTRIBUTESYNTAX enumeration [Network Policy Server], IAS_SYNTAX_BOOLEAN, IAS_SYNTAX_ENUMERATOR, IAS_SYNTAX_INETADDR, IAS_SYNTAX_INETADDR6, IAS_SYNTAX_INTEGER, IAS_SYNTAX_OCTETSTRING, IAS_SYNTAX_PROVIDERSPECIFIC, IAS_SYNTAX_STRING, IAS_SYNTAX_UNSIGNEDINTEGER, IAS_SYNTAX_UTCTIME, _ATTRIBUTESYNTAX, _sdo_attributesyntax, nps.SDO_attributesyntax, sdo.attributesyntax, sdoias/ATTRIBUTESYNTAX, sdoias/IAS_SYNTAX_BOOLEAN, sdoias/IAS_SYNTAX_ENUMERATOR, sdoias/IAS_SYNTAX_INETADDR, sdoias/IAS_SYNTAX_INETADDR6, sdoias/IAS_SYNTAX_INTEGER, sdoias/IAS_SYNTAX_OCTETSTRING, sdoias/IAS_SYNTAX_PROVIDERSPECIFIC, sdoias/IAS_SYNTAX_STRING, sdoias/IAS_SYNTAX_UNSIGNEDINTEGER, sdoias/IAS_SYNTAX_UTCTIME
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

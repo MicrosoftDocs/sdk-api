@@ -1,16 +1,16 @@
 ---
 UID: NF:certcli.ICertRequest.RetrievePending
 title: ICertRequest::RetrievePending
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a certificate's disposition status from an earlier request that may have previously returned CR_DISP_INCOMPLETE or CR_DISP_UNDER_SUBMISSION.
 old-location: security\icertrequest2_retrievepending.htm
 old-project: SecCrypto
 ms.assetid: 07a9ac57-f90e-4c5c-b563-8aebbcf8f42e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertRequest object [Security],RetrievePending method, ICertRequest interface [Security],RetrievePending method, ICertRequest.RetrievePending, ICertRequest2 interface [Security],RetrievePending method, ICertRequest2::RetrievePending, ICertRequest3 interface [Security],RetrievePending method, ICertRequest3::RetrievePending, ICertRequest::RetrievePending, RetrievePending, RetrievePending method [Security], RetrievePending method [Security],CCertRequest object, RetrievePending method [Security],ICertRequest interface, RetrievePending method [Security],ICertRequest2 interface, RetrievePending method [Security],ICertRequest3 interface, certcli/ICertRequest2::RetrievePending, certcli/ICertRequest3::RetrievePending, certcli/ICertRequest::RetrievePending, security.icertrequest2_retrievepending
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certcli.h
 req.include-header: Certsrv.h

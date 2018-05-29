@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_VERSIONED_ROOT_SIGNATURE_DESC
 title: D3D12_VERSIONED_ROOT_SIGNATURE_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds any version of a root signature description, and is designed to be used with serialization/deserialization functions.
 old-location: direct3d12\d3d12_versioned_root_signature_desc.htm
 old-project: direct3d12
 ms.assetid: 46F692DD-55FF-4DFF-AF11-78CAD10922C1
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_VERSIONED_ROOT_SIGNATURE_DESC, D3D12_VERSIONED_ROOT_SIGNATURE_DESC structure, d3d12/D3D12_VERSIONED_ROOT_SIGNATURE_DESC, direct3d12.d3d12_versioned_root_signature_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

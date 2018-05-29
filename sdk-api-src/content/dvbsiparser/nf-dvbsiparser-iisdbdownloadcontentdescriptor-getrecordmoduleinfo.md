@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetRecordModuleInfo
 title: IIsdbDownloadContentDescriptor::GetRecordModuleInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of a module_info_byte field from a module record in an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
 old-location: mstv\iisdbdownloadcontentdescriptor_getrecordmoduleinfo.htm
 old-project: mstv
 ms.assetid: 0f9dc48c-7df3-498b-b9ff-4610bd9e7ac2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordModuleInfo, GetRecordModuleInfo method [Microsoft TV Technologies], GetRecordModuleInfo method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetRecordModuleInfo method, IIsdbDownloadContentDescriptor.GetRecordModuleInfo, IIsdbDownloadContentDescriptor::GetRecordModuleInfo, dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleInfo, mstv.iisdbdownloadcontentdescriptor_getrecordmoduleinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

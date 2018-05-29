@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMGPOLinksCollection.get__NewEnum
 title: IGPMGPOLinksCollection::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_NewEnum method retrieves an enumerator for the collection.
 old-location: gpmc\igpmgpolinkscollection_get__newenum.htm
 old-project: GPMC
 ms.assetid: 953735c2-01d7-45e1-8417-6b18128de530
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IGPMGPOLinksCollection interface [GPMC],get__NewEnum method, IGPMGPOLinksCollection.get__NewEnum, IGPMGPOLinksCollection::get__NewEnum, _win32_igpmgpolinkscollection_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMGPOLinksCollection interface, gpmc.igpmgpolinkscollection_get__newenum, gpmgmt/IGPMGPOLinksCollection::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

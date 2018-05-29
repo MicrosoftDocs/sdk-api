@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_BASE64_TEXT
 title: "_WS_XML_BASE64_TEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents base64 encoded data.
 old-location: wsw\ws_xml_base64_text.htm
 old-project: wsw
 ms.assetid: 6b4d555b-4e1f-4cc1-8204-6584a5d1dc77
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_BASE64_TEXT, WS_XML_BASE64_TEXT structure [Web Services for Windows], _WS_XML_BASE64_TEXT, webservices/WS_XML_BASE64_TEXT, wsw.ws_xml_base64_text
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

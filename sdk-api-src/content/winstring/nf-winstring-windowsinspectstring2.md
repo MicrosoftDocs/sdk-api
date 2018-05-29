@@ -1,16 +1,16 @@
 ---
 UID: NF:winstring.WindowsInspectString2
 title: WindowsInspectString2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a way to for debuggers to display the value of an Windows Runtime&#160;HSTRING in another address space, remotely, or from a dump.
 old-location: winrt\windowsinspectstring2.htm
 old-project: WinRT
 ms.assetid: 6A359C2A-21A3-4DCD-B40A-B983E790AC3C
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: WindowsInspectString2, WindowsInspectString2 function [Windows Runtime], winrt.windowsinspectstring2, winstring/WindowsInspectString2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

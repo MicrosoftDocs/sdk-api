@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptExportPublicKeyInfoFromBCryptKeyHandle
 title: CryptExportPublicKeyInfoFromBCryptKeyHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Exports the public key information associated with a provider's corresponding private key.
 old-location: security\cryptexportpublickeyinfofrombcryptkeyhandle.htm
 old-project: SecCrypto
 ms.assetid: f96bff4a-d354-4231-907a-383aff5cfacc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, CryptExportPublicKeyInfoFromBCryptKeyHandle, CryptExportPublicKeyInfoFromBCryptKeyHandle function [Security], security.cryptexportpublickeyinfofrombcryptkeyhandle, wincrypt/CryptExportPublicKeyInfoFromBCryptKeyHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

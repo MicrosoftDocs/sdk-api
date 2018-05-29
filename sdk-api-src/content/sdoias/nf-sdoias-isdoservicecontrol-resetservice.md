@@ -1,16 +1,16 @@
 ---
 UID: NF:sdoias.ISdoServiceControl.ResetService
 title: ISdoServiceControl::ResetService
-author: windows-driver-content
+author: windows-sdk-content
 description: The ResetService method resets the service administered by the SDO API. Resetting the service causes the service to refresh its data.
 old-location: nps\SDO_isdoservicecontrol_resetservice.htm
 old-project: Nps
 ms.assetid: c93675ad-b7c2-42b9-9ab8-7fb4cbb7a07c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ISdoServiceControl interface [Network Policy Server],ResetService method, ISdoServiceControl.ResetService, ISdoServiceControl::ResetService, ResetService, ResetService method [Network Policy Server], ResetService method [Network Policy Server],ISdoServiceControl interface, _sdo_isdoservicecontrol_resetservice, nps.SDO_isdoservicecontrol_resetservice, sdo.isdoservicecontrol_resetservice, sdoias/ISdoServiceControl::ResetService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 

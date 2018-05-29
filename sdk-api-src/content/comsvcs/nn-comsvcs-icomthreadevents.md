@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IComThreadEvents
 title: IComThreadEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the subscriber if a single-threaded apartment (STA) is created or terminated, and when an apartment thread is allocated.
 old-location: cos\icomthreadevents.htm
 old-project: cossdk
 ms.assetid: a6523088-cca4-41c1-a3fe-d8cb7320ff33
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComThreadEvents, IComThreadEvents interface [COM+], IComThreadEvents interface [COM+],described, _dtc_IComThreadEvents, comsvcs/IComThreadEvents, cos.icomthreadevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

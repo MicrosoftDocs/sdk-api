@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.Create
 title: IX509PrivateKey::Create
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an asymmetric private key.
 old-location: security\ix509privatekey_create_method.htm
 old-project: SecCertEnroll
 ms.assetid: e8c6564a-6009-437e-9b83-3711e43a7374
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Create, Create method [Security], Create method [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Create method, IX509PrivateKey.Create, IX509PrivateKey::Create, certenroll/IX509PrivateKey::Create, security.ix509privatekey_create_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

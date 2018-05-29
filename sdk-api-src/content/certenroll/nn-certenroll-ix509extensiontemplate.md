@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.IX509ExtensionTemplate
 title: IX509ExtensionTemplate
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods and properties that can be used to initialize or retrieve a CertificateTemplate extension.
 old-location: security\ix509extensiontemplate.htm
 old-project: SecCertEnroll
 ms.assetid: 2ac24ee9-f31f-4501-a4f0-321580ec2fa9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509ExtensionTemplate, IX509ExtensionTemplate interface [Security], IX509ExtensionTemplate interface [Security],described, certenroll/IX509ExtensionTemplate, security.ix509extensiontemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

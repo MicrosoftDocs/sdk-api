@@ -1,16 +1,16 @@
 ---
 UID: NF:textserv.ShutdownTextServices
 title: ShutdownTextServices function
-author: windows-driver-content
+author: windows-sdk-content
 description: Disconnects a host from a text services instance.
 old-location: controls\shutdowntextservices.htm
 old-project: Controls
 ms.assetid: 3367D22B-1F9E-4D70-8907-0F218A23AE7E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ShutdownTextServices, ShutdownTextServices function [Windows Controls], controls.shutdowntextservices, textserv/ShutdownTextServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: textserv.h
 req.include-header: 

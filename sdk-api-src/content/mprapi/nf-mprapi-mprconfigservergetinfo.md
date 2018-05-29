@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigServerGetInfo
 title: MprConfigServerGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigServerGetInfo function retrieves server-level configuration information for the specified router.
 old-location: rras\mprconfigservergetinfo.htm
 old-project: RRAS
 ms.assetid: 6d3cd97a-96ef-4ecd-b2fd-2743ba79aa5b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigServerGetInfo, MprConfigServerGetInfo function [RAS], _mpr_mprconfigservergetinfo, mprapi/MprConfigServerGetInfo, rras.mprconfigservergetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

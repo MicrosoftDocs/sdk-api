@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerCollabSignin
 title: PeerCollabSignin function
-author: windows-driver-content
+author: windows-sdk-content
 description: Signs the peer into a hosted Internet (serverless presence) or subnet (&#0034;People Near Me&#0034;) peer collaboration network presence provider.
 old-location: p2p\peercollabsignin.htm
 old-project: P2PSdk
 ms.assetid: 927cccfa-2711-439c-833f-348087927c09
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerCollabSignin, PeerCollabSignin function [Peer Networking], p2p.peercollabsignin, p2p/PeerCollabSignin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

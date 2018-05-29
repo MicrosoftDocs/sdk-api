@@ -1,16 +1,16 @@
 ---
 UID: NF:roerrorapi.RoResolveRestrictedErrorInfoReference
 title: RoResolveRestrictedErrorInfoReference function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the IRestrictedErrorInfo interface pointer based on the given reference.
 old-location: winrt\roresolverestrictederrorinforeference.htm
 old-project: WinRT
 ms.assetid: 2F5C5A84-502C-4BD1-A01F-8F0E9B5857AD
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoResolveRestrictedErrorInfoReference, RoResolveRestrictedErrorInfoReference function [Windows Runtime], roerrorapi/RoResolveRestrictedErrorInfoReference, winrt.roresolverestrictederrorinforeference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roerrorapi.h
 req.include-header: 

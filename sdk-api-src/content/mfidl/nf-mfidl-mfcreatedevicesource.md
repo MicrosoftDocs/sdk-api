@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateDeviceSource
 title: MFCreateDeviceSource function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a media source for a hardware capture device.
 old-location: mf\mfcreatedevicesource.htm
 old-project: medfound
 ms.assetid: 9f80b604-1cc2-4d0d-b94e-a2b9dab1fdde
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateDeviceSource, MFCreateDeviceSource function [Media Foundation], mf.mfcreatedevicesource, mfidl/MFCreateDeviceSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

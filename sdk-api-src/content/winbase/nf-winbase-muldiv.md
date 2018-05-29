@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.MulDiv
 title: MulDiv function
-author: windows-driver-content
+author: windows-sdk-content
 description: Multiplies two 32-bit values and then divides the 64-bit result by a third 32-bit value.
 old-location: winprog\muldiv.htm
 old-project: WinProg
 ms.assetid: 30419ce3-3874-4066-91c8-7f63dfb50169
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: MulDiv, MulDiv function [Windows API], _win32_muldiv, winbase/MulDiv, winprog.muldiv
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

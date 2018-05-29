@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.SetDialogDpiChangeBehavior
 title: SetDialogDpiChangeBehavior function
-author: windows-driver-content
+author: windows-sdk-content
 description: Dialogs in Per-Monitor v2 contexts are automatically DPI scaled. This method lets you customize their DPI change behavior.
 old-location: hidpi\setdialogdpichangebehavior.htm
 old-project: hidpi
 ms.assetid: 48A13F57-9D82-4F79-962B-FBD02FFF9B39
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.author: windowssdkdev
+ms.date: 03/29/2018
 ms.keywords: SetDialogDpiChangeBehavior, SetDialogDpiChangeBehavior function [High DPI], hidpi.setdialogdpichangebehavior, winuser/SetDialogDpiChangeBehavior
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

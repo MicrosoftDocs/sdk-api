@@ -1,16 +1,16 @@
 ---
 UID: NF:docobj.IPrint.Print
 title: IPrint::Print
-author: windows-driver-content
+author: windows-sdk-content
 description: Prints an object on the specified printer, using the specified job requirements.
 old-location: com\iprint_print.htm
 old-project: com
 ms.assetid: 30554d89-ad80-4d73-b44a-97ae5079feb8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPrint interface [COM],Print method, IPrint.Print, IPrint::Print, PRINTFLAG_DONTACTUALLYPRINT, PRINTFLAG_FORCEPROPERTIES, PRINTFLAG_MAYBOTHERUSER, PRINTFLAG_PRINTTOFILE, PRINTFLAG_PROMPTUSER, PRINTFLAG_RECOMPOSETODEVICE, PRINTFLAG_USERMAYCHANGEPRINTER, Print, Print method [COM], Print method [COM],IPrint interface, _ctrl_iprint_print, com.iprint_print, docobj/IPrint::Print
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: docobj.h
 req.include-header: 

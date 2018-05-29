@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.EnumDisplaySettingsExA
 title: EnumDisplaySettingsExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumDisplaySettingsEx function retrieves information about one of the graphics modes for a display device. To retrieve information for all the graphics modes for a display device, make a series of calls to this function.
 old-location: gdi\enumdisplaysettingsex.htm
 old-project: gdi
 ms.assetid: 99794fb1-7ba3-4864-bf6a-e3a514fa7917
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EDS_RAWMODE, EDS_ROTATEDMODE, ENUM_CURRENT_SETTINGS, ENUM_REGISTRY_SETTINGS, EnumDisplaySettingsEx, EnumDisplaySettingsEx function [Windows GDI], EnumDisplaySettingsExA, EnumDisplaySettingsExW, _win32_EnumDisplaySettingsEx, gdi.enumdisplaysettingsex, winuser/EnumDisplaySettingsEx, winuser/EnumDisplaySettingsExA, winuser/EnumDisplaySettingsExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

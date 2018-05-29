@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.GetLogicalDrives
 title: GetLogicalDrives function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a bitmask representing the currently available disk drives.
 old-location: fs\getlogicaldrives.htm
 old-project: FileIO
 ms.assetid: 21a66050-3bab-4c70-9003-3b52e8c72b00
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetLogicalDrives, GetLogicalDrives function [Files], _win32_getlogicaldrives, base.getlogicaldrives, fileapi/GetLogicalDrives, fs.getlogicaldrives, winbase/GetLogicalDrives
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:xapobase.CXAPOParametersBase.OnSetParameters
 title: CXAPOParametersBase::OnSetParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by IXAPOParameters::SetParameters to allow for user-defined parameter validation.
 old-location: xaudio2\cxapoparametersbase_onsetparameters.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapoparameterbase.CXAPOParametersBase.OnSetParameters(const void,UINT32)
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: CXAPOParametersBase interface [XAudio2 Audio Mixing APIs],OnSetParameters method, CXAPOParametersBase.OnSetParameters, CXAPOParametersBase::OnSetParameters, OnSetParameters, OnSetParameters method [XAudio2 Audio Mixing APIs], OnSetParameters method [XAudio2 Audio Mixing APIs],CXAPOParametersBase interface, xapobase/CXAPOParametersBase::OnSetParameters, xaudio2.cxapoparametersbase_onsetparameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xapobase.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mftransform.IMFTransform.ProcessInput
 title: IMFTransform::ProcessInput
-author: windows-driver-content
+author: windows-sdk-content
 description: Delivers data to an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_processinput.htm
 old-project: medfound
 ms.assetid: c94d406b-7cd9-42d4-ae9e-3d21dbb47209
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFTransform interface [Media Foundation],ProcessInput method, IMFTransform.ProcessInput, IMFTransform::ProcessInput, ProcessInput, ProcessInput method [Media Foundation], ProcessInput method [Media Foundation],IMFTransform interface, c94d406b-7cd9-42d4-ae9e-3d21dbb47209, mf.imftransform_processinput, mftransform/IMFTransform::ProcessInput
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mftransform.h
 req.include-header: 

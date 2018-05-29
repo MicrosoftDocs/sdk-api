@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetFillBrushLocal
 title: IXpsOMPath::SetFillBrushLocal
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the pointer to the local, unshared IXpsOMBrush interface to be used as the fill brush.
 old-location: xps\ixpsompath_setfillbrushlocal.htm
 old-project: printdocs
 ms.assetid: ddec7d68-16a5-4c34-87c1-6a5de97aaa0c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetFillBrushLocal method, IXpsOMPath.SetFillBrushLocal, IXpsOMPath::SetFillBrushLocal, SetFillBrushLocal, SetFillBrushLocal method [XPS Documents and Packaging], SetFillBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setfillbrushlocal, xpsobjectmodel/IXpsOMPath::SetFillBrushLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:prsht.PropSheet_CancelToClose
 title: PropSheet_CancelToClose macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Used when changes made since the most recent PSN_APPLY notification cannot be canceled. You can also send a PSM_CANCELTOCLOSE message explicitly.
 old-location: controls\PropSheet_CancelToClose.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_canceltoclose.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropSheet_CancelToClose, PropSheet_CancelToClose macro [Windows Controls], _win32_PropSheet_CancelToClose, _win32_PropSheet_CancelToClose_cpp, controls.PropSheet_CancelToClose, controls._win32_PropSheet_CancelToClose, prsht/PropSheet_CancelToClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

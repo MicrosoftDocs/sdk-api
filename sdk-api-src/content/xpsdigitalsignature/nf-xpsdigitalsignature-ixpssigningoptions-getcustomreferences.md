@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetCustomReferences
 title: IXpsSigningOptions::GetCustomReferences
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to an IOpcSignatureReferenceSet interface, which contains a set of signature custom references.
 old-location: xps\ixpssigningoptions_getcustomreferences.htm
 old-project: printdocs
 ms.assetid: 1a9ab939-4581-40a9-acd3-2afe02c5e201
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetCustomReferences, GetCustomReferences method [XPS Documents and Packaging], GetCustomReferences method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetCustomReferences method, IXpsSigningOptions.GetCustomReferences, IXpsSigningOptions::GetCustomReferences, xps.ixpssigningoptions_getcustomreferences, xpsdigitalsignature/IXpsSigningOptions::GetCustomReferences
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

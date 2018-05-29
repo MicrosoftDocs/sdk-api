@@ -1,16 +1,16 @@
 ---
 UID: NF:netsh.RegisterHelper
 title: RegisterHelper function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is called from within a helper's exposed InitHelperDll function, and registers the helper with the NetShell context.
 old-location: netshell\registerhelper.htm
 old-project: NetShell
 ms.assetid: 9c9ac64a-6edd-4348-80c7-4192726e5108
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: RegisterHelper, RegisterHelper function [NetShell], _netsh_registerhelper, netsh/RegisterHelper, netshell.registerhelper
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netsh.h
 req.include-header: 

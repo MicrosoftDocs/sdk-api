@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.GetEvent
 title: IWSDAsyncResult::GetEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a WSD_EVENT structure that contains the result of the event.
 old-location: ncd\iwsdasyncresult_getevent_method.htm
 old-project: WsdApi
 ms.assetid: de201c8b-9052-42f9-b95d-3b65cf0c86a3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetEvent, GetEvent method, GetEvent method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetEvent method, IWSDAsyncResult.GetEvent, IWSDAsyncResult::GetEvent, ncd.iwsdasyncresult_getevent_method, wsdclient/IWSDAsyncResult::GetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

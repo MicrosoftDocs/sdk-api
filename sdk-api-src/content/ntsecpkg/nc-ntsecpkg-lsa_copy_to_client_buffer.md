@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_COPY_TO_CLIENT_BUFFER
 title: LSA_COPY_TO_CLIENT_BUFFER
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies information from a buffer in the current process into a client process's address space.
 old-location: security\copytoclientbuffer.htm
 old-project: SecAuthN
 ms.assetid: 53ea2c99-7934-447d-9ec5-e88ee925ca89
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CopyToClientBuffer, CopyToClientBuffer function [Security], LSA_COPY_TO_CLIENT_BUFFER, _lsa_copytoclientbuffer, ntsecpkg/CopyToClientBuffer, security.copytoclientbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

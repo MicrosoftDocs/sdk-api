@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiDetermineApplicablePatchesW
 title: MsiDetermineApplicablePatchesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiDetermineApplicablePatches function takes a set of patch files, XML files, and XML blobs and determines which patches apply to a specified Windows Installer package and in what sequence.
 old-location: setup\msidetermineapplicablepatches.htm
 old-project: Msi
 ms.assetid: 2362d1dd-695e-48a3-b8ef-4516952ed253
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiDetermineApplicablePatches, MsiDetermineApplicablePatches function, MsiDetermineApplicablePatchesA, MsiDetermineApplicablePatchesW, msi/MsiDetermineApplicablePatches, msi/MsiDetermineApplicablePatchesA, msi/MsiDetermineApplicablePatchesW, setup.msidetermineapplicablepatches
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

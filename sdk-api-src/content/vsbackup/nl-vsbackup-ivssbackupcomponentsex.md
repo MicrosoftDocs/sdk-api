@@ -1,16 +1,16 @@
 ---
 UID: NL:vsbackup.IVssBackupComponentsEx
 title: IVssBackupComponentsEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for requesters to run backup and restore operations using multiple writer instances.
 old-location: base\ivssbackupcomponentsex.htm
 old-project: VSS
 ms.assetid: d3a265ab-39cc-4861-9191-9ecf094d8826
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssBackupComponentsEx, IVssBackupComponentsEx interface [VSS], IVssBackupComponentsEx interface [VSS],described, base.ivssbackupcomponentsex, vsbackup/IVssBackupComponentsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

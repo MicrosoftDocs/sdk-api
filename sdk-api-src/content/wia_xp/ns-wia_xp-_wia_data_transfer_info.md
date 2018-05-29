@@ -1,16 +1,16 @@
 ---
 UID: NS:wia_xp._WIA_DATA_TRANSFER_INFO
 title: "_WIA_DATA_TRANSFER_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WIA_DATA_TRANSFER_INFO structure is used by applications to describe the buffer used to retrieve bands of data from Windows Image Acquisition (WIA) devices. It is primarily used in conjunction with the methods of the IWiaDataTransfer interface.
 old-location: wia\_wia_WIA_DATA_TRANSFER_INFO.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_data_transfer_info.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: "*PWIA_DATA_TRANSFER_INFO, PWIA_DATA_TRANSFER_INFO, PWIA_DATA_TRANSFER_INFO structure pointer [WIA], WIA_DATA_TRANSFER_INFO, WIA_DATA_TRANSFER_INFO structure [WIA], _WIA_DATA_TRANSFER_INFO, _wia_WIA_DATA_TRANSFER_INFO, wia._wia_WIA_DATA_TRANSFER_INFO, wia_xp/PWIA_DATA_TRANSFER_INFO, wia_xp/WIA_DATA_TRANSFER_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wia_xp.h
 req.include-header: Wia.h

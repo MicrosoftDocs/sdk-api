@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.IsOutlineVisible(IN const Point &,IN const Pen,IN const Graphics)
 title: GraphicsPath::IsOutlineVisible(IN const Point &,IN const Pen,IN const Graphics)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the IsOutlineVisible methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsOutlineVisible_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathisoutlinevisiblemethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GraphicsPath.IsOutlineVisible, GraphicsPath.IsOutlineVisible(IN const Point &,IN const Pen,IN const Graphics), GraphicsPath::IsOutlineVisible, GraphicsPath::IsOutlineVisible(IN const Point &,IN const Pen,IN const Graphics), IsOutlineVisible, IsOutlineVisible methods [GDI+], _gdiplus_CLASS_GraphicsPath_IsOutlineVisible_Methods, gdiplus._gdiplus_CLASS_GraphicsPath_IsOutlineVisible_Methods, gdipluspath/IsOutlineVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: 

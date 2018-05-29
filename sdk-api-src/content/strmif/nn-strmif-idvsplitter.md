@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IDVSplitter
 title: IDVSplitter
-author: windows-driver-content
+author: windows-sdk-content
 description: Downgrades the frame rate on a digital video (DV) stream.
 old-location: dshow\idvsplitter.htm
 old-project: DirectShow
 ms.assetid: a7fd27f4-2fc7-4115-b669-b08eed1ec032
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDVSplitter, IDVSplitter interface [DirectShow], IDVSplitter interface [DirectShow],described, IDVSplitterInterface, dshow.idvsplitter, strmif/IDVSplitter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICSectionAccessLevel
 title: WICSectionAccessLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the access level of a Windows Graphics Device Interface (GDI) section.
 old-location: wic\_wic_codec_wicsectionaccesslevel.htm
 old-project: wic
 ms.assetid: 4b08bc8c-d67c-4bc4-a701-2903a971a478
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICSectionAccessLevel, WICSectionAccessLevel enumeration [Windows Imaging Component], WICSectionAccessLevelRead, WICSectionAccessLevelReadWrite, _wic_codec_wicsectionaccesslevel, wic._wic_codec_wicsectionaccesslevel, wincodec/WICSectionAccessLevel, wincodec/WICSectionAccessLevelRead, wincodec/WICSectionAccessLevelReadWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

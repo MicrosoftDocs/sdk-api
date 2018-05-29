@@ -1,16 +1,16 @@
 ---
 UID: NN:unknwn.IClassFactory
 title: IClassFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a class of objects to be created.
 old-location: com\iclassfactory.htm
 old-project: com
 ms.assetid: f624f833-2b69-43bc-92cd-c4ecbe6051c5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IClassFactory, IClassFactory interface [COM], IClassFactory interface [COM],described, _com_iclassfactory, com.iclassfactory, unknwnbase/IClassFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: unknwn.h
 req.include-header: Unknwn.h

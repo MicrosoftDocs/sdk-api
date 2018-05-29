@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICPixelFormatInfo2
 title: IWICPixelFormatInfo2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends IWICPixelFormatInfo by providing additional information about a pixel format.
 old-location: wic\_wic_codec_iwicpixelformatinfo2.htm
 old-project: wic
 ms.assetid: 6c36fb08-f0c7-4654-bd8e-ef8ef737bc41
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICPixelFormatInfo2, IWICPixelFormatInfo2 interface [Windows Imaging Component], IWICPixelFormatInfo2 interface [Windows Imaging Component],described, _wic_codec_iwicpixelformatinfo2, wic._wic_codec_iwicpixelformatinfo2, wincodec/IWICPixelFormatInfo2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

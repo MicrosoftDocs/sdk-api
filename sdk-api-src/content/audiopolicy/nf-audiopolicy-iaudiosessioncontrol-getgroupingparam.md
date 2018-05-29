@@ -1,16 +1,16 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.GetGroupingParam
 title: IAudioSessionControl::GetGroupingParam
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetGroupingParam method retrieves the grouping parameter of the audio session.
 old-location: coreaudio\iaudiosessioncontrol_getgroupingparam.htm
 old-project: CoreAudio
 ms.assetid: d636aad7-c8b3-4179-ac32-5cb283611499
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetGroupingParam, GetGroupingParam method [Core Audio], GetGroupingParam method [Core Audio],IAudioSessionControl interface, IAudioSessionControl interface [Core Audio],GetGroupingParam method, IAudioSessionControl.GetGroupingParam, IAudioSessionControl::GetGroupingParam, IAudioSessionControlGetGroupingParam, audiopolicy/IAudioSessionControl::GetGroupingParam, coreaudio.iaudiosessioncontrol_getgroupingparam
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevicePropertiesBulk.QueueGetValuesByObjectList
 title: IPortableDevicePropertiesBulk::QueueGetValuesByObjectList
-author: windows-driver-content
+author: windows-sdk-content
 description: The QueueGetValuesByObjectList method queues a request for one or more specified properties from one or more specified objects on the device.
 old-location: wpdsdk\iportabledevicepropertiesbulk_queuegetvaluesbyobjectlist.htm
 old-project: wpd_sdk
 ms.assetid: 0c29777c-4125-46a1-94b2-8d70374e566a
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IPortableDevicePropertiesBulk interface [Windows Portable Devices SDK],QueueGetValuesByObjectList method, IPortableDevicePropertiesBulk.QueueGetValuesByObjectList, IPortableDevicePropertiesBulk::QueueGetValuesByObjectList, IPortableDevicePropertiesBulkQueueGetValuesByObjectList, QueueGetValuesByObjectList, QueueGetValuesByObjectList method [Windows Portable Devices SDK], QueueGetValuesByObjectList method [Windows Portable Devices SDK],IPortableDevicePropertiesBulk interface, portabledeviceapi/IPortableDevicePropertiesBulk::QueueGetValuesByObjectList, wpdsdk.iportabledevicepropertiesbulk_queuegetvaluesbyobjectlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

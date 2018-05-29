@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrStubCall3
 title: NdrStubCall3 function
-author: windows-driver-content
+author: windows-sdk-content
 description: NdrStubCall3 is not intended to be directly called by applications.
 old-location: rpc\ndrstubcall3.htm
 old-project: Rpc
 ms.assetid: 2EBEAD72-DEBE-44D6-9CC1-A9264D8B88C4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrStubCall3, NdrStubCall3 function [RPC], rpc.ndrstubcall3, rpcndr/NdrStubCall3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

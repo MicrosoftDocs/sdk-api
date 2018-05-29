@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateService.get_IssueDate
 title: IUpdateService::get_IssueDate
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the date on which the authorization cabinet file was issued.
 old-location: wua\iupdateservice_issuedate.htm
 old-project: Wua_Sdk
 ms.assetid: b60627ec-2f7c-4845-97ab-74514cb82de5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],IssueDate property, IUpdateService.IssueDate, IUpdateService.get_IssueDate, IUpdateService::IssueDate, IUpdateService::get_IssueDate, IssueDate property [Windows Update Agent], IssueDate property [Windows Update Agent],IUpdateService interface, get_IssueDate, wua.iupdateservice_issuedate, wuapi/IUpdateService::IssueDate, wuapi/IUpdateService::get_IssueDate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

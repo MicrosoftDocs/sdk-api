@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateClass
 title: DhcpCreateClass function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a custom option class.
 old-location: dhcp\dhcpcreateclass.htm
 old-project: DHCP
 ms.assetid: ae30baba-a2cd-4662-a62a-58b59d119dc4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpCreateClass, DhcpCreateClass function [DHCP], dhcp.dhcpcreateclass, dhcpsapi/DhcpCreateClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

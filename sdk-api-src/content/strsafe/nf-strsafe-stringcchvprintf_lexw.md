@@ -1,16 +1,16 @@
 ---
 UID: NF:strsafe.StringCchVPrintf_lExW
 title: StringCchVPrintf_lExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 old-location: menurc\stringcchvprintf_lex.htm
 old-project: menurc
 ms.assetid: 9ba9b785-806d-4a94-9ff4-81307dc6d8b9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchVPrintf_lEx, StringCchVPrintf_lEx function [Menus and Other Resources], StringCchVPrintf_lExA, StringCchVPrintf_lExW, menurc.stringcchvprintf_lex, strsafe/StringCchVPrintf_lEx, strsafe/StringCchVPrintf_lExA, strsafe/StringCchVPrintf_lExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 

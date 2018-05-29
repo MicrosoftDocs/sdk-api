@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.DebugBreakProcess
 title: DebugBreakProcess function
-author: windows-driver-content
+author: windows-sdk-content
 description: Causes a breakpoint exception to occur in the specified process. This allows the calling thread to signal the debugger to handle the exception.
 old-location: base\debugbreakprocess.htm
 old-project: Debug
 ms.assetid: db90d46b-fdbc-49c9-ac99-6b1db1db708c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DebugBreakProcess, DebugBreakProcess function, _win32_debugbreakprocess, base.debugbreakprocess, winbase/DebugBreakProcess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

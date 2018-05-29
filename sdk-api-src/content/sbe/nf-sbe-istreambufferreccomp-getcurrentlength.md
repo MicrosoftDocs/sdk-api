@@ -1,16 +1,16 @@
 ---
 UID: NF:sbe.IStreamBufferRecComp.GetCurrentLength
 title: IStreamBufferRecComp::GetCurrentLength
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCurrentLength method retrieves the length of the target file.
 old-location: mstv\istreambufferreccomp_getcurrentlength.htm
 old-project: mstv
 ms.assetid: d482bddc-3754-4d3c-8a9b-c0dc0afb00bb
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCurrentLength, GetCurrentLength method [Microsoft TV Technologies], GetCurrentLength method [Microsoft TV Technologies],IStreamBufferRecComp interface, IStreamBufferRecComp interface [Microsoft TV Technologies],GetCurrentLength method, IStreamBufferRecComp.GetCurrentLength, IStreamBufferRecComp::GetCurrentLength, IStreamBufferRecCompGetCurrentLength, mstv.istreambufferreccomp_getcurrentlength, sbe/IStreamBufferRecComp::GetCurrentLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.GetInstanceOfGlobalStore
 title: ITsSbProvider::GetInstanceOfGlobalStore
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an ITsSbGlobalStore instance of the global store object.
 old-location: termserv\itssbprovider_getinstanceofglobalstore.htm
 old-project: TermServ
 ms.assetid: e6c83775-56e7-4342-a26a-418f472e190f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetInstanceOfGlobalStore, GetInstanceOfGlobalStore method [Remote Desktop Services], GetInstanceOfGlobalStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetInstanceOfGlobalStore method, ITsSbProvider.GetInstanceOfGlobalStore, ITsSbProvider::GetInstanceOfGlobalStore, sbtsv/ITsSbProvider::GetInstanceOfGlobalStore, termserv.itssbprovider_getinstanceofglobalstore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

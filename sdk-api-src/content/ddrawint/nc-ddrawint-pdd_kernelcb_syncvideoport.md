@@ -1,16 +1,16 @@
 ---
 UID: NC:ddrawint.PDD_KERNELCB_SYNCVIDEOPORT
 title: PDD_KERNELCB_SYNCVIDEOPORT
-author: windows-driver-content
+author: windows-sdk-content
 description: The DdSyncVideoPortData callback function sets and modifies VPE object data before it is passed to the video miniport driver.
 old-location: display\ddsyncvideoportdata.htm
 old-project: display
 ms.assetid: 3726a505-c3cf-4784-886e-2f4524fb0c5b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DdSyncVideoPortData, DdSyncVideoPortData callback function [Display Devices], PDD_KERNELCB_SYNCVIDEOPORT, PDD_KERNELCB_SYNCVIDEOPORT callback, ddfncs_828e83a4-4723-4cf5-8eac-8b6b449765c0.xml, ddrawint/DdSyncVideoPortData, display.ddsyncvideoportdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

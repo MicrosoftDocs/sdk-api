@@ -1,16 +1,16 @@
 ---
 UID: NN:propsys.IPropertyDescriptionList
 title: IPropertyDescriptionList
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that extract information from a collection of property descriptions presented as a list.
 old-location: properties\IPropertyDescriptionList.htm
 old-project: properties
 ms.assetid: e0530195-27da-4df7-884f-518e905f3c0e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyDescriptionList, IPropertyDescriptionList interface [Windows Properties], IPropertyDescriptionList interface [Windows Properties],described, _shell_IPropertyDescriptionList, properties.IPropertyDescriptionList, propsys/IPropertyDescriptionList, shell.IPropertyDescriptionList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagHIGHCONTRASTA
 title: tagHIGHCONTRASTA
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the high contrast accessibility feature.
 old-location: winauto\highcontrast.htm
 old-project: WinAuto
 ms.assetid: 0d8ac624-919a-427a-8374-e256eedc6777
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: "*LPHIGHCONTRASTA, HCF_AVAILABLE, HCF_CONFIRMHOTKEY, HCF_HIGHCONTRASTON, HCF_HOTKEYACTIVE, HCF_HOTKEYAVAILABLE, HCF_HOTKEYSOUND, HCF_INDICATOR, HIGHCONTRAST, HIGHCONTRAST structure [Windows Accessibility], HIGHCONTRASTA, LPHIGHCONTRAST, LPHIGHCONTRAST structure pointer [Windows Accessibility], _win32_HIGHCONTRAST_str, msaa.highcontrast, tagACCESSTIMEOUTA, tagACCESSTIMEOUTW, tagHIGHCONTRASTA, winauto.highcontrast, winuser/HIGHCONTRAST, winuser/LPHIGHCONTRAST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

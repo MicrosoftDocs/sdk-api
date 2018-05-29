@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetCLSID
 title: IWICComponentInfo::GetCLSID
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the component's class identifier (CLSID)
 old-location: wic\_wic_codec_iwiccomponentinfo_getclsid.htm
 old-project: wic
 ms.assetid: 63814933-1366-47b9-8cf4-0d8685053a30
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetCLSID, GetCLSID method [Windows Imaging Component], GetCLSID method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetCLSID method, IWICComponentInfo.GetCLSID, IWICComponentInfo::GetCLSID, _wic_codec_iwiccomponentinfo_getclsid, wic._wic_codec_iwiccomponentinfo_getclsid, wincodec/IWICComponentInfo::GetCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

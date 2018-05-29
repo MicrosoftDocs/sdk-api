@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1effects.D2D1_HISTOGRAM_PROP
 title: D2D1_HISTOGRAM_PROP
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifiers for properties of the Histogram effect.
 old-location: direct2d\d2d1_histogram_prop.htm
 old-project: Direct2D
 ms.assetid: 7CBF945C-3BBA-4243-A76B-5CDAC045E79C
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_HISTOGRAM_PROP, D2D1_HISTOGRAM_PROP enumeration [Direct2D], D2D1_HISTOGRAM_PROP_CHANNEL_SELECT, D2D1_HISTOGRAM_PROP_HISTOGRAM_OUTPUT, D2D1_HISTOGRAM_PROP_NUM_BINS, d2d1effects/D2D1_HISTOGRAM_PROP, d2d1effects/D2D1_HISTOGRAM_PROP_CHANNEL_SELECT, d2d1effects/D2D1_HISTOGRAM_PROP_HISTOGRAM_OUTPUT, d2d1effects/D2D1_HISTOGRAM_PROP_NUM_BINS, direct2d.d2d1_histogram_prop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 

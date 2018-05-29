@@ -1,16 +1,16 @@
 ---
 UID: NF:virtdisk.GetVirtualDiskPhysicalPath
 title: GetVirtualDiskPhysicalPath function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the path to the physical device object that contains a virtual hard disk (VHD) or CD or DVD image file (ISO).
 old-location: vhd\getvirtualdiskphysicalpath.htm
 old-project: VStor
 ms.assetid: e17d9b37-c0fc-4513-a224-a918e679707d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetVirtualDiskPhysicalPath, GetVirtualDiskPhysicalPath function [VHD], vhd.getvirtualdiskphysicalpath, virtdisk/GetVirtualDiskPhysicalPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:raseapif._RAS_AUTH_ATTRIBUTE
 title: "_RAS_AUTH_ATTRIBUTE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RAS_AUTH_ATTRIBUTE structure is used to pass authentication attributes, of type RAS_AUTH_ATTRIBUTE_TYPE, during an EAP session.
 old-location: eap\ras_auth_attribute.htm
 old-project: EAP
 ms.assetid: 36659154-de2b-4a94-b25e-b731a4ef9d99
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PRAS_AUTH_ATTRIBUTE, PRAS_AUTH_ATTRIBUTE, PRAS_AUTH_ATTRIBUTE structure pointer [EAP], RAS_AUTH_ATTRIBUTE, RAS_AUTH_ATTRIBUTE structure [EAP], _RAS_AUTH_ATTRIBUTE, _eap_ras_auth_attribute, eap.ras_auth_attribute, raseapif/PRAS_AUTH_ATTRIBUTE, raseapif/RAS_AUTH_ATTRIBUTE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: raseapif.h
 req.include-header: 

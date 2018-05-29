@@ -1,16 +1,16 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_InitialVelocityX
 title: IInertiaProcessor::get_InitialVelocityX
-author: windows-driver-content
+author: windows-sdk-content
 description: The InitialVelocityX property specifies the initial movement of the target object on the horizontal axis.
 old-location: wintouch\iinertiaprocessor_initialvelocityx.htm
 old-project: wintouch
 ms.assetid: 23ae7083-0a78-4628-8a04-f9bd762aac02
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialVelocityX property, IInertiaProcessor.InitialVelocityX, IInertiaProcessor.get_InitialVelocityX, IInertiaProcessor::InitialVelocityX, IInertiaProcessor::get_InitialVelocityX, IInertiaProcessor::put_InitialVelocityX, InitialVelocityX property [Windows Touch], InitialVelocityX property [Windows Touch],IInertiaProcessor interface, get_InitialVelocityX, manipulations/IInertiaProcessor::InitialVelocityX, manipulations/IInertiaProcessor::get_InitialVelocityX, manipulations/IInertiaProcessor::put_InitialVelocityX, wintouch.iinertiaprocessor_initialvelocityx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

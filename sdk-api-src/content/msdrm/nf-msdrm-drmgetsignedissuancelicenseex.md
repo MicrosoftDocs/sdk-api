@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMGetSignedIssuanceLicenseEx
 title: DRMGetSignedIssuanceLicenseEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Acquires a signed issuance license offline.
 old-location: rm\drmgetsignedissuancelicenseex.htm
 old-project: AdRms_Sdk
 ms.assetid: 9d37f69e-e582-4efc-9f17-866f195e439a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMGetSignedIssuanceLicenseEx, DRMGetSignedIssuanceLicenseEx function [Active Directory Rights Management Services SDK 1.0], DRM_AUTO_GENERATE_KEY, DRM_OWNER_LICENSE_NOPERSIST, DRM_REUSE_KEY, DRM_SIGN_CANCEL, DRM_SIGN_OFFLINE, msdrm/DRMGetSignedIssuanceLicenseEx, rm.drmgetsignedissuancelicenseex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

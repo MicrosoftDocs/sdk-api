@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetGraphicsRootDescriptorTable
 title: ID3D12GraphicsCommandList::SetGraphicsRootDescriptorTable
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a descriptor table into the graphics root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setgraphicsrootdescriptortable.htm
 old-project: direct3d12
 ms.assetid: AF182E9D-6A85-42B2-ADE4-490756AEDCE7
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRootDescriptorTable method, ID3D12GraphicsCommandList.SetGraphicsRootDescriptorTable, ID3D12GraphicsCommandList::SetGraphicsRootDescriptorTable, SetGraphicsRootDescriptorTable, SetGraphicsRootDescriptorTable method, SetGraphicsRootDescriptorTable method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRootDescriptorTable, direct3d12.id3d12graphicscommandlist_setgraphicsrootdescriptortable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

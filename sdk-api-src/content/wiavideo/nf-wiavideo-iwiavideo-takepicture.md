@@ -1,16 +1,16 @@
 ---
 UID: NF:wiavideo.IWiaVideo.TakePicture
 title: IWiaVideo::TakePicture
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWiaVideo::TakePicture method extracts a still image from the video stream, and saves the image as a JPEG file.
 old-location: wia\_wia_IWiaVideo_TakePicture.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\takepicture.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IWiaVideo interface [WIA],TakePicture method, IWiaVideo.TakePicture, IWiaVideo::TakePicture, TakePicture, TakePicture method [WIA], TakePicture method [WIA],IWiaVideo interface, _wia_IWiaVideo_TakePicture, wia._wia_IWiaVideo_TakePicture, wiavideo/IWiaVideo::TakePicture
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wiavideo.h
 req.include-header: 

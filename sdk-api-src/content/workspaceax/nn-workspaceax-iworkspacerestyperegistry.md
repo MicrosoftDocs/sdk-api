@@ -1,16 +1,16 @@
 ---
 UID: NN:workspaceax.IWorkspaceResTypeRegistry
 title: IWorkspaceResTypeRegistry
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that allow a plug-in to manage third-party file name extensions in RemoteApp and Desktop Connection runtime.
 old-location: termserv\iworkspacerestyperegistry.htm
 old-project: TermServ
 ms.assetid: bea617a0-cd64-4c77-af27-b418178e3dad
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWorkspaceResTypeRegistry, IWorkspaceResTypeRegistry interface [Remote Desktop Services], IWorkspaceResTypeRegistry interface [Remote Desktop Services],described, termserv.iworkspacerestyperegistry, workspaceax/IWorkspaceResTypeRegistry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: workspaceax.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmGetCandidateWindow
 title: ImmGetCandidateWindow function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the candidates window.
 old-location: intl\immgetcandidatewindow.htm
 old-project: Intl
 ms.assetid: 39800693-0eb5-4807-94b2-d11e6f98ba2c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmGetCandidateWindow, ImmGetCandidateWindow function [Internationalization for Windows Applications], _win32_ImmGetCandidateWindow, imm/ImmGetCandidateWindow, intl.immgetcandidatewindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winfax.FaxEnableRoutingMethodW
 title: FaxEnableRoutingMethodW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FaxEnableRoutingMethod function enables or disables a fax routing method for a specific fax device. A fax administration application typically calls this function for device management.
 old-location: fax\_mfax_faxenableroutingmethod.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9ov8.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxEnableRoutingMethod, FaxEnableRoutingMethod function [Fax Service], FaxEnableRoutingMethodA, FaxEnableRoutingMethodW, _mfax_faxenableroutingmethod, fax._mfax_faxenableroutingmethod, winfax/FaxEnableRoutingMethod, winfax/FaxEnableRoutingMethodA, winfax/FaxEnableRoutingMethodW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

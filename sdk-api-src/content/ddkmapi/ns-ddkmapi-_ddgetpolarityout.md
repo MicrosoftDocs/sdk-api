@@ -1,16 +1,16 @@
 ---
 UID: NS:ddkmapi._DDGETPOLARITYOUT
 title: "_DDGETPOLARITYOUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDGETPOLARITYOUT structure contains the requested polarity information.
 old-location: display\ddgetpolarityout.htm
 old-project: display
 ms.assetid: f659ceff-39ba-4d74-98f2-ad12be730ffb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPDDGETPOLARITYOUT, DDGETPOLARITYOUT, DDGETPOLARITYOUT structure [Display Devices], LPDDGETPOLARITYOUT, LPDDGETPOLARITYOUT structure pointer [Display Devices], _DDGETPOLARITYOUT, ddkmapi/DDGETPOLARITYOUT, ddkmapi/LPDDGETPOLARITYOUT, ddstrcts_fa20dcb8-4818-4c9d-8378-93c0fda09eff.xml, display.ddgetpolarityout"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.ISCPSecureQuery
 title: ISCPSecureQuery
-author: windows-driver-content
+author: windows-sdk-content
 description: The ISCPSecureQuery interface is queried by Windows Media Device Manager to determine ownership of secured content.
 old-location: wmdm\iscpsecurequery.htm
 old-project: WMDM
 ms.assetid: d5f96629-26a1-4e83-a6a8-2d60c463f407
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISCPSecureQuery, ISCPSecureQuery interface [windows Media Device Manager], ISCPSecureQuery interface [windows Media Device Manager],described, ISCPSecureQueryInterface, mswmdm/ISCPSecureQuery, wmdm.iscpsecurequery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

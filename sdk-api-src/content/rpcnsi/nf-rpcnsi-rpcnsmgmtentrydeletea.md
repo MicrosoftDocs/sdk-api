@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtEntryDeleteA
 title: RpcNsMgmtEntryDeleteA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsMgmtEntryDelete function deletes a name service&#8211;database entry.
 old-location: rpc\rpcnsmgmtentrydelete.htm
 old-project: Rpc
 ms.assetid: 65d04a7c-e42c-4956-a953-b9aec95254e0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsMgmtEntryDelete, RpcNsMgmtEntryDelete function [RPC], RpcNsMgmtEntryDeleteA, RpcNsMgmtEntryDeleteW, _rpc_rpcnsmgmtentrydelete, rpc.rpcnsmgmtentrydelete, rpcnsi/RpcNsMgmtEntryDelete, rpcnsi/RpcNsMgmtEntryDeleteA, rpcnsi/RpcNsMgmtEntryDeleteW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

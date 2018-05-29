@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_OldCertificate
 title: IX509CertificateRequestPkcs10::get_OldCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the certificate passed to the InitializeFromCertificate method.
 old-location: security\ix509certificaterequestpkcs10_oldcertificate_property.htm
 old-project: SecCertEnroll
 ms.assetid: 8bb15b5c-e642-477d-bcec-772748e336ef
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],OldCertificate property, IX509CertificateRequestPkcs10.OldCertificate, IX509CertificateRequestPkcs10.get_OldCertificate, IX509CertificateRequestPkcs10::OldCertificate, IX509CertificateRequestPkcs10::get_OldCertificate, OldCertificate property [Security], OldCertificate property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::OldCertificate, certenroll/IX509CertificateRequestPkcs10::get_OldCertificate, get_OldCertificate, security.ix509certificaterequestpkcs10_oldcertificate_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

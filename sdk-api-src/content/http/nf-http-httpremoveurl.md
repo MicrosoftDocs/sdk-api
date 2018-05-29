@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HttpRemoveUrl
 title: HttpRemoveUrl function
-author: windows-driver-content
+author: windows-sdk-content
 description: Causes the system to stop routing requests that match a specified UrlPrefix string to a specified request queue.
 old-location: http\httpremoveurl.htm
 old-project: Http
 ms.assetid: 21740d08-c280-44c1-8efb-1d21b4006039
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HttpRemoveUrl, HttpRemoveUrl function [HTTP], _http_httpremoveurl, http.httpremoveurl, http/HttpRemoveUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: http.h
 req.include-header: 

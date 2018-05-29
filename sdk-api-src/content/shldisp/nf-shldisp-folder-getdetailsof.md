@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.Folder.GetDetailsOf
 title: Folder::GetDetailsOf
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves details about an item in a folder. For example, its size, type, or the time of its last modification.
 old-location: shell\Folder_GetDetailsOf.htm
 old-project: shell
 ms.assetid: d2fe4550-f171-40d9-8bce-065b61826997
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Folder object [Windows Shell],GetDetailsOf method, Folder.GetDetailsOf, Folder::GetDetailsOf, GetDetailsOf, GetDetailsOf method [Windows Shell], GetDetailsOf method [Windows Shell],Folder object, _win32_Folder_GetDetailsOf, shell.Folder_GetDetailsOf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: Shldisp.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetTableDescriptionBytes
 title: IIsdbSIParameterDescriptor::GetTableDescriptionBytes
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets description data from a table descriptor in a service information (SI) parameter descriptor.
 old-location: mstv\iisdbsiparameterdescriptor_gettabledescriptionbytes.htm
 old-project: mstv
 ms.assetid: dd73b221-b7b5-43c8-bbdf-f1ea559a0a4e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTableDescriptionBytes, GetTableDescriptionBytes method [Microsoft TV Technologies], GetTableDescriptionBytes method [Microsoft TV Technologies],IIsdbSIParameterDescriptor interface, IIsdbSIParameterDescriptor interface [Microsoft TV Technologies],GetTableDescriptionBytes method, IIsdbSIParameterDescriptor.GetTableDescriptionBytes, IIsdbSIParameterDescriptor::GetTableDescriptionBytes, dvbsiparser/IIsdbSIParameterDescriptor::GetTableDescriptionBytes, mstv.iisdbsiparameterdescriptor_gettabledescriptionbytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

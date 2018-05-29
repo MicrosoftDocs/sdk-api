@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FLOATOBJ_Sub
 title: FLOATOBJ_Sub function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FLOATOBJ_Sub function subtracts the second FLOATOBJ from the first, and returns with the result in the first parameter.
 old-location: display\floatobj_sub.htm
 old-project: display
 ms.assetid: 0ba6edfa-2de6-4eaa-8853-0e20c01cedf8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FLOATOBJ_Sub, FLOATOBJ_Sub function [Display Devices], display.floatobj_sub, gdifncs_b1e31de5-5ada-4dc0-9946-a758cae47594.xml, winddi/FLOATOBJ_Sub
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

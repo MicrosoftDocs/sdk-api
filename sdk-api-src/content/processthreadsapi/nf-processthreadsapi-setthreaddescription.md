@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.SetThreadDescription
 title: SetThreadDescription function
-author: windows-driver-content
+author: windows-sdk-content
 description: Assigns a description to a thread.
 old-location: base\setthreaddescription.htm
 old-project: ProcThread
 ms.assetid: 0C17C60A-8DC9-4DB1-A3ED-5AFEBE598CBB
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetThreadDescription, SetThreadDescription function, base.setthreaddescription, processthreadsapi/SetThreadDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: 

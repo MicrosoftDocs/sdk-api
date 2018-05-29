@@ -1,16 +1,16 @@
 ---
 UID: NS:windns._DNS_QUERY_RESULT
 title: "_DNS_QUERY_RESULT"
-author: windows-driver-content
+author: windows-sdk-content
 description: A DNS_QUERY_RESULT structure contains the DNS query results returned from a call to DnsQueryEx.
 old-location: dns\dns_query_result.htm
 old-project: DNS
 ms.assetid: 03EB1DC2-FAB0-45C5-B438-E8FFDD218F09
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PDNS_QUERY_RESULT, DNS_QUERY_REQUEST_VERSION1, DNS_QUERY_RESULT, DNS_QUERY_RESULT structure [DNS], PDNS_QUERY_RESULT, PDNS_QUERY_RESULT structure pointer [DNS], _DNS_QUERY_RESULT, dns.dns_query_result, windns/DNS_QUERY_RESULT, windns/PDNS_QUERY_RESULT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

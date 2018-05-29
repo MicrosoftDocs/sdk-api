@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMPushSource
 title: IAMPushSource
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMPushSource interface synchronizes a filter graph that renders a live source.
 old-location: dshow\iampushsource.htm
 old-project: DirectShow
 ms.assetid: 5ab294a8-f250-405c-a589-68998bc04cdf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMPushSource, IAMPushSource interface [DirectShow], IAMPushSource interface [DirectShow],described, IAMPushSourceInterface, dshow.iampushsource, strmif/IAMPushSource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

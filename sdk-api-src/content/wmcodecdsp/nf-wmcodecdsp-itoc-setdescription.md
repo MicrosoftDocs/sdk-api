@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.IToc.SetDescription
 title: IToc::SetDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDescription method associates a description with the table of contents.
 old-location: mf\itoc_setdescription.htm
 old-project: medfound
 ms.assetid: 718eb8bd-fdf9-434d-b859-3a38cb8fabee
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IToc interface [Media Foundation],SetDescription method, IToc.SetDescription, IToc::SetDescription, SetDescription, SetDescription method [Media Foundation], SetDescription method [Media Foundation],IToc interface, codecapi.itoc_setdescription, mf.itoc_setdescription, wmcodecdsp/IToc::SetDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

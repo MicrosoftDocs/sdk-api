@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.IUrlAccessor2.GetCodePage
 title: IUrlAccessor2::GetCodePage
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the code page for properties of the URL item.
 old-location: search\_search_IUrlAccessor2_GetCodePage.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor2\getcodepage.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCodePage, GetCodePage method [search], GetCodePage method [search],IUrlAccessor2 interface, GetCodePage method [search],IUrlAccessor4 interface, IUrlAccessor2 interface [search],GetCodePage method, IUrlAccessor2.GetCodePage, IUrlAccessor2::GetCodePage, IUrlAccessor4 interface [search],GetCodePage method, IUrlAccessor4::GetCodePage, _search_IUrlAccessor2_GetCodePage, search._search_IUrlAccessor2_GetCodePage, searchapi/IUrlAccessor2::GetCodePage, searchapi/IUrlAccessor4::GetCodePage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

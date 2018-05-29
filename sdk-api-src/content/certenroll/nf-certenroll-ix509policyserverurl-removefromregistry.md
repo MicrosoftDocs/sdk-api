@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.RemoveFromRegistry
 title: IX509PolicyServerUrl::RemoveFromRegistry
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters a certificate enrollment policy (CEP) server.
 old-location: security\ix509policyserverurl_removefromregistry.htm
 old-project: SecCertEnroll
 ms.assetid: 18f9a445-99db-43b1-bee0-35bfbd1de0a5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],RemoveFromRegistry method, IX509PolicyServerUrl.RemoveFromRegistry, IX509PolicyServerUrl::RemoveFromRegistry, RemoveFromRegistry, RemoveFromRegistry method [Security], RemoveFromRegistry method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::RemoveFromRegistry, security.ix509policyserverurl_removefromregistry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IPlaybackControl
 title: IPlaybackControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables participation in the abnormal handling of server-side playback errors and client-side failures of the Message Queuing delivery mechanism.
 old-location: cos\iplaybackcontrol.htm
 old-project: cossdk
 ms.assetid: 3a528e92-37ac-4108-b52a-557a90da4a47
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IPlaybackControl, IPlaybackControl interface [COM+], IPlaybackControl interface [COM+],described, _cos_IPlaybackControl, comsvcs/IPlaybackControl, cos.iplaybackcontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

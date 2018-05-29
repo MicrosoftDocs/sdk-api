@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IImageInformation.get_Width
 title: IImageInformation::get_Width
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the width of the image, in pixels.
 old-location: wua\iimageinformation_width.htm
 old-project: Wua_Sdk
 ms.assetid: 90379e21-f67b-4c59-b3bf-da6aeefe5b00
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IImageInformation interface [Windows Update Agent],Width property, IImageInformation.Width, IImageInformation.get_Width, IImageInformation::Width, IImageInformation::get_Width, Width property [Windows Update Agent], Width property [Windows Update Agent],IImageInformation interface, get_Width, wua.iimageinformation_width, wuapi/IImageInformation::Width, wuapi/IImageInformation::get_Width
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

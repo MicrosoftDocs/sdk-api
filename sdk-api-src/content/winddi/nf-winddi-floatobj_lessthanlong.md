@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FLOATOBJ_LessThanLong
 title: FLOATOBJ_LessThanLong function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FLOATOBJ_LessThanLong function determines whether the FLOATOBJ is less than the value of type LONG.
 old-location: display\floatobj_lessthanlong.htm
 old-project: display
 ms.assetid: 10665f5d-68ae-4f72-9fa2-c79cf86ded3d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FLOATOBJ_LessThanLong, FLOATOBJ_LessThanLong function [Display Devices], display.floatobj_lessthanlong, gdifncs_ab38a262-384e-441b-8e87-665a29124cba.xml, winddi/FLOATOBJ_LessThanLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

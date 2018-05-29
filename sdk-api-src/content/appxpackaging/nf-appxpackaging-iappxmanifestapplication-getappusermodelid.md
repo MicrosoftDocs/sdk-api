@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxManifestApplication.GetAppUserModelId
 title: IAppxManifestApplication::GetAppUserModelId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the application user model identifier.
 old-location: appxpkg\iappxmanifestapplication_getappusermodelid.htm
 old-project: appxpkg
 ms.assetid: A1CD62B4-A314-43B3-AD80-3EB3EDF63B3D
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetAppUserModelId, GetAppUserModelId method [App packaging and management], GetAppUserModelId method [App packaging and management],IAppxManifestApplication interface, IAppxManifestApplication interface [App packaging and management],GetAppUserModelId method, IAppxManifestApplication.GetAppUserModelId, IAppxManifestApplication::GetAppUserModelId, appxpackaging/IAppxManifestApplication::GetAppUserModelId, appxpkg.iappxmanifestapplication_getappusermodelid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

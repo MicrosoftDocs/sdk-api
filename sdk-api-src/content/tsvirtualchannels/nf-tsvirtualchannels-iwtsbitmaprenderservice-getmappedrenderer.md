@@ -1,16 +1,16 @@
 ---
 UID: NF:tsvirtualchannels.IWTSBitmapRenderService.GetMappedRenderer
 title: IWTSBitmapRenderService::GetMappedRenderer
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the bitmap rendering object used to render media on the server.
 old-location: termserv\iwtsbitmaprenderservice_getmappedrenderer.htm
 old-project: TermServ
 ms.assetid: 1a5f8ddb-eaf6-4138-8bb7-4d513aff88b5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetMappedRenderer, GetMappedRenderer method [Remote Desktop Services], GetMappedRenderer method [Remote Desktop Services],IWTSBitmapRenderService interface, IWTSBitmapRenderService interface [Remote Desktop Services],GetMappedRenderer method, IWTSBitmapRenderService.GetMappedRenderer, IWTSBitmapRenderService::GetMappedRenderer, termserv.iwtsbitmaprenderservice_getmappedrenderer, tsvirtualchannels/IWTSBitmapRenderService::GetMappedRenderer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tsvirtualchannels.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetWhitePointRGB
 title: IWICDevelopRaw::GetWhitePointRGB
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the white point RGB values.
 old-location: wic\_wic_codec_iwicdevelopraw_getwhitepointrgb.htm
 old-project: wic
 ms.assetid: e163ba80-6ed2-4f03-b74f-07c96b478ac0
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetWhitePointRGB, GetWhitePointRGB method [Windows Imaging Component], GetWhitePointRGB method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetWhitePointRGB method, IWICDevelopRaw.GetWhitePointRGB, IWICDevelopRaw::GetWhitePointRGB, _wic_codec_iwicdevelopraw_getwhitepointrgb, wic._wic_codec_iwicdevelopraw_getwhitepointrgb, wincodec/IWICDevelopRaw::GetWhitePointRGB
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

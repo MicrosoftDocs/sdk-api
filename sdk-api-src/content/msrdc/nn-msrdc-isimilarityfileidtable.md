@@ -1,16 +1,16 @@
 ---
 UID: NN:msrdc.ISimilarityFileIdTable
 title: ISimilarityFileIdTable
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods for storing and retrieving similarity file ID information.
 old-location: rdc\isimilarityfileidtable.htm
 old-project: Rdc
 ms.assetid: 539a2e9b-9719-4012-bb7f-4d14723a3695
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISimilarityFileIdTable, ISimilarityFileIdTable interface [Remote Differential Compression], ISimilarityFileIdTable interface [Remote Differential Compression],described, fs.isimilarityfileidtable, msrdc/ISimilarityFileIdTable, rdc.isimilarityfileidtable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

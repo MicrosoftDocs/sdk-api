@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12shader._D3D12_LIBRARY_DESC
 title: "_D3D12_LIBRARY_DESC"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a library.
 old-location: direct3d12\d3d12_library_desc.htm
 old-project: direct3d12
 ms.assetid: 99CB0B61-8494-4591-A3CB-B6DAD19C79ED
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_LIBRARY_DESC, D3D12_LIBRARY_DESC structure, _D3D12_LIBRARY_DESC, d3d12shader/D3D12_LIBRARY_DESC, direct3d12.d3d12_library_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12shader.h
 req.include-header: 

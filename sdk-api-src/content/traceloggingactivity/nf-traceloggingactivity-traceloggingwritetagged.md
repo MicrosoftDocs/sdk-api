@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingWriteTagged
 title: TraceLoggingWriteTagged macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Logs an event with an associated ETW activity id.
 old-location: tracelogging\traceloggingwritetagged.htm
 old-project: tracelogging
 ms.assetid: BBDFC2B1-33C6-4D5F-AA7B-91BB2A757B1E
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingWriteTagged, TraceLoggingWriteTagged macro, tracelogging.traceloggingwritetagged, traceloggingactivity/TraceLoggingWriteTagged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: traceloggingactivity.h
 req.include-header: 

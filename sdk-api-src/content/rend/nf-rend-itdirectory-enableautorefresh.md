@@ -1,16 +1,16 @@
 ---
 UID: NF:rend.ITDirectory.EnableAutoRefresh
 title: ITDirectory::EnableAutoRefresh
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnableAutoRefresh method enables auto refresh for directory objects created after it is called. Only applies to dynamic servers.
 old-location: tapi3\itdirectory_enableautorefresh.htm
 old-project: Tapi
 ms.assetid: f4d55d7c-54b4-44ee-b8f2-f4dd51bf823d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EnableAutoRefresh, EnableAutoRefresh method [TAPI 2.2], EnableAutoRefresh method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],EnableAutoRefresh method, ITDirectory.EnableAutoRefresh, ITDirectory::EnableAutoRefresh, _tapi3_itdirectory_enableautorefresh, rend/ITDirectory::EnableAutoRefresh, tapi3.itdirectory_enableautorefresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rend.h
 req.include-header: 

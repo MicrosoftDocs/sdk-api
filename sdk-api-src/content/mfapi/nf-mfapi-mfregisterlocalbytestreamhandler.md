@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFRegisterLocalByteStreamHandler
 title: MFRegisterLocalByteStreamHandler function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a byte-stream handler in the caller's process.
 old-location: mf\mfregisterlocalbytestreamhandler.htm
 old-project: medfound
 ms.assetid: B41FAA50-9CF7-4DD0-8571-1817C7C49276
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFRegisterLocalByteStreamHandler, MFRegisterLocalByteStreamHandler function [Media Foundation], mf.mfregisterlocalbytestreamhandler, mfapi/MFRegisterLocalByteStreamHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

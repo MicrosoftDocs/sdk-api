@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoCopyProxy
 title: CoCopyProxy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes a private copy of the specified proxy.
 old-location: com\cocopyproxy.htm
 old-project: com
 ms.assetid: 26de7bac-8745-40c0-be0a-dcec88a3ecaf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoCopyProxy, CoCopyProxy function [COM], _com_CoCopyProxy, com.cocopyproxy, combaseapi/CoCopyProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

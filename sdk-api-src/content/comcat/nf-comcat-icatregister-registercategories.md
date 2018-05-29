@@ -1,16 +1,16 @@
 ---
 UID: NF:comcat.ICatRegister.RegisterCategories
 title: ICatRegister::RegisterCategories
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers one or more component categories. Each component category consists of a CATID and a list of locale-dependent description strings.
 old-location: com\icatregister_registercategories.htm
 old-project: com
 ms.assetid: c84a4b00-c43d-488a-b406-3bac2d25dcb8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ICatRegister interface [COM],RegisterCategories method, ICatRegister.RegisterCategories, ICatRegister::RegisterCategories, RegisterCategories, RegisterCategories method [COM], RegisterCategories method [COM],ICatRegister interface, _com_icatregister_registercategories, com.icatregister_registercategories, comcat/ICatRegister::RegisterCategories
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comcat.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarR8FromDec
 title: VarR8FromDec function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a decimal value to a double value.
 old-location: automat\varr8fromdec.htm
 old-project: automat
 ms.assetid: be9d02c5-c6ce-421c-a4dd-1fd453d2be4b
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarR8FromDec, VarR8FromDec function [Automation], _oa96_VarR8FromDec, automat.varr8fromdec, oleauto/VarR8FromDec
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

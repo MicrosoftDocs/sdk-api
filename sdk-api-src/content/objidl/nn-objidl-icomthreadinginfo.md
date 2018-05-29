@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IComThreadingInfo
 title: IComThreadingInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables you to obtain the following information about the apartment and thread that the caller is executing in:\_apartment type, thread type, and thread GUID. It also allows you to specify a thread GUID.
 old-location: com\icomthreadinginfo.htm
 old-project: com
 ms.assetid: fa4c7d82-ec5d-43d6-914e-bba60ad19aa2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IComThreadingInfo, IComThreadingInfo interface [COM], IComThreadingInfo interface [COM],described, _com_icomthreadinginfo_interface, com.icomthreadinginfo, objidlbase/IComThreadingInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

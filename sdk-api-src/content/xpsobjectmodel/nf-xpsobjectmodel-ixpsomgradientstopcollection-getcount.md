@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.GetCount
 title: IXpsOMGradientStopCollection::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of IXpsOMGradientStop interface pointers in the collection.
 old-location: xps\ixpsomgradientstopcollection_getcount.htm
 old-project: printdocs
 ms.assetid: c8f26de2-1237-4c41-bc91-de221739eb76
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, IXpsOMGradientStopCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMGradientStopCollection.GetCount, IXpsOMGradientStopCollection::GetCount, xps.ixpsomgradientstopcollection_getcount, xpsobjectmodel/IXpsOMGradientStopCollection::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

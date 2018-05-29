@@ -1,16 +1,16 @@
 ---
 UID: NF:adshlp.ADsOpenObject
 title: ADsOpenObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Binds to an ADSI object using explicit user name and password credentials.
 old-location: adsi\adsopenobject.htm
 old-project: ADSI
 ms.assetid: c4b85d8e-b33b-47a4-b7d7-5f901f80dce9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADsOpenObject, ADsOpenObject function [ADSI], _ds_adsopenobject, adshlp/ADsOpenObject, adsi.adsopenobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 

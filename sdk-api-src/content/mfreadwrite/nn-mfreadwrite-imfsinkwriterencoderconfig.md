@@ -1,16 +1,16 @@
 ---
 UID: NN:mfreadwrite.IMFSinkWriterEncoderConfig
 title: IMFSinkWriterEncoderConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides additional functionality on the sink writer for dynamically changing the media type and encoder configuration.
 old-location: mf\imfsinkwriterencoderconfig.htm
 old-project: medfound
 ms.assetid: 3a0d090d-9eb1-4624-989b-c5da27b988aa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSinkWriterEncoderConfig, IMFSinkWriterEncoderConfig interface [Media Foundation], IMFSinkWriterEncoderConfig interface [Media Foundation],described, mf.imfsinkwriterencoderconfig, mfreadwrite/IMFSinkWriterEncoderConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfreadwrite.h
 req.include-header: 

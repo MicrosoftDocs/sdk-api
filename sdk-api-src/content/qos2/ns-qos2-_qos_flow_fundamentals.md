@@ -1,16 +1,16 @@
 ---
 UID: NS:qos2._QOS_FLOW_FUNDAMENTALS
 title: "_QOS_FLOW_FUNDAMENTALS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The QOS_FLOW_FUNDAMENTALS structure contains basic information about a flow.
 old-location: qos\qos_flow_fundamentals.htm
 old-project: QOS
 ms.assetid: 3e6cbd5b-8bd3-4f08-9192-35604db5dc3a
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*PQOS_FLOW_FUNDAMENTALS, PQOS_FLOW_FUNDAMENTALS, PQOS_FLOW_FUNDAMENTALS structure pointer [QOS], QOS_FLOW_FUNDAMENTALS, QOS_FLOW_FUNDAMENTALS structure [QOS], _QOS_FLOW_FUNDAMENTALS, qos.qos_flow_fundamentals, qos2/PQOS_FLOW_FUNDAMENTALS, qos2/QOS_FLOW_FUNDAMENTALS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: qos2.h
 req.include-header: 

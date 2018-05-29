@@ -1,16 +1,16 @@
 ---
 UID: NF:tdh.TdhEnumerateProviderFieldInformation
 title: TdhEnumerateProviderFieldInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified field metadata for a given provider.
 old-location: etw\tdhenumerateproviderfieldinformation_func.htm
 old-project: ETW
 ms.assetid: ab34a433-b641-4408-81d5-c93609204d24
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TdhEnumerateProviderFieldInformation, TdhEnumerateProviderFieldInformation function [ETW], etw.tdhenumerateproviderfieldinformation_func, tdh.tdhenumerateproviderfieldinformation_func, tdh/TdhEnumerateProviderFieldInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

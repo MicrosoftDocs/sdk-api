@@ -1,16 +1,16 @@
 ---
 UID: NN:wmcodecdsp.ITocEntryList
 title: ITocEntryList
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITocEntryList interface represents a list of entries in a table of contents. It provides methods for adding entries to, and removing entries from the list.
 old-location: mf\itocentrylist.htm
 old-project: medfound
 ms.assetid: 98052f26-7956-4973-ab86-428e7a355937
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITocEntryList, ITocEntryList interface [Media Foundation], ITocEntryList interface [Media Foundation],described, codecapi.itocentrylist, mf.itocentrylist, wmcodecdsp/ITocEntryList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcodecdsp.h
 req.include-header: 

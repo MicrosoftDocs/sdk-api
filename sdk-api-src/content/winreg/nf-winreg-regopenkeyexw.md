@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.RegOpenKeyExW
 title: RegOpenKeyExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the specified registry key. Note that key names are not case sensitive.
 old-location: base\regopenkeyex.htm
 old-project: SysInfo
 ms.assetid: c8a590f2-3249-437f-a320-c7443d42b792
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: REG_OPTION_OPEN_LINK, RegOpenKeyEx, RegOpenKeyEx function, RegOpenKeyExA, RegOpenKeyExW, _win32_regopenkeyex, base.regopenkeyex, winreg/RegOpenKeyEx, winreg/RegOpenKeyExA, winreg/RegOpenKeyExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

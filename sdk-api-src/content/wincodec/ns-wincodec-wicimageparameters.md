@@ -1,16 +1,16 @@
 ---
 UID: NS:wincodec.WICImageParameters
 title: WICImageParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: This defines parameters that you can use to override the default parameters normally used when encoding an image.
 old-location: wic\wicimageparameters.htm
 old-project: wic
 ms.assetid: 0B461697-C7ED-48C9-A880-1B5F4A26FCFC
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: PWICImageParameters, PWICImageParameters structure pointer [Windows Imaging Component], WICImageParameters, WICImageParameters structure [Windows Imaging Component], wic.wicimageparameters, wincodec/PWICImageParameters, wincodec/WICImageParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IBaseFilter.EnumPins
 title: IBaseFilter::EnumPins
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumPins method enumerates the pins on this filter.
 old-location: dshow\ibasefilter_enumpins.htm
 old-project: DirectShow
 ms.assetid: 02675c93-7901-40f6-a9fc-f6f13f56acca
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EnumPins, EnumPins method [DirectShow], EnumPins method [DirectShow],IBaseFilter interface, IBaseFilter interface [DirectShow],EnumPins method, IBaseFilter.EnumPins, IBaseFilter::EnumPins, IBaseFilterEnumPins, dshow.ibasefilter_enumpins, strmif/IBaseFilter::EnumPins
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

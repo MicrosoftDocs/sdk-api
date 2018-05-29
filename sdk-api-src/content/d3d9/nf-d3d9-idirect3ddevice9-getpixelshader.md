@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetPixelShader
 title: IDirect3DDevice9::GetPixelShader
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the currently set pixel shader.
 old-location: direct3d9\idirect3ddevice9__getpixelshader.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getpixelshader.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 77c70c81-d458-7302-5a4e-9899aad1f456, GetPixelShader, GetPixelShader method [Direct3D 9], GetPixelShader method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetPixelShader method, IDirect3DDevice9.GetPixelShader, IDirect3DDevice9::GetPixelShader, d3d9helper/IDirect3DDevice9::GetPixelShader, direct3d9.idirect3ddevice9__getpixelshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

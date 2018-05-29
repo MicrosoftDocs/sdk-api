@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.IEnumPhone
 title: IEnumPhone
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumPhone interface provides COM-standard enumeration methods for the ITPhone interface. The ITAddress2::EnumeratePhones and ITTAPI2::EnumeratePhones methods return a pointer to IEnumPhone.
 old-location: tapi3\ienumphone.htm
 old-project: Tapi
 ms.assetid: fa12508d-6224-4e11-a4a3-5ce5fff7b735
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumPhone, IEnumPhone interface [TAPI 2.2], IEnumPhone interface [TAPI 2.2],described, _tapi3_ienumphone, tapi3.ienumphone, tapi3if/IEnumPhone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemprov.IWbemUnboundObjectSink.IndicateToConsumer
 title: IWbemUnboundObjectSink::IndicateToConsumer
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by WMI to actually deliver events to a consumer.
 old-location: wmi\iwbemunboundobjectsink_indicatetoconsumer.htm
 old-project: WmiSdk
 ms.assetid: 70fe9976-cfa9-442d-93a4-12293e80d1fa
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemUnboundObjectSink interface [Windows Management Instrumentation],IndicateToConsumer method, IWbemUnboundObjectSink.IndicateToConsumer, IWbemUnboundObjectSink::IndicateToConsumer, IndicateToConsumer, IndicateToConsumer method [Windows Management Instrumentation], IndicateToConsumer method [Windows Management Instrumentation],IWbemUnboundObjectSink interface, _hmm_iwbemunboundobjectsink_indicatetoconsumer, wbemprov/IWbemUnboundObjectSink::IndicateToConsumer, wmi.iwbemunboundobjectsink_indicatetoconsumer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

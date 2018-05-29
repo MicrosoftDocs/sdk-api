@@ -1,16 +1,16 @@
 ---
 UID: NS:digitalv.MCI_DGV_RESERVE_PARMSA
 title: MCI_DGV_RESERVE_PARMSA
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCI_DGV_RESERVE_PARMS structure contains information for the MCI_RESERVE command for digital-video devices.
 old-location: multimedia\mci_dgv_reserve_parms.htm
 old-project: Multimedia
 ms.assetid: f3105822-bdef-4e8d-912c-9d4b8d78cc47
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPMCI_DGV_RESERVE_PARMSA, MCI_DGV_RESERVE_PARMS, MCI_DGV_RESERVE_PARMS structure [Windows Multimedia], MCI_DGV_RESERVE_PARMSA, _win32_MCI_DGV_RESERVE_PARMS_str, digitalv/MCI_DGV_RESERVE_PARMS, multimedia.mci_dgv_reserve_parms"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: digitalv.h
 req.include-header: 

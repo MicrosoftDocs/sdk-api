@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateMPEG4MediaSink
 title: MFCreateMPEG4MediaSink function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a media sink for authoring MP4 files.
 old-location: mf\mfcreatempeg4mediasink.htm
 old-project: medfound
 ms.assetid: e2a7c596-98b1-4c36-ba83-534459b22690
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateMPEG4MediaSink, MFCreateMPEG4MediaSink function [Media Foundation], mf.mfcreatempeg4mediasink, mfidl/MFCreateMPEG4MediaSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

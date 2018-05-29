@@ -1,16 +1,16 @@
 ---
 UID: NF:propidl.StgConvertVariantToProperty
 title: StgConvertVariantToProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a PROPVARIANT data type to a SERIALIZEDPROPERTYVALUE data type.
 old-location: stg\stgconvertvarianttoproperty.htm
 old-project: Stg
 ms.assetid: 3d35b808-4fa6-44ec-9c46-96ceee1dafd0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: StgConvertVariantToProperty, StgConvertVariantToProperty function [Structured Storage], propidl/StgConvertVariantToProperty, stg.stgconvertvarianttoproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propidl.h
 req.include-header: 

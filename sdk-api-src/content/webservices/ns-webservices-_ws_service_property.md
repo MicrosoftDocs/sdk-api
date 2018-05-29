@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_SERVICE_PROPERTY
 title: "_WS_SERVICE_PROPERTY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a service specific setting.
 old-location: wsw\ws_service_property.htm
 old-project: wsw
 ms.assetid: d25cab25-2227-4afe-ae45-93a229d7f78b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SERVICE_PROPERTY, WS_SERVICE_PROPERTY structure [Web Services for Windows], _WS_SERVICE_PROPERTY, webservices/WS_SERVICE_PROPERTY, wsw.ws_service_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

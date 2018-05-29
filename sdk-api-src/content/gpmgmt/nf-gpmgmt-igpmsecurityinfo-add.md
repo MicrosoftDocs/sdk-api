@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.Add
 title: IGPMSecurityInfo::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the permission specified in a GPMPermission object to the GPMSecurityInfo collection. You can add a permission that is above the level of existing permissions. For more information about restrictions that apply, see the following Remarks section.
 old-location: gpmc\igpmsecurityinfo_add.htm
 old-project: GPMC
 ms.assetid: d180a4ed-7c7d-4df9-a2a4-7aab46446283
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Add, Add method [GPMC], Add method [GPMC],GPMSecurityInfo class, Add method [GPMC],IGPMSecurityInfo interface, GPMSecurityInfo class [GPMC],Add method, IGPMSecurityInfo interface [GPMC],Add method, IGPMSecurityInfo.Add, IGPMSecurityInfo::Add, _win32_igpmsecurityinfo_add, gpmc.igpmsecurityinfo_add, gpmgmt/IGPMSecurityInfo::Add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

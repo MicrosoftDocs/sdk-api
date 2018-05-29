@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMediaSample.GetTime
 title: IMediaSample::GetTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetTime method retrieves the stream times at which this sample should begin and finish.
 old-location: dshow\imediasample_gettime.htm
 old-project: DirectShow
 ms.assetid: f5e95ef3-a101-41c4-8947-f099fcd2490e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetTime, GetTime method [DirectShow], GetTime method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetTime method, IMediaSample.GetTime, IMediaSample::GetTime, IMediaSampleGetTime, dshow.imediasample_gettime, strmif/IMediaSample::GetTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

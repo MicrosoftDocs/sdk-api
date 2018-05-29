@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsControllerPort
 title: IVdsControllerPort
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for performing query and configuration operations on a controller port.
 old-location: base\ivdscontrollerport.htm
 old-project: VDS
 ms.assetid: a0ceaf1d-b839-4cf7-b64e-9100f3cf23ef
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
-ms.keywords: IVdsControllerPort, IVdsControllerPort interface [VDS], IVdsControllerPort interface [VDS],described, base.ivdscontrollerport, vds/IVdsControllerPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.author: windowssdkdev
+ms.date: 05/25/2018
+ms.keywords: IVdsControllerPort, IVdsControllerPort interface [VDS], IVdsControllerPort interface [VDS],described, base.ivdscontrollerport, vds/IVdsControllerPort, vdshwprv/IVdsControllerPort
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

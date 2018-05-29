@@ -1,16 +1,16 @@
 ---
 UID: NF:strsafe.StringCchPrintfExW
 title: StringCchPrintfExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes formatted data to the specified string.
 old-location: menurc\stringcchprintfex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchprintfex.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchPrintfEx, StringCchPrintfEx function [Menus and Other Resources], StringCchPrintfExA, StringCchPrintfExW, _shell_StringCchPrintfEx, _shell_stringcchprintfex_cpp, menurc.stringcchprintfex, strsafe/StringCchPrintfEx, strsafe/StringCchPrintfExA, strsafe/StringCchPrintfExW, winui._shell_stringcchprintfex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 

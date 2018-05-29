@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceListDescriptor.GetLength
 title: IDvbServiceListDescriptor::GetLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the descriptor_length field value from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicelistdescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 06c161ce-b830-4375-8ed6-19403857f433
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbServiceListDescriptor interface, IDvbServiceListDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbServiceListDescriptor.GetLength, IDvbServiceListDescriptor::GetLength, dvbsiparser/IDvbServiceListDescriptor::GetLength, mstv.idvbservicelistdescriptor_getlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

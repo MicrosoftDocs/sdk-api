@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.INewWDEvents
 title: INewWDEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the WebWizardHost object by enabling server-side pages hosted in a wizard to verify that the user has been authenticated through a Microsoft account.
 old-location: shell\NewWDEvents.htm
 old-project: shell
 ms.assetid: 44f2431c-82a2-4142-bf20-55fdd0c88008
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INewWDEvents, NewWDEvents, NewWDEvents object [Windows Shell], NewWDEvents object [Windows Shell],described, _shell_NewWDEvents, shell.NewWDEvents, shldisp/NewWDEvents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:codecapi.eAVEncDDHeadphoneMode
 title: eAVEncDDHeadphoneMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies headphone mode for a Dolby Digital audio stream. This enumeration is used with the AVEncDDHeadphoneMode property.
 old-location: dshow\eavencddheadphonemode.htm
 old-project: DirectShow
 ms.assetid: 8739334c-bbaa-482e-9113-d4a885f98913
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: codecapi/eAVEncDDHeadphoneMode, codecapi/eAVEncDDHeadphoneMode_Encoded, codecapi/eAVEncDDHeadphoneMode_NotEncoded, codecapi/eAVEncDDHeadphoneMode_NotIndicated, dshow.eavencddheadphonemode, eAVEncDDHeadphoneMode, eAVEncDDHeadphoneMode enumeration [DirectShow], eAVEncDDHeadphoneMode_Encoded, eAVEncDDHeadphoneMode_NotEncoded, eAVEncDDHeadphoneMode_NotIndicated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

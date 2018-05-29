@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.ISCPSecureAuthenticate2.GetSCPSession
 title: ISCPSecureAuthenticate2::GetSCPSession
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSCPSession method is used to obtain a pointer to the ISCPSecureQuery interface that represents a session object.
 old-location: wmdm\iscpsecureauthenticate2_getscpsession.htm
 old-project: WMDM
 ms.assetid: 7e09d8ea-65aa-427b-a876-00b089659b1b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSCPSession, GetSCPSession method [windows Media Device Manager], GetSCPSession method [windows Media Device Manager],ISCPSecureAuthenticate2 interface, ISCPSecureAuthenticate2 interface [windows Media Device Manager],GetSCPSession method, ISCPSecureAuthenticate2.GetSCPSession, ISCPSecureAuthenticate2::GetSCPSession, ISCPSecureAuthenticate2GetSCPSession, mswmdm/ISCPSecureAuthenticate2::GetSCPSession, wmdm.iscpsecureauthenticate2_getscpsession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

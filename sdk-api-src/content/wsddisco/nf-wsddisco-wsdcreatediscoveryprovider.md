@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.WSDCreateDiscoveryProvider
 title: WSDCreateDiscoveryProvider function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IWSDiscoveryProvider object.
 old-location: ncd\wsdcreatediscoveryprovider_func.htm
 old-project: WsdApi
 ms.assetid: 44275cbe-ea02-41fd-b88d-81d4df966067
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDCreateDiscoveryProvider, WSDCreateDiscoveryProvider function, ncd.wsdcreatediscoveryprovider_func, wsddisco/WSDCreateDiscoveryProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

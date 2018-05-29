@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj_core.NT_FE_CONSOLE_PROPS
 title: NT_FE_CONSOLE_PROPS
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds an extra data block used by IShellLinkDataList. It holds the console's code page.
 old-location: shell\NT_FE_CONSOLE_PROPS_str.htm
 old-project: shell
 ms.assetid: 2f22676d-2b46-4a94-9517-64d1caeead43
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPNT_FE_CONSOLE_PROPS, LPNT_FE_CONSOLE_PROPS, LPNT_FE_CONSOLE_PROPS structure pointer [Windows Shell], NT_FE_CONSOLE_PROPS, NT_FE_CONSOLE_PROPS structure [Windows Shell], _win32_NT_FE_CONSOLE_PROPS_str, shell.NT_FE_CONSOLE_PROPS_str, shlobj_core/LPNT_FE_CONSOLE_PROPS, shlobj_core/NT_FE_CONSOLE_PROPS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

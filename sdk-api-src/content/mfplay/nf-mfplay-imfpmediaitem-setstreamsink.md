@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.SetStreamSink
 title: IMFPMediaItem::SetStreamSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a media sink for the media item.
 old-location: mf\imfpmediaitem_setstreamsink.htm
 old-project: medfound
 ms.assetid: 97ed9cc0-5f69-4ecb-98c7-c58130b91d7c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFPMediaItem interface [Media Foundation],SetStreamSink method, IMFPMediaItem.SetStreamSink, IMFPMediaItem::SetStreamSink, SetStreamSink, SetStreamSink method [Media Foundation], SetStreamSink method [Media Foundation],IMFPMediaItem interface, mf.imfpmediaitem_setstreamsink, mfplay/IMFPMediaItem::SetStreamSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

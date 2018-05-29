@@ -1,16 +1,16 @@
 ---
 UID: NS:mmeapi.tMIXERCONTROLDETAILS_UNSIGNED
 title: tMIXERCONTROLDETAILS_UNSIGNED
-author: windows-driver-content
+author: windows-sdk-content
 description: The MIXERCONTROLDETAILS structure refers to control-detail structures, retrieving or setting state information of an audio mixer control.
 old-location: multimedia\mixercontroldetails.htm
 old-project: Multimedia
 ms.assetid: 171605e0-4bfc-47cf-b667-3e73c172aebd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPMIXERCONTROLDETAILS_UNSIGNED, *PMIXERCONTROLDETAILS_UNSIGNED, 0, 1, MIXERCONTROL cMultipleItems member, MIXERCONTROLDETAILS, MIXERCONTROLDETAILS hwndOwner member, MIXERCONTROLDETAILS structure [Windows Multimedia], MIXERCONTROLDETAILS_BOOLEAN, MIXERCONTROLDETAILS_LISTTEXT, MIXERCONTROLDETAILS_SIGNED, MIXERCONTROLDETAILS_UNSIGNED, MIXERLINE cChannels, _win32_MIXERCONTROLDETAILS_str, mmeapi/MIXERCONTROLDETAILS, multimedia.mixercontroldetails, tMIXERCONTROLDETAILS, tMIXERCONTROLDETAILS_UNSIGNED"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmeapi.h
 req.include-header: 

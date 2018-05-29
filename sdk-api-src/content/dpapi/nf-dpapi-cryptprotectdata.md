@@ -1,16 +1,16 @@
 ---
 UID: NF:dpapi.CryptProtectData
 title: CryptProtectData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs encryption on the data in a DATA_BLOB structure.
 old-location: security\cryptprotectdata.htm
 old-project: SecCrypto
 ms.assetid: 765a68fd-f105-49fc-a738-4a8129eb0770
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPTPROTECT_AUDIT, CRYPTPROTECT_LOCAL_MACHINE, CRYPTPROTECT_UI_FORBIDDEN, CryptProtectData, CryptProtectData function [Security], _crypto2_cryptprotectdata, dpapi/CryptProtectData, security.cryptprotectdata, wincrypt/CryptProtectData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dpapi.h
 req.include-header: 

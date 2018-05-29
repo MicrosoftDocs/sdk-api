@@ -1,16 +1,16 @@
 ---
 UID: NF:dmoimpl.IMediaObjectImpl.OutputTypeSet
 title: IMediaObjectImpl::OutputTypeSet
-author: windows-driver-content
+author: windows-sdk-content
 description: The OutputType method queries whether the media type was set on an output stream.
 old-location: dshow\imediaobjectimpl_outputtypeset.htm
 old-project: DirectShow
 ms.assetid: 4a2a2944-79ff-4173-b938-7b8a1203ec36
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],OutputTypeSet method, IMediaObjectImpl.OutputTypeSet, IMediaObjectImpl::OutputTypeSet, IMediaObjectImplOutputTypeSet, OutputTypeSet, OutputTypeSet method [DirectShow], OutputTypeSet method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::OutputTypeSet, dshow.imediaobjectimpl_outputtypeset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dmoimpl.h
 req.include-header: 

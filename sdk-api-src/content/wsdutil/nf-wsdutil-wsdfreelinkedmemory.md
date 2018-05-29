@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdutil.WSDFreeLinkedMemory
 title: WSDFreeLinkedMemory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a memory block previously allocated with WSDAllocateLinkedMemory.
 old-location: ncd\wsdfreelinkedmemory_func.htm
 old-project: WsdApi
 ms.assetid: 8fe6f586-a262-4248-9650-dec0fae8cd74
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDFreeLinkedMemory, WSDFreeLinkedMemory function, ncd.wsdfreelinkedmemory_func, wsdutil/WSDFreeLinkedMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h

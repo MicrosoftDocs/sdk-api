@@ -1,16 +1,16 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.UnregisterAudioSessionNotification
 title: IAudioSessionControl::UnregisterAudioSessionNotification
-author: windows-driver-content
+author: windows-sdk-content
 description: The UnregisterAudioSessionNotification method deletes a previous registration by the client to receive notifications.
 old-location: coreaudio\iaudiosessioncontrol_unregisteraudiosessionnotification.htm
 old-project: CoreAudio
 ms.assetid: 1b496d58-c855-44b8-b437-6cb6017dcc9d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],UnregisterAudioSessionNotification method, IAudioSessionControl.UnregisterAudioSessionNotification, IAudioSessionControl::UnregisterAudioSessionNotification, IAudioSessionControlUnregisterAudioSessionNotification, UnregisterAudioSessionNotification, UnregisterAudioSessionNotification method [Core Audio], UnregisterAudioSessionNotification method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::UnregisterAudioSessionNotification, coreaudio.iaudiosessioncontrol_unregisteraudiosessionnotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

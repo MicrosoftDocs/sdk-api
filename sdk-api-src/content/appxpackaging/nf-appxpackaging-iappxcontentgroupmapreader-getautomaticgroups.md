@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupMapReader.GetAutomaticGroups
 title: IAppxContentGroupMapReader::GetAutomaticGroups
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the automatic content group(s) from the content group map.
 old-location: appxpkg\iappxcontentgroupmapreader_getautomaticgroups.htm
 old-project: appxpkg
 ms.assetid: 3A5FE3A2-8D0D-4073-94FE-B0AC5DBF2D25
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetAutomaticGroups, GetAutomaticGroups method [App packaging and management], GetAutomaticGroups method [App packaging and management],IAppxContentGroupMapReader interface, IAppxContentGroupMapReader interface [App packaging and management],GetAutomaticGroups method, IAppxContentGroupMapReader.GetAutomaticGroups, IAppxContentGroupMapReader::GetAutomaticGroups, appxpackaging/IAppxContentGroupMapReader::GetAutomaticGroups, appxpkg.iappxcontentgroupmapreader_getautomaticgroups
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

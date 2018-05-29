@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPEvents3.MediaCollectionMediaRemoved
 title: IWMPEvents3::MediaCollectionMediaRemoved
-author: windows-driver-content
+author: windows-sdk-content
 description: The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library.
 old-location: wmp\iwmpevents3_iwmpevents3__mediacollectionmediaremoved.htm
 old-project: WMP
 ms.assetid: c142a5ab-deed-41d0-8ddd-1d2f8a7b9d69
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPEvents3 interface [Windows Media Player],MediaCollectionMediaRemoved method, IWMPEvents3.MediaCollectionMediaRemoved, IWMPEvents3::MediaCollectionMediaRemoved, IWMPEvents3MediaCollectionMediaRemoved, MediaCollectionMediaRemoved, MediaCollectionMediaRemoved method [Windows Media Player], MediaCollectionMediaRemoved method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__mediacollectionmediaremoved, wmp/IWMPEvents3::MediaCollectionMediaRemoved
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

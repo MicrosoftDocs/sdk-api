@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngWaitForSingleObject
 title: EngWaitForSingleObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngWaitForSingleObject function puts the current thread of the display driver into a wait state until the specified event object is set to the signaled state, or until the wait times out.
 old-location: display\engwaitforsingleobject.htm
 old-project: display
 ms.assetid: a2a1c7ad-1e56-45f7-83de-49ebc0d831f9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngWaitForSingleObject, EngWaitForSingleObject function [Display Devices], display.engwaitforsingleobject, gdifncs_12c16d6b-ff3f-4cd4-8d4c-150ab8377dfb.xml, winddi/EngWaitForSingleObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

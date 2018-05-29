@@ -1,16 +1,16 @@
 ---
 UID: NS:mbnapi.MBN_PROVIDER2
 title: MBN_PROVIDER2
-author: windows-driver-content
+author: windows-sdk-content
 description: The MBN_PROVIDER2 structure represents a network service provider. It is used by many of the provider-specific methods of the IMbnMultiCarrier interface and provides an extension to MBN_PROVIDER to support multi-carrier.
 old-location: mbn\mbn_provider2.htm
 old-project: mbn
 ms.assetid: 9D681192-1E40-4314-8E7F-8934AA8162D3
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_PROVIDER2, MBN_PROVIDER2 structure [Microsoft Broadband Networks], mbn.mbn_provider2, mbnapi/MBN_PROVIDER2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 

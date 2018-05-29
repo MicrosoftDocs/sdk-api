@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsGetDomainControllerInfoA
 title: DsGetDomainControllerInfoA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves data about the domain controllers in a domain.
 old-location: ad\dsgetdomaincontrollerinfo.htm
 old-project: AD
 ms.assetid: 52db3b25-e6b0-4a0d-831b-89a203580cf1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: 1, 2, 3, DsGetDomainControllerInfo, DsGetDomainControllerInfo function [Active Directory], DsGetDomainControllerInfoA, DsGetDomainControllerInfoW, _glines_dsgetdomaincontrollerinfo, ad.dsgetdomaincontrollerinfo, ntdsapi/DsGetDomainControllerInfo, ntdsapi/DsGetDomainControllerInfoA, ntdsapi/DsGetDomainControllerInfoW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

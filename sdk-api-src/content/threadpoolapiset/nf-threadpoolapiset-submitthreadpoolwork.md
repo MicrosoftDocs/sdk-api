@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.SubmitThreadpoolWork
 title: SubmitThreadpoolWork function
-author: windows-driver-content
+author: windows-sdk-content
 description: Posts a work object to the thread pool. A worker thread calls the work object's callback function.
 old-location: base\submitthreadpoolwork.htm
 old-project: ProcThread
 ms.assetid: 28df173d-b78c-4158-97d5-63117a2d3967
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SubmitThreadpoolWork, SubmitThreadpoolWork function, base.submitthreadpoolwork, threadpoolapiset/SubmitThreadpoolWork, winbase/SubmitThreadpoolWork
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

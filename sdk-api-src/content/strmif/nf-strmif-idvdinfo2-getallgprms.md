@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetAllGPRMs
 title: IDvdInfo2::GetAllGPRMs
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAllGPRMs method retrieves the current contents of all general parameter registers (GPRMs).
 old-location: dshow\idvdinfo2_getallgprms.htm
 old-project: DirectShow
 ms.assetid: 994f57b5-8514-4768-a679-21133ec92e32
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAllGPRMs, GetAllGPRMs method [DirectShow], GetAllGPRMs method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAllGPRMs method, IDvdInfo2.GetAllGPRMs, IDvdInfo2::GetAllGPRMs, IDvdInfo2GetAllGPRMs, dshow.idvdinfo2_getallgprms, strmif/IDvdInfo2::GetAllGPRMs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

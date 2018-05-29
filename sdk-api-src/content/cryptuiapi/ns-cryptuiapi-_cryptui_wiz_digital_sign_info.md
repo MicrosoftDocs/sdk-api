@@ -1,16 +1,16 @@
 ---
 UID: NS:cryptuiapi._CRYPTUI_WIZ_DIGITAL_SIGN_INFO
 title: "_CRYPTUI_WIZ_DIGITAL_SIGN_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about digital signing.
 old-location: security\cryptui_wiz_digital_sign_info.htm
 old-project: SecCrypto
 ms.assetid: 22d0bc45-0f66-4f5f-87d3-0849c4327eed
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, 0, CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN, CRYPTUI_WIZ_DIGITAL_SIGN_ADD_CHAIN_NO_ROOT, CRYPTUI_WIZ_DIGITAL_SIGN_CERT, CRYPTUI_WIZ_DIGITAL_SIGN_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_INFO structure [Security], CRYPTUI_WIZ_DIGITAL_SIGN_PVK, CRYPTUI_WIZ_DIGITAL_SIGN_STORE, CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_BLOB, CRYPTUI_WIZ_DIGITAL_SIGN_SUBJECT_FILE, PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_INFO structure pointer [Security], _CRYPTUI_WIZ_DIGITAL_SIGN_INFO, cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_INFO, security.cryptui_wiz_digital_sign_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptuiapi.h
 req.include-header: 

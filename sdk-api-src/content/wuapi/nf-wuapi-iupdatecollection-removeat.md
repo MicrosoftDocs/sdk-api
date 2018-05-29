@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateCollection.RemoveAt
 title: IUpdateCollection::RemoveAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the item at the specified index from the collection.
 old-location: wua\iupdatecollection_removeat.htm
 old-project: Wua_Sdk
 ms.assetid: b6d32db8-c935-41f8-a8f3-0730719cac7e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateCollection interface [Windows Update Agent],RemoveAt method, IUpdateCollection.RemoveAt, IUpdateCollection::RemoveAt, RemoveAt, RemoveAt method [Windows Update Agent], RemoveAt method [Windows Update Agent],IUpdateCollection interface, wua.iupdatecollection_removeat, wuapi/IUpdateCollection::RemoveAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

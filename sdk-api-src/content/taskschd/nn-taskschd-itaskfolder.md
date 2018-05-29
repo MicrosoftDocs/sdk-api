@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.ITaskFolder
 title: ITaskFolder
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the methods that are used to register (create) tasks in the folder, remove tasks from the folder, and create or remove subfolders from the folder.
 old-location: taskschd\itaskfolder.htm
 old-project: TaskSchd
 ms.assetid: da0cc808-b284-4d10-be61-d96c5e07d0a8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskFolder, ITaskFolder interface [Task Scheduler], ITaskFolder interface [Task Scheduler],described, taskschd.itaskfolder, taskschd/ITaskFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

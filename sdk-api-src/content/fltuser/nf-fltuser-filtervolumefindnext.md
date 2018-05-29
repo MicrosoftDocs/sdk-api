@@ -1,16 +1,16 @@
 ---
 UID: NF:fltuser.FilterVolumeFindNext
 title: FilterVolumeFindNext function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FilterVolumeFindNext function continues a volume search started by a call to FilterVolumeFindFirst.
 old-location: ifsk\filtervolumefindnext.htm
 old-project: ifsk
 ms.assetid: c18085e9-9781-420e-8070-c71982a2bb46
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: FilterVolumeFindNext, FilterVolumeFindNext function [Installable File System Drivers], FltWin32ApiRef_1a90a670-ab51-4fb7-80ba-72a8b66b3b9a.xml, fltuser/FilterVolumeFindNext, ifsk.filtervolumefindnext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fltuser.h
 req.include-header: FltUser.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ITransactionContext.CreateInstance
 title: ITransactionContext::CreateInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a COM object that can execute within the scope of the transaction that was initiated by the transaction context object.
 old-location: cos\itransactioncontext_createinstance.htm
 old-project: cossdk
 ms.assetid: 3dc08700-0872-4d60-a968-cffed974c7b2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],ITransactionContext interface, ITransactionContext interface [COM+],CreateInstance method, ITransactionContext.CreateInstance, ITransactionContext::CreateInstance, _cos_ITransactionContext_CreateInstance, comsvcs/ITransactionContext::CreateInstance, cos.itransactioncontext_createinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

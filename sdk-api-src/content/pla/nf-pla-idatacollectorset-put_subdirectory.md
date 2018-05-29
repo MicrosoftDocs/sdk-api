@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_Subdirectory
 title: IDataCollectorSet::put_Subdirectory
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets a base subdirectory of the root path where the next instance of the data collector set will write its logs.
 old-location: pla\idatacollectorset_get_subdirectory.htm
 old-project: PLA
 ms.assetid: c2c55fd9-3b29-46be-9792-acb095b1c0e4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],Subdirectory property, IDataCollectorSet.Subdirectory, IDataCollectorSet.put_Subdirectory, IDataCollectorSet::Subdirectory, IDataCollectorSet::get_Subdirectory, IDataCollectorSet::put_Subdirectory, Subdirectory property [PLA], Subdirectory property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_subdirectory, pla.idatacollectorset_get_subdirectory, pla/IDataCollectorSet::Subdirectory, pla/IDataCollectorSet::get_Subdirectory, pla/IDataCollectorSet::put_Subdirectory, put_Subdirectory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

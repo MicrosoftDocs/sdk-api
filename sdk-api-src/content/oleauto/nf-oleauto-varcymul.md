@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarCyMul
 title: VarCyMul function
-author: windows-driver-content
+author: windows-sdk-content
 description: Multiplies two variants of type currency.
 old-location: automat\varcymul.htm
 old-project: automat
 ms.assetid: a7cc06b2-5a19-4ffe-b055-4756a0d305ef
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarCyMul, VarCyMul function [Automation], _oa96_VarCyMul, automat.varcymul, oleauto/VarCyMul
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

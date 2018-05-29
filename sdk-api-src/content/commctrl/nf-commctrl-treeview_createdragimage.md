@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.TreeView_CreateDragImage
 title: TreeView_CreateDragImage macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a dragging bitmap for the specified item in a tree-view control.
 old-location: controls\TreeView_CreateDragImage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_createdragimage.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TreeView_CreateDragImage, TreeView_CreateDragImage macro [Windows Controls], _win32_TreeView_CreateDragImage, _win32_TreeView_CreateDragImage_cpp, commctrl/TreeView_CreateDragImage, controls.TreeView_CreateDragImage, controls._win32_TreeView_CreateDragImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

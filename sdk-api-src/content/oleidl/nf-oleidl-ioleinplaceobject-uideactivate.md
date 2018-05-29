@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleInPlaceObject.UIDeactivate
 title: IOleInPlaceObject::UIDeactivate
-author: windows-driver-content
+author: windows-sdk-content
 description: Deactivates and removes the user interface of an active in-place object.
 old-location: com\ioleinplaceobject_uideactivate.htm
 old-project: com
 ms.assetid: cc42e313-b290-4806-bbad-b49abd937b63
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceObject interface [COM],UIDeactivate method, IOleInPlaceObject.UIDeactivate, IOleInPlaceObject::UIDeactivate, UIDeactivate, UIDeactivate method [COM], UIDeactivate method [COM],IOleInPlaceObject interface, _ole_ioleinplaceobject_uideactivate, com.ioleinplaceobject_uideactivate, oleidl/IOleInPlaceObject::UIDeactivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

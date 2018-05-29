@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHGlobalCounterGetValue
 title: SHGlobalCounterGetValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current value of a global counter.
 old-location: shell\SHGlobalCounterGetValue.htm
 old-project: shell
 ms.assetid: cf158770-c9af-4488-9ed0-486e9a528a65
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGlobalCounterGetValue, SHGlobalCounterGetValue function [Windows Shell], _shell_SHGlobalCounterGetValue, shell.SHGlobalCounterGetValue, shlwapi/SHGlobalCounterGetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

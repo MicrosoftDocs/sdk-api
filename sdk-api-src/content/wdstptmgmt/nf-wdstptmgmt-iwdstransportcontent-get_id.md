@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.get_Id
 title: IWdsTransportContent::get_Id
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives a unique content ID that identifies this content object on the server.
 old-location: wds\iwdstransportcontent_id.htm
 old-project: Wds
 ms.assetid: 16164368-7c46-4d6e-8259-f98ae7f65244
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Id property, IWdsTransportContent.Id, IWdsTransportContent.get_Id, IWdsTransportContent::Id, IWdsTransportContent::get_Id, Id property [Windows Deployment Services], Id property [Windows Deployment Services],IWdsTransportContent interface, get_Id, wds.iwdstransportcontent_id, wdstptmgmt/IWdsTransportContent::Id, wdstptmgmt/IWdsTransportContent::get_Id
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngFntCacheLookUp
 title: EngFntCacheLookUp function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngFntCacheLookUp function retrieves the address of cached font file data.
 old-location: display\engfntcachelookup.htm
 old-project: display
 ms.assetid: daf93826-fdcb-4c9d-ade6-ad4f0ef40ff5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngFntCacheLookUp, EngFntCacheLookUp function [Display Devices], display.engfntcachelookup, gdifncs_2fee1e8e-2cb5-4088-b0aa-f697689fe56f.xml, winddi/EngFntCacheLookUp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsTrimXmlWhitespace
 title: WsTrimXmlWhitespace function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes leading and trailing whitespace from a sequence of characters.
 old-location: wsw\wstrimxmlwhitespace.htm
 old-project: wsw
 ms.assetid: afefbf03-27fc-4e0e-bba2-ce42cf9ab01d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsTrimXmlWhitespace, WsTrimXmlWhitespace function [Web Services for Windows], webservices/WsTrimXmlWhitespace, wsw.wstrimxmlwhitespace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

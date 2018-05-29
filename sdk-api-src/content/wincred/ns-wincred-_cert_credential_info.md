@@ -1,16 +1,16 @@
 ---
 UID: NS:wincred._CERT_CREDENTIAL_INFO
 title: "_CERT_CREDENTIAL_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CERT_CREDENTIAL_INFO structure contains a reference to a certificate.
 old-location: security\cert_credential_info.htm
 old-project: SecAuthN
 ms.assetid: acaa94c3-0562-420a-95c7-44a71374d5ea
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PCERT_CREDENTIAL_INFO, CERT_CREDENTIAL_INFO, CERT_CREDENTIAL_INFO structure [Security], PCERT_CREDENTIAL_INFO, PCERT_CREDENTIAL_INFO structure pointer [Security], _CERT_CREDENTIAL_INFO, _cred_cert_credential_info, security.cert_credential_info, wincred/CERT_CREDENTIAL_INFO, wincred/PCERT_CREDENTIAL_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincred.h
 req.include-header: 

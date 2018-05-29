@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetInterpolationMode
 title: Graphics::SetInterpolationMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The Graphics::SetInterpolationMode method sets the interpolation mode of this Graphics object. The interpolation mode determines the algorithm that is used when images are scaled or rotated.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetInterpolationMode_interpolationMode_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setinterpolationmode.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Graphics class [GDI+],SetInterpolationMode method, Graphics.SetInterpolationMode, Graphics::SetInterpolationMode, SetInterpolationMode, SetInterpolationMode method [GDI+], SetInterpolationMode method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetInterpolationMode_interpolationMode_, gdiplus._gdiplus_CLASS_Graphics_SetInterpolationMode_interpolationMode_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

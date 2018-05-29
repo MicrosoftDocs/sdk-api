@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509NameValuePair.Initialize
 title: IX509NameValuePair::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the object from strings that contain the name and associated value.
 old-location: security\ix509namevaluepair_initialize_method.htm
 old-project: SecCertEnroll
 ms.assetid: 3e935718-a59a-443e-bff2-a010a41e7756
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509NameValuePair interface [Security],Initialize method, IX509NameValuePair.Initialize, IX509NameValuePair::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509NameValuePair interface, certenroll/IX509NameValuePair::Initialize, security.ix509namevaluepair_initialize_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

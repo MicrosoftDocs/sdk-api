@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.put_RandomDelay
 title: IMonthlyDOWTrigger::put_RandomDelay
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a delay time that is randomly added to the start time of the trigger.
 old-location: taskschd\imonthlydowtrigger_randomdelay.htm
 old-project: TaskSchd
 ms.assetid: 1edae183-b0b9-40b6-ba32-227bc0435ee2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IMonthlyDOWTrigger interface [Task Scheduler],RandomDelay property, IMonthlyDOWTrigger.RandomDelay, IMonthlyDOWTrigger.put_RandomDelay, IMonthlyDOWTrigger::RandomDelay, IMonthlyDOWTrigger::get_RandomDelay, IMonthlyDOWTrigger::put_RandomDelay, RandomDelay property [Task Scheduler], RandomDelay property [Task Scheduler],IMonthlyDOWTrigger interface, put_RandomDelay, taskschd.imonthlydowtrigger_randomdelay, taskschd/IMonthlyDOWTrigger::RandomDelay, taskschd/IMonthlyDOWTrigger::get_RandomDelay, taskschd/IMonthlyDOWTrigger::put_RandomDelay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

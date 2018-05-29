@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsServiceIscsi.SetIpsecGroupPresharedKey
 title: IVdsServiceIscsi::SetIpsecGroupPresharedKey
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsserviceiscsi_setipsecgrouppresharedkey.htm
 old-project: VDS
 ms.assetid: 3d386eb3-5897-4ce7-91ab-99cf2bfa93bb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],SetIpsecGroupPresharedKey method, IVdsServiceIscsi.SetIpsecGroupPresharedKey, IVdsServiceIscsi::SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey method [VDS], SetIpsecGroupPresharedKey method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_setipsecgrouppresharedkey, vds/IVdsServiceIscsi::SetIpsecGroupPresharedKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

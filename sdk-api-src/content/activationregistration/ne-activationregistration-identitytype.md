@@ -1,16 +1,16 @@
 ---
 UID: NE:activationregistration.IdentityType
 title: IdentityType
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the kind of activation for an out-of-process server.
 old-location: winrt\identitytype.htm
 old-project: WinRT
 ms.assetid: 17EBFEE2-903A-4B64-A59F-D94E96E4457E
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: ActivateAsActivator, ActivateAsPackage, IdentityType, IdentityType enumeration [Windows Runtime], RunAs, activationregistration/ActivateAsActivator, activationregistration/ActivateAsPackage, activationregistration/IdentityType, activationregistration/RunAs, winrt.identitytype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: activationregistration.h
 req.include-header: 

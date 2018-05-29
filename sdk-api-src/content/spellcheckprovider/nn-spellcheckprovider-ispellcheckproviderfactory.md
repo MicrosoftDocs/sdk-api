@@ -1,16 +1,16 @@
 ---
 UID: NN:spellcheckprovider.ISpellCheckProviderFactory
 title: ISpellCheckProviderFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: A factory for instantiating a spell checker (ISpellCheckProvider) as well as providing functionality for determining which languages are supported.
 old-location: intl\ispellcheckproviderfactory.htm
 old-project: Intl
 ms.assetid: 680EC2D1-740E-40A8-9721-AC53AF17AC09
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISpellCheckProviderFactory, ISpellCheckProviderFactory interface [Internationalization for Windows Applications], ISpellCheckProviderFactory interface [Internationalization for Windows Applications],described, intl.ispellcheckproviderfactory, spellcheckprovider/ISpellCheckProviderFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: spellcheckprovider.h
 req.include-header: 

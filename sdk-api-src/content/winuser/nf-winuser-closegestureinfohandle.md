@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.CloseGestureInfoHandle
 title: CloseGestureInfoHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes resources associated with a gesture information handle.
 old-location: wintouch\closegestureinfohandle.htm
 old-project: wintouch
 ms.assetid: f2bf98b2-a4f7-4b63-b9ae-b2534415cb4b
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: CloseGestureInfoHandle, CloseGestureInfoHandle function [Windows Touch], wintouch.closegestureinfohandle, winuser/CloseGestureInfoHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmreports.IFsrmFileConditionProperty
 title: IFsrmFileConditionProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a file condition property.
 old-location: fsrm\ifsrmfileconditionproperty.htm
 old-project: Fsrm
 ms.assetid: 460819db-0ac2-4008-8dfb-f0edc69bb478
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmFileConditionProperty, IFsrmFileConditionProperty interface [File Server Resource Manager], IFsrmFileConditionProperty interface [File Server Resource Manager],described, fs.ifsrmfileconditionproperty, fsrm.ifsrmfileconditionproperty, fsrmreports/IFsrmFileConditionProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmreports.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetVectorValue
 title: IUIAnimationVariable2::GetVectorValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of the animation variable in the specified dimension.
 old-location: uianimation\iuianimationvariable2_getvectorvalue.htm
 old-project: UIAnimation
 ms.assetid: B53EDC6C-7B1E-4CDE-8F4A-5B0601892630
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetVectorValue, GetVectorValue method [Windows Animation], GetVectorValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetVectorValue method, IUIAnimationVariable2.GetVectorValue, IUIAnimationVariable2::GetVectorValue, uianimation.iuianimationvariable2_getvectorvalue, uianimation/IUIAnimationVariable2::GetVectorValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

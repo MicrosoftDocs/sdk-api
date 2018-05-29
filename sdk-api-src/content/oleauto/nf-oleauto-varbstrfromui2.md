@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarBstrFromUI2
 title: VarBstrFromUI2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an unsigned short value to a BSTR value.
 old-location: automat\varbstrfromui2.htm
 old-project: automat
 ms.assetid: ee5c6582-f040-4b65-8ed7-3ba571d3a348
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarBstrFromUI2, VarBstrFromUI2 function [Automation], _oa96_VarBstrFromUI2, automat.varbstrfromui2, oleauto/VarBstrFromUI2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

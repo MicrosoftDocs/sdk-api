@@ -1,16 +1,16 @@
 ---
 UID: NF:txlogpub.ILog.GetLogLimits
 title: ILog::GetLogLimits
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the current bounds of the log.
 old-location: com\ilog_getloglimits.htm
 old-project: com
 ms.assetid: 06238436-6807-4588-9af9-03eb4c12f4e1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetLogLimits, GetLogLimits method [COM], GetLogLimits method [COM],ILog interface, ILog interface [COM],GetLogLimits method, ILog.GetLogLimits, ILog::GetLogLimits, _com_ilog_getloglimits, com.ilog_getloglimits, txlogpub/ILog::GetLogLimits
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: txlogpub.h
 req.include-header: 

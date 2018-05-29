@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiOpenProductW
 title: MsiOpenProductW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiOpenProduct function opens a product for use with the functions that access the product database. The MsiCloseHandle function must be called with the handle when the handle is no longer needed.
 old-location: setup\msiopenproduct.htm
 old-project: Msi
 ms.assetid: fdc5a2f5-c44a-4cb3-b206-a598bd60024b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiOpenProduct, MsiOpenProduct function, MsiOpenProductA, MsiOpenProductW, _msi_msiopenproduct, msi/MsiOpenProduct, msi/MsiOpenProductA, msi/MsiOpenProductW, setup.msiopenproduct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

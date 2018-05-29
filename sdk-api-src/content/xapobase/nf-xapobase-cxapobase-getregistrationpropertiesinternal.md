@@ -1,16 +1,16 @@
 ---
 UID: NF:xapobase.CXAPOBase.GetRegistrationPropertiesInternal
 title: CXAPOBase::GetRegistrationPropertiesInternal
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a pointer to the XAPO_REGISTRATION_PROPERTIES structure containing the registration properties the XAPO was created with.
 old-location: xaudio2\cxapobase_getregistrationpropertiesinternal.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBaseClass.GetRegistrationPropertiesInternal
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],GetRegistrationPropertiesInternal method, CXAPOBase.GetRegistrationPropertiesInternal, CXAPOBase::GetRegistrationPropertiesInternal, GetRegistrationPropertiesInternal, GetRegistrationPropertiesInternal method [XAudio2 Audio Mixing APIs], GetRegistrationPropertiesInternal method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::GetRegistrationPropertiesInternal, xaudio2.cxapobase_getregistrationpropertiesinternal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xapobase.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IObjectConstructString
 title: IObjectConstructString
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to a constructor string. Use it when you want to specify the parameters during the construction of your object.
 old-location: cos\iobjectconstructstring.htm
 old-project: cossdk
 ms.assetid: ebfa8384-1efd-4775-b66f-b8048af33abc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IObjectConstructString, IObjectConstructString interface [COM+], IObjectConstructString interface [COM+],described, _cos_IObjectConstructString, comsvcs/IObjectConstructString, cos.iobjectconstructstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

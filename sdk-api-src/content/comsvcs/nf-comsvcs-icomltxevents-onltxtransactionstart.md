@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionStart
 title: IComLTxEvents::OnLtxTransactionStart
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when a transaction is started.
 old-location: cos\icomltxevents_onltxtransactionstart.htm
 old-project: cossdk
 ms.assetid: 0d063e3f-d7f8-45b1-995f-29903c42ec37
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionStart method, IComLTxEvents.OnLtxTransactionStart, IComLTxEvents::OnLtxTransactionStart, OnLtxTransactionStart, OnLtxTransactionStart method [COM+], OnLtxTransactionStart method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionStart, cos.icomltxevents_onltxtransactionstart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

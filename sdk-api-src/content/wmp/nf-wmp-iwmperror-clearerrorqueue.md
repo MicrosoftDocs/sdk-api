@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPError.clearErrorQueue
 title: IWMPError::clearErrorQueue
-author: windows-driver-content
+author: windows-sdk-content
 description: The clearErrorQueue method clears the errors from the error queue.
 old-location: wmp\iwmperror_clearerrorqueue.htm
 old-project: WMP
 ms.assetid: 8c965b48-d178-4b41-add7-0b7d208380a3
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPError interface [Windows Media Player],clearErrorQueue method, IWMPError.clearErrorQueue, IWMPError::clearErrorQueue, IWMPErrorclearErrorQueue, clearErrorQueue, clearErrorQueue method [Windows Media Player], clearErrorQueue method [Windows Media Player],IWMPError interface, wmp.iwmperror_clearerrorqueue, wmp/IWMPError::clearErrorQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

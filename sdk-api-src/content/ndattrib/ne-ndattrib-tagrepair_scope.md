@@ -1,16 +1,16 @@
 ---
 UID: NE:ndattrib.tagREPAIR_SCOPE
 title: tagREPAIR_SCOPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The REPAIR_SCOPE enumeration describes the scope of modification for a given repair.
 old-location: ndf\repair_scope.htm
 old-project: NDF
 ms.assetid: f9be87ae-82a1-4613-abeb-15ccba1bf360
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PREPAIR_SCOPE, REPAIR_SCOPE, REPAIR_SCOPE enumeration [NDF], RS_APPLICATION, RS_PROCESS, RS_SYSTEM, RS_USER, ndattrib/REPAIR_SCOPE, ndattrib/RS_APPLICATION, ndattrib/RS_PROCESS, ndattrib/RS_SYSTEM, ndattrib/RS_USER, ndf.repair_scope, tagREPAIR_SCOPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ndattrib.h
 req.include-header: 

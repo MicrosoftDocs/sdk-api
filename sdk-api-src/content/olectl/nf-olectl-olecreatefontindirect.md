@@ -1,16 +1,16 @@
 ---
 UID: NF:olectl.OleCreateFontIndirect
 title: OleCreateFontIndirect function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and initializes a standard font object using an initial description of the font's properties in a FONTDESC structure.
 old-location: com\olecreatefontindirect.htm
 old-project: com
 ms.assetid: 9ab384d6-fc21-4152-a0cf-744948f2f72c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleCreateFontIndirect, OleCreateFontIndirect function [COM], _ole_OleCreateFontIndirect, com.olecreatefontindirect, olectl/OleCreateFontIndirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: olectl.h
 req.include-header: 

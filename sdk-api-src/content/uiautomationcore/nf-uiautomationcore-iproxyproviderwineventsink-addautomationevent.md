@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IProxyProviderWinEventSink.AddAutomationEvent
 title: IProxyProviderWinEventSink::AddAutomationEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Raises a Microsoft UI Automation event.
 old-location: winauto\uiauto_IProxyProviderWinEventSink_AddAutomationEvent.htm
 old-project: WinAuto
 ms.assetid: c1730b6b-f399-4e1f-91d4-5d5e40835a74
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: AddAutomationEvent, AddAutomationEvent method [Windows Accessibility], AddAutomationEvent method [Windows Accessibility],IProxyProviderWinEventSink interface, IProxyProviderWinEventSink interface [Windows Accessibility],AddAutomationEvent method, IProxyProviderWinEventSink.AddAutomationEvent, IProxyProviderWinEventSink::AddAutomationEvent, uiauto.uiauto_IProxyProviderWinEventSink_AddAutomationEvent, uiauto_IProxyProviderWinEventSink_AddAutomationEvent, uiautomationcore/IProxyProviderWinEventSink::AddAutomationEvent, winauto.uiauto_IProxyProviderWinEventSink_AddAutomationEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

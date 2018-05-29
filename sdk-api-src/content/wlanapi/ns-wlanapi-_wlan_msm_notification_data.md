@@ -1,16 +1,16 @@
 ---
 UID: NS:wlanapi._WLAN_MSM_NOTIFICATION_DATA
 title: "_WLAN_MSM_NOTIFICATION_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about media specific module (MSM) connection related notifications.
 old-location: nwifi\wlan_msm_notification_data.htm
 old-project: NativeWiFi
 ms.assetid: 76693a8e-7df8-45f0-a3c1-7960de27250c
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: "*PWLAN_MSM_NOTIFICATION_DATA, PWLAN_MSM_NOTIFICATION_DATA, PWLAN_MSM_NOTIFICATION_DATA structure pointer [NativeWIFI], WLAN_MSM_NOTIFICATION_DATA, WLAN_MSM_NOTIFICATION_DATA structure [NativeWIFI], _WLAN_MSM_NOTIFICATION_DATA, nwifi.wlan_msm_notification_data, wlanapi/PWLAN_MSM_NOTIFICATION_DATA, wlanapi/WLAN_MSM_NOTIFICATION_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.CloseEncryptedFileRaw
 title: CloseEncryptedFileRaw function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes an encrypted file after a backup or restore operation, and frees associated system resources.
 old-location: fs\closeencryptedfileraw.htm
 old-project: FileIO
 ms.assetid: 54bf7114-0ebb-4d9c-bc67-2ac351dbe55d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CloseEncryptedFileRaw, CloseEncryptedFileRaw function [Files], base.closeencryptedfileraw, fs.closeencryptedfileraw, winbase/CloseEncryptedFileRaw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mgm.MgmDeleteGroupMembershipEntry
 title: MgmDeleteGroupMembershipEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MgmDeleteGroupMembershipEntry function notifies the multicast group manager that there are no more receivers present for the specified groups on the specified interface.
 old-location: rras\mgmdeletegroupmembershipentry.htm
 old-project: RRAS
 ms.assetid: fe39d824-3154-4479-bd70-09b2b6593885
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MGM_FORWARD_STATE, MGM_JOIN_STATE_FLAG, MgmDeleteGroupMembershipEntry, MgmDeleteGroupMembershipEntry function [RAS], _mpr_mgmdeletegroupmembershipentry, mgm/MgmDeleteGroupMembershipEntry, rras.mgmdeletegroupmembershipentry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mgm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.Suggest
 title: ISpellCheckProvider::Suggest
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves spelling suggestions for the supplied text.
 old-location: intl\ispellcheckprovider_suggest.htm
 old-project: Intl
 ms.assetid: 4A66619C-8A12-4465-889C-B880C43031AB
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],Suggest method, ISpellCheckProvider.Suggest, ISpellCheckProvider::Suggest, Suggest, Suggest method [Internationalization for Windows Applications], Suggest method [Internationalization for Windows Applications],ISpellCheckProvider interface, intl.ispellcheckprovider_suggest, spellcheckprovider/ISpellCheckProvider::Suggest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheckprovider.h
 req.include-header: 

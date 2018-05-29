@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInfoListClass
 title: SetupDiGetDeviceInfoListClass function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiGetDeviceInfoListClass function retrieves the GUID for the device setup class associated with a device information set if the set has an associated class.
 old-location: devinst\setupdigetdeviceinfolistclass.htm
 old-project: devinst
 ms.assetid: 332945dc-9edc-4fbf-a4fa-533a00352553
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiGetDeviceInfoListClass, SetupDiGetDeviceInfoListClass function [Device and Driver Installation], devinst.setupdigetdeviceinfolistclass, di-rtns_219b6225-e6f3-40b4-8127-709c425a0cad.xml, setupapi/SetupDiGetDeviceInfoListClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

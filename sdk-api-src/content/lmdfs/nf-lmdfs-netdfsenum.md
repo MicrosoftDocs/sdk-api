@@ -1,16 +1,16 @@
 ---
 UID: NF:lmdfs.NetDfsEnum
 title: NetDfsEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the Distributed File System (DFS) namespaces hosted on a server or DFS links of a namespace hosted by a server.
 old-location: dfs\netdfsenum.htm
 old-project: Dfs
 ms.assetid: c05a8d78-41f4-4c19-a25e-ef4885869584
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: 1, 2, 200, 3, 300, 4, 5, 6, 8, 9, NetDfsEnum, NetDfsEnum function [Distributed File System], _win32_netdfsenum, dfs.netdfsenum, fs.netdfsenum, lmdfs/NetDfsEnum, netmgmt.netdfsenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

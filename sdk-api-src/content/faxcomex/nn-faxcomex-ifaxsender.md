@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcomex.IFaxSender
 title: IFaxSender
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxSender interface defines a messaging object used by a fax client application to retrieve and set sender information about fax senders. The object also includes methods to store sender data in and retrieve sender data from the local registry.
 old-location: fax\_mfax_faxsender_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0gtu_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxSender, IFaxSender interface [Fax Service], IFaxSender interface [Fax Service],described, _mfax_faxsender_cpp, fax._mfax_faxsender_cpp, faxcomex/IFaxSender
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

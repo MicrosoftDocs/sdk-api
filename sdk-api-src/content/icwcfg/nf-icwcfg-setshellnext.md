@@ -1,16 +1,16 @@
 ---
 UID: NF:icwcfg.SetShellNext
 title: SetShellNext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the ShellNext registry key with the specified value.
 old-location: winprog\setshellnext.htm
 old-project: DevNotes
 ms.assetid: f08753b2-9666-498d-aee4-8eb2c7f0d95b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: SetShellNext, SetShellNext function [Windows API], icwcfg/SetShellNext, winprog.setshellnext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: icwcfg.h
 req.include-header: 

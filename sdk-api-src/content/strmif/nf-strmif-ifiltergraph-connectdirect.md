@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IFilterGraph.ConnectDirect
 title: IFilterGraph::ConnectDirect
-author: windows-driver-content
+author: windows-sdk-content
 description: The ConnectDirect method connects the two pins directly (without intervening filters).
 old-location: dshow\ifiltergraph_connectdirect.htm
 old-project: DirectShow
 ms.assetid: fb17bd98-dd6b-4fad-9b56-9cab10725b28
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ConnectDirect, ConnectDirect method [DirectShow], ConnectDirect method [DirectShow],IFilterGraph interface, IFilterGraph interface [DirectShow],ConnectDirect method, IFilterGraph.ConnectDirect, IFilterGraph::ConnectDirect, IFilterGraphConnectDirect, dshow.ifiltergraph_connectdirect, strmif/IFilterGraph::ConnectDirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

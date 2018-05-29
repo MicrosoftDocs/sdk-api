@@ -1,16 +1,16 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.Add
 title: TRefPointerCollection::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: The Add method adds a reference to the collection.
 old-location: wmi\trefpointercollection_add.htm
 old-project: WmiSdk
 ms.assetid: 959cd8e7-ea0c-4b98-8e13-398e09c62668
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],Add method, TRefPointerCollection.Add, TRefPointerCollection::Add, _hmm_trefpointercollection_add, refptrco/TRefPointerCollection::Add, wmi.trefpointercollection_add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: refptrco.h
 req.include-header: FwCommon.h

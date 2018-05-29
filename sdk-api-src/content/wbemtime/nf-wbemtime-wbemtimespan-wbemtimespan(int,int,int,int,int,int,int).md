@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.WBEMTimeSpan(int,int,int,int,int,int,int)
 title: WBEMTimeSpan::WBEMTimeSpan(int,int,int,int,int,int,int)
-author: windows-driver-content
+author: windows-sdk-content
 description: This WBEMTimeSpan class constructor creates a time span object from an integer number of elapsed days.
 old-location: wmi\wbemtimespan_wbemtimespan_int_int_int_int_int_int_int_.htm
 old-project: WmiSdk
 ms.assetid: b1bd1421-81f6-478a-8ec3-dfacdac3c85f
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "??0WBEMTimeSpan@@QAE@HHHHHHH@Z, WBEMTimeSpan, WBEMTimeSpan constructor [Windows Management Instrumentation], WBEMTimeSpan constructor [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],WBEMTimeSpan constructor, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(int,int,int,int,int,int,int), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan(int,int,int,int,int,int,int), wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan_int_int_int_int_int_int_int_"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2.get_MediaHeuristicallyBlank
 title: IDiscFormat2::get_MediaHeuristicallyBlank
-author: windows-driver-content
+author: windows-sdk-content
 description: Attempts to determine if the media is blank using heuristics (mainly for DVD+RW and DVD-RAM media).
 old-location: imapi\idiscformat2_get_mediaheuristicallyblank.htm
 old-project: imapi
 ms.assetid: 28c410cc-5135-4443-8b86-e34676f14f51
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],get_MediaHeuristicallyBlank method, IDiscFormat2.get_MediaHeuristicallyBlank, IDiscFormat2::get_MediaHeuristicallyBlank, get_MediaHeuristicallyBlank, get_MediaHeuristicallyBlank method [IMAPI], get_MediaHeuristicallyBlank method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_get_mediaheuristicallyblank, imapi2/IDiscFormat2::get_MediaHeuristicallyBlank
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

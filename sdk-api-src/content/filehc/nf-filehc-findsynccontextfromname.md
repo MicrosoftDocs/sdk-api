@@ -1,16 +1,16 @@
 ---
 UID: NF:filehc.FindSyncContextFromName
 title: FindSyncContextFromName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the FIO_CONTEXT structure that is associated with the specified user name.
 old-location: winprog\_findsynccontextfromname.htm
 old-project: DevNotes
 ms.assetid: 1528b545-6d04-4315-a0ca-cebef6144fe9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FindSyncContextFromName, FindSyncContextFromName function [Windows API], filehc/FindSyncContextFromName, winprog._findsynccontextfromname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

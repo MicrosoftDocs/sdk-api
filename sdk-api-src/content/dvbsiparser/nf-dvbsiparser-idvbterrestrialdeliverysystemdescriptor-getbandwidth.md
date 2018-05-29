@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth
 title: IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getbandwidth.htm
 old-project: mstv
 ms.assetid: 60efabb7-82bd-4b1f-991e-854c1a8b75ce
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetBandwidth, GetBandwidth method [Microsoft TV Technologies], GetBandwidth method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetBandwidth method, IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth, IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth, IDvbTerrestrialDeliverySystemDescriptorGetBandwidth, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth, mstv.idvbterrestrialdeliverysystemdescriptor_getbandwidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

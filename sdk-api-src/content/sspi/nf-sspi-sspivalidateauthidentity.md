@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SspiValidateAuthIdentity
 title: SspiValidateAuthIdentity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the specified identity structure is valid.
 old-location: security\sspivalidateauthidentity.htm
 old-project: SecAuthN
 ms.assetid: 82733abd-d984-4902-b6e4-c3809171ad51
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SspiValidateAuthIdentity, SspiValidateAuthIdentity function [Security], security.sspivalidateauthidentity, sspi/SspiValidateAuthIdentity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_QUERY_CALIBRATION_DATA_FN
 title: PIBIO_ENGINE_QUERY_CALIBRATION_DATA_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a set of post-capture calibration data from the engine adapter.
 old-location: secbiomet\engineadapterquerycalibrationdata.htm
 old-project: SecBioMet
 ms.assetid: 2BC0C6D4-931C-4CB8-9620-5F224F8F436F
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: EngineAdapterQueryCalibrationData, EngineAdapterQueryCalibrationData callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_CALIBRATION_DATA_FN, PIBIO_ENGINE_QUERY_CALIBRATION_DATA_FN callback, secbiomet.engineadapterquerycalibrationdata, winbio_adapter/EngineAdapterQueryCalibrationData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

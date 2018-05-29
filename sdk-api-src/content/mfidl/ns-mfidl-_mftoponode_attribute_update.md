@@ -1,16 +1,16 @@
 ---
 UID: NS:mfidl._MFTOPONODE_ATTRIBUTE_UPDATE
 title: "_MFTOPONODE_ATTRIBUTE_UPDATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a new attribute value for a topology node.
 old-location: mf\mftoponode_attribute_update.htm
 old-project: medfound
 ms.assetid: 94c89067-9b3e-4d24-9192-a68e284c5d99
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 94c89067-9b3e-4d24-9192-a68e284c5d99, MFTOPONODE_ATTRIBUTE_UPDATE, MFTOPONODE_ATTRIBUTE_UPDATE structure [Media Foundation], _MFTOPONODE_ATTRIBUTE_UPDATE, mf.mftoponode_attribute_update, mfidl/MFTOPONODE_ATTRIBUTE_UPDATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfidl.h
 req.include-header: 

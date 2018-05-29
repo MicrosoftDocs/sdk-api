@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.IATSC_EIT.GetVersionNumber
 title: IATSC_EIT::GetVersionNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_eit_getversionnumber.htm
 old-project: mstv
 ms.assetid: 991ec009-4836-4d9a-a7e7-1077464d4964
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetVersionNumber method, IATSC_EIT.GetVersionNumber, IATSC_EIT::GetVersionNumber, IATSC_EITGetVersionNumber, atscpsipparser/IATSC_EIT::GetVersionNumber, mstv.iatsc_eit_getversionnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

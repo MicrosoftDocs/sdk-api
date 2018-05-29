@@ -1,16 +1,16 @@
 ---
 UID: NN:mobsync.ISyncMgrSynchronizeInvoke
 title: ISyncMgrSynchronizeInvoke
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that enable a registered application to invoke the synchronization manager to update items.
 old-location: shell\syncmgr_isyncmgrsynchronizeinvoke.htm
 old-project: shell
 ms.assetid: 993fd482-39e0-4966-ba71-eed7e4b54f72
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrSynchronizeInvoke, ISyncMgrSynchronizeInvoke interface [Windows Shell], ISyncMgrSynchronizeInvoke interface [Windows Shell],described, mobsync/ISyncMgrSynchronizeInvoke, shell.syncmgr_isyncmgrsynchronizeinvoke, syncmgr.isyncmgrsynchronizeinvoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mobsync.h
 req.include-header: 

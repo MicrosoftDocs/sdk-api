@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcasync.RpcErrorGetNextRecord
 title: RpcErrorGetNextRecord function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcErrorGetNextRecord function retrieves the next extended error information record for an enumeration handle.
 old-location: rpc\rpcerrorgetnextrecord.htm
 old-project: Rpc
 ms.assetid: cc2d3aa0-2956-4710-ad31-a347d9ef9043
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcErrorGetNextRecord, RpcErrorGetNextRecord function [RPC], _rpc_rpcerrorgetnextrecord, rpc.rpcerrorgetnextrecord, rpcasync/RpcErrorGetNextRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IEnumSTATSTG.Skip
 title: IEnumSTATSTG::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips a specified number of STATSTG structures in the enumeration sequence.
 old-location: stg\ienumstatstg_skip.htm
 old-project: Stg
 ms.assetid: 97d785d9-961c-44af-a0a0-1d2f610e6c9a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumSTATSTG interface [Structured Storage],Skip method, IEnumSTATSTG.Skip, IEnumSTATSTG::Skip, Skip, Skip method [Structured Storage], Skip method [Structured Storage],IEnumSTATSTG interface, objidl/IEnumSTATSTG::Skip, stg.ienumstatstg_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NL:refptrco.TRefPointerCollection
 title: TRefPointerCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: The TRefPointerCollection class is a container class that collects pointers to objects. These pointers can be enumerated.
 old-location: wmi\trefpointercollection.htm
 old-project: WmiSdk
 ms.assetid: a2d1758a-4a7e-40fd-84c7-a25bc36ab538
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: TRefPointerCollection, TRefPointerCollection class [Windows Management Instrumentation], TRefPointerCollection class [Windows Management Instrumentation],described, _hmm_trefpointercollection, refptrco/TRefPointerCollection, wmi.trefpointercollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: refptrco.h
 req.include-header: FwCommon.h

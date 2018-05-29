@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.GetPwrDiskSpindownRange
 title: GetPwrDiskSpindownRange function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the disk spindown range.
 old-location: base\getpwrdiskspindownrange.htm
 old-project: Power
 ms.assetid: c56f679d-512a-4bf9-89dc-8905bba8c6ce
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: GetPwrDiskSpindownRange, GetPwrDiskSpindownRange function, _win32_getpwrdiskspindownrange, base.getpwrdiskspindownrange, powrprof/GetPwrDiskSpindownRange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IDesktopGadget
 title: IDesktopGadget
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that allows the programmatic addition of an installed gadget to the user's desktop.
 old-location: shell\IDesktopGadget.htm
 old-project: shell
 ms.assetid: 7b3b273a-41ed-4d45-bde9-8250d74d10a9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDesktopGadget, IDesktopGadget interface [Windows Shell], IDesktopGadget interface [Windows Shell],described, _shell_IDesktopGadget, shell.IDesktopGadget, shobjidl/IDesktopGadget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageLanguages
 title: WdsCliGetImageLanguages function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an array of languages supported by the current image.
 old-location: wds\wdscligetimagelanguages.htm
 old-project: Wds
 ms.assetid: 2f027cf9-fad6-4ae6-98ac-83b9041c095e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsCliGetImageLanguages, WdsCliGetImageLanguages function [Windows Deployment Services], wds.wdscligetimagelanguages, wdsclientapi/WdsCliGetImageLanguages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

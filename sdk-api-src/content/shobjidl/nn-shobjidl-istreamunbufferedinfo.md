@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IStreamUnbufferedInfo
 title: IStreamUnbufferedInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that determines the sector size as an aid to byte alignment.
 old-location: shell\IStreamUnbufferedInfo.htm
 old-project: shell
 ms.assetid: 51c28816-91a2-47cf-86b9-327a538ebca1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStreamUnbufferedInfo, IStreamUnbufferedInfo interface [Windows Shell], IStreamUnbufferedInfo interface [Windows Shell],described, _shell_IStreamUnbufferedInfo, shell.IStreamUnbufferedInfo, shobjidl/IStreamUnbufferedInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

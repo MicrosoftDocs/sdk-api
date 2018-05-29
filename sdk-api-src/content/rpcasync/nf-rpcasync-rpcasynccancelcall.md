@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcasync.RpcAsyncCancelCall
 title: RpcAsyncCancelCall function
-author: windows-driver-content
+author: windows-sdk-content
 description: The client calls the RpcAsyncCancelCall function to cancel an asynchronous call.
 old-location: rpc\rpcasynccancelcall.htm
 old-project: Rpc
 ms.assetid: e55d586f-969b-4e9a-97d9-b6c74b2a8b6d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcAsyncCancelCall, RpcAsyncCancelCall function [RPC], _rpc_rpcasynccancelcall, rpc.rpcasynccancelcall, rpcasync/RpcAsyncCancelCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h

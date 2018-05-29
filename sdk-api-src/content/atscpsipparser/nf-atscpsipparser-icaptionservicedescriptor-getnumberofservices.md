@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.ICaptionServiceDescriptor.GetNumberOfServices
 title: ICaptionServiceDescriptor::GetNumberOfServices
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icaptionservicedescriptor_getnumberofservices.htm
 old-project: mstv
 ms.assetid: 50c2baff-a355-45a4-8a05-a193e695c448
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetNumberOfServices, GetNumberOfServices method [Microsoft TV Technologies], GetNumberOfServices method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetNumberOfServices method, ICaptionServiceDescriptor.GetNumberOfServices, ICaptionServiceDescriptor::GetNumberOfServices, ICaptionServiceDescriptorGetNumberOfServices, atscpsipparser/ICaptionServiceDescriptor::GetNumberOfServices, mstv.icaptionservicedescriptor_getnumberofservices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

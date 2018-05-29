@@ -1,16 +1,16 @@
 ---
 UID: NN:rtscom.IRealTimeStylus
 title: IRealTimeStylus
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles the stylus packet data from a digitizer in real time.
 old-location: tablet\irealtimestylus.htm
 old-project: tablet
 ms.assetid: bfd13012-decf-423a-bc1a-39fb9b0eb64e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IRealTimeStylus, IRealTimeStylus interface [Tablet PC], IRealTimeStylus interface [Tablet PC],described, bfd13012-decf-423a-bc1a-39fb9b0eb64e, rtscom/IRealTimeStylus, tablet.irealtimestylus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rtscom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:dxmini._DDTRANSFEROUTINFO
 title: "_DDTRANSFEROUTINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDTRANSFEROUTINFO structure returns the polarity of the field being captured.
 old-location: display\ddtransferoutinfo.htm
 old-project: display
 ms.assetid: 0c029912-0540-438a-a255-aeb1a58ad275
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDDTRANSFEROUTINFO, DDTRANSFEROUTINFO, DDTRANSFEROUTINFO structure [Display Devices], PDDTRANSFEROUTINFO, PDDTRANSFEROUTINFO structure pointer [Display Devices], Video_Structs_c2b03ae4-21b0-4c16-8ddc-e3ef4c79e6ff.xml, _DDTRANSFEROUTINFO, display.ddtransferoutinfo, dxmini/DDTRANSFEROUTINFO, dxmini/PDDTRANSFEROUTINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxmini.h
 req.include-header: Dxmini.h

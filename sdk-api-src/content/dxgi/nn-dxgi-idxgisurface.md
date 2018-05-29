@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi.IDXGISurface
 title: IDXGISurface
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDXGISurface interface implements methods for image-data objects.
 old-location: direct3ddxgi\idxgisurface.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgisurface.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGISurface, IDXGISurface interface [DXGI], IDXGISurface interface [DXGI],described, acd37adc-fb69-8924-76b4-598005b98bc9, direct3ddxgi.idxgisurface, dxgi/IDXGISurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi.h
 req.include-header: 

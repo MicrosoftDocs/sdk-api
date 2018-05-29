@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_GET_PROPERTY_SIZE
 title: PRESUTIL_GET_PROPERTY_SIZE
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the total number of bytes required for a specified property.
 old-location: mscs\resutilgetpropertysize.htm
 old-project: MsCS
 ms.assetid: 0f21ef2b-747c-4fb3-a13c-16bcb7bfd46e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_GET_PROPERTY_SIZE, PRESUTIL_GET_PROPERTY_SIZE callback, PRESUTIL_GET_PROPERTY_SIZE callback function [Failover Cluster], _wolf_resutilgetpropertysize, mscs.resutilgetpropertysize, resapi/PRESUTIL_GET_PROPERTY_SIZE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

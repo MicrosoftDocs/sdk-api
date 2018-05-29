@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.SecurityProperty.GetOriginalCreatorName
 title: SecurityProperty::GetOriginalCreatorName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the user name associated with the original base process that initiated the activity in which the current object is executing.
 old-location: cos\securityproperty_getoriginalcreatorname.htm
 old-project: cossdk
 ms.assetid: 403f0f36-f386-4eeb-905a-e04c5699db9b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetOriginalCreatorName, GetOriginalCreatorName method [COM+], GetOriginalCreatorName method [COM+],SecurityProperty interface, SecurityProperty interface [COM+],GetOriginalCreatorName method, SecurityProperty.GetOriginalCreatorName, SecurityProperty::GetOriginalCreatorName, _cos_SecurityProperty_GetOriginalCreatorName, comsvcs/SecurityProperty::GetOriginalCreatorName, cos.securityproperty_getoriginalcreatorname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

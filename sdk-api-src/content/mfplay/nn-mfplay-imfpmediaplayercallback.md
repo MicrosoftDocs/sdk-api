@@ -1,16 +1,16 @@
 ---
 UID: NN:mfplay.IMFPMediaPlayerCallback
 title: IMFPMediaPlayerCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Callback interface for the IMFPMediaPlayer interface.
 old-location: mf\imfpmediaplayercallback.htm
 old-project: medfound
 ms.assetid: 7d9d01bf-861a-4c35-93b1-dbf85cbf0a32
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFPMediaPlayerCallback, IMFPMediaPlayerCallback interface [Media Foundation], IMFPMediaPlayerCallback interface [Media Foundation],described, mf.imfpmediaplayercallback, mfplay/IMFPMediaPlayerCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfplay.h
 req.include-header: 

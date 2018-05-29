@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMExtTransport.put_AntiClogControl
 title: IAMExtTransport::put_AntiClogControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_AntiClogControl method enables or disables anti-headclog control on the transport.
 old-location: dshow\iamexttransport_put_anticlogcontrol.htm
 old-project: DirectShow
 ms.assetid: 02d1e400-9959-4c68-ad8e-bc1700205179
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMExtTransport interface [DirectShow],put_AntiClogControl method, IAMExtTransport.put_AntiClogControl, IAMExtTransport::put_AntiClogControl, IAMExtTransportput_AntiClogControl, dshow.iamexttransport_put_anticlogcontrol, put_AntiClogControl, put_AntiClogControl method [DirectShow], put_AntiClogControl method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::put_AntiClogControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

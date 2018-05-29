@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi._CLUS_CSV_VOLUME_INFO
 title: "_CLUS_CSV_VOLUME_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents information about a cluster shared volume (CSV).
 old-location: mscs\clus_csv_volume_info.htm
 old-project: MsCS
 ms.assetid: C672B42B-0DB9-4E70-8157-15C3189102EF
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLUS_CSV_VOLUME_INFO, CLUS_CSV_VOLUME_INFO, CLUS_CSV_VOLUME_INFO structure [Failover Cluster], PCLUS_CSV_VOLUME_INFO, PCLUS_CSV_VOLUME_INFO structure pointer [Failover Cluster], _CLUS_CSV_VOLUME_INFO, clusapi/CLUS_CSV_VOLUME_INFO, clusapi/PCLUS_CSV_VOLUME_INFO, mscs.clus_csv_volume_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

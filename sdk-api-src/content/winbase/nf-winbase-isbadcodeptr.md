@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.IsBadCodePtr
 title: IsBadCodePtr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the calling process has read access to the memory at the specified address.
 old-location: base\isbadcodeptr.htm
 old-project: Memory
 ms.assetid: 001b8972-6a7f-4964-af8d-a6f31ea3a525
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsBadCodePtr, IsBadCodePtr function, _win32_isbadcodeptr, base.isbadcodeptr, winbase/IsBadCodePtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

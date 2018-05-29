@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxManifestApplication.GetStringValue
 title: IAppxManifestApplication::GetStringValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of a string element in the application metadata section of the manifest.
 old-location: appxpkg\iappxmanifestapplication_getstringvalue.htm
 old-project: appxpkg
 ms.assetid: 968EE95D-D1FC-42D7-B533-99062C26B4C3
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetStringValue, GetStringValue method [App packaging and management], GetStringValue method [App packaging and management],IAppxManifestApplication interface, IAppxManifestApplication interface [App packaging and management],GetStringValue method, IAppxManifestApplication.GetStringValue, IAppxManifestApplication::GetStringValue, appxpackaging/IAppxManifestApplication::GetStringValue, appxpkg.iappxmanifestapplication_getstringvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

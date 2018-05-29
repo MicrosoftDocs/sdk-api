@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetWindowTheme
 title: GetWindowTheme function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a theme handle to a window that has visual styles applied.
 old-location: controls\GetWindowTheme.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getwindowtheme.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetWindowTheme, GetWindowTheme function [Windows Controls], controls.GetWindowTheme, controls.inet_GetWindowTheme, inet_GetWindowTheme, inet_GetWindowTheme_cpp, uxtheme/GetWindowTheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

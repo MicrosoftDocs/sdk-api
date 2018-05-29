@@ -1,16 +1,16 @@
 ---
 UID: NF:ncryptprotect.NCryptUnprotectSecret
 title: NCryptUnprotectSecret function
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrypts data to a specified protection descriptor.
 old-location: security\ncryptunprotectsecret.htm
 old-project: SecCNG
 ms.assetid: F532F0ED-36F4-47E3-B478-089CC083E5D1
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCRYPT_SILENT_FLAG, NCRYPT_UNPROTECT_NO_DECRYPT, NCryptUnprotectSecret, NCryptUnprotectSecret function [Security], ncryptprotect/NCryptUnprotectSecret, security.ncryptunprotectsecret
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 

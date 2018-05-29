@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PolicyServerListManager.get_ItemByIndex
 title: IX509PolicyServerListManager::get_ItemByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IX509PolicyServerUrl object from the collection by index number.
 old-location: security\ix509policyserverlistmanager_itembyindex.htm
 old-project: SecCertEnroll
 ms.assetid: 3343a018-e974-4821-8b10-57194c29873b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509PolicyServerListManager interface [Security],ItemByIndex property, IX509PolicyServerListManager.ItemByIndex, IX509PolicyServerListManager.get_ItemByIndex, IX509PolicyServerListManager::ItemByIndex, IX509PolicyServerListManager::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IX509PolicyServerListManager interface, certenroll/IX509PolicyServerListManager::ItemByIndex, certenroll/IX509PolicyServerListManager::get_ItemByIndex, get_ItemByIndex, security.ix509policyserverlistmanager_itembyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseAutomationEvent
 title: UiaRaiseAutomationEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies listeners of an event.
 old-location: winauto\uiauto_UiaRaiseAutomationEventFunction.htm
 old-project: WinAuto
 ms.assetid: a91ce84c-faae-4b8b-9547-9e9d8edbde6e
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaRaiseAutomationEvent, UiaRaiseAutomationEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseAutomationEventFunction, uiauto_UiaRaiseAutomationEventFunction, uiautomationcoreapi/UiaRaiseAutomationEvent, winauto.uiauto_UiaRaiseAutomationEventFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

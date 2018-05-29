@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateRenderTargetView
 title: ID3D10Device::CreateRenderTargetView
-author: windows-driver-content
+author: windows-sdk-content
 description: Create a render-target view for accessing resource data.
 old-location: direct3d10\id3d10device_createrendertargetview.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createrendertargetview.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 080acf2e-83e1-3be3-60d6-8385a6585f49, CreateRenderTargetView, CreateRenderTargetView method [Direct3D 10], CreateRenderTargetView method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateRenderTargetView method, ID3D10Device.CreateRenderTargetView, ID3D10Device::CreateRenderTargetView, d3d10/ID3D10Device::CreateRenderTargetView, direct3d10.id3d10device_createrendertargetview
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

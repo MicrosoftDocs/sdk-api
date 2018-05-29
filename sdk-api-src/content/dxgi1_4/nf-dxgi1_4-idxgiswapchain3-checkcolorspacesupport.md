@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_4.IDXGISwapChain3.CheckColorSpaceSupport
 title: IDXGISwapChain3::CheckColorSpaceSupport
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks the swap chain's support for color space.
 old-location: direct3ddxgi\idxgiswapchain3_checkcolorspacesupport.htm
 old-project: direct3ddxgi
 ms.assetid: 87AFB541-EC10-45E6-97CC-1B48084D00EE
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CheckColorSpaceSupport, CheckColorSpaceSupport method [DXGI], CheckColorSpaceSupport method [DXGI],IDXGISwapChain3 interface, IDXGISwapChain3 interface [DXGI],CheckColorSpaceSupport method, IDXGISwapChain3.CheckColorSpaceSupport, IDXGISwapChain3::CheckColorSpaceSupport, direct3ddxgi.idxgiswapchain3_checkcolorspacesupport, dxgi1_4/IDXGISwapChain3::CheckColorSpaceSupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_4.h
 req.include-header: 

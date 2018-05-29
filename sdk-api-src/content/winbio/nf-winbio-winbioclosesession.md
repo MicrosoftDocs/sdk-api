@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioCloseSession
 title: WinBioCloseSession function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a biometric session and releases associated resources. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioclosesession.htm
 old-project: SecBioMet
 ms.assetid: b0adcf87-2f99-4154-a4fb-fb2f07181cd0
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WinBioCloseSession, WinBioCloseSession function [Windows Biometric Framework API], secbiomet.winbioclosesession, winbio/WinBioCloseSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

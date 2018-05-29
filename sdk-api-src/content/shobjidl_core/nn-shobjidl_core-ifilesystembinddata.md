@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IFileSystemBindData
 title: IFileSystemBindData
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that store file system information for optimizing calls to IShellFolder::ParseDisplayName.
 old-location: shell\IFileSystemBindData.htm
 old-project: shell
 ms.assetid: f5099bb3-21a7-4708-ac48-d32a14646614
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileSystemBindData, IFileSystemBindData interface [Windows Shell], IFileSystemBindData interface [Windows Shell],described, _shell_ifilesystembinddata, shell.IFileSystemBindData, shobjidl_core/IFileSystemBindData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

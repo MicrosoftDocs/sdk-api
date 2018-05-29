@@ -1,16 +1,16 @@
 ---
 UID: NF:davclnt.DavCancelConnectionsToServer
 title: DavCancelConnectionsToServer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes all connections to a WebDAV server or a remote file or directory on a WebDAV server.
 old-location: webdav\davcancelconnectionstoserver.htm
 old-project: WebDAV
 ms.assetid: 6eb3b011-4cd3-45ec-a07e-c8743d35a176
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: DavCancelConnectionsToServer, DavCancelConnectionsToServer function [WebDAV], davclnt/DavCancelConnectionsToServer, webdav.davcancelconnectionstoserver
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: davclnt.h
 req.include-header: 

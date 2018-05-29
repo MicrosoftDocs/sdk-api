@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IATSCLocator.get_TSID
 title: IATSCLocator::get_TSID
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_TSID method retrieves the transport stream ID.
 old-location: mstv\iatsclocator_get_tsid.htm
 old-project: mstv
 ms.assetid: e7cde550-742c-426c-a350-1d05b74f824d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IATSCLocator interface [Microsoft TV Technologies],get_TSID method, IATSCLocator.get_TSID, IATSCLocator::get_TSID, IATSCLocatorget_TSID, get_TSID, get_TSID method [Microsoft TV Technologies], get_TSID method [Microsoft TV Technologies],IATSCLocator interface, mstv.iatsclocator_get_tsid, tuner/IATSCLocator::get_TSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

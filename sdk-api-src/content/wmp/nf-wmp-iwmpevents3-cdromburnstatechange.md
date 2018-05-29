@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPEvents3.CdromBurnStateChange
 title: IWMPEvents3::CdromBurnStateChange
-author: windows-driver-content
+author: windows-sdk-content
 description: The CdromBurnStateChange event occurs when a CD burning operation changes state.
 old-location: wmp\iwmpevents3_iwmpevents3__cdromburnstatechange.htm
 old-project: WMP
 ms.assetid: 8328f1bf-c928-4504-859f-f1b62e77e9e0
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: CdromBurnStateChange, CdromBurnStateChange method [Windows Media Player], CdromBurnStateChange method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromBurnStateChange method, IWMPEvents3.CdromBurnStateChange, IWMPEvents3::CdromBurnStateChange, IWMPEvents3CdromBurnStateChange, wmp.iwmpevents3_iwmpevents3__cdromburnstatechange, wmp/IWMPEvents3::CdromBurnStateChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

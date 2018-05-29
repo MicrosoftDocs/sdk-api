@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsPathname.AddLeafElement
 title: IADsPathname::AddLeafElement
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an element to the end of the directory path already set on the Pathname object.
 old-location: adsi\iadspathname_addleafelement.htm
 old-project: ADSI
 ms.assetid: 6f29f11f-965e-4556-af74-2bc06588410f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: AddLeafElement, AddLeafElement method [ADSI], AddLeafElement method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],AddLeafElement method, IADsPathname.AddLeafElement, IADsPathname::AddLeafElement, _ds_iadspathname_addleafelement, adsi.iadspathname__addleafelement, adsi.iadspathname_addleafelement, iads/IADsPathname::AddLeafElement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

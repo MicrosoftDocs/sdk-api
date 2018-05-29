@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.GetUdpStatisticsEx
 title: GetUdpStatisticsEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetUdpStatisticsEx function retrieves the User Datagram Protocol (UDP) statistics for the current computer.
 old-location: iphlp\getudpstatisticsex.htm
 old-project: IpHlp
 ms.assetid: 9de7fa95-6bda-4fcc-b563-aed2e61fc1c7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AF_INET, AF_INET6, GetUdpStatisticsEx, GetUdpStatisticsEx function [IP Helper], _iphlp_getudpstatisticsex, iphlp.getudpstatisticsex, iphlpapi/GetUdpStatisticsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

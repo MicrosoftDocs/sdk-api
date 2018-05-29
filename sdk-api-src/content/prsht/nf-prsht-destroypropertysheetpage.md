@@ -1,16 +1,16 @@
 ---
 UID: NF:prsht.DestroyPropertySheetPage
 title: DestroyPropertySheetPage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Destroys a property sheet page. An application must call this function for pages that have not been passed to the PropertySheet function.
 old-location: controls\DestroyPropertySheetPage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\destroypropertysheetpage.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DestroyPropertySheetPage, DestroyPropertySheetPage function [Windows Controls], _win32_DestroyPropertySheetPage, _win32_DestroyPropertySheetPage_cpp, controls.DestroyPropertySheetPage, controls._win32_DestroyPropertySheetPage, prsht/DestroyPropertySheetPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: prsht.h
 req.include-header: 

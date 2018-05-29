@@ -1,16 +1,16 @@
 ---
 UID: NF:dpa_dsa.DPA_Create
 title: DPA_Create function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a dynamic pointer array (DPA).
 old-location: controls\DPA_Create.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_create.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DPA_Create, DPA_Create function [Windows Controls], _win32_DPA_Create, _win32_DPA_Create_cpp, controls.DPA_Create, controls._win32_DPA_Create, dpa_dsa/DPA_Create
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 

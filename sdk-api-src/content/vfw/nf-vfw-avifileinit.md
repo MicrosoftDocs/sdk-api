@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIFileInit
 title: AVIFileInit function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIFileInit function initializes the AVIFile library.
 old-location: multimedia\avifileinit.htm
 old-project: Multimedia
 ms.assetid: 3246a7d2-4b17-413d-b0d5-82146c993f26
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIFileInit, AVIFileInit function [Windows Multimedia], _win32_AVIFileInit, multimedia.avifileinit, vfw/AVIFileInit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFRealTimeClient
 title: IMFRealTimeClient
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies a pipeline object to register itself with the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\imfrealtimeclient.htm
 old-project: medfound
 ms.assetid: b1d1901e-dd49-421f-9212-61e32cff411e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFRealTimeClient, IMFRealTimeClient interface [Media Foundation], IMFRealTimeClient interface [Media Foundation],described, b1d1901e-dd49-421f-9212-61e32cff411e, mf.imfrealtimeclient, mfidl/IMFRealTimeClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

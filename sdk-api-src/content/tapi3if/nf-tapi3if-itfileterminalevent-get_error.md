@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITFileTerminalEvent.get_Error
 title: ITFileTerminalEvent::get_Error
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Error method gets the error code for the event.
 old-location: tapi3\itfileterminalevent_get_error.htm
 old-project: Tapi
 ms.assetid: 1eabd161-12d1-4537-beb1-3a05996aa506
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITFileTerminalEvent interface [TAPI 2.2],get_Error method, ITFileTerminalEvent.get_Error, ITFileTerminalEvent::get_Error, _tapi3_itfileterminalevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITFileTerminalEvent interface, tapi3.itfileterminalevent_get_error, tapi3if/ITFileTerminalEvent::get_Error
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromFileTime
 title: InitPropVariantFromFileTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a PROPVARIANT structure based on information stored in a FILETIME structure.
 old-location: properties\InitPropVariantFromFileTime.htm
 old-project: properties
 ms.assetid: 07c5ffe5-b2a5-46a3-969c-81201d9b8fdb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitPropVariantFromFileTime, InitPropVariantFromFileTime function [Windows Properties], properties.InitPropVariantFromFileTime, propvarutil/InitPropVariantFromFileTime, shell.InitPropVariantFromFileTime, shell_InitPropVariantFromFileTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

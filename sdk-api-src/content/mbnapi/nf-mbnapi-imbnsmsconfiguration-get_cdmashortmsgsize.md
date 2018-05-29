@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnSmsConfiguration.get_CdmaShortMsgSize
 title: IMbnSmsConfiguration::get_CdmaShortMsgSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Maximum CDMA short message character length.
 old-location: mbn\imbnsmsconfiguration_cdmashortmsgsize.htm
 old-project: mbn
 ms.assetid: 2aac8cad-565e-45e4-a7a4-88ebfab420ea
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: CdmaShortMsgSize property [Microsoft Broadband Networks], CdmaShortMsgSize property [Microsoft Broadband Networks],IMbnSmsConfiguration interface, IMbnSmsConfiguration interface [Microsoft Broadband Networks],CdmaShortMsgSize property, IMbnSmsConfiguration.CdmaShortMsgSize, IMbnSmsConfiguration.get_CdmaShortMsgSize, IMbnSmsConfiguration::CdmaShortMsgSize, IMbnSmsConfiguration::get_CdmaShortMsgSize, get_CdmaShortMsgSize, mbn.imbnsmsconfiguration_cdmashortmsgsize, mbnapi/IMbnSmsConfiguration::CdmaShortMsgSize, mbnapi/IMbnSmsConfiguration::get_CdmaShortMsgSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

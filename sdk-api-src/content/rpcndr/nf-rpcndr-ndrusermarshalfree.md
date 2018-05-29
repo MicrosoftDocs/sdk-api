@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrUserMarshalFree
 title: NdrUserMarshalFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrUserMarshalFree function frees the user marshal object.
 old-location: rpc\ndrusermarshalfree.htm
 old-project: Rpc
 ms.assetid: 3b850938-13f3-4173-86bb-8b01ac0c5809
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrUserMarshalFree, NdrUserMarshalFree function [RPC], rpc.ndrusermarshalfree, rpcndr/NdrUserMarshalFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

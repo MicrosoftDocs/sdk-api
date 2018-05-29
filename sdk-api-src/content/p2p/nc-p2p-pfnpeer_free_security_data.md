@@ -1,16 +1,16 @@
 ---
 UID: NC:p2p.PFNPEER_FREE_SECURITY_DATA
 title: PFNPEER_FREE_SECURITY_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: The PFNPEER_FREE_SECURITY_DATA callback specifies the function that the Peer Graphing Infrastructure calls to free data returned by PFNPEER_SECURE_RECORD and PFNPEER_VALIDATE_RECORD callbacks.
 old-location: p2p\pfnpeer_free_security_data.htm
 old-project: P2PSdk
 ms.assetid: aa340e32-6d7f-4218-b120-8c352fdbda0f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PFNPEER_FREE_SECURITY_DATA, PFNPEER_FREE_SECURITY_DATA callback, PFNPEER_FREE_SECURITY_DATA callback function [Peer Networking], p2p.pfnpeer_free_security_data, p2p/PFNPEER_FREE_SECURITY_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: p2p.h
 req.include-header: 

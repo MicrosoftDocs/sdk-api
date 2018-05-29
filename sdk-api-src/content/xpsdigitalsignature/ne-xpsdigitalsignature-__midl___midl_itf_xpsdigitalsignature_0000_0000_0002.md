@@ -1,16 +1,16 @@
 ---
 UID: NE:xpsdigitalsignature.__MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0002
 title: "__MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0002"
-author: windows-driver-content
+author: windows-sdk-content
 description: A bitwise enumerator that indicates which, if any, optional parts of an XPS document are signed.
 old-location: xps\xps_sign_policy.htm
 old-project: printdocs
 ms.assetid: 88191931-4d6f-4ef3-ba75-227f6d2c2b10
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: XPS_SIGN_POLICY, XPS_SIGN_POLICY enumeration [XPS Documents and Packaging], XPS_SIGN_POLICY_ALL, XPS_SIGN_POLICY_CORE_PROPERTIES, XPS_SIGN_POLICY_DISCARD_CONTROL, XPS_SIGN_POLICY_NONE, XPS_SIGN_POLICY_PRINT_TICKET, XPS_SIGN_POLICY_SIGNATURE_RELATIONSHIPS, __MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0002, xps.xps_sign_policy, xpsdigitalsignature/XPS_SIGN_POLICY, xpsdigitalsignature/XPS_SIGN_POLICY_ALL, xpsdigitalsignature/XPS_SIGN_POLICY_CORE_PROPERTIES, xpsdigitalsignature/XPS_SIGN_POLICY_DISCARD_CONTROL, xpsdigitalsignature/XPS_SIGN_POLICY_NONE, xpsdigitalsignature/XPS_SIGN_POLICY_PRINT_TICKET, xpsdigitalsignature/XPS_SIGN_POLICY_SIGNATURE_RELATIONSHIPS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: xpsdigitalsignature.h
 req.include-header: 

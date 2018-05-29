@@ -1,16 +1,16 @@
 ---
 UID: NF:webapplication.IWebApplicationUIEvents.SecurityProblem
 title: IWebApplicationUIEvents::SecurityProblem
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the authoring app about an authentication problem.
 old-location: debug\iwebapplicationuievents_securityproblem.htm
 old-project: debug_wwahost
 ms.assetid: 3579ffe7-914c-4baf-b1bf-4ed1a1db645f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWebApplicationUIEvents interface [Debugging Windows Store apps],SecurityProblem method, IWebApplicationUIEvents.SecurityProblem, IWebApplicationUIEvents::SecurityProblem, SecurityProblem, SecurityProblem method [Debugging Windows Store apps], SecurityProblem method [Debugging Windows Store apps],IWebApplicationUIEvents interface, debug.iwebapplicationuievents_securityproblem, webapplication/IWebApplicationUIEvents::SecurityProblem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: webapplication.h
 req.include-header: 

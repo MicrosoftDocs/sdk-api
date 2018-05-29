@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.WriteTapemark
 title: WriteTapemark function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes a specified number of filemarks, setmarks, short filemarks, or long filemarks to a tape device.
 old-location: backup\writetapemark.htm
 old-project: Backup
 ms.assetid: 74effd3b-693d-4808-9d80-6c70e2aef7fb
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: TAPE_FILEMARKS, TAPE_LONG_FILEMARKS, TAPE_SETMARKS, TAPE_SHORT_FILEMARKS, WriteTapemark, WriteTapemark function [Backup], _win32_writetapemark, backup.writetapemark, base.writetapemark, winbase/WriteTapemark
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

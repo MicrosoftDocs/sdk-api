@@ -1,16 +1,16 @@
 ---
 UID: NS:ocidl.tagCAUUID
 title: tagCAUUID
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a counted array of UUID or GUID types used to receive an array of CLSIDs for the property pages that the object wants to display.
 old-location: com\cauuid.htm
 old-project: com
 ms.assetid: 23b991fb-9494-4d3b-83df-986739beaa14
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPCAUUID, CAUUID, CAUUID structure [COM], LPCAUUID, LPCAUUID structure pointer [COM], _ctrl_CAUUID, com.cauuid, ocidl/CAUUID, ocidl/LPCAUUID, tagCAUUID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

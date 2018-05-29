@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcPart.GetRelationshipSet
 title: IOpcPart::GetRelationshipSet
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a relationship set object that represents the Relationships part that stores relationships that have the part as their source.
 old-location: opc\iopcpart_getrelationshipset.htm
 old-project: OPC
 ms.assetid: a8a8ce1f-3420-457f-b02a-5dc3e9725a02
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetRelationshipSet, GetRelationshipSet method [Open Packaging Conventions], GetRelationshipSet method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetRelationshipSet method, IOpcPart.GetRelationshipSet, IOpcPart::GetRelationshipSet, msopc/IOpcPart::GetRelationshipSet, opc.iopcpart_getrelationshipset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

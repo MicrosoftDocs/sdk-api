@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPControls.next
 title: IWMPControls::next
-author: windows-driver-content
+author: windows-sdk-content
 description: The next method sets the next item in the playlist as the current item.
 old-location: wmp\iwmpcontrols_next.htm
 old-project: WMP
 ms.assetid: 1f0bbc77-b271-4076-8089-92fe7745d9a8
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPControls interface [Windows Media Player],next method, IWMPControls.next, IWMPControls::next, IWMPControlsnext, next, next method [Windows Media Player], next method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_next, wmp/IWMPControls::next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

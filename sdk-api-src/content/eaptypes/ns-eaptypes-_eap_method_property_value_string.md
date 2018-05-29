@@ -1,16 +1,16 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_VALUE_STRING
 title: "_EAP_METHOD_PROPERTY_VALUE_STRING"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the string value of an EAP method property.
 old-location: eaphost\eap_method_property_value_string.htm
 old-project: EAPHost
 ms.assetid: afb2d8f3-c2b1-45b8-9ff3-814c8e4b1595
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_STRING, EAP_METHOD_PROPERTY_VALUE_STRING structure [EAPHost], PEAP_METHOD_PROPERTY_VALUE_STRING, PEAP_METHOD_PROPERTY_VALUE_STRING structure pointer [EAPHost], _EAP_METHOD_PROPERTY_VALUE_STRING, eaphost.eap_method_property_value_string, eaptypes/EAP_METHOD_PROPERTY_VALUE_STRING, eaptypes/PEAP_METHOD_PROPERTY_VALUE_STRING
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

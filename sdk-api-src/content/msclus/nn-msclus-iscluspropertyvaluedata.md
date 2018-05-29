@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusPropertyValueData
 title: ISClusPropertyValueData
-author: windows-driver-content
+author: windows-sdk-content
 description: All of the data values associated with a property value.
 old-location: mscs\cluspropertyvaluedata_collection.htm
 old-project: MsCS
 ms.assetid: d95a90f6-2a70-428b-aff3-3be9e9e66071
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusPropertyValueData, ClusPropertyValueData collection [Failover Cluster], ClusPropertyValueData collection [Failover Cluster],described, ISClusPropertyValueData, _wolf_cluspropertyvaluedata_collection, msclus/ClusPropertyValueData, mscs.cluspropertyvaluedata_collection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

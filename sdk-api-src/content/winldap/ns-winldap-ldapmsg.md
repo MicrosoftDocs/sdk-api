@@ -1,16 +1,16 @@
 ---
 UID: NS:winldap.ldapmsg
 title: ldapmsg
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by an LDAP function to return results and error data.
 old-location: ldap\ldapmessage.htm
 old-project: LDAP
 ms.assetid: 547a0736-23a4-4bfd-8ae0-866825228b53
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "*PLDAPMessage, LDAPMessage, LDAPMessage structure [LDAP], PLDAPMessage, PLDAPMessage structure pointer [LDAP], _ldap_ldapmessage, ldap.ldapmessage, ldapmsg, winldap/LDAPMessage, winldap/PLDAPMessage"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:infotech.IITPropList.SaveData
 title: IITPropList::SaveData
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves the data size and data from the property list to a buffer.
 old-location: htmlhelp\iitproplist_savedata.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistsavedata.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IITPropList interface [HTML Help Workshop],SaveData method, IITPropList.SaveData, IITPropList::SaveData, SaveData, SaveData method [HTML Help Workshop], SaveData method [HTML Help Workshop],IITPropList interface, htmlhelp.iitproplist_savedata, infotech/IITPropList::SaveData, refIITPropListSaveData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0024
 title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0024"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MPEG_TIME structure represents a time of day, or a duration.
 old-location: mstv\mpeg_time.htm
 old-project: mstv
 ms.assetid: b0a28edb-fcd8-43b4-a65c-d45e8a0f02b3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MPEG_DURATION, MPEG_TIME, MPEG_TIME structure [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0024, mpeg2structs/MPEG_TIME, mstv.mpeg_time
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 

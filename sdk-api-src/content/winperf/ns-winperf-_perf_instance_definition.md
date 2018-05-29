@@ -1,16 +1,16 @@
 ---
 UID: NS:winperf._PERF_INSTANCE_DEFINITION
 title: "_PERF_INSTANCE_DEFINITION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an instance of a performance object.
 old-location: perf\perf_instance_definition_str.htm
 old-project: PerfCtrs
 ms.assetid: 5ea617d3-857d-4e0a-ad10-4d63044fc927
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PPERF_INSTANCE_DEFINITION, PERF_INSTANCE_DEFINITION, PERF_INSTANCE_DEFINITION structure [Perf], _PERF_INSTANCE_DEFINITION, _win32_perf_instance_definition_str, base.perf_instance_definition_str, perf.perf_instance_definition_str, winperf/PERF_INSTANCE_DEFINITION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winperf.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetLinkText
 title: ISyncMgrEvent::GetLinkText
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the text for the hot link for the event.
 old-location: shell\ISyncMgrEvent_GetLinkText.htm
 old-project: shell
 ms.assetid: f8a7226b-270e-495e-a43f-8e6a9c7a77df
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLinkText, GetLinkText method [Windows Shell], GetLinkText method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetLinkText method, ISyncMgrEvent.GetLinkText, ISyncMgrEvent::GetLinkText, _shell_ISyncMgrEvent_GetLinkText, shell.ISyncMgrEvent_GetLinkText, syncmgr/ISyncMgrEvent::GetLinkText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFDXGIBuffer.GetSubresourceIndex
 title: IMFDXGIBuffer::GetSubresourceIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the index of the subresource that is associated with this media buffer.
 old-location: mf\imfdxgibuffer_getsubresourceindex.htm
 old-project: medfound
 ms.assetid: 71FA2B1C-2F11-45E7-8211-92A129F8C991
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSubresourceIndex, GetSubresourceIndex method [Media Foundation], GetSubresourceIndex method [Media Foundation],IMFDXGIBuffer interface, IMFDXGIBuffer interface [Media Foundation],GetSubresourceIndex method, IMFDXGIBuffer.GetSubresourceIndex, IMFDXGIBuffer::GetSubresourceIndex, mf.imfdxgibuffer_getsubresourceindex, mfobjects/IMFDXGIBuffer::GetSubresourceIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

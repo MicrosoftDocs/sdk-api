@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetIndividualEmmMessage
 title: IISDB_EMM::GetIndividualEmmMessage
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an individual message from an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_getindividualemmmessage.htm
 old-project: mstv
 ms.assetid: 311b4efb-dacb-41e1-a798-913e3f99b168
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetIndividualEmmMessage, GetIndividualEmmMessage method [Microsoft TV Technologies], GetIndividualEmmMessage method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetIndividualEmmMessage method, IISDB_EMM.GetIndividualEmmMessage, IISDB_EMM::GetIndividualEmmMessage, dvbsiparser/IISDB_EMM::GetIndividualEmmMessage, mstv.iisdb_emm_getindividualemmmessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

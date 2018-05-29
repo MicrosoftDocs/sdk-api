@@ -1,16 +1,16 @@
 ---
 UID: NE:winsxs.__MIDL_IAssemblyName_0003
 title: "__MIDL_IAssemblyName_0003"
-author: windows-driver-content
+author: windows-sdk-content
 description: The values of the ASM_DISPLAY_FLAGS enumeration are used by the GetDisplayName method to specify which portions of the assembly's full name to include in the string representation of the assembly name.
 old-location: setup\asm_display_flags_.htm
 old-project: SbsCs
 ms.assetid: 8f4c00b9-2684-44eb-9a68-bef6da87c396
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ASM_DISPLAYF_CULTURE, ASM_DISPLAYF_CUSTOM, ASM_DISPLAYF_LANGUAGEID, ASM_DISPLAYF_PROCESSORARCHITECTURE, ASM_DISPLAYF_PUBLIC_KEY, ASM_DISPLAYF_PUBLIC_KEY_TOKEN, ASM_DISPLAYF_VERSION, ASM_DISPLAY_FLAGS, ASM_DISPLAY_FLAGS , ASM_DISPLAY_FLAGS enumeration [Side-by-side Assemblies], __MIDL_IAssemblyName_0003, setup.asm_display_flags_, winsxs/ASM_DISPLAYF_CULTURE, winsxs/ASM_DISPLAYF_CUSTOM, winsxs/ASM_DISPLAYF_LANGUAGEID, winsxs/ASM_DISPLAYF_PROCESSORARCHITECTURE, winsxs/ASM_DISPLAYF_PUBLIC_KEY, winsxs/ASM_DISPLAYF_PUBLIC_KEY_TOKEN, winsxs/ASM_DISPLAYF_VERSION, winsxs/ASM_DISPLAY_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winsxs.h
 req.include-header: 

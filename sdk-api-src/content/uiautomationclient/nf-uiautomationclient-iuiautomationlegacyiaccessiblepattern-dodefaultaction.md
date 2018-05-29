@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.DoDefaultAction
 title: IUIAutomationLegacyIAccessiblePattern::DoDefaultAction
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs the Microsoft Active Accessibility default action for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction.htm
 old-project: WinAuto
 ms.assetid: b518a835-02f5-48ce-a70b-792abf8b4306
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: DoDefaultAction, DoDefaultAction method [Windows Accessibility], DoDefaultAction method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],DoDefaultAction method, IUIAutomationLegacyIAccessiblePattern.DoDefaultAction, IUIAutomationLegacyIAccessiblePattern::DoDefaultAction, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction, uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::DoDefaultAction, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_DoDefaultAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFConvertColorInfoToDXVA
 title: MFConvertColorInfoToDXVA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the extended color information from an MFVIDEOFORMAT to the equivalent DirectX Video Acceleration (DXVA) color information.
 old-location: mf\mfconvertcolorinfotodxva.htm
 old-project: medfound
 ms.assetid: 52a3be2b-f715-4e12-9f69-6a832153ff5e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 52a3be2b-f715-4e12-9f69-6a832153ff5e, MFConvertColorInfoToDXVA, MFConvertColorInfoToDXVA function [Media Foundation], mf.mfconvertcolorinfotodxva, mfapi/MFConvertColorInfoToDXVA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

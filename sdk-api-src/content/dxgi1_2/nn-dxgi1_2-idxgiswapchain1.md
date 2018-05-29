@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi1_2.IDXGISwapChain1
 title: IDXGISwapChain1
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides presentation capabilities that are enhanced from IDXGISwapChain. These presentation capabilities consist of specifying dirty rectangles and scroll rectangle to optimize the presentation.
 old-location: direct3ddxgi\idxgiswapchain1.htm
 old-project: direct3ddxgi
 ms.assetid: A674E006-4323-4967-9B9B-0E3965040DBF
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGISwapChain1, IDXGISwapChain1 interface [DXGI], IDXGISwapChain1 interface [DXGI],described, direct3ddxgi.idxgiswapchain1, dxgi1_2/IDXGISwapChain1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_2.h
 req.include-header: 

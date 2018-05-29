@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d10shader._D3D10_SIGNATURE_PARAMETER_DESC
 title: "_D3D10_SIGNATURE_PARAMETER_DESC"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a shader signature.
 old-location: direct3d10\d3d10_signature_parameter_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_signature_parameter_desc.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: D3D10_SIGNATURE_PARAMETER_DESC, D3D10_SIGNATURE_PARAMETER_DESC structure [Direct3D 10], _D3D10_SIGNATURE_PARAMETER_DESC, d3d10shader/D3D10_SIGNATURE_PARAMETER_DESC, direct3d10.d3d10_signature_parameter_desc, eb24f675-ae7b-325f-955c-48e49ab65308
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10shader.h
 req.include-header: 

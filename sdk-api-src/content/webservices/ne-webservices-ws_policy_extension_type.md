@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_POLICY_EXTENSION_TYPE
 title: WS_POLICY_EXTENSION_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The values in this enumeration are used to identify the sub-types of WS_POLICY_EXTENSION.
 old-location: wsw\ws_policy_extension_type.htm
 old-project: wsw
 ms.assetid: e656ec20-6df0-4929-8257-bfbfb98567fa
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_ENDPOINT_POLICY_EXTENSION_TYPE, WS_POLICY_EXTENSION_TYPE, WS_POLICY_EXTENSION_TYPE enumeration [Web Services for Windows], webservices/WS_ENDPOINT_POLICY_EXTENSION_TYPE, webservices/WS_POLICY_EXTENSION_TYPE, wsw.ws_policy_extension_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

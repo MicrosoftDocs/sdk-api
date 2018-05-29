@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IEnumClockVector.Clone
 title: IEnumClockVector::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 old-location: winsync\ienumclockvector_clone.htm
 old-project: winsync
 ms.assetid: 17e8704f-15fe-4d08-9e83-fd7b9a064569
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumClockVector interface, IEnumClockVector interface [Windows Sync],Clone method, IEnumClockVector.Clone, IEnumClockVector::Clone, winsync.ienumclockvector_clone, winsync/IEnumClockVector::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

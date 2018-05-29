@@ -1,16 +1,16 @@
 ---
 UID: NE:vds._VDS_DISK_EXTENT_TYPE
 title: "_VDS_DISK_EXTENT_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of disk extents types. The type can be a partition, volume, or free space.
 old-location: base\vds_disk_extent_type.htm
 old-project: VDS
 ms.assetid: 3f7a5dba-315b-4757-bd4c-1335c18739eb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_DET_CLUSTER, VDS_DET_DATA, VDS_DET_ESP, VDS_DET_FREE, VDS_DET_LDM, VDS_DET_MSR, VDS_DET_OEM, VDS_DET_UNKNOWN, VDS_DET_UNUSABLE, VDS_DISK_EXTENT_TYPE, VDS_DISK_EXTENT_TYPE enumeration [VDS], _VDS_DISK_EXTENT_TYPE, base.vds_disk_extent_type, vds/VDS_DET_CLUSTER, vds/VDS_DET_DATA, vds/VDS_DET_ESP, vds/VDS_DET_FREE, vds/VDS_DET_LDM, vds/VDS_DET_MSR, vds/VDS_DET_OEM, vds/VDS_DET_UNKNOWN, vds/VDS_DET_UNUSABLE, vds/VDS_DISK_EXTENT_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: vds.h
 req.include-header: 

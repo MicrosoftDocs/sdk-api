@@ -1,16 +1,16 @@
 ---
 UID: NF:filehc.TerminateCache
 title: TerminateCache function
-author: windows-driver-content
+author: windows-sdk-content
 description: Eliminates the cache and ends asynchronous I/O with the DLL.
 old-location: winprog\_terminatecache.htm
 old-project: DevNotes
 ms.assetid: 3c4bdb54-8baa-4302-89ab-c7e6f35582e5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TerminateCache, TerminateCache function [Windows API], filehc/TerminateCache, winprog._terminatecache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

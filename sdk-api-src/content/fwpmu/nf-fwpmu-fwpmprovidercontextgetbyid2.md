@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextGetById2
 title: FwpmProviderContextGetById2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a provider context.
 old-location: fwp\fwpmprovidercontextgetbyid2.htm
 old-project: FWP
 ms.assetid: 50578a7a-d869-4fad-a159-f69a234069e6
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmProviderContextGetById2, FwpmProviderContextGetById2 function [Filtering], fwp.fwpmprovidercontextgetbyid2, fwpmu/FwpmProviderContextGetById2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:msacm.acmFormatDetailsW
 title: acmFormatDetailsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The acmFormatDetails function queries the ACM for format details for a specific waveform-audio format tag.
 old-location: multimedia\acmformatdetails.htm
 old-project: Multimedia
 ms.assetid: 2a6a9b8f-758b-4443-b1c7-e277f22bac5b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_acmFormatDetails, acmFormatDetails, acmFormatDetails function [Windows Multimedia], acmFormatDetailsA, acmFormatDetailsW, msacm/acmFormatDetails, msacm/acmFormatDetailsA, msacm/acmFormatDetailsW, multimedia.acmformatdetails"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msacm.h
 req.include-header: 

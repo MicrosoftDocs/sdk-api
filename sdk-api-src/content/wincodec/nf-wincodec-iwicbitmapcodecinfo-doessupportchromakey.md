@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.DoesSupportChromakey
 title: IWICBitmapCodecInfo::DoesSupportChromakey
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a value indicating whether the codec supports chromakeys.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_doessupportchromakey.htm
 old-project: wic
 ms.assetid: 662e213e-1ed2-445c-a7be-ff8a137fba2e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DoesSupportChromakey, DoesSupportChromakey method [Windows Imaging Component], DoesSupportChromakey method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],DoesSupportChromakey method, IWICBitmapCodecInfo.DoesSupportChromakey, IWICBitmapCodecInfo::DoesSupportChromakey, _wic_codec_iwicbitmapcodecinfo_doessupportchromakey, wic._wic_codec_iwicbitmapcodecinfo_doessupportchromakey, wincodec/IWICBitmapCodecInfo::DoesSupportChromakey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

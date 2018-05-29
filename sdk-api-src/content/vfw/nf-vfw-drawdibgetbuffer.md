@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.DrawDibGetBuffer
 title: DrawDibGetBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrawDibGetBuffer function retrieves the location of the buffer used by DrawDib for decompression.
 old-location: multimedia\drawdibgetbuffer.htm
 old-project: Multimedia
 ms.assetid: 6b3e1d3a-2227-4a27-91aa-8767a3d76bc4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DrawDibGetBuffer, DrawDibGetBuffer function [Windows Multimedia], _win32_DrawDibGetBuffer, multimedia.drawdibgetbuffer, vfw/DrawDibGetBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

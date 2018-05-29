@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawDriverString
 title: Graphics::DrawDriverString
-author: windows-driver-content
+author: windows-sdk-content
 description: The Graphics::DrawDriverString method draws characters at the specified positions. The method gives the client complete control over the appearance of text. The method assumes that the client has already set up the format and layout to be applied.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawDriverString_text_length_font_brush_positions_flags_matrix_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\drawdriverstring.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DrawDriverString, DrawDriverString method [GDI+], DrawDriverString method [GDI+],Graphics class, Graphics class [GDI+],DrawDriverString method, Graphics.DrawDriverString, Graphics::DrawDriverString, _gdiplus_CLASS_Graphics_DrawDriverString_text_length_font_brush_positions_flags_matrix_, gdiplus._gdiplus_CLASS_Graphics_DrawDriverString_text_length_font_brush_positions_flags_matrix_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

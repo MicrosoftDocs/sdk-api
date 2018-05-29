@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.Header_GetFocusedItem
 title: Header_GetFocusedItem macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the item in a header control that has the focus. Use this macro or send the HDM_GETFOCUSEDITEM message explicitly.
 old-location: controls\Header_GetFocusedItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getfocuseditem.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Header_GetFocusedItem, Header_GetFocusedItem macro [Windows Controls], _shell_Header_GetFocusedItem, _shell_Header_GetFocusedItem_cpp, commctrl/Header_GetFocusedItem, controls.Header_GetFocusedItem, controls._shell_Header_GetFocusedItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

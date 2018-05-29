@@ -1,16 +1,16 @@
 ---
 UID: NS:amvideo.tagAnalogVideoInfo
 title: tagAnalogVideoInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The ANALOGVIDEOINFO structure maintains information about the format of the analog video signal.
 old-location: dshow\analogvideoinfo.htm
 old-project: DirectShow
 ms.assetid: c0c568ce-6834-4bfe-aaae-addfbc0218bd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ANALOGVIDEOINFO, ANALOGVIDEOINFO structure [DirectShow], ANALOGVIDEOINFOStructure, amvideo/ANALOGVIDEOINFO, dshow.analogvideoinfo, tagAnalogVideoInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: amvideo.h
 req.include-header: Dshow.h

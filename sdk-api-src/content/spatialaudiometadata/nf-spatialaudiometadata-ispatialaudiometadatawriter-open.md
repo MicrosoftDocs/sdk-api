@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataWriter.Open
 title: ISpatialAudioMetadataWriter::Open
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an ISpatialAudioMetadataItems object for writing.
 old-location: coreaudio\ispatialaudiometadatawriter_open.htm
 old-project: CoreAudio
 ms.assetid: 49B3401D-7B26-4057-81C0-6C5683B83665
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISpatialAudioMetadataWriter interface [Core Audio],Open method, ISpatialAudioMetadataWriter.Open, ISpatialAudioMetadataWriter::Open, Open, Open method [Core Audio], Open method [Core Audio],ISpatialAudioMetadataWriter interface, coreaudio.ispatialaudiometadatawriter_open, spatialaudiometadata/ISpatialAudioMetadataWriter::Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 

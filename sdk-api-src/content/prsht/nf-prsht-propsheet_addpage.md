@@ -1,16 +1,16 @@
 ---
 UID: NF:prsht.PropSheet_AddPage
 title: PropSheet_AddPage macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a new page to the end of an existing property sheet. You can use this macro or send the PSM_ADDPAGE message explicitly.
 old-location: controls\PropSheet_AddPage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_addpage.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropSheet_AddPage, PropSheet_AddPage macro [Windows Controls], _win32_PropSheet_AddPage, _win32_PropSheet_AddPage_cpp, controls.PropSheet_AddPage, controls._win32_PropSheet_AddPage, prsht/PropSheet_AddPage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

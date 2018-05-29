@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.SetColorKey
 title: IVMRWindowlessControl::SetColorKey
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetColorKey method sets the source color key value that the VMR should use.
 old-location: dshow\ivmrwindowlesscontrol_setcolorkey.htm
 old-project: DirectShow
 ms.assetid: 9facf4af-ed56-4a94-b351-35ddd7f63e6e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],SetColorKey method, IVMRWindowlessControl.SetColorKey, IVMRWindowlessControl::SetColorKey, IVMRWindowlessControlSetColorKey, SetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_setcolorkey, strmif/IVMRWindowlessControl::SetColorKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

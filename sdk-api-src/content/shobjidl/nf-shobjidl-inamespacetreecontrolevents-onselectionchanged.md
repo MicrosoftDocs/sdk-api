@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnSelectionChanged
 title: INameSpaceTreeControlEvents::OnSelectionChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the selection changes.
 old-location: shell\INameSpaceTreeControlEvents_OnSelectionChanged.htm
 old-project: shell
 ms.assetid: ecc84586-ec37-4ece-a890-6adfc7a94ad6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnSelectionChanged method, INameSpaceTreeControlEvents.OnSelectionChanged, INameSpaceTreeControlEvents::OnSelectionChanged, OnSelectionChanged, OnSelectionChanged method [Windows Shell], OnSelectionChanged method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnSelectionChanged, shell.INameSpaceTreeControlEvents_OnSelectionChanged, shobjidl/INameSpaceTreeControlEvents::OnSelectionChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

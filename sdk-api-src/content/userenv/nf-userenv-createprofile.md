@@ -1,16 +1,16 @@
 ---
 UID: NF:userenv.CreateProfile
 title: CreateProfile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new user profile.
 old-location: shell\CreateProfile.htm
 old-project: shell
 ms.assetid: cab9e20b-d94c-42e5-ada9-27194f398bb3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateProfile, CreateProfile function [Windows Shell], _shell_CreateProfile, shell.CreateProfile, userenv/CreateProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

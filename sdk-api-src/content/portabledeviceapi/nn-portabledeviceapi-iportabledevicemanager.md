@@ -1,16 +1,16 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceManager
 title: IPortableDeviceManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates devices that are connected to the computer and provides a simple way to request installation information, including manufacturer, friendly name, and description.
 old-location: wpdsdk\iportabledevicemanager.htm
 old-project: wpd_sdk
 ms.assetid: 11cd5b2b-e8f8-4ba1-8527-f7a403f399d5
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IPortableDeviceManager, IPortableDeviceManager interface [Windows Portable Devices SDK], IPortableDeviceManager interface [Windows Portable Devices SDK],described, IPortableDeviceManagerInterface, portabledeviceapi/IPortableDeviceManager, wpdsdk.iportabledevicemanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 

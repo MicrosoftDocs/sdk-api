@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.ULongPtrToShort
 title: ULongPtrToShort function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type ULONG_PTR to a value of type SHORT.
 old-location: shell\ULongPtrToShort.htm
 old-project: shell
 ms.assetid: cb3d598b-24c4-45b0-838e-de41ac69f691
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ULongPtrToShort, ULongPtrToShort function [Windows Shell], intsafe/ULongPtrToShort, shell.ULongPtrToShort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

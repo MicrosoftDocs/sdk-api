@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetVersionHash
 title: IDVB_EIT::GetVersionHash
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit_getversionhash.htm
 old-project: mstv
 ms.assetid: 38b36718-2ec0-4983-8af5-669b05079ff0
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetVersionHash method, IDVB_EIT.GetVersionHash, IDVB_EIT::GetVersionHash, IDVB_EITGetVersionHash, dvbsiparser/IDVB_EIT::GetVersionHash, mstv.idvb_eit_getversionhash
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

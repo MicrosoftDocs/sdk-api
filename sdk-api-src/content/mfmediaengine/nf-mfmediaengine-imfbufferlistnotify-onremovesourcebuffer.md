@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFBufferListNotify.OnRemoveSourceBuffer
 title: IMFBufferListNotify::OnRemoveSourceBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that a IMFSourceBuffer has been removed.
 old-location: mf\imfbufferlistnotify_onremovesourcebuffer.htm
 old-project: medfound
 ms.assetid: 2b203ba3-d5b8-4ab9-ae3e-74c289d74749
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFBufferListNotify interface [Media Foundation],OnRemoveSourceBuffer method, IMFBufferListNotify.OnRemoveSourceBuffer, IMFBufferListNotify::OnRemoveSourceBuffer, OnRemoveSourceBuffer, OnRemoveSourceBuffer method [Media Foundation], OnRemoveSourceBuffer method [Media Foundation],IMFBufferListNotify interface, mf.imfbufferlistnotify_onremovesourcebuffer, mfmediaengine/IMFBufferListNotify::OnRemoveSourceBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetContentBox
 title: IXpsOMPage::SetContentBox
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the dimensions of the page's content box.
 old-location: xps\ixpsompage_setcontentbox.htm
 old-project: printdocs
 ms.assetid: 5262ce99-8112-4f4f-a173-5927341b4a2e
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetContentBox method, IXpsOMPage.SetContentBox, IXpsOMPage::SetContentBox, SetContentBox, SetContentBox method [XPS Documents and Packaging], SetContentBox method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setcontentbox, xpsobjectmodel/IXpsOMPage::SetContentBox
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

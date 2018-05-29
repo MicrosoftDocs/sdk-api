@@ -1,16 +1,16 @@
 ---
 UID: NF:mstask.ITaskScheduler.AddWorkItem
 title: ITaskScheduler::AddWorkItem
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddWorkItem method adds a task to the schedule of tasks.
 old-location: taskschd\itaskscheduler_addworkitem.htm
 old-project: TaskSchd
 ms.assetid: 5d776e19-c40e-4e0a-8ae1-a14c4f23b442
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AddWorkItem, AddWorkItem method [Task Scheduler], AddWorkItem method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],AddWorkItem method, ITaskScheduler.AddWorkItem, ITaskScheduler::AddWorkItem, _msb_itaskscheduler_addworkitem, mstask/ITaskScheduler::AddWorkItem, taskschd.itaskscheduler_addworkitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mstask.h
 req.include-header: 

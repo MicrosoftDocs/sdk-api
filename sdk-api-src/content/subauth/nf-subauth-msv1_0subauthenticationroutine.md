@@ -1,16 +1,16 @@
 ---
 UID: NF:subauth.Msv1_0SubAuthenticationRoutine
 title: Msv1_0SubAuthenticationRoutine function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs client/server-specific authentication.
 old-location: security\msv1_0subauthenticationroutine.htm
 old-project: SecAuthN
 ms.assetid: 18d0da59-026a-4951-8529-f7dbaab20d08
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LOGON_GUEST, LOGON_NOENCRYPTION, MSV1_0_GUEST_LOGON, MSV1_0_PASSTHRU, Msv1_0SubAuthenticationRoutine, Msv1_0SubAuthenticationRoutine function [Security], USER_ALL_PARAMETERS, _lsa_msv1_0subauthenticationroutine, security.msv1_0subauthenticationroutine, subauth/Msv1_0SubAuthenticationRoutine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: subauth.h
 req.include-header: 

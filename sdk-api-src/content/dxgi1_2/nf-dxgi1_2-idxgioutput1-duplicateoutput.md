@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutput1.DuplicateOutput
 title: IDXGIOutput1::DuplicateOutput
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a desktop duplication interface from the IDXGIOutput1 interface that represents an adapter output.
 old-location: direct3ddxgi\idxgioutput1_duplicateoutput.htm
 old-project: direct3ddxgi
 ms.assetid: 32B13906-0920-4891-B1E7-BCB291E78E73
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DuplicateOutput, DuplicateOutput method [DXGI], DuplicateOutput method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],DuplicateOutput method, IDXGIOutput1.DuplicateOutput, IDXGIOutput1::DuplicateOutput, direct3ddxgi.idxgioutput1_duplicateoutput, dxgi1_2/IDXGIOutput1::DuplicateOutput
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

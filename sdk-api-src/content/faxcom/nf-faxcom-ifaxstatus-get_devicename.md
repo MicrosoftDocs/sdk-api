@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_DeviceName
 title: IFaxStatus::get_DeviceName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the DeviceName property for the FaxStatus object of a parent FaxPort object. The DeviceName property is a null-terminated string that contains the user-friendly display name for the fax port.
 old-location: fax\_mfax_ifaxstatus_get_devicename_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_67mt.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: DeviceName property [Fax Service], DeviceName property [Fax Service],FaxStatus object, FaxStatus object [Fax Service],DeviceName property, FaxStatus.DeviceName, IFaxStatus.get_DeviceName, IFaxStatus::get_DeviceName, _mfax_ifaxstatus_get_devicename, fax._mfax_ifaxstatus_get_devicename, fax._mfax_ifaxstatus_get_devicename_vb, get_DeviceName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

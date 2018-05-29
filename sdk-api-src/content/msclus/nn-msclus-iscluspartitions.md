@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusPartitions
 title: ISClusPartitions
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the partitions of a Physical Disk.
 old-location: mscs\cluspartitions_collection.htm
 old-project: MsCS
 ms.assetid: 8a3c602a-a3b1-4b63-8dfa-36200c5c30ab
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusPartitions, ClusPartitions collection [Failover Cluster], ClusPartitions collection [Failover Cluster],described, ISClusPartitions, _wolf_cluspartitions_collection, msclus/ClusPartitions, mscs.cluspartitions_collection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

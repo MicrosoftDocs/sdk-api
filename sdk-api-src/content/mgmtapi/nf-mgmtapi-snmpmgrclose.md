@@ -1,16 +1,16 @@
 ---
 UID: NF:mgmtapi.SnmpMgrClose
 title: SnmpMgrClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SnmpMgrClose function closes the communications sockets and data structures that are associated with the specified session. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgrclose.htm
 old-project: SNMP
 ms.assetid: d8e7cc61-e313-4e36-88e7-686b4f9282b5
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpMgrClose, SnmpMgrClose function [SNMP], _snmp_snmpmgrclose, mgmtapi/SnmpMgrClose, snmp.snmpmgrclose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mgmtapi.h
 req.include-header: 

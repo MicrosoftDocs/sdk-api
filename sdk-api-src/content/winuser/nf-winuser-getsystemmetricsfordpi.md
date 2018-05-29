@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetSystemMetricsForDpi
 title: GetSystemMetricsForDpi function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified system metric or system configuration setting taking into account a provided DPI.
 old-location: hidpi\getsystemmetricsfordpi.htm
 old-project: hidpi
 ms.assetid: E95BB417-81FA-4824-BE68-A1E3E003F8E0
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.author: windowssdkdev
+ms.date: 03/29/2018
 ms.keywords: GetSystemMetricsForDpi, GetSystemMetricsForDpi function [High DPI], hidpi.getsystemmetricsfordpi, winuser/GetSystemMetricsForDpi
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

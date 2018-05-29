@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.LoadStringByReference
 title: LoadStringByReference function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unsupported. LoadStringByReference may be altered or unavailable. Instead, use SHLoadIndirectString.
 old-location: intl\loadstringbyreference.htm
 old-project: Intl
 ms.assetid: 4E0470ED-512F-4B76-A3E4-31C8B269CD5C
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LoadStringByReference, LoadStringByReference function [Internationalization for Windows Applications], intl.loadstringbyreference, winnls/LoadStringByReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

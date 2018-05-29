@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12Device3.OpenExistingHeapFromAddress
 title: ID3D12Device3::OpenExistingHeapFromAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a special-purpose diagnostic heap in system memory from an address. The created heap can persist even in the event of a GPU-fault or device-removed scenario.
 old-location: direct3d12\id3d12device3_openexistingheapfromaddress.htm
 old-project: direct3d12
 ms.assetid: E2343759-FC36-4638-AE91-F6BF6D0BC3BA
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12Device3.OpenExistingHeapFromAddress, ID3D12Device3::OpenExistingHeapFromAddress, Id3d12device3 interface,OpenExistingHeapFromAddress method, Id3d12device3::OpenExistingHeapFromAddress, OpenExistingHeapFromAddress, OpenExistingHeapFromAddress method, OpenExistingHeapFromAddress method,Id3d12device3 interface, d3d12/Id3d12device3::OpenExistingHeapFromAddress, direct3d12.id3d12device3_openexistingheapfromaddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

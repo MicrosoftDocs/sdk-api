@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE
 title: "_WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Username/password security template information to be filled in by application. Associated with WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE_TYPE.
 old-location: wsw\ws_tcp_sspi_username_binding_template.htm
 old-project: wsw
 ms.assetid: c2d63721-0810-48a5-b1f8-8b1adcba96b8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE, WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE structure [Web Services for Windows], _WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE, webservices/WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE, wsw.ws_tcp_sspi_username_binding_template
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

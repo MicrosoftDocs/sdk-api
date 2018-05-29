@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET
 title: PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the specified groupset from the cluster.
 old-location: mscs\deleteclustergroupcollection.htm
 old-project: MsCS
 ms.assetid: 8787d61b-7a80-404c-985f-1ad4ba01acf0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET, PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET callback, PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET callback function [Failover Cluster], clusapi/PCLUSAPI_DELETE_CLUSTER_GROUP_GROUPSET, mscs.deleteclustergroupcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceDelete
 title: MprAdminInterfaceDelete function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminInterfaceDelete function deletes an interface on a specified server.
 old-location: rras\mpradmininterfacedelete.htm
 old-project: RRAS
 ms.assetid: a02fff1d-c0e0-4a00-b77e-33cc45850bc6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminInterfaceDelete, MprAdminInterfaceDelete function [RAS], _mpr_mpradmininterfacedelete, mprapi/MprAdminInterfaceDelete, rras.mpradmininterfacedelete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

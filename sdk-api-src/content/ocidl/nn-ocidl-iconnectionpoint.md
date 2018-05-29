@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IConnectionPoint
 title: IConnectionPoint
-author: windows-driver-content
+author: windows-sdk-content
 description: Supports connection points for connectable objects.
 old-location: com\iconnectionpoint.htm
 old-project: com
 ms.assetid: ef5a917c-b57f-4000-8daa-86fdbfb47579
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IConnectionPoint, IConnectionPoint interface [COM], IConnectionPoint interface [COM],described, _com_iconnectionpoint, com.iconnectionpoint, ocidl/IConnectionPoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

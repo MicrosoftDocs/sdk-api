@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10shader.D3D10DisassembleShader
 title: D3D10DisassembleShader function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function -- which disassembles a compiled shader into a text string that contains assembly instructions and register assignments -- has been deprecated. Instead, use D3DDisassemble.
 old-location: direct3d10\d3d10disassembleshader.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10disassembleshader.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 3e4c4f2f-1754-2bbc-636d-9cea485ffad1, D3D10DisassembleShader, D3D10DisassembleShader function [Direct3D 10], d3d10shader/D3D10DisassembleShader, direct3d10.d3d10disassembleshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3d10shader.h
 req.include-header: 

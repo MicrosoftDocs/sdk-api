@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDAsyncCallback.AsyncOperationComplete
 title: IWSDAsyncCallback::AsyncOperationComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that the asynchronous operation has completed.
 old-location: ncd\iwsdasynccallback_asyncoperationcomplete_method.htm
 old-project: WsdApi
 ms.assetid: f2272d1e-bb12-43cd-a0ae-80530ad25fcf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AsyncOperationComplete, AsyncOperationComplete method, AsyncOperationComplete method,IWSDAsyncCallback interface, IWSDAsyncCallback interface,AsyncOperationComplete method, IWSDAsyncCallback.AsyncOperationComplete, IWSDAsyncCallback::AsyncOperationComplete, ncd.iwsdasynccallback_asyncoperationcomplete_method, wsdclient/IWSDAsyncCallback::AsyncOperationComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

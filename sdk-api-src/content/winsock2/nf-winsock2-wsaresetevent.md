@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSAResetEvent
 title: WSAResetEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSAResetEvent function resets the state of the specified event object to nonsignaled.
 old-location: winsock\wsaresetevent_2.htm
 old-project: WinSock
 ms.assetid: 99a8b0f3-977f-44cd-a224-0819d7513c90
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAResetEvent, WSAResetEvent function [Winsock], _win32_wsaresetevent_2, winsock.wsaresetevent_2, winsock2/WSAResetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageGroup
 title: WdsCliGetImageGroup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the name of the image group for the current image.
 old-location: wds\wdscligetimagegroup.htm
 old-project: Wds
 ms.assetid: 1588e19e-b215-4c26-ae00-6b6608b0c252
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsCliGetImageGroup, WdsCliGetImageGroup function [Windows Deployment Services], wds.wdscligetimagegroup, wdsclientapi/WdsCliGetImageGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

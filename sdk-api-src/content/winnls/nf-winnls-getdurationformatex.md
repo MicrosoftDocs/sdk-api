@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetDurationFormatEx
 title: GetDurationFormatEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats a duration of time as a time string for a locale specified by name.
 old-location: intl\getdurationformatex.htm
 old-project: Intl
 ms.assetid: 82027deb-ffaa-43ec-981e-ffbedb204bcb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDurationFormatEx, GetDurationFormatEx function [Internationalization for Windows Applications], _win32_GetDurationFormatEx, d, f, h or H, hh or HH, intl.getdurationformatex, m, mm, s, ss, winnls/GetDurationFormatEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

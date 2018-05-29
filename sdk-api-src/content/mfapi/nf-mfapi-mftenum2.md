@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFTEnum2
 title: MFTEnum2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria.
 old-location: mf\mftenum2.htm
 old-project: medfound
 ms.assetid: 1BF74B1F-46D9-46E8-A9DC-5A9666C3CAFB
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFTEnum2, MFTEnum2 function [Media Foundation], mf.mftenum2, mfapi/MFTEnum2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_FIND_SZ_PROPERTY
 title: PRESUTIL_FIND_SZ_PROPERTY
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates a string property in a property list. The PRESUTIL_FIND_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindszproperty.htm
 old-project: MsCS
 ms.assetid: b7fb6c7e-5a13-4838-98f4-45931e9e96d0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_FIND_SZ_PROPERTY, PRESUTIL_FIND_SZ_PROPERTY callback, PRESUTIL_FIND_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilfindszproperty, mscs.resutilfindszproperty, resapi/PRESUTIL_FIND_SZ_PROPERTY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

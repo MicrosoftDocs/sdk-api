@@ -1,16 +1,16 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortalGroup.Delete
 title: IVdsIscsiPortalGroup::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the portal group.
 old-location: base\ivdsiscsiportalgroup_delete.htm
 old-project: VDS
 ms.assetid: 903f89b8-4712-4832-ba70-41a5362cbf28
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Delete, Delete method [VDS], Delete method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],Delete method, IVdsIscsiPortalGroup.Delete, IVdsIscsiPortalGroup::Delete, base.ivdsiscsiportalgroup_delete, vds/IVdsIscsiPortalGroup::Delete, vdshwprv/IVdsIscsiPortalGroup::Delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

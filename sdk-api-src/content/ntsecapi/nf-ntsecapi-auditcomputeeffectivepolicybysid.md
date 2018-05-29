@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.AuditComputeEffectivePolicyBySid
 title: AuditComputeEffectivePolicyBySid function
-author: windows-driver-content
+author: windows-sdk-content
 description: Computes the effective audit policy for one or more subcategories for the specified security principal. The function computes effective audit policy by combining system audit policy with per-user policy.
 old-location: security\auditcomputeeffectivepolicybysid_func.htm
 old-project: SecAuthZ
 ms.assetid: cac928e5-8d8f-4b2f-9c1b-c00dc891e3d1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuditComputeEffectivePolicyBySid, AuditComputeEffectivePolicyBySid function [Security], ntsecapi/AuditComputeEffectivePolicyBySid, security.auditcomputeeffectivepolicybysid_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

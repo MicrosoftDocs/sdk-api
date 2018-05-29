@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetAccessibilityLongDescription
 title: IXpsOMPath::GetAccessibilityLongDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the long (detailed) textual description of the object's contents.
 old-location: xps\ixpsompath_getaccessibilitylongdescription.htm
 old-project: printdocs
 ms.assetid: 0ec32c0c-c6d3-4de0-a896-bf191805e799
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetAccessibilityLongDescription, GetAccessibilityLongDescription method [XPS Documents and Packaging], GetAccessibilityLongDescription method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetAccessibilityLongDescription method, IXpsOMPath.GetAccessibilityLongDescription, IXpsOMPath::GetAccessibilityLongDescription, xps.ixpsompath_getaccessibilitylongdescription, xpsobjectmodel/IXpsOMPath::GetAccessibilityLongDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

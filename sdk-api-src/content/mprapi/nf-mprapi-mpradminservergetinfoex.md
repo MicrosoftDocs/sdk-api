@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminServerGetInfoEx
 title: MprAdminServerGetInfoEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminServerGetInfoEx function retrieves port information about the specified RRAS server.
 old-location: rras\mpradminservergetinfoex.htm
 old-project: RRAS
 ms.assetid: 19fff58d-6e13-478f-a960-de5d0702661c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminServerGetInfoEx, MprAdminServerGetInfoEx function [RAS], mprapi/MprAdminServerGetInfoEx, rras.mpradminservergetinfoex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

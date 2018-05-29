@@ -1,16 +1,16 @@
 ---
 UID: NN:amstream.IAMMediaStream
 title: IAMMediaStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated.
 old-location: dshow\iammediastream.htm
 old-project: DirectShow
 ms.assetid: 14185e7d-d08d-4fd8-a255-075eaf12a708
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMMediaStream, IAMMediaStream interface [DirectShow], IAMMediaStream interface [DirectShow],described, IAMMediaStreamInterface, amstream/IAMMediaStream, dshow.iammediastream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: amstream.h
 req.include-header: 

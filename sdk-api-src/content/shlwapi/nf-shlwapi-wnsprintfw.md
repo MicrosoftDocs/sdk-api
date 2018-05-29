@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.wnsprintfW
 title: wnsprintfW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Takes a variable-length argument list and returns the values of the arguments as a printf-style formatted string.
 old-location: shell\wnsprintf.htm
 old-project: shell
 ms.assetid: 1d2b472b-6b34-4867-897c-eca60921d414
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "_win32_wnsprintf, shell.wnsprintf, shlwapi/wnsprintf, shlwapi/wnsprintfA, shlwapi/wnsprintfW, wnsprintf, wnsprintf function [Windows Shell], wnsprintfA, wnsprintfW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

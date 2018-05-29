@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.TreeView_DeleteItem
 title: TreeView_DeleteItem macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an item and all its children from a tree-view control. You can also send the TVM_DELETEITEM message explicitly.
 old-location: controls\TreeView_DeleteItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_deleteitem.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TreeView_DeleteItem, TreeView_DeleteItem macro [Windows Controls], _win32_TreeView_DeleteItem, _win32_TreeView_DeleteItem_cpp, commctrl/TreeView_DeleteItem, controls.TreeView_DeleteItem, controls._win32_TreeView_DeleteItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.AddStorageFilterEntries
 title: IDXGIInfoQueue::AddStorageFilterEntries
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds storage filters to the top of the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_addstoragefilterentries.htm
 old-project: direct3ddxgi
 ms.assetid: 34FC5AE3-7B72-4480-ACFA-53C7FB5425DA
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: AddStorageFilterEntries, AddStorageFilterEntries method [DXGI], AddStorageFilterEntries method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],AddStorageFilterEntries method, IDXGIInfoQueue.AddStorageFilterEntries, IDXGIInfoQueue::AddStorageFilterEntries, direct3ddxgi.idxgiinfoqueue_addstoragefilterentries, dxgidebug/IDXGIInfoQueue::AddStorageFilterEntries
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardReadCacheW
 title: SCardReadCacheW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value portion of a name-value pair from the global cache maintained by the Smart Card Resource Manager.
 old-location: security\scardreadcache.htm
 old-project: SecAuthN
 ms.assetid: ffa15036-b6d6-4c0a-8f04-e1900484eb8d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCardReadCache, SCardReadCache function [Security], SCardReadCacheA, SCardReadCacheW, security.scardreadcache, winscard/SCardReadCache, winscard/SCardReadCacheA, winscard/SCardReadCacheW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

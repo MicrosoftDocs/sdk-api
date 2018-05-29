@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFMapDXGIFormatToDX9Format
 title: MFMapDXGIFormatToDX9Format function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a Microsoft DirectX Graphics Infrastructure (DXGI) format identifier to a Microsoft Direct3D 9 format identifier.
 old-location: mf\mfmapdxgiformattodx9format.htm
 old-project: medfound
 ms.assetid: D3DF4739-31CC-4D0E-9EF2-6FCCAB8969EF
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFMapDXGIFormatToDX9Format, MFMapDXGIFormatToDX9Format function [Media Foundation], mf.mfmapdxgiformattodx9format, mfapi/MFMapDXGIFormatToDX9Format
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

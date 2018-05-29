@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.get_ProcessImageFileName
 title: INetFwAuthorizedApplication::get_ProcessImageFileName
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the process image file name for this application.
 old-location: ics\inetfwauthorizedapplication_processimagefilename.htm
 old-project: ICS
 ms.assetid: 14e7c8e1-088c-4eae-8f93-7ee41bfa484b
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],ProcessImageFileName property, INetFwAuthorizedApplication.ProcessImageFileName, INetFwAuthorizedApplication.get_ProcessImageFileName, INetFwAuthorizedApplication::ProcessImageFileName, INetFwAuthorizedApplication::get_ProcessImageFileName, INetFwAuthorizedApplication::put_ProcessImageFileName, ProcessImageFileName property [ICS/ICF], ProcessImageFileName property [ICS/ICF],INetFwAuthorizedApplication interface, get_ProcessImageFileName, ics.inetfwauthorizedapplication_processimagefilename, netfw/INetFwAuthorizedApplication::ProcessImageFileName, netfw/INetFwAuthorizedApplication::get_ProcessImageFileName, netfw/INetFwAuthorizedApplication::put_ProcessImageFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

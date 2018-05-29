@@ -1,16 +1,16 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.Advise
 title: IIdentityProvider::Advise
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows a calling application to specify the list of identity events for which the application is to be notified.
 old-location: security\iidentityprovider_advise.htm
 old-project: SecAuthN
 ms.assetid: fcac9d30-64ed-4746-aacc-ee659c2b2642
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: Advise, Advise method [Security], Advise method [Security],IIdentityProvider interface, IDENTITY_ASSOCIATED, IDENTITY_CREATED, IDENTITY_DELETED, IDENTITY_DISASSOCIATED, IDENTITY_IMPORTED, IDENTITY_PROPCHANGE, IIdentityProvider interface [Security],Advise method, IIdentityProvider.Advise, IIdentityProvider::Advise, identityprovider/IIdentityProvider::Advise, security.iidentityprovider_advise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: identityprovider.h
 req.include-header: 

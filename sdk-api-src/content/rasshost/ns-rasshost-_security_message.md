@@ -1,16 +1,16 @@
 ---
 UID: NS:rasshost._SECURITY_MESSAGE
 title: "_SECURITY_MESSAGE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SECURITY_MESSAGE structure is used with the RasSecurityDialogComplete function to indicate the results of a RAS security DLL authentication transaction.
 old-location: rras\security_message_str.htm
 old-project: RRAS
 ms.assetid: 7eab7bff-1c72-4382-980f-be4e58d60159
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PSECURITY_MESSAGE, PSECURITY_MESSAGE, PSECURITY_MESSAGE structure pointer [RAS], SECURITYMSG_ERROR, SECURITYMSG_FAILURE, SECURITYMSG_SUCCESS, SECURITY_MESSAGE, SECURITY_MESSAGE structure [RAS], _SECURITY_MESSAGE, _ras_security_message_str, rasshost/PSECURITY_MESSAGE, rasshost/SECURITY_MESSAGE, rras.security_message_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rasshost.h
 req.include-header: 

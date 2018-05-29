@@ -1,16 +1,16 @@
 ---
 UID: NE:wmsdkidl.WMT_CREDENTIAL_FLAGS
 title: WMT_CREDENTIAL_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMT_CREDENTIAL_FLAGS enumeration type contains values used in the IWMCredentialCallback::AcquireCredentials method.
 old-location: wmformat\wmt_credential_flags.htm
 old-project: wmformat
 ms.assetid: a03e54e8-682d-4fbd-bd5c-38f58620d0d4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMT_CREDENTIAL_CLEAR_TEXT, WMT_CREDENTIAL_DONT_CACHE, WMT_CREDENTIAL_ENCRYPT, WMT_CREDENTIAL_FLAGS, WMT_CREDENTIAL_FLAGS enumeration [windows Media Format], WMT_CREDENTIAL_PROXY, WMT_CREDENTIAL_SAVE, wmformat.wmt_credential_flags, wmsdkidl/WMT_CREDENTIAL_CLEAR_TEXT, wmsdkidl/WMT_CREDENTIAL_DONT_CACHE, wmsdkidl/WMT_CREDENTIAL_ENCRYPT, wmsdkidl/WMT_CREDENTIAL_FLAGS, wmsdkidl/WMT_CREDENTIAL_PROXY, wmsdkidl/WMT_CREDENTIAL_SAVE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

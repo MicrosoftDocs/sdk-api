@@ -1,16 +1,16 @@
 ---
 UID: NE:d3dcommon._D3D_PARAMETER_FLAGS
 title: "_D3D_PARAMETER_FLAGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates semantic flags for function parameters.
 old-location: direct3d11\d3d_parameter_flags.htm
 old-project: direct3d11
 ms.assetid: 36D757E7-2960-43E3-8C5E-8B11F0109ACD
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D_PARAMETER_FLAGS, D3D_PARAMETER_FLAGS enumeration [Direct3D 11], D3D_PF_FORCE_DWORD, D3D_PF_IN, D3D_PF_NONE, D3D_PF_OUT, _D3D_PARAMETER_FLAGS, d3dcommon/D3D_PARAMETER_FLAGS, d3dcommon/D3D_PF_FORCE_DWORD, d3dcommon/D3D_PF_IN, d3dcommon/D3D_PF_NONE, d3dcommon/D3D_PF_OUT, direct3d11.d3d_parameter_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3dcommon.h
 req.include-header: D3D11Shader.h

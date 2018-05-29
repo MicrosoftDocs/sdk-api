@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.get_Item
 title: ITuningSpaceContainer::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Item method retrieves a tuning space with the specified ID.
 old-location: mstv\ituningspacecontainer_get_item.htm
 old-project: mstv
 ms.assetid: 02e17867-dc72-481a-8693-68e9b0288bba
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_Item method, ITuningSpaceContainer.get_Item, ITuningSpaceContainer::get_Item, ITuningSpaceContainerget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_item, tuner/ITuningSpaceContainer::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

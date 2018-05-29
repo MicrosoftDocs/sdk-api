@@ -1,16 +1,16 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerQueryUIBlobFromInteractiveUIInputFields
 title: EapPeerQueryUIBlobFromInteractiveUIInputFields function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts user information into a user BLOB that can be consumed by EAPHost run-time functions.
 old-location: eaphost\eappeerqueryuiblobfrominteractiveuiinputfields.htm
 old-project: EAPHost
 ms.assetid: bfb8906e-7adb-4c69-bd13-7c5239d392af
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapPeerQueryUIBlobFromInteractiveUIInputFields, EapPeerQueryUIBlobFromInteractiveUIInputFields function [EAPHost], eaphost.eappeerqueryuiblobfrominteractiveuiinputfields, eapmethodpeerapis/EapPeerQueryUIBlobFromInteractiveUIInputFields
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

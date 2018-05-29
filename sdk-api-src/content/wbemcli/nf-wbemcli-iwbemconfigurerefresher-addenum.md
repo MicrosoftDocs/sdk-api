@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemConfigureRefresher.AddEnum
 title: IWbemConfigureRefresher::AddEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemConfigureRefresher::AddEnum method adds an enumerator to the requested refresher.
 old-location: wmi\iwbemconfigurerefresher_addenum.htm
 old-project: WmiSdk
 ms.assetid: 5b013267-78bc-4372-b55a-58e330acf927
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: AddEnum, AddEnum method [Windows Management Instrumentation], AddEnum method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddEnum method, IWbemConfigureRefresher.AddEnum, IWbemConfigureRefresher::AddEnum, _hmm_iwbemconfigurerefresher_addenum, wbemcli/IWbemConfigureRefresher::AddEnum, wmi.iwbemconfigurerefresher_addenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

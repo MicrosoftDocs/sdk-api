@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IPin.EndFlush
 title: IPin::EndFlush
-author: windows-driver-content
+author: windows-sdk-content
 description: The EndFlush method ends a flush operation.
 old-location: dshow\ipin_endflush.htm
 old-project: DirectShow
 ms.assetid: 42b201b6-1fbf-4a01-aed7-23a9e66c11ea
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EndFlush, EndFlush method [DirectShow], EndFlush method [DirectShow],IPin interface, IPin interface [DirectShow],EndFlush method, IPin.EndFlush, IPin::EndFlush, IPinEndFlush, dshow.ipin_endflush, strmif/IPin::EndFlush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

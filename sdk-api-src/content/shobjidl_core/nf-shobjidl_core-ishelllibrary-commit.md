@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.Commit
 title: IShellLibrary::Commit
-author: windows-driver-content
+author: windows-sdk-content
 description: Commits library updates to an existing Library Description file.
 old-location: shell\IShellLibrary_Commit.htm
 old-project: shell
 ms.assetid: a340964d-ea20-4a3b-be8b-f4f4dbf624ed
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Commit, Commit method [Windows Shell], Commit method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],Commit method, IShellLibrary.Commit, IShellLibrary::Commit, _shell_IShellLibrary_Commit, shell.IShellLibrary_Commit, shobjidl_core/IShellLibrary::Commit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

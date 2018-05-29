@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.SetResolution
 title: IWICBitmapFrameEncode::SetResolution
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the physical resolution of the output image.
 old-location: wic\_wic_codec_iwicbitmapframeencode_setresolution.htm
 old-project: wic
 ms.assetid: 0b9e564a-5278-41d7-84ab-8b7594e776c7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetResolution method, IWICBitmapFrameEncode.SetResolution, IWICBitmapFrameEncode::SetResolution, SetResolution, SetResolution method [Windows Imaging Component], SetResolution method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setresolution, wic._wic_codec_iwicbitmapframeencode_setresolution, wincodec/IWICBitmapFrameEncode::SetResolution
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

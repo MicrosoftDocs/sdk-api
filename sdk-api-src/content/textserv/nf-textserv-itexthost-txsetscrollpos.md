@@ -1,16 +1,16 @@
 ---
 UID: NF:textserv.ITextHost.TxSetScrollPos
 title: ITextHost::TxSetScrollPos
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the position of the scroll box (thumb) in the specified scroll bar and, if requested, redraws the scroll bar to reflect the new position of the scroll box.
 old-location: controls\ITextHost_TxSetScrollPos.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsetscrollpos.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetScrollPos method, ITextHost.TxSetScrollPos, ITextHost::TxSetScrollPos, TxSetScrollPos, TxSetScrollPos method [Windows Controls], TxSetScrollPos method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetScrollPos, _win32_ITextHost_TxSetScrollPos_cpp, controls.ITextHost_TxSetScrollPos, controls._win32_ITextHost_TxSetScrollPos, textserv/ITextHost::TxSetScrollPos
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

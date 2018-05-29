@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmMonitorLogRecords.get_Count
 title: ICrmMonitorLogRecords::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of log records written by this CRM clerk.
 old-location: cos\icrmmonitorlogrecords_get_count.htm
 old-project: cossdk
 ms.assetid: 51acc910-a38a-4747-bf99-b468f7ffddd1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICrmMonitorLogRecords interface [COM+],get_Count method, ICrmMonitorLogRecords.get_Count, ICrmMonitorLogRecords::get_Count, _dtc_ICrmMonitorLogRecords_Count, comsvcs/ICrmMonitorLogRecords::get_Count, cos.icrmmonitorlogrecords_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ICrmMonitorLogRecords interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

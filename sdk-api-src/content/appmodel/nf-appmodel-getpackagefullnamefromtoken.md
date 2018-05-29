@@ -1,16 +1,16 @@
 ---
 UID: NF:appmodel.GetPackageFullNameFromToken
 title: GetPackageFullNameFromToken function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the package full name for the specified token.
 old-location: appxpkg\getpackagefullnamefromtoken.htm
 old-project: appxpkg
 ms.assetid: 7B0D574E-A2F5-4D08-AEFB-9E040BBC729F
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetPackageFullNameFromToken, GetPackageFullNameFromToken function [App packaging and management], appmodel/GetPackageFullNameFromToken, appxpkg.getpackagefullnamefromtoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

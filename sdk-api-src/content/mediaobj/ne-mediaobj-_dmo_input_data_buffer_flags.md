@@ -1,16 +1,16 @@
 ---
 UID: NE:mediaobj._DMO_INPUT_DATA_BUFFER_FLAGS
 title: "_DMO_INPUT_DATA_BUFFER_FLAGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DMO_INPUT_DATA_BUFFER_FLAGS enumeration defines flags that describe an input buffer.
 old-location: dshow\dmo_input_data_buffer_flags.htm
 old-project: DirectShow
 ms.assetid: b0217926-ac2d-48e5-a5d0-e31be6ea20ac
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DMO_INPUT_DATA_BUFFERF_SYNCPOINT, DMO_INPUT_DATA_BUFFERF_TIME, DMO_INPUT_DATA_BUFFERF_TIMELENGTH, DMO_INPUT_DATA_BUFFER_FLAGS , DMO_INPUT_DATA_BUFFER_FLAGSEnumeration, _DMO_INPUT_DATA_BUFFER_FLAGS, _DMO_INPUT_DATA_BUFFER_FLAGS enumeration [DirectShow], dshow.dmo_input_data_buffer_flags, mediaobj/DMO_INPUT_DATA_BUFFERF_SYNCPOINT, mediaobj/DMO_INPUT_DATA_BUFFERF_TIME, mediaobj/DMO_INPUT_DATA_BUFFERF_TIMELENGTH, mediaobj/_DMO_INPUT_DATA_BUFFER_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mediaobj.h
 req.include-header: 

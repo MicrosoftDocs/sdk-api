@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._STORAGE_HW_FIRMWARE_DOWNLOAD
 title: "_STORAGE_HW_FIRMWARE_DOWNLOAD"
-author: windows-driver-content
+author: windows-sdk-content
 description: This structure contains a firmware image payload to be downloaded to the target.
 old-location: fs\storage_hw_firmware_download.htm
 old-project: FileIO
 ms.assetid: BD1D39C7-9624-400C-BF4D-5F7583AA82FB
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD, PSTORAGE_HW_FIRMWARE_DOWNLOAD structure pointer [Files], STORAGE_HW_FIRMWARE_DOWNLOAD, STORAGE_HW_FIRMWARE_DOWNLOAD structure [Files], _STORAGE_HW_FIRMWARE_DOWNLOAD, fs.storage_hw_firmware_download, winioctl/PSTORAGE_HW_FIRMWARE_DOWNLOAD, winioctl/STORAGE_HW_FIRMWARE_DOWNLOAD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

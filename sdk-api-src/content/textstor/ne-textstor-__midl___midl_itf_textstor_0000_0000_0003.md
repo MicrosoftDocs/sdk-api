@@ -1,16 +1,16 @@
 ---
 UID: NE:textstor.__MIDL___MIDL_itf_textstor_0000_0000_0003
 title: "__MIDL___MIDL_itf_textstor_0000_0000_0003"
-author: windows-driver-content
+author: windows-sdk-content
 description: Elements of the TsRunType enumeration specify if a text run is visible, hidden, or is a private data type embedded in the text run.
 old-location: tsf\tsruntype.htm
 old-project: TSF
 ms.assetid: 47da6ff6-34c9-4c36-a254-ce8396723fcb
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TS_RT_HIDDEN, TS_RT_OPAQUE, TS_RT_PLAIN, TsRunType, TsRunType enumeration [Text Services Framework], __MIDL___MIDL_itf_textstor_0000_0000_0003, _tsf_tsruntype_ref, textstor/TS_RT_HIDDEN, textstor/TS_RT_OPAQUE, textstor/TS_RT_PLAIN, textstor/TsRunType, tsf.tsruntype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: textstor.h
 req.include-header: 

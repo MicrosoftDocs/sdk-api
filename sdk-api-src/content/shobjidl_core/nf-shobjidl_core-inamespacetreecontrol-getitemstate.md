@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetItemState
 title: INameSpaceTreeControl::GetItemState
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets state information about a Shell item.
 old-location: shell\INameSpaceTreeControl_GetItemState.htm
 old-project: shell
 ms.assetid: 78bee2db-6a28-4fcb-9c43-ab411196ab04
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetItemState, GetItemState method [Windows Shell], GetItemState method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetItemState method, INameSpaceTreeControl.GetItemState, INameSpaceTreeControl::GetItemState, _shell_INameSpaceTreeControl_GetItemState, shell.INameSpaceTreeControl_GetItemState, shobjidl_core/INameSpaceTreeControl::GetItemState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

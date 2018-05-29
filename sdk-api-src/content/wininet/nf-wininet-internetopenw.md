@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetOpenW
 title: InternetOpenW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an application's use of the WinINet functions.
 old-location: wininet\internetopen.htm
 old-project: WinInet
 ms.assetid: 9ec087c9-d484-4763-a527-2ea5c1a0cf28
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetOpen, InternetOpen function [WinINet], InternetOpenA, InternetOpenW, _inet_internetopen_function, wininet.internetopen, wininet/InternetOpen, wininet/InternetOpenA, wininet/InternetOpenW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

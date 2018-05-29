@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarDecDiv
 title: VarDecDiv function
-author: windows-driver-content
+author: windows-sdk-content
 description: Divides two variants of type decimal.
 old-location: automat\vardecdiv.htm
 old-project: automat
 ms.assetid: 75affc6f-08b4-4ca4-98a8-24cf28272c0a
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarDecDiv, VarDecDiv function [Automation], _oa96_VarDecDiv, automat.vardecdiv, oleauto/VarDecDiv
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

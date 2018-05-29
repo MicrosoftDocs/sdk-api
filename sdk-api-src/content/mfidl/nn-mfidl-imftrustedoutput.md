@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFTrustedOutput
 title: IMFTrustedOutput
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by components that provide output trust authorities (OTAs).
 old-location: mf\imftrustedoutput.htm
 old-project: medfound
 ms.assetid: 14342d8b-3c76-4c13-8cbe-a60bb66084c8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 14342d8b-3c76-4c13-8cbe-a60bb66084c8, IMFTrustedOutput, IMFTrustedOutput interface [Media Foundation], IMFTrustedOutput interface [Media Foundation],described, mf.imftrustedoutput, mfidl/IMFTrustedOutput
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

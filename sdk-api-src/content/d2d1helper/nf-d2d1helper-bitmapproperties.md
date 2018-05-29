@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1helper.BitmapProperties
 title: BitmapProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a D2D1_BITMAP_PROPERTIES structure.
 old-location: direct2d\bitmapproperties.htm
 old-project: Direct2D
 ms.assetid: 5f85602a-3706-4cd6-8124-07e06be2d29c
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: BitmapProperties, BitmapProperties function [Direct2D], d2d1helper/BitmapProperties, direct2d.bitmapproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 

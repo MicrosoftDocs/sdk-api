@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3.ITQueue.get_AverageWaitTime
 title: ITQueue::get_AverageWaitTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_AverageWaitTime method gets the average time in the queue (in seconds) for a call during the current measurement period.
 old-location: tapi3\itqueue_get_averagewaittime.htm
 old-project: Tapi
 ms.assetid: 94883656-8a72-464d-9478-89f698c98db8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITQueue interface [TAPI 2.2],get_AverageWaitTime method, ITQueue.get_AverageWaitTime, ITQueue::get_AverageWaitTime, _tapi3_itqueue_get_averagewaittime, get_AverageWaitTime, get_AverageWaitTime method [TAPI 2.2], get_AverageWaitTime method [TAPI 2.2],ITQueue interface, tapi3.itqueue_get_averagewaittime, tapi3cc/ITQueue::get_AverageWaitTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

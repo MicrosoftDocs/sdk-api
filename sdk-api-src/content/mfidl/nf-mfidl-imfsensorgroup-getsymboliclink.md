@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetSymbolicLink
 title: IMFSensorGroup::GetSymbolicLink
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the symbolic link name of the sensor group.
 old-location: mf\imfsensorgroup_getsymboliclink.htm
 old-project: medfound
 ms.assetid: F71CFD47-6D44-4288-A70E-70040D19DB2D
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSymbolicLink, GetSymbolicLink method [Media Foundation], GetSymbolicLink method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetSymbolicLink method, IMFSensorGroup.GetSymbolicLink, IMFSensorGroup::GetSymbolicLink, mf.imfsensorgroup_getsymboliclink, mfidl/IMFSensorGroup::GetSymbolicLink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

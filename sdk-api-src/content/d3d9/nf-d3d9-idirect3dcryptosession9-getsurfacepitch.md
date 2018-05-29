@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.GetSurfacePitch
 title: IDirect3DCryptoSession9::GetSurfacePitch
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the stride of a protected surface.
 old-location: mf\idirect3dcryptosession9_getsurfacepitch.htm
 old-project: medfound
 ms.assetid: 7f9f637e-a693-4fc5-9bf9-a6900aa2ed8c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSurfacePitch, GetSurfacePitch method [Media Foundation], GetSurfacePitch method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],GetSurfacePitch method, IDirect3DCryptoSession9.GetSurfacePitch, IDirect3DCryptoSession9::GetSurfacePitch, d3d9/IDirect3DCryptoSession9::GetSurfacePitch, mf.idirect3dcryptosession9_getsurfacepitch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Set_DevNode_Problem_Ex
 title: CM_Set_DevNode_Problem_Ex function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Set_DevNode_Problem_Ex function sets a problem code for a device that is installed in a local or a remote machine.
 old-location: devinst\cm_set_devnode_problem_ex.htm
 old-project: devinst
 ms.assetid: 2e3e2c3a-c507-4cc8-bc2c-823d0b597704
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Set_DevNode_Problem_Ex, CM_Set_DevNode_Problem_Ex function [Device and Driver Installation], cfgmgr32/CM_Set_DevNode_Problem_Ex, cfgmgrfn_a2853e6a-afab-4725-bbe3-520605d515f0.xml, devinst.cm_set_devnode_problem_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

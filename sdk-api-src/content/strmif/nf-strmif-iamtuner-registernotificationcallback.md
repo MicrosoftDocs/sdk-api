@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMTuner.RegisterNotificationCallBack
 title: IAMTuner::RegisterNotificationCallBack
-author: windows-driver-content
+author: windows-sdk-content
 description: The RegisterNotificationCallBack method enables an object to receive event notifications when the tuner changes state.
 old-location: dshow\iamtuner_registernotificationcallback.htm
 old-project: DirectShow
 ms.assetid: e169039f-bce7-495a-a40f-385fa3d3d2ab
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMTuner interface [DirectShow],RegisterNotificationCallBack method, IAMTuner.RegisterNotificationCallBack, IAMTuner::RegisterNotificationCallBack, IAMTunerRegisterNotificationCallBack, RegisterNotificationCallBack, RegisterNotificationCallBack method [DirectShow], RegisterNotificationCallBack method [DirectShow],IAMTuner interface, dshow.iamtuner_registernotificationcallback, strmif/IAMTuner::RegisterNotificationCallBack
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

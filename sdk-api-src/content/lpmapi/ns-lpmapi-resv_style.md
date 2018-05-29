@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.RESV_STYLE
 title: RESV_STYLE
-author: windows-driver-content
+author: windows-sdk-content
 description: The RESV_STYLE structure contains information about RSVP RESV style.
 old-location: qos\resv_style.htm
 old-project: QOS
 ms.assetid: facc4217-1e6f-44af-bc04-84993f2dfeec
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: RESV_STYLE, RESV_STYLE structure [QOS], STYLE_FF, STYLE_SE, STYLE_WF, lpmapi/RESV_STYLE, qos.resv_style
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

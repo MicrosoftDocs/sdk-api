@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.IShellLinkDual2
 title: IShellLinkDual2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the ShellLinkObject object and supports one additional property.
 old-location: shell\IShellLinkDual2_Object.htm
 old-project: shell
 ms.assetid: 8a63552c-6bce-4583-8df8-a7f7731b35eb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellLinkDual2, IShellLinkDual2 object [Windows Shell], IShellLinkDual2 object [Windows Shell],described, _win32_IShellLinkDual2_Object, shell.IShellLinkDual2_Object, shldisp/IShellLinkDual2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

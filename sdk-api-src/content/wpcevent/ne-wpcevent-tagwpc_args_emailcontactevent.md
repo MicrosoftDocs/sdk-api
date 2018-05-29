@@ -1,16 +1,16 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_EMAILCONTACTEVENT
 title: tagWPC_ARGS_EMAILCONTACTEVENT
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates information about contacting someone by using email.
 old-location: parcon\wpc_args_emailcontactevent.htm
 old-project: parcon
 ms.assetid: 42c2b1c3-11f9-4706-bb29-c9bf985e81be
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WPC_ARGS_EMAILCONTACTEVENT, WPC_ARGS_EMAILCONTACTEVENT enumeration, WPC_ARGS_EMAILCONTACTEVENT_APPNAME, WPC_ARGS_EMAILCONTACTEVENT_APPVERSION, WPC_ARGS_EMAILCONTACTEVENT_CARGS, WPC_ARGS_EMAILCONTACTEVENT_EMAILACCOUNT, WPC_ARGS_EMAILCONTACTEVENT_NEWID, WPC_ARGS_EMAILCONTACTEVENT_NEWNAME, WPC_ARGS_EMAILCONTACTEVENT_OLDID, WPC_ARGS_EMAILCONTACTEVENT_OLDNAME, WPC_ARGS_EMAILCONTACTEVENT_REASON, parcon.wpc_args_emailcontactevent, tagWPC_ARGS_EMAILCONTACTEVENT, wpcevent/WPC_ARGS_EMAILCONTACTEVENT, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_APPNAME, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_APPVERSION, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_CARGS, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_EMAILACCOUNT, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_NEWID, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_NEWNAME, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_OLDID, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_OLDNAME, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_REASON
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wpcevent.h
 req.include-header: 

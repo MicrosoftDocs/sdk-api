@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleLoad
 title: OleLoad function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads into memory an object nested within a specified storage object.
 old-location: com\oleload.htm
 old-project: com
 ms.assetid: f2d8bb2e-5bd1-4991-a80c-ed06bfd5c9f9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleLoad, OleLoad function [COM], _ole_OleLoad, com.oleload, ole2/OleLoad
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

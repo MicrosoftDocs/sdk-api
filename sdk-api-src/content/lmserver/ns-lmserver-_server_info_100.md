@@ -1,16 +1,16 @@
 ---
 UID: NS:lmserver._SERVER_INFO_100
 title: "_SERVER_INFO_100"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SERVER_INFO_100 structure contains information about the specified server, including the name and platform.
 old-location: netmgmt\server_info_100_str.htm
 old-project: NetMgmt
 ms.assetid: b027a669-b4d8-4d42-aedc-94834bf099da
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPSERVER_INFO_100, *PSERVER_INFO_100, LPSERVER_INFO_100, LPSERVER_INFO_100 structure pointer [Network Management], PLATFORM_ID_DOS, PLATFORM_ID_NT, PLATFORM_ID_OS2, PLATFORM_ID_OSF, PLATFORM_ID_VMS, PSERVER_INFO_100, PSERVER_INFO_100 structure pointer [Network Management], SERVER_INFO_100, SERVER_INFO_100 structure [Network Management], _SERVER_INFO_100, _win32_server_info_100_str, lmserver/LPSERVER_INFO_100, lmserver/PSERVER_INFO_100, lmserver/SERVER_INFO_100, netmgmt.server_info_100_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmserver.h
 req.include-header: Lm.h

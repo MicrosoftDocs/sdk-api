@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrm.IFsrmMutableCollection
 title: IFsrmMutableCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to manage a collection of FSRM objects that can have objects added to or removed from the collection.
 old-location: fsrm\ifsrmmutablecollection.htm
 old-project: Fsrm
 ms.assetid: e41f01ef-5dd2-4066-82cd-45b57578c9bb
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmMutableCollection, IFsrmMutableCollection interface [File Server Resource Manager], IFsrmMutableCollection interface [File Server Resource Manager],described, fs.ifsrmmutablecollection, fsrm.ifsrmmutablecollection, fsrm/IFsrmMutableCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

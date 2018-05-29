@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpDetectAutoProxyConfigUrl
 title: WinHttpDetectAutoProxyConfigUrl function
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds the URL for the Proxy Auto-Configuration (PAC) file.
 old-location: http\winhttpdetectautoproxyconfigurl.htm
 old-project: WinHttp
 ms.assetid: a433ed3c-3f31-4c37-9c09-3f8344e9550d
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WINHTTP_AUTO_DETECT_TYPE_DHCP, WINHTTP_AUTO_DETECT_TYPE_DNS_A, WinHttpDetectAutoProxyConfigUrl, WinHttpDetectAutoProxyConfigUrl function [WinHTTP], http.winhttpdetectautoproxyconfigurl, winhttp/WinHttpDetectAutoProxyConfigUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

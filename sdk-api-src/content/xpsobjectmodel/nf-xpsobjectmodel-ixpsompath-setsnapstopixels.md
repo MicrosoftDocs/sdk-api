@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetSnapsToPixels
 title: IXpsOMPath::SetSnapsToPixels
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a Boolean value that indicates whether the path will be snapped to device pixels when that path is being rendered.
 old-location: xps\ixpsompath_setsnapstopixels.htm
 old-project: printdocs
 ms.assetid: 6b063829-3941-42be-bbe2-49b5a71b695a
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FALSE, IXpsOMPath interface [XPS Documents and Packaging],SetSnapsToPixels method, IXpsOMPath.SetSnapsToPixels, IXpsOMPath::SetSnapsToPixels, SetSnapsToPixels, SetSnapsToPixels method [XPS Documents and Packaging], SetSnapsToPixels method [XPS Documents and Packaging],IXpsOMPath interface, TRUE, xps.ixpsompath_setsnapstopixels, xpsobjectmodel/IXpsOMPath::SetSnapsToPixels
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

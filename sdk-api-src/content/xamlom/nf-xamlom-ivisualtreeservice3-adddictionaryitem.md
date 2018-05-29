@@ -1,16 +1,16 @@
 ---
 UID: NF:xamlom.IVisualTreeService3.AddDictionaryItem
 title: IVisualTreeService3::AddDictionaryItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an item to a ResourceDictionary, and re-resolves all elements in the tree that reference a resource with the specified key.
 old-location: xaml_diagnostics\ivisualtreeservice3_adddictionaryitem.htm
 old-project: xaml_diagnostics
 ms.assetid: 86590A71-8BFC-4214-9F7C-1DF5B8391552
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: AddDictionaryItem, AddDictionaryItem method, AddDictionaryItem method,IVisualTreeService3 interface, IVisualTreeService3 interface,AddDictionaryItem method, IVisualTreeService3.AddDictionaryItem, IVisualTreeService3::AddDictionaryItem, xaml_diagnostics.ivisualtreeservice3_adddictionaryitem, xamlom/IVisualTreeService3::AddDictionaryItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

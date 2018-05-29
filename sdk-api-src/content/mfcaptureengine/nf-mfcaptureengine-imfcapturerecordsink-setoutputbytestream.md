@@ -1,16 +1,16 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetOutputByteStream
 title: IMFCaptureRecordSink::SetOutputByteStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a byte stream that will receive the data for the recording.
 old-location: mf\imfcapturerecordsink_setoutputbytestream.htm
 old-project: medfound
 ms.assetid: C33357C8-882A-4350-8638-46C2220FC445
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetOutputByteStream method, IMFCaptureRecordSink.SetOutputByteStream, IMFCaptureRecordSink::SetOutputByteStream, SetOutputByteStream, SetOutputByteStream method [Media Foundation], SetOutputByteStream method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setoutputbytestream, mfcaptureengine/IMFCaptureRecordSink::SetOutputByteStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

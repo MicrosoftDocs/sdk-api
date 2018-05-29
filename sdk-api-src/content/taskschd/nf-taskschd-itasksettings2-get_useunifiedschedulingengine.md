@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskSettings2.get_UseUnifiedSchedulingEngine
 title: ITaskSettings2::get_UseUnifiedSchedulingEngine
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a Boolean value that indicates that the Unified Scheduling Engine will be utilized to run this task.
 old-location: taskschd\itasksettings2_useunifiedschedulingengine.htm
 old-project: TaskSchd
 ms.assetid: bc632e8d-e53f-48c0-88cf-294451130752
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskSettings2 interface [Task Scheduler],UseUnifiedSchedulingEngine property, ITaskSettings2.UseUnifiedSchedulingEngine, ITaskSettings2.get_UseUnifiedSchedulingEngine, ITaskSettings2::UseUnifiedSchedulingEngine, ITaskSettings2::get_UseUnifiedSchedulingEngine, ITaskSettings2::put_UseUnifiedSchedulingEngine, UseUnifiedSchedulingEngine property [Task Scheduler], UseUnifiedSchedulingEngine property [Task Scheduler],ITaskSettings2 interface, get_UseUnifiedSchedulingEngine, taskschd.itasksettings2_useunifiedschedulingengine, taskschd/ITaskSettings2::UseUnifiedSchedulingEngine, taskschd/ITaskSettings2::get_UseUnifiedSchedulingEngine, taskschd/ITaskSettings2::put_UseUnifiedSchedulingEngine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

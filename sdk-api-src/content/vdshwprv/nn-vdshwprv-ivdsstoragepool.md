@@ -1,16 +1,16 @@
 ---
 UID: NN:vdshwprv.IVdsStoragePool
 title: IVdsStoragePool
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to query information and enumerate related objects for a storage pool.
 old-location: base\ivdsstoragepool.htm
 old-project: VDS
 ms.assetid: 1518ab95-1f0a-4f28-b2ae-e75bb4d19790
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsStoragePool, IVdsStoragePool interface, IVdsStoragePool interface,described, base.ivdsstoragepool, vds/IVdsStoragePool, vdshwprv/IVdsStoragePool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

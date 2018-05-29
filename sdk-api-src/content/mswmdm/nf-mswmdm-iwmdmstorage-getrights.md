@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.GetRights
 title: IWMDMStorage::GetRights
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetRights method retrieves rights information for a licensed storage.
 old-location: wmdm\iwmdmstorage_getrights.htm
 old-project: WMDM
 ms.assetid: 5b654d32-b72a-44cf-a8d9-63fc0ae76171
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetRights, GetRights method [windows Media Device Manager], GetRights method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetRights method, IWMDMStorage.GetRights, IWMDMStorage::GetRights, IWMDMStorageGetRights, mswmdm/IWMDMStorage::GetRights, wmdm.iwmdmstorage_getrights
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

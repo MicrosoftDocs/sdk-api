@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCPV4_FAILOVER_CLIENT_INFO_ARRAY
 title: "_DHCPV4_FAILOVER_CLIENT_INFO_ARRAY"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCPV4_FAILOVER_CLIENT_INFO_ARRAY structure defines an array of DHCP server scope statistics that are part of a failover relationship.
 old-location: dhcp\dhcpv4_failover_client_info_array.htm
 old-project: DHCP
 ms.assetid: D988F420-28F0-4F13-B2A1-CFD9A71669A4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCPV4_FAILOVER_CLIENT_INFO_ARRAY, DHCPV4_FAILOVER_CLIENT_INFO_ARRAY, DHCPV4_FAILOVER_CLIENT_INFO_ARRAY structure [DHCP], PDHCPV4_FAILOVER_CLIENT_INFO_ARRAY, PDHCPV4_FAILOVER_CLIENT_INFO_ARRAY structure pointer [DHCP], _DHCPV4_FAILOVER_CLIENT_INFO_ARRAY, dhcp.dhcpv4_failover_client_info_array, dhcpsapi/DHCPV4_FAILOVER_CLIENT_INFO_ARRAY, dhcpsapi/PDHCPV4_FAILOVER_CLIENT_INFO_ARRAY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

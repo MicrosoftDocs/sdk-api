@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.get_CallTreatments
 title: ITAddressCapabilities::get_CallTreatments
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CallTreatments method gets call treatments. This method is provided for Automation client applications, such as those written in Visual Basic and scripting languages.
 old-location: tapi3\itaddresscapabilities_get_calltreatments.htm
 old-project: Tapi
 ms.assetid: fd6bbbf0-1f33-4e4f-bd81-7854019a0225
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_CallTreatments method, ITAddressCapabilities.get_CallTreatments, ITAddressCapabilities::get_CallTreatments, _tapi3_itaddresscapabilities_get_calltreatments, get_CallTreatments, get_CallTreatments method [TAPI 2.2], get_CallTreatments method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_calltreatments, tapi3if/ITAddressCapabilities::get_CallTreatments
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

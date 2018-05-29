@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IPreviousVersionsInfo.AreSnapshotsAvailable
 title: IPreviousVersionsInfo::AreSnapshotsAvailable
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries for the availablilty of a Windows Server 2003 volume image recorded by the system at an earlier time.
 old-location: shell\IPreviousVersionsInfo_AreSnapshotsAvailable.htm
 old-project: shell
 ms.assetid: 03a0b218-4683-42b2-9080-9b92701dff1e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AreSnapshotsAvailable, AreSnapshotsAvailable method [Windows Shell], AreSnapshotsAvailable method [Windows Shell],IPreviousVersionsInfo interface, FALSE, IPreviousVersionsInfo interface [Windows Shell],AreSnapshotsAvailable method, IPreviousVersionsInfo.AreSnapshotsAvailable, IPreviousVersionsInfo::AreSnapshotsAvailable, TRUE, _shell_IPreviousVersionsInfo_AreSnapshotsAvailable, shell.IPreviousVersionsInfo_AreSnapshotsAvailable, shobjidl/IPreviousVersionsInfo::AreSnapshotsAvailable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

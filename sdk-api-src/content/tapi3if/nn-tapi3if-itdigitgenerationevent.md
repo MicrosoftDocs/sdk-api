@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITDigitGenerationEvent
 title: ITDigitGenerationEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITDigitGenerationEvent interface contains methods that describe digit generation events.
 old-location: tapi3\itdigitgenerationevent.htm
 old-project: Tapi
 ms.assetid: 788eee9c-b885-4b94-b259-694353c0f63a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITDigitGenerationEvent, ITDigitGenerationEvent interface [TAPI 2.2], ITDigitGenerationEvent interface [TAPI 2.2],described, _tapi3_itdigitgenerationevent, tapi3.itdigitgenerationevent, tapi3if/ITDigitGenerationEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

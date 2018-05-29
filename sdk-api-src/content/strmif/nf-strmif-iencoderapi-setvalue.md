@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IEncoderAPI.SetValue
 title: IEncoderAPI::SetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetValue method sets the current value of a parameter.
 old-location: mstv\iencoderapi_setvalue.htm
 old-project: mstv
 ms.assetid: a7dc0964-64b9-4ea3-8948-19ec100d64f5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],SetValue method, IEncoderAPI.SetValue, IEncoderAPI::SetValue, IEncoderAPISetValue, SetValue, SetValue method [Microsoft TV Technologies], SetValue method [Microsoft TV Technologies],IEncoderAPI interface, mstv.iencoderapi_setvalue, strmif/IEncoderAPI::SetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.SetIpNetEntry
 title: SetIpNetEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetIpNetEntry function modifies an existing ARP entry in the ARP table on the local computer.
 old-location: iphlp\setipnetentry.htm
 old-project: IpHlp
 ms.assetid: d985b749-5aa3-4b4a-ba8f-bc8edcf1b1f3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: SetIpNetEntry, SetIpNetEntry function [IP Helper], _iphlp_setipnetentry, iphlp.setipnetentry, iphlpapi/SetIpNetEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

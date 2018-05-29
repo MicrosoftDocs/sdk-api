@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSTER_REG_GET_BATCH_NOTIFICATION
 title: PCLUSTER_REG_GET_BATCH_NOTIFICATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads a command from a batch notification.
 old-location: mscs\clusterregbatchreadcommand.htm
 old-project: MsCS
 ms.assetid: a1a7abc5-f306-4664-bb53-e54c6ee1051e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSTER_REG_GET_BATCH_NOTIFICATION, PCLUSTER_REG_GET_BATCH_NOTIFICATION callback, PCLUSTER_REG_GET_BATCH_NOTIFICATION callback function [Failover Cluster], clusapi/PCLUSTER_REG_GET_BATCH_NOTIFICATION, mscs.clusterregbatchreadcommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

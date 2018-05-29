@@ -1,16 +1,16 @@
 ---
 UID: NE:msclus.CLUSTER_QUORUM_VALUE
 title: CLUSTER_QUORUM_VALUE
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates values returned by the ClusterControl function with the CLUSCTL_CLUSTER_CHECK_VOTER_DOWN or the CLUSCTL_CLUSTER_CHECK_VOTER_EVICT control codes.
 old-location: mscs\cluster_quorum_value.htm
 old-project: MsCS
 ms.assetid: 5b5310f5-b4f4-4c1e-82ad-3bbf3ebc511b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSTER_QUORUM_LOST, CLUSTER_QUORUM_MAINTAINED, CLUSTER_QUORUM_VALUE, CLUSTER_QUORUM_VALUE enumeration [Failover Cluster], msclus/CLUSTER_QUORUM_LOST, msclus/CLUSTER_QUORUM_MAINTAINED, msclus/CLUSTER_QUORUM_VALUE, mscs.cluster_quorum_value
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msclus.h
 req.include-header: ClusAPI.h

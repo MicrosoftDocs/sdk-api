@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpV4DeletePolicy
 title: DhcpV4DeletePolicy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an existing policy from the DHCP Server.
 old-location: dhcp\dhcpv4deletepolicy.htm
 old-project: DHCP
 ms.assetid: 94e6ad23-3e38-4ee2-bc3a-8d7ff1b21eca
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpV4DeletePolicy, DhcpV4DeletePolicy function [DHCP], dhcp.dhcpv4deletepolicy, dhcpsapi/DhcpV4DeletePolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

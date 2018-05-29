@@ -1,16 +1,16 @@
 ---
 UID: NF:ndfapi.NdfCreateWinSockIncident
 title: NdfCreateWinSockIncident function
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the Winsock Helper Class provided by Microsoft.
 old-location: ndf\ndfcreatewinsockincident.htm
 old-project: NDF
 ms.assetid: c4cb2713-b656-47a8-9de7-9d33e864a811
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NdfCreateWinSockIncident, NdfCreateWinSockIncident function [NDF], ndf.ndfcreatewinsockincident, ndfapi/NdfCreateWinSockIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

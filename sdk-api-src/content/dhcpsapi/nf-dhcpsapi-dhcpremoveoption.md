@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpRemoveOption
 title: DhcpRemoveOption function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the definition of a specific option for the default user class and vendor class at the default option level on the DHCP server.
 old-location: dhcp\dhcpremoveoption.htm
 old-project: DHCP
 ms.assetid: a165d88c-113c-41ed-920e-f8f434578158
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpRemoveOption, DhcpRemoveOption function [DHCP], dhcp.dhcpremoveoption, dhcpsapi/DhcpRemoveOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

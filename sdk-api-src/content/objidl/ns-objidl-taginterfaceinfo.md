@@ -1,16 +1,16 @@
 ---
 UID: NS:objidl.tagINTERFACEINFO
 title: tagINTERFACEINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about incoming calls.
 old-location: com\interfaceinfo.htm
 old-project: com
 ms.assetid: 5c2c07bf-1c15-4f21-baef-103837ea24d0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPINTERFACEINFO, INTERFACEINFO, INTERFACEINFO structure [COM], LPINTERFACEINFO, LPINTERFACEINFO structure pointer [COM], _com_INTERFACEINFO, com.interfaceinfo, objidl/INTERFACEINFO, objidl/LPINTERFACEINFO, tagINTERFACEINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: objidl.h
 req.include-header: 

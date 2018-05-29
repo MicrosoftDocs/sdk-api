@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidVideoRendererEvent2
 title: IMSVidVideoRendererEvent2
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is not implemented.
 old-location: mstv\imsvidvideorendererevent2.htm
 old-project: mstv
 ms.assetid: a73ab8f4-724f-4d61-909e-7d43a3e373e3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidVideoRendererEvent2, IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies], IMSVidVideoRendererEvent2 interface [Microsoft TV Technologies],described, mstv.imsvidvideorendererevent2, segment/IMSVidVideoRendererEvent2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

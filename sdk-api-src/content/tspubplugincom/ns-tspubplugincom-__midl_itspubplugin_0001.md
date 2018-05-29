@@ -1,16 +1,16 @@
 ---
 UID: NS:tspubplugincom.__MIDL_ItsPubPlugin_0001
 title: "__MIDL_ItsPubPlugin_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a resource that can be assigned to users in RemoteApp and Desktop Connection.
 old-location: termserv\pluginresource.htm
 old-project: TermServ
 ms.assetid: 209dee74-c52e-4e31-9d1b-1e7c6c0d0121
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "__MIDL_ItsPubPlugin_0001, pluginResource, pluginResource structure [Remote Desktop Services], termserv.pluginresource, tspubplugincom/pluginResource"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tspubplugincom.h
 req.include-header: 

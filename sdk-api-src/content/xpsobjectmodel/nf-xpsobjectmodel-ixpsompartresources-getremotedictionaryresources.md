@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartResources.GetRemoteDictionaryResources
 title: IXpsOMPartResources::GetRemoteDictionaryResources
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IXpsOMRemoteDictionaryResourceCollection interface that contains the remote resource dictionaries that are used in the XPS document.
 old-location: xps\ixpsompartresources_getremotedictionaryresources.htm
 old-project: printdocs
 ms.assetid: cb12fe80-9e94-4797-adf5-a1986512bf57
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetRemoteDictionaryResources, GetRemoteDictionaryResources method [XPS Documents and Packaging], GetRemoteDictionaryResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetRemoteDictionaryResources method, IXpsOMPartResources.GetRemoteDictionaryResources, IXpsOMPartResources::GetRemoteDictionaryResources, xps.ixpsompartresources_getremotedictionaryresources, xpsobjectmodel/IXpsOMPartResources::GetRemoteDictionaryResources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

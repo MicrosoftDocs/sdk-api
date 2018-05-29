@@ -1,16 +1,16 @@
 ---
 UID: NN:webapplication.IWebApplicationHost
 title: IWebApplicationHost
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods and properties that are implemented by the WWAHost.
 old-location: debug\iwebapplicationhost.htm
 old-project: debug_wwahost
 ms.assetid: ac0ace8e-3f83-44be-baee-560c5472aa08
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWebApplicationHost, IWebApplicationHost interface [Debugging Windows Store apps], IWebApplicationHost interface [Debugging Windows Store apps],described, debug.iwebapplicationhost, webapplication/IWebApplicationHost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: webapplication.h
 req.include-header: 

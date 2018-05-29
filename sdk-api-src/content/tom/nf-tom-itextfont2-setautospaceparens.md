@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont2.SetAutospaceParens
 title: ITextFont2::SetAutospaceParens
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the East Asian &#0034;autospace parentheses&#0034; state.
 old-location: controls\itextfont2_setautospaceparens.htm
 old-project: Controls
 ms.assetid: 9a9290e0-221e-454a-af9c-9d1bf5d37b5e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetAutospaceParens method, ITextFont2.SetAutospaceParens, ITextFont2::SetAutospaceParens, SetAutospaceParens, SetAutospaceParens method [Windows Controls], SetAutospaceParens method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautospaceparens, tom/ITextFont2::SetAutospaceParens
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IDataObject.DAdvise
 title: IDataObject::DAdvise
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by an object supporting an advise sink to create a connection between a data object and the advise sink. This enables the advise sink to be notified of changes in the data of the object.
 old-location: com\idataobject_dadvise.htm
 old-project: com
 ms.assetid: be9891d4-aad3-42a0-8c8e-4b86091ff03b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DAdvise, DAdvise method [COM], DAdvise method [COM],IDataObject interface, IDataObject interface [COM],DAdvise method, IDataObject.DAdvise, IDataObject::DAdvise, _ole_idataobject_dadvise, com.idataobject_dadvise, objidl/IDataObject::DAdvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_GETAVAILDRIVERMEMORYDATA
 title: "_DD_GETAVAILDRIVERMEMORYDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_GETAVAILDRIVERMEMORYDATA structure contains the information needed by the driver to query and return the amount of free memory.
 old-location: display\dd_getavaildrivermemorydata.htm
 old-project: display
 ms.assetid: 4e344c43-55ae-49fc-94ef-390c399d5d0b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_GETAVAILDRIVERMEMORYDATA, DD_GETAVAILDRIVERMEMORYDATA, DD_GETAVAILDRIVERMEMORYDATA structure [Display Devices], _DD_GETAVAILDRIVERMEMORYDATA, ddrawint/DD_GETAVAILDRIVERMEMORYDATA, ddstrcts_874c0a25-9513-44fa-bbfc-a480c918a835.xml, display.dd_getavaildrivermemorydata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

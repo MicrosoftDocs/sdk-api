@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbDataBroadcastIDDescriptor.GetDataBroadcastID
 title: IDvbDataBroadcastIDDescriptor::GetDataBroadcastID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the identifier that identifies the network broadcast from a Digital Video Broadcast (DVB) data broadcast descriptor.
 old-location: mstv\idvbdatabroadcastiddescriptor_getdatabroadcastid.htm
 old-project: mstv
 ms.assetid: 2addfb2b-80ab-47a7-81dd-f660e5fe1138
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDataBroadcastID, GetDataBroadcastID method [Microsoft TV Technologies], GetDataBroadcastID method [Microsoft TV Technologies],IDvbDataBroadcastIDDescriptor interface, IDvbDataBroadcastIDDescriptor interface [Microsoft TV Technologies],GetDataBroadcastID method, IDvbDataBroadcastIDDescriptor.GetDataBroadcastID, IDvbDataBroadcastIDDescriptor::GetDataBroadcastID, dvbsiparser/IDvbDataBroadcastIDDescriptor::GetDataBroadcastID, mstv.idvbdatabroadcastiddescriptor_getdatabroadcastid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

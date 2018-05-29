@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetFolderType
 title: IKnownFolder::GetFolderType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the folder type.
 old-location: shell\IKnownFolder_GetFolderType.htm
 old-project: shell
 ms.assetid: a2457d52-390d-43bd-8db0-9c18492cc40e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFolderType, GetFolderType method [Windows Shell], GetFolderType method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetFolderType method, IKnownFolder.GetFolderType, IKnownFolder::GetFolderType, _shell_IKnownFolder_GetFolderType, shell.IKnownFolder_GetFolderType, shobjidl_core/IKnownFolder::GetFolderType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

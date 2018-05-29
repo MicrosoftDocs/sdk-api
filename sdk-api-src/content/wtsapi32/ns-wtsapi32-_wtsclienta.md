@@ -1,16 +1,16 @@
 ---
 UID: NS:wtsapi32._WTSCLIENTA
 title: "_WTSCLIENTA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a Remote Desktop Connection (RDC) client.
 old-location: termserv\wtsclient.htm
 old-project: TermServ
 ms.assetid: 864b7560-3f19-4a73-a02b-b82caa88b2de
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PWTSCLIENTA, PWTSCLIENT, PWTSCLIENT structure pointer [Remote Desktop Services], WTSCLIENT, WTSCLIENT structure [Remote Desktop Services], WTSCLIENTA, WTSCLIENTW, _WTSCLIENTA, termserv.wtsclient, wtsapi32/PWTSCLIENT, wtsapi32/WTSCLIENT, wtsapi32/WTSCLIENTA, wtsapi32/WTSCLIENTW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 

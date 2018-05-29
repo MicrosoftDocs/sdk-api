@@ -1,16 +1,16 @@
 ---
 UID: NN:cscobj.IOfflineFilesSyncConflictHandler
 title: IOfflineFilesSyncConflictHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by a client calling the IOfflineFilesCache::Synchronize method to prescribe a conflict resolution strategy for sync conflicts as they are detected.
 old-location: of\iofflinefilessyncconflicthandler.htm
 old-project: OfflineFiles
 ms.assetid: f3d5ed0e-727d-43e1-9d29-2a0a71bb8a64
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesSyncConflictHandler, IOfflineFilesSyncConflictHandler interface [Offline Files], IOfflineFilesSyncConflictHandler interface [Offline Files],described, cscobj/IOfflineFilesSyncConflictHandler, of.iofflinefilessyncconflicthandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cscobj.h
 req.include-header: 

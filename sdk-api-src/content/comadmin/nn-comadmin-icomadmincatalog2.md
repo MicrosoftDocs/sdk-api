@@ -1,16 +1,16 @@
 ---
 UID: NN:comadmin.ICOMAdminCatalog2
 title: ICOMAdminCatalog2
-author: windows-driver-content
+author: windows-sdk-content
 description: An extension of the ICOMAdminCatalog interface.
 old-location: cos\icomadmincatalog2.htm
 old-project: cossdk
 ms.assetid: ffca611d-dacc-47be-9101-9de76ecc8393
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], ICOMAdminCatalog2 interface [COM+],described, comadmin/ICOMAdminCatalog2, cos.icomadmincatalog2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comadmin.h
 req.include-header: 

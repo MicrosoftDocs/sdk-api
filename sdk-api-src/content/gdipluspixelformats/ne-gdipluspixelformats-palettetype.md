@@ -1,16 +1,16 @@
 ---
 UID: NE:gdipluspixelformats.PaletteType
 title: PaletteType
-author: windows-driver-content
+author: windows-sdk-content
 description: The PaletteType enumeration is used by the Bitmap::InitializePalette and Bitmap::ConvertFormat methods of the Bitmap class. The members of the enumeration identify several standard color palette formats.
 old-location: gdiplus\_gdiplus_ENUM_PaletteType.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\palettetype.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PaletteType, PaletteType enumeration [GDI+], PaletteTypeCustom, PaletteTypeFixedBW, PaletteTypeFixedHalftone125, PaletteTypeFixedHalftone216, PaletteTypeFixedHalftone252, PaletteTypeFixedHalftone256, PaletteTypeFixedHalftone27, PaletteTypeFixedHalftone64, PaletteTypeFixedHalftone8, PaletteTypeOptimal, _gdiplus_ENUM_PaletteType, gdiplus._gdiplus_ENUM_PaletteType, gdipluspixelformats/PaletteType, gdipluspixelformats/PaletteTypeCustom, gdipluspixelformats/PaletteTypeFixedBW, gdipluspixelformats/PaletteTypeFixedHalftone125, gdipluspixelformats/PaletteTypeFixedHalftone216, gdipluspixelformats/PaletteTypeFixedHalftone252, gdipluspixelformats/PaletteTypeFixedHalftone256, gdipluspixelformats/PaletteTypeFixedHalftone27, gdipluspixelformats/PaletteTypeFixedHalftone64, gdipluspixelformats/PaletteTypeFixedHalftone8, gdipluspixelformats/PaletteTypeOptimal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.Refresh
 title: IWdsTransportNamespace::Refresh
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the property values of the namespace with values from the server.
 old-location: wds\iwdstransportnamespace_refresh.htm
 old-project: Wds
 ms.assetid: 9d5742e0-4197-4a15-82c6-5623940c0c7f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Refresh method, IWdsTransportNamespace.Refresh, IWdsTransportNamespace::Refresh, Refresh, Refresh method [Windows Deployment Services], Refresh method [Windows Deployment Services],IWdsTransportNamespace interface, wds.iwdstransportnamespace_refresh, wdstptmgmt/IWdsTransportNamespace::Refresh
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

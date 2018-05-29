@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHGetSetFolderCustomSettings
 title: SHGetSetFolderCustomSettings function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHGetSetFolderCustomSettings may be altered or unavailable.
 old-location: shell\SHGetSetFolderCustomSettings.htm
 old-project: shell
 ms.assetid: 38b78a4b-ba68-4dff-812d-d4c7421eb202
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FCS_FORCEWRITE, FCS_READ, FCS_WRITE, SHGetSetFolderCustomSettings, SHGetSetFolderCustomSettings function [Windows Shell], _win32_SHGetSetFolderCustomSettings, shell.SHGetSetFolderCustomSettings, shlobj_core/SHGetSetFolderCustomSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

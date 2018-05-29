@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSSetPropertyValue
 title: PSSetPropertyValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the value of a property in a property store.
 old-location: properties\PSSetPropertyValue.htm
 old-project: properties
 ms.assetid: b4f8c50d-93cd-4371-88b0-6ce58f023981
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSSetPropertyValue, PSSetPropertyValue function [Windows Properties], _shell_PSSetPropertyValue, properties.PSSetPropertyValue, propsys/PSSetPropertyValue, shell.PSSetPropertyValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

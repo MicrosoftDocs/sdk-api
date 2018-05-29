@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiSetExternalUIA
 title: MsiSetExternalUIA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiSetExternalUI function enables an external user-interface handler.
 old-location: setup\msisetexternalui.htm
 old-project: Msi
 ms.assetid: fcbf0607-d048-486f-bec2-f6e9d03e4194
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: INSTALLLOGMODE_ACTIONDATA, INSTALLLOGMODE_ACTIONSTART, INSTALLLOGMODE_COMMONDATA, INSTALLLOGMODE_ERROR, INSTALLLOGMODE_FATALEXIT, INSTALLLOGMODE_FILESINUSE, INSTALLLOGMODE_INFO, INSTALLLOGMODE_INITIALIZE, INSTALLLOGMODE_INSTALLEND, INSTALLLOGMODE_INSTALLSTART, INSTALLLOGMODE_OUTOFDISKSPACE, INSTALLLOGMODE_PROGRESS, INSTALLLOGMODE_RESOLVESOURCE, INSTALLLOGMODE_RMFILESINUSE, INSTALLLOGMODE_SHOWDIALOG, INSTALLLOGMODE_TERMINATE, INSTALLLOGMODE_USER, INSTALLLOGMODE_WARNING, MsiSetExternalUI, MsiSetExternalUI function, MsiSetExternalUIA, MsiSetExternalUIW, _msi_msisetexternalui, msi/MsiSetExternalUI, msi/MsiSetExternalUIA, msi/MsiSetExternalUIW, setup.msisetexternalui
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

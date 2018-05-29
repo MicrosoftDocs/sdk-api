@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.PowerImportPowerScheme
 title: PowerImportPowerScheme function
-author: windows-driver-content
+author: windows-sdk-content
 description: Imports a power scheme from a file.
 old-location: base\powerimportpowerscheme.htm
 old-project: Power
 ms.assetid: 84ba8cb6-13ad-459b-b154-c495aaeb67f3
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: PowerImportPowerScheme, PowerImportPowerScheme function, base.powerimportpowerscheme, powrprof/PowerImportPowerScheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

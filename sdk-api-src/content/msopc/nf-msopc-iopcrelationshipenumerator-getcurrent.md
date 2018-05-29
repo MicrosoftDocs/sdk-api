@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcRelationshipEnumerator.GetCurrent
 title: IOpcRelationshipEnumerator::GetCurrent
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IOpcRelationship interface pointer at the current position of the enumerator.
 old-location: opc\iopcrelationshipenumerator_getcurrent.htm
 old-project: OPC
 ms.assetid: 6ddd7a5f-659d-45e1-aff8-dee799efd8ac
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcRelationshipEnumerator interface, IOpcRelationshipEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcRelationshipEnumerator.GetCurrent, IOpcRelationshipEnumerator::GetCurrent, msopc/IOpcRelationshipEnumerator::GetCurrent, opc.iopcrelationshipenumerator_getcurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

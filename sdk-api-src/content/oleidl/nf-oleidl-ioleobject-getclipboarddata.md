@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleObject.GetClipboardData
 title: IOleObject::GetClipboardData
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a data object containing the current contents of the embedded object on which this method is called. Using the pointer to this data object, it is possible to create a new embedded object with the same data as the original.
 old-location: com\ioleobject_getclipboarddata.htm
 old-project: com
 ms.assetid: 49f6b26c-76e1-4519-920b-e05279f23112
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetClipboardData, GetClipboardData method [COM], GetClipboardData method [COM],IOleObject interface, IOleObject interface [COM],GetClipboardData method, IOleObject.GetClipboardData, IOleObject::GetClipboardData, _ole_ioleobject_getclipboarddata, com.ioleobject_getclipboarddata, oleidl/IOleObject::GetClipboardData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

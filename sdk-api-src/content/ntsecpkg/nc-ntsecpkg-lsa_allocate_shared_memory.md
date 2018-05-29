@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_ALLOCATE_SHARED_MEMORY
 title: LSA_ALLOCATE_SHARED_MEMORY
-author: windows-driver-content
+author: windows-sdk-content
 description: The AllocateSharedMemory function allocates a block of shared memory from a section of memory previously reserved by a call to the CreateSharedMemory function.
 old-location: security\allocatesharedmemory.htm
 old-project: SecAuthN
 ms.assetid: 77fdedaf-8931-4412-ab35-bd3de8e78b9a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AllocateSharedMemory, AllocateSharedMemory function [Security], LSA_ALLOCATE_SHARED_MEMORY, _ssp_allocatesharedmemory, ntsecpkg/AllocateSharedMemory, security.allocatesharedmemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

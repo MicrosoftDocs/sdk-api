@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.SetCredentialsAttributesA
 title: SetCredentialsAttributesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the attributes of a credential, such as the name associated with the credential.
 old-location: security\setcredentialsattributes.htm
 old-project: SecAuthN
 ms.assetid: 419fb4f0-3dd1-4473-aeb2-8024355e0c1c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: QueryCredentialsAttributesA, QueryCredentialsAttributesW, SetCredentialsAttributes, SetCredentialsAttributes function [Security], SetCredentialsAttributesA, SetCredentialsAttributesW, security.setcredentialsattributes, sspi/QueryCredentialsAttributesA, sspi/QueryCredentialsAttributesW, sspi/SetCredentialsAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpSetRetransmitMode
 title: SnmpSetRetransmitMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinSNMP SnmpSetRetransmitMode function enables a WinSNMP application to set the retransmission mode.
 old-location: snmp\snmpsetretransmitmode.htm
 old-project: SNMP
 ms.assetid: d206ba15-a068-4579-bd6a-ab2444a723e0
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpSetRetransmitMode, SnmpSetRetransmitMode function [SNMP], _snmp_snmpsetretransmitmode, snmp.snmpsetretransmitmode, winsnmp/SnmpSetRetransmitMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

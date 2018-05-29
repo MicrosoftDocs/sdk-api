@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.SetWidth
 title: AdjustableArrowCap::SetWidth
-author: windows-driver-content
+author: windows-sdk-content
 description: The AdjustableArrowCap::SetWidth method sets the width of the arrow cap. The width is the distance between the endpoints of the base of the arrow.
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_SetWidth_width_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\setwidth.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AdjustableArrowCap class [GDI+],SetWidth method, AdjustableArrowCap.SetWidth, AdjustableArrowCap::SetWidth, SetWidth, SetWidth method [GDI+], SetWidth method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_SetWidth_width_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_SetWidth_width_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h

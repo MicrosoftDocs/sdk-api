@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.SetCancelPriorityComparison
 title: IUIAnimationManager2::SetCancelPriorityComparison
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the priority comparison handler that determines whether a scheduled storyboard can be canceled.
 old-location: uianimation\iuianimationmanager2_setcancelprioritycomparison.htm
 old-project: UIAnimation
 ms.assetid: 55DEC4C2-A6F3-459D-BDCD-3D3819EBF0D2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetCancelPriorityComparison method, IUIAnimationManager2.SetCancelPriorityComparison, IUIAnimationManager2::SetCancelPriorityComparison, SetCancelPriorityComparison, SetCancelPriorityComparison method [Windows Animation], SetCancelPriorityComparison method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_setcancelprioritycomparison, uianimation/IUIAnimationManager2::SetCancelPriorityComparison
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

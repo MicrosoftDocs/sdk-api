@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfContextView
 title: ITfContextView
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfContextView interface is implemented by the TSF manager and used by a client (application or text service) to obtain information about a context view.
 old-location: tsf\itfcontextview.htm
 old-project: TSF
 ms.assetid: 302d185d-dab7-4a77-a5cf-da2529d8b24a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfContextView, ITfContextView interface [Text Services Framework], ITfContextView interface [Text Services Framework],described, _tsf_itfcontextview_ref, msctf/ITfContextView, tsf.itfcontextview
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

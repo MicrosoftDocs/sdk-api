@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupSetSourceListW
 title: SetupSetSourceListW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupSetSourceList function allows the caller to set the list of installation sources for either the current user or the system (common to all users).
 old-location: setup\setupsetsourcelist.htm
 old-project: SetupApi
 ms.assetid: 6a37a56c-ae44-4a57-9307-90efcf025d1a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupSetSourceList, SetupSetSourceList function [Setup API], SetupSetSourceListA, SetupSetSourceListW, _setupapi_setupsetsourcelist, setup.setupsetsourcelist, setupapi/SetupSetSourceList, setupapi/SetupSetSourceListA, setupapi/SetupSetSourceListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

@@ -1,17 +1,17 @@
 ---
 UID: NF:rpcndr.NdrClearOutParameters
 title: NdrClearOutParameters function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrClearOutParameters function frees resources of the out parameter and clears its memory if the RPC call to the server fails.
 old-location: rpc\ndrclearoutparameters.htm
 old-project: Rpc
 ms.assetid: f0ae23d5-3ec0-4e41-8c2c-5b6eb9bbb1b8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrClearOutParameters, NdrClearOutParameters
 , NdrClearOutParameters function [RPC], rpc.ndrclearoutparameters, rpcndr/NdrClearOutParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

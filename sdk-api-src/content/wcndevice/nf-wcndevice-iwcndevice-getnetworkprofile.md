@@ -1,16 +1,16 @@
 ---
 UID: NF:wcndevice.IWCNDevice.GetNetworkProfile
 title: IWCNDevice::GetNetworkProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWCNDevice::GetNetworkProfile method gets a network profile from the device.
 old-location: wcn\iwcndevice_getnetworkprofile.htm
 old-project: wcn
 ms.assetid: a4fb0fc3-a45e-444c-953a-fe4fdfb0b327
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetNetworkProfile, GetNetworkProfile method [Windows Connect Now], GetNetworkProfile method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetNetworkProfile method, IWCNDevice.GetNetworkProfile, IWCNDevice::GetNetworkProfile, wcn.iwcndevice_getnetworkprofile, wcndevice/IWCNDevice::GetNetworkProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcndevice.h
 req.include-header: 

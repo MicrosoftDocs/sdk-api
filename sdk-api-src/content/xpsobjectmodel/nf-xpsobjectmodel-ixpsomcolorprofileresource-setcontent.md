@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResource.SetContent
 title: IXpsOMColorProfileResource::SetContent
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the read-only stream to be associated with this resource.
 old-location: xps\ixpsomcolorprofileresource_setcontent.htm
 old-project: printdocs
 ms.assetid: d93ae074-6565-45ea-bc0e-e8401b7d5b47
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMColorProfileResource interface [XPS Documents and Packaging],SetContent method, IXpsOMColorProfileResource.SetContent, IXpsOMColorProfileResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMColorProfileResource interface, xps.ixpsomcolorprofileresource_setcontent, xpsobjectmodel/IXpsOMColorProfileResource::SetContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

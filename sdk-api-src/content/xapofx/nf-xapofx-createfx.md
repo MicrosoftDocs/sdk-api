@@ -1,16 +1,16 @@
 ---
 UID: NF:xapofx.CreateFX
 title: CreateFX function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an instance of the requested XAPOFX effect.
 old-location: xaudio2\createfx.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xapofx.CreateFX(CLSID,IUnknown,void,UINT32)
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: CreateFX, CreateFX function [XAudio2 Audio Mixing APIs], xapofx/CreateFX, xaudio2.createfx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: xapofx.h
 req.include-header: 

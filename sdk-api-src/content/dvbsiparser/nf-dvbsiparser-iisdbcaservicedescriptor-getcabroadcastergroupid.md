@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAServiceDescriptor.GetCABroadcasterGroupId
 title: IIsdbCAServiceDescriptor::GetCABroadcasterGroupId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the conditional access (CA) broadcaster group identifier from a CA service descriptor.
 old-location: mstv\iisdbcaservicedescriptor_getcabroadcastergroupid.htm
 old-project: mstv
 ms.assetid: cc783e34-3544-4bcf-9e76-cb098c89cd65
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCABroadcasterGroupId, GetCABroadcasterGroupId method [Microsoft TV Technologies], GetCABroadcasterGroupId method [Microsoft TV Technologies],IIsdbCAServiceDescriptor interface, IIsdbCAServiceDescriptor interface [Microsoft TV Technologies],GetCABroadcasterGroupId method, IIsdbCAServiceDescriptor.GetCABroadcasterGroupId, IIsdbCAServiceDescriptor::GetCABroadcasterGroupId, dvbsiparser/IIsdbCAServiceDescriptor::GetCABroadcasterGroupId, mstv.iisdbcaservicedescriptor_getcabroadcastergroupid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

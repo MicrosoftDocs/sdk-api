@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ImageList_LoadImageW
 title: ImageList_LoadImageW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an image list from the specified bitmap.
 old-location: controls\ImageList_LoadImage.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_loadimage.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMAGE_BITMAP, ImageList_LoadImage, ImageList_LoadImage function [Windows Controls], ImageList_LoadImageA, ImageList_LoadImageW, LR_CREATEDIBSECTION, LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_LOADFROMFILE, LR_LOADMAP3DCOLORS, LR_LOADTRANSPARENT, LR_MONOCHROME, LR_SHARED, OBM_ for OEM bitmaps, OCR_ for OEM cursors, OIC_ for OEM icons, _win32_ImageList_LoadImage, _win32_ImageList_LoadImage_cpp, commctrl/ImageList_LoadImage, commctrl/ImageList_LoadImageA, commctrl/ImageList_LoadImageW, controls.ImageList_LoadImage, controls._win32_ImageList_LoadImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

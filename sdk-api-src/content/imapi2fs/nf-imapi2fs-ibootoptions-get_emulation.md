@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IBootOptions.get_Emulation
 title: IBootOptions::get_Emulation
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the media type that the boot image is intended to emulate.
 old-location: imapi\ibootoptions_get_emulation.htm
 old-project: imapi
 ms.assetid: ade69c2b-ff25-4993-bf4c-ee372e3cc1b0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IBootOptions interface [IMAPI],get_Emulation method, IBootOptions.get_Emulation, IBootOptions::get_Emulation, get_Emulation, get_Emulation method [IMAPI], get_Emulation method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_emulation, imapi2fs/IBootOptions::get_Emulation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

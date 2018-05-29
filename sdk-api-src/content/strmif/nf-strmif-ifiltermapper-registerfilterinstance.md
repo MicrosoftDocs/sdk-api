@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IFilterMapper.RegisterFilterInstance
 title: IFilterMapper::RegisterFilterInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Registers an identifiable instance of a filter.
 old-location: dshow\ifiltermapper_registerfilterinstance.htm
 old-project: DirectShow
 ms.assetid: ce42047c-0b74-4ad4-b5a1-ea66fc6bffc3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IFilterMapper interface [DirectShow],RegisterFilterInstance method, IFilterMapper.RegisterFilterInstance, IFilterMapper::RegisterFilterInstance, IFilterMapperRegisterFilterInstance, RegisterFilterInstance, RegisterFilterInstance method [DirectShow], RegisterFilterInstance method [DirectShow],IFilterMapper interface, dshow.ifiltermapper_registerfilterinstance, strmif/IFilterMapper::RegisterFilterInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

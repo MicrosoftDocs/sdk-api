@@ -1,16 +1,16 @@
 ---
 UID: NS:p2p.peer_pnrp_endpoint_info_tag
 title: peer_pnrp_endpoint_info_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the IP addresses and data associated with a peer endpoint.
 old-location: p2p\peer_pnrp_endpoint_info.htm
 old-project: P2PSdk
 ms.assetid: 986e3bec-9915-4a7c-8f54-faf25fa2848c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*PPEER_PNRP_ENDPOINT_INFO, PEER_PNRP_ENDPOINT_INFO, PEER_PNRP_ENDPOINT_INFO structure [Peer Networking], PPEER_PNRP_ENDPOINT_INFO, PPEER_PNRP_ENDPOINT_INFO structure pointer [Peer Networking], p2p.peer_pnrp_endpoint_info, p2p/PEER_PNRP_ENDPOINT_INFO, p2p/PPEER_PNRP_ENDPOINT_INFO, peer_pnrp_endpoint_info_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_UPDATE_PROPERTIES
 title: IOCTL_DISK_UPDATE_PROPERTIES
-author: windows-driver-content
+author: windows-sdk-content
 description: Invalidates the cached partition table and re-enumerates the device.
 old-location: fs\ioctl_disk_update_properties.htm
 old-project: FileIO
 ms.assetid: d97e0257-c3b0-48d5-b801-594763be8178
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IOCTL_DISK_UPDATE_PROPERTIES, IOCTL_DISK_UPDATE_PROPERTIES control, IOCTL_DISK_UPDATE_PROPERTIES control code [Files], _win32_ioctl_disk_update_properties, base.ioctl_disk_update_properties, fs.ioctl_disk_update_properties, winioctl/IOCTL_DISK_UPDATE_PROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

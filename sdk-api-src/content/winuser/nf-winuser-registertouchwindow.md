@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.RegisterTouchWindow
 title: RegisterTouchWindow function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a window as being touch-capable.
 old-location: wintouch\registertouchwindow.htm
 old-project: wintouch
 ms.assetid: a70a7418-f79d-40c8-9219-3ce38a74da9f
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: RegisterTouchWindow, RegisterTouchWindow function [Windows Touch], TWF_FINETOUCH, TWF_WANTPALM, wintouch.registertouchwindow, winuser/RegisterTouchWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

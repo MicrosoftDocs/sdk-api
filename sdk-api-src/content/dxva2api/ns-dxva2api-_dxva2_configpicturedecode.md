@@ -1,16 +1,16 @@
 ---
 UID: NS:dxva2api._DXVA2_ConfigPictureDecode
 title: "_DXVA2_ConfigPictureDecode"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the configuration of a DXVA decoder device.
 old-location: mf\dxva2_configpicturedecode.htm
 old-project: medfound
 ms.assetid: 1515cfa9-24ff-4c65-adca-f4143d36685c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 1515cfa9-24ff-4c65-adca-f4143d36685c, DXVA2_ConfigPictureDecode, DXVA2_ConfigPictureDecode structure [Media Foundation], _DXVA2_ConfigPictureDecode, dxva2api/DXVA2_ConfigPictureDecode, mf.dxva2_configpicturedecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 

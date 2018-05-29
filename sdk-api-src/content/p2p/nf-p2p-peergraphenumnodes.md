@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGraphEnumNodes
 title: PeerGraphEnumNodes function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGraphEnumNodes function creates and returns an enumeration handle used to enumerate the nodes in a peer graph.
 old-location: p2p\peergraphenumnodes.htm
 old-project: P2PSdk
 ms.assetid: 68231b0a-6002-4974-84d7-08b0629f3622
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGraphEnumNodes, PeerGraphEnumNodes function [Peer Networking], p2p.peergraphenumnodes, p2p/PeerGraphEnumNodes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

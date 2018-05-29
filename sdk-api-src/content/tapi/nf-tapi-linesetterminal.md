@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSetTerminal
 title: lineSetTerminal function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSetTerminal function enables an application to specify which terminal information related to the specified line, address, or call is to be routed.
 old-location: tapi2\linesetterminal.htm
 old-project: Tapi
 ms.assetid: 362114d9-c5b6-4b78-bb31-811eb89fe82d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesetterminal, lineSetTerminal, lineSetTerminal function [TAPI 2.2], tapi/lineSetTerminal, tapi2.linesetterminal"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

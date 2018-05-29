@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Operation_Cancel
 title: MI_Operation_Cancel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels a running operation.
 old-location: wmi_v2\mi_operation_cancel.htm
 old-project: wmi_v2
 ms.assetid: 11a9f9f6-9dfa-4f7c-9562-f4793c007f04
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Operation_Cancel, MI_Operation_Cancel function [Windows Management Infrastructure (MI)], mi/MI_Operation_Cancel, wmi_v2.mi_operation_cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

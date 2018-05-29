@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_ENCODER_ENCODE_CALLBACK
 title: WS_ENCODER_ENCODE_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Encodes a message.
 old-location: wsw\ws_encoder_encode_callback.htm
 old-project: wsw
 ms.assetid: f3b191b2-a92f-491d-bd77-500e2d3b37e8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_ENCODER_ENCODE_CALLBACK, WS_ENCODER_ENCODE_CALLBACK callback, WS_ENCODER_ENCODE_CALLBACK callback function [Web Services for Windows], webservices/WS_ENCODER_ENCODE_CALLBACK, wsw.ws_encoder_encode_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wpcapi.IWPCSettings.IsLoggingRequired
 title: IWPCSettings::IsLoggingRequired
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether activity logging should be performed when obtaining the IWPCSettings interface.
 old-location: parcon\iwpcsettings_isloggingrequired.htm
 old-project: parcon
 ms.assetid: bfe04843-af23-4146-bc45-f91d6ad36c1a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWPCSettings interface,IsLoggingRequired method, IWPCSettings.IsLoggingRequired, IWPCSettings::IsLoggingRequired, IsLoggingRequired, IsLoggingRequired method, IsLoggingRequired method,IWPCSettings interface, parcon.iwpcsettings_isloggingrequired, wpcapi/IWPCSettings::IsLoggingRequired
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 

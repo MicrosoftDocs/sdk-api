@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkTablet.get_MaximumInputRectangle
 title: IInkTablet::get_MaximumInputRectangle
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the maximum input rectangle, in tablet device coordinates that the IInkTablet object supports.
 old-location: tablet\iinktablet_maximuminputrectangle.htm
 old-project: tablet
 ms.assetid: 84d8518b-6cd7-4da9-9ce3-1ce6fe6eeb43
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 84d8518b-6cd7-4da9-9ce3-1ce6fe6eeb43, IInkTablet interface [Tablet PC],MaximumInputRectangle property, IInkTablet.MaximumInputRectangle, IInkTablet.get_MaximumInputRectangle, IInkTablet::MaximumInputRectangle, IInkTablet::get_MaximumInputRectangle, MaximumInputRectangle property [Tablet PC], MaximumInputRectangle property [Tablet PC],IInkTablet interface, get_MaximumInputRectangle, msinkaut/IInkTablet::MaximumInputRectangle, msinkaut/IInkTablet::get_MaximumInputRectangle, tablet.iinktablet_maximuminputrectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

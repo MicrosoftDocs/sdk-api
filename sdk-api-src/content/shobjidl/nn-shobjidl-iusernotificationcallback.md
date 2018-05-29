@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IUserNotificationCallback
 title: IUserNotificationCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method for the handling of a mouse click or shortcut menu access in a notification balloon. Used with IUserNotification2::Show.
 old-location: shell\IUserNotificationCallback.htm
 old-project: shell
 ms.assetid: f746a4d4-8649-43a1-ac9b-773402dfb6c7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUserNotificationCallback, IUserNotificationCallback interface [Windows Shell], IUserNotificationCallback interface [Windows Shell],described, _shell_IUserNotificationCallback, shell.IUserNotificationCallback, shobjidl/IUserNotificationCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

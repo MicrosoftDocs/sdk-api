@@ -1,16 +1,16 @@
 ---
 UID: NS:audiomediatype._UNCOMPRESSEDAUDIOFORMAT
 title: "_UNCOMPRESSEDAUDIOFORMAT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The UNCOMPRESSEDAUDIOFORMAT structure specifies the frame rate, channel mask, and other attributes of the uncompressed audio data format.
 old-location: audio\uncompressedauudioformat.htm
 old-project: audio
 ms.assetid: b1d35067-7ef3-4c29-8b16-642300485695
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: UNCOMPRESSEDAUDIOFORMAT, UNCOMPRESSEDAUDIOFORMAT structure [Audio Devices], _UNCOMPRESSEDAUDIOFORMAT, aud-prop_077921c9-89ee-44ca-a585-d87e4d025c16.xml, audio.uncompressedauudioformat, audiomediatype/UNCOMPRESSEDAUUDIOFORMAT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h

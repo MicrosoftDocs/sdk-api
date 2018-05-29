@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IComponentTypes.EnumComponentTypes
 title: IComponentTypes::EnumComponentTypes
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumComponentTypes method returns an IEnumComponentTypes enumerator for all component types in the collection.
 old-location: mstv\icomponenttypes_enumcomponenttypes.htm
 old-project: mstv
 ms.assetid: c070998c-4350-4630-80c0-e3db46154845
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnumComponentTypes, EnumComponentTypes method [Microsoft TV Technologies], EnumComponentTypes method [Microsoft TV Technologies],IComponentTypes interface, IComponentTypes interface [Microsoft TV Technologies],EnumComponentTypes method, IComponentTypes.EnumComponentTypes, IComponentTypes::EnumComponentTypes, IComponentTypesEnumComponentTypes, mstv.icomponenttypes_enumcomponenttypes, tuner/IComponentTypes::EnumComponentTypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

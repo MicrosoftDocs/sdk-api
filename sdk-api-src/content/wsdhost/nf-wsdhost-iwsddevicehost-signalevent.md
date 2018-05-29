@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.SignalEvent
 title: IWSDDeviceHost::SignalEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies all subscribed clients that an event has occurred.
 old-location: ncd\iwsddevicehost_signalevent_method.htm
 old-project: WsdApi
 ms.assetid: c4cba7f0-6f08-43d7-b255-d3dfb1b5287d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDDeviceHost interface,SignalEvent method, IWSDDeviceHost.SignalEvent, IWSDDeviceHost::SignalEvent, SignalEvent, SignalEvent method, SignalEvent method,IWSDDeviceHost interface, ncd.iwsddevicehost_signalevent_method, wsdhost/IWSDDeviceHost::SignalEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

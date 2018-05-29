@@ -1,16 +1,16 @@
 ---
 UID: NE:fsrmenums._FsrmReportFilter
 title: "_FsrmReportFilter"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the filters that you can use to limit the files that are included in a report.
 old-location: fsrm\fsrmreportfilter.htm
 old-project: Fsrm
 ms.assetid: 6f38ec9a-8876-44ce-9d44-f3982f1880ca
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: FsrmReportFilter, FsrmReportFilter enumeration [File Server Resource Manager], FsrmReportFilter_FileGroups, FsrmReportFilter_MaxAgeDays, FsrmReportFilter_MinAgeDays, FsrmReportFilter_MinQuotaUsage, FsrmReportFilter_MinSize, FsrmReportFilter_NamePattern, FsrmReportFilter_Owners, FsrmReportFilter_Property, _FsrmReportFilter, fs.fsrmreportfilter, fsrm.fsrmreportfilter, fsrmenums/FsrmReportFilter, fsrmenums/FsrmReportFilter_FileGroups, fsrmenums/FsrmReportFilter_MaxAgeDays, fsrmenums/FsrmReportFilter_MinAgeDays, fsrmenums/FsrmReportFilter_MinQuotaUsage, fsrmenums/FsrmReportFilter_MinSize, fsrmenums/FsrmReportFilter_NamePattern, fsrmenums/FsrmReportFilter_Owners, fsrmenums/FsrmReportFilter_Property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

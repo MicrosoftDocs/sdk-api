@@ -1,16 +1,16 @@
 ---
 UID: NS:netioapi._MIB_IPNET_ROW2
 title: "_MIB_IPNET_ROW2"
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores information about a neighbor IP address.
 old-location: mib\mib_ipnet_row2.htm
 old-project: MIB
 ms.assetid: 164dbd93-4464-40f9-989a-17597102b1d8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_IPNET_ROW2, MIB_IPNET_ROW2, MIB_IPNET_ROW2 structure [MIB], NlnsDelay, NlnsIncomplete, NlnsMaximum, NlnsPermanent, NlnsProbe, NlnsReachable, NlnsStale, NlnsUnreachable, PMIB_IPNET_ROW2, PMIB_IPNET_ROW2 structure pointer [MIB], _MIB_IPNET_ROW2, mib.mib_ipnet_row2, netioapi/MIB_IPNET_ROW2, netioapi/PMIB_IPNET_ROW2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

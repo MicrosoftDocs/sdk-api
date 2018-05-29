@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetIndices
 title: IDirect3DDevice9::SetIndices
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets index data.
 old-location: direct3d9\idirect3ddevice9__setindices.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setindices.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetIndices method, IDirect3DDevice9.SetIndices, IDirect3DDevice9::SetIndices, SetIndices, SetIndices method [Direct3D 9], SetIndices method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetIndices, direct3d9.idirect3ddevice9__setindices, f1b39c78-eab2-fb54-c553-da8d9f26d06b
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:dsrole._DSROLE_UPGRADE_STATUS_INFO
 title: "_DSROLE_UPGRADE_STATUS_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used with the DsRoleGetPrimaryDomainInformation function to contain domain upgrade status data.
 old-location: ad\dsrole_upgrade_status_info.htm
 old-project: AD
 ms.assetid: c368d8d9-a91d-4013-880e-36a47d42a697
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PDSROLE_UPGRADE_STATUS_INFO, 0, DSROLE_UPGRADE_IN_PROGRESS, DSROLE_UPGRADE_STATUS_INFO, DSROLE_UPGRADE_STATUS_INFO structure [Active Directory], PDSROLE_UPGRADE_STATUS_INFO, PDSROLE_UPGRADE_STATUS_INFO structure pointer [Active Directory], _DSROLE_UPGRADE_STATUS_INFO, _glines_dsrole_upgrade_status_info, ad.dsrole__upgrade__status__info, ad.dsrole_upgrade_status_info, dsrole/DSROLE_UPGRADE_STATUS_INFO, dsrole/PDSROLE_UPGRADE_STATUS_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dsrole.h
 req.include-header: 

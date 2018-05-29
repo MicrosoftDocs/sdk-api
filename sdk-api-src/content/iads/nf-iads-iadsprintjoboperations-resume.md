@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsPrintJobOperations.Resume
 title: IADsPrintJobOperations::Resume
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsPrintJobOperations::Resume method continues the print job halted by the IADsPrintJobOperations::Pause method.
 old-location: adsi\iadsprintjoboperations_resume.htm
 old-project: ADSI
 ms.assetid: aed5f1be-36b6-413a-a1c0-c61823a31571
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsPrintJobOperations interface [ADSI],Resume method, IADsPrintJobOperations.Resume, IADsPrintJobOperations::Resume, Resume, Resume method [ADSI], Resume method [ADSI],IADsPrintJobOperations interface, _ds_iadsprintjoboperations_resume, adsi.iadsprintjoboperations__resume, adsi.iadsprintjoboperations_resume, iads/IADsPrintJobOperations::Resume
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

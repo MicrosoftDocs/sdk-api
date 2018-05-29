@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GetCellDescent
 title: FontFamily::GetCellDescent
-author: windows-driver-content
+author: windows-sdk-content
 description: The FontFamily::GetCellDescent method gets the cell descent, in design units, of this font family for the specified style or style combination.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetCellDescent_style_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getcelldescent.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FontFamily class [GDI+],GetCellDescent method, FontFamily.GetCellDescent, FontFamily::GetCellDescent, GetCellDescent, GetCellDescent method [GDI+], GetCellDescent method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetCellDescent_style_, gdiplus._gdiplus_CLASS_FontFamily_GetCellDescent_style_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

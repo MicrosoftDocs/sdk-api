@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJobManager.CreateFileManagementJob
 title: IFsrmFileManagementJobManager::CreateFileManagementJob
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a file management job.
 old-location: fsrm\ifsrmfilemanagementjobmanager_createfilemanagementjob.htm
 old-project: Fsrm
 ms.assetid: 22ac77f5-264e-482b-aacf-0c1d90dd4dbe
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: CreateFileManagementJob, CreateFileManagementJob method [File Server Resource Manager], CreateFileManagementJob method [File Server Resource Manager],FsrmFileManagementJobManager class, CreateFileManagementJob method [File Server Resource Manager],IFsrmFileManagementJobManager interface, FsrmFileManagementJobManager class [File Server Resource Manager],CreateFileManagementJob method, IFsrmFileManagementJobManager interface [File Server Resource Manager],CreateFileManagementJob method, IFsrmFileManagementJobManager.CreateFileManagementJob, IFsrmFileManagementJobManager::CreateFileManagementJob, fs.ifsrmfilemanagementjobmanager_createfilemanagementjob, fsrm.ifsrmfilemanagementjobmanager_createfilemanagementjob, fsrmreports/IFsrmFileManagementJobManager::CreateFileManagementJob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

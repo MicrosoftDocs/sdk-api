@@ -1,16 +1,16 @@
 ---
 UID: NE:winevt._EVT_RENDER_FLAGS
 title: "_EVT_RENDER_FLAGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the values that specify what to render.
 old-location: wes\evt_render_flags.htm
 old-project: WES
 ms.assetid: e7206481-c734-425f-a2b6-fa0d9a2b66c1
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EVT_RENDER_FLAGS, EVT_RENDER_FLAGS enumeration [EventLog], EvtRenderBookmark, EvtRenderEventValues, EvtRenderEventXml, _EVT_RENDER_FLAGS, wes.evt_render_flags, winevt/EVT_RENDER_FLAGS, winevt/EvtRenderBookmark, winevt/EvtRenderEventValues, winevt/EvtRenderEventXml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winevt.h
 req.include-header: 

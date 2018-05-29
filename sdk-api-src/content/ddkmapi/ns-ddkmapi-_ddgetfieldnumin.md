@@ -1,16 +1,16 @@
 ---
 UID: NS:ddkmapi._DDGETFIELDNUMIN
 title: "_DDGETFIELDNUMIN"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDGETFIELDNUMIN structure contains the Microsoft DirectDraw and video port extensions (VPE) object handle information.
 old-location: display\ddgetfieldnumin.htm
 old-project: display
 ms.assetid: d0f8d7d0-6af6-44d1-8f18-d77ce6502b3f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPDDGETFIELDNUMIN, DDGETFIELDNUMIN, DDGETFIELDNUMIN structure [Display Devices], LPDDGETFIELDNUMIN, LPDDGETFIELDNUMIN structure pointer [Display Devices], _DDGETFIELDNUMIN, ddkmapi/DDGETFIELDNUMIN, ddkmapi/LPDDGETFIELDNUMIN, ddstrcts_d975a952-2893-44cf-a7cb-57b3dd3b633c.xml, display.ddgetfieldnumin"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

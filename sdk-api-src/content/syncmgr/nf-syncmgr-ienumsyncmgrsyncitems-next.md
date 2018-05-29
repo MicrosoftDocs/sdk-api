@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrSyncItems.Next
 title: IEnumSyncMgrSyncItems::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the next batch of sync items from the handler.
 old-location: shell\IEnumSyncMgrSyncItems_Next.htm
 old-project: shell
 ms.assetid: b886e3a8-a94b-45ed-893b-889bef70ae6a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumSyncMgrSyncItems interface [Windows Shell],Next method, IEnumSyncMgrSyncItems.Next, IEnumSyncMgrSyncItems::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumSyncMgrSyncItems interface, _shell_IEnumSyncMgrSyncItems_Next, shell.IEnumSyncMgrSyncItems_Next, syncmgr/IEnumSyncMgrSyncItems::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

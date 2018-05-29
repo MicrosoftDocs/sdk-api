@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateIdentity.get_RevisionNumber
 title: IUpdateIdentity::get_RevisionNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the revision number of an update.
 old-location: wua\iupdateidentity_revisionnumber.htm
 old-project: Wua_Sdk
 ms.assetid: 1d95a83f-52d9-49d1-a604-087aef449e9a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateIdentity interface [Windows Update Agent],RevisionNumber property, IUpdateIdentity.RevisionNumber, IUpdateIdentity.get_RevisionNumber, IUpdateIdentity::RevisionNumber, IUpdateIdentity::get_RevisionNumber, RevisionNumber property [Windows Update Agent], RevisionNumber property [Windows Update Agent],IUpdateIdentity interface, get_RevisionNumber, wua.iupdateidentity_revisionnumber, wuapi/IUpdateIdentity::RevisionNumber, wuapi/IUpdateIdentity::get_RevisionNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptConfigureContextFunction
 title: BCryptConfigureContextFunction function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the configuration information for the cryptographic function of an existing CNG context.
 old-location: security\bcryptconfigurecontextfunction.htm
 old-project: SecCNG
 ms.assetid: e93c5e3e-3c63-49a3-8c8c-6510e10611ea
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptConfigureContextFunction, BCryptConfigureContextFunction function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, NCRYPT_SCHANNEL_SIGNATURE_INTERFACE, bcrypt/BCryptConfigureContextFunction, security.bcryptconfigurecontextfunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

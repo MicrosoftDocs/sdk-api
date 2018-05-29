@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.Add
 title: ISmimeCapabilities::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an ISmimeCapability object to the collection.
 old-location: security\ismimecapabilities_add_method.htm
 old-project: SecCertEnroll
 ms.assetid: 8ad35758-0dc1-4887-aea7-b8ead537cab2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],Add method, ISmimeCapabilities.Add, ISmimeCapabilities::Add, certenroll/ISmimeCapabilities::Add, security.ismimecapabilities_add_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

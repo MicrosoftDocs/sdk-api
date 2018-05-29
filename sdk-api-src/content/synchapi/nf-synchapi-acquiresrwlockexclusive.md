@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.AcquireSRWLockExclusive
 title: AcquireSRWLockExclusive function
-author: windows-driver-content
+author: windows-sdk-content
 description: Acquires a slim reader/writer (SRW) lock in exclusive mode.
 old-location: base\acquiresrwlockexclusive.htm
 old-project: Sync
 ms.assetid: 02e987a2-4c2f-4ccb-8816-c04320b568c1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: AcquireSRWLockExclusive, AcquireSRWLockExclusive function, base.acquiresrwlockexclusive, synchapi/AcquireSRWLockExclusive, winbase/AcquireSRWLockExclusive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

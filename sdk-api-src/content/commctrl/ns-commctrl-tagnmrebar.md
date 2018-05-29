@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMREBAR
 title: tagNMREBAR
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used in handling various rebar notifications.
 old-location: controls\NMREBAR.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebar.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMREBAR, LPNMREBAR, LPNMREBAR structure pointer [Windows Controls], NMREBAR, NMREBAR structure [Windows Controls], RBNM_ID, RBNM_LPARAM, RBNM_STYLE, _win32_NMREBAR, _win32_NMREBAR_cpp, commctrl/LPNMREBAR, commctrl/NMREBAR, controls.NMREBAR, controls._win32_NMREBAR, tagNMREBAR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

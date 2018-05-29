@@ -1,16 +1,16 @@
 ---
 UID: NC:ws2spi.LPNSPLOOKUPSERVICEBEGIN
 title: LPNSPLOOKUPSERVICEBEGIN
-author: windows-driver-content
+author: windows-sdk-content
 description: Initiates a client query that is constrained by the information contained within a WSAQUERYSET structure.
 old-location: winsock\nsplookupservicebegin_2.htm
 old-project: WinSock
 ms.assetid: a0b71821-4434-470f-b729-370d7e1722ec
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: LPNSPLOOKUPSERVICEBEGIN, LUP_ADDRCONFIG, LUP_CONTAINERS, LUP_DEEP, LUP_DUAL_ADDR, LUP_FLUSHCACHE, LUP_FLUSHPREVIOUS, LUP_NEAREST, LUP_NOCONTAINERS, LUP_NON_AUTHORITATIVE, LUP_RES_RESERVICE, LUP_RETURN_ADDR, LUP_RETURN_ALIASES, LUP_RETURN_ALL, LUP_RETURN_BLOB, LUP_RETURN_COMMENT, LUP_RETURN_NAME, LUP_RETURN_PREFERRED_NAMES, LUP_RETURN_QUERY_STRING, LUP_RETURN_TYPE, LUP_RETURN_VERSION, LUP_SECURE, NSPLookupServiceBegin, NSPLookupServiceBegin function [Winsock], _win32_nsplookupservicebegin_2, winsock.nsplookupservicebegin_2, ws2spi/NSPLookupServiceBegin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

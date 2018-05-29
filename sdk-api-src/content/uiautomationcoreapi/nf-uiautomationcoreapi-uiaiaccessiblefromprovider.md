@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaIAccessibleFromProvider
 title: UiaIAccessibleFromProvider function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IAccessible implementation that provides Microsoft Active Accessibility data on behalf of a Microsoft UI Automation provider.
 old-location: winauto\uiauto_UiaIAccessibleFromProvider.htm
 old-project: WinAuto
 ms.assetid: 79523637-9858-4E0B-87E7-8CED19FADF0E
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UIA_IAFP_DEFAULT, UIA_IAFP_UNWRAP_BRIDGE, UiaIAccessibleFromProvider, UiaIAccessibleFromProvider function [Windows Accessibility], uiautomationcoreapi/UiaIAccessibleFromProvider, winauto.uiauto_UiaIAccessibleFromProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

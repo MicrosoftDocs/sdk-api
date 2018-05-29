@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.RegisterPortType
 title: IWSDDeviceHost::RegisterPortType
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a port type for incoming messages.
 old-location: ncd\iwsddevicehost_registerporttype_method.htm
 old-project: WsdApi
 ms.assetid: d514babb-c502-4d9a-b6c8-f371465cb9e8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDDeviceHost interface,RegisterPortType method, IWSDDeviceHost.RegisterPortType, IWSDDeviceHost::RegisterPortType, RegisterPortType, RegisterPortType method, RegisterPortType method,IWSDDeviceHost interface, ncd.iwsddevicehost_registerporttype_method, wsdhost/IWSDDeviceHost::RegisterPortType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

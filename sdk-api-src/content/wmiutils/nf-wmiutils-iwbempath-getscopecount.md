@@ -1,16 +1,16 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetScopeCount
 title: IWbemPath::GetScopeCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemPath::GetScopeCount method returns the number of scopes in the path.
 old-location: wmi\iwbempath_getscopecount.htm
 old-project: WmiSdk
 ms.assetid: 3e818a4d-0a38-44ce-9027-2a94b7c86bef
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetScopeCount, GetScopeCount method [Windows Management Instrumentation], GetScopeCount method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetScopeCount method, IWbemPath.GetScopeCount, IWbemPath::GetScopeCount, _hmm_iwbempath_getscopecount, wmi.iwbempath_getscopecount, wmiutils/IWbemPath::GetScopeCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

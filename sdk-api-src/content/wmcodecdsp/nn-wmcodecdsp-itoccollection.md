@@ -1,16 +1,16 @@
 ---
 UID: NN:wmcodecdsp.ITocCollection
 title: ITocCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITocCollection represents a collection of tables of contents. It provides methods for adding, retrieving, and removing, tables of contents from the collection.
 old-location: mf\itoccollection.htm
 old-project: medfound
 ms.assetid: 10d6fc04-4444-4a47-911f-3d5bec548e28
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITocCollection, ITocCollection interface [Media Foundation], ITocCollection interface [Media Foundation],described, codecapi.itoccollection, mf.itoccollection, wmcodecdsp/ITocCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcodecdsp.h
 req.include-header: 

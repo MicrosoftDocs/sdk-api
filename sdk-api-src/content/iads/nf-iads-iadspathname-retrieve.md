@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsPathname.Retrieve
 title: IADsPathname::Retrieve
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsPathname::Retrieve method retrieves the path of the object with different format types.
 old-location: adsi\iadspathname_retrieve.htm
 old-project: ADSI
 ms.assetid: c34f2a5e-5faf-45bf-acc6-8db5fc8bf5fa
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsPathname interface [ADSI],Retrieve method, IADsPathname.Retrieve, IADsPathname::Retrieve, Retrieve, Retrieve method [ADSI], Retrieve method [ADSI],IADsPathname interface, _ds_iadspathname_retrieve, adsi.iadspathname__retrieve, adsi.iadspathname_retrieve, iads/IADsPathname::Retrieve
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

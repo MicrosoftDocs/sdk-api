@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.MoveToNtmsMediaPool
 title: MoveToNtmsMediaPool function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MoveToNtmsMediaPool function moves the specified medium from its current media pool to the specified media pool.
 old-location: fs\movetontmsmediapool.htm
 old-project: Rsm
 ms.assetid: 6bc11877-6657-4e8b-8239-bb2720cfb256
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: MoveToNtmsMediaPool, MoveToNtmsMediaPool function [Files], _zaw_movetontmsmediapool, base.movetontmsmediapool, fs.movetontmsmediapool, ntmsapi/MoveToNtmsMediaPool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

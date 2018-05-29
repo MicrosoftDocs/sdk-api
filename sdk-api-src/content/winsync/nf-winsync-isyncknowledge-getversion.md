@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetVersion
 title: ISyncKnowledge::GetVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the version of this knowledge structure.
 old-location: winsync\isyncknowledge_getversion.htm
 old-project: winsync
 ms.assetid: b54114f1-aa54-493d-b449-0b9161004ffa
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetVersion, GetVersion method [Windows Sync], GetVersion method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetVersion method, ISyncKnowledge.GetVersion, ISyncKnowledge::GetVersion, winsync.isyncknowledge_getversion, winsync/ISyncKnowledge::GetVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

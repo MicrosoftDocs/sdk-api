@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBalloon.GetBalloonInfo
 title: ITfLangBarItemBalloon::GetBalloonInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfLangBarItemBalloon::GetBalloonInfo method
 old-location: tsf\itflangbaritemballoon_getballooninfo.htm
 old-project: TSF
 ms.assetid: 4cf695dc-dfb7-4541-a364-4395650f9419
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetBalloonInfo, GetBalloonInfo method [Text Services Framework], GetBalloonInfo method [Text Services Framework],ITfLangBarItemBalloon interface, ITfLangBarItemBalloon interface [Text Services Framework],GetBalloonInfo method, ITfLangBarItemBalloon.GetBalloonInfo, ITfLangBarItemBalloon::GetBalloonInfo, _tsf_itflangbaritemballoon_getballooninfo_ref, ctfutb/ITfLangBarItemBalloon::GetBalloonInfo, tsf.itflangbaritemballoon_getballooninfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

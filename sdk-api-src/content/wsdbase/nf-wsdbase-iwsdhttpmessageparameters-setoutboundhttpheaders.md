@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetOutboundHttpHeaders
 title: IWSDHttpMessageParameters::SetOutboundHttpHeaders
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the HTTP headers used for outbound SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_setoutboundhttpheaders.htm
 old-project: WsdApi
 ms.assetid: f54f86dc-4b25-4faa-8a37-b241e9ba8c6c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetOutboundHttpHeaders method, IWSDHttpMessageParameters.SetOutboundHttpHeaders, IWSDHttpMessageParameters::SetOutboundHttpHeaders, SetOutboundHttpHeaders, SetOutboundHttpHeaders method, SetOutboundHttpHeaders method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setoutboundhttpheaders, wsdbase/IWSDHttpMessageParameters::SetOutboundHttpHeaders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

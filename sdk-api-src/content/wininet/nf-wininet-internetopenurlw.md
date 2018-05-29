@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetOpenUrlW
 title: InternetOpenUrlW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a resource specified by a complete FTP or HTTP URL.
 old-location: wininet\internetopenurl.htm
 old-project: WinInet
 ms.assetid: 73f969c3-3fa7-43f5-88c5-ba78e59a8d1c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetOpenUrl, InternetOpenUrl function [WinINet], InternetOpenUrlA, InternetOpenUrlW, _inet_internetopenurl_function, wininet.internetopenurl, wininet/InternetOpenUrl, wininet/InternetOpenUrlA, wininet/InternetOpenUrlW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

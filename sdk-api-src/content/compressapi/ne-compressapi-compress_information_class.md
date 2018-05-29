@@ -1,16 +1,16 @@
 ---
 UID: NE:compressapi.COMPRESS_INFORMATION_CLASS
 title: COMPRESS_INFORMATION_CLASS
-author: windows-driver-content
+author: windows-sdk-content
 description: The values of this enumeration identify the type of information class being set or retrieved.
 old-location: cmpapi\compress_information_class.htm
 old-project: cmpapi
 ms.assetid: ebdcbe03-b7fb-4dec-b906-086f8fe9be4c
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: COMPRESS_INFORMATION_CLASS, COMPRESS_INFORMATION_CLASS enumeration [Compression API], COMPRESS_INFORMATION_CLASS_BLOCK_SIZE, COMPRESS_INFORMATION_CLASS_INVALID, COMPRESS_INFORMATION_CLASS_LEVEL, cmpapi.compress_information_class, compressapi/COMPRESS_INFORMATION_CLASS, compressapi/COMPRESS_INFORMATION_CLASS_BLOCK_SIZE, compressapi/COMPRESS_INFORMATION_CLASS_INVALID, compressapi/COMPRESS_INFORMATION_CLASS_LEVEL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: compressapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:textstor.ITextStoreAnchor
 title: ITextStoreAnchor
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStoreAnchor interface is implemented by a Microsoft Active Accessibility client and is used by the TSF manager to manipulate text streams.
 old-location: tsf\itextstoreanchor.htm
 old-project: TSF
 ms.assetid: 62730a6d-4dc8-4207-9818-ab95e6537854
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreAnchor, ITextStoreAnchor interface [Text Services Framework], ITextStoreAnchor interface [Text Services Framework],described, _tsf_itextstoreanchor_ref, textstor/ITextStoreAnchor, tsf.itextstoreanchor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: textstor.h
 req.include-header: 

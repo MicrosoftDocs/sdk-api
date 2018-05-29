@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.GetBestRoute2
 title: GetBestRoute2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IP route entry on the local computer for the best route to the specified destination IP address.
 old-location: iphlp\getbestroute2.htm
 old-project: IpHlp
 ms.assetid: 7bc16824-c98f-4cd5-a589-e198b48b637c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetBestRoute2, GetBestRoute2 function [IP Helper], iphlp.getbestroute2, netioapi/GetBestRoute2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

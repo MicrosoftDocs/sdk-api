@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.SetCriticalSectionSpinCount
 title: SetCriticalSectionSpinCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the spin count for the specified critical section.
 old-location: base\setcriticalsectionspincount.htm
 old-project: Sync
 ms.assetid: 4d435c70-2e9b-4923-8726-9c8143dceb15
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetCriticalSectionSpinCount, SetCriticalSectionSpinCount function, _win32_setcriticalsectionspincount, base.setcriticalsectionspincount, synchapi/SetCriticalSectionSpinCount, winbase/SetCriticalSectionSpinCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

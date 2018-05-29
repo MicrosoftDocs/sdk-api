@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capFileSaveAs
 title: capFileSaveAs macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capFileSaveAs macro copies the contents of the capture file to another file. You can use this macro or explicitly call the WM_CAP_FILE_SAVEAS message.
 old-location: multimedia\capfilesaveas.htm
 old-project: Multimedia
 ms.assetid: 164bb345-c092-4adb-8f0f-83e31d36390f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capFileSaveAs, capFileSaveAs, capFileSaveAs macro [Windows Multimedia], multimedia.capfilesaveas, vfw/capFileSaveAs"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

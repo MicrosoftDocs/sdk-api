@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.get_HorizontalLocked
 title: IAMAnalogVideoDecoder::get_HorizontalLocked
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_HorizontalLocked method determines whether the horizontal sync is locked.
 old-location: dshow\iamanalogvideodecoder_get_horizontallocked.htm
 old-project: DirectShow
 ms.assetid: c3923440-8770-42f1-a8f3-afa2e8a512d5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],get_HorizontalLocked method, IAMAnalogVideoDecoder.get_HorizontalLocked, IAMAnalogVideoDecoder::get_HorizontalLocked, IAMAnalogVideoDecoderget_HorizontalLocked, dshow.iamanalogvideodecoder_get_horizontallocked, get_HorizontalLocked, get_HorizontalLocked method [DirectShow], get_HorizontalLocked method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::get_HorizontalLocked
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

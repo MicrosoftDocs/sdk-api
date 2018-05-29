@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.DeleteProcThreadAttributeList
 title: DeleteProcThreadAttributeList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the specified list of attributes for process and thread creation.
 old-location: base\deleteprocthreadattributelist.htm
 old-project: ProcThread
 ms.assetid: 806326c8-2f1e-4ab8-a6f6-f84763ddc31f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DeleteProcThreadAttributeList, DeleteProcThreadAttributeList function, base.deleteprocthreadattributelist, processthreadsapi/DeleteProcThreadAttributeList, winbase/DeleteProcThreadAttributeList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

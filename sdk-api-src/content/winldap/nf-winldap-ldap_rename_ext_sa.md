@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_rename_ext_sA
 title: ldap_rename_ext_sA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ldap_rename_ext_s function is a synchronous operation that changes the distinguished name of an entry in the directory. This function is available effective with LDAP 3.
 old-location: ldap\ldap_rename_ext_s.htm
 old-project: LDAP
 ms.assetid: 85a605f9-d075-4b1d-bfcb-a75c9e7f3023
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_rename_ext_s, ldap.ldap__rename__ext__s, ldap.ldap_rename_ext_s, ldap_rename_ext_s, ldap_rename_ext_s function [LDAP], ldap_rename_ext_sA, ldap_rename_ext_sW, winldap/ldap_rename_ext_s, winldap/ldap_rename_ext_sA, winldap/ldap_rename_ext_sW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_FREE_PRIVATE_HEAP
 title: LSA_FREE_PRIVATE_HEAP
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees memory that was allocated by using the AllocatePrivateHeap function.
 old-location: security\freeprivateheap.htm
 old-project: SecAuthN
 ms.assetid: f1ca1450-c59c-4c0f-b68b-373f1a7c70da
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: FreePrivateHeap, FreePrivateHeap function [Security], LSA_FREE_PRIVATE_HEAP, ntsecpkg/FreePrivateHeap, security.freeprivateheap
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

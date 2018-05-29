@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneSetGain
 title: phoneSetGain function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneSetGain function sets the gain of the microphone of the specified hookswitch device to the specified gain level.
 old-location: tapi2\phonesetgain.htm
 old-project: Tapi
 ms.assetid: 24e6047c-ca70-4e97-acb5-37647c5306c3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phonesetgain, phoneSetGain, phoneSetGain function [TAPI 2.2], tapi/phoneSetGain, tapi2.phonesetgain"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

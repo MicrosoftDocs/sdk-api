@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint
 title: ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets all the elements in a unordered-access view to the specified integer values.
 old-location: direct3d12\id3d12graphicscommandlist_clearunorderedaccessviewuint.htm
 old-project: direct3d12
 ms.assetid: A048BF0C-9141-4DDF-91F9-B53464033A44
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ClearUnorderedAccessViewUint, ClearUnorderedAccessViewUint method, ClearUnorderedAccessViewUint method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearUnorderedAccessViewUint method, ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint, ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint, d3d12/ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint, direct3d12.id3d12graphicscommandlist_clearunorderedaccessviewuint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

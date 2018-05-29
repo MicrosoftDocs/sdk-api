@@ -1,16 +1,16 @@
 ---
 UID: NE:mbnapi.MBN_PROVIDER_STATE
 title: MBN_PROVIDER_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: The MBN_PROVIDER_STATE enumerated type specifies the various states with which a provider entry can be tagged.
 old-location: mbn\mbn_provider_state.htm
 old-project: mbn
 ms.assetid: c9bbda5d-96bc-410c-afac-eba3e5bd23ee
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_PROVIDER_STATE, MBN_PROVIDER_STATE enumeration [Microsoft Broadband Networks], MBN_PROVIDER_STATE_FORBIDDEN, MBN_PROVIDER_STATE_HOME, MBN_PROVIDER_STATE_NONE, MBN_PROVIDER_STATE_PREFERRED, MBN_PROVIDER_STATE_PREFERRED_MULTICARRIER, MBN_PROVIDER_STATE_REGISTERED, MBN_PROVIDER_STATE_VISIBLE, mbn.mbn_provider_state, mbnapi/MBN_PROVIDER_STATE, mbnapi/MBN_PROVIDER_STATE_FORBIDDEN, mbnapi/MBN_PROVIDER_STATE_HOME, mbnapi/MBN_PROVIDER_STATE_NONE, mbnapi/MBN_PROVIDER_STATE_PREFERRED, mbnapi/MBN_PROVIDER_STATE_PREFERRED_MULTICARRIER, mbnapi/MBN_PROVIDER_STATE_REGISTERED, mbnapi/MBN_PROVIDER_STATE_VISIBLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mbnapi.h
 req.include-header: 

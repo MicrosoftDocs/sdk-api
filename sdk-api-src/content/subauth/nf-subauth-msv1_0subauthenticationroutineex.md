@@ -1,16 +1,16 @@
 ---
 UID: NF:subauth.Msv1_0SubAuthenticationRoutineEx
 title: Msv1_0SubAuthenticationRoutineEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs Remote Access Service authentication when subauthentication is requested by calling the LogonUser function.
 old-location: security\msv1_0subauthenticationroutineex.htm
 old-project: SecAuthN
 ms.assetid: 063EC7B4-45AB-436B-9158-07C742BF3D98
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MSV1_0_GUEST_LOGON, MSV1_0_PASSTHRU, Msv1_0SubAuthenticationRoutineEx, Msv1_0SubAuthenticationRoutineEx function [Security], security.msv1_0subauthenticationroutineex, subauth/Msv1_0SubAuthenticationRoutineEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: subauth.h
 req.include-header: 

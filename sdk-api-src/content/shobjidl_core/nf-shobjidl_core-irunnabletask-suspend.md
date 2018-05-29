@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IRunnableTask.Suspend
 title: IRunnableTask::Suspend
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests that a task be suspended.
 old-location: shell\IRunnableTask_Suspend.htm
 old-project: shell
 ms.assetid: f376d8e7-65d2-4824-a20f-e8604295df3f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Suspend method, IRunnableTask.Suspend, IRunnableTask::Suspend, Suspend, Suspend method [Windows Shell], Suspend method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Suspend, shell.IRunnableTask_Suspend, shobjidl_core/IRunnableTask::Suspend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

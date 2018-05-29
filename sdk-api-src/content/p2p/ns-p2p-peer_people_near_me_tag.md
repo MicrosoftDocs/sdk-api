@@ -1,16 +1,16 @@
 ---
 UID: NS:p2p.peer_people_near_me_tag
 title: peer_people_near_me_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a peer in the same logical or virtual subnet.
 old-location: p2p\peer_people_near_me.htm
 old-project: P2PSdk
 ms.assetid: 15dae06d-0f44-4e7d-b146-6fcd7cc6912e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*PPEER_PEOPLE_NEAR_ME, PCPEER_PEOPLE_NEAR_ME, PCPEER_PEOPLE_NEAR_ME structure pointer [Peer Networking], PEER_PEOPLE_NEAR_ME, PEER_PEOPLE_NEAR_ME structure [Peer Networking], PPEER_PEOPLE_NEAR_ME, PPEER_PEOPLE_NEAR_ME structure pointer [Peer Networking], PPPEER_PEOPLE_NEAR_ME, PPPEER_PEOPLE_NEAR_ME structure pointer [Peer Networking], p2p.peer_people_near_me, p2p/PCPEER_PEOPLE_NEAR_ME, p2p/PEER_PEOPLE_NEAR_ME, p2p/PPEER_PEOPLE_NEAR_ME, p2p/PPPEER_PEOPLE_NEAR_ME, peer_people_near_me_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: p2p.h
 req.include-header: 

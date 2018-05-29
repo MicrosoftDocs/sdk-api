@@ -1,16 +1,16 @@
 ---
 UID: NE:msctf.__MIDL_ITfTextLayoutSink_0001
 title: "__MIDL_ITfTextLayoutSink_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Elements of the TfLayoutCode enumeration specify the type of layout change in an ITfTextLayoutSink::OnLayoutChange notification.
 old-location: tsf\tflayoutcode.htm
 old-project: TSF
 ms.assetid: b9ff6d11-68f2-47c5-b8d7-b3bc2533fdbb
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TF_LC_CHANGE, TF_LC_CREATE, TF_LC_DESTROY, TfLayoutCode, TfLayoutCode enumeration [Text Services Framework], __MIDL_ITfTextLayoutSink_0001, _tsf_tflayoutcode_ref, msctf/TF_LC_CHANGE, msctf/TF_LC_CREATE, msctf/TF_LC_DESTROY, msctf/TfLayoutCode, tsf.tflayoutcode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msctf.h
 req.include-header: 

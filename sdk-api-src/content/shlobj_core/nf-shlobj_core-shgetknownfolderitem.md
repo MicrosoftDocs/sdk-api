@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHGetKnownFolderItem
 title: SHGetKnownFolderItem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IShellItem object that represents a known folder.
 old-location: shell\SHGetKnownFolderItem.htm
 old-project: shell
 ms.assetid: d0880a8c-20dd-47cc-b6c5-23dedb32d453
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGetKnownFolderItem, SHGetKnownFolderItem function [Windows Shell], _shell_SHGetKnownFolderItem, shell.SHGetKnownFolderItem, shlobj_core/SHGetKnownFolderItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleInPlaceObject.SetObjectRects
 title: IOleInPlaceObject::SetObjectRects
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how much of the in-place object is to be visible.
 old-location: com\ioleinplaceobject_setobjectrects.htm
 old-project: com
 ms.assetid: 5ae2e44b-d2e2-4351-b4fa-8c37419a2bcb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleInPlaceObject interface [COM],SetObjectRects method, IOleInPlaceObject.SetObjectRects, IOleInPlaceObject::SetObjectRects, SetObjectRects, SetObjectRects method [COM], SetObjectRects method [COM],IOleInPlaceObject interface, _ole_ioleinplaceobject_setobjectrects, com.ioleinplaceobject_setobjectrects, oleidl/IOleInPlaceObject::SetObjectRects
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

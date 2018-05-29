@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfThreadMgrEventSink.OnPopContext
 title: ITfThreadMgrEventSink::OnPopContext
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfThreadMgrEventSink::OnPopContext method
 old-location: tsf\itfthreadmgreventsink_onpopcontext.htm
 old-project: TSF
 ms.assetid: de07d7cf-db91-44e0-a0b2-4de26262552f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfThreadMgrEventSink interface [Text Services Framework],OnPopContext method, ITfThreadMgrEventSink.OnPopContext, ITfThreadMgrEventSink::OnPopContext, OnPopContext, OnPopContext method [Text Services Framework], OnPopContext method [Text Services Framework],ITfThreadMgrEventSink interface, _tsf_itfthreadmgreventsink_onpopcontext_ref, msctf/ITfThreadMgrEventSink::OnPopContext, tsf.itfthreadmgreventsink_onpopcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

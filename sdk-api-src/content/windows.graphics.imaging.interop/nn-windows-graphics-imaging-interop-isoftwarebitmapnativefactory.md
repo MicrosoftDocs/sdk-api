@@ -1,16 +1,16 @@
 ---
 UID: NN:windows.graphics.imaging.interop.ISoftwareBitmapNativeFactory
 title: ISoftwareBitmapNativeFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates instances of ISoftwareBitmapNative.
 old-location: winrt\isoftwarebitmapnativefactory.htm
 old-project: WinRT
 ms.assetid: 613BFE81-AC55-4786-B6BD-0FFB7506D7F1
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: ISoftwareBitmapNativeFactory, ISoftwareBitmapNativeFactory interface [Windows Runtime], ISoftwareBitmapNativeFactory interface [Windows Runtime],described, windows/ISoftwareBitmapNativeFactory, winrt.isoftwarebitmapnativefactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 

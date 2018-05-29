@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineGetGroupListA
 title: lineGetGroupListA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineGetGroupList function returns a list of ACD groups available on the ACD system.
 old-location: tapi2\linegetgrouplist.htm
 old-project: Tapi
 ms.assetid: 3e1d63e2-f87d-41ed-92ba-fe3bbdade8d3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linegetgrouplist, lineGetGroupList, lineGetGroupList function [TAPI 2.2], lineGetGroupListA, lineGetGroupListW, tapi/lineGetGroupList, tapi/lineGetGroupListA, tapi/lineGetGroupListW, tapi2.linegetgrouplist"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

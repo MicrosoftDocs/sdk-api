@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngMovePointer
 title: EngMovePointer function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngMovePointer function moves the engine-managed pointer on the device.
 old-location: display\engmovepointer.htm
 old-project: display
 ms.assetid: 6f427839-034e-46c3-a3b0-703a003af1e4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngMovePointer, EngMovePointer function [Display Devices], display.engmovepointer, gdifncs_2499e137-74e8-4624-8595-65d4fb489973.xml, winddi/EngMovePointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

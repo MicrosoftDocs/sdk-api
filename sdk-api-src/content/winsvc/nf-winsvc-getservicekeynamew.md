@@ -1,16 +1,16 @@
 ---
 UID: NF:winsvc.GetServiceKeyNameW
 title: GetServiceKeyNameW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the service name of the specified service.
 old-location: base\getservicekeyname.htm
 old-project: Services
 ms.assetid: d2421566-de4a-49e5-bb41-ea98c6f6d19d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetServiceKeyName, GetServiceKeyName function, GetServiceKeyNameA, GetServiceKeyNameW, _win32_getservicekeyname, base.getservicekeyname, winsvc/GetServiceKeyName, winsvc/GetServiceKeyNameA, winsvc/GetServiceKeyNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

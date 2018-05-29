@@ -1,16 +1,16 @@
 ---
 UID: NE:minidumpapiset._MINIDUMP_TYPE
 title: "_MINIDUMP_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the type of information that will be written to the minidump file by the MiniDumpWriteDump function.
 old-location: base\minidump_type.htm
 old-project: Debug
 ms.assetid: 89ae3a75-5f02-4c5e-9d72-95fb8ef94985
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: MINIDUMP_TYPE, MINIDUMP_TYPE enumeration, MiniDumpFilterMemory, MiniDumpFilterModulePaths, MiniDumpFilterTriage, MiniDumpIgnoreInaccessibleMemory, MiniDumpNormal, MiniDumpScanMemory, MiniDumpValidTypeFlags, MiniDumpWithCodeSegs, MiniDumpWithDataSegs, MiniDumpWithFullAuxiliaryState, MiniDumpWithFullMemory, MiniDumpWithFullMemoryInfo, MiniDumpWithHandleData, MiniDumpWithIndirectlyReferencedMemory, MiniDumpWithModuleHeaders, MiniDumpWithPrivateReadWriteMemory, MiniDumpWithPrivateWriteCopyMemory, MiniDumpWithProcessThreadData, MiniDumpWithThreadInfo, MiniDumpWithTokenInformation, MiniDumpWithUnloadedModules, MiniDumpWithoutAuxiliaryState, MiniDumpWithoutOptionalData, _MINIDUMP_TYPE, _win32_minidump_type, base.minidump_type, minidumpapiset/MINIDUMP_TYPE, minidumpapiset/MiniDumpFilterMemory, minidumpapiset/MiniDumpFilterModulePaths, minidumpapiset/MiniDumpFilterTriage, minidumpapiset/MiniDumpIgnoreInaccessibleMemory, minidumpapiset/MiniDumpNormal, minidumpapiset/MiniDumpScanMemory, minidumpapiset/MiniDumpValidTypeFlags, minidumpapiset/MiniDumpWithCodeSegs, minidumpapiset/MiniDumpWithDataSegs, minidumpapiset/MiniDumpWithFullAuxiliaryState, minidumpapiset/MiniDumpWithFullMemory, minidumpapiset/MiniDumpWithFullMemoryInfo, minidumpapiset/MiniDumpWithHandleData, minidumpapiset/MiniDumpWithIndirectlyReferencedMemory, minidumpapiset/MiniDumpWithModuleHeaders, minidumpapiset/MiniDumpWithPrivateReadWriteMemory, minidumpapiset/MiniDumpWithPrivateWriteCopyMemory, minidumpapiset/MiniDumpWithProcessThreadData, minidumpapiset/MiniDumpWithThreadInfo, minidumpapiset/MiniDumpWithTokenInformation, minidumpapiset/MiniDumpWithUnloadedModules, minidumpapiset/MiniDumpWithoutAuxiliaryState, minidumpapiset/MiniDumpWithoutOptionalData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

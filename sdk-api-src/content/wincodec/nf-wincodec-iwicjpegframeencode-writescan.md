@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICJpegFrameEncode.WriteScan
 title: IWICJpegFrameEncode::WriteScan
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes scan data to a JPEG frame.
 old-location: wic\iwicjpegframeencode_writescan.htm
 old-project: wic
 ms.assetid: FED02403-E696-4988-BFB6-F1E37D9FA5F1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICJpegFrameEncode interface [Windows Imaging Component],WriteScan method, IWICJpegFrameEncode.WriteScan, IWICJpegFrameEncode::WriteScan, WriteScan, WriteScan method [Windows Imaging Component], WriteScan method [Windows Imaging Component],IWICJpegFrameEncode interface, wic.iwicjpegframeencode_writescan, wincodec/IWICJpegFrameEncode::WriteScan
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

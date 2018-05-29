@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextStory.GetProperty
 title: ITextStory::GetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the value of the specified property.
 old-location: controls\itextstory_getproperty.htm
 old-project: Controls
 ms.assetid: 1c24e9d8-c737-42f8-87d9-585b0054b6df
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetProperty method, ITextStory.GetProperty, ITextStory::GetProperty, controls.itextstory_getproperty, tom/ITextStory::GetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

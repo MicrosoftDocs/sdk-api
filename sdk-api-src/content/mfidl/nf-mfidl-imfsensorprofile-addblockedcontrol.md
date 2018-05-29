@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorProfile.AddBlockedControl
 title: IMFSensorProfile::AddBlockedControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the specified blocked control .
 old-location: mf\imfsensorprofile_addblockedcontrol.htm
 old-project: medfound
 ms.assetid: 1D1EAD84-5053-47B2-9366-EEBE8681970F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddBlockedControl, AddBlockedControl method [Media Foundation], AddBlockedControl method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],AddBlockedControl method, IMFSensorProfile.AddBlockedControl, IMFSensorProfile::AddBlockedControl, mf.imfsensorprofile_addblockedcontrol, mfidl/IMFSensorProfile::AddBlockedControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:msdrmdefs._DRMBOUNDLICENSEPARAMS
 title: "_DRMBOUNDLICENSEPARAMS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by DRMCreateBoundLicense to bind to a license.
 old-location: rm\drmboundlicenseparams.htm
 old-project: AdRms_Sdk
 ms.assetid: 25820f49-ffa8-40c4-87fc-ce4909ec20ed
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMBINDINGFLAGS_IGNORE_VALIDITY_INTERVALS, DRMBOUNDLICENSEPARAMS, DRMBOUNDLICENSEPARAMS structure [Active Directory Rights Management Services SDK 1.0], _DRMBOUNDLICENSEPARAMS, msdrmdefs/DRMBOUNDLICENSEPARAMS, rm.drmboundlicenseparams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msdrmdefs.h
 req.include-header: 

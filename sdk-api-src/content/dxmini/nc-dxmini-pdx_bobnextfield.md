@@ -1,16 +1,16 @@
 ---
 UID: NC:dxmini.PDX_BOBNEXTFIELD
 title: PDX_BOBNEXTFIELD
-author: windows-driver-content
+author: windows-sdk-content
 description: The DxBobNextField callback function bobs the next field of interleaved data.
 old-location: display\dxbobnextfield.htm
 old-project: display
 ms.assetid: 5daafc0c-2a6d-45e2-8403-d54cb383b3b7
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DxBobNextField, DxBobNextField callback function [Display Devices], PDX_BOBNEXTFIELD, PDX_BOBNEXTFIELD callback, VideoMiniPort_DxApiFunctions_d95db457-005d-4eee-a110-19159f64008b.xml, display.dxbobnextfield, dxmini/DxBobNextField
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: dxmini.h
 req.include-header: Dxmini.h

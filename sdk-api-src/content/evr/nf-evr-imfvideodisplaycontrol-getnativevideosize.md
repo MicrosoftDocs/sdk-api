@@ -1,16 +1,16 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetNativeVideoSize
 title: IMFVideoDisplayControl::GetNativeVideoSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the size and aspect ratio of the video, prior to any stretching by the video renderer.
 old-location: mf\imfvideodisplaycontrol_getnativevideosize.htm
 old-project: medfound
 ms.assetid: 12630035-dd07-44bd-98f7-79974c9cc58b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 12630035-dd07-44bd-98f7-79974c9cc58b, GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetNativeVideoSize method, IMFVideoDisplayControl.GetNativeVideoSize, IMFVideoDisplayControl::GetNativeVideoSize, evr/IMFVideoDisplayControl::GetNativeVideoSize, mf.imfvideodisplaycontrol_getnativevideosize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: evr.h
 req.include-header: 

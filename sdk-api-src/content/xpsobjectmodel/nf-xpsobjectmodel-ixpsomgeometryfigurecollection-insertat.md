@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigureCollection.InsertAt
 title: IXpsOMGeometryFigureCollection::InsertAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts an IXpsOMGeometryFigure interface pointer at a specified location in the collection.
 old-location: xps\ixpsomgeometryfigurecollection_insertat.htm
 old-project: printdocs
 ms.assetid: 1d550f36-ef0a-4a01-9c40-83e022634f73
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMGeometryFigureCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMGeometryFigureCollection.InsertAt, IXpsOMGeometryFigureCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMGeometryFigureCollection interface, xps.ixpsomgeometryfigurecollection_insertat, xpsobjectmodel/IXpsOMGeometryFigureCollection::InsertAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

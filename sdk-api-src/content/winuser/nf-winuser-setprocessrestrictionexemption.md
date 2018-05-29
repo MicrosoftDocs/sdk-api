@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.SetProcessRestrictionExemption
 title: SetProcessRestrictionExemption function
-author: windows-driver-content
+author: windows-sdk-content
 description: Exempts the calling process from restrictions preventing desktop processes from interacting with the Windows Store app environment. This function is used by development and debugging tools.
 old-location: base\setprocessrestrictionexemption.htm
 old-project: ProcThread
 ms.assetid: CC7EE5D7-ADFC-4859-88F8-C5C21AEBF315
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetProcessRestrictionExemption, SetProcessRestrictionExemption function, base.setprocessrestrictionexemption, winuser/SetProcessRestrictionExemption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

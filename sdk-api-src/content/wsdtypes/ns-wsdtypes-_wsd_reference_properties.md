@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_REFERENCE_PROPERTIES
 title: "_WSD_REFERENCE_PROPERTIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies additional data used to uniquely identify an endpoint.
 old-location: ncd\wsd_reference_properties_struct.htm
 old-project: WsdApi
 ms.assetid: 7573683c-e02c-488d-be2f-f549113e78d9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_REFERENCE_PROPERTIES, WSD_REFERENCE_PROPERTIES structure, _WSD_REFERENCE_PROPERTIES, ncd.wsd_reference_properties_struct, wsdtypes/WSD_REFERENCE_PROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

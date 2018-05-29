@@ -1,16 +1,16 @@
 ---
 UID: NE:wbemcli.tag_WBEM_TIMEOUT_TYPE
 title: tag_WBEM_TIMEOUT_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values used to specify the timeout for the IEnumWbemClassObject::Next method.
 old-location: wmi\wbem_timeout_type.htm
 old-project: WmiSdk
 ms.assetid: 5A4E800A-7CA2-42D0-AF40-DA18171B3DB8
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: WBEM_INFINITE, WBEM_NO_WAIT, WBEM_TIMEOUT_TYPE, WBEM_TIMEOUT_TYPE enumeration [Windows Management Instrumentation], tag_WBEM_TIMEOUT_TYPE, wbemcli/WBEM_INFINITE, wbemcli/WBEM_NO_WAIT, wbemcli/WBEM_TIMEOUT_TYPE, wmi.wbem_timeout_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wbemcli.h
 req.include-header: 

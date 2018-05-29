@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.ISyncKnowledge
 title: ISyncKnowledge
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents knowledge that a replica has about its item store.
 old-location: winsync\isyncknowledge.htm
 old-project: winsync
 ms.assetid: cfb08476-7b5d-4953-b723-5160330e57be
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncKnowledge, ISyncKnowledge interface [Windows Sync], ISyncKnowledge interface [Windows Sync],described, winsync.isyncknowledge, winsync/ISyncKnowledge
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

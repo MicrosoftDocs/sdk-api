@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.End
 title: IMFASFMultiplexer::End
-author: windows-driver-content
+author: windows-sdk-content
 description: Collects data from the multiplexer and updates the ASF ContentInfo object to include that information in the ASF Header Object.
 old-location: mf\imfasfmultiplexer_end.htm
 old-project: medfound
 ms.assetid: 2a106ea5-976a-40df-a554-1b76d9a07286
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 2a106ea5-976a-40df-a554-1b76d9a07286, End, End method [Media Foundation], End method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],End method, IMFASFMultiplexer.End, IMFASFMultiplexer::End, mf.imfasfmultiplexer_end, wmcontainer/IMFASFMultiplexer::End
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

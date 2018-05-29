@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhGetDataSourceTimeRangeH
 title: PdhGetDataSourceTimeRangeH function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the time range, number of entries and, if applicable, the size of the buffer containing the performance data from the specified input source.This function is identical to the PdhGetDataSourceTimeRange function, except that it supports the use of handles to data sources.
 old-location: perf\pdhgetdatasourcetimerangeh.htm
 old-project: PerfCtrs
 ms.assetid: 55cfef46-999d-43fa-9b09-9d8916fbf755
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PdhGetDataSourceTimeRangeH, PdhGetDataSourceTimeRangeH function [Perf], _win32_pdhgetdatasourcetimerangeh, base.pdhgetdatasourcetimerangeh, pdh/PdhGetDataSourceTimeRangeH, perf.pdhgetdatasourcetimerangeh
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

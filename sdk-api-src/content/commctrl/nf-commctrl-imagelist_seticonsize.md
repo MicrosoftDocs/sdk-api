@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ImageList_SetIconSize
 title: ImageList_SetIconSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the dimensions of images in an image list and removes all images from the list.
 old-location: controls\ImageList_SetIconSize.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_seticonsize.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ImageList_SetIconSize, ImageList_SetIconSize function [Windows Controls], _win32_ImageList_SetIconSize, _win32_ImageList_SetIconSize_cpp, commctrl/ImageList_SetIconSize, controls.ImageList_SetIconSize, controls._win32_ImageList_SetIconSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

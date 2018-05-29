@@ -1,16 +1,16 @@
 ---
 UID: NF:provider.Provider.ValidatePutInstanceFlags
 title: Provider::ValidatePutInstanceFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: The ValidatePutInstanceFlags method determines whether a set of flags is valid for an instance update operation.
 old-location: wmi\provider_validateputinstanceflags.htm
 old-project: WmiSdk
 ms.assetid: dd7a480e-9569-45ed-a46d-218c1a9cf2db
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?ValidatePutInstanceFlags@Provider@@MAEJJ@Z, ?ValidatePutInstanceFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidatePutInstanceFlags method, Provider.ValidatePutInstanceFlags, Provider::ValidatePutInstanceFlags, ValidatePutInstanceFlags, ValidatePutInstanceFlags method [Windows Management Instrumentation], ValidatePutInstanceFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validateputinstanceflags, provider/Provider::ValidatePutInstanceFlags, wmi.provider_validateputinstanceflags"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

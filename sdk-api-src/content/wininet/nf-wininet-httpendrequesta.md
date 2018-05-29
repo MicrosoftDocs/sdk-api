@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.HttpEndRequestA
 title: HttpEndRequestA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Ends an HTTP request that was initiated by HttpSendRequestEx.
 old-location: wininet\httpendrequest.htm
 old-project: WinInet
 ms.assetid: 6ea91da6-0bc2-49b6-a56b-c4224ad73b81
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HttpEndRequest, HttpEndRequest function [WinINet], HttpEndRequestA, HttpEndRequestW, _win32_httpendrequest, wininet.httpendrequest, wininet/HttpEndRequest, wininet/HttpEndRequestA, wininet/HttpEndRequestW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

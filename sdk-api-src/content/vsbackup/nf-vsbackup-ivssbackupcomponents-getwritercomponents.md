@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GetWriterComponents
 title: IVssBackupComponents::GetWriterComponents
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetWriterComponents method is used to return information about those components of a given writer that have been stored in a requester's Backup Components Document.
 old-location: base\ivssbackupcomponents_getwritercomponents.htm
 old-project: VSS
 ms.assetid: b99e7e41-1c88-462c-b6d8-734f7a6e24d4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetWriterComponents, GetWriterComponents method [VSS], GetWriterComponents method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterComponents method, IVssBackupComponents.GetWriterComponents, IVssBackupComponents::GetWriterComponents, _win32_ivssbackupcomponents_getwritercomponents, base.ivssbackupcomponents_getwritercomponents, vsbackup/IVssBackupComponents::GetWriterComponents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

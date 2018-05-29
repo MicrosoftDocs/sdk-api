@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBufferList.GetSourceBuffer
 title: IMFSourceBufferList::GetSourceBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IMFSourceBuffer at the specified index in the list.
 old-location: mf\imfsourcebufferlist_getsourcebuffer.htm
 old-project: medfound
 ms.assetid: 7f756c2e-79d0-400b-a84a-bc0e268f4f5b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSourceBuffer, GetSourceBuffer method [Media Foundation], GetSourceBuffer method [Media Foundation],IMFSourceBufferList interface, IMFSourceBufferList interface [Media Foundation],GetSourceBuffer method, IMFSourceBufferList.GetSourceBuffer, IMFSourceBufferList::GetSourceBuffer, mf.imfsourcebufferlist_getsourcebuffer, mfmediaengine/IMFSourceBufferList::GetSourceBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

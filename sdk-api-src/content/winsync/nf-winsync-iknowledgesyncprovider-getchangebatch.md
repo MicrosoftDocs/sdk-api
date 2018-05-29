@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.GetChangeBatch
 title: IKnowledgeSyncProvider::GetChangeBatch
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a change batch that contains item metadata for items that are not contained in the specified knowledge from the destination provider.
 old-location: winsync\iknowledgesyncprovider_getchangebatch.htm
 old-project: winsync
 ms.assetid: 165eb8eb-092c-4084-a296-abc2421596d5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetChangeBatch, GetChangeBatch method [Windows Sync], GetChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],GetChangeBatch method, IKnowledgeSyncProvider.GetChangeBatch, IKnowledgeSyncProvider::GetChangeBatch, winsync.iknowledgesyncprovider_getchangebatch, winsync/IKnowledgeSyncProvider::GetChangeBatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

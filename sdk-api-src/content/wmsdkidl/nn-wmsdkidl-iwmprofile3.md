@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMProfile3
 title: IWMProfile3
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMProfile3 interface provides enhanced features for profiles.
 old-location: wmformat\iwmprofile3.htm
 old-project: wmformat
 ms.assetid: 7942aa81-ada7-4e9c-a261-f257f8f890b7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMProfile3, IWMProfile3 interface [windows Media Format], IWMProfile3 interface [windows Media Format],described, IWMProfile3Interface, wmformat.iwmprofile3, wmsdkidl/IWMProfile3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

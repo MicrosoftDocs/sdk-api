@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.IEnumNetSharingPublicConnection.Skip
 title: IEnumNetSharingPublicConnection::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: The Skip method skips the specified number of publicly-shared connections for this enumeration.
 old-location: ics\ienumnetsharingpublicconnection_skip.htm
 old-project: ICS
 ms.assetid: 25466a29-368b-4970-9995-5272cbca3c0a
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IEnumNetSharingPublicConnection interface [ICS/ICF],Skip method, IEnumNetSharingPublicConnection.Skip, IEnumNetSharingPublicConnection::Skip, Skip, Skip method [ICS/ICF], Skip method [ICS/ICF],IEnumNetSharingPublicConnection interface, _ics_ienumnetsharingpublicconnection_skip, ics.ienumnetsharingpublicconnection_skip, netcon/IEnumNetSharingPublicConnection::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

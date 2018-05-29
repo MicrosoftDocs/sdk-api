@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.GetIfTable
 title: GetIfTable function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetIfTable function retrieves the MIB-II interface table.
 old-location: iphlp\getiftable.htm
 old-project: IpHlp
 ms.assetid: 6a46c1df-b274-415e-b842-fc1adf6fa206
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetIfTable, GetIfTable function [IP Helper], _iphlp_getiftable, iphlp.getiftable, iphlpapi/GetIfTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

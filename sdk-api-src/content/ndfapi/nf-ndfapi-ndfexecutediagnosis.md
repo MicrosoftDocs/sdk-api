@@ -1,16 +1,16 @@
 ---
 UID: NF:ndfapi.NdfExecuteDiagnosis
 title: NdfExecuteDiagnosis function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdfExecuteDiagnosis function is used to diagnose the root cause of the incident that has occurred.
 old-location: ndf\ndfexecutediagnosis.htm
 old-project: NDF
 ms.assetid: b65f30c3-53d5-4282-8d38-5723772f15fc
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NdfExecuteDiagnosis, NdfExecuteDiagnosis function [NDF], ndf.ndfexecutediagnosis, ndfapi/NdfExecuteDiagnosis
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

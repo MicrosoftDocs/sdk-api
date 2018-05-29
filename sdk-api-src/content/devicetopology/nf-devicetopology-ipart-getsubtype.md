@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IPart.GetSubType
 title: IPart::GetSubType
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSubType method gets the part subtype of this part.
 old-location: coreaudio\ipart_getsubtype.htm
 old-project: CoreAudio
 ms.assetid: 456aaafb-1e68-4a3a-b27b-c6f6f89dc17b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSubType, GetSubType method [Core Audio], GetSubType method [Core Audio],IPart interface, IPart interface [Core Audio],GetSubType method, IPart.GetSubType, IPart::GetSubType, IPartGetSubType, coreaudio.ipart_getsubtype, devicetopology/IPart::GetSubType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

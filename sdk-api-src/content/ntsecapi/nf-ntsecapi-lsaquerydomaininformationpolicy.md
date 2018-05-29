@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaQueryDomainInformationPolicy
 title: LsaQueryDomainInformationPolicy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves domain information from the Policy object.
 old-location: security\lsaquerydomaininformationpolicy.htm
 old-project: SecAuthN
 ms.assetid: 39a511d7-46fc-4d12-ba43-771f6db2a33b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaQueryDomainInformationPolicy, LsaQueryDomainInformationPolicy function [Security], PolicyDomainEfsInformation, PolicyDomainKerberosTicketInformation, ntsecapi/LsaQueryDomainInformationPolicy, security.lsaquerydomaininformationpolicy, security.lsaquerydomaininformationpolicy_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

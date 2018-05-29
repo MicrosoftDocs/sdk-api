@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.GetViewWindow
 title: IBrowserService2::GetViewWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Provides direct access to the browser view window created by IBrowserService2::CreateViewWindow.
 old-location: shell\IBrowserService2_GetViewWindow.htm
 old-project: shell
 ms.assetid: ec0b2304-cbcb-49ac-aca0-780f1e5205ad
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetViewWindow, GetViewWindow method [Windows Shell], GetViewWindow method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],GetViewWindow method, IBrowserService2.GetViewWindow, IBrowserService2::GetViewWindow, shdeprecated/IBrowserService2::GetViewWindow, shell.IBrowserService2_GetViewWindow, zone_IBrowserService2_GetViewWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

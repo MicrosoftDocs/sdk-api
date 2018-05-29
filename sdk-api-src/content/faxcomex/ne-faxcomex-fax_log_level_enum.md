@@ -1,16 +1,16 @@
 ---
 UID: NE:faxcomex.FAX_LOG_LEVEL_ENUM
 title: FAX_LOG_LEVEL_ENUM
-author: windows-driver-content
+author: windows-sdk-content
 description: The FAX_LOG_LEVEL_ENUM enumeration defines the event logging levels for a logging category.
 old-location: fax\_mfax_fax_log_level_enum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7u3x.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FAX_LOG_LEVEL_ENUM, FAX_LOG_LEVEL_ENUM enumeration [Fax Service], _mfax_fax_log_level_enum, fax._mfax_fax_log_level_enum, faxcomex/FAX_LOG_LEVEL_ENUM, faxcomex/fllMAX, faxcomex/fllMED, faxcomex/fllMIN, faxcomex/fllNONE, fllMAX, fllMED, fllMIN, fllNONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 

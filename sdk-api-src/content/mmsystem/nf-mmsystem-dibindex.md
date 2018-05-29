@@ -1,16 +1,16 @@
 ---
 UID: NF:mmsystem.DIBINDEX
 title: DIBINDEX macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The DIBINDEX macro takes an index to an entry in a DIB color table and returns a COLORREF value that specifies the color associated with the given index.
 old-location: gdi\dibindex.htm
 old-project: gdi
 ms.assetid: a1c2274e-ddcb-4e11-af70-9f79210d2d5f
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DIBINDEX, DIBINDEX macro [Windows GDI], _win32_DIBINDEX, gdi.dibindex, mmsystem/DIBINDEX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: mmsystem.h
 req.include-header: Windows.h

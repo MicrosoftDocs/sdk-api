@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3ds.ITAMMediaFormat.put_MediaFormat
 title: ITAMMediaFormat::put_MediaFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_MediaFormat method sets the media format.
 old-location: tapi3\itammediaformat_put_mediaformat.htm
 old-project: Tapi
 ms.assetid: 692df069-3016-46a2-9f33-4c709e85be1b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAMMediaFormat interface [TAPI 2.2],put_MediaFormat method, ITAMMediaFormat.put_MediaFormat, ITAMMediaFormat::put_MediaFormat, _tapi3_itammediaformat_put_mediaformat, put_MediaFormat, put_MediaFormat method [TAPI 2.2], put_MediaFormat method [TAPI 2.2],ITAMMediaFormat interface, tapi3.itammediaformat_put_mediaformat, tapi3ds/ITAMMediaFormat::put_MediaFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3ds.h
 req.include-header: Tapi3.h

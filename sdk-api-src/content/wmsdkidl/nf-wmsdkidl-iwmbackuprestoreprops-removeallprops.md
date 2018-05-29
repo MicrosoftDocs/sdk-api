@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.RemoveAllProps
 title: IWMBackupRestoreProps::RemoveAllProps
-author: windows-driver-content
+author: windows-sdk-content
 description: The RemoveAllProps method removes all properties.
 old-location: wmformat\iwmbackuprestoreprops_removeallprops.htm
 old-project: wmformat
 ms.assetid: 2c67eb68-1623-4aaa-abde-8481b77bd568
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMBackupRestoreProps interface [windows Media Format],RemoveAllProps method, IWMBackupRestoreProps.RemoveAllProps, IWMBackupRestoreProps::RemoveAllProps, IWMBackupRestorePropsRemoveAllProps, RemoveAllProps, RemoveAllProps method [windows Media Format], RemoveAllProps method [windows Media Format],IWMBackupRestoreProps interface, wmformat.iwmbackuprestoreprops_removeallprops, wmsdkidl/IWMBackupRestoreProps::RemoveAllProps
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

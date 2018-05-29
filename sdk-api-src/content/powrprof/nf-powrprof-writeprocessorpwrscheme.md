@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.WriteProcessorPwrScheme
 title: WriteProcessorPwrScheme function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes processor power policy settings for the specified power scheme.
 old-location: base\writeprocessorpwrscheme.htm
 old-project: Power
 ms.assetid: 70e18f50-4774-4a7c-8fe0-7fd6a54aaa90
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: WriteProcessorPwrScheme, WriteProcessorPwrScheme function, _win32_writeprocessorpwrscheme, base.writeprocessorpwrscheme, powrprof/WriteProcessorPwrScheme
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

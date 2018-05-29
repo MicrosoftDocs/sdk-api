@@ -1,16 +1,16 @@
 ---
 UID: NS:dinputd.DIHIDFFINITINFO
 title: DIHIDFFINITINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: The DIHIDFFINITINFO structure is used by DirectInput to provide information to a HID force-feedback driver about the device it is being asked to control.
 old-location: hid\dihidffinitinfo.htm
 old-project: hid
 ms.assetid: 7eaf2d1e-f216-4678-9c8f-e6c38f6e4e66
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPDIHIDFFINITINFO, DIHIDFFINITINFO, DIHIDFFINITINFO structure [Human Input Devices], di_ref_2ed2499d-7d1f-4247-be74-ea356144df44.xml, dinputd/DIHIDFFINITINFO, hid.dihidffinitinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: 

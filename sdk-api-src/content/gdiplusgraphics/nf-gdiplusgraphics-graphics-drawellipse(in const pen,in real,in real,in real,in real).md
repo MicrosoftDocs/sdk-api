@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawEllipse(IN const Pen,IN REAL,IN REAL,IN REAL,IN REAL)
 title: Graphics::DrawEllipse(IN const Pen,IN REAL,IN REAL,IN REAL,IN REAL)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the DrawEllipse methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawEllipse_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawellipsemethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DrawEllipse, DrawEllipse methods [GDI+], Graphics.DrawEllipse, Graphics.DrawEllipse(IN const Pen,IN REAL,IN REAL,IN REAL,IN REAL), Graphics::DrawEllipse, Graphics::DrawEllipse(IN const Pen,IN REAL,IN REAL,IN REAL,IN REAL), _gdiplus_CLASS_Graphics_DrawEllipse_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawEllipse_Methods, gdiplusgraphics/DrawEllipse
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 

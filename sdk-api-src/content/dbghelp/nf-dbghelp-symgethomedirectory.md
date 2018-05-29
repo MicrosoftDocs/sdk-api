@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymGetHomeDirectory
 title: SymGetHomeDirectory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the home directory used by Dbghelp.
 old-location: base\symgethomedirectory.htm
 old-project: Debug
 ms.assetid: 490de8cd-2738-4770-b708-fa2d61b83587
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymGetHomeDirectory, SymGetHomeDirectory function, SymGetHomeDirectoryW, base.symgethomedirectory, dbghelp/SymGetHomeDirectory, dbghelp/SymGetHomeDirectoryW, hdBase, hdSrc, hdSym
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

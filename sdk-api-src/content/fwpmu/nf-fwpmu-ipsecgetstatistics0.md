@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IPsecGetStatistics0
 title: IPsecGetStatistics0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves Internet Protocol Security (IPsec) statistics.
 old-location: fwp\ipsecgetstatistics0_func.htm
 old-project: FWP
 ms.assetid: f33aad79-bc42-4f75-bc24-5d9838c02745
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPsecGetStatistics0, IPsecGetStatistics0 function [Filtering], fwp.ipsecgetstatistics0_func, fwpmu/IPsecGetStatistics0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

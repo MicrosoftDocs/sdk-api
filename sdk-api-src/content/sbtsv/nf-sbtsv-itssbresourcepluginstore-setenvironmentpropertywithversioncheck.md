@@ -1,16 +1,16 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck
 title: ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a property of an environment.
 old-location: termserv\itssbresourcepluginstore_setenvironmentpropertywithversioncheck.htm
 old-project: TermServ
 ms.assetid: 9c4caee8-85fb-4d8f-9c5a-b82eea02a1d0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetEnvironmentPropertyWithVersionCheck method, ITsSbResourcePluginStore.SetEnvironmentPropertyWithVersionCheck, ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck, SetEnvironmentPropertyWithVersionCheck, SetEnvironmentPropertyWithVersionCheck method [Remote Desktop Services], SetEnvironmentPropertyWithVersionCheck method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetEnvironmentPropertyWithVersionCheck, termserv.itssbresourcepluginstore_setenvironmentpropertywithversioncheck
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbtsv.h
 req.include-header: 

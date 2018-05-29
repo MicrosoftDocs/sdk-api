@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.ITuningSpace.put_FrequencyMapping
 title: ITuningSpace::put_FrequencyMapping
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_FrequencyMapping method creates a frequency/channel map, frequency/transponder map, or whatever other mapping from carrier frequencies to frequency identifiers is appropriate for the tuning space.
 old-location: mstv\ituningspace_put_frequencymapping.htm
 old-project: mstv
 ms.assetid: 665ab139-773c-4e02-896f-2f97063a786f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_FrequencyMapping method, ITuningSpace.put_FrequencyMapping, ITuningSpace::put_FrequencyMapping, ITuningSpaceput_FrequencyMapping, mstv.ituningspace_put_frequencymapping, put_FrequencyMapping, put_FrequencyMapping method [Microsoft TV Technologies], put_FrequencyMapping method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_FrequencyMapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

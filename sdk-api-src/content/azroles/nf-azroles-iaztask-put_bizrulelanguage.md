@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzTask.put_BizRuleLanguage
 title: IAzTask::put_BizRuleLanguage
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the scripting language in which the business rule (BizRule) is implemented.
 old-location: security\iaztask_bizrulelanguage.htm
 old-project: SecAuthZ
 ms.assetid: 922f4fd8-f553-439c-b9ae-51a45a88adc7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ""JScript", "VBScript", AzTask object [Security],BizRuleLanguage property, BizRuleLanguage property [Security], BizRuleLanguage property [Security],AzTask object, BizRuleLanguage property [Security],IAzTask interface, IAzTask interface [Security],BizRuleLanguage property, IAzTask.BizRuleLanguage, IAzTask.put_BizRuleLanguage, IAzTask::BizRuleLanguage, IAzTask::get_BizRuleLanguage, IAzTask::put_BizRuleLanguage, azroles/IAzTask::BizRuleLanguage, azroles/IAzTask::get_BizRuleLanguage, azroles/IAzTask::put_BizRuleLanguage, put_BizRuleLanguage, security.iaztask_bizrulelanguage"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

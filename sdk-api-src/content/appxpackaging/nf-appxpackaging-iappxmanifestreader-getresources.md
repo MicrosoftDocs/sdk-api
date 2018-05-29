@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetResources
 title: IAppxManifestReader::GetResources
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an enumerator that iterates through the resources defined in the manifest.
 old-location: appxpkg\iappxmanifestreader_getresources.htm
 old-project: appxpkg
 ms.assetid: 2F0109C2-99F5-4AEE-9596-153764FA8FA3
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetResources, GetResources method [App packaging and management], GetResources method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetResources method, IAppxManifestReader.GetResources, IAppxManifestReader::GetResources, appxpackaging/IAppxManifestReader::GetResources, appxpkg.iappxmanifestreader_getresources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ndfapi.NdfCreateIncident
 title: NdfCreateIncident function
-author: windows-driver-content
+author: windows-sdk-content
 description: To test the NDF functionality incorporated into their application.
 old-location: ndf\ndfcreateincident.htm
 old-project: NDF
 ms.assetid: 8570a0e2-f02f-4812-a5c8-13b6e5feee6f
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NdfCreateIncident, NdfCreateIncident function [NDF], ndf.ndfcreateincident, ndfapi/NdfCreateIncident
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ndfapi.h
 req.include-header: 

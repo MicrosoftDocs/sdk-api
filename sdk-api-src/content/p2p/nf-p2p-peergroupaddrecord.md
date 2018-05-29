@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupAddRecord
 title: PeerGroupAddRecord function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupAddRecord function adds a new record to the peer group, which is propagated to all participating peers.
 old-location: p2p\peergroupaddrecord.htm
 old-project: P2PSdk
 ms.assetid: d9ca87bc-30da-4a19-b34a-8d8388ccd19a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupAddRecord, PeerGroupAddRecord function [Peer Networking], p2p.peergroupaddrecord, p2p/PeerGroupAddRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

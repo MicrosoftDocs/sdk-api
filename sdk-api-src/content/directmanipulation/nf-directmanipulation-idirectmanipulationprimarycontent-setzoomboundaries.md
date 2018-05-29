@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetZoomBoundaries
 title: IDirectManipulationPrimaryContent::SetZoomBoundaries
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the minimum and maximum boundaries for zoom.
 old-location: directmanipulation\idirectmanipulationprimarycontent_setzoomboundaries.htm
 old-project: directmanipulation
 ms.assetid: 77e4054b-637f-4cff-bfab-0e2a0e992c59
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetZoomBoundaries method, IDirectManipulationPrimaryContent.SetZoomBoundaries, IDirectManipulationPrimaryContent::SetZoomBoundaries, SetZoomBoundaries, SetZoomBoundaries method [Direct Manipulation], SetZoomBoundaries method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setzoomboundaries, directmanipulation/IDirectManipulationPrimaryContent::SetZoomBoundaries
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

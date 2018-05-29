@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.UrlCombineA
 title: UrlCombineA function
-author: windows-driver-content
+author: windows-sdk-content
 description: When provided with a relative URL and its base, returns a URL in canonical form.
 old-location: shell\UrlCombine.htm
 old-project: shell
 ms.assetid: f574d365-1ab9-4de4-84fe-17820c327ccf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: URL_DONT_SIMPLIFY, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCAPE_SPACES_ONLY, URL_ESCAPE_UNSAFE, URL_NO_META, URL_PLUGGABLE_PROTOCOL, URL_UNESCAPE, UrlCombine, UrlCombine function [Windows Shell], UrlCombineA, UrlCombineW, _win32_UrlCombine, shell.UrlCombine, shlwapi/UrlCombine, shlwapi/UrlCombineA, shlwapi/UrlCombineW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

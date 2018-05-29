@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesGhostInfo.IsGhosted
 title: IOfflineFilesGhostInfo::IsGhosted
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the item is ghosted.
 old-location: of\iofflinefilesghostinfo_isghosted.htm
 old-project: OfflineFiles
 ms.assetid: b2e8ca73-4186-4971-b5be-41ecfc6b5e4a
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesGhostInfo interface [Offline Files],IsGhosted method, IOfflineFilesGhostInfo.IsGhosted, IOfflineFilesGhostInfo::IsGhosted, IsGhosted, IsGhosted method [Offline Files], IsGhosted method [Offline Files],IOfflineFilesGhostInfo interface, cscobj/IOfflineFilesGhostInfo::IsGhosted, of.iofflinefilesghostinfo_isghosted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

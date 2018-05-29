@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.CountRefs
 title: IRpcStubBuffer::CountRefs
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the total number of references that a stub has on the server object to which it is connected.
 old-location: com\irpcstubbuffer_countrefs.htm
 old-project: com
 ms.assetid: 0a2a629a-b935-47a2-a4c6-ba9f20641a03
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CountRefs, CountRefs method [COM], CountRefs method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],CountRefs method, IRpcStubBuffer.CountRefs, IRpcStubBuffer::CountRefs, _com_irpcstubbuffer_countrefs, com.irpcstubbuffer_countrefs, objidlbase/IRpcStubBuffer::CountRefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

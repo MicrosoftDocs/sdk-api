@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1_3.SetSegmentAtEnd
 title: SetSegmentAtEnd function
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the last segment in this ink object with new control points.
 old-location: direct2d\id2d1ink_setsegmentatend_overload.htm
 old-project: Direct2D
 ms.assetid: d2901735-724d-502b-bc2e-dc030f8be4fe
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: ID2D1Ink::SetSegmentAtEnd, SetSegmentAtEnd, SetSegmentAtEnd methods [Direct2D], d2d1_3/SetSegmentAtEnd, direct2d.id2d1ink_setsegmentatend_overload
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_3.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetZOrder
 title: IMixerPinConfig::SetZOrder
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetZOrder method sets the z-order of a particular video stream.
 old-location: dshow\imixerpinconfig_setzorder.htm
 old-project: DirectShow
 ms.assetid: fe8e71b8-9aaf-438e-b370-5ba9f131bf7a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetZOrder method, IMixerPinConfig.SetZOrder, IMixerPinConfig::SetZOrder, IMixerPinConfigSetZOrder, SetZOrder, SetZOrder method [DirectShow], SetZOrder method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setzorder, mpconfig/IMixerPinConfig::SetZOrder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpconfig.h
 req.include-header: 

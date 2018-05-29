@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngLockSurface
 title: EngLockSurface function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngLockSurface function creates a user object for a given surface. This function gives drivers access to surfaces they create.
 old-location: display\englocksurface.htm
 old-project: display
 ms.assetid: a5d44e16-459c-4722-b3e8-5dc4b5be5865
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngLockSurface, EngLockSurface function [Display Devices], display.englocksurface, gdifncs_99ca0d6a-a445-42ad-96fb-4ef8d3e23db7.xml, winddi/EngLockSurface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

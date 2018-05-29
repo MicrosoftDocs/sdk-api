@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHRegQueryUSValueW
 title: SHRegQueryUSValueW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the type and data for a specified name associated with an open registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegQueryUSValue.htm
 old-project: shell
 ms.assetid: 302a51b5-9cf9-46e5-908c-df0d3c31c91c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHRegQueryUSValue, SHRegQueryUSValue function [Windows Shell], SHRegQueryUSValueA, SHRegQueryUSValueW, _win32_SHRegQueryUSValue, shell.SHRegQueryUSValue, shlwapi/SHRegQueryUSValue, shlwapi/SHRegQueryUSValueA, shlwapi/SHRegQueryUSValueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

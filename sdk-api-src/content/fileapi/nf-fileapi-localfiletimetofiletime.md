@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.LocalFileTimeToFileTime
 title: LocalFileTimeToFileTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a local file time to a file time based on the Coordinated Universal Time (UTC).
 old-location: base\localfiletimetofiletime.htm
 old-project: SysInfo
 ms.assetid: 491e4724-8e6f-4155-b427-15cd7968e2da
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: LocalFileTimeToFileTime, LocalFileTimeToFileTime function, _win32_localfiletimetofiletime, base.localfiletimetofiletime, fileapi/LocalFileTimeToFileTime, winbase/LocalFileTimeToFileTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

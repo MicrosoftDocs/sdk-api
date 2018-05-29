@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IVideoWindow.get_WindowStyle
 title: IVideoWindow::get_WindowStyle
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_WindowStyle method retrieves the window styles on the video window.
 old-location: dshow\ivideowindow_get_windowstyle.htm
 old-project: DirectShow
 ms.assetid: ae4ae516-743f-4a27-90d5-108ca26aadd4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_WindowStyle method, IVideoWindow.get_WindowStyle, IVideoWindow::get_WindowStyle, IVideoWindowget_WindowStyle, control/IVideoWindow::get_WindowStyle, dshow.ivideowindow_get_windowstyle, get_WindowStyle, get_WindowStyle method [DirectShow], get_WindowStyle method [DirectShow],IVideoWindow interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:wmcontainer._ASF_INDEX_DESCRIPTOR
 title: "_ASF_INDEX_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the indexing configuration for a stream and type of index.
 old-location: mf\asf_index_descriptor.htm
 old-project: medfound
 ms.assetid: 2a540aef-068d-4465-b0ed-64aed828af01
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 2a540aef-068d-4465-b0ed-64aed828af01, ASF_INDEX_DESCRIPTOR, ASF_INDEX_DESCRIPTOR structure [Media Foundation], _ASF_INDEX_DESCRIPTOR, mf.asf_index_descriptor, wmcontainer/ASF_INDEX_DESCRIPTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmcontainer.h
 req.include-header: 

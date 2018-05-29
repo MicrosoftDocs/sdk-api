@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseChangesEvent
 title: UiaRaiseChangesEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by providers to notify the Microsoft UI Automation core that a change has occurred.
 old-location: winauto\uiauto_UiaRaiseChangesEventFunction.htm
 old-project: WinAuto
 ms.assetid: AA6F1F6E-3EE9-44A6-B1AE-B08013DC1E37
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaRaiseChangesEvent, UiaRaiseChangesEvent function [Windows Accessibility], uiautomationcoreapi/UiaRaiseChangesEvent, winauto.uiauto_UiaRaiseChangesEventFunction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

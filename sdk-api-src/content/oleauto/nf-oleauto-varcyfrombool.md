@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarCyFromBool
 title: VarCyFromBool function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a Boolean value to a currency value.
 old-location: automat\varcyfrombool.htm
 old-project: automat
 ms.assetid: e611022e-966f-4f9a-9870-ee4ab8d1144c
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarCyFromBool, VarCyFromBool function [Automation], _oa96_VarCyFromBool, automat.varcyfrombool, oleauto/VarCyFromBool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpCreatePdu
 title: SnmpCreatePdu function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinSNMP SnmpCreatePdu function creates and initializes an SNMP protocol data unit (PDU).
 old-location: snmp\snmpcreatepdu.htm
 old-project: SNMP
 ms.assetid: 1c73e8ab-ac66-43cd-8eec-e97dd3a98071
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SNMP_PDU_GET, SNMP_PDU_GETBULK, SNMP_PDU_GETNEXT, SNMP_PDU_RESPONSE, SNMP_PDU_SET, SNMP_PDU_TRAP, SnmpCreatePdu, SnmpCreatePdu function [SNMP], _snmp_snmpcreatepdu, snmp.snmpcreatepdu, winsnmp/SnmpCreatePdu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

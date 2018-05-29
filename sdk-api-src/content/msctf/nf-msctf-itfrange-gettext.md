@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfRange.GetText
 title: ITfRange::GetText
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfRange::GetText method obtains the content covered by this range of text.
 old-location: tsf\itfrange_gettext.htm
 old-project: TSF
 ms.assetid: b38a8de3-947f-469c-9f0d-f0482ea86884
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetText method, ITfRange.GetText, ITfRange::GetText, TF_TF_IGNOREEND, TF_TF_MOVESTART, _tsf_itfrange_gettext_ref, msctf/ITfRange::GetText, tsf.itfrange_gettext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

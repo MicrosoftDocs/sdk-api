@@ -1,16 +1,16 @@
 ---
 UID: NF:ntdsapi.DsQuerySitesFree
 title: DsQuerySitesFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the memory allocated by the DsQuerySitesByCost function.
 old-location: ad\dsquerysitesfree.htm
 old-project: AD
 ms.assetid: 810caa4f-8275-4ad8-ad3e-72061fc073dd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsQuerySitesFree, DsQuerySitesFree function [Active Directory], ad.dsquerysitesfree, ntdsapi/DsQuerySitesFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntdsapi.h
 req.include-header: 

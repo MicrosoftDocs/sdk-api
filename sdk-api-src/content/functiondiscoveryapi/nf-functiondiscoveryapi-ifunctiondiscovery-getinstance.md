@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.GetInstance
 title: IFunctionDiscovery::GetInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the specified function instance, based on identifier.
 old-location: ncd\ifunctiondiscovery_getinstance_method.htm
 old-project: FunDisc
 ms.assetid: 8f3b2517-0acf-4a43-9539-d905c78be426
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetInstance, GetInstance method, GetInstance method,IFunctionDiscovery interface, IFunctionDiscovery interface,GetInstance method, IFunctionDiscovery.GetInstance, IFunctionDiscovery::GetInstance, functiondiscoveryapi/IFunctionDiscovery::GetInstance, ncd.ifunctiondiscovery_getinstance_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 

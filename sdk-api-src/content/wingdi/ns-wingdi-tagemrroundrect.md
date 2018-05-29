@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRROUNDRECT
 title: tagEMRROUNDRECT
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRROUNDRECT structure contains members for the RoundRect enhanced metafile record.
 old-location: gdi\emrroundrect.htm
 old-project: gdi
 ms.assetid: 74caff9e-6882-4585-ad51-e83e4afb8454
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRROUNDRECT, EMRROUNDRECT, EMRROUNDRECT structure [Windows GDI], PEMRROUNDRECT, PEMRROUNDRECT structure pointer [Windows GDI], _win32_EMRROUNDRECT_str, gdi.emrroundrect, tagEMRROUNDRECT, wingdi/EMRROUNDRECT, wingdi/PEMRROUNDRECT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

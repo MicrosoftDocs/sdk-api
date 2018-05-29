@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IAppVisibility.Unadvise
 title: IAppVisibility::Unadvise
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels a connection that was previously established by using Advise.
 old-location: shell\IAppVisibility_Unadvise.htm
 old-project: shell
 ms.assetid: D670F1E7-5E0B-498E-8F27-DF2A3A387862
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAppVisibility interface [Windows Shell],Unadvise method, IAppVisibility.Unadvise, IAppVisibility::Unadvise, Unadvise, Unadvise method [Windows Shell], Unadvise method [Windows Shell],IAppVisibility interface, shell.IAppVisibility_Unadvise, shobjidl_core/IAppVisibility::Unadvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

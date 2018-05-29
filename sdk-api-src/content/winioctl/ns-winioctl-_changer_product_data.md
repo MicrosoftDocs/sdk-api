@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._CHANGER_PRODUCT_DATA
 title: "_CHANGER_PRODUCT_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents product data for a changer device. It is used by the IOCTL_CHANGER_GET_PRODUCT_DATA control code.
 old-location: base\changer_product_data_str.htm
 old-project: DevIO
 ms.assetid: b6756994-2c6f-4797-8fad-823d63632372
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: "*PCHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA, CHANGER_PRODUCT_DATA structure, PCHANGER_PRODUCT_DATA, PCHANGER_PRODUCT_DATA structure pointer, _CHANGER_PRODUCT_DATA, _win32_changer_product_data_str, base.changer_product_data_str, winioctl/CHANGER_PRODUCT_DATA, winioctl/PCHANGER_PRODUCT_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

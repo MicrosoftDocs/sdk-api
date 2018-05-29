@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IDvbContentDescriptor
 title: IDvbContentDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get information from a Digital Video Broadcast (DVB) content descriptor.
 old-location: mstv\idvbcontentdescriptor.htm
 old-project: mstv
 ms.assetid: 7bc74428-f8e3-4d3b-b35a-33e917b18a93
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDvbContentDescriptor, IDvbContentDescriptor interface [Microsoft TV Technologies], IDvbContentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbContentDescriptor, mstv.idvbcontentdescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

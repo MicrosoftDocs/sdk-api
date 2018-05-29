@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetProperty
 title: ITargetInfo::SetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a property value for the offline installation location.
 old-location: smi\itargetinfo_setproperty.htm
 old-project: SMI
 ms.assetid: ecd93710-a9e8-41cf-b30c-97d1efe0fa6f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ITargetInfo interface [SMI],SetProperty method, ITargetInfo.SetProperty, ITargetInfo::SetProperty, SetProperty, SetProperty method [SMI], SetProperty method [SMI],ITargetInfo interface, smi.itargetinfo_setproperty, wcmconfig/ITargetInfo::SetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

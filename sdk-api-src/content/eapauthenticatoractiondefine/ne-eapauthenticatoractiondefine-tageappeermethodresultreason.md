@@ -1,16 +1,16 @@
 ---
 UID: NE:eapauthenticatoractiondefine.tagEapPeerMethodResultReason
 title: tagEapPeerMethodResultReason
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of results of an EAP authentication session returned by an EAP authenticator method to an EAP peer method.
 old-location: eaphost\eappeermethodresultreason.htm
 old-project: EAPHost
 ms.assetid: 5f7f18cd-cc75-4d13-a0c0-c60f8c5f1a07
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapPeerMethodResultFailure, EapPeerMethodResultReason, EapPeerMethodResultReason enumeration [EAPHost], EapPeerMethodResultReasonOle, EapPeerMethodResultSuccess, EapPeerMethodResultUnknown, eapauthenticatoractiondefine/EapPeerMethodResultFailure, eapauthenticatoractiondefine/EapPeerMethodResultReason, eapauthenticatoractiondefine/EapPeerMethodResultSuccess, eapauthenticatoractiondefine/EapPeerMethodResultUnknown, eaphost.eappeermethodresultreason, tagEapPeerMethodResultReason
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: eapauthenticatoractiondefine.h
 req.include-header: 

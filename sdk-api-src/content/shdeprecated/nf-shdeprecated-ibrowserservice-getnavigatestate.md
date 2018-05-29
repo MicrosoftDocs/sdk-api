@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetNavigateState
 title: IBrowserService::GetNavigateState
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Retrieves the browser's current navigation state.
 old-location: shell\IBrowserService_GetNavigateState.htm
 old-project: shell
 ms.assetid: 5a8aac75-3e0b-4ff2-a1ec-e08379e67c84
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: BNS_BEGIN_NAVIGATE, BNS_NAVIGATE, BNS_NORMAL, GetNavigateState, GetNavigateState method [Windows Shell], GetNavigateState method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetNavigateState method, IBrowserService.GetNavigateState, IBrowserService::GetNavigateState, shdeprecated/IBrowserService::GetNavigateState, shell.IBrowserService_GetNavigateState, zone_IBrowserService_GetNavigateState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0006
 title: "__MIDL___MIDL_itf_msrdc_0000_0000_0006"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an array of RdcNeed structures.
 old-location: rdc\rdcneedpointer.htm
 old-project: Rdc
 ms.assetid: 92a1fae7-5ada-4f7d-a736-c93bc404a418
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RdcNeedPointer, RdcNeedPointer structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0006, fs.rdcneedpointer, msrdc/RdcNeedPointer, rdc.rdcneedpointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msrdc.h
 req.include-header: 

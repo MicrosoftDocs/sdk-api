@@ -1,16 +1,16 @@
 ---
 UID: NF:lmshare.NetShareAdd
 title: NetShareAdd function
-author: windows-driver-content
+author: windows-sdk-content
 description: Shares a server resource.
 old-location: fs\netshareadd.htm
 old-project: NetShare
 ms.assetid: 8b51c155-24e8-4d39-b818-eb2d1bb0ee8b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: 2, 502, 503, NetShareAdd, NetShareAdd function [Files], _win32_netshareadd, fs.netshareadd, lmshare/NetShareAdd, netmgmt.netshareadd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h

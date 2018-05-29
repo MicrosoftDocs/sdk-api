@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICCompress
 title: ICCompress function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICCompress function compresses a single video image.
 old-location: multimedia\iccompress.htm
 old-project: Multimedia
 ms.assetid: 99e7d87a-cbf5-42d3-897c-5f5c8860a13a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIIF_KEYFRAME, ICCOMPRESS_KEYFRAME, ICCompress, ICCompress function [Windows Multimedia], _win32_ICCompress, multimedia.iccompress, vfw/ICCompress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

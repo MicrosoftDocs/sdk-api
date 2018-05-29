@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_SET_SZ_VALUE
 title: PRESUTIL_SET_SZ_VALUE
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a string value in the cluster database. The PRESUTIL_SET_SZ_VALUE type defines a pointer to this function.
 old-location: mscs\resutilsetszvalue.htm
 old-project: MsCS
 ms.assetid: b9227df3-0693-4b0f-99de-d10fa3d7acf5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_SET_SZ_VALUE, PRESUTIL_SET_SZ_VALUE callback, PRESUTIL_SET_SZ_VALUE callback function [Failover Cluster], _wolf_resutilsetszvalue, mscs.resutilsetszvalue, resapi/PRESUTIL_SET_SZ_VALUE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

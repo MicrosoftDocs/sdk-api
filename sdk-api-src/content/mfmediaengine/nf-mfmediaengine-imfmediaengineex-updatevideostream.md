@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.UpdateVideoStream
 title: IMFMediaEngineEx::UpdateVideoStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the source rectangle, destination rectangle, and border color for the video.
 old-location: mf\imfmediaengineex_updatevideostream.htm
 old-project: medfound
 ms.assetid: 2A9EB449-ED76-4E2C-BC55-20E134B43B43
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],UpdateVideoStream method, IMFMediaEngineEx.UpdateVideoStream, IMFMediaEngineEx::UpdateVideoStream, UpdateVideoStream, UpdateVideoStream method [Media Foundation], UpdateVideoStream method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_updatevideostream, mfmediaengine/IMFMediaEngineEx::UpdateVideoStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

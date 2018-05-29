@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptxml.CryptXmlGetStatus
 title: CryptXmlGetStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a CRYPT_XML_STATUS structure that contains status information about the object specified by the supplied handle.
 old-location: security\cryptxmlgetstatus.htm
 old-project: SecCrypto
 ms.assetid: 685a87dc-36e9-464a-988e-de907d2dae41
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptXmlGetStatus, CryptXmlGetStatus function [Security], cryptxml/CryptXmlGetStatus, security.cryptxmlgetstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptxml.h
 req.include-header: 

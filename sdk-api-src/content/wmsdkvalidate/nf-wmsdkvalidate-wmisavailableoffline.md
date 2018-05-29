@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkvalidate.WMIsAvailableOffline
 title: WMIsAvailableOffline function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMIsAvailableOffline function verifies that an ASF file can be played from a cached copy.
 old-location: wmformat\wmisavailableoffline.htm
 old-project: wmformat
 ms.assetid: caa700ba-143e-454b-9016-6e79c0a83271
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMIsAvailableOffline, WMIsAvailableOffline function [windows Media Format], wmformat.wmisavailableoffline, wmsdkvalidate/WMIsAvailableOffline
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wmsdkvalidate.h
 req.include-header: Wmsdkidl.h

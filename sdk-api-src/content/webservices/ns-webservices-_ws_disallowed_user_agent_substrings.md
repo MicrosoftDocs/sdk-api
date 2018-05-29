@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_DISALLOWED_USER_AGENT_SUBSTRINGS
 title: "_WS_DISALLOWED_USER_AGENT_SUBSTRINGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the list of blocked UserAgent sub-string's. This is used with the WS_LISTENER_PROPERTY_DISALLOWED_USER_AGENT listener property.
 old-location: wsw\ws_disallowed_user_agent_substrings.htm
 old-project: wsw
 ms.assetid: 3a37275b-11e6-484a-adc2-1e9503d1b309
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_DISALLOWED_USER_AGENT_SUBSTRINGS, WS_DISALLOWED_USER_AGENT_SUBSTRINGS structure [Web Services for Windows], _WS_DISALLOWED_USER_AGENT_SUBSTRINGS, webservices/WS_DISALLOWED_USER_AGENT_SUBSTRINGS, wsw.ws_disallowed_user_agent_substrings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

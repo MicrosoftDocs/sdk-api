@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.ULongMult
 title: ULongMult function
-author: windows-driver-content
+author: windows-sdk-content
 description: Multiplies one value of type ULONG by another.
 old-location: shell\ULongMult.htm
 old-project: shell
 ms.assetid: 79710ade-498d-4cd7-ae6e-552a8e787193
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DWordMult, ULongMult, ULongMult function [Windows Shell], _shell_ULongMult, intsafe/ULongMult, shell.ULongMult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

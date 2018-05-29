@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_DATETIME_FORMAT
 title: WS_DATETIME_FORMAT
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the textual format of a WS_DATETIME.
 old-location: wsw\ws_datetime_format.htm
 old-project: wsw
 ms.assetid: e5859797-90dd-4509-ae41-f8d8c83cfd9c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_DATETIME_FORMAT, WS_DATETIME_FORMAT enumeration [Web Services for Windows], WS_DATETIME_FORMAT_LOCAL, WS_DATETIME_FORMAT_NONE, WS_DATETIME_FORMAT_UTC, webservices/WS_DATETIME_FORMAT, webservices/WS_DATETIME_FORMAT_LOCAL, webservices/WS_DATETIME_FORMAT_NONE, webservices/WS_DATETIME_FORMAT_UTC, wsw.ws_datetime_format
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

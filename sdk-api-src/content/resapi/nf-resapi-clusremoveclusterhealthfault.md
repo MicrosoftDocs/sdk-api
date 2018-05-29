@@ -1,16 +1,16 @@
 ---
 UID: NF:resapi.ClusRemoveClusterHealthFault
 title: ClusRemoveClusterHealthFault function
-author: windows-driver-content
+author: windows-sdk-content
 description: TBD.
 old-location: mscs\clusremoveclusterhealthfault.htm
 old-project: MsCS
 ms.assetid: ff20511b-beb0-4fa4-a8f3-cc2772cdc503
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusRemoveClusterHealthFault, ClusRemoveClusterHealthFault function [Failover Cluster], mscs.clusremoveclusterhealthfault, resapi/ClusRemoveClusterHealthFault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: resapi.h
 req.include-header: 

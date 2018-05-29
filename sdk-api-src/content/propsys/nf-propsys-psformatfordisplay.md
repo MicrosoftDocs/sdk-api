@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSFormatForDisplay
 title: PSFormatForDisplay function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a formatted, Unicode string representation of a property value stored in a PROPVARIANT structure. The caller is responsible for allocating the output buffer.
 old-location: properties\PSFormatForDisplay.htm
 old-project: properties
 ms.assetid: 71442967-ee8a-448c-83cf-949934ddd152
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSFormatForDisplay, PSFormatForDisplay function [Windows Properties], properties.PSFormatForDisplay, propsys/PSFormatForDisplay, shell.PSFormatForDisplay, shell_PSFormatForDisplay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.TransactionUOW
 title: ICrmMonitorClerks::TransactionUOW
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the unit of work (UOW) of the transaction for the specified index.
 old-location: cos\icrmmonitorclerks_transactionuow.htm
 old-project: cossdk
 ms.assetid: 9907ae75-7cb6-4fde-837c-616b106b4d7d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],TransactionUOW method, ICrmMonitorClerks.TransactionUOW, ICrmMonitorClerks::TransactionUOW, TransactionUOW, TransactionUOW method [COM+], TransactionUOW method [COM+],ICrmMonitorClerks interface, _dtc_ICrmMonitorClerks_TransactionUOW, comsvcs/ICrmMonitorClerks::TransactionUOW, cos.icrmmonitorclerks_transactionuow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

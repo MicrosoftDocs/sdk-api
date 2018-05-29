@@ -1,16 +1,16 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_THREAD_EX_LIST
 title: "_MINIDUMP_THREAD_EX_LIST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a list of threads.
 old-location: base\minidump_thread_ex_list_str.htm
 old-project: Debug
 ms.assetid: 653f1079-07c9-43b9-8dfe-05e99b365bdc
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PMINIDUMP_THREAD_EX_LIST, MINIDUMP_THREAD_EX_LIST, MINIDUMP_THREAD_EX_LIST structure, PMINIDUMP_THREAD_EX_LIST, PMINIDUMP_THREAD_EX_LIST structure pointer, _MINIDUMP_THREAD_EX_LIST, _win32_minidump_thread_ex_list_str, base.minidump_thread_ex_list_str, minidumpapiset/MINIDUMP_THREAD_EX_LIST, minidumpapiset/PMINIDUMP_THREAD_EX_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

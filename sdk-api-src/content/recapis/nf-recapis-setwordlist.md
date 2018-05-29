@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.SetWordList
 title: SetWordList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the word list for the current recognizer context to recognize.
 old-location: tablet\setwordlist.htm
 old-project: tablet
 ms.assetid: 9e067c22-772d-48d2-baae-abc8067efb09
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 9e067c22-772d-48d2-baae-abc8067efb09, SetWordList, SetWordList function [Tablet PC], recapis/SetWordList, tablet.setwordlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

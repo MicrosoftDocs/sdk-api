@@ -1,16 +1,16 @@
 ---
 UID: NS:ehstorextensions._ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
 title: "_ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure contains data that defines the capabilities and requirements of a password silo.
 old-location: enstor\enhanced_storage_password_silo_information.htm
 old-project: enstor
 ms.assetid: b922aca7-d574-497a-bf83-b53a321400a9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure [Enhanced Storage], PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure pointer [Enhanced Storage], _ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, ehstorextensions/ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, ehstorextensions/PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION, enstor.enhanced_storage_password_silo_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ehstorextensions.h
 req.include-header: 

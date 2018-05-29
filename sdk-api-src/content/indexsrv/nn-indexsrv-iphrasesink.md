@@ -1,16 +1,16 @@
 ---
 UID: NN:indexsrv.IPhraseSink
 title: IPhraseSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles phrases that word breakers parse from query text during query time.
 old-location: indexsrv\iphrasesink.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefobj_3asr.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPhraseSink, IPhraseSink interface [Indexing Service], IPhraseSink interface [Indexing Service],described, _idxs_PhraseSink, indexsrv.iphrasesink, indexsrv/IPhraseSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: indexsrv.h
 req.include-header: 

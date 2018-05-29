@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ImageList_GetImageCount
 title: ImageList_GetImageCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of images in an image list.
 old-location: controls\ImageList_GetImageCount.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_getimagecount.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ImageList_GetImageCount, ImageList_GetImageCount function [Windows Controls], _win32_ImageList_GetImageCount, _win32_ImageList_GetImageCount_cpp, commctrl/ImageList_GetImageCount, controls.ImageList_GetImageCount, controls._win32_ImageList_GetImageCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

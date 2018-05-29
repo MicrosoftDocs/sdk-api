@@ -1,16 +1,16 @@
 ---
 UID: NS:nspapi._NS_SERVICE_INFOW
 title: "_NS_SERVICE_INFOW"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a network service or a network service type in the context of a specified namespace, or a set of default namespaces.
 old-location: winsock\ns_service_info_2.htm
 old-project: WinSock
 ms.assetid: 5bcdeddf-2971-491b-9cf4-70595d3a7ff1
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPNS_SERVICE_INFOW, *PNS_SERVICE_INFOW, NS_DEFAULT, NS_DNS, NS_MS, NS_NDS, NS_NETBT, NS_NIS, NS_SAP, NS_SERVICE_INFO, NS_SERVICE_INFO structure [Winsock], NS_SERVICE_INFOA, NS_SERVICE_INFOW, NS_STDA, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, NS_WINS, NS_X500, _NS_SERVICE_INFOW, _win32_ns_service_info_2, nspapi/NS_SERVICE_INFO, nspapi/NS_SERVICE_INFOA, nspapi/NS_SERVICE_INFOW, winsock.ns_service_info_2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: nspapi.h
 req.include-header: 

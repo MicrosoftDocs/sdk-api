@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.Import
 title: IX509PrivateKey::Import
-author: windows-driver-content
+author: windows-sdk-content
 description: Imports an existing private key into a key container within a cryptographic provider.
 old-location: security\ix509privatekey_import_method.htm
 old-project: SecCertEnroll
 ms.assetid: 33e335e2-9c3f-4aa1-a393-db0ee8095b64
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BCRYPT_PRIVATE_KEY_BLOB, IX509PrivateKey interface [Security],Import method, IX509PrivateKey.Import, IX509PrivateKey::Import, Import, Import method [Security], Import method [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Import, security.ix509privatekey_import_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

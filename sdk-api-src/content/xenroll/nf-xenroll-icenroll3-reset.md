@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.ICEnroll3.Reset
 title: ICEnroll3::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the certificate enrollment control object to its initial state and thereby allow reuse of the control. This method was first defined in the ICEnroll3 interface.
 old-location: security\icenroll4_reset.htm
 old-project: SecCrypto
 ms.assetid: 503062c3-8a73-4218-a826-c72f926f36db
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CEnroll object [Security],Reset method, ICEnroll3 interface [Security],Reset method, ICEnroll3.Reset, ICEnroll3::Reset, ICEnroll4 interface [Security],Reset method, ICEnroll4::Reset, Reset, Reset method [Security], Reset method [Security],CEnroll object, Reset method [Security],ICEnroll3 interface, Reset method [Security],ICEnroll4 interface, security.icenroll4_reset, xenroll/ICEnroll3::Reset, xenroll/ICEnroll4::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

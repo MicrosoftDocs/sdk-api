@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMMOUSE
 title: tagNMMOUSE
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used with mouse notification messages.
 old-location: controls\NMMOUSE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmmouse.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMMOUSE, LPNMMOUSE, LPNMMOUSE structure pointer [Windows Controls], NMCLICK, NMMOUSE, NMMOUSE structure [Windows Controls], _win32_NMMOUSE, _win32_NMMOUSE_cpp, commctrl/LPNMMOUSE, commctrl/NMMOUSE, controls.NMMOUSE, controls._win32_NMMOUSE, tagNMMOUSE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

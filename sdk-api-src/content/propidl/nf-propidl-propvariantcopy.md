@@ -1,16 +1,16 @@
 ---
 UID: NF:propidl.PropVariantCopy
 title: PropVariantCopy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of a PROPVARIANT structure.
 old-location: properties\PropVariantCopy.htm
 old-project: properties
 ms.assetid: f17f1722-f041-414c-b838-f1f83427ff0c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantCopy, PropVariantCopy function [Windows Properties], _shell_PropVariantCopy, properties.PropVariantCopy, propidl/PropVariantCopy, shell.PropVariantCopy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propidl.h
 req.include-header: 

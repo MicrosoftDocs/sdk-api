@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagNEWTEXTMETRICW
 title: tagNEWTEXTMETRICW
-author: windows-driver-content
+author: windows-sdk-content
 description: The NEWTEXTMETRIC structure contains data that describes a physical font.
 old-location: gdi\newtextmetric.htm
 old-project: gdi
 ms.assetid: 0dd7fee0-0771-4c72-9843-0fee308da5cc
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPNEWTEXTMETRICW, *NPNEWTEXTMETRICW, *PNEWTEXTMETRICW, NEWTEXTMETRIC, NEWTEXTMETRIC structure [Windows GDI], NEWTEXTMETRICA, NEWTEXTMETRICW, PNEWTEXTMETRIC, PNEWTEXTMETRIC structure pointer [Windows GDI], _win32_NEWTEXTMETRIC_str, gdi.newtextmetric, tagNEWTEXTMETRICW, wingdi/NEWTEXTMETRIC, wingdi/NEWTEXTMETRICA, wingdi/NEWTEXTMETRICW, wingdi/PNEWTEXTMETRIC"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

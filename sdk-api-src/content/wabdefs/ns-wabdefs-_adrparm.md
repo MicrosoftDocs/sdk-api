@@ -1,16 +1,16 @@
 ---
 UID: NS:wabdefs._ADRPARM
 title: "_ADRPARM"
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. Describes the display and behavior of the common address dialog box.
 old-location: wab\_wab_ADRPARM.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrparm.htm
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPADRPARM, AB_RESOLVE, AB_SELECTONLY, ADDRESS_ONE, ADRPARM, ADRPARM structure [Windows Address Book], DIALOG_MODAL, DIALOG_SDI, LPADRPARM, LPADRPARM structure pointer [Windows Address Book], _ADRPARM, _wab_ADRPARM, wab._wab_ADRPARM, wabdefs/ADRPARM, wabdefs/LPADRPARM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetPageUnit
 title: Graphics::GetPageUnit
-author: windows-driver-content
+author: windows-sdk-content
 description: The Graphics::GetPageUnit method gets the unit of measure currently set for this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetPageUnit_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getpageunit.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPageUnit, GetPageUnit method [GDI+], GetPageUnit method [GDI+],Graphics class, Graphics class [GDI+],GetPageUnit method, Graphics.GetPageUnit, Graphics::GetPageUnit, _gdiplus_CLASS_Graphics_GetPageUnit_, gdiplus._gdiplus_CLASS_Graphics_GetPageUnit_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

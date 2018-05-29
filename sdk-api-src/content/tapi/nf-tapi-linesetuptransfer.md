@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSetupTransfer
 title: lineSetupTransfer function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSetupTransfer function initiates a transfer of the call specified by the hCall parameter.
 old-location: tapi2\linesetuptransfer.htm
 old-project: Tapi
 ms.assetid: 40f0ce8f-9809-43ec-af48-d8e410553048
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesetuptransfer, lineSetupTransfer, lineSetupTransfer function [TAPI 2.2], lineSetupTransferA, lineSetupTransferW, tapi/lineSetupTransfer, tapi/lineSetupTransferA, tapi/lineSetupTransferW, tapi2.linesetuptransfer"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

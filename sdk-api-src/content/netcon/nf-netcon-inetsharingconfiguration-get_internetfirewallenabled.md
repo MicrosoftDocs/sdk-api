@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.get_InternetFirewallEnabled
 title: INetSharingConfiguration::get_InternetFirewallEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_InternetFirewallEnabled method determines whether Internet Connection Firewall is enabled on this connection.
 old-location: ics\inetsharingconfiguration_get_internetfirewallenabled.htm
 old-project: ICS
 ms.assetid: 85f6b76f-3c31-4669-a54f-30d12a82935e
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetSharingConfiguration interface [ICS/ICF],get_InternetFirewallEnabled method, INetSharingConfiguration.get_InternetFirewallEnabled, INetSharingConfiguration::get_InternetFirewallEnabled, _ics_inetsharingconfiguration_get_internetfirewallenabled, get_InternetFirewallEnabled, get_InternetFirewallEnabled method [ICS/ICF], get_InternetFirewallEnabled method [ICS/ICF],INetSharingConfiguration interface, ics.inetsharingconfiguration_get_internetfirewallenabled, netcon/INetSharingConfiguration::get_InternetFirewallEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

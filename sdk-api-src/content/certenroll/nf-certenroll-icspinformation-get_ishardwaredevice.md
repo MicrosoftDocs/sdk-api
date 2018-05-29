@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICspInformation.get_IsHardwareDevice
 title: ICspInformation::get_IsHardwareDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a Boolean value that determines whether the provider is implemented in a hardware device.
 old-location: security\icspinformation_ishardwaredevice_property.htm
 old-project: SecCertEnroll
 ms.assetid: d69ade8c-3b74-4391-9048-6511f3d7e9fa
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICspInformation interface [Security],IsHardwareDevice property, ICspInformation.IsHardwareDevice, ICspInformation.get_IsHardwareDevice, ICspInformation::IsHardwareDevice, ICspInformation::get_IsHardwareDevice, IsHardwareDevice property [Security], IsHardwareDevice property [Security],ICspInformation interface, certenroll/ICspInformation::IsHardwareDevice, certenroll/ICspInformation::get_IsHardwareDevice, get_IsHardwareDevice, security.icspinformation_ishardwaredevice_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

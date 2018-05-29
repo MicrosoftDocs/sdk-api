@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPCdromBurn
 title: IWMPCdromBurn
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPCdromBurn interface provides methods to manage creating audio CDs.
 old-location: wmp\iwmpcdromburn.htm
 old-project: WMP
 ms.assetid: 45116a33-62f9-4c7d-b246-25905cbaf118
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPCdromBurn, IWMPCdromBurn interface [Windows Media Player], IWMPCdromBurn interface [Windows Media Player],described, IWMPCdromBurnInterface, wmp.iwmpcdromburn, wmp/IWMPCdromBurn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

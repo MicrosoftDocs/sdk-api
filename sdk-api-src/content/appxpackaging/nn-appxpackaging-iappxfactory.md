@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxFactory
 title: IAppxFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates objects for reading and writing app packages.
 old-location: appxpkg\iappxfactory.htm
 old-project: appxpkg
 ms.assetid: 4EA79D44-7C26-4B65-81A1-394E1E540F34
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxFactory, IAppxFactory interface [App packaging and management], IAppxFactory interface [App packaging and management],described, appxpackaging/IAppxFactory, appxpkg.iappxfactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

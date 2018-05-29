@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj_core.SHARDAPPIDINFO
 title: SHARDAPPIDINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains data used by SHAddToRecentDocs to identify both an item&#8212;in this case as an IShellItem&#8212;and the process that it is associated with.
 old-location: shell\SHARDAPPIDINFO.htm
 old-project: shell
 ms.assetid: bb2b7e86-04ca-4dd0-944b-a95e8a0be1e0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHARDAPPIDINFO, SHARDAPPIDINFO structure [Windows Shell], _shell_SHARDAPPIDINFO, shell.SHARDAPPIDINFO, shlobj_core/SHARDAPPIDINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

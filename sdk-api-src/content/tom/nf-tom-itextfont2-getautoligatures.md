@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont2.GetAutoLigatures
 title: ITextFont2::GetAutoLigatures
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets whether support for automatic ligatures is active.
 old-location: controls\itextfont2_getautoligatures.htm
 old-project: Controls
 ms.assetid: f8209c34-139c-45e6-b110-f6d3d76f5575
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetAutoLigatures, GetAutoLigatures method [Windows Controls], GetAutoLigatures method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetAutoLigatures method, ITextFont2.GetAutoLigatures, ITextFont2::GetAutoLigatures, controls.itextfont2_getautoligatures, tom/ITextFont2::GetAutoLigatures
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

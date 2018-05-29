@@ -1,16 +1,16 @@
 ---
 UID: NF:dwrite_3.AddFontFaceReference
 title: AddFontFaceReference function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a reference to a font to the set being built.
 old-location: directwrite\idwritefontsetbuilder_addfontfacereference_overload.htm
 old-project: DirectWrite
 ms.assetid: 2543720f-1b5a-ca1d-9e24-3fcd61a4de37
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: AddFontFaceReference, AddFontFaceReference methods [Direct Write], IDWriteFontSetBuilder::AddFontFaceReference, directwrite.idwritefontsetbuilder_addfontfacereference_overload, dwrite_3/AddFontFaceReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dwrite_3.h
 req.include-header: 

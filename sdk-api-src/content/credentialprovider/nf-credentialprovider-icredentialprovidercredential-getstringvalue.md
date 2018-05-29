@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetStringValue
 title: ICredentialProviderCredential::GetStringValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables retrieval of text from a credential with a text field.
 old-location: shell\ICredentialProviderCredential_GetStringValue.htm
 old-project: shell
 ms.assetid: b891c735-9822-4bc1-a1cc-0c50b35c03c4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetStringValue, GetStringValue method [Windows Shell], GetStringValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetStringValue method, ICredentialProviderCredential.GetStringValue, ICredentialProviderCredential::GetStringValue, credentialprovider/ICredentialProviderCredential::GetStringValue, shell.ICredentialProviderCredential_GetStringValue, shell_ICredentialProviderCredential_GetStringValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

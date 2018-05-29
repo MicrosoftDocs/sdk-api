@@ -1,16 +1,16 @@
 ---
 UID: NS:setupapi._SP_INF_SIGNER_INFO_V2_A
 title: "_SP_INF_SIGNER_INFO_V2_A"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SP_INF_SIGNER_INFO structure stores information about an INF file's digital signature.
 old-location: setup\sp_inf_signer_info.htm
 old-project: SetupApi
 ms.assetid: 50ceee47-3a89-4bd7-8508-5a4d75514861
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PSP_INF_SIGNER_INFO_V2_A, PSP_INF_SIGNER_INFO, PSP_INF_SIGNER_INFO structure pointer [Setup API], SP_INF_SIGNER_INFO, SP_INF_SIGNER_INFO structure [Setup API], SP_INF_SIGNER_INFO_A, SP_INF_SIGNER_INFO_V2, SP_INF_SIGNER_INFO_V2_A, _SP_INF_SIGNER_INFO_V2_A, _setupapi_filepaths_signerinfo, setup.sp_inf_signer_info, setupapi/PSP_INF_SIGNER_INFO, setupapi/SP_INF_SIGNER_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: 

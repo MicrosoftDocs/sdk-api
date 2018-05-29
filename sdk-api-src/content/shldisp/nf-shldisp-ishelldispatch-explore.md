@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.Explore
 title: IShellDispatch::Explore
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a specified folder in a Windows Explorer window.
 old-location: shell\IShellDispatch_Explore.htm
 old-project: shell
 ms.assetid: DB434D02-56B2-4e8f-9E43-BBF47C7BE377
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Explore, Explore method [Windows Shell], Explore method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],Explore method, IShellDispatch.Explore, IShellDispatch::Explore, shell.IShellDispatch_Explore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

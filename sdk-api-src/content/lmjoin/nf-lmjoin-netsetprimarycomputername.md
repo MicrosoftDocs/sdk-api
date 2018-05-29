@@ -1,16 +1,16 @@
 ---
 UID: NF:lmjoin.NetSetPrimaryComputerName
 title: NetSetPrimaryComputerName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the primary computer name for the specified computer.
 old-location: netmgmt\netsetprimarycomputername.htm
 old-project: NetMgmt
 ms.assetid: 524c8219-a303-45ab-95e2-91319b477568
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetSetPrimaryComputerName, NetSetPrimaryComputerName function [Network Management], lmjoin/NetSetPrimaryComputerName, netmgmt.netsetprimarycomputername
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmjoin.h
 req.include-header: Lm.h

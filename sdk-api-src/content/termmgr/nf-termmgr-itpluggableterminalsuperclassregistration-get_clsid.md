@@ -1,16 +1,16 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.get_CLSID
 title: ITPluggableTerminalSuperclassRegistration::get_CLSID
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CLSID method gets the CLSID used to CoCreateInstance the terminal.
 old-location: tapi3\itpluggableterminalsuperclassregistration_get_clsid.htm
 old-project: Tapi
 ms.assetid: d343284c-ffe1-4491-8476-37bcdd6e1a97
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],get_CLSID method, ITPluggableTerminalSuperclassRegistration.get_CLSID, ITPluggableTerminalSuperclassRegistration::get_CLSID, _tapi3_itpluggableterminalsuperclassregistration_get_clsid, get_CLSID, get_CLSID method [TAPI 2.2], get_CLSID method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, tapi3.itpluggableterminalsuperclassregistration_get_clsid, termmgr/ITPluggableTerminalSuperclassRegistration::get_CLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: termmgr.h
 req.include-header: 

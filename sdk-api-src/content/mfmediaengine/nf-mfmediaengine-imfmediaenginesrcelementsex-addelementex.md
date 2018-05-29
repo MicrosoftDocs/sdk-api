@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElementsEx.AddElementEx
 title: IMFMediaEngineSrcElementsEx::AddElementEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides an enhanced version of IMFMediaEngineSrcElements::AddElement to add the key system intended to be used with content to an element.
 old-location: mf\imfmediaenginesrcelementsex_addelementex.htm
 old-project: medfound
 ms.assetid: ad799c61-3ffb-4879-a875-d218c0b56e1c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddElementEx, AddElementEx method [Media Foundation], AddElementEx method [Media Foundation],IMFMediaEngineSrcElementsEx interface, IMFMediaEngineSrcElementsEx interface [Media Foundation],AddElementEx method, IMFMediaEngineSrcElementsEx.AddElementEx, IMFMediaEngineSrcElementsEx::AddElementEx, mf.imfmediaenginesrcelementsex_addelementex, mfmediaengine/IMFMediaEngineSrcElementsEx::AddElementEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

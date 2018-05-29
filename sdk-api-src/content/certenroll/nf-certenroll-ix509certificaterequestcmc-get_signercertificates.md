@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_SignerCertificates
 title: IX509CertificateRequestCmc::get_SignerCertificates
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a collection of certificates used to sign the request.
 old-location: security\ix509certificaterequestcmc_signercertificates_property.htm
 old-project: SecCertEnroll
 ms.assetid: 0b963fe2-32bd-4f99-9d4f-b17cb2d65909
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],SignerCertificates property, IX509CertificateRequestCmc.SignerCertificates, IX509CertificateRequestCmc.get_SignerCertificates, IX509CertificateRequestCmc::SignerCertificates, IX509CertificateRequestCmc::get_SignerCertificates, SignerCertificates property [Security], SignerCertificates property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::SignerCertificates, certenroll/IX509CertificateRequestCmc::get_SignerCertificates, get_SignerCertificates, security.ix509certificaterequestcmc_signercertificates_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

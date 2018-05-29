@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IBandSite.QueryBand
 title: IBandSite::QueryBand
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information about a band in a band site.
 old-location: shell\IBandSite_QueryBand.htm
 old-project: shell
 ms.assetid: 0618ad7d-4e8f-4fbf-ab64-2b1c0d42158c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBandSite interface [Windows Shell],QueryBand method, IBandSite.QueryBand, IBandSite::QueryBand, QueryBand, QueryBand method [Windows Shell], QueryBand method [Windows Shell],IBandSite interface, _win32_IBandSite_QueryBand, shell.IBandSite_QueryBand, shobjidl_core/IBandSite::QueryBand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h

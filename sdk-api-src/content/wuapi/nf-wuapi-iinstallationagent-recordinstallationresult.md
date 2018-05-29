@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IInstallationAgent.RecordInstallationResult
 title: IInstallationAgent::RecordInstallationResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Records the result for an update. The result is specified by an IStringCollection object.
 old-location: wua\iinstallationagent_recordinstallationresult.htm
 old-project: Wua_Sdk
 ms.assetid: E2DD54E3-741E-4647-9993-A9476279BD6C
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IInstallationAgent interface [Windows Update Agent],RecordInstallationResult method, IInstallationAgent.RecordInstallationResult, IInstallationAgent::RecordInstallationResult, RecordInstallationResult, RecordInstallationResult method [Windows Update Agent], RecordInstallationResult method [Windows Update Agent],IInstallationAgent interface, wua.iinstallationagent_recordinstallationresult, wuapi/IInstallationAgent::RecordInstallationResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

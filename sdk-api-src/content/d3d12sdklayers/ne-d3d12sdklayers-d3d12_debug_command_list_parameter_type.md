@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12sdklayers.D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE
 title: D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the debug parameter type used by ID3D12DebugCommandList1::SetDebugParameter and ID3D12DebugCommandList1::GetDebugParameter.
 old-location: direct3d12\d3d12_debug_command_list_parameter_type.htm
 old-project: direct3d12
 ms.assetid: ED8E6A7C-4D30-4396-B2D6-C09C18284B4D
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_DEBUG_COMMAND_LIST_PARAMETER_GPU_BASED_VALIDATION_SETTINGS, D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE, D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE enumeration, d3d12sdklayers/D3D12_DEBUG_COMMAND_LIST_PARAMETER_GPU_BASED_VALIDATION_SETTINGS, d3d12sdklayers/D3D12_DEBUG_COMMAND_LIST_PARAMETER_TYPE, direct3d12.d3d12_debug_command_list_parameter_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12sdklayers.h
 req.include-header: 

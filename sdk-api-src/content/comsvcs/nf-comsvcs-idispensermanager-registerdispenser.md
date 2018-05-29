@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IDispenserManager.RegisterDispenser
 title: IDispenserManager::RegisterDispenser
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers the resource dispenser with the dispenser manager.
 old-location: cos\idispensermanager_registerdispenser.htm
 old-project: cossdk
 ms.assetid: 18633c7f-d589-4e38-82e7-7cdae3fbf1ba
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDispenserManager interface [COM+],RegisterDispenser method, IDispenserManager.RegisterDispenser, IDispenserManager::RegisterDispenser, RegisterDispenser, RegisterDispenser method [COM+], RegisterDispenser method [COM+],IDispenserManager interface, _dtc_IDispenserManager_RegisterDispenser, comsvcs/IDispenserManager::RegisterDispenser, cos.idispensermanager_registerdispenser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

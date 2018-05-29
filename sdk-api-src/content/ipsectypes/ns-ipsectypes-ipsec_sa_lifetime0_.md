@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_LIFETIME0_
 title: IPSEC_SA_LIFETIME0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores the lifetime in seconds/kilobytes/packets for an IPsec security association (SA).
 old-location: fwp\ipsec_sa_lifetime0_struct.htm
 old-project: FWP
 ms.assetid: 9ade5a9a-5c48-4a94-bb35-77f9866e8e6f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_SA_LIFETIME0, IPSEC_SA_LIFETIME0 structure [Filtering], IPSEC_SA_LIFETIME0_, fwp.ipsec_sa_lifetime0_struct, ipsectypes/IPSEC_SA_LIFETIME0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

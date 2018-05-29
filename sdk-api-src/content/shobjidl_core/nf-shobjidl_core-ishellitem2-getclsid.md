@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetCLSID
 title: IShellItem2::GetCLSID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the class identifier (CLSID) value of specified property key.
 old-location: shell\IShellItem2_GetCLSID.htm
 old-project: shell
 ms.assetid: 95b0c5fb-db09-4db0-8253-708f2dc2944b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCLSID, GetCLSID method [Windows Shell], GetCLSID method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetCLSID method, IShellItem2.GetCLSID, IShellItem2::GetCLSID, _shell_IShellItem2_GetCLSID, shell.IShellItem2_GetCLSID, shobjidl_core/IShellItem2::GetCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

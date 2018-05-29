@@ -1,16 +1,16 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.put_AttachedEditWindow
 title: ITextInputPanel::put_AttachedEditWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the window handle of the object to which the ITextInputPanel object is attached.
 old-location: tablet\itextinputpanel_attachededitwindow.htm
 old-project: tablet
 ms.assetid: 92a8510d-c8f2-44b4-8812-789ddbc0e3fd
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 92a8510d-c8f2-44b4-8812-789ddbc0e3fd, AttachedEditWindow property [Tablet PC], AttachedEditWindow property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],AttachedEditWindow property, ITextInputPanel.AttachedEditWindow, ITextInputPanel.get_AttachedEditWindow, ITextInputPanel.put_AttachedEditWindow, ITextInputPanel::AttachedEditWindow, ITextInputPanel::get_AttachedEditWindow, ITextInputPanel::put_AttachedEditWindow, peninputpanel/ITextInputPanel::AttachedEditWindow, peninputpanel/ITextInputPanel::get_AttachedEditWindow, peninputpanel/ITextInputPanel::put_AttachedEditWindow, put_AttachedEditWindow, tablet.itextinputpanel_attachededitwindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

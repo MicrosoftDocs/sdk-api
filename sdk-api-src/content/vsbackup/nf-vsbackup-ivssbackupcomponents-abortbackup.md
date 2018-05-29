@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AbortBackup
 title: IVssBackupComponents::AbortBackup
-author: windows-driver-content
+author: windows-sdk-content
 description: The AbortBackup method notifies VSS that a backup operation was terminated.
 old-location: base\ivssbackupcomponents_abortbackup.htm
 old-project: VSS
 ms.assetid: e854ab83-9a1a-4660-8a3e-37747b1b7d8c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AbortBackup, AbortBackup method [VSS], AbortBackup method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AbortBackup method, IVssBackupComponents.AbortBackup, IVssBackupComponents::AbortBackup, _win32_ivssbackupcomponents_abortbackup, base.ivssbackupcomponents_abortbackup, vsbackup/IVssBackupComponents::AbortBackup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryReader.GetMetadataByName
 title: IWICMetadataQueryReader::GetMetadataByName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the metadata block or item identified by a metadata query expression.
 old-location: wic\_wic_codec_iwicmetadataqueryreader_getmetadatabyname.htm
 old-project: wic
 ms.assetid: 29d53a14-0509-4a96-9b8b-59952770559a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetMetadataByName, GetMetadataByName method [Windows Imaging Component], GetMetadataByName method [Windows Imaging Component],IWICMetadataQueryReader interface, IWICMetadataQueryReader interface [Windows Imaging Component],GetMetadataByName method, IWICMetadataQueryReader.GetMetadataByName, IWICMetadataQueryReader::GetMetadataByName, _wic_codec_iwicmetadataqueryreader_getmetadatabyname, wic._wic_codec_iwicmetadataqueryreader_getmetadatabyname, wincodec/IWICMetadataQueryReader::GetMetadataByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

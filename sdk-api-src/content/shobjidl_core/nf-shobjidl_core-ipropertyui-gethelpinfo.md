@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.GetHelpInfo
 title: IPropertyUI::GetHelpInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Developers should use IPropertyDescription instead.
 old-location: properties\IPropertyUI_GetHelpInfo.htm
 old-project: properties
 ms.assetid: 165ABA55-7CDB-48cf-AE14-DA314197BA42
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetHelpInfo, GetHelpInfo method [Windows Properties], GetHelpInfo method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetHelpInfo method, IPropertyUI.GetHelpInfo, IPropertyUI::GetHelpInfo, _shell_IPropertyUI_GetHelpInfo, properties.IPropertyUI_GetHelpInfo, shell.IPropertyUI_GetHelpInfo, shobjidl_core/IPropertyUI::GetHelpInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 

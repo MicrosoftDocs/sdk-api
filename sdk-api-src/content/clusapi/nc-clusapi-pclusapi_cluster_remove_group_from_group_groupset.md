@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET
 title: PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the specified group from the groupset to which it is currently a member.
 old-location: mscs\clusterremovegroupfromgroupcollection.htm
 old-project: MsCS
 ms.assetid: 26fdf045-0c7d-49ca-adc4-2f687e85b858
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET, PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET callback, PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET callback function [Failover Cluster], clusapi/PCLUSAPI_CLUSTER_REMOVE_GROUP_FROM_GROUP_GROUPSET, mscs.clusterremovegroupfromgroupcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

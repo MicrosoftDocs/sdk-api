@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX
 title: PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX
-author: windows-driver-content
+author: windows-sdk-content
 description: Adjusts the start parameters of a specified service so that it operates correctly as a cluster resource. It must be called from a resource DLL. The PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX type defines a pointer to this function.
 old-location: mscs\resutilsetresourceservicestartparametersex.htm
 old-project: MsCS
 ms.assetid: 12F1AD70-4B6C-4920-855C-C55C8F423C69
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX, PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX callback, PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX callback function [Failover Cluster], mscs.resutilsetresourceservicestartparametersex, resapi/PRESUTIL_SET_RESOURCE_SERVICE_START_PARAMETERS_EX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

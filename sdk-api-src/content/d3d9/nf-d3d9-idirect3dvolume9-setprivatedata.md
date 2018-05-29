@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DVolume9.SetPrivateData
 title: IDirect3DVolume9::SetPrivateData
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates data with the volume that is intended for use by the application, not by Direct3D.
 old-location: direct3d9\idirect3dvolume9__setprivatedata.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__setprivatedata.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: IDirect3DVolume9 interface [Direct3D 9],SetPrivateData method, IDirect3DVolume9.SetPrivateData, IDirect3DVolume9::SetPrivateData, SetPrivateData, SetPrivateData method [Direct3D 9], SetPrivateData method [Direct3D 9],IDirect3DVolume9 interface, d3d9helper/IDirect3DVolume9::SetPrivateData, direct3d9.idirect3dvolume9__setprivatedata, e78e1093-63e6-c468-61fa-034b8ab6af7a
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

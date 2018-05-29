@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.SetBreakOnCategory
 title: IDXGIInfoQueue::SetBreakOnCategory
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a message category to break on when a message with that category passes through the storage filter.
 old-location: direct3ddxgi\idxgiinfoqueue_setbreakoncategory.htm
 old-project: direct3ddxgi
 ms.assetid: 834C803B-EA7D-4D4C-B74E-9CF7914E0A4E
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],SetBreakOnCategory method, IDXGIInfoQueue.SetBreakOnCategory, IDXGIInfoQueue::SetBreakOnCategory, SetBreakOnCategory, SetBreakOnCategory method [DXGI], SetBreakOnCategory method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setbreakoncategory, dxgidebug/IDXGIInfoQueue::SetBreakOnCategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

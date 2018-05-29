@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITrigger.get_Id
 title: ITrigger::get_Id
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the identifier for the trigger.
 old-location: taskschd\itrigger_id.htm
 old-project: TaskSchd
 ms.assetid: 7cf26e63-2517-44a0-9a12-06c2a903c089
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITrigger interface [Task Scheduler],Id property, ITrigger.Id, ITrigger.get_Id, ITrigger::Id, ITrigger::get_Id, ITrigger::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],ITrigger interface, get_Id, taskschd.itrigger_id, taskschd/ITrigger::Id, taskschd/ITrigger::get_Id, taskschd/ITrigger::put_Id
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

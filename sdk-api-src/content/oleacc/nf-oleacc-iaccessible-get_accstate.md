@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccessible.get_accState
 title: IAccessible::get_accState
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAccessible::get_accState method retrieves the current state of the specified object. All objects support this property.
 old-location: winauto\iaccessible_iaccessible__get_accstate.htm
 old-project: WinAuto
 ms.assetid: e6b7e0dd-407a-4e82-889b-31ad999a72ca
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accState method, IAccessible.get_accState, IAccessible::get_accState, _msaa_IAccessible_get_accState, get_accState, get_accState method [Windows Accessibility], get_accState method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accstate, oleacc/IAccessible::get_accState, winauto.iaccessible_iaccessible__get_accstate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 

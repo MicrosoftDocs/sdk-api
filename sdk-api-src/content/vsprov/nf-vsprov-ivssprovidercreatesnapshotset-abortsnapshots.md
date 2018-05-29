@@ -1,16 +1,16 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.AbortSnapshots
 title: IVssProviderCreateSnapshotSet::AbortSnapshots
-author: windows-driver-content
+author: windows-sdk-content
 description: Aborts prepared shadow copies in this provider.
 old-location: base\ivssprovidercreatesnapshotset_abortsnapshots.htm
 old-project: VSS
 ms.assetid: 393fd5aa-9934-4918-8699-25c41d0dc982
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AbortSnapshots, AbortSnapshots method [VSS], AbortSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],AbortSnapshots method, IVssProviderCreateSnapshotSet.AbortSnapshots, IVssProviderCreateSnapshotSet::AbortSnapshots, base.ivssprovidercreatesnapshotset_abortsnapshots, vsprov/IVssProviderCreateSnapshotSet::AbortSnapshots
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

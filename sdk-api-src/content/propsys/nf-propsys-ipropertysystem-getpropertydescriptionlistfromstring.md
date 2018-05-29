@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertySystem.GetPropertyDescriptionListFromString
 title: IPropertySystem::GetPropertyDescriptionListFromString
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an instance of the subsystem object that implements IPropertyDescriptionList, to obtain an ordered collection of property descriptions, based on the provided string.
 old-location: properties\IPropertySystem_GetPropertyDescriptionListFromString.htm
 old-project: properties
 ms.assetid: 73e61bf0-32d0-4c2c-bf2e-b28ea00cbfd3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPropertyDescriptionListFromString, GetPropertyDescriptionListFromString method [Windows Properties], GetPropertyDescriptionListFromString method [Windows Properties],IPropertySystem interface, IPropertySystem interface [Windows Properties],GetPropertyDescriptionListFromString method, IPropertySystem.GetPropertyDescriptionListFromString, IPropertySystem::GetPropertyDescriptionListFromString, properties.IPropertySystem_GetPropertyDescriptionListFromString, propsys/IPropertySystem::GetPropertyDescriptionListFromString, shell.IPropertySystem_GetPropertyDescriptionListFromString, shell_IPropertySystem_GetPropertyDescriptionListFromString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

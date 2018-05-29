@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnSmsReadMsgPdu
 title: IMbnSmsReadMsgPdu
-author: windows-driver-content
+author: windows-sdk-content
 description: A collection of properties that represent an SMS message read from the device memory.
 old-location: mbn\imbnsmsreadmsgpdu.htm
 old-project: mbn
 ms.assetid: dc0e15c4-6203-4105-9d19-5931b27047d2
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnSmsReadMsgPdu, IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks], IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],described, mbn.imbnsmsreadmsgpdu, mbnapi/IMbnSmsReadMsgPdu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

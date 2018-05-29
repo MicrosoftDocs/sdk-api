@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.DeleteFont
 title: DeleteFont macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The DeleteFont macro deletes a font object, freeing all system resources associated with the font object.
 old-location: gdi\deletefont.htm
 old-project: gdi
 ms.assetid: 5cb6c667-3c8b-41cf-b2b7-9e1e89729da7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DeleteFont, DeleteFont macro [Windows GDI], _win32_DeleteFont, gdi.deletefont, windowsx/DeleteFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

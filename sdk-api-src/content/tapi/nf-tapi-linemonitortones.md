@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineMonitorTones
 title: lineMonitorTones function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineMonitorTones function enables and disables the detection of inband tones on the call. Each time a specified tone is detected, a message is sent to the application.
 old-location: tapi2\linemonitortones.htm
 old-project: Tapi
 ms.assetid: 47fe21f2-7896-4ccf-8c26-33430b2081ac
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linemonitortones, lineMonitorTones, lineMonitorTones function [TAPI 2.2], tapi/lineMonitorTones, tapi2.linemonitortones"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

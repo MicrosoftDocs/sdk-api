@@ -1,16 +1,16 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0022
 title: "__MIDL___MIDL_itf_ads_0000_0000_0022"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADS_PREFERENCES_ENUM enumeration specifies the query preferences of the OLE DB provider for ADSI.
 old-location: adsi\ads_preferences_enum.htm
 old-project: ADSI
 ms.assetid: 9a6e3235-b7a6-4f63-910c-0d286b3be018
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ADSIPROP_ADSIFLAG, ADSIPROP_ASYNCHRONOUS, ADSIPROP_ATTRIBTYPES_ONLY, ADSIPROP_CACHE_RESULTS, ADSIPROP_CHASE_REFERRALS, ADSIPROP_DEREF_ALIASES, ADSIPROP_PAGED_TIME_LIMIT, ADSIPROP_PAGESIZE, ADSIPROP_SEARCH_SCOPE, ADSIPROP_SIZE_LIMIT, ADSIPROP_SORT_ON, ADSIPROP_TIMEOUT, ADSIPROP_TIME_LIMIT, ADS_PREFERENCES_ENUM, ADS_PREFERENCES_ENUM enumeration [ADSI], __MIDL___MIDL_itf_ads_0000_0000_0022, _ds_ads_preferences_enum, adsi.ads__preferences__enum, adsi.ads_preferences_enum, iads/ADSIPROP_ADSIFLAG, iads/ADSIPROP_ASYNCHRONOUS, iads/ADSIPROP_ATTRIBTYPES_ONLY, iads/ADSIPROP_CACHE_RESULTS, iads/ADSIPROP_CHASE_REFERRALS, iads/ADSIPROP_DEREF_ALIASES, iads/ADSIPROP_PAGED_TIME_LIMIT, iads/ADSIPROP_PAGESIZE, iads/ADSIPROP_SEARCH_SCOPE, iads/ADSIPROP_SIZE_LIMIT, iads/ADSIPROP_SORT_ON, iads/ADSIPROP_TIMEOUT, iads/ADSIPROP_TIME_LIMIT, iads/ADS_PREFERENCES_ENUM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: iads.h
 req.include-header: 

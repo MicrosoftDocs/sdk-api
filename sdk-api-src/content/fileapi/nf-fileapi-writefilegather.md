@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.WriteFileGather
 title: WriteFileGather function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves data from an array of buffers and writes the data to a file.
 old-location: fs\writefilegather.htm
 old-project: FileIO
 ms.assetid: 9590eabb-6e85-406e-8101-e67f87e6850b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WriteFileGather, WriteFileGather function [Files], _win32_writefilegather, base.writefilegather, fileapi/WriteFileGather, fs.writefilegather, winbase/WriteFileGather
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

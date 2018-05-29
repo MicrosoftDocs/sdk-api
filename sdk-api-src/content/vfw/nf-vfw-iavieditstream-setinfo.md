@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.IAVIEditStream.SetInfo
 title: IAVIEditStream::SetInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetInfo method changes the characteristics of a stream. Called when an application uses the EditStreamSetInfo function.
 old-location: multimedia\iavieditstream_setinfo.htm
 old-project: Multimedia
 ms.assetid: 46496c24-cbe0-4234-8683-f39fa58e076b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IAVIEditStream interface [Windows Multimedia],SetInfo method, IAVIEditStream.SetInfo, IAVIEditStream::SetInfo, SetInfo, SetInfo method [Windows Multimedia], SetInfo method [Windows Multimedia],IAVIEditStream interface, _win32_IAVIEditStream_SetInfo, multimedia.iavieditstream_setinfo, vfw/IAVIEditStream::SetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vfw.h
 req.include-header: 

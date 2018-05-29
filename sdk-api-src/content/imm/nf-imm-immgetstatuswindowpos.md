@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmGetStatusWindowPos
 title: ImmGetStatusWindowPos function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the position of the status window.
 old-location: intl\immgetstatuswindowpos.htm
 old-project: Intl
 ms.assetid: 785d8523-14a7-4443-8326-34ca197b1cff
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmGetStatusWindowPos, ImmGetStatusWindowPos function [Internationalization for Windows Applications], _win32_ImmGetStatusWindowPos, imm/ImmGetStatusWindowPos, intl.immgetstatuswindowpos
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

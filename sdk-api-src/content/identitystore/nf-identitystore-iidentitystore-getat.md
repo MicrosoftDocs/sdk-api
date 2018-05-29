@@ -1,16 +1,16 @@
 ---
 UID: NF:identitystore.IIdentityStore.GetAt
 title: IIdentityStore::GetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IIdentityProvider interface pointer for the specified identity provider.
 old-location: security\iidentitystore_getat.htm
 old-project: SecAuthN
 ms.assetid: c62212bf-852b-43fb-9abf-b85f4d15b305
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetAt, GetAt method [Security], GetAt method [Security],IIdentityStore interface, IIdentityStore interface [Security],GetAt method, IIdentityStore.GetAt, IIdentityStore::GetAt, identitystore/IIdentityStore::GetAt, security.iidentitystore_getat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: identitystore.h
 req.include-header: 

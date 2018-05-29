@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.OffsetRect
 title: OffsetRect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The OffsetRect function moves the specified rectangle by the specified offsets.
 old-location: gdi\offsetrect.htm
 old-project: gdi
 ms.assetid: 14101ad3-8c6e-459a-974a-1a8a4d8d7906
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: OffsetRect, OffsetRect function [Windows GDI], _win32_OffsetRect, gdi.offsetrect, winuser/OffsetRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

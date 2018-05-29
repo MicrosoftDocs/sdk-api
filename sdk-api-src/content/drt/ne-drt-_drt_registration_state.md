@@ -1,16 +1,16 @@
 ---
 UID: NE:drt._DRT_REGISTRATION_STATE
 title: "_DRT_REGISTRATION_STATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DRT_REGISTRATION_STATE enumeration defines the set of legal states for a registered key.
 old-location: p2p\drt_registration_state.htm
 old-project: P2PSdk
 ms.assetid: 4c383efb-fedb-4f6f-9ae7-48fdf42887ac
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*PDRT_REGISTRATION_STATE, DRT_REGISTRATION_STATE, DRT_REGISTRATION_STATE enumeration [Distributed Routing Tables], DRT_REGISTRATION_STATE_UNRESOLVEABLE, _DRT_REGISTRATION_STATE, drt/DRT_REGISTRATION_STATE, drt/DRT_REGISTRATION_STATE_UNRESOLVEABLE, p2p.drt_registration_state"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: drt.h
 req.include-header: 

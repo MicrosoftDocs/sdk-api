@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetCountOfTableDescriptors
 title: IISDB_CDT::GetCountOfTableDescriptors
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of descriptors for logos in an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getcountoftabledescriptors.htm
 old-project: mstv
 ms.assetid: ea01a53f-8d0b-4594-87b4-d293901fca19
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IISDB_CDT.GetCountOfTableDescriptors, IISDB_CDT::GetCountOfTableDescriptors, dvbsiparser/IISDB_CDT::GetCountOfTableDescriptors, mstv.iisdb_cdt_getcountoftabledescriptors
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

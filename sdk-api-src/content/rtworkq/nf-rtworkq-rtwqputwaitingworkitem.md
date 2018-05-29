@@ -1,16 +1,16 @@
 ---
 UID: NF:rtworkq.RtwqPutWaitingWorkItem
 title: RtwqPutWaitingWorkItem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Queues a work item that waits for an event to be signaled.
 old-location: base\rtwqputwaitingworkitem.htm
 old-project: ProcThread
 ms.assetid: 7cc7dd44-0949-49f7-8a8f-cc309650b763
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtwqPutWaitingWorkItem, RtwqPutWaitingWorkItem function, base.rtwqputwaitingworkitem, rtworkq/RtwqPutWaitingWorkItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPCore.get_controls
 title: IWMPCore::get_controls
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_controls method retrieves a pointer to an IWMPControls interface.
 old-location: wmp\iwmpcore_get_controls.htm
 old-project: WMP
 ms.assetid: 54d013f1-d71b-4b6a-90b4-0226022a2a0f
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_controls method, IWMPCore.get_controls, IWMPCore::get_controls, IWMPCoreget_controls, get_controls, get_controls method [Windows Media Player], get_controls method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_controls, wmp/IWMPCore::get_controls
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:mapi.MapiFileTagExt
 title: MapiFileTagExt
-author: windows-driver-content
+author: windows-sdk-content
 description: A MapiFileTagExt structure specifies a message attachment's type at its creation and its current form of encoding so that it can be restored to its original type at its destination.
 old-location: mapi\mapifiletagext.htm
 old-project: WindowsMAPI
 ms.assetid: 5f6de637-14a8-46bb-a53e-f355d7592222
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*lpMapiFileTagExt, MapiFileTagExt, MapiFileTagExt structure, lpMapiFileTagExt, lpMapiFileTagExt structure pointer, mapi.mapifiletagext, mapi/MapiFileTagExt, mapi/lpMapiFileTagExt"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mapi.h
 req.include-header: 

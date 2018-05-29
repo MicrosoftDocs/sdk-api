@@ -1,16 +1,16 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.RemoveAllKeys
 title: IWbemPathKeyList::RemoveAllKeys
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemPathKeyList::RemoveAllKeys method removes all keys.
 old-location: wmi\iwbempathkeylist_removeallkeys.htm
 old-project: WmiSdk
 ms.assetid: 57c36ecd-7a24-4055-b373-9193fd945363
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],RemoveAllKeys method, IWbemPathKeyList.RemoveAllKeys, IWbemPathKeyList::RemoveAllKeys, RemoveAllKeys, RemoveAllKeys method [Windows Management Instrumentation], RemoveAllKeys method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_removeallkeys, wmi.iwbempathkeylist_removeallkeys, wmiutils/IWbemPathKeyList::RemoveAllKeys
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

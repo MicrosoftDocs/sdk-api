@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCertificateSet
 title: IOpcSigningOptions::GetCertificateSet
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IOpcCertificateSet interface pointer.
 old-location: opc\iopcsigningoptions_getcertificateset.htm
 old-project: OPC
 ms.assetid: df212397-7ec9-4a42-bebb-61799b7ca78e
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetCertificateSet, GetCertificateSet method [Open Packaging Conventions], GetCertificateSet method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetCertificateSet method, IOpcSigningOptions.GetCertificateSet, IOpcSigningOptions::GetCertificateSet, msopc/IOpcSigningOptions::GetCertificateSet, opc.iopcsigningoptions_getcertificateset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

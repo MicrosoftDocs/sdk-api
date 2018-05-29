@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_SERVICE_SECURITY_CALLBACK
 title: WS_SERVICE_SECURITY_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Invoked when headers of the incoming message are received and the body is not processed.
 old-location: wsw\ws_service_security_callback.htm
 old-project: wsw
 ms.assetid: 0fa127ea-a715-4f21-8b49-3c2705c2bf5d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SERVICE_SECURITY_CALLBACK, WS_SERVICE_SECURITY_CALLBACK callback, WS_SERVICE_SECURITY_CALLBACK callback function [Web Services for Windows], webservices/WS_SERVICE_SECURITY_CALLBACK, wsw.ws_service_security_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

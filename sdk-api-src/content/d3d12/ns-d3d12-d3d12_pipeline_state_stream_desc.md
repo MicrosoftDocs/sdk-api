@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_PIPELINE_STATE_STREAM_DESC
 title: D3D12_PIPELINE_STATE_STREAM_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a pipeline state stream.
 old-location: direct3d12\d3d12_pipeline_state_stream_desc.htm
 old-project: direct3d12
 ms.assetid: 2CC9051B-09B1-49F5-9392-3E0AE3AB1277
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_PIPELINE_STATE_STREAM_DESC, D3D12_PIPELINE_STATE_STREAM_DESC structure, d3d12/D3D12_PIPELINE_STATE_STREAM_DESC, direct3d12.d3d12_pipeline_state_stream_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

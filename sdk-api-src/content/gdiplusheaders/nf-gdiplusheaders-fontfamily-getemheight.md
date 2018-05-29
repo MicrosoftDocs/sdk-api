@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GetEmHeight
 title: FontFamily::GetEmHeight
-author: windows-driver-content
+author: windows-sdk-content
 description: The FontFamily::GetEmHeight method gets the size (commonly called em size or em height), in design units, of this font family.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetEmHeight_style_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getemheight.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FontFamily class [GDI+],GetEmHeight method, FontFamily.GetEmHeight, FontFamily::GetEmHeight, GetEmHeight, GetEmHeight method [GDI+], GetEmHeight method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetEmHeight_style_, gdiplus._gdiplus_CLASS_FontFamily_GetEmHeight_style_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

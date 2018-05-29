@@ -1,16 +1,16 @@
 ---
 UID: NN:eventsys.IMultiInterfacePublisherFilter
 title: IMultiInterfacePublisherFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages a filtered subscription cache for an event method.
 old-location: cos\imultiinterfacepublisherfilter.htm
 old-project: cossdk
 ms.assetid: f20f778b-fdd5-4c34-871b-d03cd1cd31cc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMultiInterfacePublisherFilter, IMultiInterfacePublisherFilter interface [COM+], IMultiInterfacePublisherFilter interface [COM+],described, _cos_IMultiInterfacePublisherFilter, cos.imultiinterfacepublisherfilter, eventsys/IMultiInterfacePublisherFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: eventsys.h
 req.include-header: 

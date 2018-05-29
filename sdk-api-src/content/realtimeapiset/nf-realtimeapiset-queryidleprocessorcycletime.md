@@ -1,16 +1,16 @@
 ---
 UID: NF:realtimeapiset.QueryIdleProcessorCycleTime
 title: QueryIdleProcessorCycleTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the cycle time for the idle thread of each processor in the system.
 old-location: base\queryidleprocessorcycletime.htm
 old-project: ProcThread
 ms.assetid: 75a5c4cf-ccc7-47ab-a2a9-88051e0a7d06
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: QueryIdleProcessorCycleTime, QueryIdleProcessorCycleTime function, base.queryidleprocessorcycletime, realtimeapiset/QueryIdleProcessorCycleTime, winbase/QueryIdleProcessorCycleTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: realtimeapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

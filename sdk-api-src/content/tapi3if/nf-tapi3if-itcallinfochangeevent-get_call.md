@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCallInfoChangeEvent.get_Call
 title: ITCallInfoChangeEvent::get_Call
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Call method returns the ITCallInfo interface on which call information has changed.
 old-location: tapi3\itcallinfochangeevent_get_call.htm
 old-project: Tapi
 ms.assetid: ee6c4f2f-e53c-4eae-b86c-2849395cca74
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallInfoChangeEvent interface [TAPI 2.2],get_Call method, ITCallInfoChangeEvent.get_Call, ITCallInfoChangeEvent::get_Call, _tapi3_itcallinfochangeevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITCallInfoChangeEvent interface, tapi3.itcallinfochangeevent_get_call, tapi3if/ITCallInfoChangeEvent::get_Call
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

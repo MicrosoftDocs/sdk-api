@@ -1,16 +1,16 @@
 ---
 UID: NF:ondemandconnroutehelper.OnDemandUnRegisterNotification
 title: OnDemandUnRegisterNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnDemandUnregisterNotification function allows an application to unregister for notifications and clean up resources.
 old-location: nla\ondemandunregisternotification.htm
 old-project: NLA
 ms.assetid: A7FA6035-D089-4A65-8F4E-F8722C147B0F
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: OnDemandUnRegisterNotification, OnDemandUnregisterNotification, OnDemandUnregisterNotification function [Network Awareness], nla.ondemandunregisternotification, ondemandconnroutehelper/OnDemandUnregisterNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ondemandconnroutehelper.h
 req.include-header: 

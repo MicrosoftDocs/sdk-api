@@ -1,16 +1,16 @@
 ---
 UID: NE:mfapi._MFWaveFormatExConvertFlags
 title: "_MFWaveFormatExConvertFlags"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains flags that specify how to convert an audio media type.
 old-location: mf\mfwaveformatexconvertflags.htm
 old-project: medfound
 ms.assetid: cd4a54f3-58e5-4e39-8615-e5037972c9c4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFWaveFormatExConvertFlag_ForceExtensible, MFWaveFormatExConvertFlag_Normal, MFWaveFormatExConvertFlags, MFWaveFormatExConvertFlags enumeration [Media Foundation], _MFWaveFormatExConvertFlags, cd4a54f3-58e5-4e39-8615-e5037972c9c4, mf.mfwaveformatexconvertflags, mfapi/MFWaveFormatExConvertFlag_ForceExtensible, mfapi/MFWaveFormatExConvertFlag_Normal, mfapi/MFWaveFormatExConvertFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 

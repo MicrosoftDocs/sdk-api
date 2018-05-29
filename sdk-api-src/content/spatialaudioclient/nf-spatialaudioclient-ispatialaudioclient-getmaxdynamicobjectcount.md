@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.GetMaxDynamicObjectCount
 title: ISpatialAudioClient::GetMaxDynamicObjectCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the maximum number of dynamic audio objects for the spatial audio client.
 old-location: coreaudio\ispatialaudioclient_getmaxdynamicobjectcount.htm
 old-project: CoreAudio
 ms.assetid: 0185D09E-0009-41BF-A0BB-3C3CE0A69BA8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetMaxDynamicObjectCount, GetMaxDynamicObjectCount method [Core Audio], GetMaxDynamicObjectCount method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetMaxDynamicObjectCount method, ISpatialAudioClient.GetMaxDynamicObjectCount, ISpatialAudioClient::GetMaxDynamicObjectCount, coreaudio.ispatialaudioclient_getmaxdynamicobjectcount, spatialaudioclient/ISpatialAudioClient::GetMaxDynamicObjectCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 

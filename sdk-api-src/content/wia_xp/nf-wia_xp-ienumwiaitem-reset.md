@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IEnumWiaItem.Reset
 title: IEnumWiaItem::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumWiaItem::Reset method is used by applications to restart the enumeration of item information.
 old-location: wia\_wia_IEnumWiaItem_Reset.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\reset.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IEnumWiaItem interface [WIA],Reset method, IEnumWiaItem.Reset, IEnumWiaItem::Reset, Reset, Reset method [WIA], Reset method [WIA],IEnumWiaItem interface, _wia_IEnumWiaItem_Reset, wia._wia_IEnumWiaItem_Reset, wia_xp/IEnumWiaItem::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

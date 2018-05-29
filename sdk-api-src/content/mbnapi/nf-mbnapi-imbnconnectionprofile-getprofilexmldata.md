@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfile.GetProfileXmlData
 title: IMbnConnectionProfile::GetProfileXmlData
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the XML data of the current profile.
 old-location: mbn\imbnconnectionprofile_getprofilexmldata.htm
 old-project: mbn
 ms.assetid: 4a94dd33-1dad-4d0a-98e8-1ccce83f345e
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetProfileXmlData, GetProfileXmlData method [Microsoft Broadband Networks], GetProfileXmlData method [Microsoft Broadband Networks],IMbnConnectionProfile interface, IMbnConnectionProfile interface [Microsoft Broadband Networks],GetProfileXmlData method, IMbnConnectionProfile.GetProfileXmlData, IMbnConnectionProfile::GetProfileXmlData, mbn.imbnconnectionprofile_getprofilexmldata, mbnapi/IMbnConnectionProfile::GetProfileXmlData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

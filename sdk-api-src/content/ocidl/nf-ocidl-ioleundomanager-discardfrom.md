@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleUndoManager.DiscardFrom
 title: IOleUndoManager::DiscardFrom
-author: windows-driver-content
+author: windows-sdk-content
 description: Instructs the undo manager to discard the specified undo unit and all undo units below it on the undo or redo stack.
 old-location: com\ioleundomanager_discardfrom.htm
 old-project: com
 ms.assetid: eb742d04-63cb-4505-bc91-8d87267a3a4a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DiscardFrom, DiscardFrom method [COM], DiscardFrom method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],DiscardFrom method, IOleUndoManager.DiscardFrom, IOleUndoManager::DiscardFrom, _ole_ioleundomanager_discardfrom, com.ioleundomanager_discardfrom, ocidl/IOleUndoManager::DiscardFrom
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

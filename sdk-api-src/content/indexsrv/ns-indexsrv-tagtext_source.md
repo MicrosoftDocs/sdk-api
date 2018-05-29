@@ -1,16 +1,16 @@
 ---
 UID: NS:indexsrv.tagTEXT_SOURCE
 title: tagTEXT_SOURCE
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about text that the word breaker will process.
 old-location: search\_search_TEXT_SOURCE.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\text_source.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TEXT_SOURCE, TEXT_SOURCE structure [search], _search_TEXT_SOURCE, indexsrv/TEXT_SOURCE, search._search_TEXT_SOURCE, tagTEXT_SOURCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: indexsrv.h
 req.include-header: 

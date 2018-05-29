@@ -1,16 +1,16 @@
 ---
 UID: NF:roapi.RoRegisterActivationFactories
 title: RoRegisterActivationFactories function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers an array out-of-process activation factories for a Windows Runtime exe server.
 old-location: winrt\roregisteractivationfactories.htm
 old-project: WinRT
 ms.assetid: 8213f5de-3b1c-44c3-ad37-b2ebac8dbcd8
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoRegisterActivationFactories, RoRegisterActivationFactories function [Windows Runtime], WinRTRegisterActivationFactories, roapi/RoRegisterActivationFactories, roapi/WinRTRegisterActivationFactories, winrt.roregisteractivationfactories, winrt.winrtregisteractivationfactories
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roapi.h
 req.include-header: 

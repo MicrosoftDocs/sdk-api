@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetTextExt
 title: ITfContextOwner::GetTextExt
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfContextOwner::GetTextExt method returns the bounding box, in screen coordinates, of the text at a specified character position. The caller must have a read-only lock on the document before calling this method.
 old-location: tsf\itfcontextowner_gettextext.htm
 old-project: TSF
 ms.assetid: edde0ba7-1d88-4c32-b794-761b66d73507
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetTextExt method, ITfContextOwner.GetTextExt, ITfContextOwner::GetTextExt, _tsf_itfcontextowner_gettextext_ref, msctf/ITfContextOwner::GetTextExt, tsf.itfcontextowner_gettextext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

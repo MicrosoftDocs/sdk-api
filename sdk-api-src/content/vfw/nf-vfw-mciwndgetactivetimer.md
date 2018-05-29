@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.MCIWndGetActiveTimer
 title: MCIWndGetActiveTimer macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCIWndGetActiveTimer macro retrieves the update period used when the MCIWnd window is the active window. You can use this macro or explicitly send the MCIWNDM_GETACTIVETIMER message.
 old-location: multimedia\mciwndgetactivetimer.htm
 old-project: Multimedia
 ms.assetid: 581b9bb3-9bc0-46f2-a5d2-93397900ff28
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MCIWndGetActiveTimer, MCIWndGetActiveTimer macro [Windows Multimedia], _win32_MCIWndGetActiveTimer, multimedia.mciwndgetactivetimer, vfw/MCIWndGetActiveTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

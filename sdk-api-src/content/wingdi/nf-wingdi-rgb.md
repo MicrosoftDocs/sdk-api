@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.RGB
 title: RGB macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The RGB macro selects a red, green, blue (RGB) color based on the arguments supplied and the color capabilities of the output device.
 old-location: gdi\rgb.htm
 old-project: gdi
 ms.assetid: e1dcb5f8-c026-4a4e-8541-928a057bf0ae
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: RGB, RGB macro [Windows GDI], _win32_RGB, gdi.rgb, wingdi/RGB
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:evntprov.EventDescSetVersion
 title: EventDescSetVersion function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the Version member of the event descriptor.
 old-location: etw\eventdescsetversion_func.htm
 old-project: ETW
 ms.assetid: f1d9fcb2-5a27-483b-b133-e8309b51165c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: EventDescSetVersion, EventDescSetVersion function [ETW], base.eventdescsetversion_func, etw.eventdescsetversion_func, evntprov/EventDescSetVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evntprov.h
 req.include-header: 

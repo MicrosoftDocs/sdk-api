@@ -1,16 +1,16 @@
 ---
 UID: NF:directxpackedvector.XMStoreHalf2
 title: XMStoreHalf2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores an XMVECTOR in an XMHALF2.
 old-location: dxmath\xmstorehalf2.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreHalf2(XMHALF2@,XMVECTOR)
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: DirectX::PackedVector.XMStoreHalf2, XMStoreHalf2, XMStoreHalf2 method [DirectX Math Support APIs], dxmath.xmstorehalf2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.AreFileApisANSI
 title: AreFileApisANSI function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the file I/O functions are using the ANSI or OEM character set code page.
 old-location: fs\arefileapisansi.htm
 old-project: FileIO
 ms.assetid: 6bebe896-86d1-40b8-ab7f-0305ada71fdf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AreFileApisANSI, AreFileApisANSI function [Files], _win32_arefileapisansi, base.arefileapisansi, fileapi/AreFileApisANSI, fs.arefileapisansi
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h

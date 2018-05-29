@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerDeleteByKey0
 title: FwpmSubLayerDeleteByKey0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a sublayer from the system by its key.
 old-location: fwp\fwpmsublayerdeletebykey0_func.htm
 old-project: FWP
 ms.assetid: 4aa238a6-1a47-4fdc-b02b-f10cf0e90040
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmSubLayerDeleteByKey0, FwpmSubLayerDeleteByKey0 function [Filtering], fwp.fwpmsublayerdeletebykey0_func, fwpmu/FwpmSubLayerDeleteByKey0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

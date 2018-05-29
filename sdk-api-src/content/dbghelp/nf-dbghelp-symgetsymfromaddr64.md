@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymGetSymFromAddr64
 title: SymGetSymFromAddr64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates the symbol for the specified address.
 old-location: base\symgetsymfromaddr64.htm
 old-project: Debug
 ms.assetid: c4882a3b-7773-4ab0-ad83-bdde512b5fb4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymGetSymFromAddr, SymGetSymFromAddr function, SymGetSymFromAddr64, SymGetSymFromAddr64 function, _win32_symgetsymfromaddr64, base.symgetsymfromaddr64, dbghelp/SymGetSymFromAddr, dbghelp/SymGetSymFromAddr64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IAdviseSink2.OnLinkSrcChange
 title: IAdviseSink2::OnLinkSrcChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the container that registered the advise sink that a link source has changed (either name or location), enabling the container to update the link's moniker.
 old-location: com\iadvisesink2_onlinksrcchange.htm
 old-project: com
 ms.assetid: 753ac9a3-0207-4c98-9d86-5ac16be2c5fa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAdviseSink2 interface [COM],OnLinkSrcChange method, IAdviseSink2.OnLinkSrcChange, IAdviseSink2::OnLinkSrcChange, OnLinkSrcChange, OnLinkSrcChange method [COM], OnLinkSrcChange method [COM],IAdviseSink2 interface, _ole_iadvisesink2_onlinksrcchange, com.iadvisesink2_onlinksrcchange, objidl/IAdviseSink2::OnLinkSrcChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

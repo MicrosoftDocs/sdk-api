@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzClientContext3.GetTasks
 title: IAzClientContext3::GetTasks
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a collection of the tasks, within the specified scope, that the principal represented by the current client context has permission to perform.
 old-location: security\iazclientcontext3_gettasks_method.htm
 old-project: SecAuthZ
 ms.assetid: 285f0e9a-8604-4475-8a73-ed33581f87f4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetTasks, GetTasks method [Security], GetTasks method [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],GetTasks method, IAzClientContext3.GetTasks, IAzClientContext3::GetTasks, azroles/IAzClientContext3::GetTasks, security.iazclientcontext3_gettasks_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

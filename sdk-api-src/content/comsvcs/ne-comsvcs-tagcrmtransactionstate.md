@@ -1,16 +1,16 @@
 ---
 UID: NE:comsvcs.tagCrmTransactionState
 title: tagCrmTransactionState
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the current transaction state of the transaction.
 old-location: cos\crmtransactionstate.htm
 old-project: cossdk
 ms.assetid: ae096ba2-3347-4d8c-89af-ee4517554a91
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CrmTransactionState, CrmTransactionState enumeration [COM+], TxState_Aborted, TxState_Active, TxState_Committed, TxState_Indoubt, _cos_CrmTransactionState, comsvcs/CrmTransactionState, comsvcs/TxState_Aborted, comsvcs/TxState_Active, comsvcs/TxState_Committed, comsvcs/TxState_Indoubt, cos.crmtransactionstate, tagCrmTransactionState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 

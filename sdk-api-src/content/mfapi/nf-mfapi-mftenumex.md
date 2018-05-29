@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFTEnumEx
 title: MFTEnumEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a list of Microsoft Media Foundation transforms (MFTs) that match specified search criteria. This function extends the MFTEnum function.
 old-location: mf\mftenumex.htm
 old-project: medfound
 ms.assetid: e065ae51-85dd-48ef-9322-de4ade62c0fe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFTEnumEx, MFTEnumEx function [Media Foundation], mf.mftenumex, mfapi/MFTEnumEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

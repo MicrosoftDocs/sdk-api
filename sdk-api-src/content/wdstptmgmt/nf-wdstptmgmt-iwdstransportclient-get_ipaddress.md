@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_IpAddress
 title: IWdsTransportClient::get_IpAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives a string value that contains the IP address of the WDS client.
 old-location: wds\iwdstransportclient_ipaddress.htm
 old-project: Wds
 ms.assetid: 1e2d0da1-9362-4187-9ccc-80522d109c83
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],IpAddress property, IWdsTransportClient.IpAddress, IWdsTransportClient.get_IpAddress, IWdsTransportClient::IpAddress, IWdsTransportClient::get_IpAddress, IpAddress property [Windows Deployment Services], IpAddress property [Windows Deployment Services],IWdsTransportClient interface, get_IpAddress, wds.iwdstransportclient_ipaddress, wdstptmgmt/IWdsTransportClient::IpAddress, wdstptmgmt/IWdsTransportClient::get_IpAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

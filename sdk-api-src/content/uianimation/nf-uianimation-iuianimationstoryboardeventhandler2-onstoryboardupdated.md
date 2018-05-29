@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboardEventHandler2.OnStoryboardUpdated
 title: IUIAnimationStoryboardEventHandler2::OnStoryboardUpdated
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles storyboard update events.
 old-location: uianimation\iuianimationstoryboardeventhandler2_onstoryboardupdated.htm
 old-project: UIAnimation
 ms.assetid: 30AB185A-D555-47CA-A2E6-DAAEB0C56FCD
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationStoryboardEventHandler2 interface [Windows Animation],OnStoryboardUpdated method, IUIAnimationStoryboardEventHandler2.OnStoryboardUpdated, IUIAnimationStoryboardEventHandler2::OnStoryboardUpdated, OnStoryboardUpdated, OnStoryboardUpdated method [Windows Animation], OnStoryboardUpdated method [Windows Animation],IUIAnimationStoryboardEventHandler2 interface, uianimation.iuianimationstoryboardeventhandler2_onstoryboardupdated, uianimation/IUIAnimationStoryboardEventHandler2::OnStoryboardUpdated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

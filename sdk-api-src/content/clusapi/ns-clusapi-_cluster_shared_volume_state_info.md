@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi._CLUSTER_SHARED_VOLUME_STATE_INFO
 title: "_CLUSTER_SHARED_VOLUME_STATE_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents information about the state of a Cluster Shared Volume (CSV).
 old-location: mscs\cluster_shared_volume_state_info.htm
 old-project: MsCS
 ms.assetid: 0E0DEF0B-C755-4B34-90D8-56BFEFEF2525
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLUSTER_SHARED_VOLUME_STATE_INFO, CLUSTER_SHARED_VOLUME_STATE_INFO, CLUSTER_SHARED_VOLUME_STATE_INFO structure [Failover Cluster], PCLUSTER_SHARED_VOLUME_STATE_INFO, PCLUSTER_SHARED_VOLUME_STATE_INFO structure pointer [Failover Cluster], _CLUSTER_SHARED_VOLUME_STATE_INFO, clusapi/CLUSTER_SHARED_VOLUME_STATE_INFO, clusapi/PCLUSTER_SHARED_VOLUME_STATE_INFO, mscs.cluster_shared_volume_state_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

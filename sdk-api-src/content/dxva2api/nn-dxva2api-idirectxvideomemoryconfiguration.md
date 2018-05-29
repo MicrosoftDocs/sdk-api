@@ -1,16 +1,16 @@
 ---
 UID: NN:dxva2api.IDirectXVideoMemoryConfiguration
 title: IDirectXVideoMemoryConfiguration
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the type of video memory for uncompressed video surfaces.
 old-location: mf\idirectxvideomemoryconfiguration.htm
 old-project: medfound
 ms.assetid: cc2a6180-9698-460a-9a0d-1ee9e15f197f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IDirectXVideoMemoryConfiguration, IDirectXVideoMemoryConfiguration interface [Media Foundation], IDirectXVideoMemoryConfiguration interface [Media Foundation],described, cc2a6180-9698-460a-9a0d-1ee9e15f197f, dxva2api/IDirectXVideoMemoryConfiguration, mf.idirectxvideomemoryconfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxva2api.h
 req.include-header: 

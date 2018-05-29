@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetCurrencyFormatEx
 title: GetCurrencyFormatEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats a number string as a currency string for a locale specified by name.Note  The application should call this function in preference to GetCurrencyFormat if designed to run only on Windows Vista and later. Note  This function can format data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
 old-location: intl\getcurrencyformatex.htm
 old-project: Intl
 ms.assetid: 72639b31-cd5d-455c-873a-e3cf4051f4cd
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCurrencyFormatEx, GetCurrencyFormatEx function [Internationalization for Windows Applications], _win32_GetCurrencyFormatEx, intl.getcurrencyformatex, winnls/GetCurrencyFormatEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:audioenginebaseapo.__MIDL___MIDL_itf_audioenginebaseapo_0000_0007_0001
 title: "__MIDL___MIDL_itf_audioenginebaseapo_0000_0007_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AudioFXExtensionParams structure is passed to the system effects ControlPanel Extension PropertyPage via IShellPropSheetExt::AddPages.
 old-location: audio\audiofxextensionparams.htm
 old-project: audio
 ms.assetid: 832F1190-ED3E-4059-AB45-18C23D98663B
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: AudioFXExtensionParams, AudioFXExtensionParams structure [Audio Devices], PAudioFXExtensionParams, PAudioFXExtensionParams structure pointer [Audio Devices], __MIDL___MIDL_itf_audioenginebaseapo_0000_0007_0001, audio.audiofxextensionparams, audioenginebaseapo/AudioFXExtensionParams, audioenginebaseapo/PAudioFXExtensionParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioenginebaseapo.h
 req.include-header: 

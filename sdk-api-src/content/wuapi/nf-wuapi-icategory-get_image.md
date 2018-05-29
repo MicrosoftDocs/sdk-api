@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.ICategory.get_Image
 title: ICategory::get_Image
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an interface that contains information about the image that is associated with the category.
 old-location: wua\icategory_image.htm
 old-project: Wua_Sdk
 ms.assetid: 41f0dd44-c919-4264-8f35-ea4e48fd5503
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ICategory interface [Windows Update Agent],Image property, ICategory.Image, ICategory.get_Image, ICategory::Image, ICategory::get_Image, Image property [Windows Update Agent], Image property [Windows Update Agent],ICategory interface, get_Image, wua.icategory_image, wuapi/ICategory::Image, wuapi/ICategory::get_Image
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

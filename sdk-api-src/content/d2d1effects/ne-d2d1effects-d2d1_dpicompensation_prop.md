@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1effects.D2D1_DPICOMPENSATION_PROP
 title: D2D1_DPICOMPENSATION_PROP
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifiers for properties of the DPI compensation effect.
 old-location: direct2d\d2d1_dpicompensation_prop.htm
 old-project: Direct2D
 ms.assetid: B8956D69-B014-49EA-BCBA-5AE9DC051A5A
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_DPICOMPENSATION_PROP, D2D1_DPICOMPENSATION_PROP enumeration [Direct2D], D2D1_DPICOMPENSATION_PROP_BORDER_MODE, D2D1_DPICOMPENSATION_PROP_INPUT_DPI, D2D1_DPICOMPENSATION_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_DPICOMPENSATION_PROP, d2d1effects/D2D1_DPICOMPENSATION_PROP_BORDER_MODE, d2d1effects/D2D1_DPICOMPENSATION_PROP_INPUT_DPI, d2d1effects/D2D1_DPICOMPENSATION_PROP_INTERPOLATION_MODE, direct2d.d2d1_dpicompensation_prop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 

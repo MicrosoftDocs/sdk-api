@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapScaler.Initialize
 title: IWICBitmapScaler::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the bitmap scaler with the provided parameters.
 old-location: wic\_wic_codec_iwicbitmapscaler_initialize.htm
 old-project: wic
 ms.assetid: e783389e-4702-4774-a501-b86ec4bc6cbe
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapScaler interface [Windows Imaging Component],Initialize method, IWICBitmapScaler.Initialize, IWICBitmapScaler::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICBitmapScaler interface, _wic_codec_iwicbitmapscaler_initialize, wic._wic_codec_iwicbitmapscaler_initialize, wincodec/IWICBitmapScaler::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

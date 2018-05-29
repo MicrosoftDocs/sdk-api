@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantToInt32ArrayAlloc
 title: VariantToInt32ArrayAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts data from a vector structure into a newly-allocated Int32 array.
 old-location: properties\VariantToInt32ArrayAlloc.htm
 old-project: properties
 ms.assetid: 6010ee34-d7d2-4b8b-a49b-0f2aa88a3b54
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantToInt32ArrayAlloc, VariantToInt32ArrayAlloc function [Windows Properties], _shell_VariantToInt32ArrayAlloc, properties.VariantToInt32ArrayAlloc, propvarutil/VariantToInt32ArrayAlloc, shell.VariantToInt32ArrayAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

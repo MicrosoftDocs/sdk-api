@@ -1,16 +1,16 @@
 ---
 UID: NF:austream.IAudioMediaStream.CreateSample
 title: IAudioMediaStream::CreateSample
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Creates an audio stream sample for use with the specified stream.
 old-location: dshow\iaudiomediastream_createsample.htm
 old-project: DirectShow
 ms.assetid: c7d62a2c-54a9-4690-8ba0-34e927f9f093
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreateSample, CreateSample method [DirectShow], CreateSample method [DirectShow],IAudioMediaStream interface, IAudioMediaStream interface [DirectShow],CreateSample method, IAudioMediaStream.CreateSample, IAudioMediaStream::CreateSample, IAudioMediaStreamCreateSample, austream/IAudioMediaStream::CreateSample, dshow.iaudiomediastream_createsample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: austream.h
 req.include-header: 

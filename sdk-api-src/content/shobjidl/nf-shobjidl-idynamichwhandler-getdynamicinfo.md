@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.IDynamicHWHandler.GetDynamicInfo
 title: IDynamicHWHandler::GetDynamicInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the system to determine whether a particular handler will be shown before the AutoPlay dialog is displayed.
 old-location: shell\IDynamicHWHandler_GetDynamicInfo.htm
 old-project: shell
 ms.assetid: 4477600b-311e-4425-b1de-9ed9c396fbdb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDynamicInfo, GetDynamicInfo method [Windows Shell], GetDynamicInfo method [Windows Shell],IDynamicHWHandler interface, IDynamicHWHandler interface [Windows Shell],GetDynamicInfo method, IDynamicHWHandler.GetDynamicInfo, IDynamicHWHandler::GetDynamicInfo, _shell_IDynamicHWHandler_GetDynamicInfo, shell.IDynamicHWHandler_GetDynamicInfo, shobjidl/IDynamicHWHandler::GetDynamicInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

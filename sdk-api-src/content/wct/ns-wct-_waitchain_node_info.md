@@ -1,16 +1,16 @@
 ---
 UID: NS:wct._WAITCHAIN_NODE_INFO
 title: "_WAITCHAIN_NODE_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a node in a wait chain.
 old-location: base\waitchain_node_info.htm
 old-project: Debug
 ms.assetid: 7a333924-79a3-4522-aa5a-4fc60690667d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PWAITCHAIN_NODE_INFO, PWAITCHAIN_NODE_INFO, PWAITCHAIN_NODE_INFO structure pointer, WAITCHAIN_NODE_INFO, WAITCHAIN_NODE_INFO structure, WctAlpcType, WctComActivationType, WctComType, WctCriticalSectionType, WctMutexType, WctProcessWaitType, WctSendMessageType, WctStatusAbandoned, WctStatusBlocked, WctStatusError, WctStatusNoAccess, WctStatusNotOwned, WctStatusOwned, WctStatusPidOnly, WctStatusPidOnlyRpcss, WctStatusRunning, WctStatusUnknown, WctThreadType, WctThreadWaitType, WctUnknownType, _WAITCHAIN_NODE_INFO, base.waitchain_node_info, wct/PWAITCHAIN_NODE_INFO, wct/WAITCHAIN_NODE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wct.h
 req.include-header: 

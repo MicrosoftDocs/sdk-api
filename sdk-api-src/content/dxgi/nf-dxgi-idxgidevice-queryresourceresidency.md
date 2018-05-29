@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi.IDXGIDevice.QueryResourceResidency
 title: IDXGIDevice::QueryResourceResidency
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the residency status of an array of resources.
 old-location: direct3ddxgi\idxgidevice_queryresourceresidency.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice_queryresourceresidency.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: 0f2dfe96-267a-14d2-b7ec-deb2ed3c3450, IDXGIDevice interface [DXGI],QueryResourceResidency method, IDXGIDevice.QueryResourceResidency, IDXGIDevice::QueryResourceResidency, QueryResourceResidency, QueryResourceResidency method [DXGI], QueryResourceResidency method [DXGI],IDXGIDevice interface, direct3ddxgi.idxgidevice_queryresourceresidency, dxgi/IDXGIDevice::QueryResourceResidency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

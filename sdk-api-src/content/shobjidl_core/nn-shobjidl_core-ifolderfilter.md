@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IFolderFilter
 title: IFolderFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposed by a client to specify how to filter the enumeration of a Shell folder by a server application.
 old-location: shell\IFolderFilter.htm
 old-project: shell
 ms.assetid: fd69c11c-f4c3-4681-ae85-385460e96be9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFolderFilter, IFolderFilter interface [Windows Shell], IFolderFilter interface [Windows Shell],described, _shell_IFolderFilter, shell.IFolderFilter, shobjidl_core/IFolderFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

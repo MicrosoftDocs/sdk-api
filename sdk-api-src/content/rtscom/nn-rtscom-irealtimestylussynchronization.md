@@ -1,16 +1,16 @@
 ---
 UID: NN:rtscom.IRealTimeStylusSynchronization
 title: IRealTimeStylusSynchronization
-author: windows-driver-content
+author: windows-sdk-content
 description: Synchronizes access to the RealTimeStylus Class object.
 old-location: tablet\irealtimestylussynchronization.htm
 old-project: tablet
 ms.assetid: fe76386d-55b5-40a8-aa6f-b4a1ee8d9fbd
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IRealTimeStylusSynchronization, IRealTimeStylusSynchronization interface [Tablet PC], IRealTimeStylusSynchronization interface [Tablet PC],described, fe76386d-55b5-40a8-aa6f-b4a1ee8d9fbd, rtscom/IRealTimeStylusSynchronization, tablet.irealtimestylussynchronization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rtscom.h
 req.include-header: 

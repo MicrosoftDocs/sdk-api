@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcomex.IFaxIncomingQueue
 title: IFaxIncomingQueue
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxIncomingQueue interface is used by a fax client application to manage the inbound fax jobs (FaxIncomingJobs object) in the job queue. The object also includes a method to block inbound faxes from the fax job queue.
 old-location: fax\_mfax_faxincomingqueue_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4x7p_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxIncomingQueue, IFaxIncomingQueue interface [Fax Service], IFaxIncomingQueue interface [Fax Service],described, _mfax_faxincomingqueue_cpp, fax._mfax_faxincomingqueue_cpp, faxcomex/IFaxIncomingQueue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.EXPLORER_BROWSER_FILL_FLAGS
 title: EXPLORER_BROWSER_FILL_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: These flags are used with IExplorerBrowser::FillFromObject.
 old-location: shell\EXPLORER_BROWSER_FILL_FLAGS.htm
 old-project: shell
 ms.assetid: 5be62600-147d-4625-8e6c-aa6687da2168
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EBF_NODROPTARGET, EBF_NONE, EBF_SELECTFROMDATAOBJECT, EXPLORER_BROWSER_FILL_FLAGS, EXPLORER_BROWSER_FILL_FLAGS enumeration [Windows Shell], _shell_EXPLORER_BROWSER_FILL_FLAGS, shell.EXPLORER_BROWSER_FILL_FLAGS, shobjidl_core/EBF_NODROPTARGET, shobjidl_core/EBF_NONE, shobjidl_core/EBF_SELECTFROMDATAOBJECT, shobjidl_core/EXPLORER_BROWSER_FILL_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

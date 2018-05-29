@@ -1,16 +1,16 @@
 ---
 UID: NN:wmcontainer.IMFASFStreamPrioritization
 title: IMFASFStreamPrioritization
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented.
 old-location: mf\imfasfstreamprioritization.htm
 old-project: medfound
 ms.assetid: 6eb79c52-dc81-406c-9000-d25ad380e6b2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 6eb79c52-dc81-406c-9000-d25ad380e6b2, IMFASFStreamPrioritization, IMFASFStreamPrioritization interface [Media Foundation], IMFASFStreamPrioritization interface [Media Foundation],described, mf.imfasfstreamprioritization, wmcontainer/IMFASFStreamPrioritization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcontainer.h
 req.include-header: 

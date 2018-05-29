@@ -1,16 +1,16 @@
 ---
 UID: NS:ddraw._DDCOLORCONTROL
 title: "_DDCOLORCONTROL"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDCOLORCONTROL structure defines the color controls that are associated with an overlay surface or a primary surface.
 old-location: directdraw\ddcolorcontrol.htm
 old-project: directdraw
 ms.assetid: 69408101-9f19-4b89-bfcf-2af185c62807
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*LPDDCOLORCONTROL, DDCOLORCONTROL, DDCOLORCONTROL structure [DirectDraw], DDCOLOR_BRIGHTNESS, DDCOLOR_COLORENABLE, DDCOLOR_CONTRAST, DDCOLOR_GAMMA, DDCOLOR_HUE, DDCOLOR_SATURATION, DDCOLOR_SHARPNESS, LPDDCOLORCONTROL, LPDDCOLORCONTROL structure pointer [DirectDraw], _DDCOLORCONTROL, ddraw/DDCOLORCONTROL, ddraw/LPDDCOLORCONTROL, directdraw.ddcolorcontrol"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddraw.h
 req.include-header: 

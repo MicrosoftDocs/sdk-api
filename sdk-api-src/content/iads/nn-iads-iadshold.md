@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsHold
 title: IADsHold
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsHold interface provides methods for an ADSI client to access the Hold attribute.
 old-location: adsi\iadshold.htm
 old-project: ADSI
 ms.assetid: ccc22915-0f67-4089-9ddc-491b6f7ef554
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Hold, IADsHold, IADsHold interface [ADSI], IADsHold interface [ADSI],described, _ds_iadshold, adsi.iadshold, iads/IADsHold
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

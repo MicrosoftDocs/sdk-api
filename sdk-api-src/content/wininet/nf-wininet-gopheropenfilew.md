@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.GopherOpenFileW
 title: GopherOpenFileW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Begins reading a Gopher data file from a Gopher server.
 old-location: wininet\gopheropenfile.htm
 old-project: WinInet
 ms.assetid: 2731d573-f981-48ce-a306-bb7e295cefc6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GopherOpenFile, GopherOpenFile function [WinINet], GopherOpenFileA, GopherOpenFileW, _inet_gopheropenfile_function, wininet.gopheropenfile, wininet/GopherOpenFile, wininet/GopherOpenFileA, wininet/GopherOpenFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

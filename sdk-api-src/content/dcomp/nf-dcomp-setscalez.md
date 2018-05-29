@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetScaleZ
 title: SetScaleZ function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes or animates the value of the ScaleZ property of a scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setscalez_overloaded.htm
 old-project: directcomp
 ms.assetid: CD00FBB3-246E-45D0-A7F6-5A7F9C37376B
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionScaleTransform3D::SetScaleZ, SetScaleZ, SetScaleZ methods [DirectComposition], dcomp/SetScaleZ, directcomp.idcompositionscaletransform3d_setscalez_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

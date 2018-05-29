@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerSubscriptionsGet0
 title: FwpmSubLayerSubscriptionsGet0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an array of all the current sub-layer change notification subscriptions.
 old-location: fwp\fwpmsublayersubscriptionsget0_func.htm
 old-project: FWP
 ms.assetid: ca00c768-d8fe-4f61-8b23-2f3a79b4116c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmSubLayerSubscriptionsGet0, FwpmSubLayerSubscriptionsGet0 function [Filtering], fwp.fwpmsublayersubscriptionsget0_func, fwpmu/FwpmSubLayerSubscriptionsGet0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

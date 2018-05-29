@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CTL_FIND_SUBJECT_PARA
 title: "_CTL_FIND_SUBJECT_PARA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains data used by CertFindCTLInStore with a dwFindType parameter of CTL_FIND_SUBJECT to find a Certificate Trust List (CTL).
 old-location: security\ctl_find_subject_para.htm
 old-project: SecCrypto
 ms.assetid: b3a63010-9025-4a86-aa48-bfb6e800a07a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCTL_FIND_SUBJECT_PARA, CTL_FIND_SUBJECT_PARA, CTL_FIND_SUBJECT_PARA structure [Security], PCTL_FIND_SUBJECT_PARA, PCTL_FIND_SUBJECT_PARA structure pointer [Security], _CTL_FIND_SUBJECT_PARA, _crypto2_ctl_find_subject_para, security.ctl_find_subject_para, wincrypt/CTL_FIND_SUBJECT_PARA, wincrypt/PCTL_FIND_SUBJECT_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

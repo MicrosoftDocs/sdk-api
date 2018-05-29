@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsReadEnvelopeStart
 title: WsReadEnvelopeStart function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the headers of the message and prepare to read the body elements.
 old-location: wsw\wsreadenvelopestart.htm
 old-project: wsw
 ms.assetid: f2b20e6b-fac0-47b0-8ce9-ad06dc93f0e6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsReadEnvelopeStart, WsReadEnvelopeStart function [Web Services for Windows], webservices/WsReadEnvelopeStart, wsw.wsreadenvelopestart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

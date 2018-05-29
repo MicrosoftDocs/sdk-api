@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIFileCreateStreamA
 title: AVIFileCreateStreamA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIFileCreateStream function creates a new stream in an existing file and creates an interface to the new stream.
 old-location: multimedia\avifilecreatestream.htm
 old-project: Multimedia
 ms.assetid: bff87fbb-fcd8-4dd4-93d0-9cab39c30409
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIFileCreateStream, AVIFileCreateStream function [Windows Multimedia], AVIFileCreateStreamA, AVIFileCreateStreamW, _win32_AVIFileCreateStream, multimedia.avifilecreatestream, vfw/AVIFileCreateStream, vfw/AVIFileCreateStreamA, vfw/AVIFileCreateStreamW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMExtendedSeeking.get_MarkerCount
 title: IAMExtendedSeeking::get_MarkerCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MarkerCount method retrieves the number of markers in the current stream.
 old-location: dshow\iamextendedseeking_get_markercount.htm
 old-project: DirectShow
 ms.assetid: bd9c2ca8-e5f2-409e-aaf9-d89d81d2b02d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMExtendedSeeking interface [DirectShow],get_MarkerCount method, IAMExtendedSeeking.get_MarkerCount, IAMExtendedSeeking::get_MarkerCount, IAMExtendedSeekingget_MarkerCount, dshow.iamextendedseeking_get_markercount, get_MarkerCount, get_MarkerCount method [DirectShow], get_MarkerCount method [DirectShow],IAMExtendedSeeking interface, qnetwork/IAMExtendedSeeking::get_MarkerCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

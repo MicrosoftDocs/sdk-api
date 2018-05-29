@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_CERT_ROOT_CONFIG0_
 title: IKEEXT_CERT_ROOT_CONFIG0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores the IKE, AuthIP, or IKEv2 certificate root configuration.
 old-location: fwp\ikeext_cert_root_config0.htm
 old-project: FWP
 ms.assetid: 820da66b-670e-490e-bba4-c2b0afb6dfd1
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_CERT_FLAG_DISABLE_REQUEST_PAYLOAD, IKEEXT_CERT_FLAG_ENABLE_ACCOUNT_MAPPING, IKEEXT_CERT_FLAG_FOLLOW_RENEWAL_CERTIFICATE, IKEEXT_CERT_FLAG_IGNORE_INIT_CERT_MAP_FAILURE, IKEEXT_CERT_FLAG_INTERMEDIATE_CA, IKEEXT_CERT_FLAG_PREFER_NAP_CERTIFICATE_OUTBOUND, IKEEXT_CERT_FLAG_SELECT_NAP_CERTIFICATE, IKEEXT_CERT_FLAG_USE_NAP_CERTIFICATE, IKEEXT_CERT_FLAG_VERIFY_NAP_CERTIFICATE, IKEEXT_CERT_ROOT_CONFIG0, IKEEXT_CERT_ROOT_CONFIG0 structure [Filtering], IKEEXT_CERT_ROOT_CONFIG0_, fwp.ikeext_cert_root_config0, iketypes/IKEEXT_CERT_ROOT_CONFIG0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

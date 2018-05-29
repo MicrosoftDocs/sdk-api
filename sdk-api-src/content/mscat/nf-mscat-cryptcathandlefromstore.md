@@ -1,16 +1,16 @@
 ---
 UID: NF:mscat.CryptCATHandleFromStore
 title: CryptCATHandleFromStore function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a catalog handle from memory.
 old-location: security\cryptcathandlefromstore.htm
 old-project: SecCrypto
 ms.assetid: e9aedc2d-9492-4ed7-9f2d-891997f85f6f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptCATHandleFromStore, CryptCATHandleFromStore function [Security], mscat/CryptCATHandleFromStore, security.cryptcathandlefromstore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

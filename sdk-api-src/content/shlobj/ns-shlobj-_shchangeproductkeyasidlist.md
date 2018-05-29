@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj._SHChangeProductKeyAsIDList
 title: "_SHChangeProductKeyAsIDList"
-author: windows-driver-content
+author: windows-sdk-content
 description: SHChangeProductKeyAsIDList structure
 old-location: shell\SHChangeProductKeyAsIDList.htm
 old-project: shell
 ms.assetid: 98aba08d-518c-4ff9-af3d-c9a92b6fe5ab
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPSHChangeProductKeyAsIDList, SHChangeProductKeyAsIDList, SHChangeProductKeyAsIDList structure [Windows Shell], _SHChangeProductKeyAsIDList, _shell_shchangeproductkeyasidlist, shell.SHChangeProductKeyAsIDList, shlobj/SHChangeProductKeyAsIDList"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj.h
 req.include-header: 

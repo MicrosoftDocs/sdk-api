@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.IsValidCodePage
 title: IsValidCodePage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if a specified code page is valid.
 old-location: intl\isvalidcodepage.htm
 old-project: Intl
 ms.assetid: 7bd16f61-a534-4ada-ae27-d5deb47870a9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IsValidCodePage, IsValidCodePage function [Internationalization for Windows Applications], _win32_IsValidCodePage, intl.isvalidcodepage, winnls/IsValidCodePage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

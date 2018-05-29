@@ -1,16 +1,16 @@
 ---
 UID: NN:objidlbase.ISynchronizeContainer
 title: ISynchronizeContainer
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages a group of unsignaled synchronization objects.
 old-location: com\isynchronizecontainer.htm
 old-project: com
 ms.assetid: 6a5be504-b5fa-491c-ba65-74c5de39e263
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISynchronizeContainer, ISynchronizeContainer interface [COM], ISynchronizeContainer interface [COM],described, _com_isynchronizecontainer, com.isynchronizecontainer, objidlbase/ISynchronizeContainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

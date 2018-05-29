@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.ITravelLog.GetTravelEntry
 title: ITravelLog::GetTravelEntry
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Gets a travel entry in the travel log relative to the position of the current entry.
 old-location: shell\ITravelLog_GetTravelEntry.htm
 old-project: shell
 ms.assetid: 8db8aa9a-91c2-49fb-bbef-c7e19de09efe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTravelEntry, GetTravelEntry method [Windows Shell], GetTravelEntry method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],GetTravelEntry method, ITravelLog.GetTravelEntry, ITravelLog::GetTravelEntry, shdeprecated/ITravelLog::GetTravelEntry, shell.ITravelLog_GetTravelEntry, zone_ITravelLog_GetTravelEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

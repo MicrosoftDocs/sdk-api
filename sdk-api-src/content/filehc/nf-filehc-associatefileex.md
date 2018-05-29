@@ -1,16 +1,16 @@
 ---
 UID: NF:filehc.AssociateFileEx
 title: AssociateFileEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates a file with an asnychronous context.
 old-location: winprog\_associatefileex.htm
 old-project: DevNotes
 ms.assetid: b7efaa05-e6ac-4fb8-889f-ff6fa0755476
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: AssociateFileEx, AssociateFileEx function [Windows API], filehc/AssociateFileEx, winprog._associatefileex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

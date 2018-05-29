@@ -1,16 +1,16 @@
 ---
 UID: NE:oaidl.tagLIBFLAGS
 title: tagLIBFLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines flags that apply to type libraries.
 old-location: automat\libflags.htm
 old-project: automat
 ms.assetid: 2c5ecbaf-ce6c-4be1-a3fa-1066dd6e716d
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: LIBFLAGS, LIBFLAGS enumeration [Automation], LIBFLAG_FCONTROL, LIBFLAG_FHASDISKIMAGE, LIBFLAG_FHIDDEN, LIBFLAG_FRESTRICTED, _oa96_LIBFLAGS, automat.libflags, oaidl/LIBFLAGS, oaidl/LIBFLAG_FCONTROL, oaidl/LIBFLAG_FHASDISKIMAGE, oaidl/LIBFLAG_FHIDDEN, oaidl/LIBFLAG_FRESTRICTED, tagLIBFLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: oaidl.h
 req.include-header: 

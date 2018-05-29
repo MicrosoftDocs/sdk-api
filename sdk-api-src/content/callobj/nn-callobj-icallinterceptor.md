@@ -1,16 +1,16 @@
 ---
 UID: NN:callobj.ICallInterceptor
 title: ICallInterceptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Supports the registration and un-registering of event sinks wishing to be notified of calls made directly on the interface.
 old-location: com\icallinterceptor.htm
 old-project: com
 ms.assetid: d0a72c87-598b-4ebe-bc93-65e0927a4c3d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ICallInterceptor, ICallInterceptor interface [COM], ICallInterceptor interface [COM],described, _com_icallinterceptor_interface, callobj/ICallInterceptor, com.icallinterceptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: callobj.h
 req.include-header: 

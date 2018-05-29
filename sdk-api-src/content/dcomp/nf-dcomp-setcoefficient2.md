@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetCoefficient2
 title: SetCoefficient2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the second coefficient for the equation used to composite the two input images.
 old-location: directcomp\idcompositionarithmeticcompositeeffect_setcoefficient2_overloaded.htm
 old-project: directcomp
 ms.assetid: 58ecefbe-ca31-3c13-7bea-e97fb73753e2
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: SetCoefficient2, dcomp/setcoefficient2, directcomp.idcompositionarithmeticcompositeeffect_setcoefficient2_overloaded, idcompositionarithmeticcompositeeffect::setcoefficient2, setcoefficient2, setcoefficient2 methods [DirectComposition]
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.IEnumVARIANT.Next
 title: IEnumVARIANT::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified items in the enumeration sequence.
 old-location: automat\ienumvariant_next.htm
 old-project: automat
 ms.assetid: 691c1624-8d01-41e0-890e-a4782eba1f59
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IEnumVARIANT interface [Automation],Next method, IEnumVARIANT.Next, IEnumVARIANT::Next, Next, Next method [Automation], Next method [Automation],IEnumVARIANT interface, _oa96_IEnumVARIANT::Next, automat.ienumvariant_next, oaidl/IEnumVARIANT::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

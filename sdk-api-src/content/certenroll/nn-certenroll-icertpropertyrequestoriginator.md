@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ICertPropertyRequestOriginator
 title: ICertPropertyRequestOriginator
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a certificate property that contains the Domain Naming System (DNS) name of the computer on which the request was created.
 old-location: security\icertpropertyrequestoriginator.htm
 old-project: SecCertEnroll
 ms.assetid: ce33605e-c3ae-4b96-a13e-6f06e8d5ffee
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertPropertyRequestOriginator, ICertPropertyRequestOriginator interface [Security], ICertPropertyRequestOriginator interface [Security],described, certenroll/ICertPropertyRequestOriginator, security.icertpropertyrequestoriginator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

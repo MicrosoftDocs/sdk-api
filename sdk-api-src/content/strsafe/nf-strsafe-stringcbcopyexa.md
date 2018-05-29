@@ -1,16 +1,16 @@
 ---
 UID: NF:strsafe.StringCbCopyExA
 title: StringCbCopyExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies one string to another.
 old-location: menurc\stringcbcopyex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopyex.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCopyEx, StringCbCopyEx function [Menus and Other Resources], StringCbCopyExA, StringCbCopyExW, _shell_StringCbCopyEx, _shell_stringcbcopyex_cpp, menurc.stringcbcopyex, strsafe/StringCbCopyEx, strsafe/StringCbCopyExA, strsafe/StringCbCopyExW, winui._shell_stringcbcopyex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 

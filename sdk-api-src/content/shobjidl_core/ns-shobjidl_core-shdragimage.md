@@ -1,16 +1,16 @@
 ---
 UID: NS:shobjidl_core.SHDRAGIMAGE
 title: SHDRAGIMAGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the information needed to create a drag image.
 old-location: shell\SHDRAGIMAGE_str.htm
 old-project: shell
 ms.assetid: e0dd76b2-fd5c-41e8-b540-db90a2f0dcec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPSHDRAGIMAGE, LPSHDRAGIMAGE, LPSHDRAGIMAGE structure pointer [Windows Shell], SHDRAGIMAGE, SHDRAGIMAGE structure [Windows Shell], _win32_SHDRAGIMAGE_str, shell.SHDRAGIMAGE_str, shobjidl_core/LPSHDRAGIMAGE, shobjidl_core/SHDRAGIMAGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

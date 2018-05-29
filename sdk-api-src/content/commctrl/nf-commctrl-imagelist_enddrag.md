@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ImageList_EndDrag
 title: ImageList_EndDrag function
-author: windows-driver-content
+author: windows-sdk-content
 description: Ends a drag operation.
 old-location: controls\ImageList_EndDrag.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_enddrag.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ImageList_EndDrag, ImageList_EndDrag function [Windows Controls], _win32_ImageList_EndDrag, _win32_ImageList_EndDrag_cpp, commctrl/ImageList_EndDrag, controls.ImageList_EndDrag, controls._win32_ImageList_EndDrag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

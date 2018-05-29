@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESEventServiceConfiguration.RemoveOwner
 title: IESEventServiceConfiguration::RemoveOwner
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the owner of an event service, where event service refers to a generic Windows event service that implements the IESEventService interface.
 old-location: mstv\ieseventserviceconfiguration_removeowner.htm
 old-project: mstv
 ms.assetid: c55b732e-960c-4a0c-939b-2f3628b5c9b6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IESEventServiceConfiguration interface [Microsoft TV Technologies],RemoveOwner method, IESEventServiceConfiguration.RemoveOwner, IESEventServiceConfiguration::RemoveOwner, RemoveOwner, RemoveOwner method [Microsoft TV Technologies], RemoveOwner method [Microsoft TV Technologies],IESEventServiceConfiguration interface, mstv.ieseventserviceconfiguration_removeowner, tuner/IESEventServiceConfiguration::RemoveOwner
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

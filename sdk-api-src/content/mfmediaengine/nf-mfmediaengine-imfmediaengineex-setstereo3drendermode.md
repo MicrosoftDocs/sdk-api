@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetStereo3DRenderMode
 title: IMFMediaEngineEx::SetStereo3DRenderMode
-author: windows-driver-content
+author: windows-sdk-content
 description: For stereoscopic 3D video, specifies how the Media Engine renders the 3D video content.
 old-location: mf\imfmediaengineex_setstereo3drendermode.htm
 old-project: medfound
 ms.assetid: 89B6B2AC-A721-4C56-BF0A-A19350FE4823
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetStereo3DRenderMode method, IMFMediaEngineEx.SetStereo3DRenderMode, IMFMediaEngineEx::SetStereo3DRenderMode, SetStereo3DRenderMode, SetStereo3DRenderMode method [Media Foundation], SetStereo3DRenderMode method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setstereo3drendermode, mfmediaengine/IMFMediaEngineEx::SetStereo3DRenderMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

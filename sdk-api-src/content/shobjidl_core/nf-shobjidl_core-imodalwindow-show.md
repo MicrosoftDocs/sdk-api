@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IModalWindow.Show
 title: IModalWindow::Show
-author: windows-driver-content
+author: windows-sdk-content
 description: Launches the modal window.
 old-location: shell\IModalWindow_Show.htm
 old-project: shell
 ms.assetid: 0284b694-64d1-48db-bef3-92f808b29b23
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IModalWindow interface [Windows Shell],Show method, IModalWindow.Show, IModalWindow::Show, Show, Show method [Windows Shell], Show method [Windows Shell],IModalWindow interface, _win32_IModalWindow_Show, shell.IModalWindow_Show, shobjidl_core/IModalWindow::Show
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

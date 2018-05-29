@@ -1,16 +1,16 @@
 ---
 UID: NS:powrprof._GLOBAL_POWER_POLICY
 title: "_GLOBAL_POWER_POLICY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains global power policy settings that apply to all power schemes.
 old-location: base\global_power_policy_str.htm
 old-project: Power
 ms.assetid: 5c177093-0c16-4a84-9212-f2376de6965b
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: "*PGLOBAL_POWER_POLICY, GLOBAL_POWER_POLICY, GLOBAL_POWER_POLICY structure, PGLOBAL_POWER_POLICY, PGLOBAL_POWER_POLICY structure pointer, _GLOBAL_POWER_POLICY, _win32_global_power_policy_str, base.global_power_policy_str, powrprof/GLOBAL_POWER_POLICY, powrprof/PGLOBAL_POWER_POLICY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: powrprof.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.GetIAccessible
 title: IUIAutomationLegacyIAccessiblePattern::GetIAccessible
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IAccessible object that corresponds to the Microsoft UI Automation element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible.htm
 old-project: WinAuto
 ms.assetid: 58ce3005-dfac-4ffe-b874-69a2f994e7a6
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetIAccessible, GetIAccessible method [Windows Accessibility], GetIAccessible method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],GetIAccessible method, IUIAutomationLegacyIAccessiblePattern.GetIAccessible, IUIAutomationLegacyIAccessiblePattern::GetIAccessible, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible, uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::GetIAccessible, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_GetIAccessible
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

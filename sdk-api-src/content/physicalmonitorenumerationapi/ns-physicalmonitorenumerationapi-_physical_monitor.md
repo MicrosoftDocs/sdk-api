@@ -1,16 +1,16 @@
 ---
 UID: NS:physicalmonitorenumerationapi._PHYSICAL_MONITOR
 title: "_PHYSICAL_MONITOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a handle and text description corresponding to a physical monitor.
 old-location: monitor\physical_monitor.htm
 old-project: Monitor
 ms.assetid: 58eb4999-37d9-472d-aa26-38b19a2287b2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPPHYSICAL_MONITOR, LPPHYSICAL_MONITOR, LPPHYSICAL_MONITOR structure pointer [Monitor Configuration], PHYSICAL_MONITOR, PHYSICAL_MONITOR structure [Monitor Configuration], _PHYSICAL_MONITOR, monitor.physical_monitor, physicalmonitorenumerationapi/LPPHYSICAL_MONITOR, physicalmonitorenumerationapi/PHYSICAL_MONITOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 

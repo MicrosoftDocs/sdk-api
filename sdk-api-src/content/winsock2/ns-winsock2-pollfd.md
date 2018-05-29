@@ -1,16 +1,16 @@
 ---
 UID: NS:winsock2.pollfd
 title: pollfd
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores socket information used by the WSAPoll function.
 old-location: winsock\pollfd.htm
 old-project: WinSock
 ms.assetid: 88f122ce-e2ca-44ce-bd53-d73d0962e7ef
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPWSAPOLLFD, *PWSAPOLLFD, LPWSAPOLLFD, LPWSAPOLLFD structure pointer [Winsock], PWSAPOLLFD, PWSAPOLLFD structure pointer [Winsock], WSAPOLLFD, WSAPOLLFD structure [Winsock], pollfd, winsock.pollfd, winsock2/LPWSAPOLLFD, winsock2/PWSAPOLLFD, winsock2/WSAPOLLFD"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

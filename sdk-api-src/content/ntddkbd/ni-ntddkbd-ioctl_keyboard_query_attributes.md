@@ -1,16 +1,16 @@
 ---
 UID: NI:ntddkbd.IOCTL_KEYBOARD_QUERY_ATTRIBUTES
 title: IOCTL_KEYBOARD_QUERY_ATTRIBUTES
-author: windows-driver-content
+author: windows-sdk-content
 description: The IOCTL_KEYBOARD_QUERY_ATTRIBUTES request returns information about the keyboard attributes.
 old-location: hid\ioctl_keyboard_query_attributes.htm
 old-project: hid
 ms.assetid: 6119ca39-f740-4c8a-a7f1-eb6f30624093
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: IOCTL_KEYBOARD_QUERY_ATTRIBUTES, IOCTL_KEYBOARD_QUERY_ATTRIBUTES control, IOCTL_KEYBOARD_QUERY_ATTRIBUTES control code [Human Input Devices], hid.ioctl_keyboard_query_attributes, kref_1522bb4a-6d24-4a25-a5fe-73343ff6c131.xml, ntddkbd/IOCTL_KEYBOARD_QUERY_ATTRIBUTES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h

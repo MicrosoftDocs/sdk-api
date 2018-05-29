@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_IPV4Filter.GetMulticastListSize
 title: IBDA_IPV4Filter::GetMulticastListSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetMulticastListSize method retrieves the number of addresses in the list.
 old-location: mstv\ibda_ipv4filter_getmulticastlistsize.htm
 old-project: mstv
 ms.assetid: 7d31e34f-1997-40fe-9b32-a193d3017798
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetMulticastListSize, GetMulticastListSize method [Microsoft TV Technologies], GetMulticastListSize method [Microsoft TV Technologies],IBDA_IPV4Filter interface, IBDA_IPV4Filter interface [Microsoft TV Technologies],GetMulticastListSize method, IBDA_IPV4Filter.GetMulticastListSize, IBDA_IPV4Filter::GetMulticastListSize, IBDA_IPV4FilterGetMulticastListSize, bdaiface/IBDA_IPV4Filter::GetMulticastListSize, mstv.ibda_ipv4filter_getmulticastlistsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

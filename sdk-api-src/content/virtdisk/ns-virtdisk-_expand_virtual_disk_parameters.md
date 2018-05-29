@@ -1,16 +1,16 @@
 ---
 UID: NS:virtdisk._EXPAND_VIRTUAL_DISK_PARAMETERS
 title: "_EXPAND_VIRTUAL_DISK_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains virtual disk expansion request parameters.
 old-location: vhd\expand_virtual_disk_parameters.htm
 old-project: VStor
 ms.assetid: 8a8a4d1c-7dbc-4dfe-9f21-94a3370553b8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PEXPAND_VIRTUAL_DISK_PARAMETERS, EXPAND_VIRTUAL_DISK_PARAMETERS, EXPAND_VIRTUAL_DISK_PARAMETERS structure [VHD], PEXPAND_VIRTUAL_DISK_PARAMETERS, PEXPAND_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _EXPAND_VIRTUAL_DISK_PARAMETERS, vhd.expand_virtual_disk_parameters, virtdisk/EXPAND_VIRTUAL_DISK_PARAMETERS, virtdisk/PEXPAND_VIRTUAL_DISK_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: Windows.h

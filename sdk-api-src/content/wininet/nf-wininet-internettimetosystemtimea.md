@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetTimeToSystemTimeA
 title: InternetTimeToSystemTimeA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an HTTP time/date string to a SYSTEMTIME structure.
 old-location: wininet\internettimetosystemtime.htm
 old-project: WinInet
 ms.assetid: fcfe99de-13b2-4e93-a978-f013ddae89f0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetTimeToSystemTime, InternetTimeToSystemTime function [WinINet], InternetTimeToSystemTimeA, InternetTimeToSystemTimeW, _inet_internettimetosystemtime_function, wininet.internettimetosystemtime, wininet/InternetTimeToSystemTime, wininet/InternetTimeToSystemTimeA, wininet/InternetTimeToSystemTimeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

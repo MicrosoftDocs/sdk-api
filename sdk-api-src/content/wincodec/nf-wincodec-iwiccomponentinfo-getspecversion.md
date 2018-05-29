@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetSpecVersion
 title: IWICComponentInfo::GetSpecVersion
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the component's specification version.
 old-location: wic\_wic_codec_iwiccomponentinfo_getspecversion.htm
 old-project: wic
 ms.assetid: 18a771c7-8764-4694-be05-29c5eda27e93
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSpecVersion, GetSpecVersion method [Windows Imaging Component], GetSpecVersion method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetSpecVersion method, IWICComponentInfo.GetSpecVersion, IWICComponentInfo::GetSpecVersion, _wic_codec_iwiccomponentinfo_getspecversion, wic._wic_codec_iwiccomponentinfo_getspecversion, wincodec/IWICComponentInfo::GetSpecVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

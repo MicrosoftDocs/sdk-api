@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagMCGRIDINFO
 title: tagMCGRIDINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about part of a calendar control.
 old-location: controls\MCGRIDINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\structures\mcgridinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PMCGRIDINFO, MCGIF_DATE, MCGIF_NAME, MCGIF_RECT, MCGIP_CALENDAR, MCGIP_CALENDARBODY, MCGIP_CALENDARCELL, MCGIP_CALENDARCONTROL, MCGIP_CALENDARHEADER, MCGIP_CALENDARROW, MCGIP_FOOTER, MCGIP_NEXT, MCGIP_PREV, MCGRIDINFO, MCGRIDINFO structure [Windows Controls], PMCGRIDINFO, PMCGRIDINFO structure pointer [Windows Controls], _shell_MCGRIDINFO, _shell_MCGRIDINFO_cpp, commctrl/MCGRIDINFO, commctrl/PMCGRIDINFO, controls.MCGRIDINFO, controls._shell_MCGRIDINFO, tagMCGRIDINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shldisp.IShellDispatch.Help
 title: IShellDispatch::Help
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays the Windows Help and Support window. This method has the same effect as clicking the Start menu and selecting Help and Support.
 old-location: shell\IShellDispatch_Help.htm
 old-project: shell
 ms.assetid: 9460C87E-6703-4df6-A84C-8D394E0E6703
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Help, Help method [Windows Shell], Help method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],Help method, IShellDispatch.Help, IShellDispatch::Help, shell.IShellDispatch_Help
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shldisp.h
 req.include-header: 

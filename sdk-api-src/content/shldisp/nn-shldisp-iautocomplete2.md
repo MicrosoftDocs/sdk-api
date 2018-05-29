@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.IAutoComplete2
 title: IAutoComplete2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends IAutoComplete. This interface enables clients of the autocomplete object to retrieve and set a number of options that control how autocompletion operates.
 old-location: shell\IAutoComplete2.htm
 old-project: shell
 ms.assetid: c093719f-7176-4ba4-ae75-399e8beeebf0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAutoComplete2, IAutoComplete2 interface [Windows Shell], IAutoComplete2 interface [Windows Shell],described, _win32_IAutoComplete2, shell.IAutoComplete2, shldisp/IAutoComplete2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

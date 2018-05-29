@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarDateFromBool
 title: VarDateFromBool function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a Boolean value to a date value.
 old-location: automat\vardatefrombool.htm
 old-project: automat
 ms.assetid: 8793c2b8-c544-4d80-b9ba-dfea6db56e5d
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarDateFromBool, VarDateFromBool function [Automation], _oa96_VarDateFromBool, automat.vardatefrombool, oleauto/VarDateFromBool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

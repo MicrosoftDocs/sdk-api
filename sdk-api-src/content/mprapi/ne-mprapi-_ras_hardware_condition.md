@@ -1,16 +1,16 @@
 ---
 UID: NE:mprapi._RAS_HARDWARE_CONDITION
 title: "_RAS_HARDWARE_CONDITION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RAS_HARDWARE_CONDITION enumeration type specifies hardware status information about a given RAS port.
 old-location: rras\ras_hardware_condition.htm
 old-project: RRAS
 ms.assetid: 54a92552-9ad2-4a4a-b177-041157b445cd
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RAS_HARDWARE_CONDITION, RAS_HARDWARE_CONDITION enumeration [RAS], RAS_HARDWARE_FAILURE, RAS_HARDWARE_OPERATIONAL, _RAS_HARDWARE_CONDITION, _mpr_ras_hardware_condition, mprapi/RAS_HARDWARE_CONDITION, mprapi/RAS_HARDWARE_FAILURE, mprapi/RAS_HARDWARE_OPERATIONAL, rras.ras_hardware_condition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mprapi.h
 req.include-header: 

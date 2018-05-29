@@ -1,16 +1,16 @@
 ---
 UID: NE:objidl._THDTYPE
 title: "_THDTYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether a particular thread supports a message loop.
 old-location: com\thdtype.htm
 old-project: com
 ms.assetid: c1f9ab7b-8915-4433-ae9f-57b1aedcad4d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: THDTYPE, THDTYPE enumeration [COM], THDTYPE_BLOCKMESSAGES, THDTYPE_PROCESSMESSAGES, _THDTYPE, _com_THDTYPE, com.thdtype, objidlbase/THDTYPE, objidlbase/THDTYPE_BLOCKMESSAGES, objidlbase/THDTYPE_PROCESSMESSAGES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidl.h
 req.include-header: Objidl.h

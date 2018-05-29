@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmGetLessSpecificDestination
 title: RtmGetLessSpecificDestination function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmGetLessSpecificDestination function searches the routing table for a destination with the next-best-match (longest) prefix, given a destination prefix. The requested destination information is returned.
 old-location: rras\rtmgetlessspecificdestination.htm
 old-project: RRAS
 ms.assetid: b6ff1b1f-fd0e-4cfb-9030-67e27e8578f6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmGetLessSpecificDestination, RtmGetLessSpecificDestination function [RAS], _rtmv2ref_rtmgetlessspecificdestination, rras.rtmgetlessspecificdestination, rtmv2/RtmGetLessSpecificDestination
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

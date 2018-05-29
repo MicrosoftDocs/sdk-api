@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetGamma
 title: IWICDevelopRaw::SetGamma
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the desired gamma value.
 old-location: wic\_wic_codec_iwicdevelopraw_setgamma.htm
 old-project: wic
 ms.assetid: 14d3b34c-1628-4e49-b07c-141f2933c86e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetGamma method, IWICDevelopRaw.SetGamma, IWICDevelopRaw::SetGamma, SetGamma, SetGamma method [Windows Imaging Component], SetGamma method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setgamma, wic._wic_codec_iwicdevelopraw_setgamma, wincodec/IWICDevelopRaw::SetGamma
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

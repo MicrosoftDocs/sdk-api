@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextDocument2.SetProperty
 title: ITextDocument2::SetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a new value for a property.
 old-location: controls\itextdocument2_setproperty.htm
 old-project: Controls
 ms.assetid: 29e70a21-9fab-4fba-9cc4-f1268b005edb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetProperty method, ITextDocument2.SetProperty, ITextDocument2::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setproperty, tom/ITextDocument2::SetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

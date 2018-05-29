@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptCloseAlgorithmProvider
 title: BCryptCloseAlgorithmProvider function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes an algorithm provider.
 old-location: security\bcryptclosealgorithmprovider_func.htm
 old-project: SecCNG
 ms.assetid: def90d52-87e0-40e6-9c50-fd77177991d0
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptCloseAlgorithmProvider, BCryptCloseAlgorithmProvider function [Security], bcrypt/BCryptCloseAlgorithmProvider, security.bcryptclosealgorithmprovider_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

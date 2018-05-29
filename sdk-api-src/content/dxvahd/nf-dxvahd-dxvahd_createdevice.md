@@ -1,16 +1,16 @@
 ---
 UID: NF:dxvahd.DXVAHD_CreateDevice
 title: DXVAHD_CreateDevice function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
 old-location: mf\dxvahd_createdevice.htm
 old-project: medfound
 ms.assetid: 9a5411f9-2018-4a8a-922d-ab431d615583
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVAHD_CreateDevice, DXVAHD_CreateDevice function [Media Foundation], dxvahd/DXVAHD_CreateDevice, mf.dxvahd_createdevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dxvahd.h
 req.include-header: 

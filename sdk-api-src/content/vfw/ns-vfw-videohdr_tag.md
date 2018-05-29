@@ -1,16 +1,16 @@
 ---
 UID: NS:vfw.videohdr_tag
 title: videohdr_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The VIDEOHDR structure is used by the capVideoStreamCallback function.
 old-location: multimedia\videohdr.htm
 old-project: Multimedia
 ms.assetid: 81e4dded-7ba1-40cf-bc16-20524b70a28d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPVIDEOHDR, *PVIDEOHDR, LPVIDEOHDR, LPVIDEOHDR structure pointer [Windows Multimedia], PVIDEOHDR, PVIDEOHDR structure pointer [Windows Multimedia], VIDEOHDR, VIDEOHDR structure [Windows Multimedia], _win32_VIDEOHDR_str, multimedia.videohdr, vfw/LPVIDEOHDR, vfw/PVIDEOHDR, vfw/VIDEOHDR, videohdr_tag"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vfw.h
 req.include-header: 

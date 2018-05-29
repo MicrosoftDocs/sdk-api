@@ -1,16 +1,16 @@
 ---
 UID: NN:spellcheck.ISpellChecker
 title: ISpellChecker
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a particular spell checker for a particular language.
 old-location: intl\ispellchecker.htm
 old-project: Intl
 ms.assetid: 3cc5f675-048d-4ef3-9b66-5f081ee17a18
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISpellChecker, ISpellChecker interface [Internationalization for Windows Applications], ISpellChecker interface [Internationalization for Windows Applications],described, intl.ispellchecker, spellcheck/ISpellChecker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: spellcheck.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.LocalSize
 title: LocalSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current size of the specified local memory object, in bytes.
 old-location: base\localsize.htm
 old-project: Memory
 ms.assetid: d1337845-d89c-4cd5-a584-36fe0c682c1a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: LocalSize, LocalSize function, _win32_localsize, base.localsize, winbase/LocalSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

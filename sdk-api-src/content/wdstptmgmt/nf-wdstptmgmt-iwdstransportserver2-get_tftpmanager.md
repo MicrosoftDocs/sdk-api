@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServer2.get_TftpManager
 title: IWdsTransportServer2::get_TftpManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives a pointer to the object of the IWdsTransportTftpManager interface used to manage the WDS TFTP server.
 old-location: wds\iwdstransportserver2_tftpmanager.htm
 old-project: Wds
 ms.assetid: FD0D1B95-6964-43A0-94BF-F2BCFCDA8F99
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportServer2 interface [Windows Deployment Services],TftpManager property, IWdsTransportServer2.TftpManager, IWdsTransportServer2.get_TftpManager, IWdsTransportServer2::TftpManager, IWdsTransportServer2::get_TftpManager, TftpManager property [Windows Deployment Services], TftpManager property [Windows Deployment Services],IWdsTransportServer2 interface, get_TftpManager, wds.iwdstransportserver2_tftpmanager, wdstptmgmt/IWdsTransportServer2::TftpManager, wdstptmgmt/IWdsTransportServer2::get_TftpManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

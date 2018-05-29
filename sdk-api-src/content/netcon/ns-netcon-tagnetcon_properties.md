@@ -1,16 +1,16 @@
 ---
 UID: NS:netcon.tagNETCON_PROPERTIES
 title: tagNETCON_PROPERTIES
-author: windows-driver-content
+author: windows-sdk-content
 description: The NETCON_PROPERTIES structure stores values that describe the properties of a network connection.
 old-location: ics\netcon_properties.htm
 old-project: ICS
 ms.assetid: 5acda2b8-960f-41ef-9ff2-49787f4e1c0c
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: NETCON_PROPERTIES, NETCON_PROPERTIES structure [ICS/ICF], _ics_netcon_properties, ics.netcon_properties, netcon/NETCON_PROPERTIES, tagNETCON_PROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: netcon.h
 req.include-header: 

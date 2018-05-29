@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GdiGetBatchLimit
 title: GdiGetBatchLimit function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GdiGetBatchLimit function returns the maximum number of function calls that can be accumulated in the calling thread's current batch. The system flushes the current batch whenever this limit is exceeded.
 old-location: gdi\gdigetbatchlimit.htm
 old-project: gdi
 ms.assetid: aafe7635-1a71-42a9-90b7-11179e245af4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GdiGetBatchLimit, GdiGetBatchLimit function [Windows GDI], _win32_GdiGetBatchLimit, gdi.gdigetbatchlimit, wingdi/GdiGetBatchLimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

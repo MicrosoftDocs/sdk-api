@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.InterlockedIncrement
 title: InterlockedIncrement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Increments (increases by one) the value of the specified 32-bit variable as an atomic operation.
 old-location: base\interlockedincrement.htm
 old-project: Sync
 ms.assetid: 87eda7fb-966d-4630-9da6-8933b53daadd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InterlockedIncrement, InterlockedIncrement function, _win32_interlockedincrement, base.interlockedincrement, winbase/InterlockedIncrement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.NotifyUnicastIpAddressChange
 title: NotifyUnicastIpAddressChange function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers to be notified for changes to all unicast IP interfaces, unicast IPv4 addresses, or unicast IPv6 addresses on a local computer.
 old-location: iphlp\notifyunicastipaddresschange.htm
 old-project: IpHlp
 ms.assetid: 56945aa2-ca1e-44b3-9765-d862978a9dbe
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyUnicastIpAddressChange, NotifyUnicastIpAddressChange function [IP Helper], iphlp.notifyunicastipaddresschange, netioapi/NotifyUnicastIpAddressChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

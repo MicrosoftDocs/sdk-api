@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IEnumNames.Reset
 title: IEnumNames::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the enumeration sequence to the beginning.
 old-location: cos\ienumnames_reset.htm
 old-project: cossdk
 ms.assetid: e7b7e703-f5d5-430f-8fa6-c26a236eab88
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumNames interface [COM+],Reset method, IEnumNames.Reset, IEnumNames::Reset, Reset, Reset method [COM+], Reset method [COM+],IEnumNames interface, _cos_IEnumNames_Reset, comsvcs/IEnumNames::Reset, cos.ienumnames_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

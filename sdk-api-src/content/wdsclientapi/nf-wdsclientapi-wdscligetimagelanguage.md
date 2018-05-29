@@ -1,16 +1,16 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageLanguage
 title: WdsCliGetImageLanguage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the default language of the current image.
 old-location: wds\wdscligetimagelanguage.htm
 old-project: Wds
 ms.assetid: ac4d1f05-ab1c-4511-a3f1-205ab3280522
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsCliGetImageLanguage, WdsCliGetImageLanguage function [Windows Deployment Services], wds.wdscligetimagelanguage, wdsclientapi/WdsCliGetImageLanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

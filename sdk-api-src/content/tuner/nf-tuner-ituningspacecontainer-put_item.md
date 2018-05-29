@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.put_Item
 title: ITuningSpaceContainer::put_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Item method saves changes to an existing tuning space in the collection.
 old-location: mstv\ituningspacecontainer_put_item.htm
 old-project: mstv
 ms.assetid: 44e82ec9-ffd0-4bc9-88da-b6c135cbd98f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],put_Item method, ITuningSpaceContainer.put_Item, ITuningSpaceContainer::put_Item, ITuningSpaceContainerput_Item, mstv.ituningspacecontainer_put_item, put_Item, put_Item method [Microsoft TV Technologies], put_Item method [Microsoft TV Technologies],ITuningSpaceContainer interface, tuner/ITuningSpaceContainer::put_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

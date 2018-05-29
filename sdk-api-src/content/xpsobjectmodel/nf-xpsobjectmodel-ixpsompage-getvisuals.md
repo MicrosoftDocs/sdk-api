@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetVisuals
 title: IXpsOMPage::GetVisuals
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to an IXpsOMVisualCollection interface that contains a collection of the page's visual objects.
 old-location: xps\ixpsompage_getvisuals.htm
 old-project: printdocs
 ms.assetid: 8181513f-2a5d-4b43-aa40-7f886a8af7f7
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetVisuals, GetVisuals method [XPS Documents and Packaging], GetVisuals method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetVisuals method, IXpsOMPage.GetVisuals, IXpsOMPage::GetVisuals, xps.ixpsompage_getvisuals, xpsobjectmodel/IXpsOMPage::GetVisuals
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

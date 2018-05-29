@@ -1,16 +1,16 @@
 ---
 UID: NS:xinput._XINPUT_CAPABILITIES
 title: "_XINPUT_CAPABILITIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the capabilities of a connected controller. The XInputGetCapabilities function returns XINPUT_CAPABILITIES.
 old-location: xinput\xinput_capabilities.htm
 old-project: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_CAPABILITIES
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PXINPUT_CAPABILITIES, PXINPUT_CAPABILITIES, PXINPUT_CAPABILITIES structure pointer [XInput Game Controller APIs], XINPUT_CAPABILITIES, XINPUT_CAPABILITIES structure [XInput Game Controller APIs], _XINPUT_CAPABILITIES, xinput.xinput_capabilities, xinput/PXINPUT_CAPABILITIES, xinput/XINPUT_CAPABILITIES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xinput.h
 req.include-header: 

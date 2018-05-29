@@ -1,16 +1,16 @@
 ---
 UID: NF:netlistmgr.IEnumNetworks.Next
 title: IEnumNetworks::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: nla\ienumnetworks_next.htm
 old-project: NLA
 ms.assetid: 5ee2501c-502e-448e-8635-c8bf9d169ebb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumNetworks interface [Network Awareness],Next method, IEnumNetworks.Next, IEnumNetworks::Next, Next, Next method [Network Awareness], Next method [Network Awareness],IEnumNetworks interface, netlistmgr/IEnumNetworks::Next, nla.ienumnetworks_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 

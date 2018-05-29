@@ -1,16 +1,16 @@
 ---
 UID: NF:winbio.WinBioLocateSensor
 title: WinBioLocateSensor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the ID number of a biometric unit selected interactively by a user.
 old-location: secbiomet\winbiolocatesensor.htm
 old-project: SecBioMet
 ms.assetid: 61110f24-aa3b-4c51-9205-acac92e03554
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: WinBioLocateSensor, WinBioLocateSensor function [Windows Biometric Framework API], secbiomet.winbiolocatesensor, winbio/WinBioLocateSensor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbio.h
 req.include-header: Winbio.h

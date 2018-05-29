@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethod.get_ImageName
 title: IFaxRoutingMethod::get_ImageName
-author: windows-driver-content
+author: windows-sdk-content
 description: The ImageName property is a null-terminated string that contains the executable image name of the fax routing extension DLL that implements the fax routing method.
 old-location: fax\_mfax_ifaxroutingmethod_get_imagename_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1qud.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxRoutingMethod object [Fax Service],ImageName property, FaxRoutingMethod.ImageName, IFaxRoutingMethod.get_ImageName, IFaxRoutingMethod::get_ImageName, ImageName property [Fax Service], ImageName property [Fax Service],FaxRoutingMethod object, _mfax_ifaxroutingmethod_get_imagename, fax._mfax_ifaxroutingmethod_get_imagename, fax._mfax_ifaxroutingmethod_get_imagename_vb, get_ImageName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

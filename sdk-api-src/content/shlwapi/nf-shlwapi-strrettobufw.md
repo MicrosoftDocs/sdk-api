@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrRetToBufW
 title: StrRetToBufW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an STRRET structure returned by IShellFolder::GetDisplayNameOf to a string, and places the result in a buffer.
 old-location: shell\StrRetToBuf.htm
 old-project: shell
 ms.assetid: 89dab3ee-e9f8-499a-97ec-6fe732315891
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrRetToBuf, StrRetToBuf function [Windows Shell], StrRetToBufA, StrRetToBufW, _win32_StrRetToBuf, shell.StrRetToBuf, shlwapi/StrRetToBuf, shlwapi/StrRetToBufA, shlwapi/StrRetToBufW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

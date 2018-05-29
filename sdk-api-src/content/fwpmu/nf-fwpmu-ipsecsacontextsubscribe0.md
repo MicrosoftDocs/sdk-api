@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IPsecSaContextSubscribe0
 title: IPsecSaContextSubscribe0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to request the delivery of notifications regarding a particular IPsec security association (SA) context.
 old-location: fwp\ipsecsacontextsubscribe0.htm
 old-project: FWP
 ms.assetid: dadb22b2-6b20-401f-b2b5-256135a345b1
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPsecSaContextSubscribe0, IPsecSaContextSubscribe0 function [Filtering], fwp.ipsecsacontextsubscribe0, fwpmu/IPsecSaContextSubscribe0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

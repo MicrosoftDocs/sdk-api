@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemCallResult.GetCallStatus
 title: IWbemCallResult::GetCallStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemCallResult::GetCallStatus method returns to the user the status of the current outstanding semisynchronous call. When this call returns WBEM_S_NO_ERROR, the original call to the IWbemServices method is complete.
 old-location: wmi\iwbemcallresult_getcallstatus.htm
 old-project: WmiSdk
 ms.assetid: 5a600fd8-87d8-446d-93da-5b22fd575a11
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetCallStatus, GetCallStatus method [Windows Management Instrumentation], GetCallStatus method [Windows Management Instrumentation],IWbemCallResult interface, IWbemCallResult interface [Windows Management Instrumentation],GetCallStatus method, IWbemCallResult.GetCallStatus, IWbemCallResult::GetCallStatus, _hmm_iwbemcallresult_getcallstatus, wbemcli/IWbemCallResult::GetCallStatus, wmi.iwbemcallresult_getcallstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

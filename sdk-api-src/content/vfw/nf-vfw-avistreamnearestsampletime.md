@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamNearestSampleTime
 title: AVIStreamNearestSampleTime macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamNearestSampleTime macro determines the time corresponding to the beginning of a sample that is nearest to a specified time in a stream.
 old-location: multimedia\avistreamnearestsampletime.htm
 old-project: Multimedia
 ms.assetid: 8f9bd7b8-24b4-4bc5-98f0-0339bbaa0caf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamNearestSampleTime, AVIStreamNearestSampleTime macro [Windows Multimedia], _win32_AVIStreamNearestSampleTime, multimedia.avistreamnearestsampletime, vfw/AVIStreamNearestSampleTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

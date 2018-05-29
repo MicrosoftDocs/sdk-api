@@ -1,16 +1,16 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnector.GetBitmapEffect
 title: IMILBitmapEffectConnector::GetBitmapEffect
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IMILBitmapEffect associated with the connector.
 old-location: wibe\_wibe_imilbitmapeffectconnector_getbitmapeffect.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnector\getbitmapeffect.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: GetBitmapEffect, GetBitmapEffect method [WPF Bitmap Effects], GetBitmapEffect method [WPF Bitmap Effects],IMILBitmapEffectConnector interface, IMILBitmapEffectConnector interface [WPF Bitmap Effects],GetBitmapEffect method, IMILBitmapEffectConnector.GetBitmapEffect, IMILBitmapEffectConnector::GetBitmapEffect, _wibe_imilbitmapeffectconnector_getbitmapeffect, mileffects/IMILBitmapEffectConnector::GetBitmapEffect, wibe._wibe_imilbitmapeffectconnector_getbitmapeffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

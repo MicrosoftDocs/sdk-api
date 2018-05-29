@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.GetTag
 title: IUIAnimationVariable::GetTag
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the tag for an animation variable.
 old-location: uianimation\iuianimationvariable_gettag.htm
 old-project: UIAnimation
 ms.assetid: 2731d302-dc52-4a10-8012-a246856d132b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTag, GetTag method [Windows Animation], GetTag method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetTag method, IUIAnimationVariable.GetTag, IUIAnimationVariable::GetTag, uianimation.iuianimationvariable_gettag, uianimation/IUIAnimationVariable::GetTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

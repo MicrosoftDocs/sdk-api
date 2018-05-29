@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IAudioAutoGainControl.SetEnabled
 title: IAudioAutoGainControl::SetEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetEnabled method enables or disables the AGC.
 old-location: coreaudio\iaudioautogaincontrol_setenabled.htm
 old-project: CoreAudio
 ms.assetid: 05bf3b59-20e9-4bb0-931b-b6f28676cb5f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioAutoGainControl interface [Core Audio],SetEnabled method, IAudioAutoGainControl.SetEnabled, IAudioAutoGainControl::SetEnabled, IAudioAutoGainControlSetEnabled, SetEnabled, SetEnabled method [Core Audio], SetEnabled method [Core Audio],IAudioAutoGainControl interface, coreaudio.iaudioautogaincontrol_setenabled, devicetopology/IAudioAutoGainControl::SetEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

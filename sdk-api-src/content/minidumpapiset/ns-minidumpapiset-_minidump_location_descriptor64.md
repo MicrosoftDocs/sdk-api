@@ -1,16 +1,16 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_LOCATION_DESCRIPTOR64
 title: "_MINIDUMP_LOCATION_DESCRIPTOR64"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information describing the location of a data stream within a minidump file.
 old-location: base\minidump_location_descriptor_str.htm
 old-project: Debug
 ms.assetid: aef17239-9b56-4d49-8347-610270f8612b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: MINIDUMP_LOCATION_DESCRIPTOR, MINIDUMP_LOCATION_DESCRIPTOR structure, MINIDUMP_LOCATION_DESCRIPTOR64, _MINIDUMP_LOCATION_DESCRIPTOR, _MINIDUMP_LOCATION_DESCRIPTOR64, _win32_minidump_location_descriptor_str, base.minidump_location_descriptor_str, minidumpapiset/MINIDUMP_LOCATION_DESCRIPTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h, Minidumpapiset.h

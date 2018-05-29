@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.EditStreamClone
 title: EditStreamClone function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EditStreamClone function creates a duplicate editable stream.
 old-location: multimedia\editstreamclone.htm
 old-project: Multimedia
 ms.assetid: 2a512dbd-8d17-43d0-a074-571b4c1837c7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EditStreamClone, EditStreamClone function [Windows Multimedia], _win32_EditStreamClone, multimedia.editstreamclone, vfw/EditStreamClone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

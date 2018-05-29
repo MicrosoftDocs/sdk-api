@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptGetDefaultOIDDllList
 title: CryptGetDefaultOIDDllList function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CryptGetDefaultOIDDllList function acquires the list of the names of DLL files that contain registered default object identifier (OID) functions for a specified function set and encoding type.
 old-location: security\cryptgetdefaultoiddlllist.htm
 old-project: SecCrypto
 ms.assetid: 9d4643c8-a582-4c19-bd77-33b94e953818
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptGetDefaultOIDDllList, CryptGetDefaultOIDDllList function [Security], _crypto2_cryptgetdefaultoiddlllist, security.cryptgetdefaultoiddlllist, wincrypt/CryptGetDefaultOIDDllList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

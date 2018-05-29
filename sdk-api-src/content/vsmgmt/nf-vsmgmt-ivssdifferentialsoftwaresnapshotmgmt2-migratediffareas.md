@@ -1,16 +1,16 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas
 title: IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_migratediffareas.htm
 old-project: VSS
 ms.assetid: c452dfad-fbc6-45d0-895d-566f12dbfa70
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,MigrateDiffAreas method, IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas, IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas, MigrateDiffAreas, MigrateDiffAreas method, MigrateDiffAreas method,IVssDifferentialSoftwareSnapshotMgmt2 interface, base.ivssdifferentialsoftwaresnapshotmgmt2_migratediffareas, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetTag
 title: IDirectManipulationViewport::SetTag
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a viewport tag.
 old-location: directmanipulation\idirectmanipulationviewport_settag.htm
 old-project: directmanipulation
 ms.assetid: f695845b-8980-45cd-8231-e3ce29ce322f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetTag method, IDirectManipulationViewport.SetTag, IDirectManipulationViewport::SetTag, SetTag, SetTag method [Direct Manipulation], SetTag method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_settag, directmanipulation/IDirectManipulationViewport::SetTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

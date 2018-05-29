@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_LastWrittenAddressOfPreviousSession
 title: IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the last sector of the previous write session.
 old-location: imapi\idiscformat2data_get_lastwrittenaddressofprevioussession.htm
 old-project: imapi
 ms.assetid: cfc9ba42-25a2-49a3-8047-7aaf331332ad
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_LastWrittenAddressOfPreviousSession method, IDiscFormat2Data.get_LastWrittenAddressOfPreviousSession, IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession, get_LastWrittenAddressOfPreviousSession method [IMAPI], get_LastWrittenAddressOfPreviousSession method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_lastwrittenaddressofprevioussession, imapi2/IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

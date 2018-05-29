@@ -1,16 +1,16 @@
 ---
 UID: NI:emi.IOCTL_EMI_GET_METADATA_SIZE
 title: IOCTL_EMI_GET_METADATA_SIZE
-author: windows-driver-content
+author: windows-sdk-content
 description: The IOCTL_EMI_GET_METADATA_SIZE control code retrieves the size of the EMI metadata object that can be obtained from the device by issuing an IOCTL_EMI_GET_METADATA request.
 old-location: powermeter\ioctl_emi_get_metadata_size.htm
 old-project: powermeter
 ms.assetid: 7A3E5BE5-F567-408A-B4AC-347E052957D9
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IOCTL_EMI_GET_METADATA_SIZE, IOCTL_EMI_GET_METADATA_SIZE control, IOCTL_EMI_GET_METADATA_SIZE control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_METADATA_SIZE, powermeter.ioctl_emi_get_metadata_size
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: emi.h
 req.include-header: Emi.h

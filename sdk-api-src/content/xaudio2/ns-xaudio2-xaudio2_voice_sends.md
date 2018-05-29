@@ -1,16 +1,16 @@
 ---
 UID: NS:xaudio2.XAUDIO2_VOICE_SENDS
 title: XAUDIO2_VOICE_SENDS
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a set of voices to receive data from a single output voice.
 old-location: xaudio2\xaudio2_voice_sends.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_VOICE_SENDS
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: XAUDIO2_VOICE_SENDS, XAUDIO2_VOICE_SENDS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_voice_sends, xaudio2/XAUDIO2_VOICE_SENDS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xaudio2.h
 req.include-header: 

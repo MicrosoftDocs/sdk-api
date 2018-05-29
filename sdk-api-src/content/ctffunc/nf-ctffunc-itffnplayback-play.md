@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.ITfFnPlayBack.Play
 title: ITfFnPlayBack::Play
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfFnPlayBack::Play method
 old-location: tsf\itffnplayback_play.htm
 old-project: TSF
 ms.assetid: 9945bc65-fe9f-42d1-ade1-db016dc7489c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnPlayBack interface [Text Services Framework],Play method, ITfFnPlayBack.Play, ITfFnPlayBack::Play, Play, Play method [Text Services Framework], Play method [Text Services Framework],ITfFnPlayBack interface, _tsf_itffnplayback_play_ref, ctffunc/ITfFnPlayBack::Play, tsf.itffnplayback_play
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

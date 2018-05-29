@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupStartup
 title: PeerGroupStartup function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupStartup function initiates a peer group by using a requested version of the Peer infrastructure.
 old-location: p2p\peergroupstartup.htm
 old-project: P2PSdk
 ms.assetid: c07e200d-9578-4367-a0f8-699ae300fc1f
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupStartup, PeerGroupStartup function [Peer Networking], p2p.peergroupstartup, p2p/PeerGroupStartup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

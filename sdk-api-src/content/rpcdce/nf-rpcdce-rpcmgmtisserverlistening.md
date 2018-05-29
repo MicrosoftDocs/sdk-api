@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcMgmtIsServerListening
 title: RpcMgmtIsServerListening function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcMgmtIsServerListening function tells whether a server is listening for remote procedure calls.
 old-location: rpc\rpcmgmtisserverlistening.htm
 old-project: Rpc
 ms.assetid: e4c5e8aa-764d-489f-ac98-ab40ca4a3534
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcMgmtIsServerListening, RpcMgmtIsServerListening function [RPC], _rpc_rpcmgmtisserverlistening, rpc.rpcmgmtisserverlistening, rpcdce/RpcMgmtIsServerListening
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

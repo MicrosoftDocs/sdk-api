@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.GetMaximumCacheSize
 title: IBitsPeerCacheAdministration::GetMaximumCacheSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the maximum size of the cache.
 old-location: bits\ibitspeercacheadministration_getmaximumcachesize.htm
 old-project: Bits
 ms.assetid: 6ea0e6f7-c674-4088-9085-5f6246681009
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetMaximumCacheSize, GetMaximumCacheSize method [BITS], GetMaximumCacheSize method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],GetMaximumCacheSize method, IBitsPeerCacheAdministration.GetMaximumCacheSize, IBitsPeerCacheAdministration::GetMaximumCacheSize, bits.ibitspeercacheadministration_getmaximumcachesize, bits3_0/IBitsPeerCacheAdministration::GetMaximumCacheSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

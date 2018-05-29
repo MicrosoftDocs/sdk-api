@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFSampleGrabberSinkCallback2
 title: IMFSampleGrabberSinkCallback2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IMFSampleGrabberSinkCallback interface.
 old-location: mf\imfsamplegrabbersinkcallback2.htm
 old-project: medfound
 ms.assetid: b303361b-baaf-4d64-aa5b-a26dd70413f2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSampleGrabberSinkCallback2, IMFSampleGrabberSinkCallback2 interface [Media Foundation], IMFSampleGrabberSinkCallback2 interface [Media Foundation],described, mf.imfsamplegrabbersinkcallback2, mfidl/IMFSampleGrabberSinkCallback2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

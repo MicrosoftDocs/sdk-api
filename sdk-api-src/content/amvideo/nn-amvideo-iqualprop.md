@@ -1,16 +1,16 @@
 ---
 UID: NN:amvideo.IQualProp
 title: IQualProp
-author: windows-driver-content
+author: windows-sdk-content
 description: The IQualProp interface provides methods for retrieving performance information from video renderers.
 old-location: dshow\iqualprop.htm
 old-project: DirectShow
 ms.assetid: 428dfb97-0dfa-442c-819e-291e6a58f712
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IQualProp, IQualProp interface [DirectShow], IQualProp interface [DirectShow],described, IQualPropInterface, amvideo/IQualProp, dshow.iqualprop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: amvideo.h
 req.include-header: Dshow.h

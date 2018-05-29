@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHMapPIDLToSystemImageListIndex
 title: SHMapPIDLToSystemImageListIndex function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHMapPIDLToSystemImageListIndex may be altered or unavailable.
 old-location: shell\SHMapPIDLToSystemImageListIndex.htm
 old-project: shell
 ms.assetid: 7f11049b-2481-496b-95e3-77d480f2c9df
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHMapPIDLToSystemImageListIndex, SHMapPIDLToSystemImageListIndex function [Windows Shell], _win32_SHMapPIDLToSystemImageListIndex, shell.SHMapPIDLToSystemImageListIndex, shlobj_core/SHMapPIDLToSystemImageListIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: 

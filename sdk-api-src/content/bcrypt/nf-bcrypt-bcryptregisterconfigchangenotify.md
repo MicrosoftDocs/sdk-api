@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptRegisterConfigChangeNotify
 title: BCryptRegisterConfigChangeNotify function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a user mode CNG configuration change event handler.
 old-location: security\bcryptregisterconfigchangenotify_handle.htm
 old-project: SecCNG
 ms.assetid: e0d60ea1-3b0b-4afe-bbfc-52f0d48b7399
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptRegisterConfigChangeNotify, BCryptRegisterConfigChangeNotify function [Security], BCryptRegisterConfigChangeNotify(HANDLE*), bcrypt/BCryptRegisterConfigChangeNotify, security.bcryptregisterconfigchangenotify_handle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateService.get_ContentValidationCert
 title: IUpdateService::get_ContentValidationCert
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an SHA-1 hash of the certificate that is used to sign the contents of the service.
 old-location: wua\iupdateservice_contentvalidationcert.htm
 old-project: Wua_Sdk
 ms.assetid: c511a7d4-ac3c-4b54-9048-2397f359838b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ContentValidationCert property [Windows Update Agent], ContentValidationCert property [Windows Update Agent],IUpdateService interface, IUpdateService interface [Windows Update Agent],ContentValidationCert property, IUpdateService.ContentValidationCert, IUpdateService.get_ContentValidationCert, IUpdateService::ContentValidationCert, IUpdateService::get_ContentValidationCert, get_ContentValidationCert, wua.iupdateservice_contentvalidationcert, wuapi/IUpdateService::ContentValidationCert, wuapi/IUpdateService::get_ContentValidationCert
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

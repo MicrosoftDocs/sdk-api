@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminConnectionHangupNotificationEx
 title: MprAdminConnectionHangupNotificationEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Remote Access Service (RAS) calls the MprAdminConnectionHangupNotificationEx function after the last link for the specified connection has been dismantled.
 old-location: rras\mpradminconnectionhangupnotificationex.htm
 old-project: RRAS
 ms.assetid: de251e1b-53ff-45c8-8e2e-65ac26b4a7f5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminConnectionHangupNotificationEx, MprAdminConnectionHangupNotificationEx callback, MprAdminConnectionHangupNotificationEx callback function [RAS], mprapi/MprAdminConnectionHangupNotificationEx, rras.mpradminconnectionhangupnotificationex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

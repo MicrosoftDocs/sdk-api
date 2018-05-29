@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_IDENTIFY_ALL_FN
 title: PIBIO_ENGINE_IDENTIFY_ALL_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines the identities of any people who are currently in camera frame.
 old-location: secbiomet\engineadapteridentifyall.htm
 old-project: SecBioMet
 ms.assetid: B8B72654-D161-480B-AD3D-8ED236249562
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: EngineAdapterIdentifyAll, EngineAdapterIdentifyAll callback function [Windows Biometric Framework API], PIBIO_ENGINE_IDENTIFY_ALL_FN, PIBIO_ENGINE_IDENTIFY_ALL_FN callback, secbiomet.engineadapteridentifyall, winbio_adapter/EngineAdapterIdentifyAll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

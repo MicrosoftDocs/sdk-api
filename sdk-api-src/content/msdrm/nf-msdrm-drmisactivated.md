@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMIsActivated
 title: DRMIsActivated function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the current user or machine is activated.
 old-location: rm\drmisactivated.htm
 old-project: AdRms_Sdk
 ms.assetid: f6c7bc7f-e9e8-4fc4-b30f-31bc0f5f46aa
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMIsActivated, DRMIsActivated function [Active Directory Rights Management Services SDK 1.0], DRM_ACTIVATE_GROUPIDENTITY, DRM_ACTIVATE_MACHINE, msdrm/DRMIsActivated, rm.drmisactivated
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

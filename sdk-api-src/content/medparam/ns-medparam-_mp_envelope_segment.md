@@ -1,16 +1,16 @@
 ---
 UID: NS:medparam._MP_ENVELOPE_SEGMENT
 title: "_MP_ENVELOPE_SEGMENT"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MP_ENVELOPE_SEGMENT structure defines an envelope segment used by an envelope-following parameter.
 old-location: dshow\mp_envelope_segment.htm
 old-project: DirectShow
 ms.assetid: b7386b63-c563-42dd-851c-780bf1043f65
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: MPF_ENVLP_BEGIN_CURRENTVAL, MPF_ENVLP_BEGIN_NEUTRALVAL, MPF_ENVLP_STANDARD, MP_ENVELOPEStructure, MP_ENVELOPE_SEGMENT, MP_ENVELOPE_SEGMENT structure [DirectShow], _MP_ENVELOPE_SEGMENT, dshow.mp_envelope_segment, medparam/MP_ENVELOPE_SEGMENT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: medparam.h
 req.include-header: 

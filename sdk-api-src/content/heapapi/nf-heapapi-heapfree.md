@@ -1,16 +1,16 @@
 ---
 UID: NF:heapapi.HeapFree
 title: HeapFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees a memory block allocated from a heap by the HeapAlloc or HeapReAlloc function.
 old-location: base\heapfree.htm
 old-project: Memory
 ms.assetid: 6139e55f-9dda-42b5-bc9b-8d9bbfeaa619
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapFree, HeapFree function, _win32_heapfree, base.heapfree, heapapi/HeapFree, winbase/HeapFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h

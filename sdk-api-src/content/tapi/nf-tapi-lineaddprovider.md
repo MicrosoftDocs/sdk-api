@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineAddProvider
 title: lineAddProvider function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineAddProvider function installs a new telephony service provider into the telephony system.
 old-location: tapi2\lineaddprovider.htm
 old-project: Tapi
 ms.assetid: d6c96dba-bbfb-4b4a-a4f5-a55fd4446f3b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_lineaddprovider, lineAddProvider, lineAddProvider function [TAPI 2.2], lineAddProviderA, lineAddProviderW, tapi/lineAddProvider, tapi/lineAddProviderA, tapi/lineAddProviderW, tapi2.lineaddprovider"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

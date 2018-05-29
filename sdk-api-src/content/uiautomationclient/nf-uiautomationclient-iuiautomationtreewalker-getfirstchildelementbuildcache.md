@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetFirstChildElementBuildCache
 title: IUIAutomationTreeWalker::GetFirstChildElementBuildCache
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the first child element of the specified UI Automation element, and caches properties and control patterns.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache.htm
 old-project: WinAuto
 ms.assetid: 42bdc6c4-8ee5-4338-aba1-9740221786c8
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetFirstChildElementBuildCache, GetFirstChildElementBuildCache method [Windows Accessibility], GetFirstChildElementBuildCache method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetFirstChildElementBuildCache method, IUIAutomationTreeWalker.GetFirstChildElementBuildCache, IUIAutomationTreeWalker::GetFirstChildElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache, uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetFirstChildElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

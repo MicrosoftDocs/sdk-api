@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.GetFolderByName
 title: IKnownFolderManager::GetFolderByName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an object that represents a known folder identified by its canonical name.
 old-location: shell\IKnownFolderManager_GetFolderByName.htm
 old-project: shell
 ms.assetid: cfabc06c-825d-488d-919e-4cd9109eae52
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFolderByName, GetFolderByName method [Windows Shell], GetFolderByName method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],GetFolderByName method, IKnownFolderManager.GetFolderByName, IKnownFolderManager::GetFolderByName, _shell_IKnownFolderManager_GetFolderByName, shell.IKnownFolderManager_GetFolderByName, shobjidl_core/IKnownFolderManager::GetFolderByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

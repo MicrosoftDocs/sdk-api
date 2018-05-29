@@ -1,16 +1,16 @@
 ---
 UID: NF:wiavideo.IWiaVideo.CreateVideoByName
 title: IWiaVideo::CreateVideoByName
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWiaVideo::CreateVideoByName method creates a connection to a streaming video device with the friendly device name obtained from a Directshow enumeration.
 old-location: wia\_wia_IWiaVideo_CreateVideoByName.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\createvideobyname.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: CreateVideoByName, CreateVideoByName method [WIA], CreateVideoByName method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],CreateVideoByName method, IWiaVideo.CreateVideoByName, IWiaVideo::CreateVideoByName, _wia_IWiaVideo_CreateVideoByName, wia._wia_IWiaVideo_CreateVideoByName, wiavideo/IWiaVideo::CreateVideoByName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wiavideo.h
 req.include-header: 

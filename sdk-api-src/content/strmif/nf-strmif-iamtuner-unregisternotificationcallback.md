@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMTuner.UnRegisterNotificationCallBack
 title: IAMTuner::UnRegisterNotificationCallBack
-author: windows-driver-content
+author: windows-sdk-content
 description: The UnRegisterNotificationCallBack method unregisters an object for event notifications.
 old-location: dshow\iamtuner_unregisternotificationcallback.htm
 old-project: DirectShow
 ms.assetid: b46a925b-b4a7-4e2f-aa1b-c98d0f56b33a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMTuner interface [DirectShow],UnRegisterNotificationCallBack method, IAMTuner.UnRegisterNotificationCallBack, IAMTuner::UnRegisterNotificationCallBack, IAMTunerUnRegisterNotificationCallBack, UnRegisterNotificationCallBack, UnRegisterNotificationCallBack method [DirectShow], UnRegisterNotificationCallBack method [DirectShow],IAMTuner interface, dshow.iamtuner_unregisternotificationcallback, strmif/IAMTuner::UnRegisterNotificationCallBack
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

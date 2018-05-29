@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capPreviewScale
 title: capPreviewScale macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capPreviewScale macro enables or disables scaling of the preview video images.
 old-location: multimedia\cappreviewscale.htm
 old-project: Multimedia
 ms.assetid: 32f432a7-76be-4b75-8863-bc67cdcda781
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capPreviewScale, capPreviewScale, capPreviewScale macro [Windows Multimedia], multimedia.cappreviewscale, vfw/capPreviewScale"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

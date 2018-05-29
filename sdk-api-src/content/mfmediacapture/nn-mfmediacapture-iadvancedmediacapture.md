@@ -1,16 +1,16 @@
 ---
 UID: NN:mfmediacapture.IAdvancedMediaCapture
 title: IAdvancedMediaCapture
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables advanced media capture.
 old-location: mf\iadvancedmediacapture.htm
 old-project: medfound
 ms.assetid: 932b0cbf-c264-4c3b-b143-023dd7f809f1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAdvancedMediaCapture, IAdvancedMediaCapture interface [Media Foundation], IAdvancedMediaCapture interface [Media Foundation],described, mf.iadvancedmediacapture, mfmediacapture/IAdvancedMediaCapture
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediacapture.h
 req.include-header: 

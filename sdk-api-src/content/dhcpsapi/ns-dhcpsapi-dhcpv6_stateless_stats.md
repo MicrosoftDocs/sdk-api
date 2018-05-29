@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi.DHCPV6_STATELESS_STATS
 title: DHCPV6_STATELESS_STATS
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCPV6_STATELESS_STATS structure defines an array of stateless IPv6 subnet statistics.
 old-location: dhcp\dhcpv6_stateless_stats.htm
 old-project: DHCP
 ms.assetid: 8C0E26F3-9496-497C-9E05-9995CC322189
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCPV6_STATELESS_STATS, *PDHCPV6_STATELESS_STATS, DHCPV6_STATELESS_STATS, DHCPV6_STATELESS_STATS structure [DHCP], LPDHCPV6_STATELESS_STATS, LPDHCPV6_STATELESS_STATS structure pointer [DHCP], PDHCPV6_STATELESS_STATS, PDHCPV6_STATELESS_STATS structure pointer [DHCP], dhcp.dhcpv6_stateless_stats, dhcpsapi/DHCPV6_STATELESS_STATS, dhcpsapi/LPDHCPV6_STATELESS_STATS, dhcpsapi/PDHCPV6_STATELESS_STATS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

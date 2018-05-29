@@ -1,16 +1,16 @@
 ---
 UID: NS:dbghelp.SYMSRV_INDEX_INFOW
 title: SYMSRV_INDEX_INFOW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains symbol server index information.
 old-location: base\symsrv_index_info.htm
 old-project: Debug
 ms.assetid: 110cf21c-7768-48fd-bfdc-1f7cd30ca291
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PSYMSRV_INDEX_INFOW, PSYMSRV_INDEX_INFO, PSYMSRV_INDEX_INFO structure pointer, SYMSRV_INDEX_INFO, SYMSRV_INDEX_INFO structure, SYMSRV_INDEX_INFOW, base.symsrv_index_info, dbghelp/PSYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFO, dbghelp/SYMSRV_INDEX_INFOW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.RestoreMediaSense
 title: RestoreMediaSense function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RestoreMediaSense function restores the media sensing capability of the TCP/IP stack on a local computer on which the DisableMediaSense function was previously called.
 old-location: iphlp\restoremediasense.htm
 old-project: IpHlp
 ms.assetid: 1a959da7-5fdb-4749-a4be-5d44e80ca2ea
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: RestoreMediaSense, RestoreMediaSense function [IP Helper], iphlp.restoremediasense, iphlpapi/RestoreMediaSense
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

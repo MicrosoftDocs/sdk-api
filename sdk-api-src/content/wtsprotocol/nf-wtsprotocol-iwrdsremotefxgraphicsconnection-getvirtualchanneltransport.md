@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport
 title: IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the virtual channel transport object.
 old-location: termserv\iwrdsremotefxgraphicsconnection_getvirtualchanneltransport.htm
 old-project: TermServ
 ms.assetid: 70de545f-f630-40cc-8456-ea0703caba17
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetVirtualChannelTransport, GetVirtualChannelTransport method [Remote Desktop Services], GetVirtualChannelTransport method [Remote Desktop Services],IWRdsRemoteFXGraphicsConnection interface, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services],GetVirtualChannelTransport method, IWRdsRemoteFXGraphicsConnection.GetVirtualChannelTransport, IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport, termserv.iwrdsremotefxgraphicsconnection_getvirtualchanneltransport, wtsprotocol/IWRdsRemoteFXGraphicsConnection::GetVirtualChannelTransport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

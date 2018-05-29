@@ -1,16 +1,16 @@
 ---
 UID: NF:winsxs.IAssemblyName.IsEqual
 title: IAssemblyName::IsEqual
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsEqual method compares the current assembly name to another assembly name.
 old-location: setup\iassemblyname_isequal.htm
 old-project: SbsCs
 ms.assetid: 798102ce-b696-4940-941d-c3fd3054c584
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAssemblyName interface [Side-by-side Assemblies],IsEqual method, IAssemblyName.IsEqual, IAssemblyName::IsEqual, IsEqual, IsEqual method [Side-by-side Assemblies], IsEqual method [Side-by-side Assemblies],IAssemblyName interface, setup.iassemblyname_isequal, winsxs/IAssemblyName::IsEqual
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsxs.h
 req.include-header: 

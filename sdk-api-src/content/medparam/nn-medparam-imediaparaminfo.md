@@ -1,16 +1,16 @@
 ---
 UID: NN:medparam.IMediaParamInfo
 title: IMediaParamInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMediaParamInfo interface retrieves information about the parameters that an object supports. The set of parameters that an object supports will not change over the lifetime of an application. To set parameter values, use the IMediaParams interface.
 old-location: dshow\imediaparaminfo.htm
 old-project: DirectShow
 ms.assetid: 80c7da71-7898-4bda-a181-09ad8906532a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaParamInfo, IMediaParamInfo interface [DirectShow], IMediaParamInfo interface [DirectShow],described, IMediaParamInfoInterface, dshow.imediaparaminfo, medparam/IMediaParamInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: medparam.h
 req.include-header: 

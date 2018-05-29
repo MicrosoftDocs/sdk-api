@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt.JOBOBJECT_NET_RATE_CONTROL_INFORMATION
 title: JOBOBJECT_NET_RATE_CONTROL_INFORMATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used to control the network traffic for a job. This structure is used by the SetInformationJobObject and QueryInformationJobObject functions with the JobObjectNetRateControlInformation information class.
 old-location: base\jobobject_net_rate_control_information.htm
 old-project: ProcThread
 ms.assetid: CE55BC2A-B27C-490A-9D5A-C18FEC09638C
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: JOBOBJECT_NET_RATE_CONTROL_INFORMATION, JOBOBJECT_NET_RATE_CONTROL_INFORMATION structure, base.jobobject_net_rate_control_information, winnt/JOBOBJECT_NET_RATE_CONTROL_INFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

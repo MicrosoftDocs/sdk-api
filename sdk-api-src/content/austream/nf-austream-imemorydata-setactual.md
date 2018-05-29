@@ -1,16 +1,16 @@
 ---
 UID: NF:austream.IMemoryData.SetActual
 title: IMemoryData::SetActual
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is deprecated. New applications should not use it. Sets the amount of audio data currently in the object.
 old-location: dshow\imemorydata_setactual.htm
 old-project: DirectShow
 ms.assetid: 22d9c24b-deb0-429a-ad9c-f6d286c7cdeb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMemoryData interface [DirectShow],SetActual method, IMemoryData.SetActual, IMemoryData::SetActual, IMemoryDataSetActual, SetActual, SetActual method [DirectShow], SetActual method [DirectShow],IMemoryData interface, austream/IMemoryData::SetActual, dshow.imemorydata_setactual
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: austream.h
 req.include-header: 

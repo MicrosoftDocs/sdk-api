@@ -1,16 +1,16 @@
 ---
 UID: NS:netlistmgr.NLM_SIMULATED_PROFILE_INFO
 title: NLM_SIMULATED_PROFILE_INFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to specify values that are used by SetSimulatedProfileInfo to override current internet connection profile values in an RDP Child Session to support the simulation of specific metered internet connection conditions.
 old-location: nla\nlm_simulated_profile_info.htm
 old-project: NLA
 ms.assetid: 1DC80EB0-E63A-4352-8269-D795E1573851
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NLM_SIMULATED_PROFILE_INFO, NLM_SIMULATED_PROFILE_INFO structure [Network Awareness], PNLM_SIMULATED_PROFILE_INFO, PNLM_SIMULATED_PROFILE_INFO structure pointer [Network Awareness], netlistmgr/NLM_SIMULATED_PROFILE_INFO, netlistmgr/PNLM_SIMULATED_PROFILE_INFO, nla.nlm_simulated_profile_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: netlistmgr.h
 req.include-header: 

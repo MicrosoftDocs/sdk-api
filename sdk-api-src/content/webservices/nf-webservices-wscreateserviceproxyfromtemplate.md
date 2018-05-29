@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsCreateServiceProxyFromTemplate
 title: WsCreateServiceProxyFromTemplate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Helper routine for creating a service proxy from policy templates.
 old-location: wsw\wscreateserviceproxyfromtemplate.htm
 old-project: wsw
 ms.assetid: 09a6ee60-ffed-4bab-8747-61c9fee69695
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsCreateServiceProxyFromTemplate, WsCreateServiceProxyFromTemplate function [Web Services for Windows], webservices/WsCreateServiceProxyFromTemplate, wsw.wscreateserviceproxyfromtemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

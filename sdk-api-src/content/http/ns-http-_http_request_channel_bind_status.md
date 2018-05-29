@@ -1,16 +1,16 @@
 ---
 UID: NS:http._HTTP_REQUEST_CHANNEL_BIND_STATUS
 title: "_HTTP_REQUEST_CHANNEL_BIND_STATUS"
-author: windows-driver-content
+author: windows-sdk-content
 description: HTTP_REQUEST_CHANNEL_BIND_STATUS.
 old-location: http\http_request_channel_bind_status.htm
 old-project: Http
 ms.assetid: 70f52486-2632-4e15-998b-4d87a86cb11f
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: "*PHTTP_REQUEST_CHANNEL_BIND_STATUS, HTTP_REQUEST_CHANNEL_BIND_STATUS, HTTP_REQUEST_CHANNEL_BIND_STATUS structure [HTTP], PHTTP_REQUEST_CHANNEL_BIND_STATUS, PHTTP_REQUEST_CHANNEL_BIND_STATUS structure pointer [HTTP], _HTTP_REQUEST_CHANNEL_BIND_STATUS, http.http_request_channel_bind_status, http/HTTP_REQUEST_CHANNEL_BIND_STATUS, http/PHTTP_REQUEST_CHANNEL_BIND_STATUS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: http.h
 req.include-header: 

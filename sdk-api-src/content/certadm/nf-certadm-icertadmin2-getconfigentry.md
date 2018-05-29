@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.ICertAdmin2.GetConfigEntry
 title: ICertAdmin2::GetConfigEntry
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves configuration information for a certification authority (CA).
 old-location: security\icertadmin2_getconfigentry.htm
 old-project: SecCrypto
 ms.assetid: 1acb9e06-c9e5-419a-899a-b0ae80fab99e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetConfigEntry, GetConfigEntry method [Security], GetConfigEntry method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetConfigEntry method, ICertAdmin2.GetConfigEntry, ICertAdmin2::GetConfigEntry, certadm/ICertAdmin2::GetConfigEntry, security.icertadmin2_getconfigentry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certsrv.h

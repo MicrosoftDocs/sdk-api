@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetPropertyProgrammaticName
 title: IUIAutomation::GetPropertyProgrammaticName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the registered programmatic name of a property.
 old-location: winauto\uiauto_IUIAutomation_GetPropertyProgrammaticName.htm
 old-project: WinAuto
 ms.assetid: f4472de0-7194-411d-a508-a5d81aba8b7d
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetPropertyProgrammaticName, GetPropertyProgrammaticName method [Windows Accessibility], GetPropertyProgrammaticName method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetPropertyProgrammaticName method, IUIAutomation.GetPropertyProgrammaticName, IUIAutomation::GetPropertyProgrammaticName, uiauto.uiauto_IUIAutomation_GetPropertyProgrammaticName, uiauto_IUIAutomation_GetPropertyProgrammaticName, uiautomationclient/IUIAutomation::GetPropertyProgrammaticName, winauto.uiauto_IUIAutomation_GetPropertyProgrammaticName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

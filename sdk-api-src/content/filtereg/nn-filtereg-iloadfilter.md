@@ -1,16 +1,16 @@
 ---
 UID: NN:filtereg.ILoadFilter
 title: ILoadFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines methods and properties that are implemented by the FilterRegistration object, which provides methods for loading a filter.
 old-location: search\iloadfilter.htm
 old-project: search
 ms.assetid: 7ac51909-fa0e-4f97-8da0-0ab4c5de7d60
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ILoadFilter, ILoadFilter interface [search], ILoadFilter interface [search],described, filtereg/ILoadFilter, search.iloadfilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: filtereg.h
 req.include-header: 

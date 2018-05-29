@@ -1,16 +1,16 @@
 ---
 UID: NN:dsattrib.IAttributeGet
 title: IAttributeGet
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. The IAttributeGet interface gets key/value pairs from an object, where the key is a GUID and the value is any binary data.
 old-location: mstv\iattributeget.htm
 old-project: mstv
 ms.assetid: 561267ac-8720-4aba-b812-784ab1e42114
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAttributeGet, IAttributeGet interface [Microsoft TV Technologies], IAttributeGet interface [Microsoft TV Technologies],described, IAttributeGetInterface, dsattrib/IAttributeGet, mstv.iattributeget
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dsattrib.h
 req.include-header: 

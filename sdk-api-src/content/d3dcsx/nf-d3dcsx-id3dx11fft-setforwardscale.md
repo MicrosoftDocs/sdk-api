@@ -1,16 +1,16 @@
 ---
 UID: NF:d3dcsx.ID3DX11FFT.SetForwardScale
 title: ID3DX11FFT::SetForwardScale
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the scale used for forward transforms.
 old-location: direct3d11\id3dx11fft_setforwardscale.htm
 old-project: direct3d11
 ms.assetid: afca03bb-459f-42ff-bc88-7487b1bc250d
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3DX11FFT interface [Direct3D 11],SetForwardScale method, ID3DX11FFT.SetForwardScale, ID3DX11FFT::SetForwardScale, SetForwardScale, SetForwardScale method [Direct3D 11], SetForwardScale method [Direct3D 11],ID3DX11FFT interface, ceddf377-cf6d-2efb-3b7d-dcf4a17d5886, d3dcsx/ID3DX11FFT::SetForwardScale, direct3d11.id3dx11fft_setforwardscale
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3dcsx.h
 req.include-header: 

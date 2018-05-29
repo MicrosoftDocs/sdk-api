@@ -1,16 +1,16 @@
 ---
 UID: NF:virtdisk.QueryChangesVirtualDisk
 title: QueryChangesVirtualDisk function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about changes to the specified areas of a virtual hard disk (VHD) that are tracked by resilient change tracking (RCT).
 old-location: vhd\querychangesvirtualdisk.htm
 old-project: VStor
 ms.assetid: 633FA684-5CC6-4615-B62C-54C60B38E652
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: QueryChangesVirtualDisk, QueryChangesVirtualDisk function [VHD], vhd.querychangesvirtualdisk, virtdisk/QueryChangesVirtualDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: virtdisk.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetText
 title: ITextStoreACP2::GetText
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets info about text at a specified character position. This method returns the visible and hidden text and indicates if embedded data is attached to the text.
 old-location: tsf\itextstoreacp2_gettext.htm
 old-project: TSF
 ms.assetid: e1443c44-4787-448e-b5ff-a05d1396807d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetText, GetText method [Text Services Framework], GetText method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetText method, ITextStoreACP2.GetText, ITextStoreACP2::GetText, textstor/ITextStoreACP2::GetText, tsf.itextstoreacp2_gettext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

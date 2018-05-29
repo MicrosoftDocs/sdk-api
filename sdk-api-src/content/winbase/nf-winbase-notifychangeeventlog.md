@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.NotifyChangeEventLog
 title: NotifyChangeEventLog function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an application to receive notification when an event is written to the specified event log.
 old-location: base\notifychangeeventlog.htm
 old-project: EventLog
 ms.assetid: 12b9a7bf-2aad-48b7-8cfd-a72b353ba2b2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NotifyChangeEventLog, NotifyChangeEventLog function, _win32_notifychangeeventlog, base.notifychangeeventlog, winbase/NotifyChangeEventLog
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

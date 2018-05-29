@@ -1,16 +1,16 @@
 ---
 UID: NN:efswrtinterop.IProtectionPolicyManagerInterop
 title: IProtectionPolicyManagerInterop
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages enterprise protection policy on protected content.
 old-location: edp\iprotectionpolicymanagerinterop.htm
 old-project: EDP
 ms.assetid: AFA7F918-8730-40A2-871E-9356391B47F8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop, IProtectionPolicyManagerInterop, IProtectionPolicyManagerInterop interface, IProtectionPolicyManagerInterop interface,described, efswrtinterop/IProtectionPolicyManagerInterop interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: efswrtinterop.h
 req.include-header: 

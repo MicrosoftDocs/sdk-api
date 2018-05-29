@@ -1,16 +1,16 @@
 ---
 UID: NF:msaatext.IVersionInfo.GetSubcomponentCount
 title: IVersionInfo::GetSubcomponentCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Clients call IVersionInfo::GetSubcomponentCount to determine the number of subcomponents for which version information is returned.
 old-location: winauto\iversioninfo_iversioninfo__getsubcomponentcount.htm
 old-project: WinAuto
 ms.assetid: d1a169f1-db47-4c5b-9515-1f2660cfae17
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetSubcomponentCount, GetSubcomponentCount method [Windows Accessibility], GetSubcomponentCount method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetSubcomponentCount method, IVersionInfo.GetSubcomponentCount, IVersionInfo::GetSubcomponentCount, _msaa_IVersionInfo_GetSubcomponentCount, msaa.iversioninfo_iversioninfo__getsubcomponentcount, msaatext/IVersionInfo::GetSubcomponentCount, winauto.iversioninfo_iversioninfo__getsubcomponentcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msaatext.h
 req.include-header: 

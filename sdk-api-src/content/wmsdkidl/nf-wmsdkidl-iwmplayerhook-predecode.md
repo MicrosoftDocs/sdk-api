@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMPlayerHook.PreDecode
 title: IWMPlayerHook::PreDecode
-author: windows-driver-content
+author: windows-sdk-content
 description: The PreDecode method is called by the reader object before a sample from the output to which the IWMPlayerHook interface is assigned is passed to the video processor for decoding.
 old-location: wmformat\iwmplayerhook_predecode.htm
 old-project: wmformat
 ms.assetid: 88a78360-3e67-4425-8c65-3f746c6c807d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMPlayerHook interface [windows Media Format],PreDecode method, IWMPlayerHook.PreDecode, IWMPlayerHook::PreDecode, IWMPlayerHookPreDecode, PreDecode, PreDecode method [windows Media Format], PreDecode method [windows Media Format],IWMPlayerHook interface, wmformat.iwmplayerhook_predecode, wmsdkidl/IWMPlayerHook::PreDecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

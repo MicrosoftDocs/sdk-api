@@ -1,16 +1,16 @@
 ---
 UID: NF:ddrawgdi.DdResetVisrgn
 title: DdResetVisrgn function
-author: windows-driver-content
+author: windows-sdk-content
 description: Wrapper for the NtGdiDdResetVisrgn function and enables timely user-mode information on the clipping region for windows on the desktop.
 old-location: winprog\_dxgkernel_ddresetvisrgn.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddresetvisrgn.htm
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: DdResetVisrgn, DdResetVisrgn function [Windows API], GdiEntry6, _dxgkernel_ddresetvisrgn, ddrawgdi/DdResetVisrgn, ddrawgdi/GdiEntry6, winprog._dxgkernel_ddresetvisrgn, winui._dxgkernel_ddresetvisrgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ddrawgdi.h
 req.include-header: 

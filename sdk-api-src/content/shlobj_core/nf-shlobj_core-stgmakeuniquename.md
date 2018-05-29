@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.StgMakeUniqueName
 title: StgMakeUniqueName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a unique name for a stream or storage object from a template.
 old-location: shell\StgMakeUniqueName.htm
 old-project: shell
 ms.assetid: d45ec25c-359b-46f8-b0f6-5888525c7349
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StgMakeUniqueName, StgMakeUniqueName function [Windows Shell], _shell_StgMakeUniqueName, shell.StgMakeUniqueName, shlobj_core/StgMakeUniqueName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

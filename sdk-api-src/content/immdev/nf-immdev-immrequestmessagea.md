@@ -1,16 +1,16 @@
 ---
 UID: NF:immdev.ImmRequestMessageA
 title: ImmRequestMessageA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates a WM_IME_REQUEST message.
 old-location: intl\immrequestmessage.htm
 old-project: Intl
 ms.assetid: 70c90851-b6a4-41ce-a048-c828adcd4ed8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmRequestMessage, ImmRequestMessage function [Internationalization for Windows Applications], ImmRequestMessageA, ImmRequestMessageW, immdev/ImmRequestMessage, immdev/ImmRequestMessageA, immdev/ImmRequestMessageW, intl.immrequestmessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: immdev.h
 req.include-header: 

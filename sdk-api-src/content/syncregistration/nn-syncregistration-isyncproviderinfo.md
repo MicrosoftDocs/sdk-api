@@ -1,16 +1,16 @@
 ---
 UID: NN:syncregistration.ISyncProviderInfo
 title: ISyncProviderInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the information and properties needed to create an instance of a synchronization provider.
 old-location: winsync\isyncproviderinfo.htm
 old-project: winsync
 ms.assetid: fe50e34c-6499-4c1e-b891-7b4f797510f2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncProviderInfo, ISyncProviderInfo interface [Windows Sync], ISyncProviderInfo interface [Windows Sync],described, syncregistration/ISyncProviderInfo, winsync.isyncproviderinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncregistration.h
 req.include-header: 

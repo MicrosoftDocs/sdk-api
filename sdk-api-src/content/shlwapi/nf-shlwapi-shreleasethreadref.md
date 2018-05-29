@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHReleaseThreadRef
 title: SHReleaseThreadRef function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases a thread reference before the thread procedure returns.
 old-location: shell\SHReleaseThreadRef.htm
 old-project: shell
 ms.assetid: 7f3fd09b-baad-4019-a060-c68727aee61f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHReleaseThreadRef, SHReleaseThreadRef function [Windows Shell], _shell_SHReleaseThreadRef, shell.SHReleaseThreadRef, shlwapi/SHReleaseThreadRef
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsGetServiceProxyProperty
 title: WsGetServiceProxyProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function retrieves a specified Service Proxy property. The property to retrieve is identified by a WS_PROXY_PROPERTY_ID input parameter.
 old-location: wsw\wsgetserviceproxyproperty.htm
 old-project: wsw
 ms.assetid: 4fb4124f-5beb-426a-890f-3a8fe236411f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsGetServiceProxyProperty, WsGetServiceProxyProperty function [Web Services for Windows], webservices/WsGetServiceProxyProperty, wsw.wsgetserviceproxyproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IObjPool
 title: IObjPool
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the key to each object in the transaction resource pool.
 old-location: cos\iobjpool.htm
 old-project: cossdk
 ms.assetid: d3730a37-933b-4705-b787-4b8bb728a278
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IObjPool, IObjPool interface [COM+], IObjPool interface [COM+],described, _cos_IObjPool, comsvcs/IObjPool, cos.iobjpool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

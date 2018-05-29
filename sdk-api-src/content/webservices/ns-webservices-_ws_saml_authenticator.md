@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_SAML_AUTHENTICATOR
 title: "_WS_SAML_AUTHENTICATOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: The abstract base type for all SAML authenticators used on the server side to validate incoming SAML tokens.
 old-location: wsw\ws_saml_authenticator.htm
 old-project: wsw
 ms.assetid: 3e67670f-3fde-4a2d-8c55-f4a3f5bef5f0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SAML_AUTHENTICATOR, WS_SAML_AUTHENTICATOR structure [Web Services for Windows], _WS_SAML_AUTHENTICATOR, webservices/WS_SAML_AUTHENTICATOR, wsw.ws_saml_authenticator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

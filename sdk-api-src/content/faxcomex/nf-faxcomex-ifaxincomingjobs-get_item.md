@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJobs.get_Item
 title: IFaxIncomingJobs::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a FaxIncomingJob object from the FaxIncomingJobs collection.
 old-location: fax\_mfax_faxincomingjobs_item_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5ga5_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxIncomingJobs interface [Fax Service],get_Item method, IFaxIncomingJobs.get_Item, IFaxIncomingJobs::get_Item, _mfax_faxincomingjobs.item_cpp, fax._mfax_faxincomingjobs_item_cpp, faxcomex/IFaxIncomingJobs::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxIncomingJobs interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSink3
 title: IMSVidStreamBufferSink3
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMSVidStreamBufferSink3 interface represents the Stream Buffer Sink filter within the Video Control.
 old-location: mstv\imsvidstreambuffersink3.htm
 old-project: mstv
 ms.assetid: 5768936b-9c0a-4177-82da-cc6ebe62ea67
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferSink3, IMSVidStreamBufferSink3 interface [Microsoft TV Technologies], IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],described, IMSVidStreamBufferSink3Interface, mstv.imsvidstreambuffersink3, segment/IMSVidStreamBufferSink3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

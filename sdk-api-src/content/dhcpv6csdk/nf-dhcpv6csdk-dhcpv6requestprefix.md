@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpv6csdk.Dhcpv6RequestPrefix
 title: Dhcpv6RequestPrefix function
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests a specific prefix.
 old-location: dhcp\dhcpv6requestprefix.htm
 old-project: DHCP
 ms.assetid: 60f18e54-a0a4-4fbe-a416-16b924ce4616
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: Dhcpv6RequestPrefix, Dhcpv6RequestPrefix function [DHCP], dhcp.dhcpv6requestprefix, dhcpv6csdk/Dhcpv6RequestPrefix
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpv6csdk.h
 req.include-header: 

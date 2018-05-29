@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngQueryPerformanceFrequency
 title: EngQueryPerformanceFrequency function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngQueryPerformanceFrequency function queries the frequency of the performance counter.
 old-location: display\engqueryperformancefrequency.htm
 old-project: display
 ms.assetid: d4194278-eb49-43e4-b4bf-576e65d9e5ad
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngQueryPerformanceFrequency, EngQueryPerformanceFrequency function [Display Devices], display.engqueryperformancefrequency, gdifncs_46139586-61a2-4418-9400-ac9bbce12167.xml, winddi/EngQueryPerformanceFrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

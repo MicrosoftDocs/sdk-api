@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.ListBox_Enable
 title: ListBox_Enable macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables a list box control.
 old-location: controls\ListBox_Enable.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_enable.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListBox_Enable, ListBox_Enable macro [Windows Controls], _win32_ListBox_Enable, _win32_ListBox_Enable_cpp, controls.ListBox_Enable, controls._win32_ListBox_Enable, windowsx/ListBox_Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

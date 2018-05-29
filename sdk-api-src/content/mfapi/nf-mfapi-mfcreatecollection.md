@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateCollection
 title: MFCreateCollection function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an empty collection object.
 old-location: mf\mfcreatecollection.htm
 old-project: medfound
 ms.assetid: 6a7bf7b6-62f1-4eac-9849-39021ee50f42
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 6a7bf7b6-62f1-4eac-9849-39021ee50f42, MFCreateCollection, MFCreateCollection function [Media Foundation], mf.mfcreatecollection, mfapi/MFCreateCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

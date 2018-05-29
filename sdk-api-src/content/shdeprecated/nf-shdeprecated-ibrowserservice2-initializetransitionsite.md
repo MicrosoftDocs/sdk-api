@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.InitializeTransitionSite
 title: IBrowserService2::InitializeTransitionSite
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Enables transitions in the browser view window.
 old-location: shell\IBrowserService2_InitializeTransitionSite.htm
 old-project: shell
 ms.assetid: 8bb2efc6-699f-4e12-bb52-ee15fb8dc85a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],InitializeTransitionSite method, IBrowserService2.InitializeTransitionSite, IBrowserService2::InitializeTransitionSite, InitializeTransitionSite, InitializeTransitionSite method [Windows Shell], InitializeTransitionSite method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::InitializeTransitionSite, shell.IBrowserService2_InitializeTransitionSite, zone_IBrowserService2_InitializeTransitionSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

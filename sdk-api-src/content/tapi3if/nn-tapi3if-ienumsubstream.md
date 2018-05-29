@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.IEnumSubStream
 title: IEnumSubStream
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumSubStream interface provides COM-standard enumeration methods for the ITSubStream interface. The ITSubStreamControl::EnumerateSubStreams method returns a pointer to IEnumSubStream.
 old-location: tapi3\ienumsubstream.htm
 old-project: Tapi
 ms.assetid: d9076a32-983e-48d4-b025-5fc770156df6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumSubStream, IEnumSubStream interface [TAPI 2.2], IEnumSubStream interface [TAPI 2.2],described, _tapi3_ienumsubstream, tapi3.ienumsubstream, tapi3if/IEnumSubStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMEncode
 title: DRMEncode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Encodes data using a public encoding method, such as base64.
 old-location: rm\drmencode.htm
 old-project: AdRms_Sdk
 ms.assetid: 5fc0275c-098b-43a6-a52a-871321b0e4f3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMEncode, DRMEncode function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMEncode, rm.drmencode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

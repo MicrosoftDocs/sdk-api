@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.KspDeleteContextFn
 title: KspDeleteContextFn
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a security context.
 old-location: security\spdeletecontext.htm
 old-project: SecAuthN
 ms.assetid: 70e64bd3-7fdf-464b-bc0a-a0384a3e1a59
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: KspDeleteContextFn, SpDeleteContext, SpDeleteContext function [Security], _ssp_spdeletecontext, ntsecpkg/SpDeleteContext, security.spdeletecontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

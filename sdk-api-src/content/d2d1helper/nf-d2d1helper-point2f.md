@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1helper.Point2F
 title: Point2F function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a D2D1_POINT_2F structure that contains the specified x-coordinates and y-coordinates.
 old-location: direct2d\point2f.htm
 old-project: Direct2D
 ms.assetid: 62eb7517-0c38-4f63-b9f9-85211fcb36a4
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: Point2F, Point2F function [Direct2D], d2d1helper/Point2F, direct2d.point2f
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 

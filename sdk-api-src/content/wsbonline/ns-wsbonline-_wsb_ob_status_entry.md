@@ -1,16 +1,16 @@
 ---
 UID: NS:wsbonline._WSB_OB_STATUS_ENTRY
 title: "_WSB_OB_STATUS_ENTRY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains status information for one entry to be shown in the Windows Server Backup MMC snap-in.
 old-location: wsb\wsb_ob_status_entry.htm
 old-project: wsb
 ms.assetid: BFC13B54-60F3-43A1-B464-D09DD96F57FA
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WSB_OB_STATUS_ENTRY, WSB_OB_STATUS_ENTRY structure [Windows Server Backup], _WSB_OB_STATUS_ENTRY, wsb.wsb_ob_status_entry, wsbonline/WSB_OB_STATUS_ENTRY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsbonline.h
 req.include-header: 

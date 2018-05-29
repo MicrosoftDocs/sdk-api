@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.EndItemTransfer
 title: IPhotoAcquireProgressCB::EndItemTransfer
-author: windows-driver-content
+author: windows-sdk-content
 description: The EndItemTransfer method provides extended functionality each time a file is transferred from the image source. The application provides the implementation of the EndItemTransfer method.
 old-location: picacq\iphotoacquireprogresscb_enditemtransfer.htm
 old-project: acquisition
 ms.assetid: 8d2c0773-cb0b-4cc3-b61f-9ad4153bcf96
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EndItemTransfer, EndItemTransfer method [Picture Acquisition], EndItemTransfer method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndItemTransfer method, IPhotoAcquireProgressCB.EndItemTransfer, IPhotoAcquireProgressCB::EndItemTransfer, IPhotoAcquireProgressCBEndItemTransfer, photoacquire/IPhotoAcquireProgressCB::EndItemTransfer, picacq.iphotoacquireprogresscb_enditemtransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

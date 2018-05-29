@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRELEASE_ROUTINE
 title: PRELEASE_ROUTINE
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the quorum resource from arbitration.
 old-location: mscs\release.htm
 old-project: MsCS
 ms.assetid: 9e8e4557-b223-4f8f-9393-67f589181754
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRELEASE_ROUTINE, PRELEASE_ROUTINE callback, Release, Release callback function [Failover Cluster], _wolf_release, mscs.release, resapi/PRELEASE_ROUTINE, resapi/Release
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

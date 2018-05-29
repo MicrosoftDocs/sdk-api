@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.RtlInterlockedPushEntrySList
 title: RtlInterlockedPushEntrySList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts an item at the front of a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\rtlinterlockedpushentryslist.htm
 old-project: Sync
 ms.assetid: 0d52bc3a-9f43-4bc2-99c2-1a0efa7b29cd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtlInterlockedPushEntrySList, RtlInterlockedPushEntrySList function, base.rtlinterlockedpushentryslist, winnt/RtlInterlockedPushEntrySList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

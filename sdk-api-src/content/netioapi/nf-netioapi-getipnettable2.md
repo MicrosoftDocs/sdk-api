@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.GetIpNetTable2
 title: GetIpNetTable2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetIpNetTable2 function retrieves the IP neighbor table on the local computer.
 old-location: iphlp\getipnettable2.htm
 old-project: IpHlp
 ms.assetid: 6c45d735-9a07-41ca-8d8a-919f32c98a3c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetIpNetTable2, GetIpNetTable2 function [IP Helper], iphlp.getipnettable2, netioapi/GetIpNetTable2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

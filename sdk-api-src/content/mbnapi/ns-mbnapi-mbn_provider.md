@@ -1,16 +1,16 @@
 ---
 UID: NS:mbnapi.MBN_PROVIDER
 title: MBN_PROVIDER
-author: windows-driver-content
+author: windows-sdk-content
 description: The MBN_PROVIDER structure represents a network service provider.
 old-location: mbn\mbn_provider.htm
 old-project: mbn
 ms.assetid: f4a02ca2-6be4-4843-a657-5d5dde8be623
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_PROVIDER, MBN_PROVIDER structure [Microsoft Broadband Networks], mbn.mbn_provider, mbnapi/MBN_PROVIDER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 

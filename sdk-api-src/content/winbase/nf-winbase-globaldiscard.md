@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GlobalDiscard
 title: GlobalDiscard macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Discards the specified global memory block.
 old-location: base\globaldiscard.htm
 old-project: Memory
 ms.assetid: af6160ce-ab7a-4198-bca3-dd5d51cacfa5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GlobalDiscard, GlobalDiscard macro, _win32_globaldiscard, base.globaldiscard, winbase/GlobalDiscard
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winbase.h
 req.include-header: Windows.h

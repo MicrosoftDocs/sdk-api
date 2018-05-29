@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.get_EnumTuningSpaces
 title: ITuningSpaceContainer::get_EnumTuningSpaces
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_EnumTuningSpaces method retrieves a collection of all tuning spaces available on the local system.
 old-location: mstv\ituningspacecontainer_get_enumtuningspaces.htm
 old-project: mstv
 ms.assetid: 7cd6a691-8c47-4c26-8afd-57f6965246ff
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],get_EnumTuningSpaces method, ITuningSpaceContainer.get_EnumTuningSpaces, ITuningSpaceContainer::get_EnumTuningSpaces, ITuningSpaceContainerget_EnumTuningSpaces, get_EnumTuningSpaces, get_EnumTuningSpaces method [Microsoft TV Technologies], get_EnumTuningSpaces method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_get_enumtuningspaces, tuner/ITuningSpaceContainer::get_EnumTuningSpaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

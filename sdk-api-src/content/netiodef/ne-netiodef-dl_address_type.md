@@ -1,16 +1,16 @@
 ---
 UID: NE:netiodef.DL_ADDRESS_TYPE
 title: DL_ADDRESS_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The DL_ADDRESS_TYPE enumerated type.
 old-location: fwp\dl_address_type.htm
 old-project: FWP
 ms.assetid: 1ef0195a-af46-4eb3-8cc0-0408b644a7e9
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*PDL_ADDRESS_TYPE, DL_ADDRESS_TYPE, DL_ADDRESS_TYPE enumeration [Filtering], DlBroadcast, DlMulticast, DlUnicast, PDL_ADDRESS_TYPE, PDL_ADDRESS_TYPE enumeration pointer [Filtering], fwp.dl_address_type, netiodef/DL_ADDRESS_TYPE, netiodef/DlBroadcast, netiodef/DlMulticast, netiodef/DlUnicast, netiodef/PDL_ADDRESS_TYPE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: netiodef.h
 req.include-header: Fwpmtypes.h

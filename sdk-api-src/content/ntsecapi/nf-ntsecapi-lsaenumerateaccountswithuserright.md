@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaEnumerateAccountsWithUserRight
 title: LsaEnumerateAccountsWithUserRight function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the accounts in the database of a Local Security Authority (LSA) Policy object that hold a specified privilege.
 old-location: security\lsaenumerateaccountswithuserright.htm
 old-project: SecMgmt
 ms.assetid: 97e7180e-4edb-4edd-915e-0477e7e7a9ff
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaEnumerateAccountsWithUserRight, LsaEnumerateAccountsWithUserRight function [Security], _lsa_lsaenumerateaccountswithuserright, ntsecapi/LsaEnumerateAccountsWithUserRight, security.lsaenumerateaccountswithuserright
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

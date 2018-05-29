@@ -1,16 +1,16 @@
 ---
 UID: NE:ctffunc.__MIDL_ITfCandidateList_0001
 title: "__MIDL_ITfCandidateList_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Elements of the TfCandidateResult enumeration are used with the ITfCandidateList::SetResult method to specify the result of a reconversion operation performed on a given candidate string.
 old-location: tsf\tfcandidateresult.htm
 old-project: TSF
 ms.assetid: 8b2b4762-f28d-40e0-b162-5e35e8835c8e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: CAND_CANCELED, CAND_FINALIZED, CAND_SELECTED, TfCandidateResult, TfCandidateResult enumeration [Text Services Framework], __MIDL_ITfCandidateList_0001, _tsf_tfcandidateresult_ref, ctffunc/CAND_CANCELED, ctffunc/CAND_FINALIZED, ctffunc/CAND_SELECTED, ctffunc/TfCandidateResult, tsf.tfcandidateresult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ctffunc.h
 req.include-header: 

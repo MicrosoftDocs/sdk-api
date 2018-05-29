@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_FIND_FILETIME_PROPERTY
 title: PRESUTIL_FIND_FILETIME_PROPERTY
-author: windows-driver-content
+author: windows-sdk-content
 description: TBD. The PRESUTIL_FIND_FILETIME_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindfiletimeproperty.htm
 old-project: MsCS
 ms.assetid: 089a7016-47bd-4878-81e6-8854e24b9220
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_FIND_FILETIME_PROPERTY, PRESUTIL_FIND_FILETIME_PROPERTY callback, PRESUTIL_FIND_FILETIME_PROPERTY callback function [Failover Cluster], mscs.resutilfindfiletimeproperty, resapi/PRESUTIL_FIND_FILETIME_PROPERTY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

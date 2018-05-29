@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.DequeueUmsCompletionListItems
 title: DequeueUmsCompletionListItems function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves user-mode scheduling (UMS) worker threads from the specified UMS completion list.
 old-location: base\dequeueumscompletionlistitems.htm
 old-project: ProcThread
 ms.assetid: 91499eb9-9fc5-4135-95f6-1bced78f1e07
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DequeueUmsCompletionListItems, DequeueUmsCompletionListItems function, base.dequeueumscompletionlistitems, winbase/DequeueUmsCompletionListItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

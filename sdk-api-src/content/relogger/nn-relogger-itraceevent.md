@@ -1,16 +1,16 @@
 ---
 UID: NN:relogger.ITraceEvent
 title: ITraceEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to data relating to a specific event.
 old-location: etw\ievent.htm
 old-project: ETW
 ms.assetid: 29b6f72a-ae81-4292-a023-a4bab16ae143
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEvent, IEvent interface [ETW], IEvent interface [ETW],described, ITraceEvent, etw.ievent, relogger/ITraceEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: relogger.h
 req.include-header: 

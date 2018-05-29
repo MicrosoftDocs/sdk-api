@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldComboBoxSelectedItem
 title: ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Communicates to the Logon UI or Credential UI that the selected item in a combo box has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldComboBoxSelectedItem.htm
 old-project: shell
 ms.assetid: 79d66546-8553-4b70-9fe6-aa1b95c1cf25
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldComboBoxSelectedItem method, ICredentialProviderCredentialEvents.SetFieldComboBoxSelectedItem, ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem, SetFieldComboBoxSelectedItem, SetFieldComboBoxSelectedItem method [Windows Shell], SetFieldComboBoxSelectedItem method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldComboBoxSelectedItem, credentialprovider/ICredentialProviderCredentialEvents::SetFieldComboBoxSelectedItem, shell.ICredentialProviderCredentialEvents_SetFieldComboBoxSelectedItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.ByteToChar
 title: ByteToChar function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type BYTE to a value of type CHAR.
 old-location: shell\ByteToChar.htm
 old-project: shell
 ms.assetid: d10b3450-3dfc-4acf-9853-f7c191041b33
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ByteToChar, ByteToChar function [Windows Shell], intsafe/ByteToChar, shell.ByteToChar
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.DnsHostnameToComputerNameA
 title: DnsHostnameToComputerNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a DNS-style host name to a NetBIOS-style computer name.
 old-location: base\dnshostnametocomputername.htm
 old-project: SysInfo
 ms.assetid: d5646fe6-9112-42cd-ace9-00dd1b590ecb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DnsHostnameToComputerName, DnsHostnameToComputerName function, DnsHostnameToComputerNameA, DnsHostnameToComputerNameW, _win32_dnshostnametocomputername, base.dnshostnametocomputername, winbase/DnsHostnameToComputerName, winbase/DnsHostnameToComputerNameA, winbase/DnsHostnameToComputerNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

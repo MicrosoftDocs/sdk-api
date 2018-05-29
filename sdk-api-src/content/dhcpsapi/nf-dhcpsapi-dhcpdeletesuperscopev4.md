@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteSuperScopeV4
 title: DhcpDeleteSuperScopeV4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a superscope from the DHCP server.
 old-location: dhcp\dhcpdeletesuperscopev4.htm
 old-project: DHCP
 ms.assetid: 5d61f39d-8423-43c4-89ab-4c28214ee84d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpDeleteSuperScopeV4, DhcpDeleteSuperScopeV4 function [DHCP], dhcp.dhcpdeletesuperscopev4, dhcpsapi/DhcpDeleteSuperScopeV4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

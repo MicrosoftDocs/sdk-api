@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetUnicodeString
 title: IXpsOMGlyphsEditor::SetUnicodeString
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the text in unescaped UTF-16 scalar values.
 old-location: xps\ixpsomglyphseditor_setunicodestring.htm
 old-project: printdocs
 ms.assetid: 68d5ab7d-63e4-403d-a689-6fc0a10e007c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetUnicodeString method, IXpsOMGlyphsEditor.SetUnicodeString, IXpsOMGlyphsEditor::SetUnicodeString, SetUnicodeString, SetUnicodeString method [XPS Documents and Packaging], SetUnicodeString method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setunicodestring, xpsobjectmodel/IXpsOMGlyphsEditor::SetUnicodeString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

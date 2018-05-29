@@ -1,16 +1,16 @@
 ---
 UID: NN:syncregistration.ISyncRegistrationChange
 title: ISyncRegistrationChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a change to the registration of a synchronization provider or a synchronization provider configuration UI. The changes are reported as registration events.
 old-location: winsync\isyncregistrationchange.htm
 old-project: winsync
 ms.assetid: 45376bd2-1f5f-4f4c-9c4c-f5add9438d5c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncRegistrationChange, ISyncRegistrationChange interface [Windows Sync], ISyncRegistrationChange interface [Windows Sync],described, syncregistration/ISyncRegistrationChange, winsync.isyncregistrationchange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncregistration.h
 req.include-header: 

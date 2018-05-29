@@ -1,16 +1,16 @@
 ---
 UID: NN:textserv.IRicheditWindowlessAccessibility
 title: IRicheditWindowlessAccessibility
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the host container of a windowless rich edit control to obtain the Microsoft UI Automation provider for the parent of the control.
 old-location: controls\iricheditwindowlessaccessibility.htm
 old-project: Controls
 ms.assetid: E58E9577-4004-4627-A0D6-CF8166C0C43F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRicheditWindowlessAccessibility, IRicheditWindowlessAccessibility interface [Windows Controls], IRicheditWindowlessAccessibility interface [Windows Controls],described, controls.iricheditwindowlessaccessibility, textserv/IRicheditWindowlessAccessibility
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: textserv.h
 req.include-header: 

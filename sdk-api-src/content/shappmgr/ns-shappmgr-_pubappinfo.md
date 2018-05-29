@@ -1,16 +1,16 @@
 ---
 UID: NS:shappmgr._PubAppInfo
 title: "_PubAppInfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information about a published application from an application publisher to Add/Remove Programs in Control Panel.
 old-location: shell\PUBAPPINFO.htm
 old-project: shell
 ms.assetid: 927c58d3-4208-4fd3-a3fa-18ae7d8d3136
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PPUBAPPINFO, PUBAPPINFO, PUBAPPINFO structure [Windows Shell], _PubAppInfo, inet_PUBAPPINFO, shappmgr/PUBAPPINFO, shell.PUBAPPINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shappmgr.h
 req.include-header: 

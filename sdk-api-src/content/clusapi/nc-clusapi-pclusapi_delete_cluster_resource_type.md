@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE
 title: PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a resource type from a cluster.
 old-location: mscs\deleteclusterresourcetype.htm
 old-project: MsCS
 ms.assetid: 39615efe-e0fe-4e7b-b6f0-ba4a79d841a8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE, PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE callback, PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE callback function [Failover Cluster], _wolf_deleteclusterresourcetype, clusapi/PCLUSAPI_DELETE_CLUSTER_RESOURCE_TYPE, mscs.deleteclusterresourcetype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

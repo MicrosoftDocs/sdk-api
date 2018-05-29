@@ -1,16 +1,16 @@
 ---
 UID: NF:winstring.WindowsCreateStringReference
 title: WindowsCreateStringReference function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new string reference based on the specified string.
 old-location: winrt\windowscreatestringreference.htm
 old-project: WinRT
 ms.assetid: 0361BB7E-DA49-4289-A93E-DE7AAB8712AC
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: WindowsCreateStringReference, WindowsCreateStringReference function [Windows Runtime], winrt.windowscreatestringreference, winstring/WindowsCreateStringReference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

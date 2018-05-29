@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IAnalogRadioTuningSpace.get_MinFrequency
 title: IAnalogRadioTuningSpace::get_MinFrequency
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MinFrequency method retrieves the minimum frequency for this tuning space.
 old-location: mstv\ianalogradiotuningspace_get_minfrequency.htm
 old-project: mstv
 ms.assetid: 9e26360b-b00b-4741-a3c6-814843ff93e7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAnalogRadioTuningSpace interface [Microsoft TV Technologies],get_MinFrequency method, IAnalogRadioTuningSpace.get_MinFrequency, IAnalogRadioTuningSpace::get_MinFrequency, IAnalogRadioTuningSpaceget_MinFrequency, get_MinFrequency, get_MinFrequency method [Microsoft TV Technologies], get_MinFrequency method [Microsoft TV Technologies],IAnalogRadioTuningSpace interface, mstv.ianalogradiotuningspace_get_minfrequency, tuner/IAnalogRadioTuningSpace::get_MinFrequency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

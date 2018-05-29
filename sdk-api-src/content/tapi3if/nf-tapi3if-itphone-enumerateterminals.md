@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPhone.EnumerateTerminals
 title: ITPhone::EnumerateTerminals
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumerateTerminals method retrieves an enumeration of terminals that are associated with the phone. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_enumerateterminals.htm
 old-project: Tapi
 ms.assetid: 87c756e3-abd0-4dff-b815-ff7dd60902f7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EnumerateTerminals, EnumerateTerminals method [TAPI 2.2], EnumerateTerminals method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],EnumerateTerminals method, ITPhone.EnumerateTerminals, ITPhone::EnumerateTerminals, _tapi3_itphone_enumerateterminals, tapi3.itphone_enumerateterminals, tapi3if/ITPhone::EnumerateTerminals
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.GetGamerAccount
 title: IXblIdpAuthManager::GetGamerAccount
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_getgameraccount.htm
 old-project: xblidp
 ms.assetid: 8AAE50DC-249A-4744-8B5B-CEFD9BE83A8D
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetGamerAccount, GetGamerAccount method, GetGamerAccount method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetGamerAccount method, IXblIdpAuthManager.GetGamerAccount, IXblIdpAuthManager::GetGamerAccount, xblidp.ixblidpauthmanager_getgameraccount, xblidpauthmanager/IXblIdpAuthManager::GetGamerAccount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHChangeNotifyDeregister
 title: SHChangeNotifyDeregister function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters the client's window process from receiving SHChangeNotify messages.
 old-location: shell\SHChangeNotifyDeregister.htm
 old-project: shell
 ms.assetid: fad021dc-8199-4384-b623-c98bc618799f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NTSHChangeNotifyDeregister, SHChangeNotifyDeregister, SHChangeNotifyDeregister function [Windows Shell], _win32_SHChangeNotifyDeregister, shell.SHChangeNotifyDeregister, shlobj_core/NTSHChangeNotifyDeregister, shlobj_core/SHChangeNotifyDeregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

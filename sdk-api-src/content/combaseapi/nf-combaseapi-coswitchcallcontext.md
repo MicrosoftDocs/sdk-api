@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoSwitchCallContext
 title: CoSwitchCallContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Switches the call context object used by CoGetCallContext.
 old-location: com\coswitchcallcontext.htm
 old-project: com
 ms.assetid: 146855a2-97ec-4e71-88dc-316eaa1a24a0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoSwitchCallContext, CoSwitchCallContext function [COM], _com_CoSwitchCallContext, com.coswitchcallcontext, combaseapi/CoSwitchCallContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

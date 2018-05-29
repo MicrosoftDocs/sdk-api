@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IPersistStorage.Save
 title: IPersistStorage::Save
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves an object, and any nested objects that it contains, into the specified storage object. The object enters NoScribble mode.
 old-location: com\ipersiststorage_save.htm
 old-project: com
 ms.assetid: 3a200812-48d9-4202-987a-1400aa66191c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPersistStorage interface [COM],Save method, IPersistStorage.Save, IPersistStorage::Save, Save, Save method [COM], Save method [COM],IPersistStorage interface, _com_ipersiststorage_save, com.ipersiststorage_save, objidl/IPersistStorage::Save
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

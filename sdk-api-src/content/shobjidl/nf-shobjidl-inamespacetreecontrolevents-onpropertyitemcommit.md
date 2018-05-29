@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnPropertyItemCommit
 title: INameSpaceTreeControlEvents::OnPropertyItemCommit
-author: windows-driver-content
+author: windows-sdk-content
 description: Not implemented.
 old-location: shell\INameSpaceTreeControlEvents_OnPropertyItemCommit.htm
 old-project: shell
 ms.assetid: 85d0c2f1-b641-4437-90a4-285cfce62c60
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnPropertyItemCommit method, INameSpaceTreeControlEvents.OnPropertyItemCommit, INameSpaceTreeControlEvents::OnPropertyItemCommit, OnPropertyItemCommit, OnPropertyItemCommit method [Windows Shell], OnPropertyItemCommit method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnPropertyItemCommit, shell.INameSpaceTreeControlEvents_OnPropertyItemCommit, shobjidl/INameSpaceTreeControlEvents::OnPropertyItemCommit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

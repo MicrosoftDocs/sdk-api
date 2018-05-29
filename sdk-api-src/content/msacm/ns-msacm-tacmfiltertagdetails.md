@@ -1,16 +1,16 @@
 ---
 UID: NS:msacm.tACMFILTERTAGDETAILS
 title: tACMFILTERTAGDETAILS
-author: windows-driver-content
+author: windows-sdk-content
 description: The ACMFILTERTAGDETAILS structure details a waveform-audio filter tag for an ACM filter driver.
 old-location: multimedia\acmfiltertagdetails_struct.htm
 old-project: Multimedia
 ms.assetid: 94b31090-74ed-42ac-b904-0a90f055e03a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPACMFILTERTAGDETAILS, *PACMFILTERTAGDETAILS, ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMFILTERTAGDETAILS, ACMFILTERTAGDETAILS structure [Windows Multimedia], msacm/ACMFILTERTAGDETAILS, multimedia.acmfiltertagdetails_COLLISION761, multimedia.acmfiltertagdetails_struct, tACMFILTERTAGDETAILS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msacm.h
 req.include-header: 

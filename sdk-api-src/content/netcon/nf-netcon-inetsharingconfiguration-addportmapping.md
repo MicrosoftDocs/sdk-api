@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.AddPortMapping
 title: INetSharingConfiguration::AddPortMapping
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a service port mapping for this connection.
 old-location: ics\inetsharingconfiguration_addportmapping.htm
 old-project: ICS
 ms.assetid: 0d9e1520-6018-425c-a2f9-c408fa3025cf
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: AddPortMapping, AddPortMapping method [ICS/ICF], AddPortMapping method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],AddPortMapping method, INetSharingConfiguration.AddPortMapping, INetSharingConfiguration::AddPortMapping, _ics_inetsharingconfiguration_addportmapping, ics.inetsharingconfiguration_addportmapping, netcon/INetSharingConfiguration::AddPortMapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

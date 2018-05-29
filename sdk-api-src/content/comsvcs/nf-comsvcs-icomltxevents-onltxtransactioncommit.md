@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionCommit
 title: IComLTxEvents::OnLtxTransactionCommit
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when a transaction is committed.
 old-location: cos\icomltxevents_onltxtransactioncommit.htm
 old-project: cossdk
 ms.assetid: c3462a79-6056-4a57-b971-78d8b4bd2a70
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionCommit method, IComLTxEvents.OnLtxTransactionCommit, IComLTxEvents::OnLtxTransactionCommit, OnLtxTransactionCommit, OnLtxTransactionCommit method [COM+], OnLtxTransactionCommit method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionCommit, cos.icomltxevents_onltxtransactioncommit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

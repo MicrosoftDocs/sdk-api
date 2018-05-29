@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteClass
 title: DhcpDeleteClass function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a DHCP class from the DHCP server.
 old-location: dhcp\dhcpdeleteclass.htm
 old-project: DHCP
 ms.assetid: 45659805-d0d0-4b84-ac98-4a0f53133b0c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpDeleteClass, DhcpDeleteClass function [DHCP], dhcp.dhcpdeleteclass, dhcpsapi/DhcpDeleteClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

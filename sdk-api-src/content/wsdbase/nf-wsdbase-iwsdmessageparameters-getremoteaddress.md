@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.GetRemoteAddress
 title: IWSDMessageParameters::GetRemoteAddress
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the generic address object representing the remote address from which the message was sent.
 old-location: ncd\iwsdmessageparameters_getremoteaddress.htm
 old-project: WsdApi
 ms.assetid: 483306d4-9672-4f30-a318-df5c7afbf583
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetRemoteAddress, GetRemoteAddress method, GetRemoteAddress method,IWSDMessageParameters interface, IWSDMessageParameters interface,GetRemoteAddress method, IWSDMessageParameters.GetRemoteAddress, IWSDMessageParameters::GetRemoteAddress, ncd.iwsdmessageparameters_getremoteaddress, wsdbase/IWSDMessageParameters::GetRemoteAddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

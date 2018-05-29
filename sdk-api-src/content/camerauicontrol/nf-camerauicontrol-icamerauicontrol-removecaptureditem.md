@@ -1,16 +1,16 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.RemoveCapturedItem
 title: ICameraUIControl::RemoveCapturedItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the captured item.
 old-location: winprog\icamerauicontrol_removecaptureditem.htm
 old-project: DevNotes
 ms.assetid: 384b08e4-7683-43e1-b088-38455a0b956f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ICameraUIControl interface [Windows API],RemoveCapturedItem method, ICameraUIControl.RemoveCapturedItem, ICameraUIControl::RemoveCapturedItem, RemoveCapturedItem, RemoveCapturedItem method [Windows API], RemoveCapturedItem method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::RemoveCapturedItem, winprog.icamerauicontrol_removecaptureditem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: camerauicontrol.h
 req.include-header: 

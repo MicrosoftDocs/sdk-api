@@ -1,16 +1,16 @@
 ---
 UID: NN:iwscapi.IWscProduct
 title: IWscProduct
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for getting product information for an individual provider to interact with Windows Security Center.
 old-location: winprog\iwscproduct.htm
 old-project: DevNotes
 ms.assetid: C637E67A-CED7-4235-AAF3-22730E9C7E91
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IWscProduct, IWscProduct interface [Windows API], IWscProduct interface [Windows API],described, iwscapi/IWscProduct, winprog.iwscproduct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iwscapi.h
 req.include-header: 

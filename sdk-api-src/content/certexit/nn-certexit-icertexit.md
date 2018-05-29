@@ -1,16 +1,16 @@
 ---
 UID: NN:certexit.ICertExit
 title: ICertExit
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides communications between the Certificate Services server and an exit module.
 old-location: security\icertexit.htm
 old-project: SecCrypto
 ms.assetid: 731c4f3c-20b4-4f3d-8241-a94cdf656fe5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertExit, ICertExit interface [Security], ICertExit interface [Security],described, _certsrv_icertexit, certexit/ICertExit, security.icertexit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certexit.h
 req.include-header: Certsrv.h

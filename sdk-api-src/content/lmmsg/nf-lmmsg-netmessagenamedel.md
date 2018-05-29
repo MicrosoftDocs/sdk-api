@@ -1,16 +1,16 @@
 ---
 UID: NF:lmmsg.NetMessageNameDel
 title: NetMessageNameDel function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetMessageNameDel function deletes a message alias in the message name table. The function requires that the messenger service be started.
 old-location: netmgmt\netmessagenamedel.htm
 old-project: NetMgmt
 ms.assetid: 6d6c65ee-f53e-4a24-b8c0-50faa76af640
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetMessageNameDel, NetMessageNameDel function [Network Management], _win32_netmessagenamedel, lmmsg/NetMessageNameDel, netmgmt.netmessagenamedel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmmsg.h
 req.include-header: Lm.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:locationapi.ILocationReport
 title: ILocationReport
-author: windows-driver-content
+author: windows-sdk-content
 description: The parent interface for location reports.
 old-location: winlocation\ilocationreport.htm
 old-project: LocationAPI
 ms.assetid: 6dc78c26-36b3-4545-b5ba-7f04f6e67706
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ILocationReport, ILocationReport interface [WinLocation], ILocationReport interface [WinLocation],described, locationapi/ILocationReport, winlocation.ilocationreport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: locationapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:infotech.IITWordWheel.Count
 title: IITWordWheel::Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of entries in a word wheel.
 old-location: htmlhelp\iitwordwheel_count.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelcount.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Count, Count method [HTML Help Workshop], Count method [HTML Help Workshop],IITWordWheel interface, IITWordWheel interface [HTML Help Workshop],Count method, IITWordWheel.Count, IITWordWheel::Count, htmlhelp.iitwordwheel_count, infotech/IITWordWheel::Count, refIITWordWheelCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

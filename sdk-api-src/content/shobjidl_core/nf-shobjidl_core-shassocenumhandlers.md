@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.SHAssocEnumHandlers
 title: SHAssocEnumHandlers function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an enumeration object for a specified set of file name extension handlers.
 old-location: shell\SHAssocEnumHandlers.htm
 old-project: shell
 ms.assetid: 83db466b-e00c-4015-879f-c5c222f45b8c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ASSOC_FILTER_NONE, ASSOC_FILTER_RECOMMENDED, SHAssocEnumHandlers, SHAssocEnumHandlers function [Windows Shell], _shell_SHAssocEnumHandlers, shell.SHAssocEnumHandlers, shobjidl_core/SHAssocEnumHandlers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

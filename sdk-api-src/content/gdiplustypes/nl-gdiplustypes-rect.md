@@ -1,16 +1,16 @@
 ---
 UID: NL:gdiplustypes.Rect
 title: Rect
-author: windows-driver-content
+author: windows-sdk-content
 description: A Rect object stores the upper-left corner, width, and height of a rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rect.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Rect, Rect class [GDI+], Rect class [GDI+],described, _gdiplus_CLASS_Rect_Class, gdiplus._gdiplus_CLASS_Rect_Class, gdiplustypes/Rect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: gdiplustypes.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certbcli.CertSrvBackupGetDynamicFileListW
 title: CertSrvBackupGetDynamicFileListW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the list of Certificate Services dynamic file names that need to be backed up for the given backup context.
 old-location: security\certsrvbackupgetdynamicfilelist.htm
 old-project: SecCrypto
 ms.assetid: ff60b705-5ac6-4e61-9b88-9ffc2dc9adce
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertSrvBackupGetDynamicFileList, CertSrvBackupGetDynamicFileList function [Security], CertSrvBackupGetDynamicFileListW, _certsrv_certsrvbackupgetdynamicfilelist, certbcli/CertSrvBackupGetDynamicFileList, certbcli/CertSrvBackupGetDynamicFileListW, security.certsrvbackupgetdynamicfilelist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

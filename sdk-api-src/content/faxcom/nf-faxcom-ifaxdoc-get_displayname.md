@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_DisplayName
 title: IFaxDoc::get_DisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the DisplayName property of a FaxDoc object. The DisplayName property is a null-terminated string that contains the name to associate with the fax document.
 old-location: fax\_mfax_ifaxdoc_get_displayname_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4s6d.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: DisplayName property [Fax Service], DisplayName property [Fax Service],FaxDoc object, FaxDoc object [Fax Service],DisplayName property, FaxDoc.DisplayName, IFaxDoc.get_DisplayName, IFaxDoc::get_DisplayName, _mfax_ifaxdoc_get_displayname, fax._mfax_ifaxdoc_get_displayname, fax._mfax_ifaxdoc_get_displayname_vb, get_DisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

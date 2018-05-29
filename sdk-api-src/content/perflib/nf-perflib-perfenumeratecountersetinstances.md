@@ -1,16 +1,16 @@
 ---
 UID: NF:perflib.PerfEnumerateCounterSetInstances
 title: PerfEnumerateCounterSetInstances function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the names and identifiers of the active instances of a counter set on the specified system.
 old-location: perf\perfenumeratecountersetinstances.htm
 old-project: PerfCtrs
 ms.assetid: 83DCEAB7-5F79-4A55-8BAC-D20F545FF76D
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PerfEnumerateCounterSetInstances, PerfEnumerateCounterSetInstances function [Perf], perf.perfenumeratecountersetinstances, perflib/PerfEnumerateCounterSetInstances
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

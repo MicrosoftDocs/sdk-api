@@ -1,16 +1,16 @@
 ---
 UID: NN:inputscope.ITfInputScope2
 title: ITfInputScope2
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfInputScope2 interface is used by the text input processors to get the IEnumString interface pointer and this IEnumString interface enumerates the word list that the application specified for this context.
 old-location: tsf\ITfInputScope2.htm
 old-project: TSF
 ms.assetid: 45314d3a-cb54-4524-819a-16c035dfe533
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfInputScope2, ITfInputScope2 interface [Text Services Framework], ITfInputScope2 interface [Text Services Framework],described, _tsf_itfinputscope2_ref, inputscope/ITfInputScope2, tsf.ITfInputScope2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: inputscope.h
 req.include-header: 

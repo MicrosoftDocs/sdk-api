@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IBDAComparable.CompareEquivalent
 title: IBDAComparable::CompareEquivalent
-author: windows-driver-content
+author: windows-sdk-content
 description: The CompareEquivalent method compares two objects to determine whether they contain equivalent tuning information.
 old-location: mstv\ibdacomparable_compareequivalent.htm
 old-project: mstv
 ms.assetid: 132c326e-053c-41be-b0fd-bea484fb0acd
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CompareEquivalent, CompareEquivalent method [Microsoft TV Technologies], CompareEquivalent method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],CompareEquivalent method, IBDAComparable.CompareEquivalent, IBDAComparable::CompareEquivalent, IBDAComparableCompareEquivalent, mstv.ibdacomparable_compareequivalent, tuner/IBDAComparable::CompareEquivalent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

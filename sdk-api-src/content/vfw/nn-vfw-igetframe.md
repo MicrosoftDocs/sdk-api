@@ -1,16 +1,16 @@
 ---
 UID: NN:vfw.IGetFrame
 title: IGetFrame
-author: windows-driver-content
+author: windows-sdk-content
 description: The IGetFrame interface supports extracting, decompressing, and displaying individual frames from an open stream.
 old-location: multimedia\igetframe.htm
 old-project: Multimedia
 ms.assetid: d72349bc-5e7c-4c60-b8e0-0524d02c0583
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IGetFrame, IGetFrame interface [Windows Multimedia], IGetFrame interface [Windows Multimedia],described, _win32_IGetFrame, multimedia.igetframe, vfw/IGetFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vfw.h
 req.include-header: 

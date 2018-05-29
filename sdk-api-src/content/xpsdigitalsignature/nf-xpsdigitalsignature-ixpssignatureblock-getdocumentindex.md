@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlock.GetDocumentIndex
 title: IXpsSignatureBlock::GetDocumentIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the index of the FixedDocument part that references the SignatureDefinitions part that corresponds to this signature block.
 old-location: xps\ixpssignatureblock_getdocumentindex.htm
 old-project: printdocs
 ms.assetid: 5e9052d9-9a27-41fe-8842-50033cb8edf2
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetDocumentIndex, GetDocumentIndex method [XPS Documents and Packaging], GetDocumentIndex method [XPS Documents and Packaging],IXpsSignatureBlock interface, IXpsSignatureBlock interface [XPS Documents and Packaging],GetDocumentIndex method, IXpsSignatureBlock.GetDocumentIndex, IXpsSignatureBlock::GetDocumentIndex, xps.ixpssignatureblock_getdocumentindex, xpsdigitalsignature/IXpsSignatureBlock::GetDocumentIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

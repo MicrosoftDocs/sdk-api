@@ -1,16 +1,16 @@
 ---
 UID: NF:olectl.OleIconToCursor
 title: OleIconToCursor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an icon to a cursor.
 old-location: com\oleicontocursor.htm
 old-project: com
 ms.assetid: f5de0b9e-6e3d-424c-aeeb-1c272606aea0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleIconToCursor, OleIconToCursor function [COM], _com_OleIconToCursor, com.oleicontocursor, olectl/OleIconToCursor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: olectl.h
 req.include-header: 

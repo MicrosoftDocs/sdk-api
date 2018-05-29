@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IOverlayNotify
 title: IOverlayNotify
-author: windows-driver-content
+author: windows-sdk-content
 description: The IOverlayNotify interface provides an upstream filter, such as a decoder, with notifications of changes to the rendering window.
 old-location: dshow\ioverlaynotify.htm
 old-project: DirectShow
 ms.assetid: 77dcee49-35ef-4664-b0e6-3044352d543c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IOverlayNotify, IOverlayNotify interface [DirectShow], IOverlayNotify interface [DirectShow],described, IOverlayNotifyInterface, dshow.ioverlaynotify, strmif/IOverlayNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

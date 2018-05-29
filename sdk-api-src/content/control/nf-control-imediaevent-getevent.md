@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IMediaEvent.GetEvent
 title: IMediaEvent::GetEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetEvent method retrieves the next event notification from the event queue.
 old-location: dshow\imediaevent_getevent.htm
 old-project: DirectShow
 ms.assetid: d7cbbf6d-c741-416f-b8dd-d9ca012d309a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetEvent, GetEvent method [DirectShow], GetEvent method [DirectShow],IMediaEvent interface, GetEvent method [DirectShow],IMediaEventEx interface, IMediaEvent interface [DirectShow],GetEvent method, IMediaEvent.GetEvent, IMediaEvent::GetEvent, IMediaEventEx interface [DirectShow],GetEvent method, IMediaEventEx::GetEvent, IMediaEventGetEvent, control/IMediaEvent::GetEvent, control/IMediaEventEx::GetEvent, dshow.imediaevent_getevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

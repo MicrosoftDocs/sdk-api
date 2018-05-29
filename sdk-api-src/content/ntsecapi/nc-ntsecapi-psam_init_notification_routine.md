@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecapi.PSAM_INIT_NOTIFICATION_ROUTINE
 title: PSAM_INIT_NOTIFICATION_ROUTINE
-author: windows-driver-content
+author: windows-sdk-content
 description: The InitializeChangeNotify function is implemented by a password filter DLL. This function initializes the DLL.
 old-location: security\initializechangenotify.htm
 old-project: SecMgmt
 ms.assetid: c503c849-65da-4514-b6d9-a95c9d75433e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: InitializeChangeNotify, InitializeChangeNotify callback function [Security], PSAM_INIT_NOTIFICATION_ROUTINE, PSAM_INIT_NOTIFICATION_ROUTINE callback, _pswd_initializechangenotify, ntsecapi/InitializeChangeNotify, security.initializechangenotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecapi.h
 req.include-header: 

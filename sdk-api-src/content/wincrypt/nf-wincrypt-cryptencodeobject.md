@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptEncodeObject
 title: CryptEncodeObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CryptEncodeObject function encodes a structure of the type indicated by the value of the lpszStructType parameter. The use of CryptEncodeObjectEx is recommended as an API that performs the same function with significant performance improvements.
 old-location: security\cryptencodeobject.htm
 old-project: SecCrypto
 ms.assetid: 9576a2a7-4379-4c1b-8ad5-284720cf7ccc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptEncodeObject, CryptEncodeObject function [Security], _crypto2_cryptencodeobject, security.cryptencodeobject, wincrypt/CryptEncodeObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

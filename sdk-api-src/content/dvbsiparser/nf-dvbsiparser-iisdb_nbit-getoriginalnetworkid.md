@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetOriginalNetworkId
 title: IISDB_NBIT::GetOriginalNetworkId
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an identifier that identifies the broadcaster that originated the MPEG-2 transport stream from an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getoriginalnetworkid.htm
 old-project: mstv
 ms.assetid: 762b7d48-c74e-4d5a-9c99-890d613553fa
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetOriginalNetworkId, GetOriginalNetworkId method [Microsoft TV Technologies], GetOriginalNetworkId method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetOriginalNetworkId method, IISDB_NBIT.GetOriginalNetworkId, IISDB_NBIT::GetOriginalNetworkId, dvbsiparser/IISDB_NBIT::GetOriginalNetworkId, mstv.iisdb_nbit_getoriginalnetworkid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

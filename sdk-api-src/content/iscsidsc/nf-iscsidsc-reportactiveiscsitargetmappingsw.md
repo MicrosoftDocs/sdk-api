@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.ReportActiveIScsiTargetMappingsW
 title: ReportActiveIScsiTargetMappingsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: ReportActiveIscsiTargetMappings function retrieves the target mappings that are currently active for all initiators on the computer.
 old-location: iscsidisc\reportactiveiscsitargetmappings.htm
 old-project: iSCSIDisc
 ms.assetid: 24de0e43-ba16-4598-92c5-ea17da17e030
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ReportActiveIScsiTargetMappingsW, ReportActiveIscsiTargetMappings, ReportActiveIscsiTargetMappings function [iSCSI Discovery Library API], ReportActiveIscsiTargetMappingsA, ReportActiveIscsiTargetMappingsW, iscsidisc.reportactiveiscsitargetmappings, iscsidsc/ReportActiveIscsiTargetMappings, iscsidsc/ReportActiveIscsiTargetMappingsA, iscsidsc/ReportActiveIscsiTargetMappingsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

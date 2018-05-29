@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudioclient.IAudioFormatEnumerator.GetCount
 title: IAudioFormatEnumerator::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of supported audio formats in the list.
 old-location: coreaudio\iaudioformatenumerator_getcount.htm
 old-project: CoreAudio
 ms.assetid: A2523D52-6641-4876-A263-E0D02A815522
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IAudioFormatEnumerator interface, IAudioFormatEnumerator interface [Core Audio],GetCount method, IAudioFormatEnumerator.GetCount, IAudioFormatEnumerator::GetCount, coreaudio.iaudioformatenumerator_getcount, spatialaudioclient/IAudioFormatEnumerator::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceProperties
 title: IPortableDeviceProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: The IPortableDeviceProperties interface retrieves, adds, or deletes properties from an object on a device, or the device itself.
 old-location: wpdsdk\iportabledeviceproperties.htm
 old-project: wpd_sdk
 ms.assetid: 4555e85b-c667-466c-a527-cc29ca7a6aee
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IPortableDeviceProperties, IPortableDeviceProperties interface [Windows Portable Devices SDK], IPortableDeviceProperties interface [Windows Portable Devices SDK],described, IPortableDevicePropertiesInterface, portabledeviceapi/IPortableDeviceProperties, wpdsdk.iportabledeviceproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:accctrl._TRUSTEE_FORM
 title: "_TRUSTEE_FORM"
-author: windows-driver-content
+author: windows-sdk-content
 description: Values that indicate the type of data pointed to by the ptstrName member of the TRUSTEE structure.
 old-location: security\trustee_form.htm
 old-project: SecAuthZ
 ms.assetid: 991ac6cb-3fc9-4915-b5c9-ae73efb25d68
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TRUSTEE_BAD_FORM, TRUSTEE_FORM, TRUSTEE_FORM enumeration [Security], TRUSTEE_IS_NAME, TRUSTEE_IS_OBJECTS_AND_NAME, TRUSTEE_IS_OBJECTS_AND_SID, TRUSTEE_IS_SID, _TRUSTEE_FORM, _win32_trustee_form_str, accctrl/TRUSTEE_BAD_FORM, accctrl/TRUSTEE_FORM, accctrl/TRUSTEE_IS_NAME, accctrl/TRUSTEE_IS_OBJECTS_AND_NAME, accctrl/TRUSTEE_IS_OBJECTS_AND_SID, accctrl/TRUSTEE_IS_SID, security.trustee_form
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: accctrl.h
 req.include-header: 

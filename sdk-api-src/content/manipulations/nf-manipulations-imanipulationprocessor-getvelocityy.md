@@ -1,16 +1,16 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.GetVelocityY
 title: IManipulationProcessor::GetVelocityY
-author: windows-driver-content
+author: windows-sdk-content
 description: Calculates and returns the vertical velocity.
 old-location: wintouch\imanipulationprocessor_getvelocityy.htm
 old-project: wintouch
 ms.assetid: b531c4e5-8437-4869-9264-3fe131b8acc8
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: GetVelocityY, GetVelocityY method [Windows Touch], GetVelocityY method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetVelocityY method, IManipulationProcessor.GetVelocityY, IManipulationProcessor::GetVelocityY, manipulations/IManipulationProcessor::GetVelocityY, wintouch.imanipulationprocessor_getvelocityy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations_i.c

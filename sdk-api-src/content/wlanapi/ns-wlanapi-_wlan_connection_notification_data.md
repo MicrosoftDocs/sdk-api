@@ -1,16 +1,16 @@
 ---
 UID: NS:wlanapi._WLAN_CONNECTION_NOTIFICATION_DATA
 title: "_WLAN_CONNECTION_NOTIFICATION_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about connection related notifications.
 old-location: nwifi\wlan_connection_notification_data.htm
 old-project: NativeWiFi
 ms.assetid: 005af5ef-994d-425a-be4b-54567a733fb3
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: "*PWLAN_CONNECTION_NOTIFICATION_DATA, PWLAN_CONNECTION_NOTIFICATION_DATA, PWLAN_CONNECTION_NOTIFICATION_DATA structure pointer [NativeWIFI], WLAN_CONNECTION_NOTIFICATION_ADHOC_NETWORK_FORMED, WLAN_CONNECTION_NOTIFICATION_CONSOLE_USER_PROFILE, WLAN_CONNECTION_NOTIFICATION_DATA, WLAN_CONNECTION_NOTIFICATION_DATA structure [NativeWIFI], _WLAN_CONNECTION_NOTIFICATION_DATA, nwifi.wlan_connection_notification_data, wlanapi/PWLAN_CONNECTION_NOTIFICATION_DATA, wlanapi/WLAN_CONNECTION_NOTIFICATION_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 

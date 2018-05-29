@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.OpenThemeData
 title: OpenThemeData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the theme data for a window and its associated class.
 old-location: controls\OpenThemeData.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\openthemedata.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OpenThemeData, OpenThemeData function [Windows Controls], controls.OpenThemeData, controls.inet_OpenThemeData, inet_OpenThemeData, inet_OpenThemeData_cpp, uxtheme/OpenThemeData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

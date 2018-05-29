@@ -1,16 +1,16 @@
 ---
 UID: NE:certpol.X509SCEPDisposition
 title: X509SCEPDisposition
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the resulting disposition of a request to process a response message.
 old-location: security\x509scepdisposition.htm
 old-project: SecCertEnroll
 ms.assetid: 635AAD37-261F-4F38-AD00-B3E8A5C55ABF
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: SCEPDispositionFailure, SCEPDispositionPending, SCEPDispositionSuccess, X509SCEPDisposition, X509SCEPDisposition enumeration [Security], certpol/SCEPDispositionFailure, certpol/SCEPDispositionPending, certpol/SCEPDispositionSuccess, certpol/X509SCEPDisposition, security.x509scepdisposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: certpol.h
 req.include-header: CertEnroll.h

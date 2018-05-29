@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItemSink.InitMenu
 title: ITfSystemLangBarItemSink::InitMenu
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfSystemLangBarItemSink::InitMenu method
 old-location: tsf\itfsystemlangbaritemsink_initmenu.htm
 old-project: TSF
 ms.assetid: 6e8ba0ef-2f0a-4d67-95c1-06fee763bc14
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfSystemLangBarItemSink interface [Text Services Framework],InitMenu method, ITfSystemLangBarItemSink.InitMenu, ITfSystemLangBarItemSink::InitMenu, InitMenu, InitMenu method [Text Services Framework], InitMenu method [Text Services Framework],ITfSystemLangBarItemSink interface, _tsf_itfsystemlangbaritemsink_initmenu_ref, ctfutb/ITfSystemLangBarItemSink::InitMenu, tsf.itfsystemlangbaritemsink_initmenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

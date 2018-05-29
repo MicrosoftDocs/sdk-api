@@ -1,16 +1,16 @@
 ---
 UID: NS:ws2atm.sockaddr_atm
 title: sockaddr_atm
-author: windows-driver-content
+author: windows-sdk-content
 description: The Windows Sockets sockaddr_atm structure stores socket address information for ATM sockets.
 old-location: winsock\sockaddr_atm_2.htm
 old-project: WinSock
 ms.assetid: 6cbeb19f-0aa8-48a1-a46a-691edc542d5a
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPSOCKADDR_ATM, *PSOCKADDR_ATM, LPSOCKADDR_ATM, LPSOCKADDR_ATM structure pointer [Winsock], PSOCKADDR_ATM, PSOCKADDR_ATM structure pointer [Winsock], SOCKADDR_ATM, SOCKADDR_ATM structure [Winsock], _win32_sockaddr_atm_2, sockaddr_atm, sockaddr_atm structure [Winsock], winsock.sockaddr_atm_2, ws2atm/LPSOCKADDR_ATM, ws2atm/PSOCKADDR_ATM, ws2atm/SOCKADDR_ATM, ws2atm/sockaddr_atm"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2atm.h
 req.include-header: 

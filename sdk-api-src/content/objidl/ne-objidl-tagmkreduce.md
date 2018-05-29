@@ -1,16 +1,16 @@
 ---
 UID: NE:objidl.tagMKREDUCE
 title: tagMKREDUCE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how far a moniker should be reduced.
 old-location: com\mkrreduce.htm
 old-project: com
 ms.assetid: ab918d0f-18f2-4ab0-805f-aa228c0d6a82
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MKRREDUCE, MKRREDUCE enumeration [COM], MKRREDUCE_ALL, MKRREDUCE_ONE, MKRREDUCE_THROUGHUSER, MKRREDUCE_TOUSER, _com_MKRREDUCE, com.mkrreduce, objidl/MKRREDUCE, objidl/MKRREDUCE_ALL, objidl/MKRREDUCE_ONE, objidl/MKRREDUCE_THROUGHUSER, objidl/MKRREDUCE_TOUSER, tagMKREDUCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidl.h
 req.include-header: 

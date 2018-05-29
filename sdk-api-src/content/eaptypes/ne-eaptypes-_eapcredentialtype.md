@@ -1,16 +1,16 @@
 ---
 UID: NE:eaptypes._EapCredentialType
 title: "_EapCredentialType"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of possible EAP credentials that can be passed to the EapPeerGetConfigBlobAndUserBlob function.
 old-location: eaphost\eapcredentialtype.htm
 old-project: EAPHost
 ms.assetid: E77AA5E1-970A-43A6-916D-623A9C554F53
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EAP_CERTIFICATE_CREDENTIAL, EAP_EMPTY_CREDENTIAL, EAP_SIM_CREDENTIAL, EAP_USERNAME_PASSWORD_CREDENTIAL, EAP_WINLOGON_CREDENTIAL, EapCredentialType, EapCredentialType enumeration [EAPHost], _EapCredentialType, eaphost.eapcredentialtype, eaptypes/EAP_CERTIFICATE_CREDENTIAL, eaptypes/EAP_EMPTY_CREDENTIAL, eaptypes/EAP_SIM_CREDENTIAL, eaptypes/EAP_USERNAME_PASSWORD_CREDENTIAL, eaptypes/EAP_WINLOGON_CREDENTIAL, eaptypes/EapCredentialType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: eaptypes.h
 req.include-header: 

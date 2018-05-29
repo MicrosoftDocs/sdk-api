@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITMediaControl.Pause
 title: ITMediaControl::Pause
-author: windows-driver-content
+author: windows-sdk-content
 description: The Pause method pauses the action, remaining at the current location in the file.
 old-location: tapi3\itmediacontrol_pause.htm
 old-project: Tapi
 ms.assetid: ede287ff-2f13-4258-9afe-f6d0958e53b4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITMediaControl interface [TAPI 2.2],Pause method, ITMediaControl.Pause, ITMediaControl::Pause, Pause, Pause method [TAPI 2.2], Pause method [TAPI 2.2],ITMediaControl interface, _tapi3_itmediacontrol_pause, tapi3.itmediacontrol_pause, tapi3if/ITMediaControl::Pause
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

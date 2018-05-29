@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpTimeFromSystemTime
 title: WinHttpTimeFromSystemTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats a date and time according to the HTTP version 1.0 specification.
 old-location: http\winhttptimefromsystemtime.htm
 old-project: WinHttp
 ms.assetid: 8d55e3bb-0b86-41d9-ba39-62feb2acc707
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WinHttpTimeFromSystemTime, WinHttpTimeFromSystemTime function [WinHTTP], http.winhttptimefromsystemtime, winhttp.winhttptimefromsystemtime_function, winhttp/WinHttpTimeFromSystemTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

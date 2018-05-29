@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.RtlInterlockedFlushSList
 title: RtlInterlockedFlushSList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all items from a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\rtlinterlockedflushslist.htm
 old-project: Sync
 ms.assetid: bc5f28d8-c976-4614-9136-99887c617023
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtlInterlockedFlushSList, RtlInterlockedFlushSList function, base.rtlinterlockedflushslist, winnt/RtlInterlockedFlushSList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

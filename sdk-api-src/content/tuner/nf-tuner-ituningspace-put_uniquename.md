@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.ITuningSpace.put_UniqueName
 title: ITuningSpace::put_UniqueName
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_UniqueName method sets a unique name for the tuning space.
 old-location: mstv\ituningspace_put_uniquename.htm
 old-project: mstv
 ms.assetid: 44ce065b-5441-40c9-a987-6eafc04fba3d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_UniqueName method, ITuningSpace.put_UniqueName, ITuningSpace::put_UniqueName, ITuningSpaceput_UniqueName, mstv.ituningspace_put_uniquename, put_UniqueName, put_UniqueName method [Microsoft TV Technologies], put_UniqueName method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_UniqueName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:naptypes.tagNapNotifyType
 title: tagNapNotifyType
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the types of service notifications sent by the NapAgent service.
 old-location: nap\napnotifytype.htm
 old-project: NAP
 ms.assetid: dc573bff-9f28-4aa1-8787-e2a2dccf9859
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: NapNotifyType, NapNotifyType enumeration [NAP], nap.napnotifytype, napNotifyTypeQuarState, napNotifyTypeServiceState, napNotifyTypeUnknown, naptypes/NapNotifyType, naptypes/napNotifyTypeQuarState, naptypes/napNotifyTypeServiceState, naptypes/napNotifyTypeUnknown, tagNapNotifyType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: naptypes.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll4.addAttributeToRequestWStr
 title: IEnroll4::addAttributeToRequestWStr
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an attribute to the certificate request.
 old-location: security\ienroll4_addattributetorequestwstr.htm
 old-project: SecCrypto
 ms.assetid: 71421bca-ef72-47d3-8f4a-95cb9768644f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnroll4 interface [Security],addAttributeToRequestWStr method, IEnroll4.addAttributeToRequestWStr, IEnroll4::addAttributeToRequestWStr, addAttributeToRequestWStr, addAttributeToRequestWStr method [Security], addAttributeToRequestWStr method [Security],IEnroll4 interface, security.ienroll4_addattributetorequestwstr, xenroll/IEnroll4::addAttributeToRequestWStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

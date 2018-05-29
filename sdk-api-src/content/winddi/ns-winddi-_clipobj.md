@@ -1,16 +1,16 @@
 ---
 UID: NS:winddi._CLIPOBJ
 title: "_CLIPOBJ"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CLIPOBJ structure describes the clip region used when drawing.
 old-location: display\clipobj.htm
 old-project: display
 ms.assetid: c3f632ed-f8d1-44bb-b2fb-6f7f2c71fd63
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLIPOBJ, CLIPOBJ structure [Display Devices], _CLIPOBJ, display.clipobj, grstrcts_028034f6-2370-4e77-be77-7bc8e9ee8504.xml, winddi/CLIPOBJ
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winddi.h
 req.include-header: Winddi.h

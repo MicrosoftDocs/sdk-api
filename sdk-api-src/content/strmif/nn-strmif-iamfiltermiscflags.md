@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMFilterMiscFlags
 title: IAMFilterMiscFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMFilterMiscFlags interface queries whether a filter is a source filter or a renderer.
 old-location: dshow\iamfiltermiscflags.htm
 old-project: DirectShow
 ms.assetid: f9f3eaf9-4afa-412f-aa8f-b75e787cfecb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMFilterMiscFlags, IAMFilterMiscFlags interface [DirectShow], IAMFilterMiscFlags interface [DirectShow],described, IAMFilterMiscFlagsInterface, dshow.iamfiltermiscflags, strmif/IAMFilterMiscFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

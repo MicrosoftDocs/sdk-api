@@ -1,16 +1,16 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.PostRestore
 title: IWsbApplicationRestoreSupport::PostRestore
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs application-specific PostRestore operations.
 old-location: wsb\iwsbapplicationrestoresupport_postrestore.htm
 old-project: wsb
 ms.assetid: 8be7975e-9b94-4a6e-b1f5-794b8749ccbe
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],PostRestore method, IWsbApplicationRestoreSupport.PostRestore, IWsbApplicationRestoreSupport::PostRestore, PostRestore, PostRestore method [Windows Server Backup], PostRestore method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_postrestore, wsbapp/IWsbApplicationRestoreSupport::PostRestore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsbapp.h
 req.include-header: 

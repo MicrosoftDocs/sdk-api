@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount
 title: IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains the number of file sets that have been explicitly excluded from a given shadow copy.
 old-location: base\ivssexaminewritermetadataex2_getexcludefromsnapshotcount.htm
 old-project: VSS
 ms.assetid: 77f21feb-bd7c-4fd0-820b-9dabb1bcbc89
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetExcludeFromSnapshotCount, GetExcludeFromSnapshotCount method, GetExcludeFromSnapshotCount method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetExcludeFromSnapshotCount method, IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount, IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount, base.ivssexaminewritermetadataex2_getexcludefromsnapshotcount, vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarBoolFromI1
 title: VarBoolFromI1 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a char value to a Boolean value.
 old-location: automat\varboolfromi1.htm
 old-project: automat
 ms.assetid: e4d51920-1925-48e9-96c2-fa1ead8ec942
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarBoolFromI1, VarBoolFromI1 function [Automation], _oa96_VarBoolFromI1, automat.varboolfromi1, oleauto/VarBoolFromI1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

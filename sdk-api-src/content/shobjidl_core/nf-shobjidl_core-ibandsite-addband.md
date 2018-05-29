@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IBandSite.AddBand
 title: IBandSite::AddBand
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a band to a band site object.
 old-location: shell\IBandSite_AddBand.htm
 old-project: shell
 ms.assetid: a954aaf2-f862-4aea-8643-a5b453a8d8ee
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AddBand, AddBand method [Windows Shell], AddBand method [Windows Shell],IBandSite interface, IBandSite interface [Windows Shell],AddBand method, IBandSite.AddBand, IBandSite::AddBand, _win32_IBandSite_AddBand, shell.IBandSite_AddBand, shobjidl_core/IBandSite::AddBand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h

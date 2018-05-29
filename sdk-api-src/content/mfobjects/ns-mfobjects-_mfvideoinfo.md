@@ -1,16 +1,16 @@
 ---
 UID: NS:mfobjects._MFVideoInfo
 title: "_MFVideoInfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains video format information that applies to both compressed and uncompressed formats.This structure is used in the MFVIDEOFORMAT structure.
 old-location: mf\mfvideoinfo.htm
 old-project: medfound
 ms.assetid: 746fd84f-58f8-42ab-bcf7-8fd18dcd02af
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 746fd84f-58f8-42ab-bcf7-8fd18dcd02af, MFVideoInfo, MFVideoInfo structure [Media Foundation], _MFVideoInfo, mf.mfvideoinfo, mfobjects/MFVideoInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h

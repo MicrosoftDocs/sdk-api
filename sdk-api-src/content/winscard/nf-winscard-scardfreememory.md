@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardFreeMemory
 title: SCardFreeMemory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases memory that has been returned from the resource manager using the SCARD_AUTOALLOCATE length designator.
 old-location: security\scardfreememory.htm
 old-project: SecAuthN
 ms.assetid: d41d3891-671b-4129-8034-b251af983830
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCardFreeMemory, SCardFreeMemory function [Security], _smart_scardfreememory, security.scardfreememory, winscard/SCardFreeMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

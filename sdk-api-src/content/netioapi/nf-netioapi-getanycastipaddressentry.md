@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.GetAnycastIpAddressEntry
 title: GetAnycastIpAddressEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information for an existing anycast IP address entry on the local computer.
 old-location: iphlp\getanycastipaddressentry.htm
 old-project: IpHlp
 ms.assetid: d60828ed-e1fd-4e57-92be-08a189c27fe5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAnycastIpAddressEntry, GetAnycastIpAddressEntry function [IP Helper], iphlp.getanycastipaddressentry, netioapi/GetAnycastIpAddressEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:objsel.IDsObjectPickerCredentials.SetCredentials
 title: IDsObjectPickerCredentials::SetCredentials
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this method to override the user credentials, passing new credentials for the account profile to be used.
 old-location: ad\idsobjectpickercredentials_setcredentials.htm
 old-project: AD
 ms.assetid: fb1c366d-10df-4e4f-a381-3f085bd136e2
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDsObjectPickerCredentials interface [Active Directory],SetCredentials method, IDsObjectPickerCredentials.SetCredentials, IDsObjectPickerCredentials::SetCredentials, SetCredentials, SetCredentials method [Active Directory], SetCredentials method [Active Directory],IDsObjectPickerCredentials interface, ad.idsobjectpickercredentials_setcredentials, objsel/IDsObjectPickerCredentials::SetCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objsel.h
 req.include-header: 

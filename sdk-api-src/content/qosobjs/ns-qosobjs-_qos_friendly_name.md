@@ -1,16 +1,16 @@
 ---
 UID: NS:qosobjs._QOS_FRIENDLY_NAME
 title: "_QOS_FRIENDLY_NAME"
-author: windows-driver-content
+author: windows-sdk-content
 description: The QOS_FRIENDLY_NAME traffic control object associates a friendly name with flow.
 old-location: qos\qos_friendly_name.htm
 old-project: QOS
 ms.assetid: 9681fc36-0a31-4b2a-9719-085506126877
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*LPQOS_FRIENDLY_NAME, LPQOS_FRIENDLY_NAME, LPQOS_FRIENDLY_NAME structure pointer [QOS], QOS_FRIENDLY_NAME, QOS_FRIENDLY_NAME structure [QOS], _QOS_FRIENDLY_NAME, _gqos_qos_friendly_name, qos.qos_friendly_name, qosobjs/LPQOS_FRIENDLY_NAME, qosobjs/QOS_FRIENDLY_NAME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: qosobjs.h
 req.include-header: 

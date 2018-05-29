@@ -1,16 +1,16 @@
 ---
 UID: NF:prsht.PropSheet_RestartWindows
 title: PropSheet_RestartWindows macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a PSM_RESTARTWINDOWS message indicating that Windows needs to be restarted for changes to take effect. You can use this macro or send the PSM_RESTARTWINDOWS message explicitly.
 old-location: controls\PropSheet_RestartWindows.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_restartwindows.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropSheet_RestartWindows, PropSheet_RestartWindows macro [Windows Controls], _win32_PropSheet_RestartWindows, _win32_PropSheet_RestartWindows_cpp, controls.PropSheet_RestartWindows, controls._win32_PropSheet_RestartWindows, prsht/PropSheet_RestartWindows
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: prsht.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcomex.IFaxFolders
 title: IFaxFolders
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxFolders interface defines a configuration object used by a fax client application to access the folders, queued jobs, and archived messages on a fax server.
 old-location: fax\_mfax_faxfolders_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1gfn_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxFolders, IFaxFolders interface [Fax Service], IFaxFolders interface [Fax Service],described, _mfax_faxfolders_cpp, fax._mfax_faxfolders_cpp, faxcomex/IFaxFolders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

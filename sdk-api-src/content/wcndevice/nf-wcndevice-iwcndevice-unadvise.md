@@ -1,16 +1,16 @@
 ---
 UID: NF:wcndevice.IWCNDevice.Unadvise
 title: IWCNDevice::Unadvise
-author: windows-driver-content
+author: windows-sdk-content
 description: IWCNDevice::Unadvise method removes any callback previously set via IWCNDevice::Connect.
 old-location: wcn\iwcndevice_unadvise.htm
 old-project: wcn
 ms.assetid: d76ebc9e-8adc-4640-a377-f69cef43afca
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],Unadvise method, IWCNDevice.Unadvise, IWCNDevice::Unadvise, Unadvise, Unadvise method [Windows Connect Now], Unadvise method [Windows Connect Now],IWCNDevice interface, wcn.iwcndevice_unadvise, wcndevice/IWCNDevice::Unadvise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcndevice.h
 req.include-header: 

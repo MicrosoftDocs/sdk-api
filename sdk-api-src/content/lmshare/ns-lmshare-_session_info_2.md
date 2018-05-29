@@ -1,16 +1,16 @@
 ---
 UID: NS:lmshare._SESSION_INFO_2
 title: "_SESSION_INFO_2"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the session, including name of the computer; name of the user; open files, pipes, and devices on the computer; and the type of client that established the session.
 old-location: fs\session_info_2_str.htm
 old-project: NetShare
 ms.assetid: c3429eba-4277-4dc7-9255-cd2ff18dc583
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*LPSESSION_INFO_2, *PSESSION_INFO_2, DOS LM 1.0, DOS LM 2.0, LPSESSION_INFO_2, LPSESSION_INFO_2 structure pointer [Files], OS/2 LM 1.0, OS/2 LM 2.0, PSESSION_INFO_2, PSESSION_INFO_2 structure pointer [Files], SESSION_INFO_2, SESSION_INFO_2 structure [Files], SESS_GUEST, SESS_NOENCRYPTION, _SESSION_INFO_2, _win32_session_info_2_str, fs.session_info_2_str, lmshare/LPSESSION_INFO_2, lmshare/PSESSION_INFO_2, lmshare/SESSION_INFO_2, netmgmt.session_info_2_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmshare.h
 req.include-header: Lm.h

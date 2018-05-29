@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetReadStreamSamples
 title: IWMSyncReader::GetReadStreamSamples
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetReadStreamSamples method ascertains whether a stream is configured to deliver compressed samples.
 old-location: wmformat\iwmsyncreader_getreadstreamsamples.htm
 old-project: wmformat
 ms.assetid: cb903723-fd4b-4b1c-aa2f-e3c9f74dcebd
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetReadStreamSamples, GetReadStreamSamples method [windows Media Format], GetReadStreamSamples method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetReadStreamSamples method, IWMSyncReader.GetReadStreamSamples, IWMSyncReader::GetReadStreamSamples, IWMSyncReaderGetReadStreamSamples, wmformat.iwmsyncreader_getreadstreamsamples, wmsdkidl/IWMSyncReader::GetReadStreamSamples
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

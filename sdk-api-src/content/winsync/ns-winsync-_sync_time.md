@@ -1,16 +1,16 @@
 ---
 UID: NS:winsync._SYNC_TIME
 title: "_SYNC_TIME"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a date-and-time value.
 old-location: winsync\sync_time.htm
 old-project: winsync
 ms.assetid: f5e0df02-d016-4eae-9b9b-bfd754ade126
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SYNC_TIME, SYNC_TIME structure [Windows Sync], _SYNC_TIME, winsync.sync_time, winsync/SYNC_TIME
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsync.h
 req.include-header: 

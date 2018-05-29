@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetSupportedProtocolName
 title: IWMReaderNetworkConfig::GetSupportedProtocolName
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSupportedProtocolName method retrieves a protocol name by index.
 old-location: wmformat\iwmreadernetworkconfig_getsupportedprotocolname.htm
 old-project: wmformat
 ms.assetid: c1047752-c3a2-4555-9dae-ddd91365cd10
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSupportedProtocolName, GetSupportedProtocolName method [windows Media Format], GetSupportedProtocolName method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetSupportedProtocolName method, IWMReaderNetworkConfig.GetSupportedProtocolName, IWMReaderNetworkConfig::GetSupportedProtocolName, IWMReaderNetworkConfigGetSupportedProtocolName, wmformat.iwmreadernetworkconfig_getsupportedprotocolname, wmsdkidl/IWMReaderNetworkConfig::GetSupportedProtocolName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

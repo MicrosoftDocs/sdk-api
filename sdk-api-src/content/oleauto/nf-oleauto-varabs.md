@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarAbs
 title: VarAbs function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the absolute value of a variant.
 old-location: automat\varabs.htm
 old-project: automat
 ms.assetid: 720f5b1b-1b89-4167-8d89-9da267ecb85e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarAbs, VarAbs function [Automation], _oa96_VarAbs, automat.varabs, oleauto/VarAbs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

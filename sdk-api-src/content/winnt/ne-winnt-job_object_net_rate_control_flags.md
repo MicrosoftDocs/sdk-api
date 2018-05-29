@@ -1,16 +1,16 @@
 ---
 UID: NE:winnt.JOB_OBJECT_NET_RATE_CONTROL_FLAGS
 title: JOB_OBJECT_NET_RATE_CONTROL_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies types of scheduling policies for network rate control.
 old-location: base\job_object_net_rate_control_flags.htm
 old-project: ProcThread
 ms.assetid: D1AD3722-1A15-4BCA-8F0A-6E32A078959A
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG, JOB_OBJECT_NET_RATE_CONTROL_ENABLE, JOB_OBJECT_NET_RATE_CONTROL_FLAGS, JOB_OBJECT_NET_RATE_CONTROL_FLAGS enumeration, JOB_OBJECT_NET_RATE_CONTROL_MAX_BANDWITH, JOB_OBJECT_NET_RATE_CONTROL_VALID_FLAGS, base.job_object_net_rate_control_flags, winnt/JOB_OBJECT_NET_RATE_CONTROL_DSCP_TAG, winnt/JOB_OBJECT_NET_RATE_CONTROL_ENABLE, winnt/JOB_OBJECT_NET_RATE_CONTROL_FLAGS, winnt/JOB_OBJECT_NET_RATE_CONTROL_MAX_BANDWITH, winnt/JOB_OBJECT_NET_RATE_CONTROL_VALID_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: 

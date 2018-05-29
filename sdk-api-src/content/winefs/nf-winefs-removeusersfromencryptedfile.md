@@ -1,16 +1,16 @@
 ---
 UID: NF:winefs.RemoveUsersFromEncryptedFile
 title: RemoveUsersFromEncryptedFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes specified certificate hashes from a specified file.
 old-location: fs\removeusersfromencryptedfile.htm
 old-project: FileIO
 ms.assetid: c6672581-24b4-464c-b32d-48a04e56eef8
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: RemoveUsersFromEncryptedFile, RemoveUsersFromEncryptedFile function [Files], _win32_removeusersfromencryptedfile, base.removeusersfromencryptedfile, fs.removeusersfromencryptedfile, winefs/RemoveUsersFromEncryptedFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winefs.h
 req.include-header: Windows.h

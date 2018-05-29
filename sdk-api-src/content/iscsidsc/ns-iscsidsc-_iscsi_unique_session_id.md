@@ -1,16 +1,16 @@
 ---
 UID: NS:iscsidsc._ISCSI_UNIQUE_SESSION_ID
 title: "_ISCSI_UNIQUE_SESSION_ID"
-author: windows-driver-content
+author: windows-sdk-content
 description: ISCSI_UNIQUE_SESSION_ID structure is an opaque entity that contains data that uniquely identifies a session.
 old-location: iscsidisc\iscsi_unique_session_id.htm
 old-project: iSCSIDisc
 ms.assetid: d13975f9-58d0-425c-a2de-a0d1d70850d3
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PISCSI_UNIQUE_CONNECTION_ID, *PISCSI_UNIQUE_SESSION_ID, ISCSI_UNIQUE_CONNECTION_ID, ISCSI_UNIQUE_SESSION_ID, ISCSI_UNIQUE_SESSION_ID structure [iSCSI Discovery Library API], _ISCSI_UNIQUE_SESSION_ID, iscsidisc.iscsi_unique_session_id, iscsidsc/ISCSI_UNIQUE_SESSION_ID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iscsidsc.h
 req.include-header: 

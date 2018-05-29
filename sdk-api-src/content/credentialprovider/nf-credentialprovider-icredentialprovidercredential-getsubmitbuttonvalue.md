@@ -1,16 +1,16 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetSubmitButtonValue
 title: ICredentialProviderCredential::GetSubmitButtonValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the identifier of a field that the submit button should be placed next to in the Logon UI.
 old-location: shell\ICredentialProviderCredential_GetSubmitButtonValue.htm
 old-project: shell
 ms.assetid: 74adc133-aa4d-405f-a98d-c9cfc719648a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetSubmitButtonValue, GetSubmitButtonValue method [Windows Shell], GetSubmitButtonValue method [Windows Shell],ICredentialProviderCredential interface, ICredentialProviderCredential interface [Windows Shell],GetSubmitButtonValue method, ICredentialProviderCredential.GetSubmitButtonValue, ICredentialProviderCredential::GetSubmitButtonValue, _shell_ICredentialProviderCredential_GetSubmitButtonValue, credentialprovider/ICredentialProviderCredential::GetSubmitButtonValue, shell.ICredentialProviderCredential_GetSubmitButtonValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: credentialprovider.h
 req.include-header: 

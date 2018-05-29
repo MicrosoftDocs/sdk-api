@@ -1,16 +1,16 @@
 ---
 UID: NF:winfax.FaxStartPrintJobW
 title: FaxStartPrintJobW function
-author: windows-driver-content
+author: windows-sdk-content
 description: A fax client application calls the FaxStartPrintJob function to start printing an outbound fax transmission on the specified fax printer.
 old-location: fax\_mfax_faxstartprintjob.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3dwi.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxStartPrintJob, FaxStartPrintJob function [Fax Service], FaxStartPrintJobA, FaxStartPrintJobW, _mfax_faxstartprintjob, fax._mfax_faxstartprintjob, winfax/FaxStartPrintJob, winfax/FaxStartPrintJobA, winfax/FaxStartPrintJobW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winfax.h
 req.include-header: 

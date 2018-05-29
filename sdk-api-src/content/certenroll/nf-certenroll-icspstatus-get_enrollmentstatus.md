@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICspStatus.get_EnrollmentStatus
 title: ICspStatus::get_EnrollmentStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IX509EnrollmentStatus object that contains information about the certificate enrollment.
 old-location: security\icspstatus_enrollmentstatus_property.htm
 old-project: SecCertEnroll
 ms.assetid: 56798477-ec12-47b6-a226-d20258677033
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EnrollmentStatus property [Security], EnrollmentStatus property [Security],ICspStatus interface, ICspStatus interface [Security],EnrollmentStatus property, ICspStatus.EnrollmentStatus, ICspStatus.get_EnrollmentStatus, ICspStatus::EnrollmentStatus, ICspStatus::get_EnrollmentStatus, certenroll/ICspStatus::EnrollmentStatus, certenroll/ICspStatus::get_EnrollmentStatus, get_EnrollmentStatus, security.icspstatus_enrollmentstatus_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

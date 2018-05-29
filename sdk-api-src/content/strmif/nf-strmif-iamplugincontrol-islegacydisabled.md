@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMPluginControl.IsLegacyDisabled
 title: IAMPluginControl::IsLegacyDisabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries whether an Audio Compression Manager (ACM) or Video Compression Manager (VCM) codec appears in the blocked list.
 old-location: dshow\iamplugincontrol_islegacydisabled.htm
 old-project: DirectShow
 ms.assetid: f67c7a78-1e4f-469a-9cbb-80c37bba80b7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMPluginControl interface [DirectShow],IsLegacyDisabled method, IAMPluginControl.IsLegacyDisabled, IAMPluginControl::IsLegacyDisabled, IsLegacyDisabled, IsLegacyDisabled method [DirectShow], IsLegacyDisabled method [DirectShow],IAMPluginControl interface, dshow.iamplugincontrol_islegacydisabled, strmif/IAMPluginControl::IsLegacyDisabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

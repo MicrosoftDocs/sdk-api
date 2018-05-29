@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IEmailAction.get_ReplyTo
 title: IEmailAction::get_ReplyTo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the email address that you want to reply to.
 old-location: taskschd\iemailaction_replyto.htm
 old-project: TaskSchd
 ms.assetid: 315ec0f3-3a1b-4b83-a934-af1f5d30910a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IEmailAction interface [Task Scheduler],ReplyTo property, IEmailAction.ReplyTo, IEmailAction.get_ReplyTo, IEmailAction::ReplyTo, IEmailAction::get_ReplyTo, IEmailAction::put_ReplyTo, ReplyTo property [Task Scheduler], ReplyTo property [Task Scheduler],IEmailAction interface, get_ReplyTo, taskschd.iemailaction_replyto, taskschd/IEmailAction::ReplyTo, taskschd/IEmailAction::get_ReplyTo, taskschd/IEmailAction::put_ReplyTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

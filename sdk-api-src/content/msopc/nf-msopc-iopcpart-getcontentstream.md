@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcPart.GetContentStream
 title: IOpcPart::GetContentStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a stream that provides read/write access to part content.
 old-location: opc\iopcpart_getcontentstream.htm
 old-project: OPC
 ms.assetid: b40e3df2-e717-465d-8893-511e4776d80d
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetContentStream, GetContentStream method [Open Packaging Conventions], GetContentStream method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetContentStream method, IOpcPart.GetContentStream, IOpcPart::GetContentStream, msopc/IOpcPart::GetContentStream, opc.iopcpart_getcontentstream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.IWMDMStorageControl
 title: IWMDMStorageControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMDMStorageControl interface is used to insert, delete, or move files within a storage, a device, or between a device and the computer.
 old-location: wmdm\iwmdmstoragecontrol.htm
 old-project: WMDM
 ms.assetid: b56edc7a-0764-449a-95b4-da759e99fadd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMStorageControl, IWMDMStorageControl interface [windows Media Device Manager], IWMDMStorageControl interface [windows Media Device Manager],described, IWMDMStorageControlInterface, mswmdm/IWMDMStorageControl, wmdm.iwmdmstoragecontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

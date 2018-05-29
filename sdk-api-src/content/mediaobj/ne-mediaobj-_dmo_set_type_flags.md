@@ -1,16 +1,16 @@
 ---
 UID: NE:mediaobj._DMO_SET_TYPE_FLAGS
 title: "_DMO_SET_TYPE_FLAGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DMO_SET_TYPE_FLAGS enumeration defines flags for setting the media type on a stream.
 old-location: dshow\dmo_set_type_flags.htm
 old-project: DirectShow
 ms.assetid: e0638668-bbd2-4696-8482-d72438510740
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DMO_SET_TYPEF_CLEAR, DMO_SET_TYPEF_TEST_ONLY, DMO_SET_TYPE_FLAGS , DMO_SET_TYPE_FLAGSEnumeration, _DMO_SET_TYPE_FLAGS, _DMO_SET_TYPE_FLAGS enumeration [DirectShow], dshow.dmo_set_type_flags, mediaobj/DMO_SET_TYPEF_CLEAR, mediaobj/DMO_SET_TYPEF_TEST_ONLY, mediaobj/_DMO_SET_TYPE_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mediaobj.h
 req.include-header: 

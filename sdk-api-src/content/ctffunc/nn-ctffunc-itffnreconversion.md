@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfFnReconversion
 title: ITfFnReconversion
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfFnReconversion interface is implemented by a text service and is used by the TSF manager or a client to support reconversion of text provided by the text service.
 old-location: tsf\itffnreconversion.htm
 old-project: TSF
 ms.assetid: deb5c007-58d5-4bae-92eb-a05675f5dfac
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnReconversion, ITfFnReconversion interface [Text Services Framework], ITfFnReconversion interface [Text Services Framework],described, _tsf_itffnreconversion_ref, ctffunc/ITfFnReconversion, tsf.itffnreconversion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

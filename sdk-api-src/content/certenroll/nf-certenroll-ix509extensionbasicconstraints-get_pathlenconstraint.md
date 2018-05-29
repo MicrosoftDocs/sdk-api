@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509ExtensionBasicConstraints.get_PathLenConstraint
 title: IX509ExtensionBasicConstraints::get_PathLenConstraint
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the depth of the subordinate certification authority chain.
 old-location: security\ix509extensionbasicconstraints_pathlenconstraint_property.htm
 old-project: SecCertEnroll
 ms.assetid: 6d688596-60fd-47d0-8f91-cfda448ac015
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509ExtensionBasicConstraints interface [Security],PathLenConstraint property, IX509ExtensionBasicConstraints.PathLenConstraint, IX509ExtensionBasicConstraints.get_PathLenConstraint, IX509ExtensionBasicConstraints::PathLenConstraint, IX509ExtensionBasicConstraints::get_PathLenConstraint, PathLenConstraint property [Security], PathLenConstraint property [Security],IX509ExtensionBasicConstraints interface, certenroll/IX509ExtensionBasicConstraints::PathLenConstraint, certenroll/IX509ExtensionBasicConstraints::get_PathLenConstraint, get_PathLenConstraint, security.ix509extensionbasicconstraints_pathlenconstraint_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

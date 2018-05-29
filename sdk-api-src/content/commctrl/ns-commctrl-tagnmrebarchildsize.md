@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMREBARCHILDSIZE
 title: tagNMREBARCHILDSIZE
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used in handling the RBN_CHILDSIZE notification code.
 old-location: controls\NMREBARCHILDSIZE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarchildsize.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMREBARCHILDSIZE, LPNMREBARCHILDSIZE, LPNMREBARCHILDSIZE structure pointer [Windows Controls], NMREBARCHILDSIZE, NMREBARCHILDSIZE structure [Windows Controls], _win32_NMREBARCHILDSIZE, _win32_NMREBARCHILDSIZE_cpp, commctrl/LPNMREBARCHILDSIZE, commctrl/NMREBARCHILDSIZE, controls.NMREBARCHILDSIZE, controls._win32_NMREBARCHILDSIZE, tagNMREBARCHILDSIZE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

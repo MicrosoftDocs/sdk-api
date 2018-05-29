@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextPara.SetAlignment
 title: ITextPara::SetAlignment
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the paragraph alignment.
 old-location: controls\ITextPara_SetAlignment.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setalignment.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextPara interface [Windows Controls],SetAlignment method, ITextPara.SetAlignment, ITextPara::SetAlignment, SetAlignment, SetAlignment method [Windows Controls], SetAlignment method [Windows Controls],ITextPara interface, _win32_ITextPara_SetAlignment, _win32_ITextPara_SetAlignment_cpp, controls.ITextPara_SetAlignment, controls._win32_ITextPara_SetAlignment, tom/ITextPara::SetAlignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

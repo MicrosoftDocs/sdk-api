@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMExtendedErrorInfo.get_ErrorDescription
 title: IAMExtendedErrorInfo::get_ErrorDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_ErrorDescription method retrieves the extended error description.
 old-location: dshow\iamextendederrorinfo_get_errordescription.htm
 old-project: DirectShow
 ms.assetid: d417855e-7df6-4978-b971-a91b79c5fa2c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMExtendedErrorInfo interface [DirectShow],get_ErrorDescription method, IAMExtendedErrorInfo.get_ErrorDescription, IAMExtendedErrorInfo::get_ErrorDescription, IAMExtendedErrorInfoget_ErrorDescription, dshow.iamextendederrorinfo_get_errordescription, get_ErrorDescription, get_ErrorDescription method [DirectShow], get_ErrorDescription method [DirectShow],IAMExtendedErrorInfo interface, qnetwork/IAMExtendedErrorInfo::get_ErrorDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

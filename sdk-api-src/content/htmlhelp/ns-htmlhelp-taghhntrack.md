@@ -1,16 +1,16 @@
 ---
 UID: NS:htmlhelp.tagHHNTRACK
 title: tagHHNTRACK
-author: windows-driver-content
+author: windows-sdk-content
 description: This structure returns the file name of the current topic and a constant that specifies the user action that is about to occur, such as hiding the Navigation pane by clicking the Hide button on the toolbar.
 old-location: htmlhelp\hhntrack_structure.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhntrack.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: HHNTRACK, HHNTRACK structure [HTML Help Workshop], htmlhelp.hhntrack_structure, htmlhelp/HHNTRACK, tagHHNTRACK, vsconStrhhntrack
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: htmlhelp.h
 req.include-header: 

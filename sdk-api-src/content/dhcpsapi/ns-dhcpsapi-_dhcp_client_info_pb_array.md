@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_INFO_PB_ARRAY
 title: "_DHCP_CLIENT_INFO_PB_ARRAY"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCP_CLIENT_INFO_PB_ARRAY structure defines an array of DHCPv4 client information elements.
 old-location: dhcp\dhcp_client_info_pb_array.htm
 old-project: DHCP
 ms.assetid: a5106bba-0b84-4a89-b586-e4d115bf4cfe
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_CLIENT_INFO_PB_ARRAY, DHCP_CLIENT_INFO_PB_ARRAY, DHCP_CLIENT_INFO_PB_ARRAY structure [DHCP], LPDHCP_CLIENT_INFO_PB_ARRAY, LPDHCP_CLIENT_INFO_PB_ARRAY structure pointer [DHCP], _DHCP_CLIENT_INFO_PB_ARRAY, dhcp.dhcp_client_info_pb_array, dhcpsapi/DHCP_CLIENT_INFO_PB_ARRAY, dhcpsapi/LPDHCP_CLIENT_INFO_PB_ARRAY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

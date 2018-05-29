@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.ADSPEC
 title: ADSPEC
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADSPEC structure contains Adspec message information for RSVP.
 old-location: qos\adspec.htm
 old-project: QOS
 ms.assetid: c5be3864-0f21-4fa5-99f8-dee9ad2b7286
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: ADSPEC, ADSPEC structure [QOS], lpmapi/ADSPEC, qos.adspec
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

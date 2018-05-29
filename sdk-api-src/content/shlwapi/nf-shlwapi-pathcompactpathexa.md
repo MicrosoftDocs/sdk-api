@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathCompactPathExA
 title: PathCompactPathExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Truncates a path to fit within a certain number of characters by replacing path components with ellipses.
 old-location: shell\PathCompactPathEx.htm
 old-project: shell
 ms.assetid: ff108ee6-3d71-4ab2-a04a-d4bcce408f88
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathCompactPathEx, PathCompactPathEx function [Windows Shell], PathCompactPathExA, PathCompactPathExW, _win32_PathCompactPathEx, shell.PathCompactPathEx, shlwapi/PathCompactPathEx, shlwapi/PathCompactPathExA, shlwapi/PathCompactPathExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

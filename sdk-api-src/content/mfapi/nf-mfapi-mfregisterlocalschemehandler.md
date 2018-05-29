@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFRegisterLocalSchemeHandler
 title: MFRegisterLocalSchemeHandler function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a scheme handler in the caller's process.
 old-location: mf\mfregisterlocalschemehandler.htm
 old-project: medfound
 ms.assetid: B0F14D11-D896-4CFC-8914-087611347BEB
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFRegisterLocalSchemeHandler, MFRegisterLocalSchemeHandler function [Media Foundation], mf.mfregisterlocalschemehandler, mfapi/MFRegisterLocalSchemeHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

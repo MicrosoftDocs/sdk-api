@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMDRMWriter3
 title: IWMDRMWriter3
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMDRMWriter3 interface enables writing of encrypted stream samples for importing protected content.An IWMDRMWriter3 interface exists for every writer object when linking to WMStubDRM.lib.
 old-location: wmformat\iwmdrmwriter3.htm
 old-project: wmformat
 ms.assetid: b300b97b-e558-4c33-a84a-e92c28a3a606
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMDRMWriter3, IWMDRMWriter3 interface [windows Media Format], IWMDRMWriter3 interface [windows Media Format],described, IWMDRMWriter3Interface, wmformat.iwmdrmwriter3, wmsdkidl/IWMDRMWriter3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

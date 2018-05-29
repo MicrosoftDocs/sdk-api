@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ISecurityCallContext
 title: ISecurityCallContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to security methods and information about the security call context of the current call.
 old-location: cos\isecuritycallcontext.htm
 old-project: cossdk
 ms.assetid: cd96ef31-784f-40fa-beb5-92a88823326b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ISecurityCallContext, ISecurityCallContext interface [COM+], ISecurityCallContext interface [COM+],described, _cos_ISecurityCallContext, comsvcs/ISecurityCallContext, cos.isecuritycallcontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

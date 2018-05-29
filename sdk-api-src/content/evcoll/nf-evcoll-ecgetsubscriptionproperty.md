@@ -1,16 +1,16 @@
 ---
 UID: NF:evcoll.EcGetSubscriptionProperty
 title: EcGetSubscriptionProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a property value from a subscription object.
 old-location: wec\ecgetsubscriptionproperty.htm
 old-project: WEC
 ms.assetid: 984d986d-1c59-4d0c-88f3-40c66ffe43dd
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EcGetSubscriptionProperty, EcGetSubscriptionProperty function, evcoll/EcGetSubscriptionProperty, wec.ecgetsubscriptionproperty, wes.ecgetsubscriptionproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 

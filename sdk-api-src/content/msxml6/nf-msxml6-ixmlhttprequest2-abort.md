@@ -1,16 +1,16 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.Abort
 title: IXMLHTTPRequest2::Abort
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels the current HTTP request.
 old-location: ixhr2\ixmlhttprequest2_abort.htm
 old-project: ixhr2
 ms.assetid: B051D464-2328-44A2-A2BC-D0CDDCA79C64
-ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.author: windowssdkdev
+ms.date: 04/02/2018
 ms.keywords: Abort, Abort method [XMLHttpRequest2], Abort method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],Abort method, IXMLHTTPRequest2.Abort, IXMLHTTPRequest2::Abort, ixhr2.ixmlhttprequest2_abort, msxml6/IXMLHTTPRequest2::Abort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 

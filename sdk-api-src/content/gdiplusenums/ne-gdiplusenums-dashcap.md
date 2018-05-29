@@ -1,16 +1,16 @@
 ---
 UID: NE:gdiplusenums.DashCap
 title: DashCap
-author: windows-driver-content
+author: windows-sdk-content
 description: The DashCap enumeration specifies the type of graphic shape to use on both ends of each dash in a dashed line.
 old-location: gdiplus\_gdiplus_ENUM_DashCap.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\dashcap.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DashCap, DashCap enumeration [GDI+], DashCapFlat, DashCapRound, DashCapTriangle, _gdiplus_ENUM_DashCap, gdiplus._gdiplus_ENUM_DashCap, gdiplusenums/DashCap, gdiplusenums/DashCapFlat, gdiplusenums/DashCapRound, gdiplusenums/DashCapTriangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IShellLibrary
 title: IShellLibrary
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods for creating and managing libraries.
 old-location: shell\IShellLibrary.htm
 old-project: shell
 ms.assetid: c1ef3d22-7c88-42b0-93a2-5d1b75c327ba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellLibrary, IShellLibrary interface [Windows Shell], IShellLibrary interface [Windows Shell],described, _shell_IShellLibrary, shell.IShellLibrary, shobjidl_core/IShellLibrary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

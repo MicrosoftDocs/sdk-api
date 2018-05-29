@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IInstallationResult.get_RebootRequired
 title: IInstallationResult::get_RebootRequired
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a Boolean value that indicates whether you must restart the computer to complete the installation or uninstallation of an update.
 old-location: wua\iinstallationresult_rebootrequired.htm
 old-project: Wua_Sdk
 ms.assetid: 7a865933-53f7-4d3e-88cf-088acedeed02
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IInstallationResult interface [Windows Update Agent],RebootRequired property, IInstallationResult.RebootRequired, IInstallationResult.get_RebootRequired, IInstallationResult::RebootRequired, IInstallationResult::get_RebootRequired, RebootRequired property [Windows Update Agent], RebootRequired property [Windows Update Agent],IInstallationResult interface, get_RebootRequired, wua.iinstallationresult_rebootrequired, wuapi/IInstallationResult::RebootRequired, wuapi/IInstallationResult::get_RebootRequired
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

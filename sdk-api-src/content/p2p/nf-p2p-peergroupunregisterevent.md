@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupUnregisterEvent
 title: PeerGroupUnregisterEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupUnregisterEvent function unregisters a peer from notification of peer events associated with the supplied event handle.
 old-location: p2p\peergroupunregisterevent.htm
 old-project: P2PSdk
 ms.assetid: ad13cbf6-0dc9-4de5-aae7-2ecf6af90ea6
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupUnregisterEvent, PeerGroupUnregisterEvent function [Peer Networking], p2p.peergroupunregisterevent, p2p/PeerGroupUnregisterEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

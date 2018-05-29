@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesSimpleProgress.ItemBegin
 title: IOfflineFilesSimpleProgress::ItemBegin
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports that an operation on an item is beginning.
 old-location: of\iofflinefilessimpleprogress_itembegin.htm
 old-project: OfflineFiles
 ms.assetid: 0e3496ee-e987-4c37-93ff-bc8409acabde
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesSimpleProgress interface [Offline Files],ItemBegin method, IOfflineFilesSimpleProgress.ItemBegin, IOfflineFilesSimpleProgress::ItemBegin, ItemBegin, ItemBegin method [Offline Files], ItemBegin method [Offline Files],IOfflineFilesSimpleProgress interface, cscobj/IOfflineFilesSimpleProgress::ItemBegin, of.iofflinefilessimpleprogress_itembegin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

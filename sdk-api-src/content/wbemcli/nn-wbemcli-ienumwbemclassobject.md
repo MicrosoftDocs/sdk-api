@@ -1,16 +1,16 @@
 ---
 UID: NN:wbemcli.IEnumWbemClassObject
 title: IEnumWbemClassObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumWbemClassObject interface is used to enumerate Common Information Model (CIM) objects and is similar to a standard COM enumerator.
 old-location: wmi\ienumwbemclassobject.htm
 old-project: WmiSdk
 ms.assetid: 142ea48d-d47b-4b7b-ab84-049a54955488
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IEnumWbemClassObject, IEnumWbemClassObject interface [Windows Management Instrumentation], IEnumWbemClassObject interface [Windows Management Instrumentation],described, _hmm_ienumwbemclassobject, wbemcli/IEnumWbemClassObject, wmi.ienumwbemclassobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

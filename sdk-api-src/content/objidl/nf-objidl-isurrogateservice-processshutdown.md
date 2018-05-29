@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.ISurrogateService.ProcessShutdown
 title: ISurrogateService::ProcessShutdown
-author: windows-driver-content
+author: windows-sdk-content
 description: Shuts down the process.
 old-location: com\isurrogateservice_processshutdown.htm
 old-project: com
 ms.assetid: b01dc079-647c-4e58-a36b-0a665355afb7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISurrogateService interface [COM],ProcessShutdown method, ISurrogateService.ProcessShutdown, ISurrogateService::ProcessShutdown, ProcessShutdown, ProcessShutdown method [COM], ProcessShutdown method [COM],ISurrogateService interface, _com_isurrogateservice_processshutdown, com.isurrogateservice_processshutdown, objidl/ISurrogateService::ProcessShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

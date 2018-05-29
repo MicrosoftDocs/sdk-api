@@ -1,16 +1,16 @@
 ---
 UID: NF:scserver.CSecureChannelServer.GetSessionKey
 title: CSecureChannelServer::GetSessionKey
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSessionKey method retrieves the current session key that is used for encryption and decryption. This method is published and available, but normally is used only by Windows Media Device Manager.
 old-location: wmdm\csecurechannelserver_getsessionkey.htm
 old-project: WMDM
 ms.assetid: 1be09669-434e-4774-92bf-4ea470d6c4b9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],GetSessionKey method, CSecureChannelServer.GetSessionKey, CSecureChannelServer::GetSessionKey, CSecureChannelServerGetSessionKey, GetSessionKey, GetSessionKey method [windows Media Device Manager], GetSessionKey method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::GetSessionKey, wmdm.csecurechannelserver_getsessionkey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: scserver.h
 req.include-header: 

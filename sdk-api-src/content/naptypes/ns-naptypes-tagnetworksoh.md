@@ -1,16 +1,16 @@
 ---
 UID: NS:naptypes.tagNetworkSoH
 title: tagNetworkSoH
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the wire SoH protocol.
 old-location: nap\networksoh_struct.htm
 old-project: NAP
 ms.assetid: 7b1d4563-4758-40d8-be6c-51533bbcb09e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: NetworkSoH, NetworkSoH structure [NAP], NetworkSoHRequest, NetworkSoHRequest structure [NAP], NetworkSoHResponse, NetworkSoHResponse structure [NAP], nap.networksoh_struct, naptypes/NetworkSoH, naptypes/NetworkSoHRequest, naptypes/NetworkSoHResponse, tagNetworkSoH
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

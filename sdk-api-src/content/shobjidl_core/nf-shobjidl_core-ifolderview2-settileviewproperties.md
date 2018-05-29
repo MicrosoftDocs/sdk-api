@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetTileViewProperties
 title: IFolderView2::SetTileViewProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Set the list of tile properties for an item.
 old-location: shell\IFolderView2_SetTileViewProperties.htm
 old-project: shell
 ms.assetid: 44abbbbb-8d4d-4a09-9c17-a2255467de44
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetTileViewProperties method, IFolderView2.SetTileViewProperties, IFolderView2::SetTileViewProperties, SetTileViewProperties, SetTileViewProperties method [Windows Shell], SetTileViewProperties method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetTileViewProperties, shell.IFolderView2_SetTileViewProperties, shobjidl_core/IFolderView2::SetTileViewProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

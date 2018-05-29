@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwMgr.get_CurrentProfileType
 title: INetFwMgr::get_CurrentProfileType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the type of firewall profile currently in effect.
 old-location: ics\inetfwmgr_currentprofiletype.htm
 old-project: ICS
 ms.assetid: fa6d79a8-37e4-4172-a6be-3ca803c0feca
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: CurrentProfileType property [ICS/ICF], CurrentProfileType property [ICS/ICF],INetFwMgr interface, INetFwMgr interface [ICS/ICF],CurrentProfileType property, INetFwMgr.CurrentProfileType, INetFwMgr.get_CurrentProfileType, INetFwMgr::CurrentProfileType, INetFwMgr::get_CurrentProfileType, get_CurrentProfileType, ics.inetfwmgr_currentprofiletype, netfw/INetFwMgr::CurrentProfileType, netfw/INetFwMgr::get_CurrentProfileType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

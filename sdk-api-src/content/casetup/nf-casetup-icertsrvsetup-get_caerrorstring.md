@@ -1,16 +1,16 @@
 ---
 UID: NF:casetup.ICertSrvSetup.get_CAErrorString
 title: ICertSrvSetup::get_CAErrorString
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the string data for additional error information related to a failed certification authority (CA) specification.
 old-location: security\icertsrvsetup_caerrorstring.htm
 old-project: SecCrypto
 ms.assetid: 154397f8-aa0e-4d74-b18e-b68b46fdfcdb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CAErrorString property [Security], CAErrorString property [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],CAErrorString property, ICertSrvSetup.CAErrorString, ICertSrvSetup.get_CAErrorString, ICertSrvSetup::CAErrorString, ICertSrvSetup::get_CAErrorString, casetup/ICertSrvSetup::CAErrorString, casetup/ICertSrvSetup::get_CAErrorString, get_CAErrorString, security.icertsrvsetup_caerrorstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:functiondiscoveryapi.IFunctionInstance
 title: IFunctionInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: A function instance is created as the result of calling one of the IFunctionDiscovery methods; client program do not create these objects themselves.
 old-location: ncd\ifunctioninstance.htm
 old-project: FunDisc
 ms.assetid: cc421719-73a6-4d4d-9bf8-171e46c4e275
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IFunctionInstance, IFunctionInstance interface, IFunctionInstance interface,described, functiondiscoveryapi/IFunctionInstance, ncd.ifunctioninstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryapi.h
 req.include-header: 

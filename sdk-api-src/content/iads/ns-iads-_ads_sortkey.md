@@ -1,16 +1,16 @@
 ---
 UID: NS:iads._ads_sortkey
 title: "_ads_sortkey"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ADS_SORTKEY structure specifies how to sort a query.
 old-location: adsi\ads_sortkey.htm
 old-project: ADSI
 ms.assetid: e4fe499a-4f81-4b92-bf50-b4124ae6e4a3
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PADS_SORTKEY, ADS_SORTKEY, ADS_SORTKEY structure [ADSI], PADS_SORTKEY, PADS_SORTKEY structure pointer [ADSI], _ads_sortkey, _ds_ads_sortkey, adsi.ads__sortkey, adsi.ads_sortkey, iads/ADS_SORTKEY, iads/PADS_SORTKEY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iads.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certpoleng.PstValidate
 title: PstValidate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Validates the specified certificate.
 old-location: security\pstvalidate.htm
 old-project: SecAuthN
 ms.assetid: 4e1c4ebd-977e-4967-8ff6-694be0016276
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: PstValidate, PstValidate function [Security], certpoleng/PstValidate, security.pstvalidate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: certpoleng.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntquery.CITextToSelectTree
 title: CITextToSelectTree function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a SELECT node for a DBCOMMANDTREE structure using Query Language Dialect 1.
 old-location: indexsrv\citexttoselecttree.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1t0l.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CITextToSelectTree, CITextToSelectTree function [Indexing Service], _idxs_CITextToSelectTree, indexsrv.citexttoselecttree, ntquery/CITextToSelectTree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

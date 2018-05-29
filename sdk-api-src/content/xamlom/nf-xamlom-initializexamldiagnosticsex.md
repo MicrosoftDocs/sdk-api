@@ -1,16 +1,16 @@
 ---
 UID: NF:xamlom.InitializeXamlDiagnosticsEx
 title: InitializeXamlDiagnosticsEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a Xaml Diagnostics session. This is the entry point for any debugging tool using the XAML Diagnostic APIs.
 old-location: xaml_diagnostics\initializexamldiagnosticsex.htm
 old-project: xaml_diagnostics
 ms.assetid: CFBCF6EC-5E42-4992-B046-B4F436A9BF04
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: InitializeXamlDiagnosticsEx, InitializeXamlDiagnosticsEx function, xaml_diagnostics.initializexamldiagnosticsex, xamlom/InitializeXamlDiagnosticsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: xamlom.h
 req.include-header: Windows.UI.Xaml.h

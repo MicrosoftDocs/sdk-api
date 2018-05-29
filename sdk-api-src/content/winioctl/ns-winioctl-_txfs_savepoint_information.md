@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._TXFS_SAVEPOINT_INFORMATION
 title: "_TXFS_SAVEPOINT_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The FSCTL_TXFS_SAVEPOINT_INFORMATION structure specifies the action to perform, and on which transaction.
 old-location: fs\txfs_savepoint_information.htm
 old-project: FileIO
 ms.assetid: 4ea6d069-832a-4771-8cc0-fd75e82c94b5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PTXFS_SAVEPOINT_INFORMATION, PTXFS_SAVEPOINT_INFORMATION, PTXFS_SAVEPOINT_INFORMATION structure pointer [Files], TXFS_SAVEPOINT_CLEAR, TXFS_SAVEPOINT_CLEAR_ALL, TXFS_SAVEPOINT_INFORMATION, TXFS_SAVEPOINT_INFORMATION structure [Files], TXFS_SAVEPOINT_ROLLBACK, TXFS_SAVEPOINT_SET, _TXFS_SAVEPOINT_INFORMATION, fs.txfs_savepoint_information, winioctl/PTXFS_SAVEPOINT_INFORMATION, winioctl/TXFS_SAVEPOINT_INFORMATION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

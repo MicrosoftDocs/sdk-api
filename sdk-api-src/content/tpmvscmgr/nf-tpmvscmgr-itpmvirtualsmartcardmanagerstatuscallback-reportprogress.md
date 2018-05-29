@@ -1,16 +1,16 @@
 ---
 UID: NF:tpmvscmgr.ITpmVirtualSmartCardManagerStatusCallback.ReportProgress
 title: ITpmVirtualSmartCardManagerStatusCallback::ReportProgress
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports the progress of the current operation.
 old-location: security\itpmvirtualsmartcardmanagerstatuscallback_reportprogress.htm
 old-project: SecAuthN
 ms.assetid: E20CF68F-0DFB-48E4-9B68-83A8E8763424
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITpmVirtualSmartCardManagerStatusCallback interface [Security],ReportProgress method, ITpmVirtualSmartCardManagerStatusCallback.ReportProgress, ITpmVirtualSmartCardManagerStatusCallback::ReportProgress, ReportProgress, ReportProgress method [Security], ReportProgress method [Security],ITpmVirtualSmartCardManagerStatusCallback interface, security.itpmvirtualsmartcardmanagerstatuscallback_reportprogress, tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportProgress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tpmvscmgr.h
 req.include-header: 

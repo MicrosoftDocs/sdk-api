@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IComResourceEvents
 title: IComResourceEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the subscriber if a resource is created, allocated, tracked, or destroyed.
 old-location: cos\icomresourceevents.htm
 old-project: cossdk
 ms.assetid: fdc664b6-0459-4cbd-8e9e-0c3fe82e4321
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComResourceEvents, IComResourceEvents interface [COM+], IComResourceEvents interface [COM+],described, _dtc_IComResourceEvents, comsvcs/IComResourceEvents, cos.icomresourceevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:atscpsipparser.IATSC_EIT.GetRecordEventId
 title: IATSC_EIT::GetRecordEventId
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_eit_getrecordeventid.htm
 old-project: mstv
 ms.assetid: 4fb908cf-4ee9-433b-b686-330a32f855af
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordEventId, GetRecordEventId method [Microsoft TV Technologies], GetRecordEventId method [Microsoft TV Technologies],IATSC_EIT interface, IATSC_EIT interface [Microsoft TV Technologies],GetRecordEventId method, IATSC_EIT.GetRecordEventId, IATSC_EIT::GetRecordEventId, IATSC_EITGetRecordEventId, atscpsipparser/IATSC_EIT::GetRecordEventId, mstv.iatsc_eit_getrecordeventid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: atscpsipparser.h
 req.include-header: 

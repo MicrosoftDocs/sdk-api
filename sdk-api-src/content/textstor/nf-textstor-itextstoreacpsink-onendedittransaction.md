@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnEndEditTransaction
 title: ITextStoreACPSink::OnEndEditTransaction
-author: windows-driver-content
+author: windows-sdk-content
 description: ITextStoreACPSink::OnEndEditTransaction method
 old-location: tsf\itextstoreacpsink_onendedittransaction.htm
 old-project: TSF
 ms.assetid: 4d2819a2-c780-47bb-b3e5-0836b8b4c5dd
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnEndEditTransaction method, ITextStoreACPSink.OnEndEditTransaction, ITextStoreACPSink::OnEndEditTransaction, OnEndEditTransaction, OnEndEditTransaction method [Text Services Framework], OnEndEditTransaction method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onendedittransaction_ref, textstor/ITextStoreACPSink::OnEndEditTransaction, tsf.itextstoreacpsink_onendedittransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

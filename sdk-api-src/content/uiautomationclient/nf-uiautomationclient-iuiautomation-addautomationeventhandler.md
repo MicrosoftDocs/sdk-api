@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.AddAutomationEventHandler
 title: IUIAutomation::AddAutomationEventHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a method that handles Microsoft UI Automation events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
 old-location: winauto\uiauto_IUIAutomation_AddAutomationEventHandler.htm
 old-project: WinAuto
 ms.assetid: 15ceca71-33e8-4d66-afd6-3d50fe81c127
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: AddAutomationEventHandler, AddAutomationEventHandler method [Windows Accessibility], AddAutomationEventHandler method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddAutomationEventHandler method, IUIAutomation.AddAutomationEventHandler, IUIAutomation::AddAutomationEventHandler, uiauto.uiauto_IUIAutomation_AddAutomationEventHandler, uiauto_IUIAutomation_AddAutomationEventHandler, uiautomationclient/IUIAutomation::AddAutomationEventHandler, winauto.uiauto_IUIAutomation_AddAutomationEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

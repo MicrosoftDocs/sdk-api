@@ -1,16 +1,16 @@
 ---
 UID: NF:securitybaseapi.CveEventWrite
 title: CveEventWrite function
-author: windows-driver-content
+author: windows-sdk-content
 description: A tracing function for publishing events when an attempted security vulnerability exploit is detected in your user-mode application.
 old-location: etw\cveeventwrite.htm
 old-project: ETW
 ms.assetid: 81CDC4A8-67B3-40AE-B492-89EF47BC5C4D
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CveEventWrite, CveEventWrite function [ETW], etw.cveeventwrite, securitybaseapi/CveEventWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: securitybaseapi.h
 req.include-header: 

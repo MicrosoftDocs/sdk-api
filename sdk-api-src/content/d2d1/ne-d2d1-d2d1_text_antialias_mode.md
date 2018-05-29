@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1.D2D1_TEXT_ANTIALIAS_MODE
 title: D2D1_TEXT_ANTIALIAS_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the antialiasing mode used for drawing text.
 old-location: direct2d\D2D1_TEXT_ANTIALIAS_MODE.htm
 old-project: Direct2D
 ms.assetid: d2c829d7-9892-4cbb-9993-12bb7d77fc25
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_TEXT_ANTIALIAS_MODE, D2D1_TEXT_ANTIALIAS_MODE enumeration [Direct2D], D2D1_TEXT_ANTIALIAS_MODE_ALIASED, D2D1_TEXT_ANTIALIAS_MODE_CLEARTYPE, D2D1_TEXT_ANTIALIAS_MODE_DEFAULT, D2D1_TEXT_ANTIALIAS_MODE_GRAYSCALE, d2d1/D2D1_TEXT_ANTIALIAS_MODE, d2d1/D2D1_TEXT_ANTIALIAS_MODE_ALIASED, d2d1/D2D1_TEXT_ANTIALIAS_MODE_CLEARTYPE, d2d1/D2D1_TEXT_ANTIALIAS_MODE_DEFAULT, d2d1/D2D1_TEXT_ANTIALIAS_MODE_GRAYSCALE, direct2d.D2D1_TEXT_ANTIALIAS_MODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 

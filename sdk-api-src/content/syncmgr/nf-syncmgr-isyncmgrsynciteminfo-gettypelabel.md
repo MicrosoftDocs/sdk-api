@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemInfo.GetTypeLabel
 title: ISyncMgrSyncItemInfo::GetTypeLabel
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a label for the item type. This typically provides the model of the device or an equivalent item-specific identity string.
 old-location: shell\ISyncMgrSyncItemInfo_GetTypeLabel.htm
 old-project: shell
 ms.assetid: f93e929f-c25b-4511-9478-57686f9e205b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTypeLabel, GetTypeLabel method [Windows Shell], GetTypeLabel method [Windows Shell],ISyncMgrSyncItemInfo interface, ISyncMgrSyncItemInfo interface [Windows Shell],GetTypeLabel method, ISyncMgrSyncItemInfo.GetTypeLabel, ISyncMgrSyncItemInfo::GetTypeLabel, _shell_ISyncMgrSyncItemInfo_GetTypeLabel, shell.ISyncMgrSyncItemInfo_GetTypeLabel, syncmgr/ISyncMgrSyncItemInfo::GetTypeLabel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:eappapis.EapHostPeerProcessReceivedPacket
 title: EapHostPeerProcessReceivedPacket function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is called by the supplicant every time the supplicant receives a packet that EAPHost needs to process.
 old-location: eaphost\eaphostpeerprocessreceivedpacket.htm
 old-project: EAPHost
 ms.assetid: 7b3bc23d-312d-494d-afd0-ce82d2d5136c
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerProcessReceivedPacket, EapHostPeerProcessReceivedPacket function [EAPHost], eaphost.eaphostpeerprocessreceivedpacket, eappapis/EapHostPeerProcessReceivedPacket
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:filehc.InvalidateName
 title: InvalidateName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the user to remove a single name and all associated data from the name cache.
 old-location: winprog\_invalidatename.htm
 old-project: DevNotes
 ms.assetid: 86c6eccf-5c4a-421b-b8e2-762ea5b77bf3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: InvalidateName, InvalidateName function [Windows API], filehc/InvalidateName, winprog._invalidatename
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

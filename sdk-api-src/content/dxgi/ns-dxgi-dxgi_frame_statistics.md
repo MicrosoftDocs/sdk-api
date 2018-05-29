@@ -1,16 +1,16 @@
 ---
 UID: NS:dxgi.DXGI_FRAME_STATISTICS
 title: DXGI_FRAME_STATISTICS
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes timing and presentation statistics for a frame.
 old-location: direct3ddxgi\dxgi_frame_statistics.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_frame_statistics.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: 97415a25-57a3-0530-e47d-4459bac66c73, DXGI_FRAME_STATISTICS, DXGI_FRAME_STATISTICS structure [DXGI], direct3ddxgi.dxgi_frame_statistics, dxgi/DXGI_FRAME_STATISTICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_SECURITY_CONTEXT_PROPERTY
 title: "_WS_SECURITY_CONTEXT_PROPERTY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a property of a WS_SECURITY_CONTEXT
 old-location: wsw\ws_security_context_property.htm
 old-project: wsw
 ms.assetid: 426b9847-8217-41ce-8962-138176e0555b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SECURITY_CONTEXT_PROPERTY, WS_SECURITY_CONTEXT_PROPERTY structure [Web Services for Windows], _WS_SECURITY_CONTEXT_PROPERTY, webservices/WS_SECURITY_CONTEXT_PROPERTY, wsw.ws_security_context_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

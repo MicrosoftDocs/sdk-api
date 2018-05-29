@@ -1,16 +1,16 @@
 ---
 UID: NE:uiautomationcore.StructureChangeType
 title: StructureChangeType
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values that specify the type of change in the Microsoft UI Automation tree structure.
 old-location: winauto\uiauto_StructureChangeTypeEnum.htm
 old-project: WinAuto
 ms.assetid: abaf9551-40c4-4ab6-adb7-b619f3bc9745
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: StructureChangeType, StructureChangeType enumeration [Windows Accessibility], StructureChangeType_ChildAdded, StructureChangeType_ChildRemoved, StructureChangeType_ChildrenBulkAdded, StructureChangeType_ChildrenBulkRemoved, StructureChangeType_ChildrenInvalidated, StructureChangeType_ChildrenReordered, uiauto.uiauto_StructureChangeTypeEnum, uiauto_StructureChangeTypeEnum, uiautomationcore/StructureChangeType, uiautomationcore/StructureChangeType_ChildAdded, uiautomationcore/StructureChangeType_ChildRemoved, uiautomationcore/StructureChangeType_ChildrenBulkAdded, uiautomationcore/StructureChangeType_ChildrenBulkRemoved, uiautomationcore/StructureChangeType_ChildrenInvalidated, uiautomationcore/StructureChangeType_ChildrenReordered, winauto.uiauto_StructureChangeTypeEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

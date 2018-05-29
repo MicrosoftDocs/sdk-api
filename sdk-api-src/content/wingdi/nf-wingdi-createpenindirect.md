@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CreatePenIndirect
 title: CreatePenIndirect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreatePenIndirect function creates a logical cosmetic pen that has the style, width, and color specified in a structure.
 old-location: gdi\createpenindirect.htm
 old-project: gdi
 ms.assetid: 638c0294-9a8f-44ed-a791-1be152cd92dd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreatePenIndirect, CreatePenIndirect function [Windows GDI], _win32_CreatePenIndirect, gdi.createpenindirect, wingdi/CreatePenIndirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

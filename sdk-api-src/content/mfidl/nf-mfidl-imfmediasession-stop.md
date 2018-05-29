@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaSession.Stop
 title: IMFMediaSession::Stop
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops the Media Session.
 old-location: mf\imfmediasession_stop.htm
 old-project: medfound
 ms.assetid: 9cc769cc-24ef-4790-a10e-4aec8fb4fc1f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 9cc769cc-24ef-4790-a10e-4aec8fb4fc1f, IMFMediaSession interface [Media Foundation],Stop method, IMFMediaSession.Stop, IMFMediaSession::Stop, Stop, Stop method [Media Foundation], Stop method [Media Foundation],IMFMediaSession interface, mf.imfmediasession_stop, mfidl/IMFMediaSession::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.WSAIoctl
 title: WSAIoctl function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WSAIoctl function controls the mode of a socket.
 old-location: winsock\wsaioctl_2.htm
 old-project: WinSock
 ms.assetid: 038aeca6-d7b7-4f74-ac69-4536c2e5118b
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSAIoctl, WSAIoctl function [Winsock], _win32_wsaioctl_2, mstcpip/WSAIoctl, winsock.wsaioctl_2, winsock2/WSAIoctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

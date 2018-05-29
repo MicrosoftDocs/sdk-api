@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.IPrincipal
 title: IPrincipal
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the security credentials for a principal.
 old-location: taskschd\iprincipal.htm
 old-project: TaskSchd
 ms.assetid: 7aa22af2-7f0a-41c1-89c6-d813780e89bf
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IPrincipal, IPrincipal interface [Task Scheduler], IPrincipal interface [Task Scheduler],described, taskschd.iprincipal, taskschd/IPrincipal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

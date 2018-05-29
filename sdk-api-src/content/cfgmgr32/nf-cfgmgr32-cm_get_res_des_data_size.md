@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Res_Des_Data_Size
 title: CM_Get_Res_Des_Data_Size function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_Res_Des_Data_Size function obtains the buffer size required to hold the information contained in a specified resource descriptor on the local machine.
 old-location: devinst\cm_get_res_des_data_size.htm
 old-project: devinst
 ms.assetid: 51337d09-2ebb-45fd-82cd-2362093fb7ff
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_Res_Des_Data_Size, CM_Get_Res_Des_Data_Size function [Device and Driver Installation], cfgmgr32/CM_Get_Res_Des_Data_Size, cfgmgrfn_bc279907-eb02-45fc-801d-48dde3d046a9.xml, devinst.cm_get_res_des_data_size
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

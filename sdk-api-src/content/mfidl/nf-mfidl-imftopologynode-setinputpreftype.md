@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.SetInputPrefType
 title: IMFTopologyNode::SetInputPrefType
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the preferred media type for an input stream on this node.
 old-location: mf\imftopologynode_setinputpreftype.htm
 old-project: medfound
 ms.assetid: 348b3cba-8c8c-4df9-8cb9-b69cd140cffb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 348b3cba-8c8c-4df9-8cb9-b69cd140cffb, IMFTopologyNode interface [Media Foundation],SetInputPrefType method, IMFTopologyNode.SetInputPrefType, IMFTopologyNode::SetInputPrefType, SetInputPrefType, SetInputPrefType method [Media Foundation], SetInputPrefType method [Media Foundation],IMFTopologyNode interface, mf.imftopologynode_setinputpreftype, mfidl/IMFTopologyNode::SetInputPrefType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

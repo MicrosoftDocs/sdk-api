@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.IsEmf
 title: MetafileHeader::IsEmf
-author: windows-driver-content
+author: windows-sdk-content
 description: The MetafileHeader::IsEmf method determines whether the associated metafile is in the EMF format.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsEmf_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isemf.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IsEmf, IsEmf method [GDI+], IsEmf method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsEmf method, MetafileHeader.IsEmf, MetafileHeader::IsEmf, _gdiplus_CLASS_MetafileHeader_IsEmf_, gdiplus._gdiplus_CLASS_MetafileHeader_IsEmf_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h

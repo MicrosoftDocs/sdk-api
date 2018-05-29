@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IDynamicHWHandler
 title: IDynamicHWHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by AutoPlay. Exposes methods that get dynamic information regarding a registered handler prior to displaying it to the user.
 old-location: shell\IDynamicHWHandler.htm
 old-project: shell
 ms.assetid: 924a765f-76b2-4a45-8dc5-74b5e75b437d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDynamicHWHandler, IDynamicHWHandler interface [Windows Shell], IDynamicHWHandler interface [Windows Shell],described, _shell_IDynamicHWHandler, shell.IDynamicHWHandler, shobjidl/IDynamicHWHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

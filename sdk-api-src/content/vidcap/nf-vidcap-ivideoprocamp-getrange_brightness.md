@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Brightness
 title: IVideoProcAmp::getRange_Brightness
-author: windows-driver-content
+author: windows-sdk-content
 description: The getRange_Brightness method returns the range of brightness settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_brightness.htm
 old-project: DirectShow
 ms.assetid: 236f919a-5ed3-4ce4-877e-023af1a4e4d0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Brightness method, IVideoProcAmp.getRange_Brightness, IVideoProcAmp::getRange_Brightness, IVideoProcAmpgetRange_Brightness, dshow.ivideoprocamp_getrange_brightness, getRange_Brightness, getRange_Brightness method [DirectShow], getRange_Brightness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Brightness
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

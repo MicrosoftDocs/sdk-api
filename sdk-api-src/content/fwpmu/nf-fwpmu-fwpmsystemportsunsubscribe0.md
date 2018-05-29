@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmSystemPortsUnsubscribe0
 title: FwpmSystemPortsUnsubscribe0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to cancel a system port subscription and stop receiving notifications.
 old-location: fwp\fwpmsystemportsunsubscribe0.htm
 old-project: FWP
 ms.assetid: d078ae73-32a7-4341-b142-d1fdf8388255
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmSystemPortsUnsubscribe0, FwpmSystemPortsUnsubscribe0 function [Filtering], fwp.fwpmsystemportsunsubscribe0, fwpmu/FwpmSystemPortsUnsubscribe0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

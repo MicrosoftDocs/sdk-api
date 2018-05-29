@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmFreeMemory0
 title: FwpmFreeMemory0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to release memory resources allocated by the Windows Filtering Platform (WFP) functions.
 old-location: fwp\fwpmfreememory0_func.htm
 old-project: FWP
 ms.assetid: ba9f8c1e-f75c-4bf0-b68b-e21a358575fc
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmFreeMemory0, FwpmFreeMemory0 function [Filtering], fwp.fwpmfreememory0_func, fwpmu/FwpmFreeMemory0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

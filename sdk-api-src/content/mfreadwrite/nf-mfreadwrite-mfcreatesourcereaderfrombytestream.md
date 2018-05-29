@@ -1,16 +1,16 @@
 ---
 UID: NF:mfreadwrite.MFCreateSourceReaderFromByteStream
 title: MFCreateSourceReaderFromByteStream function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates the source reader from a byte stream.
 old-location: mf\mfcreatesourcereaderfrombytestream.htm
 old-project: medfound
 ms.assetid: e167159d-902c-4c34-b5f0-eb764fe2de1c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateSourceReaderFromByteStream, MFCreateSourceReaderFromByteStream function [Media Foundation], mf.mfcreatesourcereaderfrombytestream, mfreadwrite/MFCreateSourceReaderFromByteStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfreadwrite.h
 req.include-header: 

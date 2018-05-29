@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkCursorButtons.Item
 title: IInkCursorButtons::Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the IInkCursorButton object at the specified index or string identifier within the IInkCursorButtons collection.
 old-location: tablet\iinkcursorbuttons_item.htm
 old-project: tablet
 ms.assetid: 801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf, IInkCursorButtons interface [Tablet PC],Item method, IInkCursorButtons.Item, IInkCursorButtons::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCursorButtons interface, msinkaut/IInkCursorButtons::Item, tablet.iinkcursorbuttons_item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.get_Count
 title: ITaskNamedValueCollection::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of name-value pairs in the collection.
 old-location: taskschd\itasknamedvaluecollection_count.htm
 old-project: TaskSchd
 ms.assetid: aedb4d3d-0f72-4224-8488-4100d2416994
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Count property, ITaskNamedValueCollection.Count, ITaskNamedValueCollection.get_Count, ITaskNamedValueCollection::Count, ITaskNamedValueCollection::get_Count, get_Count, taskschd.itasknamedvaluecollection_count, taskschd/ITaskNamedValueCollection::Count, taskschd/ITaskNamedValueCollection::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

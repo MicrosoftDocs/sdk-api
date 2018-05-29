@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidRect
 title: IMSVidRect
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMSVidRect interface represents a rectangle with an associated window handle.
 old-location: mstv\imsvidrect.htm
 old-project: mstv
 ms.assetid: 0b3cf31b-e0cc-4208-a128-b77460fc0f1b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidRect, IMSVidRect interface [Microsoft TV Technologies], IMSVidRect interface [Microsoft TV Technologies],described, IMSVidRectInterface, mstv.imsvidrect, segment/IMSVidRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

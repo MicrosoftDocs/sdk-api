@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.RollbackComplete
 title: RollbackComplete function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that the resource manager (RM) has successfully completed rolling back a transaction.
 old-location: fs\rollbackcomplete.htm
 old-project: Ktm
 ms.assetid: c9d53777-eef9-4c60-921d-50b0fbf8d005
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RollbackComplete, RollbackComplete function [Files], fs.rollbackcomplete, ktmw32/RollbackComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

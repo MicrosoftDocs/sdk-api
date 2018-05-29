@@ -1,16 +1,16 @@
 ---
 UID: NN:windows.media.core.interop.IVideoFrameNative
 title: IVideoFrameNative
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a frame of video data.
 old-location: winrt\ivideoframenative.htm
 old-project: WinRT
 ms.assetid: 6B5E19EA-F66B-447C-B8D5-C98260E82789
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IVideoFrameNative, IVideoFrameNative interface [Windows Runtime], IVideoFrameNative interface [Windows Runtime],described, windows/IVideoFrameNative, winrt.ivideoframenative
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.media.core.interop.h
 req.include-header: 

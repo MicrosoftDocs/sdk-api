@@ -1,16 +1,16 @@
 ---
 UID: NN:oleidl.IEnumOLEVERB
 title: IEnumOLEVERB
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the different verbs available for an object in order of ascending verb number. An enumerator that implements the IEnumOLEVERB interface is returned by IOleObject::EnumVerbs.
 old-location: com\ienumoleverb.htm
 old-project: com
 ms.assetid: fc9b3474-6f56-4274-af7d-72e0920c0457
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumOLEVERB, IEnumOLEVERB interface [COM], IEnumOLEVERB interface [COM],described, _ole_ienumoleverb, com.ienumoleverb, oleidl/IEnumOLEVERB
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleidl.h
 req.include-header: 

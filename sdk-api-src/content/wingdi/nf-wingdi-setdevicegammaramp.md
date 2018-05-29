@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.SetDeviceGammaRamp
 title: SetDeviceGammaRamp function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDeviceGammaRamp function sets the gamma ramp on direct color display boards having drivers that support downloadable gamma ramps in hardware.
 old-location: wcs\setdevicegammaramp.htm
 old-project: WCS
 ms.assetid: 8e4cc9a4-f292-47a1-a12a-43a479326ca7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetDeviceGammaRamp, SetDeviceGammaRamp function [Windows Color System], _color_SetDeviceGammaRamp, wcs.setdevicegammaramp, wingdi/SetDeviceGammaRamp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

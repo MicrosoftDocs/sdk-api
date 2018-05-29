@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleGetClipboard
 title: OleGetClipboard function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a data object that you can use to access the contents of the clipboard.
 old-location: com\olegetclipboard.htm
 old-project: com
 ms.assetid: c5e7badb-339b-48d5-8c9a-3950e2ffe6bf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleGetClipboard, OleGetClipboard function [COM], _ole_OleGetClipboard, com.olegetclipboard, ole2/OleGetClipboard
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

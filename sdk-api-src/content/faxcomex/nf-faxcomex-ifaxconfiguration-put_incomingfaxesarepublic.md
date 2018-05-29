@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_IncomingFaxesArePublic
 title: IFaxConfiguration::put_IncomingFaxesArePublic
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether incoming faxes are either viewable by everyone or private.
 old-location: fax\_mfax_FaxConfiguration_IncomingFaxesArePublic_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\incomingfaxesarepublic.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxConfiguration object [Fax Service],IncomingFaxesArePublic property, FaxConfiguration.IncomingFaxesArePublic, IFaxConfiguration.put_IncomingFaxesArePublic, IFaxConfiguration::put_IncomingFaxesArePublic, IncomingFaxesArePublic property [Fax Service], IncomingFaxesArePublic property [Fax Service],FaxConfiguration object, _mfax_IFaxConfiguration_IncomingFaxesArePublic, fax._mfax_FaxConfiguration_IncomingFaxesArePublic_vb, put_IncomingFaxesArePublic
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

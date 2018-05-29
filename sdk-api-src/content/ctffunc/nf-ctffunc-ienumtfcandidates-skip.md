@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Skip
 title: IEnumTfCandidates::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: IEnumTfCandidates::Skip method
 old-location: tsf\ienumtfcandidates_skip.htm
 old-project: TSF
 ms.assetid: f32587f2-cdfa-4cbc-8a5c-f6630c7866f9
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IEnumTfCandidates interface [Text Services Framework],Skip method, IEnumTfCandidates.Skip, IEnumTfCandidates::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_skip_ref, ctffunc/IEnumTfCandidates::Skip, tsf.ienumtfcandidates_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

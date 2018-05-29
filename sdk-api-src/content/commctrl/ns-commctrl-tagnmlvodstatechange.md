@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMLVODSTATECHANGE
 title: tagNMLVODSTATECHANGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Structure that contains information for use in processing the LVN_ODSTATECHANGED notification code.
 old-location: controls\NMLVODSTATECHANGE.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvodstatechange.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMLVODSTATECHANGE, LPNMLVODSTATECHANGE, LPNMLVODSTATECHANGE structure pointer [Windows Controls], NMLVODSTATECHANGE, NMLVODSTATECHANGE structure [Windows Controls], _win32_NMLVODSTATECHANGE, _win32_NMLVODSTATECHANGE_cpp, commctrl/LPNMLVODSTATECHANGE, commctrl/NMLVODSTATECHANGE, controls.NMLVODSTATECHANGE, controls._win32_NMLVODSTATECHANGE, tagNMLVODSTATECHANGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

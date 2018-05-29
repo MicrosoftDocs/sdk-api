@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._SCHANNEL_ALG
 title: "_SCHANNEL_ALG"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SCHANNEL_ALG structure contains algorithm and key size information. It is used as the structure passed as pbData in CryptSetKeyParam when dwParam is set to KP_SCHANNEL_ALG.
 old-location: security\schannel_alg.htm
 old-project: SecCrypto
 ms.assetid: 55afebf4-8872-42a1-847f-ff0240c2be20
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PSCHANNEL_ALG, PSCHANNEL_ALG, PSCHANNEL_ALG structure pointer [Security], SCHANNEL_ALG, SCHANNEL_ALG structure [Security], SCHANNEL_ENC_KEY, SCHANNEL_MAC_KEY, _SCHANNEL_ALG, _crypto2_schannel_alg, security.schannel_alg, wincrypt/PSCHANNEL_ALG, wincrypt/SCHANNEL_ALG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

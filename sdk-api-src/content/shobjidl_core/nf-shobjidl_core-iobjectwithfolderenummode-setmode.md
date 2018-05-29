@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IObjectWithFolderEnumMode.SetMode
 title: IObjectWithFolderEnumMode::SetMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the enumeration mode of the parsed item.
 old-location: shell\IObjectWithFolderEnumMode_SetMode.htm
 old-project: shell
 ms.assetid: 7e7271ec-47a7-42bf-ab02-26cd587448bd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IObjectWithFolderEnumMode interface [Windows Shell],SetMode method, IObjectWithFolderEnumMode.SetMode, IObjectWithFolderEnumMode::SetMode, SetMode, SetMode method [Windows Shell], SetMode method [Windows Shell],IObjectWithFolderEnumMode interface, _shell_IObjectWithFolderEnumMode_SetMode, shell.IObjectWithFolderEnumMode_SetMode, shobjidl_core/IObjectWithFolderEnumMode::SetMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

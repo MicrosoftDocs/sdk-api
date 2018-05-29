@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwServices.get__NewEnum
 title: INetFwServices::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the services in the collection.
 old-location: ics\inetfwservices_newenum.htm
 old-project: ICS
 ms.assetid: 2da6560f-2eca-4391-88c1-a86948d19d58
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwServices interface [ICS/ICF],_NewEnum property, INetFwServices._NewEnum, INetFwServices.get__NewEnum, INetFwServices::_NewEnum, INetFwServices::get__NewEnum, _NewEnum property [ICS/ICF], _NewEnum property [ICS/ICF],INetFwServices interface, get__NewEnum, ics.inetfwservices_newenum, netfw/INetFwServices::_NewEnum, netfw/INetFwServices::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

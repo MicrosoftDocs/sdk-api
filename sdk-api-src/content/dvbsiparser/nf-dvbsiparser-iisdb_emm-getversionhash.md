@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetVersionHash
 title: IISDB_EMM::GetVersionHash
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a hash value for this instance of an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_getversionhash.htm
 old-project: mstv
 ms.assetid: f0d97b49-8ab3-4632-9055-e2208b3121e4
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetVersionHash, GetVersionHash method [Microsoft TV Technologies], GetVersionHash method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetVersionHash method, IISDB_EMM.GetVersionHash, IISDB_EMM::GetVersionHash, dvbsiparser/IISDB_EMM::GetVersionHash, mstv.iisdb_emm_getversionhash
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusButtonDown
 title: IStylusPlugin::StylusButtonDown
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the implementing plug-in that the user is pressing a stylus button.
 old-location: tablet\istylusplugin_stylusbuttondown.htm
 old-project: tablet
 ms.assetid: 60cd2b46-14f7-4a06-a1e7-5b2aa9a1f05c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 60cd2b46-14f7-4a06-a1e7-5b2aa9a1f05c, IStylusPlugin interface [Tablet PC],StylusButtonDown method, IStylusPlugin.StylusButtonDown, IStylusPlugin::StylusButtonDown, StylusButtonDown, StylusButtonDown method [Tablet PC], StylusButtonDown method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::StylusButtonDown, tablet.istylusplugin_stylusbuttondown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

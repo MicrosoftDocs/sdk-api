@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3.IEnumAgent.Skip
 title: IEnumAgent::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumagent_skip.htm
 old-project: Tapi
 ms.assetid: 972e02f5-2aaf-4c9f-ab66-61d500b6f8ae
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumAgent interface [TAPI 2.2],Skip method, IEnumAgent.Skip, IEnumAgent::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumAgent interface, _tapi3_ienumagent_skip, tapi3.ienumagent_skip, tapi3cc/IEnumAgent::Skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3.h
 req.include-header: Tapi3.h

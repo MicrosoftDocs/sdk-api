@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1_1helper.Point2L
 title: Point2L function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a point struct of long integers.
 old-location: direct2d\point2l.htm
 old-project: Direct2D
 ms.assetid: 25F6819F-BDCB-4E1E-95F0-00251A534ACC
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: Point2L, Point2L function [Direct2D], d2d1_1helper/Point2L, direct2d.point2l
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_1helper.h
 req.include-header: 

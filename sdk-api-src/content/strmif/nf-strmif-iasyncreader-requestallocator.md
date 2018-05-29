@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAsyncReader.RequestAllocator
 title: IAsyncReader::RequestAllocator
-author: windows-driver-content
+author: windows-sdk-content
 description: The RequestAllocator method requests an allocator during the pin connection.
 old-location: dshow\iasyncreader_requestallocator.htm
 old-project: DirectShow
 ms.assetid: 7bde850e-662f-4610-bac3-914c93584b30
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAsyncReader interface [DirectShow],RequestAllocator method, IAsyncReader.RequestAllocator, IAsyncReader::RequestAllocator, IAsyncReaderRequestAllocator, RequestAllocator, RequestAllocator method [DirectShow], RequestAllocator method [DirectShow],IAsyncReader interface, dshow.iasyncreader_requestallocator, strmif/IAsyncReader::RequestAllocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

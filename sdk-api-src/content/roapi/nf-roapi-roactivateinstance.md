@@ -1,16 +1,16 @@
 ---
 UID: NF:roapi.RoActivateInstance
 title: RoActivateInstance function
-author: windows-driver-content
+author: windows-sdk-content
 description: Activates the specified Windows Runtime class.
 old-location: winrt\roactivateinstance.htm
 old-project: WinRT
 ms.assetid: 20E469FE-100B-489F-956A-347716FA8A12
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoActivateInstance, RoActivateInstance function [Windows Runtime], WinRTActivateInstance, roapi/RoActivateInstance, roapi/WinRTActivateInstance, winrt.roactivateinstance, winrt.winrtactivateinstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roapi.h
 req.include-header: 

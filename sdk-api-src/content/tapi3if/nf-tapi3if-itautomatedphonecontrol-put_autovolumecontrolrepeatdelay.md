@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoVolumeControlRepeatDelay
 title: ITAutomatedPhoneControl::put_AutoVolumeControlRepeatDelay
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_AutoVolumeControlRepeatDelay method sets the AutoVolumeControlRepeatDelay property. The property specifies the delay, in milliseconds (ms), before a volume button starts repeating when it is held down.
 old-location: tapi3\itautomatedphonecontrol_put_autovolumecontrolrepeatdelay.htm
 old-project: Tapi
 ms.assetid: a00993af-2ff2-4f91-889e-b0d3ae550642
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoVolumeControlRepeatDelay method, ITAutomatedPhoneControl.put_AutoVolumeControlRepeatDelay, ITAutomatedPhoneControl::put_AutoVolumeControlRepeatDelay, _tapi3_itautomatedphonecontrol_put_autovolumecontrolrepeatdelay, put_AutoVolumeControlRepeatDelay, put_AutoVolumeControlRepeatDelay method [TAPI 2.2], put_AutoVolumeControlRepeatDelay method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autovolumecontrolrepeatdelay, tapi3if/ITAutomatedPhoneControl::put_AutoVolumeControlRepeatDelay
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

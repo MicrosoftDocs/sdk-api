@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IComQCEvents
 title: IComQCEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the subscriber if a queued message is created, de-queued, or moved to a retry or dead letter queue.
 old-location: cos\icomqcevents.htm
 old-project: cossdk
 ms.assetid: d7c8220d-a302-4f95-b0b6-8d47f9f27da7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComQCEvents, IComQCEvents interface [COM+], IComQCEvents interface [COM+],described, _dtc_IComQCEvents, comsvcs/IComQCEvents, cos.icomqcevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

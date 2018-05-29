@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRTEXT
 title: tagEMRTEXT
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRTEXT structure contains members for text output.
 old-location: gdi\emrtext.htm
 old-project: gdi
 ms.assetid: a126f1ea-35ef-492d-8184-fb288a74f7f6
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRTEXT, EMRTEXT, EMRTEXT structure [Windows GDI], PEMRTEXT, PEMRTEXT structure pointer [Windows GDI], _win32_EMRTEXT_str, gdi.emrtext, tagEMRTEXT, wingdi/EMRTEXT, wingdi/PEMRTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

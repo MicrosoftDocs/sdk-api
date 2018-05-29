@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRSETVIEWPORTORGEX
 title: tagEMRSETVIEWPORTORGEX
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRSETVIEWPORTORGEX, EMRSETWINDOWORGEX, and EMRSETBRUSHORGEX structures contain members for the SetViewportOrgEx, SetWindowOrgEx, and SetBrushOrgEx enhanced metafile records.
 old-location: gdi\emrsetviewportorgex__emrsetwindoworgex__emrsetbrushorgex.htm
 old-project: gdi
 ms.assetid: df80b89a-67b2-4ab3-8ff8-f121f9eb88cd
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRSETBRUSHORGEX, *PEMRSETVIEWPORTORGEX, *PEMRSETWINDOWORGEX, EMRSETBRUSHORGEX, EMRSETBRUSHORGEX structure [Windows GDI], EMRSETVIEWPORTORGEX, EMRSETVIEWPORTORGEX structure [Windows GDI], EMRSETVIEWPORTORGEX,EMRSETWINDOWORGEX,EMRSETBRUSHORGEX, EMRSETVIEWPORTORGEX,EMRSETWINDOWORGEX,EMRSETBRUSHORGEX structure [Windows GDI], EMRSETWINDOWORGEX, EMRSETWINDOWORGEX structure [Windows GDI], PEMRSETBRUSHORGEX, PEMRSETBRUSHORGEX structure pointer [Windows GDI], PEMRSETVIEWPORTORGEX, PEMRSETVIEWPORTORGEX structure pointer [Windows GDI], PEMRSETWINDOWORGEX, PEMRSETWINDOWORGEX structure pointer [Windows GDI], _win32_EMRSETVIEWPORTORGEX_str, gdi.emrsetviewportorgex__emrsetwindoworgex__emrsetbrushorgex, tagEMRSETVIEWPORTORGEX, wingdi/EMRSETBRUSHORGEX, wingdi/EMRSETVIEWPORTORGEX,EMRSETWINDOWORGEX,EMRSETBRUSHORGEX, wingdi/EMRSETWINDOWORGEX, wingdi/PEMRSETBRUSHORGEX, wingdi/PEMRSETVIEWPORTORGEX, wingdi/PEMRSETWINDOWORGEX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

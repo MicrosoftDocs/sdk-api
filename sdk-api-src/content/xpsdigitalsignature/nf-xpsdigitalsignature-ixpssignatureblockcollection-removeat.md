@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureBlockCollection.RemoveAt
 title: IXpsSignatureBlockCollection::RemoveAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes and releases an IXpsSignatureBlock interface pointer from a specified location in the collection.
 old-location: xps\ixpssignatureblockcollection_removeat.htm
 old-project: printdocs
 ms.assetid: 895f6f0b-6259-4288-90be-659f1ca46d1a
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsSignatureBlockCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsSignatureBlockCollection.RemoveAt, IXpsSignatureBlockCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsSignatureBlockCollection interface, xps.ixpssignatureblockcollection_removeat, xpsdigitalsignature/IXpsSignatureBlockCollection::RemoveAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

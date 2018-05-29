@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwRules.get_Count
 title: INetFwRules::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the number of rules in a collection.
 old-location: ics\inetfwrules_count.htm
 old-project: ICS
 ms.assetid: 0a5b1103-3280-4a0c-93a7-e5d805d5bf5e
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwRules interface, INetFwRules interface [ICS/ICF],Count property, INetFwRules.Count, INetFwRules.get_Count, INetFwRules::Count, INetFwRules::get_Count, get_Count, ics.inetfwrules_count, netfw/INetFwRules::Count, netfw/INetFwRules::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

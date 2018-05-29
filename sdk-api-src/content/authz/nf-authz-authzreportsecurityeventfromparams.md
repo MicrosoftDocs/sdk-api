@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzReportSecurityEventFromParams
 title: AuthzReportSecurityEventFromParams function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates a security audit for a registered security event source by using the specified array of audit parameters.
 old-location: security\authzreportsecurityeventfromparams.htm
 old-project: SecAuthZ
 ms.assetid: ee5b598a-0a89-4b32-a9bc-e9c811573b08
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuthzReportSecurityEventFromParams, AuthzReportSecurityEventFromParams function [Security], authz/AuthzReportSecurityEventFromParams, security.authzreportsecurityeventfromparams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

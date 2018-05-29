@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetRectangleIntersections
 title: IInkStrokeDisp::GetRectangleIntersections
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds the points where a IInkStrokeDisp object intersects a given rectangle.
 old-location: tablet\iinkstrokedisp_getrectangleintersections.htm
 old-project: tablet
 ms.assetid: fe042e12-21fa-4dae-988c-d082aa867520
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRectangleIntersections, GetRectangleIntersections method [Tablet PC], GetRectangleIntersections method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetRectangleIntersections method, IInkStrokeDisp.GetRectangleIntersections, IInkStrokeDisp::GetRectangleIntersections, fe042e12-21fa-4dae-988c-d082aa867520, msinkaut/IInkStrokeDisp::GetRectangleIntersections, tablet.iinkstrokedisp_getrectangleintersections
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

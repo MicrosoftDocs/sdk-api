@@ -1,16 +1,16 @@
 ---
 UID: NS:lmdfs._DFS_STORAGE_INFO_1
 title: "_DFS_STORAGE_INFO_1"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a DFS target, including the DFS target server name and share name as well as the target's state and priority.
 old-location: dfs\dfs_storage_info_1.htm
 old-project: Dfs
 ms.assetid: 777b9688-9e34-48dd-bc8c-df17bef396d0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDFS_STORAGE_INFO_1, *PDFS_STORAGE_INFO_1, DFS_STORAGE_INFO_1, DFS_STORAGE_INFO_1 structure [Distributed File System], DFS_STORAGE_STATES, DFS_STORAGE_STATE_OFFLINE, DFS_STORAGE_STATE_ONLINE, LPDFS_STORAGE_INFO_1, LPDFS_STORAGE_INFO_1 structure pointer [Distributed File System], PDFS_STORAGE_INFO_1, PDFS_STORAGE_INFO_1 structure pointer [Distributed File System], _DFS_STORAGE_INFO_1, dfs.dfs_storage_info_1, fs.dfs_storage_info_1, lmdfs/DFS_STORAGE_INFO_1, lmdfs/LPDFS_STORAGE_INFO_1, lmdfs/PDFS_STORAGE_INFO_1, netmgmt.dfs_storage_info_1"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMThumbnailGenerator.GenerateThumbnail
 title: IXpsOMThumbnailGenerator::GenerateThumbnail
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates a thumbnail image of a page.
 old-location: xps\ixpsomthumbnailgenerator_generatethumbnail.htm
 old-project: printdocs
 ms.assetid: 8a2431f0-50e5-43a9-8940-62d9babad297
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GenerateThumbnail, GenerateThumbnail method [XPS Documents and Packaging], GenerateThumbnail method [XPS Documents and Packaging],IXpsOMThumbnailGenerator interface, IXpsOMThumbnailGenerator interface [XPS Documents and Packaging],GenerateThumbnail method, IXpsOMThumbnailGenerator.GenerateThumbnail, IXpsOMThumbnailGenerator::GenerateThumbnail, xps.ixpsomthumbnailgenerator_generatethumbnail, xpsobjectmodel/IXpsOMThumbnailGenerator::GenerateThumbnail
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:midles.MesInqProcEncodingId
 title: MesInqProcEncodingId function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MesInqProcEncodingId function provides the identity of an encoding.
 old-location: rpc\mesinqprocencodingid.htm
 old-project: Rpc
 ms.assetid: b6d73cc3-cd35-4fe7-87e6-ecbfef777c44
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MesInqProcEncodingId, MesInqProcEncodingId function [RPC], _rpc_mesinqprocencodingid, midles/MesInqProcEncodingId, rpc.mesinqprocencodingid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: midles.h
 req.include-header: Rpc.h

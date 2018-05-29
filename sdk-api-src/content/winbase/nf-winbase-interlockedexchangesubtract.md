@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.InterlockedExchangeSubtract
 title: InterlockedExchangeSubtract function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs an atomic subtraction of two values.
 old-location: base\interlockedexchangesubtract.htm
 old-project: Sync
 ms.assetid: 9917323D-38C4-446E-B59A-52493A6020ED
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InterlockedExchangeSubtract, InterlockedExchangeSubtract function, base.interlockedexchangesubtract, winbase/InterlockedExchangeSubtract
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

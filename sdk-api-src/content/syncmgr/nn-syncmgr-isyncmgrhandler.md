@@ -1,16 +1,16 @@
 ---
 UID: NN:syncmgr.ISyncMgrHandler
 title: ISyncMgrHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that make up the primary interface implemented by a sync handler.
 old-location: shell\ISyncMgrHandler.htm
 old-project: shell
 ms.assetid: 39579030-1cf5-4e82-a5e7-cb3415903d02
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrHandler, ISyncMgrHandler interface [Windows Shell], ISyncMgrHandler interface [Windows Shell],described, _shell_ISyncMgrHandler, shell.ISyncMgrHandler, syncmgr/ISyncMgrHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: syncmgr.h
 req.include-header: 

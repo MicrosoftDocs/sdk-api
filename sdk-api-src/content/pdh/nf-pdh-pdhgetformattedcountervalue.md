@@ -1,16 +1,16 @@
 ---
 UID: NF:pdh.PdhGetFormattedCounterValue
 title: PdhGetFormattedCounterValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Computes a displayable value for the specified counter.
 old-location: perf\pdhgetformattedcountervalue.htm
 old-project: PerfCtrs
 ms.assetid: cd104b26-1498-4f95-a411-97d868b43836
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PDH_FMT_1000, PDH_FMT_DOUBLE, PDH_FMT_LARGE, PDH_FMT_LONG, PDH_FMT_NOCAP100, PDH_FMT_NOSCALE, PdhGetFormattedCounterValue, PdhGetFormattedCounterValue function [Perf], _win32_pdhgetformattedcountervalue, base.pdhgetformattedcountervalue, pdh/PdhGetFormattedCounterValue, perf.pdhgetformattedcountervalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pdh.h
 req.include-header: 

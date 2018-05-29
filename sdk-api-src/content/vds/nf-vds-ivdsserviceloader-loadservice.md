@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsServiceLoader.LoadService
 title: IVdsServiceLoader::LoadService
-author: windows-driver-content
+author: windows-sdk-content
 description: Launches VDS on the specified computer and returns a pointer to the service object.
 old-location: base\ivdsserviceloader_loadservice.htm
 old-project: VDS
 ms.assetid: 26bb0a1f-37ad-4bb0-af6c-1063c5ccdc0f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsServiceLoader interface [VDS],LoadService method, IVdsServiceLoader.LoadService, IVdsServiceLoader::LoadService, LoadService, LoadService method [VDS], LoadService method [VDS],IVdsServiceLoader interface, base.ivdsserviceloader_loadservice, vds/IVdsServiceLoader::LoadService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

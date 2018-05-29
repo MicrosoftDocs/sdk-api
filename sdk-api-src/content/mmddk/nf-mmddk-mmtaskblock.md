@@ -1,16 +1,16 @@
 ---
 UID: NF:mmddk.mmTaskBlock
 title: mmTaskBlock function
-author: windows-driver-content
+author: windows-sdk-content
 description: The mmTaskBlock function is deprecated. Applications should not use this function.
 old-location: multimedia\mmtaskblock.htm
 old-project: Multimedia
 ms.assetid: eaa3fcb3-85ee-4ae7-98c6-7873ef587241
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: mmTaskBlock, mmTaskBlock function [Windows Multimedia], mmddk/mmTaskBlock, multimedia.mmtaskblock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mmddk.h
 req.include-header: 

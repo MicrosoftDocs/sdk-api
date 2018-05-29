@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateVideoRendererActivate
 title: MFCreateVideoRendererActivate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an activation object for the enhanced video renderer (EVR) media sink.
 old-location: mf\mfcreatevideorendereractivate.htm
 old-project: medfound
 ms.assetid: 021887fc-36af-42d4-ae46-2edc1c700110
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 021887fc-36af-42d4-ae46-2edc1c700110, MFCreateVideoRendererActivate, MFCreateVideoRendererActivate function [Media Foundation], mf.mfcreatevideorendereractivate, mfidl/MFCreateVideoRendererActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

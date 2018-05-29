@@ -1,16 +1,16 @@
 ---
 UID: NF:audioengineendpoint.IAudioInputEndpointRT.GetInputDataPointer
 title: IAudioInputEndpointRT::GetInputDataPointer
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a pointer to the buffer from which data will be read by the audio engine.
 old-location: termserv\iaudioinputendpointrt_getinputdatapointer.htm
 old-project: TermServ
 ms.assetid: 1da81a49-d421-4643-9be6-b13d45d678f0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetInputDataPointer, GetInputDataPointer method [Remote Desktop Services], GetInputDataPointer method [Remote Desktop Services],IAudioInputEndpointRT interface, IAudioInputEndpointRT interface [Remote Desktop Services],GetInputDataPointer method, IAudioInputEndpointRT.GetInputDataPointer, IAudioInputEndpointRT::GetInputDataPointer, audioengineendpoint/IAudioInputEndpointRT::GetInputDataPointer, termserv.iaudioinputendpointrt_getinputdatapointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 

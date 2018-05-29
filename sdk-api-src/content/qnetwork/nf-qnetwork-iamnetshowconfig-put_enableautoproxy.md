@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_EnableAutoProxy
 title: IAMNetShowConfig::put_EnableAutoProxy
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_EnableAutoProxy method enables or disables auto-proxy.
 old-location: dshow\iamnetshowconfig_put_enableautoproxy.htm
 old-project: DirectShow
 ms.assetid: 2746e4d9-3996-4b06-bbb9-7777de6d0202
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_EnableAutoProxy method, IAMNetShowConfig.put_EnableAutoProxy, IAMNetShowConfig::put_EnableAutoProxy, IAMNetShowConfigput_EnableAutoProxy, dshow.iamnetshowconfig_put_enableautoproxy, put_EnableAutoProxy, put_EnableAutoProxy method [DirectShow], put_EnableAutoProxy method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_EnableAutoProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

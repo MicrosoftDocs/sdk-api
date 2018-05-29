@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.GetSubpathCount
 title: GraphicsPathIterator::GetSubpathCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GraphicsPathIterator::GetSubpathCount method returns the number of subpaths (also called figures) in the path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_GetSubpathCount_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\getsubpathcount.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetSubpathCount, GetSubpathCount method [GDI+], GetSubpathCount method [GDI+],GraphicsPathIterator class, GraphicsPathIterator class [GDI+],GetSubpathCount method, GraphicsPathIterator.GetSubpathCount, GraphicsPathIterator::GetSubpathCount, _gdiplus_CLASS_GraphicsPathIterator_GetSubpathCount_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_GetSubpathCount_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h

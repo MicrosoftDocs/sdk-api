@@ -1,16 +1,16 @@
 ---
 UID: NS:mprapi.RAS_UPDATE_CONNECTION_
 title: RAS_UPDATE_CONNECTION_
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to update an active RAS connection.
 old-location: rras\ras_update_connection.htm
 old-project: RRAS
 ms.assetid: bfa35f1c-e9f5-43f1-ad2d-d54f4675cff8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PRAS_UPDATE_CONNECTION, PRAS_UPDATE_CONNECTION, PRAS_UPDATE_CONNECTION structure pointer [RAS], RAS_UPDATE_CONNECTION, RAS_UPDATE_CONNECTION structure [RAS], RAS_UPDATE_CONNECTION_, mprapi/PRAS_UPDATE_CONNECTION, mprapi/RAS_UPDATE_CONNECTION, rras.ras_update_connection"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

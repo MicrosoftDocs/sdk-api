@@ -1,16 +1,16 @@
 ---
 UID: NE:vss._VSS_RECOVERY_OPTIONS
 title: "_VSS_RECOVERY_OPTIONS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by a requester to specify how a resynchronization operation is to be performed.
 old-location: base\vss_recovery_options.htm
 old-project: VSS
 ms.assetid: 5e58284b-9bbc-47f7-9a44-26d7153b4a25
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PVSS_RECOVERY_OPTIONS, VSS_RECOVERY_NO_VOLUME_CHECK, VSS_RECOVERY_OPTIONS, VSS_RECOVERY_OPTIONS enumeration, VSS_RECOVERY_REVERT_IDENTITY_ALL, _VSS_RECOVERY_OPTIONS, base.vss_recovery_options, vss/VSS_RECOVERY_NO_VOLUME_CHECK, vss/VSS_RECOVERY_OPTIONS, vss/VSS_RECOVERY_REVERT_IDENTITY_ALL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 

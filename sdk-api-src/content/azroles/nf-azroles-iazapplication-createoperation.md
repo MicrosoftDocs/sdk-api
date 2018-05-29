@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplication.CreateOperation
 title: IAzApplication::CreateOperation
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IAzOperation object with the specified name.
 old-location: security\iazapplication_createoperation.htm
 old-project: SecAuthZ
 ms.assetid: 4faf4fc3-5847-40a1-9f85-fb10bb3048b4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzApplication object [Security],CreateOperation method, CreateOperation, CreateOperation method [Security], CreateOperation method [Security],AzApplication object, CreateOperation method [Security],IAzApplication interface, IAzApplication interface [Security],CreateOperation method, IAzApplication.CreateOperation, IAzApplication::CreateOperation, azroles/IAzApplication::CreateOperation, security.iazapplication_createoperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

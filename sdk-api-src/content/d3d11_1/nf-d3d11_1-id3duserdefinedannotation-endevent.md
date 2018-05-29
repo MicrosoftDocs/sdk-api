@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_1.ID3DUserDefinedAnnotation.EndEvent
 title: ID3DUserDefinedAnnotation::EndEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Marks the end of a section of event code.
 old-location: direct3d11\id3duserdefinedannotation_endevent.htm
 old-project: direct3d11
 ms.assetid: 5C478278-EC05-4214-80F9-808EADA76E41
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: EndEvent, EndEvent method [Direct3D 11], EndEvent method [Direct3D 11],ID3DUserDefinedAnnotation interface, ID3DUserDefinedAnnotation interface [Direct3D 11],EndEvent method, ID3DUserDefinedAnnotation.EndEvent, ID3DUserDefinedAnnotation::EndEvent, d3d11_1/ID3DUserDefinedAnnotation::EndEvent, direct3d11.id3duserdefinedannotation_endevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:dwrite.DWRITE_HIT_TEST_METRICS
 title: DWRITE_HIT_TEST_METRICS
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the region obtained by a hit test.
 old-location: directwrite\dwrite_hit_test_metrics.htm
 old-project: DirectWrite
 ms.assetid: 00aaed92-7078-4823-95c5-855c063c744a
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_HIT_TEST_METRICS, DWRITE_HIT_TEST_METRICS structure [Direct Write], directwrite.dwrite_hit_test_metrics, dwrite/DWRITE_HIT_TEST_METRICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

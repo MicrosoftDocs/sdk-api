@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.IRawElementProviderSimple2
 title: IRawElementProviderSimple2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IRawElementProviderSimple interface to enable programmatically invoking context menus.
 old-location: winauto\uiauto_IRawElementProviderSimple2.htm
 old-project: WinAuto
 ms.assetid: 0B526BDA-CDFA-DDE0-48DC-597D40F1BBB7
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IRawElementProviderSimple2, IRawElementProviderSimple2 interface [Windows Accessibility], IRawElementProviderSimple2 interface [Windows Accessibility],described, uiautomationcore/IRawElementProviderSimple2, winauto.uiauto_IRawElementProviderSimple2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptMsgOpenToEncode
 title: CryptMsgOpenToEncode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a cryptographic message for encoding and returns a handle of the opened message.
 old-location: security\cryptmsgopentoencode.htm
 old-project: SecCrypto
 ms.assetid: b0d2610b-05ba-4fb6-8f38-10f970a52091
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CMSG_AUTHENTICATED_ATTRIBUTES_FLAG, CMSG_BARE_CONTENT_FLAG, CMSG_CMS_ENCAPSULATED_CONTENT_FLAG, CMSG_CONTENTS_OCTETS_FLAG, CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_DATA, CMSG_DETACHED_FLAG, CMSG_ENVELOPED, CMSG_HASHED, CMSG_SIGNED, CMSG_SIGNED_AND_ENVELOPED, CryptMsgOpenToEncode, CryptMsgOpenToEncode function [Security], _crypto2_cryptmsgopentoencode, security.cryptmsgopentoencode, wincrypt/CryptMsgOpenToEncode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

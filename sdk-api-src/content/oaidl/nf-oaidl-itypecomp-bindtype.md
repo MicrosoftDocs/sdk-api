@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeComp.BindType
 title: ITypeComp::BindType
-author: windows-driver-content
+author: windows-sdk-content
 description: Binds to the type descriptions contained within a type library.
 old-location: automat\itypecomp_bindtype.htm
 old-project: automat
 ms.assetid: e1b6eb9c-aa5a-41b9-bc97-afa82206ccef
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: BindType, BindType method [Automation], BindType method [Automation],ITypeComp interface, ITypeComp interface [Automation],BindType method, ITypeComp.BindType, ITypeComp::BindType, _oa96_ITypeComp_BindType, automat.itypecomp_bindtype, oaidl/ITypeComp::BindType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:gamingtcui.ShowGameInviteUI
 title: ShowGameInviteUI function
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\showgameinviteui.htm
 old-project: tcui
 ms.assetid: DE4705C2-4590-4140-8CF8-B8552D6CA843
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: ShowGameInviteUI, ShowGameInviteUI function, gamingtcui/ShowGameInviteUI, tcui.showgameinviteui
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: gamingtcui.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:windns.DnsRecordSetCompare
 title: DnsRecordSetCompare function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DnsRecordSetCompare function compares two RR sets.
 old-location: dns\dnsrecordsetcompare.htm
 old-project: DNS
 ms.assetid: 008cf2ba-ccb2-430a-85d9-68d424b6938f
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: DnsRecordSetCompare, DnsRecordSetCompare function [DNS], _dns_dnsrecordsetcompare, dns.dnsrecordsetcompare, windns/DnsRecordSetCompare
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: windns.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetLockRequestFile
 title: InternetLockRequestFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Places a lock on the file that is being used.
 old-location: wininet\internetlockrequestfile.htm
 old-project: WinInet
 ms.assetid: 5924d117-1dcd-43d8-817e-02bda302bdd4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetLockRequestFile, InternetLockRequestFile function [WinINet], _inet_internetlockrequestfile_function, wininet.internetlockrequestfile, wininet/InternetLockRequestFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

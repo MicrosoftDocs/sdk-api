@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_TARGET_MODE
 title: DISPLAYCONFIG_TARGET_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: The DISPLAYCONFIG_TARGET_MODE structure describes a display path target mode.
 old-location: display\displayconfig_target_mode.htm
 old-project: display
 ms.assetid: c81768f0-67d3-4ddd-94c8-013b1e4cf83e
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CCD_Structures_e251116b-4e11-42a0-9171-fa3935003510.xml, DISPLAYCONFIG_TARGET_MODE, DISPLAYCONFIG_TARGET_MODE structure [Display Devices], display.displayconfig_target_mode, wingdi/DISPLAYCONFIG_TARGET_MODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

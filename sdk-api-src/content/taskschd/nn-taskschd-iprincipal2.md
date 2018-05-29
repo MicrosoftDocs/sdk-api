@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.IPrincipal2
 title: IPrincipal2
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the extended settings applied to security credentials for a principal.
 old-location: taskschd\iprincipal2.htm
 old-project: TaskSchd
 ms.assetid: 480f8038-0f67-4a69-b6f6-d7ba881d9d57
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IPrincipal2, IPrincipal2 interface [Task Scheduler], IPrincipal2 interface [Task Scheduler],described, taskschd.iprincipal2, taskschd/IPrincipal2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

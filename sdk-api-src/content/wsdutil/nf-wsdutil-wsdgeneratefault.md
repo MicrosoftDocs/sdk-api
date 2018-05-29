@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdutil.WSDGenerateFault
 title: WSDGenerateFault function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates a SOAP fault.
 old-location: ncd\wsdgeneratefault.htm
 old-project: WsdApi
 ms.assetid: eebecf71-2572-4e20-ad40-b1a2f811bedf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DataEncodingUnknown, MustUnderstand, Receiver, Sender, VersionMismatch, WSDGenerateFault, WSDGenerateFault function, ncd.wsdgeneratefault, wsdutil/WSDGenerateFault
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h

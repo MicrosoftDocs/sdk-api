@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeInfo.GetDescription
 title: ITfDisplayAttributeInfo::GetDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfDisplayAttributeInfo::GetDescription method
 old-location: tsf\itfdisplayattributeinfo_getdescription.htm
 old-project: TSF
 ms.assetid: e65aedac-284d-4e2a-b574-fc469f66e06e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetDescription, GetDescription method [Text Services Framework], GetDescription method [Text Services Framework],ITfDisplayAttributeInfo interface, ITfDisplayAttributeInfo interface [Text Services Framework],GetDescription method, ITfDisplayAttributeInfo.GetDescription, ITfDisplayAttributeInfo::GetDescription, _tsf_itfdisplayattributeinfo_getdescription_ref, msctf/ITfDisplayAttributeInfo::GetDescription, tsf.itfdisplayattributeinfo_getdescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

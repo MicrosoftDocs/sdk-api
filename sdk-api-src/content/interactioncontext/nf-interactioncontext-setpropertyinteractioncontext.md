@@ -1,16 +1,16 @@
 ---
 UID: NF:interactioncontext.SetPropertyInteractionContext
 title: SetPropertyInteractionContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets Interaction Context object properties.
 old-location: input_intcontext\setpropertyinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: da24831e-9f9f-4a9f-92bf-60e1c5338554
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: SetPropertyInteractionContext, SetPropertyInteractionContext function, input_intcontext.setpropertyinteractioncontext, interactioncontext.setpropertyinteractioncontext, interactioncontext/SetPropertyInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

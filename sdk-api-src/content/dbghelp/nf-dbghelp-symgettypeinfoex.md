@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymGetTypeInfoEx
 title: SymGetTypeInfoEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves multiple pieces of type information.
 old-location: base\symgettypeinfoex.htm
 old-project: Debug
 ms.assetid: 77e0a8ad-8c75-4bb2-869a-670429475ccc
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymGetTypeInfoEx, SymGetTypeInfoEx function, base.symgettypeinfoex, dbghelp/SymGetTypeInfoEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

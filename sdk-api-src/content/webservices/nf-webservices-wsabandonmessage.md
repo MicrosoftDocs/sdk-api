@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsAbandonMessage
 title: WsAbandonMessage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips the remainder of a specified message on a specified channel.
 old-location: wsw\wsabandonmessage.htm
 old-project: wsw
 ms.assetid: b8f5da50-d296-4550-8810-114d1f0e810b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsAbandonMessage, WsAbandonMessage function [Web Services for Windows], webservices/WsAbandonMessage, wsw.wsabandonmessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

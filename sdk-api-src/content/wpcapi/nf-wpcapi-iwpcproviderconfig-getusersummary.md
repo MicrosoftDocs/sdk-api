@@ -1,16 +1,16 @@
 ---
 UID: NF:wpcapi.IWPCProviderConfig.GetUserSummary
 title: IWPCProviderConfig::GetUserSummary
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the information for each user by using the Parental Controls Control Panel.
 old-location: parcon\iwpcproviderconfig_getusersummary.htm
 old-project: parcon
 ms.assetid: 89d70aef-9bca-4984-99d1-082041257393
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetUserSummary, GetUserSummary method, GetUserSummary method,IWPCProviderConfig interface, IWPCProviderConfig interface,GetUserSummary method, IWPCProviderConfig.GetUserSummary, IWPCProviderConfig::GetUserSummary, parcon.iwpcproviderconfig_getusersummary, wpcapi/IWPCProviderConfig::GetUserSummary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wpcapi.h
 req.include-header: 

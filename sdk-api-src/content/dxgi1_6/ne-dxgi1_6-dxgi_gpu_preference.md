@@ -1,16 +1,16 @@
 ---
 UID: NE:dxgi1_6.DXGI_GPU_PREFERENCE
 title: DXGI_GPU_PREFERENCE
-author: windows-driver-content
+author: windows-sdk-content
 description: The preference of GPU for the app to run on.
 old-location: direct3ddxgi\dxgi_gpu_preference.htm
 old-project: direct3ddxgi
 ms.assetid: 4228FF8B-968B-42B5-8355-226C7FE9F230
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_GPU_PREFERENCE, DXGI_GPU_PREFERENCE enumeration [DXGI], DXGI_GPU_PREFERENCE_HIGH_PERFORMANCE, DXGI_GPU_PREFERENCE_MINIMUM_POWER, DXGI_GPU_PREFERENCE_UNSPECIFIED, direct3ddxgi.dxgi_gpu_preference, dxgi1_6/DXGI_GPU_PREFERENCE, dxgi1_6/DXGI_GPU_PREFERENCE_HIGH_PERFORMANCE, dxgi1_6/DXGI_GPU_PREFERENCE_MINIMUM_POWER, dxgi1_6/DXGI_GPU_PREFERENCE_UNSPECIFIED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_6.h
 req.include-header: 

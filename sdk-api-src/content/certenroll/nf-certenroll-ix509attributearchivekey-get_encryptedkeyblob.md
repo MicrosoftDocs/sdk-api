@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKey.get_EncryptedKeyBlob
 title: IX509AttributeArchiveKey::get_EncryptedKeyBlob
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a byte array that contains the encrypted key.
 old-location: security\ix509attributearchivekey_encryptedkeyblob_property.htm
 old-project: SecCertEnroll
 ms.assetid: 3230cfbf-5486-4f77-9efe-5bc542e3e096
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EncryptedKeyBlob property [Security], EncryptedKeyBlob property [Security],IX509AttributeArchiveKey interface, IX509AttributeArchiveKey interface [Security],EncryptedKeyBlob property, IX509AttributeArchiveKey.EncryptedKeyBlob, IX509AttributeArchiveKey.get_EncryptedKeyBlob, IX509AttributeArchiveKey::EncryptedKeyBlob, IX509AttributeArchiveKey::get_EncryptedKeyBlob, certenroll/IX509AttributeArchiveKey::EncryptedKeyBlob, certenroll/IX509AttributeArchiveKey::get_EncryptedKeyBlob, get_EncryptedKeyBlob, security.ix509attributearchivekey_encryptedkeyblob_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables2.GetMetaDataStreamInfo
 title: IMetaDataTables2::GetMetaDataStreamInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the name, size, and contents of the metadata stream at the specified index.
 old-location: winrt\imetadatatables2_getmetadatastreaminfo.htm
 old-project: WinRT
 ms.assetid: a292a32a-b9c2-46b5-a2c4-074e616d7675
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetMetaDataStreamInfo, GetMetaDataStreamInfo method [Windows Runtime], GetMetaDataStreamInfo method [Windows Runtime],IMetaDataTables2 interface, IMetaDataTables2 interface [Windows Runtime],GetMetaDataStreamInfo method, IMetaDataTables2.GetMetaDataStreamInfo, IMetaDataTables2::GetMetaDataStreamInfo, rometadataapi/IMetaDataTables2::GetMetaDataStreamInfo, winrt.imetadatatables2_getmetadatastreaminfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataManager.put_EventsFileName
 title: IDataManager::put_EventsFileName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the name for the events file.
 old-location: pla\idatamanager_eventsfilename.htm
 old-project: PLA
 ms.assetid: ce67779a-3312-496f-a793-ac8720e63fb4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EventsFileName property [PLA], EventsFileName property [PLA],IDataManager interface, IDataManager interface [PLA],EventsFileName property, IDataManager.EventsFileName, IDataManager.put_EventsFileName, IDataManager::EventsFileName, IDataManager::get_EventsFileName, IDataManager::put_EventsFileName, base.idatamanager_eventsfilename, pla.idatamanager_eventsfilename, pla/IDataManager::EventsFileName, pla/IDataManager::get_EventsFileName, pla/IDataManager::put_EventsFileName, put_EventsFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

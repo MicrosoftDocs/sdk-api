@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetTopLeftRadiusY
 title: SetTopLeftRadiusY function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes or animates the value of the TopLeftRadiusY property of this clip. The TopLeftRadiusY property specifies the y radius of the ellipse that rounds the top-left corner of the clip.
 old-location: directcomp\idcompositionrectangleclip_settopleftradiusy.htm
 old-project: directcomp
 ms.assetid: D188BCD0-00F2-406D-BF69-33E8E37C8E6B
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionRectangleClip::SetTopLeftRadiusY, SetTopLeftRadiusY, SetTopLeftRadiusY methods [DirectComposition], dcomp/SetTopLeftRadiusY, directcomp.idcompositionrectangleclip_settopleftradiusy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rtworkq.RtwqSetLongRunning
 title: RtwqSetLongRunning function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that the app will be submitting a hint that long running work will occur on this work queue.
 old-location: base\rtwqsetlongrunning.htm
 old-project: ProcThread
 ms.assetid: 8bf71eb5-d5d5-4b07-93b0-4b12b43e9687
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtwqSetLongRunning, RtwqSetLongRunning function, base.rtwqsetlongrunning, rtworkq/RtwqSetLongRunning
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

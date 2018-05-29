@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceGetHandle
 title: MprAdminInterfaceGetHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminInterfaceGetHandle function retrieves a handle to a specified interface.
 old-location: rras\mpradmininterfacegethandle.htm
 old-project: RRAS
 ms.assetid: a220dbc1-90e0-4290-8a65-c2a2dd218f07
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminInterfaceGetHandle, MprAdminInterfaceGetHandle function [RAS], _mpr_mpradmininterfacegethandle, mprapi/MprAdminInterfaceGetHandle, rras.mpradmininterfacegethandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

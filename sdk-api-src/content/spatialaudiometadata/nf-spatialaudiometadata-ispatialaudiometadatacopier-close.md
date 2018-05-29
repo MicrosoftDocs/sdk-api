@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataCopier.Close
 title: ISpatialAudioMetadataCopier::Close
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes any necessary operations on the SpatialAudioMetadataItems object and releases the object.
 old-location: coreaudio\ispatialaudiometadatacopier_close.htm
 old-project: CoreAudio
 ms.assetid: 891AFF53-7CAB-49FA-A8D2-CAEEB91E860F
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Close, Close method [Core Audio], Close method [Core Audio],ISpatialAudioMetadataCopier interface, ISpatialAudioMetadataCopier interface [Core Audio],Close method, ISpatialAudioMetadataCopier.Close, ISpatialAudioMetadataCopier::Close, coreaudio.ispatialaudiometadatacopier_close, spatialaudiometadata/ISpatialAudioMetadataCopier::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudiometadata.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_STORAGE_FIRST_RECORD_FN
 title: PIBIO_STORAGE_FIRST_RECORD_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Positions the result set cursor on the first record in the set.
 old-location: secbiomet\storageadapterfirstrecord.htm
 old-project: SecBioMet
 ms.assetid: 736688c3-2c2c-4244-9f49-98ad0fe2d141
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: PIBIO_STORAGE_FIRST_RECORD_FN, PIBIO_STORAGE_FIRST_RECORD_FN callback, StorageAdapterFirstRecord, StorageAdapterFirstRecord callback function [Windows Biometric Framework API], secbiomet.storageadapterfirstrecord, winbio_adapter/StorageAdapterFirstRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

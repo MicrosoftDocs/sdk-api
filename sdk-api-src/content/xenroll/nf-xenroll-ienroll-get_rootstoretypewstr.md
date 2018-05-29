@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.IEnroll.get_RootStoreTypeWStr
 title: IEnroll::get_RootStoreTypeWStr
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the type of store to use for the store specified by the RootStoreNameWStr property.
 old-location: security\ienroll4_rootstoretypewstr.htm
 old-project: SecCrypto
 ms.assetid: 42e50e99-a5ef-40b7-b6ef-c86272d1cd0d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnroll interface [Security],RootStoreTypeWStr property, IEnroll.RootStoreTypeWStr, IEnroll.get_RootStoreTypeWStr, IEnroll::RootStoreTypeWStr, IEnroll::get_RootStoreTypeWStr, IEnroll::put_RootStoreTypeWStr, RootStoreTypeWStr property [Security], RootStoreTypeWStr property [Security],IEnroll interface, get_RootStoreTypeWStr, security.ienroll4_rootstoretypewstr, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/IEnroll::RootStoreTypeWStr, xenroll/IEnroll::get_RootStoreTypeWStr, xenroll/IEnroll::put_RootStoreTypeWStr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

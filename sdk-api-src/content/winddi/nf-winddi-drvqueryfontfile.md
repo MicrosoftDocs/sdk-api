@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.DrvQueryFontFile
 title: DrvQueryFontFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrvQueryFontFile function provides font file information.
 old-location: display\drvqueryfontfile.htm
 old-project: display
 ms.assetid: 4d853dbd-0448-43c3-9f01-13b7118a0743
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DrvQueryFontFile, DrvQueryFontFile function [Display Devices], ddifncs_e1440df7-d91a-4c86-b43b-10a5c5b7aab9.xml, display.drvqueryfontfile, winddi/DrvQueryFontFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

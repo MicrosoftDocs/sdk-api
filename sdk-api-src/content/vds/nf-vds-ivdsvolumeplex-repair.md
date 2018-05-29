@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsVolumePlex.Repair
 title: IVdsVolumePlex::Repair
-author: windows-driver-content
+author: windows-sdk-content
 description: Repairs a fault-tolerant volume plex by moving bad members to good disks.
 old-location: base\ivdsvolumeplex_repair.htm
 old-project: VDS
 ms.assetid: 21c91e85-8a49-4e74-9191-37aeb03b299e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsVolumePlex interface [VDS],Repair method, IVdsVolumePlex.Repair, IVdsVolumePlex::Repair, Repair, Repair method [VDS], Repair method [VDS],IVdsVolumePlex interface, base.ivdsvolumeplex_repair, vds/IVdsVolumePlex::Repair
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

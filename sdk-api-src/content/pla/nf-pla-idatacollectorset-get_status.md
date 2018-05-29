@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Status
 title: IDataCollectorSet::get_Status
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the status of the data collector set.
 old-location: pla\idatacollectorset_get_status.htm
 old-project: PLA
 ms.assetid: d957d34d-5455-486a-bd54-28afd7e6f979
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataCollectorSet interface [PLA],Status property, IDataCollectorSet.Status, IDataCollectorSet.get_Status, IDataCollectorSet::Status, IDataCollectorSet::get_Status, Status property [PLA], Status property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_status, get_Status, pla.idatacollectorset_get_status, pla/IDataCollectorSet::Status, pla/IDataCollectorSet::get_Status
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

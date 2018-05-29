@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.GetInitialRegisterContents
 title: ID3D11ShaderTrace::GetInitialRegisterContents
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the initial contents of the specified input register.
 old-location: direct3d11\id3d11shadertrace_getinitialregistercontents.htm
 old-project: direct3d11
 ms.assetid: 35BC4F23-64E0-4E45-A621-925A5CA20AFE
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: GetInitialRegisterContents, GetInitialRegisterContents method [Direct3D 11], GetInitialRegisterContents method [Direct3D 11],ID3D11ShaderTrace interface, ID3D11ShaderTrace interface [Direct3D 11],GetInitialRegisterContents method, ID3D11ShaderTrace.GetInitialRegisterContents, ID3D11ShaderTrace::GetInitialRegisterContents, d3d11shadertracing/ID3D11ShaderTrace::GetInitialRegisterContents, direct3d11.id3d11shadertrace_getinitialregistercontents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11shadertracing.h
 req.include-header: 

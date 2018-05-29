@@ -1,16 +1,16 @@
 ---
 UID: NS:tdh._PROVIDER_ENUMERATION_INFO
 title: "_PROVIDER_ENUMERATION_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the array of providers that have registered a MOF or manifest on the computer.
 old-location: etw\provider_enumeration_info_struct.htm
 old-project: ETW
 ms.assetid: bb4548fb-70e5-4726-bc92-adb7ba7be0e4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PPROVIDER_ENUMERATION_INFO, PROVIDER_ENUMERATION_INFO, PROVIDER_ENUMERATION_INFO structure [ETW], _PROVIDER_ENUMERATION_INFO, etw.provider_enumeration_info_struct, tdh.provider_enumeration_info_struct, tdh/PROVIDER_ENUMERATION_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tdh.h
 req.include-header: 

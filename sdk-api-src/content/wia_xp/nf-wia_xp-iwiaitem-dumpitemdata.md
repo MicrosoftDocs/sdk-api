@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IWiaItem.DumpItemData
 title: IWiaItem::DumpItemData
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is not supported.
 old-location: wia\_wia_IWiaItem_DumpItemData.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\dumpitemdata.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: DumpItemData, DumpItemData method [WIA], DumpItemData method [WIA],IWiaItem interface, IWiaItem interface [WIA],DumpItemData method, IWiaItem.DumpItemData, IWiaItem::DumpItemData, _wia_IWiaItem_DumpItemData, wia._wia_IWiaItem_DumpItemData, wia_xp/IWiaItem::DumpItemData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

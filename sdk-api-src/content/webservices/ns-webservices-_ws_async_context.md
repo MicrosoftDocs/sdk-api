@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_ASYNC_CONTEXT
 title: "_WS_ASYNC_CONTEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used with the Async Model to specify the asynchronous callback and a pointer which will be passed to the asynchronous callback.
 old-location: wsw\ws_async_context.htm
 old-project: wsw
 ms.assetid: 3c9ffbef-2f5b-42b0-96b1-f17f0ab98ca4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_ASYNC_CONTEXT, WS_ASYNC_CONTEXT structure [Web Services for Windows], _WS_ASYNC_CONTEXT, webservices/WS_ASYNC_CONTEXT, wsw.ws_async_context
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

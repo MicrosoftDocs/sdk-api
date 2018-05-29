@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationUpdateManager.UnregisterWaitHandleCallback
 title: IDirectManipulationUpdateManager::UnregisterWaitHandleCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Deregisters a callback.
 old-location: directmanipulation\idirectmanipulationupdatemanager_unregisterwaithandlecallback.htm
 old-project: directmanipulation
 ms.assetid: d932a4a9-827f-4e23-b30a-3a4b85a60c6e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationUpdateManager interface [Direct Manipulation],UnregisterWaitHandleCallback method, IDirectManipulationUpdateManager.UnregisterWaitHandleCallback, IDirectManipulationUpdateManager::UnregisterWaitHandleCallback, UnregisterWaitHandleCallback, UnregisterWaitHandleCallback method [Direct Manipulation], UnregisterWaitHandleCallback method [Direct Manipulation],IDirectManipulationUpdateManager interface, directmanipulation.idirectmanipulationupdatemanager_unregisterwaithandlecallback, directmanipulation/IDirectManipulationUpdateManager::UnregisterWaitHandleCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

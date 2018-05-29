@@ -1,16 +1,16 @@
 ---
 UID: NN:mstask.ITaskTrigger
 title: ITaskTrigger
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the methods for accessing and setting triggers for a task. Triggers specify task start times, repetition criteria, and other parameters that control when a task is run.
 old-location: taskschd\itasktrigger.htm
 old-project: TaskSchd
 ms.assetid: 990702f4-fb6f-47a7-b538-f6632f831a4e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskTrigger, ITaskTrigger interface [Task Scheduler], ITaskTrigger interface [Task Scheduler],described, _msb_itasktrigger, mstask/ITaskTrigger, taskschd.itasktrigger, triggers [Task Scheduler],interfaces,ITaskTrigger (obsolete)
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mstask.h
 req.include-header: 

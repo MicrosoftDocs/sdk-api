@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ICertPropertyBackedUp
 title: ICertPropertyBackedUp
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an external certificate property that identifies whether a certificate has been backed up and, if so, the date and time that it was saved.
 old-location: security\icertpropertybackedup.htm
 old-project: SecCertEnroll
 ms.assetid: 9c694991-6f2d-420e-9f9f-5a36b10c39aa
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertPropertyBackedUp, ICertPropertyBackedUp interface [Security], ICertPropertyBackedUp interface [Security],described, certenroll/ICertPropertyBackedUp, security.icertpropertybackedup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

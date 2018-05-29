@@ -1,16 +1,16 @@
 ---
 UID: NF:tvratings.IXDSToRat.Init
 title: IXDSToRat::Init
-author: windows-driver-content
+author: windows-sdk-content
 description: The Init method sets the XDSToRat object to its initial state.
 old-location: mstv\ixdstorat_init.htm
 old-project: mstv
 ms.assetid: c7c38755-46d3-4100-ba14-c153c4a6a517
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IXDSToRat interface [Microsoft TV Technologies],Init method, IXDSToRat.Init, IXDSToRat::Init, IXDSToRatInit, Init, Init method [Microsoft TV Technologies], Init method [Microsoft TV Technologies],IXDSToRat interface, mstv.ixdstorat_init, tvratings/IXDSToRat::Init
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tvratings.h
 req.include-header: 

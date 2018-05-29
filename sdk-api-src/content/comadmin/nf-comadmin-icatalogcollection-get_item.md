@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_Item
 title: ICatalogCollection::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the item that correspond to the specified index.
 old-location: cos\icatalogcollection_item.htm
 old-project: cossdk
 ms.assetid: 47c9dcfd-81fc-495c-848a-8c2b655e8fce
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICatalogCollection interface [COM+],Item property, ICatalogCollection.Item, ICatalogCollection.get_Item, ICatalogCollection::Item, ICatalogCollection::get_Item, Item property [COM+], Item property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get_Item, comadmin/ICatalogCollection::Item, comadmin/ICatalogCollection::get_Item, cos.icatalogcollection_item, get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

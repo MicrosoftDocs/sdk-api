@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineWebSupport.DisconnectWebAudio
 title: IMFMediaEngineWebSupport::DisconnectWebAudio
-author: windows-driver-content
+author: windows-sdk-content
 description: Disconnects web audio from the Media Engine.
 old-location: mf\imfmediaenginewebsupport_disconnectwebaudio.htm
 old-project: medfound
 ms.assetid: 04AE7972-B0F1-4C35-A5F4-88F0B85C99E7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DisconnectWebAudio, DisconnectWebAudio method [Media Foundation], DisconnectWebAudio method [Media Foundation],IMFMediaEngineWebSupport interface, IMFMediaEngineWebSupport interface [Media Foundation],DisconnectWebAudio method, IMFMediaEngineWebSupport.DisconnectWebAudio, IMFMediaEngineWebSupport::DisconnectWebAudio, mf.imfmediaenginewebsupport_disconnectwebaudio, mfmediaengine/IMFMediaEngineWebSupport::DisconnectWebAudio
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

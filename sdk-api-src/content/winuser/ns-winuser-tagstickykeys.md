@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagSTICKYKEYS
 title: tagSTICKYKEYS
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the StickyKeys accessibility feature.
 old-location: winauto\stickykeys.htm
 old-project: WinAuto
 ms.assetid: 92fedb82-fff5-447f-b240-5dba8bb2eaea
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: "*LPSTICKYKEYS, LPSTICKYKEYS, LPSTICKYKEYS structure pointer [Windows Accessibility], SKF_AUDIBLEFEEDBACK, SKF_AVAILABLE, SKF_CONFIRMHOTKEY, SKF_HOTKEYACTIVE, SKF_HOTKEYSOUND, SKF_INDICATOR, SKF_LALTLATCHED, SKF_LALTLOCKED, SKF_LCTLLATCHED, SKF_LCTLLOCKED, SKF_LSHIFTLATCHED, SKF_LSHIFTLOCKED, SKF_LWINLATCHED, SKF_LWINLOCKED, SKF_RALTLATCHED, SKF_RALTLOCKED, SKF_RCTLLATCHED, SKF_RCTLLOCKED, SKF_RSHIFTLATCHED, SKF_RSHIFTLOCKED, SKF_RWINLATCHED, SKF_RWINLOCKED, SKF_STICKYKEYSON, SKF_TRISTATE, SKF_TWOKEYSOFF, STICKYKEYS, STICKYKEYS structure [Windows Accessibility], _win32_STICKYKEYS_str, msaa.stickykeys, tagSTICKYKEYS, winauto.stickykeys, winuser/LPSTICKYKEYS, winuser/STICKYKEYS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

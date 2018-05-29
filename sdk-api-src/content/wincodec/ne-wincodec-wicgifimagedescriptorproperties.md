@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICGifImageDescriptorProperties
 title: WICGifImageDescriptorProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the image descriptor metadata properties for Graphics Interchange Format (GIF) frames.
 old-location: wic\_wic_codec_wicgifimagedescriptorproperties.htm
 old-project: wic
 ms.assetid: 5488e63b-503b-47cd-99f3-5d359c7e0070
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICGifImageDescriptorHeight, WICGifImageDescriptorInterlaceFlag, WICGifImageDescriptorLeft, WICGifImageDescriptorLocalColorTableFlag, WICGifImageDescriptorLocalColorTableSize, WICGifImageDescriptorProperties, WICGifImageDescriptorProperties enumeration [Windows Imaging Component], WICGifImageDescriptorSortFlag, WICGifImageDescriptorTop, WICGifImageDescriptorWidth, _wic_codec_wicgifimagedescriptorproperties, wic._wic_codec_wicgifimagedescriptorproperties, wincodec/WICGifImageDescriptorHeight, wincodec/WICGifImageDescriptorInterlaceFlag, wincodec/WICGifImageDescriptorLeft, wincodec/WICGifImageDescriptorLocalColorTableFlag, wincodec/WICGifImageDescriptorLocalColorTableSize, wincodec/WICGifImageDescriptorProperties, wincodec/WICGifImageDescriptorSortFlag, wincodec/WICGifImageDescriptorTop, wincodec/WICGifImageDescriptorWidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

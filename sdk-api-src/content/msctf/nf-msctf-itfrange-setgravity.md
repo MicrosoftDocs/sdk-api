@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfRange.SetGravity
 title: ITfRange::SetGravity
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfRange::SetGravity method
 old-location: tsf\itfrange_setgravity.htm
 old-project: TSF
 ms.assetid: f8be0458-cd14-471d-a138-0730f87374e0
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfRange interface [Text Services Framework],SetGravity method, ITfRange.SetGravity, ITfRange::SetGravity, SetGravity, SetGravity method [Text Services Framework], SetGravity method [Text Services Framework],ITfRange interface, _tsf_itfrange_setgravity_ref, msctf/ITfRange::SetGravity, tsf.itfrange_setgravity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ddraw.IDirectDrawPalette.SetEntries
 title: IDirectDrawPalette::SetEntries
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes entries in a DirectDrawPalette object immediately.
 old-location: directdraw\idirectdrawpalette_setentries.htm
 old-project: directdraw
 ms.assetid: c12247b9-ecb3-4fdf-b25f-373da06df791
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: IDirectDrawPalette interface [DirectDraw],SetEntries method, IDirectDrawPalette.SetEntries, IDirectDrawPalette::SetEntries, SetEntries, SetEntries method [DirectDraw], SetEntries method [DirectDraw],IDirectDrawPalette interface, ddraw/IDirectDrawPalette::SetEntries, directdraw.idirectdrawpalette_setentries
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddraw.h
 req.include-header: 

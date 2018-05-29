@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITextStoreACPServices
 title: ITextStoreACPServices
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextStoreACPServices interface is implemented by the TSF manager to provide various services to an ACP-based application.
 old-location: tsf\itextstoreacpservices.htm
 old-project: TSF
 ms.assetid: 8c84429c-3f99-4ab1-b994-e4e93cd9c86d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreACPServices, ITextStoreACPServices interface [Text Services Framework], ITextStoreACPServices interface [Text Services Framework],described, _tsf_itextstoreacpservices_ref, msctf/ITextStoreACPServices, tsf.itextstoreacpservices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

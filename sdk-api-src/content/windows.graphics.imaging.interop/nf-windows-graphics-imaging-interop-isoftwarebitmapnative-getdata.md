@@ -1,16 +1,16 @@
 ---
 UID: NF:windows.graphics.imaging.interop.ISoftwareBitmapNative.GetData
 title: ISoftwareBitmapNative::imaging
-author: windows-driver-content
+author: windows-sdk-content
 description: This method returns an interface that provides access to the software bitmap data.
 old-location: winrt\isoftwarebitmapnative_getdata.htm
 old-project: WinRT
 ms.assetid: 4BB9674A-A95A-4183-A1E1-428AB140D6EB
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetData, GetData method [Windows Runtime], GetData method [Windows Runtime],ISoftwareBitmapNative interface, ISoftwareBitmapNative interface [Windows Runtime],GetData method, ISoftwareBitmapNative.GetData, ISoftwareBitmapNative.imaging, ISoftwareBitmapNative::GetData, ISoftwareBitmapNative::imaging, windows/ISoftwareBitmapNative::GetData, winrt.isoftwarebitmapnative_getdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 

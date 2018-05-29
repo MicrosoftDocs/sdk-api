@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDragSourceHelper.InitializeFromWindow
 title: IDragSourceHelper::InitializeFromWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the drag-image manager for a control with a window.
 old-location: shell\IDragSourceHelper_InitializeFromWindow.htm
 old-project: shell
 ms.assetid: 0bcdfe92-cec0-44f3-a345-5b560d52fae9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDragSourceHelper interface [Windows Shell],InitializeFromWindow method, IDragSourceHelper.InitializeFromWindow, IDragSourceHelper::InitializeFromWindow, InitializeFromWindow, InitializeFromWindow method [Windows Shell], InitializeFromWindow method [Windows Shell],IDragSourceHelper interface, _win32_IDragSourceHelper_InitializeFromWindow, shell.IDragSourceHelper_InitializeFromWindow, shobjidl_core/IDragSourceHelper::InitializeFromWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

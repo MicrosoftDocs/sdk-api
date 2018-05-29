@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.RestoreDC
 title: RestoreDC function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RestoreDC function restores a device context (DC) to the specified state. The DC is restored by popping state information off a stack created by earlier calls to the SaveDC function.
 old-location: gdi\restoredc.htm
 old-project: gdi
 ms.assetid: 7043edbb-b3ea-4946-a2ba-cae356b04d1d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: RestoreDC, RestoreDC function [Windows GDI], _win32_RestoreDC, gdi.restoredc, wingdi/RestoreDC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

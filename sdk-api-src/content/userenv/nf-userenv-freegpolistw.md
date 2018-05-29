@@ -1,16 +1,16 @@
 ---
 UID: NF:userenv.FreeGPOListW
 title: FreeGPOListW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FreeGPOList function frees the specified list of GPOs.
 old-location: policy\freegpolist.htm
 old-project: Policy
 ms.assetid: 96bd2b5b-c088-4eea-bbc2-31d83c13aa99
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: FreeGPOList, FreeGPOList function [Group Policy], FreeGPOListA, FreeGPOListW, _win32_freegpolist, policy.freegpolist, userenv/FreeGPOList, userenv/FreeGPOListA, userenv/FreeGPOListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

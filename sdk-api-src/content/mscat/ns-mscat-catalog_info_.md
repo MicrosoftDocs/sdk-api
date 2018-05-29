@@ -1,16 +1,16 @@
 ---
 UID: NS:mscat.CATALOG_INFO_
 title: CATALOG_INFO_
-author: windows-driver-content
+author: windows-sdk-content
 description: The CATALOG_INFO structure contains the name of a catalog file. This structure is used by the CryptCATCatalogInfoFromContext function.
 old-location: security\catalog_info.htm
 old-project: SecCrypto
 ms.assetid: f6e66412-3ed2-48d9-a377-5df11500db59
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CATALOG_INFO, CATALOG_INFO structure [Security], CATALOG_INFO_, mscat/CATALOG_INFO, security.catalog_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mscat.h
 req.include-header: 

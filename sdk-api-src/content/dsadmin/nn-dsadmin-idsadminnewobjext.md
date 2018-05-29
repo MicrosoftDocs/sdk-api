@@ -1,16 +1,16 @@
 ---
 UID: NN:dsadmin.IDsAdminNewObjExt
 title: IDsAdminNewObjExt
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDsAdminNewObjExt interface is implemented by an object creation wizard extension.
 old-location: ad\idsadminnewobjext.htm
 old-project: AD
 ms.assetid: a9b98647-b801-4a2a-98a4-d57679c07d55
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDsAdminNewObjExt, IDsAdminNewObjExt interface [Active Directory], IDsAdminNewObjExt interface [Active Directory],described, _glines_idsadminnewobjext, ad.idsadminnewobjext, dsadmin/IDsAdminNewObjExt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dsadmin.h
 req.include-header: 

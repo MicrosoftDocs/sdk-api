@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcBindingSetObject
 title: RpcBindingSetObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcBindingSetObject function sets the object UUID value in a binding handle.
 old-location: rpc\rpcbindingsetobject.htm
 old-project: Rpc
 ms.assetid: 5dcf341f-e392-4608-b741-8fa07cabd50b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcBindingSetObject, RpcBindingSetObject function [RPC], _rpc_rpcbindingsetobject, rpc.rpcbindingsetobject, rpcdce/RpcBindingSetObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

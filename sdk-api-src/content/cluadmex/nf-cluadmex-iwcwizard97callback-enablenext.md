@@ -1,16 +1,16 @@
 ---
 UID: NF:cluadmex.IWCWizard97Callback.EnableNext
 title: IWCWizard97Callback::EnableNext
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables the Next or Finish button on a Wizard97 wizard page, depending on whether the current page is last.
 old-location: mscs\iwcwizard97callback_enablenext.htm
 old-project: MsCS
 ms.assetid: aac4dd75-aa98-4db0-8201-33d4c115896b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EnableNext, EnableNext method [Failover Cluster], EnableNext method [Failover Cluster],IWCWizard97Callback interface, IWCWizard97Callback interface [Failover Cluster],EnableNext method, IWCWizard97Callback.EnableNext, IWCWizard97Callback::EnableNext, _wolf_iwcwizard97callback_enablenext, cluadmex/IWCWizard97Callback::EnableNext, mscs.iwcwizard97callback_enablenext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 

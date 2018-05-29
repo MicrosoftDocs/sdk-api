@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateService.get_ServiceUrl
 title: IUpdateService::get_ServiceUrl
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the URL for the service.
 old-location: wua\iupdateservice_serviceurl.htm
 old-project: Wua_Sdk
 ms.assetid: 6671dabb-a13d-45cc-9a1d-5ee538dec09f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],ServiceUrl property, IUpdateService.ServiceUrl, IUpdateService.get_ServiceUrl, IUpdateService::ServiceUrl, IUpdateService::get_ServiceUrl, ServiceUrl property [Windows Update Agent], ServiceUrl property [Windows Update Agent],IUpdateService interface, get_ServiceUrl, wua.iupdateservice_serviceurl, wuapi/IUpdateService::ServiceUrl, wuapi/IUpdateService::get_ServiceUrl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

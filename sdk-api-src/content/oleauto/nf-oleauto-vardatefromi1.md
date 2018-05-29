@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarDateFromI1
 title: VarDateFromI1 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a char value to a date value.
 old-location: automat\vardatefromi1.htm
 old-project: automat
 ms.assetid: 90d7fcbd-2a3b-442d-95d8-cb02dedfca52
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarDateFromI1, VarDateFromI1 function [Automation], _oa96_VarDateFromI1, automat.vardatefromi1, oleauto/VarDateFromI1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NL:chstrarr.CHStringArray
 title: CHStringArray
-author: windows-driver-content
+author: windows-sdk-content
 description: The following table lists the CHStringArray methods and operators.
 old-location: wmi\chstringarray.htm
 old-project: WmiSdk
 ms.assetid: 62959345-4fed-4107-b155-1746ad35c658
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "??1CHStringArray@@QAE@XZ, ??1CHStringArray@@QEAA@XZ, CHStringArray, CHStringArray class [Windows Management Instrumentation], CHStringArray class [Windows Management Instrumentation],described, _hmm_chstringarray, chstrarr/CHStringArray, wmi.chstringarray"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: chstrarr.h
 req.include-header: FwCommon.h

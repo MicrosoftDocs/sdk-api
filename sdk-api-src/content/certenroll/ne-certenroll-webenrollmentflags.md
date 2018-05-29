@@ -1,16 +1,16 @@
 ---
 UID: NE:certenroll.WebEnrollmentFlags
 title: WebEnrollmentFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies web enrollment behavior.
 old-location: security\webenrollmentflags.htm
 old-project: SecCertEnroll
 ms.assetid: 3b5940c4-f262-498e-82ab-c56af13afd06
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EnrollPrompt, WebEnrollmentFlags, WebEnrollmentFlags enumeration [Security], certenroll/EnrollPrompt, certenroll/WebEnrollmentFlags, security.webenrollmentflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: certenroll.h
 req.include-header: 

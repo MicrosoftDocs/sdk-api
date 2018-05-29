@@ -1,16 +1,16 @@
 ---
 UID: NE:tvratings.EnTvRat_CAF_TV
 title: EnTvRat_CAF_TV
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\entvrat_caf_tv.htm
 old-project: mstv
 ms.assetid: 6001c541-2875-409f-95e4-77553cb3a2a3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CAF_TV_13, CAF_TV_16, CAF_TV_18, CAF_TV_8, CAF_TV_Exempt, CAF_TV_G, CAF_TV_Reserved, CAF_TV_Reserved6, EnTvRat_CAF_TV, EnTvRat_CAF_TV enumeration [Microsoft TV Technologies], mstv.entvrat_caf_tv, tvratings/CAF_TV_13, tvratings/CAF_TV_16, tvratings/CAF_TV_18, tvratings/CAF_TV_8, tvratings/CAF_TV_Exempt, tvratings/CAF_TV_G, tvratings/CAF_TV_Reserved, tvratings/CAF_TV_Reserved6, tvratings/EnTvRat_CAF_TV
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tvratings.h
 req.include-header: 

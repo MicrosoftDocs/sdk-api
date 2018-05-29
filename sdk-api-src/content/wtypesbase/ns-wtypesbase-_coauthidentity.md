@@ -1,16 +1,16 @@
 ---
 UID: NS:wtypesbase._COAUTHIDENTITY
 title: "_COAUTHIDENTITY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a user name and password.
 old-location: com\coauthidentity.htm
 old-project: com
 ms.assetid: ce14f8a6-0495-491a-a5c7-de7c1d3efd95
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: COAUTHIDENTITY, COAUTHIDENTITY structure [COM], SEC_WINNT_AUTH_IDENTITY_ANSI, SEC_WINNT_AUTH_IDENTITY_UNICODE, _COAUTHIDENTITY, _com_COAUTHIDENTITY, com.coauthidentity, wtypesbase/COAUTHIDENTITY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtypesbase.h
 req.include-header: WTypes.h

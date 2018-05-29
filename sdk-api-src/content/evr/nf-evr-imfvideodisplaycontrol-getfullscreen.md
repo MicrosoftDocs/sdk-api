@@ -1,16 +1,16 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetFullscreen
 title: IMFVideoDisplayControl::GetFullscreen
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries whether the enhanced video renderer (EVR) is currently in full-screen mode.
 old-location: mf\imfvideodisplaycontrol_getfullscreen.htm
 old-project: medfound
 ms.assetid: ee564655-be8a-46f7-9682-acf3b38d056a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetFullscreen, GetFullscreen method [Media Foundation], GetFullscreen method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetFullscreen method, IMFVideoDisplayControl.GetFullscreen, IMFVideoDisplayControl::GetFullscreen, ee564655-be8a-46f7-9682-acf3b38d056a, evr/IMFVideoDisplayControl::GetFullscreen, mf.imfvideodisplaycontrol_getfullscreen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: evr.h
 req.include-header: 

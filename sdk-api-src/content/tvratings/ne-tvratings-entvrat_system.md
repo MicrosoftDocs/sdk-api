@@ -1,16 +1,16 @@
 ---
 UID: NE:tvratings.EnTvRat_System
 title: EnTvRat_System
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\entvrat_system.htm
 old-project: mstv
 ms.assetid: 646927ad-569a-4484-a3ce-6d121210b6be
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Canadian_English, Canadian_French, EnTvRat_System, EnTvRat_System enumeration [Microsoft TV Technologies], MPAA, Reserved4, Reserved7, System5, System6, TvRat_SystemDontKnow, TvRat_kSystems, US_TV, mstv.entvrat_system, tvratings/Canadian_English, tvratings/Canadian_French, tvratings/EnTvRat_System, tvratings/MPAA, tvratings/Reserved4, tvratings/Reserved7, tvratings/System5, tvratings/System6, tvratings/TvRat_SystemDontKnow, tvratings/TvRat_kSystems, tvratings/US_TV
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tvratings.h
 req.include-header: 

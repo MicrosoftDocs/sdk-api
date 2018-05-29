@@ -1,16 +1,16 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.ReleaseBuffer
 title: IAMVideoAccelerator::ReleaseBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: The ReleaseBuffer method releases a buffer that was locked by a previous call to IAMVideoAccelerator::GetBuffer.
 old-location: dshow\iamvideoaccelerator_releasebuffer.htm
 old-project: DirectShow
 ms.assetid: 2170cf7e-85c8-4658-84fd-96ebc0d2704f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMVideoAccelerator interface [DirectShow],ReleaseBuffer method, IAMVideoAccelerator.ReleaseBuffer, IAMVideoAccelerator::ReleaseBuffer, IAMVideoAcceleratorReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [DirectShow], ReleaseBuffer method [DirectShow],IAMVideoAccelerator interface, dshow.iamvideoaccelerator_releasebuffer, videoacc/IAMVideoAccelerator::ReleaseBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 

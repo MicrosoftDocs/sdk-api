@@ -1,16 +1,16 @@
 ---
 UID: NF:richole.IRichEditOle.ContextSensitiveHelp
 title: IRichEditOle::ContextSensitiveHelp
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates if a rich edit control should transition into or out of context-sensitive help mode. A rich edit control calls the IRichEditOle::ContextSensitiveHelp method of any in-place object which is currently active if a state change is occurring.
 old-location: controls\IRichEditOle_ContextSensitiveHelp.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolecontextsensitivehelp.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ContextSensitiveHelp, ContextSensitiveHelp method [Windows Controls], ContextSensitiveHelp method [Windows Controls],IRichEditOle interface, IRichEditOle interface [Windows Controls],ContextSensitiveHelp method, IRichEditOle.ContextSensitiveHelp, IRichEditOle::ContextSensitiveHelp, _win32_IRichEditOle_ContextSensitiveHelp, _win32_IRichEditOle_ContextSensitiveHelp_cpp, controls.IRichEditOle_ContextSensitiveHelp, controls._win32_IRichEditOle_ContextSensitiveHelp, richole/IRichEditOle::ContextSensitiveHelp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: richole.h
 req.include-header: 

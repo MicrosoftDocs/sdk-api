@@ -1,16 +1,16 @@
 ---
 UID: NS:ntdsapi._DS_REPL_QUEUE_STATISTICSW
 title: "_DS_REPL_QUEUE_STATISTICSW"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to contain replication queue statistics.
 old-location: ad\ds_repl_queue_statisticsw.htm
 old-project: AD
 ms.assetid: bfddd7ed-0ff4-46ca-84c2-39020acb37d0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DS_REPL_QUEUE_STATISTICSW, DS_REPL_QUEUE_STATISTICSW structure [Active Directory], DS_REPL_QUEUE_STATISTICSW_BLOB, _DS_REPL_QUEUE_STATISTICSW, ad.ds_repl_queue_statisticsw, ntdsapi/DS_REPL_QUEUE_STATISTICSW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntdsapi.h
 req.include-header: 

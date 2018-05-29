@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFTrustedOutput.GetOutputTrustAuthorityByIndex
 title: IMFTrustedOutput::GetOutputTrustAuthorityByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an output trust authority (OTA), specified by index.
 old-location: mf\imftrustedoutput_getoutputtrustauthoritybyindex.htm
 old-project: medfound
 ms.assetid: 4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 4dd570e7-c6fb-4ffb-8ef5-b88a6638dbbf, GetOutputTrustAuthorityByIndex, GetOutputTrustAuthorityByIndex method [Media Foundation], GetOutputTrustAuthorityByIndex method [Media Foundation],IMFTrustedOutput interface, IMFTrustedOutput interface [Media Foundation],GetOutputTrustAuthorityByIndex method, IMFTrustedOutput.GetOutputTrustAuthorityByIndex, IMFTrustedOutput::GetOutputTrustAuthorityByIndex, mf.imftrustedoutput_getoutputtrustauthoritybyindex, mfidl/IMFTrustedOutput::GetOutputTrustAuthorityByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

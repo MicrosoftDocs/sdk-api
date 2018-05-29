@@ -1,16 +1,16 @@
 ---
 UID: NN:mfobjects.IMFSample
 title: IMFSample
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a media sample, which is a container object for media data.
 old-location: mf\imfsample.htm
 old-project: medfound
 ms.assetid: b1c3758c-5133-41ee-b991-ae99d0296ccc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSample, IMFSample interface [Media Foundation], IMFSample interface [Media Foundation],described, b1c3758c-5133-41ee-b991-ae99d0296ccc, mf.imfsample, mfobjects/IMFSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfobjects.h
 req.include-header: Mfidl.h

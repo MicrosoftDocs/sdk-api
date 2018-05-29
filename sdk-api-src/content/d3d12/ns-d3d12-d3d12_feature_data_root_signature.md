@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_ROOT_SIGNATURE
 title: D3D12_FEATURE_DATA_ROOT_SIGNATURE
-author: windows-driver-content
+author: windows-sdk-content
 description: Pass this structure to CheckFeatureSupport to check for root signature version support.
 old-location: direct3d12\d3d12_feature_data_root_signature.htm
 old-project: direct3d12
 ms.assetid: 3CC49B10-18B9-4A10-9013-D8F265FD1A28
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_FEATURE_DATA_ROOT_SIGNATURE, D3D12_FEATURE_DATA_ROOT_SIGNATURE structure, d3d12/D3D12_FEATURE_DATA_ROOT_SIGNATURE, direct3d12.d3d12_feature_data_root_signature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

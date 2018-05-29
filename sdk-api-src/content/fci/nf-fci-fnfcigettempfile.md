@@ -1,16 +1,16 @@
 ---
 UID: NF:fci.FNFCIGETTEMPFILE
 title: FNFCIGETTEMPFILE macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The FNFCIGETTEMPFILE macro provides the declaration for the application-defined callback function to obtain a temporary file name.
 old-location: winprog\fnfcigettempfile.htm
 old-project: DevNotes
 ms.assetid: 8978f688-d8f1-437a-b298-eed1e7dac012
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FNFCIGETTEMPFILE, FNFCIGETTEMPFILE macro [Windows API], fci/FNFCIGETTEMPFILE, winprog.fnfcigettempfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: fci.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certbcli.CertSrvIsServerOnlineW
 title: CertSrvIsServerOnlineW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if a Certificate Services server is online; if the Certificate Services server is not online, backup operations will not be successful.
 old-location: security\certsrvisserveronline.htm
 old-project: SecCrypto
 ms.assetid: fce1ea87-6c02-433e-af38-99b33528b1f1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertSrvIsServerOnline, CertSrvIsServerOnline function [Security], CertSrvIsServerOnlineW, _certsrv_certsrvisserveronline, certbcli/CertSrvIsServerOnline, certbcli/CertSrvIsServerOnlineW, security.certsrvisserveronline
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: certbcli.h
 req.include-header: Certsrv.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:dxvahd._DXVAHD_FILTER_RANGE_DATA
 title: "_DXVAHD_FILTER_RANGE_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the range of supported values for an image filter.
 old-location: mf\dxvahd_filter_range_data.htm
 old-project: medfound
 ms.assetid: cd349ac5-9825-4dc8-8735-5d846abb353b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVAHD_FILTER_RANGE_DATA, DXVAHD_FILTER_RANGE_DATA structure [Media Foundation], _DXVAHD_FILTER_RANGE_DATA, dxvahd/DXVAHD_FILTER_RANGE_DATA, mf.dxvahd_filter_range_data
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxvahd.h
 req.include-header: 

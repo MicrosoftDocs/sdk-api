@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._ARM64_NT_CONTEXT
 title: "_ARM64_NT_CONTEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains processor-specific register data. The system uses CONTEXT structures to perform various internal operations.
 old-location: base\context_str.htm
 old-project: Debug
 ms.assetid: a6c201b3-4402-4de4-89c7-e6e2fbcd27f7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PARM64_NT_CONTEXT, *PCONTEXT, ARM64_NT_CONTEXT, CONTEXT, CONTEXT structure, LPCONTEXT, LPCONTEXT structure pointer, _ARM64_NT_CONTEXT, _win32_context_str, base.context_str, winnt/CONTEXT, winnt/LPCONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

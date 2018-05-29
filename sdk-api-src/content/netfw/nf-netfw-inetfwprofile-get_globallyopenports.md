@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwProfile.get_GloballyOpenPorts
 title: INetFwProfile::get_GloballyOpenPorts
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the collection of globally open ports of the profile.
 old-location: ics\inetfwprofile_globallyopenports.htm
 old-project: ICS
 ms.assetid: 9bb27bb1-7185-4b9a-a529-383e052e5016
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GloballyOpenPorts property [ICS/ICF], GloballyOpenPorts property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],GloballyOpenPorts property, INetFwProfile.GloballyOpenPorts, INetFwProfile.get_GloballyOpenPorts, INetFwProfile::GloballyOpenPorts, INetFwProfile::get_GloballyOpenPorts, get_GloballyOpenPorts, ics.inetfwprofile_globallyopenports, netfw/INetFwProfile::GloballyOpenPorts, netfw/INetFwProfile::get_GloballyOpenPorts
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

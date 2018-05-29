@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.CacheEvictEnd
 title: IOfflineFilesEvents2::CacheEvictEnd
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents2_cacheevictend.htm
 old-project: OfflineFiles
 ms.assetid: 08af0c55-17cc-4d7f-b4a3-c21a8ae91b74
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: CacheEvictEnd, CacheEvictEnd method [Offline Files], CacheEvictEnd method [Offline Files],IOfflineFilesEvents2 interface, IOfflineFilesEvents2 interface [Offline Files],CacheEvictEnd method, IOfflineFilesEvents2.CacheEvictEnd, IOfflineFilesEvents2::CacheEvictEnd, cscobj/IOfflineFilesEvents2::CacheEvictEnd, of.iofflinefilesevents2_cacheevictend
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

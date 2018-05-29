@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IEnumSTATSTG.Next
 title: IEnumSTATSTG::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a specified number of STATSTG structures, that follow in the enumeration sequence.
 old-location: stg\ienumstatstg_next.htm
 old-project: Stg
 ms.assetid: 09363d3e-a606-4a50-8758-d7ef5b3c05ab
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumSTATSTG interface [Structured Storage],Next method, IEnumSTATSTG.Next, IEnumSTATSTG::Next, Next, Next method [Structured Storage], Next method [Structured Storage],IEnumSTATSTG interface, objidl/IEnumSTATSTG::Next, stg.ienumstatstg_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

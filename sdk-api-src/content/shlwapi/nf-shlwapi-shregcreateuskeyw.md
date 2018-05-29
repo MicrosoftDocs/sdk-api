@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHRegCreateUSKeyW
 title: SHRegCreateUSKeyW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates or opens a registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegCreateUSKey.htm
 old-project: shell
 ms.assetid: 10e3e31e-bff6-4260-95fa-2d750de16ab3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHREGSET_DEFAULT, SHREGSET_FORCE_HKCU, SHREGSET_FORCE_HKLM, SHREGSET_HKCU, SHREGSET_HKLM, SHRegCreateUSKey, SHRegCreateUSKey function [Windows Shell], SHRegCreateUSKeyA, SHRegCreateUSKeyW, _win32_SHRegCreateUSKey, shell.SHRegCreateUSKey, shlwapi/SHRegCreateUSKey, shlwapi/SHRegCreateUSKeyA, shlwapi/SHRegCreateUSKeyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

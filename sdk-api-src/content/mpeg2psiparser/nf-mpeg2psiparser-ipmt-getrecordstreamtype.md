@@ -1,16 +1,16 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetRecordStreamType
 title: IPMT::GetRecordStreamType
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetRecordStreamType method returns the stream type for a given elementary stream in the program.
 old-location: mstv\ipmt_getrecordstreamtype.htm
 old-project: mstv
 ms.assetid: c3e17c0c-88ea-4143-aa9b-da2c5bf2069f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordStreamType, GetRecordStreamType method [Microsoft TV Technologies], GetRecordStreamType method [Microsoft TV Technologies],IPMT interface, IPMT interface [Microsoft TV Technologies],GetRecordStreamType method, IPMT.GetRecordStreamType, IPMT::GetRecordStreamType, IPMTGetRecordStreamType, mpeg2psiparser/IPMT::GetRecordStreamType, mstv.ipmt_getrecordstreamtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 

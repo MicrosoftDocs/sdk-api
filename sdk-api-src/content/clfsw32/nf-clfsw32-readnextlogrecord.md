@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.ReadNextLogRecord
 title: ReadNextLogRecord function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the next record in a sequence that is initiated by a call to ReadLogRecord or ReadLogRestartArea.
 old-location: fs\readnextlogrecord.htm
 old-project: Clfs
 ms.assetid: 7736106b-6c43-496e-83b8-fa433c29e680
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClfsClientRecord, ClfsDataRecord, ClfsRestartRecord, ReadNextLogRecord, ReadNextLogRecord function [Files], clfsw32/ReadNextLogRecord, fs.readnextlogrecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

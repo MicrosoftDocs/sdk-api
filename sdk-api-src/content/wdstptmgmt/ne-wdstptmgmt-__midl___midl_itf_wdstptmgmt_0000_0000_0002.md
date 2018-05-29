@@ -1,16 +1,16 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0002
 title: "__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0002"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies which protocols the WDS transport server supports.
 old-location: wds\wdstransport_protocol_flags.htm
 old-project: Wds
 ms.assetid: 4de9168b-a0c1-4f92-b573-5072bfc22c0d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PWDSTRANSPORT_PROTOCOL_FLAGS, WDSTRANSPORT_PROTOCOL_FLAGS, WDSTRANSPORT_PROTOCOL_FLAGS enumeration [Windows Deployment Services], WdsTptProtocolMulticast, WdsTptProtocolUnicast, __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0002, wds.wdstransport_protocol_flags, wdstptmgmt/WDSTRANSPORT_PROTOCOL_FLAGS, wdstptmgmt/WdsTptProtocolMulticast, wdstptmgmt/WdsTptProtocolUnicast"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wdstptmgmt.h
 req.include-header: 

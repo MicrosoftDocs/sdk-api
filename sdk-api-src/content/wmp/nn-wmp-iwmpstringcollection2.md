@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPStringCollection2
 title: IWMPStringCollection2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPStringCollection2 interface provides methods that supplement the IWMPStringCollection interface.
 old-location: wmp\iwmpstringcollection2.htm
 old-project: WMP
 ms.assetid: 7aeaf549-3c60-4dd8-9e46-6bab357f4960
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPStringCollection2, IWMPStringCollection2 interface [Windows Media Player], IWMPStringCollection2 interface [Windows Media Player],described, IWMPStringCollection2Interface, wmp.iwmpstringcollection2, wmp/IWMPStringCollection2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

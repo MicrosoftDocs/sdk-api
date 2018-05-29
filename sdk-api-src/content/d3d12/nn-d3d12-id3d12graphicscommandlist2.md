@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12.ID3D12GraphicsCommandList2
 title: ID3D12GraphicsCommandList2
-author: windows-driver-content
+author: windows-sdk-content
 description: Encapsulates a list of graphics commands for rendering, extending the interface to support writing immediate values directly to a buffer.
 old-location: direct3d12\id3d12graphicscommandlist2.htm
 old-project: direct3d12
 ms.assetid: 6A1BF079-CAE7-45E9-A95F-E19ACD380143
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12GraphicsCommandList2, ID3D12GraphicsCommandList2 interface, ID3D12GraphicsCommandList2 interface,described, d3d12/ID3D12GraphicsCommandList2, direct3d12.id3d12graphicscommandlist2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

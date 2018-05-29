@@ -1,16 +1,16 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceDispatchFactory
 title: IPortableDeviceDispatchFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a factory that can instantiate a WPD Automation Device object.
 old-location: wpdauto\iportabledevicedispatchfactory_interface.htm
 old-project: wpdauto
 ms.assetid: 537551c9-0773-44a9-b602-7d2a6bf9ad00
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: IPortableDeviceDispatchFactory, IPortableDeviceDispatchFactory interface [WPD Automation], IPortableDeviceDispatchFactory interface [WPD Automation],described, portabledeviceapi/IPortableDeviceDispatchFactory, wpdauto.iportabledevicedispatchfactory_interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 

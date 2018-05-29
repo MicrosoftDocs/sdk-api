@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_CanMinimize
 title: IWindowProvider::get_CanMinimize
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the window can be minimized.
 old-location: winauto\uiauto_IWindowProvider_CanMinimize.htm
 old-project: WinAuto
 ms.assetid: 0dc62d89-adf7-4fb5-b77d-07c9682c11af
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CanMinimize property [Windows Accessibility], CanMinimize property [Windows Accessibility],IWindowProvider interface, IWindowProvider interface [Windows Accessibility],CanMinimize property, IWindowProvider.CanMinimize, IWindowProvider.get_CanMinimize, IWindowProvider::CanMinimize, IWindowProvider::get_CanMinimize, get_CanMinimize, uiauto.uiauto_IWindowProvider_CanMinimize, uiauto_IWindowProvider_CanMinimize, uiautomationcore/IWindowProvider::CanMinimize, uiautomationcore/IWindowProvider::get_CanMinimize, winauto.uiauto_IWindowProvider_CanMinimize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

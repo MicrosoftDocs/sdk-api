@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneConfigDialogA
 title: phoneConfigDialogA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneConfigDialog function causes the provider of the specified phone device to display a modal dialog box that allows the user to configure parameters related to the phone device.
 old-location: tapi2\phoneconfigdialog.htm
 old-project: Tapi
 ms.assetid: 64f2626a-283d-47c8-aecd-57d31712a700
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phoneconfigdialog, phoneConfigDialog, phoneConfigDialog function [TAPI 2.2], phoneConfigDialogA, phoneConfigDialogW, tapi/phoneConfigDialog, tapi/phoneConfigDialogA, tapi/phoneConfigDialogW, tapi2.phoneconfigdialog"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

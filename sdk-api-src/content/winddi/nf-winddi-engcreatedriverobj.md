@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngCreateDriverObj
 title: EngCreateDriverObj function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngCreateDriverObj function creates a DRIVEROBJ structure.
 old-location: display\engcreatedriverobj.htm
 old-project: display
 ms.assetid: 2912a456-e5d7-4ae4-b8b0-d16c9e8eadf2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngCreateDriverObj, EngCreateDriverObj function [Display Devices], display.engcreatedriverobj, gdifncs_b2ab33cf-bcdf-418d-87a5-eee4b0704433.xml, winddi/EngCreateDriverObj
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:workspaceruntime.IWorkspace3.SetClaimsToken
 title: IWorkspace3::SetClaimsToken
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the claims token.
 old-location: termserv\iworkspace3_setclaimstoken.htm
 old-project: TermServ
 ms.assetid: 221b0e8f-b43a-4942-9e70-152daf5b1ef0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWorkspace3 interface [Remote Desktop Services],SetClaimsToken method, IWorkspace3.SetClaimsToken, IWorkspace3::SetClaimsToken, SetClaimsToken, SetClaimsToken method [Remote Desktop Services], SetClaimsToken method [Remote Desktop Services],IWorkspace3 interface, termserv.iworkspace3_setclaimstoken, workspaceruntime/IWorkspace3::SetClaimsToken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: 

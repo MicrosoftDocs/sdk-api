@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetSink
 title: IWMWriterAdvanced::GetSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSink method retrieves a writer sink object. Used in conjunction with IWMWriterAdvanced::GetSinkCount, this method can be used to enumerate the sinks associated with a writer object.
 old-location: wmformat\iwmwriteradvanced_getsink.htm
 old-project: wmformat
 ms.assetid: 6775eb89-a3af-42d2-b1e3-197abb1fce61
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSink, GetSink method [windows Media Format], GetSink method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetSink method, IWMWriterAdvanced.GetSink, IWMWriterAdvanced::GetSink, IWMWriterAdvancedGetSink, wmformat.iwmwriteradvanced_getsink, wmsdkidl/IWMWriterAdvanced::GetSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IContextMenu3.HandleMenuMsg2
 title: IContextMenu3::HandleMenuMsg2
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows client objects of the IContextMenu3 interface to handle messages associated with owner-drawn menu items.
 old-location: shell\IContextMenu3_HandleMenuMsg2.htm
 old-project: shell
 ms.assetid: d258edb1-9489-4cdf-b398-16af37a1cb38
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: HandleMenuMsg2, HandleMenuMsg2 method [Windows Shell], HandleMenuMsg2 method [Windows Shell],IContextMenu3 interface, IContextMenu3 interface [Windows Shell],HandleMenuMsg2 method, IContextMenu3.HandleMenuMsg2, IContextMenu3::HandleMenuMsg2, _win32_IContextMenu3_HandleMenuMsg2, shell.IContextMenu3_HandleMenuMsg2, shobjidl_core/IContextMenu3::HandleMenuMsg2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

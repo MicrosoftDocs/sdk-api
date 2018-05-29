@@ -1,16 +1,16 @@
 ---
 UID: NS:ocidl.tagQACONTAINER
 title: tagQACONTAINER
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies container information for IQuickActivate::QuickActivate.
 old-location: com\qacontainer.htm
 old-project: com
 ms.assetid: 8f3975eb-7cd2-449f-92cc-2b8773d9f37e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: QACONTAINER, QACONTAINER structure [COM], _ctrl_QACONTAINER, com.qacontainer, ocidl/QACONTAINER, tagQACONTAINER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ocidl.h
 req.include-header: 

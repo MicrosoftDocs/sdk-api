@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFontFaceIndex
 title: IXpsOMGlyphs::GetFontFaceIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the index of the font face to be used.
 old-location: xps\ixpsomglyphs_getfontfaceindex.htm
 old-project: printdocs
 ms.assetid: 375e6391-c75f-4dbe-b51f-ce394f5088ec
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetFontFaceIndex, GetFontFaceIndex method [XPS Documents and Packaging], GetFontFaceIndex method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFontFaceIndex method, IXpsOMGlyphs.GetFontFaceIndex, IXpsOMGlyphs::GetFontFaceIndex, xps.ixpsomglyphs_getfontfaceindex, xpsobjectmodel/IXpsOMGlyphs::GetFontFaceIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

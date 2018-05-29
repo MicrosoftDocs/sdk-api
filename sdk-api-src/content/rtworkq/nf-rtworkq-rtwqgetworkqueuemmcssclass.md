@@ -1,16 +1,16 @@
 ---
 UID: NF:rtworkq.RtwqGetWorkQueueMMCSSClass
 title: RtwqGetWorkQueueMMCSSClass function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associated with this work queue.
 old-location: base\rtwqgetworkqueuemmcssclass.htm
 old-project: ProcThread
 ms.assetid: 1fea099d-33cd-4edd-aa6c-026a0e3478e3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtwqGetWorkQueueMMCSSClass, RtwqGetWorkQueueMMCSSClass function, base.rtwqgetworkqueuemmcssclass, rtworkq/RtwqGetWorkQueueMMCSSClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.NtWaitForSingleObject
 title: NtWaitForSingleObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Waits until the specified object attains a state of signaled. NtWaitForSingleObject is superseded by WaitForSingleObject.
 old-location: winprog\ntwaitforsingleobject.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\ntwaitforsingleobject.htm
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "'NtWaitForSingleObject, FALSE, NtWaitForSingleObject, NtWaitForSingleObject function [Windows API], TRUE, winprog.ntwaitforsingleobject, winternl/NtWaitForSingleObject, winui.ntwaitforsingleobject"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

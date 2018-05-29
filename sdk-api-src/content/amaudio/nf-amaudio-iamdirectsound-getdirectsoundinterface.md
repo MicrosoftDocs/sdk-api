@@ -1,16 +1,16 @@
 ---
 UID: NF:amaudio.IAMDirectSound.GetDirectSoundInterface
 title: IAMDirectSound::GetDirectSoundInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDirectSoundInterface method is not implemented.
 old-location: dshow\iamdirectsound_getdirectsoundinterface.htm
 old-project: DirectShow
 ms.assetid: 0980d931-296f-47c1-a6f5-63a94032c1bf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDirectSoundInterface, GetDirectSoundInterface method [DirectShow], GetDirectSoundInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetDirectSoundInterface method, IAMDirectSound.GetDirectSoundInterface, IAMDirectSound::GetDirectSoundInterface, IAMDirectSoundGetDirectSoundInterface, amaudio/IAMDirectSound::GetDirectSoundInterface, dshow.iamdirectsound_getdirectsoundinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: amaudio.h
 req.include-header: 

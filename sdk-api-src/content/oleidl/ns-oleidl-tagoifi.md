@@ -1,16 +1,16 @@
 ---
 UID: NS:oleidl.tagOIFI
 title: tagOIFI
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the accelerators supported by a container during an in-place session. The structure is used in the IOleInPlaceSite::GetWindowContext method and the OleTranslateAccelerator function.
 old-location: com\oleinplaceframeinfo.htm
 old-project: com
 ms.assetid: e09445d2-61e5-4691-b51e-746e0cc91c00
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPOLEINPLACEFRAMEINFO, LPOLEINPLACEFRAMEINFO, LPOLEINPLACEFRAMEINFO structure pointer [COM], OLEINPLACEFRAMEINFO, OLEINPLACEFRAMEINFO structure [COM], _ole_OLEINPLACEFRAMEINFO, com.oleinplaceframeinfo, oleidl/LPOLEINPLACEFRAMEINFO, oleidl/OLEINPLACEFRAMEINFO, tagOIFI"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oleidl.h
 req.include-header: 

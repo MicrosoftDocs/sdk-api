@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxJob.get_UserName
 title: IFaxJob::get_UserName
-author: windows-driver-content
+author: windows-sdk-content
 description: The UserName property is a null-terminated string that contains the name of the user who submitted the fax job to the job queue. The UserName property applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxjob_get_username_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6jad.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxJob object [Fax Service],UserName property, FaxJob.UserName, IFaxJob.get_UserName, IFaxJob::get_UserName, UserName property [Fax Service], UserName property [Fax Service],FaxJob object, _mfax_ifaxjob_get_username, fax._mfax_ifaxjob_get_username, fax._mfax_ifaxjob_get_username_vb, get_UserName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0023
 title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0023"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MPEG_STREAM_BUFFER structure defines a buffer that receives MPEG-2 data.
 old-location: mstv\mpeg_stream_buffer.htm
 old-project: mstv
 ms.assetid: d376af4c-4b22-4a2d-917a-6f25d2c38861
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PMPEG_STREAM_BUFFER, MPEG_STREAM_BUFFER, MPEG_STREAM_BUFFER structure [Microsoft TV Technologies], PMPEG_STREAM_BUFFER, PMPEG_STREAM_BUFFER structure pointer [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0023, mpeg2structs/MPEG_STREAM_BUFFER, mpeg2structs/PMPEG_STREAM_BUFFER, mstv.mpeg_stream_buffer"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 

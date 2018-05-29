@@ -1,16 +1,16 @@
 ---
 UID: NN:wsdclient.IWSDAsyncCallback
 title: IWSDAsyncCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles callbacks for the completion of an asynchronous operation.
 old-location: ncd\iwsdasynccallback.htm
 old-project: WsdApi
 ms.assetid: 24108143-55b7-4098-a4cc-025dfdfd054a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDAsyncCallback, IWSDAsyncCallback interface, IWSDAsyncCallback interface,described, ncd.iwsdasynccallback, wsdclient/IWSDAsyncCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

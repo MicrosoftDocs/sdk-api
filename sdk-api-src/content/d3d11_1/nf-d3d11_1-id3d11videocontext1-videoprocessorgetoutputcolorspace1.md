@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.VideoProcessorGetOutputColorSpace1
 title: ID3D11VideoContext1::VideoProcessorGetOutputColorSpace1
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the color space information for the video processor output surface.
 old-location: mf\id3d11videocontext1_videoprocessorgetoutputcolorspace1.htm
 old-project: medfound
 ms.assetid: 1B2BC801-CC5C-460C-A10E-CCDEE35A8E27
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorGetOutputColorSpace1 method, ID3D11VideoContext1.VideoProcessorGetOutputColorSpace1, ID3D11VideoContext1::VideoProcessorGetOutputColorSpace1, VideoProcessorGetOutputColorSpace1, VideoProcessorGetOutputColorSpace1 method [Media Foundation], VideoProcessorGetOutputColorSpace1 method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorGetOutputColorSpace1, mf.id3d11videocontext1_videoprocessorgetoutputcolorspace1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11_1.h
 req.include-header: 

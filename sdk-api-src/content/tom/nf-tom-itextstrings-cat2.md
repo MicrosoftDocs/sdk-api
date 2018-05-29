@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextStrings.Cat2
 title: ITextStrings::Cat2
-author: windows-driver-content
+author: windows-sdk-content
 description: Concatenates two strings.
 old-location: controls\itextstrings_cat2.htm
 old-project: Controls
 ms.assetid: 9691d04f-5c87-42a3-81f2-efb051e2ed30
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Cat2, Cat2 method [Windows Controls], Cat2 method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],Cat2 method, ITextStrings.Cat2, ITextStrings::Cat2, controls.itextstrings_cat2, tom/ITextStrings::Cat2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:http.HTTPAPI_VERSION_GREATER_OR_EQUAL
 title: HTTPAPI_VERSION_GREATER_OR_EQUAL macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The HTTPAPI_VERSION_GREATER_OR_EQUAL returns a non-zero value if an HTTPAPI_VERSION structure is greater than or equal to a specified major/minor version combination, or zero otherwise.
 old-location: http\httpapi_version_greater_or_equal.htm
 old-project: Http
 ms.assetid: d9ac035f-7085-417f-b7df-0607b95f4233
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: HTTPAPI_VERSION_GREATER_OR_EQUAL, HTTPAPI_VERSION_GREATER_OR_EQUAL macro [HTTP], http.httpapi_version_greater_or_equal, http/HTTPAPI_VERSION_GREATER_OR_EQUAL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: http.h
 req.include-header: 

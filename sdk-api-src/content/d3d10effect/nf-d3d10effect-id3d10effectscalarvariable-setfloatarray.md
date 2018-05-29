@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.SetFloatArray
 title: ID3D10EffectScalarVariable::SetFloatArray
-author: windows-driver-content
+author: windows-sdk-content
 description: Set an array of floating-point variables.
 old-location: direct3d10\id3d10effectscalarvariable_setfloatarray.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_setfloatarray.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 028a02f1-2ddd-f6aa-b520-88cbdd70c9d3, ID3D10EffectScalarVariable interface [Direct3D 10],SetFloatArray method, ID3D10EffectScalarVariable.SetFloatArray, ID3D10EffectScalarVariable::SetFloatArray, SetFloatArray, SetFloatArray method [Direct3D 10], SetFloatArray method [Direct3D 10],ID3D10EffectScalarVariable interface, d3d10effect/ID3D10EffectScalarVariable::SetFloatArray, direct3d10.id3d10effectscalarvariable_setfloatarray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

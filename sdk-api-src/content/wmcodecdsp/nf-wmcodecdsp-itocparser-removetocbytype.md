@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.RemoveTocByType
 title: ITocParser::RemoveTocByType
-author: windows-driver-content
+author: windows-sdk-content
 description: The RemoveTocByType method removes all tables of contents of a specified type from the TOC Parser object.
 old-location: mf\itocparser_removetocbytype.htm
 old-project: medfound
 ms.assetid: e3d32dc9-ccae-46fd-9dd4-62e300981da0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITocParser interface [Media Foundation],RemoveTocByType method, ITocParser.RemoveTocByType, ITocParser::RemoveTocByType, RemoveTocByType, RemoveTocByType method [Media Foundation], RemoveTocByType method [Media Foundation],ITocParser interface, codecapi.itocparser_removetocbytype, mf.itocparser_removetocbytype, wmcodecdsp/ITocParser::RemoveTocByType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

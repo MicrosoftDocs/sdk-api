@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.DrvFree
 title: DrvFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrvFree function is used to notify the driver that the specified structure is no longer needed.
 old-location: display\drvfree.htm
 old-project: display
 ms.assetid: 829e8128-f57f-433c-9c09-7e4dc0ef54be
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DrvFree, DrvFree function [Display Devices], ddifncs_c3b37742-3ce6-477b-a28c-065cd60c38cd.xml, display.drvfree, winddi/DrvFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

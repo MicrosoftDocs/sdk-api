@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_INFO
 title: "_D3D10_SHADER_DEBUG_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the format of the ID3D10Blob Interface returned by D3D10GetShaderDebugInfo.
 old-location: direct3d10\d3d10_shader_debug_info.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_info.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 18092958-2031-f4f8-2da4-c36244bd2989, D3D10_SHADER_DEBUG_INFO, D3D10_SHADER_DEBUG_INFO structure [Direct3D 10], _D3D10_SHADER_DEBUG_INFO, d3d10_1shader/D3D10_SHADER_DEBUG_INFO, direct3d10.d3d10_shader_debug_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h

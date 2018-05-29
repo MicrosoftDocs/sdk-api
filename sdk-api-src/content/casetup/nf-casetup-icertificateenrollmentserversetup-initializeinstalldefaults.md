@@ -1,16 +1,16 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentServerSetup.InitializeInstallDefaults
 title: ICertificateEnrollmentServerSetup::InitializeInstallDefaults
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the ICertificateEnrollmentServerSetup object with a default configuration.
 old-location: security\icertificateenrollmentserversetup_initializeinstalldefaults.htm
 old-project: SecCrypto
 ms.assetid: 2C6E8F84-56AC-4541-A778-839D5F2C764F
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],InitializeInstallDefaults method, ICertificateEnrollmentServerSetup.InitializeInstallDefaults, ICertificateEnrollmentServerSetup::InitializeInstallDefaults, InitializeInstallDefaults, InitializeInstallDefaults method [Security], InitializeInstallDefaults method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::InitializeInstallDefaults, security.icertificateenrollmentserversetup_initializeinstalldefaults
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

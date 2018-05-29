@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_HTTP_MESSAGE_MAPPING
 title: "_WS_HTTP_MESSAGE_MAPPING"
-author: windows-driver-content
+author: windows-sdk-content
 description: How an HTTP request or response should be represented in a message object.
 old-location: wsw\ws_http_message_mapping.htm
 old-project: wsw
 ms.assetid: dff8217e-769d-4f0b-acf2-02d6e43589cf
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_HTTP_MESSAGE_MAPPING, WS_HTTP_MESSAGE_MAPPING structure [Web Services for Windows], _WS_HTTP_MESSAGE_MAPPING, webservices/WS_HTTP_MESSAGE_MAPPING, wsw.ws_http_message_mapping
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetVertexShaderConstantI
 title: IDirect3DDevice9::SetVertexShaderConstantI
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets an integer vertex shader constant.
 old-location: direct3d9\idirect3ddevice9__setvertexshaderconstanti.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setvertexshaderconstanti.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 10342244-afff-6fcd-2e64-c19547f2f547, IDirect3DDevice9 interface [Direct3D 9],SetVertexShaderConstantI method, IDirect3DDevice9.SetVertexShaderConstantI, IDirect3DDevice9::SetVertexShaderConstantI, SetVertexShaderConstantI, SetVertexShaderConstantI method [Direct3D 9], SetVertexShaderConstantI method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetVertexShaderConstantI, direct3d9.idirect3ddevice9__setvertexshaderconstanti
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

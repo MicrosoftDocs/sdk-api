@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigServerDisconnect
 title: MprConfigServerDisconnect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigServerDisconnect function disconnects a connection made by a previous call to MprConfigServerConnect.
 old-location: rras\mprconfigserverdisconnect.htm
 old-project: RRAS
 ms.assetid: 71cdb26b-e9d0-414c-aff9-0eed187d08ba
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigServerDisconnect, MprConfigServerDisconnect function [RAS], _mpr_mprconfigserverdisconnect, mprapi/MprConfigServerDisconnect, rras.mprconfigserverdisconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.SaveInKnownFolder
 title: IShellLibrary::SaveInKnownFolder
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves the library to a new file in a specified known folder.
 old-location: shell\IShellLibrary_SaveInKnownFolder.htm
 old-project: shell
 ms.assetid: 3a6fa57f-808d-4893-a01c-f192355f8989
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SaveInKnownFolder method, IShellLibrary.SaveInKnownFolder, IShellLibrary::SaveInKnownFolder, SaveInKnownFolder, SaveInKnownFolder method [Windows Shell], SaveInKnownFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SaveInKnownFolder, shell.IShellLibrary_SaveInKnownFolder, shobjidl_core/IShellLibrary::SaveInKnownFolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IApplicationActivationManager
 title: IApplicationActivationManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods which activate Windows Store apps for the Launch, File, and Protocol extensions. You will normally use this interface in debuggers and design tools.
 old-location: shell\IApplicationActivationManager.htm
 old-project: shell
 ms.assetid: 66C8EDC8-AF05-46d6-B29D-B6EE09DF6709
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IApplicationActivationManager, IApplicationActivationManager interface [Windows Shell], IApplicationActivationManager interface [Windows Shell],described, shell.IApplicationActivationManager, shobjidl_core/IApplicationActivationManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

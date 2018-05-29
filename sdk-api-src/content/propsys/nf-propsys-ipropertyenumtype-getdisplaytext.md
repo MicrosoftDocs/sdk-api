@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyEnumType.GetDisplayText
 title: IPropertyEnumType::GetDisplayText
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets display text from an enumeration information structure.
 old-location: properties\IPropertyEnumType_GetDisplayText.htm
 old-project: properties
 ms.assetid: d5168ca2-107f-45c2-80fa-21a2379776ed
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDisplayText, GetDisplayText method [Windows Properties], GetDisplayText method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetDisplayText method, IPropertyEnumType.GetDisplayText, IPropertyEnumType::GetDisplayText, _shell_IPropertyEnumType_GetDisplayText, properties.IPropertyEnumType_GetDisplayText, propsys/IPropertyEnumType::GetDisplayText, shell.IPropertyEnumType_GetDisplayText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

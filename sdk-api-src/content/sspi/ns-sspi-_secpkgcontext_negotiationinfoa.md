@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SecPkgContext_NegotiationInfoA
 title: "_SecPkgContext_NegotiationInfoA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The SecPkgContext_NegotiationInfo structure contains information on the security package that is being set up or has been set up, and also gives the status on the negotiation to set up the security package.
 old-location: security\secpkgcontext_negotiationinfo.htm
 old-project: SecAuthN
 ms.assetid: 3af724b8-fbe5-4a75-b128-9efe65381f2f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgContext_NegotiationInfoA, PSecPkgContext_NegotiationInfo, PSecPkgContext_NegotiationInfo structure pointer [Security], SECPKG_NEGOTIATION_COMPLETE, SECPKG_NEGOTIATION_IN_PROGRESS, SECPKG_NEGOTIATION_OPTIMISTIC, SecPkgContext_NegotiationInfo, SecPkgContext_NegotiationInfo structure [Security], SecPkgContext_NegotiationInfoA, SecPkgContext_NegotiationInfoW, _SecPkgContext_NegotiationInfoA, _ssp_secpkgcontext_negotiationinfo, security.secpkgcontext_negotiationinfo, sspi/PSecPkgContext_NegotiationInfo, sspi/SecPkgContext_NegotiationInfo, sspi/SecPkgContext_NegotiationInfoA, sspi/SecPkgContext_NegotiationInfoW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: Security.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:exdisp.IShellWindows.get_Count
 title: IShellWindows::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of windows in the Shell windows collection.
 old-location: shell\IShellWindows_get_Count.htm
 old-project: shell
 ms.assetid: 50781569-4c80-4304-96f3-8a135cea3b20
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellWindows interface [Windows Shell],get_Count method, IShellWindows.get_Count, IShellWindows::get_Count, _win32_IShellWindows_get_Count, exdisp/IShellWindows::get_Count, get_Count, get_Count method [Windows Shell], get_Count method [Windows Shell],IShellWindows interface, shell.IShellWindows_get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: exdisp.h
 req.include-header: 

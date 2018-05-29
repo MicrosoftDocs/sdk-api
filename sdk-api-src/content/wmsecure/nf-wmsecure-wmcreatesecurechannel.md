@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsecure.WMCreateSecureChannel
 title: WMCreateSecureChannel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an object that implements IWMSecureChannel.
 old-location: wmformat\wmcreatesecurechannel.htm
 old-project: wmformat
 ms.assetid: 0893162d-f110-472a-91c0-70ba58943a22
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMCreateSecureChannel, WMCreateSecureChannel function [windows Media Format], wmformat.wmcreatesecurechannel, wmsecure/WMCreateSecureChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wmsecure.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_XmlText
 title: IRegistrationInfo::put_XmlText
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets an XML-formatted version of the registration information for the task.
 old-location: taskschd\iregistrationinfo_xmltext.htm
 old-project: TaskSchd
 ms.assetid: ad7de0d3-c5df-49d7-9cc9-d52e30844615
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IRegistrationInfo interface [Task Scheduler],XmlText property, IRegistrationInfo.XmlText, IRegistrationInfo.put_XmlText, IRegistrationInfo::XmlText, IRegistrationInfo::get_XmlText, IRegistrationInfo::put_XmlText, XmlText property [Task Scheduler], XmlText property [Task Scheduler],IRegistrationInfo interface, put_XmlText, taskschd.iregistrationinfo_xmltext, taskschd/IRegistrationInfo::XmlText, taskschd/IRegistrationInfo::get_XmlText, taskschd/IRegistrationInfo::put_XmlText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

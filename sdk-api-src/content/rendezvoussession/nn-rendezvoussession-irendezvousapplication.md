@@ -1,16 +1,16 @@
 ---
 UID: NN:rendezvoussession.IRendezvousApplication
 title: IRendezvousApplication
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method used by an instant messaging (IM) application to create a remote assistance session.
 old-location: remoteassist\remoteassist_IRendezvousApplication.htm
 old-project: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvousapplication\irendezvousapplication.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IRendezvousApplication, IRendezvousApplication interface [Remote Assistance], IRendezvousApplication interface [Remote Assistance],described, remoteassist.remoteassist_IRendezvousApplication, remoteassist_IRendezvousApplication, rendezvoussession/IRendezvousApplication
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rendezvoussession.h
 req.include-header: 

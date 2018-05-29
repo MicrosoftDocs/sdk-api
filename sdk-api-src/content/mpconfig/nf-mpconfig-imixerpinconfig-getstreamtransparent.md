@@ -1,16 +1,16 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetStreamTransparent
 title: IMixerPinConfig::GetStreamTransparent
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetStreamTransparent method determines whether a stream is transparent.
 old-location: dshow\imixerpinconfig_getstreamtransparent.htm
 old-project: DirectShow
 ms.assetid: adee4565-ccc3-4a72-a4ee-c27980868dfa
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetStreamTransparent, GetStreamTransparent method [DirectShow], GetStreamTransparent method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetStreamTransparent method, IMixerPinConfig.GetStreamTransparent, IMixerPinConfig::GetStreamTransparent, IMixerPinConfigGetStreamTransparent, dshow.imixerpinconfig_getstreamtransparent, mpconfig/IMixerPinConfig::GetStreamTransparent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpconfig.h
 req.include-header: 

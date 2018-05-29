@@ -1,16 +1,16 @@
 ---
 UID: NN:propsys.ICreateObject
 title: ICreateObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that creates an object of a specified class.
 old-location: shell\ICreateObject.htm
 old-project: shell
 ms.assetid: 90502b4a-dc0a-4077-83d7-e9f5445ba69b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICreateObject, ICreateObject interface [Windows Shell], ICreateObject interface [Windows Shell],described, _shell_ICreateObject, propsys/ICreateObject, shell.ICreateObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

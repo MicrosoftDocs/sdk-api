@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.GetUserData
 title: ISettingsContext::GetUserData
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a user-defined data.
 old-location: smi\isettingscontext_getuserdata.htm
 old-project: SMI
 ms.assetid: 9054edee-9751-4aaa-a9bb-65badfb34fc6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetUserData, GetUserData method [SMI], GetUserData method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],GetUserData method, ISettingsContext.GetUserData, ISettingsContext::GetUserData, smi.isettingscontext_getuserdata, wcmconfig/ISettingsContext::GetUserData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

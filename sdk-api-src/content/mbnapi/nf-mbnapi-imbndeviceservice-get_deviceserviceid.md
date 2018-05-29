@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.get_DeviceServiceID
 title: IMbnDeviceService::get_DeviceServiceID
-author: windows-driver-content
+author: windows-sdk-content
 description: The ID of the device service to which this object is associated.
 old-location: mbn\imbndeviceservice_deviceserviceid.htm
 old-project: mbn
 ms.assetid: 3AE6D7A6-3974-4517-AEB6-992CAC543247
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: DeviceServiceID property [Microsoft Broadband Networks], DeviceServiceID property [Microsoft Broadband Networks],IMbnDeviceService interface, IMbnDeviceService interface [Microsoft Broadband Networks],DeviceServiceID property, IMbnDeviceService.DeviceServiceID, IMbnDeviceService.get_DeviceServiceID, IMbnDeviceService::DeviceServiceID, IMbnDeviceService::get_DeviceServiceID, get_DeviceServiceID, mbn.imbndeviceservice_deviceserviceid, mbnapi/IMbnDeviceService::DeviceServiceID, mbnapi/IMbnDeviceService::get_DeviceServiceID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

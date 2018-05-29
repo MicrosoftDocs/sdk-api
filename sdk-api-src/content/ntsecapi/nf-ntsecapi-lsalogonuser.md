@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaLogonUser
 title: LsaLogonUser function
-author: windows-driver-content
+author: windows-sdk-content
 description: Authenticates a security principal's logon data by using stored credentials information.
 old-location: security\lsalogonuser.htm
 old-project: SecAuthN
 ms.assetid: 75968d53-5af2-4d77-9486-26403b73c954
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: KERB_CERTIFICATE_LOGON, KERB_CERTIFICATE_S4U_LOGON, KERB_CERTIFICATE_UNLOCK_LOGON, KERB_INTERACTIVE_LOGON, KERB_S4U_LOGON, KERB_SMARTCARD_LOGON, KERB_SMARTCARD_UNLOCK_LOGON, KERB_TICKET_LOGON, KERB_TICKET_PROFILE, KERB_TICKET_UNLOCK_LOGON, LsaLogonUser, LsaLogonUser function [Security], MSV1_0_INTERACTIVE_LOGON, MSV1_0_INTERACTIVE_PROFILE, MSV1_0_LM20_LOGON, MSV1_0_LM20_LOGON_PROFILE, MSV1_0_SUBAUTH_LOGON, STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsalogonuser, ntsecapi/LsaLogonUser, security.lsalogonuser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IPerPropertyBrowsing.GetPredefinedValue
 title: IPerPropertyBrowsing::GetPredefinedValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of the specified property that is associated with a predefined string name.
 old-location: com\iperpropertybrowsing_getpredefinedvalue.htm
 old-project: com
 ms.assetid: a532ebed-3ed8-4b49-a17f-f542fdbd74ff
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPredefinedValue, GetPredefinedValue method [COM], GetPredefinedValue method [COM],IPerPropertyBrowsing interface, IPerPropertyBrowsing interface [COM],GetPredefinedValue method, IPerPropertyBrowsing.GetPredefinedValue, IPerPropertyBrowsing::GetPredefinedValue, _ctrl_iperpropertybrowsing_getpredefinedvalue, com.iperpropertybrowsing_getpredefinedvalue, ocidl/IPerPropertyBrowsing::GetPredefinedValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

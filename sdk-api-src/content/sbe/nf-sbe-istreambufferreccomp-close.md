@@ -1,16 +1,16 @@
 ---
 UID: NF:sbe.IStreamBufferRecComp.Close
 title: IStreamBufferRecComp::Close
-author: windows-driver-content
+author: windows-sdk-content
 description: The Close method closes the target file.
 old-location: mstv\istreambufferreccomp_close.htm
 old-project: mstv
 ms.assetid: 0dd311ac-28c7-4cb2-bc65-fe2301c53cf2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Close, Close method [Microsoft TV Technologies], Close method [Microsoft TV Technologies],IStreamBufferRecComp interface, IStreamBufferRecComp interface [Microsoft TV Technologies],Close method, IStreamBufferRecComp.Close, IStreamBufferRecComp::Close, IStreamBufferRecCompClose, mstv.istreambufferreccomp_close, sbe/IStreamBufferRecComp::Close
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sbe.h
 req.include-header: 

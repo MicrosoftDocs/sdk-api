@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDEventingStatus.SubscriptionRenewalFailed
 title: IWSDEventingStatus::SubscriptionRenewalFailed
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the subscription for the specified event action could not be renewed.
 old-location: ncd\iwsdeventingstatus_subscriptionrenewalfailed.htm
 old-project: WsdApi
 ms.assetid: d76bb6ae-bb4d-4226-be0d-4fd37b0212a9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDEventingStatus interface,SubscriptionRenewalFailed method, IWSDEventingStatus.SubscriptionRenewalFailed, IWSDEventingStatus::SubscriptionRenewalFailed, SubscriptionRenewalFailed, SubscriptionRenewalFailed method, SubscriptionRenewalFailed method,IWSDEventingStatus interface, ncd.iwsdeventingstatus_subscriptionrenewalfailed, wsdclient/IWSDEventingStatus::SubscriptionRenewalFailed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

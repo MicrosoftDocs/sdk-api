@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMLanguageList.GetLanguageDetails
 title: IWMLanguageList::GetLanguageDetails
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetLanguageDetails method retrieves the RFC 1766-compliant language tag for an entry in the list of supported languages.
 old-location: wmformat\iwmlanguagelist_getlanguagedetails.htm
 old-project: wmformat
 ms.assetid: beb9f4fb-0acf-4693-b98e-2c197b330de5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetLanguageDetails, GetLanguageDetails method [windows Media Format], GetLanguageDetails method [windows Media Format],IWMLanguageList interface, IWMLanguageList interface [windows Media Format],GetLanguageDetails method, IWMLanguageList.GetLanguageDetails, IWMLanguageList::GetLanguageDetails, IWMLanguageListGetLanguageDetails, wmformat.iwmlanguagelist_getlanguagedetails, wmsdkidl/IWMLanguageList::GetLanguageDetails
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

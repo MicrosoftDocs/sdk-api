@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiSourceListClearSourceA
 title: MsiSourceListClearSourceA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an existing source for a product or patch in a specified context.
 old-location: setup\msisourcelistclearsource.htm
 old-project: Msi
 ms.assetid: 7d37cdd2-ecdd-4d27-b5b1-87bcffc5bf79
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListClearSource, MsiSourceListClearSource function, MsiSourceListClearSourceA, MsiSourceListClearSourceW, NULL, User SID, msi/MsiSourceListClearSource, msi/MsiSourceListClearSourceA, msi/MsiSourceListClearSourceW, setup.msisourcelistclearsource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

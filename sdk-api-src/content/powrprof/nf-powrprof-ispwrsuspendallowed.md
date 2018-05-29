@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.IsPwrSuspendAllowed
 title: IsPwrSuspendAllowed function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the computer supports the sleep states.
 old-location: base\ispwrsuspendallowed.htm
 old-project: Power
 ms.assetid: 66ef2402-b1b8-432e-b47d-240d255fc907
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: IsPwrSuspendAllowed, IsPwrSuspendAllowed function, _win32_ispwrsuspendallowed, base.ispwrsuspendallowed, powrprof/IsPwrSuspendAllowed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

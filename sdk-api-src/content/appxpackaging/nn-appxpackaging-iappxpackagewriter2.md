@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxPackageWriter2
 title: IAppxPackageWriter2
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a write-only object model for app packages.
 old-location: appxpkg\iappxpackagewriter2.htm
 old-project: appxpkg
 ms.assetid: CB3F2FBC-7CCA-45F9-A384-D5458EBA1A7B
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxPackageWriter2, IAppxPackageWriter2 interface [App packaging and management], IAppxPackageWriter2 interface [App packaging and management],described, appxpackaging/IAppxPackageWriter2, appxpkg.iappxpackagewriter2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

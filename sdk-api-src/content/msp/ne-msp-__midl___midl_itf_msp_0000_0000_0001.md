@@ -1,16 +1,16 @@
 ---
 UID: NE:msp.__MIDL___MIDL_itf_msp_0000_0000_0001
 title: "__MIDL___MIDL_itf_msp_0000_0000_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MSP_ADDRESS_EVENT constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_ADDRESS_EVENT.
 old-location: tapi3\msp_address_event.htm
 old-project: Tapi
 ms.assetid: 35aecd05-badd-4509-92e5-1936ca075c37
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ADDRESS_TERMINAL_AVAILABLE, ADDRESS_TERMINAL_UNAVAILABLE, MSP_ADDRESS_EVENT, MSP_ADDRESS_EVENT enumeration [TAPI 2.2], __MIDL___MIDL_itf_msp_0000_0000_0001, _tapi3_msp_address_event, msp/ADDRESS_TERMINAL_AVAILABLE, msp/ADDRESS_TERMINAL_UNAVAILABLE, msp/MSP_ADDRESS_EVENT, tapi3.msp_address_event
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msp.h
 req.include-header: Tapi3.h

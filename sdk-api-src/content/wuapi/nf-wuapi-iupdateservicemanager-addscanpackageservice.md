@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager.AddScanPackageService
 title: IUpdateServiceManager::AddScanPackageService
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a scan package as a service with Windows Update Agent (WUA) and then returns an IUpdateService interface.
 old-location: wua\iupdateservicemanager_addscanpackageservice.htm
 old-project: Wua_Sdk
 ms.assetid: 5b0677bb-9f19-4bb4-9942-8ca3da18b29a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AddScanPackageService, AddScanPackageService method [Windows Update Agent], AddScanPackageService method [Windows Update Agent],IUpdateServiceManager interface, IUpdateServiceManager interface [Windows Update Agent],AddScanPackageService method, IUpdateServiceManager.AddScanPackageService, IUpdateServiceManager::AddScanPackageService, wua.iupdateservicemanager_addscanpackageservice, wuapi/IUpdateServiceManager::AddScanPackageService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

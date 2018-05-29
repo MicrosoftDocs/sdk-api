@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrAsyncServerCall
 title: NdrAsyncServerCall function
-author: windows-driver-content
+author: windows-sdk-content
 description: NdrAsyncServerCall is not intended to be directly called by applications.
 old-location: rpc\ndrasyncservercall.htm
 old-project: Rpc
 ms.assetid: 5AA8EFA3-E7A7-44F5-9FC8-7CA86D94746A
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: NdrAsyncServerCall, NdrAsyncServerCall function [RPC], rpc.ndrasyncservercall, rpcndr/NdrAsyncServerCall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

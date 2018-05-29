@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredReadA
 title: CredReadA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads a credential from the user's credential set.
 old-location: security\credread.htm
 old-project: SecAuthN
 ms.assetid: 3222de7b-5290-4e82-a382-b2db6afc78cc
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CredRead, CredRead function [Security], CredReadA, CredReadW, _cred_credread, security.credread, wincred/CredRead, wincred/CredReadA, wincred/CredReadW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

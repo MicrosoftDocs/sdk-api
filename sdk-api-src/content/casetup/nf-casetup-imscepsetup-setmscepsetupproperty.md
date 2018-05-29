@@ -1,16 +1,16 @@
 ---
 UID: NF:casetup.IMSCEPSetup.SetMSCEPSetupProperty
 title: IMSCEPSetup::SetMSCEPSetupProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a property value for a Network Device Enrollment Service (NDES) configuration.
 old-location: security\imscepsetup_setmscepsetupproperty.htm
 old-project: SecCrypto
 ms.assetid: 868f3e5f-1345-414b-a75f-d2e68213469b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IMSCEPSetup interface [Security],SetMSCEPSetupProperty method, IMSCEPSetup.SetMSCEPSetupProperty, IMSCEPSetup::SetMSCEPSetupProperty, SetMSCEPSetupProperty, SetMSCEPSetupProperty method [Security], SetMSCEPSetupProperty method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::SetMSCEPSetupProperty, security.imscepsetup_setmscepsetupproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

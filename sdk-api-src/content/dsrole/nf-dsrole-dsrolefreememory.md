@@ -1,16 +1,16 @@
 ---
 UID: NF:dsrole.DsRoleFreeMemory
 title: DsRoleFreeMemory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees memory allocated by the DsRoleGetPrimaryDomainInformation function.
 old-location: ad\dsrolefreememory.htm
 old-project: AD
 ms.assetid: 5560dfec-2134-4e02-9c87-26d246cd5841
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsRoleFreeMemory, DsRoleFreeMemory function [Active Directory], _glines_dsrolefreememory, ad.dsrolefreememory, dsrole/DsRoleFreeMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dsrole.h
 req.include-header: 

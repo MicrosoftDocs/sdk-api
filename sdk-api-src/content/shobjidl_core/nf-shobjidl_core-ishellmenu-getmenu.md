@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.GetMenu
 title: IShellMenu::GetMenu
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the menu information set by calling IShellMenu::SetMenu.
 old-location: shell\IShellMenu_GetMenu.htm
 old-project: shell
 ms.assetid: b366d9c9-5dd3-43ee-99a1-417b9d907855
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetMenu, GetMenu method [Windows Shell], GetMenu method [Windows Shell],IShellMenu interface, IShellMenu interface [Windows Shell],GetMenu method, IShellMenu.GetMenu, IShellMenu::GetMenu, _shell_IShellMenu_GetMenu, shell.IShellMenu_GetMenu, shobjidl_core/IShellMenu::GetMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

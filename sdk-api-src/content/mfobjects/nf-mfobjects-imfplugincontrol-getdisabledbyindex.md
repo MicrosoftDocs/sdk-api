@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFPluginControl.GetDisabledByIndex
 title: IMFPluginControl::GetDisabledByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a class identifier (CLSID) from the blocked list.
 old-location: mf\imfplugincontrol_imfplugincontrol__getdisabledbyindex.htm
 old-project: medfound
 ms.assetid: fae7ca09-3e37-444b-a4bc-bfd522917e3f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDisabledByIndex, GetDisabledByIndex method [Media Foundation], GetDisabledByIndex method [Media Foundation],IMFPluginControl interface, IMFPluginControl interface [Media Foundation],GetDisabledByIndex method, IMFPluginControl.GetDisabledByIndex, IMFPluginControl::GetDisabledByIndex, mf.imfplugincontrol_imfplugincontrol__getdisabledbyindex, mfobjects/IMFPluginControl::GetDisabledByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

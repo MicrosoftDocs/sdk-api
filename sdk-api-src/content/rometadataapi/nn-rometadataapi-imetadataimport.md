@@ -1,16 +1,16 @@
 ---
 UID: NN:rometadataapi.IMetaDataImport
 title: IMetaDataImport
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for importing and manipulating existing metadata from a portable executable (PE) file or other source, such as a type library or a stand-alone, run-time metadata binary.
 old-location: winrt\imetadataimport.htm
 old-project: WinRT
 ms.assetid: 5457d9d3-9a43-4e89-a52f-1254662ed92a
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IMetaDataImport, IMetaDataImport interface [Windows Runtime], IMetaDataImport interface [Windows Runtime],described, rometadataapi/IMetaDataImport, winrt.imetadataimport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rometadataapi.h
 req.include-header: 

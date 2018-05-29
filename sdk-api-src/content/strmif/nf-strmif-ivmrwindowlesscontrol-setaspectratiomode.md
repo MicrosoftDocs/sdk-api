@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.SetAspectRatioMode
 title: IVMRWindowlessControl::SetAspectRatioMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetAspectRatioMode method specifies whether the VMR will preserve the aspect ratio of the source video.
 old-location: dshow\ivmrwindowlesscontrol_setaspectratiomode.htm
 old-project: DirectShow
 ms.assetid: 421910fb-8007-4347-a57c-6a46b7b733b3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],SetAspectRatioMode method, IVMRWindowlessControl.SetAspectRatioMode, IVMRWindowlessControl::SetAspectRatioMode, IVMRWindowlessControlSetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_setaspectratiomode, strmif/IVMRWindowlessControl::SetAspectRatioMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

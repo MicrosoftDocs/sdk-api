@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetRedTableValue
 title: SetRedTableValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a value in the red table.
 old-location: directcomp\idcompositiontabletransfereffect_setredtablevalue_overloaded.htm
 old-project: directcomp
 ms.assetid: 9cfa766c-b88d-9a8f-109f-b42e9df79cbf
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionTableTransferEffect::SetRedTableValue, SetRedTableValue, SetRedTableValue methods [DirectComposition], dcomp/SetRedTableValue, directcomp.idcompositiontabletransfereffect_setredtablevalue_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

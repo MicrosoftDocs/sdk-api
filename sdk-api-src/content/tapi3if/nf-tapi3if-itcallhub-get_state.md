@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCallHub.get_State
 title: ITCallHub::get_State
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_State method gets the current state of the CallHub.
 old-location: tapi3\itcallhub_get_state.htm
 old-project: Tapi
 ms.assetid: 0ca4bbad-6822-4a8b-8df4-da6e630752f0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallHub interface [TAPI 2.2],get_State method, ITCallHub.get_State, ITCallHub::get_State, _tapi3_itcallhub_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITCallHub interface, tapi3.itcallhub_get_state, tapi3if/ITCallHub::get_State
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

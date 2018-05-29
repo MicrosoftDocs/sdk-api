@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerGroupConnect
 title: PeerGroupConnect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PeerGroupConnect function initiates a PNRP search for a peer group and attempts to connect to it. After this function is called successfully, a peer can communicate with other members of the peer group.
 old-location: p2p\peergroupconnect.htm
 old-project: P2PSdk
 ms.assetid: 240bcba7-29f9-4043-8203-e71175bee69a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerGroupConnect, PeerGroupConnect function [Peer Networking], p2p.peergroupconnect, p2p/PeerGroupConnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

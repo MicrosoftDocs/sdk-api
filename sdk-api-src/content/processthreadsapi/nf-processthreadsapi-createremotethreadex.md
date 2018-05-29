@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.CreateRemoteThreadEx
 title: CreateRemoteThreadEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a thread that runs in the virtual address space of another process and optionally specifies extended attributes such as processor group affinity.
 old-location: base\createremotethreadex.htm
 old-project: ProcThread
 ms.assetid: 9c2d9e20-7614-4010-9b8b-4f0e9bc2e6fe
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CREATE_SUSPENDED, CreateRemoteThreadEx, CreateRemoteThreadEx function, STACK_SIZE_PARAM_IS_A_RESERVATION, base.createremotethreadex, processthreadsapi/CreateRemoteThreadEx, winbase/CreateRemoteThreadEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2008  Windows Server 2008 R2, Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NL:textserv.ITextServices2
 title: ITextServices2
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITextServices2 interface extends the ITextServices interface.
 old-location: controls\itextservices2.htm
 old-project: Controls
 ms.assetid: B5DC90BA-F9A5-45DC-8C8A-784380C38769
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextServices2, ITextServices2 interface [Windows Controls], ITextServices2 interface [Windows Controls],described, controls.itextservices2, textserv/ITextServices2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: textserv.h
 req.include-header: 

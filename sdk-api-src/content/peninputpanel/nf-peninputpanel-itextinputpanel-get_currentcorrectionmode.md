@@ -1,16 +1,16 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_CurrentCorrectionMode
 title: ITextInputPanel::get_CurrentCorrectionMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the current correction comb mode as specified by the CorrectionMode Enumeration.
 old-location: tablet\itextinputpanel_currentcorrectionmode.htm
 old-project: tablet
 ms.assetid: 92cd44a0-4dc6-4882-9ebb-45aa5b3fbc69
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 92cd44a0-4dc6-4882-9ebb-45aa5b3fbc69, CurrentCorrectionMode property [Tablet PC], CurrentCorrectionMode property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],CurrentCorrectionMode property, ITextInputPanel.CurrentCorrectionMode, ITextInputPanel.get_CurrentCorrectionMode, ITextInputPanel::CurrentCorrectionMode, ITextInputPanel::get_CurrentCorrectionMode, get_CurrentCorrectionMode, peninputpanel/ITextInputPanel::CurrentCorrectionMode, peninputpanel/ITextInputPanel::get_CurrentCorrectionMode, tablet.itextinputpanel_currentcorrectionmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: peninputpanel.h
 req.include-header: 

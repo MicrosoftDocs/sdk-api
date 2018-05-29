@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_MailTo
 title: IFsrmReportJob::get_MailTo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the email addresses of those that will receive the reports via email.
 old-location: fsrm\ifsrmreportjob_mailto.htm
 old-project: Fsrm
 ms.assetid: 8ec5d65a-9729-4d68-bceb-b07a2f56755e
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],MailTo property, IFsrmReportJob.MailTo, IFsrmReportJob.get_MailTo, IFsrmReportJob::MailTo, IFsrmReportJob::get_MailTo, IFsrmReportJob::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_mailto, fsrm.ifsrmreportjob_mailto, fsrmreports/IFsrmReportJob::MailTo, fsrmreports/IFsrmReportJob::get_MailTo, fsrmreports/IFsrmReportJob::put_MailTo, get_MailTo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmreports.h
 req.include-header: 

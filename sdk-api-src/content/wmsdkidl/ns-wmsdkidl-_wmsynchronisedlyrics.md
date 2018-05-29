@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl._WMSynchronisedLyrics
 title: "_WMSynchronisedLyrics"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WM_SYNCHRONISED_LYRICS structure is used as the data item for the WM/Lyrics_Synchronised complex metadata attribute.
 old-location: wmformat\wm_synchronised_lyrics.htm
 old-project: wmformat
 ms.assetid: a8f47fcc-faf7-4a25-817a-f9199db38fbc
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WM_SYNCHRONISED_LYRICS, WM_SYNCHRONISED_LYRICS structure [windows Media Format], _WMSynchronisedLyrics, wmformat.wm_synchronised_lyrics, wmsdkidl/WM_SYNCHRONISED_LYRICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

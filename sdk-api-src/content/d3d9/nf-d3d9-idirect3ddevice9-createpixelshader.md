@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.CreatePixelShader
 title: IDirect3DDevice9::CreatePixelShader
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a pixel shader.
 old-location: direct3d9\idirect3ddevice9__createpixelshader.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createpixelshader.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: CreatePixelShader, CreatePixelShader method [Direct3D 9], CreatePixelShader method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreatePixelShader method, IDirect3DDevice9.CreatePixelShader, IDirect3DDevice9::CreatePixelShader, d3d9helper/IDirect3DDevice9::CreatePixelShader, dbb7453e-679d-3725-52e6-92748cf274cc, direct3d9.idirect3ddevice9__createpixelshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

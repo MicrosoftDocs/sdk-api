@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMediaSample.SetActualDataLength
 title: IMediaSample::SetActualDataLength
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetActualDataLength method sets the length of the valid data in the buffer.
 old-location: dshow\imediasample_setactualdatalength.htm
 old-project: DirectShow
 ms.assetid: db8a768e-7550-4165-8f87-308ec7f2e07f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMediaSample interface [DirectShow],SetActualDataLength method, IMediaSample.SetActualDataLength, IMediaSample::SetActualDataLength, IMediaSampleSetActualDataLength, SetActualDataLength, SetActualDataLength method [DirectShow], SetActualDataLength method [DirectShow],IMediaSample interface, dshow.imediasample_setactualdatalength, strmif/IMediaSample::SetActualDataLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

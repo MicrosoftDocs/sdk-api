@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventSubscription.GetSubscriberPropertyCollection
 title: IEventSubscription::GetSubscriberPropertyCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a collection of properties and values stored in the subscriber property bag.
 old-location: cos\ieventsubscription_getsubscriberpropertycollection.htm
 old-project: cossdk
 ms.assetid: 33d00424-a285-4953-aa96-be30d3e7da17
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetSubscriberPropertyCollection, GetSubscriberPropertyCollection method [COM+], GetSubscriberPropertyCollection method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetSubscriberPropertyCollection method, IEventSubscription.GetSubscriberPropertyCollection, IEventSubscription::GetSubscriberPropertyCollection, _cos_IEventSubscription_GetSubscriberPropertyCollection, cos.ieventsubscription_getsubscriberpropertycollection, eventsys/IEventSubscription::GetSubscriberPropertyCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

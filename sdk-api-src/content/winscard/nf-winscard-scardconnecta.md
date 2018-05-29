@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardConnectA
 title: SCardConnectA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Establishes a connection (using a specific resource manager context) between the calling application and a smart card contained by a specific reader. If no card exists in the specified reader, an error is returned.
 old-location: security\scardconnect.htm
 old-project: SecAuthN
 ms.assetid: 389ada98-383f-4b37-bf5d-c40577ef25fd
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: 0, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_PROTOCOL_UNDEFINED, SCARD_SHARE_DIRECT, SCARD_SHARE_EXCLUSIVE, SCARD_SHARE_SHARED, SCardConnect, SCardConnect function [Security], SCardConnectA, SCardConnectW, _smart_scardconnect, security.scardconnect, winscard/SCardConnect, winscard/SCardConnectA, winscard/SCardConnectW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

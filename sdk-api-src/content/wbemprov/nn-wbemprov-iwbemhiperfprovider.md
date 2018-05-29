@@ -1,16 +1,16 @@
 ---
 UID: NN:wbemprov.IWbemHiPerfProvider
 title: IWbemHiPerfProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables providers to supply refreshable objects and enumerators.
 old-location: wmi\iwbemhiperfprovider.htm
 old-project: WmiSdk
 ms.assetid: eb0d12c0-d746-4bae-b47d-50350d33447a
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemHiPerfProvider, IWbemHiPerfProvider interface [Windows Management Instrumentation], IWbemHiPerfProvider interface [Windows Management Instrumentation],described, _hmm_iwbemhiperfprovider, wbemprov/IWbemHiPerfProvider, wmi.iwbemhiperfprovider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wbemprov.h
 req.include-header: Wbemidl.h

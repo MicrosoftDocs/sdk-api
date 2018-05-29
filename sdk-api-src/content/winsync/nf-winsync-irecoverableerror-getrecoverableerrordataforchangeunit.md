@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IRecoverableError.GetRecoverableErrorDataForChangeUnit
 title: IRecoverableError::GetRecoverableErrorDataForChangeUnit
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets additional data about the recoverable error for a specified change unit.
 old-location: winsync\irecoverableerror_getrecoverableerrordataforchangeunit.htm
 old-project: winsync
 ms.assetid: 609ecdb0-b135-474f-b959-9ab6f427e5d6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetRecoverableErrorDataForChangeUnit, GetRecoverableErrorDataForChangeUnit method [Windows Sync], GetRecoverableErrorDataForChangeUnit method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetRecoverableErrorDataForChangeUnit method, IRecoverableError.GetRecoverableErrorDataForChangeUnit, IRecoverableError::GetRecoverableErrorDataForChangeUnit, winsync.irecoverableerror_getrecoverableerrordataforchangeunit, winsync/IRecoverableError::GetRecoverableErrorDataForChangeUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetLogonErrorRedirector
 title: IWRdsProtocolConnection::GetLogonErrorRedirector
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IWRdsProtocolLogonErrorRedirector interface that specifies how the protocol should handle client logon errors.
 old-location: termserv\iwrdsprotocolconnection_getlogonerrorredirector.htm
 old-project: TermServ
 ms.assetid: 9613330F-B8DE-48C7-892C-FB8F50739C13
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetLogonErrorRedirector, GetLogonErrorRedirector method [Remote Desktop Services], GetLogonErrorRedirector method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetLogonErrorRedirector method, IWRdsProtocolConnection.GetLogonErrorRedirector, IWRdsProtocolConnection::GetLogonErrorRedirector, termserv.iwrdsprotocolconnection_getlogonerrorredirector, wtsprotocol/IWRdsProtocolConnection::GetLogonErrorRedirector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

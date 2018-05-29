@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.GetMessage
 title: IFaxOutgoingArchive::GetMessage
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxOutgoingArchive::GetMessage method returns a fax message from the archive of outbound faxes by using the fax message ID.
 old-location: fax\_mfax_faxoutgoingarchive_getmessage_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7did_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetMessage, GetMessage method [Fax Service], GetMessage method [Fax Service],IFaxOutgoingArchive interface, IFaxOutgoingArchive interface [Fax Service],GetMessage method, IFaxOutgoingArchive.GetMessage, IFaxOutgoingArchive::GetMessage, _mfax_faxoutgoingarchive.getmessage_cpp, fax._mfax_faxoutgoingarchive_getmessage_cpp, faxcomex/IFaxOutgoingArchive::GetMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

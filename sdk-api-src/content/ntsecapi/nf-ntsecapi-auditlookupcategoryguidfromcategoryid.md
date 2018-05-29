@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.AuditLookupCategoryGuidFromCategoryId
 title: AuditLookupCategoryGuidFromCategoryId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a GUID structure that represents the specified audit-policy category.
 old-location: security\auditlookupcategoryguidfromcategoryid_func.htm
 old-project: SecAuthZ
 ms.assetid: 2f00fe52-2e94-473a-be13-252b50b58522
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AuditLookupCategoryGuidFromCategoryId, AuditLookupCategoryGuidFromCategoryId function [Security], ntsecapi/AuditLookupCategoryGuidFromCategoryId, security.auditlookupcategoryguidfromcategoryid_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

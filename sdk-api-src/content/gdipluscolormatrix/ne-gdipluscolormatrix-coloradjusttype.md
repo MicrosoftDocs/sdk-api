@@ -1,16 +1,16 @@
 ---
 UID: NE:gdipluscolormatrix.ColorAdjustType
 title: ColorAdjustType
-author: windows-driver-content
+author: windows-sdk-content
 description: The ColorAdjustType enumeration specifies which GDI+ objects use color-adjustment information.
 old-location: gdiplus\_gdiplus_ENUM_ColorAdjustType.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\coloradjusttype.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ColorAdjustType, ColorAdjustType enumeration [GDI+], ColorAdjustTypeAny, ColorAdjustTypeBitmap, ColorAdjustTypeBrush, ColorAdjustTypeCount, ColorAdjustTypeDefault, ColorAdjustTypePen, ColorAdjustTypeText, _gdiplus_ENUM_ColorAdjustType, gdiplus._gdiplus_ENUM_ColorAdjustType, gdipluscolormatrix/ColorAdjustType, gdipluscolormatrix/ColorAdjustTypeAny, gdipluscolormatrix/ColorAdjustTypeBitmap, gdipluscolormatrix/ColorAdjustTypeBrush, gdipluscolormatrix/ColorAdjustTypeCount, gdipluscolormatrix/ColorAdjustTypeDefault, gdipluscolormatrix/ColorAdjustTypePen, gdipluscolormatrix/ColorAdjustTypeText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdipluscolormatrix.h
 req.include-header: Gdiplus.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:madcapcl._MCAST_LEASE_REQUEST
 title: "_MCAST_LEASE_REQUEST"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCAST_LEASE_REQUEST structure defines the request, renew, or release parameters for a given multicast scope. In the MCAST_API_VERSION_1 implementation, only one IP address may be allocated at a time.
 old-location: madcap\mcast_lease_request.htm
 old-project: Madcap
 ms.assetid: 3110a1f3-e252-4eab-bf69-cbecfd65a5e0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PMCAST_LEASE_REQUEST, MCAST_LEASE_REQUEST, MCAST_LEASE_REQUEST structure [MADCAP], PMCAST_LEASE_REQUEST, PMCAST_LEASE_REQUEST structure pointer [MADCAP], _MCAST_LEASE_REQUEST, _mdhcp_mcast_lease_request, madcap.mcast_lease_request, madcapcl/MCAST_LEASE_REQUEST, madcapcl/PMCAST_LEASE_REQUEST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: madcapcl.h
 req.include-header: 

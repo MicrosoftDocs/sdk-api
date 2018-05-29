@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IObjectContextTip
 title: IObjectContextTip
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves properties describing the Transaction Internet Protocol (TIP) transaction context.
 old-location: cos\iobjectcontexttip.htm
 old-project: cossdk
 ms.assetid: 2fe4de87-e7ea-4120-8e37-5a26d836fcea
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IObjectContextTip, IObjectContextTip interface [COM+], IObjectContextTip interface [COM+],described, _cos_IObjectContextTip, comsvcs/IObjectContextTip, cos.iobjectcontexttip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

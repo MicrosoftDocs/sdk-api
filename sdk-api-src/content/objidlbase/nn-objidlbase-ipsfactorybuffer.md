@@ -1,16 +1,16 @@
 ---
 UID: NN:objidlbase.IPSFactoryBuffer
 title: IPSFactoryBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides custom methods for the creation of COM object proxies and stubs. This interface is not marshalable.
 old-location: com\ipsfactorybuffer.htm
 old-project: com
 ms.assetid: ffe85701-a4fa-4cf3-9b86-85f3a0cb63e9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPSFactoryBuffer, IPSFactoryBuffer interface [COM], IPSFactoryBuffer interface [COM],described, _com_ipsfactorybuffer, com.ipsfactorybuffer, objidlbase/IPSFactoryBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

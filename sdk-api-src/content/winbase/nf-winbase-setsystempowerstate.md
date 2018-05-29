@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetSystemPowerState
 title: SetSystemPowerState function
-author: windows-driver-content
+author: windows-sdk-content
 description: Suspends the system by shutting power down. Depending on the ForceFlag parameter, the function either suspends operation immediately or requests permission from all applications and device drivers before doing so.
 old-location: base\setsystempowerstate.htm
 old-project: Power
 ms.assetid: 58cf4e29-2a2e-499a-85ce-0034f4323cfe
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SetSystemPowerState, SetSystemPowerState function, _win32_setsystempowerstate, base.setsystempowerstate, winbase/SetSystemPowerState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

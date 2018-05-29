@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SetItemIndexState
 title: ListView_SetItemIndexState macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the state of a specified list-view item. Use this macro or send the LVM_SETITEMINDEXSTATE message explicitly.
 old-location: controls\ListView_SetItemIndexState.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemindexstate.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_SetItemIndexState, ListView_SetItemIndexState macro [Windows Controls], _shell_ListView_SetItemIndexState, _shell_ListView_SetItemIndexState_cpp, commctrl/ListView_SetItemIndexState, controls.ListView_SetItemIndexState, controls._shell_ListView_SetItemIndexState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

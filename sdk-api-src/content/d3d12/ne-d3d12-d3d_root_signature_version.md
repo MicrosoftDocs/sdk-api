@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D_ROOT_SIGNATURE_VERSION
 title: D3D_ROOT_SIGNATURE_VERSION
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the version of root signature layout.
 old-location: direct3d12\d3d_root_signature_version.htm
 old-project: direct3d12
 ms.assetid: 44A22509-5CAE-4C4E-ADC6-E86B5BD8CE3B
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D_ROOT_SIGNATURE_VERSION, D3D_ROOT_SIGNATURE_VERSION enumeration, D3D_ROOT_SIGNATURE_VERSION_1, D3D_ROOT_SIGNATURE_VERSION_1_0, D3D_ROOT_SIGNATURE_VERSION_1_1, d3d12/D3D_ROOT_SIGNATURE_VERSION, d3d12/D3D_ROOT_SIGNATURE_VERSION_1, d3d12/D3D_ROOT_SIGNATURE_VERSION_1_0, d3d12/D3D_ROOT_SIGNATURE_VERSION_1_1, direct3d12.d3d_root_signature_version
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QueryContentLocale
 title: ISearchQueryHelper::put_QueryContentLocale
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the language code identifier (LCID) of the query.
 old-location: search\_search_ISearchQueryHelper_put_QueryContentLocale.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querycontentlocale.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QueryContentLocale method, ISearchQueryHelper.put_QueryContentLocale, ISearchQueryHelper::put_QueryContentLocale, _search_ISearchQueryHelper_put_QueryContentLocale, put_QueryContentLocale, put_QueryContentLocale method [search], put_QueryContentLocale method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QueryContentLocale, searchapi/ISearchQueryHelper::put_QueryContentLocale
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

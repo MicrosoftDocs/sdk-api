@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFAsyncCallbackLogging.GetObjectPointer
 title: IMFAsyncCallbackLogging::GetObjectPointer
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the pointer to the parent object the async callback is associated with.
 old-location: mf\imfasynccallbacklogging_getobjectpointer.htm
 old-project: medfound
 ms.assetid: a2628b3f-37b7-4317-960e-cbd2339aade6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetObjectPointer, GetObjectPointer method [Media Foundation], GetObjectPointer method [Media Foundation],IMFAsyncCallbackLogging interface, IMFAsyncCallbackLogging interface [Media Foundation],GetObjectPointer method, IMFAsyncCallbackLogging.GetObjectPointer, IMFAsyncCallbackLogging::GetObjectPointer, mf.imfasynccallbacklogging_getobjectpointer, mfobjects/IMFAsyncCallbackLogging::GetObjectPointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: 

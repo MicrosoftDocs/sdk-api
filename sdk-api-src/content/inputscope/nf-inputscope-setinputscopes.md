@@ -1,16 +1,16 @@
 ---
 UID: NF:inputscope.SetInputScopes
 title: SetInputScopes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a combination of one input scope, multiple input scopes, one phrase list, a regular expression, and/or Speech Recognition Grammar Specification (SRGS) rules for the specified window.
 old-location: tsf\SetInputScopes.htm
 old-project: TSF
 ms.assetid: 28c0be9b-f42c-4ab1-a3af-9c591a5192dd
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: SetInputScopes, SetInputScopes function [Text Services Framework], inputscope/SetInputScopes, tsf.SetInputScopes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: inputscope.h
 req.include-header: 

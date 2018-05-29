@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10Device.IAGetVertexBuffers
 title: ID3D10Device::IAGetVertexBuffers
-author: windows-driver-content
+author: windows-sdk-content
 description: Get the vertex buffers bound to the input-assembler stage.
 old-location: direct3d10\id3d10device_iagetvertexbuffers.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iagetvertexbuffers.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 8b5abcbf-002c-c104-ad3f-1b179ff1df50, IAGetVertexBuffers, IAGetVertexBuffers method [Direct3D 10], IAGetVertexBuffers method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IAGetVertexBuffers method, ID3D10Device.IAGetVertexBuffers, ID3D10Device::IAGetVertexBuffers, d3d10/ID3D10Device::IAGetVertexBuffers, direct3d10.id3d10device_iagetvertexbuffers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

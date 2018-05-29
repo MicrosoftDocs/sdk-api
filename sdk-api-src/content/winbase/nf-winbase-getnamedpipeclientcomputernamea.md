@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetNamedPipeClientComputerNameA
 title: GetNamedPipeClientComputerNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the client computer name for the specified named pipe.
 old-location: base\getnamedpipeclientcomputername.htm
 old-project: ipc
 ms.assetid: 8daa97fe-0ef7-4ada-a99c-aff487ad27e5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetNamedPipeClientComputerName, GetNamedPipeClientComputerName function, GetNamedPipeClientComputerNameA, GetNamedPipeClientComputerNameW, base.getnamedpipeclientcomputername, winbase/GetNamedPipeClientComputerName, winbase/GetNamedPipeClientComputerNameA, winbase/GetNamedPipeClientComputerNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

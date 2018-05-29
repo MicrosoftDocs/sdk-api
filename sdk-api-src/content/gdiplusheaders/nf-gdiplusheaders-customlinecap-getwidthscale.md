@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.GetWidthScale
 title: CustomLineCap::GetWidthScale
-author: windows-driver-content
+author: windows-sdk-content
 description: The CustomLineCap::GetWidthScale method gets the value of the scale width. This is the amount to scale the custom line cap relative to the width of the Pen object used to draw a line. The default value of 1.0 does not scale the line cap.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetWidthScale_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getwidthscale.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CustomLineCap class [GDI+],GetWidthScale method, CustomLineCap.GetWidthScale, CustomLineCap::GetWidthScale, GetWidthScale, GetWidthScale method [GDI+], GetWidthScale method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetWidthScale_, gdiplus._gdiplus_CLASS_CustomLineCap_GetWidthScale_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaAddAccountRights
 title: LsaAddAccountRights function
-author: windows-driver-content
+author: windows-sdk-content
 description: Assigns one or more privileges to an account.
 old-location: security\lsaaddaccountrights.htm
 old-project: SecMgmt
 ms.assetid: 66b78404-02c2-48e9-92c3-d27b68f77c23
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaAddAccountRights, LsaAddAccountRights function [Security], _lsa_lsaaddaccountrights, ntsecapi/LsaAddAccountRights, security.lsaaddaccountrights
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

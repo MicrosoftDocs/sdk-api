@@ -1,16 +1,16 @@
 ---
 UID: NI:tcpioctl.IOCTL_TCP_QUERY_INFORMATION_EX
 title: IOCTL_TCP_QUERY_INFORMATION_EX
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information from the TCP/IP driver.
 old-location: winprog\ioctl_tcp_query_information_ex.htm
 old-project: DevNotes
 ms.assetid: b992b585-e1c8-4262-a6e0-ad8b5047620f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IOCTL_TCP_QUERY_INFORMATION_EX, IOCTL_TCP_QUERY_INFORMATION_EX control, IOCTL_TCP_QUERY_INFORMATION_EX control code [Windows API], tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX, winprog.ioctl_tcp_query_information_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: tcpioctl.h
 req.include-header: 

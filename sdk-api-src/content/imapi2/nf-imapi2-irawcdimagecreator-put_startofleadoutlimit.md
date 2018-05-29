@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.put_StartOfLeadoutLimit
 title: IRawCDImageCreator::put_StartOfLeadoutLimit
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the StartOfLeadoutLimit property value.
 old-location: imapi\irawcdimagecreator_put_startofleadoutlimit.htm
 old-project: imapi
 ms.assetid: e3483084-8339-4fe6-abd1-832832c549f3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],put_StartOfLeadoutLimit method, IRawCDImageCreator.put_StartOfLeadoutLimit, IRawCDImageCreator::put_StartOfLeadoutLimit, imapi.irawcdimagecreator_put_startofleadoutlimit, imapi2/IRawCDImageCreator::put_StartOfLeadoutLimit, put_StartOfLeadoutLimit, put_StartOfLeadoutLimit method [IMAPI], put_StartOfLeadoutLimit method [IMAPI],IRawCDImageCreator interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

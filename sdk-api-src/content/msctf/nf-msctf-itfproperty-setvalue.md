@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfProperty.SetValue
 title: ITfProperty::SetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfProperty::SetValue method
 old-location: tsf\itfproperty_setvalue.htm
 old-project: TSF
 ms.assetid: 72064f9f-311e-4d7b-9ead-4fe2b7f528a8
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfProperty interface [Text Services Framework],SetValue method, ITfProperty.SetValue, ITfProperty::SetValue, SetValue, SetValue method [Text Services Framework], SetValue method [Text Services Framework],ITfProperty interface, _tsf_itfproperty_setvalue_ref, msctf/ITfProperty::SetValue, tsf.itfproperty_setvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

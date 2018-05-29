@@ -1,16 +1,16 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0010
 title: "__MIDL___MIDL_itf_pla_0001_0043_0010"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines how folders are deleted when one of the disk resource limits is exceeded.
 old-location: pla\resourcepolicy.htm
 old-project: PLA
 ms.assetid: 6dbe0a60-d2f9-4e76-81d9-d9891c08109a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ResourcePolicy, ResourcePolicy enumeration [PLA], __MIDL___MIDL_itf_pla_0001_0043_0010, base.resourcepolicy, pla.resourcepolicy, pla/ResourcePolicy, pla/plaDeleteLargest, pla/plaDeleteOldest, plaDeleteLargest, plaDeleteOldest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: pla.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.ATTACHMENT_PROMPT
 title: ATTACHMENT_PROMPT
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a set of flags to be used with IAttachmentExecute::Prompt to indicate the type of prompt UI to display.
 old-location: shell\ATTACHMENT_PROMPT.htm
 old-project: shell
 ms.assetid: a19bdff0-3b02-44f4-906a-2e1b85685c52
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ATTACHMENT_PROMPT, ATTACHMENT_PROMPT enumeration [Windows Shell], ATTACHMENT_PROMPT_EXEC, ATTACHMENT_PROMPT_EXEC_OR_SAVE, ATTACHMENT_PROMPT_NONE, ATTACHMENT_PROMPT_SAVE, _win32_ATTACHMENT_PROMPT, shell.ATTACHMENT_PROMPT, shobjidl_core/ATTACHMENT_PROMPT, shobjidl_core/ATTACHMENT_PROMPT_EXEC, shobjidl_core/ATTACHMENT_PROMPT_EXEC_OR_SAVE, shobjidl_core/ATTACHMENT_PROMPT_NONE, shobjidl_core/ATTACHMENT_PROMPT_SAVE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

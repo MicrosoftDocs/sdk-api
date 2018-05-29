@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.Edit_GetHilite
 title: Edit_GetHilite macro
-author: windows-driver-content
+author: windows-sdk-content
 description: This macro is not implemented.
 old-location: controls\Edit_GetHilite.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_gethilite.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Edit_GetHilite, Edit_GetHilite macro [Windows Controls], _shell_Edit_GetHilite, _shell_Edit_GetHilite_cpp, commctrl/Edit_GetHilite, controls.Edit_GetHilite, controls._shell_Edit_GetHilite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

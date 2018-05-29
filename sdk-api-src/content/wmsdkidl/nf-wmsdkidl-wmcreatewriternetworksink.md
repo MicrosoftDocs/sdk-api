@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.WMCreateWriterNetworkSink
 title: WMCreateWriterNetworkSink function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMCreateWriterNetworkSink function creates a writer network sink object.
 old-location: wmformat\wmcreatewriternetworksink.htm
 old-project: wmformat
 ms.assetid: 5d391867-dece-4d40-80e2-99071d332984
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMCreateWriterNetworkSink, WMCreateWriterNetworkSink function [windows Media Format], wmformat.wmcreatewriternetworksink, wmsdkidl/WMCreateWriterNetworkSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

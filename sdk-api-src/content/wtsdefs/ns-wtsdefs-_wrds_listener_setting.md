@@ -1,16 +1,16 @@
 ---
 UID: NS:wtsdefs._WRDS_LISTENER_SETTING
 title: "_WRDS_LISTENER_SETTING"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains different levels of listener settings for a remote desktop connection.
 old-location: termserv\wrds_listener_setting.htm
 old-project: TermServ
 ms.assetid: F7EF3E44-70B7-437C-9810-982802F86C77
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PWRDS_LISTENERN_SETTING, PWRDS_LISTENER_SETTING, PWRDS_LISTENER_SETTING union pointer [Remote Desktop Services], WRDS_LISTENER_SETTING, WRDS_LISTENER_SETTING union [Remote Desktop Services], _WRDS_LISTENER_SETTING, termserv.wrds_listener_setting, wtsdefs/PWRDS_LISTENER_SETTING, wtsdefs/WRDS_LISTENER_SETTING"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h

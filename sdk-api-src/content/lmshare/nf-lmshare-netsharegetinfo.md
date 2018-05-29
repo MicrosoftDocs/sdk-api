@@ -1,16 +1,16 @@
 ---
 UID: NF:lmshare.NetShareGetInfo
 title: NetShareGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about a particular shared resource on a server.
 old-location: fs\netsharegetinfo.htm
 old-project: NetShare
 ms.assetid: 672ea208-4048-4d2f-9606-ee3e2133765b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: 0, 1, 1005, 2, 501, 502, 503, NetShareGetInfo, NetShareGetInfo function [Files], _win32_netsharegetinfo, fs.netsharegetinfo, lmshare/NetShareGetInfo, netmgmt.netsharegetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmshare.h
 req.include-header: Lm.h

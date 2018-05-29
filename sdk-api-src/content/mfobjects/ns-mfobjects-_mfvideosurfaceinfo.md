@@ -1,16 +1,16 @@
 ---
 UID: NS:mfobjects._MFVideoSurfaceInfo
 title: "_MFVideoSurfaceInfo"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an uncompressed video format. This structure is used in the MFVIDEOFORMAT structure.
 old-location: mf\mfvideosurfaceinfo.htm
 old-project: medfound
 ms.assetid: b48099a2-8427-496c-9a60-ace5b89d81e9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFVideoSurfaceInfo, MFVideoSurfaceInfo structure [Media Foundation], _MFVideoSurfaceInfo, b48099a2-8427-496c-9a60-ace5b89d81e9, mf.mfvideosurfaceinfo, mfobjects/MFVideoSurfaceInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mfobjects.h
 req.include-header: Mfidl.h

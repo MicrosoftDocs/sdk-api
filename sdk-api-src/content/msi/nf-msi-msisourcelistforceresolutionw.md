@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiSourceListForceResolutionW
 title: MsiSourceListForceResolutionW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiSourceListForceResolution function forces the installer to search the source list for a valid product source the next time a source is required.
 old-location: setup\msisourcelistforceresolution.htm
 old-project: Msi
 ms.assetid: b58747bf-65db-4563-b09a-0b05d2cf62ea
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiSourceListForceResolution, MsiSourceListForceResolution function, MsiSourceListForceResolutionA, MsiSourceListForceResolutionW, _msi_msisourcelistforceresolution, msi/MsiSourceListForceResolution, msi/MsiSourceListForceResolutionA, msi/MsiSourceListForceResolutionW, setup.msisourcelistforceresolution
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._CREATE_DISK
 title: "_CREATE_DISK"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that the IOCTL_DISK_CREATE_DISK control code uses to initialize GUID partition table (GPT), master boot record (MBR), or raw disks.
 old-location: fs\create_disk_str.htm
 old-project: FileIO
 ms.assetid: ec4a1ef9-ff2e-41b3-951b-241c545f256b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PCREATE_DISK, CREATE_DISK, CREATE_DISK structure [Files], PCREATE_DISK, PCREATE_DISK structure pointer [Files], _CREATE_DISK, _win32_create_disk_str, base.create_disk_str, fs.create_disk_str, winioctl/CREATE_DISK, winioctl/PCREATE_DISK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

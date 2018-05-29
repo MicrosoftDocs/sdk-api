@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdbase._WSD_CONFIG_ADDRESSES
 title: "_WSD_CONFIG_ADDRESSES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Information about specific addresses that a host should listen on.
 old-location: ncd\wsd_config_addresses.htm
 old-project: WsdApi
 ms.assetid: aaec97f4-c0b9-49d3-ab4c-758feda15d6a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PWSD_CONFIG_ADDRESSES, WSD_CONFIG_ADDRESSES, WSD_CONFIG_ADDRESSES structure, _WSD_CONFIG_ADDRESSES, ncd.wsd_config_addresses, wsdbase/WSD_CONFIG_ADDRESSES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdbase.h
 req.include-header: Windows.h

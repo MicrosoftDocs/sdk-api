@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.MCIWndStep
 title: MCIWndStep macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCIWndStep macro moves the current position in the content forward or backward by a specified increment. You can use this macro or explicitly send the MCI_STEP command.
 old-location: multimedia\mciwndstep.htm
 old-project: Multimedia
 ms.assetid: 4490901c-a58c-465c-a7b3-230456848da3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MCIWndStep, MCIWndStep macro [Windows Multimedia], _win32_MCIWndStep, multimedia.mciwndstep, vfw/MCIWndStep
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

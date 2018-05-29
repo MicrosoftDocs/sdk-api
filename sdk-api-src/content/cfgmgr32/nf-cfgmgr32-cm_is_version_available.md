@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Is_Version_Available
 title: CM_Is_Version_Available function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Is_Version_Available function indicates whether a specified version of the Plug and Play (PnP) Configuration Manager DLL (Cfgmgr32.dll) is supported by a local machine.
 old-location: devinst\cm_is_version_available.htm
 old-project: devinst
 ms.assetid: a7a1e8d0-7645-423a-8123-a58ed7ae9827
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Is_Version_Available, CM_Is_Version_Available function [Device and Driver Installation], cfgmgr32/CM_Is_Version_Available, cfgmgrfn_dfae29e5-44ab-4bbc-b104-5ccd4914eea0.xml, devinst.cm_is_version_available
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

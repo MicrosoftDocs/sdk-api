@@ -1,16 +1,16 @@
 ---
 UID: NE:mfplay.MFP_MEDIAPLAYER_STATE
 title: MFP_MEDIAPLAYER_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the current playback state.
 old-location: mf\mfp_mediaplayer_state.htm
 old-project: medfound
 ms.assetid: a0d5c840-a1aa-48cf-bf2e-7e5c35951fb6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFP_MEDIAPLAYER_STATE, MFP_MEDIAPLAYER_STATE enumeration [Media Foundation], MFP_MEDIAPLAYER_STATE_EMPTY, MFP_MEDIAPLAYER_STATE_PAUSED, MFP_MEDIAPLAYER_STATE_PLAYING, MFP_MEDIAPLAYER_STATE_SHUTDOWN, MFP_MEDIAPLAYER_STATE_STOPPED, mf.mfp_mediaplayer_state, mfplay/MFP_MEDIAPLAYER_STATE, mfplay/MFP_MEDIAPLAYER_STATE_EMPTY, mfplay/MFP_MEDIAPLAYER_STATE_PAUSED, mfplay/MFP_MEDIAPLAYER_STATE_PLAYING, mfplay/MFP_MEDIAPLAYER_STATE_SHUTDOWN, mfplay/MFP_MEDIAPLAYER_STATE_STOPPED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfplay.h
 req.include-header: 

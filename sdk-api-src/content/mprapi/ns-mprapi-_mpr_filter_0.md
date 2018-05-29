@@ -1,16 +1,16 @@
 ---
 UID: NS:mprapi._MPR_FILTER_0
 title: "_MPR_FILTER_0"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains static filter configuration information.
 old-location: rras\mpr_filter_0.htm
 old-project: RRAS
 ms.assetid: f930b145-554b-40ea-ace0-60978ed428c1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PMPR_FILTER_0, MPR_FILTER_0, MPR_FILTER_0 structure [RAS], PMPR_FILTER_0, PMPR_FILTER_0 structure pointer [RAS], _MPR_FILTER_0, mprapi/MPR_FILTER_0, mprapi/PMPR_FILTER_0, rras.mpr_filter_0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

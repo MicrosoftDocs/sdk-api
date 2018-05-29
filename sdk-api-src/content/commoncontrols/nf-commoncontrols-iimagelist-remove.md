@@ -1,16 +1,16 @@
 ---
 UID: NF:commoncontrols.IImageList.Remove
 title: IImageList::Remove
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an image from an image list.
 old-location: controls\IImageList_Remove.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\remove.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IImageList interface [Windows Controls],Remove method, IImageList.Remove, IImageList::Remove, Remove, Remove method [Windows Controls], Remove method [Windows Controls],IImageList interface, comctl_IImageList_Remove, comctl_IImageList_Remove_cpp, commoncontrols/IImageList::Remove, controls.IImageList_Remove, controls.comctl_IImageList_Remove
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: commoncontrols.h
 req.include-header: 

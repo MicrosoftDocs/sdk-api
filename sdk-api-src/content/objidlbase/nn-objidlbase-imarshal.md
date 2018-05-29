@@ -1,16 +1,16 @@
 ---
 UID: NN:objidlbase.IMarshal
 title: IMarshal
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a COM object to define and manage the marshaling of its interface pointers.
 old-location: com\imarshal.htm
 old-project: com
 ms.assetid: e6f08949-f27d-4aba-adff-eaf9c356a928
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMarshal, IMarshal interface [COM], IMarshal interface [COM],described, _com_imarshal, com.imarshal, objidlbase/IMarshal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

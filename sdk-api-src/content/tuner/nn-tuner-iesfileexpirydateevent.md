@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IESFileExpiryDateEvent
 title: IESFileExpiryDateEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information from a FileExpiryDate event.
 old-location: mstv\iesfileexpirydateevent.htm
 old-project: mstv
 ms.assetid: 6c89a3ee-7d69-4cde-b1e5-b566fa1c2ca3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IESFileExpiryDateEvent, IESFileExpiryDateEvent interface [Microsoft TV Technologies], IESFileExpiryDateEvent interface [Microsoft TV Technologies],described, mstv.iesfileexpirydateevent, tuner/IESFileExpiryDateEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

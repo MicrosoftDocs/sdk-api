@@ -1,16 +1,16 @@
 ---
 UID: NF:pathcch.PathCchStripPrefix
 title: PathCchStripPrefix function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the &#0034;\\?\&#0034; prefix, if present, from a file path.
 old-location: shell\PathCchStripPrefix.htm
 old-project: shell
 ms.assetid: 2e50b23e-2725-4200-bd5e-845ff3458026
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathCchStripPrefix, PathCchStripPrefix function [Windows Shell], pathcch/PathCchStripPrefix, shell.PathCchStripPrefix
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: pathcch.h
 req.include-header: 

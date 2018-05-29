@@ -1,16 +1,16 @@
 ---
 UID: NF:traffic.TcModifyFlow
 title: TcModifyFlow function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TcModifyFlow function modifies an existing flow. When calling TcModifyFlow, new Flowspec parameters and any traffic control objects should be filled.
 old-location: qos\tcmodifyflow.htm
 old-project: QOS
 ms.assetid: e1b5d987-8365-4fea-a88b-0d574749b38a
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: TcModifyFlow, TcModifyFlow function [QOS], _gqos_tcmodifyflow, qos.tcmodifyflow, traffic/TcModifyFlow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

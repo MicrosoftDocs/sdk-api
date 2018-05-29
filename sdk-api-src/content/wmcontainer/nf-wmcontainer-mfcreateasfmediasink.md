@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.MFCreateASFMediaSink
 title: MFCreateASFMediaSink function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates the ASF media sink.
 old-location: mf\mfcreateasfmediasink.htm
 old-project: medfound
 ms.assetid: d800ac91-f6cc-4f57-9080-4bbafb42d7ed
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateASFMediaSink, MFCreateASFMediaSink function [Media Foundation], d800ac91-f6cc-4f57-9080-4bbafb42d7ed, mf.mfcreateasfmediasink, wmcontainer/MFCreateASFMediaSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wmcontainer.h
 req.include-header: 

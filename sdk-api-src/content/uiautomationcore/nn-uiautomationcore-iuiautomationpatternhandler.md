@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.IUIAutomationPatternHandler
 title: IUIAutomationPatternHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a client API wrapper object and to unmarshal property and method requests to an actual provider instance.
 old-location: winauto\uiauto_IUIAutomationPatternHandler.htm
 old-project: WinAuto
 ms.assetid: 6d0edd8e-3fd4-47d6-ab53-582eb81f38bd
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationPatternHandler, IUIAutomationPatternHandler interface [Windows Accessibility], IUIAutomationPatternHandler interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationPatternHandler, uiauto_IUIAutomationPatternHandler, uiautomationcore/IUIAutomationPatternHandler, winauto.uiauto_IUIAutomationPatternHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

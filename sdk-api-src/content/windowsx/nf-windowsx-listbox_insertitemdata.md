@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.ListBox_InsertItemData
 title: ListBox_InsertItemData macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts item data to a list box at the specified location. You can use this macro or send the LB_INSERTSTRING message explicitly.
 old-location: controls\ListBox_InsertItemData.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_insertitemdata.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListBox_InsertItemData, ListBox_InsertItemData macro [Windows Controls], _win32_ListBox_InsertItemData, _win32_ListBox_InsertItemData_cpp, controls.ListBox_InsertItemData, controls._win32_ListBox_InsertItemData, windowsx/ListBox_InsertItemData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetObjectText
 title: IWbemClassObject::GetObjectText
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemClassObject::GetObjectText method returns a textual rendering of the object in the MOF syntax.
 old-location: wmi\iwbemclassobject_getobjecttext.htm
 old-project: WmiSdk
 ms.assetid: 7e874e9a-7417-4b3f-95c5-398fe92bfdf8
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetObjectText, GetObjectText method [Windows Management Instrumentation], GetObjectText method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetObjectText method, IWbemClassObject.GetObjectText, IWbemClassObject::GetObjectText, _hmm_iwbemclassobject_getobjecttext, wbemcli/IWbemClassObject::GetObjectText, wmi.iwbemclassobject_getobjecttext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

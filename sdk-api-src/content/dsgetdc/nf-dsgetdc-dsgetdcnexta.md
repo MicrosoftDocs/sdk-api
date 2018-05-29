@@ -1,16 +1,16 @@
 ---
 UID: NF:dsgetdc.DsGetDcNextA
 title: DsGetDcNextA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the next domain controller in a domain controller enumeration operation.
 old-location: ad\dsgetdcnext.htm
 old-project: AD
 ms.assetid: 2906772f-4391-411b-b0a9-5a20ebb6c0ee
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsGetDcNext, DsGetDcNext function [Active Directory], DsGetDcNextA, DsGetDcNextW, ad.dsgetdcnext, dsgetdc/DsGetDcNext, dsgetdc/DsGetDcNextA, dsgetdc/DsGetDcNextW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dsgetdc.h
 req.include-header: 

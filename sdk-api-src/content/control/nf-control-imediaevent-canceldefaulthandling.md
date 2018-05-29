@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IMediaEvent.CancelDefaultHandling
 title: IMediaEvent::CancelDefaultHandling
-author: windows-driver-content
+author: windows-sdk-content
 description: The CancelDefaultHandling method cancels the Filter Graph Manager's default handling for a specified event. The event notification is passed to the application.
 old-location: dshow\imediaevent_canceldefaulthandling.htm
 old-project: DirectShow
 ms.assetid: 955d0494-8418-42a1-ab6e-2c779165f578
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CancelDefaultHandling, CancelDefaultHandling method [DirectShow], CancelDefaultHandling method [DirectShow],IMediaEvent interface, IMediaEvent interface [DirectShow],CancelDefaultHandling method, IMediaEvent.CancelDefaultHandling, IMediaEvent::CancelDefaultHandling, IMediaEventCancelDefaultHandling, control/IMediaEvent::CancelDefaultHandling, dshow.imediaevent_canceldefaulthandling
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

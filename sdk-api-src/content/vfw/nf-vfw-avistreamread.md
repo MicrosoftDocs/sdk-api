@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamRead
 title: AVIStreamRead function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamRead function reads audio, video or other data from a stream according to the stream type.
 old-location: multimedia\avistreamread.htm
 old-project: Multimedia
 ms.assetid: 9490d46f-b11d-466b-a756-092df2db0306
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamRead, AVIStreamRead function [Windows Multimedia], _win32_AVIStreamRead, multimedia.avistreamread, vfw/AVIStreamRead
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

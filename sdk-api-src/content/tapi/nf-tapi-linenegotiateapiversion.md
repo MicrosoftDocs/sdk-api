@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineNegotiateAPIVersion
 title: lineNegotiateAPIVersion function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineNegotiateAPIVersion function allows an application to negotiate an API version to use.
 old-location: tapi2\linenegotiateapiversion.htm
 old-project: Tapi
 ms.assetid: 71eb55de-281b-42a9-8d9b-7ded62cb006a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linenegotiateapiversion, lineNegotiateAPIVersion, lineNegotiateAPIVersion function [TAPI 2.2], tapi/lineNegotiateAPIVersion, tapi2.linenegotiateapiversion"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

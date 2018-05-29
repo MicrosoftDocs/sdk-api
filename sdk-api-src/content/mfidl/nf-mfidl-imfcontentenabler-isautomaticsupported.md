@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.IsAutomaticSupported
 title: IMFContentEnabler::IsAutomaticSupported
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries whether the content enabler can perform all of its actions automatically.
 old-location: mf\imfcontentenabler_isautomaticsupported.htm
 old-project: medfound
 ms.assetid: 144470ce-2849-4464-8596-fac216529145
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 144470ce-2849-4464-8596-fac216529145, IMFContentEnabler interface [Media Foundation],IsAutomaticSupported method, IMFContentEnabler.IsAutomaticSupported, IMFContentEnabler::IsAutomaticSupported, IsAutomaticSupported, IsAutomaticSupported method [Media Foundation], IsAutomaticSupported method [Media Foundation],IMFContentEnabler interface, mf.imfcontentenabler_isautomaticsupported, mfidl/IMFContentEnabler::IsAutomaticSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

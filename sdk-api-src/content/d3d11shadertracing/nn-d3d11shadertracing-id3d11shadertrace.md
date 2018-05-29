@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11shadertracing.ID3D11ShaderTrace
 title: ID3D11ShaderTrace
-author: windows-driver-content
+author: windows-sdk-content
 description: An ID3D11ShaderTrace interface implements methods for obtaining traces of shader executions.
 old-location: direct3d11\id3d11shadertrace.htm
 old-project: direct3d11
 ms.assetid: 27FF1E53-262A-4642-A4A8-7E21163C6DF9
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11ShaderTrace, ID3D11ShaderTrace interface [Direct3D 11], ID3D11ShaderTrace interface [Direct3D 11],described, d3d11shadertracing/ID3D11ShaderTrace, direct3d11.id3d11shadertrace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11shadertracing.h
 req.include-header: 

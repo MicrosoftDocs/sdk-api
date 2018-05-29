@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.InitOnceInitialize
 title: InitOnceInitialize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a one-time initialization structure.
 old-location: base\initonceinitialize.htm
 old-project: Sync
 ms.assetid: f2943ac5-0e43-4f07-8941-952383e2fa08
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: InitOnceInitialize, InitOnceInitialize function, base.initonceinitialize, synchapi/InitOnceInitialize, winbase/InitOnceInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

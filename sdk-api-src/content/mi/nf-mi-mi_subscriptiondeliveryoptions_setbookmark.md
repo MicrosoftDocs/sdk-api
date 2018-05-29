@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetBookmark
 title: MI_SubscriptionDeliveryOptions_SetBookmark function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a bookmark for subscription indication delivery.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setbookmark.htm
 old-project: wmi_v2
 ms.assetid: 9450dde9-fcd6-41c9-a1cb-2dce308653b8
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_SUBSCRIBE_BOOKMARK_NEWEST, MI_SUBSCRIBE_BOOKMARK_OLDEST, MI_SubscriptionDeliveryOptions_SetBookmark, MI_SubscriptionDeliveryOptions_SetBookmark function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetBookmark, wmi_v2.mi_subscriptiondeliveryoptions_setbookmark
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

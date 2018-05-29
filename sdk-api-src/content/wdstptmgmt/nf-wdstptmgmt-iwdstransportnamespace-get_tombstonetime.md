@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_TombstoneTime
 title: IWdsTransportNamespace::get_TombstoneTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the UTC date and time when the server saved the namespace object of a deregistered namespace.
 old-location: wds\iwdstransportnamespace_tombstonetime.htm
 old-project: Wds
 ms.assetid: 95516e2b-40e3-4da8-9ca0-0f96a8e6cb13
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],TombstoneTime property, IWdsTransportNamespace.TombstoneTime, IWdsTransportNamespace.get_TombstoneTime, IWdsTransportNamespace::TombstoneTime, IWdsTransportNamespace::get_TombstoneTime, TombstoneTime property [Windows Deployment Services], TombstoneTime property [Windows Deployment Services],IWdsTransportNamespace interface, get_TombstoneTime, wds.iwdstransportnamespace_tombstonetime, wdstptmgmt/IWdsTransportNamespace::TombstoneTime, wdstptmgmt/IWdsTransportNamespace::get_TombstoneTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

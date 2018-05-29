@@ -1,16 +1,16 @@
 ---
 UID: NS:wsrm._RM_FEC_INFO
 title: "_RM_FEC_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The RM_FEC_INFO structure specifies settings for using forward error correction (FEC) with Reliable Multicast. This structure is used with the RM_USE_FEC socket option.
 old-location: winsock\rm_fec_info.htm
 old-project: WinSock
 ms.assetid: c5dcf0fd-dffc-473b-a8f2-0abbaa0ec446
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: RM_FEC_INFO, RM_FEC_INFO structure [Winsock], _RM_FEC_INFO, winsock.rm_fec_info, wsrm/RM_FEC_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsrm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CachedWindowVisualState
 title: IUIAutomationWindowPattern::get_CachedWindowVisualState
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a cached value that indicates the visual state of the window; that is, whether it is in the normal, maximized, or minimized state.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedWindowVisualState.htm
 old-project: WinAuto
 ms.assetid: 49e1a441-0ba8-4b76-afe8-6b81a489ff92
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedWindowVisualState property [Windows Accessibility], CachedWindowVisualState property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedWindowVisualState property, IUIAutomationWindowPattern.CachedWindowVisualState, IUIAutomationWindowPattern.get_CachedWindowVisualState, IUIAutomationWindowPattern::CachedWindowVisualState, IUIAutomationWindowPattern::get_CachedWindowVisualState, get_CachedWindowVisualState, uiauto.uiauto_IUIAutomationWindowPattern_CachedWindowVisualState, uiauto_IUIAutomationWindowPattern_CachedWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::CachedWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::get_CachedWindowVisualState, winauto.uiauto_IUIAutomationWindowPattern_CachedWindowVisualState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

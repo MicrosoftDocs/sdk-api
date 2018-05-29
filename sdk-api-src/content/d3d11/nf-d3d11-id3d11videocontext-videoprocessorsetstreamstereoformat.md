@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamStereoFormat
 title: ID3D11VideoContext::VideoProcessorSetStreamStereoFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables stereo 3D video for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamstereoformat.htm
 old-project: medfound
 ms.assetid: FAAE902A-622E-42D2-B332-CD4126A4182E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamStereoFormat method, ID3D11VideoContext.VideoProcessorSetStreamStereoFormat, ID3D11VideoContext::VideoProcessorSetStreamStereoFormat, VideoProcessorSetStreamStereoFormat, VideoProcessorSetStreamStereoFormat method [Media Foundation], VideoProcessorSetStreamStereoFormat method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamStereoFormat, mf.id3d11videocontext_videoprocessorsetstreamstereoformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

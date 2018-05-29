@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.put_BitsPerSample
 title: ITScriptableAudioFormat::put_BitsPerSample
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_BitsPerSample method sets the wBitsPerSample member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_bitspersample.htm
 old-project: Tapi
 ms.assetid: 8e1038d6-122f-40c9-a6ab-57ae583ff9bc
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_BitsPerSample method, ITScriptableAudioFormat.put_BitsPerSample, ITScriptableAudioFormat::put_BitsPerSample, _tapi3_itscriptableaudioformat_put_bitspersample, put_BitsPerSample, put_BitsPerSample method [TAPI 2.2], put_BitsPerSample method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_bitspersample, tapi3if/ITScriptableAudioFormat::put_BitsPerSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

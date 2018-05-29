@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.IStream_Reset
 title: IStream_Reset function
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves the seek position in a specified stream to the beginning of the stream.
 old-location: shell\IStream_Reset.htm
 old-project: shell
 ms.assetid: 1e7a881d-decb-4018-b2e8-e0cba454236d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IStream_Reset, IStream_Reset function [Windows Shell], _win32_IStream_Reset, shell.IStream_Reset, shlwapi/IStream_Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

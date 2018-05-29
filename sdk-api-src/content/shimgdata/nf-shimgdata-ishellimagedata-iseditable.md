@@ -1,16 +1,16 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsEditable
 title: IShellImageData::IsEditable
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the image can be edited.
 old-location: shell\IShellImageData_IsEditable.htm
 old-project: shell
 ms.assetid: 81dbb486-0b35-44ff-9aa2-2e449995591e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsEditable method, IShellImageData.IsEditable, IShellImageData::IsEditable, IsEditable, IsEditable method [Windows Shell], IsEditable method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsEditable, shell.IShellImageData_IsEditable, shimgdata/IShellImageData::IsEditable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

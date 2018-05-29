@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnPin.Unblock
 title: IMbnPin::Unblock
-author: windows-driver-content
+author: windows-sdk-content
 description: Unblocks a blocked PIN.
 old-location: mbn\imbnpin_unblock.htm
 old-project: mbn
 ms.assetid: 7e5ec24c-681c-4259-9f6a-949bf40d5b3e
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnPin interface [Microsoft Broadband Networks],Unblock method, IMbnPin.Unblock, IMbnPin::Unblock, Unblock, Unblock method [Microsoft Broadband Networks], Unblock method [Microsoft Broadband Networks],IMbnPin interface, mbn.imbnpin_unblock, mbnapi/IMbnPin::Unblock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

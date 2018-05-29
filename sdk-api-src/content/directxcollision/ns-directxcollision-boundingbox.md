@@ -1,16 +1,16 @@
 ---
 UID: NS:directxcollision.BoundingBox
 title: BoundingBox
-author: windows-driver-content
+author: windows-sdk-content
 description: A bounding axis-aligned object.
 old-location: dxmath\boundingbox.htm
 old-project: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.BoundingBox
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: BoundingBox, BoundingBox structure [DirectX Math Support APIs], directxcollision/BoundingBox, dxmath.boundingbox
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: directxcollision.h
 req.include-header: 

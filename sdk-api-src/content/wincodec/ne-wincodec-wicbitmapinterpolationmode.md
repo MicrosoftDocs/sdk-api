@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICBitmapInterpolationMode
 title: WICBitmapInterpolationMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the sampling or filtering mode to use when scaling an image.
 old-location: wic\_wic_codec_wicbitmapinterpolationmode.htm
 old-project: wic
 ms.assetid: 7c707ab7-7cd5-418f-921c-e9114da92f2a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICBitmapInterpolationMode, WICBitmapInterpolationMode enumeration [Windows Imaging Component], WICBitmapInterpolationModeCubic, WICBitmapInterpolationModeFant, WICBitmapInterpolationModeHighQualityCubic, WICBitmapInterpolationModeLinear, WICBitmapInterpolationModeNearestNeighbor, _wic_codec_wicbitmapinterpolationmode, wic._wic_codec_wicbitmapinterpolationmode, wincodec/WICBitmapInterpolationMode, wincodec/WICBitmapInterpolationModeCubic, wincodec/WICBitmapInterpolationModeFant, wincodec/WICBitmapInterpolationModeHighQualityCubic, wincodec/WICBitmapInterpolationModeLinear, wincodec/WICBitmapInterpolationModeNearestNeighbor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

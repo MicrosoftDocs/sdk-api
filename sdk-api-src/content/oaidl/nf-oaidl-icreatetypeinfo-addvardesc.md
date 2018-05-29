@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.AddVarDesc
 title: ICreateTypeInfo::AddVarDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a variable or data member description to the type description.
 old-location: automat\icreatetypeinfo_addvardesc.htm
 old-project: automat
 ms.assetid: db576528-fefc-4a22-bc24-d5ea037eae26
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: AddVarDesc, AddVarDesc method [Automation], AddVarDesc method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],AddVarDesc method, ICreateTypeInfo.AddVarDesc, ICreateTypeInfo::AddVarDesc, _oa96_ICreateTypeInfo_AddVarDesc, automat.icreatetypeinfo_addvardesc, oaidl/ICreateTypeInfo::AddVarDesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

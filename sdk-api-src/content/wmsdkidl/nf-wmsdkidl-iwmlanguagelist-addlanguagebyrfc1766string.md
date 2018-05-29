@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMLanguageList.AddLanguageByRFC1766String
 title: IWMLanguageList::AddLanguageByRFC1766String
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddLanguageByRFC1766String method adds an entry to the list of supported languages for a file based upon a language tag compliant with RFC 1766.
 old-location: wmformat\iwmlanguagelist_addlanguagebyrfc1766string.htm
 old-project: wmformat
 ms.assetid: 3aec575c-8e04-4252-8863-1a458e56dcef
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AddLanguageByRFC1766String, AddLanguageByRFC1766String method [windows Media Format], AddLanguageByRFC1766String method [windows Media Format],IWMLanguageList interface, IWMLanguageList interface [windows Media Format],AddLanguageByRFC1766String method, IWMLanguageList.AddLanguageByRFC1766String, IWMLanguageList::AddLanguageByRFC1766String, IWMLanguageListAddLanguageByRFC1766String, wmformat.iwmlanguagelist_addlanguagebyrfc1766string, wmsdkidl/IWMLanguageList::AddLanguageByRFC1766String
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_StringA
 title: "_MI_StringA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an array of pointers to null-terminated MI_Char* strings.
 old-location: wmi_v2\mi_stringa.htm
 old-project: wmi_v2
 ms.assetid: e33c151a-dbf6-4400-a323-8d3731241340
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_StringA, MI_StringA structure [Windows Management Infrastructure (MI)], _MI_StringA, mi/MI_StringA, wmi._mi_stringa, wmi_v2.mi_stringa
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

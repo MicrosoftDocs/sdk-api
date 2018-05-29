@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.ICommDlgBrowser3.OnColumnClicked
 title: ICommDlgBrowser3::OnColumnClicked
-author: windows-driver-content
+author: windows-sdk-content
 description: Called after a specified column is clicked in the IShellView interface.
 old-location: shell\ICommDlgBrowser3_OnColumnClicked.htm
 old-project: shell
 ms.assetid: 19cd3dc6-14e4-494d-b4d7-2c9d4fd0fe55
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICommDlgBrowser3 interface [Windows Shell],OnColumnClicked method, ICommDlgBrowser3.OnColumnClicked, ICommDlgBrowser3::OnColumnClicked, OnColumnClicked, OnColumnClicked method [Windows Shell], OnColumnClicked method [Windows Shell],ICommDlgBrowser3 interface, _shell_ICommDlgBrowser3_OnColumnClicked, shell.ICommDlgBrowser3_OnColumnClicked, shobjidl/ICommDlgBrowser3::OnColumnClicked
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl.h
 req.include-header: 

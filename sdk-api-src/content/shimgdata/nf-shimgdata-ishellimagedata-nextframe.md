@@ -1,16 +1,16 @@
 ---
 UID: NF:shimgdata.IShellImageData.NextFrame
 title: IShellImageData::NextFrame
-author: windows-driver-content
+author: windows-sdk-content
 description: Switches to the next frame of an animated image.
 old-location: shell\IShellImageData_NextFrame.htm
 old-project: shell
 ms.assetid: b797539e-7766-4da7-864f-401c7c2ff082
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellImageData interface [Windows Shell],NextFrame method, IShellImageData.NextFrame, IShellImageData::NextFrame, NextFrame, NextFrame method [Windows Shell], NextFrame method [Windows Shell],IShellImageData interface, _shell_IShellImageData_NextFrame, shell.IShellImageData_NextFrame, shimgdata/IShellImageData::NextFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

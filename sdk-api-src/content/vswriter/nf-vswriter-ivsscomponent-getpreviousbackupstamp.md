@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.IVssComponent.GetPreviousBackupStamp
 title: IVssComponent::GetPreviousBackupStamp
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetPreviousBackupStamp method returns a previous backup stamp loaded by a requester in the Backup Components Document. The value is used by a writer when deciding if files should participate in differential or incremental backup operation.
 old-location: base\ivsscomponent_getpreviousbackupstamp.htm
 old-project: VSS
 ms.assetid: 91778854-52af-4e1e-943b-89c786963291
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPreviousBackupStamp, GetPreviousBackupStamp method [VSS], GetPreviousBackupStamp method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPreviousBackupStamp method, IVssComponent.GetPreviousBackupStamp, IVssComponent::GetPreviousBackupStamp, _win32_ivsscomponent_getpreviousbackupstamp, base.ivsscomponent_getpreviousbackupstamp, vswriter/IVssComponent::GetPreviousBackupStamp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

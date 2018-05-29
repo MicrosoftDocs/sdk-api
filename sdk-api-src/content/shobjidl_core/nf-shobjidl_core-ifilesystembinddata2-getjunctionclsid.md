@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileSystemBindData2.GetJunctionCLSID
 title: IFileSystemBindData2::GetJunctionCLSID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the class identifier (CLSID) of the object that implements IShellFolder for the item, if the item is a junction point.
 old-location: shell\IFileSystemBindData2_GetJunctionCLSID.htm
 old-project: shell
 ms.assetid: 57c5205a-9a56-4c47-bec4-11a690107bc6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetJunctionCLSID, GetJunctionCLSID method [Windows Shell], GetJunctionCLSID method [Windows Shell],IFileSystemBindData2 interface, IFileSystemBindData2 interface [Windows Shell],GetJunctionCLSID method, IFileSystemBindData2.GetJunctionCLSID, IFileSystemBindData2::GetJunctionCLSID, _shell_IFileSystemBindData2_GetJunctionCLSID, shell.IFileSystemBindData2_GetJunctionCLSID, shobjidl_core/IFileSystemBindData2::GetJunctionCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

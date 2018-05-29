@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DVertexDeclaration9.GetDeclaration
 title: IDirect3DVertexDeclaration9::GetDeclaration
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the vertex shader declaration.
 old-location: direct3d9\idirect3dvertexdeclaration9__getdeclaration.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexdeclaration9__getdeclaration.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: GetDeclaration, GetDeclaration method [Direct3D 9], GetDeclaration method [Direct3D 9],IDirect3DVertexDeclaration9 interface, IDirect3DVertexDeclaration9 interface [Direct3D 9],GetDeclaration method, IDirect3DVertexDeclaration9.GetDeclaration, IDirect3DVertexDeclaration9::GetDeclaration, bd1cb4cd-85cf-525d-1ac3-ebd3eb527b1a, d3d9helper/IDirect3DVertexDeclaration9::GetDeclaration, direct3d9.idirect3dvertexdeclaration9__getdeclaration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

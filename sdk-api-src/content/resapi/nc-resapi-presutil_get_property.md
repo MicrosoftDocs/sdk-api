@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_GET_PROPERTY
 title: PRESUTIL_GET_PROPERTY
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a specified property from the cluster database. The PRESUTIL_GET_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetproperty.htm
 old-project: MsCS
 ms.assetid: f1c6f69c-fc64-4e64-9543-449fc8780eef
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_GET_PROPERTY, PRESUTIL_GET_PROPERTY callback, PRESUTIL_GET_PROPERTY callback function [Failover Cluster], _wolf_resutilgetproperty, mscs.resutilgetproperty, resapi/PRESUTIL_GET_PROPERTY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

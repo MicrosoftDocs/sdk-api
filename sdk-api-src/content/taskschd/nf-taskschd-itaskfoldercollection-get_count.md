@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskFolderCollection.get_Count
 title: ITaskFolderCollection::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of folders in the collection.
 old-location: taskschd\itaskfoldercollection_count.htm
 old-project: TaskSchd
 ms.assetid: 073a812d-209b-4e36-b94b-c24567377a84
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITaskFolderCollection interface, ITaskFolderCollection interface [Task Scheduler],Count property, ITaskFolderCollection.Count, ITaskFolderCollection.get_Count, ITaskFolderCollection::Count, ITaskFolderCollection::get_Count, get_Count, taskschd.itaskfoldercollection_count, taskschd/ITaskFolderCollection::Count, taskschd/ITaskFolderCollection::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

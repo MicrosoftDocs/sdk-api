@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetCapability
 title: IAMExtTransport::GetCapability
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCapability method retrieves the general capabilities of the transport.
 old-location: dshow\iamexttransport_getcapability.htm
 old-project: DirectShow
 ms.assetid: f5544fd9-2899-4995-9401-a53f59d6400b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCapability, GetCapability method [DirectShow], GetCapability method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetCapability method, IAMExtTransport.GetCapability, IAMExtTransport::GetCapability, IAMExtTransportGetCapability, dshow.iamexttransport_getcapability, strmif/IAMExtTransport::GetCapability
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

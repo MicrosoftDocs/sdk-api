@@ -1,16 +1,16 @@
 ---
 UID: NE:tapi3if.CALL_NOTIFICATION_EVENT
 title: CALL_NOTIFICATION_EVENT
-author: windows-driver-content
+author: windows-sdk-content
 description: The CALL_NOTIFICATION_EVENT enum describes call notification events. The ITCallNotificationEvent::get_Event method returns a member of this enum to indicate the type of call notification event that occurred.
 old-location: tapi3\call_notification_event.htm
 old-project: Tapi
 ms.assetid: 0c05042f-af1e-4657-bb1c-e6741361b11c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CALL_NOTIFICATION_EVENT, CALL_NOTIFICATION_EVENT enumeration [TAPI 2.2], CNE_MONITOR, CNE_OWNER, _tapi3_call_notification_event, tapi3.call_notification_event, tapi3if/CALL_NOTIFICATION_EVENT, tapi3if/CNE_MONITOR, tapi3if/CNE_OWNER
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 

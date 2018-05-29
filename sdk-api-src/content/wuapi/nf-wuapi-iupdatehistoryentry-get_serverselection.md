@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_ServerSelection
 title: IUpdateHistoryEntry::get_ServerSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the ServerSelection value that indicates which server provided an update.
 old-location: wua\iupdatehistoryentry_serverselection.htm
 old-project: Wua_Sdk
 ms.assetid: 26b1c4ce-edc0-46cb-80f7-6a140df9c88b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],ServerSelection property, IUpdateHistoryEntry.ServerSelection, IUpdateHistoryEntry.get_ServerSelection, IUpdateHistoryEntry::ServerSelection, IUpdateHistoryEntry::get_ServerSelection, ServerSelection property [Windows Update Agent], ServerSelection property [Windows Update Agent],IUpdateHistoryEntry interface, get_ServerSelection, ssDefault, ssManagedServer, ssOthers, ssWindowsUpdate, wua.iupdatehistoryentry_serverselection, wuapi/IUpdateHistoryEntry::ServerSelection, wuapi/IUpdateHistoryEntry::get_ServerSelection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

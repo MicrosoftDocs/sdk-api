@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEME.SetMediaKeys
 title: IMFMediaEngineEME::SetMediaKeys
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the media keys object to use with the media engine.
 old-location: mf\imfmediaengineeme_setmediakeys.htm
 old-project: medfound
 ms.assetid: 659b566e-d488-489d-9a12-bfe9695c5f94
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngineEME interface [Media Foundation],SetMediaKeys method, IMFMediaEngineEME.SetMediaKeys, IMFMediaEngineEME::SetMediaKeys, SetMediaKeys, SetMediaKeys method [Media Foundation], SetMediaKeys method [Media Foundation],IMFMediaEngineEME interface, mf.imfmediaengineeme_setmediakeys, mfmediaengine/IMFMediaEngineEME::SetMediaKeys
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

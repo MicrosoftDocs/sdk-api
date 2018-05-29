@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FONTOBJ_pjOpenTypeTablePointer
 title: FONTOBJ_pjOpenTypeTablePointer function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FONTOBJ_pjOpenTypeTablePointer function returns a pointer to a view of an OpenType table.
 old-location: display\fontobj_pjopentypetablepointer.htm
 old-project: display
 ms.assetid: d41728f7-f5b5-40cd-b690-cb1f8161f6c1
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FONTOBJ_pjOpenTypeTablePointer, FONTOBJ_pjOpenTypeTablePointer function [Display Devices], display.fontobj_pjopentypetablepointer, gdifncs_c8a7074e-3a62-426b-a1d2-57b04441f7f8.xml, winddi/FONTOBJ_pjOpenTypeTablePointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

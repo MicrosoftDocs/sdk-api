@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.wglMakeCurrent
 title: wglMakeCurrent function
-author: windows-driver-content
+author: windows-sdk-content
 description: The wglMakeCurrent function makes a specified OpenGL rendering context the calling thread's current rendering context.
 old-location: opengl\wglmakecurrent.htm
 old-project: OpenGL
 ms.assetid: a1d3cbc9-2587-4f49-9d7d-749cf9a3ecfe
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "_ogl_wglMakeCurrent, opengl.wglmakecurrent, wglMakeCurrent, wglMakeCurrent function [OpenGL], wingdi/wglMakeCurrent"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

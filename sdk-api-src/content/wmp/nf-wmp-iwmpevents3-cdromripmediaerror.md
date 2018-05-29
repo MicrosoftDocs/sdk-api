@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPEvents3.CdromRipMediaError
 title: IWMPEvents3::CdromRipMediaError
-author: windows-driver-content
+author: windows-sdk-content
 description: The CdromRipMediaError event occurs when an error happens while ripping an individual track from a CD.
 old-location: wmp\iwmpevents3_iwmpevents3__cdromripmediaerror.htm
 old-project: WMP
 ms.assetid: 103f6d52-5b59-422d-918d-5004cbdfc75a
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: CdromRipMediaError, CdromRipMediaError method [Windows Media Player], CdromRipMediaError method [Windows Media Player],IWMPEvents3 interface, IWMPEvents3 interface [Windows Media Player],CdromRipMediaError method, IWMPEvents3.CdromRipMediaError, IWMPEvents3::CdromRipMediaError, IWMPEvents3CdromRipMediaError, wmp.iwmpevents3_iwmpevents3__cdromripmediaerror, wmp/IWMPEvents3::CdromRipMediaError
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

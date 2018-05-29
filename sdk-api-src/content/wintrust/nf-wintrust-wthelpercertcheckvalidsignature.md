@@ -1,16 +1,16 @@
 ---
 UID: NF:wintrust.WTHelperCertCheckValidSignature
 title: WTHelperCertCheckValidSignature function
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks whether a signature is valid.
 old-location: security\wthelpercertcheckvalidsignature.htm
 old-project: SecCrypto
 ms.assetid: d46eea18-03cb-4199-873e-0e9e13061598
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: WTHelperCertCheckValidSignature, WTHelperCertCheckValidSignature function [Security], security.wthelpercertcheckvalidsignature, wintrust/WTHelperCertCheckValidSignature
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 

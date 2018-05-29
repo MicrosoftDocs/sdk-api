@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmGetImeMenuItemsA
 title: ImmGetImeMenuItemsA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the menu items that are registered in the IME menu of a specified input context.
 old-location: intl\immgetimemenuitems.htm
 old-project: Intl
 ms.assetid: 452c864d-b2e7-452a-85f2-d06d46170865
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IGIMIF_RIGHTMENU, IGIMII_CMODE, IGIMII_CONFIGURE, IGIMII_HELP, IGIMII_INPUTTOOLS, IGIMII_OTHER, IGIMII_SMODE, IGIMII_TOOLS, ImmGetImeMenuItems, ImmGetImeMenuItems function [Internationalization for Windows Applications], ImmGetImeMenuItemsA, ImmGetImeMenuItemsW, _win32_ImmGetImeMenuItems, imm/ImmGetImeMenuItems, imm/ImmGetImeMenuItemsA, imm/ImmGetImeMenuItemsW, intl.immgetimemenuitems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

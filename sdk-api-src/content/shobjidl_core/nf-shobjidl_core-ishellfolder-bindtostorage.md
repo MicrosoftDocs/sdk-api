@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.BindToStorage
 title: IShellFolder::BindToStorage
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests a pointer to an object's storage interface.
 old-location: shell\IShellFolder_BindToStorage.htm
 old-project: shell
 ms.assetid: 6abd12bb-5c85-4f3b-a6ad-a7c05ce02ce3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: BindToStorage, BindToStorage method [Windows Shell], BindToStorage method [Windows Shell],IShellFolder interface, BindToStorage method [Windows Shell],IShellFolder2 interface, IShellFolder interface [Windows Shell],BindToStorage method, IShellFolder.BindToStorage, IShellFolder2 interface [Windows Shell],BindToStorage method, IShellFolder2::BindToStorage, IShellFolder::BindToStorage, _win32_IShellFolder_BindToStorage, shell.IShellFolder_BindToStorage, shobjidl_core/IShellFolder2::BindToStorage, shobjidl_core/IShellFolder::BindToStorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

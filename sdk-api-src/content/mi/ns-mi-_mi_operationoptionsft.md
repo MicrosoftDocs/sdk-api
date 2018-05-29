@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_OperationOptionsFT
 title: "_MI_OperationOptionsFT"
-author: windows-driver-content
+author: windows-sdk-content
 description: A support structure used in the MI_OperationOptions structure. Use the functions with the name prefix &#0034;MI_OperationOptions_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_operationoptionsft.htm
 old-project: wmi_v2
 ms.assetid: ed84d3bc-2cb0-4052-902d-96a3ab3a3ba4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_OperationOptionsFT, MI_OperationOptionsFT structure [Windows Management Infrastructure (MI)], _MI_OperationOptionsFT, mi/MI_OperationOptionsFT, wmi_v2.mi_operationoptionsft
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

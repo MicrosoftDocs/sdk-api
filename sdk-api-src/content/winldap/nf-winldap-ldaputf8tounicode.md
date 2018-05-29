@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.LdapUTF8ToUnicode
 title: LdapUTF8ToUnicode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to translate strings for modules that do not have the UTF-8 code page.
 old-location: ldap\ldaputf8tounicode.htm
 old-project: LDAP
 ms.assetid: 4c36ce90-8cc6-4dee-b990-5d283613ba11
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: LdapUTF8ToUnicode, LdapUTF8ToUnicode function [LDAP], _ldap_ldaputf8tounicode, ldap.ldaputf8tounicode, winldap/LdapUTF8ToUnicode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

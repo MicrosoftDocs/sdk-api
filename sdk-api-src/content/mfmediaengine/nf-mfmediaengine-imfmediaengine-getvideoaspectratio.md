@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetVideoAspectRatio
 title: IMFMediaEngine::GetVideoAspectRatio
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the picture aspect ratio of the video stream.
 old-location: mf\imfmediaengine_getvideoaspectratio.htm
 old-project: medfound
 ms.assetid: 82B4AD4B-1A2E-4B03-8343-E4E5A43E62D2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetVideoAspectRatio, GetVideoAspectRatio method [Media Foundation], GetVideoAspectRatio method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetVideoAspectRatio method, IMFMediaEngine.GetVideoAspectRatio, IMFMediaEngine::GetVideoAspectRatio, mf.imfmediaengine_getvideoaspectratio, mfmediaengine/IMFMediaEngine::GetVideoAspectRatio
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

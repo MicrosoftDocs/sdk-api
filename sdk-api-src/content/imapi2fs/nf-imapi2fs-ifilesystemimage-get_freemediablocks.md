@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_FreeMediaBlocks
 title: IFileSystemImage::get_FreeMediaBlocks
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the maximum number of blocks available for the image.
 old-location: imapi\ifilesystemimage_get_freemediablocks.htm
 old-project: imapi
 ms.assetid: 4942d86d-0cc7-4f4e-b257-dc59d3896b38
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_FreeMediaBlocks method, IFileSystemImage.get_FreeMediaBlocks, IFileSystemImage::get_FreeMediaBlocks, get_FreeMediaBlocks, get_FreeMediaBlocks method [IMAPI], get_FreeMediaBlocks method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_freemediablocks, imapi2fs/IFileSystemImage::get_FreeMediaBlocks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

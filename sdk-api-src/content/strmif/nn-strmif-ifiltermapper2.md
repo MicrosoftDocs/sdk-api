@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IFilterMapper2
 title: IFilterMapper2
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers and unregisters filters, and locates filters in the registry.
 old-location: dshow\ifiltermapper2.htm
 old-project: DirectShow
 ms.assetid: 6a3db838-cee3-4a9f-a924-fb55931acc83
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IFilterMapper2, IFilterMapper2 interface [DirectShow], IFilterMapper2 interface [DirectShow],described, IFilterMapper2Interface, dshow.ifiltermapper2, strmif/IFilterMapper2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

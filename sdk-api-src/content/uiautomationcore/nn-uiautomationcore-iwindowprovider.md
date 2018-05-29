@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.IWindowProvider
 title: IWindowProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the fundamental window-based functionality of a control.
 old-location: winauto\uiauto_IWindowProvider.htm
 old-project: WinAuto
 ms.assetid: cf09ad4e-fd5b-4304-b5fb-165205bff1f3
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IWindowProvider, IWindowProvider interface [Windows Accessibility], IWindowProvider interface [Windows Accessibility],described, uiauto.uiauto_IWindowProvider, uiauto_IWindowProvider, uiautomationcore/IWindowProvider, winauto.uiauto_IWindowProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

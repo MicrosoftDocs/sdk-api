@@ -1,16 +1,16 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
 title: tagWCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE enumeration.
 old-location: wcn\wcn_value_type_wi_fi_protected_setup_state.htm
 old-project: wcn
 ms.assetid: b42d6e7c-9dba-4205-97bc-0107c168b754
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WCN_VALUE_SS_CONFIGURED, WCN_VALUE_SS_NOT_CONFIGURED, WCN_VALUE_SS_RESERVED00, WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE, WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE enumeration [Windows Connect Now], tagWCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE, wcn.wcn_value_type_wi_fi_protected_setup_state, wcntypes/WCN_VALUE_SS_CONFIGURED, wcntypes/WCN_VALUE_SS_NOT_CONFIGURED, wcntypes/WCN_VALUE_SS_RESERVED00, wcntypes/WCN_VALUE_TYPE_WI_FI_PROTECTED_SETUP_STATE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcntypes.h
 req.include-header: 

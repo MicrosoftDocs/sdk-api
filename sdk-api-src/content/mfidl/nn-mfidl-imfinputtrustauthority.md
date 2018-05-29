@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFInputTrustAuthority
 title: IMFInputTrustAuthority
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables other components in the protected media path (PMP) to use the input protection system provided by an input trust authorities (ITA).
 old-location: mf\imfinputtrustauthority.htm
 old-project: medfound
 ms.assetid: 637e0225-6fd8-4b83-b4fb-119e7a5ef5d2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 637e0225-6fd8-4b83-b4fb-119e7a5ef5d2, IMFInputTrustAuthority, IMFInputTrustAuthority interface [Media Foundation], IMFInputTrustAuthority interface [Media Foundation],described, mf.imfinputtrustauthority, mfidl/IMFInputTrustAuthority
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

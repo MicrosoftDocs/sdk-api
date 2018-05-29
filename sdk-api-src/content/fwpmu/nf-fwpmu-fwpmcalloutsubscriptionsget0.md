@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmCalloutSubscriptionsGet0
 title: FwpmCalloutSubscriptionsGet0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an array of all the current callout change notification subscriptions.
 old-location: fwp\fwpmcalloutsubscriptionsget0_func.htm
 old-project: FWP
 ms.assetid: 72e51167-c69e-4412-b83e-c66f91c9b96e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmCalloutSubscriptionsGet0, FwpmCalloutSubscriptionsGet0 function [Filtering], fwp.fwpmcalloutsubscriptionsget0_func, fwpmu/FwpmCalloutSubscriptionsGet0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

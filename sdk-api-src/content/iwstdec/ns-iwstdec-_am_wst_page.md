@@ -1,16 +1,16 @@
 ---
 UID: NS:iwstdec._AM_WST_PAGE
 title: "_AM_WST_PAGE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The AM_WST_PAGE structure identifies a World Standard Teletext (WST) page.
 old-location: dshow\am_wst_page.htm
 old-project: DirectShow
 ms.assetid: 6bed254f-35e4-40d0-9a59-0a2575aa61e1
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PAM_WST_PAGE, AM_WST_PAGE, AM_WST_PAGE structure [DirectShow], AM_WST_PAGEStructure, PAM_WST_PAGE, PAM_WST_PAGE structure pointer [DirectShow], _AM_WST_PAGE, dshow.am_wst_page, iwstdec/AM_WST_PAGE, iwstdec/PAM_WST_PAGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iwstdec.h
 req.include-header: 

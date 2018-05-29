@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetCombineUrlW
 title: InternetCombineUrlW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Combines a base and relative URL into a single URL. The resultant URL is canonicalized (see InternetCanonicalizeUrl).
 old-location: wininet\internetcombineurl.htm
 old-project: WinInet
 ms.assetid: 2efcf28a-e82b-47f2-8e8c-95fee70a87e4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetCombineUrl, InternetCombineUrl function [WinINet], InternetCombineUrlA, InternetCombineUrlW, _inet_internetcombineurl_function, wininet.internetcombineurl, wininet/InternetCombineUrl, wininet/InternetCombineUrlA, wininet/InternetCombineUrlW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

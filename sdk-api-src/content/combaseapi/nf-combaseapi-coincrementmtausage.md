@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoIncrementMTAUsage
 title: CoIncrementMTAUsage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Keeps MTA support active when no MTA threads are running.
 old-location: com\coincrementmtausage.htm
 old-project: com
 ms.assetid: EFE6E66A-96A3-4B51-92DD-1CE84B1F0185
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoIncrementMTAUsage, CoIncrementMTAUsage function [COM], com.coincrementmtausage, combaseapi/CoIncrementMTAUsage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: 

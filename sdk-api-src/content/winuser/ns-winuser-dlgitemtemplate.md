@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.DLGITEMTEMPLATE
 title: DLGITEMTEMPLATE
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the dimensions and style of a control in a dialog box. One or more of these structures are combined with a DLGTEMPLATE structure to form a standard template for a dialog box.
 old-location: dlgbox\dlgitemtemplate.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxstructures\dlgitemtemplate.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*LPDLGITEMTEMPLATEA, *LPDLGITEMTEMPLATEW, *PDLGITEMTEMPLATEA, *PDLGITEMTEMPLATEW, DLGITEMTEMPLATE, DLGITEMTEMPLATE structure [Dialog Boxes], PDLGITEMTEMPLATE, PDLGITEMTEMPLATE structure pointer [Dialog Boxes], _win32_DLGITEMTEMPLATE_str, _win32_dlgitemtemplate_str_cpp, dlgbox.dlgitemtemplate, winui._win32_dlgitemtemplate_str, winuser/DLGITEMTEMPLATE, winuser/PDLGITEMTEMPLATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

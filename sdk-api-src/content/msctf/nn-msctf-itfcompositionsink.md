@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfCompositionSink
 title: ITfCompositionSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfCompositionSink interface is implemented by a text service to receive a notification when a composition is terminated.
 old-location: tsf\itfcompositionsink.htm
 old-project: TSF
 ms.assetid: 17d5eab5-a308-40a5-823a-f176508dda71
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfCompositionSink, ITfCompositionSink interface [Text Services Framework], ITfCompositionSink interface [Text Services Framework],described, _tsf_itfcompositionsink_ref, msctf/ITfCompositionSink, tsf.itfcompositionsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

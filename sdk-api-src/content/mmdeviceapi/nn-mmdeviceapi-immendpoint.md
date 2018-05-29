@@ -1,16 +1,16 @@
 ---
 UID: NN:mmdeviceapi.IMMEndpoint
 title: IMMEndpoint
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMMEndpoint interface represents an audio endpoint device.
 old-location: coreaudio\immendpoint.htm
 old-project: CoreAudio
 ms.assetid: 293de8eb-204a-4c18-807c-b1405db85b12
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IMMEndpoint, IMMEndpoint interface [Core Audio], IMMEndpoint interface [Core Audio],described, coreaudio.immendpoint, mmdeviceapi/IMMEndpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mmdeviceapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:gdiplusenums.LinearGradientMode
 title: LinearGradientMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The LinearGradientMode enumeration specifies the direction in which the change of color occurs for a linear gradient brush.
 old-location: gdiplus\_gdiplus_ENUM_LinearGradientMode.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\lineargradientmode.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LinearGradientMode, LinearGradientMode enumeration [GDI+], LinearGradientModeBackwardDiagonal, LinearGradientModeForwardDiagonal, LinearGradientModeHorizontal, LinearGradientModeVertical, _gdiplus_ENUM_LinearGradientMode, gdiplus._gdiplus_ENUM_LinearGradientMode, gdiplusenums/LinearGradientMode, gdiplusenums/LinearGradientModeBackwardDiagonal, gdiplusenums/LinearGradientModeForwardDiagonal, gdiplusenums/LinearGradientModeHorizontal, gdiplusenums/LinearGradientModeVertical
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.TerminateThread
 title: TerminateThread function
-author: windows-driver-content
+author: windows-sdk-content
 description: Terminates a thread.
 old-location: base\terminatethread.htm
 old-project: ProcThread
 ms.assetid: ae1ad0f3-67df-4573-af22-7086f0470361
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: TerminateThread, TerminateThread function, _win32_terminatethread, base.terminatethread, processthreadsapi/TerminateThread, winbase/TerminateThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

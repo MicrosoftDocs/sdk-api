@@ -1,16 +1,16 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.VolumeStepDown
 title: IAudioEndpointVolume::VolumeStepDown
-author: windows-driver-content
+author: windows-sdk-content
 description: The VolumeStepDown method decrements, by one step, the volume level of the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_volumestepdown.htm
 old-project: CoreAudio
 ms.assetid: c334d780-784b-4fa3-bf4f-ea5d65459baf
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],VolumeStepDown method, IAudioEndpointVolume.VolumeStepDown, IAudioEndpointVolume::VolumeStepDown, IAudioEndpointVolumeVolumeStepDown, VolumeStepDown, VolumeStepDown method [Core Audio], VolumeStepDown method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_volumestepdown, endpointvolume/IAudioEndpointVolume::VolumeStepDown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: endpointvolume.h
 req.include-header: 

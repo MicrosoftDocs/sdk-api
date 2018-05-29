@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11TracingDevice.SetShaderTrackingOptions
 title: ID3D11TracingDevice::SetShaderTrackingOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the reference rasterizer's race-condition tracking options for a specific shader.
 old-location: direct3d11\id3d11tracingdevice_setshadertrackingoptions.htm
 old-project: direct3d11
 ms.assetid: F62FCA38-AE44-427B-95B4-252AE800845C
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11TracingDevice interface [Direct3D 11],SetShaderTrackingOptions method, ID3D11TracingDevice.SetShaderTrackingOptions, ID3D11TracingDevice::SetShaderTrackingOptions, SetShaderTrackingOptions, SetShaderTrackingOptions method [Direct3D 11], SetShaderTrackingOptions method [Direct3D 11],ID3D11TracingDevice interface, d3d11sdklayers/ID3D11TracingDevice::SetShaderTrackingOptions, direct3d11.id3d11tracingdevice_setshadertrackingoptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11sdklayers.h
 req.include-header: 

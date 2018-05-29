@@ -1,16 +1,16 @@
 ---
 UID: NS:processsnapshot.PSS_THREAD_ENTRY
 title: PSS_THREAD_ENTRY
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds thread information returned by PssWalkSnapshotPssWalkSnapshot.
 old-location: proc_snap\pss_thread_entry.htm
 old-project: proc_snap
 ms.assetid: 99C89DBB-8C12-482E-B33D-AE59C37662CF
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PSS_THREAD_ENTRY, PSS_THREAD_ENTRY structure, proc_snap.pss_thread_entry, processsnapshot/PSS_THREAD_ENTRY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.put_ClientName
 title: IDiscFormat2Data::put_ClientName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the friendly name of the client.
 old-location: imapi\idiscformat2data_put_clientname.htm
 old-project: imapi
 ms.assetid: 1cd4ef46-4769-4e8e-80ca-fdcd81b486f1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],put_ClientName method, IDiscFormat2Data.put_ClientName, IDiscFormat2Data::put_ClientName, imapi.idiscformat2data_put_clientname, imapi2/IDiscFormat2Data::put_ClientName, put_ClientName, put_ClientName method [IMAPI], put_ClientName method [IMAPI],IDiscFormat2Data interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_CSPName
 title: IOCSPCAConfiguration::get_CSPName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a cryptographic service provider (CSP) or key storage provider (KSP) name.
 old-location: security\iocspcaconfiguration_cspname_method.htm
 old-project: SecCrypto
 ms.assetid: a35400a9-7eb7-4298-b023-efe2a087ba7d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CSPName property [Security], CSPName property [Security],IOCSPCAConfiguration interface, IOCSPCAConfiguration interface [Security],CSPName property, IOCSPCAConfiguration.CSPName, IOCSPCAConfiguration.get_CSPName, IOCSPCAConfiguration::CSPName, IOCSPCAConfiguration::get_CSPName, certadm/IOCSPCAConfiguration::CSPName, certadm/IOCSPCAConfiguration::get_CSPName, get_CSPName, security.iocspcaconfiguration_cspname_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

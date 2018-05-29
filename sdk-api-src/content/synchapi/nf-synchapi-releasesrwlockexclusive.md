@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.ReleaseSRWLockExclusive
 title: ReleaseSRWLockExclusive function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases a slim reader/writer (SRW) lock that was acquired in exclusive mode.
 old-location: base\releasesrwlockexclusive.htm
 old-project: Sync
 ms.assetid: 77f9b8ee-f922-4bd1-b715-ccb1ca891dcc
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ReleaseSRWLockExclusive, ReleaseSRWLockExclusive function, base.releasesrwlockexclusive, synchapi/ReleaseSRWLockExclusive, winbase/ReleaseSRWLockExclusive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

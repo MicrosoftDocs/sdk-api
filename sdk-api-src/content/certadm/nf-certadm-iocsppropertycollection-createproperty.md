@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.CreateProperty
 title: IOCSPPropertyCollection::CreateProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new property and adds it to a property set.
 old-location: security\iocsppropertycollection_createproperty_method.htm
 old-project: SecCrypto
 ms.assetid: 72e23a11-0550-47ae-9c24-90c1d18024a6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CreateProperty, CreateProperty method [Security], CreateProperty method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],CreateProperty method, IOCSPPropertyCollection.CreateProperty, IOCSPPropertyCollection::CreateProperty, certadm/IOCSPPropertyCollection::CreateProperty, security.iocsppropertycollection_createproperty_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

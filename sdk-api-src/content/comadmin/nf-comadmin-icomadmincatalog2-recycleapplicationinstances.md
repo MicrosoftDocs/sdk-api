@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.RecycleApplicationInstances
 title: ICOMAdminCatalog2::RecycleApplicationInstances
-author: windows-driver-content
+author: windows-sdk-content
 description: Recycles (shuts down and restarts) the specified application server processes.
 old-location: cos\icomadmincatalog2_recycleapplicationinstances.htm
 old-project: cossdk
 ms.assetid: 0d2d6255-54c7-4110-9ee0-7019e9c7cb83
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],RecycleApplicationInstances method, ICOMAdminCatalog2.RecycleApplicationInstances, ICOMAdminCatalog2::RecycleApplicationInstances, RecycleApplicationInstances, RecycleApplicationInstances method [COM+], RecycleApplicationInstances method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_RecycleApplicationInstances, comadmin/ICOMAdminCatalog2::RecycleApplicationInstances, cos.icomadmincatalog2_recycleapplicationinstances
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

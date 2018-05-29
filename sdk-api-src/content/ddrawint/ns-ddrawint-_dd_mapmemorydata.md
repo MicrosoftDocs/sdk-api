@@ -1,16 +1,16 @@
 ---
 UID: NS:ddrawint._DD_MAPMEMORYDATA
 title: "_DD_MAPMEMORYDATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DD_MAPMEMORYDATA structure contains the information necessary to map or unmap a frame buffer into user-mode memory.
 old-location: display\dd_mapmemorydata.htm
 old-project: display
 ms.assetid: 51d8b35f-883c-4e47-a0e6-af6c8ade8e54
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PDD_MAPMEMORYDATA, DD_MAPMEMORYDATA, DD_MAPMEMORYDATA structure [Display Devices], _DD_MAPMEMORYDATA, ddrawint/DD_MAPMEMORYDATA, ddstrcts_8ed973e1-2324-4dba-bcff-78442d5f33ee.xml, display.dd_mapmemorydata"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddrawint.h
 req.include-header: Winddi.h

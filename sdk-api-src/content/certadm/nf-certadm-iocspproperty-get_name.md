@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.IOCSPProperty.get_Name
 title: IOCSPProperty::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the identifier part of the name-value pair represented by an OCSPProperty object.
 old-location: security\iocspproperty_name_method.htm
 old-project: SecCrypto
 ms.assetid: 33980a7c-0ae5-470b-a55a-f3e19c8846a6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IOCSPProperty interface [Security],Name property, IOCSPProperty.Name, IOCSPProperty.get_Name, IOCSPProperty::Name, IOCSPProperty::get_Name, Name property [Security], Name property [Security],IOCSPProperty interface, certadm/IOCSPProperty::Name, certadm/IOCSPProperty::get_Name, get_Name, security.iocspproperty_name_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

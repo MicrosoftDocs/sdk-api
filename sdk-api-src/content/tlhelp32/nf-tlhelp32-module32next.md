@@ -1,16 +1,16 @@
 ---
 UID: NF:tlhelp32.Module32Next
 title: Module32Next function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the next module associated with a process or thread.
 old-location: toolhelp\module32next.htm
 old-project: ToolHelp
 ms.assetid: 88ec1af4-bae7-4cd7-b830-97a98fb337f4
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Module32Next, Module32Next function [ToolHelp], Module32NextW, _win32_module32next, base.module32next, tlhelp32/Module32Next, tlhelp32/Module32NextW, toolhelp.module32next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.InternetAttemptConnect
 title: InternetAttemptConnect function
-author: windows-driver-content
+author: windows-sdk-content
 description: Attempts to make a connection to the Internet.
 old-location: wininet\internetattemptconnect.htm
 old-project: WinInet
 ms.assetid: a6f22704-f7ca-4c4d-91c3-304b592db6ca
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetAttemptConnect, InternetAttemptConnect function [WinINet], _inet_internetattemptconnect_function, wininet.internetattemptconnect, wininet/InternetAttemptConnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

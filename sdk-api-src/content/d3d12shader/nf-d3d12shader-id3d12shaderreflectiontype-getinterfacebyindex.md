@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetInterfaceByIndex
 title: ID3D12ShaderReflectionType::GetInterfaceByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an interface by index.
 old-location: direct3d12\id3d12shaderreflectiontype_getinterfacebyindex.htm
 old-project: direct3d12
 ms.assetid: 1B9DABC6-65CA-47E3-95BF-77F29AC9D751
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetInterfaceByIndex, GetInterfaceByIndex method, GetInterfaceByIndex method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetInterfaceByIndex method, ID3D12ShaderReflectionType.GetInterfaceByIndex, ID3D12ShaderReflectionType::GetInterfaceByIndex, d3d12shader/ID3D12ShaderReflectionType::GetInterfaceByIndex, direct3d12.id3d12shaderreflectiontype_getinterfacebyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

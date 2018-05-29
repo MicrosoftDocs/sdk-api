@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagCOLORMATCHTOTARGET
 title: tagCOLORMATCHTOTARGET
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRCOLORMATCHTOTARGET structure contains members for the ColorMatchToTarget enhanced metafile record.
 old-location: gdi\emrcolormatchtotarget.htm
 old-project: gdi
 ms.assetid: 9b89b703-b670-40eb-b95f-d07e8731e71b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRCOLORMATCHTOTARGET, EMRCOLORMATCHTOTARGET, EMRCOLORMATCHTOTARGET structure [Windows GDI], PEMRCOLORMATCHTOTARGET, PEMRCOLORMATCHTOTARGET structure pointer [Windows GDI], _win32_EMRCOLORMATCHTOTARGET_str, gdi.emrcolormatchtotarget, tagCOLORMATCHTOTARGET, wingdi/EMRCOLORMATCHTOTARGET, wingdi/PEMRCOLORMATCHTOTARGET"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

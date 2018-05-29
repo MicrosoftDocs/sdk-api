@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IFilterChain.PauseChain
 title: IFilterChain::PauseChain
-author: windows-driver-content
+author: windows-sdk-content
 description: The PauseChain method switches all the filters in a filter chain into a paused state.
 old-location: dshow\ifilterchain_pausechain.htm
 old-project: DirectShow
 ms.assetid: a153ebf6-1d0a-45d0-ad2a-eb1eda62da2c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IFilterChain interface [DirectShow],PauseChain method, IFilterChain.PauseChain, IFilterChain::PauseChain, IFilterChainPauseChain, PauseChain, PauseChain method [DirectShow], PauseChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_pausechain, strmif/IFilterChain::PauseChain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFMediaSource.GetCharacteristics
 title: IMFMediaSource::GetCharacteristics
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the characteristics of the media source.
 old-location: mf\imfmediasource_getcharacteristics.htm
 old-project: medfound
 ms.assetid: cb5d54cd-58a3-4903-b22e-8207f90dbbc0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCharacteristics, GetCharacteristics method [Media Foundation], GetCharacteristics method [Media Foundation],IMFMediaSource interface, IMFMediaSource interface [Media Foundation],GetCharacteristics method, IMFMediaSource.GetCharacteristics, IMFMediaSource::GetCharacteristics, cb5d54cd-58a3-4903-b22e-8207f90dbbc0, mf.imfmediasource_getcharacteristics, mfidl/IMFMediaSource::GetCharacteristics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

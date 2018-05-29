@@ -1,16 +1,16 @@
 ---
 UID: NE:websocket._WEB_SOCKET_ACTION_QUEUE
 title: "_WEB_SOCKET_ACTION_QUEUE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the action types returned by WebSocketGetAction.
 old-location: websock\web_socket_action_queue.htm
 old-project: WebSock
 ms.assetid: 59550c5a-a378-4162-a1cc-ed2d05662637
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WEB_SOCKET_ACTION_QUEUE, WEB_SOCKET_ACTION_QUEUE enumeration [Websocket Protocol Component API], WEB_SOCKET_ALL_ACTION_QUEUE, WEB_SOCKET_RECEIVE_ACTION_QUEUE, WEB_SOCKET_SEND_ACTION_QUEUE, _WEB_SOCKET_ACTION_QUEUE, websock.web_socket_action_queue, websocket/WEB_SOCKET_ACTION_QUEUE, websocket/WEB_SOCKET_ALL_ACTION_QUEUE, websocket/WEB_SOCKET_RECEIVE_ACTION_QUEUE, websocket/WEB_SOCKET_SEND_ACTION_QUEUE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: websocket.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.Pie
 title: Pie function
-author: windows-driver-content
+author: windows-sdk-content
 description: The Pie function draws a pie-shaped wedge bounded by the intersection of an ellipse and two radials. The pie is outlined by using the current pen and filled by using the current brush.
 old-location: gdi\pie.htm
 old-project: gdi
 ms.assetid: 86daa936-b483-4432-aa32-0b9328ff76f9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Pie, Pie function [Windows GDI], _win32_Pie, gdi.pie, wingdi/Pie
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

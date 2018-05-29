@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcPartSet.DeletePart
 title: IOpcPartSet::DeletePart
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the IOpcPart interface pointer of a specified part object from the set.
 old-location: opc\iopcpartset_deletepart.htm
 old-project: OPC
 ms.assetid: 2d69530f-7e10-409a-8832-f410d6f9582e
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: DeletePart, DeletePart method [Open Packaging Conventions], DeletePart method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],DeletePart method, IOpcPartSet.DeletePart, IOpcPartSet::DeletePart, msopc/IOpcPartSet::DeletePart, opc.iopcpartset_deletepart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

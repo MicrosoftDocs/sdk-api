@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.ReportRadiusServerListA
 title: ReportRadiusServerListA function
-author: windows-driver-content
+author: windows-sdk-content
 description: ReportRadiusServerList function retrieves the list of Remote Authentication Dail-In Service (RADIUS) servers the iSCSI initiator service uses during authentication.
 old-location: iscsidisc\reportradiusserverlist.htm
 old-project: iSCSIDisc
 ms.assetid: 83f9fdca-805a-44ed-bd6b-0a731c63cfe6
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ReportRadiusServerList, ReportRadiusServerList function [iSCSI Discovery Library API], ReportRadiusServerListA, ReportRadiusServerListW, iscsidisc.reportradiusserverlist, iscsidsc/ReportRadiusServerList, iscsidsc/ReportRadiusServerListA, iscsidsc/ReportRadiusServerListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

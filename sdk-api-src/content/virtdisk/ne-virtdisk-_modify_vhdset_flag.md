@@ -1,16 +1,16 @@
 ---
 UID: NE:virtdisk._MODIFY_VHDSET_FLAG
 title: "_MODIFY_VHDSET_FLAG"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains flags affecting the behavior of the ModifyVhdSet function.
 old-location: vhd\modify_vhdset_flag.htm
 old-project: VStor
 ms.assetid: E983A928-CE3A-4B68-BDB5-CC21CB2BCC6F
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PMODIFY_VHDSET_FLAG, MODIFY_VHDSET_FLAG, MODIFY_VHDSET_FLAG enumeration [VHD], MODIFY_VHDSET_FLAG_NONE, PMODIFY_VHDSET_FLAG, PMODIFY_VHDSET_FLAG enumeration pointer [VHD], _MODIFY_VHDSET_FLAG, vhd.modify_vhdset_flag, virtdisk/MODIFY_VHDSET_FLAG, virtdisk/MODIFY_VHDSET_FLAG_NONE, virtdisk/PMODIFY_VHDSET_FLAG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: Windows.h

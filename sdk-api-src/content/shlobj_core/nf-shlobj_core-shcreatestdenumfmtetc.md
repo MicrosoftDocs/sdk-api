@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHCreateStdEnumFmtEtc
 title: SHCreateStdEnumFmtEtc function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHCreateStdEnumFmtEtc may be altered or unavailable.
 old-location: shell\SHCreateStdEnumFmtEtc.htm
 old-project: shell
 ms.assetid: c391c8c8-6062-4e70-9a1f-de0eb610250d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCreateStdEnumFmtEtc, SHCreateStdEnumFmtEtc function [Windows Shell], _win32_SHCreateStdEnumFmtEtc, shell.SHCreateStdEnumFmtEtc, shlobj_core/SHCreateStdEnumFmtEtc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

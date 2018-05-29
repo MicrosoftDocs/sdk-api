@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PCANCEL_ROUTINE
 title: PCANCEL_ROUTINE
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels an operation on a resource.
 old-location: mscs\cancel.htm
 old-project: MsCS
 ms.assetid: F2A22C00-5B25-48F7-BB25-9C351A47B770
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Cancel, Cancel callback, Cancel callback function [Failover Cluster], PCANCEL_ROUTINE, PCANCEL_ROUTINE callback function [Failover Cluster], mscs.cancel, resapi/Cancel, resapi/PCANCEL_ROUTINE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

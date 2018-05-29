@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetFolderTypeID
 title: ISearchFolderItemFactory::SetFolderTypeID
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a search folder type ID, as specified.
 old-location: shell\ISearchFolderItemFactory_SetFolderTypeID.htm
 old-project: shell
 ms.assetid: a9b09dc6-751e-4d5f-b016-0b26c15c68f6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetFolderTypeID method, ISearchFolderItemFactory.SetFolderTypeID, ISearchFolderItemFactory::SetFolderTypeID, SetFolderTypeID, SetFolderTypeID method [Windows Shell], SetFolderTypeID method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetFolderTypeID, shell.ISearchFolderItemFactory_SetFolderTypeID, shobjidl_core/ISearchFolderItemFactory::SetFolderTypeID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

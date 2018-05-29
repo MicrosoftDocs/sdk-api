@@ -1,16 +1,16 @@
 ---
 UID: NF:roparameterizediid.RoFreeParameterizedTypeExtra
 title: RoFreeParameterizedTypeExtra function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the handle allocated by RoGetParameterizedTypeInstanceIID.
 old-location: winrt\rofreeparameterizedtypeextra.htm
 old-project: WinRT
 ms.assetid: A9A063F3-D6E0-4383-B9AD-EA115FC3A8FD
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoFreeParameterizedTypeExtra, RoFreeParameterizedTypeExtra function [Windows Runtime], roparameterizediid/RoFreeParameterizedTypeExtra, winrt.rofreeparameterizedtypeextra
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: roparameterizediid.h
 req.include-header: Paraminstanceapi.h

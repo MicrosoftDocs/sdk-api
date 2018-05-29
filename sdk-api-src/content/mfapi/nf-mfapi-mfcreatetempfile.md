@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateTempFile
 title: MFCreateTempFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a byte stream that is backed by a temporary local file.
 old-location: mf\mfcreatetempfile.htm
 old-project: medfound
 ms.assetid: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 1f6ce49a-d3f2-4fbe-bbb8-e4ae9bcb0678, MFCreateTempFile, MFCreateTempFile function [Media Foundation], mf.mfcreatetempfile, mfapi/MFCreateTempFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

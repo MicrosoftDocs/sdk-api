@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetServiceProxyById
 title: IWSDDeviceProxy::GetServiceProxyById
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a generic IWSDServiceProxy service proxy by service ID.
 old-location: ncd\iwsddeviceproxy_getserviceproxybyid_method.htm
 old-project: WsdApi
 ms.assetid: c1c07b78-16f6-4595-8de3-0c6591096496
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetServiceProxyById, GetServiceProxyById method, GetServiceProxyById method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetServiceProxyById method, IWSDDeviceProxy.GetServiceProxyById, IWSDDeviceProxy::GetServiceProxyById, ncd.iwsddeviceproxy_getserviceproxybyid_method, wsdclient/IWSDDeviceProxy::GetServiceProxyById
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

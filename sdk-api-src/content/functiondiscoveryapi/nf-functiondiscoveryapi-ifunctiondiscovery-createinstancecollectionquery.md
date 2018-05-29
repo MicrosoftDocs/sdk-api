@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.CreateInstanceCollectionQuery
 title: IFunctionDiscovery::CreateInstanceCollectionQuery
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a query for a collection of specific function instances.
 old-location: ncd\ifunctiondiscovery_createinstancecollectionquery_method.htm
 old-project: FunDisc
 ms.assetid: 46f74e55-8060-4f02-85e3-dbd2fc8fce78
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CreateInstanceCollectionQuery, CreateInstanceCollectionQuery method, CreateInstanceCollectionQuery method,IFunctionDiscovery interface, IFunctionDiscovery interface,CreateInstanceCollectionQuery method, IFunctionDiscovery.CreateInstanceCollectionQuery, IFunctionDiscovery::CreateInstanceCollectionQuery, functiondiscoveryapi/IFunctionDiscovery::CreateInstanceCollectionQuery, ncd.ifunctiondiscovery_createinstancecollectionquery_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 

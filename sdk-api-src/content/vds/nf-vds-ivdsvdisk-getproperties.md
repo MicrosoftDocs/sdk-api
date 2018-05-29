@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsVDisk.GetProperties
 title: IVdsVDisk::GetProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns disk property information for the volume where the virtual disk resides.
 old-location: base\ivdsvdisk_getproperties.htm
 old-project: VDS
 ms.assetid: 0ecfbd1f-2f67-4d79-b081-7df071b070a4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetProperties, GetProperties method, GetProperties method,IVdsVDisk interface, IVdsVDisk interface,GetProperties method, IVdsVDisk.GetProperties, IVdsVDisk::GetProperties, base.ivdsvdisk_getproperties, vds/IVdsVDisk::GetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

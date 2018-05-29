@@ -1,16 +1,16 @@
 ---
 UID: NS:eaptypes._EAP_METHOD_PROPERTY_ARRAY
 title: "_EAP_METHOD_PROPERTY_ARRAY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains an array of EAP method properties.
 old-location: eaphost\eap_method_property_array.htm
 old-project: EAPHost
 ms.assetid: 1dfe2fb2-a4e5-4c14-8cde-083e45134f7b
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EAP_METHOD_PROPERTY_ARRAY, EAP_METHOD_PROPERTY_ARRAY structure [EAPHost], PEAP_METHOD_PROPERTY_ARRAY, PEAP_METHOD_PROPERTY_ARRAY structure pointer [EAPHost], _EAP_METHOD_PROPERTY_ARRAY, eaphost.eap_method_property_array, eaptypes/EAP_METHOD_PROPERTY_ARRAY, eaptypes/PEAP_METHOD_PROPERTY_ARRAY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

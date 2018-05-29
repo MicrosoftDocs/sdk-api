@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.ModifyAttribute
 title: IWMHeaderInfo3::ModifyAttribute
-author: windows-driver-content
+author: windows-sdk-content
 description: The ModifyAttribute method modifies the settings of an existing attribute.
 old-location: wmformat\iwmheaderinfo3_modifyattribute.htm
 old-project: wmformat
 ms.assetid: 503099e9-a1a9-406f-abc9-7c632d757cca
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMHeaderInfo3 interface [windows Media Format],ModifyAttribute method, IWMHeaderInfo3.ModifyAttribute, IWMHeaderInfo3::ModifyAttribute, IWMHeaderInfo3ModifyAttribute, ModifyAttribute, ModifyAttribute method [windows Media Format], ModifyAttribute method [windows Media Format],IWMHeaderInfo3 interface, wmformat.iwmheaderinfo3_modifyattribute, wmsdkidl/IWMHeaderInfo3::ModifyAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

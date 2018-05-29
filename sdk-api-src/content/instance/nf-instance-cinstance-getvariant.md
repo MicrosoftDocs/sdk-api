@@ -1,16 +1,16 @@
 ---
 UID: NF:instance.CInstance.GetVariant
 title: CInstance::GetVariant
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetVariant method retrieves a VARIANT property.
 old-location: wmi\cinstance_getvariant.htm
 old-project: WmiSdk
 ms.assetid: 84160043-bb63-422b-99be-3f55df4c15be
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?GetVariant@CInstance@@QBE_NPBGAAUtagVARIANT@@@Z, CInstance interface [Windows Management Instrumentation],GetVariant method, CInstance.GetVariant, CInstance::GetVariant, GetVariant, GetVariant method [Windows Management Instrumentation], GetVariant method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getvariant, instance/CInstance::GetVariant, wmi.cinstance_getvariant"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h

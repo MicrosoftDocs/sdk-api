@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.SetDCBrushColor
 title: SetDCBrushColor function
-author: windows-driver-content
+author: windows-sdk-content
 description: SetDCBrushColor function sets the current device context (DC) brush color to the specified color value. If the device cannot represent the specified color value, the color is set to the nearest physical color.
 old-location: gdi\setdcbrushcolor.htm
 old-project: gdi
 ms.assetid: 4feed536-2f1d-4a25-8311-7cae303167ca
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetDCBrushColor, SetDCBrushColor function [Windows GDI], _win32_SetDCBrushColor, gdi.setdcbrushcolor, wingdi/SetDCBrushColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

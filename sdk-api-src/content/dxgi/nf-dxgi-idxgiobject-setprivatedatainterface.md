@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi.IDXGIObject.SetPrivateDataInterface
 title: IDXGIObject::SetPrivateDataInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: Set an interface in the object's private data.
 old-location: direct3ddxgi\idxgiobject_setprivatedatainterface.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject_setprivatedatainterface.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: 37e6a4f2-50a5-efad-af10-20e8f1d053e2, IDXGIObject interface [DXGI],SetPrivateDataInterface method, IDXGIObject.SetPrivateDataInterface, IDXGIObject::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method [DXGI], SetPrivateDataInterface method [DXGI],IDXGIObject interface, direct3ddxgi.idxgiobject_setprivatedatainterface, dxgi/IDXGIObject::SetPrivateDataInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi.h
 req.include-header: 

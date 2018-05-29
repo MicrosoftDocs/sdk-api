@@ -1,16 +1,16 @@
 ---
 UID: NF:netioapi.GetIpPathEntry
 title: GetIpPathEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information for a IP path entry on the local computer.
 old-location: iphlp\getippathentry.htm
 old-project: IpHlp
 ms.assetid: 8ad43a1d-428a-41cc-bba8-5eec7f87c11f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetIpPathEntry, GetIpPathEntry function [IP Helper], iphlp.getippathentry, netioapi/GetIpPathEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

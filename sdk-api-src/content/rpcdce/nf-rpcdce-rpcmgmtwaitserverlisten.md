@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcMgmtWaitServerListen
 title: RpcMgmtWaitServerListen function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcMgmtWaitServerListen function performs the wait operation usually associated with RpcServerListen.
 old-location: rpc\rpcmgmtwaitserverlisten.htm
 old-project: Rpc
 ms.assetid: 19fa750f-76f8-4005-992f-9c2707e48668
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcMgmtWaitServerListen, RpcMgmtWaitServerListen function [RPC], _rpc_rpcmgmtwaitserverlisten, rpc.rpcmgmtwaitserverlisten, rpcdce/RpcMgmtWaitServerListen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

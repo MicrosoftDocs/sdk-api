@@ -1,16 +1,16 @@
 ---
 UID: NN:netfw.INetFwServiceRestriction
 title: INetFwServiceRestriction
-author: windows-driver-content
+author: windows-sdk-content
 description: Access to the Windows Service Hardening networking rules.
 old-location: ics\inetfwservicerestriction.htm
 old-project: ICS
 ms.assetid: e426cae9-8c39-44cf-bd48-3b385fdfbdf7
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwServiceRestriction, INetFwServiceRestriction interface [ICS/ICF], INetFwServiceRestriction interface [ICS/ICF],described, ics.inetfwservicerestriction, netfw/INetFwServiceRestriction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: netfw.h
 req.include-header: 

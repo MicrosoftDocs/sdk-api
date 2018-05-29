@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAddress.get_MessageWaiting
 title: ITAddress::get_MessageWaiting
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MessageWaiting method determines if the address has a message waiting.
 old-location: tapi3\itaddress_get_messagewaiting.htm
 old-project: Tapi
 ms.assetid: 4ddb49d9-dde7-498b-a243-f8c5b1294a87
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_MessageWaiting method, ITAddress.get_MessageWaiting, ITAddress::get_MessageWaiting, _tapi3_itaddress_get_messagewaiting, get_MessageWaiting, get_MessageWaiting method [TAPI 2.2], get_MessageWaiting method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_messagewaiting, tapi3if/ITAddress::get_MessageWaiting
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

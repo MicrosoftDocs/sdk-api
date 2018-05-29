@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineTranslateDialogW
 title: lineTranslateDialogW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineTranslateDialog function displays an application-modal dialog box that allows the user to change the current location of a phone number about to be dialed, adjust location and calling card parameters, and see the effect.
 old-location: tapi2\linetranslatedialog.htm
 old-project: Tapi
 ms.assetid: c9fd7abb-3b4b-442b-badc-371a12724f67
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linetranslatedialog, lineTranslateDialog, lineTranslateDialog function [TAPI 2.2], lineTranslateDialogA, lineTranslateDialogW, tapi/lineTranslateDialog, tapi/lineTranslateDialogA, tapi/lineTranslateDialogW, tapi2.linetranslatedialog"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IComponentType.put__MediaFormatType
 title: IComponentType::put__MediaFormatType
-author: windows-driver-content
+author: windows-sdk-content
 description: The put__MediaFormatType method sets the DirectShow media format type.
 old-location: mstv\icomponenttype_put__mediaformattype.htm
 old-project: mstv
 ms.assetid: 37baa69e-d942-41d6-b497-bf37d6b0d57b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],put__MediaFormatType method, IComponentType.put__MediaFormatType, IComponentType::put__MediaFormatType, IComponentTypeput__MediaFormatType, mstv.icomponenttype_put__mediaformattype, put__MediaFormatType, put__MediaFormatType method [Microsoft TV Technologies], put__MediaFormatType method [Microsoft TV Technologies],IComponentType interface, tuner/IComponentType::put__MediaFormatType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

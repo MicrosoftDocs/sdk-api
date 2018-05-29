@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpcsdk.DhcpUndoRequestParams
 title: DhcpUndoRequestParams function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DhcpUndoRequestParams function removes persistent requests previously made with a DhcpRequestParams function call.
 old-location: dhcp\dhcpundorequestparams.htm
 old-project: DHCP
 ms.assetid: a70fc72e-0fbd-4ee7-ae87-780fdc942384
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpUndoRequestParams, DhcpUndoRequestParams function [DHCP], _dhcp_dhcpundorequestparams, dhcp.dhcpundorequestparams, dhcpcsdk/DhcpUndoRequestParams
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpcsdk.h
 req.include-header: 

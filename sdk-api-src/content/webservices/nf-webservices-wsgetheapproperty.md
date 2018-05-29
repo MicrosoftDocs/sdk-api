@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsGetHeapProperty
 title: WsGetHeapProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a particular property of a specified Heap.
 old-location: wsw\wsgetheapproperty.htm
 old-project: wsw
 ms.assetid: c463924a-1491-4d65-86ed-827327e560b9
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsGetHeapProperty, WsGetHeapProperty function [Web Services for Windows], webservices/WsGetHeapProperty, wsw.wsgetheapproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

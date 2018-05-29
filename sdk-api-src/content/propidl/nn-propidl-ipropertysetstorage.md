@@ -1,16 +1,16 @@
 ---
 UID: NN:propidl.IPropertySetStorage
 title: IPropertySetStorage
-author: windows-driver-content
+author: windows-sdk-content
 description: The IPropertySetStorage interface creates, opens, deletes, and enumerates property set storages that support instances of the IPropertyStorage interface.
 old-location: stg\ipropertysetstorage.htm
 old-project: Stg
 ms.assetid: 0ea3e1e0-c135-4138-81e4-f72412fc3128
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertySetStorage, IPropertySetStorage interface [Structured Storage], IPropertySetStorage interface [Structured Storage],described, _stg_ipropertysetstorage, propidl/IPropertySetStorage, stg.ipropertysetstorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: propidl.h
 req.include-header: Objbase.h

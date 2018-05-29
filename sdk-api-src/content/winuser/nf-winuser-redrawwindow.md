@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.RedrawWindow
 title: RedrawWindow function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RedrawWindow function updates the specified rectangle or region in a window's client area.
 old-location: gdi\redrawwindow.htm
 old-project: gdi
 ms.assetid: c6cb7f74-237e-4d3e-a852-894da36e990c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: RDW_ALLCHILDREN, RDW_ERASE, RDW_ERASENOW, RDW_FRAME, RDW_INTERNALPAINT, RDW_INVALIDATE, RDW_NOCHILDREN, RDW_NOERASE, RDW_NOFRAME, RDW_NOINTERNALPAINT, RDW_UPDATENOW, RDW_VALIDATE, RedrawWindow, RedrawWindow function [Windows GDI], _win32_RedrawWindow, gdi.redrawwindow, winuser/RedrawWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

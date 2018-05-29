@@ -1,16 +1,16 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportDiagnosticsPolicy
 title: IWdsTransportDiagnosticsPolicy
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the diagnostics policy part of the WDS transport server's configuration.
 old-location: wds\iwdstransportdiagnosticspolicy.htm
 old-project: Wds
 ms.assetid: 01b52fcf-64f5-4e71-931b-a3a6b4d9b2b2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportDiagnosticsPolicy, IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services], IWdsTransportDiagnosticsPolicy interface [Windows Deployment Services],described, wds.iwdstransportdiagnosticspolicy, wdstptmgmt/IWdsTransportDiagnosticsPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

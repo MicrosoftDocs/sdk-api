@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.Rotate
 title: IUIAutomationTransformPattern::Rotate
-author: windows-driver-content
+author: windows-sdk-content
 description: Rotates the UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_Rotate.htm
 old-project: WinAuto
 ms.assetid: 97312397-dfea-435b-950d-6f346d5fa222
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationTransformPattern interface [Windows Accessibility],Rotate method, IUIAutomationTransformPattern.Rotate, IUIAutomationTransformPattern::Rotate, Rotate, Rotate method [Windows Accessibility], Rotate method [Windows Accessibility],IUIAutomationTransformPattern interface, uiauto.uiauto_IUIAutomationTransformPattern_Rotate, uiauto_IUIAutomationTransformPattern_Rotate, uiautomationclient/IUIAutomationTransformPattern::Rotate, winauto.uiauto_IUIAutomationTransformPattern_Rotate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

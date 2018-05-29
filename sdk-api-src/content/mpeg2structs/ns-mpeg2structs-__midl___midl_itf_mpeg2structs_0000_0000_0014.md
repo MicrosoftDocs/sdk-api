@@ -1,16 +1,16 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0014
 title: "__MIDL___MIDL_itf_mpeg2structs_0000_0000_0014"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MPEG_RQST_PACKET structure defines a buffer to receive MPEG-2 section data.
 old-location: mstv\mpeg_rqst_packet.htm
 old-project: mstv
 ms.assetid: b7777633-66c3-44c2-9cdb-14c540555a43
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PMPEG_RQST_PACKET, MPEG_RQST_PACKET, MPEG_RQST_PACKET structure [Microsoft TV Technologies], PMPEG_RQST_PACKET, PMPEG_RQST_PACKET structure pointer [Microsoft TV Technologies], __MIDL___MIDL_itf_mpeg2structs_0000_0000_0014, mpeg2structs/MPEG_RQST_PACKET, mpeg2structs/PMPEG_RQST_PACKET, mstv.mpeg_rqst_packet"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mpeg2structs.h
 req.include-header: 

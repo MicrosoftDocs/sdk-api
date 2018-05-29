@@ -1,16 +1,16 @@
 ---
 UID: NC:pdh.CounterPathCallBack
 title: CounterPathCallBack
-author: windows-driver-content
+author: windows-sdk-content
 description: Applications implement the CounterPathCallBack function to process the counter path strings returned by the Browse dialog box.
 old-location: perf\counterpathcallback.htm
 old-project: PerfCtrs
 ms.assetid: b7a2112e-9f50-4a36-b022-f9609b2827bc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CounterPathCallBack, CounterPathCallBack callback, CounterPathCallBack callback function [Perf], _win32_counterpathcallback, base.counterpathcallback, pdh/CounterPathCallBack, perf.counterpathcallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: pdh.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_MEMORY_POOL
 title: D3D12_MEMORY_POOL
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the memory pool for the heap.
 old-location: direct3d12\d3d12_memory_pool.htm
 old-project: direct3d12
 ms.assetid: EFA3FF00-F121-4ED8-AF83-1952C73AE06D
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_MEMORY_POOL, D3D12_MEMORY_POOL enumeration, D3D12_MEMORY_POOL_L0, D3D12_MEMORY_POOL_L1, D3D12_MEMORY_POOL_UNKNOWN, d3d12/D3D12_MEMORY_POOL, d3d12/D3D12_MEMORY_POOL_L0, d3d12/D3D12_MEMORY_POOL_L1, d3d12/D3D12_MEMORY_POOL_UNKNOWN, direct3d12.d3d12_memory_pool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

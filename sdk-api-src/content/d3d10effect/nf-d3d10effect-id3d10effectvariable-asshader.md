@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsShader
 title: ID3D10EffectVariable::AsShader
-author: windows-driver-content
+author: windows-sdk-content
 description: Get a shader variable.
 old-location: direct3d10\id3d10effectvariable_asshader.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asshader.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: AsShader, AsShader method [Direct3D 10], AsShader method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsShader method, ID3D10EffectVariable.AsShader, ID3D10EffectVariable::AsShader, cfb94875-697a-f808-87e1-768dc74cc207, d3d10effect/ID3D10EffectVariable::AsShader, direct3d10.id3d10effectvariable_asshader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10effect.h
 req.include-header: 

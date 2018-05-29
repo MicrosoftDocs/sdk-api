@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2.IMultisessionSequential2
 title: IMultisessionSequential2
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to retrieve information about the size of a writeable unit on sequentially recorded media.
 old-location: imapi\imultisessionsequential2.htm
 old-project: imapi
 ms.assetid: da226f8f-7ae9-4013-a0d4-c76a7b5dae64
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IMultisessionSequential2, IMultisessionSequential2 interface [IMAPI], IMultisessionSequential2 interface [IMAPI],described, imapi.imultisessionsequential2, imapi2/IMultisessionSequential2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

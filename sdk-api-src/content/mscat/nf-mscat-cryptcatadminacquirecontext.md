@@ -1,16 +1,16 @@
 ---
 UID: NF:mscat.CryptCATAdminAcquireContext
 title: CryptCATAdminAcquireContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Acquires a handle to a catalog administrator context.
 old-location: security\cryptcatadminacquirecontext.htm
 old-project: SecCrypto
 ms.assetid: 693af055-fa93-4526-aa9c-3a659f8ff78f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptCATAdminAcquireContext, CryptCATAdminAcquireContext function [Security], mscat/CryptCATAdminAcquireContext, security.cryptcatadminacquirecontext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mscat.h
 req.include-header: 

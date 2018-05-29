@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectButton
 title: IDvdControl2::SelectButton
-author: windows-driver-content
+author: windows-sdk-content
 description: The SelectButton method selects the specified menu button.
 old-location: dshow\idvdcontrol2_selectbutton.htm
 old-project: DirectShow
 ms.assetid: b2903a76-2888-4f0e-b23e-36d7488c837b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectButton method, IDvdControl2.SelectButton, IDvdControl2::SelectButton, IDvdControl2SelectButton, SelectButton, SelectButton method [DirectShow], SelectButton method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectbutton, strmif/IDvdControl2::SelectButton
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorActivityReport.GetFriendlyName
 title: IMFSensorActivityReport::GetFriendlyName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the friendly name for the sensor associated with the report.
 old-location: mf\imfsensoractivityreport_getfriendlyname.htm
 old-project: medfound
 ms.assetid: D31EBB3D-53BC-4D11-98ED-B68A04693C68
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [Media Foundation], GetFriendlyName method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetFriendlyName method, IMFSensorActivityReport.GetFriendlyName, IMFSensorActivityReport::GetFriendlyName, mf.imfsensoractivityreport_getfriendlyname, mfidl/IMFSensorActivityReport::GetFriendlyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:shobjidl_core.SHELL_ITEM_RESOURCE
 title: SHELL_ITEM_RESOURCE
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines Shell item resource.
 old-location: shell\SHELL_ITEM_RESOURCE.htm
 old-project: shell
 ms.assetid: 92ca56a2-e2c3-4651-aa29-115eb07119e9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHELL_ITEM_RESOURCE, SHELL_ITEM_RESOURCE structure [Windows Shell], _shell_SHELL_ITEM_RESOURCE, shell.SHELL_ITEM_RESOURCE, shobjidl_core/SHELL_ITEM_RESOURCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

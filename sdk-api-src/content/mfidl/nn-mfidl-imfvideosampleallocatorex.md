@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFVideoSampleAllocatorEx
 title: IMFVideoSampleAllocatorEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates video samples that contain Microsoft Direct3D 11 texture surfaces.
 old-location: mf\imfvideosampleallocatorex.htm
 old-project: medfound
 ms.assetid: B621F413-001B-4419-8FA7-439C45F97243
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFVideoSampleAllocatorEx, IMFVideoSampleAllocatorEx interface [Media Foundation], IMFVideoSampleAllocatorEx interface [Media Foundation],described, mf.imfvideosampleallocatorex, mfidl/IMFVideoSampleAllocatorEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

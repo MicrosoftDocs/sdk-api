@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_count_valuesW
 title: ldap_count_valuesW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ldap_count_values function counts the number of values in a list.
 old-location: ldap\ldap_count_values.htm
 old-project: LDAP
 ms.assetid: 3b00eeea-a966-4cf1-b945-2f052cae727a
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_count_values, ldap.ldap__count__values, ldap.ldap_count_values, ldap_count_values, ldap_count_values function [LDAP], ldap_count_valuesA, ldap_count_valuesW, winldap/ldap_count_values, winldap/ldap_count_valuesA, winldap/ldap_count_valuesW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

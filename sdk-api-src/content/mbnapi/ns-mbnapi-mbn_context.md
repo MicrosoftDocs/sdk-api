@@ -1,16 +1,16 @@
 ---
 UID: NS:mbnapi.MBN_CONTEXT
 title: MBN_CONTEXT
-author: windows-driver-content
+author: windows-sdk-content
 description: The MBN_CONTEXT structure stores information about the connection context.
 old-location: mbn\mbn_context.htm
 old-project: mbn
 ms.assetid: 949b1bb3-8cad-45b4-81b7-1f70a76b6c8c
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: MBN_CONTEXT, MBN_CONTEXT structure [Microsoft Broadband Networks], mbn.mbn_context, mbnapi/MBN_CONTEXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mbnapi.h
 req.include-header: 

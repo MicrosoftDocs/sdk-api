@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IDVBTLocator
 title: IDVBTLocator
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDVBTLocator interface is implemented on the DVBTLocator object.
 old-location: mstv\idvbtlocator.htm
 old-project: mstv
 ms.assetid: f5a95a68-fee0-404c-b9c6-6b808977f8d2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDVBTLocator, IDVBTLocator interface [Microsoft TV Technologies], IDVBTLocator interface [Microsoft TV Technologies],described, IDVBTLocatorInterface, mstv.idvbtlocator, tuner/IDVBTLocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

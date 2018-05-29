@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionSink.OnEndComposition
 title: ITfContextOwnerCompositionSink::OnEndComposition
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfContextOwnerCompositionSink::OnEndComposition method
 old-location: tsf\itfcontextownercompositionsink_onendcomposition.htm
 old-project: TSF
 ms.assetid: 816aaa81-1b51-4e01-b49c-a9cbe2b87735
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfContextOwnerCompositionSink interface [Text Services Framework],OnEndComposition method, ITfContextOwnerCompositionSink.OnEndComposition, ITfContextOwnerCompositionSink::OnEndComposition, OnEndComposition, OnEndComposition method [Text Services Framework], OnEndComposition method [Text Services Framework],ITfContextOwnerCompositionSink interface, _tsf_itfcontextownercompositionsink_onendcomposition_ref, msctf/ITfContextOwnerCompositionSink::OnEndComposition, tsf.itfcontextownercompositionsink_onendcomposition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

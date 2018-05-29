@@ -1,16 +1,16 @@
 ---
 UID: NF:casetup.ICertSrvSetup.IsPropertyEditable
 title: ICertSrvSetup::IsPropertyEditable
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates to the caller whether a specified property can be edited.
 old-location: security\icertsrvsetup_ispropertyeditable.htm
 old-project: SecCrypto
 ms.assetid: 2facae59-aa96-4ac7-97e1-ff094022681a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertSrvSetup interface [Security],IsPropertyEditable method, ICertSrvSetup.IsPropertyEditable, ICertSrvSetup::IsPropertyEditable, IsPropertyEditable, IsPropertyEditable method [Security], IsPropertyEditable method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::IsPropertyEditable, security.icertsrvsetup_ispropertyeditable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

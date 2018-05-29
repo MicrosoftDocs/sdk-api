@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._DEVICE_DSM_OFFLOAD_READ_PARAMETERS
 title: "_DEVICE_DSM_OFFLOAD_READ_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains parameters for the DeviceDsmAction_OffloadRead action for the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_dsm_offload_read_parameters.htm
 old-project: DevIO
 ms.assetid: 20dd3e5b-90f4-45fc-8cc8-bf9e6d08a026
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: "*PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure, PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, PDEVICE_DSM_OFFLOAD_READ_PARAMETERS structure pointer, _DEVICE_DSM_OFFLOAD_READ_PARAMETERS, base.device_dsm_offload_read_parameters, winioctl/DEVICE_DSM_OFFLOAD_READ_PARAMETERS, winioctl/PDEVICE_DSM_OFFLOAD_READ_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

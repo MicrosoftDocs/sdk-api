@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagTBSAVEPARAMSW
 title: tagTBSAVEPARAMSW
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the location in the registry where the TB_SAVERESTORE message stores and retrieves information about the state of a toolbar.
 old-location: controls\TBSAVEPARAMS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbsaveparams.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPTBSAVEPARAMW, TBSAVEPARAMS, TBSAVEPARAMS structure [Windows Controls], TBSAVEPARAMSA, TBSAVEPARAMSW, _win32_TBSAVEPARAMS, _win32_TBSAVEPARAMS_cpp, commctrl/TBSAVEPARAMS, commctrl/TBSAVEPARAMSA, commctrl/TBSAVEPARAMSW, controls.TBSAVEPARAMS, controls._win32_TBSAVEPARAMS, tagTBSAVEPARAMSW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

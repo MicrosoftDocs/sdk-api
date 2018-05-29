@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLInstallProofOfPurchaseEx
 title: SLInstallProofOfPurchaseEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Register the product key with SL.
 old-location: security\slinstallproofofpurchaseex.htm
 old-project: SecSLApi
 ms.assetid: 3e80137d-a3e5-4f9e-a114-ac8d5dd69187
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLInstallProofOfPurchaseEx, SLInstallProofOfPurchaseEx function [Security], security.slinstallproofofpurchaseex, slpublic/SLInstallProofOfPurchaseEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

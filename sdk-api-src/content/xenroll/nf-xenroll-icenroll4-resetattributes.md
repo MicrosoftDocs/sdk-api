@@ -1,16 +1,16 @@
 ---
 UID: NF:xenroll.ICEnroll4.resetAttributes
 title: ICEnroll4::resetAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all attributes from the request. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_resetattributes.htm
 old-project: SecCrypto
 ms.assetid: 606cc93a-cc18-43fb-94e7-dc35dc7f2533
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CEnroll object [Security],resetAttributes method, ICEnroll4 interface [Security],resetAttributes method, ICEnroll4.resetAttributes, ICEnroll4::resetAttributes, _xen_icenroll4_resetattributes, resetAttributes, resetAttributes method [Security], resetAttributes method [Security],CEnroll object, resetAttributes method [Security],ICEnroll4 interface, security.icenroll4_resetattributes, xenroll/ICEnroll4::resetAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xenroll.h
 req.include-header: 

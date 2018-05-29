@@ -1,16 +1,16 @@
 ---
 UID: NS:audioenginebaseapo.APO_REG_PROPERTIES
 title: APO_REG_PROPERTIES
-author: windows-driver-content
+author: windows-sdk-content
 description: The APO_REG_PROPERTIES structure is used by IAudioProcessingObject::GetRegistrationProperties for returning the registration properties of an audio processing object (APO).
 old-location: audio\apo_reg_properties.htm
 old-project: audio
 ms.assetid: 466215E5-5345-4570-A29B-086562882F5D
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*PAPO_REG_PROPERTIES, APO_REG_PROPERTIES, APO_REG_PROPERTIES structure [Audio Devices], PAPO_REG_PROPERTIES, PAPO_REG_PROPERTIES structure pointer [Audio Devices], audio.apo_reg_properties, audioenginebaseapo/APO_REG_PROPERTIES, audioenginebaseapo/PAPO_REG_PROPERTIES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: audioenginebaseapo.h
 req.include-header: 

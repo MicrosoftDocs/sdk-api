@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Class_GetElementCount
 title: MI_Class_GetElementCount function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of elements in a class.
 old-location: wmi_v2\mi_class_getelementcount.htm
 old-project: wmi_v2
 ms.assetid: f6db81ca-0411-4693-8bcc-830d4fd757ca
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Class_GetElementCount, MI_Class_GetElementCount function [Windows Management Infrastructure (MI)], mi/MI_Class_GetElementCount, wmi_v2.mi_class_getelementcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

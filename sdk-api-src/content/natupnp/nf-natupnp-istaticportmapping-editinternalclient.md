@@ -1,16 +1,16 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.EditInternalClient
 title: IStaticPortMapping::EditInternalClient
-author: windows-driver-content
+author: windows-sdk-content
 description: The EditInternalClient method sets the internal client property of this port mapping to the specified value.
 old-location: ics\istaticportmapping_editinternalclient.htm
 old-project: ICS
 ms.assetid: 864d0edf-c9fd-4ea0-b950-119dc4a630dc
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EditInternalClient, EditInternalClient method [ICS/ICF], EditInternalClient method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],EditInternalClient method, IStaticPortMapping.EditInternalClient, IStaticPortMapping::EditInternalClient, _ics_istaticportmapping_editinternalclient, ics.istaticportmapping_editinternalclient, natupnp/IStaticPortMapping::EditInternalClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: natupnp.h
 req.include-header: 

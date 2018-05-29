@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRYPT_DECODE_PARA
 title: "_CRYPT_DECODE_PARA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by the CryptDecodeObjectEx function to provide access to memory allocation and memory freeing callback functions.
 old-location: security\crypt_decode_para.htm
 old-project: SecCrypto
 ms.assetid: 08ed4627-8cbf-415f-b0d0-2c4b9ed9aed1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_DECODE_PARA, CRYPT_DECODE_PARA, CRYPT_DECODE_PARA structure [Security], PCRYPT_DECODE_PARA, PCRYPT_DECODE_PARA structure pointer [Security], _CRYPT_DECODE_PARA, security.crypt_decode_para, wincrypt/CRYPT_DECODE_PARA, wincrypt/PCRYPT_DECODE_PARA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

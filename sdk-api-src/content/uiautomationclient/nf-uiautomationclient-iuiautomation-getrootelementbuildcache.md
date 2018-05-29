@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetRootElementBuildCache
 title: IUIAutomation::GetRootElementBuildCache
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the UI Automation element that represents the desktop, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomation_GetRootElementBuildCache.htm
 old-project: WinAuto
 ms.assetid: 0d2c0592-d29a-4e70-978e-55690aed82cb
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetRootElementBuildCache, GetRootElementBuildCache method [Windows Accessibility], GetRootElementBuildCache method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetRootElementBuildCache method, IUIAutomation.GetRootElementBuildCache, IUIAutomation::GetRootElementBuildCache, uiauto.uiauto_IUIAutomation_GetRootElementBuildCache, uiauto_IUIAutomation_GetRootElementBuildCache, uiautomationclient/IUIAutomation::GetRootElementBuildCache, winauto.uiauto_IUIAutomation_GetRootElementBuildCache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

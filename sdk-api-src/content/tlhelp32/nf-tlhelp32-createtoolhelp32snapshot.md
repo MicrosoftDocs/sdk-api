@@ -1,16 +1,16 @@
 ---
 UID: NF:tlhelp32.CreateToolhelp32Snapshot
 title: CreateToolhelp32Snapshot function
-author: windows-driver-content
+author: windows-sdk-content
 description: Takes a snapshot of the specified processes, as well as the heaps, modules, and threads used by these processes.
 old-location: toolhelp\createtoolhelp32snapshot.htm
 old-project: ToolHelp
 ms.assetid: df643c25-7558-424c-b187-b3f86ba51358
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CreateToolhelp32Snapshot, CreateToolhelp32Snapshot function [ToolHelp], TH32CS_INHERIT, TH32CS_SNAPALL, TH32CS_SNAPHEAPLIST, TH32CS_SNAPMODULE, TH32CS_SNAPMODULE32, TH32CS_SNAPPROCESS, TH32CS_SNAPTHREAD, _win32_createtoolhelp32snapshot, base.createtoolhelp32snapshot, tlhelp32/CreateToolhelp32Snapshot, toolhelp.createtoolhelp32snapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 

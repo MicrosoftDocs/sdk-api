@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupAddInstallSectionToDiskSpaceListW
 title: SetupAddInstallSectionToDiskSpaceListW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupAddInstallSectionToDiskSpaceList function searches for CopyFile and DelFile lines in an Install section of an INF file. The function then adds the file operations specified in those sections to a disk-space list.
 old-location: setup\setupaddinstallsectiontodiskspacelist.htm
 old-project: SetupApi
 ms.assetid: 322f36d7-a683-4a48-b294-393277f09e7d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupAddInstallSectionToDiskSpaceList, SetupAddInstallSectionToDiskSpaceList function [Setup API], SetupAddInstallSectionToDiskSpaceListA, SetupAddInstallSectionToDiskSpaceListW, _setupapi_setupaddinstallsectiontodiskspacelist, setup.setupaddinstallsectiontodiskspacelist, setupapi/SetupAddInstallSectionToDiskSpaceList, setupapi/SetupAddInstallSectionToDiskSpaceListA, setupapi/SetupAddInstallSectionToDiskSpaceListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

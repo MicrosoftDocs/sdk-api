@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzTask.AddOperation
 title: IAzTask::AddOperation
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the IAzOperation object with the specified name to the task.
 old-location: security\iaztask_addoperation.htm
 old-project: SecAuthZ
 ms.assetid: 73da7094-440c-4e68-8d43-9f4ba26dd14b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddOperation, AddOperation method [Security], AddOperation method [Security],AzTask object, AddOperation method [Security],IAzTask interface, AzTask object [Security],AddOperation method, IAzTask interface [Security],AddOperation method, IAzTask.AddOperation, IAzTask::AddOperation, azroles/IAzTask::AddOperation, security.iaztask_addoperation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

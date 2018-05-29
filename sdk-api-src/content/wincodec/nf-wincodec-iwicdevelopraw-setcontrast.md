@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetContrast
 title: IWICDevelopRaw::SetContrast
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the contrast value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_setcontrast.htm
 old-project: wic
 ms.assetid: 5013d351-e96d-44c7-88d7-65a55e474b01
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetContrast method, IWICDevelopRaw.SetContrast, IWICDevelopRaw::SetContrast, SetContrast, SetContrast method [Windows Imaging Component], SetContrast method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setcontrast, wic._wic_codec_iwicdevelopraw_setcontrast, wincodec/IWICDevelopRaw::SetContrast
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

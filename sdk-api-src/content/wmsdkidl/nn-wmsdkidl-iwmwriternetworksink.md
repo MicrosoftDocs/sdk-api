@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMWriterNetworkSink
 title: IWMWriterNetworkSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMWriterNetworkSink interface is used to deliver streams to the network.
 old-location: wmformat\iwmwriternetworksink.htm
 old-project: wmformat
 ms.assetid: 3204c360-f407-4cf3-bb21-7e6094587fb0
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMWriterNetworkSink, IWMWriterNetworkSink interface [windows Media Format], IWMWriterNetworkSink interface [windows Media Format],described, IWMWriterNetworkSinkInterface, wmformat.iwmwriternetworksink, wmsdkidl/IWMWriterNetworkSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

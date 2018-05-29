@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICSeqCompressFrameStart
 title: ICSeqCompressFrameStart function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICSeqCompressFrameStart function initializes resources for compressing a sequence of frames using the ICSeqCompressFrame function.
 old-location: multimedia\icseqcompressframestart.htm
 old-project: Multimedia
 ms.assetid: 90103468-fcdc-4c40-b328-29fe467b9039
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICSeqCompressFrameStart, ICSeqCompressFrameStart function [Windows Multimedia], _win32_ICSeqCompressFrameStart, multimedia.icseqcompressframestart, vfw/ICSeqCompressFrameStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

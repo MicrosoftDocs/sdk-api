@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.SetAt
 title: IXpsOMColorProfileResourceCollection::SetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces an IXpsOMColorProfileResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_setat.htm
 old-project: printdocs
 ms.assetid: dbabddbb-a558-4166-9951-7126221d88e6
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMColorProfileResourceCollection.SetAt, IXpsOMColorProfileResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, xps.ixpsomcolorprofileresourcecollection_setat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::SetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

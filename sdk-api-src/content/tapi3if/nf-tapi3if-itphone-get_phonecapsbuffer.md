@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPhone.get_PhoneCapsBuffer
 title: ITPhone::get_PhoneCapsBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_PhoneCapsBuffer method gets a buffer capability/information about the phone, based on the PHONECAPS_BUFFER enum passed in.
 old-location: tapi3\itphone_get_phonecapsbuffer.htm
 old-project: Tapi
 ms.assetid: d9397aa8-2be4-4775-8123-975bdd58a6b5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_PhoneCapsBuffer method, ITPhone.get_PhoneCapsBuffer, ITPhone::get_PhoneCapsBuffer, _tapi3_itphone_get_phonecapsbuffer, get_PhoneCapsBuffer, get_PhoneCapsBuffer method [TAPI 2.2], get_PhoneCapsBuffer method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_phonecapsbuffer, tapi3if/ITPhone::get_PhoneCapsBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

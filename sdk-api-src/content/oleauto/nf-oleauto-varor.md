@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarOr
 title: VarOr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs a logical disjunction on two variants.
 old-location: automat\varor.htm
 old-project: automat
 ms.assetid: 8c161755-4fdd-48bd-9dc4-6510cc9ce8ab
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarOr, VarOr function [Automation], _oa96_VarOr, automat.varor, oleauto/VarOr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.phonemessage_tag
 title: phonemessage_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PHONEMESSAGE structure contains the next message queued for delivery to the application. The phoneGetMessage function returns this structure.
 old-location: tapi2\phonemessage_str.htm
 old-project: Tapi
 ms.assetid: 3655efef-d24c-4d67-b1dc-29d1948a1869
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPPHONEMESSAGE, LPPHONEMESSAGE, LPPHONEMESSAGE structure pointer [TAPI 2.2], PHONEMESSAGE, PHONEMESSAGE structure [TAPI 2.2], _tapi2_phonemessage_str, phonemessage_tag, tapi/LPPHONEMESSAGE, tapi/PHONEMESSAGE, tapi2.phonemessage_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

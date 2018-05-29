@@ -1,16 +1,16 @@
 ---
 UID: NS:amvideo._AM_FRAMESTEP_STEP
 title: "_AM_FRAMESTEP_STEP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the number of frames to step.
 old-location: dshow\am_property_framestep.htm
 old-project: DirectShow
 ms.assetid: 342029c8-0b2b-45d2-852d-062a8d297d28
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AM_FRAMESTEP_STEP, AM_FRAMESTEP_STEP structure [DirectShow], AM_PROPERTY_FRAMESTEPStructure, _AM_FRAMESTEP_STEP, amvideo/AM_FRAMESTEP_STEP, dshow.am_property_framestep
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: amvideo.h
 req.include-header: Dshow.h

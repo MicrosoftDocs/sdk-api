@@ -1,16 +1,16 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_FIND_RADIO_PARAMS
 title: "_BLUETOOTH_FIND_RADIO_PARAMS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The BLUETOOTH_FIND_RADIO_PARAMS structure facilitates enumerating installed Bluetooth radios.
 old-location: bluetooth\bluetooth_find_radio_params.htm
 old-project: Bluetooth
 ms.assetid: b997203d-e7e4-43aa-b751-e419483020ac
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BLUETOOTH_FIND_RADIO_PARAMS, BLUETOOTH_FIND_RADIO_PARAMS structure [Bluetooth], _BLUETOOTH_FIND_RADIO_PARAMS, bluetooth.bluetooth_find_radio_params, bluetoothapis/BLUETOOTH_FIND_RADIO_PARAMS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

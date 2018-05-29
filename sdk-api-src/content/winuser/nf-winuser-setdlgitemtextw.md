@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.SetDlgItemTextW
 title: SetDlgItemTextW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the title or text of a control in a dialog box.
 old-location: dlgbox\setdlgitemtext.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\setdlgitemtext.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: SetDlgItemText, SetDlgItemText function [Dialog Boxes], SetDlgItemTextA, SetDlgItemTextW, _win32_SetDlgItemText, _win32_setdlgitemtext_cpp, dlgbox.setdlgitemtext, winui._win32_setdlgitemtext, winuser/SetDlgItemText, winuser/SetDlgItemTextA, winuser/SetDlgItemTextW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

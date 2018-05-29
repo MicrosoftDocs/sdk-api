@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoMarshalInterThreadInterfaceInStream
 title: CoMarshalInterThreadInterfaceInStream function
-author: windows-driver-content
+author: windows-sdk-content
 description: Marshals an interface pointer from one thread to another thread in the same process.
 old-location: com\comarshalinterthreadinterfaceinstream.htm
 old-project: com
 ms.assetid: c9ab8713-8604-4f0b-a11b-bdfb7d595d95
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoMarshalInterThreadInterfaceInStream, CoMarshalInterThreadInterfaceInStream function [COM], _com_CoMarshalInterThreadInterfaceInStream, com.comarshalinterthreadinterfaceinstream, combaseapi/CoMarshalInterThreadInterfaceInStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

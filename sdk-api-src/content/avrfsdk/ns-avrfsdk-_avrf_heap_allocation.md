@@ -1,16 +1,16 @@
 ---
 UID: NS:avrfsdk._AVRF_HEAP_ALLOCATION
 title: "_AVRF_HEAP_ALLOCATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores metadata information about heap allocation.
 old-location: winprog\avrf_heap_allocation.htm
 old-project: DevNotes
 ms.assetid: 238c7de7-4bf1-4974-8a6f-09e4d5f756ab
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PAVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION, AVRF_HEAP_ALLOCATION structure [Windows API], _AVRF_HEAP_ALLOCATION, avrfsdk/AVRF_HEAP_ALLOCATION, base.avrf_heap_allocation, winprog.avrf_heap_allocation"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: avrfsdk.h
 req.include-header: 

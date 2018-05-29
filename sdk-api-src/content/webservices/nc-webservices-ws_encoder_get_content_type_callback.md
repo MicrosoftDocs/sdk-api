@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_ENCODER_GET_CONTENT_TYPE_CALLBACK
 title: WS_ENCODER_GET_CONTENT_TYPE_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the content type of the message.
 old-location: wsw\ws_encoder_get_content_type_callback.htm
 old-project: wsw
 ms.assetid: 9e17481e-91ed-4215-983e-218936a1aa4f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_ENCODER_GET_CONTENT_TYPE_CALLBACK, WS_ENCODER_GET_CONTENT_TYPE_CALLBACK callback, WS_ENCODER_GET_CONTENT_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_ENCODER_GET_CONTENT_TYPE_CALLBACK, wsw.ws_encoder_get_content_type_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

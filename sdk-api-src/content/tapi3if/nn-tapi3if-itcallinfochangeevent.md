@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITCallInfoChangeEvent
 title: ITCallInfoChangeEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITCallInfoChangeEvent interface contains methods that retrieve the description of call information change events.
 old-location: tapi3\itcallinfochangeevent.htm
 old-project: Tapi
 ms.assetid: f543da95-c0cc-4631-b91e-ba02dde2c081
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallInfoChangeEvent, ITCallInfoChangeEvent interface [TAPI 2.2], ITCallInfoChangeEvent interface [TAPI 2.2],described, _tapi3_itcallinfochangeevent, tapi3.itcallinfochangeevent, tapi3if/ITCallInfoChangeEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

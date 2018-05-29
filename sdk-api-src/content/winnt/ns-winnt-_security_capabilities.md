@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._SECURITY_CAPABILITIES
 title: "_SECURITY_CAPABILITIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the security capabilities of the app container.
 old-location: security\security_capabilities.htm
 old-project: SecAuthZ
 ms.assetid: 1A865519-E042-4871-886C-9AA64D71CCE4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPSECURITY_CAPABILITIES, *PSECURITY_CAPABILITIES, PSECURITY_CAPABILITIES, PSECURITY_CAPABILITIES structure pointer [Security], SECURITY_CAPABILITIES, SECURITY_CAPABILITIES structure [Security], _SECURITY_CAPABILITIES, security.security_capabilities, winnt/PSECURITY_CAPABILITIES, winnt/SECURITY_CAPABILITIES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: 

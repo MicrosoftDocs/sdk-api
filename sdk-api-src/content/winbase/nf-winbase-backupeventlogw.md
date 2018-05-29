@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.BackupEventLogW
 title: BackupEventLogW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves the specified event log to a backup file.
 old-location: base\backupeventlog.htm
 old-project: EventLog
 ms.assetid: 5cfd5bad-4401-4abd-9e81-5f139e4ecf73
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BackupEventLog, BackupEventLog function, BackupEventLogA, BackupEventLogW, _win32_backupeventlog, base.backupeventlog, winbase/BackupEventLog, winbase/BackupEventLogA, winbase/BackupEventLogW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

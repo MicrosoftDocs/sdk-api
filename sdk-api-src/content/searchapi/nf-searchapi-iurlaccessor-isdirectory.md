@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.IUrlAccessor.IsDirectory
 title: IUrlAccessor::IsDirectory
-author: windows-driver-content
+author: windows-sdk-content
 description: Ascertains whether the item URL points to a directory.
 old-location: search\_search_IUrlAccessor_IsDirectory.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\isdirectory.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IUrlAccessor interface [search],IsDirectory method, IUrlAccessor.IsDirectory, IUrlAccessor::IsDirectory, IsDirectory, IsDirectory method [search], IsDirectory method [search],IUrlAccessor interface, _search_IUrlAccessor_IsDirectory, search._search_IUrlAccessor_IsDirectory, searchapi/IUrlAccessor::IsDirectory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

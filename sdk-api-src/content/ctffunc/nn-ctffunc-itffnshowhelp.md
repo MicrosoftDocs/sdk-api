@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfFnShowHelp
 title: ITfFnShowHelp
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfFnShowHelp interface is implemented by a text service to enable the language bar to place a help command for the text service in the language bar help menu.
 old-location: tsf\itffnshowhelp.htm
 old-project: TSF
 ms.assetid: d5d60767-95f3-4ed0-b61e-58e06d1e1a98
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnShowHelp, ITfFnShowHelp interface [Text Services Framework], ITfFnShowHelp interface [Text Services Framework],described, _tsf_itffnshowhelp_ref, ctffunc/ITfFnShowHelp, tsf.itffnshowhelp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

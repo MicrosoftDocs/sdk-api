@@ -1,16 +1,16 @@
 ---
 UID: NS:setupapi._SP_DEVINFO_LIST_DETAIL_DATA_W
 title: "_SP_DEVINFO_LIST_DETAIL_DATA_W"
-author: windows-driver-content
+author: windows-sdk-content
 description: An SP_DEVINFO_LIST_DETAIL_DATA structure contains information about a device information set, such as its associated setup class GUID (if it has an associated setup class).
 old-location: devinst\sp_devinfo_list_detail_data.htm
 old-project: devinst
 ms.assetid: 03e6c137-5a7f-443d-878f-5e5c6642dde9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSP_DEVINFO_LIST_DETAIL_DATA_W, PSP_DEVINFO_LIST_DETAIL_DATA, PSP_DEVINFO_LIST_DETAIL_DATA structure pointer [Device and Driver Installation], SP_DEVINFO_LIST_DETAIL_DATA, SP_DEVINFO_LIST_DETAIL_DATA structure [Device and Driver Installation], SP_DEVINFO_LIST_DETAIL_DATA_W, _SP_DEVINFO_LIST_DETAIL_DATA_W, devinst.sp_devinfo_list_detail_data, di-struct_8539bcfc-25ee-49f5-bc59-74efc6aae5bf.xml, setupapi/PSP_DEVINFO_LIST_DETAIL_DATA, setupapi/SP_DEVINFO_LIST_DETAIL_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h

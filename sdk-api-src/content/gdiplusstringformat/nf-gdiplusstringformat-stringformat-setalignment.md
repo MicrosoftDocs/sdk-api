@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetAlignment
 title: StringFormat::SetAlignment
-author: windows-driver-content
+author: windows-sdk-content
 description: The StringFormat::SetAlignment method sets the character alignment of this StringFormat object in relation to the origin of the layout rectangle. A layout rectangle is used to position the displayed string.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetAlignment_align_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\setalignment_24align.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetAlignment, SetAlignment method [GDI+], SetAlignment method [GDI+],StringFormat class, StringFormat class [GDI+],SetAlignment method, StringFormat.SetAlignment, StringFormat::SetAlignment, _gdiplus_CLASS_StringFormat_SetAlignment_align_, gdiplus._gdiplus_CLASS_StringFormat_SetAlignment_align_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h

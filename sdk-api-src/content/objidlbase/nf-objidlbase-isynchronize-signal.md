@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.ISynchronize.Signal
 title: ISynchronize::Signal
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the synchronization object to the signaled state and causes pending wait operations to return S_OK.
 old-location: com\isynchronize_signal.htm
 old-project: com
 ms.assetid: c55b9ffc-2e28-427b-8c77-349f554469e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISynchronize interface [COM],Signal method, ISynchronize.Signal, ISynchronize::Signal, Signal, Signal method [COM], Signal method [COM],ISynchronize interface, _com_isynchronize_signal, com.isynchronize_signal, objidlbase/ISynchronize::Signal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

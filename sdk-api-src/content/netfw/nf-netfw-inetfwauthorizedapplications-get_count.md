@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.get_Count
 title: INetFwAuthorizedApplications::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the number of items in the collection.
 old-location: ics\count_property_of_inetfwauthorizedapplications_count.htm
 old-project: ICS
 ms.assetid: 6b0cc653-d5be-42af-ac8b-551b961550da
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: Count property [ICS/ICF], Count property [ICS/ICF],INetFwAuthorizedApplications interface, INetFwAuthorizedApplications interface [ICS/ICF],Count property, INetFwAuthorizedApplications.Count, INetFwAuthorizedApplications.get_Count, INetFwAuthorizedApplications::Count, INetFwAuthorizedApplications::get_Count, get_Count, ics.count_property_of_inetfwauthorizedapplications_count, netfw/INetFwAuthorizedApplications::Count, netfw/INetFwAuthorizedApplications::get_Count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

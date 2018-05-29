@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Modify_Res_Des_Ex
 title: CM_Modify_Res_Des_Ex function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Modify_Res_Des_Ex function modifies a specified resource descriptor on a local or a remote machine.
 old-location: devinst\cm_modify_res_des_ex.htm
 old-project: devinst
 ms.assetid: 6bb4af46-995e-4487-9c5f-89c72abb0ec5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Modify_Res_Des_Ex, CM_Modify_Res_Des_Ex function [Device and Driver Installation], cfgmgr32/CM_Modify_Res_Des_Ex, cfgmgrfn_62acb8c0-8f2c-4475-8f66-deed331699ba.xml, devinst.cm_modify_res_des_ex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

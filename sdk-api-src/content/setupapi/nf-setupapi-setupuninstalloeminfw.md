@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupUninstallOEMInfW
 title: SetupUninstallOEMInfW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupUninstallOEMInf function uninstalls a specified .inf file and any associated .pnf file.
 old-location: setup\setupuninstalloeminf.htm
 old-project: SetupApi
 ms.assetid: 70cec8c7-7954-44d7-93f5-711368f72bf7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SUOI_FORCEDELETE, SetupUninstallOEMInf, SetupUninstallOEMInf function [Setup API], SetupUninstallOEMInfA, SetupUninstallOEMInfW, _setupapi_setupuninstalloeminf, setup.setupuninstalloeminf, setupapi/SetupUninstallOEMInf, setupapi/SetupUninstallOEMInfA, setupapi/SetupUninstallOEMInfW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

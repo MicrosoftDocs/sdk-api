@@ -1,16 +1,16 @@
 ---
 UID: NF:fhcfg.IFhReassociation.PerformReassociation
 title: IFhReassociation::PerformReassociation
-author: windows-driver-content
+author: windows-sdk-content
 description: This method re-establishes relationship between the current user and the configuration selected previously via the IFhReassociation::SelectConfiguration method and prepares the target device for accepting backup data from the current computer.
 old-location: winprog\ifhreassociation_performreassociation.htm
 old-project: DevNotes
 ms.assetid: 2E80F25E-2DB6-4522-8F3C-7E6359104CCA
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FhReassociation class [Windows API],PerformReassociation method, IFhReassociation interface [Windows API],PerformReassociation method, IFhReassociation.PerformReassociation, IFhReassociation::PerformReassociation, PerformReassociation, PerformReassociation method [Windows API], PerformReassociation method [Windows API],FhReassociation class, PerformReassociation method [Windows API],IFhReassociation interface, fhcfg/IFhReassociation::PerformReassociation, winprog.ifhreassociation_performreassociation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fhcfg.h
 req.include-header: 

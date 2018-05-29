@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheck.IEnumSpellingError.Next
 title: IEnumSpellingError::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the next spelling error.
 old-location: intl\ienumspellingerror_next.htm
 old-project: Intl
 ms.assetid: c0fba585-2511-4162-8232-4e0510dc9261
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumSpellingError interface [Internationalization for Windows Applications],Next method, IEnumSpellingError.Next, IEnumSpellingError::Next, Next, Next method [Internationalization for Windows Applications], Next method [Internationalization for Windows Applications],IEnumSpellingError interface, intl.ienumspellingerror_next, spellcheck/IEnumSpellingError::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

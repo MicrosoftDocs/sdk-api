@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerCollabDeleteObject
 title: PeerCollabDeleteObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a peer object from the calling endpoint.
 old-location: p2p\peercollabdeleteobject.htm
 old-project: P2PSdk
 ms.assetid: 4849f8da-7f8a-4951-94eb-624ee186ec83
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerCollabDeleteObject, PeerCollabDeleteObject function [Peer Networking], p2p.peercollabdeleteobject, p2p/PeerCollabDeleteObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

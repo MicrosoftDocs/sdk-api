@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ReservedMixedAttributeValue
 title: IUIAutomation::get_ReservedMixedAttributeValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a static token object representing a text attribute that is a mixed attribute.
 old-location: winauto\uiauto_IUIAutomation_ReservedMixedAttributeValue.htm
 old-project: WinAuto
 ms.assetid: 5b225507-deee-4f2c-a17b-f0e96963a1d0
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],ReservedMixedAttributeValue property, IUIAutomation.ReservedMixedAttributeValue, IUIAutomation.get_ReservedMixedAttributeValue, IUIAutomation::ReservedMixedAttributeValue, IUIAutomation::get_ReservedMixedAttributeValue, ReservedMixedAttributeValue property [Windows Accessibility], ReservedMixedAttributeValue property [Windows Accessibility],IUIAutomation interface, get_ReservedMixedAttributeValue, uiauto.uiauto_IUIAutomation_ReservedMixedAttributeValue, uiauto_IUIAutomation_ReservedMixedAttributeValue, uiautomationclient/IUIAutomation::ReservedMixedAttributeValue, uiautomationclient/IUIAutomation::get_ReservedMixedAttributeValue, winauto.uiauto_IUIAutomation_ReservedMixedAttributeValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

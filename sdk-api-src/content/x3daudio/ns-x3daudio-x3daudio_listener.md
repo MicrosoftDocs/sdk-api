@@ -1,16 +1,16 @@
 ---
 UID: NS:x3daudio.X3DAUDIO_LISTENER
 title: X3DAUDIO_LISTENER
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a point of 3D audio reception.
 old-location: xaudio2\x3daudio_listener.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.x3daudio.X3DAUDIO_LISTENER
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: "*LPX3DAUDIO_LISTENER, LPX3DAUDIO_LISTENER, LPX3DAUDIO_LISTENER structure pointer [XAudio2 Audio Mixing APIs], X3DAUDIO_LISTENER, X3DAUDIO_LISTENER structure [XAudio2 Audio Mixing APIs], x3daudio/LPX3DAUDIO_LISTENER, x3daudio/X3DAUDIO_LISTENER, xaudio2.x3daudio_listener"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: x3daudio.h
 req.include-header: 

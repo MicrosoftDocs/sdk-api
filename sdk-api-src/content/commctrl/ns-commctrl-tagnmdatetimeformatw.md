@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMDATETIMEFORMATW
 title: tagNMDATETIMEFORMATW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a portion of the format string that defines a callback field within a date and time picker (DTP) control.
 old-location: controls\NMDATETIMEFORMAT.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimeformat.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMDATETIMEFORMATW, LPNMDATETIMEFORMAT, LPNMDATETIMEFORMAT structure pointer [Windows Controls], NMDATETIMEFORMAT, NMDATETIMEFORMAT structure [Windows Controls], NMDATETIMEFORMATA, NMDATETIMEFORMATW, _win32_NMDATETIMEFORMAT, _win32_NMDATETIMEFORMAT_cpp, commctrl/LPNMDATETIMEFORMAT, commctrl/NMDATETIMEFORMAT, commctrl/NMDATETIMEFORMATA, commctrl/NMDATETIMEFORMATW, controls.NMDATETIMEFORMAT, controls._win32_NMDATETIMEFORMAT, tagNMDATETIMEFORMATW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

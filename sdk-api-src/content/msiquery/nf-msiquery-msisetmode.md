@@ -1,16 +1,16 @@
 ---
 UID: NF:msiquery.MsiSetMode
 title: MsiSetMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiSetMode function sets an internal engine Boolean state.
 old-location: setup\msisetmode.htm
 old-project: Msi
 ms.assetid: bf0eef83-8ef4-4107-b598-ccc50b179858
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MSIRUNMODE_REBOOTATEND, MSIRUNMODE_REBOOTNOW, MsiSetMode, MsiSetMode function, _msi_msisetmode, msiquery/MsiSetMode, setup.msisetmode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msiquery.h
 req.include-header: 

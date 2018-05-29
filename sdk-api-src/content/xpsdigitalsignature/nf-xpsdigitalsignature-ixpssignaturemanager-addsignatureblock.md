@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.AddSignatureBlock
 title: IXpsSignatureManager::AddSignatureBlock
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new IXpsSignatureBlock interface and adds it to the signature block collection.
 old-location: xps\ixpssignaturemanager_addsignatureblock.htm
 old-project: printdocs
 ms.assetid: a299882f-b9f4-4297-8438-e92d148a4014
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: AddSignatureBlock, AddSignatureBlock method [XPS Documents and Packaging], AddSignatureBlock method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],AddSignatureBlock method, IXpsSignatureManager.AddSignatureBlock, IXpsSignatureManager::AddSignatureBlock, xps.ixpssignaturemanager_addsignatureblock, xpsdigitalsignature/IXpsSignatureManager::AddSignatureBlock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsdigitalsignature.h
 req.include-header: 

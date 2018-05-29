@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.FreeConfirmConflictItem
 title: FreeConfirmConflictItem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees the resources that have been allocated for a CONFIRM_CONFLICT_ITEM structure.
 old-location: shell\FreeConfirmConflictItem.htm
 old-project: shell
 ms.assetid: 504a63e0-39e9-4228-ab3d-c34b272f8fd3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FreeConfirmConflictItem, FreeConfirmConflictItem function [Windows Shell], _shell_FreeConfirmConflictItem, shell.FreeConfirmConflictItem, syncmgr/FreeConfirmConflictItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: syncmgr.h
 req.include-header: Syncmgr.idl

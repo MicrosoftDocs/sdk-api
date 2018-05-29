@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3cc.ITAgent.CreateSessionWithPIN
 title: ITAgent::CreateSessionWithPIN
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateSessionWithPIN method creates a new agent session for the input ACD group and address, with Personal Identification Number (PIN).
 old-location: tapi3\itagent_createsessionwithpin.htm
 old-project: Tapi
 ms.assetid: d901ad31-8ccc-4bca-9413-dff838a33088
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CreateSessionWithPIN, CreateSessionWithPIN method [TAPI 2.2], CreateSessionWithPIN method [TAPI 2.2],ITAgent interface, ITAgent interface [TAPI 2.2],CreateSessionWithPIN method, ITAgent.CreateSessionWithPIN, ITAgent::CreateSessionWithPIN, _tapi3_itagent_createsessionwithpin, tapi3.itagent_createsessionwithpin, tapi3cc/ITAgent::CreateSessionWithPIN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

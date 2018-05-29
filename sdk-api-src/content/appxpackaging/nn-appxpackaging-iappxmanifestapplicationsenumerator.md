@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxManifestApplicationsEnumerator
 title: IAppxManifestApplicationsEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the applications defined in the package manifest.
 old-location: appxpkg\iappxmanifestapplicationsenumerator.htm
 old-project: appxpkg
 ms.assetid: 49955DE0-A6BE-4FD7-B8E3-E4126B3C4B8F
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxManifestApplicationsEnumerator, IAppxManifestApplicationsEnumerator interface [App packaging and management], IAppxManifestApplicationsEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestApplicationsEnumerator, appxpkg.iappxmanifestapplicationsenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

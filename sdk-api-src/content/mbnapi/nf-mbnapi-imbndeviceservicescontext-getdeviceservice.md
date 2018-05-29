@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesContext.GetDeviceService
 title: IMbnDeviceServicesContext::GetDeviceService
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IMbnDeviceService object that can be used for communicating with a device service on the Mobile Broadband device.
 old-location: mbn\imbndeviceservicescontext_getdeviceservice.htm
 old-project: mbn
 ms.assetid: 293E9BE5-AD7D-41B7-9A27-E964EE745183
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetDeviceService, GetDeviceService method [Microsoft Broadband Networks], GetDeviceService method [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, IMbnDeviceServicesContext interface [Microsoft Broadband Networks],GetDeviceService method, IMbnDeviceServicesContext.GetDeviceService, IMbnDeviceServicesContext::GetDeviceService, mbn.imbndeviceservicescontext_getdeviceservice, mbnapi/IMbnDeviceServicesContext::GetDeviceService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

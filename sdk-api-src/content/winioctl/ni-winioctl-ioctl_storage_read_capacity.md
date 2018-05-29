@@ -1,16 +1,16 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_READ_CAPACITY
 title: IOCTL_STORAGE_READ_CAPACITY
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the geometry information for the device.
 old-location: base\ioctl_storage_read_capacity.htm
 old-project: DevIO
 ms.assetid: c0a2c73c-fae9-40e9-8009-4dffbb03a01d
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: IOCTL_STORAGE_READ_CAPACITY, IOCTL_STORAGE_READ_CAPACITY control, IOCTL_STORAGE_READ_CAPACITY control code, base.ioctl_storage_read_capacity, winioctl/IOCTL_STORAGE_READ_CAPACITY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: ioctl
 req.header: winioctl.h
 req.include-header: Windows.h

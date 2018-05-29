@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentLocation
 title: IDvdInfo2::GetCurrentLocation
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCurrentLocation method retrieves the current playback location.
 old-location: dshow\idvdinfo2_getcurrentlocation.htm
 old-project: DirectShow
 ms.assetid: 54005c07-1689-411c-88a9-bcd19cc065dd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCurrentLocation, GetCurrentLocation method [DirectShow], GetCurrentLocation method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentLocation method, IDvdInfo2.GetCurrentLocation, IDvdInfo2::GetCurrentLocation, IDvdInfo2GetCurrentLocation, dshow.idvdinfo2_getcurrentlocation, strmif/IDvdInfo2::GetCurrentLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

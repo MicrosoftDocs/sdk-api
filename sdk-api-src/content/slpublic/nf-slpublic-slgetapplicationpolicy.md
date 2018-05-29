@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLGetApplicationPolicy
 title: SLGetApplicationPolicy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries a policy from the set stored with the SLPersistApplicationPolicies function and loaded using the SLLoadApplicationPolicies function.
 old-location: security\slgetapplicationpolicy.htm
 old-project: SecSLApi
 ms.assetid: 4d4b30bb-8548-4656-9fd9-553e8f8fb248
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLGetApplicationPolicy, SLGetApplicationPolicy function [Security], security.slgetapplicationpolicy, slpublic/SLGetApplicationPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

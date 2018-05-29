@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.GetName
 title: IAssocHandler::GetName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the full path and file name of the executable file associated with the file type.
 old-location: shell\IAssocHandler_GetName.htm
 old-project: shell
 ms.assetid: d20aee32-fa5a-40a9-b0e2-8479a90fcf35
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],GetName method, IAssocHandler.GetName, IAssocHandler::GetName, _shell_IAssocHandler_GetName, shell.IAssocHandler_GetName, shobjidl_core/IAssocHandler::GetName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

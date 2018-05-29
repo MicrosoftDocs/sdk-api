@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetTransformMatrixElement
 title: SetTransformMatrixElement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets an element of the transform matrix of the effect.
 old-location: directcomp\idcompositionaffinetransform2deffect_settransformmatrixelement_overloaded.htm
 old-project: directcomp
 ms.assetid: c618926b-c059-69dc-ab90-c58344128589
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: SetTransformMatrixElement, dcomp/settransformmatrixelement, directcomp.idcompositionaffinetransform2deffect_settransformmatrixelement_overloaded, idcompositionaffinetransform2deffect::SetTransformMatrixElement, settransformmatrixelement, settransformmatrixelement methods [DirectComposition]
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

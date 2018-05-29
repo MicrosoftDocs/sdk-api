@@ -1,16 +1,16 @@
 ---
 UID: NF:wmnetsourcecreator.INSNetSourceCreator.Shutdown
 title: INSNetSourceCreator::Shutdown
-author: windows-driver-content
+author: windows-sdk-content
 description: The Shutdown method properly disposes of all allocated memory used by the network source creator. You must call this method when you are finished using the network source creator, to ensure that all resources are released.
 old-location: wmformat\insnetsourcecreator_shutdown.htm
 old-project: wmformat
 ms.assetid: 746b2ffa-c5bc-4df0-84fd-c3f1395e0d3e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: INSNetSourceCreator interface [windows Media Format],Shutdown method, INSNetSourceCreator.Shutdown, INSNetSourceCreator::Shutdown, INSNetSourceCreatorShutdown, Shutdown, Shutdown method [windows Media Format], Shutdown method [windows Media Format],INSNetSourceCreator interface, wmformat.insnetsourcecreator_shutdown, wmnetsourcecreator/INSNetSourceCreator::Shutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmnetsourcecreator.h
 req.include-header: 

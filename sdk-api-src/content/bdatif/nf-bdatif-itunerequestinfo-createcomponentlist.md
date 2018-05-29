@@ -1,16 +1,16 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.CreateComponentList
 title: ITuneRequestInfo::CreateComponentList
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateComponentList method creates a new Components collection for the tune request, and fills it in with all network-specific data after the receiver has tuned to the service.
 old-location: mstv\itunerequestinfo_createcomponentlist.htm
 old-project: mstv
 ms.assetid: cb4ec234-1e94-4c9f-8372-a5972df18948
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateComponentList, CreateComponentList method [Microsoft TV Technologies], CreateComponentList method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],CreateComponentList method, ITuneRequestInfo.CreateComponentList, ITuneRequestInfo::CreateComponentList, ITuneRequestInfoCreateComponentList, bdatif/ITuneRequestInfo::CreateComponentList, mstv.itunerequestinfo_createcomponentlist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

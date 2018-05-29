@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.ItemReconnectBegin
 title: IOfflineFilesEvents2::ItemReconnectBegin
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports that the Offline Files service is beginning to attempt to reconnect all offline scopes.
 old-location: of\iofflinefilesevents2_itemreconnectbegin.htm
 old-project: OfflineFiles
 ms.assetid: 7b0d112d-17be-481a-8793-2b57506ec7b2
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],ItemReconnectBegin method, IOfflineFilesEvents2.ItemReconnectBegin, IOfflineFilesEvents2::ItemReconnectBegin, ItemReconnectBegin, ItemReconnectBegin method [Offline Files], ItemReconnectBegin method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::ItemReconnectBegin, of.iofflinefilesevents2_itemreconnectbegin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IValueMapItem.get_Description
 title: IValueMapItem::get_Description
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets a description of the item.
 old-location: pla\ivaluemapitem_description.htm
 old-project: PLA
 ms.assetid: ee0669f1-6400-4c32-9f5f-82fd69b7cacd
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Description property [PLA], Description property [PLA],IValueMapItem interface, IValueMapItem interface [PLA],Description property, IValueMapItem.Description, IValueMapItem.get_Description, IValueMapItem::Description, IValueMapItem::get_Description, IValueMapItem::put_Description, base.ivaluemapitem_description, get_Description, pla.ivaluemapitem_description, pla/IValueMapItem::Description, pla/IValueMapItem::get_Description, pla/IValueMapItem::put_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

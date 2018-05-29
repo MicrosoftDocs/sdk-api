@@ -1,16 +1,16 @@
 ---
 UID: NE:wuapi.tagUpdateServiceOption
 title: tagUpdateServiceOption
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the options that affect how the service registration for a scan package service is removed.
 old-location: wua\updateserviceoption.htm
 old-project: Wua_Sdk
 ms.assetid: c03ee4e7-b8d4-46bb-bc57-20b35d779e07
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: UpdateServiceOption, UpdateServiceOption enumeration [Windows Update Agent], tagUpdateServiceOption, usoNonVolatileService, wua.updateserviceoption, wuapi/UpdateServiceOption, wuapi/usoNonVolatileService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

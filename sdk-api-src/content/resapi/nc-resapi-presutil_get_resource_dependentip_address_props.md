@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS
 title: PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the private properties of the first IP Address dependency found for a specified resource. The PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS type defines a pointer to this function.
 old-location: mscs\resutilgetresourcedependentipaddressprops.htm
 old-project: MsCS
 ms.assetid: 283b0086-1dbf-45dc-9651-93af9a9ff6d0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS, PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS callback, PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS callback function [Failover Cluster], _wolf_resutilgetresourcedependentipaddressprops, mscs.resutilgetresourcedependentipaddressprops, resapi/PRESUTIL_GET_RESOURCE_DEPENDENTIP_ADDRESS_PROPS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

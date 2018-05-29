@@ -1,16 +1,16 @@
 ---
 UID: NF:windns.DnsWriteQuestionToBuffer_UTF8
 title: DnsWriteQuestionToBuffer_UTF8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DnsWriteQuestionToBuffer function type creates a DNS query message and stores it in a DNS_MESSAGE_BUFFER structure.
 old-location: dns\dnswritequestiontobuffer.htm
 old-project: DNS
 ms.assetid: 9aa853aa-d9b5-41e3-a82a-c25de199924d
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: DnsWriteQuestionToBuffer, DnsWriteQuestionToBuffer_UTF8, DnsWriteQuestionToBuffer_W, DnsWriteQuestionToBuffer_W function [DNS], _dns_dnswritequestiontobuffer, dns.dnswritequestiontobuffer, windns/DnsWriteQuestionToBuffer_UTF8, windns/DnsWriteQuestionToBuffer_W
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: windns.h
 req.include-header: 

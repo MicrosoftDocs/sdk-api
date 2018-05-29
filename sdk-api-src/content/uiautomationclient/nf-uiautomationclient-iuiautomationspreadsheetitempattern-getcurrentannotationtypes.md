@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes
 title: IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationTypes.htm
 old-project: WinAuto
 ms.assetid: 779CFE43-8127-4A78-BD1A-8407DA5F49A2
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetCurrentAnnotationTypes, GetCurrentAnnotationTypes method [Windows Accessibility], GetCurrentAnnotationTypes method [Windows Accessibility],IUIAutomationSpreadsheetItemPattern interface, IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility],GetCurrentAnnotationTypes method, IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationTypes, IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes, uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationTypes, winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationTypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

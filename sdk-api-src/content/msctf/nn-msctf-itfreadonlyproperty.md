@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfReadOnlyProperty
 title: ITfReadOnlyProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfReadOnlyProperty interface is implemented by the TSF manager and used by an application or text service to obtain property data.
 old-location: tsf\itfreadonlyproperty.htm
 old-project: TSF
 ms.assetid: f4021a3d-6b86-469f-8943-770e7ef0cf99
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfReadOnlyProperty, ITfReadOnlyProperty interface [Text Services Framework], ITfReadOnlyProperty interface [Text Services Framework],described, _tsf_itfreadonlyproperty_ref, msctf/ITfReadOnlyProperty, tsf.itfreadonlyproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntquery.CIShutdown
 title: CIShutdown function
-author: windows-driver-content
+author: windows-sdk-content
 description: Shuts down the content indexer and closes all open catalogs.
 old-location: shell\CIShutdown.htm
 old-project: shell
 ms.assetid: 16c932a6-8def-4ff9-b531-03ebd011086a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CIShutdown, CIShutdown function [Windows Shell], _shell_CIShutdown, ntquery/CIShutdown, shell.CIShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

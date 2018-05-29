@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPEvents.DurationUnitChange
 title: IWMPEvents::DurationUnitChange
-author: windows-driver-content
+author: windows-sdk-content
 description: The DurationUnitChange event is reserved for future use.
 old-location: wmp\iwmpevents_iwmpevents__durationunitchange.htm
 old-project: WMP
 ms.assetid: 03041012-fbb7-42ee-84a6-80b90091fedd
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: DurationUnitChange, DurationUnitChange method [Windows Media Player], DurationUnitChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],DurationUnitChange method, IWMPEvents.DurationUnitChange, IWMPEvents::DurationUnitChange, IWMPEventsDurationUnitChange, wmp.iwmpevents_iwmpevents__durationunitchange, wmp/IWMPEvents::DurationUnitChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

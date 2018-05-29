@@ -1,16 +1,16 @@
 ---
 UID: NF:fci.FCIDestroy
 title: FCIDestroy function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FCIDestroy function deletes an open FCI context, freeing any memory and temporary files associated with the context.
 old-location: winprog\fcidestroy.htm
 old-project: DevNotes
 ms.assetid: bb1a6294-664f-450f-b8ec-d6f8957d920e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FCIDestroy, FCIDestroy function [Windows API], fci/FCIDestroy, winprog.fcidestroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fci.h
 req.include-header: 

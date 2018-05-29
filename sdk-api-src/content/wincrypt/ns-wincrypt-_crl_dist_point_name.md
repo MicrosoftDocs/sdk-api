@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CRL_DIST_POINT_NAME
 title: "_CRL_DIST_POINT_NAME"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies a location from which the CRL can be obtained.
 old-location: security\crl_dist_point_name.htm
 old-project: SecCrypto
 ms.assetid: f47283c3-34f5-4611-b041-456d28d85dbe
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRL_DIST_POINT_NAME, CRL_DIST_POINT_FULL_NAME, CRL_DIST_POINT_ISSUER_RDN_NAME, CRL_DIST_POINT_NAME, CRL_DIST_POINT_NAME structure [Security], CRL_DIST_POINT_NO_NAME, PCRL_DIST_POINT_NAME, PCRL_DIST_POINT_NAME structure pointer [Security], _CRL_DIST_POINT_NAME, _crypto2_crl_dist_point_name, security.crl_dist_point_name, wincrypt/CRL_DIST_POINT_NAME, wincrypt/PCRL_DIST_POINT_NAME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

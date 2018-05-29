@@ -1,16 +1,16 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.ContainedBy
 title: ContainedBy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Tests whether a triangle is contained within six planes (typically a frustum).
 old-location: dxmath\containedby.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.TriangleTests.ContainedBy(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: ContainedBy, ContainedBy method [DirectX Math Support APIs], DirectX::TriangleTests.ContainedBy, dxmath.containedby
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: directxcollision.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.DisableInternetFirewall
 title: INetSharingConfiguration::DisableInternetFirewall
-author: windows-driver-content
+author: windows-sdk-content
 description: The DisableInternetFirewall method disables Internet Connection Firewall on this connection.
 old-location: ics\inetsharingconfiguration_disableinternetfirewall.htm
 old-project: ICS
 ms.assetid: f0157376-7533-4155-801c-3db82290655d
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: DisableInternetFirewall, DisableInternetFirewall method [ICS/ICF], DisableInternetFirewall method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],DisableInternetFirewall method, INetSharingConfiguration.DisableInternetFirewall, INetSharingConfiguration::DisableInternetFirewall, _ics_inetsharingconfiguration_disableinternetfirewall, ics.inetsharingconfiguration_disableinternetfirewall, netcon/INetSharingConfiguration::DisableInternetFirewall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

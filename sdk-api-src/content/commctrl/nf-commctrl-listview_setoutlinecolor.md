@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SetOutlineColor
 title: ListView_SetOutlineColor macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the color of the border of a list-view control if the LVS_EX_BORDERSELECT extended window style is set. You can use this macro or send the LVM_SETOUTLINECOLOR message explicitly.
 old-location: controls\ListView_SetOutlineColor.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setoutlinecolor.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_SetOutlineColor, ListView_SetOutlineColor macro [Windows Controls], _win32_ListView_SetOutlineColor, _win32_ListView_SetOutlineColor_cpp, commctrl/ListView_SetOutlineColor, controls.ListView_SetOutlineColor, controls._win32_ListView_SetOutlineColor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

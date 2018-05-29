@@ -1,16 +1,16 @@
 ---
 UID: NF:dxva2api.DXVA2FixedToFloat
 title: DXVA2FixedToFloat function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a DXVA2_Fixed32 value to a floating-point number.
 old-location: mf\dxva2fixedtofloat.htm
 old-project: medfound
 ms.assetid: f92c1d78-a2a7-469e-926a-7ba5ad8221e1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVA2FixedToFloat, DXVA2FixedToFloat function [Media Foundation], dxva2api/DXVA2FixedToFloat, f92c1d78-a2a7-469e-926a-7ba5ad8221e1, mf.dxva2fixedtofloat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dxva2api.h
 req.include-header: 

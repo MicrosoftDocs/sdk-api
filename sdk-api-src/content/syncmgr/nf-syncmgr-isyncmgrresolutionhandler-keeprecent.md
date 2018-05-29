@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.KeepRecent
 title: ISyncMgrResolutionHandler::KeepRecent
-author: windows-driver-content
+author: windows-sdk-content
 description: Keeps the more recent copy.
 old-location: shell\ISyncMgrResolutionHandler_KeepRecent.htm
 old-project: shell
 ms.assetid: a2327234-4a8d-42b4-aa62-f5c286e3c24b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],KeepRecent method, ISyncMgrResolutionHandler.KeepRecent, ISyncMgrResolutionHandler::KeepRecent, KeepRecent, KeepRecent method [Windows Shell], KeepRecent method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_KeepRecent, shell.ISyncMgrResolutionHandler_KeepRecent, syncmgr/ISyncMgrResolutionHandler::KeepRecent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

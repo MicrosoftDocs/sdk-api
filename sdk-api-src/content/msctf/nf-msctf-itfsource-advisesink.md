@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfSource.AdviseSink
 title: ITfSource::AdviseSink
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfSource::AdviseSink method
 old-location: tsf\itfsource_advisesink.htm
 old-project: TSF
 ms.assetid: 90928e6e-e11e-42ad-9b3e-d974642aca36
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITfSource interface, IID_ITfActiveLanguageProfileNotifySink, IID_ITfDisplayAttributeNotifySink, IID_ITfKeyTraceEventSink, IID_ITfPreservedKeyNotifySink, IID_ITfThreadFocusSink, IID_ITfThreadMgrEventSink, ITfSource interface [Text Services Framework],AdviseSink method, ITfSource.AdviseSink, ITfSource::AdviseSink, _tsf_itfsource_advisesink_ref, msctf/ITfSource::AdviseSink, tsf.itfsource_advisesink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

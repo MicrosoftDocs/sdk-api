@@ -1,16 +1,16 @@
 ---
 UID: NF:printmanagerinterop.IPrintManagerInterop.ShowPrintUIForWindowAsync
 title: IPrintManagerInterop::ShowPrintUIForWindowAsync
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays the UI for printing content for the specified window.
 old-location: winrt\iprintmanagerinterop_showprintuiforwindowasync.htm
 old-project: WinRT
 ms.assetid: 2414279e-e1ef-48c7-87a1-a09ad367aec4
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IPrintManagerInterop interface [Windows Runtime],ShowPrintUIForWindowAsync method, IPrintManagerInterop.ShowPrintUIForWindowAsync, IPrintManagerInterop::ShowPrintUIForWindowAsync, ShowPrintUIForWindowAsync, ShowPrintUIForWindowAsync method [Windows Runtime], ShowPrintUIForWindowAsync method [Windows Runtime],IPrintManagerInterop interface, printmanagerinterop/IPrintManagerInterop::ShowPrintUIForWindowAsync, winrt.iprintmanagerinterop_showprintuiforwindowasync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: printmanagerinterop.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.ITransformProvider2
 title: ITransformProvider2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the ITransformProvider interface to enable Microsoft UI Automation providers to expose properties to support the viewport zooming functionality of a control.
 old-location: winauto\uiauto_ITransformProvider2.htm
 old-project: WinAuto
 ms.assetid: 763F30BC-782A-43ED-9DE4-97A237D7B9F8
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ITransformProvider2, ITransformProvider2 interface [Windows Accessibility], ITransformProvider2 interface [Windows Accessibility],described, uiautomationcore/ITransformProvider2, winauto.uiauto_ITransformProvider2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

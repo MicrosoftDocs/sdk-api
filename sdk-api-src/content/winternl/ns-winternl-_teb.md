@@ -1,16 +1,16 @@
 ---
 UID: NS:winternl._TEB
 title: "_TEB"
-author: windows-driver-content
+author: windows-sdk-content
 description: The Thread Environment Block (TEB structure) describes the state of a thread.
 old-location: base\teb.htm
 old-project: ProcThread
 ms.assetid: fc77fc09-6319-4daa-ac96-1ded661ef800
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PTEB, PTEB, PTEB structure pointer, TEB, TEB structure, _TEB, base.teb, winternl/PTEB, winternl/TEB"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winternl.h
 req.include-header: 

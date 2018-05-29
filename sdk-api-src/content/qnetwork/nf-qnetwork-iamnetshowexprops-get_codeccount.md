@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_CodecCount
 title: IAMNetShowExProps::get_CodecCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CodecCount method retrieves the number codecs needed to play the file.
 old-location: dshow\iamnetshowexprops_get_codeccount.htm
 old-project: DirectShow
 ms.assetid: 7b16727d-565a-431e-8124-124d72816d65
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_CodecCount method, IAMNetShowExProps.get_CodecCount, IAMNetShowExProps::get_CodecCount, IAMNetShowExPropsget_CodecCount, dshow.iamnetshowexprops_get_codeccount, get_CodecCount, get_CodecCount method [DirectShow], get_CodecCount method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_CodecCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.EndBufferedPaint
 title: EndBufferedPaint function
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes a buffered paint operation and frees the associated buffered paint handle.
 old-location: controls\EndBufferedPaint.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\endbufferedpaint.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EndBufferedPaint, EndBufferedPaint function [Windows Controls], _shell_EndBufferedPaint, _shell_EndBufferedPaint_cpp, controls.EndBufferedPaint, controls._shell_EndBufferedPaint, uxtheme/EndBufferedPaint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

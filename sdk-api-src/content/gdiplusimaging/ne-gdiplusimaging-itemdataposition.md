@@ -1,16 +1,16 @@
 ---
 UID: NE:gdiplusimaging.ItemDataPosition
 title: ItemDataPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: The ItemDataPosition enumeration is used to specify the location of custom metadata in an image file.
 old-location: gdiplus\_gdiplus_ENUM_ItemDataPosition.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\itemdataposition.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ItemDataPosition, ItemDataPosition enumeration [GDI+], ItemDataPositionAfterBits, ItemDataPositionAfterHeader, ItemDataPositionAfterPalette, _gdiplus_ENUM_ItemDataPosition, gdiplus._gdiplus_ENUM_ItemDataPosition, gdiplusimaging/ItemDataPosition, gdiplusimaging/ItemDataPositionAfterBits, gdiplusimaging/ItemDataPositionAfterHeader, gdiplusimaging/ItemDataPositionAfterPalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h

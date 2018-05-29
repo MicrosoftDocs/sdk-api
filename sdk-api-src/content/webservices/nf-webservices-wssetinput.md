@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsSetInput
 title: WsSetInput function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the encoding and input sources for an XML Reader.
 old-location: wsw\wssetinput.htm
 old-project: wsw
 ms.assetid: d7ac5233-266e-4ca1-aa58-e50b385b48bb
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsSetInput, WsSetInput function [Web Services for Windows], webservices/WsSetInput, wsw.wssetinput
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcBindingInqObject
 title: RpcBindingInqObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcBindingInqObject function returns the object UUID from a binding handle.
 old-location: rpc\rpcbindinginqobject.htm
 old-project: Rpc
 ms.assetid: e2d489f9-d976-4dc3-8a91-dfc04f547165
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcBindingInqObject, RpcBindingInqObject function [RPC], _rpc_rpcbindinginqobject, rpc.rpcbindinginqobject, rpcdce/RpcBindingInqObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.DrawDibClose
 title: DrawDibClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrawDibClose function closes a DrawDib DC and frees the resources DrawDib allocated for it.
 old-location: multimedia\drawdibclose.htm
 old-project: Multimedia
 ms.assetid: 61f9784e-4992-43d2-9770-17c3a8e5078b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DrawDibClose, DrawDibClose function [Windows Multimedia], _win32_DrawDibClose, multimedia.drawdibclose, vfw/DrawDibClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

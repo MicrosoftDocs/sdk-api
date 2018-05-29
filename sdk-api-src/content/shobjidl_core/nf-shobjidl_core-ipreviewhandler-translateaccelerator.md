@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandler.TranslateAccelerator
 title: IPreviewHandler::TranslateAccelerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Directs the preview handler to handle a keystroke passed up from the message pump of the process in which the preview handler is running.
 old-location: shell\IPreviewHandler_TranslateAccelerator.htm
 old-project: shell
 ms.assetid: 5e7e71f2-c728-44cb-820b-9a0b28b7266c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPreviewHandler interface [Windows Shell],TranslateAccelerator method, IPreviewHandler.TranslateAccelerator, IPreviewHandler::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [Windows Shell], TranslateAccelerator method [Windows Shell],IPreviewHandler interface, _shell_IPreviewHandler_TranslateAccelerator, shell.IPreviewHandler_TranslateAccelerator, shobjidl_core/IPreviewHandler::TranslateAccelerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

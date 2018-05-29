@@ -1,16 +1,16 @@
 ---
 UID: NC:magnification.MagImageScalingCallback
 title: MagImageScalingCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Prototype for a callback function that implements a custom transform for image scaling.
 old-location: magapi\magapi_MagImageScalingCallback.htm
 old-project: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magimagescalingcallback.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: MagImageScalingCallback, MagImageScalingCallback callback, MagImageScalingCallback callback function [Magnification API], magapi.magapi_MagImageScalingCallback, magapi_MagImageScalingCallback, magnification/MagImageScalingCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: magnification.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarBstrFromI2
 title: VarBstrFromI2 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a short value to a BSTR value.
 old-location: automat\varbstrfromi2.htm
 old-project: automat
 ms.assetid: 0c9051f9-1c2f-4882-bff9-7d28440dd06d
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarBstrFromI2, VarBstrFromI2 function [Automation], _oa96_VarBstrFromI2, automat.varbstrfromi2, oleauto/VarBstrFromI2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

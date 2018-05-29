@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetDescriptorHandleIncrementSize
 title: ID3D12Device::GetDescriptorHandleIncrementSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the size of the handle increment for the given type of descriptor heap. This value is typically used to increment a handle into a descriptor array by the correct amount.
 old-location: direct3d12\id3d12device_getdescriptorhandleincrementsize.htm
 old-project: direct3d12
 ms.assetid: 4593C153-913A-49DF-ADDC-6FB1E19D3D17
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetDescriptorHandleIncrementSize, GetDescriptorHandleIncrementSize method, GetDescriptorHandleIncrementSize method,ID3D12Device interface, ID3D12Device interface,GetDescriptorHandleIncrementSize method, ID3D12Device.GetDescriptorHandleIncrementSize, ID3D12Device::GetDescriptorHandleIncrementSize, d3d12/ID3D12Device::GetDescriptorHandleIncrementSize, direct3d12.id3d12device_getdescriptorhandleincrementsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

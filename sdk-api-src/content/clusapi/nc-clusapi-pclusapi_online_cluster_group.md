@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_ONLINE_CLUSTER_GROUP
 title: PCLUSAPI_ONLINE_CLUSTER_GROUP
-author: windows-driver-content
+author: windows-sdk-content
 description: Brings a group online.
 old-location: mscs\onlineclustergroup.htm
 old-project: MsCS
 ms.assetid: 33b4f435-f394-41fc-846f-8e9206c76aa1
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_ONLINE_CLUSTER_GROUP, PCLUSAPI_ONLINE_CLUSTER_GROUP callback, PCLUSAPI_ONLINE_CLUSTER_GROUP callback function [Failover Cluster], _wolf_onlineclustergroup, clusapi/PCLUSAPI_ONLINE_CLUSTER_GROUP, mscs.onlineclustergroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

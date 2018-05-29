@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDeviceManager3.SetDeviceEnumPreference
 title: IWMDeviceManager3::SetDeviceEnumPreference
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDeviceEnumPreference method sets the device enumeration preferences.
 old-location: wmdm\iwmdevicemanager3_setdeviceenumpreference.htm
 old-project: WMDM
 ms.assetid: a39aaa62-6f23-4fe0-9231-1781ce74b090
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDeviceManager3 interface [windows Media Device Manager],SetDeviceEnumPreference method, IWMDeviceManager3.SetDeviceEnumPreference, IWMDeviceManager3::SetDeviceEnumPreference, IWMDeviceManager3SetDeviceEnumPreference, SetDeviceEnumPreference, SetDeviceEnumPreference method [windows Media Device Manager], SetDeviceEnumPreference method [windows Media Device Manager],IWMDeviceManager3 interface, mswmdm/IWMDeviceManager3::SetDeviceEnumPreference, wmdm.iwmdevicemanager3_setdeviceenumpreference
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

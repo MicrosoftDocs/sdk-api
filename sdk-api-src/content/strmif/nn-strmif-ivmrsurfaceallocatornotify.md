@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IVMRSurfaceAllocatorNotify
 title: IVMRSurfaceAllocatorNotify
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRSurfaceAllocatorNotify interface is implemented by the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrsurfaceallocatornotify.htm
 old-project: DirectShow
 ms.assetid: c590c4cb-43ba-41c2-ab1f-28f7aeee0c87
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRSurfaceAllocatorNotify, IVMRSurfaceAllocatorNotify interface [DirectShow], IVMRSurfaceAllocatorNotify interface [DirectShow],described, IVMRSurfaceAllocatorNotifyInterface, dshow.ivmrsurfaceallocatornotify, strmif/IVMRSurfaceAllocatorNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

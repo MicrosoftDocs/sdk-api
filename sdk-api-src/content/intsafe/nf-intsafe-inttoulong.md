@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.IntToULong
 title: IntToULong function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type INT to a value of type ULONG.
 old-location: shell\IntToULong.htm
 old-project: shell
 ms.assetid: 060915cf-d7a2-48ef-b2b6-303f2cc86c94
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IntToDWord, IntToULong, IntToULong function [Windows Shell], _shell_IntToULong, intsafe/IntToULong, shell.IntToULong
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

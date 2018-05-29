@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.SetProcessMitigationPolicy
 title: SetProcessMitigationPolicy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a mitigation policy for the calling process. Mitigation policies enable a process to harden itself against various types of attacks.
 old-location: base\setprocessmitigationpolicy.htm
 old-project: ProcThread
 ms.assetid: 57f364f8-58d7-447a-91c3-51fc1fe1a481
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, SetProcessMitigationPolicy, SetProcessMitigationPolicy function, base.setprocessmitigationpolicy, processthreadsapi/SetProcessMitigationPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: 

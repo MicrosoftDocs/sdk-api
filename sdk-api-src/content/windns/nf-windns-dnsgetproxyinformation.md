@@ -1,16 +1,16 @@
 ---
 UID: NF:windns.DnsGetProxyInformation
 title: DnsGetProxyInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DnsGetProxyInformation function returns the proxy information for a DNS server's name resolution policy table.
 old-location: dns\dnsgetproxyinformation.htm
 old-project: DNS
 ms.assetid: fdc8eb09-e071-4f03-974a-2b11a657ab18
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: DnsGetProxyInformation, DnsGetProxyInformation function [DNS], dns.dnsgetproxyinformation, windns/DnsGetProxyInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: windns.h
 req.include-header: 

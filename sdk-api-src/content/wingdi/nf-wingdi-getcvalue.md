@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.GetCValue
 title: GetCValue macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCValue macro retrieves the cyan color value from a CMYK color value.
 old-location: wcs\getcvalue.htm
 old-project: WCS
 ms.assetid: 0b1b1eca-61b2-4011-85ea-6311ac78cab6
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetCValue, GetCValue macro [Windows Color System], _color_GetCValue, wcs.getcvalue, wingdi/GetCValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: wingdi.h
 req.include-header: 

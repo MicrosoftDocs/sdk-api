@@ -1,16 +1,16 @@
 ---
 UID: NS:dwrite.DWRITE_SHAPING_TEXT_PROPERTIES
 title: DWRITE_SHAPING_TEXT_PROPERTIES
-author: windows-driver-content
+author: windows-sdk-content
 description: Shaping output properties for an output glyph.
 old-location: directwrite\dwrite_shaping_text_properties.htm
 old-project: DirectWrite
 ms.assetid: 2fd1af73-c2ea-4077-9cf5-77ab9f237f0a
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_SHAPING_TEXT_PROPERTIES, DWRITE_SHAPING_TEXT_PROPERTIES structure [Direct Write], directwrite.dwrite_shaping_text_properties, dwrite/DWRITE_SHAPING_TEXT_PROPERTIES
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

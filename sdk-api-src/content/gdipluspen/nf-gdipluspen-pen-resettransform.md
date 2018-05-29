@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspen.Pen.ResetTransform
 title: Pen::ResetTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: The Pen::ResetTransform method sets the world transformation matrix of this Pen object to the identity matrix.
 old-location: gdiplus\_gdiplus_CLASS_Pen_ResetTransform_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\resettransform_27.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Pen class [GDI+],ResetTransform method, Pen.ResetTransform, Pen::ResetTransform, ResetTransform, ResetTransform method [GDI+], ResetTransform method [GDI+],Pen class, _gdiplus_CLASS_Pen_ResetTransform_, gdiplus._gdiplus_CLASS_Pen_ResetTransform_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

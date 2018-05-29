@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChange.GetMadeWithKnowledge
 title: ISyncChange::GetMadeWithKnowledge
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the made-with knowledge for this change.
 old-location: winsync\isyncchange_getmadewithknowledge.htm
 old-project: winsync
 ms.assetid: 536e7575-e3c7-4f40-83f4-6fb7a7c2d2ba
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetMadeWithKnowledge, GetMadeWithKnowledge method [Windows Sync], GetMadeWithKnowledge method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetMadeWithKnowledge method, ISyncChange.GetMadeWithKnowledge, ISyncChange::GetMadeWithKnowledge, winsync.isyncchange_getmadewithknowledge, winsync/ISyncChange::GetMadeWithKnowledge
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

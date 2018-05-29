@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFVideoSampleAllocatorCallback
 title: IMFVideoSampleAllocatorCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an application to track video samples allocated by the enhanced video renderer (EVR).
 old-location: mf\imfvideosampleallocatorcallback.htm
 old-project: medfound
 ms.assetid: 7dbf8b3a-24b3-41d9-bb1e-9c57b88a77ac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFVideoSampleAllocatorCallback, IMFVideoSampleAllocatorCallback interface [Media Foundation], IMFVideoSampleAllocatorCallback interface [Media Foundation],described, mf.imfvideosampleallocatorcallback, mfidl/IMFVideoSampleAllocatorCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

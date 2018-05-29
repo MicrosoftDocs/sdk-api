@@ -1,16 +1,16 @@
 ---
 UID: NS:processthreadsapi._PROCESS_POWER_THROTTLING_STATE
 title: "_PROCESS_POWER_THROTTLING_STATE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the throttling policies and how to apply them to a target process when that process is subject to power management.
 old-location: base\process_power_throttling_state.htm
 old-project: ProcThread
 ms.assetid: 394B6509-849C-4B4C-9A46-AF5011A03585
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PPROCESS_POWER_THROTTLING_STATE, PPROCESS_POWER_THROTTLING_STATE, PPROCESS_POWER_THROTTLING_STATE structure pointer, PROCESS_POWER_THROTTLING_CURRENT_VERSION, PROCESS_POWER_THROTTLING_EXECUTION_SPEED, PROCESS_POWER_THROTTLING_STATE, PROCESS_POWER_THROTTLING_STATE structure, _PROCESS_POWER_THROTTLING_STATE, base.process_power_throttling_state, processthreadsapi/PPROCESS_POWER_THROTTLING_STATE, processthreadsapi/PROCESS_POWER_THROTTLING_STATE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: processthreadsapi.h
 req.include-header: 

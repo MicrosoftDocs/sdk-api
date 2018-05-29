@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IProfferService
 title: IProfferService
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a general mechanism for objects to offer services to other objects on the same host.
 old-location: shell\IProfferService.htm
 old-project: shell
 ms.assetid: 91aa5f9a-c276-4822-93e1-9cd2c48ddd9f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IProfferService, IProfferService interface [Windows Shell], IProfferService interface [Windows Shell],described, inet_IProfferService, shell.IProfferService, shobjidl_core/IProfferService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

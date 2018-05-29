@@ -1,16 +1,16 @@
 ---
 UID: NS:roparameterizediid.IRoMetaDataLocator
 title: IRoMetaDataLocator
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the RoGetParameterizedTypeInstanceIID function to access run-time metadata.
 old-location: winrt\irometadatalocator_struct.htm
 old-project: WinRT
 ms.assetid: A1004454-1C9F-46AF-8C88-BB8204FA0410
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IRoMetaDataLocator, IRoMetaDataLocator structure [Windows Runtime], PIRoMetaDataLocator, PIRoMetaDataLocator structure pointer [Windows Runtime], roparameterizediid/IRoMetaDataLocator, roparameterizediid/PIRoMetaDataLocator, winrt.irometadatalocator_struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: roparameterizediid.h
 req.include-header: 

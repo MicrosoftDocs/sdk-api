@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.CreateMutexExW
 title: CreateMutexExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates or opens a named or unnamed mutex object and returns a handle to the object.
 old-location: base\createmutexex.htm
 old-project: Sync
 ms.assetid: c22ec98a-29c0-444e-afa4-fa2ad131a086
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CREATE_MUTEX_INITIAL_OWNER, CreateMutexEx, CreateMutexEx function, CreateMutexExA, CreateMutexExW, base.createmutexex, synchapi/CreateMutexEx, synchapi/CreateMutexExA, synchapi/CreateMutexExW, winbase/CreateMutexEx, winbase/CreateMutexExA, winbase/CreateMutexExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

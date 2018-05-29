@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriter.SetValueByIndex
 title: IWICMetadataWriter::SetValueByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the metadata item to the specified index.
 old-location: wic\_wic_codec_iwicmetadatawriter_setvaluebyindex.htm
 old-project: wic
 ms.assetid: 012ef661-c1cf-48fd-a748-223fa965f9a9
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],SetValueByIndex method, IWICMetadataWriter.SetValueByIndex, IWICMetadataWriter::SetValueByIndex, SetValueByIndex, SetValueByIndex method [Windows Imaging Component], SetValueByIndex method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_setvaluebyindex, wic._wic_codec_iwicmetadatawriter_setvaluebyindex, wincodecsdk/IWICMetadataWriter::SetValueByIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

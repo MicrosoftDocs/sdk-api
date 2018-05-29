@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcMgmtEnableIdleCleanup
 title: RpcMgmtEnableIdleCleanup function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcMgmtEnableIdleCleanup function enables RPC to close idle resources, such as network connections, on the client.
 old-location: rpc\rpcmgmtenableidlecleanup.htm
 old-project: Rpc
 ms.assetid: f24bf105-2cdb-4efa-b095-8479545fecb5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcMgmtEnableIdleCleanup, RpcMgmtEnableIdleCleanup function [RPC], _rpc_rpcmgmtenableidlecleanup, rpc.rpcmgmtenableidlecleanup, rpcdce/RpcMgmtEnableIdleCleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

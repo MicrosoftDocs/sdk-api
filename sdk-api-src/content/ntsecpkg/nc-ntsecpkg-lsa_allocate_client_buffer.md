@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_ALLOCATE_CLIENT_BUFFER
 title: LSA_ALLOCATE_CLIENT_BUFFER
-author: windows-driver-content
+author: windows-sdk-content
 description: Allocates a buffer in the client's address space.
 old-location: security\allocateclientbuffer.htm
 old-project: SecAuthN
 ms.assetid: 2a7dfc11-a8ab-4677-ad5c-b2f4b5998efe
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AllocateClientBuffer, AllocateClientBuffer function [Security], LSA_ALLOCATE_CLIENT_BUFFER, _lsa_allocateclientbuffer, ntsecpkg/AllocateClientBuffer, security.allocateclientbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

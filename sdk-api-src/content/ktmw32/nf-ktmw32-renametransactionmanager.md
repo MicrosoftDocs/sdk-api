@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.RenameTransactionManager
 title: RenameTransactionManager function
-author: windows-driver-content
+author: windows-sdk-content
 description: Renames a transaction manager (TM) object. This function can only be used on named TM handles.
 old-location: fs\renametransactionmanager.htm
 old-project: Ktm
 ms.assetid: 2767e689-1342-458f-a215-a29d774c0648
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RenameTransactionManager, RenameTransactionManager function [Files], fs.renametransactionmanager, ktmw32/RenameTransactionManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

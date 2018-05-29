@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IROTData.GetComparisonData
 title: IROTData::GetComparisonData
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves data from a moniker that can be used to test the moniker for equality against another moniker.
 old-location: com\irotdata_getcomparisondata.htm
 old-project: com
 ms.assetid: e7f2d3a6-2517-47bc-aa6a-509d72881a0b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetComparisonData, GetComparisonData method [COM], GetComparisonData method [COM],IROTData interface, IROTData interface [COM],GetComparisonData method, IROTData.GetComparisonData, IROTData::GetComparisonData, _com_irotdata_getcomparisondata, com.irotdata_getcomparisondata, objidl/IROTData::GetComparisonData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

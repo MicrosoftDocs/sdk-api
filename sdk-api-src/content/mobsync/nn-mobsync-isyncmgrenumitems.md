@@ -1,16 +1,16 @@
 ---
 UID: NN:mobsync.ISyncMgrEnumItems
 title: ISyncMgrEnumItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that enumerate through an array of SYNCMGRITEM structures.
 old-location: shell\syncmgr_isyncmgrenumitems.htm
 old-project: shell
 ms.assetid: d90e3a19-0ea8-4396-a6e7-dafe1dc9b2ec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrEnumItems, ISyncMgrEnumItems interface [Windows Shell], ISyncMgrEnumItems interface [Windows Shell],described, mobsync/ISyncMgrEnumItems, shell.syncmgr_isyncmgrenumitems, syncmgr.isyncmgrenumitems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mobsync.h
 req.include-header: 

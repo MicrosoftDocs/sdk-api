@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICDdsDimension
 title: WICDdsDimension
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the dimension type of the data contained in DDS image.
 old-location: wic\wicddsdimension.htm
 old-project: wic
 ms.assetid: 76CEBFD7-EE7D-48C4-9F88-9AD82C9FED55
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICDdsDimension, WICDdsDimension enumeration [Windows Imaging Component], WICDdsTexture1D, WICDdsTexture2D, WICDdsTexture3D, WICDdsTextureCube, wic.wicddsdimension, wincodec/WICDdsDimension, wincodec/WICDdsTexture1D, wincodec/WICDdsTexture2D, wincodec/WICDdsTexture3D, wincodec/WICDdsTextureCube
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

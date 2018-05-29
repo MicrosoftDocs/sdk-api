@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplate.get_Property
 title: IX509CertificateTemplate::get_Property
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a template property value.
 old-location: security\ix509certificatetemplate_property.htm
 old-project: SecCertEnroll
 ms.assetid: 4588891e-7be4-482a-bbad-c23759b06b1b
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateTemplate interface [Security],Property property, IX509CertificateTemplate.Property, IX509CertificateTemplate.get_Property, IX509CertificateTemplate::Property, IX509CertificateTemplate::get_Property, Property property [Security], Property property [Security],IX509CertificateTemplate interface, certenroll/IX509CertificateTemplate::Property, certenroll/IX509CertificateTemplate::get_Property, get_Property, security.ix509certificatetemplate_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

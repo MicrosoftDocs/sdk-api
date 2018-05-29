@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetTypeFlags
 title: ITypeInfo2::GetTypeFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the type flags without any allocations. This returns a flag that expands the type flags without growing the TYPEATTR (type attribute).
 old-location: automat\itypeinfo2_gettypeflags.htm
 old-project: automat
 ms.assetid: a240caf6-f7a2-41c4-9950-f0d2df1f3e2d
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetTypeFlags, GetTypeFlags method [Automation], GetTypeFlags method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetTypeFlags method, ITypeInfo2.GetTypeFlags, ITypeInfo2::GetTypeFlags, _oa96_ITypeInfo2_GetTypeFlags, automat.itypeinfo2_gettypeflags, oaidl/ITypeInfo2::GetTypeFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

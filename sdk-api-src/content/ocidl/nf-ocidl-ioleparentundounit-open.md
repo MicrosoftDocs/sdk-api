@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IOleParentUndoUnit.Open
 title: IOleParentUndoUnit::Open
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a new parent undo unit, which becomes part of the containing unit's undo stack.
 old-location: com\ioleparentundounit_open.htm
 old-project: com
 ms.assetid: 185eae3b-5323-45f1-9810-47bd21ce0d22
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleParentUndoUnit interface [COM],Open method, IOleParentUndoUnit.Open, IOleParentUndoUnit::Open, Open, Open method [COM], Open method [COM],IOleParentUndoUnit interface, _ole_ioleparentundounit_open, com.ioleparentundounit_open, ocidl/IOleParentUndoUnit::Open
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

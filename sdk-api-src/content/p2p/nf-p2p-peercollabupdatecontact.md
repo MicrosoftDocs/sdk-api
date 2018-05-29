@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerCollabUpdateContact
 title: PeerCollabUpdateContact function
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the information associated with a peer contact specified in the local contact store of the caller.
 old-location: p2p\peercollabupdatecontact.htm
 old-project: P2PSdk
 ms.assetid: 66a72629-6be1-4f1e-aeb1-e9b484c74732
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerCollabUpdateContact, PeerCollabUpdateContact function [Peer Networking], p2p.peercollabupdatecontact, p2p/PeerCollabUpdateContact
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

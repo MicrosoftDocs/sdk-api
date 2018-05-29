@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IFileIsInUse
 title: IFileIsInUse
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that can be called to get information on or close a file that is in use by another application.
 old-location: shell\IFileIsInUse.htm
 old-project: shell
 ms.assetid: 68a4ab3d-165e-4917-8915-77f15901dbad
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileIsInUse, IFileIsInUse interface [Windows Shell], IFileIsInUse interface [Windows Shell],described, _shell_IFileIsInUse, shell.IFileIsInUse, shobjidl_core/IFileIsInUse
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

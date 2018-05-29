@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.ISyncCallback2
 title: ISyncCallback2
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents additional application callbacks that are used to notify the application of synchronization events.
 old-location: winsync\isynccallback2.htm
 old-project: winsync
 ms.assetid: d2d690ba-8da2-4d53-a42c-14e4f010bc2d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncCallback2, ISyncCallback2 interface [Windows Sync], ISyncCallback2 interface [Windows Sync],described, winsync.isynccallback2, winsync/ISyncCallback2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

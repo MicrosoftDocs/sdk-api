@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.ITaskFolderCollection
 title: ITaskFolderCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information and control for a collection of folders that contain tasks.
 old-location: taskschd\itaskfoldercollection.htm
 old-project: TaskSchd
 ms.assetid: 1889a7e3-8fa2-4b96-9d55-656850f605da
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskFolderCollection, ITaskFolderCollection interface [Task Scheduler], ITaskFolderCollection interface [Task Scheduler],described, taskschd.itaskfoldercollection, taskschd/ITaskFolderCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

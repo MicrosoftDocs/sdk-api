@@ -1,16 +1,16 @@
 ---
 UID: NN:functiondiscoveryprovider.IProviderPropertyConstraintCollection
 title: IProviderPropertyConstraintCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is accessible to the provider through IFunctionDiscoveryProviderQuery::GetPropertyConstraints.
 old-location: ncd\iproviderpropertyconstraintcollection.htm
 old-project: FunDisc
 ms.assetid: d2e3bc10-e45f-43de-abc5-c5e35d366d87
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IProviderPropertyConstraintCollection, IProviderPropertyConstraintCollection interface, IProviderPropertyConstraintCollection interface,described, functiondiscoveryprovider/IProviderPropertyConstraintCollection, ncd.iproviderpropertyconstraintcollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryprovider.h
 req.include-header: 

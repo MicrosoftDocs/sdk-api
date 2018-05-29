@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanExtractPsdIEDataList
 title: WlanExtractPsdIEDataList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the proximity service discovery (PSD) information element (IE) data list from raw IE data included in a beacon.
 old-location: nwifi\wlanextractpsdiedatalist.htm
 old-project: NativeWiFi
 ms.assetid: 7fb6707f-c229-4386-9058-e290693a20ce
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanExtractPsdIEDataList, WlanExtractPsdIEDataList function [NativeWIFI], nwifi.wlanextractpsdiedatalist, wlanapi/WlanExtractPsdIEDataList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_2.IDXGIDevice2.EnqueueSetEvent
 title: IDXGIDevice2::EnqueueSetEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Flushes any outstanding rendering commands and sets the specified event object to the signaled state after all previously submitted rendering commands complete.
 old-location: direct3ddxgi\idxgidevice2_enqueuesetevent.htm
 old-project: direct3ddxgi
 ms.assetid: CECF3ED6-A025-48C4-A7E2-971B86A262F0
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: EnqueueSetEvent, EnqueueSetEvent method [DXGI], EnqueueSetEvent method [DXGI],IDXGIDevice2 interface, IDXGIDevice2 interface [DXGI],EnqueueSetEvent method, IDXGIDevice2.EnqueueSetEvent, IDXGIDevice2::EnqueueSetEvent, direct3ddxgi.idxgidevice2_enqueuesetevent, dxgi1_2/IDXGIDevice2::EnqueueSetEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

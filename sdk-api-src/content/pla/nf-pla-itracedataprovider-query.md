@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.ITraceDataProvider.Query
 title: ITraceDataProvider::Query
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves details about a registered provider.
 old-location: pla\itracedataprovider_query.htm
 old-project: PLA
 ms.assetid: b3d1720f-3a74-4040-803b-266bd0d50cfc
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ITraceDataProvider interface [PLA],Query method, ITraceDataProvider.Query, ITraceDataProvider::Query, Query, Query method [PLA], Query method [PLA],ITraceDataProvider interface, base.itracedataprovider_query, pla.itracedataprovider_query, pla/ITraceDataProvider::Query
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

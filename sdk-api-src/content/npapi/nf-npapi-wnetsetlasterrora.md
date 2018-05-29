@@ -1,16 +1,16 @@
 ---
 UID: NF:npapi.WNetSetLastErrorA
 title: WNetSetLastErrorA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets extended error information. Network providers should call this function instead of SetLastError.
 old-location: security\wnetsetlasterror.htm
 old-project: SecAuthN
 ms.assetid: ee472f01-de44-4c47-9ae5-8bbac74de78b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: WNetSetLastError, WNetSetLastError function [Security], WNetSetLastErrorA, _mnp_wnetsetlasterror, npapi/WNetSetLastError, npapi/WNetSetLastErrorA, security.wnetsetlasterror
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

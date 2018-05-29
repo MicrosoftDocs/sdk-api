@@ -1,16 +1,16 @@
 ---
 UID: NS:comsvcs._ApplicationSummary
 title: "_ApplicationSummary"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a COM+ application hosted in a particular process. It can also represent a pseudo-application entry for all Services Without Components (SWC) contexts in the process.
 old-location: cos\applicationsummary.htm
 old-project: cossdk
 ms.assetid: 3291eede-5318-4d97-a969-ce54381f30af
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ApplicationSummary, ApplicationSummary structure [COM+], _ApplicationSummary, comsvcs/ApplicationSummary, cos.applicationsummary
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: comsvcs.h
 req.include-header: 

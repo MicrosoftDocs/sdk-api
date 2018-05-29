@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingUnregister
 title: TraceLoggingUnregister function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters a TraceLogging provider.
 old-location: tracelogging\traceloggingunregister.htm
 old-project: tracelogging
 ms.assetid: 4A0217E4-D633-4A6F-B1EE-6A3B2A644DBB
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingUnregister, TraceLoggingUnregister function, tracelogging.traceloggingunregister, traceloggingprovider/TraceLoggingUnregister
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: traceloggingprovider.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dwmapi.DwmTetherContact
 title: DwmTetherContact function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the graphical feedback of touch and drag interactions to the user.
 old-location: dwm\dwmtethercontact.htm
 old-project: dwm
 ms.assetid: 9F7EFFD4-A69A-435B-8B73-A789F7BDE7BB
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: DwmTetherContact, DwmTetherContact function [Desktop Window Manager], dwm.dwmtethercontact, dwmapi/DwmTetherContact
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

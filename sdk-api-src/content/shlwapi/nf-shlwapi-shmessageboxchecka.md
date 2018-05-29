@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHMessageBoxCheckA
 title: SHMessageBoxCheckA function
-author: windows-driver-content
+author: windows-sdk-content
 description: SHMessageBoxCheck may be altered or unavailable.
 old-location: shell\SHMessageBoxCheck.htm
 old-project: shell
 ms.assetid: 7e62cde0-2b9f-44d3-afb8-5df71f98453a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MB_ICONEXCLAMATION, MB_ICONHAND, MB_ICONINFORMATION, MB_ICONQUESTION, MB_OK, MB_OKCANCEL, MB_YESNO, SHMessageBoxCheck, SHMessageBoxCheck function [Windows Shell], SHMessageBoxCheckA, SHMessageBoxCheckW, _win32_SHMessageBoxCheck, shell.SHMessageBoxCheck, shlwapi/SHMessageBoxCheck, shlwapi/SHMessageBoxCheckA, shlwapi/SHMessageBoxCheckW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

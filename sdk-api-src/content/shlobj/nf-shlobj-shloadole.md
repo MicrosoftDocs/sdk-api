@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj.SHLoadOLE
 title: SHLoadOLE function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Provided for backward compatibility.
 old-location: shell\SHLoadOLE.htm
 old-project: shell
 ms.assetid: 1c1306bc-443c-4486-b2bc-9bd869b833c3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHLoadOLE, SHLoadOLE function [Windows Shell], _win32_SHLoadOLE, shell.SHLoadOLE, shlobj/SHLoadOLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj.h
 req.include-header: 

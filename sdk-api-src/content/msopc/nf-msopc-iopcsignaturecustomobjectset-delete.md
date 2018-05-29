@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectSet.Delete
 title: IOpcSignatureCustomObjectSet::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes a specified IOpcSignatureCustomObject interface pointer from the set.
 old-location: opc\iopcsignaturecustomobjectset_delete.htm
 old-project: OPC
 ms.assetid: 7cfd8439-8f7e-4112-a2c0-3827922fb4b0
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Delete, Delete method [Open Packaging Conventions], Delete method [Open Packaging Conventions],IOpcSignatureCustomObjectSet interface, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],Delete method, IOpcSignatureCustomObjectSet.Delete, IOpcSignatureCustomObjectSet::Delete, msopc/IOpcSignatureCustomObjectSet::Delete, opc.iopcsignaturecustomobjectset_delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

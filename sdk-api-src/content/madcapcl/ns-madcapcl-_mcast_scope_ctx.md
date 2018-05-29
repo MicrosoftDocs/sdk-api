@@ -1,16 +1,16 @@
 ---
 UID: NS:madcapcl._MCAST_SCOPE_CTX
 title: "_MCAST_SCOPE_CTX"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MCAST_SCOPE_CTX structure defines the scope context for programmatic interaction with multicast addresses. The MCAST_SCOPE_CTX structure is used by various MADCAP functions as a handle for allocating, renewing, or releasing MADCAP addresses.
 old-location: madcap\mcast_scope_ctx.htm
 old-project: Madcap
 ms.assetid: 164d8f73-f5f5-4cc6-85ca-8e249192c202
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PMCAST_SCOPE_CTX, MCAST_SCOPE_CTX, MCAST_SCOPE_CTX structure [MADCAP], PMCAST_SCOPE_CTX, PMCAST_SCOPE_CTX structure pointer [MADCAP], _MCAST_SCOPE_CTX, _mdhcp_mcast_scope_ctx, madcap.mcast_scope_ctx, madcapcl/MCAST_SCOPE_CTX, madcapcl/PMCAST_SCOPE_CTX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: madcapcl.h
 req.include-header: 

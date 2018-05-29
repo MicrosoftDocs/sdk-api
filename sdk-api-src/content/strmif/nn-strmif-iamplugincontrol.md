@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMPluginControl
 title: IAMPluginControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls the preferred and blocked filter lists.
 old-location: dshow\iamplugincontrol.htm
 old-project: DirectShow
 ms.assetid: 66720991-3a3f-4c45-a543-b8050d31fcc3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMPluginControl, IAMPluginControl interface [DirectShow], IAMPluginControl interface [DirectShow],described, dshow.iamplugincontrol, strmif/IAMPluginControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillPolygon(IN const Brush,IN const Point,IN INT)
 title: Graphics::FillPolygon(IN const Brush,IN const Point,IN INT)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the FillPolygon methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillPolygon_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillpolygonmethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FillPolygon, FillPolygon methods [GDI+], Graphics.FillPolygon, Graphics.FillPolygon(IN const Brush,IN const Point,IN INT), Graphics::FillPolygon, Graphics::FillPolygon(IN const Brush,IN const Point,IN INT), _gdiplus_CLASS_Graphics_FillPolygon_Methods, gdiplus._gdiplus_CLASS_Graphics_FillPolygon_Methods, gdiplusgraphics/FillPolygon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 

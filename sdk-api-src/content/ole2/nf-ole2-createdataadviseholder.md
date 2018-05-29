@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.CreateDataAdviseHolder
 title: CreateDataAdviseHolder function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to the OLE implementation of IDataAdviseHolder on the data advise holder object.
 old-location: com\createdataadviseholder.htm
 old-project: com
 ms.assetid: a2114f2f-106a-4a26-ba94-1b40af90a0f3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateDataAdviseHolder, CreateDataAdviseHolder function [COM], _ole_CreateDataAdviseHolder, com.createdataadviseholder, ole2/CreateDataAdviseHolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: ObjBase.h

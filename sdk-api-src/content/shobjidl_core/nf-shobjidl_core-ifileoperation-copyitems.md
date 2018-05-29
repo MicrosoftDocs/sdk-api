@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.CopyItems
 title: IFileOperation::CopyItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Declares a set of items that are to be copied to a specified destination.
 old-location: shell\IFileOperation_CopyItems.htm
 old-project: shell
 ms.assetid: 9899cac2-bc10-422c-ab7f-2b8c1b893fc9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CopyItems, CopyItems method [Windows Shell], CopyItems method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],CopyItems method, IFileOperation.CopyItems, IFileOperation::CopyItems, _shell_IFileOperation_CopyItems, shell.IFileOperation_CopyItems, shobjidl_core/IFileOperation::CopyItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfReverseConversion.DoReverseConversion
 title: ITfReverseConversion::DoReverseConversion
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs a reverse conversion of the specified string.
 old-location: tsf\itfreverseconversion__doreverseconversion.htm
 old-project: TSF
 ms.assetid: a2312cd4-316a-42a6-85a5-e5ef819faa79
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: DoReverseConversion, DoReverseConversion method [Text Services Framework], DoReverseConversion method [Text Services Framework],ITfReverseConversion interface, ITfReverseConversion interface [Text Services Framework],DoReverseConversion method, ITfReverseConversion.DoReverseConversion, ITfReverseConversion::DoReverseConversion, msctf/ITfReverseConversion::DoReverseConversion, tsf.itfreverseconversion__doreverseconversion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

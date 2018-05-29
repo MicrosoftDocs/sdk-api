@@ -1,16 +1,16 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl2.GetSessionIdentifier
 title: IAudioSessionControl2::GetSessionIdentifier
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetSessionIdentifier method retrieves the audio session identifier.
 old-location: coreaudio\iaudiosessioncontrol2_getsessionidentifier.htm
 old-project: CoreAudio
 ms.assetid: 1854e7fe-9d5f-42f3-9c4c-f2a27f26ac17
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSessionIdentifier, GetSessionIdentifier method [Core Audio], GetSessionIdentifier method [Core Audio],IAudioSessionControl2 interface, IAudioSessionControl2 interface [Core Audio],GetSessionIdentifier method, IAudioSessionControl2.GetSessionIdentifier, IAudioSessionControl2::GetSessionIdentifier, audiopolicy/IAudioSessionControl2::GetSessionIdentifier, coreaudio.iaudiosessioncontrol2_getsessionidentifier
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audiopolicy.h
 req.include-header: 

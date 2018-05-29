@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.EnableMenuItem
 title: EnableMenuItem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables, disables, or grays the specified menu item.
 old-location: menurc\enablemenuitem.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\enablemenuitem.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnableMenuItem, EnableMenuItem function [Menus and Other Resources], MF_BYCOMMAND, MF_BYPOSITION, MF_DISABLED, MF_ENABLED, MF_GRAYED, _win32_EnableMenuItem, _win32_enablemenuitem_cpp, menurc.enablemenuitem, winui._win32_enablemenuitem, winuser/EnableMenuItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

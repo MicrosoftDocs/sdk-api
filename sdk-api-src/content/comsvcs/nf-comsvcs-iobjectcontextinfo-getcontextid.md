@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo.GetContextId
 title: IObjectContextInfo::GetContextId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the identifier of the current context.
 old-location: cos\iobjectcontextinfo_getcontextid.htm
 old-project: cossdk
 ms.assetid: 97059f07-161f-451f-9f9b-b4dd81b7bf79
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetContextId, GetContextId method [COM+], GetContextId method [COM+],IObjectContextInfo interface, IObjectContextInfo interface [COM+],GetContextId method, IObjectContextInfo.GetContextId, IObjectContextInfo::GetContextId, _cos_IObjectContextInfo_GetContextId, comsvcs/IObjectContextInfo::GetContextId, cos.iobjectcontextinfo_getcontextid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentPersistInfo.FreeBuffer
 title: ISceSvcAttachmentPersistInfo::FreeBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: The FreeBuffer method frees memory allocated by the attachment snap-in extension.
 old-location: security\iscesvcattachmentpersistinfo_freebuffer.htm
 old-project: SecMgmt
 ms.assetid: b41f01a4-dc38-4954-a3c5-19fa72910d6f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: FreeBuffer, FreeBuffer method [Security], FreeBuffer method [Security],ISceSvcAttachmentPersistInfo interface, ISceSvcAttachmentPersistInfo interface [Security],FreeBuffer method, ISceSvcAttachmentPersistInfo.FreeBuffer, ISceSvcAttachmentPersistInfo::FreeBuffer, _config_iscesvcattachmentpersistinfo_freebuffer, scesvc/ISceSvcAttachmentPersistInfo::FreeBuffer, security.iscesvcattachmentpersistinfo_freebuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: scesvc.h
 req.include-header: 

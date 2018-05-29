@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_CurrentFeaturePages
 title: IDiscRecorder2::get_CurrentFeaturePages
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the list of feature pages of the device that are marked as current.
 old-location: imapi\idiscrecorder2_get_currentfeaturepages.htm
 old-project: imapi
 ms.assetid: 27504cb3-5c78-4fcb-8d37-ce7e6ac2a006
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_CurrentFeaturePages method, IDiscRecorder2.get_CurrentFeaturePages, IDiscRecorder2::get_CurrentFeaturePages, get_CurrentFeaturePages, get_CurrentFeaturePages method [IMAPI], get_CurrentFeaturePages method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_currentfeaturepages, imapi2/IDiscRecorder2::get_CurrentFeaturePages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

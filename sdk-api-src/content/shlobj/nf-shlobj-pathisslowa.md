@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj.PathIsSlowA
 title: PathIsSlowA function
-author: windows-driver-content
+author: windows-sdk-content
 description: PathIsSlow may be altered or unavailable.
 old-location: shell\PathIsSlow.htm
 old-project: shell
 ms.assetid: f848a098-9248-453b-a957-77c35d70e528
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathIsSlow, PathIsSlow function [Windows Shell], PathIsSlowA, PathIsSlowW, _win32_PathIsSlow, shell.PathIsSlow, shlobj/PathIsSlow, shlobj/PathIsSlowA, shlobj/PathIsSlowW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj.h
 req.include-header: 

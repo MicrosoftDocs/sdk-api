@@ -1,16 +1,16 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceRegistration2.AddResourceEx
 title: IWorkspaceRegistration2::AddResourceEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a resource to the connection in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceregistration2_addresourceex.htm
 old-project: TermServ
 ms.assetid: 7bb26842-ca30-40e2-b7a2-474dda4ad433
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddResourceEx, AddResourceEx method [Remote Desktop Services], AddResourceEx method [Remote Desktop Services],IWorkspaceRegistration2 interface, AddResourceEx method [Remote Desktop Services],Workspace object, IWorkspaceRegistration2 interface [Remote Desktop Services],AddResourceEx method, IWorkspaceRegistration2.AddResourceEx, IWorkspaceRegistration2::AddResourceEx, Workspace object [Remote Desktop Services],AddResourceEx method, termserv.iworkspaceregistration2_addresourceex, workspaceruntime/IWorkspaceRegistration2::AddResourceEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: workspaceruntime.h
 req.include-header: Workspaceruntime.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:vmr9.IVMRImageCompositor9
 title: IVMRImageCompositor9
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRImageCompositor9 interface is implemented by the default compositor for the Video Mixing Renderer Filter 9 (VMR-9).
 old-location: dshow\ivmrimagecompositor9.htm
 old-project: DirectShow
 ms.assetid: 19fda7f2-000f-47d0-a7c7-d8421de418a2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRImageCompositor9, IVMRImageCompositor9 interface [DirectShow], IVMRImageCompositor9 interface [DirectShow],described, IVMRImageCompositor9Interface, dshow.ivmrimagecompositor9, vmr9/IVMRImageCompositor9
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vmr9.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetServer
 title: IWbemPath::GetServer
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemPath::GetServer method retrieves the server portion of the path.
 old-location: wmi\iwbempath_getserver.htm
 old-project: WmiSdk
 ms.assetid: 831d34d8-d586-41cc-a878-7a2b837b84de
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetServer, GetServer method [Windows Management Instrumentation], GetServer method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetServer method, IWbemPath.GetServer, IWbemPath::GetServer, _hmm_iwbempath_getserver, wmi.iwbempath_getserver, wmiutils/IWbemPath::GetServer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

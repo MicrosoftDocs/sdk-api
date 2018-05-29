@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.FlatSB_GetScrollProp
 title: FlatSB_GetScrollProp function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the properties for a flat scroll bar. This function can also be used to determine if InitializeFlatSB has been called for this window.
 old-location: controls\FlatSB_GetScrollProp.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollprop.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FlatSB_GetScrollProp, FlatSB_GetScrollProp function [Windows Controls], WSB_PROP_CXHSCROLL, WSB_PROP_CXHTHUMB, WSB_PROP_CXVSCROLL, WSB_PROP_CYHSCROLL, WSB_PROP_CYVSCROLL, WSB_PROP_CYVTHUMB, WSB_PROP_HBKGCOLOR, WSB_PROP_HSTYLE, WSB_PROP_PALETTE, WSB_PROP_VBKGCOLOR, WSB_PROP_VSTYLE, WSB_PROP_WINSTYLE, _win32_FlatSB_GetScrollProp, _win32_FlatSB_GetScrollProp_cpp, commctrl/FlatSB_GetScrollProp, controls.FlatSB_GetScrollProp, controls._win32_FlatSB_GetScrollProp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

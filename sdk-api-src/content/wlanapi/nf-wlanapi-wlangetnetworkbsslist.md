@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanGetNetworkBssList
 title: WlanGetNetworkBssList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of the basic service set (BSS) entries of the wireless network or networks on a given wireless LAN interface.
 old-location: nwifi\wlangetnetworkbsslist.htm
 old-project: NativeWiFi
 ms.assetid: 62f51b6e-3db1-48cd-8853-0dbe522c5e82
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanGetNetworkBssList, WlanGetNetworkBssList function [NativeWIFI], dot11_BSS_type_any, dot11_BSS_type_independent, dot11_BSS_type_infrastructure, nwifi.wlangetnetworkbsslist, wlanapi/WlanGetNetworkBssList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

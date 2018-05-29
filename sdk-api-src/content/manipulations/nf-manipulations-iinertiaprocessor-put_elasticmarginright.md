@@ -1,16 +1,16 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_ElasticMarginRight
 title: IInertiaProcessor::put_ElasticMarginRight
-author: windows-driver-content
+author: windows-sdk-content
 description: The ElasticMarginRight property specifies the rightmost region for bouncing the target object.
 old-location: wintouch\iinertiaprocessor_elasticmarginright.htm
 old-project: wintouch
 ms.assetid: 081dd9d4-d190-4a44-bcd8-d5d0d99d7fd2
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: ElasticMarginRight property [Windows Touch], ElasticMarginRight property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],ElasticMarginRight property, IInertiaProcessor.ElasticMarginRight, IInertiaProcessor.put_ElasticMarginRight, IInertiaProcessor::ElasticMarginRight, IInertiaProcessor::get_ElasticMarginRight, IInertiaProcessor::put_ElasticMarginRight, manipulations/IInertiaProcessor::ElasticMarginRight, manipulations/IInertiaProcessor::get_ElasticMarginRight, manipulations/IInertiaProcessor::put_ElasticMarginRight, put_ElasticMarginRight, wintouch.iinertiaprocessor_elasticmarginright
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: manipulations.h
 req.include-header: Manipulations.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:compressapi.CloseCompressor
 title: CloseCompressor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Call to close an open COMPRESSOR_HANDLE.
 old-location: cmpapi\closecompressor.htm
 old-project: cmpapi
 ms.assetid: 098cf0b9-cd42-4a40-b30f-d7364d067e41
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: CloseCompressor, CloseCompressor function [Compression API], cmpapi.closecompressor, compressapi/CloseCompressor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: compressapi.h
 req.include-header: 

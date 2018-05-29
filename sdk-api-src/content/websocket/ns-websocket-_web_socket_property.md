@@ -1,16 +1,16 @@
 ---
 UID: NS:websocket._WEB_SOCKET_PROPERTY
 title: "_WEB_SOCKET_PROPERTY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a single WebSocket property.
 old-location: websock\web_socket_property.htm
 old-project: WebSock
 ms.assetid: c8b35288-4cc1-4839-a5be-4fd13b162c20
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PWEB_SOCKET_PROPERTY, PWEB_SOCKET_PROPERTY, PWEB_SOCKET_PROPERTY structure pointer [Websocket Protocol Component API], WEB_SOCKET_PROPERTY, WEB_SOCKET_PROPERTY structure [Websocket Protocol Component API], _WEB_SOCKET_PROPERTY, websock.web_socket_property, websocket/PWEB_SOCKET_PROPERTY, websocket/WEB_SOCKET_PROPERTY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: websocket.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ual.UalStart
 title: UalStart function
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts a User Access Logging (UAL) session.
 old-location: ual\ualstart.htm
 old-project: ual
 ms.assetid: 800E8BCF-39A1-490A-9B6A-12EE900B8D17
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: UalStart, UalStart function [User Access Logging], ual.ualstart, ual/UalStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ual.h
 req.include-header: 

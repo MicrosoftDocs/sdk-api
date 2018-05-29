@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.SetAt
 title: IXpsOMPageReferenceCollection::SetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces an IXpsOMPageReference interface pointer at a specified location in the collection.
 old-location: xps\ixpsompagereferencecollection_setat.htm
 old-project: printdocs
 ms.assetid: b06b7ae2-e684-46a3-ab46-9f33cc6c10fc
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMPageReferenceCollection.SetAt, IXpsOMPageReferenceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, xps.ixpsompagereferencecollection_setat, xpsobjectmodel/IXpsOMPageReferenceCollection::SetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

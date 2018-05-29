@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.PrePrepareEnlistment
 title: PrePrepareEnlistment function
-author: windows-driver-content
+author: windows-sdk-content
 description: Pre-prepares the transaction associated with this enlistment handle. This function is used by communication resource managers (sometimes called superior transaction managers).
 old-location: fs\preprepareenlistment.htm
 old-project: Ktm
 ms.assetid: 7a336267-4bee-4aac-abff-ec112650789a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PrePrepareEnlistment, PrePrepareEnlistment function [Files], fs.preprepareenlistment, ktmw32/PrePrepareEnlistment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

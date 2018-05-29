@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10Asynchronous.End
 title: ID3D10Asynchronous::End
-author: windows-driver-content
+author: windows-sdk-content
 description: Ends the collection of GPU data.
 old-location: direct3d10\id3d10asynchronous_end.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10asynchronous_end.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 453b6ede-999a-d914-5698-e6749585c82e, End, End method [Direct3D 10], End method [Direct3D 10],ID3D10Asynchronous interface, ID3D10Asynchronous interface [Direct3D 10],End method, ID3D10Asynchronous.End, ID3D10Asynchronous::End, d3d10/ID3D10Asynchronous::End, direct3d10.id3d10asynchronous_end
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:encdec.IETFilterConfig
 title: IETFilterConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: The IETFilterConfig interface configures the Encrypter/Tagger filter. Most applications will not have to use this interface.
 old-location: mstv\ietfilterconfig.htm
 old-project: mstv
 ms.assetid: 6fa3da1b-863b-4ed7-b5ef-4ed1c05d2456
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IETFilterConfig, IETFilterConfig interface [Microsoft TV Technologies], IETFilterConfig interface [Microsoft TV Technologies],described, IETFilterConfigInterface, encdec/IETFilterConfig, mstv.ietfilterconfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: encdec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:ws2ipdef._sockaddr_in6_pair
 title: "_sockaddr_in6_pair"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains pointers to a pair of IP addresses that represent a source and destination address pair.
 old-location: iphlp\sockaddr_in6_pair.htm
 old-project: IpHlp
 ms.assetid: 0265f8e0-8b35-4d9d-bf22-e98e9ff36a17
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PSOCKADDR_IN6_PAIR, PSOCKADDR_IN6_PAIR, PSOCKADDR_IN6_PAIR structure pointer [IP Helper], SOCKADDR_IN6_PAIR, SOCKADDR_IN6_PAIR structure [IP Helper], _sockaddr_in6_pair, iphlp.sockaddr_in6_pair, ws2ipdef/PSOCKADDR_IN6_PAIR, ws2ipdef/SOCKADDR_IN6_PAIR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h

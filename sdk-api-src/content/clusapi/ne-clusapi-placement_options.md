@@ -1,16 +1,16 @@
 ---
 UID: NE:clusapi.PLACEMENT_OPTIONS
 title: PLACEMENT_OPTIONS
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines options for placing the cluster.
 old-location: mscs\placement_options.htm
 old-project: MsCS
 ms.assetid: 21b968c7-3132-4dda-9b27-404026cd525c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PLACEMENT_OPTIONS, PLACEMENT_OPTIONS enumeration [Failover Cluster], PLACEMENT_OPTIONS_ALL, PLACEMENT_OPTIONS_CONSIDER_OFFLINE_VMS, PLACEMENT_OPTIONS_DEFAULT_PLACEMENT_OPTIONS, PLACEMENT_OPTIONS_DISABLE_CSV_VM_DEPENDENCY, PLACEMENT_OPTIONS_DONT_USE_CPU, PLACEMENT_OPTIONS_DONT_USE_MEMORY, PLACEMENT_OPTIONS_MIN_VALUE, clusapi/PLACEMENT_OPTIONS, clusapi/PLACEMENT_OPTIONS_ALL, clusapi/PLACEMENT_OPTIONS_CONSIDER_OFFLINE_VMS, clusapi/PLACEMENT_OPTIONS_DEFAULT_PLACEMENT_OPTIONS, clusapi/PLACEMENT_OPTIONS_DISABLE_CSV_VM_DEPENDENCY, clusapi/PLACEMENT_OPTIONS_DONT_USE_CPU, clusapi/PLACEMENT_OPTIONS_DONT_USE_MEMORY, clusapi/PLACEMENT_OPTIONS_MIN_VALUE, mscs.placement_options
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: clusapi.h
 req.include-header: 

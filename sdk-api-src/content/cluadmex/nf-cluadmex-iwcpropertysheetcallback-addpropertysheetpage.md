@@ -1,16 +1,16 @@
 ---
 UID: NF:cluadmex.IWCPropertySheetCallback.AddPropertySheetPage
 title: IWCPropertySheetCallback::AddPropertySheetPage
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a property page to a Failover Cluster Administrator property sheet.
 old-location: mscs\iwcpropertysheetcallback_addpropertysheetpage.htm
 old-project: MsCS
 ms.assetid: ccd87d3a-c9da-4d61-9e9b-f25a52724166
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: AddPropertySheetPage, AddPropertySheetPage method [Failover Cluster], AddPropertySheetPage method [Failover Cluster],IWCPropertySheetCallback interface, IWCPropertySheetCallback interface [Failover Cluster],AddPropertySheetPage method, IWCPropertySheetCallback.AddPropertySheetPage, IWCPropertySheetCallback::AddPropertySheetPage, _wolf_iwcpropertysheetcallback_addpropertysheetpage, cluadmex/IWCPropertySheetCallback::AddPropertySheetPage, mscs.iwcpropertysheetcallback_addpropertysheetpage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cluadmex.h
 req.include-header: 

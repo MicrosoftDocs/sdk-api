@@ -1,16 +1,16 @@
 ---
 UID: NN:gpmgmt.IGPMPermission
 title: IGPMPermission
-author: windows-driver-content
+author: windows-sdk-content
 description: The IGPMPermission interface contains methods to retrieve permission-related properties when using the GPMC.
 old-location: gpmc\igpmpermission.htm
 old-project: GPMC
 ms.assetid: 7ac19065-571e-45f5-934f-35ddbf225262
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMPermission, IGPMPermission, IGPMPermission interface [GPMC], IGPMPermission interface [GPMC],described, _win32_igpmpermission, gpmc.igpmpermission, gpmgmt/IGPMPermission
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: gpmgmt.h
 req.include-header: 

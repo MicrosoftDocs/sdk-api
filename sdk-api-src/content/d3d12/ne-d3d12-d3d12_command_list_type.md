@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_COMMAND_LIST_TYPE
 title: D3D12_COMMAND_LIST_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of a command list.
 old-location: direct3d12\d3d12_command_list_type.htm
 old-project: direct3d12
 ms.assetid: 28BC70FF-6818-4B8D-9DE4-8316AB2FB288
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_COMMAND_LIST_TYPE, D3D12_COMMAND_LIST_TYPE enumeration, D3D12_COMMAND_LIST_TYPE_BUNDLE, D3D12_COMMAND_LIST_TYPE_COMPUTE, D3D12_COMMAND_LIST_TYPE_COPY, D3D12_COMMAND_LIST_TYPE_DIRECT, D3D12_COMMAND_LIST_TYPE_VIDEO_DECODE, D3D12_COMMAND_LIST_TYPE_VIDEO_PROCESS, d3d12/D3D12_COMMAND_LIST_TYPE, d3d12/D3D12_COMMAND_LIST_TYPE_BUNDLE, d3d12/D3D12_COMMAND_LIST_TYPE_COMPUTE, d3d12/D3D12_COMMAND_LIST_TYPE_COPY, d3d12/D3D12_COMMAND_LIST_TYPE_DIRECT, d3d12/D3D12_COMMAND_LIST_TYPE_VIDEO_DECODE, d3d12/D3D12_COMMAND_LIST_TYPE_VIDEO_PROCESS, direct3d12.d3d12_command_list_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.CreateResourceManager
 title: CreateResourceManager function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new resource manager (RM) object, and associates the RM with a transaction manager (TM).
 old-location: fs\createresourcemanager.htm
 old-project: Ktm
 ms.assetid: ad88e478-1dff-4f35-a0e3-6bda8bb45711
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: CreateResourceManager, CreateResourceManager function [Files], RESOURCE_MANAGER_VOLATILE, fs.createresourcemanager, ktmw32/CreateResourceManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentButton
 title: IDvdInfo2::GetCurrentButton
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCurrentButton method retrieves the number of available buttons and the number of the currently selected button.
 old-location: dshow\idvdinfo2_getcurrentbutton.htm
 old-project: DirectShow
 ms.assetid: 9e8d8a0e-6db8-495b-b968-8a4e63435b99
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCurrentButton, GetCurrentButton method [DirectShow], GetCurrentButton method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentButton method, IDvdInfo2.GetCurrentButton, IDvdInfo2::GetCurrentButton, IDvdInfo2GetCurrentButton, dshow.idvdinfo2_getcurrentbutton, strmif/IDvdInfo2::GetCurrentButton
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

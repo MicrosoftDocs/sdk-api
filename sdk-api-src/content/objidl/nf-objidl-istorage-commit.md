@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IStorage.Commit
 title: IStorage::Commit
-author: windows-driver-content
+author: windows-sdk-content
 description: The Commit method ensures that any changes made to a storage object open in transacted mode are reflected in the parent storage.
 old-location: stg\istorage_commit.htm
 old-project: Stg
 ms.assetid: 72831f2c-1e07-429b-af4c-2aaced3f3888
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Commit, Commit method [Structured Storage], Commit method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],Commit method, IStorage.Commit, IStorage::Commit, _stg_istorage_commit, objidl/IStorage::Commit, stg.istorage_commit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

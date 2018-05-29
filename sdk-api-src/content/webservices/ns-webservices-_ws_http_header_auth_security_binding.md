@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_HTTP_HEADER_AUTH_SECURITY_BINDING
 title: "_WS_HTTP_HEADER_AUTH_SECURITY_BINDING"
-author: windows-driver-content
+author: windows-sdk-content
 description: The security binding subtype for specifying the use of HTTP header authentication against a target service or a HTTP proxy server based on the basic, digest (RFC 2617) and the SPNEGO (RFC4559) protocols.
 old-location: wsw\ws_http_header_auth_security_binding.htm
 old-project: wsw
 ms.assetid: c6ca6760-a927-470f-9785-7500d1711902
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_HTTP_HEADER_AUTH_SECURITY_BINDING, WS_HTTP_HEADER_AUTH_SECURITY_BINDING structure [Web Services for Windows], _WS_HTTP_HEADER_AUTH_SECURITY_BINDING, webservices/WS_HTTP_HEADER_AUTH_SECURITY_BINDING, wsw.ws_http_header_auth_security_binding
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

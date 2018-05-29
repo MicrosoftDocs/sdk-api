@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSGetItemPropertyHandlerWithCreateObject
 title: PSGetItemPropertyHandlerWithCreateObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a property handler for a Shell item.
 old-location: properties\PSGetItemPropertyHandlerWithCreateObject.htm
 old-project: properties
 ms.assetid: 82e0aa15-b67c-4c0a-bafb-f1dc5f822aec
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSGetItemPropertyHandlerWithCreateObject, PSGetItemPropertyHandlerWithCreateObject function [Windows Properties], _shell_PSGetItemPropertyHandlerWithCreateObject, properties.PSGetItemPropertyHandlerWithCreateObject, propsys/PSGetItemPropertyHandlerWithCreateObject, shell.PSGetItemPropertyHandlerWithCreateObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

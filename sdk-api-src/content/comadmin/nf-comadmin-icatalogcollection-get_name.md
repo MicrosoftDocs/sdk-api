@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_Name
 title: ICatalogCollection::get_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the name of the collection.
 old-location: cos\icatalogcollection_name.htm
 old-project: cossdk
 ms.assetid: 0a90538b-a562-40f7-b7d6-16e786db0e1e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICatalogCollection interface [COM+],Name property, ICatalogCollection.Name, ICatalogCollection.get_Name, ICatalogCollection::Name, ICatalogCollection::get_Name, Name property [COM+], Name property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get_Name, comadmin/ICatalogCollection::Name, comadmin/ICatalogCollection::get_Name, cos.icatalogcollection_name, get_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

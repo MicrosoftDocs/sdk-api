@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_VirtualChannelManager
 title: IRDPSRAPIViewer::get_VirtualChannelManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIVirtualChannelManager interface.
 old-location: rdp\irdpsrapiviewer_virtualchannelmanager.htm
 old-project: Rdp
 ms.assetid: c878c445-5f1a-4a1f-be56-4cc427a40a1a
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],VirtualChannelManager property, IRDPSRAPIViewer.VirtualChannelManager, IRDPSRAPIViewer.get_VirtualChannelManager, IRDPSRAPIViewer::VirtualChannelManager, IRDPSRAPIViewer::get_VirtualChannelManager, RDPViewer object [RDP],VirtualChannelManager property, VirtualChannelManager property [RDP], VirtualChannelManager property [RDP],IRDPSRAPIViewer interface, VirtualChannelManager property [RDP],RDPViewer object, get_VirtualChannelManager, rdp.irdpsrapiviewer_virtualchannelmanager, rdpencomapi/IRDPSRAPIViewer::VirtualChannelManager, rdpencomapi/IRDPSRAPIViewer::get_VirtualChannelManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

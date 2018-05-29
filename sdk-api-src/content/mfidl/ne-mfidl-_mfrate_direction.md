@@ -1,16 +1,16 @@
 ---
 UID: NE:mfidl._MFRATE_DIRECTION
 title: "_MFRATE_DIRECTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the direction of playback (forward or reverse).
 old-location: mf\mfrate_direction.htm
 old-project: medfound
 ms.assetid: 34cc861c-ab15-48f4-bb6e-736b70383546
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 34cc861c-ab15-48f4-bb6e-736b70383546, MFRATE_DIRECTION, MFRATE_DIRECTION enumeration [Media Foundation], MFRATE_FORWARD, MFRATE_REVERSE, _MFRATE_DIRECTION, mf.mfrate_direction, mfidl/MFRATE_DIRECTION, mfidl/MFRATE_FORWARD, mfidl/MFRATE_REVERSE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

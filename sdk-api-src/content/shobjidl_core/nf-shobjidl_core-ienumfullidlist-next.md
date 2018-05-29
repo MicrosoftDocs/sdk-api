@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IEnumFullIDList.Next
 title: IEnumFullIDList::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a specified number of IDLIST_ABSOLUTE items.
 old-location: shell\IEnumFullIDList_Next.htm
 old-project: shell
 ms.assetid: 023f8935-0382-404e-b1bf-737824cf0f34
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumFullIDList interface [Windows Shell],Next method, IEnumFullIDList.Next, IEnumFullIDList::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumFullIDList interface, _shell_IEnumFullIDList_Next, shell.IEnumFullIDList_Next, shobjidl_core/IEnumFullIDList::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

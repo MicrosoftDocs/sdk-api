@@ -1,16 +1,16 @@
 ---
 UID: NS:d3dcommon._D3D_SHADER_MACRO
 title: "_D3D_SHADER_MACRO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a shader macro.
 old-location: direct3d11\d3d_shader_macro.htm
 old-project: direct3d11
 ms.assetid: 8cfe0b3c-5ce8-4d59-8fd9-0fdf200c9552
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: "*LPD3D_SHADER_MACRO, D3D_SHADER_MACRO, D3D_SHADER_MACRO structure [Direct3D 11], LPD3D_SHADER_MACRO, LPD3D_SHADER_MACRO structure pointer [Direct3D 11], _D3D_SHADER_MACRO, d3dcommon/D3D_SHADER_MACRO, d3dcommon/LPD3D_SHADER_MACRO, direct3d11.d3d_shader_macro"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3dcommon.h
 req.include-header: 

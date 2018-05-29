@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfContext.GetDocumentMgr
 title: ITfContext::GetDocumentMgr
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfContext::GetDocumentMgr method
 old-location: tsf\itfcontext_getdocumentmgr.htm
 old-project: TSF
 ms.assetid: 21fa683d-c386-4aa2-8bc5-d5170443c5cd
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetDocumentMgr, GetDocumentMgr method [Text Services Framework], GetDocumentMgr method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetDocumentMgr method, ITfContext.GetDocumentMgr, ITfContext::GetDocumentMgr, _tsf_itfcontext_getdocumentmgr_ref, msctf/ITfContext::GetDocumentMgr, tsf.itfcontext_getdocumentmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

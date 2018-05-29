@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.GetSelectionStyle
 title: ITfIntegratableCandidateListUIElement::GetSelectionStyle
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the selection style.
 old-location: tsf\itfintegratablecandidatelistuielement_getselectionstyle.htm
 old-project: TSF
 ms.assetid: D51E27FE-503E-459C-92F1-1826762A5188
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetSelectionStyle, GetSelectionStyle method [Text Services Framework], GetSelectionStyle method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ITfIntegratableCandidateListUIElement interface [Text Services Framework],GetSelectionStyle method, ITfIntegratableCandidateListUIElement.GetSelectionStyle, ITfIntegratableCandidateListUIElement::GetSelectionStyle, ctffunc/ITfIntegratableCandidateListUIElement::GetSelectionStyle, tsf.itfintegratablecandidatelistuielement_getselectionstyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.SetServiceDiscoverable
 title: IWSDDeviceHost::SetServiceDiscoverable
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls whether or not the service is advertised using WS-Discovery.
 old-location: ncd\iwsddevicehost_setservicediscoverable.htm
 old-project: WsdApi
 ms.assetid: 8f6aa8f6-3b7a-4d13-a052-c73f21823661
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDDeviceHost interface,SetServiceDiscoverable method, IWSDDeviceHost.SetServiceDiscoverable, IWSDDeviceHost::SetServiceDiscoverable, SetServiceDiscoverable, SetServiceDiscoverable method, SetServiceDiscoverable method,IWSDDeviceHost interface, ncd.iwsddevicehost_setservicediscoverable, wsdhost/IWSDDeviceHost::SetServiceDiscoverable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

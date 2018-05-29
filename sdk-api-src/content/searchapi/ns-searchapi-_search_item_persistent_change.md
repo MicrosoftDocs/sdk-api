@@ -1,16 +1,16 @@
 ---
 UID: NS:searchapi._SEARCH_ITEM_PERSISTENT_CHANGE
 title: "_SEARCH_ITEM_PERSISTENT_CHANGE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the kind of change that has occurred in an item to be indexed. This structure is used with the ISearchPersistentItemsChangedSink::OnItemsChanged method to pass information to the indexer about what has changed.
 old-location: search\_search_SEARCH_ITEM_PERSISTENT_CHANGE.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_persistent_change.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SEARCH_ITEM_PERSISTENT_CHANGE, SEARCH_ITEM_PERSISTENT_CHANGE structure [search], _SEARCH_ITEM_PERSISTENT_CHANGE, _search_SEARCH_ITEM_PERSISTENT_CHANGE, search._search_SEARCH_ITEM_PERSISTENT_CHANGE, searchapi/SEARCH_ITEM_PERSISTENT_CHANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 

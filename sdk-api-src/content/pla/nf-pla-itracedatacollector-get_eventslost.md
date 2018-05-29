@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_EventsLost
 title: ITraceDataCollector::get_EventsLost
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of events that were not written to the buffer.
 old-location: pla\itracedatacollector_eventslost.htm
 old-project: PLA
 ms.assetid: f11cf095-405b-4129-aaad-d1558f01606e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EventsLost property [PLA], EventsLost property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],EventsLost property, ITraceDataCollector.EventsLost, ITraceDataCollector.get_EventsLost, ITraceDataCollector::EventsLost, ITraceDataCollector::get_EventsLost, base.itracedatacollector_eventslost, get_EventsLost, pla.itracedatacollector_eventslost, pla/ITraceDataCollector::EventsLost, pla/ITraceDataCollector::get_EventsLost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

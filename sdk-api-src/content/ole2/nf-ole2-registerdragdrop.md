@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.RegisterDragDrop
 title: RegisterDragDrop function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers the specified window as one that can be the target of an OLE drag-and-drop operation and specifies the IDropTarget instance to use for drop operations.
 old-location: com\registerdragdrop.htm
 old-project: com
 ms.assetid: 00726271-4436-41f5-b7cc-666cd77216bc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RegisterDragDrop, RegisterDragDrop function [COM], _ole_RegisterDragDrop, com.registerdragdrop, ole2/RegisterDragDrop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateConstantTransition
 title: IUIAnimationTransitionLibrary2::CreateConstantTransition
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a constant scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createconstanttransition.htm
 old-project: UIAnimation
 ms.assetid: CC7315BB-B3EC-4B40-85B9-1AF70ABB5F77
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateConstantTransition, CreateConstantTransition method [Windows Animation], CreateConstantTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateConstantTransition method, IUIAnimationTransitionLibrary2.CreateConstantTransition, IUIAnimationTransitionLibrary2::CreateConstantTransition, uianimation.iuianimationtransitionlibrary2_createconstanttransition, uianimation/IUIAnimationTransitionLibrary2::CreateConstantTransition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

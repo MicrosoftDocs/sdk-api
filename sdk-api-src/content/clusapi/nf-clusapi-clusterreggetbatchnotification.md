@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.ClusterRegGetBatchNotification
 title: ClusterRegGetBatchNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: Fetches the batch notification.
 old-location: mscs\clusterreggetbatchnotification.htm
 old-project: MsCS
 ms.assetid: 4cc6925f-cf91-449b-8f9d-fcf48b4df896
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterRegGetBatchNotification, ClusterRegGetBatchNotification function [Failover Cluster], PCLUSTER_REG_GET_BATCH_NOTIFICATION, clusapi/ClusterRegGetBatchNotification, mscs.clusterreggetbatchnotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

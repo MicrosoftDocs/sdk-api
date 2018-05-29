@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IDownloadResult
 title: IDownloadResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the result of a download operation.
 old-location: wua\idownloadresult.htm
 old-project: Wua_Sdk
 ms.assetid: 293bea59-acec-4774-adb9-1ad1d29406c3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDownloadResult, IDownloadResult interface [Windows Update Agent], IDownloadResult interface [Windows Update Agent],described, wua.idownloadresult, wuapi/IDownloadResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

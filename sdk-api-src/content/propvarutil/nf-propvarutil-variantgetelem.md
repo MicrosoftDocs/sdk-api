@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.VariantGetElem
 title: VariantGetElem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a VARIANT structure from a specified variant element.
 old-location: properties\VariantGetElem.htm
 old-project: properties
 ms.assetid: e1541e66-3ccc-494c-a909-72eeb9159d11
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: VariantGetElem, VariantGetElem function [Windows Properties], _shell_VariantGetElem, properties.VariantGetElem, propvarutil/VariantGetElem, shell.VariantGetElem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

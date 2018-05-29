@@ -1,16 +1,16 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolShadowConnection
 title: IWRdsProtocolShadowConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that notify the protocol provider about the status of session shadowing.
 old-location: termserv\iwrdsprotocolshadowconnection.htm
 old-project: TermServ
 ms.assetid: d23c4902-4e61-45ff-8a49-62eea1b92d4a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsProtocolShadowConnection, IWRdsProtocolShadowConnection interface [Remote Desktop Services], IWRdsProtocolShadowConnection interface [Remote Desktop Services],described, termserv.iwrdsprotocolshadowconnection, wtsprotocol/IWRdsProtocolShadowConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

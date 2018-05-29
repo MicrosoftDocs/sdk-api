@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.GetStatusForMultipleOperations
 title: IWSDServiceProxyEventing::GetStatusForMultipleOperations
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current status.
 old-location: ncd\iwsdserviceproxyeventing_getstatusformultipleoperations.htm
 old-project: WsdApi
 ms.assetid: ba9c6d6e-d551-4010-b3b7-9e5391de9c49
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetStatusForMultipleOperations, GetStatusForMultipleOperations method, GetStatusForMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,GetStatusForMultipleOperations method, IWSDServiceProxyEventing.GetStatusForMultipleOperations, IWSDServiceProxyEventing::GetStatusForMultipleOperations, ncd.iwsdserviceproxyeventing_getstatusformultipleoperations, wsdclient/IWSDServiceProxyEventing::GetStatusForMultipleOperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

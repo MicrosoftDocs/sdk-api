@@ -1,16 +1,16 @@
 ---
 UID: NF:tspubplugin2com.ItsPubPlugin2.GetResource2
 title: ItsPubPlugin2::GetResource2
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is reserved and should always return E_NOTIMPL.
 old-location: termserv\itspubplugin2_getresource2.htm
 old-project: TermServ
 ms.assetid: 8edb3f28-0796-478e-bf0a-b157e1e12dc2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetResource2, GetResource2 method [Remote Desktop Services], GetResource2 method [Remote Desktop Services],ItsPubPlugin2 interface, ItsPubPlugin2 interface [Remote Desktop Services],GetResource2 method, ItsPubPlugin2.GetResource2, ItsPubPlugin2::GetResource2, termserv.itspubplugin2_getresource2, tspubplugin2com/ItsPubPlugin2::GetResource2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tspubplugin2com.h
 req.include-header: 

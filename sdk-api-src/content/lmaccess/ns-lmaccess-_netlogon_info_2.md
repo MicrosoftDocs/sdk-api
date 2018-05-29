@@ -1,16 +1,16 @@
 ---
 UID: NS:lmaccess._NETLOGON_INFO_2
 title: "_NETLOGON_INFO_2"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a level-2 control query response from a domain controller.
 old-location: winprog\netlogon_info_2.htm
 old-project: DevNotes
 ms.assetid: ab29013d-e93a-4f15-84e1-c0e3e55b288d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PNETLOGON_INFO_2, NETLOGON_DNS_UPDATE_FAILURE, NETLOGON_FULL_SYNC_REPLICATION, NETLOGON_HAS_IP, NETLOGON_HAS_TIMESERV, NETLOGON_INFO_2, NETLOGON_INFO_2 structure [Windows API], NETLOGON_REDO_NEEDED, NETLOGON_REPLICATION_IN_PROGRESS, NETLOGON_REPLICATION_NEEDED, NETLOGON_VERIFY_STATUS_RETURNED, PNETLOGON_INFO_2, PNETLOGON_INFO_2 structure pointer [Windows API], _NETLOGON_INFO_2, lmaccess/NETLOGON_INFO_2, lmaccess/PNETLOGON_INFO_2, winprog.netlogon_info_2"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetVersionNumber
 title: IISDB_CDT::GetVersionNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getversionnumber.htm
 old-project: mstv
 ms.assetid: 4c88ecdb-8e01-4fec-96f2-c67331b6d071
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_CDT.GetVersionNumber, IISDB_CDT::GetVersionNumber, dvbsiparser/IISDB_CDT::GetVersionNumber, mstv.iisdb_cdt_getversionnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

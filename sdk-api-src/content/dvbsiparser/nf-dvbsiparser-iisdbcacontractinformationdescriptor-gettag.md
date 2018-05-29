@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetTag
 title: IIsdbCAContractInformationDescriptor::GetTag
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) conditional access (CA)contract information descriptor.
 old-location: mstv\iisdbcacontractinformationdescriptor_gettag.htm
 old-project: mstv
 ms.assetid: f64110eb-1f96-421c-8f32-3d82a5ed4378
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbCAContractInformationDescriptor.GetTag, IIsdbCAContractInformationDescriptor::GetTag, dvbsiparser/IIsdbCAContractInformationDescriptor::GetTag, mstv.iisdbcacontractinformationdescriptor_gettag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

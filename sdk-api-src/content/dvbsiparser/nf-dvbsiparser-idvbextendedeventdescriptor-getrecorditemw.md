@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetRecordItemW
 title: IDvbExtendedEventDescriptor::GetRecordItemW
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the item and descriptor from a Digital Videl Broadcast (DVB) extended event descriptor, in Unicode string format.
 old-location: mstv\idvbextendedeventdescriptor_getrecorditemw.htm
 old-project: mstv
 ms.assetid: 39c046b0-d357-44c5-9abe-2fb3998b7677
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordItemW, GetRecordItemW method [Microsoft TV Technologies], GetRecordItemW method [Microsoft TV Technologies],IDvbExtendedEventDescriptor interface, IDvbExtendedEventDescriptor interface [Microsoft TV Technologies],GetRecordItemW method, IDvbExtendedEventDescriptor.GetRecordItemW, IDvbExtendedEventDescriptor::GetRecordItemW, dvbsiparser/IDvbExtendedEventDescriptor::GetRecordItemW, mstv.idvbextendedeventdescriptor_getrecorditemw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.SetCaptureToken
 title: IBDA_ConditionalAccessEx::SetCaptureToken
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests special events that are identified by a capture token.
 old-location: mstv\ibda_conditionalaccessex_setcapturetoken.htm
 old-project: mstv
 ms.assetid: b9e3d319-c76c-45df-aca3-d5447605b7c0
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],SetCaptureToken method, IBDA_ConditionalAccessEx.SetCaptureToken, IBDA_ConditionalAccessEx::SetCaptureToken, SetCaptureToken, SetCaptureToken method [Microsoft TV Technologies], SetCaptureToken method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, bdaiface/IBDA_ConditionalAccessEx::SetCaptureToken, mstv.ibda_conditionalaccessex_setcapturetoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

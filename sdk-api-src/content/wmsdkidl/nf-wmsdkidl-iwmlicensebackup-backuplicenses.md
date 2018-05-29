@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseBackup.BackupLicenses
 title: IWMLicenseBackup::BackupLicenses
-author: windows-driver-content
+author: windows-sdk-content
 description: The BackupLicenses method saves copies of the licenses.
 old-location: wmformat\iwmlicensebackup_backuplicenses.htm
 old-project: wmformat
 ms.assetid: 714971d7-8ccb-41fa-92b2-802a503ae228
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: BackupLicenses, BackupLicenses method [windows Media Format], BackupLicenses method [windows Media Format],IWMLicenseBackup interface, IWMLicenseBackup interface [windows Media Format],BackupLicenses method, IWMLicenseBackup.BackupLicenses, IWMLicenseBackup::BackupLicenses, IWMLicenseBackupBackupLicenses, wmformat.iwmlicensebackup_backuplicenses, wmsdkidl/IWMLicenseBackup::BackupLicenses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

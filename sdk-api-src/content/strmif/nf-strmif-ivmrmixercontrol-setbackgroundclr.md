@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRMixerControl.SetBackgroundClr
 title: IVMRMixerControl::SetBackgroundClr
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the background color on the output rectangle.
 old-location: dshow\ivmrmixercontrol_setbackgroundclr.htm
 old-project: DirectShow
 ms.assetid: f163f62a-8d2b-43af-bec1-cae67a9747b7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetBackgroundClr method, IVMRMixerControl.SetBackgroundClr, IVMRMixerControl::SetBackgroundClr, IVMRMixerControlSetBackgroundClr, SetBackgroundClr, SetBackgroundClr method [DirectShow], SetBackgroundClr method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setbackgroundclr, strmif/IVMRMixerControl::SetBackgroundClr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

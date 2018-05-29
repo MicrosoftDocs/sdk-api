@@ -1,16 +1,16 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineEME
 title: IMFMediaEngineEME
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by the media engine to add encrypted media extensions methods.
 old-location: mf\imfmediaengineeme.htm
 old-project: medfound
 ms.assetid: d03045d5-bafe-4e65-98da-e9ea8104c169
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngineEME, IMFMediaEngineEME interface [Media Foundation], IMFMediaEngineEME interface [Media Foundation],described, mf.imfmediaengineeme, mfmediaengine/IMFMediaEngineEME
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

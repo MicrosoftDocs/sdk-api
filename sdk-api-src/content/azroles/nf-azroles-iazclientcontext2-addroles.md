@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzClientContext2.AddRoles
 title: IAzClientContext2::AddRoles
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the specified array of existing IAzRole objects to the client context.
 old-location: security\iazclientcontext2_addroles.htm
 old-project: SecAuthZ
 ms.assetid: fa81e935-1207-44dd-85cb-215f754575fe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddRoles, AddRoles method [Security], AddRoles method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],AddRoles method, IAzClientContext2.AddRoles, IAzClientContext2::AddRoles, azroles/IAzClientContext2::AddRoles, security.iazclientcontext2_addroles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

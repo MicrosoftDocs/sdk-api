@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.PolyTextOutA
 title: PolyTextOutA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PolyTextOut function draws several strings using the font and text colors currently selected in the specified device context.
 old-location: gdi\polytextout.htm
 old-project: gdi
 ms.assetid: 643b4f6a-843f-4795-adc8-a90223bdc246
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PolyTextOut, PolyTextOut function [Windows GDI], PolyTextOutA, PolyTextOutW, _win32_PolyTextOut, gdi.polytextout, wingdi/PolyTextOut, wingdi/PolyTextOutA, wingdi/PolyTextOutW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

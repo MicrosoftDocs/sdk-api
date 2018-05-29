@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IAssocHandlerInvoker
 title: IAssocHandlerInvoker
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that invoke an associated application handler.
 old-location: shell\IAssocHandlerInvoker.htm
 old-project: shell
 ms.assetid: b602280e-4237-4539-9a10-cec21c65e90d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAssocHandlerInvoker, IAssocHandlerInvoker interface [Windows Shell], IAssocHandlerInvoker interface [Windows Shell],described, _shell_IAssocHandlerInvoker, shell.IAssocHandlerInvoker, shobjidl_core/IAssocHandlerInvoker
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy2.get_EnableTftpVariableWindowExtension
 title: IWdsTransportServicePolicy2::get_EnableTftpVariableWindowExtension
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives a WDSTRANSPORT_TFTP_CAPABILITY value that specifies whether variable-window extension is enabled on the TFTP server. The value enables a WDS client computer to configure the WDS TFTP server to use variable-window extensions.
 old-location: wds\iwdstransportservicepolicy2_enabletftpvariablewindowextension.htm
 old-project: Wds
 ms.assetid: 948B70F8-2871-404E-8DEC-C4CBE8F84ED7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: EnableTftpVariableWindowExtension property [Windows Deployment Services], EnableTftpVariableWindowExtension property [Windows Deployment Services],IWdsTransportServicePolicy2 interface, IWdsTransportServicePolicy2 interface [Windows Deployment Services],EnableTftpVariableWindowExtension property, IWdsTransportServicePolicy2.EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2.get_EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2::EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2::get_EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2::put_EnableTftpVariableWindowExtension, get_EnableTftpVariableWindowExtension, wds.iwdstransportservicepolicy2_enabletftpvariablewindowextension, wdstptmgmt/IWdsTransportServicePolicy2::EnableTftpVariableWindowExtension, wdstptmgmt/IWdsTransportServicePolicy2::get_EnableTftpVariableWindowExtension, wdstptmgmt/IWdsTransportServicePolicy2::put_EnableTftpVariableWindowExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

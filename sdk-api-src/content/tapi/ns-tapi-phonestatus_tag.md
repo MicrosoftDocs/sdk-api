@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.phonestatus_tag
 title: phonestatus_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The PHONESTATUS structure describes the current status of a phone device. The phoneGetStatus and TSPI_phoneGetStatus functions return this structure.
 old-location: tapi2\phonestatus_str.htm
 old-project: Tapi
 ms.assetid: 798a6c57-d3d3-4924-a925-059de350d18e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPPHONESTATUS, LPPHONESTATUS, LPPHONESTATUS structure pointer [TAPI 2.2], PHONESTATUS, PHONESTATUS structure [TAPI 2.2], _tapi2_phonestatus_str, phonestatus_tag, tapi/LPPHONESTATUS, tapi/PHONESTATUS, tapi2.phonestatus_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

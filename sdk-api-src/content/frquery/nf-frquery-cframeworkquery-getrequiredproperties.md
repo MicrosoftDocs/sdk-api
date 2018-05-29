@@ -1,16 +1,16 @@
 ---
 UID: NF:frquery.CFrameworkQuery.GetRequiredProperties
 title: CFrameworkQuery::GetRequiredProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetRequiredProperties method returns a list of all of the properties specified in the SELECT statement of a query. It returns the properties from both the SELECT and WHERE clauses.
 old-location: wmi\cframeworkquery_getrequiredproperties.htm
 old-project: WmiSdk
 ms.assetid: cf02aa01-6d56-4fd7-b8f2-67b0c855e807
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],GetRequiredProperties method, CFrameworkQuery.GetRequiredProperties, CFrameworkQuery::GetRequiredProperties, GetRequiredProperties, GetRequiredProperties method [Windows Management Instrumentation], GetRequiredProperties method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getrequiredproperties, frquery/CFrameworkQuery::GetRequiredProperties, wmi.cframeworkquery_getrequiredproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: frquery.h
 req.include-header: FwCommon.h

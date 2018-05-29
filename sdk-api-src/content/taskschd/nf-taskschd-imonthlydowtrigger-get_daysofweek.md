@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.get_DaysOfWeek
 title: IMonthlyDOWTrigger::get_DaysOfWeek
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the days of the week during which the task runs.
 old-location: taskschd\imonthlydowtrigger_daysofweek.htm
 old-project: TaskSchd
 ms.assetid: 553a0a51-fc2f-4ace-a69d-6aef4d9b06af
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DaysOfWeek property [Task Scheduler], DaysOfWeek property [Task Scheduler],IMonthlyDOWTrigger interface, IMonthlyDOWTrigger interface [Task Scheduler],DaysOfWeek property, IMonthlyDOWTrigger.DaysOfWeek, IMonthlyDOWTrigger.get_DaysOfWeek, IMonthlyDOWTrigger::DaysOfWeek, IMonthlyDOWTrigger::get_DaysOfWeek, IMonthlyDOWTrigger::put_DaysOfWeek, get_DaysOfWeek, taskschd.imonthlydowtrigger_daysofweek, taskschd/IMonthlyDOWTrigger::DaysOfWeek, taskschd/IMonthlyDOWTrigger::get_DaysOfWeek, taskschd/IMonthlyDOWTrigger::put_DaysOfWeek
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

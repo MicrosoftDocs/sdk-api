@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.CreateOleAdviseHolder
 title: CreateOleAdviseHolder function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an advise holder object for managing compound document notifications. It returns a pointer to the object's OLE implementation of the IOleAdviseHolder interface.
 old-location: com\createoleadviseholder.htm
 old-project: com
 ms.assetid: f76e074e-6814-4735-9417-d5970e73089f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateOleAdviseHolder, CreateOleAdviseHolder function [COM], _ole_CreateOleAdviseHolder, com.createoleadviseholder, ole2/CreateOleAdviseHolder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

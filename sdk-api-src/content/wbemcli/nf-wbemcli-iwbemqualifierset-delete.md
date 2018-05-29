@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemQualifierSet.Delete
 title: IWbemQualifierSet::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemQualifierSet::Delete method deletes the specified qualifier by name.
 old-location: wmi\iwbemqualifierset_delete.htm
 old-project: WmiSdk
 ms.assetid: 77e61fd1-a835-4ed7-8880-9eab65611ebc
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: Delete, Delete method [Windows Management Instrumentation], Delete method [Windows Management Instrumentation],IWbemQualifierSet interface, IWbemQualifierSet interface [Windows Management Instrumentation],Delete method, IWbemQualifierSet.Delete, IWbemQualifierSet::Delete, _hmm_iwbemqualifierset_delete, wbemcli/IWbemQualifierSet::Delete, wmi.iwbemqualifierset_delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

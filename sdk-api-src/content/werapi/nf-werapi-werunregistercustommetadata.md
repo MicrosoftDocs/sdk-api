@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerUnregisterCustomMetadata
 title: WerUnregisterCustomMetadata function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an item of app-specific metadata being collected during error reporting for the application.
 old-location: wer\werunregistercustommetadata.htm
 old-project: wer
 ms.assetid: 29DB2CE5-2A96-450B-96C8-082B786613F9
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WerUnRegisterCustomMetadata, WerUnRegisterCustomMetadata function [Windows Error Reporting], WerUnregisterCustomMetadata, wer.werunregistercustommetadata, werapi/WerUnRegisterCustomMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

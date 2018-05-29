@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcasync.RpcErrorGetNumberOfRecords
 title: RpcErrorGetNumberOfRecords function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcErrorGetNumberOfRecords function returns the number of records in the extended error information.
 old-location: rpc\rpcerrorgetnumberofrecords.htm
 old-project: Rpc
 ms.assetid: 1b498cc8-9ee5-47bd-a484-33bf1c89413c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcErrorGetNumberOfRecords, RpcErrorGetNumberOfRecords function [RPC], _rpc_rpcerrorgetnumberofrecords, rpc.rpcerrorgetnumberofrecords, rpcasync/RpcErrorGetNumberOfRecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h

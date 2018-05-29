@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.SetAt
 title: IXpsOMImageResourceCollection::SetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces an IXpsOMImageResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomimageresourcecollection_setat.htm
 old-project: printdocs
 ms.assetid: f51b487e-10b0-4539-885b-f3b9af29dc28
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMImageResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMImageResourceCollection.SetAt, IXpsOMImageResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, xps.ixpsomimageresourcecollection_setat, xpsobjectmodel/IXpsOMImageResourceCollection::SetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

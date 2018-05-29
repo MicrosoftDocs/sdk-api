@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiProvideQualifiedComponentW
 title: MsiProvideQualifiedComponentW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiProvideQualifiedComponent function returns the full component path for a qualified component and performs any necessary installation. This function prompts for source if necessary, and increments the usage count for the feature.
 old-location: setup\msiprovidequalifiedcomponent.htm
 old-project: Msi
 ms.assetid: 1d37e2c4-3ee0-42d2-95de-6e058319a4d4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: INSTALLMODE_DEFAULT, INSTALLMODE_EXISTING, INSTALLMODE_NODETECTION, INSTALLMODE_NOSOURCERESOLUTION, MsiProvideQualifiedComponent, MsiProvideQualifiedComponent function, MsiProvideQualifiedComponentA, MsiProvideQualifiedComponentW, _msi_msiprovidequalifiedcomponent, combination of the REINSTALLMODE flags, msi/MsiProvideQualifiedComponent, msi/MsiProvideQualifiedComponentA, msi/MsiProvideQualifiedComponentW, setup.msiprovidequalifiedcomponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

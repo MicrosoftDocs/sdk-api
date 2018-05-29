@@ -1,16 +1,16 @@
 ---
 UID: NF:fltuser.FilterFindFirst
 title: FilterFindFirst function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FilterFindFirst function returns information about a filter driver (minifilter driver instance or legacy filter driver) and is used to begin scanning the filters in the global list of registered filters.
 old-location: ifsk\filterfindfirst.htm
 old-project: ifsk
 ms.assetid: e6a7c5a2-838d-47b1-ab16-aa1d27806f53
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: FilterFindFirst, FilterFindFirst function [Installable File System Drivers], FltWin32ApiRef_1e28a34d-5d84-42cb-b530-24cac8c7b4dc.xml, fltuser/FilterFindFirst, ifsk.filterfindfirst
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fltuser.h
 req.include-header: FltUser.h

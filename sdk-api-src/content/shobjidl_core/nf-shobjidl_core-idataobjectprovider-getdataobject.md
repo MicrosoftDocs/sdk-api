@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDataObjectProvider.GetDataObject
 title: IDataObjectProvider::GetDataObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IDataObject representation of the current DataPackage object.
 old-location: shell\IDataObjectProvider_GetDataObject.htm
 old-project: shell
 ms.assetid: 7F3678B2-4B18-4344-ADEE-F0D0A6CE635E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDataObject, GetDataObject method [Windows Shell], GetDataObject method [Windows Shell],IDataObjectProvider interface, IDataObjectProvider interface [Windows Shell],GetDataObject method, IDataObjectProvider.GetDataObject, IDataObjectProvider::GetDataObject, shell.IDataObjectProvider_GetDataObject, shobjidl_core/IDataObjectProvider::GetDataObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

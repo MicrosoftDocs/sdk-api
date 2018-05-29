@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.DeleteIpForwardEntry
 title: DeleteIpForwardEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an existing route in the local computer's IPv4 routing table.
 old-location: iphlp\deleteipforwardentry.htm
 old-project: IpHlp
 ms.assetid: 70bcfd71-34dd-465d-890b-1dd829632fb0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DeleteIpForwardEntry, DeleteIpForwardEntry function [IP Helper], _iphlp_deleteipforwardentry, iphlp.deleteipforwardentry, iphlpapi/DeleteIpForwardEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

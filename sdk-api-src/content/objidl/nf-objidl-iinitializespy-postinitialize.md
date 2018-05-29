@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IInitializeSpy.PostInitialize
 title: IInitializeSpy::PostInitialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs initialization steps required after calling the CoInitializeEx function.
 old-location: com\iinitializespy_postinitialize.htm
 old-project: com
 ms.assetid: bdef4089-93e6-4845-8dcc-1150d7a0d033
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IInitializeSpy interface [COM],PostInitialize method, IInitializeSpy.PostInitialize, IInitializeSpy::PostInitialize, PostInitialize, PostInitialize method [COM], PostInitialize method [COM],IInitializeSpy interface, _com_iinitializespy_postinitialize, com.iinitializespy_postinitialize, objidl/IInitializeSpy::PostInitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

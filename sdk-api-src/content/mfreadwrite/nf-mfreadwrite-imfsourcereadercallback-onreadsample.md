@@ -1,16 +1,16 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback.OnReadSample
 title: IMFSourceReaderCallback::OnReadSample
-author: windows-driver-content
+author: windows-sdk-content
 description: Called when the IMFSourceReader::ReadSample method completes.
 old-location: mf\imfsourcereadercallback_onreadsample.htm
 old-project: medfound
 ms.assetid: 1f334b49-d297-478d-a037-2fc53a75ed52
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSourceReaderCallback interface [Media Foundation],OnReadSample method, IMFSourceReaderCallback.OnReadSample, IMFSourceReaderCallback::OnReadSample, OnReadSample, OnReadSample method [Media Foundation], OnReadSample method [Media Foundation],IMFSourceReaderCallback interface, mf.imfsourcereadercallback_onreadsample, mfreadwrite/IMFSourceReaderCallback::OnReadSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfreadwrite.h
 req.include-header: 

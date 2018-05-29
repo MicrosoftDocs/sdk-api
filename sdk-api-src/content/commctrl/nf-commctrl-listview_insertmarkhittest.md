@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_InsertMarkHitTest
 title: ListView_InsertMarkHitTest macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the insertion point closest to a specified point. You can use this macro or send the LVM_INSERTMARKHITTEST message explicitly.
 old-location: controls\ListView_InsertMarkHitTest.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_insertmarkhittest.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_InsertMarkHitTest, ListView_InsertMarkHitTest macro [Windows Controls], _win32_ListView_InsertMarkHitTest, _win32_ListView_InsertMarkHitTest_cpp, commctrl/ListView_InsertMarkHitTest, controls.ListView_InsertMarkHitTest, controls._win32_ListView_InsertMarkHitTest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

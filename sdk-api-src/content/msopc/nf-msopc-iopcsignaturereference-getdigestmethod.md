@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetDigestMethod
 title: IOpcSignatureReference::GetDigestMethod
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the digest method to use on the referenced XML element, when the element is signed.
 old-location: opc\iopcsignaturereference_getdigestmethod.htm
 old-project: OPC
 ms.assetid: 438adeba-bf5f-4f87-ab4c-c370e58565ce
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetDigestMethod, GetDigestMethod method [Open Packaging Conventions], GetDigestMethod method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetDigestMethod method, IOpcSignatureReference.GetDigestMethod, IOpcSignatureReference::GetDigestMethod, msopc/IOpcSignatureReference::GetDigestMethod, opc.iopcsignaturereference_getdigestmethod
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

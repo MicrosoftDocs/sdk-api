@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpWebSocketQueryCloseStatus
 title: WinHttpWebSocketQueryCloseStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the close status sent by a server.
 old-location: http\winhttpwebsocketqueryclosestatus.htm
 old-project: WinHttp
 ms.assetid: 9b439be5-9f3f-43c7-8800-224b6750a6c1
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WinHttpWebSocketQueryCloseStatus, WinHttpWebSocketQueryCloseStatus function [WinHTTP], http.winhttpwebsocketqueryclosestatus, winhttp/WinHttpWebSocketQueryCloseStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

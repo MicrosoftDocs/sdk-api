@@ -1,16 +1,16 @@
 ---
 UID: NE:virtdisk._EXPAND_VIRTUAL_DISK_FLAG
 title: "_EXPAND_VIRTUAL_DISK_FLAG"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains virtual hard disk (VHD) expand request flags.
 old-location: vhd\expand_virtual_disk_flag.htm
 old-project: VStor
 ms.assetid: e117f103-5136-4dbb-87a0-9fb41d43a924
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: EXPAND_VIRTUAL_DISK_FLAG, EXPAND_VIRTUAL_DISK_FLAG enumeration [VHD], EXPAND_VIRTUAL_DISK_FLAG_NONE, _EXPAND_VIRTUAL_DISK_FLAG, vhd.expand_virtual_disk_flag, virtdisk/EXPAND_VIRTUAL_DISK_FLAG, virtdisk/EXPAND_VIRTUAL_DISK_FLAG_NONE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: Windows.h

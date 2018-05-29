@@ -1,16 +1,16 @@
 ---
 UID: NN:msrdc.IRdcFileWriter
 title: IRdcFileWriter
-author: windows-driver-content
+author: windows-sdk-content
 description: Abstract interface to read from and write to a file.
 old-location: rdc\irdcfilewriter.htm
 old-project: Rdc
 ms.assetid: 8b6ac8d0-37fd-4bd3-aa44-5b57f546364d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IRdcFileWriter, IRdcFileWriter interface [Remote Differential Compression], IRdcFileWriter interface [Remote Differential Compression],described, fs.irdcfilewriter, msrdc/IRdcFileWriter, rdc.irdcfilewriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msrdc.h
 req.include-header: 

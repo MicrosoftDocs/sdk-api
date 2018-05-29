@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIFileEndRecord
 title: AVIFileEndRecord function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIFileEndRecord function marks the end of a record when writing an interleaved file that uses a 1:1 interleave factor of video to audio data. (Each frame of video is interspersed with an equivalent amount of audio data.).
 old-location: multimedia\avifileendrecord.htm
 old-project: Multimedia
 ms.assetid: 0f04c384-7702-43d4-9c7e-e9e74d6f2796
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIFileEndRecord, AVIFileEndRecord function [Windows Multimedia], _win32_AVIFileEndRecord, multimedia.avifileendrecord, vfw/AVIFileEndRecord
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

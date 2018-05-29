@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.PtInRect
 title: PtInRect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The PtInRect function determines whether the specified point lies within the specified rectangle.
 old-location: gdi\ptinrect.htm
 old-project: gdi
 ms.assetid: 8a47a238-082c-44b8-a270-5ebb4d3d9fc8
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PtInRect, PtInRect function [Windows GDI], _win32_PtInRect, gdi.ptinrect, winuser/PtInRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

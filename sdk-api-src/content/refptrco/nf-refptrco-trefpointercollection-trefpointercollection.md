@@ -1,16 +1,16 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.TRefPointerCollection
 title: TRefPointerCollection::TRefPointerCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: This constructor initializes a new TRefPointerCollection object.
 old-location: wmi\trefpointercollection_trefpointercollection.htm
 old-project: WmiSdk
 ms.assetid: f4fcfe31-49ce-434c-a6e4-cf60e0a435e6
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: TRefPointerCollection, TRefPointerCollection interface [Windows Management Instrumentation],TRefPointerCollection method, TRefPointerCollection method [Windows Management Instrumentation], TRefPointerCollection method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection.TRefPointerCollection, TRefPointerCollection::TRefPointerCollection, _hmm_trefpointercollection_trefpointercollection, refptrco/TRefPointerCollection::TRefPointerCollection, wmi.trefpointercollection_trefpointercollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: refptrco.h
 req.include-header: FwCommon.h

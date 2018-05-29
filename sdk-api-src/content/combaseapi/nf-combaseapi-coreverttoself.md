@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoRevertToSelf
 title: CoRevertToSelf function
-author: windows-driver-content
+author: windows-sdk-content
 description: Restores the authentication information on a thread of execution.
 old-location: com\coreverttoself.htm
 old-project: com
 ms.assetid: 8061ddbe-ed21-47f7-9ac4-b3ec910ff89d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoRevertToSelf, CoRevertToSelf function [COM], _com_CoRevertToSelf, com.coreverttoself, combaseapi/CoRevertToSelf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

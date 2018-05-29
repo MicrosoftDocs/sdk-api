@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.GetCountOfTableDescriptors
 title: IDVB_NIT::GetCountOfTableDescriptors
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit_getcountoftabledescriptors.htm
 old-project: mstv
 ms.assetid: ec87b75b-3eae-4227-bbd5-0c5df24aa985
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IDVB_NIT.GetCountOfTableDescriptors, IDVB_NIT::GetCountOfTableDescriptors, IDVB_NITGetCountOfTableDescriptors, dvbsiparser/IDVB_NIT::GetCountOfTableDescriptors, mstv.idvb_nit_getcountoftabledescriptors
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

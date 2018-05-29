@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.DrvDestroyFont
 title: DrvDestroyFont function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrvDestroyFont function notifies the driver that a font realization is no longer needed and that the driver can now free any associated data structures it has allocated.
 old-location: display\drvdestroyfont.htm
 old-project: display
 ms.assetid: aee3efbc-715d-42f2-a718-00057720175a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DrvDestroyFont, DrvDestroyFont function [Display Devices], ddifncs_a73e0b14-897a-423d-a9db-8c4ba831a36b.xml, display.drvdestroyfont, winddi/DrvDestroyFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

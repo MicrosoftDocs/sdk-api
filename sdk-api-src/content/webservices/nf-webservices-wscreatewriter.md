@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsCreateWriter
 title: WsCreateWriter function
-author: windows-driver-content
+author: windows-sdk-content
 description: creates an XML Writer with the specified properties.
 old-location: wsw\wscreatewriter.htm
 old-project: wsw
 ms.assetid: 5b4bb009-764e-4892-903a-5939f5570016
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsCreateWriter, WsCreateWriter function [Web Services for Windows], webservices/WsCreateWriter, wsw.wscreatewriter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

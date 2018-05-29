@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPObjectInfo.SetPlayOffset
 title: IMDSPObjectInfo::SetPlayOffset
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetPlayOffset method sets the play offset of the object, in the units pertinent to the object. This specifies the starting point for the next invocation of IMDSPDeviceControl::Play.
 old-location: wmdm\imdspobjectinfo_setplayoffset.htm
 old-project: WMDM
 ms.assetid: f61ce3b5-3cd9-41e6-9a29-42b9832ec55a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMDSPObjectInfo interface [windows Media Device Manager],SetPlayOffset method, IMDSPObjectInfo.SetPlayOffset, IMDSPObjectInfo::SetPlayOffset, IMDSPObjectInfoSetPlayOffset, SetPlayOffset, SetPlayOffset method [windows Media Device Manager], SetPlayOffset method [windows Media Device Manager],IMDSPObjectInfo interface, mswmdm/IMDSPObjectInfo::SetPlayOffset, wmdm.imdspobjectinfo_setplayoffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

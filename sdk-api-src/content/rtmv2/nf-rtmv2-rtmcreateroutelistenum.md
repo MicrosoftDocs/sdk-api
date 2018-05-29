@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmCreateRouteListEnum
 title: RtmCreateRouteListEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmCreateRouteListEnum function creates an enumeration of routes on the specified route list.
 old-location: rras\rtmcreateroutelistenum.htm
 old-project: RRAS
 ms.assetid: 107fc253-58b3-479c-9cda-2c3b322e76f8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmCreateRouteListEnum, RtmCreateRouteListEnum function [RAS], _rtmv2ref_rtmcreateroutelistenum, rras.rtmcreateroutelistenum, rtmv2/RtmCreateRouteListEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

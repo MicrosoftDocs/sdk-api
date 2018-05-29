@@ -1,16 +1,16 @@
 ---
 UID: NE:resapi.RESDLL_CONTEXT_OPERATION_TYPE
 title: RESDLL_CONTEXT_OPERATION_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the various types of context operations for the GET_OPERATION_CONTEXT_PARAMS structure.
 old-location: mscs\resdll_context_operation_type.htm
 old-project: MsCS
 ms.assetid: 8C074E15-4060-4AC7-BB59-959854102EE0
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PRESDLL_CONTEXT_OPERATION_TYPE, PRESDLL_CONTEXT_OPERATION_TYPE, PRESDLL_CONTEXT_OPERATION_TYPE enumeration pointer [Failover Cluster], RESDLL_CONTEXT_OPERATION_TYPE, RESDLL_CONTEXT_OPERATION_TYPE enumeration [Failover Cluster], ResdllContextOperationTypeDrain, ResdllContextOperationTypeDrainFailure, ResdllContextOperationTypeEmbeddedFailure, ResdllContextOperationTypeFailback, ResdllContextOperationTypeNetworkDisconnect, ResdllContextOperationTypeNetworkDisconnectMoveRetry, ResdllContextOperationTypePreemption, mscs.resdll_context_operation_type, resapi/PRESDLL_CONTEXT_OPERATION_TYPE, resapi/RESDLL_CONTEXT_OPERATION_TYPE, resapi/ResdllContextOperationTypeDrain, resapi/ResdllContextOperationTypeDrainFailure, resapi/ResdllContextOperationTypeEmbeddedFailure, resapi/ResdllContextOperationTypeFailback, resapi/ResdllContextOperationTypeNetworkDisconnect, resapi/ResdllContextOperationTypeNetworkDisconnectMoveRetry, resapi/ResdllContextOperationTypePreemption"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: resapi.h
 req.include-header: 

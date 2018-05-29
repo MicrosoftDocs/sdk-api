@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.ISyncChange
 title: ISyncChange
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a change to an item.
 old-location: winsync\isyncchange.htm
 old-project: winsync
 ms.assetid: 0cd29977-8d02-4a1e-b63f-783cc10021ee
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISyncChange, ISyncChange interface [Windows Sync], ISyncChange interface [Windows Sync],described, winsync.isyncchange, winsync/ISyncChange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

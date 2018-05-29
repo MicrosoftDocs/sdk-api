@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPSettings2
 title: IWMPSettings2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPSettings2 interface provides methods that supplement the IWMPSettings interface.
 old-location: wmp\iwmpsettings2.htm
 old-project: WMP
 ms.assetid: 0fb0c7be-015e-4081-8467-c382e0858195
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPSettings2, IWMPSettings2 interface [Windows Media Player], IWMPSettings2 interface [Windows Media Player],described, IWMPSettings2Interface, wmp.iwmpsettings2, wmp/IWMPSettings2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

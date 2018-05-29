@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.RpcUserFree
 title: RpcUserFree function
-author: windows-driver-content
+author: windows-sdk-content
 description: RpcUserFree may be altered or unavailable.
 old-location: rpc\rpcuserfree.htm
 old-project: Rpc
 ms.assetid: A10E3C20-DB43-4F76-BF4B-87F4126BAF1A
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcUserFree, RpcUserFree function [RPC], rpc.rpcuserfree, rpcndr/RpcUserFree
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: Rpc.h

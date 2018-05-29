@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFilesEnumerator.MoveNext
 title: IAppxBlockMapFilesEnumerator::MoveNext
-author: windows-driver-content
+author: windows-sdk-content
 description: Advances the position of the enumerator to the next file.
 old-location: appxpkg\iappxblockmapfilesenumerator_movenext.htm
 old-project: appxpkg
 ms.assetid: C50F7801-4C33-46EA-989C-259BA407C96B
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxBlockMapFilesEnumerator interface [App packaging and management],MoveNext method, IAppxBlockMapFilesEnumerator.MoveNext, IAppxBlockMapFilesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxBlockMapFilesEnumerator interface, appxpackaging/IAppxBlockMapFilesEnumerator::MoveNext, appxpkg.iappxblockmapfilesenumerator_movenext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

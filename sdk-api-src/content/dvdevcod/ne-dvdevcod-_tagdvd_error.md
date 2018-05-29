@@ -1,16 +1,16 @@
 ---
 UID: NE:dvdevcod._tagDVD_ERROR
 title: "_tagDVD_ERROR"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DVD_ERROR enumeration value defines DVD error conditions.
 old-location: dshow\dvd_error.htm
 old-project: DirectShow
 ms.assetid: 7059c77f-2b64-40bb-8962-d9bd90da5e90
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_ERROR, DVD_ERROR , DVD_ERROR enumeration [DirectShow], DVD_ERROREnumeration, DVD_ERROR_CopyProtectFail, DVD_ERROR_CopyProtectOutputFail, DVD_ERROR_CopyProtectOutputNotSupported, DVD_ERROR_IncompatibleDiscAndDecoderRegions, DVD_ERROR_IncompatibleSystemAndDecoderRegions, DVD_ERROR_InvalidDVD1_0Disc, DVD_ERROR_InvalidDiscRegion, DVD_ERROR_LowParentalLevel, DVD_ERROR_MacrovisionFail, DVD_ERROR_Unexpected, _tagDVD_ERROR, dshow.dvd_error, dvdevcod/DVD_ERROR, dvdevcod/DVD_ERROR_CopyProtectFail, dvdevcod/DVD_ERROR_CopyProtectOutputFail, dvdevcod/DVD_ERROR_CopyProtectOutputNotSupported, dvdevcod/DVD_ERROR_IncompatibleDiscAndDecoderRegions, dvdevcod/DVD_ERROR_IncompatibleSystemAndDecoderRegions, dvdevcod/DVD_ERROR_InvalidDVD1_0Disc, dvdevcod/DVD_ERROR_InvalidDiscRegion, dvdevcod/DVD_ERROR_LowParentalLevel, dvdevcod/DVD_ERROR_MacrovisionFail, dvdevcod/DVD_ERROR_Unexpected
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dvdevcod.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.ISurrogateService
 title: ISurrogateService
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to initialize, launch, and release a COM+ application. You can also refresh the catalog and shut down the process.
 old-location: com\isurrogateservice.htm
 old-project: com
 ms.assetid: 01773aa6-3eb5-43dd-8a10-d1351a07fe1f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISurrogateService, ISurrogateService interface [COM], ISurrogateService interface [COM],described, _com_isurrogateservice, com.isurrogateservice, objidl/ISurrogateService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

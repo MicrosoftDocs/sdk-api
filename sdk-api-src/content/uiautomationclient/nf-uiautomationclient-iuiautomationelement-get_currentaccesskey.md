@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentAccessKey
 title: IUIAutomationElement::get_CurrentAccessKey
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the access key character for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentAccessKey.htm
 old-project: WinAuto
 ms.assetid: 0da10db5-a978-4575-86c4-12152691468f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentAccessKey property [Windows Accessibility], CurrentAccessKey property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentAccessKey property, IUIAutomationElement.CurrentAccessKey, IUIAutomationElement.get_CurrentAccessKey, IUIAutomationElement::CurrentAccessKey, IUIAutomationElement::get_CurrentAccessKey, get_CurrentAccessKey, uiauto.uiauto_IUIAutomationElement_CurrentAccessKey, uiauto_IUIAutomationElement_CurrentAccessKey, uiautomationclient/IUIAutomationElement::CurrentAccessKey, uiautomationclient/IUIAutomationElement::get_CurrentAccessKey, winauto.uiauto_IUIAutomationElement_CurrentAccessKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

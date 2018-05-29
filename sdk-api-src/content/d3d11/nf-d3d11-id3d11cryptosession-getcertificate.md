@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11CryptoSession.GetCertificate
 title: ID3D11CryptoSession::GetCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the driver's certificate chain.
 old-location: mf\id3d11cryptosession_getcertificate.htm
 old-project: medfound
 ms.assetid: D6407570-62C0-45D0-9BCB-41EA007D86A6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],ID3D11CryptoSession interface, ID3D11CryptoSession interface [Media Foundation],GetCertificate method, ID3D11CryptoSession.GetCertificate, ID3D11CryptoSession::GetCertificate, d3d11/ID3D11CryptoSession::GetCertificate, mf.id3d11cryptosession_getcertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

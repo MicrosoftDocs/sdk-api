@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetUserCredentials
 title: IWRdsProtocolConnection::GetUserCredentials
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns user credentials.
 old-location: termserv\iwrdsprotocolconnection_getusercredentials.htm
 old-project: TermServ
 ms.assetid: dcd8de76-e260-4b3b-98ca-4f486b3b6635
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetUserCredentials, GetUserCredentials method [Remote Desktop Services], GetUserCredentials method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetUserCredentials method, IWRdsProtocolConnection.GetUserCredentials, IWRdsProtocolConnection::GetUserCredentials, termserv.iwrdsprotocolconnection_getusercredentials, wtsprotocol/IWRdsProtocolConnection::GetUserCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

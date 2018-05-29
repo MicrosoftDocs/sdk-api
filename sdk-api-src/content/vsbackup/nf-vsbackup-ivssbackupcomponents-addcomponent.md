@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AddComponent
 title: IVssBackupComponents::AddComponent
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to explicitly add to the backup set.
 old-location: base\ivssbackupcomponents_addcomponent.htm
 old-project: VSS
 ms.assetid: 50cb0b16-9ed3-4496-962a-9c845c10986c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddComponent, AddComponent method [VSS], AddComponent method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddComponent method, IVssBackupComponents.AddComponent, IVssBackupComponents::AddComponent, _win32_ivssbackupcomponents_addcomponent, base.ivssbackupcomponents_addcomponent, vsbackup/IVssBackupComponents::AddComponent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

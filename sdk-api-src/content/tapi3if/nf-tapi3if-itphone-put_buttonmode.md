@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPhone.put_ButtonMode
 title: ITPhone::put_ButtonMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_ButtonMode method sets the button mode.
 old-location: tapi3\itphone_put_buttonmode.htm
 old-project: Tapi
 ms.assetid: d2287c86-5884-4890-956c-fcc26c426cd3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_ButtonMode method, ITPhone.put_ButtonMode, ITPhone::put_ButtonMode, _tapi3_itphone_put_buttonmode, put_ButtonMode, put_ButtonMode method [TAPI 2.2], put_ButtonMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_buttonmode, tapi3if/ITPhone::put_ButtonMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

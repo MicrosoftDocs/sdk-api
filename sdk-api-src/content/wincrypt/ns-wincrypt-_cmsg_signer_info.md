@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CMSG_SIGNER_INFO
 title: "_CMSG_SIGNER_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CMSG_SIGNER_INFO structure contains the content of the PKCS #7 defined SignerInfo in signed messages. In decoding a received message, CryptMsgGetParam is called for each signer to get a CMSG_SIGNER_INFO structure.
 old-location: security\cmsg_signer_info.htm
 old-project: SecCrypto
 ms.assetid: eae631d2-5e5f-4964-b079-9692831b34fc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCMSG_SIGNER_INFO, CMSG_SIGNER_INFO, CMSG_SIGNER_INFO structure [Security], PCMSG_SIGNER_INFO, PCMSG_SIGNER_INFO structure pointer [Security], _CMSG_SIGNER_INFO, _crypto2_cmsg_signer_info, security.cmsg_signer_info, wincrypt/CMSG_SIGNER_INFO, wincrypt/PCMSG_SIGNER_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetDpiX
 title: Graphics::GetDpiX
-author: windows-driver-content
+author: windows-sdk-content
 description: The Graphics::GetDpiX method gets the horizontal resolution, in dots per inch, of the display device associated with this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetDpiX_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getdpix.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDpiX, GetDpiX method [GDI+], GetDpiX method [GDI+],Graphics class, Graphics class [GDI+],GetDpiX method, Graphics.GetDpiX, Graphics::GetDpiX, _gdiplus_CLASS_Graphics_GetDpiX_, gdiplus._gdiplus_CLASS_Graphics_GetDpiX_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsDiskPartitionMF.FormatPartitionEx
 title: IVdsDiskPartitionMF::FormatPartitionEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats an existing OEM, ESP, or unknown partition.
 old-location: base\ivdsdiskpartitionmf_formatpartitionex.htm
 old-project: VDS
 ms.assetid: 82ab6b70-bfa3-4246-aa82-05c6c3b3cbe9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: FormatPartitionEx, FormatPartitionEx method, FormatPartitionEx method,IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,FormatPartitionEx method, IVdsDiskPartitionMF.FormatPartitionEx, IVdsDiskPartitionMF::FormatPartitionEx, base.ivdsdiskpartitionmf_formatpartitionex, vds/IVdsDiskPartitionMF::FormatPartitionEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntquery.CIState
 title: CIState function
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries the state of the selected catalog.
 old-location: indexsrv\cistate.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9syt.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CIState, CIState function [Indexing Service], _idxs_CIState, indexsrv.cistate, ntquery/CIState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

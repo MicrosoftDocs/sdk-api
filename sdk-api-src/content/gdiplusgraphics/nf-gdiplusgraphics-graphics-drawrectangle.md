@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawRectangle
 title: Graphics::DrawRectangle
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the DrawRectangle methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawRectangle_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawrectanglemethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DrawRectangle, DrawRectangle methods [GDI+], Graphics.DrawRectangle, Graphics::DrawRectangle, _gdiplus_CLASS_Graphics_DrawRectangle_Methods, gdiplus._gdiplus_CLASS_Graphics_DrawRectangle_Methods, gdiplusgraphics/DrawRectangle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusgraphics.h
 req.include-header: 

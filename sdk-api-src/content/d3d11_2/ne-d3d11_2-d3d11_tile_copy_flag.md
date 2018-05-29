@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11_2.D3D11_TILE_COPY_FLAG
 title: D3D11_TILE_COPY_FLAG
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies how to copy a tile.
 old-location: direct3d11\d3d11_tile_copy_flags.htm
 old-project: direct3d11
 ms.assetid: 1ACBABF2-A0C5-419B-9723-BD0FEEEDF478
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_TILE_COPY_FLAG, D3D11_TILE_COPY_FLAG enumeration [Direct3D 11], D3D11_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, D3D11_TILE_COPY_NO_OVERWRITE, D3D11_TILE_COPY_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, d3d11_2/D3D11_TILE_COPY_FLAG, d3d11_2/D3D11_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, d3d11_2/D3D11_TILE_COPY_NO_OVERWRITE, d3d11_2/D3D11_TILE_COPY_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, direct3d11.d3d11_tile_copy_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11_2.h
 req.include-header: 

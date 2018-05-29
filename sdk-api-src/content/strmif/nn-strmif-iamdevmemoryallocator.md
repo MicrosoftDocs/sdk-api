@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMDevMemoryAllocator
 title: IAMDevMemoryAllocator
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface is no longer supported by the AVI Splitter. Note  This interface was defined to support older hardware decoders that required AVI files to be read into directly hardware memory.
 old-location: dshow\iamdevmemoryallocator.htm
 old-project: DirectShow
 ms.assetid: bab1e582-928a-408b-a9c5-8e9827e9928b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMDevMemoryAllocator, IAMDevMemoryAllocator interface [DirectShow], IAMDevMemoryAllocator interface [DirectShow],described, IAMDevMemoryAllocatorInterface, dshow.iamdevmemoryallocator, strmif/IAMDevMemoryAllocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 

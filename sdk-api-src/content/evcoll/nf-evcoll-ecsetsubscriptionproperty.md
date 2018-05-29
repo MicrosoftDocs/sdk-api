@@ -1,16 +1,16 @@
 ---
 UID: NF:evcoll.EcSetSubscriptionProperty
 title: EcSetSubscriptionProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets new values or updates existing values of a subscription.
 old-location: wec\ecsetsubscriptionproperty.htm
 old-project: WEC
 ms.assetid: acba54af-d09d-4de9-bd5d-e7441bf56b9b
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EcSetSubscriptionProperty, EcSetSubscriptionProperty function, evcoll/EcSetSubscriptionProperty, wec.ecsetsubscriptionproperty, wes.ecsetsubscriptionproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 

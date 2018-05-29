@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.GetIfEntry
 title: GetIfEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetIfEntry function retrieves information for the specified interface on the local computer.
 old-location: iphlp\getifentry.htm
 old-project: IpHlp
 ms.assetid: bf16588d-3756-469e-afa2-e2e3dd537047
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetIfEntry, GetIfEntry function [IP Helper], _iphlp_getifentry, iphlp.getifentry, iphlpapi/GetIfEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

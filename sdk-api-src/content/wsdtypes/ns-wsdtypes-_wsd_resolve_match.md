@@ -1,16 +1,16 @@
 ---
 UID: NS:wsdtypes._WSD_RESOLVE_MATCH
 title: "_WSD_RESOLVE_MATCH"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a ResolveMatch message.
 old-location: ncd\wsd_resolve_match_struct.htm
 old-project: WsdApi
 ms.assetid: eabcc3af-282c-4299-8061-6cddf14eca6b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSD_RESOLVE_MATCH, WSD_RESOLVE_MATCH structure, _WSD_RESOLVE_MATCH, ncd.wsd_resolve_match_struct, wsdtypes/WSD_RESOLVE_MATCH
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.stopScan
 title: IWMPFolderMonitorServices::stopScan
-author: windows-driver-content
+author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The stopScan method stops the scanning operation.
 old-location: wmp\iwmpfoldermonitorservices_stopscan.htm
 old-project: WMP
 ms.assetid: 9b85cefb-3118-4e7f-b6f7-2f387057895e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],stopScan method, IWMPFolderMonitorServices.stopScan, IWMPFolderMonitorServices::stopScan, IWMPFolderMonitorServicesstopScan, stopScan, stopScan method [Windows Media Player], stopScan method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_stopscan, wmp/IWMPFolderMonitorServices::stopScan
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

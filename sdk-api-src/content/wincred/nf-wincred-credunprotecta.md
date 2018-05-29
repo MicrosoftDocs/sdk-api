@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredUnprotectA
 title: CredUnprotectA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrypts credentials that were previously encrypted by using the CredProtect function.
 old-location: security\credunprotect.htm
 old-project: SecAuthN
 ms.assetid: 7a22fb2b-edfc-45f2-b2d2-729f3761584d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CredUnprotect, CredUnprotect function [Security], CredUnprotectA, CredUnprotectW, security.credunprotect, wincred/CredUnprotect, wincred/CredUnprotectA, wincred/CredUnprotectW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

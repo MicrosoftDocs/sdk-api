@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetBrowserIndex
 title: IBrowserService::GetBrowserIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Retrieves the index of the browser in the window hierarchy.
 old-location: shell\IBrowserService_GetBrowserIndex.htm
 old-project: shell
 ms.assetid: 293d7641-7858-4aa9-983c-6b25a05930d9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetBrowserIndex, GetBrowserIndex method [Windows Shell], GetBrowserIndex method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetBrowserIndex method, IBrowserService.GetBrowserIndex, IBrowserService::GetBrowserIndex, shdeprecated/IBrowserService::GetBrowserIndex, shell.IBrowserService_GetBrowserIndex, zone_IBrowserService_GetBrowserIndex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

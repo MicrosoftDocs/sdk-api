@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.PifMgr_GetProperties
 title: PifMgr_GetProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a specified block of data from a .pif file.
 old-location: properties\PifMgr_GetProperties.htm
 old-project: properties
 ms.assetid: 62933ddf-9b0d-427a-8b5f-a0117a3b4885
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PifMgr_GetProperties, PifMgr_GetProperties function [Windows Properties], _win32_PifMgr_GetProperties, properties.PifMgr_GetProperties, shell.PifMgr_GetProperties, shlobj_core/PifMgr_GetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: 

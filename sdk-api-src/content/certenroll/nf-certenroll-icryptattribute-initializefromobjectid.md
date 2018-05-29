@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICryptAttribute.InitializeFromObjectId
 title: ICryptAttribute::InitializeFromObjectId
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a cryptographic attribute by using an object identifier.
 old-location: security\icryptattribute_initializefromobjectid_method.htm
 old-project: SecCertEnroll
 ms.assetid: 6825cca7-c3a5-46a8-9be5-851344629929
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICryptAttribute interface [Security],InitializeFromObjectId method, ICryptAttribute.InitializeFromObjectId, ICryptAttribute::InitializeFromObjectId, InitializeFromObjectId, InitializeFromObjectId method [Security], InitializeFromObjectId method [Security],ICryptAttribute interface, certenroll/ICryptAttribute::InitializeFromObjectId, security.icryptattribute_initializefromobjectid_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

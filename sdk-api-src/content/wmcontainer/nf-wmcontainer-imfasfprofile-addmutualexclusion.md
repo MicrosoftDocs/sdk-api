@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.AddMutualExclusion
 title: IMFASFProfile::AddMutualExclusion
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a configured Advanced Systems Format (ASF) mutual exclusion object to the profile.
 old-location: mf\imfasfprofile_addmutualexclusion.htm
 old-project: medfound
 ms.assetid: d9069feb-7d39-4b40-b95e-0112d959bbae
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddMutualExclusion, AddMutualExclusion method [Media Foundation], AddMutualExclusion method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],AddMutualExclusion method, IMFASFProfile.AddMutualExclusion, IMFASFProfile::AddMutualExclusion, d9069feb-7d39-4b40-b95e-0112d959bbae, mf.imfasfprofile_addmutualexclusion, wmcontainer/IMFASFProfile::AddMutualExclusion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

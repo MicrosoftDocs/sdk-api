@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader5.GetMainPackageDependencies
 title: IAppxManifestReader5::GetMainPackageDependencies
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a main package dependencies enumerator.
 old-location: appxpkg\iappxmanifestreader5_getmainpackagedependencies.htm
 old-project: appxpkg
 ms.assetid: E89A6A43-28F6-4A9A-A8B7-3450B68E3DB1
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetMainPackageDependencies, GetMainPackageDependencies method [App packaging and management], GetMainPackageDependencies method [App packaging and management],IAppxManifestReader5 interface, IAppxManifestReader5 interface [App packaging and management],GetMainPackageDependencies method, IAppxManifestReader5.GetMainPackageDependencies, IAppxManifestReader5::GetMainPackageDependencies, appxpackaging/IAppxManifestReader5::GetMainPackageDependencies, appxpkg.iappxmanifestreader5_getmainpackagedependencies
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.Empty
 title: CHString::Empty
-author: windows-driver-content
+author: windows-sdk-content
 description: The Empty method makes the CHString object an empty string and frees memory as appropriate.
 old-location: wmi\chstring_empty.htm
 old-project: WmiSdk
 ms.assetid: 837344de-d8dd-45a8-8d43-09d926f51ff9
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?Empty@CHString@@QAEXXZ, ?Empty@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],Empty method, CHString.Empty, CHString::Empty, Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation],CHString interface, _hmm_chstring_empty, chstring/CHString::Empty, wmi.chstring_empty"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

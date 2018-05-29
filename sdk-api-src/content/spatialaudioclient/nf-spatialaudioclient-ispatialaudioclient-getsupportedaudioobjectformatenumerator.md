@@ -1,16 +1,16 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.GetSupportedAudioObjectFormatEnumerator
 title: ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IAudioFormatEnumerator that contains all supported audio formats for spatial audio objects, the first item in the list represents the most preferable format.
 old-location: coreaudio\ispatialaudioclient_getsupportedaudioobjectformatenumerator.htm
 old-project: CoreAudio
 ms.assetid: CB152D8C-DE3A-4224-A6CC-DF1BFF1A3ABA
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSupportedAudioObjectFormatEnumerator, GetSupportedAudioObjectFormatEnumerator method [Core Audio], GetSupportedAudioObjectFormatEnumerator method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],GetSupportedAudioObjectFormatEnumerator method, ISpatialAudioClient.GetSupportedAudioObjectFormatEnumerator, ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator, coreaudio.ispatialaudioclient_getsupportedaudioobjectformatenumerator, spatialaudioclient/ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spatialaudioclient.h
 req.include-header: 

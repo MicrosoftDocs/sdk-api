@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetCompressedFileSizeTransactedW
 title: GetCompressedFileSizeTransactedW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the actual number of bytes of disk storage used to store a specified file as a transacted operation.
 old-location: fs\getcompressedfilesizetransacted.htm
 old-project: FileIO
 ms.assetid: df062eb4-70e1-4ee7-b489-624938af7834
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCompressedFileSizeTransacted, GetCompressedFileSizeTransacted function [Files], GetCompressedFileSizeTransactedA, GetCompressedFileSizeTransactedW, fs.getcompressedfilesizetransacted, winbase/GetCompressedFileSizeTransacted, winbase/GetCompressedFileSizeTransactedA, winbase/GetCompressedFileSizeTransactedW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

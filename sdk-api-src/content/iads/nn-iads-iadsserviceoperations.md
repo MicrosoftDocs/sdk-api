@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsServiceOperations
 title: IADsServiceOperations
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsServiceOperations interface is a dual interface that inherits from IADs.
 old-location: adsi\iadsserviceoperations.htm
 old-project: ADSI
 ms.assetid: f2459ca2-8a14-4343-bec6-ef3775dbf415
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsServiceOperations, IADsServiceOperations interface [ADSI], IADsServiceOperations interface [ADSI],described, _ds_iadsserviceoperations, adsi.iadsserviceoperations, iads/IADsServiceOperations
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

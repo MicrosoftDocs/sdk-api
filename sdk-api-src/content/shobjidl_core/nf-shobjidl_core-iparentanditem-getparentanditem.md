@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IParentAndItem.GetParentAndItem
 title: IParentAndItem::GetParentAndItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the parent of an item and the parent's child ID.
 old-location: shell\IParentAndItem_GetParentAndItem.htm
 old-project: shell
 ms.assetid: 351ad043-949c-46e1-a6cd-bcc15016f42a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetParentAndItem, GetParentAndItem method [Windows Shell], GetParentAndItem method [Windows Shell],IParentAndItem interface, IParentAndItem interface [Windows Shell],GetParentAndItem method, IParentAndItem.GetParentAndItem, IParentAndItem::GetParentAndItem, _shell_IParentAndItem_GetParentAndItem, shell.IParentAndItem_GetParentAndItem, shobjidl_core/IParentAndItem::GetParentAndItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

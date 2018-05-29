@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IVisualProperties
 title: IVisualProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that set and get visual properties.
 old-location: shell\IVisualProperties.htm
 old-project: shell
 ms.assetid: 0f4921ad-18b4-447e-8e4b-0a40ce430137
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IVisualProperties, IVisualProperties interface [Windows Shell], IVisualProperties interface [Windows Shell],described, _shell_IVisualProperties, shell.IVisualProperties, shobjidl/IVisualProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

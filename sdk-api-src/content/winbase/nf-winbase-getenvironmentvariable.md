@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetEnvironmentVariable
 title: GetEnvironmentVariable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the contents of the specified variable from the environment block of the calling process.
 old-location: base\getenvironmentvariable.htm
 old-project: ProcThread
 ms.assetid: 1d4cc328-12e6-4aae-9f58-58675116ad54
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetEnvironmentVariable, GetEnvironmentVariable function, GetEnvironmentVariableA, GetEnvironmentVariableW, _win32_getenvironmentvariable, base.getenvironmentvariable, processenv/GetEnvironmentVariable, processenv/GetEnvironmentVariableA, processenv/GetEnvironmentVariableW, winbase/GetEnvironmentVariable, winbase/GetEnvironmentVariableA, winbase/GetEnvironmentVariableW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

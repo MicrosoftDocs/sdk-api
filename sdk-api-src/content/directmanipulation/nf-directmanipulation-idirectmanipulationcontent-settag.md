@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.SetTag
 title: IDirectManipulationContent::SetTag
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the tag object for the content.
 old-location: directmanipulation\idirectmanipulationcontent_settag.htm
 old-project: directmanipulation
 ms.assetid: d0dce3dd-3fbf-41ea-ba70-8574701d101e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationContent interface [Direct Manipulation],SetTag method, IDirectManipulationContent.SetTag, IDirectManipulationContent::SetTag, SetTag, SetTag method [Direct Manipulation], SetTag method [Direct Manipulation],IDirectManipulationContent interface, directmanipulation.idirectmanipulationcontent_settag, directmanipulation/IDirectManipulationContent::SetTag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

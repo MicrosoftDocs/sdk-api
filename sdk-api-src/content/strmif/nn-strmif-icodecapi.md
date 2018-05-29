@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.ICodecAPI
 title: ICodecAPI
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICodecAPI interface sets and retrieves settings on an encoder or decoder filter.
 old-location: dshow\icodecapi.htm
 old-project: DirectShow
 ms.assetid: cc3f1bd9-1d36-45e6-94e2-07f2800fd073
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICodecAPI, ICodecAPI interface [DirectShow], ICodecAPI interface [DirectShow],described, ICodecAPIInterface, dshow.icodecapi, strmif/ICodecAPI
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

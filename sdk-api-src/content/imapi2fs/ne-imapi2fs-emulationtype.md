@@ -1,16 +1,16 @@
 ---
 UID: NE:imapi2fs.EmulationType
 title: EmulationType
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values for media types that the boot image is intended to emulate.
 old-location: imapi\emulationtype.htm
 old-project: imapi
 ms.assetid: 53e87d6d-9547-4437-9548-652cfcbd308e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: Emulation12MFloppy, Emulation144MFloppy, Emulation288MFloppy, EmulationHardDisk, EmulationNone, EmulationType, EmulationType enumeration [IMAPI], imapi.emulationtype, imapi2fs/Emulation12MFloppy, imapi2fs/Emulation144MFloppy, imapi2fs/Emulation288MFloppy, imapi2fs/EmulationHardDisk, imapi2fs/EmulationNone, imapi2fs/EmulationType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: imapi2fs.h
 req.include-header: 

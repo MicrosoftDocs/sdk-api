@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12DebugDevice1
 title: ID3D12DebugDevice1
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies device-wide debug layer settings.
 old-location: direct3d12\id3d12debugdevice1.htm
 old-project: direct3d12
 ms.assetid: DDB71272-195A-4E05-BA52-9EF858ACD6CB
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12DebugDevice1, ID3D12DebugDevice1 interface, ID3D12DebugDevice1 interface,described, d3d12sdklayers/ID3D12DebugDevice1, direct3d12.id3d12debugdevice1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12sdklayers.h
 req.include-header: 

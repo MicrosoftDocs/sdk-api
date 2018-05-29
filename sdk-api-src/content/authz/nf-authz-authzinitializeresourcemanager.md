@@ -1,16 +1,16 @@
 ---
 UID: NF:authz.AuthzInitializeResourceManager
 title: AuthzInitializeResourceManager function
-author: windows-driver-content
+author: windows-sdk-content
 description: Uses Authz to verify that clients have access to various resources.
 old-location: security\authzinitializeresourcemanager.htm
 old-project: SecAuthZ
 ms.assetid: e3f6b37d-2c33-4b17-97b4-762bf55561c5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AUTHZ_RM_FLAG_INITIALIZE_UNDER_IMPERSONATION, AUTHZ_RM_FLAG_NO_AUDIT, AUTHZ_RM_FLAG_NO_CENTRALIZED_ACCESS_POLICIES, AuthzInitializeResourceManager, AuthzInitializeResourceManager function [Security], _win32_authzinitializeresourcemanager, authz/AuthzInitializeResourceManager, security.authzinitializeresourcemanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: authz.h
 req.include-header: 

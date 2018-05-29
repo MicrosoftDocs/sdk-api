@@ -1,16 +1,16 @@
 ---
 UID: NS:tapi.linemediacontrolmedia_tag
 title: linemediacontrolmedia_tag
-author: windows-driver-content
+author: windows-sdk-content
 description: The LINEMEDIACONTROLMEDIA structure describes a media action to be executed when detecting a media type change. It is used as an entry in an array. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.
 old-location: tapi2\linemediacontrolmedia_str.htm
 old-project: Tapi
 ms.assetid: 5515d510-3827-4da6-975c-ff191bb0ab4e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*LPLINEMEDIACONTROLMEDIA, LINEMEDIACONTROLMEDIA, LINEMEDIACONTROLMEDIA structure [TAPI 2.2], LPLINEMEDIACONTROLMEDIA, LPLINEMEDIACONTROLMEDIA structure pointer [TAPI 2.2], _tapi2_linemediacontrolmedia_str, linemediacontrolmedia_tag, tapi/LINEMEDIACONTROLMEDIA, tapi/LPLINEMEDIACONTROLMEDIA, tapi2.linemediacontrolmedia_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tapi.h
 req.include-header: 

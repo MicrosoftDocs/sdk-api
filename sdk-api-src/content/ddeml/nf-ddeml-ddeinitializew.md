@@ -1,16 +1,16 @@
 ---
 UID: NF:ddeml.DdeInitializeW
 title: DdeInitializeW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers an application with the Dynamic Data Exchange Management Library (DDEML). An application must call this function before calling any other Dynamic Data Exchange Management Library (DDEML) function.
 old-location: dataxchg\ddeinitialize.htm
 old-project: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeinitialize.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: APPCLASS_MONITOR, APPCLASS_STANDARD, APPCMD_CLIENTONLY, APPCMD_FILTERINITS, CBF_FAIL_ADVISES, CBF_FAIL_ALLSVRXACTIONS, CBF_FAIL_CONNECTIONS, CBF_FAIL_EXECUTES, CBF_FAIL_POKES, CBF_FAIL_REQUESTS, CBF_FAIL_SELFCONNECTIONS, CBF_SKIP_ALLNOTIFICATIONS, CBF_SKIP_CONNECT_CONFIRMS, CBF_SKIP_DISCONNECTS, CBF_SKIP_REGISTRATIONS, CBF_SKIP_UNREGISTRATIONS, DdeInitialize, DdeInitialize function [Data Exchange], DdeInitializeA, DdeInitializeW, MF_CALLBACKS, MF_CONV, MF_ERRORS, MF_HSZ_INFO, MF_LINKS, MF_POSTMSGS, MF_SENDMSGS, _win32_DdeInitialize, _win32_ddeinitialize_cpp, dataxchg.ddeinitialize, ddeml/DdeInitialize, ddeml/DdeInitializeA, ddeml/DdeInitializeW, winui._win32_ddeinitialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ddeml.h
 req.include-header: Windows.h

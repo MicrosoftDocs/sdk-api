@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetItemsChangedSink
 title: ISearchCatalogManager::GetItemsChangedSink
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the change notification sink interface.
 old-location: search\_search_ISearchCatalogManager_GetItemsChangedSink.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getitemschangedsink.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetItemsChangedSink, GetItemsChangedSink method [search], GetItemsChangedSink method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetItemsChangedSink method, ISearchCatalogManager.GetItemsChangedSink, ISearchCatalogManager::GetItemsChangedSink, _search_ISearchCatalogManager_GetItemsChangedSink, search._search_ISearchCatalogManager_GetItemsChangedSink, searchapi/ISearchCatalogManager::GetItemsChangedSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

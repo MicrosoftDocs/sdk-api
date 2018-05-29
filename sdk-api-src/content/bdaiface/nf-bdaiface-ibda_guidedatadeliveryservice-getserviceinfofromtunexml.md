@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml
 title: IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets service information from an XML tune request.
 old-location: mstv\ibda_guidedatadeliveryservice_getserviceinfofromtunexml.htm
 old-project: mstv
 ms.assetid: 8084e4dd-a5d5-48a0-a052-24310a79df78
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetServiceInfoFromTuneXml, GetServiceInfoFromTuneXml method [Microsoft TV Technologies], GetServiceInfoFromTuneXml method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetServiceInfoFromTuneXml method, IBDA_GuideDataDeliveryService.GetServiceInfoFromTuneXml, IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml, bdaiface/IBDA_GuideDataDeliveryService::GetServiceInfoFromTuneXml, mstv.ibda_guidedatadeliveryservice_getserviceinfofromtunexml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

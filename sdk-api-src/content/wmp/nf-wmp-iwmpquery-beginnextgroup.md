@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPQuery.beginNextGroup
 title: IWMPQuery::beginNextGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: The beginNextGroup method begins a new condition group.
 old-location: wmp\iwmpquery_beginnextgroup.htm
 old-project: WMP
 ms.assetid: c81a8125-2cfa-40e2-afc5-672c2866b880
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPQuery interface [Windows Media Player],beginNextGroup method, IWMPQuery.beginNextGroup, IWMPQuery::beginNextGroup, IWMPQuerybeginNextGroup, beginNextGroup, beginNextGroup method [Windows Media Player], beginNextGroup method [Windows Media Player],IWMPQuery interface, wmp.iwmpquery_beginnextgroup, wmp/IWMPQuery::beginNextGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

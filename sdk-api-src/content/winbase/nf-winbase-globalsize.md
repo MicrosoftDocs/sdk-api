@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GlobalSize
 title: GlobalSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current size of the specified global memory object, in bytes.
 old-location: base\globalsize.htm
 old-project: Memory
 ms.assetid: 9fd01460-d6fc-41f4-9e0c-209a3d1844c1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GlobalSize, GlobalSize function, _win32_globalsize, base.globalsize, winbase/GlobalSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

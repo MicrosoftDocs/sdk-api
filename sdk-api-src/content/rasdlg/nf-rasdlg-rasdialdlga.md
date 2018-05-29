@@ -1,16 +1,16 @@
 ---
 UID: NF:rasdlg.RasDialDlgA
 title: RasDialDlgA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasDialDlg function establishes a RAS connection using a specified phone-book entry and the credentials of the logged-on user. The function displays a stream of dialog boxes that indicate the state of the connection operation.
 old-location: rras\rasdialdlg.htm
 old-project: RRAS
 ms.assetid: 698a18a1-b302-4b0d-8399-0bbdbe775f08
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasDialDlg, RasDialDlg function [RAS], RasDialDlgA, RasDialDlgW, _ras_rasdialdlg, rasdlg/RasDialDlg, rasdlg/RasDialDlgA, rasdlg/RasDialDlgW, rras.rasdialdlg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rasdlg.h
 req.include-header: 

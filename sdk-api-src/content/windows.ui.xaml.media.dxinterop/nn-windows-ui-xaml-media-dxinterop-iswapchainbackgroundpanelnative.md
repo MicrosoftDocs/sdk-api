@@ -1,16 +1,16 @@
 ---
 UID: NN:windows.ui.xaml.media.dxinterop.ISwapChainBackgroundPanelNative
 title: ISwapChainBackgroundPanelNative
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides interoperation between XAML and a DirectX swap chain.
 old-location: winrt\iswapchainbackgroundpanelnative.htm
 old-project: WinRT
 ms.assetid: 77F5EB53-0DF9-4BA7-810C-9B7B073E76A7
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: ISwapChainBackgroundPanelNative, ISwapChainBackgroundPanelNative interface [Windows Runtime], ISwapChainBackgroundPanelNative interface [Windows Runtime],described, windows/ISwapChainBackgroundPanelNative, winrt.iswapchainbackgroundpanelnative
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 

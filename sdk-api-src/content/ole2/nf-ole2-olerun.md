@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleRun
 title: OleRun function
-author: windows-driver-content
+author: windows-sdk-content
 description: Puts an OLE compound document object into the running state.
 old-location: com\olerun.htm
 old-project: com
 ms.assetid: 9035f996-b163-4855-aa9d-184b77072ead
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleRun, OleRun function [COM], _ole_OleRun, com.olerun, ole2/OleRun
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

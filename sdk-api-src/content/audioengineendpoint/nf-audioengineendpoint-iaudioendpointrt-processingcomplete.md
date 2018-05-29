@@ -1,16 +1,16 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointRT.ProcessingComplete
 title: IAudioEndpointRT::ProcessingComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the endpoint that a processing pass has been completed.
 old-location: termserv\iaudioendpointrt_processingcomplete.htm
 old-project: TermServ
 ms.assetid: 1a9c52fa-27ff-4e63-ae87-f5a3cd8d4f9b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAudioEndpointRT interface [Remote Desktop Services],ProcessingComplete method, IAudioEndpointRT.ProcessingComplete, IAudioEndpointRT::ProcessingComplete, ProcessingComplete, ProcessingComplete method [Remote Desktop Services], ProcessingComplete method [Remote Desktop Services],IAudioEndpointRT interface, audioengineendpoint/IAudioEndpointRT::ProcessingComplete, termserv.iaudioendpointrt_processingcomplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 

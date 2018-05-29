@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.SatisfyNtmsOperatorRequest
 title: SatisfyNtmsOperatorRequest function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SatisfyNtmsOperatorRequest function completes the specified RSM operator request.
 old-location: fs\satisfyntmsoperatorrequest.htm
 old-project: Rsm
 ms.assetid: 37f9c9c4-7fb2-4559-94a4-e508b277e69e
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: SatisfyNtmsOperatorRequest, SatisfyNtmsOperatorRequest function [Files], _zaw_satisfyntmsoperatorrequest, base.satisfyntmsoperatorrequest, fs.satisfyntmsoperatorrequest, ntmsapi/SatisfyNtmsOperatorRequest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

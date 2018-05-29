@@ -1,16 +1,16 @@
 ---
 UID: NE:comsvcs.tagCSC_InheritanceConfig
 title: tagCSC_InheritanceConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether to create a new context based on the current context or to create a new context based solely upon the information in CServiceConfig.
 old-location: cos\csc_inheritanceconfig.htm
 old-project: cossdk
 ms.assetid: 9bc8c4f3-d13e-46b6-9187-904b05f66f66
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CSC_Ignore, CSC_Inherit, CSC_InheritanceConfig, CSC_InheritanceConfig enumeration [COM+], _cos_csc_inheritanceconfig, comsvcs/CSC_Ignore, comsvcs/CSC_Inherit, comsvcs/CSC_InheritanceConfig, cos.csc_inheritanceconfig, tagCSC_InheritanceConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 

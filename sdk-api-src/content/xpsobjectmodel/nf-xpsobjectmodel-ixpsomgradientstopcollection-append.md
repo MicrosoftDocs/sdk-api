@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.Append
 title: IXpsOMGradientStopCollection::Append
-author: windows-driver-content
+author: windows-sdk-content
 description: Appends an IXpsOMGradientStop interface to the end of the collection.
 old-location: xps\ixpsomgradientstopcollection_append.htm
 old-project: printdocs
 ms.assetid: 475794d5-e921-4bbd-aa71-cdbed7cb1dff
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, IXpsOMGradientStopCollection interface [XPS Documents and Packaging],Append method, IXpsOMGradientStopCollection.Append, IXpsOMGradientStopCollection::Append, xps.ixpsomgradientstopcollection_append, xpsobjectmodel/IXpsOMGradientStopCollection::Append
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

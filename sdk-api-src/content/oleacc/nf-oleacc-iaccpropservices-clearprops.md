@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccPropServices.ClearProps
 title: IAccPropServices::ClearProps
-author: windows-driver-content
+author: windows-sdk-content
 description: Servers use ClearProps to restore default values to properties of accessible elements that they had previously annotated.
 old-location: winauto\iaccpropservices_iaccpropservices__clearprops.htm
 old-project: WinAuto
 ms.assetid: 6a3bce93-1d5d-48cf-84f4-cbca445b5451
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ClearProps, ClearProps method [Windows Accessibility], ClearProps method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ClearProps method, IAccPropServices.ClearProps, IAccPropServices::ClearProps, _msaa_IAccPropServices_ClearProps, msaa.iaccpropservices_iaccpropservices__clearprops, oleacc/IAccPropServices::ClearProps, winauto.iaccpropservices_iaccpropservices__clearprops
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathUnExpandEnvStringsW
 title: PathUnExpandEnvStringsW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Replaces certain folder names in a fully qualified path with their associated environment string.
 old-location: shell\PathUnExpandEnvStrings.htm
 old-project: shell
 ms.assetid: cfab1ee0-03f3-4e0f-a29d-5331fec022b5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathUnExpandEnvStrings, PathUnExpandEnvStrings function [Windows Shell], PathUnExpandEnvStringsA, PathUnExpandEnvStringsW, _win32_PathUnExpandEnvStrings, shell.PathUnExpandEnvStrings, shlwapi/PathUnExpandEnvStrings, shlwapi/PathUnExpandEnvStringsA, shlwapi/PathUnExpandEnvStringsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

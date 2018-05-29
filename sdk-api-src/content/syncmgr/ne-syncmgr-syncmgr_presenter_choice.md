@@ -1,16 +1,16 @@
 ---
 UID: NE:syncmgr.SYNCMGR_PRESENTER_CHOICE
 title: SYNCMGR_PRESENTER_CHOICE
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes what choice a user makes about a sync manager conflict resolution. Used by ISyncMgrConflictPresenter.
 old-location: shell\SYNCMGR_PRESENTER_CHOICE.htm
 old-project: shell
 ms.assetid: 5e98754b-51d7-4798-9c69-8a9a839c4cda
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SYNCMGR_PC_KEEP_MULTIPLE, SYNCMGR_PC_KEEP_ONE, SYNCMGR_PC_KEEP_RECENT, SYNCMGR_PC_NO_CHOICE, SYNCMGR_PC_REMOVE_FROM_SYNC_SET, SYNCMGR_PC_SKIP, SYNCMGR_PRESENTER_CHOICE, SYNCMGR_PRESENTER_CHOICE enumeration [Windows Shell], _shell_SYNCMGR_PRESENTER_CHOICE, shell.SYNCMGR_PRESENTER_CHOICE, syncmgr/SYNCMGR_PC_KEEP_MULTIPLE, syncmgr/SYNCMGR_PC_KEEP_ONE, syncmgr/SYNCMGR_PC_KEEP_RECENT, syncmgr/SYNCMGR_PC_NO_CHOICE, syncmgr/SYNCMGR_PC_REMOVE_FROM_SYNC_SET, syncmgr/SYNCMGR_PC_SKIP, syncmgr/SYNCMGR_PRESENTER_CHOICE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: syncmgr.h
 req.include-header: 

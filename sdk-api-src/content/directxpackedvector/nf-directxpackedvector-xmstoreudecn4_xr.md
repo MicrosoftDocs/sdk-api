@@ -1,16 +1,16 @@
 ---
 UID: NF:directxpackedvector.XMStoreUDecN4_XR
 title: XMStoreUDecN4_XR function
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores an extended range XMUDECN4 into an XMVECTOR.
 old-location: dxmath\_xmstoreudecn4_xr.htm
 old-project: dxmath
 ms.assetid: 4DCE74D6-48CF-43D8-BF69-368A95F823F1
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: DirectX::PackedVector.XMStoreUDecN4_XR, XMStoreUDecN4_XR, XMStoreUDecN4_XR method [DirectX Math Support APIs], dxmath._xmstoreudecn4_xr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h

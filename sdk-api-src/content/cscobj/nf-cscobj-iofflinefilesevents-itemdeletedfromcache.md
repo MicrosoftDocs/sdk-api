@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemDeletedFromCache
 title: IOfflineFilesEvents::ItemDeletedFromCache
-author: windows-driver-content
+author: windows-sdk-content
 description: Reports that an item has been removed from the Offline Files cache.
 old-location: of\iofflinefilesevents_itemdeletedfromcache.htm
 old-project: OfflineFiles
 ms.assetid: 358b358a-65cc-4f37-8beb-be492b83c222
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemDeletedFromCache method, IOfflineFilesEvents.ItemDeletedFromCache, IOfflineFilesEvents::ItemDeletedFromCache, ItemDeletedFromCache, ItemDeletedFromCache method [Offline Files], ItemDeletedFromCache method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemDeletedFromCache, of.iofflinefilesevents_itemdeletedfromcache
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

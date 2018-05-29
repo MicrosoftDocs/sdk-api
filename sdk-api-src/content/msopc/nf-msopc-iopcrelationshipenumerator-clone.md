@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcRelationshipEnumerator.Clone
 title: IOpcRelationshipEnumerator::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of the current enumerator and all its descendants.
 old-location: opc\iopcrelationshipenumerator_clone.htm
 old-project: OPC
 ms.assetid: 838f9486-be46-461f-b570-bc77003f1619
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcRelationshipEnumerator interface, IOpcRelationshipEnumerator interface [Open Packaging Conventions],Clone method, IOpcRelationshipEnumerator.Clone, IOpcRelationshipEnumerator::Clone, msopc/IOpcRelationshipEnumerator::Clone, opc.iopcrelationshipenumerator_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

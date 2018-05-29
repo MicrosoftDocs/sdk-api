@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IComCRMEvents
 title: IComCRMEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the subscriber about activities of the Compensating Resource Manager (CRM) feature of Component Services.
 old-location: cos\icomcrmevents.htm
 old-project: cossdk
 ms.assetid: 720beffb-8fb5-4c87-9bcf-6db214543b01
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComCRMEvents, IComCRMEvents interface [COM+], IComCRMEvents interface [COM+],described, _dtc_icomcrmevents, comsvcs/IComCRMEvents, cos.icomcrmevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

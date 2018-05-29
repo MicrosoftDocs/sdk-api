@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptGenerateSymmetricKey
 title: BCryptGenerateSymmetricKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a key object for use with a symmetrical key encryption algorithm from a supplied key.
 old-location: security\bcryptgeneratesymmetrickey_func.htm
 old-project: SecCNG
 ms.assetid: c55d714f-f47e-4ddf-97b9-985c0441bb2d
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCryptGenerateSymmetricKey, BCryptGenerateSymmetricKey function [Security], bcrypt/BCryptGenerateSymmetricKey, security.bcryptgeneratesymmetrickey_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

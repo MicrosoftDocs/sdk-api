@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoCreateFreeThreadedMarshaler
 title: CoCreateFreeThreadedMarshaler function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an aggregatable object capable of context-dependent marshaling.
 old-location: com\cocreatefreethreadedmarshaler.htm
 old-project: com
 ms.assetid: f97a2a39-7291-4a1d-b770-0a34f7f5b60f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoCreateFreeThreadedMarshaler, CoCreateFreeThreadedMarshaler function [COM], _com_CoCreateFreeThreadedMarshaler, com.cocreatefreethreadedmarshaler, combaseapi/CoCreateFreeThreadedMarshaler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

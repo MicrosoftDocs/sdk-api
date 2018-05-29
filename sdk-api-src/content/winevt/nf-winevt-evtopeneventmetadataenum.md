@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtOpenEventMetadataEnum
 title: EvtOpenEventMetadataEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a handle that you use to enumerate the list of events that the provider defines.
 old-location: wes\evtopeneventmetadataenum.htm
 old-project: WES
 ms.assetid: e1d2e5d5-89db-4bda-9803-37f26d1fe30f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtOpenEventMetadataEnum, EvtOpenEventMetadataEnum function [EventLog], wes.evtopeneventmetadataenum, winevt/EvtOpenEventMetadataEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

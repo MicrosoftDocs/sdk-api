@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnInterface
 title: IMbnInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a Mobile Broadband device.
 old-location: mbn\imbninterface.htm
 old-project: mbn
 ms.assetid: 958bce42-4772-4706-8900-1f83c5d3d52b
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnInterface, IMbnInterface interface [Microsoft Broadband Networks], IMbnInterface interface [Microsoft Broadband Networks],described, mbn.imbninterface, mbnapi/IMbnInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

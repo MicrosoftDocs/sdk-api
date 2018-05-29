@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_SCOPE_INFO
 title: "_DHCP_OPTION_SCOPE_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DHCP_OPTION_SCOPE_INFO structure defines information about the options provided for a certain DHCP scope.
 old-location: dhcp\dhcp_option_scope_info.htm
 old-project: DHCP
 ms.assetid: 91d4d678-f0c5-4081-9302-0d08c8994692
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_OPTION_SCOPE_INFO, DHCP_OPTION_SCOPE_INFO, DHCP_OPTION_SCOPE_INFO structure [DHCP], LPDHCP_OPTION_SCOPE_INFO, LPDHCP_OPTION_SCOPE_INFO structure pointer [DHCP], _DHCP_OPTION_SCOPE_INFO, dhcp.dhcp_option_scope_info, dhcpsapi/LPDHCP_OPTION_SCOPE_INFO, dhcpsapi/_DHCP_OPTION_SCOPE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

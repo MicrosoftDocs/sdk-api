@@ -1,16 +1,16 @@
 ---
 UID: NF:winsvc.QueryServiceDynamicInformation
 title: QueryServiceDynamicInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves dynamic information related to the current service start.
 old-location: base\queryservicedynamicinformation.htm
 old-project: Services
 ms.assetid: 499b63fd-e77b-4b90-9ee7-ff4b7b12c431
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: QueryServiceDynamicInformation, QueryServiceDynamicInformation function, SERVICE_DYNAMIC_INFORMATION_LEVEL_START_REASON, base.queryservicedynamicinformation, winsvc/QueryServiceDynamicInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

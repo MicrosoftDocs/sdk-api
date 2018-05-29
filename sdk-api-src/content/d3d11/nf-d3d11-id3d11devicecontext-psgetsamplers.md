@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.PSGetSamplers
 title: ID3D11DeviceContext::PSGetSamplers
-author: windows-driver-content
+author: windows-sdk-content
 description: Get an array of sampler states from the pixel shader pipeline stage.
 old-location: direct3d11\id3d11devicecontext_psgetsamplers.htm
 old-project: direct3d11
 ms.assetid: 8a86f6c8-4095-48d5-a3aa-a3eef9f4b3e8
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11DeviceContext interface [Direct3D 11],PSGetSamplers method, ID3D11DeviceContext.PSGetSamplers, ID3D11DeviceContext::PSGetSamplers, PSGetSamplers, PSGetSamplers method [Direct3D 11], PSGetSamplers method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::PSGetSamplers, direct3d11.id3d11devicecontext_psgetsamplers, ffce57e5-f18e-d0e2-8fb6-4ee3acfcbb90
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxDeviceIds.get_Item
 title: IFaxDeviceIds::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxDeviceIds::get_Item method represents a device ID from the FaxDeviceIds collection.
 old-location: fax\_mfax_faxdeviceids_item_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0xt9_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxDeviceIds interface [Fax Service],get_Item method, IFaxDeviceIds.get_Item, IFaxDeviceIds::get_Item, _mfax_faxdeviceids.item_cpp, fax._mfax_faxdeviceids_item_cpp, faxcomex/IFaxDeviceIds::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxDeviceIds interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

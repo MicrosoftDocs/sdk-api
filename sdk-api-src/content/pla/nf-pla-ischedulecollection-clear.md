@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IScheduleCollection.Clear
 title: IScheduleCollection::Clear
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes all schedules from the collection.
 old-location: pla\ischedulecollection_clear.htm
 old-project: PLA
 ms.assetid: e9a3afb8-0049-425b-a231-bbb5b56eced7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],Clear method, IScheduleCollection.Clear, IScheduleCollection::Clear, base.ischedulecollection_clear, pla.ischedulecollection_clear, pla/IScheduleCollection::Clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

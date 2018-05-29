@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfUIElement.IsShown
 title: ITfUIElement::IsShown
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfUIElement::IsShown method returns true if the UI is currently shown by a text service; otherwise false.
 old-location: tsf\itfuielement_isshown.htm
 old-project: TSF
 ms.assetid: 84253cbe-a30e-4def-b268-0f5f1b7d54dc
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfUIElement interface [Text Services Framework],IsShown method, ITfUIElement.IsShown, ITfUIElement::IsShown, IsShown, IsShown method [Text Services Framework], IsShown method [Text Services Framework],ITfUIElement interface, msctf/ITfUIElement::IsShown, tsf.itfuielement_isshown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

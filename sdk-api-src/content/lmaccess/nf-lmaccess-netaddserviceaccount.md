@@ -1,16 +1,16 @@
 ---
 UID: NF:lmaccess.NetAddServiceAccount
 title: NetAddServiceAccount function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a standalone managed service account (sMSA) or retrieves the credentials for a group managed service account (gMSA) and stores the account information on the local computer.
 old-location: security\netaddserviceaccount.htm
 old-project: SecMgmt
 ms.assetid: 004bd392-8837-4d98-905a-cd19ed02817d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: NetAddServiceAccount, NetAddServiceAccount function [Security], SERVICE_ACCOUNT_FLAG_LINK_TO_HOST_ONLY, lmaccess/NetAddServiceAccount, security.netaddserviceaccount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmaccess.h
 req.include-header: 

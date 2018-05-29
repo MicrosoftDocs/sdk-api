@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarUI2FromR8
 title: VarUI2FromR8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a double value to an unsigned short value.
 old-location: automat\varui2fromr8.htm
 old-project: automat
 ms.assetid: cbec8935-a160-4a93-bc12-8b82efbf486c
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarUI2FromR8, VarUI2FromR8 function [Automation], _oa96_VarUI2FromR8, automat.varui2fromr8, oleauto/VarUI2FromR8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

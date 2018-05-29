@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Enable
 title: IAMAudioInputMixer::put_Enable
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Enable method enables or disables an input.
 old-location: dshow\iamaudioinputmixer_put_enable.htm
 old-project: DirectShow
 ms.assetid: 84f179bf-2e2f-4ba0-81b7-c20acd09ccea
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Enable method, IAMAudioInputMixer.put_Enable, IAMAudioInputMixer::put_Enable, IAMAudioInputMixerput_Enable, dshow.iamaudioinputmixer_put_enable, put_Enable, put_Enable method [DirectShow], put_Enable method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Enable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadBindToApartment
 title: IComThreadEvents::OnThreadBindToApartment
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when an apartment thread is allocated for a single-thread apartment (STA) thread that does not have an apartment thread to run in.
 old-location: cos\icomthreadevents_onthreadbindtoapartment.htm
 old-project: cossdk
 ms.assetid: d05c784a-5dcd-4155-baa0-775c499bd936
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadBindToApartment method, IComThreadEvents.OnThreadBindToApartment, IComThreadEvents::OnThreadBindToApartment, OnThreadBindToApartment, OnThreadBindToApartment method [COM+], OnThreadBindToApartment method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadBindToApartment, comsvcs/IComThreadEvents::OnThreadBindToApartment, cos.icomthreadevents_onthreadbindtoapartment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

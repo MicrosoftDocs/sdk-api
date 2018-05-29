@@ -1,16 +1,16 @@
 ---
 UID: NE:lmaccess._MSA_INFO_LEVEL
 title: "_MSA_INFO_LEVEL"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the level of a managed service account.
 old-location: security\msa_info_level.htm
 old-project: SecMgmt
 ms.assetid: 06BD0881-30B3-4966-9F6E-29601D86B30F
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PMSA_INFO_LEVEL, MSA_INFO_LEVEL, MSA_INFO_LEVEL enumeration [Security], MsaInfoLevel0, MsaInfoLevelMax, _MSA_INFO_LEVEL, lmaccess/MSA_INFO_LEVEL, lmaccess/MsaInfoLevel0, lmaccess/MsaInfoLevelMax, security.msa_info_level"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: lmaccess.h
 req.include-header: 

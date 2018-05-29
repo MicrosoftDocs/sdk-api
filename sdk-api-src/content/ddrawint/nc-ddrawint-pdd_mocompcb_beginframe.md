@@ -1,16 +1,16 @@
 ---
 UID: NC:ddrawint.PDD_MOCOMPCB_BEGINFRAME
 title: PDD_MOCOMPCB_BEGINFRAME
-author: windows-driver-content
+author: windows-sdk-content
 description: The DdMoCompBeginFrame callback function starts decoding a new frame.
 old-location: display\ddmocompbeginframe.htm
 old-project: display
 ms.assetid: 0038aedc-2e4f-4d89-878f-7f6f751015cc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DdMoCompBeginFrame, DdMoCompBeginFrame callback function [Display Devices], PDD_MOCOMPCB_BEGINFRAME, PDD_MOCOMPCB_BEGINFRAME callback, ddfncs_5bfa2d81-42a3-4615-be52-605e5e3a2b14.xml, ddrawint/DdMoCompBeginFrame, display.ddmocompbeginframe
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ddrawint.h
 req.include-header: Winddi.h

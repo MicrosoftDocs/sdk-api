@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationPropertyCondition.get_PropertyValue
 title: IUIAutomationPropertyCondition::get_PropertyValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the property value that must be matched for the condition to be true.
 old-location: winauto\uiauto_IUIAutomationPropertyCondition_PropertyValue.htm
 old-project: WinAuto
 ms.assetid: a92a5ee7-d5b4-4b2e-9e38-846e9b07d0b7
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationPropertyCondition interface [Windows Accessibility],PropertyValue property, IUIAutomationPropertyCondition.PropertyValue, IUIAutomationPropertyCondition.get_PropertyValue, IUIAutomationPropertyCondition::PropertyValue, IUIAutomationPropertyCondition::get_PropertyValue, PropertyValue property [Windows Accessibility], PropertyValue property [Windows Accessibility],IUIAutomationPropertyCondition interface, get_PropertyValue, uiauto.uiauto_IUIAutomationPropertyCondition_PropertyValue, uiauto_IUIAutomationPropertyCondition_PropertyValue, uiautomationclient/IUIAutomationPropertyCondition::PropertyValue, uiautomationclient/IUIAutomationPropertyCondition::get_PropertyValue, winauto.uiauto_IUIAutomationPropertyCondition_PropertyValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

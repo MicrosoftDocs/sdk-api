@@ -1,16 +1,16 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMLINES_CALLBACKW
 title: PSYM_ENUMLINES_CALLBACKW
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function used with the SymEnumLines and SymEnumSourceLines functions.
 old-location: base\symenumlinesproc.htm
 old-project: Debug
 ms.assetid: 7379dd04-72a4-45b6-b02a-d3e8a5aaf0d7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: PSYM_ENUMLINES_CALLBACK, PSYM_ENUMLINES_CALLBACKW, SymEnumLinesProc, SymEnumLinesProc callback, SymEnumLinesProc callback function, base.symenumlinesproc, dbghelp/SymEnumLinesProc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 

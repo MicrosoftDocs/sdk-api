@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DQuery9.GetType
 title: IDirect3DQuery9::GetType
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the query type.
 old-location: direct3d9\idirect3dquery9__gettype.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dquery9__gettype.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 581f12d8-a07f-3bef-8285-25360f8d6b4c, GetType, GetType method [Direct3D 9], GetType method [Direct3D 9],IDirect3DQuery9 interface, IDirect3DQuery9 interface [Direct3D 9],GetType method, IDirect3DQuery9.GetType, IDirect3DQuery9::GetType, d3d9helper/IDirect3DQuery9::GetType, direct3d9.idirect3dquery9__gettype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

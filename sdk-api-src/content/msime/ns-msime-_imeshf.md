@@ -1,16 +1,16 @@
 ---
 UID: NS:msime._IMESHF
 title: "_IMESHF"
-author: windows-driver-content
+author: windows-sdk-content
 description: The header of an opened user dictionary file. Used to get the user dictionary's properties, such as version, title, description, and copyright.
 old-location: intl\imeshf.htm
 old-project: Intl
 ms.assetid: CFFEFEDC-F614-4DD4-B1A1-4D236339E817
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMESHF, IMESHF structure [Internationalization for Windows Applications], PIMESHF, PIMESHF structure pointer [Internationalization for Windows Applications], _IMESHF, intl.imeshf, msime/IMESHF, msime/PIMESHF
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: msime.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.SetAspectRatioMode
 title: IVMRWindowlessControl9::SetAspectRatioMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetAspectRatioMode method sets the current aspect ratio display mode.
 old-location: dshow\ivmrwindowlesscontrol9_setaspectratiomode.htm
 old-project: DirectShow
 ms.assetid: 5ba46490-0a82-495f-8742-d7a8efa95332
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRWindowlessControl9 interface [DirectShow],SetAspectRatioMode method, IVMRWindowlessControl9.SetAspectRatioMode, IVMRWindowlessControl9::SetAspectRatioMode, IVMRWindowlessControl9SetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_setaspectratiomode, vmr9/IVMRWindowlessControl9::SetAspectRatioMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

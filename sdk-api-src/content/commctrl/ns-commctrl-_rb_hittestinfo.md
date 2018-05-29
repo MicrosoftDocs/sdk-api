@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl._RB_HITTESTINFO
 title: "_RB_HITTESTINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information specific to a hit test operation. This structure is used with the RB_HITTEST message.
 old-location: controls\RBHITTESTINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rbhittestinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPRBHITTESTINFO, LPRBHITTESTINFO, LPRBHITTESTINFO structure pointer [Windows Controls], RBHITTESTINFO, RBHITTESTINFO structure [Windows Controls], RBHT_CAPTION, RBHT_CHEVRON, RBHT_CLIENT, RBHT_GRABBER, RBHT_NOWHERE, RBHT_SPLITTER, _RB_HITTESTINFO, _win32_RBHITTESTINFO, _win32_RBHITTESTINFO_cpp, commctrl/LPRBHITTESTINFO, commctrl/RBHITTESTINFO, controls.RBHITTESTINFO, controls._win32_RBHITTESTINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

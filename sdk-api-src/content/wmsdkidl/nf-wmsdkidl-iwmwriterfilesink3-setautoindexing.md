@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.SetAutoIndexing
 title: IWMWriterFileSink3::SetAutoIndexing
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetAutoIndexing method enables or disables automatic indexing of the file.
 old-location: wmformat\iwmwriterfilesink3_setautoindexing.htm
 old-project: wmformat
 ms.assetid: 6c8f1c25-d752-42b6-87b7-9d6a6e38642f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],SetAutoIndexing method, IWMWriterFileSink3.SetAutoIndexing, IWMWriterFileSink3::SetAutoIndexing, IWMWriterFileSink3SetAutoIndexing, SetAutoIndexing, SetAutoIndexing method [windows Media Format], SetAutoIndexing method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_setautoindexing, wmsdkidl/IWMWriterFileSink3::SetAutoIndexing
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

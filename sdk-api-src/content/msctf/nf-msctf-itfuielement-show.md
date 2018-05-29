@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfUIElement.Show
 title: ITfUIElement::Show
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfUIElement::Show method shows the text service's UI of this UI element.
 old-location: tsf\itfuielement_show.htm
 old-project: TSF
 ms.assetid: 423543d9-f3aa-4a42-89f6-dd1d48967c73
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfUIElement interface [Text Services Framework],Show method, ITfUIElement.Show, ITfUIElement::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfUIElement interface, msctf/ITfUIElement::Show, tsf.itfuielement_show
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

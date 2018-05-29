@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_ENCODER_END_CALLBACK
 title: WS_ENCODER_END_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: Encodes the end of a message.
 old-location: wsw\ws_encoder_end_callback.htm
 old-project: wsw
 ms.assetid: ab0f88f7-e2b4-48e0-9041-ac4aa66f1575
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_ENCODER_END_CALLBACK, WS_ENCODER_END_CALLBACK callback, WS_ENCODER_END_CALLBACK callback function [Web Services for Windows], webservices/WS_ENCODER_END_CALLBACK, wsw.ws_encoder_end_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

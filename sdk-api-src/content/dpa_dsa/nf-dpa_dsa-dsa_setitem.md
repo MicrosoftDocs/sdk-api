@@ -1,16 +1,16 @@
 ---
 UID: NF:dpa_dsa.DSA_SetItem
 title: DSA_SetItem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the contents of an element in a dynamic structure array (DSA).
 old-location: controls\DSA_SetItem.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_setitem.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DSA_SetItem, DSA_SetItem function [Windows Controls], _shell_DSA_SetItem, _shell_DSA_SetItem_cpp, controls.DSA_SetItem, controls._shell_DSA_SetItem, dpa_dsa/DSA_SetItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dpa_dsa.h
 req.include-header: 

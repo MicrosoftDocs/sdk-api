@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskDefinition.put_Principal
 title: ITaskDefinition::put_Principal
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the principal for the task that provides the security credentials for the task.
 old-location: taskschd\itaskdefinition_principal.htm
 old-project: TaskSchd
 ms.assetid: d1c8389b-149c-4fcb-972a-b25fa0d8d763
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],Principal property, ITaskDefinition.Principal, ITaskDefinition.put_Principal, ITaskDefinition::Principal, ITaskDefinition::get_Principal, ITaskDefinition::put_Principal, Principal property [Task Scheduler], Principal property [Task Scheduler],ITaskDefinition interface, put_Principal, taskschd.itaskdefinition_principal, taskschd/ITaskDefinition::Principal, taskschd/ITaskDefinition::get_Principal, taskschd/ITaskDefinition::put_Principal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

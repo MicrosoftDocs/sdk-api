@@ -1,16 +1,16 @@
 ---
 UID: NN:mfmediaengine.IMFMediaSourceExtension
 title: IMFMediaSourceExtension
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides functionality for the Media Source Extension (MSE).
 old-location: mf\imfmediasourceextension.htm
 old-project: medfound
 ms.assetid: 2acabcc2-242d-4b3d-b5b4-680c7973201f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaSourceExtension, IMFMediaSourceExtension interface [Media Foundation], IMFMediaSourceExtension interface [Media Foundation],described, mf.imfmediasourceextension, mfmediaengine/IMFMediaSourceExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

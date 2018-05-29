@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureEnumerator.GetCurrent
 title: IOpcDigitalSignatureEnumerator::GetCurrent
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IOpcDigitalSignature interface pointer at the current position of the enumerator.
 old-location: opc\iopcdigitalsignatureenumerator_getcurrent.htm
 old-project: OPC
 ms.assetid: 2e211822-9fd8-424c-bd0c-c5c81f9abc0b
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcDigitalSignatureEnumerator interface, IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcDigitalSignatureEnumerator.GetCurrent, IOpcDigitalSignatureEnumerator::GetCurrent, msopc/IOpcDigitalSignatureEnumerator::GetCurrent, opc.iopcdigitalsignatureenumerator_getcurrent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

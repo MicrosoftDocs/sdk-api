@@ -1,16 +1,16 @@
 ---
 UID: NS:ntddkbd._KEYBOARD_TYPEMATIC_PARAMETERS
 title: "_KEYBOARD_TYPEMATIC_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: KEYBOARD_TYPEMATIC_PARAMETERS specifies a keyboard's typematic settings.
 old-location: hid\keyboard_typematic_parameters.htm
 old-project: hid
 ms.assetid: 4bbf1699-1ba9-4569-97ac-156a91405586
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*PKEYBOARD_TYPEMATIC_PARAMETERS, KEYBOARD_TYPEMATIC_PARAMETERS, KEYBOARD_TYPEMATIC_PARAMETERS structure [Human Input Devices], PKEYBOARD_TYPEMATIC_PARAMETERS, PKEYBOARD_TYPEMATIC_PARAMETERS structure pointer [Human Input Devices], _KEYBOARD_TYPEMATIC_PARAMETERS, hid.keyboard_typematic_parameters, kref_1ef2a956-3ef3-40fc-be6e-4ce8c97f2e52.xml, ntddkbd/KEYBOARD_TYPEMATIC_PARAMETERS, ntddkbd/PKEYBOARD_TYPEMATIC_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IRpcOptions.Query
 title: IRpcOptions::Query
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of an RPC binding option property.
 old-location: com\irpcoptions_query.htm
 old-project: com
 ms.assetid: 82f59cad-3718-4202-99d3-c3aafb8dbf56
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRpcOptions interface [COM],Query method, IRpcOptions.Query, IRpcOptions::Query, Query, Query method [COM], Query method [COM],IRpcOptions interface, _com_irpcoptions_query, com.irpcoptions_query, objidlbase/IRpcOptions::Query
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

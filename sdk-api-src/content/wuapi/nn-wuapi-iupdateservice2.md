@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IUpdateService2
 title: IUpdateService2
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a service that is registered with Windows Update Agent (WUA) or with Automatic Updates.
 old-location: wua\iupdateservice2.htm
 old-project: Wua_Sdk
 ms.assetid: 6cd3d3a1-c50c-4d8e-ae13-c3ea99671cbf
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateService2, IUpdateService2 interface [Windows Update Agent], IUpdateService2 interface [Windows Update Agent],described, wua.iupdateservice2, wuapi/IUpdateService2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

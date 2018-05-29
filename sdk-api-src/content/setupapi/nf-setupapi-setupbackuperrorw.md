@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupBackupErrorW
 title: SetupBackupErrorW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupBackupError function generates a dialog box that informs the user of a backup error.
 old-location: setup\setupbackuperror.htm
 old-project: SetupApi
 ms.assetid: 4c2a8a63-29e7-4750-9239-6693754dff58
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupBackupError, SetupBackupError function [Setup API], SetupBackupErrorA, SetupBackupErrorW, _setupapi_setupbackuperror, setup.setupbackuperror, setupapi/SetupBackupError, setupapi/SetupBackupErrorA, setupapi/SetupBackupErrorW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsAsyncExecute
 title: WsAsyncExecute function
-author: windows-driver-content
+author: windows-sdk-content
 description: Helper function for implementing an asynchronous operation.
 old-location: wsw\wsasyncexecute.htm
 old-project: wsw
 ms.assetid: 8705ac1a-62ba-4239-aeb6-b35ac5f0dd18
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsAsyncExecute, WsAsyncExecute function [Web Services for Windows], webservices/WsAsyncExecute, wsw.wsasyncexecute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

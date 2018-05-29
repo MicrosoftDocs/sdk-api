@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._REPAIR_COPIES_OUTPUT
 title: "_REPAIR_COPIES_OUTPUT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains output of a repair copies operation returned from the FSCTL_REPAIR_COPIES control code.
 old-location: fs\repair_copies_output.htm
 old-project: FileIO
 ms.assetid: a3da7779-92e7-40bf-a889-dd2013e942ab
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PREPAIR_COPIES_OUTPUT, PREPAIR_COPIES_OUTPUT, PREPAIR_COPIES_OUTPUT structure pointer [Files], REPAIR_COPIES_OUTPUT, REPAIR_COPIES_OUTPUT structure [Files], _REPAIR_COPIES_OUTPUT, fs.repair_copies_output, winioctl/PREPAIR_COPIES_OUTPUT, winioctl/REPAIR_COPIES_OUTPUT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

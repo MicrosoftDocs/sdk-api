@@ -1,16 +1,16 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_Modified
 title: IOCSPCAConfiguration::get_Modified
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that indicates whether an OCSPCAConfiguration object has been modified since it was created.
 old-location: security\iocspcaconfiguration_modified_method.htm
 old-project: SecCrypto
 ms.assetid: 29307049-2165-4871-9ae3-72858752a6a3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],Modified property, IOCSPCAConfiguration.Modified, IOCSPCAConfiguration.get_Modified, IOCSPCAConfiguration::Modified, IOCSPCAConfiguration::get_Modified, Modified property [Security], Modified property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::Modified, certadm/IOCSPCAConfiguration::get_Modified, get_Modified, security.iocspcaconfiguration_modified_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certadm.h
 req.include-header: Certserv.h

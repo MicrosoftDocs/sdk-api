@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleDraw
 title: OleDraw function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables drawing objects more easily. You can use it instead of calling IViewObject::Draw directly.
 old-location: com\oledraw.htm
 old-project: com
 ms.assetid: c45c6746-59ea-43bb-9f2b-2182d7a3fc7a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleDraw, OleDraw function [COM], _ole_OleDraw, com.oledraw, ole/OleDraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: Ole2.h

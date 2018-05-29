@@ -1,16 +1,16 @@
 ---
 UID: NF:appmodel.ParseApplicationUserModelId
 title: ParseApplicationUserModelId function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deconstructs an application user model ID to its package family name and package relative application ID (PRAID).
 old-location: appxpkg\parseapplicationusermodelid.htm
 old-project: appxpkg
 ms.assetid: 03B29E82-611F-47D1-8CB6-047B9BEB4D9E
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: ParseApplicationUserModelId, ParseApplicationUserModelId function [App packaging and management], appmodel/ParseApplicationUserModelId, appxpkg.parseapplicationusermodelid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

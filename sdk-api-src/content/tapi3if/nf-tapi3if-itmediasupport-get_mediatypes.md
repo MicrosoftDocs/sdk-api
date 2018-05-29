@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITMediaSupport.get_MediaTypes
 title: ITMediaSupport::get_MediaTypes
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MediaTypes method gets the media type or types supported on the current address.
 old-location: tapi3\itmediasupport_get_mediatypes.htm
 old-project: Tapi
 ms.assetid: 8fc3d82e-6d6f-4442-9232-87f8d7605870
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITMediaSupport interface [TAPI 2.2],get_MediaTypes method, ITMediaSupport.get_MediaTypes, ITMediaSupport::get_MediaTypes, _tapi3_itmediasupport_get_mediatypes, get_MediaTypes, get_MediaTypes method [TAPI 2.2], get_MediaTypes method [TAPI 2.2],ITMediaSupport interface, tapi3.itmediasupport_get_mediatypes, tapi3if/ITMediaSupport::get_MediaTypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:wmsdkidl._WMUserWebURL
 title: "_WMUserWebURL"
-author: windows-driver-content
+author: windows-sdk-content
 description: The WM_USER_WEB_URL structure is used as the data item for the WM/UserWebURL complex metadata attribute.
 old-location: wmformat\wm_user_web_url.htm
 old-project: wmformat
 ms.assetid: 004708cf-9bcd-469a-b770-54fa5ef1aeef
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WM_USER_WEB_URL, WM_USER_WEB_URL structure [windows Media Format], _WMUserWebURL, wmformat.wm_user_web_url, wmsdkidl/WM_USER_WEB_URL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

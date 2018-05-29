@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.FlatSB_GetScrollInfo
 title: FlatSB_GetScrollInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard GetScrollInfo function.
 old-location: controls\FlatSB_GetScrollInfo.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FlatSB_GetScrollInfo, FlatSB_GetScrollInfo function [Windows Controls], SB_HORZ, SB_VERT, SIF_ALL, SIF_PAGE, SIF_POS, SIF_RANGE, _win32_FlatSB_GetScrollInfo, _win32_FlatSB_GetScrollInfo_cpp, commctrl/FlatSB_GetScrollInfo, controls.FlatSB_GetScrollInfo, controls._win32_FlatSB_GetScrollInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

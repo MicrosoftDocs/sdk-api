@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d12.ID3D12Object
 title: ID3D12Object
-author: windows-driver-content
+author: windows-sdk-content
 description: An interface from which ID3D12Device and ID3D12DeviceChild inherit from. It provides methods to associate private data and annotate object names.
 old-location: direct3d12\id3d12object.htm
 old-project: direct3d12
 ms.assetid: D2B2BC74-E89D-4D3A-8808-6E4A94992769
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12Object, ID3D12Object interface, ID3D12Object interface,described, d3d12/ID3D12Object, direct3d12.id3d12object
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d12.h
 req.include-header: 

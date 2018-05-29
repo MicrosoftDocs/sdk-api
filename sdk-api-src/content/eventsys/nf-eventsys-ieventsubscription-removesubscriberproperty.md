@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventSubscription.RemoveSubscriberProperty
 title: IEventSubscription::RemoveSubscriberProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a property and its value from the property bag that defines subscriber context.
 old-location: cos\ieventsubscription_removesubscriberproperty.htm
 old-project: cossdk
 ms.assetid: 3c0cd763-8528-4f8b-8a09-c36860cad9b7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEventSubscription interface [COM+],RemoveSubscriberProperty method, IEventSubscription.RemoveSubscriberProperty, IEventSubscription::RemoveSubscriberProperty, RemoveSubscriberProperty, RemoveSubscriberProperty method [COM+], RemoveSubscriberProperty method [COM+],IEventSubscription interface, _cos_IEventSubscription_RemoveSubscriberProperty, cos.ieventsubscription_removesubscriberproperty, eventsys/IEventSubscription::RemoveSubscriberProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

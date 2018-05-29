@@ -1,16 +1,16 @@
 ---
 UID: NS:wtsapi32._WTSLISTENERCONFIGA
 title: "_WTSLISTENERCONFIGA"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about a Remote Desktop Services listener.
 old-location: termserv\wtslistenerconfig.htm
 old-project: TermServ
 ms.assetid: 051cab0b-701c-4bb9-8728-6b383cdb8e6a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PWTSLISTENERCONFIGA, 1, 2, 3, 4, 5, PWTSLISTENERCONFIG, PWTSLISTENERCONFIG structure pointer [Remote Desktop Services], WTSLISTENERCONFIG, WTSLISTENERCONFIG structure [Remote Desktop Services], WTSLISTENERCONFIGA, WTSLISTENERCONFIGW, _WTSLISTENERCONFIGA, termserv.wtslistenerconfig, wtsapi32/PWTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIG, wtsapi32/WTSLISTENERCONFIGA, wtsapi32/WTSLISTENERCONFIGW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 

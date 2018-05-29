@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.SetCandidate
 title: IInkLineInfo::SetCandidate
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates one recognition alternate in the recognition result list, either by replacing an existing alternate, or by adding an alternate to the list.
 old-location: tablet\iinklineinfo_setcandidate.htm
 old-project: tablet
 ms.assetid: 0301706b-6d3e-4fe4-af87-764b1c959707
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 0301706b-6d3e-4fe4-af87-764b1c959707, IInkLineInfo interface [Tablet PC],SetCandidate method, IInkLineInfo.SetCandidate, IInkLineInfo::SetCandidate, SetCandidate, SetCandidate method [Tablet PC], SetCandidate method [Tablet PC],IInkLineInfo interface, msinkaut/IInkLineInfo::SetCandidate, tablet.iinklineinfo_setcandidate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

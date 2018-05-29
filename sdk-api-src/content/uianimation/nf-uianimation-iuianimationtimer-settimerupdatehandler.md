@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.SetTimerUpdateHandler
 title: IUIAnimationTimer::SetTimerUpdateHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a timer update handler.
 old-location: uianimation\iuianimationtimer_settimerupdatehandler.htm
 old-project: UIAnimation
 ms.assetid: 69c5f8b2-f3c8-43aa-8dae-cedd0036dc03
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationTimer interface [Windows Animation],SetTimerUpdateHandler method, IUIAnimationTimer.SetTimerUpdateHandler, IUIAnimationTimer::SetTimerUpdateHandler, SetTimerUpdateHandler, SetTimerUpdateHandler method [Windows Animation], SetTimerUpdateHandler method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_settimerupdatehandler, uianimation/IUIAnimationTimer::SetTimerUpdateHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

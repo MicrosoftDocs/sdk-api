@@ -1,16 +1,16 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.ShowError
 title: ISyncMgrSynchronize::ShowError
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the synchronization manager in a registered application handler when a user double-clicks an associated message in the error tab.
 old-location: shell\syncmgr_isyncmgrsynchronize_showerror.htm
 old-project: shell
 ms.assetid: 0e313c61-6482-4396-b4b8-824fba0226ac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],ShowError method, ISyncMgrSynchronize.ShowError, ISyncMgrSynchronize::ShowError, ShowError, ShowError method [Windows Shell], ShowError method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::ShowError, shell.syncmgr_isyncmgrsynchronize_showerror, syncmgr.isyncmgrsynchronize_showerror
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mobsync.h
 req.include-header: 

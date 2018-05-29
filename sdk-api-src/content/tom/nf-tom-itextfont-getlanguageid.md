@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont.GetLanguageID
 title: ITextFont::GetLanguageID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the language ID or language code identifier (LCID).
 old-location: controls\ITextFont_GetLanguageID.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlanguageid.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetLanguageID, GetLanguageID method [Windows Controls], GetLanguageID method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetLanguageID method, ITextFont.GetLanguageID, ITextFont::GetLanguageID, _win32_ITextFont_GetLanguageID, _win32_ITextFont_GetLanguageID_cpp, controls.ITextFont_GetLanguageID, controls._win32_ITextFont_GetLanguageID, tom/ITextFont::GetLanguageID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

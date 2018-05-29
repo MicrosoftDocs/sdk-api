@@ -1,16 +1,16 @@
 ---
 UID: NN:xpsobjectmodel_2.IXpsOMPackageWriter3D
 title: IXpsOMPackageWriter3D
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains methods that support model textures and print ticket.
 old-location: xps\ixpsompackagewriter3d.htm
 old-project: printdocs
 ms.assetid: 2F3E0529-7E2B-4BCD-AE8F-D0F3259D1A48
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPackageWriter3D, IXpsOMPackageWriter3D interface [XPS Documents and Packaging], IXpsOMPackageWriter3D interface [XPS Documents and Packaging],described, xps.ixpsompackagewriter3d, xpsobjectmodel_2/IXpsOMPackageWriter3D
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xpsobjectmodel_2.h
 req.include-header: 

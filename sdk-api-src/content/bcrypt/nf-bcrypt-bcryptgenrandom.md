@@ -1,16 +1,16 @@
 ---
 UID: NF:bcrypt.BCryptGenRandom
 title: BCryptGenRandom function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates a random number.
 old-location: security\bcryptgenrandom_func.htm
 old-project: SecCNG
 ms.assetid: 7c6cee3a-f2c5-46f3-8cfe-984316f323d9
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_RNG_USE_ENTROPY_IN_BUFFER, BCRYPT_USE_SYSTEM_PREFERRED_RNG, BCryptGenRandom, BCryptGenRandom function [Security], bcrypt/BCryptGenRandom, security.bcryptgenrandom_func
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bcrypt.h
 req.include-header: 

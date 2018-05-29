@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getByAuthor
 title: IWMPMediaCollection::getByAuthor
-author: windows-driver-content
+author: windows-sdk-content
 description: The getByAuthor method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items for the specified author.
 old-location: wmp\iwmpmediacollection_getbyauthor.htm
 old-project: WMP
 ms.assetid: 415dfbe5-c709-4674-bcdd-38742150d11f
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getByAuthor method, IWMPMediaCollection.getByAuthor, IWMPMediaCollection::getByAuthor, IWMPMediaCollectiongetByAuthor, getByAuthor, getByAuthor method [Windows Media Player], getByAuthor method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getbyauthor, wmp/IWMPMediaCollection::getByAuthor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:dxgi1_4.IDXGISwapChain3
 title: IDXGISwapChain3
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends IDXGISwapChain2 with methods to support getting the index of the swap chain's current back buffer and support for color space.
 old-location: direct3ddxgi\idxgiswapchain3.htm
 old-project: direct3ddxgi
 ms.assetid: 3B91A70D-C635-46DF-871D-F1796D4E50E7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGISwapChain3, IDXGISwapChain3 interface [DXGI], IDXGISwapChain3 interface [DXGI],described, direct3ddxgi.idxgiswapchain3, dxgi1_4/IDXGISwapChain3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dxgi1_4.h
 req.include-header: 

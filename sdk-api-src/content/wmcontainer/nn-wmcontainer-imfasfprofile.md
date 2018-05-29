@@ -1,16 +1,16 @@
 ---
 UID: NN:wmcontainer.IMFASFProfile
 title: IMFASFProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages an Advanced Systems Format (ASF) profile.
 old-location: mf\imfasfprofile.htm
 old-project: medfound
 ms.assetid: fe441c61-1be7-4fda-a2a3-bd79ecf4e54c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFASFProfile, IMFASFProfile interface [Media Foundation], IMFASFProfile interface [Media Foundation],described, fe441c61-1be7-4fda-a2a3-bd79ecf4e54c, mf.imfasfprofile, wmcontainer/IMFASFProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmcontainer.h
 req.include-header: 

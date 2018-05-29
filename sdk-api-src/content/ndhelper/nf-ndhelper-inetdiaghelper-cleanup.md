@@ -1,16 +1,16 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Cleanup
 title: INetDiagHelper::Cleanup
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows the Helper Class Extension to clean up resources following a diagnosis or repair operation.
 old-location: ndf\inetdiaghelpe_cleanup.htm
 old-project: NDF
 ms.assetid: d50d3415-8fa7-404c-8030-8ea7a59820e4
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Cleanup, Cleanup method [NDF], Cleanup method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],Cleanup method, INetDiagHelper.Cleanup, INetDiagHelper::Cleanup, ndf.inetdiaghelpe_cleanup, ndhelper/INetDiagHelper::Cleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.IUrlAccessor.AddRequestParameter
 title: IUrlAccessor::AddRequestParameter
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests a property-value set.
 old-location: search\_search_IUrlAccessor_AddRequestParameter.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\addrequestparameter.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddRequestParameter, AddRequestParameter method [search], AddRequestParameter method [search],IUrlAccessor interface, IUrlAccessor interface [search],AddRequestParameter method, IUrlAccessor.AddRequestParameter, IUrlAccessor::AddRequestParameter, _search_IUrlAccessor_AddRequestParameter, search._search_IUrlAccessor_AddRequestParameter, searchapi/IUrlAccessor::AddRequestParameter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

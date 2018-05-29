@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcasync.RpcErrorResetEnumeration
 title: RpcErrorResetEnumeration function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcErrorResetEnumeration function resets an enumeration cursor for any in-process enumeration, resetting the process such that a subsequent call to the RpcErrorGetNextRecord retrieves the first extended error information record.
 old-location: rpc\rpcerrorresetenumeration.htm
 old-project: Rpc
 ms.assetid: fb41b923-7fd3-4058-9f5f-df4018d9b872
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcErrorResetEnumeration, RpcErrorResetEnumeration function [RPC], _rpc_rpcerrorresetenumeration, rpc.rpcerrorresetenumeration, rpcasync/RpcErrorResetEnumeration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h

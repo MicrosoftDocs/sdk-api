@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrCatBuffA
 title: StrCatBuffA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies and appends characters from one string to the end of another.
 old-location: shell\StrCatBuff.htm
 old-project: shell
 ms.assetid: ce8c002f-f4f8-4b5f-a9e2-7bcd21f8808c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrCatBuff, StrCatBuff function [Windows Shell], StrCatBuffA, StrCatBuffW, _win32_StrCatBuff, shell.StrCatBuff, shlwapi/StrCatBuff, shlwapi/StrCatBuffA, shlwapi/StrCatBuffW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

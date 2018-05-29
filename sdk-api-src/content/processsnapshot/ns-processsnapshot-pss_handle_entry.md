@@ -1,16 +1,16 @@
 ---
 UID: NS:processsnapshot.PSS_HANDLE_ENTRY
 title: PSS_HANDLE_ENTRY
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds information about a handle returned by PssWalkSnapshot.
 old-location: proc_snap\pss_handle_entry.htm
 old-project: proc_snap
 ms.assetid: F56E8C35-949A-4DEE-973F-CF24F6596036
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PSS_HANDLE_ENTRY, PSS_HANDLE_ENTRY structure, proc_snap.pss_handle_entry, processsnapshot/PSS_HANDLE_ENTRY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

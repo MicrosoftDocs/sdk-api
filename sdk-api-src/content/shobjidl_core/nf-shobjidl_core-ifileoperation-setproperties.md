@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.SetProperties
 title: IFileOperation::SetProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Declares a set of properties and values to be set on an item or items.
 old-location: shell\IFileOperation_SetProperties.htm
 old-project: shell
 ms.assetid: b54efc12-42e9-4a90-a4d9-0e75bcdba0d6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileOperation interface [Windows Shell],SetProperties method, IFileOperation.SetProperties, IFileOperation::SetProperties, SetProperties, SetProperties method [Windows Shell], SetProperties method [Windows Shell],IFileOperation interface, _shell_IFileOperation_SetProperties, shell.IFileOperation_SetProperties, shobjidl_core/IFileOperation::SetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

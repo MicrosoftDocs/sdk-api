@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICspStatus.Initialize
 title: ICspStatus::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the object from a cryptographic provider and an associated algorithm.
 old-location: security\icspstatus_initialize.htm
 old-project: SecCertEnroll
 ms.assetid: dc5f92e8-29fe-474c-bf1d-c6d7716abce1
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICspStatus interface [Security],Initialize method, ICspStatus.Initialize, ICspStatus::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICspStatus interface, certenroll/ICspStatus::Initialize, security.icspstatus_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

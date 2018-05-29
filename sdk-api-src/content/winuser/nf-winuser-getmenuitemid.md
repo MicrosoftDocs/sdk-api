@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.GetMenuItemID
 title: GetMenuItemID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the menu item identifier of a menu item located at the specified position in a menu.
 old-location: menurc\getmenuitemid.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuitemid.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetMenuItemID, GetMenuItemID function [Menus and Other Resources], _win32_GetMenuItemID, _win32_getmenuitemid_cpp, menurc.getmenuitemid, winui._win32_getmenuitemid, winuser/GetMenuItemID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

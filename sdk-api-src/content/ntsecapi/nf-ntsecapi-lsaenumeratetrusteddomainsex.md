@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaEnumerateTrustedDomainsEx
 title: LsaEnumerateTrustedDomainsEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns information about the domains trusted by the local system.
 old-location: security\lsaenumeratetrusteddomainsex.htm
 old-project: SecMgmt
 ms.assetid: 4a203bff-c3e1-4d95-b556-617dc8c2e8c2
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaEnumerateTrustedDomainsEx, LsaEnumerateTrustedDomainsEx function [Security], _lsa_lsaenumeratetrusteddomainsex, ntsecapi/LsaEnumerateTrustedDomainsEx, security.lsaenumeratetrusteddomainsex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

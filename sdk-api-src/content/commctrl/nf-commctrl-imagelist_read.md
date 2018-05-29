@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ImageList_Read
 title: ImageList_Read function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads an image list from a stream.
 old-location: controls\ImageList_Read.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_read.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ImageList_Read, ImageList_Read function [Windows Controls], _win32_ImageList_Read, _win32_ImageList_Read_cpp, commctrl/ImageList_Read, controls.ImageList_Read, controls._win32_ImageList_Read
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commctrl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_BUFFER_DESC
 title: D3D11_BUFFER_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a buffer resource.
 old-location: direct3d11\d3d11_buffer_desc.htm
 old-project: direct3d11
 ms.assetid: a5e470bb-011b-4a2a-96d6-cbf76fe12638
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_BUFFER_DESC, D3D11_BUFFER_DESC structure [Direct3D 11], d2dd6908-ed59-4009-c1dc-5afae3472d02, d3d11/D3D11_BUFFER_DESC, direct3d11.d3d11_buffer_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

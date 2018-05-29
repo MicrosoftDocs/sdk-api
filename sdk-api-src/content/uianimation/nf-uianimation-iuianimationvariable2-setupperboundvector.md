@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.SetUpperBoundVector
 title: IUIAnimationVariable2::SetUpperBoundVector
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the upper bound (ceiling) value of each specified dimension for the animation variable. The value of each animation variable should not rise above its upper bound.
 old-location: uianimation\iuianimationvariable2_setupperboundvector.htm
 old-project: UIAnimation
 ms.assetid: 776CDF6F-F93F-44DC-93D7-79D3A866FAF2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetUpperBoundVector method, IUIAnimationVariable2.SetUpperBoundVector, IUIAnimationVariable2::SetUpperBoundVector, SetUpperBoundVector, SetUpperBoundVector method [Windows Animation], SetUpperBoundVector method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setupperboundvector, uianimation/IUIAnimationVariable2::SetUpperBoundVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

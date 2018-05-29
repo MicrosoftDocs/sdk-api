@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RTM_IPV4_GET_ADDR_AND_LEN
 title: RTM_IPV4_GET_ADDR_AND_LEN macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The RTM_IPV4_GET_ADDR_AND_LEN macro converts a generic net address and length to an IPv4 RTM_NET_ADDRESS structure and length.
 old-location: rras\rtm_ipv4_get_addr_and_len.htm
 old-project: RRAS
 ms.assetid: e37bb309-845c-4685-bbfd-15ffc6c74fd0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RTM_IPV4_GET_ADDR_AND_LEN, RTM_IPV4_GET_ADDR_AND_LEN macro [RAS], _rtmv2ref_rtm_ipv4_get_addr_and_len, rras.rtm_ipv4_get_addr_and_len, rtmv2/RTM_IPV4_GET_ADDR_AND_LEN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: rtmv2.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CurrentAnnotationTypes
 title: IUIAutomationElement4::get_CurrentAnnotationTypes
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the current list of annotation types associated with this element, such as comment, header, footer, and so on.
 old-location: winauto\uiauto_IUIAutomationElement4_CurrentAnnotationTypes.htm
 old-project: WinAuto
 ms.assetid: 665297AC-AD49-44F4-A51C-16D3EC85B431
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentAnnotationTypes property [Windows Accessibility], CurrentAnnotationTypes property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CurrentAnnotationTypes property, IUIAutomationElement4.CurrentAnnotationTypes, IUIAutomationElement4.get_CurrentAnnotationTypes, IUIAutomationElement4::CurrentAnnotationTypes, IUIAutomationElement4::get_CurrentAnnotationTypes, get_CurrentAnnotationTypes, uiautomationclient/IUIAutomationElement4::CurrentAnnotationTypes, uiautomationclient/IUIAutomationElement4::get_CurrentAnnotationTypes, winauto.uiauto_IUIAutomationElement4_CurrentAnnotationTypes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

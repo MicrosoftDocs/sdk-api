@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplication.AddDelegatedPolicyUserName
 title: IAzApplication::AddDelegatedPolicyUserName
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the specified account name to the list of principals that act as delegated policy users.
 old-location: security\iazapplication_adddelegatedpolicyusername.htm
 old-project: SecAuthZ
 ms.assetid: f30392f6-7100-43dd-ab20-419cd02d9ea5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddDelegatedPolicyUserName, AddDelegatedPolicyUserName method [Security], AddDelegatedPolicyUserName method [Security],AzApplication object, AddDelegatedPolicyUserName method [Security],IAzApplication interface, AzApplication object [Security],AddDelegatedPolicyUserName method, IAzApplication interface [Security],AddDelegatedPolicyUserName method, IAzApplication.AddDelegatedPolicyUserName, IAzApplication::AddDelegatedPolicyUserName, azroles/IAzApplication::AddDelegatedPolicyUserName, security.iazapplication_adddelegatedpolicyusername
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

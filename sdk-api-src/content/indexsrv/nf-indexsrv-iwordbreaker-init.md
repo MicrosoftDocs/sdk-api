@@ -1,16 +1,16 @@
 ---
 UID: NF:indexsrv.IWordBreaker.Init
 title: IWordBreaker::Init
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the IWordBreaker implementation and indicates the mode in which the component operates.
 old-location: search\_search_IWordBreaker_Init.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\init.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWordBreaker interface [search],Init method, IWordBreaker.Init, IWordBreaker::Init, Init, Init method [search], Init method [search],IWordBreaker interface, _search_IWordBreaker_Init, indexsrv/IWordBreaker::Init, search._search_IWordBreaker_Init
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: indexsrv.h
 req.include-header: 

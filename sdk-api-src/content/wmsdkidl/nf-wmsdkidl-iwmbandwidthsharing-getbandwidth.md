@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMBandwidthSharing.GetBandwidth
 title: IWMBandwidthSharing::GetBandwidth
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetBandwidth method retrieves the bandwidth and maximum buffer size of a combined stream.
 old-location: wmformat\iwmbandwidthsharing_getbandwidth.htm
 old-project: wmformat
 ms.assetid: 2769328c-5c05-49fb-bfa6-729115dd417e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetBandwidth, GetBandwidth method [windows Media Format], GetBandwidth method [windows Media Format],IWMBandwidthSharing interface, IWMBandwidthSharing interface [windows Media Format],GetBandwidth method, IWMBandwidthSharing.GetBandwidth, IWMBandwidthSharing::GetBandwidth, IWMBandwidthSharingGetBandwidth, wmformat.iwmbandwidthsharing_getbandwidth, wmsdkidl/IWMBandwidthSharing::GetBandwidth
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

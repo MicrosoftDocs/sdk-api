@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplicationGroups.get_Count
 title: IAzApplicationGroups::get_Count
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of IAzApplicationGroup objects in the collection.
 old-location: security\iazapplicationgroups_count.htm
 old-project: SecAuthZ
 ms.assetid: d57e4428-3666-4eb0-8157-8b35acfc517b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzApplicationGroups object [Security],Count property, Count property [Security], Count property [Security],AzApplicationGroups object, Count property [Security],IAzApplicationGroups interface, IAzApplicationGroups interface [Security],Count property, IAzApplicationGroups.Count, IAzApplicationGroups.get_Count, IAzApplicationGroups::Count, IAzApplicationGroups::get_Count, azroles/IAzApplicationGroups::Count, azroles/IAzApplicationGroups::get_Count, get_Count, security.iazapplicationgroups_count
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

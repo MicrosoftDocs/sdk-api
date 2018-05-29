@@ -1,16 +1,16 @@
 ---
 UID: NN:atscpsipparser.ISCTE_EAS
 title: ISCTE_EAS
-author: windows-driver-content
+author: windows-sdk-content
 description: The ISCTE_EAS interface enables the client to get data from an ATSC emergency alert message (EAS) table.
 old-location: mstv\iscte_eas.htm
 old-project: mstv
 ms.assetid: 7b5620c3-f460-4118-a8a2-9b2561bd12cf
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], ISCTE_EAS interface [Microsoft TV Technologies],described, ISCTE_EASInterface, atscpsipparser/ISCTE_EAS, mstv.iscte_eas
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: atscpsipparser.h
 req.include-header: 

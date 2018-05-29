@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserSize
 title: LPSAFEARRAY_UserSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Calculates the wire size of the SAFEARRAY object, and gets its handle and data.
 old-location: automat\lpsafearray_usersize.htm
 old-project: automat
 ms.assetid: 85cb5bc1-5dab-4b50-950e-0d18c403f996
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: LPSAFEARRAY_UserSize, LPSAFEARRAY_UserSize function [Automation], _oa96_LPSAFEARRAY_UserSize, automat.lpsafearray_usersize, wia_xp/LPSAFEARRAY_UserSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wia_xp.h
 req.include-header: Propidlbase.h

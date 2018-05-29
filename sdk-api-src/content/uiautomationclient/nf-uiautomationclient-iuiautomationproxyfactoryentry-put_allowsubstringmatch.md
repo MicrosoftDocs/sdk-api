@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.put_AllowSubstringMatch
 title: IUIAutomationProxyFactoryEntry::put_AllowSubstringMatch
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves a value that specifies whether the proxy allows substring matching.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_AllowSubstringMatch.htm
 old-project: WinAuto
 ms.assetid: 8aa64070-7dd6-4a51-8458-6341daa856c7
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: AllowSubstringMatch property [Windows Accessibility], AllowSubstringMatch property [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, IUIAutomationProxyFactoryEntry interface [Windows Accessibility],AllowSubstringMatch property, IUIAutomationProxyFactoryEntry.AllowSubstringMatch, IUIAutomationProxyFactoryEntry.put_AllowSubstringMatch, IUIAutomationProxyFactoryEntry::AllowSubstringMatch, IUIAutomationProxyFactoryEntry::get_AllowSubstringMatch, IUIAutomationProxyFactoryEntry::put_AllowSubstringMatch, put_AllowSubstringMatch, uiauto.uiauto_IUIAutomationProxyFactoryEntry_AllowSubstringMatch, uiauto_IUIAutomationProxyFactoryEntry_AllowSubstringMatch, uiautomationclient/IUIAutomationProxyFactoryEntry::AllowSubstringMatch, uiautomationclient/IUIAutomationProxyFactoryEntry::get_AllowSubstringMatch, uiautomationclient/IUIAutomationProxyFactoryEntry::put_AllowSubstringMatch, winauto.uiauto_IUIAutomationProxyFactoryEntry_AllowSubstringMatch
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

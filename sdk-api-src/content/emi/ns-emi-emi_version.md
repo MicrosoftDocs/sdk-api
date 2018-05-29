@@ -1,16 +1,16 @@
 ---
 UID: NS:emi.EMI_VERSION
 title: EMI_VERSION
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMI_VERSION structure describes the version of the Energy Metering Interface (EMI) that is supported by a device.
 old-location: powermeter\emi_version.htm
 old-project: powermeter
 ms.assetid: 00CDB74C-B0DB-426E-9D94-7DBCFF15793F
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: EMI_VERSION, EMI_VERSION structure [Power Metering and Budgeting Devices], PEMI_VERSION, PEMI_VERSION structure pointer [Power Metering and Budgeting Devices], emi/EMI_VERSION, emi/PEMI_VERSION, powermeter.emi_version
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: emi.h
 req.include-header: Emi.h

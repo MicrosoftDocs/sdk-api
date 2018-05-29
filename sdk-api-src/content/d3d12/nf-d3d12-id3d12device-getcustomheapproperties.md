@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetCustomHeapProperties
 title: ID3D12Device::GetCustomHeapProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Divulges the equivalent custom heap properties that are used for non-custom heap types, based on the adapter's architectural properties.
 old-location: direct3d12\id3d12device_getcustomheapproperties.htm
 old-project: direct3d12
 ms.assetid: FD1A7C77-24C3-49D5-8F20-01D5FF7FC895
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetCustomHeapProperties, GetCustomHeapProperties method, GetCustomHeapProperties method,ID3D12Device interface, ID3D12Device interface,GetCustomHeapProperties method, ID3D12Device.GetCustomHeapProperties, ID3D12Device::GetCustomHeapProperties, d3d12/ID3D12Device::GetCustomHeapProperties, direct3d12.id3d12device_getcustomheapproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

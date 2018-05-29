@@ -1,16 +1,16 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceContent
 title: IPortableDeviceContent
-author: windows-driver-content
+author: windows-sdk-content
 description: The IPortableDeviceContent interface provides methods to create, enumerate, examine, and delete content on a device. To get this interface, call IPortableDevice::Content.
 old-location: wpdsdk\iportabledevicecontent.htm
 old-project: wpd_sdk
 ms.assetid: 7a03c673-8e7f-41a4-81ba-88406af2762d
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IPortableDeviceContent, IPortableDeviceContent interface [Windows Portable Devices SDK], IPortableDeviceContent interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceContent, wpdsdk.iportabledevicecontent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: portabledeviceapi.h
 req.include-header: 

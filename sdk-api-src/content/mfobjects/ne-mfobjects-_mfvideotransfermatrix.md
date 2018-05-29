@@ -1,16 +1,16 @@
 ---
 UID: NE:mfobjects._MFVideoTransferMatrix
 title: "_MFVideoTransferMatrix"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the conversion matrices between Y'PbPr (component video) and studio R'G'B'.
 old-location: mf\mfvideotransfermatrix.htm
 old-project: medfound
 ms.assetid: 08a05ee8-b053-4480-b7f9-6d96e541ccd9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 08a05ee8-b053-4480-b7f9-6d96e541ccd9, MFVideoTransferMatrix, MFVideoTransferMatrix enumeration [Media Foundation], MFVideoTransferMatrix_BT601, MFVideoTransferMatrix_BT709, MFVideoTransferMatrix_ForceDWORD, MFVideoTransferMatrix_Last, MFVideoTransferMatrix_SMPTE240M, MFVideoTransferMatrix_Unknown, _MFVideoTransferMatrix, mf.mfvideotransfermatrix, mfobjects/MFVideoTransferMatrix, mfobjects/MFVideoTransferMatrix_BT601, mfobjects/MFVideoTransferMatrix_BT709, mfobjects/MFVideoTransferMatrix_ForceDWORD, mfobjects/MFVideoTransferMatrix_Last, mfobjects/MFVideoTransferMatrix_SMPTE240M, mfobjects/MFVideoTransferMatrix_Unknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfobjects.h
 req.include-header: Mfidl.h

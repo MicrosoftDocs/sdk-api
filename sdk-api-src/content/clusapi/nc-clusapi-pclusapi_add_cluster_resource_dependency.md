@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY
 title: PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a dependency relationship between two resources.
 old-location: mscs\addclusterresourcedependency.htm
 old-project: MsCS
 ms.assetid: 37f173f3-514e-434b-8531-d308c6233a24
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY, PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY callback, PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY callback function [Failover Cluster], _wolf_addclusterresourcedependency, clusapi/PCLUSAPI_ADD_CLUSTER_RESOURCE_DEPENDENCY, mscs.addclusterresourcedependency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

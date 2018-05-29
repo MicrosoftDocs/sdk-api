@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncFullEnumerationChangeBatch.GetLearnedKnowledgeAfterRecoveryComplete
 title: ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the knowledge the destination replica will learn after it applies all the changes in the recovery synchronization.
 old-location: winsync\isyncfullenumerationchangebatch_getlearnedknowledgeafterrecoverycomplete.htm
 old-project: winsync
 ms.assetid: 8eb9fdbf-b1ce-4acf-837f-01d693940790
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetLearnedKnowledgeAfterRecoveryComplete, GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync], GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync],ISyncFullEnumerationChangeBatch interface, ISyncFullEnumerationChangeBatch interface [Windows Sync],GetLearnedKnowledgeAfterRecoveryComplete method, ISyncFullEnumerationChangeBatch.GetLearnedKnowledgeAfterRecoveryComplete, ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete, winsync.isyncfullenumerationchangebatch_getlearnedknowledgeafterrecoverycomplete, winsync/ISyncFullEnumerationChangeBatch::GetLearnedKnowledgeAfterRecoveryComplete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

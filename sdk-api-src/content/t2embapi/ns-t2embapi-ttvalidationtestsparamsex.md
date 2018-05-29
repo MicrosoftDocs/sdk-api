@@ -1,16 +1,16 @@
 ---
 UID: NS:t2embapi.TTVALIDATIONTESTSPARAMSEX
 title: TTVALIDATIONTESTSPARAMSEX
-author: windows-driver-content
+author: windows-sdk-content
 description: The TTVALIDATIONTESTSPARAMSEX structure contains parameters for testing a Microsoft OpenType font.
 old-location: gdi\ttvalidationtestparamsex.htm
 old-project: gdi
 ms.assetid: 03bcfb1a-6ed8-4e78-b3c8-64d29dc74dbc
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: TTVALIDATIONTESTSPARAMSEX, TTVALIDATIONTESTSPARAMSEX structure [Windows GDI], _win32_TTVALIDATIONTESTPARAMSEX, gdi.ttvalidationtestparamsex, t2embapi/TTVALIDATIONTESTSPARAMSEX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: t2embapi.h
 req.include-header: 

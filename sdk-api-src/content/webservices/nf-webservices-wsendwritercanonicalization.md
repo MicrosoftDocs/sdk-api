@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsEndWriterCanonicalization
 title: WsEndWriterCanonicalization function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function stops XML canonicalization started by the preceding WsStartWriterCanonicalization call. Remaining canonical bytes buffered by the writer are written to the callback function.
 old-location: wsw\wsendwritercanonicalization.htm
 old-project: wsw
 ms.assetid: 169f971e-0cd2-44e7-81fc-059cc3cd357d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsEndWriterCanonicalization, WsEndWriterCanonicalization function [Web Services for Windows], webservices/WsEndWriterCanonicalization, wsw.wsendwritercanonicalization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

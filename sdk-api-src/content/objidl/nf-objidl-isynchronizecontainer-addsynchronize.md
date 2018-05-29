@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.ISynchronizeContainer.AddSynchronize
 title: ISynchronizeContainer::AddSynchronize
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a synchronization object to the container.
 old-location: com\isynchronizecontainer_addsynchronize.htm
 old-project: com
 ms.assetid: b2d48de3-848c-4cc9-bd96-fffbb2ca2ba3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddSynchronize, AddSynchronize method [COM], AddSynchronize method [COM],ISynchronizeContainer interface, ISynchronizeContainer interface [COM],AddSynchronize method, ISynchronizeContainer.AddSynchronize, ISynchronizeContainer::AddSynchronize, _com_isynchronizecontainer_addsynchronize, com.isynchronizecontainer_addsynchronize, objidlbase/ISynchronizeContainer::AddSynchronize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

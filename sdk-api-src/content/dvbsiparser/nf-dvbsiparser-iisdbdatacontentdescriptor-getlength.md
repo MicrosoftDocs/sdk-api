@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetLength
 title: IIsdbDataContentDescriptor::GetLength
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) data content descriptor, in bytes.
 old-location: mstv\iisdbdatacontentdescriptor_getlength.htm
 old-project: mstv
 ms.assetid: 51546c62-5042-460d-a792-2253bd57df13
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbDataContentDescriptor.GetLength, IIsdbDataContentDescriptor::GetLength, dvbsiparser/IIsdbDataContentDescriptor::GetLength, mstv.iisdbdatacontentdescriptor_getlength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

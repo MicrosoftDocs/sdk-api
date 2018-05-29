@@ -1,16 +1,16 @@
 ---
 UID: NF:atacct.GetNetScheduleAccountInformation
 title: GetNetScheduleAccountInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNetScheduleAccountInformation function retrieves the AT Service account name.
 old-location: netmgmt\getnetscheduleaccountinformation.htm
 old-project: NetMgmt
 ms.assetid: 935de94a-6791-4ea2-ac39-cf71ef7cb726
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetNetScheduleAccountInformation, GetNetScheduleAccountInformation function [Network Management], atacct/GetNetScheduleAccountInformation, netmgmt.getnetscheduleaccountinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: atacct.h
 req.include-header: 

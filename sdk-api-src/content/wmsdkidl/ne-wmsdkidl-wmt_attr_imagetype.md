@@ -1,16 +1,16 @@
 ---
 UID: NE:wmsdkidl.WMT_ATTR_IMAGETYPE
 title: WMT_ATTR_IMAGETYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMT_ATTR_IMAGETYPE enumeration type lists image types that can be stored in the header of an ASF file.
 old-location: wmformat\wmt_attr_imagetype.htm
 old-project: wmformat
 ms.assetid: 0e032796-4bbf-4307-982f-560a56506db2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMT_ATTR_IMAGETYPE, WMT_ATTR_IMAGETYPE enumeration [windows Media Format], WMT_IMAGETYPE_BITMAP, WMT_IMAGETYPE_GIF, WMT_IMAGETYPE_JPEG, wmformat.wmt_attr_imagetype, wmsdkidl/WMT_ATTR_IMAGETYPE, wmsdkidl/WMT_IMAGETYPE_BITMAP, wmsdkidl/WMT_IMAGETYPE_GIF, wmsdkidl/WMT_IMAGETYPE_JPEG
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

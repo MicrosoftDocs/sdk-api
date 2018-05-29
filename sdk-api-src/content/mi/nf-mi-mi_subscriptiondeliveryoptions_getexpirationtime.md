@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetExpirationTime
 title: MI_SubscriptionDeliveryOptions_GetExpirationTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the delivery expiration value (which can be expressed as a timestamp or an interval).
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getexpirationtime.htm
 old-project: wmi_v2
 ms.assetid: b76abb3b-e7f4-4b4b-866a-51a7d8b0066d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetExpirationTime, MI_SubscriptionDeliveryOptions_GetExpirationTime function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetExpirationTime, wmi_v2.mi_subscriptiondeliveryoptions_getexpirationtime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

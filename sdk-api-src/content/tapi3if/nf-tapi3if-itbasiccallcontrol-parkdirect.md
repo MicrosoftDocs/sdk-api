@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.ParkDirect
 title: ITBasicCallControl::ParkDirect
-author: windows-driver-content
+author: windows-sdk-content
 description: The ParkDirect method parks the call at a specified address.
 old-location: tapi3\itbasiccallcontrol_parkdirect.htm
 old-project: Tapi
 ms.assetid: 6461fd21-1726-4d24-8a17-d687b807b8e3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],ParkDirect method, ITBasicCallControl.ParkDirect, ITBasicCallControl::ParkDirect, ParkDirect, ParkDirect method [TAPI 2.2], ParkDirect method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_parkdirect, tapi3.itbasiccallcontrol_parkdirect, tapi3if/ITBasicCallControl::ParkDirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

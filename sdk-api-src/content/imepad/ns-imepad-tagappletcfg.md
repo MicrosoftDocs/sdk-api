@@ -1,16 +1,16 @@
 ---
 UID: NS:imepad.tagAPPLETCFG
 title: tagAPPLETCFG
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to specify and set applet configuration in IImePad.
 old-location: intl\imeappletcfg.htm
 old-project: Intl
 ms.assetid: 2680231A-0A9C-4723-8E7D-73184C209050
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPIMEAPPLETCFG, IMEAPPLETCFG, IMEAPPLETCFG structure [Internationalization for Windows Applications], IPACFG_CATEGORY, IPACFG_HELP, IPACFG_LANG, IPACFG_NONE, IPACFG_PROPERTY, IPACFG_TITLE, IPACFG_TITLEFONTFACE, PIMEAPPLETCFG, PIMEAPPLETCFG structure pointer [Internationalization for Windows Applications], imepad/IMEAPPLETCFG, imepad/PIMEAPPLETCFG, intl.imeappletcfg, tagAPPLETCFG"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: imepad.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:evntcons._EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID
 title: "_EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the parent event of this event.
 old-location: etw\event_extended_item_related_activityid.htm
 old-project: ETW
 ms.assetid: cabc11ca-e65e-4ffd-9832-7fb4f77417e4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID structure [ETW], PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID structure pointer [ETW], _EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, base.event_extended_item_related_activityid, etw.event_extended_item_related_activityid, evntcons/EVENT_EXTENDED_ITEM_RELATED_ACTIVITYID, evntcons/PEVENT_EXTENDED_ITEM_RELATED_ACTIVITYID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntcons.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:olectl.OleLoadPictureFile
 title: OleLoadPictureFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IPictureDisp object from a picture file on disk.
 old-location: automat\oleloadpicturefile.htm
 old-project: automat
 ms.assetid: ecfbf297-88fa-42bf-afa7-f7884be17b15
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: OleLoadPictureFile, OleLoadPictureFile function [Automation], _oa96_OleLoadPictureFile, automat.oleloadpicturefile, olectl/OleLoadPictureFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: olectl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.CreateObjectWithPropertiesOnly
 title: IPortableDeviceContent::CreateObjectWithPropertiesOnly
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateObjectWithPropertiesOnly method creates an object with only properties on the device.
 old-location: wpdsdk\iportabledevicecontent_createobjectwithpropertiesonly.htm
 old-project: wpd_sdk
 ms.assetid: 0695d3d6-1f0d-45b4-8461-a76d759b6c09
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CreateObjectWithPropertiesOnly, CreateObjectWithPropertiesOnly method [Windows Portable Devices SDK], CreateObjectWithPropertiesOnly method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],CreateObjectWithPropertiesOnly method, IPortableDeviceContent.CreateObjectWithPropertiesOnly, IPortableDeviceContent::CreateObjectWithPropertiesOnly, IPortableDeviceContentCreateObjectWithPropertiesOnly, portabledeviceapi/IPortableDeviceContent::CreateObjectWithPropertiesOnly, wpdsdk.iportabledevicecontent_createobjectwithpropertiesonly
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

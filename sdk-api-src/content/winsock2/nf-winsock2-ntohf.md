@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.ntohf
 title: ntohf function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an unsigned __int32 from TCP/IP network order to host byte order (which is little-endian on Intel processors) and returns a float.
 old-location: winsock\ntohf.htm
 old-project: WinSock
 ms.assetid: FD98AE9D-C753-479C-BF44-7495B3B5C953
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: ntohf, ntohf function [Winsock], winsock.ntohf, winsock2/ntohf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

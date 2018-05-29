@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredUIReadSSOCredW
 title: CredUIReadSSOCredW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CredUIReadSSOCredW function retrieves the user name for a single logon credential.
 old-location: security\creduireadssocredw.htm
 old-project: SecAuthN
 ms.assetid: 875be45d-ad33-4a51-80ad-8217ca0446dc
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CredUIReadSSOCredW, CredUIReadSSOCredW function [Security], security.creduireadssocredw, wincred/CredUIReadSSOCredW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

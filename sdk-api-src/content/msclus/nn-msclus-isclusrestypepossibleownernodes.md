@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusResTypePossibleOwnerNodes
 title: ISClusResTypePossibleOwnerNodes
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the possible owner nodes of a resource type.
 old-location: mscs\clusrestypepossibleownernodes_collection.htm
 old-project: MsCS
 ms.assetid: be22d5b1-8c61-40a5-883c-f49651ba623d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusResTypePossibleOwnerNodes, ClusResTypePossibleOwnerNodes collection [Failover Cluster], ClusResTypePossibleOwnerNodes collection [Failover Cluster],described, ISClusResTypePossibleOwnerNodes, _wolf_clusrestypepossibleownernodes_collection, msclus/ClusResTypePossibleOwnerNodes, mscs.clusrestypepossibleownernodes_collection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITTAPI.SetCallHubTracking
 title: ITTAPI::SetCallHubTracking
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetCallHubTracking method enables or disables CallHub tracking.
 old-location: tapi3\ittapi_setcallhubtracking.htm
 old-project: Tapi
 ms.assetid: 8c33a294-ed45-4353-91ed-fa0d3d66e5da
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],SetCallHubTracking method, ITTAPI.SetCallHubTracking, ITTAPI::SetCallHubTracking, SetCallHubTracking, SetCallHubTracking method [TAPI 2.2], SetCallHubTracking method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_setcallhubtracking, tapi3.ittapi_setcallhubtracking, tapi3if/ITTAPI::SetCallHubTracking
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IMDSPEnumStorage.Reset
 title: IMDSPEnumStorage::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning. A subsequent call to the Next method fetches the first storage interface in the enumeration sequence.
 old-location: wmdm\imdspenumstorage_reset.htm
 old-project: WMDM
 ms.assetid: 1296406c-2c5d-4db8-965e-db11a9759560
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMDSPEnumStorage interface [windows Media Device Manager],Reset method, IMDSPEnumStorage.Reset, IMDSPEnumStorage::Reset, IMDSPEnumStorageReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IMDSPEnumStorage interface, mswmdm/IMDSPEnumStorage::Reset, wmdm.imdspenumstorage_reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.ICoreFragment
 title: ICoreFragment
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents knowledge of all items in the scope for a specific set of change units.
 old-location: winsync\icorefragment.htm
 old-project: winsync
 ms.assetid: 3e232531-ad44-4ad1-b186-46edbc07291b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ICoreFragment, ICoreFragment interface [Windows Sync], ICoreFragment interface [Windows Sync],described, winsync.icorefragment, winsync/ICoreFragment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsCollection.GetObject
 title: IADsCollection::GetObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an item of the collection.
 old-location: adsi\iadscollection_getobject.htm
 old-project: ADSI
 ms.assetid: 04b33451-505e-43de-8db4-3e37f9909ea6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetObject, GetObject method [ADSI], GetObject method [ADSI],IADsCollection interface, IADsCollection interface [ADSI],GetObject method, IADsCollection.GetObject, IADsCollection::GetObject, _ds_iadscollection_getobject, adsi.iadscollection__getobject, adsi.iadscollection_getobject, iads/IADsCollection::GetObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

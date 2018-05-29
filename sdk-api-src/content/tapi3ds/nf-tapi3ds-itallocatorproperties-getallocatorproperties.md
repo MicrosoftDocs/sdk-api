@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3ds.ITAllocatorProperties.GetAllocatorProperties
 title: ITAllocatorProperties::GetAllocatorProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAllocatorProperties method gets the current values for the allocator properties after connection and provides the negotiated values. This method is invalid before connection. The MST will accept any values suggested by the connected filters.
 old-location: tapi3\itallocatorproperties_getallocatorproperties.htm
 old-project: Tapi
 ms.assetid: 67360904-a632-43cf-9f67-50bbdbb62f48
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetAllocatorProperties, GetAllocatorProperties method [TAPI 2.2], GetAllocatorProperties method [TAPI 2.2],ITAllocatorProperties interface, ITAllocatorProperties interface [TAPI 2.2],GetAllocatorProperties method, ITAllocatorProperties.GetAllocatorProperties, ITAllocatorProperties::GetAllocatorProperties, _tapi3_itallocatorproperties_getallocatorproperties, tapi3.itallocatorproperties_getallocatorproperties, tapi3ds/ITAllocatorProperties::GetAllocatorProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3ds.h
 req.include-header: Tapi3.h

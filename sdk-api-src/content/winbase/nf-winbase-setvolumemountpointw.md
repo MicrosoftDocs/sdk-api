@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetVolumeMountPointW
 title: SetVolumeMountPointW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates a volume with a drive letter or a directory on another volume.
 old-location: fs\setvolumemountpoint.htm
 old-project: FileIO
 ms.assetid: 1535fe64-221a-4756-a9ba-81bbe7596598
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: SetVolumeMountPoint, SetVolumeMountPoint function [Files], SetVolumeMountPointA, SetVolumeMountPointW, _win32_setvolumemountpoint, base.setvolumemountpoint, fs.setvolumemountpoint, winbase/SetVolumeMountPoint, winbase/SetVolumeMountPointA, winbase/SetVolumeMountPointW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

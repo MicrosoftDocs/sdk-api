@@ -1,16 +1,16 @@
 ---
 UID: NS:batclass._BATTERY_WMI_STATUS
 title: "_BATTERY_WMI_STATUS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines battery status information.
 old-location: battery\battery_wmi_status.htm
 old-project: battery
 ms.assetid: BE3FB7CA-928D-4A2E-A11D-20E9D3F8841E
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PBATTERY_WMI_STATUS, BATTERY_WMI_STATUS, BATTERY_WMI_STATUS structure [Battery Devices], PBATTERY_WMI_STATUS, PBATTERY_WMI_STATUS structure pointer [Battery Devices], _BATTERY_WMI_STATUS, batclass/BATTERY_WMI_STATUS, batclass/PBATTERY_WMI_STATUS, battery.battery_wmi_status"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: batclass.h
 req.include-header: Batclass.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:lmaccess._USER_INFO_21
 title: "_USER_INFO_21"
-author: windows-driver-content
+author: windows-sdk-content
 description: The USER_INFO_21 structure contains a one-way encrypted LAN Manager 2.x-compatible password.
 old-location: netmgmt\user_info_21_str.htm
 old-project: NetMgmt
 ms.assetid: 227e97c5-972e-4d4a-9609-53e60e76d43e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPUSER_INFO_21, *PUSER_INFO_21, LPUSER_INFO_21, LPUSER_INFO_21 structure pointer [Network Management], PUSER_INFO_21, PUSER_INFO_21 structure pointer [Network Management], USER_INFO_21, USER_INFO_21 structure [Network Management], _USER_INFO_21, _win32_user_info_21_str, lmaccess/LPUSER_INFO_21, lmaccess/PUSER_INFO_21, lmaccess/USER_INFO_21, netmgmt.user_info_21_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

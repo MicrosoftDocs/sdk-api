@@ -1,16 +1,16 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter.Close
 title: IAppxBundleWriter::Close
-author: windows-driver-content
+author: windows-sdk-content
 description: Finalizes the bundle package by writing footprint files at the end of the package, and closes the writer’s output stream.
 old-location: appxpkg\iappxbundlewriter_close.htm
 old-project: appxpkg
 ms.assetid: 9826873D-87AF-4D6B-977B-1C24197C47F8
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxBundleWriter interface, IAppxBundleWriter interface [App packaging and management],Close method, IAppxBundleWriter.Close, IAppxBundleWriter::Close, appxpackaging/IAppxBundleWriter::Close, appxpkg.iappxbundlewriter_close
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: appxpackaging.h
 req.include-header: 

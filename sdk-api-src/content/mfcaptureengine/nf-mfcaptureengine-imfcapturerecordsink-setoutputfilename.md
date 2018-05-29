@@ -1,16 +1,16 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetOutputFileName
 title: IMFCaptureRecordSink::SetOutputFileName
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the name of the output file for the recording.
 old-location: mf\imfcapturerecordsink_setoutputfilename.htm
 old-project: medfound
 ms.assetid: 96BEE09C-1B17-4857-B0DC-553D14B908E7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFCaptureRecordSink interface [Media Foundation],SetOutputFileName method, IMFCaptureRecordSink.SetOutputFileName, IMFCaptureRecordSink::SetOutputFileName, SetOutputFileName, SetOutputFileName method [Media Foundation], SetOutputFileName method [Media Foundation],IMFCaptureRecordSink interface, mf.imfcapturerecordsink_setoutputfilename, mfcaptureengine/IMFCaptureRecordSink::SetOutputFileName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfcaptureengine.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:imapi2fs.PlatformId
 title: PlatformId
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values for the operating system architecture that the boot image supports.
 old-location: imapi\platformid.htm
 old-project: imapi
 ms.assetid: 296f9da1-99be-4d20-8961-f99cf220404a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: PlatformEFI, PlatformId, PlatformId enumeration [IMAPI], PlatformMac, PlatformPowerPC, PlatformX86, imapi.platformid, imapi2fs/PlatformEFI, imapi2fs/PlatformId, imapi2fs/PlatformMac, imapi2fs/PlatformPowerPC, imapi2fs/PlatformX86
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: imapi2fs.h
 req.include-header: 

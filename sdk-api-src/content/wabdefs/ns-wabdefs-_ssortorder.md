@@ -1,16 +1,16 @@
 ---
 UID: NS:wabdefs._SSortOrder
 title: "_SSortOrder"
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. Defines how to sort rows of a table, describing both the column to use as the sort key and the direction of the sort.
 old-location: wab\_wab_SSortOrder.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\ssortorder.htm
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPSSortOrder, LPSSortOrder, LPSSortOrder structure pointer [Windows Address Book], SSortOrder, SSortOrder structure [Windows Address Book], TABLE_SORT_ASCEND, TABLE_SORT_COMBINE, TABLE_SORT_DESCEND, _SSortOrder, _wab_SSortOrder, wab._wab_SSortOrder, wabdefs/LPSSortOrder, wabdefs/SSortOrder"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

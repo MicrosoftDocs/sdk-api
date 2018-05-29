@@ -1,16 +1,16 @@
 ---
 UID: NS:richedit.PARAFORMAT2
 title: PARAFORMAT2
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about paragraph formatting attributes in a rich edit control.
 old-location: controls\PARAFORMAT2.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\paraformat2.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0, 1, 10, 11, 12, 13, 14, 15, 16, 2, 3, 32, 4, 5, 6, 64, 7, 8, 9, PARAFORMAT2, PARAFORMAT2 structure [Windows Controls], PFA_CENTER, PFA_FULL_INTERWORD, PFA_JUSTIFY, PFA_LEFT, PFA_RIGHT, PFE_DONOTHYPHEN, PFE_KEEP, PFE_KEEPNEXT, PFE_NOLINENUMBER, PFE_NOWIDOWCONTROL, PFE_PAGEBREAKBEFORE, PFE_RTLPARA, PFE_SIDEBYSIDE, PFE_TABLE, PFE_TABLEROWDELIMITER, PFM_ALIGNMENT, PFM_ALL, PFM_ALL2, PFM_BORDER, PFM_DONOTHYPHEN, PFM_EFFECTS, PFM_KEEP, PFM_KEEPNEXT, PFM_LINESPACING, PFM_NOLINENUMBER, PFM_NOWIDOWCONTROL, PFM_NUMBERING, PFM_NUMBERINGSTART, PFM_NUMBERINGSTYLE, PFM_NUMBERINGTAB, PFM_OFFSET, PFM_OFFSETINDENT, PFM_OUTLINELEVEL, PFM_PAGEBREAKBEFORE, PFM_RIGHTINDENT, PFM_RTLPARA, PFM_SHADING, PFM_SIDEBYSIDE, PFM_SPACEAFTER, PFM_SPACEBEFORE, PFM_STARTINDENT, PFM_STYLE, PFM_TABLE, PFM_TABLEROWDELIMITER, PFM_TABSTOPS, PFNS_NEWNUMBER, PFNS_NONUMBER, PFNS_PAREN, PFNS_PARENS, PFNS_PERIOD, PFNS_PLAIN, PFN_ARABIC, PFN_BULLET, PFN_LCLETTER, PFN_LCROMAN, PFN_UCLETTER, PFN_UCROMAN, _win32_PARAFORMAT2_str, _win32_PARAFORMAT2_str_cpp, controls.PARAFORMAT2, controls._win32_PARAFORMAT2_str, richedit/PARAFORMAT2, zero
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: richedit.h
 req.include-header: 

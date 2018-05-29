@@ -1,16 +1,16 @@
 ---
 UID: NN:uiautomationcore.IToggleProvider
 title: IToggleProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to controls that can cycle through a set of states and maintain a state after it is set.
 old-location: winauto\uiauto_IToggleProvider.htm
 old-project: WinAuto
 ms.assetid: 85da8225-31b8-4b4d-81f4-ad98871b8e31
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IToggleProvider, IToggleProvider interface [Windows Accessibility], IToggleProvider interface [Windows Accessibility],described, uiauto.uiauto_IToggleProvider, uiauto_IToggleProvider, uiautomationcore/IToggleProvider, winauto.uiauto_IToggleProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

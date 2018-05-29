@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11_4.ID3D11Multithread
 title: ID3D11Multithread
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides threading protection for critical sections of a multi-threaded application.
 old-location: direct3d11\id3d11multithread.htm
 old-project: direct3d11
 ms.assetid: 1A07694E-7D61-4A59-82E3-048F04C8D57A
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11Multithread, ID3D11Multithread interface [Direct3D 11], ID3D11Multithread interface [Direct3D 11],described, d3d11_4/ID3D11Multithread, direct3d11.id3d11multithread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_4.h
 req.include-header: 

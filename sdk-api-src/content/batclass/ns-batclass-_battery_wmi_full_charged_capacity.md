@@ -1,16 +1,16 @@
 ---
 UID: NS:batclass._BATTERY_WMI_FULL_CHARGED_CAPACITY
 title: "_BATTERY_WMI_FULL_CHARGED_CAPACITY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines information about the capacity of a battery for use with the BatteryClassQueryWmiDataBlock).
 old-location: battery\battery_wmi_full_charged_capacity.htm
 old-project: battery
 ms.assetid: BE01DF36-71A8-464A-977B-499325DDB37E
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PBATTERY_WMI_FULL_CHARGED_CAPACITY, BATTERY_WMI_FULL_CHARGED_CAPACITY, BATTERY_WMI_FULL_CHARGED_CAPACITY structure [Battery Devices], PBATTERY_WMI_FULL_CHARGED_CAPACITY, PBATTERY_WMI_FULL_CHARGED_CAPACITY structure pointer [Battery Devices], _BATTERY_WMI_FULL_CHARGED_CAPACITY, batclass/BATTERY_WMI_FULL_CHARGED_CAPACITY, batclass/PBATTERY_WMI_FULL_CHARGED_CAPACITY, battery.battery_wmi_full_charged_capacity"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: batclass.h
 req.include-header: Batclass.h

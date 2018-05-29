@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.ObjectPrivilegeAuditAlarmA
 title: ObjectPrivilegeAuditAlarmA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates an audit message in the security event log.
 old-location: security\objectprivilegeauditalarm.htm
 old-project: SecAuthZ
 ms.assetid: 76714ffe-be7c-4928-b7c9-e72441ada4c7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ObjectPrivilegeAuditAlarm, ObjectPrivilegeAuditAlarm function [Security], ObjectPrivilegeAuditAlarmA, ObjectPrivilegeAuditAlarmW, _win32_objectprivilegeauditalarm, security.objectprivilegeauditalarm, winbase/ObjectPrivilegeAuditAlarm, winbase/ObjectPrivilegeAuditAlarmA, winbase/ObjectPrivilegeAuditAlarmW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

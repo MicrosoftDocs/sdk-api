@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.put_Name
 title: IWdsTransportNamespace::put_Name
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets or retrieves the name of the namespace.
 old-location: wds\iwdstransportnamespace_name.htm
 old-project: Wds
 ms.assetid: 242f97de-1748-4d60-b945-3d38e1976879
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Name property, IWdsTransportNamespace.Name, IWdsTransportNamespace.put_Name, IWdsTransportNamespace::Name, IWdsTransportNamespace::get_Name, IWdsTransportNamespace::put_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportNamespace interface, put_Name, wds.iwdstransportnamespace_name, wdstptmgmt/IWdsTransportNamespace::Name, wdstptmgmt/IWdsTransportNamespace::get_Name, wdstptmgmt/IWdsTransportNamespace::put_Name
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

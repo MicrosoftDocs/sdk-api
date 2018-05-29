@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetStreamsSelected
 title: IWMReaderAdvanced::SetStreamsSelected
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetStreamsSelected method specifies which streams are selected when manual stream selection is enabled.
 old-location: wmformat\iwmreaderadvanced_setstreamsselected.htm
 old-project: wmformat
 ms.assetid: 921ab9fe-757f-4856-9fbc-b615bf92d90f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetStreamsSelected method, IWMReaderAdvanced.SetStreamsSelected, IWMReaderAdvanced::SetStreamsSelected, IWMReaderAdvancedSetStreamsSelected, SetStreamsSelected, SetStreamsSelected method [windows Media Format], SetStreamsSelected method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setstreamsselected, wmsdkidl/IWMReaderAdvanced::SetStreamsSelected
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

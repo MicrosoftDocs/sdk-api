@@ -1,16 +1,16 @@
 ---
 UID: NF:chptrarr.CHPtrArray.GetAt
 title: CHPtrArray::GetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAt method accesses an element in a CHPtrArray array.
 old-location: wmi\chptrarray_getat.htm
 old-project: WmiSdk
 ms.assetid: 7c2f029f-22a1-4433-971e-35ce48c004e0
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?GetAt@CHPtrArray@@QBEPAXH@Z, CHPtrArray interface [Windows Management Instrumentation],GetAt method, CHPtrArray.GetAt, CHPtrArray::GetAt, GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::GetAt, wmi.chptrarray_getat"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chptrarr.h
 req.include-header: FwCommon.h

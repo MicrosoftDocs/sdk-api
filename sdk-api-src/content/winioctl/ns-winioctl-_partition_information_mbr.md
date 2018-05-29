@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl._PARTITION_INFORMATION_MBR
 title: "_PARTITION_INFORMATION_MBR"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains partition information specific to master boot record (MBR) disks.
 old-location: fs\partition_information_mbr_str.htm
 old-project: FileIO
 ms.assetid: 5b74b06f-ef4c-44ab-95c6-49c050faf1f4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PPARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR, PARTITION_INFORMATION_MBR structure [Files], PPARTITION_INFORMATION_MBR, PPARTITION_INFORMATION_MBR structure pointer [Files], _PARTITION_INFORMATION_MBR, _win32_partition_information_mbr_str, base.partition_information_mbr_str, fs.partition_information_mbr_str, winioctl/PARTITION_INFORMATION_MBR, winioctl/PPARTITION_INFORMATION_MBR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

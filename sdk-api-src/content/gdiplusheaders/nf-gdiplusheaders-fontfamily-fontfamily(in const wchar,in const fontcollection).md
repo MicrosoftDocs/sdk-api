@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.FontFamily(IN const WCHAR,IN const FontCollection)
 title: FontFamily::FontFamily(IN const WCHAR,IN const FontCollection)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the constructors of the FontFamily class. For a complete class listing, see FontFamilyClass.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_Constructors.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilyconstructors.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FontFamily, FontFamily constructors [GDI+], FontFamily.FontFamily, FontFamily.FontFamily(IN const WCHAR,IN const FontCollection), FontFamily::FontFamily, FontFamily::FontFamily(IN const WCHAR,IN const FontCollection), _gdiplus_CLASS_FontFamily_Constructors, gdiplus._gdiplus_CLASS_FontFamily_Constructors, gdiplusheaders/FontFamily
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 

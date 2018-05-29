@@ -1,16 +1,16 @@
 ---
 UID: NF:evcoll.EcInsertObjectArrayElement
 title: EcInsertObjectArrayElement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts an empty object into an array of property values for the event sources of a subscription.
 old-location: wec\ecinsertobjectarrayelement.htm
 old-project: WEC
 ms.assetid: 65b0db2f-f929-4d7e-8804-c93b9e127323
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EcInsertObjectArrayElement, EcInsertObjectArrayElement function, evcoll/EcInsertObjectArrayElement, wec.ecinsertobjectarrayelement, wes.ecinsertobjectarrayelement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 

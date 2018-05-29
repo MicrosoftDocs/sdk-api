@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.GetThemeSysColorBrush
 title: GetThemeSysColorBrush function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a system color brush.
 old-location: controls\GetThemeSysColorBrush.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesyscolorbrush.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetThemeSysColorBrush, GetThemeSysColorBrush function [Windows Controls], TMT_ACTIVEBORDER, TMT_ACTIVECAPTION, TMT_APPWORKSPACE, TMT_BACKGROUND, TMT_BTNFACE, TMT_BTNHIGHLIGHT, TMT_BTNSHADOW, TMT_BTNTEXT, TMT_BUTTONALTERNATEFACE, TMT_CAPTIONTEXT, TMT_DKSHADOW3D, TMT_GRADIENTACTIVECAPTION, TMT_GRADIENTINACTIVECAPTION, TMT_GRAYTEXT, TMT_HIGHLIGHT, TMT_HIGHLIGHTTEXT, TMT_HOTTRACKING, TMT_INACTIVEBORDER, TMT_INACTIVECAPTION, TMT_INACTIVECAPTIONTEXT, TMT_INFOBK, TMT_INFOTEXT, TMT_LIGHT3D, TMT_MENUBAR, TMT_MENUHILIGHT, TMT_MENUTEXT, TMT_SCROLLBAR, TMT_WINDOW, TMT_WINDOWFRAME, TMT_WINDOWTEXT, controls.GetThemeSysColorBrush, controls.inet_GetThemeSysColorBrush, inet_GetThemeSysColorBrush, inet_GetThemeSysColorBrush_cpp, uxtheme/GetThemeSysColorBrush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mtxdm.GetDispenserManager
 title: GetDispenserManager function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the dispenser manager's IDispenserManager interface.
 old-location: cos\getdispensermanager.htm
 old-project: cossdk
 ms.assetid: db344236-a8be-49ec-91fd-dfcc0bd4412c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetDispenserManager, GetDispenserManager function [COM+], _dtc_GetDispenserManager_Function, cos.getdispensermanager, mtxdm/GetDispenserManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mtxdm.h
 req.include-header: 

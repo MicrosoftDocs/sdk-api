@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventSubscription.GetPublisherPropertyCollection
 title: IEventSubscription::GetPublisherPropertyCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a collection of properties and values stored in the publisher property bag.
 old-location: cos\ieventsubscription_getpublisherpropertycollection.htm
 old-project: cossdk
 ms.assetid: d59b46bc-cfc4-400b-8b91-6d0f68f8d9b3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetPublisherPropertyCollection, GetPublisherPropertyCollection method [COM+], GetPublisherPropertyCollection method [COM+],IEventSubscription interface, IEventSubscription interface [COM+],GetPublisherPropertyCollection method, IEventSubscription.GetPublisherPropertyCollection, IEventSubscription::GetPublisherPropertyCollection, _cos_IEventSubscription_GetPublisherPropertyCollection, cos.ieventsubscription_getpublisherpropertycollection, eventsys/IEventSubscription::GetPublisherPropertyCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

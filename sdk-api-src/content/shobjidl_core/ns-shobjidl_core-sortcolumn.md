@@ -1,16 +1,16 @@
 ---
 UID: NS:shobjidl_core.SORTCOLUMN
 title: SORTCOLUMN
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores information about how to sort a column that is displayed in the folder view.
 old-location: shell\SORTCOLUMN.htm
 old-project: shell
 ms.assetid: 3ca4c318-6462-4e22-813c-ef7b3ef03230
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SORTCOLUMN, SORTCOLUMN structure [Windows Shell], SORT_ASCENDING, SORT_DESCENDING, _shell_SORTCOLUMN, shell.SORTCOLUMN, shobjidl_core/SORTCOLUMN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

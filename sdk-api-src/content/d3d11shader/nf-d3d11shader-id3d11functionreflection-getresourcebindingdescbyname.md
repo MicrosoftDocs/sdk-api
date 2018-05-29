@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionReflection.GetResourceBindingDescByName
 title: ID3D11FunctionReflection::GetResourceBindingDescByName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a description of how a resource is bound to a function.
 old-location: direct3d11\id3d11functionreflection_getresourcebindingdescbyname.htm
 old-project: direct3d11
 ms.assetid: 4ACE2BDA-DDBE-4E22-A14F-14208693C34E
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: GetResourceBindingDescByName, GetResourceBindingDescByName method [Direct3D 11], GetResourceBindingDescByName method [Direct3D 11],ID3D11FunctionReflection interface, ID3D11FunctionReflection interface [Direct3D 11],GetResourceBindingDescByName method, ID3D11FunctionReflection.GetResourceBindingDescByName, ID3D11FunctionReflection::GetResourceBindingDescByName, d3d11shader/ID3D11FunctionReflection::GetResourceBindingDescByName, direct3d11.id3d11functionreflection_getresourcebindingdescbyname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

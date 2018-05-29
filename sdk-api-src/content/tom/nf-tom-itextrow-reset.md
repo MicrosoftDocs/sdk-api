@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRow.Reset
 title: ITextRow::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets a row.
 old-location: controls\itextrow_reset.htm
 old-project: Controls
 ms.assetid: 49f057ba-6376-496b-b0b0-97c6a00111c4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRow interface [Windows Controls],Reset method, ITextRow.Reset, ITextRow::Reset, Reset, Reset method [Windows Controls], Reset method [Windows Controls],ITextRow interface, controls.itextrow_reset, tom/ITextRow::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

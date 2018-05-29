@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetCountOfRecords
 title: IIsdbDataContentDescriptor::GetCountOfRecords
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) data content descriptor.
 old-location: mstv\iisdbdatacontentdescriptor_getcountofrecords.htm
 old-project: mstv
 ms.assetid: 4198ec3c-f2a3-4517-8efb-81dfb9f8c01d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbDataContentDescriptor.GetCountOfRecords, IIsdbDataContentDescriptor::GetCountOfRecords, dvbsiparser/IIsdbDataContentDescriptor::GetCountOfRecords, mstv.iisdbdatacontentdescriptor_getcountofrecords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

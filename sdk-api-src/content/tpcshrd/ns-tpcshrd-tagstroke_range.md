@@ -1,16 +1,16 @@
 ---
 UID: NS:tpcshrd.tagSTROKE_RANGE
 title: tagSTROKE_RANGE
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a range of strokes in the InkDisp object.
 old-location: tablet\stroke_range.htm
 old-project: tablet
 ms.assetid: cae64877-2ea4-45a1-b5c2-0764c7ebeaf7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: STROKE_RANGE, STROKE_RANGE structure [Tablet PC], cae64877-2ea4-45a1-b5c2-0764c7ebeaf7, tablet.stroke_range, tagSTROKE_RANGE, tpcshrd/STROKE_RANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tpcshrd.h
 req.include-header: Tcpshrd.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IIOCancelInformation.SetCancelInformation
 title: IIOCancelInformation::SetCancelInformation
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets information that is posted when a user selects Cancel from the progress UI.
 old-location: shell\IIOCancelInformation_SetCancelInformation.htm
 old-project: shell
 ms.assetid: ed7a2a43-8944-4e17-af0a-d64f0cb493e6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IIOCancelInformation interface [Windows Shell],SetCancelInformation method, IIOCancelInformation.SetCancelInformation, IIOCancelInformation::SetCancelInformation, SetCancelInformation, SetCancelInformation method [Windows Shell], SetCancelInformation method [Windows Shell],IIOCancelInformation interface, _shell_IIOCancelInformation_SetCancelInformation, shell.IIOCancelInformation_SetCancelInformation, shobjidl_core/IIOCancelInformation::SetCancelInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

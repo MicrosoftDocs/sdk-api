@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadLONG
 title: PSPropertyBag_ReadLONG function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads a LONG data value from a property in a property bag.
 old-location: properties\PSPropertyBag_ReadLONG.htm
 old-project: properties
 ms.assetid: A39E1F7C-A4FB-47da-A05E-39F6176F2878
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_ReadLONG, PSPropertyBag_ReadLONG function [Windows Properties], properties.PSPropertyBag_ReadLONG, propsys/PSPropertyBag_ReadLONG, shell.PSPropertyBag_ReadLONG, shell_PSPropertyBag_ReadLONG
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: Propsys.idl

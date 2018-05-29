@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMDuplicatePubHandle
 title: DRMDuplicatePubHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Makes a copy of a DRMPUBHANDLE.
 old-location: rm\drmduplicatepubhandle.htm
 old-project: AdRms_Sdk
 ms.assetid: 6bf94d17-ce09-492e-9b47-88cd54719d3e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMDuplicatePubHandle, DRMDuplicatePubHandle function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDuplicatePubHandle, rm.drmduplicatepubhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

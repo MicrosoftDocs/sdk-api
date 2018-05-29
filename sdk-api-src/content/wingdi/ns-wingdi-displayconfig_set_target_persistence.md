@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_SET_TARGET_PERSISTENCE
 title: DISPLAYCONFIG_SET_TARGET_PERSISTENCE
-author: windows-driver-content
+author: windows-sdk-content
 description: The DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure contains information about setting the display.
 old-location: display\displayconfig_set_target_persistence.htm
 old-project: display
 ms.assetid: 4798a1e1-8685-40c2-917a-0ee071bc780c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CCD_Structures_705e98bf-b3ea-4d2b-8c93-ffb300d700c8.xml, DISPLAYCONFIG_SET_TARGET_PERSISTENCE, DISPLAYCONFIG_SET_TARGET_PERSISTENCE structure [Display Devices], display.displayconfig_set_target_persistence, wingdi/DISPLAYCONFIG_SET_TARGET_PERSISTENCE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

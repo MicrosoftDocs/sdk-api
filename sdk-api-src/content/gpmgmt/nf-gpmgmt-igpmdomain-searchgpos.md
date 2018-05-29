@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.SearchGPOs
 title: IGPMDomain::SearchGPOs
-author: windows-driver-content
+author: windows-sdk-content
 description: Executes a search for GPMGPO objects in the domain and then returns a GPMGPOCollection object.
 old-location: gpmc\igpmdomain_searchgpos.htm
 old-project: GPMC
 ms.assetid: 19a8efae-0b85-49ba-bf7e-08ed700874c3
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMDomain object [GPMC],SearchGPOs method, IGPMDomain interface [GPMC],SearchGPOs method, IGPMDomain.SearchGPOs, IGPMDomain::SearchGPOs, SearchGPOs, SearchGPOs method [GPMC], SearchGPOs method [GPMC],GPMDomain object, SearchGPOs method [GPMC],IGPMDomain interface, _win32_igpmdomain_searchgpos, gpmc.igpmdomain_searchgpos, gpmgmt/IGPMDomain::SearchGPOs, gpoComputerExtensions, gpoDisplayName, gpoEffectivePermissions, gpoID, gpoPermissions, gpoUserExtensions, gpoWMIFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

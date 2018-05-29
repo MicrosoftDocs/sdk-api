@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11.D3D11_COUNTER
 title: D3D11_COUNTER
-author: windows-driver-content
+author: windows-sdk-content
 description: Options for performance counters.
 old-location: direct3d11\d3d11_counter.htm
 old-project: direct3d11
 ms.assetid: b6a5cc7e-48e5-478a-aa9c-8b2878c0de6b
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 2fda44d5-455a-a992-9f44-d95b5d7f369f, D3D11_COUNTER, D3D11_COUNTER enumeration [Direct3D 11], D3D11_COUNTER_DEVICE_DEPENDENT_0, d3d11/D3D11_COUNTER, d3d11/D3D11_COUNTER_DEVICE_DEPENDENT_0, direct3d11.d3d11_counter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnInterfaceManager
 title: IMbnInterfaceManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to IMbnInterface objects and notifications.
 old-location: mbn\imbninterfacemanager.htm
 old-project: mbn
 ms.assetid: a998381e-47de-4352-bc84-b6edca2f3fcc
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnInterfaceManager, IMbnInterfaceManager interface [Microsoft Broadband Networks], IMbnInterfaceManager interface [Microsoft Broadband Networks],described, mbn.imbninterfacemanager, mbnapi/IMbnInterfaceManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

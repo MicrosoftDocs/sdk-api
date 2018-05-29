@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.BSTR_UserFree64
 title: BSTR_UserFree64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees resources on the server side when called by RPC stub files.
 old-location: automat\bstr_userfree64.htm
 old-project: automat
 ms.assetid: 40ef9c34-243d-49f1-a51f-db9c9f887b55
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: BSTR_UserFree64, BSTR_UserFree64 function [Automation], automat.bstr_userfree64, oaidl/BSTR_UserFree64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oaidl.h
 req.include-header: 

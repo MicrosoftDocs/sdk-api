@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateService.get_CanRegisterWithAU
 title: IUpdateService::get_CanRegisterWithAU
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the service can register with Automatic Updates.
 old-location: wua\iupdateservice_canregisterwithau.htm
 old-project: Wua_Sdk
 ms.assetid: 79198de8-548a-4d9a-ae07-d421babe8700
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CanRegisterWithAU property [Windows Update Agent], CanRegisterWithAU property [Windows Update Agent],IUpdateService interface, IUpdateService interface [Windows Update Agent],CanRegisterWithAU property, IUpdateService.CanRegisterWithAU, IUpdateService.get_CanRegisterWithAU, IUpdateService::CanRegisterWithAU, IUpdateService::get_CanRegisterWithAU, get_CanRegisterWithAU, wua.iupdateservice_canregisterwithau, wuapi/IUpdateService::CanRegisterWithAU, wuapi/IUpdateService::get_CanRegisterWithAU
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

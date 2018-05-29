@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IComObjectConstruction2Events
 title: IComObjectConstruction2Events
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the subscriber if a constructed object is created.
 old-location: cos\icomobjectconstruction2events.htm
 old-project: cossdk
 ms.assetid: 976b8c1a-5ccd-48e2-a77c-10d4de9a4ffa
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComObjectConstruction2Events, IComObjectConstruction2Events interface [COM+], IComObjectConstruction2Events interface [COM+],described, _dtc_icomobjectconstruction2events, comsvcs/IComObjectConstruction2Events, cos.icomobjectconstruction2events
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

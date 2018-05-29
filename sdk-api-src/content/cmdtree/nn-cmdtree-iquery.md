@@ -1,16 +1,16 @@
 ---
 UID: NN:cmdtree.IQuery
 title: IQuery
-author: windows-driver-content
+author: windows-sdk-content
 description: The IQuery interface is reserved for future use.
 old-location: indexsrv\iquery.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_2c55.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IQuery, IQuery interface [Indexing Service], IQuery interface [Indexing Service],described, _idxs_IQuery, cmdtree/IQuery, indexsrv.iquery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: cmdtree.h
 req.include-header: 

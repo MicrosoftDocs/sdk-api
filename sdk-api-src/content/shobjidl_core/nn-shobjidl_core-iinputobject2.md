@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IInputObject2
 title: IInputObject2
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that extends IInputObject by handling global accelerators.
 old-location: shell\IInputObject2.htm
 old-project: shell
 ms.assetid: 76d8672c-ea19-4d61-b6b5-e6c3951ec710
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IInputObject2, IInputObject2 interface [Windows Shell], IInputObject2 interface [Windows Shell],described, _shell_IInputObject2, shell.IInputObject2, shobjidl_core/IInputObject2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

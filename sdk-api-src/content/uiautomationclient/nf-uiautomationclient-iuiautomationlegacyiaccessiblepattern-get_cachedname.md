@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedName
 title: IUIAutomationLegacyIAccessiblePattern::get_CachedName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the cached Microsoft Active Accessibility name property of the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName.htm
 old-project: WinAuto
 ms.assetid: eda01409-fdb7-4dc8-844a-699120db8771
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedName property [Windows Accessibility], CachedName property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedName property, IUIAutomationLegacyIAccessiblePattern.CachedName, IUIAutomationLegacyIAccessiblePattern.get_CachedName, IUIAutomationLegacyIAccessiblePattern::CachedName, IUIAutomationLegacyIAccessiblePattern::get_CachedName, get_CachedName, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedName, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedName, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

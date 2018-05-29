@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_GetItemPosition
 title: ListView_GetItemPosition macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the position of a list-view item. You can use this macro or explicitly send the LVM_GETITEMPOSITION message.
 old-location: controls\ListView_GetItemPosition.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemposition.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_GetItemPosition, ListView_GetItemPosition macro [Windows Controls], _win32_ListView_GetItemPosition, _win32_ListView_GetItemPosition_cpp, commctrl/ListView_GetItemPosition, controls.ListView_GetItemPosition, controls._win32_ListView_GetItemPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

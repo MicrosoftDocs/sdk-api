@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallbackAdvanced.OnTime
 title: IWMReaderCallbackAdvanced::OnTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnTime method notifies the application of the clock time the reader is working to. This method is used when a user-provided clock has been specified.
 old-location: wmformat\iwmreadercallbackadvanced_ontime.htm
 old-project: wmformat
 ms.assetid: 9913bbc4-df59-484f-b050-324e2ecdeb1c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReaderCallbackAdvanced interface [windows Media Format],OnTime method, IWMReaderCallbackAdvanced.OnTime, IWMReaderCallbackAdvanced::OnTime, IWMReaderCallbackAdvancedOnTime, OnTime, OnTime method [windows Media Format], OnTime method [windows Media Format],IWMReaderCallbackAdvanced interface, wmformat.iwmreadercallbackadvanced_ontime, wmsdkidl/IWMReaderCallbackAdvanced::OnTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

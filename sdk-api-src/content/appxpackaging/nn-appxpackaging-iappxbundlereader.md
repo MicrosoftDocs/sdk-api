@@ -1,16 +1,16 @@
 ---
 UID: NN:appxpackaging.IAppxBundleReader
 title: IAppxBundleReader
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a read-only object model for bundle packages.
 old-location: appxpkg\iappxbundlereader.htm
 old-project: appxpkg
 ms.assetid: 3847AF32-D8E4-4BB2-9FBC-7CFAEF2CA664
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: IAppxBundleReader, IAppxBundleReader interface [App packaging and management], IAppxBundleReader interface [App packaging and management],described, appxpackaging/IAppxBundleReader, appxpkg.iappxbundlereader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: appxpackaging.h
 req.include-header: 

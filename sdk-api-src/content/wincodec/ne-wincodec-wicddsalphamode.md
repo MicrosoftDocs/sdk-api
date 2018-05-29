@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICDdsAlphaMode
 title: WICDdsAlphaMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the the meaning of pixel color component values contained in the DDS image.
 old-location: wic\wicddsalphamode.htm
 old-project: wic
 ms.assetid: 67C9B07F-5259-4032-9EBF-CBC3B8637343
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICDdsAlphaMode, WICDdsAlphaMode enumeration [Windows Imaging Component], WICDdsAlphaModeCustom, WICDdsAlphaModeOpaque, WICDdsAlphaModePremultiplied, WICDdsAlphaModeStraight, WICDdsAlphaModeUnknown, wic.wicddsalphamode, wincodec/WICDdsAlphaMode, wincodec/WICDdsAlphaModeCustom, wincodec/WICDdsAlphaModeOpaque, wincodec/WICDdsAlphaModePremultiplied, wincodec/WICDdsAlphaModeStraight, wincodec/WICDdsAlphaModeUnknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

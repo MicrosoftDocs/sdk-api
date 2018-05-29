@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11shader.ID3D11FunctionReflection
 title: ID3D11FunctionReflection
-author: windows-driver-content
+author: windows-sdk-content
 description: A function-reflection interface accesses function info.
 old-location: direct3d11\id3d11functionreflection.htm
 old-project: direct3d11
 ms.assetid: 91A3B6E3-E1A7-43F9-AD18-93A25F13CFB4
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11FunctionReflection, ID3D11FunctionReflection interface [Direct3D 11], ID3D11FunctionReflection interface [Direct3D 11],described, d3d11shader/ID3D11FunctionReflection, direct3d11.id3d11functionreflection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11shader.h
 req.include-header: 

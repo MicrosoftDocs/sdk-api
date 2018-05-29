@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.get_MaxMinorChannel
 title: IATSCTuningSpace::get_MaxMinorChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MaxMinorChannel method gets the highest minor channel number for this tuning space.
 old-location: mstv\iatsctuningspace_get_maxminorchannel.htm
 old-project: mstv
 ms.assetid: 55bfef31-f9c2-4edb-b4a9-369424584316
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],get_MaxMinorChannel method, IATSCTuningSpace.get_MaxMinorChannel, IATSCTuningSpace::get_MaxMinorChannel, IATSCTuningSpaceget_MaxMinorChannel, get_MaxMinorChannel, get_MaxMinorChannel method [Microsoft TV Technologies], get_MaxMinorChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, mstv.iatsctuningspace_get_maxminorchannel, tuner/IATSCTuningSpace::get_MaxMinorChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

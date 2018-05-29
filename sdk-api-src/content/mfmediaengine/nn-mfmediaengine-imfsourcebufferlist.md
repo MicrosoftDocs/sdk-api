@@ -1,16 +1,16 @@
 ---
 UID: NN:mfmediaengine.IMFSourceBufferList
 title: IMFSourceBufferList
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a collection of IMFSourceBuffer objects.
 old-location: mf\imfsourcebufferlist.htm
 old-project: medfound
 ms.assetid: 26f66c2d-5f84-485f-bc86-c8399666c9f1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSourceBufferList, IMFSourceBufferList interface [Media Foundation], IMFSourceBufferList interface [Media Foundation],described, mf.imfsourcebufferlist, mfmediaengine/IMFSourceBufferList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

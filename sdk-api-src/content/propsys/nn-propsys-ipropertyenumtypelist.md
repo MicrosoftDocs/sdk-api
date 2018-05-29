@@ -1,16 +1,16 @@
 ---
 UID: NN:propsys.IPropertyEnumTypeList
 title: IPropertyEnumTypeList
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that enumerate the possible values for a property.
 old-location: properties\IPropertyEnumTypeList.htm
 old-project: properties
 ms.assetid: 5df237a8-6468-43ee-870c-11b39e5e9dd9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPropertyEnumTypeList, IPropertyEnumTypeList interface [Windows Properties], IPropertyEnumTypeList interface [Windows Properties],described, properties.IPropertyEnumTypeList, propsys/IPropertyEnumTypeList, shell.IPropertyEnumTypeList, shell_IPropertyEnumTypeList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForSnapshot
 title: IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForSnapshot
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries shadow copy storage areas in use by the original volume associated with the input shadow copy.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforsnapshot.htm
 old-project: VSS
 ms.assetid: 1203d6de-b389-4349-a83c-5ee729add03c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt interface [VSS],QueryDiffAreasForSnapshot method, IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasForSnapshot, IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForSnapshot, QueryDiffAreasForSnapshot, QueryDiffAreasForSnapshot method [VSS], QueryDiffAreasForSnapshot method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, base.ivssdifferentialsoftwaresnapshotmgmt_querydiffareasforsnapshot, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasForSnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsmgmt.h
 req.include-header: 

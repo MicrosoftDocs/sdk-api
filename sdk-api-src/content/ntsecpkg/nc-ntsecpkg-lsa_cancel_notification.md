@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_CANCEL_NOTIFICATION
 title: LSA_CANCEL_NOTIFICATION
-author: windows-driver-content
+author: windows-sdk-content
 description: The CancelNotification function cancels a previously registered notification.
 old-location: security\cancelnotification.htm
 old-project: SecAuthN
 ms.assetid: b7333318-ee17-4cc2-9382-2d4871ddee78
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CancelNotification, CancelNotification function [Security], LSA_CANCEL_NOTIFICATION, _ssp_cancelnotification, ntsecpkg/CancelNotification, security.cancelnotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

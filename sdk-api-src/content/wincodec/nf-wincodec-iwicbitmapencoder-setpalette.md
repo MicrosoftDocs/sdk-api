@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.SetPalette
 title: IWICBitmapEncoder::SetPalette
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the global palette for the image.
 old-location: wic\_wic_codec_iwicbitmapencoder_setpalette.htm
 old-project: wic
 ms.assetid: 9310f407-d310-402b-bd90-ebc7e8d99361
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],SetPalette method, IWICBitmapEncoder.SetPalette, IWICBitmapEncoder::SetPalette, SetPalette, SetPalette method [Windows Imaging Component], SetPalette method [Windows Imaging Component],IWICBitmapEncoder interface, _wic_codec_iwicbitmapencoder_setpalette, wic._wic_codec_iwicbitmapencoder_setpalette, wincodec/IWICBitmapEncoder::SetPalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

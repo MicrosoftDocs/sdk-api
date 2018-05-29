@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMDone
 title: IComCRMEvents::OnCRMDone
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when CRM clerk is done processing transaction outcome notifications.
 old-location: cos\icomcrmevents_oncrmdone.htm
 old-project: cossdk
 ms.assetid: 8845fd4d-a1a8-40cf-9359-5a2900432f32
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMDone method, IComCRMEvents.OnCRMDone, IComCRMEvents::OnCRMDone, OnCRMDone, OnCRMDone method [COM+], OnCRMDone method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMDone, comsvcs/IComCRMEvents::OnCRMDone, cos.icomcrmevents_oncrmdone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

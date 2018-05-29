@@ -1,16 +1,16 @@
 ---
 UID: NS:networkisolation._INET_FIREWALL_APP_CONTAINER
 title: "_INET_FIREWALL_APP_CONTAINER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about an specific app container.
 old-location: ics\inet_firewall_app_container.htm
 old-project: ICS
 ms.assetid: 0567fb66-0511-4c80-9e31-2412507ced97
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PINET_FIREWALL_APP_CONTAINER, INET_FIREWALL_APP_CONTAINER, INET_FIREWALL_APP_CONTAINER structure [ICS/ICF], PINET_FIREWALL_APP_CONTAINER, PINET_FIREWALL_APP_CONTAINER structure pointer [ICS/ICF], _INET_FIREWALL_APP_CONTAINER, ics.inet_firewall_app_container, networkisolation/INET_FIREWALL_APP_CONTAINER, networkisolation/PINET_FIREWALL_APP_CONTAINER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: networkisolation.h
 req.include-header: Netfw.h

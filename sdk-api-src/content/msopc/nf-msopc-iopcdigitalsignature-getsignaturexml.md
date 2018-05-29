@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureXml
 title: IOpcDigitalSignature::GetSignatureXml
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the signature markup.
 old-location: opc\iopcdigitalsignature_getsignaturexml.htm
 old-project: OPC
 ms.assetid: 7b495661-32ed-4010-a945-7e638f30f4f2
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetSignatureXml, GetSignatureXml method [Open Packaging Conventions], GetSignatureXml method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureXml method, IOpcDigitalSignature.GetSignatureXml, IOpcDigitalSignature::GetSignatureXml, msopc/IOpcDigitalSignature::GetSignatureXml, opc.iopcdigitalsignature_getsignaturexml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoWaitForMultipleHandles
 title: CoWaitForMultipleHandles function
-author: windows-driver-content
+author: windows-sdk-content
 description: Waits for specified handles to be signaled or for a specified timeout period to elapse.
 old-location: com\cowaitformultiplehandles.htm
 old-project: com
 ms.assetid: 3eeecd34-aa94-4a48-8b41-167a71b52860
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoWaitForMultipleHandles, CoWaitForMultipleHandles function [COM], _com_CoWaitForMultipleHandles, com.cowaitformultiplehandles, combaseapi/CoWaitForMultipleHandles
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

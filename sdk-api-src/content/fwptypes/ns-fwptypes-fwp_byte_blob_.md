@@ -1,16 +1,16 @@
 ---
 UID: NS:fwptypes.FWP_BYTE_BLOB_
 title: FWP_BYTE_BLOB_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores an array containing a variable number of bytes.
 old-location: fwp\fwp_byte_blob_struct.htm
 old-project: FWP
 ms.assetid: 85f360bf-5ee4-4980-b4ce-15ff310d8fbe
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWP_BYTE_BLOB, FWP_BYTE_BLOB structure [Filtering], FWP_BYTE_BLOB_, fwp.fwp_byte_blob_struct, fwptypes/FWP_BYTE_BLOB
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 

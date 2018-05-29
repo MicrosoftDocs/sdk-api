@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.getItemInfo
 title: IWMPCdromBurn::getItemInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The getItemInfo method retrieves the value of the specified attribute for the CD.
 old-location: wmp\iwmpcdromburn_getiteminfo.htm
 old-project: WMP
 ms.assetid: f54b406f-0441-4ed3-8f8b-6794ab2180d9
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],getItemInfo method, IWMPCdromBurn.getItemInfo, IWMPCdromBurn::getItemInfo, IWMPCdromBurngetItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_getiteminfo, wmp/IWMPCdromBurn::getItemInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

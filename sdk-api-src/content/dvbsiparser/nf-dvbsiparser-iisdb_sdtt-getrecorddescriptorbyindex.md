@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordDescriptorByIndex
 title: IISDB_SDTT::GetRecordDescriptorByIndex
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a descriptor for a specified record in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecorddescriptorbyindex.htm
 old-project: mstv
 ms.assetid: c8aab681-4858-4ad2-84a7-15a9b8310d6f
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IISDB_SDTT.GetRecordDescriptorByIndex, IISDB_SDTT::GetRecordDescriptorByIndex, dvbsiparser/IISDB_SDTT::GetRecordDescriptorByIndex, mstv.iisdb_sdtt_getrecorddescriptorbyindex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

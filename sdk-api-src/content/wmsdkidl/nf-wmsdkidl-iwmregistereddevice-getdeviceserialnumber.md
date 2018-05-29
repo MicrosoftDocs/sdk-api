@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetDeviceSerialNumber
 title: IWMRegisteredDevice::GetDeviceSerialNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetDeviceID method retrieves the 128-bit value that identifies the device.
 old-location: wmformat\iwmregistereddevice_getdeviceserialnumber.htm
 old-project: wmformat
 ms.assetid: 3e60d9f3-848e-4e90-9ef7-19f3e000fab7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetDeviceSerialNumber, GetDeviceSerialNumber method [windows Media Format], GetDeviceSerialNumber method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetDeviceSerialNumber method, IWMRegisteredDevice.GetDeviceSerialNumber, IWMRegisteredDevice::GetDeviceSerialNumber, IWMRegisteredDeviceGetDeviceID, wmformat.iwmregistereddevice_getdeviceserialnumber, wmsdkidl/IWMRegisteredDevice::GetDeviceSerialNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

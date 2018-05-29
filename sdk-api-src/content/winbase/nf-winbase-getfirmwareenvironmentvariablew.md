@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetFirmwareEnvironmentVariableW
 title: GetFirmwareEnvironmentVariableW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the value of the specified firmware environment variable.
 old-location: base\getfirmwareenvironmentvariable.htm
 old-project: SysInfo
 ms.assetid: 18e74e54-ecfe-46bf-8c9d-9eb16d22f3ba
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetFirmwareEnvironmentVariable, GetFirmwareEnvironmentVariable function, GetFirmwareEnvironmentVariableA, GetFirmwareEnvironmentVariableW, base.getfirmwareenvironmentvariable, winbase/GetFirmwareEnvironmentVariable, winbase/GetFirmwareEnvironmentVariableA, winbase/GetFirmwareEnvironmentVariableW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

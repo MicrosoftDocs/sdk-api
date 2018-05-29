@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplicationGroups.get__NewEnum
 title: IAzApplicationGroups::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 old-location: security\iazapplicationgroups_newenum.htm
 old-project: SecAuthZ
 ms.assetid: 412fe347-63cb-4f87-98e1-2d8665f39a6a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzApplicationGroups object [Security],_NewEnum property, IAzApplicationGroups interface [Security],_NewEnum property, IAzApplicationGroups._NewEnum, IAzApplicationGroups.get__NewEnum, IAzApplicationGroups::_NewEnum, IAzApplicationGroups::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzApplicationGroups object, _NewEnum property [Security],IAzApplicationGroups interface, azroles/IAzApplicationGroups::_NewEnum, azroles/IAzApplicationGroups::get__NewEnum, get__NewEnum, security.iazapplicationgroups_newenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

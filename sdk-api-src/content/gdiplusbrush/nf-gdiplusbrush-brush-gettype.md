@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusbrush.Brush.GetType
 title: Brush::GetType
-author: windows-driver-content
+author: windows-sdk-content
 description: The Brush::GetType method gets the type of this brush.
 old-location: gdiplus\_gdiplus_CLASS_Brush_GetType_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brushclass\brushmethods\gettype.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Brush class [GDI+],GetType method, Brush.GetType, Brush::GetType, GetType, GetType method [GDI+], GetType method [GDI+],Brush class, _gdiplus_CLASS_Brush_GetType_, gdiplus._gdiplus_CLASS_Brush_GetType_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

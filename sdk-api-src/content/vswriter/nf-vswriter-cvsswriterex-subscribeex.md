@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.CVssWriterEx.SubscribeEx
 title: CVssWriterEx::SubscribeEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Causes the writer to subscribe to VSS events.
 old-location: base\cvsswriterex_subscribeex.htm
 old-project: VSS
 ms.assetid: b60ca619-c92b-4700-a048-7c74fad3d0e9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CVssWriterEx interface,SubscribeEx method, CVssWriterEx.SubscribeEx, CVssWriterEx::SubscribeEx, SubscribeEx, SubscribeEx method, SubscribeEx method,CVssWriterEx interface, base.cvsswriterex_subscribeex, vswriter/CVssWriterEx::SubscribeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

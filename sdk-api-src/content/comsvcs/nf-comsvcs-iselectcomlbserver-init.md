@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ISelectCOMLBServer.Init
 title: ISelectCOMLBServer::Init
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the load balancing server object.
 old-location: cos\iselectcomlbserver_init.htm
 old-project: cossdk
 ms.assetid: 1b435b7f-9ddc-40c9-afb5-f5e46e782bd7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ISelectCOMLBServer interface [COM+],Init method, ISelectCOMLBServer.Init, ISelectCOMLBServer::Init, Init, Init method [COM+], Init method [COM+],ISelectCOMLBServer interface, _cos_ISelectCOMLBServer_Init, comsvcs/ISelectCOMLBServer::Init, cos.iselectcomlbserver_init
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

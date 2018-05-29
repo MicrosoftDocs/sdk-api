@@ -1,16 +1,16 @@
 ---
 UID: NF:corewindow.ICoreInputInterop.SetInputSource
 title: ICoreInputInterop::SetInputSource
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the input source for an app's CoreIndependentInputSource or CoreComponentInputSource.
 old-location: winrt\icoreinputinterop_setinputsource.htm
 old-project: WinRT
 ms.assetid: 693180F5-2C19-47CD-9514-F0CEA1849A4A
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: ICoreInputInterop interface [Windows Runtime],SetInputSource method, ICoreInputInterop.SetInputSource, ICoreInputInterop::SetInputSource, SetInputSource, SetInputSource method [Windows Runtime], SetInputSource method [Windows Runtime],ICoreInputInterop interface, corewindow/ICoreInputInterop::SetInputSource, winrt.icoreinputinterop_setinputsource
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: corewindow.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:shlobj_core._SHChangeNotifyEntry
 title: "_SHChangeNotifyEntry"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains and receives information for change notifications. This structure is used with the SHChangeNotifyRegister function and the SFVM_QUERYFSNOTIFY notification.
 old-location: shell\SHChangeNotifyEntry.htm
 old-project: shell
 ms.assetid: cb11435a-86f0-4b06-bfc6-e0417f2897a1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHChangeNotifyEntry, SHChangeNotifyEntry structure [Windows Shell], _SHChangeNotifyEntry, _win32_SHChangeNotifyEntry, shell.SHChangeNotifyEntry, shlobj_core/SHChangeNotifyEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

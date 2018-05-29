@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagLOGPALETTE
 title: tagLOGPALETTE
-author: windows-driver-content
+author: windows-sdk-content
 description: The LOGPALETTE structure defines a logical palette.
 old-location: gdi\logpalette.htm
 old-project: gdi
 ms.assetid: 99d70a0e-ac61-4a88-a500-66443e7882ad
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPLOGPALETTE, *NPLOGPALETTE, *PLOGPALETTE, LOGPALETTE, LOGPALETTE structure [Windows GDI], _win32_LOGPALETTE_str, gdi.logpalette, tagLOGPALETTE, wingdi/LOGPALETTE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

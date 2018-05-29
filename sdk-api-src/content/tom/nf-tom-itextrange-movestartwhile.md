@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange.MoveStartWhile
 title: ITextRange::MoveStartWhile
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves the start position of the range either Count characters, or just past all contiguous characters that are found in the set of characters specified by Cset, whichever is less.
 old-location: controls\ITextRange_MoveStartWhile.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movestartwhile.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveStartWhile method, ITextRange.MoveStartWhile, ITextRange::MoveStartWhile, MoveStartWhile, MoveStartWhile method [Windows Controls], MoveStartWhile method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveStartWhile, _win32_ITextRange_MoveStartWhile_cpp, controls.ITextRange_MoveStartWhile, controls._win32_ITextRange_MoveStartWhile, tom/ITextRange::MoveStartWhile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

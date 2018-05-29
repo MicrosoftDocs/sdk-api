@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.Button_GetState
 title: Button_GetState macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the state of a button or check box. You can use this macro or send the BM_GETSTATE message explicitly.
 old-location: controls\Button_GetState.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getstate.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Button_GetState, Button_GetState macro [Windows Controls], _win32_Button_GetState, _win32_Button_GetState_cpp, controls.Button_GetState, controls._win32_Button_GetState, windowsx/Button_GetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

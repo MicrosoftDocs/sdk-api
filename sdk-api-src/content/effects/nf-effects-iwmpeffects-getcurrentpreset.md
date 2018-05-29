@@ -1,16 +1,16 @@
 ---
 UID: NF:effects.IWMPEffects.GetCurrentPreset
 title: IWMPEffects::GetCurrentPreset
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetCurrentPreset method gets the current preset, by number, from the visualization and provides it to Windows Media Player.
 old-location: wmp\iwmpeffects_getcurrentpreset.htm
 old-project: WMP
 ms.assetid: 09ad671b-612d-4e00-8fa9-d9d76954a010
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: EffectsGetCurrentPreset, GetCurrentPreset, GetCurrentPreset method [Windows Media Player], GetCurrentPreset method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GetCurrentPreset method, IWMPEffects.GetCurrentPreset, IWMPEffects::GetCurrentPreset, effects/IWMPEffects::GetCurrentPreset, wmp.iwmpeffects_getcurrentpreset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: effects.h
 req.include-header: 

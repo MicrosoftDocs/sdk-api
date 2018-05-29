@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VariantTimeToSystemTime
 title: VariantTimeToSystemTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the variant representation of time to system time values.
 old-location: automat\varianttimetosystemtime.htm
 old-project: automat
 ms.assetid: 954eb6f3-f9f0-4586-9dd7-1632ebc6ef58
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VariantTimeToSystemTime, VariantTimeToSystemTime function [Automation], _oa96_VariantTimeToSystemTime, automat.varianttimetosystemtime, oleauto/VariantTimeToSystemTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

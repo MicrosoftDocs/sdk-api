@@ -1,16 +1,16 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingCustom
 title: TraceLoggingCustom macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Wrapper macro for an event field packed using a custom serializer.
 old-location: tracelogging\traceloggingcustom.htm
 old-project: tracelogging
 ms.assetid: 617B5EFF-DB4F-493E-841B-14BBA312E26B
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: TraceLoggingCustom, TraceLoggingCustom macro, tracelogging.traceloggingcustom, traceloggingprovider/TraceLoggingCustom
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: traceloggingprovider.h
 req.include-header: 

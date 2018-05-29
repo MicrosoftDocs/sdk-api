@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheck.ISpellChecker.AutoCorrect
 title: ISpellChecker::AutoCorrect
-author: windows-driver-content
+author: windows-sdk-content
 description: Causes occurrences of one word to be replaced by another.
 old-location: intl\ispellchecker_autocorrect.htm
 old-project: Intl
 ms.assetid: 7c0d24dc-cec2-4304-bfbc-096fa4d0e8d0
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AutoCorrect, AutoCorrect method [Internationalization for Windows Applications], AutoCorrect method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],AutoCorrect method, ISpellChecker.AutoCorrect, ISpellChecker::AutoCorrect, intl.ispellchecker_autocorrect, spellcheck/ISpellChecker::AutoCorrect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

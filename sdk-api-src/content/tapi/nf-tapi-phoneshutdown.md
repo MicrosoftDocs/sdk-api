@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneShutdown
 title: phoneShutdown function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneShutdown function shuts down the application's usage of TAPI's phone abstraction.
 old-location: tapi2\phoneshutdown.htm
 old-project: Tapi
 ms.assetid: 0cf8bc07-946a-450d-8062-b9e19c22a4c5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phoneshutdown, phoneShutdown, phoneShutdown function [TAPI 2.2], tapi/phoneShutdown, tapi2.phoneshutdown"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

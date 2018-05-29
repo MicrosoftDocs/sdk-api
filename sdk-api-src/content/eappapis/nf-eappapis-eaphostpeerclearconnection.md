@@ -1,16 +1,16 @@
 ---
 UID: NF:eappapis.EapHostPeerClearConnection
 title: EapHostPeerClearConnection function
-author: windows-driver-content
+author: windows-sdk-content
 description: Clears the authentication session connection.
 old-location: eaphost\eaphostpeerclearconnection.htm
 old-project: EAPHost
 ms.assetid: 1d997e4e-6e7f-47db-9957-9658e54c0bdf
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapHostPeerClearConnection, EapHostPeerClearConnection function [EAPHost], eaphost.eaphostpeerclearconnection, eappapis/EapHostPeerClearConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eappapis.h
 req.include-header: 

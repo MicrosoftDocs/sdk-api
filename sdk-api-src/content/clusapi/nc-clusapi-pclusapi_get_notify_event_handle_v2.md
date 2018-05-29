@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2
 title: PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a handle to a notification event.
 old-location: mscs\getnotifyeventhandle.htm
 old-project: MsCS
 ms.assetid: DCA68080-B405-47E9-BC35-613EA56D1E59
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2, PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2 callback, PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2 callback function [Failover Cluster], clusapi/PCLUSAPI_GET_NOTIFY_EVENT_HANDLE_V2, mscs.getnotifyeventhandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

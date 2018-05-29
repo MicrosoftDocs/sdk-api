@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzRoleAssignment.AddRoleDefinition
 title: IAzRoleAssignment::AddRoleDefinition
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the specified IAzRoleDefinition object to this IAzRoleAssignment object.
 old-location: security\iazroleassignment_addroledefinition.htm
 old-project: SecAuthZ
 ms.assetid: 9946d273-3726-40f4-b438-7f2377fc8013
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddRoleDefinition, AddRoleDefinition method [Security], AddRoleDefinition method [Security],IAzRoleAssignment interface, IAzRoleAssignment interface [Security],AddRoleDefinition method, IAzRoleAssignment.AddRoleDefinition, IAzRoleAssignment::AddRoleDefinition, azroles/IAzRoleAssignment::AddRoleDefinition, security.iazroleassignment_addroledefinition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

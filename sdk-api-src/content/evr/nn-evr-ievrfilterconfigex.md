@@ -1,16 +1,16 @@
 ---
 UID: NN:evr.IEVRFilterConfigEx
 title: IEVRFilterConfigEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Configures the DirectShow Enhanced Video Renderer (EVR) filter.
 old-location: mf\ievrfilterconfigex.htm
 old-project: medfound
 ms.assetid: bbe85dc1-af9c-4be7-9064-d61bba160942
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEVRFilterConfigEx, IEVRFilterConfigEx interface [Media Foundation], IEVRFilterConfigEx interface [Media Foundation],described, evr/IEVRFilterConfigEx, mf.ievrfilterconfigex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: evr.h
 req.include-header: 

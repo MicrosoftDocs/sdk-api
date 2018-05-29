@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_encode_sort_controlW
 title: ldap_encode_sort_controlW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ldap_encode_sort_control function formats a list of sort keys into a search control. This function is obsolete. Instead, use ldap_create_sort_control.
 old-location: ldap\ldap_encode_sort_control.htm
 old-project: LDAP
 ms.assetid: 5c6c3bd4-739f-413d-adc3-668ac7b56da6
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_encode_sort_control, ldap.ldap__encode__sort__control, ldap.ldap_encode_sort_control, ldap_encode_sort_control, ldap_encode_sort_control function [LDAP], ldap_encode_sort_controlA, ldap_encode_sort_controlW, winldap/ldap_encode_sort_control, winldap/ldap_encode_sort_controlA, winldap/ldap_encode_sort_controlW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

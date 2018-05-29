@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SecPkgContext_LastClientTokenStatus
 title: "_SecPkgContext_LastClientTokenStatus"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether the token from the most recent call to the InitializeSecurityContext function is the last token from the client.
 old-location: security\secpkgcontext_lastclienttokenstatus.htm
 old-project: SecAuthN
 ms.assetid: ccb2bb4e-3c65-4305-95ad-b9111f3936b5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgContext_LastClientTokenStatus, PSecPkgContext_LastClientTokenStatus, PSecPkgContext_LastClientTokenStatus structure pointer [Security], SecPkgContext_LastClientTokenStatus, SecPkgContext_LastClientTokenStatus structure [Security], _SecPkgContext_LastClientTokenStatus, security.secpkgcontext_lastclienttokenstatus, sspi/PSecPkgContext_LastClientTokenStatus, sspi/SecPkgContext_LastClientTokenStatus"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 

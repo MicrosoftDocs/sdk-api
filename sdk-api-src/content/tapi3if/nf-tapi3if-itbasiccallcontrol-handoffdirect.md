@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.HandoffDirect
 title: ITBasicCallControl::HandoffDirect
-author: windows-driver-content
+author: windows-sdk-content
 description: The HandoffDirect method hands off the call to another application. This indicates that the application no longer requires ownership of the call.
 old-location: tapi3\itbasiccallcontrol_handoffdirect.htm
 old-project: Tapi
 ms.assetid: a96a3790-ee5d-4983-b69a-30c7af96afd9
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: HandoffDirect, HandoffDirect method [TAPI 2.2], HandoffDirect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],HandoffDirect method, ITBasicCallControl.HandoffDirect, ITBasicCallControl::HandoffDirect, _tapi3_itbasiccallcontrol_handoffdirect, tapi3.itbasiccallcontrol_handoffdirect, tapi3if/ITBasicCallControl::HandoffDirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

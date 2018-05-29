@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromStringVector
 title: InitPropVariantFromStringVector function
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a PROPVARIANT structure from a specified string vector.
 old-location: properties\InitPropVariantFromStringVector.htm
 old-project: properties
 ms.assetid: 4190337f-f9f6-4584-b667-6b96c1ce48c8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: InitPropVariantFromStringVector, InitPropVariantFromStringVector function [Windows Properties], properties.InitPropVariantFromStringVector, propvarutil/InitPropVariantFromStringVector, shell.InitPropVariantFromStringVector, shell_InitPropVariantFromStringVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

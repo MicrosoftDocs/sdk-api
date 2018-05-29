@@ -1,16 +1,16 @@
 ---
 UID: NF:clfsw32.LsnCreate
 title: LsnCreate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a log sequence number (LSN), given a container ID, a block offset, and a record sequence number.
 old-location: fs\lsncreate.htm
 old-project: Clfs
 ms.assetid: 3662ac53-25d5-4d8c-8f98-02f313e03dce
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: LsnCreate, LsnCreate function [Files], clfsw32/LsnCreate, fs.lsncreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clfsw32.h
 req.include-header: 

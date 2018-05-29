@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfig.ConfigureBYOT
 title: IServiceTransactionConfig::ConfigureBYOT
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables you to configure the transaction that you use when you bring your own transaction.
 old-location: cos\iservicetransactionconfig_configurebyot.htm
 old-project: cossdk
 ms.assetid: be4fa727-962e-4254-8615-58f6ced15fc3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ConfigureBYOT, ConfigureBYOT method [COM+], ConfigureBYOT method [COM+],IServiceTransactionConfig interface, IServiceTransactionConfig interface [COM+],ConfigureBYOT method, IServiceTransactionConfig.ConfigureBYOT, IServiceTransactionConfig::ConfigureBYOT, _cos_IServiceTransactionConfig_ConfigureBYOT, comsvcs/IServiceTransactionConfig::ConfigureBYOT, cos.iservicetransactionconfig_configurebyot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

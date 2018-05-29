@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.SetMaximumCacheSize
 title: IBitsPeerCacheAdministration::SetMaximumCacheSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the maximum size of the cache.
 old-location: bits\ibitspeercacheadministration_setmaximumcachesize.htm
 old-project: Bits
 ms.assetid: 064376cf-8865-45a1-a63a-1096bc0d58ce
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBitsPeerCacheAdministration interface [BITS],SetMaximumCacheSize method, IBitsPeerCacheAdministration.SetMaximumCacheSize, IBitsPeerCacheAdministration::SetMaximumCacheSize, SetMaximumCacheSize, SetMaximumCacheSize method [BITS], SetMaximumCacheSize method [BITS],IBitsPeerCacheAdministration interface, bits.ibitspeercacheadministration_setmaximumcachesize, bits3_0/IBitsPeerCacheAdministration::SetMaximumCacheSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

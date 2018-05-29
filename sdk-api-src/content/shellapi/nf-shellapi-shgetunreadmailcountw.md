@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.SHGetUnreadMailCountW
 title: SHGetUnreadMailCountW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a specified user's unread message count for any or all email accounts.
 old-location: shell\SHGetUnreadMailCount.htm
 old-project: shell
 ms.assetid: d2a57fa0-13fe-4e12-89cc-8a6dbdb44f08
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGetUnreadMailCount, SHGetUnreadMailCount function [Windows Shell], SHGetUnreadMailCountW, _shell_SHGetUnreadMailCount, shell.SHGetUnreadMailCount, shellapi/SHGetUnreadMailCount, shellapi/SHGetUnreadMailCountW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

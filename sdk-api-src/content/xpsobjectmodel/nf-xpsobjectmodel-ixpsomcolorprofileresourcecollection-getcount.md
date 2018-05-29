@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.GetCount
 title: IXpsOMColorProfileResourceCollection::GetCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of IXpsOMColorProfileResource interface pointers in the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_getcount.htm
 old-project: printdocs
 ms.assetid: 798ac7ed-1221-4985-b325-d588133ad59c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMColorProfileResourceCollection.GetCount, IXpsOMColorProfileResourceCollection::GetCount, xps.ixpsomcolorprofileresourcecollection_getcount, xpsobjectmodel/IXpsOMColorProfileResourceCollection::GetCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

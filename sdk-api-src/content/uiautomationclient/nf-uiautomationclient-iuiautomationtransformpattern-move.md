@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.Move
 title: IUIAutomationTransformPattern::Move
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves the UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_Move.htm
 old-project: WinAuto
 ms.assetid: 6529de7b-cb7d-4e18-b274-bc6bf003f912
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationTransformPattern interface [Windows Accessibility],Move method, IUIAutomationTransformPattern.Move, IUIAutomationTransformPattern::Move, Move, Move method [Windows Accessibility], Move method [Windows Accessibility],IUIAutomationTransformPattern interface, uiauto.uiauto_IUIAutomationTransformPattern_Move, uiauto_IUIAutomationTransformPattern_Move, uiautomationclient/IUIAutomationTransformPattern::Move, winauto.uiauto_IUIAutomationTransformPattern_Move
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

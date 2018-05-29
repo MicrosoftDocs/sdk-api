@@ -1,16 +1,16 @@
 ---
 UID: NS:bcrypt._BCRYPT_OAEP_PADDING_INFO
 title: "_BCRYPT_OAEP_PADDING_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to provide options for the Optimal Asymmetric Encryption Padding (OAEP) scheme.
 old-location: security\bcrypt_oaep_padding_info.htm
 old-project: SecCNG
 ms.assetid: 19f48f2d-e952-4a01-8112-f298c79919b2
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: BCRYPT_OAEP_PADDING_INFO, BCRYPT_OAEP_PADDING_INFO structure [Security], _BCRYPT_OAEP_PADDING_INFO, bcrypt/BCRYPT_OAEP_PADDING_INFO, security.bcrypt_oaep_padding_info
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bcrypt.h
 req.include-header: 

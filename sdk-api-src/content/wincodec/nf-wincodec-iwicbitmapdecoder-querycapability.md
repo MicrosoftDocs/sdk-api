@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.QueryCapability
 title: IWICBitmapDecoder::QueryCapability
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the capabilities of the decoder based on the specified stream.
 old-location: wic\_wic_codec_iwicbitmapdecoder_querycapability.htm
 old-project: wic
 ms.assetid: eeff3d5d-ed7f-41f7-b529-aeeeb8503a50
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICBitmapDecoder interface [Windows Imaging Component],QueryCapability method, IWICBitmapDecoder.QueryCapability, IWICBitmapDecoder::QueryCapability, QueryCapability, QueryCapability method [Windows Imaging Component], QueryCapability method [Windows Imaging Component],IWICBitmapDecoder interface, _wic_codec_iwicbitmapdecoder_querycapability, wic._wic_codec_iwicbitmapdecoder_querycapability, wincodec/IWICBitmapDecoder::QueryCapability
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

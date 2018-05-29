@@ -1,16 +1,16 @@
 ---
 UID: NF:certmod.ICertManageModule.SetProperty
 title: ICertManageModule::SetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows a module to set a property value.
 old-location: security\icertmanagemodule_setproperty.htm
 old-project: SecCrypto
 ms.assetid: 582ace4a-da88-41b7-86dd-d6a74fc9e97a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertManageModule object [Security],SetProperty method, Copyright, Description, File Version, ICertManageModule interface [Security],SetProperty method, ICertManageModule.SetProperty, ICertManageModule::SetProperty, Name, Product Version, SetProperty, SetProperty method [Security], SetProperty method [Security],CCertManageModule object, SetProperty method [Security],ICertManageModule interface, _certsrv_icertmanagemodule_setproperty, certmod/ICertManageModule::SetProperty, security.icertmanagemodule_setproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certmod.h
 req.include-header: Certsrv.h

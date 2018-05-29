@@ -1,16 +1,16 @@
 ---
 UID: NF:srpapi.SrpDoesPolicyAllowAppExecution
 title: SrpDoesPolicyAllowAppExecution function
-author: windows-driver-content
+author: windows-sdk-content
 description: Evaluates whether a packaged app will be allowed to execute based on software restriction policies.
 old-location: edp\srpdoespolicyallowappexecution_.htm
 old-project: EDP
 ms.assetid: 2649E719-2BF8-4AE6-B563-0230487A7BD2
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EDP.srpdoespolicyallowappexecution_, SrpDoesPolicyAllowAppExecution, SrpDoesPolicyAllowAppExecution , SrpDoesPolicyAllowAppExecution function, srpapi/SrpDoesPolicyAllowAppExecution
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: srpapi.h
 req.include-header: 

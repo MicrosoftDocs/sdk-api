@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetScissorRect
 title: IDirect3DDevice9::GetScissorRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the scissor rectangle.
 old-location: direct3d9\idirect3ddevice9__getscissorrect.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getscissorrect.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 7de78b9b-0918-15ce-f2b5-f1b433033d52, GetScissorRect, GetScissorRect method [Direct3D 9], GetScissorRect method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetScissorRect method, IDirect3DDevice9.GetScissorRect, IDirect3DDevice9::GetScissorRect, d3d9helper/IDirect3DDevice9::GetScissorRect, direct3d9.idirect3ddevice9__getscissorrect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetColumn
 title: ISettingsResult::GetColumn
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the column number where the error occurred.
 old-location: smi\isettingsresult_getcolumn.htm
 old-project: SMI
 ms.assetid: 09e1c5ae-f5ba-4f5a-b35d-a1c2e8dbdfe9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetColumn, GetColumn method [SMI], GetColumn method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetColumn method, ISettingsResult.GetColumn, ISettingsResult::GetColumn, smi.isettingsresult_getcolumn, wcmconfig/ISettingsResult::GetColumn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

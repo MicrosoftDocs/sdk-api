@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.CreateQuotaCollection
 title: IFsrmQuotaManager::CreateQuotaCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an empty collection to which you can add quotas.
 old-location: fsrm\ifsrmquotamanager_createquotacollection.htm
 old-project: Fsrm
 ms.assetid: 88656cb9-1e72-4f82-ac09-fbb3c8a36afc
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: CreateQuotaCollection, CreateQuotaCollection method [File Server Resource Manager], CreateQuotaCollection method [File Server Resource Manager],FsrmQuotaManager class, CreateQuotaCollection method [File Server Resource Manager],IFsrmQuotaManager interface, CreateQuotaCollection method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],CreateQuotaCollection method, IFsrmQuotaManager interface [File Server Resource Manager],CreateQuotaCollection method, IFsrmQuotaManager.CreateQuotaCollection, IFsrmQuotaManager::CreateQuotaCollection, IFsrmQuotaManagerEx interface [File Server Resource Manager],CreateQuotaCollection method, IFsrmQuotaManagerEx::CreateQuotaCollection, fs.ifsrmquotamanager_createquotacollection, fsrm.ifsrmquotamanager_createquotacollection, fsrmquota/IFsrmQuotaManager::CreateQuotaCollection, fsrmquota/IFsrmQuotaManagerEx::CreateQuotaCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h

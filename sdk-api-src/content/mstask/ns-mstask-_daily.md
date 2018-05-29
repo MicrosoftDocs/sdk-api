@@ -1,16 +1,16 @@
 ---
 UID: NS:mstask._DAILY
 title: "_DAILY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the interval, in days, at which a task is run.
 old-location: taskschd\daily.htm
 old-project: TaskSchd
 ms.assetid: 4dbab308-fd1c-4be4-84f6-c12f751ab29e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DAILY, DAILY structure [Task Scheduler], _DAILY, _msb_daily, mstask/DAILY, taskschd.daily, triggers [Task Scheduler],structures,DAILY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstask.h
 req.include-header: 

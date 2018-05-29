@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IPersistIDList
 title: IPersistIDList
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that are used to persist item identifier lists.
 old-location: shell\IPersistIDList.htm
 old-project: shell
 ms.assetid: b367dc07-8a50-4562-bd73-57c73c781d81
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPersistIDList, IPersistIDList interface [Windows Shell], IPersistIDList interface [Windows Shell],described, inet_IPersistIDList, shell.IPersistIDList, shobjidl_core/IPersistIDList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IVMRDeinterlaceControl.SetDeinterlaceMode
 title: IVMRDeinterlaceControl::SetDeinterlaceMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDeinterlaceMode method sets the deinterlacing mode for the specified video stream.
 old-location: dshow\ivmrdeinterlacecontrol_setdeinterlacemode.htm
 old-project: DirectShow
 ms.assetid: 1a716e10-5382-4b2b-9a4b-b3998a584956
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRDeinterlaceControl interface [DirectShow],SetDeinterlaceMode method, IVMRDeinterlaceControl.SetDeinterlaceMode, IVMRDeinterlaceControl::SetDeinterlaceMode, IVMRDeinterlaceControlSetDeinterlaceMode, SetDeinterlaceMode, SetDeinterlaceMode method [DirectShow], SetDeinterlaceMode method [DirectShow],IVMRDeinterlaceControl interface, dshow.ivmrdeinterlacecontrol_setdeinterlacemode, strmif/IVMRDeinterlaceControl::SetDeinterlaceMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

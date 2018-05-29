@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_DATA_PASSWORD
 title: "_SEC_WINNT_AUTH_DATA_PASSWORD"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a serialized password.
 old-location: security\sec_winnt_auth_data_password.htm
 old-project: SecAuthN
 ms.assetid: f7f3c0e8-be28-4be2-a472-21a39ace04cb
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: PSEC_WINNT_AUTH_DATA_PASSWORD, PSEC_WINNT_AUTH_DATA_PASSWORD structure [Security], SEC_WINNT_AUTH_DATA_PASSWORD, SEC_WINNT_AUTH_DATA_PASSWORD structure [Security], _SEC_WINNT_AUTH_DATA_PASSWORD, security.sec_winnt_auth_data_password, sspi/PSEC_WINNT_AUTH_DATA_PASSWORD, sspi/SEC_WINNT_AUTH_DATA_PASSWORD
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 

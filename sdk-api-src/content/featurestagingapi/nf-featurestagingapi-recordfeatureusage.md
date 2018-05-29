@@ -1,16 +1,16 @@
 ---
 UID: NF:featurestagingapi.RecordFeatureUsage
 title: RecordFeatureUsage function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\recordfeatureusage.htm
 old-project: DevNotes
 ms.assetid: B3DC323F-C4F3-4B56-AE55-CD62876F016B
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RecordFeatureUsage, RecordFeatureUsage function [Windows API], featurestagingapi/RecordFeatureUsage, winprog.recordfeatureusage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: featurestagingapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.ICodecAPI.SetValue
 title: ICodecAPI::SetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetValue method sets the value of a codec property.
 old-location: dshow\icodecapi_setvalue.htm
 old-project: DirectShow
 ms.assetid: e78a310a-3605-4cb3-a0c3-7864c890c1fa
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetValue method, ICodecAPI.SetValue, ICodecAPI::SetValue, ICodecAPISetValue, SetValue, SetValue method [DirectShow], SetValue method [DirectShow],ICodecAPI interface, dshow.icodecapi_setvalue, strmif/ICodecAPI::SetValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NE:fsrmenums._FsrmCollectionState
 title: "_FsrmCollectionState"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the possible states of a collection object.
 old-location: fsrm\fsrmcollectionstate.htm
 old-project: Fsrm
 ms.assetid: 94d7cf83-7fa4-4fec-956d-f5b2e2c0bf68
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: FsrmCollectionState, FsrmCollectionState enumeration [File Server Resource Manager], FsrmCollectionState_Cancelled, FsrmCollectionState_Committing, FsrmCollectionState_Complete, FsrmCollectionState_Fetching, _FsrmCollectionState, fs.fsrmcollectionstate, fsrm.fsrmcollectionstate, fsrmenums/FsrmCollectionState, fsrmenums/FsrmCollectionState_Cancelled, fsrmenums/FsrmCollectionState_Committing, fsrmenums/FsrmCollectionState_Complete, fsrmenums/FsrmCollectionState_Fetching
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngControlSprites
 title: EngControlSprites function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngControlSprites function tears down or redraws sprites on the specified WNDOBJ area.
 old-location: display\engcontrolsprites.htm
 old-project: display
 ms.assetid: 8de02019-6f58-4adc-9589-fdfbf4a062aa
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngControlSprites, EngControlSprites function [Display Devices], display.engcontrolsprites, gdifncs_b7312326-43ba-4c8b-bb23-db2ecf2d6f6e.xml, winddi/EngControlSprites
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

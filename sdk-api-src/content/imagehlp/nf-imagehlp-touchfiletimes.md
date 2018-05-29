@@ -1,16 +1,16 @@
 ---
 UID: NF:imagehlp.TouchFileTimes
 title: TouchFileTimes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates the date and time at which the specified file was last modified.
 old-location: base\touchfiletimes.htm
 old-project: Debug
 ms.assetid: add84ca7-2497-4859-bc69-270ad493a08a
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: TouchFileTimes, TouchFileTimes function, _win32_touchfiletimes, base.touchfiletimes, imagehlp/TouchFileTimes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ICOMLBArguments
 title: ICOMLBArguments
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to activate the COM+ component load balancing service.
 old-location: cos\icomlbarguments.htm
 old-project: cossdk
 ms.assetid: 1eb1c464-9371-420e-afc0-4b18c11a70d4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICOMLBArguments, ICOMLBArguments interface [COM+], ICOMLBArguments interface [COM+],described, _cos_icomlbarguments, comsvcs/ICOMLBArguments, cos.icomlbarguments
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

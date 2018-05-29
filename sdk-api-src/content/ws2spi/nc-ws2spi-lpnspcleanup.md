@@ -1,16 +1,16 @@
 ---
 UID: NC:ws2spi.LPNSPCLEANUP
 title: LPNSPCLEANUP
-author: windows-driver-content
+author: windows-sdk-content
 description: Terminates the use of a particular Windows Sockets namespace service provider.
 old-location: winsock\nspcleanup_2.htm
 old-project: WinSock
 ms.assetid: bef888a2-7cfd-4096-bd03-e1864af42365
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: LPNSPCLEANUP, NSPCleanup, NSPCleanup function [Winsock], _win32_nspcleanup_2, winsock.nspcleanup_2, ws2spi/NSPCleanup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

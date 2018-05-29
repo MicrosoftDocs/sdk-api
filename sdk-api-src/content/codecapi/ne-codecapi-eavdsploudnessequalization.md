@@ -1,16 +1,16 @@
 ---
 UID: NE:codecapi.eAVDSPLoudnessEqualization
 title: eAVDSPLoudnessEqualization
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether loudness equalization is enabled in an audio decoder or digital signal processor (DSP).
 old-location: dshow\eavdsploudnessequalization.htm
 old-project: DirectShow
 ms.assetid: bb46653e-d17d-4899-8a0b-cee8c4d68993
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: codecapi/eAVDSPLoudnessEqualization, codecapi/eAVDSPLoudnessEqualization_AUTO, codecapi/eAVDSPLoudnessEqualization_OFF, codecapi/eAVDSPLoudnessEqualization_ON, dshow.eavdsploudnessequalization, eAVDSPLoudnessEqualization, eAVDSPLoudnessEqualization enumeration [DirectShow], eAVDSPLoudnessEqualization_AUTO, eAVDSPLoudnessEqualization_OFF, eAVDSPLoudnessEqualization_ON
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

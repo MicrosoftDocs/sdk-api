@@ -1,16 +1,16 @@
 ---
 UID: NN:devicetopology.IAudioPeakMeter
 title: IAudioPeakMeter
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioPeakMeter interface provides access to a hardware peak-meter control.
 old-location: coreaudio\iaudiopeakmeter.htm
 old-project: CoreAudio
 ms.assetid: 524d83ff-4303-448c-a070-58d17dec03ba
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioPeakMeter, IAudioPeakMeter interface [Core Audio], IAudioPeakMeter interface [Core Audio],described, coreaudio.iaudiopeakmeter, devicetopology/IAudioPeakMeter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: devicetopology.h
 req.include-header: 

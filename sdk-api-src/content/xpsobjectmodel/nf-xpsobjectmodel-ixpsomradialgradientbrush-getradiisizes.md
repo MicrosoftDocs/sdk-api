@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.GetRadiiSizes
 title: IXpsOMRadialGradientBrush::GetRadiiSizes
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the sizes of the radii that define the ellipse of the radial gradient region.
 old-location: xps\ixpsomradialgradientbrush_getradiisizes.htm
 old-project: printdocs
 ms.assetid: c57c125b-7a21-4b94-b4c3-1aa34d615a12
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetRadiiSizes, GetRadiiSizes method [XPS Documents and Packaging], GetRadiiSizes method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],GetRadiiSizes method, IXpsOMRadialGradientBrush.GetRadiiSizes, IXpsOMRadialGradientBrush::GetRadiiSizes, xps.ixpsomradialgradientbrush_getradiisizes, xpsobjectmodel/IXpsOMRadialGradientBrush::GetRadiiSizes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

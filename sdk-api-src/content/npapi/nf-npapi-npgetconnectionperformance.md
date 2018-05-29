@@ -1,16 +1,16 @@
 ---
 UID: NF:npapi.NPGetConnectionPerformance
 title: NPGetConnectionPerformance function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns information about the expected performance of a connection used to access a network resource. The request can only be for a network resource that is currently connected.
 old-location: security\npgetconnectionperformance.htm
 old-project: SecAuthN
 ms.assetid: 8ab9fa3b-50f4-492d-a352-8e215b2d62c1
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: NPGetConnectionPerformance, NPGetConnectionPerformance function [Security], _mnp_npgetconnectionperformance, npapi/NPGetConnectionPerformance, security.npgetconnectionperformance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

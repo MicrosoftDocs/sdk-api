@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.NegotiateKeyExchange
 title: IDirect3DCryptoSession9::NegotiateKeyExchange
-author: windows-driver-content
+author: windows-sdk-content
 description: Establishes the session key for the cryptographic session.
 old-location: mf\idirect3dcryptosession9_negotiatekeyexchange.htm
 old-project: medfound
 ms.assetid: 9e12f169-b121-400d-9244-8d7d0097c030
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IDirect3DCryptoSession9 interface [Media Foundation],NegotiateKeyExchange method, IDirect3DCryptoSession9.NegotiateKeyExchange, IDirect3DCryptoSession9::NegotiateKeyExchange, NegotiateKeyExchange, NegotiateKeyExchange method [Media Foundation], NegotiateKeyExchange method [Media Foundation],IDirect3DCryptoSession9 interface, d3d9/IDirect3DCryptoSession9::NegotiateKeyExchange, mf.idirect3dcryptosession9_negotiatekeyexchange
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 

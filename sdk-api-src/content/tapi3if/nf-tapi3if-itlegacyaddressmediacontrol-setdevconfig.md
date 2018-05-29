@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITLegacyAddressMediaControl.SetDevConfig
 title: ITLegacyAddressMediaControl::SetDevConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetDevConfig function allows the application to restore the configuration of a media stream device on a line device to a setup previously obtained using GetDevConfig.
 old-location: tapi3\itlegacyaddressmediacontrol_setdevconfig.htm
 old-project: Tapi
 ms.assetid: 7c5fe0ab-8a03-41db-994b-9786782cf7c1
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITLegacyAddressMediaControl interface [TAPI 2.2],SetDevConfig method, ITLegacyAddressMediaControl.SetDevConfig, ITLegacyAddressMediaControl::SetDevConfig, SetDevConfig, SetDevConfig method [TAPI 2.2], SetDevConfig method [TAPI 2.2],ITLegacyAddressMediaControl interface, _tapi3_itlegacyaddressmediacontrol_setdevconfig, tapi3.itlegacyaddressmediacontrol_setdevconfig, tapi3if/ITLegacyAddressMediaControl::SetDevConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

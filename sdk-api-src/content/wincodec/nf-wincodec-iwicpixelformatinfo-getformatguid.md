@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo.GetFormatGUID
 title: IWICPixelFormatInfo::GetFormatGUID
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the pixel format GUID.
 old-location: wic\_wic_codec_iwicpixelformatinfo_getformatguid.htm
 old-project: wic
 ms.assetid: 184ad8e5-51f2-47eb-b3c4-010626fa7c34
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetFormatGUID, GetFormatGUID method [Windows Imaging Component], GetFormatGUID method [Windows Imaging Component],IWICPixelFormatInfo interface, IWICPixelFormatInfo interface [Windows Imaging Component],GetFormatGUID method, IWICPixelFormatInfo.GetFormatGUID, IWICPixelFormatInfo::GetFormatGUID, _wic_codec_iwicpixelformatinfo_getformatguid, wic._wic_codec_iwicpixelformatinfo_getformatguid, wincodec/IWICPixelFormatInfo::GetFormatGUID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

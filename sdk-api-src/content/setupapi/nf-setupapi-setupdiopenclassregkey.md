@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiOpenClassRegKey
 title: SetupDiOpenClassRegKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiOpenClassRegKey function opens the setup class registry key or a specific class's subkey.
 old-location: devinst\setupdiopenclassregkey.htm
 old-project: devinst
 ms.assetid: 22afdbd4-91fc-44c6-ad16-0c3c1adf8c70
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiOpenClassRegKey, SetupDiOpenClassRegKey function [Device and Driver Installation], devinst.setupdiopenclassregkey, di-rtns_2bdb6a33-58be-4799-af21-40f807a9fab8.xml, setupapi/SetupDiOpenClassRegKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

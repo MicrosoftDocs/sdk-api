@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IComHandlerAction.get_Data
 title: IComHandlerAction::get_Data
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets additional data that is associated with the handler.
 old-location: taskschd\icomhandleraction_data.htm
 old-project: TaskSchd
 ms.assetid: 3ce35108-91ed-4df8-8eb3-5a9ebf781567
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Data property [Task Scheduler], Data property [Task Scheduler],IComHandlerAction interface, IComHandlerAction interface [Task Scheduler],Data property, IComHandlerAction.Data, IComHandlerAction.get_Data, IComHandlerAction::Data, IComHandlerAction::get_Data, IComHandlerAction::put_Data, get_Data, taskschd.icomhandleraction_data, taskschd/IComHandlerAction::Data, taskschd/IComHandlerAction::get_Data, taskschd/IComHandlerAction::put_Data
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

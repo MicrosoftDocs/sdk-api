@@ -1,16 +1,16 @@
 ---
 UID: NS:fwpmtypes.FWPM_CLASSIFY_OPTION0_
 title: FWPM_CLASSIFY_OPTION0_
-author: windows-driver-content
+author: windows-sdk-content
 description: The FWPM_CLASSIFY_OPTION0 structure.
 old-location: fwp\fwpm_classify_option0.htm
 old-project: FWP
 ms.assetid: 11f2f873-d27e-411c-ba5b-a93134e1f027
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWPM_CLASSIFY_OPTION0, FWPM_CLASSIFY_OPTION0 structure [Filtering], FWPM_CLASSIFY_OPTION0_, fwp.fwpm_classify_option0, fwpmtypes/FWPM_CLASSIFY_OPTION0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwpmtypes.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wuapi.IUpdateDownloadResult.get_HResult
 title: IUpdateDownloadResult::get_HResult
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the exception HRESULT value, if any, that is raised during the operation on the update.
 old-location: wua\iupdatedownloadresult_hresult.htm
 old-project: Wua_Sdk
 ms.assetid: 18a1100d-c7b0-42ac-af0b-90e83f60cbec
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: HResult property [Windows Update Agent], HResult property [Windows Update Agent],IUpdateDownloadResult interface, IUpdateDownloadResult interface [Windows Update Agent],HResult property, IUpdateDownloadResult.HResult, IUpdateDownloadResult.get_HResult, IUpdateDownloadResult::HResult, IUpdateDownloadResult::get_HResult, get_HResult, wua.iupdatedownloadresult_hresult, wuapi/IUpdateDownloadResult::HResult, wuapi/IUpdateDownloadResult::get_HResult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wuapi.h
 req.include-header: 

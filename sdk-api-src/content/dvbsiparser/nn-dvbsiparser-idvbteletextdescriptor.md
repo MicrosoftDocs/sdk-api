@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IDvbTeletextDescriptor
 title: IDvbTeletextDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get data from a Digital Video Broadcast (DVB) teletext descriptor. The teletext descriptor is the part of the DVB program map table (PMT) that identifies European Broadcasting Union (EBU) teletext streams.
 old-location: mstv\idvbteletextdescriptor.htm
 old-project: mstv
 ms.assetid: 5148a87b-e6b6-4bda-871c-10a2f398ebcc
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDvbTeletextDescriptor, IDvbTeletextDescriptor interface [Microsoft TV Technologies], IDvbTeletextDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbTeletextDescriptor, mstv.idvbteletextdescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

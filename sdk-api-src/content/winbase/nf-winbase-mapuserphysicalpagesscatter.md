@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.MapUserPhysicalPagesScatter
 title: MapUserPhysicalPagesScatter function
-author: windows-driver-content
+author: windows-sdk-content
 description: Maps previously allocated physical memory pages at a specified address in an Address Windowing Extensions (AWE) region.
 old-location: base\mapuserphysicalpagesscatter.htm
 old-project: Memory
 ms.assetid: d88eaa75-38df-4498-a4c1-3dad04018c53
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MapUserPhysicalPagesScatter, MapUserPhysicalPagesScatter function, _win32_mapuserphysicalpagesscatter, base.mapuserphysicalpagesscatter, winbase/MapUserPhysicalPagesScatter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CachedHorizontalViewSize
 title: IUIAutomationScrollPattern::get_CachedHorizontalViewSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the cached horizontal size of the viewable region of a scrollable element.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedHorizontalViewSize.htm
 old-project: WinAuto
 ms.assetid: 948f29d5-6e3b-4eb7-b0de-cf78e7ea956a
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CachedHorizontalViewSize property [Windows Accessibility], CachedHorizontalViewSize property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedHorizontalViewSize property, IUIAutomationScrollPattern.CachedHorizontalViewSize, IUIAutomationScrollPattern.get_CachedHorizontalViewSize, IUIAutomationScrollPattern::CachedHorizontalViewSize, IUIAutomationScrollPattern::get_CachedHorizontalViewSize, get_CachedHorizontalViewSize, uiauto.uiauto_IUIAutomationScrollPattern_CachedHorizontalViewSize, uiauto_IUIAutomationScrollPattern_CachedHorizontalViewSize, uiautomationclient/IUIAutomationScrollPattern::CachedHorizontalViewSize, uiautomationclient/IUIAutomationScrollPattern::get_CachedHorizontalViewSize, winauto.uiauto_IUIAutomationScrollPattern_CachedHorizontalViewSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

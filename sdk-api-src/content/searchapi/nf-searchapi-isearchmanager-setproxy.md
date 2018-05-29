@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchManager.SetProxy
 title: ISearchManager::SetProxy
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores information in the indexer that determines how the indexer will work and communicate with a proxy server.
 old-location: search\_search_ISearchManager_SetProxy.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\setproxy.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchManager interface [search],SetProxy method, ISearchManager.SetProxy, ISearchManager::SetProxy, SetProxy, SetProxy method [search], SetProxy method [search],ISearchManager interface, _search_ISearchManager_SetProxy, search._search_ISearchManager_SetProxy, searchapi/ISearchManager::SetProxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

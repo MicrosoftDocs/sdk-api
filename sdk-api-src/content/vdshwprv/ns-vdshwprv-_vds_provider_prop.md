@@ -1,16 +1,16 @@
 ---
 UID: NS:vdshwprv._VDS_PROVIDER_PROP
 title: "_VDS_PROVIDER_PROP"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the properties of a provider object.
 old-location: base\vds_provider_prop.htm
 old-project: VDS
 ms.assetid: f41fc908-3720-4dfb-a5d3-bb1459fb7e5d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: VDS_PROVIDER_PROP, VDS_PROVIDER_PROP structure [VDS], _VDS_PROVIDER_PROP, base.vds_provider_prop, vds/_VDS_PROVIDER_PROP, vdshwprv/_VDS_PROVIDER_PROP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: vdshwprv.h
 req.include-header: 

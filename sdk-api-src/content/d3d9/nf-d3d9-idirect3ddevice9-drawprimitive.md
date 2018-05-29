@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.DrawPrimitive
 title: IDirect3DDevice9::DrawPrimitive
-author: windows-driver-content
+author: windows-sdk-content
 description: Renders a sequence of nonindexed, geometric primitives of the specified type from the current set of data input streams.
 old-location: direct3d9\idirect3ddevice9__drawprimitive.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__drawprimitive.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: DrawPrimitive, DrawPrimitive method [Direct3D 9], DrawPrimitive method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],DrawPrimitive method, IDirect3DDevice9.DrawPrimitive, IDirect3DDevice9::DrawPrimitive, d3d9helper/IDirect3DDevice9::DrawPrimitive, direct3d9.idirect3ddevice9__drawprimitive, f6573fdd-1724-cbca-56a1-0b336470257e
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: D3D9.h

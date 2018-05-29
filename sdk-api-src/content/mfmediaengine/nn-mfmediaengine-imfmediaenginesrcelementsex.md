@@ -1,16 +1,16 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineSrcElementsEx
 title: IMFMediaEngineSrcElementsEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IMFMediaEngineSrcElements interface to provide additional capabilities.
 old-location: mf\imfmediaenginesrcelementsex.htm
 old-project: medfound
 ms.assetid: f15cb527-0f46-4887-9e02-835f0115bc5b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngineSrcElementsEx, IMFMediaEngineSrcElementsEx interface [Media Foundation], IMFMediaEngineSrcElementsEx interface [Media Foundation],described, mf.imfmediaenginesrcelementsex, mfmediaengine/IMFMediaEngineSrcElementsEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfmediaengine.h
 req.include-header: 

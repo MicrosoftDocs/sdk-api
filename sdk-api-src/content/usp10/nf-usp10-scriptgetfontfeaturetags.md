@@ -1,16 +1,16 @@
 ---
 UID: NF:usp10.ScriptGetFontFeatureTags
 title: ScriptGetFontFeatureTags function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of typographic features for the defined writing system for OpenType processing. The typographic feature tags comprising the list are retrieved from the font in the supplied device context or cache.
 old-location: intl\scriptgetfontfeaturetags.htm
 old-project: Intl
 ms.assetid: af3eb1e6-f402-4b99-b749-3ce8cef865b8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ScriptGetFontFeatureTags, ScriptGetFontFeatureTags function [Internationalization for Windows Applications], _win32_ScriptGetFontFeatureTags, intl.scriptgetfontfeaturetags, usp10/ScriptGetFontFeatureTags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: usp10.h
 req.include-header: 

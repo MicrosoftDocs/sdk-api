@@ -1,16 +1,16 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_CACHING_MODE
 title: tagOFFLINEFILES_CACHING_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the caching mode used in methods such as IOfflineFilesCache::IsPathCacheable and IOfflineFilesShareInfo::GetShareCachingMode.
 old-location: of\offlinefiles_caching_mode.htm
 old-project: OfflineFiles
 ms.assetid: 833cd194-7086-4faa-a05b-5f8beda62f0a
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: OFFLINEFILES_CACHING_MODE, OFFLINEFILES_CACHING_MODE enumeration [Offline Files], OFFLINEFILES_CACHING_MODE_AUTO_DOC, OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, OFFLINEFILES_CACHING_MODE_MANUAL, OFFLINEFILES_CACHING_MODE_NOCACHING, OFFLINEFILES_CACHING_MODE_NONE, cscobj/OFFLINEFILES_CACHING_MODE, cscobj/OFFLINEFILES_CACHING_MODE_AUTO_DOC, cscobj/OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, cscobj/OFFLINEFILES_CACHING_MODE_MANUAL, cscobj/OFFLINEFILES_CACHING_MODE_NOCACHING, cscobj/OFFLINEFILES_CACHING_MODE_NONE, of.offlinefiles_caching_mode, tagOFFLINEFILES_CACHING_MODE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: cscobj.h
 req.include-header: 

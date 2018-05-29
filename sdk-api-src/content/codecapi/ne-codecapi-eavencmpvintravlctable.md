@@ -1,16 +1,16 @@
 ---
 UID: NE:codecapi.eAVEncMPVIntraVLCTable
 title: eAVEncMPVIntraVLCTable
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies which variable-length coding (VLC) table to use for entropy coding. This enumeration is used with the AVEncMPVIntraVLCTable property.
 old-location: dshow\eavencmpvintravlctable.htm
 old-project: DirectShow
 ms.assetid: 132887a8-c1f6-47f2-9c8d-aa62560b0f8a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: codecapi/eAVEncMPVIntraVLCTable, codecapi/eAVEncMPVIntraVLCTable_Alternate, codecapi/eAVEncMPVIntraVLCTable_Auto, codecapi/eAVEncMPVIntraVLCTable_MPEG1, dshow.eavencmpvintravlctable, eAVEncMPVIntraVLCTable, eAVEncMPVIntraVLCTable enumeration [DirectShow], eAVEncMPVIntraVLCTableEnumeration, eAVEncMPVIntraVLCTable_Alternate, eAVEncMPVIntraVLCTable_Auto, eAVEncMPVIntraVLCTable_MPEG1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

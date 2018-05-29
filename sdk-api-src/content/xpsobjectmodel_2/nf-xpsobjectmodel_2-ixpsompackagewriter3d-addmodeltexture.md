@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel_2.IXpsOMPackageWriter3D.AddModelTexture
 title: IXpsOMPackageWriter3D::AddModelTexture
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a new 3D model texture from the specified texture part and stream.
 old-location: xps\ixpsompackagewriter3d_addmodeltexture.htm
 old-project: printdocs
 ms.assetid: 76FC9938-914C-4328-BE71-DC898241D9EA
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: AddModelTexture, AddModelTexture method [XPS Documents and Packaging], AddModelTexture method [XPS Documents and Packaging],IXpsOMPackageWriter3D interface, IXpsOMPackageWriter3D interface [XPS Documents and Packaging],AddModelTexture method, IXpsOMPackageWriter3D.AddModelTexture, IXpsOMPackageWriter3D::AddModelTexture, xps.ixpsompackagewriter3d_addmodeltexture, xpsobjectmodel_2/IXpsOMPackageWriter3D::AddModelTexture
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel_2.h
 req.include-header: 

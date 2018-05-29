@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IContext.SetProperty
 title: IContext::SetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the specified context property to the object context.
 old-location: com\icontext_setproperty.htm
 old-project: com
 ms.assetid: 8e6dc055-bc97-41e0-973c-b061e851daf5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IContext interface [COM],SetProperty method, IContext.SetProperty, IContext::SetProperty, SetProperty, SetProperty method [COM], SetProperty method [COM],IContext interface, _com_icontext_setproperty, com.icontext_setproperty, objidlbase/IContext::SetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

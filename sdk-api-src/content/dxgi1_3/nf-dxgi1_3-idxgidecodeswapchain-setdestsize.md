@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.SetDestSize
 title: IDXGIDecodeSwapChain::SetDestSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the size of the destination surface to use for the video processing blit operation.
 old-location: direct3ddxgi\idxgidecodeswapchain_setdestsize.htm
 old-project: direct3ddxgi
 ms.assetid: BF35FFFE-89C7-4220-9D9F-5BFFE53D3430
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDXGIDecodeSwapChain interface [DXGI],SetDestSize method, IDXGIDecodeSwapChain.SetDestSize, IDXGIDecodeSwapChain::SetDestSize, SetDestSize, SetDestSize method [DXGI], SetDestSize method [DXGI],IDXGIDecodeSwapChain interface, direct3ddxgi.idxgidecodeswapchain_setdestsize, dxgi1_3/IDXGIDecodeSwapChain::SetDestSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:lmjoin.NetRenameMachineInDomain
 title: NetRenameMachineInDomain function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetRenameMachineInDomain function changes the name of a computer in a domain.
 old-location: netmgmt\netrenamemachineindomain.htm
 old-project: NetMgmt
 ms.assetid: 1f7ddaa1-a349-49a6-856d-a2fde2f1dc3b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetRenameMachineInDomain, NetRenameMachineInDomain function [Network Management], _win32_netrenamemachineindomain, lmjoin/NetRenameMachineInDomain, netmgmt.netrenamemachineindomain
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmjoin.h
 req.include-header: Lm.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:perflib.PerfQueryCounterInfo
 title: PerfQueryCounterInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the counter specifications in the specified query.
 old-location: perf\perfquerycounterinfo.htm
 old-project: PerfCtrs
 ms.assetid: 42CAB98C-4525-499D-BA11-731A666E112D
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PerfQueryCounterInfo, PerfQueryCounterInfo function [Perf], perf.perfquerycounterinfo, perflib/PerfQueryCounterInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: perflib.h
 req.include-header: 

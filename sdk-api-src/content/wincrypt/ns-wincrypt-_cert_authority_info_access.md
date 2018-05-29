@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_AUTHORITY_INFO_ACCESS
 title: "_CERT_AUTHORITY_INFO_ACCESS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents authority information access and subject information access certificate extensions and specifies how to access additional information and services for the subject or the issuer of a certificate.
 old-location: security\cert_authority_info_access.htm
 old-project: SecCrypto
 ms.assetid: 5f4abb15-3057-4d20-a319-550cec45d1f1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_AUTHORITY_INFO_ACCESS, *PCERT_SUBJECT_INFO_ACCESS, CERT_AUTHORITY_INFO_ACCESS, CERT_AUTHORITY_INFO_ACCESS structure [Security], CERT_SUBJECT_INFO_ACCESS, CERT_SUBJECT_INFO_ACCESS structure [Security], PCERT_AUTHORITY_INFO_ACCESS, PCERT_AUTHORITY_INFO_ACCESS structure pointer [Security], PCERT_SUBJECT_INFO_ACCESS, PCERT_SUBJECT_INFO_ACCESS structure pointer [Security], _CERT_AUTHORITY_INFO_ACCESS, _crypto2_cert_authority_info_access, security.cert_authority_info_access, wincrypt/CERT_AUTHORITY_INFO_ACCESS, wincrypt/CERT_SUBJECT_INFO_ACCESS, wincrypt/PCERT_AUTHORITY_INFO_ACCESS, wincrypt/PCERT_SUBJECT_INFO_ACCESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

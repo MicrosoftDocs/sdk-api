@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IComThreadingInfo.SetCurrentLogicalThreadId
 title: IComThreadingInfo::SetCurrentLogicalThreadId
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the GUID of the thread in which the caller is executing.
 old-location: com\icomthreadinginfo_setcurrentlogicalthreadid.htm
 old-project: com
 ms.assetid: 8a2fb319-094e-4384-b520-2cb8b8819d42
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IComThreadingInfo interface [COM],SetCurrentLogicalThreadId method, IComThreadingInfo.SetCurrentLogicalThreadId, IComThreadingInfo::SetCurrentLogicalThreadId, SetCurrentLogicalThreadId, SetCurrentLogicalThreadId method [COM], SetCurrentLogicalThreadId method [COM],IComThreadingInfo interface, _com_icomthreadinginfo_setcurrentlogicalthreadid, com.icomthreadinginfo_setcurrentlogicalthreadid, objidlbase/IComThreadingInfo::SetCurrentLogicalThreadId
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

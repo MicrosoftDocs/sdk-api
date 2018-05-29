@@ -1,16 +1,16 @@
 ---
 UID: NS:setupapi._SP_DRVINFO_DETAIL_DATA_W
 title: "_SP_DRVINFO_DETAIL_DATA_W"
-author: windows-driver-content
+author: windows-sdk-content
 description: An SP_DRVINFO_DETAIL_DATA structure contains detailed information about a particular driver information structure.
 old-location: devinst\sp_drvinfo_detail_data.htm
 old-project: devinst
 ms.assetid: 6e16a90a-a876-471c-917b-a26229a9187a
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSP_DRVINFO_DETAIL_DATA_W, PSP_DRVINFO_DETAIL_DATA, PSP_DRVINFO_DETAIL_DATA structure pointer [Device and Driver Installation], SP_DRVINFO_DETAIL_DATA, SP_DRVINFO_DETAIL_DATA structure [Device and Driver Installation], SP_DRVINFO_DETAIL_DATA_W, _SP_DRVINFO_DETAIL_DATA_W, devinst.sp_drvinfo_detail_data, di-struct_74ef2af7-e982-4041-9c39-605ca316359c.xml, setupapi/PSP_DRVINFO_DETAIL_DATA, setupapi/SP_DRVINFO_DETAIL_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: setupapi.h
 req.include-header: Setupapi.h

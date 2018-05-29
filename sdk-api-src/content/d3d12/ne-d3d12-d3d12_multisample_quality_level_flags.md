@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d12.D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS
 title: D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies options for determining quality levels.
 old-location: direct3d12\d3d12_multisample_quality_level_flags.htm
 old-project: direct3d12
 ms.assetid: 78FBD851-879C-4C84-ACEA-58CF4ADE29A0
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_NONE, D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_TILED_RESOURCE, D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS, D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS enumeration, d3d12/D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_NONE, d3d12/D3D12_MULTISAMPLE_QUALITY_LEVELS_FLAG_TILED_RESOURCE, d3d12/D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS, direct3d12.d3d12_multisample_quality_level_flags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d12.h
 req.include-header: 

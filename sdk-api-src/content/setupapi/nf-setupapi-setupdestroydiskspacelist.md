@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDestroyDiskSpaceList
 title: SetupDestroyDiskSpaceList function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDestroyDiskSpaceList function destroys a disk-space list and releases the resources allocated to it.
 old-location: setup\setupdestroydiskspacelist.htm
 old-project: SetupApi
 ms.assetid: bf5fd250-5744-4bb7-ad4f-45f754e75460
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupDestroyDiskSpaceList, SetupDestroyDiskSpaceList function [Setup API], _setupapi_setupdestroydiskspacelist, setup.setupdestroydiskspacelist, setupapi/SetupDestroyDiskSpaceList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:ctfutb.__MIDL___MIDL_itf_ctfutb_0000_0010_0001
 title: "__MIDL___MIDL_itf_ctfutb_0000_0010_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: Elements of the TfLBIClick enumeration specify which mouse button was used to click a toolbar item.
 old-location: tsf\tflbiclick.htm
 old-project: TSF
 ms.assetid: 7fd151dd-e4be-4ec8-b373-2115717d5ef4
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TF_LBI_CLK_LEFT, TF_LBI_CLK_RIGHT, TfLBIClick, TfLBIClick enumeration [Text Services Framework], __MIDL___MIDL_itf_ctfutb_0000_0010_0001, _tsf_tflbiclick_ref, ctfutb/TF_LBI_CLK_LEFT, ctfutb/TF_LBI_CLK_RIGHT, ctfutb/TfLBIClick, tsf.tflbiclick
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ctfutb.h
 req.include-header: 

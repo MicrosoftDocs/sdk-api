@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.ShareResources
 title: IMFMediaEngineProtectedContent::ShareResources
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables the Media Engine to access protected content while in frame-server mode.
 old-location: mf\imfmediaengineprotectedcontent_shareresources.htm
 old-project: medfound
 ms.assetid: 7C94AEA2-1D72-4C45-9EDF-90593CC60E2C
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],ShareResources method, IMFMediaEngineProtectedContent.ShareResources, IMFMediaEngineProtectedContent::ShareResources, ShareResources, ShareResources method [Media Foundation], ShareResources method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_shareresources, mfmediaengine/IMFMediaEngineProtectedContent::ShareResources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

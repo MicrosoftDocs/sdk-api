@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstpdi.WdsTransportServerTrace
 title: WdsTransportServerTrace function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a debugging message.
 old-location: wds\wdstransportservertrace.htm
 old-project: Wds
 ms.assetid: 6b0d6b1a-4a77-43f8-affd-6489f9a65050
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WDS_MC_TRACE_ERROR, WDS_MC_TRACE_FATAL, WDS_MC_TRACE_INFO, WDS_MC_TRACE_VERBOSE, WDS_MC_TRACE_WARNING, WdsTransportServerTrace, WdsTransportServerTrace function [Windows Deployment Services], wds.wdstransportservertrace, wdstpdi/WdsTransportServerTrace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 

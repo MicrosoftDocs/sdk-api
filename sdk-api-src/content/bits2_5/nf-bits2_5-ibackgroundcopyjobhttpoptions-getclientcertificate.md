@@ -1,16 +1,16 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.GetClientCertificate
 title: IBackgroundCopyJobHttpOptions::GetClientCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the client certificate from the job.
 old-location: bits\ibackgroundcopyjobhttpoptions_getclientcertificate.htm
 old-project: Bits
 ms.assetid: cd317bf9-1d4b-438e-beec-15ea7da90fc9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetClientCertificate, GetClientCertificate method [BITS], GetClientCertificate method [BITS],IBackgroundCopyJobHttpOptions interface, IBackgroundCopyJobHttpOptions interface [BITS],GetClientCertificate method, IBackgroundCopyJobHttpOptions.GetClientCertificate, IBackgroundCopyJobHttpOptions::GetClientCertificate, bits.ibackgroundcopyjobhttpoptions_getclientcertificate, bits2_5/IBackgroundCopyJobHttpOptions::GetClientCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits2_5.h
 req.include-header: Bits.h

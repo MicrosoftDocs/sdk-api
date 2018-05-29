@@ -1,16 +1,16 @@
 ---
 UID: NN:rend.ITDirectoryObjectUser
 title: ITDirectoryObjectUser
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITDirectoryObjectUser interface is the common interface supported by the User object. This interface is created by calling QueryInterface on ITDirectoryObject.
 old-location: tapi3\itdirectoryobjectuser.htm
 old-project: Tapi
 ms.assetid: 65356507-51d1-479d-8e93-7e18ec041ce3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITDirectoryObjectUser, ITDirectoryObjectUser interface [TAPI 2.2], ITDirectoryObjectUser interface [TAPI 2.2],described, _tapi3_itdirectoryobjectuser, rend/ITDirectoryObjectUser, tapi3.itdirectoryobjectuser
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rend.h
 req.include-header: 

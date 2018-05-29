@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetNames
 title: IWbemClassObject::GetNames
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the names of the properties in the object.
 old-location: wmi\iwbemclassobject_getnames.htm
 old-project: WmiSdk
 ms.assetid: fc75fb17-52a2-40dd-b333-fcd01cae1430
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetNames, GetNames method [Windows Management Instrumentation], GetNames method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetNames method, IWbemClassObject.GetNames, IWbemClassObject::GetNames, _hmm_iwbemclassobject_getnames, wbemcli/IWbemClassObject::GetNames, wmi.iwbemclassobject_getnames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

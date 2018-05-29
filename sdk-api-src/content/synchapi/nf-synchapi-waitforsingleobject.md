@@ -1,16 +1,16 @@
 ---
 UID: NF:synchapi.WaitForSingleObject
 title: WaitForSingleObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Waits until the specified object is in the signaled state or the time-out interval elapses.
 old-location: base\waitforsingleobject.htm
 old-project: Sync
 ms.assetid: e37ebff7-b44e-469d-81ab-7a6bd1a0c822
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: WaitForSingleObject, WaitForSingleObject function, _win32_waitforsingleobject, base.waitforsingleobject, synchapi/WaitForSingleObject, winbase/WaitForSingleObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

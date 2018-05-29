@@ -1,16 +1,16 @@
 ---
 UID: NE:searchapi._FOLLOW_FLAGS
 title: "_FOLLOW_FLAGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to help define behavior when crawling or indexing. These flags are used by the ISearchCrawlScopeManager::AddDefaultScopeRule and ISearchCrawlScopeManager::AddUserScopeRule methods.
 old-location: search\_search_FOLLOW_FLAGS.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\follow_flags.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FF_INDEXCOMPLEXURLS, FF_SUPPRESSINDEXING, FOLLOW_FLAGS, FOLLOW_FLAGS enumeration [search], _FOLLOW_FLAGS, _search_FOLLOW_FLAGS, search._search_FOLLOW_FLAGS, searchapi/FF_INDEXCOMPLEXURLS, searchapi/FF_SUPPRESSINDEXING, searchapi/FOLLOW_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: searchapi.h
 req.include-header: 

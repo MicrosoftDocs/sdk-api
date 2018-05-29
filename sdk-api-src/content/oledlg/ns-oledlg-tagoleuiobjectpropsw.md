@@ -1,16 +1,16 @@
 ---
 UID: NS:oledlg.tagOLEUIOBJECTPROPSW
 title: tagOLEUIOBJECTPROPSW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that is used to initialize the standard Object Properties dialog box.
 old-location: com\oleuiobjectprops_struct.htm
 old-project: com
 ms.assetid: 7a6216d6-061f-48c3-8e3f-5f3e5a63ffb3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPOLEUIOBJECTPROPSW, *POLEUIOBJECTPROPSW, LPOLEUIOBJECTPROPS, LPOLEUIOBJECTPROPS structure pointer [COM], OLEUIOBJECTPROPS, OLEUIOBJECTPROPS structure [COM], OLEUIOBJECTPROPSA, OLEUIOBJECTPROPSW, OPF_DISABLECONVERT, OPF_NOFILLDEFAULT, OPF_OBJECTISLINK, OPF_SHOWHELP, POLEUIOBJECTPROPS, POLEUIOBJECTPROPS structure pointer [COM], _ole_OLEUIOBJECTPROPS, com.oleuiobjectprops_struct, oledlg/LPOLEUIOBJECTPROPS, oledlg/OLEUIOBJECTPROPS, oledlg/OLEUIOBJECTPROPSA, oledlg/OLEUIOBJECTPROPSW, oledlg/POLEUIOBJECTPROPS, tagOLEUIOBJECTPROPSW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: oledlg.h
 req.include-header: 

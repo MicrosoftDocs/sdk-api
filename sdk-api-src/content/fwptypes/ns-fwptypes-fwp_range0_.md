@@ -1,16 +1,16 @@
 ---
 UID: NS:fwptypes.FWP_RANGE0_
 title: FWP_RANGE0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a range of values.
 old-location: fwp\fwp_range0.htm
 old-project: FWP
 ms.assetid: 191ec0e4-2489-4f6f-80c5-8feec83d69c2
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FWP_RANGE0, FWP_RANGE0 structure [Filtering], FWP_RANGE0_, fwp.fwp_range0, fwptypes/FWP_RANGE0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: fwptypes.h
 req.include-header: 

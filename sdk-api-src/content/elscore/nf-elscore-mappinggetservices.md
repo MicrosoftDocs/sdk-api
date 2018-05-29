@@ -1,16 +1,16 @@
 ---
 UID: NF:elscore.MappingGetServices
 title: MappingGetServices function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of available ELS platform-supported services, along with associated information, according to application-specified criteria.
 old-location: intl\mappinggetservices.htm
 old-project: Intl
 ms.assetid: 6d02e085-405e-4388-bf2f-409c92a7b190
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MappingGetServices, MappingGetServices function [Internationalization for Windows Applications], elscore/MappingGetServices, intl.mappinggetservices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: elscore.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_DoNotFinalizeMedia
 title: IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if the media is left open for writing after writing the audio track.
 old-location: imapi\idiscformat2trackatonce_get_donotfinalizemedia.htm
 old-project: imapi
 ms.assetid: 7f33bbc2-531a-472a-8e2a-b7e9fb4d6bba
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_DoNotFinalizeMedia method, IDiscFormat2TrackAtOnce.get_DoNotFinalizeMedia, IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia, get_DoNotFinalizeMedia, get_DoNotFinalizeMedia method [IMAPI], get_DoNotFinalizeMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_donotfinalizemedia, imapi2/IDiscFormat2TrackAtOnce::get_DoNotFinalizeMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

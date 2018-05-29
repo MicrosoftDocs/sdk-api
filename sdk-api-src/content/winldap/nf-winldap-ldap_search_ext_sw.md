@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_search_ext_sW
 title: ldap_search_ext_sW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Synchronously searches the LDAP directory and returns a requested set of attributes for each matched entry.
 old-location: ldap\ldap_search_ext_s.htm
 old-project: LDAP
 ms.assetid: 7ce74c35-7a30-4757-a4f7-d5cd4a389584
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search_ext_s, ldap.ldap__search__ext__s, ldap.ldap_search_ext_s, ldap_search_ext_s, ldap_search_ext_s function [LDAP], ldap_search_ext_sA, ldap_search_ext_sW, winldap/ldap_search_ext_s, winldap/ldap_search_ext_sA, winldap/ldap_search_ext_sW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

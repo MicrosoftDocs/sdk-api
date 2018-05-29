@@ -1,16 +1,16 @@
 ---
 UID: NF:commdlg.GetOpenFileNameA
 title: GetOpenFileNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an Open dialog box that lets the user specify the drive, directory, and the name of a file or set of files to be opened.
 old-location: dlgbox\getopenfilename.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getopenfilename.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetOpenFileName, GetOpenFileName function [Dialog Boxes], GetOpenFileNameA, GetOpenFileNameW, _win32_GetOpenFileName, _win32_getopenfilename_cpp, commdlg/GetOpenFileName, commdlg/GetOpenFileNameA, commdlg/GetOpenFileNameW, dlgbox.getopenfilename, winui._win32_getopenfilename
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: commdlg.h
 req.include-header: Windows.h

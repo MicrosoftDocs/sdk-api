@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.SwapNtmsMedia
 title: SwapNtmsMedia function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SwapNtmsMedia function swaps the sides associated with the two specified LMIDs. The specified LMIDs must be in the same media pool.
 old-location: fs\swapntmsmedia.htm
 old-project: Rsm
 ms.assetid: 1e931ae0-b15c-48c8-b6a0-6fa1689263a2
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: SwapNtmsMedia, SwapNtmsMedia function [Files], _zaw_swapntmsmedia, base.swapntmsmedia, fs.swapntmsmedia, ntmsapi/SwapNtmsMedia
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

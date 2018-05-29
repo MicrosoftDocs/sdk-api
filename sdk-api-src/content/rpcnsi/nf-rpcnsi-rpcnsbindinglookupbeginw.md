@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingLookupBeginW
 title: RpcNsBindingLookupBeginW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsBindingLookupBegin function creates a lookup context for an interface and an object.
 old-location: rpc\rpcnsbindinglookupbegin.htm
 old-project: Rpc
 ms.assetid: 75b7e901-706a-4e3d-b958-d04a0709b993
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsBindingLookupBegin, RpcNsBindingLookupBegin function [RPC], RpcNsBindingLookupBeginA, RpcNsBindingLookupBeginW, _rpc_rpcnsbindinglookupbegin, rpc.rpcnsbindinglookupbegin, rpcnsi/RpcNsBindingLookupBegin, rpcnsi/RpcNsBindingLookupBeginA, rpcnsi/RpcNsBindingLookupBeginW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

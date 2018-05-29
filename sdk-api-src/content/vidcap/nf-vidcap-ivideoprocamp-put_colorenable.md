@@ -1,16 +1,16 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_ColorEnable
 title: IVideoProcAmp::put_ColorEnable
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_ColorEnable method sets the camera's color-enable setting.
 old-location: dshow\ivideoprocamp_put_colorenable.htm
 old-project: DirectShow
 ms.assetid: 6a1caa3f-e591-4176-90b9-80a4bd71533b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_ColorEnable method, IVideoProcAmp.put_ColorEnable, IVideoProcAmp::put_ColorEnable, IVideoProcAmpput_ColorEnable, dshow.ivideoprocamp_put_colorenable, put_ColorEnable, put_ColorEnable method [DirectShow], put_ColorEnable method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_ColorEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vidcap.h
 req.include-header: 

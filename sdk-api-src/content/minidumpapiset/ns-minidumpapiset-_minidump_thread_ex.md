@@ -1,16 +1,16 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_THREAD_EX
 title: "_MINIDUMP_THREAD_EX"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains extended information for a specific thread.
 old-location: base\minidump_thread_ex_str.htm
 old-project: Debug
 ms.assetid: aa99bdf3-29b7-4865-8935-810388f3d2b3
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PMINIDUMP_THREAD_EX, MINIDUMP_THREAD_EX, MINIDUMP_THREAD_EX structure, PMINIDUMP_THREAD_EX, PMINIDUMP_THREAD_EX structure pointer, _MINIDUMP_THREAD_EX, _win32_minidump_thread_ex_str, base.minidump_thread_ex_str, minidumpapiset/MINIDUMP_THREAD_EX, minidumpapiset/PMINIDUMP_THREAD_EX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h

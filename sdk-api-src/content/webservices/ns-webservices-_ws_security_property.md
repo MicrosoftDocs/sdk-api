@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_SECURITY_PROPERTY
 title: "_WS_SECURITY_PROPERTY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a channel-wide security setting.
 old-location: wsw\ws_security_property.htm
 old-project: wsw
 ms.assetid: 676079cd-6ca8-486b-9604-172423210ad5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SECURITY_PROPERTY, WS_SECURITY_PROPERTY structure [Web Services for Windows], _WS_SECURITY_PROPERTY, webservices/WS_SECURITY_PROPERTY, wsw.ws_security_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

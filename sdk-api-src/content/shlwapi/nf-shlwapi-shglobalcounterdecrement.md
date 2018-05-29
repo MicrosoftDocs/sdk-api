@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHGlobalCounterDecrement
 title: SHGlobalCounterDecrement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrements a global counter.
 old-location: shell\SHGlobalCounterDecrement.htm
 old-project: shell
 ms.assetid: 67b45cb9-9d8d-48ef-a7bc-9cd8824bdf2b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHGlobalCounterDecrement, SHGlobalCounterDecrement function [Windows Shell], _shell_SHGlobalCounterDecrement, shell.SHGlobalCounterDecrement, shlwapi/SHGlobalCounterDecrement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

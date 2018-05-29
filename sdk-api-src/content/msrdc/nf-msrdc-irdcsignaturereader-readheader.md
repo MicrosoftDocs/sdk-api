@@ -1,16 +1,16 @@
 ---
 UID: NF:msrdc.IRdcSignatureReader.ReadHeader
 title: IRdcSignatureReader::ReadHeader
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads the signature header and returns a copy of the parameters used to generate the signatures.
 old-location: rdc\irdcsignaturereader_readheader.htm
 old-project: Rdc
 ms.assetid: c0f4d31d-338f-49fc-9f1a-e8e31ffa1bc7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IRdcSignatureReader interface [Remote Differential Compression],ReadHeader method, IRdcSignatureReader.ReadHeader, IRdcSignatureReader::ReadHeader, ReadHeader, ReadHeader method [Remote Differential Compression], ReadHeader method [Remote Differential Compression],IRdcSignatureReader interface, fs.irdcsignaturereader_readheader, msrdc/IRdcSignatureReader::ReadHeader, rdc.irdcsignaturereader_readheader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

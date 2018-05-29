@@ -1,16 +1,16 @@
 ---
 UID: NS:wincrypt._CERT_BASIC_CONSTRAINTS2_INFO
 title: "_CERT_BASIC_CONSTRAINTS2_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CERT_BASIC_CONSTRAINTS2_INFO structure contains information indicating whether the certified subject can act as a CA or an end entity. If the subject can act as a CA, a certification path length constraint can also be specified.
 old-location: security\cert_basic_constraints2_info.htm
 old-project: SecCrypto
 ms.assetid: bbeeb18b-c5d7-4490-8edc-4af19b37ab3f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCERT_BASIC_CONSTRAINTS2_INFO, CERT_BASIC_CONSTRAINTS2_INFO, CERT_BASIC_CONSTRAINTS2_INFO structure [Security], PCERT_BASIC_CONSTRAINTS2_INFO, PCERT_BASIC_CONSTRAINTS2_INFO structure pointer [Security], _CERT_BASIC_CONSTRAINTS2_INFO, _crypto2_cert_basic_constraints2_info, security.cert_basic_constraints2_info, wincrypt/CERT_BASIC_CONSTRAINTS2_INFO, wincrypt/PCERT_BASIC_CONSTRAINTS2_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wincrypt.h
 req.include-header: 

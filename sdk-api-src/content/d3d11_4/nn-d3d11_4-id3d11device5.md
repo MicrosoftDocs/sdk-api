@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11_4.ID3D11Device5
 title: ID3D11Device5
-author: windows-driver-content
+author: windows-sdk-content
 description: The device interface represents a virtual adapter; it is used to create resources. ID3D11Device5 adds new methods to those in ID3D11Device4.
 old-location: direct3d11\id3d11device5.htm
 old-project: direct3d11
 ms.assetid: C077BAD4-08D2-4F1F-8313-5066F68F014C
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: ID3D11Device5, ID3D11Device5 interface [Direct3D 11], ID3D11Device5 interface [Direct3D 11],described, d3d11_4/ID3D11Device5, direct3d11.id3d11device5
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11_4.h
 req.include-header: 

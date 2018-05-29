@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.Initialize
 title: ICertPropertyEnrollmentPolicyServer::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an ICertPropertyEnrollmentPolicyServer object.
 old-location: security\icertpropertyenrollmentpolicyserver_initialize.htm
 old-project: SecCertEnroll
 ms.assetid: 5d54ffb2-4a81-4d52-80db-b8526a52bb53
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DefaultNone, DefaultPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security],Initialize method, ICertPropertyEnrollmentPolicyServer.Initialize, ICertPropertyEnrollmentPolicyServer::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyEnrollmentPolicyServer interface, PsfAllowUnTrustedCA, PsfAutoEnrollmentEnabled, PsfLocationGroupPolicy, PsfLocationRegistry, PsfNone, PsfUseClientId, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/ICertPropertyEnrollmentPolicyServer::Initialize, security.icertpropertyenrollmentpolicyserver_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.IWMDMProgress
 title: IWMDMProgress
-author: windows-driver-content
+author: windows-sdk-content
 description: The optional, application-implemented IWMDMProgress allows an application to track the progress of operations, such as formatting media or file transfers.
 old-location: wmdm\iwmdmprogress.htm
 old-project: WMDM
 ms.assetid: 9af022a6-19b4-41b7-b951-0acad6aab4a2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMProgress, IWMDMProgress interface [windows Media Device Manager], IWMDMProgress interface [windows Media Device Manager],described, IWMDMProgressInterface, mswmdm/IWMDMProgress, wmdm.iwmdmprogress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IRunningObjectTable
 title: IRunningObjectTable
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages access to the running object table (ROT), a globally accessible look-up table on each workstation.
 old-location: com\irunningobjecttable.htm
 old-project: com
 ms.assetid: ff89bcb5-df6d-4325-b0e8-613217a68f42
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRunningObjectTable, IRunningObjectTable interface [COM], IRunningObjectTable interface [COM],described, _com_irunningobjecttable, com.irunningobjecttable, objidl/IRunningObjectTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: 

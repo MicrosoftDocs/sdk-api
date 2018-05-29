@@ -1,16 +1,16 @@
 ---
 UID: NN:mpegtype.IMpegAudioDecoder
 title: IMpegAudioDecoder
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMpegAudioDecoder interface is exposed on the MPEG-1 Audio Decoder filter and it enables applications to control decoding parameters.
 old-location: dshow\impegaudiodecoder.htm
 old-project: DirectShow
 ms.assetid: 59fd96ef-2f9a-4a8e-bd08-2695de52b1c6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMpegAudioDecoder, IMpegAudioDecoder interface [DirectShow], IMpegAudioDecoder interface [DirectShow],described, IMpegAudioDecoderInterface, dshow.impegaudiodecoder, mpegtype/IMpegAudioDecoder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mpegtype.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprInfoCreate
 title: MprInfoCreate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprInfoCreate function creates a new information header.
 old-location: rras\mprinfocreate.htm
 old-project: RRAS
 ms.assetid: c48fc24f-8cf6-45c0-8ce1-841896648ba7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprInfoCreate, MprInfoCreate function [RAS], _mpr_mprinfocreate, mprapi/MprInfoCreate, rras.mprinfocreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

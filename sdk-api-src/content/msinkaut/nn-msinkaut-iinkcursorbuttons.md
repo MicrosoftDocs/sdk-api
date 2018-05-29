@@ -1,16 +1,16 @@
 ---
 UID: NN:msinkaut.IInkCursorButtons
 title: IInkCursorButtons
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a collection of IInkCursorButton objects for an IInkCursor interface.
 old-location: tablet\iinkcursorbuttons.htm
 old-project: tablet
 ms.assetid: 3f695ab4-8174-402f-b7d6-810f149f5153
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 3f695ab4-8174-402f-b7d6-810f149f5153, IInkCursorButtons, IInkCursorButtons interface [Tablet PC], IInkCursorButtons interface [Tablet PC],described, msinkaut/IInkCursorButtons, tablet.iinkcursorbuttons
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut.h
 req.include-header: 

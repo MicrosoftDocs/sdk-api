@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFContentProtectionDevice
 title: IMFContentProtectionDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows a decryptor to communicate with the security processor that implements the hardware decryption for a protection system.
 old-location: mf\imfcontentprotectiondevice.htm
 old-project: medfound
 ms.assetid: A95F6526-60D2-4922-897E-6369EBB0DC79
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFContentProtectionDevice, IMFContentProtectionDevice interface [Media Foundation], IMFContentProtectionDevice interface [Media Foundation],described, mf.imfcontentprotectiondevice, mfidl/IMFContentProtectionDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

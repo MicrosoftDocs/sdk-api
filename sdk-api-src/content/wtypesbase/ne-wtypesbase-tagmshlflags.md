@@ -1,16 +1,16 @@
 ---
 UID: NE:wtypesbase.tagMSHLFLAGS
 title: tagMSHLFLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies why the marshaling is to be done.
 old-location: com\mshlflags.htm
 old-project: com
 ms.assetid: 42a482be-d4b8-4f2e-ae43-1d210cb44c7c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MSHLFLAGS, MSHLFLAGS enumeration [COM], MSHLFLAGS_NOPING, MSHLFLAGS_NORMAL, MSHLFLAGS_TABLESTRONG, MSHLFLAGS_TABLEWEAK, _com_MSHLFLAGS, com.mshlflags, tagMSHLFLAGS, wtypesbase/MSHLFLAGS, wtypesbase/MSHLFLAGS_NOPING, wtypesbase/MSHLFLAGS_NORMAL, wtypesbase/MSHLFLAGS_TABLESTRONG, wtypesbase/MSHLFLAGS_TABLEWEAK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wtypesbase.h
 req.include-header: WTypes.h

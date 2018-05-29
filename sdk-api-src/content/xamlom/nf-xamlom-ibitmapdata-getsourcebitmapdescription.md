@@ -1,16 +1,16 @@
 ---
 UID: NF:xamlom.IBitmapData.GetSourceBitmapDescription
 title: IBitmapData::GetSourceBitmapDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a BitmapDescription that describes the original format of the bitmap data stored in the IBitmapData.
 old-location: xaml_diagnostics\ibitmapdata_getsourcebitmapdescription.htm
 old-project: xaml_diagnostics
 ms.assetid: 3B11A54C-347D-4F14-A5F8-36250FC5E06B
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: GetSourceBitmapDescription, GetSourceBitmapDescription method, GetSourceBitmapDescription method,IBitmapData interface, IBitmapData interface,GetSourceBitmapDescription method, IBitmapData.GetSourceBitmapDescription, IBitmapData::GetSourceBitmapDescription, xaml_diagnostics.ibitmapdata_getsourcebitmapdescription, xamlom/IBitmapData::GetSourceBitmapDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

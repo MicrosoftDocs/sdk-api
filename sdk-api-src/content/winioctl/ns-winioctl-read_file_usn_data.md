@@ -1,16 +1,16 @@
 ---
 UID: NS:winioctl.READ_FILE_USN_DATA
 title: READ_FILE_USN_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the versions of the update sequence number (USN) change journal supported by the application.
 old-location: fs\read_file_usn_data.htm
 old-project: FileIO
 ms.assetid: 8c403eec-7504-4a69-9f05-7a3a164557a6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PREAD_FILE_USN_DATA, PREAD_FILE_USN_DATA, PREAD_FILE_USN_DATA structure pointer [Files], READ_FILE_USN_DATA, READ_FILE_USN_DATA structure [Files], fs.read_file_usn_data, winioctl/PREAD_FILE_USN_DATA, winioctl/READ_FILE_USN_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winioctl.h
 req.include-header: Windows.h

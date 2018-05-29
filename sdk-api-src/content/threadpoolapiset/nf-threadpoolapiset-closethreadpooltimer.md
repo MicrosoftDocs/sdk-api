@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.CloseThreadpoolTimer
 title: CloseThreadpoolTimer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the specified timer object.
 old-location: base\closethreadpooltimer.htm
 old-project: ProcThread
 ms.assetid: c1270c5d-a1f5-4481-a343-c1ff3301a56e
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CloseThreadpoolTimer, CloseThreadpoolTimer function, base.closethreadpooltimer, threadpoolapiset/CloseThreadpoolTimer, winbase/CloseThreadpoolTimer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignaturePartName
 title: IOpcSigningOptions::GetSignaturePartName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the part name of the signature part where the signature markup will be stored.
 old-location: opc\iopcsigningoptions_getsignaturepartname.htm
 old-project: OPC
 ms.assetid: 09481639-eea1-4203-932f-e97558408b42
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetSignaturePartName, GetSignaturePartName method [Open Packaging Conventions], GetSignaturePartName method [Open Packaging Conventions],IOpcSigningOptions interface, IOpcSigningOptions interface [Open Packaging Conventions],GetSignaturePartName method, IOpcSigningOptions.GetSignaturePartName, IOpcSigningOptions::GetSignaturePartName, msopc/IOpcSigningOptions::GetSignaturePartName, opc.iopcsigningoptions_getsignaturepartname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

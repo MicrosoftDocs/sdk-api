@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader3.GetInclusionList
 title: IWMDRMReader3::GetInclusionList
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetInclusionList method retrieves a list of identifiers specifying approved protection systems.
 old-location: wmformat\iwmdrmreader3_getinclusionlist.htm
 old-project: wmformat
 ms.assetid: ac6f2ced-d60d-4472-8549-c52314375ac6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetInclusionList, GetInclusionList method [windows Media Format], GetInclusionList method [windows Media Format],IWMDRMReader3 interface, IWMDRMReader3 interface [windows Media Format],GetInclusionList method, IWMDRMReader3.GetInclusionList, IWMDRMReader3::GetInclusionList, IWMDRMReader3GetInclusionList, wmformat.iwmdrmreader3_getinclusionlist, wmsdkidl/IWMDRMReader3::GetInclusionList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

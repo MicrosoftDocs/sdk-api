@@ -1,16 +1,16 @@
 ---
 UID: NE:msime.IMEUCT
 title: IMEUCT
-author: windows-driver-content
+author: windows-sdk-content
 description: Type of user comment in a IMEWRD structure.
 old-location: intl\imeuct.htm
 old-project: Intl
 ms.assetid: B4969E4E-1918-4963-B9F2-606556FD5978
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFED_UCT_NONE, IFED_UCT_STRING_SJIS, IFED_UCT_STRING_UNICODE, IFED_UCT_USER_DEFINED, IMEUCT, IMEUCT enumeration [Internationalization for Windows Applications], intl.imeuct, msime/IFED_UCT_NONE, msime/IFED_UCT_STRING_SJIS, msime/IFED_UCT_STRING_UNICODE, msime/IFED_UCT_USER_DEFINED, msime/IMEUCT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msime.h
 req.include-header: 

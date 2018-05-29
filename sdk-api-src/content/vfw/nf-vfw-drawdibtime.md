@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.DrawDibTime
 title: DrawDibTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrawDibTime function retrieves timing information about the drawing operation and is used during debug operations.
 old-location: multimedia\drawdibtime.htm
 old-project: Multimedia
 ms.assetid: 86dd2c5c-f853-4954-b245-6aa51d157600
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: DrawDibTime, DrawDibTime function [Windows Multimedia], _win32_DrawDibTime, multimedia.drawdibtime, vfw/DrawDibTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

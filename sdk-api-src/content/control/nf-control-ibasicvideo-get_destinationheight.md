@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IBasicVideo.get_DestinationHeight
 title: IBasicVideo::get_DestinationHeight
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_DestinationHeight method retrieves the height of the destination rectangle.
 old-location: dshow\ibasicvideo_get_destinationheight.htm
 old-project: DirectShow
 ms.assetid: 21d6c74a-2adb-4015-b0df-5acb26c22212
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IBasicVideo interface [DirectShow],get_DestinationHeight method, IBasicVideo.get_DestinationHeight, IBasicVideo::get_DestinationHeight, IBasicVideoget_DestinationHeight, control/IBasicVideo::get_DestinationHeight, dshow.ibasicvideo_get_destinationheight, get_DestinationHeight, get_DestinationHeight method [DirectShow], get_DestinationHeight method [DirectShow],IBasicVideo interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

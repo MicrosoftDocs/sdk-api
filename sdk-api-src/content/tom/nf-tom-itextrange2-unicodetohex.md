@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextRange2.UnicodeToHex
 title: ITextRange2::UnicodeToHex
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the Unicode character(s) preceding the start position of this text range to a hexadecimal number, and selects it.
 old-location: controls\itextrange2_unicodetohex.htm
 old-project: Controls
 ms.assetid: 538f7db4-0739-421c-9d51-8144b2d52334
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextRange2 interface [Windows Controls],UnicodeToHex method, ITextRange2.UnicodeToHex, ITextRange2::UnicodeToHex, UnicodeToHex, UnicodeToHex method [Windows Controls], UnicodeToHex method [Windows Controls],ITextRange2 interface, controls.itextrange2_unicodetohex, tom/ITextRange2::UnicodeToHex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.DispGetIDsOfNames
 title: DispGetIDsOfNames function
-author: windows-driver-content
+author: windows-sdk-content
 description: Low-level helper for Invoke that provides machine independence for customized Invoke.
 old-location: automat\dispgetidsofnames.htm
 old-project: automat
 ms.assetid: 720a0237-9c68-4252-9f66-43610d4be106
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: DispGetIDsOfNames, DispGetIDsOfNames function [Automation], _oa96_DispGetIDsOfNames, automat.dispgetidsofnames, oleauto/DispGetIDsOfNames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

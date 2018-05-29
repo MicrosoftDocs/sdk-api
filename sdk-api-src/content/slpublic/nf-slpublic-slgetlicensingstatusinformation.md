@@ -1,16 +1,16 @@
 ---
 UID: NF:slpublic.SLGetLicensingStatusInformation
 title: SLGetLicensingStatusInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the licensing status of the specified application or SKU.
 old-location: security\slgetlicensingstatusinformation.htm
 old-project: SecSLApi
 ms.assetid: d35e6f8d-a019-46e0-9755-51f670f4913e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SLGetLicensingStatusInformation, SLGetLicensingStatusInformation function [Security], security.slgetlicensingstatusinformation, slpublic/SLGetLicensingStatusInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: slpublic.h
 req.include-header: 

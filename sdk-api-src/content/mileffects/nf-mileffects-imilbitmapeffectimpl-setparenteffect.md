@@ -1,16 +1,16 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.SetParentEffect
 title: IMILBitmapEffectImpl::SetParentEffect
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the parent of the effect.
 old-location: wibe\_wibe_imilbitmapeffectimpl_setparenteffect.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\setparenteffect.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: IMILBitmapEffectImpl interface [WPF Bitmap Effects],SetParentEffect method, IMILBitmapEffectImpl.SetParentEffect, IMILBitmapEffectImpl::SetParentEffect, SetParentEffect, SetParentEffect method [WPF Bitmap Effects], SetParentEffect method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, _wibe_imilbitmapeffectimpl_setparenteffect, mileffects/IMILBitmapEffectImpl::SetParentEffect, wibe._wibe_imilbitmapeffectimpl_setparenteffect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

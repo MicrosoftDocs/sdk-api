@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplustypes.Rect.GetLocation
 title: Rect::GetLocation
-author: windows-driver-content
+author: windows-sdk-content
 description: The Rect::GetLocation method gets the coordinates of the upper-left corner of the rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Rect_GetLocation_point_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getlocation.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetLocation, GetLocation method [GDI+], GetLocation method [GDI+],Rect class, Rect class [GDI+],GetLocation method, Rect.GetLocation, Rect::GetLocation, _gdiplus_CLASS_Rect_GetLocation_point_, gdiplus._gdiplus_CLASS_Rect_GetLocation_point_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsbuffer.IWMSBufferAllocator.AllocateBuffer
 title: IWMSBufferAllocator::AllocateBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: The AllocateBuffer method initializes a buffer.
 old-location: wmformat\iwmsbufferallocator_allocatebuffer.htm
 old-project: wmformat
 ms.assetid: 857fb8fa-0e86-46f2-907d-a244d6c699ef
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AllocateBuffer, AllocateBuffer method [windows Media Format], AllocateBuffer method [windows Media Format],IWMSBufferAllocator interface, IWMSBufferAllocator interface [windows Media Format],AllocateBuffer method, IWMSBufferAllocator.AllocateBuffer, IWMSBufferAllocator::AllocateBuffer, IWMSBufferAllocatorAllocateBuffer, wmformat.iwmsbufferallocator_allocatebuffer, wmsbuffer/IWMSBufferAllocator::AllocateBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsbuffer.h
 req.include-header: 

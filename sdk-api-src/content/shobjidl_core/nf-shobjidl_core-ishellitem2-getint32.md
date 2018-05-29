@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetInt32
 title: IShellItem2::GetInt32
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the Int32 value of specified property key.
 old-location: shell\IShellItem2_GetInt32.htm
 old-project: shell
 ms.assetid: 7b56036e-316b-4300-979c-151422f74bd2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetInt32, GetInt32 method [Windows Shell], GetInt32 method [Windows Shell],IShellItem2 interface, IShellItem2 interface [Windows Shell],GetInt32 method, IShellItem2.GetInt32, IShellItem2::GetInt32, _shell_IShellItem2_GetInt32, shell.IShellItem2_GetInt32, shobjidl_core/IShellItem2::GetInt32
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

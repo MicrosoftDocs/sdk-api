@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfContextComposition.EnumCompositions
 title: ITfContextComposition::EnumCompositions
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfContextComposition::EnumCompositions method
 old-location: tsf\itfcontextcomposition_enumcompositions.htm
 old-project: TSF
 ms.assetid: 230daf27-2655-4d67-b183-cd0f0c855298
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EnumCompositions, EnumCompositions method [Text Services Framework], EnumCompositions method [Text Services Framework],ITfContextComposition interface, ITfContextComposition interface [Text Services Framework],EnumCompositions method, ITfContextComposition.EnumCompositions, ITfContextComposition::EnumCompositions, _tsf_itfcontextcomposition_enumcompositions_ref, msctf/ITfContextComposition::EnumCompositions, tsf.itfcontextcomposition_enumcompositions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

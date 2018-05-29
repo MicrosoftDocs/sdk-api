@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IDeferredCommand.Cancel
 title: IDeferredCommand::Cancel
-author: windows-driver-content
+author: windows-sdk-content
 description: The Cancel method cancels a command that the application previously queued.
 old-location: dshow\ideferredcommand_cancel.htm
 old-project: DirectShow
 ms.assetid: 56618860-3655-42a2-ad74-ef43da08d001
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Cancel, Cancel method [DirectShow], Cancel method [DirectShow],IDeferredCommand interface, IDeferredCommand interface [DirectShow],Cancel method, IDeferredCommand.Cancel, IDeferredCommand::Cancel, IDeferredCommandCancel, control/IDeferredCommand::Cancel, dshow.ideferredcommand_cancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

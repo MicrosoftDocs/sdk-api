@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMAnalogVideoEncoder.put_CopyProtection
 title: IAMAnalogVideoEncoder::put_CopyProtection
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  The IAMAnalogVideoEncoder interface is deprecated. The put_CopyProtection method sets the level of copy protection for the encoder.
 old-location: dshow\iamanalogvideoencoder_put_copyprotection.htm
 old-project: DirectShow
 ms.assetid: a2a762f3-8b11-4334-979d-206234d6cf09
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMAnalogVideoEncoder interface [DirectShow],put_CopyProtection method, IAMAnalogVideoEncoder.put_CopyProtection, IAMAnalogVideoEncoder::put_CopyProtection, IAMAnalogVideoEncoderput_CopyProtection, dshow.iamanalogvideoencoder_put_copyprotection, put_CopyProtection, put_CopyProtection method [DirectShow], put_CopyProtection method [DirectShow],IAMAnalogVideoEncoder interface, strmif/IAMAnalogVideoEncoder::put_CopyProtection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

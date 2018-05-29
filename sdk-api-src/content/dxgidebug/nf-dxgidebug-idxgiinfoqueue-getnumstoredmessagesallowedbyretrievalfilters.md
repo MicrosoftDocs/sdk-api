@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumStoredMessagesAllowedByRetrievalFilters
 title: IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the number of messages that can pass through a retrieval filter.
 old-location: direct3ddxgi\idxgiinfoqueue_getnumstoredmessagesallowedbyretrievalfilters.htm
 old-project: direct3ddxgi
 ms.assetid: 1BFFEE9F-7902-41B7-9607-BD0E955FBD8B
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetNumStoredMessagesAllowedByRetrievalFilters, GetNumStoredMessagesAllowedByRetrievalFilters method [DXGI], GetNumStoredMessagesAllowedByRetrievalFilters method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetNumStoredMessagesAllowedByRetrievalFilters method, IDXGIInfoQueue.GetNumStoredMessagesAllowedByRetrievalFilters, IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters, direct3ddxgi.idxgiinfoqueue_getnumstoredmessagesallowedbyretrievalfilters, dxgidebug/IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgidebug.h
 req.include-header: 

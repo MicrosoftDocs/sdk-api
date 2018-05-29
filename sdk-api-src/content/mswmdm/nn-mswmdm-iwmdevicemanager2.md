@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.IWMDeviceManager2
 title: IWMDeviceManager2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMDeviceManager2 interface extends IWMDeviceManager interface.
 old-location: wmdm\iwmdevicemanager2.htm
 old-project: WMDM
 ms.assetid: ea4bf623-c93a-4c0f-a84f-e3a979b37d60
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDeviceManager2, IWMDeviceManager2 interface [windows Media Device Manager], IWMDeviceManager2 interface [windows Media Device Manager],described, IWMDeviceManager2Interface, mswmdm/IWMDeviceManager2, wmdm.iwmdevicemanager2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

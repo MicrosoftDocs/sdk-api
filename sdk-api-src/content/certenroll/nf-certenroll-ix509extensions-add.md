@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509Extensions.Add
 title: IX509Extensions::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an IX509Extension object to the collection.
 old-location: security\ix509extensions_add_method.htm
 old-project: SecCertEnroll
 ms.assetid: 08109828-44d9-4b8f-a57c-bbedfc82fbbb
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IX509Extensions interface, IX509Extensions interface [Security],Add method, IX509Extensions.Add, IX509Extensions::Add, certenroll/IX509Extensions::Add, security.ix509extensions_add_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

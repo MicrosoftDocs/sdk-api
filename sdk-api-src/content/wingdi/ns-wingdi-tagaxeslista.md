@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagAXESLISTA
 title: tagAXESLISTA
-author: windows-driver-content
+author: windows-sdk-content
 description: The AXESLIST structure contains information on all the axes of a multiple master font.
 old-location: gdi\axeslist.htm
 old-project: gdi
 ms.assetid: f95f012e-f02b-46c1-94ba-69f426ee7ad9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPAXESLISTA, *PAXESLISTA, AXESLIST, AXESLIST structure [Windows GDI], AXESLISTA, AXESLISTW, PAXESLIST, PAXESLIST structure pointer [Windows GDI], _win32_AXESLIST_str, gdi.axeslist, tagAXESLISTA, wingdi/AXESLIST, wingdi/AXESLISTA, wingdi/AXESLISTW, wingdi/PAXESLIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

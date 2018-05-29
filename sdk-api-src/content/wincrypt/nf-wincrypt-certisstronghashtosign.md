@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertIsStrongHashToSign
 title: CertIsStrongHashToSign function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the specified hash algorithm and the public key in the signing certificate can be used to perform strong signing.
 old-location: security\certisstronghashtosign.htm
 old-project: SecCrypto
 ms.assetid: B498C1F0-1EFF-49AF-9CD4-A447F79256F1
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertIsStrongHashToSign, CertIsStrongHashToSign function [Security], security.certisstronghashtosign, wincrypt/CertIsStrongHashToSign
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

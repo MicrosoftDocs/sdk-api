@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiAdvertiseProductA
 title: MsiAdvertiseProductA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiAdvertiseProduct function generates an advertise script or advertises a product to the computer.
 old-location: setup\msiadvertiseproduct.htm
 old-project: Msi
 ms.assetid: b28736cb-7097-4f6e-a158-a525a32d9b58
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ADVERTISEFLAGS_MACHINEASSIGN, ADVERTISEFLAGS_USERASSIGN, MsiAdvertiseProduct, MsiAdvertiseProduct function, MsiAdvertiseProductA, MsiAdvertiseProductW, _msi_msiadvertiseproduct, msi/MsiAdvertiseProduct, msi/MsiAdvertiseProductA, msi/MsiAdvertiseProductW, setup.msiadvertiseproduct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

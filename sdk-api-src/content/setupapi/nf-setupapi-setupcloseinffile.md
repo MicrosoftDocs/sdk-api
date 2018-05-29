@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupCloseInfFile
 title: SetupCloseInfFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupCloseInfFile function closes the INF file opened by a call to SetupOpenInfFile. This function closes any INF files appended to it by calling SetupOpenAppendInfFile.
 old-location: setup\setupcloseinffile.htm
 old-project: SetupApi
 ms.assetid: 78b6a69d-e588-45f1-bf5c-a6feaf8b3364
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupCloseInfFile, SetupCloseInfFile function [Setup API], _setupapi_setupcloseinffile, setup.setupcloseinffile, setupapi/SetupCloseInfFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

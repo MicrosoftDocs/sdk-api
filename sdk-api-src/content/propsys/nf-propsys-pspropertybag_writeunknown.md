@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteUnknown
 title: PSPropertyBag_WriteUnknown function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes a property of an unknown data value in a property bag.
 old-location: properties\PSPropertyBag_WriteUnknown.htm
 old-project: properties
 ms.assetid: D96643E7-9A14-4410-BD2C-A264B74E0590
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_WriteUnknown, PSPropertyBag_WriteUnknown function [Windows Properties], properties.PSPropertyBag_WriteUnknown, propsys/PSPropertyBag_WriteUnknown, shell.PSPropertyBag_WriteUnknown, shell_PSPropertyBag_WriteUnknown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceSetCredentials
 title: MprAdminInterfaceSetCredentials function
-author: windows-driver-content
+author: windows-sdk-content
 description: Use MprAdminInterfaceSetCredentials function to set the domain, user name, and password that will be used for dialing out on the specified demand-dial interface.
 old-location: rras\mpradmininterfacesetcredentials.htm
 old-project: RRAS
 ms.assetid: a5372bfb-185c-4562-afa3-35399c8e2a46
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminInterfaceSetCredentials, MprAdminInterfaceSetCredentials function [RAS], _mpr_mpradmininterfacesetcredentials, mprapi/MprAdminInterfaceSetCredentials, rras.mpradmininterfacesetcredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

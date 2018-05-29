@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_TemplateObjectId
 title: IX509CertificateRequestCmc::get_TemplateObjectId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the object identifier (OID) of the template used to create the certificate request.
 old-location: security\ix509certificaterequestcmc_templateobjectid_property.htm
 old-project: SecCertEnroll
 ms.assetid: 36a87e0e-d910-45a7-9850-512ff94e78b8
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],TemplateObjectId property, IX509CertificateRequestCmc.TemplateObjectId, IX509CertificateRequestCmc.get_TemplateObjectId, IX509CertificateRequestCmc::TemplateObjectId, IX509CertificateRequestCmc::get_TemplateObjectId, TemplateObjectId property [Security], TemplateObjectId property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::TemplateObjectId, certenroll/IX509CertificateRequestCmc::get_TemplateObjectId, get_TemplateObjectId, security.ix509certificaterequestcmc_templateobjectid_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

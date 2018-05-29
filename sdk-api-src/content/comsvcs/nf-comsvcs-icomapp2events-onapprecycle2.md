@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComApp2Events.OnAppRecycle2
 title: IComApp2Events::OnAppRecycle2
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when the server application process is marked for recycling termination.
 old-location: cos\icomapp2events_onapprecycle2.htm
 old-project: cossdk
 ms.assetid: 36be1f17-05cc-4c0a-97aa-84abd46de801
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CRR_ACTIVATION_LIMIT, CRR_CALL_LIMIT, CRR_LIFETIME_LIMIT, CRR_MEMORY_LIMIT, CRR_NO_REASON_SUPPLIED, CRR_RECYCLED_FROM_UI, IComApp2Events interface [COM+],OnAppRecycle2 method, IComApp2Events.OnAppRecycle2, IComApp2Events::OnAppRecycle2, OnAppRecycle2, OnAppRecycle2 method [COM+], OnAppRecycle2 method [COM+],IComApp2Events interface, _dtc_IComApp2Events_OnAppRecycle2, comsvcs/IComApp2Events::OnAppRecycle2, cos.icomapp2events_onapprecycle2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

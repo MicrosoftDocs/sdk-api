@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRemoveEvent
 title: UiaRemoveEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes a listener for events on a node in the UI Automation tree.
 old-location: winauto\uiauto_UiaRemoveEventClientEvent.htm
 old-project: WinAuto
 ms.assetid: c98b3e0f-c3d3-45a5-b1a1-80da1b5673f3
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UiaRemoveEvent, UiaRemoveEvent function [Windows Accessibility], uiauto.uiauto_UiaRemoveEventClientEvent, uiauto_UiaRemoveEventClientEvent, uiautomationcoreapi/UiaRemoveEvent, winauto.uiauto_UiaRemoveEventClientEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

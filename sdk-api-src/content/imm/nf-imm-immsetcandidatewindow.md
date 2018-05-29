@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmSetCandidateWindow
 title: ImmSetCandidateWindow function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets information about the candidates window.
 old-location: intl\immsetcandidatewindow.htm
 old-project: Intl
 ms.assetid: 4b82a5a3-1e31-4d50-9a0f-890e94d12201
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmSetCandidateWindow, ImmSetCandidateWindow function [Internationalization for Windows Applications], _win32_ImmSetCandidateWindow, imm/ImmSetCandidateWindow, intl.immsetcandidatewindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

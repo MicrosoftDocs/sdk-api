@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextFont.SetUnderline
 title: ITextFont::SetUnderline
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the type of underlining for the characters in a range.
 old-location: controls\ITextFont_SetUnderline.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setunderline.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextFont interface [Windows Controls],SetUnderline method, ITextFont.SetUnderline, ITextFont::SetUnderline, SetUnderline, SetUnderline method [Windows Controls], SetUnderline method [Windows Controls],ITextFont interface, _win32_ITextFont_SetUnderline, _win32_ITextFont_SetUnderline_cpp, controls.ITextFont_SetUnderline, controls._win32_ITextFont_SetUnderline, tom/ITextFont::SetUnderline, tomDash, tomDashDot, tomDashDotDot, tomDotted, tomDouble, tomDoubleWave, tomHair, tomHeavyWave, tomLongDash, tomNone, tomSingle, tomThick, tomThickDash, tomThickDashDot, tomThickDashDotDot, tomThickDotted, tomThickLongDash, tomWave, tomWords
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

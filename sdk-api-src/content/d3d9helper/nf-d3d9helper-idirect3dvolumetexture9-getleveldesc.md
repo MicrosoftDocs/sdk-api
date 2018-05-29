@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DVolumeTexture9.GetLevelDesc
 title: IDirect3DVolumeTexture9::GetLevelDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a level description of a volume texture resource.
 old-location: direct3d9\idirect3dvolumetexture9__getleveldesc.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolumetexture9__getleveldesc.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 6c5724cb-a5d1-ccdb-bcca-67000d91dacf, GetLevelDesc, GetLevelDesc method [Direct3D 9], GetLevelDesc method [Direct3D 9],IDirect3DVolumeTexture9 interface, IDirect3DVolumeTexture9 interface [Direct3D 9],GetLevelDesc method, IDirect3DVolumeTexture9.GetLevelDesc, IDirect3DVolumeTexture9::GetLevelDesc, d3d9helper/IDirect3DVolumeTexture9::GetLevelDesc, direct3d9.idirect3dvolumetexture9__getleveldesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

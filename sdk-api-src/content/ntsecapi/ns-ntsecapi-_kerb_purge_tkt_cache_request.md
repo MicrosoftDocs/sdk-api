@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._KERB_PURGE_TKT_CACHE_REQUEST
 title: "_KERB_PURGE_TKT_CACHE_REQUEST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used to delete entries from the ticket cache.
 old-location: security\kerb_purge_tkt_cache_request.htm
 old-project: SecAuthN
 ms.assetid: 4e5e944a-8163-42de-b534-3b0478d9f334
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PKERB_PURGE_TKT_CACHE_REQUEST, KERB_PURGE_TKT_CACHE_REQUEST, KERB_PURGE_TKT_CACHE_REQUEST structure [Security], PKERB_PURGE_TKT_CACHE_REQUEST, PKERB_PURGE_TKT_CACHE_REQUEST structure pointer [Security], _KERB_PURGE_TKT_CACHE_REQUEST, _lsa_kerb_purge_tkt_cache_request, ntsecapi/KERB_PURGE_TKT_CACHE_REQUEST, ntsecapi/PKERB_PURGE_TKT_CACHE_REQUEST, security.kerb_purge_tkt_cache_request"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

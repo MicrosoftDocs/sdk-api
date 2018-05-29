@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkvalidate.WMCheckURLExtension
 title: WMCheckURLExtension function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMCheckURLExtension function examines the file name extension in the URL or file name that is passed in as an argument.
 old-location: wmformat\wmcheckurlextension.htm
 old-project: wmformat
 ms.assetid: f001d9e7-ccbd-4dc9-bb4b-fe45cb47700c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMCheckURLExtension, WMCheckURLExtension function [windows Media Format], wmformat.wmcheckurlextension, wmsdkvalidate/WMCheckURLExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wmsdkvalidate.h
 req.include-header: Wmsdkidl.h

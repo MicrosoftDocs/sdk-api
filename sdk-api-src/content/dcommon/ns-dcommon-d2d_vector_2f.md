@@ -1,16 +1,16 @@
 ---
 UID: NS:dcommon.D2D_VECTOR_2F
 title: D2D_VECTOR_2F
-author: windows-driver-content
+author: windows-sdk-content
 description: A 2D vector that consists of two single-precision floating-point values (x, y).
 old-location: direct2d\d2d_vector_2f.htm
 old-project: Direct2D
 ms.assetid: 77B4346A-5363-479F-83AC-297E39358CF0
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D_VECTOR_2F, D2D_VECTOR_2F structure [Direct2D], dcommon/D2D_VECTOR_2F, direct2d.d2d_vector_2f
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dcommon.h
 req.include-header: D2d1.h

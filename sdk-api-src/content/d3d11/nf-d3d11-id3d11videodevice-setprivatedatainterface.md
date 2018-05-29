@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.SetPrivateDataInterface
 title: ID3D11VideoDevice::SetPrivateDataInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a private IUnknown pointer on the video device and associates that pointer with a GUID.
 old-location: mf\id3d11videodevice_setprivatedatainterface.htm
 old-project: medfound
 ms.assetid: E20FC248-92B2-4284-9EDC-9D5E6AB9506B
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ID3D11VideoDevice interface [Media Foundation],SetPrivateDataInterface method, ID3D11VideoDevice.SetPrivateDataInterface, ID3D11VideoDevice::SetPrivateDataInterface, SetPrivateDataInterface, SetPrivateDataInterface method [Media Foundation], SetPrivateDataInterface method [Media Foundation],ID3D11VideoDevice interface, d3d11/ID3D11VideoDevice::SetPrivateDataInterface, mf.id3d11videodevice_setprivatedatainterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

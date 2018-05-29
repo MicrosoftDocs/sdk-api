@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1effects.D2D1_SCALE_INTERPOLATION_MODE
 title: D2D1_SCALE_INTERPOLATION_MODE
-author: windows-driver-content
+author: windows-sdk-content
 description: The interpolation mode the Scale effect uses to scale the image. There are 6 scale modes that range in quality and speed.
 old-location: direct2d\d2d1_scale_interpolation_mode.htm
 old-project: Direct2D
 ms.assetid: 2673E6AE-EEF5-4727-B224-0245CED15C21
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_SCALE_INTERPOLATION_MODE, D2D1_SCALE_INTERPOLATION_MODE enumeration [Direct2D], D2D1_SCALE_INTERPOLATION_MODE_ANISOTROPIC, D2D1_SCALE_INTERPOLATION_MODE_CUBIC, D2D1_SCALE_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, D2D1_SCALE_INTERPOLATION_MODE_LINEAR, D2D1_SCALE_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, D2D1_SCALE_INTERPOLATION_MODE_NEAREST_NEIGHBOR, d2d1effects/D2D1_SCALE_INTERPOLATION_MODE, d2d1effects/D2D1_SCALE_INTERPOLATION_MODE_ANISOTROPIC, d2d1effects/D2D1_SCALE_INTERPOLATION_MODE_CUBIC, d2d1effects/D2D1_SCALE_INTERPOLATION_MODE_HIGH_QUALITY_CUBIC, d2d1effects/D2D1_SCALE_INTERPOLATION_MODE_LINEAR, d2d1effects/D2D1_SCALE_INTERPOLATION_MODE_MULTI_SAMPLE_LINEAR, d2d1effects/D2D1_SCALE_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct2d.d2d1_scale_interpolation_mode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1effects.h
 req.include-header: 

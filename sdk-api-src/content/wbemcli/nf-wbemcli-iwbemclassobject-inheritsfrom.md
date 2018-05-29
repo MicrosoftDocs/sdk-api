@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.InheritsFrom
 title: IWbemClassObject::InheritsFrom
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemClassObject::InheritsFrom method determines if the current class or instance derives from a specified parent class.
 old-location: wmi\iwbemclassobject_inheritsfrom.htm
 old-project: WmiSdk
 ms.assetid: 05431e05-440e-4241-bde9-0dbd32039921
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],InheritsFrom method, IWbemClassObject.InheritsFrom, IWbemClassObject::InheritsFrom, InheritsFrom, InheritsFrom method [Windows Management Instrumentation], InheritsFrom method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_inheritsfrom, wbemcli/IWbemClassObject::InheritsFrom, wmi.iwbemclassobject_inheritsfrom
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:winldap.LdapReferralCallback
 title: LdapReferralCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to implement external caching of connections.
 old-location: ldap\ldap_referral_callback.htm
 old-project: LDAP
 ms.assetid: e5fe6a4b-00e7-4837-b1c1-8b2a724bb75e
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "*PLDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CALLBACK, LDAP_REFERRAL_CALLBACK structure [LDAP], LdapReferralCallback, PLDAP_REFERRAL_CALLBACK, PLDAP_REFERRAL_CALLBACK structure pointer [LDAP], _ldap_ldap_referral_callback, ldap.ldap__referral__callback, ldap.ldap_referral_callback, winldap/LDAP_REFERRAL_CALLBACK, winldap/PLDAP_REFERRAL_CALLBACK"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winldap.h
 req.include-header: 

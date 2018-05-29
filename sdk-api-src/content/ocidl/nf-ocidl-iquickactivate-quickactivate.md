@@ -1,16 +1,16 @@
 ---
 UID: NF:ocidl.IQuickActivate.QuickActivate
 title: IQuickActivate::QuickActivate
-author: windows-driver-content
+author: windows-sdk-content
 description: Quick activates a control.
 old-location: com\iquickactivate_quickactivate.htm
 old-project: com
 ms.assetid: 504cb272-da1c-4ffb-b4b1-fdf288901660
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IQuickActivate interface [COM],QuickActivate method, IQuickActivate.QuickActivate, IQuickActivate::QuickActivate, QuickActivate, QuickActivate method [COM], QuickActivate method [COM],IQuickActivate interface, _ctrl_iquickactivate_quickactivate, com.iquickactivate_quickactivate, ocidl/IQuickActivate::QuickActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICPlanarFormatConverter.Initialize
 title: IWICPlanarFormatConverter::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a format converter with a planar source, and specifies the interleaved output pixel format.
 old-location: wic\iwicplanarformatconverter_initialize.htm
 old-project: wic
 ms.assetid: 0EEF6940-627A-4615-90C0-196AAB36843E
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICPlanarFormatConverter interface [Windows Imaging Component],Initialize method, IWICPlanarFormatConverter.Initialize, IWICPlanarFormatConverter::Initialize, Initialize, Initialize method [Windows Imaging Component], Initialize method [Windows Imaging Component],IWICPlanarFormatConverter interface, wic.iwicplanarformatconverter_initialize, wincodec/IWICPlanarFormatConverter::Initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

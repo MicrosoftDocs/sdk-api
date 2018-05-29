@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarFormatDateTime
 title: VarFormatDateTime function
-author: windows-driver-content
+author: windows-sdk-content
 description: Formats a variant containing named date and time information into a string.
 old-location: automat\varformatdatetime.htm
 old-project: automat
 ms.assetid: ae97d984-fc08-4e4d-a711-9ceb38aebe1e
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarFormatDateTime, VarFormatDateTime function [Automation], _oa96_VarFormatDateTime, automat.varformatdatetime, oleauto/VarFormatDateTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

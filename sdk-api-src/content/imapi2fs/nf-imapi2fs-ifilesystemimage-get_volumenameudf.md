@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_VolumeNameUDF
 title: IFileSystemImage::get_VolumeNameUDF
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the volume name for the UDF system image.
 old-location: imapi\ifilesystemimage_get_volumenameudf.htm
 old-project: imapi
 ms.assetid: d034f8cb-38f5-42ab-8952-e4a76dc1f27d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_VolumeNameUDF method, IFileSystemImage.get_VolumeNameUDF, IFileSystemImage::get_VolumeNameUDF, get_VolumeNameUDF, get_VolumeNameUDF method [IMAPI], get_VolumeNameUDF method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_volumenameudf, imapi2fs/IFileSystemImage::get_VolumeNameUDF
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2fs.h
 req.include-header: 

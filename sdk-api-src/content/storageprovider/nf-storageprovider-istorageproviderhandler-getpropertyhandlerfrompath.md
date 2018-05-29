@@ -1,16 +1,16 @@
 ---
 UID: NF:storageprovider.IStorageProviderHandler.GetPropertyHandlerFromPath
 title: IStorageProviderHandler::GetPropertyHandlerFromPath
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an instance of IStorageProviderPropertyHandler associated with the provided path.
 old-location: shell\istorageproviderhandler_getpropertyhandlerfrompath.htm
 old-project: shell
 ms.assetid: E02B43AC-73A8-4FD0-BC54-47922CA5EEDB
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPropertyHandlerFromPath, GetPropertyHandlerFromPath method [Windows Shell], GetPropertyHandlerFromPath method [Windows Shell],IStorageProviderHandler interface, IStorageProviderHandler interface [Windows Shell],GetPropertyHandlerFromPath method, IStorageProviderHandler.GetPropertyHandlerFromPath, IStorageProviderHandler::GetPropertyHandlerFromPath, shell.istorageproviderhandler_getpropertyhandlerfrompath, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: storageprovider.h
 req.include-header: 

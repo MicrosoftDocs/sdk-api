@@ -1,16 +1,16 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.GetSandbox
 title: IXblIdpAuthManager::GetSandbox
-author: windows-driver-content
+author: windows-sdk-content
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_getsandbox.htm
 old-project: xblidp
 ms.assetid: 14420127-C5A3-4FC8-98B8-AA8666AFD960
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetSandbox, GetSandbox method, GetSandbox method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetSandbox method, IXblIdpAuthManager.GetSandbox, IXblIdpAuthManager::GetSandbox, xblidp.ixblidpauthmanager_getsandbox, xblidpauthmanager/IXblIdpAuthManager::GetSandbox
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xblidpauthmanager.h
 req.include-header: 

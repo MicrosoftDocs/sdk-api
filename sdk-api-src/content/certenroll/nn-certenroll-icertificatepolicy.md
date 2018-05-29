@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ICertificatePolicy
 title: ICertificatePolicy
-author: windows-driver-content
+author: windows-sdk-content
 description: Can be used to specify a certificate policy that identifies a purpose for which the certificate can be used.
 old-location: security\icertificatepolicy.htm
 old-project: SecCertEnroll
 ms.assetid: 2162de70-edcc-4f01-807d-79ff200d0016
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertificatePolicy, ICertificatePolicy interface [Security], ICertificatePolicy interface [Security],described, certenroll/ICertificatePolicy, security.icertificatepolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

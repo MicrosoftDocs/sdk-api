@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneSetRing
 title: phoneSetRing function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneSetRing function rings the specified open phone device using the specified ring mode and volume.
 old-location: tapi2\phonesetring.htm
 old-project: Tapi
 ms.assetid: 14aca99e-e190-4c48-95f2-0b2a3ba3de3f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phonesetring, phoneSetRing, phoneSetRing function [TAPI 2.2], tapi/phoneSetRing, tapi2.phonesetring"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

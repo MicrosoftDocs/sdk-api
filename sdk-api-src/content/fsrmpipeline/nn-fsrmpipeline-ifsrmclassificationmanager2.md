@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmpipeline.IFsrmClassificationManager2
 title: IFsrmClassificationManager2
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages file classification. Use this interface to define properties to use in classification, add classification rules for classifying files, define classification and storage modules, and enable classification reporting.
 old-location: fsrm\ifsrmclassificationmanager2.htm
 old-project: Fsrm
 ms.assetid: 6ff821e3-f0bd-4c66-8ced-edbbfbc8503b
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmClassificationManager2, IFsrmClassificationManager2 interface [File Server Resource Manager], IFsrmClassificationManager2 interface [File Server Resource Manager],described, fs.ifsrmclassificationmanager2, fsrm.ifsrmclassificationmanager2, fsrmpipeline/IFsrmClassificationManager2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmpipeline.h
 req.include-header: 

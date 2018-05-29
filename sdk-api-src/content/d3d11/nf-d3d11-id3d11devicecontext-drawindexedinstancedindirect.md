@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DrawIndexedInstancedIndirect
 title: ID3D11DeviceContext::DrawIndexedInstancedIndirect
-author: windows-driver-content
+author: windows-sdk-content
 description: Draw indexed, instanced, GPU-generated primitives.
 old-location: direct3d11\id3d11devicecontext_drawindexedinstancedindirect.htm
 old-project: direct3d11
 ms.assetid: c6969210-b452-4a49-a3d7-d849b1d2ebb5
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 490eea55-c4b9-bcfb-1fd8-021b92e7979d, DrawIndexedInstancedIndirect, DrawIndexedInstancedIndirect method [Direct3D 11], DrawIndexedInstancedIndirect method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DrawIndexedInstancedIndirect method, ID3D11DeviceContext.DrawIndexedInstancedIndirect, ID3D11DeviceContext::DrawIndexedInstancedIndirect, d3d11/ID3D11DeviceContext::DrawIndexedInstancedIndirect, direct3d11.id3d11devicecontext_drawindexedinstancedindirect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

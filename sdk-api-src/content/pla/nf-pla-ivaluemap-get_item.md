@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IValueMap.get_Item
 title: IValueMap::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the requested item from the collection.
 old-location: pla\ivaluemap_item.htm
 old-project: PLA
 ms.assetid: a01f134d-9700-4826-9040-d5d6340241de
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IValueMap interface [PLA],Item property, IValueMap.Item, IValueMap.get_Item, IValueMap::Item, IValueMap::get_Item, Item property [PLA], Item property [PLA],IValueMap interface, base.ivaluemap_item, get_Item, pla.ivaluemap_item, pla/IValueMap::Item, pla/IValueMap::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

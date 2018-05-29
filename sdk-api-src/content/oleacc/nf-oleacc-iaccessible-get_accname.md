@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccessible.get_accName
 title: IAccessible::get_accName
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAccessible::get_accName method retrieves the name of the specified object. All objects support this property.
 old-location: winauto\iaccessible_iaccessible__get_accname.htm
 old-project: WinAuto
 ms.assetid: 344e95e1-45a5-4951-b545-1a938bfc8a8c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accName method, IAccessible.get_accName, IAccessible::get_accName, _msaa_IAccessible_get_accName, get_accName, get_accName method [Windows Accessibility], get_accName method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accname, oleacc/IAccessible::get_accName, winauto.iaccessible_iaccessible__get_accname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 

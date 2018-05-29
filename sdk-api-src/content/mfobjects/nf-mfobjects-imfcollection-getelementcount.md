@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFCollection.GetElementCount
 title: IMFCollection::GetElementCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the number of objects in the collection.
 old-location: mf\imfcollection_getelementcount.htm
 old-project: medfound
 ms.assetid: 4bd46f66-0542-4185-b50e-163cc3b4e2f8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 4bd46f66-0542-4185-b50e-163cc3b4e2f8, GetElementCount, GetElementCount method [Media Foundation], GetElementCount method [Media Foundation],IMFCollection interface, IMFCollection interface [Media Foundation],GetElementCount method, IMFCollection.GetElementCount, IMFCollection::GetElementCount, mf.imfcollection_getelementcount, mfobjects/IMFCollection::GetElementCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

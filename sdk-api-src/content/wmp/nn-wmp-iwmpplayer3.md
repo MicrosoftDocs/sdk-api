@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPPlayer3
 title: IWMPPlayer3
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPPlayer3 interface provides methods for modifying the basic behavior of the control user interface. These methods supplement the IWMPCore2 interface.
 old-location: wmp\iwmpplayer3.htm
 old-project: WMP
 ms.assetid: 0d8a9414-5c5c-40e0-a34c-430ead01ef26
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPPlayer3, IWMPPlayer3 interface [Windows Media Player], IWMPPlayer3 interface [Windows Media Player],described, IWMPPlayer3Interface, wmp.iwmpplayer3, wmp/IWMPPlayer3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

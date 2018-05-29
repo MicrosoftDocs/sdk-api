@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathQuoteSpacesA
 title: PathQuoteSpacesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Searches a path for spaces. If spaces are found, the entire path is enclosed in quotation marks.
 old-location: shell\PathQuoteSpaces.htm
 old-project: shell
 ms.assetid: 76a51c21-b924-4919-a6bb-8c6bdec5b3f0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathQuoteSpaces, PathQuoteSpaces function [Windows Shell], PathQuoteSpacesA, PathQuoteSpacesW, _win32_PathQuoteSpaces, shell.PathQuoteSpaces, shlwapi/PathQuoteSpaces, shlwapi/PathQuoteSpacesA, shlwapi/PathQuoteSpacesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

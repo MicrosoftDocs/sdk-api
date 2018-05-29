@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.Filter_Spec_IPv4
 title: Filter_Spec_IPv4
-author: windows-driver-content
+author: windows-sdk-content
 description: The Filter_Spec_IPv4 structure contains information about an IPv4 FILTERSPEC.
 old-location: qos\filter_spec_ipv4.htm
 old-project: QOS
 ms.assetid: b17a45b2-e50b-4ec2-9f1c-e1ab80ce572e
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: Filter_Spec_IPv4, Filter_Spec_IPv4 structure [QOS], lpmapi/Filter_Spec_IPv4, qos.filter_spec_ipv4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

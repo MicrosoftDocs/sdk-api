@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupPromptReboot
 title: SetupPromptReboot function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupPromptReboot function asks the user if he wants to reboot the system, optionally dependent on whether any files in a committed file queue were in use during a file operation.
 old-location: setup\setuppromptreboot.htm
 old-project: SetupApi
 ms.assetid: 14b34fd9-ae96-4552-b99d-488bae5c7644
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupPromptReboot, SetupPromptReboot function [Setup API], _setupapi_setuppromptreboot, setup.setuppromptreboot, setupapi/SetupPromptReboot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

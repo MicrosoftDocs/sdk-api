@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITAddress.CreateForwardInfoObject
 title: ITAddress::CreateForwardInfoObject
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateForwardInfoObject method creates the forwarding information object and returns an ITForwardInformation interface pointer.
 old-location: tapi3\itaddress_createforwardinfoobject.htm
 old-project: Tapi
 ms.assetid: 87d37ba3-5398-47a7-808b-eb9b6681653d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CreateForwardInfoObject, CreateForwardInfoObject method [TAPI 2.2], CreateForwardInfoObject method [TAPI 2.2],ITAddress interface, ITAddress interface [TAPI 2.2],CreateForwardInfoObject method, ITAddress.CreateForwardInfoObject, ITAddress::CreateForwardInfoObject, _tapi3_itaddress_createforwardinfoobject, tapi3.itaddress_createforwardinfoobject, tapi3if/ITAddress::CreateForwardInfoObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.GetCollectionByQuery
 title: ICOMAdminCatalog::GetCollectionByQuery
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a collection on the COM+ catalog given the key property values for all of its parent items.
 old-location: cos\icomadmincatalog_getcollectionbyquery.htm
 old-project: cossdk
 ms.assetid: 6ec65e7c-fb67-4435-90cd-d17b8fbcbc84
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetCollectionByQuery, GetCollectionByQuery method [COM+], GetCollectionByQuery method [COM+],ICOMAdminCatalog interface, ICOMAdminCatalog interface [COM+],GetCollectionByQuery method, ICOMAdminCatalog.GetCollectionByQuery, ICOMAdminCatalog::GetCollectionByQuery, _cos_ICOMAdminCatalog_GetCollectionByQuery, comadmin/ICOMAdminCatalog::GetCollectionByQuery, cos.icomadmincatalog_getcollectionbyquery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:workspaceruntime.IWorkspace
 title: IWorkspace
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that provide information about a connection in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspace.htm
 old-project: TermServ
 ms.assetid: 7a94ef42-8a63-4709-816d-1f51a948d486
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWorkspace, IWorkspace interface [Remote Desktop Services], IWorkspace interface [Remote Desktop Services],described, termserv.iworkspace, workspaceruntime/IWorkspace
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: workspaceruntime.h
 req.include-header: 

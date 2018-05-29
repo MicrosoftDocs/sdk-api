@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_RATIONAL
 title: DISPLAYCONFIG_RATIONAL
-author: windows-driver-content
+author: windows-sdk-content
 description: The DISPLAYCONFIG_RATIONAL structure describes a fractional value that represents vertical and horizontal frequencies of a video mode (that is, vertical sync and horizontal sync).
 old-location: display\displayconfig_rational.htm
 old-project: display
 ms.assetid: 1f2f25f7-5ea1-46f4-ad9f-c50c367bb600
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CCD_Structures_6b317b78-bbb5-4f49-9dee-2c9597c19957.xml, DISPLAYCONFIG_RATIONAL, DISPLAYCONFIG_RATIONAL structure [Display Devices], display.displayconfig_rational, wingdi/DISPLAYCONFIG_RATIONAL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

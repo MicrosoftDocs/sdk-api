@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.ULongToUShort
 title: ULongToUShort function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type ULONG to a value of type USHORT.
 old-location: shell\ULongToUShort.htm
 old-project: shell
 ms.assetid: 83fea16a-f9af-4c39-87b2-4f2eb69130d9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DWordToWord, Int64ToDWord, ULongToUShort, ULongToUShort function [Windows Shell], ULongToWord, _shell_ULongToUShort, intsafe/ULongToUShort, shell.ULongToUShort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

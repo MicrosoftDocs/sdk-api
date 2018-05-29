@@ -1,16 +1,16 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetNotifyInterface
 title: IBackgroundCopyJob::GetNotifyInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the interface pointer to your implementation of the IBackgroundCopyCallback interface.
 old-location: bits\ibackgroundcopyjob_getnotifyinterface.htm
 old-project: Bits
 ms.assetid: 6a954fbc-baf6-4efa-bec0-dd86b4b7a916
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetNotifyInterface, GetNotifyInterface method [BITS], GetNotifyInterface method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetNotifyInterface method, IBackgroundCopyJob.GetNotifyInterface, IBackgroundCopyJob::GetNotifyInterface, _drz_ibackgroundcopyjob_getnotifyinterface, bits.ibackgroundcopyjob_getnotifyinterface, bits/IBackgroundCopyJob::GetNotifyInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSAPI_SET_CLUSTER_RESOURCE_NAME
 title: PCLUSAPI_SET_CLUSTER_RESOURCE_NAME
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the name for a resource.
 old-location: mscs\setclusterresourcename.htm
 old-project: MsCS
 ms.assetid: 8525a0b4-d37e-4ed3-8914-2c427978de6c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_RESOURCE_NAME, PCLUSAPI_SET_CLUSTER_RESOURCE_NAME callback, PCLUSAPI_SET_CLUSTER_RESOURCE_NAME callback function [Failover Cluster], _wolf_setclusterresourcename, clusapi/PCLUSAPI_SET_CLUSTER_RESOURCE_NAME, mscs.setclusterresourcename
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

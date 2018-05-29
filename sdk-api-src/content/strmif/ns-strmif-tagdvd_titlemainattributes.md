@@ -1,16 +1,16 @@
 ---
 UID: NS:strmif.tagDVD_TitleMainAttributes
 title: tagDVD_TitleMainAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: The DVD_TitleAttributes structure contains information about a DVD title.
 old-location: dshow\dvd_titleattributes.htm
 old-project: DirectShow
 ms.assetid: e80baf09-93b7-4285-ac9a-af72cae137de
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DVD_TitleAttributes, DVD_TitleAttributes structure [DirectShow], DVD_TitleAttributesStructure, dshow.dvd_titleattributes, strmif/DVD_TitleAttributes, tagDVD_TitleMainAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: strmif.h
 req.include-header: Dshow.h

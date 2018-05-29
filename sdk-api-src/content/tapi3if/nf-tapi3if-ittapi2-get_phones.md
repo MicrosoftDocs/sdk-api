@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITTAPI2.get_Phones
 title: ITTAPI2::get_Phones
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Phones method enumerates the phone objects corresponding to the phone devices. If there are no phones available that can be used with the address, this method produces an empty collection and returns S_OK.
 old-location: tapi3\ittapi2_get_phones.htm
 old-project: Tapi
 ms.assetid: 03fe03fc-c58d-4e2a-a187-5ab9a676e89e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITTAPI2 interface [TAPI 2.2],get_Phones method, ITTAPI2.get_Phones, ITTAPI2::get_Phones, _tapi3_ittapi2_get_phones, get_Phones, get_Phones method [TAPI 2.2], get_Phones method [TAPI 2.2],ITTAPI2 interface, tapi3.ittapi2_get_phones, tapi3if/ITTAPI2::get_Phones
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

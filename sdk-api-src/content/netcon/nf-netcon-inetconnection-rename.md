@@ -1,16 +1,16 @@
 ---
 UID: NF:netcon.INetConnection.Rename
 title: INetConnection::Rename
-author: windows-driver-content
+author: windows-sdk-content
 description: The Rename method renames this connection.
 old-location: ics\inetconnection_rename.htm
 old-project: ICS
 ms.assetid: 741261cd-f86f-4889-aa3a-df3598938883
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetConnection interface [ICS/ICF],Rename method, INetConnection.Rename, INetConnection::Rename, Rename, Rename method [ICS/ICF], Rename method [ICS/ICF],INetConnection interface, _ics_inetconnection_rename, ics.inetconnection_rename, netcon/INetConnection::Rename
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netcon.h
 req.include-header: 

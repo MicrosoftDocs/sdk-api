@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IDShowPlugin.get_UserAgent
 title: IDShowPlugin::get_UserAgent
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_UserAgent method retrieves the User-Agent field from the HTTP header.
 old-location: dshow\idshowplugin_get_useragent.htm
 old-project: DirectShow
 ms.assetid: 0bbd3cd2-75d8-4c48-837d-4cb045cad35b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDShowPlugin interface [DirectShow],get_UserAgent method, IDShowPlugin.get_UserAgent, IDShowPlugin::get_UserAgent, IDShowPluginget_UserAgent, dshow.idshowplugin_get_useragent, get_UserAgent, get_UserAgent method [DirectShow], get_UserAgent method [DirectShow],IDShowPlugin interface, qnetwork/IDShowPlugin::get_UserAgent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

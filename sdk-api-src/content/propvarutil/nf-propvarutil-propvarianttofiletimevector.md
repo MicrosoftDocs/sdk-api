@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToFileTimeVector
 title: PropVariantToFileTimeVector function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into a FILETIME vector.
 old-location: properties\PropVariantToFileTimeVector.htm
 old-project: properties
 ms.assetid: ef665f50-3f3b-47db-9133-490305da5341
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToFileTimeVector, PropVariantToFileTimeVector function [Windows Properties], _shell_PropVariantToFileTimeVector, properties.PropVariantToFileTimeVector, propvarutil/PropVariantToFileTimeVector, shell.PropVariantToFileTimeVector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

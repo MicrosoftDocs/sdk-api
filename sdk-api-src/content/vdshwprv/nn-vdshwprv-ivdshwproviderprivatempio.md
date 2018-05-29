@@ -1,16 +1,16 @@
 ---
 UID: NN:vdshwprv.IVdsHwProviderPrivateMpio
 title: IVdsHwProviderPrivateMpio
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method that sets the status of paths originating from a particular HBA port to the provider.
 old-location: base\ivdshwproviderprivatempio.htm
 old-project: VDS
 ms.assetid: fa60e832-1148-4ffb-bf70-bd7b27180cdd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsHwProviderPrivateMpio, IVdsHwProviderPrivateMpio interface [VDS], IVdsHwProviderPrivateMpio interface [VDS],described, base.ivdshwproviderprivatempio, vdshwprv/IVdsHwProviderPrivateMpio
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vdshwprv.h
 req.include-header: 

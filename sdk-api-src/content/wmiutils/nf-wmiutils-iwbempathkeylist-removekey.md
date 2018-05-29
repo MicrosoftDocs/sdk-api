@@ -1,16 +1,16 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.RemoveKey
 title: IWbemPathKeyList::RemoveKey
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWbemPathKeyList::RemoveKey method removes the key that matches the wszName parameter.
 old-location: wmi\iwbempathkeylist_removekey.htm
 old-project: WmiSdk
 ms.assetid: 07166023-2945-49d5-9d2d-8cac12053ed9
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],RemoveKey method, IWbemPathKeyList.RemoveKey, IWbemPathKeyList::RemoveKey, RemoveKey, RemoveKey method [Windows Management Instrumentation], RemoveKey method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_removekey, wmi.iwbempathkeylist_removekey, wmiutils/IWbemPathKeyList::RemoveKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

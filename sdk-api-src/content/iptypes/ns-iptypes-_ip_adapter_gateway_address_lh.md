@@ -1,16 +1,16 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_GATEWAY_ADDRESS_LH
 title: "_IP_ADAPTER_GATEWAY_ADDRESS_LH"
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores a single gateway address in a linked list of gateway addresses for a particular adapter.
 old-location: iphlp\ip_adapter_gateway_address.htm
 old-project: IpHlp
 ms.assetid: CA38504A-1CC9-4ABA-BD4E-1B2EAD6F588B
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PIP_ADAPTER_GATEWAY_ADDRESS, *PIP_ADAPTER_GATEWAY_ADDRESS_LH, IP_ADAPTER_GATEWAY_ADDRESS, IP_ADAPTER_GATEWAY_ADDRESS structure [IP Helper], IP_ADAPTER_GATEWAY_ADDRESS_LH, PIP_ADAPTER_GATEWAY_ADDRESS, PIP_ADAPTER_GATEWAY_ADDRESS structure pointer [IP Helper], _IP_ADAPTER_GATEWAY_ADDRESS_LH, iphlp.ip_adapter_gateway_address, iptypes/IP_ADAPTER_GATEWAY_ADDRESS, iptypes/PIP_ADAPTER_GATEWAY_ADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iptypes.h
 req.include-header: Iphlpapi.h

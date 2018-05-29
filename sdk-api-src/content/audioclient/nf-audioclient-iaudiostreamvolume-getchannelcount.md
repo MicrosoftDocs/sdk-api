@@ -1,16 +1,16 @@
 ---
 UID: NF:audioclient.IAudioStreamVolume.GetChannelCount
 title: IAudioStreamVolume::GetChannelCount
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetChannelCount method retrieves the number of channels in the audio stream.
 old-location: coreaudio\iaudiostreamvolume_getchannelcount.htm
 old-project: CoreAudio
 ms.assetid: caaa8233-c995-4ba9-b973-f1b8737e7218
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetChannelCount, GetChannelCount method [Core Audio], GetChannelCount method [Core Audio],IAudioStreamVolume interface, IAudioStreamVolume interface [Core Audio],GetChannelCount method, IAudioStreamVolume.GetChannelCount, IAudioStreamVolume::GetChannelCount, IAudioStreamVolumeGetChannelCount, audioclient/IAudioStreamVolume::GetChannelCount, coreaudio.iaudiostreamvolume_getchannelcount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioclient.h
 req.include-header: 

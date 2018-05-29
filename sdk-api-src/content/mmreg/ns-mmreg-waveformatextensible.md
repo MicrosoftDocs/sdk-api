@@ -1,16 +1,16 @@
 ---
 UID: NS:mmreg.WAVEFORMATEXTENSIBLE
 title: WAVEFORMATEXTENSIBLE
-author: windows-driver-content
+author: windows-sdk-content
 description: The WAVEFORMATEXTENSIBLE structure defines the format of waveform-audio data for formats having more than two channels or higher sample resolutions than allowed by WAVEFORMATEX.
 old-location: dshow\waveformatextensible.htm
 old-project: DirectShow
 ms.assetid: b16cdcab-fa4f-4c9a-b1f3-af459bd33245
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*LPWAVEFORMATIEEEFLOATEX, *LPWAVEFORMATPCMEX, *NPWAVEFORMATIEEEFLOATEX, *NPWAVEFORMATPCMEX, *PWAVEFORMATEXTENSIBLE, *PWAVEFORMATIEEEFLOATEX, *PWAVEFORMATPCMEX, KSDATAFORMAT_SUBTYPE_ADPCM, KSDATAFORMAT_SUBTYPE_ALAW, KSDATAFORMAT_SUBTYPE_DRM, KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL, KSDATAFORMAT_SUBTYPE_IEC61937_DOLBY_DIGITAL_PLUS, KSDATAFORMAT_SUBTYPE_IEEE_FLOAT, KSDATAFORMAT_SUBTYPE_MPEG, KSDATAFORMAT_SUBTYPE_MULAW, KSDATAFORMAT_SUBTYPE_PCM, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [DirectShow], WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [DirectShow], WAVEFORMATEXTENSIBLEStructure, WAVEFORMATIEEEFLOATEX, WAVEFORMATPCMEX, dshow.waveformatextensible, ksmedia/PWAVEFORMATEXTENSIBLE, ksmedia/WAVEFORMATEXTENSIBLE, mmreg/PWAVEFORMATEXTENSIBLE, mmreg/WAVEFORMATEXTENSIBLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: 

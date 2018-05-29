@@ -1,16 +1,16 @@
 ---
 UID: NE:activationregistration.ActivationType
 title: ActivationType
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the kind of activation for an activatable class.
 old-location: winrt\activationtype.htm
 old-project: WinRT
 ms.assetid: 200257CC-FE26-407F-8AE4-4DB7030AB4E7
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: ActivationType, ActivationType enumeration [Windows Runtime], InProcess, OutOfProcess, activationregistration/ActivationType, activationregistration/InProcess, activationregistration/OutOfProcess, winrt.activationtype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: activationregistration.h
 req.include-header: 

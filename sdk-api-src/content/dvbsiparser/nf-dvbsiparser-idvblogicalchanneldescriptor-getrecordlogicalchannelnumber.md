@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber
 title: IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .
 old-location: mstv\idvblogicalchanneldescriptor_getrecordlogicalchannelnumber.htm
 old-project: mstv
 ms.assetid: fa74587a-ba11-449c-ba0d-bea371e7f019
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordLogicalChannelNumber, GetRecordLogicalChannelNumber method [DirectShow], GetRecordLogicalChannelNumber method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetRecordLogicalChannelNumber method, IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber, IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber, IDvbLogicalChannelDescriptorGetRecordLogicalChannelNumber, dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber, mstv.idvblogicalchanneldescriptor_getrecordlogicalchannelnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

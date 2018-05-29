@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IUpdateLockdown
 title: IUpdateLockdown
-author: windows-driver-content
+author: windows-sdk-content
 description: Restricts access to methods and properties of objects that implements the method of this interface.
 old-location: wua\iupdatelockdown.htm
 old-project: Wua_Sdk
 ms.assetid: 918a46f5-a1da-4f47-84f1-b715fc97bb8f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateLockdown, IUpdateLockdown interface [Windows Update Agent], IUpdateLockdown interface [Windows Update Agent],described, wua.iupdatelockdown, wuapi/IUpdateLockdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

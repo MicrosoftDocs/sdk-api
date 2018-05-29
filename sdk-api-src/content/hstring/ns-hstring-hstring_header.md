@@ -1,16 +1,16 @@
 ---
 UID: NS:hstring.HSTRING_HEADER
 title: HSTRING_HEADER
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a header for an HSTRING.
 old-location: winrt\hstring_header.htm
 old-project: WinRT
 ms.assetid: E63E73A7-1908-4CEC-ADCB-1A3D23BE8A3B
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: HSTRING_HEADER, HSTRING_HEADER structure [Windows Runtime], hstring/HSTRING_HEADER, winrt.hstring_header
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: hstring.h
 req.include-header: 

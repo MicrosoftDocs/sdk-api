@@ -1,16 +1,16 @@
 ---
 UID: NF:ktmw32.SetResourceManagerCompletionPort
 title: SetResourceManagerCompletionPort function
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates the specified I/O completion port with the specified resource manager (RM). This port receives all notifications for the RM.
 old-location: fs\setresourcemanagercompletionport.htm
 old-project: Ktm
 ms.assetid: 219fc899-84ee-474f-9f86-6ebf9c721810
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SetResourceManagerCompletionPort, SetResourceManagerCompletionPort function [Files], fs.setresourcemanagercompletionport, ktmw32/SetResourceManagerCompletionPort
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ktmw32.h
 req.include-header: 

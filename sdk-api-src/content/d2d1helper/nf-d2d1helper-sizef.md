@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1helper.SizeF
 title: SizeF function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a D2D1_SIZE_F structure that contains the specified width and height.
 old-location: direct2d\sizef.htm
 old-project: Direct2D
 ms.assetid: dbb75605-a0ec-464c-bb10-4455a90c4ae9
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: SizeF, SizeF function [Direct2D], d2d1helper/SizeF, direct2d.sizef
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1helper.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IMenuPopup.OnSelect
 title: IMenuPopup::OnSelect
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles selection notifications.
 old-location: shell\IMenuPopup_OnSelect.htm
 old-project: shell
 ms.assetid: 972e8a08-e1ce-4bd2-b602-20b7b1acb71f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMenuPopup interface [Windows Shell],OnSelect method, IMenuPopup.OnSelect, IMenuPopup::OnSelect, MPOS_CANCELLEVEL, MPOS_CHILDTRACKING, MPOS_EXECUTE, MPOS_FULLCANCEL, MPOS_SELECTLEFT, MPOS_SELECTRIGHT, OnSelect, OnSelect method [Windows Shell], OnSelect method [Windows Shell],IMenuPopup interface, _win32_IMenuPopup_OnSelect, shell.IMenuPopup_OnSelect, shobjidl_core/IMenuPopup::OnSelect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

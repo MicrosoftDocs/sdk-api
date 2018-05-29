@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.MFCreateASFStreamSelector
 title: MFCreateASFStreamSelector function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates the ASF stream selector.
 old-location: mf\mfcreateasfstreamselector.htm
 old-project: medfound
 ms.assetid: 71b1af5b-f127-463f-9720-72e789bb2cd1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 71b1af5b-f127-463f-9720-72e789bb2cd1, MFCreateASFStreamSelector, MFCreateASFStreamSelector function [Media Foundation], mf.mfcreateasfstreamselector, wmcontainer/MFCreateASFStreamSelector
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wmcontainer.h
 req.include-header: 

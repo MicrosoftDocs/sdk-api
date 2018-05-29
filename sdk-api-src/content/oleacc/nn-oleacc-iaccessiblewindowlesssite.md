@@ -1,16 +1,16 @@
 ---
 UID: NN:oleacc.IAccessibleWindowlessSite
 title: IAccessibleWindowlessSite
-author: windows-driver-content
+author: windows-sdk-content
 description: A Microsoft ActiveX control site implements this interface to enable a windowless ActiveX control that has a Microsoft Active Accessibility implementation to express its accessibility.
 old-location: winauto\uiauto_IAccessibleWindowlessSite.htm
 old-project: WinAuto
 ms.assetid: 1ED23B39-231B-46A2-9FED-969A36DA8DD9
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccessibleWindowlessSite, IAccessibleWindowlessSite interface [Windows Accessibility], IAccessibleWindowlessSite interface [Windows Accessibility],described, oleacc/IAccessibleWindowlessSite, winauto.uiauto_IAccessibleWindowlessSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oleacc.h
 req.include-header: 

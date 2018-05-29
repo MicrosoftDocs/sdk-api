@@ -1,16 +1,16 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.SetRegionOfInterest
 title: IMILBitmapEffectRenderContext::SetRegionOfInterest
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the region of interest for the effect.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setregionofinterest.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setregionofinterest.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetRegionOfInterest method, IMILBitmapEffectRenderContext.SetRegionOfInterest, IMILBitmapEffectRenderContext::SetRegionOfInterest, SetRegionOfInterest, SetRegionOfInterest method [WPF Bitmap Effects], SetRegionOfInterest method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, _wibe_imilbitmapeffectrendercontext_setregionofinterest, mileffects/IMILBitmapEffectRenderContext::SetRegionOfInterest, wibe._wibe_imilbitmapeffectrendercontext_setregionofinterest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:effects.tagTimedLevel
 title: tagTimedLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: The TimedLevel structure holds data returned from the spectrum filter.
 old-location: wmp\timedlevel.htm
 old-project: WMP
 ms.assetid: a33d4cd1-e888-4ecd-9e6c-113febfefd99
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: TimedLevel, TimedLevel structure [Windows Media Player], effects/TimedLevel, tagTimedLevel, typedefstructtagTimedLevel, wmp.timedlevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: effects.h
 req.include-header: 

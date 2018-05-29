@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.UpdateRegistry
 title: IX509PolicyServerUrl::UpdateRegistry
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a certificate enrollment policy (CEP) server.
 old-location: security\ix509policyserverurl_updateregistry.htm
 old-project: SecCertEnroll
 ms.assetid: dfb43979-a630-497d-96eb-f2bd701b5e09
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509PolicyServerUrl interface [Security],UpdateRegistry method, IX509PolicyServerUrl.UpdateRegistry, IX509PolicyServerUrl::UpdateRegistry, UpdateRegistry, UpdateRegistry method [Security], UpdateRegistry method [Security],IX509PolicyServerUrl interface, certenroll/IX509PolicyServerUrl::UpdateRegistry, security.ix509policyserverurl_updateregistry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:devicetopology.IControlInterface.GetIID
 title: IControlInterface::GetIID
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetIID method gets the interface ID of the function-specific control interface of the part.
 old-location: coreaudio\icontrolinterface_getiid.htm
 old-project: CoreAudio
 ms.assetid: c6d46f37-6b9a-4d20-8a97-9fb5284dbc42
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetIID, GetIID method [Core Audio], GetIID method [Core Audio],IControlInterface interface, IControlInterface interface [Core Audio],GetIID method, IControlInterface.GetIID, IControlInterface::GetIID, IControlInterfaceGetIID, coreaudio.icontrolinterface_getiid, devicetopology/IControlInterface::GetIID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: devicetopology.h
 req.include-header: 

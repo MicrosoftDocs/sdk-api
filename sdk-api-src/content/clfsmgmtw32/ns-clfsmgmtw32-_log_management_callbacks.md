@@ -1,16 +1,16 @@
 ---
 UID: NS:clfsmgmtw32._LOG_MANAGEMENT_CALLBACKS
 title: "_LOG_MANAGEMENT_CALLBACKS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The LOG_MANAGEMENT_CALLBACKS structure is used to register with the Common Log File System (CLFS) for the callbacks that a client program requires information from.
 old-location: fs\log_management_callbacks.htm
 old-project: Clfs
 ms.assetid: 69c657e7-97f0-468a-b349-9891a771c1ed
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PLOG_MANAGEMENT_CALLBACKS, LOG_MANAGEMENT_CALLBACKS, LOG_MANAGEMENT_CALLBACKS structure [Files], PLOG_MANAGEMENT_CALLBACKS, PLOG_MANAGEMENT_CALLBACKS structure pointer [Files], _LOG_MANAGEMENT_CALLBACKS, clfsmgmtw32/LOG_MANAGEMENT_CALLBACKS, clfsmgmtw32/PLOG_MANAGEMENT_CALLBACKS, fs.log_management_callbacks"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfsmgmtw32.h
 req.include-header: 

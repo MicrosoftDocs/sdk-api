@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerRegisterRuntimeExceptionModule
 title: WerRegisterRuntimeExceptionModule function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a custom runtime exception handler that is used to provide custom error reporting for crashes.
 old-location: wer\werregisterruntimeexceptionmodule.htm
 old-project: wer
 ms.assetid: b0fb2c0d-cc98-43cc-a508-e80545377b7f
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WerRegisterRuntimeExceptionModule, WerRegisterRuntimeExceptionModule function [Windows Error Reporting], wer.werregisterruntimeexceptionmodule, werapi/WerRegisterRuntimeExceptionModule
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ddpbackup.IDedupReadFileCallback.ReadBackupFile
 title: IDedupReadFileCallback::ReadBackupFile
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads data from a Data Deduplication store metadata or container file located in the backup store.
 old-location: dedup\idedupreadfilecallback_readbackupfile.htm
 old-project: dedup
 ms.assetid: 9A85B32B-7430-46AC-A9BF-2896651F40AF
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDedupReadFileCallback interface [Data Deduplication API],ReadBackupFile method, IDedupReadFileCallback.ReadBackupFile, IDedupReadFileCallback::ReadBackupFile, ReadBackupFile, ReadBackupFile method [Data Deduplication API], ReadBackupFile method [Data Deduplication API],IDedupReadFileCallback interface, ddpbackup/IDedupReadFileCallback::ReadBackupFile, dedup.idedupreadfilecallback_readbackupfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ddpbackup.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSiloAction.Invoke
 title: IEnhancedStorageSiloAction::Invoke
-author: windows-driver-content
+author: windows-sdk-content
 description: Performs the action specified by an IEnhancedStorageSiloAction object.
 old-location: enstor\ienhancedstoragesiloaction_invoke.htm
 old-project: enstor
 ms.assetid: 7f19cd0a-6d12-4e76-b46e-7c6267914223
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IEnhancedStorageSiloAction interface [Enhanced Storage],Invoke method, IEnhancedStorageSiloAction.Invoke, IEnhancedStorageSiloAction::Invoke, Invoke, Invoke method [Enhanced Storage], Invoke method [Enhanced Storage],IEnhancedStorageSiloAction interface, ehstorapi/IEnhancedStorageSiloAction::Invoke, enstor.ienhancedstoragesiloaction_invoke
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ehstorapi.h
 req.include-header: 

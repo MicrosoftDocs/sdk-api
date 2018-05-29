@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1_3helper.InkPoint
 title: InkPoint function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a D2D1_INK_POINT structure.
 old-location: direct2d\inkpoint.htm
 old-project: Direct2D
 ms.assetid: 6ab8c30d-1ab8-1148-5cce-29797c5f5ad5
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: InkPoint, InkPoint function [Direct2D], d2d1_3helper/InkPoint, direct2d.inkpoint
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_3helper.h
 req.include-header: 

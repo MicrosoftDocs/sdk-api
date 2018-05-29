@@ -1,16 +1,16 @@
 ---
 UID: NS:mmreg.tWAVEFORMATEX
 title: tWAVEFORMATEX
-author: windows-driver-content
+author: windows-sdk-content
 description: The WAVEFORMATEX structure specifies the data format of a wave audio stream.
 old-location: audio\waveformatex.htm
 old-project: audio
 ms.assetid: f2f050d6-afe2-4647-932b-1287f4538702
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: "*LPWAVEFORMATEX, *NPWAVEFORMATEX, *PWAVEFORMATEX, WAVEFORMATEX, WAVEFORMATEX structure [Audio Devices], aud-prop_f0d9c096-fa87-43d5-812b-de4d08358342.xml, audio.waveformatex, mmreg/WAVEFORMATEX, tWAVEFORMATEX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mmreg.h
 req.include-header: Mmsystem.h, Mmreg.h, Mmsystem.h

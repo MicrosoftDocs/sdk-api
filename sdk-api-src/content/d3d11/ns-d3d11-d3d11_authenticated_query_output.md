@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_QUERY_OUTPUT
 title: D3D11_AUTHENTICATED_QUERY_OUTPUT
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a response from the ID3D11VideoContext::QueryAuthenticatedChannel method.
 old-location: mf\d3d11_authenticated_query_output.htm
 old-project: medfound
 ms.assetid: D5650992-04D0-4DD2-A858-1E7FB979A9C2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: D3D11_AUTHENTICATED_QUERY_OUTPUT, D3D11_AUTHENTICATED_QUERY_OUTPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_QUERY_OUTPUT, mf.d3d11_authenticated_query_output
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

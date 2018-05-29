@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._EXCEPTION_POINTERS
 title: "_EXCEPTION_POINTERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains an exception record with a machine-independent description of an exception and a context record with a machine-dependent description of the processor context at the time of the exception.
 old-location: base\exception_pointers_str.htm
 old-project: Debug
 ms.assetid: 57e8cb3a-1b11-45b9-9676-3b6dc600d225
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PEXCEPTION_POINTERS, EXCEPTION_POINTERS, EXCEPTION_POINTERS structure, PEXCEPTION_POINTERS, PEXCEPTION_POINTERS structure pointer, _EXCEPTION_POINTERS, _win32_exception_pointers_str, base.exception_pointers_str, winnt/EXCEPTION_POINTERS, winnt/PEXCEPTION_POINTERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

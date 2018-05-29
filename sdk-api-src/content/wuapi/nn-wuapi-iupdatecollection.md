@@ -1,16 +1,16 @@
 ---
 UID: NN:wuapi.IUpdateCollection
 title: IUpdateCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an ordered list of updates.
 old-location: wua\iupdatecollection.htm
 old-project: Wua_Sdk
 ms.assetid: e56a09e9-6a5f-4579-9a5c-987519fccaad
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IUpdateCollection, IUpdateCollection interface [Windows Update Agent], IUpdateCollection interface [Windows Update Agent],described, wua.iupdatecollection, wuapi/IUpdateCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wuapi.h
 req.include-header: 

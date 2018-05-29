@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtGetPublisherMetadataProperty
 title: EvtGetPublisherMetadataProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the specified provider metadata property.
 old-location: wes\evtgetpublishermetadataproperty.htm
 old-project: WES
 ms.assetid: f85a46ef-873c-4dd9-8b5c-3763fd67fc06
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtGetPublisherMetadataProperty, EvtGetPublisherMetadataProperty function [EventLog], wes.evtgetpublishermetadataproperty, winevt/EvtGetPublisherMetadataProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

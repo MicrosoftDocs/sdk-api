@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.ConnectOutput
 title: IMFTopologyNode::ConnectOutput
-author: windows-driver-content
+author: windows-sdk-content
 description: Connects an output stream from this node to the input stream of another node.
 old-location: mf\imftopologynode_connectoutput.htm
 old-project: medfound
 ms.assetid: 2340fd87-27ea-4f98-97e3-48b9506251a9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 2340fd87-27ea-4f98-97e3-48b9506251a9, ConnectOutput, ConnectOutput method [Media Foundation], ConnectOutput method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],ConnectOutput method, IMFTopologyNode.ConnectOutput, IMFTopologyNode::ConnectOutput, mf.imftopologynode_connectoutput, mfidl/IMFTopologyNode::ConnectOutput
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IDvdControl
 title: IDvdControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Note  This interface has been deprecated.
 old-location: dshow\idvdcontrol.htm
 old-project: DirectShow
 ms.assetid: a6ca0fe8-84e3-43e6-9421-29dcff056dfd
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDvdControl, IDvdControl interface [DirectShow], IDvdControl interface [DirectShow],described, IDvdControlInterface, dshow.idvdcontrol, strmif/IDvdControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: 

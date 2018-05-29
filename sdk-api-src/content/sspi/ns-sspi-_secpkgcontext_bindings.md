@@ -1,16 +1,16 @@
 ---
 UID: NS:sspi._SecPkgContext_Bindings
 title: "_SecPkgContext_Bindings"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a structure that contains channel binding information for a security context.
 old-location: security\secpkgcontext_bindings.htm
 old-project: SecAuthN
 ms.assetid: 6823cc31-acd3-4d67-92c6-65ff4d1c6aed
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSecPkgContext_Bindings, PSecPkgContext_Bindings, PSecPkgContext_Bindings structure pointer [Security], SecPkgContext_Bindings, SecPkgContext_Bindings structure [Security], _SecPkgContext_Bindings, security.secpkgcontext_bindings, sspi/PSecPkgContext_Bindings, sspi/SecPkgContext_Bindings"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: sspi.h
 req.include-header: 

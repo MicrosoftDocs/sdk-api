@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstpdi.WdsTransportServerFreeBuffer
 title: WdsTransportServerFreeBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases memory used by a buffer.
 old-location: wds\wdstransportserverfreebuffer.htm
 old-project: Wds
 ms.assetid: c6123cec-fed3-4745-9d82-e501e972d54f
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsTransportServerFreeBuffer, WdsTransportServerFreeBuffer function [Windows Deployment Services], wds.wdstransportserverfreebuffer, wdstpdi/WdsTransportServerFreeBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdstpdi.h
 req.include-header: 

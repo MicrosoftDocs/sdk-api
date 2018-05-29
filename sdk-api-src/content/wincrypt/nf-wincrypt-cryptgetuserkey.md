@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptGetUserKey
 title: CryptGetUserKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a handle of one of a user's two public/private key pairs.
 old-location: security\cryptgetuserkey.htm
 old-project: SecCrypto
 ms.assetid: d9166b98-e5f1-4e5c-b6f1-2a086b102e0f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptGetUserKey, CryptGetUserKey function [Security], _crypto2_cryptgetuserkey, security.cryptgetuserkey, wincrypt/CryptGetUserKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

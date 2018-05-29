@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHOpenRegStream2W
 title: SHOpenRegStream2W function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a registry value and supplies a stream that can be used to read from or write to the value. This function supersedes SHOpenRegStream.
 old-location: shell\SHOpenRegStream2.htm
 old-project: shell
 ms.assetid: 2450dde0-cd02-4d48-be40-467b4b8be240
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHOpenRegStream2, SHOpenRegStream2 function [Windows Shell], SHOpenRegStream2A, SHOpenRegStream2W, STGM_READ, STGM_READWRITE, STGM_WRITE, _win32_SHOpenRegStream2, shell.SHOpenRegStream2, shlwapi/SHOpenRegStream2, shlwapi/SHOpenRegStream2A, shlwapi/SHOpenRegStream2W
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

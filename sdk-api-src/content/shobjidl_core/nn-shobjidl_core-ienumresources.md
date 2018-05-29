@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IEnumResources
 title: IEnumResources
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes resource enumeration methods.
 old-location: shell\IEnumResources.htm
 old-project: shell
 ms.assetid: 28c645cf-8c69-49d7-a95f-ced6467ad682
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumResources, IEnumResources interface [Windows Shell], IEnumResources interface [Windows Shell],described, _shell_IEnumResources, shell.IEnumResources, shobjidl_core/IEnumResources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

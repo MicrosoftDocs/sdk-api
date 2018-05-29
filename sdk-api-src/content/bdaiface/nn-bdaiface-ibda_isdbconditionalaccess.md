@@ -1,16 +1,16 @@
 ---
 UID: NN:bdaiface.IBDA_ISDBConditionalAccess
 title: IBDA_ISDBConditionalAccess
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends conditional access system (CAS) commands for Integrated Services Digital Broadcasting (ISDB).
 old-location: mstv\ibda_isdbconditionalaccess.htm
 old-project: mstv
 ms.assetid: 0e45e5ea-9f38-4a96-be44-8ee123492aa9
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IBDA_ISDBConditionalAccess, IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies], IBDA_ISDBConditionalAccess interface [Microsoft TV Technologies],described, bdaiface/IBDA_ISDBConditionalAccess, mstv.ibda_isdbconditionalaccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bdaiface.h
 req.include-header: 

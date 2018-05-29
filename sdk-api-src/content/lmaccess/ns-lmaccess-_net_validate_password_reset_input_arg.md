@@ -1,16 +1,16 @@
 ---
 UID: NS:lmaccess._NET_VALIDATE_PASSWORD_RESET_INPUT_ARG
 title: "_NET_VALIDATE_PASSWORD_RESET_INPUT_ARG"
-author: windows-driver-content
+author: windows-sdk-content
 description: A client application passes the NET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure to the NetValidatePasswordPolicy function when the application requests a password reset validation.
 old-location: netmgmt\net_validate_password_reset_input_arg.htm
 old-project: NetMgmt
 ms.assetid: 3a6d4c2d-0d90-48bf-9dfa-2ba587538350
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG, NET_VALIDATE_PASSWORD_RESET_INPUT_ARG, NET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure [Network Management], PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG, PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure pointer [Network Management], _NET_VALIDATE_PASSWORD_RESET_INPUT_ARG, lmaccess/NET_VALIDATE_PASSWORD_RESET_INPUT_ARG, lmaccess/PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG, netmgmt.net_validate_password_reset_input_arg"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lmaccess.h
 req.include-header: Lm.h

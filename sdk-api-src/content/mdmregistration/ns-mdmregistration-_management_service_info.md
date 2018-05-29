@@ -1,16 +1,16 @@
 ---
 UID: NS:mdmregistration._MANAGEMENT_SERVICE_INFO
 title: "_MANAGEMENT_SERVICE_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the endpoints and information about the management service.
 old-location: mdmreg\management_service_info.htm
 old-project: MDMReg
 ms.assetid: 6be4540b-e74b-41f3-aef4-f613f2a79bab
-ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.author: windowssdkdev
+ms.date: 02/20/2018
 ms.keywords: "*PMANAGEMENT_SERVICE_INFO, MANAGEMENT_SERVICE_INFO, MANAGEMENT_SERVICE_INFO structure [MDM Registration], PMANAGEMENT_SERVICE_INFO, PMANAGEMENT_SERVICE_INFO structure pointer [MDM Registration], _MANAGEMENT_SERVICE_INFO, mdmreg.management_service_info, mdmregistration/MANAGEMENT_SERVICE_INFO, mdmregistration/PMANAGEMENT_SERVICE_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mdmregistration.h
 req.include-header: 

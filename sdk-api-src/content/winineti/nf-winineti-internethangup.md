@@ -1,16 +1,16 @@
 ---
 UID: NF:winineti.InternetHangUp
 title: InternetHangUp function
-author: windows-driver-content
+author: windows-sdk-content
 description: Instructs the modem to disconnect from the Internet.
 old-location: wininet\internethangup.htm
 old-project: WinInet
 ms.assetid: 5d74532e-14cd-45c1-b16b-b302bed89c12
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetHangUp, InternetHangUp function [WinINet], _inet_internethangup_function, wininet.internethangup, winineti/InternetHangUp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winineti.h
 req.include-header: Wininet.h

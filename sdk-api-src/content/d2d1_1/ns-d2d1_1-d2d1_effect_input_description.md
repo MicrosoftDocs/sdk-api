@@ -1,16 +1,16 @@
 ---
 UID: NS:d2d1_1.D2D1_EFFECT_INPUT_DESCRIPTION
 title: D2D1_EFFECT_INPUT_DESCRIPTION
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes features of an effect.
 old-location: direct2d\d2d1_effect_input_description.htm
 old-project: Direct2D
 ms.assetid: 2ce9405a-e36d-4b9e-b9d2-2a58b78696ac
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_EFFECT_INPUT_DESCRIPTION, D2D1_EFFECT_INPUT_DESCRIPTION structure [Direct2D], PD2D1_EFFECT_INPUT_DESCRIPTION, PD2D1_EFFECT_INPUT_DESCRIPTION structure pointer [Direct2D], d2d1_1/D2D1_EFFECT_INPUT_DESCRIPTION, d2d1_1/PD2D1_EFFECT_INPUT_DESCRIPTION, direct2d.d2d1_effect_input_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_1.h
 req.include-header: 

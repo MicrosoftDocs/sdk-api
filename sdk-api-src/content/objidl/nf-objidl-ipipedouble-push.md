@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IPipeDouble.Push
 title: IPipeDouble::Push
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends data of the double integer type to the pipe source.
 old-location: com\ipipedouble_push.htm
 old-project: com
 ms.assetid: 49c9121f-eb92-42e4-bd30-fe2213d44de9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPipeDouble interface [COM],Push method, IPipeDouble.Push, IPipeDouble::Push, Push, Push method [COM], Push method [COM],IPipeDouble interface, _com_ipipedouble_push, com.ipipedouble_push, objidlbase/IPipeDouble::Push
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminPortClearStats
 title: MprAdminPortClearStats function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminPortClearStats function resets the statistics for the specified port.
 old-location: rras\mpradminportclearstats.htm
 old-project: RRAS
 ms.assetid: dd932134-7954-4e0a-8170-1dea4ce82011
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminPortClearStats, MprAdminPortClearStats function [RAS], _mpr_mpradminportclearstats, mprapi/MprAdminPortClearStats, rras.mpradminportclearstats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

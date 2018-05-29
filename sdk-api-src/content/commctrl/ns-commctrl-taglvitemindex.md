@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagLVITEMINDEX
 title: tagLVITEMINDEX
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains index information about a list-view item.
 old-location: controls\LVITEMINDEX.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvitemindex.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PLVITEMINDEX, LVITEMINDEX, LVITEMINDEX structure [Windows Controls], PLVITEMINDEX, PLVITEMINDEX structure pointer [Windows Controls], _shell_LVITEMINDEX, _shell_LVITEMINDEX_cpp, commctrl/LVITEMINDEX, commctrl/PLVITEMINDEX, controls.LVITEMINDEX, controls._shell_LVITEMINDEX, tagLVITEMINDEX"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

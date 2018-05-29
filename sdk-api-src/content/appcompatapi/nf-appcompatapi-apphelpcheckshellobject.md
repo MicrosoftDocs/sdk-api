@@ -1,16 +1,16 @@
 ---
 UID: NF:appcompatapi.ApphelpCheckShellObject
 title: ApphelpCheckShellObject function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables applications to detect bad extension objects and either block them from running or fix them.
 old-location: winprog\apphelpcheckshellobject.htm
 old-project: DevNotes
 ms.assetid: e1e44cb1-ecfe-4a58-a29c-4a401f064a04
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ApphelpCheckShellObject, ApphelpCheckShellObject function [Windows API], appcompatapi/ApphelpCheckShellObject, winprog.apphelpcheckshellobject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appcompatapi.h
 req.include-header: 

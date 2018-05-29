@@ -1,16 +1,16 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_DATA_PROVIDER
 title: "_CRYPT_XML_DATA_PROVIDER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the interface to the XML data provider.
 old-location: security\crypt_xml_data_provider.htm
 old-project: SecCrypto
 ms.assetid: 98f32310-a4fa-414c-8a3e-877839eacd1b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_XML_DATA_PROVIDER, CRYPT_XML_DATA_PROVIDER, CRYPT_XML_DATA_PROVIDER structure [Security], PCRYPT_XML_DATA_PROVIDER, PCRYPT_XML_DATA_PROVIDER structure pointer [Security], _CRYPT_XML_DATA_PROVIDER, cryptxml/CRYPT_XML_DATA_PROVIDER, cryptxml/PCRYPT_XML_DATA_PROVIDER, security.crypt_xml_data_provider"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 

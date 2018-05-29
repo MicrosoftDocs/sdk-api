@@ -1,16 +1,16 @@
 ---
 UID: NS:clfs._CLS_WRITE_ENTRY
 title: "_CLS_WRITE_ENTRY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a user buffer, which is to become part of a log record, and its length.
 old-location: fs\clfs_write_entry.htm
 old-project: Clfs
 ms.assetid: 7c81a695-b93c-4c74-8ee8-133eea9f12d9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLFS_WRITE_ENTRY, *PCLS_WRITE_ENTRY, CLFS_WRITE_ENTRY, CLFS_WRITE_ENTRY structure [Files], CLS_WRITE_ENTRY, PCLFS_WRITE_ENTRY, PCLFS_WRITE_ENTRY structure pointer [Files], PPCLS_WRITE_ENTRY, _CLS_WRITE_ENTRY, clfs/PCLFS_WRITE_ENTRY, clfs/_CLFS_WRITE_ENTRY, fs.clfs_write_entry"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clfs.h
 req.include-header: Clfsw32.h

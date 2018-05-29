@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetDisplayAlignment
 title: IMFTimedTextRegion::GetDisplayAlignment
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the display alignment of the region.
 old-location: mf\imftimedtextregion_getdisplayalignment.htm
 old-project: medfound
 ms.assetid: CE2A9014-5510-4648-85F8-4A64C04C9F0C
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetDisplayAlignment, GetDisplayAlignment method [Media Foundation], GetDisplayAlignment method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetDisplayAlignment method, IMFTimedTextRegion.GetDisplayAlignment, IMFTimedTextRegion::GetDisplayAlignment, mf.imftimedtextregion_getdisplayalignment, mfmediaengine/IMFTimedTextRegion::GetDisplayAlignment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

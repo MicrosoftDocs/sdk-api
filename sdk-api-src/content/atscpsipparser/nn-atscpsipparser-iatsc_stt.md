@@ -1,16 +1,16 @@
 ---
 UID: NN:atscpsipparser.IATSC_STT
 title: IATSC_STT
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_stt.htm
 old-project: mstv
 ms.assetid: 03e903e0-e722-42c6-b6b7-448fecc379b9
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IATSC_STT, IATSC_STT interface [Microsoft TV Technologies], IATSC_STT interface [Microsoft TV Technologies],described, IATSC_STTInterface, atscpsipparser/IATSC_STT, mstv.iatsc_stt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: atscpsipparser.h
 req.include-header: 

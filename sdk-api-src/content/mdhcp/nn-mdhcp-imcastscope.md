@@ -1,16 +1,16 @@
 ---
 UID: NN:mdhcp.IMcastScope
 title: IMcastScope
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMcastScope interface is obtained by calling IMcastAddressAllocation::EnumerateScopes or IMcastAddressAllocation::get_Scopes.
 old-location: tapi3\imcastscope.htm
 old-project: Tapi
 ms.assetid: b0252ac4-856e-4aa7-aa3b-37b92472e864
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IMcastScope, IMcastScope interface [TAPI 2.2], IMcastScope interface [TAPI 2.2],described, _tapi3_imcastscope, mdhcp/IMcastScope, tapi3.imcastscope
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mdhcp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:certview.IEnumCERTVIEWATTRIBUTE
 title: IEnumCERTVIEWATTRIBUTE
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an attribute-enumeration sequence that contains the certificate attributes for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewattribute.htm
 old-project: SecCrypto
 ms.assetid: fc1eb29d-27d9-4331-b588-dc0632b3db6a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnumCERTVIEWATTRIBUTE, IEnumCERTVIEWATTRIBUTE interface [Security], IEnumCERTVIEWATTRIBUTE interface [Security],described, _certsrv_ienumcertviewattribute, certview/IEnumCERTVIEWATTRIBUTE, security.ienumcertviewattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certview.h
 req.include-header: Certsrv.h

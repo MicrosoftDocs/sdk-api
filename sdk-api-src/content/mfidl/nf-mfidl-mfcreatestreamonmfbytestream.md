@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateStreamOnMFByteStream
 title: MFCreateStreamOnMFByteStream function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an IStream pointer that wraps a Microsoft Media Foundation byte stream.
 old-location: mf\mfcreatestreamonmfbytestream.htm
 old-project: medfound
 ms.assetid: 97C72B89-2E57-494E-AEB8-41125B3D740E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateStreamOnMFByteStream, MFCreateStreamOnMFByteStream function [Media Foundation], mf.mfcreatestreamonmfbytestream, mfidl/MFCreateStreamOnMFByteStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

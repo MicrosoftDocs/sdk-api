@@ -1,16 +1,16 @@
 ---
 UID: NN:imessagedispatcher.IMessageDispatcher
 title: IMessageDispatcher
-author: windows-driver-content
+author: windows-sdk-content
 description: Callback interface implemented by components that need to perform special processing of window messages on an ASTA thread.
 old-location: com\imessagedispatcher.htm
 old-project: com
 ms.assetid: 60FD9084-CC79-48FE-AB26-C8FCB4288851
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMessageDispatcher, IMessageDispatcher interface [COM], IMessageDispatcher interface [COM],described, com.imessagedispatcher, imessagedispatcher/IMessageDispatcher
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imessagedispatcher.h
 req.include-header: 

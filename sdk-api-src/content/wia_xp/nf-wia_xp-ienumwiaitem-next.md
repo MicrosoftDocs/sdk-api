@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IEnumWiaItem.Next
 title: IEnumWiaItem::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumWiaItem::Next method fills an array of pointers to IWiaItem interfaces.
 old-location: wia\_wia_IEnumWiaItem_Next.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\next.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IEnumWiaItem interface [WIA],Next method, IEnumWiaItem.Next, IEnumWiaItem::Next, Next, Next method [WIA], Next method [WIA],IEnumWiaItem interface, _wia_IEnumWiaItem_Next, wia._wia_IEnumWiaItem_Next, wia_xp/IEnumWiaItem::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

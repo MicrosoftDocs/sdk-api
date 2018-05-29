@@ -1,16 +1,16 @@
 ---
 UID: NF:winenclaveapi.EnclaveGetAttestationReport
 title: EnclaveGetAttestationReport function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an enclave attestation report that describes the current enclave and is signed by the authority that is responsible for the type of the enclave.
 old-location: base\enclavegetattestationreport.htm
 old-project: Memory
 ms.assetid: FEE8F05B-540F-4C10-A90C-55607A4E9293
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnclaveGetAttestationReport, EnclaveGetAttestationReport function, base.enclavegetattestationreport, winenclaveapi/EnclaveGetAttestationReport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winenclaveapi.h
 req.include-header: 

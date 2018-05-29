@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.SafeArrayAddRef
 title: SafeArrayAddRef function
-author: windows-driver-content
+author: windows-sdk-content
 description: Increases the pinning reference count of the descriptor for the specified safe array by one, and may increase the pinning reference count of the data for the specified safe array by one if that data was dynamically allocated, as determined by the descriptor of the safe array.
 old-location: automat\safearrayaddref.htm
 old-project: automat
 ms.assetid: 0745D2E7-447E-4688-ADCF-1F889BC55BFB
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: SafeArrayAddRef, SafeArrayAddRef function [Automation], automat.safearrayaddref, oleauto/SafeArrayAddRef
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

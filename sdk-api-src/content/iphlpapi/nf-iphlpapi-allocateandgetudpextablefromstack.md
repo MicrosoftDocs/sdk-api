@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.AllocateAndGetUdpExTableFromStack
 title: AllocateAndGetUdpExTableFromStack function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the UDP connection table and allocates memory from the local heap to store the table.
 old-location: iphlp\allocateandgetudpextablefromstack.htm
 old-project: IpHlp
 ms.assetid: 22bb2cc2-c559-4a03-a1ab-9a7fa0442b13
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AF_INET, AF_INET6, AllocateAndGetUdpExTableFromStack, AllocateAndGetUdpExTableFromStack function [IP Helper], iphlp.allocateandgetudpextablefromstack, iphlpapi/AllocateAndGetUdpExTableFromStack
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

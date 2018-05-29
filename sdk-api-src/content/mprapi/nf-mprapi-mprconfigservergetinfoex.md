@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigServerGetInfoEx
 title: MprConfigServerGetInfoEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigServerGetInfoEx function retrieves port information for a specified server.
 old-location: rras\mprconfigservergetinfoex.htm
 old-project: RRAS
 ms.assetid: 654d1410-b54c-4284-bf7f-f6ae6b7ef85e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigServerGetInfoEx, MprConfigServerGetInfoEx function [RAS], mprapi/MprConfigServerGetInfoEx, rras.mprconfigservergetinfoex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

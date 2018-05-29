@@ -1,16 +1,16 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetTransferSize
 title: WdsCliGetTransferSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the size of the current file transfer.
 old-location: wds\wdscligettransfersize.htm
 old-project: Wds
 ms.assetid: 411ef76f-8075-4d1a-8ec1-faa399e073a4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsCliGetTransferSize, WdsCliGetTransferSize function [Windows Deployment Services], wds.wdscligettransfersize, wdsclientapi/WdsCliGetTransferSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:avifmt.AVIStreamHeader
 title: AVIStreamHeader
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVISTREAMHEADER structure contains information about one stream in an AVI file.
 old-location: dshow\avistreamheader.htm
 old-project: DirectShow
 ms.assetid: f07c28ac-2dd0-428a-a94a-32aec2bb0854
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "'auds', 'mids', 'txts', 'vids', AVISF_DISABLED, AVISF_VIDEO_PALCHANGES, AVISTREAMHEADER, AVISTREAMHEADER structure [DirectShow], AVISTREAMHEADERStructure, AVIStreamHeader, _avistreamheader, avifmt/AVISTREAMHEADER, dshow.avistreamheader"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: avifmt.h
 req.include-header: Aviriff.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winstring.WindowsSubstring
 title: WindowsSubstring function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a substring from the specified string. The substring starts at the specified character position.
 old-location: winrt\windowssubstring.htm
 old-project: WinRT
 ms.assetid: 15DB3383-D7EC-4047-A1B8-90F8A47428EE
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: WindowsSubstring, WindowsSubstring function [Windows Runtime], winrt.windowssubstring, winstring/WindowsSubstring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winstring.h
 req.include-header: 

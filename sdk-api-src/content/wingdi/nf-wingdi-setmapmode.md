@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.SetMapMode
 title: SetMapMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetMapMode function sets the mapping mode of the specified device context. The mapping mode defines the unit of measure used to transform page-space units into device-space units, and also defines the orientation of the device's x and y axes.
 old-location: gdi\setmapmode.htm
 old-project: gdi
 ms.assetid: a4d6a63a-6d2d-4bd9-9e71-4cd1b5f145a4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MM_ANISOTROPIC, MM_HIENGLISH, MM_HIMETRIC, MM_ISOTROPIC, MM_LOENGLISH, MM_LOMETRIC, MM_TEXT, MM_TWIPS, SetMapMode, SetMapMode function [Windows GDI], _win32_SetMapMode, gdi.setmapmode, wingdi/SetMapMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

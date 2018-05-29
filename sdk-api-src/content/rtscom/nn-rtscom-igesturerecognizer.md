@@ -1,16 +1,16 @@
 ---
 UID: NN:rtscom.IGestureRecognizer
 title: IGestureRecognizer
-author: windows-driver-content
+author: windows-sdk-content
 description: Reacts to events by recognizing gestures and adding gesture data to the input queue.
 old-location: tablet\igesturerecognizer.htm
 old-project: tablet
 ms.assetid: dfdc00d6-c843-4298-9773-92775406fbf7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IGestureRecognizer, IGestureRecognizer interface [Tablet PC], IGestureRecognizer interface [Tablet PC],described, dfdc00d6-c843-4298-9773-92775406fbf7, rtscom/IGestureRecognizer, tablet.igesturerecognizer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rtscom.h
 req.include-header: 

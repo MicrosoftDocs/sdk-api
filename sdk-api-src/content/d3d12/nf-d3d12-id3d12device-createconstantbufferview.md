@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateConstantBufferView
 title: ID3D12Device::CreateConstantBufferView
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a constant-buffer view for accessing resource data.
 old-location: direct3d12\id3d12device_createconstantbufferview.htm
 old-project: direct3d12
 ms.assetid: 13251F82-4AE9-4234-A0C8-0E666F8A1856
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: CreateConstantBufferView, CreateConstantBufferView method, CreateConstantBufferView method,ID3D12Device interface, ID3D12Device interface,CreateConstantBufferView method, ID3D12Device.CreateConstantBufferView, ID3D12Device::CreateConstantBufferView, d3d12/ID3D12Device::CreateConstantBufferView, direct3d12.id3d12device_createconstantbufferview
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

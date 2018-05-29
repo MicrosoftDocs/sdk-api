@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMAsyncReaderTimestampScaling
 title: IAMAsyncReaderTimestampScaling
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a pull-mode source filter to support larger file sizes.
 old-location: dshow\iamasyncreadertimestampscaling.htm
 old-project: DirectShow
 ms.assetid: 159ed107-383d-4a1a-b172-f2e339d6bc83
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMAsyncReaderTimestampScaling, IAMAsyncReaderTimestampScaling interface [DirectShow], IAMAsyncReaderTimestampScaling interface [DirectShow],described, dshow.iamasyncreadertimestampscaling, strmif/IAMAsyncReaderTimestampScaling
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

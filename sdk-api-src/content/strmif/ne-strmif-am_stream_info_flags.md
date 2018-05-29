@@ -1,16 +1,16 @@
 ---
 UID: NE:strmif.AM_STREAM_INFO_FLAGS
 title: AM_STREAM_INFO_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: The AM_STREAM_INFO_FLAGS enumeration defines flags that indicate a pin's stream-control status.
 old-location: dshow\am_stream_info_flags.htm
 old-project: DirectShow
 ms.assetid: 48f6ab36-f019-4096-b6e7-6f6ebc7c454a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AM_STREAM_INFO_DISCARDING, AM_STREAM_INFO_FLAGS, AM_STREAM_INFO_FLAGS , AM_STREAM_INFO_FLAGS enumeration [DirectShow], AM_STREAM_INFO_FLAGSEnumeration, AM_STREAM_INFO_START_DEFINED, AM_STREAM_INFO_STOP_DEFINED, AM_STREAM_INFO_STOP_SEND_EXTRA, dshow.am_stream_info_flags, strmif/AM_STREAM_INFO_DISCARDING, strmif/AM_STREAM_INFO_FLAGS, strmif/AM_STREAM_INFO_START_DEFINED, strmif/AM_STREAM_INFO_STOP_DEFINED, strmif/AM_STREAM_INFO_STOP_SEND_EXTRA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetOutputType
 title: IMediaObject::GetOutputType
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetOutputType method retrieves a preferred media type for a specified output stream.
 old-location: dshow\imediaobject_getoutputtype.htm
 old-project: DirectShow
 ms.assetid: a7652472-4091-4ecf-b623-5c6eb01be44a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetOutputType, GetOutputType method [DirectShow], GetOutputType method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetOutputType method, IMediaObject.GetOutputType, IMediaObject::GetOutputType, IMediaObjectGetOutputType, dshow.imediaobject_getoutputtype, mediaobj/IMediaObject::GetOutputType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mediaobj.h
 req.include-header: Dmo.h

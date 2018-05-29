@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.GetIDAsVariant
 title: ITLegacyCallMediaControl2::GetIDAsVariant
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetIDAsVariant method gets the identifier for the device associated with the current call.
 old-location: tapi3\itlegacycallmediacontrol2_getidasvariant.htm
 old-project: Tapi
 ms.assetid: 6c28889f-3768-4136-ac73-80c6c5ffeac3
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetIDAsVariant, GetIDAsVariant method [TAPI 2.2], GetIDAsVariant method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GetIDAsVariant method, ITLegacyCallMediaControl2.GetIDAsVariant, ITLegacyCallMediaControl2::GetIDAsVariant, _tapi3_itlegacycallmediacontrol2_getidasvariant, tapi3.itlegacycallmediacontrol2_getidasvariant, tapi3if/ITLegacyCallMediaControl2::GetIDAsVariant
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

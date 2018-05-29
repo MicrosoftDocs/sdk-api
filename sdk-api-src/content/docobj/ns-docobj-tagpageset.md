@@ -1,16 +1,16 @@
 ---
 UID: NS:docobj.tagPAGESET
 title: tagPAGESET
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies one or more page-ranges to be printed and, optionally, identifies only the even or odd pages as part of a pageset.
 old-location: com\pageset.htm
 old-project: com
 ms.assetid: 9639c743-2509-4611-833b-16d16fce420a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PAGESET, PAGESET structure [COM], _ctrl_PAGESET, com.pageset, docobj/PAGESET, tagPAGESET
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: docobj.h
 req.include-header: 

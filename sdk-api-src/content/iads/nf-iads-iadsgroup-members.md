@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsGroup.Members
 title: IADsGroup::Members
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a collection of the immediate members of the group.
 old-location: adsi\iadsgroup_members.htm
 old-project: ADSI
 ms.assetid: c909f779-ee27-4eb3-aee2-892ccc2a196e
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsGroup interface [ADSI],Members method, IADsGroup.Members, IADsGroup::Members, Members, Members method [ADSI], Members method [ADSI],IADsGroup interface, _ds_iadsgroup_members, adsi.iadsgroup__members, adsi.iadsgroup_members, iads/IADsGroup::Members
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:audioclient.IAudioClock2
 title: IAudioClock2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioClock2 interface is used to get the current device position.
 old-location: coreaudio\iaudioclock2.htm
 old-project: CoreAudio
 ms.assetid: 4820c93a-a5d8-4ab9-aefc-9377fc76e745
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioClock2, IAudioClock2 interface [Core Audio], IAudioClock2 interface [Core Audio],described, audioclient/IAudioClock2, coreaudio.iaudioclock2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioclient.h
 req.include-header: 

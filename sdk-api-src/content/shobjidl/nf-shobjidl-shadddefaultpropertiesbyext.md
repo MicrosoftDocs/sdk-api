@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl.SHAddDefaultPropertiesByExt
 title: SHAddDefaultPropertiesByExt function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds default properties to the property store as registered for the specified file extension.
 old-location: properties\SHAddDefaultPropertiesByExt.htm
 old-project: properties
 ms.assetid: ba0fec36-3983-4064-9202-6158af565d9b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: SHAddDefaultPropertiesByExt, SHAddDefaultPropertiesByExt function [Windows Properties], _shell_SHAddDefaultPropertiesByExt, properties.SHAddDefaultPropertiesByExt, shell.SHAddDefaultPropertiesByExt, shobjidl/SHAddDefaultPropertiesByExt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shobjidl.h
 req.include-header: 

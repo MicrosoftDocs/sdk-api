@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.Select
 title: ILegacyIAccessibleProvider::Select
-author: windows-driver-content
+author: windows-sdk-content
 description: Selects the element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Select.htm
 old-project: WinAuto
 ms.assetid: 9cdb3f88-c4aa-4a04-94e3-5549c389ad1f
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],Select method, ILegacyIAccessibleProvider.Select, ILegacyIAccessibleProvider::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],ILegacyIAccessibleProvider interface, uiauto.uiauto_ILegacyIAccessibleProvider_Select, uiauto_ILegacyIAccessibleProvider_Select, uiautomationcore/ILegacyIAccessibleProvider::Select, winauto.uiauto_ILegacyIAccessibleProvider_Select
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

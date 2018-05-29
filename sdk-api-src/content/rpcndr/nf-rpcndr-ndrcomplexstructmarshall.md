@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrComplexStructMarshall
 title: NdrComplexStructMarshall function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrComplexStructMarshall function marshals the complex structure into a network buffer.
 old-location: winprog\ndrcomplexstructmarshall.htm
 old-project: DevNotes
 ms.assetid: 722c274e-1c66-4b46-b243-02eeaaad1f6b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: NdrComplexStructMarshall, NdrComplexStructMarshall function [Windows API], rpcndr/NdrComplexStructMarshall, winprog.ndrcomplexstructmarshall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: 

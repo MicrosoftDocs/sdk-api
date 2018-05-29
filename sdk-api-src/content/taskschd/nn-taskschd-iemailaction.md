@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.IEmailAction
 title: IEmailAction
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an action that sends an email message.
 old-location: taskschd\iemailaction.htm
 old-project: TaskSchd
 ms.assetid: 2f08fd42-233a-40ee-96d0-f0ac8b25b847
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IEmailAction, IEmailAction interface [Task Scheduler], IEmailAction interface [Task Scheduler],described, taskschd.iemailaction, taskschd/IEmailAction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

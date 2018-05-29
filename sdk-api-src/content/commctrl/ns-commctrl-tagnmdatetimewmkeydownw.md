@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagNMDATETIMEWMKEYDOWNW
 title: tagNMDATETIMEWMKEYDOWNW
-author: windows-driver-content
+author: windows-sdk-content
 description: Carries information used to describe and handle a DTN_WMKEYDOWN notification code.
 old-location: controls\NMDATETIMEWMKEYDOWN.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimewmkeydown.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPNMDATETIMEWMKEYDOWNW, LPNMDATETIMEWMKEYDOWN, LPNMDATETIMEWMKEYDOWN structure pointer [Windows Controls], NMDATETIMEWMKEYDOWN, NMDATETIMEWMKEYDOWN structure [Windows Controls], NMDATETIMEWMKEYDOWNA, NMDATETIMEWMKEYDOWNW, _win32_NMDATETIMEWMKEYDOWN, _win32_NMDATETIMEWMKEYDOWN_cpp, commctrl/LPNMDATETIMEWMKEYDOWN, commctrl/NMDATETIMEWMKEYDOWN, commctrl/NMDATETIMEWMKEYDOWNA, commctrl/NMDATETIMEWMKEYDOWNW, controls.NMDATETIMEWMKEYDOWN, controls._win32_NMDATETIMEWMKEYDOWN, tagNMDATETIMEWMKEYDOWNW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

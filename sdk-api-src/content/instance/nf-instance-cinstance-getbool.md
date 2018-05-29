@@ -1,16 +1,16 @@
 ---
 UID: NF:instance.CInstance.Getbool
 title: CInstance::Getbool
-author: windows-driver-content
+author: windows-sdk-content
 description: The Getbool method retrieves a Boolean property.
 old-location: wmi\cinstance_getbool.htm
 old-project: WmiSdk
 ms.assetid: cc8d0c91-03fb-4dc1-86a6-c1117f198181
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?Getbool@CInstance@@QBE_NPBGAA_N@Z, ?Getbool@CInstance@@QEBA_NPEBGAEA_N@Z, CInstance interface [Windows Management Instrumentation],Getbool method, CInstance.Getbool, CInstance::Getbool, Getbool, Getbool method [Windows Management Instrumentation], Getbool method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getbool, instance/CInstance::Getbool, wmi.cinstance_getbool"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h

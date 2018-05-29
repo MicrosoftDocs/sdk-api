@@ -1,16 +1,16 @@
 ---
 UID: NN:upnp.IUPnPServices
 title: IUPnPServices
-author: windows-driver-content
+author: windows-sdk-content
 description: The IUPnPServices interface enumerates a collection of services.
 old-location: upnp\iupnpservices.htm
 old-project: UPnP
 ms.assetid: 8d5e487f-d2d4-4603-918c-e751d698be3c
-ms.author: windowsdriverdev
-ms.date: 4/25/2018
+ms.author: windowssdkdev
+ms.date: 04/25/2018
 ms.keywords: IUPnPServices, IUPnPServices interface [UPnP APIs], IUPnPServices interface [UPnP APIs],described, _upnp_iupnpservices, upnp.iupnpservices, upnp/IUPnPServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: upnp.h
 req.include-header: 

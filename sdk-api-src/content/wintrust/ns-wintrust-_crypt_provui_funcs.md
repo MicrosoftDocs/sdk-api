@@ -1,16 +1,16 @@
 ---
 UID: NS:wintrust._CRYPT_PROVUI_FUNCS
 title: "_CRYPT_PROVUI_FUNCS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides information about the user interface (UI) functions of a provider. This structure is used by the CRYPT_PROVIDER_FUNCTIONS structure.
 old-location: security\crypt_provui_funcs.htm
 old-project: SecCrypto
 ms.assetid: 7cdc32ea-b28a-400f-ad8a-984f86bb95fd
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PCRYPT_PROVUI_FUNCS, CRYPT_PROVUI_FUNCS, CRYPT_PROVUI_FUNCS structure [Security], PCRYPT_PROVUI_FUNCS, PCRYPT_PROVUI_FUNCS structure pointer [Security], _CRYPT_PROVUI_FUNCS, security.crypt_provui_funcs, wintrust/CRYPT_PROVUI_FUNCS, wintrust/PCRYPT_PROVUI_FUNCS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wintrust.h
 req.include-header: 

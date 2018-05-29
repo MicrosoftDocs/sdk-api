@@ -1,16 +1,16 @@
 ---
 UID: NS:searchapi._TIMEOUT_INFO
 title: "_TIMEOUT_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores time-out values for connections and data.
 old-location: search\_search_TIMEOUT_INFO.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\timeout_info.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: TIMEOUT_INFO, TIMEOUT_INFO structure [search], _TIMEOUT_INFO, _search_TIMEOUT_INFO, search._search_TIMEOUT_INFO, searchapi/TIMEOUT_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: searchapi.h
 req.include-header: 

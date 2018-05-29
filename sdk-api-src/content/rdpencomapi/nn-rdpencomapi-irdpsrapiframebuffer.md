@@ -1,16 +1,16 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIFrameBuffer
 title: IRDPSRAPIFrameBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides data about the frame buffer size and format and allows the contents to be retrieved.
 old-location: rdp\irdpsrapiframebuffer.htm
 old-project: Rdp
 ms.assetid: ab40bdd2-448f-4867-aabd-d6b66add5247
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIFrameBuffer, IRDPSRAPIFrameBuffer interface [RDP], IRDPSRAPIFrameBuffer interface [RDP],described, rdp.irdpsrapiframebuffer, rdpencomapi/IRDPSRAPIFrameBuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: rdpencomapi.h
 req.include-header: 

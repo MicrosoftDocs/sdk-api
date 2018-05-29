@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.GetLowerParameters
 title: IWSDMessageParameters::GetLowerParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves message parameters from the layer below this layer in the protocol stack.
 old-location: ncd\iwsdmessageparameters_getlowerparameters.htm
 old-project: WsdApi
 ms.assetid: 24f4be83-adf4-4742-8a1e-4304870a16dc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetLowerParameters, GetLowerParameters method, GetLowerParameters method,IWSDMessageParameters interface, IWSDMessageParameters interface,GetLowerParameters method, IWSDMessageParameters.GetLowerParameters, IWSDMessageParameters::GetLowerParameters, ncd.iwsdmessageparameters_getlowerparameters, wsdbase/IWSDMessageParameters::GetLowerParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

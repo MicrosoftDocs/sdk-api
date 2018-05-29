@@ -1,16 +1,16 @@
 ---
 UID: NN:audiomediatype.IAudioMediaType
 title: IAudioMediaType
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAudioMediaType interface exposes methods that allow an sAPO to get information that is used to negotiate with the audio engine for the appropriate audio data format.
 old-location: audio\iaudiomediatype.htm
 old-project: audio
 ms.assetid: bf3ee44b-79f3-441a-91f9-a340dc146d67
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IAudioMediaType, IAudioMediaType interface [Audio Devices], IAudioMediaType interface [Audio Devices],described, audio.iaudiomediatype, audio_syseffects_r_8b31a96c-76bb-4090-a0e3-e7e16fb98ddc.xml, audiomediatype/IAudioMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audiomediatype.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngLockDriverObj
 title: EngLockDriverObj function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngLockDriverObj function creates an exclusive lock on this object for the calling thread.
 old-location: display\englockdriverobj.htm
 old-project: display
 ms.assetid: 9ed3142d-2b20-4453-9057-80e6f8f92ff2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngLockDriverObj, EngLockDriverObj function [Display Devices], display.englockdriverobj, gdifncs_154bc925-ce22-45c9-8d24-724f186cd3b5.xml, winddi/EngLockDriverObj
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

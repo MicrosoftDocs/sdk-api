@@ -1,16 +1,16 @@
 ---
 UID: NF:mfobjects.IMFByteStream.EndWrite
 title: IMFByteStream::EndWrite
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes an asynchronous write operation.
 old-location: mf\imfbytestream_endwrite.htm
 old-project: medfound
 ms.assetid: d3e10e89-ef5d-41c5-b549-4bd632d9370d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EndWrite, EndWrite method [Media Foundation], EndWrite method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],EndWrite method, IMFByteStream.EndWrite, IMFByteStream::EndWrite, d3e10e89-ef5d-41c5-b549-4bd632d9370d, mf.imfbytestream_endwrite, mfobjects/IMFByteStream::EndWrite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfobjects.h
 req.include-header: Mfidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleCreateEx
 title: OleCreateEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends OleCreate functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple presentation formats or data, instead of the single format supported by OleCreate.
 old-location: com\olecreateex.htm
 old-project: com
 ms.assetid: 11f2703c-b596-4cb9-855a-d8cf4b947fae
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleCreateEx, OleCreateEx function [COM], _ole_OleCreateEx, com.olecreateex, ole2/OleCreateEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

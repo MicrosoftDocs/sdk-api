@@ -1,16 +1,16 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer
 title: IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases the output data pointer for the last buffer.
 old-location: coreaudio\iaudioendpointlastbuffercontrol_releaseoutputdatapointerforlastbuffer.htm
 old-project: CoreAudio
 ms.assetid: 9ff0232d-acf6-44e7-933a-b5ac91c3acc8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IAudioEndpointLastBufferControl interface [Core Audio],ReleaseOutputDataPointerForLastBuffer method, IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer, IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer, ReleaseOutputDataPointerForLastBuffer, ReleaseOutputDataPointerForLastBuffer method [Core Audio], ReleaseOutputDataPointerForLastBuffer method [Core Audio],IAudioEndpointLastBufferControl interface, audioengineendpoint/IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer, coreaudio.iaudioendpointlastbuffercontrol_releaseoutputdatapointerforlastbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioengineendpoint.h
 req.include-header: 

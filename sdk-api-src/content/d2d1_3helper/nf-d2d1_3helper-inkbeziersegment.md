@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1_3helper.InkBezierSegment
 title: InkBezierSegment function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a D2D1_INK_BEZIER_SEGMENT structure.
 old-location: direct2d\inkbeziersegment.htm
 old-project: Direct2D
 ms.assetid: 61f6a6fb-3304-e979-549a-3c4c528ed12d
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: InkBezierSegment, InkBezierSegment function [Direct2D], d2d1_3helper/InkBezierSegment, direct2d.inkbeziersegment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_3helper.h
 req.include-header: 

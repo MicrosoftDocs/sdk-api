@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespaceScheduledCastAutoStart.get_MinimumClients
 title: IWdsTransportNamespaceScheduledCastAutoStart::get_MinimumClients
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets a condition that starts transmission automatically. Transmission starts if the number of applications that have joined sessions reaches the value of this property.
 old-location: wds\iwdstransportnamespacescheduledcastautostart_minimumclients.htm
 old-project: Wds
 ms.assetid: 69d85955-ea9c-4274-a5dd-fb03a0e87586
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services],MinimumClients property, IWdsTransportNamespaceScheduledCastAutoStart.MinimumClients, IWdsTransportNamespaceScheduledCastAutoStart.get_MinimumClients, IWdsTransportNamespaceScheduledCastAutoStart::MinimumClients, IWdsTransportNamespaceScheduledCastAutoStart::get_MinimumClients, IWdsTransportNamespaceScheduledCastAutoStart::put_MinimumClients, MinimumClients property [Windows Deployment Services], MinimumClients property [Windows Deployment Services],IWdsTransportNamespaceScheduledCastAutoStart interface, get_MinimumClients, wds.iwdstransportnamespacescheduledcastautostart_minimumclients, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::MinimumClients, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::get_MinimumClients, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart::put_MinimumClients
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

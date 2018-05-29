@@ -1,16 +1,16 @@
 ---
 UID: NN:propsys.IPersistSerializedPropStorage
 title: IPersistSerializedPropStorage
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods to persist serialized property storage data for later use and to restore persisted data to a new property store instance.
 old-location: shell\IPersistSerializedPropStorage.htm
 old-project: shell
 ms.assetid: d3ce6a05-b1e5-4d99-a27e-3a97a28ed8e8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IPersistSerializedPropStorage, IPersistSerializedPropStorage interface [Windows Shell], IPersistSerializedPropStorage interface [Windows Shell],described, _shell_IPersistSerializedPropStorage, propsys/IPersistSerializedPropStorage, shell.IPersistSerializedPropStorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

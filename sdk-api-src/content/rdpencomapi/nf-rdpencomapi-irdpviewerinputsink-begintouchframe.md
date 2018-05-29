@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPViewerInputSink.BeginTouchFrame
 title: IRDPViewerInputSink::BeginTouchFrame
-author: windows-driver-content
+author: windows-sdk-content
 description: Begins to accept a series of touch inputs.
 old-location: rdp\irdpviewerinputsink_begintouchframe.htm
 old-project: Rdp
 ms.assetid: DCB67D63-A866-4D98-907B-6CDB7EB56312
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: BeginTouchFrame, BeginTouchFrame method [RDP], BeginTouchFrame method [RDP],IRDPViewerInputSink interface, IRDPViewerInputSink interface [RDP],BeginTouchFrame method, IRDPViewerInputSink.BeginTouchFrame, IRDPViewerInputSink::BeginTouchFrame, rdp.irdpviewerinputsink_begintouchframe, rdpencomapi/IRDPViewerInputSink::BeginTouchFrame
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

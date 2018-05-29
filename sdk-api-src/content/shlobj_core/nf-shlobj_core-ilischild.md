@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.ILIsChild
 title: ILIsChild function
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies whether a pointer to an item identifier list (PIDL) is a child PIDL, which is a PIDL with exactly one SHITEMID.
 old-location: shell\ILIsChild.htm
 old-project: shell
 ms.assetid: e799fbcf-8254-457a-9d1b-6202dea190c1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ILIsChild, ILIsChild function [Windows Shell], _shell_ILIsChild, shell.ILIsChild, shlobj_core/ILIsChild
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

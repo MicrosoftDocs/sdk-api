@@ -1,16 +1,16 @@
 ---
 UID: NF:strsafe.StringCbPrintfW
 title: StringCbPrintfW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes formatted data to the specified string.
 old-location: menurc\stringcbprintf.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbprintf.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StringCbPrintf, StringCbPrintf function [Menus and Other Resources], StringCbPrintfA, StringCbPrintfW, _shell_StringCbPrintf, _shell_stringcbprintf_cpp, menurc.stringcbprintf, strsafe/StringCbPrintf, strsafe/StringCbPrintfA, strsafe/StringCbPrintfW, winui._shell_stringcbprintf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 

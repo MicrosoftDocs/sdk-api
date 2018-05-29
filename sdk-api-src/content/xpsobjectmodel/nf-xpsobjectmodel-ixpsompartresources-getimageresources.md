@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartResources.GetImageResources
 title: IXpsOMPartResources::GetImageResources
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the IXpsOMImageResourceCollection interface that contains the images that are used in the XPS document.
 old-location: xps\ixpsompartresources_getimageresources.htm
 old-project: printdocs
 ms.assetid: d30281b7-0b2c-4240-813b-a53c8acb819c
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetImageResources, GetImageResources method [XPS Documents and Packaging], GetImageResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetImageResources method, IXpsOMPartResources.GetImageResources, IXpsOMPartResources::GetImageResources, xps.ixpsompartresources_getimageresources, xpsobjectmodel/IXpsOMPartResources::GetImageResources
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

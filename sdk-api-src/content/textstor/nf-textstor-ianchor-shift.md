@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.IAnchor.Shift
 title: IAnchor::Shift
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAnchor::Shift method shifts the anchor forward or backward within a text stream.
 old-location: tsf\ianchor_shift.htm
 old-project: TSF
 ms.assetid: e57a78e6-42e6-4a2b-b4e1-20bb64add872
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IAnchor interface [Text Services Framework],Shift method, IAnchor.Shift, IAnchor::Shift, Shift, Shift method [Text Services Framework], Shift method [Text Services Framework],IAnchor interface, TS_SHIFT_COUNT_ONLY, textstor/IAnchor::Shift, tsf.ianchor_shift
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

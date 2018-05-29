@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.EngFillPath
 title: EngFillPath function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EngFillPath function fills a path.
 old-location: display\engfillpath.htm
 old-project: display
 ms.assetid: 81c4ae89-391c-482b-b5dc-ef34d41607a1
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: EngFillPath, EngFillPath function [Display Devices], display.engfillpath, gdifncs_5128f1e3-265b-4570-8504-1782a07268d5.xml, winddi/EngFillPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetFuncAndParamNames
 title: ICreateTypeInfo::SetFuncAndParamNames
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the name of a function and the names of its parameters to the specified names.
 old-location: automat\icreatetypeinfo_setfuncandparamnames.htm
 old-project: automat
 ms.assetid: e3764917-43ea-4151-95da-e01946a2ebb7
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetFuncAndParamNames method, ICreateTypeInfo.SetFuncAndParamNames, ICreateTypeInfo::SetFuncAndParamNames, SetFuncAndParamNames, SetFuncAndParamNames method [Automation], SetFuncAndParamNames method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetFuncAndParamNames, automat.icreatetypeinfo_setfuncandparamnames, oaidl/ICreateTypeInfo::SetFuncAndParamNames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

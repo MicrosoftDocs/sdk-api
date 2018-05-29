@@ -1,16 +1,16 @@
 ---
 UID: NE:wuapi.tagDownloadPriority
 title: tagDownloadPriority
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the possible priorities for a download operation.
 old-location: wua\downloadpriority.htm
 old-project: Wua_Sdk
 ms.assetid: 6e70c513-861b-4a7f-a613-09ba2ef64bf1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: DownloadPriority, DownloadPriority enumeration [Windows Update Agent], dpHigh, dpLow, dpNormal, tagDownloadPriority, wua.downloadpriority, wuapi/DownloadPriority, wuapi/dpHigh, wuapi/dpLow, wuapi/dpNormal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wuapi.h
 req.include-header: 

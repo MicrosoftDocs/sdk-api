@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IComponentAuthenticate.SACGetProtocols
 title: IComponentAuthenticate::SACGetProtocols
-author: windows-driver-content
+author: windows-sdk-content
 description: The SACGetProtocols method is used by a component to discover the authentication protocols supported by another component.
 old-location: wmdm\icomponentauthenticate_sacgetprotocols.htm
 old-project: WMDM
 ms.assetid: db01f2a4-5cd5-4acc-be17-37b4c9861cc9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IComponentAuthenticate interface [windows Media Device Manager],SACGetProtocols method, IComponentAuthenticate.SACGetProtocols, IComponentAuthenticate::SACGetProtocols, IComponentAuthenticateSACGetProtocols, SACGetProtocols, SACGetProtocols method [windows Media Device Manager], SACGetProtocols method [windows Media Device Manager],IComponentAuthenticate interface, mswmdm/IComponentAuthenticate::SACGetProtocols, wmdm.icomponentauthenticate_sacgetprotocols
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

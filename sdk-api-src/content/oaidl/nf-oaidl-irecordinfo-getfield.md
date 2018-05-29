@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetField
 title: IRecordInfo::GetField
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a pointer to the VARIANT containing the value of a given field name.
 old-location: automat\irecordinfo_getfield.htm
 old-project: automat
 ms.assetid: 6765371c-209a-4794-bff8-83560171affb
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetField, GetField method [Automation], GetField method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetField method, IRecordInfo.GetField, IRecordInfo::GetField, _oa96_IRecordInfo_GetField, automat.irecordinfo_getfield, oaidl/IRecordInfo::GetField
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

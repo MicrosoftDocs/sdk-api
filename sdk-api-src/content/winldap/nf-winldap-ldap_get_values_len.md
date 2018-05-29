@@ -1,16 +1,16 @@
 ---
 UID: NF:winldap.ldap_get_values_len
 title: ldap_get_values_len function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ldap_get_values_len function retrieves the list of values for a given attribute.
 old-location: ldap\ldap_get_values_len.htm
 old-project: LDAP
 ms.assetid: e2100892-5dad-4fc7-8129-34c675bcf134
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: "_ldap_ldap_get_values_len, ldap.ldap__get__values__len, ldap.ldap_get_values_len, ldap_get_values_len, ldap_get_values_len function [LDAP], ldap_get_values_lenA, ldap_get_values_lenW, winldap/ldap_get_values_len, winldap/ldap_get_values_lenA, winldap/ldap_get_values_lenW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winldap.h
 req.include-header: 

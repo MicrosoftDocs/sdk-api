@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_AP_LOGON_USER_EX
 title: LSA_AP_LOGON_USER_EX
-author: windows-driver-content
+author: windows-sdk-content
 description: Authenticates a user's logon credentials.
 old-location: security\lsaaplogonuserex.htm
 old-project: SecAuthN
 ms.assetid: 7778292a-7062-4f49-b4a9-6784e5e4ccd7
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LSA_AP_LOGON_USER_EX, LsaApLogonUserEx, LsaApLogonUserEx function [Security], STATUS_ACCOUNT_DISABLED, STATUS_INVALID_LOGON_HOURS, STATUS_INVALID_WORKSTATION, STATUS_PASSWORD_EXPIRED, _lsa_lsaaplogonuserex, ntsecpkg/LsaApLogonUserEx, security.lsaaplogonuserex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

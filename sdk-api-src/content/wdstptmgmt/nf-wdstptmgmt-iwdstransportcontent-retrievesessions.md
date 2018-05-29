@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.RetrieveSessions
 title: IWdsTransportContent::RetrieveSessions
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a collection of active transport sessions associated with this content.
 old-location: wds\iwdstransportcontent_retrievesessions.htm
 old-project: Wds
 ms.assetid: 8901f9c5-931e-40d5-8a5c-d3a814556400
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],RetrieveSessions method, IWdsTransportContent.RetrieveSessions, IWdsTransportContent::RetrieveSessions, RetrieveSessions, RetrieveSessions method [Windows Deployment Services], RetrieveSessions method [Windows Deployment Services],IWdsTransportContent interface, wds.iwdstransportcontent_retrievesessions, wdstptmgmt/IWdsTransportContent::RetrieveSessions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.ILClone
 title: ILClone function
-author: windows-driver-content
+author: windows-sdk-content
 description: Clones an ITEMIDLIST structure.
 old-location: shell\ILClone.htm
 old-project: shell
 ms.assetid: 90689575-3308-4817-ae8c-380fa5f55c88
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ILClone, ILClone function [Windows Shell], _win32_ILClone, shell.ILClone, shlobj_core/ILClone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

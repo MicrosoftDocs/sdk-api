@@ -1,16 +1,16 @@
 ---
 UID: NE:fhcfg._FH_DEVICE_VALIDATION_RESULT
 title: "_FH_DEVICE_VALIDATION_RESULT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the storage device or network share can be used as a File History backup target.
 old-location: winprog\fh_device_validation_result.htm
 old-project: DevNotes
 ms.assetid: DAADC244-D0F5-44F9-9F61-48E6C6EFB91A
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PFH_DEVICE_VALIDATION_RESULT, FH_ACCESS_DENIED, FH_CURRENT_DEFAULT, FH_DEVICE_VALIDATION_RESULT, FH_DEVICE_VALIDATION_RESULT enumeration [Windows API], FH_INVALID_DRIVE_TYPE, FH_NAMESPACE_EXISTS, FH_READ_ONLY_PERMISSION, FH_TARGET_PART_OF_LIBRARY, FH_VALID_TARGET, MAX_VALIDATION_RESULT, _FH_DEVICE_VALIDATION_RESULT, fhcfg/FH_ACCESS_DENIED, fhcfg/FH_CURRENT_DEFAULT, fhcfg/FH_DEVICE_VALIDATION_RESULT, fhcfg/FH_INVALID_DRIVE_TYPE, fhcfg/FH_NAMESPACE_EXISTS, fhcfg/FH_READ_ONLY_PERMISSION, fhcfg/FH_TARGET_PART_OF_LIBRARY, fhcfg/FH_VALID_TARGET, fhcfg/MAX_VALIDATION_RESULT, winprog.fh_device_validation_result"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: fhcfg.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:adshlp.ReallocADsMem
 title: ReallocADsMem function
-author: windows-driver-content
+author: windows-sdk-content
 description: Reallocates and copies an existing memory block.
 old-location: adsi\reallocadsmem.htm
 old-project: ADSI
 ms.assetid: 471b8ae7-d3b6-4dd9-aa00-6e1d3ab278a9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ReallocADsMem, ReallocADsMem function [ADSI], _ds_reallocadsmem, adshlp/ReallocADsMem, adsi.reallocadsmem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: adshlp.h
 req.include-header: 

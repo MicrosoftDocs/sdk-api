@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.ObjectDeleteAuditAlarmA
 title: ObjectDeleteAuditAlarmA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates audit messages when an object is deleted.
 old-location: security\objectdeleteauditalarm.htm
 old-project: SecAuthZ
 ms.assetid: cb4c857c-5e63-41fe-8ae8-6762b0014a85
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ObjectDeleteAuditAlarm, ObjectDeleteAuditAlarm function [Security], ObjectDeleteAuditAlarmA, ObjectDeleteAuditAlarmW, _win32_objectdeleteauditalarm, security.objectdeleteauditalarm, winbase/ObjectDeleteAuditAlarm, winbase/ObjectDeleteAuditAlarmA, winbase/ObjectDeleteAuditAlarmW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

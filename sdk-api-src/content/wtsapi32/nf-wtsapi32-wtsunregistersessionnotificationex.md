@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsapi32.WTSUnRegisterSessionNotificationEx
 title: WTSUnRegisterSessionNotificationEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters the specified window so that it receives no further session change notifications.
 old-location: termserv\wtsunregistersessionnotificationex.htm
 old-project: TermServ
 ms.assetid: 774df4a2-5d66-42fd-94b5-a51d5ba99c94
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: WTSUnRegisterSessionNotificationEx, WTSUnRegisterSessionNotificationEx function [Remote Desktop Services], termserv.wtsunregistersessionnotificationex, wtsapi32/WTSUnRegisterSessionNotificationEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:netlistmgr.INetworkEvents.NetworkPropertyChanged
-title: INetworkEvents::NetworkPropertyChanged method
-author: windows-driver-content
+title: INetworkEvents::NetworkPropertyChanged
+author: windows-sdk-content
 description: The NetworkPropertyChanged method is called when a network property change is detected.
 old-location: nla\inetworkevents_networkpropertychanged.htm
 old-project: NLA
 ms.assetid: a84f49ee-9efd-450e-a6e6-3f140330a9d0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: INetworkEvents, INetworkEvents interface [Network Awareness], NetworkPropertyChange method, INetworkEvents::NetworkPropertyChange, INetworkEvents::NetworkPropertyChanged, NetworkPropertyChange method [Network Awareness], NetworkPropertyChange method [Network Awareness], INetworkEvents interface, NetworkPropertyChanged,INetworkEvents.NetworkPropertyChanged, netlistmgr/INetworkEvents::NetworkPropertyChange, nla.inetworkevents_networkpropertychanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.author: windowssdkdev
+ms.date: 05/24/2018
+ms.keywords: INetworkEvents interface [Network Awareness],NetworkPropertyChanged method, INetworkEvents.NetworkPropertyChanged, INetworkEvents::NetworkPropertyChanged, NetworkPropertyChanged, NetworkPropertyChanged method [Network Awareness], NetworkPropertyChanged method [Network Awareness],INetworkEvents interface, netlistmgr/INetworkEvents::NetworkPropertyChanged, nla.inetworkevents_networkpropertychanged
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netlistmgr.h
 req.include-header: 
@@ -35,16 +35,16 @@ api_type:
 api_location:
 -	Netlistmgr.h
 api_name:
--	INetworkEvents.NetworkPropertyChange
+-	INetworkEvents.NetworkPropertyChanged
 product: Windows
 targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
-req.product: Rights Management Services client 1.0 SP2 or later
+req.product: Rights Management Services client 1.0 or later
 ---
 
-# INetworkEvents::NetworkPropertyChanged method
+# INetworkEvents::NetworkPropertyChanged
 
 
 ## -description

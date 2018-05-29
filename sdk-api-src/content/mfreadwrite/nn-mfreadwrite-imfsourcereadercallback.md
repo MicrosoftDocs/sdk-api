@@ -1,16 +1,16 @@
 ---
 UID: NN:mfreadwrite.IMFSourceReaderCallback
 title: IMFSourceReaderCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Callback interface for the Microsoft Media Foundation source reader.
 old-location: mf\imfsourcereadercallback.htm
 old-project: medfound
 ms.assetid: fff8b6e6-5d56-4301-b3ce-f3ff49398593
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSourceReaderCallback, IMFSourceReaderCallback interface [Media Foundation], IMFSourceReaderCallback interface [Media Foundation],described, mf.imfsourcereadercallback, mfreadwrite/IMFSourceReaderCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfreadwrite.h
 req.include-header: 

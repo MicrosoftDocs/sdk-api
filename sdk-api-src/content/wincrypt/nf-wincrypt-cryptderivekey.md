@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptDeriveKey
 title: CryptDeriveKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Generates cryptographic session keys derived from a base data value.
 old-location: security\cryptderivekey.htm
 old-project: SecCrypto
 ms.assetid: b031e3b4-0102-400e-96db-019d31402adc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_CREATE_SALT, CRYPT_EXPORTABLE, CRYPT_NO_SALT, CRYPT_SERVER, CRYPT_UPDATE_KEY, CryptDeriveKey, CryptDeriveKey function [Security], _crypto2_cryptderivekey, security.cryptderivekey, wincrypt/CryptDeriveKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

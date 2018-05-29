@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationItemContainerPattern.FindItemByProperty
 title: IUIAutomationItemContainerPattern::FindItemByProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an element within a containing element, based on a specified property value.
 old-location: winauto\uiauto_IUIAutomationItemContainerPattern_FindItemByProperty.htm
 old-project: WinAuto
 ms.assetid: d27f07ae-2c88-4cde-99b8-0c8c987b95d3
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: FindItemByProperty, FindItemByProperty method [Windows Accessibility], FindItemByProperty method [Windows Accessibility],IUIAutomationItemContainerPattern interface, IUIAutomationItemContainerPattern interface [Windows Accessibility],FindItemByProperty method, IUIAutomationItemContainerPattern.FindItemByProperty, IUIAutomationItemContainerPattern::FindItemByProperty, uiauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiauto_IUIAutomationItemContainerPattern_FindItemByProperty, uiautomationclient/IUIAutomationItemContainerPattern::FindItemByProperty, winauto.uiauto_IUIAutomationItemContainerPattern_FindItemByProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

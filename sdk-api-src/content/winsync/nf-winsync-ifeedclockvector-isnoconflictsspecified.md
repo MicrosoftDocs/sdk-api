@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IFeedClockVector.IsNoConflictsSpecified
 title: IFeedClockVector::IsNoConflictsSpecified
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that indicates whether conflicts are preserved for the FeedSync item.
 old-location: winsync\ifeedclockvector_isnoconflictsspecified.htm
 old-project: winsync
 ms.assetid: d43d193b-d0c4-4b01-be90-a322fcc8b672
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IFeedClockVector interface [Windows Sync],IsNoConflictsSpecified method, IFeedClockVector.IsNoConflictsSpecified, IFeedClockVector::IsNoConflictsSpecified, IsNoConflictsSpecified, IsNoConflictsSpecified method [Windows Sync], IsNoConflictsSpecified method [Windows Sync],IFeedClockVector interface, winsync.ifeedclockvector_isnoconflictsspecified, winsync/IFeedClockVector::IsNoConflictsSpecified
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

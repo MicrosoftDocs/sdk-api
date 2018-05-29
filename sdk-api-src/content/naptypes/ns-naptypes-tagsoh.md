@@ -1,16 +1,16 @@
 ---
 UID: NS:naptypes.tagSoH
 title: tagSoH
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the Statement of Health (SoH) data.
 old-location: nap\soh_struct.htm
 old-project: NAP
 ms.assetid: 6db0303d-ab33-4fb9-90a2-b909b2781ba5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: SoH, SoH structure [NAP], SoHRequest, SoHRequest structure [NAP], SoHResponse, SoHResponse structure [NAP], nap.soh_struct, naptypes/SoH, naptypes/SoHRequest, naptypes/SoHResponse, tagSoH
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: naptypes.h
 req.include-header: 

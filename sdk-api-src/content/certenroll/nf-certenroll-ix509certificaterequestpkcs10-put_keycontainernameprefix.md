@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.put_KeyContainerNamePrefix
 title: IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies or retrieves a prefix used to create the container name for a new private key.
 old-location: security\ix509certificaterequestpkcs10_keycontainernameprefix_property.htm
 old-project: SecCertEnroll
 ms.assetid: d4a99b08-5616-4c75-b99f-680f55288baa
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],KeyContainerNamePrefix property, IX509CertificateRequestPkcs10.KeyContainerNamePrefix, IX509CertificateRequestPkcs10.put_KeyContainerNamePrefix, IX509CertificateRequestPkcs10::KeyContainerNamePrefix, IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix, IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix, KeyContainerNamePrefix property [Security], KeyContainerNamePrefix property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::KeyContainerNamePrefix, certenroll/IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix, certenroll/IX509CertificateRequestPkcs10::put_KeyContainerNamePrefix, put_KeyContainerNamePrefix, security.ix509certificaterequestpkcs10_keycontainernameprefix_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

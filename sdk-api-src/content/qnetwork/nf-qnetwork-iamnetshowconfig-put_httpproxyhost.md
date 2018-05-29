@@ -1,16 +1,16 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_HTTPProxyHost
 title: IAMNetShowConfig::put_HTTPProxyHost
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_HTTPProxyHost method specifies the address of the HTTP proxy server.
 old-location: dshow\iamnetshowconfig_put_httpproxyhost.htm
 old-project: DirectShow
 ms.assetid: 3cd37fd4-3ce0-4b5c-9e2f-88c0e1845b2d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_HTTPProxyHost method, IAMNetShowConfig.put_HTTPProxyHost, IAMNetShowConfig::put_HTTPProxyHost, IAMNetShowConfigput_HTTPProxyHost, dshow.iamnetshowconfig_put_httpproxyhost, put_HTTPProxyHost, put_HTTPProxyHost method [DirectShow], put_HTTPProxyHost method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_HTTPProxyHost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: qnetwork.h
 req.include-header: 

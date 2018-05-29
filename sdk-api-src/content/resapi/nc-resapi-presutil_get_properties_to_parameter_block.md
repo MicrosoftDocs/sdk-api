@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK
 title: PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves properties specified by a property table from the cluster database and returns them in a parameter block.
 old-location: mscs\resutilgetpropertiestoparameterblock.htm
 old-project: MsCS
 ms.assetid: 38d368ac-b212-4539-8faa-d7cd744da226
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK, PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK callback, PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK callback function [Failover Cluster], _wolf_resutilgetpropertiestoparameterblock, mscs.resutilgetpropertiestoparameterblock, resapi/PRESUTIL_GET_PROPERTIES_TO_PARAMETER_BLOCK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IGraphConfig.Reconnect
 title: IGraphConfig::Reconnect
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reconnect method performs a dynamic reconnection between two pins.
 old-location: dshow\igraphconfig_reconnect.htm
 old-project: DirectShow
 ms.assetid: e8cfac8e-df89-444d-bcc7-0cbc7ab5a592
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IGraphConfig interface [DirectShow],Reconnect method, IGraphConfig.Reconnect, IGraphConfig::Reconnect, IGraphConfigReconnect, Reconnect, Reconnect method [DirectShow], Reconnect method [DirectShow],IGraphConfig interface, dshow.igraphconfig_reconnect, strmif/IGraphConfig::Reconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

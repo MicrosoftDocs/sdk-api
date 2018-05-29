@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.Escape
 title: Escape function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an application to access the system-defined device capabilities that are not available through GDI.
 old-location: gdi\escape.htm
 old-project: printdocs
 ms.assetid: ba21b680-78a8-45a2-94e1-01b377b74787
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: Escape, Escape function [Windows GDI], _win32_Escape_v3, gdi.escape, wingdi/Escape
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h
@@ -154,6 +154,8 @@ Allows the application to send data directly to a printer.
 </tr>
 </table>
  
+
+For information about printer escapes, see <a href="https://msdn.microsoft.com/5ca74f61-75dd-4a8c-9f0f-9c1b4719c75f">ExtEscape</a>.
 
 Use the <a href="https://msdn.microsoft.com/library/windows/hardware/dn923219">StartPage</a> function to prepare the printer driver to receive data.
 

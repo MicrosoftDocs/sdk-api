@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMGraphBuilderCallback
 title: IAMGraphBuilderCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMGraphBuilderCallback interface provides a callback mechanism during graph building.To use this interface, implement the interface in your application or client object.
 old-location: dshow\iamgraphbuildercallback.htm
 old-project: DirectShow
 ms.assetid: 4d8e45e3-7144-44ad-b79e-5acc0cec6ed4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMGraphBuilderCallback, IAMGraphBuilderCallback interface [DirectShow], IAMGraphBuilderCallback interface [DirectShow],described, IAMGraphBuilderCallbackInterface, dshow.iamgraphbuildercallback, strmif/IAMGraphBuilderCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

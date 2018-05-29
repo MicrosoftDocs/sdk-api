@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.CLUSTER_GET_MAJOR_VERSION
 title: CLUSTER_GET_MAJOR_VERSION macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the major version portion of a Cluster service version number.
 old-location: mscs\cluster_get_major_version.htm
 old-project: MsCS
 ms.assetid: 674798d9-8614-4e3b-8d9b-cf0d307a7cfc
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSTER_GET_MAJOR_VERSION, CLUSTER_GET_MAJOR_VERSION macro [Failover Cluster], _wolf_cluster_get_major_version, clusapi/CLUSTER_GET_MAJOR_VERSION, mscs.cluster_get_major_version
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: clusapi.h
 req.include-header: 

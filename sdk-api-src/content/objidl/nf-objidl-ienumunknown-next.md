@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IEnumUnknown.Next
 title: IEnumUnknown::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumunknown_next.htm
 old-project: com
 ms.assetid: cef932cf-dacd-430d-8834-c41cc2d885a6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IEnumUnknown interface [COM],Next method, IEnumUnknown.Next, IEnumUnknown::Next, Next, Next method [COM], Next method [COM],IEnumUnknown interface, _com_ienumunknown_next, com.ienumunknown_next, objidlbase/IEnumUnknown::Next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

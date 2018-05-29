@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluscolor.Color.GetG
 title: Color::GetG
-author: windows-driver-content
+author: windows-sdk-content
 description: The Color::GetG method gets the green component of this Color object.
 old-location: gdiplus\_gdiplus_CLASS_Color_GetG_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getg.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Color class [GDI+],GetG method, Color.GetG, Color::GetG, GetG, GetG method [GDI+], GetG method [GDI+],Color class, _gdiplus_CLASS_Color_GetG_, gdiplus._gdiplus_CLASS_Color_GetG_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h

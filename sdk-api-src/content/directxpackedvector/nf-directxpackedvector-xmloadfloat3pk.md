@@ -1,16 +1,16 @@
 ---
 UID: NF:directxpackedvector.XMLoadFloat3PK
 title: XMLoadFloat3PK function
-author: windows-driver-content
+author: windows-sdk-content
 description: Loads an XMFLOAT3PK into an XMVECTOR.
 old-location: dxmath\xmloadfloat3pk.htm
 old-project: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat3PK(const XMFLOAT3PK)
-ms.author: windowsdriverdev
-ms.date: 4/23/2018
+ms.author: windowssdkdev
+ms.date: 04/23/2018
 ms.keywords: DirectX::PackedVector.XMLoadFloat3PK, XMLoadFloat3PK, XMLoadFloat3PK method [DirectX Math Support APIs], dxmath.xmloadfloat3pk
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h

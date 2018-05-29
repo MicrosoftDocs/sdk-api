@@ -1,16 +1,16 @@
 ---
 UID: NF:unknwnbase.IUnknown_QueryInterface_Proxy
 title: IUnknown_QueryInterface_Proxy function
-author: windows-driver-content
+author: windows-sdk-content
 description: The IUnknown_QueryInterface_Proxy function implements the QueryInterface method for all interface proxies.
 old-location: rpc\iunknown_queryinterface_proxy.htm
 old-project: Rpc
 ms.assetid: 4f266740-e33a-4dc1-8ade-720308bb82fe
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: IUnknown_QueryInterface_Proxy, IUnknown_QueryInterface_Proxy function [RPC], rpc.iunknown_queryinterface_proxy, unknwnbase/IUnknown_QueryInterface_Proxy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: unknwnbase.h
 req.include-header: Unknwn.h

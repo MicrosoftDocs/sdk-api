@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IRealTimeStylus3.get_MultiTouchEnabled
 title: IRealTimeStylus3::get_MultiTouchEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the IRealTimeStylus3 object has multitouch input enabled.
 old-location: tablet\irealtimestylus3_multitouchenabled.htm
 old-project: tablet
 ms.assetid: cc573213-a6ed-424b-8513-d5655ba6785a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IRealTimeStylus3 interface [Tablet PC],MultiTouchEnabled property, IRealTimeStylus3.MultiTouchEnabled, IRealTimeStylus3.get_MultiTouchEnabled, IRealTimeStylus3.put_MultiTouchEnabled, IRealTimeStylus3::MultiTouchEnabled, IRealTimeStylus3::get_MultiTouchEnabled, IRealTimeStylus3::put_MultiTouchEnabled, MultiTouchEnabled property [Tablet PC], MultiTouchEnabled property [Tablet PC],IRealTimeStylus3 interface, get_MultiTouchEnabled, rtscom/IRealTimeStylus3::MultiTouchEnabled, rtscom/IRealTimeStylus3::get_MultiTouchEnabled, rtscom/IRealTimeStylus3::put_MultiTouchEnabled, tablet.irealtimestylus3_multitouchenabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:winsock2._WSANAMESPACE_INFOEXW
 title: "_WSANAMESPACE_INFOEXW"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains all registration information for a namespace provider.
 old-location: winsock\wsanamespace_infoex.htm
 old-project: WinSock
 ms.assetid: 3f4a8916-9db9-4b65-982f-4cb4ec2205ed
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPWSANAMESPACE_INFOEXW, *PWSANAMESPACE_INFOEXW, LPWSANAMESPACE_INFOEX, LPWSANAMESPACE_INFOEX structure pointer [Winsock], NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_NTDS, NS_PNRPCLOUD, NS_PNRPNAME, PWSANAMESPACE_INFOEX, PWSANAMESPACE_INFOEX structure pointer [Winsock], WSANAMESPACE_INFOEX, WSANAMESPACE_INFOEX structure [Winsock], WSANAMESPACE_INFOEXA, WSANAMESPACE_INFOEXW, _WSANAMESPACE_INFOEXW, winsock.wsanamespace_infoex, winsock2/LPWSANAMESPACE_INFOEX, winsock2/PWSANAMESPACE_INFOEX, winsock2/WSANAMESPACE_INFOEX, winsock2/WSANAMESPACE_INFOEXA, winsock2/WSANAMESPACE_INFOEXW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsock2.h
 req.include-header: 

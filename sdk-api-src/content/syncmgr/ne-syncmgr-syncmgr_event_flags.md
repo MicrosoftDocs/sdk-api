@@ -1,16 +1,16 @@
 ---
 UID: NE:syncmgr.SYNCMGR_EVENT_FLAGS
 title: SYNCMGR_EVENT_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies flags for a synchronization event.
 old-location: shell\SYNCMGR_EVENT_FLAGS.htm
 old-project: shell
 ms.assetid: bb901a85-8f54-4030-81d5-40af66e490bf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SYNCMGR_EF_NONE, SYNCMGR_EF_VALID, SYNCMGR_EVENT_FLAGS, SYNCMGR_EVENT_FLAGS enumeration [Windows Shell], shell.SYNCMGR_EVENT_FLAGS, shell_SYNCMGR_EVENT_FLAGS, syncmgr/SYNCMGR_EF_NONE, syncmgr/SYNCMGR_EF_VALID, syncmgr/SYNCMGR_EVENT_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: syncmgr.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:windowsx.SelectFont
 title: SelectFont macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The SelectFont macro selects a font object into the specified device context (DC). The new font object replaces the previous font object.
 old-location: gdi\selectfont.htm
 old-project: gdi
 ms.assetid: e7c145aa-566d-4754-a4dd-a5e71e188258
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SelectFont, SelectFont macro [Windows GDI], _win32_SelectFont, gdi.selectfont, windowsx/SelectFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: windowsx.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmCalloutUnsubscribeChanges0
 title: FwpmCalloutUnsubscribeChanges0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to cancel a callout change subscription and stop receiving change notifications.
 old-location: fwp\fwpmcalloutunsubscribechanges0_func.htm
 old-project: FWP
 ms.assetid: ab0825fc-edf8-4634-a6bb-86de7e1e030c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmCalloutUnsubscribeChanges0, FwpmCalloutUnsubscribeChanges0 function [Filtering], fwp.fwpmcalloutunsubscribechanges0_func, fwpmu/FwpmCalloutUnsubscribeChanges0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

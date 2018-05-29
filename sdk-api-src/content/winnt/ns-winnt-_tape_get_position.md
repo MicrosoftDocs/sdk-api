@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._TAPE_GET_POSITION
 title: "_TAPE_GET_POSITION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the position of the tape.
 old-location: backup\tape_get_position_str.htm
 old-project: Backup
 ms.assetid: e5615648-3a70-4f34-b49e-f651a2e0b9c5
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: "*PTAPE_GET_POSITION, PTAPE_GET_POSITION, PTAPE_GET_POSITION structure pointer [Backup], TAPE_ABSOLUTE_POSITION, TAPE_GET_POSITION, TAPE_GET_POSITION structure [Backup], TAPE_LOGICAL_POSITION, _TAPE_GET_POSITION, _win32_tape_get_position_str, backup.tape_get_position_str, base.tape_get_position_str, winnt/PTAPE_GET_POSITION, winnt/TAPE_GET_POSITION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

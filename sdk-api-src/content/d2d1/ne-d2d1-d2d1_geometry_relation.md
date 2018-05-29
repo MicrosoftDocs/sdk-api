@@ -1,16 +1,16 @@
 ---
 UID: NE:d2d1.D2D1_GEOMETRY_RELATION
 title: D2D1_GEOMETRY_RELATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes how one geometry object is spatially related to another geometry object.
 old-location: direct2d\D2D1_GEOMETRY_RELATION.htm
 old-project: Direct2D
 ms.assetid: 6c7290c8-9363-414b-af2c-0f2a79da99f9
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_GEOMETRY_RELATION, D2D1_GEOMETRY_RELATION enumeration [Direct2D], D2D1_GEOMETRY_RELATION_CONTAINS, D2D1_GEOMETRY_RELATION_DISJOINT, D2D1_GEOMETRY_RELATION_IS_CONTAINED, D2D1_GEOMETRY_RELATION_OVERLAP, D2D1_GEOMETRY_RELATION_UNKNOWN, d2d1/D2D1_GEOMETRY_RELATION, d2d1/D2D1_GEOMETRY_RELATION_CONTAINS, d2d1/D2D1_GEOMETRY_RELATION_DISJOINT, d2d1/D2D1_GEOMETRY_RELATION_IS_CONTAINED, d2d1/D2D1_GEOMETRY_RELATION_OVERLAP, d2d1/D2D1_GEOMETRY_RELATION_UNKNOWN, direct2d.D2D1_GEOMETRY_RELATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d2d1.h
 req.include-header: 

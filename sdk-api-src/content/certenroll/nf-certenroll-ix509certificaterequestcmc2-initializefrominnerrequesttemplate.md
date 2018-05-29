@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate
 title: IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the certificate request from an inner request object and a template.
 old-location: security\ix509certificaterequestcmc2_initializefrominnerrequesttemplate.htm
 old-project: SecCertEnroll
 ms.assetid: 12490859-bb4a-49ff-9d92-24bf04ab3999
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequestCmc2 interface [Security],InitializeFromInnerRequestTemplate method, IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate, IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate, InitializeFromInnerRequestTemplate, InitializeFromInnerRequestTemplate method [Security], InitializeFromInnerRequestTemplate method [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate, security.ix509certificaterequestcmc2_initializefrominnerrequesttemplate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

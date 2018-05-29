@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess.AddAccessEntry
 title: IWMAddressAccess::AddAccessEntry
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddAccessEntry method adds an entry to the IP address access list.
 old-location: wmformat\iwmaddressaccess_addaccessentry.htm
 old-project: wmformat
 ms.assetid: 670bea6a-0370-4dc4-a2af-fcdbe2a6656a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AddAccessEntry, AddAccessEntry method [windows Media Format], AddAccessEntry method [windows Media Format],IWMAddressAccess interface, IWMAddressAccess interface [windows Media Format],AddAccessEntry method, IWMAddressAccess.AddAccessEntry, IWMAddressAccess::AddAccessEntry, IWMAddressAccessAddAccessEntry, wmformat.iwmaddressaccess_addaccessentry, wmsdkidl/IWMAddressAccess::AddAccessEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

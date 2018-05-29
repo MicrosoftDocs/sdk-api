@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.GetFileAttributesExW
 title: GetFileAttributesExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves attributes for a specified file or directory.
 old-location: fs\getfileattributesex.htm
 old-project: FileIO
 ms.assetid: e5d84000-17c1-4517-97a7-6bd240d73814
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetFileAttributesEx, GetFileAttributesEx function [Files], GetFileAttributesExA, GetFileAttributesExW, GetFileExInfoStandard, _win32_getfileattributesex, base.getfileattributesex, fileapi/GetFileAttributesEx, fileapi/GetFileAttributesExA, fileapi/GetFileAttributesExW, fs.getfileattributesex, winbase/GetFileAttributesEx, winbase/GetFileAttributesExA, winbase/GetFileAttributesExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

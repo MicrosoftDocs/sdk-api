@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_3.IDXGIFactoryMedia.CreateSwapChainForCompositionSurfaceHandle
 title: IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a YUV swap chain for an existing DirectComposition surface handle.
 old-location: direct3ddxgi\idxgifactorymedia_createswapchainforcompositionsurfacehandle.htm
 old-project: direct3ddxgi
 ms.assetid: 3C5724B7-598B-44F1-80F3-07010EAA089B
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CreateSwapChainForCompositionSurfaceHandle, CreateSwapChainForCompositionSurfaceHandle method [DXGI], CreateSwapChainForCompositionSurfaceHandle method [DXGI],IDXGIFactoryMedia interface, IDXGIFactoryMedia interface [DXGI],CreateSwapChainForCompositionSurfaceHandle method, IDXGIFactoryMedia.CreateSwapChainForCompositionSurfaceHandle, IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle, direct3ddxgi.idxgifactorymedia_createswapchainforcompositionsurfacehandle, dxgi1_3/IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 

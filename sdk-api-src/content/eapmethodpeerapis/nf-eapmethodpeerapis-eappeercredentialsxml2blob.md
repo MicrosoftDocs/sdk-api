@@ -1,16 +1,16 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerCredentialsXml2Blob
 title: EapPeerCredentialsXml2Blob function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts XML into the configuration BLOB.
 old-location: eaphost\eappeercredentialsxml2blob.htm
 old-project: EAPHost
 ms.assetid: 45a13be7-9a01-467b-97db-ca896d945ee7
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapPeerCredentialsXml2Blob, EapPeerCredentialsXml2Blob function [EAPHost], eaphost.eappeercredentialsxml2blob, eapmethodpeerapis/EapPeerCredentialsXml2Blob
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: eapmethodpeerapis.h
 req.include-header: 

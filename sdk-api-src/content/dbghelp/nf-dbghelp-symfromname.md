@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymFromName
 title: SymFromName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves symbol information for the specified name.
 old-location: base\symfromname.htm
 old-project: Debug
 ms.assetid: 26b9eba7-2038-4640-aeb2-3052889b14ea
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymFromName, SymFromName function, SymFromNameW, _win32_symfromname, base.symfromname, dbghelp/SymFromName, dbghelp/SymFromNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetUserDefaultLangID
 title: GetUserDefaultLangID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the language identifier of the Region Format setting for the current user.
 old-location: intl\getuserdefaultlangid.htm
 old-project: Intl
 ms.assetid: b1f25fc1-9435-4e9b-b8d0-a670a198ab3a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetUserDefaultLangID, GetUserDefaultLangID function [Internationalization for Windows Applications], _win32_GetUserDefaultLangID, intl.getuserdefaultlangid, winnls/GetUserDefaultLangID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

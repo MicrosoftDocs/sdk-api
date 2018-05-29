@@ -1,16 +1,16 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.GetReferenceTrackerManager
 title: IReferenceTracker::xaml
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IReferenceTrackerManager interface from a XAML object.
 old-location: winrt\ireferencetracker_getreferencetrackermanager.htm
 old-project: WinRT
 ms.assetid: c65f1220-24e6-4f63-9318-5b9e57d96e1b
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetReferenceTrackerManager, GetReferenceTrackerManager method [Windows Runtime], GetReferenceTrackerManager method [Windows Runtime],IReferenceTracker interface, IReferenceTracker interface [Windows Runtime],GetReferenceTrackerManager method, IReferenceTracker.GetReferenceTrackerManager, IReferenceTracker.xaml, IReferenceTracker::GetReferenceTrackerManager, IReferenceTracker::xaml, windows/IReferenceTracker::GetReferenceTrackerManager, winrt.ireferencetracker_getreferencetrackermanager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 

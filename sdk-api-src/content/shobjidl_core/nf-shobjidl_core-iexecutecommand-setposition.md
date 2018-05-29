@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.SetPosition
 title: IExecuteCommand::SetPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the coordinates of a point used for display.
 old-location: shell\IExecuteCommand_SetPosition.htm
 old-project: shell
 ms.assetid: ead12c05-ce94-494d-9f31-9b0f341363b5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetPosition method, IExecuteCommand.SetPosition, IExecuteCommand::SetPosition, SetPosition, SetPosition method [Windows Shell], SetPosition method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetPosition, shell.IExecuteCommand_SetPosition, shobjidl_core/IExecuteCommand::SetPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

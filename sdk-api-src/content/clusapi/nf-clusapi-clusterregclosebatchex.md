@@ -1,16 +1,16 @@
 ---
 UID: NF:clusapi.ClusterRegCloseBatchEx
 title: ClusterRegCloseBatchEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Executes or ignores the batch created by the ClusterRegCreateBatch function.
 old-location: mscs\clusterregclosebatchex.htm
 old-project: MsCS
 ms.assetid: 127d06de-28a4-4df4-9f5f-17ea4a330528
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusterRegCloseBatchEx, ClusterRegCloseBatchEx function [Failover Cluster], clusapi/ClusterRegCloseBatchEx, mscs.clusterregclosebatchex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: clusapi.h
 req.include-header: 

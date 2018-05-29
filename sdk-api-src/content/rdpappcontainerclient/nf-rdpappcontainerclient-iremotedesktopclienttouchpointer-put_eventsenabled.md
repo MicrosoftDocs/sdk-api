@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientTouchPointer.put_EventsEnabled
 title: IRemoteDesktopClientTouchPointer::put_EventsEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Whether touch pointer event notifications are enabled for the RDP app container client control.
 old-location: termserv\iremotedesktopclienttouchpointer_eventsenabled.htm
 old-project: TermServ
 ms.assetid: 972e0f05-74fb-4997-a1c2-90ecfa4870a3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EventsEnabled property [Remote Desktop Services], EventsEnabled property [Remote Desktop Services],IRemoteDesktopClientTouchPointer interface, IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],EventsEnabled property, IRemoteDesktopClientTouchPointer.EventsEnabled, IRemoteDesktopClientTouchPointer.put_EventsEnabled, IRemoteDesktopClientTouchPointer::EventsEnabled, IRemoteDesktopClientTouchPointer::get_EventsEnabled, IRemoteDesktopClientTouchPointer::put_EventsEnabled, put_EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::get_EventsEnabled, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::put_EventsEnabled, termserv.iremotedesktopclienttouchpointer_eventsenabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpappcontainerclient.h
 req.include-header: Rdpappcontainerclient.h

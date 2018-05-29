@@ -1,16 +1,16 @@
 ---
 UID: NS:wsnwlink._IPX_ADDRESS_DATA
 title: "_IPX_ADDRESS_DATA"
-author: windows-driver-content
+author: windows-sdk-content
 description: The IPX_ADDRESS_DATA structure provides information about a specific adapter to which IPX is bound. Used in conjunction with getsockopt function calls that specify IPX_ADDRESS in the optname parameter.
 old-location: winsock\ipx_address_data_2.htm
 old-project: WinSock
 ms.assetid: 8e18ee5a-04fd-4efc-8d0c-e4ff04fd9f1b
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*PIPX_ADDRESS_DATA, IPX_ADDRESS_DATA, IPX_ADDRESS_DATA structure [Winsock], PIPX_ADDRESS_DATA, PIPX_ADDRESS_DATA structure pointer [Winsock], _IPX_ADDRESS_DATA, _win32_ipx_address_data_2, winsock.ipx_address_data_2, wsnwlink/IPX_ADDRESS_DATA, wsnwlink/PIPX_ADDRESS_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wsnwlink.h
 req.include-header: 

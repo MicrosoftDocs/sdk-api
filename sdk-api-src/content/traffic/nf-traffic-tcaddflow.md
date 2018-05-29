@@ -1,16 +1,16 @@
 ---
 UID: NF:traffic.TcAddFlow
 title: TcAddFlow function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TcAddFlow function adds a new flow on the specified interface.
 old-location: qos\tcaddflow.htm
 old-project: QOS
 ms.assetid: 20b4f34b-a84e-4211-8d41-0efa0dbc6cd4
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: TcAddFlow, TcAddFlow function [QOS], _gqos_tcaddflow, qos.tcaddflow, traffic/TcAddFlow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

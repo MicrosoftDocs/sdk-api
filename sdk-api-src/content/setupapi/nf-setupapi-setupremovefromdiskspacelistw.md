@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupRemoveFromDiskSpaceListW
 title: SetupRemoveFromDiskSpaceListW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupRemoveFromDiskSpaceList function removes a file delete or copy operation from a disk-space list.
 old-location: setup\setupremovefromdiskspacelist.htm
 old-project: SetupApi
 ms.assetid: 0d23c8ce-ada6-4640-b9ad-8989f9a122a2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: FILEOP_COPY, FILEOP_DELETE, SetupRemoveFromDiskSpaceList, SetupRemoveFromDiskSpaceList function [Setup API], SetupRemoveFromDiskSpaceListA, SetupRemoveFromDiskSpaceListW, _setupapi_setupremovefromdiskspacelist, setup.setupremovefromdiskspacelist, setupapi/SetupRemoveFromDiskSpaceList, setupapi/SetupRemoveFromDiskSpaceListA, setupapi/SetupRemoveFromDiskSpaceListW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

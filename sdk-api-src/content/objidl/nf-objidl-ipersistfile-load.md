@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IPersistFile.Load
 title: IPersistFile::Load
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the specified file and initializes an object from the file contents.
 old-location: com\ipersistfile_load.htm
 old-project: com
 ms.assetid: 8391aa5c-fe6e-4b03-9eef-7958f75910a5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPersistFile interface [COM],Load method, IPersistFile.Load, IPersistFile::Load, Load, Load method [COM], Load method [COM],IPersistFile interface, _com_ipersistfile_load, com.ipersistfile_load, objidl/IPersistFile::Load
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

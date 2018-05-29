@@ -1,16 +1,16 @@
 ---
 UID: NN:photoacquire.IPhotoAcquireProgressCB
 title: IPhotoAcquireProgressCB
-author: windows-driver-content
+author: windows-sdk-content
 description: The IPhotoAcquireProgressCB interface may be implemented if you wish to do extra processing at various stages in the acquisition process.
 old-location: picacq\iphotoacquireprogresscb.htm
 old-project: acquisition
 ms.assetid: c4fcc470-1b05-4d33-8581-80c6e7488e04
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoAcquireProgressCB, IPhotoAcquireProgressCB interface [Picture Acquisition], IPhotoAcquireProgressCB interface [Picture Acquisition],described, IPhotoAcquireProgressCBInterface, photoacquire/IPhotoAcquireProgressCB, picacq.iphotoacquireprogresscb
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: photoacquire.h
 req.include-header: 

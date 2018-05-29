@@ -1,16 +1,16 @@
 ---
 UID: NF:imagehlp.ImageGetCertificateData
 title: ImageGetCertificateData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a complete certificate from a file.
 old-location: base\imagegetcertificatedata.htm
 old-project: Debug
 ms.assetid: ca4cf3a3-9324-4784-a6d8-44692f4840eb
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: ImageGetCertificateData, ImageGetCertificateData function, _win32_imagegetcertificatedata, base.imagegetcertificatedata, imagehlp/ImageGetCertificateData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imagehlp.h
 req.include-header: 

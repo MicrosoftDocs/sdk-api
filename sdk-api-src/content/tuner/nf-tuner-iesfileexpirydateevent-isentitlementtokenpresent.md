@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IESFileExpiryDateEvent.IsEntitlementTokenPresent
 title: IESFileExpiryDateEvent::IsEntitlementTokenPresent
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a flag from FileExpiryDate event that indicates whether a license for protected content contains an entitlement token.
 old-location: mstv\iesfileexpirydateevent_isentitlementtokenpresent.htm
 old-project: mstv
 ms.assetid: 129c6df8-48d2-4e07-9e4e-82f13c4a3788
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IESFileExpiryDateEvent interface [Microsoft TV Technologies],IsEntitlementTokenPresent method, IESFileExpiryDateEvent.IsEntitlementTokenPresent, IESFileExpiryDateEvent::IsEntitlementTokenPresent, IsEntitlementTokenPresent, IsEntitlementTokenPresent method [Microsoft TV Technologies], IsEntitlementTokenPresent method [Microsoft TV Technologies],IESFileExpiryDateEvent interface, mstv.iesfileexpirydateevent_isentitlementtokenpresent, tuner/IESFileExpiryDateEvent::IsEntitlementTokenPresent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

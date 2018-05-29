@@ -1,16 +1,16 @@
 ---
 UID: NF:icontact.IContactProperties.DeleteArrayNode
 title: IContactProperties::DeleteArrayNode
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the data at a specified array entry.
 old-location: wincontacts\_wincontacts_IContactProperties_DeleteArrayNode.htm
 old-project: wincontacts
 ms.assetid: a26dc392-1dd7-4dba-9802-b45c01d97493
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: DeleteArrayNode, DeleteArrayNode method [Windows Contacts], DeleteArrayNode method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],DeleteArrayNode method, IContactProperties.DeleteArrayNode, IContactProperties::DeleteArrayNode, _wincontacts_IContactProperties_DeleteArrayNode, icontact/IContactProperties::DeleteArrayNode, wincontacts._wincontacts_IContactProperties_DeleteArrayNode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: icontact.h
 req.include-header: Contact.h

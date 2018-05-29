@@ -1,16 +1,16 @@
 ---
 UID: NE:sdoias._CONDITIONPROPERTIES
 title: "_CONDITIONPROPERTIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: The values of the CONDITIONPROPERTIES enumeration type specify the properties of a Network Access Policy (NAP) condition.
 old-location: nps\SDO_conditionproperties.htm
 old-project: Nps
 ms.assetid: 09cb8457-9baf-4139-ba80-6eb608db6a65
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CONDITIONPROPERTIES, CONDITIONPROPERTIES enumeration [Network Policy Server], PROPERTY_CONDITION_TEXT, _CONDITIONPROPERTIES, _sdo_conditionproperties, nps.SDO_conditionproperties, sdo.conditionproperties, sdoias/CONDITIONPROPERTIES, sdoias/PROPERTY_CONDITION_TEXT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: sdoias.h
 req.include-header: 

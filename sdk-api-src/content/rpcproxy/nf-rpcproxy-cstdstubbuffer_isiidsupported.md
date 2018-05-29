@@ -1,17 +1,17 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_IsIIDSupported
 title: CStdStubBuffer_IsIIDSupported function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CStdStubBuffer_IsIIDSupported function implements the IRpcStubBuffer::IsIIDSupported method.
 old-location: rpc\cstdstubbuffer_isiidsupported.htm
 old-project: Rpc
 ms.assetid: a0f47424-7286-493b-815f-96e27e645824
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: CStdStubBuffer_IsIIDSupported, CStdStubBuffer_IsIIDSupported
 , CStdStubBuffer_IsIIDSupported function [RPC], rpc.cstdstubbuffer_isiidsupported, rpcproxy/CStdStubBuffer_IsIIDSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

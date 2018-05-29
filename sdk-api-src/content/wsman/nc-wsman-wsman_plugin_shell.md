@@ -1,16 +1,16 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_SHELL
 title: WSMAN_PLUGIN_SHELL
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the shell callback for a plug-in.
 old-location: winrm\wsman_plugin_shell.htm
 old-project: WinRM
 ms.assetid: 3016612a-ce99-405b-afae-200bcad9ed20
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSMAN_PLUGIN_SHELL, WSMAN_PLUGIN_SHELL callback, WSMAN_PLUGIN_SHELL callback function [Windows Remote Management], WSManPluginShell, winrm.wsman_plugin_shell, wsman/WSMAN_PLUGIN_SHELL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: wsman.h
 req.include-header: 

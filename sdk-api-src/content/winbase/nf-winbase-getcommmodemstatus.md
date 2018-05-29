@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetCommModemStatus
 title: GetCommModemStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the modem control-register values.
 old-location: base\getcommmodemstatus.htm
 old-project: DevIO
 ms.assetid: 937bb623-d02d-452e-a8a2-21d9a6c5cac0
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: GetCommModemStatus, GetCommModemStatus function, MS_CTS_ON, MS_DSR_ON, MS_RING_ON, MS_RLSD_ON, _win32_getcommmodemstatus, base.getcommmodemstatus, winbase/GetCommModemStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

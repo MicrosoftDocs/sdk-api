@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.ICategorizer.GetCategory
 title: ICategorizer::GetCategory
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a list of categories associated with a list of identifiers.
 old-location: shell\ICategorizer_GetCategory.htm
 old-project: shell
 ms.assetid: e3756e9e-7d68-4e30-92d4-1fddccf66ba5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetCategory, GetCategory method [Windows Shell], GetCategory method [Windows Shell],ICategorizer interface, ICategorizer interface [Windows Shell],GetCategory method, ICategorizer.GetCategory, ICategorizer::GetCategory, inet_ICategorizer_GetCategory, shell.ICategorizer_GetCategory, shobjidl_core/ICategorizer::GetCategory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

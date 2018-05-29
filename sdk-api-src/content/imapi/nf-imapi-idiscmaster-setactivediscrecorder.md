@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi.IDiscMaster.SetActiveDiscRecorder
 title: IDiscMaster::SetActiveDiscRecorder
-author: windows-driver-content
+author: windows-sdk-content
 description: Selects an active disc recorder. The active disc recorder is the recorder where a burn will occur when RecordDisc is called.
 old-location: imapi\idiscmaster_setactivediscrecorder.htm
 old-project: imapi
 ms.assetid: 5f2e9135-d251-4702-b5d1-51d9b445a4f5
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscMaster interface [IMAPI],SetActiveDiscRecorder method, IDiscMaster.SetActiveDiscRecorder, IDiscMaster::SetActiveDiscRecorder, SetActiveDiscRecorder, SetActiveDiscRecorder method [IMAPI], SetActiveDiscRecorder method [IMAPI],IDiscMaster interface, _win32_idiscmaster_setactivediscrecorder, base.idiscmaster_setactivediscrecorder, imapi.idiscmaster_setactivediscrecorder, imapi/IDiscMaster::SetActiveDiscRecorder
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi.h
 req.include-header: 

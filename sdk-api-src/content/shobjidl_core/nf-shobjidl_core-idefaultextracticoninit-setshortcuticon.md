@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IDefaultExtractIconInit.SetShortcutIcon
 title: IDefaultExtractIconInit::SetShortcutIcon
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the icon for a shortcut to the object.
 old-location: shell\IDefaultExtractIconInit_SetShortcutIcon.htm
 old-project: shell
 ms.assetid: 1defab08-3dce-4668-aca3-d11821a4c339
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDefaultExtractIconInit interface [Windows Shell],SetShortcutIcon method, IDefaultExtractIconInit.SetShortcutIcon, IDefaultExtractIconInit::SetShortcutIcon, SetShortcutIcon, SetShortcutIcon method [Windows Shell], SetShortcutIcon method [Windows Shell],IDefaultExtractIconInit interface, _shell_IDefaultExtractIconInit_SetShortcutIcon, shell.IDefaultExtractIconInit_SetShortcutIcon, shobjidl_core/IDefaultExtractIconInit::SetShortcutIcon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

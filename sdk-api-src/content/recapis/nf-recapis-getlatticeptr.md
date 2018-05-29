@@ -1,16 +1,16 @@
 ---
 UID: NF:recapis.GetLatticePtr
 title: GetLatticePtr function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to the lattice for the current results.
 old-location: tablet\getlatticeptr.htm
 old-project: tablet
 ms.assetid: 5c483500-c58f-4fd0-903a-a3011727bab8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 5c483500-c58f-4fd0-903a-a3011727bab8, GetLatticePtr, GetLatticePtr function [Tablet PC], recapis/GetLatticePtr, tablet.getlatticeptr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: recapis.h
 req.include-header: 

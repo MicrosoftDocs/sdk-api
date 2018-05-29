@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.ResetEnum
 title: IMetaDataImport::ResetEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Resets the specified enumerator to the specified position.
 old-location: winrt\imetadataimport_resetenum.htm
 old-project: WinRT
 ms.assetid: 74168393-e2ec-44bb-9fae-2c76ad40a3f8
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IMetaDataImport interface [Windows Runtime],ResetEnum method, IMetaDataImport.ResetEnum, IMetaDataImport::ResetEnum, ResetEnum, ResetEnum method [Windows Runtime], ResetEnum method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::ResetEnum, winrt.imetadataimport_resetenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

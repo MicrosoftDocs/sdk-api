@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureEnumerator.Clone
 title: IOpcDigitalSignatureEnumerator::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of the current IOpcDigitalSignatureEnumerator interface pointer and all its descendants.
 old-location: opc\iopcdigitalsignatureenumerator_clone.htm
 old-project: OPC
 ms.assetid: f7a544b6-6c2d-40ce-9148-63780cbbf44f
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcDigitalSignatureEnumerator interface, IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],Clone method, IOpcDigitalSignatureEnumerator.Clone, IOpcDigitalSignatureEnumerator::Clone, msopc/IOpcDigitalSignatureEnumerator::Clone, opc.iopcdigitalsignatureenumerator_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

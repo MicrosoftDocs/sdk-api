@@ -1,16 +1,16 @@
 ---
 UID: NF:d3dcsx.D3DX11CreateFFT1DReal
 title: D3DX11CreateFFT1DReal function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an ID3DX11FFT COM interface object.
 old-location: direct3d11\d3dx11createfft1dreal.htm
 old-project: direct3d11
 ms.assetid: 49186642-2591-4943-b686-83bf24f470dd
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 542c01f8-d563-c1ab-aa89-495a7e96e411, D3DX11CreateFFT1DReal, D3DX11CreateFFT1DReal function [Direct3D 11], d3dcsx/D3DX11CreateFFT1DReal, direct3d11.d3dx11createfft1dreal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3dcsx.h
 req.include-header: 

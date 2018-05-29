@@ -1,16 +1,16 @@
 ---
 UID: NN:mstask.IScheduledWorkItem
 title: IScheduledWorkItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides the methods for managing specific work items.
 old-location: taskschd\ischeduledworkitem.htm
 old-project: TaskSchd
 ms.assetid: e668833a-094d-4504-90a0-87912a6a53c2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], IScheduledWorkItem interface [Task Scheduler],described, _msb_ischeduledworkitem, mstask/IScheduledWorkItem, taskschd.ischeduledworkitem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mstask.h
 req.include-header: 

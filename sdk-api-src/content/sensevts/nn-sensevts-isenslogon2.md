@@ -1,16 +1,16 @@
 ---
 UID: NN:sensevts.ISensLogon2
 title: ISensLogon2
-author: windows-driver-content
+author: windows-sdk-content
 description: The ISensLogon2 interface handles logon events fired by SENS.
 old-location: sens\isenslogon2.htm
 old-project: Sens
 ms.assetid: be61b5b9-d4f1-40ea-a734-7b02c06e41e8
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: ISensLogon2, ISensLogon2 interface [SENS], ISensLogon2 interface [SENS],described, _zaw_isenslogon2, sens.isenslogon2, sensevts/ISensLogon2, syncmgr.isenslogon2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sensevts.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IBurnVerification.get_BurnVerificationLevel
 title: IBurnVerification::get_BurnVerificationLevel
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the current Burn Verification Level.
 old-location: imapi\iburnverification_get_burnverificationlevel.htm
 old-project: imapi
 ms.assetid: 4be9191a-8f87-4571-a7b6-60d582ec471d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IBurnVerification interface [IMAPI],get_BurnVerificationLevel method, IBurnVerification.get_BurnVerificationLevel, IBurnVerification::get_BurnVerificationLevel, get_BurnVerificationLevel, get_BurnVerificationLevel method [IMAPI], get_BurnVerificationLevel method [IMAPI],IBurnVerification interface, imapi.iburnverification_get_burnverificationlevel, imapi2/IBurnVerification::get_BurnVerificationLevel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

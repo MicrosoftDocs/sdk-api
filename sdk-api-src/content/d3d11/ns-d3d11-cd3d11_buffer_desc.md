@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.CD3D11_BUFFER_DESC
 title: CD3D11_BUFFER_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a buffer and provides convenience methods for creating buffers.
 old-location: direct3d11\cd3d11_buffer_desc.htm
 old-project: direct3d11
 ms.assetid: A6ED5755-AB4A-4C35-A344-1693D78F7A4B
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: CD3D11_BUFFER_DESC, CD3D11_BUFFER_DESC structure [Direct3D 11], d3d11/CD3D11_BUFFER_DESC, direct3d11.cd3d11_buffer_desc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

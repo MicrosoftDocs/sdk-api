@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwProfile.put_UnicastResponsesToMulticastBroadcastDisabled
 title: INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the firewall should not allow unicast responses to multicast and broadcast traffic.
 old-location: ics\inetfwprofile_unicastresponsestomulticastbroadcastdisabled.htm
 old-project: ICS
 ms.assetid: 61a0c65e-8dfa-4f3e-a28f-141a72065123
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],UnicastResponsesToMulticastBroadcastDisabled property, INetFwProfile.UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile.put_UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile::UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile::get_UnicastResponsesToMulticastBroadcastDisabled, INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled, UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF], UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF],INetFwProfile interface, ics.inetfwprofile_unicastresponsestomulticastbroadcastdisabled, netfw/INetFwProfile::UnicastResponsesToMulticastBroadcastDisabled, netfw/INetFwProfile::get_UnicastResponsesToMulticastBroadcastDisabled, netfw/INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled, put_UnicastResponsesToMulticastBroadcastDisabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

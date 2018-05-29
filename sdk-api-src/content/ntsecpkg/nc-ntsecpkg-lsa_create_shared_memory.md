@@ -1,16 +1,16 @@
 ---
 UID: NC:ntsecpkg.LSA_CREATE_SHARED_MEMORY
 title: LSA_CREATE_SHARED_MEMORY
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateSharedMemory function creates a section of memory that is shared by client processes and the security package.
 old-location: security\createsharedmemory.htm
 old-project: SecAuthN
 ms.assetid: 22abafd7-1648-4bea-a0a8-0cb58333fbea
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CreateSharedMemory, CreateSharedMemory function [Security], LSA_CREATE_SHARED_MEMORY, _ssp_createsharedmemory, ntsecpkg/CreateSharedMemory, security.createsharedmemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ntsecpkg.h
 req.include-header: 

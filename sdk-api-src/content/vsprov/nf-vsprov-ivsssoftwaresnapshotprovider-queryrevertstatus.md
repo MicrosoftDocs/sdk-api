@@ -1,16 +1,16 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.QueryRevertStatus
 title: IVssSoftwareSnapshotProvider::QueryRevertStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an IVssAsync interface pointer that can be used to determine the status of the revert operation.
 old-location: base\ivsssoftwaresnapshotprovider_queryrevertstatus.htm
 old-project: VSS
 ms.assetid: 05c70761-d839-4333-a5d6-6bd8b95851bb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,QueryRevertStatus method, IVssSoftwareSnapshotProvider.QueryRevertStatus, IVssSoftwareSnapshotProvider::QueryRevertStatus, QueryRevertStatus, QueryRevertStatus method, QueryRevertStatus method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_queryrevertstatus, vsprov/IVssSoftwareSnapshotProvider::QueryRevertStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsprov.h
 req.include-header: 

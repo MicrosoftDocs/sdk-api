@@ -1,16 +1,16 @@
 ---
 UID: NS:virtdisk._ATTACH_VIRTUAL_DISK_PARAMETERS
 title: "_ATTACH_VIRTUAL_DISK_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains virtual hard disk (VHD) attach request parameters.
 old-location: vhd\attach_virtual_disk_parameters.htm
 old-project: VStor
 ms.assetid: 2bccad87-ddfe-4db4-9bf3-1892d8dd1237
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PATTACH_VIRTUAL_DISK_PARAMETERS, ATTACH_VIRTUAL_DISK_PARAMETERS, ATTACH_VIRTUAL_DISK_PARAMETERS structure [VHD], PATTACH_VIRTUAL_DISK_PARAMETERS, PATTACH_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _ATTACH_VIRTUAL_DISK_PARAMETERS, vhd.attach_virtual_disk_parameters, vhd.surface_virtual_disk_parameters, virtdisk/ATTACH_VIRTUAL_DISK_PARAMETERS, virtdisk/PATTACH_VIRTUAL_DISK_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: Windows.h

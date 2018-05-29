@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMPushSource.GetMaxStreamOffset
 title: IAMPushSource::GetMaxStreamOffset
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetMaxStreamOffset method retrieves the maximum stream offset the filter can support.
 old-location: dshow\iampushsource_getmaxstreamoffset.htm
 old-project: DirectShow
 ms.assetid: 503ec642-0a86-47b9-b453-08ab90346630
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetMaxStreamOffset, GetMaxStreamOffset method [DirectShow], GetMaxStreamOffset method [DirectShow],IAMPushSource interface, IAMPushSource interface [DirectShow],GetMaxStreamOffset method, IAMPushSource.GetMaxStreamOffset, IAMPushSource::GetMaxStreamOffset, IAMPushSourceGetMaxStreamOffset, dshow.iampushsource_getmaxstreamoffset, strmif/IAMPushSource::GetMaxStreamOffset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpSetServerBindingInfo
 title: DhcpSetServerBindingInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DhcpSetServerBindingInfo function sets endpoint bindings for the DHCP server.
 old-location: dhcp\dhcpsetserverbindinginfo.htm
 old-project: DHCP
 ms.assetid: 6291e266-e9d5-4899-8b34-53695f49a1b8
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DHCP_ENDPOINT_FLAG_CANT_MODIFY, DhcpSetServerBindingInfo, DhcpSetServerBindingInfo function [DHCP], dhcp.dhcpsetserverbindinginfo, dhcpsapi/DhcpSetServerBindingInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

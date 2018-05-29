@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1.PushLayer
 title: PushLayer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the specified layer to the render target so that it receives all subsequent drawing operations until PopLayer is called.
 old-location: direct2d\id2d1rendertarget_push_layer.htm
 old-project: Direct2D
 ms.assetid: 9336662c-e94e-40ba-adbe-066d704958bc
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: ID2D1RenderTarget::PushLayer, PushLayer, PushLayer methods [Direct2D], d2d1_1/PushLayer, direct2d.id2d1rendertarget_push_layer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1.h
 req.include-header: D2d1.h

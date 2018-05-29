@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IEnumFilters.Reset
 title: IEnumFilters::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: dshow\ienumfilters_reset.htm
 old-project: DirectShow
 ms.assetid: 997a6e56-cd11-42bf-b12c-a4418a4dc644
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumFilters interface [DirectShow],Reset method, IEnumFilters.Reset, IEnumFilters::Reset, IEnumFiltersReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumFilters interface, dshow.ienumfilters_reset, strmif/IEnumFilters::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

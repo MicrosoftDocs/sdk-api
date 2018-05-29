@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_UAV
 title: D3D11_TEX2D_UAV
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a unordered-access 2D texture resource.
 old-location: direct3d11\d3d11_tex2d_uav.htm
 old-project: direct3d11
 ms.assetid: 2b090290-5250-4c92-9e1d-5e8a33dc2c4d
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 65641581-384e-db89-9ea9-db917e580788, D3D11_TEX2D_UAV, D3D11_TEX2D_UAV structure [Direct3D 11], d3d11/D3D11_TEX2D_UAV, direct3d11.d3d11_tex2d_uav
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

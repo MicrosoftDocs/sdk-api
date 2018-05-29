@@ -1,16 +1,16 @@
 ---
 UID: NE:audioclient._AUDCLNT_BUFFERFLAGS
 title: "_AUDCLNT_BUFFERFLAGS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The _AUDCLNT_BUFFERFLAGS enumeration defines flags that indicate the status of an audio endpoint buffer.
 old-location: coreaudio\_audclnt_bufferflags.htm
 old-project: CoreAudio
 ms.assetid: ac4ec901-b1e2-4c4e-b9fc-1808d5338d15
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY, AUDCLNT_BUFFERFLAGS_SILENT, AUDCLNT_BUFFERFLAGS_TIMESTAMP_ERROR, _AUDCLNT_BUFFERFLAGS, _AUDCLNT_BUFFERFLAGS , _AUDCLNT_BUFFERFLAGS enumeration [Core Audio], audioclient/AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY, audioclient/AUDCLNT_BUFFERFLAGS_SILENT, audioclient/AUDCLNT_BUFFERFLAGS_TIMESTAMP_ERROR, audioclient/_AUDCLNT_BUFFERFLAGS, coreaudio._audclnt_bufferflags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: audioclient.h
 req.include-header: 

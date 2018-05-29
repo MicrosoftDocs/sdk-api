@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetOutputParameterDesc
 title: ID3D11ShaderReflection::GetOutputParameterDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Get an output-parameter description for a shader.
 old-location: direct3d11\id3d11shaderreflection_getoutputparameterdesc.htm
 old-project: direct3d11
 ms.assetid: 7fc27fae-d17a-4247-bd79-e02956890efd
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: GetOutputParameterDesc, GetOutputParameterDesc method [Direct3D 11], GetOutputParameterDesc method [Direct3D 11],ID3D11ShaderReflection interface, ID3D11ShaderReflection interface [Direct3D 11],GetOutputParameterDesc method, ID3D11ShaderReflection.GetOutputParameterDesc, ID3D11ShaderReflection::GetOutputParameterDesc, c79e62b5-e5fb-6a0f-07c6-439fa953073b, d3d11shader/ID3D11ShaderReflection::GetOutputParameterDesc, direct3d11.id3d11shaderreflection_getoutputparameterdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11shader.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReaderInfo.GetPatterns
 title: IWICMetadataReaderInfo::GetPatterns
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the metadata patterns associated with the metadata reader.
 old-location: wic\_wic_codec_iwicmetadatareaderinfo_getpatterns.htm
 old-project: wic
 ms.assetid: bc0033f7-801d-4ae0-a2cb-bdda25303476
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetPatterns, GetPatterns method [Windows Imaging Component], GetPatterns method [Windows Imaging Component],IWICMetadataReaderInfo interface, IWICMetadataReaderInfo interface [Windows Imaging Component],GetPatterns method, IWICMetadataReaderInfo.GetPatterns, IWICMetadataReaderInfo::GetPatterns, _wic_codec_iwicmetadatareaderinfo_getpatterns, wic._wic_codec_iwicmetadatareaderinfo_getpatterns, wincodecsdk/IWICMetadataReaderInfo::GetPatterns
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

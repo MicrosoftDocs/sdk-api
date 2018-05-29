@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetStreamPrioritization
 title: IMFASFProfile::GetStreamPrioritization
-author: windows-driver-content
+author: windows-sdk-content
 description: IMFASFProfile::GetStreamPrioritization method
 old-location: mf\imfasfprofile_getstreamprioritization.htm
 old-project: medfound
 ms.assetid: 28c542b9-a121-4002-83ae-d6dcfa6f0b6a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 28c542b9-a121-4002-83ae-d6dcfa6f0b6a, GetStreamPrioritization, GetStreamPrioritization method [Media Foundation], GetStreamPrioritization method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetStreamPrioritization method, IMFASFProfile.GetStreamPrioritization, IMFASFProfile::GetStreamPrioritization, mf.imfasfprofile_getstreamprioritization, wmcontainer/IMFASFProfile::GetStreamPrioritization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

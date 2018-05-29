@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_3.IDXGIOutput3.CheckOverlaySupport
 title: IDXGIOutput3::CheckOverlaySupport
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks for overlay support.
 old-location: direct3ddxgi\idxgioutput3_checkoverlaysupport.htm
 old-project: direct3ddxgi
 ms.assetid: D7B90FF5-5E8B-4F9E-A442-B44449438388
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CheckOverlaySupport, CheckOverlaySupport method [DXGI], CheckOverlaySupport method [DXGI],IDXGIOutput3 interface, IDXGIOutput3 interface [DXGI],CheckOverlaySupport method, IDXGIOutput3.CheckOverlaySupport, IDXGIOutput3::CheckOverlaySupport, direct3ddxgi.idxgioutput3_checkoverlaysupport, dxgi1_3/IDXGIOutput3::CheckOverlaySupport
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_3.h
 req.include-header: 

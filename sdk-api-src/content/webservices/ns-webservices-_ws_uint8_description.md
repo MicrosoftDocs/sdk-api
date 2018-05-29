@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_UINT8_DESCRIPTION
 title: "_WS_UINT8_DESCRIPTION"
-author: windows-driver-content
+author: windows-sdk-content
 description: An optional type description used with WS_UINT8_TYPE to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_uint8_description.htm
 old-project: wsw
 ms.assetid: 0e878a19-8f64-4fa2-a6a7-9a12c2ec8efc
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_UINT8_DESCRIPTION, WS_UINT8_DESCRIPTION structure [Web Services for Windows], _WS_UINT8_DESCRIPTION, webservices/WS_UINT8_DESCRIPTION, wsw.ws_uint8_description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreACP2.InsertTextAtSelection
 title: ITextStoreACP2::InsertTextAtSelection
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts text at the insertion point or selection. A caller must have a read/write lock on the document before inserting text.
 old-location: tsf\itextstoreacp2_inserttextatselection.htm
 old-project: TSF
 ms.assetid: 5e1e0893-53be-4753-ba49-32e69597a130
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],InsertTextAtSelection method, ITextStoreACP2.InsertTextAtSelection, ITextStoreACP2::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::InsertTextAtSelection, tsf.itextstoreacp2_inserttextatselection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

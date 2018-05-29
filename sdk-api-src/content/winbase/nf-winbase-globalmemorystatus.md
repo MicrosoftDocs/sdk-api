@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GlobalMemoryStatus
 title: GlobalMemoryStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the system's current usage of both physical and virtual memory.
 old-location: base\globalmemorystatus.htm
 old-project: Memory
 ms.assetid: 473e4172-b57a-4fc6-9bb2-e916ac3c9a2f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GlobalMemoryStatus, GlobalMemoryStatus function, _win32_globalmemorystatus, base.globalmemorystatus, winbase/GlobalMemoryStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

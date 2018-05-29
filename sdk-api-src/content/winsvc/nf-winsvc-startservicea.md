@@ -1,16 +1,16 @@
 ---
 UID: NF:winsvc.StartServiceA
 title: StartServiceA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts a service.
 old-location: base\startservice.htm
 old-project: Services
 ms.assetid: f185a878-e1c3-4fe5-8ec9-c5296d27f985
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: StartService, StartService function, StartServiceA, StartServiceW, _win32_startservice, base.startservice, winsvc/StartService, winsvc/StartServiceA, winsvc/StartServiceW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsvc.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMReaderNetworkConfig
 title: IWMReaderNetworkConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMReaderNetworkConfig interface is used to set and test network configuration settings.
 old-location: wmformat\iwmreadernetworkconfig.htm
 old-project: wmformat
 ms.assetid: 0957ece7-93fe-411b-b69e-fd03933b09d1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReaderNetworkConfig, IWMReaderNetworkConfig interface [windows Media Format], IWMReaderNetworkConfig interface [windows Media Format],described, IWMReaderNetworkConfigInterface, wmformat.iwmreadernetworkconfig, wmsdkidl/IWMReaderNetworkConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

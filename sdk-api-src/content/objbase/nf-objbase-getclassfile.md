@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.GetClassFile
 title: GetClassFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the CLSID associated with the specified file name.
 old-location: com\getclassfile.htm
 old-project: com
 ms.assetid: dc3cb263-7b9a-45f9-8eab-3a88aa9392db
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetClassFile, GetClassFile function [COM], _com_GetClassFile, com.getclassfile, objbase/GetClassFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: 

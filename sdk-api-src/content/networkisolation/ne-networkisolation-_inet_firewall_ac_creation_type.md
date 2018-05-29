@@ -1,16 +1,16 @@
 ---
 UID: NE:networkisolation._INET_FIREWALL_AC_CREATION_TYPE
 title: "_INET_FIREWALL_AC_CREATION_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the type of app container creation events for which notifications will be delivered.
 old-location: ics\inet_firewall_ac_creation_type.htm
 old-project: ICS
 ms.assetid: 01a1f735-889e-424e-860e-ca86f0abd126
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INET_FIREWALL_AC_BINARY, INET_FIREWALL_AC_CREATION_TYPE, INET_FIREWALL_AC_CREATION_TYPE enumeration [ICS/ICF], INET_FIREWALL_AC_MAX, INET_FIREWALL_AC_NONE, INET_FIREWALL_AC_PACKAGE_ID_ONLY, _INET_FIREWALL_AC_CREATION_TYPE, ics.inet_firewall_ac_creation_type, networkisolation/INET_FIREWALL_AC_BINARY, networkisolation/INET_FIREWALL_AC_CREATION_TYPE, networkisolation/INET_FIREWALL_AC_MAX, networkisolation/INET_FIREWALL_AC_NONE, networkisolation/INET_FIREWALL_AC_PACKAGE_ID_ONLY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: networkisolation.h
 req.include-header: Netfw.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winineti.InternetEnumPerSiteCookieDecisionA
 title: InternetEnumPerSiteCookieDecisionA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the domains and cookie settings of websites for which site-specific cookie regulations are set.
 old-location: wininet\internetenumpersitecookiedecision.htm
 old-project: WinInet
 ms.assetid: de1db7e6-21f4-4bbb-b4fc-277bbd01f32c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: InternetEnumPerSiteCookieDecision, InternetEnumPerSiteCookieDecision function [WinINet], InternetEnumPerSiteCookieDecisionA, InternetEnumPerSiteCookieDecisionW, wininet.internetenumpersitecookiedecision, winineti/InternetEnumPerSiteCookieDecision, winineti/InternetEnumPerSiteCookieDecisionA, winineti/InternetEnumPerSiteCookieDecisionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winineti.h
 req.include-header: Wininet.h, Winineti.h

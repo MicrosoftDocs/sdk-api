@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IFolderViewOptions
 title: IFolderViewOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that allow control of folder view options specific to the Windows 7 and later views.
 old-location: shell\IFolderViewOptions.htm
 old-project: shell
 ms.assetid: 4831e62c-45e4-435d-b926-0e140cbfb6fc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFolderViewOptions, IFolderViewOptions interface [Windows Shell], IFolderViewOptions interface [Windows Shell],described, _shell_IFolderViewOptions, shell.IFolderViewOptions, shobjidl/IFolderViewOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

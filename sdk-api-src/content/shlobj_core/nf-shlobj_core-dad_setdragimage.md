@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.DAD_SetDragImage
 title: DAD_SetDragImage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the drag image.
 old-location: shell\DAD_SetDragImage.htm
 old-project: shell
 ms.assetid: 1e60e16c-3a12-48e2-a144-b3ba81599473
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DAD_SetDragImage, DAD_SetDragImage function [Windows Shell], shell.DAD_SetDragImage, shell_DAD_SetDragImage, shlobj_core/DAD_SetDragImage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

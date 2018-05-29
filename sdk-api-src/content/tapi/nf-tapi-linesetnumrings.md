@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSetNumRings
 title: lineSetNumRings function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSetNumRings function sets the number of rings that must occur before an incoming call is answered.
 old-location: tapi2\linesetnumrings.htm
 old-project: Tapi
 ms.assetid: d600fd39-4e58-421c-81bf-1555f5745f5e
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesetnumrings, lineSetNumRings, lineSetNumRings function [TAPI 2.2], tapi/lineSetNumRings, tapi2.linesetnumrings"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

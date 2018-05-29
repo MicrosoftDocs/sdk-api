@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarCyMulI4
 title: VarCyMulI4 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Multiplies a currency value by a 32-bit integer.
 old-location: automat\varcymuli4.htm
 old-project: automat
 ms.assetid: 2adfa078-c00c-48df-bd31-e36bcab64cbf
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarCyMulI4, VarCyMulI4 function [Automation], _oa96_VarCyMulI4, automat.varcymuli4, oleauto/VarCyMulI4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

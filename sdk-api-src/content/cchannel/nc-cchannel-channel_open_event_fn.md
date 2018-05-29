@@ -1,16 +1,16 @@
 ---
 UID: NC:cchannel.CHANNEL_OPEN_EVENT_FN
 title: CHANNEL_OPEN_EVENT_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function that Remote Desktop Services calls to notify the client DLL of events for a specific virtual channel.
 old-location: termserv\virtualchannelopenevent.htm
 old-project: TermServ
 ms.assetid: 7412d125-1a3c-4e9a-9804-b612030682da
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CHANNEL_EVENT_DATA_RECEIVED, CHANNEL_EVENT_WRITE_CANCELLED, CHANNEL_EVENT_WRITE_COMPLETE, CHANNEL_FLAG_FIRST, CHANNEL_FLAG_LAST, CHANNEL_FLAG_MIDDLE, CHANNEL_FLAG_ONLY, CHANNEL_OPEN_EVENT_FN, CHANNEL_OPEN_EVENT_FN callback function [Remote Desktop Services], VirtualChannelOpenEvent callback, _win32_virtualchannelopenevent, cchannel/CHANNEL_OPEN_EVENT_FN, termserv.virtualchannelopenevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: cchannel.h
 req.include-header: 

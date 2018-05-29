@@ -1,16 +1,16 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.GetUncompFormatsSupported
 title: IAMVideoAccelerator::GetUncompFormatsSupported
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetUncompFormatsSupported method gets a list of uncompressed pixel formats that can be rendered using a specified DirectX Video Acceleration (DXVA) profile.
 old-location: dshow\iamvideoaccelerator_getuncompformatssupported.htm
 old-project: DirectShow
 ms.assetid: 33f9a4ee-4de9-4853-9581-808d7a07bfc4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetUncompFormatsSupported, GetUncompFormatsSupported method [DirectShow], GetUncompFormatsSupported method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetUncompFormatsSupported method, IAMVideoAccelerator.GetUncompFormatsSupported, IAMVideoAccelerator::GetUncompFormatsSupported, IAMVideoAcceleratorGetUncompFormatsSupported, dshow.iamvideoaccelerator_getuncompformatssupported, videoacc/IAMVideoAccelerator::GetUncompFormatsSupported
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: videoacc.h
 req.include-header: 

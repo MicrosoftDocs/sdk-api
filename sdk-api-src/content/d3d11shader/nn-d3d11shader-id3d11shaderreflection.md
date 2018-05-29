@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11shader.ID3D11ShaderReflection
 title: ID3D11ShaderReflection
-author: windows-driver-content
+author: windows-sdk-content
 description: A shader-reflection interface accesses shader information.
 old-location: direct3d11\id3d11shaderreflection.htm
 old-project: direct3d11
 ms.assetid: a28cca72-7f2d-416a-bfa9-4d1f71fc98d5
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 83fba8f9-987e-26d3-4909-fd45ac6e9df2, ID3D11ShaderReflection, ID3D11ShaderReflection interface [Direct3D 11], ID3D11ShaderReflection interface [Direct3D 11],described, d3d11shader/ID3D11ShaderReflection, direct3d11.id3d11shaderreflection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11shader.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupGetSourceFileSizeW
 title: SetupGetSourceFileSizeW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupGetSourceFileSize function reads the uncompressed size of a source file listed in an INF file.
 old-location: setup\setupgetsourcefilesize.htm
 old-project: SetupApi
 ms.assetid: f1db8ad5-b133-410e-9843-38b09e2ef5e7
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupGetSourceFileSize, SetupGetSourceFileSize function [Setup API], SetupGetSourceFileSizeA, SetupGetSourceFileSizeW, _setupapi_setupgetsourcefilesize, setup.setupgetsourcefilesize, setupapi/SetupGetSourceFileSize, setupapi/SetupGetSourceFileSizeA, setupapi/SetupGetSourceFileSizeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

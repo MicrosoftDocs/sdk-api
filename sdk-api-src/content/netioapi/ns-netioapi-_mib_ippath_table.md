@@ -1,16 +1,16 @@
 ---
 UID: NS:netioapi._MIB_IPPATH_TABLE
 title: "_MIB_IPPATH_TABLE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a table of IP path entries.
 old-location: mib\mib_ippath_table.htm
 old-project: MIB
 ms.assetid: f18aff3c-a7b5-40fa-9308-5bd8821c77e2
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_IPPATH_TABLE, MIB_IPPATH_TABLE, MIB_IPPATH_TABLE structure [MIB], PMIB_IPPATH_TABLE, PMIB_IPPATH_TABLE structure pointer [MIB], _MIB_IPPATH_TABLE, mib.mib_ippath_table, netioapi/MIB_IPPATH_TABLE, netioapi/PMIB_IPPATH_TABLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

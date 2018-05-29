@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.InitializeFromInnerRequest
 title: IX509CertificateRequestPkcs7::InitializeFromInnerRequest
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the certificate request from the inner PKCS #10 object.
 old-location: security\ix509certificaterequestpkcs7_initializefrominnerrequest_method.htm
 old-project: SecCertEnroll
 ms.assetid: b63bfaaa-a8af-4c72-a191-447230adae72
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeFromInnerRequest method, IX509CertificateRequestPkcs7.InitializeFromInnerRequest, IX509CertificateRequestPkcs7::InitializeFromInnerRequest, InitializeFromInnerRequest, InitializeFromInnerRequest method [Security], InitializeFromInnerRequest method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeFromInnerRequest, security.ix509certificaterequestpkcs7_initializefrominnerrequest_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

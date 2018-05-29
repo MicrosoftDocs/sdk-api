@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventPublisher.put_Description
 title: IEventPublisher::put_Description
-author: windows-driver-content
+author: windows-sdk-content
 description: The display text for the event publisher.
 old-location: com\ieventpublisher_description.htm
 old-project: com
 ms.assetid: 1fead633-e498-4dc2-8591-d1f9c0090adb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Description property [COM], Description property [COM],IEventPublisher interface, IEventPublisher interface [COM],Description property, IEventPublisher.Description, IEventPublisher.put_Description, IEventPublisher::Description, IEventPublisher::get_Description, IEventPublisher::put_Description, _com_ieventpublisher_description, com.ieventpublisher_description, eventsys/IEventPublisher::Description, eventsys/IEventPublisher::get_Description, eventsys/IEventPublisher::put_Description, put_Description
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

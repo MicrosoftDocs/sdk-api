@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMDRMEditor
 title: IWMDRMEditor
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMDRMEditor interface is exposed on the metadata editor object.
 old-location: wmformat\iwmdrmeditor.htm
 old-project: wmformat
 ms.assetid: a404d30d-0b42-44c9-93e6-3eb9ef9e40fc
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMDRMEditor, IWMDRMEditor interface [windows Media Format], IWMDRMEditor interface [windows Media Format],described, IWMDRMEditorInterface, wmformat.iwmdrmeditor, wmsdkidl/IWMDRMEditor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

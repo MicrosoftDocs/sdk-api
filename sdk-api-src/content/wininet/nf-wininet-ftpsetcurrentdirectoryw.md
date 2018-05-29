@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.FtpSetCurrentDirectoryW
 title: FtpSetCurrentDirectoryW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes to a different working directory on the FTP server.
 old-location: wininet\ftpsetcurrentdirectory.htm
 old-project: WinInet
 ms.assetid: 1ee21e9e-d113-427e-ab47-86139e6ecad0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FtpSetCurrentDirectory, FtpSetCurrentDirectory function [WinINet], FtpSetCurrentDirectoryA, FtpSetCurrentDirectoryW, _inet_ftpsetcurrentdirectory_function, wininet.ftpsetcurrentdirectory, wininet/FtpSetCurrentDirectory, wininet/FtpSetCurrentDirectoryA, wininet/FtpSetCurrentDirectoryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

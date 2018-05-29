@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetGreenSlope
 title: SetGreenSlope function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the slope of the linear function for the green channel.
 old-location: directcomp\idcompositionlineartransfereffect_setgreenslope_overloaded.htm
 old-project: directcomp
 ms.assetid: e7e92544-dbc5-91ce-b818-056b7b572a7c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionLinearTransferEffect::SetGreenSlope, SetGreenSlope, dcomp/setgreenslope, directcomp.idcompositionlineartransfereffect_setgreenslope_overloaded, setgreenslope, setgreenslope methods [DirectComposition]
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

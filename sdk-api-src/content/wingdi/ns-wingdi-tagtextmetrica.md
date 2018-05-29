@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagTEXTMETRICA
 title: tagTEXTMETRICA
-author: windows-driver-content
+author: windows-sdk-content
 description: The TEXTMETRIC structure contains basic information about a physical font. All sizes are specified in logical units; that is, they depend on the current mapping mode of the display context.
 old-location: gdi\textmetric.htm
 old-project: gdi
 ms.assetid: 0a46da58-5d0f-4db4-bba6-9e1b6c1f892c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPTEXTMETRICA, *NPTEXTMETRICA, *PTEXTMETRICA, PTEXTMETRIC, PTEXTMETRIC structure pointer [Windows GDI], TEXTMETRIC, TEXTMETRIC structure [Windows GDI], TEXTMETRICA, TEXTMETRICW, _win32_TEXTMETRIC_str, gdi.textmetric, tagTEXTMETRICA, wingdi/PTEXTMETRIC, wingdi/TEXTMETRIC, wingdi/TEXTMETRICA, wingdi/TEXTMETRICW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

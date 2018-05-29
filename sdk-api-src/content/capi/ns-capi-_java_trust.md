@@ -1,16 +1,16 @@
 ---
 UID: NS:capi._JAVA_TRUST
 title: "_JAVA_TRUST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains trust information.
 old-location: winprog\java_trust.htm
 old-project: DevNotes
 ms.assetid: ceb8cfc4-3b29-47d1-a651-d3cee898c1eb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PJAVA_TRUST, JAVA_TRUST, JAVA_TRUST structure [Windows API], PJAVA_TRUST, PJAVA_TRUST structure pointer [Windows API], _JAVA_TRUST, capi/JAVA_TRUST, capi/PJAVA_TRUST, winprog.java_trust"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: capi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemButton.OnMenuSelect
 title: ITfLangBarItemButton::OnMenuSelect
-author: windows-driver-content
+author: windows-sdk-content
 description: This method is not used if the button item does not have the TF_LBI_STYLE_BTN_MENU style.
 old-location: tsf\itflangbaritembutton_onmenuselect.htm
 old-project: TSF
 ms.assetid: 104cc686-4cb1-4f8e-909b-4c9dfb0b72cc
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfLangBarItemButton interface [Text Services Framework],OnMenuSelect method, ITfLangBarItemButton.OnMenuSelect, ITfLangBarItemButton::OnMenuSelect, OnMenuSelect, OnMenuSelect method [Text Services Framework], OnMenuSelect method [Text Services Framework],ITfLangBarItemButton interface, _tsf_itflangbaritembutton_onmenuselect_ref, ctfutb/ITfLangBarItemButton::OnMenuSelect, tsf.itflangbaritembutton_onmenuselect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

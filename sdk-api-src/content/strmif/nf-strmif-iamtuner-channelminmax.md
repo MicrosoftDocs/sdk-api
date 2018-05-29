@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMTuner.ChannelMinMax
 title: IAMTuner::ChannelMinMax
-author: windows-driver-content
+author: windows-sdk-content
 description: The ChannelMinMax method retrieves the highest and lowest channels available.
 old-location: dshow\iamtuner_channelminmax.htm
 old-project: DirectShow
 ms.assetid: f46bf0ff-cdb3-41b1-829e-4e1b348bd808
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ChannelMinMax, ChannelMinMax method [DirectShow], ChannelMinMax method [DirectShow],IAMTuner interface, IAMTuner interface [DirectShow],ChannelMinMax method, IAMTuner.ChannelMinMax, IAMTuner::ChannelMinMax, IAMTunerChannelMinMax, dshow.iamtuner_channelminmax, strmif/IAMTuner::ChannelMinMax
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

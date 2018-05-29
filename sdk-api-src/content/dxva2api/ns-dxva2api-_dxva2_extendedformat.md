@@ -1,16 +1,16 @@
 ---
 UID: NS:dxva2api._DXVA2_ExtendedFormat
 title: "_DXVA2_ExtendedFormat"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the format of a video stream.
 old-location: mf\dxva2_extendedformat.htm
 old-project: medfound
 ms.assetid: eba2c56b-8951-4dc5-91ae-1371793ce787
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DXVA2_ExtendedFormat, DXVA2_ExtendedFormat structure [Media Foundation], _DXVA2_ExtendedFormat, dxva2api/DXVA2_ExtendedFormat, eba2c56b-8951-4dc5-91ae-1371793ce787, mf.dxva2_extendedformat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 

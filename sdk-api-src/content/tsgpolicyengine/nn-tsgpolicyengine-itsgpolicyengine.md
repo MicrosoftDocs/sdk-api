@@ -1,16 +1,16 @@
 ---
 UID: NN:tsgpolicyengine.ITSGPolicyEngine
 title: ITSGPolicyEngine
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that authorize connections and resources.
 old-location: termserv\itsgpolicyengine.htm
 old-project: TermServ
 ms.assetid: 1972032f-48ac-4a15-98ce-9349fa158a07
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITSGPolicyEngine, ITSGPolicyEngine interface [Remote Desktop Services], ITSGPolicyEngine interface [Remote Desktop Services],described, termserv.itsgpolicyengine, tsgpolicyengine/ITSGPolicyEngine
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tsgpolicyengine.h
 req.include-header: 

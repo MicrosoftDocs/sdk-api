@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FONTOBJ_pxoGetXform
 title: FONTOBJ_pxoGetXform function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FONTOBJ_pxoGetXform function retrieves the notional-to-device transform for the specified font.
 old-location: display\fontobj_pxogetxform.htm
 old-project: display
 ms.assetid: 94d8ddf6-221f-47f0-8772-4364ad2ac1a2
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FONTOBJ_pxoGetXform, FONTOBJ_pxoGetXform function [Display Devices], display.fontobj_pxogetxform, gdifncs_22900939-4aa1-4f8b-9345-1d74af8a7f71.xml, winddi/FONTOBJ_pxoGetXform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

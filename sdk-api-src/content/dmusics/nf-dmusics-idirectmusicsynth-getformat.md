@@ -1,16 +1,16 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.GetFormat
 title: IDirectMusicSynth::GetFormat
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetFormat method retrieves information about the wave format.
 old-location: audio\idirectmusicsynth_getformat.htm
 old-project: audio
 ms.assetid: 4fa55ff5-4f72-4f8b-bf11-64f07b054ff5
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: GetFormat, GetFormat method [Audio Devices], GetFormat method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetFormat method, IDirectMusicSynth.GetFormat, IDirectMusicSynth::GetFormat, audio.idirectmusicsynth_getformat, audmp-routines_4448775d-9737-4679-89ca-abfee56fa337.xml, dmusics/IDirectMusicSynth::GetFormat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h

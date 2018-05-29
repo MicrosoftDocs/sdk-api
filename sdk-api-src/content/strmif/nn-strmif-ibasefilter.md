@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IBaseFilter
 title: IBaseFilter
-author: windows-driver-content
+author: windows-sdk-content
 description: The IBaseFilter interface is the primary interface for DirectShow filters.
 old-location: dshow\ibasefilter.htm
 old-project: DirectShow
 ms.assetid: d8c09dc7-dae8-4b51-8da8-69e64928a091
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IBaseFilter, IBaseFilter interface [DirectShow], IBaseFilter interface [DirectShow],described, IBaseFilterInterface, dshow.ibasefilter, strmif/IBaseFilter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

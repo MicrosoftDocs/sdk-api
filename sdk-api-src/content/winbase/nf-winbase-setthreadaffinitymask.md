@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetThreadAffinityMask
 title: SetThreadAffinityMask function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a processor affinity mask for the specified thread.
 old-location: base\setthreadaffinitymask.htm
 old-project: ProcThread
 ms.assetid: 3390930d-026f-4f86-97bc-1da34bb384ba
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetThreadAffinityMask, SetThreadAffinityMask function, _win32_setthreadaffinitymask, base.setthreadaffinitymask, winbase/SetThreadAffinityMask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

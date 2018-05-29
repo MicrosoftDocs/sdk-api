@@ -1,16 +1,16 @@
 ---
 UID: NN:mbnapi.IMbnRadio
 title: IMbnRadio
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMbnRadio interface is used to query and update the radio state of Mobile Broadband devices.
 old-location: mbn\imbnradio.htm
 old-project: mbn
 ms.assetid: b4b5ccfc-6cbf-4090-aee1-ee97092147f7
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnRadio, IMbnRadio interface [Microsoft Broadband Networks], IMbnRadio interface [Microsoft Broadband Networks],described, mbn.imbnradio, mbnapi/IMbnRadio
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mbnapi.h
 req.include-header: 

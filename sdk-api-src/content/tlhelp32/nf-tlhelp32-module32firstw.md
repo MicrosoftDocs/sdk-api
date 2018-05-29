@@ -1,16 +1,16 @@
 ---
 UID: NF:tlhelp32.Module32FirstW
 title: Module32FirstW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the first module associated with a process.
 old-location: toolhelp\module32first.htm
 old-project: ToolHelp
 ms.assetid: bb41cab9-13a1-469d-bf76-68c172e982f6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Module32First, Module32First function [ToolHelp], Module32FirstW, _win32_module32first, base.module32first, tlhelp32/Module32First, tlhelp32/Module32FirstW, toolhelp.module32first
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.FOURTH_IPADDRESS
 title: FOURTH_IPADDRESS macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the field 3 value from a packed IP address retrieved with the IPM_GETADDRESS message.
 old-location: controls\FOURTH_IPADDRESS.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\fourth_ipaddress.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FOURTH_IPADDRESS, FOURTH_IPADDRESS macro [Windows Controls], _win32_FOURTH_IPADDRESS, _win32_FOURTH_IPADDRESS_cpp, commctrl/FOURTH_IPADDRESS, controls.FOURTH_IPADDRESS, controls._win32_FOURTH_IPADDRESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

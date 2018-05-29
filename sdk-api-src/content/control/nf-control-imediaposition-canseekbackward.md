@@ -1,16 +1,16 @@
 ---
 UID: NF:control.IMediaPosition.CanSeekBackward
 title: IMediaPosition::CanSeekBackward
-author: windows-driver-content
+author: windows-sdk-content
 description: The CanSeekBackward method determines whether the filter graph can seek backward in the stream.
 old-location: dshow\imediaposition_canseekbackward.htm
 old-project: DirectShow
 ms.assetid: 8152553a-173b-4f0b-bcdf-b9c20912921d
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CanSeekBackward, CanSeekBackward method [DirectShow], CanSeekBackward method [DirectShow],IMediaPosition interface, IMediaPosition interface [DirectShow],CanSeekBackward method, IMediaPosition.CanSeekBackward, IMediaPosition::CanSeekBackward, IMediaPositionCanSeekBackward, control/IMediaPosition::CanSeekBackward, dshow.imediaposition_canseekbackward
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: control.h
 req.include-header: Dshow.h

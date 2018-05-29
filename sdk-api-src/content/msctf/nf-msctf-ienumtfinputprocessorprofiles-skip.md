@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.IEnumTfInputProcessorProfiles.Skip
 title: IEnumTfInputProcessorProfiles::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumTfInputProcessorProfiles::Skip method moves the current position forward in the enumeration sequence by the specified number of elements.
 old-location: tsf\ienumtfinputprocessorprofiles_skip.htm
 old-project: TSF
 ms.assetid: 7b0bf0be-1f0d-4da9-a8d2-c8a29ae3dcac
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IEnumTfInputProcessorProfiles interface [Text Services Framework],Skip method, IEnumTfInputProcessorProfiles.Skip, IEnumTfInputProcessorProfiles::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfInputProcessorProfiles interface, msctf/IEnumTfInputProcessorProfiles::Skip, tsf.ienumtfinputprocessorprofiles_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToInt64
 title: PropVariantToInt64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts a LONGLONG value from a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\PropVariantToInt64.htm
 old-project: properties
 ms.assetid: a53c88e3-57cc-46f8-99f2-ffc2aafa0ce4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToInt64, PropVariantToInt64 function [Windows Properties], properties.PropVariantToInt64, propvarutil/PropVariantToInt64, shell.PropVariantToInt64, shell_PropVariantToInt64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

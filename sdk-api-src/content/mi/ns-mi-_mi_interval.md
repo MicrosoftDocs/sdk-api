@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_Interval
 title: "_MI_Interval"
-author: windows-driver-content
+author: windows-sdk-content
 description: MI_Interval represents an interval of time.
 old-location: wmi_v2\mi_interval.htm
 old-project: wmi_v2
 ms.assetid: b6bf3d47-c292-4140-8bc6-f15ad8a8019f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Interval, MI_Interval structure [Windows Management Infrastructure (MI)], _MI_Interval, mi/MI_Interval, wmi._mi_interval, wmi_v2.mi_interval
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

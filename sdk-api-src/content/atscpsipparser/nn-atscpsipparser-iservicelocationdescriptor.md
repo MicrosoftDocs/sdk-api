@@ -1,16 +1,16 @@
 ---
 UID: NN:atscpsipparser.IServiceLocationDescriptor
 title: IServiceLocationDescriptor
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information from the Service Location Descriptor in an Advanced Television Systems Committee (ATSC) Virtual Channel Table (VCT).
 old-location: mstv\iservicelocationdescriptor.htm
 old-project: mstv
 ms.assetid: 43dd800b-c51d-4a2f-ad59-943cb4975066
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IServiceLocationDescriptor, IServiceLocationDescriptor interface [Microsoft TV Technologies], IServiceLocationDescriptor interface [Microsoft TV Technologies],described, atscpsipparser/IServiceLocationDescriptor, mstv.iservicelocationdescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl

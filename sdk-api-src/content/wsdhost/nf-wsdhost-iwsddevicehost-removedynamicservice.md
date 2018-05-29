@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.RemoveDynamicService
 title: IWSDDeviceHost::RemoveDynamicService
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters a service object that was registered using AddDynamicService.
 old-location: ncd\iwsddevicehost_removedynamicservice_method.htm
 old-project: WsdApi
 ms.assetid: 45c314d3-966b-4b90-ab23-fec2a8e4bc0f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDDeviceHost interface,RemoveDynamicService method, IWSDDeviceHost.RemoveDynamicService, IWSDDeviceHost::RemoveDynamicService, RemoveDynamicService, RemoveDynamicService method, RemoveDynamicService method,IWSDDeviceHost interface, ncd.iwsddevicehost_removedynamicservice_method, wsdhost/IWSDDeviceHost::RemoveDynamicService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

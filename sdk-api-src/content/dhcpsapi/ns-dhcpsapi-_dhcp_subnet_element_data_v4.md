@@ -1,16 +1,16 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_DATA_V4
 title: "_DHCP_SUBNET_ELEMENT_DATA_V4"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines an element that describes a feature or restriction of a subnet.
 old-location: dhcp\dhcp_subnet_element_data_v4.htm
 old-project: DHCP
 ms.assetid: d17725da-516b-4be6-839e-9876653e63c4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*LPDHCP_SUBNET_ELEMENT_DATA_V4, DHCP_SUBNET_ELEMENT_DATA_V4, DHCP_SUBNET_ELEMENT_DATA_V4 structure [DHCP], LPDHCP_SUBNET_ELEMENT_DATA_V4, LPDHCP_SUBNET_ELEMENT_DATA_V4 structure pointer [DHCP], _DHCP_SUBNET_ELEMENT_DATA_V4, dhcp.dhcp_subnet_element_data_v4, dhcpsapi/LPDHCP_SUBNET_ELEMENT_DATA_V4, dhcpsapi/_DHCP_SUBNET_ELEMENT_DATA_V4"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dhcpsapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoderService.GetDecoderConfigurations
 title: IDirectXVideoDecoderService::GetDecoderConfigurations
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the configurations that are available for a decoder device.
 old-location: mf\idirectxvideodecoderservice_getdecoderconfigurations.htm
 old-project: medfound
 ms.assetid: 7d2c24f3-9066-4e8b-aad6-98b7245088a5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 7d2c24f3-9066-4e8b-aad6-98b7245088a5, GetDecoderConfigurations, GetDecoderConfigurations method [Media Foundation], GetDecoderConfigurations method [Media Foundation],IDirectXVideoDecoderService interface, IDirectXVideoDecoderService interface [Media Foundation],GetDecoderConfigurations method, IDirectXVideoDecoderService.GetDecoderConfigurations, IDirectXVideoDecoderService::GetDecoderConfigurations, dxva2api/IDirectXVideoDecoderService::GetDecoderConfigurations, mf.idirectxvideodecoderservice_getdecoderconfigurations
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 

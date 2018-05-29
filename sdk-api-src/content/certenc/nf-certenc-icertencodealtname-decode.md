@@ -1,16 +1,16 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.Decode
 title: ICertEncodeAltName::Decode
-author: windows-driver-content
+author: windows-sdk-content
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded alternate name extension and stores the resulting array of strings in the CertEncodeAltName object.
 old-location: security\icertencodealtname_decode.htm
 old-project: SecCrypto
 ms.assetid: 0507d3a5-b8c3-4f2e-996f-e1e32957f475
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CCertEncodeAltName object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeAltName object, Decode method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],Decode method, ICertEncodeAltName.Decode, ICertEncodeAltName::Decode, _certsrv_icertencodealtname_decode, certenc/ICertEncodeAltName::Decode, security.icertencodealtname_decode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenc.h
 req.include-header: Certsrv.h

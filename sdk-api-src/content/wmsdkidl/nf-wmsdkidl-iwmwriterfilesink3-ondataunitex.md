@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.OnDataUnitEx
 title: IWMWriterFileSink3::OnDataUnitEx
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnDataUnitEx method is called when the writer has finished sending a data unit.
 old-location: wmformat\iwmwriterfilesink3_ondataunitex.htm
 old-project: wmformat
 ms.assetid: 1dbcb27b-7588-4475-99fe-3e547d1659d3
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMWriterFileSink3 interface [windows Media Format],OnDataUnitEx method, IWMWriterFileSink3.OnDataUnitEx, IWMWriterFileSink3::OnDataUnitEx, IWMWriterFileSink3OnDataUnitEx, OnDataUnitEx, OnDataUnitEx method [windows Media Format], OnDataUnitEx method [windows Media Format],IWMWriterFileSink3 interface, wmformat.iwmwriterfilesink3_ondataunitex, wmsdkidl/IWMWriterFileSink3::OnDataUnitEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

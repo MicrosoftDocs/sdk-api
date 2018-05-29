@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMTuner.Logon
 title: IAMTuner::Logon
-author: windows-driver-content
+author: windows-sdk-content
 description: The Logon method logs a user onto the system.
 old-location: dshow\iamtuner_logon.htm
 old-project: DirectShow
 ms.assetid: b4a5a927-254c-44cd-b17d-e1f47b3f62a7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMTuner interface [DirectShow],Logon method, IAMTuner.Logon, IAMTuner::Logon, IAMTunerLogon, Logon, Logon method [DirectShow], Logon method [DirectShow],IAMTuner interface, dshow.iamtuner_logon, strmif/IAMTuner::Logon
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

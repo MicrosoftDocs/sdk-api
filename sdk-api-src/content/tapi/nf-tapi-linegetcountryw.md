@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineGetCountryW
 title: lineGetCountryW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineGetCountry function fetches the stored dialing rules and other information related to a specified country/region, the first country/region in the country/region list, or all countries/regions.
 old-location: tapi2\linegetcountry.htm
 old-project: Tapi
 ms.assetid: 4de271b3-d93b-4fc9-b853-e26ef1ae75ae
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linegetcountry, lineGetCountry, lineGetCountry function [TAPI 2.2], lineGetCountryA, lineGetCountryW, tapi/lineGetCountry, tapi/lineGetCountryA, tapi/lineGetCountryW, tapi2.linegetcountry"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

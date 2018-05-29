@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.GetProcessVersion
 title: GetProcessVersion function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the major and minor version numbers of the system on which the specified process expects to run.
 old-location: base\getprocessversion.htm
 old-project: ProcThread
 ms.assetid: ed12f2e5-1674-4885-878f-9ba39415780c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetProcessVersion, GetProcessVersion function, _win32_getprocessversion, base.getprocessversion, processthreadsapi/GetProcessVersion, winbase/GetProcessVersion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

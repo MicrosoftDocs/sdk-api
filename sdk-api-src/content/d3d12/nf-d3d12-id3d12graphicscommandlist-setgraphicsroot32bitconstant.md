@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstant
 title: ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstant
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a constant in the graphics root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setgraphicsroot32bitconstant.htm
 old-project: direct3d12
 ms.assetid: F53090CC-05E9-4892-B6BF-0A849A5D98EF
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRoot32BitConstant method, ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstant, ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstant, SetGraphicsRoot32BitConstant, SetGraphicsRoot32BitConstant method, SetGraphicsRoot32BitConstant method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstant, direct3d12.id3d12graphicscommandlist_setgraphicsroot32bitconstant
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

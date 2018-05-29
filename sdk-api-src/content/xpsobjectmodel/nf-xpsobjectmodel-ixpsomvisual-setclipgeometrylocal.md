@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetClipGeometryLocal
 title: IXpsOMVisual::SetClipGeometryLocal
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the local, unshared clipping region for the visual.
 old-location: xps\ixpsomvisual_setclipgeometrylocal.htm
 old-project: printdocs
 ms.assetid: 8b703866-9dc0-4327-9988-908f17bd4b21
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetClipGeometryLocal method, IXpsOMVisual.SetClipGeometryLocal, IXpsOMVisual::SetClipGeometryLocal, SetClipGeometryLocal, SetClipGeometryLocal method [XPS Documents and Packaging], SetClipGeometryLocal method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setclipgeometrylocal, xpsobjectmodel/IXpsOMVisual::SetClipGeometryLocal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmGetDestInfo
 title: RtmGetDestInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmGetDestInfo function returns information about a destination.
 old-location: rras\rtmgetdestinfo.htm
 old-project: RRAS
 ms.assetid: bf6525ea-5f32-41d3-b436-920e7369b926
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmGetDestInfo, RtmGetDestInfo function [RAS], _rtmv2ref_rtmgetdestinfo, rras.rtmgetdestinfo, rtmv2/RtmGetDestInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

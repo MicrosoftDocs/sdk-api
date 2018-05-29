@@ -1,16 +1,16 @@
 ---
 UID: NF:mswmdm.IWMDMStorage3.SetMetadata
 title: IWMDMStorage3::SetMetadata
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetMetadata method sets metadata on the storage.
 old-location: wmdm\iwmdmstorage3_setmetadata.htm
 old-project: WMDM
 ms.assetid: f06eb965-af34-4247-b8a6-0ac1ee4e4839
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMStorage3 interface [windows Media Device Manager],SetMetadata method, IWMDMStorage3.SetMetadata, IWMDMStorage3::SetMetadata, IWMDMStorage3SetMetadata, SetMetadata, SetMetadata method [windows Media Device Manager], SetMetadata method [windows Media Device Manager],IWMDMStorage3 interface, mswmdm/IWMDMStorage3::SetMetadata, wmdm.iwmdmstorage3_setmetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mswmdm.h
 req.include-header: 

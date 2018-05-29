@@ -1,16 +1,16 @@
 ---
 UID: NE:richedit._undonameid
 title: "_undonameid"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains values that indicate types of rich edit control actions that can be undone or redone. The EM_GETREDONAME and EM_GETUNDONAME messages use this enumeration type to return a value.
 old-location: controls\UNDONAMEID.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditenumerationtypes\undonameid.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: UID_AUTOTABLE, UID_CUT, UID_DELETE, UID_DRAGDROP, UID_PASTE, UID_TYPING, UID_UNKNOWN, UNDONAMEID, UNDONAMEID enumeration [Windows Controls], _undonameid, _win32_UNDONAMEID_str, _win32_UNDONAMEID_str_cpp, controls.UNDONAMEID, controls._win32_UNDONAMEID_str, richedit/UID_AUTOTABLE, richedit/UID_CUT, richedit/UID_DELETE, richedit/UID_DRAGDROP, richedit/UID_PASTE, richedit/UID_TYPING, richedit/UID_UNKNOWN, richedit/UNDONAMEID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: richedit.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICColorContext.GetProfileBytes
 title: IWICColorContext::GetProfileBytes
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the color context profile.
 old-location: wic\_wic_codec_iwiccolorcontext_getprofilebytes.htm
 old-project: wic
 ms.assetid: 59427a49-ef68-4680-b6d8-4ffa2a1913b8
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetProfileBytes, GetProfileBytes method [Windows Imaging Component], GetProfileBytes method [Windows Imaging Component],IWICColorContext interface, IWICColorContext interface [Windows Imaging Component],GetProfileBytes method, IWICColorContext.GetProfileBytes, IWICColorContext::GetProfileBytes, _wic_codec_iwiccolorcontext_getprofilebytes, wic._wic_codec_iwiccolorcontext_getprofilebytes, wincodec/IWICColorContext::GetProfileBytes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.ISequentialStream.Read
 title: ISequentialStream::Read
-author: windows-driver-content
+author: windows-sdk-content
 description: Reads a specified number of bytes from the stream object into memory, starting at the current seek pointer.
 old-location: stg\isequentialstream_read.htm
 old-project: Stg
 ms.assetid: 934a90bb-5ed0-4d80-9906-352ad8586655
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISequentialStream interface [Structured Storage],Read method, ISequentialStream.Read, ISequentialStream::Read, Read, Read method [Structured Storage], Read method [Structured Storage],ISequentialStream interface, _stg_isequentialstream_read, objidl/ISequentialStream::Read, stg.isequentialstream_read
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

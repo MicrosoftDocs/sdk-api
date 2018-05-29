@@ -1,16 +1,16 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.GetRunningStats
 title: IDirectMusicSynth::GetRunningStats
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetRunningStats method retrieves current information about the state of the synthesizer so that an application can tell how the synth is performing.
 old-location: audio\idirectmusicsynth_getrunningstats.htm
 old-project: audio
 ms.assetid: cf3e97f2-6068-4438-b4c7-5e55ba22bd6e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: GetRunningStats, GetRunningStats method [Audio Devices], GetRunningStats method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],GetRunningStats method, IDirectMusicSynth.GetRunningStats, IDirectMusicSynth::GetRunningStats, audio.idirectmusicsynth_getrunningstats, audmp-routines_9669d460-7c3b-4769-bb3e-fdca1d347f07.xml, dmusics/IDirectMusicSynth::GetRunningStats
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dmusics.h
 req.include-header: Dmusics.h

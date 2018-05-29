@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITPhone
 title: ITPhone
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITPhone interface is the main interface for the new Phone objects in the TAPI 3.1 object model.
 old-location: tapi3\itphone.htm
 old-project: Tapi
 ms.assetid: 94dff33c-67a1-4df8-9ef5-2b6524438f6f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPhone, ITPhone interface [TAPI 2.2], ITPhone interface [TAPI 2.2],described, _tapi3_itphone, tapi3.itphone, tapi3if/ITPhone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

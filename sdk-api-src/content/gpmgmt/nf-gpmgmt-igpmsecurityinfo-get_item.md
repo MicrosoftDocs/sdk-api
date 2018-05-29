@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.get_Item
 title: IGPMSecurityInfo::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Given an index, returns a GPMPermission object from the collection.
 old-location: gpmc\igpmsecurityinfo_get_item.htm
 old-project: GPMC
 ms.assetid: 5f95ebd1-6be6-4990-8123-5cf5419b1a26
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMSecurityInfo class [GPMC],Item property, IGPMSecurityInfo interface [GPMC],Item property, IGPMSecurityInfo.Item, IGPMSecurityInfo.get_Item, IGPMSecurityInfo::Item, IGPMSecurityInfo::get_Item, Item property [GPMC], Item property [GPMC],GPMSecurityInfo class, Item property [GPMC],IGPMSecurityInfo interface, _win32_igpmsecurityinfo_get_item, get_Item, gpmc.igpmsecurityinfo_get_item, gpmgmt/IGPMSecurityInfo::Item, gpmgmt/IGPMSecurityInfo::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

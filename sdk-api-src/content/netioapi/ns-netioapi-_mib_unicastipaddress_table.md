@@ -1,16 +1,16 @@
 ---
 UID: NS:netioapi._MIB_UNICASTIPADDRESS_TABLE
 title: "_MIB_UNICASTIPADDRESS_TABLE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a table of unicast IP address entries.
 old-location: mib\mib_unicastipaddress_table.htm
 old-project: MIB
 ms.assetid: b064494c-d0d5-4570-b255-4cc95412fd3a
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/14/2018
 ms.keywords: "*PMIB_UNICASTIPADDRESS_TABLE, MIB_UNICASTIPADDRESS_TABLE, MIB_UNICASTIPADDRESS_TABLE structure [MIB], PMIB_UNICASTIPADDRESS_TABLE, PMIB_UNICASTIPADDRESS_TABLE structure pointer [MIB], _MIB_UNICASTIPADDRESS_TABL, _MIB_UNICASTIPADDRESS_TABLE, mib.mib_unicastipaddress_table, netioapi/MIB_UNICASTIPADDRESS_TABLE, netioapi/PMIB_UNICASTIPADDRESS_TABLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: netioapi.h
 req.include-header: Iphlpapi.h

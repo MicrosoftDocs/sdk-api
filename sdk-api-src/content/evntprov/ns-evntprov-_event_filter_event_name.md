@@ -1,16 +1,16 @@
 ---
 UID: NS:evntprov._EVENT_FILTER_EVENT_NAME
 title: "_EVENT_FILTER_EVENT_NAME"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines event IDs used in an EVENT_FILTER_DESCRIPTOR structure for an event name or stalk walk name filter.
 old-location: etw\event_filter_event_name.htm
 old-project: ETW
 ms.assetid: 85E8C8F8-31D4-42F1-9267-15F74E473D57
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PEVENT_FILTER_EVENT_NAME, EVENT_FILTER_EVENT_NAME, EVENT_FILTER_EVENT_NAME structure [ETW], _EVENT_FILTER_EVENT_NAME, etw.event_filter_event_name, evntprov/EVENT_FILTER_EVENT_NAME"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: evntprov.h
 req.include-header: 

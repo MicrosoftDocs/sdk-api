@@ -1,16 +1,16 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevices.get_Item
 title: IWindowsMediaLibrarySharingDevices::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_Item method retrieves an IWindowsMediaLibrarySharingDevice interface that represents an individual media device.
 old-location: wmlss\IWMLSDevicesget_Item.htm
 old-project: WMLSS
 ms.assetid: 1ab420b7-ee40-405f-9125-0f9b3c074ef0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services],get_Item method, IWindowsMediaLibrarySharingDevices.get_Item, IWindowsMediaLibrarySharingDevices::get_Item, get_Item, get_Item method [Windows Media Library Sharing Services], get_Item method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevices interface, wmlss.IWMLSDevicesget_Item, wmlss/IWindowsMediaLibrarySharingDevices::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h

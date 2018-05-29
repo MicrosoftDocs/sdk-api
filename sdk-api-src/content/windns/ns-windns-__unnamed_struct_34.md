@@ -1,16 +1,16 @@
 ---
 UID: NS:windns.__unnamed_struct_34
 title: DNS_ATMA_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: The DNS_ATMA_DATA structure represents a DNS ATM address (ATMA) resource record (RR).
 old-location: dns\dns_atma_data.htm
 old-project: DNS
 ms.assetid: 09df3990-36bd-4656-b5cd-792e521adf9d
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: "*PDNS_ATMA_DATA, DNS_ATMA_DATA, DNS_ATMA_DATA structure [DNS], DNS_ATMA_FORMAT_AESA, DNS_ATMA_FORMAT_E164, PDNS_ATMA_DATA, PDNS_ATMA_DATA structure pointer [DNS], _dns_dns_atma_data, dns.dns_atma_data, windns/DNS_ATMA_DATA, windns/PDNS_ATMA_DATA"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: windns.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IInternalUnknown.QueryInternalInterface
 title: IInternalUnknown::QueryInternalInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves pointers to the supported internal interfaces on an object.
 old-location: com\iinternalunknown_queryinternalinterface.htm
 old-project: com
 ms.assetid: 7fa3478a-126c-43d9-851f-effa016c33f2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IInternalUnknown interface [COM],QueryInternalInterface method, IInternalUnknown.QueryInternalInterface, IInternalUnknown::QueryInternalInterface, QueryInternalInterface, QueryInternalInterface method [COM], QueryInternalInterface method [COM],IInternalUnknown interface, _com_iinternalunknown_queryinternalinterface, com.iinternalunknown_queryinternalinterface, objidlbase/IInternalUnknown::QueryInternalInterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

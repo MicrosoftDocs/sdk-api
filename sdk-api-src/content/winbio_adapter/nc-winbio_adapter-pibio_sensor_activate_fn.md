@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_ACTIVATE_FN
 title: PIBIO_SENSOR_ACTIVATE_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Gives the Sensor Adapter the chance to perform any work needed to bring the sensor component out of an idle state.
 old-location: secbiomet\sensoradapteractivate.htm
 old-project: SecBioMet
 ms.assetid: CC5128D8-9863-4B9F-B82D-AE2A0D5A45C5
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: PIBIO_SENSOR_ACTIVATE_FN, PIBIO_SENSOR_ACTIVATE_FN callback, SensorAdapterActivate, SensorAdapterActivate callback function [Windows Biometric Framework API], secbiomet.sensoradapteractivate, winbio_adapter/SensorAdapterActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

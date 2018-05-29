@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes._IPSEC_KEY_MANAGER0
 title: "_IPSEC_KEY_MANAGER0"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to register key management callbacks with IPsec.
 old-location: fwp\ipsec_key_manager0.htm
 old-project: FWP
 ms.assetid: 942F38AF-13F4-4A2E-A504-5085EC90E74C
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_KEY_MANAGER0, IPSEC_KEY_MANAGER0 structure [Filtering], IPSEC_KEY_MANAGER_FLAG_DICTATE_KEY, _IPSEC_KEY_MANAGER0, fwp.ipsec_key_manager0, ipsectypes/IPSEC_KEY_MANAGER0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

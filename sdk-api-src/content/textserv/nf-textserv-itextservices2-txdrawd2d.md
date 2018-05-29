@@ -1,16 +1,16 @@
 ---
 UID: NF:textserv.ITextServices2.TxDrawD2D
 title: ITextServices2::TxDrawD2D
-author: windows-driver-content
+author: windows-sdk-content
 description: Draws the text services object by using Direct2D rendering.
 old-location: controls\itextservices2_txdrawd2d.htm
 old-project: Controls
 ms.assetid: B45B015A-0A2C-49DD-9AA9-FC2A530BD057
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextServices2 interface [Windows Controls],TxDrawD2D method, ITextServices2.TxDrawD2D, ITextServices2::TxDrawD2D, TXTVIEW_ACTIVE, TXTVIEW_INACTIVE, TxDrawD2D, TxDrawD2D method [Windows Controls], TxDrawD2D method [Windows Controls],ITextServices2 interface, controls.itextservices2_txdrawd2d, textserv/ITextServices2::TxDrawD2D
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textserv.h
 req.include-header: 

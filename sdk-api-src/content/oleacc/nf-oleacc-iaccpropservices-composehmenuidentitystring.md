@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccPropServices.ComposeHmenuIdentityString
 title: IAccPropServices::ComposeHmenuIdentityString
-author: windows-driver-content
+author: windows-sdk-content
 description: Callers use ComposeHmenuIdentityString to retrieve an identity string for an HMENU-based accessible element.
 old-location: winauto\iaccpropservices_iaccpropservices__composehmenuidentitystring.htm
 old-project: WinAuto
 ms.assetid: b0eb54e0-d903-46d8-a9f5-47f2c055c059
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ComposeHmenuIdentityString, ComposeHmenuIdentityString method [Windows Accessibility], ComposeHmenuIdentityString method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ComposeHmenuIdentityString method, IAccPropServices.ComposeHmenuIdentityString, IAccPropServices::ComposeHmenuIdentityString, oleacc/IAccPropServices::ComposeHmenuIdentityString, winauto.iaccpropservices_iaccpropservices__composehmenuidentitystring
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.

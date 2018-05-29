@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.SetToolbarItems
 title: IShellBrowser::SetToolbarItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds toolbar items to Windows Explorer's toolbar.
 old-location: shell\IShellBrowser_SetToolbarItems.htm
 old-project: shell
 ms.assetid: 4ff141d3-e175-464a-9869-317d547e7489
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FCT_ADDTOEND, FCT_CONFIGABLE, FCT_MERGE, IShellBrowser interface [Windows Shell],SetToolbarItems method, IShellBrowser.SetToolbarItems, IShellBrowser::SetToolbarItems, SetToolbarItems, SetToolbarItems method [Windows Shell], SetToolbarItems method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SetToolbarItems, shell.IShellBrowser_SetToolbarItems, shobjidl_core/IShellBrowser::SetToolbarItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_RAW_ENCODING
 title: "_WS_XML_WRITER_RAW_ENCODING"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to indicate that the writer should emit bytes from decoded base64 characters.
 old-location: wsw\ws_xml_writer_raw_encoding.htm
 old-project: wsw
 ms.assetid: 655a7d13-8ef1-4863-a6a2-4636ba0a8983
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_WRITER_RAW_ENCODING, WS_XML_WRITER_RAW_ENCODING structure [Web Services for Windows], _WS_XML_WRITER_RAW_ENCODING, webservices/WS_XML_WRITER_RAW_ENCODING, wsw.ws_xml_writer_raw_encoding
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

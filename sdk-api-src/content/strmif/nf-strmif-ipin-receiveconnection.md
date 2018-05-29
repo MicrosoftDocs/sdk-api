@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IPin.ReceiveConnection
 title: IPin::ReceiveConnection
-author: windows-driver-content
+author: windows-sdk-content
 description: The ReceiveConnection method accepts a connection from another pin.
 old-location: dshow\ipin_receiveconnection.htm
 old-project: DirectShow
 ms.assetid: b2013e95-88bc-4f4a-87af-2b13c120ec46
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IPin interface [DirectShow],ReceiveConnection method, IPin.ReceiveConnection, IPin::ReceiveConnection, IPinReceiveConnection, ReceiveConnection, ReceiveConnection method [DirectShow], ReceiveConnection method [DirectShow],IPin interface, dshow.ipin_receiveconnection, strmif/IPin::ReceiveConnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

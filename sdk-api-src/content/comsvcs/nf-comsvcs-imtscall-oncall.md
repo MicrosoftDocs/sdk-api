@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IMTSCall.OnCall
 title: IMTSCall::OnCall
-author: windows-driver-content
+author: windows-sdk-content
 description: Triggers the execution of the batch work implemented in this method.
 old-location: cos\imtscall_oncall.htm
 old-project: cossdk
 ms.assetid: 410ed66e-db55-41e6-8f09-df4fe3aad3f2
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMTSCall interface [COM+],OnCall method, IMTSCall.OnCall, IMTSCall::OnCall, OnCall, OnCall method [COM+], OnCall method [COM+],IMTSCall interface, _cos_IMTSCall_OnCall, comsvcs/IMTSCall::OnCall, cos.imtscall_oncall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

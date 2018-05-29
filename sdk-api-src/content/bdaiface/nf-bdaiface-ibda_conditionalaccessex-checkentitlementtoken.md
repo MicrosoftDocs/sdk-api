@@ -1,16 +1,16 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.CheckEntitlementToken
 title: IBDA_ConditionalAccessEx::CheckEntitlementToken
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks the access availability of content that is identified by an entitlement token.
 old-location: mstv\ibda_conditionalaccessex_checkentitlementtoken.htm
 old-project: mstv
 ms.assetid: ea581065-b10b-4a2a-9090-99d6fd140ea9
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CheckEntitlementToken, CheckEntitlementToken method [Microsoft TV Technologies], CheckEntitlementToken method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],CheckEntitlementToken method, IBDA_ConditionalAccessEx.CheckEntitlementToken, IBDA_ConditionalAccessEx::CheckEntitlementToken, bdaiface/IBDA_ConditionalAccessEx::CheckEntitlementToken, mstv.ibda_conditionalaccessex_checkentitlementtoken
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdaiface.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_ROOT_CONSTANTS
 title: D3D12_ROOT_CONSTANTS
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes constants inline in the root signature that appear in shaders as one constant buffer.
 old-location: direct3d12\d3d12_root_constants.htm
 old-project: direct3d12
 ms.assetid: B6630700-4F01-4D91-A8FF-3E9CB6505F51
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_ROOT_CONSTANTS, D3D12_ROOT_CONSTANTS structure, d3d12/D3D12_ROOT_CONSTANTS, direct3d12.d3d12_root_constants
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

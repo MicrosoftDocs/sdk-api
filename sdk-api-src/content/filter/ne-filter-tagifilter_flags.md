@@ -1,16 +1,16 @@
 ---
 UID: NE:filter.tagIFILTER_FLAGS
 title: tagIFILTER_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the caller should use the IPropertySetStorage and IPropertyStorage interfaces to locate additional properties.
 old-location: indexsrv\ifilter_flags.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0j03.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IFILTER_FLAGS, IFILTER_FLAGS enumeration [Indexing Service], IFILTER_FLAGS_OLE_PROPERTIES, _idxs_IFILTER_FLAGS, filter/IFILTER_FLAGS, filter/IFILTER_FLAGS_OLE_PROPERTIES, indexsrv.ifilter_flags, tagIFILTER_FLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: filter.h
 req.include-header: 

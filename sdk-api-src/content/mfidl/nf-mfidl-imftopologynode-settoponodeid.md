@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.SetTopoNodeID
 title: IMFTopologyNode::SetTopoNodeID
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the identifier for the node.
 old-location: mf\imftopologynode_settoponodeid.htm
 old-project: medfound
 ms.assetid: 80efa004-d739-4f9a-9ea3-8bf7d97f0a7d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 80efa004-d739-4f9a-9ea3-8bf7d97f0a7d, IMFTopologyNode interface [Media Foundation],SetTopoNodeID method, IMFTopologyNode.SetTopoNodeID, IMFTopologyNode::SetTopoNodeID, SetTopoNodeID, SetTopoNodeID method [Media Foundation], SetTopoNodeID method [Media Foundation],IMFTopologyNode interface, mf.imftopologynode_settoponodeid, mfidl/IMFTopologyNode::SetTopoNodeID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

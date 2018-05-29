@@ -1,16 +1,16 @@
 ---
 UID: NF:structuredquerycondition.ICondition.GetValueNormalization
 title: ICondition::GetValueNormalization
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the character-normalized value of the search condition node.
 old-location: search\_search_ICondition_GetValueNormalization.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\getvaluenormalization.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetValueNormalization, GetValueNormalization method [search], GetValueNormalization method [search],ICondition interface, ICondition interface [search],GetValueNormalization method, ICondition.GetValueNormalization, ICondition::GetValueNormalization, _search_ICondition_GetValueNormalization, search._search_ICondition_GetValueNormalization, structuredquerycondition/ICondition::GetValueNormalization
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquerycondition.h
 req.include-header: Structuredquery.h

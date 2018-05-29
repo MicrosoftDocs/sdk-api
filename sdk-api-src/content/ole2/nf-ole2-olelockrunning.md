@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleLockRunning
 title: OleLockRunning function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locks an already running object into its running state or unlocks it from its running state.
 old-location: com\olelockrunning.htm
 old-project: com
 ms.assetid: 84941a59-6880-4824-b4b9-cd1b52d2bffb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleLockRunning, OleLockRunning function [COM], _ole_OleLockRunning, com.olelockrunning, ole2/OleLockRunning
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

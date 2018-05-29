@@ -1,16 +1,16 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpointControl
 title: IAudioEndpointControl
-author: windows-driver-content
+author: windows-sdk-content
 description: Controls the stream state of an endpoint.
 old-location: termserv\iaudioendpointcontrol.htm
 old-project: TermServ
 ms.assetid: 4514521a-e9a9-4f39-ab7d-4ef7e514bd10
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IAudioEndpointControl, IAudioEndpointControl interface [Remote Desktop Services], IAudioEndpointControl interface [Remote Desktop Services],described, audioengineendpoint/IAudioEndpointControl, termserv.iaudioendpointcontrol
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: audioengineendpoint.h
 req.include-header: 

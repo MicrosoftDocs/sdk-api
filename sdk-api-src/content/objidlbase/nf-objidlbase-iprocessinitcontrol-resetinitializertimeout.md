@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IProcessInitControl.ResetInitializerTimeout
 title: IProcessInitControl::ResetInitializerTimeout
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the process initialization time-out.
 old-location: com\iprocessinitcontrol_resetinitializertimeout.htm
 old-project: com
 ms.assetid: 1045b9c9-d7ad-4306-bd9d-7c2a4bda9a62
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IProcessInitControl interface [COM],ResetInitializerTimeout method, IProcessInitControl.ResetInitializerTimeout, IProcessInitControl::ResetInitializerTimeout, ResetInitializerTimeout, ResetInitializerTimeout method [COM], ResetInitializerTimeout method [COM],IProcessInitControl interface, _com_iprocessinitcontrol_resetinitializertimeout, com.iprocessinitcontrol_resetinitializertimeout, objidlbase/IProcessInitControl::ResetInitializerTimeout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

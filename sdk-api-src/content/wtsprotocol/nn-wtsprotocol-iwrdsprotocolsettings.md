@@ -1,16 +1,16 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolSettings
 title: IWRdsProtocolSettings
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods for retrieving and adding policy-related settings.
 old-location: termserv\iwrdsprotocolsettings.htm
 old-project: TermServ
 ms.assetid: 3680a001-e162-4930-985f-5c50c2e8a8b9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsProtocolSettings, IWRdsProtocolSettings interface [Remote Desktop Services], IWRdsProtocolSettings interface [Remote Desktop Services],described, termserv.iwrdsprotocolsettings, wtsprotocol/IWRdsProtocolSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wtsprotocol.h
 req.include-header: 

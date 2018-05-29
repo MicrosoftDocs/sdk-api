@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.RelationshipExists
 title: IOpcRelationshipSet::RelationshipExists
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that indicates whether a specified relationship is represented as a relationship object in the set.
 old-location: opc\iopcrelationshipset_relationshipexists.htm
 old-project: OPC
 ms.assetid: 18c989e2-8def-492d-ac57-014f9b6fcb22
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcRelationshipSet interface [Open Packaging Conventions],RelationshipExists method, IOpcRelationshipSet.RelationshipExists, IOpcRelationshipSet::RelationshipExists, RelationshipExists, RelationshipExists method [Open Packaging Conventions], RelationshipExists method [Open Packaging Conventions],IOpcRelationshipSet interface, msopc/IOpcRelationshipSet::RelationshipExists, opc.iopcrelationshipset_relationshipexists
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

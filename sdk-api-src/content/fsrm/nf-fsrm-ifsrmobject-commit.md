@@ -1,16 +1,16 @@
 ---
 UID: NF:fsrm.IFsrmObject.Commit
 title: IFsrmObject::Commit
-author: windows-driver-content
+author: windows-sdk-content
 description: Saves the object in the server's list of objects.
 old-location: fsrm\ifsrmobject_commit.htm
 old-project: Fsrm
 ms.assetid: 81c9b1db-7756-47b2-98e6-8e819d93cd0f
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: Commit, Commit method [File Server Resource Manager], Commit method [File Server Resource Manager],IFsrmObject interface, IFsrmObject interface [File Server Resource Manager],Commit method, IFsrmObject.Commit, IFsrmObject::Commit, fs.ifsrmobject_commit, fsrm.ifsrmobject_commit, fsrm/IFsrmObject::Commit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h

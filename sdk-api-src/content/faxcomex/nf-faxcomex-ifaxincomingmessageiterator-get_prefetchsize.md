@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessageIterator.get_PrefetchSize
 title: IFaxIncomingMessageIterator::get_PrefetchSize
-author: windows-driver-content
+author: windows-sdk-content
 description: The PrefetchSize property indicates the size of the prefetch (read-ahead) buffer.
 old-location: fax\_mfax_faxincomingmessageiterator_prefetchsize_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_64th_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxIncomingMessageIterator interface [Fax Service],PrefetchSize property, IFaxIncomingMessageIterator.PrefetchSize, IFaxIncomingMessageIterator.get_PrefetchSize, IFaxIncomingMessageIterator::PrefetchSize, IFaxIncomingMessageIterator::get_PrefetchSize, IFaxIncomingMessageIterator::put_PrefetchSize, PrefetchSize property [Fax Service], PrefetchSize property [Fax Service],IFaxIncomingMessageIterator interface, _mfax_faxincomingmessageiterator.prefetchsize_cpp, fax._mfax_faxincomingmessageiterator_prefetchsize_cpp, faxcomex/IFaxIncomingMessageIterator::PrefetchSize, faxcomex/IFaxIncomingMessageIterator::get_PrefetchSize, faxcomex/IFaxIncomingMessageIterator::put_PrefetchSize, get_PrefetchSize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

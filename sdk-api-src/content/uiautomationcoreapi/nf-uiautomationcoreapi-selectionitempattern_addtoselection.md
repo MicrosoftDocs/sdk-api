@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.SelectionItemPattern_AddToSelection
 title: SelectionItemPattern_AddToSelection function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an unselected element to a selection in a control.
 old-location: winauto\uiauto_SelectionItemPattern_AddToSelectionConPat.htm
 old-project: WinAuto
 ms.assetid: 77ded493-cdf5-4e1b-b0eb-640ec46cf43a
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: SelectionItemPattern_AddToSelection, SelectionItemPattern_AddToSelection function [Windows Accessibility], uiauto.uiauto_SelectionItemPattern_AddToSelectionConPat, uiauto_SelectionItemPattern_AddToSelectionConPat, uiautomationcoreapi/SelectionItemPattern_AddToSelection, winauto.uiauto_SelectionItemPattern_AddToSelectionConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

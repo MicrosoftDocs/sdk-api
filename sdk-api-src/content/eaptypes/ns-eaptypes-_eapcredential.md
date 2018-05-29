@@ -1,16 +1,16 @@
 ---
 UID: NS:eaptypes._EapCredential
 title: "_EapCredential"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the credentials type and the appropriate credentials. This is passed as an input to the EapPeerGetConfigBlobAndUserBlob API.
 old-location: eaphost\eapcredential.htm
 old-project: EAPHost
 ms.assetid: DC1B9524-2853-404D-A77A-61CB012FCF11
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EapCredential, EapCredential structure [EAPHost], _EapCredential, eaphost.eapcredential, eaptypes/EapCredential
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

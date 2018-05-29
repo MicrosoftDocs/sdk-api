@@ -1,16 +1,16 @@
 ---
 UID: NF:micaut.IMathInputControl.Show
 title: IMathInputControl::Show
-author: windows-driver-content
+author: windows-sdk-content
 description: Shows the control.
 old-location: tablet\imathinputcontrol_show.htm
 old-project: tablet
 ms.assetid: d45d1e73-eace-4611-a4a4-28706a19766c
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMathInputControl interface [Tablet PC],Show method, IMathInputControl.Show, IMathInputControl::Show, Show, Show method [Tablet PC], Show method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::Show, tablet.imathinputcontrol_show
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: micaut.h
 req.include-header: Micaut.h

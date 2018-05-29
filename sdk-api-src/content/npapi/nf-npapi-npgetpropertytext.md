@@ -1,16 +1,16 @@
 ---
 UID: NF:npapi.NPGetPropertyText
 title: NPGetPropertyText function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the names of buttons to add to a property dialog box for a network resource.
 old-location: security\npgetpropertytext.htm
 old-project: SecAuthN
 ms.assetid: 5c4583f5-81e9-4723-8fd0-6909b0107446
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: NPGetPropertyText, NPGetPropertyText function [Security], WNPS_DIR, WNPS_FILE, WNPS_MULT, _mnp_npgetpropertytext, npapi/NPGetPropertyText, security.npgetpropertytext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: npapi.h
 req.include-header: 

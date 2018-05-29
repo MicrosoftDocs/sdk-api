@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymGetSymPrev64
 title: SymGetSymPrev64 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the symbol information for the previous symbol.
 old-location: base\symgetsymprev64.htm
 old-project: Debug
 ms.assetid: dbb1353b-5cc1-4986-a2b5-f67be7189ea8
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymGetSymPrev, SymGetSymPrev function, SymGetSymPrev64, SymGetSymPrev64 function, _win32_symgetsymprev64, base.symgetsymprev64, dbghelp/SymGetSymPrev, dbghelp/SymGetSymPrev64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

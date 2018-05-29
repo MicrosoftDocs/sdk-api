@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.get_VerticallyScrollable
 title: IScrollProvider::get_VerticallyScrollable
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether the control can scroll vertically.
 old-location: winauto\uiauto_IScrollProvider_VerticallyScrollable.htm
 old-project: WinAuto
 ms.assetid: fadc0fd7-969c-4189-b37c-9b8243e30ac1
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],VerticallyScrollable property, IScrollProvider.VerticallyScrollable, IScrollProvider.get_VerticallyScrollable, IScrollProvider::VerticallyScrollable, IScrollProvider::get_VerticallyScrollable, VerticallyScrollable property [Windows Accessibility], VerticallyScrollable property [Windows Accessibility],IScrollProvider interface, get_VerticallyScrollable, uiauto.uiauto_IScrollProvider_VerticallyScrollable, uiauto_IScrollProvider_VerticallyScrollable, uiautomationcore/IScrollProvider::VerticallyScrollable, uiautomationcore/IScrollProvider::get_VerticallyScrollable, winauto.uiauto_IScrollProvider_VerticallyScrollable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

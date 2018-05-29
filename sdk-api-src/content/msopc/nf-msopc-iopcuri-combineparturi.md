@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcUri.CombinePartUri
 title: IOpcUri::CombinePartUri
-author: windows-driver-content
+author: windows-sdk-content
 description: Forms the part name of the part that is referenced by the specified relative URI.
 old-location: opc\iopcuri_combineparturi.htm
 old-project: OPC
 ms.assetid: 9bb4c351-12ef-4e26-bcb1-59f81a413588
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: CombinePartUri, CombinePartUri method [Open Packaging Conventions], CombinePartUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],CombinePartUri method, IOpcUri.CombinePartUri, IOpcUri::CombinePartUri, msopc/IOpcUri::CombinePartUri, opc.iopcuri_combineparturi
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

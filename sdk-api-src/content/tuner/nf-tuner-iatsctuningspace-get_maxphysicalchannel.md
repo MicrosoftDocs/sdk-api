@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.get_MaxPhysicalChannel
 title: IATSCTuningSpace::get_MaxPhysicalChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_MaxPhysicalChannel method gets the highest physical channel number for this tuning space.
 old-location: mstv\iatsctuningspace_get_maxphysicalchannel.htm
 old-project: mstv
 ms.assetid: 42aeab8d-f05c-423d-bd35-ac030adc6434
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IATSCTuningSpace interface [Microsoft TV Technologies],get_MaxPhysicalChannel method, IATSCTuningSpace.get_MaxPhysicalChannel, IATSCTuningSpace::get_MaxPhysicalChannel, IATSCTuningSpaceget_MaxPhysicalChannel, get_MaxPhysicalChannel, get_MaxPhysicalChannel method [Microsoft TV Technologies], get_MaxPhysicalChannel method [Microsoft TV Technologies],IATSCTuningSpace interface, mstv.iatsctuningspace_get_maxphysicalchannel, tuner/IATSCTuningSpace::get_MaxPhysicalChannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

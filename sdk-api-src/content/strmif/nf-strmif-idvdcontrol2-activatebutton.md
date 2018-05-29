@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IDvdControl2.ActivateButton
 title: IDvdControl2::ActivateButton
-author: windows-driver-content
+author: windows-sdk-content
 description: The ActivateButton method activates the currently selected menu button.
 old-location: dshow\idvdcontrol2_activatebutton.htm
 old-project: DirectShow
 ms.assetid: 20213874-ed28-4e0a-83af-044570b2c7e3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ActivateButton, ActivateButton method [DirectShow], ActivateButton method [DirectShow],IDvdControl2 interface, IDvdControl2 interface [DirectShow],ActivateButton method, IDvdControl2.ActivateButton, IDvdControl2::ActivateButton, IDvdControl2ActivateButton, dshow.idvdcontrol2_activatebutton, strmif/IDvdControl2::ActivateButton
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

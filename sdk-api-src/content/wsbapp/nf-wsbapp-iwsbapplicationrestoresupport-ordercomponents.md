@@ -1,16 +1,16 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.OrderComponents
 title: IWsbApplicationRestoreSupport::OrderComponents
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the order in which application components are to be restored.
 old-location: wsb\iwsbapplicationrestoresupport_ordercomponents.htm
 old-project: wsb
 ms.assetid: 15250479-841d-421e-8780-6dee795f29b5
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],OrderComponents method, IWsbApplicationRestoreSupport.OrderComponents, IWsbApplicationRestoreSupport::OrderComponents, OrderComponents, OrderComponents method [Windows Server Backup], OrderComponents method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_ordercomponents, wsbapp/IWsbApplicationRestoreSupport::OrderComponents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsbapp.h
 req.include-header: 

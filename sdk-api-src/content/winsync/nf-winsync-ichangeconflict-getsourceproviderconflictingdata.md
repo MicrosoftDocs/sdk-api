@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.IChangeConflict.GetSourceProviderConflictingData
 title: IChangeConflict::GetSourceProviderConflictingData
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an object that can be used to retrieve item data for the change item from the source replica.
 old-location: winsync\ichangeconflict_getsourceproviderconflictingdata.htm
 old-project: winsync
 ms.assetid: 4227b559-59e9-4b87-beb0-2d47f3d81414
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetSourceProviderConflictingData, GetSourceProviderConflictingData method [Windows Sync], GetSourceProviderConflictingData method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetSourceProviderConflictingData method, IChangeConflict.GetSourceProviderConflictingData, IChangeConflict::GetSourceProviderConflictingData, winsync.ichangeconflict_getsourceproviderconflictingdata, winsync/IChangeConflict::GetSourceProviderConflictingData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

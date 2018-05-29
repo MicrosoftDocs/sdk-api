@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidDevice.put_Power
 title: IMSVidDevice::put_Power
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Power method turns the device on or off.
 old-location: mstv\imsviddevice_put_power.htm
 old-project: mstv
 ms.assetid: 6a0122a8-6015-4255-a7d6-ab72b4025bd6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],put_Power method, IMSVidDevice.put_Power, IMSVidDevice::put_Power, IMSVidDeviceput_Power, mstv.imsviddevice_put_power, put_Power, put_Power method [Microsoft TV Technologies], put_Power method [Microsoft TV Technologies],IMSVidDevice interface, segment/IMSVidDevice::put_Power
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

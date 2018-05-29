@@ -1,16 +1,16 @@
 ---
 UID: NF:cryptuiapi.CryptUIDlgViewCertificateA
 title: CryptUIDlgViewCertificateA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Presents a dialog box that displays a specified certificate.
 old-location: security\cryptuidlgviewcertificate.htm
 old-project: SecCrypto
 ms.assetid: 5107ff22-78c4-4005-80af-ff45781da6c7
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptUIDlgViewCertificate, CryptUIDlgViewCertificate function [Security], CryptUIDlgViewCertificateA, CryptUIDlgViewCertificateW, cryptuiapi/CryptUIDlgViewCertificate, cryptuiapi/CryptUIDlgViewCertificateA, cryptuiapi/CryptUIDlgViewCertificateW, security.cryptuidlgviewcertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cryptuiapi.h
 req.include-header: 

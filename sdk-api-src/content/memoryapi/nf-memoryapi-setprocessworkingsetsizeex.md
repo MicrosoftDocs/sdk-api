@@ -1,16 +1,16 @@
 ---
 UID: NF:memoryapi.SetProcessWorkingSetSizeEx
 title: SetProcessWorkingSetSizeEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the minimum and maximum working set sizes for the specified process.
 old-location: base\setprocessworkingsetsizeex.htm
 old-project: ProcThread
 ms.assetid: 04332239-dfc2-4d32-987a-af187e725b71
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: QUOTA_LIMITS_HARDWS_MAX_DISABLE, QUOTA_LIMITS_HARDWS_MAX_ENABLE, QUOTA_LIMITS_HARDWS_MIN_DISABLE, QUOTA_LIMITS_HARDWS_MIN_ENABLE, SetProcessWorkingSetSizeEx, SetProcessWorkingSetSizeEx function, base.setprocessworkingsetsizeex, memoryapi/SetProcessWorkingSetSizeEx, winbase/SetProcessWorkingSetSizeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: memoryapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

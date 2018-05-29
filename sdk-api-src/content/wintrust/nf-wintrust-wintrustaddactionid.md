@@ -1,16 +1,16 @@
 ---
 UID: NF:wintrust.WintrustAddActionID
 title: WintrustAddActionID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a trust provider action to the user's system.
 old-location: security\wintrustaddactionid.htm
 old-project: SecCrypto
 ms.assetid: 3b282342-9c86-42fa-b745-e5194d2885dc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: HTTPSPROV_ACTION, WINTRUST_ACTION_GENERIC_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WintrustAddActionID, WintrustAddActionID function [Security], security.wintrustaddactionid, wintrust/WintrustAddActionID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.RtlInstallFunctionTableCallback
 title: RtlInstallFunctionTableCallback function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a dynamic function table to the dynamic function table list.
 old-location: base\rtlinstallfunctiontablecallback.htm
 old-project: Debug
 ms.assetid: 63b35b17-0b0e-46ed-9dbf-98290ab08bd1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtlInstallFunctionTableCallback, RtlInstallFunctionTableCallback function, base.rtlinstallfunctiontablecallback, winnt/RtlInstallFunctionTableCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

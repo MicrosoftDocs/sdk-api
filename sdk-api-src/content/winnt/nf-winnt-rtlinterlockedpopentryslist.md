@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.RtlInterlockedPopEntrySList
 title: RtlInterlockedPopEntrySList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an item from the front of a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\rtlinterlockedpopentryslist.htm
 old-project: Sync
 ms.assetid: a3c14d28-627f-42e1-b149-04a333a2cde1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtlInterlockedPopEntrySList, RtlInterlockedPopEntrySList function, base.rtlinterlockedpopentryslist, winnt/RtlInterlockedPopEntrySList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnt.h
 req.include-header: Windows.h

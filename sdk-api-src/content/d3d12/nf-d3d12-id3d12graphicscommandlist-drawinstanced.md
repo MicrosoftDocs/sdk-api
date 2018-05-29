@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.DrawInstanced
 title: ID3D12GraphicsCommandList::DrawInstanced
-author: windows-driver-content
+author: windows-sdk-content
 description: Draws non-indexed, instanced primitives.
 old-location: direct3d12\id3d12graphicscommandlist_drawinstanced.htm
 old-project: direct3d12
 ms.assetid: BB10C732-1F42-417D-ADDE-55E870AD5FE9
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: DrawInstanced, DrawInstanced method, DrawInstanced method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,DrawInstanced method, ID3D12GraphicsCommandList.DrawInstanced, ID3D12GraphicsCommandList::DrawInstanced, d3d12/ID3D12GraphicsCommandList::DrawInstanced, direct3d12.id3d12graphicscommandlist_drawinstanced
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamLength
 title: AVIStreamLength function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamLength function returns the length of the stream.
 old-location: multimedia\avistreamlength.htm
 old-project: Multimedia
 ms.assetid: 5fc5dd31-9f2d-48c8-8d7e-76add4608473
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamLength, AVIStreamLength function [Windows Multimedia], _win32_AVIStreamLength, multimedia.avistreamlength, vfw/AVIStreamLength
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

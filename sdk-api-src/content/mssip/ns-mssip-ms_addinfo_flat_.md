@@ -1,16 +1,16 @@
 ---
 UID: NS:mssip.MS_ADDINFO_FLAT_
 title: MS_ADDINFO_FLAT_
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides additional information about flat or end-to-end subject types.
 old-location: security\ms_addinfo_flat.htm
 old-project: SecCrypto
 ms.assetid: 9f5bebd1-8eda-456d-9339-3334a19c0ea4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PMS_ADDINFO_FLAT, MS_ADDINFO_FLAT, MS_ADDINFO_FLAT structure [Security], MS_ADDINFO_FLAT_, PMS_ADDINFO_FLAT, PMS_ADDINFO_FLAT structure pointer [Security], mssip/MS_ADDINFO_FLAT_, mssip/PMS_ADDINFO_FLAT, security.ms_addinfo_flat"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mssip.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:vidcap.IKsNodeControl
 title: IKsNodeControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The IKsNodeControl interface must be implemented by USB Video Class (UVC) extension units.
 old-location: dshow\iksnodecontrol.htm
 old-project: DirectShow
 ms.assetid: c38ce847-726a-4c1a-9276-810385af6c9f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IKsNodeControl, IKsNodeControl interface [DirectShow], IKsNodeControl interface [DirectShow],described, IKsNodeControlInterface, dshow.iksnodecontrol, vidcap/IKsNodeControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vidcap.h
 req.include-header: 

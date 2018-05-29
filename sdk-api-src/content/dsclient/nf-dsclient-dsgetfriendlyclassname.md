@@ -1,16 +1,16 @@
 ---
 UID: NF:dsclient.DsGetFriendlyClassName
 title: DsGetFriendlyClassName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the localized name for an object class.
 old-location: ad\dsgetfriendlyclassname.htm
 old-project: AD
 ms.assetid: 944b7227-2f22-418e-a9da-6fddec66876b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsGetFriendlyClassName, DsGetFriendlyClassName function [Active Directory], ad.dsgetfriendlyclassname, dsclient/DsGetFriendlyClassName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dsclient.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.DllInstall
 title: DllInstall function
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles installation and setup for a DLL.
 old-location: shell\DllInstall.htm
 old-project: shell
 ms.assetid: d161f2ec-31e6-405e-b76c-9976b0880816
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: DllInstall, DllInstall function [Windows Shell], _win32_DllInstall, shell.DllInstall, shlwapi/DllInstall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

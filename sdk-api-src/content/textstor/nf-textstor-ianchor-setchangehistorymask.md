@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.IAnchor.SetChangeHistoryMask
 title: IAnchor::SetChangeHistoryMask
-author: windows-driver-content
+author: windows-sdk-content
 description: This method has not been implemented.
 old-location: tsf\ianchor_setchangehistorymask.htm
 old-project: TSF
 ms.assetid: b6be9a29-5d39-4719-a7e3-0c0921ecd89a
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IAnchor interface [Text Services Framework],SetChangeHistoryMask method, IAnchor.SetChangeHistoryMask, IAnchor::SetChangeHistoryMask, SetChangeHistoryMask, SetChangeHistoryMask method [Text Services Framework], SetChangeHistoryMask method [Text Services Framework],IAnchor interface, textstor/IAnchor::SetChangeHistoryMask, tsf.ianchor_setchangehistorymask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

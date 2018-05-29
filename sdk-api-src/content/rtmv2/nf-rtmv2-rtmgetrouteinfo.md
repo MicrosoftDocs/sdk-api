@@ -1,16 +1,16 @@
 ---
 UID: NF:rtmv2.RtmGetRouteInfo
 title: RtmGetRouteInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RtmGetRouteInfo function returns information for the specified route.
 old-location: rras\rtmgetrouteinfo.htm
 old-project: RRAS
 ms.assetid: 13fc70de-f6cd-4e7a-b79d-c2fe811e08a4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtmGetRouteInfo, RtmGetRouteInfo function [RAS], _rtmv2ref_rtmgetrouteinfo, rras.rtmgetrouteinfo, rtmv2/RtmGetRouteInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtmv2.h
 req.include-header: 

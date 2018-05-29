@@ -1,16 +1,16 @@
 ---
 UID: NN:segment.IMSVidInputDevice
 title: IMSVidInputDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMSVidInputDevice interface represents any input device that is recognized by the Video Control, such as a television tuner card.
 old-location: mstv\imsvidinputdevice.htm
 old-project: mstv
 ms.assetid: 5b413ade-4ab2-45fa-98b2-fd93c8f89a43
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidInputDevice, IMSVidInputDevice interface [Microsoft TV Technologies], IMSVidInputDevice interface [Microsoft TV Technologies],described, IMSVidInputDeviceInterface, mstv.imsvidinputdevice, segment/IMSVidInputDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: segment.h
 req.include-header: Msvidctl.h

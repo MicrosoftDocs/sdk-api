@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.PtrdiffTAdd
 title: PtrdiffTAdd function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds two values of type ptrdiff_t.
 old-location: shell\PtrdiffTAdd.htm
 old-project: shell
 ms.assetid: ed670d8a-ede5-47c5-9cf9-eea32609f195
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PtrdiffTAdd, PtrdiffTAdd function [Windows Shell], intsafe/PtrdiffTAdd, shell.PtrdiffTAdd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

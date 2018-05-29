@@ -1,16 +1,16 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.SetBackgroundClr
 title: IVMRMixerControl9::SetBackgroundClr
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetBackgroundClr method sets the background color on the output rectangle.
 old-location: dshow\ivmrmixercontrol9_setbackgroundclr.htm
 old-project: DirectShow
 ms.assetid: fed7f4bb-519c-4e02-be99-065b9131e57c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetBackgroundClr method, IVMRMixerControl9.SetBackgroundClr, IVMRMixerControl9::SetBackgroundClr, IVMRMixerControl9SetBackgroundClr, SetBackgroundClr, SetBackgroundClr method [DirectShow], SetBackgroundClr method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setbackgroundclr, vmr9/IVMRMixerControl9::SetBackgroundClr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.PathIsSystemFolderW
 title: PathIsSystemFolderW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if an existing folder contains the attributes that make it a system folder. Alternately, this function indicates if certain attributes qualify a folder to be a system folder.
 old-location: shell\PathIsSystemFolder.htm
 old-project: shell
 ms.assetid: 796901a8-1bc1-4fd1-b5b8-acd8f930ff14
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PathIsSystemFolder, PathIsSystemFolder function [Windows Shell], PathIsSystemFolderA, PathIsSystemFolderW, _win32_PathIsSystemFolder, shell.PathIsSystemFolder, shlwapi/PathIsSystemFolder, shlwapi/PathIsSystemFolderA, shlwapi/PathIsSystemFolderW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

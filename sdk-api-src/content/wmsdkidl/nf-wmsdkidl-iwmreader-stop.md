@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Stop
 title: IWMReader::Stop
-author: windows-driver-content
+author: windows-sdk-content
 description: The Stop method stops reading the file.
 old-location: wmformat\iwmreader_stop.htm
 old-project: wmformat
 ms.assetid: 781d1882-4b48-4415-9b3a-788207b42151
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMReader interface [windows Media Format],Stop method, IWMReader.Stop, IWMReader::Stop, IWMReaderStop, Stop, Stop method [windows Media Format], Stop method [windows Media Format],IWMReader interface, wmformat.iwmreader_stop, wmsdkidl/IWMReader::Stop
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

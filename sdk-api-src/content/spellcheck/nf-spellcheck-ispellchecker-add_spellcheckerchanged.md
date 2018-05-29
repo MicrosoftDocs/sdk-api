@@ -1,16 +1,16 @@
 ---
 UID: NF:spellcheck.ISpellChecker.add_SpellCheckerChanged
 title: ISpellChecker::add_SpellCheckerChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an event handler (ISpellCheckerChangedEventHandler) for the SpellCheckerChanged event.
 old-location: intl\ispellchecker_add_spellcheckerchanged.htm
 old-project: Intl
 ms.assetid: d539ab54-8a09-4857-8b48-5d19a34a5865
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],add_SpellCheckerChanged method, ISpellChecker.add_SpellCheckerChanged, ISpellChecker::add_SpellCheckerChanged, add_SpellCheckerChanged, add_SpellCheckerChanged method [Internationalization for Windows Applications], add_SpellCheckerChanged method [Internationalization for Windows Applications],ISpellChecker interface, intl.ispellchecker_add_spellcheckerchanged, spellcheck/ISpellChecker::add_SpellCheckerChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: spellcheck.h
 req.include-header: 

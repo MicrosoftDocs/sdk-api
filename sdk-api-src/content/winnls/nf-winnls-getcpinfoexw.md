@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.GetCPInfoExW
 title: GetCPInfoExW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about any valid installed or available code page.
 old-location: intl\getcpinfoex.htm
 old-project: Intl
 ms.assetid: c21ed6fe-85b6-438a-8f53-e30833e0c88a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_THREAD_ACP, GetCPInfoEx, GetCPInfoEx function [Internationalization for Windows Applications], GetCPInfoExA, GetCPInfoExW, _win32_GetCPInfoEx, intl.getcpinfoex, winnls/GetCPInfoEx, winnls/GetCPInfoExA, winnls/GetCPInfoExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

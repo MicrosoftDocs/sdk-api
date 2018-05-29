@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.TAPIERROR_FORMATMESSAGE
 title: TAPIERROR_FORMATMESSAGE macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The TAPIERROR_FORMATMESSAGE macro generates an identifier for standard TAPI error codes that can be used in the FormatMessage function.
 old-location: tapi2\tapierror_formatmessage.htm
 old-project: Tapi
 ms.assetid: 95817592-467f-438e-ae81-b4c2fff42d1f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: TAPIERROR_FORMATMESSAGE, TAPIERROR_FORMATMESSAGE macro [TAPI 2.2], _tapi2_tapierror_formatmessage, tapi/TAPIERROR_FORMATMESSAGE, tapi2.tapierror_formatmessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: tapi.h
 req.include-header: 

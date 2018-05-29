@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFByteStreamCacheControl.StopBackgroundTransfer
 title: IMFByteStreamCacheControl::StopBackgroundTransfer
-author: windows-driver-content
+author: windows-sdk-content
 description: Stops the background transfer of data to the local cache.
 old-location: mf\imfbytestreamcachecontrol_stopbackgroundtransfer.htm
 old-project: medfound
 ms.assetid: 9f0f7102-c839-4e92-a798-5ea31ceba013
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFByteStreamCacheControl interface [Media Foundation],StopBackgroundTransfer method, IMFByteStreamCacheControl.StopBackgroundTransfer, IMFByteStreamCacheControl::StopBackgroundTransfer, StopBackgroundTransfer, StopBackgroundTransfer method [Media Foundation], StopBackgroundTransfer method [Media Foundation],IMFByteStreamCacheControl interface, mf.imfbytestreamcachecontrol_stopbackgroundtransfer, mfidl/IMFByteStreamCacheControl::StopBackgroundTransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

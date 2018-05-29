@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.Pager_SetChild
 title: Pager_SetChild macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the contained window for the pager control.
 old-location: controls\Pager_SetChild.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setchild.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Pager_SetChild, Pager_SetChild macro [Windows Controls], _win32_Pager_SetChild, _win32_Pager_SetChild_cpp, commctrl/Pager_SetChild, controls.Pager_SetChild, controls._win32_Pager_SetChild
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

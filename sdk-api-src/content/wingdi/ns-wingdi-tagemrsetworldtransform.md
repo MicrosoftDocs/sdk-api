@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRSETWORLDTRANSFORM
 title: tagEMRSETWORLDTRANSFORM
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRSETWORLDTRANSFORM structure contains members for the SetWorldTransform enhanced metafile record.
 old-location: gdi\emrsetworldtransform.htm
 old-project: gdi
 ms.assetid: 08e5e272-22b5-4097-a293-f5a1fd865edf
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRSETWORLDTRANSFORM, EMRSETWORLDTRANSFORM, EMRSETWORLDTRANSFORM structure [Windows GDI], PEMRSETWORLDTRANSFORM, PEMRSETWORLDTRANSFORM structure pointer [Windows GDI], _win32_EMRSETWORLDTRANSFORM_str, gdi.emrsetworldtransform, tagEMRSETWORLDTRANSFORM, wingdi/EMRSETWORLDTRANSFORM, wingdi/PEMRSETWORLDTRANSFORM"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

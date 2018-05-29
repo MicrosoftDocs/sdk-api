@@ -1,16 +1,16 @@
 ---
 UID: NF:werapi.WerReportSetUIOption
 title: WerReportSetUIOption function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the user interface options for the specified report.
 old-location: wer\werreportsetuioption.htm
 old-project: wer
 ms.assetid: c8816782-faec-490e-898f-a40df8fb205b
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: WerReportSetUIOption, WerReportSetUIOption function [Windows Error Reporting], WerUIAdditionalDataDlgHeader, WerUICloseDlgBody, WerUICloseDlgButtonText, WerUICloseDlgHeader, WerUICloseText, WerUIConsentDlgBody, WerUIConsentDlgHeader, WerUIIconFilePath, WerUIOfflineSolutionCheckText, WerUIOnlineSolutionCheckText, base.werreportsetuioption, wer.werreportsetuioption, werapi/WerReportSetUIOption
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: werapi.h
 req.include-header: 

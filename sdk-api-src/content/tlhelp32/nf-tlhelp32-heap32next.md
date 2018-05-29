@@ -1,16 +1,16 @@
 ---
 UID: NF:tlhelp32.Heap32Next
 title: Heap32Next function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the next block of a heap that has been allocated by a process.
 old-location: toolhelp\heap32next.htm
 old-project: ToolHelp
 ms.assetid: cc3becd0-edba-47cf-ac2d-26a5d98390e7
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Heap32Next, Heap32Next function [ToolHelp], _win32_heap32next, base.heap32next, tlhelp32/Heap32Next, toolhelp.heap32next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tlhelp32.h
 req.include-header: 

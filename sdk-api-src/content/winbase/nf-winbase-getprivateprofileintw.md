@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetPrivateProfileIntW
 title: GetPrivateProfileIntW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an integer associated with a key in the specified section of an initialization file.
 old-location: base\getprivateprofileint.htm
 old-project: SysInfo
 ms.assetid: dcb48ec3-7172-4bcc-a833-23e34a73d70b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPrivateProfileInt, GetPrivateProfileInt function, GetPrivateProfileIntA, GetPrivateProfileIntW, _win32_getprivateprofileint, base.getprivateprofileint, winbase/GetPrivateProfileInt, winbase/GetPrivateProfileIntA, winbase/GetPrivateProfileIntW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

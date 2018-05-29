@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcServerInterfaceGroupActivate
 title: RpcServerInterfaceGroupActivate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcServerInterfaceGroupActivate function tells the RPC server runtime to register the interface group’s interfaces and endpoints and begin listening for calls.
 old-location: rpc\rpcserverinterfacegroupactivate.htm
 old-project: Rpc
 ms.assetid: A467DDEC-BEB1-4050-B540-4A1E819E7373
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcServerInterfaceGroupActivate, RpcServerInterfaceGroupActivate function [RPC], rpc.rpcserverinterfacegroupactivate, rpcdce/RpcServerInterfaceGroupActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: Rpc.h

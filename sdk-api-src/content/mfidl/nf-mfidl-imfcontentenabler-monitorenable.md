@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.MonitorEnable
 title: IMFContentEnabler::MonitorEnable
-author: windows-driver-content
+author: windows-sdk-content
 description: Requests notification when the enabling action is completed.
 old-location: mf\imfcontentenabler_monitorenable.htm
 old-project: medfound
 ms.assetid: 78fc4a17-f58c-4654-b37e-6b988848ff0d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 78fc4a17-f58c-4654-b37e-6b988848ff0d, IMFContentEnabler interface [Media Foundation],MonitorEnable method, IMFContentEnabler.MonitorEnable, IMFContentEnabler::MonitorEnable, MonitorEnable, MonitorEnable method [Media Foundation], MonitorEnable method [Media Foundation],IMFContentEnabler interface, mf.imfcontentenabler_monitorenable, mfidl/IMFContentEnabler::MonitorEnable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

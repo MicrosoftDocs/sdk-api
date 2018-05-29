@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordCreateCopy
 title: IRecordInfo::RecordCreateCopy
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of an instance of a record to the specified location.
 old-location: automat\irecordinfo_recordcreatecopy.htm
 old-project: automat
 ms.assetid: 9cc2a46a-ec92-46a7-8b75-8c36598cc441
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IRecordInfo interface [Automation],RecordCreateCopy method, IRecordInfo.RecordCreateCopy, IRecordInfo::RecordCreateCopy, RecordCreateCopy, RecordCreateCopy method [Automation], RecordCreateCopy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordCreateCopy, automat.irecordinfo_recordcreatecopy, oaidl/IRecordInfo::RecordCreateCopy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

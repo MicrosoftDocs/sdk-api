@@ -1,16 +1,16 @@
 ---
 UID: NF:dsadmin.IDsAdminNotifyHandler.Notify
 title: IDsAdminNotifyHandler::Notify
-author: windows-driver-content
+author: windows-sdk-content
 description: Called for each object after the confirmation dialog box has been displayed and the notification handler is selected in the confirmation dialog box.
 old-location: ad\idsadminnotifyhandler_notify.htm
 old-project: AD
 ms.assetid: ac0b9da5-b0e3-4280-ae9c-602e28c907b1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: IDsAdminNotifyHandler interface [Active Directory],Notify method, IDsAdminNotifyHandler.Notify, IDsAdminNotifyHandler::Notify, Notify, Notify method [Active Directory], Notify method [Active Directory],IDsAdminNotifyHandler interface, _glines_idsadminnotifyhandler_notify, ad.idsadminnotifyhandler__notify, ad.idsadminnotifyhandler_notify, dsadmin/IDsAdminNotifyHandler::Notify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dsadmin.h
 req.include-header: 

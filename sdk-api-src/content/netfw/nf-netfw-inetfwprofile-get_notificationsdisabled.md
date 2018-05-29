@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwProfile.get_NotificationsDisabled
 title: INetFwProfile::get_NotificationsDisabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether interactive firewall notifications are disabled.
 old-location: ics\inetfwprofile_notificationsdisabled.htm
 old-project: ICS
 ms.assetid: d184f39d-561f-40aa-99d4-b80e4d0a1aaf
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],NotificationsDisabled property, INetFwProfile.NotificationsDisabled, INetFwProfile.get_NotificationsDisabled, INetFwProfile::NotificationsDisabled, INetFwProfile::get_NotificationsDisabled, INetFwProfile::put_NotificationsDisabled, NotificationsDisabled property [ICS/ICF], NotificationsDisabled property [ICS/ICF],INetFwProfile interface, get_NotificationsDisabled, ics.inetfwprofile_notificationsdisabled, netfw/INetFwProfile::NotificationsDisabled, netfw/INetFwProfile::get_NotificationsDisabled, netfw/INetFwProfile::put_NotificationsDisabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

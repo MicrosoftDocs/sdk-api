@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo3.SetCodecEnumerationSetting
 title: IWMCodecInfo3::SetCodecEnumerationSetting
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetCodecEnumerationSetting method sets the value of one codec enumeration setting. Codec enumeration settings dictate the codec formats that can be enumerated by the methods of IWMCodecInfo.
 old-location: wmformat\iwmcodecinfo3_setcodecenumerationsetting.htm
 old-project: wmformat
 ms.assetid: 5b4883b8-63c0-40ff-b13f-303d30ebfe15
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMCodecInfo3 interface [windows Media Format],SetCodecEnumerationSetting method, IWMCodecInfo3.SetCodecEnumerationSetting, IWMCodecInfo3::SetCodecEnumerationSetting, IWMCodecInfo3SetCodecEnumerationSetting, SetCodecEnumerationSetting, SetCodecEnumerationSetting method [windows Media Format], SetCodecEnumerationSetting method [windows Media Format],IWMCodecInfo3 interface, wmformat.iwmcodecinfo3_setcodecenumerationsetting, wmsdkidl/IWMCodecInfo3::SetCodecEnumerationSetting
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

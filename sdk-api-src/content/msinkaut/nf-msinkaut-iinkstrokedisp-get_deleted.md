@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_Deleted
 title: IInkStrokeDisp::get_Deleted
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that specifies whether a known stroke is deleted from the ink.
 old-location: tablet\iinkstrokedisp_deleted.htm
 old-project: tablet
 ms.assetid: d34eaf9d-ad2a-4bf7-ac6d-ed4b19134a50
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Deleted property [Tablet PC], Deleted property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],Deleted property, IInkStrokeDisp.Deleted, IInkStrokeDisp.get_Deleted, IInkStrokeDisp::Deleted, IInkStrokeDisp::get_Deleted, d34eaf9d-ad2a-4bf7-ac6d-ed4b19134a50, get_Deleted, msinkaut/IInkStrokeDisp::Deleted, msinkaut/IInkStrokeDisp::get_Deleted, tablet.iinkstrokedisp_deleted
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

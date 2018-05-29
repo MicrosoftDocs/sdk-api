@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IkeextSaDbSetSecurityInfo0
 title: IkeextSaDbSetSecurityInfo0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: The IkeextSaDbSetSecurityInfo0 function sets specified security information in the security descriptor of the IKE/AuthIP security association database.
 old-location: fwp\ikeextsadbsetsecurityinfo0.htm
 old-project: FWP
 ms.assetid: a1707cc4-7b61-4626-b98b-e9fb853d1ccf
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IkeextSaDbSetSecurityInfo0, IkeextSaDbSetSecurityInfo0 function [Filtering], fwp.ikeextsadbsetsecurityinfo0, fwpmu/IkeextSaDbSetSecurityInfo0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

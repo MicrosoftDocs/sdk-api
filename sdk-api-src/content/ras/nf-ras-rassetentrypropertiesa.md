@@ -1,16 +1,16 @@
 ---
 UID: NF:ras.RasSetEntryPropertiesA
 title: RasSetEntryPropertiesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RasSetEntryProperties function changes the connection information for an entry in the phone book or creates a new phone-book entry.
 old-location: rras\rassetentryproperties.htm
 old-project: RRAS
 ms.assetid: 6532b48b-0d80-4993-800e-c808bb7540d6
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RasSetEntryProperties, RasSetEntryProperties function [RAS], RasSetEntryPropertiesA, RasSetEntryPropertiesW, _ras_rassetentryproperties, ras/RasSetEntryProperties, ras/RasSetEntryPropertiesA, ras/RasSetEntryPropertiesW, rras.rassetentryproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ras.h
 req.include-header: 

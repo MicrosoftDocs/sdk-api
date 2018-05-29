@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.HasRestrictedFonts
 title: IXpsOMPageReference::HasRestrictedFonts
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a Boolean value that indicates whether the document sub-tree of the referenced page includes any Glyphs that have a font resource whose EmbeddingOption property is set to XPS_FONT_EMBEDDING_RESTRICTED.
 old-location: xps\ixpsompagereference_hasrestrictedfonts.htm
 old-project: printdocs
 ms.assetid: 721dffd7-a15f-4028-be9e-854a4445d76d
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FALSE, HasRestrictedFonts, HasRestrictedFonts method [XPS Documents and Packaging], HasRestrictedFonts method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],HasRestrictedFonts method, IXpsOMPageReference.HasRestrictedFonts, IXpsOMPageReference::HasRestrictedFonts, TRUE, xps.ixpsompagereference_hasrestrictedfonts, xpsobjectmodel/IXpsOMPageReference::HasRestrictedFonts
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

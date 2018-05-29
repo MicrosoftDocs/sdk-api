@@ -1,16 +1,16 @@
 ---
 UID: NN:docobj.IOleDocumentSite
 title: IOleDocumentSite
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables a document that has been implemented as a document object to bypass the normal activation sequence for in-place-active objects and to directly instruct its client site to activate it as a document object.
 old-location: com\ioledocumentsite.htm
 old-project: com
 ms.assetid: cac435c9-caee-4751-9ad8-df48b6d4c7e0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleDocumentSite, IOleDocumentSite interface [COM], IOleDocumentSite interface [COM],described, _ole_ioledocumentsite, com.ioledocumentsite, docobj/IOleDocumentSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: docobj.h
 req.include-header: 

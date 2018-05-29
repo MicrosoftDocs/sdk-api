@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.WMCreateProfileManager
 title: WMCreateProfileManager function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WMCreateProfileManager function creates a profile manager object.
 old-location: wmformat\wmcreateprofilemanager.htm
 old-project: wmformat
 ms.assetid: 77eea431-74a0-449e-847e-7885ab33bda1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WMCreateProfileManager, WMCreateProfileManager function [windows Media Format], wmformat.wmcreateprofilemanager, wmsdkidl/WMCreateProfileManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

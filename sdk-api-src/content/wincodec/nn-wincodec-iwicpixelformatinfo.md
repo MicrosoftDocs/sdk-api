@@ -1,16 +1,16 @@
 ---
 UID: NN:wincodec.IWICPixelFormatInfo
 title: IWICPixelFormatInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that provide information about a pixel format.
 old-location: wic\_wic_codec_iwicpixelformatinfo.htm
 old-project: wic
 ms.assetid: d5853b27-4329-40d8-bfd0-b4b0f39ba6d5
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICPixelFormatInfo, IWICPixelFormatInfo interface [Windows Imaging Component], IWICPixelFormatInfo interface [Windows Imaging Component],described, _wic_codec_iwicpixelformatinfo, wic._wic_codec_iwicpixelformatinfo, wincodec/IWICPixelFormatInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wincodec.h
 req.include-header: 

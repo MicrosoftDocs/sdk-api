@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsVolumePlex
 title: IVdsVolumePlex
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for maintaining volume plexes.
 old-location: base\ivdsvolumeplex.htm
 old-project: VDS
 ms.assetid: 91970f8b-2b19-4054-8aa2-28e1ea74b3f6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsVolumePlex, IVdsVolumePlex interface [VDS], IVdsVolumePlex interface [VDS],described, base.ivdsvolumeplex, vds/IVdsVolumePlex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

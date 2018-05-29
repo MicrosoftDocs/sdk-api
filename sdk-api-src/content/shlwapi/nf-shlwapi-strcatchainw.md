@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrCatChainW
 title: StrCatChainW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Concatenates two Unicode strings. Used when repeated concatenations to the same buffer are required.
 old-location: shell\StrCatChainW.htm
 old-project: shell
 ms.assetid: 8df35616-f6f3-45eb-9a83-89fc84938fd7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrCatChainW, StrCatChainW function [Windows Shell], _shell_StrCatChainW, shell.StrCatChainW, shlwapi/StrCatChainW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

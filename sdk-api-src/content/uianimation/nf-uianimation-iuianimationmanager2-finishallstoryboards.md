@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.FinishAllStoryboards
 title: IUIAnimationManager2::FinishAllStoryboards
-author: windows-driver-content
+author: windows-sdk-content
 description: Finishes all active storyboards within the specified time interval.
 old-location: uianimation\iuianimationmanager2_finishallstoryboards.htm
 old-project: UIAnimation
 ms.assetid: 830A5D30-68FF-4226-AC7C-7B1C5F7BA367
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: FinishAllStoryboards, FinishAllStoryboards method [Windows Animation], FinishAllStoryboards method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],FinishAllStoryboards method, IUIAnimationManager2.FinishAllStoryboards, IUIAnimationManager2::FinishAllStoryboards, uianimation.iuianimationmanager2_finishallstoryboards, uianimation/IUIAnimationManager2::FinishAllStoryboards
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_KEY_VALUE
 title: "_CRYPT_XML_KEY_VALUE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a single public key that may be useful in validating the signature.
 old-location: security\crypt_xml_key_value.htm
 old-project: SecCrypto
 ms.assetid: 7aadd268-41bc-4ba3-babb-2ca7b13f378b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CRYPT_XML_KEY_VALUE, CRYPT_XML_KEY_VALUE structure [Security], CRYPT_XML_KEY_VALUE_TYPE_CUSTOM, CRYPT_XML_KEY_VALUE_TYPE_DSA, CRYPT_XML_KEY_VALUE_TYPE_ECDSA, CRYPT_XML_KEY_VALUE_TYPE_RSA, _CRYPT_XML_KEY_VALUE, cryptxml/CRYPT_XML_KEY_VALUE, security.crypt_xml_key_value
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: cryptxml.h
 req.include-header: 

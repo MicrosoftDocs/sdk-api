@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.WriteLogRecordVariants
 title: ICrmLogControl::WriteLogRecordVariants
-author: windows-driver-content
+author: windows-sdk-content
 description: The CRM Worker and CRM Compensator use this method to write structured log records to the log.
 old-location: cos\icrmlogcontrol_writelogrecordvariants.htm
 old-project: cossdk
 ms.assetid: ebd3943d-0c77-49fe-a53e-bc0c45e13a54
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICrmLogControl interface [COM+],WriteLogRecordVariants method, ICrmLogControl.WriteLogRecordVariants, ICrmLogControl::WriteLogRecordVariants, WriteLogRecordVariants, WriteLogRecordVariants method [COM+], WriteLogRecordVariants method [COM+],ICrmLogControl interface, _dtc_ICrmLogControl_WriteLogRecordVariants, comsvcs/ICrmLogControl::WriteLogRecordVariants, cos.icrmlogcontrol_writelogrecordvariants
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

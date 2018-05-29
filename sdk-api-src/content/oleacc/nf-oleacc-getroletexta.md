@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.GetRoleTextA
 title: GetRoleTextA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the localized string that describes the object's role for the specified role value.
 old-location: winauto\getroletext.htm
 old-project: WinAuto
 ms.assetid: 58436001-92d7-4afa-af07-169c8bbda9ba
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: GetRoleText, GetRoleText function [Windows Accessibility], GetRoleTextA, GetRoleTextW, _msaa_GetRoleText, msaa.getroletext, oleacc/GetRoleText, oleacc/GetRoleTextA, oleacc/GetRoleTextW, winauto.getroletext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleacc.h
 req.include-header: 

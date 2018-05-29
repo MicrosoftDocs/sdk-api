@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_Disconnect
 title: CStdStubBuffer_Disconnect function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CStdStubBuffer_Disconnect function implements the IRpcStubBuffer::Disconnect method and disconnects the server object from the stub.
 old-location: rpc\cstdstubbuffer_disconnect.htm
 old-project: Rpc
 ms.assetid: 8b040523-6329-4db0-9f46-1c34b958b15f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: CStdStubBuffer_Disconnect, CStdStubBuffer_Disconnect function [RPC], rpc.cstdstubbuffer_disconnect, rpcproxy/CStdStubBuffer_Disconnect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcproxy.h
 req.include-header: 

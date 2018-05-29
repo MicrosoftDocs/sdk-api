@@ -1,16 +1,16 @@
 ---
 UID: NS:dinputd.DIDEVICESTATE
 title: DIDEVICESTATE
-author: windows-driver-content
+author: windows-sdk-content
 description: The DIDEVICESTATE structure returns information about the state of a force feedback device.
 old-location: hid\didevicestate.htm
 old-project: hid
 ms.assetid: 86885ca6-0b1f-42cb-8d6e-d5140e579905
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*LPDIDEVICESTATE, DIDEVICESTATE, DIDEVICESTATE structure [Human Input Devices], di_ref_53204ab2-7d3d-4a59-8359-ef3fd114147d.xml, dinputd/DIDEVICESTATE, hid.didevicestate"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dinputd.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:wmsdkidl.WM_AETYPE
 title: WM_AETYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The WM_AETYPE enumeration specifies the permissions for an entry in an IP address access list.
 old-location: wmformat\wm_aetype.htm
 old-project: wmformat
 ms.assetid: 514e6745-c521-41bd-81c2-b6c24cfb0192
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WM_AETYPE, WM_AETYPE enumeration [windows Media Format], WM_AETYPE_EXCLUDE, WM_AETYPE_INCLUDE, wmformat.wm_aetype, wmsdkidl/WM_AETYPE, wmsdkidl/WM_AETYPE_EXCLUDE, wmsdkidl/WM_AETYPE_INCLUDE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

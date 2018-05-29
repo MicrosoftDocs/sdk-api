@@ -1,16 +1,16 @@
 ---
 UID: NS:wlanapi._WLAN_CONNECTION_ATTRIBUTES
 title: "_WLAN_CONNECTION_ATTRIBUTES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the attributes of a wireless connection.
 old-location: nwifi\wlan_connection_attributes.htm
 old-project: NativeWiFi
 ms.assetid: 91b8058d-faf6-46ee-a03b-f762e9cdae4d
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: "*PWLAN_CONNECTION_ATTRIBUTES, PWLAN_CONNECTION_ATTRIBUTES, PWLAN_CONNECTION_ATTRIBUTES structure pointer [NativeWIFI], WLAN_CONNECTION_ATTRIBUTES, WLAN_CONNECTION_ATTRIBUTES structure [NativeWIFI], _WLAN_CONNECTION_ATTRIBUTES, nwifi.wlan_connection_attributes, wlanapi/PWLAN_CONNECTION_ATTRIBUTES, wlanapi/WLAN_CONNECTION_ATTRIBUTES"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wlanapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpV4QueryPolicyEnforcement
 title: DhcpV4QueryPolicyEnforcement function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the policy enforcement state on the server or the specified IPv4 subnet from the DHCP Server.
 old-location: dhcp\dhcpv4querypolicyenforcement.htm
 old-project: DHCP
 ms.assetid: a622d83c-bb18-4482-be8d-fdd96382a5e1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpV4QueryPolicyEnforcement, DhcpV4QueryPolicyEnforcement function [DHCP], dhcp.dhcpv4querypolicyenforcement, dhcpsapi/DhcpV4QueryPolicyEnforcement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

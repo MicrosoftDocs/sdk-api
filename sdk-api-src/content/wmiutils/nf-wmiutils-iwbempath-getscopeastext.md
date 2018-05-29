@@ -1,16 +1,16 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetScopeAsText
 title: IWbemPath::GetScopeAsText
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a scope in text format based on an index.
 old-location: wmi\iwbempath_getscopeastext.htm
 old-project: WmiSdk
 ms.assetid: f43d2215-7950-421b-b660-ebe89f24407e
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetScopeAsText, GetScopeAsText method [Windows Management Instrumentation], GetScopeAsText method [Windows Management Instrumentation],IWbemPath interface, IWbemPath interface [Windows Management Instrumentation],GetScopeAsText method, IWbemPath.GetScopeAsText, IWbemPath::GetScopeAsText, _hmm_iwbempath_getscopeastext, wmi.iwbempath_getscopeastext, wmiutils/IWbemPath::GetScopeAsText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmiutils.h
 req.include-header: 

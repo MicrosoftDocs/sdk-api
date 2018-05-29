@@ -1,16 +1,16 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.GetMixingPrefs
 title: IVMRMixerControl9::GetMixingPrefs
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetMixingPrefs method retrieves the mixing preferences for the stream.
 old-location: dshow\ivmrmixercontrol9_getmixingprefs.htm
 old-project: DirectShow
 ms.assetid: 25df0310-124a-48a5-b0fc-bea1dfd35781
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetMixingPrefs, GetMixingPrefs method [DirectShow], GetMixingPrefs method [DirectShow],IVMRMixerControl9 interface, IVMRMixerControl9 interface [DirectShow],GetMixingPrefs method, IVMRMixerControl9.GetMixingPrefs, IVMRMixerControl9::GetMixingPrefs, IVMRMixerControl9GetMixingPrefs, dshow.ivmrmixercontrol9_getmixingprefs, vmr9/IVMRMixerControl9::GetMixingPrefs
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vmr9.h
 req.include-header: 

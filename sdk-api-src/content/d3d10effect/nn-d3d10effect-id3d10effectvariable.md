@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectVariable
 title: ID3D10EffectVariable
-author: windows-driver-content
+author: windows-sdk-content
 description: The ID3D10EffectVariable interface is the base class for all effect variables.
 old-location: direct3d10\id3d10effectvariable.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 8ca39e59-14b1-dd93-b1d0-8cf16752726e, ID3D10EffectVariable, ID3D10EffectVariable interface [Direct3D 10], ID3D10EffectVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectVariable, direct3d10.id3d10effectvariable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d10effect.h
 req.include-header: 

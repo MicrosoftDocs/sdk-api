@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextPara.GetKeepWithNext
 title: ITextPara::GetKeepWithNext
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether page breaks are allowed between paragraphs in the range.
 old-location: controls\ITextPara_GetKeepWithNext.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkeepwithnext.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetKeepWithNext, GetKeepWithNext method [Windows Controls], GetKeepWithNext method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetKeepWithNext method, ITextPara.GetKeepWithNext, ITextPara::GetKeepWithNext, _win32_ITextPara_GetKeepWithNext, _win32_ITextPara_GetKeepWithNext_cpp, controls.ITextPara_GetKeepWithNext, controls._win32_ITextPara_GetKeepWithNext, tom/ITextPara::GetKeepWithNext, tomFalse, tomTrue, tomUndefined
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

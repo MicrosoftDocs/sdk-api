@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.DeleteFileTransactedA
 title: DeleteFileTransactedA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes an existing file as a transacted operation.
 old-location: fs\deletefiletransacted.htm
 old-project: FileIO
 ms.assetid: e0a6230b-2da1-4746-95fe-80f7b6bae41f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: DeleteFileTransacted, DeleteFileTransacted function [Files], DeleteFileTransactedA, DeleteFileTransactedW, fs.deletefiletransacted, winbase/DeleteFileTransacted, winbase/DeleteFileTransactedA, winbase/DeleteFileTransactedW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

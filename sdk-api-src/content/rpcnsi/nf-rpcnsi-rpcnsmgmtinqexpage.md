@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtInqExpAge
 title: RpcNsMgmtInqExpAge function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcNsMgmtInqExpAge function returns the global expiration age for local copies of name-service data.
 old-location: rpc\rpcnsmgmtinqexpage.htm
 old-project: Rpc
 ms.assetid: b9e27fba-c4ee-4a0e-ab95-af4c975e9123
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcNsMgmtInqExpAge, RpcNsMgmtInqExpAge function [RPC], _rpc_rpcnsmgmtinqexpage, rpc.rpcnsmgmtinqexpage, rpcnsi/RpcNsMgmtInqExpAge
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcnsi.h
 req.include-header: Rpc.h

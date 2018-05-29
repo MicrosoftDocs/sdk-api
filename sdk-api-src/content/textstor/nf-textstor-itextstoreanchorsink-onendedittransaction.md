@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnEndEditTransaction
 title: ITextStoreAnchorSink::OnEndEditTransaction
-author: windows-driver-content
+author: windows-sdk-content
 description: ITextStoreAnchorSink::OnEndEditTransaction method
 old-location: tsf\itextstoreanchorsink_onendedittransaction.htm
 old-project: TSF
 ms.assetid: fe7610b3-02f0-491a-8c55-f9dc9843073b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnEndEditTransaction method, ITextStoreAnchorSink.OnEndEditTransaction, ITextStoreAnchorSink::OnEndEditTransaction, OnEndEditTransaction, OnEndEditTransaction method [Text Services Framework], OnEndEditTransaction method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onendedittransaction_ref, textstor/ITextStoreAnchorSink::OnEndEditTransaction, tsf.itextstoreanchorsink_onendedittransaction
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

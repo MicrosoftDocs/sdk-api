@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.SetErrorInfo
 title: IWRdsProtocolConnection::SetErrorInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets error information in the protocol.
 old-location: termserv\iwrdsprotocolconnection_seterrorinfo.htm
 old-project: TermServ
 ms.assetid: 114abaf1-fe67-4d80-ad5d-f49aac9dd587
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],SetErrorInfo method, IWRdsProtocolConnection.SetErrorInfo, IWRdsProtocolConnection::SetErrorInfo, SetErrorInfo, SetErrorInfo method [Remote Desktop Services], SetErrorInfo method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_seterrorinfo, wtsprotocol/IWRdsProtocolConnection::SetErrorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

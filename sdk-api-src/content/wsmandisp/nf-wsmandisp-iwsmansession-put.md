@@ -1,16 +1,16 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Put
 title: IWSManSession::Put
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates a resource.
 old-location: winrm\iwsmansession_put.htm
 old-project: WinRM
 ms.assetid: 1224dab8-82d1-4416-8c21-e84fdda15deb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Put method, IWSManSession.Put, IWSManSession::Put, Put, Put method [Windows Remote Management], Put method [Windows Remote Management],IWSManSession interface, winrm.iwsmansession_put, wsmandisp/IWSManSession::Put
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsmandisp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rend.IEnumDialableAddrs.Next
 title: IEnumDialableAddrs::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdialableaddrs_next.htm
 old-project: Tapi
 ms.assetid: 78ebe1d3-3c40-4ba4-97f0-8612775c80f0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IEnumDialableAddrs interface [TAPI 2.2],Next method, IEnumDialableAddrs.Next, IEnumDialableAddrs::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumDialableAddrs interface, _tapi3_ienumdialableaddrs_next, rend/IEnumDialableAddrs::Next, tapi3.ienumdialableaddrs_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rend.h
 req.include-header: 

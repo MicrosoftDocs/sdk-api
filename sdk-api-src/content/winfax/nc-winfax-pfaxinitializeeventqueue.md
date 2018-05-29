@@ -1,16 +1,16 @@
 ---
 UID: NC:winfax.PFAXINITIALIZEEVENTQUEUE
 title: PFAXINITIALIZEEVENTQUEUE
-author: windows-driver-content
+author: windows-sdk-content
 description: The FaxInitializeEventQueue function creates a fax event queue for the calling fax client application. The queue enables the application to receive notifications of asynchronous events from the fax server.
 old-location: fax\_mfax_faxinitializeeventqueue.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2ip1.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxInitializeEventQueueA, FaxInitializeEventQueueW, PFAXINITIALIZEEVENTQUEUE, PFAXINITIALIZEEVENTQUEUE callback, PFAXINITIALIZEEVENTQUEUE callback function [Fax Service], _mfax_faxinitializeeventqueue, fax._mfax_faxinitializeeventqueue, winfax/FaxInitializeEventQueueA, winfax/FaxInitializeEventQueueW, winfax/PFAXINITIALIZEEVENTQUEUE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winfax.h
 req.include-header: 

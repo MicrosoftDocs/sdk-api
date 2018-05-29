@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IAppVisibility.IsLauncherVisible
 title: IAppVisibility::IsLauncherVisible
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that indicates whether the Start screen is displayed.
 old-location: shell\IAppVisibility_IsLauncherVisible.htm
 old-project: shell
 ms.assetid: 8D7BBAEC-A745-4707-861E-74CC331ED356
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IAppVisibility interface [Windows Shell],IsLauncherVisible method, IAppVisibility.IsLauncherVisible, IAppVisibility::IsLauncherVisible, IsLauncherVisible, IsLauncherVisible method [Windows Shell], IsLauncherVisible method [Windows Shell],IAppVisibility interface, shell.IAppVisibility_IsLauncherVisible, shobjidl_core/IAppVisibility::IsLauncherVisible
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

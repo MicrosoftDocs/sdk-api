@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfFnConfigure
 title: ITfFnConfigure
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfFnConfigure interface is implemented by a text service to enable the Text Services control panel application to allow the text service to display a configuration dialog box.
 old-location: tsf\itffnconfigure.htm
 old-project: TSF
 ms.assetid: af23e668-9c00-4e53-89b6-c8be85ae961b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnConfigure, ITfFnConfigure interface [Text Services Framework], ITfFnConfigure interface [Text Services Framework],described, _tsf_itffnconfigure_ref, ctffunc/ITfFnConfigure, tsf.itffnconfigure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

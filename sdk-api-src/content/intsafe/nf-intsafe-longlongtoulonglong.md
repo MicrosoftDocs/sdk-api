@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.LongLongToULongLong
 title: LongLongToULongLong function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a value of type LONGLONG to a value of type ULONGLONG.
 old-location: shell\LongLongToULongLong.htm
 old-project: shell
 ms.assetid: 994f0b9f-77a6-41ef-9022-a26ef5660204
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Int64ToULongLong, IntPtrToUIntPtr, IntPtrToULongPtr, LongLongToULongLong, LongLongToULongLong function [Windows Shell], intsafe/LongLongToULongLong, shell.LongLongToULongLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

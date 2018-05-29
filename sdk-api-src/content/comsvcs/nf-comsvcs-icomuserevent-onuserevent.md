@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComUserEvent.OnUserEvent
 title: IComUserEvent::OnUserEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Provided for user components to generate user-defined events.
 old-location: cos\icomuserevent_onuserevent.htm
 old-project: cossdk
 ms.assetid: 3c14bf53-7466-4cb0-b90f-681796e40fd3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComUserEvent interface [COM+],OnUserEvent method, IComUserEvent.OnUserEvent, IComUserEvent::OnUserEvent, OnUserEvent, OnUserEvent method [COM+], OnUserEvent method [COM+],IComUserEvent interface, _dtc_IComUserEvent_OnUserEvent, comsvcs/IComUserEvent::OnUserEvent, cos.icomuserevent_onuserevent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

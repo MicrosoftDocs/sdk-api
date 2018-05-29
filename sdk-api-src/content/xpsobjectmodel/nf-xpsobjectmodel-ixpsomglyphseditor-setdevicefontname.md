@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.SetDeviceFontName
 title: IXpsOMGlyphsEditor::SetDeviceFontName
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the name of the device font.
 old-location: xps\ixpsomglyphseditor_setdevicefontname.htm
 old-project: printdocs
 ms.assetid: d580f768-0c6a-4799-8ad8-d6f73b9216b9
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMGlyphsEditor interface [XPS Documents and Packaging],SetDeviceFontName method, IXpsOMGlyphsEditor.SetDeviceFontName, IXpsOMGlyphsEditor::SetDeviceFontName, SetDeviceFontName, SetDeviceFontName method [XPS Documents and Packaging], SetDeviceFontName method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, xps.ixpsomglyphseditor_setdevicefontname, xpsobjectmodel/IXpsOMGlyphsEditor::SetDeviceFontName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

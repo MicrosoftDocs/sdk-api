@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.SHCreateDefaultContextMenu
 title: SHCreateDefaultContextMenu function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an object that represents the Shell's default context menu implementation.
 old-location: shell\SHCreateDefaultContextMenu.htm
 old-project: shell
 ms.assetid: 055ff0a0-9ba7-463d-9684-3fd072b190da
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHCreateDefaultContextMenu, SHCreateDefaultContextMenu function [Windows Shell], _shell_SHCreateDefaultContextMenu, shell.SHCreateDefaultContextMenu, shlobj_core/SHCreateDefaultContextMenu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

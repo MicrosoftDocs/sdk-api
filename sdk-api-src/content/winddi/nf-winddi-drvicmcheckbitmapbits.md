@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.DrvIcmCheckBitmapBits
 title: DrvIcmCheckBitmapBits function
-author: windows-driver-content
+author: windows-sdk-content
 description: The DrvIcmCheckBitmapBits function checks whether the pixels in the specified bitmap lie within the device gamut of the specified transform.
 old-location: display\drvicmcheckbitmapbits.htm
 old-project: display
 ms.assetid: afde9270-3bbf-4f78-97ca-20ddfae83a2d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: DrvIcmCheckBitmapBits, DrvIcmCheckBitmapBits function [Display Devices], ddifncs_f7d444c6-446a-4c46-9f5e-73407323c2d7.xml, display.drvicmcheckbitmapbits, winddi/DrvIcmCheckBitmapBits
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

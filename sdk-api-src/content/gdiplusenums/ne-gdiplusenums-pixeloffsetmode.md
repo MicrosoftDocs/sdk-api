@@ -1,16 +1,16 @@
 ---
 UID: NE:gdiplusenums.PixelOffsetMode
 title: PixelOffsetMode
-author: windows-driver-content
+author: windows-sdk-content
 description: The PixelOffsetMode enumeration specifies the pixel offset mode of a Graphics object. This enumeration is used by the Graphics::GetPixelOffsetMode and Graphics::SetPixelOffsetMode methods of the Graphics class.
 old-location: gdiplus\_gdiplus_ENUM_PixelOffsetMode.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\pixeloffsetmode.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PixelOffsetMode, PixelOffsetMode enumeration [GDI+], PixelOffsetModeDefault, PixelOffsetModeHalf, PixelOffsetModeHighQuality, PixelOffsetModeHighSpeed, PixelOffsetModeInvalid, PixelOffsetModeNone, _gdiplus_ENUM_PixelOffsetMode, gdiplus._gdiplus_ENUM_PixelOffsetMode, gdiplusenums/PixelOffsetMode, gdiplusenums/PixelOffsetModeDefault, gdiplusenums/PixelOffsetModeHalf, gdiplusenums/PixelOffsetModeHighQuality, gdiplusenums/PixelOffsetModeHighSpeed, gdiplusenums/PixelOffsetModeInvalid, gdiplusenums/PixelOffsetModeNone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h

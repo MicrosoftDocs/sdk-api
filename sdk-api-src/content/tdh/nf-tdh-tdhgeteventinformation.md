@@ -1,16 +1,16 @@
 ---
 UID: NF:tdh.TdhGetEventInformation
 title: TdhGetEventInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves metadata about an event.
 old-location: etw\tdhgeteventinformation_func.htm
 old-project: ETW
 ms.assetid: 81542550-79aa-4d67-a472-ac3ee3a3ce63
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TdhGetEventInformation, TdhGetEventInformation function [ETW], etw.tdhgeteventinformation_func, tdh.tdhgeteventinformation_func, tdh/TdhGetEventInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

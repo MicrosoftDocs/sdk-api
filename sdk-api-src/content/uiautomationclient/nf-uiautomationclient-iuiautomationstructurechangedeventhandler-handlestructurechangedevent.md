@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStructureChangedEventHandler.HandleStructureChangedEvent
 title: IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles an event that is raised when the Microsoft UI Automation tree structure has changed.
 old-location: winauto\uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent.htm
 old-project: WinAuto
 ms.assetid: 0fdaf2d3-cfd1-4c93-a7cd-94ec83b3e812
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: HandleStructureChangedEvent, HandleStructureChangedEvent method [Windows Accessibility], HandleStructureChangedEvent method [Windows Accessibility],IUIAutomationStructureChangedEventHandler interface, IUIAutomationStructureChangedEventHandler interface [Windows Accessibility],HandleStructureChangedEvent method, IUIAutomationStructureChangedEventHandler.HandleStructureChangedEvent, IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent, uiauto.uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent, uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent, uiautomationclient/IUIAutomationStructureChangedEventHandler::HandleStructureChangedEvent, winauto.uiauto_IUIAutomationStructureChangedEventHandler_HandleStructureChangedEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

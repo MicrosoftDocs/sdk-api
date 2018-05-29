@@ -1,16 +1,16 @@
 ---
 UID: NF:objbase.CoFileTimeNow
 title: CoFileTimeNow function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the current time as a FILETIME structure.
 old-location: com\cofiletimenow.htm
 old-project: com
 ms.assetid: 00083429-1d61-4a0b-bb73-82158869466d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoFileTimeNow, CoFileTimeNow function [COM], _com_CoFileTimeNow, com.cofiletimenow, combaseapi/CoFileTimeNow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: objbase.h
 req.include-header: Objbase.h

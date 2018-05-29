@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcdce.RpcImpersonateClient
 title: RpcImpersonateClient function
-author: windows-driver-content
+author: windows-sdk-content
 description: A server thread that is processing client remote procedure calls can call the RpcImpersonateClient function to impersonate the active client.
 old-location: rpc\rpcimpersonateclient.htm
 old-project: Rpc
 ms.assetid: 1b91c4dc-ac49-4002-b293-a25ca2ffcb21
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcImpersonateClient, RpcImpersonateClient function [RPC], _rpc_rpcimpersonateclient, rpc.rpcimpersonateclient, rpcdce/RpcImpersonateClient
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcdce.h
 req.include-header: 

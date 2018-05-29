@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFGetSupportedSchemes
 title: MFGetSupportedSchemes function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the URL schemes that are registered for the source resolver.
 old-location: mf\mfgetsupportedschemes.htm
 old-project: medfound
 ms.assetid: b40315fc-7e2b-4573-a98f-840b6ce31dd3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFGetSupportedSchemes, MFGetSupportedSchemes function [Media Foundation], b40315fc-7e2b-4573-a98f-840b6ce31dd3, mf.mfgetsupportedschemes, mfidl/MFGetSupportedSchemes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

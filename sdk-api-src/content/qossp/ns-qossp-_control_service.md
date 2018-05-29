@@ -1,16 +1,16 @@
 ---
 UID: NS:qossp._CONTROL_SERVICE
 title: "_CONTROL_SERVICE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The CONTROL_SERVICE structure contains supported RSVP service types.
 old-location: qos\control_service.htm
 old-project: QOS
 ms.assetid: 604d7be8-955b-40a3-9cb4-6cbfbeeaa105
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*LPCONTROL_SERVICE, *LPCONTROL_SERVICE structure [QOS], CONTROL_SERVICE, CONTROL_SERVICE structure [QOS], SERVICETYPE_BESTEFFORT, SERVICETYPE_CONTROLLEDLOAD, SERVICETYPE_GENERAL_INFORMATION, SERVICETYPE_GUARANTEED, SERVICETYPE_NETWORK_CONTROL, SERVICETYPE_NETWORK_UNAVAILABLE, SERVICETYPE_NOCHANGE, SERVICETYPE_NONCONFORMING, SERVICETYPE_NOTRAFFIC, SERVICETYPE_QUALITATIVE, _CONTROL_SERVICE, qos.control_service, qossp/*LPCONTROL_SERVICE, qossp/CONTROL_SERVICE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: qossp.h
 req.include-header: 

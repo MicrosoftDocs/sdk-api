@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.RegisterPowerSettingNotification
 title: RegisterPowerSettingNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers the application to receive power setting notifications for the specific power setting event.
 old-location: base\registerpowersettingnotification.htm
 old-project: Power
 ms.assetid: e072222e-da66-4b36-a38f-f4b618eaa391
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: DEVICE_NOTIFY_SERVICE_HANDLE, DEVICE_NOTIFY_WINDOW_HANDLE, RegisterPowerSettingNotification, RegisterPowerSettingNotification function, base.registerpowersettingnotification, winuser/RegisterPowerSettingNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

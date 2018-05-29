@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleSetMenuDescriptor
 title: OleSetMenuDescriptor function
-author: windows-driver-content
+author: windows-sdk-content
 description: Installs or removes OLE dispatching code from the container's frame window.
 old-location: com\olesetmenudescriptor.htm
 old-project: com
 ms.assetid: c80fe36d-5093-4814-83a9-0c11c5a7cf5f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleSetMenuDescriptor, OleSetMenuDescriptor function [COM], _ole_OleSetMenuDescriptor, com.olesetmenudescriptor, ole2/OleSetMenuDescriptor
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

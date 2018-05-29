@@ -1,16 +1,16 @@
 ---
 UID: NN:wia_xp.IWiaNotifyDevMgr
 title: IWiaNotifyDevMgr
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is not implemented.
 old-location: wia\_wia_IWiaNotifyDevMgr.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwianotifydevmgr\iwianotifydevmgr.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: IWiaNotifyDevMgr, IWiaNotifyDevMgr interface [WIA], IWiaNotifyDevMgr interface [WIA],described, _wia_IWiaNotifyDevMgr, wia._wia_IWiaNotifyDevMgr, wia_xp/IWiaNotifyDevMgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wia_xp.h
 req.include-header: Wia.h

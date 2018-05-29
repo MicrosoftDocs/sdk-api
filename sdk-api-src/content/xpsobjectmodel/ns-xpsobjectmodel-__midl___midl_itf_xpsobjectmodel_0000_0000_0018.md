@@ -1,16 +1,16 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0018
 title: "__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0018"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the size of an object.
 old-location: xps\xps_size.htm
 old-project: printdocs
 ms.assetid: 2f6eb553-892b-455b-97a5-280f257b5702
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: XPS_SIZE, XPS_SIZE structure [XPS Documents and Packaging], __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0018, xps.xps_size, xpsobjectmodel/XPS_SIZE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsapi32.WTSStartRemoteControlSessionW
 title: WTSStartRemoteControlSessionW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts the remote control of another Remote Desktop Services session. You must call this function from a remote session.
 old-location: termserv\wtsstartremotecontrolsession.htm
 old-project: TermServ
 ms.assetid: 8ccab62b-228b-4449-82c1-970de891cbdb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: REMOTECONTROL_KBDALT_HOTKEY, REMOTECONTROL_KBDCTRL_HOTKEY, REMOTECONTROL_KBDSHIFT_HOTKEY, WTSStartRemoteControlSession, WTSStartRemoteControlSession function [Remote Desktop Services], WTSStartRemoteControlSessionA, WTSStartRemoteControlSessionW, termserv.wtsstartremotecontrolsession, wtsapi32/WTSStartRemoteControlSession, wtsapi32/WTSStartRemoteControlSessionA, wtsapi32/WTSStartRemoteControlSessionW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wtsapi32.h
 req.include-header: 

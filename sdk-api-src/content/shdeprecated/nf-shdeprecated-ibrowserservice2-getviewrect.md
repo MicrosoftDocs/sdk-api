@@ -1,16 +1,16 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.GetViewRect
 title: IBrowserService2::GetViewRect
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Retrieves a value that is used to negotiate the allowed size of the window.
 old-location: shell\IBrowserService2_GetViewRect.htm
 old-project: shell
 ms.assetid: 738aa84d-9586-493e-8a50-e8e1918198e6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetViewRect, GetViewRect method [Windows Shell], GetViewRect method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],GetViewRect method, IBrowserService2.GetViewRect, IBrowserService2::GetViewRect, shdeprecated/IBrowserService2::GetViewRect, shell.IBrowserService2_GetViewRect, zone_IBrowserService2_GetViewRect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shdeprecated.h
 req.include-header: 

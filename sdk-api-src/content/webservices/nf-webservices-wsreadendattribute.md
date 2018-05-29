@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsReadEndAttribute
 title: WsReadEndAttribute function
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves the reader back to the element node containing the attribute that was read.
 old-location: wsw\wsreadendattribute.htm
 old-project: wsw
 ms.assetid: 1181ca68-f67b-47e1-b9de-1bc57ecf36f6
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsReadEndAttribute, WsReadEndAttribute function [Web Services for Windows], webservices/WsReadEndAttribute, wsw.wsreadendattribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

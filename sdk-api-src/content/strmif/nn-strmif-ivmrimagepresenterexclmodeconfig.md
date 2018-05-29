@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IVMRImagePresenterExclModeConfig
 title: IVMRImagePresenterExclModeConfig
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVMRImagePresenterExclModeConfig interface inherits from IVMRImagePresenterConfig and provides methods for setting and retrieving the renderering preferences on the Exclusive Mode Allocator-Presenter.
 old-location: dshow\ivmrimagepresenterexclmodeconfig.htm
 old-project: DirectShow
 ms.assetid: 67c9675c-c0fd-44f6-bdeb-ac3f73e937cc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVMRImagePresenterExclModeConfig, IVMRImagePresenterExclModeConfig interface [DirectShow], IVMRImagePresenterExclModeConfig interface [DirectShow],described, dshow.ivmrimagepresenterexclmodeconfig, strmif/IVMRImagePresenterExclModeConfig
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

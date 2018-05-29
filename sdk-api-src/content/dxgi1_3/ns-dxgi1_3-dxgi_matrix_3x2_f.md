@@ -1,16 +1,16 @@
 ---
 UID: NS:dxgi1_3.DXGI_MATRIX_3X2_F
 title: DXGI_MATRIX_3X2_F
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a 3x2 matrix. Used with GetMatrixTransform and SetMatrixTransform to indicate the scaling and translation transform for SwapChainPanel swap chains.
 old-location: direct3ddxgi\dxgi_matrix_3x2_f.htm
 old-project: direct3ddxgi
 ms.assetid: 5EA0FAD4-5F19-4E5A-97D4-11AE750E8560
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_MATRIX_3X2_F, DXGI_MATRIX_3X2_F structure [DXGI], direct3ddxgi.dxgi_matrix_3x2_f, dxgi1_3/DXGI_MATRIX_3X2_F
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi1_3.h
 req.include-header: 

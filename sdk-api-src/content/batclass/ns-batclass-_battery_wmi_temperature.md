@@ -1,16 +1,16 @@
 ---
 UID: NS:batclass._BATTERY_WMI_TEMPERATURE
 title: "_BATTERY_WMI_TEMPERATURE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines information about temperature of the battery for use with the BatteryClassQueryWmiDataBlock function.
 old-location: battery\battery_wmi_temperature.htm
 old-project: battery
 ms.assetid: 341DA703-EB96-4680-AFB8-68043988AF56
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "*PBATTERY_WMI_TEMPERATURE, BATTERY_WMI_TEMPERATURE, BATTERY_WMI_TEMPERATURE structure [Battery Devices], PBATTERY_WMI_TEMPERATURE, PBATTERY_WMI_TEMPERATURE structure pointer [Battery Devices], _BATTERY_WMI_TEMPERATURE, batclass/BATTERY_WMI_TEMPERATURE, batclass/PBATTERY_WMI_TEMPERATURE, battery.battery_wmi_temperature"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: batclass.h
 req.include-header: Batclass.h

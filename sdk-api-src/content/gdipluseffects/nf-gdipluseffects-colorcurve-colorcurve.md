@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluseffects.ColorCurve.ColorCurve
 title: ColorCurve::ColorCurve
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a ColorCurve object.
 old-location: gdiplus\_gdiplus_CLASS_ColorCurve_ColorCurve_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorcurveclass\colorcurveconstructors\colorcurve.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ColorCurve, ColorCurve class [GDI+],ColorCurve constructor, ColorCurve constructor [GDI+], ColorCurve constructor [GDI+],ColorCurve class, ColorCurve.ColorCurve, ColorCurve::ColorCurve, _gdiplus_CLASS_ColorCurve_ColorCurve_, gdiplus._gdiplus_CLASS_ColorCurve_ColorCurve_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h

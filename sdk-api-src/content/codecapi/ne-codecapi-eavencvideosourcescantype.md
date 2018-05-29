@@ -1,16 +1,16 @@
 ---
 UID: NE:codecapi.eAVEncVideoSourceScanType
 title: eAVEncVideoSourceScanType
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether the input frames for an encoder are progressive or interlaced. This enumeration is used with the AVEncVideoForceSourceScanType property.
 old-location: dshow\eavencvideosourcescantype.htm
 old-project: DirectShow
 ms.assetid: f191f4de-2549-4223-b40d-828df467b691
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: codecapi/eAVEncVideoSourceScanType, codecapi/eAVEncVideoSourceScan_Automatic, codecapi/eAVEncVideoSourceScan_Interlaced, codecapi/eAVEncVideoSourceScan_Progressive, dshow.eavencvideosourcescantype, eAVEncVideoSourceScanType, eAVEncVideoSourceScanType enumeration [DirectShow], eAVEncVideoSourceScanTypeEnumeration, eAVEncVideoSourceScan_Automatic, eAVEncVideoSourceScan_Interlaced, eAVEncVideoSourceScan_Progressive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: codecapi.h
 req.include-header: 

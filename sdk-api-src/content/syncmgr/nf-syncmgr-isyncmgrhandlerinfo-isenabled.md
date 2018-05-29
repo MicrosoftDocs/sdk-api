@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerInfo.IsEnabled
 title: ISyncMgrHandlerInfo::IsEnabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that indicates whether the handler is enabled.
 old-location: shell\ISyncMgrHandlerInfo_IsEnabled.htm
 old-project: shell
 ms.assetid: 1485ae25-20b8-4ee9-a30d-247f719047cd
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsEnabled method, ISyncMgrHandlerInfo.IsEnabled, ISyncMgrHandlerInfo::IsEnabled, IsEnabled, IsEnabled method [Windows Shell], IsEnabled method [Windows Shell],ISyncMgrHandlerInfo interface, _shell_ISyncMgrHandlerInfo_IsEnabled, shell.ISyncMgrHandlerInfo_IsEnabled, syncmgr/ISyncMgrHandlerInfo::IsEnabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

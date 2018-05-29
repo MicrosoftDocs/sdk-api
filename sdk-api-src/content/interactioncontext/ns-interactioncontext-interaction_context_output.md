@@ -1,16 +1,16 @@
 ---
 UID: NS:interactioncontext.INTERACTION_CONTEXT_OUTPUT
 title: INTERACTION_CONTEXT_OUTPUT
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the output of the Interaction Context object.
 old-location: input_intcontext\interaction_context_output.htm
 old-project: Input_IntContext
 ms.assetid: 90ba531c-9f97-451d-8781-450dbc248f47
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: INTERACTION_CONTEXT_OUTPUT, INTERACTION_CONTEXT_OUTPUT structure, input_intcontext.interaction_context_output, interactioncontext.interaction_context_output, interactioncontext/INTERACTION_CONTEXT_OUTPUT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: interactioncontext.h
 req.include-header: 

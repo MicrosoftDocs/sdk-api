@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.IServerSecurity
 title: IServerSecurity
-author: windows-driver-content
+author: windows-sdk-content
 description: Used by a server to help authenticate the client and to manage impersonation of the client.
 old-location: com\iserversecurity.htm
 old-project: com
 ms.assetid: aacef77c-7185-44ed-aa1a-465c6100a431
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IServerSecurity, IServerSecurity interface [COM], IServerSecurity interface [COM],described, _com_iserversecurity, com.iserversecurity, objidlbase/IServerSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

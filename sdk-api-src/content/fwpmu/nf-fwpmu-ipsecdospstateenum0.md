@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.IPsecDospStateEnum0
 title: IPsecDospStateEnum0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the next page of results from the IPsec DoS Protection state enumerator. Each IPsec DoS Protection state entry corresponds to a flow that has successfully passed the IPsec DoS Protection authentication checks.
 old-location: fwp\ipsecdospstateenum0.htm
 old-project: FWP
 ms.assetid: d69e323b-249b-4b90-8754-2c910fbc2fc4
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPsecDospStateEnum0, IPsecDospStateEnum0 function [Filtering], fwp.ipsecdospstateenum0, fwpmu/IPsecDospStateEnum0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

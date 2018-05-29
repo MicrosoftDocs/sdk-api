@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleCache.SetData
 title: IOleCache::SetData
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the cache with data in a specified format and on a specified medium.
 old-location: com\iolecache_setdata.htm
 old-project: com
 ms.assetid: b826411d-6e00-44ba-8603-85db40c4a55f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IOleCache interface [COM],SetData method, IOleCache.SetData, IOleCache::SetData, SetData, SetData method [COM], SetData method [COM],IOleCache interface, _ole_iolecache_setdata, com.iolecache_setdata, oleidl/IOleCache::SetData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

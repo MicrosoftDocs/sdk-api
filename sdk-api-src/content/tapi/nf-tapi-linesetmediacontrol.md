@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSetMediaControl
 title: lineSetMediaControl function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSetMediaControl function enables and disables control actions on the media stream associated with the specified line, address, or call.
 old-location: tapi2\linesetmediacontrol.htm
 old-project: Tapi
 ms.assetid: 5a4fc83a-6bc9-4081-b374-ddb912fb2242
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesetmediacontrol, lineSetMediaControl, lineSetMediaControl function [TAPI 2.2], tapi/lineSetMediaControl, tapi2.linesetmediacontrol"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

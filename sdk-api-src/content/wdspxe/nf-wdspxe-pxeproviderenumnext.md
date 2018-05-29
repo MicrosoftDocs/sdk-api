@@ -1,16 +1,16 @@
 ---
 UID: NF:wdspxe.PxeProviderEnumNext
 title: PxeProviderEnumNext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates registered providers.
 old-location: wds\pxeproviderenumnext.htm
 old-project: Wds
 ms.assetid: a76f2d7a-daf4-4258-9c6d-fd0d562f7efe
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: PxeProviderEnumNext, PxeProviderEnumNext function [Windows Deployment Services], wds.pxeproviderenumnext, wdspxe/PxeProviderEnumNext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdspxe.h
 req.include-header: 

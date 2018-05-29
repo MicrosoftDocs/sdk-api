@@ -1,16 +1,16 @@
 ---
 UID: NF:mixerocx.IMixerOCX.OnDraw
 title: IMixerOCX::OnDraw
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnDraw method instructs the Overlay Mixer to draw the video rectangle.
 old-location: dshow\imixerocx_ondraw.htm
 old-project: DirectShow
 ms.assetid: 69b8752b-9f97-422e-8a9a-f49c7a472cb6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMixerOCX interface [DirectShow],OnDraw method, IMixerOCX.OnDraw, IMixerOCX::OnDraw, IMixerOCXOnDraw, OnDraw, OnDraw method [DirectShow], OnDraw method [DirectShow],IMixerOCX interface, dshow.imixerocx_ondraw, mixerocx/IMixerOCX::OnDraw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mixerocx.h
 req.include-header: 

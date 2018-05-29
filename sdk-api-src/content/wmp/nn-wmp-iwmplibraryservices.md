@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPLibraryServices
 title: IWMPLibraryServices
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPLibraryServices interface provides methods to enumerate libraries.
 old-location: wmp\iwmplibraryservices.htm
 old-project: WMP
 ms.assetid: 9ed6d02e-15ca-425f-8642-e32a5adfaa55
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPLibraryServices, IWMPLibraryServices interface [Windows Media Player], IWMPLibraryServices interface [Windows Media Player],described, IWMPLibraryServicesInterface, wmp.iwmplibraryservices, wmp/IWMPLibraryServices
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

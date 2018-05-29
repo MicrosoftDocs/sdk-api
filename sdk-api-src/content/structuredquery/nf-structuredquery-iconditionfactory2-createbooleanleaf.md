@@ -1,16 +1,16 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateBooleanLeaf
 title: IConditionFactory2::CreateBooleanLeaf
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a search condition that is either TRUE or FALSE.
 old-location: search\_search_IConditionFactory2_CreateBooleanLeaf.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createbooleanleaf.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CreateBooleanLeaf, CreateBooleanLeaf method [search], CreateBooleanLeaf method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateBooleanLeaf method, IConditionFactory2.CreateBooleanLeaf, IConditionFactory2::CreateBooleanLeaf, _search_IConditionFactory2_CreateBooleanLeaf, search._search_IConditionFactory2_CreateBooleanLeaf, structuredquery/IConditionFactory2::CreateBooleanLeaf
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquery.h
 req.include-header: 

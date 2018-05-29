@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IEventClass2.get_MultiInterfacePublisherFilterCLSID
 title: IEventClass2::get_MultiInterfacePublisherFilterCLSID
-author: windows-driver-content
+author: windows-sdk-content
 description: The CLSID of the object implementing IMultiInterfacePublisherFilter.
 old-location: cos\ieventclass2_multiinterfacepublisherfilterclsid.htm
 old-project: cossdk
 ms.assetid: 09583b2f-a43e-4afd-9709-c34bb3a98fe3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEventClass2 interface [COM+],MultiInterfacePublisherFilterCLSID property, IEventClass2.MultiInterfacePublisherFilterCLSID, IEventClass2.get_MultiInterfacePublisherFilterCLSID, IEventClass2::MultiInterfacePublisherFilterCLSID, IEventClass2::get_MultiInterfacePublisherFilterCLSID, IEventClass2::put_MultiInterfacePublisherFilterCLSID, MultiInterfacePublisherFilterCLSID property [COM+], MultiInterfacePublisherFilterCLSID property [COM+],IEventClass2 interface, _cos_IEventClass2_get_MultiInterfacePublisherFilterCLSID, _cos_IEventClass2_put_MultiInterfacePublisherFilterCLSID, cos.ieventclass2_multiinterfacepublisherfilterclsid, eventsys/IEventClass2::MultiInterfacePublisherFilterCLSID, eventsys/IEventClass2::get_MultiInterfacePublisherFilterCLSID, eventsys/IEventClass2::put_MultiInterfacePublisherFilterCLSID, get_MultiInterfacePublisherFilterCLSID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: Eventsys.h

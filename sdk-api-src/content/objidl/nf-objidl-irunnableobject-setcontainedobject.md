@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IRunnableObject.SetContainedObject
 title: IRunnableObject::SetContainedObject
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies an object that it is embedded in an OLE container, which ensures that reference counting is done correctly for containers that support links to embedded objects.
 old-location: com\irunnableobject_setcontainedobject.htm
 old-project: com
 ms.assetid: dbd3f632-2b81-44d1-8376-4b507316895f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRunnableObject interface [COM],SetContainedObject method, IRunnableObject.SetContainedObject, IRunnableObject::SetContainedObject, SetContainedObject, SetContainedObject method [COM], SetContainedObject method [COM],IRunnableObject interface, _com_irunnableobject_setcontainedobject, com.irunnableobject_setcontainedobject, objidl/IRunnableObject::SetContainedObject
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

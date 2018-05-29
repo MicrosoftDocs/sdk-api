@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetViewbox
 title: IXpsOMTileBrush::GetViewbox
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the portion of the source image to be used by the tile.
 old-location: xps\ixpsomtilebrush_getviewbox.htm
 old-project: printdocs
 ms.assetid: dc884aa6-3652-4b94-80f6-83c345973d46
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetViewbox, GetViewbox method [XPS Documents and Packaging], GetViewbox method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetViewbox method, IXpsOMTileBrush.GetViewbox, IXpsOMTileBrush::GetViewbox, xps.ixpsomtilebrush_getviewbox, xpsobjectmodel/IXpsOMTileBrush::GetViewbox
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

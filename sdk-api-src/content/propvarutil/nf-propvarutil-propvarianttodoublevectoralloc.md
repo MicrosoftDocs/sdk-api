@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.PropVariantToDoubleVectorAlloc
 title: PropVariantToDoubleVectorAlloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts data from a PROPVARIANT structure into a newly-allocated double vector.
 old-location: properties\PropVariantToDoubleVectorAlloc.htm
 old-project: properties
 ms.assetid: 80f05530-a92b-4877-80fa-efac8e999510
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PropVariantToDoubleVectorAlloc, PropVariantToDoubleVectorAlloc function [Windows Properties], _shell_PropVariantToDoubleVectorAlloc, properties.PropVariantToDoubleVectorAlloc, propvarutil/PropVariantToDoubleVectorAlloc, shell.PropVariantToDoubleVectorAlloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:featurestagingapi.GetFeatureVariant
 title: GetFeatureVariant function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function is intended for infrastructure use only.
 old-location: winprog\getfeaturevariant.htm
 old-project: DevNotes
 ms.assetid: CEB545DB-321A-4FE6-B182-DC7F6B37D665
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetFeatureVariant, GetFeatureVariant function [Windows API], featurestagingapi/GetFeatureVariant, winprog.getfeaturevariant
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: featurestagingapi.h
 req.include-header: 

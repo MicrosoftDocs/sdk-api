@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetPacketEncoding
 title: MI_DestinationOptions_SetPacketEncoding function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the encoding mechanism for certain protocol handles.
 old-location: wmi_v2\mi_destinationoptions_setpacketencoding.htm
 old-project: wmi_v2
 ms.assetid: cb7f922d-7e96-4304-9abe-bfa23709e1c7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_DESTINATIONOPTIONS_PACKET_ENCODING_DEFAULT, MI_DESTINATIONOPTIONS_PACKET_ENCODING_UTF16, MI_DESTINATIONOPTIONS_PACKET_ENCODING_UTF8, MI_DestinationOptions_SetPacketEncoding, MI_DestinationOptions_SetPacketEncoding function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_SetPacketEncoding, wmi_v2.mi_destinationoptions_setpacketencoding
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

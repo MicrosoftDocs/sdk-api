@@ -1,16 +1,16 @@
 ---
 UID: NS:wtsapi32._WTS_SESSION_ADDRESS
 title: "_WTS_SESSION_ADDRESS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the virtual IP address assigned to a session.
 old-location: termserv\wts_session_address.htm
 old-project: TermServ
 ms.assetid: 4a8846a3-2bad-4ea1-b614-aca18484ea86
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PWTS_SESSION_ADDRESS, PWTS_SESSION_ADDRESS, PWTS_SESSION_ADDRESS structure pointer [Remote Desktop Services], WTS_SESSION_ADDRESS, WTS_SESSION_ADDRESS structure [Remote Desktop Services], _WTS_SESSION_ADDRESS, termserv.wts_session_address, wtsapi32/PWTS_SESSION_ADDRESS, wtsapi32/WTS_SESSION_ADDRESS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsapi32.h
 req.include-header: 

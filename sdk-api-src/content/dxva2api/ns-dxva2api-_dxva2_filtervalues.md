@@ -1,16 +1,16 @@
 ---
 UID: NS:dxva2api._DXVA2_FilterValues
 title: "_DXVA2_FilterValues"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains parameters for a DirectX Video Acceleration (DXVA) image filter.
 old-location: mf\dxva2_filtervalues.htm
 old-project: medfound
 ms.assetid: 48dc1631-f96c-4515-aac2-225b3427f9ad
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 48dc1631-f96c-4515-aac2-225b3427f9ad, DXVA2_FilterValues, DXVA2_FilterValues structure [Media Foundation], _DXVA2_FilterValues, dxva2api/DXVA2_FilterValues, mf.dxva2_filtervalues
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxva2api.h
 req.include-header: 

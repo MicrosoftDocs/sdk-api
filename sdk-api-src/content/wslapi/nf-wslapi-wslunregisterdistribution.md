@@ -1,16 +1,16 @@
 ---
 UID: NF:wslapi.WslUnregisterDistribution
 title: WslUnregisterDistribution function
-author: windows-driver-content
+author: windows-sdk-content
 description: Unregisters a distribution from the Windows Subsystem for Linux (WSL).
 old-location: wsl\wslunregisterdistribution.htm
 old-project: wsl
 ms.assetid: B655E05D-4F4E-401D-8A24-6E8E8B0CE00C
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WslUnregisterDistribution, WslUnregisterDistribution function, wsl.wslunregisterdistribution, wslapi/WslUnregisterDistribution
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wslapi.h
 req.include-header: 

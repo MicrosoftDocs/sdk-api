@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetExcludeFile
 title: IVssExamineWriterMetadata::GetExcludeFile
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetExcludeFile method obtains information about files that have been explicitly excluded from backup for a given writer.
 old-location: base\ivssexaminewritermetadata_getexcludefile.htm
 old-project: VSS
 ms.assetid: 886d526f-c477-4c1c-80b0-65e3ea227142
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetExcludeFile, GetExcludeFile method [VSS], GetExcludeFile method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetExcludeFile method, IVssExamineWriterMetadata.GetExcludeFile, IVssExamineWriterMetadata::GetExcludeFile, _win32_ivssexaminewritermetadata_getexcludefile, base.ivssexaminewritermetadata_getexcludefile, vsbackup/IVssExamineWriterMetadata::GetExcludeFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

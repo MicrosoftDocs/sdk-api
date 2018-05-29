@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcom.IFaxJobs.get_Item
 title: IFaxJobs::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxJobs::get_Item method returns a new FaxJob object for a specified fax job. The object allows enumeration of the fax jobs associated with a connected fax server.
 old-location: fax\_mfax_ifaxjobs_get_item.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1zn1.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxJobs interface [Fax Service],get_Item method, IFaxJobs.get_Item, IFaxJobs::get_Item, _mfax_ifaxjobs_get_item, fax._mfax_ifaxjobs_get_item, faxcom/IFaxJobs::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxJobs interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcom.h
 req.include-header: 

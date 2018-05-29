@@ -1,16 +1,16 @@
 ---
 UID: NF:propidl.IEnumSTATPROPSETSTG.Clone
 title: IEnumSTATPROPSETSTG::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an enumerator that contains the same enumeration state as the current STATPROPSETSTG structure enumerator.
 old-location: stg\ienumstatpropsetstg_clone.htm
 old-project: Stg
 ms.assetid: f875d5e9-fac0-4961-9570-342f55cf307e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: Clone, Clone method [Structured Storage], Clone method [Structured Storage],IEnumSTATPROPSETSTG interface, IEnumSTATPROPSETSTG interface [Structured Storage],Clone method, IEnumSTATPROPSETSTG.Clone, IEnumSTATPROPSETSTG::Clone, propidlbase/IEnumSTATPROPSETSTG::Clone, stg.ienumstatpropsetstg_clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propidl.h
 req.include-header: Propidl.h

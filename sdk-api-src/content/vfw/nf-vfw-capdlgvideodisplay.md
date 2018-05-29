@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.capDlgVideoDisplay
 title: capDlgVideoDisplay macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The capDlgVideoDisplay macro displays a dialog box in which the user can set or adjust the video output.
 old-location: multimedia\capdlgvideodisplay.htm
 old-project: Multimedia
 ms.assetid: 3feb6964-b897-4d5b-8861-7fca829e25e4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_win32_capDlgVideoDisplay, capDlgVideoDisplay, capDlgVideoDisplay macro [Windows Multimedia], multimedia.capdlgvideodisplay, vfw/capDlgVideoDisplay"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

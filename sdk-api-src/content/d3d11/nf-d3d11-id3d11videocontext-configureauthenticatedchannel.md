@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.ConfigureAuthenticatedChannel
 title: ID3D11VideoContext::ConfigureAuthenticatedChannel
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a configuration command to an authenticated channel.
 old-location: mf\id3d11videocontext_configureauthenticatedchannel.htm
 old-project: medfound
 ms.assetid: 6564EC13-A7B3-4A48-8776-4CD46BFF8E8F
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ConfigureAuthenticatedChannel, ConfigureAuthenticatedChannel method [Media Foundation], ConfigureAuthenticatedChannel method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],ConfigureAuthenticatedChannel method, ID3D11VideoContext.ConfigureAuthenticatedChannel, ID3D11VideoContext::ConfigureAuthenticatedChannel, d3d11/ID3D11VideoContext::ConfigureAuthenticatedChannel, mf.id3d11videocontext_configureauthenticatedchannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d11.h
 req.include-header: 

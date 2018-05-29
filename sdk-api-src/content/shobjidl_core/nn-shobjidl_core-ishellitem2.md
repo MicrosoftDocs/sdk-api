@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IShellItem2
 title: IShellItem2
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends IShellItem with methods that retrieve various property values of the item. IShellItem and IShellItem2 are the preferred representations of items in any new code.
 old-location: shell\IShellItem2.htm
 old-project: shell
 ms.assetid: e54d8385-ec67-4825-ad7c-431807a4fcb4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellItem2, IShellItem2 interface [Windows Shell], IShellItem2 interface [Windows Shell],described, _shell_IShellItem2, shell.IShellItem2, shobjidl_core/IShellItem2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetFileProps
 title: IMetaDataAssemblyImport::GetFileProps
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the properties of the file with the specified metadata signature.
 old-location: winrt\imetadataassemblyimport_getfileprops.htm
 old-project: WinRT
 ms.assetid: 28c884de-3b3c-48cd-9f6f-b2d56005de13
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetFileProps, GetFileProps method [Windows Runtime], GetFileProps method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],GetFileProps method, IMetaDataAssemblyImport.GetFileProps, IMetaDataAssemblyImport::GetFileProps, rometadataapi/IMetaDataAssemblyImport::GetFileProps, winrt.imetadataassemblyimport_getfileprops
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

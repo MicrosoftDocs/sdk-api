@@ -1,16 +1,16 @@
 ---
 UID: NF:dsparse.DsMakeSpnA
 title: DsMakeSpnA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Constructs a service principal name (SPN) that identifies a service instance.
 old-location: ad\dsmakespn.htm
 old-project: AD
 ms.assetid: fca3c59c-bb81-42a0-acd3-2e55c902febe
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DsMakeSpn, DsMakeSpn function [Active Directory], DsMakeSpnA, DsMakeSpnW, _glines_dsmakespn, ad.dsmakespn, dsparse/DsMakeSpn, dsparse/DsMakeSpnA, dsparse/DsMakeSpnW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dsparse.h
 req.include-header: Ntdsapi.h

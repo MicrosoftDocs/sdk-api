@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.get_AgeLimit
 title: IFaxOutgoingQueue::get_AgeLimit
-author: windows-driver-content
+author: windows-sdk-content
 description: The AgeLimit property is a value that indicates the number of days that the fax service retains an unsent job in the fax job queue.
 old-location: fax\_mfax_faxoutgoingqueue_agelimit_vb.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7qyc.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: AgeLimit property [Fax Service], AgeLimit property [Fax Service],FaxOutgoingQueue object, FaxOutgoingQueue object [Fax Service],AgeLimit property, FaxOutgoingQueue.AgeLimit, IFaxOutgoingQueue.get_AgeLimit, IFaxOutgoingQueue::get_AgeLimit, _mfax_faxoutgoingqueue.agelimit, fax._mfax_faxoutgoingqueue_agelimit, fax._mfax_faxoutgoingqueue_agelimit_vb, get_AgeLimit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:d3d11.ID3D11DepthStencilView
 title: ID3D11DepthStencilView
-author: windows-driver-content
+author: windows-sdk-content
 description: A depth-stencil-view interface accesses a texture resource during depth-stencil testing.
 old-location: direct3d11\id3d11depthstencilview.htm
 old-project: direct3d11
 ms.assetid: 10be1fd1-8700-4c0a-b447-d3c2569f8e81
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: 5e846266-8e0b-d52b-2f70-8936cbeb0bd1, ID3D11DepthStencilView, ID3D11DepthStencilView interface [Direct3D 11], ID3D11DepthStencilView interface [Direct3D 11],described, d3d11/ID3D11DepthStencilView, direct3d11.id3d11depthstencilview
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: d3d11.h
 req.include-header: 

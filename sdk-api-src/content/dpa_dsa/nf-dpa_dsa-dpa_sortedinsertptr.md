@@ -1,16 +1,16 @@
 ---
 UID: NF:dpa_dsa.DPA_SortedInsertPtr
 title: DPA_SortedInsertPtr macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts a new item before or after a specified existing item.
 old-location: controls\DPA_SortedInsertPtr.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_sortedinsertptr.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DPAS_INSERTAFTER, DPAS_INSERTBEFORE, DPA_SortedInsertPtr, DPA_SortedInsertPtr macro [Windows Controls], _shell_DPA_SortedInsertPtr, _shell_DPA_SortedInsertPtr_cpp, controls.DPA_SortedInsertPtr, controls._shell_DPA_SortedInsertPtr, dpa_dsa/DPA_SortedInsertPtr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: dpa_dsa.h
 req.include-header: 

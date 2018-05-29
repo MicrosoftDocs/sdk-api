@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.EnableWriterClasses
 title: IVssBackupComponents::EnableWriterClasses
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnableWriterClasses method enables the specified writers to receive all events.
 old-location: base\ivssbackupcomponents_enablewriterclasses.htm
 old-project: VSS
 ms.assetid: 27dae374-f3c4-44a5-a0d7-3edb647f0593
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: EnableWriterClasses, EnableWriterClasses method [VSS], EnableWriterClasses method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],EnableWriterClasses method, IVssBackupComponents.EnableWriterClasses, IVssBackupComponents::EnableWriterClasses, _win32_ivssbackupcomponents_enablewriterclasses, base.ivssbackupcomponents_enablewriterclasses, vsbackup/IVssBackupComponents::EnableWriterClasses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

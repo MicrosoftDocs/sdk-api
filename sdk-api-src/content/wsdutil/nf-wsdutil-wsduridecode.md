@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdutil.WSDUriDecode
 title: WSDUriDecode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Decodes a URI according to the rules in RFC2396.
 old-location: ncd\wsduridecode.htm
 old-project: WsdApi
 ms.assetid: 30232a4c-f7bb-4a22-b148-2576a259808a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDUriDecode, WSDUriDecode function, ncd.wsduridecode, wsdutil/WSDUriDecode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h

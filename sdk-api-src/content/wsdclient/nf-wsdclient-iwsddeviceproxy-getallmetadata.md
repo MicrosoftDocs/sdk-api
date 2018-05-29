@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetAllMetadata
 title: IWSDDeviceProxy::GetAllMetadata
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves all metadata for this device.
 old-location: ncd\iwsddeviceproxy_getallmetadata_method.htm
 old-project: WsdApi
 ms.assetid: 3a0a3954-348f-4a9d-9e52-f72d29ec0425
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAllMetadata, GetAllMetadata method, GetAllMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,GetAllMetadata method, IWSDDeviceProxy.GetAllMetadata, IWSDDeviceProxy::GetAllMetadata, ncd.iwsddeviceproxy_getallmetadata_method, wsdclient/IWSDDeviceProxy::GetAllMetadata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsdclient.h
 req.include-header: Wsdapi.h

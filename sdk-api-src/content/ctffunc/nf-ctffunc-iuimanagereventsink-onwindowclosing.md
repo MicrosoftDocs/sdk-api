@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.IUIManagerEventSink.OnWindowClosing
 title: IUIManagerEventSink::OnWindowClosing
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by the TSF before closing the IME UI.
 old-location: tsf\iuimanagereventsink_onwindowclosing.htm
 old-project: TSF
 ms.assetid: 1350286D-522D-4549-B69C-31874352AEAD
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowClosing method, IUIManagerEventSink.OnWindowClosing, IUIManagerEventSink::OnWindowClosing, OnWindowClosing, OnWindowClosing method [Text Services Framework], OnWindowClosing method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowClosing, tsf.iuimanagereventsink_onwindowclosing
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

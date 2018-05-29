@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleQueryLinkFromData
 title: OleQueryLinkFromData function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether an OLE linked object (rather than an OLE embedded object) can be created from a clipboard data object.
 old-location: com\olequerylinkfromdata.htm
 old-project: com
 ms.assetid: 9ebdcd7f-06c1-4464-a66c-4d134a6b5d36
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleQueryLinkFromData, OleQueryLinkFromData function [COM], _ole_OleQueryLinkFromData, com.olequerylinkfromdata, ole2/OleQueryLinkFromData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

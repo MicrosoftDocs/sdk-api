@@ -1,16 +1,16 @@
 ---
 UID: NF:powerbase.PowerUnregisterSuspendResumeNotification
 title: PowerUnregisterSuspendResumeNotification function
-author: windows-driver-content
+author: windows-sdk-content
 description: Cancels a registration to receive notification when the system is suspended or resumed.
 old-location: base\powerunregistersuspendresumenotification.htm
 old-project: Power
 ms.assetid: 5680e6bd-1694-4d5f-94ea-41b24149c741
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: PowerUnregisterSuspendResumeNotification, PowerUnregisterSuspendResumeNotification function, base.powerunregistersuspendresumenotification, powerbase/PowerUnregisterSuspendResumeNotification
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powerbase.h
 req.include-header: 

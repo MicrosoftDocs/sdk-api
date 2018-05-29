@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3if.ITAutomatedPhoneControl
 title: ITAutomatedPhoneControl
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITAutomatedPhoneControl is a fully OLE automatable and scriptable interface exposed by the TAPI phone object.
 old-location: tapi3\itautomatedphonecontrol.htm
 old-project: Tapi
 ms.assetid: 60d4f079-75ee-4aeb-9e7c-0b16d90da754
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAutomatedPhoneControl, ITAutomatedPhoneControl interface [TAPI 2.2], ITAutomatedPhoneControl interface [TAPI 2.2],described, _tapi3_itautomatedphonecontrol, tapi3.itautomatedphonecontrol, tapi3if/ITAutomatedPhoneControl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3if.h
 req.include-header: Tapi3.h

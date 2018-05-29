@@ -1,16 +1,16 @@
 ---
 UID: NE:shappmgr._tagPublishedAppInfoFlags
 title: "_tagPublishedAppInfoFlags"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies which members in the PUBAPPINFO structure are valid. These flags are bitmasks set in the dwMask member and passed to IPublishedApp::GetPublishedAppInfo.
 old-location: shell\PUBAPPINFOFLAGS.htm
 old-project: shell
 ms.assetid: 9fcb93a5-24b5-4bc3-9f20-0088affb183b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PAI_ASSIGNEDTIME, PAI_EXPIRETIME, PAI_PUBLISHEDTIME, PAI_SCHEDULEDTIME, PAI_SOURCE, PUBAPPINFOFLAGS, PUBAPPINFOFLAGS enumeration [Windows Shell], _tagPublishedAppInfoFlags, inet_PUBAPPINFOFLAGS, shappmgr/PAI_ASSIGNEDTIME, shappmgr/PAI_EXPIRETIME, shappmgr/PAI_PUBLISHEDTIME, shappmgr/PAI_SCHEDULEDTIME, shappmgr/PAI_SOURCE, shappmgr/PUBAPPINFOFLAGS, shell.PUBAPPINFOFLAGS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shappmgr.h
 req.include-header: 

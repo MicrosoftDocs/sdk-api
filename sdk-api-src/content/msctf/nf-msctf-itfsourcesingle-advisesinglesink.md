@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfSourceSingle.AdviseSingleSink
 title: ITfSourceSingle::AdviseSingleSink
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfSourceSingle::AdviseSingleSink method
 old-location: tsf\itfsourcesingle_advisesinglesink.htm
 old-project: TSF
 ms.assetid: d9231f36-24c4-4d46-97e7-518f5fcc1ce2
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: AdviseSingleSink, AdviseSingleSink method [Text Services Framework], AdviseSingleSink method [Text Services Framework],ITfSourceSingle interface, IID_ITfCleanupContextDurationSink, IID_ITfFunctionProvider, ITfSourceSingle interface [Text Services Framework],AdviseSingleSink method, ITfSourceSingle.AdviseSingleSink, ITfSourceSingle::AdviseSingleSink, _tsf_itfsourcesingle_advisesinglesink_ref, msctf/ITfSourceSingle::AdviseSingleSink, tsf.itfsourcesingle_advisesinglesink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

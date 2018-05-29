@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarDecFromI8
 title: VarDecFromI8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts an 8-byte integer value to a decimal value.
 old-location: automat\vardecfromi8.htm
 old-project: automat
 ms.assetid: 41662fe3-70ff-43ce-9734-15f151473b14
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarDecFromI8, VarDecFromI8 function [Automation], _oa96_VarDecFromI8, automat.vardecfromi8, oleauto/VarDecFromI8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

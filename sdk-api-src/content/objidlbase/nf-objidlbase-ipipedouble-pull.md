@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IPipeDouble.Pull
 title: IPipeDouble::Pull
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves data of the double integer type from the pipe source.
 old-location: com\ipipedouble_pull.htm
 old-project: com
 ms.assetid: 393e44fa-48fe-4a8d-b337-9b875129a502
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPipeDouble interface [COM],Pull method, IPipeDouble.Pull, IPipeDouble::Pull, Pull, Pull method [COM], Pull method [COM],IPipeDouble interface, _com_ipipedouble_pull, com.ipipedouble_pull, objidlbase/IPipeDouble::Pull
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

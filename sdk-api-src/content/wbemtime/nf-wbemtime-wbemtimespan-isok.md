@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.IsOk
 title: WBEMTimeSpan::IsOk
-author: windows-driver-content
+author: windows-sdk-content
 description: The IsOk method indicates whether the WBEMTimeSpan object represents a valid time span.
 old-location: wmi\wbemtimespan_isok.htm
 old-project: WmiSdk
 ms.assetid: 855b4c2f-5379-4dd9-9638-072e256e955a
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: IsOk, IsOk method [Windows Management Instrumentation], IsOk method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],IsOk method, WBEMTimeSpan.IsOk, WBEMTimeSpan::IsOk, _hmm_wbemtimespan_isok, wbemtime/WBEMTimeSpan::IsOk, wmi.wbemtimespan_isok
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

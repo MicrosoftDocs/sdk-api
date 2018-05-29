@@ -1,16 +1,16 @@
 ---
 UID: NS:eaptypes._EAP_ATTRIBUTES
 title: "_EAP_ATTRIBUTES"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains an array of EAP attributes.
 old-location: eaphost\eap_attributes.htm
 old-project: EAPHost
 ms.assetid: 2f88b475-a4ae-4c40-b0f8-2dd05c676619
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EAP_ATTRIBUTES, EAP_ATTRIBUTES structure [EAPHost], EapAttributes, EapAttributes structure [EAPHost], _EAP_ATTRIBUTES, eaphost.eap_attributes, eaptypes/EAP_ATTRIBUTES, eaptypes/EapAttributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: eaptypes.h
 req.include-header: 

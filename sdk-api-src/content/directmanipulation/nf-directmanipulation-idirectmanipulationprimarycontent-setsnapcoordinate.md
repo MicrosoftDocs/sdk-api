@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetSnapCoordinate
 title: IDirectManipulationPrimaryContent::SetSnapCoordinate
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the coordinate system for snap points or snap intervals.
 old-location: directmanipulation\idirectmanipulationprimarycontent_setsnapcoordinate.htm
 old-project: directmanipulation
 ms.assetid: 3f9afe1b-20f4-45fa-a63b-25b7a0c597af
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IDirectManipulationPrimaryContent interface [Direct Manipulation],SetSnapCoordinate method, IDirectManipulationPrimaryContent.SetSnapCoordinate, IDirectManipulationPrimaryContent::SetSnapCoordinate, SetSnapCoordinate, SetSnapCoordinate method [Direct Manipulation], SetSnapCoordinate method [Direct Manipulation],IDirectManipulationPrimaryContent interface, directmanipulation.idirectmanipulationprimarycontent_setsnapcoordinate, directmanipulation/IDirectManipulationPrimaryContent::SetSnapCoordinate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItem.GetDisplayName
 title: IShellItem::GetDisplayName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the display name of the IShellItem object.
 old-location: shell\IShellItem_GetDisplayName.htm
 old-project: shell
 ms.assetid: 9b159be9-3797-4c8b-90f8-9d3b3a3afb71
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Windows Shell], GetDisplayName method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],GetDisplayName method, IShellItem.GetDisplayName, IShellItem::GetDisplayName, _win32_IShellItem_GetDisplayName, shell.IShellItem_GetDisplayName, shobjidl_core/IShellItem::GetDisplayName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shlguid.h

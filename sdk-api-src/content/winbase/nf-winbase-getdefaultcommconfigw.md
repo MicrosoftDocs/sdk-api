@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetDefaultCommConfigW
 title: GetDefaultCommConfigW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the default configuration for the specified communications device.
 old-location: base\getdefaultcommconfig.htm
 old-project: DevIO
 ms.assetid: 04bf5033-17c3-4403-8386-f3144e11423f
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: GetDefaultCommConfig, GetDefaultCommConfig function, GetDefaultCommConfigA, GetDefaultCommConfigW, _win32_getdefaultcommconfig, base.getdefaultcommconfig, winbase/GetDefaultCommConfig, winbase/GetDefaultCommConfigA, winbase/GetDefaultCommConfigW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:mstask._TASK_TRIGGER
 title: "_TASK_TRIGGER"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the times to run a scheduled work item.
 old-location: taskschd\task_trigger.htm
 old-project: TaskSchd
 ms.assetid: b4716e32-7c7a-40ab-baa1-4c7ebafc3d71
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PTASK_TRIGGER, PTASK_TRIGGER, PTASK_TRIGGER structure pointer [Task Scheduler], TASK_TRIGGER, TASK_TRIGGER structure [Task Scheduler], _TASK_TRIGGER, _msb_task_trigger, mstask/PTASK_TRIGGER, mstask/TASK_TRIGGER, taskschd.task_trigger, triggers [Task Scheduler],structures,TASK_TRIGGER"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mstask.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:bthledef._BTH_LE_GATT_DESCRIPTOR
 title: "_BTH_LE_GATT_DESCRIPTOR"
-author: windows-driver-content
+author: windows-sdk-content
 description: The BTH_LE_GATT_DESCRIPTOR structure describes a Bluetooth Low Energy (LE) generic attribute (GATT) profile descriptor.
 old-location: bltooth\bth_le_gatt_descriptor.htm
 old-project: bltooth
 ms.assetid: DE738ADA-AE8E-4679-887C-A6194E88386E
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.author: windowssdkdev
+ms.date: 04/27/2018
 ms.keywords: "*PBTH_LE_GATT_DESCRIPTOR, BTH_LE_GATT_DESCRIPTOR, BTH_LE_GATT_DESCRIPTOR structure [Bluetooth Devices], PBTH_LE_GATT_DESCRIPTOR, PBTH_LE_GATT_DESCRIPTOR structure pointer [Bluetooth Devices], _BTH_LE_GATT_DESCRIPTOR, bltooth.bth_le_gatt_descriptor, bthledef/BTH_LE_GATT_DESCRIPTOR, bthledef/PBTH_LE_GATT_DESCRIPTOR"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bthledef.h
 req.include-header: BthLEDef.h

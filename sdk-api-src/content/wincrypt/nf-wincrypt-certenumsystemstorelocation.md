@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertEnumSystemStoreLocation
 title: CertEnumSystemStoreLocation function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CertEnumSystemStoreLocation function retrieves all of the system store locations. The function calls the provided callback function for each system store location found.
 old-location: security\certenumsystemstorelocation.htm
 old-project: SecCrypto
 ms.assetid: 86408e6f-0732-4cb4-85cd-840b9d98b973
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertEnumSystemStoreLocation, CertEnumSystemStoreLocation function [Security], _crypto2_certenumsystemstorelocation, security.certenumsystemstorelocation, wincrypt/CertEnumSystemStoreLocation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

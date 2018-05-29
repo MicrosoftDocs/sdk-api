@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.CopyFileTransactedW
 title: CopyFileTransactedW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies an existing file to a new file as a transacted operation, notifying the application of its progress through a callback function.
 old-location: fs\copyfiletransacted.htm
 old-project: FileIO
 ms.assetid: 118392de-166b-413e-99c9-b3deb756de0e
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_RESTARTABLE, CopyFileTransacted, CopyFileTransacted function [Files], CopyFileTransactedA, CopyFileTransactedW, fs.copyfiletransacted, winbase/CopyFileTransacted, winbase/CopyFileTransactedA, winbase/CopyFileTransactedW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncChangeBatchWithPrerequisite.GetLearnedKnowledgeWithPrerequisite
 title: ISyncChangeBatchWithPrerequisite::GetLearnedKnowledgeWithPrerequisite
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the knowledge that the destination replica learns when the destination provider applies all the changes in this change batch, based on the prerequisite knowledge of the change batch.
 old-location: winsync\isyncchangebatchwithprerequisite_getlearnedknowledgewithprerequisite.htm
 old-project: winsync
 ms.assetid: 691f2cc1-9acb-4474-b20a-31bb7810372e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetLearnedKnowledgeWithPrerequisite, GetLearnedKnowledgeWithPrerequisite method [Windows Sync], GetLearnedKnowledgeWithPrerequisite method [Windows Sync],ISyncChangeBatchWithPrerequisite interface, ISyncChangeBatchWithPrerequisite interface [Windows Sync],GetLearnedKnowledgeWithPrerequisite method, ISyncChangeBatchWithPrerequisite.GetLearnedKnowledgeWithPrerequisite, ISyncChangeBatchWithPrerequisite::GetLearnedKnowledgeWithPrerequisite, winsync.isyncchangebatchwithprerequisite_getlearnedknowledgewithprerequisite, winsync/ISyncChangeBatchWithPrerequisite::GetLearnedKnowledgeWithPrerequisite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

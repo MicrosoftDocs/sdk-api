@@ -1,16 +1,16 @@
 ---
 UID: NS:bits._BG_JOB_PROGRESS
 title: "_BG_JOB_PROGRESS"
-author: windows-driver-content
+author: windows-sdk-content
 description: The BG_JOB_PROGRESS structure provides job-related progress information, such as the number of bytes and files transferred.
 old-location: bits\bg_job_progress.htm
 old-project: Bits
 ms.assetid: 92c5d1d6-1e0b-4b92-9dc5-ec9a4e2c4649
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BG_JOB_PROGRESS, BG_JOB_PROGRESS structure [BITS], _BG_JOB_PROGRESS, _drz_bg_job_progress, bits.bg_job_progress, bits/BG_JOB_PROGRESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bits.h
 req.include-header: 

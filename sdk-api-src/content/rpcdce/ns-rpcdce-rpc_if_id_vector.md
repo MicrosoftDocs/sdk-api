@@ -1,16 +1,16 @@
 ---
 UID: NS:rpcdce.RPC_IF_ID_VECTOR
 title: RPC_IF_ID_VECTOR
-author: windows-driver-content
+author: windows-sdk-content
 description: The RPC_IF_ID_VECTOR structure contains a list of interfaces offered by a server.
 old-location: rpc\rpc_if_id_vector.htm
 old-project: Rpc
 ms.assetid: 0bbef807-9eba-496b-be1c-4e48be7cc713
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RPC_IF_ID_VECTOR, RPC_IF_ID_VECTOR structure [RPC], _rpc_rpc_if_id_vector, rpc.rpc_if_id_vector, rpcdce/RPC_IF_ID_VECTOR
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rpcdce.h
 req.include-header: Rpc.h

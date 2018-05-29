@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.SHTestTokenMembership
 title: SHTestTokenMembership function
-author: windows-driver-content
+author: windows-sdk-content
 description: Uses CheckTokenMembership to test whether the given token is a member of the local group with the specified RID.
 old-location: shell\SHTestTokenMembership.htm
 old-project: shell
 ms.assetid: ac2d591a-f431-4da7-aa9f-0476634ec9cf
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHTestTokenMembership, SHTestTokenMembership function [Windows Shell], _win32_SHTestTokenMembership, shell.SHTestTokenMembership, shellapi/SHTestTokenMembership
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

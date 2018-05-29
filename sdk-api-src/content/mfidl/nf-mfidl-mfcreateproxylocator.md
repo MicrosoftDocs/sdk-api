@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateProxyLocator
 title: MFCreateProxyLocator function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a default proxy locator.
 old-location: mf\mfcreateproxylocator.htm
 old-project: medfound
 ms.assetid: 9ad707df-533a-407b-a611-49bfb019affc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 9ad707df-533a-407b-a611-49bfb019affc, MFCreateProxyLocator, MFCreateProxyLocator function [Media Foundation], mf.mfcreateproxylocator, mfidl/MFCreateProxyLocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winevt.EvtSetChannelConfigProperty
 title: EvtSetChannelConfigProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the specified configuration property of a channel.
 old-location: wes\evtsetchannelconfigproperty.htm
 old-project: WES
 ms.assetid: f5f11bd9-5eb0-4afe-8c8b-57fa3850ad56
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EvtSetChannelConfigProperty, EvtSetChannelConfigProperty function [EventLog], wes.evtsetchannelconfigproperty, winevt/EvtSetChannelConfigProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winevt.h
 req.include-header: 

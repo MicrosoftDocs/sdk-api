@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CurrentExtendedProperties
 title: IUIAutomationStylesPattern::get_CurrentExtendedProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a localized string that contains the list of extended properties for an element in a document.
 old-location: winauto\iuiautomationstylespattern_currentextendedproperties.htm
 old-project: WinAuto
 ms.assetid: E0D643A5-92C5-4307-88A9-8CC13903D976
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: CurrentExtendedProperties property [Windows Accessibility], CurrentExtendedProperties property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentExtendedProperties property, IUIAutomationStylesPattern.CurrentExtendedProperties, IUIAutomationStylesPattern.get_CurrentExtendedProperties, IUIAutomationStylesPattern::CurrentExtendedProperties, IUIAutomationStylesPattern::get_CurrentExtendedProperties, get_CurrentExtendedProperties, uiautomationclient/IUIAutomationStylesPattern::CurrentExtendedProperties, uiautomationclient/IUIAutomationStylesPattern::get_CurrentExtendedProperties, winauto.iuiautomationstylespattern_currentextendedproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

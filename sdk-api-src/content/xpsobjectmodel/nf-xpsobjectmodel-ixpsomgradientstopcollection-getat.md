@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.GetAt
 title: IXpsOMGradientStopCollection::GetAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IXpsOMGradientStop interface pointer from a specified location in the collection.
 old-location: xps\ixpsomgradientstopcollection_getat.htm
 old-project: printdocs
 ms.assetid: 5e75d595-0124-4239-b53e-f1b8101d2dcf
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, IXpsOMGradientStopCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMGradientStopCollection.GetAt, IXpsOMGradientStopCollection::GetAt, xps.ixpsomgradientstopcollection_getat, xpsobjectmodel/IXpsOMGradientStopCollection::GetAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

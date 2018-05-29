@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsSubSystem.GetProperties
 title: IVdsSubSystem::GetProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the properties of a subsystem.
 old-location: base\ivdssubsystem_getproperties.htm
 old-project: VDS
 ms.assetid: cbcf1e14-7e3d-44e6-8c4a-afe927ed0f9d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],GetProperties method, IVdsSubSystem.GetProperties, IVdsSubSystem::GetProperties, base.ivdssubsystem_getproperties, vds/IVdsSubSystem::GetProperties, vdshwprv/IVdsSubSystem::GetProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

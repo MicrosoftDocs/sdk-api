@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.IActionCollection.get__NewEnum
 title: IActionCollection::get__NewEnum
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the collection enumerator for the action collection.
 old-location: taskschd\iactioncollection__newenum.htm
 old-project: TaskSchd
 ms.assetid: 09d8924e-5153-4911-9662-93f71e39e583
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IActionCollection interface [Task Scheduler],_NewEnum property, IActionCollection._NewEnum, IActionCollection.get__NewEnum, IActionCollection::_NewEnum, IActionCollection::get__NewEnum, _NewEnum property [Task Scheduler], _NewEnum property [Task Scheduler],IActionCollection interface, get__NewEnum, taskschd.iactioncollection__newenum, taskschd/IActionCollection::_NewEnum, taskschd/IActionCollection::get__NewEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

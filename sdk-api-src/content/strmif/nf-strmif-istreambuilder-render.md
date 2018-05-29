@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IStreamBuilder.Render
 title: IStreamBuilder::Render
-author: windows-driver-content
+author: windows-sdk-content
 description: The Render method completes rendering of the stream originating with this pin. This can involve adding filters to the filter graph and connecting them.
 old-location: dshow\istreambuilder_render.htm
 old-project: DirectShow
 ms.assetid: 7bba9d1a-03a8-4572-a08c-2e12071df73b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IStreamBuilder interface [DirectShow],Render method, IStreamBuilder.Render, IStreamBuilder::Render, IStreamBuilderRender, Render, Render method [DirectShow], Render method [DirectShow],IStreamBuilder interface, dshow.istreambuilder_render, strmif/IStreamBuilder::Render
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_Uint16Field
 title: "_MI_Uint16Field"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_uint16field.htm
 old-project: wmi_v2
 ms.assetid: 430ebf5e-e490-4db0-8df9-63968d498a3b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Uint16Field, MI_Uint16Field structure [Windows Management Infrastructure (MI)], _MI_Uint16Field, mi/MI_Uint16Field, wmi._mi_uint16field, wmi_v2.mi_uint16field
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:propvarutil.IsVarTypeNumber
 title: IsVarTypeNumber function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies whether VARTYPE is a number.
 old-location: properties\IsVarTypeNumber.htm
 old-project: properties
 ms.assetid: 57051571-4871-46dd-8319-9c9f29890603
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsVarTypeNumber, IsVarTypeNumber function [Windows Properties], _shell_IsVarTypeNumber, properties.IsVarTypeNumber, propvarutil/IsVarTypeNumber, shell.IsVarTypeNumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propvarutil.h
 req.include-header: 

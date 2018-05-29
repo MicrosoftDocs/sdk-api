@@ -1,16 +1,16 @@
 ---
 UID: NE:mfidl.MF_OBJECT_TYPE
 title: MF_OBJECT_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the object types that are created by the source resolver.
 old-location: mf\mf_object_type.htm
 old-project: medfound
 ms.assetid: e919ae78-e3a5-42c5-b4e0-186e7e4fe54a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MF_OBJECT_BYTESTREAM, MF_OBJECT_INVALID, MF_OBJECT_MEDIASOURCE, MF_OBJECT_TYPE, MF_OBJECT_TYPE enumeration [Media Foundation], e919ae78-e3a5-42c5-b4e0-186e7e4fe54a, mf.mf_object_type, mfidl/MF_OBJECT_BYTESTREAM, mfidl/MF_OBJECT_INVALID, mfidl/MF_OBJECT_MEDIASOURCE, mfidl/MF_OBJECT_TYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

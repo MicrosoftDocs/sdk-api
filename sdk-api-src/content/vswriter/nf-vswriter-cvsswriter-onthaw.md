@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.CVssWriter.OnThaw
 title: CVssWriter::OnThaw
-author: windows-driver-content
+author: windows-sdk-content
 description: The OnThaw method is called by a writer following a Thaw event.
 old-location: base\cvsswriter_onthaw.htm
 old-project: VSS
 ms.assetid: 36028e9f-f7a7-41f1-a570-48f943e9ab83
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CVssWriter interface [VSS],OnThaw method, CVssWriter.OnThaw, CVssWriter::OnThaw, OnThaw, OnThaw method [VSS], OnThaw method [VSS],CVssWriter interface, _win32_cvsswriter_onthaw, base.cvsswriter_onthaw, vswriter/CVssWriter::OnThaw
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiExtractPatchXMLDataA
 title: MsiExtractPatchXMLDataA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiExtractPatchXMLData function extracts information from a patch that can be used to determine if the patch applies to a target system.
 old-location: setup\msiextractpatchxmldata.htm
 old-project: Msi
 ms.assetid: b0044783-552d-4492-bb1d-337227dd3e16
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiExtractPatchXMLData, MsiExtractPatchXMLData function, MsiExtractPatchXMLDataA, MsiExtractPatchXMLDataW, msi/MsiExtractPatchXMLData, msi/MsiExtractPatchXMLDataA, msi/MsiExtractPatchXMLDataW, setup.msiextractpatchxmldata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

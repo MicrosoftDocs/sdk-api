@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.RedrawWindow
 title: IWTSProtocolConnectionCallback::RedrawWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: IWTSProtocolConnectionCallback::RedrawWindow is no longer available. Instead, use IWRdsProtocolConnectionCallback::RedrawWindow.
 old-location: termserv\iwtsprotocolconnectioncallback_redrawwindow.htm
 old-project: TermServ
 ms.assetid: 8c5f7167-53c0-47fd-a62d-5137c341177d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWTSProtocolConnectionCallback interface [Remote Desktop Services],RedrawWindow method, IWTSProtocolConnectionCallback.RedrawWindow, IWTSProtocolConnectionCallback::RedrawWindow, RedrawWindow, RedrawWindow method [Remote Desktop Services], RedrawWindow method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, termserv.iwtsprotocolconnectioncallback_redrawwindow, wtsprotocol/IWTSProtocolConnectionCallback::RedrawWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

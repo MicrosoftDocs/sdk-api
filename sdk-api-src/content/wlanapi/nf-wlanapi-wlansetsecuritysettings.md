@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanSetSecuritySettings
 title: WlanSetSecuritySettings function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the security settings for a configurable object.
 old-location: nwifi\wlansetsecuritysettings.htm
 old-project: NativeWiFi
 ms.assetid: 6038e4bc-7f07-4148-ac34-e290c8c40e99
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanSetSecuritySettings, WlanSetSecuritySettings function [NativeWIFI], nwifi.wlansetsecuritysettings, wlanapi/WlanSetSecuritySettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

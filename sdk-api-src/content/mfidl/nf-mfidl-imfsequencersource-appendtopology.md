@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSequencerSource.AppendTopology
 title: IMFSequencerSource::AppendTopology
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a topology to the end of the queue.
 old-location: mf\imfsequencersource_appendtopology.htm
 old-project: medfound
 ms.assetid: 4ff20d56-6095-495d-89ee-9086c61da8ac
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 4ff20d56-6095-495d-89ee-9086c61da8ac, AppendTopology, AppendTopology method [Media Foundation], AppendTopology method [Media Foundation],IMFSequencerSource interface, IMFSequencerSource interface [Media Foundation],AppendTopology method, IMFSequencerSource.AppendTopology, IMFSequencerSource::AppendTopology, mf.imfsequencersource_appendtopology, mfidl/IMFSequencerSource::AppendTopology
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

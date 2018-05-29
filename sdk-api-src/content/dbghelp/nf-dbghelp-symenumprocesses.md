@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymEnumProcesses
 title: SymEnumProcesses function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates each process that has called the SymInitialize function.
 old-location: base\symenumprocesses.htm
 old-project: Debug
 ms.assetid: 281b83ff-8375-4edb-8a10-97af5dbdc87b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymEnumProcesses, SymEnumProcesses function, base.symenumprocesses, dbghelp/SymEnumProcesses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

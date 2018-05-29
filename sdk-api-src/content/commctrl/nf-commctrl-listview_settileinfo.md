@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SetTileInfo
 title: ListView_SetTileInfo macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets information for an existing tile of a list-view control. You can use this macro or send the LVM_SETTILEINFO message explicitly.
 old-location: controls\ListView_SetTileInfo.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settileinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_SetTileInfo, ListView_SetTileInfo macro [Windows Controls], _win32_ListView_SetTileInfo, _win32_ListView_SetTileInfo_cpp, commctrl/ListView_SetTileInfo, controls.ListView_SetTileInfo, controls._win32_ListView_SetTileInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

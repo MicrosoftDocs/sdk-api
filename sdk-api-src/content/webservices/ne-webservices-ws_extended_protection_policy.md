@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_EXTENDED_PROTECTION_POLICY
 title: WS_EXTENDED_PROTECTION_POLICY
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines if Extended Protection data should be validated.
 old-location: wsw\ws_extended_protection_policy.htm
 old-project: wsw
 ms.assetid: ee3685b1-0ffe-410e-a6fc-b31ed8d25b26
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_EXTENDED_PROTECTION_POLICY, WS_EXTENDED_PROTECTION_POLICY enumeration [Web Services for Windows], WS_EXTENDED_PROTECTION_POLICY_ALWAYS, WS_EXTENDED_PROTECTION_POLICY_NEVER, WS_EXTENDED_PROTECTION_POLICY_WHEN_SUPPORTED, webservices/WS_EXTENDED_PROTECTION_POLICY, webservices/WS_EXTENDED_PROTECTION_POLICY_ALWAYS, webservices/WS_EXTENDED_PROTECTION_POLICY_NEVER, webservices/WS_EXTENDED_PROTECTION_POLICY_WHEN_SUPPORTED, wsw.ws_extended_protection_policy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

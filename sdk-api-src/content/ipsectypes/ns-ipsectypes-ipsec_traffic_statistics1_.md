@@ -1,16 +1,16 @@
 ---
 UID: NS:ipsectypes.IPSEC_TRAFFIC_STATISTICS1_
 title: IPSEC_TRAFFIC_STATISTICS1_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores IPsec traffic statistics.
 old-location: fwp\ipsec_traffic_statistics1_struct.htm
 old-project: FWP
 ms.assetid: 3b25d98a-9216-4e74-91fc-cc8658e12d9b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IPSEC_TRAFFIC_STATISTICS1, IPSEC_TRAFFIC_STATISTICS1 structure [Filtering], IPSEC_TRAFFIC_STATISTICS1_, fwp.ipsec_traffic_statistics1_struct, ipsectypes/IPSEC_TRAFFIC_STATISTICS1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ipsectypes.h
 req.include-header: 

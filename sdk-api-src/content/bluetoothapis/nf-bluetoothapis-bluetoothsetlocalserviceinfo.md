@@ -1,16 +1,16 @@
 ---
 UID: NF:bluetoothapis.BluetoothSetLocalServiceInfo
 title: BluetoothSetLocalServiceInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets local service information for a specific Bluetooth radio.
 old-location: bltooth\bluetoothsetlocalserviceinfo.htm
 old-project: bltooth
 ms.assetid: ab76f5d5-b7b6-4dc5-967d-5fe19260b5ad
-ms.author: windowsdriverdev
-ms.date: 4/27/2018
+ms.author: windowssdkdev
+ms.date: 04/27/2018
 ms.keywords: BluetoothSetLocalServiceInfo, BluetoothSetLocalServiceInfo function [Bluetooth Devices], bltooth.bluetoothsetlocalserviceinfo, bluetoothapis/BluetoothSetLocalServiceInfo, bth_funcs_036c64a4-5050-4d5d-8217-fc4ff9ef300d.xml
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: bluetoothapis.h
 req.include-header: 

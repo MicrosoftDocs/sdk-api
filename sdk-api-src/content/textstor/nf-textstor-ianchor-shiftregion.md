@@ -1,16 +1,16 @@
 ---
 UID: NF:textstor.IAnchor.ShiftRegion
 title: IAnchor::ShiftRegion
-author: windows-driver-content
+author: windows-sdk-content
 description: IAnchor::ShiftRegion method
 old-location: tsf\ianchor_shiftregion.htm
 old-project: TSF
 ms.assetid: f24f0155-fab6-46fb-9bff-598cd25e17ea
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FALSE, IAnchor interface [Text Services Framework],ShiftRegion method, IAnchor.ShiftRegion, IAnchor::ShiftRegion, ShiftRegion, ShiftRegion method [Text Services Framework], ShiftRegion method [Text Services Framework],IAnchor interface, TRUE, TS_SD_BACKWARD, TS_SD_FORWARD, TS_SHIFT_COUNT_HIDDEN, TS_SHIFT_COUNT_ONLY, textstor/IAnchor::ShiftRegion, tsf.ianchor_shiftregion
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: textstor.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mgmtapi.SnmpMgrTrapListen
 title: SnmpMgrTrapListen function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SnmpMgrTrapListen function registers the ability of an SNMP manager application to receive SNMP traps from the SNMP Trap Service. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgrtraplisten.htm
 old-project: SNMP
 ms.assetid: 9ba799a7-0088-4939-9665-ce96074c6448
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpMgrTrapListen, SnmpMgrTrapListen function [SNMP], _snmp_snmpmgrtraplisten, mgmtapi/SnmpMgrTrapListen, snmp.snmpmgrtraplisten
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mgmtapi.h
 req.include-header: 

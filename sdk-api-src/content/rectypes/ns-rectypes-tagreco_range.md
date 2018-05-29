@@ -1,16 +1,16 @@
 ---
 UID: NS:rectypes.tagRECO_RANGE
 title: tagRECO_RANGE
-author: windows-driver-content
+author: windows-sdk-content
 description: The structure is obsolete.
 old-location: tablet\reco_range.htm
 old-project: tablet
 ms.assetid: 212de1c5-b61e-4e6e-a781-cba63b820504
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 212de1c5-b61e-4e6e-a781-cba63b820504, RECO_RANGE, RECO_RANGE structure [Tablet PC], rectypes/RECO_RANGE, tablet.reco_range, tagRECO_RANGE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: rectypes.h
 req.include-header: 

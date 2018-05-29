@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptSignAndEncodeCertificate
 title: CryptSignAndEncodeCertificate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Encodes and signs a certificate, certificate revocation list (CRL), certificate trust list (CTL), or certificate request.
 old-location: security\cryptsignandencodecertificate.htm
 old-project: SecCrypto
 ms.assetid: ee138918-ed7c-4980-8b18-64004a0dd7df
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CryptSignAndEncodeCertificate, CryptSignAndEncodeCertificate function [Security], X509_ASN_ENCODING, X509_CERT_CRL_TO_BE_SIGNED, X509_CERT_REQUEST_TO_BE_SIGNED, X509_CERT_TO_BE_SIGNED, X509_KEYGEN_REQUEST_TO_BE_SIGNED, _crypto2_cryptsignandencodecertificate, security.cryptsignandencodecertificate, wincrypt/CryptSignAndEncodeCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

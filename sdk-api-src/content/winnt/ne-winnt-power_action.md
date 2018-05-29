@@ -1,16 +1,16 @@
 ---
 UID: NE:winnt.POWER_ACTION
 title: POWER_ACTION
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines values that are used to specify system power action types.
 old-location: base\power_action.htm
 old-project: Power
 ms.assetid: 815e1f2d-0fc9-446c-ae83-5d5cfea57ab7
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: "*PPOWER_ACTION, POWER_ACTION, POWER_ACTION enumeration, PPOWER_ACTION, PPOWER_ACTION enumeration pointer, PowerActionHibernate, PowerActionNone, PowerActionReserved, PowerActionShutdown, PowerActionShutdownOff, PowerActionShutdownReset, PowerActionSleep, PowerActionWarmEject, _win32_power_action, base.power_action, winnt/POWER_ACTION, winnt/PPOWER_ACTION, winnt/PowerActionHibernate, winnt/PowerActionNone, winnt/PowerActionReserved, winnt/PowerActionShutdown, winnt/PowerActionShutdownOff, winnt/PowerActionShutdownReset, winnt/PowerActionSleep, winnt/PowerActionWarmEject"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: Windows.h

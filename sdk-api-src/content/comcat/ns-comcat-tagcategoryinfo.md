@@ -1,16 +1,16 @@
 ---
 UID: NS:comcat.tagCATEGORYINFO
 title: tagCATEGORYINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a component category.
 old-location: com\categoryinfo.htm
 old-project: com
 ms.assetid: a5f0cb04-595d-4388-8943-79b9da76022b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPCATEGORYINFO, CATEGORYINFO, CATEGORYINFO structure [COM], _com_categoryinfo_structure, com.categoryinfo, comcat/CATEGORYINFO, tagCATEGORYINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: comcat.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj.PathProcessCommand
 title: PathProcessCommand function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Processes a string that contains a command line and generates a suitably quoted string, with arguments attached if required.
 old-location: shell\PathProcessCommand.htm
 old-project: shell
 ms.assetid: 9dbc39e7-f73b-450f-bb87-17a38e7ab66d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PPCF_ADDARGUMENTS, PPCF_ADDQUOTES, PPCF_FORCEQUALIFY, PPCF_LONGESTPOSSIBLE, PPCF_NODIRECTORIES, PathProcessCommand, PathProcessCommand function [Windows Shell], _win32_PathProcessCommand, shell.PathProcessCommand, shlobj/PathProcessCommand
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj.h
 req.include-header: 

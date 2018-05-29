@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.ConvertDefaultLocale
 title: ConvertDefaultLocale function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a default locale value to an actual locale identifier.
 old-location: intl\convertdefaultlocale.htm
 old-project: Intl
 ms.assetid: e227bb9f-f072-4e44-bd55-24c98b990a36
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ConvertDefaultLocale, ConvertDefaultLocale function [Internationalization for Windows Applications], _win32_ConvertDefaultLocale, intl.convertdefaultlocale, winnls/ConvertDefaultLocale
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

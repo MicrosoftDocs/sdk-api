@@ -1,16 +1,16 @@
 ---
 UID: NE:objidl.tagLOCKTYPE
 title: tagLOCKTYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The LOCKTYPE enumeration values indicate the type of locking requested for the specified range of bytes. The values are used in the ILockBytes::LockRegion and IStream::LockRegion methods.
 old-location: stg\locktype.htm
 old-project: Stg
 ms.assetid: 5d84fb08-aa4f-4918-a0de-550b02cb5287
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: LOCKTYPE, LOCKTYPE enumeration [Structured Storage], LOCK_EXCLUSIVE, LOCK_ONLYONCE, LOCK_WRITE, _stg_locktype, objidl/LOCKTYPE, objidl/LOCK_EXCLUSIVE, objidl/LOCK_ONLYONCE, objidl/LOCK_WRITE, stg.locktype, tagLOCKTYPE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidl.h
 req.include-header: 

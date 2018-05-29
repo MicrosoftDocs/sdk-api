@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnSubscriberInformation.get_SimIccID
 title: IMbnSubscriberInformation::get_SimIccID
-author: windows-driver-content
+author: windows-sdk-content
 description: The SIM International circuit card number (SimICCID) for the device.
 old-location: mbn\imbnsubscriberinformation_simiccid.htm
 old-project: mbn
 ms.assetid: 18132836-65e8-4372-bfcd-ba0115b2d4d0
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnSubscriberInformation interface [Microsoft Broadband Networks],SimIccID property, IMbnSubscriberInformation.SimIccID, IMbnSubscriberInformation.get_SimIccID, IMbnSubscriberInformation::SimIccID, IMbnSubscriberInformation::get_SimIccID, SimIccID property [Microsoft Broadband Networks], SimIccID property [Microsoft Broadband Networks],IMbnSubscriberInformation interface, get_SimIccID, mbn.imbnsubscriberinformation_simiccid, mbnapi/IMbnSubscriberInformation::SimIccID, mbnapi/IMbnSubscriberInformation::get_SimIccID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

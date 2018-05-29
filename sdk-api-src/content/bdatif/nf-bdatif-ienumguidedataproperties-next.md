@@ -1,16 +1,16 @@
 ---
 UID: NF:bdatif.IEnumGuideDataProperties.Next
 title: IEnumGuideDataProperties::Next
-author: windows-driver-content
+author: windows-sdk-content
 description: The Next method retrieves the specified number of items in the enumeration sequence.
 old-location: mstv\ienumguidedataproperties_next.htm
 old-project: mstv
 ms.assetid: 5d13ce97-5729-48e5-a742-0689b2aae1f3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumGuideDataProperties interface [Microsoft TV Technologies],Next method, IEnumGuideDataProperties.Next, IEnumGuideDataProperties::Next, IEnumGuideDataPropertiesNext, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],IEnumGuideDataProperties interface, bdatif/IEnumGuideDataProperties::Next, mstv.ienumguidedataproperties_next
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetIDsOfNames
 title: ITypeInfo::GetIDsOfNames
-author: windows-driver-content
+author: windows-sdk-content
 description: Maps between member names and member IDs, and parameter names and parameter IDs.
 old-location: automat\itypeinfo_getidsofnames.htm
 old-project: automat
 ms.assetid: fb66ee55-e491-40e9-a795-58beb4acee25
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: GetIDsOfNames, GetIDsOfNames method [Automation], GetIDsOfNames method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetIDsOfNames method, ITypeInfo.GetIDsOfNames, ITypeInfo2.GetIDsOfNames, ITypeInfo::GetIDsOfNames, _oa96_ITypeInfo_GetIDsOfNames, automat.itypeinfo_getidsofnames, oaidl/ITypeInfo::GetIDsOfNames
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

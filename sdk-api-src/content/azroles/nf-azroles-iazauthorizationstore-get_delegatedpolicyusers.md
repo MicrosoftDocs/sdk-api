@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_DelegatedPolicyUsers
 title: IAzAuthorizationStore::get_DelegatedPolicyUsers
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the security identifiers (SIDs) of principals that act as delegated policy users in text form.
 old-location: security\azauthorizationstore_delegatedpolicyusers.htm
 old-project: SecAuthZ
 ms.assetid: cc1268d5-d386-4888-a987-e40896a096e4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzAuthorizationStore object [Security],DelegatedPolicyUsers property, DelegatedPolicyUsers property [Security], DelegatedPolicyUsers property [Security],AzAuthorizationStore object, DelegatedPolicyUsers property [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DelegatedPolicyUsers property, IAzAuthorizationStore.DelegatedPolicyUsers, IAzAuthorizationStore.get_DelegatedPolicyUsers, IAzAuthorizationStore::DelegatedPolicyUsers, IAzAuthorizationStore::get_DelegatedPolicyUsers, azroles/IAzAuthorizationStore::DelegatedPolicyUsers, azroles/IAzAuthorizationStore::get_DelegatedPolicyUsers, get_DelegatedPolicyUsers, security.azauthorizationstore_delegatedpolicyusers
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

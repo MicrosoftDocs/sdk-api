@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoGetCallContext
 title: CoGetCallContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the context of the current call on the current thread.
 old-location: com\cogetcallcontext.htm
 old-project: com
 ms.assetid: b82e32c0-840d-402e-90d5-ff678c51faf1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoGetCallContext, CoGetCallContext function [COM], _com_CoGetCallContext, com.cogetcallcontext, combaseapi/CoGetCallContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

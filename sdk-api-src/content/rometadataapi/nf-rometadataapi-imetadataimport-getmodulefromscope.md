@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetModuleFromScope
 title: IMetaDataImport::GetModuleFromScope
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a metadata token for the module referenced in the current metadata scope.
 old-location: winrt\imetadataimport_getmodulefromscope.htm
 old-project: WinRT
 ms.assetid: 4ad7248d-7266-4a14-b499-05bda7f60e01
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: GetModuleFromScope, GetModuleFromScope method [Windows Runtime], GetModuleFromScope method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetModuleFromScope method, IMetaDataImport.GetModuleFromScope, IMetaDataImport::GetModuleFromScope, rometadataapi/IMetaDataImport::GetModuleFromScope, winrt.imetadataimport_getmodulefromscope
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rometadataapi.h
 req.include-header: 

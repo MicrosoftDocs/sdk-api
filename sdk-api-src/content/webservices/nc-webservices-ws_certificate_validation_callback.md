@@ -1,16 +1,16 @@
 ---
 UID: NC:webservices.WS_CERTIFICATE_VALIDATION_CALLBACK
 title: WS_CERTIFICATE_VALIDATION_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: The WS_CERTIFICATE_VALIDATION_CALLBACK callback is invoked to validate a certificate when a connection to an HTTP server has been established and headers sent.
 old-location: wsw\ws_certificate_validation_callback.htm
 old-project: wsw
 ms.assetid: 368A6162-F194-4C5C-B5FE-89633435168F
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_CERTIFICATE_VALIDATION_CALLBACK, WS_CERTIFICATE_VALIDATION_CALLBACK callback, WS_CERTIFICATE_VALIDATION_CALLBACK callback function [Web Services for Windows], webservices/WS_CERTIFICATE_VALIDATION_CALLBACK, wsw.ws_certificate_validation_callback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: webservices.h
 req.include-header: 

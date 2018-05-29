@@ -1,16 +1,16 @@
 ---
 UID: NS:wininet.AutoProxyHelperFunctions
 title: AutoProxyHelperFunctions
-author: windows-driver-content
+author: windows-sdk-content
 description: The AutoProxyHelperFunctions structure is used create a v-table of Proxy Auto-Config functions that can be passed to InternetInitializeAutoProxyDll.
 old-location: wininet\autoproxyhelperfunctions.htm
 old-project: WinInet
 ms.assetid: 00574c2a-d72f-4744-82b7-3a980af59427
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: AutoProxyHelperFunctions, AutoProxyHelperFunctions structure [WinINet], wininet.autoproxyhelperfunctions, wininet/AutoProxyHelperFunctions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wininet.h
 req.include-header: 

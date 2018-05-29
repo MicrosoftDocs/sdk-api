@@ -1,16 +1,16 @@
 ---
 UID: NF:aclapi.GetNamedSecurityInfoW
 title: GetNamedSecurityInfoW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a copy of the security descriptor for an object specified by name.
 old-location: security\getnamedsecurityinfo.htm
 old-project: SecAuthZ
 ms.assetid: 11f2119b-5314-4fa1-8016-9c01f79d037d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetNamedSecurityInfo, GetNamedSecurityInfo function [Security], GetNamedSecurityInfoA, GetNamedSecurityInfoW, _win32_getnamedsecurityinfo, aclapi/GetNamedSecurityInfo, aclapi/GetNamedSecurityInfoA, aclapi/GetNamedSecurityInfoW, security.getnamedsecurityinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: aclapi.h
 req.include-header: 

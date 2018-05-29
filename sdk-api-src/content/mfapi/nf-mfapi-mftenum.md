@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFTEnum
 title: MFTEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates Media Foundation transforms (MFTs) in the registry.
 old-location: mf\mftenum.htm
 old-project: medfound
 ms.assetid: a3bd2b3c-0b0b-4d64-99cc-6093c773f71c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFTEnum, MFTEnum function [Media Foundation], a3bd2b3c-0b0b-4d64-99cc-6093c773f71c, mf.mftenum, mfapi/MFTEnum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

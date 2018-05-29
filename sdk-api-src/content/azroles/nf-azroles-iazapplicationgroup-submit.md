@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.Submit
 title: IAzApplicationGroup::Submit
-author: windows-driver-content
+author: windows-sdk-content
 description: Persists changes made to the IAzApplicationGroup object.
 old-location: security\iazapplicationgroup_submit.htm
 old-project: SecAuthZ
 ms.assetid: 51a855dd-4a90-4f7a-b32f-f91e3941655b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzApplicationGroup object [Security],Submit method, IAzApplicationGroup interface [Security],Submit method, IAzApplicationGroup.Submit, IAzApplicationGroup::Submit, Submit, Submit method [Security], Submit method [Security],AzApplicationGroup object, Submit method [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Submit, security.iazapplicationgroup_submit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

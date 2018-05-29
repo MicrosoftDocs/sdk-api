@@ -1,16 +1,16 @@
 ---
 UID: NE:vss._VSS_SNAPSHOT_CONTEXT
 title: "_VSS_SNAPSHOT_CONTEXT"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specify how a shadow copy is to be created, queried, or deleted and the degree of writer involvement.
 old-location: base\_vss_snapshot_context.htm
 old-project: VSS
 ms.assetid: 2efe3066-4b91-4501-bacb-4211b222e0c3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PVSS_SNAPSHOT_CONTEXT, PVSS_SNAPSHOT_CONTEXT, PVSS_SNAPSHOT_CONTEXT enumeration pointer [VSS], VSS_CTX_ALL, VSS_CTX_APP_ROLLBACK, VSS_CTX_BACKUP, VSS_CTX_CLIENT_ACCESSIBLE, VSS_CTX_CLIENT_ACCESSIBLE_WRITERS, VSS_CTX_FILE_SHARE_BACKUP, VSS_CTX_NAS_ROLLBACK, VSS_SNAPSHOT_CONTEXT, VSS_SNAPSHOT_CONTEXT enumeration [VSS], _VSS_SNAPSHOT_CONTEXT, _VSS_SNAPSHOT_CONTEXT enumeration [VSS], _win32__vss_snapshot_context, base._vss_snapshot_context, vss/PVSS_SNAPSHOT_CONTEXT, vss/VSS_CTX_ALL, vss/VSS_CTX_APP_ROLLBACK, vss/VSS_CTX_BACKUP, vss/VSS_CTX_CLIENT_ACCESSIBLE, vss/VSS_CTX_CLIENT_ACCESSIBLE_WRITERS, vss/VSS_CTX_FILE_SHARE_BACKUP, vss/VSS_CTX_NAS_ROLLBACK, vss/_VSS_SNAPSHOT_CONTEXT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: vss.h
 req.include-header: 

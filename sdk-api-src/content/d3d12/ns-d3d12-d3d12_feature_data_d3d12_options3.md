@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS3
 title: D3D12_FEATURE_DATA_D3D12_OPTIONS3
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to indicate the level of support that the adapter provides for optional features of Direct3D 12.
 old-location: direct3d12\d3d12_feature_data_d3d12_options3.htm
 old-project: direct3d12
 ms.assetid: 4BA37E6A-124D-4808-8005-CC049B8EE165
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: D3D12_FEATURE_DATA_D3D12_OPTIONS3, D3D12_FEATURE_DATA_D3D12_OPTIONS3 structure, d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS3, direct3d12.d3d12_feature_data_d3d12_options3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d12.h
 req.include-header: 

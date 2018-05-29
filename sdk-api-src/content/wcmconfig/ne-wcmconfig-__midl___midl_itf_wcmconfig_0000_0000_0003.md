@@ -1,16 +1,16 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0003
 title: "__MIDL___MIDL_itf_wcmconfig_0000_0000_0003"
-author: windows-driver-content
+author: windows-sdk-content
 description: Enumerates the data types returned from the ISettingsItem::GetDataType method.
 old-location: smi\wcmdatatype.htm
 old-project: SMI
 ms.assetid: 27cf5831-f515-4864-bd40-a9d64f30c92d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WcmDataType, WcmDataType enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0003, dataTypeBoolean, dataTypeByte, dataTypeFlagArray, dataTypeInt16, dataTypeInt32, dataTypeInt64, dataTypeSByte, dataTypeString, dataTypeUInt16, dataTypeUInt32, dataTypeUInt64, smi.wcmdatatype, wcmconfig/WcmDataType, wcmconfig/dataTypeBoolean, wcmconfig/dataTypeByte, wcmconfig/dataTypeFlagArray, wcmconfig/dataTypeInt16, wcmconfig/dataTypeInt32, wcmconfig/dataTypeInt64, wcmconfig/dataTypeSByte, wcmconfig/dataTypeString, wcmconfig/dataTypeUInt16, wcmconfig/dataTypeUInt32, wcmconfig/dataTypeUInt64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wcmconfig.h
 req.include-header: 

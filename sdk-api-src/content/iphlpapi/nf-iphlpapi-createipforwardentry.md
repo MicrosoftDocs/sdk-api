@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.CreateIpForwardEntry
 title: CreateIpForwardEntry function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateIpForwardEntry function creates a route in the local computer's IPv4 routing table.
 old-location: iphlp\createipforwardentry.htm
 old-project: IpHlp
 ms.assetid: 72243390-c3b8-41c3-8771-a5fb1d6383ae
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: CreateIpForwardEntry, CreateIpForwardEntry function [IP Helper], _iphlp_createipforwardentry, iphlp.createipforwardentry, iphlpapi/CreateIpForwardEntry
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

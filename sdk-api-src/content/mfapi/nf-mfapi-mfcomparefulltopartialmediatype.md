@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCompareFullToPartialMediaType
 title: MFCompareFullToPartialMediaType function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compares a full media type to a partial media type.
 old-location: mf\mfcomparefulltopartialmediatype.htm
 old-project: medfound
 ms.assetid: 5659cc69-46dc-4b08-96c4-e9ec787a310a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 5659cc69-46dc-4b08-96c4-e9ec787a310a, MFCompareFullToPartialMediaType, MFCompareFullToPartialMediaType function [Media Foundation], mf.mfcomparefulltopartialmediatype, mfapi/MFCompareFullToPartialMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

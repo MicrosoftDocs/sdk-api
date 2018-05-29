@@ -1,16 +1,16 @@
 ---
 UID: NN:xenroll.ICEnroll3
 title: ICEnroll3
-author: windows-driver-content
+author: windows-sdk-content
 description: One of several interfaces that represent the Certificate Enrollment Control.
 old-location: security\icenroll3.htm
 old-project: SecCrypto
 ms.assetid: 4caa7e75-0116-4891-8bf2-ede09a05a440
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICEnroll3, ICEnroll3 interface [Security], ICEnroll3 interface [Security],described, _xen_icenroll3, security.icenroll3, xenroll/ICEnroll3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:threadpoolapiset.QueryThreadpoolStackInformation
 title: QueryThreadpoolStackInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the stack reserve and commit sizes for threads in the specified thread pool.
 old-location: base\querythreadpoolstackinformation.htm
 old-project: ProcThread
 ms.assetid: 1669dfa7-75bf-4776-bba7-7d03a084a32c
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: QueryThreadpoolStackInformation, QueryThreadpoolStackInformation function, base.querythreadpoolstackinformation, threadpoolapiset/QueryThreadpoolStackInformation, winbase/QueryThreadpoolStackInformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: threadpoolapiset.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:userenv._GROUP_POLICY_OBJECTW
 title: "_GROUP_POLICY_OBJECTW"
-author: windows-driver-content
+author: windows-sdk-content
 description: The GROUP_POLICY_OBJECT structure provides information about a GPO in a GPO list.
 old-location: policy\group_policy_object_str.htm
 old-project: Policy
 ms.assetid: 7275a3cd-6b19-4eb9-9481-b73bd5af5753
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PGROUP_POLICY_OBJECTW, GPLinkDomain, GPLinkMachine, GPLinkOrganizationalUnit, GPLinkSite, GPLinkUnknown, GPO_FLAG_DISABLE, GPO_FLAG_FORCE, GROUP_POLICY_OBJECT, GROUP_POLICY_OBJECT structure [Group Policy], GROUP_POLICY_OBJECTA, GROUP_POLICY_OBJECTW, PGROUP_POLICY_OBJECT, PGROUP_POLICY_OBJECT structure pointer [Group Policy], _GROUP_POLICY_OBJECTW, _win32_group_policy_object_str, policy.group_policy_object_str, userenv/GROUP_POLICY_OBJECT, userenv/GROUP_POLICY_OBJECTA, userenv/GROUP_POLICY_OBJECTW, userenv/PGROUP_POLICY_OBJECT"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: userenv.h
 req.include-header: 

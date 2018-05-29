@@ -1,16 +1,16 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetUpStreamHypotheses
 title: INetDiagHelper::GetUpStreamHypotheses
-author: windows-driver-content
+author: windows-sdk-content
 description: Generate hypotheses for possible causes of high utilization in the upstream network components.
 old-location: ndf\inetdiaghelpe_getupstreathypotheses.htm
 old-project: NDF
 ms.assetid: e683a2eb-8dec-47e2-ae3d-6c12a9b2773d
-ms.author: windowsdriverdev
-ms.date: 3/26/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetUpStreamHypotheses, GetUpStreamHypotheses method [NDF], GetUpStreamHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetUpStreamHypotheses method, INetDiagHelper.GetUpStreamHypotheses, INetDiagHelper::GetUpStreamHypotheses, ndf.inetdiaghelpe_getupstreathypotheses, ndhelper/INetDiagHelper::GetUpStreamHypotheses
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ndhelper.h
 req.include-header: 

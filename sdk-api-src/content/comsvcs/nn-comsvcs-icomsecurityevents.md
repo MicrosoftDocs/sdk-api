@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.IComSecurityEvents
 title: IComSecurityEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the subscriber if the authentication of a method call succeeded or failed.
 old-location: cos\icomsecurityevents.htm
 old-project: cossdk
 ms.assetid: 83366f18-8dd4-4c3d-8362-4fbcc4c33b95
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComSecurityEvents, IComSecurityEvents interface [COM+], IComSecurityEvents interface [COM+],described, _dtc_IComSecurityEvents, comsvcs/IComSecurityEvents, cos.icomsecurityevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

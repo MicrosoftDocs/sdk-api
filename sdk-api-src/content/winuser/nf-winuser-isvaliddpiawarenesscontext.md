@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.IsValidDpiAwarenessContext
 title: IsValidDpiAwarenessContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if a specified DPI_AWARENESS_CONTEXT is valid and supported by the current system.
 old-location: hidpi\isvaliddpiawarenesscontext.htm
 old-project: hidpi
 ms.assetid: 66F48B95-DEF4-4422-BF4F-5EBA3C713A80
-ms.author: windowsdriverdev
-ms.date: 3/29/2018
+ms.author: windowssdkdev
+ms.date: 03/29/2018
 ms.keywords: IsValidDpiAwarenessContext, IsValidDpiAwarenessContext function [High DPI], hidpi.isvaliddpiawarenesscontext, winuser/IsValidDpiAwarenessContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: Windows.h

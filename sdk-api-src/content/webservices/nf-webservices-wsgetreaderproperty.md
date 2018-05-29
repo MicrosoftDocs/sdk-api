@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsGetReaderProperty
 title: WsGetReaderProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function returns a property of the specified XML Reader.Note  Obtaining the Property WS_XML_READER_PROPERTY_CHARSET will require inspecting up to the first four bytes of the XML data.
 old-location: wsw\wsgetreaderproperty.htm
 old-project: wsw
 ms.assetid: 32a42d65-c551-4a40-b44d-5ef44e782d30
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsGetReaderProperty, WsGetReaderProperty function [Web Services for Windows], webservices/WsGetReaderProperty, wsw.wsgetreaderproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

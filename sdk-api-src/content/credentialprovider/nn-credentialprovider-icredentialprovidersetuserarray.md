@@ -1,16 +1,16 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderSetUserArray
 title: ICredentialProviderSetUserArray
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a method that enables a credential provider to receive the set of users that will be shown in the logon or credential UI.
 old-location: shell\ICredentialProviderSetUserArray.htm
 old-project: shell
 ms.assetid: 85422EF5-8A8E-4e14-BD32-953C31A9D401
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICredentialProviderSetUserArray, ICredentialProviderSetUserArray interface [Windows Shell], ICredentialProviderSetUserArray interface [Windows Shell],described, credentialprovider/ICredentialProviderSetUserArray, shell.ICredentialProviderSetUserArray
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: credentialprovider.h
 req.include-header: 

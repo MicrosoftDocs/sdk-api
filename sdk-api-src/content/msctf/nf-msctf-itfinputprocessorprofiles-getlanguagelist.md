@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.GetLanguageList
 title: ITfInputProcessorProfiles::GetLanguageList
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfInputProcessorProfiles::GetLanguageList method
 old-location: tsf\itfinputprocessorprofiles_getlanguagelist.htm
 old-project: TSF
 ms.assetid: dffca277-1c2c-4e3d-965f-42e7907ba603
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetLanguageList, GetLanguageList method [Text Services Framework], GetLanguageList method [Text Services Framework],ITfInputProcessorProfiles interface, ITfInputProcessorProfiles interface [Text Services Framework],GetLanguageList method, ITfInputProcessorProfiles.GetLanguageList, ITfInputProcessorProfiles::GetLanguageList, _tsf_itfinputprocessorprofiles_getlanguagelist_ref, msctf/ITfInputProcessorProfiles::GetLanguageList, tsf.itfinputprocessorprofiles_getlanguagelist
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

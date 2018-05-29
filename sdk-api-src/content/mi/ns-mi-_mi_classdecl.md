@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_ClassDecl
 title: "_MI_ClassDecl"
-author: windows-driver-content
+author: windows-sdk-content
 description: This structure outlines the class declaration. It contains class name and hierarchy, properties, qualifiers, and methods.
 old-location: wmi_v2\mi_classdecl.htm
 old-project: wmi_v2
 ms.assetid: 8e2e2838-5d08-4e51-be96-0928042ccb9f
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_ClassDecl, MI_ClassDecl structure [Windows Management Infrastructure (MI)], MI_FLAG_ABSTRACT, MI_FLAG_ASSOCIATION, MI_FLAG_CLASS, MI_FLAG_INDICATION, MI_FLAG_TERMINAL, _MI_ClassDecl, mi/MI_ClassDecl, wmi_v2.mi_classdecl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

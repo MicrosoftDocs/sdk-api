@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.put_AvgBytesPerSec
 title: ITScriptableAudioFormat::put_AvgBytesPerSec
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_AvgBytesPerSec method sets the nAvgBytesPerSec member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_avgbytespersec.htm
 old-project: Tapi
 ms.assetid: ca1b67b3-2dd0-47c1-9e91-ae94b6d78cc4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_AvgBytesPerSec method, ITScriptableAudioFormat.put_AvgBytesPerSec, ITScriptableAudioFormat::put_AvgBytesPerSec, _tapi3_itscriptableaudioformat_put_avgbytespersec, put_AvgBytesPerSec, put_AvgBytesPerSec method [TAPI 2.2], put_AvgBytesPerSec method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_avgbytespersec, tapi3if/ITScriptableAudioFormat::put_AvgBytesPerSec
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

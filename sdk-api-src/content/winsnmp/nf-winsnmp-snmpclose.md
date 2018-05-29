@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpClose
 title: SnmpClose function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SnmpClose function enables the Microsoft WinSNMP implementation to deallocate memory, resources, and data structures associated with a WinSNMP session.
 old-location: snmp\snmpclose.htm
 old-project: SNMP
 ms.assetid: eac678f4-c77c-46b5-9c45-62b5822079da
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpClose, SnmpClose function [SNMP], _snmp_snmpclose, snmp.snmpclose, winsnmp/SnmpClose
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateBitmapFromMemory
 title: IWICImagingFactory::CreateBitmapFromMemory
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IWICBitmap from a memory block.
 old-location: wic\_wic_codec_iwicimagingfactory_createbitmapfrommemory.htm
 old-project: wic
 ms.assetid: d0fa8f55-2752-4494-8aac-6c47e0ba6e26
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CreateBitmapFromMemory, CreateBitmapFromMemory method [Windows Imaging Component], CreateBitmapFromMemory method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateBitmapFromMemory method, IWICImagingFactory.CreateBitmapFromMemory, IWICImagingFactory::CreateBitmapFromMemory, _wic_codec_iwicimagingfactory_createbitmapfrommemory, wic._wic_codec_iwicimagingfactory_createbitmapfrommemory, wincodec/IWICImagingFactory::CreateBitmapFromMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

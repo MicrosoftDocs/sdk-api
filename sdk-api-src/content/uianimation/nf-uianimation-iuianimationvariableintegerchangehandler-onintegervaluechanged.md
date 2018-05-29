@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged
 title: IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: Handles events that occur when the value of an animation variable changes.
 old-location: uianimation\iuianimationvariableintegerchangehandler_onintegervaluechanged.htm
 old-project: UIAnimation
 ms.assetid: e12224a2-c8f3-45eb-a254-d624de16e12d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler interface [Windows Animation],OnIntegerValueChanged method, IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged, IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged, OnIntegerValueChanged, OnIntegerValueChanged method [Windows Animation], OnIntegerValueChanged method [Windows Animation],IUIAnimationVariableIntegerChangeHandler interface, uianimation.iuianimationvariableintegerchangehandler_onintegervaluechanged, uianimation/IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

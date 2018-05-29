@@ -1,16 +1,16 @@
 ---
 UID: NL:gdiplustypes.Point
 title: Point
-author: windows-driver-content
+author: windows-sdk-content
 description: The Point class encapsulates a point in a 2-D coordinate system.
 old-location: gdiplus\_gdiplus_CLASS_Point_Class.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\point.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Point, Point class [GDI+], Point class [GDI+],described, _gdiplus_CLASS_Point_Class, gdiplus._gdiplus_CLASS_Point_Class, gdiplustypes/Point
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: class
 req.header: gdiplustypes.h
 req.include-header: 

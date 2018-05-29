@@ -1,16 +1,16 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.GetTypeInfo
 title: IDirectInputJoyConfig8::GetTypeInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDirectInputJoyConfig8::GetTypeInfo method obtains information about a joystick type.
 old-location: hid\idirectinputjoyconfig8_gettypeinfo.htm
 old-project: hid
 ms.assetid: e850c3a4-b2dd-4de5-82e3-5bbd90a7ba15
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: GetTypeInfo, GetTypeInfo method [Human Input Devices], GetTypeInfo method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],GetTypeInfo method, IDirectInputJoyConfig8.GetTypeInfo, IDirectInputJoyConfig8::GetTypeInfo, di_ref_9e378bd2-ae1a-4a66-b934-d9d5ad46cf5d.xml, dinputd/IDirectInputJoyConfig8::GetTypeInfo, hid.idirectinputjoyconfig8_gettypeinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dinputd.h
 req.include-header: Dinputd.h

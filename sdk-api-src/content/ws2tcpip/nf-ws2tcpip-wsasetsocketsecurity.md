@@ -1,16 +1,16 @@
 ---
 UID: NF:ws2tcpip.WSASetSocketSecurity
 title: WSASetSocketSecurity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables and applies security for a socket.
 old-location: winsock\wsasetsocketsecurity.htm
 old-project: WinSock
 ms.assetid: 9efee804-9763-4456-97a3-6eb9a8e30f49
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSASetSocketSecurity, WSASetSocketSecurity function [Winsock], winsock.wsasetsocketsecurity, ws2tcpip/WSASetSocketSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ws2tcpip.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:ctffunc.ITfFnPlayBack
 title: ITfFnPlayBack
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITfFnPlayBack interface is implemented by the Speech API (SAPI) text service. This interface is used by the TSF manager or a client (application or other text service) to control the audio data for speech input text.
 old-location: tsf\itffnplayback.htm
 old-project: TSF
 ms.assetid: e9a0d1a3-70c9-4816-8cd4-f2574392953e
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfFnPlayBack, ITfFnPlayBack interface [Text Services Framework], ITfFnPlayBack interface [Text Services Framework],described, _tsf_itffnplayback_ref, ctffunc/ITfFnPlayBack, tsf.itffnplayback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ctffunc.h
 req.include-header: 

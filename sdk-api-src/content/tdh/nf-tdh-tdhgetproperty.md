@@ -1,16 +1,16 @@
 ---
 UID: NF:tdh.TdhGetProperty
 title: TdhGetProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a property value from the event data.
 old-location: etw\tdhgetproperty_func.htm
 old-project: ETW
 ms.assetid: 3975792e-cc24-430a-914f-420f3a5ec1d6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TdhGetProperty, TdhGetProperty function [ETW], etw.tdhgetproperty_func, tdh.tdhgetproperty_func, tdh/TdhGetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

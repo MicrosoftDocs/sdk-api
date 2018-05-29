@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_Descender
 title: IInkRecognitionAlternate::get_Descender
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the decender line for an IInkRecognitionAlternate object that represents a single line of text.
 old-location: tablet\iinkrecognitionalternate_descender.htm
 old-project: tablet
 ms.assetid: 52507911-b48c-47a9-8046-3000ed61e3c8
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 52507911-b48c-47a9-8046-3000ed61e3c8, Descender property [Tablet PC], Descender property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],Descender property, IInkRecognitionAlternate.Descender, IInkRecognitionAlternate.get_Descender, IInkRecognitionAlternate::Descender, IInkRecognitionAlternate::get_Descender, get_Descender, msinkaut/IInkRecognitionAlternate::Descender, msinkaut/IInkRecognitionAlternate::get_Descender, tablet.iinkrecognitionalternate_descender
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

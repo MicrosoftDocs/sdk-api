@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMCertifiedOutputProtection.SessionSequenceStart
 title: IAMCertifiedOutputProtection::SessionSequenceStart
-author: windows-driver-content
+author: windows-sdk-content
 description: The SessionSequenceStart method initiates the COPP session with the graphics driver.
 old-location: dshow\iamcertifiedoutputprotection_sessionsequencestart.htm
 old-project: DirectShow
 ms.assetid: 0321e315-b53c-487f-a015-80f7ed581737
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMCertifiedOutputProtection interface [DirectShow],SessionSequenceStart method, IAMCertifiedOutputProtection.SessionSequenceStart, IAMCertifiedOutputProtection::SessionSequenceStart, IAMCertifiedOutputProtectionSessionSequenceStart, SessionSequenceStart, SessionSequenceStart method [DirectShow], SessionSequenceStart method [DirectShow],IAMCertifiedOutputProtection interface, dshow.iamcertifiedoutputprotection_sessionsequencestart, strmif/IAMCertifiedOutputProtection::SessionSequenceStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

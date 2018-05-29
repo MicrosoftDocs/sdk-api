@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.put_ClassFactory
 title: IServicePoolConfig::put_ClassFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a class factory for the pooled objects.
 old-location: cos\iservicepoolconfig_put_classfactory.htm
 old-project: cossdk
 ms.assetid: 329c67f0-3c02-4cea-bee6-b5c8aaa9471b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_ClassFactory method, IServicePoolConfig.put_ClassFactory, IServicePoolConfig::put_ClassFactory, comsvcs/IServicePoolConfig::put_ClassFactory, cos.iservicepoolconfig_put_classfactory, put_ClassFactory, put_ClassFactory method [COM+], put_ClassFactory method [COM+],IServicePoolConfig interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

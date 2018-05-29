@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.ShowCursor
 title: IDirect3DDevice9::ShowCursor
-author: windows-driver-content
+author: windows-sdk-content
 description: Displays or hides the cursor.
 old-location: direct3d9\idirect3ddevice9__showcursor.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__showcursor.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],ShowCursor method, IDirect3DDevice9.ShowCursor, IDirect3DDevice9::ShowCursor, ShowCursor, ShowCursor method [Direct3D 9], ShowCursor method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::ShowCursor, direct3d9.idirect3ddevice9__showcursor, f4d45e5b-633f-a1a6-df58-ae9ec866fb60
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9helper.h
 req.include-header: D3D9.h

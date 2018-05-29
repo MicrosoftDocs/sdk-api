@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPErrorItem2
 title: IWMPErrorItem2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPErrorItem2 interface provides a method that supplements the IWMPErrorItem interface.
 old-location: wmp\iwmperroritem2.htm
 old-project: WMP
 ms.assetid: b71d06db-c9bc-44fc-9e23-a16f89c56c1c
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPErrorItem2, IWMPErrorItem2 interface [Windows Media Player], IWMPErrorItem2 interface [Windows Media Player],described, IWMPErrorItem2Interface, wmp.iwmperroritem2, wmp/IWMPErrorItem2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

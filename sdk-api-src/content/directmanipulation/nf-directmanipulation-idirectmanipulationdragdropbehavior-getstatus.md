@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDragDropBehavior.GetStatus
 title: IDirectManipulationDragDropBehavior::GetStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the status of the drag-drop interaction for the viewport this behavior is attached to.
 old-location: directmanipulation\idirectmanipulationdragdropbehavior_getstatus.htm
 old-project: directmanipulation
 ms.assetid: 40D706B0-E396-436C-BD0B-66B8F6EFA5B1
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetStatus, GetStatus method [Direct Manipulation], GetStatus method [Direct Manipulation],IDirectManipulationDragDropBehavior interface, IDirectManipulationDragDropBehavior interface [Direct Manipulation],GetStatus method, IDirectManipulationDragDropBehavior.GetStatus, IDirectManipulationDragDropBehavior::GetStatus, directmanipulation.idirectmanipulationdragdropbehavior_getstatus, directmanipulation/IDirectManipulationDragDropBehavior::GetStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

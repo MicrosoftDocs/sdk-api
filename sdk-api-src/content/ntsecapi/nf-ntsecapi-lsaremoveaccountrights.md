@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaRemoveAccountRights
 title: LsaRemoveAccountRights function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes one or more privileges from an account.
 old-location: security\lsaremoveaccountrights.htm
 old-project: SecMgmt
 ms.assetid: ad250a01-7a24-4fae-975c-aa3e65731c82
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaRemoveAccountRights, LsaRemoveAccountRights function [Security], _lsa_lsaremoveaccountrights, ntsecapi/LsaRemoveAccountRights, security.lsaremoveaccountrights
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get_AudioCounter
 title: IMSVidStreamBufferSink3::get_AudioCounter
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_get_audiocounter.htm
 old-project: mstv
 ms.assetid: 8947b90e-4fb6-419a-8207-fa86ec25d40c
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_AudioCounter method, IMSVidStreamBufferSink3.get_AudioCounter, IMSVidStreamBufferSink3::get_AudioCounter, IMSVidStreamBufferSink3get_AudioCounter, get_AudioCounter, get_AudioCounter method [Microsoft TV Technologies], get_AudioCounter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_audiocounter, segment/IMSVidStreamBufferSink3::get_AudioCounter
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

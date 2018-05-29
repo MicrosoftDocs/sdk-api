@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecapi._LSA_AUTH_INFORMATION
 title: "_LSA_AUTH_INFORMATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: The LSA_AUTH_INFORMATION structure contains authentication information for a trusted domain.
 old-location: security\lsa_auth_information.htm
 old-project: SecMgmt
 ms.assetid: 61c17831-4a82-4766-b5af-e97a6d467462
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PLSA_AUTH_INFORMATION, LSA_AUTH_INFORMATION, LSA_AUTH_INFORMATION structure [Security], PLSA_AUTH_INFORMATION, PLSA_AUTH_INFORMATION structure pointer [Security], TRUST_AUTH_TYPE_CLEAR, TRUST_AUTH_TYPE_NONE, TRUST_AUTH_TYPE_NT4OWF, TRUST_AUTH_TYPE_VERSION, _LSA_AUTH_INFORMATION, _lsa_lsa_auth_information, ntsecapi/LSA_AUTH_INFORMATION, ntsecapi/PLSA_AUTH_INFORMATION, security.lsa_auth_information"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecapi.h
 req.include-header: 

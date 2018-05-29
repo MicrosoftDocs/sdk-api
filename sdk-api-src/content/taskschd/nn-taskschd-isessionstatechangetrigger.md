@@ -1,16 +1,16 @@
 ---
 UID: NN:taskschd.ISessionStateChangeTrigger
 title: ISessionStateChangeTrigger
-author: windows-driver-content
+author: windows-sdk-content
 description: Triggers tasks for console connect or disconnect, remote connect or disconnect, or workstation lock or unlock notifications.
 old-location: taskschd\isessionstatechangetrigger.htm
 old-project: TaskSchd
 ms.assetid: 0bf56d67-6c44-4978-93a9-7b525f2bf140
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ISessionStateChangeTrigger, ISessionStateChangeTrigger interface [Task Scheduler], ISessionStateChangeTrigger interface [Task Scheduler],described, taskschd.isessionstatechangetrigger, taskschd/ISessionStateChangeTrigger
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: taskschd.h
 req.include-header: 

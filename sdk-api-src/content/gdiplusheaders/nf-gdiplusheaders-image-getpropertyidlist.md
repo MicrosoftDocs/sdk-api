@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPropertyIdList
 title: Image::GetPropertyIdList
-author: windows-driver-content
+author: windows-sdk-content
 description: The Image::GetPropertyIdList method gets a list of the property identifiers used in the metadata of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPropertyIdList_numOfProperty_list_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpropertyidlist.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetPropertyIdList, GetPropertyIdList method [GDI+], GetPropertyIdList method [GDI+],Image class, Image class [GDI+],GetPropertyIdList method, Image.GetPropertyIdList, Image::GetPropertyIdList, _gdiplus_CLASS_Image_GetPropertyIdList_numOfProperty_list_, gdiplus._gdiplus_CLASS_Image_GetPropertyIdList_numOfProperty_list_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

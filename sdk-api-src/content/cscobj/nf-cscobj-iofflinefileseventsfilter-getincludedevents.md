@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesEventsFilter.GetIncludedEvents
 title: IOfflineFilesEventsFilter::GetIncludedEvents
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an array of OFFLINEFILES_EVENTS enumeration values describing which events should be received by the event sink.
 old-location: of\iofflinefileseventsfilter_getincludedevents.htm
 old-project: OfflineFiles
 ms.assetid: ecb10da3-7566-43f7-8349-f94e59e12907
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetIncludedEvents, GetIncludedEvents method [Offline Files], GetIncludedEvents method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetIncludedEvents method, IOfflineFilesEventsFilter.GetIncludedEvents, IOfflineFilesEventsFilter::GetIncludedEvents, cscobj/IOfflineFilesEventsFilter::GetIncludedEvents, of.iofflinefileseventsfilter_getincludedevents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

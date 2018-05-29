@@ -1,16 +1,16 @@
 ---
 UID: NF:tdh.TdhAggregatePayloadFilters
 title: TdhAggregatePayloadFilters function
-author: windows-driver-content
+author: windows-sdk-content
 description: Aggregates multiple payload filters for a single provider into a single data structure for use with the EnableTraceEx2 function.
 old-location: etw\tdhaggregatepayloadfilters.htm
 old-project: ETW
 ms.assetid: B9093E64-1796-4AF2-AB45-84F278813B66
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TdhAggregatePayloadFilters, TdhAggregatePayloadFilters function [ETW], etw.tdhaggregatepayloadfilters, tdh/TdhAggregatePayloadFilters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

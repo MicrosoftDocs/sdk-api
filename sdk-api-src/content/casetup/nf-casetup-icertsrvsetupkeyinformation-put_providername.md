@@ -1,16 +1,16 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.put_ProviderName
 title: ICertSrvSetupKeyInformation::put_ProviderName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets the name of the cryptographic service provider (CSP) or key storage provider (KSP) that is used to generate or store the private key.
 old-location: security\icertsrvsetupkeyinformation_providername.htm
 old-project: SecCrypto
 ms.assetid: a8f50b34-0403-40c0-9ecb-f663ccbd622a
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ICertSrvSetupKeyInformation interface [Security],ProviderName property, ICertSrvSetupKeyInformation.ProviderName, ICertSrvSetupKeyInformation.put_ProviderName, ICertSrvSetupKeyInformation::ProviderName, ICertSrvSetupKeyInformation::get_ProviderName, ICertSrvSetupKeyInformation::put_ProviderName, ProviderName property [Security], ProviderName property [Security],ICertSrvSetupKeyInformation interface, casetup/ICertSrvSetupKeyInformation::ProviderName, casetup/ICertSrvSetupKeyInformation::get_ProviderName, casetup/ICertSrvSetupKeyInformation::put_ProviderName, put_ProviderName, security.icertsrvsetupkeyinformation_providername
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: casetup.h
 req.include-header: 

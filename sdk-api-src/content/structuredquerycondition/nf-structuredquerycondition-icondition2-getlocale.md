@@ -1,16 +1,16 @@
 ---
 UID: NF:structuredquerycondition.ICondition2.GetLocale
 title: ICondition2::GetLocale
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the property name, operation, and value from a leaf search condition node.
 old-location: search\_search_ICondition2_GetLocale.htm
 old-project: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\icondition2\getlocale.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetLocale, GetLocale method [search], GetLocale method [search],ICondition2 interface, ICondition2 interface [search],GetLocale method, ICondition2.GetLocale, ICondition2::GetLocale, _search_ICondition2_GetLocale, search._search_ICondition2_GetLocale, structuredquerycondition/ICondition2::GetLocale
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: structuredquerycondition.h
 req.include-header: 

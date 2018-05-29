@@ -1,16 +1,16 @@
 ---
 UID: NN:control.IVideoWindow
 title: IVideoWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: The IVideoWindow interface sets properties on the video window.
 old-location: dshow\ivideowindow.htm
 old-project: DirectShow
 ms.assetid: 8e931c15-bd1d-409e-ada1-97fe49125fe7
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IVideoWindow, IVideoWindow interface [DirectShow], IVideoWindow interface [DirectShow],described, IVideoWindowInterface, control/IVideoWindow, dshow.ivideowindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: control.h
 req.include-header: Dshow.h

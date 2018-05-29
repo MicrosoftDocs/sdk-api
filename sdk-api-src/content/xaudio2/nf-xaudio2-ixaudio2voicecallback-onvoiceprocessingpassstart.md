@@ -1,16 +1,16 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnVoiceProcessingPassStart
 title: IXAudio2VoiceCallback::OnVoiceProcessingPassStart
-author: windows-driver-content
+author: windows-sdk-content
 description: Called during each processing pass for each voice, just before XAudio2 reads data from the voice's buffer queue.
 old-location: xaudio2\ixaudio2voicecallback_interface_onvoiceprocessingpassstart.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnVoiceProcessingPassStart(UINT32)
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnVoiceProcessingPassStart method, IXAudio2VoiceCallback.OnVoiceProcessingPassStart, IXAudio2VoiceCallback::OnVoiceProcessingPassStart, OnVoiceProcessingPassStart, OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs], OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onvoiceprocessingpassstart, xaudio2/IXAudio2VoiceCallback::OnVoiceProcessingPassStart
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xaudio2.h
 req.include-header: 

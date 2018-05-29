@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleClientSite.GetContainer
 title: IOleClientSite::GetContainer
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to the object's container.
 old-location: com\ioleclientsite_getcontainer.htm
 old-project: com
 ms.assetid: 8f0caf07-f059-4e0c-9c28-c7ad0cc149e3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetContainer, GetContainer method [COM], GetContainer method [COM],IOleClientSite interface, IOleClientSite interface [COM],GetContainer method, IOleClientSite.GetContainer, IOleClientSite::GetContainer, _ole_ioleclientsite_getcontainer, com.ioleclientsite_getcontainer, oleidl/IOleClientSite::GetContainer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

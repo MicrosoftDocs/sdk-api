@@ -1,16 +1,16 @@
 ---
 UID: NS:commdlg.tagOFNW
 title: tagOFNW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information that the GetOpenFileName and GetSaveFileName functions use to initialize an Open or Save As dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 old-location: dlgbox\openfilename_str.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\openfilename.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*LPOPENFILENAMEW, LPOPENFILENAME, LPOPENFILENAME structure pointer [Dialog Boxes], OFN_ALLOWMULTISELECT, OFN_CREATEPROMPT, OFN_DONTADDTORECENT, OFN_ENABLEHOOK, OFN_ENABLEINCLUDENOTIFY, OFN_ENABLESIZING, OFN_ENABLETEMPLATE, OFN_ENABLETEMPLATEHANDLE, OFN_EXPLORER, OFN_EXTENSIONDIFFERENT, OFN_EX_NOPLACESBAR, OFN_FILEMUSTEXIST, OFN_FORCESHOWHIDDEN, OFN_HIDEREADONLY, OFN_LONGNAMES, OFN_NOCHANGEDIR, OFN_NODEREFERENCELINKS, OFN_NOLONGNAMES, OFN_NONETWORKBUTTON, OFN_NOREADONLYRETURN, OFN_NOTESTFILECREATE, OFN_NOVALIDATE, OFN_OVERWRITEPROMPT, OFN_PATHMUSTEXIST, OFN_READONLY, OFN_SHAREAWARE, OFN_SHOWHELP, OPENFILENAME, OPENFILENAME structure [Dialog Boxes], OPENFILENAMEA, OPENFILENAMEW, _win32_OPENFILENAME_str, _win32_openfilename_str_cpp, commdlg/LPOPENFILENAME, commdlg/OPENFILENAME, commdlg/OPENFILENAMEA, commdlg/OPENFILENAMEW, dlgbox.openfilename_str, tagOFNW, winui._win32_openfilename_str"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commdlg.h
 req.include-header: Windows.h

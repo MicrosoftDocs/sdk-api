@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfCompartment.SetValue
 title: ITfCompartment::SetValue
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfCompartment::SetValue method
 old-location: tsf\itfcompartment_setvalue.htm
 old-project: TSF
 ms.assetid: 1a1a175f-a24e-4f83-92d3-ac6a24f5f486
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfCompartment interface [Text Services Framework],SetValue method, ITfCompartment.SetValue, ITfCompartment::SetValue, SetValue, SetValue method [Text Services Framework], SetValue method [Text Services Framework],ITfCompartment interface, _tsf_itfcompartment_setvalue_ref, msctf/ITfCompartment::SetValue, tsf.itfcompartment_setvalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

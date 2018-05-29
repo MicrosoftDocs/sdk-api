@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFPMPClient.SetPMPHost
 title: IMFPMPClient::SetPMPHost
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a pointer to the IMFPMPHost interface.
 old-location: mf\imfpmpclient_setpmphost.htm
 old-project: medfound
 ms.assetid: d6e48f36-7896-4e6d-ba10-d8c0288ccffc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFPMPClient interface [Media Foundation],SetPMPHost method, IMFPMPClient.SetPMPHost, IMFPMPClient::SetPMPHost, SetPMPHost, SetPMPHost method [Media Foundation], SetPMPHost method [Media Foundation],IMFPMPClient interface, d6e48f36-7896-4e6d-ba10-d8c0288ccffc, mf.imfpmpclient_setpmphost, mfidl/IMFPMPClient::SetPMPHost
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

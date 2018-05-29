@@ -1,16 +1,16 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetNotifyFlags
 title: IBackgroundCopyJob::GetNotifyFlags
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the event notification flags for the job.
 old-location: bits\ibackgroundcopyjob_getnotifyflags.htm
 old-project: Bits
 ms.assetid: a4407816-a4c5-4734-9686-46d5a8133c2f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: BG_NOTIFY_DISABLE, BG_NOTIFY_JOB_ERROR, BG_NOTIFY_JOB_MODIFICATION, BG_NOTIFY_JOB_TRANSFERRED, GetNotifyFlags, GetNotifyFlags method [BITS], GetNotifyFlags method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetNotifyFlags method, IBackgroundCopyJob.GetNotifyFlags, IBackgroundCopyJob::GetNotifyFlags, _drz_ibackgroundcopyjob_getnotifyflags, bits.ibackgroundcopyjob_getnotifyflags, bits/IBackgroundCopyJob::GetNotifyFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits.h
 req.include-header: 

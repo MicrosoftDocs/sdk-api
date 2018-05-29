@@ -1,16 +1,16 @@
 ---
 UID: NE:cmdtree.DBCOMMANDREUSEENUM
 title: DBCOMMANDREUSEENUM
-author: windows-driver-content
+author: windows-sdk-content
 description: The DBCOMMANDREUSEENUM enumerated type specifies whether a state from the previous command is retained.
 old-location: indexsrv\dbcommandreuseenum.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_71v1.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DBCOMMANDREUSEENUM, DBCOMMANDREUSEENUM enumeration [Indexing Service], DBCOMMANDREUSE_NONE, DBCOMMANDREUSE_PARAMETERS, DBCOMMANDREUSE_PROPERTIES, _idxs_DBCOMMANDREUSEENUM, cmdtree/DBCOMMANDREUSEENUM, cmdtree/DBCOMMANDREUSE_NONE, cmdtree/DBCOMMANDREUSE_PARAMETERS, cmdtree/DBCOMMANDREUSE_PROPERTIES, indexsrv.dbcommandreuseenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: cmdtree.h
 req.include-header: 

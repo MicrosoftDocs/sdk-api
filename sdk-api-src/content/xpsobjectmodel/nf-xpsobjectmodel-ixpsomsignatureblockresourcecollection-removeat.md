@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.RemoveAt
 title: IXpsOMSignatureBlockResourceCollection::RemoveAt
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes and releases an IXpsOMSignatureBlockResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_removeat.htm
 old-project: printdocs
 ms.assetid: 5f33e46a-0926-4802-8581-eca5f1cdea65
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMSignatureBlockResourceCollection.RemoveAt, IXpsOMSignatureBlockResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_removeat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::RemoveAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupGetFileQueueFlags
 title: SetupGetFileQueueFlags function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupGetFileQueueFlags function gets the flags from a setup file queue.
 old-location: setup\setupgetfilequeueflags.htm
 old-project: SetupApi
 ms.assetid: cb5a7cd8-870c-4880-bb29-6e24a098c35e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SPQ_FLAG_ABORT_IF_UNSIGNED, SPQ_FLAG_BACKUP_AWARE, SetupGetFileQueueFlags, SetupGetFileQueueFlags function [Setup API], _setupapi_setupgetfilequeueflags, setup.setupgetfilequeueflags, setupapi/SetupGetFileQueueFlags
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

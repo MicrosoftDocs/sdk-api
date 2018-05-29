@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IAppVisibility.Advise
 title: IAppVisibility::Advise
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers an advise sink object to receive notification of changes to the display.
 old-location: shell\IAppVisibility_Advise.htm
 old-project: shell
 ms.assetid: 602F46EF-014C-4219-9C1F-C1B4371EA456
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IAppVisibility interface, IAppVisibility interface [Windows Shell],Advise method, IAppVisibility.Advise, IAppVisibility::Advise, shell.IAppVisibility_Advise, shobjidl_core/IAppVisibility::Advise
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

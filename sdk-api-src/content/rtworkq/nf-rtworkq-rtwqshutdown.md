@@ -1,16 +1,16 @@
 ---
 UID: NF:rtworkq.RtwqShutdown
 title: RtwqShutdown function
-author: windows-driver-content
+author: windows-sdk-content
 description: Shuts down the platform. Call this function once for every call to RtwqStartup. Do not call this function from work queue threads.
 old-location: base\rtwqshutdown.htm
 old-project: ProcThread
 ms.assetid: 806c4142-b628-4ea0-b5e2-d2b4ead73c04
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: RtwqShutdown, RtwqShutdown function, base.rtwqshutdown, rtworkq/RtwqShutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rtworkq.h
 req.include-header: 

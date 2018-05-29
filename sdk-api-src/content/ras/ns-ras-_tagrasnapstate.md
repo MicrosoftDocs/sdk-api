@@ -1,16 +1,16 @@
 ---
 UID: NS:ras._tagRasNapState
 title: "_tagRasNapState"
-author: windows-driver-content
+author: windows-sdk-content
 description: The Network Access Protection (NAP) variables for a remote access connection.
 old-location: rras\rasnapstate.htm
 old-project: RRAS
 ms.assetid: 1cba931c-041a-4ec6-8c30-db3a02b59ec3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*LPRASNAPSTATE, LPRASNAPSTATE, LPRASNAPSTATE structure pointer [RAS], RASNAPSTATE, RASNAPSTATE structure [RAS], _tagRasNapState, ras/LPRASNAPSTATE, ras/RASNAPSTATE, rras.rasnapstate"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ras.h
 req.include-header: 

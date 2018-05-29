@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsPropertyValue.Clear
 title: IADsPropertyValue::Clear
-author: windows-driver-content
+author: windows-sdk-content
 description: Clears the current values of the property value object.
 old-location: adsi\iadspropertyvalue_clear.htm
 old-project: ADSI
 ms.assetid: 1662f507-6e1c-4f44-a40d-0eccd8091c51
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Clear, Clear method [ADSI], Clear method [ADSI],IADsPropertyValue interface, IADsPropertyValue interface [ADSI],Clear method, IADsPropertyValue.Clear, IADsPropertyValue::Clear, _ds_iadspropertyvalue_clear, adsi.iadspropertyvalue__clear, adsi.iadspropertyvalue_clear, iads/IADsPropertyValue::Clear
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

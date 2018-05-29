@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_FIND_EXPANDED_SZ_PROPERTY
 title: PRESUTIL_FIND_EXPANDED_SZ_PROPERTY
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates an expanded string property value in a property list. The PRESUTIL_FIND_EXPANDED_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindexpandedszproperty.htm
 old-project: MsCS
 ms.assetid: 7a639932-6dd5-41ef-a126-c2d5001a436f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_FIND_EXPANDED_SZ_PROPERTY, PRESUTIL_FIND_EXPANDED_SZ_PROPERTY callback, PRESUTIL_FIND_EXPANDED_SZ_PROPERTY callback function [Failover Cluster], _wolf_resutilfindexpandedszproperty, mscs.resutilfindexpandedszproperty, resapi/PRESUTIL_FIND_EXPANDED_SZ_PROPERTY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

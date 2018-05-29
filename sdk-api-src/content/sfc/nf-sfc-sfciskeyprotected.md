@@ -1,16 +1,16 @@
 ---
 UID: NF:sfc.SfcIsKeyProtected
 title: SfcIsKeyProtected function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the specified registry key is protected.
 old-location: setup\sfciskeyprotected.htm
 old-project: Wfp
 ms.assetid: 6e26a539-a22a-487a-b720-fa3660c1b485
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: KEY_WOW64_32KEY, KEY_WOW64_64KEY, SfcIsKeyProtected, SfcIsKeyProtected function [Setup API], setup.sfciskeyprotected, sfc/SfcIsKeyProtected
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sfc.h
 req.include-header: 

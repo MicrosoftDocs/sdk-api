@@ -1,16 +1,16 @@
 ---
 UID: NS:roparameterizediid.IRoSimpleMetaDataBuilder
 title: IRoSimpleMetaDataBuilder
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a metadata locator with a destination for the metadata it has discovered.
 old-location: winrt\irosimplemetadatabuilder_struct.htm
 old-project: WinRT
 ms.assetid: 031B9F9B-FF77-4524-87B7-D786459569C3
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IRoSimpleMetaDataBuilder, IRoSimpleMetaDataBuilder structure [Windows Runtime], roparameterizediid/IRoSimpleMetaDataBuilder, winrt.irosimplemetadatabuilder_struct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: roparameterizediid.h
 req.include-header: 

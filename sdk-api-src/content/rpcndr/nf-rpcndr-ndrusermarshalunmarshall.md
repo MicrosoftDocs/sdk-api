@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcndr.NdrUserMarshalUnmarshall
 title: NdrUserMarshalUnmarshall function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NdrUserMarshalUnmarshall function calls a user-defined unmarshal routine to unmarshal data with the attribute.
 old-location: winprog\ndrusermarshalunmarshall.htm
 old-project: DevNotes
 ms.assetid: 8012973b-a41f-4729-a04a-8a1afb29cebe
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: NdrUserMarshalUnmarshall, NdrUserMarshalUnmarshall function [Windows API], rpcndr/NdrUserMarshalUnmarshall, winprog.ndrusermarshalunmarshall
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcndr.h
 req.include-header: 

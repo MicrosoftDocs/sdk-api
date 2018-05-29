@@ -1,16 +1,16 @@
 ---
 UID: NF:intsafe.ULongPtrMult
 title: ULongPtrMult function
-author: windows-driver-content
+author: windows-sdk-content
 description: Multiplies one value of type ULONG_PTR by another.
 old-location: shell\ULongPtrMult.htm
 old-project: shell
 ms.assetid: e3ee5794-b872-4286-b4f3-1c5cab0e42a8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ULongPtrMult, ULongPtrMult function [Windows Shell], _shell_ULongPtrMult, intsafe/ULongPtrMult, shell.ULongPtrMult
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: intsafe.h
 req.include-header: 

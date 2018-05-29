@@ -1,16 +1,16 @@
 ---
 UID: NE:netlistmgr.NLM_DOMAIN_TYPE
 title: NLM_DOMAIN_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The NLM_DOMAIN_TYPE enumeration is a set of flags that specify the domain type of a network.
 old-location: nla\nlm_domain_type.htm
 old-project: NLA
 ms.assetid: fd1bc50a-c8d3-4594-870e-3bbb5c6ea1da
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NLM_DOMAIN_TYPE, NLM_DOMAIN_TYPE enumeration [Network Awareness], NLM_DOMAIN_TYPE_DOMAIN_AUTHENTICATED, NLM_DOMAIN_TYPE_DOMAIN_NETWORK, NLM_DOMAIN_TYPE_NON_DOMAIN_NETWORK, netlistmgr/NLM_DOMAIN_TYPE, netlistmgr/NLM_DOMAIN_TYPE_DOMAIN_AUTHENTICATED, netlistmgr/NLM_DOMAIN_TYPE_DOMAIN_NETWORK, netlistmgr/NLM_DOMAIN_TYPE_NON_DOMAIN_NETWORK, nla.nlm_domain_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: netlistmgr.h
 req.include-header: 

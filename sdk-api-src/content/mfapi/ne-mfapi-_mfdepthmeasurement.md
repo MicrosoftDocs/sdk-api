@@ -1,16 +1,16 @@
 ---
 UID: NE:mfapi._MFDepthMeasurement
 title: "_MFDepthMeasurement"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the measurement system for a depth value in a video frame.
 old-location: mf\_mfdepthmeasurement.htm
 old-project: medfound
 ms.assetid: CCE34279-A52C-4F6E-9E8E-679F76187B3B
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DistanceToFocalPlane, DistanceToOpticalCenter, MFDepthMeasurement, _MFDepthMeasurement, _MFDepthMeasurement enumeration [Media Foundation], mf._mfdepthmeasurement, mfapi/DistanceToFocalPlane, mfapi/DistanceToOpticalCenter, mfapi/_MFDepthMeasurement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfapi.h
 req.include-header: 

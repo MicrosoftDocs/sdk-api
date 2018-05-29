@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetOffsetZ
 title: SetOffsetZ function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes or animates the value of the OffsetZ property of a 3D translation transform effect.
 old-location: directcomp\idcompositiontranslatetransform3d_setoffsetz_overloaded.htm
 old-project: directcomp
 ms.assetid: 1467F8A8-15CF-4B3E-8816-76F2F5BFB68B
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionTranslateTransform3D::SetOffsetZ, SetOffsetZ, SetOffsetZ methods [DirectComposition], dcomp/SetOffsetZ, directcomp.idcompositiontranslatetransform3d_setoffsetz_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

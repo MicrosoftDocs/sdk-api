@@ -1,16 +1,16 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.GetFinalValue
 title: IUIAnimationVariable::GetFinalValue
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the final value of the animation variable. This is the value after all currently scheduled animations have completed.
 old-location: uianimation\iuianimationvariable_getfinalvalue.htm
 old-project: UIAnimation
 ms.assetid: 577f83c1-aba7-4a51-82dc-68a103a31377
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetFinalValue, GetFinalValue method [Windows Animation], GetFinalValue method [Windows Animation],IUIAnimationVariable interface, IUIAnimationVariable interface [Windows Animation],GetFinalValue method, IUIAnimationVariable.GetFinalValue, IUIAnimationVariable::GetFinalValue, uianimation.iuianimationvariable_getfinalvalue, uianimation/IUIAnimationVariable::GetFinalValue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uianimation.h
 req.include-header: 

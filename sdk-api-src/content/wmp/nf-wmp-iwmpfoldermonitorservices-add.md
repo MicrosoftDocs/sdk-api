@@ -1,16 +1,16 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.add
 title: IWMPFolderMonitorServices::add
-author: windows-driver-content
+author: windows-sdk-content
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The add method adds a folder to the list of monitored folders.
 old-location: wmp\iwmpfoldermonitorservices_add.htm
 old-project: WMP
 ms.assetid: f12bbc31-ce9d-4d0c-af1e-9078e7948eeb
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],add method, IWMPFolderMonitorServices.add, IWMPFolderMonitorServices::add, IWMPFolderMonitorServicesadd, add, add method [Windows Media Player], add method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_add, wmp/IWMPFolderMonitorServices::add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmp.h
 req.include-header: 

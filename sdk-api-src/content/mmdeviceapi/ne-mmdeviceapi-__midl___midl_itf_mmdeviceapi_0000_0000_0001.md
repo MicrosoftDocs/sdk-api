@@ -1,16 +1,16 @@
 ---
 UID: NE:mmdeviceapi.__MIDL___MIDL_itf_mmdeviceapi_0000_0000_0001
 title: "__MIDL___MIDL_itf_mmdeviceapi_0000_0000_0001"
-author: windows-driver-content
+author: windows-sdk-content
 description: The EDataFlow enumeration defines constants that indicate the direction in which audio data flows between an audio endpoint device and an application.
 old-location: coreaudio\edataflow.htm
 old-project: CoreAudio
 ms.assetid: d79315aa-d753-4674-84c2-9ba601f36f57
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: EDataFlow, EDataFlow , EDataFlow enumeration [Core Audio], EDataFlow_enum_count, __MIDL___MIDL_itf_mmdeviceapi_0000_0000_0001, coreaudio.edataflow, eAll, eCapture, eRender, mmdeviceapi/EDataFlow, mmdeviceapi/EDataFlow_enum_count, mmdeviceapi/eAll, mmdeviceapi/eCapture, mmdeviceapi/eRender
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mmdeviceapi.h
 req.include-header: 

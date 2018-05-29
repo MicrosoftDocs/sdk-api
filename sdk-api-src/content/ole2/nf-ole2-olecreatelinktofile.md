@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleCreateLinkToFile
 title: OleCreateLinkToFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an object that is linked to a file.
 old-location: com\olecreatelinktofile.htm
 old-project: com
 ms.assetid: 06b013db-0554-4dbc-b19d-28314fb4fee0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleCreateLinkToFile, OleCreateLinkToFile function [COM], _ole_OleCreateLinkToFile, com.olecreatelinktofile, ole2/OleCreateLinkToFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

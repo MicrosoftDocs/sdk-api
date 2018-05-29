@@ -1,16 +1,16 @@
 ---
 UID: NN:shldisp.IShellDispatch6
 title: IShellDispatch6
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the IShellDispatch5 object.
 old-location: shell\IShellDispatch6.htm
 old-project: shell
 ms.assetid: 540A5CFD-1520-4B61-B461-E893EFA27115
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IShellDispatch6, IShellDispatch6 object [Windows Shell], IShellDispatch6 object [Windows Shell],described, shell.IShellDispatch6, shldisp/IShellDispatch6
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shldisp.h
 req.include-header: 

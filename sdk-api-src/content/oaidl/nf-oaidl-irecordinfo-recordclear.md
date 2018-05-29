@@ -1,16 +1,16 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordClear
 title: IRecordInfo::RecordClear
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases object references and other values of a record without deallocating the record.
 old-location: automat\irecordinfo_recordclear.htm
 old-project: automat
 ms.assetid: 979b0702-3342-4036-8113-c84728436ab6
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IRecordInfo interface [Automation],RecordClear method, IRecordInfo.RecordClear, IRecordInfo::RecordClear, RecordClear, RecordClear method [Automation], RecordClear method [Automation],IRecordInfo interface, _oa96_IRecordInfo_RecordClear, automat.irecordinfo_recordclear, oaidl/IRecordInfo::RecordClear
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oaidl.h
 req.include-header: 

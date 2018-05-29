@@ -1,16 +1,16 @@
 ---
 UID: NE:ocidl.tagGUIDKIND
 title: tagGUIDKIND
-author: windows-driver-content
+author: windows-sdk-content
 description: Flags used to specify the kind of information requested from an object in the IProvideClassInfo2.
 old-location: com\guidkind.htm
 old-project: com
 ms.assetid: b9ddd96b-0418-4e31-aaf9-ca060c405fa7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GUIDKIND, GUIDKIND enumeration [COM], GUIDKIND_DEFAULT_SOURCE_DISP_IID, _ctrl_GUIDKIND, com.guidkind, ocidl/GUIDKIND, ocidl/GUIDKIND_DEFAULT_SOURCE_DISP_IID, tagGUIDKIND
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: ocidl.h
 req.include-header: 

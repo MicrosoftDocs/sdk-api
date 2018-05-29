@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetTopLeftRadiusX
 title: SetTopLeftRadiusX function
-author: windows-driver-content
+author: windows-sdk-content
 description: Changes or animates the value of the TopLeftRadiusX property of this clip. The TopLeftRadiusX property specifies the x radius of the ellipse that rounds the top-left corner of the clip.
 old-location: directcomp\idcompositionrectangleclip_settopleftradiusx.htm
 old-project: directcomp
 ms.assetid: 75168197-FA76-4B57-AF24-C92DF2602985
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionRectangleClip::SetTopLeftRadiusX, SetTopLeftRadiusX, SetTopLeftRadiusX methods [DirectComposition], dcomp/SetTopLeftRadiusX, directcomp.idcompositionrectangleclip_settopleftradiusx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

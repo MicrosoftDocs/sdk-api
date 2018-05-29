@@ -1,16 +1,16 @@
 ---
 UID: NE:virtdisk._COMPACT_VIRTUAL_DISK_VERSION
 title: "_COMPACT_VIRTUAL_DISK_VERSION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains the version of the virtual hard disk (VHD) COMPACT_VIRTUAL_DISK_PARAMETERS structure to use in calls to VHD functions.
 old-location: vhd\compact_virtual_disk_version.htm
 old-project: VStor
 ms.assetid: 79b8088a-8e30-44c8-8227-82eb1c03e77c
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: COMPACT_VIRTUAL_DISK_VERSION, COMPACT_VIRTUAL_DISK_VERSION enumeration [VHD], COMPACT_VIRTUAL_DISK_VERSION_1, COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED, _COMPACT_VIRTUAL_DISK_VERSION, vhd.compact_virtual_disk_version, virtdisk/COMPACT_VIRTUAL_DISK_VERSION, virtdisk/COMPACT_VIRTUAL_DISK_VERSION_1, virtdisk/COMPACT_VIRTUAL_DISK_VERSION_UNSPECIFIED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: virtdisk.h
 req.include-header: Windows.h

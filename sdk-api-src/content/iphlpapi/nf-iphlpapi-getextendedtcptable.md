@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.GetExtendedTcpTable
 title: GetExtendedTcpTable function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a table that contains a list of TCP endpoints available to the application.
 old-location: iphlp\getextendedtcptable.htm
 old-project: IpHlp
 ms.assetid: 96356a0e-ae0d-4000-9223-a578cbdeaa8b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AF_INET, AF_INET6, GetExtendedTcpTable, GetExtendedTcpTable function [IP Helper], iphlp.getextendedtcptable, iphlpapi/GetExtendedTcpTable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

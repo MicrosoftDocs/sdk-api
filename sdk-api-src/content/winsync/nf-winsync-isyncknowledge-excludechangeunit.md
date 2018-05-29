@@ -1,16 +1,16 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ExcludeChangeUnit
 title: ISyncKnowledge::ExcludeChangeUnit
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes knowledge about the specified change unit from the knowledge.
 old-location: winsync\isyncknowledge_excludechangeunit.htm
 old-project: winsync
 ms.assetid: 0b9e39a8-6610-468a-a0e6-3950b8c17d58
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: ExcludeChangeUnit, ExcludeChangeUnit method [Windows Sync], ExcludeChangeUnit method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ExcludeChangeUnit method, ISyncKnowledge.ExcludeChangeUnit, ISyncKnowledge::ExcludeChangeUnit, winsync.isyncknowledge_excludechangeunit, winsync/ISyncKnowledge::ExcludeChangeUnit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: winsync.h
 req.include-header: 

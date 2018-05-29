@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.SetWriteSpeed
 title: IDiscFormat2RawCD::SetWriteSpeed
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the write speed of the disc recorder.
 old-location: imapi\idiscformat2rawcd_setwritespeed.htm
 old-project: imapi
 ms.assetid: 93021007-6ed8-4322-93bb-c52796a4ab66
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],SetWriteSpeed method, IDiscFormat2RawCD.SetWriteSpeed, IDiscFormat2RawCD::SetWriteSpeed, SetWriteSpeed, SetWriteSpeed method [IMAPI], SetWriteSpeed method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_setwritespeed, imapi2/IDiscFormat2RawCD::SetWriteSpeed
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

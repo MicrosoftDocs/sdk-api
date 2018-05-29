@@ -1,16 +1,16 @@
 ---
 UID: NN:fhcfg.IFhConfigMgr
 title: IFhConfigMgr
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFhConfigMgr interface allows client applications to read and modify the File History configuration for the user account under which the methods of this interface are called.
 old-location: winprog\ifhconfigmgr.htm
 old-project: DevNotes
 ms.assetid: CDE8A011-6E78-49DF-A5E1-8E968355BA11
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IFhConfigMgr, IFhConfigMgr interface [Windows API], IFhConfigMgr interface [Windows API],described, fhcfg/IFhConfigMgr, winprog.ifhconfigmgr
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fhcfg.h
 req.include-header: 

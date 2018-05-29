@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.AddPropertyChangedEventHandler
 title: IUIAutomation::AddPropertyChangedEventHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a method that handles property-changed events.
 old-location: winauto\uiauto_IUIAutomation_AddPropertyChangedEventHandler.htm
 old-project: WinAuto
 ms.assetid: 2623a48e-8818-486c-9bde-b218cde49189
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: AddPropertyChangedEventHandler, AddPropertyChangedEventHandler method [Windows Accessibility], AddPropertyChangedEventHandler method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],AddPropertyChangedEventHandler method, IUIAutomation.AddPropertyChangedEventHandler, IUIAutomation::AddPropertyChangedEventHandler, uiauto.uiauto_IUIAutomation_AddPropertyChangedEventHandler, uiauto_IUIAutomation_AddPropertyChangedEventHandler, uiautomationclient/IUIAutomation::AddPropertyChangedEventHandler, winauto.uiauto_IUIAutomation_AddPropertyChangedEventHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

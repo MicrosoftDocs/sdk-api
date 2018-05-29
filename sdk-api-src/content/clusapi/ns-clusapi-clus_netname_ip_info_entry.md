@@ -1,16 +1,16 @@
 ---
 UID: NS:clusapi.CLUS_NETNAME_IP_INFO_ENTRY
 title: CLUS_NETNAME_IP_INFO_ENTRY
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents IP information for a NetName resource.
 old-location: mscs\clus_netname_ip_info_entry.htm
 old-project: MsCS
 ms.assetid: 9631BDB9-6B7C-4BFF-9654-20C77F851A22
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PCLUS_NETNAME_IP_INFO_ENTRY, CLUS_NETNAME_IP_INFO_ENTRY, CLUS_NETNAME_IP_INFO_ENTRY structure [Failover Cluster], PCLUS_NETNAME_IP_INFO_ENTRY, PCLUS_NETNAME_IP_INFO_ENTRY structure pointer [Failover Cluster], clusapi/CLUS_NETNAME_IP_INFO_ENTRY, clusapi/PCLUS_NETNAME_IP_INFO_ENTRY, mscs.clus_netname_ip_info_entry"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: clusapi.h
 req.include-header: 

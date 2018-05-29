@@ -1,16 +1,16 @@
 ---
 UID: NF:winnls.SetThreadUILanguage
 title: SetThreadUILanguage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the user interface language for the current thread.
 old-location: intl\setthreaduilanguage.htm
 old-project: Intl
 ms.assetid: 30a0cecf-0ed1-4c03-bd5e-da07b1828c75
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SetThreadUILanguage, SetThreadUILanguage function [Internationalization for Windows Applications], _win32_SetThreadUILanguage, intl.setthreaduilanguage, winnls/SetThreadUILanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winnls.h
 req.include-header: Windows.h

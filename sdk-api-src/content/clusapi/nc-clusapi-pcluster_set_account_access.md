@@ -1,16 +1,16 @@
 ---
 UID: NC:clusapi.PCLUSTER_SET_ACCOUNT_ACCESS
 title: PCLUSTER_SET_ACCOUNT_ACCESS
-author: windows-driver-content
+author: windows-sdk-content
 description: Updates an account access list (ACL) for a cluster.
 old-location: mscs\clustersetaccountaccess.htm
 old-project: MsCS
 ms.assetid: E0038A7B-291F-4A30-86BD-D9BD2404D3B5
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: CLUSAPI_ALL_ACCESS, CLUSAPI_CHANGE_ACCESS, CLUSAPI_NO_ACCESS, CLUSAPI_READ_ACCESS, CLUSTER_DELETE_ACCESS_CONTROL_ENTRY, CLUSTER_SET_ACCESS_TYPE_ALLOWED, CLUSTER_SET_ACCESS_TYPE_DENIED, PCLUSTER_SET_ACCOUNT_ACCESS, PCLUSTER_SET_ACCOUNT_ACCESS callback, PCLUSTER_SET_ACCOUNT_ACCESS callback function [Failover Cluster], clusapi/PCLUSTER_SET_ACCOUNT_ACCESS, mscs.clustersetaccountaccess
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: clusapi.h
 req.include-header: 

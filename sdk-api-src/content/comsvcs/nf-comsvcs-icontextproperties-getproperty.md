@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IContextProperties.GetProperty
 title: IContextProperties::GetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a context object property.
 old-location: cos\icontextproperties_getproperty.htm
 old-project: cossdk
 ms.assetid: dc7748b4-5cf4-41c6-af7d-82b2478b084c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetProperty, GetProperty method [COM+], GetProperty method [COM+],IContextProperties interface, IContextProperties interface [COM+],GetProperty method, IContextProperties.GetProperty, IContextProperties::GetProperty, _cos_IContextProperties_GetProperty, comsvcs/IContextProperties::GetProperty, cos.icontextproperties_getproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

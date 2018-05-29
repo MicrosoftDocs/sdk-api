@@ -1,16 +1,16 @@
 ---
 UID: NF:wsman.WSManGetErrorMessage
 title: WSManGetErrorMessage function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the error messages associated with a particular error and language codes.
 old-location: winrm\wsmangeterrormessage.htm
 old-project: WinRM
 ms.assetid: 95fbded5-859d-4111-914c-871a05530726
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSManGetErrorMessage, WSManGetErrorMessage function [Windows Remote Management], winrm.wsmangeterrormessage, wsman/WSManGetErrorMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsman.h
 req.include-header: 

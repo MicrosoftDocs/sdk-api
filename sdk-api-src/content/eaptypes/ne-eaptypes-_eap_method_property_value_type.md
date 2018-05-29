@@ -1,16 +1,16 @@
 ---
 UID: NE:eaptypes._EAP_METHOD_PROPERTY_VALUE_TYPE
 title: "_EAP_METHOD_PROPERTY_VALUE_TYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of possible data types for an EAP method property value.
 old-location: eaphost\eap_method_property_value_type.htm
 old-project: EAPHost
 ms.assetid: 17ef654a-d4a0-45ba-a49d-45add8e78b28
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: EAP_METHOD_PROPERTY_VALUE_TYPE, EAP_METHOD_PROPERTY_VALUE_TYPE enumeration [EAPHost], _EAP_METHOD_PROPERTY_VALUE_TYPE, eaphost.eap_method_property_value_type, eaptypes/EAP_METHOD_PROPERTY_VALUE_TYPE, eaptypes/empvtBool, eaptypes/empvtDword, eaptypes/empvtString, empvtBool, empvtDword, empvtString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: eaptypes.h
 req.include-header: 

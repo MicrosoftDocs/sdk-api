@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.Move
 title: IUIAutomationTextRange::Move
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves the text range forward or backward by the specified number of text units .
 old-location: winauto\uiauto_IUIAutomationTextRange_Move.htm
 old-project: WinAuto
 ms.assetid: b59ffdb5-6c05-4139-84ae-10ca5c543c3c
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IUIAutomationTextRange interface [Windows Accessibility],Move method, IUIAutomationTextRange.Move, IUIAutomationTextRange::Move, Move, Move method [Windows Accessibility], Move method [Windows Accessibility],IUIAutomationTextRange interface, uiauto.uiauto_IUIAutomationTextRange_Move, uiauto_IUIAutomationTextRange_Move, uiautomationclient/IUIAutomationTextRange::Move, winauto.uiauto_IUIAutomationTextRange_Move
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h

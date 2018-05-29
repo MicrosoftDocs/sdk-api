@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10.ID3D10Asynchronous.Begin
 title: ID3D10Asynchronous::Begin
-author: windows-driver-content
+author: windows-sdk-content
 description: Starts the collection of GPU data.
 old-location: direct3d10\id3d10asynchronous_begin.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10asynchronous_begin.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: 6afd45da-6dfb-8e93-0007-ccacda13bbb7, Begin, Begin method [Direct3D 10], Begin method [Direct3D 10],ID3D10Asynchronous interface, ID3D10Asynchronous interface [Direct3D 10],Begin method, ID3D10Asynchronous.Begin, ID3D10Asynchronous::Begin, d3d10/ID3D10Asynchronous::Begin, direct3d10.id3d10asynchronous_begin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d10.h
 req.include-header: 

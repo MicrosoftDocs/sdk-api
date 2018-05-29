@@ -1,16 +1,16 @@
 ---
 UID: NF:sporder.WSCWriteProviderOrder32
 title: WSCWriteProviderOrder32 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to reorder the available 32-bit transport providers.
 old-location: winsock\wscwriteproviderorder32.htm
 old-project: WinSock
 ms.assetid: 03ce09b4-d80e-480d-9219-d226df055f18
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: WSCWriteProviderOrder32, WSCWriteProviderOrder32 function [Winsock], sporder/WSCWriteProviderOrder32, winsock.wscwriteproviderorder32
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sporder.h
 req.include-header: 

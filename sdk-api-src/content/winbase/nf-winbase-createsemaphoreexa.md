@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.CreateSemaphoreExA
 title: CreateSemaphoreExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates or opens a named or unnamed semaphore object and returns a handle to the object.
 old-location: base\createsemaphoreex.htm
 old-project: Sync
 ms.assetid: 741461e2-b672-4318-b39b-c6301ef9ab80
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CreateSemaphoreEx, CreateSemaphoreEx function, CreateSemaphoreExA, CreateSemaphoreExW, base.createsemaphoreex, winbase/CreateSemaphoreEx, winbase/CreateSemaphoreExA, winbase/CreateSemaphoreExW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

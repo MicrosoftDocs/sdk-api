@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Class_GetClassName
 title: MI_Class_GetClassName function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the class name of the specified class.
 old-location: wmi_v2\mi_class_getclassname.htm
 old-project: wmi_v2
 ms.assetid: 405639e7-74b0-4cda-9883-f8442976200a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Class_GetClassName, MI_Class_GetClassName function [Windows Management Infrastructure (MI)], mi/MI_Class_GetClassName, wmi_v2.mi_class_getclassname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

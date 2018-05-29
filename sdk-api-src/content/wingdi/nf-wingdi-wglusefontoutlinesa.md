@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.wglUseFontOutlinesA
 title: wglUseFontOutlinesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The wglUseFontOutlines function creates a set of display lists, one for each glyph of the currently selected outline font of a device context, for use with the current rendering context.
 old-location: opengl\wglusefontoutlines.htm
 old-project: OpenGL
 ms.assetid: 08a86563-c6ca-4efb-9096-bc487fc5037c
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: "_ogl_wglUseFontOutlines, opengl.wglusefontoutlines, wglUseFontOutlines, wglUseFontOutlines function [OpenGL], wglUseFontOutlinesA, wglUseFontOutlinesW, wingdi/wglUseFontOutlines, wingdi/wglUseFontOutlinesA, wingdi/wglUseFontOutlinesW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: 

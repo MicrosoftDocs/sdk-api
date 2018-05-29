@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.SHRegGetBoolValueFromHKCUHKLM
 title: SHRegGetBoolValueFromHKCUHKLM function
-author: windows-driver-content
+author: windows-sdk-content
 description: Evaluates a registry key value and returns a boolean value that reflects whether the value exists and the expected state matches the actual state.
 old-location: shell\SHRegGetBoolValueFromHKCUHKLM.htm
 old-project: shell
 ms.assetid: 05239aef-a6cf-426f-919e-08b70baee3f8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHRegGetBoolValueFromHKCUHKLM, SHRegGetBoolValueFromHKCUHKLM function [Windows Shell], _shell_SHRegGetBoolValueFromHKCUHKLM, shell.SHRegGetBoolValueFromHKCUHKLM, shlwapi/SHRegGetBoolValueFromHKCUHKLM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

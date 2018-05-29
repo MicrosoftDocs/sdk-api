@@ -1,16 +1,16 @@
 ---
 UID: NE:dxgi.DXGI_ADAPTER_FLAG
 title: DXGI_ADAPTER_FLAG
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies the type of DXGI adapter.
 old-location: direct3ddxgi\DXGI_ADAPTER_FLAG.htm
 old-project: direct3ddxgi
 ms.assetid: 9c3c78cd-4f4e-4753-969a-54ea63583be1
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_ADAPTER_FLAG, DXGI_ADAPTER_FLAG enumeration [DXGI], DXGI_ADAPTER_FLAG_FORCE_DWORD, DXGI_ADAPTER_FLAG_NONE, DXGI_ADAPTER_FLAG_REMOTE, DXGI_ADAPTER_FLAG_SOFTWARE, direct3ddxgi.DXGI_ADAPTER_FLAG, dxgi/DXGI_ADAPTER_FLAG, dxgi/DXGI_ADAPTER_FLAG_FORCE_DWORD, dxgi/DXGI_ADAPTER_FLAG_NONE, dxgi/DXGI_ADAPTER_FLAG_REMOTE, dxgi/DXGI_ADAPTER_FLAG_SOFTWARE, fe5be6dc-81d9-654f-5f9d-829d3affe8d9
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi.h
 req.include-header: 

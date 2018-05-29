@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMStreamConfig2
 title: IWMStreamConfig2
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMStreamConfig2 interface manages the data unit extensions associated with a stream.IWMStreamConfig2 inherits from IWMStreamConfig. To obtain a pointer to IWMStreamConfig2, call the QueryInterface method of the IWMStreamConfig interface.
 old-location: wmformat\iwmstreamconfig2.htm
 old-project: wmformat
 ms.assetid: 3ce92541-6634-4418-a7ee-f9bcaf8f42ad
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMStreamConfig2, IWMStreamConfig2 interface [windows Media Format], IWMStreamConfig2 interface [windows Media Format],described, IWMStreamConfig2Interface, wmformat.iwmstreamconfig2, wmsdkidl/IWMStreamConfig2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

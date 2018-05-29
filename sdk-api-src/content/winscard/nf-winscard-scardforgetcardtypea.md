@@ -1,16 +1,16 @@
 ---
 UID: NF:winscard.SCardForgetCardTypeA
 title: SCardForgetCardTypeA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an introduced smart card from the smart card subsystem.
 old-location: security\scardforgetcardtype.htm
 old-project: SecAuthN
 ms.assetid: 4f2d4791-d517-43e4-bff9-f88e12983dea
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SCardForgetCardType, SCardForgetCardType function [Security], SCardForgetCardTypeA, SCardForgetCardTypeW, _smart_scardforgetcardtype, security.scardforgetcardtype, winscard/SCardForgetCardType, winscard/SCardForgetCardTypeA, winscard/SCardForgetCardTypeW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winscard.h
 req.include-header: 

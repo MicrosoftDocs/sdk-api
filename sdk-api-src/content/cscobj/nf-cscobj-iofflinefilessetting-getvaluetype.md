@@ -1,16 +1,16 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetValueType
 title: IOfflineFilesSetting::GetValueType
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the data type of a particular Offline Files setting.
 old-location: of\iofflinefilessetting_getvaluetype.htm
 old-project: OfflineFiles
 ms.assetid: 2b5567bf-a7c6-40b3-ac16-9da805ddb3b3
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetValueType, GetValueType method [Offline Files], GetValueType method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetValueType method, IOfflineFilesSetting.GetValueType, IOfflineFilesSetting::GetValueType, cscobj/IOfflineFilesSetting::GetValueType, of.iofflinefilessetting_getvaluetype
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: cscobj.h
 req.include-header: 

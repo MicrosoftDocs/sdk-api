@@ -1,16 +1,16 @@
 ---
 UID: NF:winusb.WinUsb_QueryPipeEx
 title: WinUsb_QueryPipeEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinUsb_QueryPipeEx function retrieves extended information about the specified endpoint and the associated pipe for an interface.
 old-location: buses\winusb_querypipeex.htm
 old-project: usbref
 ms.assetid: 73C291EC-2345-454B-BC7C-8A443DDFF57C
-ms.author: windowsdriverdev
-ms.date: 5/7/2018
+ms.author: windowssdkdev
+ms.date: 05/07/2018
 ms.keywords: WinUsb_QueryPipeEx, WinUsb_QueryPipeEx routine [Buses], buses.winusb_querypipeex, winusb/WinUsb_QueryPipeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winusb.h
 req.include-header: Winusb.h

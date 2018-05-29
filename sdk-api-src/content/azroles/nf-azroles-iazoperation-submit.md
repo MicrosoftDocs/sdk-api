@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzOperation.Submit
 title: IAzOperation::Submit
-author: windows-driver-content
+author: windows-sdk-content
 description: Persists changes made to the IAzOperation object.
 old-location: security\iazoperation_submit.htm
 old-project: SecAuthZ
 ms.assetid: f6265bfa-c856-47db-a688-f5de25ef7157
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzOperation object [Security],Submit method, IAzOperation interface [Security],Submit method, IAzOperation.Submit, IAzOperation::Submit, Submit, Submit method [Security], Submit method [Security],AzOperation object, Submit method [Security],IAzOperation interface, azroles/IAzOperation::Submit, security.iazoperation_submit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

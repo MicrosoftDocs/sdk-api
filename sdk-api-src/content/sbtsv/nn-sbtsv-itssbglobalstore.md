@@ -1,16 +1,16 @@
 ---
 UID: NN:sbtsv.ITsSbGlobalStore
 title: ITsSbGlobalStore
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that query for target computers, sessions, environments, and farms that have been added to the Remote Desktop Connection Broker (RD Connection Broker) store.
 old-location: termserv\itssbglobalstore.htm
 old-project: TermServ
 ms.assetid: d25b6f73-ee5f-40e4-9c49-fd48dd3990d2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbGlobalStore, ITsSbGlobalStore interface [Remote Desktop Services], ITsSbGlobalStore interface [Remote Desktop Services],described, sbtsv/ITsSbGlobalStore, termserv.itssbglobalstore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

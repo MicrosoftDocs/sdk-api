@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_Char16A
 title: "_MI_Char16A"
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents an array of MI_Char16 types.
 old-location: wmi_v2\mi_char16a.htm
 old-project: wmi_v2
 ms.assetid: 03a57fd3-9e85-4ca6-aa08-ebaaa780a7da
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Char16A, MI_Char16A structure [Windows Management Infrastructure (MI)], _MI_Char16A, mi/MI_Char16A, wmi._mi_char16a, wmi_v2.mi_char16a
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

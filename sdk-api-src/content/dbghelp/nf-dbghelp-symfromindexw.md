@@ -1,16 +1,16 @@
 ---
 UID: NF:dbghelp.SymFromIndexW
 title: SymFromIndexW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves symbol information for the specified index.
 old-location: base\symfromindex.htm
 old-project: Debug
 ms.assetid: 84e94edd-2874-4b57-89eb-18b01dac91f4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SymFromIndex, SymFromIndex function, SymFromIndexW, base.symfromindex, dbghelp/SymFromIndex, dbghelp/SymFromIndexW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dbghelp.h
 req.include-header: 

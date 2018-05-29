@@ -1,16 +1,16 @@
 ---
 UID: NF:instance.CInstance.SetCharSplat(LPCWSTR,LPCWSTR)
 title: CInstance::SetCharSplat(LPCWSTR,LPCWSTR)
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetCharSplat(LPCWSTR, LPCWSTR) method sets a string property.
 old-location: wmi\cinstance_setcharsplat_lpcwstr__lpcwstr_.htm
 old-project: WmiSdk
 ms.assetid: 27860c70-9ed5-4744-a643-f3074abe6575
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetCharSplat method, CInstance.SetCharSplat, CInstance.SetCharSplat(LPCWSTR,LPCWSTR), CInstance::SetCharSplat, CInstance::SetCharSplat(LPCWSTR,LPCWSTR), SetCharSplat, SetCharSplat method [Windows Management Instrumentation], SetCharSplat method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetCharSplat, wmi.cinstance_setcharsplat_lpcwstr__lpcwstr_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: instance.h
 req.include-header: FwCommon.h

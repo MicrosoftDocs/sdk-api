@@ -1,16 +1,16 @@
 ---
 UID: NF:ip2string.RtlEthernetStringToAddressA
 title: RtlEthernetStringToAddressA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a string representation of an Ethernet MAC address to a binary format of the Ethernet address.
 old-location: iphlp\rtlethernetstringtoaddress.htm
 old-project: IpHlp
 ms.assetid: 9FE1F2C6-971E-4789-9D30-4C129B3951F4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: RtlEthernetStringToAddress, RtlEthernetStringToAddress function [IP Helper], RtlEthernetStringToAddressA, RtlEthernetStringToAddressW, ip2string/RtlEthernetStringToAddress, ip2string/RtlEthernetStringToAddressA, ip2string/RtlEthernetStringToAddressW, iphlp.rtlethernetstringtoaddress
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ip2string.h
 req.include-header: Mstcpip.h, Ip2string.h

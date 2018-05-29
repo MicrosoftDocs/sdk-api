@@ -1,16 +1,16 @@
 ---
 UID: NF:p2p.PeerCollabEnumContacts
 title: PeerCollabEnumContacts function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a handle to an enumerated set that contains all of the peer collaboration network contacts currently available on the calling peer.
 old-location: p2p\peercollabenumcontacts.htm
 old-project: P2PSdk
 ms.assetid: e5a259e5-c5cb-4a7e-8f60-29e4d7cc6ede
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: PeerCollabEnumContacts, PeerCollabEnumContacts function [Peer Networking], p2p.peercollabenumcontacts, p2p/PeerCollabEnumContacts
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: p2p.h
 req.include-header: 

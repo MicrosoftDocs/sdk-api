@@ -1,16 +1,16 @@
 ---
 UID: NF:vss.IVssAsync.Wait
 title: IVssAsync::Wait
-author: windows-driver-content
+author: windows-sdk-content
 description: The Wait method waits until an incomplete asynchronous operation finishes.
 old-location: base\ivssasync_wait.htm
 old-project: VSS
 ms.assetid: 27be3bb2-de37-47d1-a2da-7b253ace1199
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssAsync interface [VSS],Wait method, IVssAsync.Wait, IVssAsync::Wait, Wait, Wait method [VSS], Wait method [VSS],IVssAsync interface, _win32_ivssasync_wait, base.ivssasync_wait, vss/IVssAsync::Wait
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vss.h
 req.include-header: 

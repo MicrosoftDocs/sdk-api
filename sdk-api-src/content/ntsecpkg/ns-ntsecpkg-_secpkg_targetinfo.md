@@ -1,16 +1,16 @@
 ---
 UID: NS:ntsecpkg._SECPKG_TARGETINFO
 title: "_SECPKG_TARGETINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the target of an authentication request.
 old-location: security\secpkg_targetinfo.htm
 old-project: SecAuthN
 ms.assetid: c8d4ac70-743b-42b1-940c-d3d37a6174bc
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "*PSECPKG_TARGETINFO, PSECPKG_TARGETINFO, PSECPKG_TARGETINFO structure pointer [Security], SECPKG_TARGETINFO, SECPKG_TARGETINFO structure [Security], _SECPKG_TARGETINFO, ntsecpkg/PSECPKG_TARGETINFO, ntsecpkg/SECPKG_TARGETINFO, security.secpkg_targetinfo"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ntsecpkg.h
 req.include-header: 

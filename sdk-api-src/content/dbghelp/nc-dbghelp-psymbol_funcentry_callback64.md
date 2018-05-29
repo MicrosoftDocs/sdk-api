@@ -1,16 +1,16 @@
 ---
 UID: NC:dbghelp.PSYMBOL_FUNCENTRY_CALLBACK64
 title: PSYMBOL_FUNCENTRY_CALLBACK64
-author: windows-driver-content
+author: windows-sdk-content
 description: An application-defined callback function used with the SymRegisterFunctionEntryCallback64 function. It is called by the stack walking procedure.
 old-location: base\symregisterfunctionentrycallbackproc64.htm
 old-project: Debug
 ms.assetid: cd10dfeb-451f-4d6d-ae1c-ecca75f86f3d
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: PSYMBOL_FUNCENTRY_CALLBACK, PSYMBOL_FUNCENTRY_CALLBACK64, SymRegisterFunctionEntryCallbackProc64, SymRegisterFunctionEntryCallbackProc64 callback, SymRegisterFunctionEntryCallbackProc64 callback function, _win32_symregisterfunctionentrycallbackproc64, base.symregisterfunctionentrycallbackproc64, dbghelp/SymRegisterFunctionEntryCallbackProc64
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: dbghelp.h
 req.include-header: 

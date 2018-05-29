@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_Value
 title: ILegacyIAccessibleProvider::get_Value
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the value of this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Value.htm
 old-project: WinAuto
 ms.assetid: 3d54b72d-c13b-4a4d-9517-e828ff8cadb3
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],Value property, ILegacyIAccessibleProvider.Value, ILegacyIAccessibleProvider.get_Value, ILegacyIAccessibleProvider::Value, ILegacyIAccessibleProvider::get_Value, Value property [Windows Accessibility], Value property [Windows Accessibility],ILegacyIAccessibleProvider interface, get_Value, uiauto.uiauto_ILegacyIAccessibleProvider_Value, uiauto_ILegacyIAccessibleProvider_Value, uiautomationcore/ILegacyIAccessibleProvider::Value, uiautomationcore/ILegacyIAccessibleProvider::get_Value, winauto.uiauto_ILegacyIAccessibleProvider_Value
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h

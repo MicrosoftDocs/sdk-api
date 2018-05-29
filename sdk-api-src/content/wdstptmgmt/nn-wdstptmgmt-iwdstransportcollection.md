@@ -1,16 +1,16 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportCollection
 title: IWdsTransportCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a collection of Windows Deployment Services (WDS) transport management objects.
 old-location: wds\iwdstransportcollection.htm
 old-project: Wds
 ms.assetid: 4a5c247f-28d7-4057-87e9-fca6e9effc96
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportCollection, IWdsTransportCollection interface [Windows Deployment Services], IWdsTransportCollection interface [Windows Deployment Services],described, wds.iwdstransportcollection, wdstptmgmt/IWdsTransportCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wdstptmgmt.h
 req.include-header: 

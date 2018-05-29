@@ -1,16 +1,16 @@
 ---
 UID: NS:dbghelp._LOADED_IMAGE
 title: "_LOADED_IMAGE"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information about the loaded image.
 old-location: base\loaded_image_str.htm
 old-project: Debug
 ms.assetid: 8bfc6b47-23d6-45e1-a733-5b938d6312da
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PLOADED_IMAGE, IMAGE_FILE_32BIT_MACHINE, IMAGE_FILE_AGGRESIVE_WS_TRIM, IMAGE_FILE_BYTES_REVERSED_HI, IMAGE_FILE_BYTES_REVERSED_LO, IMAGE_FILE_DEBUG_STRIPPED, IMAGE_FILE_DLL, IMAGE_FILE_EXECUTABLE_IMAGE, IMAGE_FILE_LARGE_ADDRESS_AWARE, IMAGE_FILE_LINE_NUMS_STRIPPED, IMAGE_FILE_LOCAL_SYMS_STRIPPED, IMAGE_FILE_NET_RUN_FROM_SWAP, IMAGE_FILE_RELOCS_STRIPPED, IMAGE_FILE_REMOVABLE_RUN_FROM_SWAP, IMAGE_FILE_SYSTEM, IMAGE_FILE_UP_SYSTEM_ONLY, LIST_ENTRY, LOADED_IMAGE, LOADED_IMAGE structure, PLOADED_IMAGE, PLOADED_IMAGE structure pointer, _LOADED_IMAGE, _win32_loaded_image_str, base.loaded_image_str, dbghelp/LOADED_IMAGE, dbghelp/PLOADED_IMAGE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dbghelp.h
 req.include-header: 

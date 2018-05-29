@@ -1,16 +1,16 @@
 ---
 UID: NF:ntmsapi.EndNtmsDeviceChangeDetection
 title: EndNtmsDeviceChangeDetection function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EndNtmsDeviceChangeDetection function ends device change detection for any target devices specified using the SetNtmsDeviceChangeDetection function and closes the change detection handle.
 old-location: fs\endntmsdevicechangedetection.htm
 old-project: Rsm
 ms.assetid: cb8dc379-30a1-43b0-b5a7-c6bc59b3e9ac
-ms.author: windowsdriverdev
-ms.date: 4/5/2018
+ms.author: windowssdkdev
+ms.date: 04/05/2018
 ms.keywords: EndNtmsDeviceChangeDetection, EndNtmsDeviceChangeDetection function [Files], _zaw_endntmsdevicechangedetection, base.endntmsdevicechangedetection, fs.endntmsdevicechangedetection, ntmsapi/EndNtmsDeviceChangeDetection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntmsapi.h
 req.include-header: 

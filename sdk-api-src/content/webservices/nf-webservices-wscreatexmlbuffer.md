@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsCreateXmlBuffer
 title: WsCreateXmlBuffer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an XML Buffer which can be used to process XML data .
 old-location: wsw\wscreatexmlbuffer.htm
 old-project: wsw
 ms.assetid: 4e122283-f285-4fff-b240-22e4a7476639
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsCreateXmlBuffer, WsCreateXmlBuffer function [Web Services for Windows], webservices/WsCreateXmlBuffer, wsw.wscreatexmlbuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

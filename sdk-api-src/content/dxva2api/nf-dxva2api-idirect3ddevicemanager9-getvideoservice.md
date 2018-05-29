@@ -1,16 +1,16 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.GetVideoService
 title: IDirect3DDeviceManager9::GetVideoService
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a DirectX Video Acceleration (DXVA) service interface.
 old-location: mf\idirect3ddevicemanager9_getvideoservice.htm
 old-project: medfound
 ms.assetid: 2e62a750-3017-4dd7-9fbc-e2c641f6cf10
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 2e62a750-3017-4dd7-9fbc-e2c641f6cf10, GetVideoService, GetVideoService method [Media Foundation], GetVideoService method [Media Foundation],IDirect3DDeviceManager9 interface, IDirect3DDeviceManager9 interface [Media Foundation],GetVideoService method, IDirect3DDeviceManager9.GetVideoService, IDirect3DDeviceManager9::GetVideoService, dxva2api/IDirect3DDeviceManager9::GetVideoService, mf.idirect3ddevicemanager9_getvideoservice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 

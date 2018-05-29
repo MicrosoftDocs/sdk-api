@@ -1,16 +1,16 @@
 ---
 UID: NF:wintrust.WintrustRemoveActionID
 title: WintrustRemoveActionID function
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes an action added by the WintrustAddActionID function. This function has no associated import library.
 old-location: security\wintrustremoveactionid.htm
 old-project: SecCrypto
 ms.assetid: d1c84b69-4886-4cb4-99c5-294bd9d8228b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: HTTPSPROV_ACTION, WINTRUST_ACTION_GENERIC_VERIFY, WINTRUST_ACTION_GENERIC_VERIFY_V2, WintrustRemoveActionID, WintrustRemoveActionID function [Security], security.wintrustremoveactionid, wintrust/WintrustRemoveActionID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wintrust.h
 req.include-header: 

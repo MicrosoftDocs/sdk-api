@@ -1,16 +1,16 @@
 ---
 UID: NF:gdipluspen.Pen.MultiplyTransform
 title: Pen::MultiplyTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: The Pen::MultiplyTransform method updates the world transformation matrix of this Pen object with the product of itself and another matrix.
 old-location: gdiplus\_gdiplus_CLASS_Pen_MultiplyTransform_matrix_order_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\multiplytransform_75matrix_order.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MultiplyTransform, MultiplyTransform method [GDI+], MultiplyTransform method [GDI+],Pen class, Pen class [GDI+],MultiplyTransform method, Pen.MultiplyTransform, Pen::MultiplyTransform, _gdiplus_CLASS_Pen_MultiplyTransform_matrix_order_, gdiplus._gdiplus_CLASS_Pen_MultiplyTransform_matrix_order_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:fileapi.SetFilePointer
 title: SetFilePointer function
-author: windows-driver-content
+author: windows-sdk-content
 description: Moves the file pointer of the specified file.
 old-location: fs\setfilepointer.htm
 old-project: FileIO
 ms.assetid: a0a0081b-9132-4dea-967b-1ee1d1fdfa13
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FILE_BEGIN, FILE_CURRENT, FILE_END, SetFilePointer, SetFilePointer function [Files], _win32_setfilepointer, base.setfilepointer, fileapi/SetFilePointer, fs.setfilepointer, winbase/SetFilePointer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fileapi.h
 req.include-header: Windows.h

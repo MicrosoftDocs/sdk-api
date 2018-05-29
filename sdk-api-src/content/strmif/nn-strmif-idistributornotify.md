@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IDistributorNotify
 title: IDistributorNotify
-author: windows-driver-content
+author: windows-sdk-content
 description: The IDistributorNotify interface enables a plug-in distributor to be notified when the filter graph changes.Applications never use this interface.
 old-location: dshow\idistributornotify.htm
 old-project: DirectShow
 ms.assetid: c7c9ee95-9d68-45c5-a3ca-8d6071782851
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IDistributorNotify, IDistributorNotify interface [DirectShow], IDistributorNotify interface [DirectShow],described, IDistributorNotifyInterface, dshow.idistributornotify, strmif/IDistributorNotify
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

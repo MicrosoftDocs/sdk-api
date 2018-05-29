@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.StartVisualGroup
 title: IFileDialogCustomize::StartVisualGroup
-author: windows-driver-content
+author: windows-sdk-content
 description: Declares a visual group in the dialog. Subsequent calls to any &#0034;add&#0034; method add those elements to this group.
 old-location: shell\IFileDialogCustomize_StartVisualGroup.htm
 old-project: shell
 ms.assetid: 2626c820-3731-474d-9ddb-d2a8966c3d35
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileDialogCustomize interface [Windows Shell],StartVisualGroup method, IFileDialogCustomize.StartVisualGroup, IFileDialogCustomize::StartVisualGroup, StartVisualGroup, StartVisualGroup method [Windows Shell], StartVisualGroup method [Windows Shell],IFileDialogCustomize interface, shell.IFileDialogCustomize_StartVisualGroup, shell_IFileDialogCustomize_StartVisualGroup, shobjidl_core/IFileDialogCustomize::StartVisualGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

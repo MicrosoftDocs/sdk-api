@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsGetCustomHeader
 title: WsGetCustomHeader function
-author: windows-driver-content
+author: windows-sdk-content
 description: Finds an application-defined header of the message and deserializes it.
 old-location: wsw\wsgetcustomheader.htm
 old-project: wsw
 ms.assetid: bdfb441b-afc4-4be8-b437-f299a31ce84b
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsGetCustomHeader, WsGetCustomHeader function [Web Services for Windows], webservices/WsGetCustomHeader, wsw.wsgetcustomheader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFTGetInfo
 title: MFTGetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information from the registry about a Media Foundation transform (MFT).
 old-location: mf\mftgetinfo.htm
 old-project: medfound
 ms.assetid: d1bac1c7-3f9b-46b7-bdf7-c32983c648ee
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFTGetInfo, MFTGetInfo function [Media Foundation], d1bac1c7-3f9b-46b7-bdf7-c32983c648ee, mf.mftgetinfo, mfapi/MFTGetInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

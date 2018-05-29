@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.IsOS
 title: IsOS function
-author: windows-driver-content
+author: windows-sdk-content
 description: Checks for specified operating systems and operating system features.
 old-location: shell\IsOS.htm
 old-project: shell
 ms.assetid: 827a76bc-3581-4f1c-8095-8e2fd30dfdbc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IsOS, IsOS function [Windows Shell], _win32_IsOS, shell.IsOS, shlwapi/IsOS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

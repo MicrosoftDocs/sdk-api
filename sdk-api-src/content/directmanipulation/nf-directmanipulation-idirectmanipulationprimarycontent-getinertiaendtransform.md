@@ -1,16 +1,16 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.GetInertiaEndTransform
 title: IDirectManipulationPrimaryContent::GetInertiaEndTransform
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the final transform, including inertia, of the primary content.
 old-location: directmanipulation\idirectmanipulationprimarycontent_getinertiaendtransform.htm
 old-project: directmanipulation
 ms.assetid: BCF0E48F-C47E-42BE-90F8-25737301DC9C
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetInertiaEndTransform, GetInertiaEndTransform method [Direct Manipulation], GetInertiaEndTransform method [Direct Manipulation],IDirectManipulationPrimaryContent interface, IDirectManipulationPrimaryContent interface [Direct Manipulation],GetInertiaEndTransform method, IDirectManipulationPrimaryContent.GetInertiaEndTransform, IDirectManipulationPrimaryContent::GetInertiaEndTransform, directmanipulation.idirectmanipulationprimarycontent_getinertiaendtransform, directmanipulation/IDirectManipulationPrimaryContent::GetInertiaEndTransform
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: directmanipulation.h
 req.include-header: 

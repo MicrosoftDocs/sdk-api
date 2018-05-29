@@ -1,16 +1,16 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetByteAlignmentMask
 title: IDiscRecorder2Ex::GetByteAlignmentMask
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the byte alignment mask for the device.
 old-location: imapi\idiscrecorder2ex_getbytealignmentmask.htm
 old-project: imapi
 ms.assetid: 6a92efb1-4da8-4cf4-8011-b06a0f82a3eb
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: GetByteAlignmentMask, GetByteAlignmentMask method [IMAPI], GetByteAlignmentMask method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetByteAlignmentMask method, IDiscRecorder2Ex.GetByteAlignmentMask, IDiscRecorder2Ex::GetByteAlignmentMask, imapi.idiscrecorder2ex_getbytealignmentmask, imapi2/IDiscRecorder2Ex::GetByteAlignmentMask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: imapi2.h
 req.include-header: 

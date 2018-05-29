@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.EnumFunctionProviders
 title: ITfThreadMgr2::EnumFunctionProviders
-author: windows-driver-content
+author: windows-sdk-content
 description: Obtains an enumerator for all of the function providers registered for the calling thread.
 old-location: tsf\itfthreadmgr2_enumfunctionproviders.htm
 old-project: TSF
 ms.assetid: 0F28BDFD-4CD8-4D50-92D9-6A60B80122B2
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: EnumFunctionProviders, EnumFunctionProviders method [Text Services Framework], EnumFunctionProviders method [Text Services Framework],ITfThreadMgr2 interface, ITfThreadMgr2 interface [Text Services Framework],EnumFunctionProviders method, ITfThreadMgr2.EnumFunctionProviders, ITfThreadMgr2::EnumFunctionProviders, msctf/ITfThreadMgr2::EnumFunctionProviders, tsf.itfthreadmgr2_enumfunctionproviders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:iphlpapi.GetAdaptersInfo
 title: GetAdaptersInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAdaptersInfo function retrieves adapter information for the local computer.
 old-location: iphlp\getadaptersinfo.htm
 old-project: IpHlp
 ms.assetid: 8cdecc84-6566-438b-86d0-3c55490a9a59
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAdaptersInfo, GetAdaptersInfo function [IP Helper], _iphlp_getadaptersinfo, iphlp.getadaptersinfo, iphlpapi/GetAdaptersInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iphlpapi.h
 req.include-header: 

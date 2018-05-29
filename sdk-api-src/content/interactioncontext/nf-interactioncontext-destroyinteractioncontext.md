@@ -1,16 +1,16 @@
 ---
 UID: NF:interactioncontext.DestroyInteractionContext
 title: DestroyInteractionContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Destroys the specified Interaction Context object.
 old-location: input_intcontext\destroyinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: 871b35be-ccda-4a74-b516-e1e7f852782d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: DestroyInteractionContext, DestroyInteractionContext function, input_intcontext.destroyinteractioncontext, interactioncontext.destroyinteractioncontext, interactioncontext/DestroyInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

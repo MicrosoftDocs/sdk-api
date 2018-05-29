@@ -1,16 +1,16 @@
 ---
 UID: NE:d3d11.D3D11_COLOR_WRITE_ENABLE
 title: D3D11_COLOR_WRITE_ENABLE
-author: windows-driver-content
+author: windows-sdk-content
 description: Identify which components of each pixel of a render target are writable during blending.
 old-location: direct3d11\d3d11_color_write_enable.htm
 old-project: direct3d11
 ms.assetid: 3ff16c92-ef9c-4a59-8868-3b2cfe1b0e38
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_COLOR_WRITE_ENABLE, D3D11_COLOR_WRITE_ENABLE enumeration [Direct3D 11], D3D11_COLOR_WRITE_ENABLE_ALL, D3D11_COLOR_WRITE_ENABLE_ALPHA, D3D11_COLOR_WRITE_ENABLE_BLUE, D3D11_COLOR_WRITE_ENABLE_GREEN, D3D11_COLOR_WRITE_ENABLE_RED, d3d11/D3D11_COLOR_WRITE_ENABLE, d3d11/D3D11_COLOR_WRITE_ENABLE_ALL, d3d11/D3D11_COLOR_WRITE_ENABLE_ALPHA, d3d11/D3D11_COLOR_WRITE_ENABLE_BLUE, d3d11/D3D11_COLOR_WRITE_ENABLE_GREEN, d3d11/D3D11_COLOR_WRITE_ENABLE_RED, direct3d11.d3d11_color_write_enable, f4a83aa2-659b-6119-cd72-8cca8897c5a5
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: d3d11.h
 req.include-header: 

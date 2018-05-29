@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.RegQueryValueW
 title: RegQueryValueW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the data associated with the default or unnamed value of a specified registry key. The data must be a null-terminated string.
 old-location: base\regqueryvalue.htm
 old-project: SysInfo
 ms.assetid: 18f27717-3bd9-45ac-a1ea-61abc1753a52
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RegQueryValue, RegQueryValue function, RegQueryValueA, RegQueryValueW, _win32_regqueryvalue, base.regqueryvalue, winreg/RegQueryValue, winreg/RegQueryValueA, winreg/RegQueryValueW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

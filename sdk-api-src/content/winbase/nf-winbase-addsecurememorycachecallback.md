@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.AddSecureMemoryCacheCallback
 title: AddSecureMemoryCacheCallback function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a callback function to be called when a secured memory range is freed or its protections are changed.
 old-location: base\addsecurememorycachecallback.htm
 old-project: Memory
 ms.assetid: 6c89d6f3-182e-4b10-931c-8d55d603c9dc
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddSecureMemoryCacheCallback, AddSecureMemoryCacheCallback function, base.addsecurememorycachecallback, winbase/AddSecureMemoryCacheCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

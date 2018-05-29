@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetInterpolationColors
 title: LinearGradientBrush::GetInterpolationColors
-author: windows-driver-content
+author: windows-sdk-content
 description: The LinearGradientBrush::GetInterpolationColors method gets the colors currently set to be interpolated for this linear gradient brush and their corresponding blend positions.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetInterpolationColors_presetColors_blendPositions_count_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\getinterpolationcolors.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetInterpolationColors, GetInterpolationColors method [GDI+], GetInterpolationColors method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetInterpolationColors method, LinearGradientBrush.GetInterpolationColors, LinearGradientBrush::GetInterpolationColors, _gdiplus_CLASS_LinearGradientBrush_GetInterpolationColors_presetColors_blendPositions_count_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetInterpolationColors_presetColors_blendPositions_count_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

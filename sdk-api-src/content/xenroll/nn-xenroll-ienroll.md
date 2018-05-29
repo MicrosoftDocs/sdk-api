@@ -1,16 +1,16 @@
 ---
 UID: NN:xenroll.IEnroll
 title: IEnroll
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the Certificate Enrollment Control and is used primarily to generate certificate requests.
 old-location: security\ienroll.htm
 old-project: SecCrypto
 ms.assetid: 5be210b8-475a-4504-9cc0-5b02384e114e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IEnroll, IEnroll interface [Security], IEnroll interface [Security],described, security.ienroll, xenroll/IEnroll
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: xenroll.h
 req.include-header: 

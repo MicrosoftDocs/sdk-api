@@ -1,16 +1,16 @@
 ---
 UID: NF:processthreadsapi.CreateThread
 title: CreateThread function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a thread to execute within the virtual address space of the calling process.
 old-location: base\createthread.htm
 old-project: ProcThread
 ms.assetid: 202a4b42-513a-45de-894a-72e56c706a58
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CREATE_SUSPENDED, CreateThread, CreateThread function, STACK_SIZE_PARAM_IS_A_RESERVATION, _win32_createthread, base.createthread, processthreadsapi/CreateThread, winbase/CreateThread
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processthreadsapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecapi.LsaSetForestTrustInformation
 title: LsaSetForestTrustInformation function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the forest trust information for a specified Local Security Authority&#160;TrustedDomain object.
 old-location: security\lsasetforesttrustinformation.htm
 old-project: SecAuthN
 ms.assetid: 8b0f90ed-7dd4-4803-97c6-31d191b6d2b3
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaSetForestTrustInformation, LsaSetForestTrustInformation function [Security], ntsecapi/LsaSetForestTrustInformation, security.lsasetforesttrustinformation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecapi.h
 req.include-header: 

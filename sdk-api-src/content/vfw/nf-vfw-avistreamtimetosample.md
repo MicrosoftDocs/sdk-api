@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.AVIStreamTimeToSample
 title: AVIStreamTimeToSample function
-author: windows-driver-content
+author: windows-sdk-content
 description: The AVIStreamTimeToSample function converts from milliseconds to samples.
 old-location: multimedia\avistreamtimetosample.htm
 old-project: Multimedia
 ms.assetid: 2be5ad91-2371-4564-a679-c593f497a785
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AVIStreamTimeToSample, AVIStreamTimeToSample function [Windows Multimedia], _win32_AVIStreamTimeToSample, multimedia.avistreamtimetosample, vfw/AVIStreamTimeToSample
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: vfw.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:ime.SendIMEMessageExA
 title: SendIMEMessageExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies an action or processing for the Input Method Editor (IME) through a specified subfunction.
 old-location: winprog\_win32_sendimemessageex.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\sendimemessageex.htm
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: SendIMEMessageEx, SendIMEMessageEx function [Windows API], SendIMEMessageExA, SendIMEMessageExW, _win32_SendIMEMessageEx, ime/SendIMEMessageEx, ime/SendIMEMessageExA, ime/SendIMEMessageExW, winprog._win32_sendimemessageex, winui._win32_sendimemessageex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ime.h
 req.include-header: Windows.h

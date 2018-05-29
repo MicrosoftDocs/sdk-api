@@ -1,16 +1,16 @@
 ---
 UID: NC:batclass.BCLASS_QUERY_TAG_CALLBACK
 title: BCLASS_QUERY_TAG_CALLBACK
-author: windows-driver-content
+author: windows-sdk-content
 description: BatteryMiniQueryTag returns the current battery tag.
 old-location: battery\batteryminiquerytag.htm
 old-project: battery
 ms.assetid: 030b7f5f-8ace-4dfc-8330-97aace86a1eb
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: BCLASS_QUERY_TAG_CALLBACK, BCLASS_QUERY_TAG_CALLBACK callback, BatteryMiniQueryTag, BatteryMiniQueryTag callback function [Battery Devices], bat-mini_67f7c8df-433f-43fa-bca1-206f9e0932bb.xml, batclass/BatteryMiniQueryTag, battery.batteryminiquerytag
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: batclass.h
 req.include-header: Batclass.h

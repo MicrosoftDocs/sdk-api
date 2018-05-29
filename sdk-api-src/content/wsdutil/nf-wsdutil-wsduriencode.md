@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdutil.WSDUriEncode
 title: WSDUriEncode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Encodes a URI according to URI encoding rules in RFC2396.
 old-location: ncd\wsduriencode.htm
 old-project: WsdApi
 ms.assetid: 3d086ac8-0c14-46fb-baa5-b1d89b86ebbb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDUriEncode, WSDUriEncode function, ncd.wsduriencode, wsdutil/WSDUriEncode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h

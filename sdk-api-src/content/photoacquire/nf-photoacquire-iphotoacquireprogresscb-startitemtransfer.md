@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.StartItemTransfer
 title: IPhotoAcquireProgressCB::StartItemTransfer
-author: windows-driver-content
+author: windows-sdk-content
 description: The StartItemTransfer method provides extended functionality each time the transfer of an item begins. The application provides the implementation of the StartItemTransfer method.
 old-location: picacq\iphotoacquireprogresscb_startitemtransfer.htm
 old-project: acquisition
 ms.assetid: fffd9313-fbed-493b-a82e-1ccd202859c0
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartItemTransfer method, IPhotoAcquireProgressCB.StartItemTransfer, IPhotoAcquireProgressCB::StartItemTransfer, IPhotoAcquireProgressCBStartItemTransfer, StartItemTransfer, StartItemTransfer method [Picture Acquisition], StartItemTransfer method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartItemTransfer, picacq.iphotoacquireprogresscb_startitemtransfer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagEMRCREATEMONOBRUSH
 title: tagEMRCREATEMONOBRUSH
-author: windows-driver-content
+author: windows-sdk-content
 description: The EMRCREATEMONOBRUSH structure contains members for the CreatePatternBrush (when passed a monochrome bitmap) or CreateDIBPatternBrush (when passed a monochrome DIB) enhanced metafile records.
 old-location: gdi\emrcreatemonobrush.htm
 old-project: gdi
 ms.assetid: 6f581ad4-0449-40b1-bcc6-737bfcdc33c4
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*PEMRCREATEMONOBRUSH, EMRCREATEMONOBRUSH, EMRCREATEMONOBRUSH structure [Windows GDI], PEMRCREATEMONOBRUSH, PEMRCREATEMONOBRUSH structure pointer [Windows GDI], _win32_EMRCREATEMONOBRUSH_str, gdi.emrcreatemonobrush, tagEMRCREATEMONOBRUSH, wingdi/EMRCREATEMONOBRUSH, wingdi/PEMRCREATEMONOBRUSH"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServer.get_NamespaceManager
 title: IWdsTransportServer::get_NamespaceManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a pointer to the object of an IWdsTransportNamespaceManager interface used to manage namespaces on this server.
 old-location: wds\iwdstransportserver_namespacemanager.htm
 old-project: Wds
 ms.assetid: 3f54d5ef-c630-4f5b-93ea-1da7303482ba
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWdsTransportServer interface [Windows Deployment Services],NamespaceManager property, IWdsTransportServer.NamespaceManager, IWdsTransportServer.get_NamespaceManager, IWdsTransportServer::NamespaceManager, IWdsTransportServer::get_NamespaceManager, NamespaceManager property [Windows Deployment Services], NamespaceManager property [Windows Deployment Services],IWdsTransportServer interface, get_NamespaceManager, wds.iwdstransportserver_namespacemanager, wdstptmgmt/IWdsTransportServer::NamespaceManager, wdstptmgmt/IWdsTransportServer::get_NamespaceManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

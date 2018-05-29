@@ -1,16 +1,16 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerHost.AddMemoryPressure
 title: IReferenceTrackerHost::xaml
-author: windows-driver-content
+author: windows-sdk-content
 description: Informs the host of increased memory allocations since the last notification. The CLR uses this to inform the algorithm that determines when to run a garbage collection.
 old-location: winrt\ireferencetrackerhost_addmemorypressure.htm
 old-project: WinRT
 ms.assetid: 1e04381c-49b2-436b-9e92-ec13b88e42f1
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: AddMemoryPressure, AddMemoryPressure method [Windows Runtime], AddMemoryPressure method [Windows Runtime],IReferenceTrackerHost interface, IReferenceTrackerHost interface [Windows Runtime],AddMemoryPressure method, IReferenceTrackerHost.AddMemoryPressure, IReferenceTrackerHost.xaml, IReferenceTrackerHost::AddMemoryPressure, IReferenceTrackerHost::xaml, windows/IReferenceTrackerHost::AddMemoryPressure, winrt.ireferencetrackerhost_addmemorypressure
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: windows.ui.xaml.hosting.referencetracker.h
 req.include-header: 

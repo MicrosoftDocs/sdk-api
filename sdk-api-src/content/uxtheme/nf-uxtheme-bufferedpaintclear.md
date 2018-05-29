@@ -1,16 +1,16 @@
 ---
 UID: NF:uxtheme.BufferedPaintClear
 title: BufferedPaintClear function
-author: windows-driver-content
+author: windows-sdk-content
 description: Clears a specified rectangle in the buffer to ARGB = {0,0,0,0}.
 old-location: controls\BufferedPaintClear.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintclear.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: BufferedPaintClear, BufferedPaintClear function [Windows Controls], _shell_BufferedPaintClear, _shell_BufferedPaintClear_cpp, controls.BufferedPaintClear, controls._shell_BufferedPaintClear, uxtheme/BufferedPaintClear
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uxtheme.h
 req.include-header: 

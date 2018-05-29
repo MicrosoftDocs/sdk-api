@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICertPropertyArchived.get_Archived
 title: ICertPropertyArchived::get_Archived
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a Boolean value that specifies whether the certificate has been archived.
 old-location: security\icertpropertyarchived_archived_property.htm
 old-project: SecCertEnroll
 ms.assetid: c4154d9e-5a37-4a6c-9fc3-5935d8c54dc4
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: Archived property [Security], Archived property [Security],ICertPropertyArchived interface, ICertPropertyArchived interface [Security],Archived property, ICertPropertyArchived.Archived, ICertPropertyArchived.get_Archived, ICertPropertyArchived::Archived, ICertPropertyArchived::get_Archived, certenroll/ICertPropertyArchived::Archived, certenroll/ICertPropertyArchived::get_Archived, get_Archived, security.icertpropertyarchived_archived_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

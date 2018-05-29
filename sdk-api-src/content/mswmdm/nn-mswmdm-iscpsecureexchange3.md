@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.ISCPSecureExchange3
 title: ISCPSecureExchange3
-author: windows-driver-content
+author: windows-sdk-content
 description: The ISCPSecureExchange3 interface extends ISCPSecureExchange2 by providing improved data exchange performance, and a transfer-complete callback method.
 old-location: wmdm\iscpsecureexchange3.htm
 old-project: WMDM
 ms.assetid: 2617a6af-c91d-4416-8bef-fe69404e7c3f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISCPSecureExchange3, ISCPSecureExchange3 interface [windows Media Device Manager], ISCPSecureExchange3 interface [windows Media Device Manager],described, ISCPSecureExchange3Interface, mswmdm/ISCPSecureExchange3, wmdm.iscpsecureexchange3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

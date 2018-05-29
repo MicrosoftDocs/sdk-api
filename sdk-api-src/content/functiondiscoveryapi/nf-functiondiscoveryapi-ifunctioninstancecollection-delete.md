@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Delete
 title: IFunctionInstanceCollection::Delete
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the specified function instance from the collection.
 old-location: ncd\ifunctioninstancecollection_delete.htm
 old-project: FunDisc
 ms.assetid: e7f94912-9656-4a6b-8754-eb37358b5f9d
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: Delete, Delete method, Delete method,IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,Delete method, IFunctionInstanceCollection.Delete, IFunctionInstanceCollection::Delete, functiondiscoveryapi/IFunctionInstanceCollection::Delete, ncd.ifunctioninstancecollection_delete
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryapi.h
 req.include-header: 

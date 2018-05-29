@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509PublicKey.InitializeFromEncodedPublicKeyInfo
 title: IX509PublicKey::InitializeFromEncodedPublicKeyInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the object from a byte array that contains a public key.
 old-location: security\ix509publickey_initializefromencodedpublickeyinfo_method.htm
 old-project: SecCertEnroll
 ms.assetid: 3e92d934-1ab7-4f09-a579-0dde4ef44c7f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509PublicKey interface [Security],InitializeFromEncodedPublicKeyInfo method, IX509PublicKey.InitializeFromEncodedPublicKeyInfo, IX509PublicKey::InitializeFromEncodedPublicKeyInfo, InitializeFromEncodedPublicKeyInfo, InitializeFromEncodedPublicKeyInfo method [Security], InitializeFromEncodedPublicKeyInfo method [Security],IX509PublicKey interface, certenroll/IX509PublicKey::InitializeFromEncodedPublicKeyInfo, security.ix509publickey_initializefromencodedpublickeyinfo_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

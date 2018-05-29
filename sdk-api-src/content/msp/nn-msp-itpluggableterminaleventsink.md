@@ -1,16 +1,16 @@
 ---
 UID: NN:msp.ITPluggableTerminalEventSink
 title: ITPluggableTerminalEventSink
-author: windows-driver-content
+author: windows-sdk-content
 description: The ITPluggableTerminalEventSink interface provides a method that fires a message to notify client applications about a change in a pluggable terminal.
 old-location: tapi3\itpluggableterminaleventsink.htm
 old-project: Tapi
 ms.assetid: bcf64c78-aad2-4b53-b938-cc1fd373c8b4
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPluggableTerminalEventSink, ITPluggableTerminalEventSink interface [TAPI 2.2], ITPluggableTerminalEventSink interface [TAPI 2.2],described, _tapi3_itpluggableterminaleventsink, msp/ITPluggableTerminalEventSink, tapi3.itpluggableterminaleventsink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msp.h
 req.include-header: Tapi3.h

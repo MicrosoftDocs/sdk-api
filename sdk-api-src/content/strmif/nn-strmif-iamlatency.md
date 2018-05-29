@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMLatency
 title: IAMLatency
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMLatency interface reports the amount of latency that a filter introduces into the graph.
 old-location: dshow\iamlatency.htm
 old-project: DirectShow
 ms.assetid: 83384ef6-40d6-4d37-866d-6059dc5d7542
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMLatency, IAMLatency interface [DirectShow], IAMLatency interface [DirectShow],described, IAMLatencyInterface, dshow.iamlatency, strmif/IAMLatency
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig3.SetLanguage
 title: IWMStreamConfig3::SetLanguage
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetLanguage method sets the language for a stream using an RFC1766-compliant string.
 old-location: wmformat\iwmstreamconfig3_setlanguage.htm
 old-project: wmformat
 ms.assetid: 3d5c65b1-5e8b-4ee7-b28c-a35376c91ac4
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMStreamConfig3 interface [windows Media Format],SetLanguage method, IWMStreamConfig3.SetLanguage, IWMStreamConfig3::SetLanguage, IWMStreamConfig3SetLanguage, SetLanguage, SetLanguage method [windows Media Format], SetLanguage method [windows Media Format],IWMStreamConfig3 interface, wmformat.iwmstreamconfig3_setlanguage, wmsdkidl/IWMStreamConfig3::SetLanguage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

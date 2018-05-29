@@ -1,16 +1,16 @@
 ---
 UID: NF:winddi.FLOATOBJ_GreaterThanLong
 title: FLOATOBJ_GreaterThanLong function
-author: windows-driver-content
+author: windows-sdk-content
 description: The FLOATOBJ_GreaterThanLong function determines whether the FLOATOBJ is greater than the value of type LONG.
 old-location: display\floatobj_greaterthanlong.htm
 old-project: display
 ms.assetid: 2d464472-c89b-47ad-811e-a2f5445e12a9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FLOATOBJ_GreaterThanLong, FLOATOBJ_GreaterThanLong function [Display Devices], display.floatobj_greaterthanlong, gdifncs_75edc272-ffac-4ff0-9b3b-c542d3d0ae89.xml, winddi/FLOATOBJ_GreaterThanLong
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winddi.h
 req.include-header: Winddi.h

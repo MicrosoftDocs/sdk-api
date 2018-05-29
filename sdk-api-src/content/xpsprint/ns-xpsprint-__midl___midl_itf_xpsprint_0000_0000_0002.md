@@ -1,16 +1,16 @@
 ---
 UID: NS:xpsprint.__MIDL___MIDL_itf_xpsprint_0000_0000_0002
 title: "__MIDL___MIDL_itf_xpsprint_0000_0000_0002"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a snapshot of job status.
 old-location: gdi\xps_job_status.htm
 old-project: printdocs
 ms.assetid: c4e13960-4f26-460a-b47e-98b833fcdfd5
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: XPS_JOB_STATUS, XPS_JOB_STATUS structure [Windows GDI], __MIDL___MIDL_itf_xpsprint_0000_0000_0002, gdi.xps_job_status, xpsprint/XPS_JOB_STATUS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xpsprint.h
 req.include-header: 

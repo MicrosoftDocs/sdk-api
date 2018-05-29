@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.ILIsAligned
 title: ILIsAligned function
-author: windows-driver-content
+author: windows-sdk-content
 description: Verifies whether a constant ITEMIDLIST is aligned on a pointer boundary, which is a DWORD on 32-bit architectures and a QWORD on 64-bit architectures.
 old-location: shell\ILIsAligned.htm
 old-project: shell
 ms.assetid: ef6607c6-3ea0-4b45-b443-dbd1359ab873
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ILIsAligned, ILIsAligned function [Windows Shell], _shell_ILIsAligned, shell.ILIsAligned, shlobj_core/ILIsAligned
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

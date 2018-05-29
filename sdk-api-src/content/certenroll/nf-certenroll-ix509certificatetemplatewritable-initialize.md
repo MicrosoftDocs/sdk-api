@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplateWritable.Initialize
 title: IX509CertificateTemplateWritable::Initialize
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes an IX509CertificateTemplateWritable object from a template.
 old-location: security\ix509certificatetemplatewritable_initialize.htm
 old-project: SecCertEnroll
 ms.assetid: d70cfb65-403f-4a58-8882-393029111552
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509CertificateTemplateWritable interface [Security],Initialize method, IX509CertificateTemplateWritable.Initialize, IX509CertificateTemplateWritable::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509CertificateTemplateWritable interface, certenroll/IX509CertificateTemplateWritable::Initialize, security.ix509certificatetemplatewritable_initialize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

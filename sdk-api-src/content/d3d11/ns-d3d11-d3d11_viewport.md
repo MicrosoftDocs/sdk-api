@@ -1,16 +1,16 @@
 ---
 UID: NS:d3d11.D3D11_VIEWPORT
 title: D3D11_VIEWPORT
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the dimensions of a viewport.
 old-location: direct3d11\d3d11_viewport.htm
 old-project: direct3d11
 ms.assetid: 7ef29e40-4b42-4794-83b6-44581c0d529f
-ms.author: windowsdriverdev
-ms.date: 4/6/2018
+ms.author: windowssdkdev
+ms.date: 04/06/2018
 ms.keywords: D3D11_VIEWPORT, D3D11_VIEWPORT structure [Direct3D 11], d3d11/D3D11_VIEWPORT, direct3d11.d3d11_viewport, e40eb7eb-7ea6-54bc-b846-b83c9856e3fe
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d3d11.h
 req.include-header: 

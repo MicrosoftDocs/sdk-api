@@ -1,16 +1,16 @@
 ---
 UID: NC:mapi.MAPIFINDNEXT
 title: MAPIFINDNEXT
-author: windows-driver-content
+author: windows-sdk-content
 description: The MAPIFindNext function retrieves the next (or first) message identifier of a specified type of incoming message.
 old-location: mapi\mapifindnext.htm
 old-project: WindowsMAPI
 ms.assetid: 6c11e88c-2883-4486-9679-2bdf0b30b8b0
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: MAPIFindNext, MAPIFindNext callback, MAPIFindNext callback function, MAPI_GUARANTEE_FIFO, MAPI_LONG_MSGID, MAPI_UNREAD_ONLY, mapi.mapifindnext, mapi/MAPIFindNext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: mapi.h
 req.include-header: 

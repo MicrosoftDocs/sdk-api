@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetDefaultExtension
 title: IFileDialog::SetDefaultExtension
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the default extension to be added to file names.
 old-location: shell\IFileDialog_SetDefaultExtension.htm
 old-project: shell
 ms.assetid: 2e1739f4-d229-4bf1-99f4-6bded830de2b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetDefaultExtension method, IFileDialog.SetDefaultExtension, IFileDialog::SetDefaultExtension, SetDefaultExtension, SetDefaultExtension method [Windows Shell], SetDefaultExtension method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetDefaultExtension, shell_IFileDialog_SetDefaultExtension, shobjidl_core/IFileDialog::SetDefaultExtension
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

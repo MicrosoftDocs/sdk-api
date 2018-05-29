@@ -1,16 +1,16 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitationManager.get_Item
 title: IRDPSRAPIInvitationManager::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: An item in the invitation collection.
 old-location: rdp\irdpsrapiinvitationmanager_item.htm
 old-project: Rdp
 ms.assetid: 0a6acaec-0051-4753-8926-c708e75c3e07
-ms.author: windowsdriverdev
-ms.date: 3/28/2018
+ms.author: windowssdkdev
+ms.date: 03/28/2018
 ms.keywords: IRDPSRAPIInvitationManager interface [RDP],Item property, IRDPSRAPIInvitationManager.Item, IRDPSRAPIInvitationManager.get_Item, IRDPSRAPIInvitationManager::Item, IRDPSRAPIInvitationManager::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIInvitationManager interface, Item property [RDP],RDPSRAPIInvitationManager object, RDPSRAPIInvitationManager object [RDP],Item property, get_Item, rdp.irdpsrapiinvitationmanager_item, rdpencomapi/IRDPSRAPIInvitationManager::Item, rdpencomapi/IRDPSRAPIInvitationManager::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rdpencomapi.h
 req.include-header: 

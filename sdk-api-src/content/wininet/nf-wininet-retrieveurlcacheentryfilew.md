@@ -1,16 +1,16 @@
 ---
 UID: NF:wininet.RetrieveUrlCacheEntryFileW
 title: RetrieveUrlCacheEntryFileW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locks the cache entry file associated with the specified URL.
 old-location: wininet\retrieveurlcacheentryfile.htm
 old-project: WinInet
 ms.assetid: eb311b8d-560d-4742-af4c-b5afe660c8e5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: RetrieveUrlCacheEntryFile, RetrieveUrlCacheEntryFile function [WinINet], RetrieveUrlCacheEntryFileA, RetrieveUrlCacheEntryFileW, _inet_retrieveurlcacheentryfile_function, wininet.retrieveurlcacheentryfile, wininet/RetrieveUrlCacheEntryFile, wininet/RetrieveUrlCacheEntryFileA, wininet/RetrieveUrlCacheEntryFileW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wininet.h
 req.include-header: 

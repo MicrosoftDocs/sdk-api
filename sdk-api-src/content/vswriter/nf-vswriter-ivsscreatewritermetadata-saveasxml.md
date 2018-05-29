@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.SaveAsXML
 title: IVssCreateWriterMetadata::SaveAsXML
-author: windows-driver-content
+author: windows-sdk-content
 description: The SaveAsXML method saves the Writer Metadata Document that contains a writer's state information to a specified string.
 old-location: base\ivsscreatewritermetadata_saveasxml.htm
 old-project: VSS
 ms.assetid: 0894912b-85e3-4a5b-bf1b-6bbfe8c9e820
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IVssCreateWriterMetadata interface [VSS],SaveAsXML method, IVssCreateWriterMetadata.SaveAsXML, IVssCreateWriterMetadata::SaveAsXML, SaveAsXML, SaveAsXML method [VSS], SaveAsXML method [VSS],IVssCreateWriterMetadata interface, _win32_ivsscreatewritermetadata_saveasxml, base.ivsscreatewritermetadata_saveasxml, vswriter/IVssCreateWriterMetadata::SaveAsXML
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

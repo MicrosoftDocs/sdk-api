@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.ExtFloodFill
 title: ExtFloodFill function
-author: windows-driver-content
+author: windows-sdk-content
 description: The ExtFloodFill function fills an area of the display surface with the current brush.
 old-location: gdi\extfloodfill.htm
 old-project: gdi
 ms.assetid: b996d47d-5aaf-4b13-8643-209744e5a04b
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ExtFloodFill, ExtFloodFill function [Windows GDI], FLOODFILLBORDER, FLOODFILLSURFACE, _win32_ExtFloodFill, gdi.extfloodfill, wingdi/ExtFloodFill
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

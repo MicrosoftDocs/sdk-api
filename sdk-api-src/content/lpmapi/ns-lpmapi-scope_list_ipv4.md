@@ -1,16 +1,16 @@
 ---
 UID: NS:lpmapi.Scope_list_ipv4
 title: Scope_list_ipv4
-author: windows-driver-content
+author: windows-sdk-content
 description: The Scope_list_ipv4 structure contains RSVP SCOPE object information.
 old-location: qos\scope_list_ipv4.htm
 old-project: QOS
 ms.assetid: f1651371-d192-45d9-9a9e-d272b624f40d
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: Scope_list_ipv4, Scope_list_ipv4 structure [QOS], lpmapi/Scope_list_ipv4, qos.scope_list_ipv4
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: lpmapi.h
 req.include-header: 

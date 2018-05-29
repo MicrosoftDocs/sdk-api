@@ -1,16 +1,16 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.RegisterInstance
 title: IXamlDiagnostics::RegisterInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an IInspectable to the XAML Diagnostics cache and returns the newly created InstanceHandle for the object.
 old-location: xaml_diagnostics\ixamldiagnostics_registerinstance.htm
 old-project: xaml_diagnostics
 ms.assetid: B1BD13CE-6B20-45D0-83E2-AB7E15BDA6FC
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: IXamlDiagnostics interface,RegisterInstance method, IXamlDiagnostics.RegisterInstance, IXamlDiagnostics::RegisterInstance, RegisterInstance, RegisterInstance method, RegisterInstance method,IXamlDiagnostics interface, xaml_diagnostics.ixamldiagnostics_registerinstance, xamlom/IXamlDiagnostics::RegisterInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xamlom.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.NtOpenFile
 title: NtOpenFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens an existing file, device, directory, or volume, and returns a handle for the file object.
 old-location: winprog\ntopenfile.htm
 old-project: DevNotes
 ms.assetid: b77a85d1-7d2d-4834-b5d9-9baf68804369
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: NtOpenFile, NtOpenFile function [Windows API], winprog.ntopenfile, winternl/NtOpenFile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

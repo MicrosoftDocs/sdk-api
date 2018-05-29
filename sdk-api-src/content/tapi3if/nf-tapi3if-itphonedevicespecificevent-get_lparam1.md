@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITPhoneDeviceSpecificEvent.get_lParam1
 title: ITPhoneDeviceSpecificEvent::get_lParam1
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_lParam1 method retrieves the first of three buffers specific to a given phone device. The precise content and meaning of these buffers is defined by the provider.
 old-location: tapi3\itphonedevicespecificevent_get_lparam1.htm
 old-project: Tapi
 ms.assetid: fc75bbfa-7b0b-4ecc-99cc-48517550d71d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITPhoneDeviceSpecificEvent interface [TAPI 2.2],get_lParam1 method, ITPhoneDeviceSpecificEvent.get_lParam1, ITPhoneDeviceSpecificEvent::get_lParam1, _tapi3_itphonedevicespecificevent_get_lparam1, get_lParam1, get_lParam1 method [TAPI 2.2], get_lParam1 method [TAPI 2.2],ITPhoneDeviceSpecificEvent interface, tapi3.itphonedevicespecificevent_get_lparam1, tapi3if/ITPhoneDeviceSpecificEvent::get_lParam1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: 

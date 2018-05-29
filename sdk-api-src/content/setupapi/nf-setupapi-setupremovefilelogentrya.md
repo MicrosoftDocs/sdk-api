@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupRemoveFileLogEntryA
 title: SetupRemoveFileLogEntryA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupRemoveFileLogEntry function removes an entry or section from a file log.
 old-location: setup\setupremovefilelogentry.htm
 old-project: SetupApi
 ms.assetid: a26d2c24-7092-40b0-9ae9-e7edf68aeb3d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupRemoveFileLogEntry, SetupRemoveFileLogEntry function [Setup API], SetupRemoveFileLogEntryA, SetupRemoveFileLogEntryW, _setupapi_setupremovefilelogentry, setup.setupremovefilelogentry, setupapi/SetupRemoveFileLogEntry, setupapi/SetupRemoveFileLogEntryA, setupapi/SetupRemoveFileLogEntryW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

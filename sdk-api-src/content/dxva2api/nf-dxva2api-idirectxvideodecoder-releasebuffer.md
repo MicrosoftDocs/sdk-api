@@ -1,16 +1,16 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoder.ReleaseBuffer
 title: IDirectXVideoDecoder::ReleaseBuffer
-author: windows-driver-content
+author: windows-sdk-content
 description: Releases a buffer that was obtained by calling IDirectXVideoDecoder::GetBuffer.
 old-location: mf\idirectxvideodecoder_releasebuffer.htm
 old-project: medfound
 ms.assetid: e828a8e0-b9ec-4b86-abea-cbd8e0fd3a90
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IDirectXVideoDecoder interface [Media Foundation],ReleaseBuffer method, IDirectXVideoDecoder.ReleaseBuffer, IDirectXVideoDecoder::ReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [Media Foundation], ReleaseBuffer method [Media Foundation],IDirectXVideoDecoder interface, dxva2api/IDirectXVideoDecoder::ReleaseBuffer, e828a8e0-b9ec-4b86-abea-cbd8e0fd3a90, mf.idirectxvideodecoder_releasebuffer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxva2api.h
 req.include-header: 

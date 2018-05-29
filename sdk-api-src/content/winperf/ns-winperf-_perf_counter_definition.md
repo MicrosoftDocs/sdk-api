@@ -1,16 +1,16 @@
 ---
 UID: NS:winperf._PERF_COUNTER_DEFINITION
 title: "_PERF_COUNTER_DEFINITION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes a performance counter.
 old-location: perf\perf_counter_definition_str.htm
 old-project: PerfCtrs
 ms.assetid: faef043b-81e0-49b0-913f-d691bafd17e6
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PPERF_COUNTER_DEFINITION, PERF_COUNTER_DEFINITION, PERF_COUNTER_DEFINITION structure [Perf], PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, _PERF_COUNTER_DEFINITION, _win32_perf_counter_definition_str, base.perf_counter_definition_str, perf.perf_counter_definition_str, winperf/PERF_COUNTER_DEFINITION"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winperf.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.SetProperty
 title: IWMPropertyVault::SetProperty
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetProperty method sets the values for a property. If the property named already exists in the property vault, SetProperty changes its value as specified. If the property named does not exist, SetProperty adds it to the property vault.
 old-location: wmformat\iwmpropertyvault_setproperty.htm
 old-project: wmformat
 ms.assetid: 0fae0ecf-efa9-46d0-8324-4065f351291e
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMPropertyVault interface [windows Media Format],SetProperty method, IWMPropertyVault.SetProperty, IWMPropertyVault::SetProperty, IWMPropertyVaultSetProperty, SetProperty, SetProperty method [windows Media Format], SetProperty method [windows Media Format],IWMPropertyVault interface, wmformat.iwmpropertyvault_setproperty, wmsdkidl/IWMPropertyVault::SetProperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

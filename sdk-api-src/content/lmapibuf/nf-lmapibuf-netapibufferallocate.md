@@ -1,16 +1,16 @@
 ---
 UID: NF:lmapibuf.NetApiBufferAllocate
 title: NetApiBufferAllocate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetApiBufferAllocate function allocates memory from the heap. Use this function only when compatibility with the NetApiBufferFree function is required. Otherwise, use the memory management functions.
 old-location: netmgmt\netapibufferallocate.htm
 old-project: NetMgmt
 ms.assetid: 9ff1e3eb-9417-469f-a8c0-cdcda3cd9583
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: NetApiBufferAllocate, NetApiBufferAllocate function [Network Management], _win32_netapibufferallocate, lmapibuf/NetApiBufferAllocate, netmgmt.netapibufferallocate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmapibuf.h
 req.include-header: Lm.h

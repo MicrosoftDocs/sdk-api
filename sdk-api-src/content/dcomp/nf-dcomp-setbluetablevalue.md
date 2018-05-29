@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetBlueTableValue
 title: SetBlueTableValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a value in the blue table.
 old-location: directcomp\idcompositiontabletransfereffect_setbluetablevalue_overloaded.htm
 old-project: directcomp
 ms.assetid: 9c7098d5-17aa-3154-02a7-7acf972a212d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IDCompositionTableTransferEffect::SetBlueTableValue, SetBlueTableValue, SetBlueTableValue methods [DirectComposition], dcomp/SetBlueTableValue, directcomp.idcompositiontabletransfereffect_setbluetablevalue_overloaded
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

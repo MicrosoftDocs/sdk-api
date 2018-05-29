@@ -1,16 +1,16 @@
 ---
 UID: NF:iscsidsc.AddRadiusServerA
 title: AddRadiusServerA function
-author: windows-driver-content
+author: windows-sdk-content
 description: AddRadiusServer.
 old-location: iscsidisc\addradiusserver.htm
 old-project: iSCSIDisc
 ms.assetid: ed89b329-f1ea-4606-b305-a245d29b119c
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: AddRadiusServer, AddRadiusServer function [iSCSI Discovery Library API], AddRadiusServerA, AddRadiusServerW, iscsidisc.addradiusserver, iscsidsc/AddRadiusServer, iscsidsc/AddRadiusServerA, iscsidsc/AddRadiusServerW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: iscsidsc.h
 req.include-header: 

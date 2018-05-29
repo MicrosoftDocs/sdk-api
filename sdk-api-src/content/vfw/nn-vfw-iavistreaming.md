@@ -1,17 +1,17 @@
 ---
 UID: NN:vfw.IAVIStreaming
 title: IAVIStreaming
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAVIStreaming interface supports preparing open data streams for playback in streaming operations. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:\_
 The IAVIStreaming interface supports preparing open data streams for playback in streaming operations. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:
 old-location: multimedia\iavistreaming.htm
 old-project: Multimedia
 ms.assetid: ff8ed190-5e90-4be1-8f14-0d288ce0837c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IAVIStreaming, IAVIStreaming interface [Windows Multimedia], IAVIStreaming interface [Windows Multimedia],described, _win32_IAVIStreaming, multimedia.iavistreaming, vfw/IAVIStreaming
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vfw.h
 req.include-header: 

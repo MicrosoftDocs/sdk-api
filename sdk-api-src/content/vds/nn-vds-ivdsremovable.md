@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsRemovable
 title: IVdsRemovable
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to query and eject a removable disk, such as a CD-ROM.
 old-location: base\ivdsremovable.htm
 old-project: VDS
 ms.assetid: 86dcd76a-0de0-42f4-9360-87cf7ca4ebf6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsRemovable, IVdsRemovable interface [VDS], IVdsRemovable interface [VDS],described, base.ivdsremovable, vds/IVdsRemovable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

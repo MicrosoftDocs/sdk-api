@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IQuickActivate
 title: IQuickActivate
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables controls and containers to avoid performance bottlenecks on loading controls. It combines the load-time or initialization-time handshaking between the control and its container into a single call.
 old-location: com\iquickactivate.htm
 old-project: com
 ms.assetid: 9b3e3b56-5055-4dfa-83e6-702578662463
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IQuickActivate, IQuickActivate interface [COM], IQuickActivate interface [COM],described, _ctrl_iquickactivate, com.iquickactivate, ocidl/IQuickActivate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

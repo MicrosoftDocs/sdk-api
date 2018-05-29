@@ -1,16 +1,16 @@
 ---
 UID: NN:propsys.IInitializeWithStream
 title: IInitializeWithStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that initializes a handler, such as a property handler, thumbnail handler, or preview handler, with a stream.
 old-location: shell\IInitializeWithStream.htm
 old-project: shell
 ms.assetid: 9050845d-1e70-4e85-8d2f-c8bbb382abe5
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IInitializeWithStream, IInitializeWithStream interface [Windows Shell], IInitializeWithStream interface [Windows Shell],described, propsys/IInitializeWithStream, shell.IInitializeWithStream, shell_IInitializeWithStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: propsys.h
 req.include-header: 

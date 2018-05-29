@@ -1,16 +1,16 @@
 ---
 UID: NF:wmpservices.IWMPPlugin.Init
 title: IWMPPlugin::Init
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPPlugin::Init method is called when Windows Media Player initializes the plug-in.
 old-location: wmp\iwmpplugin_init.htm
 old-project: WMP
 ms.assetid: 812752d5-4d4b-4d8d-86a7-c7a9daa092e5
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPPlugin interface [Windows Media Player],Init method, IWMPPlugin.Init, IWMPPlugin::Init, IWMPPluginInitDSP, Init, Init method [Windows Media Player], Init method [Windows Media Player],IWMPPlugin interface, wmp.iwmpplugin_init, wmpservices/IWMPPlugin::Init
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 

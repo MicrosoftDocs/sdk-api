@@ -1,16 +1,16 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0005
 title: "__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0005"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the shapes of line segment caps.
 old-location: xps\xps_line_cap.htm
 old-project: printdocs
 ms.assetid: 63ee8c2d-e7c5-4453-9555-25896dc13870
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: XPS_LINE_CAP, XPS_LINE_CAP enumeration [XPS Documents and Packaging], XPS_LINE_CAP_FLAT, XPS_LINE_CAP_ROUND, XPS_LINE_CAP_SQUARE, XPS_LINE_CAP_TRIANGLE, __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0005, xps.xps_line_cap, xpsobjectmodel/XPS_LINE_CAP, xpsobjectmodel/XPS_LINE_CAP_FLAT, xpsobjectmodel/XPS_LINE_CAP_ROUND, xpsobjectmodel/XPS_LINE_CAP_SQUARE, xpsobjectmodel/XPS_LINE_CAP_TRIANGLE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: xpsobjectmodel.h
 req.include-header: 

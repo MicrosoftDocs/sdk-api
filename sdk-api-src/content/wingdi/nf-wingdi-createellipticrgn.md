@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.CreateEllipticRgn
 title: CreateEllipticRgn function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CreateEllipticRgn function creates an elliptical region.
 old-location: gdi\createellipticrgn.htm
 old-project: gdi
 ms.assetid: b4e9b210-8e22-42db-bb6e-65f1fb870eff
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CreateEllipticRgn, CreateEllipticRgn function [Windows GDI], _win32_CreateEllipticRgn, gdi.createellipticrgn, wingdi/CreateEllipticRgn
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:ddkmapi._DDSETFIELDNUM
 title: "_DDSETFIELDNUM"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDSETFIELDNUM structure contains the handles and the field number.
 old-location: display\ddsetfieldnum.htm
 old-project: display
 ms.assetid: 442a4bbf-e3d9-4b06-99c4-1ffcf708a15c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPDDSETFIELDNUM, DDSETFIELDNUM, DDSETFIELDNUM structure [Display Devices], LPDDSETFIELDNUM, LPDDSETFIELDNUM structure pointer [Display Devices], _DDSETFIELDNUM, ddkmapi/DDSETFIELDNUM, ddkmapi/LPDDSETFIELDNUM, ddstrcts_d8753497-b27b-4bd5-adcd-5b76e2169535.xml, display.ddsetfieldnum"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

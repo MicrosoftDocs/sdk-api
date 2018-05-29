@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetComputeRootDescriptorTable
 title: ID3D12GraphicsCommandList::SetComputeRootDescriptorTable
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets a descriptor table into the compute root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setcomputerootdescriptortable.htm
 old-project: direct3d12
 ms.assetid: DC05D64A-39D0-4EF2-A9FE-956B499386F2
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetComputeRootDescriptorTable method, ID3D12GraphicsCommandList.SetComputeRootDescriptorTable, ID3D12GraphicsCommandList::SetComputeRootDescriptorTable, SetComputeRootDescriptorTable, SetComputeRootDescriptorTable method, SetComputeRootDescriptorTable method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetComputeRootDescriptorTable, direct3d12.id3d12graphicscommandlist_setcomputerootdescriptortable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

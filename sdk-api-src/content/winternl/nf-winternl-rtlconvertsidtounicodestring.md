@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.RtlConvertSidToUnicodeString
 title: RtlConvertSidToUnicodeString function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a security identifier (SID) to its Unicode character representation.
 old-location: security\rtlconvertsidtounicodestring.htm
 old-project: SecAuthZ
 ms.assetid: 4b2584ad-6752-46d4-83fb-3de0b783e229
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RtlConvertSidToUnicodeString, RtlConvertSidToUnicodeString function [Security], security.rtlconvertsidtounicodestring, winternl/RtlConvertSidToUnicodeString
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

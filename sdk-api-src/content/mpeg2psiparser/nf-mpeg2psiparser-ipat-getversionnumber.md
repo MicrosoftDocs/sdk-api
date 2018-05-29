@@ -1,16 +1,16 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetVersionNumber
 title: IPAT::GetVersionNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetVersionNumber method returns the version number for the PAT.
 old-location: mstv\ipat_getversionnumber.htm
 old-project: mstv
 ms.assetid: 1398a1b9-e9b9-4f30-ba93-0a08a0994cf9
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetVersionNumber method, IPAT.GetVersionNumber, IPAT::GetVersionNumber, IPATGetVersionNumber, mpeg2psiparser/IPAT::GetVersionNumber, mstv.ipat_getversionnumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mpeg2psiparser.h
 req.include-header: 

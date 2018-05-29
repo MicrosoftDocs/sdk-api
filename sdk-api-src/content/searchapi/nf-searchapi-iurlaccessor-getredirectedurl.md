@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetRedirectedURL
 title: IUrlAccessor::GetRedirectedURL
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the redirected URL for the current item.
 old-location: search\_search_IUrlAccessor_GetRedirectedURL.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getredirectedurl.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetRedirectedURL, GetRedirectedURL method [search], GetRedirectedURL method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetRedirectedURL method, IUrlAccessor.GetRedirectedURL, IUrlAccessor::GetRedirectedURL, _search_IUrlAccessor_GetRedirectedURL, search._search_IUrlAccessor_GetRedirectedURL, searchapi/IUrlAccessor::GetRedirectedURL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

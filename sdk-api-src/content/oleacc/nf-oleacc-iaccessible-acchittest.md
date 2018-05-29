@@ -1,16 +1,16 @@
 ---
 UID: NF:oleacc.IAccessible.accHitTest
 title: IAccessible::accHitTest
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAccessible::accHitTest method retrieves the child element or child object that is displayed at a specific point on the screen.
 old-location: winauto\iaccessible_iaccessible__acchittest.htm
 old-project: WinAuto
 ms.assetid: 87327086-a8f3-4d1c-ab4d-8f5aba00c61a
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accHitTest method, IAccessible.accHitTest, IAccessible::accHitTest, _msaa_IAccessible_accHitTest, accHitTest, accHitTest method [Windows Accessibility], accHitTest method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__acchittest, oleacc/IAccessible::accHitTest, winauto.iaccessible_iaccessible__acchittest
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleacc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vds.IVdsService.IsServiceReady
 title: IVdsService::IsServiceReady
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns the initialization status of VDS.
 old-location: base\ivdsservice_isserviceready.htm
 old-project: VDS
 ms.assetid: 79ef68db-6bc6-40b3-a133-86f00eb70ee3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsService interface [VDS],IsServiceReady method, IVdsService.IsServiceReady, IVdsService::IsServiceReady, IsServiceReady, IsServiceReady method [VDS], IsServiceReady method [VDS],IVdsService interface, base.ivdsservice_isserviceready, vds/IVdsService::IsServiceReady
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vds.h
 req.include-header: 

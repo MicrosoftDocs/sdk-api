@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi.IJolietDiscMaster
 title: IJolietDiscMaster
-author: windows-driver-content
+author: windows-sdk-content
 description: The IJolietDiscMaster interface enables the staging of a CD data disc.
 old-location: imapi\ijolietdiscmaster.htm
 old-project: imapi
 ms.assetid: e2269b68-1860-4afd-90f2-d61297f3fa9b
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IJolietDiscMaster, IJolietDiscMaster interface [IMAPI], IJolietDiscMaster interface [IMAPI],described, _win32_ijolietdiscmaster, base.ijolietdiscmaster, imapi.ijolietdiscmaster, imapi/IJolietDiscMaster
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi.h
 req.include-header: 

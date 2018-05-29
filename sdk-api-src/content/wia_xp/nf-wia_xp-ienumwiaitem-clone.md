@@ -1,16 +1,16 @@
 ---
 UID: NF:wia_xp.IEnumWiaItem.Clone
 title: IEnumWiaItem::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: The IEnumWiaItem::Clone method creates an additional instance of the IEnumWiaItem interface and sends back a pointer to it.
 old-location: wia\_wia_IEnumWiaItem_Clone.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwiaitem\clone.htm
-ms.author: windowsdriverdev
-ms.date: 5/3/2018
+ms.author: windowssdkdev
+ms.date: 05/03/2018
 ms.keywords: Clone, Clone method [WIA], Clone method [WIA],IEnumWiaItem interface, IEnumWiaItem interface [WIA],Clone method, IEnumWiaItem.Clone, IEnumWiaItem::Clone, _wia_IEnumWiaItem_Clone, wia._wia_IEnumWiaItem_Clone, wia_xp/IEnumWiaItem::Clone
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wia_xp.h
 req.include-header: Wia.h

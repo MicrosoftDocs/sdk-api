@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12.ID3D12DescriptorHeap.GetDesc
 title: ID3D12DescriptorHeap::GetDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the descriptor heap description.
 old-location: direct3d12\id3d12descriptorheap_getdesc.htm
 old-project: direct3d12
 ms.assetid: DDDDA9AB-841A-41A4-806C-82A596AFDB61
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12DescriptorHeap interface, ID3D12DescriptorHeap interface,GetDesc method, ID3D12DescriptorHeap.GetDesc, ID3D12DescriptorHeap::GetDesc, d3d12/ID3D12DescriptorHeap::GetDesc, direct3d12.id3d12descriptorheap_getdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12.h
 req.include-header: 

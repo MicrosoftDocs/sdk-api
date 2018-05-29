@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetSettingByPath
 title: ISettingsItem::GetSettingByPath
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a setting based on the given path.
 old-location: smi\isettingsitem_getsettingbypath.htm
 old-project: SMI
 ms.assetid: a4270c46-b214-4232-b414-d6b6e4e35635
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetSettingByPath, GetSettingByPath method [SMI], GetSettingByPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetSettingByPath method, ISettingsItem.GetSettingByPath, ISettingsItem::GetSettingByPath, smi.isettingsitem_getsettingbypath, wcmconfig/ISettingsItem::GetSettingByPath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

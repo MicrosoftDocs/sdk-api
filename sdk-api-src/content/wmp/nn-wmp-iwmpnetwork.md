@@ -1,16 +1,16 @@
 ---
 UID: NN:wmp.IWMPNetwork
 title: IWMPNetwork
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPNetwork interface provides methods relating to the network connection used by Windows Media Player.
 old-location: wmp\iwmpnetwork.htm
 old-project: WMP
 ms.assetid: 074a4bc2-3d9f-4007-b6c8-91ea92a87b67
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPNetwork, IWMPNetwork interface [Windows Media Player], IWMPNetwork interface [Windows Media Player],described, IWMPNetworkInterface, wmp.iwmpnetwork, wmp/IWMPNetwork
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmp.h
 req.include-header: 

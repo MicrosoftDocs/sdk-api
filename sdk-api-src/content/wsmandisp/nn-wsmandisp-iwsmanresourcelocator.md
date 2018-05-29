@@ -1,16 +1,16 @@
 ---
 UID: NN:wsmandisp.IWSManResourceLocator
 title: IWSManResourceLocator
-author: windows-driver-content
+author: windows-sdk-content
 description: Supplies the path to a resource. You can use an IWSManResourceLocator object instead of a resource URI in IWSManSession object operations such as IWSManSession.Get, IWSManSession.Put, or IWSManSession.Enumerate.
 old-location: winrm\iwsmanresourcelocator.htm
 old-project: WinRM
 ms.assetid: 7b3dcb53-d02c-4ba6-973d-1493ba442387
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSManResourceLocator, IWSManResourceLocator interface [Windows Remote Management], IWSManResourceLocator interface [Windows Remote Management],described, winrm.iwsmanresourcelocator, wsmandisp/IWSManResourceLocator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsmandisp.h
 req.include-header: 

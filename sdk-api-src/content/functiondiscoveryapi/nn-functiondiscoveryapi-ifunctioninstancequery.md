@@ -1,16 +1,16 @@
 ---
 UID: NN:functiondiscoveryapi.IFunctionInstanceQuery
 title: IFunctionInstanceQuery
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements the asynchronous query for a function instance based on category and subcategory.
 old-location: ncd\ifunctioninstancequery.htm
 old-project: FunDisc
 ms.assetid: 03343d85-c0db-436d-bedc-c001b1886173
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IFunctionInstanceQuery, IFunctionInstanceQuery interface, IFunctionInstanceQuery interface,described, functiondiscoveryapi/IFunctionInstanceQuery, ncd.ifunctioninstancequery
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: functiondiscoveryapi.h
 req.include-header: 

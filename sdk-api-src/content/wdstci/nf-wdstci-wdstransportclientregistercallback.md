@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstci.WdsTransportClientRegisterCallback
 title: WdsTransportClientRegisterCallback function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a callback with the multicast client.
 old-location: wds\wdstransportclientregistercallback.htm
 old-project: Wds
 ms.assetid: e3c809c4-5681-4979-8633-bb8d3dbde35b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsTransportClientRegisterCallback, WdsTransportClientRegisterCallback function [Windows Deployment Services], wds.wdstransportclientregistercallback, wdstci/WdsTransportClientRegisterCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdstci.h
 req.include-header: 

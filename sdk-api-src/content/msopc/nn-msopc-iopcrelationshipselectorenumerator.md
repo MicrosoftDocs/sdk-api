@@ -1,16 +1,16 @@
 ---
 UID: NN:msopc.IOpcRelationshipSelectorEnumerator
 title: IOpcRelationshipSelectorEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: A read-only enumerator of IOpcRelationshipSelector interface pointers.
 old-location: opc\iopcrelationshipselectorenumerator.htm
 old-project: OPC
 ms.assetid: 9c0bbc0d-d950-4929-9100-41a7f016a208
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IOpcRelationshipSelectorEnumerator, IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions], IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],described, msopc/IOpcRelationshipSelectorEnumerator, opc.iopcrelationshipselectorenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msopc.h
 req.include-header: 

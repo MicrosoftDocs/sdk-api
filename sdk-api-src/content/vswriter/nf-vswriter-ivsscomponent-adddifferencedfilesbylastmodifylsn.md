@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.IVssComponent.AddDifferencedFilesByLastModifyLSN
 title: IVssComponent::AddDifferencedFilesByLastModifyLSN
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.
 old-location: base\ivsscomponent_adddifferencedfilesbylastmodifylsn.htm
 old-project: VSS
 ms.assetid: e708a6e9-9e4e-4620-8251-65b14a7bc6ee
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddDifferencedFilesByLastModifyLSN, AddDifferencedFilesByLastModifyLSN method [VSS], AddDifferencedFilesByLastModifyLSN method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddDifferencedFilesByLastModifyLSN method, IVssComponent.AddDifferencedFilesByLastModifyLSN, IVssComponent::AddDifferencedFilesByLastModifyLSN, _win32_ivsscomponent_adddifferencedfilesbylastmodifylsn, base.ivsscomponent_adddifferencedfilesbylastmodifylsn, vswriter/IVssComponent::AddDifferencedFilesByLastModifyLSN
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

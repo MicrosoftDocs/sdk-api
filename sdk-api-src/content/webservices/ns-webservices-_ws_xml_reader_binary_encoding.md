@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_READER_BINARY_ENCODING
 title: "_WS_XML_READER_BINARY_ENCODING"
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to indicate that the reader should interpret the bytes it reads as binary xml.
 old-location: wsw\ws_xml_reader_binary_encoding.htm
 old-project: wsw
 ms.assetid: 51a0802b-6624-430e-96c1-a8470fac4937
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_READER_BINARY_ENCODING, WS_XML_READER_BINARY_ENCODING structure [Web Services for Windows], _WS_XML_READER_BINARY_ENCODING, webservices/WS_XML_READER_BINARY_ENCODING, wsw.ws_xml_reader_binary_encoding
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

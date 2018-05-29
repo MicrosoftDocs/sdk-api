@@ -1,16 +1,16 @@
 ---
 UID: NF:tuner.ITuningSpace.get_FriendlyName
 title: ITuningSpace::get_FriendlyName
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_FriendlyName method retrieves the localized, user-friendly name of the tuning space.
 old-location: mstv\ituningspace_get_friendlyname.htm
 old-project: mstv
 ms.assetid: d1427aae-49e9-45ce-abd9-902a895e6e44
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_FriendlyName method, ITuningSpace.get_FriendlyName, ITuningSpace::get_FriendlyName, ITuningSpaceget_FriendlyName, get_FriendlyName, get_FriendlyName method [Microsoft TV Technologies], get_FriendlyName method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_friendlyname, tuner/ITuningSpace::get_FriendlyName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tuner.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFTopology.GetSourceNodeCollection
 title: IMFTopology::GetSourceNodeCollection
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the source nodes in the topology.
 old-location: mf\imftopology_getsourcenodecollection.htm
 old-project: medfound
 ms.assetid: 9da7d4cd-ad83-4d64-9773-699f39625056
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 9da7d4cd-ad83-4d64-9773-699f39625056, GetSourceNodeCollection, GetSourceNodeCollection method [Media Foundation], GetSourceNodeCollection method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetSourceNodeCollection method, IMFTopology.GetSourceNodeCollection, IMFTopology::GetSourceNodeCollection, mf.imftopology_getsourcenodecollection, mfidl/IMFTopology::GetSourceNodeCollection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

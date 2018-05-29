@@ -1,16 +1,16 @@
 ---
 UID: NF:d2d1_1helper.ImageBrushProperties
 title: ImageBrushProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a D2D1_IMAGE_BRUSH_PROPERTIES structure.
 old-location: direct2d\imagebrushproperties.htm
 old-project: Direct2D
 ms.assetid: 824FA979-7D68-4383-BE3B-C3F39C1AAF77
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: ImageBrushProperties, ImageBrushProperties function [Direct2D], d2d1_1helper/ImageBrushProperties, direct2d.imagebrushproperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d2d1_1helper.h
 req.include-header: 

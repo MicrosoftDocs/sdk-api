@@ -1,16 +1,16 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetFontStyle
 title: IMFTimedTextStyle::GetFontStyle
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the font style of the timed-text style.
 old-location: mf\imftimedtextstyle_getfontstyle.htm
 old-project: medfound
 ms.assetid: 4089F237-BDA6-49AF-967F-089D641D4B09
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetFontStyle, GetFontStyle method [Media Foundation], GetFontStyle method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetFontStyle method, IMFTimedTextStyle.GetFontStyle, IMFTimedTextStyle::GetFontStyle, mf.imftimedtextstyle_getfontstyle, mfmediaengine/IMFTimedTextStyle::GetFontStyle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfmediaengine.h
 req.include-header: 

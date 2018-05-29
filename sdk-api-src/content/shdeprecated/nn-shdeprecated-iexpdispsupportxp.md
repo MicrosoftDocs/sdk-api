@@ -1,16 +1,16 @@
 ---
 UID: NN:shdeprecated.IExpDispSupportXP
 title: IExpDispSupportXP
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Exposes methods that allow the retrieval of properties, translation of keyboard accelerators, and determination of a connection point for certain events.
 old-location: shell\IExpDispSupportXP.htm
 old-project: shell
 ms.assetid: 1d8de371-5138-4a26-b4ff-fc1a5f62e3bb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IExpDispSupportXP, IExpDispSupportXP interface [Windows Shell], IExpDispSupportXP interface [Windows Shell],described, _shell_IExpDispSupportXP, shdeprecated/IExpDispSupportXP, shell.IExpDispSupportXP
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shdeprecated.h
 req.include-header: 

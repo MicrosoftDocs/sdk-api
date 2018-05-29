@@ -1,16 +1,16 @@
 ---
 UID: NF:snmp.SnmpUtilIdsToA
 title: SnmpUtilIdsToA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SnmpUtilIdsToA function converts an object identifier (OID) to a null-terminated string. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilidstoa.htm
 old-project: SNMP
 ms.assetid: 0a8e1ead-a1f8-4aeb-ae89-d9b135ccbb14
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpUtilIdsToA, SnmpUtilIdsToA function [SNMP], _snmp_snmputilidstoa, snmp.snmputilidstoa, snmp/SnmpUtilIdsToA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: snmp.h
 req.include-header: 

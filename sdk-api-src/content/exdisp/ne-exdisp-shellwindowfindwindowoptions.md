@@ -1,16 +1,16 @@
 ---
 UID: NE:exdisp.ShellWindowFindWindowOptions
 title: ShellWindowFindWindowOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies options for finding window in the Shell windows collection.
 old-location: shell\ShellWindowFindWindowOptions.htm
 old-project: shell
 ms.assetid: 2459ab16-56c0-4812-bc61-4a17978b04f3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SWFO_COOKIEPASSED, SWFO_INCLUDEPENDING, SWFO_NEEDDISPATCH, ShellWindowFindWindowOptions, ShellWindowFindWindowOptions enumeration [Windows Shell], _win32_ShellWindowFindWindowOptions, exdisp/SWFO_COOKIEPASSED, exdisp/SWFO_INCLUDEPENDING, exdisp/SWFO_NEEDDISPATCH, exdisp/ShellWindowFindWindowOptions, shell.ShellWindowFindWindowOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: exdisp.h
 req.include-header: 

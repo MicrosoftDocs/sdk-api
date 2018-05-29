@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.StrCpyW
 title: StrCpyW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Copies one string to another.
 old-location: shell\StrCpy.htm
 old-project: shell
 ms.assetid: 83d1a8dc-fc43-4b06-b36c-c9c91d779d25
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: StrCpy, StrCpy function [Windows Shell], StrCpyW, _win32_StrCpy, shell.StrCpy, shlwapi/StrCpy, shlwapi/StrCpyW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlwapi.h
 req.include-header: 

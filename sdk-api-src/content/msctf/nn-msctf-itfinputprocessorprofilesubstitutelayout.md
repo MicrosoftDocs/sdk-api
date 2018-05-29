@@ -1,16 +1,16 @@
 ---
 UID: NN:msctf.ITfInputProcessorProfileSubstituteLayout
 title: ITfInputProcessorProfileSubstituteLayout
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface is implemented by the TSF manager and is used by an application or text service to manipulate the substitute input locale identifier (keyboard layout) of a text service profile.
 old-location: tsf\itfinputprocessorprofilesubstitutelayout.htm
 old-project: TSF
 ms.assetid: e801ca27-4581-4369-886c-04b824d55013
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: ITfInputProcessorProfileSubstituteLayout, ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework], ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework],described, msctf/ITfInputProcessorProfileSubstituteLayout, tsf.itfinputprocessorprofilesubstitutelayout
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msctf.h
 req.include-header: Textstor.h

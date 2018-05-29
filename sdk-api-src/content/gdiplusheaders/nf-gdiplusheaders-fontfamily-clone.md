@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.Clone
 title: FontFamily::Clone
-author: windows-driver-content
+author: windows-sdk-content
 description: The FontFamily::Clone method creates a new FontFamily object based on this FontFamily object.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_Clone_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\clone_58.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],FontFamily class, FontFamily class [GDI+],Clone method, FontFamily.Clone, FontFamily::Clone, _gdiplus_CLASS_FontFamily_Clone_, gdiplus._gdiplus_CLASS_FontFamily_Clone_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h

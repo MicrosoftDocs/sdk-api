@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IStorage.Stat
 title: IStorage::Stat
-author: windows-driver-content
+author: windows-sdk-content
 description: The Stat method retrieves the STATSTG structure for this open storage object.
 old-location: stg\istorage_stat.htm
 old-project: Stg
 ms.assetid: 87478fa8-1b5f-44ed-bffc-e139c7f44a12
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IStorage interface [Structured Storage],Stat method, IStorage.Stat, IStorage::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],IStorage interface, _stg_istorage_stat, objidl/IStorage::Stat, stg.istorage_stat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

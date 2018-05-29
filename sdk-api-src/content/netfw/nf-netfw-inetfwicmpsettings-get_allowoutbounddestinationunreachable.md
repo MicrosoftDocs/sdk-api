@@ -1,16 +1,16 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowOutboundDestinationUnreachable
 title: INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowoutbounddestinationunreachable.htm
 old-project: ICS
 ms.assetid: da3719a3-67b3-44a8-9cf8-0062f476bb2c
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: AllowOutboundDestinationUnreachable property [ICS/ICF], AllowOutboundDestinationUnreachable property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundDestinationUnreachable property, INetFwIcmpSettings.AllowOutboundDestinationUnreachable, INetFwIcmpSettings.get_AllowOutboundDestinationUnreachable, INetFwIcmpSettings::AllowOutboundDestinationUnreachable, INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable, INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable, get_AllowOutboundDestinationUnreachable, ics.inetfwicmpsettings_allowoutbounddestinationunreachable, netfw/INetFwIcmpSettings::AllowOutboundDestinationUnreachable, netfw/INetFwIcmpSettings::get_AllowOutboundDestinationUnreachable, netfw/INetFwIcmpSettings::put_AllowOutboundDestinationUnreachable
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: netfw.h
 req.include-header: 

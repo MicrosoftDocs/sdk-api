@@ -1,16 +1,16 @@
 ---
 UID: NE:dxgi1_5._DXGI_RECLAIM_RESOURCE_RESULTS
 title: "_DXGI_RECLAIM_RESOURCE_RESULTS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies result flags for the ReclaimResources1 method.
 old-location: direct3ddxgi\dxgi_reclaim_resource_results.htm
 old-project: direct3ddxgi
 ms.assetid: AF7082A5-6280-4602-9944-EC2DFF91BBB9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_RECLAIM_RESOURCE_RESULTS, DXGI_RECLAIM_RESOURCE_RESULTS enumeration [DXGI], DXGI_RECLAIM_RESOURCE_RESULT_DISCARDED, DXGI_RECLAIM_RESOURCE_RESULT_NOT_COMMITTED, DXGI_RECLAIM_RESOURCE_RESULT_OK, _DXGI_RECLAIM_RESOURCE_RESULTS, direct3ddxgi.dxgi_reclaim_resource_results, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULTS, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULT_DISCARDED, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULT_NOT_COMMITTED, dxgi1_5/DXGI_RECLAIM_RESOURCE_RESULT_OK
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dxgi1_5.h
 req.include-header: 

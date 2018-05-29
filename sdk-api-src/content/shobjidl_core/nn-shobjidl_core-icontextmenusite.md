@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IContextMenuSite
 title: IContextMenuSite
-author: windows-driver-content
+author: windows-sdk-content
 description: Implemented by the default folder view created using SHCreateShellFolderView.
 old-location: shell\IContextMenuSite.htm
 old-project: shell
 ms.assetid: ad444495-560b-40fe-9619-e84c6786714b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IContextMenuSite, IContextMenuSite interface [Windows Shell], IContextMenuSite interface [Windows Shell],described, _shell_IContextMenuSite, shell.IContextMenuSite, shobjidl_core/IContextMenuSite
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

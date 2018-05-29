@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.GetByPartName
 title: IXpsOMRemoteDictionaryResourceCollection::GetByPartName
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an IXpsOMRemoteDictionaryResource interface pointer from the collection by matching the interface's part name.
 old-location: xps\ixpsomremotedictionaryresourcecollection_getbypartname.htm
 old-project: printdocs
 ms.assetid: e90f23d9-c161-4b3c-a6bc-0059d2dfe5b5
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetByPartName, GetByPartName method [XPS Documents and Packaging], GetByPartName method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],GetByPartName method, IXpsOMRemoteDictionaryResourceCollection.GetByPartName, IXpsOMRemoteDictionaryResourceCollection::GetByPartName, xps.ixpsomremotedictionaryresourcecollection_getbypartname, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetByPartName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

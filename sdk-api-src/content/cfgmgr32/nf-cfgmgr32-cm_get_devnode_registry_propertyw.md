@@ -1,16 +1,16 @@
 ---
 UID: NF:cfgmgr32.CM_Get_DevNode_Registry_PropertyW
 title: CM_Get_DevNode_Registry_PropertyW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CM_Get_DevNode_Registry_Property function retrieves a specified device property from the registry.
 old-location: devinst\cm_get_devnode_registry_property.htm
 old-project: devinst
 ms.assetid: da0d6970-0f6b-4d92-a384-3799ed3dab55
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CM_Get_DevNode_Registry_Property, CM_Get_DevNode_Registry_Property function [Device and Driver Installation], CM_Get_DevNode_Registry_PropertyW, cfgmgr32/CM_Get_DevNode_Registry_Property, cfgmgr32/CM_Get_DevNode_Registry_PropertyW, cfgmgrfn_f5c0e7d6-81f6-4d0f-bca8-de9c4f51e3d9.xml, devinst.cm_get_devnode_registry_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h

@@ -1,16 +1,16 @@
 ---
 UID: NN:msclus.ISClusResGroupResources
 title: ISClusResGroupResources
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the resources that are current members of a group and allows a resource to be added to or deleted from the group.
 old-location: mscs\clusresgroupresources_collection.htm
 old-project: MsCS
 ms.assetid: 9ea90beb-86ae-4026-94bb-175e593da8fa
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ClusResGroupResources, ClusResGroupResources collection [Failover Cluster], ClusResGroupResources collection [Failover Cluster],described, ISClusResGroupResources, _wolf_clusresgroupresources_collection, msclus/ClusResGroupResources, mscs.clusresgroupresources_collection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msclus.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NC:ncryptprotect.PFNCryptStreamOutputCallback
 title: PFNCryptStreamOutputCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives encrypted or decrypted data from tasks started by using the NCryptStreamOpenToProtect or NCryptStreamOpenToUnprotect functions.
 old-location: security\pfncryptstreamoutputcallback.htm
 old-project: SecCNG
 ms.assetid: D07B2B63-306B-4C41-AA14-320EFEFFB939
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: PFNCryptStreamOutputCallback, PFNCryptStreamOutputCallback function, PFNCryptStreamOutputCallback function pointer [Security], ncryptprotect/PFNCryptStreamOutputCallback, security.pfncryptstreamoutputcallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ncryptprotect.h
 req.include-header: 

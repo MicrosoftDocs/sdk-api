@@ -1,16 +1,16 @@
 ---
 UID: NF:dwmapi.DwmSetDxFrameDuration
 title: DwmSetDxFrameDuration function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the number of monitor refreshes through which to display the presented frame. DwmSetDxFrameDuration is no longer supported. Starting with Windows 8.1, calls to DwmSetDxFrameDuration always return E_NOTIMPL.
 old-location: dwm\dwmsetdxframeduration.htm
 old-project: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmsetdxframeduration.htm
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: DwmSetDxFrameDuration, DwmSetDxFrameDuration function [Desktop Window Manager], _udwm_dwmsetdxframeduration, _udwm_dwmsetdxframeduration_cpp, dwm.dwmsetdxframeduration, dwmapi/DwmSetDxFrameDuration, winui._udwm_dwmsetdxframeduration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dwmapi.h
 req.include-header: 

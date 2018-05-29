@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IDirectorySearch.GetNextRow
 title: IDirectorySearch::GetNextRow
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the next row of the search result.
 old-location: adsi\idirectorysearch_getnextrow.htm
 old-project: ADSI
 ms.assetid: 9fb0b765-0162-418d-b0cd-7e9b1b53e1b9
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetNextRow, GetNextRow method [ADSI], GetNextRow method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],GetNextRow method, IDirectorySearch.GetNextRow, IDirectorySearch::GetNextRow, _ds_idirectorysearch_getnextrow, adsi.idirectorysearch__getnextrow, adsi.idirectorysearch_getnextrow, iads/IDirectorySearch::GetNextRow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

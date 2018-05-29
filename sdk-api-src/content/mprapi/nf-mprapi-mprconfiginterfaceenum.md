@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceEnum
 title: MprConfigInterfaceEnum function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigInterfaceEnum function enumerates the interfaces that are configured for the router.
 old-location: rras\mprconfiginterfaceenum.htm
 old-project: RRAS
 ms.assetid: fce40bcc-df75-49cd-af02-5fea3a65aaac
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigInterfaceEnum, MprConfigInterfaceEnum function [RAS], _mpr_mprconfiginterfaceenum, mprapi/MprConfigInterfaceEnum, rras.mprconfiginterfaceenum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

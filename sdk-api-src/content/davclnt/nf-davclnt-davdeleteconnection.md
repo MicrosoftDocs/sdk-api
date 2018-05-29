@@ -1,16 +1,16 @@
 ---
 UID: NF:davclnt.DavDeleteConnection
 title: DavDeleteConnection function
-author: windows-driver-content
+author: windows-sdk-content
 description: Closes a connection that was created by using the DavAddConnection function.
 old-location: webdav\davdeleteconnection.htm
 old-project: WebDAV
 ms.assetid: 736b8a16-30db-410e-8295-97730297d04b
-ms.author: windowsdriverdev
-ms.date: 3/22/2018
+ms.author: windowssdkdev
+ms.date: 03/22/2018
 ms.keywords: DavDeleteConnection, DavDeleteConnection function [WebDAV], davclnt/DavDeleteConnection, webdav.davdeleteconnection
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: davclnt.h
 req.include-header: 

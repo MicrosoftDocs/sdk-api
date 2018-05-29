@@ -1,16 +1,16 @@
 ---
 UID: NF:interactioncontext.SetPivotInteractionContext
 title: SetPivotInteractionContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the center point, and the pivot radius from the center point, for a rotation manipulation using a single input pointer.
 old-location: input_intcontext\setpivotinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: 3997e444-e90a-417f-a75c-69363b4c82d2
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: SetPivotInteractionContext, SetPivotInteractionContext function, input_intcontext.setpivotinteractioncontext, interactioncontext.setpivotinteractioncontext, interactioncontext/SetPivotInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

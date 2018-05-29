@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_MembersName
 title: IAzApplicationGroup::get_MembersName
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the account names of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_membersname.htm
 old-project: SecAuthZ
 ms.assetid: bdd6f88f-ea06-4075-b563-d0c7707107f8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzApplicationGroup object [Security],MembersName property, IAzApplicationGroup interface [Security],MembersName property, IAzApplicationGroup.MembersName, IAzApplicationGroup.get_MembersName, IAzApplicationGroup::MembersName, IAzApplicationGroup::get_MembersName, MembersName property [Security], MembersName property [Security],AzApplicationGroup object, MembersName property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::MembersName, azroles/IAzApplicationGroup::get_MembersName, get_MembersName, security.iazapplicationgroup_membersname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

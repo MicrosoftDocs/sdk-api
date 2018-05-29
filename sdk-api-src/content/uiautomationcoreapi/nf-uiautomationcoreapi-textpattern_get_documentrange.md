@@ -1,16 +1,16 @@
 ---
 UID: NF:uiautomationcoreapi.TextPattern_get_DocumentRange
 title: TextPattern_get_DocumentRange function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the text range for the entire document.
 old-location: winauto\uiauto_TextPattern_get_DocumentRangeConPat.htm
 old-project: WinAuto
 ms.assetid: e1ef5608-166c-4ab7-9f8d-ed8a4afd3b5a
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: TextPattern_get_DocumentRange, TextPattern_get_DocumentRange function [Windows Accessibility], uiauto.uiauto_TextPattern_get_DocumentRangeConPat, uiauto_TextPattern_get_DocumentRangeConPat, uiautomationcoreapi/TextPattern_get_DocumentRange, winauto.uiauto_TextPattern_get_DocumentRangeConPat
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: uiautomationcoreapi.h
 req.include-header: 

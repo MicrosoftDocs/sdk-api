@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleIsRunning
 title: OleIsRunning function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a compound document object is currently in the running state.
 old-location: com\oleisrunning.htm
 old-project: com
 ms.assetid: 9392666f-c269-4667-aeac-67c68bcc5f06
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleIsRunning, OleIsRunning function [COM], _ole_OleIsRunning, com.oleisrunning, ole2/OleIsRunning
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

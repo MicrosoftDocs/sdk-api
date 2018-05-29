@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMWMIFilterCollection.get_Item
 title: IGPMWMIFilterCollection::get_Item
-author: windows-driver-content
+author: windows-sdk-content
 description: Given an index, returns a WMI filter from the collection.
 old-location: gpmc\igpmwmifiltercollection_get_item.htm
 old-project: GPMC
 ms.assetid: 9026fae6-020f-40be-8b9d-44cbade89fd0
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMWMIFilterCollection class [GPMC],Item property, IGPMWMIFilterCollection interface [GPMC],Item property, IGPMWMIFilterCollection.Item, IGPMWMIFilterCollection.get_Item, IGPMWMIFilterCollection::Item, IGPMWMIFilterCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMWMIFilterCollection class, Item property [GPMC],IGPMWMIFilterCollection interface, _win32_igpmwmifiltercollection_get_item, get_Item, gpmc.igpmwmifiltercollection_get_item, gpmgmt/IGPMWMIFilterCollection::Item, gpmgmt/IGPMWMIFilterCollection::get_Item
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

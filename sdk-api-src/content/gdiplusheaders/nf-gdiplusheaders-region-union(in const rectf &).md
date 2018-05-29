@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusheaders.Region.Union(IN const RectF &)
 title: Region::Union(IN const RectF &)
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic lists the Union methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
 old-location: gdiplus\_gdiplus_CLASS_Region_Union_Methods.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionunionmethods.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Region.Union, Region.Union(IN const RectF &), Region::Union, Region::Union(IN const RectF &), Union, Union methods [GDI+], _gdiplus_CLASS_Region_Union_Methods, gdiplus._gdiplus_CLASS_Region_Union_Methods, gdiplusheaders/Union
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusheaders.h
 req.include-header: 

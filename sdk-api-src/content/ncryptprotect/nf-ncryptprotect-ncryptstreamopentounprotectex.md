@@ -1,16 +1,16 @@
 ---
 UID: NF:ncryptprotect.NCryptStreamOpenToUnprotectEx
 title: NCryptStreamOpenToUnprotectEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a stream object that can be used to decrypt large amounts of data to the same protection descriptor used for encryption.
 old-location: security\ncryptstreamopentounprotectex.htm
 old-project: SecCNG
 ms.assetid: 8E607F4F-4A0F-4796-8F40-D232687815AF
-ms.author: windowsdriverdev
-ms.date: 5/1/2018
+ms.author: windowssdkdev
+ms.date: 05/01/2018
 ms.keywords: NCryptStreamOpenToUnprotectEx, NCryptStreamOpenToUnprotectEx function [Security], ncryptprotect/NCryptStreamOpenToUnprotectEx, security.ncryptstreamopentounprotectex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ncryptprotect.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:msinkaut.InkRecognitionConfidence
 title: InkRecognitionConfidence
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the level of confidence that the recognizer has in the recognition result.
 old-location: tablet\inkrecognitionconfidence.htm
 old-project: tablet
 ms.assetid: ce99de84-d1c9-420f-8eb5-a8e4f3c04d1d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IRC_Intermediate, IRC_Poor, IRC_Strong, InkRecognitionConfidence, InkRecognitionConfidence enumeration [Tablet PC], ce99de84-d1c9-420f-8eb5-a8e4f3c04d1d, msinkaut/IRC_Intermediate, msinkaut/IRC_Poor, msinkaut/IRC_Strong, msinkaut/InkRecognitionConfidence, tablet.inkrecognitionconfidence
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msinkaut.h
 req.include-header: 

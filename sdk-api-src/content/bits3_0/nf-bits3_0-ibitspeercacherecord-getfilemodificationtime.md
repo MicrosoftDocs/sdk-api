@@ -1,16 +1,16 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetFileModificationTime
 title: IBitsPeerCacheRecord::GetFileModificationTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the date and time that the file was last modified on the server.
 old-location: bits\ibitspeercacherecord_getfilemodificationtime.htm
 old-project: Bits
 ms.assetid: fe24b090-7dfd-4cbe-bb5d-ff3fd01723df
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetFileModificationTime, GetFileModificationTime method [BITS], GetFileModificationTime method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetFileModificationTime method, IBitsPeerCacheRecord.GetFileModificationTime, IBitsPeerCacheRecord::GetFileModificationTime, bits.ibitspeercacherecord_getfilemodificationtime, bits3_0/IBitsPeerCacheRecord::GetFileModificationTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bits3_0.h
 req.include-header: Bits.h

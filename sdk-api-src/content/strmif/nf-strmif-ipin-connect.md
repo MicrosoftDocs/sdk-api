@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IPin.Connect
 title: IPin::Connect
-author: windows-driver-content
+author: windows-sdk-content
 description: The Connect method connects the pin to another pin.
 old-location: dshow\ipin_connect.htm
 old-project: DirectShow
 ms.assetid: 1b02ee67-5dc5-44c1-bea5-2eab46ebd0f6
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Connect, Connect method [DirectShow], Connect method [DirectShow],IPin interface, IPin interface [DirectShow],Connect method, IPin.Connect, IPin::Connect, IPinConnect, dshow.ipin_connect, strmif/IPin::Connect
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

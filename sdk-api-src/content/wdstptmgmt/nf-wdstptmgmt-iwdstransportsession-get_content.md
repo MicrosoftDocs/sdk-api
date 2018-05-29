@@ -1,16 +1,16 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_Content
 title: IWdsTransportSession::get_Content
-author: windows-driver-content
+author: windows-sdk-content
 description: Receives a pointer to an object of the IWdsTransportContent interface that represents an active transport session on the WDS transport server.
 old-location: wds\iwdstransportsession_content.htm
 old-project: Wds
 ms.assetid: 642026fe-976f-439f-b90d-ad9a28609f00
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: Content property [Windows Deployment Services], Content property [Windows Deployment Services],IWdsTransportSession interface, IWdsTransportSession interface [Windows Deployment Services],Content property, IWdsTransportSession.Content, IWdsTransportSession.get_Content, IWdsTransportSession::Content, IWdsTransportSession::get_Content, get_Content, wds.iwdstransportsession_content, wdstptmgmt/IWdsTransportSession::Content, wdstptmgmt/IWdsTransportSession::get_Content
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wdstptmgmt.h
 req.include-header: 

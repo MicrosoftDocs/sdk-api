@@ -1,16 +1,16 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.DoSnapshotSet
 title: IVssBackupComponents::DoSnapshotSet
-author: windows-driver-content
+author: windows-sdk-content
 description: Commits all shadow copies in this set simultaneously.
 old-location: base\ivssbackupcomponents_dosnapshotset.htm
 old-project: VSS
 ms.assetid: 3cc6c375-8a24-4af3-b4ad-5a695cc2645c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DoSnapshotSet, DoSnapshotSet method [VSS], DoSnapshotSet method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DoSnapshotSet method, IVssBackupComponents.DoSnapshotSet, IVssBackupComponents::DoSnapshotSet, _win32_ivssbackupcomponents_dosnapshotset, base.ivssbackupcomponents_dosnapshotset, vsbackup/IVssBackupComponents::DoSnapshotSet
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h

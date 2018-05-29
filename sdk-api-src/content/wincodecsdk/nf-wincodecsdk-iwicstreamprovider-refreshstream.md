@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodecsdk.IWICStreamProvider.RefreshStream
 title: IWICStreamProvider::RefreshStream
-author: windows-driver-content
+author: windows-sdk-content
 description: Informs the component that the content of the stream it's holding onto may have changed. The component should respond by dirtying any cached information from the stream.
 old-location: wic\_wic_codec_iwicstreamprovider_refreshstream.htm
 old-project: wic
 ms.assetid: 47ee9b2a-b979-4009-b4e6-e2e39548976d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICStreamProvider interface [Windows Imaging Component],RefreshStream method, IWICStreamProvider.RefreshStream, IWICStreamProvider::RefreshStream, RefreshStream, RefreshStream method [Windows Imaging Component], RefreshStream method [Windows Imaging Component],IWICStreamProvider interface, _wic_codec_iwicstreamprovider_refreshstream, wic._wic_codec_iwicstreamprovider_refreshstream, wincodecsdk/IWICStreamProvider::RefreshStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

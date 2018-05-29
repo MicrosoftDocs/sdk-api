@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarI8FromDate
 title: VarI8FromDate function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a date value to an 8-byte integer value.
 old-location: automat\vari8fromdate.htm
 old-project: automat
 ms.assetid: 64c0b322-da7b-4da7-a927-2c5d2587f37c
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarI8FromDate, VarI8FromDate function [Automation], _oa96_VarI8FromDate, automat.vari8fromdate, oleauto/VarI8FromDate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

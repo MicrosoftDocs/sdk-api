@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupQueryInfFileInformationW
 title: SetupQueryInfFileInformationW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupQueryInfFileInformation function returns an INF filename from an SP_INF_INFORMATION structure to a buffer.
 old-location: setup\setupqueryinffileinformation.htm
 old-project: SetupApi
 ms.assetid: 36f1824d-f71e-462a-a233-0240e76de3d2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: SetupQueryInfFileInformation, SetupQueryInfFileInformation function [Setup API], SetupQueryInfFileInformationA, SetupQueryInfFileInformationW, _setupapi_setupqueryinffileinformation, setup.setupqueryinffileinformation, setupapi/SetupQueryInfFileInformation, setupapi/SetupQueryInfFileInformationA, setupapi/SetupQueryInfFileInformationW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: 

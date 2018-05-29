@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellItemArray.EnumItems
 title: IShellItemArray::EnumItems
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an enumerator of the items in the array.
 old-location: shell\IShellItemArray_EnumItems.htm
 old-project: shell
 ms.assetid: c8ee210c-dab9-4678-9c62-d06677cbb395
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnumItems, EnumItems method [Windows Shell], EnumItems method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],EnumItems method, IShellItemArray.EnumItems, IShellItemArray::EnumItems, _shell_IShellItemArray_EnumItems, shell.IShellItemArray_EnumItems, shobjidl_core/IShellItemArray::EnumItems
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

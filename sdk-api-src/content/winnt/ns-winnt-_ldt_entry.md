@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._LDT_ENTRY
 title: "_LDT_ENTRY"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an entry in the descriptor table. This structure is valid only on x86-based systems.
 old-location: base\ldt_entry_str.htm
 old-project: Debug
 ms.assetid: e4c470ee-63e5-4a00-8c69-76cadd490439
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: "*PLDT_ENTRY, LDT_ENTRY, LDT_ENTRY structure, PLDT_ENTRY, PLDT_ENTRY structure pointer, _LDT_ENTRY, _win32_ldt_entry_str, base.ldt_entry_str, winnt/LDT_ENTRY, winnt/PLDT_ENTRY"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:fhsvcctl.FhServiceBlockBackup
 title: FhServiceBlockBackup function
-author: windows-driver-content
+author: windows-sdk-content
 description: This function temporarily blocks backups for the current user.
 old-location: winprog\fhserviceblockbackup.htm
 old-project: DevNotes
 ms.assetid: 32B5E241-5A5F-4440-9B47-07D5849FA393
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: FhServiceBlockBackup, FhServiceBlockBackup function [Windows API], fhsvcctl/FhServiceBlockBackup, winprog.fhserviceblockbackup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fhsvcctl.h
 req.include-header: 

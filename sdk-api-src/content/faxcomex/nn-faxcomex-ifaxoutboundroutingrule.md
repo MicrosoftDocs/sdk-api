@@ -1,16 +1,16 @@
 ---
 UID: NN:faxcomex.IFaxOutboundRoutingRule
 title: IFaxOutboundRoutingRule
-author: windows-driver-content
+author: windows-sdk-content
 description: The IFaxOutboundRoutingRule interface describes a configuration object that is used by a fax client application to set and retrieve information about an individual fax outbound routing rule.
 old-location: fax\_mfax_faxoutboundroutingrule_cpp.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9mn9_cpp.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFaxOutboundRoutingRule, IFaxOutboundRoutingRule interface [Fax Service], IFaxOutboundRoutingRule interface [Fax Service],described, _mfax_faxoutboundroutingrule_cpp, fax._mfax_faxoutboundroutingrule_cpp, faxcomex/IFaxOutboundRoutingRule
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: faxcomex.h
 req.include-header: 

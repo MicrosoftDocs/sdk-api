@@ -1,16 +1,16 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.get_Id
 title: IAsyncInfo::get_Id
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the identifier of the asynchronous operation.
 old-location: winrt\iasyncinfo_id.htm
 old-project: WinRT
 ms.assetid: d940bff3-7b93-405a-a9a3-a15ffc45fc82
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IAsyncInfo interface [Windows Runtime],Id property, IAsyncInfo.Id, IAsyncInfo.get_Id, IAsyncInfo::Id, IAsyncInfo::get_Id, Id property [Windows Runtime], Id property [Windows Runtime],IAsyncInfo interface, asyncinfo/IAsyncInfo::Id, asyncinfo/IAsyncInfo::get_Id, get_Id, winrt.iasyncinfo_id
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: asyncinfo.h
 req.include-header: 

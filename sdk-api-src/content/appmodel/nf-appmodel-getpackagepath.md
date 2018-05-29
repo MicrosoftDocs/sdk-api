@@ -1,16 +1,16 @@
 ---
 UID: NF:appmodel.GetPackagePath
 title: GetPackagePath function
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the path for the specified package.
 old-location: appxpkg\getpackagepath.htm
 old-project: appxpkg
 ms.assetid: BDA0DD87-A36D-486B-BF89-EA5CC105C742
-ms.author: windowsdriverdev
-ms.date: 4/26/2018
+ms.author: windowssdkdev
+ms.date: 04/26/2018
 ms.keywords: GetPackagePath, GetPackagePath function [App packaging and management], appmodel/GetPackagePath, appxpkg.getpackagepath
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: appmodel.h
 req.include-header: 

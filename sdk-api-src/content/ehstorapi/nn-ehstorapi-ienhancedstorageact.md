@@ -1,16 +1,16 @@
 ---
 UID: NN:ehstorapi.IEnhancedStorageACT
 title: IEnhancedStorageACT
-author: windows-driver-content
+author: windows-sdk-content
 description: This interface to obtain information and perform operations for an 1667 Addressable Contact Target (ACT).
 old-location: enstor\ienhancedstorageact.htm
 old-project: enstor
 ms.assetid: 33d5df30-f877-4852-ad2f-af1bb58d0044
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IEnhancedStorageACT, IEnhancedStorageACT interface [Enhanced Storage], IEnhancedStorageACT interface [Enhanced Storage],described, ehstorapi/IEnhancedStorageACT, enstor.ienhancedstorageact
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ehstorapi.h
 req.include-header: 

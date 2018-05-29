@@ -1,16 +1,16 @@
 ---
 UID: NF:msi.MsiEnumComponentsA
 title: MsiEnumComponentsA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MsiEnumComponents function enumerates the installed components for all products. This function retrieves one component code each time it is called.
 old-location: setup\msienumcomponents.htm
 old-project: Msi
 ms.assetid: 8ca07b2a-7616-4b0d-be3e-3e500172e5ab
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: MsiEnumComponents, MsiEnumComponents function, MsiEnumComponentsA, MsiEnumComponentsW, _msi_msienumcomponents, msi/MsiEnumComponents, msi/MsiEnumComponentsA, msi/MsiEnumComponentsW, setup.msienumcomponents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msi.h
 req.include-header: 

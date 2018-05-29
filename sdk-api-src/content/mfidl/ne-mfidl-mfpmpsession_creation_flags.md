@@ -1,16 +1,16 @@
 ---
 UID: NE:mfidl.MFPMPSESSION_CREATION_FLAGS
 title: MFPMPSESSION_CREATION_FLAGS
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains flags that define the behavior of the MFCreatePMPMediaSession function.
 old-location: mf\mfpmpsession_creation_flags.htm
 old-project: medfound
 ms.assetid: 6341aaff-aa80-4172-8577-0b757a01ea53
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 6341aaff-aa80-4172-8577-0b757a01ea53, MFPMPSESSION_CREATION_FLAGS, MFPMPSESSION_CREATION_FLAGS enumeration [Media Foundation], MFPMPSESSION_UNPROTECTED_PROCESS, mf.mfpmpsession_creation_flags, mfidl/MFPMPSESSION_CREATION_FLAGS, mfidl/MFPMPSESSION_UNPROTECTED_PROCESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

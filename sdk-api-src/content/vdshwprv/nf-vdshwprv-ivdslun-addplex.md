@@ -1,16 +1,16 @@
 ---
 UID: NF:vdshwprv.IVdsLun.AddPlex
 title: IVdsLun::AddPlex
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a LUN to the target LUN as a new plex.
 old-location: base\ivdslun_addplex.htm
 old-project: VDS
 ms.assetid: a5d6d746-e740-40b0-b9e1-0c5537d00338
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: AddPlex, AddPlex method [VDS], AddPlex method [VDS],IVdsLun interface, IVdsLun interface [VDS],AddPlex method, IVdsLun.AddPlex, IVdsLun::AddPlex, base.ivdslun_addplex, vds/IVdsLun::AddPlex, vdshwprv/IVdsLun::AddPlex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vdshwprv.h
 req.include-header: 

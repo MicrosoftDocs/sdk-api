@@ -1,16 +1,16 @@
 ---
 UID: NF:taskschd.ITaskFolder.GetFolders
 title: ITaskFolder::GetFolders
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets all the subfolders in the folder.
 old-location: taskschd\itaskfolder_getfolders.htm
 old-project: TaskSchd
 ms.assetid: ee00a8be-52f5-4399-9a1f-18e06121a3da
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetFolders, GetFolders method [Task Scheduler], GetFolders method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],GetFolders method, ITaskFolder.GetFolders, ITaskFolder::GetFolders, taskschd.itaskfolder_getfolders, taskschd/ITaskFolder::GetFolders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: taskschd.h
 req.include-header: 

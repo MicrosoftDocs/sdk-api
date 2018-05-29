@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComTransaction2Events.OnTransactionPrepare2
 title: IComTransaction2Events::OnTransactionPrepare2
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when the transaction is in the prepare phase of the commit protocol.
 old-location: cos\icomtransaction2events_ontransactionprepare2.htm
 old-project: cossdk
 ms.assetid: 1b2ea10f-7b74-474e-bdf1-040d789fa7c9
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComTransaction2Events interface [COM+],OnTransactionPrepare2 method, IComTransaction2Events.OnTransactionPrepare2, IComTransaction2Events::OnTransactionPrepare2, OnTransactionPrepare2, OnTransactionPrepare2 method [COM+], OnTransactionPrepare2 method [COM+],IComTransaction2Events interface, _cos_IComTransaction2Events_OnTransactionPrepare2, comsvcs/IComTransaction2Events::OnTransactionPrepare2, cos.icomtransaction2events_ontransactionprepare2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

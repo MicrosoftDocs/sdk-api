@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.get_TransactionUOW
 title: ICrmLogControl::get_TransactionUOW
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the transaction unit of work (UOW) without having to log the transaction UOW in the log record.
 old-location: cos\icrmlogcontrol_get_transactionuow.htm
 old-project: cossdk
 ms.assetid: 35cfadf5-f1be-4383-bb34-f68543df0abb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ICrmLogControl interface [COM+],get_TransactionUOW method, ICrmLogControl.get_TransactionUOW, ICrmLogControl::get_TransactionUOW, _dtc_ICrmLogControl_TransactionUOW, comsvcs/ICrmLogControl::get_TransactionUOW, cos.icrmlogcontrol_get_transactionuow, get_TransactionUOW, get_TransactionUOW method [COM+], get_TransactionUOW method [COM+],ICrmLogControl interface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

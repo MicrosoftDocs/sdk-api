@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteBOOL
 title: PSPropertyBag_WriteBOOL function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the BOOL value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteBOOL.htm
 old-project: properties
 ms.assetid: 3703A7C4-CFDC-4453-AA8F-6A5D6B7D3E66
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: PSPropertyBag_WriteBOOL, PSPropertyBag_WriteBOOL function [Windows Properties], properties.PSPropertyBag_WriteBOOL, propsys/PSPropertyBag_WriteBOOL, shell.PSPropertyBag_WriteBOOL, shell_PSPropertyBag_WriteBOOL
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: propsys.h
 req.include-header: 

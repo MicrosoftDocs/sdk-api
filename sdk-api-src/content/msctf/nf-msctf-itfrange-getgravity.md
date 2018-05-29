@@ -1,16 +1,16 @@
 ---
 UID: NF:msctf.ITfRange.GetGravity
 title: ITfRange::GetGravity
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfRange::GetGravity method
 old-location: tsf\itfrange_getgravity.htm
 old-project: TSF
 ms.assetid: 7569b9dd-869f-49a6-ad0f-c2d9b5f0ae70
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetGravity, GetGravity method [Text Services Framework], GetGravity method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],GetGravity method, ITfRange.GetGravity, ITfRange::GetGravity, _tsf_itfrange_getgravity_ref, msctf/ITfRange::GetGravity, tsf.itfrange_getgravity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msctf.h
 req.include-header: 

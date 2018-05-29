@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagTVHITTESTINFO
 title: tagTVHITTESTINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used to determine the location of a point relative to a tree-view control.
 old-location: controls\TVHITTESTINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvhittestinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPTVHITTESTINFO, LPTVHITTESTINFO, LPTVHITTESTINFO structure pointer [Windows Controls], TVHITTESTINFO, TVHITTESTINFO structure [Windows Controls], TVHT_ABOVE, TVHT_BELOW, TVHT_NOWHERE, TVHT_ONITEM, TVHT_ONITEMBUTTON, TVHT_ONITEMICON, TVHT_ONITEMINDENT, TVHT_ONITEMLABEL, TVHT_ONITEMRIGHT, TVHT_ONITEMSTATEICON, TVHT_TOLEFT, TVHT_TORIGHT, _win32_TVHITTESTINFO, _win32_TVHITTESTINFO_cpp, commctrl/LPTVHITTESTINFO, commctrl/TVHITTESTINFO, controls.TVHITTESTINFO, controls._win32_TVHITTESTINFO, tagTVHITTESTINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

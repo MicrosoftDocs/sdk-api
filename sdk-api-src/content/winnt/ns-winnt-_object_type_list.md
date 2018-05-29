@@ -1,16 +1,16 @@
 ---
 UID: NS:winnt._OBJECT_TYPE_LIST
 title: "_OBJECT_TYPE_LIST"
-author: windows-driver-content
+author: windows-sdk-content
 description: Identifies an object type element in a hierarchy of object types.
 old-location: security\object_type_list.htm
 old-project: SecAuthZ
 ms.assetid: c729ff1a-65f3-4f6f-84dd-5700aead75ce
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*POBJECT_TYPE_LIST, ACCESS_OBJECT_GUID, ACCESS_PROPERTY_GUID, ACCESS_PROPERTY_SET_GUID, OBJECT_TYPE_LIST, OBJECT_TYPE_LIST structure [Security], POBJECT_TYPE_LIST, POBJECT_TYPE_LIST structure pointer [Security], _OBJECT_TYPE_LIST, _win32_object_type_list_str, security.object_type_list, winnt/OBJECT_TYPE_LIST, winnt/POBJECT_TYPE_LIST"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winnt.h
 req.include-header: Windows.h

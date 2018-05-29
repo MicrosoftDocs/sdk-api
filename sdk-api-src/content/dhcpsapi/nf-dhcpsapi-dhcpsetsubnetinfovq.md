@@ -1,16 +1,16 @@
 ---
 UID: NF:dhcpsapi.DhcpSetSubnetInfoVQ
 title: DhcpSetSubnetInfoVQ function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets information about a subnet defined on the DHCP server.
 old-location: dhcp\dhcpsetsubnetinfovq.htm
 old-project: DHCP
 ms.assetid: 1e584377-aded-4888-9641-8b9e5b8d2f98
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DhcpSetSubnetInfoVQ, DhcpSetSubnetInfoVQ function [DHCP], dhcp.dhcpsetsubnetinfovq, dhcpsapi/DhcpSetSubnetInfoVQ
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dhcpsapi.h
 req.include-header: 

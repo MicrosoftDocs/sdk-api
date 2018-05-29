@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_PropertySet_Destruct
 title: MI_PropertySet_Destruct function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes the specified property list that was constructed on the stack.
 old-location: wmi_v2\mi_propertyset_destruct.htm
 old-project: wmi_v2
 ms.assetid: b00eba60-5fff-4e31-acee-c9b148e9ab7c
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_PropertySet_Destruct, MI_PropertySet_Destruct function [Windows Management Infrastructure (MI)], mi/MI_PropertySet_Destruct, wmi_v2.mi_propertyset_destruct
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

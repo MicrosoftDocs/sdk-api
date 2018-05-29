@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetSensorDeviceMode
 title: IMFSensorDevice::GetSensorDeviceMode
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a value that specifies the current sharing mode of the sensor device, which is either controller or shared.
 old-location: mf\imfsensordevice_getsensordevicemode.htm
 old-project: medfound
 ms.assetid: 21594884-DAA5-450C-855D-E800FE164C5E
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSensorDeviceMode, GetSensorDeviceMode method [Media Foundation], GetSensorDeviceMode method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetSensorDeviceMode method, IMFSensorDevice.GetSensorDeviceMode, IMFSensorDevice::GetSensorDeviceMode, mf.imfsensordevice_getsensordevicemode, mfidl/IMFSensorDevice::GetSensorDeviceMode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

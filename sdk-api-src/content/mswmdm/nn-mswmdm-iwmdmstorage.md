@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.IWMDMStorage
 title: IWMDMStorage
-author: windows-driver-content
+author: windows-sdk-content
 description: An instance of the IWMDMStorage interface provides methods to examine and explore a storage (a generic name for a data or collection object, such as a file, folder, or playlist) on a device.
 old-location: wmdm\iwmdmstorage.htm
 old-project: WMDM
 ms.assetid: 1ede7c68-0169-4375-9b45-b0995ad14e44
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMStorage, IWMDMStorage interface [windows Media Device Manager], IWMDMStorage interface [windows Media Device Manager],described, IWMDMStorageInterface, mswmdm/IWMDMStorage, wmdm.iwmdmstorage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

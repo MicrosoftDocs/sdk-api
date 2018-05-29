@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprConfigServerSetInfo
 title: MprConfigServerSetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprConfigServerSetInfo function is used to set the port count for L2TP, PPTP, and SSTP ports and enable or disable RRAS on them in the registry when the RRAS service is not running so that it is picked up next time the system restarts.
 old-location: rras\mprconfigserversetinfo.htm
 old-project: RRAS
 ms.assetid: 95fe0dfb-cfa6-4e84-a060-4b0fffc71a3d
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprConfigServerSetInfo, MprConfigServerSetInfo function [RAS], mprapi/MprConfigServerSetInfo, rras.mprconfigserversetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

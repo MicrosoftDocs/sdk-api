@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.SafeArrayCopy
 title: SafeArrayCopy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a copy of an existing safe array.
 old-location: automat\safearraycopy.htm
 old-project: automat
 ms.assetid: 8f84d4f6-1852-4ad8-b174-f3fa37e5bbd6
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: SafeArrayCopy, SafeArrayCopy function [Automation], _oa96_SafeArrayCopy, automat.safearraycopy, oleauto/SafeArrayCopy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

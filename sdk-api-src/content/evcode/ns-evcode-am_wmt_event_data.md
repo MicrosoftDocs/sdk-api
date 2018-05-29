@@ -1,16 +1,16 @@
 ---
 UID: NS:evcode.AM_WMT_EVENT_DATA
 title: AM_WMT_EVENT_DATA
-author: windows-driver-content
+author: windows-sdk-content
 description: The AM_WMT_EVENT_DATA structure contains information pertaining to a EC_WMT_EVENT event.
 old-location: dshow\am_wmt_event_data.htm
 old-project: DirectShow
 ms.assetid: d28efe7f-b1ff-4454-8779-95851a86c94a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AM_WMT_EVENT_DATA, AM_WMT_EVENT_DATA structure [DirectShow], AM_WMT_EVENT_DATAStructure, dshow.am_wmt_event_data, evcode/AM_WMT_EVENT_DATA
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: evcode.h
 req.include-header: Dshow.h

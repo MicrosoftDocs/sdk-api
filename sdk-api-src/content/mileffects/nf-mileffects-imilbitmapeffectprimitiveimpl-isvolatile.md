@@ -1,16 +1,16 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitiveImpl.IsVolatile
 title: IMILBitmapEffectPrimitiveImpl::IsVolatile
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether the current effect is considered volatile. If an effect is volatile, the effects framework will not attempt to cache the effect's output.
 old-location: wibe\_wibe_imilbitmapeffectprimitiveimpl_isvolatile.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitiveimpl\isvolatile.htm
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: IMILBitmapEffectPrimitiveImpl interface [WPF Bitmap Effects],IsVolatile method, IMILBitmapEffectPrimitiveImpl.IsVolatile, IMILBitmapEffectPrimitiveImpl::IsVolatile, IsVolatile, IsVolatile method [WPF Bitmap Effects], IsVolatile method [WPF Bitmap Effects],IMILBitmapEffectPrimitiveImpl interface, _wibe_imilbitmapeffectprimitiveimpl_isvolatile, mileffects/IMILBitmapEffectPrimitiveImpl::IsVolatile, wibe._wibe_imilbitmapeffectprimitiveimpl_isvolatile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mileffects.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:setupapi.SetupDiAskForOEMDisk
 title: SetupDiAskForOEMDisk function
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetupDiAskForOEMDisk function displays a dialog that asks the user for the path of an OEM installation disk.
 old-location: devinst\setupdiaskforoemdisk.htm
 old-project: devinst
 ms.assetid: 5be03143-3de0-43ed-a027-832f1e275527
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: SetupDiAskForOEMDisk, SetupDiAskForOEMDisk function [Device and Driver Installation], devinst.setupdiaskforoemdisk, di-rtns_4b903984-cb48-48d3-9de8-dc68a79128c2.xml, setupapi/SetupDiAskForOEMDisk
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: setupapi.h
 req.include-header: Setupapi.h

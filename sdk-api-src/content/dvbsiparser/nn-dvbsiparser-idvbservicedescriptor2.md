@@ -1,16 +1,16 @@
 ---
 UID: NN:dvbsiparser.IDvbServiceDescriptor2
 title: IDvbServiceDescriptor2
-author: windows-driver-content
+author: windows-sdk-content
 description: Implements methods that get the string values from fields in a Digital Video Broadcast (DVB) service descriptor. The service descriptor describes the service type, and provides the names of the service provider and the service in text form.
 old-location: mstv\idvbservicedescriptor2.htm
 old-project: mstv
 ms.assetid: 795c4a5c-c363-401b-8b26-447903163f80
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IDvbServiceDescriptor2, IDvbServiceDescriptor2 interface [Microsoft TV Technologies], IDvbServiceDescriptor2 interface [Microsoft TV Technologies],described, dvbsiparser/IDvbServiceDescriptor2, mstv.idvbservicedescriptor2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

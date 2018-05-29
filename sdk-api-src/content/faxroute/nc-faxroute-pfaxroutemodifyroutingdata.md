@@ -1,16 +1,16 @@
 ---
 UID: NC:faxroute.PFAXROUTEMODIFYROUTINGDATA
 title: PFAXROUTEMODIFYROUTINGDATA
-author: windows-driver-content
+author: windows-sdk-content
 description: A fax routing method calls the FaxRouteModifyRoutingData callback function to modify the routing data for a subsequent fax routing method.
 old-location: fax\_mfax_faxroutemodifyroutingdata.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_7ae9.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FaxRouteModifyRoutingData, FaxRouteModifyRoutingData callback function [Fax Service], PFAXROUTEMODIFYROUTINGDATA, PFAXROUTEMODIFYROUTINGDATA callback, _mfax_faxroutemodifyroutingdata, fax._mfax_faxroutemodifyroutingdata, faxroute/FaxRouteModifyRoutingData
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: faxroute.h
 req.include-header: 

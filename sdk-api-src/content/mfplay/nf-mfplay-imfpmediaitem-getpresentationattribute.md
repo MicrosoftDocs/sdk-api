@@ -1,16 +1,16 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetPresentationAttribute
 title: IMFPMediaItem::GetPresentationAttribute
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries the media item for a presentation attribute.
 old-location: mf\imfpmediaitem_getpresentationattribute.htm
 old-project: medfound
 ms.assetid: d6600009-a8da-4464-9df7-08f20a1a6b15
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetPresentationAttribute, GetPresentationAttribute method [Media Foundation], GetPresentationAttribute method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetPresentationAttribute method, IMFPMediaItem.GetPresentationAttribute, IMFPMediaItem::GetPresentationAttribute, mf.imfpmediaitem_getpresentationattribute, mfplay/IMFPMediaItem::GetPresentationAttribute
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfplay.h
 req.include-header: 

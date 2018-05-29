@@ -1,16 +1,16 @@
 ---
 UID: NF:eventsys.IMultiInterfaceEventControl.get_FireInParallel
 title: IMultiInterfaceEventControl::get_FireInParallel
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether events can be delivered to two or more subscribers in parallel.
 old-location: cos\imultiinterfaceeventcontrol_fireinparallel.htm
 old-project: cossdk
 ms.assetid: c26cce66-e713-42f7-9716-385b59085977
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: FireInParallel property [COM+], FireInParallel property [COM+],IMultiInterfaceEventControl interface, IMultiInterfaceEventControl interface [COM+],FireInParallel property, IMultiInterfaceEventControl.FireInParallel, IMultiInterfaceEventControl.get_FireInParallel, IMultiInterfaceEventControl::FireInParallel, IMultiInterfaceEventControl::get_FireInParallel, IMultiInterfaceEventControl::put_FireInParallel, cos.imultiinterfaceeventcontrol_fireinparallel, eventsys/IMultiInterfaceEventControl::FireInParallel, eventsys/IMultiInterfaceEventControl::get_FireInParallel, eventsys/IMultiInterfaceEventControl::put_FireInParallel, get_FireInParallel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: eventsys.h
 req.include-header: 

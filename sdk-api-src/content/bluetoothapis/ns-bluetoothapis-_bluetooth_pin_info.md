@@ -1,16 +1,16 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_PIN_INFO
 title: "_BLUETOOTH_PIN_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: BLUETOOTH_PIN_INFO structure contains information used for authentication via PIN.
 old-location: bluetooth\bluetooth_pin_info.htm
 old-project: Bluetooth
 ms.assetid: 9fae3b95-eeed-4f06-af27-762b8de615ed
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*PBLUETOOTH_PIN_INFO, BLUETOOTH_PIN_INFO, BLUETOOTH_PIN_INFO structure [Bluetooth], PBLUETOOTH_PIN_INFO, PBLUETOOTH_PIN_INFO structure pointer [Bluetooth], _BLUETOOTH_PIN_INFO, bluetooth.bluetooth_pin_info, bluetoothapis/BLUETOOTH_PIN_INFO, bluetoothapis/PBLUETOOTH_PIN_INFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h

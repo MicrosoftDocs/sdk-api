@@ -1,16 +1,16 @@
 ---
 UID: NF:tom.ITextDocument2.SetDocumentFont
 title: ITextDocument2::SetDocumentFont
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the default character formatting for this instance of the Text Object Model (TOM) engine.
 old-location: controls\itextdocument2_setdocumentfont.htm
 old-project: Controls
 ms.assetid: 1fbc000a-76c2-4b80-856b-42f2e1829e93
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetDocumentFont method, ITextDocument2.SetDocumentFont, ITextDocument2::SetDocumentFont, SetDocumentFont, SetDocumentFont method [Windows Controls], SetDocumentFont method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setdocumentfont, tom/ITextDocument2::SetDocumentFont
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tom.h
 req.include-header: 

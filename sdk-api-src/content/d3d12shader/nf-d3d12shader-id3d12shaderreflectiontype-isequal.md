@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.IsEqual
 title: ID3D12ShaderReflectionType::IsEqual
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates whether two ID3D12ShaderReflectionType Interface pointers have the same underlying type.
 old-location: direct3d12\id3d12shaderreflectiontype_isequal.htm
 old-project: direct3d12
 ms.assetid: C1EAFAA2-6D35-4D4A-9153-98D927375EAD
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12ShaderReflectionType interface,IsEqual method, ID3D12ShaderReflectionType.IsEqual, ID3D12ShaderReflectionType::IsEqual, IsEqual, IsEqual method, IsEqual method,ID3D12ShaderReflectionType interface, d3d12shader/ID3D12ShaderReflectionType::IsEqual, direct3d12.id3d12shaderreflectiontype_isequal
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:filehc.InsertFile
 title: InsertFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Inserts a file into the cache.
 old-location: winprog\_insertfile.htm
 old-project: DevNotes
 ms.assetid: 5461dc96-a625-43d7-87e7-c25389e9c822
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: InsertFile, InsertFile function [Windows API], filehc/InsertFile, winprog._insertfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: filehc.h
 req.include-header: 

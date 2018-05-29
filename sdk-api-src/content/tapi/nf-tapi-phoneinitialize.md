@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.phoneInitialize
 title: phoneInitialize function
-author: windows-driver-content
+author: windows-sdk-content
 description: The phoneInitialize function is obsolete. It continues to be exported by Tapi.dll and Tapi32.dll for backward compatibility with applications using TAPI versions 1.3 and 1.4.
 old-location: tapi2\phoneinitialize.htm
 old-project: Tapi
 ms.assetid: e06153c1-707e-45a9-8d26-747d53e16cf2
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_phoneinitialize, phoneInitialize, phoneInitialize function [TAPI 2.2], tapi/phoneInitialize, tapi2.phoneinitialize"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

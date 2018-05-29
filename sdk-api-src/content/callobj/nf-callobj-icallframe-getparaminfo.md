@@ -1,16 +1,16 @@
 ---
 UID: NF:callobj.ICallFrame.GetParamInfo
 title: ICallFrame::GetParamInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the information for the specified parameter.
 old-location: com\icallframe_getparaminfo.htm
 old-project: com
 ms.assetid: fb75930d-8e1b-4e97-87f2-bb9d171658a8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetParamInfo, GetParamInfo method [COM], GetParamInfo method [COM],ICallFrame interface, ICallFrame interface [COM],GetParamInfo method, ICallFrame.GetParamInfo, ICallFrame::GetParamInfo, _com_icallframe_getparaminfo, callobj/ICallFrame::GetParamInfo, com.icallframe_getparaminfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: callobj.h
 req.include-header: 

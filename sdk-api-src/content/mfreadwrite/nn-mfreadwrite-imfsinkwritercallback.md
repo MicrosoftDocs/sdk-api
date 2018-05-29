@@ -1,16 +1,16 @@
 ---
 UID: NN:mfreadwrite.IMFSinkWriterCallback
 title: IMFSinkWriterCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Callback interface for the Microsoft Media Foundation sink writer.
 old-location: mf\imfsinkwritercallback.htm
 old-project: medfound
 ms.assetid: fa0295e6-473d-4304-9a7b-24584cade0a0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSinkWriterCallback, IMFSinkWriterCallback interface [Media Foundation], IMFSinkWriterCallback interface [Media Foundation],described, mf.imfsinkwritercallback, mfreadwrite/IMFSinkWriterCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfreadwrite.h
 req.include-header: 

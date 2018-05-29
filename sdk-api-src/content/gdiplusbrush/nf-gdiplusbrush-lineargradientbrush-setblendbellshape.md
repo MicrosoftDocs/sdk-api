@@ -1,16 +1,16 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.SetBlendBellShape
 title: LinearGradientBrush::SetBlendBellShape
-author: windows-driver-content
+author: windows-sdk-content
 description: The LinearGradientBrush::SetBlendBellShape method sets the blend shape of this linear gradient brush to create a custom blend based on a bell-shaped curve.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_SetBlendBellShape_focus_scale_.htm
 old-project: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\setblendbellshape.htm
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: LinearGradientBrush class [GDI+],SetBlendBellShape method, LinearGradientBrush.SetBlendBellShape, LinearGradientBrush::SetBlendBellShape, SetBlendBellShape, SetBlendBellShape method [GDI+], SetBlendBellShape method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_SetBlendBellShape_focus_scale_, gdiplus._gdiplus_CLASS_LinearGradientBrush_SetBlendBellShape_focus_scale_
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h

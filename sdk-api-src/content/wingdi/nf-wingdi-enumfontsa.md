@@ -1,16 +1,16 @@
 ---
 UID: NF:wingdi.EnumFontsA
 title: EnumFontsA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumFonts function enumerates the fonts available on a specified device.
 old-location: gdi\enumfonts.htm
 old-project: gdi
 ms.assetid: b5dfc38d-c400-4900-a15b-f251815ee346
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnumFonts, EnumFonts function [Windows GDI], EnumFontsA, EnumFontsW, _win32_EnumFonts, gdi.enumfonts, wingdi/EnumFonts, wingdi/EnumFontsA, wingdi/EnumFontsW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wingdi.h
 req.include-header: Windows.h

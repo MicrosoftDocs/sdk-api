@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Mono
 title: IAMAudioInputMixer::put_Mono
-author: windows-driver-content
+author: windows-sdk-content
 description: The put_Mono method combines all channels into a mono signal.
 old-location: dshow\iamaudioinputmixer_put_mono.htm
 old-project: DirectShow
 ms.assetid: fb45a1ad-b6d8-4129-97f3-a9c99053c0f0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Mono method, IAMAudioInputMixer.put_Mono, IAMAudioInputMixer::put_Mono, IAMAudioInputMixerput_Mono, dshow.iamaudioinputmixer_put_mono, put_Mono, put_Mono method [DirectShow], put_Mono method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Mono
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.PickIconDlg
 title: PickIconDlg function
-author: windows-driver-content
+author: windows-sdk-content
 description: PickIconDlg may be altered or unavailable.
 old-location: shell\PickIconDlg.htm
 old-project: shell
 ms.assetid: 3dfcda10-26d8-495d-8c92-7ff16da098c1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: PickIconDlg, PickIconDlg function [Windows Shell], _win32_PickIconDlg, shell.PickIconDlg, shlobj_core/PickIconDlg
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

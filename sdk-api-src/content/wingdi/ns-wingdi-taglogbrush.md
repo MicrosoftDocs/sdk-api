@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagLOGBRUSH
 title: tagLOGBRUSH
-author: windows-driver-content
+author: windows-sdk-content
 description: The LOGBRUSH structure defines the style, color, and pattern of a physical brush. It is used by the CreateBrushIndirect and ExtCreatePen functions.
 old-location: gdi\logbrush.htm
 old-project: gdi
 ms.assetid: ded2c7a4-2248-4d01-95c6-ab4050719094
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPLOGBRUSH, *LPPATTERN, *NPLOGBRUSH, *NPPATTERN, *PLOGBRUSH, *PPATTERN, LOGBRUSH, LOGBRUSH structure [Windows GDI], PATTERN, PLOGBRUSH, PLOGBRUSH structure pointer [Windows GDI], _win32_LOGBRUSH_str, gdi.logbrush, tagLOGBRUSH, wingdi/LOGBRUSH, wingdi/PLOGBRUSH"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

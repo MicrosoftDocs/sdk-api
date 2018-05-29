@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_PROPERTIES
 title: "_WS_XML_WRITER_PROPERTIES"
-author: windows-driver-content
+author: windows-sdk-content
 description: A structure that is used to specify a set of WS_XML_WRITER_PROPERTYs.
 old-location: wsw\ws_xml_writer_properties.htm
 old-project: wsw
 ms.assetid: 8c874422-3d59-43cd-b65e-8f4f543e57e5
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_XML_WRITER_PROPERTIES, WS_XML_WRITER_PROPERTIES structure [Web Services for Windows], _WS_XML_WRITER_PROPERTIES, webservices/WS_XML_WRITER_PROPERTIES, wsw.ws_xml_writer_properties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:infotech.IITDatabase.Open
 title: IITDatabase::Open
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens a database.
 old-location: htmlhelp\iitdatabase_open.htm
 old-project: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabaseopen.htm
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IITDatabase interface [HTML Help Workshop],Open method, IITDatabase.Open, IITDatabase::Open, Open, Open method [HTML Help Workshop], Open method [HTML Help Workshop],IITDatabase interface, htmlhelp.iitdatabase_open, infotech/IITDatabase::Open, refIITDatabaseOpen
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: infotech.h
 req.include-header: 

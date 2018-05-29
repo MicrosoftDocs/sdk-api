@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.IsReparseTagNameSurrogate
 title: IsReparseTagNameSurrogate macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines whether a tag's associated reparse point is a surrogate for another named entity (for example, a mounted folder).
 old-location: fs\isreparsetagnamesurrogate.htm
 old-project: FileIO
 ms.assetid: 6d79527a-0c78-42d2-b079-3eb487de295f
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IsReparseTagNameSurrogate, IsReparseTagNameSurrogate macro [Files], _win32_isreparsetagnamesurrogate, base.isreparsetagnamesurrogate, fs.isreparsetagnamesurrogate, winnt/IsReparseTagNameSurrogate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h

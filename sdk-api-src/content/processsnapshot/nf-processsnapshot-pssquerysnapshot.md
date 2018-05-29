@@ -1,16 +1,16 @@
 ---
 UID: NF:processsnapshot.PssQuerySnapshot
 title: PssQuerySnapshot function
-author: windows-driver-content
+author: windows-sdk-content
 description: Queries the snapshot.
 old-location: proc_snap\pssquerysnapshot.htm
 old-project: proc_snap
 ms.assetid: D9580147-28ED-4FF5-B7DB-844ACB19769F
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PssQuerySnapshot, PssQuerySnapshot function, proc_snap.pssquerysnapshot, processsnapshot/PssQuerySnapshot
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: processsnapshot.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:versionhelpers.IsWindowsVistaOrGreater
 title: IsWindowsVistaOrGreater function
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows Vista version.
 old-location: base\iswindowsvistaorgreater.htm
 old-project: SysInfo
 ms.assetid: 556C70DC-6A44-4D85-BDBF-C1110D63DC69
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IsWindowsVistaOrGreater, IsWindowsVistaOrGreater function, base.iswindowsvistaorgreater, versionhelpers/IsWindowsVistaOrGreater
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: versionhelpers.h
 req.include-header: 

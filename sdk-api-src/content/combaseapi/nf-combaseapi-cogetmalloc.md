@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoGetMalloc
 title: CoGetMalloc function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a pointer to the default OLE task memory allocator (which supports the system implementation of the IMalloc interface) so applications can call its methods to manage memory.
 old-location: com\cogetmalloc.htm
 old-project: com
 ms.assetid: d1d09fbe-ca5c-4480-b807-3afcc043ccb9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoGetMalloc, CoGetMalloc function [COM], _com_CoGetMalloc, com.cogetmalloc, combaseapi/CoGetMalloc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

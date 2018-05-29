@@ -1,16 +1,16 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.DeleteProfile
 title: IDot11AdHocNetwork::DeleteProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: Deletes any profile associated with the network.
 old-location: nwifi\idot11adhocnetwork_deleteprofile.htm
 old-project: NativeWiFi
 ms.assetid: 7f2c007c-4d24-44d7-be30-0fa7c5fbce4a
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: DeleteProfile, DeleteProfile method [NativeWIFI], DeleteProfile method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],DeleteProfile method, IDot11AdHocNetwork.DeleteProfile, IDot11AdHocNetwork::DeleteProfile, adhoc/IDot11AdHocNetwork::DeleteProfile, nwifi.idot11adhocnetwork_deleteprofile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: adhoc.h
 req.include-header: 

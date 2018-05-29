@@ -1,16 +1,16 @@
 ---
 UID: NS:dwrite.DWRITE_GLYPH_METRICS
 title: DWRITE_GLYPH_METRICS
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the metrics of an individual glyph.
 old-location: directwrite\dwrite_glyph_metrics.htm
 old-project: DirectWrite
 ms.assetid: d2a4ac9f-f510-4235-93bb-e7bdecc65873
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: DWRITE_GLYPH_METRICS, DWRITE_GLYPH_METRICS structure [Direct Write], directwrite.dwrite_glyph_metrics, dwrite/DWRITE_GLYPH_METRICS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dwrite.h
 req.include-header: 

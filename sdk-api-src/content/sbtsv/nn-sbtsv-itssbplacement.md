@@ -1,16 +1,16 @@
 ---
 UID: NN:sbtsv.ITsSbPlacement
 title: ITsSbPlacement
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that prepare the environment (the computer that hosts the virtual machine).
 old-location: termserv\itssbplacement.htm
 old-project: TermServ
 ms.assetid: d90501dd-ca15-463c-b204-b1f56103ebe7
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ITsSbPlacement, ITsSbPlacement interface [Remote Desktop Services], ITsSbPlacement interface [Remote Desktop Services],described, sbtsv/ITsSbPlacement, termserv.itssbplacement
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: sbtsv.h
 req.include-header: 

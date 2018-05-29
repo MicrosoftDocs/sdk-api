@@ -1,16 +1,16 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.ShutDown
 title: CMSPCallMultiGraph::ShutDown
-author: windows-driver-content
+author: windows-sdk-content
 description: The ShutDown method is called by the MSP address object (in the method ShutdownMSPCall) to shut down the MSP call object.
 old-location: tapi3\cmspcallmultigraph_shutdown.htm
 old-project: Tapi
 ms.assetid: cfcdf443-00c3-4cb5-abb1-1ec072272c0d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CMSPCallMultiGraph interface [TAPI 2.2],ShutDown method, CMSPCallMultiGraph.ShutDown, CMSPCallMultiGraph::ShutDown, ShutDown, ShutDown method [TAPI 2.2], ShutDown method [TAPI 2.2],CMSPCallMultiGraph interface, _tapi3_cmspcallmultigraph_shutdown, mspcall/CMSPCallMultiGraph::ShutDown, tapi3.cmspcallmultigraph_shutdown
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mspcall.h
 req.include-header: 

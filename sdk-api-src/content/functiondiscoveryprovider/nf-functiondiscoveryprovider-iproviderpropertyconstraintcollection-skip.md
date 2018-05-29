@@ -1,16 +1,16 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPropertyConstraintCollection.Skip
 title: IProviderPropertyConstraintCollection::Skip
-author: windows-driver-content
+author: windows-sdk-content
 description: Skips the next item in the collection.
 old-location: ncd\iproviderpropertyconstraintcollection_skip.htm
 old-project: FunDisc
 ms.assetid: 8e14bddc-d2ae-41a6-b927-15bdfd3bc598
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Skip method, IProviderPropertyConstraintCollection.Skip, IProviderPropertyConstraintCollection::Skip, Skip, Skip method, Skip method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Skip, ncd.iproviderpropertyconstraintcollection_skip
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: functiondiscoveryprovider.h
 req.include-header: 

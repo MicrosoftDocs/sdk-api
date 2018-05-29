@@ -1,16 +1,16 @@
 ---
 UID: NF:sspi.QueryCredentialsAttributesA
 title: QueryCredentialsAttributesA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the attributes of a credential, such as the name associated with the credential.
 old-location: security\querycredentialsattributes.htm
 old-project: SecAuthN
 ms.assetid: a8ba6f73-8469-431b-b185-183b45b2c533
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: QueryCredentialsAttributes, QueryCredentialsAttributes function [Security], QueryCredentialsAttributesA, QueryCredentialsAttributesW, _ssp_querycredentialsattributes, security.querycredentialsattributes, sspi/QueryCredentialsAttributes, sspi/QueryCredentialsAttributesA, sspi/QueryCredentialsAttributesW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: sspi.h
 req.include-header: Security.h

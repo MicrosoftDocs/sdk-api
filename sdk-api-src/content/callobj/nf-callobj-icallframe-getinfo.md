@@ -1,16 +1,16 @@
 ---
 UID: NF:callobj.ICallFrame.GetInfo
 title: ICallFrame::GetInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the call frame.
 old-location: com\icallframe_getinfo.htm
 old-project: com
 ms.assetid: 807b4542-c18d-48e4-8493-c40a85e5e1de
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetInfo, GetInfo method [COM], GetInfo method [COM],ICallFrame interface, ICallFrame interface [COM],GetInfo method, ICallFrame.GetInfo, ICallFrame::GetInfo, _com_icallframe_getinfo, callobj/ICallFrame::GetInfo, com.icallframe_getinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: callobj.h
 req.include-header: 

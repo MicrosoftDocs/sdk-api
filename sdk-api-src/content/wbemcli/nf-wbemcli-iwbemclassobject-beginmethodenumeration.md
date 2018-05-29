@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.BeginMethodEnumeration
 title: IWbemClassObject::BeginMethodEnumeration
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the IWbemClassObject::BeginMethodEnumeration method call to begin an enumeration of the methods available for the object.
 old-location: wmi\iwbemclassobject_beginmethodenumeration.htm
 old-project: WmiSdk
 ms.assetid: 3d8656d7-37e5-4921-906e-c82f8878cd90
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: BeginMethodEnumeration, BeginMethodEnumeration method [Windows Management Instrumentation], BeginMethodEnumeration method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],BeginMethodEnumeration method, IWbemClassObject.BeginMethodEnumeration, IWbemClassObject::BeginMethodEnumeration, WBEM_FLAG_LOCAL_ONLY, WBEM_FLAG_PROPAGATED_ONLY, _hmm_iwbemclassobject_beginmethodenumeration, wbemcli/IWbemClassObject::BeginMethodEnumeration, wmi.iwbemclassobject_beginmethodenumeration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemcli.h
 req.include-header: Wbemidl.h

@@ -1,16 +1,16 @@
 ---
 UID: NS:d2d1_3.D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES
 title: D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES
-author: windows-driver-content
+author: windows-sdk-content
 description: Properties of a transformed image source.
 old-location: direct2d\d2d1_transformed_image_source_properties.htm
 old-project: Direct2D
 ms.assetid: E8A39769-07F2-42CA-A7CA-F83FF97E2076
-ms.author: windowsdriverdev
-ms.date: 4/20/2018
+ms.author: windowssdkdev
+ms.date: 04/20/2018
 ms.keywords: D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES, D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES structure [Direct2D], d2d1_3/D2D1_TRANSFORMED_IMAGE_SOURCE_PROPERTIES, direct2d.d2d1_transformed_image_source_properties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: d2d1_3.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi.CreateDXGIFactory
 title: CreateDXGIFactory function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a DXGI 1.0 factory that you can use to generate other DXGI objects.
 old-location: direct3ddxgi\createdxgifactory.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\createdxgifactory.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: CreateDXGIFactory, CreateDXGIFactory function [DXGI], direct3ddxgi.createdxgifactory, dxgi/CreateDXGIFactory, f8906daa-c399-a76f-d487-e1f2ee03b8a8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dxgi.h
 req.include-header: 

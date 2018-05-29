@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IEnumMediaTypes.Reset
 title: IEnumMediaTypes::Reset
-author: windows-driver-content
+author: windows-sdk-content
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: dshow\ienummediatypes_reset.htm
 old-project: DirectShow
 ms.assetid: d95d4e69-48dc-4ad1-a0e2-c5fea793b7b3
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IEnumMediaTypes interface [DirectShow],Reset method, IEnumMediaTypes.Reset, IEnumMediaTypes::Reset, IEnumMediaTypesReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumMediaTypes interface, dshow.ienummediatypes_reset, strmif/IEnumMediaTypes::Reset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

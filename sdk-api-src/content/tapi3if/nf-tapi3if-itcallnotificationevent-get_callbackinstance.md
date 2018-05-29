@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITCallNotificationEvent.get_CallbackInstance
 title: ITCallNotificationEvent::get_CallbackInstance
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_CallbackInstance method gets a pointer to the callback instance associated with this event.
 old-location: tapi3\itcallnotificationevent_get_callbackinstance.htm
 old-project: Tapi
 ms.assetid: daa6d980-49aa-4e5a-9871-77e39dcdb6f0
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITCallNotificationEvent interface [TAPI 2.2],get_CallbackInstance method, ITCallNotificationEvent.get_CallbackInstance, ITCallNotificationEvent::get_CallbackInstance, _tapi3_itcallnotificationevent_get_callbackinstance, get_CallbackInstance, get_CallbackInstance method [TAPI 2.2], get_CallbackInstance method [TAPI 2.2],ITCallNotificationEvent interface, tapi3.itcallnotificationevent_get_callbackinstance, tapi3if/ITCallNotificationEvent::get_CallbackInstance
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

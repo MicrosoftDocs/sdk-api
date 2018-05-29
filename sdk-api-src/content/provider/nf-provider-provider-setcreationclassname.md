@@ -1,16 +1,16 @@
 ---
 UID: NF:provider.Provider.SetCreationClassName
 title: Provider::SetCreationClassName
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetCreationClassName method sets the CreationClassName string property, if any, of the given instance to the name of this provider.
 old-location: wmi\provider_setcreationclassname.htm
 old-project: WmiSdk
 ms.assetid: 0a02e767-95b7-42cb-ab82-66e2d28342fc
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: Provider interface [Windows Management Instrumentation],SetCreationClassName method, Provider.SetCreationClassName, Provider::SetCreationClassName, SetCreationClassName, SetCreationClassName method [Windows Management Instrumentation], SetCreationClassName method [Windows Management Instrumentation],Provider interface, _hmm_provider_setcreationclassname, provider/Provider::SetCreationClassName, wmi.provider_setcreationclassname
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: provider.h
 req.include-header: FwCommon.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataReaderInfo.MatchesPattern
 title: IWICMetadataReaderInfo::MatchesPattern
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines if a stream contains a metadata item pattern.
 old-location: wic\_wic_codec_iwicmetadatareaderinfo_matchespattern.htm
 old-project: wic
 ms.assetid: 58ac58f4-25e0-4fc4-8d2a-854bb89e4af6
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICMetadataReaderInfo interface [Windows Imaging Component],MatchesPattern method, IWICMetadataReaderInfo.MatchesPattern, IWICMetadataReaderInfo::MatchesPattern, MatchesPattern, MatchesPattern method [Windows Imaging Component], MatchesPattern method [Windows Imaging Component],IWICMetadataReaderInfo interface, _wic_codec_iwicmetadatareaderinfo_matchespattern, wic._wic_codec_iwicmetadatareaderinfo_matchespattern, wincodecsdk/IWICMetadataReaderInfo::MatchesPattern
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodecsdk.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:mixerocx.IMixerOCX
 title: IMixerOCX
-author: windows-driver-content
+author: windows-sdk-content
 description: The IMixerOCX interface is implemented on the Overlay Mixer.
 old-location: dshow\imixerocx.htm
 old-project: DirectShow
 ms.assetid: b80d720d-921d-4d24-a168-49944cfcc411
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IMixerOCX, IMixerOCX interface [DirectShow], IMixerOCX interface [DirectShow],described, IMixerOCXInterface, dshow.imixerocx, mixerocx/IMixerOCX
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mixerocx.h
 req.include-header: 

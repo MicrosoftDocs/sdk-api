@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpFreePdu
 title: SnmpFreePdu function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinSNMP SnmpFreePdu function releases resources associated with an SNMP protocol data unit (PDU) created by the SnmpCreatePdu or the SnmpDuplicatePdu function.
 old-location: snmp\snmpfreepdu.htm
 old-project: SNMP
 ms.assetid: 243e52aa-2b05-4c41-9f89-cf9c66517da6
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpFreePdu, SnmpFreePdu function [SNMP], _snmp_snmpfreepdu, snmp.snmpfreepdu, winsnmp/SnmpFreePdu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

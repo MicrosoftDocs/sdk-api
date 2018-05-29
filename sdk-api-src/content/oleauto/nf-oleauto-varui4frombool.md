@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarUI4FromBool
 title: VarUI4FromBool function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a Boolean value to an unsigned long value.
 old-location: automat\varui4frombool.htm
 old-project: automat
 ms.assetid: a3c59eb2-6808-453b-b0f7-12d0e6b358ae
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarUI4FromBool, VarUI4FromBool function [Automation], _oa96_VarUI4FromBool, automat.varui4frombool, oleauto/VarUI4FromBool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

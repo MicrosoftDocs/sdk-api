@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileSaveDialog.SetSaveAsItem
 title: IFileSaveDialog::SetSaveAsItem
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets an item to be used as the initial entry in a Save As dialog.
 old-location: shell\IFileSaveDialog_SetSaveAsItem.htm
 old-project: shell
 ms.assetid: aa313685-1334-4899-a55a-6549b48e1464
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileSaveDialog interface [Windows Shell],SetSaveAsItem method, IFileSaveDialog.SetSaveAsItem, IFileSaveDialog::SetSaveAsItem, SetSaveAsItem, SetSaveAsItem method [Windows Shell], SetSaveAsItem method [Windows Shell],IFileSaveDialog interface, shell.IFileSaveDialog_SetSaveAsItem, shell_IFileSaveDialog_SetSaveAsItem, shobjidl_core/IFileSaveDialog::SetSaveAsItem
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: 

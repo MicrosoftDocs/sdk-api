@@ -1,16 +1,16 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.RestoreMonitorFactoryColorDefaults
 title: RestoreMonitorFactoryColorDefaults function
-author: windows-driver-content
+author: windows-sdk-content
 description: Restores a monitor's color settings to their factory defaults.
 old-location: monitor\restoremonitorfactorycolordefaults.htm
 old-project: Monitor
 ms.assetid: e5676134-ae4d-4db6-86fa-dbff0dd14a25
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: RestoreMonitorFactoryColorDefaults, RestoreMonitorFactoryColorDefaults function [Monitor Configuration], highlevelmonitorconfigurationapi/RestoreMonitorFactoryColorDefaults, monitor.restoremonitorfactorycolordefaults
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 

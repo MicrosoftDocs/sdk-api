@@ -1,16 +1,16 @@
 ---
 UID: NF:ntlsa.LsaLookupPrivilegeValue
 title: LsaLookupPrivilegeValue function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the locally unique identifier (LUID) used by the Local Security Authority (LSA) to represent the specified privilege name.
 old-location: security\lsalookupprivilegevalue.htm
 old-project: SecMgmt
 ms.assetid: 4926fff9-6e1a-475c-95ab-78c9b67aaa87
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: LsaLookupPrivilegeValue, LsaLookupPrivilegeValue function [Security], ntlsa/LsaLookupPrivilegeValue, security.lsalookupprivilegevalue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntlsa.h
 req.include-header: 

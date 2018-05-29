@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSaveJob.EndSave
 title: IMFSaveJob::EndSave
-author: windows-driver-content
+author: windows-sdk-content
 description: Completes the operation started by IMFSaveJob::BeginSave.
 old-location: mf\imfsavejob_endsave.htm
 old-project: medfound
 ms.assetid: 9d63d7b5-4454-4301-b467-eea82bace6ff
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 9d63d7b5-4454-4301-b467-eea82bace6ff, EndSave, EndSave method [Media Foundation], EndSave method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],EndSave method, IMFSaveJob.EndSave, IMFSaveJob::EndSave, mf.imfsavejob_endsave, mfidl/IMFSaveJob::EndSave
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

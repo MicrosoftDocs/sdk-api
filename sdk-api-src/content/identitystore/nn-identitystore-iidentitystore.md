@@ -1,16 +1,16 @@
 ---
 UID: NN:identitystore.IIdentityStore
 title: IIdentityStore
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods to enumerate and manage identities and identity providers.
 old-location: security\iidentitystore.htm
 old-project: SecAuthN
 ms.assetid: f7f0f103-411b-4fbd-9ed5-30c6ab2f0ab6
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IIdentityStore, IIdentityStore interface [Security], IIdentityStore interface [Security],described, identitystore/IIdentityStore, security.iidentitystore
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: identitystore.h
 req.include-header: 

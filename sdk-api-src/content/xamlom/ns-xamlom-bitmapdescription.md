@@ -1,16 +1,16 @@
 ---
 UID: NS:xamlom.BitmapDescription
 title: BitmapDescription
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents information about the bitmap stored in IBitmapData.
 old-location: xaml_diagnostics\bitmapdescription.htm
 old-project: xaml_diagnostics
 ms.assetid: C5E1BA37-738C-4251-8648-681C58B740E1
-ms.author: windowsdriverdev
-ms.date: 3/19/2018
+ms.author: windowssdkdev
+ms.date: 03/19/2018
 ms.keywords: BitmapDescription, BitmapDescription structure, PBitmapDescription, PBitmapDescription structure pointer, xaml_diagnostics.bitmapdescription, xamlom/BitmapDescription, xamlom/PBitmapDescription
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: xamlom.h
 req.include-header: 

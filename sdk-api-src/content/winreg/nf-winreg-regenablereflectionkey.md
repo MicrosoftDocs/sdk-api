@@ -1,16 +1,16 @@
 ---
 UID: NF:winreg.RegEnableReflectionKey
 title: RegEnableReflectionKey function
-author: windows-driver-content
+author: windows-sdk-content
 description: Restores registry reflection for the specified disabled key. Restoring reflection for a key does not affect reflection of any subkeys.
 old-location: base\regenablereflectionkey.htm
 old-project: SysInfo
 ms.assetid: 6dfbc3d8-cd71-4ee9-a10b-955c26a6894c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: RegEnableReflectionKey, RegEnableReflectionKey function, base.regenablereflectionkey, winreg/RegEnableReflectionKey
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winreg.h
 req.include-header: Windows.h

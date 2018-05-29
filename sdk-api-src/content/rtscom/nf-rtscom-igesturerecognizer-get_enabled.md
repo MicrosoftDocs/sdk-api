@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IGestureRecognizer.get_Enabled
 title: IGestureRecognizer::get_Enabled
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets or sets a value that indicates whether gesture recognition is enabled.
 old-location: tablet\igesturerecognizer_enabled.htm
 old-project: tablet
 ms.assetid: 4e977348-30d8-474c-80af-56371be5aee4
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 4e977348-30d8-474c-80af-56371be5aee4, Enabled property [Tablet PC], Enabled property [Tablet PC],IGestureRecognizer interface, IGestureRecognizer interface [Tablet PC],Enabled property, IGestureRecognizer.Enabled, IGestureRecognizer.get_Enabled, IGestureRecognizer.put_Enabled, IGestureRecognizer::Enabled, IGestureRecognizer::get_Enabled, IGestureRecognizer::put_Enabled, get_Enabled, rtscom/IGestureRecognizer::Enabled, rtscom/IGestureRecognizer::get_Enabled, rtscom/IGestureRecognizer::put_Enabled, tablet.igesturerecognizer_enabled
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

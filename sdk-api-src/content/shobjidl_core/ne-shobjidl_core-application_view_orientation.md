@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.APPLICATION_VIEW_ORIENTATION
 title: APPLICATION_VIEW_ORIENTATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines the set of display orientation modes for a window (app view). Used by IApplicationDesignModeSettings2::GetApplicationViewOrientation and IApplicationDesignModeSettings2::SetApplicationViewOrientation.
 old-location: shell\APPLICATION_VIEW_ORIENTATION.htm
 old-project: shell
 ms.assetid: 6E14D892-09E3-46F4-84AD-991996431FB2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: APPLICATION_VIEW_ORIENTATION, APPLICATION_VIEW_ORIENTATION enumeration [Windows Shell], AVO_LANDSCAPE, AVO_PORTRAIT, shell.APPLICATION_VIEW_ORIENTATION, shobjidl_core/APPLICATION_VIEW_ORIENTATION, shobjidl_core/AVO_LANDSCAPE, shobjidl_core/AVO_PORTRAIT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: 

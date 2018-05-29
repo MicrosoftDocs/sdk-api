@@ -1,16 +1,16 @@
 ---
 UID: NN:certenroll.ICertificationAuthorities
 title: ICertificationAuthorities
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICertificationAuthorities interface defines the following methods and properties that manage a collection of ICertificationAuthority objects.
 old-location: security\icertificationauthorities.htm
 old-project: SecCertEnroll
 ms.assetid: 8dad280a-1fe7-4a4b-9392-eee3aa9bcde9
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICertificationAuthorities, ICertificationAuthorities interface [Security], ICertificationAuthorities interface [Security],described, certenroll/ICertificationAuthorities, security.icertificationauthorities
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: certenroll.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CryptDecryptMessage
 title: CryptDecryptMessage function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CryptDecryptMessage function decodes and decrypts a message.
 old-location: security\cryptdecryptmessage.htm
 old-project: SecCrypto
 ms.assetid: e540b816-64e1-4c78-9020-2b221e813acc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CryptDecryptMessage, CryptDecryptMessage function [Security], _crypto2_cryptdecryptmessage, security.cryptdecryptmessage, wincrypt/CryptDecryptMessage
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

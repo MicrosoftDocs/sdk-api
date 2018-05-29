@@ -1,16 +1,16 @@
 ---
 UID: NF:powrprof.PowerReportThermalEvent
 title: PowerReportThermalEvent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the operating system of thermal events.
 old-location: base\powerreportthermalevent.htm
 old-project: Power
 ms.assetid: DD3DE1B2-17C1-4FF8-9DF8-BEF35933D913
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: PowerReportThermalEvent, PowerReportThermalEvent function, base.powerreportthermalevent, powrprof/PowerReportThermalEvent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: powrprof.h
 req.include-header: 

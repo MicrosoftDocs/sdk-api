@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.GetFramePointerShape
 title: IDXGIOutputDuplication::GetFramePointerShape
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets information about the new pointer shape for the current desktop frame.
 old-location: direct3ddxgi\idxgioutputduplication_getframepointershape.htm
 old-project: direct3ddxgi
 ms.assetid: 321FDB62-BF0E-402E-A00B-6F60B7F132AA
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: GetFramePointerShape, GetFramePointerShape method [DXGI], GetFramePointerShape method [DXGI],IDXGIOutputDuplication interface, IDXGIOutputDuplication interface [DXGI],GetFramePointerShape method, IDXGIOutputDuplication.GetFramePointerShape, IDXGIOutputDuplication::GetFramePointerShape, direct3ddxgi.idxgioutputduplication_getframepointershape, dxgi1_2/IDXGIOutputDuplication::GetFramePointerShape
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_2.h
 req.include-header: 

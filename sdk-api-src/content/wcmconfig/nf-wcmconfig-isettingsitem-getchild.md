@@ -1,16 +1,16 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetChild
 title: ISettingsItem::GetChild
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the child item that has the specified name.
 old-location: smi\isettingsitem_getchild.htm
 old-project: SMI
 ms.assetid: 4a3d3212-bd47-46fb-9ce1-79ac109c6444
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: GetChild, GetChild method [SMI], GetChild method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetChild method, ISettingsItem.GetChild, ISettingsItem::GetChild, smi.isettingsitem_getchild, wcmconfig/ISettingsItem::GetChild
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wcmconfig.h
 req.include-header: 

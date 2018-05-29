@@ -1,16 +1,16 @@
 ---
 UID: NF:evcoll.EcGetObjectArrayProperty
 title: EcGetObjectArrayProperty function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves property values for the event sources of a subscription.
 old-location: wec\ecgetobjectarrayproperty.htm
 old-project: WEC
 ms.assetid: a145c982-a1df-442f-8923-58f1db67ac25
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: EcGetObjectArrayProperty, EcGetObjectArrayProperty function, evcoll/EcGetObjectArrayProperty, wec.ecgetobjectarrayproperty, wes.ecgetobjectarrayproperty
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: evcoll.h
 req.include-header: 

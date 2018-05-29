@@ -1,16 +1,16 @@
 ---
 UID: NF:ctffunc.ITfFnGetLinguisticAlternates.GetAlternates
 title: ITfFnGetLinguisticAlternates::GetAlternates
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a list of alternate strings for a given text range.
 old-location: tsf\itffngetlinguisticalternates_getalternates.htm
 old-project: TSF
 ms.assetid: 17BB0DF8-3F97-423C-A2FD-CDC7590EE49B
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetAlternates, GetAlternates method [Text Services Framework], GetAlternates method [Text Services Framework],ITfFnGetLinguisticAlternates interface, ITfFnGetLinguisticAlternates interface [Text Services Framework],GetAlternates method, ITfFnGetLinguisticAlternates.GetAlternates, ITfFnGetLinguisticAlternates::GetAlternates, ctffunc/ITfFnGetLinguisticAlternates::GetAlternates, tsf.itffngetlinguisticalternates_getalternates
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctffunc.h
 req.include-header: 

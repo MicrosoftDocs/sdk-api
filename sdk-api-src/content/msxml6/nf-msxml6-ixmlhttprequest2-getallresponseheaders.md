@@ -1,16 +1,16 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.GetAllResponseHeaders
 title: IXMLHTTPRequest2::GetAllResponseHeaders
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the values of all the HTTP response headers.
 old-location: ixhr2\ixmlhttprequest2_getallresponseheaders.htm
 old-project: ixhr2
 ms.assetid: 6452812B-0E0F-4140-8E3C-25592A9C6C48
-ms.author: windowsdriverdev
-ms.date: 4/2/2018
+ms.author: windowssdkdev
+ms.date: 04/02/2018
 ms.keywords: GetAllResponseHeaders, GetAllResponseHeaders method [XMLHttpRequest2], GetAllResponseHeaders method [XMLHttpRequest2],IXMLHTTPRequest2 interface, IXMLHTTPRequest2 interface [XMLHttpRequest2],GetAllResponseHeaders method, IXMLHTTPRequest2.GetAllResponseHeaders, IXMLHTTPRequest2::GetAllResponseHeaders, ixhr2.ixmlhttprequest2_getallresponseheaders, msxml6/IXMLHTTPRequest2::GetAllResponseHeaders
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msxml6.h
 req.include-header: 

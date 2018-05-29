@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.PresentEx
 title: IDirect3DDevice9Ex::PresentEx
-author: windows-driver-content
+author: windows-sdk-content
 description: Swap the swapchain's next buffer with the front buffer.
 old-location: direct3d9\idirect3ddevice9ex_presentex.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_presentex.htm
-ms.author: windowsdriverdev
-ms.date: 4/10/2018
+ms.author: windowssdkdev
+ms.date: 04/10/2018
 ms.keywords: 8af2bbce-d370-576f-a879-e996430d3295, IDirect3DDevice9Ex interface [Direct3D 9],PresentEx method, IDirect3DDevice9Ex.PresentEx, IDirect3DDevice9Ex::PresentEx, PresentEx, PresentEx method [Direct3D 9], PresentEx method [Direct3D 9],IDirect3DDevice9Ex interface, d3d9/IDirect3DDevice9Ex::PresentEx, direct3d9.idirect3ddevice9ex_presentex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d9.h
 req.include-header: 

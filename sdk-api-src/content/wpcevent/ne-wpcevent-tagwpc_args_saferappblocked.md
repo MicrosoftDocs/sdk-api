@@ -1,16 +1,16 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_SAFERAPPBLOCKED
 title: tagWPC_ARGS_SAFERAPPBLOCKED
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates information about a safer application that is being blocked.
 old-location: parcon\wpc_args_saferappblocked.htm
 old-project: parcon
 ms.assetid: 8fdc7d09-6bbb-4e0b-82f5-276186312f75
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: WPC_ARGS_SAFERAPPBLOCKED, WPC_ARGS_SAFERAPPBLOCKED enumeration, WPC_ARGS_SAFERAPPBLOCKED_CARGS, WPC_ARGS_SAFERAPPBLOCKED_PATH, WPC_ARGS_SAFERAPPBLOCKED_RULEID, WPC_ARGS_SAFERAPPBLOCKED_TIMESTAMP, WPC_ARGS_SAFERAPPBLOCKED_USERID, parcon.wpc_args_saferappblocked, tagWPC_ARGS_SAFERAPPBLOCKED, wpcevent/WPC_ARGS_SAFERAPPBLOCKED, wpcevent/WPC_ARGS_SAFERAPPBLOCKED_CARGS, wpcevent/WPC_ARGS_SAFERAPPBLOCKED_PATH, wpcevent/WPC_ARGS_SAFERAPPBLOCKED_RULEID, wpcevent/WPC_ARGS_SAFERAPPBLOCKED_TIMESTAMP, wpcevent/WPC_ARGS_SAFERAPPBLOCKED_USERID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wpcevent.h
 req.include-header: 

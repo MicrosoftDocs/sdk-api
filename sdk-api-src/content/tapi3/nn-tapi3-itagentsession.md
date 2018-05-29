@@ -1,16 +1,16 @@
 ---
 UID: NN:tapi3.ITAgentSession
 title: ITAgentSession
-author: windows-driver-content
+author: windows-sdk-content
 description: An agent session represents an association between an agent, group, and address.
 old-location: tapi3\itagentsession.htm
 old-project: Tapi
 ms.assetid: b0db0834-7b9b-4a72-9cc6-6cba31ed1275
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAgentSession, ITAgentSession interface [TAPI 2.2], ITAgentSession interface [TAPI 2.2],described, _tapi3_itagentsession, tapi3.itagentsession, tapi3cc/ITAgentSession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tapi3.h
 req.include-header: Tapi3.h

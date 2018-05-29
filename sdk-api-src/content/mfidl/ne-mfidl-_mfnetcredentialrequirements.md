@@ -1,16 +1,16 @@
 ---
 UID: NE:mfidl._MFNetCredentialRequirements
 title: "_MFNetCredentialRequirements"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies how the credential manager should obtain user credentials.
 old-location: mf\mfnetcredentialrequirements.htm
 old-project: medfound
 ms.assetid: 9257d1d7-7ccb-4172-82f0-3694ebb9d487
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 9257d1d7-7ccb-4172-82f0-3694ebb9d487, MFNetCredentialRequirements, MFNetCredentialRequirements enumeration [Media Foundation], REQUIRE_PROMPT, REQUIRE_SAVE_SELECTED, _MFNetCredentialRequirements, mf.mfnetcredentialrequirements, mfidl/MFNetCredentialRequirements, mfidl/REQUIRE_PROMPT, mfidl/REQUIRE_SAVE_SELECTED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IShellView.EnableModeless
 title: IShellView::EnableModeless
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables or disables modeless dialog boxes. This method is not currently implemented.
 old-location: shell\IShellView_EnableModeless.htm
 old-project: shell
 ms.assetid: 5467f524-fa61-4919-bf64-268f9387b2f2
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: EnableModeless, EnableModeless method [Windows Shell], EnableModeless method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],EnableModeless method, IShellView.EnableModeless, IShellView::EnableModeless, _win32_IShellView_EnableModeless, shell.IShellView_EnableModeless, shobjidl_core/IShellView::EnableModeless
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

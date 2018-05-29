@@ -1,16 +1,16 @@
 ---
 UID: NN:bitscfg.IBITSExtensionSetupFactory
 title: IBITSExtensionSetupFactory
-author: windows-driver-content
+author: windows-sdk-content
 description: Use the IBITSExtensionSetupFactory interface to get a pointer to the IBITSExtensionSetup interface.
 old-location: bits\ibitsextensionsetupfactory.htm
 old-project: Bits
 ms.assetid: 0105d525-c841-4e0e-bd4a-2a1bcdb0dc4a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IBITSExtensionSetupFactory, IBITSExtensionSetupFactory interface [BITS], IBITSExtensionSetupFactory interface [BITS],described, _drz_ibitsextensionsetupfactory, bits.ibitsextensionsetupfactory, bitscfg/IBITSExtensionSetupFactory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: bitscfg.h
 req.include-header: 

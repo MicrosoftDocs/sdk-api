@@ -1,16 +1,16 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetStylusForId
 title: IRealTimeStylus::GetStylusForId
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a stylus for the specified stylus identifier.
 old-location: tablet\irealtimestylus_getstylusforid.htm
 old-project: tablet
 ms.assetid: 16218bd3-9e92-407b-99b1-155d4387641e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 16218bd3-9e92-407b-99b1-155d4387641e, GetStylusForId, GetStylusForId method [Tablet PC], GetStylusForId method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusForId method, IRealTimeStylus.GetStylusForId, IRealTimeStylus::GetStylusForId, rtscom/IRealTimeStylus::GetStylusForId, tablet.irealtimestylus_getstylusforid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: rtscom.h
 req.include-header: 

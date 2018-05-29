@@ -1,16 +1,16 @@
 ---
 UID: NF:dcomp.SetBlueSlope
 title: SetBlueSlope function
-author: windows-driver-content
+author: windows-sdk-content
 description: The slope of the linear function for the blue channel.
 old-location: directcomp\idcompositionlineartransfereffect_setblueslope_overloaded.htm
 old-project: directcomp
 ms.assetid: 088b6b01-6c0b-c746-85ed-54b822a4615d
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: SetBlueSlope, SetBlueSlope methods [DirectComposition], dcomp/SetBlueSlope, directcomp.idcompositionlineartransfereffect_setblueslope_overloaded, idcompositionlineartransfereffect::SetBlueSlope
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: dcomp.h
 req.include-header: 

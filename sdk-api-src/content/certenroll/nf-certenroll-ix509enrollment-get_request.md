@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_Request
 title: IX509Enrollment::get_Request
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the certificate request associated with the enrollment object.
 old-location: security\ix509enrollment_request_property.htm
 old-project: SecCertEnroll
 ms.assetid: dc754240-9c52-459e-9612-caf19eeb351c
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: IX509Enrollment interface [Security],Request property, IX509Enrollment.Request, IX509Enrollment.get_Request, IX509Enrollment::Request, IX509Enrollment::get_Request, Request property [Security], Request property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Request, certenroll/IX509Enrollment::get_Request, get_Request, security.ix509enrollment_request_property
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

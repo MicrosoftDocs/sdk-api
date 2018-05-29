@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackCleanupGroup
 title: SetThreadpoolCallbackCleanupGroup function
-author: windows-driver-content
+author: windows-sdk-content
 description: Associates the specified cleanup group with the specified callback environment.
 old-location: base\setthreadpoolcallbackcleanupgroup.htm
 old-project: ProcThread
 ms.assetid: 395db7ba-ff39-46ee-917b-2896a0e99d43
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: SetThreadpoolCallbackCleanupGroup, SetThreadpoolCallbackCleanupGroup function, base.setthreadpoolcallbackcleanupgroup, winbase/SetThreadpoolCallbackCleanupGroup
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

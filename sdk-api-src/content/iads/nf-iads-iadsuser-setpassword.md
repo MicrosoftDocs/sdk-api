@@ -1,16 +1,16 @@
 ---
 UID: NF:iads.IADsUser.SetPassword
 title: IADsUser::SetPassword
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the user password to a specified value.
 old-location: adsi\iadsuser_setpassword.htm
 old-project: ADSI
 ms.assetid: cad38632-9f0a-4707-9086-b1248d6f31a6
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsUser interface [ADSI],SetPassword method, IADsUser.SetPassword, IADsUser::SetPassword, SetPassword, SetPassword method [ADSI], SetPassword method [ADSI],IADsUser interface, _ds_iadsuser_setpassword, adsi.iadsuser__setpassword, adsi.iadsuser_setpassword, iads/IADsUser::SetPassword
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: iads.h
 req.include-header: 

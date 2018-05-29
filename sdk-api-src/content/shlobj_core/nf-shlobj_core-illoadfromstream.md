@@ -1,16 +1,16 @@
 ---
 UID: NF:shlobj_core.ILLoadFromStream
 title: ILLoadFromStream function
-author: windows-driver-content
+author: windows-sdk-content
 description: Deprecated. Loads an ITEMIDLIST structure from a stream.
 old-location: shell\ILLoadFromStream.htm
 old-project: shell
 ms.assetid: 060cc008-eb6a-4359-b84b-05c26d69f793
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ILLoadFromStream, ILLoadFromStream function [Windows Shell], _win32_ILLoadFromStream, shell.ILLoadFromStream, shlobj_core/ILLoadFromStream
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shlobj_core.h
 req.include-header: Shlobj.h

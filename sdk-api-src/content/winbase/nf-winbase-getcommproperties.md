@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetCommProperties
 title: GetCommProperties function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves information about the communications properties for a specified communications device.
 old-location: base\getcommproperties.htm
 old-project: DevIO
 ms.assetid: dbbf55d6-d369-4b28-bdc7-1fd9a736e658
-ms.author: windowsdriverdev
-ms.date: 4/3/2018
+ms.author: windowssdkdev
+ms.date: 04/03/2018
 ms.keywords: GetCommProperties, GetCommProperties function, _win32_getcommproperties, base.getcommproperties, winbase/GetCommProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

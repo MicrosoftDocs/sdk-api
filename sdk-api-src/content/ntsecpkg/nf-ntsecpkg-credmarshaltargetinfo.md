@@ -1,16 +1,16 @@
 ---
 UID: NF:ntsecpkg.CredMarshalTargetInfo
 title: CredMarshalTargetInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: Serializes the specified target into an array of byte values.
 old-location: security\credmarshaltargetinfo.htm
 old-project: SecAuthN
 ms.assetid: 1e50a135-e8b3-4aa6-a3b0-f4b1490310e5
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CredMarshalTargetInfo, CredMarshalTargetInfo function [Security], ntsecpkg/CredMarshalTargetInfo, security.credmarshaltargetinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntsecpkg.h
 req.include-header: 

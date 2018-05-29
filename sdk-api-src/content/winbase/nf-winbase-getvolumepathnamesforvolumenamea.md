@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.GetVolumePathNamesForVolumeNameA
 title: GetVolumePathNamesForVolumeNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a list of drive letters and mounted folder paths for the specified volume.
 old-location: fs\getvolumepathnamesforvolumename.htm
 old-project: FileIO
 ms.assetid: 067904c1-d3e1-4cfd-ac63-6ef32d9a2513
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetVolumePathNamesForVolumeName, GetVolumePathNamesForVolumeName function [Files], GetVolumePathNamesForVolumeNameA, GetVolumePathNamesForVolumeNameW, _win32_getvolumepathnamesforvolumename, base.getvolumepathnamesforvolumename, fileapi/GetVolumePathNamesForVolumeName, fileapi/GetVolumePathNamesForVolumeNameA, fileapi/GetVolumePathNamesForVolumeNameW, fs.getvolumepathnamesforvolumename, winbase/GetVolumePathNamesForVolumeName, winbase/GetVolumePathNamesForVolumeNameA, winbase/GetVolumePathNamesForVolumeNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

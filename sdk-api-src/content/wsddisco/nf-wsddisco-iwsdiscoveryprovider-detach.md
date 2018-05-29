@@ -1,16 +1,16 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.Detach
 title: IWSDiscoveryProvider::Detach
-author: windows-driver-content
+author: windows-sdk-content
 description: Detaches a callback interface from the discovery provider.
 old-location: ncd\iwsdiscoveryprovider_detach_method.htm
 old-project: WsdApi
 ms.assetid: 562e7618-06ac-4bd3-9746-6ff3a7531b6b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Detach, Detach method, Detach method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,Detach method, IWSDiscoveryProvider.Detach, IWSDiscoveryProvider::Detach, ncd.iwsdiscoveryprovider_detach_method, wsddisco/IWSDiscoveryProvider::Detach
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wsddisco.h
 req.include-header: Wsdapi.h

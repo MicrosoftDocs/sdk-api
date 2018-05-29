@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.ICommDlgBrowser3
 title: ICommDlgBrowser3
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends the capabilities of ICommDlgBrowser2, and used by the common file dialog boxes when they host a Shell browser.
 old-location: shell\ICommDlgBrowser3.htm
 old-project: shell
 ms.assetid: c9286061-8ac8-452b-9204-193bc6b571cb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ICommDlgBrowser3, ICommDlgBrowser3 interface [Windows Shell], ICommDlgBrowser3 interface [Windows Shell],described, _shell_ICommDlgBrowser3, shell.ICommDlgBrowser3, shobjidl/ICommDlgBrowser3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

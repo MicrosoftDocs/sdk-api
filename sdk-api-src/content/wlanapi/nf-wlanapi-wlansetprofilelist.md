@@ -1,16 +1,16 @@
 ---
 UID: NF:wlanapi.WlanSetProfileList
 title: WlanSetProfileList function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the preference order of profiles.
 old-location: nwifi\wlansetprofilelist.htm
 old-project: NativeWiFi
 ms.assetid: 980c7920-a25e-4e05-a742-77178a7f000a
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: WlanSetProfileList, WlanSetProfileList function [NativeWIFI], nwifi.wlansetprofilelist, wlanapi/WlanSetProfileList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wlanapi.h
 req.include-header: Wlanapi.h

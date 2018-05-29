@@ -1,16 +1,16 @@
 ---
 UID: NF:ole2.OleCreateFromDataEx
 title: OleCreateFromDataEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Extends OleCreateFromData functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple formats of presentation or data, instead of the single format supported by OleCreateFromData.
 old-location: com\olecreatefromdataex.htm
 old-project: com
 ms.assetid: 10091a24-6a50-4eb2-a518-b92a572daa6c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: OleCreateFromDataEx, OleCreateFromDataEx function [COM], _ole_OleCreateFromDataEx, com.olecreatefromdataex, ole2/OleCreateFromDataEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ole2.h
 req.include-header: 

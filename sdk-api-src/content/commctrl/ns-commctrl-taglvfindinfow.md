@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl.tagLVFINDINFOW
 title: tagLVFINDINFOW
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions.
 old-location: controls\LVFINDINFO.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfindinfo.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPFINDINFOW, LPFINDINFO, LPFINDINFO structure pointer [Windows Controls], LVFINDINFO, LVFINDINFO structure [Windows Controls], LVFINDINFOA, LVFINDINFOW, LVFI_NEARESTXY, LVFI_PARAM, LVFI_PARTIAL, LVFI_STRING, LVFI_SUBSTRING, LVFI_WRAP, _win32_LVFINDINFO, _win32_LVFINDINFO_cpp, commctrl/LPFINDINFO, commctrl/LVFINDINFO, commctrl/LVFINDINFOA, commctrl/LVFINDINFOW, controls.LVFINDINFO, controls._win32_LVFINDINFO, tagLVFINDINFOW"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

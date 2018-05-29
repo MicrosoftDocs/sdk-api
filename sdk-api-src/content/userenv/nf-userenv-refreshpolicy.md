@@ -1,16 +1,16 @@
 ---
 UID: NF:userenv.RefreshPolicy
 title: RefreshPolicy function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RefreshPolicy function causes policy to be applied immediately on the client computer.
 old-location: policy\refreshpolicy.htm
 old-project: Policy
 ms.assetid: e08cb006-d174-4506-87f0-580660bd4023
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: RefreshPolicy, RefreshPolicy function [Group Policy], _win32_refreshpolicy, policy.refreshpolicy, userenv/RefreshPolicy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: userenv.h
 req.include-header: 

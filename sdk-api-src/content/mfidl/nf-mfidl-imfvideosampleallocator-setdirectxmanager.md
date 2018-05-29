@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocator.SetDirectXManager
 title: IMFVideoSampleAllocator::SetDirectXManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the Direct3D device manager for the video media sink to use.
 old-location: mf\imfvideosampleallocator_setdirectxmanager.htm
 old-project: medfound
 ms.assetid: bad810c9-f5b1-42dc-9c7a-3306f3de2846
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFVideoSampleAllocator interface [Media Foundation],SetDirectXManager method, IMFVideoSampleAllocator.SetDirectXManager, IMFVideoSampleAllocator::SetDirectXManager, SetDirectXManager, SetDirectXManager method [Media Foundation], SetDirectXManager method [Media Foundation],IMFVideoSampleAllocator interface, bad810c9-f5b1-42dc-9c7a-3306f3de2846, mf.imfvideosampleallocator_setdirectxmanager, mfidl/IMFVideoSampleAllocator::SetDirectXManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

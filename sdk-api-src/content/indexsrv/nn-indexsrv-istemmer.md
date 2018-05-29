@@ -1,16 +1,16 @@
 ---
 UID: NN:indexsrv.IStemmer
 title: IStemmer
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for creating a language-specific stemmer. The stemmer generates inflected forms of a specified word.
 old-location: search\_search_IStemmer.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\istemmer.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IStemmer, IStemmer interface [search], IStemmer interface [search],described, _search_IStemmer, indexsrv/IStemmer, search._search_IStemmer
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: indexsrv.h
 req.include-header: 

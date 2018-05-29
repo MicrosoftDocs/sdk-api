@@ -1,16 +1,16 @@
 ---
 UID: NF:tdh.TdhCloseDecodingHandle
 title: TdhCloseDecodingHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Frees any resources associated with the input decoding handle.
 old-location: etw\tdhclosedecodinghandle.htm
 old-project: ETW
 ms.assetid: f3cf6b1e-c970-4b91-aa54-370d46a6e86a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TdhCloseDecodingHandle, TdhCloseDecodingHandle function [ETW], etw.tdhclosedecodinghandle, tdh/TdhCloseDecodingHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tdh.h
 req.include-header: 

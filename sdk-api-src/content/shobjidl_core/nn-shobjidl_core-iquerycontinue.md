@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.IQueryContinue
 title: IQueryContinue
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes a method that provides a simple, standard mechanism for objects to query a client for permission to continue an operation.
 old-location: shell\IQueryContinue.htm
 old-project: shell
 ms.assetid: 94dee6cc-a142-4180-a562-14f4ded16884
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IQueryContinue, IQueryContinue interface [Windows Shell], IQueryContinue interface [Windows Shell],described, inet_IQueryContinue, shell.IQueryContinue, shobjidl_core/IQueryContinue
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

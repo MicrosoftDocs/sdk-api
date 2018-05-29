@@ -1,16 +1,16 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolListener.GetSettings
 title: IWRdsProtocolListener::GetSettings
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the listener setting information for client connection requests.
 old-location: termserv\iwrdsprotocollistener_getsettings.htm
 old-project: TermServ
 ms.assetid: 644eaa8f-776d-49de-af23-de9faef80e74
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetSettings, GetSettings method [Remote Desktop Services], GetSettings method [Remote Desktop Services],IWRdsProtocolListener interface, IWRdsProtocolListener interface [Remote Desktop Services],GetSettings method, IWRdsProtocolListener.GetSettings, IWRdsProtocolListener::GetSettings, termserv.iwrdsprotocollistener_getsettings, wtsprotocol/IWRdsProtocolListener::GetSettings
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wtsprotocol.h
 req.include-header: 

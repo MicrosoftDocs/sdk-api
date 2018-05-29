@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IManagedPooledObj.SetHeld
 title: IManagedPooledObj::SetHeld
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets whether the managed object should go back into the COM+ object pool.
 old-location: cos\imanagedpooledobj_setheld.htm
 old-project: cossdk
 ms.assetid: 36e7f210-0532-424f-b958-a7a1be904b3c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IManagedPooledObj interface [COM+],SetHeld method, IManagedPooledObj.SetHeld, IManagedPooledObj::SetHeld, SetHeld, SetHeld method [COM+], SetHeld method [COM+],IManagedPooledObj interface, _cos_IManagedPooledObj_SetHeld, comsvcs/IManagedPooledObj::SetHeld, cos.imanagedpooledobj_setheld
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NE:faxcomex.FAX_PROVIDER_STATUS_ENUM
 title: FAX_PROVIDER_STATUS_ENUM
-author: windows-driver-content
+author: windows-sdk-content
 description: The FAX_PROVIDER_STATUS_ENUM enumeration defines the status values for a fax extension (a fax service provider (FSP) or a fax inbound routing extension).
 old-location: fax\_mfax_fax_provider_status_enum.htm
 old-project: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8ejx.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: FAX_PROVIDER_STATUS_ENUM, FAX_PROVIDER_STATUS_ENUM enumeration [Fax Service], _mfax_fax_provider_status_enum, fax._mfax_fax_provider_status_enum, faxcomex/FAX_PROVIDER_STATUS_ENUM, faxcomex/fpsBAD_GUID, faxcomex/fpsBAD_VERSION, faxcomex/fpsCANT_INIT, faxcomex/fpsCANT_LINK, faxcomex/fpsCANT_LOAD, faxcomex/fpsSERVER_ERROR, faxcomex/fpsSUCCESS, fpsBAD_GUID, fpsBAD_VERSION, fpsCANT_INIT, fpsCANT_LINK, fpsCANT_LOAD, fpsSERVER_ERROR, fpsSUCCESS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: faxcomex.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:rpcasync.RpcErrorLoadErrorInfo
 title: RpcErrorLoadErrorInfo function
-author: windows-driver-content
+author: windows-sdk-content
 description: The RpcErrorLoadErrorInfo function converts a BLOB obtained by a call to RpcErrorSaveErrorInfo into extended error information.
 old-location: rpc\rpcerrorloaderrorinfo.htm
 old-project: Rpc
 ms.assetid: cbd171ee-cef3-4880-a26d-81267cb813e9
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: RpcErrorLoadErrorInfo, RpcErrorLoadErrorInfo function [RPC], _rpc_rpcerrorloaderrorinfo, rpc.rpcerrorloaderrorinfo, rpcasync/RpcErrorLoadErrorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rpcasync.h
 req.include-header: Rpc.h

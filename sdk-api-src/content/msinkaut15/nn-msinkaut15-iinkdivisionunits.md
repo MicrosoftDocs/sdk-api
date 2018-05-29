@@ -1,16 +1,16 @@
 ---
 UID: NN:msinkaut15.IInkDivisionUnits
 title: IInkDivisionUnits
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a collection of IInkDivisionUnit objects that are contained in an IInkDivisionResult object.
 old-location: tablet\iinkdivisionunits.htm
 old-project: tablet
 ms.assetid: efce8756-f42b-4d9a-bfed-4297e7e0fdec
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IInkDivisionUnits, IInkDivisionUnits interface [Tablet PC], IInkDivisionUnits interface [Tablet PC],described, efce8756-f42b-4d9a-bfed-4297e7e0fdec, msinkaut15/IInkDivisionUnits, tablet.iinkdivisionunits
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: msinkaut15.h
 req.include-header: 

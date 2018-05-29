@@ -1,16 +1,16 @@
 ---
 UID: NE:appmgmt._INSTALLSPECTYPE
 title: "_INSTALLSPECTYPE"
-author: windows-driver-content
+author: windows-sdk-content
 description: The INSTALLSPECTYPE enumeration values define the ways a group policy application can be specified to the InstallApplication function. The values are used in the Type member of INSTALLDATA.
 old-location: policy\installspectype_enum.htm
 old-project: Policy
 ms.assetid: 9e62a22d-cae7-4b3e-9000-71eddb1f3cad
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: APPNAME, FILEEXT, INSTALLSPECTYPE, INSTALLSPECTYPE enumeration [Group Policy], _INSTALLSPECTYPE, appmgmt/APPNAME, appmgmt/FILEEXT, appmgmt/INSTALLSPECTYPE, policy.installspectype_enum
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: appmgmt.h
 req.include-header: 

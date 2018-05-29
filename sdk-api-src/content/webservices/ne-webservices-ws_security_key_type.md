@@ -1,16 +1,16 @@
 ---
 UID: NE:webservices.WS_SECURITY_KEY_TYPE
 title: WS_SECURITY_KEY_TYPE
-author: windows-driver-content
+author: windows-sdk-content
 description: The key type of a security token. It is used as the return type when a security token is queried about its key. It is also used to specify the required key type when requesting a security token from a security token service.
 old-location: wsw\ws_security_key_type.htm
 old-project: wsw
 ms.assetid: 95915a10-ba8f-41ca-89eb-777c85d2a411
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_SECURITY_KEY_TYPE, WS_SECURITY_KEY_TYPE enumeration [Web Services for Windows], WS_SECURITY_KEY_TYPE_ASYMMETRIC, WS_SECURITY_KEY_TYPE_NONE, WS_SECURITY_KEY_TYPE_SYMMETRIC, webservices/WS_SECURITY_KEY_TYPE, webservices/WS_SECURITY_KEY_TYPE_ASYMMETRIC, webservices/WS_SECURITY_KEY_TYPE_NONE, webservices/WS_SECURITY_KEY_TYPE_SYMMETRIC, wsw.ws_security_key_type
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: webservices.h
 req.include-header: 

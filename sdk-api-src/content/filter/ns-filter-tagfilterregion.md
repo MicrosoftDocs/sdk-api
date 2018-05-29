@@ -1,16 +1,16 @@
 ---
 UID: NS:filter.tagFILTERREGION
 title: tagFILTERREGION
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes the position and extent of a specified portion of text within an object.
 old-location: indexsrv\filterregion.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9usu.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: FILTERREGION, FILTERREGION structure [Indexing Service], _idxs_FILTERREGION, filter/FILTERREGION, indexsrv.filterregion, tagFILTERREGION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: filter.h
 req.include-header: 

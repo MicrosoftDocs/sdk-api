@@ -1,16 +1,16 @@
 ---
 UID: NE:wincodec.WICDecodeOptions
 title: WICDecodeOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies decode options.
 old-location: wic\_wic_codec_wicdecodeoptions.htm
 old-project: wic
 ms.assetid: 27b9d6e1-e171-4c7f-8f96-fa5a93923e35
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WICDecodeMetadataCacheOnDemand, WICDecodeMetadataCacheOnLoad, WICDecodeOptions, WICDecodeOptions enumeration [Windows Imaging Component], _wic_codec_wicdecodeoptions, wic._wic_codec_wicdecodeoptions, wincodec/WICDecodeMetadataCacheOnDemand, wincodec/WICDecodeMetadataCacheOnLoad, wincodec/WICDecodeOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: wincodec.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFGetWorkQueueMMCSSClass
 title: MFGetWorkQueueMMCSSClass function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associated with this work queue.
 old-location: mf\mfgetworkqueuemmcssclass.htm
 old-project: medfound
 ms.assetid: 97b48d18-3844-4b97-9bab-c5fc38eb927e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 97b48d18-3844-4b97-9bab-c5fc38eb927e, MFGetWorkQueueMMCSSClass, MFGetWorkQueueMMCSSClass function [Media Foundation], mf.mfgetworkqueuemmcssclass, mfapi/MFGetWorkQueueMMCSSClass
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

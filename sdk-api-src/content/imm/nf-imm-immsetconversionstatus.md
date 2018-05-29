@@ -1,16 +1,16 @@
 ---
 UID: NF:imm.ImmSetConversionStatus
 title: ImmSetConversionStatus function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the current conversion status.
 old-location: intl\immsetconversionstatus.htm
 old-project: Intl
 ms.assetid: cdf6ea84-bab9-4ecc-b2d1-748e5e28615f
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ImmSetConversionStatus, ImmSetConversionStatus function [Internationalization for Windows Applications], _win32_ImmSetConversionStatus, imm/ImmSetConversionStatus, intl.immsetconversionstatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: imm.h
 req.include-header: Windows.h

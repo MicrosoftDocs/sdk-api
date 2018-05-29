@@ -1,16 +1,16 @@
 ---
 UID: NS:commctrl._UDACCEL
 title: "_UDACCEL"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains acceleration information for an up-down control.
 old-location: controls\UDACCEL.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\updown\structures\udaccel.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*LPUDACCEL, LPUDACCEL, LPUDACCEL structure pointer [Windows Controls], UDACCEL, UDACCEL structure [Windows Controls], _UDACCEL, _win32_UDACCEL, _win32_UDACCEL_cpp, commctrl/LPUDACCEL, commctrl/UDACCEL, controls.UDACCEL, controls._win32_UDACCEL"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: commctrl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:strmif.IAMBufferNegotiation
 title: IAMBufferNegotiation
-author: windows-driver-content
+author: windows-sdk-content
 description: The IAMBufferNegotiation interface requests the number of buffers for a filter to create and size of each buffer.
 old-location: dshow\iambuffernegotiation.htm
 old-project: DirectShow
 ms.assetid: 68e98afd-3275-49bb-b165-48ed40026e76
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMBufferNegotiation, IAMBufferNegotiation interface [DirectShow], IAMBufferNegotiation interface [DirectShow],described, IAMBufferNegotiationInterface, dshow.iambuffernegotiation, strmif/IAMBufferNegotiation
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: strmif.h
 req.include-header: Dshow.h

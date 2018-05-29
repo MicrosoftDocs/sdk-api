@@ -1,16 +1,16 @@
 ---
 UID: NF:msrdc.ISimilarity.FindSimilarFileId
 title: ISimilarity::FindSimilarFileId
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a list of files that are similar to a given file.
 old-location: rdc\isimilarity_findsimilarfileid.htm
 old-project: Rdc
 ms.assetid: 70a205fc-d90a-43fc-88f4-2f3a573c5a82
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: FindSimilarFileId, FindSimilarFileId method [Remote Differential Compression], FindSimilarFileId method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],FindSimilarFileId method, ISimilarity.FindSimilarFileId, ISimilarity::FindSimilarFileId, fs.isimilarity_findsimilarfileid, msrdc/ISimilarity::FindSimilarFileId, rdc.isimilarity_findsimilarfileid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msrdc.h
 req.include-header: 

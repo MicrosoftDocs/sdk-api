@@ -1,16 +1,16 @@
 ---
 UID: NF:ntquery.CITextToFullTreeEx
 title: CITextToFullTreeEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a full command tree using the Query Language Dialect that you specify.
 old-location: indexsrv\citexttofulltreeex.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0trs.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CITextToFullTreeEx, CITextToFullTreeEx function [Indexing Service], _idxs_CITextToFullTreeEx, indexsrv.citexttofulltreeex, ntquery/CITextToFullTreeEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: ntquery.h
 req.include-header: 

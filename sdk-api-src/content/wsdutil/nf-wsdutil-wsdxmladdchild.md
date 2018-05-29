@@ -1,16 +1,16 @@
 ---
 UID: NF:wsdutil.WSDXMLAddChild
 title: WSDXMLAddChild function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds a child element.
 old-location: ncd\wsdxmladdchild.htm
 old-project: WsdApi
 ms.assetid: a0688b03-6f91-4b8e-88d1-b40af69fe8bb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: WSDXMLAddChild, WSDXMLAddChild function, ncd.wsdxmladdchild, wsdutil/WSDXMLAddChild
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wsdutil.h
 req.include-header: Wsdapi.h

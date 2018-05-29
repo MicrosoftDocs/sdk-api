@@ -1,16 +1,16 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_PacketSize
 title: IInkStrokeDisp::get_PacketSize
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the size, in bytes, of a packet.
 old-location: tablet\iinkstrokedisp_packetsize.htm
 old-project: tablet
 ms.assetid: 42016aa0-7cc4-43d5-a055-7007a4bf9f07
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 42016aa0-7cc4-43d5-a055-7007a4bf9f07, IInkStrokeDisp interface [Tablet PC],PacketSize property, IInkStrokeDisp.PacketSize, IInkStrokeDisp.get_PacketSize, IInkStrokeDisp::PacketSize, IInkStrokeDisp::get_PacketSize, PacketSize property [Tablet PC], PacketSize property [Tablet PC],IInkStrokeDisp interface, get_PacketSize, msinkaut/IInkStrokeDisp::PacketSize, msinkaut/IInkStrokeDisp::get_PacketSize, tablet.iinkstrokedisp_packetsize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msinkaut.h
 req.include-header: 

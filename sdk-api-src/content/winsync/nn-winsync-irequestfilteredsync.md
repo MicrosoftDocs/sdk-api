@@ -1,16 +1,16 @@
 ---
 UID: NN:winsync.IRequestFilteredSync
 title: IRequestFilteredSync
-author: windows-driver-content
+author: windows-sdk-content
 description: When implemented by a derived class, represents a destination provider that can specify a filter to be used by the source provider during change enumeration.
 old-location: winsync\irequestfilteredsync.htm
 old-project: winsync
 ms.assetid: e4b76bb3-d572-4441-94db-7088e881ede2
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IRequestFilteredSync, IRequestFilteredSync interface [Windows Sync], IRequestFilteredSync interface [Windows Sync],described, winsync.irequestfilteredsync, winsync/IRequestFilteredSync
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: winsync.h
 req.include-header: 

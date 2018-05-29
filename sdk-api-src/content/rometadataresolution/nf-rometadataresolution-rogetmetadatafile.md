@@ -1,16 +1,16 @@
 ---
 UID: NF:rometadataresolution.RoGetMetaDataFile
 title: RoGetMetaDataFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Locates and retrieves the metadata file that describes the Application Binary Interface (ABI) for the specified typename.
 old-location: winrt\rogetmetadatafile.htm
 old-project: WinRT
 ms.assetid: FF4FEA9F-3FB0-4D56-BE9A-E8E2CB13D718
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: RoGetMetaDataFile, RoGetMetaDataFile function [Windows Runtime], rometadataresolution/RoGetMetaDataFile, winrt.rogetmetadatafile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: rometadataresolution.h
 req.include-header: 

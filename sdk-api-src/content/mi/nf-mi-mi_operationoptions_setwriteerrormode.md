@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetWriteErrorMode
 title: MI_OperationOptions_SetWriteErrorMode function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the error reporting mode.
 old-location: wmi_v2\mi_operationoptions_setwriteerrormode.htm
 old-project: wmi_v2
 ms.assetid: 5a6d764a-09a8-45fc-8d8d-468ea7ee5d59
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_CALLBACKMODE_INQUIRE, MI_CALLBACKMODE_REPORT, MI_OperationOptions_SetWriteErrorMode, MI_OperationOptions_SetWriteErrorMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetWriteErrorMode, wmi_v2.mi_operationoptions_setwriteerrormode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

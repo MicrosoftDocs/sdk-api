@@ -1,16 +1,16 @@
 ---
 UID: NE:rectypes.enumLINE_METRICS
 title: enumLINE_METRICS
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the lines found in a recognition segment.
 old-location: tablet\line_metrics.htm
 old-project: tablet
 ms.assetid: 1317badb-38e1-41fe-9918-c28da88aa511
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: 1317badb-38e1-41fe-9918-c28da88aa511, LINE_METRICS, LINE_METRICS enumeration [Tablet PC], LM_ASCENDER, LM_BASELINE, LM_DESCENDER, LM_MIDLINE, enumLINE_METRICS, rectypes/LINE_METRICS, rectypes/LM_ASCENDER, rectypes/LM_BASELINE, rectypes/LM_DESCENDER, rectypes/LM_MIDLINE, tablet.line_metrics
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: rectypes.h
 req.include-header: 

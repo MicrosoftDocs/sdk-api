@@ -1,16 +1,16 @@
 ---
 UID: NF:winsnmp.SnmpDuplicatePdu
 title: SnmpDuplicatePdu function
-author: windows-driver-content
+author: windows-sdk-content
 description: The WinSNMP SnmpDuplicatePdu function duplicates the SNMP protocol data unit (PDU) that the PDU parameter identifies, allocating any necessary memory for the duplicate PDU.
 old-location: snmp\snmpduplicatepdu.htm
 old-project: SNMP
 ms.assetid: 4507cc9b-36a5-45bf-916d-9dc82ac381a5
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 03/27/2018
 ms.keywords: SnmpDuplicatePdu, SnmpDuplicatePdu function [SNMP], _snmp_snmpduplicatepdu, snmp.snmpduplicatepdu, winsnmp/SnmpDuplicatePdu
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsnmp.h
 req.include-header: 

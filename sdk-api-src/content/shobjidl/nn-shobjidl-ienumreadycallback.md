@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl.IEnumReadyCallback
 title: IEnumReadyCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Exposes methods that enable the view to notify the implementer when the enumeration has completed.
 old-location: shell\IEnumReadyCallback.htm
 old-project: shell
 ms.assetid: 6c36e13d-9bd8-4ec1-980a-dc4ebd4dbcd9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IEnumReadyCallback, IEnumReadyCallback interface [Windows Shell], IEnumReadyCallback interface [Windows Shell],described, _shell_IEnumReadyCallback, shell.IEnumReadyCallback, shobjidl/IEnumReadyCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl.h
 req.include-header: 

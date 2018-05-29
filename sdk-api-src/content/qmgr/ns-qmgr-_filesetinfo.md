@@ -1,16 +1,16 @@
 ---
 UID: NS:qmgr._FILESETINFO
 title: "_FILESETINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The FILESETINFO structure identifies the remote and local names of the file to download.
 old-location: bits\filesetinfo.htm
 old-project: Bits
 ms.assetid: 1a1d6683-5317-4a34-828d-55142f64f19f
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: FILESETINFO, FILESETINFO structure [BITS], _FILESETINFO, bits.filesetinfo, qmgr/FILESETINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: qmgr.h
 req.include-header: 

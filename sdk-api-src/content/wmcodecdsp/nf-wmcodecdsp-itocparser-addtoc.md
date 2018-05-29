@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.AddToc
 title: ITocParser::AddToc
-author: windows-driver-content
+author: windows-sdk-content
 description: The AddToc method adds a table of contents to the TOC Parser object and assigns an index to the added table of contents.
 old-location: mf\itocparser_addtoc.htm
 old-project: medfound
 ms.assetid: c99ccbb3-ba33-4d87-81a3-0de3c180554a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AddToc, AddToc method [Media Foundation], AddToc method [Media Foundation],ITocParser interface, ITocParser interface [Media Foundation],AddToc method, ITocParser.AddToc, ITocParser::AddToc, codecapi.itocparser_addtoc, mf.itocparser_addtoc, wmcodecdsp/ITocParser::AddToc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcodecdsp.h
 req.include-header: 

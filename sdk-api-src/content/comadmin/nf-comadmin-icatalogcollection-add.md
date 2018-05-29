@@ -1,16 +1,16 @@
 ---
 UID: NF:comadmin.ICatalogCollection.Add
 title: ICatalogCollection::Add
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds an item to the collection, giving it the high index value.
 old-location: cos\icatalogcollection_add.htm
 old-project: cossdk
 ms.assetid: 0826a2f0-d4a5-40e2-b951-291d67f0d201
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: Add, Add method [COM+], Add method [COM+],ICatalogCollection interface, ICatalogCollection interface [COM+],Add method, ICatalogCollection.Add, ICatalogCollection::Add, _cos_ICatalogCollection_Add, comadmin/ICatalogCollection::Add, cos.icatalogcollection_add
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comadmin.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.GetRecordOriginalNetworkId
 title: IDVB_NIT::GetRecordOriginalNetworkId
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit_getrecordoriginalnetworkid.htm
 old-project: mstv
 ms.assetid: 3179be9a-de2d-4cb3-ace2-ad5af66d35c8
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetRecordOriginalNetworkId, GetRecordOriginalNetworkId method [Microsoft TV Technologies], GetRecordOriginalNetworkId method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetRecordOriginalNetworkId method, IDVB_NIT.GetRecordOriginalNetworkId, IDVB_NIT::GetRecordOriginalNetworkId, IDVB_NITGetRecordOriginalNetworkId, dvbsiparser/IDVB_NIT::GetRecordOriginalNetworkId, mstv.idvb_nit_getrecordoriginalnetworkid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: 

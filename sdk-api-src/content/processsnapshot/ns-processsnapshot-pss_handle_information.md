@@ -1,16 +1,16 @@
 ---
 UID: NS:processsnapshot.PSS_HANDLE_INFORMATION
 title: PSS_HANDLE_INFORMATION
-author: windows-driver-content
+author: windows-sdk-content
 description: Holds handle information returned by PssQuerySnapshot.
 old-location: proc_snap\pss_handle_information.htm
 old-project: proc_snap
 ms.assetid: 77192849-D919-4947-9BFF-343C166C5A51
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: PSS_HANDLE_INFORMATION, PSS_HANDLE_INFORMATION structure, proc_snap.pss_handle_information, processsnapshot/PSS_HANDLE_INFORMATION
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: processsnapshot.h
 req.include-header: 

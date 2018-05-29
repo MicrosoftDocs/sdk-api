@@ -1,16 +1,16 @@
 ---
 UID: NF:chstring.CHString.GetAllocLength
 title: CHString::GetAllocLength
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAllocLength method returns the size of the allocated string buffer.
 old-location: wmi\chstring_getalloclength.htm
 old-project: WmiSdk
 ms.assetid: f6761c83-d5f2-4900-9863-96692fe897fa
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "?GetAllocLength@CHString@@QBEHXZ, CHString interface [Windows Management Instrumentation],GetAllocLength method, CHString.GetAllocLength, CHString::GetAllocLength, GetAllocLength, GetAllocLength method [Windows Management Instrumentation], GetAllocLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getalloclength, chstring/CHString::GetAllocLength, wmi.chstring_getalloclength"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: chstring.h
 req.include-header: FwCommon.h

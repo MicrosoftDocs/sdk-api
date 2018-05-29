@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPrintTicketResource.SetContent
 title: IXpsOMPrintTicketResource::SetContent
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the read-only stream to be associated with this resource.
 old-location: xps\ixpsomprintticketresource_setcontent.htm
 old-project: printdocs
 ms.assetid: 77e4af00-b2ed-4c88-80f1-fb3106ad1e75
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: IXpsOMPrintTicketResource interface [XPS Documents and Packaging],SetContent method, IXpsOMPrintTicketResource.SetContent, IXpsOMPrintTicketResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMPrintTicketResource interface, xps.ixpsomprintticketresource_setcontent, xpsobjectmodel/IXpsOMPrintTicketResource::SetContent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel.h
 req.include-header: 

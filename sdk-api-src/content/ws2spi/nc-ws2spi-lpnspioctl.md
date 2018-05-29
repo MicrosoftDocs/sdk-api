@@ -1,16 +1,16 @@
 ---
 UID: NC:ws2spi.LPNSPIOCTL
 title: LPNSPIOCTL
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends an IOCTL to a namespace service provider.
 old-location: winsock\nspioctl.htm
 old-project: WinSock
 ms.assetid: 061969f5-dbb5-47d7-820d-5af6fe6a0c62
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: LPNSPIOCTL, NSPIoctl, NSPIoctl function [Winsock], SIO_NSP_NOTIFY_CHANGE, winsock.nspioctl, ws2spi/NSPIoctl
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: ws2spi.h
 req.include-header: 

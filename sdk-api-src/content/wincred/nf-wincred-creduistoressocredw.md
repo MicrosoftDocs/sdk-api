@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredUIStoreSSOCredW
 title: CredUIStoreSSOCredW function
-author: windows-driver-content
+author: windows-sdk-content
 description: The CredUIStoreSSOCredW function stores a single logon credential.
 old-location: security\creduistoressocredw.htm
 old-project: SecAuthN
 ms.assetid: 2c57c943-bcf7-405c-be0a-a3d1991f3004
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CredUIStoreSSOCredW, CredUIStoreSSOCredW function [Security], security.creduistoressocredw, wincred/CredUIStoreSSOCredW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

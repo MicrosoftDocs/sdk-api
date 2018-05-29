@@ -1,16 +1,16 @@
 ---
 UID: NF:shellapi.SHQueryRecycleBinA
 title: SHQueryRecycleBinA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the size of the Recycle Bin and the number of items in it, for a specified drive.
 old-location: shell\SHQueryRecycleBin.htm
 old-project: shell
 ms.assetid: a9a80486-2c99-4916-af25-10b00573456b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: SHQueryRecycleBin, SHQueryRecycleBin function [Windows Shell], SHQueryRecycleBinA, SHQueryRecycleBinW, _win32_SHQueryRecycleBin, shell.SHQueryRecycleBin, shellapi/SHQueryRecycleBin, shellapi/SHQueryRecycleBinA, shellapi/SHQueryRecycleBinW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: shellapi.h
 req.include-header: 

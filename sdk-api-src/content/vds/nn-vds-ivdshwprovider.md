@@ -1,16 +1,16 @@
 ---
 UID: NN:vds.IVdsHwProvider
 title: IVdsHwProvider
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides methods for performing query, reenumeration, and refresh operations on a hardware provider.
 old-location: base\ivdshwprovider.htm
 old-project: VDS
 ms.assetid: ff90875d-f437-4236-a13f-d55a83b778b9
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: IVdsHwProvider, IVdsHwProvider interface [VDS], IVdsHwProvider interface [VDS],described, base.ivdshwprovider, vds/IVdsHwProvider, vdshwprv/IVdsHwProvider
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: vds.h
 req.include-header: 

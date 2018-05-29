@@ -1,16 +1,16 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_BANDWIDTH_RW_v0
 title: "_TCP_ESTATS_BANDWIDTH_RW_v0"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains read/write configuration information for extended TCP statistics on bandwidth estimation for a TCP connection.
 old-location: iphlp\tcp_estats_bandwidth_rw_v0.htm
 old-project: IpHlp
 ms.assetid: a9bf5ad3-a8db-4194-8e47-5a7409391f4c
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: "*PTCP_ESTATS_BANDWIDTH_RW_v0, PTCP_ESTATS_BANDWIDTH_RW_v0, PTCP_ESTATS_BANDWIDTH_RW_v0 structure pointer [IP Helper], TCP_ESTATS_BANDWIDTH_RW_v0, TCP_ESTATS_BANDWIDTH_RW_v0 structure [IP Helper], _TCP_ESTATS_BANDWIDTH_RW_v0, iphlp.tcp_estats_bandwidth_rw_v0, tcpestats/PTCP_ESTATS_BANDWIDTH_RW_v0, tcpestats/TCP_ESTATS_BANDWIDTH_RW_v0"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: tcpestats.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:interactioncontext.CreateInteractionContext
 title: CreateInteractionContext function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates and initializes an Interaction Context object.
 old-location: input_intcontext\createinteractioncontext.htm
 old-project: Input_IntContext
 ms.assetid: 90b81d1c-c1c0-442b-a534-f6e39e707230
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: CreateInteractionContext, CreateInteractionContext function, input_intcontext.createinteractioncontext, interactioncontext.createinteractioncontext, interactioncontext/CreateInteractionContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: interactioncontext.h
 req.include-header: 

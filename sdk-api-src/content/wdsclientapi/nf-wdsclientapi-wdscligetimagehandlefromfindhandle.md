@@ -1,16 +1,16 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageHandleFromFindHandle
 title: WdsCliGetImageHandleFromFindHandle function
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns an image handle for the current image in an image enumeration.
 old-location: wds\wdscligetimagehandlefromfindhandle.htm
 old-project: Wds
 ms.assetid: 28cb93de-67f2-4e94-b0b7-0707c276662a
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: WdsCliGetImageHandleFromFindHandle, WdsCliGetImageHandleFromFindHandle function [Windows Deployment Services], wds.wdscligetimagehandlefromfindhandle, wdsclientapi/WdsCliGetImageHandleFromFindHandle
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wdsclientapi.h
 req.include-header: 

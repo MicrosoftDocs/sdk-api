@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnEnableCommit
 title: IComObjectEvents::OnEnableCommit
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when the client calls EnableCommit on a context.
 old-location: cos\icomobjectevents_onenablecommit.htm
 old-project: cossdk
 ms.assetid: 88fdf857-1dbd-4a6b-87c6-0d72eeeab9b4
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComObjectEvents interface [COM+],OnEnableCommit method, IComObjectEvents.OnEnableCommit, IComObjectEvents::OnEnableCommit, OnEnableCommit, OnEnableCommit method [COM+], OnEnableCommit method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnEnableCommit, comsvcs/IComObjectEvents::OnEnableCommit, cos.icomobjectevents_onenablecommit
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

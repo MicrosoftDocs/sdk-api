@@ -1,16 +1,16 @@
 ---
 UID: NF:wincrypt.CertAddEncodedCertificateToSystemStoreA
 title: CertAddEncodedCertificateToSystemStoreA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Opens the specified system store and adds the encoded certificate to it.
 old-location: security\certaddencodedcertificatetosystemstore.htm
 old-project: SecCrypto
 ms.assetid: 72ff1bcc-eb94-4d97-89fa-d95ed9eb460e
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: CertAddEncodedCertificateToSystemStore, CertAddEncodedCertificateToSystemStore function [Security], CertAddEncodedCertificateToSystemStoreA, CertAddEncodedCertificateToSystemStoreW, security.certaddencodedcertificatetosystemstore, wincrypt/CertAddEncodedCertificateToSystemStore, wincrypt/CertAddEncodedCertificateToSystemStoreA, wincrypt/CertAddEncodedCertificateToSystemStoreW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincrypt.h
 req.include-header: 

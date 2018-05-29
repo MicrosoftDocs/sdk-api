@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsCreateChannel
 title: WsCreateChannel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates a channel for message exchange with an endpoint.
 old-location: wsw\wscreatechannel.htm
 old-project: wsw
 ms.assetid: 4bef6f97-06f1-442a-8b84-869776f0541d
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsCreateChannel, WsCreateChannel function [Web Services for Windows], webservices/WsCreateChannel, wsw.wscreatechannel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

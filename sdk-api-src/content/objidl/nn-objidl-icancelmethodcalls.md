@@ -1,16 +1,16 @@
 ---
 UID: NN:objidl.ICancelMethodCalls
 title: ICancelMethodCalls
-author: windows-driver-content
+author: windows-sdk-content
 description: Manages cancellation requests on an outbound method call and monitors the current state of that method call on the server thread.
 old-location: com\icancelmethodcalls.htm
 old-project: com
 ms.assetid: 5e31f706-1c9c-4510-845c-4e47093780a1
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ICancelMethodCalls, ICancelMethodCalls interface [COM], ICancelMethodCalls interface [COM],described, _com_icancelmethodcalls, com.icancelmethodcalls, objidlbase/ICancelMethodCalls
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: objidl.h
 req.include-header: ObjIdl.h

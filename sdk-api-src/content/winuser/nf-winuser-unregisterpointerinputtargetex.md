@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.UnregisterPointerInputTargetEx
 title: UnregisterPointerInputTargetEx function
-author: windows-driver-content
+author: windows-sdk-content
 description: UnregisterPointerInputTargetEx may be altered or unavailable. Instead, use UnregisterPointerInputTarget.
 old-location: winauto\unregisterpointerinputtargetex.htm
 old-project: WinAuto
 ms.assetid: 5C62E73A-65D1-4B4D-9165-08B6C844FF3D
-ms.author: windowsdriverdev
-ms.date: 4/16/2018
+ms.author: windowssdkdev
+ms.date: 04/16/2018
 ms.keywords: UnregisterPointerInputTargetEx, UnregisterPointerInputTargetEx function [Windows Accessibility], winauto.unregisterpointerinputtargetex, winuser/UnregisterPointerInputTargetEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winuser.h
 req.include-header: 

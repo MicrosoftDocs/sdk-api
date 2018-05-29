@@ -1,16 +1,16 @@
 ---
 UID: NN:oaidl.ISupportErrorInfo
 title: ISupportErrorInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Ensures that error information can be propagated up the call chain correctly. Automation objects that use the error handling interfaces must implement ISupportErrorInfo.
 old-location: automat\isupporterrorinfo.htm
 old-project: automat
 ms.assetid: 42d33066-36b4-4a5b-aa5d-46682e560f32
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: ISupportErrorInfo, ISupportedErrorInfo, ISupportedErrorInfo interface [Automation], ISupportedErrorInfo interface [Automation],described, _oa96_ISupportErrorInfo_Interface, automat.isupporterrorinfo, oaidl/ISupportErrorInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: oaidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandList.SetFeatureMask
 title: ID3D12DebugCommandList::SetFeatureMask
-author: windows-driver-content
+author: windows-sdk-content
 description: Turns the debug features for a command list on or off.
 old-location: direct3d12\id3d12debugcommandlist_setfeaturemask.htm
 old-project: direct3d12
 ms.assetid: D2273A6C-7401-44D6-A0E3-F3F2C5DBCB8B
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: ID3D12DebugCommandList interface,SetFeatureMask method, ID3D12DebugCommandList.SetFeatureMask, ID3D12DebugCommandList::SetFeatureMask, SetFeatureMask, SetFeatureMask method, SetFeatureMask method,ID3D12DebugCommandList interface, d3d12sdklayers/ID3D12DebugCommandList::SetFeatureMask, direct3d12.id3d12debugcommandlist_setfeaturemask
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12sdklayers.h
 req.include-header: 

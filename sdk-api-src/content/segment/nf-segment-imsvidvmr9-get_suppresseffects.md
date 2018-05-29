@@ -1,16 +1,16 @@
 ---
 UID: NF:segment.IMSVidVMR9.get_SuppressEffects
 title: IMSVidVMR9::get_SuppressEffects
-author: windows-driver-content
+author: windows-sdk-content
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidvmr9_get_suppresseffects.htm
 old-project: mstv
 ms.assetid: 7d2d10fe-39c2-4ee1-a5c5-5624b2fbc2ef
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],get_SuppressEffects method, IMSVidVMR9.get_SuppressEffects, IMSVidVMR9::get_SuppressEffects, IMSVidVMR9get_SuppressEffects, get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies],IMSVidVMR9 interface, mstv.imsvidvmr9_get_suppresseffects, segment/IMSVidVMR9::get_SuppressEffects
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: segment.h
 req.include-header: Msvidctl.h

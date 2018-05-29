@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2fs.IFsiDirectoryItem2
 title: IFsiDirectoryItem2
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to add a directory tree, which includes all sub-directories, files, and associated named streams to a file system image.
 old-location: imapi\ifsidirectoryitem2.htm
 old-project: imapi
 ms.assetid: fed2a858-d710-46be-a05b-dce7ef484636
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IFsiDirectoryItem2, IFsiDirectoryItem2 interface [IMAPI], IFsiDirectoryItem2 interface [IMAPI],described, imapi.ifsidirectoryitem2, imapi2fs/IFsiDirectoryItem2
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2fs.h
 req.include-header: 

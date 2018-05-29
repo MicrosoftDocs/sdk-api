@@ -1,16 +1,16 @@
 ---
 UID: NF:oleidl.IOleObject.GetMiscStatus
 title: IOleObject::GetMiscStatus
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the status of an object at creation and loading.
 old-location: com\ioleobject_getmiscstatus.htm
 old-project: com
 ms.assetid: 0c5e9f73-8eec-48e0-a172-4d3d49e56071
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetMiscStatus, GetMiscStatus method [COM], GetMiscStatus method [COM],IOleObject interface, IOleObject interface [COM],GetMiscStatus method, IOleObject.GetMiscStatus, IOleObject::GetMiscStatus, _ole_ioleobject_getmiscstatus, com.ioleobject_getmiscstatus, oleidl/IOleObject::GetMiscStatus
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: oleidl.h
 req.include-header: 

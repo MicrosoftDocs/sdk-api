@@ -1,16 +1,16 @@
 ---
 UID: NF:winhttp.WinHttpGetDefaultProxyConfiguration
 title: WinHttpGetDefaultProxyConfiguration function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the default WinHTTP proxy configuration from the registry.
 old-location: http\winhttpgetdefaultproxyconfiguration.htm
 old-project: WinHttp
 ms.assetid: e8038b4b-b9d0-481a-a49c-26201d72bc7a
-ms.author: windowsdriverdev
-ms.date: 3/8/2018
+ms.author: windowssdkdev
+ms.date: 03/08/2018
 ms.keywords: WinHttpGetDefaultProxyConfiguration, WinHttpGetDefaultProxyConfiguration function [WinHTTP], http.winhttpgetdefaultproxyconfiguration, winhttp.winhttpgetdefaultproxyconfiguration_function, winhttp/WinHttpGetDefaultProxyConfiguration
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winhttp.h
 req.include-header: 

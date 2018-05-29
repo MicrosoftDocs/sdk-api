@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase._lwrite
 title: "_lwrite function"
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes data to the specified file.
 old-location: winprog\_lwrite.htm
 old-project: DevNotes
 ms.assetid: 34b875a4-ca45-4f9d-a5be-e6e4d41c68bf
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "_lwrite, _lwrite function [Windows API], winbase/_lwrite, winprog._lwrite"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

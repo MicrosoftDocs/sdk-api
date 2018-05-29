@@ -1,16 +1,16 @@
 ---
 UID: NS:wtsdefs._WTS_SESSION_ID
 title: "_WTS_SESSION_ID"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a GUID that uniquely identifies a session.
 old-location: termserv\wts_session_id.htm
 old-project: TermServ
 ms.assetid: fe0714ec-c670-40b7-9808-2171abae79a8
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PWTS_SESSION_ID, PWRDS_SESSION_ID, PWRDS_SESSION_ID structure pointer [Remote Desktop Services], PWTS_SESSION_ID, PWTS_SESSION_ID structure pointer [Remote Desktop Services], WRDS_SESSION_ID, WRDS_SESSION_ID structure [Remote Desktop Services], WTS_SESSION_ID, WTS_SESSION_ID structure [Remote Desktop Services], _WTS_SESSION_ID, termserv.wts_session_id, wtsdefs/PWRDS_SESSION_ID, wtsdefs/PWTS_SESSION_ID, wtsdefs/WRDS_SESSION_ID, wtsdefs/WTS_SESSION_ID"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h

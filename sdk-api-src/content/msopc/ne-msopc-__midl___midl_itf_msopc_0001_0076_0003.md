@@ -1,16 +1,16 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0003
 title: "__MIDL___MIDL_itf_msopc_0001_0076_0003"
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes whether a reference represented by the IOpcSignatureRelationshipReference interface refers to all or a subset of relationships represented as relationship objects in a relationship set object.
 old-location: opc\opc_relationships_signing_option.htm
 old-project: OPC
 ms.assetid: b6a83730-459a-4119-a013-7d670e659c32
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: OPC_RELATIONSHIPS_SIGNING_OPTION, OPC_RELATIONSHIPS_SIGNING_OPTION enumeration [Open Packaging Conventions], OPC_RELATIONSHIP_SIGN_PART, OPC_RELATIONSHIP_SIGN_USING_SELECTORS, __MIDL___MIDL_itf_msopc_0001_0076_0003, msopc/OPC_RELATIONSHIPS_SIGNING_OPTION, msopc/OPC_RELATIONSHIP_SIGN_PART, msopc/OPC_RELATIONSHIP_SIGN_USING_SELECTORS, opc.opc_relationships_signing_option
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: msopc.h
 req.include-header: 

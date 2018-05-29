@@ -1,16 +1,16 @@
 ---
 UID: NN:wsdbase.IWSDHttpMessageParameters
 title: IWSDHttpMessageParameters
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides access to the HTTP headers used when transmitting messages via SOAP-over-HTTP.
 old-location: ncd\iwsdhttpmessageparameters.htm
 old-project: WsdApi
 ms.assetid: fae10e9e-0c2b-4817-bd28-a4a85ca180cc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDHttpMessageParameters, IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,described, ncd.iwsdhttpmessageparameters, wsdbase/IWSDHttpMessageParameters
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdbase.h
 req.include-header: Wsdapi.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICBitmapSource.CopyPalette
 title: IWICBitmapSource::CopyPalette
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the color table for indexed pixel formats.
 old-location: wic\_wic_codec_iwicbitmapsource_copypalette.htm
 old-project: wic
 ms.assetid: 5e45ca4a-2d14-4829-9542-9cfc3e4b0d73
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: CopyPalette, CopyPalette method [Windows Imaging Component], CopyPalette method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],CopyPalette method, IWICBitmapSource.CopyPalette, IWICBitmapSource::CopyPalette, _wic_codec_iwicbitmapsource_copypalette, wic._wic_codec_iwicbitmapsource_copypalette, wincodec/IWICBitmapSource::CopyPalette
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

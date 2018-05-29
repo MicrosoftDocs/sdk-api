@@ -1,16 +1,16 @@
 ---
 UID: NF:wincred.CredRenameA
 title: CredRenameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: CredRename is no longer supported.
 old-location: security\credrename.htm
 old-project: SecAuthN
 ms.assetid: e598f2ae-f975-4dd2-bf0b-e2fd96d4c940
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: CredRename, CredRename function [Security], CredRenameA, CredRenameW, _cred_credrename, security.credrename, wincred/CredRename, wincred/CredRenameA, wincred/CredRenameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: wincred.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:fwpmu.FwpmConnectionGetById0
 title: FwpmConnectionGetById0 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves a connection object.
 old-location: fwp\fwpmconnectiongetbyid0.htm
 old-project: FWP
 ms.assetid: 630f513b-49c9-4d3a-a5e2-7ea6b940d333
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: FwpmConnectionGetById0, FwpmConnectionGetById0 function [Filtering], fwp.fwpmconnectiongetbyid0, fwpmu/FwpmConnectionGetById0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: fwpmu.h
 req.include-header: 

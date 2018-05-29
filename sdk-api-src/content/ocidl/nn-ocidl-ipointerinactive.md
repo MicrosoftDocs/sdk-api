@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.IPointerInactive
 title: IPointerInactive
-author: windows-driver-content
+author: windows-sdk-content
 description: Enables an object to remain inactive most of the time, yet still participate in interaction with the mouse, including drag and drop.
 old-location: com\ipointerinactive.htm
 old-project: com
 ms.assetid: dc08d512-6994-419a-a460-6274ce74e40f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPointerInactive, IPointerInactive interface [COM], IPointerInactive interface [COM],described, _ctrl_ipointerinactive, com.ipointerinactive, ocidl/IPointerInactive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:webservices._WS_CUSTOM_CERT_CREDENTIAL
 title: "_WS_CUSTOM_CERT_CREDENTIAL"
-author: windows-driver-content
+author: windows-sdk-content
 description: The type for specifying a certificate credential that is to be supplied by a callback to the application.
 old-location: wsw\ws_custom_cert_credential.htm
 old-project: wsw
 ms.assetid: 822dd067-803c-4e72-bfd0-fd9f9f36d390
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WS_CUSTOM_CERT_CREDENTIAL, WS_CUSTOM_CERT_CREDENTIAL structure [Web Services for Windows], _WS_CUSTOM_CERT_CREDENTIAL, webservices/WS_CUSTOM_CERT_CREDENTIAL, wsw.ws_custom_cert_credential
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: webservices.h
 req.include-header: 

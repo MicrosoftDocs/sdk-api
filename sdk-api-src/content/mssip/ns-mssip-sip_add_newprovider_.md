@@ -1,16 +1,16 @@
 ---
 UID: NS:mssip.SIP_ADD_NEWPROVIDER_
 title: SIP_ADD_NEWPROVIDER_
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines a subject interface package (SIP). This structure is used by the CryptSIPAddProvider function.
 old-location: security\sip_add_newprovider.htm
 old-project: SecCrypto
 ms.assetid: 5ca88c0c-a7c9-4517-a874-49d38c1bc7c3
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PSIP_ADD_NEWPROVIDER, PSIP_ADD_NEWPROVIDER, PSIP_ADD_NEWPROVIDER structure pointer [Security], SIP_ADD_NEWPROVIDER, SIP_ADD_NEWPROVIDER structure [Security], SIP_ADD_NEWPROVIDER_, mssip/PSIP_ADD_NEWPROVIDER, mssip/SIP_ADD_NEWPROVIDER, security.sip_add_newprovider"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mssip.h
 req.include-header: 

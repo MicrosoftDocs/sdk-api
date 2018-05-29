@@ -1,16 +1,16 @@
 ---
 UID: NF:dvbsiparser.IIsdbSeriesDescriptor.GetEpisodeNumber
 title: IIsdbSeriesDescriptor::GetEpisodeNumber
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the episode number from an Integrated Services Digital Broadcasting (ISDB) series descriptor.
 old-location: mstv\iisdbseriesdescriptor_getepisodenumber.htm
 old-project: mstv
 ms.assetid: 1a28ff17-4a5e-4245-845e-1307830fb3fd
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetEpisodeNumber, GetEpisodeNumber method [Microsoft TV Technologies], GetEpisodeNumber method [Microsoft TV Technologies],IIsdbSeriesDescriptor interface, IIsdbSeriesDescriptor interface [Microsoft TV Technologies],GetEpisodeNumber method, IIsdbSeriesDescriptor.GetEpisodeNumber, IIsdbSeriesDescriptor::GetEpisodeNumber, dvbsiparser/IIsdbSeriesDescriptor::GetEpisodeNumber, mstv.iisdbseriesdescriptor_getepisodenumber
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl

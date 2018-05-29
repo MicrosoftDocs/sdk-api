@@ -1,16 +1,16 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents2.OnObjPoolCreatePool
 title: IComObjectPoolEvents2::OnObjPoolCreatePool
-author: windows-driver-content
+author: windows-sdk-content
 description: Generated when a new pool is created.
 old-location: cos\icomobjectpoolevents2_onobjpoolcreatepool.htm
 old-project: cossdk
 ms.assetid: fa7a5ee4-8304-426c-9063-d25e2ed69668
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IComObjectPoolEvents2 interface [COM+],OnObjPoolCreatePool method, IComObjectPoolEvents2.OnObjPoolCreatePool, IComObjectPoolEvents2::OnObjPoolCreatePool, OnObjPoolCreatePool, OnObjPoolCreatePool method [COM+], OnObjPoolCreatePool method [COM+],IComObjectPoolEvents2 interface, _dtc_IComObjectPoolEvents2_OnObjPoolCreatePool, comsvcs/IComObjectPoolEvents2::OnObjPoolCreatePool, cos.icomobjectpoolevents2_onobjpoolcreatepool
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: comsvcs.h
 req.include-header: 

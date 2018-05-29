@@ -1,16 +1,16 @@
 ---
 UID: NF:webservices.WsAddCustomHeader
 title: WsAddCustomHeader function
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds the specified application-defined header to the message.
 old-location: wsw\wsaddcustomheader.htm
 old-project: wsw
 ms.assetid: 4b95085a-e522-4ab2-b7c9-d332599c5598
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: WsAddCustomHeader, WsAddCustomHeader function [Web Services for Windows], webservices/WsAddCustomHeader, wsw.wsaddcustomheader
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: webservices.h
 req.include-header: 

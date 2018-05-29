@@ -1,16 +1,16 @@
 ---
 UID: NF:combaseapi.CoInitializeSecurity
 title: CoInitializeSecurity function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers security and sets the default security values for the process.
 old-location: com\coinitializesecurity.htm
 old-project: com
 ms.assetid: e0933741-6b75-4ce1-aa63-6240e4a7130f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CoInitializeSecurity, CoInitializeSecurity function [COM], _com_CoInitializeSecurity, com.coinitializesecurity, combaseapi/CoInitializeSecurity
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: combaseapi.h
 req.include-header: Objbase.h

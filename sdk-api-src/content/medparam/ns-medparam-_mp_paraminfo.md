@@ -1,16 +1,16 @@
 ---
 UID: NS:medparam._MP_PARAMINFO
 title: "_MP_PARAMINFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The MP_PARAMINFO structure contains information about a parameter.
 old-location: dshow\mp_paraminfo.htm
 old-project: DirectShow
 ms.assetid: 91d2d08b-a55e-492f-a509-9c080cc438df
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: MP_PARAMINFO, MP_PARAMINFO structure [DirectShow], MP_PARAMINFOStructure, _MP_PARAMINFO, dshow.mp_paraminfo, medparam/MP_PARAMINFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: medparam.h
 req.include-header: 

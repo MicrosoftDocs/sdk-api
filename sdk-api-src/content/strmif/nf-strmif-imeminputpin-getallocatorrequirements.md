@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IMemInputPin.GetAllocatorRequirements
 title: IMemInputPin::GetAllocatorRequirements
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAllocatorRequirements method retrieves the allocator properties requested by the input pin.
 old-location: dshow\imeminputpin_getallocatorrequirements.htm
 old-project: DirectShow
 ms.assetid: 61e6ea4f-70cd-43d8-bbb7-76e041ee0eeb
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: GetAllocatorRequirements, GetAllocatorRequirements method [DirectShow], GetAllocatorRequirements method [DirectShow],IMemInputPin interface, IMemInputPin interface [DirectShow],GetAllocatorRequirements method, IMemInputPin.GetAllocatorRequirements, IMemInputPin::GetAllocatorRequirements, IMemInputPinGetAllocatorRequirements, dshow.imeminputpin_getallocatorrequirements, strmif/IMemInputPin::GetAllocatorRequirements
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

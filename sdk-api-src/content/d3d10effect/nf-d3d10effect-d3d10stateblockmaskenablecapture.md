@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d10effect.D3D10StateBlockMaskEnableCapture
 title: D3D10StateBlockMaskEnableCapture function
-author: windows-driver-content
+author: windows-sdk-content
 description: Enable a range of state values in a state block mask.
 old-location: direct3d10\d3d10stateblockmaskenablecapture.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskenablecapture.htm
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: D3D10StateBlockMaskEnableCapture, D3D10StateBlockMaskEnableCapture function [Direct3D 10], d3d10effect/D3D10StateBlockMaskEnableCapture, direct3d10.d3d10stateblockmaskenablecapture, facce8d7-c03d-439b-89fb-733b2d013965
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3d10effect.h
 req.include-header: 

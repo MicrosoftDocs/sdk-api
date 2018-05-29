@@ -1,16 +1,16 @@
 ---
 UID: NF:mi.MI_Context_RegisterCancel
 title: MI_Context_RegisterCancel function
-author: windows-driver-content
+author: windows-sdk-content
 description: Registers a callback that is invoked when the operation is canceled.
 old-location: wmi_v2\mi_context_registercancel.htm
 old-project: wmi_v2
 ms.assetid: 7e6b2016-6ce5-4dcd-b5f4-6e6d24c46f0a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Context_RegisterCancel, MI_Context_RegisterCancel function [Windows Management Infrastructure (MI)], mi/MI_Context_RegisterCancel, wmi.mi_registercancel, wmi_v2.mi_context_registercancel
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mi.h
 req.include-header: 

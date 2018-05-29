@@ -1,16 +1,16 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.GetResolutionHandler
 title: ISyncMgrConflict::GetResolutionHandler
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the resolution handler for the conflict.
 old-location: shell\ISyncMgrConflict_GetResolutionHandler.htm
 old-project: shell
 ms.assetid: 9adbc429-098c-4ba9-af62-54f772be83e3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetResolutionHandler, GetResolutionHandler method [Windows Shell], GetResolutionHandler method [Windows Shell],ISyncMgrConflict interface, ISyncMgrConflict interface [Windows Shell],GetResolutionHandler method, ISyncMgrConflict.GetResolutionHandler, ISyncMgrConflict::GetResolutionHandler, _shell_ISyncMgrConflict_GetResolutionHandler, shell.ISyncMgrConflict_GetResolutionHandler, syncmgr/ISyncMgrConflict::GetResolutionHandler
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: syncmgr.h
 req.include-header: 

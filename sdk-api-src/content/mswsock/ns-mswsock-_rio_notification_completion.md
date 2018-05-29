@@ -1,16 +1,16 @@
 ---
 UID: NS:mswsock._RIO_NOTIFICATION_COMPLETION
 title: "_RIO_NOTIFICATION_COMPLETION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies the method for I/O completion to be used with a RIONotify function for sending or receiving network data with the Winsock registered I/O extensions.
 old-location: winsock\rio_notification_completion.htm
 old-project: WinSock
 ms.assetid: 85D3D68F-A914-4126-8D3D-4A6E3F970A4B
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "*PRIO_NOTIFICATION_COMPLETION, PRIO_NOTIFICATION_COMPLETION, PRIO_NOTIFICATION_COMPLETION structure pointer [Winsock], RIO_NOTIFICATION_COMPLETION, RIO_NOTIFICATION_COMPLETION structure [Winsock], _RIO_NOTIFICATION_COMPLETION, mswsock/PRIO_NOTIFICATION_COMPLETION, mswsock/RIO_NOTIFICATION_COMPLETION, winsock.rio_notification_completion"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mswsock.h
 req.include-header: 

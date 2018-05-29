@@ -1,16 +1,16 @@
 ---
 UID: NS:avrfsdk._AVRF_HANDLE_OPERATION
 title: "_AVRF_HANDLE_OPERATION"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains information required to collect handle trace information.
 old-location: winprog\avrf_handle_operation.htm
 old-project: DevNotes
 ms.assetid: 9268d24d-5000-4ac5-a3c5-895613ccbb9a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: "*PAVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION, AVRF_HANDLE_OPERATION structure [Windows API], _AVRF_HANDLE_OPERATION, avrfsdk/AVRF_HANDLE_OPERATION, base.avrf_handle_operation, winprog.avrf_handle_operation"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: avrfsdk.h
 req.include-header: 

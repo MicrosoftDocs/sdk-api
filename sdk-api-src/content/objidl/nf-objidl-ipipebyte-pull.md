@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.IPipeByte.Pull
 title: IPipeByte::Pull
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves data of the byte type from the pipe source.
 old-location: com\ipipebyte_pull.htm
 old-project: com
 ms.assetid: 07d4d4cd-de41-41bc-af71-ff12affcbbbe
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IPipeByte interface [COM],Pull method, IPipeByte.Pull, IPipeByte::Pull, Pull, Pull method [COM], Pull method [COM],IPipeByte interface, _com_ipipebyte_pull, com.ipipebyte_pull, objidlbase/IPipeByte::Pull
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: ObjIdl.h

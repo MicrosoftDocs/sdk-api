@@ -1,16 +1,16 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceResources.GetResourceAttributes
 title: IPortableDeviceResources::GetResourceAttributes
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetResourceAttributes method retrieves all attributes from a specified resource in an object.
 old-location: wpdsdk\iportabledeviceresources_getresourceattributes.htm
 old-project: wpd_sdk
 ms.assetid: 6188d0cc-3161-400e-9abf-ef43a4dee690
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: GetResourceAttributes, GetResourceAttributes method [Windows Portable Devices SDK], GetResourceAttributes method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],GetResourceAttributes method, IPortableDeviceResources.GetResourceAttributes, IPortableDeviceResources::GetResourceAttributes, IPortableDeviceResourcesGetResourceAttributes, portabledeviceapi/IPortableDeviceResources::GetResourceAttributes, wpdsdk.iportabledeviceresources_getresourceattributes
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: portabledeviceapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_AverageTalkTime
 title: ITAgentSession::get_AverageTalkTime
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_AverageTalkTime method gets the average time (in seconds) spent talking per ACD call, during this agent session (by this agent).
 old-location: tapi3\itagentsession_get_averagetalktime.htm
 old-project: Tapi
 ms.assetid: b6025053-b21f-478e-86d7-a8572ed2b205
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_AverageTalkTime method, ITAgentSession.get_AverageTalkTime, ITAgentSession::get_AverageTalkTime, _tapi3_itagentsession_get_averagetalktime, get_AverageTalkTime, get_AverageTalkTime method [TAPI 2.2], get_AverageTalkTime method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_averagetalktime, tapi3cc/ITAgentSession::get_AverageTalkTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3cc.h
 req.include-header: Tapi3.h

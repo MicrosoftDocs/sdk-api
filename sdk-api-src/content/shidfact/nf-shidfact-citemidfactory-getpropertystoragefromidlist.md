@@ -1,16 +1,16 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetPropertyStorageFromIDList
 title: CItemIDFactory::GetPropertyStorageFromIDList
-author: windows-driver-content
+author: windows-sdk-content
 description: Create an instance of the IPropertyStore based on the serialized property storage associated with the first ItemID.
 old-location: shell\citemidfactory_getpropertystoragefromidlist.htm
 old-project: shell
 ms.assetid: 50E8F4F9-1E7B-4314-9AFB-1CA0795776FE
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],GetPropertyStorageFromIDList method, CItemIDFactory.GetPropertyStorageFromIDList, CItemIDFactory::GetPropertyStorageFromIDList, GetPropertyStorageFromIDList, GetPropertyStorageFromIDList method [Windows Shell], GetPropertyStorageFromIDList method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_getpropertystoragefromidlist, shidfact/CItemIDFactory::GetPropertyStorageFromIDList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shidfact.h
 req.include-header: 

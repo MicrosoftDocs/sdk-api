@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME
 title: PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME
-author: windows-driver-content
+author: windows-sdk-content
 description: Adjusts environment data for a resource so that the resource uses a cluster network name to identify its location.
 old-location: mscs\resutilgetenvironmentwithnetname.htm
 old-project: MsCS
 ms.assetid: 683235ac-153d-4442-915e-e1bf9b5e8810
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME, PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME callback, PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME callback function [Failover Cluster], _wolf_resutilgetenvironmentwithnetname, mscs.resutilgetenvironmentwithnetname, resapi/PRESUTIL_GET_ENVIRONMENT_WITH_NET_NAME
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

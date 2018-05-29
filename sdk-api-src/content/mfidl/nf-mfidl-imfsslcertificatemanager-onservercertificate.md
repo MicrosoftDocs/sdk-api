@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFSSLCertificateManager.OnServerCertificate
 title: IMFSSLCertificateManager::OnServerCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: Called by Media Foundation when the server SSL certificate has been received; indicates whether the server certificate is accepted.
 old-location: mf\imfsslcertificatemanager_onservercertificate.htm
 old-project: medfound
 ms.assetid: 4ba43175-4429-437d-acfb-e0ea8d300651
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IMFSSLCertificateManager interface [Media Foundation],OnServerCertificate method, IMFSSLCertificateManager.OnServerCertificate, IMFSSLCertificateManager::OnServerCertificate, OnServerCertificate, OnServerCertificate method [Media Foundation], OnServerCertificate method [Media Foundation],IMFSSLCertificateManager interface, mf.imfsslcertificatemanager_onservercertificate, mfidl/IMFSSLCertificateManager::OnServerCertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

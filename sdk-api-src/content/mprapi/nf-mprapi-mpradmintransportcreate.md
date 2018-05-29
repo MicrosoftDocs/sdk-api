@@ -1,16 +1,16 @@
 ---
 UID: NF:mprapi.MprAdminTransportCreate
 title: MprAdminTransportCreate function
-author: windows-driver-content
+author: windows-sdk-content
 description: The MprAdminTransportCreate function loads a new transport, and starts the router manager for the transport.
 old-location: rras\mpradmintransportcreate.htm
 old-project: RRAS
 ms.assetid: 14639cec-9c9a-48f5-b7cc-0aaca7ececbc
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: MprAdminTransportCreate, MprAdminTransportCreate function [RAS], _mpr_mpradmintransportcreate, mprapi/MprAdminTransportCreate, rras.mpradmintransportcreate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mprapi.h
 req.include-header: 

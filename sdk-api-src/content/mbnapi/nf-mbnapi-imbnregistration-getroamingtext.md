@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetRoamingText
 title: IMbnRegistration::GetRoamingText
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the roaming text describing the roaming provider.
 old-location: mbn\imbnregistration_getroamingtext.htm
 old-project: mbn
 ms.assetid: a2911387-7497-43c5-bc1c-db093f31186c
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetRoamingText, GetRoamingText method [Microsoft Broadband Networks], GetRoamingText method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRoamingText method, IMbnRegistration.GetRoamingText, IMbnRegistration::GetRoamingText, mbn.imbnregistration_getroamingtext, mbnapi/IMbnRegistration::GetRoamingText
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

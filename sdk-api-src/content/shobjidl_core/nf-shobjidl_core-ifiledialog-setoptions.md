@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetOptions
 title: IFileDialog::SetOptions
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets flags to control the behavior of the dialog.
 old-location: shell\IFileDialog_SetOptions.htm
 old-project: shell
 ms.assetid: 99def5c2-3fc3-416c-80a6-6009927ab63e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetOptions method, IFileDialog.SetOptions, IFileDialog::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetOptions, shell_IFileDialog_SetOptions, shobjidl_core/IFileDialog::SetOptions
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

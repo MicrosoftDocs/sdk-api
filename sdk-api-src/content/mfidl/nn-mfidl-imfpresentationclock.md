@@ -1,16 +1,16 @@
 ---
 UID: NN:mfidl.IMFPresentationClock
 title: IMFPresentationClock
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents a presentation clock, which is used to schedule when samples are rendered and to synchronize multiple streams.
 old-location: mf\imfpresentationclock.htm
 old-project: medfound
 ms.assetid: 979c4f77-cbee-468c-8f6b-e68442d89025
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 979c4f77-cbee-468c-8f6b-e68442d89025, IMFPresentationClock, IMFPresentationClock interface [Media Foundation], IMFPresentationClock interface [Media Foundation],described, mf.imfpresentationclock, mfidl/IMFPresentationClock
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wsdattachment.IWSDInboundAttachment
 title: IWSDInboundAttachment
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows applications to read MIME-encoded attachment data from an incoming message.
 old-location: ncd\iwsdinboundattachment.htm
 old-project: WsdApi
 ms.assetid: 1bacbf20-2eb2-4aa1-ba37-e14dc0d955b0
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDInboundAttachment, IWSDInboundAttachment interface, IWSDInboundAttachment interface,described, ncd.iwsdinboundattachment, wsdattachment/IWSDInboundAttachment
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdattachment.h
 req.include-header: Wsdapi.h

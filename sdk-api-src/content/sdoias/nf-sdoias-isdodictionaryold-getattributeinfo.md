@@ -1,16 +1,16 @@
 ---
 UID: NF:sdoias.ISdoDictionaryOld.GetAttributeInfo
 title: ISdoDictionaryOld::GetAttributeInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetAttributeInfo retrieves information for the specified attribute.
 old-location: nps\SDO_isdodictionaryold_getattributeinfo.htm
 old-project: Nps
 ms.assetid: 80535d3c-17bb-482b-b5bb-7d747f238b62
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: GetAttributeInfo, GetAttributeInfo method [Network Policy Server], GetAttributeInfo method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],GetAttributeInfo method, ISdoDictionaryOld.GetAttributeInfo, ISdoDictionaryOld::GetAttributeInfo, _sdo_isdodictionaryold_getattributeinfo, nps.SDO_isdodictionaryold_getattributeinfo, sdo.isdodictionaryold_getattributeinfo, sdoias/ISdoDictionaryOld::GetAttributeInfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: sdoias.h
 req.include-header: 

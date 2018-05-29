@@ -1,16 +1,16 @@
 ---
 UID: NF:shlwapi.UrlEscapeSpaces
 title: UrlEscapeSpaces macro
-author: windows-driver-content
+author: windows-sdk-content
 description: A macro that converts space characters into their corresponding escape sequence.
 old-location: shell\UrlEscapeSpaces.htm
 old-project: shell
 ms.assetid: d6d676f1-0ef3-4701-99b2-ca520b39ce6e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: UrlEscapeSpaces, UrlEscapeSpaces function [Windows Shell], _win32_UrlEscapeSpaces, shell.UrlEscapeSpaces, shlwapi/UrlEscapeSpaces
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: shlwapi.h
 req.include-header: 

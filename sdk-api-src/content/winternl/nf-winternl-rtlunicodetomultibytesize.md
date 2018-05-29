@@ -1,16 +1,16 @@
 ---
 UID: NF:winternl.RtlUnicodeToMultiByteSize
 title: RtlUnicodeToMultiByteSize function
-author: windows-driver-content
+author: windows-sdk-content
 description: Determines how many bytes are needed to represent a Unicode string as an ANSI string.
 old-location: winprog\rtlunicodetomultibytesize.htm
 old-project: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlunicodetomultibytesize.htm
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: RtlUnicodeToMultiByteSize, RtlUnicodeToMultiByteSize function [Windows API], winprog.rtlunicodetomultibytesize, winternl/RtlUnicodeToMultiByteSize, winui.rtlunicodetomultibytesize
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winternl.h
 req.include-header: 

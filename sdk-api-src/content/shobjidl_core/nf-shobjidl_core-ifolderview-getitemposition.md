@@ -1,16 +1,16 @@
 ---
 UID: NF:shobjidl_core.IFolderView.GetItemPosition
 title: IFolderView::GetItemPosition
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the position of an item in the folder's view.
 old-location: shell\IFolderView_GetItemPosition.htm
 old-project: shell
 ms.assetid: 454d074c-1044-4626-8ec7-18e2adb4beca
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: GetItemPosition, GetItemPosition method [Windows Shell], GetItemPosition method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetItemPosition method, IFolderView.GetItemPosition, IFolderView::GetItemPosition, _shell_IFolderView_GetItemPosition, shell.IFolderView_GetItemPosition, shobjidl_core/IFolderView::GetItemPosition
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

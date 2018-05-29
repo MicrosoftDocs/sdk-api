@@ -1,16 +1,16 @@
 ---
 UID: NF:winnt.MAKESORTLCID
 title: MAKESORTLCID macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Constructs a locale identifier (LCID) from a language identifier, a sort order identifier, and the sort version.
 old-location: intl\makesortlcid.htm
 old-project: Intl
 ms.assetid: 58327bfc-8a00-4fdc-bd5a-cef9c0b29faa
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: MAKESORTLCID, MAKESORTLCID macro [Internationalization for Windows Applications], _win32_MAKESORTLCID, intl.makesortlcid, winnt/MAKESORTLCID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winnt.h
 req.include-header: Windows.h

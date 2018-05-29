@@ -1,16 +1,16 @@
 ---
 UID: NF:winbase.SetVolumeLabelW
 title: SetVolumeLabelW function
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the label of a file system volume.
 old-location: fs\setvolumelabel.htm
 old-project: FileIO
 ms.assetid: 1851ed79-7a29-4731-8b67-75d6e9220705
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: SetVolumeLabel, SetVolumeLabel function [Files], SetVolumeLabelA, SetVolumeLabelW, _win32_setvolumelabel, base.setvolumelabel, fs.setvolumelabel, winbase/SetVolumeLabel, winbase/SetVolumeLabelA, winbase/SetVolumeLabelW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winbase.h
 req.include-header: Windows.h

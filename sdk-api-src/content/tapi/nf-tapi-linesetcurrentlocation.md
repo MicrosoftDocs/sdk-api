@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi.lineSetCurrentLocation
 title: lineSetCurrentLocation function
-author: windows-driver-content
+author: windows-sdk-content
 description: The lineSetCurrentLocation function sets the location used as the context for address translation.
 old-location: tapi2\linesetcurrentlocation.htm
 old-project: Tapi
 ms.assetid: ad31bc8b-399d-4c2e-b79c-fc935d5adf1a
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: "_tapi2_linesetcurrentlocation, lineSetCurrentLocation, lineSetCurrentLocation function [TAPI 2.2], tapi/lineSetCurrentLocation, tapi2.linesetcurrentlocation"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: tapi.h
 req.include-header: 

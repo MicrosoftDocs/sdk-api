@@ -1,16 +1,16 @@
 ---
 UID: NF:certenroll.ICspInformation.InitializeFromType
 title: ICspInformation::InitializeFromType
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes the object from the default cryptographic provider.
 old-location: security\icspinformation_initializefromtype_method.htm
 old-project: SecCertEnroll
 ms.assetid: 24466981-2ea2-41f5-b2db-85b5629fba7d
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: ICspInformation interface [Security],InitializeFromType method, ICspInformation.InitializeFromType, ICspInformation::InitializeFromType, InitializeFromType, InitializeFromType method [Security], InitializeFromType method [Security],ICspInformation interface, certenroll/ICspInformation::InitializeFromType, security.icspinformation_initializefromtype_method
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: certenroll.h
 req.include-header: 

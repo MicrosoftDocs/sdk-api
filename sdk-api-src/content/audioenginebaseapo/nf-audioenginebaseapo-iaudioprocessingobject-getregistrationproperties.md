@@ -1,16 +1,16 @@
 ---
 UID: NF:audioenginebaseapo.IAudioProcessingObject.GetRegistrationProperties
 title: IAudioProcessingObject::GetRegistrationProperties
-author: windows-driver-content
+author: windows-sdk-content
 description: GetRegistrationProperties returns the registration properties of the audio processing object (APO).
 old-location: audio\iaudioprocessingobject_getregistrationproperties.htm
 old-project: audio
 ms.assetid: A0D0BAA9-7942-4952-AC9D-087EE7FE6DD0
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: GetRegistrationProperties, GetRegistrationProperties method [Audio Devices], GetRegistrationProperties method [Audio Devices],IAudioProcessingObject interface, IAudioProcessingObject interface [Audio Devices],GetRegistrationProperties method, IAudioProcessingObject.GetRegistrationProperties, IAudioProcessingObject::GetRegistrationProperties, audio.iaudioprocessingobject_getregistrationproperties, audioenginebaseapo/IAudioProcessingObject::GetRegistrationProperties
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: audioenginebaseapo.h
 req.include-header: 

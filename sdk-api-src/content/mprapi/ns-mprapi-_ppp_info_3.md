@@ -1,16 +1,16 @@
 ---
 UID: NS:mprapi._PPP_INFO_3
 title: "_PPP_INFO_3"
-author: windows-driver-content
+author: windows-sdk-content
 description: The PPP_INFO_3 structure is used to report the results of the various Point-to-Point (PPP) projection operations for a connection.
 old-location: rras\ppp_info_3.htm
 old-project: RRAS
 ms.assetid: cc231775-83bc-45d5-8bd8-7ac4cf5f09ff
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: PPP_INFO_3, PPP_INFO_3 structure [RAS], _PPP_INFO_3, mprapi/PPP_INFO_3, rras.ppp_info_3
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mprapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingLibraryName
 title: IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_userHomeMediaSharingLibraryName method retrieves the name of the current user's shared media library.
 old-location: wmlss\IWMLSSget_userHomeMediaSharingLibraryName.htm
 old-project: WMLSS
 ms.assetid: e41d5918-f554-4863-9ea6-11f562ac4d0f
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_userHomeMediaSharingLibraryName method, IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingLibraryName, IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName, get_userHomeMediaSharingLibraryName, get_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services], get_userHomeMediaSharingLibraryName method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_userHomeMediaSharingLibraryName, wmlss/IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmlss.h
 req.include-header: Wmlss.h

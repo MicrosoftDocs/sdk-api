@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GetProfile
 title: IMFASFContentInfo::GetProfile
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an Advanced Systems Format (ASF) profile that describes the ASF content.
 old-location: mf\imfasfcontentinfo_getprofile.htm
 old-project: medfound
 ms.assetid: 6f74c896-a0c0-407b-b893-de15863bc2eb
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 6f74c896-a0c0-407b-b893-de15863bc2eb, GetProfile, GetProfile method [Media Foundation], GetProfile method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GetProfile method, IMFASFContentInfo.GetProfile, IMFASFContentInfo::GetProfile, mf.imfasfcontentinfo_getprofile, wmcontainer/IMFASFContentInfo::GetProfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

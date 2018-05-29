@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_Server
 title: "_MI_Server"
-author: windows-driver-content
+author: windows-sdk-content
 description: This structure defines default function tables for all types:\_Context, Instance, PropertySet, and Filter.
 old-location: wmi_v2\mi_server.htm
 old-project: wmi_v2
 ms.assetid: bbe367c4-1964-4f6d-9345-fa19c090e018
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_Server, MI_Server structure [Windows Management Infrastructure (MI)], _MI_Server, mi/MI_Server, wmi._mi_server, wmi_v2.mi_server
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

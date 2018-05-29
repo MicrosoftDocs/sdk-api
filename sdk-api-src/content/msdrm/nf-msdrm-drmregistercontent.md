@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMRegisterContent
 title: DRMRegisterContent function
-author: windows-driver-content
+author: windows-sdk-content
 description: Informs the Active Directory Rights Management Services (AD RMS) client that an AD RMS-protected document is being or is no longer being displayed.
 old-location: rm\drmregistercontent.htm
 old-project: AdRms_Sdk
 ms.assetid: ddf1ef8d-f509-43c0-87bd-9ea393a7231a
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMRegisterContent, DRMRegisterContent function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRegisterContent, rm.drmregistercontent
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:wsdhost.IWSDServiceMessaging
 title: IWSDServiceMessaging
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used by generated stub code to send faults or responses to incoming messages.
 old-location: ncd\iwsdservicemessaging.htm
 old-project: WsdApi
 ms.assetid: 06584474-1c55-43db-9c7a-fefea8d16eed
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IWSDServiceMessaging, IWSDServiceMessaging interface, IWSDServiceMessaging interface,described, ncd.iwsdservicemessaging, wsdhost/IWSDServiceMessaging
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wsdhost.h
 req.include-header: Wsdapi.h

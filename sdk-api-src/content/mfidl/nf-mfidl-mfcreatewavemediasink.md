@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.MFCreateWAVEMediaSink
 title: MFCreateWAVEMediaSink function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an WAVE archive sink. The WAVE archive sink takes audio and writes it to an .wav file.
 old-location: mf\mfcreatewavemediasink.htm
 old-project: medfound
 ms.assetid: AF2FAE46-E7A0-4294-8EE1-499AE11CD1E3
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateWAVEMediaSink, MFCreateWAVEMediaSink function [Media Foundation], mf.mfcreatewavemediasink, mfidl/MFCreateWAVEMediaSink
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfidl.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vswriter.CVssWriter.OnContinueIOOnVolume
 title: CVssWriter::OnContinueIOOnVolume
-author: windows-driver-content
+author: windows-sdk-content
 description: Not supported.
 old-location: base\cvsswriter_oncontinueioonvolume.htm
 old-project: VSS
 ms.assetid: dd8271a3-4119-412d-abbd-1251196ac948
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CVssWriter interface [VSS],OnContinueIOOnVolume method, CVssWriter.OnContinueIOOnVolume, CVssWriter::OnContinueIOOnVolume, OnContinueIOOnVolume, OnContinueIOOnVolume method [VSS], OnContinueIOOnVolume method [VSS],CVssWriter interface, _win32_cvsswriter_oncontinueioonvolume, base.cvsswriter_oncontinueioonvolume, vswriter/CVssWriter::OnContinueIOOnVolume
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h

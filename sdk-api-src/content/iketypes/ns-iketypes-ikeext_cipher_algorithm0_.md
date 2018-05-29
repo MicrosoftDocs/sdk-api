@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_CIPHER_ALGORITHM0_
 title: IKEEXT_CIPHER_ALGORITHM0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores information about the IKE/AuthIP encryption algorithm.
 old-location: fwp\ikeext_cipher_algorithm0.htm
 old-project: FWP
 ms.assetid: 940714a3-d098-4d02-9209-fcf3b24ee4e7
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_CIPHER_ALGORITHM0, IKEEXT_CIPHER_ALGORITHM0 structure [Filtering], IKEEXT_CIPHER_ALGORITHM0_, fwp.ikeext_cipher_algorithm0, iketypes/IKEEXT_CIPHER_ALGORITHM0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

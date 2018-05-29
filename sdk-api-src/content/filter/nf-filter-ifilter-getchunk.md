@@ -1,16 +1,16 @@
 ---
 UID: NF:filter.IFilter.GetChunk
 title: IFilter::GetChunk
-author: windows-driver-content
+author: windows-sdk-content
 description: Positions the filter at the beginning of the next chunk, or at the first chunk if this is the first call to the GetChunk method, and returns a description of the current chunk.
 old-location: indexsrv\ifilter_getchunk.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_96gb.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetChunk, GetChunk method [Indexing Service], GetChunk method [Indexing Service],IFilter interface, IFilter interface [Indexing Service],GetChunk method, IFilter.GetChunk, IFilter::GetChunk, _idxs_IFilter_GetChunk, filter/IFilter::GetChunk, indexsrv.ifilter_getchunk
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: filter.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:vfw.ICSetState
 title: ICSetState macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The ICSetState macro notifies a video compression driver to set the state of the compressor. You can use this macro or explicitly call the ICM_SETSTATE message.
 old-location: multimedia\icsetstate.htm
 old-project: Multimedia
 ms.assetid: 96958fbf-8539-49bc-a2ff-160b7ea8d2ab
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ICSetState, ICSetState macro [Windows Multimedia], _win32_ICSetState, multimedia.icsetstate, vfw/ICSetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: vfw.h
 req.include-header: 

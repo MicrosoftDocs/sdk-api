@@ -1,16 +1,16 @@
 ---
 UID: NE:comsvcs.tagTransactionVote
 title: tagTransactionVote
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the readiness of an object to commit or abort the current transaction.
 old-location: cos\transactionvote.htm
 old-project: cossdk
 ms.assetid: 2fea9ac5-f714-4682-a78c-bfe9396fccd5
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: TransactionVote, TransactionVote enumeration [COM+], TxAbort, TxCommit, _cos_TransactionVote, comsvcs/TransactionVote, comsvcs/TxAbort, comsvcs/TxCommit, cos.transactionvote, tagTransactionVote
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: comsvcs.h
 req.include-header: 

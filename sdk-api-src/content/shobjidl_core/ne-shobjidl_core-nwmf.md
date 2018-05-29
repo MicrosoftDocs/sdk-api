@@ -1,16 +1,16 @@
 ---
 UID: NE:shobjidl_core.NWMF
 title: NWMF
-author: windows-driver-content
+author: windows-sdk-content
 description: Flags used by INewWindowManager::EvaluateNewWindow. These values are factors in the decision of whether to display a pop-up window.
 old-location: shell\NWMF.htm
 old-project: shell
 ms.assetid: b55b60ae-fb56-4525-8113-35c417b28954
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: NWMF, NWMF enumeration [Windows Shell], NWMF_FIRST, NWMF_FORCETAB, NWMF_FORCEWINDOW, NWMF_FROMDIALOGCHILD, NWMF_HTMLDIALOG, NWMF_INACTIVETAB, NWMF_OVERRIDEKEY, NWMF_SHOWHELP, NWMF_SUGGESTTAB, NWMF_SUGGESTWINDOW, NWMF_UNLOADING, NWMF_USERALLOWED, NWMF_USERINITED, NWMF_USERREQUESTED, _shell_NWMF, shell.NWMF, shobjidl_core/NWMF, shobjidl_core/NWMF_FIRST, shobjidl_core/NWMF_FORCETAB, shobjidl_core/NWMF_FORCEWINDOW, shobjidl_core/NWMF_FROMDIALOGCHILD, shobjidl_core/NWMF_HTMLDIALOG, shobjidl_core/NWMF_INACTIVETAB, shobjidl_core/NWMF_OVERRIDEKEY, shobjidl_core/NWMF_SHOWHELP, shobjidl_core/NWMF_SUGGESTTAB, shobjidl_core/NWMF_SUGGESTWINDOW, shobjidl_core/NWMF_UNLOADING, shobjidl_core/NWMF_USERALLOWED, shobjidl_core/NWMF_USERINITED, shobjidl_core/NWMF_USERREQUESTED
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

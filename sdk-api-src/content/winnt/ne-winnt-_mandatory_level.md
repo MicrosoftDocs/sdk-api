@@ -1,16 +1,16 @@
 ---
 UID: NE:winnt._MANDATORY_LEVEL
 title: "_MANDATORY_LEVEL"
-author: windows-driver-content
+author: windows-sdk-content
 description: Lists the possible security levels.
 old-location: security\mandatory_level.htm
 old-project: SecAuthZ
 ms.assetid: 0D6EC16C-F21E-4BED-AF57-93D282D6CF86
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: "*PMANDATORY_LEVEL, MANDATORY_LEVEL, MANDATORY_LEVEL enumeration [Security], MandatoryLevelCount, MandatoryLevelHigh, MandatoryLevelLow, MandatoryLevelMedium, MandatoryLevelSecureProcess, MandatoryLevelSystem, MandatoryLevelUntrusted, _MANDATORY_LEVEL, security.mandatory_level, winnt/MANDATORY_LEVEL, winnt/MandatoryLevelCount, winnt/MandatoryLevelHigh, winnt/MandatoryLevelLow, winnt/MandatoryLevelMedium, winnt/MandatoryLevelSecureProcess, winnt/MandatoryLevelSystem, winnt/MandatoryLevelUntrusted"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: winnt.h
 req.include-header: 

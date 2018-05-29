@@ -1,16 +1,16 @@
 ---
 UID: NF:mfapi.MFCreateMuxStreamMediaType
 title: MFCreateMuxStreamMediaType function
-author: windows-driver-content
+author: windows-sdk-content
 description: Creates an IMFMediaType describing the media types of multiplexed substreams.
 old-location: mf\mfcreatemuxstreammediatype.htm
 old-project: medfound
 ms.assetid: 27E1295C-BFB1-45EB-ABB2-DDFF927F6E30
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MFCreateMuxStreamMediaType, MFCreateMuxStreamMediaType function [Media Foundation], mf.mfcreatemuxstreammediatype, mfapi/MFCreateMuxStreamMediaType
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: mfapi.h
 req.include-header: 

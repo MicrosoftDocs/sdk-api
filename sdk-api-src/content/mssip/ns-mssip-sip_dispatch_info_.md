@@ -1,16 +1,16 @@
 ---
 UID: NS:mssip.SIP_DISPATCH_INFO_
 title: SIP_DISPATCH_INFO_
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains a set of function pointers assigned by the CryptSIPLoad function that your application uses to perform subject interface package (SIP) operations.
 old-location: security\sip_dispatch_info.htm
 old-project: SecCrypto
 ms.assetid: d34b5081-0af8-4dcc-8133-a91d0603d419
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*LPSIP_DISPATCH_INFO, PSIP_DISPATCH_INFO, PSIP_DISPATCH_INFO structure pointer [Security], SIP_DISPATCH_INFO, SIP_DISPATCH_INFO structure [Security], SIP_DISPATCH_INFO_, mssip/PSIP_DISPATCH_INFO, mssip/SIP_DISPATCH_INFO, security.sip_dispatch_info"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mssip.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:comsvcs.ISystemAppEventData
 title: ISystemAppEventData
-author: windows-driver-content
+author: windows-sdk-content
 description: Notifies the subscriber when a COM+ application instance is created or reconfigured.
 old-location: cos\isystemappeventdata.htm
 old-project: cossdk
 ms.assetid: fd88641e-e0ce-44b7-b8b6-59791be48026
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ISystemAppEventData, ISystemAppEventData interface [COM+], ISystemAppEventData interface [COM+],described, _dtc_ISystemAppEventData, comsvcs/ISystemAppEventData, cos.isystemappeventdata
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: comsvcs.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NS:virtdisk._MODIFY_VHDSET_PARAMETERS
 title: "_MODIFY_VHDSET_PARAMETERS"
-author: windows-driver-content
+author: windows-sdk-content
 description: Contains VHD Set modification parameters, indicating how the VHD Set should be altered.
 old-location: vhd\modify_vhdset_parameters.htm
 old-project: VStor
 ms.assetid: 558323D6-2D97-40C8-9CAF-E97604D2F742
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: "*PMODIFY_VHDSET_PARAMETERS, MODIFY_VHDSET_PARAMETERS, MODIFY_VHDSET_PARAMETERS structure [VHD], PMODIFY_VHDSET_PARAMETERS, PMODIFY_VHDSET_PARAMETERS structure pointer [VHD], _MODIFY_VHDSET_PARAMETERS, vhd.modify_vhdset_parameters, virtdisk/MODIFY_VHDSET_PARAMETERS, virtdisk/PMODIFY_VHDSET_PARAMETERS"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: virtdisk.h
 req.include-header: Windows.h

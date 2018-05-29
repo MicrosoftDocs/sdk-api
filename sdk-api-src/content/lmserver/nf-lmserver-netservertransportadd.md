@@ -1,16 +1,16 @@
 ---
 UID: NF:lmserver.NetServerTransportAdd
 title: NetServerTransportAdd function
-author: windows-driver-content
+author: windows-sdk-content
 description: The NetServerTransportAdd function binds the server to the transport protocol.
 old-location: netmgmt\netservertransportadd.htm
 old-project: NetMgmt
 ms.assetid: c8521aed-0762-4412-b117-c911fc77049b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0, NetServerTransportAdd, NetServerTransportAdd function [Network Management], _win32_netservertransportadd, lmserver/NetServerTransportAdd, netmgmt.netservertransportadd
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: lmserver.h
 req.include-header: Lm.h

@@ -1,16 +1,16 @@
 ---
 UID: NF:propsys.IPropertyStoreCache.GetState
 title: IPropertyStoreCache::GetState
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the state of a specified property key.
 old-location: properties\IPropertyStoreCache_GetState.htm
 old-project: properties
 ms.assetid: bee9275d-9529-4285-8dee-8e4683def46d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: GetState, GetState method [Windows Properties], GetState method [Windows Properties],IPropertyStoreCache interface, IPropertyStoreCache interface [Windows Properties],GetState method, IPropertyStoreCache.GetState, IPropertyStoreCache::GetState, _shell_IPropertyStoreCache_GetState, properties.IPropertyStoreCache_GetState, propsys/IPropertyStoreCache::GetState, shell.IPropertyStoreCache_GetState
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: propsys.h
 req.include-header: 

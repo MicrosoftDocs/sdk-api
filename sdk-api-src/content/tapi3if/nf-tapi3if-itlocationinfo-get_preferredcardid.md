@@ -1,16 +1,16 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_PreferredCardID
 title: ITLocationInfo::get_PreferredCardID
-author: windows-driver-content
+author: windows-sdk-content
 description: The get_PreferredCardID method gets the preferred calling card identifier for dialing from the current location.
 old-location: tapi3\itlocationinfo_get_preferredcardid.htm
 old-project: Tapi
 ms.assetid: 7881a005-1bab-47a1-a657-31584d3f2713
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_PreferredCardID method, ITLocationInfo.get_PreferredCardID, ITLocationInfo::get_PreferredCardID, _tapi3_itlocationinfo_get_preferredcardid, get_PreferredCardID, get_PreferredCardID method [TAPI 2.2], get_PreferredCardID method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_preferredcardid, tapi3if/ITLocationInfo::get_PreferredCardID
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: tapi3if.h
 req.include-header: Tapi3.h

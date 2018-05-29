@@ -1,16 +1,16 @@
 ---
 UID: NN:mswmdm.IWMDMDeviceSession
 title: IWMDMDeviceSession
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMDMDeviceSession interface improves the efficiency of device operations by bundling multiple operations into one session.
 old-location: wmdm\iwmdmdevicesession.htm
 old-project: WMDM
 ms.assetid: 37a57fbe-d0f8-44ee-b6c5-2c6a34e12f2b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IWMDMDeviceSession, IWMDMDeviceSession interface [windows Media Device Manager], IWMDMDeviceSession interface [windows Media Device Manager],described, IWMDMDeviceSessionInterface, mswmdm/IWMDMDeviceSession, wmdm.iwmdmdevicesession
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: mswmdm.h
 req.include-header: 

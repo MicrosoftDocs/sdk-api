@@ -1,16 +1,16 @@
 ---
 UID: NF:mbnapi.IMbnConnectionContext.SetProvisionedContext
 title: IMbnConnectionContext::SetProvisionedContext
-author: windows-driver-content
+author: windows-sdk-content
 description: Adds or updates a provisioned context.
 old-location: mbn\imbnconnectioncontext_setprovisionedcontext.htm
 old-project: mbn
 ms.assetid: 738a3037-01a9-465a-a67d-979a29968b68
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: IMbnConnectionContext interface [Microsoft Broadband Networks],SetProvisionedContext method, IMbnConnectionContext.SetProvisionedContext, IMbnConnectionContext::SetProvisionedContext, SetProvisionedContext, SetProvisionedContext method [Microsoft Broadband Networks], SetProvisionedContext method [Microsoft Broadband Networks],IMbnConnectionContext interface, mbn.imbnconnectioncontext_setprovisionedcontext, mbnapi/IMbnConnectionContext::SetProvisionedContext
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mbnapi.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmpservices.IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin
 title: IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin function adds information to the registry that identifies a Windows Media Player plug-in.
 old-location: wmp\iwmpmediapluginregistrar__wmpregisterplayerplugin.htm
 old-project: WMP
 ms.assetid: db042911-c46f-431a-ad1c-ceb2c3b4546c
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin, IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin, WMPRegisterPlayerPlugin function [Windows Media Player], wmp.iwmpmediapluginregistrar__wmpregisterplayerplugin, wmpservices/WMPRegisterPlayerPlugin
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmpservices.h
 req.include-header: 

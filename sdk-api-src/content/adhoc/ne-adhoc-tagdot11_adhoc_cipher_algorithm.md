@@ -1,16 +1,16 @@
 ---
 UID: NE:adhoc.tagDOT11_ADHOC_CIPHER_ALGORITHM
 title: tagDOT11_ADHOC_CIPHER_ALGORITHM
-author: windows-driver-content
+author: windows-sdk-content
 description: Specifies a cipher algorithm used to encrypt and decrypt information on an ad hoc network.
 old-location: nwifi\dot11_adhoc_cipher_algorithm.htm
 old-project: NativeWiFi
 ms.assetid: 2ea8173d-f528-4065-90ce-71a455a6b35f
-ms.author: windowsdriverdev
-ms.date: 4/13/2018
+ms.author: windowssdkdev
+ms.date: 04/13/2018
 ms.keywords: DOT11_ADHOC_CIPHER_ALGORITHM, DOT11_ADHOC_CIPHER_ALGORITHM enumeration [NativeWIFI], DOT11_ADHOC_CIPHER_ALGO_CCMP, DOT11_ADHOC_CIPHER_ALGO_INVALID, DOT11_ADHOC_CIPHER_ALGO_NONE, DOT11_ADHOC_CIPHER_ALGO_WEP, adhoc/DOT11_ADHOC_CIPHER_ALGORITHM, adhoc/DOT11_ADHOC_CIPHER_ALGO_CCMP, adhoc/DOT11_ADHOC_CIPHER_ALGO_INVALID, adhoc/DOT11_ADHOC_CIPHER_ALGO_NONE, adhoc/DOT11_ADHOC_CIPHER_ALGO_WEP, nwifi.dot11_adhoc_cipher_algorithm, tagDOT11_ADHOC_CIPHER_ALGORITHM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: adhoc.h
 req.include-header: 

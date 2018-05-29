@@ -1,16 +1,16 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QueryMaxResults
 title: ISearchQueryHelper::put_QueryMaxResults
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets the maximum number of results to be returned by a query.
 old-location: search\_search_ISearchQueryHelper_put_QueryMaxResults.htm
 old-project: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querymaxresults.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QueryMaxResults method, ISearchQueryHelper.put_QueryMaxResults, ISearchQueryHelper::put_QueryMaxResults, _search_ISearchQueryHelper_put_QueryMaxResults, put_QueryMaxResults, put_QueryMaxResults method [search], put_QueryMaxResults method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QueryMaxResults, searchapi/ISearchQueryHelper::put_QueryMaxResults
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: searchapi.h
 req.include-header: 

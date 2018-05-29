@@ -1,16 +1,16 @@
 ---
 UID: NF:heapapi.HeapDestroy
 title: HeapDestroy function
-author: windows-driver-content
+author: windows-sdk-content
 description: Destroys the specified heap object. It decommits and releases all the pages of a private heap object, and it invalidates the handle to the heap.
 old-location: base\heapdestroy.htm
 old-project: Memory
 ms.assetid: 2ad8d15f-de5e-424d-9349-3baccb000a36
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: HeapDestroy, HeapDestroy function, _win32_heapdestroy, base.heapdestroy, heapapi/HeapDestroy, winbase/HeapDestroy
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: heapapi.h
 req.include-header: Windows.h

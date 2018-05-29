@@ -1,16 +1,16 @@
 ---
 UID: NC:resapi.PCLUSTER_DECRYPT
 title: PCLUSTER_DECRYPT
-author: windows-driver-content
+author: windows-sdk-content
 description: Decrypts Checkpointing data for a Cryptographic Service Provider (CSP).
 old-location: mscs\clusterdecrypt.htm
 old-project: MsCS
 ms.assetid: F851BA13-3261-462C-98EA-402F77A39A14
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: PCLUSTER_DECRYPT, PCLUSTER_DECRYPT callback, PCLUSTER_DECRYPT callback function [Failover Cluster], mscs.clusterdecrypt, resapi/PCLUSTER_DECRYPT
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: resapi.h
 req.include-header: 

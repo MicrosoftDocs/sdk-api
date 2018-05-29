@@ -1,16 +1,16 @@
 ---
 UID: NF:objidlbase.IRpcChannelBuffer.SendReceive
 title: IRpcChannelBuffer::SendReceive
-author: windows-driver-content
+author: windows-sdk-content
 description: Sends a method invocation across an RPC channel to the server stub.
 old-location: com\irpcchannelbuffer_sendreceive.htm
 old-project: com
 ms.assetid: 8a42fd06-252f-4c1b-bbdb-abc2e3887c46
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IRpcChannelBuffer interface [COM],SendReceive method, IRpcChannelBuffer.SendReceive, IRpcChannelBuffer::SendReceive, SendReceive, SendReceive method [COM], SendReceive method [COM],IRpcChannelBuffer interface, _com_irpcchannelbuffer_sendreceive, com.irpcchannelbuffer_sendreceive, objidlbase/IRpcChannelBuffer::SendReceive
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidlbase.h
 req.include-header: ObjIdl.h

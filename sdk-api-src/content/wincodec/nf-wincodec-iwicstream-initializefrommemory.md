@@ -1,16 +1,16 @@
 ---
 UID: NF:wincodec.IWICStream.InitializeFromMemory
 title: IWICStream::InitializeFromMemory
-author: windows-driver-content
+author: windows-sdk-content
 description: Initializes a stream to treat a block of memory as a stream. The stream cannot grow beyond the buffer size.
 old-location: wic\_wic_codec_iwicstream_initializefrommemory.htm
 old-project: wic
 ms.assetid: 7e226759-61aa-4f06-b20f-d5853faf4e4b
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWICStream interface [Windows Imaging Component],InitializeFromMemory method, IWICStream.InitializeFromMemory, IWICStream::InitializeFromMemory, InitializeFromMemory, InitializeFromMemory method [Windows Imaging Component], InitializeFromMemory method [Windows Imaging Component],IWICStream interface, _wic_codec_iwicstream_initializefrommemory, wic._wic_codec_iwicstream_initializefrommemory, wincodec/IWICStream::InitializeFromMemory
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wincodec.h
 req.include-header: 

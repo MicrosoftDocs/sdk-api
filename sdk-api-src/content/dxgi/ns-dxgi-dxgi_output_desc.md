@@ -1,16 +1,16 @@
 ---
 UID: NS:dxgi.DXGI_OUTPUT_DESC
 title: DXGI_OUTPUT_DESC
-author: windows-driver-content
+author: windows-sdk-content
 description: Describes an output or physical connection between the adapter (video card) and a device.
 old-location: direct3ddxgi\dxgi_output_desc.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_output_desc.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: DXGI_OUTPUT_DESC, DXGI_OUTPUT_DESC structure [DXGI], d70793ef-13c9-f3fa-6590-c3b793e1191b, direct3ddxgi.dxgi_output_desc, dxgi/DXGI_OUTPUT_DESC
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: dxgi.h
 req.include-header: 

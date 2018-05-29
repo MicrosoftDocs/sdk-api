@@ -1,16 +1,16 @@
 ---
 UID: NF:photoacquire.IPhotoAcquire.EnumResults
 title: IPhotoAcquire::EnumResults
-author: windows-driver-content
+author: windows-sdk-content
 description: The EnumResults method retrieves an enumeration containing the paths of all files successfully transferred during the most recent call to Acquire.
 old-location: picacq\iphotoacquire_enumresults.htm
 old-project: acquisition
 ms.assetid: 2f3bd36c-3daf-4738-8240-ce622d988861
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: EnumResults, EnumResults method [Picture Acquisition], EnumResults method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],EnumResults method, IPhotoAcquire.EnumResults, IPhotoAcquire::EnumResults, IPhotoAcquireEnumResults, photoacquire/IPhotoAcquire::EnumResults, picacq.iphotoacquire_enumresults
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: photoacquire.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:commctrl.ListView_SetExtendedListViewStyleEx
 title: ListView_SetExtendedListViewStyleEx macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Sets extended styles for list-view controls using the style mask. You can use this macro or send the LVM_SETEXTENDEDLISTVIEWSTYLE message explicitly.
 old-location: controls\ListView_SetExtendedListViewStyleEx.htm
 old-project: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setextendedlistviewstyleex.htm
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ListView_SetExtendedListViewStyleEx, ListView_SetExtendedListViewStyleEx macro [Windows Controls], _win32_ListView_SetExtendedListViewStyleEx, _win32_ListView_SetExtendedListViewStyleEx_cpp, commctrl/ListView_SetExtendedListViewStyleEx, controls.ListView_SetExtendedListViewStyleEx, controls._win32_ListView_SetExtendedListViewStyleEx
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: commctrl.h
 req.include-header: 

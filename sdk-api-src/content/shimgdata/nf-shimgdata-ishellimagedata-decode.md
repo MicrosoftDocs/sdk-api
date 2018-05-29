@@ -1,16 +1,16 @@
 ---
 UID: NF:shimgdata.IShellImageData.Decode
 title: IShellImageData::Decode
-author: windows-driver-content
+author: windows-sdk-content
 description: Decodes the image file, setting state.
 old-location: shell\IShellImageData_Decode.htm
 old-project: shell
 ms.assetid: 954424d6-cb90-46c1-a850-4e1113dfe2e4
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: Decode, Decode method [Windows Shell], Decode method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],Decode method, IShellImageData.Decode, IShellImageData::Decode, SHIMGDEC_DEFAULT, SHIMGDEC_LOADFULL, SHIMGDEC_THUMBNAIL, _shell_IShellImageData_Decode, shell.IShellImageData_Decode, shimgdata/IShellImageData::Decode
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: shimgdata.h
 req.include-header: 

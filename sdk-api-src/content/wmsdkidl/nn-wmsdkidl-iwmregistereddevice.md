@@ -1,16 +1,16 @@
 ---
 UID: NN:wmsdkidl.IWMRegisteredDevice
 title: IWMRegisteredDevice
-author: windows-driver-content
+author: windows-sdk-content
 description: The IWMRegisteredDevice interface is the primary interface of the registered device object. It provides access to information about a playback device in the device registration database.
 old-location: wmformat\iwmregistereddevice.htm
 old-project: wmformat
 ms.assetid: 6babdfbd-51d5-4973-9712-f79a95f5f367
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: IWMRegisteredDevice, IWMRegisteredDevice interface [windows Media Format], IWMRegisteredDevice interface [windows Media Format],described, IWMRegisteredDeviceInterface, wmformat.iwmregistereddevice, wmsdkidl/IWMRegisteredDevice
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: wmsdkidl.h
 req.include-header: 

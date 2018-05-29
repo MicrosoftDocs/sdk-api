@@ -1,16 +1,16 @@
 ---
 UID: NE:dshowasf._AM_ASFWRITERCONFIG_PARAM
 title: "_AM_ASFWRITERCONFIG_PARAM"
-author: windows-driver-content
+author: windows-sdk-content
 description: Defines configuration parameters for the WM ASF Writer filter.
 old-location: dshow\_am_asfwriterconfig_param.htm
 old-project: DirectShow
 ms.assetid: aa274c86-f75d-40ee-8c46-918ccffdfd03
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: AM_CONFIGASFWRITER_PARAM_AUTOINDEX, AM_CONFIGASFWRITER_PARAM_DONTCOMPRESS, AM_CONFIGASFWRITER_PARAM_MULTIPASS, _AM_ASFWRITERCONFIG_PARAM, _AM_ASFWRITERCONFIG_PARAM , _AM_ASFWRITERCONFIG_PARAM enumeration [DirectShow], dshow._am_asfwriterconfig_param, dshowasf/AM_CONFIGASFWRITER_PARAM_AUTOINDEX, dshowasf/AM_CONFIGASFWRITER_PARAM_DONTCOMPRESS, dshowasf/AM_CONFIGASFWRITER_PARAM_MULTIPASS, dshowasf/_AM_ASFWRITERCONFIG_PARAM
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: dshowasf.h
 req.include-header: 

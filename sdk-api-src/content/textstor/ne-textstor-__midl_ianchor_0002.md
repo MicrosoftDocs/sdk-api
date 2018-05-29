@@ -1,16 +1,16 @@
 ---
 UID: NE:textstor.__MIDL_IAnchor_0002
 title: "__MIDL_IAnchor_0002"
-author: windows-driver-content
+author: windows-sdk-content
 description: Elements of the TsShiftDir enumeration specify which direction an anchor is moved.
 old-location: tsf\tsshiftdir.htm
 old-project: TSF
 ms.assetid: e247b79d-354c-4211-9160-e705436d669c
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: TS_SD_BACKWARD, TS_SD_FORWARD, TsShiftDir, TsShiftDir enumeration [Text Services Framework], __MIDL_IAnchor_0002, _tsf_tsshiftdir_ref, textstor/TS_SD_BACKWARD, textstor/TS_SD_FORWARD, textstor/TsShiftDir, tsf.tsshiftdir
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: textstor.h
 req.include-header: 

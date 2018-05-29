@@ -1,16 +1,16 @@
 ---
 UID: NF:mfidl.IMFClock.GetCorrelatedTime
 title: IMFClock::GetCorrelatedTime
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves the last clock time that was correlated with system time.
 old-location: mf\imfclock_getcorrelatedtime.htm
 old-project: medfound
 ms.assetid: 0a897426-d994-4b27-9f13-9b0c7c9b3a9b
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 0a897426-d994-4b27-9f13-9b0c7c9b3a9b, GetCorrelatedTime, GetCorrelatedTime method [Media Foundation], GetCorrelatedTime method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetCorrelatedTime method, IMFClock.GetCorrelatedTime, IMFClock::GetCorrelatedTime, mf.imfclock_getcorrelatedtime, mfidl/IMFClock::GetCorrelatedTime
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: mfidl.h
 req.include-header: 

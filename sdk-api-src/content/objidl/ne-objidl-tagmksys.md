@@ -1,16 +1,16 @@
 ---
 UID: NE:objidl.tagMKSYS
 title: tagMKSYS
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates the moniker's class.
 old-location: com\mksys.htm
 old-project: com
 ms.assetid: f0d8ab71-5be9-4a5c-a036-d3a0a90a053f
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: MKSYS, MKSYS enumeration [COM], MKSYS_ANTIMONIKER, MKSYS_CLASSMONIKER, MKSYS_FILEMONIKER, MKSYS_GENERICCOMPOSITE, MKSYS_ITEMMONIKER, MKSYS_LUAMONIKER, MKSYS_NONE, MKSYS_OBJREFMONIKER, MKSYS_POINTERMONIKER, MKSYS_SESSIONMONIKER, _com_MKSYS, com.mksys, objidl/MKSYS, objidl/MKSYS_ANTIMONIKER, objidl/MKSYS_CLASSMONIKER, objidl/MKSYS_FILEMONIKER, objidl/MKSYS_GENERICCOMPOSITE, objidl/MKSYS_ITEMMONIKER, objidl/MKSYS_LUAMONIKER, objidl/MKSYS_NONE, objidl/MKSYS_OBJREFMONIKER, objidl/MKSYS_POINTERMONIKER, objidl/MKSYS_SESSIONMONIKER, tagMKSYS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: objidl.h
 req.include-header: 

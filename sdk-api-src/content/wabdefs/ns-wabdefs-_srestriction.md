@@ -1,16 +1,16 @@
 ---
 UID: NS:wabdefs._SRestriction
 title: "_SRestriction"
-author: windows-driver-content
+author: windows-sdk-content
 description: Do not use. Describes a filter for limiting the view of a table to particular rows.
 old-location: wab\_wab_SRestriction.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srestriction.htm
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPSRestriction, RES_AND, RES_BITMASK, RES_COMMENT, RES_COMPAREPROPS, RES_CONTENT, RES_EXIST, RES_NOT, RES_OR, RES_PROPERTY, RES_SIZE, RES_SUBRESTRICTION, SRestriction, SRestriction structure [Windows Address Book], _SRestriction, _wab_SRestriction, wab._wab_SRestriction, wabdefs/SRestriction"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wabdefs.h
 req.include-header: 

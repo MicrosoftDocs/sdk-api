@@ -1,16 +1,16 @@
 ---
 UID: NS:ddkmapi._DDADDVPCAPTUREBUFF
 title: "_DDADDVPCAPTUREBUFF"
-author: windows-driver-content
+author: windows-sdk-content
 description: The DDADDVPCAPTUREBUFF structure contains the information required to add a new buffer to the internal capture queue.
 old-location: display\ddaddvpcapturebuff.htm
 old-project: display
 ms.assetid: 7ee3f5ce-987a-42c9-8681-5bcb9028178a
-ms.author: windowsdriverdev
-ms.date: 5/10/2018
+ms.author: windowssdkdev
+ms.date: 05/10/2018
 ms.keywords: "*LPDDADDVPCAPTUREBUFF, DDADDVPCAPTUREBUFF, DDADDVPCAPTUREBUFF structure [Display Devices], LPDDADDVPCAPTUREBUFF, LPDDADDVPCAPTUREBUFF structure pointer [Display Devices], _DDADDVPCAPTUREBUFF, ddkmapi/DDADDVPCAPTUREBUFF, ddkmapi/LPDDADDVPCAPTUREBUFF, ddstrcts_8aed47e9-8635-4a52-aba6-7768f11f9177.xml, display.ddaddvpcapturebuff"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h

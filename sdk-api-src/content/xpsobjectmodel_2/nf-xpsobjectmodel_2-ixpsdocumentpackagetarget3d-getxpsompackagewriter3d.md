@@ -1,16 +1,16 @@
 ---
 UID: NF:xpsobjectmodel_2.IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D
 title: IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets a new IXpsOMPackageWriter3D object for the document package.
 old-location: xps\ixpsdocumentpackagetarget3d_getxpsompackagewriter3d.htm
 old-project: printdocs
 ms.assetid: 2F3A6997-B325-4406-A731-5C2EAD875125
-ms.author: windowsdriverdev
-ms.date: 3/27/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetXpsOMPackageWriter3D, GetXpsOMPackageWriter3D method [XPS Documents and Packaging], GetXpsOMPackageWriter3D method [XPS Documents and Packaging],IXpsDocumentPackageTarget3D interface, IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging],GetXpsOMPackageWriter3D method, IXpsDocumentPackageTarget3D.GetXpsOMPackageWriter3D, IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D, xps.ixpsdocumentpackagetarget3d_getxpsompackagewriter3d, xpsobjectmodel_2/IXpsDocumentPackageTarget3D::GetXpsOMPackageWriter3D
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: xpsobjectmodel_2.h
 req.include-header: 

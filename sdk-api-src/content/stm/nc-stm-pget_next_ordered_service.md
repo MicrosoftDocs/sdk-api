@@ -1,16 +1,16 @@
 ---
 UID: NC:stm.PGET_NEXT_ORDERED_SERVICE
 title: PGET_NEXT_ORDERED_SERVICE
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetNextOrderedService function returns the next service from a subset of services in the table. The service returned is the next service after a given input service using the ordering method specified.
 old-location: rras\getnextorderedservice.htm
 old-project: RRAS
 ms.assetid: e25d7086-cfb7-41ea-8f4e-7e4f065830d9
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetNextOrderedService, GetNextOrderedService callback function [RAS], PGET_NEXT_ORDERED_SERVICE, PGET_NEXT_ORDERED_SERVICE callback, _mpr_getnextorderedservice, rras.getnextorderedservice, stm/GetNextOrderedService
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: stm.h
 req.include-header: 

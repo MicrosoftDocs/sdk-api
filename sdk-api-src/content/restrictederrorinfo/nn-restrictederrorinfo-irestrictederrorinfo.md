@@ -1,16 +1,16 @@
 ---
 UID: NN:restrictederrorinfo.IRestrictedErrorInfo
 title: IRestrictedErrorInfo
-author: windows-driver-content
+author: windows-sdk-content
 description: Represents the details of an error, including restricted error information.
 old-location: winrt\irestrictederrorinfo.htm
 old-project: WinRT
 ms.assetid: 1af8d4bf-1217-44ca-b0dd-9a6feda16100
-ms.author: windowsdriverdev
-ms.date: 5/15/2018
+ms.author: windowssdkdev
+ms.date: 05/15/2018
 ms.keywords: IRestrictedErrorInfo, IRestrictedErrorInfo interface [Windows Runtime], IRestrictedErrorInfo interface [Windows Runtime],described, restrictederrorinfo/IRestrictedErrorInfo, winrt.irestrictederrorinfo
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: restrictederrorinfo.h
 req.include-header: 

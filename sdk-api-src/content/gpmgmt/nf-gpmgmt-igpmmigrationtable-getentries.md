@@ -1,16 +1,16 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.GetEntries
 title: IGPMMigrationTable::GetEntries
-author: windows-driver-content
+author: windows-sdk-content
 description: Returns a IGPMMapEntryCollection interface.
 old-location: gpmc\igpmmigrationtable_getentries.htm
 old-project: GPMC
 ms.assetid: 5de22bba-10f9-49f7-83f3-053f5e58b66e
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GPMMigrationTable class [GPMC],GetEntries method, GetEntries, GetEntries method [GPMC], GetEntries method [GPMC],GPMMigrationTable class, GetEntries method [GPMC],IGPMMigrationTable interface, IGPMMigrationTable interface [GPMC],GetEntries method, IGPMMigrationTable.GetEntries, IGPMMigrationTable::GetEntries, gpmc.igpmmigrationtable_getentries, gpmgmt/IGPMMigrationTable::GetEntries
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: gpmgmt.h
 req.include-header: 

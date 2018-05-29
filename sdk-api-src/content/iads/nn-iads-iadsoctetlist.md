@@ -1,16 +1,16 @@
 ---
 UID: NN:iads.IADsOctetList
 title: IADsOctetList
-author: windows-driver-content
+author: windows-sdk-content
 description: The IADsOctetList interface provides methods for an ADSI client to access the Octet List attribute.
 old-location: adsi\iadsoctetlist.htm
 old-project: ADSI
 ms.assetid: 66ec49d6-43c5-4fc8-a90d-5847fd2ffe50
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IADsOctetList, IADsOctetList interface [ADSI], IADsOctetList interface [ADSI],described, _ds_iadsoctetlist, adsi.iadsoctetlist, iads/IADsOctetList
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: iads.h
 req.include-header: 

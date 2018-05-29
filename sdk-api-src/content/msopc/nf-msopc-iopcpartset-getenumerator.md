@@ -1,16 +1,16 @@
 ---
 UID: NF:msopc.IOpcPartSet.GetEnumerator
 title: IOpcPartSet::GetEnumerator
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets an enumerator of IOpcPart interface pointers in the set.
 old-location: opc\iopcpartset_getenumerator.htm
 old-project: OPC
 ms.assetid: 7b2a5ae6-b3ac-49b5-a798-9fca450da6d1
-ms.author: windowsdriverdev
-ms.date: 3/14/2018
+ms.author: windowssdkdev
+ms.date: 03/14/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],GetEnumerator method, IOpcPartSet.GetEnumerator, IOpcPartSet::GetEnumerator, msopc/IOpcPartSet::GetEnumerator, opc.iopcpartset_getenumerator
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: msopc.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:strsafe.StringCbCatExA
 title: StringCbCatExA function
-author: windows-driver-content
+author: windows-sdk-content
 description: Concatenates one string to another string.
 old-location: menurc\stringcbcatex.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcatex.htm
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbCatEx, StringCbCatEx function [Menus and Other Resources], StringCbCatExA, StringCbCatExW, _shell_StringCbCatEx, _shell_stringcbcatex_cpp, menurc.stringcbcatex, strsafe/StringCbCatEx, strsafe/StringCbCatExA, strsafe/StringCbCatExW, winui._shell_stringcbcatex
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: strsafe.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NN:tuner.IComponents
 title: IComponents
-author: windows-driver-content
+author: windows-sdk-content
 description: The IComponents interface represents a collection of components.
 old-location: mstv\icomponents.htm
 old-project: mstv
 ms.assetid: 670b47ba-bcbd-4281-95e3-a5d784f0610b
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IComponents, IComponents interface [Microsoft TV Technologies], IComponents interface [Microsoft TV Technologies],described, IComponentsInterface, mstv.icomponents, tuner/IComponents
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: tuner.h
 req.include-header: 

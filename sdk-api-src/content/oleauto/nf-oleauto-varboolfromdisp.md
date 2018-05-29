@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarBoolFromDisp
 title: VarBoolFromDisp function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts the default property of an IDispatch instance to a Boolean value.
 old-location: automat\varboolfromdisp.htm
 old-project: automat
 ms.assetid: 72a20066-26ce-4f20-97d6-315e1f183d4b
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarBoolFromDisp, VarBoolFromDisp function [Automation], _oa96_VarBoolFromDisp, automat.varboolfromdisp, oleauto/VarBoolFromDisp
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

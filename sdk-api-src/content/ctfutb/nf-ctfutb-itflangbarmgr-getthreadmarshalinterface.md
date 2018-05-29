@@ -1,16 +1,16 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetThreadMarshalInterface
 title: ITfLangBarMgr::GetThreadMarshalInterface
-author: windows-driver-content
+author: windows-sdk-content
 description: ITfLangBarMgr::GetThreadMarshalInterface method
 old-location: tsf\itflangbarmgr_getthreadmarshalinterface.htm
 old-project: TSF
 ms.assetid: 9adfc307-ab22-4dfb-a5a8-40d9ad4900ad
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/23/2018
 ms.keywords: GetThreadMarshalInterface, GetThreadMarshalInterface method [Text Services Framework], GetThreadMarshalInterface method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetThreadMarshalInterface method, ITfLangBarMgr.GetThreadMarshalInterface, ITfLangBarMgr::GetThreadMarshalInterface, _tsf_itflangbarmgr_getthreadmarshalinterface_ref, ctfutb/ITfLangBarMgr::GetThreadMarshalInterface, tsf.itflangbarmgr_getthreadmarshalinterface
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: ctfutb.h
 req.include-header: 

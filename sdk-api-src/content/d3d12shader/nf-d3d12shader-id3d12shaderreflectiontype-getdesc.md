@@ -1,16 +1,16 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetDesc
 title: ID3D12ShaderReflectionType::GetDesc
-author: windows-driver-content
+author: windows-sdk-content
 description: Gets the description of a shader-reflection-variable type.
 old-location: direct3d12\id3d12shaderreflectiontype_getdesc.htm
 old-project: direct3d12
 ms.assetid: E5C28FFE-5BA4-436F-9CDB-215B5B9918F9
-ms.author: windowsdriverdev
-ms.date: 5/11/2018
+ms.author: windowssdkdev
+ms.date: 05/11/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetDesc method, ID3D12ShaderReflectionType.GetDesc, ID3D12ShaderReflectionType::GetDesc, d3d12shader/ID3D12ShaderReflectionType::GetDesc, direct3d12.id3d12shaderreflectiontype_getdesc
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: d3d12shader.h
 req.include-header: 

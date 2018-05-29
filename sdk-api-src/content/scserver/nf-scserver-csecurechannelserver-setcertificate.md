@@ -1,16 +1,16 @@
 ---
 UID: NF:scserver.CSecureChannelServer.SetCertificate
 title: CSecureChannelServer::SetCertificate
-author: windows-driver-content
+author: windows-sdk-content
 description: The SetCertificate method specifies the certificate and private key of the secure authenticated channel (SAC) server. Information about where to get this certificate is given in Tools for Development.
 old-location: wmdm\csecurechannelserver_setcertificate.htm
 old-project: WMDM
 ms.assetid: 9f12e32c-4904-4591-bc6e-38f507b0dcf6
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],SetCertificate method, CSecureChannelServer.SetCertificate, CSecureChannelServer::SetCertificate, CSecureChannelServerSetCertificate, SetCertificate, SetCertificate method [windows Media Device Manager], SetCertificate method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::SetCertificate, wmdm.csecurechannelserver_setcertificate
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: scserver.h
 req.include-header: 

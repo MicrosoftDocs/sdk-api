@@ -1,16 +1,16 @@
 ---
 UID: NS:winuser.tagGESTUREINFO
 title: tagGESTUREINFO
-author: windows-driver-content
+author: windows-sdk-content
 description: Stores information about a gesture.
 old-location: wintouch\gestureinfo.htm
 old-project: wintouch
 ms.assetid: f5b8b530-ff1e-4d78-a12f-86990fe9ac88
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: "*PGESTUREINFO, GESTUREINFO, GESTUREINFO structure [Windows Touch], PGESTUREINFO, PGESTUREINFO structure pointer [Windows Touch], tagGESTUREINFO, wintouch.gestureinfo, winuser/GESTUREINFO, winuser/PGESTUREINFO"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winuser.h
 req.include-header: Windows.h

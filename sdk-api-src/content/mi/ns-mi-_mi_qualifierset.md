@@ -1,16 +1,16 @@
 ---
 UID: NS:mi._MI_QualifierSet
 title: "_MI_QualifierSet"
-author: windows-driver-content
+author: windows-sdk-content
 description: Allows the developer to view the qualifiers of a class definition.
 old-location: wmi_v2\mi_qualifierset.htm
 old-project: wmi_v2
 ms.assetid: 6c374d19-c433-4c70-a644-e53a401f96dd
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/18/2018
 ms.keywords: MI_QualifierSet, MI_QualifierSet structure [Windows Management Infrastructure (MI)], _MI_QualifierSet, mi/MI_QualifierSet, wmi_v2.mi_qualifierset
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: mi.h
 req.include-header: 

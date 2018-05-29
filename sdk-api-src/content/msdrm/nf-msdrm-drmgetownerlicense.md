@@ -1,16 +1,16 @@
 ---
 UID: NF:msdrm.DRMGetOwnerLicense
 title: DRMGetOwnerLicense function
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves an owner license created by calling the DRMGetSignedIssuanceLicense.
 old-location: rm\drmgetownerlicense.htm
 old-project: AdRms_Sdk
 ms.assetid: e657ac08-9635-40ac-8d9f-cc8ab9ed3a6c
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: DRMGetOwnerLicense, DRMGetOwnerLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetOwnerLicense, rm.drmgetownerlicense
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: msdrm.h
 req.include-header: 

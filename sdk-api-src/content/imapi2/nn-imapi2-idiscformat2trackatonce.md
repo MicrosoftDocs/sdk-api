@@ -1,16 +1,16 @@
 ---
 UID: NN:imapi2.IDiscFormat2TrackAtOnce
 title: IDiscFormat2TrackAtOnce
-author: windows-driver-content
+author: windows-sdk-content
 description: Use this interface to write audio to blank CD-R or CD-RW media in Track-At-Once mode.
 old-location: imapi\idiscformat2trackatonce.htm
 old-project: imapi
 ms.assetid: 27f2d248-1c83-4784-82f9-75ce0a038b87
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: IDiscFormat2TrackAtOnce, IDiscFormat2TrackAtOnce interface [IMAPI], IDiscFormat2TrackAtOnce interface [IMAPI],described, imapi.idiscformat2trackatonce, imapi2/IDiscFormat2TrackAtOnce
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: imapi2.h
 req.include-header: 

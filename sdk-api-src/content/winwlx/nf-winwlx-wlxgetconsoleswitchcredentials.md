@@ -1,16 +1,16 @@
 ---
 UID: NF:winwlx.WlxGetConsoleSwitchCredentials
 title: WlxGetConsoleSwitchCredentials function
-author: windows-driver-content
+author: windows-sdk-content
 description: Winlogon calls this function to read the currently logged on user's credentials to transparently transfer them to a target session.
 old-location: security\wlxgetconsoleswitchcredentials.htm
 old-project: SecAuthN
 ms.assetid: ee6b3d03-11c9-4eb3-8c76-7041dddc755d
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: WlxGetConsoleSwitchCredentials, WlxGetConsoleSwitchCredentials function [Security], _gina_wlxgetconsoleswitchcredentials, security.wlxgetconsoleswitchcredentials, winwlx/WlxGetConsoleSwitchCredentials
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winwlx.h
 req.include-header: 

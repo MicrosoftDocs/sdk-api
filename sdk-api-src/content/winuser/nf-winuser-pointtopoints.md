@@ -1,16 +1,16 @@
 ---
 UID: NF:winuser.POINTTOPOINTS
 title: POINTTOPOINTS macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The POINTTOPOINTS macro converts a POINT structure to a POINTS structure.
 old-location: gdi\pointtopoints.htm
 old-project: gdi
 ms.assetid: 9e9ec2c0-fce6-4205-8299-20ef7ff154e9
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: POINTTOPOINTS, POINTTOPOINTS macro [Windows GDI], _win32_POINTTOPOINTS, gdi.pointtopoints, winuser/POINTTOPOINTS
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winuser.h
 req.include-header: Windows.h

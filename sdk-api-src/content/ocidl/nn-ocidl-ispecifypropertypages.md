@@ -1,16 +1,16 @@
 ---
 UID: NN:ocidl.ISpecifyPropertyPages
 title: ISpecifyPropertyPages
-author: windows-driver-content
+author: windows-sdk-content
 description: Indicates that an object supports property pages.
 old-location: com\ispecifypropertypages.htm
 old-project: com
 ms.assetid: fd986241-aabe-477e-a382-28a1ecfd5410
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISpecifyPropertyPages, ISpecifyPropertyPages interface [COM], ISpecifyPropertyPages interface [COM],described, _ctrl_ispecifypropertypages, com.ispecifypropertypages, ocidl/ISpecifyPropertyPages
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: ocidl.h
 req.include-header: 

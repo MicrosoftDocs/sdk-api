@@ -1,16 +1,16 @@
 ---
 UID: NS:winsxs._ASSEMBLY_INFO
 title: "_ASSEMBLY_INFO"
-author: windows-driver-content
+author: windows-sdk-content
 description: The ASSEMBLY_INFO structure contains information about an assembly in the side-by-side assembly store. The information is used by the QueryAssemblyInfo method.
 old-location: setup\assembly_info_.htm
 old-project: SbsCs
 ms.assetid: 4281b375-0edd-453b-9505-e7dc5bd586fc
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: ASSEMBLYINFO_FLAG_INSTALLED, ASSEMBLY_INFO, ASSEMBLY_INFO structure [Side-by-side Assemblies], _ASSEMBLY_INFO, setup.assembly_info_, winsxs/ASSEMBLY_INFO
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: winsxs.h
 req.include-header: 

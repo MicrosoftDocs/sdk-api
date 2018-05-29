@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarUI8FromR8
 title: VarUI8FromR8 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Converts a double value to an 8-byte unsigned integer value.
 old-location: automat\varui8fromr8.htm
 old-project: automat
 ms.assetid: 7f9ecdbe-090c-41c9-82ea-3157589da00f
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarUI8FromR8, VarUI8FromR8 function [Automation], _oa96_VarUI8FromR8, automat.varui8fromr8, oleauto/VarUI8FromR8
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

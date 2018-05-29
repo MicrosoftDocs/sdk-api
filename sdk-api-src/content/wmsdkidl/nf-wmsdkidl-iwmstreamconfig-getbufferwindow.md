@@ -1,16 +1,16 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetBufferWindow
 title: IWMStreamConfig::GetBufferWindow
-author: windows-driver-content
+author: windows-sdk-content
 description: The GetBufferWindow method retrieves the maximum latency between when a stream is received and when it begins to be displayed.
 old-location: wmformat\iwmstreamconfig_getbufferwindow.htm
 old-project: wmformat
 ms.assetid: 7a78cd61-e7ae-42e2-9d64-f3344fefc59d
-ms.author: windowsdriverdev
-ms.date: 5/9/2018
+ms.author: windowssdkdev
+ms.date: 05/09/2018
 ms.keywords: GetBufferWindow, GetBufferWindow method [windows Media Format], GetBufferWindow method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetBufferWindow method, IWMStreamConfig.GetBufferWindow, IWMStreamConfig::GetBufferWindow, IWMStreamConfigGetBufferWindow, wmformat.iwmstreamconfig_getbufferwindow, wmsdkidl/IWMStreamConfig::GetBufferWindow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h

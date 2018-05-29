@@ -1,16 +1,16 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-
 title: WBEMTime::operator-
-author: windows-driver-content
+author: windows-sdk-content
 description: This overload of the WBEMTime class subtraction operator (&#8211;) subtracts a time span from an object's time to produce a new time object that contains the resulting time.
 old-location: wmi\wbemtime_operator_minus_const_wbemtimespan__.htm
 old-project: WmiSdk
 ms.assetid: d96efdf3-1020-4145-92ad-bbde5704639e
-ms.author: windowsdriverdev
-ms.date: 4/11/2018
+ms.author: windowssdkdev
+ms.date: 04/11/2018
 ms.keywords: "??GWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z, WBEMTime interface [Windows Management Instrumentation],operator- method, WBEMTime.operator-, WBEMTime::operator-, WBEMTime::operator-(const WBEMTimeSpan&), operator-, operator- method [Windows Management Instrumentation], operator- method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator-, wmi.wbemtime_operator_minus_const_wbemtimespan__"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wbemtime.h
 req.include-header: 

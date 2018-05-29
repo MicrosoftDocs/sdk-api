@@ -1,16 +1,16 @@
 ---
 UID: NF:dxgi1_4.IDXGIFactory4.EnumAdapterByLuid
 title: IDXGIFactory4::EnumAdapterByLuid
-author: windows-driver-content
+author: windows-sdk-content
 description: Outputs the IDXGIAdapter for the specified LUID.
 old-location: direct3ddxgi\idxgifactory4_enumadapterbyluid.htm
 old-project: direct3ddxgi
 ms.assetid: AC800F32-2922-45BA-A6D3-D3E45113B9A7
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/17/2018
 ms.keywords: EnumAdapterByLuid, EnumAdapterByLuid method [DXGI], EnumAdapterByLuid method [DXGI],IDXGIFactory4 interface, IDXGIFactory4 interface [DXGI],EnumAdapterByLuid method, IDXGIFactory4.EnumAdapterByLuid, IDXGIFactory4::EnumAdapterByLuid, direct3ddxgi.idxgifactory4_enumadapterbyluid, dxgi1_4/IDXGIFactory4::EnumAdapterByLuid
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: dxgi1_4.h
 req.include-header: 

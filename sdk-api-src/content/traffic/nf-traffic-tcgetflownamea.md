@@ -1,16 +1,16 @@
 ---
 UID: NF:traffic.TcGetFlowNameA
 title: TcGetFlowNameA function
-author: windows-driver-content
+author: windows-sdk-content
 description: The TcGetFlowName function provides the name of a flow that has been created by the calling client.
 old-location: qos\tcgetflowname.htm
 old-project: QOS
 ms.assetid: 49a78c9a-6aac-4348-9f26-dfd331dc83ec
-ms.author: windowsdriverdev
-ms.date: 3/23/2018
+ms.author: windowssdkdev
+ms.date: 03/23/2018
 ms.keywords: TcGetFlowName, TcGetFlowName function [QOS], TcGetFlowNameA, TcGetFlowNameW, _gqos_tcgetflowname, qos.tcgetflowname, traffic/TcGetFlowName, traffic/TcGetFlowNameA, traffic/TcGetFlowNameW
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: traffic.h
 req.include-header: 

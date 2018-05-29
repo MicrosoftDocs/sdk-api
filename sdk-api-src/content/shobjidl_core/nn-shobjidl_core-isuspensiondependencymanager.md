@@ -1,16 +1,16 @@
 ---
 UID: NN:shobjidl_core.ISuspensionDependencyManager
 title: ISuspensionDependencyManager
-author: windows-driver-content
+author: windows-sdk-content
 description: "."
 old-location: shell\ISuspensionDependencyManager.htm
 old-project: shell
 ms.assetid: F632DC0B-01EF-4421-ADF3-2CD5AD363CC0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: ISuspensionDependencyManager, ISuspensionDependencyManager interface [Windows Shell], ISuspensionDependencyManager interface [Windows Shell],described, shell.ISuspensionDependencyManager, shobjidl_core/ISuspensionDependencyManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h

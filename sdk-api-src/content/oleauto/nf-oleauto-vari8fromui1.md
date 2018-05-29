@@ -1,16 +1,16 @@
 ---
 UID: NF:oleauto.VarI8FromUI1
 title: VarI8FromUI1 function
-author: windows-driver-content
+author: windows-sdk-content
 description: Onverts an unsigned byte value to an 8-byte integer value.
 old-location: automat\vari8fromui1.htm
 old-project: automat
 ms.assetid: e746f4c1-338f-4cb3-a09e-69560e516649
-ms.author: windowsdriverdev
-ms.date: 5/4/2018
+ms.author: windowssdkdev
+ms.date: 05/04/2018
 ms.keywords: VarI8FromUI1, VarI8FromUI1 function [Automation], _oa96_VarI8FromUI1, automat.vari8fromui1, oleauto/VarI8FromUI1
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: oleauto.h
 req.include-header: 

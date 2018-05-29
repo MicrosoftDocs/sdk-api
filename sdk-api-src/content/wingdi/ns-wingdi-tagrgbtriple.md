@@ -1,16 +1,16 @@
 ---
 UID: NS:wingdi.tagRGBTRIPLE
 title: tagRGBTRIPLE
-author: windows-driver-content
+author: windows-sdk-content
 description: The RGBTRIPLE structure describes a color consisting of relative intensities of red, green, and blue. The bmciColors member of the BITMAPCOREINFO structure consists of an array of RGBTRIPLE structures.
 old-location: gdi\rgbtriple.htm
 old-project: gdi
 ms.assetid: bc1467a5-0027-4f22-bfc9-1deab562c573
-ms.author: windowsdriverdev
-ms.date: 5/17/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: "*LPRGBTRIPLE, *NPRGBTRIPLE, *PRGBTRIPLE, RGBTRIPLE, RGBTRIPLE structure [Windows GDI], _win32_RGBTRIPLE_str, gdi.rgbtriple, tagRGBTRIPLE, wingdi/RGBTRIPLE"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: wingdi.h
 req.include-header: Windows.h

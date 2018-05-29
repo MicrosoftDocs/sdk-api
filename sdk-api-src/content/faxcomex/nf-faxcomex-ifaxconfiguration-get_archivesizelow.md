@@ -1,16 +1,16 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_ArchiveSizeLow
 title: IFaxConfiguration::get_ArchiveSizeLow
-author: windows-driver-content
+author: windows-sdk-content
 description: The value that specifies the low-order 32-bit value (in bytes) for the size of the fax message archive.
 old-location: fax\_mfax_ifaxconfiguration_archivesizelow.htm
 old-project: Fax
 ms.assetid: e10cde26-deec-47b8-bc69-0b785087ab74
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: ArchiveSizeLow property [Fax Service], ArchiveSizeLow property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],ArchiveSizeLow property, IFaxConfiguration.ArchiveSizeLow, IFaxConfiguration.get_ArchiveSizeLow, IFaxConfiguration::ArchiveSizeLow, IFaxConfiguration::get_ArchiveSizeLow, fax._mfax_ifaxconfiguration_archivesizelow, faxcomex/IFaxConfiguration::ArchiveSizeLow, faxcomex/IFaxConfiguration::get_ArchiveSizeLow, get_ArchiveSizeLow
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: faxcomex.h
 req.include-header: 

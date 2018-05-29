@@ -1,16 +1,16 @@
 ---
 UID: NN:docobj.IContinueCallback
 title: IContinueCallback
-author: windows-driver-content
+author: windows-sdk-content
 description: Provides a generic callback mechanism for interruptible processes that should periodically ask an object whether to continue.
 old-location: com\icontinuecallback.htm
 old-project: com
 ms.assetid: 55c960be-48e3-42e1-b459-49227be62171
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: IContinueCallback, IContinueCallback interface [COM], IContinueCallback interface [COM],described, _com_icontinuecallback, com.icontinuecallback, docobj/IContinueCallback
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: docobj.h
 req.include-header: 

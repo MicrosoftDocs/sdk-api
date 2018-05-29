@@ -1,16 +1,16 @@
 ---
 UID: NF:pla.IDataManager.get_MaxFolderCount
 title: IDataManager::get_MaxFolderCount
-author: windows-driver-content
+author: windows-sdk-content
 description: Retrieves or sets the maximum number of folders to be used by all data collectors in the set.
 old-location: pla\idatamanager_maxfoldercount.htm
 old-project: PLA
 ms.assetid: 71368635-e8c3-44fd-9d8a-f225b10225ba
-ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.author: windowssdkdev
+ms.date: 02/15/2018
 ms.keywords: IDataManager interface [PLA],MaxFolderCount property, IDataManager.MaxFolderCount, IDataManager.get_MaxFolderCount, IDataManager::MaxFolderCount, IDataManager::get_MaxFolderCount, IDataManager::put_MaxFolderCount, MaxFolderCount property [PLA], MaxFolderCount property [PLA],IDataManager interface, base.idatamanager_maxfoldercount, get_MaxFolderCount, pla.idatamanager_maxfoldercount, pla/IDataManager::MaxFolderCount, pla/IDataManager::get_MaxFolderCount, pla/IDataManager::put_MaxFolderCount
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: pla.h
 req.include-header: 

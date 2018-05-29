@@ -1,16 +1,16 @@
 ---
 UID: NF:azroles.IAzRole.DeleteAppMember
 title: IAzRole::DeleteAppMember
-author: windows-driver-content
+author: windows-sdk-content
 description: Removes the specified IAzApplicationGroup object from the list of application groups that belong to the role.
 old-location: security\iazrole_deleteappmember.htm
 old-project: SecAuthZ
 ms.assetid: b2856d75-cf16-4eec-a0e1-2e9e9fff601e
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: AzRole object [Security],DeleteAppMember method, DeleteAppMember, DeleteAppMember method [Security], DeleteAppMember method [Security],AzRole object, DeleteAppMember method [Security],IAzRole interface, IAzRole interface [Security],DeleteAppMember method, IAzRole.DeleteAppMember, IAzRole::DeleteAppMember, azroles/IAzRole::DeleteAppMember, security.iazrole_deleteappmember
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: azroles.h
 req.include-header: 

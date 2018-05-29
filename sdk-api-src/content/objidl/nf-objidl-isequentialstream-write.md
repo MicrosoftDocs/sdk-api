@@ -1,16 +1,16 @@
 ---
 UID: NF:objidl.ISequentialStream.Write
 title: ISequentialStream::Write
-author: windows-driver-content
+author: windows-sdk-content
 description: Writes a specified number of bytes into the stream object starting at the current seek pointer.
 old-location: stg\isequentialstream_write.htm
 old-project: Stg
 ms.assetid: f0323dda-6c31-4411-bf20-9650162109c0
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: ISequentialStream interface [Structured Storage],Write method, ISequentialStream.Write, ISequentialStream::Write, Write, Write method [Structured Storage], Write method [Structured Storage],ISequentialStream interface, _stg_isequentialstream_write, objidl/ISequentialStream::Write, stg.isequentialstream_write
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: objidl.h
 req.include-header: 

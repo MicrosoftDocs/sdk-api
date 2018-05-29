@@ -1,16 +1,16 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ScheduleEntryChanged
 title: IGuideDataEvent::ScheduleEntryChanged
-author: windows-driver-content
+author: windows-sdk-content
 description: The ScheduleEntryChanged method is called by the TIF when information about one or more schedule entries has changed.
 old-location: mstv\iguidedataevent_scheduleentrychanged.htm
 old-project: mstv
 ms.assetid: 04c278a0-8a92-4801-9463-696beb22819e
-ms.author: windowsdriverdev
-ms.date: 5/14/2018
+ms.author: windowssdkdev
+ms.date: 05/24/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ScheduleEntryChanged method, IGuideDataEvent.ScheduleEntryChanged, IGuideDataEvent::ScheduleEntryChanged, IGuideDataEventScheduleEntryChanged, ScheduleEntryChanged, ScheduleEntryChanged method [Microsoft TV Technologies], ScheduleEntryChanged method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ScheduleEntryChanged, mstv.iguidedataevent_scheduleentrychanged
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: bdatif.h
 req.include-header: 

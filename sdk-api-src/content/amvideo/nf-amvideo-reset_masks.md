@@ -1,16 +1,16 @@
 ---
 UID: NF:amvideo.RESET_MASKS
 title: RESET_MASKS macro
-author: windows-driver-content
+author: windows-sdk-content
 description: The RESET_MASKS macro fills the color mask fields in a VIDEOINFO structure with zeroes.
 old-location: dshow\reset_masks.htm
 old-project: DirectShow
 ms.assetid: 039a43c1-c795-4374-ada8-2ea611c6409a
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: RESET_MASKS, RESET_MASKS macro [DirectShow], amvideo/RESET_MASKS, dshow.reset_masks
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: amvideo.h
 req.include-header: Streams.h

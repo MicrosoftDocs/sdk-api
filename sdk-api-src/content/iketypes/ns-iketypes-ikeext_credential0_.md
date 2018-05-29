@@ -1,16 +1,16 @@
 ---
 UID: NS:iketypes.IKEEXT_CREDENTIAL0_
 title: IKEEXT_CREDENTIAL0_
-author: windows-driver-content
+author: windows-sdk-content
 description: Is used to store credential information used for the authentication.
 old-location: fwp\ikeext_credential0.htm
 old-project: FWP
 ms.assetid: cb5aa4b6-71e7-43d4-a69c-4f209cd9755b
-ms.author: windowsdriverdev
-ms.date: 5/8/2018
+ms.author: windowssdkdev
+ms.date: 05/08/2018
 ms.keywords: IKEEXT_CREDENTIAL0, IKEEXT_CREDENTIAL0 structure [Filtering], IKEEXT_CREDENTIAL0_, fwp.ikeext_credential0, iketypes/IKEEXT_CREDENTIALS0
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: struct
 req.header: iketypes.h
 req.include-header: 

@@ -1,16 +1,16 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.Flush
 title: IMFASFMultiplexer::Flush
-author: windows-driver-content
+author: windows-sdk-content
 description: Signals the multiplexer to process all queued output media samples. Call this method after passing the last sample to the multiplexer.
 old-location: mf\imfasfmultiplexer_flush.htm
 old-project: medfound
 ms.assetid: 44a66374-ad9d-4c76-8c95-21a15e071c6d
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: 44a66374-ad9d-4c76-8c95-21a15e071c6d, Flush, Flush method [Media Foundation], Flush method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],Flush method, IMFASFMultiplexer.Flush, IMFASFMultiplexer::Flush, mf.imfasfmultiplexer_flush, wmcontainer/IMFASFMultiplexer::Flush
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: wmcontainer.h
 req.include-header: 

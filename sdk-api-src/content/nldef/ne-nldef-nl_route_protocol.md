@@ -1,16 +1,16 @@
 ---
 UID: NE:nldef.NL_ROUTE_PROTOCOL
 title: NL_ROUTE_PROTOCOL
-author: windows-driver-content
+author: windows-sdk-content
 description: The NL_ROUTE_PROTOCOL enumeration type defines the routing mechanism that an IP route was added with, as described in RFC 4292.
 old-location: netvista\nl_route_protocol.htm
 old-project: netvista
 ms.assetid: 4bf6256d-e07e-45a8-a269-e32e88642b79
-ms.author: windowsdriverdev
-ms.date: 5/21/2018
+ms.author: windowssdkdev
+ms.date: 05/21/2018
 ms.keywords: "*PNL_ROUTE_PROTOCOL, MIB_IPPROTO_BBN, MIB_IPPROTO_BGP, MIB_IPPROTO_CISCO, MIB_IPPROTO_EGP, MIB_IPPROTO_ES_IS, MIB_IPPROTO_GGP, MIB_IPPROTO_HELLO, MIB_IPPROTO_ICMP, MIB_IPPROTO_IS_IS, MIB_IPPROTO_LOCAL, MIB_IPPROTO_NETMGMT, MIB_IPPROTO_NT_AUTOSTATIC, MIB_IPPROTO_NT_STATIC, MIB_IPPROTO_NT_STATIC_NON_DOD, MIB_IPPROTO_OSPF, MIB_IPPROTO_OTHER, MIB_IPPROTO_RIP, NL_ROUTE_PROTOCOL, NL_ROUTE_PROTOCOL enumeration [Network Drivers Starting with Windows Vista], PNL_ROUTE_PROTOCOL, PNL_ROUTE_PROTOCOL enumeration pointer [Network Drivers Starting with Windows Vista], RouteProtocolBbn, RouteProtocolBgp, RouteProtocolCisco, RouteProtocolEgp, RouteProtocolEsIs, RouteProtocolGgp, RouteProtocolHello, RouteProtocolIcmp, RouteProtocolIsIs, RouteProtocolLocal, RouteProtocolNetMgmt, RouteProtocolOspf, RouteProtocolOther, RouteProtocolRip, iphelper_af0732ae-40e7-4fdf-9ccd-f5c58c4a693b.xml, netvista.nl_route_protocol, nldef/MIB_IPPROTO_BBN, nldef/MIB_IPPROTO_BGP, nldef/MIB_IPPROTO_CISCO, nldef/MIB_IPPROTO_EGP, nldef/MIB_IPPROTO_ES_IS, nldef/MIB_IPPROTO_GGP, nldef/MIB_IPPROTO_HELLO, nldef/MIB_IPPROTO_ICMP, nldef/MIB_IPPROTO_IS_IS, nldef/MIB_IPPROTO_LOCAL, nldef/MIB_IPPROTO_NETMGMT, nldef/MIB_IPPROTO_NT_AUTOSTATIC, nldef/MIB_IPPROTO_NT_STATIC, nldef/MIB_IPPROTO_NT_STATIC_NON_DOD, nldef/MIB_IPPROTO_OSPF, nldef/MIB_IPPROTO_OTHER, nldef/MIB_IPPROTO_RIP, nldef/NL_ROUTE_PROTOCOL, nldef/PNL_ROUTE_PROTOCOL, nldef/RouteProtocolBbn, nldef/RouteProtocolBgp, nldef/RouteProtocolCisco, nldef/RouteProtocolEgp, nldef/RouteProtocolEsIs, nldef/RouteProtocolGgp, nldef/RouteProtocolHello, nldef/RouteProtocolIcmp, nldef/RouteProtocolIsIs, nldef/RouteProtocolLocal, nldef/RouteProtocolNetMgmt, nldef/RouteProtocolOspf, nldef/RouteProtocolOther, nldef/RouteProtocolRip"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: nldef.h
 req.include-header: Netioapi.h
@@ -39,7 +39,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: Newdev.lib
-req.dll: Newdev.dll
+req.dll: 
 req.irql: 
 req.product: Rights Management Services client 1.0 or later
 ---

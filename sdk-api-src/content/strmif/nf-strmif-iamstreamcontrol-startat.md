@@ -1,16 +1,16 @@
 ---
 UID: NF:strmif.IAMStreamControl.StartAt
 title: IAMStreamControl::StartAt
-author: windows-driver-content
+author: windows-sdk-content
 description: The StartAt method informs the pin when to start delivering data.
 old-location: dshow\iamstreamcontrol_startat.htm
 old-project: DirectShow
 ms.assetid: ce155b83-ee4a-47d4-9258-a1d18cf25f8b
-ms.author: windowsdriverdev
-ms.date: 5/16/2018
+ms.author: windowssdkdev
+ms.date: 05/16/2018
 ms.keywords: IAMStreamControl interface [DirectShow],StartAt method, IAMStreamControl.StartAt, IAMStreamControl::StartAt, IAMStreamControlStartAt, StartAt, StartAt method [DirectShow], StartAt method [DirectShow],IAMStreamControl interface, dshow.iamstreamcontrol_startat, strmif/IAMStreamControl::StartAt
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: method
 req.header: strmif.h
 req.include-header: Dshow.h

@@ -1,16 +1,16 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_SET_HASH_ALGORITHM_FN
 title: PIBIO_ENGINE_SET_HASH_ALGORITHM_FN
-author: windows-driver-content
+author: windows-sdk-content
 description: Selects a hash algorithm for use in subsequent operations.
 old-location: secbiomet\engineadaptersethashalgorithm.htm
 old-project: SecBioMet
 ms.assetid: 0d16d82a-287c-4402-ac10-f601684bd976
-ms.author: windowsdriverdev
-ms.date: 4/24/2018
+ms.author: windowssdkdev
+ms.date: 04/24/2018
 ms.keywords: EngineAdapterSetHashAlgorithm, EngineAdapterSetHashAlgorithm callback function [Windows Biometric Framework API], PIBIO_ENGINE_SET_HASH_ALGORITHM_FN, PIBIO_ENGINE_SET_HASH_ALGORITHM_FN callback, secbiomet.engineadaptersethashalgorithm, winbio_adapter/EngineAdapterSetHashAlgorithm
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: callback
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h

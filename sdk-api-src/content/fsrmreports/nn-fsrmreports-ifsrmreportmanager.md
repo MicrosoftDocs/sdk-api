@@ -1,16 +1,16 @@
 ---
 UID: NN:fsrmreports.IFsrmReportManager
 title: IFsrmReportManager
-author: windows-driver-content
+author: windows-sdk-content
 description: Used to manage report jobs.
 old-location: fsrm\ifsrmreportmanager.htm
 old-project: Fsrm
 ms.assetid: 112ed457-1083-4550-abd6-933f4b128e9a
-ms.author: windowsdriverdev
-ms.date: 4/18/2018
+ms.author: windowssdkdev
+ms.date: 04/18/2018
 ms.keywords: IFsrmReportManager, IFsrmReportManager interface [File Server Resource Manager], IFsrmReportManager interface [File Server Resource Manager],described, fs.ifsrmreportmanager, fsrm.ifsrmreportmanager, fsrmreports/IFsrmReportManager
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: interface
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h

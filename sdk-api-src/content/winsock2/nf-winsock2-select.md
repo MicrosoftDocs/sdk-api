@@ -1,16 +1,16 @@
 ---
 UID: NF:winsock2.select
 title: select function
-author: windows-driver-content
+author: windows-sdk-content
 description: The select function determines the status of one or more sockets, waiting if necessary, to perform synchronous I/O.
 old-location: winsock\select_2.htm
 old-project: WinSock
 ms.assetid: f9f1092d-7e15-41cd-a42f-abe8a4f33e15
-ms.author: windowsdriverdev
-ms.date: 4/30/2018
+ms.author: windowssdkdev
+ms.date: 04/30/2018
 ms.keywords: "_win32_select_2, select, select function [Winsock], winsock.select_2, winsock2/select"
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: winsock2.h
 req.include-header: 

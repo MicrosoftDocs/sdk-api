@@ -1,16 +1,16 @@
 ---
 UID: NF:winerror.HRESULT_SEVERITY
 title: HRESULT_SEVERITY macro
-author: windows-driver-content
+author: windows-sdk-content
 description: Extracts the severity field of the specified HRESULT.
 old-location: com\hresult_severity_macro.htm
 old-project: com
 ms.assetid: e574ddc2-e950-4618-bc16-1b99989a4a68
-ms.author: windowsdriverdev
-ms.date: 5/22/2018
+ms.author: windowssdkdev
+ms.date: 05/22/2018
 ms.keywords: HRESULT_SEVERITY, HRESULT_SEVERITY macro [COM], _com_HRESULT_SEVERITY, com.hresult_severity, com.hresult_severity_macro, winerror/HRESULT_SEVERITY
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: macro
 req.header: winerror.h
 req.include-header: 

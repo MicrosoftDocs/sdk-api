@@ -1,16 +1,16 @@
 ---
 UID: NF:d3dcompiler.D3DCompileFromFile
 title: D3DCompileFromFile function
-author: windows-driver-content
+author: windows-sdk-content
 description: Compiles Microsoft High Level Shader Language (HLSL) code into bytecode for a given target.
 old-location: direct3dhlsl\d3dcompilefromfile.htm
 old-project: direct3dhlsl
 ms.assetid: 09F1DB4F-C279-4E25-8A1C-34272EB62C07
-ms.author: windowsdriverdev
-ms.date: 4/12/2018
+ms.author: windowssdkdev
+ms.date: 04/12/2018
 ms.keywords: D3DCompileFromFile, D3DCompileFromFile function [HLSL], d3dcompiler/D3DCompileFromFile, direct3dhlsl.d3dcompilefromfile
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: function
 req.header: d3dcompiler.h
 req.include-header: 

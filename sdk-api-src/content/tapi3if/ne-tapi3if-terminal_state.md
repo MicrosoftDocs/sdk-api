@@ -1,16 +1,16 @@
 ---
 UID: NE:tapi3if.TERMINAL_STATE
 title: TERMINAL_STATE
-author: windows-driver-content
+author: windows-sdk-content
 description: The TERMINAL_STATE enum describes the current state of a terminal device. This enum is returned by the ITTerminal::get_State method.
 old-location: tapi3\terminal_state.htm
 old-project: Tapi
 ms.assetid: 310c41f5-dfe7-491d-8669-87a98694f5b7
-ms.author: windowsdriverdev
-ms.date: 5/18/2018
+ms.author: windowssdkdev
+ms.date: 05/25/2018
 ms.keywords: TERMINAL_STATE, TERMINAL_STATE enumeration [TAPI 2.2], TS_INUSE, TS_NOTINUSE, _tapi3_terminal_state, tapi3.terminal_state, tapi3if/TERMINAL_STATE, tapi3if/TS_INUSE, tapi3if/TS_NOTINUSE
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.prod: windows
+ms.technology: windows-sdk
 ms.topic: enum
 req.header: tapi3if.h
 req.include-header: 
